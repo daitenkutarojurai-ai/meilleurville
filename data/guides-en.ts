@@ -36412,6 +36412,375 @@ export const EN_GUIDES: EnGuide[] = [
       "hauts-de-france",
     ],
   },
+  {
+    slug: "things-to-do-in-pontoise-2026",
+    title: "Things to do in Pontoise: the town where Pissarro worked",
+    metaTitle: "Things to Do in Pontoise, Val-d'Oise (2026)",
+    metaDesc:
+      "A twelfth-century cathedral, a Gothic townhouse turned museum, the world's largest Otto Freundlich holding, and the hillside Pissarro painted.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Pontoise had 31,623 residents at the 2022 census against 30,690 in 2016 and 29,885 in 2011: the town is gaining people steadily. Its name is now attached to the new town next door, and that is the misunderstanding to clear up on arrival, because Pontoise itself is old, perched above the Oise, and has a cathedral, ramparts and two municipal museums. It is also the town where Camille Pissarro spent most of his working life, and from which Impressionism spread through the valley. For an English-speaking visitor there is a second reason to come, set out below: part of that story happened in south London.",
+    sections: [
+      {
+        heading: "Saint-Maclou cathedral",
+        body: "The building went up between 1140 and 1165, which makes it a contemporary of the first great Gothic sites of the Paris basin, and it kept its east end, its ambulatory and its transept windows from that campaign. In the second half of the fifteenth century the original Romanesque front was replaced by the flamboyant facade you see today, so the three-century gap between the front and the back of the same building can be read from the street, provided you walk round it. Saint-Maclou has only been a cathedral since 1966, the year the diocese of Pontoise was created. Most of the paintings it holds came from religious houses closed at the Revolution, which is why a church of this size contains such a mismatched set.",
+      },
+      {
+        heading: "The Tavet-Delacour museum and its Gothic townhouse",
+        body: "The museum occupies a mansion built between 1477 and 1483 for the archbishop of Rouen, to house his vicar general at Pontoise. Corner turrets, candle-snuffer roofs, mullioned windows, exposed beams: it is a rare survival of late Gothic domestic architecture, and the building is worth the visit independently of what is inside it. It became a museum after an offer made to the town in 1889 by a Monsieur Tavet, one of the founders of the local history society, who installed his collections in it. The two municipal museums have since been merged under the name musée d'Art et d'Histoire Pissarro, so check before you travel which site is open and what is on show there, because the collections have been redistributed between them.",
+      },
+      {
+        heading: "Otto Freundlich, the collection nobody expects",
+        body: "This is the museum's most important holding and the least predictable thing in a town of thirty thousand. The collections were enlarged in 1968 by a donation devoted to Otto Freundlich, and the group kept at Pontoise is the largest in the world for that artist. Freundlich was a pioneer of abstraction whose work was singled out by the Nazi regime as an example of degenerate art; he died in deportation. Seeing this body of work here, in a fifteenth-century mansion, produces a dissonance the museum makes no attempt to soften, and that is what makes the visit interesting. A visitor who came for Impressionism will leave with something other than what they came for.",
+      },
+      {
+        heading: "The Five Senses garden and the casemates",
+        body: "The museum grounds hold a garden of the five senses, planted with aromatics and medicinal species and designed so that the plants can also be identified by touch and smell by visitors with impaired sight. The same garden gives access to casemates, remains of the town's old fortifications, and to an open view over the Oise valley from the ramparts. It is the best place to understand the geography of Pontoise: an upper town, fortified, sitting on a spur, and a river below it that has been the subject of several hundred paintings. Entry is free and it takes no more than half an hour.",
+      },
+      {
+        heading: "The Pissarro museum and the Hermitage",
+        body: "The museum devoted to Camille Pissarro was created in 1980 and occupies a nineteenth-century house looking down on the valley and the old town, so the site is as much the subject as the collection: from the windows you are looking at roughly what the painter had in front of him. It holds drawings and prints by Pissarro, work by his sons, and artists tied to the history of the town and the valley, from Daubigny to Caillebotte. The paintings themselves were made a few streets away. Pissarro settled at Pontoise in 1866, stayed two years, came back in 1872 and remained until the early 1880s, using the Hermitage quarter, then a hillside of gardens and low houses, as an open-air studio. The town has waymarked a route through those positions, with reproductions of the canvases facing their motifs. You walk it comparing a survey of 1875 with the state of things today, and the result is better than a postcard: some viewpoints are intact, others have become an ordinary street. If you only do one walk here, do that one.",
+      },
+      {
+        heading: "What Pontoise sent down the valley",
+        body: "Pissarro did not paint alone. In 1872, once he had settled for good, he brought Cézanne and Guillaumin out; the three worked on the banks of the Oise and learned engraving at Doctor Gachet's house at Auvers. Gauguin was his pupil between 1879 and 1883. Around this one hillside those painters produced several hundred canvases. And it was through Pissarro that Van Gogh reached Auvers-sur-Oise in 1890, on a recommendation addressed to Gachet. One point of geography matters: Auvers is a commune in its own right, a few kilometres downstream, and what is visited there is not visited at Pontoise. The two towns are read together; they are not the same place.",
+      },
+      {
+        heading: "The London half of the story",
+        body: "Pissarro was born in 1830 at Charlotte Amalie on Saint Thomas, then in the Danish West Indies, and he remained a Danish citizen his whole life, never taking French nationality. When the Franco-Prussian war broke out he left his house at Louveciennes in September 1870, and by December he and his family had taken refuge in Upper Norwood, in south London. Twelve oil paintings date from that stay, among them views of the relocated Crystal Palace, Lordship Lane station and Dulwich; two of them, Fox Hill, Upper Norwood and The Avenue, Sydenham, hang in the National Gallery. He came back in June 1871 to find the Louveciennes house wrecked by Prussian troops and a large part of his early work destroyed with it, which is one reason the Pontoise years matter so much. The connection did not stop with him: his son Lucien moved permanently to London in 1890, founded a private press with his wife, became a British citizen in 1916 and was a founder member of the Camden Town Group in 1911. A visitor from Britain is therefore looking at the other end of a story whose second half is in their own national collections.",
+      },
+      {
+        heading: "Notre-Dame, the galleries under the town, and getting there",
+        body: "Notre-Dame, in the lower town, was built in the twelfth century, destroyed in 1589 during the siege of Pontoise in the Wars of Religion, then rebuilt in 1599, with its porch reworked in the eighteenth century. It is less spectacular than the cathedral but it tells you something the cathedral does not: this was a strategic town on the road into Normandy, taken and retaken often enough for its churches to carry the marks. Under the streets, galleries have been quarried since the Middle Ages in the limestone the town above was built from; they are not open to wander, visits are guided and the calendar is irregular, so they are the sort of thing to book when the chance comes rather than hope to find open. The Carmel, founded in 1605, is the oldest still in activity and its gardens and chapel can be visited. As for access, Pontoise is on the suburban rail network from Paris and works as a day trip without a car. One day is plenty: the cathedral, one of the two museums, the Five Senses garden and the Hermitage route fit into an afternoon. The town also makes a base for the Oise valley, Auvers and the Vexin, all under half an hour away. Practical warning: the old town is steep and cobbled, and the climb from the river to the cathedral forecourt is felt in the legs.",
+      },
+    ],
+    relatedCities: ["pontoise", "cergy", "argenteuil", "poissy"],
+    tags: ["things to do in pontoise", "pontoise", "travel", "city guide", "ile de france"],
+  },
+
+  {
+    slug: "things-to-do-in-haguenau-2026",
+    title: "Things to do in Haguenau: an imperial town burned twice in one year",
+    metaTitle: "Things to Do in Haguenau, Alsace (2026)",
+    metaDesc:
+      "An emperor's palace that no longer exists, the largest jointly owned forest in France, and a luggage museum with no equivalent in Europe.",
+    category: "city-guide",
+    emoji: "🌲",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Haguenau had 36,070 residents at the 2022 census against 34,460 in 2016 and 34,619 in 2011. It is one of the larger towns of the Bas-Rhin and one of those you drive through on the way to Germany without stopping. The visit has a single key, and it is worth holding from the moment you arrive: Haguenau was an imperial residence, then it was burned twice in the same year, 1677, then wrecked again in 1945. What you look at here is almost never the original, and that is what makes the town legible.",
+    sections: [
+      {
+        heading: "The history museum",
+        body: "Built between 1900 and 1905, the history museum is a neo-Renaissance building with heavy ornament, put up to frame the town's imperial past at a time when Alsace was German. Several rooms follow the history of Haguenau from its foundation in the twelfth century; another is devoted to Art Nouveau and Art Deco. The archaeological collections are among the most important in the region, with Bronze Age and Iron Age material excavated in the forest next door, where hundreds of burial mounds have been dug. It is the logical place to start, because without it the town reads badly: the most important thing about it no longer exists.",
+      },
+      {
+        heading: "What Barbarossa left, and what he did not",
+        body: "In 1162 Frederick I of Hohenstaufen, known as Barbarossa and Holy Roman Emperor since 1152, set about turning the local fortress into a palace able to hold the court during his Alsatian stays. He granted the town a charter of liberties in 1164. The palatine chapel, built between 1170 and 1184, had three superimposed naves. Emperors lived here on and off until 1250, and by the end of the thirteenth century Haguenau was the seat of the grand bailiff, the emperor's representative in Alsace. Of that palace nothing survives: the chapel went in 1687 and the imperial castle went with the town. It is an absence that has to be named, or you will spend a day looking for a monument that is not there.",
+      },
+      {
+        heading: "What an imperial town was",
+        body: "The Holy Roman Empire was not a state in the modern sense but a loose federation, and a free imperial town inside it answered to the emperor alone rather than to any intermediate lord: it raised its own taxes, ran its own courts and maintained its own walls. That status is what paid for the medieval building work, and losing it explains the rest. Haguenau led the Decapole, an association of ten Alsatian towns formed in 1354 to defend those privileges jointly against the territorial princes. During the Dutch War the French occupied the town from 1673; in 1677, to stop imperial troops from holding the Decapole towns, Louis XIV and his war minister Louvois applied a scorched-earth policy and had the inhabitants evacuated.",
+      },
+      {
+        heading: "1677, then 1945",
+        body: "The town was burned twice in the same year: first on 10 February 1677 by General de Montclar, then from 16 to 17 September by Marshal de Créquy. The imperial castle disappeared then. Haguenau only really revived from 1715, after the War of the Spanish Succession, and rebuilt itself so thoroughly that it became, after Strasbourg and Colmar, the Alsatian town richest in eighteenth-century buildings. That is the century you are looking at in the centre. Then the town was occupied in 1940 and, like the whole north of Alsace, was not free until March 1945, after two months of fighting on the Moder. English-language accounts of that winter usually reach it under another name: Operation Nordwind, the last German offensive on the Western Front, launched in Alsace in January 1945, which ended with the US Seventh Army holding the south bank of the Moder just below the town. Haguenau rebuilt again after 1950.",
+      },
+      {
+        heading: "Saint-Georges and Saint-Nicolas",
+        body: "Work on Saint-Georges began in 1143 and the building was listed as a historic monument in 1848, which makes it one of the very first protected in the department. It was the parish church of the merchant town, on the hinge between Romanesque and Gothic, and it came through the successive destructions better than the rest. It keeps good early furnishings, and the interior is larger than the facade suggests from the square. If you have only an hour, this is the one: central, open, and older than everything around it. Saint-Nicolas, founded in the twelfth century by Barbarossa, is the other large church, Gothic, plainer and less visited. It holds a remarkable set of carved wooden panelling, brought here after the Revolution from an abbey suppressed at that date, and that is the real reason to go. Doing both in one morning is the best way to measure what an imperial town could afford to build: two churches on this scale for a population that was tiny by today's standards.",
+      },
+      {
+        heading: "The Musée du Bagage",
+        body: "Installed on the rue Saint-Georges in the old Banque de France building, the luggage museum shows a collection with no equivalent in Europe: cabin trunks, travelling cases, luggage by the great makers, from the eighteenth century to the 1960s. The subject sounds slight and it is not. Every piece says how people travelled, with what, for how long and in which social class, and a steamer wardrobe trunk and a post-war holdall do not describe the same civilisation. It is the most unexpected museum in the town and the one visitors most often come out of surprised, including the ones who only came to keep somebody company.",
+      },
+      {
+        heading: "The Alsatian museum",
+        body: "Haguenau's Alsatian museum covers the customs, furniture and folk art of the region, with a rural emphasis: costume, headdresses, printed images, household objects and craft tools. Do not confuse it with the musée alsacien in Strasbourg, which has the same name and the same subject in another town and at another scale. This one has the advantage of being close to the countryside it documents: the villages a good part of the exhibits came from are a few kilometres away and you can go and see them straight afterwards. It complements the history museum rather than duplicating it.",
+      },
+      {
+        heading: "The undivided forest, the Gros Chêne, and getting there",
+        body: "The forest of Haguenau covers 13,406 hectares and is the largest state forest in France held in undivided ownership. The word matters: an ordinance of Louis XIV of 28 August 1696 turned centuries-old rights of use into a right of property, and since then the town and the State have been co-owners in equal shares. Scots pine and oak each take a little over a third of the area, ahead of beech and birch. It was never cleared, because of the poor fertility of its sandy soils and its marshy character, the forest sitting on the alluvial fans laid down by the Moder and the Sauer. Waymarked paths start from the northern edge of the town. In the middle of the massif, the place called the Gros Chêne takes its name from an oak of five or six centuries struck by lightning in the early twentieth century; legend has Saint Arbogast, sixth bishop of Strasbourg, living here as a hermit. It is now the main starting point for forest walks, with a laid-out picnic area. Practically, Haguenau is on the railway between Strasbourg and Wissembourg, about thirty kilometres from the Alsatian capital, so it works as a day trip without a car. Allow a day for the town and its museums, half a day more to walk in the forest, and know that the three municipal museums do not all open on the same days.",
+      },
+    ],
+    relatedCities: ["haguenau", "strasbourg", "colmar", "saverne"],
+    tags: ["things to do in haguenau", "haguenau", "travel", "city guide", "alsace", "grand est"],
+  },
+
+  {
+    slug: "things-to-do-in-ales-2026",
+    title: "Things to do in Alès: seven hundred metres of mine galleries",
+    metaTitle: "Things to Do in Alès, Gard (2026)",
+    metaDesc:
+      "The largest visitable mine network in France, a fort from the Camisard war, a museum built by Picasso's printer, and the valleys Stevenson walked.",
+    category: "city-guide",
+    emoji: "⛏️",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Alès had 45,025 residents at the 2022 census, which makes it the second commune of the Gard, well behind Nîmes and well ahead of the rest. It sells itself as the gateway to the Cévennes, which is geographically accurate and misleading as tourism: people drive through it on the way to somewhere else, when in fact it holds the best industrial site open to visitors in the region. Alès lived on coal, silk and metalworking, and it has the rare distinction of having kept, in working order, the tool it used to train its miners.",
+    sections: [
+      {
+        heading: "The Mine Témoin",
+        body: "This is the monument of Alès, and monument is not an exaggeration. The Mine Témoin was created in 1945 in the Rochebelle quarter to train the coalfield's apprentice miners, and it offers seven hundred metres of galleries, the largest natural mine network open to visitors in France. The route runs through coal working from the 1880s to the recent period: roof support, cutting methods, machinery, lighting, ventilation. In an hour and a half you understand things no museum panel conveys, starting with the real headroom of the seams people worked in. Bring a layer: the underground temperature does not change with the season.",
+      },
+      {
+        heading: "What a training mine changes",
+        body: "The distinction is worth making because it separates Alès from most mining sites open to the public. This is not a reconstruction: it is the former training centre of the Houillères des Cévennes, where hundreds of apprentices actually went down between 1945 and 1968. The galleries were cut in order to teach, so they are didactic by construction, and they bring together equipment from several periods that no single working mine would ever have had side by side. That hybrid status, neither a production mine nor a stage set, is why the visit is so readable. It is also why the site could be kept when the production shafts were filled in.",
+      },
+      {
+        heading: "The PAB museum at the château de Rochebelle",
+        body: "The Pierre-André Benoit museum and library occupies the château de Rochebelle, the former residence of the bishops of Alès, on the heights of the quarter of the same name. Pierre-André Benoit, born in 1921 and dead in 1993, was a printer, a publisher of artists' books and a collector; among others he knew and published Picasso, Picabia, Miró and Braque. The holdings come from his gift to the town. So what you look at is less a set of isolated pictures than a network of friendships and a trade: books printed in tiny editions, engravings, dedications, correspondence. It is a workshop museum rather than a gallery, and the park around it gives one of the most open views over the town.",
+      },
+      {
+        heading: "The Vauban fort and the Bosquet gardens",
+        body: "The fort stands in the Bosquet gardens, above the centre. Louis XIV ordered it built to quarter royal troops during the war of the Camisards, the rising of the Protestant Cévenols that followed the revocation of the Edict of Nantes in 1685. The Camisards were Huguenots, the word English readers are more likely to know, and the revolt was a guerrilla war rather than a set of battles. That is a useful thing to carry into the mountains afterwards: this landscape of valleys and ridges was fought over, and the villages visited today were military objectives. The fort is not visited as a museum, but the gardens around it are public and make the pleasantest town walk in Alès.",
+      },
+      {
+        heading: "Stevenson's Cévennes",
+        body: "For an English-speaking visitor the Cévennes have one obvious literary door, and Alès is at the bottom of it. Robert Louis Stevenson walked from Le Monastier to Saint-Jean-du-Gard between 22 September and 3 October 1878, twelve days and about a hundred and twenty miles in the company of a donkey called Modestine, and published Travels with a Donkey in the Cévennes the following year. Saint-Jean-du-Gard, where the walk ended and where he sold Modestine, is in the valleys upstream of Alès, in the same country as Anduze. The last part of the book is set among the Camisards, so the fort in the Bosquet gardens and the closing chapters describe the same war from opposite sides. A waymarked long-distance path now follows the route, and walkers come off it into Alès for the train.",
+      },
+      {
+        heading: "The former cathedral and the Ermitage chapel",
+        body: "Saint-Jean-Baptiste stands on ground occupied without a break since the Gallo-Roman period and mixes building campaigns, most of its present architecture being seventeenth century. Alès was the seat of a bishopric, which explains the title of cathedral, kept by the building after the diocese disappeared. It is one of the few points where the medieval fabric still surfaces, the rest having been heavily reworked by industry and then by post-war rebuilding. Look at it together with the square around it rather than as a visit in itself. Then walk up to the Ermitage chapel, also called Notre-Dame-des-Mines, which watches the town from a spur at 290 metres. It was built from the twelfth century onward and its second dedication says everything about what it became: a place of devotion tied to the coalfield, in a country where people went underground every day. The climb is on foot from the town and the view covers the plain, the meeting of the gardons and the first line of the Cévennes. It is the exact counterpoint to the Mine Témoin.",
+      },
+      {
+        heading: "Pasteur, the silkworm and pébrine",
+        body: "Silk was the other industry of Alès, and its high point was 1855, the year pébrine appeared, a silkworm disease that wrecked the rearing houses of the Cévennes. Louis Pasteur stayed at Alès from 1865 to 1869 to find a remedy, and those four years count among the most decisive of his career: it was working on these flocks that he sharpened the method that led him to microbiology. The town keeps the memory of the episode, and it is worth carrying into the neighbouring valleys, because the large buildings with rows of identical windows that you see there are former silkworm houses, not ordinary farms.",
+      },
+      {
+        heading: "The Bambouseraie, the gateway, and getting there",
+        body: "The Bambouseraie is the great garden of the area, and one point needs stating: it is not at Alès but at Générargues, near Anduze, fifteen to thirty minutes away by road depending on traffic. It is a nineteenth-century exotic garden of giant bamboo, sequoias and Far Eastern plants, with a Laotian village and a dragon valley, and it combines well with Anduze and the Gardon valley in the same day. Gateway to the Cévennes is a slogan but it describes a real fact of relief: Alès sits where the valleys open and the plain stops. That has two practical consequences. The first is that the town is the cheapest base for the Cévennes national park, the valleys and the Anduze area, with lodging and eating at prices unrelated to Uzès or the tourist villages. The second is climatic: the autumn cévenol storms concern this relief and these watercourses, and it is reasonable to check the weather warnings before starting a walk in September or October. Alès has its own station, on the line linking Nîmes to Clermont-Ferrand through the Cévennes, and Nîmes is under an hour away. A full day covers the town: the Mine Témoin in the morning, the PAB museum and the Bosquet gardens in the afternoon, the Ermitage at the end of the day for the light. Two days let you add the Bambouseraie and one Cévenol valley. One warning applies here with particular force: the Mine Témoin closes for parts of the year and runs on timed slots, so check the opening times before you build a day around it, not after.",
+      },
+    ],
+    relatedCities: ["ales", "nimes", "montpellier", "mende"],
+    tags: ["things to do in ales", "ales", "travel", "city guide", "occitanie"],
+  },
+
+  {
+    slug: "things-to-do-in-villefranche-sur-saone-2026",
+    title: "Things to do in Villefranche-sur-Saône: courtyards behind the shopfronts",
+    metaTitle: "Things to Do in Villefranche-sur-Saône (2026)",
+    metaDesc:
+      "Dozens of Renaissance courtyards hidden behind an ordinary shopping street, a 72-metre spire, and the capital of Beaujolais half an hour from Lyon.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Villefranche-sur-Saône had 36,224 residents at the 2022 census against 37,266 in 2016 and 35,640 in 2011. As the capital of Beaujolais the town is usually visited for what surrounds it: the crus, the golden-stone villages, the cellars. That is a method error, because its heritage is almost entirely invisible from the street. Villefranche is visited by pushing doors open: behind the shopfronts of its main street lie dozens of Renaissance courtyards, and they are the real subject of the day.",
+    sections: [
+      {
+        heading: "Rue Nationale",
+        body: "This is the historic axis, now pedestrian, and the spine of any visit. It is lined with houses built in the fifteenth and sixteenth centuries, when Villefranche was prospering on its fairs and its trade. Taken at walking pace the street looks like the shopping street of any small French town, with ordinary signage at ground level. You have to look above the shopfronts, where the old facades were kept, and above all look at the side passages, because those are what give access to the point of the place. A visit that walks straight down the street misses what it came for.",
+      },
+      {
+        heading: "The Renaissance courtyards",
+        body: "The houses on the rue Nationale have a very particular geometry: a narrow frontage on the street, a deep plot, a first block of building, an inner courtyard, then a second block behind. The explanation traditionally given is fiscal, tax being calculated on the width facing the street, which pushed owners to build backwards. The result is a run of courtyards with galleries, spiral staircases and turrets, invisible from outside. A waymarked route takes you through some of them; the others are private property and open only for heritage days or guided visits. Asking at the tourist office before setting off changes the return on the day completely.",
+      },
+      {
+        heading: "The houses to look for by name",
+        body: "A few addresses hold most of the interest and are worth hunting down specifically. The maison des Dephelines, with its rib-vaulted passage. The maison de l'Italien, its courtyard of honour and its polygonal turret. La Pêcherie, which shows a Gothic front and a Renaissance front side by side, two states of taste a few decades apart. The maison à la Tourelle, and the Coupe d'Or inn. A late fifteenth-century Gothic facade with finials and pinnacles stands next to Renaissance decoration of the middle or later sixteenth century: the interest of the street lies precisely in that stacking of periods over fifty metres.",
+      },
+      {
+        heading: "The collegiate church of Notre-Dame-des-Marais",
+        body: "Its 72-metre spire dominates the town and serves as a landmark from the motorway. Work started in the twelfth century and finished in the sixteenth, which makes the building an open-air architecture manual: Romanesque at the base, a richly carved flamboyant front, with legible intermediate states in between. The name records what the site was, marshland by the Saône drained by the medieval town. It is the only monument in Villefranche visible from a distance and the only one that visitors in a hurry look at. It is very good, but it is not the most interesting thing in the town, which is rare enough to be worth saying.",
+      },
+      {
+        heading: "The Paul-Dini museum",
+        body: "Opened on 9 June 2001, the municipal museum occupies the former grain hall known as la Grenette, put up on the site in 1893 and refitted between 1999 and 2001. It came out of a donation: after a first gift on 15 August 1998, the collectors Muguette and Paul Dini gave the town about four hundred and fifty paintings. The permanent collection now passes twelve hundred works, with two or three temporary shows a year. The building, a nineteenth-century market hall converted, is worth visiting for itself: the open volumes suit hanging far better than the enfilade rooms of a townhouse. The subject is precise, and that is what gives the museum its value: painting from Lyon and the Rhône-Alpes from 1875 to the present. In other words a continuous regional school, followed over a hundred and fifty years, which no national museum narrates anywhere because it does not fit the Paris story of modern art. You see how painters trained in Lyon received, digested or refused Impressionism and then the twentieth-century avant-gardes without leaving the region. For a visitor who already knows the national collections, it is the most useful museum in Beaujolais, and it is very heavily under-visited relative to its quality.",
+      },
+      {
+        heading: "The Conscrits",
+        body: "The Conscrits festival was born around 1850 at Villefranche and has stayed more alive here than anywhere else in the region. The principle: each year everyone whose year of birth ends in the same digit as the current year celebrates together. In 2026 it is therefore the classes ending in 6, at ten-year intervals, who parade. The high point is the great wave on the rue Nationale, where the classes advance and retreat arm in arm in a swinging motion. The tradition was inscribed in 2020 on the national inventory of intangible cultural heritage in France, and a charter governs how it runs, to avoid excesses and slow the pace of change. That is not an administrative detail: it is what distinguishes the Villefranche Conscrits from the year-group festivals found elsewhere in Beaujolais and the Bresse, which purists do not call by the same name. For a visitor the interest is exactly there, because this is a festival genuinely practised by the inhabitants, with its rules, its costumes and its generations, and not a reconstruction staged for tourism. Check the dates with the tourist office: the event takes over the whole town for several days and accommodation is booked a long way ahead.",
+      },
+      {
+        heading: "Beaujolais, for a visitor who knows the name from the supermarket",
+        body: "Most English-speaking visitors know Beaujolais through Beaujolais Nouveau, and the useful thing to know is how narrow that is. A French decree of 1985 fixed the release at the third Thursday of November, a floating date chosen so the event would not fall at a weekend, and the rule applies only to the Beaujolais and Beaujolais-Villages appellations. The ten cru appellations, Brouilly, Côte de Brouilly, Régnié, Morgon, Chiroubles, Fleurie, Moulin-à-Vent, Chénas, Juliénas and Saint-Amour, are not allowed to make a nouveau at all; they are the wines the region would rather be judged on, and they sit north of the town. Villefranche is the administrative seat of the vineyard and the logical way in. The golden-stone villages are to the south-west, the crus to the north, and the whole thing fits in a radius of thirty kilometres or so. The trade-off is the usual one: staying in the town costs noticeably less than staying in the villages, at the price of a less picturesque setting. One point of local vocabulary: the inhabitants are called Caladois, from the old name of the town, and the word turns up on signs and posters without ever being explained.",
+      },
+      {
+        heading: "Getting there and how long to stay",
+        body: "Villefranche is on the rail line between Lyon and Mâcon, about thirty kilometres north of Lyon, and the journey from Lyon Part-Dieu takes under half an hour, so the town is a day trip without a car, which the vineyard is not. Allow half a day for the rue Nationale, its courtyards and the collegiate church, and a second half day for the Paul-Dini museum. The vineyard needs a car or an organised excursion, and two days if you want to see both the golden-stone country and the northern crus.",
+      },
+    ],
+    relatedCities: ["villefranche-sur-saone", "lyon", "macon", "bourg-en-bresse"],
+    tags: [
+      "things to do in villefranche-sur-saone",
+      "villefranche-sur-saone",
+      "travel",
+      "city guide",
+      "auvergne-rhone-alpes",
+    ],
+  },
+
+  {
+    slug: "things-to-do-in-six-fours-les-plages-2026",
+    title: "Things to do in Six-Fours-les-Plages: everything that is not on the beach",
+    metaTitle: "Things to Do in Six-Fours-les-Plages (2026)",
+    metaDesc:
+      "An early Christian chapel, a Louis Bréa polyptych, and a cape falling 358 metres into the sea, with the fire-season rule that decides your walking day.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Six-Fours-les-Plages had 36,843 residents at the 2022 census against 33,250 in 2016 and 34,275 in 2011. The commune spreads between Sanary and La Seyne on a broken peninsula, and its name states its own touristic weakness: people come for the beaches and leave without seeing what is rare here. Six-Fours holds one of the oldest surviving chapels in France, an early sixteenth-century altarpiece, and a wild cape that drops three hundred and fifty metres into the sea. None of it is on the seafront.",
+    sections: [
+      {
+        heading: "The old village and the fort",
+        body: "The hill above the town carried the original fortified village, and that is where to go first to understand the geography: the Toulon roadstead on one side, the bay of Sanary on the other, cap Sicié to the south. After the Franco-Prussian war of 1870 the Navy acquired the fortified village and a fort was built at the end of the nineteenth century to close the approaches to Toulon, the main base of the French Mediterranean fleet. During the Second World War the position was rearmed by the occupier as an anti-aircraft battery, in the months before the Allied landings in Provence of August 1944, which English-language accounts call Operation Dragoon. The fort remains a military site: you go up for the setting and for the church beside it, not to visit the works.",
+      },
+      {
+        heading: "The collegiate church of Saint-Pierre",
+        body: "It is up there, next to the fort, and it is the principal monument of the commune. The building goes back to the eleventh century and is unusual in being double: a primitive church to which a second nave was added much later, so that you cross several centuries by walking from one vessel into the other. Inside it keeps sixteenth and seventeenth-century paintings and objects. The contrast with the seaside resort below is total, and that is exactly the point of the climb: the old Six-Fours is perched and fortified because for a long time the coast was not a place where you could live quietly.",
+      },
+      {
+        heading: "The Louis Bréa polyptych",
+        body: "This is the work you climb to the collegiate church for. The polyptych of the Virgin, painted on wood, is attributed to Louis Bréa and dates from the early sixteenth century; it was listed as a historic monument in 1898 and has been restored recently. Bréa, born at Nice around 1450 and dead around 1523, worked mainly in the Genoa area and the county of Nice, and his painting mixes Lombard and Flemish influence. Finding a work by that hand in a Var village church is not obvious, and this kind of altarpiece rewards a long look: the side panels tell as much as the central one.",
+      },
+      {
+        heading: "Notre-Dame de Pépiole",
+        body: "This is the rare thing in the commune. The chapel of Pépiole is an early Christian building of the early Middle Ages, with proposed dates ranging from the fifth to the sixth century depending on the author, and it counts among the oldest surviving Christian monuments in France. Its form is unusual: three naves side by side, each ending in an apse, under low tiled roofs, in a small valley planted with pines and cypress. The windows, modern, are set with coloured bottle glass. You reach it by a small road away from the beaches, and the place is as quiet as the coast is saturated in summer. It is the exact counterpoint to the rest of the commune.",
+      },
+      {
+        heading: "Notre-Dame du Mai",
+        body: "The chapel of Notre-Dame du Mai stands at the summit of cap Sicié, 358 metres above the sea, and it is the major viewpoint of the area: in clear weather the coast unrolls from Cassis to Toulon with the hinterland behind. It is an old pilgrimage site linked to sailors, and the ex-votos it holds say a great deal about what navigation off this cape used to be. The access road climbs from the commune; walking up from the bottom is possible and it is steep. The wind blows here almost permanently, and a settled mistral makes staying at the top considerably less pleasant than it looks from the beach.",
+      },
+      {
+        heading: "Walking cap Sicié, and the rule that governs it",
+        body: "The cap Sicié massif is the best walking country in the area: cliffs, balcony paths, Mediterranean forest, and a coast that has stayed wild a few kilometres from Toulon. One rule conditions everything else and it is not optional. Access to the forest massifs of the Var is regulated by prefectoral order during the fire season, with risk levels assessed daily that can close the massif completely. That information is checked on the morning itself, on the prefecture website, and not the evening before. Setting off despite a closure is not a walker's lapse of judgement, it is an offence, and it also ties up rescue services other people need.",
+      },
+      {
+        heading: "Le Brusc and the Embiez",
+        body: "At the southern tip of the commune, Le Brusc is a Mediterranean fishing hamlet with its harbour, its boats and its cabins. It is the part of Six-Fours that looks least like a resort and most like a village, and it is from here that the boats leave for the islands. The sheltered water between Le Brusc and the islands is one of the great posidonia seagrass sites of the region, which explains the clarity of the water and means you anchor elsewhere when sailing. Come at the end of the day, when the boats come in, and the commune looks nothing like the sandy beaches to the north. The île des Embiez is reached by boat from the Brusc quay; the crossing is short and the timetable varies with the season, which is worth checking before committing with a car parked behind you. The island has an oceanographic research centre, salt pans, coastal paths and a harbour. A point of geography, as everywhere in this series: the Embiez are not Six-Fours, they belong to the commune but are visited as a separate excursion with their own timetable. Allow half a day at least, and do not cut the last shuttle fine.",
+      },
+      {
+        heading: "The cap Nègre battery, the beaches, and when to come",
+        body: "Built in 1846, the cap Nègre battery occupies a position between the bay of Sanary and the Brusc anchorage, and it was part of the defences protecting the approaches to Toulon. It completes what the fort says higher up: this coast was militarised for more than a century, first against a fleet and then against aircraft, and what a walker takes for picturesque ruins are the remains of a coherent system. The site is worth as much for the view as for the works, and it lets you approach the Six-Fours shoreline through something other than a parasol. The commune has several kilometres of coast, from sand in the north towards Sanary to rocky coves in the south, and the bays exposed to the west wind are a recognised windsurfing and board sports site, which is the compensation for the mistral. Six-Fours has no station; you arrive via Toulon or Ollioules-Sanary, then by bus or car, and seafront parking is the real black spot of July and August. The right season is spring or September: the sea is usable, the massifs are open, and Pépiole, the collegiate church and cap Sicié can be visited without crowds and without heat.",
+      },
+    ],
+    relatedCities: ["six-fours-les-plages", "toulon", "la-seyne-sur-mer", "sanary-sur-mer"],
+    tags: [
+      "things to do in six-fours-les-plages",
+      "six-fours-les-plages",
+      "travel",
+      "city guide",
+      "provence",
+    ],
+  },
+
+  {
+    slug: "things-to-do-in-blagnac-2026",
+    title: "Things to do in Blagnac: board a Concorde, watch an A350 being built",
+    metaTitle: "Things to Do in Blagnac, near Toulouse (2026)",
+    metaDesc:
+      "The only place in France where you can walk into a Concorde flight deck and look down on a working A350 assembly line, plus the brick village underneath.",
+    category: "city-guide",
+    emoji: "✈️",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Blagnac had 27,314 residents at the 2022 census against 24,288 in 2016 and 22,217 in 2011: the commune is growing fast, which few towns in this series are. It is known for its airport and for Airbus, and the general assumption is that there is nothing to do here but wait for a flight. That is wrong on one major point. This is where you go aboard a Concorde and watch an airliner being assembled, and there is nowhere else in France you can do either. The rest of the commune is a brick village on the bank of the Garonne.",
+    sections: [
+      {
+        heading: "Aeroscopia",
+        body: "The museum opened in January 2015, next to the Airbus plants, and it traces the history of aviation up to the present. The collection brings together aircraft you will not find gathered anywhere else: a Concorde, a Caravelle in Air Inter colours, a Super Guppy, an A300B, the manufacturer's first production aircraft, an A400M, an A380, and a replica of Roland Garros's Morane-Saulnier. A fifty-eight-metre mural follows the chronology of flight. The hall is large and the aircraft stand on the floor, which gives you the real scale of the machines: an A380 seen from the apron has nothing to do with an A380 seen from a boarding bridge.",
+      },
+      {
+        heading: "Going aboard",
+        body: "This is what separates Aeroscopia from other French aviation museums: several aircraft can be visited from the inside. You go into the flight deck of the Concorde and that of the Super Guppy, and you walk the cabin of an A380 and of an A300. The contrast between the narrow Concorde cabin with its tiny windows and the volume of an A380 says in five minutes what forty years of civil aviation changed, and why speed lost to capacity. For a visitor who flies without thinking about it, this is the most instructive moment of the day, and it is worth keeping for the end of the visit.",
+      },
+      {
+        heading: "The Concorde is half British",
+        body: "British visitors in particular should know what they are looking at, because the aircraft on the floor at Blagnac is the French half of a shared programme. Concorde was built under an Anglo-French treaty signed in London on 29 November 1962 by Sud-Aviation on one side and the British Aircraft Corporation on the other, with the engines developed jointly by Rolls-Royce and SNECMA. There were two final assembly lines, one at Toulouse and one at Filton, outside Bristol, and airframes were built in parallel at both. The first prototype flew from Toulouse on 2 March 1969, the British-assembled prototype from Filton a few weeks later. That is why a Concorde stands here and another one stands at Filton, and why the type carried the colours of Air France and British Airways rather than one national airline. Nothing at the museum hides this, but nothing makes a point of it either, and it is worth knowing before you climb the steps.",
+      },
+      {
+        heading: "Watching an aircraft being assembled",
+        body: "Airbus factory visits are booked through the Manatour group and leave from the reception of the Aeroscopia museum. Two assembly lines can be visited, the A350 and the A321. On the first, you reach a panoramic observation walkway above the Jean-Luc Lagardère final assembly line: from a fixed point you watch fuselage sections becoming an aircraft. The visit lasts about an hour and a half and is run in several languages. This is not a reconstruction or a visitor centre, it is a working industrial site, and that is what makes the experience hard to compare with anything else in France.",
+      },
+      {
+        heading: "The rules to know before booking",
+        body: "They are not negotiable and they are what defeats an improvised visit. Booking is compulsory and has to be done in advance. A valid identity document is required at the entrance, which for a non-EU visitor means bringing the passport rather than leaving it at the hotel. Slots are limited and they fill, with more of them during the school holidays of the relevant zone and on Wednesdays and Saturdays outside them. The Airbus site covers several hundred hectares around the airport runways and it remains restricted industrial ground: you do not move around freely, you follow a supervised route. The logic is the same as for a military base, and it is better to know it when booking than on arrival.",
+      },
+      {
+        heading: "Saint-Pierre church and the four protected monuments",
+        body: "Blagnac has an old centre and its church is the heart of it. Saint-Pierre has been inscribed on the register of historic monuments since 1926. The building was substantially reworked between the fourteenth and sixteenth centuries with the construction of the Saint-Jacques chapel and the choir, then in the nineteenth by the addition of the Lady chapel and the Sacré-Coeur chapel. It is a brick church, like the whole Toulouse country, and brick is the thread to follow in old Blagnac: the same materials, tones and proportions as in Toulouse, at village scale. The commune has exactly four buildings protected as historic monuments, and listing them gives an accurate idea of what Blagnac was before aeronautics: the Saint-Exupère oratory, classified in 1922; Saint-Pierre church, inscribed in 1926; the bridge over the Touch, inscribed in 1950; and the convent of Sainte-Catherine de Sienne, inscribed in 2001. An oratory, a church, a bridge and a convent, which is the heritage of a farming village on the Garonne plain. The contrast with an A350 assembly line a few kilometres away is brutal, and it sums up the commune's twentieth century better than any interpretation panel.",
+      },
+      {
+        heading: "The Touch bridge and the Garonne ramiers",
+        body: "The Touch is a tributary of the Garonne, and the bridge that crosses it has been protected since 1950. It is a modest structure that you cross without noticing, and that is exactly why it deserves a stop: it is a reminder that the road came through here long before the airport, and that Blagnac was a stage on an old route towards the Gers. The Ramiers park runs along the river below Saint-Pierre church. In the south-west, ramier means the alluvial ground on the banks of the Garonne, wooded and regularly flooded, long used as pasture or for gravel extraction. Those areas are walks now, with dense riverside woodland and water birds. It is a quiet place less than two kilometres from one of the largest industrial sites in Europe, and it shows a river landscape that the very urban crossing of Toulouse does not.",
+      },
+      {
+        heading: "Odyssud, and getting there",
+        body: "Odyssud is the commune's cultural centre, on the edge of the Ritouret park and its lake. The building is designed as an exploded pyramid around a covered forum and holds a 950-seat auditorium, a media library, a toy library and an exhibition hall. Its programming reaches beyond the commune and draws an audience from Toulouse, which is rare for a suburban venue. Access is by tram, Odyssud stop, and the park around it is the green lung of Blagnac: a lake, lawns, play areas, and enough to fill a late afternoon with children after a morning in the museum. Blagnac is served by tram from Toulouse, so the commune is reachable without a car, and the airport is on its territory, which means Aeroscopia can be slotted between two flights if the wait is long. One day is plenty, and the running order is dictated by a single point: book the factory visit first and fit everything else around it. Allow half a day for the museum and the assembly line, a second half day for old Blagnac, the ramiers and the Ritouret park. For Toulouse itself, the Cité de l'espace and Aeroscopia cannot be done on the same day without spoiling each other.",
+      },
+    ],
+    relatedCities: ["blagnac", "toulouse", "colomiers", "montauban"],
+    tags: ["things to do in blagnac", "blagnac", "travel", "city guide", "occitanie"],
+  },
+
+  {
+    slug: "things-to-do-in-le-cannet-2026",
+    title: "Things to do in Le Cannet: the only Bonnard museum in the world",
+    metaTitle: "Things to Do in Le Cannet, above Cannes (2026)",
+    metaDesc:
+      "Le Cannet is not Cannes: a separate town in the hills with no coastline, the world's only Bonnard museum, a Tobiasse chapel and a sixteenth-century tower.",
+    category: "city-guide",
+    emoji: "🖼️",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Le Cannet is not Cannes, and an English-speaking visitor who reads the two names quickly will conflate them: they are two separate communes, and Le Cannet occupies the hills above its neighbour with no seafront of its own. It had 40,198 residents at the 2022 census against 41,612 in 2016 and 42,754 in 2011, so it is losing people, as several coastal communes of the Alpes-Maritimes are. Being contiguous with Cannes is what makes it invisible: you drive above it, you assume it is still Cannes, you keep going. Le Cannet has a reason to exist in its own right, and it is unique in the world. Pierre Bonnard spent the last twenty years of his life here, and the only museum devoted to him is here.",
+    sections: [
+      {
+        heading: "Le Cannet is not Cannes, and what follows from that",
+        body: "The two communes are contiguous and the urban fabric is continuous, but they are distinct towns, and the confusion costs visitors who make it. Le Cannet is uphill, residential, without a seafront and without a beach, because the commune has no coastline at all. Accommodation and eating cost appreciably less here than on the Croisette, a few minutes away by bus, which makes it a serious base for visiting Cannes, the Lérins islands and the back country. In the other direction, anyone looking for the beach has to go down. What is up here is hills, a village history and a museum.",
+      },
+      {
+        heading: "The Bonnard museum",
+        body: "The museum opened on 25 June 2011 and is, to date, the only one in the world entirely devoted to the work of Pierre Bonnard. It occupies a Belle Époque building, the former hôtel Saint-Vianney, restored and adapted by the architects Ferrero and Rossi, of Vence. The permanent holdings are supplemented by temporary exhibitions that bring in loans from international institutions, so the hang changes and a second visit a few years apart is not a repeat. It is a museum on a human scale, visited in an hour and a half without fatigue, and it has the rare advantage of being devoted to a single painter in the place where he worked.",
+      },
+      {
+        heading: "Who Bonnard is, for a visitor arriving from London or New York",
+        body: "The name may not be immediately familiar, but the work almost certainly is. Bonnard was a founding member of Les Nabis, the group formed around Vuillard, Maurice Denis and Sérusier at the end of the nineteenth century, and both Tate and the Museum of Modern Art hold his paintings, with Tate Modern having given him a full retrospective. The pictures that travel to London and New York are largely the late ones: interiors, bathrooms, tables laid, windows open on roofs and hills. Those are the paintings made here, in this commune, which is the argument for the detour. You will have seen the results in your own national collection; this is where they were produced.",
+      },
+      {
+        heading: "Why Bonnard came here",
+        body: "Bonnard bought a villa at Le Cannet in 1926, called Le Bosquet, and spent more than twenty years there until his death in 1947. This was not a Paris painter's winter season: it is where he lived and where he produced a decisive part of his late work, the interiors, the bathrooms, the windows open on the roofs and the hills. The landscape he was looking at is still readable from the heights of the commune, and that is what gives the visit its point. The museum is where you see the paintings; the villa is the private house where they were made, and the two addresses should not be confused.",
+      },
+      {
+        heading: "The Saint-Sauveur chapel and the Peynet wall",
+        body: "A converted former bell tower, the chapel of Saint-Sauveur on the rue Saint-Sauveur was decorated throughout by Théo Tobiasse on the theme la vie est une fête, life is a feast. The artist treated the interior as a single composition, with a mosaic marking the entrance and a sculpture, L'Oiseau de Lumière, outside. It is a short visit, because the volume is small, and an intense one, in the line of the chapels decorated by twentieth-century artists on the Riviera, of which Matisse's at Vence is the most famous. Ten minutes, and worth the trip on its own if you are already in the old town. Facing it, on the same street, the lovers' wall was painted in 1990 by the fresco painter Guy Ceppa after Raymond Peynet, the illustrator of the celebrated Amoureux and an honorary citizen of the town. The composition shows a bridal couple flying over a garden of Eden modelled on the commune. It is a local wedding-photograph spot, which says a good deal about the place it has taken in the town. The rue Saint-Sauveur packs the chapel, the wall and a viewpoint into fifty metres, and it is the best ratio of interest to distance in Le Cannet.",
+      },
+      {
+        heading: "The tour des Danys",
+        body: "The tour des Danys, sixteenth century, is the oldest building in Le Cannet preserved in its original state. It closed one of the entrances to the village, and its door, now walled up, stood three metres above the ground: you reached it by a ladder that was then pulled up, the standard arrangement for defensive towers in this region. Its roof carries nine machicolations and its openings are few, which confirms what it was for. It is a reminder of something easily forgotten on this coast: until the nineteenth century people did not settle at the water's edge, they settled high up and barricaded themselves in, because what the sea mostly brought was trouble.",
+      },
+      {
+        heading: "The old town on foot, and the place Bellevue",
+        body: "The old centre is explored on foot, between ochre fronts, narrow lanes and stepped passages. The commune has waymarked a circuit linking the points of interest; it is short and it climbs, which is the only real difficulty. Along it you pass several murals, including two street-art frescoes by the artist Big Ben showing Bonnard at two different ages, which tie the heritage walk to the museum. It is an hour's walk, best done in the late afternoon: raking light on ochre render is exactly the subject that kept Bonnard here. Halfway up the rue Saint-Sauveur, the place Bellevue gives the reference view over the commune, the roofs of Le Cannet in the foreground, the sea behind, and the bell tower of Sainte-Philomène in the middle. It is a practical landmark as much as a viewpoint, because it makes the terraced layout of the town legible. The wider panorama from the heights opens on the bay of Cannes, the Lérins islands and the red line of the Esterel to the west. It is the same landscape as the late Bonnards, and the connection makes itself as you come out of the museum.",
+      },
+      {
+        heading: "Rocheville, getting there and how long to stay",
+        body: "Le Cannet is not only its old village. The Rocheville quarter, lower down, is a working shopping district with a daily life very different from that of the hills. It is where you measure what a Riviera commune of forty thousand people actually is, a long way from the postcard: a town of residents, with its schools, its shops and its blocks of flats from the 1960s and 1970s. An hour there is the best possible corrective to a day of heritage, and it is also where you eat at the price of the neighbourhood rather than the price of the view. Le Cannet has no station: you arrive via Cannes, then by local bus or car, the climb being short. Half a day covers the Bonnard museum, the rue Saint-Sauveur, the tour des Danys and the old town; a full day if you add Rocheville and time to wander. The museum closes on certain days and changes its hang between temporary exhibitions, so check before coming, especially if you are travelling for a particular work. The best combination with Cannes is to do Le Cannet in the morning, when the light is on the hills, and go back down in the afternoon.",
+      },
+    ],
+    relatedCities: ["le-cannet", "cannes", "antibes", "grasse"],
+    tags: ["things to do in le cannet", "le cannet", "travel", "city guide", "french riviera"],
+  },
+
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

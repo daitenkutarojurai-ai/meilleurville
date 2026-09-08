@@ -7562,18 +7562,53 @@
       "slug": "single-parent-in-saint-quentin-2026",
       "title": "Single parent in Saint-Quentin (2026): the best budget of the Aisne, the two weak axes of the trio",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "things-to-do-in-pontoise-2026",
+      "title": "Things to do in Pontoise: the town where Pissarro worked",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-haguenau-2026",
+      "title": "Things to do in Haguenau: an imperial town burned twice in one year",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "things-to-do-in-ales-2026",
+      "title": "Things to do in Alès: seven hundred metres of mine galleries",
+      "emoji": "⛏️"
+    },
+    {
+      "slug": "things-to-do-in-villefranche-sur-saone-2026",
+      "title": "Things to do in Villefranche-sur-Saône: courtyards behind the shopfronts",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "things-to-do-in-six-fours-les-plages-2026",
+      "title": "Things to do in Six-Fours-les-Plages: everything that is not on the beach",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "things-to-do-in-blagnac-2026",
+      "title": "Things to do in Blagnac: board a Concorde, watch an A350 being built",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "things-to-do-in-le-cannet-2026",
+      "title": "Things to do in Le Cannet: the only Bonnard museum in the world",
+      "emoji": "🖼️"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 246
+      "count": 253
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 240
+      "count": 247
     },
     {
       "slug": "moving-to-france",
@@ -7601,29 +7636,34 @@
       "count": 54
     },
     {
+      "slug": "occitanie",
+      "label": "occitanie",
+      "count": 53
+    },
+    {
       "slug": "real-estate",
       "label": "real estate",
       "count": 53
     },
     {
-      "slug": "occitanie",
-      "label": "occitanie",
-      "count": 51
-    },
-    {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 47
+      "count": 48
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 43
+      "count": 44
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
       "count": 39
+    },
+    {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 34
     },
     {
       "slug": "pays-de-la-loire",
@@ -7634,11 +7674,6 @@
       "slug": "working-in-france",
       "label": "working in france",
       "count": 34
-    },
-    {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 33
     },
     {
       "slug": "job-market-france",
@@ -7681,6 +7716,11 @@
       "count": 24
     },
     {
+      "slug": "provence",
+      "label": "provence",
+      "count": 24
+    },
+    {
       "slug": "student-housing-france",
       "label": "student housing france",
       "count": 24
@@ -7689,11 +7729,6 @@
       "slug": "student-visa-france",
       "label": "student visa france",
       "count": 24
-    },
-    {
-      "slug": "provence",
-      "label": "provence",
-      "count": 23
     },
     {
       "slug": "budget",
@@ -7786,6 +7821,16 @@
       "count": 11
     },
     {
+      "slug": "french-riviera",
+      "label": "french riviera",
+      "count": 11
+    },
+    {
+      "slug": "alsace",
+      "label": "alsace",
+      "count": 10
+    },
+    {
       "slug": "climate",
       "label": "climate",
       "count": 10
@@ -7796,19 +7841,9 @@
       "count": 10
     },
     {
-      "slug": "french-riviera",
-      "label": "french riviera",
-      "count": 10
-    },
-    {
       "slug": "rural-france",
       "label": "rural france",
       "count": 10
-    },
-    {
-      "slug": "alsace",
-      "label": "alsace",
-      "count": 9
     },
     {
       "slug": "auvergne",

@@ -5163,6 +5163,119 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-08
+
+- **Parité EN — `things-to-do-in-[city]-2026` batch 43, rattrapage de parité (+7 : Pontoise,
+  Haguenau, Alès, Villefranche-sur-Saône, Six-Fours-les-Plages, Blagnac, Le Cannet).** Les 7
+  jumelles du batch 42 FR du 05/09 écrites d'un coup dans `data/guides-en.ts`. **Compteurs
+  mesurés : FR 247 (`-a-` strict 239 + 6 en `au-` + 2 en `aux-`), EN 247 — écart nul dans les
+  deux sens, parité rétablie** (`EN_GUIDES` 864 → 871). `npm run parity` sort en **code 0**,
+  0 route FR sans jumelle EN (FR 220 / EN 166) : la parité de routes tient, le run porte donc
+  sur l'écart de corpus, qui est le vrai sujet depuis le 09/08.
+  La règle du batch 33 s'applique et a quelque chose à arbitrer cette fois : côté EN le slug se
+  dérive du **slug de seed tel quel**, donc **`things-to-do-in-le-cannet-2026` garde son
+  article** (comme `le-tampon`, `le-francois`, `les-sables-d-olonne`) alors que le FR contracte
+  en `10-choses-a-faire-**au**-cannet-2026`, et `things-to-do-in-six-fours-les-plages-2026`
+  garde sa forme complète. Les 7 guides sont vérifiés **retrouvés par `getEnGuide()` depuis le
+  slug de seed** et **pourvus de leur photo d'en-tête** (`guideCityPhoto`, qui retrouve bien la
+  forme contractée FR depuis `le-cannet` — le correctif du batch 32 tient).
+  `metaTitle` 33-46 caractères, `metaDesc` 137-154, 8 sections par guide (la série FR en compte
+  10, l'EN fusionne les fins de liste comme les batches EN précédents), **0 em-dash** sur les
+  sept réunis. Aucun tag neuf : les 7 réutilisent `ile de france`, `alsace`, `grand est`,
+  `occitanie`, `auvergne-rhone-alpes`, `provence`, `french riviera` —
+  `data/search-index.en.json` reste à **114 tags**, donc aucune page `/tags/` créée, et
+  `sitemap:check` donne FR 29 185 URL / EN **28 763**, les seules URL neuves étant les 7 guides.
+  ⚠️ **Treize figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le
+  contrôle mécanique les remontera à chaque run, ne pas les « corriger ».** Le contrôle (chaque
+  suite de chiffres du texte EN cherchée dans le guide FR, séparateurs normalisés) donne
+  **140 figures, 127 retrouvées** ; les 13 restantes sont toutes vérifiées en ligne avant
+  écriture et relèvent de la matière propre à l'angle anglophone que le batch 42 avait
+  explicitement demandée.
+  ① **Pontoise** : `1830`, `1870`, `1871`, `1911`, `1916`. Le guide FR raconte Pissarro à
+  Pontoise sans dire que **la moitié de cette histoire est à Londres**. Pissarro est né en
+  **1830** à Charlotte Amalie, sur Saint-Thomas, alors aux **Antilles danoises**, et il est
+  resté **citoyen danois toute sa vie** sans jamais prendre la nationalité française. Il quitte
+  Louveciennes en septembre **1870** et se réfugie à **Upper Norwood**, dans le sud de Londres,
+  dès décembre ; **douze huiles** datent de ce séjour, dont *Fox Hill, Upper Norwood* et
+  *The Avenue, Sydenham*, toutes deux **à la National Gallery**. Il rentre en juin **1871** et
+  trouve la maison saccagée par les troupes prussiennes, une grande part de son œuvre de
+  jeunesse détruite avec elle — ce qui donne enfin sa raison au poids des années Pontoise. Et
+  son fils **Lucien** s'installe définitivement à Londres en 1890 (date déjà dans le FR, qui la
+  cite pour l'arrivée de Van Gogh à Auvers), devient **britannique en 1916** et est membre
+  fondateur du **Camden Town Group en 1911**. Un lecteur britannique regarde donc l'autre bout
+  d'une histoire dont la seconde moitié est dans ses collections nationales.
+  ② **Alès** : `1685` et `1878`. Le guide FR nomme la révocation de l'édit de Nantes sans la
+  dater ; la date est ajoutée parce qu'elle situe la guerre des Camisards pour un lecteur qui
+  connaît le mot **huguenot** et pas le mot camisard, et l'incise le dit. Surtout, **les
+  Cévennes ont une porte littéraire anglophone et Alès est en bas** : Robert Louis Stevenson a
+  marché du Monastier à **Saint-Jean-du-Gard** du 22 septembre au **3 octobre 1878**, douze
+  jours et environ cent vingt milles avec l'ânesse Modestine, et a publié *Travels with a Donkey
+  in the Cévennes* l'année suivante. Saint-Jean-du-Gard est dans les vallées en amont d'Alès,
+  dans le même pays qu'Anduze, et **la dernière partie du livre est située au pays des
+  Camisards** : le fort du Bosquet et les derniers chapitres décrivent la même guerre depuis les
+  deux camps. Un sentier balisé suit aujourd'hui l'itinéraire.
+  ③ **Villefranche-sur-Saône** : `1985`. La plupart des lecteurs anglophones connaissent le
+  Beaujolais par le **Beaujolais nouveau**, et l'utile est de dire à quel point c'est étroit :
+  un décret français de **1985** fixe la sortie au **troisième jeudi de novembre**, date
+  flottante choisie pour ne pas tomber un week-end, et la règle ne vaut que pour les
+  appellations Beaujolais et Beaujolais-Villages. **Les dix crus** — Brouilly, Côte de Brouilly,
+  Régnié, Morgon, Chiroubles, Fleurie, Moulin-à-Vent, Chénas, Juliénas, Saint-Amour — **n'ont
+  pas le droit de faire de nouveau**, ce sont les vins sur lesquels la région préfère être jugée,
+  et ils sont au nord de la ville.
+  ④ **Blagnac** : `29`, `1962`, `1969`. Le batch 42 l'avait demandé : **le Concorde est un
+  programme franco-britannique**, et l'appareil posé au sol à Aeroscopia est la moitié française
+  d'un avion dont l'autre moitié était construite chez le lecteur. Traité anglo-français signé à
+  **Londres le 29 novembre 1962** entre **Sud-Aviation** et la **British Aircraft Corporation**,
+  moteurs **Rolls-Royce et SNECMA**, **deux** chaînes d'assemblage final, Toulouse et **Filton**
+  près de Bristol, cellules construites en parallèle ; le premier prototype vole de Toulouse le
+  **2 mars 1969**, le prototype britannique de Filton quelques semaines plus tard. C'est pour ça
+  qu'un Concorde est ici et un autre à Filton, et que le type a porté les couleurs d'Air France
+  **et** de British Airways. Même arbitrage qu'avec Jubilee à Dieppe (batch 37), Cambrai
+  (batch 39) et Béthune (batch 41).
+  Les quatre points de vigilance du batch 42 sont honorés, et les prudences du FR reprises
+  telles quelles, à ne pas diluer : **Le Cannet distingué de Cannes dès la première ligne de
+  l'intro** puis en section 1 (communes distinctes, tissu continu, **Le Cannet n'a pas de
+  littoral**, donc pas de plage à réserver) ; **la règle des massifs varois écrite comme une
+  règle opposable** et non comme un conseil (arrêté préfectoral, niveaux évalués quotidiennement,
+  consultation **le matin même**, passer outre est une **infraction** et mobilise des secours
+  dont d'autres ont besoin) ; **le document d'identité obligatoire pour la visite Airbus** écrit
+  de même, avec la précision qu'un visiteur hors UE apporte son **passeport** au lieu de le
+  laisser à l'hôtel ; **Bonnard rattaché aux Nabis, à la Tate et au MoMA, sans aucun chiffre**,
+  et le lien posé dans le seul sens qui serve — les tableaux qui voyagent à Londres et à New
+  York sont les tardifs, ceux qui ont été peints ici. Le reste suit le FR : **fort de Six-Fours
+  et site Airbus = emprises** (militaire et industrielle) dites avant la première phrase
+  attrayante ; convention « **accessible depuis** » plutôt que « situé à » sur **Auvers-sur-Oise**
+  (commune à part, en aval de Pontoise), la **Bambouseraie à Générargues** près d'Anduze, **les
+  Embiez** (excursion à part depuis Le Brusc), le **vignoble du Beaujolais** hors de
+  Villefranche ; **musées de Pontoise réunis** sous un nom commun, répartition des collections
+  déplacée, donc vérification avant déplacement, comme la **Mine Témoin** qui fonctionne par
+  créneaux et le **musée Bonnard** qui change d'accrochage ; **du palais de Barberousse il ne
+  reste rien**, dit avant qu'on parte le chercher.
+  Quatre autres ajouts propres au lecteur étranger, sans chiffre : le **Saint-Empire** défini
+  comme une fédération lâche et la **ville libre d'Empire** comme une ville ne relevant que de
+  l'empereur, sans quoi la Décapole ne veut rien dire ; **Operation Nordwind** nommée comme le
+  nom sous lequel les récits anglophones racontent l'hiver 1945 sur la Moder, dernière offensive
+  allemande à l'ouest, la VIIᵉ armée américaine tenant la rive sud juste sous Haguenau ;
+  **Operation Dragoon** posée de même pour le débarquement de Provence d'août 1944 à Six-Fours ;
+  et **Toulon** présentée comme la base principale de la flotte française de Méditerranée, ce
+  qui donne sa raison au fort et à la batterie du cap Nègre.
+  ⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 :
+  4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le
+  substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity`
+  (guides EN 864 → 871), `search-index` + `search-index:check` (114 tags EN, inchangé),
+  `sitemap:check`, `npm run parity` (**code 0**, 0 route FR sans jumelle), `npm run hreflang:check`,
+  plus le contrôle de lookup / photo, le contrôle de figures ci-dessus et une vérification
+  d'encodage (accents intacts, aucun `m2` / `EUR` / `deg` ascii, aucun mojibake). Note
+  d'environnement reconfirmée : le conteneur de routine démarre **sans `node_modules`** et en
+  **HEAD détaché** — `git checkout main` puis `npm install` d'abord.
+  **Prochain run côté série tourisme : batch FR** (l'écart est nul, la série FR reprend la main).
+  Gisements inchangés : Saint-Herblain, Mantes-la-Jolie, Istres, Melun,
+  Conflans-Sainte-Honorine, et les six banlieues de province jamais faites (Villenave-d'Ornon,
+  Talence, Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron — rappel du batch 28 : **l'Espace
+  Albert Camus et le fort de la ceinture lyonnaise sont à Bron**, pas à Vénissieux).
+
+---
+
 ## Shipped 2026-09-07
 
 - **Parité EN — `single-parent-in-[city]-2026` batch 9 (+10 : Alençon, Brive-la-Gaillarde,

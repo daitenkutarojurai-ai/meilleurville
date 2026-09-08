@@ -1349,6 +1349,78 @@ Pour le batch FR **suivant**, les gisements restants sont Saint-Herblain, Mantes
 Melun, Conflans-Sainte-Honorine, Le Bouscat, Talence, Villenave-d'Ornon, Vaulx-en-Velin,
 Saint-Priest, Bron.
 
+**Batch 43 — EN, rattrapage de parité, shipped 2026-09-08.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 42 écrites d'un coup dans `data/guides-en.ts` (Pontoise,
+Haguenau, Alès, Villefranche-sur-Saône, Six-Fours-les-Plages, Blagnac, Le Cannet). **Compteurs
+mesurés : FR 247 (`-a-` strict 239 + 6 en `au-` + 2 en `aux-`), EN 247 — écart nul dans les deux
+sens, parité rétablie** (`EN_GUIDES` 864 → 871). La règle du batch 33 avait quelque chose à
+arbitrer cette fois : côté EN le slug se dérive du **slug de seed tel quel**, donc
+**`things-to-do-in-le-cannet-2026` garde son article** là où le FR contracte en
+`10-choses-a-faire-**au**-cannet-2026`, et `things-to-do-in-six-fours-les-plages-2026` garde sa
+forme complète. Les 7 guides sont vérifiés **retrouvés par `getEnGuide()` depuis le slug de seed**
+et **pourvus de leur photo d'en-tête** (`guideCityPhoto` retrouve bien la forme contractée FR
+depuis `le-cannet` — le correctif du batch 32 tient). `metaTitle` 33-46 caractères, `metaDesc`
+137-154, 8 sections par guide (la série FR en compte 10, l'EN fusionne les fins de liste),
+**0 em-dash** sur les sept réunis. Aucun tag neuf — `search-index.en.json` reste à **114 tags**,
+donc aucune page `/tags/` créée ; `sitemap:check` donne EN **28 763 URL**, les seules URL neuves
+étant les 7 guides.
+⚠️ **Treize figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le contrôle
+mécanique les remontera à chaque run, ne pas les « corriger ».** 140 figures, 127 retrouvées ; les
+13 restantes sont vérifiées en ligne avant écriture et relèvent de la matière propre à l'angle
+anglophone que le batch 42 avait demandée. ① **Pontoise** : `1830`, `1870`, `1871`, `1911`, `1916`
+— **la moitié de l'histoire Pissarro est à Londres** et le FR ne le dit pas. Né en **1830** à
+Charlotte Amalie (Saint-Thomas, **Antilles danoises**), **citoyen danois toute sa vie** ; quitte
+Louveciennes en septembre **1870**, réfugié à **Upper Norwood** dès décembre, **douze huiles** de
+ce séjour dont *Fox Hill, Upper Norwood* et *The Avenue, Sydenham*, **à la National Gallery** ;
+rentre en juin **1871** devant une maison saccagée par les Prussiens, une grande part de son œuvre
+de jeunesse détruite — ce qui donne enfin sa raison au poids des années Pontoise. Son fils
+**Lucien** s'installe à Londres en 1890 (date déjà au FR pour Van Gogh à Auvers), devient
+**britannique en 1916**, membre fondateur du **Camden Town Group en 1911**. ② **Alès** : `1685`
+(révocation de l'édit de Nantes, que le FR nomme sans dater, ajoutée pour situer les Camisards
+face au mot **huguenot** que le lecteur connaît) et `1878` — **les Cévennes ont une porte
+littéraire anglophone et Alès est en bas** : Stevenson marche du Monastier à **Saint-Jean-du-Gard**
+du 22 septembre au **3 octobre 1878**, douze jours et ~120 milles avec Modestine, *Travels with a
+Donkey in the Cévennes* paraît l'année suivante, **la dernière partie du livre est au pays des
+Camisards** (le fort du Bosquet et les derniers chapitres décrivent la même guerre depuis les deux
+camps), et un sentier balisé suit l'itinéraire. ③ **Villefranche** : `1985` — décret fixant le
+**Beaujolais nouveau** au **troisième jeudi de novembre**, valable pour les seules appellations
+Beaujolais et Beaujolais-Villages ; **les dix crus n'ont pas le droit d'en faire**. ④ **Blagnac** :
+`29`, `1962`, `1969` — **le Concorde est franco-britannique** (traité signé à Londres le
+**29 novembre 1962**, Sud-Aviation et **BAC**, Rolls-Royce et SNECMA, **deux** chaînes
+d'assemblage final, Toulouse et **Filton** près de Bristol, premier vol de Toulouse le **2 mars
+1969**, le prototype britannique de Filton quelques semaines plus tard) : l'appareil posé ici est
+la moitié française d'un avion dont l'autre moitié était construite chez le lecteur. Même
+arbitrage qu'avec Jubilee à Dieppe (batch 37), Cambrai (batch 39) et Béthune (batch 41).
+Les quatre points de vigilance du batch 42 sont honorés : **Le Cannet distingué de Cannes dès la
+première ligne** puis en section 1 (communes distinctes, tissu continu, **pas de littoral**, donc
+pas de plage à réserver) ; **règle des massifs varois** et **document d'identité obligatoire pour
+la visite Airbus** écrits comme des **règles opposables** (passer outre une fermeture est une
+infraction ; un visiteur hors UE apporte son **passeport**) ; **Bonnard rattaché aux Nabis, à la
+Tate et au MoMA sans aucun chiffre**, le lien posé dans le seul sens qui serve — les tableaux qui
+voyagent à Londres et à New York sont les tardifs, peints ici. Prudences du FR reprises telles
+quelles : **fort de Six-Fours et site Airbus = emprises** dites avant la première phrase
+attrayante ; « **accessible depuis** » sur **Auvers-sur-Oise**, la **Bambouseraie à Générargues**,
+**les Embiez**, le **vignoble** hors de Villefranche ; **musées de Pontoise réunis** et collections
+redistribuées, **Mine Témoin** par créneaux, **musée Bonnard** à accrochage changeant, donc
+vérification avant déplacement ; **du palais de Barberousse il ne reste rien**, dit avant qu'on
+parte le chercher. Quatre ajouts sans chiffre propres au lecteur étranger : **Saint-Empire** et
+**ville libre d'Empire** définis (sans quoi la Décapole ne veut rien dire) ; **Operation Nordwind**
+nommée pour l'hiver 1945 sur la Moder (VIIᵉ armée américaine tenant la rive sud sous Haguenau) ;
+**Operation Dragoon** pour le débarquement de Provence ; **Toulon** comme base principale de la
+flotte française de Méditerranée, ce qui donne sa raison au fort et à la batterie du cap Nègre.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27). Le
+substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN
+864 → 871), `search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**,
+0 route FR sans jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo, le contrôle
+de figures ci-dessus et une vérification d'encodage. Note d'environnement reconfirmée : le
+conteneur de routine démarre **sans `node_modules`** et en **HEAD détaché** — `git checkout main`
+puis `npm install` d'abord.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Gisements inchangés :
+Saint-Herblain, Mantes-la-Jolie, Istres, Melun, Conflans-Sainte-Honorine, et les six banlieues de
+province jamais faites (Villenave-d'Ornon, Talence, Le Bouscat ; Vaulx-en-Velin, Saint-Priest,
+Bron — rappel du batch 28 : **l'Espace Albert Camus et le fort de la ceinture lyonnaise sont à
+Bron**, pas à Vénissieux).
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique
