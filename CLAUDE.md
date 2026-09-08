@@ -1486,6 +1486,105 @@ transport), à poser avant usage, de même que « pardon » au sens de pèlerina
 Pour le batch FR **suivant** : **287 villes du seed sur 540 restent sans guide tourisme** (mesuré
 ce run), les gisements nommés restants étant Saint-Herblain et les trois banlieues bordelaises.
 
+**Batch 45 — EN, rattrapage de parité, shipped 2026-09-08.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 44 écrites d'un coup dans `data/guides-en.ts` (Melun,
+Mantes-la-Jolie, Istres, Conflans-Sainte-Honorine, Bron, Vaulx-en-Velin, Saint-Priest).
+**Compteurs mesurés : FR 254 (`-a-` strict 246 + 6 en `au-` + 2 en `aux-`), EN 254 — écart nul dans
+les deux sens, parité rétablie** (`EN_GUIDES` 871 → 878). Aucun slug hors gabarit : les sept villes
+prennent « à » sans contraction, donc la règle du batch 33 (**côté EN le slug se dérive du slug de
+seed tel quel**) n'avait rien à arbitrer, et les huit exceptions restent `au-puy-en-velay`,
+`au-tampon`, `au-francois`, `au-robert`, `au-lamentin`, `au-cannet`, `aux-abymes`,
+`aux-sables-d-olonne`. `metaTitle` 38-47 caractères, `metaDesc` 137-151, 8 sections par guide (la
+série FR en compte 10, l'EN fusionne les fins de liste), **0 em-dash** sur les sept réunis. Les 7
+guides sont vérifiés **retrouvés par `getEnGuide()` depuis le slug de seed** et **pourvus de leur
+photo d'en-tête** (`guideCityPhoto`), contrôle passé sur les 540 villes et pas seulement sur le lot :
+aucune ville ne réclame deux guides de la série, aucun des 7 n'est orphelin. Aucun tag neuf —
+`search-index.en.json` reste à **114 tags**, donc aucune page `/tags/` créée ; `sitemap:check` donne
+EN 28 763 → **28 770 URL**, soit exactement les 7 guides neufs (FR inchangé à 29 193).
+⚠️ **Quinze figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le contrôle
+mécanique les remontera à chaque run, ne pas les « corriger ».** 217 figures, 202 retrouvées ; les 15
+restantes sont vérifiées en ligne avant écriture et relèvent de la matière propre à l'angle
+anglophone que le batch 44 avait demandée. ① **Melun** : `1420`. À l'été 1420, quelques semaines
+après le traité de Troyes qui le fait héritier du trône de France, **Henri V d'Angleterre met le
+siège devant Melun** avec Philippe le Bon, et la garnison tient environ **dix-huit semaines**,
+jusqu'en novembre, les deux camps se battant dans des mines sous les murs. La tradition
+chroniquistique veut qu'Henri V y ait croisé le fer avec le capitaine **Arnaud Guillaume de
+Barbazan** sans le reconnaître, ce qui aurait sauvé la vie de celui-ci à la reddition (frère d'armes
+du roi, donc inexécutable ; il finit en cage de fer), et les **vingt soldats écossais** de la
+garnison qui refusèrent de se soumettre à Jacques Iᵉʳ d'Écosse, captif d'Henri et emmené sur place,
+furent pendus comme traîtres à leur propre roi. ⚠️ **Le jour de la reddition n'est pas cité** : les
+sources consultées donnent **17 novembre** et **18 novembre** ; le mois et la durée font consensus,
+le jour non, donc on écrit ce qui est établi et rien de plus. Les effectifs (20 000 assiégeants,
+700 défenseurs) sont écartés pour la même raison. ② **Mantes-la-Jolie** : `1087`. C'est la matière la
+plus forte du batch et le guide FR ne la porte pas du tout : **Guillaume le Conquérant a brûlé Mantes
+en 1087 et y a reçu la blessure dont il est mort**, ramené à Rouen où il meurt le **9 septembre 1087**,
+vingt et un ans après Hastings. Le mécanisme (projeté contre le pommeau de sa selle) est donné comme
+récit de chroniqueurs, pas comme fait établi. Aucun site ne le commémore sur place, et c'est
+précisément ce qui vaut d'être dit : la ville est un point de franchissement entre Paris et la
+Normandie, assiégée et rebâtie depuis mille ans pour cette seule raison. ③ **Istres** : `3 750`. La
+piste de la BA 125 fait environ **3 750 m**, la plus longue d'Europe de l'Ouest, et la NASA la tenait
+comme **site d'atterrissage d'urgence transatlantique de la navette spatiale** (le troisième actif,
+avec Saragosse et Morón). Le fait **renforce** la prudence FR au lieu de la contredire : rien de tout
+cela ne se visite, et la section le dit avant d'être intéressante. ④ **Conflans** : `1879`, `38`,
+`300`, `350`. C'est ce qui explique enfin pourquoi toutes les péniches du quai font la même
+longueur — la loi du **5 août 1879** portée par **Charles de Freycinet** a standardisé les écluses du
+réseau, et le **gabarit Freycinet** fixe le bateau qui y passe : **38,5 m** au plus, **300 à 350
+tonnes**. Tout le monde matériel exposé au musée est la culture de ce seul bateau. ⑤ **Bron** :
+`1860`, `2000`. Le système **Séré de Rivières** est rendu par son parallèle britannique, les **forts
+Palmerston des années 1860**, nés du même réflexe après 1859 et périmés par les mêmes progrès de
+l'artillerie ; et en **2000**, pour le centenaire de sa naissance, Satolas a été rebaptisé
+**Lyon-Saint-Exupéry**, du nom de l'auteur du *Petit Prince*, né à Lyon — l'aéroport qui a pris le
+trafic de Bron porte le nom de l'écrivain lyonnais le plus traduit, et le petit musée du fort garde
+la première moitié de cette histoire. ⑥ **Saint-Priest** : `1936`, année du **Front populaire**,
+glosé pour un lecteur qui ne connaît ni la coalition ni les congés payés.
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : **Vaux-le-Vicomte est à Maincy**
+(~8 km) et se traite comme une journée à part, pas comme une extension d'une matinée à Melun ; le
+**diptyque de Melun n'est pas à Melun** (Anvers et Berlin) ; **« la Jolie » attribué à Henri IV est
+une tradition et non un fait établi** ; la **BA 125 d'Istres**, le **site Airbus** et **Renault
+Trucks à Saint-Priest** sont des emprises fermées, dites avant toute phrase attrayante ; la
+**baignade dans l'étang de Berre est soumise à des arrêtés d'interdiction temporaire** et celle du
+**Grand Parc limitée aux zones surveillées**, écrites toutes deux comme des **règles opposables**
+avec l'affichage sur place qui fait foi (point de vigilance ③ du batch 44) ; le **parc de Parilly est
+à cheval sur Bron et Vénissieux**, la **centrale de Cusset sur Villeurbanne et Vaulx-en-Velin**
+(l'essentiel côté villeurbannais) et le **Grand Parc sur quatre communes au moins**, aucun n'étant
+attribué à une seule ; l'**Espace Albert-Camus est à Bron** ; le **bateau-chapelle Je Sers est
+d'abord un lieu d'accueil social en activité** ; la **médiathèque François-Mitterrand n'est pas dans
+le château de Saint-Priest** ; la chapelle **Saint-Sulpice d'Istres** garde sa datation en tradition
+non tranchée et le **château du Village de Vaulx** reste « présenté par les associations locales
+comme » le plus ancien ; et **cités Tase, Village de Vaulx et Val Fourré sont décrits sans verdict de
+sécurité ni classement**.
+Ajouts sans chiffre propres au lecteur étranger : **« batellerie » posé avant usage** (aucun
+équivalent d'un mot en anglais — *inland waterway transport*, plus proche du *canal trade*) et
+**« pardon »** glosé en pèlerinage-fête, les deux points de vigilance ④ du batch 44 ; **collégiale**,
+**hôtel-Dieu**, **oppidum**, **étang** (lagune saumâtre, pas la Méditerranée ouverte) et **pisé**
+(rammed earth, cousin du cob anglais) définis en une incise ; la **gendarmerie** présentée comme une
+force de police à statut militaire sans équivalent britannique ou américain, ce qui donne son sujet
+au musée ; **soie artificielle = rayon**, donc la TASE rend lisible la reconversion chimique d'une
+ville de la soie ; le **musée de la batellerie** rapproché des waterways museums des Midlands ;
+**Langemarck**, nom de baptême de la coque du Je Sers, situé près d'Ypres ; **Le Corbusier, Le Nôtre,
+Le Vau et Le Brun** rattachés à Versailles pour situer Vaux ; et **Bron et Saint-Priest présentées
+comme des bases bon marché pour visiter Lyon**, ce qui est la vraie raison pour laquelle un
+anglophone taperait ces noms.
+🔧 **Correctif de tag au passage** : le guide `things-to-do-in-pontoise-2026` (batch 43) portait
+`"ile de france"` avec des espaces là où le corpus écrit `"ile-de-france"` (32 occurrences) —
+consolidé, sinon la variante montait vers le seuil de 3 guides et créait une page `/tags/` doublon à
+côté de `/tags/ile-de-france`. L'autre occurrence (ligne 1660, guide « paris suburbs ») relève d'une
+autre série et n'est pas touchée.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30
+de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut
+prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 871 → 878),
+`search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**, 0 route FR sans
+jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo, le contrôle de figures
+ci-dessus et une vérification d'encodage (accents intacts, aucun `m2` / `EUR` / `deg` ascii, aucun
+mojibake, aucune guillemet courbe). Note d'environnement reconfirmée : le conteneur de routine
+démarre **sans `node_modules`** — `npm install` d'abord.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). **287 villes du seed sur
+540 restent sans guide tourisme** (mesure du batch 44, inchangée ce run puisque aucun guide FR n'a
+été écrit) ; les gisements nommés restants sont **Saint-Herblain** (écarté au batch 34 faute de
+matière) et les **trois banlieues bordelaises** jamais faites (Villenave-d'Ornon, Talence,
+Le Bouscat), à compléter par de nouveaux trous mesurés — rappel des batches 26, 32, 34, 36, 40 et
+42 : **on choisit par matière touristique réelle, pas par inertie de liste.**
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique

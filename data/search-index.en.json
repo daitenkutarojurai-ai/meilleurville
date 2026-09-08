@@ -7597,18 +7597,53 @@
       "slug": "things-to-do-in-le-cannet-2026",
       "title": "Things to do in Le Cannet: the only Bonnard museum in the world",
       "emoji": "🖼️"
+    },
+    {
+      "slug": "things-to-do-in-melun-2026",
+      "title": "Things to do in Melun: the town Henry V spent a summer besieging",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-mantes-la-jolie-2026",
+      "title": "Things to do in Mantes-la-Jolie: where William the Conqueror took his death wound",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-istres-2026",
+      "title": "Things to do in Istres: an oppidum, a lagoon and a shuttle runway",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "things-to-do-in-conflans-sainte-honorine-2026",
+      "title": "Things to do in Conflans-Sainte-Honorine: the capital of the French barge",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "things-to-do-in-bron-2026",
+      "title": "Things to do in Bron: a buried fort and the airport Lyon outgrew",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-vaulx-en-velin-2026",
+      "title": "Things to do in Vaulx-en-Velin: a planetarium and a rayon factory",
+      "emoji": "🔭"
+    },
+    {
+      "slug": "things-to-do-in-saint-priest-2026",
+      "title": "Things to do in Saint-Priest: a medieval keep in an industrial suburb",
+      "emoji": "🎭"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 253
+      "count": 260
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 247
+      "count": 254
     },
     {
       "slug": "moving-to-france",
@@ -7648,7 +7683,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 48
+      "count": 51
     },
     {
       "slug": "grand-est",
@@ -7663,7 +7698,7 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 34
+      "count": 37
     },
     {
       "slug": "pays-de-la-loire",
@@ -7711,13 +7746,13 @@
       "count": 27
     },
     {
-      "slug": "international-students",
-      "label": "international students",
-      "count": 24
-    },
-    {
       "slug": "provence",
       "label": "provence",
+      "count": 25
+    },
+    {
+      "slug": "international-students",
+      "label": "international students",
       "count": 24
     },
     {

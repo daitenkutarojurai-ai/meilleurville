@@ -36460,7 +36460,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
     ],
     relatedCities: ["pontoise", "cergy", "argenteuil", "poissy"],
-    tags: ["things to do in pontoise", "pontoise", "travel", "city guide", "ile de france"],
+    tags: ["things to do in pontoise", "pontoise", "travel", "city guide", "ile-de-france"],
   },
 
   {
@@ -36779,6 +36779,387 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["le-cannet", "cannes", "antibes", "grasse"],
     tags: ["things to do in le cannet", "le cannet", "travel", "city guide", "french riviera"],
+  },
+
+  {
+    slug: "things-to-do-in-melun-2026",
+    title: "Things to do in Melun: the town Henry V spent a summer besieging",
+    metaTitle: "Things to Do in Melun, Seine-et-Marne (2026)",
+    metaDesc:
+      "A collegiate church founded by Robert the Pious, a church built crooked, an eighteen-week siege by Henry V, and the château that is not in the town.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Start with the thing that has to be cleared up, because it is the reason most English-speaking visitors have heard the name at all: Vaux-le-Vicomte is not in Melun. The château stands at Maincy, a separate commune about eight kilometres from the centre, and Melun is where you park, change trains and leave again. That is a shame, because the town underneath is Capetian. Robert the Pious held court here, an island in the middle of the Seine still carries the medieval street plan, and in 1420 Henry V of England sat outside the walls for the better part of five months. Melun had 43,685 residents at the 2022 census against 40,228 in 2016 and 39,497 in 2011: of the eleven Seine-et-Marne communes this site follows, it is the one growing fastest since 2011. Measured in people rather than percentages, Meaux is ahead, and it is worth saying which of the two counts you are quoting.",
+    sections: [
+      {
+        heading: "The île Saint-Étienne, which was the whole town",
+        body: "In the Middle Ages Melun fitted on an island. The île Saint-Étienne is the strategic point of the site: it carries the two bridges over the arms of the Seine, and before the thirteenth century it was the only part of the settlement inside a wall. It held the royal castle, the collegiate church of Notre-Dame, the Saint-Sauveur priory, the parish church of Saint-Étienne, the church of Saint-Laurent and the Saint-Nicolas hôtel-Dieu, which is to say more or less everything that mattered. The island later lost its primacy to the parish of Saint-Aspais on the right bank, and that shift explains the town you walk through now: the shops are on one bank, the history is in the middle of the water. An hour on the island teaches you more about how Melun is put together than any map.",
+      },
+      {
+        heading: "The collegiate church of Notre-Dame",
+        body: "Robert the Pious, second Capetian king, founded the collegiate church between 1016 and 1031 on the site of an older building and installed a community of twelve canons in it. A collegiate church is one served by a college of canons rather than by a bishop or a monastery, and founding one was a political act as much as a pious one: the king held a castle nearby and was tightening his grip on the county of Melun. After a fire in the twelfth century the original wooden ceiling gave way to rib vaults, the choir was taken in hand from 1161 and consecrated in 1198. So this is a Romanesque project overtaken by Gothic, and the building shows the join. The parallel with Poissy is exact: the collegiate church there was founded around 1016 by the same king, and both towns owe their first monument to one piece of dynastic policy.",
+      },
+      {
+        heading: "Saint-Aspais, built crooked on purpose",
+        body: "Saint-Aspais is mentioned as early as 1080 by Richer, bishop of Sens. The church you see is far later: the neighbouring presbytery was pulled down in 1506 to clear the ground, and from 1517 the parish brought in Jean de Félin, the Paris architect responsible for the tour Saint-Jacques, to build the choir. He gave it the heavily worked flamboyant Gothic that Martin Chambiges was then developing at Sens, Beauvais and Troyes. What makes it worth twenty minutes is the plan, an irregular trapezium: the medieval town was so tightly built that the church took the shape of the plot available instead of the other way round. The result is four aisles to the nave and five to the choir, with the south wall running at an angle. It has been a listed monument since 1914.",
+      },
+      {
+        heading: "The siege of 1420",
+        body: "This is the part of Melun's history that belongs to English readers, and nothing in the town advertises it. In the summer of 1420, weeks after the Treaty of Troyes had made him heir to the French throne, Henry V laid siege to Melun with Philip the Good of Burgundy. The garrison held out for roughly eighteen weeks, into November, while both sides dug mines and countermines and fought underground beneath the walls. The chroniclers say Henry himself fought the garrison commander, Arnaud Guillaume de Barbazan, hand to hand in one of those tunnels without either recognising the other, and that this is what saved Barbazan's life when the town fell: having crossed swords with the king he could claim to be his brother in arms and could not be executed. He was imprisoned in an iron cage instead. The Scottish soldiers in the garrison were treated very differently. Scotland was fighting on the French side, the captive James I of Scotland had been brought along by Henry and ordered them to submit, and the twenty who refused were hanged as traitors to their own king. The island and the riverbanks are the ground this happened on; there is no monument, and knowing it changes the walk.",
+      },
+      {
+        heading: "The National Gendarmerie Museum",
+        body: "This is the one thing in Melun that justifies the trip by itself, and it is recent: the museum opened on 10 October 2015 and was formally inaugurated by the interior minister on 17 December of the same year. The collection is much older, assembled since 1946, and runs to more than 30,000 objects and documents of which about 2,000 are shown. The route covers some 1,200 m² and is organised around a suspended display case 18 metres long and 8.5 metres high. The gendarmerie is a police force with military status, responsible for rural and small-town France, and has no exact equivalent in Britain or the United States, so the museum is partly an explanation of an institution and partly a display of one. It follows the force from the Middle Ages to the present, chronologically and by theme, with uniforms and weapons but also sealed evidence from investigations, mess barrels, bicycles and watercolours. Allow two hours.",
+      },
+      {
+        heading: "The Melun Diptych, which is not in Melun",
+        body: "The most famous work attached to the town is not in it, and it is better to know that before going looking. The Melun Diptych, painted by Jean Fouquet for Étienne Chevalier, was sold by the canons on the eve of the Revolution to pay for repairs to the collegiate church of Notre-Dame. Its two panels are now separated: one is in the Royal Museum of Fine Arts in Antwerp, the other in the Gemäldegalerie in Berlin. That is not a footnote. It is the trace of a moment when the people responsible for a monument judged the fabric of the building to be worth more than the painting inside it. Melun kept the name of the work and nothing else.",
+      },
+      {
+        heading: "Vaux-le-Vicomte, from Melun and not in it",
+        body: "The château is at Maincy, a commune in its own right about eight kilometres from the centre of Melun: reachable from the town, not situated in it, and it needs its own transport and its own day. Nicolas Fouquet, Louis XIV's superintendent of finances, bought the estate in 1641 and launched the great campaign in 1653, with Louis Le Vau for the architecture, Charles Le Brun for the decoration and André Le Nôtre for the gardens; hundreds of workmen were on site from 1656 to 1661. The same three men went on to build Versailles, which is the reason to come here first if you are doing both: Vaux is the smaller, earlier, more legible version of the idea. The party Fouquet gave for Louis XIV on 17 August 1661 has come down as the symbol of his fall. Three weeks later, on 5 September, he was arrested at Nantes by d'Artagnan, and he was condemned to life imprisonment. Do not treat this as an extension of a morning in Melun. It is a separate outing.",
+      },
+      {
+        heading: "Brie de Melun, a prefecture town, and getting there",
+        body: "Brie de Melun and brie de Meaux share a regional name and are two different cheeses, each with its own protected designation of origin. The Melun one is made in far smaller quantities, and it is thicker, saltier and considerably more assertive; anyone who has eaten one and assumes they know the other is wrong. This site has a separate guide to Meaux where the neighbouring cheese is treated on its own terms, but the comparison is better made standing at a cheesemonger's counter than by reading two pages. As for the town itself, Melun is the prefecture of Seine-et-Marne, the largest department in the Île-de-France region, and it carries the functions: administration, courts, state services. That shapes the place more than you would expect. The centre lives on an office population during the week, the shops follow that rhythm, and Sunday is quiet. The practical consequence for a visitor is that Melun shows better on a Saturday morning, with the market running, than on a Sunday. Trains from Paris Gare de Lyon serve it on the RER D and on line R, so it works as a day trip without a car. Half a day covers the island, the collegiate church and Saint-Aspais; a full day if you add the Gendarmerie museum, which takes two hours on its own.",
+      },
+    ],
+    relatedCities: ["melun", "meaux", "fontainebleau", "provins"],
+    tags: ["things to do in melun", "melun", "travel", "city guide", "ile-de-france"],
+  },
+
+  {
+    slug: "things-to-do-in-mantes-la-jolie-2026",
+    title: "Things to do in Mantes-la-Jolie: where William the Conqueror took his death wound",
+    metaTitle: "Things to Do in Mantes-la-Jolie (2026)",
+    metaDesc:
+      "The town William the Conqueror burned in 1087, a collegiate church begun with Notre-Dame de Paris, and France's largest public Maximilien Luce holding.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 8,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Mantes-la-Jolie had 44,246 residents at the 2022 census against 43,969 in 2016 and 42,727 in 2011. For an English-speaking visitor it has a claim no other town on the lower Seine can make: this is where William the Conqueror received the injury he died of, twenty-one years after Hastings. It also has a Gothic collegiate church whose site was opened at the same moment as Notre-Dame de Paris, and the most important public collection in France of a neo-Impressionist painter. The name itself is recent. Gassicourt merged with Mantes in 1930, the commune was called Mantes-Gassicourt, and it only became Mantes-la-Jolie in 1953.",
+    sections: [
+      {
+        heading: "The collegiate church of Notre-Dame",
+        body: "This is the monument that justifies the journey. The site was opened between 1140 and 1150, the vaults of the lower level were probably in place by about 1170, and the building was listed as a historic monument in 1840, on the very first French list. The three-storey elevation and the sexpartite vaults over a nave of seven bays make you think immediately of Notre-Dame de Paris, and that is not an impression: it is the same generation of builders and the same architectural decision, taken within a few years of each other. A collegiate church is served by a college of canons rather than by a bishop, so this is a building of cathedral ambition without cathedral rank. The Mantes architect Alphonse Durand, who died in 1881, gave twenty-seven years to restoring it, from 1846 to 1873. For a visitor coming out from Paris, the practical point is that you can see in an hour, and without a queue, what takes half a day to get near in the capital.",
+      },
+      {
+        heading: "1087, and what happened to William",
+        body: "In 1087 William the Conqueror, king of England and duke of Normandy, attacked and burned Mantes. The town sat on the frontier of the French royal domain, the French king Philip I had been raiding into Normandy, and by the accounts that came down the campaign was also personal: Philip is supposed to have made a joke about William's bulk that William swore to answer. He took the town and put it to the torch. He did not survive the campaign. He was injured at Mantes, thrown against the pommel of his saddle by the chroniclers' account, carried back to Rouen, and died there on 9 September 1087, in his late fifties, having ruled England for twenty-one years. The man who won at Hastings received his death wound in this town, and there is no site to visit, no plaque worth crossing town for, and nothing in the tourist literature that leads with it. The reason to know it anyway is that it explains the shape of everything else here. Mantes is a crossing point on the road between Paris and Normandy, and it has been besieged, burned and rebuilt for a thousand years because of where it is.",
+      },
+      {
+        heading: "The Saint-Maclou tower",
+        body: "Standing in the middle of the centre, the Saint-Maclou tower is what survives of a Gothic parish church whose body has gone. It works now as an urban landmark: you see it from a distance, it gives the square its scale, and it is a reminder that a medieval town had several parishes where you can now find only one. It is also, together with the collegiate church, the subject of one of the best-known paintings in the Hôtel-Dieu museum, which means you can walk from the canvas to the stone in ten minutes. That coincidence is rarer than it sounds: the painter's viewpoint is still usable.",
+      },
+      {
+        heading: "The Hôtel-Dieu museum and Maximilien Luce",
+        body: "The building is an hôtel-Dieu, meaning a hospital in the old sense of a charitable foundation, and its oldest parts go back to the fourteenth century; the town acquired it and opened it as a museum in 1996, and the place was refurbished in 2018. It holds the most important public collection in France devoted to Maximilien Luce, a neo-Impressionist painter close to anarchist circles, a contemporary and friend of Seurat, Signac and Pissarro. Luce is much less known outside France than the men he worked beside, which is exactly why the holding matters: this is where you can see enough of him at once to judge him. The ground floor also shows carved work from the collegiate church next door, which closes the loop with the monument. A mid-sized town holding the national reference collection on an artist is an unusual situation, and it is what makes the stop worth making.",
+      },
+      {
+        heading: "What the town owes Corot",
+        body: "The bridge at Mantes was painted several times by Camille Corot; one of those canvases, dated 1868, is in the Louvre. The subject is not incidental for the town. It is through these paintings that Mantes entered the history of landscape painting, at the moment when the Seine valley downstream of Paris was turning into an open-air studio, the same movement that produced Pissarro at Pontoise and Monet a little further down at Giverny. Walking the riverbank here is therefore looking at a subject rather than at scenery. One honest reservation: the bridge Corot painted and the bridge you cross today did not go through the twentieth century in the same condition, for the reason the next section gives.",
+      },
+      {
+        heading: "30 May 1944",
+        body: "On that day Allied aircraft bombed the bridge at Mantes, a strategic crossing of the Seine and a target in the campaign to cut the rail and road links into Normandy before the landings. Part of the town centre was destroyed and more than four hundred civilians were killed. This is what explains the look of the centre, where post-war blocks stand beside medieval monuments with no transition: the old street pattern was punched through. It is worth knowing before you walk it, because you stop reading those frontages as ordinary reconstruction and start seeing them as the trace of one particular day. British and American readers are looking at the cost of their own side's air campaign, in a town that had already been burned by an English king once. The collegiate church came through it, and that is part of why it holds the position it does in the townscape.",
+      },
+      {
+        heading: "Gassicourt, and where the name comes from",
+        body: "The Gassicourt quarter, a commune in its own right until 1930, keeps the church of its Cluniac priory. Simon, count of Mantes, founded a priory here around 1074 under the patronage of Saint Sulpice; the surviving church, dedicated to Saint Anne, was listed as a historic monument in 1862. It is far quieter than the collegiate church and visited in an entirely different atmosphere, that of a village absorbed by a town, and it is the simplest way to understand why the commune was called Mantes-Gassicourt for twenty-three years: these are not two districts of one town, they are two villages that became one commune. As for la Jolie, tradition credits the epithet to Henry IV, who is supposed to have written to Gabrielle d'Estrées, his mistress and a resident of Mantes, something to the effect that he was coming to Mantes, ma jolie. It is a pleasant attribution, long repeated, and it is not established: take it as a good story rather than a fact. What is certain is that the nickname was in unofficial use well before the commune adopted it in 1953.",
+      },
+      {
+        heading: "The riverbank, the Val Fourré, and getting there",
+        body: "The town spreads along the river and the walking space is generous, with laid-out banks and a stretch of open water. It is the useful counterweight to a morning of monuments: you leave the centre, you look at the Seine, and you understand why the town is where it is. An hour by the water at the end of the afternoon is worth more than a third monument. A large share of the population lives in the Val Fourré, one of the biggest housing estates built in France in the 1960s, now well into a long programme of urban transformation. The quarter is part of the town and its history exactly as the collegiate church is: it records the growth of the western Paris region, the arrival of workers for the car industry in the valley, and the decades that followed. This guide passes no judgement on safety there and manufactures no ranking: that would not be a measurement, it would be an opinion about the people who live in a place. It is mentioned because leaving it out would describe a different town from the one that exists. Trains run direct from Paris and the station is a short walk from the old centre, but the service through the Seine valley has changed repeatedly with engineering works, so check the timetable for the day rather than trusting a memory. Half a day covers the collegiate church, the Saint-Maclou tower and the Hôtel-Dieu museum, all within a few hundred metres of each other; a full day if you add Gassicourt and the river. The town combines well with Vernon, further downstream, from which Giverny is reachable.",
+      },
+    ],
+    relatedCities: ["mantes-la-jolie", "poissy", "vernon", "versailles"],
+    tags: [
+      "things to do in mantes-la-jolie",
+      "mantes-la-jolie",
+      "travel",
+      "city guide",
+      "ile-de-france",
+    ],
+  },
+
+  {
+    slug: "things-to-do-in-istres-2026",
+    title: "Things to do in Istres: an oppidum, a lagoon and a shuttle runway",
+    metaTitle: "Things to Do in Istres, Bouches-du-Rhône (2026)",
+    metaDesc:
+      "An Iron Age hill fort over a 220-hectare lagoon, a 50-metre water jet, life-size dinosaurs, and the runway NASA kept as a shuttle abort site.",
+    category: "city-guide",
+    emoji: "🏞️",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Istres had 44,044 residents at the 2022 census against 42,925 in 2016 and 42,943 in 2011, which makes it a stable commune, eighth of the thirteen in the Bouches-du-Rhône this site follows for population change. It is known for two things that cannot be visited the same way: an air base, which is a closed military site, and the étang de Berre, whose industrial reputation hides what is around it. What you actually visit at Istres sits on a hill above a second lagoon. One point of vocabulary before you go: an étang here is a coastal lagoon, brackish and shallow, not a pond and not the open Mediterranean, and the difference governs what you can do in the water.",
+    sections: [
+      {
+        heading: "The étang de l'Olivier and its water jet",
+        body: "The étang de l'Olivier covers 220 hectares and connects to the étang de Berre by the Cascaveau channel. It is the real centre of gravity of the commune: the town looks at it, goes round it and walks along it. Since 2008 a jet has thrown a column of water fifty metres up from it, which makes it one of the tallest in France and the landmark visible from almost anywhere in Istres. The circuit of the lagoon is flat and can be done on foot or by bike, and it is the right way to start a day here: you take the measure of the site before going to look for detail. The contrast with the étang de Berre immediately to the east is instructive, the two bodies of water being neither the same size nor put to the same use.",
+      },
+      {
+        heading: "The Castellan oppidum",
+        body: "The Castellan is a rocky promontory above the southern end of the étang de l'Olivier. The site was occupied from the sixth century BC to the early Middle Ages, which makes it one of the long-lived hilltop settlements of Provence, in the line of the Celto-Ligurian oppida of the region. An oppidum is a fortified hilltop settlement of the Iron Age, the type the Romans met and often took over, and the ones in this part of France are among the best studied in Europe. You climb it for two things: the view over the town and the lagoon, and a very concrete sense of what a Mediterranean defensive site was, chosen for its outlook and its slope. The climb is short but it is in full sun, so in summer do it early or late.",
+      },
+      {
+        heading: "Dinosaur'Istres",
+        body: "On the Castellan hill, behind the town hall, a three-kilometre trail presents some forty species reproduced life-size, laid out in the chronological order of their appearance on Earth, with explanatory panels. Access is free and the site is open all year; the tourist office also runs accompanied visits with palaeontologists. The oldest aquatic specimens are placed on the étang de l'Olivier side, the dinosaurs having lived in Provence on the plateau. The subject is not decorative. The Provençal beds nearby produced major nineteenth-century discoveries of fossil eggs, and southern France remains one of the significant European grounds for late Cretaceous material; the panels explain that local connection. With children it is the best-value stop in the commune, and it costs nothing.",
+      },
+      {
+        heading: "The Saint-Sulpice chapel and the old village",
+        body: "The Saint-Sulpice chapel is a major example of Provençal Romanesque in the sector. The exact date of its foundation is unknown and tradition places it between the tenth and eleventh centuries: it is put that way rather than settled, because no source settles it. It has been on the supplementary inventory of historic monuments since 1942. It is a plain building, small, and its interest lies in the masonry and the volume rather than in any decoration; a few minutes covers it. Together with the oppidum it supplies the historical depth that the rest of the commune, largely built in the twentieth century, does not show. The old core of Istres is walked on foot, among narrow lanes, small squares and Provençal frontages. It is small, and that is useful information: Istres is not a hilltop village in the Luberon and should not be visited as one. What you find is an ordinary Mediterranean town centre, with its shops, its fountains and its market, turned towards the people who live there rather than towards visitors. An hour is enough, and the point is to do it straight after the Castellan above it, because one explains the other: people came down off the hill and settled below.",
+      },
+      {
+        heading: "The René-Beaucaire archaeological museum",
+        body: "Housed on the place du Puits-Neuf in a seventeenth-century townhouse, the museum shows archaeological collections from the gulf of Fos and the shores of the lagoons. It is the right place to put content behind what you have seen on the Castellan, where there is not much to read on site. Part of the holding comes from underwater excavation, which makes sense in a sector where ancient port activity goes back a long way; the coast between the Rhône delta and Marseille was a Greek and then a Roman trading front, and much of the evidence for it is on the seabed. As with every municipal museum of this size, check the opening days before travelling, because they change with the season.",
+      },
+      {
+        heading: "The beaches on the étang de Berre, and the rule about swimming",
+        body: "Istres has beaches, which few people know: the Romaniquette and the Ranquet, on the étang de Berre, with swimming, a discovery trail through the reedbeds and watersports hire. This is brackish lagoon water and a lagoon beach, not the open Mediterranean, and the horizon carries the industry that rings the étang. Now the part to treat as a rule and not as advice: swimming in the étang de Berre is subject to water-quality monitoring, and temporary bans are issued by order, in particular after an incident at a treatment plant or during an algal bloom. A ban posted on site is enforceable, and the notice at the beach is what counts, not a page written in advance, this one included. Ask locally on the day. The same applies to the surveillance flags: a beach without a lifeguard on duty is a beach you enter at your own risk.",
+      },
+      {
+        heading: "Air Base 125, which you cannot visit, and the shuttle",
+        body: "This has to be said before any attractive sentence: Air Base 125, Istres-Le Tubé, is a military site, you do not go in, and its presence explains a large part of the commune's economy and population. What it has is a runway of about 3,750 metres, the longest in western Europe, which is why it takes flight testing and aircraft that few other fields can accept. The consequence that will interest an English-speaking reader is that NASA held it as a Space Shuttle transoceanic abort landing site, the third active one alongside Zaragoza and Morón in Spain: had a shuttle lost engines on the way up at the wrong moment, it would have crossed the Atlantic and come down here. That is a genuine piece of Istres history, and it is also as close as anyone gets, because none of it is open. For a visitor the base means aircraft noise on some days and distant views of aeroplanes from the heights, not a visit. The treatment is the same as for Air Base 701 at Salon-de-Provence or the CAEA collection at Mérignac: say what is closed rather than let people hope.",
+      },
+      {
+        heading: "A commune in scattered pieces, and getting there",
+        body: "Istres is not a town in one piece. The commune is large and contains several distinct settlements, including Entressen, well away from the centre, which functions as a village with its own shops and its own stretch of water. That dispersal is why a visit without a car means choosing: the centre, the Castellan and the étang de l'Olivier make a coherent and walkable group, and the rest does not. The cycle paths around the étang de Berre, flat and continuous towards Saint-Mitre-les-Remparts and Martigues, are the best answer to this geography for anyone on two wheels. Istres is on the rail network within the Bouches-du-Rhône, but most visitors arrive by car, the commune being off the main regional lines. Half a day covers the étang de l'Olivier, the Castellan and the dinosaur trail; a full day if you add the museum, the chapel and a swim. Spring and autumn are the seasons to pick: in July and August the hill is crushed by sun and the lagoon is busy. Martigues, Salon-de-Provence and Fos-sur-Mer are neighbouring communes in their own right and are separate outings.",
+      },
+    ],
+    relatedCities: ["istres", "martigues", "salon-de-provence", "marignane"],
+    tags: ["things to do in istres", "istres", "travel", "city guide", "provence"],
+  },
+
+  {
+    slug: "things-to-do-in-conflans-sainte-honorine-2026",
+    title: "Things to do in Conflans-Sainte-Honorine: the capital of the French barge",
+    metaTitle: "Things to Do in Conflans-Sainte-Honorine (2026)",
+    metaDesc:
+      "An eleventh-century keep, the national museum of inland waterways, and a chapel barge moored since 1936, at the confluence of the Oise and the Seine.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Conflans-Sainte-Honorine had 36,306 residents at the 2022 census against 35,404 in 2016 and 35,582 in 2011: the commune fell back and recovered, and it comes tenth of the sixteen Yvelines communes this site follows for population change since 2011. It has an identity no other town in the region can claim: it is the French capital of la batellerie, and that word has no one-word English equivalent. It means the whole world of inland waterway transport, the barges, the trade, the crews and the way of life that went with them, closer to what English calls the canal trade than to anything in modern shipping. Conflans owes it to its exact position, where the Oise runs into the Seine.",
+    sections: [
+      {
+        heading: "Why the capital of the barge trade",
+        body: "The title is not a tourist-office slogan. The confluence of the Oise and the Seine is a natural break of bulk, and the technical changes of the nineteenth century made it the gathering point for the boatmen of the whole Seine basin: you waited here for a cargo, you wintered here, you had repairs done here. An entire population lived aboard, with its own schools, shops and rituals, and the children of the barges went to school here between voyages. That history is not finished, since lived-in barges are still moored along the quays. Understanding this before you go down to the water changes what you are looking at completely: these are not pleasure boats, they are what is left of a working world.",
+      },
+      {
+        heading: "Why every barge is the same length",
+        body: "Stand on the quay and the thing you notice is that the boats are all roughly one size. That is a law, and it is the single most useful fact for making sense of French inland navigation. Under Charles de Freycinet, minister of public works, the law of 5 August 1879 launched a programme that standardised the locks of the French network, and the resulting standard, the Freycinet gauge, fixed the working boat that could use it. A péniche built to that gauge is at most 38.5 metres long, and a full one carries something in the order of 300 to 350 tonnes. Almost every canal in France was rebuilt to this standard in the following decades, and the consequence is still visible on this quay a century and a half later: the barge became a fixed object, the family that owned one owned a known quantity, and the whole material culture on display in the museum up the hill is the culture of that one boat. It is also why French inland freight looks small next to the Rhine, where the locks were built for something much larger.",
+      },
+      {
+        heading: "The museum of inland waterways",
+        body: "This is a municipal museum of national standing, devoted to river transport, river craft and navigable waterways. It was created in 1965 at the initiative of Louise Weiss and entrusted to François Beaudouin, a naval archaeologist, who was its curator until he retired in 1994. It was refurbished in 2015. The collections cover the techniques, the trades and life on board, with models, tools and documents that are not brought together anywhere else. For an English-speaking visitor with an interest in canals it is the French counterpart to the waterways museums of the English midlands, and the comparison is worth making on the spot, because the two networks solved the same problem in different ways. As with any municipal museum, check the opening days and times before travelling, since they move with the season.",
+      },
+      {
+        heading: "The château du Prieuré and its park",
+        body: "The museum occupies the château du Prieuré, on the heights of the town, in a park overlooking the valley. The site is that of a priory founded in 1080 under the patronage of Saint Honorina, from whom the commune takes half its name. So the visit has two layers: a seigneurial house converted into a public facility, and an earlier religious site of which only the name and the position survive. The park is worth the climb on its own: it is the best place to understand the geography of the confluence, with the Oise on one side and the Seine on the other, and it makes clear in thirty seconds what a page of text struggles to explain.",
+      },
+      {
+        heading: "The Montjoie tower and the upper town",
+        body: "The Montjoie tower is an eleventh-century keep standing above the valley. It is the oldest building in the commune and the most striking for its position: the upper town organised itself around it, and the sloping lanes around it keep the medieval pattern. A keep of that date, still standing and still legible inside the built fabric of the outer Paris region, is a rarity. You approach it from above, from the Prieuré quarter, or from below, from the quays, the second way involving a short sharp climb. The church of Saint-Maclou, the tower and the château together make up the upper town, the town that existed before the barges, and the contrast with the quays is the best thing the visit has to offer: a quarter of an hour on foot takes you from a medieval hillside settlement to a nineteenth-century river port. This is also the sector where the old fabric is best preserved, the commune having escaped destruction on the scale suffered by Mantes.",
+      },
+      {
+        heading: "The Je Sers chapel barge",
+        body: "The Je Sers is a barge converted into a chapel, moored at Conflans since 1936. The hull was built in 1919 at Amfreville-sous-les-Monts in the Eure under the name Langemarck, after a Belgian village near Ypres that British readers will know from the Great War. Its octagonal portholes carry glass by the stained-glass artist Jacques Le Chevallier. It is important to say what this boat is today: first and foremost a working reception centre, running food aid and social services, and not an attraction. You look at it from the quay, and the chances of going aboard are tied to organised open days, in particular during the pardon. Treat it the way you would treat any working shelter, which is to say with the discretion you would want if you were inside it.",
+      },
+      {
+        heading: "The national pardon of the boatmen",
+        body: "Every year since 1960, on the third weekend of June, the town hosts the national pardon of the barge community. A pardon in French usage is a religious pilgrimage and festival, a form best known from Brittany, and here it takes to the water: blessing of the boats, a procession on the river, and the reunion of boat families dispersed for the rest of the year. For a visitor it is the only moment when the subject of the museum is visible in reality and in numbers on the Seine. It is also, mechanically, the weekend when the town is full and parking becomes difficult, so come by train or come early. The rest of the year the quays keep their usual calm.",
+      },
+      {
+        heading: "The quays, the double name, and getting there",
+        body: "The quayside walk is long, flat and lined with barges, many of them homes. The confluence itself is best seen from the heights and from certain points on the bank: the Oise arrives from the north, the Seine comes up from Paris, and the freight traffic is still real. It is a working landscape rather than a postcard, and that is what makes it interesting. One point of local manners is worth repeating: a barge moored against the quay is somebody's house, and private gangways are not public walkways. As for the name, it packs the geography and a relic into one line. Conflans says confluence; Sainte-Honorine refers to the priory founded in 1080, the saint's relics having been brought here for safety during the troubles of the early Middle Ages. That was common practice: holy bodies travelled, and the towns that took them in gained a pilgrimage and therefore an income. The double name sums up the two successive engines of the town, water and devotion, before water took over alone in the nineteenth century. The commune has two stations, which is convenient: Conflans-Sainte-Honorine on Transilien line J from Saint-Lazare, and Conflans-Fin-d'Oise, served by the RER A. Half a day covers the upper town, the museum and the quays, all within walking distance if you accept two climbs; a full day with a long walk along the Seine. The best regional combination is with Poissy and Pontoise, one downstream on the Seine, the other upstream on the Oise, both covered by this site.",
+      },
+    ],
+    relatedCities: ["conflans-sainte-honorine", "poissy", "pontoise", "cergy"],
+    tags: [
+      "things to do in conflans-sainte-honorine",
+      "conflans-sainte-honorine",
+      "travel",
+      "city guide",
+      "ile-de-france",
+    ],
+  },
+
+  {
+    slug: "things-to-do-in-bron-2026",
+    title: "Things to do in Bron: a buried fort and the airport Lyon outgrew",
+    metaTitle: "Things to Do in Bron, near Lyon (2026)",
+    metaDesc:
+      "A buried nineteenth-century fort open one Sunday a month, an aviation museum inside it, and 178 hectares of park, on the eastern edge of Lyon.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Bron had 42,850 residents at the 2022 census against 41,060 in 2016 and 38,881 in 2011, a rise of ten per cent since 2011, and it is the eighth of the fifteen Métropole de Lyon communes this site follows. People drive through it to reach the business airfield or the Porte des Alpes and assume there is nothing there. There is a nineteenth-century military fort run by volunteers, an aviation museum inside it, a park of 178 hectares, and a theatre that a great many people, including reputable sources, wrongly place in the neighbouring commune. One warning shapes any trip here: the fort opens one Sunday a month, so the date decides the visit rather than the other way round.",
+    sections: [
+      {
+        heading: "The fort de Bron",
+        body: "The fort de Bron belongs to the second ring of fortifications around Lyon, with those of Vancia, Feyzin and Mont Verdun. It follows the Séré de Rivières system, the doctrine of fortification adopted across France after the defeat of 1870, which built a screen of masonry forts along the eastern frontier and around the major cities; the nearest British parallel is the Palmerston forts of the 1860s, built out of the same instinct and rendered obsolete by the same advances in artillery. Work took place in the 1870s, published sources giving a range between 1872 and 1877. It is a buried work, with ditches, casemates and galleries, visited with a guide. It is maintained and run by a volunteer association, which explains the opening regime: one Sunday a month, plus the European Heritage Days in September. It has also served as a film location, and that is not a fan's footnote: vaulted stone volumes with no windows are hard to find anywhere else, and the fees are part of what keeps the place standing.",
+      },
+      {
+        heading: "The Aéromusée, inside the fort",
+        body: "Two rooms of the fort hold the Aéromusée of the Lyon region, assembled by the local society for aviation history and aeronautical documentation. It holds photographs tracing the history of the Bron airfield, aircraft parts, insignia, measuring instruments and cameras from the 1920s, much of it collected on the spot. It is not a museum of whole aeroplanes like Aeroscopia at Blagnac: it is a documentation museum, kept by enthusiasts, and its interest lies in local precision. It fits the fort that houses it exactly, and it keeps the same opening regime, so the same Sunday gets you both.",
+      },
+      {
+        heading: "What Bron owes its airfield",
+        body: "The Bron field opened in 1910 and was, for six decades, the airport of Lyon. Its 2,600-metre runway became too short for large aircraft and the site, overtaken by the city, could not extend: commercial operations moved to Satolas on 19 and 20 April 1975, days after the new airport was inaugurated by the President of the Republic. There is a coda that will mean more to an English-speaking reader than to a French one. In 2000, on the centenary of his birth, Satolas was renamed after Antoine de Saint-Exupéry, the airmail pilot who wrote The Little Prince and who was born in Lyon. So the airport that took Bron's traffic away carries the name of the city's most translated writer, and the modest museum in the fort is where the earlier half of that aviation story is kept. Bron retained business aviation and services. This history is the key to the commune: its quarters, its growth and even its museum follow from an airfield that supported the east of Lyon before giving way.",
+      },
+      {
+        heading: "The parc de Parilly",
+        body: "Created in 1937, the parc de Parilly covers 178 hectares straddling Bron and Vénissieux: it is not the property of either commune alone, and guides that award it entirely to one or the other are wrong. It is one of the great green spaces of the Lyon conurbation, with woods, meadows, sports facilities and playgrounds, and it is served by the metro. Its size makes it something other than a square: you can walk for an hour without retracing your steps. For a visitor passing through it is the best use of an afternoon when the fort is shut, which is most days of the month.",
+      },
+      {
+        heading: "The Parilly racecourse",
+        body: "The racecourse sits inside the park and has been running for several decades. It holds meetings on weekdays and at weekends, and larger fixtures that draw a crowd from well beyond the east of Lyon. For anyone who has never been racing it is a cheap and instructive introduction, in a wooded setting very unlike an urban track, and French racing has its own rhythms and its own betting system, which is part of what makes it worth an afternoon. As with any sporting calendar, check the fixture list before coming: a racecourse with no racing is a field.",
+      },
+      {
+        heading: "The Espace Albert-Camus is in Bron",
+        body: "This needs saying plainly because the mistake is common, including in serious sources: the Espace Albert-Camus is in Bron, not in Vénissieux. The theatre was inaugurated in January 1989 and received the label of regional theatre in March 2006. It serves the whole of the eastern side of Lyon, which is probably where the confusion comes from, and it programmes theatre, dance, music, circus and puppetry, for young audiences as well as adults. It also hosts companies in residence. A hall of that ambition in a suburban commune is a notable fact in itself, and the ticket prices are municipal rather than metropolitan, which is the practical argument for staying for the evening.",
+      },
+      {
+        heading: "La Ferme du Vinatier",
+        body: "La Ferme du Vinatier is a cultural venue inside Le Vinatier psychiatric hospital, on Bron territory. Since 1997 it has run a project whose distinguishing feature is to work as an interface between the hospital and the city, under the national Culture at the Hospital programme: exhibitions, performances, and work on the memory of psychiatry and its history. There is nothing else quite like it in the conurbation, and it asks to be approached for what it is, a place of care that opens part of its space, with the consideration that implies. The programme is public and can be consulted in advance.",
+      },
+      {
+        heading: "Bron is not Lyon, and getting there",
+        body: "Bron is a full commune of the Métropole de Lyon, not a Lyon arrondissement. The built-up area runs continuously out of the 8th arrondissement and you cross the boundary without noticing, which feeds the confusion, but the address, the town hall and the public facilities are those of a town of more than forty thousand people. For a visitor the consequence is practical: accommodation and meals cost appreciably less than in central Lyon, for a direct tram ride to Part-Dieu, the main station. It is a serious base for visiting Lyon without paying Lyon prices, and that is probably the strongest reason for an English-speaking traveller to type the name at all. Trams reach it from the centre of Lyon and the metro serves the Porte des Alpes. Half a day is ample for the parc de Parilly and a walk; the real interest of a trip depends on the date, because the fort and its museum open one Sunday a month. So the method here is the reverse of the usual: look at the fort's opening calendar first, fix the visit around it, and fill in with the park and an evening at the Espace Albert-Camus. Vénissieux and Villeurbanne, neighbours and both covered by this site, combine easily into the same day.",
+      },
+    ],
+    relatedCities: ["bron", "venissieux", "villeurbanne", "lyon"],
+    tags: ["things to do in bron", "bron", "travel", "city guide", "auvergne-rhone-alpes"],
+  },
+
+  {
+    slug: "things-to-do-in-vaulx-en-velin-2026",
+    title: "Things to do in Vaulx-en-Velin: a planetarium and a rayon factory",
+    metaTitle: "Things to Do in Vaulx-en-Velin, Lyon (2026)",
+    metaDesc:
+      "A 15-metre planetarium dome, a listed artificial-silk factory of 1924, and 2,200 hectares of riverside park, on the eastern edge of Lyon.",
+    category: "city-guide",
+    emoji: "🔭",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Vaulx-en-Velin had 52,448 residents at the 2022 census against 48,497 in 2016 and 42,726 in 2011, close to twenty-three per cent more in eleven years: of the fifteen Métropole de Lyon communes this site follows, it is the fastest growing, ahead of Meyzieu and Décines-Charpieu. It is also the commune in the conurbation whose public image is furthest from what is actually there. What you visit is a planetarium, a listed factory that made artificial silk, and a park of more than two thousand hectares on the Rhône.",
+    sections: [
+      {
+        heading: "The Planetarium",
+        body: "Opened in 1995, the Planetarium of Vaulx-en-Velin is the major scientific facility of the eastern side of Lyon. Its immersive room has a dome fifteen metres across and a current-generation digital simulator, projecting in very high definition at twenty-five million pixels. Sessions cover the sky, the solar system and space exploration, and the building also runs exhibitions and observing events. A facility at metropolitan level sitting in a suburban commune is unusual enough to be worth stating, and it is the first reason to come here. Sessions need booking, the room having a fixed capacity, and it is worth asking about language when you book, since a planetarium show is a narrated performance rather than a set of labels to read.",
+      },
+      {
+        heading: "The Grand Parc Miribel-Jonage",
+        body: "The Grand Parc is one of the largest peri-urban parks in Europe, at some 2,200 hectares. It is not entirely in Vaulx-en-Velin: it also extends over Décines-Charpieu, Meyzieu and Jonage, and continues into the neighbouring département of the Ain, so no single commune owns it. You walk it, cycle it, and swim in season in the laid-out lakes. The surface figure is the only thing most people retain, which is a pity, because what strikes you on the ground is the nature of the landscape, an alluvial floodplain of the Rhône with its side channels and woods, fifteen minutes from the centre of Lyon. On swimming, treat this as a rule and not as advice: bathing is permitted only in the supervised zones, which do not cover the whole of the water, and the signs posted on site are what count on the day. Open water outside a marked and supervised area is not a swimming area, whatever it looks like from the bank.",
+      },
+      {
+        heading: "The TASE factory",
+        body: "The factory was built in 1924 for the Gillet family and was first called the SASE, Soie artificielle du Sud-Est, before becoming the TASE, Textile artificiel du Sud-Est. It turned cellulose into viscose, that is to say into artificial silk, which is what English calls rayon: the same product, invented to substitute for silk, and the industry that made Lyon a silk city reinventing itself in chemistry. The work of the architects Desseux and Alexandre, it was put up on a 75-hectare property with 10 hectares of industrial buildings, some 100,000 m² of floor space on three levels. It employed 1,500 people as early as 1925 and up to 3,000 by the middle of the 1930s. Production stopped in 1980 and the factory was listed as a historic monument on 25 May 2011. It marked its centenary in 2024. For anyone interested in industrial architecture this is the single most substantial thing in the commune.",
+      },
+      {
+        heading: "The Tase estates",
+        body: "A factory that size never arrives alone: the TASE came with workers' estates built to house its staff, and those, as much as the sheds, are what makes the sector matter. You can read in them the doctrine of company housing between the wars, with its alignments, its gardens and its hierarchy of house types according to rank in the firm, a French cousin of the British company village. The quarter is walked from the street, with no organised tour, and it must be taken for what it is: a lived-in neighbourhood, not a museum site. Same treatment as the cité Frugès at Pessac or the Maladrerie at Aubervilliers, two estates this site handles with the same care.",
+      },
+      {
+        heading: "The Village and the plain of the Velin",
+        body: "The old rural village still exists, under the name of Le Village, and it keeps its church, its château, its rammed-earth farms and the scale of a small country town in the middle of a metropolis. The first verifiable mention of the village dates from 1225. The château, with traces going back to the thirteenth century, is presented by local associations as the oldest building still standing in the east of Lyon; it is not open as a monument and is looked at from the street, and its protection as a historic monument is precisely the subject of repeated requests. The building material is the regional marker: pisé, rammed earth shuttered in place, the technique of the farms of the Dauphiné plain, and the same family of construction as the cob and rammed-earth building of south-west England. The name of the commune points to that older entity, the pays du Velin, a plain of the Dauphiné running along the left bank of the Rhône: alluvial land, market gardeners, isolated farms, and a population of a few thousand until the 1960s. The gap between that map and today's is one of the fastest urban changes in the Lyon region, and it happened in two generations.",
+      },
+      {
+        heading: "The Jonage canal and the Cusset power station",
+        body: "The Jonage canal runs for 19 kilometres with a flow of 600 cubic metres per second and crosses several communes including Vaulx-en-Velin. It feeds the Cusset hydroelectric station, begun in September 1894 and commissioned in 1899: at 7 megawatts on delivery it was then the most powerful hydroelectric station in the world, and it produces 63 today. The works straddle Villeurbanne and Vaulx-en-Velin, with the greater part on the Villeurbanne side: it is put that way rather than awarded to one of the two. The scheme was designed to supply the industries of the left bank of the Rhône, among them the silk works and the tramways, and it is the direct ancestor of the factory two sections above: cheap power first, then the chemistry that used it.",
+      },
+      {
+        heading: "The Carré de Soie",
+        body: "The Carré de Soie sector, named for the textile history of the place, is the major urban project of the eastern side of Lyon: former industrial land reused for housing, offices, public facilities and shops, around a transport hub where metro and tram meet. It straddles Vaulx-en-Velin and Villeurbanne. For a visitor the interest is not the shopping centre but the reading of the project itself: you see side by side the factory of 1924, the racecourse, the workers' estates and new blocks of flats. Few places in France set out the passage from one economy to another quite so directly, and it can be walked in an hour.",
+      },
+      {
+        heading: "A town people think they know, and getting there",
+        body: "Vaulx-en-Velin is known nationally for events in the 1990s and for its classification under urban policy, and that reputation runs well ahead of what a visitor actually experiences. This guide delivers no verdict on safety and manufactures no ranking: that would not be a measurement, it would be an opinion about the people who live there. What is measurable is the figure this page opened with: the commune gained close to ten thousand residents between 2011 and 2022, the strongest relative rise in our Métropole de Lyon sample. A town people are leaving does not do that. Tram T3 and the metro at La Soie connect the commune directly to the centre of Lyon, and the Grand Parc is reachable by bus and by bike along the banks of the Rhône. Half a day covers the Planetarium and the Carré de Soie; a full day if you add the Grand Parc, which deserves better than a passing look. The Village takes an hour on top. The season depends on the target: the park in late spring or September, the Planetarium in any weather, which makes it the obvious fallback on a wet day.",
+      },
+    ],
+    relatedCities: ["vaulx-en-velin", "villeurbanne", "bron", "lyon"],
+    tags: [
+      "things to do in vaulx-en-velin",
+      "vaulx-en-velin",
+      "travel",
+      "city guide",
+      "auvergne-rhone-alpes",
+    ],
+  },
+
+  {
+    slug: "things-to-do-in-saint-priest-2026",
+    title: "Things to do in Saint-Priest: a medieval keep in an industrial suburb",
+    metaTitle: "Things to Do in Saint-Priest, near Lyon (2026)",
+    metaDesc:
+      "A fourteenth-century fortified house turned château, a Popular Front legacy of civic buildings, and a village centre inside the Lyon metropolis.",
+    category: "city-guide",
+    emoji: "🎭",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Saint-Priest had 49,193 residents at the 2022 census against 45,844 in 2016 and 42,535 in 2011, close to sixteen per cent more in eleven years, which makes it the fourth of the fifteen Métropole de Lyon communes this site follows, behind Vaulx-en-Velin, Meyzieu and Décines-Charpieu. It is a commune associated with business parks and a tram terminus, and it nevertheless holds something few suburban communes can put up against it: a medieval fortified house that became a château, standing in a park, in the middle of a village centre that kept its shape.",
+    sections: [
+      {
+        heading: "The château",
+        body: "The château of Saint-Priest began as a fortified house built in the fourteenth century for the Richard family, on a mound where excavation has shown an earlier church and cemetery. Later the property of the Guignard family, it was remodelled repeatedly, so that it now lines up successive states from the medieval to the contemporary, including a glazed roof installed in 1998 and works in 2017. It has been partially listed as a historic monument since 28 December 1984. It stands above a formal park of 2.5 hectares in the heart of the village, and it is the obvious starting point for a visit to the commune.",
+      },
+      {
+        heading: "What the château is used for",
+        body: "The building is not a château-museum with a permanent visitor route: it is a working facility. It hosts concerts and events tied to the municipal conservatoire in its reception rooms, along with exhibitions and functions. The practical consequence is simple and worth knowing before you travel: what you can see inside depends entirely on what is on that day. And one correction, because the mistake is easy to make from a distance: the médiathèque François-Mitterrand, often mentioned in the same breath, is a separate facility elsewhere in the town, not part of the château. Check the municipal diary, and fall back on the park if nothing is open, which is no punishment.",
+      },
+      {
+        heading: "Théophile Argence and the Popular Front",
+        body: "The name you meet everywhere in the commune is Théophile Argence, mayor during the Popular Front years, the left-wing coalition that governed France from 1936 and is remembered there chiefly for paid holidays and the forty-hour week. He equipped the town with public buildings: a Maison du peuple, or people's house, on the model of the workers' halls built across industrial Europe in the same decades, along with sports grounds, school groups, and the purchase of the château itself, which is how it passed into municipal ownership. That sequence explains the shape of Saint-Priest today, where pre-war public buildings still structure the centre. It is a textbook case of 1930s municipal socialism in the industrial suburbs of Lyon, and it is legible in the buildings rather than in books.",
+      },
+      {
+        heading: "The Théâtre Théo-Argence",
+        body: "The former Maison du peuple became the cultural centre and then the theatre that carries its founder's name. The hall programmes theatre, music and dance, with a season that brings in companies and orchestras of regional and national standing. As at Bron with the Espace Albert-Camus, this is a suburban commune's hall whose ambition exceeds the commune's boundaries, at prices that remain those of a municipal facility. For a visitor it is the strongest argument for an evening rather than a daytime look round, and it is worth checking whether a given production is language-dependent before booking.",
+      },
+      {
+        heading: "The Village",
+        body: "The old centre still goes by the name of Le Village and it has kept the form: paved streets, a square, a fountain, a church and local shops, all within a few hundred metres. The contrast is what makes it worth the detour, between this village nucleus and the estates and business parks around it. An hour on foot covers it, and you then understand why residents talk about going to the village the way other people say going into town: the commune grew around a country settlement that was never demolished.",
+      },
+      {
+        heading: "Three churches and the hamlet of Manissieux",
+        body: "Saint-Priest has three churches of very different periods, and visiting them in chronological order is a good way to cross the history of the commune. The village church goes back to the twelfth century; Sainte-Marguerite, at Manissieux, dates from the sixteenth; Notre-Dame-de-la-Paix was built in the 1960s, during the population boom. Three buildings, three moments, three ways of making a place of worship: the comparison says more than any notice, and it can be done in half a day by bike, the ground being flat. Manissieux itself is a hamlet of the commune, away from the centre, which has kept the character of a farming village around that sixteenth-century church. It is a reminder that Saint-Priest is not a town born in one piece but a large territory that absorbed several settlements, and it is one of the few places in the east of Lyon where you can still see the plain as it was before the building. The visit is short and there is no facility: you come for the atmosphere and the church, not for a programme.",
+      },
+      {
+        heading: "The technology park and the Hauts de Feuilly",
+        body: "The technology park was laid out from 2001 as a high-technology business district, and the neighbouring quarter of the Hauts de Feuilly was conceived as a showcase of contemporary architecture and low-energy houses. This is not a tourist site and should be taken for what it is, a recent piece of city that you walk through. But for anyone interested in architecture the ensemble amounts to an open-air catalogue of the contemporary detached house, which is rare in France at this scale and in so compact a perimeter. An hour, and free.",
+      },
+      {
+        heading: "An industrial town that does not admit visitors, and getting there",
+        body: "Saint-Priest hosts major industrial operations, among them the headquarters and activities of Renault Trucks, heirs to the Berliet history in the east of Lyon and a name that will mean something to anyone who follows European commercial vehicles. It has to be said as for the Airbus sites at Blagnac or the air base at Salon-de-Provence: these are working industrial sites, they are not open to casual visits, and they explain a share of the commune's population and economy without appearing on a visitor's programme. That activity is also what makes Saint-Priest cheap to stay in for anyone coming to visit Lyon, which for most English-speaking travellers is the real reason to know the name. The tram links Saint-Priest to the centre of Lyon, and the commune is then covered on foot or by bike, the ground being flat. Half a day is enough for the château, its park and the Village; a full day if you add Manissieux, the three churches and an evening at the Théâtre Théo-Argence. The programmes of the château and the theatre govern how much a trip is actually worth: look at the diary before choosing the date, exactly as for the fort at Bron. Bron and Vénissieux, neighbours and both covered by this site, complete the day naturally.",
+      },
+    ],
+    relatedCities: ["saint-priest", "bron", "venissieux", "lyon"],
+    tags: [
+      "things to do in saint-priest",
+      "saint-priest",
+      "travel",
+      "city guide",
+      "auvergne-rhone-alpes",
+    ],
   },
 
 ];
