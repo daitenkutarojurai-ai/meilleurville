@@ -2892,6 +2892,35 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     publié. `news:selftest` 58 → **60 contrôles** : la note doit interpoler les jours et ne
     peut plus contenir d'adjectif fixe (lecture du composant **commentaires retirés** — le
     commentaire qui pose la règle cite forcément la formule qu'elle interdit).
+  - **État au 2026-09-08 — le collecteur n'a pas repris, et la source jamais relue lisait une
+    page sur huit.** `refreshedAt` toujours au **27/08** (12 jours), et le tell posé le 01/09 est
+    confirmé : les **180 lignes v1 du 04-05/08 n'ont jamais été servies** (34-35 jours), donc
+    **aucune troisième passe** — les deux lots des 26-27/08 étaient une intervention manuelle, pas
+    un cron rétabli. 177 villes étiquetées « relevé non repris ». ⚠️ **Le contrôle à faire en
+    premier est la date des lignes, jamais leur nombre** : 540/540 villes et 4 284 entrées ne
+    disent rien de la santé du collecteur. **Le défaut corrigé est dans Géorisques, la seule des
+    trois sources que personne n'avait relue** (le BODACC a été corrigé quatre fois, le RNA est
+    désactivé) : l'ingest CatNat demandait **`page=1&page_size=50` sans `sort`** sur une histoire
+    GASPAR qui remonte à **1982**. Lire une page n'est correct que si l'API trie du plus récent au
+    plus ancien — ordre **jamais observé et jamais demandé** ; sous l'ordre inverse, une commune à
+    longue histoire ne renvoie que les années 1980-1990, le filtre à 12 mois vide la page, et
+    **ce vide est publié comme une mesure** (la ville inscrit `georisques` dans `sources`, donc
+    « on a demandé et il n'y avait rien »). Même signature que les trois zéros BODACC et que le
+    plafond de pagination publié en biodiversité le 07/09 ; l'argument est dans le fichier
+    lui-même, où `bodaccFamilyFilter()` raisonne le plafond de seaux pour *l'autre* source.
+    Mesuré : **502 villes nomment Géorisques sans lister d'arrêté**, 34 en listent un ou deux
+    (40 arrêtés, 5 arrêtés nationaux distincts). ⚠️ **Aucun de ces 502 zéros n'est démontré faux
+    et il ne faut pas l'écrire** — `lib/natural-risks.ts` est heuristique, s'en servir pour
+    corroborer serait circulaire. Ce qui est démontré suffit : **le code ne distingue pas « aucun
+    arrêté » de « les arrêtés récents étaient au-delà du plafond »**. Correctif : `collectCatnat()`
+    **pagine et s'arrête à la première page courte** (complet quel que soit l'ordre), budget
+    8 × 50 = 400 en **fil-piège et non en limite**, échec **gradué** (page 1 lève → source
+    enregistrée absente, jamais zéro ; page 2+ garde les pages lues et remonte `truncated`),
+    `QUERY_VERSION` = **3**. **Aucune surface ne lit `truncated`** : le champ est typé et omis
+    quand vide, mais le collecteur doit avoir tourné une fois avant qu'on prétende savoir à quoi
+    il ressemble — en revanche `news:stats` **nomme** les villes à lecture courte et dit que leurs
+    comptes sont des planchers. `news:selftest` 60 → **73 contrôles**, dont le défaut écrit comme
+    un test (une page d'une histoire triée du plus ancien ne voit aucun arrêté récent).
   - **La collecte est automatisée, ne la relance pas depuis une routine.**
     `scripts/local-data-runner.sh` (cron local, 02h20 / 14h20 UTC) lance `npm run news` par
     lots de 180 villes (~4 s la ville), commite `data/city-news.json` et pousse.

@@ -73,8 +73,15 @@ const UA =
  *  returned zero rows — see communeName(). Every v1 row was produced by that
  *  query, so every v1 row is re-fetched; `lib/city-news.ts` gates on nothing,
  *  so the rows already published keep showing until their turn comes rather
- *  than blanking the section in the meantime. */
-const QUERY_VERSION = 2;
+ *  than blanking the section in the meantime.
+ *
+ *  v3 (2026-09-08): the Géorisques ingest read a single page of fifty out of a
+ *  commune history that runs back to 1982, betting on an ordering it never asked
+ *  for — so a commune with a long CatNat history could return nothing recent and
+ *  be published as "we asked and there was nothing". Every v2 row's CatNat half
+ *  came from that single page, so every v2 row is re-fetched. See
+ *  CATNAT_PAGE_SIZE. */
+const QUERY_VERSION = 3;
 
 /** Windowing. Both are enforced here AND again in lib/city-news.ts at read
  *  time, so a JSON that stops being refreshed empties out instead of showing
@@ -151,6 +158,33 @@ const BODACC_FAMILY_TO_KIND = {
 
 const GEORISQUES_CATNAT =
   "https://www.georisques.gouv.fr/api/v1/gaspar/catnat";
+
+/**
+ * GASPAR paging.
+ *
+ * The point every other source in this file already handles, and this one did
+ * not: GASPAR holds a commune's CatNat orders **back to 1982**, and the request
+ * asked for `page=1&page_size=50` with no `sort`. Reading only the first page is
+ * safe if — and only if — the API happens to return newest-first, an ordering
+ * nobody has ever observed. Under the opposite (and, for French registry APIs,
+ * more common) oldest-first default, a commune with more than fifty orders since
+ * 1982 hands back nothing but the 1980s and 1990s, every recent order falls off
+ * the end, and the twelve-month filter turns the whole page into `[]`.
+ *
+ * That empty list is then published as a measurement: the city records
+ * `georisques` in `sources`, i.e. "we asked and there was nothing". It is the
+ * same shape as the three BODACC defects (`api.bodacc.fr`, the `collective`
+ * family, the uppercase commune equality) — a zero that reads like a fact and
+ * raises no error — and the same shape as the biodiversity page cap published as
+ * a count on 2026-09-07.
+ *
+ * Walking the pages removes the bet instead of hedging it: we stop on the first
+ * page that comes back short, so the answer is complete under either ordering.
+ * The budget is a tripwire, not a limit anyone should reach — 8 × 50 = 400
+ * orders is far past any French commune's total since 1982.
+ */
+const CATNAT_PAGE_SIZE = 50;
+const CATNAT_MAX_PAGES = 8;
 
 const DATAGOUV_TABULAR = "https://tabular-api.data.gouv.fr/api/resources";
 /** @unverified resource id for the RNA (Répertoire National des Associations)
@@ -626,13 +660,15 @@ async function fetchBodacc(city, anchor, now) {
     if (!kind) continue;
     rows.push({ date: monthISO(r.annee, r.mois), kind, count: Number(r.n) });
   }
-  return aggregateMonthly(rows, {
-    source: SOURCE_META.bodacc.label,
-    sourceUrl: SOURCE_META.bodacc.url,
-    licence: SOURCE_META.bodacc.licence,
-    label: bodaccTitle,
-    labelEn: bodaccTitleEn,
-  });
+  return {
+    entries: aggregateMonthly(rows, {
+      source: SOURCE_META.bodacc.label,
+      sourceUrl: SOURCE_META.bodacc.url,
+      licence: SOURCE_META.bodacc.licence,
+      label: bodaccTitle,
+      labelEn: bodaccTitleEn,
+    }),
+  };
 }
 
 /** Map a BODACC `familleavis` value onto one of our kinds, tolerantly: the
@@ -700,15 +736,55 @@ export function bodaccWhere(city, anchor, since) {
   return `search(${BODACC_FIELDS.city}, "${name}") and ${BODACC_FIELDS.dept} = "${dept}" and ${date}`;
 }
 
+/** The URL for one page of a commune's GASPAR history. */
+export function catnatPageUrl(inseeCode, page) {
+  return `${GEORISQUES_CATNAT}?code_insee=${encodeURIComponent(inseeCode)}` +
+    `&page=${page}&page_size=${CATNAT_PAGE_SIZE}`;
+}
+
+/**
+ * Walk a commune's CatNat orders, page by page, and keep those inside the
+ * window. See CATNAT_PAGE_SIZE for why this cannot be a single page.
+ *
+ * `getPage(url, page)` is injected so the whole loop is testable without egress;
+ * `fetchCatnat` binds it to the day-keyed cache.
+ *
+ * Failure is graded, because losing what we already hold would be worse than
+ * being short: a failure on page 1 throws (the caller then records the source as
+ * absent, never as zero), a failure on a later page keeps the pages already read
+ * and reports `truncated` — we know we are short, and saying so is the whole
+ * difference between this and the defect it replaces.
+ */
+export async function collectCatnat(city, now, getPage, sleepFn = sleep) {
+  const cutoff = cutoffISO(now, WINDOW_MONTHS);
+  const entries = [];
+  let truncated = false;
+  for (let page = 1; page <= CATNAT_MAX_PAGES; page++) {
+    let json;
+    try {
+      json = await getPage(catnatPageUrl(city.inseeCode, page), page);
+    } catch (err) {
+      if (page === 1 || err instanceof EgressBlocked) throw err;
+      truncated = true;
+      break;
+    }
+    const rows = json?.data ?? json?.results ?? [];
+    for (const e of rows.map(catnatEntry)) {
+      if (e && e.date >= cutoff) entries.push(e);
+    }
+    // A short page is the end of the history: the answer is now complete
+    // whatever order the API used, which is the point of paging at all.
+    if (rows.length < CATNAT_PAGE_SIZE) break;
+    if (page === CATNAT_MAX_PAGES) truncated = true;
+    else await sleepFn(MIN_SLEEP_MS);
+  }
+  return { entries, truncated };
+}
+
 /** CatNat orders for one commune, anchored on the Insee code (exact). */
 async function fetchCatnat(city, now) {
-  const url = `${GEORISQUES_CATNAT}?code_insee=${encodeURIComponent(city.inseeCode)}&page=1&page_size=50`;
-  const json = await cachedGetJson(`${city.slug}.catnat`, url, now);
-  const rows = json?.data ?? json?.results ?? [];
-  const cutoff = cutoffISO(now, WINDOW_MONTHS);
-  return rows
-    .map(catnatEntry)
-    .filter((e) => e && e.date >= cutoff);
+  return collectCatnat(city, now, (url, page) =>
+    cachedGetJson(`${city.slug}.catnat.p${page}`, url, now));
 }
 
 /**
@@ -732,13 +808,15 @@ async function fetchRna(city, now) {
     const d = isoDate(r?.[RNA_FIELDS.date]);
     if (d) rows.push({ date: d, kind: "associations", count: 1 });
   }
-  return aggregateMonthly(rows, {
-    source: SOURCE_META.rna.label,
-    sourceUrl: SOURCE_META.rna.url,
-    licence: SOURCE_META.rna.licence,
-    label: rnaTitle,
-    labelEn: rnaTitleEn,
-  });
+  return {
+    entries: aggregateMonthly(rows, {
+      source: SOURCE_META.rna.label,
+      sourceUrl: SOURCE_META.rna.url,
+      licence: SOURCE_META.rna.licence,
+      label: rnaTitle,
+      labelEn: rnaTitleEn,
+    }),
+  };
 }
 
 /* ── one city ───────────────────────────────────────────────────────────── */
@@ -754,6 +832,9 @@ async function fetchRna(city, now) {
 async function refreshCity(city, anchor, now) {
   const entries = [];
   const sources = [];
+  /** Sources that answered but could not be read to the end. Recorded, never
+   *  guessed at: an incomplete answer is not the same claim as an empty one. */
+  const truncated = [];
   for (const [name, fn] of [
     ["bodacc", () => fetchBodacc(city, anchor, now)],
     ["georisques", () => fetchCatnat(city, now)],
@@ -769,7 +850,8 @@ async function refreshCity(city, anchor, now) {
     }
     if (got == null) continue; // not asked (RNA disabled) — not "zero".
     sources.push(name);
-    entries.push(...got);
+    entries.push(...got.entries);
+    if (got.truncated) truncated.push(name);
     await sleep(MIN_SLEEP_MS);
   }
   if (!sources.length) return null;
@@ -777,6 +859,9 @@ async function refreshCity(city, anchor, now) {
     refreshedAt: now.toISOString().slice(0, 10),
     queryVersion: QUERY_VERSION,
     sources,
+    // Omitted when empty, which is the normal case: the key exists only to make
+    // a short read loud in `news:stats` instead of silent in the data.
+    ...(truncated.length ? { truncated } : {}),
     entries: windowEntries(entries, now),
   };
 }
@@ -1002,6 +1087,17 @@ async function showStats() {
     log(`nothing in window (largest first): ${sorted.slice(0, 25).join(", ")}` +
       (sorted.length > 25 ? ` … +${sorted.length - 25}` : ""));
   }
+  // Same rule one step upstream. A short read is worse than an empty one — an
+  // empty city at least states an answer, a truncated one states an answer it
+  // did not finish reading — so it gets named, not counted. The budget is wide
+  // enough that this line should never print; the day it does, the number below
+  // is a floor and the pages beyond it were never seen.
+  const short = Object.entries(file.cities).filter(([, r]) => r.truncated?.length);
+  if (short.length) {
+    log(`⚠ incomplete reads on ${short.length} city/cities — the counts below are floors:`);
+    for (const [slug, r] of short.slice(0, 25)) log(`    ${slug}: ${r.truncated.join(", ")}`);
+    if (short.length > 25) log(`    … +${short.length - 25}`);
+  }
 }
 
 /* ── selftest ───────────────────────────────────────────────────────────── */
@@ -1177,6 +1273,90 @@ async function selftest() {
     date_fin_evt: "2026-03-12",
     date_publication_arrete: "2026-04-02",
   })?.title, "Arrêté de catastrophe naturelle — sécheresse (événement du 12 mars 2026)");
+
+  // — CatNat paging —
+  //
+  // The regression these pin down is not a wrong number, it is a zero: read one
+  // page of a history that runs back to 1982 and a commune with many orders
+  // hands back only old ones, which the window filter turns into an empty list
+  // published as "we asked and there was nothing". The order the API returns
+  // rows in is unknown, so the tests use an oldest-first page — the case that
+  // breaks single-page reads and the one no one has ruled out.
+  const cityG = { slug: "test", inseeCode: "74010" };
+  const order = (n, date) => ({
+    code_national_catnat: `C-${n}`,
+    libelle_risque_jo: "Inondations",
+    date_debut_evt: date, date_fin_evt: date, date_publication_arrete: date,
+  });
+  /** `total` orders, oldest first, served in pages of CATNAT_PAGE_SIZE.
+   *  The history is spread across 1982-2023 whatever the total, so only the two
+   *  orders anchored below fall inside the window. */
+  const oldestFirst = (total) => {
+    const all = [];
+    const step = Math.floor((15000 / total)) * 86400e3;
+    for (let i = 0; i < total; i++) {
+      const d = new Date(Date.UTC(1982, 0, 1) + i * step);
+      all.push(order(i, d.toISOString().slice(0, 10)));
+    }
+    // Anchor the tail to today so the newest orders land inside the window.
+    all[total - 1] = order("last", "2026-07-15");
+    all[total - 2] = order("prev", "2026-06-15");
+    const seen = [];
+    return {
+      seen,
+      get: async (_url, page) => {
+        seen.push(page);
+        return { data: all.slice((page - 1) * CATNAT_PAGE_SIZE, page * CATNAT_PAGE_SIZE) };
+      },
+    };
+  };
+  const noSleep = async () => {};
+
+  const short = oldestFirst(30);
+  const shortRes = await collectCatnat(cityG, NOW, short.get, noSleep);
+  check("a short first page ends the walk", short.seen, [1]);
+  check("short page is not reported truncated", shortRes.truncated, false);
+
+  const long = oldestFirst(120);
+  const longRes = await collectCatnat(cityG, NOW, long.get, noSleep);
+  check("a full page is followed by the next one", long.seen, [1, 2, 3]);
+  check("orders past the first page are recovered", longRes.entries.length, 2);
+  check("recovered orders are the recent ones", longRes.entries.map((e) => e.date).sort(),
+    ["2026-06-15", "2026-07-15"]);
+  check("a complete walk is not truncated", longRes.truncated, false);
+
+  // The defect itself, stated as a test: one page of an oldest-first history
+  // yields nothing in window, and nothing is exactly what got published.
+  const onePage = await collectCatnat(cityG, NOW,
+    async (url, page) => (page === 1 ? long.get(url, page) : { data: [] }), noSleep);
+  check("single page of an oldest-first history sees no recent order",
+    onePage.entries.length, 0);
+
+  const exhausted = oldestFirst(CATNAT_PAGE_SIZE * CATNAT_MAX_PAGES + 1);
+  const exhRes = await collectCatnat(cityG, NOW, exhausted.get, noSleep);
+  check("the page budget is a tripwire, not a silent cap", exhRes.truncated, true);
+  check("the budget stops the walk", exhausted.seen.length, CATNAT_MAX_PAGES);
+
+  let failRes = null;
+  try {
+    failRes = await collectCatnat(cityG, NOW, async (url, page) => {
+      if (page === 1) return long.get(url, page);
+      throw new Error("502");
+    }, noSleep);
+  } catch { /* must not throw: page 1 succeeded */ }
+  check("a later-page failure keeps what page 1 held", failRes?.entries?.length, 0);
+  check("a later-page failure is reported truncated", failRes?.truncated, true);
+
+  let threw = false;
+  try {
+    await collectCatnat(cityG, NOW, async () => { throw new Error("502"); }, noSleep);
+  } catch { threw = true; }
+  // The caller turns a throw into "source absent"; swallowing it here would
+  // turn a dead endpoint into a measured zero, which is the whole bug class.
+  check("a first-page failure throws rather than returning empty", threw, true);
+
+  check("catnat page url carries the page and the size",
+    catnatPageUrl("74010", 3), `${GEORISQUES_CATNAT}?code_insee=74010&page=3&page_size=50`);
 
   // — BODACC where clause —
   const city = { slug: "annecy", name: "Annecy", inseeCode: "74010" };

@@ -83,6 +83,16 @@ export interface CityNewsRecord {
    *  missing source is partial, not empty — the difference matters when a
    *  city shows only CatNat orders because BODACC timed out. */
   sources: string[];
+  /** Sources that answered but could not be read to the end (a page budget hit,
+   *  a paging error after the first page). Absent in the normal case.
+   *
+   *  Nothing displays it, deliberately: the budget that sets it is wide enough
+   *  that it should never fire, and the collector has to run once before anyone
+   *  can claim to know what it looks like in the wild. It exists so a short read
+   *  is loud in `news:stats` instead of silent in the data — the difference
+   *  between "we asked and there was nothing" and "we did not finish asking",
+   *  which is the distinction this pipeline has lost four times. */
+  truncated?: string[];
   entries: CityNewsEntry[];
 }
 

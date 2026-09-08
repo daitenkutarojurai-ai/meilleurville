@@ -1764,7 +1764,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce ; **passe de troncature le 07/09** : la facette des observateurs, plafonnée à 2 000 sur **101 villes**, était publiée comme un décompte dans la prose et en `value` JSON-LD alors que le tableau de la même page affichait « 2 000+ » — corrigé des deux côtés, plus les insectes plafonnés de 12 villes et deux drapeaux que le collecteur calculait puis jetait. ⚠️ **Aucune collecte depuis le 28/08** : les correctifs du 03/09 (reptiles, noms anglais) n'ont toujours atteint aucun lecteur |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
-| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 284 entrées** (BODACC 4 244 + CatNat 40). Section rendue sur les deux locales, 536 villes l'affichent, 4 masquées. RNA toujours désactivé (0 association). **Le collecteur a repris les 26-27/08** après vingt jours de silence : 360 lignes recollectées en `QUERY_VERSION = 2`, ce qui **confirme le correctif du 18/08** — 9 des 10 Saint-X portent leurs 8 entrées (`le-francois`, encore en v1, guérira à son tour). ⚠️ **Puis il s'est arrêté de nouveau** : rien depuis le 27/08, et **180 lignes n'ont jamais été reprises** (v1, 04-05/08, 27-28 jours) — le seuil ramené à 21 jours le 25/08 **se déclenche pour la première fois, sur 177 villes**, comme dimensionné. Mesuré ce run sur les 360 villes comptées deux fois à 22 jours d'intervalle : **un mois clos ne bouge plus** (1 769 seaux de juin-juillet identiques à l'unité, 0 en baisse sur 2 471), seul le mois en cours grossit (×5,5). **Note du mois partiel corrigée le 01/09** : elle qualifiait (« quelques jours », exact au 4 août, faux au 26) au lieu de mesurer — elle publie désormais la couverture, « soit 26 des 31 jours du mois » |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 284 entrées** (BODACC 4 244 + CatNat 40). 536 villes affichent la section, 4 masquées. RNA toujours désactivé. ⚠️ **Le collecteur n'a pas repris depuis le 27/08** (12 jours) et le tell posé au run précédent est confirmé : les **180 lignes v1 du 04-05/08 n'ont jamais été servies** (34-35 jours), donc aucune troisième passe — les deux lots des 26-27/08 étaient une intervention manuelle, pas un cron rétabli. 177 villes étiquetées « relevé non repris ». **Défaut corrigé le 08/09, dans Géorisques — la seule des trois sources jamais relue** : l'ingest CatNat lisait **une page de 50 sans `sort`** d'une histoire GASPAR qui remonte à 1982, donc une commune à longue histoire pouvait ne rien renvoyer de récent et être publiée en « on a demandé et il n'y avait rien » — **502 villes nomment Géorisques en source sans lister d'arrêté**, contre 34 qui en listent un. `collectCatnat()` pagine désormais et s'arrête à la première page courte (complet quel que soit l'ordre de tri), budget 8×50 en fil-piège, échec gradué (page 1 lève, page 2+ garde et signale `truncated`), `QUERY_VERSION` = 3. Aucune surface ne lit `truncated` tant qu'un run réel ne l'a pas confirmé ; `news:stats` **nomme** les lectures courtes. `news:selftest` 60 → **73** |
 
 ### F62 — Score Biodiversité
 
@@ -3218,6 +3218,103 @@ main qu'à un cron rétabli. Le tell à vérifier alors : les 180 lignes v1 rest
 les aurait prises au troisième lot (`pickBatch` sert d'abord les `queryVersion` périmés) ; si
 elles sont toujours là, aucune troisième passe n'a eu lieu. Ne pas « corriger » le pipeline à
 l'aveugle pour autant, et ne toucher ni à `dinan` ni à `selestat` sans réponse d'API.
+
+#### État au 2026-09-08 — le tell annoncé s'est vérifié, et la source jamais relue lisait une page sur huit
+
+**Le collecteur n'a pas repris.** `meta.refreshedAt` vaut toujours **2026-08-27**, soit douze
+jours, et le tell que le run précédent avait posé est **confirmé au bit près** : les **180 lignes
+v1 sont toujours là**, au 04-05/08, soit **34-35 jours**. Un cron sain les aurait servies au
+troisième lot — `pickBatch` sert d'abord les `queryVersion` périmés — donc **aucune troisième
+passe n'a eu lieu** : les deux lots des 26 et 27/08 étaient bien une intervention manuelle, pas
+un cron rétabli. Cohortes mesurées : 180 au 26/08, 180 au 27/08, 177 au 05/08, 3 au 04/08. Le
+seuil de 21 jours étiquette **177 villes** « relevé non repris ». Rien de tout ça n'est
+observable ni réparable d'ici, et ce n'est toujours pas une raison de retoucher le pipeline à
+l'aveugle : **le contrôle à faire en premier reste la date des lignes, jamais leur nombre** —
+540/540 villes et 4 284 entrées ne disent rien de la santé du collecteur.
+
+**Le défaut trouvé ce run est dans Géorisques, la seule des trois sources que personne n'avait
+jamais relue.** Le BODACC a été corrigé quatre fois (`api.bodacc.fr`, la famille `collective`,
+l'égalité majuscule, la parenthèse du seed) ; le RNA est désactivé ; l'ingest CatNat, lui, était
+inchangé depuis le premier jet. Il demandait **`page=1&page_size=50`, sans `sort`, sur une
+histoire GASPAR qui remonte à 1982**. Lire une seule page n'est correct que si l'API trie du plus
+récent au plus ancien — un ordre que **personne n'a jamais observé, et que la requête ne demande
+pas**. Sous l'ordre inverse (le défaut le plus courant des API de registre françaises), une
+commune ayant plus de cinquante arrêtés depuis 1982 ne renvoie que les années 1980-1990, tous les
+arrêtés récents tombent hors de la page, et le filtre à douze mois transforme la page entière en
+`[]`. **Ce vide est ensuite publié comme une mesure** : la ville inscrit `georisques` dans
+`sources`, c'est-à-dire « on a demandé et il n'y avait rien ». C'est exactement la signature des
+trois zéros BODACC — un zéro qui se lit comme un fait et ne lève aucune erreur — et celle du
+plafond de pagination publié comme un décompte en biodiversité le 07/09.
+
+**Ce que ça vaut aujourd'hui, mesuré** : **502 villes rendent une section qui nomme
+« Géorisques (GASPAR) » en source sans lister le moindre arrêté**, contre **34 qui en listent un
+ou deux** (40 arrêtés, **5 arrêtés nationaux distincts** sur douze mois, 2 au maximum par ville).
+⚠️ **Aucun de ces 502 zéros n'est démontré faux ici, et il ne faut pas l'écrire** : `lib/natural-risks.ts`
+est entièrement heuristique (« Aucune donnée externe »), donc s'en servir pour corroborer une
+mesure serait circulaire, et l'API est hors d'atteinte depuis une routine. Ce qui est démontré est
+plus simple et suffit : **le code ne peut pas distinguer « aucun arrêté en douze mois » de
+« les arrêtés récents étaient au-delà du plafond de page »**, et il publie les deux de la même
+façon. L'argument est d'ailleurs dans le fichier lui-même : `bodaccFamilyFilter()` porte un
+commentaire entier sur le plafond de 100 seaux de `group_by` — « no month can be silently cut off
+the end » — donc le plafond de pagination avait été raisonné pour une source et oublié pour
+l'autre.
+
+**Le correctif : paginer, au lieu de parier sur l'ordre.** `collectCatnat()` (exporté, testable)
+parcourt les pages et **s'arrête à la première page courte** — l'histoire est alors complète quel
+que soit l'ordre de tri, ce qui supprime le pari plutôt que de le couvrir. Budget de
+**8 pages × 50 = 400 arrêtés**, très au-delà du total de n'importe quelle commune depuis 1982 :
+c'est un fil-piège, pas une limite. L'échec est **gradué**, parce que perdre ce qu'on tient serait
+pire qu'être court : un échec en page 1 **lève** (l'appelant enregistre alors la source comme
+absente, jamais comme zéro), un échec en page 2+ **garde les pages déjà lues** et remonte
+`truncated`. La lecture ne peut donc que s'améliorer : la page 1 est demandée exactement comme
+avant, les suivantes seulement quand la précédente est revenue pleine. `QUERY_VERSION` passe à
+**3**, donc tout v2 est échu et le prochain lot recollecte les 540 — sans coût réel, ces lignes
+étant de toute façon à reprendre ; `lib/city-news.ts` ne filtre sur aucune version, donc rien ne
+se vide entre-temps.
+
+**Ce qui n'est délibérément pas fait : aucune surface ne lit `truncated`.** Le champ est typé dans
+`CityNewsRecord` et **omis quand vide**, mais rien ne l'affiche — le budget est assez large pour
+qu'il ne se déclenche jamais, et **le collecteur doit avoir tourné une fois avant que quiconque
+prétende savoir à quoi il ressemble en vrai**. C'est la règle de ce dépôt : pas de surface au-dessus
+d'un constant qu'aucun run n'a confirmé. Ce qu'il fait, en revanche, c'est rendre une lecture courte
+**bruyante** : `news:stats` **nomme** les villes concernées et dit que leurs comptes sont des
+planchers — la règle « un agrégat de zéros doit nommer ses membres » du 18/08, appliquée un cran en
+amont, parce qu'une lecture incomplète est pire qu'une lecture vide (la vide énonce une réponse,
+l'incomplète énonce une réponse qu'elle n'a pas fini de lire).
+
+**La garde.** `news:selftest` passe de 60 à **73 contrôles**, toujours zéro réseau : `collectCatnat`
+reçoit son accès aux pages par injection, donc toute la boucle se teste hors ligne. Les cas
+épinglés : une page courte arrête la marche et n'est pas dite tronquée ; une page pleine appelle la
+suivante ; les arrêtés situés au-delà de la première page sont **récupérés** et ce sont bien les
+récents ; le budget épuisé lève le drapeau au lieu de couper en silence ; un échec en page 2 garde
+la page 1 **et** se déclare tronqué ; un échec en page 1 **lève** plutôt que de rendre une liste
+vide. Et surtout **le défaut lui-même, écrit comme un test** : une seule page d'une histoire triée
+du plus ancien au plus récent ne voit **aucun** arrêté récent — c'est-à-dire exactement ce qui était
+publié. (Premier jet raté à noter, même famille que les précédents : la fixture espaçait les
+arrêtés de 300 jours depuis 1982 et fabriquait des dates **jusqu'en 2078**, que la fenêtre à douze
+mois laissait passer puisqu'elle ne borne que le passé ; le pas est désormais calculé pour que
+l'histoire synthétique tienne dans 1982-2023 quel que soit le nombre d'arrêtés.)
+
+**Vérifications.** `npx tsc --noEmit` **propre**, `npm run integrity` vert (540 villes, 4 284
+entrées), `news:selftest` **73/73**, `news:prune` ne trouve rien hors fenêtre (les entrées courent
+du 01/10/2025 au 01/08/2026, la fenêtre remonte au 08/09/2025). Section rendue pour de vrai contre
+les données réelles (`renderToStaticMarkup`, les 540 villes, FR **et** EN) : **536 sections rendues,
+4 masquées** (`dinan`, `selestat`, `ile-de-re`, `le-francois` — inchangées, et toujours rien à
+écrire dessus sans réponse d'API), **177 étiquetées en retard**, **1 219 entrées portant un mois
+partiel**, **zéro lien sans `rel="nofollow"`**, **zéro section sans l'énoncé de plafond**, **zéro
+date future**, **zéro fuite de français côté EN**. ⚠️ Le détecteur de fuite EN a d'abord crié sur
+les 536 : il cherchait « Sources », qui est aussi un mot anglais — **un contrôle qui échoue partout
+accuse d'abord le contrôle**, la sortie EN de Rennes relue à la main est de l'anglais propre, et
+« Géorisques (GASPAR) » y reste en français parce que c'est un nom propre.
+
+**Ce que le prochain run doit regarder en premier.** La date des lignes, avant leur nombre. Si
+`refreshedAt` est encore au 27/08, le collecteur est mort depuis trois semaines et le v3 de ce run
+n'a atteint aucun lecteur — auquel cas la vraie information reste que **rien de ce dépôt ne peut le
+réparer**. S'il a tourné, alors les 540 lignes sont en v3 et **`news:stats` doit être lu pour la
+ligne `⚠ incomplete reads`** : si elle imprime, des communes ont plus de 400 arrêtés depuis 1982 et
+le budget est à revoir ; si elle n'imprime pas, la pagination a fait son travail et le nombre de
+villes portant un arrêté aura bougé — **c'est ce nombre, comparé aux 34 d'aujourd'hui, qui dira
+enfin si les 502 zéros étaient vrais**. Ne rien conclure des deux côtés avant ce comptage.
 
 ---
 
