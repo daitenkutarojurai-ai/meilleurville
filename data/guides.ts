@@ -54374,6 +54374,454 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire au Cannet", "activités Le Cannet 2026", "que faire dans les Alpes-Maritimes", "sorties Côte d'Azur peinture", "musée Bonnard Tobiasse Peynet tour des Danys"]
   },
+  {
+    slug: "10-choses-a-faire-a-melun-2026",
+    title: "10 choses à faire à Melun",
+    metaTitle: "10 choses à faire à Melun en 2026",
+    metaDesc:
+      "Une collégiale fondée par Robert le Pieux, une église au plan de travers, le musée de la Gendarmerie nationale : 10 activités à Melun, sur la Seine.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Melun comptait 43 685 habitants au recensement de 2022, contre 40 228 en 2016 et 39 497 en 2011 : c'est, parmi les onze communes de Seine-et-Marne que suit ce site, celle dont la population progresse le plus vite depuis 2011, devant Champs-sur-Marne et Meaux. En nombre d'habitants gagnés, en revanche, c'est Meaux qui passe devant, et il vaut mieux dire lequel des deux comptes on cite. On la traverse pourtant sans s'y arrêter, parce qu'elle est le point de correspondance vers Fontainebleau et le stationnement le plus commode pour Vaux-le-Vicomte. C'est passer à côté d'une ville capétienne. Robert le Pieux y a tenu sa cour, et l'île Saint-Étienne, posée au milieu de la Seine, en garde encore la trame.",
+    sections: [
+      {
+        heading: "1. L'île Saint-Étienne, cœur de la ville médiévale",
+        body: "Au Moyen Âge, la ville tient sur une île. L'île Saint-Étienne est le point stratégique du site : elle sert d'appui aux deux ponts qui franchissent les bras de la Seine, et elle est la seule partie close d'un mur avant le début du XIIIe siècle. Elle abrite alors le château royal, la collégiale Notre-Dame, le prieuré Saint-Sauveur, l'église paroissiale Saint-Étienne, l'église Saint-Laurent et l'hôtel-Dieu Saint-Nicolas, soit à peu près tout ce qui compte. La prééminence de l'île s'efface ensuite au profit de la paroisse Saint-Aspais, sur la rive droite, et c'est ce basculement qui explique la ville d'aujourd'hui : le centre commerçant est sur une rive, l'histoire est au milieu de l'eau. Une heure de marche sur l'île suffit à comprendre l'organisation de Melun mieux que n'importe quel plan."
+      },
+      {
+        heading: "2. La collégiale Notre-Dame",
+        body: "Robert le Pieux fonde la collégiale entre 1016 et 1031, sur l'emplacement d'un édifice plus ancien, et y installe une communauté de douze chanoines. L'opération fait partie de la mainmise capétienne sur le comté de Melun, où le roi possède un château tout proche. Après un incendie au XIIe siècle, le plafond de bois d'origine cède la place à des voûtes d'ogives ; le chœur est repris à partir de 1161 et consacré en 1198. C'est donc un chantier roman rattrapé par le gothique, et cela se lit dans le bâtiment. Le rapprochement avec Poissy s'impose : la collégiale poissyaise a été fondée vers 1016 par le même roi, et les deux villes tiennent leur premier monument du même geste politique."
+      },
+      {
+        heading: "3. L'église Saint-Aspais et son plan de travers",
+        body: "Saint-Aspais est citée dès 1080 par Richer, évêque de Sens. L'église que l'on voit est bien plus tardive : le presbytère voisin est démoli en 1506 pour préparer la reconstruction, et à partir de 1517 la fabrique fait appel à Jean de Félin, architecte parisien auteur de la tour Saint-Jacques-de-la-Boucherie, pour bâtir le chœur. Il donne à l'édifice le flamboyant très orné que Martin Chambiges développait alors à Sens, à Beauvais et à Troyes. Sa singularité tient à son plan, un trapèze irrégulier : le tissu urbain était si dense que l'église a épousé la parcelle disponible plutôt que l'inverse. Il en résulte quatre bas-côtés à la nef et cinq au chœur, le mur sud étant construit de biais. Elle est classée monument historique depuis 1914."
+      },
+      {
+        heading: "4. Le musée de la Gendarmerie nationale",
+        body: "C'est l'équipement qui justifie à lui seul le déplacement, et il est récent : le musée a ouvert le 10 octobre 2015 et a été inauguré par le ministre de l'Intérieur le 17 décembre de la même année. La collection, elle, est constituée depuis 1946 et compte plus de 30 000 objets et documents, dont environ 2 000 sont présentés. Le parcours court sur quelque 1 200 m² et s'organise autour d'une vitrine suspendue de 18 mètres de long sur 8,5 mètres de haut. On y suit la gendarmerie du Moyen Âge à aujourd'hui, à la fois dans l'ordre du temps et par thèmes, avec des uniformes et des armes mais aussi des scellés d'enquête, des tonnelets de cantine, des bicyclettes et des aquarelles. C'est un musée d'histoire de l'État autant qu'un musée de corps."
+      },
+      {
+        heading: "5. Le diptyque de Melun, qui n'est plus à Melun",
+        body: "L'œuvre la plus célèbre attachée à la ville n'y est pas, et il vaut mieux le savoir avant de la chercher. Le diptyque de Melun, peint par Jean Fouquet pour Étienne Chevalier, a été vendu par les chanoines à la veille de la Révolution pour financer la restauration de la collégiale Notre-Dame. Ses deux volets sont aujourd'hui séparés : l'un est au musée royal des Beaux-Arts d'Anvers, l'autre à la Gemäldegalerie de Berlin. Ce n'est pas une anecdote : c'est la trace d'un moment où l'entretien d'un monument valait plus, aux yeux de ceux qui en avaient la charge, que la conservation d'un tableau. Melun garde le nom de l'œuvre et rien d'autre."
+      },
+      {
+        heading: "6. Le musée d'Art et d'Histoire et l'Astrolabe",
+        body: "L'île Saint-Étienne accueille aujourd'hui le musée d'Art et d'Histoire de Melun et la médiathèque l'Astrolabe. C'est la reconversion la plus lisible du site : là où se tenaient le château et les institutions religieuses se tiennent les équipements culturels de la ville. Le musée couvre l'archéologie locale et l'histoire de la cité, ce qui en fait le bon premier arrêt si l'on veut comprendre ce que l'on va voir ensuite dehors. Comme souvent pour des équipements municipaux de cette taille, les jours d'ouverture bougent selon les saisons et les accrochages : on vérifie avant de venir, surtout si l'on se déplace pour une salle précise."
+      },
+      {
+        heading: "7. Vaux-le-Vicomte, accessible depuis Melun",
+        body: "Le château est à Maincy, commune à part entière, à environ huit kilomètres du centre de Melun : accessible depuis la ville, pas situé dedans. Nicolas Fouquet achète le domaine en 1641 et lance le grand chantier en 1653, confié à Louis Le Vau pour l'architecture, à Charles Le Brun pour le décor et à André Le Nôtre pour les jardins ; des centaines d'ouvriers y travaillent de 1656 à 1661. La fête donnée en l'honneur de Louis XIV le 17 août 1661 est restée le symbole de sa chute : trois semaines plus tard, le 5 septembre, Fouquet est arrêté à Nantes par d'Artagnan, puis condamné à la prison perpétuelle. Compter une journée entière et un moyen de transport dédié : ce n'est pas une extension de la visite de Melun, c'est une sortie à part."
+      },
+      {
+        heading: "8. Le brie de Melun, qui n'est pas le brie de Meaux",
+        body: "Les deux fromages portent le même nom de région et sont deux produits distincts, chacun avec son appellation d'origine protégée. Le brie de Melun est fabriqué en quantités nettement plus faibles que celui de Meaux ; il est plus épais, plus salé, et son caractère est plus affirmé. Un lecteur qui a goûté l'un croit connaître l'autre, et c'est faux. Le site consacre par ailleurs un guide à Meaux, où l'AOP voisine est traitée pour elle-même : la comparaison se fait mieux sur place, chez un fromager, qu'en lisant deux fiches. On évitera en revanche de faire dire à La Fontaine ce qu'il n'a pas écrit : sa fable la plus citée à ce sujet ne nomme aucun fromage."
+      },
+      {
+        heading: "9. Une préfecture, et ce que cela veut dire",
+        body: "Melun est la préfecture de la Seine-et-Marne, département le plus vaste d'Île-de-France, et elle en porte les fonctions : administration, justice, services de l'État. Cela façonne la ville plus qu'on ne le croit. Le centre vit d'une population de bureaux en semaine, les commerces suivent ce rythme, et le week-end n'a pas la même densité. Pour un visiteur, la conséquence est pratique : la ville se voit mieux un samedi matin, jour de marché et de vie de rue, qu'un dimanche. C'est aussi ce qui explique la présence du musée de la Gendarmerie ici plutôt qu'ailleurs, la ville accueillant de longue date des implantations de ce corps."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Melun est desservie depuis Paris par le RER D et par les trains de la ligne R au départ de la gare de Lyon, ce qui la met à portée d'une journée sans voiture. Une demi-journée suffit pour l'île Saint-Étienne, la collégiale et Saint-Aspais ; une journée si l'on ajoute le musée de la Gendarmerie, qui demande à lui seul deux bonnes heures. Vaux-le-Vicomte se traite à part, sur une autre journée. La meilleure combinaison pour qui vient de Paris est de faire Melun le matin, quand le marché tourne, et de garder l'après-midi pour un seul musée plutôt que deux."
+      }
+    ],
+    relatedCities: ["melun", "meaux", "fontainebleau", "provins"],
+    relatedGuides: [
+      "10-choses-a-faire-a-meaux-2026",
+      "10-choses-a-faire-a-fontainebleau-2026",
+      "10-choses-a-faire-a-provins-2026",
+      "10-choses-a-faire-a-poissy-2026"
+    ],
+    tags: ["10 choses à faire à Melun", "activités Melun 2026", "que faire en Seine-et-Marne", "sorties Île-de-France patrimoine", "collégiale Notre-Dame musée Gendarmerie Vaux-le-Vicomte"]
+  },
+  {
+    slug: "10-choses-a-faire-a-mantes-la-jolie-2026",
+    title: "10 choses à faire à Mantes-la-Jolie",
+    metaTitle: "10 choses à faire à Mantes-la-Jolie en 2026",
+    metaDesc:
+      "Une collégiale contemporaine de Notre-Dame de Paris, la plus grande collection publique de Maximilien Luce : 10 activités à Mantes-la-Jolie.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Mantes-la-Jolie comptait 44 246 habitants au recensement de 2022, contre 43 969 en 2016 et 42 727 en 2011. Aucun guide de ce site ne la citait jusqu'ici, ce qui est le vrai scandale de cette page : la ville porte une collégiale gothique dont le chantier s'ouvre en même temps que celui de Notre-Dame de Paris, et la plus importante collection publique française d'un peintre néo-impressionniste. Le nom lui-même est récent. Gassicourt fusionne avec Mantes en 1930, la commune s'appelle alors Mantes-Gassicourt, et ne devient Mantes-la-Jolie qu'en 1953.",
+    sections: [
+      {
+        heading: "1. La collégiale Notre-Dame",
+        body: "C'est le monument qui justifie le déplacement. Le chantier s'ouvre entre 1140 et 1150, les voûtes du niveau bas sont probablement en place vers 1170, et l'édifice est classé monument historique dès 1840, sur la première liste. L'élévation à trois niveaux et les voûtes sexpartites de la nef, à sept travées, font qu'on pense immédiatement à Notre-Dame de Paris : ce n'est pas une impression, c'est la même génération de bâtisseurs et le même parti architectural. L'architecte mantais Alphonse Durand, mort en 1881, y a consacré vingt-sept ans de restauration, de 1846 à 1873. Pour un visiteur venu de Paris, c'est l'occasion de voir en une heure, et sans foule, ce que l'on met une demi-journée à approcher dans la capitale."
+      },
+      {
+        heading: "2. La tour Saint-Maclou",
+        body: "Plantée dans le centre, la tour Saint-Maclou est ce qui reste d'une église paroissiale gothique dont le corps a disparu. Elle joue aujourd'hui le rôle d'un repère urbain : on l'aperçoit de loin, elle donne son échelle à la place, et elle rappelle qu'une ville médiévale avait plusieurs paroisses là où l'on n'en voit plus qu'une. Elle est aussi le sujet, avec la collégiale, d'un des tableaux les plus connus du musée de l'Hôtel-Dieu, ce qui permet de faire l'aller-retour entre la toile et la pierre en dix minutes de marche. C'est le genre de coïncidence que l'on ne trouve pas si souvent : le point de vue du peintre est encore praticable."
+      },
+      {
+        heading: "3. Le musée de l'Hôtel-Dieu et Maximilien Luce",
+        body: "Le bâtiment est un hôtel-Dieu, c'est-à-dire un établissement de charité, dont les parties anciennes remontent au XIVe siècle ; la ville l'acquiert et l'ouvre comme musée en 1996, et le lieu a été rénové en 2018. Il conserve la plus importante collection publique française consacrée à Maximilien Luce, peintre néo-impressionniste, proche des milieux anarchistes, contemporain et ami de Seurat, Signac et Pissarro. Le rez-de-chaussée présente en outre des œuvres sculptées provenant de la collégiale voisine, ce qui referme la boucle avec le monument. Un musée de ville moyenne qui détient la référence nationale sur un artiste est une situation rare, et c'est ce qui fait la valeur de l'arrêt."
+      },
+      {
+        heading: "4. Ce que la ville doit à Corot",
+        body: "Le pont de Mantes a été peint plusieurs fois par Camille Corot ; l'une de ces toiles, datée de 1868, est au Louvre. Le motif n'a rien d'anodin pour la ville : c'est par ces tableaux qu'elle est entrée dans l'histoire de la peinture de paysage, à un moment où la vallée de la Seine, en aval de Paris, devenait un atelier à ciel ouvert. Marcher sur les bords de Seine à Mantes, c'est donc regarder un sujet plutôt qu'un décor. Une réserve honnête : le pont peint par Corot et celui que l'on emprunte aujourd'hui n'ont pas traversé le XXe siècle de la même façon, pour la raison que dit la section suivante."
+      },
+      {
+        heading: "5. L'église Sainte-Anne de Gassicourt",
+        body: "Le quartier de Gassicourt, ancienne commune, conserve l'église de son prieuré clunisien. Le comte de Mantes, Simon, fonde vers 1074 un prieuré placé sous le vocable de Saint-Sulpice ; l'église qui en subsiste, dédiée à sainte Anne, est classée monument historique en 1862. Elle est moins fréquentée que la collégiale et se visite dans une tout autre ambiance, celle d'un bourg absorbé par la ville. C'est aussi la manière la plus simple de comprendre pourquoi la commune s'est appelée Mantes-Gassicourt pendant vingt-trois ans : ce ne sont pas deux quartiers d'une même ville, ce sont deux villages devenus une commune."
+      },
+      {
+        heading: "6. Le 30 mai 1944",
+        body: "Ce jour-là, l'aviation alliée bombarde le pont de Mantes, cible stratégique sur la Seine avant le débarquement. Une partie du centre-ville est détruite et plus de quatre cents civils sont tués. Cela explique la physionomie du centre, où des immeubles de reconstruction voisinent avec des monuments médiévaux sans transition : la trame ancienne a été percée. Le savoir change la promenade, parce qu'on cesse de lire ces alignements comme de la banalité d'après-guerre pour y voir la trace d'une journée précise. La collégiale, elle, a tenu, et c'est en partie ce qui lui vaut sa place dans le paysage."
+      },
+      {
+        heading: "7. D'où vient « la Jolie »",
+        body: "La tradition attribue le qualificatif à Henri IV, qui aurait écrit à Gabrielle d'Estrées, sa maîtresse résidant à Mantes, une phrase du genre « je viens à Mantes, ma jolie ». C'est une attribution plaisante, colportée depuis longtemps, et elle n'est pas établie : il faut la donner pour ce qu'elle est, une jolie histoire, plutôt que pour un fait. Ce qui est certain, c'est que le surnom circulait de façon officieuse bien avant d'être officialisé, et que la commune l'a adopté en 1953 en abandonnant le nom de Mantes-Gassicourt. La maison de Gabrielle d'Estrées se trouvait, dit la tradition locale, à proximité immédiate de la collégiale."
+      },
+      {
+        heading: "8. Les bords de Seine et l'île l'Aumône",
+        body: "La ville s'étend au bord du fleuve et l'espace de promenade y est large, avec des berges aménagées et un plan d'eau. C'est le contrepoint utile à une matinée de monuments : on quitte le centre, on regarde la Seine, on comprend pourquoi la ville est là. Le fleuve est aussi ce qui a fait de Mantes une place de passage entre Paris et la Normandie, position qui lui a valu sièges et destructions bien avant 1944. Pour un visiteur venu à la journée, une heure au bord de l'eau en fin d'après-midi vaut mieux qu'un troisième monument."
+      },
+      {
+        heading: "9. Le Val Fourré, sans verdict",
+        body: "Une part importante des habitants vit dans le Val Fourré, l'un des plus grands ensembles de logements construits en France dans les années 1960, aujourd'hui engagé dans une transformation urbaine de longue haleine. Ce quartier fait partie de la ville et de son histoire au même titre que la collégiale : il dit ce qu'a été la croissance de l'ouest francilien, l'accueil des salariés de l'industrie automobile de la vallée, puis les décennies qui ont suivi. Ce guide n'y porte aucun jugement de sécurité et n'en fabrique aucun classement : ce ne serait pas une mesure, ce serait une opinion sur des habitants. On mentionne le quartier parce que l'ignorer reviendrait à décrire une autre ville que celle qui existe."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Mantes-la-Jolie est reliée directement à Paris par le train, et la gare est à courte distance du centre ancien. La desserte a changé plusieurs fois ces dernières années avec les travaux de la vallée de la Seine : on vérifie l'horaire du jour plutôt que de se fier à un souvenir ou à une carte imprimée. Une demi-journée suffit pour la collégiale, la tour Saint-Maclou et le musée de l'Hôtel-Dieu, les trois étant à quelques centaines de mètres les uns des autres. Une journée si l'on ajoute Gassicourt et les bords de Seine. La ville se combine bien avec Vernon, plus en aval, d'où Giverny est accessible."
+      }
+    ],
+    relatedCities: ["mantes-la-jolie", "poissy", "vernon", "versailles"],
+    relatedGuides: [
+      "10-choses-a-faire-a-poissy-2026",
+      "10-choses-a-faire-a-vernon-2026",
+      "10-choses-a-faire-a-versailles-2026",
+      "10-choses-a-faire-a-conflans-sainte-honorine-2026"
+    ],
+    tags: ["10 choses à faire à Mantes-la-Jolie", "activités Mantes-la-Jolie 2026", "que faire dans les Yvelines", "sorties Île-de-France patrimoine", "collégiale Notre-Dame Maximilien Luce Corot"]
+  },
+  {
+    slug: "10-choses-a-faire-a-istres-2026",
+    title: "10 choses à faire à Istres",
+    metaTitle: "10 choses à faire à Istres en 2026",
+    metaDesc:
+      "Un oppidum au-dessus d'un étang de 220 hectares, un jet d'eau de 50 mètres, un parcours de dinosaures grandeur nature : 10 activités à Istres.",
+    category: "tourisme",
+    emoji: "🏞️",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Istres comptait 44 044 habitants au recensement de 2022, contre 42 925 en 2016 et 42 943 en 2011 : une commune stable, huitième sur les treize des Bouches-du-Rhône que suit ce site pour l'évolution de population. Aucun guide du site ne la citait jusqu'ici. On la connaît pour deux choses qui ne se visitent pas de la même façon : une base aérienne, qui est une emprise militaire, et l'étang de Berre, dont la réputation industrielle masque ce qu'il y a autour. Ce qui se visite réellement à Istres tient sur une colline, au-dessus d'un second étang.",
+    sections: [
+      {
+        heading: "1. L'étang de l'Olivier et son jet d'eau",
+        body: "L'étang de l'Olivier fait 220 hectares et communique avec l'étang de Berre par le canal du Cascaveau. Il est le vrai centre de gravité de la commune : la ville le regarde, le contourne et s'y promène. Depuis 2008, un jet d'eau y projette une colonne à cinquante mètres de haut, ce qui en fait l'un des plus hauts de France et le repère visible depuis presque partout dans Istres. Le tour de l'étang se fait à pied ou à vélo sur un terrain plat, et c'est la bonne façon de commencer une journée ici : on prend la mesure du site avant d'aller chercher le détail. Le contraste avec l'étang de Berre, immédiatement à l'est, est instructif, les deux plans d'eau n'ayant ni la même taille ni le même usage."
+      },
+      {
+        heading: "2. L'oppidum du Castellan",
+        body: "Le Castellan est un promontoire rocheux qui domine la partie sud de l'étang de l'Olivier. Le site a été occupé du VIe siècle avant notre ère jusqu'au haut Moyen Âge, ce qui en fait l'un des habitats perchés de longue durée de la Provence, dans la lignée des oppida celto-ligures de la région. On y monte pour deux raisons : le panorama sur la ville et l'étang, et l'idée très concrète de ce qu'était un site défensif méditerranéen, choisi pour sa vue et pour sa pente. La montée est courte mais elle se fait au soleil : en été, on la programme tôt le matin ou en fin d'après-midi."
+      },
+      {
+        heading: "3. Dinosaur'Istres",
+        body: "Sur la colline du Castellan, derrière la mairie, un parcours de trois kilomètres présente une quarantaine d'espèces reproduites grandeur nature, disposées dans l'ordre chronologique de leur apparition sur Terre, avec des panneaux explicatifs. L'accès est libre et le site est ouvert toute l'année ; l'office de tourisme propose en outre des visites accompagnées par des paléontologues. Les spécimens aquatiques les plus anciens sont placés du côté de l'étang de l'Olivier, les dinosaures ayant vécu en Provence sur le plateau. Le choix du sujet n'est pas décoratif : les terrains provençaux voisins ont livré au XIXe siècle des découvertes majeures en matière d'œufs fossiles, et les panneaux du parcours expliquent ce lien local."
+      },
+      {
+        heading: "4. La chapelle Saint-Sulpice",
+        body: "La chapelle Saint-Sulpice est un exemple majeur d'art roman provençal dans le secteur. La date exacte de sa fondation reste inconnue et la tradition la situe entre le Xe et le XIe siècle : on le dit ainsi plutôt que de trancher, parce qu'aucune source ne le fait. Elle est inscrite à l'inventaire supplémentaire des monuments historiques depuis 1942. C'est un édifice sobre, de petites dimensions, dont l'intérêt tient à la maçonnerie et au volume plus qu'au décor, et qui se visite en quelques minutes. Elle donne, avec l'oppidum, la profondeur historique que le reste de la commune, largement construite au XXe siècle, ne montre pas."
+      },
+      {
+        heading: "5. Le vieux village",
+        body: "Le noyau ancien d'Istres se parcourt à pied, entre ruelles étroites, placettes et façades provençales. Il est petit, et c'est une information utile : Istres n'est pas un village perché du Luberon et ne se visite pas comme tel. Ce que l'on y trouve est un centre de commune méditerranéenne ordinaire, avec ses commerces, ses fontaines et son marché, davantage tourné vers la vie de ses habitants que vers le passage. Une heure suffit. L'intérêt est de le faire en enchaînant avec le Castellan, qui le domine, parce que l'un explique l'autre : on est descendu de la colline pour s'installer en contrebas."
+      },
+      {
+        heading: "6. Le musée archéologique René-Beaucaire",
+        body: "Installé place du Puits-Neuf, dans un hôtel particulier du XVIIe siècle, le musée présente des collections archéologiques issues du golfe de Fos et du pourtour des étangs. C'est le bon endroit pour donner un contenu à ce que l'on a vu sur le Castellan, où il n'y a pas grand-chose à lire sur place. Le fonds vient en partie de fouilles sous-marines, ce qui est logique dans un secteur où l'activité portuaire antique est ancienne. Comme pour tous les musées municipaux de cette taille, on vérifie les jours d'ouverture avant de se déplacer, ils varient selon les saisons."
+      },
+      {
+        heading: "7. Les plages de l'étang de Berre",
+        body: "Istres a des plages, ce que peu de gens savent : la Romaniquette et le Ranquet, sur l'étang de Berre, avec baignade, sentier de découverte dans les roseaux et locations de matériel nautique. C'est de l'eau saumâtre et une plage de lagune, pas la Méditerranée ouverte, et le paysage porte l'horizon industriel du pourtour de l'étang. Une règle à traiter comme telle et non comme un conseil : la baignade dans l'étang de Berre est soumise à la surveillance de la qualité de l'eau, et des interdictions temporaires sont prononcées par arrêté, notamment après un incident sur une station d'épuration ou en cas de développement algal. On se renseigne sur place le jour même, l'affichage faisant foi."
+      },
+      {
+        heading: "8. La base aérienne 125, qui ne se visite pas",
+        body: "Il faut le dire avant toute phrase attrayante : la base aérienne 125 d'Istres-Le Tubé est une emprise militaire, on n'y entre pas librement, et sa présence explique une part de l'économie et de la population de la commune. Sa piste est l'une des plus longues d'Europe, ce qui lui vaut d'accueillir des essais et des appareils que peu de terrains peuvent recevoir. Pour un visiteur, cela se traduit par du bruit d'aéronefs sur certaines journées et par des vues d'avions depuis les hauteurs, pas par une visite. Le traitement est le même ici que pour la base 701 de Salon-de-Provence ou la collection du CAEA à Mérignac : on dit ce qui est fermé plutôt que de laisser espérer."
+      },
+      {
+        heading: "9. Une commune éclatée en hameaux",
+        body: "Istres n'est pas une ville d'un seul tenant. La commune est vaste et comprend plusieurs entités distinctes, dont Entressen, à l'écart du centre, qui fonctionne comme un village avec ses propres commerces et son plan d'eau. Cette dispersion est la raison pour laquelle une visite sans voiture demande de choisir : le centre, le Castellan et l'étang de l'Olivier forment un ensemble cohérent et marchable, le reste non. Les pistes cyclables du pourtour de l'étang de Berre, plates et continues vers Saint-Mitre-les-Remparts et Martigues, sont la meilleure réponse à cette géographie pour qui a deux roues."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Istres est reliée par le rail au reste des Bouches-du-Rhône, mais l'essentiel des visiteurs arrive en voiture, la commune étant à l'écart des grands axes ferroviaires régionaux. Une demi-journée couvre l'étang de l'Olivier, le Castellan et le parcours des dinosaures ; une journée entière si l'on ajoute le musée, la chapelle et une baignade. La bonne saison est le printemps ou l'automne : en juillet et en août, la colline est écrasée de soleil et l'étang très fréquenté. Martigues, Salon-de-Provence et Fos-sur-Mer sont des communes voisines, chacune à part entière, et se traitent comme des sorties distinctes."
+      }
+    ],
+    relatedCities: ["istres", "martigues", "salon-de-provence", "marignane"],
+    relatedGuides: [
+      "10-choses-a-faire-a-martigues-2026",
+      "10-choses-a-faire-a-salon-de-provence-2026",
+      "10-choses-a-faire-a-la-ciotat-2026",
+      "10-choses-a-faire-a-arles-2026"
+    ],
+    tags: ["10 choses à faire à Istres", "activités Istres 2026", "que faire dans les Bouches-du-Rhône", "sorties Provence étang de Berre", "oppidum du Castellan Dinosaur'Istres étang de l'Olivier"]
+  },
+  {
+    slug: "10-choses-a-faire-a-conflans-sainte-honorine-2026",
+    title: "10 choses à faire à Conflans-Sainte-Honorine",
+    metaTitle: "10 choses à faire à Conflans-Sainte-Honorine en 2026",
+    metaDesc:
+      "Un donjon du XIe siècle, le musée de la batellerie, un bateau-chapelle amarré depuis 1936 : 10 activités à Conflans-Sainte-Honorine, au confluent.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Conflans-Sainte-Honorine comptait 36 306 habitants au recensement de 2022, contre 35 404 en 2016 et 35 582 en 2011 : la commune a creusé puis regagné, et elle arrive dixième des seize communes des Yvelines que suit ce site pour l'évolution de population depuis 2011. Aucun guide de ce site ne la citait jusqu'ici. Elle a pourtant une identité qu'aucune autre ville de la région ne peut revendiquer : elle est la capitale française de la batellerie, c'est-à-dire du transport fluvial, et elle le doit à sa position exacte, au confluent de l'Oise et de la Seine.",
+    sections: [
+      {
+        heading: "1. Pourquoi « capitale de la batellerie »",
+        body: "Le titre n'est pas un slogan d'office de tourisme. Le confluent de l'Oise et de la Seine est un point de rupture de charge naturel, et les évolutions techniques du XIXe siècle en ont fait le point de rassemblement des mariniers du bassin de la Seine : on y attendait un chargement, on y hivernait, on y faisait réparer. Une population entière y a vécu à bord, avec ses écoles, ses commerces et ses rites. Cette histoire n'est pas achevée, des péniches habitées étant toujours amarrées le long des quais. Comprendre cela avant de descendre au bord de l'eau change complètement ce que l'on regarde : ce ne sont pas des bateaux de plaisance, c'est le reste d'un monde du travail."
+      },
+      {
+        heading: "2. Le musée de la batellerie et des voies navigables",
+        body: "C'est un musée municipal de portée nationale, consacré au transport fluvial, aux bateaux de rivière et aux voies navigables. Il a été créé en 1965 à l'initiative de Louise Weiss et confié à François Beaudouin, archéologue naval, qui en a été le conservateur jusqu'à son départ en retraite en 1994. Il a été rénové en 2015. Les collections couvrent les techniques, les métiers et la vie à bord, avec des maquettes, des outils et des documents que l'on ne voit nulle part ailleurs rassemblés. Comme pour tout musée municipal, on vérifie les jours et horaires d'ouverture avant de se déplacer, ils bougent selon les saisons."
+      },
+      {
+        heading: "3. Le château du Prieuré",
+        body: "Le musée occupe le château du Prieuré, sur les hauteurs de la ville, dans un parc qui domine la vallée. Le site est celui d'un ancien prieuré fondé en 1080 et placé sous le patronage de sainte Honorine, dont la commune porte le nom. La visite se fait donc à deux niveaux de lecture : un bâtiment de propriété seigneuriale reconverti en équipement public, et un lieu religieux antérieur dont il ne reste que le nom et l'emplacement. Le parc vaut à lui seul la montée : c'est de là que l'on comprend le mieux la géographie du confluent, avec l'Oise d'un côté et la Seine de l'autre."
+      },
+      {
+        heading: "4. La tour Montjoie",
+        body: "La tour Montjoie est un donjon du XIe siècle qui domine la vallée. C'est le monument le plus ancien de la commune et le plus spectaculaire par sa position : la ville haute s'est organisée autour de lui, et les ruelles en pente qui l'entourent gardent la trame médiévale. Une tour de cette date, encore debout et lisible dans un tissu urbain de la grande couronne parisienne, est une rareté. On l'aborde par le haut, depuis le quartier du Prieuré, ou par le bas, depuis les quais, avec dans ce sens une montée sèche mais courte."
+      },
+      {
+        heading: "5. L'église Saint-Maclou et la ville haute",
+        body: "L'église Saint-Maclou, la tour Montjoie et le château du Prieuré forment l'ensemble de la ville haute, celle d'avant la batellerie. Le contraste avec les quais est le meilleur ressort de la visite : en un quart d'heure de marche, on passe d'une bourgade médiévale de coteau à un port fluvial du XIXe siècle. Les ruelles sont étroites et pentues, ce qui limite l'usage de la voiture et rend la promenade agréable. C'est aussi le secteur où le bâti ancien est le mieux conservé, la commune n'ayant pas connu de destruction massive comparable à celle de Mantes."
+      },
+      {
+        heading: "6. Le bateau-chapelle Je Sers",
+        body: "Le Je Sers est une péniche transformée en chapelle, amarrée à Conflans depuis 1936. La coque a été construite en 1919 à Amfreville-sous-les-Monts, dans l'Eure, sous le nom de Langemarck, du nom d'une commune belge proche d'Ypres. Ses hublots octogonaux portent des vitraux du maître verrier Jacques Le Chevallier. Il faut dire ce qu'est ce bateau aujourd'hui : d'abord un lieu d'accueil en activité, avec une aide alimentaire et des services sociaux, pas une attraction. On le regarde depuis le quai, et les occasions de monter à bord sont liées aux temps d'ouverture organisés, notamment pendant le pardon."
+      },
+      {
+        heading: "7. Le pardon national de la batellerie",
+        body: "Chaque année depuis 1960, le troisième week-end de juin, la ville accueille le pardon national de la batellerie. C'est le rendez-vous qui rassemble le monde fluvial : bénédiction des bateaux, défilé sur l'eau, retrouvailles de familles de mariniers dispersées le reste de l'année. Pour un visiteur, c'est le seul moment où l'objet du musée est visible en vrai et en nombre sur la Seine. C'est aussi, mécaniquement, le week-end où la ville est pleine et où le stationnement devient difficile : on vient en train ou on vient tôt. Le reste de l'année, les quais gardent leur calme habituel."
+      },
+      {
+        heading: "8. Les quais et le confluent",
+        body: "La promenade des quais est longue, plate et bordée de péniches, dont beaucoup sont des logements. Le confluent lui-même se voit bien depuis les hauteurs et depuis certains points de la berge : l'Oise arrive du nord, la Seine vient de Paris, et le trafic de fret y est encore réel. C'est un paysage de travail, pas de carte postale, et c'est ce qui en fait l'intérêt. Une règle de savoir-vivre locale vaut d'être rappelée : une péniche amarrée le long du quai est un domicile, et les pontons privés ne sont pas des pontons de promenade."
+      },
+      {
+        heading: "9. Sainte Honorine, et pourquoi le nom est double",
+        body: "Le nom de la commune associe la géographie et une relique. Conflans dit le confluent ; Sainte-Honorine renvoie au prieuré fondé en 1080, les reliques de la sainte ayant été mises à l'abri ici lors des troubles du haut Moyen Âge. C'est un cas parlant d'une pratique alors courante : les corps saints se déplaçaient, et les villes qui les recueillaient en tiraient un pèlerinage, donc des revenus. Le double nom résume ainsi les deux moteurs successifs de la ville, l'eau et la dévotion, avant que l'eau ne reprenne seule la main au XIXe siècle."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "La commune a deux gares, ce qui est confortable : Conflans-Sainte-Honorine sur le Transilien ligne J au départ de Saint-Lazare, et Conflans-Fin-d'Oise, desservie notamment par le RER A. Une demi-journée suffit pour la ville haute, le musée et les quais, le tout tenant dans un périmètre marchable si l'on accepte deux montées. Une journée si l'on ajoute une promenade longue le long de la Seine. Le meilleur enchaînement régional se fait avec Poissy et Pontoise, l'une en aval sur la Seine, l'autre en amont sur l'Oise, toutes deux couvertes par ce site."
+      }
+    ],
+    relatedCities: ["conflans-sainte-honorine", "poissy", "pontoise", "cergy"],
+    relatedGuides: [
+      "10-choses-a-faire-a-poissy-2026",
+      "10-choses-a-faire-a-pontoise-2026",
+      "10-choses-a-faire-a-cergy-2026",
+      "10-choses-a-faire-a-argenteuil-2026"
+    ],
+    tags: ["10 choses à faire à Conflans-Sainte-Honorine", "activités Conflans 2026", "que faire dans les Yvelines", "sorties Île-de-France fluvial", "musée de la batellerie tour Montjoie bateau-chapelle"]
+  },
+  {
+    slug: "10-choses-a-faire-a-bron-2026",
+    title: "10 choses à faire à Bron",
+    metaTitle: "10 choses à faire à Bron en 2026",
+    metaDesc:
+      "Un fort Séré de Rivières ouvert un dimanche par mois, un aéromusée, 178 hectares de parc : 10 activités à Bron, à l'est de Lyon.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Bron comptait 42 850 habitants au recensement de 2022, contre 41 060 en 2016 et 38 881 en 2011, soit une progression de dix pour cent depuis 2011 : la huitième des quinze communes de la Métropole de Lyon que suit ce site. On la traverse pour aller à l'aéroport d'affaires ou pour rejoindre la Porte des Alpes, et l'on croit qu'il n'y a rien. Il y a un fort militaire du XIXe siècle tenu par des bénévoles, un musée de l'aviation à l'intérieur, un parc de 178 hectares et une salle de spectacle que beaucoup de gens attribuent, à tort, à la commune voisine.",
+    sections: [
+      {
+        heading: "1. Le fort de Bron",
+        body: "Le fort de Bron appartient à la deuxième ceinture de fortifications de Lyon, avec ceux de Vancia, de Feyzin et du Mont Verdun. Il relève du système Séré de Rivières, la doctrine de fortification adoptée après la défaite de 1870, et son chantier se déroule dans les années 1870, les sources publiées donnant une fourchette entre 1872 et 1877. C'est un ouvrage enterré, avec fossés, casemates et galeries, que l'on parcourt en visite accompagnée. L'ouvrage est entretenu et animé par une association de bénévoles, ce qui explique son régime d'ouverture : un dimanche par mois, plus les Journées européennes du patrimoine. Un déplacement se cale donc sur ce calendrier, pas l'inverse."
+      },
+      {
+        heading: "2. L'Aéromusée, dans le fort",
+        body: "Deux salles du fort abritent l'Aéromusée de la région lyonnaise, constitué par la Société lyonnaise d'histoire de l'aviation et de documentation aéronautique. On y trouve des photographies retraçant l'histoire du terrain de Bron, des pièces d'appareils, des insignes, des instruments de mesure et des appareils photographiques des années 1920, souvent collectés sur place. Ce n'est pas un musée d'avions entiers comme Aeroscopia à Blagnac : c'est un musée de documentation, tenu par des passionnés, dont l'intérêt tient à la précision locale. Il s'accorde exactement au fort qui l'héberge, dans le même régime d'ouverture."
+      },
+      {
+        heading: "3. Ce que Bron doit à son aérodrome",
+        body: "Le terrain de Bron est inauguré en 1910 et il a été, pendant six décennies, l'aéroport de Lyon. Sa piste de 2 600 mètres est devenue trop courte pour les gros appareils et le site, rattrapé par la ville, ne pouvait plus s'étendre : les activités commerciales ont été transférées à Satolas les 19 et 20 avril 1975, quelques jours après l'inauguration du nouvel aéroport par le président de la République. Bron a conservé une activité d'aviation d'affaires et de services. Cette histoire est la clé de la commune : ses quartiers, sa croissance et jusqu'à son musée découlent d'un terrain d'aviation qui a fait vivre l'est lyonnais avant de céder la place."
+      },
+      {
+        heading: "4. Le parc de Parilly",
+        body: "Créé en 1937, le parc de Parilly couvre 178 hectares à cheval sur Bron et Vénissieux : il n'est donc pas la propriété d'une seule des deux communes, et les guides qui l'attribuent entièrement à l'une ou à l'autre se trompent. C'est l'un des grands espaces verts de l'agglomération lyonnaise, avec des bois, des prairies, des équipements sportifs et des aires de jeux, desservi par le métro. Sa taille en fait autre chose qu'un square : on y marche une heure sans revenir sur ses pas. Pour un visiteur de passage, c'est le meilleur usage d'un après-midi si le fort est fermé, ce qui est le cas la plupart des jours du mois."
+      },
+      {
+        heading: "5. L'hippodrome de Parilly",
+        body: "L'hippodrome est installé dans l'emprise du parc et fonctionne depuis plusieurs décennies. Il accueille des réunions en semaine et le week-end, et des rendez-vous plus importants qui font venir un public dépassant largement l'est lyonnais. Pour qui n'est jamais allé aux courses, c'est une entrée en matière peu coûteuse et instructive, dans un cadre arboré très différent des hippodromes urbains. Comme pour tout calendrier sportif, les dates de réunion se vérifient avant de venir : un hippodrome sans course est un pré."
+      },
+      {
+        heading: "6. L'Espace Albert-Camus est à Bron",
+        body: "Il faut le dire clairement parce que l'erreur est courante, y compris dans des sources sérieuses : l'Espace Albert-Camus est à Bron, et non à Vénissieux. Le théâtre a été inauguré en janvier 1989 et il a reçu en mars 2006 le label de théâtre régional. Il dessert l'ensemble de l'est lyonnais, ce qui est probablement la raison de la confusion, et il propose une programmation de théâtre, de danse, de musique, de cirque et d'arts de la marionnette, pour le jeune public comme pour les adultes. Il accueille aussi des compagnies en résidence. Une salle de cette ambition dans une commune de banlieue est un fait notable en soi."
+      },
+      {
+        heading: "7. La Ferme du Vinatier",
+        body: "La Ferme du Vinatier est un lieu culturel installé au sein du centre hospitalier Le Vinatier, sur le territoire de Bron. Depuis 1997, elle porte un projet dont la caractéristique est de faire interface entre l'hôpital et la ville, dans le cadre du programme national « Culture à l'hôpital » : expositions, spectacles, travail de mémoire sur l'histoire de la psychiatrie. C'est un endroit qui ne ressemble à aucun autre équipement de l'agglomération, et il demande de l'aborder pour ce qu'il est, un lieu de soin qui ouvre une partie de son espace, avec les égards que cela suppose. La programmation est publique et se consulte à l'avance."
+      },
+      {
+        heading: "8. Le fort au cinéma",
+        body: "Le fort de Bron a servi de décor de tournage, notamment pour la prison du film Kaamelott d'Alexandre Astier. Le fait amuse mais il dit quelque chose d'utile : ces ouvrages enterrés, avec leurs voûtes de pierre et leurs couloirs sans fenêtre, offrent des volumes que l'on ne trouve nulle part ailleurs, et c'est ce qui les sauve parfois de l'abandon. À Bron, l'entretien tient à une association et aux recettes de ses ouvertures. Le tournage n'est donc pas une anecdote de fan : c'est l'un des usages qui font vivre le monument."
+      },
+      {
+        heading: "9. Bron n'est pas Lyon",
+        body: "Bron est une commune de plein exercice de la Métropole de Lyon, et non un arrondissement lyonnais. Le tissu urbain est continu depuis le 8e arrondissement et l'on passe la limite sans s'en apercevoir, ce qui alimente la confusion, mais l'adresse, la mairie et les équipements sont ceux d'une ville de plus de quarante mille habitants. Pour un visiteur, la conséquence est pratique : les tarifs d'hébergement et de restauration y sont sensiblement inférieurs à ceux du centre de Lyon, pour un trajet de tramway direct vers la Part-Dieu. C'est une base sérieuse pour visiter Lyon sans en payer le prix."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Bron est desservie par le tramway depuis le centre de Lyon et par le métro à la Porte des Alpes. Une demi-journée suffit largement pour le parc de Parilly et une promenade urbaine ; l'intérêt réel d'un déplacement dépend de la date, parce que le fort et son musée n'ouvrent qu'un dimanche par mois. La bonne méthode est donc inverse de l'ordinaire : on regarde d'abord le calendrier d'ouverture du fort, on cale la venue dessus, et l'on complète avec le parc et une soirée à l'Espace Albert-Camus. Vénissieux et Villeurbanne, voisines et couvertes par ce site, se combinent facilement dans la même journée."
+      }
+    ],
+    relatedCities: ["bron", "venissieux", "villeurbanne", "lyon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-venissieux-2026",
+      "10-choses-a-faire-a-villeurbanne-2026",
+      "10-choses-a-faire-a-lyon-2026",
+      "10-choses-a-faire-a-vaulx-en-velin-2026"
+    ],
+    tags: ["10 choses à faire à Bron", "activités Bron 2026", "que faire dans la Métropole de Lyon", "sorties est lyonnais patrimoine", "fort de Bron Aéromusée parc de Parilly"]
+  },
+  {
+    slug: "10-choses-a-faire-a-vaulx-en-velin-2026",
+    title: "10 choses à faire à Vaulx-en-Velin",
+    metaTitle: "10 choses à faire à Vaulx-en-Velin en 2026",
+    metaDesc:
+      "Un planétarium à dôme de 15 mètres, une usine de soie artificielle classée, 2 200 hectares de parc : 10 activités à Vaulx-en-Velin.",
+    category: "tourisme",
+    emoji: "🔭",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Vaulx-en-Velin comptait 52 448 habitants au recensement de 2022, contre 48 497 en 2016 et 42 726 en 2011, soit près de vingt-trois pour cent de plus en onze ans : c'est, parmi les quinze communes de la Métropole de Lyon que suit ce site, celle qui croît le plus vite, devant Meyzieu et Décines-Charpieu. C'est aussi la commune de l'agglomération dont l'image publique est la plus éloignée de ce qu'on y trouve. On y visite un planétarium, une usine de soie artificielle classée monument historique et un parc de plus de deux mille hectares.",
+    sections: [
+      {
+        heading: "1. Le Planétarium",
+        body: "Inauguré en 1995, le Planétarium de Vaulx-en-Velin est l'équipement scientifique majeur de l'est lyonnais. Sa salle immersive est équipée d'un dôme de quinze mètres de diamètre et d'un simulateur numérique de dernière génération, avec projection en très haute définition et vingt-cinq millions de pixels. On y suit des séances sur le ciel, le système solaire et l'exploration spatiale, et le lieu propose aussi des expositions et des observations. C'est un équipement de niveau métropolitain implanté dans une commune de banlieue, ce qui est assez rare pour être dit, et c'est la première raison de venir ici. Les séances se réservent, la salle ayant une jauge."
+      },
+      {
+        heading: "2. Le Grand Parc Miribel-Jonage",
+        body: "Le Grand Parc est l'un des plus vastes parcs périurbains d'Europe, avec quelque 2 200 hectares. Il n'est pas entièrement à Vaulx-en-Velin : il s'étend aussi sur Décines-Charpieu, Meyzieu et Jonage, et se prolonge côté Ain. On y marche, on y roule à vélo, on s'y baigne en saison sur les plans d'eau aménagés et surveillés. Ce chiffre de surface est la seule chose que la plupart des gens retiennent, et c'est dommage : ce qui frappe sur place est la nature du paysage, une plaine alluviale du Rhône avec ses lônes et ses bois, à un quart d'heure du centre de Lyon. La baignade obéit aux règles affichées sur place et aux zones surveillées, qui ne couvrent pas tout le plan d'eau."
+      },
+      {
+        heading: "3. L'usine TASE",
+        body: "L'usine est bâtie en 1924 pour la famille Gillet et s'appelle d'abord la SASE, pour Soie artificielle du Sud-Est, avant de devenir la TASE, Textile artificiel du Sud-Est. Elle transforme la cellulose en viscose, c'est-à-dire en soie artificielle. Œuvre des architectes Desseux et Alexandre, elle est édifiée sur une propriété de 75 hectares dont 10 hectares de bâtiments industriels, soit 100 000 m² de planchers répartis sur trois niveaux. Elle emploie 1 500 personnes dès 1925 et jusqu'à 3 000 au milieu des années 1930. L'activité cesse en 1980 et l'usine est inscrite au titre des monuments historiques le 25 mai 2011. Elle a fêté son centenaire en 2024."
+      },
+      {
+        heading: "4. Les cités Tase",
+        body: "Une usine de cette taille ne vient jamais seule : la TASE a été accompagnée de cités ouvrières destinées à loger son personnel, et ce sont elles, autant que les ateliers, qui font l'intérêt patrimonial du secteur. On y lit la doctrine du logement industriel de l'entre-deux-guerres, avec ses alignements, ses jardins et sa hiérarchie de types selon la position dans l'entreprise. Le quartier se parcourt depuis la rue, sans visite organisée, et il faut le regarder pour ce qu'il est : un quartier habité, pas un site muséal. Même traitement qu'à la cité Frugès de Pessac ou à la Maladrerie d'Aubervilliers, deux ensembles que ce site traite avec la même précaution."
+      },
+      {
+        heading: "5. Le Village",
+        body: "L'ancien bourg rural existe toujours, sous le nom du Village, et il conserve son église, son château, ses fermes en pisé et une échelle de petite ville au milieu de la métropole. La première mention vérifiable du village date de 1225. Le château, dont des traces remontent au XIIIe siècle, est présenté par les associations locales comme le plus ancien édifice encore debout de l'est lyonnais ; il ne se visite pas comme un monument ouvert et se regarde depuis la rue, et sa protection au titre des monuments historiques fait précisément l'objet de demandes répétées. Le pisé, technique de terre crue banchée, est le marqueur régional : c'est le matériau des fermes de la plaine dauphinoise."
+      },
+      {
+        heading: "6. Le canal de Jonage et l'usine de Cusset",
+        body: "Le canal de Jonage court sur 19 kilomètres avec un débit de 600 mètres cubes par seconde, et traverse plusieurs communes dont Vaulx-en-Velin. Il alimente la centrale hydroélectrique de Cusset, dont le chantier ouvre en septembre 1894 et qui est mise en service en 1899 : avec 7 mégawatts à la livraison, elle était alors la plus puissante centrale hydroélectrique du monde, et elle en produit aujourd'hui 63. L'ouvrage est à cheval sur Villeurbanne et Vaulx-en-Velin, l'essentiel étant du côté villeurbannais : on le dit ainsi plutôt que de l'attribuer à l'une des deux. L'aménagement a été conçu pour alimenter les industries de la rive gauche du Rhône, dont les usines de soie et les tramways."
+      },
+      {
+        heading: "7. Le pays du Velin",
+        body: "Le nom de la commune renvoie à une entité ancienne, le pays du Velin, une plaine du Dauphiné qui s'étendait le long de la rive gauche du Rhône. Ce détail explique la géographie et l'histoire agricole de la commune : des terres alluviales, des maraîchers, des fermes isolées, une population de quelques milliers d'habitants jusqu'aux années 1960. La différence entre cette carte et celle d'aujourd'hui est l'un des changements urbains les plus rapides de la région lyonnaise, et il tient en deux générations. C'est le fil qui relie le Village, l'usine et les grands ensembles : trois strates d'une même plaine."
+      },
+      {
+        heading: "8. Le Carré de Soie",
+        body: "Le secteur du Carré de Soie, qui doit son nom à l'histoire textile du lieu, est le grand chantier urbain de l'est lyonnais : anciennes emprises industrielles reconverties, logements, bureaux, équipements et commerces, autour d'un pôle de transports où se rejoignent métro et tramway. Il est à cheval sur Vaulx-en-Velin et Villeurbanne. Pour un visiteur, l'intérêt n'est pas le centre commercial mais la lecture du chantier lui-même : on voit côte à côte l'usine de 1924, l'hippodrome, les cités ouvrières et des immeubles neufs. Peu d'endroits en France racontent aussi directement le passage d'une économie à une autre."
+      },
+      {
+        heading: "9. Une ville dont on croit tout savoir",
+        body: "Vaulx-en-Velin est connue nationalement pour des événements des années 1990 et pour son classement en politique de la ville, et cette réputation précède largement l'expérience qu'en fait un visiteur. Ce guide ne délivre aucun verdict de sécurité et n'en fabrique aucun classement : ce ne serait pas une mesure, ce serait une opinion sur des habitants. Ce qui est mesurable, en revanche, tient dans le chiffre d'ouverture de cette page : la commune a gagné près de dix mille habitants entre 2011 et 2022, la plus forte progression relative de notre corpus dans la Métropole de Lyon. Une ville que l'on quitte ne fait pas cela."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Le tramway T3 et le métro à La Soie relient directement la commune au centre de Lyon, et le Grand Parc est accessible par bus et à vélo depuis les berges du Rhône. Une demi-journée couvre le Planétarium et le secteur du Carré de Soie ; une journée entière si l'on ajoute le Grand Parc, qui mérite mieux qu'un passage. Le Village se fait en une heure, en complément. La bonne saison dépend de l'objectif : le parc en fin de printemps ou en septembre, le Planétarium par tous les temps, ce qui en fait la sortie de repli évidente un jour de pluie."
+      }
+    ],
+    relatedCities: ["vaulx-en-velin", "villeurbanne", "bron", "lyon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-villeurbanne-2026",
+      "10-choses-a-faire-a-bron-2026",
+      "10-choses-a-faire-a-lyon-2026",
+      "10-choses-a-faire-a-venissieux-2026"
+    ],
+    tags: ["10 choses à faire à Vaulx-en-Velin", "activités Vaulx-en-Velin 2026", "que faire dans la Métropole de Lyon", "sorties est lyonnais patrimoine industriel", "Planétarium usine TASE Grand Parc Miribel-Jonage"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-priest-2026",
+    title: "10 choses à faire à Saint-Priest",
+    metaTitle: "10 choses à faire à Saint-Priest en 2026",
+    metaDesc:
+      "Une maison forte du XIVe siècle, un héritage du Front populaire, un village dans la métropole : 10 activités à Saint-Priest, à l'est de Lyon.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 7,
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    intro:
+      "Saint-Priest comptait 49 193 habitants au recensement de 2022, contre 45 844 en 2016 et 42 535 en 2011, soit près de seize pour cent de plus en onze ans : la quatrième des quinze communes de la Métropole de Lyon que suit ce site, derrière Vaulx-en-Velin, Meyzieu et Décines-Charpieu. C'est une commune que l'on associe à des zones d'activité et à un terminus de tramway, et qui possède pourtant un monument que peu de communes de banlieue peuvent aligner : une maison forte médiévale devenue château, dans un parc, au milieu d'un village qui a gardé sa forme.",
+    sections: [
+      {
+        heading: "1. Le château",
+        body: "Le château de Saint-Priest est à l'origine une maison forte bâtie au XIVe siècle pour la famille Richard, sur une butte où des fouilles ont montré la présence antérieure d'une église et d'un cimetière. Propriété ensuite de la famille Guignard, il a été remanié à de nombreuses reprises, si bien qu'il aligne aujourd'hui des états successifs, du médiéval au contemporain, dont une verrière posée en 1998 et des aménagements en 2017. Il est partiellement inscrit au titre des monuments historiques depuis le 28 décembre 1984. Il domine un parc de 2,5 hectares dessiné à la française, au cœur du village : c'est le point de départ évident d'une visite de la commune."
+      },
+      {
+        heading: "2. Ce que le château accueille",
+        body: "Le bâtiment n'est pas un château-musée avec un parcours de visite permanent : c'est un équipement en service. Il accueille des concerts et des rendez-vous liés au conservatoire municipal dans ses salons, ainsi que des expositions et des réceptions. La conséquence pratique est simple et il vaut mieux la connaître avant de venir : ce que l'on peut voir à l'intérieur dépend entièrement de la programmation du jour, et la médiathèque François-Mitterrand, souvent citée dans le même souffle, est un équipement distinct installé ailleurs dans la ville. On consulte l'agenda municipal, et l'on se rabat sur le parc si rien n'est ouvert, ce qui n'est pas une punition."
+      },
+      {
+        heading: "3. L'héritage de Théophile Argence",
+        body: "Le nom que l'on croise partout dans la commune est celui de Théophile Argence, maire de la période du Front populaire, qui a doté la ville d'équipements collectifs : une Maison du peuple, des stades, des groupes scolaires, et l'achat du château lui-même, qui est ainsi passé dans le patrimoine communal. Cette séquence explique la physionomie actuelle de Saint-Priest, où les équipements publics d'avant-guerre structurent encore le centre. C'est un cas d'école du municipalisme des années 1930 dans la banlieue industrielle lyonnaise, et il se lit dans les bâtiments plutôt que dans les livres."
+      },
+      {
+        heading: "4. Le Théâtre Théo-Argence",
+        body: "L'ancienne Maison du peuple est devenue le centre culturel puis le théâtre qui porte le nom de son fondateur. La salle programme du théâtre, de la musique et de la danse, avec une saison qui fait venir des compagnies et des orchestres de niveau régional et national. Comme à Bron avec l'Espace Albert-Camus, on a affaire à une salle de commune de banlieue dont l'ambition dépasse le périmètre communal, et dont les tarifs restent ceux d'un équipement municipal. Pour un visiteur, c'est l'argument le plus solide en faveur d'une soirée plutôt que d'un simple passage en journée."
+      },
+      {
+        heading: "5. Le Village",
+        body: "Le centre ancien porte encore le nom de Village et il en a gardé la forme : des rues pavées, une place, une fontaine, une église et des commerces de proximité, le tout dans un rayon de quelques centaines de mètres. C'est le contraste qui vaut le détour, entre ce noyau villageois et les grands ensembles et zones d'activité qui l'entourent. Une heure de marche suffit à le parcourir, et l'on comprend alors pourquoi les habitants disent « aller au village » comme on dirait aller au centre : la commune s'est développée autour d'un bourg qui n'a jamais été démoli."
+      },
+      {
+        heading: "6. Trois églises pour une commune",
+        body: "Saint-Priest compte trois églises d'époques très différentes, et les visiter dans l'ordre chronologique est une bonne façon de traverser l'histoire de la commune. L'église du village remonte au XIIe siècle ; Sainte-Marguerite, à Manissieux, date du XVIe ; Notre-Dame-de-la-Paix a été construite dans les années 1960, au moment de la croissance démographique. Trois édifices, trois moments, trois manières de bâtir un lieu de culte : la comparaison est plus parlante que n'importe quelle notice, et elle est faisable en une demi-journée à vélo."
+      },
+      {
+        heading: "7. Manissieux",
+        body: "Manissieux est un hameau de la commune, à l'écart du centre, qui a conservé son caractère de village agricole avec son église du XVIe siècle. Il rappelle que Saint-Priest n'est pas une ville née d'un seul tenant mais un territoire vaste qui a agrégé plusieurs entités. C'est aussi l'un des rares endroits de l'est lyonnais où l'on voit encore la plaine telle qu'elle était avant l'urbanisation. La visite est courte et sans équipement : on vient pour l'atmosphère et pour l'église, pas pour un programme."
+      },
+      {
+        heading: "8. Le parc technologique et les Hauts de Feuilly",
+        body: "Le parc technologique a été aménagé à partir de 2001 comme zone d'activité de haute technologie, et le quartier voisin des Hauts de Feuilly a été conçu comme une vitrine d'architecture contemporaine et de maisons à énergie maîtrisée. Ce n'est pas un site touristique et il faut le prendre pour ce qu'il est, un morceau de ville récent que l'on parcourt en marchant. Mais pour qui s'intéresse à l'architecture, l'ensemble constitue un catalogue à ciel ouvert de la maison individuelle contemporaine, ce qui est rare en France à cette échelle et dans un périmètre aussi compact."
+      },
+      {
+        heading: "9. Une commune d'industrie, qui ne se visite pas",
+        body: "Saint-Priest accueille des implantations industrielles majeures, dont le siège et des activités de Renault Trucks, héritières de l'histoire Berliet dans l'est lyonnais. Il faut le dire comme pour les sites Airbus de Blagnac ou la base aérienne de Salon-de-Provence : ce sont des emprises industrielles en activité, elles ne se visitent pas librement, et elles expliquent une part de la population et de l'économie de la commune sans figurer au programme d'un visiteur. Cette activité est aussi ce qui rend Saint-Priest peu chère à l'hébergement pour qui vient visiter Lyon."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Le tramway relie Saint-Priest au centre de Lyon, et la commune se parcourt ensuite à pied ou à vélo, le terrain étant plat. Une demi-journée suffit pour le château, son parc et le Village ; une journée si l'on ajoute Manissieux, les trois églises et une soirée au Théâtre Théo-Argence. La programmation du château et celle du théâtre commandent l'intérêt réel du déplacement : on regarde l'agenda avant de choisir la date, comme pour le fort de Bron. Bron et Vénissieux, voisines et couvertes par ce site, complètent naturellement la journée."
+      }
+    ],
+    relatedCities: ["saint-priest", "bron", "venissieux", "lyon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-bron-2026",
+      "10-choses-a-faire-a-venissieux-2026",
+      "10-choses-a-faire-a-vaulx-en-velin-2026",
+      "10-choses-a-faire-a-lyon-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Priest", "activités Saint-Priest 2026", "que faire dans la Métropole de Lyon", "sorties est lyonnais patrimoine", "château de Saint-Priest Théo Argence Manissieux"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

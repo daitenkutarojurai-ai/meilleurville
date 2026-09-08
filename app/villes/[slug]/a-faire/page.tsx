@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";
-import { cityPhoto } from "@/lib/city-images";
+import { cityPhoto, citySlugElisions } from "@/lib/city-images";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
@@ -119,12 +119,15 @@ export default async function AFairePage({ params }: Props) {
   const photo = cityPhoto(city.slug);
 
   // French contracts `à` + article: `le-tampon` → `…-au-tampon-2026`,
-  // `les-abymes` → `…-aux-abymes-2026`. Seven guides of the series carry such a
+  // `les-abymes` → `…-aux-abymes-2026`. Eight guides of the series carry such a
   // slug and were invisible here as long as only the `-a-` form was tried.
+  // The mirror case costs the same card: the seed drops an elided article the
+  // guide keeps (`clermont-herault` vs `…-a-clermont-l-herault-2026`).
   const bare = slug.replace(/^(le|la|les)-/, "");
   const guideSlugs = [
     `10-choses-a-faire-a-${slug}-2026`,
     ...(bare === slug ? [] : [`10-choses-a-faire-au-${bare}-2026`, `10-choses-a-faire-aux-${bare}-2026`]),
+    ...citySlugElisions(slug).map((v) => `10-choses-a-faire-a-${v}-2026`),
   ];
   const guide = GUIDES.find((g) => guideSlugs.includes(g.slug));
   const activities = buildActivityCategories(city);

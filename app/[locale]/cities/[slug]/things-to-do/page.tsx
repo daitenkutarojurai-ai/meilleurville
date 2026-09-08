@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";
-import { cityPhoto } from "@/lib/city-images";
+import { cityPhoto, citySlugElisions } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
@@ -127,7 +127,14 @@ export default async function EnThingsToDoPage({ params }: Props) {
 
   const activities = buildActivityCategories(city);
   const enabledActivities = activities.filter((a) => a.enabled);
-  const guide = getEnGuide(`things-to-do-in-${slug}-2026`);
+  // The EN slug derives from the seed slug as-is (batch 33 rule), except
+  // where the seed itself dropped an elided article the guide keeps:
+  // `clermont-herault` vs `things-to-do-in-clermont-l-herault-2026`.
+  const guide =
+    getEnGuide(`things-to-do-in-${slug}-2026`) ??
+    citySlugElisions(slug)
+      .map((v) => getEnGuide(`things-to-do-in-${v}-2026`))
+      .find(Boolean);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },

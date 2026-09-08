@@ -5165,6 +5165,177 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ## Shipped 2026-09-08
 
+- **Série tourisme — `10-choses-a-faire-a-[ville]-2026` batch 44, FR (+7 : Melun,
+  Mantes-la-Jolie, Istres, Conflans-Sainte-Honorine, Bron, Vaulx-en-Velin, Saint-Priest).**
+  L'écart FR→EN était nul (247/247 après le batch 43 du matin), donc la série FR reprenait la
+  main. **Compteurs mesurés : FR 254 (`-a-` strict 246 + 6 en `au-` + 2 en `aux-`), EN 247 ;
+  `GUIDES` 1 090 → 1 097.** Aucun nouveau slug hors gabarit : les sept villes prennent « à »
+  sans contraction, les huit exceptions restent `au-puy-en-velay`, `au-tampon`, `au-francois`,
+  `au-robert`, `au-lamentin`, `au-cannet`, `aux-abymes`, `aux-sables-d-olonne`.
+  `metaTitle` 32-52 caractères, `metaDesc` 128-148, 10 sections par guide, densité d'accents
+  0,122-0,167 **par mot** (seuil ascii-strip 0,09), **0 em-dash** sur les sept.
+  Le batch **referme les trois banlieues lyonnaises** laissées en piste depuis le batch 28
+  (Vaulx-en-Velin, Saint-Priest, Bron) et **quatre des trous touristiques** nommés aux batches
+  34 et 36 (Melun, Mantes-la-Jolie, Istres, Conflans-Sainte-Honorine). **Trois de ces sept
+  villes n'étaient citées par aucun guide du site** — Mantes-la-Jolie, Istres et
+  Conflans-Sainte-Honorine — alors que la première porte une collégiale dont le chantier
+  s'ouvre en même temps que celui de Notre-Dame de Paris et la plus importante collection
+  publique française de Maximilien Luce.
+  ⚠️ **Six affirmations écrites au premier jet et corrigées avant commit, dont une démentie par
+  une mesure sur nos propres données** : ① Melun donnée « la commune de Seine-et-Marne qui gagne
+  le plus d'habitants » — c'est vrai **en rythme** (+10,6 %, 1re des 11) et **faux en nombre**,
+  Meaux gagnant 4 434 habitants contre 4 188 ; le guide dit désormais les deux comptes et lequel
+  il cite ; ② Conflans donnée « l'une des plus faibles croissances des Yvelines » alors qu'elle
+  est **dixième sur seize**, six communes faisant moins ; ③ le musée de la batellerie annoncé
+  « le seul en France » sans source ; ④ Bron « à un quart d'heure de tramway de la Part-Dieu »
+  et ⑤ Vaulx-en-Velin « à une vingtaine de minutes », deux durées non vérifiées ; ⑥ le château
+  de Saint-Priest présenté comme « le monument le plus substantiel de l'est lyonnais après le
+  fort de Bron », classement invérifiable. **Le contrôle qui a trouvé la première est un tri des
+  11 communes du département sur le gain absolu, pas une relecture.**
+  ⚠️ **Un réflexe faux écarté par vérification en ligne, et il touchait la section la plus
+  visible du guide Saint-Priest** : la **médiathèque François-Mitterrand n'est pas dans le
+  château**, elle est place Charles-Ottina ; le château (2 rue de l'Égalité) accueille des
+  concerts et des rendez-vous du conservatoire dans ses salons. La formulation courante « le
+  château abrite la médiathèque » aurait envoyé un lecteur à la mauvaise adresse.
+  Faits vérifiés en ligne avant rédaction et qui portent les guides : collégiale Notre-Dame de
+  **Melun** fondée entre **1016 et 1031** par Robert le Pieux, douze chanoines, chœur repris à
+  partir de **1161** et consacré en **1198** (même geste capétien qu'à Poissy vers 1016, cf.
+  batch 38) ; **Saint-Aspais** citée dès **1080** par Richer évêque de Sens, presbytère démoli en
+  **1506**, chœur confié à partir de **1517** à **Jean de Félin**, auteur de la tour
+  Saint-Jacques-de-la-Boucherie, dans le flamboyant de **Martin Chambiges**, **plan trapézoïdal
+  irrégulier** à quatre bas-côtés à la nef et cinq au chœur, **classée MH en 1914** ; **musée de
+  la Gendarmerie nationale** ouvert le **10 octobre 2015** et inauguré le **17 décembre**,
+  collection constituée depuis **1946**, plus de **30 000** objets dont ~**2 000** exposés sur
+  ~**1 200 m²**, vitrine suspendue de **18 m × 8,5 m** ; **diptyque de Melun** de Jean Fouquet
+  vendu par les chanoines à la veille de la Révolution pour financer la restauration de la
+  collégiale, volets aujourd'hui à **Anvers** et à **Berlin** ; **Vaux-le-Vicomte** acheté par
+  Fouquet en **1641**, chantier lancé en **1653** (Le Vau, Le Brun, Le Nôtre), gros œuvre de
+  **1656 à 1661**, fête du **17 août 1661**, arrestation le **5 septembre** à Nantes ;
+  collégiale de **Mantes** ouverte entre **1140 et 1150**, voûtes basses vers **1170**,
+  **classée MH dès 1840**, restaurée **27 ans** par **Alphonse Durand** (1846-1873), élévation à
+  trois niveaux et voûtes sexpartites sur sept travées ; **musée de l'Hôtel-Dieu** ouvert en
+  **1996**, rénové en **2018**, **plus importante collection publique française de Maximilien
+  Luce** (1858-1941) ; **Sainte-Anne de Gassicourt**, ancien prieuré clunisien Saint-Sulpice
+  fondé vers **1074** par le comte Simon, **classée MH en 1862** ; **bombardement du 30 mai
+  1944** sur le pont, **plus de 400 civils tués** ; fusion Mantes + Gassicourt en **1930**,
+  **Mantes-Gassicourt jusqu'en 1953** ; *Le Pont de Mantes* de **Corot**, **1868**, au Louvre ;
+  **étang de l'Olivier** 220 ha relié à l'étang de Berre par le **canal du Cascaveau**, jet
+  d'eau de **50 m** depuis **2008** ; **oppidum du Castellan** occupé du **VIe siècle av. J.-C.**
+  au haut Moyen Âge ; **Dinosaur'Istres**, parcours de **3 km** sur la colline du Castellan,
+  une **quarantaine** d'espèces grandeur nature en ordre chronologique, accès libre toute
+  l'année ; **chapelle Saint-Sulpice**, roman provençal, fondation **traditionnellement** située
+  entre le Xe et le XIe siècle, **inscrite MH en 1942** ; **musée René-Beaucaire** place du
+  Puits-Neuf dans un hôtel particulier du **XVIIe** ; **musée de la batellerie** créé en **1965**
+  à l'initiative de **Louise Weiss**, confié à **François Beaudouin** jusqu'en **1994**, rénové
+  en **2015** ; **prieuré Sainte-Honorine fondé en 1080** ; **tour Montjoie**, donjon du **XIe** ;
+  **bateau-chapelle Je Sers**, coque construite en **1919** à Amfreville-sous-les-Monts sous le
+  nom de **Langemarck**, à Conflans **depuis 1936**, vitraux de **Jacques Le Chevallier** ;
+  **pardon national de la batellerie** le **3e week-end de juin depuis 1960** ; **fort de Bron**,
+  **2e ceinture** de Lyon, système **Séré de Rivières**, chantier des années **1872-1877**,
+  ouvert **un dimanche par mois** plus les Journées du patrimoine ; **Aéromusée** de la
+  **SLHADA** dans deux salles du fort ; **terrain de Bron inauguré en 1910**, activités
+  transférées à **Satolas les 19-20 avril 1975**, piste de **2 600 m** devenue trop courte ;
+  **parc de Parilly créé en 1937**, **178 ha** ; **Espace Albert-Camus inauguré en janvier
+  1989**, label de théâtre régional en **mars 2006** ; **Ferme du Vinatier depuis 1997** ;
+  **Planétarium de Vaulx-en-Velin inauguré en 1995**, dôme de **15 m**, **25 millions de
+  pixels** ; **Grand Parc Miribel-Jonage ~2 200 ha** ; **usine TASE** bâtie en **1924** (d'abord
+  **SASE**, Soie artificielle du Sud-Est), famille **Gillet**, architectes **Desseux et
+  Alexandre**, **75 ha** dont **10 ha** bâtis soit **100 000 m²** sur trois niveaux, **1 500**
+  salariés dès **1925** et jusqu'à **3 000** au milieu des années 1930, arrêt en **1980**,
+  **inscrite MH le 25 mai 2011** ; **canal de Jonage 19 km, 600 m³/s** ; **centrale de Cusset**,
+  chantier ouvert en **septembre 1894**, mise en service en **1899**, **7 MW** à la livraison —
+  alors la plus puissante du monde — **63 MW** aujourd'hui ; **Village de Vaulx** mentionné dès
+  **1225**, château dont les traces remontent au **XIIIe** ; **château de Saint-Priest**, maison
+  forte du **XIVe** pour la famille **Richard** puis **Guignard**, **inscrit MH le 28 décembre
+  1984**, parc de **2,5 ha**, verrière de **1998**, aménagements en **2017** ; **Théophile
+  Argence** et les équipements du Front populaire ; **trois églises** (village **XIIe**,
+  Sainte-Marguerite de Manissieux **XVIe**, Notre-Dame-de-la-Paix des années **1960**) ; **parc
+  technologique aménagé à partir de 2001**.
+  Sept prudences assumées dans la copie, à ne pas diluer : ① convention « **accessible depuis** »
+  plutôt que « situé à » — **Vaux-le-Vicomte est à Maincy**, commune à part entière à ~8 km de
+  Melun, et se traite comme une sortie d'une journée, pas comme une extension de la visite ;
+  ② la **base aérienne 125 d'Istres-Le Tubé est une emprise militaire**, dite avant toute phrase
+  attrayante, même traitement que la base 701 de Salon (batch 34) et le CAEA sur la base 106 à
+  Mérignac (batch 28) ; ③ la **baignade dans l'étang de Berre est soumise à des arrêtés
+  d'interdiction temporaire** (incident de station d'épuration, développement algal) : écrit
+  comme une règle opposable avec l'affichage sur place qui fait foi, pas comme un conseil ;
+  ④ le **parc de Parilly est à cheval sur Bron et Vénissieux**, la **centrale de Cusset à cheval
+  sur Villeurbanne et Vaulx-en-Velin** (l'essentiel côté villeurbannais) et le **Grand Parc
+  Miribel-Jonage sur quatre communes au moins** : aucun des trois n'est attribué à une seule ;
+  ⑤ l'**Espace Albert-Camus est à Bron et non à Vénissieux** — le rappel du batch 28 devient ici
+  une section, l'erreur étant courante y compris dans des sources sérieuses ; ⑥ le **bateau-
+  chapelle Je Sers est d'abord un lieu d'accueil social en activité**, avec aide alimentaire, et
+  non une attraction : on le regarde depuis le quai ; ⑦ les **cités Tase**, le **Village de
+  Vaulx** et le **Val Fourré** sont décrits en quartiers habités et en histoire urbaine, **sans
+  verdict de sécurité ni classement**, même cadrage que les Minguettes à Vénissieux (batch 28)
+  et la cité Frugès à Pessac. Le **Renault Trucks de Saint-Priest** est nommé comme emprise
+  industrielle en activité qui ne se visite pas, comme le site Airbus de Blagnac (batch 42).
+  Aucun horaire, aucun tarif, aucune figure en `/10`. Les seuls chiffres de population sont ceux
+  de l'Insee 2022, 2016 et 2011 lus dans `data/city-population.json` (Melun 43 685, Mantes-la-Jolie
+  44 246, Istres 44 044, Conflans-Sainte-Honorine 36 306, Bron 42 850, Vaulx-en-Velin 52 448,
+  Saint-Priest 49 193) — **pas les `population` approximatives du seed**, et les rangs cités sont
+  mesurés par un tri complet du département, pas estimés.
+  `npm run search-index` relancé (`data/search-index.json` 1 097 guides, 263 → **264 tags** :
+  « que faire dans la Métropole de Lyon » franchit le seuil de 3 guides et crée
+  `/tags/que-faire-dans-la-metropole-de-lyon`), d'où le passage de `npm run sitemap:check`
+  (FR **29 193 URL**, soit les 7 guides plus la page de tag ; EN **28 763** inchangé, chaque
+  URL déclarée a une page et réciproquement). Les sept guides sont vérifiés
+  **retrouvés par le lookup de `app/villes/[slug]/a-faire/page.tsx`**, **pourvus de leur photo
+  d'en-tête** (`guideCityPhoto`) et **remontés en 1re position** par la recherche inverse
+  `relatedCities` de `CityGuidesList`, qui trie par `updatedAt` décroissant.
+  ⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. `CLAUDE.md` § Commands depuis le
+  batch 27 : 4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal
+  utile). Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**,
+  `npm run integrity` (guides FR 1 090 → 1 097), `search-index` + `search-index:check`,
+  `sitemap:check`, `npm run parity` (0 route FR sans jumelle), `npm run hreflang:check`, plus le
+  contrôle de lookup / photo ci-dessus et une vérification d'encodage (`m²` intact, aucun `m2` /
+  `EUR` / `deg` ascii, aucun mojibake — les seuls signalements du contrôle strict sont les quatre
+  « Moyen Âge », qui sont du français correct).
+  **Prochain run : batch EN** (l'écart FR→EN est de **7 villes** : melun, mantes-la-jolie, istres,
+  conflans-sainte-honorine, bron, vaulx-en-velin, saint-priest). Rappel de la règle du batch 33 :
+  côté EN le slug se dérive du **slug de seed tel quel**, et aucun de ces sept ne porte d'article,
+  donc rien à arbitrer. Quatre points de vigilance pour ces jumelles : ①
+  **`things-to-do-in-melun-2026` doit poser Melun face à Vaux-le-Vicomte dès la première ligne** —
+  un lecteur anglophone connaît le château et ignore la ville, et le château n'est pas dedans ;
+  ② **Mantes a de la matière propre à l'angle anglophone** que le FR laisse de côté, la collégiale
+  étant contemporaine de Notre-Dame de Paris et le bombardement du 30 mai 1944 relevant de la
+  préparation du débarquement, donc d'un récit allié — même arbitrage qu'avec Jubilee à Dieppe
+  (batch 37), Cambrai (batch 39) et Béthune (batch 41) ; ③ **la règle des arrêtés de baignade de
+  l'étang de Berre est à écrire comme une règle opposable**, et la signalétique des zones
+  surveillées du Grand Parc avec elle ; ④ **« batellerie » n'a pas d'équivalent d'un mot en
+  anglais** — le guide Conflans devra le poser (inland waterway transport) avant de s'en servir,
+  et le mot « pardon » au sens de pèlerinage breton ou fluvial demande la même incise.
+  Pour le batch FR **suivant**, les gisements restants sont **Saint-Herblain** (écarté au batch 34
+  faute de matière vérifiable, condition de réouverture inchangée), les **trois banlieues
+  bordelaises jamais faites** (Villenave-d'Ornon, Talence, Le Bouscat) et le reste du corpus :
+  **287 villes du seed sur 540 restent sans guide tourisme** après ce batch (253 couvertes, plus
+  Clermont-l'Hérault, cf. ci-dessous).
+
+- **Correctif — un guide de la série invisible sur la page de sa ville depuis un mois, et sa
+  jumelle EN sans photo depuis toujours.** Trouvé par le contrôle de lookup que le batch 32 a
+  rendu obligatoire, en le passant cette fois sur **les 540 villes** et non sur les seules villes
+  du lot. C'est le **symétrique exact** du défaut du batch 32 : là, le guide contractait un
+  article que le slug de seed portait (`le-cannet` → `…-au-cannet-2026`) ; ici **le seed élide un
+  article que le guide garde** — Clermont-l'Hérault s'écrit `clermont-herault` au seed et
+  `10-choses-a-faire-a-clermont-**l**-herault-2026` en guide. Conséquence : sur **254 guides de
+  la série, 253 seulement étaient atteignables** depuis une page ville, et
+  `/villes/clermont-herault/a-faire` n'affichait ni carte « guide en vedette » ni photo
+  d'en-tête, en silence, depuis le batch 11. Nouvel export **`citySlugElisions()`**
+  (`lib/city-images.ts`), câblé dans `guideCityPhoto()`, dans
+  `app/villes/[slug]/a-faire/page.tsx` et dans `app/[locale]/cities/[slug]/things-to-do/page.tsx`.
+  ⚠️ **L'insertion n'est tentée qu'à une frontière de tiret et tout le reste du slug doit
+  correspondre exactement** (`clermont-herault` → `clermont-l-herault` / `clermont-d-herault`,
+  jamais un radical seul) : c'est la condition posée par le commentaire de `guideCityPhoto`
+  depuis l'origine, un rapprochement sur le seul radical rouvrant la porte aux faux positifs.
+  Vérifié de façon exhaustive et non par sondage — les 540 villes croisées avec les deux séries :
+  **aucune ville ne résout deux guides, aucun guide n'est réclamé par deux villes, 254/254 FR et
+  247/247 EN sont atteignables, zéro orphelin des deux côtés.**
+  Second défaut trouvé dans la foulée, et qui n'a rien à voir avec les slugs :
+  **`things-to-do-in-clermont-l-herault-2026` ne listait pas sa propre ville** dans
+  `relatedCities` (seulement `montpellier` et `beziers`), donc pas de photo d'en-tête ni de
+  remontée par la recherche inverse sur `/cities/clermont-herault`. Corrigé, `clermont-herault`
+  en tête. Les deux corrections sont vérifiées après coup : photo d'en-tête **OK des deux côtés**.
+
 - **Parité EN — `things-to-do-in-[city]-2026` batch 43, rattrapage de parité (+7 : Pontoise,
   Haguenau, Alès, Villefranche-sur-Saône, Six-Fours-les-Plages, Blagnac, Le Cannet).** Les 7
   jumelles du batch 42 FR du 05/09 écrites d'un coup dans `data/guides-en.ts`. **Compteurs

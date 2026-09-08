@@ -71,9 +71,35 @@ export function guideCityPhoto(
  * slug's own article: `le-tampon` → `10-choses-a-faire-au-tampon-2026`,
  * `les-abymes` → `…-aux-abymes-2026`. Matching only the bare stem would risk a
  * false positive on another city, so the contracted article has to be there too.
+ *
+ * The mirror case exists too, and it cost `clermont-herault` its guide card and
+ * its hero photo from 2026-08 to 2026-09: the **seed** drops an elided article
+ * that the **guide** keeps (`Clermont-l'Hérault` → seed `clermont-herault`,
+ * guide `…-a-clermont-l-herault-2026`). Hence `citySlugElisions`.
  */
 function guideCityElision(guideSlug: string, citySlug: string): boolean {
   const bare = citySlug.replace(/^(le|la|les)-/, "");
-  if (bare === citySlug) return false;
-  return guideSlug.includes(`-au-${bare}-`) || guideSlug.includes(`-aux-${bare}-`);
+  if (bare !== citySlug && (guideSlug.includes(`-au-${bare}-`) || guideSlug.includes(`-aux-${bare}-`))) {
+    return true;
+  }
+  return citySlugElisions(citySlug).some((v) => guideSlug.includes(`-${v}-`) || guideSlug.endsWith(`-${v}`));
+}
+
+/**
+ * Spellings of a city slug that a guide slug may use when the seed dropped an
+ * elided article the name actually carries: `clermont-herault` →
+ * `clermont-l-herault`. The article is only inserted at an **internal hyphen
+ * boundary** and every other segment must match exactly, so two different
+ * cities can never be collapsed into one another — the loose-stem matching the
+ * comment above forbids is still forbidden.
+ */
+export function citySlugElisions(citySlug: string): string[] {
+  const parts = citySlug.split("-");
+  const out: string[] = [];
+  for (let i = 1; i < parts.length; i++) {
+    for (const article of ["l", "d"]) {
+      out.push([...parts.slice(0, i), article, ...parts.slice(i)].join("-"));
+    }
+  }
+  return out;
 }

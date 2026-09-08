@@ -15688,7 +15688,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Clermont-l'Hérault is reached by bus or car from Montpellier (about 45 minutes). A car is best for the lake, Mourèze and the villages. Spring to autumn is ideal — the lake for swimming in summer, the red landscape glorious in low light year-round. Bring water and sun protection for the exposed trails.",
       },
     ],
-    relatedCities: ["montpellier", "beziers"],
+    relatedCities: ["clermont-herault", "montpellier", "beziers"],
     tags: ["things to do in clermont-l-herault", "clermont-l'herault", "travel", "city guide", "occitanie"],
   },
   {

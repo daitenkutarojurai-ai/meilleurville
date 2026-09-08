@@ -1421,6 +1421,71 @@ province jamais faites (Villenave-d'Ornon, Talence, Le Bouscat ; Vaulx-en-Velin,
 Bron — rappel du batch 28 : **l'Espace Albert Camus et le fort de la ceinture lyonnaise sont à
 Bron**, pas à Vénissieux).
 
+**Batch 44 — FR, shipped 2026-09-08 : Melun, Mantes-la-Jolie, Istres, Conflans-Sainte-Honorine,
+Bron, Vaulx-en-Velin, Saint-Priest.** Le batch **referme les trois banlieues lyonnaises** en piste
+depuis le batch 28 et **quatre des trous touristiques** nommés aux batches 34 et 36 ; il ne reste
+de ces listes que Saint-Herblain (écarté au batch 34 faute de matière) et les trois banlieues
+bordelaises. **Trois des sept villes n'étaient citées par aucun guide du site** — Mantes-la-Jolie,
+Istres, Conflans-Sainte-Honorine — alors que la première porte une collégiale dont le chantier
+s'ouvre entre 1140 et 1150, classée MH dès 1840, et la plus importante collection publique
+française de Maximilien Luce.
+**Compteurs mesurés : FR 254 (`-a-` strict 246 + 6 en `au-` + 2 en `aux-`), EN 247 ; `GUIDES`
+1 090 → 1 097.** Aucun nouveau slug hors gabarit. `metaTitle` 32-52 caractères, `metaDesc`
+128-148, 10 sections par guide, densité d'accents 0,122-0,167 **par mot** (seuil ascii-strip
+0,09), **0 em-dash**. `npm run search-index` relancé (1 097 guides, 263 → **264 tags** : « que
+faire dans la Métropole de Lyon » franchit le seuil de 3 guides), d'où `npm run sitemap:check`
+(FR **29 193 URL**, EN 28 763).
+⚠️ **Le correctif du batch 32 avait un symétrique, resté ouvert un mois, et ce run l'a trouvé en
+passant le contrôle de lookup sur les 540 villes au lieu des seules villes du lot.** Le batch 32
+traitait le cas où le **guide** contracte un article que le seed porte (`le-cannet` →
+`…-au-cannet-2026`). Le cas inverse existe : **le seed élide un article que le guide garde** —
+`clermont-herault` au seed contre `10-choses-a-faire-a-clermont-**l**-herault-2026`. Sur 254
+guides de la série, **253 seulement étaient atteignables** depuis une page ville, et
+`/villes/clermont-herault/a-faire` n'avait ni carte ni photo d'en-tête depuis le batch 11. Nouvel
+export **`citySlugElisions()`** (`lib/city-images.ts`), câblé dans `guideCityPhoto()` et dans les
+deux pages `a-faire` / `things-to-do`. **L'insertion n'est tentée qu'à une frontière de tiret et
+le reste du slug doit correspondre exactement** — un rapprochement sur le seul radical rouvrirait
+les faux positifs que le commentaire de `guideCityPhoto` interdit depuis l'origine. Vérifié de
+façon exhaustive (540 villes × les deux séries) : aucune ville ne résout deux guides, aucun guide
+n'est réclamé par deux villes, **254/254 FR et 247/247 EN atteignables, zéro orphelin**. Second
+défaut trouvé dans la foulée : `things-to-do-in-clermont-l-herault-2026` **ne listait pas sa
+propre ville** dans `relatedCities`, corrigé.
+⚠️ **Six affirmations corrigées avant commit, dont une démentie par une mesure sur nos propres
+données** : Melun donnée « la commune de Seine-et-Marne qui gagne le plus d'habitants », vrai **en
+rythme** (+10,6 %, 1re des 11) et **faux en nombre** (Meaux +4 434 contre +4 188) — le guide dit
+désormais les deux comptes ; Conflans « l'une des plus faibles croissances des Yvelines » alors
+qu'elle est **dixième sur seize** ; le musée de la batellerie annoncé « le seul en France » sans
+source ; deux durées de trajet non vérifiées (Bron, Vaulx-en-Velin) ; le château de Saint-Priest
+donné « le monument le plus substantiel de l'est lyonnais après le fort de Bron ». **Le contrôle
+qui a trouvé la première est un tri du département sur le gain absolu, pas une relecture.** Un
+réflexe faux écarté par vérification en ligne : la **médiathèque François-Mitterrand n'est pas
+dans le château de Saint-Priest** (elle est place Charles-Ottina) ; le château accueille des
+concerts et des rendez-vous du conservatoire.
+Sept prudences assumées, à ne pas diluer : ① « **accessible depuis** » sur **Vaux-le-Vicomte, qui
+est à Maincy** (~8 km de Melun) et se traite comme une sortie d'une journée ; ② la **base aérienne
+125 d'Istres-Le Tubé est une emprise militaire**, dite avant toute phrase attrayante, comme la
+base 701 de Salon (batch 34) ; ③ la **baignade dans l'étang de Berre est soumise à des arrêtés
+d'interdiction temporaire**, écrite comme une règle opposable avec l'affichage sur place qui fait
+foi ; ④ le **parc de Parilly est à cheval sur Bron et Vénissieux**, la **centrale de Cusset sur
+Villeurbanne et Vaulx-en-Velin** (l'essentiel côté villeurbannais) et le **Grand Parc
+Miribel-Jonage sur quatre communes au moins** — aucun n'est attribué à une seule ; ⑤ l'**Espace
+Albert-Camus est à Bron**, le rappel du batch 28 devenant ici une section entière ; ⑥ le
+**bateau-chapelle Je Sers de Conflans est d'abord un lieu d'accueil social en activité**, pas une
+attraction ; ⑦ **cités Tase, Village de Vaulx et Val Fourré décrits sans verdict de sécurité ni
+classement**, même cadrage que les Minguettes (batch 28). Aucun horaire, aucun tarif, aucune
+figure en `/10` ; les seuls chiffres de population viennent de `data/city-population.json`.
+Écart FR→EN après ce batch : **7 villes** — donc **le prochain run doit être un batch EN**. Quatre
+points de vigilance : ① **`things-to-do-in-melun-2026` doit poser Melun face à Vaux-le-Vicomte dès
+la première ligne**, un lecteur anglophone connaissant le château et ignorant la ville, laquelle
+ne le contient pas ; ② **Mantes a de la matière propre à l'angle anglophone** (collégiale
+contemporaine de Notre-Dame de Paris, bombardement du 30 mai 1944 relevant de la préparation du
+débarquement), même arbitrage qu'avec Dieppe au batch 37 et Cambrai au batch 39 ; ③ arrêtés de
+baignade de l'étang de Berre et zones surveillées du Grand Parc à écrire comme des **règles
+opposables** ; ④ **« batellerie » n'a pas d'équivalent d'un mot en anglais** (inland waterway
+transport), à poser avant usage, de même que « pardon » au sens de pèlerinage fluvial.
+Pour le batch FR **suivant** : **287 villes du seed sur 540 restent sans guide tourisme** (mesuré
+ce run), les gisements nommés restants étant Saint-Herblain et les trois banlieues bordelaises.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique

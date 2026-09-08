@@ -8692,6 +8692,41 @@
       "slug": "10-choses-a-faire-au-cannet-2026",
       "title": "10 choses à faire au Cannet",
       "emoji": "🖼️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-melun-2026",
+      "title": "10 choses à faire à Melun",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-mantes-la-jolie-2026",
+      "title": "10 choses à faire à Mantes-la-Jolie",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-istres-2026",
+      "title": "10 choses à faire à Istres",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-conflans-sainte-honorine-2026",
+      "title": "10 choses à faire à Conflans-Sainte-Honorine",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bron-2026",
+      "title": "10 choses à faire à Bron",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vaulx-en-velin-2026",
+      "title": "10 choses à faire à Vaulx-en-Velin",
+      "emoji": "🔭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-priest-2026",
+      "title": "10 choses à faire à Saint-Priest",
+      "emoji": "🎭"
     }
   ],
   "tags": [
@@ -9331,6 +9366,11 @@
       "count": 5
     },
     {
+      "slug": "que-faire-dans-les-yvelines",
+      "label": "que faire dans les Yvelines",
+      "count": 5
+    },
+    {
       "slug": "ski",
       "label": "ski",
       "count": 5
@@ -9881,13 +9921,13 @@
       "count": 3
     },
     {
-      "slug": "que-faire-dans-le-nord",
-      "label": "que faire dans le Nord",
+      "slug": "que-faire-dans-la-metropole-de-lyon",
+      "label": "que faire dans la Métropole de Lyon",
       "count": 3
     },
     {
-      "slug": "que-faire-dans-les-yvelines",
-      "label": "que faire dans les Yvelines",
+      "slug": "que-faire-dans-le-nord",
+      "label": "que faire dans le Nord",
       "count": 3
     },
     {
