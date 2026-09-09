@@ -14,7 +14,7 @@ mis en prose, ils sont restés en fragments sans verbe ponctués par parenthèse
 cadratins (Riom était à 1 pour 29). La roadmap donne R7.8 pour *DONE* — c'est vrai du
 gros du corpus, faux de cette queue.
 
-Prochains plus atteints, mesurés : `10-choses-a-faire-a-royan-2026` (1/30),
+Prochains plus atteints, mesurés (~~`-royan-`~~ traité le 09/09) :
 `-pezenas-` (1/34), `-montbeliard-` (1/35), `-sisteron-` (1/36), `-concarneau-` (1/36),
 `-vienne-` (1/37), `-saint-brieuc-` (1/38), `-saint-jean-de-luz-` (1/39), `-apt-` (1/39),
 `-saint-paul-de-vence-` (1/41). Hors tourisme : `acheter-maison-campagne-france-2026-vraiment-vivable`,
@@ -65,3 +65,4 @@ structurels, et les compter fait croire à une régression.
 - 2026-09-02 data/guides.ts :: vivre-proche-centrale-nucleaire-france-2026
 - 2026-09-04 data/guides.ts :: petites-villes-50000-habitants-tout-france-2026
 - 2026-09-05 data/guides.ts :: 10-choses-a-faire-a-riom-2026
+- 2026-09-09 data/guides.ts :: 10-choses-a-faire-a-royan-2026 (1/30 → 0 cadratin, 786 → 978 mots ; guide le plus atteint de la queue mesurée le 05/09, mise en prose complète)
