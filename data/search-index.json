@@ -8369,6 +8369,46 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "vacances-monoparentales-reims-2026",
+      "title": "Vacances monoparentales à Reims en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-le-mans-2026",
+      "title": "Vacances monoparentales au Mans en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-lille-2026",
+      "title": "Vacances monoparentales à Lille en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-mulhouse-2026",
+      "title": "Vacances monoparentales à Mulhouse en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-saint-etienne-2026",
+      "title": "Vacances monoparentales à Saint-Étienne en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-angouleme-2026",
+      "title": "Vacances monoparentales à Angoulême en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-montpellier-2026",
+      "title": "Vacances monoparentales à Montpellier en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-avignon-2026",
+      "title": "Vacances monoparentales à Avignon en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "parent-solo-a-valence-2026",
       "title": "Parent solo à Valence en 2026 : 2 750 € net, et le meilleur transport du lot après Pessac",
       "emoji": "🧑‍🍼"
@@ -8911,6 +8951,11 @@
       "count": 11
     },
     {
+      "slug": "vacances-sans-voiture",
+      "label": "vacances sans voiture",
+      "count": 11
+    },
+    {
       "slug": "alsace",
       "label": "Alsace",
       "count": 10
@@ -9176,8 +9221,8 @@
       "count": 7
     },
     {
-      "slug": "vacances-sans-voiture",
-      "label": "vacances sans voiture",
+      "slug": "vacances-pas-cheres-en-famille",
+      "label": "vacances pas chères en famille",
       "count": 7
     },
     {
@@ -9796,6 +9841,11 @@
       "count": 3
     },
     {
+      "slug": "gare-tgv-excentree",
+      "label": "gare TGV excentrée",
+      "count": 3
+    },
+    {
       "slug": "gascogne",
       "label": "Gascogne",
       "count": 3
@@ -10033,11 +10083,6 @@
     {
       "slug": "troyes",
       "label": "Troyes",
-      "count": 3
-    },
-    {
-      "slug": "vacances-pas-cheres-en-famille",
-      "label": "vacances pas chères en famille",
       "count": 3
     },
     {

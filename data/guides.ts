@@ -50811,6 +50811,430 @@ export const GUIDES: Guide[] = [
     tags: ["vacances monoparentales Metz", "parent solo Moselle", "Centre Pompidou-Metz famille", "vacances sans voiture", "hors saison Lorraine"]
   },
   {
+    slug: "vacances-monoparentales-reims-2026",
+    title: "Vacances monoparentales à Reims en 2026",
+    metaTitle: "Vacances monoparentales à Reims 2026",
+    metaDesc:
+      "Reims en parent solo : le tramway passe devant la gare et mène à la cathédrale, T3 à 900 €. Mais la nature sort 4,2/10, l'avant-dernier des trente.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Reims sort à 5,8/10 au composite « famille monoparentale », en tête de ce lot à égalité avec Le Mans, Lille et Mulhouse, sur sécurité 5,1/10, transports 6,4/10, coût de la vie 6,0/10 et qualité de vie 5,9/10 (source : data/cities-seed.ts). C'est un dossier de ville moyenne bien reliée : 900 € pour le T3 de référence et 2 300 € le mètre carré à l'achat (source : data/housing.ts), 178 478 habitants au recensement 2022 (source : data/city-population.json). Ce guide dit ce que la ville fait très bien pour un adulte seul avec des enfants, et le point sur lequel elle est la plus faible des trente destinations que cette série a couvertes.",
+    sections: [
+      {
+        heading: "L'arrivée la plus courte de ce lot : gare centrale, tram, cathédrale",
+        body: "Reims est desservie par le TGV et par un tramway (source : lib/transit.ts), et la géométrie de ces deux faits est ce qui rend la ville confortable quand on porte des bagages et qu'on tient une main. La gare de Reims est en centre-ville, et la ligne A du réseau, ouverte en avril 2011, dessert la gare puis traverse le centre en passant à proximité immédiate de la cathédrale. Autrement dit, entre la descente du train et le premier monument du séjour, il n'y a ni correspondance à chercher, ni taxi à négocier, ni navette à attendre. Cela paraît anecdotique tant qu'on n'a pas essayé de faire descendre deux enfants fatigués d'un TGV un dimanche soir. C'est le contraire exact du piège de gare que cette série a documenté à Mâcon, où le TGV s'arrête à Loché à sept kilomètres du centre, et à Besançon et Valence. Ici, le billet le plus rapide vous dépose au bon endroit. Le score de transports, 6,4/10, ne raconte pas cette qualité-là : il mesure le maillage de la commune entière, pas la qualité d'une arrivée."
+      },
+      {
+        heading: "Le budget : au milieu des trente, sans mauvaise surprise",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Reims sort à 6,0/10 (source : data/cities-seed.ts), quinzième des trente destinations de la série, donc exactement au milieu. Le marché résidentiel confirme l'ordre de grandeur : 900 € le T3 de référence, à égalité avec Besançon, Valence et Pau, et 2 300 € le mètre carré, à égalité avec Besançon et Metz (source : data/housing.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais ils situent une ville : Reims n'est ni Saint-Étienne, la moins chère des trente à 770 € le T3, ni Aix-en-Provence, la plus chère à 1 400 €. Le classement budget du moteur la place en €€€ (source : lib/vacation-fit.ts), le palier que partagent dix-neuf des trente destinations. Pour un foyer à un seul revenu, l'intérêt de Reims n'est donc pas d'être bon marché : c'est d'être correcte partout sans exiger de voiture."
+      },
+      {
+        heading: "Ce qui s'enchaîne à pied autour de la cathédrale",
+        body: "La cathédrale Notre-Dame de Reims est inscrite au patrimoine mondial de l'UNESCO depuis 1991, avec l'ancienne abbaye Saint-Remi et le palais du Tau. C'est un édifice gothique du XIIIe siècle où vingt-neuf rois de France ont été sacrés, et pour des enfants c'est surtout un bâtiment dont l'échelle se voit de loin, ce qui aide à faire tenir une visite. Les trois éléments du bien classé sont dans la même ville et se relient sans véhicule pour le premier et le troisième, le palais du Tau étant accolé à la cathédrale. Le score culture de la commune est de 7,6/10 (source : data/cities-seed.ts), à égalité avec Nancy et Montpellier dans cette série, ce qui la place au dixième rang des trente. Un point de méthode utile à un parent : le champagne, qui fait la réputation du pays, n'est pas un programme d'enfant, et les caves relèvent d'un autre séjour. Reims compte quarante espaces verts recensés (source : data/city-parks.json), mais ce total est plafonné par notre collecte, comme celui de vingt-deux des trente destinations de la série : c'est un plancher, pas un compte, et il ne se compare pas à celui d'Angoulême ou d'Avignon, qui eux sont réels."
+      },
+      {
+        heading: "Le point faible, dit franchement : nature 4,2/10",
+        body: "C'est l'avant-dernier score de nature des trente destinations de la série, derrière Nancy, Metz et Le Mans à 4,8 et devant la seule Lille à 3,4 (source : data/cities-seed.ts). Il faut le prendre au sérieux plutôt que le contourner. Reims est une ville de plaine crayeuse, sans relief, sans littoral et sans grand massif à portée de transport en commun, et un séjour bâti sur l'idée de sortir marcher dans un paysage y sera décevant. La bonne lecture est de choisir Reims pour ce qu'elle est, un séjour urbain court, de trois à cinq nuits, autour d'un patrimoine dense, et de ne pas lui demander ce que Grenoble à 8,4 ou La Rochelle à 7,2 donnent sans effort. Le corollaire est budgétaire et joue en faveur de la ville : un programme entièrement urbain ne suppose ni location de voiture, ni carburant, ni parking, et ces trois postes sont ceux qui font dérailler le budget d'un adulte qui paie seul."
+      },
+      {
+        heading: "Quand y aller : 1 sur 5 pendant huit mois",
+        body: "Notre indicateur d'affluence place Reims à 1 sur 5 de janvier à mai puis d'octobre à décembre, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts). C'est le palier bas, celui que partagent dix-huit des trente destinations de la série, et il faut savoir ce qu'il vaut : l'indicateur croise le type de destination et la saison, il ne compte pas des visiteurs. Côté climat, la station de référence retenue est une station de la Marne, à 18 kilomètres (source : lib/climate-normals.ts), l'un des rattachements les plus courts de la série, très loin des 146 kilomètres qui séparent Pau de sa station. Les valeurs mensuelles sont donc pertinentes ici. Elles donnent 3,4 °C de moyenne en janvier et 18,7 °C en juillet, et surtout de 8 à 13 jours de pluie tous les mois de l'année, sans aucun mois sec. Septembre, à 8 jours, est le mois le moins arrosé, et il tombe au moment où l'affluence retombe à 2 : c'est la fenêtre à viser."
+      },
+      {
+        heading: "Sécurité 5,1/10, et ce que ce lot a de particulier",
+        body: "Reims affiche 5,1/10 sur l'axe sécurité (source : data/cities-seed.ts), à égalité avec Angoulême, Nancy, Lyon et Bordeaux. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Un mot sur ce lot, parce qu'il change par rapport aux vingt-deux guides précédents de la série : la pondération du profil monoparental met la sécurité en tête, à 0,30, et aucune des huit destinations ajoutées ici n'atteint la médiane de sécurité des trente, qui s'établit à 5,3, sauf Le Mans qui s'y arrête exactement. C'est mécanique, on descend un classement dont c'est le premier critère, mais cela vaut d'être écrit plutôt que masqué. Reims arrive derrière Le Mans à 5,3 et à égalité avec Angoulême sur cet axe. En usage, deux réflexes valent partout : viser 19 h 30 pour dîner hors saison, où les cuisines ferment tôt en semaine, et repérer avant le départ un cabinet médical sur l'annuaire santé d'ameli.fr, le 15 restant l'urgence vitale et le 116 117 le conseil du soir et du week-end."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement, ce qui tombe bien sur un séjour dont le programme est essentiellement patrimonial. Les bons vacances de la caisse d'allocations familiales de la Marne se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["reims", "epernay", "chalons-en-champagne", "laon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-reims-2026",
+      "parent-solo-a-reims-2026",
+      "vivre-a-reims-2026",
+      "vacances-monoparentales-metz-2026"
+    ],
+    tags: ["vacances monoparentales Reims", "parent solo Marne", "cathédrale de Reims famille", "vacances sans voiture", "hors saison Champagne"]
+  },
+  {
+    slug: "vacances-monoparentales-le-mans-2026",
+    title: "Vacances monoparentales au Mans en 2026",
+    metaTitle: "Vacances monoparentales au Mans 2026",
+    metaDesc:
+      "Le Mans en parent solo : une enceinte romaine de 1 300 m de tour, à l'échelle d'un enfant, et 870 € le T3. La station météo, elle, est à 74 km.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Le Mans sort à 5,8/10 au composite « famille monoparentale », en tête de ce lot à égalité avec Reims, Lille et Mulhouse, sur sécurité 5,3/10, transports 6,1/10, coût de la vie 6,4/10 et qualité de vie 5,5/10 (source : data/cities-seed.ts). C'est le meilleur score de sécurité des huit destinations ajoutées ici, à égalité avec Strasbourg et Metz dans l'ensemble de la série. Le T3 de référence est à 870 € et le mètre carré à 1 900 €, quatrième valeur la plus basse des trente destinations couvertes (source : data/housing.ts) ; la commune compte 145 182 habitants au recensement 2022 (source : data/city-population.json). Ce guide dit pourquoi le vieux centre du Mans est un terrain particulièrement adapté quand on est seul adulte, et où sont ses limites.",
+    sections: [
+      {
+        heading: "Une enceinte romaine de 1 300 mètres de tour, soit une boucle d'enfant",
+        body: "C'est le fait qui décide d'un séjour ici. L'enceinte gallo-romaine du Mans, bâtie au début du IVe siècle, dessine un quadrilatère irrégulier d'environ 450 mètres sur 200, soit un périmètre de 1 300 mètres, et elle est considérée comme la mieux conservée de l'ancien Empire romain avec celles de Rome et de Constantinople. Il en subsiste environ 500 mètres de murs parfaitement visibles et onze tours sur les vingt-six d'origine. Traduit en logistique de parent solo, cela donne une boucle d'un kilomètre trois, plate sur sa partie basse, entièrement urbaine, avec un objet spectaculaire à regarder tous les cinquante mètres. C'est exactement le format qu'un enfant de six ans termine sans être porté et qu'un enfant de dix ans trouve intéressant. La Cité Plantagenêt qu'elle entoure se parcourt dans la foulée. Un séjour au Mans n'a donc pas besoin d'un programme : il a besoin d'un point de départ et de deux heures."
+      },
+      {
+        heading: "Arriver et circuler : TGV, tramway, et une ville qui tient dans les jambes",
+        body: "Le Mans est desservie par le TGV et par un tramway, avec des lignes de bus à haut niveau de service (source : lib/transit.ts). Le score de transports de la commune est de 6,1/10 (source : data/cities-seed.ts), dans les quatre derniers paliers des trente destinations de la série, à égalité avec Pau, Aix-en-Provence et Avignon et devant Vannes à 5,5 et Angoulême à 5,2. Ce score modeste ne doit pas être surinterprété : il mesure le maillage d'une commune de 145 000 habitants, pas la difficulté d'un séjour de quatre nuits. Dans les faits, la gare est en ville, le tramway la relie au centre, et le vieux centre lui-même se fait à pied puisqu'il tient dans un périmètre de 1 300 mètres. La question à se poser avant de réserver un hébergement n'est pas « y a-t-il un bon réseau » mais « suis-je sur la ligne de tram ou dans la Cité » : les deux réponses conviennent, tout le reste suppose un trajet de plus chaque matin, ce qui coûte cher en fatigue quand on est seul à l'organiser."
+      },
+      {
+        heading: "Le budget : la quatrième destination la moins chère des trente",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Le Mans sort à 6,4/10 (source : data/cities-seed.ts), à égalité avec Besançon, Brest et Mulhouse, un palier qui occupe les rangs 6 à 9 des trente. Le marché résidentiel le confirme et le pousse plus loin : 870 € le T3 de référence et surtout 1 900 € le mètre carré, quatrième valeur la plus basse de la série derrière Saint-Étienne à 1 500, Mulhouse à 1 700 et Angoulême à 1 800 (source : data/housing.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais une ville où le mètre carré vaut 1 900 € n'affiche pas les mêmes semaines de location qu'une ville à 5 000 €, et Aix-en-Provence, dans cette même série, est à 5 000 €. Pour un adulte qui paie seul l'hébergement d'un foyer entier, sans personne avec qui partager une chambre, c'est le poste où l'écart se creuse le plus vite."
+      },
+      {
+        heading: "Les 24 Heures : ce que notre indicateur d'affluence ne peut pas voir",
+        body: "Notre indicateur place Le Mans à 1 sur 5 pendant huit mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts). Il faut dire tout de suite ce qu'il ignore. L'indicateur attribue un palier selon le type de destination et la saison, puis module par le mois : il raisonne en régime moyen et il est structurellement aveugle à un événement d'un week-end. Or la course automobile qui porte le nom de la ville concentre en juin une affluence sans rapport avec un mois de juin ordinaire, sur l'hébergement comme sur les transports. La conséquence pratique est simple et elle est la même pour tout le monde : avant de réserver un séjour en juin au Mans, vérifiez les dates de l'épreuve, et si elles tombent sur les vôtres, décalez d'une semaine ou assumez de réserver très en avance. Un indicateur à 2 ne dit pas qu'un week-end de juin est calme, il dit que le mois de juin est calme en moyenne. La nuance vaut de l'argent."
+      },
+      {
+        heading: "Climat : la station de référence est à 74 kilomètres",
+        body: "C'est la limite de nos propres données qu'il faut connaître ici. La station retenue pour Le Mans est celle de Tours, à 74 kilomètres (source : lib/climate-normals.ts) : les valeurs mensuelles affichées pour Le Mans sont littéralement celles de Tours, de l'autre côté du Vendômois. Le rattachement reste plus court que ceux de Pau, à 146 kilomètres, de Metz à 125 ou de Mulhouse à 92 dans cette même série, et les deux villes partagent l'essentiel de leur régime océanique dégradé, mais mieux vaut lire ces chiffres comme un ordre de grandeur régional que comme une mesure locale. Ils donnent 5,1 °C de moyenne en janvier et 20,2 °C en juillet, 7 jours de pluie en juillet et en août contre 11 à 12 en décembre et en janvier. Les ancres propres à la ville, elles, viennent du seed : 4,8 °C en janvier et 22,0 °C en juillet (source : data/cities-seed.ts). Sur ces bases, la fenêtre confortable court de mai à septembre, avec un creux d'affluence en mai et en septembre."
+      },
+      {
+        heading: "Sécurité 5,3/10 et logistique du soir",
+        body: "Le Mans affiche 5,3/10 sur l'axe sécurité (source : data/cities-seed.ts), le meilleur des huit destinations de ce lot, à égalité avec Strasbourg et Metz dans l'ensemble de la série et devant Reims et Angoulême à 5,1. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Il faut redire ce qui vaut pour tout ce lot : le profil monoparental pondère la sécurité à 0,30, le plus lourd de ses quatre critères, et sept des huit villes ajoutées ici sont sous la médiane de 5,3 des trente destinations couvertes. Le Mans est la huitième, et elle atteint cette médiane tout juste. Deux réflexes de séjour, valables partout et plus utiles ici qu'ailleurs parce que la Cité Plantagenêt est un quartier de ruelles peu éclairées : garder les enfants à portée de voix dans les portions étroites, et repérer avant le départ un cabinet médical sur l'annuaire santé d'ameli.fr. Le 15 reste l'urgence vitale, le 116 117 le conseil du soir et du week-end."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de la Sarthe se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance, et cette anticipation compte double sur une ville dont un week-end de juin est saturé. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["le-mans", "laval", "alencon", "tours"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-le-mans-2026",
+      "parent-solo-a-le-mans-2026",
+      "vacances-monoparentales-tours-2026",
+      "vacances-monoparentales-angers-2026"
+    ],
+    tags: ["vacances monoparentales Le Mans", "parent solo Sarthe", "enceinte romaine Cité Plantagenêt", "vacances pas chères en famille", "hors saison Pays de la Loire"]
+  },
+  {
+    slug: "vacances-monoparentales-lille-2026",
+    title: "Vacances monoparentales à Lille en 2026",
+    metaTitle: "Vacances monoparentales à Lille 2026",
+    metaDesc:
+      "Lille en parent solo : deux gares à 500 m l'une de l'autre et le 3e transport des trente. En face, la nature la plus basse de la série, 3,4/10.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Lille sort à 5,8/10 au composite « famille monoparentale », en tête de ce lot à égalité avec Reims, Le Mans et Mulhouse, mais par un chemin qu'aucune autre destination de la série n'emprunte : transports 8,7/10, troisième des trente derrière Strasbourg et Lyon à 9,0, contre sécurité 3,9/10 et nature 3,4/10, respectivement l'avant-dernier et le dernier score des trente (source : data/cities-seed.ts). Le T3 de référence est à 1 080 € et le mètre carré à 3 500 € (source : data/housing.ts), pour 238 695 habitants au recensement 2022 (source : data/city-population.json). Ce guide dit ce que ce déséquilibre donne concrètement à un adulte seul avec des enfants, et ce qu'il faut renoncer à y chercher.",
+    sections: [
+      {
+        heading: "Deux gares à cinq cents mètres, et un métro sans conducteur depuis 1983",
+        body: "Lille-Flandres et Lille-Europe sont distantes d'environ 500 mètres à pied et sont deux stations voisines de la même ligne de métro. Pour un adulte seul qui arrive avec des bagages et des enfants, c'est un avantage rare : quelle que soit la gare inscrite sur le billet, on est déjà au centre, et une correspondance entre les deux ne suppose ni traversée de ville ni changement de mode. Le métro lui-même, mis en service le 25 avril 1983 sur une première ligne de neuf kilomètres et treize stations entre Villeneuve-d'Ascq et le centre de Lille, a été le premier métro entièrement automatique et sans conducteur au monde ; le système avait été conçu et testé par une équipe universitaire installée à Villeneuve-d'Ascq. Ce détail d'histoire a une conséquence pratique : les rames sont courtes, très fréquentes, et l'attente sur un quai avec des enfants se compte en minutes. Le score de transports de 8,7/10 (source : data/cities-seed.ts) mesure cela, et il est ici la vraie raison de venir."
+      },
+      {
+        heading: "Ce que Lille ne donnera pas : nature 3,4/10, dernier des trente",
+        body: "Autant l'écrire avant le reste du programme. Lille sort à 3,4/10 sur l'axe nature (source : data/cities-seed.ts), le score le plus bas des trente destinations que cette série a couvertes, derrière Reims à 4,2 et loin de Grenoble à 8,4 ou de La Rochelle à 7,2. C'est une ville de plaine sans relief, sans littoral atteignable dans la journée sans organisation, et un séjour construit sur l'idée de sortir dans un paysage y sera raté. Le corollaire est qu'il faut assumer un séjour urbain complet, ce que la ville fait très bien : culture 8,0/10, à égalité avec Toulouse au sixième palier des trente, et un centre dense où tout s'enchaîne à pied ou en métro. Quarante espaces verts sont recensés sur la commune (source : data/city-parks.json), mais ce total est plafonné par notre collecte comme celui de vingt-deux des trente destinations : c'est un plancher, pas un compte, et il ne dit rien de la surface disponible."
+      },
+      {
+        heading: "Sécurité 3,9/10 : le chiffre le plus bas de ce lot après Montpellier",
+        body: "Lille affiche 3,9/10 sur l'axe sécurité (source : data/cities-seed.ts), avant-dernier des trente destinations de la série, devant la seule Montpellier à 3,7. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants ; il ne se lit pas comme une probabilité d'incident pendant quatre nuits. Il faut néanmoins le dire clairement, parce que le profil monoparental pondère la sécurité à 0,30, le plus lourd de ses quatre critères, et que sept des huit villes ajoutées ici sont sous la médiane de 5,3 des trente, la huitième l'atteignant tout juste : si Lille sort à 5,8/10 au composite, c'est malgré cet axe et grâce aux transports. Un lecteur qui place la sécurité au-dessus de tout trouvera dans cette même série Vannes à 6,9, La Rochelle à 6,5 et Saint-Raphaël à 6,2. Un lecteur qui a besoin de se déplacer sans voiture, avec une poussette, sans jamais dépendre d'un horaire de bus, trouvera peu d'équivalents à Lille. C'est un arbitrage, et il vaut mieux le poser que le lisser."
+      },
+      {
+        heading: "Le budget : la partie chère du lot, sans être la partie chère de la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Lille sort à 5,4/10 (source : data/cities-seed.ts), vingt-deuxième des trente, donc dans le tiers le moins abordable. Le marché résidentiel le confirme : 1 080 € le T3 de référence, à égalité avec Strasbourg, et 3 500 € le mètre carré (source : data/housing.ts). C'est la destination la plus chère de ce lot après Montpellier à 1 150 €, mais elle reste loin d'Aix-en-Provence à 1 400 € et de Lyon à 1 380 €, qui ferment le classement des trente. Le moteur la classe en €€€ (source : lib/vacation-fit.ts). L'arbitrage réel est le même qu'à Saint-Raphaël, documenté dans le lot précédent : on paie l'hébergement plus cher, mais les postes voiture, carburant et parking tombent à zéro, et ils tombent ici plus complètement qu'ailleurs puisque le métro et le tramway suffisent à tout. Sur un séjour d'une semaine, cette bascule change souvent le classement des destinations qu'on croyait comparer."
+      },
+      {
+        heading: "Quand y aller : le palier d'affluence le plus haut de la série",
+        body: "Notre indicateur d'affluence place Lille à 3 sur 5 pendant huit mois de l'année, 4 en juin et en septembre, 5 en juillet et en août (source : lib/vacation-seasons.ts). C'est le palier haut, que neuf des trente destinations partagent, dont Strasbourg, Nantes, Rennes, Lyon, Bordeaux, Toulouse et, dans ce lot, Montpellier. Autrement dit, Lille n'a pas de vrai creux : elle est modérément fréquentée toute l'année, ce qui est plutôt une bonne nouvelle pour un parent solo, parce que cela veut dire que les équipements restent ouverts en février et que rien ne ferme pour la saison. Côté climat, la station de référence est celle de Lille, à 7 kilomètres (source : lib/climate-normals.ts) : c'est l'un des rattachements les plus courts de la série, avec Tours à 5 kilomètres et Toulouse à 6, et les valeurs sont donc pertinentes. Elles donnent 4,1 °C en janvier, 18,9 °C en juillet, et de 8 à 14 jours de pluie chaque mois, sans mois sec ; juillet, à 8 jours, est le seul à descendre sous les 9, et décembre monte à 14. Prévoir la pluie n'est pas une précaution ici, c'est le programme."
+      },
+      {
+        heading: "Le soir, la santé, et la question du logement",
+        body: "Deux points de logistique. Le premier tient à la taille : dans une ville de 238 000 habitants dont le centre est très dense, le choix de l'hébergement compte plus que partout ailleurs dans cette série, et la bonne question à se poser est la distance à pied à une station de métro, pas la distance au beffroi. Une adresse à cinq minutes d'une station transforme n'importe quel quartier en base correcte ; une adresse à vingt minutes de tout impose un trajet de plus chaque soir, avec des enfants fatigués. Le second est médical et vaut partout : repérer un cabinet sur l'annuaire santé d'ameli.fr avant de partir plutôt que dans l'urgence, garder la carte Vitale, les ordonnances en cours et le carnet de santé dans le bagage à main, le 15 pour l'urgence vitale et le 116 117 pour le conseil le soir et le week-end. Sur une destination où les journées sont urbaines et longues, l'épuisement de fin de séjour est le vrai risque, et il se prévient en gardant une demi-journée sans programme."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement, ce qui pèse sur un séjour dont le programme est entièrement urbain. Les bons vacances de la caisse d'allocations familiales du Nord se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["lille", "roubaix", "tourcoing", "arras"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-lille-2026",
+      "vivre-sans-voiture-lille-guide-2026",
+      "parent-solo-a-lille-2026",
+      "vacances-monoparentales-strasbourg-2026"
+    ],
+    tags: ["vacances monoparentales Lille", "parent solo Nord", "métro sans conducteur Lille", "vacances sans voiture", "hors saison Hauts-de-France"]
+  },
+  {
+    slug: "vacances-monoparentales-mulhouse-2026",
+    title: "Vacances monoparentales à Mulhouse en 2026",
+    metaTitle: "Vacances monoparentales à Mulhouse 2026",
+    metaDesc:
+      "Mulhouse en parent solo : deux des plus grands musées de leur catégorie au monde, dans la 2e destination la moins chère des trente. T3 780 €.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Mulhouse sort à 5,8/10 au composite « famille monoparentale », en tête de ce lot à égalité avec Reims, Le Mans et Lille, sur sécurité 4,5/10, transports 7,0/10, coût de la vie 6,4/10 et qualité de vie 5,5/10 (source : data/cities-seed.ts). Le rapport qu'elle propose est le plus inhabituel de la série : 780 € le T3 de référence et 1 700 € le mètre carré, deuxième valeur la plus basse des trente destinations couvertes dans les deux cas derrière Saint-Étienne (source : data/housing.ts), pour une ville qui abrite deux des plus grands musées de leur catégorie au monde. La commune compte 104 924 habitants au recensement 2022 (source : data/city-population.json). Voici ce que ce rapport donne quand il n'y a qu'un adulte et qu'un budget.",
+    sections: [
+      {
+        heading: "Deux musées hors norme, et pourquoi cela compte pour un parent seul",
+        body: "La Cité de l'Automobile, bâtie sur la collection réunie par les frères Schlumpf, est le plus grand musée automobile du monde : environ 430 véhicules exposés, dont quelque 150 Bugatti, soit la collection Bugatti la plus complète qui existe. La Cité du Train, devenue Cité du Train en 2005 après rénovation, est le plus grand musée ferroviaire d'Europe, sur 60 000 mètres carrés, avec 138 pièces de matériel roulant du patrimoine ferroviaire français. L'intérêt pour un adulte seul n'est pas seulement thématique. Ces deux équipements sont couverts, immenses, et occupent une demi-journée chacun sans qu'il faille inventer un programme ni surveiller une route : ce sont deux journées de mauvais temps déjà réglées, et le mauvais temps est le premier ennemi d'un séjour où personne ne prend le relais. Ils sont l'un et l'autre à Mulhouse même, ce qui n'est pas anodin dans une série où la moitié des grands sites cités relèvent de communes voisines."
+      },
+      {
+        heading: "Le budget : deuxième destination la moins chère des trente",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Mulhouse sort à 6,4/10 (source : data/cities-seed.ts), à égalité avec Besançon, Brest et Le Mans, un palier qui occupe les rangs 6 à 9 des trente. Le marché résidentiel va plus loin que le score : 780 € le T3 de référence et 1 700 € le mètre carré, dans les deux cas la deuxième valeur la plus basse de toute la série, immédiatement derrière Saint-Étienne à 770 € et 1 500 € (source : data/housing.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais ils situent une ville : le mètre carré mulhousien vaut moins du tiers de celui d'Aix-en-Provence, à 5 000 €, qui appartient à cette même série. Le moteur classe pourtant Mulhouse en €€€ et non en €€ (source : lib/vacation-fit.ts), le palier €€ n'étant atteint que par Valence, Mâcon, Poitiers, Saint-Étienne et Angoulême. La combinaison à retenir n'est donc pas « la moins chère », c'est « très bon marché pour ce qu'on y trouve »."
+      },
+      {
+        heading: "Circuler : tramway, tram-train, et un centre compact",
+        body: "Mulhouse est desservie par le TGV, par un tramway, par des lignes de bus à haut niveau de service et dispose d'un réseau cyclable notable (source : lib/transit.ts). Le score de transports est de 7,0/10 (source : data/cities-seed.ts), à égalité avec huit autres destinations de la série dont La Rochelle, Nancy, Dijon et Mâcon, et c'est le troisième de ce lot derrière Lille à 8,7 et Montpellier à 7,7. Pour un séjour, la lecture pratique est qu'on arrive en gare, qu'on prend le tram, et que le centre historique se traverse ensuite à pied. La ville a par ailleurs la particularité d'être un nœud tram-train, c'est-à-dire que certaines rames sortent de la ville sur les voies ferrées régionales : c'est la configuration qui permet d'atteindre des communes voisines sans changer de mode ni louer de voiture, et elle est rare. Les destinations de la vallée relèvent de communes distinctes et se traitent comme des excursions, à vérifier avant d'en faire une journée."
+      },
+      {
+        heading: "Le point à connaître : la station climatique est à 92 kilomètres",
+        body: "C'est la limite de nos propres données sur cette ville, et elle est plus sévère qu'ailleurs dans ce lot. La station retenue pour Mulhouse est celle de Strasbourg, à 92 kilomètres (source : lib/climate-normals.ts) : les valeurs mensuelles affichées sont celles du nord de la plaine d'Alsace, alors que Mulhouse en occupe l'extrémité sud, adossée au Sundgau et au Jura alsacien. C'est le sixième rattachement le plus long des trente destinations de la série, derrière Pau à 146 kilomètres, Metz à 125, La Rochelle à 116, Nancy à 108 et Poitiers à 99. La plaine partageant l'essentiel de son régime, l'ordre de grandeur reste utilisable, mais mieux vaut lire ces chiffres comme régionaux. Ils donnent 2,5 °C en janvier et 20,6 °C en juillet, avec 9 à 12 jours de pluie chaque mois. Les ancres propres à la ville viennent du seed : 2,5 °C en janvier et 22,5 °C en juillet (source : data/cities-seed.ts). L'hiver alsacien est franchement froid, ce qui rend les deux grands musées couverts d'autant plus pertinents hors saison."
+      },
+      {
+        heading: "Quand y aller : 1 sur 5 pendant huit mois",
+        body: "Notre indicateur d'affluence place Mulhouse à 1 sur 5 de janvier à mai puis d'octobre à décembre, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts). C'est le palier bas, partagé par dix-huit des trente destinations de la série, dont six des huit ajoutées ici. Il faut savoir ce qu'il vaut : l'indicateur croise le type de destination et la saison et ne compte pas des visiteurs, si bien qu'il n'existe que trois profils annuels distincts sur toute la série. Un lecteur qui trouverait Mulhouse plus fréquentée en décembre que le tableau ne le dit n'aurait pas tort, les marchés de fin d'année alsaciens ayant leur propre calendrier, que l'indicateur ne voit pas. La fenêtre à viser reste mai, juin et septembre : températures utilisables, affluence basse, et les deux grands musées ouverts sans la file d'août."
+      },
+      {
+        heading: "Sécurité 4,5/10 et logistique du soir",
+        body: "Mulhouse affiche 4,5/10 sur l'axe sécurité (source : data/cities-seed.ts), vingt-quatrième des trente destinations de la série, derrière Nantes à 4,6 et devant Grenoble, Toulouse, Saint-Étienne et Avignon à 4,3. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Comme pour les sept autres villes de ce lot, il faut redire que le profil monoparental pondère la sécurité à 0,30, le plus lourd de ses quatre critères, et que sept des huit destinations ajoutées ici sont sous la médiane de 5,3 des trente, Le Mans étant la seule à l'atteindre : si Mulhouse sort à 5,8/10, c'est par le transport et par le coût. Deux réflexes de séjour : hors saison, viser 19 h 30 pour dîner, les cuisines fermant tôt en semaine dans une ville de cette taille ; et repérer avant le départ un cabinet médical sur l'annuaire santé d'ameli.fr, le 15 restant l'urgence vitale et le 116 117 le conseil du soir et du week-end."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement, et sur une destination dont le programme est essentiellement muséal, la billetterie est justement le poste où ils servent le plus. Les bons vacances de la caisse d'allocations familiales du Haut-Rhin se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["mulhouse", "colmar", "belfort", "selestat"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-mulhouse-2026",
+      "parent-solo-a-mulhouse-2026",
+      "vivre-a-mulhouse-2026",
+      "vacances-monoparentales-strasbourg-2026"
+    ],
+    tags: ["vacances monoparentales Mulhouse", "parent solo Haut-Rhin", "Cité de l'Automobile famille", "vacances pas chères en famille", "hors saison Alsace"]
+  },
+  {
+    slug: "vacances-monoparentales-saint-etienne-2026",
+    title: "Vacances monoparentales à Saint-Étienne en 2026",
+    metaTitle: "Vacances monoparentales à Saint-Étienne 2026",
+    metaDesc:
+      "Saint-Étienne en parent solo : la destination la moins chère des trente, T3 à 770 €. Et la plus faible sur la qualité de vie comme sur la culture.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Saint-Étienne sort à 5,6/10 au composite « famille monoparentale », à égalité avec Angoulême dans ce lot, sur sécurité 4,3/10, transports 6,7/10, coût de la vie 7,1/10 et qualité de vie 4,9/10 (source : data/cities-seed.ts). C'est la destination la plus contrastée des trente que cette série a couvertes : son 7,1/10 sur le coût est le meilleur score des trente, avec 770 € le T3 de référence et 1 500 € le mètre carré, les deux valeurs les plus basses de toute la série (source : data/housing.ts) ; et ses 4,9/10 de qualité de vie comme ses 5,9/10 de culture sont, eux, les plus bas des trente. La commune compte 172 569 habitants au recensement 2022 (source : data/city-population.json). Ce guide dit les deux faces, dans cet ordre.",
+    sections: [
+      {
+        heading: "La destination la moins chère des trente, et de loin",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Saint-Étienne sort à 7,1/10 (source : data/cities-seed.ts), premier des trente devant Valence et Angoulême à 6,7, Mâcon et Poitiers à 6,6. Le marché résidentiel dit la même chose plus crûment : 770 € le T3 de référence, contre 800 € à Mâcon qui détenait ce record dans le lot précédent, et 1 500 € le mètre carré, très en dessous des 1 700 € de Mulhouse et des 1 800 € d'Angoulême (source : data/housing.ts). Rapporté aux 5 000 € du mètre carré aixois ou lyonnais, dans cette même série, l'écart est du simple au plus du triple. Le moteur classe la ville en €€, palier que seules cinq des trente atteignent : Valence, Mâcon, Poitiers, Angoulême et elle (source : lib/vacation-fit.ts). Pour un adulte qui paie seul l'hébergement d'un foyer entier, sans personne avec qui partager une chambre, c'est l'argument principal, et il n'y a pas besoin de le maquiller."
+      },
+      {
+        heading: "L'autre face : 4,9/10 de qualité de vie et 5,9/10 de culture, derniers des trente",
+        body: "Il faut l'écrire au même endroit que le prix, sinon le guide ment par omission. Saint-Étienne ferme le classement des trente destinations de la série sur deux axes : qualité de vie à 4,9/10, derrière Angoulême, Mulhouse, Le Mans et Avignon à 5,5 ; et culture à 5,9/10, derrière Le Mans, Vannes et Poitiers à 6,2 (source : data/cities-seed.ts). Cela ne veut pas dire qu'il n'y a rien à y faire, cela veut dire que l'offre est moins dense et moins immédiatement lisible qu'ailleurs, et qu'un séjour improvisé y donnera moins qu'un séjour préparé. La conséquence pratique pour un parent seul est nette : Saint-Étienne se choisit avec un programme, pas avec l'idée de voir sur place. C'est le contraire d'Avignon ou de Strasbourg, à 9,0 de culture, où l'on peut sortir de l'hôtel sans plan. Le prix compense largement l'effort de préparation ; il ne le supprime pas."
+      },
+      {
+        heading: "Le plus vieux tramway de France, toujours en service depuis 1881",
+        body: "Le tramway stéphanois circule sans interruption depuis 1881, ce qui en fait le plus ancien réseau de tramway de France encore en exploitation : la première ligne a été ouverte le 4 décembre 1881, sur 5,5 kilomètres entre les quartiers de La Terrasse et de Bellevue. La ville est par ailleurs desservie par le TGV et par des lignes de bus à haut niveau de service (source : lib/transit.ts), pour un score de transports de 6,7/10 (source : data/cities-seed.ts), à égalité avec Metz et devant Brest, Poitiers et Reims à 6,4. Pour un séjour, cela signifie qu'on arrive en gare et qu'on circule ensuite sur un axe unique et lisible, ce qui est plus simple à tenir avec des enfants qu'un réseau maillé où il faut choisir. Le relief, lui, est réel : la ville est bâtie dans un couloir entre deux versants, et une adresse en hauteur ajoute une montée à chaque retour. La question à poser avant de réserver est donc la distance à un arrêt de tram, pas la distance au centre."
+      },
+      {
+        heading: "Ce qui tient debout sur place : design, mine, et un relief à portée",
+        body: "Saint-Étienne est, depuis le 22 novembre 2010, la seule ville française membre du réseau des villes créatives de l'UNESCO au titre du design, distinction adossée à la Cité du design et à la biennale internationale qu'elle organise. C'est l'angle qui structure honnêtement un séjour ici : une ville qui a fait de la fabrication industrielle un sujet d'exposition plutôt qu'un passé à cacher, ce qui parle bien à des enfants à partir de sept ou huit ans, parce que les objets se regardent et se comprennent sans texte. L'histoire minière de la ville se visite également sur site. Côté extérieur, le score de nature est de 5,9/10 (source : data/cities-seed.ts), correct pour une ville de cette taille et supérieur à celui de Dijon, Lyon, Tours ou Toulouse dans cette même série : le relief commence aux portes de la commune, mais les massifs relèvent de communes voisines et sont accessibles depuis Saint-Étienne sans y être situés, ce qui suppose un autocar régional ou un TER et se vérifie avant d'en faire une journée."
+      },
+      {
+        heading: "Quand y aller : le climat le moins arrosé du nord de ce lot",
+        body: "Notre indicateur d'affluence place Saint-Étienne à 1 sur 5 pendant huit mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts) : le palier bas, partagé par dix-huit des trente destinations de la série. La station climatique de référence est celle de Lyon, à 54 kilomètres (source : lib/climate-normals.ts), un rattachement moyen pour la série mais qui pose un problème propre à cette ville : Saint-Étienne est à plus de cinq cents mètres d'altitude, Lyon à moins de deux cents, et l'écart de température réel entre les deux est plus marqué que ces valeurs ne le suggèrent, surtout en hiver. À lire comme un ordre de grandeur, donc. Les chiffres donnent 4,1 °C en janvier, 22,6 °C en juillet, et de 7 à 10 jours de pluie par mois, soit le régime le moins arrosé des six villes non méditerranéennes de ce lot, très loin des 8 à 14 jours d'Angoulême. Les ancres propres à la ville viennent du seed : 3,5 °C en janvier et 21,0 °C en juillet (source : data/cities-seed.ts)."
+      },
+      {
+        heading: "Sécurité 4,3/10 et logistique du soir",
+        body: "Saint-Étienne affiche 4,3/10 sur l'axe sécurité (source : data/cities-seed.ts), à égalité avec Grenoble, Toulouse et Avignon, devant Lille à 3,9 et Montpellier à 3,7. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Comme pour les sept autres villes de ce lot, il faut le rappeler : le profil monoparental pondère la sécurité à 0,30, le plus lourd de ses quatre critères, et sept des huit destinations ajoutées ici sont sous la médiane de 5,3 des trente, Le Mans étant la seule à l'atteindre. Si Saint-Étienne sort quand même à 5,6/10 au composite, c'est parce que son axe coût est le meilleur des trente et compense presque à lui seul. Deux réflexes de séjour : hors saison, viser 19 h 30 pour dîner, les cuisines fermant tôt en semaine ; et repérer avant le départ un cabinet médical sur l'annuaire santé d'ameli.fr, le 15 restant l'urgence vitale et le 116 117 le conseil du soir et du week-end."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de la Loire se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité. Sur la destination la moins chère de la série, ces dispositifs portent proportionnellement plus loin qu'ailleurs : c'est arithmétique."
+      }
+    ],
+    relatedCities: ["saint-etienne", "lyon", "roanne", "annonay"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-saint-etienne-2026",
+      "parent-solo-a-saint-etienne-2026",
+      "vivre-a-saint-etienne-2026",
+      "vacances-monoparentales-lyon-2026"
+    ],
+    tags: ["vacances monoparentales Saint-Étienne", "parent solo Loire", "vacances pas chères en famille", "vacances sans voiture", "hors saison Auvergne-Rhône-Alpes"]
+  },
+  {
+    slug: "vacances-monoparentales-angouleme-2026",
+    title: "Vacances monoparentales à Angoulême en 2026",
+    metaTitle: "Vacances monoparentales à Angoulême 2026",
+    metaDesc:
+      "Angoulême en parent solo : le plus faible score de transports des trente, et ça n'empêche rien. Mais le festival BD n'a pas eu lieu en 2026.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Angoulême sort à 5,6/10 au composite « famille monoparentale », à égalité avec Saint-Étienne dans ce lot, sur sécurité 5,1/10, transports 5,2/10, coût de la vie 6,7/10 et qualité de vie 5,5/10 (source : data/cities-seed.ts). Son score de transports est le plus bas des trente destinations que cette série a couvertes, et c'est la raison pour laquelle il faut lire ce guide avant de réserver : ce chiffre décrit une commune de 41 423 habitants (source : data/city-population.json), la plus petite des huit ajoutées ici, et il ne dit presque rien de la difficulté réelle d'un séjour. Le T3 de référence est à 820 € et le mètre carré à 1 800 €, troisième valeur la plus basse de la série (source : data/housing.ts).",
+    sections: [
+      {
+        heading: "Une ville à deux niveaux, et c'est la seule difficulté d'arrivée",
+        body: "Angoulême se vit sur deux étages : le plateau du vieil Angoulême, ceint de remparts, et la ville basse, autour de la gare et de la Charente. La gare est en bas, l'essentiel de ce qui se visite est en haut, et la différence d'altitude entre les deux est le fait qui décide de la première heure d'un séjour quand on porte des bagages et qu'on tient une main. Le réseau urbain Möbius, articulé autour de deux lignes de bus à haut niveau de service, exploite deux navettes électriques gratuites qui relient le plateau aux quartiers bas : c'est le moyen prévu pour ce dénivelé et il faut le repérer avant d'arriver plutôt que d'improviser une montée à pied avec une valise. La gare elle-même est équipée d'ascenseurs et d'escaliers mécaniques desservant la passerelle et les quais, ce qui règle la partie ferroviaire de la question. Une fois en haut, tout change de nature : le plateau est plat, fermé, sans circulation traversante, et se parcourt intégralement à pied."
+      },
+      {
+        heading: "Transports 5,2/10 : le dernier des trente, et pourquoi ça n'empêche rien",
+        body: "C'est le score le plus bas de toute la série sur cet axe, derrière Vannes à 5,5 et Pau, Aix-en-Provence, Le Mans et Avignon à 6,1 (source : data/cities-seed.ts). Il faut savoir ce qu'il mesure : le maillage d'une commune entière, pondéré par sa taille et son offre de modes lourds. Angoulême n'a ni métro ni tramway, elle a le TGV et des lignes à haut niveau de service (source : lib/transit.ts). Or la règle qui a fait entrer cette ville dans le classement du profil est justement celle de la page profil : arriver en train et pouvoir circuler ensuite sans louer de voiture. Angoulême y satisfait, et la raison est géométrique plus que technique : quand le périmètre visitable tient sur un plateau d'un kilomètre de large, le transport principal, ce sont les jambes. Un score de 5,2 pénalise une commune où l'on peut passer quatre jours sans jamais monter dans un véhicule. À l'inverse, il devient un vrai handicap dès qu'on veut sortir de la ville : les sites de la Charente relèvent de communes voisines et se traitent comme des excursions, à vérifier avant d'en faire une journée."
+      },
+      {
+        heading: "Le festival de bande dessinée : ce qu'il faut savoir avant de bâtir un séjour dessus",
+        body: "Angoulême est associée à la bande dessinée, et un lecteur pourrait légitimement vouloir caler des vacances sur le grand festival hivernal qui porte son nom. Il faut donc écrire ceci plutôt que de laisser croire l'inverse : l'édition 2026, qui devait se tenir du 29 janvier au 1er février, a été annulée, ce qui est la première annulation depuis la création du festival en 1974 en dehors de celle de 2021 due à l'épidémie. Un événement alternatif gratuit s'est tenu aux mêmes dates, et une reprise est attendue en 2027. Autrement dit, un séjour organisé en 2026 autour du festival n'avait pas d'objet, et un séjour organisé en 2027 doit être calé sur des dates confirmées par l'organisateur, pas sur une habitude. Ce que la ville offre indépendamment du calendrier, en revanche, ne bouge pas : la Cité internationale de la bande dessinée et de l'image y est une institution permanente, et les murs peints qui parcourent la ville se regardent gratuitement, à n'importe quelle date, ce qui est exactement le genre de programme qui convient à un adulte seul."
+      },
+      {
+        heading: "Le budget : troisième mètre carré le plus bas des trente",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Angoulême sort à 6,7/10 (source : data/cities-seed.ts), à égalité avec Valence sur le palier qui suit immédiatement Saint-Étienne et son 7,1. Le marché résidentiel confirme : 820 € le T3 de référence, quatrième valeur la plus basse de la série derrière Saint-Étienne à 770, Mulhouse à 780 et Mâcon à 800 ; et 1 800 € le mètre carré, troisième valeur la plus basse derrière Saint-Étienne et Mulhouse (source : data/housing.ts). Le moteur classe la ville en €€, palier que seules cinq des trente atteignent (source : lib/vacation-fit.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais l'ordre de grandeur tient : pour un foyer à un seul revenu, Angoulême appartient au tiers de la série où l'hébergement ne décide pas de tout."
+      },
+      {
+        heading: "Quand y aller : dix-neuf parcs réels, et un régime de pluie à regarder",
+        body: "Angoulême compte dix-neuf espaces verts recensés (source : data/city-parks.json). Contrairement aux vingt-deux destinations de la série dont le compte est plafonné à quarante par notre collecte, ce total-là est réel : la ville en a moins parce qu'elle est plus petite, et c'est la deuxième valeur la plus faible des trente, derrière Saint-Raphaël. Notre indicateur d'affluence la place à 1 sur 5 pendant huit mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts), le palier bas ; il ne voit évidemment pas un festival, comme le montre le cas du Mans en juin. Côté climat, la station de référence est celle de Limoges, à 83 kilomètres (source : lib/climate-normals.ts), soit le neuvième rattachement le plus long de la série : Limoges est un pays de plateau, Angoulême un pays de rivière, à lire donc comme un ordre de grandeur. Les valeurs donnent 4,6 °C en janvier, 19,6 °C en septembre et de 8 à 14 jours de pluie par mois, le régime le plus arrosé de ce lot ; août, à 8 jours, est le seul mois franchement sec, et novembre monte à 14. Les ancres propres à la ville : 5,0 °C en janvier et 22,8 °C en juillet (source : data/cities-seed.ts)."
+      },
+      {
+        heading: "Sécurité 5,1/10 et logistique du soir",
+        body: "Angoulême affiche 5,1/10 sur l'axe sécurité (source : data/cities-seed.ts), à égalité avec Reims, Nancy, Lyon et Bordeaux, et derrière le seul Le Mans à 5,3 dans ce lot. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Comme pour les sept autres villes de ce lot, la remarque de fond vaut d'être répétée : le profil monoparental pondère la sécurité à 0,30, le plus lourd de ses quatre critères, et sept des huit destinations ajoutées ici sont sous la médiane de 5,3 des trente, Le Mans étant la seule à l'atteindre. Deux points de logistique propres à une commune de 41 000 habitants. Un, hors saison, les cuisines ferment tôt en semaine : viser 19 h 30 pour dîner et ne pas compter sur un dépannage à 21 h. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end ; l'annuaire santé d'ameli.fr permet de repérer un cabinet avant le départ plutôt que dans l'urgence."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de la Charente se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["angouleme", "cognac", "saintes", "perigueux"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-angouleme-2026",
+      "vacances-monoparentales-poitiers-2026",
+      "vacances-monoparentales-la-rochelle-2026",
+      "vacances-monoparentales-bordeaux-2026"
+    ],
+    tags: ["vacances monoparentales Angoulême", "parent solo Charente", "bande dessinée Angoulême famille", "vacances pas chères en famille", "hors saison Nouvelle-Aquitaine"]
+  },
+  {
+    slug: "vacances-monoparentales-montpellier-2026",
+    title: "Vacances monoparentales à Montpellier en 2026",
+    metaTitle: "Vacances monoparentales à Montpellier 2026",
+    metaDesc:
+      "Montpellier en parent solo : le tramway est gratuit, mais pas pour vous. La gratuité est réservée aux résidents de la métropole, sur pass nominatif.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Montpellier sort à 5,5/10 au composite « famille monoparentale », sur sécurité 3,7/10, transports 7,7/10, coût de la vie 4,7/10 et qualité de vie 5,9/10 (source : data/cities-seed.ts). C'est la dernière du lot sur l'axe le plus lourd du profil : 3,7/10 est le score de sécurité le plus bas des trente destinations que cette série a couvertes. C'est aussi la seule des huit ajoutées ici que le moteur classe en €€€€ (source : lib/vacation-fit.ts), avec 1 150 € le T3 de référence et 3 900 € le mètre carré (source : data/housing.ts), pour 307 101 habitants au recensement 2022 (source : data/city-population.json). Ce guide commence par corriger l'idée qu'on se fait le plus souvent de ses transports.",
+    sections: [
+      {
+        heading: "Le tramway est gratuit, mais pas pour un visiteur",
+        body: "C'est la correction la plus utile de ce guide. Le réseau urbain de Montpellier est gratuit depuis décembre 2023, l'information a beaucoup circulé, et un parent qui prépare un budget de séjour a toutes les raisons d'en tenir compte. Ce serait une erreur. La gratuité est réservée aux habitants de la métropole, et elle s'exerce au moyen d'un pass nominatif qui se demande sur présentation d'une pièce d'identité, d'une photographie et d'un justificatif de domicile au nom du demandeur. Un visiteur, lui, achète des titres à la durée ou un abonnement, exactement comme dans n'importe quelle autre ville. La règle générale, posée dans notre glossaire, est la même partout en France : la gratuité d'un réseau est un dispositif de résidence, pas un régime touristique. Traduit en logistique de parent solo : prévoyez la ligne transport dans le budget, comptez les trajets d'un adulte et de vos enfants, et vérifiez les tarifs jeunes du réseau avant de partir plutôt qu'au distributeur."
+      },
+      {
+        heading: "Transports 7,7/10 : ce que ça donne une fois payé",
+        body: "Le score de transports de Montpellier est de 7,7/10 (source : data/cities-seed.ts), huitième des trente destinations de la série et deuxième de ce lot derrière Lille à 8,7. La ville est desservie par le TGV, par un tramway, par des lignes de bus à haut niveau de service et dispose d'un réseau cyclable (source : lib/transit.ts). C'est, dans les faits, le vrai motif de venir ici avec des enfants et sans voiture : la gare est en ville, le tramway y passe, le centre historique est essentiellement piéton, et l'ensemble s'enchaîne sans véhicule personnel. La question à se poser avant de réserver un hébergement est donc la distance à pied à un arrêt de tram, pas la distance à la place centrale. Un logement sur une ligne transforme la périphérie en base correcte et souvent moins chère ; un logement à l'écart de toute ligne impose un trajet de plus chaque soir, avec des enfants fatigués, ce qui est le poste qui coûte le plus cher quand on est seul à l'organiser."
+      },
+      {
+        heading: "Sécurité 3,7/10 : le score le plus bas des trente",
+        body: "Il faut le poser franchement, parce que c'est le critère que le profil pondère le plus lourdement, à 0,30. Montpellier ferme le classement de sécurité des trente destinations de la série, derrière Lille à 3,9 et Saint-Étienne, Toulouse, Grenoble et Avignon à 4,3 (source : data/cities-seed.ts). C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants, et il ne se lit pas comme une probabilité d'incident pendant quatre nuits dans un centre piéton. Sept des huit villes ajoutées ici sont sous la médiane de 5,3 des trente, Le Mans étant la seule à l'atteindre, et Montpellier ferme la marche. Cela explique pourquoi une ville aussi bien dotée en transports, en culture et en climat ne dépasse pas 5,5/10 au composite. Un lecteur qui place la sécurité au-dessus de tout trouvera dans cette même série Vannes à 6,9, La Rochelle à 6,5, Saint-Raphaël à 6,2 et Rennes et Aix-en-Provence à 5,9. Un lecteur qui cherche du soleil et un réseau lourd sans voiture trouvera peu d'équivalents à Montpellier. C'est un arbitrage assumé, pas un défaut caché."
+      },
+      {
+        heading: "Le budget : la plus chère des huit, mais pas de la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Montpellier sort à 4,7/10 (source : data/cities-seed.ts), vingt-cinquième des trente, derrière Toulouse et Nantes à 5,3 et devant La Rochelle à 4,6. Le marché résidentiel donne 1 150 € le T3 de référence, à égalité avec Nantes, Vannes et Toulouse, et 3 900 € le mètre carré, à égalité avec Vannes (source : data/housing.ts). C'est la plus chère des huit destinations ajoutées ici, mais elle reste loin d'Aix-en-Provence à 1 400 €, de Lyon à 1 380 € et de Saint-Raphaël à 1 300 € qui, dans cette série, tiennent le haut du classement. Le moteur la place en €€€€, palier que six des trente atteignent (source : lib/vacation-fit.ts). L'arbitrage réel est celui que ce guide a déjà posé à Saint-Raphaël et à Lille : on paie l'hébergement plus cher, et les postes voiture, carburant et parking tombent à zéro. Sur une semaine, cette bascule change souvent le classement de destinations qu'on croyait comparer."
+      },
+      {
+        heading: "Quand y aller : le seul climat vraiment sec de ce lot",
+        body: "La station climatique de référence est celle de Montpellier, à 8 kilomètres (source : lib/climate-normals.ts) : c'est l'un des rattachements les plus courts des trente, avec Tours à 5 kilomètres, Toulouse à 6 et Lille, Rennes et Dijon à 7, donc les valeurs mensuelles sont pertinentes ici, ce qui n'est pas le cas partout dans cette série. Elles donnent 7,6 °C de moyenne en janvier, 24,4 °C en juillet, et surtout 3 jours de pluie en juillet comme en août, contre 7 à 10 jours aux mêmes mois dans les six autres villes non méditerranéennes de ce lot. Le seed retient 2 740 heures de soleil annuelles (source : data/cities-seed.ts). Notre indicateur d'affluence place la ville au palier haut : 3 sur 5 pendant huit mois, 4 en juin et en septembre, 5 en juillet et en août (source : lib/vacation-seasons.ts), profil que neuf des trente partagent, dont Lille dans ce lot. La fenêtre à viser est donc mai, ou la fin septembre et octobre : encore 20 °C de moyenne en octobre, 6 jours de pluie, et l'affluence redescendue d'un cran."
+      },
+      {
+        heading: "Le soir, la santé, la mer",
+        body: "Trois points. D'abord, la mer : elle n'est pas dans Montpellier. Le littoral relève de communes distinctes et il est accessible depuis Montpellier, ce qui n'est pas la même chose qu'y être situé ; une journée de plage suppose donc un trajet et se vérifie avant d'être promise à un enfant. Ensuite, l'usage d'un centre piéton dense avec des enfants : garder les plus jeunes à portée de voix dans les ruelles étroites de l'Écusson, où la lisibilité est mauvaise le soir, et fixer un point de rendez-vous connu au début de chaque sortie plutôt qu'après. Enfin le médical, valable partout : repérer un cabinet sur l'annuaire santé d'ameli.fr avant de partir plutôt que dans l'urgence, garder la carte Vitale, les ordonnances en cours et le carnet de santé dans le bagage à main. Le 15 reste l'urgence vitale, le 116 117 le conseil du soir et du week-end. En été, la chaleur est un vrai sujet ici et pas ailleurs dans ce lot : programmer les extérieurs le matin et garder l'après-midi pour l'intérieur."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement, ce qui pèse d'autant plus sur la destination la plus chère de ce lot. Les bons vacances de la caisse d'allocations familiales de l'Hérault se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["montpellier", "nimes", "sete", "beziers"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-montpellier-2026",
+      "vivre-sans-voiture-montpellier-guide-2026",
+      "parent-solo-a-montpellier-2026",
+      "vacances-monoparentales-toulouse-2026"
+    ],
+    tags: ["vacances monoparentales Montpellier", "parent solo Hérault", "tramway gratuit résidents", "vacances sans voiture", "hors saison Occitanie"]
+  },
+  {
+    slug: "vacances-monoparentales-avignon-2026",
+    title: "Vacances monoparentales à Avignon en 2026",
+    metaTitle: "Vacances monoparentales à Avignon 2026",
+    metaDesc:
+      "Avignon en parent solo : la gare TGV est à 6 km, et c'est la seule de la série reliée au centre par un train de cinq minutes. Culture 9,0/10.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Avignon sort à 5,4/10 au composite « famille monoparentale », dernière de ce lot, sur sécurité 4,3/10, transports 6,1/10, coût de la vie 5,7/10 et qualité de vie 5,5/10 (source : data/cities-seed.ts). Le chiffre qui la distingue est ailleurs : 9,0/10 sur l'axe culture, le meilleur score des trente destinations que cette série a couvertes, à égalité avec Strasbourg et Lyon. Le T3 de référence est à 1 000 € et le mètre carré à 3 000 €, dans les deux cas à égalité avec Angers (source : data/housing.ts) ; la commune compte 91 760 habitants au recensement 2022 (source : data/city-population.json). Ce guide traite d'abord la question de la gare, parce que c'est ici qu'elle a la meilleure réponse de toute la série.",
+    sections: [
+      {
+        heading: "Une gare TGV à six kilomètres, et un train de cinq minutes pour la rejoindre",
+        body: "Cette série a documenté plusieurs fois le même piège : le drapeau TGV d'une ville peut désigner une gare posée loin du centre, à Mâcon-Loché à sept kilomètres, à Aix-en-Provence à une quinzaine, et l'arrivée coûte alors une heure de fatigue supplémentaire à un adulte seul chargé de bagages et d'enfants. Avignon est le contre-exemple abouti. La gare d'Avignon TGV est bien excentrée, dans le secteur de la Courtine, à environ six kilomètres du centre ; mais depuis le 15 décembre 2013, un raccordement ferroviaire officiellement nommé raccordement de la Courtine et connu dans toute la région sous le nom de virgule d'Avignon relie directement cette gare à celle d'Avignon-Centre, avec une trentaine d'allers-retours quotidiens et un trajet d'environ cinq minutes. Autrement dit : on descend du TGV, on traverse le quai, on remonte dans un TER, et cinq minutes plus tard on est au pied des remparts. C'est la meilleure configuration d'arrivée de toute la série pour une gare excentrée, et elle vaut d'être connue avant de réserver un taxi."
+      },
+      {
+        heading: "Culture 9,0/10 : le meilleur score des trente",
+        body: "Le centre historique d'Avignon, qui réunit le Palais des papes, l'ensemble épiscopal et le pont d'Avignon, est inscrit au patrimoine mondial de l'UNESCO depuis 1995. Le Palais des papes est le plus important palais gothique du monde, avec environ 15 000 mètres carrés de surface de plancher. Pour un parent seul, l'intérêt tient à la géométrie autant qu'à l'histoire : les trois éléments du bien classé sont contigus, dans une ville close de remparts, et se visitent dans la même demi-journée sans reprendre un véhicule. Le score de culture de 9,0/10 (source : data/cities-seed.ts) mesure cette densité, et il place Avignon en tête des trente destinations de la série à égalité avec Strasbourg et Lyon, très au-dessus de Saint-Étienne à 5,9 et du Mans à 6,2 dans ce même lot. Le corollaire est qu'un séjour ici ne demande pas de programme préparé : on sort de l'hébergement et le contenu est là, ce qui est précisément l'inverse de la situation stéphanoise décrite dans ce lot."
+      },
+      {
+        heading: "Juillet : notre indicateur d'affluence se trompe, et voilà de combien",
+        body: "Notre indicateur place Avignon à 1 sur 5 pendant huit mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts), c'est-à-dire au palier bas, le même que Reims, Le Mans, Mulhouse, Saint-Étienne et Angoulême dans ce lot. C'est faux pour juillet, et il faut le dire ici plutôt que de laisser un lecteur le découvrir sur place. L'indicateur attribue un palier selon le type de destination et la saison puis module par le mois : il raisonne en régime moyen et il ne voit pas un événement, exactement comme il ne voit pas la course automobile du Mans en juin. Or le festival off d'Avignon, dont la soixantième édition s'est tenue du 4 au 25 juillet 2026, a programmé 1 780 spectacles, soit environ 1 250 représentations par jour, en plus du festival officiel. Une ville de 91 760 habitants qui accueille cela en juillet n'est pas à 3 sur 5. La conséquence pratique est double : en juillet, réserver très en avance ou renoncer ; le reste de l'année, l'indicateur est probablement juste."
+      },
+      {
+        heading: "Le budget : au milieu de la série, avec un piège de saison",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Avignon sort à 5,7/10 (source : data/cities-seed.ts), à égalité avec Rennes, sur le palier qui occupe les rangs 17 et 18 des trente. Le marché résidentiel donne 1 000 € le T3 de référence et 3 000 € le mètre carré, à égalité avec Angers dans les deux cas (source : data/housing.ts). Le moteur la classe en €€€, le palier de dix-neuf des trente destinations (source : lib/vacation-fit.ts). Ce sont des repères de marché local et non des tarifs de vacances, et c'est justement ici que la distinction compte le plus de toute la série : sur une ville dont le mois de juillet est saturé par un festival, l'écart entre un tarif de juillet et un tarif de mai n'a rien à voir avec le niveau du marché résidentiel. Pour un adulte qui paie seul l'hébergement d'un foyer entier, le levier n'est donc pas la négociation, c'est la date."
+      },
+      {
+        heading: "Quand y aller, et ce que dit vraiment le climat",
+        body: "La station climatique de référence est celle de Marseille, à 66 kilomètres (source : lib/climate-normals.ts), un rattachement moyen pour la série, plus court que ceux de Pau à 146 kilomètres, de Metz à 125 ou de Mulhouse à 92, mais qui rapporte à Avignon des valeurs prises sur le littoral alors que la ville est à l'intérieur, dans le couloir rhodanien. À lire comme un ordre de grandeur, donc, en particulier pour le vent : le mistral est un fait local que ces chiffres ne portent pas. Les valeurs donnent 7,7 °C en janvier, 25,2 °C en juillet, et 2 jours de pluie en juillet, le mois le plus sec de tout ce lot. Les ancres propres à la ville viennent du seed : 5,5 °C en janvier, 28,0 °C en juillet et 2 750 heures de soleil annuelles (source : data/cities-seed.ts). La fenêtre à viser est mai ou septembre et octobre : 17 à 21 °C de moyenne, affluence à 1 ou 2, et le festival passé. Avignon compte par ailleurs vingt-neuf espaces verts recensés (source : data/city-parks.json), un total réel et non plafonné, contrairement à vingt-deux des trente destinations de la série."
+      },
+      {
+        heading: "Sécurité 4,3/10 et logistique du soir",
+        body: "Avignon affiche 4,3/10 sur l'axe sécurité (source : data/cities-seed.ts), à égalité avec Saint-Étienne, Toulouse et Grenoble, devant Lille à 3,9 et Montpellier à 3,7. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. La remarque de fond vaut pour les huit villes de ce lot : le profil monoparental pondère la sécurité à 0,30, le plus lourd de ses quatre critères, et sept des huit destinations ajoutées ici sont sous la médiane de 5,3 des trente, Le Mans étant la seule à l'atteindre. Si Avignon tient malgré cela, c'est par sa culture et par son climat. Deux points de logistique. Un, l'intra-muros est un tissu de ruelles peu lisibles le soir : fixer un point de rendez-vous connu au début de chaque sortie plutôt qu'après, et garder les plus jeunes à portée de voix. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end ; l'annuaire santé d'ameli.fr permet de repérer un cabinet avant le départ."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement, ce qui compte sur une destination dont le programme est essentiellement patrimonial et spectaculaire. Les bons vacances de la caisse d'allocations familiales de Vaucluse se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance, et cette anticipation compte double sur une ville dont un mois entier est saturé. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["avignon", "orange", "carpentras", "nimes"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-avignon-2026",
+      "parent-solo-a-avignon-2026",
+      "vacances-monoparentales-aix-en-provence-2026",
+      "vacances-monoparentales-montpellier-2026"
+    ],
+    tags: ["vacances monoparentales Avignon", "parent solo Vaucluse", "palais des papes famille", "gare TGV excentrée", "hors saison Provence"]
+  },
+  {
     slug: "parent-solo-a-valence-2026",
     title: "Parent solo à Valence en 2026 : 2 750 € net, et le meilleur transport du lot après Pessac",
     metaTitle: "Parent solo à Valence 2026 — T3 900 €, fit 6,4/10",
