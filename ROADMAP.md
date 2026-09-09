@@ -3509,10 +3509,13 @@ section sont datés, le réel prévaut). Séries FR restant **sans aucune jumell
 `universites-[ville]` (15/0) et `vacances-monoparentales-` croisé mois × profil.
 `famille-a-[ville]` est **fermée** depuis le 2ᵉ run du 25/08 (19 FR / **19** EN, cf. § Shipped
 2026-08-25) ; ⚠️ `universites-` ne se rouvre qu'avec un angle distinct de `studying-in-` (24 EN),
-sinon c'est la cannibalisation de juin qui recommence. `demenager-a-[ville]` reste à 50 FR / 0
-jumelle per-city, et **c'est un non-correctif assumé** : une série `moving-to-[city]` recouvrirait
-`[city]-living-guide` (52 EN), donc elle ne se rouvre qu'avec un angle logistique distinct
-(conteneur, douane, visa) et non par symétrie de compteur.
+sinon c'est la cannibalisation de juin qui recommence. ✅ **`demenager-a-[ville]` est rouverte le
+09/09 — à la condition qui était posée ici et pas autrement** : la série `moving-to-[city]-2026`
+est ouverte sur l'**angle logistique** (dossier de location quand les fiches de paie sont
+étrangères, permis de stationnement du camion, monte-meubles, Crit'Air, conteneur et franchise de
+déménagement) et **non par symétrie de compteur**. 8 villes livrées, 50 FR / **8** EN.
+Le recouvrement avec `[city]-living-guide` (52 EN) est écarté par construction : celui-là dit ce
+que c'est que d'y vivre, celui-ci comment y entrer avec ses meubles.
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
 guides EN sont du contenu natif à angle expat, c'est une décision de fond (cf. § Bilingual
 setup dans `CLAUDE.md`), pas une facilité.
@@ -3520,6 +3523,94 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 09/09 — ouverture de `moving-to-[city]-2026` (+8), la dernière grande série FR sans aucune jumelle EN
+
+`npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans
+jumelle) : la parité de **routes** tient, le run porte donc sur l'écart de **corpus**.
+
+**Le trou a été mesuré, pas recopié.** Un diff par série sur les deux corpus donne 1 097 FR /
+878 EN, et surtout : `travail-a-` → `working-in-` 30/30, `etudiant-a-` → `studying-in-` 20/20,
+`retraite-a-` → `retiring-in-` 20/20, `famille-a-` → `family-in-` 19/19, `acheter-a-` →
+`where-to-buy-in-` 49/49, `budget-mensuel-realiste-` → `cost-of-living-` 10/10, tourisme 254/254.
+Toutes les séries appariées sont fermées. **La seule grande série FR sans aucune jumelle
+per-city était `demenager-a-[ville]` : 50 FR / 0 EN.** `vivre-a-` (51) est couverte par
+`[city]-living-guide` (52 EN) et `vivre-sans-voiture-` par `car-free-living-in-` (15/16) — les
+deux « trous » que le diff naïf remonte parce que les suffixes FR (`-guide`) et les gabarits EN
+ne se ressemblent pas ; ne pas les compter au prochain run.
+
+⚠️ **La série était un « non-correctif assumé » depuis le 25/08, et sa condition de réouverture
+était écrite : « ne se rouvre qu'avec un angle logistique distinct (conteneur, douane, visa) et
+non par symétrie de compteur ».** C'est la condition qui a été honorée, et c'est elle qui décide
+du contenu, pas le compteur. Deux sections sur huit n'existent pas côté FR parce qu'un lecteur
+français n'en a pas besoin : **« Your application file, when your payslips are foreign »** (le
+dossier français — identité, trois fiches de paie, avis d'imposition, quittances — est
+exactement ce qu'un arrivant de l'étranger ne peut pas produire, et c'est ce qui coule la
+candidature bien avant le loyer ; d'où Visale, le contrat de travail français, la caution
+bancaire) et **« Shipping your things in from another country »** (franchise de déménagement :
+12 mois de résidence hors UE, biens détenus plus de 6 mois, **cerfa 10070** ; et le fait que ce
+qui décide de ce qu'on expédie est la **cage d'escalier**, pas la surface). Le recouvrement avec
+`[city]-living-guide` est écarté par construction, et celui avec les 6 guides nationaux
+`moving-to-france-*` aussi : ceux-là séquencent le visa, l'OFII et l'Assurance Maladie, et ce
+lot n'y touche pas.
+
+**Villes** : Paris, Lyon, Marseille, Bordeaux, Toulouse, Nice, Strasbourg, Lille — les six plus
+grandes métropoles plus les deux dont le dossier d'arrivée internationale est le plus épais
+(Strasbourg pour les institutions européennes et le droit local alsacien-mosellan, Lille pour
+l'heure de train depuis Londres, où le run nomme le cas post-Brexit : une fiche de paie
+britannique est une pièce de pays tiers pour une agence française, et un garant britannique ne
+s'utilise pas comme un garant résident de l'UE).
+
+**Compteurs mesurés** : `EN_GUIDES` 878 → **886**. `metaTitle` 48-54, `metaDesc` 141-157,
+8 sections par guide, 1 306 à 1 433 mots. Densité d'em-dash **1 pour 226 à 336 mots** (cible
+R7.10 : ~1 pour 200) — la première passe était à 1 pour 72 sur Marseille, les paires
+parenthétiques ont été converties en parenthèses ou en virgules selon que l'incise contenait
+déjà une virgule, puis les singletons repris à la main.
+
+**Aucun tag neuf** : les 8 réutilisent `moving to france` (161 guides), le tag de ville (les 8
+ont déjà leur page) et le tag de région. `search-index.en.json` reste à **114 tags**, donc
+aucune page `/tags/` créée, et `sitemap:check` confirme EN 28 770 → **28 778 URL**, soit
+exactement les 8 guides neufs (FR inchangé à 29 193).
+
+**Contrôle de figures** : chaque suite de chiffres du texte EN cherchée dans la jumelle FR
+`demenager-a-[ville]-2026`, séparateurs normalisés — **180 figures distinctes, 166 retrouvées**.
+Les 14 restantes sont toutes explicables et **ne doivent pas être « corrigées »** au prochain
+run : `10070` ×8 est le numéro de cerfa de la franchise de déménagement, ajout EN délibéré ;
+`730` / `930` / `430` (Bordeaux, Toulouse) sont les horaires de rocade et de périphérique rendus
+en horloge de 12 heures là où le FR écrit « 7 h 30 », « 9 h 30 » et « 16 h 30 » ; `12` (Nice) est
+un artefact du contrôle, qui lit « lines 1, 2 and 3 » comme un nombre.
+
+⚠️ **Deux chiffres du site, pas des guides, ont été relus par le module et pas par un grep** —
+c'est le piège que `CLAUDE.md` décrit. Le score coût **3,3/10** de Nice et le score transport
+**9/10** de Strasbourg cités par les guides FR sont bien les valeurs **rendues** (`CITIES_SEED`
+après calibrage et normalisation), vérifiées ce run. En revanche le **2,5 °C de janvier** de
+Strasbourg ne vient pas du seed, dont le champ `avgTempJanuary` vaut **2,6** : c'est la normale
+Météo-France de la station de Strasbourg-Entzheim (`lib/climate-normals.ts`), celle que rend
+`/villes/strasbourg/climat`. Les deux nombres coexistent légitimement, comme
+`HOUSING.avgBuyPriceM2` et les médianes DVF — le guide EN l'attribue donc explicitement à la
+station au lieu de laisser le lecteur croire à un écart.
+
+**Découvrabilité vérifiée après écriture, pas supposée** : les 8 guides sont retrouvés par
+`getEnGuide()` et remontent **en 1re position** de la recherche inverse `relatedCities` sur leur
+page ville EN (`CityGuidesList`, tri par `updatedAt` décroissant), contrôle passé sur les 8.
+
+🔧 **Correctif d'encodage au passage**, trouvé par le contrôle ascii-strip de ce run et sans
+rapport avec le lot : `nantes-living-and-working-guide-2026` portait `22 m2`, `40 m2`, `65 m2`,
+`€4,200 per m2`, `Ile de Nantes`, `Reze` et `Thouare` — même défaut que la restauration
+d'accents du 03/06, resté sur cette ligne. Corrigé (`m²`, `Île`, `Rezé`, `Thouaré`) ; le corpus
+EN ne porte plus aucun `m2` / `EUR` / `deg` ascii ni mojibake.
+
+**Contrôles** : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 878 → 886, dont
+« citations EN 0 score brut recopié »), `search-index` + `search-index:check`, `sitemap:check`,
+`npm run parity` (**code 0**), `npm run hreflang:check`. `npm run build` **non lancé,
+volontairement** (cf. § Commands de `CLAUDE.md` depuis le batch 27). Note d'environnement
+reconfirmée : le conteneur démarre **sans `node_modules`** — `npm install` d'abord.
+
+**Prochain run** : la série `moving-to-[city]-2026` est ouverte à 8/50 et c'est désormais le
+plus gros écart de corpus identifié ; la continuer par matière réelle plutôt que par population
+(Nantes, Montpellier, Rennes, Grenoble, Toulon, Rouen, Angers, Dijon ont tous leur jumelle FR).
+Après elle, `leaving-` 23 EN contre `quitter-` 55 FR reste le second gisement, et `universites-`
+(15 FR / 0 EN) ne se rouvre toujours **qu'**avec un angle distinct de `studying-in-` (24 EN).
 
 ### Livré le 06/09 — `single-parent-in-[city]-2026` batch 8 (+9), la série refermée à 75/75
 

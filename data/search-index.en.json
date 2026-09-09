@@ -7632,6 +7632,46 @@
       "slug": "things-to-do-in-saint-priest-2026",
       "title": "Things to do in Saint-Priest: a medieval keep in an industrial suburb",
       "emoji": "🎭"
+    },
+    {
+      "slug": "moving-to-paris-2026",
+      "title": "Moving to Paris in 2026: the file, the truck, the first weeks",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-lyon-2026",
+      "title": "Moving to Lyon in 2026: rent caps, hills and the first weeks",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-marseille-2026",
+      "title": "Moving to Marseille in 2026: never rent this city sight unseen",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-bordeaux-2026",
+      "title": "Moving to Bordeaux in 2026: rent caps, stone stairs, the ring road",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-toulouse-2026",
+      "title": "Moving to Toulouse in 2026: timing, brick and the ring road",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-nice-2026",
+      "title": "Moving to Nice in 2026: year-round leases in a holiday-let market",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-strasbourg-2026",
+      "title": "Moving to Strasbourg in 2026: the island, the bikes, the local law",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-lille-2026",
+      "title": "Moving to Lille in 2026: the 1930s house that eats your sofa",
+      "emoji": "📦"
     }
   ],
   "tags": [
@@ -7648,7 +7688,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 161
+      "count": 169
     },
     {
       "slug": "single-parent-in-france",
@@ -7661,19 +7701,19 @@
       "count": 86
     },
     {
+      "slug": "nouvelle-aquitaine",
+      "label": "nouvelle-aquitaine",
+      "count": 55
+    },
+    {
       "slug": "buying-property-france",
       "label": "buying property france",
       "count": 54
     },
     {
-      "slug": "nouvelle-aquitaine",
-      "label": "nouvelle-aquitaine",
-      "count": 54
-    },
-    {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 53
+      "count": 54
     },
     {
       "slug": "real-estate",
@@ -7683,22 +7723,22 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 51
+      "count": 52
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 44
+      "count": 45
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 39
+      "count": 40
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 37
+      "count": 38
     },
     {
       "slug": "pays-de-la-loire",
@@ -7741,13 +7781,23 @@
       "count": 27
     },
     {
+      "slug": "provence",
+      "label": "provence",
+      "count": 27
+    },
+    {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
       "count": 27
     },
     {
-      "slug": "provence",
-      "label": "provence",
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 27
+    },
+    {
+      "slug": "cost-of-living",
+      "label": "cost of living",
       "count": 25
     },
     {
@@ -7796,19 +7846,9 @@
       "count": 19
     },
     {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 19
-    },
-    {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
       "count": 18
-    },
-    {
-      "slug": "cost-of-living",
-      "label": "cost of living",
-      "count": 17
     },
     {
       "slug": "cycling",
@@ -7888,7 +7928,17 @@
     {
       "slug": "bordeaux",
       "label": "bordeaux",
-      "count": 8
+      "count": 9
+    },
+    {
+      "slug": "nice",
+      "label": "nice",
+      "count": 9
+    },
+    {
+      "slug": "strasbourg",
+      "label": "strasbourg",
+      "count": 9
     },
     {
       "slug": "france-climate-2040",
@@ -7901,13 +7951,13 @@
       "count": 8
     },
     {
-      "slug": "mediterranean",
-      "label": "mediterranean",
+      "slug": "lyon",
+      "label": "lyon",
       "count": 8
     },
     {
-      "slug": "nice",
-      "label": "nice",
+      "slug": "mediterranean",
+      "label": "mediterranean",
       "count": 8
     },
     {
@@ -7916,18 +7966,13 @@
       "count": 8
     },
     {
-      "slug": "strasbourg",
-      "label": "strasbourg",
-      "count": 8
-    },
-    {
       "slug": "visa",
       "label": "visa",
       "count": 8
     },
     {
-      "slug": "lyon",
-      "label": "lyon",
+      "slug": "marseille",
+      "label": "marseille",
       "count": 7
     },
     {
@@ -7941,6 +7986,11 @@
       "count": 7
     },
     {
+      "slug": "toulouse",
+      "label": "toulouse",
+      "count": 7
+    },
+    {
       "slug": "alps",
       "label": "alps",
       "count": 6
@@ -7951,13 +8001,18 @@
       "count": 6
     },
     {
-      "slug": "marseille",
-      "label": "marseille",
+      "slug": "lille",
+      "label": "lille",
       "count": 6
     },
     {
       "slug": "martinique",
       "label": "martinique",
+      "count": 6
+    },
+    {
+      "slug": "paris",
+      "label": "paris",
       "count": 6
     },
     {
@@ -7968,11 +8023,6 @@
     {
       "slug": "savoie",
       "label": "savoie",
-      "count": 6
-    },
-    {
-      "slug": "toulouse",
-      "label": "toulouse",
       "count": 6
     },
     {
@@ -8016,11 +8066,6 @@
       "count": 5
     },
     {
-      "slug": "lille",
-      "label": "lille",
-      "count": 5
-    },
-    {
       "slug": "metz",
       "label": "metz",
       "count": 5
@@ -8033,11 +8078,6 @@
     {
       "slug": "normandie",
       "label": "normandie",
-      "count": 5
-    },
-    {
-      "slug": "paris",
-      "label": "paris",
       "count": 5
     },
     {

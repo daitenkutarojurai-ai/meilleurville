@@ -16659,7 +16659,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Rent by neighbourhood",
-        body: "Rent is where Nantes still feels like a bargain compared to its neighbours. A 22 m2 studio in a central spot like the Ile de Nantes or place Graslin runs €560–780 a month. A 40 m2 one-bedroom (a French T2) in the well-liked Zola or Canclaux districts costs €720–980. For more space, a 65 m2 two-bedroom (T3) in the southern riverside suburbs of Reze or Vertou is €800–1,100, while the western suburbs of Saint-Herblain or Orvault come in slightly cheaper at €750–1,000. A room in a shared flat (colocation) is €450–640. The Ile de Nantes is the city's big regeneration zone: contemporary buildings, rising rents, lots of buzz. If you want to buy, expect roughly €4,200 per m2 in the city; houses with a garden in eastern commuter towns like Sainte-Luce-sur-Loire or Thouare sell for €220,000–320,000. One thing worth claiming: most renters, including foreigners on a legal residence permit, can apply to CAF (the family-benefits agency) for APL housing aid. Depending on income it can knock €100–250 a month off the rent, so factor it in once your lease is signed.",
+        body: "Rent is where Nantes still feels like a bargain compared to its neighbours. A 22 m² studio in a central spot like the Île de Nantes or place Graslin runs €560–780 a month. A 40 m² one-bedroom (a French T2) in the well-liked Zola or Canclaux districts costs €720–980. For more space, a 65 m² two-bedroom (T3) in the southern riverside suburbs of Rezé or Vertou is €800–1,100, while the western suburbs of Saint-Herblain or Orvault come in slightly cheaper at €750–1,000. A room in a shared flat (colocation) is €450–640. The Île de Nantes is the city's big regeneration zone: contemporary buildings, rising rents, lots of buzz. If you want to buy, expect roughly €4,200 per m² in the city; houses with a garden in eastern commuter towns like Sainte-Luce-sur-Loire or Thouaré sell for €220,000–320,000. One thing worth claiming: most renters, including foreigners on a legal residence permit, can apply to CAF (the family-benefits agency) for APL housing aid. Depending on income it can knock €100–250 a month off the rent, so factor it in once your lease is signed.",
       },
       {
         heading: "Getting around: tram, bus and bikes",
@@ -37159,6 +37159,462 @@ export const EN_GUIDES: EnGuide[] = [
       "travel",
       "city guide",
       "auvergne-rhone-alpes",
+    ],
+  },
+
+  {
+    slug: "moving-to-paris-2026",
+    title: "Moving to Paris in 2026: the file, the truck, the first weeks",
+    metaTitle: "Moving to Paris 2026 — Rentals, Costs, Moving Day",
+    metaDesc:
+      "The practical side of moving to Paris: rent control, the tenancy file when your payslips are foreign, kerb permits, furniture lifts and what landing costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Two different guides are usually confused with each other. One is about whether to live in Paris. This one is about the mechanics of getting yourself and your possessions into a Paris flat: the hardest rental market in France, a housing stock full of Haussmann stairwells with no lift, streets where a truck cannot legally park without a permit applied for weeks ahead, and ten to thirty applicants for every decent viewing. All of it is manageable if you know the sequence. Very little of it is improvised on the day.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The averages first: around €1,200 for a studio or one-bedroom, €1,800 for a two-room flat, €2,800 for a three-room, with wide gaps between arrondissements. Paris is under encadrement des loyers, a rent cap: every listing must display a reference rent it may not exceed, and you should check it every time. Landlords get around it with a complément de loyer, a supplement justified by an exceptional feature, and an ordinary balcony is not one; that supplement can be challenged. The real difficulty is not the price but the queue. On a correct flat you are one of ten to thirty files. Paris is also classed zone très tendue, a legal designation for acute housing shortage, which caps letting fees at €12 per square metre plus €3 per square metre for the inventory, and cuts your own notice period to one month when you eventually leave.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "A French landlord expects a dossier: identity document, the last three payslips, the most recent tax notice (avis d'imposition), and receipts from your previous landlord. Someone arriving from abroad has none of these in French form, and this, not the rent, is what sinks most international applications. Three routes work. Visale, a free guarantee scheme run by Action Logement, stands in as your guarantor; check your eligibility on the official site before you build the file around it, because the criteria are specific. A signed French employment contract with a letter from the employer carries real weight, especially with agencies. A bank guarantee is the fallback. Income at three times the rent is the usual threshold. One rule with no exceptions: no money before a real viewing and a signed lease. The scam of the landlord who is 'currently abroad' concentrates on listings that look too good, and Paris is where it is thickest.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Do not choose your permanent arrondissement from another country. Rent somewhere reasonable, spend a year learning the city, then decide. Sound first leases: the 11th, central and lively with the best life-to-price ratio in the east; the 15th, quieter and more family-shaped, cheaper per square metre than its reputation suggests; the 19th and 20th around the Buttes-Chaumont or Jourdain, where budgets genuinely stretch inside the city; the 12th towards Daumesnil for families. If your job is at La Défense, look at the western edge or Levallois rather than crossing Paris twice a day. The Paris rule is that a direct metro line to your workplace beats a fashionable address. Test the journey at rush hour, on a weekday, before you sign anything.",
+      },
+      {
+        heading: "Moving day: permits, stairwells, furniture lifts",
+        body: "Three things catch people out. First, kerb space: parking a truck outside the building requires an autorisation d'occupation temporaire from the arrondissement town hall, applied for one to two weeks ahead. Professional movers handle it; van hire companies do not, and it becomes your problem. Second, the furniture lift. Above the second floor with no lift, a huge share of the Haussmann stock, a monte-meubles hoisting through the window is effectively compulsory: the stairwells are narrow and turn, and a sofa that went up easily elsewhere will not go up here. Third, the Crit'Air sticker, required inside the Île-de-France low-emission zone and on the hire van too; check the vehicle carries a valid one at the time of booking, and order one in advance if you are driving in on foreign plates. Never book eight in the morning or six in the evening on a weekday: the traffic is charged to you by the hour. Early Saturday is the organised person's slot.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Most household containers for Paris land at Le Havre and finish by road. If you are moving from outside the EU, personal effects come in free of duty under transfer-of-residence relief: you must have lived outside the EU for twelve months, have owned the goods for more than six, and declare them on form cerfa 10070. Your shipping agent will normally prepare it, but the conditions are yours to meet, not theirs. The harder question is what deserves the freight at all. Paris flats are small, and the constraint is the stairwell rather than the room: measure the turn of the stairs and the window opening before you pay to ship a large sofa or a full-size fridge across an ocean. From North America, mains voltage differs and large appliances are not worth the container space. Anything you would replace within five years is cheaper bought here than shipped.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "Add it up for a two-room flat at €1,800. Deposit of one month excluding charges, so €1,700 to €1,800; the first month's rent; agency fees capped as above, roughly €700 for 45 square metres including the inventory. The move itself runs €600 to €1,200 for a studio coming from elsewhere in France with professionals, and €1,800 to €3,500 for a three-room depending on distance and whether a furniture lift is needed — count €150 to €300 for the lift alone. Add the utility connections, an internet box and the unavoidable first-month purchases, and a couple renting lands in Paris for something between €4,500 and €7,500. One structural saving: if you are leaving another zone tendue, your outgoing notice is only one month, which limits paying two rents at once.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Week one: open the electricity and gas accounts online, order the internet box, and take out home insurance — in France it is compulsory and the agent will ask for the certificate before handing over the keys. Week two: the grouped change of address on service-public.fr, which tells the tax office, the CAF (the family-benefits agency, which also pays housing aid) and the health system in one form; vehicle re-registration within a month if you have brought a car; and a residents' parking permit from the city if it will sit on the street, because the standard hourly rate is designed to stop you. Week three: register with a médecin traitant, the GP your health cover is attached to — take the first one who accepts you and change later; enrol children at the arrondissement town hall; get a Navigo pass. Photograph the check-in inventory, every room. Deposits are disputed harder in Paris than anywhere else in France.",
+      },
+      {
+        heading: "The traps specific to Paris",
+        body: "Five recurring ones. Rental fraud, already covered, and worth repeating because it is the only mistake here that costs thousands before you have a flat. Overpriced furnished listings: the rent cap applies to furnished lets too, and plenty of them ignore it. The flat advertised as ten minutes from the metro that is twenty-five. Service charges underestimated in old buildings, where collective heating on an ageing boiler produces bills that dwarf what the listing implied. And the calendar: if you can avoid arriving in September, when students and job transfers saturate the market at once, do — January, February and June are far easier. One honest closing note. If you are moving to Paris in search of a better quality of life rather than for a specific job, read our city comparisons first. A large share of our readers are making the journey in the other direction.",
+      },
+    ],
+    relatedCities: ["paris", "boulogne-billancourt", "montreuil", "versailles"],
+    tags: [
+      "moving to france",
+      "paris",
+      "relocation",
+      "ile-de-france",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-lyon-2026",
+    title: "Moving to Lyon in 2026: rent caps, hills and the first weeks",
+    metaTitle: "Moving to Lyon 2026 — Rentals, Costs, Moving Day",
+    metaDesc:
+      "Moving to Lyon: rent control, the tenancy file when your payslips are foreign, the Croix-Rousse slopes, the low-emission zone and what landing really costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Lyon is the most requested move in France after Paris, and the market shows it: group viewings you leave without an answer, a rent cap worth knowing about, and a geography that asks real logistical questions. Anyone who has carried a sofa up the slopes of the Croix-Rousse in the rain understands the second half of that sentence. This guide runs the Lyon arrival in order — the tenancy file, the district you land in, the day itself, and the administrative sequence nobody warns you about until you are in the middle of it.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €720 for a studio or one-bedroom, €1,000 for a two-room flat, €1,380 for a three-room. Lyon and neighbouring Villeurbanne are both under encadrement des loyers, a rent cap: each listing must respect a reference rent set by district and by the age of the building, and anything above it can be challenged. Check the official simulator before you sign, because overshoots are common on furnished lets. The market tightens hard from June to September, when 160,000 students and the year's corporate transfers arrive at once: a complete file at the first viewing, income at three times the rent or a guarantor, and an answer within half a day. Lyon is also zone tendue, a legal designation for housing shortage, which caps agency fees at €10 per square metre plus €3 per square metre for the inventory and cuts your notice to one month when you leave.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The standard dossier is identity document, three recent payslips, the latest French tax notice and receipts from a previous landlord. An international arrival has none of it, and agencies in a tight market sort on paperwork before they sort on people. Visale, the free guarantee scheme run by Action Logement, is widely accepted in Lyon and is the usual answer; check your eligibility on the official site first, because the criteria are narrower than the enthusiasm around the scheme suggests. Failing that, a signed French employment contract plus a letter from your employer does most of the work, and a bank guarantee covers the rest. If you are applying from abroad, ask for a live video walkthrough rather than accepting a photo set, and never transfer money before a lease is signed. Lyon's peak season is exactly when the fraudulent listings multiply.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Three dependable choices for a first lease. The 3rd arrondissement around Part-Dieu and Montchat: central, connected to everything and to the station in particular if you keep ties elsewhere, with mixed building stock and mid-range rents. The 7th, from La Guillotière down to Gerland: young, mixed, busy, well served by metro line B and the T1 and T2 trams, and the right place to explore the city before committing. And Villeurbanne, especially Gratte-Ciel and Charpennes: the same metro lines, the same rent cap, and 10 to 15 percent cheaper than Lyon proper. Families tend to look at Montchat, the 6th towards Brotteaux if the budget allows, or the 5th on the Point-du-Jour side. Do not sign in Vieux Lyon or on the slopes without having tested the daily logistics: both are beautiful, and both mean stairs, tourists and shopping carried uphill.",
+      },
+      {
+        heading: "Moving day: slopes, permits and the low-emission zone",
+        body: "Lyon has its own rules. Kerb space for the truck is booked with the city as an autorisation d'occupation temporaire, a temporary occupation of the public highway, with one to two weeks' notice; in Vieux Lyon and on the Presqu'île it is unavoidable, because the streets are narrow or semi-pedestrianised with bollards. The slopes of the Croix-Rousse and the climbs to Fourvière impose their own: awkward access, almost no parking, and a furniture lift that often cannot be deployed at all. If you are moving there, confirm access with the mover before the quote, not on the day. The Lyon low-emission zone (Lyon, Villeurbanne, Caluire and part of the neighbouring communes) requires a valid Crit'Air sticker, including on a hire van, so check it when you book and order one in advance for foreign plates. Best slot: Saturday morning, or a weekday between 10am and 4pm to stay out of the saturated tunnels.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Lyon is inland, so a container arrives through Marseille or Le Havre and finishes on the motorway; build a few days of slack into the schedule, because the handover between the shipping agent and the local mover is where dates slip. Moving from outside the EU, your personal effects clear customs free of duty under transfer-of-residence relief: twelve months of residence outside the EU, goods owned for more than six months, declared on form cerfa 10070. The agent usually prepares the paperwork; meeting the conditions is on you. As for what to ship, Lyon's answer is the stairwell rather than the floor area. Measure the turn of the stairs, and if you have set your heart on the slopes or the old town, measure it twice: the buildings that photograph best are the ones large furniture does not enter. From North America, mains voltage differs and shipping big appliances is not worth the freight.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,000: a deposit of one month excluding charges, about €950; the first month's rent; capped agency fees, around €585 for 45 square metres with the inventory included. The move itself: €500 to €900 for a studio from a nearby city, €1,200 to €2,500 for a three-room from Paris or the west, with surcharges for a furniture lift or difficult access — the slopes are charged for. Add utilities, an internet box, home insurance and the first month's purchases, and a full Lyon arrival for a couple renting runs €3,000 to €5,000, appreciably less than Paris for a comparable level of city. One scheduling tip worth money: rents and competition both ease between October and March. If your date is flexible, avoid the June-to-September window when everyone is looking at once.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Week one: electricity and gas, opened online; the internet box, with fibre well deployed across Lyon and Villeurbanne; and home insurance, which is compulsory in France and which the agent will want to see before the keys change hands. Week two: the grouped change of address on service-public.fr, which reaches the tax office, the CAF (the family-benefits agency that also pays housing aid) and the health system at once; vehicle re-registration within a month; and a TCL travel pass for the metro, trams and buses. The Vélo'v bike scheme is worth the subscription too — Lyon works very well by bike along the Rhône embankments. If a car stays on the street, apply for the residents' parking permit for your arrondissement. Week three: register with a médecin traitant, the GP your health cover attaches to; the health centres in the 7th and in Villeurbanne still take patients. Then school enrolment at the arrondissement town hall.",
+      },
+      {
+        heading: "The traps specific to Lyon",
+        body: "The first is seasonal: arriving in early September without a secured lease means facing the worst rental week of the year. Sign before you move, even if it costs you two weeks of empty rent. The second is topographical — underestimating the hills. A flat 'fifteen minutes from the metro' on the slopes or at Fourvière is fifteen minutes uphill; visit on foot, carrying imaginary shopping. Third, furnished lets priced above the reference rent, which are widespread and which the rent cap lets you challenge. Fourth, the east-west commute: crossing the Rhône and the Saône at rush hour costs real minutes, so test it before you sign. And last, the weather. Lyon's summer heat is not a rumour, and a top-floor west-facing flat with no shutters is paid for every August.",
+      },
+    ],
+    relatedCities: ["lyon", "grenoble", "saint-etienne"],
+    tags: [
+      "moving to france",
+      "lyon",
+      "relocation",
+      "auvergne-rhone-alpes",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-marseille-2026",
+    title: "Moving to Marseille in 2026: never rent this city sight unseen",
+    metaTitle: "Moving to Marseille 2026 — Rentals, Costs, Moving Day",
+    metaDesc:
+      "Moving to Marseille: why you never rent here from photos, the districts that work for a first lease, narrow-street logistics and what landing actually costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Marseille is the most affordable of France's big cities and the most uneven. Everything changes from one street to the next: the price, the atmosphere, how quiet the nights are. That produces one rule that governs every other piece of advice here, and it matters more for someone arriving from abroad than for anyone else — you do not rent in Marseille from photographs. This guide covers the rest: where to land without guessing, how a moving day works in narrow and steep streets, what the arrival costs, and the administrative sequence.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The averages (about €590 for a studio or one-bedroom, €820 for a two-room flat, €1,100 for a three-room) hide the widest variation in France. The same three-room flat costs anywhere from one to three times as much between a ground floor on a courtyard in the 3rd arrondissement and an address in the 8th near the Prado. There is no rent cap here, but the city is classed zone tendue, a legal designation for housing shortage, which caps agency fees at €10 per square metre plus €3 per square metre for the inventory and reduces your own notice period to one month. The file itself is judged less brutally than in Lyon or Bordeaux, but the property demands far more vigilance: the real state of the flat, the common areas, the sound insulation, and above all the street at different hours. Block two or three days on the ground and view back to back, morning and evening, before signing anything.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The dossier a landlord expects (identity, three payslips, the last French tax notice, previous rent receipts) is one an international arrival cannot produce. Visale, the free guarantee scheme from Action Logement, is the standard substitute for a guarantor; check the eligibility rules on the official site before you plan around it. A signed French employment contract with an employer's letter works well, and a bank guarantee is the fallback. Marseille adds an opportunity and a risk. The opportunity: an unusual share of lettings here are done directly with the owner rather than through an agency, which means no agency fee and a human being who can be persuaded by something other than a payslip. The risk is the same coin — fewer intermediaries means more room for fraud, so no money before a real viewing and a signed lease, and treat any owner who is 'currently abroad' as a fiction.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "In Marseille you reason by pockets rather than by whole arrondissements. Reliable for a first lease: the 5th around Camas and Baille, central, lively, on the metro, very good value; the 8th from the Prado to Le Rouet if the budget rises, the classic landing spot for arrivals with the beaches within reach; the 7th towards Endoume and Saint-Victor for village-by-the-sea character; and the 12th, Saint-Barnabé and Les Caillols, for families wanting a house and quiet. The historic centre, Noailles and parts of the 1st and 2nd, has very low rents and a demanding daily life, and is for people who already know the city. Le Panier is superb to live in and miserable to move into, all lanes and steps. The absolute rule: the street matters more than the district, and the district more than the arrondissement.",
+      },
+      {
+        heading: "Moving day: narrow streets, slopes, parking",
+        body: "Marseille's logistics come down to parking. In the centre and the village cores a truck cannot stop without an autorisation d'occupation temporaire, a kerb-space permit requested from the city one to two weeks ahead. Professional movers arrange it; if you are hiring a van, it is yours to do, and skipping it means double-parking, a fine and justifiably furious neighbours. Many streets in the 6th, the 7th and Le Panier are narrow, steep or stepped: confirm the real access with the mover before the quote, because carrying by hand over two hundred metres changes the bill substantially. A furniture lift deploys well on the wide Haussmann-era boulevards (the Canebière, the Prado, Baille) and rarely in the old cores. Avoid 15 August and home match days for the football club, which genuinely block some routes, and start early, before the heat and the traffic. A Crit'Air sticker is needed for the city-centre low-emission zone, hire van included.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Marseille is France's main Mediterranean port, which is the one logistical advantage the city hands an international arrival: a container can land in the city it is destined for, with no long domestic road leg and one less handover where dates slip. From outside the EU, personal effects clear free of duty under transfer-of-residence relief — twelve months' residence outside the EU, goods owned more than six months, declared on form cerfa 10070; the shipping agent normally files it, but the conditions are yours to satisfy. On what to ship: Marseille's constraint is the last two hundred metres, not the floor plan. Old-core buildings have stairs that turn tightly and lanes a lorry cannot enter, so measure the staircase before paying freight on anything large. From North America, mains voltage differs and large appliances are not worth the container space.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €820: a deposit of one month excluding charges, about €770; the first month's rent; capped agency fees of roughly €585 for 45 square metres including the inventory, and often less, because so many lettings here are direct with the owner — a local particularity worth exploiting on the listing sites. The move itself: €500 to €900 for a studio from within the region, €1,300 to €2,800 for a three-room from Paris. A couple renting lands for €2,500 to €4,500, the lowest of all the big French metropolitan areas. Two lines not to trim, though. Home insurance, where the excess on theft cover varies genuinely by district, so compare rather than take the first quote. And, if you keep a car, a real parking budget — a garage or secured residence at €80 to €150 a month buys away a great deal of trouble.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "The common core: electricity, gas and the internet box in week one, with fibre covering most of the city; home insurance before the keys, since it is compulsory here; the grouped change of address on service-public.fr in week two, which reaches the tax office, the CAF and the health system at once; vehicle re-registration within a month. Then the Marseille specifics. The RTM travel pass for metro, tram and bus is worth it even if you keep a car, because central parking is scarce. The Crit'Air sticker is needed to drive in the city-centre low-emission zone, so check the perimeter against your district. A médecin traitant, the GP your health cover attaches to, is still findable in the 4th, 5th, 8th and 12th, honestly more easily than in Paris. School enrolment goes through the sector town hall, and the sectors pair arrondissements, so check which one is yours. Finally, learn the CIQs, the neighbourhood committees: in the village cores they are the real social front door.",
+      },
+      {
+        heading: "The traps specific to Marseille",
+        body: "The central trap, again, is renting at a distance: photographs lie more here than elsewhere, about the flat and about the street. Second, degraded old building stock. After the Rue d'Aubagne collapse, checking the state of a building (cracks, common areas, any existing danger order) is basic precaution rather than paranoia, and the orders are published online; look before signing anything in the old centre. Third, underestimating distance. The city is vast, roughly twice the area of Paris, the metro is only two lines, and living at Les Goudes or Château-Gombert while working at Euroméditerranée is a lifestyle choice, not a detail. Fourth, arriving in July or August, when the city idles and agencies and tradespeople barely answer. Marseille rewards the patient, who choose it street by street.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "toulon"],
+    tags: [
+      "moving to france",
+      "marseille",
+      "relocation",
+      "provence",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-bordeaux-2026",
+    title: "Moving to Bordeaux in 2026: rent caps, stone stairs, the ring road",
+    metaTitle: "Moving to Bordeaux 2026 — Rentals, Costs, Moving Day",
+    metaDesc:
+      "Moving to Bordeaux: the rent cap, the tenancy file when your payslips are foreign, narrow stone streets, the ring road trap and what landing actually costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Bordeaux has paid for its decade of fashionable in-migration: a rent cap now in force, prices that no longer resemble 2015, and a pale-stone centre whose narrow streets and single-storey échoppes make the photographs and complicate the moving. It remains a much-wanted destination, deservedly. This is the 2026 operating manual: getting a lease under the rent cap, choosing where to land, surviving the day itself in eighteenth-century stairwells, and closing out the administrative list.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: about €650 for a studio or one-bedroom, €900 for a two-room flat, €1,200 for a three-room. Bordeaux applies encadrement des loyers, a rent cap, with a reference rent by sector that every listing must respect; overshoots can be challenged and remain frequent on furnished lets in the centre. The city is also zone tendue, a legal designation for housing shortage, which caps agency fees at €10 per square metre plus €3 per square metre for the inventory and cuts your notice to one month. Pressure has eased somewhat since the peak of the Paris-exodus years, but good properties in the Triangle d'Or, the Chartrons or Nansouty are still contested on a complete file with income at three times the rent or a guarantor. Two local building types to understand: the échoppe, a single-storey stone terrace house, much sought after and often through-plan but sometimes dark in the middle; and eighteenth-century flats with beautiful volumes and poor energy ratings, where the mouldings are paid for in heating.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier (identity, three payslips, the last French tax notice, previous rent receipts) is exactly what an arrival from abroad cannot produce, and in a market where good flats are decided on paperwork that is the binding constraint. Visale, the free guarantee scheme run by Action Logement, is the standard route; check the eligibility criteria on the official site before you build a plan around it. A signed French employment contract with an employer's letter is persuasive, and a bank guarantee closes the gap. One Bordeaux-specific point worth knowing: if you are moving here for a job, the Mobili-Pass relocation grant and the Loca-Pass advance on the deposit, both from Action Logement, apply to a lot of arrivals. The applications are simple and they are asked for far too rarely. And the standing rule: no transfer before a genuine viewing and a signed lease.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four landings by profile. The Chartrons for active charm — the old wine-merchants' quarter, cafés, brocantes, tram B, the choice of thirty-somethings and remote workers. Nansouty and Saint-Genès for families: échoppes, schools, a market, a village feel fifteen minutes from the centre, and probably the best life-to-price ratio inside the boulevards. La Bastide on the right bank for tighter budgets, mid-transformation, tram A, looking across at the quayside façade and still affordable. Caudéran for classic residential with a garden, if you have a car. The historic centre around Saint-Pierre and Saint-Michel is lively and beautiful but noisy, has no parking, and its furnished lets are the most exposed to rent-cap breaches. Watch the metropolitan trap: Mérignac, Pessac and Talence offer better prices, but test the real journey — the Bordeaux ring road is among the most congested in France, and the tram, excellent as it is, does not reach everywhere.",
+      },
+      {
+        heading: "Moving day: stone, narrow streets, permits",
+        body: "Bordeaux logistics live in the details of the building stock. In the UNESCO-listed centre and the échoppe districts the streets are narrow and often one-way, and parking the truck requires an autorisation d'occupation temporaire from the town hall, applied for one to two weeks ahead, with early-morning slots in the pedestrianised sectors around Sainte-Catherine. Échoppes are easy to move into, being on one level. Eighteenth-century buildings are the opposite: turning stone staircases, and windows not always wide enough for a furniture lift. Measure your bulky items beforehand, because some sofas simply do not go in. A Crit'Air sticker is required in the metropolitan low-emission zone, hire vans included, so check the vehicle at booking and order one in advance for foreign plates. Stay off the ring road between 7.30 and 9.30 and between 5 and 7, and know that on match days at the Matmut Atlantique or during major trade fairs the whole north of the city seizes up.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Bordeaux is a port, but most household containers still arrive via Le Havre or Marseille and finish by road, so allow slack around the handover between the shipping agent and the local mover. Coming from outside the EU, personal effects are exempt from duty under transfer-of-residence relief: twelve months of residence outside the EU, goods owned for more than six months, declared on form cerfa 10070. The agent normally files it; the conditions are yours to meet. On what deserves the freight, Bordeaux splits in two. If you land in an échoppe, almost anything fits, and the single storey is the easiest move in urban France. If you land in an eighteenth-century flat, the staircase decides: measure the turn and the window opening before shipping large furniture across an ocean. From North America, mains voltage differs and big appliances are not worth the space.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €900: a deposit of one month excluding charges, about €850; the first month's rent; capped agency fees, roughly €585 for 45 square metres including the inventory. The move itself: €500 to €900 within the region, €1,300 to €2,800 for a three-room from Paris — the train takes two hours, but the truck still takes the road. A full arrival for a couple renting: €3,000 to €5,000. Local budget lines: a bike, which pays for itself immediately in a flat city with a decent network and superb quays; a parking budget if you keep the car, either a residents' permit on the street or a garage at €80 to €140 a month, since parking here is a competitive sport; and a serious fan, because Bordeaux summers have turned heavy, especially under the roof.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "The common core: energy and the internet box in week one, with fibre well deployed; home insurance before the keys, as it is compulsory in France; the grouped change of address on service-public.fr, which reaches the tax office, the CAF and the health system in one form; vehicle re-registration within a month. The Bordeaux reflexes: a TBM pass, covering tram, bus, the BAT3 river shuttles and the bike-share; a residents' parking permit in the first week if the car sleeps on the street, because the paid zones cover everything inside the boulevards and are actively enforced; and the tram park-and-ride sites if you work out of town. A médecin traitant, the GP your health cover attaches to, is moderately hard to find; the southern districts and La Bastide have the most accessible health centres, so register in the first month. Schools are enrolled at the district town hall, and the catchment is worth checking before you finalise the flat, not after.",
+      },
+      {
+        heading: "The traps specific to Bordeaux",
+        body: "First, the ring road, which sizes daily life across the whole metropolitan area. A flat 20 percent cheaper in Mérignac can cost an hour of your day; test the commute in real conditions, not on a Sunday. Second, furnished lets in the centre above the rent cap, which the official simulator settles in ten minutes. Third, the dark échoppe: the city's signature house type has a structural flaw, the windowless middle rooms, so view at midday on an overcast day to judge it honestly. Fourth, the outdated belief in an affordable Bordeaux — at an average of €4,500 per square metre to buy, this is no longer the bargain of 2015, so size any purchase plan properly before renting 'while you wait'. Fifth, winter damp in old stone: without double glazing it is cold and humid. Prepared for, Bordeaux is an excellent place to land, particularly for anyone arriving with a salary earned elsewhere.",
+      },
+    ],
+    relatedCities: ["bordeaux", "libourne", "arcachon"],
+    tags: [
+      "moving to france",
+      "bordeaux",
+      "relocation",
+      "nouvelle-aquitaine",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-toulouse-2026",
+    title: "Moving to Toulouse in 2026: timing, brick and the ring road",
+    metaTitle: "Moving to Toulouse 2026 — Rentals, Costs, Moving Day",
+    metaDesc:
+      "Moving to Toulouse: why the month you arrive decides everything, where to land, the ring road trap, moving-day rules and what the arrival actually costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Toulouse absorbs thousands of new residents every year, drawn by aerospace, by the universities and by the sun, and its rental market runs on that double tide: the spring wave of job transfers and the September student surge. With a two-room flat averaging €850 and strongly characterised districts, the pink city is one of the easiest large French metropolitan areas to settle in, provided you choose your window and your landing district. Here is the full sequence, logistics and paperwork included.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €620 for a studio or one-bedroom, €850 for a two-room flat, €1,150 for a three-room. There is no rent cap in Toulouse, but the city is zone tendue, a legal designation for housing shortage, which caps agency fees at €10 per square metre plus €3 per square metre for the inventory and cuts your notice period to one month when you leave. Seasonality is the dominant factor here, more than in any other big French city. From late June to late September, 130,000 students search at the same time as the transfers from Airbus and its supply chain; studios and two-room flats go within hours and agencies sort files in bulk. From October to May the same market is almost relaxed. If your date is flexible, that is where the whole game is played. Expect the standard file, income at three times the rent or a guarantor, with Visale well accepted. A local quirk: many recent developments include parking, so ask, because it is sometimes bundled in.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three recent payslips, the latest French tax notice and previous rent receipts — none of which an arrival from abroad has. Visale, the free guarantee scheme run by Action Logement, substitutes for a guarantor and is well accepted here; check eligibility on the official site before building the file around it. A signed French employment contract plus an employer's letter carries weight, which matters in Toulouse because so many arrivals come with an aerospace contract already in hand. If you are moving for a first aerospace job, look at the Action Logement mobility grants too: a great many arrivals here qualify without knowing it. The city's international desk, run by the metropolitan authority, genuinely helps with the administrative side and is underused by the people it was built for. As always: no money before a real viewing and a signed lease.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four solid options for a first lease. Saint-Cyprien on the left bank, the preferred landing spot for thirty-somethings: lively, a daily market, metro line A, ten minutes on foot from the Capitole. Les Minimes and Compans-Caffarelli to the north: good value, metro line B, practical for jobs near the airport corridor or in the centre. La Côte Pavée and Le Busca for families: quiet, residential, well-regarded schools, but a higher budget and a car is useful. Rangueil and Saouzelong if you work in the south, near the teaching hospital, the university and the laboratories, with a direct link on line B. If your job is at Airbus in Blagnac or Saint-Martin-du-Touch, do not settle on the opposite side of the city: the Toulouse ring road at rush hour is among the busiest in France, and the T1 and T2 trams serve the north-west corridor well. Test the actual journey before signing: the rule matters more here than almost anywhere.",
+      },
+      {
+        heading: "Moving day: brick, the ring road, permits",
+        body: "Toulouse is mostly kind to movers. The city is flat and wide, and the brick building stock of the faubourgs, single-storey or two-storey Toulouse houses, makes many moves straightforward. The exceptions: in the historic core around the Capitole, the Carmes and Saint-Étienne, narrow streets and semi-pedestrian sectors require an autorisation d'occupation temporaire, a kerb-space permit from the town hall requested one to two weeks in advance, and sometimes a furniture lift for the older upper floors with no lift. A Crit'Air sticker is required inside the Toulouse low-emission zone, on a hire van as well as your own vehicle, so check it at booking and order one in advance for foreign plates. The ring road saturates from 7.30 to 9.30 and from 4.30 to 7: schedule the truck outside those windows. And in high summer, start early. Unloading a van at three in the afternoon in 35-degree heat is an experience nobody repeats.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Toulouse is inland, so a container arrives through Marseille, Bordeaux or Le Havre and finishes by motorway; leave slack around the handover between the shipping agent and the local mover, because that is where dates slip. From outside the EU, personal effects clear customs free of duty under transfer-of-residence relief: twelve months' residence outside the EU, ownership of the goods for more than six months, declared on form cerfa 10070. The agent usually prepares the form, but the conditions are yours to meet. On what to ship, Toulouse is more forgiving than most French cities: single-storey brick houses take furniture that will not go into a Paris or Lyon stairwell. Two caveats anyway — the historic-core flats are the exception and need measuring, and from North America mains voltage differs, so large appliances are not worth the freight regardless of how easily they would fit.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €850: a deposit of one month excluding charges, about €800; the first month's rent; capped agency fees, roughly €585 for 45 square metres including the inventory. The move itself: €500 to €900 for a studio from within the region, €1,300 to €2,700 for a three-room from Paris or the north. A full arrival for a couple renting: €2,800 to €4,800. Two budget lines to anticipate specifically here. Air conditioning or good shutters if you are aiming at a top floor — the Toulouse summer is unforgiving, and the badly insulated flats that are cold in winter are furnaces in August. And a bike, the single most profitable purchase in a flat city whose cycling network keeps improving.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "The common core: energy and the internet box in week one, with fibre very well deployed; home insurance before the keys, since it is compulsory in France; the grouped change of address on service-public.fr, which reaches the tax office, the CAF and the health system in one form; vehicle re-registration within a month. The local specifics: the Tisséo pass for metro, tram and bus is among the cheapest of the big French cities, and the VélôToulouse bike-share complements it well; if the car stays on the street in a paid zone, apply for the residents' permit at the town hall. A médecin traitant, the GP your health cover attaches to, is moderately hard to find, though the newer districts such as Borderouge and Montaudran and the multi-doctor health centres still take patients — do not leave it for later. Schools are enrolled at the district town hall, and if the subject matters to you, check the catchment before choosing the flat rather than after.",
+      },
+      {
+        heading: "The traps specific to Toulouse",
+        body: "The first trap is the calendar: house-hunting in late August and early September, the worst window of the year, against tens of thousands of students. Shift by a month if you can, or secure the lease remotely on the strength of a serious video viewing rather than arriving with nothing signed. The second is the ring road again — a cheap flat in Colomiers or Tournefeuille can cost you dearly in hours if your office is on the far side. The third is old, poorly insulated brick: charming in a photograph, harsh in both directions thermally. Read the energy rating, which here means something real. The fourth is overlooking the risk of violent storms and hail for a parked car, which is why covered parking has genuine local value. None of this changes the fundamentals. Toulouse remains one of the easiest and most rewarding arrivals in France.",
+      },
+    ],
+    relatedCities: ["toulouse", "montauban", "albi"],
+    tags: [
+      "moving to france",
+      "toulouse",
+      "relocation",
+      "occitanie",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-nice-2026",
+    title: "Moving to Nice in 2026: year-round leases in a holiday-let market",
+    metaTitle: "Moving to Nice 2026 — Rentals, Costs, Moving Day",
+    metaDesc:
+      "Moving to Nice: how holiday lets squeeze year-round leases, the districts that work, hillside access problems and what the arrival actually costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Settling in Nice means facing a rental market under two pressures at once: the ordinary tightness of an attractive city, plus the competition of the tourist furnished let, which absorbs a share of the housing stock. The result is a two-room flat averaging €1,100, year-round leases that have to be earned, and an amphitheatre geography in which the choice between the hills and the coast dictates all your logistics. This guide gives the method: where to look, how to win the lease, how the day itself works in Nice streets, and how to finish the arrival.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €780 for a studio or one-bedroom, €1,100 for a two-room flat, €1,500 for a three-room, among the highest in France outside Paris — our cost score of 3.3 out of 10 does not pretend otherwise. Nice has no rent cap, but it is zone tendue, a legal designation for housing shortage, which caps agency fees at €10 per square metre plus €3 per square metre for the inventory and reduces your notice to one month. The local particularity is the competition from tourist lets: a share of owners arbitrate towards seasonal renting, which thins out conventional leases and hardens selection on the decent properties. In practice that means an impeccable file is not optional; that you should distrust furnished listings vague about the length of the lease; and that local candidates enjoy a real premium, which is the argument for taking a short temporary let on the spot and then searching as a resident.",
+      },
+      {
+        heading: "Your application file, and the lease you must insist on",
+        body: "The dossier is the usual one (identity, three payslips, the last French tax notice, previous receipts) and an international arrival has none of it, so Visale, the free Action Logement guarantee, or a French employment contract plus an employer's letter do the work; check Visale eligibility on the official site first. But in Nice the document that matters most is the lease itself. Insist on a standard one-year residential lease. What circulates instead is a mobility lease offered to people on permanent contracts, 'year-round lets' that end in June so the owner can free the flat for summer, and monthly furnished arrangements with nothing in writing at all. Each of those leaves you weaker than the last, and each is common. Read what you are signing, refuse anything that is not a conventional residential lease, and never transfer money before a real viewing.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "For a first year-round lease, the safe choices sit behind the seafront rather than on it. Libération and Borriglione is the best landing in Nice: a well-known daily market, tram line 1, genuine year-round neighbourhood life and gentler rents than the centre. The Port and Riquier are lively, well connected and changing fast, a step from Vieux-Nice without its night-time drawbacks. Cimiez suits comfortable budgets wanting quiet and volume, though the tram does not climb there so a car or bus is compulsory. Saint-Roch and the east work for tighter budgets, checked street by street. Avoid for a first lease: Vieux-Nice, which is noisy, touristed, stepped and full of furnished lets, and the hills (Gairaut, Fabron, Saint-Pancrace) until you have measured what doing everything by car on winding roads actually means. Always test the commute at rush hour: the Promenade clogs badly.",
+      },
+      {
+        heading: "Moving day: hills, lanes, parking",
+        body: "Nice logistics need preparing. In the lower town the problem is parking: you reserve a space with the metropolitan authority as an autorisation d'occupation temporaire, one to two weeks ahead, and it is unavoidable in the narrow streets of the centre and the Port. A furniture lift is common on the bourgeois apartment buildings and deploys well on the avenues, badly in Vieux-Nice. On the hills the problem is access: narrow hairpin roads, gates, gradients. Large lorries do not reach everywhere, and some moves finish by shuttle with a small van, which is charged for. Always arrange a technical visit or a detailed video call with the mover before the quote. A Crit'Air sticker is required inside the Nice low-emission zone, hire vans included. And summer: dense tourist traffic, heat, and the Promenade partly closed on event days. Aim for early morning, and outside July and August if you can.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Nice is a long way from everywhere by road, and that is the first thing to price into an international move: containers typically clear at Marseille and finish with a long final leg, so build slack into the schedule and expect the road portion to cost more than the map suggests. From outside the EU, personal effects come in free of duty under transfer-of-residence relief — twelve months' residence outside the EU, goods owned more than six months, declared on form cerfa 10070; the agent normally files it, the conditions are yours. On what to ship: Nice adds a second filter beyond size. If there is any chance you land on the hills, the last hundred metres decides, and a shuttle transfer is charged by the hour. Measure staircases and access before paying freight on large furniture. From North America, mains voltage differs and large appliances are not worth shipping.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,100: a deposit of one month excluding charges, about €1,000 — two months if the flat is furnished, which is frequent here; the first month's rent; capped agency fees, roughly €585 for 45 square metres including the inventory. The move itself: €600 to €1,000 for a studio from within the region, €1,500 to €3,200 for a three-room from Paris, where the distance genuinely tells. A full arrival for a couple renting: €3,500 to €6,000. Two local lines to provision: parking, at €100 to €180 a month for an underground space or garage and close to indispensable if you keep a car, since surface parking is scarce and expensive; and air conditioning or good shutters for Mediterranean summers. The saving on the other side is real, though — many people here genuinely give up the car, with an effective tram and the coastal regional trains towards Cannes and Monaco, and that is €300 to €500 a month back.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "The common core: energy and the internet box in week one; home insurance before the keys, since it is compulsory in France; the grouped change of address on service-public.fr, reaching the tax office, the CAF and the health system at once; vehicle re-registration within a month. The Nice specifics: a Lignes d'Azur pass for the trams and buses, with tram lines 1, 2 and 3 now covering most useful journeys including the airport; a residents' parking permit from the metropolitan authority if the car stays on the street; and a regional rail pass if you work in Monaco or at Sophia Antipolis, the two employment basins that absorb a large share of new arrivals. For Sophia many people combine the train to Antibes with a bus or a bike, which is worth testing before you choose a district. A médecin traitant is genuinely hard to find: take whoever accepts you and refine later. Enrol children early, because central schools are full.",
+      },
+      {
+        heading: "The traps specific to Nice",
+        body: "First, the false leases already described. On a market cannibalised by seasonal letting, insisting on a conventional residential lease is the single most protective thing you can do. Second, renting on the hills without measuring total car dependence — shopping, children, every appointment. The dream of a villa with a view turns into a permanent shuttle service. Third, underestimating the service charges in buildings with a lift, a caretaker and air conditioning, which are common here and expensive. Fourth, arriving in summer: the worst period on every axis at once — price, availability, traffic, and the heat on the day itself. And one honest warning to finish. If the housing budget takes more than a third of your income on our figures, look at the hinterland and the neighbouring towns as well. A great many successful arrivals on this coast are not in Nice itself.",
+      },
+    ],
+    relatedCities: ["nice", "cannes", "antibes"],
+    tags: [
+      "moving to france",
+      "nice",
+      "relocation",
+      "provence",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-strasbourg-2026",
+    title: "Moving to Strasbourg in 2026: the island, the bikes, the local law",
+    metaTitle: "Moving to Strasbourg 2026 — Rentals, Costs, Moving Day",
+    metaDesc:
+      "Moving to Strasbourg: the UNESCO island's delivery rules, EU-institution rental pressure, Alsace-Moselle local law and what the arrival actually costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Strasbourg offers one of the best urban qualities of life in France (a transport score of 9 out of 10 in our data, a city ruled by bicycles, exceptional heritage) for a two-room flat averaging €800, which is reasonable for what you get. Arriving has its particularities: a largely pedestrianised UNESCO-listed island where moving day has to be planned, a rental market squeezed by students and the European institutions at the same time, and a handful of quirks of Alsace-Moselle local law that are better learned on arrival than discovered later.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €580 for a studio or one-bedroom, €800 for a two-room flat, €1,080 for a three-room. There is no rent cap in Strasbourg, but the city is zone tendue, a legal designation for housing shortage, which caps agency fees at €10 per square metre plus €3 per square metre for the inventory and cuts your notice to one month. The pressure comes from three publics at once: 60,000 students in the September rush, the European civil servants and contractors who arrive on the rhythm of parliamentary sessions and the institutional year, and cross-border workers commuting into the German employment basin. Good properties in the hypercentre, the Neustadt and around the Orangerie go quickly and are selected on a complete file; the rest of the market breathes more easily than Lyon or Bordeaux. One thing to know about the stock: the Wilhelmine buildings of the Neustadt have superb volumes, ceiling height and parquet, and sometimes brutal energy ratings. Heating a room with 3.5-metre ceilings shows up on the bill, so ask what the charges actually run to.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The dossier is the standard French one (identity, three payslips, the last tax notice, previous rent receipts) and an arrival from abroad has none of it. Visale, the free guarantee scheme run by Action Logement, stands in as guarantor; check the eligibility rules on the official site before planning around it. A signed French employment contract with an employer's letter does most of the work otherwise, and in Strasbourg that covers a great many arrivals, because a contract with an institution or an agency is exactly the profile local landlords understand. Two Strasbourg-specific notes. If you are on a short institutional posting, be careful with what you are offered instead of a proper residential lease; a mobility lease is a real legal instrument, but it is not a one-year residential lease and gives you less. And if your work is in Germany, remember that a German employment contract is still foreign paperwork to a French agency; expect to lean on a guarantee rather than on your payslip.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four options by profile. The Krutenau for young professionals: the old boatmen's quarter, lively, central, everything on foot or by bike, and the best general landing. The Neustadt (Quartier des XV, Contades) for volume and elegance, good for couples and families, close to the European institutions, a step up in budget. Neudorf for value: just to the south, mid-transformation, tram and bike, very popular with thirty-somethings with children. The Orangerie and Robertsau for green residential living beside the Parliament, if the budget follows. If you work in Germany, at Kehl or Offenburg, Neudorf and the Port-du-Rhin on tram line D simplify the cross-border routine enormously. Avoid the Grande Île itself for a first lease: it is sublime, and the daily logistics are painful under permanent tourism. The Christmas market also turns the whole hypercentre into a very high-density zone for five weeks a year — more on that below.",
+      },
+      {
+        heading: "Moving day: the island, the cycle lanes, the calendar",
+        body: "Strasbourg logistics are well organised and heavily regulated. On the Grande Île and in the pedestrian sectors, truck access requires an authorisation from the Eurométropole with fixed time slots, usually early morning, requested one to two weeks ahead; the historic bridges and quays carry weight restrictions that an Alsatian mover knows and an outside contractor may not, so raise it at the quote. Everywhere else the city is flat with wide avenues and parking is manageable with the standard permit. Two local specifics. The cycle lanes are everywhere: do not block one without signage, on pain of a fine and of justifiably annoyed cyclists. And the calendar — avoid late November and December outright, when the Christmas market saturates the hypercentre, fills the hotels and restricts permits, as well as parliamentary session Fridays around the Wacken. A Crit'Air sticker is required in the Eurométropole low-emission zone, hire van included.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Strasbourg sits on the Rhine and close to a German motorway network, which makes it one of the easier French cities to reach overland from northern Europe — a road move from Germany, the Benelux countries or Switzerland is often simpler and cheaper than the equivalent distance inside France. From outside the EU, personal effects come in free of duty under transfer-of-residence relief: twelve months' residence outside the EU, goods owned for more than six months, declared on form cerfa 10070. The agent usually files it; the conditions are yours to meet. On what to ship, Strasbourg is generous on volume and awkward on access. Neustadt ceiling heights swallow furniture that fits nowhere else in France, but the Grande Île's staircases and the loading time slots decide what actually arrives. Measure, and tell the mover which side of that line you are on. From North America, mains voltage differs and big appliances are not worth the freight.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €800: a deposit of one month excluding charges, about €750; the first month's rent; capped agency fees, roughly €585 for 45 square metres including the inventory. The move itself: €500 to €900 within the region, €1,300 to €2,700 for a three-room from Paris or the south. A full arrival for a couple renting: €2,700 to €4,700. Local budget lines: a bike first, the single highest-return purchase in the city — Strasbourg is the French capital of cycling, the network is exceptional, and many arrivals find a car becomes superfluous, which is €300 to €500 a month back. Then proper winter kit: the Alsatian winter is continental, with a January average of 2.5 °C at the Météo-France station, so a serious coat, and suitable tyres if you keep the car. Worth knowing on the local-law side: property tax and some notary costs differ slightly in Alsace-Moselle if you buy later, which routinely surprises purchasers from the rest of France.",
+      },
+      {
+        heading: "The first weeks, and the local law",
+        body: "The common core: energy and the internet box in week one; home insurance before the keys, since it is compulsory in France; the grouped change of address on service-public.fr, which reaches the tax office, the CAF and the health system at once; vehicle re-registration within a month. The Strasbourg reflexes: a CTS pass for tram and bus, one of the best networks in France; a residents' parking permit if needed; and proper lights on the bike, because checks are frequent. Then the Alsace-Moselle local law, which is not folklore. The régime local of health insurance, more generous than the national one, higher reimbursement rates against a specific contribution, applies automatically to most employees based here, and turns up as a pleasant surprise on the first payslip. The calendar carries two extra public holidays, Good Friday and 26 December, which also close the offices on the day you needed them. Schools are enrolled at the district town hall, and the Franco-German bilingual stream, a genuinely valuable local option, has to be requested early because places go fast.",
+      },
+      {
+        heading: "The traps specific to Strasbourg",
+        body: "First, falling for the Neustadt without reading the energy rating: 100 Wilhelmine square metres at €1,080 can hide €250 a month of winter heating. Second, moving during the Christmas market, the classic logistical mistake of December transfers; if your employer fixes the date, at least negotiate a flat outside the Grande Île. Third, underestimating the winter, which is real, grey and long for anyone arriving from the south — and equally the continental summer, since the Neustadt without shutters can bake in August. Fourth, ignoring the cross-border dimension when choosing a district, when it structures daily journeys: Germany is one bridge away and Kehl serves as the retail park for half the city. Fifth, administrative — believing the local law is a curiosity. It touches your health insurance, your public holidays and your future purchase costs. Well prepared, Strasbourg is one of the most pleasant arrivals in France.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse"],
+    tags: [
+      "moving to france",
+      "strasbourg",
+      "relocation",
+      "grand-est",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-lille-2026",
+    title: "Moving to Lille in 2026: the 1930s house that eats your sofa",
+    metaTitle: "Moving to Lille 2026 — Rentals, Costs, Moving Day",
+    metaDesc:
+      "Moving to Lille: the rent cap, the narrow 1930s houses and their staircases, cobbled Vieux-Lille permits and what the arrival actually costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-09-09",
+    updatedAt: "2026-09-09",
+    intro:
+      "Lille has the densest student population in northern France and one of the fastest rental markets in the country: a two-room flat averaging €800, one of the earliest rent caps introduced anywhere in France, and properties that are gone within a weekend. Logistically the capital of Flanders has one signature difficulty, and it is architectural: the 1930s Lille house, narrow, deep, with a steep turning staircase that has defeated a great many sofas. Here is the complete arrival guide, lease to paperwork, local traps included.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €580 for a studio or one-bedroom, €800 for a two-room flat, €1,080 for a three-room. Lille, together with Hellemmes and Lomme, has applied encadrement des loyers, a rent cap, since 2020: a reference rent by sector that every listing must respect, with overshoots contestable and still widespread on student furnished lets. The city is zone tendue, a legal designation for housing shortage, which caps agency fees at €10 per square metre plus €3 per square metre for the inventory and cuts your notice to one month. The real challenge is the tempo. With more than 100,000 students in the metropolitan area and an active transfer market (Paris is an hour away by high-speed train, which makes Lille a city of commuters) decent properties let within days, with the peak from June to September. Complete file as a PDF, income at three times the rent or a guarantor, Visale routine. One feature of the stock: a lot of houses are available to rent, rare in a large French city and precious for families, but their energy ratings are often severe. Single-skin brick does not forgive; read the heating line.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three payslips, the latest French tax notice and previous receipts, and an international arrival has none of it — which in a market that lets properties within days is decisive. Visale, the free guarantee scheme from Action Logement, is routine here and is the standard answer; check eligibility on the official site before building the file around it. A signed French employment contract with an employer's letter works well. Lille adds a specific case worth naming: arrivals from the UK, for whom the city is a natural landing point at an hour from London by rail. Since Brexit a British payslip and a British bank statement are third-country documents to a French agency, and a British guarantor is not usable in the way an EU-resident one is. Plan on Visale or a bank guarantee rather than assuming your home paperwork will be read at face value. And no money before a real viewing and a signed lease.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five distinct options. Wazemmes for energy: the legendary market, a working-class and student mix, contained prices, ideal for discovering the city, noisy in places. Vauban-Esquermes for balance: student but polished, near the Catholic university faculties, parks, much in demand. Vieux-Lille for the premium: superb, cobbled, expensive, and logistically the most painful, as below. Saint-Maurice-Pellevoisin and the station district for rail commuters: 1930s houses, quiet, and the Eurostar and high-speed platforms ten minutes away on foot or by metro. Fives and Hellemmes for tight budgets and future buyers: working-class, changing, metro line 1. Families also look at La Madeleine, Marcq-en-Barœul and Lambersart, comfortable suburbs ten minutes out. The classic error to avoid: treating the metropolitan area as one city. Roubaix and Tourcoing post very low rents but are towns in their own right with their own dynamics, not districts of Lille. Visit before signing for an attractive price.",
+      },
+      {
+        heading: "Moving day: narrow houses, cobbles, permits",
+        body: "The Lille logistical boss is architectural: the 1930s house, often less than five metres wide at the front, deep, with a steep turning staircase that will pass neither a double bed base nor a three-seat sofa. Locals know it — you dismantle everything that dismantles, and hoisting through an upstairs window with a furniture lift is a local institution, to be priced into the quote at €100 to €300. In Vieux-Lille, add narrow cobbled semi-pedestrian streets: a parking permit from the city is compulsory, with early-morning slots, and carrying over the last few metres is frequent. Everywhere else the standard autorisation d'occupation temporaire is requested one to two weeks ahead. A Crit'Air sticker is required in the metropolitan low-emission zone, hire van included. One weather note, made honestly: the probability of rain on any given day is real, so sheet everything. November drizzle has never cancelled a Lille move; it is part of the welcome.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Lille is the best-connected French city for an overland move from the UK, Belgium or the Netherlands: 220 kilometres of flat motorway to Paris, the Channel ports close, and Brussels under an hour. For a European move, a road removal will usually beat a container. From outside the EU, personal effects clear free of duty under transfer-of-residence relief — twelve months' residence outside the EU, goods owned for more than six months, declared on form cerfa 10070; the agent normally files it, the conditions are yours to satisfy. What deserves the freight is settled here by the staircase, not the floor plan, and that is not a metaphor. Before you pay to ship a sofa, a wardrobe or a bed base, get the width of the front door, the turn of the stairs and the upstairs window opening from the landlord or the agency. It is the one measurement that saves a Lille arrival, and the one nobody takes.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €800: a deposit of one month excluding charges, about €750; the first month's rent; capped agency fees, roughly €585 for 45 square metres including the inventory. The move itself: €400 to €800 within the region, since the north is compact and the distances short, and €1,000 to €2,200 for a three-room from Paris — the cheapest long-distance run of all our big cities, 220 kilometres of flat motorway. A full arrival for a couple renting: €2,500 to €4,500. Local budget lines: heating, the number one expense in the north, so provision generously for the first year in an unrenovated 1930s house, €150 to €250 a month in winter; decent rain gear and a bike if you adopt the local way of living, as the V'Lille scheme and the cycle network keep improving; and possibly a rail season ticket if your life keeps a foot in Paris, which is a common trade-off here.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "The common core: energy and the internet box in week one, with fibre very well deployed; home insurance before the keys, since it is compulsory in France; the grouped change of address on service-public.fr, which reaches the tax office, the CAF and the health system in one form; vehicle re-registration within a month. The Lille reflexes: an Ilévia pass for the driverless metro, trams, buses and the V'Lille bikes, one of the most complete networks in France; a residents' parking permit if the car stays on the street, since the paid zones are extensive and actively enforced; and the cross-border habits to build, because Belgium is fifteen minutes away and serves in practice as the region's shopping, restaurant and concert ground, with Ghent and Brussels under an hour. A médecin traitant: the metropolitan area is a major hospital hub, but town medicine is still busy, so register in the first month. Schools are enrolled at the district town hall, with a dense private sector to compare by area.",
+      },
+      {
+        heading: "The traps specific to Lille",
+        body: "First, the sofa that does not fit — the emblem of every underestimated piece of logistics against the 1930s houses. Measure staircases and windows before the quote, not on the day. Second, the thermally leaky brick house, charming in June and expensive from November; the energy rating deserves reading twice here, and not every landlord of an older house is up to date with the letting thresholds, so check the property is still legally rentable on the energy criteria. Third, student furnished lets above the rent cap, which are epidemic around the universities: ten minutes of checking is worth hundreds of euros. Fourth, choosing Roubaix or Tourcoing on price alone without having spent a day there. Fifth, the opposite prejudice — expecting a grey city. The cultural density and the social warmth of Lille surprise almost every arrival, in the right direction. It is the country's best-kept arrival secret, rain included.",
+      },
+    ],
+    relatedCities: ["lille", "lens", "arras"],
+    tags: [
+      "moving to france",
+      "lille",
+      "relocation",
+      "hauts-de-france",
+      "cost of living",
     ],
   },
 
