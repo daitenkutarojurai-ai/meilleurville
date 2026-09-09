@@ -68,7 +68,7 @@ export default function EnEnvironmentPage() {
     },
     {
       q: "How is the environmental index calculated?",
-      a: "The index aggregates four deterministic dimensions: air quality (ATMO, CITEPA, RNSA — 30% weight), noise (CBS, PEB, Bruitparif — 25%), water stress (Propluvia, BRGM — 25%), natural risks (Géorisques, BRGM, BCSF — 20%). The 'environmental health' score 0-10 is the inverse of the composite stress.",
+      a: "The index aggregates four dimensions estimated at commune level: air quality (30% weight), noise (25%), water stress (25%), natural risks (20%). Each one is a model computed from the commune's own characteristics (size, département, terrain, climate, coastline) and keyed to the public reference frameworks — ATMO, CITEPA and RNSA for air, CBS, PEB and Bruitparif for noise, Propluvia and BRGM for water, BCSF, BRGM and ONF for risks — without reusing their readings. The 'environmental health' score 0-10 is the inverse of the composite stress.",
     },
     {
       q: "Why is there a 15,000-resident minimum?",
@@ -91,9 +91,11 @@ export default function EnEnvironmentPage() {
           Healthiest cities in France
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Composite index covering four key environmental dimensions: air quality (ATMO),
-          noise (CBS / Bruitparif), water stress (Propluvia / BRGM), and natural risks
-          (Géorisques). Score 0-10, 10 = healthiest environment. Filtered to cities
+          Composite index covering four <strong>estimated</strong> environmental dimensions:
+          air quality, noise, water stress and natural risks. Each is a commune-level model
+          keyed to the public reference frameworks (ATMO, CBS / Bruitparif, Propluvia / BRGM,
+          BCSF / BRGM / ONF) — this ranking compares estimates, not station readings.
+          Score 0-10, 10 = healthiest environment. Filtered to cities
           ≥ 15,000 residents for meaningful urban indicators.
         </p>
 
@@ -224,12 +226,12 @@ export default function EnEnvironmentPage() {
               <Link href={`/cities/${healthiest[0].slug}/air-quality`} className="text-[var(--accent)] hover:underline">
                 city air-quality page
               </Link>{" "}
-              for details. Sources: ATMO, CITEPA, RNSA.
+              for details. Reference frameworks: ATMO, CITEPA, RNSA.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Noise (25%)</strong> — road, air, rail,
-              and night-time noise. Sources: Strategic Noise Maps (CBS), noise exposure plans (PEB)
-              from the DGAC, Bruitparif Île-de-France.
+              and night-time noise. Reference frameworks: Strategic Noise Maps (CBS), noise
+              exposure plans (PEB) from the DGAC, Bruitparif Île-de-France.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Water stress (25%)</strong> — drought

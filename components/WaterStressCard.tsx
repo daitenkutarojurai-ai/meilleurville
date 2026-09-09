@@ -64,8 +64,8 @@ export function WaterStressCard({ city, locale = "fr" }: Props) {
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
           {L(
-            "10 = stress hydrique maximal · Propluvia · BRGM — restrictions du jour à vérifier sur Propluvia.",
-            "10 = maximum water stress · Propluvia · BRGM — check Propluvia for today's restrictions.",
+            "10 = stress hydrique maximal · estimation communale calée sur les repères Propluvia / BRGM, pas l'arrêté en vigueur — restrictions du jour à vérifier sur Propluvia.",
+            "10 = maximum water stress · commune-level estimate keyed to the Propluvia / BRGM frameworks, not the restriction order in force — check Propluvia for today's restrictions.",
           )}
         </p>
       </Link>

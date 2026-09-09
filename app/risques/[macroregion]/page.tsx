@@ -104,7 +104,7 @@ export default async function MacroRegionRisksPage({ params }: Props) {
     },
     {
       q: `Quels aléas dominent en ${macro.label} ?`,
-      a: `Synthèse pédagogique sur 4 dimensions : inondation (35 %, fleuve majeur + altitude + littoral), retrait-gonflement argile (25 %, aléa BRGM départemental), feu de forêt (20 %, classification ONF), sismicité (20 %, zonage réglementaire 2011). Cliquez sur chaque ville pour le détail aléa par aléa.`,
+      a: `Estimation communale sur 4 dimensions : inondation (35 %, proxy fleuve majeur + altitude + littoral), retrait-gonflement argile (25 %, aléa BRGM départemental), feu de forêt (20 %, classification ONF), sismicité (20 %, zonage réglementaire 2011 pris au département). Ce n'est pas le zonage parcellaire : les cadres de référence servent de calage, leurs relevés ne sont pas repris. Cliquez sur chaque ville pour le détail aléa par aléa.`,
     },
     {
       q: "Ces scores remplacent-ils un PPRI ?",
@@ -148,7 +148,7 @@ export default async function MacroRegionRisksPage({ params }: Props) {
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>{cities.length} villes analysées</Badge>
           <Badge>Composite moyen : {avgComposite}/10</Badge>
-          <Badge>Sources : BCSF · BRGM · ONF</Badge>
+          <Badge>Cadres de référence : BCSF · BRGM · ONF</Badge>
         </div>
 
         {/* Most exposed */}

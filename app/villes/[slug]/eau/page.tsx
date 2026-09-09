@@ -114,10 +114,13 @@ export default async function EauPage({ params }: Props) {
           Stress hydrique à {city.name}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Synthèse pédagogique des quatre facteurs qui déterminent l&apos;exposition d&apos;une
-          commune à la sécheresse et aux restrictions d&apos;eau. Sources : arrêtés Propluvia
-          2022-2024, bulletin nappes BRGM, climat Météo-France et indicateurs de tension sur
-          l&apos;eau potable. Pour les restrictions en vigueur aujourd&apos;hui, consultez{" "}
+          Profil <strong>structurel</strong> des quatre facteurs qui déterminent
+          l&apos;exposition d&apos;une commune à la sécheresse et aux restrictions d&apos;eau :
+          ce que le climat, la géographie et la ressource de {city.name} impliquent en tension
+          moyenne. Les niveaux ci-dessous sont <strong>estimés</strong>, pas relevés — ils
+          suivent le découpage des arrêtés Propluvia, du bulletin nappes du BRGM et des
+          indicateurs Météo-France, sans reprendre leurs relevés. Pour les restrictions en
+          vigueur aujourd&apos;hui, consultez{" "}
           <a
             href="https://propluvia.developpement-durable.gouv.fr/"
             target="_blank"
@@ -129,8 +132,8 @@ export default async function EauPage({ params }: Props) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>Propluvia · BRGM · Météo-France</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : Propluvia · BRGM · Météo-France</Badge>
         </div>
 
         {/* Composite hero */}
@@ -148,7 +151,10 @@ export default async function EauPage({ params }: Props) {
           {/* La page est nommée pour la nuisance : le score brut du moteur est
               correct (10 = pire), mais il faut le dire — sans légende, 8,2/10
               se lit comme une bonne note. La jumelle EN affiche « 10 = most stressed ». */}
-          <p className="text-xs text-[var(--text-tertiary)] mb-3">10 = stress hydrique maximal · 0 = ressource confortable toute l&apos;année.</p>
+          {/* Même correctif que la page air : la légende ne doit pas laisser
+              croire que le nombre sort d'un arrêté préfectoral. Il est calculé
+              depuis le seed — la méthodologie plus bas le dit, la légende aussi. */}
+          <p className="text-xs text-[var(--text-tertiary)] mb-3">10 = stress hydrique maximal · 0 = ressource confortable toute l&apos;année · modèle communal calé sur les repères Propluvia / BRGM — pas l&apos;arrêté en vigueur.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{s.signature}</p>
         </Card>
 

@@ -66,8 +66,8 @@ export function AirQualityCard({ city, locale = "fr" }: Props) {
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
           {L(
-            "10 = air le plus pur · ATMO · CITEPA · RNSA — mesure horaire sur atmo-france.org.",
-            "10 = cleanest air · ATMO · CITEPA · RNSA — hourly readings on atmo-france.org.",
+            "10 = air le plus pur · estimation communale calée sur les repères ATMO / CITEPA / RNSA, pas une mesure en station — relevés horaires sur atmo-france.org.",
+            "10 = cleanest air · commune-level estimate keyed to the ATMO / CITEPA / RNSA frameworks, not a station reading — hourly data on atmo-france.org.",
           )}
         </p>
       </Link>

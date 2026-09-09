@@ -95,6 +95,14 @@ export default async function EnCityNoise({ params }: Props) {
           <span className="text-sm text-[var(--text-tertiary)]">(10 = loudest)</span>{" "}
           ({LEVEL_LABEL[noise.level]}). {HERO_VERDICT[noise.level]}
         </p>
+        {/* Same gap the air-quality twin had: the number's direction was stated
+            but not its provenance. Modelled, not measured — and the FR twin
+            (/villes/[slug]/bruit) now says so, so this one must too. */}
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          Modelled at commune level from population, terrain and transport
+          infrastructure — keyed to the strategic noise maps (CBS), DGAC airport
+          noise plans (PEB) and Bruitparif, not a sound measurement.
+        </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">

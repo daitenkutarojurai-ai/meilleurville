@@ -58,8 +58,8 @@ export function NoiseCard({ city, locale = "fr" }: Props) {
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
           {L(
-            "10 = nuisance sonore maximale · CBS · PEB · Bruitparif — carte précise sur la CBS communale.",
-            "10 = worst noise exposure · CBS · PEB · Bruitparif — see the town's strategic noise map for street-level detail."
+            "10 = nuisance sonore maximale · estimation communale calée sur les repères CBS / PEB / Bruitparif, pas un relevé acoustique — carte précise sur la CBS communale.",
+            "10 = worst noise exposure · commune-level estimate keyed to the CBS / PEB / Bruitparif frameworks, not a sound measurement — see the town's strategic noise map for street-level detail."
           )}
         </p>
       </Link>

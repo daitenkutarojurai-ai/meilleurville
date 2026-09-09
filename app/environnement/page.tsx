@@ -56,7 +56,7 @@ export default function EnvironmentHubPage() {
     },
     {
       q: "Comment l'index environnemental est-il calculé ?",
-      a: "L'index agrège quatre dimensions déterministes : qualité de l'air (ATMO, CITEPA, RNSA — pondération 30 %), bruit (CBS, PEB, Bruitparif — 25 %), stress hydrique (Propluvia, BRGM — 25 %), risques naturels (Géorisques, BRGM, BCSF — 20 %). Le score « santé environnementale » 0-10 est l'inverse du composite de stress.",
+      a: "L'index agrège quatre dimensions estimées à l'échelle communale : qualité de l'air (30 %), bruit (25 %), stress hydrique (25 %), risques naturels (20 %). Chacune est un modèle calculé depuis les caractéristiques de la commune (taille, département, relief, climat, littoral), calé sur les cadres de référence publics — ATMO, CITEPA et RNSA pour l'air, CBS, PEB et Bruitparif pour le bruit, Propluvia et BRGM pour l'eau, BCSF, BRGM et ONF pour les risques — sans reprendre leurs relevés. Le score « santé environnementale » 0-10 est l'inverse du composite de stress.",
     },
     {
       q: "Le seuil minimal de 15 000 habitants concerne-t-il toutes les villes ?",
@@ -79,14 +79,16 @@ export default function EnvironmentHubPage() {
           Villes les plus saines de France
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Index composite agrégeant quatre dimensions environnementales déterministes : qualité
-          de l&apos;air (ATMO), bruit (CBS / Bruitparif), stress hydrique (Propluvia / BRGM)
-          et risques naturels (Géorisques). Score 0-10, 10 = environnement le plus sain.
+          Index composite agrégeant quatre dimensions environnementales <strong>estimées</strong> :
+          qualité de l&apos;air, bruit, stress hydrique et risques naturels. Chacune est un modèle
+          communal calé sur les cadres de référence publics (ATMO, CBS / Bruitparif, Propluvia /
+          BRGM, BCSF / BRGM / ONF) — ce classement compare des estimations, pas des relevés de
+          station. Score 0-10, 10 = environnement le plus sain.
           Filtre : 15 000 habitants minimum pour pertinence des indicateurs urbains.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
+          <Badge>Estimation structurelle</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération air 30 % · bruit 25 % · eau 25 % · risques 20 %</Badge>
         </div>
@@ -217,12 +219,12 @@ export default function EnvironmentHubPage() {
               <Link href={`/villes/${healthiest[0].slug}/air`} className="text-[var(--accent)] hover:underline">
                 la sous-page air d&apos;une ville
               </Link>{" "}
-              pour le détail. Sources : ATMO, CITEPA, RNSA.
+              pour le détail. Cadres de référence : ATMO, CITEPA, RNSA.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Bruit (25 %)</strong> —
-              routier, aérien, ferroviaire, nocturne. Sources : Cartes de Bruit Stratégiques
-              (CBS), plans d&apos;exposition au bruit (PEB) DGAC, Bruitparif IDF.
+              routier, aérien, ferroviaire, nocturne. Cadres de référence : Cartes de Bruit
+              Stratégiques (CBS), plans d&apos;exposition au bruit (PEB) DGAC, Bruitparif IDF.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Eau (25 %)</strong> — restrictions

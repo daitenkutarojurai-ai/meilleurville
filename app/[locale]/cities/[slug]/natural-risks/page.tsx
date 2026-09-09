@@ -97,6 +97,15 @@ export default async function EnCityRisks({ params }: Props) {
           <span className="text-sm text-[var(--text-tertiary)]">(10 = most exposed)</span>{" "}
           (overall exposure: {LEVEL_LABEL[risks.level]}). {HERO_VERDICT[risks.level]}
         </p>
+        {/* Same gap the air-quality twin had: the number's direction was stated
+            but not its provenance. Modelled, not measured — and the FR twin
+            (/villes/[slug]/risques) now says so, so this one must too. */}
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          Modelled at commune level: seismic and clay-shrinkage hazard are taken
+          at <em>département</em> level, where the regulatory zoning (BCSF, BRGM)
+          is set commune by commune, and flooding is a proxy from river and
+          elevation. Not a plot-level assessment — check Géorisques for that.
+        </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">

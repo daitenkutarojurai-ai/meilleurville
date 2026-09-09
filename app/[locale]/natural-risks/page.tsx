@@ -135,14 +135,17 @@ export default function EnNaturalRisksHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Where flooding, seismic activity, clay-shrinkage subsidence and
           wildfire pile up — and where you sleep quietly. Score 0-10 (10 =
-          maximum exposure), built from the 2011 regulatory seismic zoning
-          (BCSF), the BRGM clay-shrinkage hazard, the ONF / ECASC wildfire
-          classification and a flood proxy derived from major river and
-          elevation. 15,000-resident minimum for ranking reliability.
+          maximum exposure): this is a <strong>commune-level estimate</strong>,
+          keyed to the 2011 regulatory seismic zoning (BCSF) and the BRGM
+          clay-shrinkage hazard taken at <em>département</em> level — where both
+          are in fact set commune by commune —, to the ONF / ECASC wildfire
+          classification, and to a flood proxy derived from major river and
+          elevation. It is not plot-level zoning. 15,000-resident minimum for
+          ranking reliability.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Sources: BCSF · BRGM · ONF</Badge>
+          <Badge>Reference frameworks: BCSF · BRGM · ONF</Badge>
           <Badge>{CITIES_COUNT} cities referenced</Badge>
           <Badge>Educational summary · not a PPRI</Badge>
         </div>

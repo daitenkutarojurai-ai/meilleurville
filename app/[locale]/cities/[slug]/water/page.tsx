@@ -96,6 +96,14 @@ export default async function EnCityWater({ params }: Props) {
           <span className="text-sm text-[var(--text-tertiary)]">(10 = most stressed)</span>{" "}
           (stress level: {LEVEL_LABEL[water.level]}). {HERO_VERDICT[water.level]}
         </p>
+        {/* Same gap the air-quality twin had: the number's direction was stated
+            but not its provenance. Modelled, not measured — and the FR twin
+            (/villes/[slug]/eau) now says so, so this one must too. */}
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          Modelled at commune level from climate, terrain and water-supply
+          context — keyed to Propluvia drought orders and BRGM groundwater
+          bulletins, not the restriction order in force today.
+        </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">

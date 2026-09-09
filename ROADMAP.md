@@ -5351,6 +5351,78 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-09
+
+- **Quartet environnement (F40-F43) — les scores estimés n'étaient plus présentés comme des
+  mesures d'organismes publics, sur 20 surfaces FR + EN.** (Le run du matin — ouverture de la
+  série EN `moving-to-[city]-2026` — est journalisé plus haut, § Parité EN « Livré le 09/09 ».)
+
+  `lib/air-quality.ts`, `lib/noise-exposure.ts`, `lib/water-stress.ts` et
+  `lib/natural-risks.ts` n'importent **que `CityLight`** : vérifié ce run, aucune donnée
+  externe n'est ingérée, les quatre scores sont calculés depuis le seed (population,
+  département, relief, climat, tags). Leurs propres en-têtes le disent (« Aucune dépendance
+  externe »). Les **surfaces**, elles, annonçaient « Sources : ATMO · CITEPA · RNSA »,
+  « Sources : Propluvia · BRGM · Météo-France », « Sources : BCSF · BRGM · ONF » et
+  « Sources : CBS · PEB · Bruitparif » — ce qui se lit comme « chiffre publié par ces
+  organismes ». Corroboration interne : la page `/data-sources` du site porte l'entrée
+  « Airparif / ATMO » en **`status: "coming"`**, c'est-à-dire non intégrée.
+
+  ⚠️ **Le correctif existait déjà et s'était perdu en route — c'est le vrai enseignement du
+  run.** `/villes/[slug]/air` avait été corrigée seule, avec un commentaire en clair
+  (« La légende disait « · ATMO · CITEPA · RNSA », ce qui se lit comme « chiffre publié par
+  ces organismes ». Il ne l'est pas »), et sa jumelle EN aussi (« hreflang alternates must not
+  disagree on that »). **Ses trois sœurs — bruit, eau, risques — n'avaient jamais été
+  traitées, dans aucune des deux locales, ni les quatre cartes de `CityProfile`, ni les
+  hubs.** Soit 1 surface corrigée sur 8 dans sa propre famille, et la carte `AirQualityCard`
+  affichait encore mot pour mot la légende que le commentaire de la page air déclare fausse.
+
+  Traité, en reprenant le patron déjà posé par la page air : les organismes restent **nommés**
+  — ce sont bien les cadres qui calent le modèle — mais en « **cadres de référence** » et non
+  en « sources », et chaque surface dit ce que son nombre **n'est pas**, dimension par
+  dimension : *pas une mesure en station* (air), *pas un relevé acoustique* (bruit), *pas
+  l'arrêté en vigueur* (eau), *pas le zonage parcellaire* (risques). Pas de formule générique
+  recopiée quatre fois.
+  - 4 cartes de `CityProfile` (`AirQualityCard`, `NoiseCard`, `WaterStressCard`,
+    `NaturalRisksCard`), donc les 540 pages ville **des deux locales**.
+  - 6 sous-pages ville ×540 : FR `bruit` / `eau` / `risques`, EN `noise` / `water` /
+    `natural-risks` (chapeau, badges, légende du composite).
+  - 8 hubs : `/environnement`, `/risques`, `/environnement/[macroregion]`,
+    `/risques/[macroregion]` et leurs quatre jumelles EN — **y compris les réponses de FAQ,
+    qui partent en `FAQPage` JSON-LD** : la fausse attribution était donc aussi en données
+    structurées, là où personne ne la relit.
+  - 4 chaînes `methodology` de red flags dont le moteur **est** ce quartet
+    (`villes-risques-naturels`, `villes-bruit-cauchemar`, `villes-stress-hydrique`, et le
+    pilier environnement du méga-index), FR dans `lib/red-flag-themes.ts` + jumelles EN. Les
+    ~34 autres thèmes ne sont **pas** touchés : plusieurs tracent vers de vraies données
+    (Insee Filosofi, DVF, recensement) et vérifier leurs sources une à une est un autre item.
+
+  ⚠️ **Précision de fait, pas d'adoucissement** : sur les risques, la sismicité et l'aléa
+  argile ne sont pas « inventés », ce sont des tables **départementales**
+  (`SEISMIC_ZONE[city.department] ?? 1`) là où le zonage réglementaire est arrêté **commune par
+  commune**. Les pages le disent maintenant dans ces termes, ce qui est plus utile qu'un
+  « estimation » sec — et l'inondation était déjà annoncée comme un proxy.
+
+  **Garde de non-régression ajoutée** (`npm run integrity`, ligne `env quartet`) : toute
+  surface de `app/**` ou `components/*.tsx` qui appelle `compute{AirQuality,NoiseExposure,
+  WaterStress,NaturalRisks,EnvironmentIndex}` **ou** importe l'une de ces libs doit porter un
+  marqueur « estimé / pas une mesure », dans l'une ou l'autre langue. **20 surfaces contrôlées,
+  20 conformes.** C'est le garde que ce run aurait voulu trouver : le défaut n'était pas
+  l'erreur d'origine mais le fait qu'un correctif appliqué à une surface sur huit n'ait rien
+  fait échouer pendant des semaines — `tsc` moins que tout. Testé en négatif (marqueur retiré
+  de `NoiseCard` → le contrôle échoue et nomme le fichier), sinon un garde qui ne peut pas
+  échouer ne vaut rien.
+
+  Contrôles : `npx tsc --noEmit` **propre**, `npm run integrity` (dont le nouveau contrôle),
+  `search-index:check`, `npm run parity` (code 0), `npm run hreflang:check`,
+  `npm run sitemap:check` (FR 29 193 · EN 28 778, inchangés — aucune route créée).
+  `npm run build` **non lancé, volontairement** (cf. § Commands depuis le batch 27).
+
+  Reste ouvert, et c'est **F63** : remplacer le modèle par du mesuré (indice ATMO à la commune,
+  Geod'Air) demande un crawl, donc une passe locale — l'egress est refusé en routine. Ce run ne
+  touche pas aux nombres, seulement à ce qu'on en dit.
+
+---
+
 ## Shipped 2026-09-08
 
 - **Série tourisme — `10-choses-a-faire-a-[ville]-2026` batch 44, FR (+7 : Melun,

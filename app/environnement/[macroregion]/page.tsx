@@ -104,7 +104,7 @@ export default async function MacroRegionEnvironmentPage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `L'index agrège qualité de l'air (ATMO/CITEPA/RNSA — 30 %), bruit (CBS/PEB/Bruitparif — 25 %), stress hydrique (Propluvia/BRGM — 25 %) et risques naturels (Géorisques/BRGM/BCSF — 20 %). Score 0-10, 10 = environnement le plus sain.`,
+      a: `L'index agrège quatre dimensions estimées à l'échelle communale : qualité de l'air (30 %), bruit (25 %), stress hydrique (25 %) et risques naturels (20 %). Chacune est un modèle calculé depuis les caractéristiques de la commune, calé sur les cadres de référence publics (ATMO/CITEPA/RNSA, CBS/PEB/Bruitparif, Propluvia/BRGM, BCSF/BRGM/ONF) sans reprendre leurs relevés. Score 0-10, 10 = environnement le plus sain.`,
     },
   ]);
 

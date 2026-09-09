@@ -102,15 +102,17 @@ export default function RisquesHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Où s&apos;additionnent inondation, sismicité, retrait-gonflement
           argile et feu de forêt — et où l&apos;on dort tranquille. Score 0-10
-          (10 = exposition maximale) calculé à partir du zonage sismique
-          réglementaire (BCSF), de l&apos;aléa argile BRGM, de la classification
-          feux ONF / ECASC et d&apos;un proxy inondation dérivé du fleuve et de
-          l&apos;altitude. Filtre 15 000 habitants minimum pour la fiabilité du
-          palmarès.
+          (10 = exposition maximale) : c&apos;est une <strong>estimation
+          communale</strong>, calée sur le zonage sismique réglementaire (BCSF)
+          et l&apos;aléa argile BRGM pris au <strong>département</strong> — là où
+          l&apos;un et l&apos;autre sont arrêtés commune par commune —, sur la
+          classification feux ONF / ECASC, et sur un proxy inondation dérivé du
+          fleuve et de l&apos;altitude. Ce n&apos;est pas le zonage parcellaire.
+          Filtre 15 000 habitants minimum pour la fiabilité du palmarès.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Sources : BCSF · BRGM · ONF</Badge>
+          <Badge>Cadres de référence : BCSF · BRGM · ONF</Badge>
           <Badge>{CITIES_COUNT} villes référencées</Badge>
           <Badge>Synthèse pédagogique · pas un PPRI</Badge>
         </div>

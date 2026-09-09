@@ -540,6 +540,72 @@ if (!failed) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Quartet environnement (F40-F43) : une surface qui publie ces scores doit dire
+// qu'ils sont ESTIMÉS.
+//
+// `lib/air-quality.ts`, `noise-exposure.ts`, `water-stress.ts` et
+// `natural-risks.ts` n'importent que `CityLight` : aucune donnée externe n'est
+// ingérée, tout est calculé depuis le seed. Les surfaces annonçaient pourtant
+// « Sources : ATMO · CITEPA · RNSA », « Sources : Propluvia · BRGM »,
+// « Sources : BCSF · BRGM · ONF » — ce qui se lit comme « chiffre publié par
+// ces organismes ». La page /villes/[slug]/air avait été corrigée seule
+// (« pas une mesure en station ») ; ses trois sœurs, les quatre cartes de
+// CityProfile et les hubs ne l'avaient jamais été (audit 2026-09-09).
+//
+// D'où ce garde : le correctif s'était déjà perdu une fois en ne traitant
+// qu'une surface sur huit, et rien ne pouvait le voir — `tsc` moins que tout.
+// Les organismes restent nommés, mais comme CADRES DE RÉFÉRENCE : ils calent
+// le modèle, on ne reprend pas leurs relevés.
+{
+  const USES =
+    /compute(AirQuality|NoiseExposure|WaterStress|NaturalRisks|EnvironmentIndex)\b|@\/lib\/(air-quality|noise-exposure|water-stress|natural-risks|environment-index|environment-index-rankings)"/;
+  // Un marqueur par dimension et par locale : chaque page dit ce que son
+  // nombre n'est PAS (une mesure en station, un relevé acoustique, l'arrêté
+  // en vigueur, le zonage parcellaire), pas une formule générique.
+  const MARK =
+    /pas une mesure|pas un relev|pas l'arrêté en vigueur|pas le zonage|[Ee]stimation communale|estimations, pas des relev|modèle communal|estimées à l'échelle communale|Estimation structurelle|not measured|not a station reading|not a sound measurement|not the restriction order|plot-level|Modelled at commune level|commune-level estimate|estimated at commune level|not station readings/;
+
+  const surfaces = [];
+  (function walk(dir) {
+    for (const entry of readdirSync(dir)) {
+      const p = path.join(dir, entry);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (entry.endsWith(".tsx")) surfaces.push(p);
+    }
+  })(path.join(ROOT, "app"));
+  for (const entry of readdirSync(path.join(ROOT, "components"))) {
+    if (entry.endsWith(".tsx")) surfaces.push(path.join(ROOT, "components", entry));
+  }
+
+  const scanned = [];
+  const mute = [];
+  for (const file of surfaces) {
+    const src = readFileSync(file, "utf8");
+    if (!USES.test(src)) continue;
+    scanned.push(file);
+    if (!MARK.test(src)) mute.push(path.relative(ROOT, file));
+  }
+
+  if (mute.length === 0) {
+    console.log(
+      `  ok  env quartet ${scanned.length} surfaces, chacune dit que le score est estimé`,
+    );
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  quartet environnement : ${mute.length} surface(s) muette(s)\n`);
+    for (const p of mute) console.error(`    ${p}`);
+    console.error(
+      "\n    Ces quatre libs ne lisent que le seed — aucune donnée ATMO, CBS,\n" +
+        "    Propluvia, BRGM ou Géorisques n'est ingérée. Une surface qui publie\n" +
+        "    leur score doit dire qu'il est estimé et ce qu'il n'est pas (mesure\n" +
+        "    en station, relevé acoustique, arrêté en vigueur, zonage parcellaire).\n" +
+        "    Nommer ces organismes en « cadres de référence » est correct ; en\n" +
+        "    « sources » ne l'est pas.\n",
+    );
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

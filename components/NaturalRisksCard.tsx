@@ -56,8 +56,8 @@ export function NaturalRisksCard({ city, locale = "fr" }: Props) {
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
           {L(
-            "10 = exposition aux risques maximale · BCSF · BRGM · ONF — vérifier le PPRI précis sur Géorisques.",
-            "10 = highest risk exposure · BCSF · BRGM · ONF — check the exact flood-risk plan (PPRI) on Géorisques.",
+            "10 = exposition aux risques maximale · estimation communale calée sur les repères BCSF / BRGM / ONF, pas le zonage parcellaire — vérifier le PPRI précis sur Géorisques.",
+            "10 = highest risk exposure · commune-level estimate keyed to the BCSF / BRGM / ONF frameworks, not plot-level zoning — check the exact flood-risk plan (PPRI) on Géorisques.",
           )}
         </p>
       </Link>

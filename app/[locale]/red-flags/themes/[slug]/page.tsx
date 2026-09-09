@@ -101,7 +101,7 @@ const EN_THEMES: EnTheme[] = [
     reality:
       "We rank cities whose composite (flooding 35% + clay 25% + wildfire 20% + seismics 20%) exceeds 5.5/10, with a penalty when at least two of the four hazards exceed 6/10 — a genuine compound risk, not a single isolated hazard.",
     methodology:
-      "Severity = composite (0-10) + 1.2 if two or more dimensions ≥ 6/10. Sources: BRGM (clay), BCSF/MTE decree 2010-1255 (seismics), ONF + ECASC (wildfire), Géorisques (municipal synthesis).",
+      "Severity = composite (0-10) + 1.2 if two or more dimensions ≥ 6/10. A commune-level estimate, not a survey: clay and seismic hazard are taken at département level (reference frameworks BRGM, BCSF/MTE decree 2010-1255) where the zoning is set commune by commune, wildfire follows the ONF + ECASC classification, and flooding is a proxy from river, elevation and coast.",
   },
   {
     enSlug: "noise-nightmare",
@@ -116,7 +116,7 @@ const EN_THEMES: EnTheme[] = [
     reality:
       "We rank cities over 30,000 whose noise composite (road 35% + air 25% + night 25% + rail 15%) exceeds 5.5/10, with a penalty when at least two sources exceed 6/10 — a genuine compound exposure. The WHO recommends Lden < 53 dB(A) day and Lnight < 45 dB(A) night.",
     methodology:
-      "Severity = composite + 1.2 if two or more sources ≥ 6/10. Sources: Strategic Noise Maps (EU directive 2002/49/EC), DGAC PEB noise exposure plans, Bruitparif (Île-de-France). Population filter ≥ 30,000.",
+      "Severity = composite + 1.2 if two or more sources ≥ 6/10. A commune-level estimate, not a sound measurement: the model is keyed to the public reference frameworks (Strategic Noise Maps, EU directive 2002/49/EC; DGAC PEB noise exposure plans; Bruitparif in Île-de-France) without reusing their readings. Population filter ≥ 30,000.",
   },
   {
     enSlug: "water-stress",
@@ -131,7 +131,7 @@ const EN_THEMES: EnTheme[] = [
     reality:
       "We rank cities whose composite (restrictions 35% + groundwater 25% + climate 20% + supply 20%) exceeds 6/10, with a severity bonus when restrictions reach 'near-annual crisis' level (Propluvia) OR low water table and stressed drinking supply combine.",
     methodology:
-      "Severity = composite + 1.0 if restrictions ≥ 8.5/10 + 0.8 if low groundwater AND stressed supply. Sources: Propluvia (drought orders), BRGM (groundwater levels), Météo-France (summer climate).",
+      "Severity = composite + 1.0 if restrictions ≥ 8.5/10 + 0.8 if low groundwater AND stressed supply. A commune-level estimate, not the restriction order in force: the model is keyed to the public reference frameworks (Propluvia for drought orders, BRGM for groundwater levels, Météo-France for summer climate) without reusing their readings.",
   },
   {
     enSlug: "medical-desert",
@@ -176,7 +176,7 @@ const EN_THEMES: EnTheme[] = [
     reality:
       "We rank cities over 15,000 whose mega-index (environment 35% + health 30% + employment 35%) is ≤ 4.5/10, with a penalty when at least 2 of the 3 pillars fall below 4/10 — a genuine compounding effect.",
     methodology:
-      "Severity = (5 − index) × 2 + 1.2 if ≥ 2 pillars ≤ 4/10 + 0.6 if ≤ 3.5/10. Sources: ATMO/CITEPA/RNSA (env), DREES/CNOM/ARS (health), INSEE/DADS/SIRENE (employment).",
+      "Severity = (5 − index) × 2 + 1.2 if ≥ 2 pillars ≤ 4/10 + 0.6 if ≤ 3.5/10. The environment pillar is a commune-level estimate keyed to the ATMO/CITEPA/RNSA frameworks, not a station reading; health DREES/CNOM/ARS, employment INSEE/DADS/SIRENE.",
   },
   {
     enSlug: "cost-explosion",

@@ -115,18 +115,21 @@ export default async function RisquesPage({ params }: Props) {
           Risques naturels à {city.name}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Synthèse pédagogique des quatre aléas naturels qui pèsent le plus sur les habitations
-          en France. Sources : zonage sismique réglementaire (BCSF), aléa argile BRGM, statistiques
-          feux ONF, et proxy inondation depuis fleuve et altitude. Pour un diagnostic précis,
-          consultez le PPRI et l&apos;ERP officiel sur{" "}
+          Profil <strong>structurel</strong> des quatre aléas naturels qui pèsent le plus sur
+          les habitations en France : ce que la géographie de {city.name} implique en exposition
+          moyenne. Les niveaux ci-dessous sont <strong>estimés</strong>, pas relevés parcelle
+          par parcelle — la sismicité et l&apos;aléa argile sont pris au <strong>département</strong>,
+          là où le zonage réglementaire (BCSF, BRGM) est arrêté commune par commune, et
+          l&apos;inondation est un proxy depuis le fleuve et l&apos;altitude. Pour un diagnostic
+          opposable, consultez le PPRI et l&apos;ERP officiel sur{" "}
           <a href={`https://www.georisques.gouv.fr/mes-risques/connaitre-les-risques-pres-de-chez-moi/rapport?codeInsee=${encodeURIComponent(city.inseeCode ?? "")}`} target="_blank" rel="noreferrer" className="text-[var(--accent)] hover:underline">
             Géorisques
           </a>.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>4 dimensions BCSF / BRGM / ONF</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : BCSF · BRGM · ONF</Badge>
         </div>
 
         {/* Composite hero */}
@@ -144,7 +147,10 @@ export default async function RisquesPage({ params }: Props) {
           {/* La page est nommée pour la nuisance : le score brut du moteur est
               correct (10 = pire), mais il faut le dire — sans légende, 8,2/10
               se lit comme une bonne note. La jumelle EN affiche « 10 = most exposed ». */}
-          <p className="text-xs text-[var(--text-tertiary)] mb-3">10 = exposition aux aléas maximale · 0 = aucun aléa majeur identifié.</p>
+          {/* Même correctif que la page air : la légende ne doit pas laisser
+              croire que le nombre sort de Géorisques. Il est calculé depuis le
+              seed — la méthodologie plus bas le dit, la légende aussi. */}
+          <p className="text-xs text-[var(--text-tertiary)] mb-3">10 = exposition aux aléas maximale · 0 = aucun aléa majeur identifié · modèle communal calé sur les repères BCSF / BRGM / ONF — pas le zonage parcellaire.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{r.signature}</p>
         </Card>
 

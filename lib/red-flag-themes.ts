@@ -2338,7 +2338,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On classe ici les villes dont le composite (inondation 35 % + argile 25 % + feu 20 % + sismicité 20 %) dépasse 5,5/10, avec un malus quand au moins deux des quatre aléas dépassent 6/10 — c'est-à-dire un vrai cumul, pas un seul risque isolé. Toutes les valeurs sont alignées sur les zonages réglementaires : sismicité décret 2010-1255, aléa argile BRGM, massifs à risque feu ONF/ECASC, proxy inondation fleuve majeur + altitude < 50 m + littoral.",
     methodology:
-      "Severity = composite (0-10) + 1,2 si deux dimensions ou plus ≥ 6/10. Sources : BRGM (argile), BCSF/MTE décret 2010-1255 (sismicité), ONF + ECASC (feu de forêt), Géorisques (synthèse par commune INSEE). Vérifier le rapport ERP officiel avant tout achat.",
+      "Severity = composite (0-10) + 1,2 si deux dimensions ou plus ≥ 6/10. Estimation communale, pas un relevé : l'aléa argile et la sismicité sont pris au département (cadres de référence BRGM, BCSF/MTE décret 2010-1255) là où le zonage est arrêté commune par commune, le feu suit la classification ONF + ECASC et l'inondation est un proxy fleuve + altitude + littoral. Vérifier le rapport ERP officiel avant tout achat.",
     rank: rankRisquesNaturels,
   },
   {
@@ -2353,7 +2353,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On classe les villes ≥ 30 000 hab. dont le composite bruit (routier 35 % + aérien 25 % + nocturne 25 % + ferroviaire 15 %) dépasse 5,5/10, avec malus quand au moins deux des quatre sources dépassent 6/10 — c'est-à-dire un vrai cumul d'expositions. L'OMS recommande Lden < 53 dB(A) jour et Lnight < 45 dB(A) nuit ; toutes les villes listées dépassent largement ce seuil sur une part importante du territoire communal.",
     methodology:
-      "Severity = composite + 1,2 si deux sources ou plus ≥ 6/10. Sources : Cartes de Bruit Stratégiques (directive 2002/49/CE), Plans d'Exposition au Bruit DGAC, Bruitparif (IDF). Filtre population ≥ 30 000 hab. pour la pertinence du score nocturne.",
+      "Severity = composite + 1,2 si deux sources ou plus ≥ 6/10. Estimation communale, pas un relevé acoustique : le modèle est calé sur les cadres de référence publics (Cartes de Bruit Stratégiques, directive 2002/49/CE ; Plans d'Exposition au Bruit DGAC ; Bruitparif en IDF) sans reprendre leurs mesures. Filtre population ≥ 30 000 hab. pour la pertinence du score nocturne.",
     rank: rankBruitCauchemar,
   },
   {
@@ -2368,7 +2368,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On classe les villes dont le composite (restrictions 35 % + nappes 25 % + climat 20 % + alimentation 20 %) dépasse 6/10, avec un bonus de gravité quand les restrictions atteignent le niveau « crise quasi-annuel » (Propluvia) OU quand nappes très basses et réseau eau potable sous tension se cumulent. Toutes les valeurs sont alignées sur les bulletins officiels BRGM 2022-2025 et l'historique Propluvia 2022-2024.",
     methodology:
-      "Severity = composite + 1,0 si restrictions ≥ 8,5/10 + 0,8 si nappes très basses ET alimentation tendue. Sources : Propluvia (arrêtés sécheresse), BRGM (état des nappes), Météo-France (climat estival).",
+      "Severity = composite + 1,0 si restrictions ≥ 8,5/10 + 0,8 si nappes très basses ET alimentation tendue. Estimation communale, pas l'arrêté en vigueur : le modèle est calé sur les cadres de référence publics (Propluvia pour les arrêtés sécheresse, BRGM pour l'état des nappes, Météo-France pour le climat estival) sans reprendre leurs relevés.",
     rank: rankSecheresseEau,
   },
   {
@@ -2413,7 +2413,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On classe les villes ≥ 15 000 hab. dont le méga-index (environnement 35 % + santé 30 % + emploi 35 %) est inférieur ou égal à 4,5/10, avec un malus quand au moins 2 des 3 piliers tombent sous 4/10 — c'est-à-dire un cumul réel, pas un seul pilier faible. Toutes les valeurs sont dérivées des composites (env), (santé), (emploi).",
     methodology:
-      "Severity = (5 −) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si ≤ 3,5/10. Sources : ATMO / CITEPA / RNSA (env), DREES / CNOM / ARS (santé), INSEE / DADS / SIRENE (emploi). Composite agrégé site (méga-index).",
+      "Severity = (5 −) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si ≤ 3,5/10. Le pilier environnement est une estimation communale calée sur les cadres de référence ATMO / CITEPA / RNSA, pas une mesure en station ; santé DREES / CNOM / ARS, emploi INSEE / DADS / SIRENE. Composite agrégé site (méga-index).",
     rank: rankCadreDeVieTendu,
   },
   {

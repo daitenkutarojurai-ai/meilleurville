@@ -2903,17 +2903,33 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule
   tout par heuristique** depuis le seed (population, département, `characterTags`),
-  alors que la légende affiche « ATMO · CITEPA · RNSA ». Remplacer par du mesuré :
+  alors que la légende affichait « ATMO · CITEPA · RNSA ». Remplacer par du mesuré :
   **indice ATMO quotidien publié à la commune** (ATMO France / data.gouv.fr) +
   **Geod'Air** (LCSQA/Ineris) pour les concentrations NO2/PM10/PM2.5/O3, rattachées à
   la station la plus proche **avec la distance affichée** (pattern
   `lib/climate-normals.ts`). Pollens RNSA : vérifier la licence avant intégration,
   sinon la dimension reste modélisée **et la page le dit**.
-  - Surfaces manquantes que la demande réclame : **hub `/qualite-de-l-air`** (aucun
-    aujourd'hui — l'air n'est qu'une sous-page ville), **classement
-    `/classements/qualite-de-l-air`** (absent des 19 slugs de `RANKING_META`, à
-    ajouter avec `RANKING_EN`), série `qualite-de-l-air-[ville]-2026` **après** la
-    phase données seulement, angles saisonniers pollens et épisodes de pollution.
+  - ✅ **Le volet honnêteté est soldé (2026-09-09), le volet données reste ouvert.** Les
+    quatre libs du quartet (F40 risques, F41 eau, F42 air, F43 bruit) n'importent **que
+    `CityLight`** — aucune donnée externe, tout vient du seed — mais les surfaces
+    annonçaient « **Sources :** ATMO · CITEPA · RNSA / Propluvia · BRGM / BCSF · BRGM · ONF /
+    CBS · PEB · Bruitparif ». La page `/villes/[slug]/air` avait été corrigée **seule** ; ses
+    trois sœurs, les 4 cartes de `CityProfile` et les 8 hubs ne l'avaient jamais été, dans
+    aucune des deux locales (1 surface sur 8). Les organismes sont désormais nommés en
+    « **cadres de référence** » et chaque surface dit ce que son nombre **n'est pas** (mesure
+    en station · relevé acoustique · arrêté en vigueur · zonage parcellaire). **Garde
+    `env quartet` dans `npm run integrity`** : 20 surfaces contrôlées, un appel à
+    `compute*`/un import de ces libs sans marqueur « estimé » fait échouer. Détail : ROADMAP
+    § Shipped 2026-09-09. **Ne réintroduis pas « Sources : » sur ces quatre scores.**
+  - ⚠️ **`/classements/qualite-air` EXISTE déjà** (owner-ranking de `lib/owner-rankings.ts`,
+    dossier `app/classements/qualite-air`) — la note historique « absent des 19 slugs de
+    `RANKING_META` » était vraie de `RANKING_META` et fausse du site, les deux familles de
+    classements étant distinctes. Vérifié le 2026-09-09. Reste réellement manquant : le **hub
+    `/qualite-de-l-air`** (l'air n'est qu'une sous-page ville) et la série
+    `qualite-de-l-air-[ville]-2026`, **après** la phase données seulement — un hub bâti sur le
+    modèle actuel republierait une estimation en palmarès national, exactement ce que le
+    retrait du rang de richesse biodiversité (10/08) et du rang d'espaces verts (31/08)
+    a sanctionné.
   - ⚠️ **La direction du score est déjà correcte, ne la « corrige » pas** : le moteur
     mesure l'exposition (10 = pire), l'inversion se fait à l'affichage FR **et** EN
     avec la légende « 10 = air le plus pur ». Vérifié 2026-07-29.

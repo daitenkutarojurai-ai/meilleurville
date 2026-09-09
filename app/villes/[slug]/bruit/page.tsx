@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
       title: `Bruit à ${city.name}`,
-      description: `Routier, aérien, ferroviaire, nocturne — synthèse acoustique CBS / OMS.`,
+      description: `Routier, aérien, ferroviaire, nocturne — estimation communale, repères CBS / OMS.`,
     },
   };
 }
@@ -114,9 +114,12 @@ export default async function BruitPage({ params }: Props) {
           Bruit à {city.name}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Synthèse pédagogique des quatre sources de bruit majeures suivies par les Cartes de
-          Bruit Stratégiques (directive européenne 2002/49/CE). Sources : CBS communales,
-          plans d&apos;exposition au bruit (PEB) DGAC, observatoire Bruitparif (IDF). Pour la
+          Profil <strong>structurel</strong> des quatre sources de bruit majeures suivies par
+          les Cartes de Bruit Stratégiques (directive européenne 2002/49/CE) : ce que la taille,
+          la géographie et les infrastructures de {city.name} impliquent en exposition moyenne.
+          Les niveaux ci-dessous sont <strong>estimés</strong>, pas relevés — ils suivent le
+          découpage des CBS, des plans d&apos;exposition au bruit (PEB) de la DGAC et de
+          l&apos;observatoire Bruitparif, sans reprendre leurs mesures. Pour la
           carte précise à l&apos;adresse, consultez la CBS de votre métropole ou{" "}
           <a
             href="https://www.bruitparif.fr/"
@@ -130,8 +133,8 @@ export default async function BruitPage({ params }: Props) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>CBS · PEB · Bruitparif</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : CBS · PEB · Bruitparif</Badge>
         </div>
 
         {/* Composite hero */}
@@ -149,7 +152,10 @@ export default async function BruitPage({ params }: Props) {
           {/* La page est nommée pour la nuisance : le score brut du moteur est
               correct (10 = pire), mais il faut le dire — sans légende, 8,2/10
               se lit comme une bonne note. La jumelle EN affiche « 10 = loudest ». */}
-          <p className="text-xs text-[var(--text-tertiary)] mb-3">10 = exposition au bruit maximale · 0 = commune silencieuse.</p>
+          {/* Même correctif que la page air : la légende ne doit pas laisser
+              croire que le nombre sort d'une CBS. Il est calculé depuis le
+              seed — la méthodologie plus bas le dit, la légende aussi. */}
+          <p className="text-xs text-[var(--text-tertiary)] mb-3">10 = exposition au bruit maximale · 0 = commune silencieuse · modèle communal calé sur les repères CBS / PEB / Bruitparif — pas un relevé acoustique.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{n.signature}</p>
         </Card>
 

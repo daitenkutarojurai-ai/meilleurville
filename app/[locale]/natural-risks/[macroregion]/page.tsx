@@ -146,7 +146,7 @@ export default async function EnMacroRegionRisksPage({ params }: Props) {
     },
     {
       q: `Which hazards dominate in ${label}?`,
-      a: `Educational summary across 4 dimensions: flooding (35%, major river + elevation + coast), clay shrinkage (25%, BRGM departmental hazard), wildfire (20%, ONF classification), seismic activity (20%, 2011 regulatory zoning). Click any city for the hazard-by-hazard breakdown.`,
+      a: `A commune-level estimate across 4 dimensions: flooding (35%, proxy from major river + elevation + coast), clay shrinkage (25%, BRGM departmental hazard), wildfire (20%, ONF classification), seismic activity (20%, 2011 regulatory zoning taken at département level). This is not plot-level zoning: the reference frameworks calibrate the model, their readings are not reused. Click any city for the hazard-by-hazard breakdown.`,
     },
     {
       q: "Do these scores replace an official PPRI?",
@@ -190,7 +190,7 @@ export default async function EnMacroRegionRisksPage({ params }: Props) {
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average composite: {avgComposite}/10</Badge>
-          <Badge>Sources: BCSF · BRGM · ONF</Badge>
+          <Badge>Reference frameworks: BCSF · BRGM · ONF</Badge>
         </div>
 
         {/* Most exposed */}

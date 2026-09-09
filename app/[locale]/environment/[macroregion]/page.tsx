@@ -103,7 +103,7 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
     },
     {
       q: `How is this ranking calculated?`,
-      a: `Composite index aggregating air quality (ATMO/CITEPA/RNSA — 30%), noise (CBS/PEB/Bruitparif — 25%), water stress (Propluvia/BRGM — 25%) and natural risks (Georisques/BRGM — 20%). Score 0–10, 10 = healthiest environment.`,
+      a: `Composite index aggregating four dimensions estimated at commune level: air quality (30%), noise (25%), water stress (25%) and natural risks (20%). Each is a model computed from the commune's own characteristics and keyed to the public reference frameworks (ATMO/CITEPA/RNSA, CBS/PEB/Bruitparif, Propluvia/BRGM, BCSF/BRGM/ONF) without reusing their readings. Score 0–10, 10 = healthiest environment.`,
     },
   ]);
 
