@@ -1861,7 +1861,81 @@ les montants réglementaires seulement, et rien qui ne soit sourçable.
 Une fiche par pays de départ, données inline (`EXPAT_COUNTRIES`), rendues par
 `app/expat-retour/[pays]/page.tsx` (URL `/expat-retour/depuis-<slug>`). Ajouter une entrée au
 tableau suffit : `generateStaticParams`, le hub et le sitemap en dérivent tous les trois.
-**Compteur mesuré (`grep -c '^    slug: "'`) : 22 pays** (2026-09-02). Dernier ajouté : **Thaïlande** — la
+**Compteur mesuré (`grep -c '^    slug: "'`) : 23 pays** (2026-09-09). Dernier ajouté : **Mexique** — la
+fiche dont le fil conducteur est **une date, et elle tombe avant le vol**. L'avis de changement de
+résidence fiscale se dépose auprès du SAT **au plus tard dans les quinze jours qui précèdent** le
+changement, et pas plus de deux mois à l'avance (dernier alinéa de l'**article 9 du CFF**, fiche
+85/CFF) ; à défaut, **on ne perd pas la qualité de résident mexicain** et le Mexique reste fondé à
+imposer les revenus mondiaux, sans rattrapage possible depuis la France. ⚠️ **C'est l'exact inverse du
+calendrier brésilien** (Comunicação de Saída Definitiva jusqu'au dernier jour de février de l'année
+suivante) : le réflexe pris sur la fiche voisine est ici la faute. Et symétriquement, l'année du départ
+**on ne dépose pas de déclaration annuelle** — l'**article 150 de la LISR** fait des paiements
+provisionnels un paiement définitif et interdit la déclaration à qui change de résidence en cours
+d'année. Une démarche impérative avant, une démarche à ne pas faire après.
+Le second fait structurant : **il n'existe aucune convention de sécurité sociale France-Mexique**
+(vérifié ce run). Négociations ouvertes en **1981**, jamais abouties ; la France est liée à **42 États
+ou territoires** couvrant **plus de 80 %** de sa population expatriée, et le Mexique est dans le
+cinquième restant alors qu'il abrite **la première communauté française d'Amérique latine, plus de
+20 000 personnes**, et qu'il est le **deuxième partenaire commercial** de la France sur le continent —
+quand le Brésil, l'Argentine, le Chili, l'Uruguay, le Canada et les États-Unis ont la leur. Donc zéro
+trimestre français, ni S1 ni totalisation, PUMa de droit commun au retour (3 mois de résidence +
+2-3 mois d'instruction).
+⚠️ **Cinq réflexes faux, corrigés par vérification avant rédaction.** ① **Quitter le Mexique n'ouvre
+aucun droit de retrait de l'Afore** : le départ définitif n'est pas un cas de retrait, le retrait total
+suppose une **résolution ou une negativa de pensión** de l'IMSS, donc **60 ans au plus tôt** — un
+rentrant de 38 ans ne touche rien pendant vingt-deux ans. Même famille que le FGTS brésilien et que le
+compte individuel chinois, mais plus fermée que les deux. ② Le barème monte : **875 semaines cotisées
+en 2026** (plancher de 750 relevé de 25 par an, 1 000 en 2031) ; en dessous, negativa de pensión =
+solde versé en une fois mais **perte de la rente et du service médical**. ③ Le versement **ne part que
+sur un compte bancaire mexicain** au nom du titulaire (RFC avec homoclave + CLABE), d'où la consigne de
+ne pas fermer le compte et de laisser une **procuration à un apoderado legal** — même piège que le
+remboursement SSO thaïlandais. ④ **Le permis mexicain ne s'échange pas** : le Mexique n'est pas sur la
+liste de réciprocité, dans aucun des deux sens — l'analogie latino-américaine (« le Brésil s'échange »)
+est fausse. ⑤ **L'animal est le point facile, à l'inverse du dossier chinois** : le Mexique figure à
+l'**annexe II du règlement (UE) n° 577/2013**, donc **dispensé de titrage sérique** — transposer le
+calendrier chinois ferait perdre un trimestre pour rien.
+Autres faits vérifiés et qui portent la fiche : **convention fiscale signée à Mexico le 7 novembre
+1991**, en vigueur le **31 décembre 1992**, décret n° 93-285 du 1ᵉʳ mars 1993 ; barème ISR **1,92 % à
+35 %** (taux plafond au-delà de **3 898 140 pesos**, art. 152 LISR), déclaration annuelle au **30
+avril** ; **RESICO 1 % à 2,5 %** du chiffre d'affaires encaissé sans déduction jusqu'à **3 500 000
+pesos/an** (art. 113-E) — d'où la consigne de demander sa **constancia de semanas cotizadas** avant de
+rentrer, un expatrié payé en honorarios n'ayant ni semaines ni Afore (même piège que l'extrait CNIS du
+dossier brésilien) ; **retiro por desempleo** à 46 jours qui **coûte des semaines cotisées** ;
+**zone restreinte de l'article 27, fraction I, de la Constitution** (100 km des frontières, 50 km des
+plages) où l'étranger passe par un **fideicomiso** bancaire de 50 ans renouvelable, c'est-à-dire
+précisément là où la communauté est installée ; **résidence permanente de validité indéfinie**, l'ancien
+**article 47 de la Ley General de Población** ayant été **abrogé le 25 mai 2011** sans remplacement,
+contre une résidence temporaire bornée à 4 ans (art. 54 Ley de Migración, 18 mois d'absence cumulée
+max) ; **Seguro de Salud para la Familia** annuel payé d'avance et revalorisé au 1ᵉʳ mars 2026, **annulé
+sans remboursement** si l'IMSS diagnostique une affection préexistante la première année (art. 9,
+fraction II, LSS) — c'est une des raisons pour lesquelles on rentre ; **EUR/MXN moyen 19,53** en août
+2026 (19,09-20,00 dans le mois, soit près de 5 % d'écart entre le meilleur et le pire jour pour
+rapatrier).
+⚠️ **Un chiffre volontairement omis** : le montant de la cotisation IMSS des tranches âgées, les sources
+secondaires divergeant (18 100 et 20 538 pesos) — la fiche donne les deux montants concordants (9 300
+pesos pour 0-19 ans, 11 400 pour un adulte de 30 ans) et renvoie au portail de l'IMSS. Même doctrine que
+le FPU en ALD du glossaire : une phrase sans chiffre vaut mieux qu'un chiffre faux.
+Les 10 `bestSuitedCities` **sont un calcul et la fiche le dit** : `npx tsx` de scratch sur les **127
+communes de plus de 50 000 habitants** dont `data/housing.ts` publie un loyer, notées sur `remoteWork`
+(30 %), `life` (25 %), accessibilité du T3 (25 %) et **facilité** d'accès aux soins (20 %, soit
+`10 - computeHealthcareAccess().composite`, l'inversion étant au site de lecture). Résultat : Rennes,
+Nantes, Bordeaux, Angers, La Rochelle, Strasbourg, Annecy, Toulouse, Lyon, Villeurbanne — **aucune
+égalité ne coupe le classement au rang 10**, et la dernière warning publie les deux réserves du barème
+(La Rochelle et Annecy entrent malgré un accès aux soins bien plus difficile ; Annecy porte le T3 le
+plus élevé des dix à 1 450 €). Les 22 chiffres de loyer et de m² cités sont contrôlés un à un contre
+`data/housing.ts` (T3 médian du vivier **1 080 €**, m² médian **3 200 €**). Aucune page EN :
+`mexique` n'est pas dans `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à câbler. Contrôles :
+`npx tsc --noEmit` **propre**, `npm run integrity`, `npm run sitemap:check` (FR 29 193 → **29 194 URL**,
+soit exactement la fiche neuve ; EN inchangé), `npm run parity` (code 0), `npm run hreflang:check`, plus
+une vérification d'encodage (accents intacts, densité 0,175 par mot contre un seuil ascii-strip de 0,09,
+aucun `m2` / `EUR` / `deg` ascii, aucun mojibake) et une passe em-dash ramenée de 35 à **10** pour
+4 647 mots (cible R7.10 : ~1 pour 200 mots). `npm run build` **non lancé, volontairement** (cf.
+§ Commands depuis le batch 27).
+⚠️ Note de rédaction pour la prochaine fiche : le `<title>` de `app/expat-retour/[pays]/page.tsx`
+n'utilise **pas** `depuisLabel` (« Rentrer en France depuis Mexique »), alors que le H1 et le hub le
+font. C'est un défaut préexistant commun aux 23 fiches, pas une régression de ce run — le corriger
+touche 23 titres et relève d'une passe SEO, pas d'un run de contenu.
+Avant-dernier ajouté : **Thaïlande** — la
 première fiche dont le fil conducteur n'est ni l'argent ni la fiscalité mais **la santé** : on rentre de
 Thaïlande le plus souvent pour se faire soigner, et c'est exactement là que le dossier est le plus mal
 armé. **Il n'existe aucune convention de sécurité sociale France-Thaïlande** (vérifié ce run) : ni
@@ -1903,7 +1977,7 @@ viennent de `data/housing.ts` et les scores cités sont lus dans `CITIES_SEED` v
 seed source. Aucune page EN : `thailande` n'est pas dans `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à
 câbler (`parity` et `hreflang:check` repassés, verts). `sitemap:check` : FR 29 123 → **29 124 URL**, soit
 exactement la fiche neuve.
-Avant-dernier ajouté : **Brésil** — la
+Ajouté avant elles : **Brésil** — la
 première fiche d'Amérique latine, région qui n'avait aucun pays sur les vingt précédents. Le fil
 conducteur est que **la sortie fiscale brésilienne est un dépôt, pas un départ** : sans la
 *Comunicação de Saída Definitiva do País* (à déposer de la date de départ jusqu'au **dernier jour de
@@ -1977,7 +2051,8 @@ dans `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à câbler.
 ⚠️ La **meta description** de `app/expat-retour/[pays]/page.tsx` dépassait 160 caractères sur **les 20
 fiches d'alors** (jusqu'à 176 pour « Émirats arabes unis ») : la queue générique « Avec villes recommandées
 (frontalières + métropoles). » poussait hors du snippet les postes réellement cherchés. Réécrite,
-138-152 caractères sur les 20, 139 pour la fiche Brésil et 142 pour la fiche Thaïlande ajoutées depuis — ne
+138-152 caractères sur les 20, 139 pour la fiche Brésil, 142 pour la Thaïlande et 140 pour le Mexique
+ajoutées depuis — ne
 pas y remettre de queue générique.
 Ajouté avant lui : **Suède** —
 premier pays nordique de la liste, et le seul dossier du site où **le retour est fiscalement
