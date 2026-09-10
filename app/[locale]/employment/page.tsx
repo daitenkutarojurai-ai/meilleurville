@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Job market in France · best cities for employment 2026",
     description:
-      "Top 30 most active job markets vs top 20 most difficult. INSEE / DARES / SIRENE / DADS.",
+      "Top 30 most active job markets vs top 20 most difficult. Departmental estimate, not published rates.",
   },
 };
 
@@ -78,7 +78,7 @@ export default function EnEmploymentHubPage() {
     },
     {
       q: "How is the employment ranking calculated?",
-      a: "The composite aggregates four dimensions: unemployment rate INSEE Q4 2024 by department (35%), median net salary INSEE DADS (25%), net business creation SIRENE (20%), sector mix and economic resilience (20%). Score 0-10 where 10 = most dynamic labour market.",
+      a: "The composite aggregates four dimensions: unemployment rate INSEE Q4 2024 by department (35%), median net salary INSEE DADS (25%), net business creation SIRENE (20%), sector mix and economic resilience (20%). Score 0-10 where 10 = most dynamic labour market. It is an estimate: each department is placed in bands calibrated against the orders of magnitude published by INSEE, DADS, SIRENE and DARES, but none of those series is ingested — this is neither a published unemployment rate nor a salary observed town by town.",
     },
     {
       q: "What sectors drive the best job markets in France?",
@@ -104,14 +104,16 @@ export default function EnEmploymentHubPage() {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite index across four key dimensions of the local labour market:
-          unemployment rate (INSEE), business dynamism (SIRENE), sector mix
-          (resilience), and median net salary (DADS). Score 0-10 where 10 = most
+          unemployment, business dynamism, sector mix (resilience) and median net
+          salary — all four <strong>estimated</strong> at departmental level rather than
+          observed town by town. Score 0-10 where 10 = most
           dynamic. Filtered to cities of 15,000+ inhabitants for statistical
           relevance of departmental indicators.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Educational synthesis</Badge>
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: INSEE · DARES · SIRENE · DADS</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} cities</Badge>
           <Badge>Weighting: unemployment 35% · salary 25% · dynamism 20% · sector mix 20%</Badge>
         </div>
@@ -180,7 +182,7 @@ export default function EnEmploymentHubPage() {
           Top 20 — Most difficult job markets
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Cities of 15,000+ inhabitants combining high INSEE unemployment, below-average
+          Cities of 15,000+ inhabitants whose department combines a high unemployment band, below-average
           wages and weak net business creation. Tight market, often in economic transition.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
@@ -232,17 +234,20 @@ export default function EnEmploymentHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Unemployment (35%)</strong> —
-              quarterly INSEE rate by department (Q4 2024 latest). Metropolitan France
-              average ~7.3%. DROM territories chronically above 15%.
+              the department is placed in a band calibrated against the order of magnitude
+              of the quarterly INSEE rate (metropolitan France average ~7.3%, DROM
+              territories chronically above 15%). The published rate is not reused.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Salary (25%)</strong> —
-              departmental median net salary, INSEE DADS. France average ~€2,100/month.
-              Paris and inner suburbs above €2,400; DROM and rural departments below €1,850.
+              departmental bands calibrated against INSEE DADS orders of magnitude (France
+              average ~€2,100/month, Paris and inner suburbs above €2,400, DROM and rural
+              departments below €1,850). No salary is observed town by town.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Business dynamism (20%)</strong> —
-              net business creation SIRENE by department, weighted by city size.
+              net business creation estimated by department in the spirit of the SIRENE
+              flows, weighted by city size.
               Metropolitan areas and coastal zones lead; rural areas in structural decline trail.
             </li>
             <li>
@@ -252,9 +257,10 @@ export default function EnEmploymentHubPage() {
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Departmental-scale synthesis. The local market can vary significantly within
-            a department (prefecture vs. rural canton). For live job listings: France Travail,
-            Apec (management), Hellowork.
+            This ranking sorts departmental <strong>estimates</strong>, not readings: no
+            unemployment rate, no SIRENE flow and no median salary is ingested here. The local
+            market also varies significantly within a department (prefecture vs. rural canton).
+            For live job listings: France Travail, Apec (management), Hellowork.
           </p>
         </Card>
 

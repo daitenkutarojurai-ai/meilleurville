@@ -20,7 +20,7 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: "Healthcare access in France · hospitals vs deserts 2026",
   description:
-    "National ranking of French cities by healthcare access: GPs, specialists, A&E, pharmacies. Top 30 best-served cities vs top 20 medical deserts. Sources: DREES / CNOM / ARS.",
+    "National ranking of French cities by healthcare access: GPs, specialists, A&E, pharmacies. Top 30 best-served cities vs top 20 medical deserts. Commune-level estimate, not a count of practices.",
   alternates: pathAlternatesEn("/sante", "/healthcare"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -76,7 +76,7 @@ export default function HealthcareHubPage() {
     },
     {
       q: "How is this ranking calculated?",
-      a: "Composite of 4 dimensions: GPs (35%, DREES departmental density + university hospital overrides), specialists (25%, university hospital > large agglomeration > medium city > rural), A&E (25%, presence in city + mountain/island penalty), pharmacies (15%, population coverage × urban status). Score 0-10, 10 = excellent access. Sources: DREES, CNOM, ARS.",
+      a: "Composite of 4 dimensions: GPs (35%, DREES departmental density + university hospital overrides), specialists (25%, university hospital > large agglomeration > medium city > rural), A&E (25%, presence in city + mountain/island penalty), pharmacies (15%, population coverage × urban status). Score 0-10, 10 = excellent access. It is a commune-level estimate built from the department, town size and hospital status: the bands are calibrated against DREES, CNOM and ARS reference figures, but none of their readings are reused — this is neither a count of practices nor the ARS zoning in force.",
     },
     {
       q: "What if I cannot find a GP?",
@@ -105,7 +105,8 @@ export default function HealthcareHubPage() {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Educational overview</Badge>
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: DREES · CNOM · ARS</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} cities</Badge>
           <Badge>GP 35% · specialists 25% · A&E 25% · pharmacies 15%</Badge>
         </div>
@@ -181,7 +182,7 @@ export default function HealthcareHubPage() {
           Top 20 — Confirmed medical deserts
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Cities ≥ 10,000 with poor GP density (DREES), saturated specialists, and distant emergency
+          Cities ≥ 10,000 whose department sits in the lowest GP band, with distant specialists and distant emergency
           services. Low composite score = difficult access.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
@@ -240,10 +241,11 @@ export default function HealthcareHubPage() {
         <Card className="mt-3">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
-              <strong className="text-[var(--text-primary)]">GPs (35%)</strong> — DREES
-              departmental density 2023-2024, categorised: desert (&lt; 80/100k + &gt; 50% GPs &gt;
-              60 years old) / under-served (&lt; 100/100k) / adequate / well-served (&gt; 145/100k
-              or metro/university hospital).
+              <strong className="text-[var(--text-primary)]">GPs (35%)</strong> — the
+              department is placed in one of four bands — desert / under-served / adequate /
+              well-served — defined from DREES reference figures (below 80/100k with more than
+              half of GPs over 60, below 100/100k, above 145/100k or metro/university hospital).
+              The band is assigned to the department; no density is read town by town.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Specialists (25%)</strong> — city hosts
@@ -262,9 +264,10 @@ export default function HealthcareHubPage() {
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            City-level summary. Precise zoning and GP incentive schemes are published by the ARS.
-            The situation changes quickly with retirements — check GP availability on Ameli before
-            relocating.
+            This ranking sorts commune-level <strong>estimates</strong>, not readings: no
+            medical density, no appointment delay and no plot-level zoning is ingested here.
+            Precise zoning and GP incentive schemes are published by the ARS, and the situation
+            changes quickly with retirements — check GP availability on Ameli before relocating.
           </p>
         </Card>
 

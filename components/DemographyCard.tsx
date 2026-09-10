@@ -61,7 +61,10 @@ export function DemographyCard({ city, locale = "fr" }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          {L("10 = démographie dynamique · INSEE RP · OMPHALE.", "10 = dynamic demographics · INSEE census · OMPHALE.")}
+          {L(
+            "10 = démographie dynamique · vieillissement et trajectoire mesurés au recensement Insee, jeunes actifs et renouvellement estimés.",
+            "10 = dynamic demographics · ageing and trajectory measured in the Insee census, young adults and renewal estimated.",
+          )}
         </p>
       </Link>
     </Card>

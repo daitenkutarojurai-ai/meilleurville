@@ -162,28 +162,28 @@ function dynamismRisk(city: CityLight): JobDimension {
     return {
       score: 7.5,
       level: "tendu",
-      reason: "Commune rurale à faible création d'entreprises — solde net SIRENE souvent négatif, peu de renouvellement du tissu local.",
+      reason: "Commune rurale à faible création d'entreprises — solde net d'établissements estimé négatif, dans l'esprit des séries SIRENE, peu de renouvellement du tissu local.",
     };
   }
   if (isMetro && (isDynamic || isAttractive)) {
     return {
       score: 1.5,
       level: "facile",
-      reason: "Grande métropole dynamique — création nette d'entreprises SIRENE soutenue, écosystème actif (start-ups, services, indépendants).",
+      reason: "Grande métropole dynamique — création nette d'établissements estimée soutenue (repère SIRENE), écosystème actif (start-ups, services, indépendants).",
     };
   }
   if (isAttractive || (isMetro && pop > 100_000)) {
     return {
       score: 3,
       level: "facile",
-      reason: "Département attractif avec solde net SIRENE positif. Création régulière de TPE, présence d'incubateurs et de tiers-lieux.",
+      reason: "Département classé attractif par le modèle, solde net d'établissements estimé positif (repère SIRENE). Création régulière de TPE, présence d'incubateurs et de tiers-lieux.",
     };
   }
   if (pop > 50_000) {
     return {
       score: 5,
       level: "actif",
-      reason: "Ville moyenne avec dynamique entrepreneuriale équilibrée. Création nette SIRENE neutre à légèrement positive.",
+      reason: "Ville moyenne avec dynamique entrepreneuriale équilibrée. Création nette d'établissements estimée neutre à légèrement positive (repère SIRENE).",
     };
   }
   return {
@@ -307,34 +307,34 @@ function salaryRisk(city: CityLight): JobDimension {
     return {
       score: 1,
       level: "facile",
-      reason: "Salaire net médian départemental > 2 400 €/mois (INSEE DADS). Marché parisien et grande couronne — pouvoir d'achat à arbitrer avec le loyer.",
+      reason: "Palier salaire haut : médiane départementale estimée au-delà de 2 400 €/mois, calée sur les ordres de grandeur INSEE DADS. Marché parisien et grande couronne — pouvoir d'achat à arbitrer avec le loyer.",
     };
   }
   if (SALARY_GOOD_DEPTS.has(d)) {
     return {
       score: 2.5,
       level: "facile",
-      reason: "Salaire net médian départemental 2 100-2 300 €/mois (INSEE DADS). Bon ratio salaire/coût de la vie dans plusieurs métropoles.",
+      reason: "Palier salaire correct : médiane départementale estimée entre 2 100 et 2 300 €/mois (repères INSEE DADS). Bon ratio salaire/coût de la vie dans plusieurs métropoles.",
     };
   }
   if (SALARY_VERY_LOW_DEPTS.has(d)) {
     return {
       score: 8,
       level: "sinistre",
-      reason: "Salaire net médian départemental < 1 850 €/mois (INSEE DADS). Pouvoir d'achat structurellement limité.",
+      reason: "Palier salaire bas : médiane départementale estimée sous 1 850 €/mois (repères INSEE DADS). Pouvoir d'achat structurellement limité.",
     };
   }
   if (SALARY_LOW_DEPTS.has(d)) {
     return {
       score: 6,
       level: "tendu",
-      reason: "Salaire net médian départemental 1 850-1 950 €/mois (INSEE DADS) — sous la moyenne nationale.",
+      reason: "Palier salaire modeste : médiane départementale estimée entre 1 850 et 1 950 €/mois (repères INSEE DADS), sous la moyenne nationale.",
     };
   }
   return {
     score: 4.5,
     level: "actif",
-    reason: "Salaire net médian départemental proche de la moyenne nationale (~2 100 €/mois INSEE DADS).",
+    reason: "Palier salaire médian : médiane départementale estimée proche de la moyenne nationale, de l'ordre de 2 100 €/mois (repères INSEE DADS).",
   };
 }
 

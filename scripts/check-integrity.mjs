@@ -606,6 +606,119 @@ if (!failed) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Moteurs propriétaires (F47 santé, F50 emploi, F57 vélo, F58 sécurité,
+// F59 démographie, F60 services publics) : une surface qui publie ces scores
+// doit dire qu'ils sont ESTIMÉS.
+//
+// Même défaut que le quartet environnement, dans cinq familles de plus, trouvé
+// le 2026-09-10. `healthcare-access`, `employment-market`, `safety-deep`,
+// `public-services` et `cycling-mobility` n'importent que `CityLight` : rien
+// n'est ingéré, tout est calculé depuis le seed. Leurs propres en-têtes disent
+// « Aucune dépendance externe » et rangent les organismes en « sources de
+// référence ». Les surfaces, elles, écrivaient « Sources : DREES · CNOM · ARS »,
+// « Sources : INSEE · DARES · SIRENE », « détail SSMSI » jusque dans le <title>,
+// « These figures come from SSMSI [...] expressed per 1,000 residents » — donc
+// « chiffre publié par ces organismes ». Il ne l'est pas.
+//
+// `demography` est le cas mixte et il a sa propre règle : vieillissement et
+// trajectoire sont MESURÉS au recensement Insee (538/540 villes, via
+// lib/city-population), jeunes actifs et renouvellement sont estimés. Une
+// surface démographie doit donc dire lequel est lequel — pas « estimé » en bloc,
+// qui serait faux dans l'autre sens — d'où un marqueur distinct.
+//
+// Les organismes restent NOMMÉS, comme cadres de référence : ils calent les
+// paliers, on ne reprend pas leurs relevés.
+{
+  const FAMILIES = [
+    {
+      name: "santé",
+      uses: /computeHealthcareAccess\b|@\/lib\/healthcare-access"/,
+      mark: /pas un relev|estimation communale|[Ee]stimation structurelle|estimé|estimés|estimées|commune-level estimate|not a count of practices|[Ee]stimated at commune level|[Ee]stimated by population|[Ss]tructural estimate/,
+    },
+    {
+      name: "emploi",
+      uses: /computeEmploymentMarket\b|@\/lib\/employment-market"/,
+      mark: /pas le taux|estimation départementale|fourchettes? départementales? estimées?|[Ee]stimation structurelle|palier estimé|estimé|estimés|estimées|departmental estimate|estimated d[ée]partement(al)? ranges?|published rate is not reused|not a published rate|not the unemployment rate|[Ss]tructural estimate/,
+    },
+    {
+      name: "sécurité",
+      uses: /computeSafetyDeep\b|@\/lib\/safety-deep"/,
+      mark: /pas les faits enregistrés|estimation communale|[Ee]stimation structurelle|profil estimé|estimé|estimés|estimées|commune-level estimate|not recorded crime|not the offences recorded|[Ss]tructural estimate/,
+    },
+    {
+      name: "services publics",
+      uses: /computePublicServices\b|@\/lib\/public-services"/,
+      mark: /pas l'annuaire|annuaire d'équipements n'est ingéré|estimation communale|[Ee]stimation structurelle|estimé|estimés|estimées|commune-level estimate|not a directory of facilities|[Ee]stimated by population|[Ss]tructural estimate/,
+    },
+    {
+      name: "vélo",
+      uses: /computeCyclingMobility\b|@\/lib\/cycling-mobility"/,
+      mark: /pas une note d'enquête|pas relevés sur le terrain|estimation communale|[Ee]stimation structurelle|estimé|estimés|estimées|commune-level estimate|not a survey score|not surveyed on the ground|[Ss]tructural estimate/,
+    },
+    {
+      name: "commerces",
+      uses: /computeCommerce\b|@\/lib\/commerce"/,
+      mark: /pas (d'un |un )?décompte terrain|[Pp]roxy honnête|estimation communale|[Ee]stimation structurelle|estimé|estimés|estimées|no field count|not a field count|[Hh]onest proxy|commune-level estimate|[Ss]tructural estimate/,
+    },
+    {
+      // Cas mixte : la surface doit distinguer mesuré et estimé, pas dire
+      // « estimé » en bloc (deux dimensions sur quatre sont bien mesurées).
+      name: "démographie",
+      uses: /computeDemography\b|@\/lib\/demography"/,
+      // `<strong> mesurées</strong>` s'intercale dans plusieurs surfaces : on
+      // tolère la balise entre le verbe et son complément.
+      mark: /mesur(é|ée|és|ées)(<\/?strong>|\s)*(sur la commune|au recensement|commune par commune|entre les recensements|dans le recensement)|dimensions mesurées|mesure communale|measured(<\/?strong>|\s)*(for this commune|commune by commune|in the Insee census|between the)|dimensions measured|commune-level measure/,
+    },
+  ];
+
+  const surfaces = [];
+  (function walk(dir) {
+    for (const entry of readdirSync(dir)) {
+      const p = path.join(dir, entry);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (entry.endsWith(".tsx")) surfaces.push(p);
+    }
+  })(path.join(ROOT, "app"));
+  for (const entry of readdirSync(path.join(ROOT, "components"))) {
+    if (entry.endsWith(".tsx")) surfaces.push(path.join(ROOT, "components", entry));
+  }
+
+  let scanned = 0;
+  const mute = [];
+  for (const file of surfaces) {
+    const src = readFileSync(file, "utf8");
+    for (const fam of FAMILIES) {
+      if (!fam.uses.test(src)) continue;
+      scanned += 1;
+      if (!fam.mark.test(src)) mute.push(`${path.relative(ROOT, file)} (${fam.name})`);
+    }
+  }
+
+  if (mute.length === 0) {
+    console.log(
+      `  ok  moteurs   ${scanned} surfaces (santé, emploi, sécurité, services publics, vélo, commerces, démographie) disent ce que le score est`,
+    );
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  moteurs propriétaires : ${mute.length} surface(s) muette(s)\n`);
+    for (const p of mute) console.error(`    ${p}`);
+    console.error(
+      "\n    Ces six libs ne lisent que le seed — aucune donnée DREES, CNOM, ARS,\n" +
+        "    INSEE, DARES, SIRENE, SSMSI, DEPP, FUB, BPE ou La Poste n'est ingérée. Une\n" +
+        "    surface qui publie leur score doit dire qu'il est estimé et ce qu'il\n" +
+        "    n'est pas (un relevé de cabinets, le taux de chômage publié, les faits\n" +
+        "    enregistrés, l'annuaire des équipements, une note d'enquête, un décompte\n" +
+        "    terrain). Nommer ces\n" +
+        "    organismes en « cadres de référence » est correct ; en « sources » ne\n" +
+        "    l'est pas.\n" +
+        "    La démographie est le cas mixte : vieillissement et trajectoire SONT\n" +
+        "    mesurés au recensement Insee, jeunes actifs et renouvellement ne le sont\n" +
+        "    pas — la surface doit dire lequel est lequel, pas « estimé » en bloc.\n",
+    );
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

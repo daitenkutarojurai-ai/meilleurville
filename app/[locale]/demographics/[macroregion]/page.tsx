@@ -104,7 +104,7 @@ export default async function MacroRegionDemographicsEnPage({ params }: Props) {
     },
     {
       q: `How is this ranking calculated?`,
-      a: `Weighted composite across 4 INSEE dimensions: ageing (30%), demographic trajectory (30%), young workers 25-35 (25%), birth-rate renewal (15%). Sources: INSEE RP, Bilan démographique, OMPHALE projection.`,
+      a: `Weighted composite across 4 dimensions: ageing (30%) and demographic trajectory (30%) are measured commune by commune in the Insee census; young workers 25-35 (25%) and birth-rate renewal (15%) are estimated from the department and the town's profile. No projection is ingested.`,
     },
   ]);
 
@@ -126,10 +126,12 @@ export default async function MacroRegionDemographicsEnPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite demographics index for {cities.length} cities in the {label} macro-region
           with over 10,000 inhabitants. Four dimensions: ageing, young workers, trajectory,
-          renewal.
+          renewal. Ageing and trajectory are <strong>measured</strong> commune by commune in
+          the Insee census; young workers and renewal are <strong>estimated</strong>.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>2 dimensions measured · 2 estimated</Badge>
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average composite: {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -140,10 +142,10 @@ export default async function MacroRegionDemographicsEnPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Ageing", v: avgAgeing, hint: "% seniors 60+ by dept" },
-              { k: "Young workers", v: avgYoung, hint: "Deficit of 25-35 age group" },
-              { k: "Trajectory", v: avgTraj, hint: "Natural + migration balance" },
-              { k: "Renewal", v: avgRenewal, hint: "Birth rate per 1,000" },
+              { k: "Ageing", v: avgAgeing, hint: "% aged 60+, measured (census)" },
+              { k: "Young workers", v: avgYoung, hint: "Deficit of 25-35s, estimated" },
+              { k: "Trajectory", v: avgTraj, hint: "Measured change 2016-2022" },
+              { k: "Renewal", v: avgRenewal, hint: "Birth rate, estimated band" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>

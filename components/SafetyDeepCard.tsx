@@ -32,7 +32,7 @@ export function SafetyDeepCard({ city, locale = "fr" }: Props) {
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
             <Shield className="h-4 w-4 text-[var(--text-secondary)]" />
-            {L("Sécurité — détail SSMSI", "Safety — SSMSI breakdown")}
+            {L("Sécurité — profil estimé", "Safety — estimated profile")}
           </h3>
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
@@ -62,7 +62,10 @@ export function SafetyDeepCard({ city, locale = "fr" }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          {L("10 = ville la plus sûre · SSMSI · Insee CVS.", "10 = safest · SSMSI · Insee victimization survey.")}
+          {L(
+            "10 = ville la plus sûre · estimation communale suivant le découpage SSMSI, pas les faits enregistrés.",
+            "10 = safest · commune-level estimate following the SSMSI categories, not recorded crime.",
+          )}
         </p>
       </Link>
     </Card>

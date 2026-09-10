@@ -24,7 +24,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Retail coverage in France · 2026 city ranking",
   description:
-    "Where French cities have the densest retail offer and where downtown is thinning. Top 30 best-covered cities vs top 20 in retail stress (INSEE BPE, Procos).",
+    "Where French cities have the densest retail offer and where downtown is thinning. Top 30 best-covered vs top 20 in retail stress. Honest proxy, no field count.",
   alternates: pathAlternatesEn("/commerces", "/retail-coverage"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -130,7 +130,7 @@ export default function EnRetailHubPage() {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Sources: INSEE BPE, Procos, Action Cœur de Ville</Badge>
+          <Badge>Reference frameworks: INSEE BPE, Procos, Action Cœur de Ville</Badge>
           <Badge>{CITIES_COUNT} cities referenced</Badge>
           <Badge>Honest proxy · no field count</Badge>
         </div>

@@ -34,14 +34,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = computePublicServices(city);
   return {
     title: `Services publics à ${city.name} · écoles, Poste, mairie, médiathèque`,
-    description: clampMeta(`Accès aux services publics à ${city.name} (${city.department}) : écoles ${SERVICES_LEVEL_LABEL[s.schools.level].toLowerCase()}, La Poste ${SERVICES_LEVEL_LABEL[s.postOffice.level].toLowerCase()}, mairie ${SERVICES_LEVEL_LABEL[s.cityHall.level].toLowerCase()}, médiathèque ${SERVICES_LEVEL_LABEL[s.library.level].toLowerCase()}. Score ${(10 - s.composite).toFixed(1)}/10 (10 = maillage complet).`),
+    description: clampMeta(`Accès estimé aux services publics à ${city.name} (${city.department}) : écoles ${SERVICES_LEVEL_LABEL[s.schools.level].toLowerCase()}, La Poste ${SERVICES_LEVEL_LABEL[s.postOffice.level].toLowerCase()}, mairie ${SERVICES_LEVEL_LABEL[s.cityHall.level].toLowerCase()}, médiathèque ${SERVICES_LEVEL_LABEL[s.library.level].toLowerCase()}. Score ${(10 - s.composite).toFixed(1)}/10 (10 = maillage complet).`),
     alternates: cityAlternates("services-publics", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
       title: `Services publics à ${city.name}`,
-      description: `Écoles, médiathèque, La Poste, mairie — synthèse DEPP / BNF / La Poste / France Services.`,
+      description: `Écoles, médiathèque, La Poste, mairie — estimation communale, pas l'annuaire des équipements.`,
     },
   };
 }
@@ -82,15 +82,15 @@ export default async function ServicesPubliquesPage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `Quels services publics sont disponibles à ${city.name} ?`,
-      a: `${city.name} (${city.department}) totalise un composite services publics ${(10 - s.composite).toFixed(1)}/10 (10 = maillage complet). Détail : écoles & petite enfance ${(10 - s.schools.score).toFixed(1)}/10, médiathèque ${(10 - s.library.score).toFixed(1)}/10, La Poste & France Services ${(10 - s.postOffice.score).toFixed(1)}/10, mairie & démarches ${(10 - s.cityHall.score).toFixed(1)}/10. ${s.signature}`,
+      a: `${city.name} (${city.department}) totalise un composite services publics estimé de ${(10 - s.composite).toFixed(1)}/10 (10 = maillage complet). Détail : écoles & petite enfance ${(10 - s.schools.score).toFixed(1)}/10, médiathèque ${(10 - s.library.score).toFixed(1)}/10, La Poste & France Services ${(10 - s.postOffice.score).toFixed(1)}/10, mairie & démarches ${(10 - s.cityHall.score).toFixed(1)}/10. ${s.signature}`,
     },
     {
       q: `Y a-t-il une Maison France Services à ${city.name} ?`,
-      a: `Les Maisons France Services (~2 800 implantations en 2024) regroupent en présence les démarches CAF, CPAM, impôts, Pôle Emploi, ANTS et retraites. Carte officielle sur france-services.gouv.fr. Maillage prioritaire visant 1 implantation par canton.`,
+      a: `Notre score ne le sait pas : il estime un maillage par strate de population et par département, il ne consulte aucun annuaire d'implantations. Les Maisons France Services (~2 800 implantations en 2024) regroupent en présence les démarches CAF, CPAM, impôts, France Travail, ANTS et retraites, et la carte officielle est sur france-services.gouv.fr. Maillage prioritaire visant 1 implantation par canton.`,
     },
     {
       q: `Où sont les écoles et collèges de ${city.name} ?`,
-      a: s.schools.reason + " L'annuaire DEPP du ministère de l'Éducation nationale liste l'ensemble des établissements par commune sur education.gouv.fr.",
+      a: s.schools.reason + " Ce niveau est estimé par strate de population, il ne compte pas les établissements : l'annuaire du ministère de l'Éducation nationale les liste commune par commune sur education.gouv.fr.",
     },
     {
       q: `${city.name} a-t-elle un bureau de Poste actif ?`,
@@ -115,22 +115,27 @@ export default async function ServicesPubliquesPage({ params }: Props) {
           Services publics à {city.name}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Synthèse pédagogique des quatre piliers du quotidien administratif :
-          écoles &amp; petite enfance, médiathèque, La Poste &amp; France Services,
-          mairie &amp; démarches en présence. Sources :{" "}
+          Profil <strong>structurel</strong> des quatre piliers du quotidien
+          administratif : écoles &amp; petite enfance, médiathèque, La Poste &amp; France
+          Services, mairie &amp; démarches en présence. Les quatre niveaux sont{" "}
+          <strong>estimés</strong> par strate de population et par département — ils suivent
+          le découpage de l&apos;annuaire DEPP, du réseau France Services, des relais de
+          La Poste et de l&apos;observatoire BNF de la lecture publique,{" "}
+          <strong>sans consulter aucun de ces annuaires</strong> : ce n&apos;est donc pas la
+          liste des équipements réellement ouverts à {city.name}. Les annuaires officiels,
+          eux, sont ceux de{" "}
           <a href="https://www.education.gouv.fr/annuaire" target="_blank" rel="noreferrer" className="text-[var(--accent)] hover:underline">
-            DEPP
+            l&apos;Éducation nationale
           </a>{" "}
-          ·{" "}
+          et de{" "}
           <a href="https://www.france-services.gouv.fr/" target="_blank" rel="noreferrer" className="text-[var(--accent)] hover:underline">
             France Services
-          </a>{" "}
-          · CAF · BNF · La Poste.
+          </a>.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>DEPP · CAF · BNF · France Services · La Poste</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : DEPP · CAF · BNF · France Services · La Poste</Badge>
         </div>
 
         {/* Composite hero */}
@@ -165,7 +170,8 @@ export default async function ServicesPubliquesPage({ params }: Props) {
             <li>
               <strong className="text-[var(--text-primary)]">Écoles &amp; enfance (35 %) :</strong>{" "}
               écoles élémentaires + collèges + lycées + crèches. Maillage par
-              palier de population (annuaire DEPP). Malus crèche pour les
+              palier de population, dans le découpage de l&apos;annuaire DEPP mais sans le
+              lire. Malus crèche pour les
               départements à forte tension d&apos;accueil (CAF). Métropoles
               étudiantes et villes ≥ 30 000 hab. : maillage complet.
             </li>
@@ -185,15 +191,19 @@ export default async function ServicesPubliquesPage({ params }: Props) {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Médiathèque (15 %) :</strong>{" "}
-              référencement BNF / ministère de la Culture — ~16 000 lieux de
-              lecture publique. Présence quasi-systématique &gt; 10 000 hab.
+              présence estimée par strate, calée sur l&apos;observatoire BNF / ministère de
+              la Culture et ses ~16 000 lieux de lecture publique. Quasi-systématique
+              au-delà de 10 000 hab.
               Bonus pour villes culturelles &amp; étudiantes (horaires étendus,
               ressources numériques).
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Maillage proxyé par strate de population × département. Pour le
-            détail point par point, consulter{" "}
+            Ces quatre scores sont des <strong>estimations</strong> par strate de
+            population × département : aucun annuaire d&apos;équipements n&apos;est ingéré
+            ici, donc un bureau fermé l&apos;an dernier ou une Maison France Services
+            ouverte le mois dernier n&apos;y figurent pas. Pour le détail point par point,
+            consulter{" "}
             <a href="https://lannuaire.service-public.fr/" target="_blank" rel="noreferrer" className="text-[var(--accent)] hover:underline">l&apos;annuaire de l&apos;administration</a>{" "}
             sur service-public.fr.
           </p>

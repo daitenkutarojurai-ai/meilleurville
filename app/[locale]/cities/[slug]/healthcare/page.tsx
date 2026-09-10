@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
   return {
     title: `${c.name} healthcare access — GPs, specialists, ER (2026)`,
-    description: `Healthcare access in ${c.name}: how easy it is to find a GP, see a specialist, reach emergency care. Built on DREES medical-density data.`,
+    description: `Healthcare access in ${c.name}: finding a GP, seeing a specialist, reaching emergency care. Commune-level estimate, not a count of practices.`,
     alternates: cityAlternatesEn("healthcare", slug),
   };
 }
@@ -93,6 +93,15 @@ export default async function EnCityHealthcare({ params }: Props) {
           Access score: <span className={`font-mono-data font-bold ${scoreColor(accessScore)}`}>{accessScore.toFixed(1)}/10</span>{" "}
           ({LEVEL_LABEL[access.level]}). {HERO_VERDICT[access.level]}
         </p>
+        {/* Same correction as the air pages (2026-09-09): the FR twin now says
+            what this number is and what it is not, and hreflang alternates must
+            not disagree on that. `lib/healthcare-access.ts` imports CityLight
+            only — no DREES, CNOM or ARS figure is ingested anywhere. */}
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          10 = easiest access. Estimated at commune level from the department, town
+          size and hospital status — calibrated against DREES, CNOM and ARS reference
+          bands, not a count of practices or the ARS zoning in force.
+        </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
@@ -120,7 +129,13 @@ export default async function EnCityHealthcare({ params }: Props) {
           <li>· <strong className="text-[var(--text-primary)]">Pharmacies</strong> — local pharmacy coverage, including duty rotas.</li>
         </ul>
         <p className="text-sm text-[var(--text-tertiary)] mb-8">
-          Built on DREES medical-density data. To get care reimbursed you generally need a declared GP (médecin traitant) — line one up early, especially in strained areas.
+          These four scores are a <strong>commune-level estimate</strong>, worked out
+          from the department, the size of the town and whether it has a hospital. They
+          follow the DREES under-provision bands, the CNOM demographic atlas and the logic
+          of the ARS ZIP/ZAC zoning, but reuse none of their readings: this is not a count
+          of the practices open in {c.name}, and not the ARS zoning in force. To get care
+          reimbursed you generally need a declared GP (médecin traitant) — line one up
+          early, especially in strained areas.
         </p>
         <div className="mt-2 flex flex-wrap gap-3">
           <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {c.name}</Link>

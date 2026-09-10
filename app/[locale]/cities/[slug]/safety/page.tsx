@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
   return {
     title: `${c.name} safety — crime, night safety, by the numbers (2026)`,
-    description: `How safe is ${c.name}? Property crime, crimes against persons, night safety — built on SSMSI police statistics, not reputation.`,
+    description: `How safe is ${c.name}? Property crime, crimes against persons, night safety — a commune-level estimate, not recorded crime counts.`,
     alternates: cityAlternatesEn("safety", slug),
   };
 }
@@ -93,6 +93,11 @@ export default async function EnCitySafety({ params }: Props) {
           Safety score: <span className={`font-mono-data font-bold ${scoreColor(safetyScore)}`}>{safetyScore.toFixed(1)}/10</span>{" "}
           ({LEVEL_LABEL[safety.level]}). {HERO_VERDICT[safety.level]}
         </p>
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          10 = safest. Estimated at commune level from the city's safety score, its size
+          and its profile — it follows the SSMSI categories but reuses none of their
+          rates, so these are not the offences recorded here.
+        </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
@@ -116,7 +121,12 @@ export default async function EnCitySafety({ params }: Props) {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">How to read this</h2>
         <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-          These figures come from SSMSI — the French Interior Ministry's statistical service — expressed per 1,000 residents, not from reputation or anecdote. Two things worth keeping in mind:
+          These four sub-scores are a <strong>commune-level estimate</strong>, not a
+          count. They break the city's safety score into the four categories used by the
+          SSMSI — the French Interior Ministry's statistical service — but no per-1,000
+          rate is ingested anywhere, so this is not recorded crime for {c.name}. The real
+          figures are published monthly by the SSMSI at interstats.fr. Two more things
+          worth keeping in mind:
         </p>
         <ul className="text-[var(--text-secondary)] leading-relaxed space-y-2 mb-8">
           <li>· A city's reputation often lags its real numbers by a decade, in both directions.</li>

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Villes cyclables en France 2026",
     description:
-      "Top 30 villes où le vélo est un plaisir vs. top 20 où il devient une épreuve. FUB · Vélo & Territoires · Géovélo.",
+      "Top 30 villes où le vélo est un plaisir vs. top 20 où il devient une épreuve. Estimation communale, pas le Baromètre FUB.",
   },
 };
 
@@ -56,11 +56,11 @@ export default function CyclingHubPage() {
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : réseau cyclable (35 %, Baromètre FUB + Vélo & Territoires + présence EuroVelo), topographie (25 %, altitude + département vallonné/plat), sécurité (25 %, densité urbaine × aménagement), climat (15 %, soleil + vent + hiver). Score 0-10, 10 = excellent. Sources : FUB, Vélo & Territoires, Géovélo, INSEE.",
+      a: "Composite agrégeant 4 dimensions : réseau cyclable (35 %, Baromètre FUB + Vélo & Territoires + présence EuroVelo), topographie (25 %, altitude + département vallonné/plat), sécurité (25 %, densité urbaine × aménagement), climat (15 %, soleil + vent + hiver). Score 0-10, 10 = excellent. C'est une estimation bâtie sur la taille de la commune, son relief, son climat et ses tags : les repères viennent du Baromètre FUB, des palmarès Vélo & Territoires et du tracé des EuroVelo, mais aucune note d'enquête ni aucun kilomètre d'aménagement n'est ingéré.",
     },
     {
-      q: "Où voir le Baromètre FUB officiel ?",
-      a: "Le Baromètre des Villes Cyclables FUB (parlons-velo.fr) publie tous les 2 ans le classement officiel, basé sur l'enquête citoyenne. Vélo & Territoires (velo-territoires.org) cartographie le déploiement des Schémas Directeurs Vélo par EPCI. Géovélo (geovelo.fr) propose des itinéraires sécurisés en application.",
+      q: "Ce classement est-il le Baromètre FUB ?",
+      a: "Non : le nôtre est estimé et ne reprend aucune note d'enquête. Le Baromètre des Villes Cyclables FUB (parlons-velo.fr) publie tous les 2 ans le classement officiel, basé sur l'enquête citoyenne. Vélo & Territoires (velo-territoires.org) cartographie le déploiement des Schémas Directeurs Vélo par EPCI. Géovélo (geovelo.fr) propose des itinéraires sécurisés en application.",
     },
   ]);
 
@@ -81,11 +81,14 @@ export default function CyclingHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions clés de la cyclabilité quotidienne :
           réseau d&apos;aménagements, topographie, sécurité et climat. Score 0-10, 10 =
-          excellent. Filtre 15 000 habitants minimum pour pertinence des indicateurs.
+          excellent — les quatre niveaux sont <strong>estimés</strong> depuis la taille de
+          la commune, son relief, son climat et ses tags, pas relevés sur le terrain.
+          Filtre 15 000 habitants minimum.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : FUB · Vélo &amp; Territoires · Géovélo</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération réseau 35 % · topo 25 % · sécurité 25 % · climat 15 %</Badge>
         </div>
@@ -95,8 +98,9 @@ export default function CyclingHubPage() {
           Top 30 — villes les plus cyclables
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Communes régulièrement primées Baromètre FUB / Vélo & Territoires, traversées par
-          un itinéraire EuroVelo, ou bénéficiant d&apos;une plaine favorable.
+          Communes que les palmarès FUB / Vélo &amp; Territoires ont régulièrement primées,
+          traversées par un itinéraire EuroVelo, ou posées sur une plaine favorable — le
+          modèle les reconnaît par ces trois signaux, pas par un relevé de leur réseau.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -205,7 +209,7 @@ export default function CyclingHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Réseau cyclable (35 %)</strong> —
-              ville régulièrement primée Baromètre FUB / palmarès Vélo & Territoires
+              estimé depuis la réputation cyclable établie par les palmarès FUB / Vélo &amp; Territoires
               (Strasbourg, Grenoble, Rennes, Nantes, Bordeaux, La Rochelle, Chambéry,
               Annecy, Caen, Lorient…) + statut métropolitain + présence sur EuroVelo
               structurante (EV1 Vélodyssée, EV3 Scandibérique, EV6 Loire, EV8 Méditerranée,
@@ -235,7 +239,9 @@ export default function CyclingHubPage() {
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
             Score à l&apos;échelle communale. À l&apos;adresse, l&apos;expérience varie
             fortement selon le quartier (centre vs. périphérie péri-urbaine non aménagée).
-            Pour l&apos;itinéraire réel, Géovélo et OpenStreetMap offrent les meilleures
+            Ce classement trie des estimations communales : aucune note du Baromètre FUB,
+            aucun kilomètre de piste et aucune donnée d&apos;accidentologie ne sont ingérés
+            ici. Pour l&apos;itinéraire réel, Géovélo et OpenStreetMap offrent les meilleures
             cartes vélo à jour.
           </p>
         </Card>

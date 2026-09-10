@@ -64,8 +64,8 @@ export function PublicServicesCard({ city, locale = "fr" }: Props) {
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
           {L(
-            "10 = maillage de services publics complet · DEPP · CAF · La Poste · BNF · France Services.",
-            "10 = full coverage of public services · DEPP · CAF · La Poste · BNF · France Services.",
+            "10 = maillage complet · estimation communale calée sur les repères DEPP / CAF / La Poste / BNF / France Services, pas l'annuaire des équipements.",
+            "10 = full coverage · commune-level estimate calibrated against DEPP / CAF / La Poste / BNF / France Services, not a directory of facilities.",
           )}
         </p>
       </Link>

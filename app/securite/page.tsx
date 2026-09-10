@@ -14,9 +14,9 @@ import { pathAlternates } from "@/lib/i18n";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Sécurité en France · palmarès 2026 SSMSI villes calmes vs. tendues",
+  title: "Sécurité en France — villes calmes vs. tendues 2026",
   description:
-    "Classement national SSMSI des villes françaises selon la sécurité : atteintes biens, personnes, nuit, violences faites aux femmes. Top 30 villes calmes vs. top 20 les plus tendues. Sources SSMSI / Insee CVS.",
+    "Classement des villes françaises selon la sécurité : atteintes aux biens, aux personnes, nuit, violences faites aux femmes. Estimation communale, pas les faits enregistrés.",
   alternates: pathAlternates("/securite", "/safety"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Sécurité en France · palmarès 2026",
     description:
-      "Top 30 villes les plus calmes vs. top 20 les plus tendues, décomposition SSMSI sur 4 sous-axes.",
+      "Top 30 villes les plus calmes vs. top 20 les plus tendues, 4 sous-axes estimés.",
   },
 };
 
@@ -36,7 +36,7 @@ export default function SafetyHubPage() {
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
-    { name: "Sécurité SSMSI", path: "/securite" },
+    { name: "Sécurité", path: "/securite" },
   ]);
 
   const faq = faqJsonLd([
@@ -45,22 +45,22 @@ export default function SafetyHubPage() {
       a: `Selon notre composite F58 (atteintes biens 35 % + personnes 30 % + nuit 20 % + VFFS 15 %), les villes ≥ 15 000 hab. les plus calmes sont : ${calmest
         .slice(0, 5)
         .map((c) => `${c.name} (${(10 - c.safety.composite).toFixed(1)}/10)`)
-        .join(", ")}. Score élevé = composite SSMSI sous la moyenne nationale.`,
+        .join(", ")}. Score élevé = composite estimé sous la moyenne du corpus.`,
     },
     {
       q: "Quelles villes sont les plus tendues sur la sécurité ?",
       a: `Les villes ≥ 15 000 hab. au composite le plus bas sont : ${stressed
         .slice(0, 5)
         .map((c) => `${c.name} (${(10 - c.safety.composite).toFixed(1)}/10)`)
-        .join(", ")}. Elles cumulent généralement atteintes aux biens (vols, cambriolages) et atteintes aux personnes au-dessus de la moyenne SSMSI.`,
+        .join(", ")}. Elles cumulent généralement atteintes aux biens (vols, cambriolages) et atteintes aux personnes au-dessus de la moyenne du corpus.`,
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions SSMSI : atteintes aux biens (35 %, cambriolages + vols véhicules + vols sans violence, moyenne nationale ~16,5 ‰), atteintes aux personnes (30 %, coups & blessures volontaires hors VFFS, moyenne ~4,3 ‰), sécurité nocturne (20 %, rixes & dégradations), violences faites aux femmes (15 %, signalements SSMSI). Score 0-10, 10 = ville la plus sûre.",
+      a: "Composite agrégeant 4 dimensions suivant le découpage du SSMSI : atteintes aux biens (35 %, cambriolages + vols véhicules + vols sans violence, moyenne nationale ~16,5 ‰), atteintes aux personnes (30 %, coups & blessures volontaires hors VFFS, moyenne ~4,3 ‰), sécurité nocturne (20 %, rixes & dégradations), violences faites aux femmes (15 %, signalements SSMSI). Score 0-10, 10 = ville la plus sûre. Les quatre sous-axes sont estimés depuis le score sécurité de la ville, sa taille et son profil : les catégories et les moyennes nationales citées viennent du SSMSI, mais aucun taux pour 1 000 habitants n'est ingéré — ce ne sont pas les faits enregistrés dans la commune.",
     },
     {
-      q: "Où voir les chiffres SSMSI officiels ?",
-      a: "Le SSMSI (interstats.fr) publie chaque mois les indicateurs nationaux. Les données ouvertes data.gouv.fr proposent le détail communal pour les villes ≥ 10 000 hab. L'enquête Cadre de Vie et Sécurité (Insee, 14 000 ménages/an) ajoute la victimation ressentie. Pour l'analyse fine, l'état 4001 des préfectures fournit le détail par circonscription.",
+      q: "Où voir les vrais chiffres SSMSI ?",
+      a: "Nos sous-scores sont estimés et ne reprennent aucun taux publié. Pour les vrais chiffres, le SSMSI (interstats.fr) publie chaque mois les indicateurs nationaux. Les données ouvertes data.gouv.fr proposent le détail communal pour les villes ≥ 10 000 hab. L'enquête Cadre de Vie et Sécurité (Insee, 14 000 ménages/an) ajoute la victimation ressentie. Pour l'analyse fine, l'état 4001 des préfectures fournit le détail par circonscription.",
     },
   ]);
 
@@ -76,17 +76,20 @@ export default function SafetyHubPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          Sécurité en France — détail SSMSI
+          Sécurité en France — profils estimés
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Index composite agrégeant quatre dimensions SSMSI : atteintes aux biens,
-          atteintes aux personnes, sécurité nocturne, violences faites aux femmes.
-          Score 0-10, 10 = ville la plus sûre. Filtre 15 000 habitants minimum pour pertinence des
-          indicateurs.
+          Index composite agrégeant quatre dimensions, suivant le découpage du SSMSI :
+          atteintes aux biens, atteintes aux personnes, sécurité nocturne, violences faites
+          aux femmes. Score 0-10, 10 = ville la plus sûre. Les quatre niveaux sont
+          <strong>estimés</strong> depuis le score sécurité de chaque ville, sa taille et son
+          profil — ce ne sont pas les faits enregistrés, et aucun taux pour 1 000 habitants
+          n&apos;est repris. Filtre 15 000 habitants minimum.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : SSMSI · Insee CVS</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération biens 35 % · personnes 30 % · nuit 20 % · VFFS 15 %</Badge>
         </div>
@@ -146,7 +149,7 @@ export default function SafetyHubPage() {
           </div>
         </Card>
         <p className="text-xs text-[var(--text-tertiary)] mt-2">
-          Lecture des sous-scores : 10 = le plus sûr.
+          Lecture des sous-scores : 10 = le plus sûr. Ce sont des estimations, pas des taux relevés.
         </p>
 
         {/* Stressed */}
@@ -222,16 +225,19 @@ export default function SafetyHubPage() {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">VFFS (15 %)</strong> —
-              signalements de violences faites aux femmes (SSMSI). À interpréter avec
+              dimension calée sur le suivi SSMSI des signalements, estimée ici. À
+              interpréter avec
               prudence : un taux plus élevé peut refléter un meilleur dispositif de
               signalement plutôt qu&apos;une occurrence pure.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Synthèse à l&apos;échelle communale. Au sein d&apos;une même ville, le
-            ressenti varie fortement entre un quartier de gare et un quartier résidentiel
-            apaisé. Pour l&apos;analyse fine, l&apos;état 4001 des préfectures détaille
-            par circonscription de police ou gendarmerie.
+            Ce classement trie des <strong>estimations</strong> communales, pas des faits
+            enregistrés : aucun taux pour 1 000 habitants n&apos;est ingéré ici. Au sein
+            d&apos;une même ville, le ressenti varie d&apos;ailleurs fortement entre un
+            quartier de gare et un quartier résidentiel apaisé. Pour les chiffres réels,
+            l&apos;état 4001 des préfectures détaille par circonscription de police ou de
+            gendarmerie, et le SSMSI publie mensuellement.
           </p>
         </Card>
 

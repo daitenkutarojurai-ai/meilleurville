@@ -44,10 +44,10 @@ const HERO_VERDICT: Record<JobLevel, string> = {
 };
 
 const DIMS: { key: "unemployment" | "dynamism" | "sectorMix" | "salary"; label: string; note: string }[] = [
-  { key: "unemployment", label: "Unemployment", note: "Departmental unemployment rate (INSEE)" },
+  { key: "unemployment", label: "Unemployment", note: "Estimated departmental band" },
   { key: "dynamism", label: "Business dynamism", note: "Net business creation" },
   { key: "sectorMix", label: "Sector mix", note: "Diversity and resilience of local employers" },
-  { key: "salary", label: "Salaries", note: "Median net salary for the department" },
+  { key: "salary", label: "Salaries", note: "Estimated departmental band" },
 ];
 
 export default async function EnCityEmployment({ params }: Props) {
@@ -90,6 +90,11 @@ export default async function EnCityEmployment({ params }: Props) {
           Job-market score: <span className={`font-mono-data font-bold ${scoreColor(jobScore)}`}>{jobScore.toFixed(1)}/10</span>{" "}
           ({LEVEL_LABEL[job.level]}). {HERO_VERDICT[job.level]}
         </p>
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          10 = most dynamic market. Estimated at departmental level from population and
+          local activity — calibrated against INSEE, DARES, SIRENE and DADS reference
+          bands, not the unemployment rate published for this town.
+        </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
@@ -113,7 +118,12 @@ export default async function EnCityEmployment({ params }: Props) {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">How to read this</h2>
         <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
-          These figures are measured at the departmental level (INSEE, DARES) — a city can run better or worse than its department, but the department sets the backdrop. Two caveats:
+          These four scores are a <strong>departmental estimate</strong>, not a
+          measurement. Each department is placed in bands calibrated against the orders of
+          magnitude published by INSEE, DARES, SIRENE and the DADS salary series, but none
+          of those series is ingested here: this is not the unemployment rate published for
+          {c.name}, and not a salary observed there. A town can also run better or worse
+          than its department, which only sets the backdrop. Two further caveats:
         </p>
         <ul className="text-[var(--text-secondary)] leading-relaxed space-y-2 mb-8">
           <li>· A strong overall market means little if your specific field has no local employers — check that separately.</li>

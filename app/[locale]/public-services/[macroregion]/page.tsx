@@ -103,7 +103,7 @@ export default async function MacroRegionPublicServicesEnPage({ params }: Props)
     },
     {
       q: `How is this ranking calculated?`,
-      a: `Weighted composite across 4 dimensions: schools & childcare (35%), city hall & admin services (25%), post office & France Services (25%), public library (15%). Sources: DEPP, CAF, BNF, La Poste, ANCT France Services.`,
+      a: `Weighted composite across 4 dimensions: schools & childcare (35%), city hall & admin services (25%), post office & France Services (25%), public library (15%). All four levels are estimated by population band and department: the categories follow the DEPP directory, the France Services network, the La Poste outlets and the BNF survey, but none of those directories is ingested — this is not a list of what is open.`,
     },
   ]);
 
@@ -124,10 +124,14 @@ export default async function MacroRegionPublicServicesEnPage({ params }: Props)
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite public services index for {cities.length} cities in the {label} macro-region
-          with over 10,000 inhabitants. Four dimensions: schools, library, post office, city hall.
+          with over 10,000 inhabitants. Four dimensions: schools, library, post office, city
+          hall — all four <strong>estimated</strong> by population band and department, not
+          read off a directory of facilities.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: DEPP · CAF · BNF · France Services · La Poste</Badge>
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average composite: {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -139,8 +143,8 @@ export default async function MacroRegionPublicServicesEnPage({ params }: Props)
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
               { k: "Schools", v: avgSchools, hint: "Coverage + nursery pressure" },
-              { k: "Library", v: avgLibrary, hint: "BNF public reading network" },
-              { k: "Post office", v: avgPost, hint: "Offices + APC + RPC + MFS" },
+              { k: "Library", v: avgLibrary, hint: "Presence estimated by band" },
+              { k: "Post office", v: avgPost, hint: "Coverage estimated (offices, APC, RPC, MFS)" },
               { k: "City hall", v: avgHall, hint: "Opening hours + admin services" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">

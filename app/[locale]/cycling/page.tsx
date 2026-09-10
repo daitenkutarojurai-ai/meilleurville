@@ -20,7 +20,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Most cycle-friendly cities in France · 2026 ranking",
   description:
-    "National ranking of French cities by everyday cyclability: cycle network, topography, safety, climate. Top 30 most cycle-friendly cities vs top 20 most challenging. Sources: FUB · Vélo & Territoires · Géovélo.",
+    "National ranking of French cities by everyday cyclability: network, terrain, safety, climate. A commune-level estimate, not the FUB barometer score.",
   alternates: pathAlternatesEn("/velo", "/cycling"),
 };
 
@@ -68,11 +68,11 @@ export default function EnCyclingPage() {
     },
     {
       q: "How is this ranking calculated?",
-      a: "Composite aggregating 4 dimensions: cycle network (35%, FUB Barometer + Vélo & Territoires + EuroVelo presence), topography (25%, altitude + hilly/flat department), safety (25%, urban density × segregated infrastructure), climate (15%, sunshine + wind + winter). Score 0-10, 10 = excellent. Sources: FUB, Vélo & Territoires, Géovélo, INSEE.",
+      a: "Composite aggregating 4 dimensions: cycle network (35%, FUB Barometer + Vélo & Territoires + EuroVelo presence), topography (25%, altitude + hilly/flat department), safety (25%, urban density × segregated infrastructure), climate (15%, sunshine + wind + winter). Score 0-10, 10 = excellent. It is an estimate built from town size, terrain, climate and profile: the reference points come from the FUB Barometer, the Vélo & Territoires rankings and the EuroVelo routes, but no survey score and no measured kilometre of lane is ingested.",
     },
     {
-      q: "Where can I find the official FUB cycling barometer?",
-      a: "The FUB Cities Cycling Barometer (parlons-velo.fr) publishes the official citizen-survey ranking every 2 years. Vélo & Territoires (velo-territoires.org) maps Local Cycling Masterplan deployment by EPCI. Géovélo (geovelo.fr) provides safe routing via its mobile app.",
+      q: "Is this ranking the FUB cycling barometer?",
+      a: "No — ours is an estimate and reuses no survey score. The FUB Cities Cycling Barometer (parlons-velo.fr) publishes the official citizen-survey ranking every 2 years. Vélo & Territoires (velo-territoires.org) maps Local Cycling Masterplan deployment by EPCI. Géovélo (geovelo.fr) provides safe routing via its mobile app.",
     },
   ]);
 
@@ -92,12 +92,14 @@ export default function EnCyclingPage() {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite index covering four key dimensions of everyday cyclability: infrastructure
-          network, topography, safety, and climate. Score 0-10, 10 = excellent. Filtered to
-          cities ≥ 15,000 residents for meaningful indicators.
+          network, topography, safety, and climate. Score 0-10, 10 = excellent — all four
+          levels are <strong>estimated</strong> from town size, terrain and climate, not
+          surveyed on the ground. Filtered to cities ≥ 15,000 residents.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Educational overview</Badge>
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: FUB · Vélo &amp; Territoires · Géovélo</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} cities</Badge>
           <Badge>Network 35% · topography 25% · safety 25% · climate 15%</Badge>
         </div>
@@ -106,8 +108,9 @@ export default function EnCyclingPage() {
           Top 30 — Most cycle-friendly cities
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Cities regularly recognised in FUB / Vélo & Territoires rankings, crossed by a
-          major EuroVelo route, or benefiting from a naturally flat landscape.
+          Cities the FUB / Vélo &amp; Territoires rankings have regularly recognised,
+          crossed by a major EuroVelo route, or sitting on naturally flat ground — the model
+          reads those three signals, not a survey of their network.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -215,7 +218,7 @@ export default function EnCyclingPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Cycle network (35%)</strong> —
-              cities regularly ranked by the FUB Barometer / Vélo & Territoires (Strasbourg,
+              estimated from the cycling reputation established by the FUB Barometer / Vélo &amp; Territoires rankings (Strasbourg,
               Grenoble, Rennes, Nantes, Bordeaux, La Rochelle, Chambéry, Annecy, Caen,
               Lorient…) + metropolitan status + presence on a major EuroVelo route (EV1
               Vélodyssée, EV3 Scandibérique, EV6 Loire, EV8 Mediterranean, EV17 ViaRhôna).
@@ -242,8 +245,10 @@ export default function EnCyclingPage() {
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            City-level score. Experience varies greatly by neighbourhood (city centre vs.
-            peri-urban fringes without infrastructure). For real-time routing, Géovélo and
+            This ranking sorts commune-level <strong>estimates</strong>: no FUB survey
+            score, no kilometre of lane and no accident data is ingested here. Experience
+            also varies greatly by neighbourhood (city centre vs. peri-urban fringes without
+            infrastructure). For real-time routing, Géovélo and
             OpenStreetMap provide the most up-to-date cycling maps.
           </p>
         </Card>

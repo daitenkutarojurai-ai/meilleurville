@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
   return {
     title: `${c.name} demographics — ageing, growth, renewal (2026)`,
-    description: `Demographic trend in ${c.name}: ageing, young-adult presence, population trajectory and natural renewal. Is the city growing or quietly emptying?`,
+    description: `Demographics of ${c.name}: ageing and trajectory measured in the Insee census, young adults and renewal estimated. Growing or emptying?`,
     alternates: cityAlternatesEn("demographics", slug),
   };
 }
@@ -105,6 +105,12 @@ export default async function EnCityDemographics({ params }: Props) {
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
           Vitality score: <span className={`font-mono-data font-bold ${scoreColor(score)}`}>{score.toFixed(1)}/10</span>{" "}
           ({LEVEL_LABEL[demo.level]}). {HERO_VERDICT[demo.level]}
+        </p>
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          10 = most dynamic. Two of the four dimensions — ageing and trajectory, 60% of
+          the composite — are <strong>measured</strong> commune by commune in the Insee
+          census; young-adult presence and renewal are <strong>estimated</strong> from the
+          department and the town's profile. Nothing here is a projection.
         </p>
       </section>
 

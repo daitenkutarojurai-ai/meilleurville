@@ -29,14 +29,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Sécurité SSMSI · ${macro.label} 2026`,
-    description: `Classement composite sécurité SSMSI (biens, personnes, nuit, VFFS) restreint aux villes de la macro-région ${macro.label}. Plus calmes vs. plus tendues.`,
+    title: `Sécurité — ${macro.label} 2026`,
+    description: `Sécurité des villes de ${macro.label} : biens, personnes, nuit, VFFS. Plus calmes vs. plus tendues, estimation communale.`,
     alternates: pathAlternates(`/securite/${macro.slug}`, `/safety/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Sécurité SSMSI · ${macro.label}`,
+      title: `Sécurité — ${macro.label}`,
       description: `Index composite par ville de la macro-région ${macro.label}.`,
     },
   };
@@ -72,7 +72,7 @@ export default async function MacroRegionSafetyPage({ params }: Props) {
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
-    { name: "Sécurité SSMSI", path: "/securite" },
+    { name: "Sécurité", path: "/securite" },
     { name: macro.label, path: `/securite/${macro.slug}` },
   ]);
 
@@ -93,7 +93,7 @@ export default async function MacroRegionSafetyPage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `Composite pondéré sur 4 dimensions SSMSI : atteintes biens (35 %), personnes (30 %), nuit (20 %), VFFS (15 %). Sources : SSMSI (interstats.fr), Insee CVS, data.gouv.fr (taux pour 1 000 hab. par commune).`,
+      a: `Composite pondéré sur 4 dimensions suivant le découpage du SSMSI : atteintes biens (35 %), personnes (30 %), nuit (20 %), VFFS (15 %). Les quatre niveaux sont estimés depuis le score sécurité de chaque ville, sa taille et son profil : aucun taux pour 1 000 habitants n'est ingéré — ce ne sont pas les faits enregistrés. Les vrais chiffres sont publiés par le SSMSI (interstats.fr) et sur data.gouv.fr.`,
     },
   ]);
 
@@ -110,15 +110,19 @@ export default async function MacroRegionSafetyPage({ params }: Props) {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          {macro.emoji} Sécurité SSMSI — {macro.label}
+          {macro.emoji} Sécurité — {macro.label}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
-          atteintes biens, personnes, nuit, VFFS.
+          atteintes biens, personnes, nuit, VFFS. Les quatre niveaux sont
+          <strong> estimés</strong> depuis le score sécurité de chaque ville et son profil,
+          pas relevés dans les faits enregistrés.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : SSMSI · Insee CVS</Badge>
           <Badge>{cities.length} villes analysées</Badge>
           <Badge>Composite moyen : {avgComposite}/10</Badge>
         </div>
@@ -133,7 +137,7 @@ export default async function MacroRegionSafetyPage({ params }: Props) {
               { k: "Biens", v: avgProperty, hint: "Cambriolages + vols" },
               { k: "Personnes", v: avgPersons, hint: "Coups & blessures" },
               { k: "Nuit", v: avgNoct, hint: "Rixes & dégradations" },
-              { k: "VFFS", v: avgVffs, hint: "Signalements SSMSI" },
+              { k: "VFFS", v: avgVffs, hint: "Découpage SSMSI, estimé" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
@@ -146,7 +150,7 @@ export default async function MacroRegionSafetyPage({ params }: Props) {
             ))}
           </div>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-            Sous-scores : 10 = le plus sûr. Le moteur SSMSI note l'insécurité (10 = pire) ;
+            Sous-scores : 10 = le plus sûr, et ce sont des estimations, pas des taux relevés. Le moteur note l'insécurité (10 = pire) ;
             l'affichage est inversé pour suivre la convention du site.
           </p>
         </Card>
@@ -257,7 +261,7 @@ export default async function MacroRegionSafetyPage({ params }: Props) {
               <Card className="hover:shadow-md transition-shadow h-full">
                 <div className="text-2xl mb-1">{m.emoji}</div>
                 <div className="text-sm font-semibold text-[var(--text-primary)]">{m.label}</div>
-                <div className="text-xs text-[var(--text-tertiary)] mt-1">Sécurité SSMSI</div>
+                <div className="text-xs text-[var(--text-tertiary)] mt-1">Sécurité — profil estimé</div>
               </Card>
             </Link>
           ))}

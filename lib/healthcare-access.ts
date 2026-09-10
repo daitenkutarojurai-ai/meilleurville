@@ -105,14 +105,14 @@ function generalistesAccess(city: CityLight): HealthDimension {
     return {
       score: 9,
       level: "desert",
-      reason: "Département en désert médical avéré (DREES) — densité MG < 80/100k hab., > 50 % des médecins ont plus de 60 ans, départs non remplacés. Délais nouveaux patients 3-6 mois.",
+      reason: "Département classé en désert médical par le modèle — le palier retenu correspond aux repères DREES du sous-équipement (densité MG sous 80/100k hab., plus de la moitié des praticiens au-delà de 60 ans, départs non remplacés). Aucune densité n'est relevée ici : c'est le département, pas le cabinet, qui est classé.",
     };
   }
   if (MG_SOUS_DOTE_DEPTS.has(d) && !isMetro) {
     return {
       score: 7,
       level: "tendu",
-      reason: "Département sous-doté en médecins généralistes (DREES) — densité < 100/100k. Cabinets souvent fermés aux nouveaux patients hors enfant.",
+      reason: "Département classé sous-doté par le modèle — palier calé sur le repère DREES des densités inférieures à 100/100k hab. Cabinets souvent fermés aux nouveaux patients hors enfant.",
     };
   }
   if (MG_BIEN_DOTE_DEPTS.has(d) || isMetro) {

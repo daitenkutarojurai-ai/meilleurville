@@ -84,8 +84,8 @@ export default async function VeloPage({ params }: Props) {
       a: `${city.name} obtient un score composite ${c.composite}/10 (${CYCLING_LEVEL_LABEL[c.level].toLowerCase()}). Détail : réseau ${c.network.score}/10, relief ${c.topography.score}/10, sécurité ${c.safety.score}/10, climat ${c.climate.score}/10. ${c.signature}`,
     },
     {
-      q: `Où consulter le Baromètre FUB pour ${city.name} ?`,
-      a: `Le Baromètre des Villes Cyclables FUB (parlons-velo.fr) publie tous les 2 ans un classement basé sur l'enquête citoyenne (> 270 000 réponses en 2025). Vélo & Territoires (velo-territoires.org) suit aussi l'avancement des Schémas Directeurs Vélo par EPCI.`,
+      q: `Ce score est-il le Baromètre FUB de ${city.name} ?`,
+      a: `Non. Notre score est estimé depuis la taille de la commune, son relief, son climat et ses tags, sans reprendre aucune note d'enquête. Le vrai Baromètre des Villes Cyclables FUB (parlons-velo.fr) publie tous les 2 ans un classement basé sur l'enquête citoyenne (> 270 000 réponses en 2025). Vélo & Territoires (velo-territoires.org) suit aussi l'avancement des Schémas Directeurs Vélo par EPCI.`,
     },
     {
       q: `Le relief est-il un problème pour rouler à ${city.name} ?`,
@@ -114,8 +114,13 @@ export default async function VeloPage({ params }: Props) {
           Vivre à vélo à {city.name}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Synthèse pédagogique des quatre dimensions qui déterminent la praticabilité du
-          vélo au quotidien : réseau cyclable, topographie, sécurité et climat. Sources :{" "}
+          Profil <strong>structurel</strong> des quatre dimensions qui déterminent la
+          praticabilité du vélo au quotidien : réseau cyclable, topographie, sécurité et
+          climat. Les quatre niveaux sont <strong>estimés</strong> depuis la taille de la
+          commune, son relief, son climat et ses tags — ils s&apos;appuient sur les repères
+          du Baromètre FUB, des palmarès Vélo &amp; Territoires et du tracé des EuroVelo,{" "}
+          <strong>sans reprendre aucune note d&apos;enquête ni aucun kilomètre
+          d&apos;aménagement relevé</strong>. Les classements réels sont ceux du{" "}
           <a
             href="https://parlons-velo.fr"
             target="_blank"
@@ -124,7 +129,7 @@ export default async function VeloPage({ params }: Props) {
           >
             Baromètre FUB
           </a>{" "}
-          ·{" "}
+          et de{" "}
           <a
             href="https://www.velo-territoires.org"
             target="_blank"
@@ -132,13 +137,12 @@ export default async function VeloPage({ params }: Props) {
             className="text-[var(--accent)] hover:underline"
           >
             Vélo & Territoires
-          </a>{" "}
-          · Géovélo · INSEE.
+          </a>.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>FUB · Vélo & Territoires · Géovélo</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : FUB · Vélo &amp; Territoires · Géovélo</Badge>
         </div>
 
         {/* Composite hero */}
@@ -171,9 +175,10 @@ export default async function VeloPage({ params }: Props) {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Réseau (35 %) :</strong> proxy
-              dérivé des Baromètres FUB / Vélo & Territoires (ville régulièrement primée),
-              du statut métropolitain et de la présence sur un itinéraire EuroVelo
-              structurant (EV1, EV3, EV6, EV8, EV17).
+              estimé depuis la réputation cyclable de la commune telle que les palmarès
+              FUB / Vélo &amp; Territoires l&apos;ont établie, son statut métropolitain et sa
+              présence sur un itinéraire EuroVelo structurant (EV1, EV3, EV6, EV8, EV17).
+              Aucun linéaire d&apos;aménagement n&apos;est mesuré.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Topographie (25 %) :</strong>{" "}
@@ -195,8 +200,11 @@ export default async function VeloPage({ params }: Props) {
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Score à l&apos;échelle communale. À l&apos;adresse, l&apos;expérience varie
-            fortement selon le quartier (centre vs. périphérie péri-urbaine non aménagée).
+            Ces quatre scores sont des <strong>estimations</strong> à l&apos;échelle
+            communale : aucune note du Baromètre FUB, aucun kilomètre de piste et aucune
+            donnée d&apos;accidentologie ne sont ingérés ici. À l&apos;adresse,
+            l&apos;expérience varie d&apos;ailleurs fortement selon le quartier (centre vs.
+            périphérie péri-urbaine non aménagée).
             Pour un itinéraire réel, Géovélo et OpenStreetMap offrent les meilleures
             cartes vélo à jour.
           </p>

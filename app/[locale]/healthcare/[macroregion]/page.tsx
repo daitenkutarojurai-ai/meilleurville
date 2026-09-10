@@ -103,7 +103,7 @@ export default async function MacroRegionHealthcareEnPage({ params }: Props) {
     },
     {
       q: `How is this ranking calculated?`,
-      a: `Composite index across 4 dimensions: GPs (35%, DREES density + CHU/metro override), specialists (25%), A&E/SAU (25%, presence + rural/island penalty), pharmacies (15%). Score 0–10, 10 = excellent access. Sources: DREES, CNOM, ARS.`,
+      a: `Composite index across 4 dimensions: GPs (35%, DREES density + CHU/metro override), specialists (25%), A&E/SAU (25%, presence + rural/island penalty), pharmacies (15%). Score 0–10, 10 = excellent access. It is a commune-level estimate: the bands are calibrated against DREES, CNOM and ARS reference figures, but none of their readings are reused — this is neither a count of practices nor the ARS zoning in force.`,
     },
   ]);
 
@@ -125,9 +125,13 @@ export default async function MacroRegionHealthcareEnPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite healthcare index for {cities.length} cities in the {label} macro-region
           with over 10,000 inhabitants. Four dimensions: GPs, specialists, A&E, pharmacies.
+          All four are <strong>estimated</strong> from the department, town size and hospital
+          status — not read practice by practice.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: DREES · CNOM · ARS</Badge>
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average composite: {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -138,7 +142,7 @@ export default async function MacroRegionHealthcareEnPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "GPs", v: avgMg, hint: "DREES density + CHU/metro override" },
+              { k: "GPs", v: avgMg, hint: "Departmental band, DREES reference" },
               { k: "Specialists", v: avgSpe, hint: "CHU > agglomeration > average > rural" },
               { k: "A&E", v: avgUrg, hint: "SAU presence + access penalty" },
               { k: "Pharmacies", v: avgPharma, hint: "Coverage density × urban weight" },

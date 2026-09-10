@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
   return {
     title: `${c.name} cycling — bike network, terrain, safety (2026)`,
-    description: `How bike-friendly is ${c.name}? Cycle network, topography, road safety and year-round usability for everyday cycling.`,
+    description: `How bike-friendly is ${c.name}? Network, terrain, safety, weather. A commune-level estimate, not the FUB barometer score.`,
     alternates: cityAlternatesEn("cycling", slug),
   };
 }
@@ -92,6 +92,11 @@ export default async function EnCityCycling({ params }: Props) {
           Cycling score: <span className={`font-mono-data font-bold ${scoreColor(score)}`}>{score.toFixed(1)}/10</span>{" "}
           ({LEVEL_LABEL[cycling.level]}). {HERO_VERDICT[cycling.level]}
         </p>
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          10 = best. Estimated at commune level from town size, terrain, climate and
+          profile — calibrated against the FUB barometer and Vélo &amp; Territoires
+          rankings, but not a survey score and not a measurement of the cycle network.
+        </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
@@ -115,7 +120,12 @@ export default async function EnCityCycling({ params }: Props) {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">What the score weighs</h2>
         <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
-          A bike-friendly city isn't just kilometres of painted lane — it's whether the network actually connects, whether the terrain is rideable without athletic legs, whether drivers and cyclists coexist safely, and whether the weather lets you ride for more than four months a year. France's mid-size cities have invested heavily in cycling over the past decade; the gap between the best and worst is now wide.
+          These four scores are a <strong>commune-level estimate</strong>, worked out from
+          the size of the town, its terrain, its climate and its profile. They lean on the
+          reference points set by the FUB barometer, the Vélo &amp; Territoires rankings and
+          the EuroVelo routes, but reuse no survey score and measure no kilometre of lane —
+          and no accident data is ingested anywhere. A bike-friendly city isn't just
+          kilometres of painted lane — it's whether the network actually connects, whether the terrain is rideable without athletic legs, whether drivers and cyclists coexist safely, and whether the weather lets you ride for more than four months a year. France's mid-size cities have invested heavily in cycling over the past decade; the gap between the best and worst is now wide.
         </p>
         <div className="mt-2 flex flex-wrap gap-3">
           <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {c.name}</Link>

@@ -5628,6 +5628,128 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-10
+
+- **Moteurs propriétaires (F47 santé, F50 emploi, F57 vélo, F58 sécurité, F59 démographie,
+  F60 services publics, V11 commerces) — les scores estimés n'étaient plus présentés comme
+  des mesures d'organismes publics, sur 52 surfaces FR + EN.** C'est l'item que l'entrée du
+  09/09 nommait en une phrase à sa dernière ligne (« vérifier leurs sources une à une est un
+  autre item ») : le même défaut que le quartet environnement, dans **six familles de moteurs
+  de plus**.
+
+  `lib/healthcare-access.ts`, `employment-market.ts`, `safety-deep.ts`, `public-services.ts`,
+  `cycling-mobility.ts` et `commerce.ts` n'importent **que `CityLight`** : vérifié ce run,
+  aucune donnée externe n'est ingérée, tout est calculé depuis le seed (département,
+  population, relief, climat, tags). Leurs propres en-têtes le disent — « Aucune dépendance
+  externe » — et rangent les organismes en « **sources de référence** ». Les **surfaces**,
+  elles, écrivaient « Sources : DREES (densité médicale par département), CNOM, zonage
+  ZIP/ZAC de l'ARS », « Sources : INSEE trimestriel T4 2024, DARES, SIRENE, INSEE DADS »,
+  « Sources : DEPP · CAF · BNF · France Services · La Poste », « Sources : FUB · Vélo &
+  Territoires · Géovélo ». Trois cas allaient plus loin que la légende :
+  - **`détail SSMSI` était dans le `<title>` et la `description`** des 540 pages
+    `/villes/[slug]/securite`, donc en SERP, et la jumelle EN affirmait mot pour mot
+    « These figures come from SSMSI — the French Interior Ministry's statistical service —
+    **expressed per 1,000 residents**, not from reputation or anecdote ». Aucun taux pour
+    1 000 habitants n'est ingéré nulle part : les quatre sous-axes sont dérivés du score
+    sécurité du seed.
+  - La jumelle EN de `/villes/[slug]/emploi` disait « These figures are **measured** at the
+    departmental level (INSEE, DARES) ». Ils ne le sont pas.
+  - Les `reason` **dans les libs** portaient l'attribution avec elles :
+    « Salaire net médian départemental > 2 400 €/mois **(INSEE DADS)** » ×5,
+    « solde net **SIRENE** » ×4, « Département en désert médical avéré **(DREES)** » ×2 —
+    des paliers assignés à la main, rendus comme des statistiques publiées.
+
+  Traité en reprenant le patron du 09/09 : les organismes restent **nommés**, mais en
+  « **cadres de référence** » et non en « sources », et chaque surface dit ce que son nombre
+  **n'est pas**, famille par famille — *pas un relevé de cabinets* (santé), *pas le taux de
+  chômage publié* (emploi), *pas les faits enregistrés* (sécurité), *pas l'annuaire des
+  équipements* (services publics), *pas une note d'enquête ni un relevé du réseau* (vélo),
+  *pas un décompte terrain* (commerces). Pas de formule générique recopiée sept fois.
+  - 7 cartes de `CityProfile` / sous-pages partagées (`HealthcareCard`, `EmploymentCard`,
+    `SafetyDeepCard`, `PublicServicesCard`, `CyclingCard`, `DemographyCard`), donc les
+    540 pages ville **des deux locales**.
+  - 14 sous-pages ville ×540 : FR `sante` / `emploi` / `securite` / `services-publics` /
+    `velo` / `demographie` / `statistiques` / `commerces` et leurs jumelles EN.
+  - 24 hubs nationaux et macro-régionaux, **y compris les réponses de FAQ qui partent en
+    `FAQPage` JSON-LD** — là encore la fausse attribution était aussi en données
+    structurées.
+  - 10 chaînes `methodology` / `reality` / `metaDescription` de red flags dont le moteur est
+    l'une de ces libs (`villes-desert-medical`, `villes-chomage-eleve`,
+    `villes-desert-services-publics`, `villes-anti-velo`, `villes-vieillissement-critique`,
+    `villes-nuit-tendue`, `villes-fuite-jeunes-actifs`, `villes-vols-cambriolages`), FR dans
+    `lib/red-flag-themes.ts` + jumelles EN.
+
+  ⚠️ **`villes-cadre-de-vie-tendu` porte la preuve que le demi-correctif est le vrai mode de
+  défaillance** : sa `methodology` avait été corrigée le 09/09 **pour le seul pilier
+  environnement** (« estimation communale calée sur les cadres ATMO / CITEPA / RNSA, pas une
+  mesure en station ») et se terminait, dans la même phrase, par « santé DREES / CNOM / ARS,
+  emploi INSEE / DADS / SIRENE ». Deux piliers sur trois étaient restés faux, des deux côtés,
+  à côté du correctif.
+
+  ⚠️ **La démographie est le cas mixte, et l'écrire « estimé » en bloc aurait été faux dans
+  l'autre sens.** `lib/demography.ts` lit `lib/city-population` : **vieillissement et
+  trajectoire sont mesurés** au recensement Insee, commune par commune, sur 538 des 540
+  villes — soit **60 % du composite** ; jeunes actifs et renouvellement sont estimés depuis le
+  département et les tags. Les 9 surfaces disent désormais lequel est lequel, et
+  `/villes/[slug]/demographie` **branche sa phrase sur la donnée** : Mamoudzou et
+  Pierrefitte-sur-Seine, hors fichier Insee, lisent « 4 dimensions estimées » et non une
+  mesure qu'elles n'ont pas. Ne pas « harmoniser » ce cas avec les six autres.
+
+  ⚠️ **Une erreur de fait sur notre propre moteur trouvée au passage.**
+  `app/[locale]/cycling/[macroregion]` annonçait la pondération « infrastructure **40 %**,
+  topographie 25 %, sécurité **20 %**, climat 15 % » à deux endroits, dont une réponse de FAQ
+  qui part en JSON-LD, quand `lib/cycling-mobility.ts` calcule **35 / 25 / 25 / 15** — la
+  jumelle FR, elle, publiait les bons chiffres. La même phrase créditait « OpenStreetMap
+  cycle network density » et « accident data », dont aucun n'est ingéré. Corrigé sur les deux
+  points.
+
+  **Garde de non-régression ajoutée** (`npm run integrity`, ligne `moteurs`), symétrique de
+  celle du 09/09 : toute surface de `app/**` ou `components/*.tsx` qui appelle
+  `compute{HealthcareAccess,EmploymentMarket,SafetyDeep,PublicServices,CyclingMobility,Commerce,Demography}`
+  **ou** importe l'une de ces libs doit porter un marqueur, dans l'une ou l'autre langue —
+  et la démographie a **son propre marqueur**, qui exige de distinguer mesuré et estimé au
+  lieu d'accepter « estimé ». **52 surfaces contrôlées, 52 conformes.** Testé en négatif
+  (marqueur retiré de `HealthcareCard` → le contrôle échoue et nomme le fichier), sinon un
+  garde qui ne peut pas échouer ne vaut rien.
+
+  ⚠️ **Le garde a trouvé deux surfaces que la revue à la main avait manquées** —
+  `/villes/[slug]/statistiques` et sa jumelle EN, qui rendent emploi *et* démographie sans
+  être dans aucune des familles évidentes. Elles créditaient « Source INSEE, taux trimestriel
+  département T4 2024 » sous une **fourchette estimée**, et « Source : INSEE, bilan
+  démographique départemental » sous une **évolution mesurée au recensement** — deux
+  attributions fausses en sens inverse sur la même page. Elles disent maintenant, champ par
+  champ, ce qui est mesuré sur la commune (population, niveau de vie, part des 60 ans et
+  plus) et ce qui est une fourchette départementale estimée.
+
+  Contrôles : `npx tsc --noEmit` **propre**, `npm run integrity` (dont le nouveau contrôle),
+  `search-index:check`, `npm run parity` (code 0), `npm run hreflang:check`,
+  `npm run sitemap:check` (FR 29 203 · EN 28 786, inchangés — aucune route créée).
+  `npm run build` **non lancé, volontairement** (cf. § Commands depuis le batch 27).
+  Vérification d'encodage sur le diff (accents intacts, aucun mojibake) et contrôle de
+  longueur des metadata au pire cas (nom de ville le plus long du seed) : les 4 titres et
+  descriptions que ce run avait allongés au-delà des seuils sont ramenés dessous.
+
+  **Ce qui n'est pas fait, et qui est l'item suivant :**
+  - **`lib/rankings-meta.ts`** porte le même défaut sur les **19 descriptions éditoriales**
+    des classements `RANKING_META` — « Sources : DREES, Assurance Maladie, ATMO France,
+    INSEE 2026 », « Sources : FUB Baromètre des villes cyclables 2025, Plan Vélo et Marche
+    2023-2027, Géovélo, Cerema ». Ces chaînes sont rendues sur `/classements` et sur chaque
+    page de classement, et le garde ne les voit pas : il scanne `app/**` et
+    `components/*.tsx`, pas `lib/`. C'est une famille entière, à traiter d'un bloc.
+  - **20 `<title>` dépassent 60 caractères** sur ces mêmes sous-pages ville au pire cas
+    (`Démographie de Saint-Laurent-du-Maroni · vieillissement, jeunes actifs, trajectoire`
+    fait 83). **Défaut préexistant, aucun n'a été allongé ce run** — c'est une passe SEO, pas
+    un run d'honnêteté des sources, et elle rejoint la note du `<title>` sans `depuisLabel`
+    des 23 fiches expat-retour.
+  - Les **~28 autres thèmes de `lib/red-flag-themes.ts`** ne sont toujours pas audités un à
+    un : plusieurs tracent vers de vraies données (Insee Filosofi, DVF, recensement), et
+    `villes-sans-enseignement-superieur` cite légitimement `lib/education.ts`, qui **est**
+    une liste curée MESR / CPU / CGE. Vérifier lesquels le méritent reste à faire.
+  - **F63 est inchangée** : remplacer le modèle par du mesuré demande un crawl, donc une
+    passe locale. Ce run ne touche à aucun nombre, seulement à ce qu'on en dit.
+
+---
+
 ## Shipped 2026-09-09
 
 - **Quartet environnement (F40-F43) — les scores estimés n'étaient plus présentés comme des

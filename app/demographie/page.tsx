@@ -16,7 +16,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Démographie en France · villes dynamiques vs. vieillissantes 2026",
   description:
-    "Classement national INSEE des villes françaises selon le profil démographique : vieillissement, attractivité jeunes actifs, trajectoire pop, renouvellement. Top 30 dynamiques vs. top 20 critiques.",
+    "Classement des villes françaises selon le profil démographique : vieillissement et trajectoire mesurés au recensement Insee, jeunes actifs et renouvellement estimés.",
   alternates: pathAlternates("/demographie", "/demographics"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -56,7 +56,7 @@ export default function DemographyHubPage() {
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions INSEE : vieillissement (30 %, % seniors 60+ par dept), trajectoire population (30 %, solde naturel + migratoire), attractivité jeunes actifs 25-35 (25 %, % dans la pop totale), renouvellement (15 %, taux brut de natalité ‰). Score 0-10, 10 = démographie dynamique.",
+      a: "Composite agrégeant 4 dimensions : vieillissement (30 %, part des 60 ans et plus) et trajectoire (30 %, évolution 2016-2022) sont mesurés au recensement Insee, commune par commune, pour 538 des 540 villes du site ; attractivité des jeunes actifs 25-35 (25 %) et renouvellement (15 %, calé sur le taux brut de natalité) sont estimés depuis le département et le profil de la commune. Score 0-10, 10 = démographie dynamique. Aucune projection n'est ingérée.",
     },
     {
       q: "Où voir les projections officielles à 2050 ?",
@@ -81,11 +81,14 @@ export default function DemographyHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions clés de la démographie locale :
           vieillissement, attractivité jeunes actifs, trajectoire population, renouvellement
-          naturel. Score 0-10, 10 = démographie dynamique. Filtre 15 000 habitants minimum.
+          naturel. Score 0-10, 10 = démographie dynamique. Les deux premières dimensions
+          sont <strong>mesurées</strong> au recensement Insee commune par commune, les deux
+          autres <strong>estimées</strong> depuis le département et le profil de la commune.
+          Filtre 15 000 habitants minimum.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
+          <Badge>2 dimensions mesurées · 2 estimées</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération vieillis. 30 % · traj. 30 % · jeunes 25 % · renouv. 15 %</Badge>
         </div>
@@ -206,31 +209,38 @@ export default function DemographyHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Vieillissement (30 %)</strong> —
-              part des 60 ans et plus par dept (INSEE RP). Médiane nationale ~28 %.
+              part des 60 ans et plus, <strong>mesurée</strong> commune par commune au
+              recensement Insee. Médiane nationale ~28 %.
               Très âgé : Limousin, Massif Central, Manche, Orne, Vosges (35-40 %).
               Très jeune : DROM hors Antilles (&lt; 20 %).
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Trajectoire (30 %)</strong> —
-              solde démographique annuel (naturel + migratoire). Façade atlantique + Sud +
+              évolution de la population municipale 2016-2022, <strong>mesurée</strong> au
+              recensement Insee — pas la tendance du département. Façade atlantique, Sud et
               métropoles : positif soutenu. Centre/Est rural + bassins industriels :
               décroissance structurelle.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Jeunes actifs 25-35 (25 %)</strong> —
-              part des 25-35 ans. Indicateur d&apos;attractivité long-terme. Métropoles
+              <strong>estimé</strong> depuis le département et le profil de la commune,
+              pas relevé. Indicateur d&apos;attractivité long-terme. Métropoles
               étudiantes en tête (&gt; 18 %), bourgs ruraux en queue.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Renouvellement (15 %)</strong> —
-              taux brut de natalité (‰). France 2024 ~10,5 ‰. DROM &gt; 14 ‰, rural
-              âgé &lt; 8 ‰. Proxy de la part de jeunes adultes en âge de procréer.
+              <strong>estimé</strong> depuis le département et les tags, calé sur les
+              ordres de grandeur du taux brut de natalité (France ~10,5 ‰, DROM au-delà de
+              14 ‰, rural âgé sous 8 ‰). Aucun taux communal n&apos;est relevé.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Synthèse à l&apos;échelle communale dérivée du proxy département. Pour la
-            projection précise à 2050 par zone d&apos;emploi, OMPHALE (INSEE) reste la
-            référence officielle.
+            Deux dimensions sur quatre — soit 60 % du composite — sont
+            <strong> mesurées</strong> au recensement Insee, commune par commune
+            (Mamoudzou et Pierrefitte-sur-Seine sont hors fichier et retombent sur le
+            département) ; les deux autres sont des <strong>estimations</strong>. Rien ici
+            n&apos;est une projection : pour un horizon 2050 par zone d&apos;emploi,
+            OMPHALE (INSEE) reste la référence officielle, et elle n&apos;est pas reprise.
           </p>
         </Card>
 

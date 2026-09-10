@@ -78,7 +78,7 @@ export default function EnDemographicsHubPage() {
     },
     {
       q: "How is the demographics ranking calculated?",
-      a: "The composite aggregates four INSEE dimensions: ageing (30%, share of 60+ by department), population trajectory (30%, natural + migratory balance), young adults aged 25-35 (25%, share in total population), and renewal (15%, crude birth rate per 1,000). Score 0-10 where 10 = most dynamic.",
+      a: "The composite aggregates four dimensions: ageing (30%, share of 60+) and population trajectory (30%, 2016-2022 change) are measured commune by commune in the Insee census for 538 of the site's 540 cities; young adults aged 25-35 (25%) and renewal (15%, calibrated on the crude birth rate) are estimated from the department and the town's profile. Score 0-10 where 10 = most dynamic. No projection is ingested.",
     },
     {
       q: "Where can I find official population projections to 2050?",
@@ -105,12 +105,14 @@ export default function EnDemographicsHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite index across four key dimensions of local demography:
           ageing, young-adult attractiveness, population trajectory, and natural
-          renewal. Score 0-10 where 10 = most dynamic. Filtered to cities of
-          15,000+ inhabitants.
+          renewal. Score 0-10 where 10 = most dynamic. The first two are
+          <strong> measured</strong> commune by commune in the Insee census; the other two
+          are <strong>estimated</strong> from the department and the town's profile.
+          Filtered to cities of 15,000+ inhabitants.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Educational synthesis</Badge>
+          <Badge>2 dimensions measured · 2 estimated</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} cities</Badge>
           <Badge>Weighting: ageing 30% · trajectory 30% · young adults 25% · renewal 15%</Badge>
         </div>
@@ -232,32 +234,38 @@ export default function EnDemographicsHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Ageing (30%)</strong> —
-              share of 60+ population by department (INSEE RP). National median ~28%.
+              share of the population aged 60 or over, <strong>measured</strong> commune by
+              commune in the Insee census. National median ~28%.
               Highest ageing: Limousin, Massif Central, Manche, Orne, Vosges (35-40%).
               Youngest: DROM excluding Antilles (below 20%).
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Trajectory (30%)</strong> —
-              annual demographic balance (natural + migratory). Atlantic coast, southern
+              change in municipal population between 2016 and 2022, <strong>measured</strong>
+              in the Insee census — not the department's trend. Atlantic coast, southern
               France and major metropolitan areas: consistently positive. Rural central/eastern
               France and former industrial basins: structural decline.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Young adults 25-35 (25%)</strong> —
-              share of 25-35 age group in total population. Long-term attractiveness
+              <strong>estimated</strong> from the department and the town's profile, not
+              observed. Long-term attractiveness
               indicator. University cities lead (above 18%); rural towns trail.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Renewal (15%)</strong> —
-              crude birth rate (per 1,000). France 2024 ~10.5‰. DROM above 14‰,
-              ageing rural areas below 8‰. Proxy for the share of young adults of
-              childbearing age.
+              <strong>estimated</strong> from the department and the town's tags,
+              calibrated against crude birth-rate orders of magnitude (France ~10.5‰, DROM
+              above 14‰, ageing rural areas below 8‰). No commune-level rate is read.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            City-level synthesis derived from departmental proxies. For precise
-            projections to 2050 by employment zone, INSEE OMPHALE remains the
-            official reference.
+            Two of the four dimensions — 60% of the composite — are
+            <strong> measured</strong> commune by commune in the Insee census (Mamoudzou and
+            Pierrefitte-sur-Seine fall outside the file and revert to the department); the
+            other two are <strong>estimates</strong>. Nothing here is a projection: for
+            precise projections to 2050 by employment zone, INSEE OMPHALE remains the
+            official reference, and it is not reused here.
           </p>
         </Card>
 

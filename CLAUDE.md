@@ -2996,6 +2996,26 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     `env quartet` dans `npm run integrity`** : 20 surfaces contrôlées, un appel à
     `compute*`/un import de ces libs sans marqueur « estimé » fait échouer. Détail : ROADMAP
     § Shipped 2026-09-09. **Ne réintroduis pas « Sources : » sur ces quatre scores.**
+  - ✅ **Étendu le 2026-09-10 aux six autres moteurs propriétaires**, qui portaient
+    exactement le même défaut : `healthcare-access`, `employment-market`, `safety-deep`,
+    `public-services`, `cycling-mobility` et `commerce` n'importent eux aussi **que
+    `CityLight`**, et leurs surfaces annonçaient « Sources : DREES · CNOM · ARS »,
+    « Sources : INSEE · DARES · SIRENE », « **détail SSMSI** » jusque dans le `<title>` des
+    540 pages sécurité, et côté EN « These figures are **measured** at the departmental
+    level » / « expressed **per 1,000 residents** ». Même remède, même vocabulaire
+    (« cadres de référence », et chaque surface dit ce que son nombre **n'est pas** :
+    relevé de cabinets · taux publié · faits enregistrés · annuaire des équipements · note
+    d'enquête · décompte terrain). **Garde `moteurs` dans `npm run integrity` : 52 surfaces
+    contrôlées.**
+    ⚠️ **`lib/demography.ts` est le cas mixte et a son propre marqueur** : vieillissement et
+    trajectoire **sont mesurés** au recensement Insee (538/540 villes, via
+    `lib/city-population`), soit 60 % du composite ; jeunes actifs et renouvellement sont
+    estimés. Une surface démographie doit dire **lequel est lequel** — écrire « estimé » en
+    bloc y serait faux dans l'autre sens, et le garde le refuse.
+    ⚠️ **Le garde ne scanne que `app/**` et `components/*.tsx`** : `lib/rankings-meta.ts`
+    porte le même défaut sur les **19 descriptions de `RANKING_META`** (« Sources : DREES,
+    Assurance Maladie, ATMO France, INSEE 2026 »…) et reste à traiter. Détail : ROADMAP
+    § Shipped 2026-09-10.
   - ⚠️ **`/classements/qualite-air` EXISTE déjà** (owner-ranking de `lib/owner-rankings.ts`,
     dossier `app/classements/qualite-air`) — la note historique « absent des 19 slugs de
     `RANKING_META` » était vraie de `RANKING_META` et fausse du site, les deux familles de

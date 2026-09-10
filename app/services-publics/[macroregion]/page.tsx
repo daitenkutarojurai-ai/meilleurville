@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   return {
     title: `Services publics · ${macro.label} 2026`,
-    description: `Classement composite accès services publics (écoles, mairie, La Poste, médiathèque) restreint aux villes de la macro-région ${macro.label}. Mieux desservies vs. désertiques.`,
+    description: `Classement composite de l'accès aux services publics (écoles, mairie, La Poste, médiathèque) sur les villes de la macro-région ${macro.label}. Estimation communale.`,
     alternates: pathAlternates(`/services-publics/${macro.slug}`, `/public-services/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -92,7 +92,7 @@ export default async function MacroRegionServicesPage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `Composite pondéré sur 4 dimensions : écoles & petite enfance (35 %), mairie & démarches (25 %), La Poste & France Services (25 %), médiathèque (15 %). Sources : DEPP, CAF, BNF, La Poste, ANCT France Services.`,
+      a: `Composite pondéré sur 4 dimensions : écoles & petite enfance (35 %), mairie & démarches (25 %), La Poste & France Services (25 %), médiathèque (15 %). Les quatre niveaux sont estimés par strate de population et par département : le découpage suit l'annuaire DEPP, le réseau France Services, les relais de La Poste et l'observatoire BNF, mais aucun de ces annuaires n'est ingéré — ce n'est pas la liste des équipements ouverts.`,
     },
   ]);
 
@@ -114,10 +114,14 @@ export default async function MacroRegionServicesPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite restreint aux {cities.length} villes de la
           macro-région {macro.label} référencées de plus de 10 000 habitants.
-          Quatre dimensions : écoles, médiathèque, La Poste, mairie.
+          Quatre dimensions : écoles, médiathèque, La Poste, mairie. Les quatre niveaux
+          sont <strong>estimés</strong> par strate de population et par département, pas
+          relevés dans un annuaire d&apos;équipements.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : DEPP · CAF · BNF · France Services · La Poste</Badge>
           <Badge>{cities.length} villes analysées</Badge>
           <Badge>Composite moyen : {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -130,8 +134,8 @@ export default async function MacroRegionServicesPage({ params }: Props) {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
               { k: "Écoles", v: avgSchools, hint: "Maillage + tension crèche" },
-              { k: "Médiath.", v: avgLibrary, hint: "BNF lecture publique" },
-              { k: "Poste", v: avgPost, hint: "Bureaux + APC + RPC + MFS" },
+              { k: "Médiath.", v: avgLibrary, hint: "Présence estimée par strate" },
+              { k: "Poste", v: avgPost, hint: "Maillage estimé (bureaux, APC, RPC, MFS)" },
               { k: "Mairie", v: avgHall, hint: "Amplitude + démarches" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">

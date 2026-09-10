@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
       title: `Accès aux soins à ${city.name}`,
-      description: `Médecins, spécialistes, urgences, pharmacies — synthèse pédagogique DREES / ARS.`,
+      description: `Médecins, spécialistes, urgences, pharmacies — estimation communale, pas un relevé de cabinets.`,
     },
   };
 }
@@ -115,15 +115,29 @@ export default async function SantePage({ params }: Props) {
           Accès aux soins à {city.name}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Synthèse pédagogique des quatre dimensions clés de l&apos;accès aux soins :
-          médecins généralistes (porte d&apos;entrée du système), spécialistes,
-          urgences/SAU, et maillage pharmacies. Sources : DREES (densité médicale par
-          département), CNOM (atlas démographique), zonage ZIP/ZAC de l&apos;ARS.
+          Profil <strong>structurel</strong> des quatre dimensions clés de l&apos;accès aux
+          soins : médecins généralistes (porte d&apos;entrée du système), spécialistes,
+          urgences/SAU, et maillage pharmacies. Les niveaux ci-dessous sont{" "}
+          <strong>estimés</strong> à partir du département, de la taille de la commune et de
+          la présence d&apos;un établissement hospitalier — ils suivent les paliers de
+          sous-équipement de la DREES, l&apos;atlas démographique du CNOM et la logique du
+          zonage ZIP/ZAC de l&apos;ARS, <strong>sans reprendre leurs relevés</strong>. Ce
+          n&apos;est donc pas un décompte des cabinets installés à {city.name}, ni le zonage
+          ARS en vigueur. Pour l&apos;offre réellement ouverte aux nouveaux patients,
+          consultez{" "}
+          <a
+            href="https://annuairesante.ameli.fr/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-[var(--accent)] hover:underline"
+          >
+            l&apos;annuaire santé de l&apos;Assurance maladie
+          </a>.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>DREES · CNOM · ARS</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : DREES · CNOM · ARS</Badge>
         </div>
 
         {/* Composite hero */}
@@ -138,7 +152,7 @@ export default async function SantePage({ params }: Props) {
             {(10 - h.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
-          <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = excellent accès aux soins · 0 = désert médical avéré.</p>
+          <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = excellent accès aux soins · 0 = désert médical avéré — estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{h.signature}</p>
         </Card>
 
@@ -157,14 +171,18 @@ export default async function SantePage({ params }: Props) {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Médecins généralistes (35 %) :</strong>{" "}
-              densité départementale DREES 2023-2024. Catégorisation désert (&lt;
-              80/100k hab. + &gt; 50 % MG &gt; 60 ans) / sous-doté (&lt; 100/100k) /
-              correct / bien doté.
+              le département est rangé dans l&apos;un de quatre paliers — désert /
+              sous-doté / correct / bien doté — définis d&apos;après les repères DREES
+              (densité sous 80/100k hab. et plus de la moitié des praticiens au-delà de
+              60 ans pour le premier, sous 100/100k pour le second). Le palier est attribué
+              au département, aucune densité n&apos;est relevée pour la commune.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Spécialistes (25 %) :</strong>{" "}
               présence d&apos;un CHU dans la commune (accès direct) puis dégradé selon
-              taille agglomération. Source : Conférence des Doyens + Atlas CNOM.
+              la taille de l&apos;agglomération. Cadres de référence : liste des CHU de la
+              Conférence des doyens, atlas démographique du CNOM — les délais de
+              rendez-vous ne sont pas mesurés.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Urgences/SAU (25 %) :</strong>{" "}
@@ -177,9 +195,11 @@ export default async function SantePage({ params }: Props) {
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Ces scores synthétisent l&apos;accès à l&apos;échelle communale. L&apos;ARS
-            publie le zonage précis (ZIP/ZAC) et les aides à l&apos;installation pour les
-            médecins. La situation peut évoluer rapidement avec les départs en retraite.
+            Ces quatre scores sont des <strong>estimations</strong> à l&apos;échelle
+            communale, pas des relevés : aucune densité médicale, aucun délai de
+            rendez-vous et aucun zonage parcellaire ne sont ingérés ici. Le zonage précis
+            (ZIP/ZAC) et les aides à l&apos;installation sont publiés par l&apos;ARS, et la
+            situation évolue vite avec les départs en retraite.
           </p>
         </Card>
 

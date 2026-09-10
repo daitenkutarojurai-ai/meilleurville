@@ -130,8 +130,8 @@ export default async function CommercesPage({ params }: Props) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>INSEE BPE · Procos</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : INSEE BPE · Procos</Badge>
         </div>
 
         {/* Composite hero */}

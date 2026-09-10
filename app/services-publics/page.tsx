@@ -16,7 +16,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Services publics en France · accès écoles, Poste, mairie, médiathèque 2026",
   description:
-    "Classement national de l'accès aux services publics par ville française : écoles, La Poste & France Services, mairie, médiathèque. Top 30 mieux desservies vs. top 20 désertiques.",
+    "Classement de l'accès aux services publics par ville : écoles, La Poste & France Services, mairie, médiathèque. Estimation communale, pas l'annuaire des équipements.",
   alternates: pathAlternates("/services-publics", "/public-services"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -56,7 +56,7 @@ export default function PublicServicesHubPage() {
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : écoles & petite enfance (35 %, annuaire DEPP + tension crèche CAF), mairie & démarches (25 %, amplitude + France Services), La Poste & France Services (25 %, bureaux + APC + RPC + ~2 800 MFS), médiathèque (15 %, BNF observatoire lecture publique). Score 0-10, 10 = maillage complet.",
+      a: "Composite agrégeant 4 dimensions : écoles & petite enfance (35 %, annuaire DEPP + tension crèche CAF), mairie & démarches (25 %, amplitude + France Services), La Poste & France Services (25 %, bureaux + APC + RPC + ~2 800 MFS), médiathèque (15 %, BNF observatoire lecture publique). Score 0-10, 10 = maillage complet. C'est une estimation par strate de population et par département : les quatre dimensions suivent le découpage de l'annuaire DEPP, du réseau France Services, des relais de La Poste et de l'observatoire BNF, mais aucun de ces annuaires n'est ingéré — ce n'est pas la liste des équipements ouverts.",
     },
     {
       q: "Où trouver les coordonnées officielles des services publics près de chez moi ?",
@@ -81,12 +81,14 @@ export default function PublicServicesHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre piliers du quotidien : écoles &amp;
           petite enfance, mairie &amp; démarches, La Poste &amp; France Services,
-          médiathèque. Score 0-10, 10 = maillage de services complet. Filtre
-          15 000 habitants minimum.
+          médiathèque. Score 0-10, 10 = maillage de services complet — les quatre niveaux
+          sont <strong>estimés</strong> par strate de population et par département, pas
+          relevés dans un annuaire d&apos;équipements. Filtre 15 000 habitants minimum.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : DEPP · CAF · BNF · France Services · La Poste</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération écoles 35 % · mairie 25 % · Poste 25 % · médiath. 15 %</Badge>
         </div>
@@ -96,8 +98,9 @@ export default function PublicServicesHubPage() {
           Top 30 — villes au meilleur accès aux services publics
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Grandes métropoles, IDF dense, villes moyennes &gt; 30 000 hab. Toutes
-          dimensions opérationnelles, France Services présente.
+          Grandes métropoles, IDF dense, villes moyennes &gt; 30 000 hab. — les strates où
+          le modèle attend toutes les dimensions opérationnelles et une Maison France
+          Services.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -207,8 +210,9 @@ export default function PublicServicesHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Écoles &amp; enfance (35 %)</strong> —
-              annuaire DEPP (écoles, collèges, lycées) + tension crèche CAF par
-              dept. Communes &gt; 30 000 hab. : maillage complet. Bourgs &lt; 5 000
+              maillage estimé par strate, dans le découpage de l&apos;annuaire DEPP
+              (écoles, collèges, lycées) mais sans le lire, plus un malus de tension crèche
+              par département. Communes &gt; 30 000 hab. : maillage complet. Bourgs &lt; 5 000
               hab. : RPI + bus scolaire.
             </li>
             <li>
@@ -224,14 +228,16 @@ export default function PublicServicesHubPage() {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Médiathèque (15 %)</strong> —
-              BNF Observatoire lecture publique. Présence quasi-systématique
-              &gt; 10 000 hab.
+              présence estimée par strate, calée sur l&apos;observatoire BNF de la lecture
+              publique. Quasi-systématique au-delà de 10 000 hab.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Maillage proxyé par strate population × département. Pour le détail
-            point par point, l&apos;annuaire de l&apos;administration sur
-            service-public.fr reste la référence officielle à jour.
+            Ce classement trie des <strong>estimations</strong> par strate de population ×
+            département : aucun annuaire d&apos;équipements n&apos;est ingéré ici, donc une
+            fermeture ou une ouverture récente n&apos;y figure pas. Pour le détail point par
+            point, l&apos;annuaire de l&apos;administration sur service-public.fr reste la
+            référence officielle à jour.
           </p>
         </Card>
 

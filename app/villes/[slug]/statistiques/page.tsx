@@ -212,7 +212,10 @@ export default async function StatistiquesPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)]">
           Synthèse des chiffres-clés utiles pour situer {city.name} : population,
           salaire net médian, taux de chômage, structure d&apos;âge et trajectoire
-          démographique. Sources publiques :{" "}
+          démographique. Population, niveau de vie et part des 60 ans et plus sont{" "}
+          <strong>mesurés</strong> sur la commune ; le salaire médian, le chômage et le
+          dynamisme sont des <strong>fourchettes départementales estimées</strong>, calées
+          sur les ordres de grandeur publiés par l&apos;{" "}
           <a
             href="https://www.insee.fr/fr/statistiques"
             target="_blank"
@@ -221,11 +224,11 @@ export default async function StatistiquesPage({ params }: Props) {
           >
             INSEE
           </a>{" "}
-          (RP, DADS, chômage trimestriel).
+          (RP, DADS, chômage trimestriel) sans reprendre ces séries.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Chiffres INSEE</Badge>
+          <Badge>Mesuré : population, niveau de vie, âges</Badge>
           <Badge>Fourchettes départementales</Badge>
         </div>
 
@@ -439,7 +442,9 @@ export default async function StatistiquesPage({ params }: Props) {
               {unemp.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {unemp.note}. Source INSEE, taux trimestriel département T4 2024.
+              {unemp.note}. Fourchette estimée à partir de nos indices, calée sur
+              l&apos;ordre de grandeur du taux trimestriel INSEE du département — le taux
+              publié n&apos;est pas repris, et il n&apos;existe pas à la commune.
             </p>
           </div>
 
@@ -469,8 +474,9 @@ export default async function StatistiquesPage({ params }: Props) {
                 </>
               ) : (
                 <>
-                  {ageing.note}. Source INSEE recensement (RP) — département{" "}
-                  {city.department}.
+                  {ageing.note}. {city.name} est hors du fichier communal Insee : cette
+                  fourchette est estimée depuis le département {city.department}, elle
+                  n&apos;est pas mesurée sur la commune.
                 </>
               )}
             </p>
@@ -491,8 +497,9 @@ export default async function StatistiquesPage({ params }: Props) {
             {demo.trajectory.reason}
           </p>
           <p className="text-xs text-[var(--text-tertiary)] mt-2">
-            Source : INSEE, bilan démographique départemental (solde naturel + solde
-            migratoire annuel).
+            {trend
+              ? `Évolution mesurée entre les recensements ${INSEE_POP_BASE_YEAR} et ${INSEE_POP_YEAR}, commune par commune.`
+              : `${city.name} est hors du fichier communal Insee : la trajectoire est estimée depuis la tendance du département ${city.department}, elle n'est pas mesurée sur la commune.`}
           </p>
         </Card>
 

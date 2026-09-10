@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: `Safety (SSMSI) · ${label} 2026`,
+    title: `Safety — ${label} 2026`,
     description: `Composite safety ranking (property crime, personal crime, night-time, domestic violence) for cities in the ${label} macro-region. Quietest vs most tense cities.`,
     alternates: pathAlternatesEn(`/securite/${macro.slug}`, `/safety/${macro.slug}`),
     openGraph: {
@@ -104,7 +104,7 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
     },
     {
       q: `How is this ranking calculated?`,
-      a: `Weighted composite across 4 SSMSI dimensions: property crime (35%), personal crime (30%), night-time incidents (20%), domestic violence (15%). Sources: SSMSI (interstats.fr), INSEE CVS, data.gouv.fr.`,
+      a: `Weighted composite across 4 dimensions, following the SSMSI categories: property crime (35%), personal crime (30%), night-time incidents (20%), domestic violence (15%). All four are estimated from each city's safety score, its size and its profile: no per-1,000 rate is ingested — these are not recorded offences. The real figures are published by the SSMSI (interstats.fr) and on data.gouv.fr.`,
     },
   ]);
 
@@ -126,10 +126,13 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite safety index for {cities.length} cities in the {label} macro-region
           with over 10,000 inhabitants. Four dimensions: property crime, personal crime,
-          night-time incidents, domestic violence.
+          night-time incidents, domestic violence. All four are <strong>estimated</strong>
+          from each city's safety score and profile, not read off recorded crime.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: SSMSI · Insee CVS</Badge>
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average composite: {avgComposite.toFixed(1)}/10</Badge>
         </div>
@@ -143,7 +146,7 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
               { k: "Property", v: avgProperty, hint: "Burglaries + theft" },
               { k: "Personal", v: avgPersons, hint: "Assault & battery" },
               { k: "Night-time", v: avgNoct, hint: "Fights & vandalism" },
-              { k: "Dom. violence", v: avgVffs, hint: "SSMSI reports" },
+              { k: "Dom. violence", v: avgVffs, hint: "SSMSI category, estimated" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
@@ -156,7 +159,7 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
             ))}
           </div>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-            Sub-scores: 10 = safest. The SSMSI engine scores insecurity (10 = worst); the display is inverted.
+            Sub-scores: 10 = safest, and these are estimates rather than recorded rates. The engine scores insecurity (10 = worst); the display is inverted.
           </p>
         </Card>
 
@@ -263,7 +266,7 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
               <Card className="hover:shadow-md transition-shadow h-full">
                 <div className="text-2xl mb-1">{m.emoji}</div>
                 <div className="text-sm font-semibold text-[var(--text-primary)]">{EN_MACRO_LABEL[m.slug] ?? m.label}</div>
-                <div className="text-xs text-[var(--text-tertiary)] mt-1">Safety (SSMSI)</div>
+                <div className="text-xs text-[var(--text-tertiary)] mt-1">Safety — estimated profile</div>
               </Card>
             </Link>
           ))}

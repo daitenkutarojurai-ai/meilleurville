@@ -93,7 +93,7 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `Composite pondéré sur 4 dimensions : chômage INSEE T4 2024 par dept (35 %), salaire net médian DADS (25 %), dynamisme création SIRENE (20 %), mix sectoriel et résilience (20 %). Sources : INSEE, DARES, SIRENE, DADS.`,
+      a: `Composite pondéré sur 4 dimensions : chômage INSEE T4 2024 par dept (35 %), salaire net médian DADS (25 %), dynamisme création SIRENE (20 %), mix sectoriel et résilience (20 %). Ces quatre niveaux sont estimés : chaque département est rangé dans des paliers calés sur les ordres de grandeur INSEE, DARES, SIRENE et DADS, aucune de ces séries n'étant ingérée — ce n'est ni un taux de chômage publié, ni un salaire relevé commune par commune.`,
     },
   ]);
 
@@ -115,10 +115,14 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
-          chômage, salaire médian, dynamisme entrepreneurial, mix sectoriel.
+          chômage, salaire médian, dynamisme entrepreneurial, mix sectoriel. Les quatre
+          niveaux sont <strong>estimés</strong> au département, pas relevés commune par
+          commune.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : INSEE · DARES · SIRENE · DADS</Badge>
           <Badge>{cities.length} villes analysées</Badge>
           <Badge>Composite moyen : {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -130,9 +134,9 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Chômage", v: avgUnemp, hint: "INSEE T4 2024 par dept" },
-              { k: "Salaire", v: avgSalary, hint: "DADS net médian dept" },
-              { k: "Dynamisme", v: avgDyn, hint: "Création SIRENE + attractivité" },
+              { k: "Chômage", v: avgUnemp, hint: "Palier départemental estimé" },
+              { k: "Salaire", v: avgSalary, hint: "Palier départemental estimé" },
+              { k: "Dynamisme", v: avgDyn, hint: "Création estimée + attractivité" },
               { k: "Mix sectoriel", v: avgMix, hint: "Diversification & résilience" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">

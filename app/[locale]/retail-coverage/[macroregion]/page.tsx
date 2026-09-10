@@ -63,7 +63,7 @@ export async function generateMetadata({
   const label = macroLabelEn(macro.slug, macro.label);
   return {
     title: `Retail coverage · ${label} 2026`,
-    description: `Retail offer across ${label} cities: density, markets & proximity, big-box, downtown vitality. Editorial ranking derived from INSEE / Procos.`,
+    description: `Retail offer across ${label} cities: density, proximity, big-box, downtown vitality. An estimate, not a field count.`,
     alternates: pathAlternatesEn(`/commerces/${macro.slug}`, `/retail-coverage/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -173,7 +173,7 @@ export default async function EnMacroRegionRetailPage({ params }: Props) {
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average score: {avgScore}/10</Badge>
-          <Badge>Sources: INSEE BPE, Procos</Badge>
+          <Badge>Reference frameworks: INSEE BPE, Procos</Badge>
         </div>
 
         {/* Best */}

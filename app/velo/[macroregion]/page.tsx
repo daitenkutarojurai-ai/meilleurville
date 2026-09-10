@@ -93,7 +93,7 @@ export default async function MacroRegionCyclingPage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `Composite pondéré sur 4 dimensions : réseau cyclable (35 %, Baromètre FUB + Vélo & Territoires + EuroVelo), topographie (25 %), sécurité (25 %), climat (15 %). Sources : FUB, Vélo & Territoires, Géovélo, INSEE.`,
+      a: `Composite pondéré sur 4 dimensions : réseau cyclable (35 %, Baromètre FUB + Vélo & Territoires + EuroVelo), topographie (25 %), sécurité (25 %), climat (15 %). Les quatre niveaux sont estimés depuis la taille de la commune, son relief, son climat et ses tags : les repères viennent du Baromètre FUB, des palmarès Vélo & Territoires et du tracé des EuroVelo, mais aucune note d'enquête ni aucun kilomètre d'aménagement n'est ingéré.`,
     },
   ]);
 
@@ -115,10 +115,14 @@ export default async function MacroRegionCyclingPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
-          réseau cyclable, topographie, sécurité, climat.
+          réseau cyclable, topographie, sécurité, climat. Les quatre niveaux sont
+          <strong> estimés</strong> depuis la taille de la commune, son relief et son
+          climat, pas relevés sur le terrain.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : FUB · Vélo &amp; Territoires · Géovélo</Badge>
           <Badge>{cities.length} villes analysées</Badge>
           <Badge>Composite moyen : {avgComposite}/10</Badge>
         </div>
@@ -130,7 +134,7 @@ export default async function MacroRegionCyclingPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Réseau", v: avgNetwork, hint: "Aménagements + EuroVelo" },
+              { k: "Réseau", v: avgNetwork, hint: "Réputation cyclable + EuroVelo, estimé" },
               { k: "Relief", v: avgTopo, hint: "Pente + altitude" },
               { k: "Sécurité", v: avgSafety, hint: "Trafic × aménagement" },
               { k: "Climat", v: avgClimate, hint: "Soleil + vent + hiver" },

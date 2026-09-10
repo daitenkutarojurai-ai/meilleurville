@@ -104,7 +104,7 @@ export default async function MacroRegionEmploymentEnPage({ params }: Props) {
     },
     {
       q: `How is this ranking calculated?`,
-      a: `Weighted composite across 4 dimensions: unemployment by dept INSEE Q4 2024 (35%), median net salary DADS (25%), business creation dynamism SIRENE (20%), sector diversification (20%). Sources: INSEE, DARES, SIRENE, DADS.`,
+      a: `Weighted composite across 4 dimensions: unemployment by dept INSEE Q4 2024 (35%), median net salary DADS (25%), business creation dynamism SIRENE (20%), sector diversification (20%). All four are estimated: each department is placed in bands calibrated against INSEE, DARES, SIRENE and DADS orders of magnitude, none of those series being ingested — this is neither a published unemployment rate nor a salary observed town by town.`,
     },
   ]);
 
@@ -126,10 +126,13 @@ export default async function MacroRegionEmploymentEnPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite employment index for {cities.length} cities in the {label} macro-region
           with over 10,000 inhabitants. Four dimensions: unemployment, median salary,
-          entrepreneurial dynamism, sector mix.
+          entrepreneurial dynamism, sector mix. All four are <strong>estimated</strong> at
+          departmental level, not observed town by town.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: INSEE · DARES · SIRENE · DADS</Badge>
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average composite: {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -140,9 +143,9 @@ export default async function MacroRegionEmploymentEnPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Unemployment", v: avgUnemp, hint: "INSEE Q4 2024 by dept" },
-              { k: "Salary", v: avgSalary, hint: "DADS median net by dept" },
-              { k: "Dynamism", v: avgDyn, hint: "Business creation + attractiveness" },
+              { k: "Unemployment", v: avgUnemp, hint: "Estimated departmental band" },
+              { k: "Salary", v: avgSalary, hint: "Estimated departmental band" },
+              { k: "Dynamism", v: avgDyn, hint: "Estimated creation + attractiveness" },
               { k: "Sector mix", v: avgMix, hint: "Diversification & resilience" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">

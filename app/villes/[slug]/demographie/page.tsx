@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
       title: `Démographie de ${city.name}`,
-      description: `Vieillissement, jeunes actifs, trajectoire, renouvellement — synthèse INSEE.`,
+      description: `Vieillissement et trajectoire mesurés au recensement Insee ; jeunes actifs et renouvellement estimés.`,
     },
   };
 }
@@ -88,6 +88,11 @@ export default async function DemographiePage({ params }: Props) {
   const seniors = seniorShare(city.slug);
   const youth = youthShare(city.slug);
   const ages = ageDistribution(city.slug);
+  // Vieillissement et trajectoire sont lus dans le recensement pour 538 des 540
+  // villes ; Mamoudzou et Pierrefitte-sur-Seine retombent sur le proxy
+  // départemental de lib/demography, et la page doit le dire plutôt que de leur
+  // promettre une mesure communale.
+  const measured = seniors !== null && trend !== null;
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -102,8 +107,8 @@ export default async function DemographiePage({ params }: Props) {
       a: `${city.name} (${city.department}) affiche un composite démographique ${(10 - d.composite).toFixed(1)}/10 (10 = démographie dynamique). Détail : vieillissement ${(10 - d.ageing.score).toFixed(1)}/10, jeunes actifs ${(10 - d.youngActives.score).toFixed(1)}/10, trajectoire ${(10 - d.trajectory.score).toFixed(1)}/10, renouvellement ${(10 - d.renewal.score).toFixed(1)}/10. ${d.signature}`,
     },
     {
-      q: `Où voir les chiffres INSEE pour ${city.name} ?`,
-      a: `L'INSEE publie chaque année le recensement de population (RP) avec structure par âge par commune et département. Les projections OMPHALE 2070 sont disponibles par zone d'emploi. Le Bilan démographique annuel (insee.fr) détaille solde naturel + solde migratoire.`,
+      q: `Quels chiffres viennent vraiment de l'INSEE pour ${city.name} ?`,
+      a: `Le vieillissement et la trajectoire le sont : ils sont lus dans le recensement, commune par commune. Les deux autres dimensions — jeunes actifs et renouvellement — sont estimées depuis le département et le profil de la commune, et aucune projection n'est ingérée. L'INSEE publie chaque année le recensement de population (RP) avec structure par âge par commune et département. Les projections OMPHALE 2070 sont disponibles par zone d'emploi. Le Bilan démographique annuel (insee.fr) détaille solde naturel + solde migratoire.`,
     },
     {
       q: `Que signifie le score de vieillissement ?`,
@@ -111,7 +116,7 @@ export default async function DemographiePage({ params }: Props) {
     },
     {
       q: `${city.name} est-elle en croissance ou en décroissance ?`,
-      a: d.trajectory.reason + ` Pour la projection à 2050, OMPHALE (INSEE) offre la meilleure source par zone d'emploi.`,
+      a: d.trajectory.reason + ` Nous ne projetons rien au-delà : pour un horizon 2050, OMPHALE (INSEE) modélise par zone d'emploi, et ce modèle n'est pas repris ici.`,
     },
   ]);
 
@@ -132,9 +137,26 @@ export default async function DemographiePage({ params }: Props) {
           Démographie de {city.name}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Synthèse pédagogique des quatre dimensions de la démographie locale :
-          vieillissement, attractivité des jeunes actifs, trajectoire population et
-          renouvellement naturel. Sources :{" "}
+          Quatre dimensions de la démographie locale, et elles ne sont pas de même
+          nature.{" "}
+          {measured ? (
+            <>
+              Le vieillissement et la trajectoire sont <strong>mesurés</strong> : ils sont
+              lus commune par commune dans le recensement, donc {city.name} y a sa part
+              réelle de 60 ans et plus et son évolution réelle depuis{" "}
+              {INSEE_POP_BASE_YEAR}.
+            </>
+          ) : (
+            <>
+              {city.name} est l&apos;une des deux communes du site que le fichier Insee ne
+              couvre pas : ici, le vieillissement et la trajectoire sont eux aussi{" "}
+              <strong>estimés</strong> depuis le département, faute de mesure communale.
+            </>
+          )}{" "}
+          L&apos;attractivité des jeunes actifs et le renouvellement sont dans tous les cas{" "}
+          <strong>estimés</strong> depuis le département et le profil de la commune : ce ne
+          sont ni une part d&apos;âge relevée ici, ni un taux de natalité communal. Et rien
+          n&apos;est projeté — les chiffres mesurés viennent du{" "}
           <a
             href="https://www.insee.fr/fr/statistiques/serie/001893337"
             target="_blank"
@@ -142,13 +164,12 @@ export default async function DemographiePage({ params }: Props) {
             className="text-[var(--accent)] hover:underline"
           >
             INSEE RP
-          </a>{" "}
-          · Bilan démographique · projection OMPHALE.
+          </a>.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>INSEE · OMPHALE · CNAV</Badge>
+          <Badge>{measured ? "2 dimensions mesurées · 2 estimées" : "4 dimensions estimées"}</Badge>
+          {measured ? <Badge>Recensement Insee {INSEE_POP_YEAR}</Badge> : null}
         </div>
 
         {/* Composite hero */}
@@ -290,32 +311,40 @@ export default async function DemographiePage({ params }: Props) {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Vieillissement (30 %) :</strong>{" "}
-              part des 60 ans et plus dans la population totale (INSEE RP). Médiane
-              nationale 2024 ~28 %. Très âgé : Creuse, Lot, Cantal, Limousin entier ;
+              part des 60 ans et plus dans la population totale, <strong>mesurée</strong>
+              au recensement Insee {INSEE_POP_YEAR} pour 538 des 540 villes du site. Médiane
+              nationale ~28 %. Très âgé : Creuse, Lot, Cantal, Limousin entier ;
               très jeune : DROM hors Antilles.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Jeunes actifs 25-35 (25 %) :</strong>{" "}
-              part des 25-35 ans dans la population. Métropoles étudiantes et IDF dense
-              en tête (&gt; 18 %), bourgs ruraux en queue. Indicateur d&apos;attractivité
-              économique long-terme.
+              <strong>estimé</strong> depuis le département et le profil de la commune,
+              pas relevé : métropoles étudiantes et IDF dense en tête, bourgs ruraux en
+              queue. Indicateur d&apos;attractivité économique long-terme.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Trajectoire (30 %) :</strong>{" "}
-              solde démographique annuel = solde naturel (naissances − décès) + solde
-              migratoire (entrées − sorties). Façade atlantique + Sud + métropoles
-              positives ; Centre/Est rural + bassins industriels en décroissance structurelle.
+              évolution de la population municipale entre {INSEE_POP_BASE_YEAR} et{" "}
+              {INSEE_POP_YEAR}, <strong>mesurée</strong> au recensement Insee — pas la
+              tendance du département. Façade atlantique, Sud et métropoles en hausse ;
+              Centre et Est ruraux, bassins industriels en décroissance.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Renouvellement (15 %) :</strong>{" "}
-              taux brut de natalité (‰). France 2024 ~10,5 ‰. DROM &gt; 14 ‰, rural âgé
-              &lt; 8 ‰. Proxy de la part de jeunes adultes en âge de procréer.
+              <strong>estimé</strong> depuis le département et les tags de la commune,
+              calé sur les ordres de grandeur du taux brut de natalité (France ~10,5 ‰,
+              DROM au-delà de 14 ‰, rural âgé sous 8 ‰). Aucun taux communal n&apos;est
+              relevé.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Score à l&apos;échelle communale via proxy département. Pour la projection
-            précise à 2050 et l&apos;analyse fine d&apos;une zone d&apos;emploi,
-            consulter OMPHALE (INSEE) qui modélise les évolutions par EPCI.
+            Deux dimensions sur quatre — vieillissement et trajectoire, soit 60 % du
+            composite — sont <strong>mesurées</strong> au recensement Insee, commune par
+            commune, pour 538 des 540 villes du site (Mamoudzou et
+            Pierrefitte-sur-Seine sont hors fichier et retombent sur le département). Les deux autres sont des <strong>estimations</strong> par département
+            et profil. Et rien ici n&apos;est une projection : pour un horizon 2050,
+            OMPHALE (INSEE) modélise par zone d&apos;emploi, et la CNAV publie ses
+            projections seniors par EPCI — ni l&apos;un ni l&apos;autre n&apos;est repris.
           </p>
         </Card>
 

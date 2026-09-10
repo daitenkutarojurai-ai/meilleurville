@@ -16,7 +16,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Marché du travail en France · meilleures villes 2026",
   description:
-    "Classement national des villes françaises selon le marché du travail : chômage INSEE, dynamisme SIRENE, mix sectoriel, salaire net médian. Top 30 villes favorables vs. top 20 marchés sinistrés.",
+    "Classement des villes françaises selon le marché du travail : chômage, dynamisme, mix sectoriel, salaire médian. Estimation départementale, pas les taux publiés.",
   alternates: pathAlternates("/emploi", "/employment"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Marché du travail en France · meilleures villes 2026",
     description:
-      "Top 30 villes au marché favorable vs. top 20 marchés sinistrés. INSEE / DARES / SIRENE / DADS.",
+      "Top 30 marchés favorables vs. top 20 marchés sinistrés. Estimation départementale, pas les taux publiés.",
   },
 };
 
@@ -56,7 +56,7 @@ export default function EmploymentHubPage() {
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : taux de chômage INSEE T4 2024 par dept (35 %), salaire net médian INSEE DADS (25 %), dynamisme création SIRENE (20 %), mix sectoriel et résilience (20 %). Score 0-10, 10 = marché du travail dynamique.",
+      a: "Composite agrégeant 4 dimensions : taux de chômage INSEE T4 2024 par dept (35 %), salaire net médian INSEE DADS (25 %), dynamisme création SIRENE (20 %), mix sectoriel et résilience (20 %). Score 0-10, 10 = marché du travail dynamique. C'est une estimation : chaque département est rangé dans des paliers calés sur les ordres de grandeur INSEE, DADS, SIRENE et DARES, mais aucune de ces séries n'est ingérée — ce n'est ni un taux de chômage publié, ni un salaire relevé commune par commune.",
     },
     {
       q: "Où trouver les offres d'emploi en temps réel ?",
@@ -80,13 +80,15 @@ export default function EmploymentHubPage() {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions clés du marché du travail local :
-          taux de chômage (INSEE), dynamisme entrepreneurial (SIRENE), mix sectoriel
-          (résilience), salaire net médian (DADS). Score 0-10, 10 = marché du travail dynamique.
+          chômage, dynamisme entrepreneurial, mix sectoriel (résilience), salaire net
+          médian. Score 0-10, 10 = marché du travail dynamique — les quatre niveaux sont
+          <strong>estimés</strong> au département, pas relevés commune par commune.
           Filtre 15 000 habitants minimum pour pertinence des indicateurs départementaux.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : INSEE · DARES · SIRENE · DADS</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération chômage 35 % · salaire 25 % · dynamisme 20 % · mix 20 %</Badge>
         </div>
@@ -154,7 +156,7 @@ export default function EmploymentHubPage() {
           Top 20 — villes au marché le plus difficile
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Communes ≥ 15 000 hab. cumulant chômage INSEE élevé, salaires bas et faible
+          Communes ≥ 15 000 hab. dont le département cumule un palier de chômage élevé, des salaires bas et un faible
           création nette d&apos;entreprises. Marché tendu, transition économique souvent
           en cours.
         </p>
@@ -207,19 +209,21 @@ export default function EmploymentHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Chômage (35 %)</strong> —
-              taux trimestriel INSEE par département (T4 2024 latest). Moyenne France
-              métropolitaine ~7,3 %. DROM en tension chronique &gt; 15 %.
+              le département est rangé dans un palier calé sur l&apos;ordre de grandeur du
+              taux trimestriel INSEE (moyenne France métropolitaine ~7,3 %, DROM en tension
+              chronique au-delà de 15 %). Le taux publié n&apos;est pas repris.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Salaire (25 %)</strong> —
-              salaire net médian départemental INSEE DADS. Moyenne France ~2 100 €/mois.
-              Paris &amp; petite couronne &gt; 2 400 €, DROM &amp; ruraux &lt; 1 850 €.
+              paliers départementaux calés sur les ordres de grandeur INSEE DADS (moyenne
+              France ~2 100 €/mois, Paris et petite couronne au-delà de 2 400 €, DROM et
+              ruraux sous 1 850 €). Aucun salaire n&apos;est relevé commune par commune.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Dynamisme (20 %)</strong> —
-              création nette d&apos;entreprises SIRENE par département, pondérée par taille
-              de la commune. Métropoles et littoraux attractifs au-dessus, ruraux en déclin
-              en-dessous.
+              création nette d&apos;établissements estimée au département dans l&apos;esprit
+              des flux SIRENE, pondérée par la taille de la commune. Métropoles et littoraux
+              attractifs au-dessus, ruraux en déclin en-dessous.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Mix sectoriel (20 %)</strong> —
@@ -228,9 +232,11 @@ export default function EmploymentHubPage() {
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Synthèse à l&apos;échelle départementale. Le marché local peut varier fortement
-            au sein d&apos;un dept (préfecture vs. canton rural). Pour les offres en temps
-            réel : France Travail, Apec, Hellowork.
+            Ce classement trie des <strong>estimations</strong> construites au département,
+            pas des relevés : aucun taux de chômage, aucun flux SIRENE et aucun salaire médian
+            ne sont ingérés ici. Le marché local varie d&apos;ailleurs fortement à
+            l&apos;intérieur d&apos;un même département (préfecture contre canton rural). Pour
+            les offres en temps réel : France Travail, Apec, Hellowork.
           </p>
         </Card>
 

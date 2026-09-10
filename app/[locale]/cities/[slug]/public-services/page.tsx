@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
   return {
     title: `${c.name} public services — schools, library, post office (2026)`,
-    description: `Public-service coverage in ${c.name}: schools, library, post office and town hall. How well the everyday admin of life is served.`,
+    description: `Public-service coverage in ${c.name}: schools, library, post office, town hall. A commune-level estimate, not a directory of facilities.`,
     alternates: cityAlternatesEn("public-services", slug),
   };
 }
@@ -90,6 +90,12 @@ export default async function EnCityPublicServices({ params }: Props) {
           Coverage score: <span className={`font-mono-data font-bold ${scoreColor(score)}`}>{score.toFixed(1)}/10</span>{" "}
           ({LEVEL_LABEL[services.level]}). {HERO_VERDICT[services.level]}
         </p>
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          10 = full coverage. Estimated by population band and department — it follows
+          the categories of the DEPP school directory, the France Services network, the
+          La Poste outlets and the BNF public-reading survey, but reads none of those
+          directories, so it is not a list of what is actually open here.
+        </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
@@ -113,7 +119,10 @@ export default async function EnCityPublicServices({ params }: Props) {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">The quiet day-to-day factor</h2>
         <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
-          Public-service coverage rarely makes anyone's wishlist, then quietly shapes daily life. France has worked to plug gaps with France Services one-stop points, but rural and shrinking towns still thin out — a missing local post office or a collège a long bus ride away adds up over years. If you won't have a car, weight this heavily.
+          These four scores are a <strong>commune-level estimate</strong> by population
+          band and department, not a count of facilities: a branch that closed last year or
+          a France Services point that opened last month will not show up. Public-service
+          coverage rarely makes anyone's wishlist, then quietly shapes daily life. France has worked to plug gaps with France Services one-stop points, but rural and shrinking towns still thin out — a missing local post office or a collège a long bus ride away adds up over years. If you won't have a car, weight this heavily.
         </p>
         <div className="mt-2 flex flex-wrap gap-3">
           <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {c.name}</Link>

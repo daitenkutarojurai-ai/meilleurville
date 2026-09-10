@@ -140,13 +140,13 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities with critical healthcare access problems",
     metaTitle: "Medical deserts 2026 — French cities where finding a GP has become impossible",
     metaDescription:
-      "2026 ranking of French cities over 10,000 where healthcare access is critical: GPs not replaced on retirement, saturated specialists, distant A&E. Composite from DREES / CNOM / ARS data.",
+      "2026 ranking of French cities over 10,000 where healthcare access is critical: GPs not replaced on retirement, saturated specialists, distant A&E. A commune-level estimate, not a count of practices.",
     intro:
       "The agent touts affordability and village charm. Nobody mentions the last GP retiring in June with no replacement, the nearest dermatologist 90 minutes away with an 8-month wait, or A&E 45 minutes away. Medical deserts don't appear in property photos — you discover them at 10pm with a sick child.",
     reality:
-      "We rank cities over 10,000 whose composite exceeds 6.5/10, with a penalty when GP desert (DREES < 80/100k + >50% GPs over 60) AND distant A&E compound — a genuine critical situation, not a single weak indicator.",
+      "We rank cities over 10,000 whose composite exceeds 6.5/10, with a penalty when GP desert (the DREES reference band: under 80/100k with more than half of GPs over 60) AND distant A&E compound — a genuine critical situation, not a single weak indicator. All four dimensions are estimated from the department, town size and hospital status; no medical density is ingested.",
     methodology:
-      "Severity = composite + 1.2 if GP desert AND A&E ≥ 6.5/10 + 0.5 if specialists ≥ 7/10. Sources: DREES (medical density by dept), CNOM demographic atlas, ARS ZIP/ZAC zoning, University Medical Centres.",
+      "Severity = composite + 1.2 if GP desert AND A&E ≥ 6.5/10 + 0.5 if specialists ≥ 7/10. Commune-level estimate: the department is placed in bands calibrated against DREES reference figures, the CNOM demographic atlas, the ARS ZIP/ZAC zoning and the list of university hospitals — reference frameworks, not sources. No medical density is ingested.",
   },
   {
     enSlug: "chronic-unemployment",
@@ -155,13 +155,13 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities with chronically weak job markets",
     metaTitle: "Chronic unemployment 2026 — French cities with the most distressed labour markets",
     metaDescription:
-      "2026 ranking of French cities over 15,000 combining high INSEE unemployment, low SIRENE business dynamism and below-median wages. Composite from INSEE / DARES / DADS / SIRENE.",
+      "2026 ranking of French cities over 15,000 combining high INSEE unemployment, low SIRENE business dynamism and below-median wages. A departmental estimate, not published rates.",
     intro:
       "The agent touts the affordable townhouse and the charming town centre. Nobody mentions the local labour market has been distressed since the last factory closed, unemployment is over 11%, and net business creation has been negative for three years.",
     reality:
       "We rank cities over 15,000 whose composite (unemployment 35% + wages 25% + dynamism 20% + mix 20%) exceeds 6.5/10, with a penalty when unemployment desert AND weak dynamism compound — a genuine structural decline.",
     methodology:
-      "Severity = composite + 1.2 if unemployment ≥ 7.5/10 AND dynamism ≥ 6.5/10 + 0.5 if wages ≥ 7/10. Sources: INSEE (quarterly unemployment by dept), DADS (median net wages), SIRENE (net business creation), DARES (restructuring employment zones).",
+      "Severity = composite + 1.2 if unemployment ≥ 7.5/10 AND dynamism ≥ 6.5/10 + 0.5 if wages ≥ 7/10. Departmental estimate: the bands are calibrated against the orders of magnitude of INSEE quarterly unemployment, DADS median net wages, SIRENE business-creation flows and the DARES restructuring basins — reference frameworks, not sources. No published rate is reused.",
   },
   {
     enSlug: "quality-of-life-stretched",
@@ -176,7 +176,7 @@ const EN_THEMES: EnTheme[] = [
     reality:
       "We rank cities over 15,000 whose mega-index (environment 35% + health 30% + employment 35%) is ≤ 4.5/10, with a penalty when at least 2 of the 3 pillars fall below 4/10 — a genuine compounding effect.",
     methodology:
-      "Severity = (5 − index) × 2 + 1.2 if ≥ 2 pillars ≤ 4/10 + 0.6 if ≤ 3.5/10. The environment pillar is a commune-level estimate keyed to the ATMO/CITEPA/RNSA frameworks, not a station reading; health DREES/CNOM/ARS, employment INSEE/DADS/SIRENE.",
+      "Severity = (5 − index) × 2 + 1.2 if ≥ 2 pillars ≤ 4/10 + 0.6 if ≤ 3.5/10. The environment pillar is a commune-level estimate keyed to the ATMO/CITEPA/RNSA frameworks, not a station reading; the health pillar is a commune-level estimate keyed to the DREES/CNOM/ARS frameworks, not a count of practices; the employment pillar a departmental estimate keyed to the INSEE/DADS/SIRENE frameworks, not the published unemployment rate.",
   },
   {
     enSlug: "cost-explosion",
@@ -200,13 +200,13 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities in a public services desert",
     metaTitle: "Public services desert 2026 — French cities with the most broken provision",
     metaDescription:
-      "2026 ranking of cities over 10,000 with a public services composite ≥ 6.5/10: schools, post offices & France Services centres, town halls, libraries. Sources: DEPP / CAF / La Poste / ANCT.",
+      "2026 ranking of cities over 10,000 with a public services composite ≥ 6.5/10: schools, post offices & France Services centres, town halls, libraries. A commune-level estimate, not a directory of facilities.",
     intro:
       "The social security card changes address, the post office closed, the local secondary school is 15km away, the town hall opens two half-days a week. None of these signals appear in a property brochure, but together they define what living in a 'service desert' means day-to-day.",
     reality:
       "We rank cities over 10,000 whose composite exceeds 6.5/10 (10 = worst). Bonus +1.2 when both schools AND postal network are in desert territory — a genuine compound gap, not a single weak axis.",
     methodology:
-      "Severity = composite + 1.2 if schools AND post ≥ 6.5 + 0.4 if town hall ≥ 6.5. Weighting: schools 35% · town hall 25% · post 25% · library 15%. Sources: DEPP (school census), CAF (childcare), La Poste (offices + APC + RPC), ANCT (France Services centres), BNF (public reading).",
+      "Severity = composite + 1.2 if schools AND post ≥ 6.5 + 0.4 if town hall ≥ 6.5. Weighting: schools 35% · town hall 25% · post 25% · library 15%. Estimated by population band × department: the categories follow the DEPP school directory, CAF childcare pressure, the La Poste outlets, the ANCT France Services centres and the BNF public-reading observatory — reference frameworks, not sources. No directory of facilities is ingested, so a recent closure or opening will not show up.",
   },
   {
     enSlug: "anti-cycling",
@@ -215,13 +215,13 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities where daily cycling is out of reach",
     metaTitle: "Anti-cycling cities 2026 — Where daily cycling is still not viable",
     metaDescription:
-      "2026 ranking of cities over 15,000 with a cyclability composite ≤ 4.5/10: sparse network, terrain, danger, hostile climate. Sources: FUB Barometer + EuroVelo + Vélo & Territoires.",
+      "2026 ranking of cities over 15,000 with a cyclability composite ≤ 4.5/10: sparse network, terrain, danger, hostile climate. A commune-level estimate, not the FUB barometer score.",
     intro:
       "Every town hall promises its cycling plan. In practice, some cities remain structurally hostile: no continuous cycle lanes, hilly terrain discouraging daily commutes, saturated road users, windy or rainy climate 200 days a year.",
     reality:
       "We rank cities over 15,000 whose composite (network + topography + safety + climate) falls ≤ 4.5/10. Convention is reversed vs other themes: 10 = excellent. Bonus +1.2 when network AND topography are both ≤ 4 — no lanes plus steep hills.",
     methodology:
-      "Severity = (5 − composite) × 2 + combo bonus. Weighting: network 35% · topography 25% · safety 25% · climate 15%. Sources: FUB Barometer (French Cyclists' Federation), Vélo & Territoires (structuring network), EuroVelo, elevation & climate seed data.",
+      "Severity = (5 − composite) × 2 + combo bonus. Weighting: network 35% · topography 25% · safety 25% · climate 15%. Commune-level estimate from town size, terrain, climate and tags: the reference points come from the FUB Barometer (French Cyclists' Federation), the Vélo & Territoires rankings and the EuroVelo routes — reference frameworks, not sources. No survey score, no measured kilometre of lane and no accident data is ingested.",
   },
   {
     enSlug: "sports-poor-cities",
@@ -251,7 +251,7 @@ const EN_THEMES: EnTheme[] = [
     reality:
       "We rank cities over 10,000 whose composite exceeds 7/10. Bonus +1.2 when ageing AND trajectory are both ≥ 7 — high senior share (>35%) AND structurally negative demographic balance combined.",
     methodology:
-      "Severity = composite + 1.2 if ageing AND trajectory ≥ 7 + 0.4 if young adults ≥ 7. Weighting: ageing 30% · trajectory 30% · young adults 25% · renewal 15%. Sources: INSEE Population Census, annual demographic report, OMPHALE 2070 projection by employment zone.",
+      "Severity = composite + 1.2 if ageing AND trajectory ≥ 7 + 0.4 if young adults ≥ 7. Weighting: ageing 30% · trajectory 30% · young adults 25% · renewal 15%. Ageing and trajectory are measured commune by commune in the Insee census; young adults and renewal are estimated from the department and the town's profile. No projection is ingested — INSEE OMPHALE models 2050-2070 by employment zone and is not reused here.",
   },
   {
     enSlug: "tense-nights",
@@ -260,13 +260,13 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities with tense night safety in party districts",
     metaTitle: "Tense night safety 2026 — French cities with the most nocturnal crime pressure",
     metaDescription:
-      "2026 ranking of cities over 15,000 with a night safety sub-score exceeding 6.5/10: fights, nocturnal assaults concentrated on festive/student/tourist centres. Source: SSMSI.",
+      "2026 ranking of cities over 15,000 with a night safety sub-score exceeding 6.5/10: fights, nocturnal assaults concentrated on festive/student/tourist centres. A commune-level estimate, not recorded crime.",
     intro:
       "The overall safety score says 'average', but the nocturnal experience in some hyper-festive, student or tourist city centres is very different: fights outside clubs, assaults on the way home from an evening out, incidents concentrated on 4 streets in the centre.",
     reality:
-      "We isolate the 'night safety' sub-score (fights / nocturnal assaults SSMSI) and rank cities over 15,000 exceeding 6.5/10 on this sub-score. Bonus +0.8 when persons offences corroborate (persons ≥ 6), +0.6 when explicitly tagged festive / student / tourist.",
+      "We isolate the 'night safety' sub-score — an estimate following the SSMSI categories of fights and nocturnal assaults, not a count of them — and rank cities over 15,000 exceeding 6.5/10 on it. Bonus +0.8 when persons offences corroborate (persons ≥ 6), +0.6 when explicitly tagged festive / student / tourist.",
     methodology:
-      "Severity = nocturnal sub-score + combo bonuses. Weighting: property 35% · persons 30% · night 20% · VFFS 15%. Source: SSMSI (Interior Ministry statistics service), nocturnal assaults / fights; interstats.fr. Note: a high rate may reflect both a genuinely tenser environment AND better reporting.",
+      "Severity = nocturnal sub-score + combo bonuses. Weighting: property 35% · persons 30% · night 20% · VFFS 15%. Commune-level estimate following the categories of the SSMSI (Interior Ministry statistics service, interstats.fr) — a reference framework, not a source: no per-1,000 rate is ingested, these are not recorded offences. Note: a high rate may reflect both a genuinely tenser environment AND better reporting.",
   },
   {
     enSlug: "harsh-winters",
@@ -296,7 +296,7 @@ const EN_THEMES: EnTheme[] = [
     reality:
       "We cross the `youngActives` score from `lib/demography` (INSEE census proxy for the 25-35 share) with `trajectory` (natural + migratory balance, INSEE Demographic Report) and the unemployment score from `lib/employment-market` (INSEE Q4 2024). Cities that surface here are rarely spectacular — no scandal, no pollution — but they compound three signals: structural young-worker deficit, negative demographic balance, and a labour market tense on the applicant side. A bonus applies for subprefectures under 25,000 where the missing critical mass makes retention even harder. The filter deliberately excludes cities already dominated by ageing (demographic composite ≥ 8.5) — those belong in the critical-ageing theme.",
     methodology:
-      "Severity = (0.55 × youngActives + 0.18 × max(0, trajectory − 5) + 0.16 × max(0, unemployment − 5) + 0.10 × max(0, dynamism − 5) + size penalty +0.4 if <25,000 or +0.2 if <40,000) × 1.7, capped at 10/10. Filter: population ≥ 10,000, demographic composite < 8.5 (to avoid overlap with critical-ageing), severity ≥ 6/10. Sources: INSEE Population Census (25-35 age structure), INSEE Demographic Report 2024 (natural + migratory balance), INSEE unemployment rate Q4 2024, SIRENE (business creation flows).",
+      "Severity = (0.55 × youngActives + 0.18 × max(0, trajectory − 5) + 0.16 × max(0, unemployment − 5) + 0.10 × max(0, dynamism − 5) + size penalty +0.4 if <25,000 or +0.2 if <40,000) × 1.7, capped at 10/10. Filter: population ≥ 10,000, demographic composite < 8.5 (to avoid overlap with critical-ageing), severity ≥ 6/10. Trajectory is measured commune by commune in the Insee census; the 25-35 share, unemployment and dynamism are estimated from the department and the town's profile, on bands calibrated against INSEE and SIRENE reference figures — reference frameworks, not sources.",
   },
   {
     enSlug: "theft-burglary",
@@ -305,13 +305,13 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities weighed down by burglary and vehicle theft",
     metaTitle: "Theft & burglary 2026 — France's most affected cities",
     metaDescription:
-      "2026 ranking of French cities over 30,000 where the property-crime sub-score exceeds 6.5/10: burglary, vehicle theft, wilful damage. Source: SSMSI.",
+      "2026 ranking of French cities over 30,000 where the property-crime sub-score exceeds 6.5/10: burglary, vehicle theft, wilful damage. A commune-level estimate, not recorded crime.",
     intro:
       "The headline safety score reads 'average' and the listing brochure sells you the quiet residential street, the gated parking, the alarm system included. On the ground: car found broken into on Tuesday morning, the block's cellar picked over, the neighbour's scooter stolen twice in six months, and the same tired conversation at the auto-glass shop the third time you replace the rear windscreen. Property offences — burglary, vehicle theft, wilful damage — don't kill anyone, but they wear down daily life and the wallet with a regularity that never appears in a brochure.",
     reality:
-      "We isolate the `property` sub-score from `lib/safety-deep` — the dimension that carries 35% of the safety composite and aggregates residential burglary, vehicle theft and attempted theft, thefts from parked vehicles, and wilful damage (SSMSI). We keep cities over 30,000 whose sub-score exceeds 6.5/10. Severity bonus when the persons-crime sub-score corroborates (an isolated signal can be a one-off; a compound of property + persons ≥ 6 reveals a genuine basin-wide reality). Another bonus when the city is a large metropolis with a global score ≥ 6.5/10 — the polished, desirable façade that hides a chronic burglary undercurrent. A final bonus when the city is explicitly tourism-tagged and over 30,000: seasonal saturation of break-ins on second homes and rental vehicles, particularly documented along the Mediterranean coast and the Atlantic seaboard.",
+      "We isolate the `property` sub-score from `lib/safety-deep` — the dimension that carries 35% of the safety composite and aggregates residential burglary, vehicle theft and attempted theft, thefts from parked vehicles, and wilful damage, in the SSMSI categories. We keep cities over 30,000 whose sub-score exceeds 6.5/10. Severity bonus when the persons-crime sub-score corroborates (an isolated signal can be a one-off; a compound of property + persons ≥ 6 reveals a genuine basin-wide reality). Another bonus when the city is a large metropolis with a global score ≥ 6.5/10 — the polished, desirable façade that hides a chronic burglary undercurrent. A final bonus when the city is explicitly tourism-tagged and over 30,000: seasonal saturation of break-ins on second homes and rental vehicles, particularly documented along the Mediterranean coast and the Atlantic seaboard.",
     methodology:
-      "Severity = property sub-score + 0.8 if persons ≥ 6/10 + 0.5 if metropolis with global score ≥ 6.5 + 0.4 if tourism-tagged and over 30,000. Safety-deep composite weighting: property 35% · persons 30% · night 20% · gender-based violence 15%. Sources: SSMSI (Interior Ministry statistics service, interstats.fr — municipal property-crime series), INSEE population, proprietary character-tags (metropolis / tourism vocation). Caveat: a high rate may reflect both genuine pressure AND a better reporting rate; theft of dockless shared bikes falls outside the standard SSMSI perimeter.",
+      "Severity = property sub-score + 0.8 if persons ≥ 6/10 + 0.5 if metropolis with global score ≥ 6.5 + 0.4 if tourism-tagged and over 30,000. Safety-deep composite weighting: property 35% · persons 30% · night 20% · gender-based violence 15%. The property sub-score is a commune-level estimate following the categories of the SSMSI (Interior Ministry statistics service, interstats.fr) — a reference framework, not a source: no municipal series is ingested. INSEE population and the proprietary character-tags (metropolis / tourism vocation) also feed in. Caveat: a high rate may reflect both genuine pressure AND a better reporting rate; theft of dockless shared bikes falls outside the standard SSMSI perimeter.",
   },
   {
     enSlug: "cultural-desert",

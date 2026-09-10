@@ -78,7 +78,7 @@ export default function EnPublicServicesHubPage() {
     },
     {
       q: "How is the public services ranking calculated?",
-      a: "The composite aggregates four dimensions: schools and early childhood (35%, DEPP directory + CAF nursery pressure), town hall and administrative services (25%, opening hours + CNI/passport processing + France Services presence), post office and France Services (25%, branches + APC + RPC + ~2,800 Maisons France Services), and library (15%, BNF public reading observatory). Score 0-10 where 10 = full coverage.",
+      a: "The composite aggregates four dimensions: schools and early childhood (35%, DEPP directory + CAF nursery pressure), town hall and administrative services (25%, opening hours + CNI/passport processing + France Services presence), post office and France Services (25%, branches + APC + RPC + ~2,800 Maisons France Services), and library (15%, BNF public reading observatory). Score 0-10 where 10 = full coverage. It is an estimate by population band and department: the four dimensions follow the categories of the DEPP directory, the France Services network, the La Poste outlets and the BNF public-reading survey, but none of those directories is ingested — this is not a list of what is open.",
     },
     {
       q: "Where can I find official public service locations near me in France?",
@@ -105,12 +105,14 @@ export default function EnPublicServicesHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite index across four everyday pillars: schools and early childhood,
           town hall and administrative services, post office and France Services, and
-          library access. Score 0-10 where 10 = full service coverage. Filtered to
-          cities of 15,000+ inhabitants.
+          library access. Score 0-10 where 10 = full service coverage — all four levels
+          are <strong>estimated</strong> by population band and department, not read off a
+          directory of facilities. Filtered to cities of 15,000+ inhabitants.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Educational synthesis</Badge>
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: DEPP · CAF · BNF · France Services · La Poste</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} cities</Badge>
           <Badge>Weighting: schools 35% · town hall 25% · post office 25% · library 15%</Badge>
         </div>
@@ -121,7 +123,8 @@ export default function EnPublicServicesHubPage() {
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Large metropolitan areas, dense Ile-de-France, and mid-sized cities above
-          30,000 inhabitants. All dimensions operational, France Services present.
+          30,000 inhabitants — the bands where the model expects every dimension
+          operational and a Maison France Services present.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -231,7 +234,9 @@ export default function EnPublicServicesHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Schools and early childhood (35%)</strong> —
-              DEPP directory (schools, collèges, lycées) + CAF nursery pressure by department.
+              coverage estimated by population band, in the categories of the DEPP directory
+              (schools, collèges, lycées) but without reading it, plus a CAF nursery-pressure
+              penalty by department.
               Cities above 30,000 inhabitants: full coverage. Towns below 5,000: shared
               school groups (RPI) with bus transport.
             </li>
@@ -247,13 +252,15 @@ export default function EnPublicServicesHubPage() {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Library (15%)</strong> —
-              BNF public reading observatory. Near-universal presence above 10,000 inhabitants.
+              presence estimated by band, calibrated against the BNF public-reading
+              observatory. Near-universal above 10,000 inhabitants.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Coverage proxied by population tier and department. For point-by-point detail,
-            the French public services directory at service-public.fr is the authoritative
-            up-to-date reference.
+            This ranking sorts <strong>estimates</strong> by population tier and department:
+            no directory of facilities is ingested here, so a recent closure or opening will
+            not show up. For point-by-point detail, the French public services directory at
+            service-public.fr is the authoritative up-to-date reference.
           </p>
         </Card>
 

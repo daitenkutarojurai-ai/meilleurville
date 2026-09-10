@@ -21,7 +21,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Couverture commerciale · palmarès villes 2026",
   description:
-    "Où l'offre commerciale est la plus dense et où la dévitalisation gagne. Top 30 villes les mieux couvertes vs top 20 en tension (INSEE BPE, Procos, Action Cœur de Ville).",
+    "Où l'offre commerciale est la plus dense et où la dévitalisation gagne. Top 30 villes les mieux couvertes vs top 20 en tension. Proxy honnête, pas un décompte terrain.",
   alternates: pathAlternates("/commerces", "/retail-coverage"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -104,7 +104,7 @@ export default function CommercesHubPage() {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Sources : INSEE BPE, Procos, Action Cœur de Ville</Badge>
+          <Badge>Cadres de référence : INSEE BPE, Procos, Action Cœur de Ville</Badge>
           <Badge>{CITIES_COUNT} villes référencées</Badge>
           <Badge>Proxy honnête · pas de décompte terrain</Badge>
         </div>

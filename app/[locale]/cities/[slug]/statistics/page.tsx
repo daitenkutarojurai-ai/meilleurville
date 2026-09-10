@@ -222,7 +222,11 @@ export default async function EnCityStatisticsPage({ params }: Props) {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
           Key figures to place {city.name} in context: population, median net wage,
-          unemployment rate, age structure and demographic trajectory. Public sources:{" "}
+          unemployment rate, age structure and demographic trajectory. Population,
+          standard of living and the share aged 60+ are <strong>measured</strong> for this
+          commune; the median wage, the unemployment rate and business dynamism are{" "}
+          <strong>estimated département ranges</strong>, calibrated on orders of magnitude
+          published by{" "}
           <a
             href="https://www.insee.fr/en/statistiques"
             target="_blank"
@@ -231,12 +235,12 @@ export default async function EnCityStatisticsPage({ params }: Props) {
           >
             INSEE
           </a>{" "}
-          (census, DADS, quarterly unemployment).
+          (census, DADS, quarterly unemployment) without reusing those series.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <span className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-2.5 py-1 text-[var(--text-secondary)]">
-            INSEE figures
+            Measured: population, standard of living, ages
           </span>
           <span className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-2.5 py-1 text-[var(--text-secondary)]">
             Département-level ranges
@@ -394,7 +398,9 @@ export default async function EnCityStatisticsPage({ params }: Props) {
               {unemp.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {unemp.note}. Source: INSEE, quarterly département rate Q4 2024.
+              {unemp.note}. An estimated range from our indices, calibrated on the order
+              of magnitude of the INSEE quarterly rate for the département — the published
+              rate is not reused, and none exists at commune level.
             </p>
           </div>
 
@@ -413,7 +419,7 @@ export default async function EnCityStatisticsPage({ params }: Props) {
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
               {seniors !== null
                 ? `Share of residents aged 60+, measured for this commune (France ≈ 28%). Source: Insee population census ${INSEE_POP_YEAR}.`
-                : `${ageing.note}. Source: INSEE census (RP) — département of ${city.department}.`}
+                : `${ageing.note}. ${city.name} falls outside the Insee commune file: this range is estimated from the ${city.department} département, it is not measured for the commune.`}
             </p>
           </div>
         </div>
@@ -432,8 +438,9 @@ export default async function EnCityStatisticsPage({ params }: Props) {
             {trajectoryReason}
           </p>
           <p className="text-xs text-[var(--text-tertiary)] mt-2">
-            Source: INSEE, département demographic balance (natural balance + net
-            migration, annual).
+            {trend
+              ? `Change measured between the ${INSEE_POP_BASE_YEAR} and ${INSEE_POP_YEAR} censuses, commune by commune.`
+              : `${city.name} falls outside the Insee commune file: the trajectory is estimated from the ${city.department} département trend, it is not measured for the commune.`}
           </p>
         </div>
 

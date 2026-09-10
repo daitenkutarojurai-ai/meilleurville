@@ -36,7 +36,7 @@ export async function generateMetadata({
   if (!macro) return {};
   return {
     title: `Couverture commerciale · ${macro.label} 2026`,
-    description: `Offre commerciale des villes de ${macro.label} : densité, marchés & proximité, grandes surfaces, vitalité du centre-ville. Palmarès dérivé du profil INSEE / Procos.`,
+    description: `Offre commerciale des villes de ${macro.label} : densité, proximité, grandes surfaces, centre-ville. Estimé, pas un décompte terrain.`,
     alternates: pathAlternates(`/commerces/${macro.slug}`, `/retail-coverage/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -145,7 +145,7 @@ export default async function MacroRegionCommercesPage({ params }: Props) {
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>{cities.length} villes analysées</Badge>
           <Badge>Score moyen : {avgScore}/10</Badge>
-          <Badge>Sources : INSEE BPE, Procos</Badge>
+          <Badge>Cadres de référence : INSEE BPE, Procos</Badge>
         </div>
 
         {/* Best */}

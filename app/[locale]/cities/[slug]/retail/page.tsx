@@ -202,8 +202,8 @@ export default async function EnCityRetailPage({ params }: Props) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Editorial synthesis</Badge>
-          <Badge>INSEE BPE · Procos</Badge>
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: INSEE BPE · Procos</Badge>
         </div>
 
         {/* Composite hero */}

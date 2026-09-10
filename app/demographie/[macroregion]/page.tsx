@@ -93,7 +93,7 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `Composite pondéré sur 4 dimensions INSEE : vieillissement (30 %), trajectoire (30 %), jeunes actifs (25 %), renouvellement (15 %). Sources : INSEE RP, Bilan démographique, projection OMPHALE.`,
+      a: `Composite pondéré sur 4 dimensions : vieillissement (30 %) et trajectoire (30 %) sont mesurés au recensement Insee, commune par commune ; jeunes actifs (25 %) et renouvellement (15 %) sont estimés depuis le département et le profil de la commune. Aucune projection n'est ingérée.`,
     },
   ]);
 
@@ -115,10 +115,13 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
-          vieillissement, jeunes actifs, trajectoire, renouvellement.
+          vieillissement, jeunes actifs, trajectoire, renouvellement. Vieillissement et
+          trajectoire sont <strong>mesurés</strong> au recensement Insee commune par
+          commune ; jeunes actifs et renouvellement sont <strong>estimés</strong>.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>2 dimensions mesurées · 2 estimées</Badge>
           <Badge>{cities.length} villes analysées</Badge>
           <Badge>Composite moyen : {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -130,10 +133,10 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Vieillis.", v: avgAgeing, hint: "% seniors 60+ dept" },
-              { k: "Jeunes", v: avgYoung, hint: "Déficit 25-35 ans" },
-              { k: "Trajectoire", v: avgTraj, hint: "Solde naturel + migratoire" },
-              { k: "Renouv.", v: avgRenewal, hint: "Taux natalité ‰" },
+              { k: "Vieillis.", v: avgAgeing, hint: "% des 60+, mesuré (recensement)" },
+              { k: "Jeunes", v: avgYoung, hint: "Déficit 25-35 ans, estimé" },
+              { k: "Trajectoire", v: avgTraj, hint: "Évolution mesurée 2016-2022" },
+              { k: "Renouv.", v: avgRenewal, hint: "Natalité, palier estimé" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>

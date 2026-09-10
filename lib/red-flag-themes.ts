@@ -2376,14 +2376,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes désert médical — accès aux soins critique",
     metaTitle: "Désert médical 2026 — Villes françaises où trouver un médecin est devenu impossible",
     metaDescription:
-      "Classement 2026 des villes françaises ≥ 10 000 hab. où l'accès aux soins est critique : MG non remplacés, spécialistes saturés, urgences éloignées. Composite, sources DREES / CNOM / ARS.",
+      "Classement 2026 des villes françaises ≥ 10 000 hab. où l'accès aux soins est critique : MG non remplacés, spécialistes saturés, urgences éloignées. Composite estimé à la commune, pas un relevé de cabinets.",
     emoji: "🩺",
     intro:
       "Le dernier généraliste de la commune part en retraite en juin, sans repreneur. Le cabinet de dermato le plus proche est à 1 h 30 de route, huit mois d'attente. Les urgences ? 45 minutes de nuit, sans héliportage. Rien de tout ça n'apparaît sur l'annonce, qui vante le calme, le prix au m² accessible, la maison de ville. Le désert médical ne se photographie pas — il se découvre à 22 h, un enfant à 40 °C, aucun médecin traitant à joindre.",
     reality:
-      "Le classement retient les villes ≥ 10 000 hab. dont le composite dépasse 6,5/10. Le malus s'ajoute quand deux problèmes vitaux se cumulent : généralistes en désert avéré (DREES &lt; 80/100k et plus de 50 % MG &gt; 60 ans) et urgences éloignées. Un seul indicateur ne suffit pas à parler de risque vital — c'est le cumul qui compte. Les valeurs sont alignées sur les statistiques DREES 2023-2024 et le zonage ZIP/ZAC de l'ARS.",
+      "Le classement retient les villes ≥ 10 000 hab. dont le composite dépasse 6,5/10. Le malus s'ajoute quand deux problèmes vitaux se cumulent : généralistes en désert avéré (DREES &lt; 80/100k et plus de 50 % MG &gt; 60 ans) et urgences éloignées. Un seul indicateur ne suffit pas à parler de risque vital — c'est le cumul qui compte. Les quatre dimensions sont estimées depuis le département, la taille de la commune et sa présence hospitalière : les paliers sont calés sur les repères DREES et sur la logique du zonage ZIP/ZAC de l'ARS, mais aucun de leurs relevés n'est repris.",
     methodology:
-      "Severity = composite + 1,2 si MG = désert ET urgences ≥ 6,5/10 + 0,5 si spécialistes ≥ 7/10. Sources : DREES (densité médicale par département), Atlas démographique CNOM (vieillissement et remplacement), zonage ZIP/ZAC ARS, Conférence des Doyens (CHU).",
+      "Severity = composite + 1,2 si MG = désert ET urgences ≥ 6,5/10 + 0,5 si spécialistes ≥ 7/10. Estimation communale : le département est rangé en paliers calés sur les repères DREES, l'atlas démographique du CNOM, le zonage ZIP/ZAC de l'ARS et la liste des CHU de la Conférence des doyens — cadres de référence, pas sources. Aucune densité médicale n'est ingérée.",
     rank: rankDesertMedical,
   },
   {
@@ -2391,14 +2391,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes au chômage chronique — marché du travail sinistré",
     metaTitle: "Chômage chronique 2026 — Villes françaises au marché du travail le plus tendu",
     metaDescription:
-      "Classement 2026 des villes françaises ≥ 15 000 hab. cumulant chômage INSEE élevé, faible dynamisme SIRENE et salaires médians bas. Composite, sources INSEE / DARES / DADS / SIRENE.",
+      "Classement 2026 des villes françaises ≥ 15 000 hab. cumulant chômage INSEE élevé, faible dynamisme SIRENE et salaires médians bas. Composite estimé au département, pas les taux publiés.",
     emoji: "📉",
     intro:
       "L'agence vante la maison de ville à 1 200 €/mois, le centre-ville charmant, la possibilité de tout payer cash. Personne ne mentionne que le bassin d'emploi local est sinistré depuis la fermeture du dernier site industriel, que le taux de chômage dépasse 11 % et que la création nette d'entreprises est négative depuis trois ans. Le chômage chronique ne se voit pas sur la photo immobilière — il se découvre en cherchant un emploi six mois après l'installation.",
     reality:
-      "On classe les villes ≥ 15 000 hab. dont le composite (chômage 35 % + salaire 25 % + dynamisme 20 % + mix 20 %) dépasse 6,5/10, avec un malus quand chômage en désert ET dynamisme faible se cumulent — c'est-à-dire un vrai décrochage, pas un seul indicateur. Toutes les valeurs sont alignées sur les statistiques INSEE T4 2024 et la base SIRENE.",
+      "On classe les villes ≥ 15 000 hab. dont le composite (chômage 35 % + salaire 25 % + dynamisme 20 % + mix 20 %) dépasse 6,5/10, avec un malus quand chômage en désert ET dynamisme faible se cumulent — c'est-à-dire un vrai décrochage, pas un seul indicateur. Toutes les valeurs sont estimées : chaque département est rangé en paliers calés sur les ordres de grandeur du chômage trimestriel INSEE et des flux SIRENE, sans qu'aucune de ces séries soit ingérée.",
     methodology:
-      "Severity = composite + 1,2 si chômage ≥ 7,5/10 ET dynamisme ≥ 6,5/10 + 0,5 si salaires ≥ 7/10. Sources : INSEE (taux de chômage trimestriel par dept), DADS (salaires nets médians), SIRENE (création nette d'entreprises), DARES (bassins d'emploi en reconversion).",
+      "Severity = composite + 1,2 si chômage ≥ 7,5/10 ET dynamisme ≥ 6,5/10 + 0,5 si salaires ≥ 7/10. Estimation départementale : les paliers sont calés sur les ordres de grandeur du chômage trimestriel INSEE, des salaires nets médians DADS, des flux SIRENE et des bassins en reconversion suivis par la DARES — cadres de référence, pas sources. Aucun taux publié n'est repris.",
     rank: rankChomageEleve,
   },
   {
@@ -2413,7 +2413,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On classe les villes ≥ 15 000 hab. dont le méga-index (environnement 35 % + santé 30 % + emploi 35 %) est inférieur ou égal à 4,5/10, avec un malus quand au moins 2 des 3 piliers tombent sous 4/10 — c'est-à-dire un cumul réel, pas un seul pilier faible. Toutes les valeurs sont dérivées des composites (env), (santé), (emploi).",
     methodology:
-      "Severity = (5 −) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si ≤ 3,5/10. Le pilier environnement est une estimation communale calée sur les cadres de référence ATMO / CITEPA / RNSA, pas une mesure en station ; santé DREES / CNOM / ARS, emploi INSEE / DADS / SIRENE. Composite agrégé site (méga-index).",
+      "Severity = (5 −) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si ≤ 3,5/10. Le pilier environnement est une estimation communale calée sur les cadres de référence ATMO / CITEPA / RNSA, pas une mesure en station ; le pilier santé est une estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets ; le pilier emploi une estimation départementale calée sur les repères INSEE / DADS / SIRENE, pas le taux de chômage publié. Composite agrégé site (méga-index).",
     rank: rankCadreDeVieTendu,
   },
   {
@@ -2443,7 +2443,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On classe les villes ≥ 10 000 hab. dont le composite dépasse 6,5/10 (10 = pire). Bonus +1,2 quand écoles ET La Poste sont tous deux en désert (≥ 6,5/10) — cumul réel, pas un seul axe. Les DROM tendus (Mayotte, Guyane) et l'arrière-pays rural Centre/Est (Creuse, Cantal, Lozère, Nièvre, Allier) dominent.",
     methodology:
-      "Severity = composite + 1,2 si écoles ET Poste ≥ 6,5 + 0,4 si mairie ≥ 6,5. Pondération composite : écoles 35 % · mairie 25 % · Poste 25 % · médiathèque 15 %. Sources : DEPP (annuaire), CAF (crèche), La Poste (bureaux + APC + RPC), ANCT (Maisons France Services, ~2 800 en 2024), BNF (lecture publique).",
+      "Severity = composite + 1,2 si écoles ET Poste ≥ 6,5 + 0,4 si mairie ≥ 6,5. Pondération composite : écoles 35 % · mairie 25 % · Poste 25 % · médiathèque 15 %. Estimation par strate de population × département : le découpage suit l'annuaire DEPP, la tension crèche CAF, les relais de La Poste, les Maisons France Services de l'ANCT (~2 800 en 2024) et l'observatoire BNF de la lecture publique — cadres de référence, pas sources. Aucun annuaire d'équipements n'est ingéré, donc une fermeture ou une ouverture récente n'y figure pas.",
     rank: rankDesertServicesPublics,
   },
   {
@@ -2458,7 +2458,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On classe les villes ≥ 15 000 hab. dont le composite (réseau + topographie + sécurité + climat) tombe ≤ 4,5/10. La convention est inversée vs les autres clusters : 10 = excellent. Bonus +1,2 quand le réseau ET la topographie sont tous deux ≤ 4 (combo bloquant : pas de pistes ET ça grimpe).",
     methodology:
-      "Severity = (5 − composite) × 2 + bonus combo. Pondération composite : réseau 35 % · topographie 25 % · sécurité 25 % · climat 15 %. Sources : Baromètre FUB (Fédération des Usagers de la Bicyclette), Vélo & Territoires (réseau structurant), EuroVelo, données altitude & climat seed.",
+      "Severity = (5 − composite) × 2 + bonus combo. Pondération composite : réseau 35 % · topographie 25 % · sécurité 25 % · climat 15 %. Estimation communale depuis la taille, le relief, le climat et les tags : les repères viennent du Baromètre FUB (Fédération des Usagers de la Bicyclette), des palmarès Vélo & Territoires et du tracé des EuroVelo — cadres de référence, pas sources. Aucune note d'enquête, aucun kilomètre d'aménagement et aucune donnée d'accidentologie ne sont ingérés.",
     rank: rankAntiVelo,
   },
   {
@@ -2473,7 +2473,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On classe les villes ≥ 10 000 hab. dont le composite dépasse 7/10. Bonus +1,2 quand le vieillissement ET la trajectoire sont tous deux ≥ 7 — pyramide haute (seniors > 35 %) ET solde démographique négatif structurel cumulés. Limousin entier, Creuse, Cantal, Nièvre, Indre, bassins industriels Nord en reconversion dominent.",
     methodology:
-      "Severity = composite + 1,2 si ageing ET trajectory ≥ 7 + 0,4 si jeunes actifs ≥ 7. Pondération composite : vieillissement 30 % · trajectoire 30 % · jeunes actifs 25 % · renouvellement 15 %. Sources : INSEE Recensement de Population, Bilan démographique annuel, projection OMPHALE 2070 par zone d'emploi.",
+      "Severity = composite + 1,2 si ageing ET trajectory ≥ 7 + 0,4 si jeunes actifs ≥ 7. Pondération composite : vieillissement 30 % · trajectoire 30 % · jeunes actifs 25 % · renouvellement 15 %. Vieillissement et trajectoire sont mesurés commune par commune au recensement Insee ; jeunes actifs et renouvellement sont estimés depuis le département et le profil de la commune. Aucune projection n'est ingérée — OMPHALE (INSEE) modélise à horizon 2050-2070 par zone d'emploi et n'est pas repris ici.",
     rank: rankVieillissementCritique,
   },
   {
@@ -2488,7 +2488,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On isole le sous-score « sécurité nocturne » du cluster (rixes / agressions nocturnes SSMSI) et on classe les villes ≥ 15 000 hab. dont ce sous-score dépasse 6,5/10. Bonus +0,8 quand les atteintes aux personnes corroborent (persons ≥ 6), bonus +0,6 quand la ville est explicitement taguée festive / étudiante / touristique.",
     methodology:
-      "Severity = sous-score nocturnal + bonus combos. Pondération : biens 35 % · personnes 30 % · nuit 20 % · VFFS 15 %. Sources : SSMSI (Service statistique ministériel de la sécurité intérieure), atteintes nocturnes / rixes ; interstats.fr. Caveat : un taux élevé peut refléter à la fois une réalité plus tendue ET un meilleur signalement.",
+      "Severity = sous-score nocturnal + bonus combos. Pondération : biens 35 % · personnes 30 % · nuit 20 % · VFFS 15 %. Estimation communale suivant le découpage du SSMSI (Service statistique ministériel de la sécurité intérieure, interstats.fr) — cadre de référence, pas source : aucun taux pour 1 000 habitants n'est ingéré, ce ne sont pas les faits enregistrés. Caveat : un taux élevé peut refléter à la fois une réalité plus tendue ET un meilleur signalement.",
     rank: rankNuitTendue,
   },
   {
@@ -2548,7 +2548,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On croise le score `youngActives` de `lib/demography` (proxy INSEE recensement de la part des 25-35 ans) avec la `trajectory` (solde naturel + migratoire, Bilan démographique INSEE) et le score chômage de `lib/employment-market` (INSEE T4 2024). Les villes qui remontent sont rarement spectaculaires — pas de fait divers, pas de pollution — mais elles cumulent trois signaux : déficit structurel de jeunes actifs, solde démographique négatif et marché du travail tendu côté demandeur. Bonus pour les sous-préfectures < 25 000 hab. où l'absence de masse critique rend la rétention encore plus difficile. Le filtre exclut volontairement les villes déjà dominées par le pic vieillissement (composite démographique ≥ 8,5) — celles-là sont dans `villes-vieillissement-critique`.",
     methodology:
-      "Severity = (0,55 × youngActives + 0,18 × max(0, trajectory−5) + 0,16 × max(0, chômage−5) + 0,10 × max(0, dynamisme−5) + malus taille +0,4 si <25 000 hab. ou +0,2 si <40 000 hab.) × 1,7, clampé à 10/10. Filtre : population ≥ 10 000 hab., composite démographique < 8,5 (pour ne pas dupliquer le thème vieillissement), severity ≥ 6/10. Sources : INSEE recensement (structure par âge 25-35), Bilan démographique INSEE 2024 (solde naturel + migratoire), INSEE taux de chômage T4 2024, SIRENE (flux d'établissements).",
+      "Severity = (0,55 × youngActives + 0,18 × max(0, trajectory−5) + 0,16 × max(0, chômage−5) + 0,10 × max(0, dynamisme−5) + malus taille +0,4 si <25 000 hab. ou +0,2 si <40 000 hab.) × 1,7, clampé à 10/10. Filtre : population ≥ 10 000 hab., composite démographique < 8,5 (pour ne pas dupliquer le thème vieillissement), severity ≥ 6/10. La trajectoire est mesurée au recensement Insee, commune par commune ; la part des 25-35 ans, le chômage et le dynamisme sont estimés depuis le département et le profil de la commune, sur des paliers calés sur les repères INSEE et SIRENE — cadres de référence, pas sources.",
     rank: rankFuiteJeunesActifs,
   },
   {
@@ -2646,14 +2646,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes où cambriolages et vols de véhicules pèsent au quotidien",
     metaTitle: "Vols & cambriolages 2026 — Villes les plus touchées",
     metaDescription:
-      "Classement 2026 des villes ≥ 30 000 hab. où le sous-score « atteintes aux biens » dépasse 6,5/10 : cambriolages, vols de véhicules, dégradations volontaires. Source SSMSI.",
+      "Classement 2026 des villes ≥ 30 000 hab. où le sous-score « atteintes aux biens » dépasse 6,5/10 : cambriolages, vols de véhicules, dégradations volontaires. Estimation communale, pas les faits enregistrés.",
     emoji: "🔓",
     intro:
       "Le score safety global dit « ville moyenne » et l'annonce immobilière vante la rue résidentielle, le parking sécurisé, l'alarme incluse. Sur le terrain : voiture retrouvée fracturée le mardi matin, cave du logement collectif visitée, scooter du voisin volé deux fois en six mois, et la même conversation chez le carreleur la troisième fois qu'on remplace une vitre arrière. Les atteintes aux biens — cambriolages, vols véhicules, dégradations — ne tuent pas, mais elles érodent la vie quotidienne et le portefeuille avec une régularité qui n'apparaît jamais sur une plaquette.",
     reality:
-      "On isole le sous-score `property` de `lib/safety-deep` — la dimension qui pèse 35 % du composite safety et regroupe cambriolages d'habitation, vols et tentatives de vols de véhicules, vols dans véhicule et dégradations volontaires SSMSI. On retient les villes ≥ 30 000 hab. dont ce sous-score dépasse 6,5/10. Bonus de gravité quand les atteintes aux personnes corroborent (un signal isolé peut tenir à un fait divers ; un cumul biens + personnes ≥ 6 trahit une réalité de bassin). Bonus quand la commune est une grande métropole avec un score global ≥ 6,5/10 — la « belle vitrine » désirable qui dissimule un fond de cambriolages chronique. Bonus enfin quand la ville est explicitement touristique > 30 000 hab. : saturation saisonnière des effractions sur résidences secondaires et véhicules de location, particulièrement documentée sur la façade méditerranéenne et le littoral atlantique.",
+      "On isole le sous-score `property` de `lib/safety-deep` — la dimension qui pèse 35 % du composite safety et regroupe cambriolages d'habitation, vols et tentatives de vols de véhicules, vols dans véhicule et dégradations volontaires, au sens des catégories du SSMSI. On retient les villes ≥ 30 000 hab. dont ce sous-score dépasse 6,5/10. Bonus de gravité quand les atteintes aux personnes corroborent (un signal isolé peut tenir à un fait divers ; un cumul biens + personnes ≥ 6 trahit une réalité de bassin). Bonus quand la commune est une grande métropole avec un score global ≥ 6,5/10 — la « belle vitrine » désirable qui dissimule un fond de cambriolages chronique. Bonus enfin quand la ville est explicitement touristique > 30 000 hab. : saturation saisonnière des effractions sur résidences secondaires et véhicules de location, particulièrement documentée sur la façade méditerranéenne et le littoral atlantique.",
     methodology:
-      "Severity = sous-score property + 0,8 si personnes ≥ 6/10 + 0,5 si métropole avec score global ≥ 6,5 + 0,4 si touristique > 30 000 hab. Pondération du composite safety-deep : biens 35 % · personnes 30 % · nocturne 20 % · violences sexistes 15 %. Sources sous-jacentes : SSMSI (Service statistique ministériel de la sécurité intérieure, interstats.fr — séries communales atteintes aux biens), Insee population, character-tags du seed propriétaire (vocation métropole / touristique). Caveat : un taux élevé peut refléter à la fois une vraie pression et un meilleur taux de plainte ; les vols de vélos en libre-service ne sont pas comptés dans le périmètre SSMSI standard.",
+      "Severity = sous-score property + 0,8 si personnes ≥ 6/10 + 0,5 si métropole avec score global ≥ 6,5 + 0,4 si touristique > 30 000 hab. Pondération du composite safety-deep : biens 35 % · personnes 30 % · nocturne 20 % · violences sexistes 15 %. Le sous-score biens est une estimation communale suivant le découpage du SSMSI (Service statistique ministériel de la sécurité intérieure, interstats.fr) — cadre de référence, pas source : aucune série communale n'est ingérée. Entrent aussi la population Insee et les character-tags du seed propriétaire (vocation métropole / touristique). Caveat : un taux élevé peut refléter à la fois une vraie pression et un meilleur taux de plainte ; les vols de vélos en libre-service ne sont pas comptés dans le périmètre SSMSI standard.",
     rank: rankVolsCambriolages,
   },
   {

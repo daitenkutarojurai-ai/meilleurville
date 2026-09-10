@@ -60,8 +60,8 @@ export function CyclingCard({ city, locale = "fr" }: Props) {
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
           {L(
-            "Géovélo · FUB · Vélo & Territoires — 10 = excellent.",
-            "Géovélo · FUB · Vélo & Territoires — 10 = best.",
+            "10 = excellent · estimation communale calée sur les repères FUB / Vélo & Territoires, pas une note d'enquête ni un relevé du réseau.",
+            "10 = best · commune-level estimate calibrated against FUB / Vélo & Territoires reference points, not a survey score or a network measurement.",
           )}
         </p>
       </Link>

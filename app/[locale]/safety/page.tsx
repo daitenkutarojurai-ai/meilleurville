@@ -38,7 +38,7 @@ const EN_SAFETY_LABEL: Record<string, string> = {
 export const metadata: Metadata = {
   title: "Safety in France · 2026 ranking — safest cities vs most strained",
   description:
-    "National ranking of French cities by safety: crime rates, vandalism, domestic violence. Top 30 safest cities vs top 20 most strained. Sources: SSMSI / Ministry of Interior.",
+    "National ranking of French cities by safety: property crime, personal crime, night safety, domestic violence. A commune-level estimate, not recorded crime counts.",
   alternates: pathAlternatesEn("/securite", "/safety"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Safety in France · 2026 ranking",
     description:
-      "Top 30 safest cities vs top 20 most strained — 4 SSMSI sub-scores.",
+      "Top 30 safest cities vs top 20 most strained — 4 estimated sub-scores.",
   },
 };
 
@@ -67,7 +67,7 @@ export default function EnSafetyHubPage() {
       a: `Based on our composite index (property crime 35% + personal crime 30% + night safety 20% + domestic violence 15%), the safest cities with 15,000+ inhabitants are: ${calmest
         .slice(0, 5)
         .map((c) => `${c.name} (${(10 - c.safety.composite).toFixed(1)}/10)`)
-        .join(", ")}. A low score means the city sits below the national SSMSI average.`,
+        .join(", ")}. A low score means the city's estimated composite sits below the corpus average.`,
     },
     {
       q: "Which French cities are the most strained on safety?",
@@ -78,11 +78,11 @@ export default function EnSafetyHubPage() {
     },
     {
       q: "How is the safety ranking calculated?",
-      a: "The composite aggregates four SSMSI dimensions: property crime (35%, burglaries + vehicle theft + non-violent theft, national average ~16.5‰), personal crime (30%, voluntary assault excluding domestic violence, average ~4.3‰), night safety (20%, brawls and nocturnal vandalism), and domestic violence (15%, SSMSI reported incidents). Score 0-10, where 10 = safest.",
+      a: "The composite aggregates four dimensions, following the SSMSI categories: property crime (35%, burglaries + vehicle theft + non-violent theft, national average ~16.5‰), personal crime (30%, voluntary assault excluding domestic violence, average ~4.3‰), night safety (20%, brawls and nocturnal vandalism), and domestic violence (15%, SSMSI reported incidents). Score 0-10, where 10 = safest. The four sub-scores are estimated from the city's safety score, its size and its profile: the categories and national averages quoted come from the SSMSI, but no per-1,000 rate is ingested — these are not the offences recorded in the town.",
     },
     {
       q: "What are the limitations of this data?",
-      a: "SSMSI figures cover only reported crimes — under-reporting varies by area and crime type. Within any city, safety differs sharply between a train-station district and a quiet residential suburb. For fine-grained analysis, prefecture état 4001 reports break figures down by police or gendarmerie catchment area.",
+      a: "Our sub-scores are estimates and reuse no published rate. The SSMSI figures they are calibrated against cover only reported crimes — under-reporting varies by area and crime type. Within any city, safety differs sharply between a train-station district and a quiet residential suburb. For fine-grained analysis, prefecture état 4001 reports break figures down by police or gendarmerie catchment area.",
     },
   ]);
 
@@ -103,14 +103,15 @@ export default function EnSafetyHubPage() {
           Safety in France
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Composite index across four SSMSI dimensions: property crime,
+          Composite index across four dimensions, following the SSMSI categories: property crime,
           personal crime, night safety, and domestic violence.
           Score 0-10 where 10 = safest. Filtered to cities of 15,000+ inhabitants
           for statistical relevance.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Educational synthesis</Badge>
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: SSMSI · Insee CVS</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} cities</Badge>
           <Badge>Weighting: property 35% · personal 30% · night 20% · domestic 15%</Badge>
         </div>
@@ -120,7 +121,7 @@ export default function EnSafetyHubPage() {
           Top 30 — Safest cities
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Cities of 15,000+ inhabitants with the highest SSMSI composite score.
+          Cities of 15,000+ inhabitants with the highest estimated composite score.
           Typically: quiet sub-prefectures, mid-sized towns outside dense urban zones,
           and structured small cities.
         </p>
@@ -247,15 +248,17 @@ export default function EnSafetyHubPage() {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Domestic violence (15%)</strong> —
-              SSMSI reported incidents. Interpret with caution: a higher rate may reflect
+              a dimension calibrated on the SSMSI tracking of reported incidents, estimated
+              here. Interpret with caution: a higher level may reflect
               better reporting mechanisms rather than a higher absolute occurrence.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            City-level synthesis. Within any single city, perceived safety varies
-            sharply between a station district and a quiet residential neighbourhood.
-            For fine-grained analysis, prefecture état 4001 reports break figures down
-            by police or gendarmerie catchment area.
+            This ranking sorts commune-level <strong>estimates</strong>, not recorded
+            crime: no per-1,000 rate is ingested here. Within any single city, perceived
+            safety also varies sharply between a station district and a quiet residential
+            neighbourhood. For the real figures, the SSMSI publishes monthly and prefecture
+            état 4001 reports break them down by police or gendarmerie catchment area.
           </p>
         </Card>
 

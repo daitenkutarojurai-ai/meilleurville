@@ -16,7 +16,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Accès aux soins en France · meilleurs hôpitaux vs. déserts médicaux 2026",
   description:
-    "Classement national des villes françaises selon l'accès aux soins : médecins généralistes, spécialistes, urgences, pharmacies. Top 30 villes meilleur accès vs. top 20 désert médical. Sources DREES / CNOM / ARS.",
+    "Classement national des villes françaises selon l'accès aux soins : médecins généralistes, spécialistes, urgences, pharmacies. Top 30 meilleur accès vs. top 20 désert médical. Estimation communale, pas un relevé de cabinets.",
   alternates: pathAlternates("/sante", "/healthcare"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -56,7 +56,7 @@ export default function HealthcareHubPage() {
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : médecins généralistes (35 %, densité DREES par dept + override CHU/métropole), spécialistes (25 %, présence CHU > grande agglo > moyenne > rural), urgences/SAU (25 %, présence dans la commune + malus montagne/île), pharmacies (15 %, maillage population × statut urbain). Score 0-10, 10 = excellent accès aux soins. Sources : DREES, CNOM, ARS.",
+      a: "Composite agrégeant 4 dimensions : médecins généralistes (35 %, densité DREES par dept + override CHU/métropole), spécialistes (25 %, présence CHU > grande agglo > moyenne > rural), urgences/SAU (25 %, présence dans la commune + malus montagne/île), pharmacies (15 %, maillage population × statut urbain). Score 0-10, 10 = excellent accès aux soins. C'est une estimation communale bâtie sur le département, la taille de la commune et la présence hospitalière : les paliers sont calés sur les repères DREES, CNOM et ARS, mais aucun de leurs relevés n'est repris — ce n'est ni un décompte de cabinets, ni le zonage ZIP/ZAC en vigueur.",
     },
     {
       q: "Que faire si je ne trouve pas de médecin traitant ?",
@@ -86,7 +86,8 @@ export default function HealthcareHubPage() {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : DREES · CNOM · ARS</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération MG 35 % · spé 25 % · urgences 25 % · pharma 15 %</Badge>
         </div>
@@ -154,8 +155,8 @@ export default function HealthcareHubPage() {
           Top 20 — villes en désert médical avéré
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Communes ≥ 10 000 hab. cumulant désert MG (DREES), spécialistes saturés et
-          urgences éloignées. Score composite faible = accès difficile.
+          Communes ≥ 10 000 hab. dont le département est rangé au palier « désert » et
+          qui cumulent spécialistes éloignés et urgences distantes. Score composite faible = accès difficile.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -206,9 +207,11 @@ export default function HealthcareHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Médecins généralistes (35 %)</strong> —
-              densité DREES par département 2023-2024, catégorisée : désert (&lt; 80/100k +
-              &gt; 50 % MG &gt; 60 ans) / sous-doté (&lt; 100/100k) / correct / bien doté
-              (&gt; 145/100k ou métropole/CHU).
+              le département est rangé dans l&apos;un de quatre paliers — désert /
+              sous-doté / correct / bien doté — définis d&apos;après les repères DREES
+              (sous 80/100k hab. avec plus de la moitié des praticiens au-delà de 60 ans,
+              sous 100/100k, au-delà de 145/100k ou métropole/CHU). Le palier est attribué
+              au département ; aucune densité n&apos;est relevée commune par commune.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Spécialistes (25 %)</strong> —
@@ -226,10 +229,12 @@ export default function HealthcareHubPage() {
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Synthèse à l&apos;échelle communale. Le zonage précis (ZIP / ZAC) et les aides
-            à l&apos;installation pour les médecins sont publiés par l&apos;ARS. La situation
-            évolue rapidement avec les départs en retraite — vérifier la disponibilité MG
-            sur Ameli avant un déménagement définitif.
+            Ce classement trie des <strong>estimations</strong> communales, pas des
+            relevés : aucune densité médicale, aucun délai de rendez-vous et aucun zonage
+            parcellaire ne sont ingérés ici. Le zonage précis (ZIP / ZAC) et les aides à
+            l&apos;installation sont publiés par l&apos;ARS, et la situation évolue vite avec
+            les départs en retraite — vérifier la disponibilité d&apos;un médecin traitant sur
+            Ameli avant un déménagement définitif.
           </p>
         </Card>
 

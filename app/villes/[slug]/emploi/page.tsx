@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
       title: `Emploi à ${city.name}`,
-      description: `Taux de chômage, dynamisme entrepreneurial, mix sectoriel, salaire médian. Sources INSEE / DARES / SIRENE.`,
+      description: `Chômage, dynamisme entrepreneurial, mix sectoriel, salaire médian — estimation communale, pas le taux publié pour la commune.`,
     },
   };
 }
@@ -88,7 +88,7 @@ export default async function EmploiPage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `Quel est le taux de chômage à ${city.name} ?`,
-      a: e.unemployment.reason + ` Données INSEE trimestrielles consultables sur insee.fr/fr/statistiques.`,
+      a: e.unemployment.reason + ` Ce niveau est estimé : il range le département dans un palier calé sur l'ordre de grandeur du taux trimestriel INSEE, il ne reprend pas le taux publié. Les séries réelles sont sur insee.fr/fr/statistiques.`,
     },
     {
       q: `Est-il facile de trouver un emploi à ${city.name} ?`,
@@ -122,14 +122,18 @@ export default async function EmploiPage({ params }: Props) {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
           Synthèse pédagogique des quatre dimensions clés du marché du travail local :
-          taux de chômage, dynamisme entrepreneurial (création SIRENE), mix sectoriel
-          (résilience), salaire net médian. Sources : INSEE trimestriel T4 2024, DARES,
-          SIRENE, INSEE DADS.
+          chômage, dynamisme entrepreneurial, mix sectoriel (résilience), salaire net
+          médian. Les quatre niveaux sont <strong>estimés</strong> à partir du département,
+          de la taille de la commune et de ses tags d&apos;activité — ils rangent le
+          département dans des paliers calés sur les ordres de grandeur du chômage
+          trimestriel INSEE, des flux SIRENE, des séries DARES et des salaires DADS,
+          <strong>sans reprendre aucune de ces séries</strong>. Ce n&apos;est donc ni le taux
+          de chômage publié pour {city.name}, ni un salaire médian relevé sur place.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>INSEE · DARES · SIRENE</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : INSEE · DARES · SIRENE</Badge>
         </div>
 
         {/* Composite hero */}
@@ -151,10 +155,10 @@ export default async function EmploiPage({ params }: Props) {
         {/* 4 dimensions */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Les quatre dimensions</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <JobBlock dim={e.unemployment} label="Taux de chômage (INSEE)" />
-          <JobBlock dim={e.dynamism} label="Dynamisme création (SIRENE)" />
+          <JobBlock dim={e.unemployment} label="Chômage — palier estimé" />
+          <JobBlock dim={e.dynamism} label="Dynamisme — palier estimé" />
           <JobBlock dim={e.sectorMix} label="Mix sectoriel / résilience" />
-          <JobBlock dim={e.salary} label="Salaire net médian (DADS)" />
+          <JobBlock dim={e.salary} label="Salaire — palier estimé" />
         </div>
 
         {/* Methodology */}
@@ -162,14 +166,16 @@ export default async function EmploiPage({ params }: Props) {
         <Card className="mt-3">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
-              <strong className="text-[var(--text-primary)]">Chômage (35 %) :</strong> taux
-              trimestriel INSEE par département (T4 2024 latest). Moyenne France
-              métropolitaine ~7,3 %. DROM en tension chronique &gt; 15 %.
+              <strong className="text-[var(--text-primary)]">Chômage (35 %) :</strong> le
+              département est rangé dans un palier calé sur l&apos;ordre de grandeur du taux
+              trimestriel INSEE (moyenne France métropolitaine ~7,3 %, DROM en tension
+              chronique au-delà de 15 %). Le taux publié n&apos;est pas repris, et il ne
+              descend de toute façon pas à la commune.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Dynamisme (20 %) :</strong>{" "}
-              création nette d&apos;entreprises SIRENE par département, pondérée par taille
-              de la commune. Grandes métropoles et littoraux attractifs au-dessus, communes
+              création nette d&apos;établissements estimée au département dans l&apos;esprit
+              des flux SIRENE, pondérée par la taille de la commune. Grandes métropoles et littoraux attractifs au-dessus, communes
               rurales en déclin en-dessous.
             </li>
             <li>
@@ -180,14 +186,19 @@ export default async function EmploiPage({ params }: Props) {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Salaire (25 %) :</strong> salaire
-              net médian départemental INSEE DADS. Moyenne France ~2 100 €/mois. Paris &amp;
-              petite couronne &gt; 2 400 €, DROM et dépts ruraux &lt; 1 850 €.
+              rangé en paliers départementaux calés sur les ordres de grandeur INSEE DADS
+              (moyenne France ~2 100 €/mois, Paris et petite couronne au-delà de 2 400 €,
+              DROM et départements ruraux sous 1 850 €). Ce n&apos;est pas un salaire relevé
+              à {city.name}.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Ces scores synthétisent à l&apos;échelle départementale. Le marché local peut
-            varier fortement au sein d&apos;un dept (préfecture vs. canton rural). Pour les
-            offres en temps réel, consultez France Travail, Apec et Hellowork.
+            Ces quatre scores sont des <strong>estimations</strong> construites au
+            département, pas des relevés : aucun taux de chômage, aucun flux SIRENE et aucun
+            salaire médian ne sont ingérés ici. Le marché local varie d&apos;ailleurs
+            fortement à l&apos;intérieur d&apos;un même département (préfecture contre canton
+            rural). Pour les offres en temps réel, consultez France Travail, Apec et
+            Hellowork.
           </p>
         </Card>
 

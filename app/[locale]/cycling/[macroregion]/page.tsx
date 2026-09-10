@@ -111,7 +111,7 @@ export default async function MacroRegionCyclingEnPage({ params }: Props) {
     },
     {
       q: `How is the cycling index calculated?`,
-      a: `Composite of 4 dimensions: cycling infrastructure/network (40%, based on FUB barometer data and OpenStreetMap cycle network density), topography (25%, penalises hilly terrain), safety (20%, accident data and infrastructure quality), climate (15%, favours mild dry weather). Score 0–10, 10 = excellent cycling conditions.`,
+      a: `Composite of 4 dimensions: cycle network (35%), topography (25%, penalises hilly terrain), safety (25%, urban density × segregated infrastructure), climate (15%, favours mild dry weather). Score 0–10, 10 = excellent cycling conditions. All four levels are estimated from town size, terrain, climate and profile: the reference points come from the FUB barometer and the Vélo & Territoires rankings, but no survey score, no measured cycle network and no accident data is ingested.`,
     },
   ]);
 
@@ -132,10 +132,14 @@ export default async function MacroRegionCyclingEnPage({ params }: Props) {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite cycling index for {cities.length} cities in the {label} macro-region
-          with over 10,000 inhabitants. Four dimensions: infrastructure, topography, safety, climate.
+          with over 10,000 inhabitants. Four dimensions: network, topography, safety,
+          climate — all four <strong>estimated</strong> from town size, terrain and climate,
+          not surveyed on the ground.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
+          <Badge>Structural estimate</Badge>
+          <Badge>Reference frameworks: FUB · Vélo &amp; Territoires · Géovélo</Badge>
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average: {avgComposite.toFixed(1)}/10</Badge>
         </div>
@@ -146,9 +150,9 @@ export default async function MacroRegionCyclingEnPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Infrastructure", v: avgNetwork, hint: "FUB barometer + cycle network density" },
+              { k: "Network", v: avgNetwork, hint: "Cycling reputation + EuroVelo, estimated" },
               { k: "Topography", v: avgTopo, hint: "Flat vs hilly terrain score" },
-              { k: "Safety", v: avgSafety, hint: "Accident data + infrastructure quality" },
+              { k: "Safety", v: avgSafety, hint: "Urban density × segregated infrastructure" },
               { k: "Climate", v: avgClimate, hint: "Mild dry conditions for cycling" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
@@ -285,11 +289,13 @@ export default async function MacroRegionCyclingEnPage({ params }: Props) {
         <Card className="mt-8">
           <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-2">Methodology note</h3>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-            Composite of 4 dimensions: cycling infrastructure (40%, FUB barometer rankings +
-            OpenStreetMap cycle network density), topography (25%, altitude variation and grade
-            analysis), safety (20%, accident data and infrastructure separation quality), climate
-            (15%, precipitation, temperature and wind data). Score 0–10, 10 = ideal cycling
-            conditions. Only cities with 10,000+ inhabitants appear in this index.
+            Composite of 4 dimensions: cycle network (35%), topography (25%, altitude and
+            gradient), safety (25%, urban density × segregated infrastructure), climate (15%,
+            temperature, sunshine and prevailing wind). Score 0–10, 10 = ideal cycling
+            conditions. All four are <strong>estimated</strong> from town size, terrain and
+            climate, calibrated against the FUB barometer and Vélo &amp; Territoires
+            rankings: no survey score, no measured cycle network and no accident data is
+            ingested. Only cities with 10,000+ inhabitants appear in this index.
           </p>
         </Card>
 
