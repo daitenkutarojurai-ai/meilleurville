@@ -7369,6 +7369,46 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-holidays-le-mans-2026",
+      "title": "Single-parent holidays in Le Mans: a Roman wall a child can actually walk",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-reims-2026",
+      "title": "Single-parent holidays in Reims: off the train, on the tram, at the cathedral",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-lille-2026",
+      "title": "Single-parent holidays in Lille: two stations 500 m apart, and no landscape",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-mulhouse-2026",
+      "title": "Single-parent holidays in Mulhouse: two world-class museums at 780 € a flat",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-saint-etienne-2026",
+      "title": "Single-parent holidays in Saint-Étienne: the cheapest of the thirty, and why",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-angouleme-2026",
+      "title": "Single-parent holidays in Angoulême: the worst transport score, and it barely matters",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-montpellier-2026",
+      "title": "Single-parent holidays in Montpellier: the tram is free, but not for you",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-avignon-2026",
+      "title": "Single-parent holidays in Avignon: a five-minute train from the TGV station",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "things-to-do-in-bergerac-2026",
       "title": "Things to do in Bergerac: wine, a river, and a Cyrano who never lived here",
       "emoji": "🍇"
@@ -7693,7 +7733,7 @@
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 108
+      "count": 116
     },
     {
       "slug": "expat-single-parent",
@@ -7703,6 +7743,11 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
+      "count": 56
+    },
+    {
+      "slug": "occitanie",
+      "label": "occitanie",
       "count": 55
     },
     {
@@ -7711,9 +7756,9 @@
       "count": 54
     },
     {
-      "slug": "occitanie",
-      "label": "occitanie",
-      "count": 54
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 53
     },
     {
       "slug": "real-estate",
@@ -7721,19 +7766,14 @@
       "count": 53
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 52
-    },
-    {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 45
+      "count": 47
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 40
+      "count": 41
     },
     {
       "slug": "ile-de-france",
@@ -7743,7 +7783,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 34
+      "count": 35
     },
     {
       "slug": "working-in-france",
@@ -7754,6 +7794,11 @@
       "slug": "job-market-france",
       "label": "job market france",
       "count": 32
+    },
+    {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 30
     },
     {
       "slug": "single-supplement",
@@ -7771,6 +7816,11 @@
       "count": 29
     },
     {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 28
+    },
+    {
       "slug": "brittany",
       "label": "brittany",
       "count": 27
@@ -7783,11 +7833,6 @@
     {
       "slug": "provence",
       "label": "provence",
-      "count": 27
-    },
-    {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
       "count": 27
     },
     {
@@ -7828,11 +7873,6 @@
     {
       "slug": "french-school-system",
       "label": "french school system",
-      "count": 22
-    },
-    {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
       "count": 22
     },
     {
@@ -7971,6 +8011,11 @@
       "count": 8
     },
     {
+      "slug": "car-free-holidays-france",
+      "label": "car-free holidays france",
+      "count": 7
+    },
+    {
       "slug": "marseille",
       "label": "marseille",
       "count": 7
@@ -8098,11 +8143,6 @@
     {
       "slug": "brest",
       "label": "brest",
-      "count": 4
-    },
-    {
-      "slug": "car-free-holidays-france",
-      "label": "car-free holidays france",
       "count": 4
     },
     {

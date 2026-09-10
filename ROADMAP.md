@@ -3676,6 +3676,131 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 10/09 — `single-parent-holidays-[city]-2026` batch 4 (+8), et un composite qui avait dérivé sur 11 guides FR
+
+`npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans
+jumelle) : la parité de **routes** tient, le run porte donc sur l'écart de **corpus**.
+
+**Le trou du jour est celui que le brief nomme en premier : une série FR a grossi la veille et
+sa jumelle EN était exactement d'autant en retard.** Le commit `440268e` du 09/09 a livré le
+batch 4 de `vacances-monoparentales-[ville]-2026` (+8), portant la série FR à 30 pendant que
+`single-parent-holidays-` restait à 22. Les 8 villes manquantes, mesurées et non devinées :
+**Angoulême, Avignon, Le Mans, Lille, Montpellier, Mulhouse, Reims, Saint-Étienne**. Zéro
+orphelin dans l'autre sens. Après ce run : **FR 30 / EN 30**, `EN_GUIDES` 886 → 894.
+
+⚠️ **Le fait le plus utile du run n'est pas les 8 guides, c'est ce qu'ils ont obligé à mesurer :
+le composite « famille monoparentale » cité par la série FR a dérivé, et 11 guides sur 21 le
+publient faux.** Les axes cités par chaque guide sont justes — vérifiés un à un contre
+`CITIES_LIGHT` — mais le **nombre dérivé** ne l'est plus : `profileFit()` (`lib/vacation-fit.ts`,
+`safety*0.30 + transport*0.25 + cost*0.25 + life*0.20`) rend autre chose que ce que la prose
+annonce. Aucune autre pondération testée ne reproduit les valeurs publiées, donc ce n'est pas un
+second barème : ce sont des chiffres qui n'ont pas été recalculés après un mouvement du seed.
+Les écarts, mesurés ce run (guide → moteur) :
+
+| Ville | guide FR | moteur | écart |
+|---|---|---|---|
+| Bordeaux | 6,4 | 6,0 | 0,4 |
+| Grenoble | 6,3 | 5,9 | 0,4 |
+| Toulouse | 6,2 | 5,8 | 0,4 |
+| Aix-en-Provence | 6,1 | 5,8 | 0,3 |
+| Brest | 6,3 | 6,2 | 0,1 |
+| Tours | 6,3 | 6,2 | 0,1 |
+| Pau | 6,2 | 6,1 | 0,1 |
+| Mâcon | 6,2 | 6,3 | −0,1 |
+| Saint-Étienne | 5,6 | 5,7 | −0,1 |
+| Montpellier | 5,5 | 5,4 | 0,1 |
+| Avignon | 5,4 | 5,3 | 0,1 |
+
+**Ce run n'en corrige que trois, et c'est délibéré.** Les trois qui tombent dans les 8 villes de
+ce batch (Avignon 5,4 → **5,3**, Montpellier 5,5 → **5,4**, Saint-Étienne 5,6 → **5,7**) sont
+corrigées côté FR, parce qu'une page EN et sa jumelle FR sont des alternates hreflang et ne
+peuvent pas afficher deux nombres différents pour la même ville — publier 5,4 en anglais pour
+Avignon aurait contredit `/vacations/profile/single-parent`, à un clic de là. Les **8 autres
+relèvent de batches antérieurs** et appartiennent à l'agent de la série FR : les réécrire en
+silence depuis une routine de parité serait sortir du périmètre. Elles sont donc **nommées ici
+avec leur écart** plutôt que comptées — précédent de `news:stats` du 18/08, un agrégat d'écarts
+doit nommer ses membres.
+
+⚠️ **Corollaire à ne pas rater : corriger un composite casse les comparaisons qui le citent.**
+Saint-Étienne passant de 5,6 à 5,7, l'égalité que les guides Saint-Étienne **et** Angoulême
+annonçaient (« à égalité avec … dans ce lot ») devenait fausse dans les deux sens ; les deux
+phrases sont réécrites en rang (5ᵉ et 6ᵉ de ce lot). Et le guide Montpellier reprenait son
+composite une seconde fois en section 3 (« ne dépasse pas 5,5/10 »), loin de l'intro qui le
+posait. **Un nombre dérivé se cherche dans tout le corpus, pas seulement dans l'intro qui
+l'introduit** — même piège que les chaînes `methodology` / `intro` des classements, qui vivent
+loin de la fonction qu'elles décrivent.
+
+**Écrit en anglais natif depuis les faits des guides FR.** 6 sections par guide (la série FR en
+compte 7, l'EN fusionne la section « aides » dans la section sécurité, comme les 22 guides EN
+déjà livrés), `metaTitle` 36-44 caractères, `metaDesc` 147-159, 1 175-1 255 mots, **0 em-dash**
+(cible R7.10 : ~1 pour 200 mots). Contrôle de figures : **332 figures distinctes du texte EN
+cherchées dans la jumelle FR après normalisation des séparateurs — 324 retrouvées, et les 8
+manquantes sont le même nombre, `112`**, le numéro d'urgence européen, ajouté pour un lecteur
+étranger qui ne connaît ni le 15 ni le 116 117. Ne pas le « corriger » au prochain run.
+
+Cinq prudences des guides FR reprises telles quelles, à ne pas diluer : ① **le festival de bande
+dessinée d'Angoulême n'a pas eu lieu en 2026** (annulation du 29 janvier-1er février, la première
+depuis 1974 hors 2021), reprise attendue en 2027, donc un séjour se cale sur des dates
+confirmées et non sur une habitude ; ② **le réseau de Montpellier est gratuit pour les résidents
+de la métropole seulement**, sur pass nominatif avec pièce d'identité, photo et justificatif de
+domicile — un visiteur paie, et la ligne transport reste au budget ; ③ **la mer n'est pas à
+Montpellier**, le littoral relève de communes distinctes et s'écrit « accessible depuis » ;
+④ notre **indicateur d'affluence se trompe en juillet à Avignon** (festival off, 1 780 spectacles
+sur la 60ᵉ édition du 4 au 25 juillet 2026) et **en juin au Mans** (course d'endurance), parce
+qu'il raisonne en régime moyen et ne voit pas un événement ; ⑤ les **totaux de parcs à 40 sont un
+plancher plafonné par notre collecte** (Lille, Reims, Le Mans, Montpellier, Mulhouse,
+Saint-Étienne) et ne se comparent pas aux **19 d'Angoulême et 29 d'Avignon**, qui sont réels.
+
+Quatre ajouts propres au lecteur anglophone, **sans chiffre nouveau** : **Lille-Europe est l'arrêt
+Eurostar**, donc l'une des rares villes de la série atteignable depuis Londres sans avion et sans
+changer à Paris ; **Mulhouse est adossée aux frontières suisse et allemande** et partage un
+aéroport binational, donc un vol bon marché peut poser hors de France ; **« Rheims » est
+l'ancienne graphie anglaise** de Reims, encore dans les livres ; et le **112** ci-dessus. Les
+**zones de vacances scolaires** sont nommées par ville avec leur académie (A pour Angoulême et
+Saint-Étienne, B pour Avignon, Le Mans, Lille, Mulhouse et Reims, C pour Montpellier) et les
+dates renvoyées à education.gouv.fr, jamais citées.
+
+**Tags : aucun tag neuf.** `search-index.en.json` reste à **114 tags**, donc aucune page `/tags/`
+créée. Piège évité au passage : la série employait `pays-de-la-loire` (2 occurrences) alors que
+le corpus porte aussi `pays de la loire` (11) — les deux formes existent déjà au-dessus du seuil
+(23 et 11 corpus-wide), donc on reprend la forme dominante de la série sans pousser une variante
+à 3 et créer un doublon, comme le correctif `ile de france` du batch 45.
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. CLAUDE.md § Commands depuis le
+batch 27). Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**,
+`npm run integrity` (guides EN 886 → 894), `search-index` + `search-index:check`,
+`npm run sitemap:check` (EN 28 778 → **28 786**, soit exactement les 8 guides neufs ; FR
+inchangé à 29 203), `npm run parity` (**code 0**), `npm run hreflang:check`, plus le contrôle de
+figures ci-dessus, un contrôle d'encodage (accents intacts, aucun `m2` / `EUR` / `deg` ascii,
+aucun mojibake) et une vérification que chaque ville retrouve son guide par la recherche inverse
+`relatedCities` de `CityGuidesList`.
+
+**Deux mesures faites ce run et bonnes à ne pas refaire.** ① Une passe de fuite de français sur
+l'arbre EN : les **169 fichiers** de `app/[locale]/**` et les **55 composants** qu'ils
+atteignent, chaîne visible par chaîne visible — **aucune fuite** (`Navbar` et `Footer` branchent
+sur `DEFAULT_LOCALE`, constante inlinée au build, donc les chaînes FR y sont mortes côté EN).
+② `CompatibilityQuizEN` traduit par remplacement de chaînes les raisons françaises de
+`lib/compatibility.ts` : **68 320 critères évalués sur un balayage des réponses, 0 fuite**. Une
+seule branche reste latente et non couverte, `Loyer T2 non indexé pour …` — morte aujourd'hui
+(0/540 villes sans loyer indexé) mais qui sortirait en franglais le jour où une ville entrerait
+au seed sans référence dans `data/housing.ts`.
+
+**Prochain run.** La série monoparentale est de nouveau à parité, donc elle rend la main. L'écart
+de corpus restant est **FR 1 105 / EN 894**, mais il ne se lit pas au compteur : les séries
+appariées sont fermées (tourisme 254/254, `parent-solo-` 85/85, `where-to-buy-` 49/49,
+`working-in-` 30/30, `family-in-` 19/19), `living-in-*` couvre **46** sous-régions dont les DROM,
+la Vendée, le Gard, le Vaucluse, les Landes, l'Ain, les Pyrénées, la Sarthe et la Corrèze, et
+`studying-in-*` en couvre **26** contre 20 FR — **l'EN y est devant**. ⚠️ Deux fausses pistes
+mesurées ce run et à ne pas rouvrir : `universites-[ville]` (15 FR) semble sans jumelle mais
+`studying-in-[city]` la couvre, et `quitter-` / `vivre-a-` ne se rapprochent pas par gabarit de
+slug (`leaving-X-where-to-go`, `[city]-living-guide`). Le vrai résidu est **thématique** : sur
+les sujets immobiliers et réglementaires, l'EN mentionne mais ne consacre pas de guide au
+**viager** (0 mention dans tout le corpus EN), à l'**indivision** (0), aux **ZFE / Crit'Air**
+(25 mentions, aucun guide, aucune section), à la **location meublée de tourisme** post-loi
+Le Meur (16 mentions, aucun guide) et à l'**encadrement des loyers** (12 mentions). Le DPE, lui,
+est déjà traité en **section** dans quatre guides EN : un guide dédié y serait de la
+cannibalisation, exactement ce que les trois passes de déduplication du 04/06 ont nettoyé.
+
 ### Livré le 09/09 — ouverture de `moving-to-[city]-2026` (+8), la dernière grande série FR sans aucune jumelle EN
 
 `npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans

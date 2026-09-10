@@ -34375,6 +34375,385 @@ export const EN_GUIDES: EnGuide[] = [
     ],
   },
   {
+    slug: "single-parent-holidays-le-mans-2026",
+    title: "Single-parent holidays in Le Mans: a Roman wall a child can actually walk",
+    metaTitle: "Single-Parent Holidays in Le Mans 2026",
+    metaDesc:
+      "Le Mans alone with the kids: a Roman wall 1,300 m round, safety 5.3/10 and 870 € for a three-room flat. But check the June race dates before booking.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Le Mans scores 5.8/10 on our single-parent composite, joint first in this batch with Reims, Lille and Mulhouse, on safety 5.3/10, transport 6.1/10, cost of living 6.4/10 and quality of life 5.5/10 (source: data/cities-seed.ts). That safety figure is the best of the eight cities added here, level with Strasbourg and Metz across the whole series. The reference three-room flat is 870 € and the square metre 1,900 €, the fourth lowest of the thirty destinations this series has covered (source: data/housing.ts); the commune counts 145,182 inhabitants at the 2022 census (source: data/city-population.json). This guide is about why the old centre suits one adult with children unusually well, and where that stops.",
+    sections: [
+      {
+        heading: "A Roman wall 1,300 metres round, which is one child-sized loop",
+        body: "This is the fact that decides a stay here. The Gallo-Roman wall of Le Mans, built at the start of the fourth century, traces an irregular quadrilateral of roughly 450 by 200 metres, so a perimeter of 1,300 metres, and it is held to be the best preserved of the former Roman Empire alongside those of Rome and Constantinople. About 500 metres of wall are plainly visible and eleven of the original twenty-six towers still stand. Translated into single-parent logistics, that gives a loop of one and a third kilometres, flat along its lower run, entirely urban, with something worth looking at every fifty metres. It is exactly the format a six-year-old finishes without being carried and a ten-year-old finds interesting. The Cité Plantagenêt it encloses is walked in the same stretch. A stay in Le Mans therefore needs no programme: it needs a starting point and two hours.",
+      },
+      {
+        heading: "Arriving and getting about: TGV, tram, and a city that fits in your legs",
+        body: "Le Mans is served by the TGV, France's high-speed rail network, and has a tramway plus bus rapid transit lines (source: lib/transit.ts). The commune's transport axis is 6.1/10 (source: data/cities-seed.ts), in the bottom four tiers of the thirty destinations in this series, level with Pau, Aix-en-Provence and Avignon and ahead of Vannes at 5.5 and Angoulême at 5.2. Do not over-read that modest score: it measures how well a commune of 145,000 people is meshed, not how hard a four-night stay is. In practice the station is in town, the tram links it to the centre, and the old centre itself is walked because it fits inside a perimeter of 1,300 metres. The question to ask before booking accommodation is not whether the network is good but whether you are on the tram line or inside the Cité. Both answers work; anything else adds one journey to every morning, which is expensive in fatigue when you are the only one organising it.",
+      },
+      {
+        heading: "Budget: the fourth cheapest of the thirty",
+        body: "On the cost-of-living axis a high score means affordable. Le Mans comes out at 6.4/10 (source: data/cities-seed.ts), level with Besançon, Brest and Mulhouse, a tier occupying ranks 6 to 9 of the thirty. The residential market confirms it and pushes further: 870 € for the reference three-room flat and above all 1,900 € per square metre to buy, the fourth lowest in the series behind Saint-Étienne at 1,500, Mulhouse at 1,700 and Angoulême at 1,800 (source: data/housing.ts). Our holiday engine rates the city €€€ (source: lib/vacation-fit.ts). These are local market benchmarks, not holiday rates, but a city where the square metre is worth 1,900 € does not post the same weekly lets as one at 5,000 €, and Aix-en-Provence, in this same series, is at 5,000 €. For an adult paying alone for a whole household, with nobody to share a room with, this is the line where the gap widens fastest.",
+      },
+      {
+        heading: "The 24 Hours: what our crowding indicator cannot see",
+        body: "Our indicator puts Le Mans at 1 out of 5 for eight months, 2 in June and September, 3 in July and August (source: lib/vacation-seasons.ts). Say straight away what it ignores. The indicator assigns a tier from the type of destination and the season, then modulates by month: it reasons in average regime and is structurally blind to a single weekend. The endurance motor race that carries the city's name concentrates in June a crowd bearing no relation to an ordinary June, on accommodation and on transport alike. The practical consequence is simple and the same for everybody: before booking a June stay in Le Mans, check the dates of the race, and if they fall on yours, shift by a week or accept booking a long way ahead. An indicator at 2 does not say a June weekend is quiet, it says June is quiet on average. The distinction is worth money.",
+      },
+      {
+        heading: "Climate: the reference weather station is 74 km away",
+        body: "This is the limit of our own data and it is worth knowing. The station our engine picks for Le Mans is the Tours one, 74 km away (source: lib/climate-normals.ts): the monthly values displayed for Le Mans are literally those of Tours, on the far side of the Vendômois. The link is still shorter than Pau's at 146 km, Metz's at 125 or Mulhouse's at 92 in this same series, and both cities share most of their degraded oceanic regime, but read those figures as a regional order of magnitude rather than a local measurement. They give 5.1 °C on average in January and 20.2 °C in July, 7 rainy days in July and August against 11 to 12 in December and January. The city's own anchors come from the seed: 4.8 °C in January and 22.0 °C in July (source: data/cities-seed.ts). On that basis the comfortable window runs May to September, with a crowding trough in May and September. Le Mans sits in Zone B for French school holidays, through the académie de Nantes; check the year's dates at education.gouv.fr, because those weeks drive both prices and queues.",
+      },
+      {
+        heading: "Safety 5.3/10, evenings, and money help",
+        body: "Le Mans shows 5.3/10 on the safety axis (source: data/cities-seed.ts), the best of the eight destinations in this batch, level with Strasbourg and Metz across the series and ahead of Reims and Angoulême at 5.1. It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents. What holds for this whole batch bears repeating: the single-parent profile weights safety at 0.30, the heaviest of its four criteria, and seven of the eight cities added here sit below the median of 5.3 across the thirty destinations covered. Le Mans is the eighth, and it reaches that median exactly. Two habits, useful everywhere and more so here because the Cité Plantagenêt is a warren of poorly lit lanes: keep children within earshot in the narrow stretches, and locate a doctor on the health directory at ameli.fr before you travel. Dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Sarthe CAF runs holiday grants through caf.fr, and applying months ahead counts double in a city where one June weekend is saturated; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["le-mans", "laval", "alencon", "tours"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "le mans with kids",
+      "pays-de-la-loire",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-reims-2026",
+    title: "Single-parent holidays in Reims: off the train, on the tram, at the cathedral",
+    metaTitle: "Single-Parent Holidays in Reims 2026",
+    metaDesc:
+      "Reims alone with the kids: the tram passes the station and reaches the cathedral, 900 € a three-room flat. But nature scores 4.2/10, second lowest of thirty.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Reims scores 5.8/10 on our single-parent composite, joint first in this batch with Le Mans, Lille and Mulhouse, on safety 5.1/10, transport 6.4/10, cost of living 6.0/10 and quality of life 5.9/10 (source: data/cities-seed.ts). It is the file of a well-connected mid-sized city: 900 € for the reference three-room flat and 2,300 € per square metre to buy (source: data/housing.ts), 178,478 inhabitants at the 2022 census (source: data/city-population.json). This guide says what the city does very well for one adult with children, and the one axis on which it is the weakest of the thirty destinations this series has covered. A note on the name first: English writing long spelled the city Rheims, and older books still do; the French spelling is the one on the tickets.",
+    sections: [
+      {
+        heading: "The shortest arrival in this batch: central station, tram, cathedral",
+        body: "Reims is served by the TGV, France's high-speed rail network, and by a tramway (source: lib/transit.ts), and the geometry of those two facts is what makes the city comfortable when you are carrying bags and holding a hand. Reims station is in the city centre, and line A of the network, opened in April 2011, serves the station then crosses the centre passing close by the cathedral. In other words, between stepping off the train and the first monument of the stay there is no connection to find, no taxi to negotiate, no shuttle to wait for. That sounds trivial until you have tried to get two tired children off a TGV on a Sunday evening. It is the exact opposite of the station trap this series has documented at Mâcon, where the high-speed service stops at Loché seven kilometres from the centre, and at Besançon and Valence. Here the fastest ticket puts you in the right place. The transport score of 6.4/10 does not capture that quality: it measures how the whole commune is meshed, not how good an arrival is.",
+      },
+      {
+        heading: "Budget: mid-table of the thirty, with no nasty surprise",
+        body: "On the cost-of-living axis a high score means affordable. Reims comes out at 6.0/10 (source: data/cities-seed.ts), fifteenth of the thirty destinations in the series, so exactly mid-table. The residential market confirms the order of magnitude: 900 € for the reference three-room flat, level with Besançon, Valence and Pau, and 2,300 € per square metre, level with Besançon and Metz (source: data/housing.ts). These are local market benchmarks, not holiday rates, but they place a city: Reims is neither Saint-Étienne, the cheapest of the thirty at 770 € for the three-room flat, nor Aix-en-Provence, the dearest at 1,400 €. Our holiday engine rates it €€€ (source: lib/vacation-fit.ts), the tier shared by nineteen of the thirty destinations. For a household on one income, the point of Reims is therefore not that it is cheap: it is that it is decent at everything without requiring a car.",
+      },
+      {
+        heading: "What links up on foot around the cathedral",
+        body: "Notre-Dame de Reims has been a UNESCO World Heritage site since 1991, together with the former abbey of Saint-Remi and the Palais du Tau. It is a thirteenth-century Gothic building where twenty-nine kings of France were crowned, and for children it is above all a building whose scale shows from a distance, which helps a visit hold together. The three elements of the listed property are in the same city, and the first and third link without a vehicle, the Palais du Tau adjoining the cathedral. The commune's culture score is 7.6/10 (source: data/cities-seed.ts), level with Nancy and Montpellier in this series, putting it tenth of the thirty. One point of method for a parent: champagne, which made the region's name, is not a children's programme, and the cellars belong to a different trip. Reims counts forty recorded green spaces (source: data/city-parks.json), but that total is capped by our collection, as it is for twenty-two of the thirty destinations: it is a floor, not a count, and it does not compare with Angoulême's or Avignon's, which are real.",
+      },
+      {
+        heading: "The weak point, said plainly: nature 4.2/10",
+        body: "That is the second lowest nature score of the thirty destinations in this series, behind Nancy, Metz and Le Mans at 4.8 and ahead only of Lille at 3.4 (source: data/cities-seed.ts). Take it seriously rather than working around it. Reims is a city of chalk plain, with no relief, no coast and no large massif within reach of public transport, and a stay built on the idea of walking out into a landscape will disappoint. The right reading is to choose Reims for what it is, a short urban stay of three to five nights around dense heritage, and not to ask of it what Grenoble at 8.4 or La Rochelle at 7.2 give without effort. The corollary is budgetary and works in the city's favour: an entirely urban programme requires no car hire, no fuel and no parking, and those three lines are what derails the budget of an adult paying alone.",
+      },
+      {
+        heading: "When to go: 1 out of 5 for eight months",
+        body: "Our crowding indicator puts Reims at 1 out of 5 from January to May and again from October to December, 2 in June and September, 3 in July and August (source: lib/vacation-seasons.ts). That is the low tier, shared by eighteen of the thirty destinations in the series, and it is worth knowing what it is: the indicator crosses the type of destination with the season, it does not count visitors. On climate, the reference station is one in the Marne, 18 km away (source: lib/climate-normals.ts), one of the shortest links in the series, a long way from the 146 km separating Pau from its station, so the monthly values are relevant here. They give 3.4 °C on average in January and 18.7 °C in July, and above all 8 to 13 rainy days every month of the year, with no dry month. September, at 8 days, is the least wet, and it falls exactly when crowding drops back to 2: that is the window to aim for. Reims sits in Zone B for French school holidays, through its own académie; check the year's dates at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 5.1/10, and what is particular about this batch",
+        body: "Reims shows 5.1/10 on the safety axis (source: data/cities-seed.ts), level with Angoulême, Nancy, Lyon and Bordeaux. It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents. A word on this batch, because it differs from the twenty-two guides that came before it in the series: the single-parent profile puts safety first, at 0.30, and none of the eight destinations added here reaches the safety median of the thirty, which stands at 5.3, except Le Mans which stops exactly on it. That is mechanical, since you are working down a ranking whose first criterion this is, but it is worth writing rather than masking. Reims comes behind Le Mans at 5.3 and level with Angoulême on this axis. In use, two habits apply everywhere: out of season aim to eat at 19:30, because kitchens close early midweek in France and a nine o'clock arrival often means no dinner; and locate a doctor on the health directory at ameli.fr before you travel. Dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted for cultural ticketing, which suits a destination whose programme is essentially heritage; the Marne CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["reims", "epernay", "chalons-en-champagne", "laon"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "reims with kids",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-lille-2026",
+    title: "Single-parent holidays in Lille: two stations 500 m apart, and no landscape",
+    metaTitle: "Single-Parent Holidays in Lille 2026",
+    metaDesc:
+      "Lille alone with the kids: transport 8.7/10, third of thirty, and two stations 500 m apart. Against that, nature 3.4/10, the lowest score in the series.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Lille scores 5.8/10 on our single-parent composite, joint first in this batch with Reims, Le Mans and Mulhouse, but by a route no other destination in the series takes: transport 8.7/10, third of the thirty behind Strasbourg and Lyon at 9.0, against safety 3.9/10 and nature 3.4/10, respectively the second lowest and the lowest of the thirty (source: data/cities-seed.ts). The reference three-room flat is 1,080 € and the square metre 3,500 € (source: data/housing.ts), for 238,695 inhabitants at the 2022 census (source: data/city-population.json). This guide says what that imbalance actually gives one adult with children, and what to stop looking for here.",
+    sections: [
+      {
+        heading: "Two stations 500 metres apart, and a driverless metro since 1983",
+        body: "Lille-Flandres and Lille-Europe are about 500 metres apart on foot and are two neighbouring stations on the same metro line. For an adult arriving alone with bags and children, that is a rare advantage: whichever station is printed on the ticket, you are already in the centre, and moving between the two requires neither crossing the city nor changing mode. The metro itself, opened on 25 April 1983 on a first line of nine kilometres and thirteen stations between Villeneuve-d'Ascq and central Lille, was the first fully automatic driverless metro in the world; the system had been designed and tested by a university team based at Villeneuve-d'Ascq. That piece of history has a practical consequence: the trains are short, very frequent, and waiting on a platform with children is counted in minutes rather than tens of minutes. The transport score of 8.7/10 (source: data/cities-seed.ts) measures this, and here it is the real reason to come. One detail that matters more to a reader abroad than to a French one: Lille-Europe is the Eurostar stop, so this is one of the few cities in this series reachable from London without a plane and without changing in Paris.",
+      },
+      {
+        heading: "What Lille will not give: nature 3.4/10, last of the thirty",
+        body: "Better to write this before the rest of the programme. Lille comes out at 3.4/10 on the nature axis (source: data/cities-seed.ts), the lowest score of the thirty destinations this series has covered, behind Reims at 4.2 and a long way from Grenoble at 8.4 or La Rochelle at 7.2. This is a city of plain with no relief, no coast reachable in a day without organising it, and a stay built on the idea of going out into a landscape will fail here. The corollary is that you have to accept a fully urban stay, which the city does very well: culture 8.0/10, level with Toulouse at the sixth tier of the thirty, and a dense centre where everything links on foot or by metro. Forty green spaces are recorded in the commune (source: data/city-parks.json), but that total is capped by our collection as it is for twenty-two of the thirty destinations: it is a floor, not a count, and it says nothing about the surface available.",
+      },
+      {
+        heading: "Safety 3.9/10: the lowest in this batch after Montpellier",
+        body: "Lille shows 3.9/10 on the safety axis (source: data/cities-seed.ts), second lowest of the thirty destinations in the series, ahead only of Montpellier at 3.7. It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents; it does not read as a probability of an incident over four nights. It nevertheless has to be said plainly, because the single-parent profile weights safety at 0.30, the heaviest of its four criteria, and because seven of the eight cities added here sit below the median of 5.3 across the thirty, the eighth reaching it exactly: if Lille comes out at 5.8/10 on the composite, it is despite this axis and thanks to transport. A reader who puts safety above everything will find Vannes at 6.9, La Rochelle at 6.5 and Saint-Raphaël at 6.2 in this same series. A reader who needs to move without a car, with a pushchair, without ever depending on a bus timetable, will find few equivalents to Lille. It is a trade-off, and it is better stated than smoothed over.",
+      },
+      {
+        heading: "Budget: the expensive end of this batch, not of the series",
+        body: "On the cost-of-living axis a high score means affordable. Lille comes out at 5.4/10 (source: data/cities-seed.ts), twenty-second of the thirty, so in the least affordable third. The residential market confirms it: 1,080 € for the reference three-room flat, level with Strasbourg, and 3,500 € per square metre (source: data/housing.ts). It is the dearest destination in this batch after Montpellier at 1,150 €, but it stays well behind Aix-en-Provence at 1,400 € and Lyon at 1,380 €, which close the ranking of the thirty. Our holiday engine rates it €€€ (source: lib/vacation-fit.ts). The real trade-off is the one this series documented at Saint-Raphaël: you pay more for accommodation, but the car, fuel and parking lines drop to zero, and they drop more completely here than anywhere else because the metro and tram cover everything. Over a week that switch often reorders destinations you thought you were comparing.",
+      },
+      {
+        heading: "When to go: the highest crowding tier in the series, and rain every month",
+        body: "Our crowding indicator puts Lille at 3 out of 5 for eight months of the year, 4 in June and September, 5 in July and August (source: lib/vacation-seasons.ts). That is the high tier, shared by nine of the thirty destinations, among them Strasbourg, Nantes, Rennes, Lyon, Bordeaux, Toulouse and, in this batch, Montpellier. In other words Lille has no real trough: it is moderately busy all year, which is rather good news for a single parent, because it means venues stay open in February and nothing closes for the season. On climate, the reference station is the Lille one, 7 km away (source: lib/climate-normals.ts), one of the shortest links in the series alongside Tours at 5 km and Toulouse at 6, so the values are relevant. They give 4.1 °C in January, 18.9 °C in July, and 8 to 14 rainy days every month with no dry month; July, at 8 days, is the only one under 9, and December rises to 14. Planning for rain is not a precaution here, it is the programme. Lille sits in Zone B for French school holidays, through its own académie; check the year's dates at education.gouv.fr.",
+      },
+      {
+        heading: "Evenings, health, and the accommodation question",
+        body: "Two logistics points. The first is about size: in a city of 238,000 people with a very dense centre, the choice of accommodation matters more than anywhere else in this series, and the right question to ask is the walking distance to a metro station, not the distance to the belfry. An address five minutes from a station turns any district into a decent base; an address twenty minutes from everything imposes one extra journey every evening, with tired children. The second is medical and applies everywhere: locate a doctor on the health directory at ameli.fr before you travel rather than in a hurry, and keep the carte Vitale, France's health insurance card, any current prescriptions and the child health record in your hand luggage. Dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice. On a destination where the days are urban and long, end-of-stay exhaustion is the real risk, and it is prevented by keeping one half-day with no programme. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted, which weighs on a stay whose programme is entirely urban; the Nord CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["lille", "roubaix", "tourcoing", "arras"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "lille with kids",
+      "car-free holidays france",
+      "hauts-de-france",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-mulhouse-2026",
+    title: "Single-parent holidays in Mulhouse: two world-class museums at 780 € a flat",
+    metaTitle: "Single-Parent Holidays in Mulhouse 2026",
+    metaDesc:
+      "Mulhouse alone with the kids: the world's largest car museum and Europe's largest railway museum, in the second cheapest destination of the thirty.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Mulhouse scores 5.8/10 on our single-parent composite, joint first in this batch with Reims, Le Mans and Lille, on safety 4.5/10, transport 7.0/10, cost of living 6.4/10 and quality of life 5.5/10 (source: data/cities-seed.ts). The trade it offers is the most unusual in the series: 780 € for the reference three-room flat and 1,700 € per square metre, in both cases the second lowest of the thirty destinations covered, behind Saint-Étienne (source: data/housing.ts), in a city that holds two of the largest museums of their kind in the world. The commune counts 104,924 inhabitants at the 2022 census (source: data/city-population.json). Here is what that trade gives when there is one adult and one budget.",
+    sections: [
+      {
+        heading: "Two outsized museums, and why that matters to a lone parent",
+        body: "The Cité de l'Automobile, built on the collection assembled by the Schlumpf brothers, is the largest car museum in the world: around 430 vehicles on display, of which some 150 are Bugatti, making it the most complete Bugatti collection in existence. The Cité du Train, renamed in 2005 after refurbishment, is the largest railway museum in Europe, covering 60,000 square metres, with 138 items of rolling stock from French railway heritage. The interest for an adult travelling alone is not only thematic. Both venues are indoors, enormous, and each fills half a day without your having to invent a programme or watch a road: they are two bad-weather days already solved, and bad weather is the first enemy of a stay where nobody takes over. Both are in Mulhouse itself, which is not trivial in a series where half the major sites named belong to neighbouring communes.",
+      },
+      {
+        heading: "Budget: the second cheapest destination of the thirty",
+        body: "On the cost-of-living axis a high score means affordable. Mulhouse comes out at 6.4/10 (source: data/cities-seed.ts), level with Besançon, Brest and Le Mans, a tier occupying ranks 6 to 9 of the thirty. The residential market goes further than the score: 780 € for the reference three-room flat and 1,700 € per square metre, in both cases the second lowest figure in the whole series, immediately behind Saint-Étienne at 770 € and 1,500 € (source: data/housing.ts). These are local market benchmarks, not holiday rates, but they place a city: the Mulhouse square metre is worth less than a third of the Aix-en-Provence one at 5,000 €, which belongs to this same series. Our engine nonetheless rates Mulhouse €€€ and not €€ (source: lib/vacation-fit.ts), the €€ tier being reached only by Valence, Mâcon, Poitiers, Saint-Étienne and Angoulême. The combination to remember is therefore not the cheapest, it is very cheap for what you find there.",
+      },
+      {
+        heading: "Getting about: tram, tram-train, and a compact centre",
+        body: "Mulhouse is served by the TGV, France's high-speed rail network, by a tramway and by bus rapid transit lines, and has a notable cycle network (source: lib/transit.ts). The transport score is 7.0/10 (source: data/cities-seed.ts), level with eight other destinations in the series including La Rochelle, Nancy, Dijon and Mâcon, and third in this batch behind Lille at 8.7 and Montpellier at 7.7. For a stay, the practical reading is that you arrive at the station, take the tram, and cross the historic centre on foot after that. The city is also a tram-train hub, meaning some vehicles leave the urban network and continue onto regional railway tracks: that is the configuration which lets you reach neighbouring communes without changing mode or hiring a car, and it is rare. Destinations in the valley belong to separate communes and are treated as day trips, to be checked before a day is built on them. One thing a reader abroad should know: Mulhouse sits close to both the Swiss and German borders, and the airport it shares is a binational one, so a cheap flight into the area may well land you outside France.",
+      },
+      {
+        heading: "The point to know: the reference weather station is 92 km away",
+        body: "This is the limit of our own data on this city, and it is harsher than elsewhere in this batch. The station our engine picks for Mulhouse is the Strasbourg one, 92 km away (source: lib/climate-normals.ts): the monthly values shown are those of the northern Alsace plain, whereas Mulhouse occupies its southern end, backed onto the Sundgau and the Alsatian Jura. It is the sixth longest link of the thirty destinations in the series, behind Pau at 146 km, Metz at 125, La Rochelle at 116, Nancy at 108 and Poitiers at 99. The plain shares most of its regime, so the order of magnitude remains usable, but read those figures as regional. They give 2.5 °C in January and 20.6 °C in July, with 9 to 12 rainy days every month. The city's own anchors come from the seed: 2.5 °C in January and 22.5 °C in July (source: data/cities-seed.ts). The Alsatian winter is frankly cold, which makes those two large indoor museums all the more relevant out of season.",
+      },
+      {
+        heading: "When to go: 1 out of 5 for eight months",
+        body: "Our crowding indicator puts Mulhouse at 1 out of 5 from January to May and again from October to December, 2 in June and September, 3 in July and August (source: lib/vacation-seasons.ts). That is the low tier, shared by eighteen of the thirty destinations in the series, six of them among the eight added here. Know what it is worth: the indicator crosses the type of destination with the season and does not count visitors, so only three distinct annual profiles exist across the whole series. A reader who found Mulhouse busier in December than the table suggests would not be wrong, Alsatian Christmas markets having their own calendar, which the indicator does not see. The window to aim for remains May, June and September: usable temperatures, low crowding, and the two big museums open without the August queue. Mulhouse sits in Zone B for French school holidays, through the académie de Strasbourg; check the year's dates at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 4.5/10, evenings, and money help",
+        body: "Mulhouse shows 4.5/10 on the safety axis (source: data/cities-seed.ts), twenty-fourth of the thirty destinations in the series, behind Nantes at 4.6 and ahead of Grenoble, Toulouse, Saint-Étienne and Avignon at 4.3. It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents. As for the seven other cities in this batch, it bears repeating that the single-parent profile weights safety at 0.30, the heaviest of its four criteria, and that seven of the eight destinations added here sit below the median of 5.3 across the thirty, Le Mans alone reaching it: if Mulhouse comes out at 5.8/10, it is through transport and cost. Two habits for the stay: out of season aim to eat at 19:30, because kitchens close early midweek in a city of this size; and locate a doctor on the health directory at ameli.fr before you travel. Dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted, and on a destination whose programme is essentially museum-based, ticketing is precisely where they go furthest; the Haut-Rhin CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["mulhouse", "colmar", "belfort", "selestat"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "mulhouse with kids",
+      "car-free holidays france",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-saint-etienne-2026",
+    title: "Single-parent holidays in Saint-Étienne: the cheapest of the thirty, and why",
+    metaTitle: "Single-Parent Holidays in Saint-Étienne 2026",
+    metaDesc:
+      "Saint-Étienne alone with the kids: the cheapest destination of the thirty at 770 € a flat, and the lowest on quality of life and culture. Both faces, in order.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Saint-Étienne scores 5.7/10 on our single-parent composite, fifth in this batch, on safety 4.3/10, transport 6.7/10, cost of living 7.1/10 and quality of life 4.9/10 (source: data/cities-seed.ts). It is the most contrasted of the thirty destinations this series has covered: its 7.1/10 on cost is the best of the thirty, with 770 € for the reference three-room flat and 1,500 € per square metre, the two lowest values in the whole series (source: data/housing.ts); while its 4.9/10 on quality of life and its 5.9/10 on culture are the lowest of the thirty. The commune counts 172,569 inhabitants at the 2022 census (source: data/city-population.json). This guide gives both faces, in that order.",
+    sections: [
+      {
+        heading: "The cheapest destination of the thirty, by a distance",
+        body: "On the cost-of-living axis a high score means affordable. Saint-Étienne comes out at 7.1/10 (source: data/cities-seed.ts), first of the thirty ahead of Valence and Angoulême at 6.7 and Mâcon and Poitiers at 6.6. The residential market says the same thing more bluntly: 770 € for the reference three-room flat, against 800 € in Mâcon which held that record in the previous batch, and 1,500 € per square metre, well below Mulhouse at 1,700 € and Angoulême at 1,800 € (source: data/housing.ts). Set against the 5,000 € per square metre of Aix-en-Provence or Lyon in this same series, the gap runs from one to more than three. Our holiday engine rates the city €€, a tier only five of the thirty reach: Valence, Mâcon, Poitiers, Angoulême and this one (source: lib/vacation-fit.ts). For an adult paying alone for a whole household, with nobody to share a room with, that is the main argument, and there is no need to dress it up.",
+      },
+      {
+        heading: "The other face: quality of life 4.9/10 and culture 5.9/10, both last",
+        body: "This has to be written in the same place as the price, or the guide lies by omission. Saint-Étienne closes the ranking of the thirty destinations in the series on two axes: quality of life at 4.9/10, behind Angoulême, Mulhouse, Le Mans and Avignon at 5.5; and culture at 5.9/10, behind Le Mans, Vannes and Poitiers at 6.2 (source: data/cities-seed.ts). That does not mean there is nothing to do, it means the offer is less dense and less immediately legible than elsewhere, and that an improvised stay will give less here than a prepared one. The practical consequence for a lone parent is clear: Saint-Étienne is chosen with a programme, not with the idea of seeing what turns up. It is the opposite of Avignon or Strasbourg at 9.0 on culture, where you can leave the hotel without a plan. The price largely offsets the effort of preparation; it does not remove it.",
+      },
+      {
+        heading: "The oldest tramway in France, running since 1881",
+        body: "The Saint-Étienne tramway has run without interruption since 1881, making it the oldest tram network in France still in operation: the first line opened on 4 December 1881, over 5.5 kilometres between the districts of La Terrasse and Bellevue. The city is also served by the TGV, France's high-speed rail network, and by bus rapid transit lines (source: lib/transit.ts), for a transport score of 6.7/10 (source: data/cities-seed.ts), level with Metz and ahead of Brest, Poitiers and Reims at 6.4. For a stay, that means you arrive at the station and then move along a single legible axis, which is easier to manage with children than a meshed network where you have to choose. The relief, though, is real: the city is built in a corridor between two slopes, and an address up the hill adds a climb to every return. The question to ask before booking is therefore the distance to a tram stop, not the distance to the centre.",
+      },
+      {
+        heading: "What holds up on the ground: design, mining, and hills within reach",
+        body: "Saint-Étienne has been, since 22 November 2010, the only French city in the UNESCO Creative Cities network under the design heading, a distinction resting on the Cité du design and the international biennial it runs. That is the angle which honestly structures a stay here: a city that turned industrial making into a subject for exhibition rather than a past to hide, which speaks well to children from about seven or eight, because the objects can be looked at and understood without text. The city's mining history is also visitable on site. Outdoors, the nature score is 5.9/10 (source: data/cities-seed.ts), respectable for a city of this size and above Dijon, Lyon, Tours and Toulouse in this same series: the hills begin at the edge of the commune, but the massifs belong to neighbouring communes and are reachable from Saint-Étienne without being situated there, which means a regional coach or a regional train, and is checked before a day is built on it.",
+      },
+      {
+        heading: "When to go: the least wet climate in the northern half of this batch",
+        body: "Our crowding indicator puts Saint-Étienne at 1 out of 5 for eight months, 2 in June and September, 3 in July and August (source: lib/vacation-seasons.ts): the low tier, shared by eighteen of the thirty destinations in the series. The reference weather station is the Lyon one, 54 km away (source: lib/climate-normals.ts), an average link for the series but one that raises a problem specific to this city: Saint-Étienne is above five hundred metres, Lyon below two hundred, and the real temperature gap between them is wider than these values suggest, especially in winter. Read them as an order of magnitude. The figures give 4.1 °C in January, 22.6 °C in July, and 7 to 10 rainy days a month, the least wet regime of the six non-Mediterranean cities in this batch, a long way from Angoulême's 8 to 14. The city's own anchors come from the seed: 3.5 °C in January and 21.0 °C in July (source: data/cities-seed.ts). Saint-Étienne sits in Zone A for French school holidays, through the académie de Lyon; check the year's dates at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 4.3/10, evenings, and money help",
+        body: "Saint-Étienne shows 4.3/10 on the safety axis (source: data/cities-seed.ts), level with Grenoble, Toulouse and Avignon, ahead of Lille at 3.9 and Montpellier at 3.7. It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents. As for the seven other cities in this batch, it bears recalling that the single-parent profile weights safety at 0.30, the heaviest of its four criteria, and that seven of the eight destinations added here sit below the median of 5.3 across the thirty, Le Mans alone reaching it. If Saint-Étienne still comes out at 5.7/10 on the composite, it is because its cost axis is the best of the thirty and almost single-handedly offsets the rest. Two habits for the stay: out of season aim to eat at 19:30, because kitchens close early midweek; and locate a doctor on the health directory at ameli.fr before you travel. Dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Loire CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality. On the cheapest destination in the series these schemes carry proportionally further than elsewhere, which is arithmetic.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "roanne", "annonay"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "saint-etienne with kids",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-angouleme-2026",
+    title: "Single-parent holidays in Angoulême: the worst transport score, and it barely matters",
+    metaTitle: "Single-Parent Holidays in Angoulême 2026",
+    metaDesc:
+      "Angoulême alone with the kids: transport 5.2/10, the lowest of thirty, on a walled plateau you cross on foot. And the comics festival did not run in 2026.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Angoulême scores 5.6/10 on our single-parent composite, sixth in this batch just behind Saint-Étienne, on safety 5.1/10, transport 5.2/10, cost of living 6.7/10 and quality of life 5.5/10 (source: data/cities-seed.ts). Its transport score is the lowest of the thirty destinations this series has covered, and that is exactly why this guide is worth reading before booking: the figure describes a commune of 41,423 inhabitants (source: data/city-population.json), the smallest of the eight added here, and it says almost nothing about how hard a stay actually is. The reference three-room flat is 820 € and the square metre 1,800 €, the third lowest in the series (source: data/housing.ts).",
+    sections: [
+      {
+        heading: "A city on two levels, and that is the only difficulty on arrival",
+        body: "Angoulême is lived on two floors: the plateau of the old town, ringed by ramparts, and the lower town around the station and the river Charente. The station is at the bottom, most of what you visit is at the top, and the height difference between them decides the first hour of a stay when you are carrying bags and holding a hand. The Möbius urban network, built around two bus rapid transit lines, runs two free electric shuttles linking the plateau to the lower districts: that is the means provided for this climb, and it is worth identifying before you arrive rather than improvising a walk up with a suitcase. The station itself has lifts and escalators serving the footbridge and the platforms, which settles the railway half of the question. Once you are up top everything changes: the plateau is flat, enclosed, with no through traffic, and is covered entirely on foot.",
+      },
+      {
+        heading: "Transport 5.2/10: last of the thirty, and why it changes little",
+        body: "This is the lowest score in the whole series on this axis, behind Vannes at 5.5 and Pau, Aix-en-Provence, Le Mans and Avignon at 6.1 (source: data/cities-seed.ts). You need to know what it measures: how a whole commune is meshed, weighted by its size and its supply of heavy transit modes. Angoulême has neither metro nor tram; it has the TGV, France's high-speed rail network, and bus rapid transit lines (source: lib/transit.ts). Yet the rule that brought this city into the profile ranking in the first place is precisely the one on the profile page: arrive by train and be able to move afterwards without hiring a car. Angoulême satisfies that, and the reason is geometric more than technical: when the visitable perimeter fits on a plateau a kilometre across, the main mode of transport is your legs. A score of 5.2 penalises a commune where you can spend four days without ever getting into a vehicle. It becomes a real handicap the moment you want to leave town: the sites of the Charente belong to neighbouring communes and are treated as day trips, to be checked before a day is built on them.",
+      },
+      {
+        heading: "The comics festival: what to know before building a stay on it",
+        body: "Angoulême is associated with comics, and a reader might legitimately want to plan a holiday around the large winter festival that carries its name. So this has to be written rather than left to be assumed otherwise: the 2026 edition, due to run from 29 January to 1 February, was cancelled, the first cancellation since the festival was created in 1974 apart from the 2021 one caused by the epidemic. A free alternative event was held on the same dates, and a resumption is expected in 2027. In other words, a stay organised in 2026 around the festival had no object, and a stay organised in 2027 must be set on dates confirmed by the organiser, not on habit. What the city offers independently of the calendar does not move: the Cité internationale de la bande dessinée et de l'image is a permanent institution here, and the painted walls scattered across the city are looked at free of charge on any date, which is exactly the kind of programme that suits one adult on their own.",
+      },
+      {
+        heading: "Budget: the third lowest square metre of the thirty",
+        body: "On the cost-of-living axis a high score means affordable. Angoulême comes out at 6.7/10 (source: data/cities-seed.ts), level with Valence on the tier immediately below Saint-Étienne and its 7.1. The residential market agrees: 820 € for the reference three-room flat, the fourth lowest in the series behind Saint-Étienne at 770, Mulhouse at 780 and Mâcon at 800; and 1,800 € per square metre, the third lowest behind Saint-Étienne and Mulhouse (source: data/housing.ts). Our holiday engine rates the city €€, a tier only five of the thirty reach (source: lib/vacation-fit.ts). These are local market benchmarks and not holiday rates, but the order of magnitude holds: for a household on one income, Angoulême belongs to the third of the series where accommodation does not decide everything.",
+      },
+      {
+        heading: "When to go: nineteen real parks, and a rainfall regime to look at",
+        body: "Angoulême has nineteen recorded green spaces (source: data/city-parks.json). Unlike the twenty-two destinations in the series whose count our collection caps at forty, that total is real: the city has fewer because it is smaller, and it is the second lowest of the thirty, behind Saint-Raphaël. Our crowding indicator puts it at 1 out of 5 for eight months, 2 in June and September, 3 in July and August (source: lib/vacation-seasons.ts), the low tier; it obviously does not see a festival, as the Le Mans case in June shows. On climate, the reference station is the Limoges one, 83 kilometres away (source: lib/climate-normals.ts), the ninth longest link in the series: Limoges is plateau country, Angoulême is river country, so read it as an order of magnitude. The values give 4.6 °C in January, 19.6 °C in September and 8 to 14 rainy days a month, the wettest regime in this batch; August, at 8 days, is the only frankly dry month, and November rises to 14. The city's own anchors: 5.0 °C in January and 22.8 °C in July (source: data/cities-seed.ts). Angoulême sits in Zone A for French school holidays, through the académie de Poitiers; check the year's dates at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 5.1/10, evenings, and money help",
+        body: "Angoulême shows 5.1/10 on the safety axis (source: data/cities-seed.ts), level with Reims, Nancy, Lyon and Bordeaux, and behind only Le Mans at 5.3 in this batch. It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents. As for the seven other cities in this batch, the underlying remark bears repeating: the single-parent profile weights safety at 0.30, the heaviest of its four criteria, and seven of the eight destinations added here sit below the median of 5.3 across the thirty, Le Mans alone reaching it. Two logistics points particular to a commune of 41,000 people. First, out of season kitchens close early midweek: aim to eat at 19:30 and do not count on finding anything at nine. Second, for anything medical, dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice; the health directory at ameli.fr locates a doctor before you travel rather than in a hurry. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Charente CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["angouleme", "cognac", "saintes", "perigueux"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "angouleme with kids",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-montpellier-2026",
+    title: "Single-parent holidays in Montpellier: the tram is free, but not for you",
+    metaTitle: "Single-Parent Holidays in Montpellier 2026",
+    metaDesc:
+      "Montpellier alone with the kids: the network is free only for metropolitan residents, on a named pass. Transport 7.7/10, and safety 3.7/10, lowest of thirty.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Montpellier scores 5.4/10 on our single-parent composite, on safety 3.7/10, transport 7.7/10, cost of living 4.7/10 and quality of life 5.9/10 (source: data/cities-seed.ts). It comes last in this batch on the profile's heaviest axis: 3.7/10 is the lowest safety score of the thirty destinations this series has covered. It is also the only one of the eight added here that our holiday engine rates €€€€ (source: lib/vacation-fit.ts), with 1,150 € for the reference three-room flat and 3,900 € per square metre (source: data/housing.ts), for 307,101 inhabitants at the 2022 census (source: data/city-population.json). This guide starts by correcting the thing most often assumed about its transport.",
+    sections: [
+      {
+        heading: "The tram is free, but not for a visitor",
+        body: "This is the most useful correction in this guide. The Montpellier urban network has been free since December 2023, the news travelled widely, and a parent preparing a holiday budget has every reason to factor it in. That would be a mistake. The free travel is reserved for residents of the metropolitan area, and it works through a named pass applied for on production of identity, a photograph and proof of address in the applicant's name. A visitor buys tickets by duration or a season pass, exactly as in any other city. The general rule, set out in our glossary, is the same everywhere in France: a free network is a residency scheme, not a tourist regime. Translated into single-parent logistics: put the transport line in the budget, count the journeys of one adult and your children, and check the network's youth fares before you leave rather than at the machine.",
+      },
+      {
+        heading: "Transport 7.7/10: what that gives once you have paid",
+        body: "Montpellier's transport score is 7.7/10 (source: data/cities-seed.ts), eighth of the thirty destinations in the series and second in this batch behind Lille at 8.7. The city is served by the TGV, France's high-speed rail network, by a tramway, by bus rapid transit lines, and has a cycle network (source: lib/transit.ts). In practice that is the real reason to come here with children and without a car: the station is in town, the tram passes it, the historic centre is essentially pedestrian, and the whole thing links without a private vehicle. The question to ask before booking accommodation is therefore the walking distance to a tram stop, not the distance to the central square. A place on a line turns the outskirts into a decent and often cheaper base; a place away from any line imposes one extra journey every evening, with tired children, which is the line that costs most when you are the only one organising it.",
+      },
+      {
+        heading: "Safety 3.7/10: the lowest of the thirty",
+        body: "This has to be put frankly, because it is the criterion the profile weights most heavily, at 0.30. Montpellier closes the safety ranking of the thirty destinations in the series, behind Lille at 3.9 and Saint-Étienne, Toulouse, Grenoble and Avignon at 4.3 (source: data/cities-seed.ts). It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, it passes no judgement on its residents, and it does not read as a probability of an incident over four nights in a pedestrian centre. Seven of the eight cities added here sit below the median of 5.3 across the thirty, Le Mans alone reaching it, and Montpellier brings up the rear. That is why a city this well equipped in transport, culture and climate does not exceed 5.4/10 on the composite. A reader who puts safety above everything will find Vannes at 6.9, La Rochelle at 6.5, Saint-Raphaël at 6.2 and Rennes and Aix-en-Provence at 5.9 in this same series. A reader looking for sun and a heavy transit network without a car will find few equivalents to Montpellier. It is a stated trade-off, not a hidden flaw.",
+      },
+      {
+        heading: "Budget: the dearest of the eight, though not of the series",
+        body: "On the cost-of-living axis a high score means affordable. Montpellier comes out at 4.7/10 (source: data/cities-seed.ts), twenty-fifth of the thirty, behind Toulouse and Nantes at 5.3 and ahead of La Rochelle at 4.6. The residential market gives 1,150 € for the reference three-room flat, level with Nantes, Vannes and Toulouse, and 3,900 € per square metre, level with Vannes (source: data/housing.ts). It is the dearest of the eight destinations added here, but it stays well behind Aix-en-Provence at 1,400 €, Lyon at 1,380 € and Saint-Raphaël at 1,300 €, which hold the top of the ranking in this series. Our engine places it at €€€€, a tier six of the thirty reach (source: lib/vacation-fit.ts). The real trade-off is the one this guide has already set out at Saint-Raphaël and at Lille: you pay more for accommodation, and the car, fuel and parking lines drop to zero. Over a week that switch often reorders destinations you thought you were comparing.",
+      },
+      {
+        heading: "When to go: the only genuinely dry climate in this batch",
+        body: "The reference weather station is the Montpellier one, 8 km away (source: lib/climate-normals.ts), one of the shortest links of the thirty alongside Tours at 5 km, Toulouse at 6 and Lille, Rennes and Dijon at 7, so the monthly values are relevant here, which is not the case everywhere in this series. They give 7.6 °C on average in January, 24.4 °C in July, and above all 3 rainy days in July and in August, against 7 to 10 in the same months in the six other non-Mediterranean cities of this batch. The seed records 2,740 hours of sunshine a year (source: data/cities-seed.ts). Our crowding indicator puts the city in the high tier: 3 out of 5 for eight months, 4 in June and September, 5 in July and August (source: lib/vacation-seasons.ts), a profile nine of the thirty share, Lille among them in this batch. The window to aim for is therefore May, or late September and October: still 20 °C on average in October, 6 rainy days, and crowding down a notch. Montpellier sits in Zone C for French school holidays, through its own académie; check the year's dates at education.gouv.fr.",
+      },
+      {
+        heading: "Evenings, health, and the sea",
+        body: "Three points. First, the sea: it is not in Montpellier. The coast belongs to separate communes and is accessible from Montpellier, which is not the same as being situated there; a beach day therefore means a journey, and it is checked before being promised to a child. Second, using a dense pedestrian centre with children: keep the youngest within earshot in the narrow lanes of the Écusson, where legibility is poor after dark, and fix a known meeting point at the start of each outing rather than after. Third, the medical, which applies everywhere: locate a doctor on the health directory at ameli.fr before you travel rather than in a hurry, and keep the carte Vitale, France's health insurance card, any current prescriptions and the child health record in your hand luggage. Dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice. In summer the heat is a real subject here and nowhere else in this batch: put the outdoors in the morning and keep the afternoon for indoors. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted, which weighs all the more on the dearest destination in this batch; the Hérault CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["montpellier", "nimes", "sete", "beziers"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "montpellier with kids",
+      "car-free holidays france",
+      "occitanie",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-avignon-2026",
+    title: "Single-parent holidays in Avignon: a five-minute train from the TGV station",
+    metaTitle: "Single-Parent Holidays in Avignon 2026",
+    metaDesc:
+      "Avignon alone with the kids: the TGV station is 6 km out, but a five-minute shuttle train reaches the centre. Culture 9.0/10, the best of the thirty.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Avignon scores 5.3/10 on our single-parent composite, last in this batch, on safety 4.3/10, transport 6.1/10, cost of living 5.7/10 and quality of life 5.5/10 (source: data/cities-seed.ts). The figure that sets it apart is elsewhere: 9.0/10 on the culture axis, the best score of the thirty destinations this series has covered, level with Strasbourg and Lyon. The reference three-room flat is 1,000 € and the square metre 3,000 €, in both cases level with Angers (source: data/housing.ts); the commune counts 91,760 inhabitants at the 2022 census (source: data/city-population.json). This guide deals first with the station question, because Avignon has the best answer to it in the whole series.",
+    sections: [
+      {
+        heading: "A TGV station six kilometres out, and a five-minute train to reach it",
+        body: "This series has documented the same trap several times: a city's high-speed rail flag can point to a station dropped far from the centre, at Mâcon-Loché seven kilometres out, at Aix-en-Provence some fifteen, and the arrival then costs an adult travelling alone with bags and children an extra hour of fatigue. Avignon is the finished counter-example. Avignon TGV station is indeed out of town, in the Courtine sector, about six kilometres from the centre; but since 15 December 2013 a rail connection officially named the Courtine link, and known across the region as the virgule d'Avignon, joins that station directly to Avignon-Centre, with around thirty return trips a day and a journey of roughly five minutes. In other words: you step off the high-speed train, cross the platform, get on a regional one, and five minutes later you are at the foot of the ramparts. It is the best arrival configuration in the whole series for an out-of-town station, and it is worth knowing before you book a taxi.",
+      },
+      {
+        heading: "Culture 9.0/10: the best score of the thirty",
+        body: "The historic centre of Avignon, which brings together the Palais des papes, the episcopal ensemble and the bridge of Avignon, has been a UNESCO World Heritage site since 1995. The Palais des papes is the largest Gothic palace in the world, with around 15,000 square metres of floor area. For a lone parent the interest lies in the geometry as much as in the history: the three elements of the listed property are contiguous, inside a city closed by ramparts, and are visited in the same half-day without getting back into a vehicle. The culture score of 9.0/10 (source: data/cities-seed.ts) measures that density, and it puts Avignon at the head of the thirty destinations in the series level with Strasbourg and Lyon, far above Saint-Étienne at 5.9 and Le Mans at 6.2 in this same batch. The corollary is that a stay here needs no prepared programme: you leave the accommodation and the content is there, which is precisely the opposite of the Saint-Étienne situation described in this batch.",
+      },
+      {
+        heading: "July: our crowding indicator is wrong, and here is by how much",
+        body: "Our indicator puts Avignon at 1 out of 5 for eight months, 2 in June and September, 3 in July and August (source: lib/vacation-seasons.ts), that is to say the low tier, the same as Reims, Le Mans, Mulhouse, Saint-Étienne and Angoulême in this batch. That is wrong for July, and it should be said here rather than left for a reader to discover on the spot. The indicator assigns a tier from the type of destination and the season then modulates by month: it reasons in average regime and does not see an event, exactly as it does not see the Le Mans motor race in June. Yet the Avignon fringe festival, whose sixtieth edition ran from 4 to 25 July 2026, programmed 1,780 shows, that is around 1,250 performances a day, on top of the official festival. A city of 91,760 people hosting that in July is not at 3 out of 5. The practical consequence is twofold: in July, book a long way ahead or give up; the rest of the year, the indicator is probably right.",
+      },
+      {
+        heading: "Budget: mid-series, with a seasonal trap",
+        body: "On the cost-of-living axis a high score means affordable. Avignon comes out at 5.7/10 (source: data/cities-seed.ts), level with Rennes, on the tier occupying ranks 17 and 18 of the thirty. The residential market gives 1,000 € for the reference three-room flat and 3,000 € per square metre, level with Angers in both cases (source: data/housing.ts). Our engine rates it €€€, the tier of nineteen of the thirty destinations (source: lib/vacation-fit.ts). These are local market benchmarks and not holiday rates, and this is exactly where the distinction counts most in the whole series: in a city whose month of July is saturated by a festival, the gap between a July rate and a May rate has nothing to do with the level of the residential market. For an adult paying alone for a whole household, the lever is therefore not negotiation, it is the date.",
+      },
+      {
+        heading: "When to go, and what the climate really says",
+        body: "The reference weather station is the Marseille one, 66 kilometres away (source: lib/climate-normals.ts), an average link for the series, shorter than Pau's at 146 kilometres, Metz's at 125 or Mulhouse's at 92, but one that brings Avignon values taken on the coast when the city is inland, in the Rhône corridor. Read it as an order of magnitude, then, and particularly for wind: the mistral, the cold dry northerly that funnels down the valley, is a local fact these figures do not carry. The values give 7.7 °C in January, 25.2 °C in July, and 2 rainy days in July, the driest month in this whole batch. The city's own anchors come from the seed: 5.5 °C in January, 28.0 °C in July and 2,750 hours of sunshine a year (source: data/cities-seed.ts). The window to aim for is May, or September and October: 17 to 21 °C on average, crowding at 1 or 2, and the festival over. Avignon also has twenty-nine recorded green spaces (source: data/city-parks.json), a real total and not a capped one, unlike twenty-two of the thirty destinations in the series. It sits in Zone B for French school holidays, through the académie d'Aix-Marseille; check the year's dates at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 4.3/10, evenings, and money help",
+        body: "Avignon shows 4.3/10 on the safety axis (source: data/cities-seed.ts), level with Saint-Étienne, Toulouse and Grenoble, ahead of Lille at 3.9 and Montpellier at 3.7. It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents. The underlying remark holds for the eight cities in this batch: the single-parent profile weights safety at 0.30, the heaviest of its four criteria, and seven of the eight destinations added here sit below the median of 5.3 across the thirty, Le Mans alone reaching it. If Avignon holds up despite that, it is through its culture and its climate. Two logistics points. First, the walled town is a fabric of lanes that read poorly after dark: fix a known meeting point at the start of each outing rather than after, and keep the youngest within earshot. Second, for anything medical, dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice; the health directory at ameli.fr locates a doctor before you travel. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted for cultural ticketing, which counts on a destination whose programme is essentially heritage and performance; the Vaucluse CAF runs holiday grants through caf.fr, and that anticipation counts double in a city where a whole month is saturated; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["avignon", "orange", "carpentras", "nimes"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "avignon with kids",
+      "provence-alpes-cote-d-azur",
+    ],
+  },
+  {
     slug: "things-to-do-in-bergerac-2026",
     title: "Things to do in Bergerac: wine, a river, and a Cyrano who never lived here",
     metaTitle: "Things to Do in Bergerac, Dordogne (2026)",
