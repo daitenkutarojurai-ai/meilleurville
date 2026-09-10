@@ -3137,6 +3137,17 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     `npm run news:prune` (refenêtrage 12 mois) et `:selftest` marchent hors ligne. Le RNA
     reste **désactivé** : `RNA_RESOURCE_ID` vaut `null`, la ressource n'a jamais été résolue,
     et une ville sans cette source l'omet de `sources` plutôt que d'afficher zéro association.
+    ⚠️ **« Le collecteur est muet » a été un faux diagnostic deux fois de suite (07/09 et 08/09) :
+    il tournait deux fois par jour et c'est le `git push` qui échouait.** Du **2026-08-27** au
+    **2026-09-10**, `gh` gardant le jeton GitHub dans le trousseau de la session de bureau,
+    aucun processus cron ne pouvait s'authentifier (`could not read Username`) : quatre commits
+    de collecte sont restés locaux, `origin/main` a porté des JSON figés au 27/08, et les
+    routines ont donc lu des données périmées en croyant le cron mort. Corrigé le 2026-09-10
+    (jeton dans `~/.git-credentials`, helper `store` ajouté pour github.com en repli de `gh`).
+    Conséquence de méthode : **avant de conclure quoi que ce soit sur la fraîcheur d'un JSON de
+    pipeline, lis `~/.local/state/meilleurville/data-runner.log`** — le runner y écrit
+    `FATAL push failed` — et compare `git log origin/main -1 -- <fichier>` au HEAD **local**.
+    Un dépôt qui diverge de son origine se lit exactement comme un collecteur arrêté.
   - **Une section, pas une page.** Pas de `/villes/[slug]/actualites` ×540 : une page
     dont le corps est une liste de titres agrégés est du *scraped content*. Donc pas
     d'URL propre, pas d'entrée sitemap, pas de JSON-LD `NewsArticle` (on n'est pas
