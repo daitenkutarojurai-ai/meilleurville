@@ -8767,6 +8767,41 @@
       "slug": "10-choses-a-faire-a-saint-priest-2026",
       "title": "10 choses à faire à Saint-Priest",
       "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-verdun-2026",
+      "title": "10 choses à faire à Verdun",
+      "emoji": "🕊️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vaison-la-romaine-2026",
+      "title": "10 choses à faire à Vaison-la-Romaine",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-senlis-2026",
+      "title": "10 choses à faire à Senlis",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-dinard-2026",
+      "title": "10 choses à faire à Dinard",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "10-choses-a-faire-a-briancon-2026",
+      "title": "10 choses à faire à Briançon",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-figeac-2026",
+      "title": "10 choses à faire à Figeac",
+      "emoji": "📜"
+    },
+    {
+      "slug": "10-choses-a-faire-a-granville-2026",
+      "title": "10 choses à faire à Granville",
+      "emoji": "⚓"
     }
   ],
   "tags": [
@@ -9978,6 +10013,11 @@
     {
       "slug": "que-faire-dans-le-nord",
       "label": "que faire dans le Nord",
+      "count": 3
+    },
+    {
+      "slug": "que-faire-dans-le-vaucluse",
+      "label": "que faire dans le Vaucluse",
       "count": 3
     },
     {

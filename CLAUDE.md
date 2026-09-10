@@ -1585,6 +1585,169 @@ matière) et les **trois banlieues bordelaises** jamais faites (Villenave-d'Orno
 Le Bouscat), à compléter par de nouveaux trous mesurés — rappel des batches 26, 32, 34, 36, 40 et
 42 : **on choisit par matière touristique réelle, pas par inertie de liste.**
 
+**Batch 46 — FR, shipped 2026-09-10 : Verdun, Vaison-la-Romaine, Senlis, Dinard, Briançon, Figeac,
+Granville.** Sept villes, sept régions, et un batch qui **écarte une fois de plus la liste de
+gisements** au nom de la règle des batches 26, 32, 34, 36, 40 et 42 : les trois banlieues bordelaises
+(Villenave-d'Ornon, Talence, Le Bouscat) et Saint-Herblain **restent en piste et n'ont toujours pas
+été faites**, parce que le comptage de ce run donne **286 villes du seed sur 540 sans guide
+tourisme** et que sept trous majeurs y dormaient : le champ de bataille le plus visité de France
+(Verdun), le plus vaste site archéologique antique accessible du pays (Vaison), l'une des toutes
+premières cathédrales gothiques (Senlis), le plus important ensemble conservé de villas Belle Époque
+(Dinard), des fortifications inscrites à l'UNESCO en 2008 (Briançon), la ville natale de Champollion
+(Figeac) et la maison d'enfance de Christian Dior (Granville). **Aucune des sept n'était citée par un
+guide de la série.**
+**Compteurs mesurés : FR 261 (`-a-` strict 253 + 6 en `au-` + 2 en `aux-`), EN 254 ; `GUIDES` 1 105 →
+1 112.** Aucun nouveau slug hors gabarit : les huit exceptions restent `au-puy-en-velay`, `au-tampon`,
+`au-francois`, `au-robert`, `au-lamentin`, `au-cannet`, `aux-abymes`, `aux-sables-d-olonne`.
+`metaTitle` 34-45 caractères, `metaDesc` 147-158, 10 sections par guide, densité d'accents
+0,124-0,160 **par mot** (seuil ascii-strip 0,09), **0 em-dash** sur les sept réunis.
+`npm run search-index` relancé (1 112 guides, 265 → **266 tags** : « que faire dans le Vaucluse »
+franchit le seuil de 3 guides et crée `/tags/que-faire-dans-le-vaucluse`), d'où le passage de
+`npm run sitemap:check` (FR **29 211 URL**, EN 28 786). Contrôle de lookup / photo passé **sur les
+540 villes et les 261 guides de la série**, pas seulement sur le lot : **261/261 atteignables, 0
+orphelin, 0 collision, 0 guide sans photo d'en-tête**.
+⚠️ **Le fait le plus utile du batch est une correction de géographie, et c'est le cœur du guide
+Verdun : le champ de bataille n'est pas à Verdun.** L'**ossuaire de Douaumont** est sur le champ de
+bataille, à côté de la **nécropole nationale créée en 1923 sur 14,438 ha pris sur le territoire de
+Fleury-devant-Douaumont**, et le **Mémorial de Verdun est à Fleury-devant-Douaumont**, pas dans la
+ville. Un lecteur qui descend en gare de Verdun en pensant arriver au pied de l'ossuaire a une
+dizaine de kilomètres et un véhicule d'écart avec son programme : le guide le dit dans une section
+entière (nº 7) avant de décrire quoi que ce soit, même traitement que le bois de Vincennes au
+batch 32 et que le parc du Peuple de l'herbe au batch 38.
+⚠️ **Deuxième piège de calendrier, du genre de celui du festival de cerf-volant de Dieppe (batch 36) :
+il n'y a pas de Choralies à Vaison-la-Romaine en 2026.** Le rassemblement choral du théâtre antique
+est **triennal** ; la 25ᵉ édition s'est tenue **du 30 juillet au 17 août 2025** et la suivante est
+annoncée **du 26 juillet au 3 août 2028**. Une page qui promettrait une édition 2026 recopierait
+l'édition passée. La section nº 9 du guide Vaison est écrite pour dire cette absence.
+Faits vérifiés en ligne avant rédaction et qui portent les guides : cathédrale de Verdun **consacrée
+par le pape Eugène III le 11 novembre 1147**, chœur oriental repris par l'architecte **Garin de 1136
+à 1160** (portails du Lion et de Saint-Jean, crypte-halle), **classée MH le 30 octobre 1906** et le
+**cloître le 13 juillet 1907** ; **citadelle souterraine creusée de 1886 à 1893 sous 16 m de roche**,
+**près de 4 km de galeries en 1914, 7 km en fin de guerre**, 2 000 hommes, et **désignation du Soldat
+inconnu le 10 novembre 1920** (huit cercueils amenés la veille) ; **porte Chaussée 1380** ; **monument
+à la Victoire** ouvert en chantier **1926**, inauguré le **23 mars 1929**, **73 marches**, architectes
+**Léon Chesnay et Louis-Alfred Berthémy**, sculpture de **Jean Boucher** ; **bataille du 21 février au
+18 décembre 1916**, **fort de Douaumont pris le 25 février 1916**, **Fleury seize fois repris entre
+juin et août 1916**, village jamais reconstruit et pourtant toujours une commune ; **ossuaire**
+première pierre le **22 août 1920**, inauguré le **7 août 1932**, architectes **Léon Azéma, Max Edrei
+et Jacques Hardy** ; **Mémorial de Verdun** première pierre en **juin 1963**, campagne de travaux
+achevée en **2016** ; **dragée** rattachée par la tradition à **1220**, forme lisse vers **1600**,
+**maison Braquier née en 1783**, usine sous **Léon Braquier en 1871** ; parc archéologique de Vaison
+**une quinzaine d'hectares de vestiges dont huit ouverts au public** sur **Puymin et La Villasse**,
+**maison à l'Apollon lauré ~2 000 m²**, **maison à la Pergola ~3 000 m² sur trois niveaux**, **théâtre
+antique dégagé en 1907 par le chanoine Joseph Sautel**, **5 000 places** ; **cathédrale
+Notre-Dame-de-Nazareth** du XIIe, **nouvelle cathédrale décidée en ville haute en 1464** et ancienne
+abandonnée à la fin du XVe (c'est ce délaissement qui l'a conservée) ; **château des comtes de
+Toulouse** au XIIe ; **crue de l'Ouvèze le 22 septembre 1992, +17 m**, **seul le pont romain a tenu**
+des trois ponts, précédent d'une **délibération municipale d'août 1616** sur la réparation du même
+parapet ; **cathédrale de Senlis 1153-1191**, **enceinte gallo-romaine du IIIe siècle** d'environ
+**800 m** en appareil alterné pierre/brique, **une trentaine de tours à l'origine** ; **arènes du
+Iᵉʳ siècle, ~8 000 spectateurs, redécouvertes en 1865** ; **Hugues Capet élu roi des Francs en 987 à
+Senlis**, château **rebâti sous Louis VI vers 1130** sur la muraille antique, séjours royaux jusqu'à
+**Henri IV** ; **prieuré Saint-Maurice fondé en 1264 par Louis IX** pour des reliques de la septième
+croisade, **seule l'aile est du cloître** subsiste, **musée de la Vénerie** dans la résidence d'abbé
+commendataire du début du XVIIIe ; **villa Eugénie bâtie en 1868 par l'architecte Jean Pichot** pour
+un couple impérial **qui n'y est jamais venu**, acquise en **1872** par Pierre Levavasseur, léguée à
+Dinard en **1873**, mairie en **1893**, bibliothèque de **1967 à 1984**, musée **depuis le 13 juillet
+1985** ; **villas de villégiature 1870-1914** ; **promenade du Clair de Lune aménagée dans les années
+1930** ; **festival du film britannique et irlandais, 37ᵉ édition du 7 au 11 octobre 2026**, **Hitchcock
+d'or** ; **Briançon 1 326 m**, **fortifications de Vauban inscrites à l'UNESCO en 2008** avec
+Mont-Dauphin (enceinte urbaine, forts des Salettes, des Trois-Têtes, du Randouillet et du Dauphin,
+communication Y, pont d'Asfeld) ; **collégiale** sur plans d'**Isaac Robelin revus par Vauban**,
+chantier **1703-1718**, consacrée en **1726** par **Mgr de Tencin**, érigée en collégiale une
+vingtaine d'années plus tard ; **pont d'Asfeld** sur la **Durance**, chantier ouvert **1729**,
+première pierre le **20 avril 1730 à 11 h**, voûte fermée le **24 août**, achevé en **1731** ;
+**Champollion né à Figeac le 23 décembre 1790**, **musée ouvert en 1986**, **« Les Écritures du
+Monde » depuis 2007**, **~600 objets**, écriture apparue il y a **~5 300 ans** ; **place des Écritures
+créée en 1991** pour le bicentenaire, œuvre **« Ex-Libris, J.-F. Champollion » de Joseph Kosuth**,
+commande du **Fonds national d'art contemporain en 1990**, dalle de granit noir **~11,20 m × 8,60 m**
+gravée de l'inscription trilingue ; **abbaye Saint-Sauveur fondée vers 830 par Pépin Iᵉʳ
+d'Aquitaine** ; **aiguilles du Cingle et de Lissac, fin du XIIIe siècle** ; **Granville fondée par les
+Anglais en 1440**, qui fortifient le promontoire et ouvrent le chantier de **Notre-Dame-du-Cap-Lihou**
+avec du **granit des îles Chausey**, pour tenir une place face au **Mont-Saint-Michel qui leur
+résiste** ; **Grande Porte de 1625** ouvrant sur le **logis du Roi** ; **musée Christian Dior**, seul
+musée labellisé **Musée de France consacré à un couturier**, dans la **villa Les Rhumbs**, **jardin
+dessiné par Madeleine Dior**, **exposition temporaire chaque été depuis 1997** ; **carnaval inscrit au
+patrimoine culturel immatériel de l'UNESCO le 30 novembre 2016** (11ᵉ session, Addis-Abeba), origine
+liée au **départ des marins pour Terre-Neuve**, une quarantaine de chars, de l'ordre de **100 000**
+spectateurs.
+⚠️ **Trois chiffres volontairement omis, parce que les sources divergent — ne pas les « compléter » au
+prochain run.** ① Le **décompte des victimes de la crue de Vaison** : les sources consultées donnent
+« plus de 40 », « 46 », et « 38 dans le Haut-Vaucluse dont 34 à Vaison » ; le guide écrit « plusieurs
+dizaines de morts dans le Haut-Vaucluse » et **dit explicitement qu'il ne tranche pas ce que les
+statistiques officielles n'ont pas tranché**. ② Le **nombre de tours subsistantes du rempart de
+Senlis** : 15 selon une source, 16 selon une autre, sur une trentaine à l'origine — le guide écrit
+« une moitié environ ». ③ Le **nombre de villas Belle Époque de Dinard** et la part protégée MH : le
+chiffre de ~400 circule sans source primaire, le guide écrit « plusieurs centaines » et « une partie
+substantielle ». Même doctrine que le FPU en ALD du glossaire et que le jour de la reddition de Melun
+au batch 45 : **une phrase sans chiffre vaut mieux qu'un chiffre faux.**
+⚠️ **Quatre affirmations écrites au premier jet et corrigées avant commit, dont une démentie par une
+mesure sur nos propres données** : ① Senlis présentée comme une ville qui profite de la proximité
+parisienne, alors que le tri du département sur la population Insee la donne **dernière des sept
+communes de l'Oise du corpus** (−3,8 % depuis 2011), **derrière Chantilly** (−2,0 %) pendant que
+Creil gagne **8,2 %** — les villes-cartes-postales de l'Oise se vident quand les villes de travail se
+remplissent, et le guide dit désormais ce comptage ; ② Briançon donnée en croissance de station de
+montagne alors qu'elle **perd 1 202 habitants entre 2016 et 2022** après en avoir gagné entre 2011 et
+2016, dernière des trois communes des Hautes-Alpes — le guide dit le recul **et** la réserve du
+recensement, qui compte des résidents et non des lits ; ③ Figeac annoncée « première du Lot » sans
+dire que c'est **la première d'un département qui recule** (−0,2 % contre −1,6 % à Cahors et −9,3 % à
+Gourdon) ; ④ une section Briançon intitulée « Le téléphérique » dont le corps ne parlait d'aucun
+téléphérique, renommée « Les cinq vallées et Serre Chevalier ». **Le contrôle qui a trouvé les trois
+premières est un tri complet du département sur la population Insee, pas une relecture.**
+Six prudences assumées dans la copie, à ne pas diluer : ① convention « **accessible depuis** » plutôt
+que « situé à » sur **l'ossuaire, le Mémorial, les forts et Fleury** (Verdun), **Saint-Malo** depuis
+Dinard, le **parc national des Écrins** et les **Grands Bains du Monêtier**, qui sont au
+Monêtier-les-Bains (Briançon), les **îles Chausey** et le **Mont-Saint-Michel** depuis Granville,
+**Saint-Cirq-Lapopie et la vallée du Célé** depuis Figeac ; ② **la pierre de Rosette n'est pas à
+Figeac** — elle est au British Museum depuis 1802, la ville a la maison natale du déchiffreur et une
+reproduction monumentale, et la section nº 3 le dit **avant** que quelqu'un ne fasse le voyage pour la
+mauvaise raison, comme l'Hermione absente de Rochefort au batch 36 ; ③ **les villas de Dinard sont des
+propriétés privées**, regardées depuis la rue, écrit comme une règle et non comme un conseil ;
+④ **falaises et bords de mer** — pointe du Roc à Granville, sentier des douaniers à Dinard — donnés
+avec le balisage qui fait foi et le rappel que le **marnage de la baie du Mont-Saint-Michel est parmi
+les plus forts d'Europe** ; ⑤ **haute montagne** à Briançon : cols d'altitude fermés l'hiver (ce qui
+fausse tout calculateur d'itinéraire), orages d'après-midi la règle en été, réglementation de cœur de
+parc national **opposable** ; ⑥ **la Grande Gargouille de Briançon n'est pas une gargouille** mais la
+grand-rue et son canal central à ciel ouvert, dispositif de lutte contre l'incendie — même genre de
+désamorçage que « faire ripaille » au batch 40. Aucun horaire, aucun tarif, aucune figure en `/10` ;
+cinq équipements à ouverture instable sont explicitement renvoyés à une vérification préalable (Centre
+mondial de la paix, monument à la Victoire, musée de la villa Eugénie, arènes de Senlis et les trois
+musées municipaux, musée Christian Dior hors saison d'exposition). Les seuls chiffres de population
+sont ceux de l'Insee 2022 lus dans `data/city-population.json` (Verdun 16 610, Vaison-la-Romaine
+5 920, Senlis 15 238, Dinard 10 407, Briançon 10 748, Figeac 9 757, Granville 12 799) — **pas les
+`population` approximatives du seed**.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30 de
+génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut prescrit
+passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR 1 105 → 1 112),
+`search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**, 0 route FR sans
+jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo exhaustif ci-dessus et une
+vérification d'encodage (accents intacts, `m²` conservé, aucun `m2` / `EUR` / `deg` ascii, aucun
+mojibake). Note d'environnement reconfirmée : le conteneur de routine démarre **en HEAD détaché et
+sans `node_modules`** — `git checkout main` puis `npm install` d'abord.
+Écart FR→EN après ce batch : **7 villes** (verdun, vaison-la-romaine, senlis, dinard, briancon,
+figeac, granville) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN**. Rappel
+de la règle du batch 33 : côté EN, le slug se dérive du **slug de seed tel quel**
+(`getEnGuide('things-to-do-in-' + slug + '-2026')`), et aucun de ces sept ne porte d'article, donc
+rien à arbitrer — noter seulement que le slug de seed est **`briancon`** sans cédille. Quatre points
+de vigilance pour ces jumelles : ① **Verdun est de l'histoire américaine et britannique autant que
+française pour un lecteur anglophone** — le nom « Verdun » est un repère de la Première Guerre mondiale
+dans tout le monde anglophone, et la jumelle a de la matière propre là où le FR reste sobre (même
+arbitrage qu'avec Jubilee à Dieppe au batch 37, Cambrai au batch 39, Béthune au batch 41 et Blagnac au
+batch 43) ; ② **`things-to-do-in-dinard-2026` doit poser la fondation britannique de la station dès
+l'intro** — Dinard a été faite par une clientèle britannique et son festival de cinéma britannique en
+est l'héritier direct, c'est le meilleur angle anglophone du batch ; ③ **Granville a été fondée par les
+Anglais en 1440 pour assiéger le Mont-Saint-Michel**, fait que le FR porte déjà et qu'un lecteur
+britannique lira autrement ; ④ **la pierre de Rosette au British Museum** est, côté EN, le point de
+départ naturel du guide Figeac et non une note en fin de section.
+Pour le batch FR **suivant**, il reste **279 villes du seed sur 540 sans guide tourisme** (286 avant ce
+run). Les gisements nommés restants sont **Saint-Herblain** (écarté au batch 34 faute de matière) et
+les **trois banlieues bordelaises** jamais faites (Villenave-d'Ornon, Talence, Le Bouscat), à compléter
+par les trous mesurés ce run et non retenus faute de place, tous vérifiés présents au seed et sans
+guide : **Langres** (remparts complets, ville natale de Diderot), **Saint-Rémy-de-Provence** (Glanum,
+Van Gogh), **La Baule**, **Morlaix** (viaduc), **Sélestat** (bibliothèque humaniste), **Dax**,
+**Obernai**, **Aubusson** (tapisserie), **Saverne**, **Vendôme**, **Douarnenez**, **Quiberon** et
+**Céret**.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique

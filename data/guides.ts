@@ -55246,6 +55246,454 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Saint-Priest", "activités Saint-Priest 2026", "que faire dans la Métropole de Lyon", "sorties est lyonnais patrimoine", "château de Saint-Priest Théo Argence Manissieux"]
   },
+  {
+    slug: "10-choses-a-faire-a-verdun-2026",
+    title: "10 choses à faire à Verdun",
+    metaTitle: "10 choses à faire à Verdun en 2026",
+    metaDesc:
+      "Sept kilomètres de galeries sous la citadelle, une cathédrale consacrée en 1147, et un champ de bataille qui n'est pas dans la ville : 10 activités à Verdun.",
+    category: "tourisme",
+    emoji: "🕊️",
+    readMinutes: 8,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Verdun comptait 16 610 habitants au recensement de 2022, contre 17 913 en 2016 et 18 291 en 2011, soit 9,2 % de moins en onze ans. Ce n'est pas une singularité locale : les trois villes meusiennes que suit ce site reculent toutes, Bar-le-Duc de 8,1 % et Commercy de 15,4 %. On vient pourtant ici de très loin, et souvent pour une seule raison. Le malentendu est là : le champ de bataille dont Verdun porte le nom n'est pas dans Verdun. La ville a sa propre histoire, plus ancienne de mille ans que 1916, et les lieux de mémoire commencent à une dizaine de kilomètres de son centre. Ce guide sépare les deux, parce qu'arriver en gare de Verdun en pensant descendre au pied de l'ossuaire est l'erreur de préparation la plus fréquente qu'on puisse faire ici.",
+    sections: [
+      {
+        heading: "1. La citadelle souterraine",
+        body: "C'est le monument le plus impressionnant qui soit réellement dans la ville. De 1886 à 1893, l'armée creuse sous seize mètres de roche un réseau de galeries qui court sous la citadelle haute. En 1914, il totalise près de quatre kilomètres ; à la fin de la guerre, il en fait sept. Le lieu pouvait abriter deux mille hommes et cumulait trois fonctions : abri, poste de commandement et base de ravitaillement, avec sa boulangerie et ses magasins. On y descend aujourd'hui en parcours scénographié. Un fait s'y attache, et il vaut d'être connu avant d'entrer : le 9 novembre 1920, huit cercueils y sont amenés, et le lendemain, dans une galerie transformée en chapelle, se tient la cérémonie de désignation du Soldat inconnu qui repose depuis sous l'Arc de Triomphe. La sépulture la plus visitée de France a été choisie ici, sous terre."
+      },
+      {
+        heading: "2. La cathédrale Notre-Dame",
+        body: "Verdun est un siège épiscopal très ancien, et sa cathédrale le dit. Le pape Eugène III la consacre le 11 novembre 1147. L'architecte Garin reprend le chœur oriental entre 1136 et 1160 et lui donne ses deux portails, celui du Lion et celui de Saint-Jean, ainsi qu'une crypte-halle flanquée de deux cryptes latérales qui en commandent l'accès. L'édifice est classé monument historique le 30 octobre 1906. On y entre pour la crypte et pour le plan à deux chœurs opposés, disposition rare qui vient du monde rhénan et qui rappelle que Verdun a longtemps regardé vers l'Empire autant que vers le royaume de France. C'est le meilleur endroit de la ville pour se rappeler qu'elle existait bien avant d'être un nom de bataille."
+      },
+      {
+        heading: "3. Le cloître, et pourquoi il se visite à part",
+        body: "Le cloître accolé à la cathédrale est classé séparément, le 13 juillet 1907, et il mérite qu'on y consacre un moment plutôt que de le traverser. Ses galeries flamboyantes reposent sur des dispositions plus anciennes, et l'ensemble donne une idée assez juste de ce qu'était le quartier canonial avant que la ville ne se resserre. C'est aussi l'un des rares endroits calmes du centre. Pour un visiteur qui aura passé la journée sur le champ de bataille, l'ordre de visite le plus supportable consiste à garder la cathédrale et son cloître pour la fin : on redescend d'un cran, et la ville cesse d'être seulement un point de départ vers autre chose."
+      },
+      {
+        heading: "4. Le Centre mondial de la paix, dans le palais épiscopal",
+        body: "L'ancien palais épiscopal jouxte la cathédrale et abrite aujourd'hui le Centre mondial de la paix, des libertés et des droits de l'homme. Le bâtiment vaut à lui seul le détour pour sa cour en hémicycle, qui installe une architecture de grande commande dans une ville de seize mille habitants. Le choix d'y installer un centre consacré à la paix n'est pas décoratif : il répond à ce qui s'est joué à quelques kilomètres, et il fait de Verdun autre chose qu'un musée de guerre. Les expositions changent, l'établissement connaît des périodes de travaux et de fermeture partielle comme tous les équipements de cette taille, et il vaut mieux vérifier avant de venir si l'on se déplace pour lui."
+      },
+      {
+        heading: "5. La porte Chaussée, sur la Meuse",
+        body: "Deux tours rondes jumelles plantées au bord de l'eau, un passage voûté entre elles : la porte Chaussée est là depuis 1380 et c'est l'image de la ville avant 1916. Elle défendait l'accès à la cité par la rive droite de la Meuse et rappelle que Verdun a été une ville d'Empire, riche, fortifiée, disputée bien avant l'artillerie moderne. Elle est aujourd'hui le meilleur point de repère du centre et le point de départ naturel d'une promenade sur les quais. La comparaison utile est immédiate : entre cette porte médiévale et les galeries de 1886, il y a cinq siècles de fortification sur le même site, et Verdun est l'un des rares endroits où l'on peut regarder les deux dans la même heure."
+      },
+      {
+        heading: "6. Le monument à la Victoire et ses 73 marches",
+        body: "Un escalier de soixante-treize marches monte à une tour massive surmontée d'un guerrier appuyé sur son épée, le regard tourné vers l'est. Le chantier s'ouvre en 1926 et le monument est inauguré le 23 mars 1929 ; il est dû aux architectes Léon Chesnay et Louis-Alfred Berthémy, la sculpture étant de Jean Boucher. Sous le monument, une crypte conserve les registres des titulaires de la médaille de Verdun. C'est le seul grand monument commémoratif situé dans la ville même, et sa position en haut de l'escalier en fait aussi le meilleur point de vue sur les toits du centre. Il est ouvert au public de façon saisonnière, ce qui se vérifie sur place."
+      },
+      {
+        heading: "7. Le champ de bataille n'est pas dans la ville",
+        body: "C'est le point pratique le plus important de cette page. La bataille de Verdun commence le 21 février 1916 et s'achève le 18 décembre de la même année ; elle se déroule sur les hauteurs, au nord-est de la ville, sur des communes qui ne sont pas Verdun. Ossuaire, mémorial, forts et villages détruits sont donc des visites qui demandent un véhicule, une navette ou une excursion organisée, et une demi-journée au minimum. On ne les fait pas à pied depuis la gare. Cette page les traite ensuite en les nommant par leur commune, comme le fait ce site chaque fois qu'un site célèbre est accessible depuis une ville sans y être situé : dire le contraire ferait rater un train à quelqu'un."
+      },
+      {
+        heading: "8. L'ossuaire de Douaumont et la nécropole nationale",
+        body: "L'ossuaire est le monument le plus connu de l'ensemble, et il se trouve sur le champ de bataille, à côté de la nécropole nationale, et non à Verdun. La première pierre est posée le 22 août 1920 et l'inauguration a lieu le 7 août 1932, soit près de douze ans de chantier, sur les plans des architectes Léon Azéma, Max Edrei et Jacques Hardy. La nécropole voisine est créée en 1923 sur une parcelle de 14,438 hectares prise sur le territoire de la commune de Fleury-devant-Douaumont. L'ossuaire recueille les restes de combattants qu'on n'a pas pu identifier, français et allemands mêlés, ce qui est le fait le plus difficile à tenir en tête sur place et le plus utile à retenir. La tour-lanterne se monte, et la vue qu'elle donne sur les alvéoles et les croix explique l'échelle mieux qu'un chiffre."
+      },
+      {
+        heading: "9. Le Mémorial de Verdun, à Fleury-devant-Douaumont",
+        body: "Le Mémorial est un établissement distinct de l'ossuaire, situé lui aussi sur le champ de bataille, à Fleury-devant-Douaumont. Sa première pierre est posée en juin 1963, à l'initiative des anciens combattants, et il a été entièrement repris, la campagne de travaux s'achevant en 2016. C'est le lieu à faire en premier si l'on ne dispose que d'une demi-journée : il donne le récit, la chronologie et les objets, quand l'ossuaire donne l'émotion et les forts donnent le terrain. L'ordre inverse marche moins bien, parce qu'on arrive sur les forts sans savoir ce qu'on regarde. Le fort de Douaumont, qui tombe aux mains des Allemands dès le 25 février 1916, et le fort de Vaux se visitent tous deux et demandent chacun une bonne heure."
+      },
+      {
+        heading: "10. Fleury, la dragée, et combien de temps rester",
+        body: "Fleury-devant-Douaumont a été rasé en 1916 : le village a changé seize fois de mains entre juin et août, il n'a jamais été reconstruit, et il reste pourtant une commune, avec un conseil municipal nommé par le préfet. Des bornes marquent l'emplacement des maisons dans un sol resté bouleversé. Rien ne rend l'année 1916 plus concrète que ce plan de village sans village. Pour finir sur autre chose, Verdun fabrique des dragées : la tradition fait remonter l'idée à 1220, quand un apothicaire de la ville enrobe des amandes de sucre et de miel pour les conserver, la forme lisse actuelle apparaissant vers 1600 ; la maison Braquier est née en 1783 et est devenue une véritable usine sous Léon Braquier en 1871. Compter deux jours pour faire la ville et le champ de bataille sans courir, une seule journée étant possible mais serrée."
+      }
+    ],
+    relatedCities: ["verdun", "bar-le-duc", "metz", "nancy"],
+    relatedGuides: [
+      "10-choses-a-faire-a-bar-le-duc-2026",
+      "10-choses-a-faire-a-metz-2026",
+      "10-choses-a-faire-a-thionville-2026",
+      "10-choses-a-faire-a-cambrai-2026"
+    ],
+    tags: ["10 choses à faire à Verdun", "activités Verdun 2026", "que faire dans la Meuse", "sorties Grand Est patrimoine", "citadelle souterraine ossuaire Douaumont mémorial"]
+  },
+  {
+    slug: "10-choses-a-faire-a-vaison-la-romaine-2026",
+    title: "10 choses à faire à Vaison-la-Romaine",
+    metaTitle: "10 choses à faire à Vaison-la-Romaine en 2026",
+    metaDesc:
+      "Quinze hectares de vestiges antiques, un pont romain qui a tenu la crue de 1992, une ville haute perchée : 10 activités à Vaison-la-Romaine, dans le Vaucluse.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Vaison-la-Romaine comptait 5 920 habitants au recensement de 2022, contre 6 046 en 2016 et 6 163 en 2011. C'est la sixième des huit communes vauclusiennes que suit ce site en rythme d'évolution : la croissance du département est allée à Carpentras, à Pertuis et à Avignon, pas ici. La ville tient donc son intérêt d'autre chose que de sa taille, et l'écart est spectaculaire. Sur moins de six mille habitants, elle porte quinze hectares de vestiges antiques, une cathédrale romane avec son cloître, une ville haute perchée derrière un château comtal et un pont romain toujours en service. Elle est aussi la ville française dont le nom est resté attaché à une catastrophe, ce que ce guide ne contourne pas.",
+    sections: [
+      {
+        heading: "1. Le site de Puymin",
+        body: "Puymin est la moitié la plus lisible du parc archéologique. On y marche dans un vrai quartier antique, avec ses rues dallées, son secteur de boutiques, son nymphée aménagé en bassins et son sanctuaire à portiques encadrant un grand jardin à colonnades. Deux demeures patriciennes donnent l'échelle de la richesse locale : la maison à l'Apollon lauré couvre environ 2 000 m², la maison à la Pergola environ 3 000 m² répartis sur trois niveaux. Ce ne sont pas des villas de campagne mais des maisons de ville, ce qui change la lecture. Vasio, la cité des Voconces, était une capitale de peuple, pas un gros bourg, et c'est ce que Puymin donne à voir en une heure et demie de marche."
+      },
+      {
+        heading: "2. Le site de La Villasse",
+        body: "La Villasse est l'autre moitié, de l'autre côté de l'avenue, et on la néglige souvent parce qu'elle est plus petite. Elle a pourtant l'avantage de montrer la rue commerçante et les thermes, c'est-à-dire l'ordinaire de la ville plutôt que ses résidences d'élite. L'ensemble des deux sites représente une quinzaine d'hectares de vestiges, dont huit ouverts au public, ce qui en fait l'un des plus vastes ensembles archéologiques accessibles du pays. Un point de méthode pour la visite : le billet et le parcours associent les deux sites au musée, et vouloir tout faire en deux heures conduit à traverser des maisons romaines au pas de course. Une demi-journée pleine est le minimum honnête."
+      },
+      {
+        heading: "3. Le théâtre antique",
+        body: "Adossé à la colline de Puymin, le théâtre est dégagé en 1907 par le chanoine Joseph Sautel, à qui l'on doit l'essentiel des fouilles vaisonnaises du début du siècle. Restauré, il accueille aujourd'hui des spectacles et peut recevoir cinq mille personnes sur ses gradins. Le contraste est frappant entre la taille de la ville actuelle et celle de son théâtre antique, et il dit assez bien ce qu'a été la dégringolade démographique d'une capitale de cité romaine devenue sous-préfecture puis petite ville. S'asseoir en haut des gradins un jour sans spectacle reste la meilleure façon de comprendre le site, parce que c'est de là qu'on voit d'un seul coup d'œil la colline, le musée et la ville basse."
+      },
+      {
+        heading: "4. Le musée archéologique Théo-Desplans",
+        body: "Le musée est à l'intérieur du site de Puymin, ce qui est une bonne idée d'urbanisme et une mauvaise idée de logistique si l'on croit pouvoir le visiter séparément. Il conserve ce que les fouilles ont livré et que l'on ne peut pas laisser dehors : mosaïques, statuaire impériale, objets de la vie quotidienne. C'est là que se joue la différence entre un site où l'on regarde des murs arasés et un site où l'on comprend qui y vivait. Le conseil de parcours est simple et à contre-courant de l'habitude : passer au musée au milieu de la visite de Puymin, et non à la fin, quand on n'a plus la tête à lire une vitrine."
+      },
+      {
+        heading: "5. La cathédrale Notre-Dame-de-Nazareth et son cloître",
+        body: "La cathédrale de la ville basse est un édifice roman bâti au XIIe siècle, sur des fondations antiques réemployées que l'on voit encore au chevet. Son cloître est la plus belle chose de Vaison après les sites antiques, et le moins fréquenté. Un détail d'histoire explique sa conservation : en 1464, il est décidé de construire une nouvelle cathédrale dans la ville haute, et l'ancienne est peu à peu abandonnée à la fin du XVe siècle. Un édifice délaissé n'est pas remanié, et c'est souvent ce qui le sauve. On regarde donc ici du roman provençal resté dans son état, ce qui est rare pour une cathédrale."
+      },
+      {
+        heading: "6. La chapelle Saint-Quenin et son abside triangulaire",
+        body: "À l'écart du centre, la chapelle Saint-Quenin porte une curiosité que l'on ne voit à peu près nulle part ailleurs : une abside de plan triangulaire. Le reste est du roman provençal de bonne facture, avec un remploi d'éléments antiques qui a longtemps fait croire à une origine bien plus ancienne qu'elle ne l'est. C'est un arrêt court, dix minutes, mais il complète utilement la cathédrale parce qu'il montre le même vocabulaire architectural appliqué à un tout petit édifice. Pour un visiteur qui veut sortir du parcours balisé sans quitter la commune, c'est la meilleure option de la liste."
+      },
+      {
+        heading: "7. Le pont romain et la crue du 22 septembre 1992",
+        body: "Le pont romain enjambe l'Ouvèze d'une seule arche et relie la ville basse au pied de la ville haute. Il est en service depuis l'Antiquité, ce qui se dit vite et se mesure mal. Le 22 septembre 1992, l'Ouvèze monte de dix-sept mètres en quelques heures : la crue emporte des quartiers entiers, fait plusieurs dizaines de morts dans le Haut-Vaucluse et reste l'une des catastrophes naturelles les plus meurtrières de la France contemporaine. Les sources divergent sur le décompte exact des victimes, et ce guide ne tranche pas ce que les statistiques officielles n'ont pas tranché. Sur les trois ponts de la ville, un seul a tenu : le pont romain, avec des dégâts au parapet. Ce n'était pas une première : une délibération municipale d'août 1616 mentionne déjà la réparation de ce parapet après une inondation qui avait emporté plusieurs maisons."
+      },
+      {
+        heading: "8. La ville haute et le château des comtes de Toulouse",
+        body: "On traverse l'Ouvèze et on monte : la ville haute est un bourg médiéval perché sur son rocher, ruelles calades, portes fortifiées, fontaines, et au sommet la ruine du château bâti par les comtes de Toulouse au XIIe siècle, quand Vaison entre dans leur domaine. La montée est réelle et le pavé glissant par temps humide, donc chaussures fermées. L'intérêt n'est pas seulement le point de vue sur le mont Ventoux : c'est de comprendre que la population a quitté la plaine antique pour se réfugier en hauteur au Moyen Âge, puis est redescendue à l'époque moderne. Vaison est une ville qui a déménagé deux fois sur elle-même, et on peut faire les deux déménagements à pied dans l'après-midi."
+      },
+      {
+        heading: "9. Les Choralies, et pourquoi il n'y en a pas en 2026",
+        body: "Le théâtre antique accueille les Choralies, plus grand rassemblement choral au monde, organisé par l'association À Cœur Joie depuis les années 1950. C'est un événement triennal, et c'est le piège de calendrier de cette page : la 25e édition s'est tenue du 30 juillet au 17 août 2025, et la suivante est annoncée du 26 juillet au 3 août 2028. Autrement dit, il n'y a pas de Choralies en 2026, et une page qui promettrait le contraire recopierait une édition passée. Le théâtre n'est pas vide pour autant, il porte une programmation de spectacles chaque été, mais on vient pour les Choralies une année sur trois et il vaut mieux le savoir avant de réserver."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Vaison n'a pas de gare voyageurs : on y vient en voiture ou en car depuis Orange, Carpentras ou Avignon, et c'est la contrainte principale du séjour. Une journée pleine suffit pour les deux sites antiques, le musée, la cathédrale et la ville haute, à condition de commencer tôt. Le marché du mardi occupe le centre et vaut le déplacement pour lui-même, mais il complique le stationnement et la circulation : on choisit son jour en conséquence. La ville se combine naturellement avec Orange, dont les monuments romains sont inscrits à l'UNESCO, et avec Carpentras : les trois font un circuit antique et médiéval cohérent sur trois jours, ce qu'aucune ne permet seule."
+      }
+    ],
+    relatedCities: ["vaison-la-romaine", "orange", "carpentras", "avignon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-orange-2026",
+      "10-choses-a-faire-a-carpentras-2026",
+      "10-choses-a-faire-a-avignon-2026",
+      "10-choses-a-faire-a-cavaillon-2026"
+    ],
+    tags: ["10 choses à faire à Vaison-la-Romaine", "activités Vaison-la-Romaine 2026", "que faire dans le Vaucluse", "sorties Provence patrimoine", "site antique Puymin Villasse pont romain"]
+  },
+  {
+    slug: "10-choses-a-faire-a-senlis-2026",
+    title: "10 choses à faire à Senlis",
+    metaTitle: "10 choses à faire à Senlis en 2026",
+    metaDesc:
+      "Une des premières cathédrales gothiques, un rempart gallo-romain presque entier, le château où Hugues Capet fut élu : 10 activités à Senlis, dans l'Oise.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Senlis comptait 15 238 habitants au recensement de 2022, contre 14 590 en 2016 et 15 845 en 2011. Le détail vaut d'être dit parce qu'il surprend : sur les sept communes de l'Oise que suit ce site, Senlis est celle qui perd le plus en rythme depuis 2011, à 3,8 %, derrière Chantilly qui recule aussi, pendant que Creil gagne 8,2 % et que Beauvais et Compiègne progressent. Les villes-cartes-postales du département se vident pendant que les villes de travail se remplissent, et c'est un fait, pas une opinion. Cela ne retire rien à Senlis, qui aligne sur un très petit périmètre une des toutes premières cathédrales gothiques de la chrétienté, un rempart romain conservé presque entier et le lieu d'élection du premier Capétien.",
+    sections: [
+      {
+        heading: "1. La cathédrale Notre-Dame",
+        body: "Le chantier s'ouvre en 1153 et l'édifice est achevé en 1191. Ces deux dates suffisent à situer Senlis : on est dans la toute première génération gothique, celle de Saint-Denis, de Noyon et de Laon, avant que la formule ne devienne le style d'un royaume. La cathédrale est plus petite que ses cadettes et c'est précisément ce qui la rend lisible, parce qu'on embrasse d'un regard ce que Chartres ou Amiens dispersent. Son portail occidental consacré au couronnement de la Vierge est l'un des premiers du genre et a servi de modèle. Pour un visiteur venu de Paris pour la journée, c'est la meilleure démonstration possible de ce qu'était le gothique avant qu'il ne devienne monumental."
+      },
+      {
+        heading: "2. Le rempart gallo-romain",
+        body: "Au IIIe siècle, face aux incursions, on ceinture la ville d'un mur épais d'environ huit cents mètres de développement, en appareil alterné de pierre et de brique. Il en subsistait une trentaine de tours à l'origine ; une moitié environ tient encore debout, dans des états de conservation très variables, et une partie du tracé est aujourd'hui prise dans des propriétés privées. C'est l'une des rares enceintes de ce type conservées presque entièrement en France, et c'est ce qui fait de Senlis un cas d'école. Le circuit se suit à pied depuis la rue, gratuitement, en une petite heure : on longe des jardins, on tourne un angle, et le mur est là, avec ses assises de briques toujours visibles."
+      },
+      {
+        heading: "3. Le château royal et l'élection de 987",
+        body: "Les vestiges du château royal s'adossent au rempart antique et font face à la cathédrale, ce qui met le pouvoir temporel et le pouvoir spirituel à cinquante mètres l'un de l'autre. C'est ici qu'Hugues Capet est élu roi des Francs en 987, acte de naissance de la dynastie qui régnera jusqu'en 1792. Le château est entièrement rebâti sous Louis VI vers 1130 en s'appuyant sur la muraille romaine, puis modifié à toutes les époques jusqu'au début du XXe siècle. Les séjours royaux y sont attestés depuis 987 et jusqu'au règne d'Henri IV. On regarde donc des ruines, mais des ruines dont l'emplacement précis a décidé de six siècles d'histoire de France."
+      },
+      {
+        heading: "4. Le prieuré Saint-Maurice et le musée de la Vénerie",
+        body: "Dans l'enceinte du château, Louis IX fonde en 1264 un prieuré dédié à saint Maurice pour abriter des reliques rapportées de la septième croisade. Du prieuré médiéval, il ne reste que l'aile est du cloître, avec le dortoir des moines et la salle capitulaire. À l'emplacement de l'aile ouest, où se trouvaient sans doute le réfectoire et les salles d'étude, une imposante résidence d'abbé commendataire est bâtie au début du XVIIIe siècle : c'est elle qui abrite aujourd'hui le musée de la Vénerie. La collection porte sur la chasse à courre, sujet qui divise, et le musée le traite comme un fait d'histoire et d'art plutôt que comme une cause. C'est le seul musée français consacré à ce thème."
+      },
+      {
+        heading: "5. Les arènes gallo-romaines",
+        body: "Senlis a son amphithéâtre, du Ier siècle, capable d'accueillir environ huit mille spectateurs, soit bien plus que la population de la ville antique : on y venait de toute la cité des Silvanectes. Il a été redécouvert en 1865 lors de fouilles, à l'écart du centre, en lisière de la ville actuelle. L'ensemble n'est pas monumental comme à Nîmes ou à Arles, et il faut arriver en sachant ce qu'on va voir : une ellipse de maçonnerie et des gradins partiellement dégagés. L'accès est encadré et les horaires d'ouverture sont limités, souvent en visite accompagnée, donc on se renseigne auprès de l'office de tourisme plutôt que de s'y présenter au hasard."
+      },
+      {
+        heading: "6. Marcher dans le centre ancien",
+        body: "Le centre de Senlis se fait à pied et il se fait lentement, parce que le pavé est ancien et que la trame est médiévale. Les rues étroites, les hôtels particuliers, les murs de pierre appareillée et l'absence presque totale de constructions récentes dans le périmètre protégé donnent un tissu urbain d'une continuité rare à moins d'une heure de Paris. C'est aussi ce qui explique la fréquentation du lieu par les équipes de tournage, une réputation solidement établie que ce guide se garde de chiffrer faute de source. Le meilleur moment est le matin de bonne heure, avant les cars, ou en fin d'après-midi quand la lumière rase les façades."
+      },
+      {
+        heading: "7. Les trois musées de la ville",
+        body: "Senlis a fait le choix inhabituel, pour une commune de quinze mille habitants, d'entretenir trois musées municipaux : celui de la Vénerie déjà cité, le musée d'Art et d'Archéologie et le musée des Spahis, consacré à ces unités de cavalerie. C'est beaucoup, et c'est fragile : des équipements de cette taille ferment pour travaux, tournent avec des jours d'ouverture réduits et modifient leurs accrochages. On vérifie donc avant de se déplacer, en particulier hors saison, et on ne construit pas une journée entière autour d'un seul d'entre eux. Le musée d'Art et d'Archéologie est le plus utile en premier, parce qu'il éclaire ce que l'on va voir dehors."
+      },
+      {
+        heading: "8. L'ancienne église Saint-Pierre et le marché",
+        body: "L'ancienne église Saint-Pierre, désaffectée depuis la Révolution, sert aujourd'hui de halle et de lieu d'exposition, ce qui est la reconversion la plus honnête qui soit pour un édifice qu'on ne remplit plus. Son clocher et sa façade dominent une place qui reste le centre vivant de la ville. Le marché s'y tient et c'est le moment où Senlis cesse d'être un décor pour redevenir une petite ville de l'Oise avec ses habitants et ses commerçants. Pour qui vient à la journée, caler la visite sur un jour de marché change complètement l'expérience, et coûte moins cher qu'un billet de musée."
+      },
+      {
+        heading: "9. Le parc du château et la chapelle Saint-Frambourg",
+        body: "Le parc qui entoure les vestiges du château royal est un espace public et il offre le meilleur recul sur l'ensemble cathédrale-rempart-château, les trois éléments qui font Senlis. À quelques pas, la chapelle royale Saint-Frambourg, fondée au Xe siècle et reconstruite au XIIe, a été sauvée de la ruine et transformée en salle de concert : elle porte des vitraux contemporains et accueille une programmation musicale. C'est le genre de lieu dont les dates d'ouverture suivent le calendrier des concerts plutôt que des horaires de musée, donc là encore on se renseigne avant. Vu de l'extérieur, l'édifice se regarde de toute façon depuis la rue."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Senlis n'a plus de gare voyageurs : on y accède par car depuis la gare de Chantilly-Gouvieux ou de Creil, ou en voiture par l'autoroute du Nord, ce qui est la contrainte à connaître avant de partir. Une demi-journée suffit largement pour la cathédrale, le rempart et le centre ancien, qui tiennent dans un rayon de cinq cents mètres. Une journée si l'on ajoute un ou deux musées et les arènes. La combinaison la plus naturelle est avec Chantilly, à quelques kilomètres, dont le domaine demande une journée à lui seul : faire les deux le même jour est le piège classique, et on en ressort en n'ayant vraiment vu ni l'un ni l'autre."
+      }
+    ],
+    relatedCities: ["senlis", "chantilly", "compiegne", "beauvais"],
+    relatedGuides: [
+      "10-choses-a-faire-a-chantilly-2026",
+      "10-choses-a-faire-a-compiegne-2026",
+      "10-choses-a-faire-a-beauvais-2026",
+      "10-choses-a-faire-a-soissons-2026"
+    ],
+    tags: ["10 choses à faire à Senlis", "activités Senlis 2026", "que faire dans l'Oise", "sorties Hauts-de-France patrimoine", "cathédrale gothique rempart gallo-romain château royal"]
+  },
+  {
+    slug: "10-choses-a-faire-a-dinard-2026",
+    title: "10 choses à faire à Dinard",
+    metaTitle: "10 choses à faire à Dinard en 2026",
+    metaDesc:
+      "Des centaines de villas Belle Époque, une promenade taillée dans la falaise, un festival du film britannique : 10 activités à Dinard, sur la Côte d'Émeraude.",
+    category: "tourisme",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Dinard comptait 10 407 habitants au recensement de 2022, contre 10 114 en 2016 et 10 230 en 2011. La ville gagne donc 1,7 % en onze ans, ce qui la place dernière des quatre communes d'Ille-et-Vilaine que suit ce site, loin derrière Vitré à 10,4 % et Rennes à 9,5 %. Une station balnéaire compte des résidents, pas des lits, et une part de son bâti bascule en résidences secondaires sans que personne ne disparaisse : le chiffre du recensement dit cela plutôt qu'un déclin. Ce qu'il ne dit pas, c'est que Dinard porte l'un des plus importants ensembles de villas de villégiature conservés en France, bâti entre 1870 et 1914 par une clientèle largement britannique et américaine. On vient ici pour de l'architecture autant que pour la mer.",
+    sections: [
+      {
+        heading: "1. La promenade du Clair de Lune",
+        body: "C'est le parcours qui structure toute visite de Dinard. La promenade longe la baie du Prieuré au pied des villas, entre la plage de l'Écluse et la plage du Prieuré, et elle a été aménagée dans les années 1930 avec l'ambition affichée de rivaliser avec la Côte d'Azur. D'où sa végétation, méditerranéenne et exotique, qui pousse ici grâce à la douceur du micro-climat de l'estuaire de la Rance et qui déroute quand on croit marcher en Bretagne nord. On la fait en une heure sans se presser. C'est le seul endroit de la ville où l'on voit les villas depuis le bas, c'est-à-dire du point de vue pour lequel elles ont été dessinées : elles ont été construites pour être regardées depuis la mer."
+      },
+      {
+        heading: "2. Les villas Belle Époque",
+        body: "Dinard conserve plusieurs centaines de villas de villégiature élevées entre 1870 et 1914, et une partie substantielle d'entre elles est protégée au titre des monuments historiques. C'est ce qui fait la valeur du lieu et ce qui le distingue des stations qui ont reconstruit. Le vocabulaire est celui de l'éclectisme balnéaire : bow-windows, tourelles, faux pans de bois, céramiques, toitures compliquées, chaque propriétaire cherchant à ne pas ressembler au voisin. La bonne façon de les voir n'est pas de chercher une villa précise mais de marcher la pointe du Moulinet et le quartier de la Malouine avec la tête levée. Ce sont des propriétés privées : on regarde depuis la rue, on n'entre pas, et cela ne se discute pas."
+      },
+      {
+        heading: "3. La villa Eugénie et le musée",
+        body: "Bâtie en 1868 sur un promontoire par l'architecte Jean Pichot, la villa Eugénie devait accueillir le couple impérial, qui n'y est jamais venu. C'est l'anecdote fondatrice de la station et elle est vraie : la villa porte le nom d'une impératrice qui ne l'a pas habitée. Elle est acquise en 1872 par Pierre Levavasseur et léguée à Dinard en 1873, sert de mairie à partir de 1893, puis de bibliothèque municipale de 1967 à 1984, et abrite depuis le 13 juillet 1985 le musée consacré au site balnéaire et à son histoire. Comme tous les musées municipaux de cette taille, il fonctionne avec des périodes d'ouverture saisonnières et des expositions temporaires : on vérifie avant de se déplacer pour lui."
+      },
+      {
+        heading: "4. La plage de l'Écluse et ses tentes",
+        body: "La plage de l'Écluse est la grande plage du centre, encadrée par la pointe du Moulinet et la pointe de la Malouine, et c'est l'image que l'on garde de Dinard : l'alignement des tentes rayées bleu et blanc plantées sur le sable en saison. Ce n'est pas un décor pour photographies, c'est un usage local ancien, hérité de la pudeur balnéaire du XIXe siècle, qui a survécu là où il a disparu ailleurs. La plage est surveillée en saison, et la signalétique de baignade y a la même valeur réglementaire que partout : le drapeau affiché fait foi, y compris quand la mer paraît calme. Les marées de la baie sont parmi les plus fortes d'Europe et le retrait de l'eau change tout à quelques heures d'écart."
+      },
+      {
+        heading: "5. La piscine d'eau de mer",
+        body: "Adossée à la plage de l'Écluse, la piscine olympique d'eau de mer est un équipement de plein air qui appartient à l'histoire de la station autant que les villas. Nager dans de l'eau de mer chauffée face à la plage est un usage balnéaire du début du XXe siècle qu'on ne trouve plus dans beaucoup d'endroits. Elle fonctionne en saison, ce qui veut dire qu'un séjour hors été n'y donne pas accès. C'est le genre de détail qui décide d'un choix de dates : entre juin et septembre, Dinard offre ses équipements de bord de mer ; le reste de l'année, elle offre son architecture et ses sentiers, ce qui n'est pas la même ville."
+      },
+      {
+        heading: "6. Le festival du film britannique et irlandais",
+        body: "Une station créée par des Britanniques finit par organiser un festival de cinéma britannique : la logique est presque trop belle, et elle est réelle. Le Dinard Festival du film britannique et irlandais en est à sa 37e édition, annoncée du 7 au 11 octobre 2026, et il décerne un Hitchcock d'or au meilleur film de sa compétition. Le choix du nom n'est pas gratuit, la ville revendiquant un lien avec le cinéaste. C'est aussi le seul moment de l'année où Dinard est pleine hors saison estivale, ce qui a deux conséquences pratiques opposées : la ville est vivante, et l'hébergement se réserve longtemps à l'avance."
+      },
+      {
+        heading: "7. Le sentier des douaniers et la pointe du Moulinet",
+        body: "Le GR 34, ancien sentier des douaniers, passe par Dinard et c'est la meilleure façon de sortir du centre. La boucle de la pointe du Moulinet se fait en une petite heure et donne la vue que tout le monde cherche : Saint-Malo intra-muros en face, de l'autre côté de l'estuaire, avec ses remparts et ses tours. Le sentier longe ensuite les villas de la Malouine puis rejoint la plage de Saint-Énogat. Le sol est irrégulier, les abords de falaise ne sont pas tous protégés par une barrière, et on reste sur le tracé balisé : la côte d'Émeraude a de la roche saine mais des bords francs, et la vue vers le bas est plus longue qu'elle n'en a l'air."
+      },
+      {
+        heading: "8. Traverser la Rance jusqu'à Saint-Malo",
+        body: "Une navette maritime relie Dinard à Saint-Malo en une dizaine de minutes en saison, et c'est la manière intelligente de faire les deux villes : par la mer, sans voiture, en évitant le détour routier par le barrage de la Rance. Saint-Malo est une commune à part entière, accessible depuis Dinard et pas située à Dinard, et elle demande sa propre journée. La traversée elle-même vaut le billet, parce qu'elle donne le seul point de vue d'où l'on comprend la géographie de l'estuaire et la raison d'être des deux villes, l'une corsaire et fermée, l'autre balnéaire et ouverte. Le service est saisonnier et suspendu par gros temps."
+      },
+      {
+        heading: "9. Saint-Énogat et le Dinard d'avant la station",
+        body: "Saint-Énogat était une commune distincte, absorbée par Dinard, et son ancien bourg garde une échelle de village breton que le centre a perdue. C'est l'endroit où l'on voit ce qu'il y avait avant les villas : une église, une place, des maisons de pierre, une petite plage encaissée. Le contraste avec la Malouine, à un kilomètre, est le meilleur raccourci pour comprendre ce que la villégiature a fait à cette côte en quarante ans. Pour un visiteur qui trouve le centre trop apprêté, c'est là qu'il faut aller, et c'est aussi de ce côté que les plages sont moins fréquentées en plein été."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Dinard n'a pas de gare : on arrive par la gare de Saint-Malo puis par bus ou navette, ou par l'aéroport local, ou en voiture. Une journée suffit pour la promenade du Clair de Lune, les villas et une plage. Deux à trois jours si l'on veut ajouter Saint-Malo, Dinan en amont sur la Rance et le sentier côtier, ce qui est la bonne durée pour l'endroit. La saison compte plus ici que partout ailleurs dans ce guide : en juillet et août la ville est saturée et chère, en octobre elle est vivante grâce au festival, et entre novembre et mars elle est très calme, avec une part des équipements fermés. Le meilleur compromis reste mai, juin et septembre."
+      }
+    ],
+    relatedCities: ["dinard", "saint-malo", "dinan", "rennes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-malo-2026",
+      "10-choses-a-faire-a-dinan-2026",
+      "10-choses-a-faire-a-rennes-2026",
+      "10-choses-a-faire-a-saint-brieuc-2026"
+    ],
+    tags: ["10 choses à faire à Dinard", "activités Dinard 2026", "que faire en Ille-et-Vilaine", "sorties Bretagne littoral", "villas Belle Époque Clair de Lune festival britannique"]
+  },
+  {
+    slug: "10-choses-a-faire-a-briancon-2026",
+    title: "10 choses à faire à Briançon",
+    metaTitle: "10 choses à faire à Briançon en 2026",
+    metaDesc:
+      "La plus haute ville de France, des fortifications de Vauban inscrites à l'UNESCO en 2008, un pont de 1731 : 10 activités à Briançon, dans les Hautes-Alpes.",
+    category: "tourisme",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Briançon comptait 10 748 habitants au recensement de 2022, contre 11 950 en 2016 et 11 876 en 2011. La ville a donc gagné des habitants entre 2011 et 2016 puis en a perdu 1 202 en six ans, et elle est la dernière des trois communes des Hautes-Alpes que suit ce site, quand Embrun gagne 3,8 % et que Gap est stable. Une part de ce recul est une conversion de logements en résidences secondaires, que le recensement ne compte pas puisqu'il compte des résidents. Reste que Briançon n'est pas d'abord une station : c'est une place forte, la plus haute ville de France à 1 326 mètres, posée au confluent de cinq vallées, et ses fortifications sont inscrites au patrimoine mondial de l'UNESCO depuis 2008.",
+    sections: [
+      {
+        heading: "1. La Cité Vauban",
+        body: "La vieille ville tient tout entière dans son enceinte bastionnée et se parcourt à pied, en montant. C'est un ensemble urbain fortifié de montagne, ce qui est rare : Vauban a bâti beaucoup de places frontalières, très peu à cette altitude et sur ce relief. L'enceinte, les portes, les rues en pente et les maisons serrées forment un tissu qui n'a pas été percé au XIXe siècle, faute de place et faute d'intérêt militaire à le faire. On y monte depuis la ville basse, et c'est une vraie montée : compter le dénivelé dans son programme de la journée, surtout par forte chaleur, l'altitude ne dispense pas des étés chauds dans la vallée de la Durance."
+      },
+      {
+        heading: "2. La Grande Gargouille, qui n'est pas une gargouille",
+        body: "La grand-rue de la Cité s'appelle la Grande Gargouille, et le nom trompe tous les visiteurs qui cherchent une sculpture. C'est la rue elle-même : elle descend en pente forte et porte en son milieu un canal à ciel ouvert où l'eau court en permanence. Ce caniveau central n'est pas un ornement, c'est un dispositif de lutte contre l'incendie dans une ville de maisons serrées à toitures de bois, et il servait aussi à l'écoulement et au nettoyage. La Petite Gargouille lui est parallèle. Marcher la Grande Gargouille de haut en bas, en écoutant l'eau, est la façon la plus simple de comprendre comment une ville de montagne fortifiée réglait ses problèmes quotidiens."
+      },
+      {
+        heading: "3. La collégiale Notre-Dame-et-Saint-Nicolas",
+        body: "L'église de la Cité a une histoire d'ingénieurs plutôt que d'évêques. Ses plans sont dressés par l'ingénieur Isaac Robelin, puis revus et corrigés par Vauban lui-même ; le chantier court de 1703 à 1718. Elle est consacrée en 1726 par Monseigneur de Tencin, archevêque d'Embrun, et érigée en collégiale une vingtaine d'années plus tard. Son allure massive et ses deux tours trapues s'expliquent par le programme : l'édifice devait tenir dans un système défensif et résister au climat, pas dominer une plaine. C'est une église qui a été pensée comme un ouvrage militaire, et c'est ce qui la rend intéressante à regarder après avoir vu les forts."
+      },
+      {
+        heading: "4. Le pont d'Asfeld",
+        body: "Une arche unique jetée à grande hauteur au-dessus des gorges de la Durance : le pont d'Asfeld est le morceau de bravoure du site. Il doit son nom au marquis d'Asfeld, directeur général des fortifications, qui préside à sa construction. Le chantier s'ouvre en 1729, la première pierre est posée le 20 avril 1730 à onze heures, la voûte est fermée le 24 août et l'ouvrage est décintré et achevé en 1731, date que porte la plaque de bronze visible sur place. Il n'a pas été construit pour le confort des habitants mais pour relier la ville aux forts de la rive opposée sans passer par le fond de la gorge. On le regarde depuis le pont lui-même, puis depuis le sentier en contrebas, et les deux points de vue ne montrent pas le même ouvrage."
+      },
+      {
+        heading: "5. Les forts, et ce que l'UNESCO a inscrit",
+        body: "L'inscription de 2008 porte sur le réseau des sites majeurs de Vauban, douze ensembles répartis en France, et Briançon y figure avec Mont-Dauphin. Ce qui est inscrit ici n'est pas la seule vieille ville : c'est l'enceinte urbaine, les forts des Salettes, des Trois-Têtes, du Randouillet et du Dauphin, l'ouvrage de communication dit la communication Y, et le pont d'Asfeld. C'est un système, conçu pour se soutenir mutuellement d'une crête à l'autre. Précision d'histoire qui évite un contresens fréquent : une grande partie de ces ouvrages a été exécutée après la mort de Vauban, jusqu'en 1734, mais selon ses principes. On visite du Vauban au sens de la doctrine, pas toujours au sens de la main."
+      },
+      {
+        heading: "6. Le fort des Salettes",
+        body: "C'est le plus accessible des forts depuis la Cité, sur la hauteur qui domine la ville au nord-est, et le plus simple à intégrer dans une journée sans véhicule. La montée se fait à pied par un sentier, en une petite heure, et le retour donne le meilleur panorama sur l'enceinte urbaine, ce qui permet enfin de voir le système comme un tout au lieu d'en visiter les morceaux. Les forts de Briançon relèvent d'un domaine dont les conditions d'accès varient : certains se visitent en visite guidée seulement, d'autres seulement en saison, d'autres se regardent de l'extérieur. On prend le programme du jour à l'office de tourisme plutôt que de monter au hasard."
+      },
+      {
+        heading: "7. Les cinq vallées et Serre Chevalier",
+        body: "Briançon est au débouché de cinq vallées et c'est la clé de tout ce qu'on peut y faire. Le col du Lautaret et le col du Galibier ouvrent au nord vers la Meije et l'Oisans, le col de Montgenèvre file vers l'Italie à quelques kilomètres, le Queyras s'ouvre au sud. Le domaine de Serre Chevalier, l'un des grands domaines skiables français, commence en amont dans la vallée de la Guisane et fonctionne aussi l'été pour la randonnée et le vélo de descente. Un point utile pour préparer : les cols d'altitude ferment en hiver et n'ouvrent qu'au printemps, parfois tardivement selon l'enneigement, ce qui modifie complètement les temps de trajet indiqués par un calculateur d'itinéraire."
+      },
+      {
+        heading: "8. Le parc national des Écrins, accessible depuis Briançon",
+        body: "Le parc national des Écrins commence à l'ouest de la ville et n'est pas dans la commune : c'est une excursion, pas une promenade de fin d'après-midi. Il couvre l'un des plus grands massifs de haute montagne français et sa réglementation est celle d'un cœur de parc national, avec des règles opposables sur les chiens, le bivouac, la cueillette et le hors-sentier. Les vallons accessibles depuis Briançon offrent des randonnées à la journée, mais la haute montagne ne s'improvise pas : on part tôt, on lit la météo du jour et non celle de la veille, et on renonce quand l'orage est annoncé, les orages d'après-midi étant la règle en été et non l'exception."
+      },
+      {
+        heading: "9. Le thermalisme et les bains, dans la vallée",
+        body: "Le Briançonnais a une tradition thermale ancienne, liée à ses sources sulfurées, et l'établissement des Grands Bains du Monêtier se trouve au Monêtier-les-Bains, commune de la vallée de la Guisane : accessible depuis Briançon, pas situé à Briançon. C'est l'option de repli utile pour une journée de mauvais temps ou pour une fin de séjour de randonnée, et c'est aussi ce qui distingue Briançon d'une station de sport d'hiver ordinaire, qui n'a rien à proposer quand le temps se ferme. Comme pour tout établissement de ce type, l'affluence et les créneaux se réservent, en particulier pendant les vacances scolaires."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Briançon a une gare, terminus d'une ligne qui remonte la Durance, et un train de nuit la relie à Paris, ce qui en fait l'une des rares villes de haute montagne françaises accessibles sans voiture. Le trajet est long et c'est le prix de l'altitude. Deux jours suffisent pour la Cité, le pont d'Asfeld et un fort ; trois à quatre si l'on ajoute la randonnée ou le ski. Le conseil qui compte le plus ici est saisonnier : à 1 326 mètres, les nuits sont fraîches même en juillet, et un séjour d'été demande une couche de plus que ce qu'on emporte pour la Provence, qui commence pourtant à deux heures de route en descendant la vallée."
+      }
+    ],
+    relatedCities: ["briancon", "gap", "embrun", "digne-les-bains"],
+    relatedGuides: [
+      "10-choses-a-faire-a-gap-2026",
+      "10-choses-a-faire-a-digne-les-bains-2026",
+      "10-choses-a-faire-a-sisteron-2026",
+      "10-choses-a-faire-a-chambery-2026"
+    ],
+    tags: ["10 choses à faire à Briançon", "activités Briançon 2026", "que faire dans les Hautes-Alpes", "sorties montagne patrimoine", "Cité Vauban UNESCO pont d'Asfeld Écrins"]
+  },
+  {
+    slug: "10-choses-a-faire-a-figeac-2026",
+    title: "10 choses à faire à Figeac",
+    metaTitle: "10 choses à faire à Figeac en 2026",
+    metaDesc:
+      "La maison natale de Champollion, une place pavée de la pierre de Rosette, des greniers ouverts sous les toits : 10 activités à Figeac, dans le Lot.",
+    category: "tourisme",
+    emoji: "📜",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Figeac comptait 9 757 habitants au recensement de 2022, contre 9 833 en 2016 et 9 773 en 2011. Autrement dit, la ville est stable à seize habitants près sur onze ans, et cela suffit à en faire la première des trois communes du Lot que suit ce site : Cahors perd 1,6 % et Gourdon 9,3 %. Être premier d'un département qui se vide n'est pas un exploit, et il vaut mieux le dire ainsi. Ce qui distingue Figeac est ailleurs : la ville est née autour d'une abbaye au IXe siècle, elle a eu le droit rare de frapper monnaie, elle a gardé son tissu marchand médiéval presque intact, et elle a donné à l'égyptologie l'homme qui a déchiffré les hiéroglyphes.",
+    sections: [
+      {
+        heading: "1. Le musée Champollion, Les Écritures du Monde",
+        body: "Jean-François Champollion naît à Figeac le 23 décembre 1790, et le musée occupe sa maison natale. Ouvert en 1986, il prend en 2007 le nom de Musée Champollion – Les Écritures du Monde et change d'objet en même temps : il ne raconte plus seulement le déchiffrement des hiéroglyphes, il retrace l'histoire de l'écriture depuis son apparition il y a environ 5 300 ans. Quelque six cents objets venus du monde entier y suivent les supports, les alphabets et les systèmes qui n'en sont pas. C'est un parti pris exigeant et payant : on entre pour un héros local, on ressort avec l'idée que l'écriture a été inventée plusieurs fois, ailleurs, autrement. La façade, couverte de signes, annonce le programme depuis la rue."
+      },
+      {
+        heading: "2. La place des Écritures et l'œuvre de Joseph Kosuth",
+        body: "Derrière le musée, une cour close est entièrement occupée par une dalle de granit noir d'environ 11,20 mètres sur 8,60, gravée de l'inscription trilingue de la pierre de Rosette, en hiéroglyphique, en démotique et en grec. L'œuvre s'intitule Ex-Libris, J.-F. Champollion ; elle est due à l'artiste conceptuel américain Joseph Kosuth, commandée en 1990 par le Fonds national d'art contemporain et réalisée en 1991 pour le bicentenaire de la naissance de Champollion. Ce n'est donc pas une maquette pédagogique mais une œuvre d'art contemporain, ce qui explique qu'on marche dessus et qu'elle n'ait aucune notice explicative gravée. On la regarde d'en haut depuis le jardin en surplomb, où le texte devient lisible comme une page."
+      },
+      {
+        heading: "3. La pierre de Rosette n'est pas à Figeac",
+        body: "Il faut le dire avant que quelqu'un ne fasse le voyage pour la mauvaise raison. La pierre de Rosette elle-même est au British Museum, à Londres, où elle est entrée en 1802 après avoir été cédée aux Britanniques par les termes de la capitulation française d'Alexandrie. Figeac a la ville natale du déchiffreur, sa maison, ses archives et une reproduction monumentale de l'inscription ; elle n'a pas la pierre, et ne l'a jamais eue. Cette séparation entre l'objet et l'homme qui l'a fait parler est une bonne introduction à ce que fut réellement le déchiffrement : un travail de comparaison mené sur des copies, des estampages et des dessins, à distance, pendant des années."
+      },
+      {
+        heading: "4. Les soleilhos et les maisons de marchands",
+        body: "Le détail d'architecture qui fait Figeac est en haut des façades : le soleilho, grenier ouvert sous la toiture, une galerie soutenue par des piliers de pierre ou de bois où l'on faisait sécher le linge, les fruits et les grains. On en voit partout en levant la tête, et c'est ce qui donne à la ville sa silhouette particulière. Les maisons médiévales visibles aujourd'hui sont celles de marchands : façades de grès clair, décors sculptés, arcades au rez-de-chaussée où se tenait la boutique, étages d'habitation au-dessus. Figeac est l'un des rares centres où l'on lit encore, dans la pierre, l'organisation complète d'une maison de commerce du Moyen Âge, du comptoir au séchoir."
+      },
+      {
+        heading: "5. L'hôtel de la Monnaie",
+        body: "Figeac a eu le privilège rare de battre monnaie royale, et le bâtiment qu'on appelle l'hôtel de la Monnaie en garde le nom et l'allure : c'est l'un des plus remarquables édifices civils médiévaux de la ville, avec ses baies géminées et ses arcades. Il abrite aujourd'hui des fonctions d'accueil et d'exposition. On l'aborde comme un document plutôt que comme un décor : un tel privilège suppose une place commerciale d'importance et une autorité qui a intérêt à s'y appuyer, ce qui explique la prospérité que racontent toutes les autres maisons du centre. Les usages et les horaires du bâtiment ont changé plusieurs fois, on vérifie donc sa fonction du moment sur place."
+      },
+      {
+        heading: "6. L'abbatiale Saint-Sauveur",
+        body: "Figeac est née d'une abbaye : Saint-Sauveur est fondée vers 830 par Pépin Ier d'Aquitaine, et ce sont les besoins des moines qui attirent les premiers habitants et fixent la ville autour du monastère. L'abbatiale actuelle porte les strates de cette longue histoire, romane à l'origine et remaniée ensuite, avec une salle capitulaire devenue chapelle qui conserve un décor de boiseries. Le monastère a aussi fait de Figeac une étape sur les chemins vers Compostelle, ce qui explique la position de la ville au croisement des routes et le passage, aujourd'hui encore, des marcheurs de la voie du Puy. C'est le point de départ chronologique de toute visite du centre."
+      },
+      {
+        heading: "7. L'église Notre-Dame-du-Puy et le point de vue",
+        body: "Sur la hauteur qui domine le centre, l'église Notre-Dame-du-Puy est le second grand édifice religieux de la ville, et la montée jusqu'à elle est le meilleur moyen de saisir la topographie de Figeac : une ville de fond de vallée, resserrée sur le Célé, qui s'est étalée sur ses pentes. Elle conserve un important retable sculpté. Le parvis donne la vue d'ensemble sur les toits de tuiles brunes et les soleilhos, c'est-à-dire l'image qui manque quand on reste dans les rues. Vingt minutes de montée, et l'on comprend en une fois ce que trois heures de déambulation au ras du sol ne montrent pas."
+      },
+      {
+        heading: "8. Les aiguilles de Figeac",
+        body: "Deux obélisques de pierre se dressent à l'écart du centre, l'aiguille du Cingle et l'aiguille de Lissac. Elles datent de la fin du XIIIe siècle et la tradition en fait des bornes délimitant les terres de l'abbaye Saint-Sauveur, hypothèse la plus couramment retenue sans qu'elle soit tranchée. Ce sont des monuments intrigants précisément parce qu'on ne sait pas tout d'eux, et le guide s'arrête là plutôt que d'inventer une fonction. Elles se rejoignent à pied ou en voiture selon celle que l'on choisit et offrent, pour l'aiguille du Cingle, un point de vue sur la vallée. Elles n'ont rien à voir avec l'Égypte ni avec Champollion, qui naîtra cinq siècles plus tard : la ressemblance de forme avec un obélisque est une coïncidence, et c'est le genre de rapprochement que la ville aurait pourtant tout intérêt à faire."
+      },
+      {
+        heading: "9. Le marché et la halle",
+        body: "Le marché du samedi matin occupe la place Carnot et sa halle métallique du XIXe siècle, ainsi que les rues alentour, et c'est le moment où la ville fonctionne à plein. Le Quercy est un pays de produits de terroir marqués, et un marché lotois n'est pas un marché d'agrément pour touristes : les habitants y font leurs courses. Pour un visiteur, l'intérêt est double, l'ambiance et le fait de voir le centre ancien servir à ce pour quoi il a été bâti, du commerce. Le revers est le stationnement, saturé ce matin-là dans une ville où l'on entre par des rues étroites : on se gare en périphérie et on marche."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Figeac a une gare sur la ligne Brive-Rodez, ce qui est un vrai avantage dans un département largement dépendant de la voiture. Une journée suffit pour le musée Champollion, la place des Écritures et le centre médiéval, les trois étant à moins de trois cents mètres les uns des autres. Deux jours si l'on veut ajouter la vallée du Célé, Saint-Cirq-Lapopie ou les grottes du causse, qui sont autant d'excursions dans des communes voisines et non des extensions de la visite de Figeac. La ville se combine bien avec Cahors en aval et avec Rodez à l'est, et elle est une base plus calme et moins chère que Sarlat pour rayonner dans le Quercy."
+      }
+    ],
+    relatedCities: ["figeac", "cahors", "rodez", "sarlat-la-caneda"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cahors-2026",
+      "10-choses-a-faire-a-rodez-2026",
+      "10-choses-a-faire-a-sarlat-la-caneda-2026",
+      "10-choses-a-faire-a-aurillac-2026"
+    ],
+    tags: ["10 choses à faire à Figeac", "activités Figeac 2026", "que faire dans le Lot", "sorties Occitanie patrimoine", "musée Champollion place des Écritures soleilhos"]
+  },
+  {
+    slug: "10-choses-a-faire-a-granville-2026",
+    title: "10 choses à faire à Granville",
+    metaTitle: "10 choses à faire à Granville en 2026",
+    metaDesc:
+      "Une ville haute fondée par les Anglais en 1440, la maison d'enfance de Christian Dior, un carnaval classé UNESCO : 10 activités à Granville, dans la Manche.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    intro:
+      "Granville comptait 12 799 habitants au recensement de 2022, contre 12 900 en 2016 et 12 999 en 2011 : un recul très lent et très régulier, cent habitants par intervalle, qui la place deuxième des trois communes de la Manche que suit ce site, entre Saint-Lô qui gagne 2,5 % et Cherbourg-en-Cotentin qui perd 4,5 %. La ville a deux visages que rien n'oblige à concilier : une haute ville fortifiée sur son éperon de granit, et une station balnéaire du XIXe siècle en contrebas. Le fait le plus surprenant est à l'origine de la première. Granville n'a pas été fondée par des Normands contre les Anglais, mais par les Anglais eux-mêmes, en 1440, comme base pour assiéger le Mont-Saint-Michel.",
+    sections: [
+      {
+        heading: "1. La Haute Ville et son éperon",
+        body: "La vieille ville occupe un promontoire de roche qui s'avance dans la Manche, ceinturé de remparts, avec ses rues pavées et ses maisons de granit tournées contre le vent. La comparaison qu'on entend souvent sur place, un rocher habité qui ressemblerait à celui de Monaco, dit surtout la géographie : une ville posée sur un caillou, séparée du continent par une pente, et qui regarde la mer de partout. On y monte à pied depuis le port, par des rampes et des escaliers qui sont la seule vraie difficulté de la visite. Le tour des remparts se fait en une heure et offre une vue continue sur la baie du Mont-Saint-Michel, les îles Chausey par temps clair et le port en contrebas."
+      },
+      {
+        heading: "2. Une ville fondée par les Anglais en 1440",
+        body: "C'est le fait qui explique tout le reste et il est contre-intuitif. Pendant la guerre de Cent Ans, les Anglais entreprennent en 1440 de fortifier le promontoire et d'y bâtir une église, avec du granit amené des îles Chausey, pour tenir une place forte face au Mont-Saint-Michel, qui leur résiste. La ville change de mains peu après et devient française, mais son plan, son emplacement et sa raison d'être datent de ce chantier anglais. Autrement dit, Granville existe parce que le Mont-Saint-Michel n'est jamais tombé. Pour un visiteur, cela transforme la promenade sur les remparts : on ne regarde pas une défense contre l'Angleterre, on marche sur un ouvrage anglais retourné contre ses constructeurs."
+      },
+      {
+        heading: "3. L'église Notre-Dame-du-Cap-Lihou",
+        body: "L'église de la Haute Ville est bâtie en granit de Chausey, en gothique flamboyant, et son chantier commence en 1440 en même temps que les fortifications, ce qui en fait le second témoin de la fondation anglaise. Elle domine la pointe du Roc et sert de repère depuis la mer autant que depuis la ville. L'intérieur, sobre et massif, correspond à ce que le matériau et le climat permettaient : ici la pierre n'est pas un calcaire tendre qu'on sculpte à volonté, c'est du granit, et cela se voit dans chaque détail. C'est aussi une église de marins, avec les dévotions et les ex-voto qui vont avec, et cela suffit à la distinguer d'une collégiale de l'intérieur des terres."
+      },
+      {
+        heading: "4. La Grande Porte et le logis du Roi",
+        body: "L'entrée de la Haute Ville se fait par la Grande Porte, au sud, face au port : un passage fortifié avec son pont-levis, daté de 1625. Elle ouvre sur le logis du Roi, résidence du gouverneur de la ville, qui abrite aujourd'hui des fonctions muséales. Le dispositif est intact et se lit d'un coup d'œil : on comprend où était la limite, comment on filtrait, et pourquoi la ville haute a gardé son caractère fermé alors que la ville basse s'est étalée. C'est le point de départ logique de la visite, parce qu'on entre par où l'on entrait, et non par le côté commode qu'un parking aurait choisi."
+      },
+      {
+        heading: "5. Le musée Christian Dior et la villa Les Rhumbs",
+        body: "C'est le seul musée labellisé Musée de France consacré à un couturier, et il occupe la maison d'enfance de Christian Dior, la villa Les Rhumbs, posée sur la falaise face à la mer. Le lieu compte autant que la collection : c'est ici que le futur couturier a grandi, et son goût s'est formé devant cette façade et ce jardin. Le musée présente chaque été une exposition de modèles de haute couture, dessinés par Dior puis par ses successeurs à la tête de la maison ; le principe d'une exposition temporaire annuelle est en place depuis 1997. Les collections permanentes réunissent croquis, photographies, parfums et objets personnels. Les dates d'ouverture suivent le rythme de l'exposition et ne couvrent pas toute l'année : on vérifie avant de venir."
+      },
+      {
+        heading: "6. Le jardin de la villa, dessiné par Madeleine Dior",
+        body: "Le jardin qui entoure la villa a été conçu par Madeleine Dior, la mère du couturier, dans le goût anglais, et il est aujourd'hui l'un des rares jardins d'artiste du début du XXe siècle conservés. Il vaut la visite pour lui-même : la pergola, les massifs, la roseraie et surtout la position, en surplomb direct de la mer, dans un vent que peu de plantes supportent. Christian Dior a répété que ce jardin avait formé son œil et son vocabulaire, et l'on peut suivre ce fil sans y croire aveuglément : ce qui est certain, c'est que le rose de la façade et les fleurs du parterre reviennent dans la maison de couture. L'accès au jardin est plus large que celui du musée, ce qui en fait une bonne option hors saison d'exposition."
+      },
+      {
+        heading: "7. Le carnaval, inscrit à l'UNESCO",
+        body: "Le carnaval de Granville a été inscrit sur la liste représentative du patrimoine culturel immatériel de l'humanité le 30 novembre 2016, lors de la onzième session du comité de l'UNESCO réunie à Addis-Abeba. Il se tient les jours qui précèdent le Mardi gras, réunit une quarantaine de chars et attire de l'ordre de cent mille spectateurs. Son origine est maritime : il marquait le départ des marins pour la campagne de pêche à Terre-Neuve, ce qui explique sa date et sa fonction, une fête avant une absence de plusieurs mois. La satire y est centrale, les chars visant l'actualité locale et nationale. C'est le seul moment de l'année où la ville est pleine en plein hiver, et l'hébergement se réserve très en avance."
+      },
+      {
+        heading: "8. Les îles Chausey, accessibles depuis Granville",
+        body: "L'archipel de Chausey se rejoint en bateau depuis le port de Granville, et il ne fait pas partie du centre : c'est une excursion à la journée, réglée par les horaires de marée et non par un horaire de bus. La formule locale veut qu'il y ait trois cent soixante-cinq îlots à marée basse et une cinquantaine à marée haute ; ces nombres sont une manière de dire l'ampleur du marnage plutôt qu'un relevé cadastral, et il vaut mieux les prendre ainsi. C'est de ces rochers qu'est venu le granit de la Haute Ville. La Grande Île est la seule habitée et se parcourt à pied. Les traversées sont annulées par gros temps et les horaires changent chaque jour avec la marée : on regarde le calendrier avant de bâtir une journée dessus."
+      },
+      {
+        heading: "9. La pointe du Roc et le sentier littoral",
+        body: "La pointe du Roc ferme la Haute Ville au nord-ouest et porte le phare et le sémaphore. C'est le meilleur point de vue du secteur, avec la baie d'un côté et le large de l'autre, et le sentier littoral y passe. La roche est franche, la falaise n'est pas partout protégée, et le vent y est réellement fort : on reste sur le tracé balisé, ce qui n'est pas une précaution de style sur une pointe exposée. Le marnage de la baie du Mont-Saint-Michel est parmi les plus importants d'Europe, et la mer descend et remonte vite : ce qui vaut pour les grèves vaut aussi pour les rochers du pied de falaise, où l'on peut se laisser surprendre."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Granville a une gare, terminus d'une ligne directe depuis Paris-Montparnasse, ce qui en fait l'une des stations balnéaires normandes les plus faciles à atteindre sans voiture. Une journée suffit pour la Haute Ville, l'église, la Grande Porte et le musée Dior. Deux jours si l'on ajoute Chausey, qui prend une journée entière. Le Mont-Saint-Michel est visible depuis les remparts et se trouve dans la même baie, mais c'est une autre commune et une autre excursion, à ne pas glisser dans le même après-midi. La bonne saison est large ici, de mai à septembre pour la mer et les bateaux, et l'hiver pour le carnaval, la ville n'ayant pas de morte-saison complète."
+      }
+    ],
+    relatedCities: ["granville", "saint-lo", "cherbourg", "bayeux"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-lo-2026",
+      "10-choses-a-faire-a-cherbourg-2026",
+      "10-choses-a-faire-a-bayeux-2026",
+      "10-choses-a-faire-a-caen-2026"
+    ],
+    tags: ["10 choses à faire à Granville", "activités Granville 2026", "que faire dans la Manche", "sorties Normandie littoral", "Haute Ville musée Christian Dior carnaval Chausey"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
