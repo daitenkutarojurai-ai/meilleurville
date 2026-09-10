@@ -336,6 +336,95 @@ export function isMeasurable(row: CityBiodiversityRaw): boolean {
 
 /* ── le rang de richesse est retiré (2026-08-10) ──────────────────────── */
 
+/* ── casiers « non identifié » de la dorsale GBIF ─────────────────────────── */
+
+/**
+ * Épithètes qui ne nomment aucun organisme. La dorsale taxonomique de GBIF
+ * porte des **casiers de rang espèce** formés « <taxon supérieur> spec » —
+ * `Animalia spec`, `Insecta spec` — où atterrissent les enregistrements
+ * identifiés seulement jusqu'à un rang élevé. Ce sont des clés d'espèce
+ * valides : elles remontent dans la facette `speciesKey` comme n'importe
+ * quelle espèce, et rien dans leur forme ne les distingue (« Animalia spec »
+ * passe un test de binôme latin — majuscule, minuscule, deux mots).
+ *
+ * Aucune épithète valide, en zoologie comme en botanique, ne s'écrit ainsi.
+ */
+const PLACEHOLDER_EPITHETS = new Set(["spec", "sp", "spp", "indet", "indets", "incertae"]);
+
+/**
+ * Ce taxon est-il un casier « non identifié » plutôt qu'une espèce ?
+ *
+ * ⚠️ **Le défaut que ce prédicat ferme** (trouvé le 2026-09-10) : `Animalia
+ * spec` était publié dans « Les espèces que vous croiserez le plus » sur les
+ * deux villes de Guyane. À **Saint-Laurent-du-Maroni il tenait le rang 1** avec
+ * 1 058 observations quand la deuxième ligne, un tyran quiquivi bien réel, en
+ * portait **58** — dix-huit fois moins. La première carte de la section disait
+ * donc au lecteur que l'animal qu'il croisera le plus autour de la ville
+ * s'appelle « Animalia spec ». Ce n'est pas un animal : c'est le casier de
+ * GBIF pour « un animal, non identifié ». À Cayenne il tenait le rang 2 avec
+ * 1 866 observations.
+ *
+ * Le casier est **une mesure de l'enquête, pas de la nature** — il dit quelle
+ * part des relevés n'a pas été identifiée — donc on ne l'efface pas : on le
+ * sort de la liste d'espèces et on publie sa part à côté, par
+ * `unidentifiedRecords()`.
+ *
+ * Le tri se fait **au site d'affichage et non dans la collecte**, comme
+ * l'inversion des scores de nuisance : la ligne brute reste ce que GBIF a
+ * répondu, et le correctif atteint le lecteur sans attendre un recrawl.
+ */
+export function isPlaceholderTaxon(sp: TopSpecies): boolean {
+  const name = (sp.scientificName ?? "").trim();
+  if (!name) return false;
+  const parts = name.split(/\s+/);
+  // Un seul mot ne peut pas être un binôme : c'est un rang supérieur.
+  if (parts.length < 2) return true;
+  return PLACEHOLDER_EPITHETS.has(parts[1].toLowerCase().replace(/\.$/, ""));
+}
+
+/**
+ * La liste d'espèces telle qu'une surface a le droit de la rendre, et les
+ * casiers écartés.
+ *
+ * **Toute surface passe par ici** — lire `row.topSpecies` directement fait
+ * republier le casier comme une espèce, exactement comme lire `raw.groups[g]`
+ * fait réapparaître le zéro des reptiles et `row.observers` le plafond de
+ * pagination.
+ */
+export function displayTopSpecies(row: CityBiodiversityRaw): {
+  species: TopSpecies[];
+  placeholders: TopSpecies[];
+} {
+  const species: TopSpecies[] = [];
+  const placeholders: TopSpecies[] = [];
+  for (const sp of row.topSpecies) (isPlaceholderTaxon(sp) ? placeholders : species).push(sp);
+  return { species, placeholders };
+}
+
+/**
+ * Observations rangées dans un casier « non identifié », et leur part du total.
+ *
+ * `null` quand la ligne n'en porte aucun **dans son haut de liste** — ce qui
+ * n'est pas la même chose que « la ville n'en a aucun » : on ne stocke que les
+ * douze premières espèces, donc un casier situé plus bas dans la facette est
+ * invisible ici. La part publiée est un **plancher**, et c'est aussi pourquoi
+ * l'effectif d'espèces distinctes de la ligne (`species`) compte au moins un
+ * non-organisme dès que ceci est non nul : la facette complète n'est pas
+ * conservée, on ne peut donc pas l'en défalquer.
+ */
+export function unidentifiedRecords(
+  row: CityBiodiversityRaw,
+): { count: number; share: number; names: string[] } | null {
+  const { placeholders } = displayTopSpecies(row);
+  if (placeholders.length === 0 || row.occurrences <= 0) return null;
+  const count = placeholders.reduce((a, s) => a + s.count, 0);
+  return {
+    count,
+    share: Math.min(1, count / row.occurrences),
+    names: placeholders.map((s) => s.scientificName ?? `GBIF ${s.key}`),
+  };
+}
+
 /**
  * Part des observations que se partagent les 5 espèces les plus enregistrées.
  * C'est le diagnostic qui a fait retirer le rang de richesse, et c'est une
@@ -343,12 +432,20 @@ export function isMeasurable(row: CityBiodiversityRaw): boolean {
  * cinq espèces (dont 48 000 contacts d'une seule pipistrelle, un détecteur
  * ultrasons automatique), à Saint-Omer 57 % sur cinq laridés comptés en colonie.
  *
+ * ⚠️ Les casiers « non identifié » en sont **exclus** depuis le 2026-09-10 : la
+ * phrase qui publie ce chiffre dit « les cinq **espèces** les plus
+ * enregistrées », et à Saint-Laurent-du-Maroni le casier `Animalia spec` tenait
+ * à lui seul 84 % du total des cinq premières lignes. Le dénominateur, lui,
+ * reste l'ensemble des observations : la question est bien quelle part de tout
+ * ce qui a été relevé tient à cinq espèces.
+ *
  * `null` quand la facette espèces est tronquée — les effectifs du haut de liste
  * sont alors exacts mais le total ne l'est pas.
  */
 export function recordConcentration(row: CityBiodiversityRaw): number | null {
-  if (row.occurrences <= 0 || row.topSpecies.length < 5) return null;
-  const top5 = row.topSpecies.slice(0, 5).reduce((a, s) => a + s.count, 0);
+  const { species } = displayTopSpecies(row);
+  if (row.occurrences <= 0 || species.length < 5) return null;
+  const top5 = species.slice(0, 5).reduce((a, s) => a + s.count, 0);
   return Math.min(1, top5 / row.occurrences);
 }
 
@@ -1157,11 +1254,70 @@ export function protectionLabel(
   return (locale === "en" ? KIND_LABEL_EN : KIND_LABEL_FR)[kind];
 }
 
+/**
+ * Ce « nom vernaculaire » est-il en réalité un **code de baguage** ?
+ *
+ * ⚠️ Le défaut que ce prédicat ferme (trouvé le 2026-09-10, une semaine après la
+ * mise en service des noms anglais) : les listes `/vernacularNames` de GBIF
+ * contiennent des référentiels de **codes alpha à quatre lettres** — ceux des
+ * schémas de baguage — déclarés en `language: eng` comme n'importe quel nom.
+ * `pickVernacular` prenait la première entrée de la langue demandée, donc le
+ * code quand il arrivait en tête. Résultat mesuré : **1 281 cartes d'espèce sur
+ * 522 des 540 pages EN** affichaient un code au lieu d'un nom, et sur **180
+ * d'entre elles c'était la première carte** de la section « The species you are
+ * most likely to see ». Trois codes font l'essentiel — `GRTI` (great tit, la
+ * mésange charbonnière) sur 497 cartes, `C F` (chaffinch, le pinson) sur 430,
+ * `COST` (common starling, l'étourneau) sur 237 — parce que ce sont justement
+ * les oiseaux les plus observés à peu près partout en France. 26 taxons au
+ * total.
+ *
+ * Le côté français n'en porte **aucun** (0 sur 412 taxons) : c'est donc aussi
+ * une divergence entre une page et sa jumelle, et c'est un pur recul — avant le
+ * 03/09 les pages EN affichaient le nom latin, exact et cherchable.
+ *
+ * La règle est étroite parce qu'aucun nom vernaculaire réel ne s'écrit tout en
+ * majuscules : la chaîne ne contient que des lettres capitales et des espaces,
+ * et fait au plus six caractères hors espaces (les codes alpha en font quatre,
+ * six en cas d'homonymie). Un chiffre ou une minuscule suffit à la disqualifier,
+ * donc « 7-spot Ladybird » et « 45 Khz Pipistrelle » passent intacts.
+ */
+export function isVernacularCode(name: string): boolean {
+  const letters = name.replace(/\s+/g, "");
+  return (
+    letters.length > 0 &&
+    letters.length <= 6 &&
+    /^[A-Z ]+$/.test(name) &&
+    /^[A-Z]+$/.test(letters)
+  );
+}
+
 /** Nom affichable d'une espèce : vernaculaire quand GBIF le fournit dans la
- *  langue voulue, nom scientifique sinon. Jamais de traduction inventée. */
+ *  langue voulue, nom scientifique sinon. Jamais de traduction inventée, et
+ *  jamais un code de baguage — voir `isVernacularCode()`. */
 export function speciesName(sp: TopSpecies, locale: "fr" | "en" = "fr"): string {
   const vernacular = locale === "en" ? sp.vernacularEn : sp.vernacularFr;
-  return vernacular ?? sp.scientificName ?? `GBIF ${sp.key}`;
+  const usable = vernacular != null && !isVernacularCode(vernacular) ? vernacular : null;
+  return usable ?? sp.scientificName ?? `GBIF ${sp.key}`;
+}
+
+/**
+ * Le nom à afficher, et le nom scientifique **seulement s'il ajoute quelque
+ * chose** — c'est-à-dire quand le premier est vernaculaire.
+ *
+ * Les deux pages testaient `sp.vernacularFr && sp.scientificName` pour décider
+ * d'imprimer le latin en sous-titre ; avec le repli ci-dessus, ce test se
+ * décorrèle de ce qui est réellement affiché et le nom latin sortirait deux
+ * fois. Une seule fonction décide donc des deux lignes.
+ */
+export function speciesDisplay(
+  sp: TopSpecies,
+  locale: "fr" | "en" = "fr",
+): { name: string; scientific: string | null } {
+  const name = speciesName(sp, locale);
+  return {
+    name,
+    scientific: sp.scientificName && sp.scientificName !== name ? sp.scientificName : null,
+  };
 }
 
 /** Ce que 10 signifie — à afficher dans la légende de chaque surface. */

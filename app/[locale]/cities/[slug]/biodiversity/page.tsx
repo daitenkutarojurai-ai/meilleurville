@@ -25,7 +25,7 @@ import {
   greenSpaceCrossBorder,
   hasBiodiversityData,
   groupLabel,
-  speciesName,
+  speciesDisplay,
   GROUP_ORDER,
   groupSpecies,
   groupSpeciesIsFloor,
@@ -40,6 +40,8 @@ import {
   type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
   recordConcentration,
+  displayTopSpecies,
+  unidentifiedRecords,
   SCORE_LEGEND_EN,
   GBIF_CREDIT,
   GBIF_URL,
@@ -218,6 +220,18 @@ export default async function BiodiversityPage({ params }: Props) {
   } = profile;
   const photo = cityPhoto(city.slug);
   const concentration = recordConcentration(raw);
+
+  // `displayTopSpecies()`, never `raw.topSpecies`: the GBIF backbone carries
+  // species-rank bins ("Animalia spec") that collect records identified only to
+  // a higher rank, and they come back through the facet like any species.
+  // Nothing in their shape gives them away — "Animalia spec" is shaped like a
+  // Latin binomial. At Saint-Laurent-du-Maroni that bin opened the list with
+  // 1,058 records against 58 for the second line, so the first card told the
+  // reader the animal they are most likely to see is called "Animalia spec".
+  // Taken out of the list and published just below for what it is: the share of
+  // the survey that was never identified, not an absence.
+  const { species: topSpecies } = displayTopSpecies(raw);
+  const unidentified = unidentifiedRecords(raw);
 
   const nb = (v: number) => v.toLocaleString("en-GB");
 
@@ -829,7 +843,7 @@ export default async function BiodiversityPage({ params }: Props) {
         </section>
       )}
 
-      {raw.topSpecies.length > 0 && (
+      {topSpecies.length > 0 && (
         <section className="relative pb-8">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
@@ -839,25 +853,41 @@ export default async function BiodiversityPage({ params }: Props) {
               The most-recorded in the area — so the easiest to spot, not the rarest.
             </p>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              {raw.topSpecies.map((sp) => (
-                <div
-                  key={sp.key}
-                  className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3"
-                >
-                  <div className="text-sm font-semibold text-[var(--text-primary)]">
-                    {speciesName(sp, "en")}
-                  </div>
-                  {sp.vernacularEn && sp.scientificName && (
-                    <div className="text-xs italic text-[var(--text-tertiary)]">
-                      {sp.scientificName}
+              {topSpecies.map((sp) => {
+                const shown = speciesDisplay(sp, "en");
+                return (
+                  <div
+                    key={sp.key}
+                    className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3"
+                  >
+                    <div className="text-sm font-semibold text-[var(--text-primary)]">
+                      {shown.name}
                     </div>
-                  )}
-                  <div className="text-[11px] text-[var(--text-tertiary)] mt-1">
-                    {sp.count.toLocaleString("en-GB")} observations
+                    {shown.scientific && (
+                      <div className="text-xs italic text-[var(--text-tertiary)]">
+                        {shown.scientific}
+                      </div>
+                    )}
+                    <div className="text-[11px] text-[var(--text-tertiary)] mt-1">
+                      {sp.count.toLocaleString("en-GB")} observations
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
+            {unidentified && (
+              <p className="mt-3 text-xs text-[var(--text-tertiary)] leading-relaxed">
+                {nb(unidentified.count)} records in this area (
+                {(unidentified.share * 100).toLocaleString("en-GB", {
+                  maximumFractionDigits: 1,
+                })}
+                %) are identified only to a higher rank, and GBIF files them under a
+                species-rank bin called &ldquo;{unidentified.names.join("”, “")}
+                &rdquo;. That is not an organism, so it is not in the list above — but it is a
+                measurement of the survey, and the distinct-species count further down counts it
+                as one species.
+              </p>
+            )}
           </div>
         </section>
       )}

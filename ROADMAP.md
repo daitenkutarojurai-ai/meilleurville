@@ -1914,7 +1914,7 @@ recensées à proximité, zones protégées.
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce ; **passe de troncature le 07/09** : la facette des observateurs, plafonnée à 2 000 sur **101 villes**, était publiée comme un décompte dans la prose et en `value` JSON-LD alors que le tableau de la même page affichait « 2 000+ » — corrigé des deux côtés, plus les insectes plafonnés de 12 villes et deux drapeaux que le collecteur calculait puis jetait. ⚠️ **Aucune collecte depuis le 28/08** : les correctifs du 03/09 (reptiles, noms anglais) n'ont toujours atteint aucun lecteur |
+| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce ; **passe de troncature le 07/09** : la facette des observateurs, plafonnée à 2 000 sur **101 villes**, était publiée comme un décompte dans la prose et en `value` JSON-LD alors que le tableau de la même page affichait « 2 000+ » — corrigé des deux côtés, plus les insectes plafonnés de 12 villes et deux drapeaux que le collecteur calculait puis jetait. **la collecte a repris les 09-10/09** (180 lignes rejouées en `queryVersion` 3 sur 540, les 360 autres suivent) — c'est le `git push` du cron qui était cassé du 27/08 au 10/09, pas le cron ; **passe sur `topSpecies` le 10/09**, le champ que les deux sous-pages rendent en cartes : un **code de baguage publié comme nom d'espèce sur 522 des 540 pages EN** (1 281 cartes, `GRTI` sur 497, `C F` sur 430, `COST` sur 237, première carte de la section sur 180 pages, zéro côté FR — donc aussi une divergence entre jumelles hreflang) et un **casier « Animalia spec » publié comme l'espèce la plus observée de Saint-Laurent-du-Maroni** (rang 1, 1 058 obs. contre 58 à la deuxième ligne ; rang 2 à Cayenne) qu'aucun test de forme ne pouvait attraper — il a l'allure d'un binôme latin. `displayTopSpecies()` et `speciesDisplay()` deviennent les seuls accès autorisés, `selftest` 54 → 74 |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
 | F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 284 entrées** (BODACC 4 244 + CatNat 40). 536 villes affichent la section, 4 masquées. RNA toujours désactivé. ⚠️ **Le collecteur n'a pas repris depuis le 27/08** (12 jours) et le tell posé au run précédent est confirmé : les **180 lignes v1 du 04-05/08 n'ont jamais été servies** (34-35 jours), donc aucune troisième passe — les deux lots des 26-27/08 étaient une intervention manuelle, pas un cron rétabli. 177 villes étiquetées « relevé non repris ». **Défaut corrigé le 08/09, dans Géorisques — la seule des trois sources jamais relue** : l'ingest CatNat lisait **une page de 50 sans `sort`** d'une histoire GASPAR qui remonte à 1982, donc une commune à longue histoire pouvait ne rien renvoyer de récent et être publiée en « on a demandé et il n'y avait rien » — **502 villes nomment Géorisques en source sans lister d'arrêté**, contre 34 qui en listent un. `collectCatnat()` pagine désormais et s'arrête à la première page courte (complet quel que soit l'ordre de tri), budget 8×50 en fil-piège, échec gradué (page 1 lève, page 2+ garde et signale `truncated`), `QUERY_VERSION` = 3. Aucune surface ne lit `truncated` tant qu'un run réel ne l'a pas confirmé ; `news:stats` **nomme** les lectures courtes. `news:selftest` 60 → **73** |
 
@@ -2489,6 +2489,91 @@ l'alerte. **La prochaine passe le dira d'elle-même**, par e-mail — ou, en tro
 demande, par `scripts/local-data-runner.sh --status`, qui donne les trois couvertures, depuis quand
 chacune n'a pas bougé, la présence des couches INPN et celle d'`ogr2ogr`. Si le cron lui-même est
 décroché, rien de tout cela ne partira : c'est la première chose à vérifier (`crontab -l`).
+
+#### Point d'étape 2026-09-10 — la collecte a repris, et elle a livré un code de baguage en guise de nom d'espèce sur 522 pages
+
+**La collecte a repris et le push est réparé.** `data/city-biodiversity.json` porte des lignes du
+**09/09 (120 villes) et du 10/09 (60)** : le rejeu en `queryVersion` 3 a commencé, **180 lignes sur
+540** sont à jour, les 360 autres datent du 05-08/08 et passeront aux prochains lots (~2 jours au
+rythme observé). Les deux correctifs du 03/09 atteignent donc enfin des lecteurs : les reptiles sont
+comptés sur 180 villes (`groupSpecies()` déclare les 360 autres « non mesuré » plutôt que zéro), et
+**6 423 entrées sur 6 480 portent un nom anglais** contre 0 il y a une semaine. Rappel de méthode
+confirmé une fois de plus : **le contrôle à faire en premier est la date des lignes, jamais leur
+nombre** — trois JSON pleins à 540/540 ne disent rien de la santé du collecteur, et c'est le
+`git push` du cron qui était cassé du 27/08 au 10/09, pas le cron.
+
+Ce run a relu ce que la collecte venait d'écrire, et **les deux défauts trouvés sont dans le même
+champ, `topSpecies`, celui que les deux sous-pages rendent en cartes sous « Les espèces que vous
+croiserez le plus » / « The species you are most likely to see ».**
+
+**① Un code de baguage publié comme un nom d'espèce sur 522 des 540 pages EN.** Les listes
+`/vernacularNames` de GBIF contiennent des référentiels de **codes alpha à quatre lettres** — ceux
+des schémas de baguage — déclarés en `language: eng` comme n'importe quel nom. `pickVernacular`
+prenait la première entrée de la langue demandée : le code, quand il arrivait en tête. Mesuré sur le
+corpus : **1 281 cartes d'espèce, 522 pages EN, et sur 180 d'entre elles c'était la première carte de
+la section.** Trois codes font l'essentiel, et ce n'est pas un hasard — ce sont les oiseaux les plus
+observés à peu près partout en France : **`GRTI`** (great tit, la mésange charbonnière) sur **497**
+cartes, **`C F`** (chaffinch, le pinson) sur **430**, **`COST`** (common starling, l'étourneau) sur
+**237** ; 26 taxons en tout. Le côté français n'en porte **aucun** (0 sur 412 taxons), donc c'était
+aussi une divergence entre une page et sa jumelle hreflang. Et c'était un **pur recul** : avant le
+03/09 les pages EN affichaient le nom latin, exact et cherchable. Le défaut est né le jour même où
+les noms anglais sont entrés en service, et a mis une semaine à être lu.
+
+**② Un casier « non identifié » publié comme l'espèce la plus observée de Saint-Laurent-du-Maroni.**
+La dorsale taxonomique de GBIF porte des **casiers de rang espèce** formés « <taxon supérieur> spec »
+— ici `Animalia spec` — où atterrissent les enregistrements identifiés seulement jusqu'à un rang
+élevé. Ce sont des clés d'espèce valides : elles remontent dans la facette `speciesKey` comme
+n'importe quelle espèce. ⚠️ **Aucun test de forme ne les attrape** : « Animalia spec » passe un test
+de binôme latin (majuscule, minuscule, deux mots), et un contrôle strict des 412 taxons du corpus a
+bien renvoyé **0 anomalie** avant qu'on regarde les noms un à un. À **Saint-Laurent-du-Maroni le
+casier tenait le rang 1** avec **1 058 observations** quand la deuxième ligne, un tyran quiquivi bien
+réel, en portait **58** — dix-huit fois moins : la première carte de la section annonçait donc au
+lecteur que l'animal qu'il croisera le plus autour de la ville s'appelle « Animalia spec ». À
+**Cayenne**, rang 2, **1 866 observations**. Le casier faussait aussi la **concentration des relevés**
+publiée juste au-dessus, celle-là même qui a fait retirer le rang de richesse le 10/08 : la phrase dit
+« les cinq **espèces** les plus enregistrées représentent N % des observations » et le casier tenait
+84 % du total des cinq premières lignes de Saint-Laurent (2,6 % → **0,5 %** après correction ; Cayenne
+6,7 % → 6,0 %).
+
+**Livré.** Deux prédicats et un accesseur obligatoire, au **site d'affichage** et non dans la collecte
+— même doctrine que l'inversion des scores de nuisance : la ligne brute reste ce que GBIF a répondu,
+et le correctif atteint le lecteur sans attendre un recrawl de sept heures.
+- `isPlaceholderTaxon()` + **`displayTopSpecies()`, seul accès autorisé à la liste d'espèces** depuis
+  une surface (même règle que `groupSpecies()` pour les zéros de reptiles et `countWithFloor()` pour
+  les plafonds : lire `row.topSpecies` fait republier le casier).
+- `unidentifiedRecords()` — le casier n'est **pas effacé** : il mesure l'enquête, pas la nature. Les
+  deux pages le publient sous la liste, avec sa part (« 1 058 observations, 2,2 % »), en disant que
+  l'effectif d'espèces distinctes plus bas le compte comme une espèce. ⚠️ La part est un **plancher** :
+  on ne conserve que les douze premières espèces, donc un casier plus bas dans la facette est
+  invisible — et la **raréfaction**, dont le vecteur est consommé à la collecte et non conservé, ne
+  peut pas être défalquée après coup. Ce dernier point demande un recrawl qui écarte les casiers à la
+  lecture de la facette.
+- `isVernacularCode()` + `speciesDisplay()` — un « nom » tout en majuscules d'au plus six lettres est
+  un code, pas un nom : repli sur le nom scientifique. `speciesDisplay()` décide des **deux** lignes
+  de la carte, parce que le test `sp.vernacularEn && sp.scientificName` qui commandait le sous-titre
+  latin se décorrèle du nom réellement affiché dès qu'il y a repli, et sortait le latin deux fois.
+- Côté collecte : `pickVernacular` saute les codes, `SPECIES_INFO_VERSION` **2 → 3** (sans quoi le
+  cache disque resservait « GRTI » indéfiniment), et `fillNames` gagne sa **seule** exception à la
+  règle « ne jamais écraser un nom déjà affiché » — un code stocké est remplacé par un vrai nom,
+  jamais par un autre code ni par `null`. C'est ce qui permet de solder le corpus en **68 requêtes**
+  au lieu d'un recrawl : la file de `npm run biodiversity:vernacular` passe de 42 à 68 clés, et
+  `local-data-runner.sh` lance déjà cette étape à chaque passe.
+- `biodiversity:stats` **nomme** les deux défauts sur le corpus (les villes portant un casier, avec
+  son rang et sa part ; les entrées portant un code, avec les taxons). `biodiversity:selftest` passe
+  de **54 à 74 contrôles**, dont celui qui écrit le piège en toutes lettres : *« le casier passe un
+  test de forme de binôme latin — c'est pourquoi la forme ne suffit pas »*.
+
+Contrôles : `npx tsc --noEmit` propre, `npm run integrity` (dont les gardes `env quartet` et
+`moteurs`), `biodiversity:selftest` 74/74, et une passe sur le corpus vérifiant que les **12 956
+cartes** rendues (540 villes × 2 locales) ne portent plus aucun code, aucun casier, et jamais le nom
+scientifique deux fois. `npm run build` non lancé, volontairement (cf. CLAUDE.md § Commands).
+
+**Ce qui n'est toujours pas couvert** : `overall` reste `null` sur les 540 villes — une seule des
+trois composantes porte encore une note, les zones protégées ; le rang de richesse (10/08) et le rang
+d'espaces verts (31/08) restent retirés et `/classements/biodiversite` n'est pas créé ; les **360
+lignes en `queryVersion` 2** n'ont pas de compte de reptiles ; les **1 281 codes sont encore dans le
+JSON** (les surfaces les refusent, la prochaine passe locale les remplace) ; et la raréfaction des
+deux villes de Guyane compte toujours un casier parmi ses espèces attendues.
 
 #### Point d'étape 2026-09-07 — un plafond de pagination publié comme une mesure sur 101 villes
 

@@ -26,7 +26,7 @@ import {
   greenSpaceCrossBorder,
   hasBiodiversityData,
   groupLabel,
-  speciesName,
+  speciesDisplay,
   GROUP_ORDER,
   groupSpecies,
   groupSpeciesIsFloor,
@@ -41,6 +41,8 @@ import {
   type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
   recordConcentration,
+  displayTopSpecies,
+  unidentifiedRecords,
   SCORE_LEGEND_FR,
   GBIF_CREDIT,
   GBIF_URL,
@@ -266,6 +268,19 @@ export default async function BiodiversitePage({ params }: Props) {
   } = profile;
   const photo = cityPhoto(city.slug);
   const concentration = recordConcentration(raw);
+
+  // `displayTopSpecies()` et jamais `raw.topSpecies` : la dorsale GBIF porte des
+  // casiers de rang espèce (« Animalia spec ») où tombent les enregistrements
+  // identifiés seulement jusqu'à un rang supérieur, et ils remontent dans la
+  // facette comme n'importe quelle espèce. Rien dans leur forme ne les trahit —
+  // « Animalia spec » a l'allure d'un binôme latin. À Saint-Laurent-du-Maroni
+  // celui-là ouvrait la liste, 1 058 observations contre 58 à la deuxième ligne,
+  // et la première carte de la section annonçait donc au lecteur que l'animal
+  // qu'il croisera le plus s'appelle « Animalia spec ». Sorti de la liste et
+  // publié pour ce qu'il est juste en dessous : une part de l'enquête qui n'a
+  // pas été identifiée, pas une absence.
+  const { species: topSpecies } = displayTopSpecies(raw);
+  const unidentified = unidentifiedRecords(raw);
 
   const nb = (v: number) => v.toLocaleString("fr-FR");
 
@@ -905,7 +920,7 @@ export default async function BiodiversitePage({ params }: Props) {
       )}
 
       {/* ── Espèces les plus observées ─────────────────────────────────── */}
-      {raw.topSpecies.length > 0 && (
+      {topSpecies.length > 0 && (
         <section className="relative pb-8">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
@@ -915,25 +930,41 @@ export default async function BiodiversitePage({ params }: Props) {
               Les plus observées du secteur — donc les plus faciles à voir, pas les plus rares.
             </p>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              {raw.topSpecies.map((sp) => (
-                <div
-                  key={sp.key}
-                  className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3"
-                >
-                  <div className="text-sm font-semibold text-[var(--text-primary)]">
-                    {speciesName(sp)}
-                  </div>
-                  {sp.vernacularFr && sp.scientificName && (
-                    <div className="text-xs italic text-[var(--text-tertiary)]">
-                      {sp.scientificName}
+              {topSpecies.map((sp) => {
+                const shown = speciesDisplay(sp);
+                return (
+                  <div
+                    key={sp.key}
+                    className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3"
+                  >
+                    <div className="text-sm font-semibold text-[var(--text-primary)]">
+                      {shown.name}
                     </div>
-                  )}
-                  <div className="text-[11px] text-[var(--text-tertiary)] mt-1">
-                    {sp.count.toLocaleString("fr-FR")} observations
+                    {shown.scientific && (
+                      <div className="text-xs italic text-[var(--text-tertiary)]">
+                        {shown.scientific}
+                      </div>
+                    )}
+                    <div className="text-[11px] text-[var(--text-tertiary)] mt-1">
+                      {sp.count.toLocaleString("fr-FR")} observations
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
+            {unidentified && (
+              <p className="mt-3 text-xs text-[var(--text-tertiary)] leading-relaxed">
+                {nb(unidentified.count)} observations du secteur (
+                {(unidentified.share * 100).toLocaleString("fr-FR", {
+                  maximumFractionDigits: 1,
+                })}{" "}
+                %) ne sont identifiées qu&apos;à un rang supérieur, et GBIF les range dans un
+                casier de rang espèce nommé « {unidentified.names.join(" », « ")} ». Ce
+                n&apos;est pas un organisme, donc il ne figure pas dans la liste ci-dessus — mais
+                c&apos;est une mesure de l&apos;enquête, et l&apos;effectif d&apos;espèces
+                distinctes plus bas le compte comme une espèce.
+              </p>
+            )}
           </div>
         </section>
       )}

@@ -2899,6 +2899,42 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     lien de fiche n'est affiché. Pour le rebrancher un jour, la BD TOPO porte le code MNHN dans
     `identifiants_sources`.
 
+  - **État au 2026-09-10 — la collecte a repris, et elle a livré un code de baguage en guise de nom
+    d'espèce sur 522 pages EN.** Lignes du **09/09 (120 villes) et du 10/09 (60)** : le rejeu en
+    `queryVersion` 3 a commencé, **180/540** sont à jour, 6 423 entrées sur 6 480 portent enfin un nom
+    anglais. Le collecteur n'était pas mort — c'est le `git push` du cron qui l'était, du 27/08 au
+    10/09. Ce run a relu ce que la collecte venait d'écrire, et **les deux défauts trouvés sont dans
+    le même champ, `topSpecies`**, celui que les deux sous-pages rendent en cartes.
+    ① **Les listes `/vernacularNames` de GBIF contiennent des codes de baguage à quatre lettres
+    déclarés en `language: eng`**, et `pickVernacular` prenait la première entrée : **1 281 cartes sur
+    522 des 540 pages EN** affichaient un code, **première carte de la section sur 180 d'entre elles**
+    — `GRTI` (mésange charbonnière) sur 497, `C F` (pinson) sur 430, `COST` (étourneau) sur 237, parce
+    que ce sont les oiseaux les plus observés partout. **Zéro côté FR**, donc aussi une divergence
+    entre jumelles hreflang, et un pur recul : avant le 03/09 l'EN affichait le nom latin, exact et
+    cherchable. ② **La dorsale GBIF porte des casiers de rang espèce « <taxon supérieur> spec »** où
+    tombent les enregistrements identifiés seulement à un rang élevé : `Animalia spec` tenait le
+    **rang 1 de Saint-Laurent-du-Maroni** (1 058 obs. contre **58** à la deuxième ligne) et le rang 2
+    de Cayenne (1 866). ⚠️ **Aucun test de forme ne l'attrape** — « Animalia spec » passe un test de
+    binôme latin, et un contrôle strict des 412 taxons du corpus avait rendu 0 anomalie. Il faussait
+    aussi la **concentration des relevés** affichée juste au-dessus, celle qui a fait retirer le rang
+    de richesse (Saint-Laurent 2,6 % → **0,5 %**). Livré, **au site d'affichage et non dans la
+    collecte** (même doctrine que l'inversion des scores de nuisance : le correctif atteint le lecteur
+    sans attendre un recrawl de 7 h) : `isPlaceholderTaxon()` + **`displayTopSpecies()`, seul accès
+    autorisé à la liste d'espèces** (lire `row.topSpecies` republie le casier, comme `raw.groups[g]`
+    republie le zéro des reptiles) ; `unidentifiedRecords()`, parce que le casier **mesure l'enquête**
+    et se publie sous la liste avec sa part plutôt que d'être effacé — part qui est un **plancher**, on
+    ne garde que 12 espèces par ville ; `isVernacularCode()` + `speciesDisplay()`, qui décide des deux
+    lignes de la carte (le test `sp.vernacularEn && sp.scientificName` qui commandait le sous-titre
+    latin sortait le latin deux fois dès qu'il y avait repli). Côté collecte : `pickVernacular` saute
+    les codes, **`SPECIES_INFO_VERSION` 2 → 3** (sans quoi le cache disque resservait « GRTI »), et
+    `fillNames` gagne sa **seule** exception à « ne jamais écraser un nom déjà affiché » — un code est
+    remplacé par un vrai nom, jamais par un autre code ni par `null` : le corpus se solde en **68
+    requêtes** (`biodiversity:vernacular`, déjà dans le runner) au lieu d'un recrawl.
+    `biodiversity:stats` **nomme** les deux défauts ; `selftest` **54 → 74**. ⚠️ Non couvert : les
+    **1 281 codes sont encore dans le JSON** (les surfaces les refusent), les **360 lignes en v2** n'ont
+    pas de compte de reptiles, et la **raréfaction** des deux villes de Guyane compte toujours un
+    casier — son vecteur est consommé à la collecte, donc il faut un recrawl qui écarte les casiers à
+    la lecture de la facette.
   - **État au 2026-09-07 — un plafond de pagination publié comme une mesure sur 101 villes, et un
     collecteur muet depuis dix jours.** Aucune collecte depuis le **28/08** : `data/city-biodiversity.json`
     est inchangé au bit près, donc les 540 lignes sont encore en `queryVersion` 2 et **les deux

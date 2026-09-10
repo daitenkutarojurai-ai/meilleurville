@@ -433,23 +433,55 @@ export function rarefy(counts, n, { total = null, truncated = false } = {}) {
  *
  * Where a language carries several names (English usually does), a `preferred`
  * entry wins; otherwise the first, which is the order GBIF returns.
+ *
+ * ⚠️ …except that the list also carries **ringing alpha codes** tagged
+ * `language: eng`, and taking the first entry took the code whenever it came
+ * first. From 2026-09-03 — the day English names went live — to 2026-09-10,
+ * **1,281 species cards across 522 of the 540 EN pages showed a code instead of
+ * a name**, and on 180 of those pages it was the FIRST card: `GRTI` for the
+ * great tit (497 cards), `C F` for the chaffinch (430), `COST` for the starling
+ * (237), 26 taxa in all. The French side carried none, so it was also
+ * a divergence between a page and its twin, and a pure regression: before
+ * 03/09 the EN pages showed the Latin name, which is exact and searchable.
+ *
+ * A code is not a name, so it is skipped here rather than stored — and it is
+ * ALSO refused at the display site (`isVernacularCode()` in
+ * lib/biodiversity.ts), because the rows already written carry it and a
+ * recrawl is not what makes a fix reach a reader.
  */
+function isVernacularCode(name) {
+  const letters = String(name).replace(/\s+/g, "");
+  return (
+    letters.length > 0 &&
+    letters.length <= 6 &&
+    /^[A-Z ]+$/.test(name) &&
+    /^[A-Z]+$/.test(letters)
+  );
+}
+
 function pickVernacular(results, langs) {
   const want = new Set(langs);
   const hits = (results ?? []).filter(
-    (v) => v?.vernacularName && want.has(String(v.language ?? "").toLowerCase()),
+    (v) =>
+      v?.vernacularName &&
+      want.has(String(v.language ?? "").toLowerCase()) &&
+      !isVernacularCode(v.vernacularName),
   );
   if (!hits.length) return null;
   return (hits.find((v) => v.preferred === true) ?? hits[0]).vernacularName;
 }
 
 /**
- * Bumped when the shape of a cached species record changes, so a stale entry is
- * refetched instead of trusted. Without it the 2026-09-03 fix below would have
- * been undone by the cache: every cached record already held
- * `vernacularEn: null`, and a cache hit never asks why.
+ * Bumped when the shape — or the CONTENT RULE — of a cached species record
+ * changes, so a stale entry is refetched instead of trusted. Without it the
+ * 2026-09-03 fix below would have been undone by the cache: every cached record
+ * already held `vernacularEn: null`, and a cache hit never asks why.
+ *
+ * 3 (2026-09-10): `pickVernacular` now refuses ringing alpha codes, so every
+ *   record cached before it holds "GRTI" where a name belongs.
+ * 2 (2026-09-03): English names read from /vernacularNames.
  */
-const SPECIES_INFO_VERSION = 2;
+const SPECIES_INFO_VERSION = 3;
 
 /**
  * Scientific name, vernacular names (FR + EN) and taxonomy for a species key.
@@ -504,16 +536,56 @@ async function speciesInfo(key) {
  * the JSON. Fills holes only: a name that is already there is never overwritten,
  * so a backfill pass can never silently rewrite what the 540 FR pages display.
  * Returns true when something was actually filled.
+ *
+ * ⚠️ One exception, and only one: a stored **ringing alpha code** is not a name
+ * and is replaced. Without it the corpus keeps its 1,281 "GRTI" cards until a
+ * full recrawl — seven hours against twenty minutes of backfill — because the
+ * hole-filling rule sees a non-null string and moves on. A code is only ever
+ * replaced by a real name, never by another code and never by null.
  */
 function fillNames(sp, info) {
   let changed = false;
   for (const field of ["scientificName", "vernacularFr", "vernacularEn"]) {
-    if (sp[field] == null && info?.[field] != null) {
-      sp[field] = info[field];
-      changed = true;
-    }
+    const stored = sp[field];
+    const fresh = info?.[field];
+    if (fresh == null) continue;
+    const isCode =
+      field !== "scientificName" && typeof stored === "string" && isVernacularCode(stored);
+    if (stored != null && !isCode) continue;
+    if (isCode && isVernacularCode(fresh)) continue;
+    sp[field] = fresh;
+    changed = true;
   }
   return changed;
+}
+
+/* ── "unidentified" bins in the GBIF backbone ───────────────────────────── */
+
+/**
+ * Epithets that name no organism. The GBIF backbone carries SPECIES-RANK bins
+ * spelled "<higher taxon> spec" — `Animalia spec`, `Insecta spec` — where
+ * records identified only to a high rank end up. They are valid species keys:
+ * they come back through the `speciesKey` facet like any species, they count
+ * as one species in `species`, and they enter the rarefaction vector.
+ *
+ * Nothing in their shape betrays them — "Animalia spec" passes a Latin-binomial
+ * test (capital, lowercase, two words), which is why a shape check found none.
+ * No valid epithet, in zoology or botany, is written this way.
+ *
+ * Kept in the JSON on purpose: the bin measures the survey (how much of it was
+ * never identified), so dropping it here would destroy a real figure. It is the
+ * SURFACE that must not list it as a species — `displayTopSpecies()` in
+ * lib/biodiversity.ts. This copy exists so `stats` can name a new one loudly;
+ * `selftest` pins the two against the same cases.
+ */
+const PLACEHOLDER_EPITHETS = new Set(["spec", "sp", "spp", "indet", "indets", "incertae"]);
+
+function isPlaceholderTaxon(sp) {
+  const name = String(sp?.scientificName ?? "").trim();
+  if (!name) return false;
+  const parts = name.split(/\s+/);
+  if (parts.length < 2) return true;
+  return PLACEHOLDER_EPITHETS.has(parts[1].toLowerCase().replace(/\.$/, ""));
 }
 
 /* ── taxon resolution ───────────────────────────────────────────────────── */
@@ -774,7 +846,11 @@ async function backfillVernacular() {
   for (const row of rows) {
     for (const sp of row.topSpecies ?? []) {
       entries++;
-      if (sp.vernacularFr != null && sp.vernacularEn != null && sp.scientificName != null) continue;
+      // A code counts as missing: it is what the backfill exists to clear.
+      const holed =
+        sp.scientificName == null ||
+        [sp.vernacularFr, sp.vernacularEn].some((n) => n == null || isVernacularCode(n));
+      if (!holed) continue;
       need.set(sp.key, (need.get(sp.key) ?? 0) + 1);
     }
   }
@@ -941,6 +1017,38 @@ async function showStats() {
   log(`  species entries: ${all.length} (${distinct} distinct keys)`);
   log(`    with a French name: ${named("vernacularFr")}/${all.length}`);
   log(`    with an English name: ${named("vernacularEn")}/${all.length}`);
+  // A ringing alpha code is not a name. Rows written before 2026-09-10 hold
+  // them (`pickVernacular` took the first eng entry, which is the code for the
+  // commonest birds); the surfaces refuse them, and this count must fall to
+  // zero as the replay works through the corpus.
+  for (const f of ["vernacularFr", "vernacularEn"]) {
+    const codes = all.filter((s) => s[f] && isVernacularCode(s[f]));
+    if (!codes.length) continue;
+    const taxa = [...new Set(codes.map((s) => `${s[f]} (${s.scientificName})`))];
+    log(`    ⚠️  ${codes.length} ${f} entries are ringing codes, not names — ${taxa.length} taxa`);
+    log(`        ${taxa.slice(0, 6).join(", ")}${taxa.length > 6 ? ", …" : ""}`);
+  }
+
+  // Named, not counted. A bin that reaches a city's top list is the difference
+  // between "the species you are most likely to see" and a filing cabinet: at
+  // saint-laurent-du-maroni `Animalia spec` held rank 1 with 1,058 records
+  // against 58 for the real runner-up. The surfaces drop it from the list and
+  // publish its share instead, but the count of DISTINCT SPECIES on that row
+  // still includes it — and so does the rarefaction vector, which is consumed
+  // here and not kept, so it cannot be netted out after the fact. Fixing that
+  // needs a recrawl that excludes the bins at facet-read time.
+  const withBins = Object.entries(current)
+    .map(([slug, r]) => [slug, (r.topSpecies ?? []).filter(isPlaceholderTaxon), r])
+    .filter(([, bins]) => bins.length > 0);
+  for (const [slug, bins, r] of withBins) {
+    const n = bins.reduce((a, s) => a + s.count, 0);
+    const rank = (r.topSpecies ?? []).findIndex(isPlaceholderTaxon) + 1;
+    const pct = r.occurrences > 0 ? ((100 * n) / r.occurrences).toFixed(2) : "?";
+    log(
+      `  ⚠️  ${slug}: unidentified bin ${bins.map((s) => `"${s.scientificName}"`).join(", ")} ` +
+      `at rank ${rank} of the top list — ${n} records (${pct} % of the city), counted as a species`,
+    );
+  }
 
   const stale = rows.filter((r) => (r.queryVersion ?? 1) < QUERY_VERSION).length;
   if (stale) log(`  below queryVersion ${QUERY_VERSION} (queued for replay): ${stale}`);
@@ -968,7 +1076,8 @@ async function showStats() {
  *
  * Mirrors `protected-areas:selftest`.
  */
-function selftest() {
+async function selftest() {
+  const current = (await readJson(OUT_JSON, {})) ?? {};
   let failed = 0;
   const check = (name, cond, detail = "") => {
     if (cond) return log(`  ✓ ${name}`);
@@ -1064,6 +1173,28 @@ function selftest() {
       ["eng", "en"],
     ) === "Wood Pigeon");
   check("another language is not a match", pickVernacular(vn, ["deu", "de"]) === null);
+  // The 2026-09-10 defect: the ringing alpha code sits FIRST in the eng list for
+  // Parus major, so "first wins" published GRTI on 497 EN pages.
+  check("skips a ringing code even when it comes first",
+    pickVernacular(
+      [
+        { language: "eng", vernacularName: "GRTI" },
+        { language: "eng", vernacularName: "Great Tit" },
+      ],
+      ["eng", "en"],
+    ) === "Great Tit");
+  check("a code with a space is one too (the chaffinch's \"C F\")",
+    pickVernacular([{ language: "eng", vernacularName: "C F" }], ["eng", "en"]) === null);
+  check("a code alone yields no name, not a code",
+    pickVernacular([{ language: "eng", vernacularName: "COST" }], ["eng", "en"]) === null);
+  check("a real name in caps-free prose survives", isVernacularCode("Great Tit") === false);
+  check("a digit keeps a name readable (\"7-spot Ladybird\")",
+    isVernacularCode("7-spot Ladybird") === false);
+  check("a long acronym-shaped string is not treated as a code",
+    isVernacularCode("ABCDEFG") === false);
+  // The rows already written still carry codes — that is reported by `stats`,
+  // not asserted here: a check that cannot fail is noise in a harness whose
+  // count is read as a measure of coverage.
   check("an entry with no name is not a match",
     pickVernacular([{ language: "eng" }], ["eng", "en"]) === null);
   check("empty list → null", pickVernacular([], ["eng", "en"]) === null);
@@ -1084,6 +1215,19 @@ function selftest() {
   check("a name GBIF does not have stays null",
     fillNames(unknown, { vernacularFr: null, vernacularEn: null }) === false &&
       unknown.vernacularEn === null);
+  // The one exception to "never overwrite", added 2026-09-10: a stored ringing
+  // code is not a name. Without it the 1,281 "GRTI" cards would need a full
+  // recrawl to clear, since the hole-filling rule sees a non-null string.
+  const coded = { key: 3, scientificName: "Parus major", vernacularFr: "Mésange charbonnière", vernacularEn: "GRTI" };
+  check("a stored ringing code IS replaced by a real name",
+    fillNames(coded, { vernacularEn: "Great Tit" }) === true && coded.vernacularEn === "Great Tit");
+  check("  …and the French name beside it is left alone",
+    coded.vernacularFr === "Mésange charbonnière");
+  const stillCoded = { key: 4, scientificName: "Sturnus vulgaris", vernacularFr: null, vernacularEn: "COST" };
+  check("a code is never replaced by another code",
+    fillNames(stillCoded, { vernacularEn: "COSTA" }) === false && stillCoded.vernacularEn === "COST");
+  check("nor blanked when GBIF returns nothing",
+    fillNames(stillCoded, { vernacularEn: null }) === false && stillCoded.vernacularEn === "COST");
 
   log("taxon groups");
   // The 2026-09-03 defect: a class key that matches nothing empties its bucket
@@ -1100,6 +1244,37 @@ function selftest() {
     GROUPS.every((g) => (g.taxonKeys?.length ?? 0) > 0 || (g.taxa?.length ?? 0) > 0));
   check("the six groups are the six the surfaces render",
     GROUPS.map((g) => g.id).join(",") === "birds,mammals,insects,amphibians,reptiles,plants");
+
+  log("unidentified bins");
+  // The defect of 2026-09-10: this exact string sat at rank 1 of
+  // saint-laurent-du-maroni's "species you are most likely to see", and the
+  // selftest above already used it as a name-fill example without anyone
+  // noticing it is not a species at all.
+  check("\"Animalia spec\" is a bin, not a species",
+    isPlaceholderTaxon({ scientificName: "Animalia spec" }));
+  check("so is \"Insecta spec\"", isPlaceholderTaxon({ scientificName: "Insecta spec" }));
+  check("so is an abbreviated \"Carex sp.\"", isPlaceholderTaxon({ scientificName: "Carex sp." }));
+  check("a bare higher rank is one too", isPlaceholderTaxon({ scientificName: "Aves" }));
+  // A shape test cannot do this job: the bin is spelled exactly like a binomial.
+  check("the bin passes a Latin-binomial shape test — which is why shape is not enough",
+    /^[A-Z][a-z]+ [a-z]+$/.test("Animalia spec"));
+  check("a real binomial is kept", !isPlaceholderTaxon({ scientificName: "Pitangus sulphuratus" }));
+  check("a trinomial is kept",
+    !isPlaceholderTaxon({ scientificName: "Motacilla alba alba" }));
+  check("an epithet that merely starts with 'sp' is kept",
+    !isPlaceholderTaxon({ scientificName: "Carex spicata" }) &&
+      !isPlaceholderTaxon({ scientificName: "Buteo speciosus" }));
+  check("a missing name is not a bin (the surface falls back to the key)",
+    !isPlaceholderTaxon({ scientificName: null }));
+  // The corpus, so a new bin shows up here and not on a city page.
+  const binRows = Object.entries(current ?? {}).filter(([, r]) =>
+    (r.topSpecies ?? []).some(isPlaceholderTaxon),
+  );
+  check(
+    `the corpus carries ${binRows.length} row(s) with a bin in the top list`,
+    binRows.length <= 2,
+    `${binRows.map(([s]) => s).join(", ")} — run stats, then check the surfaces name them`,
+  );
 
   log("rarefaction — closed forms");
   // Enumerated by hand: subsamples of 2 from {A,A,B,B} are AA, BB and 4×AB,
@@ -1166,7 +1341,7 @@ function selftest() {
 // without the CLI firing a crawl on import.
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   if (cmd === "stats") await showStats();
-  else if (cmd === "selftest") selftest();
+  else if (cmd === "selftest") await selftest();
   else if (cmd === "probe") await probe();
   else if (cmd === "vernacular") await backfillVernacular();
   else await crawlBatch();
