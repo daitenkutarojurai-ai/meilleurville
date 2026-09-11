@@ -7712,18 +7712,53 @@
       "slug": "moving-to-lille-2026",
       "title": "Moving to Lille in 2026: the 1930s house that eats your sofa",
       "emoji": "📦"
+    },
+    {
+      "slug": "things-to-do-in-verdun-2026",
+      "title": "Things to do in Verdun: the battlefield is not in the town",
+      "emoji": "🕊️"
+    },
+    {
+      "slug": "things-to-do-in-vaison-la-romaine-2026",
+      "title": "Things to do in Vaison-la-Romaine: a Roman town you can walk through",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-senlis-2026",
+      "title": "Things to do in Senlis: where the Capetian dynasty started",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-dinard-2026",
+      "title": "Things to do in Dinard: the Breton resort the British built",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "things-to-do-in-briancon-2026",
+      "title": "Things to do in Briançon: the highest town in France",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "things-to-do-in-figeac-2026",
+      "title": "Things to do in Figeac: the town that produced Champollion",
+      "emoji": "📜"
+    },
+    {
+      "slug": "things-to-do-in-granville-2026",
+      "title": "Things to do in Granville: the Norman town the English founded",
+      "emoji": "⚓"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 260
+      "count": 267
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 254
+      "count": 261
     },
     {
       "slug": "moving-to-france",
@@ -7748,7 +7783,7 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 55
+      "count": 56
     },
     {
       "slug": "buying-property-france",
@@ -7768,12 +7803,12 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 47
+      "count": 48
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 41
+      "count": 42
     },
     {
       "slug": "ile-de-france",
@@ -7816,24 +7851,24 @@
       "count": 29
     },
     {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
-      "count": 28
-    },
-    {
       "slug": "brittany",
       "label": "brittany",
-      "count": 27
+      "count": 28
     },
     {
       "slug": "normandy",
       "label": "normandy",
-      "count": 27
+      "count": 28
     },
     {
       "slug": "provence",
       "label": "provence",
-      "count": 27
+      "count": 28
+    },
+    {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 28
     },
     {
       "slug": "relocation",
@@ -8011,6 +8046,11 @@
       "count": 8
     },
     {
+      "slug": "alps",
+      "label": "alps",
+      "count": 7
+    },
+    {
       "slug": "car-free-holidays-france",
       "label": "car-free holidays france",
       "count": 7
@@ -8034,11 +8074,6 @@
       "slug": "toulouse",
       "label": "toulouse",
       "count": 7
-    },
-    {
-      "slug": "alps",
-      "label": "alps",
-      "count": 6
     },
     {
       "slug": "itinerary",

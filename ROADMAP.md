@@ -3761,6 +3761,159 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 11/09 — tourisme batch 47 EN (+7), la série refermée à 261/261
+
+`npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans
+jumelle) : la parité de **routes** tient, le run porte donc sur l'écart de **corpus**.
+
+**Le trou du jour est celui que le brief nomme en premier : une série FR a grossi la veille et
+sa jumelle EN était exactement d'autant en retard.** Le batch 46 FR du 10/09 a porté
+`10-choses-a-faire-a[ux]*-` à 261 pendant que `things-to-do-in-` restait à 254. Les 7 villes
+manquantes sont **mesurées et non recopiées du journal** : diff des deux listes de slugs après
+application de la table de correspondance des articles contractés (`puy-en-velay`→`le-puy-en-velay`,
+`tampon`→`le-tampon`, `francois`→`le-francois`, `robert`→`le-robert`, `lamentin`→`le-lamentin`,
+`cannet`→`le-cannet`, `abymes`→`les-abymes`, `sables-d-olonne`→`les-sables-d-olonne`) —
+**Verdun, Vaison-la-Romaine, Senlis, Dinard, Briançon, Figeac, Granville**, zéro orphelin dans
+l'autre sens. Après ce run : **FR 261 / EN 261**, `EN_GUIDES` 894 → 901.
+
+Aucun slug hors gabarit : les sept villes prennent « à » sans contraction, donc la règle du
+batch 33 (**côté EN le slug se dérive du slug de seed tel quel**) n'avait rien à arbitrer, et le
+slug de seed est bien **`briancon`** sans cédille. `metaTitle` 34-45 caractères, `metaDesc`
+141-149, 8 sections par guide (la série FR en compte 10, l'EN fusionne les fins de liste),
+**0 em-dash** sur les sept réunis, aucune figure en `/10`, aucun horaire, aucun tarif. Aucun tag
+neuf — les 7 réutilisent `grand-est`, `provence`, `hauts-de-france`, `brittany`, `alps`,
+`occitanie`, `normandy` ; `search-index.en.json` reste à **114 tags**, donc aucune page `/tags/`
+créée, et `sitemap:check` confirme EN 28 786 → **28 793 URL**, soit exactement les 7 guides neufs
+(FR inchangé à 29 211).
+
+**Contrôle de lookup passé sur les 540 villes et les 261 guides de la série, pas seulement sur le
+lot** : **261/261 atteignables** depuis une page ville, **0 orphelin, 0 collision**, chacun pourvu
+de sa photo d'en-tête (`guideCityPhoto`). ⚠️ Le premier passage a signalé
+`things-to-do-in-clermont-l-herault-2026` en orphelin : c'était le **script de contrôle** qui était
+naïf, pas le corpus — il testait le seul slug de seed et ignorait `citySlugElisions()`, l'export
+que le batch 44 a précisément ajouté pour ce cas (le seed élide un article que le guide garde).
+Un contrôle de parité doit appeler le **même** résolveur que la page (`getEnGuide(slug)` puis
+`citySlugElisions(slug)`), sinon il rouvre en fausse alerte le défaut qu'on vient de fermer.
+
+⚠️ **Seize figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le contrôle
+mécanique les remontera à chaque run, ne pas les « corriger ».** 202 figures, 186 retrouvées ;
+les 16 restantes sont vérifiées en ligne avant écriture et relèvent de la matière propre à
+l'angle anglophone que le batch 46 avait explicitement demandée.
+
+① **Verdun** (`1918`, `26,000`, `14,246`) — les quatre points de vigilance du batch 46 partaient
+de « Verdun est de l'histoire américaine et britannique autant que française », et le guide en
+tire **deux sections que le FR n'a pas**. Côté britannique : l'offensive de la Somme était prévue
+pour le **1ᵉʳ août 1916** et a été avancée au **1ᵉʳ juillet** à la demande française, dans le but
+principal de détourner des divisions allemandes de Verdun — autrement dit le pire jour de
+l'histoire de l'armée britannique a eu lieu ce jour-là à cause de ce qui se passait sur ces
+crêtes, et les deux lieux se visitent d'ordinaire comme s'ils relevaient de deux guerres
+différentes. Côté américain : l'offensive **Meuse-Argonne** du **26 septembre 1918** à
+l'armistice a engagé environ **1,2 million** d'Américains et coûté plus de **26 000** vies, ce qui
+en fait la bataille la plus meurtrière de l'histoire des États-Unis, et le cimetière américain de
+**Romagne-sous-Montfaucon** porte **14 246** sépultures, le plus grand cimetière militaire
+américain d'Europe. ⚠️ Il est à **une quarantaine de kilomètres au nord-ouest de Verdun**, donc
+**bien au-delà des sites de 1916** : le guide en fait une **troisième** sortie et pas une extension
+de la deuxième, dans la continuité exacte de la prudence qui structure le guide FR (le champ de
+bataille n'est pas dans la ville).
+
+② **Dinard** (`1871` ×2, `1887`) — point de vigilance nº 2 du batch 46, honoré : la fondation
+britannique de la station ouvre l'intro, et deux sections neuves la documentent au lieu de
+l'affirmer. **Saint Bartholomew's**, bâtie en **1871** à l'angle de la rue des Cèdres et de la
+**rue Faber**, premier office le **16 novembre 1871**, est la **première et toujours la seule
+église anglicane de l'ouest de la France** ; la rue porte le nom des **Faber**, Américains
+installés au milieu du siècle qui achetaient du terrain et le revendaient à leurs amis anglais,
+assez nombreux pour justifier un consul britannique. Et le **Dinard Golf**, fondé en **1887**,
+dessiné par **Tom Dunn**, **deuxième plus ancien club de France après Pau**, créé par des
+résidents britanniques dont des familles d'officiers rentrées d'Inde et d'Égypte — ⚠️ il est à
+**Saint-Briac-sur-Mer**, commune voisine, donc écrit « accessible depuis » et non « situé à ».
+⚠️ La **date de fondation de la station** est **volontairement omise** : les sources consultées
+donnent 1835 et le début des années 1850 pour l'arrivée des Faber, le guide écrit « au milieu du
+siècle » et ne tranche pas. Même doctrine que le décompte des victimes de la crue de Vaison.
+
+③ **Figeac** (`1819`, `1822`, `1823`) — point de vigilance nº 4 du batch 46 : la pierre de Rosette
+au British Museum devait être le point de départ du guide EN, et elle l'est dès la première ligne
+de l'intro. Le guide ajoute surtout **la moitié anglaise du déchiffrement, que rien à Figeac ne
+mentionne** : **Thomas Young** publie un déchiffrement partiel dans l'*Encyclopaedia Britannica*
+en **1819**, trois ans avant l'annonce de Champollion, ayant lu les noms de Ptolémée et de
+certaines reines, saisi le caractère fondamentalement phonétique des hiéroglyphes et dégagé un
+alphabet pour le démotique ; la *Lettre à M. Dacier* de **1822** minimise ostensiblement ce
+travail, Young était dans la salle à Paris, et il répond en **avril 1823** par un livre au
+sous-titre *Including the Author's Original Alphabet, As Extended by Mr Champollion*. Le guide
+conclut ce qu'il faut en conclure et pas davantage : la percée est de Champollion, le terrain sur
+lequel il se tenait n'était pas vide.
+
+④ **Granville** (`1947`) — point de vigilance nº 3 du batch 46 (fondation anglaise de 1440) déjà
+porté par le FR, repris et retourné côté EN : « on ne regarde pas une défense contre l'Angleterre,
+on marche sur un ouvrage anglais retourné contre ses constructeurs ». Deux ajouts propres :
+**Dior** présenté par la date que le lecteur anglophone connaît, le **12 février 1947**, quand
+**Carmel Snow**, du *Harper's Bazaar*, dit que les robes ont « such a new look » et fixe le nom
+anglais de la silhouette ; et la **liaison saisonnière Granville-Jersey**, environ **1 h 20**,
+piétons seulement, écrite comme une **règle opposable** — Jersey est une **dépendance de la
+Couronne britannique, ni au Royaume-Uni ni dans l'UE**, donc franchissement de frontière,
+formalités de passeport et franchises douanières à régler avant d'embarquer et non sur le quai.
+Même traitement que la frontière suisse au batch 41 et les DROM hors Schengen au batch 33.
+
+⑤ **Vaison-la-Romaine** (`13`, `1967`) et ⑥ **Briançon** (`1911`, `2 058`) — deux villes que le
+batch 46 n'avait pas dotées d'un angle, et qui en avaient un. Pour Vaison, le **mont Ventoux**
+que le guide FR se contente de citer comme point de vue est, pour un lecteur britannique, le lieu
+où **Tom Simpson est mort le 13 juillet 1967** pendant le Tour, mémorial à un kilomètre sous le
+sommet — ⚠️ écrit « accessible depuis » avec ses trois ascensions classiques depuis **Bédoin,
+Malaucène et Sault**, communes distinctes, et donné comme une journée à part. Pour Briançon, le
+**Galibier**, franchi pour la première fois par le Tour le **10 juillet 1911**, s'atteint d'ici par
+le **col du Lautaret à 2 058 m**, et la ville est sur la **Route des Grandes Alpes** ; l'intro
+rend par ailleurs le système bastionné par son équivalent connu du lecteur (les *star forts* de
+Berwick-upon-Tweed), comme le batch 45 l'avait fait avec les forts Palmerston pour Séré de
+Rivières.
+
+**Les prudences des guides FR sont reprises telles quelles, à ne pas diluer** : le **champ de
+bataille n'est pas à Verdun** (ossuaire, Mémorial, forts et Fleury nommés par leur commune, une
+section entière avant toute description) ; **pas de Choralies en 2026** (triennal, 25ᵉ édition du
+30 juillet au 17 août 2025, suivante du 26 juillet au 3 août 2028) ; le **décompte des victimes de
+la crue de Vaison du 22 septembre 1992 n'est pas tranché**, « plusieurs dizaines dans le
+Haut-Vaucluse » et rien de plus ; les **villas de Dinard sont des propriétés privées**, regardées
+depuis la rue, « et cela ne se discute pas » ; les **arènes de Senlis** et ses **trois musées
+municipaux** à ouverture instable renvoyés à une vérification préalable, comme la **villa Eugénie**,
+le **Centre mondial de la paix**, le **monument à la Victoire** et le **musée Dior** hors saison
+d'exposition ; le **parc national des Écrins** et les **Grands Bains du Monêtier** (Le
+Monêtier-les-Bains) accessibles depuis Briançon sans y être situés, avec la réglementation de cœur
+de parc donnée comme **opposable** et les orages d'après-midi comme la règle ; la **Grande
+Gargouille n'est pas une gargouille** ; **Saint-Malo**, **les îles Chausey**, **Giverny-comme**
+Saint-Cirq-Lapopie et la vallée du Célé traités en excursions ; **falaises et bords de mer**
+(pointe du Roc, sentier des douaniers, pointe du Moulinet) avec le balisage qui fait foi et le
+rappel que le **marnage de la baie du Mont-Saint-Michel est parmi les plus forts d'Europe** ; et
+les **aiguilles de Figeac** laissées à leur hypothèse non tranchée, sans rapport inventé avec
+l'Égypte.
+
+⚠️ **Une section neuve pour Senlis, et elle est datée sans être chiffrée** (`1914` ×2) : le guide
+FR ne dit rien de 1914, alors que la ville est occupée le **1ᵉʳ septembre 1914** pendant la marche
+sur Paris, que le maire **Eugène Odent** est fusillé le **2 septembre** avec un groupe
+d'habitants, et que la contre-attaque française et britannique de la **Marne, du 6 au 12
+septembre**, retourne l'avance allemande. **Le nombre de fusillés n'est pas cité** : les sources
+consultées donnent cinq, six et « plusieurs », le guide écrit « un groupe d'habitants » et dit
+qu'il ne tranche pas. Et le guide **n'écrit pas** que Senlis fut le point le plus avancé de la
+marche allemande, affirmation qui circule et qu'aucune source consultée n'établit pour cette
+commune.
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands de `CLAUDE.md` depuis le
+batch 27 : 4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal
+utile). Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**,
+`npm run integrity` (guides EN 894 → 901), `search-index` + `search-index:check`,
+`sitemap:check`, `npm run parity` (**code 0**), `npm run hreflang:check`, plus le contrôle de
+lookup / photo exhaustif ci-dessus, le contrôle de figures et une vérification d'encodage
+(accents intacts, aucun `m2` / `EUR` / `deg` ascii, aucun mojibake, aucune guillemet courbe).
+⚠️ Note d'environnement, reconfirmée et élargie : le conteneur de routine démarre **en HEAD
+détaché et sans `node_modules`** — `git checkout main` puis `npm install` d'abord. Et **un
+fragment d'objet laissé dans `scratch/*.ts` fait sortir `tsc` en rouge sur des erreurs de syntaxe
+qui ne sont pas des régressions** : les brouillons d'insertion vont dans le scratchpad hors du
+dépôt, pas dans l'arbre que `tsc` balaie.
+
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Il reste **279 villes
+du seed sur 540 sans guide tourisme** (mesure du batch 46, inchangée ce run puisque aucun guide FR
+n'a été écrit). Gisements nommés restants : **Saint-Herblain** (écarté au batch 34 faute de
+matière), les **trois banlieues bordelaises** jamais faites (Villenave-d'Ornon, Talence,
+Le Bouscat) et les trous listés au batch 46 — **Langres, Saint-Rémy-de-Provence, La Baule,
+Morlaix, Sélestat, Dax, Obernai, Aubusson, Saverne, Vendôme, Douarnenez, Quiberon, Céret**.
+
 ### Livré le 10/09 — `single-parent-holidays-[city]-2026` batch 4 (+8), et un composite qui avait dérivé sur 11 guides FR
 
 `npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans

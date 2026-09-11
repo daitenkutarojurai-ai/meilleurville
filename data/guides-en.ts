@@ -37997,6 +37997,364 @@ export const EN_GUIDES: EnGuide[] = [
     ],
   },
 
+  {
+    slug: "things-to-do-in-verdun-2026",
+    title: "Things to do in Verdun: the battlefield is not in the town",
+    metaTitle: "Things to Do in Verdun, Meuse (2026)",
+    metaDesc:
+      "Seven kilometres of galleries under the citadel, a cathedral consecrated in 1147, and the battlefield that lies ten kilometres outside the town.",
+    category: "city-guide",
+    emoji: "🕊️",
+    readMinutes: 8,
+    publishedAt: "2026-09-11",
+    updatedAt: "2026-09-11",
+    intro:
+      "Verdun is a name before it is a place, and that is the problem. Almost everyone who comes here has read about 1916, and almost everyone assumes the battlefield begins where the train stops. It does not. The fighting took place on the ridges north-east of town, in communes that are not Verdun, and the ossuary, the memorial, the ruined forts and the destroyed villages all need a vehicle and half a day. The town itself has its own history, a thousand years older than the battle: an imperial bishopric, a medieval river gate, a cathedral consecrated in 1147. Verdun had 16,610 residents at the 2022 census against 17,913 in 2016 and 18,291 in 2011, which is 9.2 per cent fewer in eleven years. The whole department is shrinking, so this is not a verdict on the town. This guide keeps the town and the battlefield apart, because running them together is the single commonest mistake made in planning a trip here.",
+    sections: [
+      {
+        heading: "First, the geography nobody tells you",
+        body: "The battle of Verdun began on 21 February 1916 and ended on 18 December of the same year. It was fought on the heights to the north-east, on the territory of other communes. The Douaumont ossuary, the Verdun Memorial, the forts of Douaumont and Vaux and the village sites are therefore an excursion, not a walk: allow half a day at the very least, and arrange a car, a shuttle or an organised tour before you arrive. You cannot do them on foot from the station. This site names things by the commune they are actually in, here as everywhere, because the alternative is somebody missing a train. Build the trip as two halves, one in the town and one on the ridges, and it works. Treat it as one destination and you will spend the afternoon looking for a monument that is ten kilometres away.",
+      },
+      {
+        heading: "The underground citadel, and the Unknown Soldier",
+        body: "This is the most impressive thing that is genuinely inside the town. Between 1886 and 1893 the army cut a network of galleries under sixteen metres of rock beneath the upper citadel. By 1914 it ran to nearly four kilometres; by the end of the war, seven. It could shelter two thousand men and worked as shelter, command post and supply base at once, with its own bakery and stores. You go down it now on a guided route. One fact is worth knowing before you enter. On 9 November 1920 eight coffins were brought into these galleries, and the next day, in a tunnel fitted out as a chapel, the ceremony took place that chose the Unknown Soldier who has lain under the Arc de Triomphe ever since. The most visited grave in France was picked here, underground.",
+      },
+      {
+        heading: "The cathedral and its cloister",
+        body: "Verdun is a very old bishopric and the cathedral says so. Pope Eugene III consecrated it on 11 November 1147. The architect Garin reworked the eastern choir between 1136 and 1160 and gave it two doorways, the Lion portal and the Saint-Jean portal, along with a hall crypt flanked by two lateral crypts. It has been a listed monument since 30 October 1906, and the cloister beside it was listed separately on 13 July 1907. Come for the crypt and for the plan with two opposed choirs, an arrangement that comes from the Rhineland and is a reminder that Verdun spent centuries facing the Empire as much as the kingdom of France. If you have spent the day on the battlefield, keep this for last. It lowers the temperature, and the town stops being merely the car park for something else.",
+      },
+      {
+        heading: "The porte Chaussée, the Victory monument and the peace centre",
+        body: "Two round towers planted at the water's edge with a vaulted passage between them: the porte Chaussée has stood since 1380 and is the town before 1916. It guarded the approach from the right bank of the Meuse and is now the best landmark in the centre. Five centuries separate it from the 1886 galleries, and Verdun is one of the few places where you can look at both inside an hour. Above the centre, seventy-three steps climb to the Victory monument, begun in 1926 and unveiled on 23 March 1929, by the architects Léon Chesnay and Louis-Alfred Berthémy with sculpture by Jean Boucher. It is the only large commemorative monument inside the town, and the top of the staircase is the best view over the roofs. The old bishop's palace next to the cathedral now houses the World Centre for Peace, Liberties and Human Rights, worth the detour for its semicircular courtyard alone. Like the monument, it has seasonal opening and periods of works, so check before making a special trip for either.",
+      },
+      {
+        heading: "The Douaumont ossuary and the national cemetery",
+        body: "The ossuary is the best known monument of the whole site and it is on the battlefield, beside the national cemetery, not in Verdun. The foundation stone was laid on 22 August 1920 and it was inaugurated on 7 August 1932, nearly twelve years of building, to designs by the architects Léon Azéma, Max Edrei and Jacques Hardy. The cemetery next to it was created in 1923 on a parcel of 14.438 hectares taken from the commune of Fleury-devant-Douaumont. The ossuary holds the remains of men who could not be identified, French and German together, which is the hardest fact to keep in your head while standing there and the most useful one to take away. The lantern tower can be climbed, and the view down over the recesses and the crosses explains the scale better than any number.",
+      },
+      {
+        heading: "The Verdun Memorial, the forts, and Fleury",
+        body: "The Memorial is a separate institution from the ossuary and stands at Fleury-devant-Douaumont, also on the battlefield. Its foundation stone was laid in June 1963 at the initiative of veterans, and it was completely rebuilt in a campaign that finished in 2016. Do this one first if you have only half a day: it supplies the narrative, the chronology and the objects, where the ossuary supplies the feeling and the forts supply the ground. The reverse order works badly, because you arrive at the forts without knowing what you are looking at. Fort Douaumont, which fell to the Germans as early as 25 February 1916, and Fort Vaux can both be visited and each needs a good hour. Fleury itself was flattened in 1916: the village changed hands sixteen times between June and August, was never rebuilt, and is still legally a commune with a council appointed by the prefect. Markers show where the houses stood in ground that has never settled. Nothing makes the year more concrete than a village plan with no village in it.",
+      },
+      {
+        heading: "Why the Somme was brought forward",
+        body: "Here is the connection that makes Verdun part of British history, and nothing on the ground spells it out. The Anglo-French offensive on the Somme had been planned for 1 August 1916. When the Germans attacked at Verdun in February, the French pressed for the date to be moved up, and it was: the attack went in on 1 July 1916, chiefly to pull German divisions away from Verdun by threatening them somewhere else. In other words the worst day in the history of the British Army happened when it did because of what was happening on these ridges. If you have stood in a Commonwealth cemetery in Picardy, you have already been to the other end of this battle. The two places are usually visited as though they belonged to separate wars, and they do not.",
+      },
+      {
+        heading: "The Americans at Meuse-Argonne, sugared almonds, and how long to stay",
+        body: "There is a second American connection, and it is larger than most visitors expect. The Meuse-Argonne offensive ran from 26 September 1918 to the armistice on 11 November, involved roughly 1.2 million American troops and cost more than 26,000 American lives, which makes it the bloodiest battle in United States history. The Meuse-Argonne American Cemetery at Romagne-sous-Montfaucon holds 14,246 burials and is the largest American military cemetery in Europe. It is about forty kilometres north-west of Verdun, in a different commune again and well beyond the 1916 sites, so it is a third outing rather than an extension of the second. Plan it as its own morning or leave it out. To finish on something else, Verdun makes sugared almonds: tradition dates the idea to 1220, when a local apothecary coated almonds in sugar and honey to preserve them, the smooth modern shape appearing around 1600; the Braquier house was founded in 1783 and became a real factory under Léon Braquier in 1871. Allow two days for the town and the battlefield without rushing. One day is possible and tight.",
+      },
+    ],
+    relatedCities: ["verdun", "bar-le-duc", "metz", "nancy"],
+    tags: ["things to do in verdun", "verdun", "travel", "city guide", "grand-est"],
+  },
+
+  {
+    slug: "things-to-do-in-vaison-la-romaine-2026",
+    title: "Things to do in Vaison-la-Romaine: a Roman town you can walk through",
+    metaTitle: "Things to Do in Vaison-la-Romaine (2026)",
+    metaDesc:
+      "Fifteen hectares of Roman remains, a bridge that survived the 1992 flood, and a medieval town on the rock above: how to plan a day in Vaison.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-09-11",
+    updatedAt: "2026-09-11",
+    intro:
+      "If your idea of Roman remains comes from Britain, Vaison will reset it. At Verulamium or Wroxeter you look at foundations and read a board. Here you walk down paved streets between the standing walls of town houses, through a shopping quarter and a bath complex, and into a theatre that still seats an audience. Vaison-la-Romaine had 5,920 residents at the 2022 census against 6,046 in 2016 and 6,163 in 2011, so this is a small town carrying something far larger than itself: fifteen hectares of ancient remains, a Romanesque cathedral with its cloister, a walled medieval town on the rock across the river, and a Roman bridge still in daily use. It is also the French town whose name is attached to a disaster, and this guide does not walk around that.",
+    sections: [
+      {
+        heading: "Puymin, the legible half",
+        body: "Puymin is the half of the archaeological park that reads most easily. You walk through a real ancient quarter: paved streets, a run of shops, a nymphaeum laid out as basins, and a portico sanctuary framing a large colonnaded garden. Two patrician houses give the scale of local wealth. The House of the Laurelled Apollo covers about 2,000 m², the House of the Pergola about 3,000 m² over three levels. These are not country villas but town houses, which changes how you read them. Vasio, the town of the Vocontii, was the capital of a people rather than a large village, and an hour and a half of walking at Puymin is what shows you that.",
+      },
+      {
+        heading: "La Villasse, and how long the site really takes",
+        body: "La Villasse is the other half, across the avenue, and it gets skipped because it is smaller. It is the half that shows the shopping street and the baths, which is to say the ordinary town rather than its elite addresses. Together the two sites amount to some fifteen hectares of remains, eight of them open to the public, making this one of the largest accessible archaeological complexes in the country. One point of method. The ticket and the route tie both sites to the museum, and trying to do all of it in two hours means walking through Roman houses at speed. A full half-day is the honest minimum, and the site rewards a whole one.",
+      },
+      {
+        heading: "The Roman theatre",
+        body: "Built against the flank of the Puymin hill, the theatre was uncovered in 1907 by Canon Joseph Sautel, who was responsible for most of the early excavation here. Restored, it stages performances today and can hold five thousand people on its tiers. The contrast between the size of the modern town and the size of its ancient theatre is startling, and it tells you plainly what happened to a Roman provincial capital that became a sub-prefecture and then a small town. On a day with nothing on, climbing to the top row is still the best way to understand the site, because that is the one place from which you see the hill, the museum and the lower town in a single glance.",
+      },
+      {
+        heading: "The Théo-Desplans museum",
+        body: "The museum sits inside the Puymin site, which is good town planning and bad logistics if you assume you can visit it on its own. It holds what the excavations produced and what cannot be left outdoors: mosaics, imperial statuary, the objects of daily life. This is the difference between a site where you look at levelled walls and a site where you understand who lived in them. The advice on sequencing runs against habit: go into the museum in the middle of your walk round Puymin, not at the end, when you no longer have the head for a display case.",
+      },
+      {
+        heading: "The cathedral, the cloister, and a triangular apse",
+        body: "The cathedral in the lower town is a twelfth-century Romanesque building standing on reused ancient foundations that are still visible at the east end. Its cloister is the loveliest thing in Vaison after the Roman sites and the least crowded. A scrap of history explains why it survived intact: in 1464 it was decided to build a new cathedral up in the walled town, and the old one was gradually abandoned from the end of the fifteenth century. A building nobody bothers with is a building nobody remodels, and that is often what saves it. A short walk away, the chapel of Saint-Quenin carries something you will see almost nowhere else, an apse on a triangular plan, with reused ancient elements that long persuaded people it was far older than it is. Ten minutes, and it completes the cathedral by showing the same architectural vocabulary on a tiny building.",
+      },
+      {
+        heading: "The Roman bridge and the flood of 22 September 1992",
+        body: "The Roman bridge crosses the Ouvèze in a single span and links the lower town to the foot of the upper one. It has been in service since antiquity, which is quickly said and hard to grasp. On 22 September 1992 the Ouvèze rose seventeen metres in a few hours. The flood carried away whole districts, killed several dozen people in the northern Vaucluse and remains one of the deadliest natural disasters in modern France. Sources differ on the exact death toll, and this guide does not settle what the official statistics have not settled. Of the town's three bridges, one held: the Roman one, with damage to its parapet. That was not a first. A council minute of August 1616 already records repairs to the same parapet after a flood that had swept away several houses.",
+      },
+      {
+        heading: "The upper town and the counts of Toulouse",
+        body: "Cross the Ouvèze and climb. The upper town is a medieval settlement perched on its rock, with cobbled lanes, fortified gates, fountains and, at the summit, the ruin of the castle the counts of Toulouse built in the twelfth century when Vaison came into their lands. The climb is real and the paving is slippery in wet weather, so wear closed shoes. The point is not only the view towards Mont Ventoux. It is understanding that the population left the ancient plain for the safety of the heights in the Middle Ages and came back down in the modern period. Vaison is a town that moved house twice on the same spot, and you can walk both moves in an afternoon.",
+      },
+      {
+        heading: "Mont Ventoux, the Choralies that are not happening, and getting here",
+        body: "Two calendar points before you book. The theatre hosts the Choralies, the largest choral gathering in the world, run by the À Cœur Joie association since the 1950s, and it is triennial: the twenty-fifth edition ran from 30 July to 17 August 2025 and the next is announced for 26 July to 3 August 2028. There is no Choralies in 2026, and a page promising otherwise is recycling a past edition. The theatre still has a summer programme, but the festival is a one-year-in-three affair. The other point is the mountain you can see from the upper town. Mont Ventoux is not in Vaison and is not a stroll: the classic ascents start from Bédoin, Malaucène and Sault, all separate communes, and it is a day out. For British visitors it is also a pilgrimage, because Tom Simpson died on its slopes on 13 July 1967 during the Tour de France, and the memorial stands about a kilometre below the summit. Vaison has no passenger station; you come by car or coach from Orange, Carpentras or Avignon, and that is the main constraint on a stay. A full day covers both Roman sites, the museum, the cathedral and the upper town if you start early. The Tuesday market takes over the centre, is worth the trip in itself, and makes parking difficult: pick your day accordingly.",
+      },
+    ],
+    relatedCities: ["vaison-la-romaine", "orange", "carpentras", "avignon"],
+    tags: ["things to do in vaison-la-romaine", "vaison-la-romaine", "travel", "city guide", "provence"],
+  },
+
+  {
+    slug: "things-to-do-in-senlis-2026",
+    title: "Things to do in Senlis: where the Capetian dynasty started",
+    metaTitle: "Things to Do in Senlis, Oise (2026)",
+    metaDesc:
+      "One of the first Gothic cathedrals, a Roman wall still almost complete, and the castle where Hugh Capet was elected king in 987, an hour from Paris.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-09-11",
+    updatedAt: "2026-09-11",
+    intro:
+      "Senlis packs three things into five hundred metres that most towns would be glad of one of: one of the earliest Gothic cathedrals in Christendom, a third-century Roman wall preserved almost all the way round, and the spot where the first Capetian king was elected. It had 15,238 residents at the 2022 census against 14,590 in 2016 and 15,845 in 2011. That detail is worth stating because it surprises: of the seven Oise communes this site follows, Senlis is the one losing ground fastest since 2011, at 3.8 per cent, with Chantilly also falling, while Creil gains 8.2 per cent and Beauvais and Compiègne grow. The picture-postcard towns of the department are emptying while the working towns fill up. That is a fact rather than an opinion, and it takes nothing away from what is here.",
+    sections: [
+      {
+        heading: "The cathedral of Notre-Dame",
+        body: "Building started in 1153 and the church was finished in 1191. Those two dates place Senlis exactly: this is the very first generation of Gothic, the generation of Saint-Denis, Noyon and Laon, before the formula became the style of a kingdom. The cathedral is smaller than its successors and that is precisely what makes it readable, because you take in at one glance what Chartres or Amiens spread out. Its west portal, given over to the Coronation of the Virgin, is one of the earliest of its kind and served as a model for others. For anyone who has spent time in English cathedrals, this is the useful stop: it is the moment Gothic was still an experiment rather than a house style, and it is a twenty-minute building rather than a two-hour one.",
+      },
+      {
+        heading: "The Gallo-Roman wall",
+        body: "In the third century, facing raids, the town was ringed with a thick wall running about eight hundred metres, built in alternating courses of stone and brick. There were around thirty towers originally; roughly half are still standing, in very variable condition, and part of the circuit now runs through private property. This is one of the few enclosures of its type preserved almost entirely in France, and it is why Senlis is a textbook case. You follow it on foot from the street, free, in a little under an hour: you walk past gardens, turn a corner, and there it is, brick courses still visible. If you know the Roman walls of Colchester or London, this is the same idea kept far more completely.",
+      },
+      {
+        heading: "The royal castle and the election of 987",
+        body: "The remains of the royal castle back onto the Roman wall and face the cathedral, which puts temporal and spiritual power fifty metres apart. This is where Hugh Capet was elected king of the Franks in 987, the founding act of a dynasty that ruled until 1792. The castle was entirely rebuilt under Louis VI around 1130, using the Roman wall as its base, and altered in every period after that down to the early twentieth century. Royal stays are recorded from 987 through to the reign of Henri IV. So you are looking at ruins, but ruins whose precise location decided six centuries of French history. In the castle grounds, Louis IX founded a priory dedicated to Saint Maurice in 1264 to house relics brought back from the seventh crusade. Only the east range of the cloister survives, with the monks' dormitory and the chapter house; on the site of the west range an imposing commendatory abbot's residence was put up in the early eighteenth century, and that is what now holds the Musée de la Vénerie, the only French museum devoted to hunting with hounds. The collection covers a subject that divides people, and the museum treats it as a matter of history and art rather than as a cause.",
+      },
+      {
+        heading: "The Gallo-Roman arena",
+        body: "Senlis has its amphitheatre, first century, able to hold about eight thousand spectators, which is far more than the population of the ancient town: people came in from across the territory of the Silvanectes. It was rediscovered in 1865 during excavation, away from the centre, on the edge of the modern town. It is not monumental in the way Nîmes or Arles are, and you should arrive knowing what you are going to see: an ellipse of masonry and partly cleared tiers. Access is controlled and opening is limited, often by guided visit only, so ask at the tourist office rather than turning up on spec.",
+      },
+      {
+        heading: "Walking the old town",
+        body: "The centre of Senlis is done on foot and done slowly, because the paving is old and the street plan is medieval. Narrow streets, private mansions, dressed stone walls and the near-total absence of recent building inside the protected perimeter give an urban fabric of rare continuity less than an hour from Paris. That is also why film crews come here, a reputation firmly established that this guide declines to put a number on for want of a source. Early morning before the coaches, or late afternoon when the light rakes across the façades, are the two good times. Along the way, the former church of Saint-Pierre, deconsecrated since the Revolution, now serves as a hall and exhibition space, which is the most honest reuse available for a building nobody fills any more. Its tower and façade dominate the square that is still the living centre of town, and the market held there is the moment Senlis stops being a set and goes back to being a small town in the Oise with residents and traders. Timing a day trip to a market day changes the whole experience, and costs less than a museum ticket.",
+      },
+      {
+        heading: "September 1914",
+        body: "This is the part an English-speaking visitor is most likely to have read about without connecting it to the town. German troops occupied Senlis on 1 September 1914 during the advance on Paris, and on 2 September the mayor, Eugène Odent, was shot along with a group of townspeople, accused of organising civilian resistance. Sources differ on exactly how many died with him and this guide does not settle it. Days later the French and British counter-attack on the Marne, fought from 6 to 12 September, turned the German advance back, and Senlis was retaken. The reports of what happened here went round the British and American press within weeks and became part of how the war was understood abroad in its first autumn. There is a marked walking route through the town covering these events, and it is the cheapest thing on this page.",
+      },
+      {
+        heading: "The three museums and the castle park",
+        body: "Senlis has made the unusual choice, for a town of fifteen thousand, of running three municipal museums: the Vénerie already mentioned, the Museum of Art and Archaeology, and the Musée des Spahis, devoted to those cavalry units. That is a lot, and it is fragile. Institutions of this size close for works, run reduced opening days and change their displays, so check before travelling, especially out of season, and do not build a whole day around a single one. Take the Museum of Art and Archaeology first, because it explains what you are about to see outdoors. The park around the castle remains is public and gives the best perspective on the cathedral, wall and castle together, the three things that make Senlis. A few steps away, the royal chapel of Saint-Frambourg, founded in the tenth century and rebuilt in the twelfth, was saved from ruin and turned into a concert hall with contemporary stained glass. Its opening follows the concert calendar rather than museum hours, so again, check first. From outside, it can be looked at from the street in any case.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Senlis no longer has a passenger station, and that is the thing to know before setting out: you arrive by bus from Chantilly-Gouvieux or Creil station, or by car on the A1. Half a day is ample for the cathedral, the wall and the old town, which all sit within a five-hundred-metre radius. A full day if you add one or two museums and the arena. The obvious pairing is with Chantilly a few kilometres away, whose estate needs a day to itself, and trying to do both in one day is the classic trap here: you come away having properly seen neither. If you are based in Paris and want one day out that is genuinely medieval rather than genuinely royal, take Senlis on its own and give Chantilly its own date.",
+      },
+    ],
+    relatedCities: ["senlis", "chantilly", "compiegne", "beauvais"],
+    tags: ["things to do in senlis", "senlis", "travel", "city guide", "hauts-de-france"],
+  },
+
+  {
+    slug: "things-to-do-in-dinard-2026",
+    title: "Things to do in Dinard: the Breton resort the British built",
+    metaTitle: "Things to Do in Dinard, Brittany (2026)",
+    metaDesc:
+      "Hundreds of Belle Epoque villas, an Anglican church from 1871, a clifftop promenade and a British film festival, on Brittany's Emerald Coast.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-09-11",
+    updatedAt: "2026-09-11",
+    intro:
+      "Dinard is the one place on the Brittany coast where British visitors are not discovering somebody else's resort. They built it. Until the middle of the nineteenth century this was a fishing village; it became a resort because British and American families settled here, bought land, sold it on to their friends and put up villas, and the traces are everywhere once you know to look, from the street names to the only Anglican church in western France. Dinard had 10,407 residents at the 2022 census against 10,114 in 2016 and 10,230 in 2011, a gain of 1.7 per cent in eleven years, which puts it last of the four Ille-et-Vilaine communes this site follows. A resort counts residents rather than beds, and part of its housing stock shifts into second homes without anyone disappearing. What the census does not say is that Dinard holds one of the largest surviving concentrations of seaside villa architecture in France, built between 1870 and 1914. You come here for buildings as much as for the sea.",
+    sections: [
+      {
+        heading: "The promenade du Clair de Lune",
+        body: "This is the walk that organises any visit. The promenade runs along the bay of the Prieuré at the foot of the villas, between the plage de l'Écluse and the plage du Prieuré, and it was laid out in the 1930s with the declared ambition of rivalling the Riviera. Hence the planting, Mediterranean and exotic, which grows here thanks to the mildness of the Rance estuary micro-climate and which is disconcerting if you think you are walking in northern Brittany. It takes an hour at an unhurried pace. It is the only place in town where you see the villas from below, which is to say from the point of view they were designed for: they were built to be looked at from the sea.",
+      },
+      {
+        heading: "The Belle Epoque villas",
+        body: "Dinard has several hundred holiday villas put up between 1870 and 1914, and a substantial proportion of them carry monument protection. That is what makes the place valuable and what separates it from resorts that rebuilt. The vocabulary is seaside eclecticism: bow windows, turrets, mock timbering, ceramics, complicated roofs, every owner trying not to look like the neighbour. The right way to see them is not to hunt for one particular villa but to walk the pointe du Moulinet and the Malouine quarter with your head up. They are private property. You look from the street, you do not go in, and that is not open to negotiation.",
+      },
+      {
+        heading: "Saint Bartholomew's, the church the colony built",
+        body: "The clearest surviving evidence of who made this town is a small Anglican church. Saint Bartholomew's was built in 1871, on the corner of the rue des Cèdres and the rue Faber, and the first service was held on 16 November 1871. It was the first Anglican church in the west of France and it remains the only one, still holding services. The street it stands on is named after the Faber family, Americans who settled here in the middle of the century and who did more than anyone to start the resort: they bought land and sold it to their English friends, many of them from Dinan, who before long were numerous enough to justify a British consul. If you want one object that explains why a Breton fishing village ended up covered in bow windows, it is this building and the street sign outside it.",
+      },
+      {
+        heading: "The villa Eugénie and the museum",
+        body: "Built in 1868 on a promontory by the architect Jean Pichot, the villa Eugénie was meant to receive the imperial couple, who never came. That is the resort's founding anecdote and it is true: the villa is named after an empress who never lived in it. Pierre Levavasseur bought it in 1872 and left it to Dinard in 1873; it served as the town hall from 1893, then as the municipal library from 1967 to 1984, and since 13 July 1985 it has housed the museum devoted to the resort and its history. Like every municipal museum of this size it runs on seasonal opening and temporary exhibitions, so check before making the trip for it specifically.",
+      },
+      {
+        heading: "The plage de l'Écluse, its tents, and the sea-water pool",
+        body: "The plage de l'Écluse is the big town beach, framed by the pointe du Moulinet and the pointe de la Malouine, and it is the image you keep of Dinard: the rows of blue and white striped tents planted on the sand in season. They are not a photo prop but an old local practice, inherited from nineteenth-century seaside modesty, which survived here after it vanished elsewhere. The beach is supervised in season, and the bathing flags carry the same regulatory weight here as anywhere: the flag flying is what counts, including when the sea looks calm. Tides in this bay are among the strongest in Europe and the water's retreat changes everything within a few hours. Backing onto the beach, the open-air Olympic sea-water pool belongs to the history of the resort as much as the villas do. Swimming in heated sea water facing the beach is an early twentieth-century habit that few places still offer. It runs in season only, which is the sort of detail that decides your dates: between June and September Dinard gives you its seaside plant, and the rest of the year it gives you its architecture and its coast path, which is not the same town.",
+      },
+      {
+        heading: "A British film festival, and a golf club to match",
+        body: "A resort created by the British ends up running a British film festival, which is almost too neat and is nonetheless real. The Dinard Festival of British and Irish Film reaches its thirty-seventh edition, announced for 7 to 11 October 2026, and awards a Hitchcock d'Or to the best film in competition. The name is not arbitrary, the town claiming a connection with the director. It is also the only time of year the place is full outside summer, with two opposite practical consequences: the town is alive, and accommodation books up a long way ahead. The same colony left a second institution. Dinard Golf, founded in 1887 and laid out by Tom Dunn, is the second oldest golf club in France after Pau, started by British residents including army families back from India and Egypt. It is at Saint-Briac-sur-Mer, a separate commune a few kilometres west: reachable from Dinard, not situated in it.",
+      },
+      {
+        heading: "The coast path, the pointe du Moulinet and Saint-Énogat",
+        body: "The GR 34, the old customs officers' path, runs through Dinard and is the best way out of the centre. The loop round the pointe du Moulinet takes a little under an hour and gives the view everyone is after: Saint-Malo intra-muros opposite, across the estuary, with its ramparts and towers. The path then skirts the Malouine villas and drops to the beach at Saint-Énogat. The ground is uneven, not every cliff edge is fenced, and you stay on the marked route: the Emerald Coast has sound rock but abrupt edges, and the drop is longer than it looks. Saint-Énogat itself was a separate commune absorbed into Dinard, and its old village keeps the scale of a Breton village that the centre has lost. It is where you see what was here before the villas: a church, a square, stone houses, a small enclosed beach. The contrast with the Malouine, a kilometre away, is the quickest way to understand what forty years of resort-building did to this coast, and the beaches on that side are quieter in high summer.",
+      },
+      {
+        heading: "Crossing to Saint-Malo, getting here, and when to come",
+        body: "A boat shuttle links Dinard to Saint-Malo in about ten minutes in season, and that is the intelligent way to do both towns: by sea, without a car, avoiding the road detour over the Rance barrage. Saint-Malo is a commune in its own right, reachable from Dinard and not situated in it, and it needs its own day. The crossing is worth the fare on its own, because it gives the one viewpoint from which the geography of the estuary and the reason both towns exist become obvious, one corsair and closed, the other seaside and open. The service is seasonal and suspended in heavy weather. Dinard has no railway station: you arrive via Saint-Malo station and a bus or shuttle, or through the local airport, or by car. A day covers the Clair de Lune, the villas and a beach. Two or three if you add Saint-Malo, Dinan upriver and the coast path, which is the right length for the place. Season matters more here than anywhere else in this guide: July and August are saturated and expensive, October is alive thanks to the festival, and from November to March it is very quiet with part of the seaside plant shut. May, June and September remain the best compromise.",
+      },
+    ],
+    relatedCities: ["dinard", "saint-malo", "dinan", "rennes"],
+    tags: ["things to do in dinard", "dinard", "travel", "city guide", "brittany"],
+  },
+
+  {
+    slug: "things-to-do-in-briancon-2026",
+    title: "Things to do in Briançon: the highest town in France",
+    metaTitle: "Things to Do in Briançon, Hautes-Alpes (2026)",
+    metaDesc:
+      "A walled town at 1,326 metres, Vauban fortifications on the UNESCO list since 2008, and a single-span bridge finished in 1731 over the Durance gorge.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-09-11",
+    updatedAt: "2026-09-11",
+    intro:
+      "Briançon is not primarily a ski resort, whatever the brochures suggest. It is a fortress, the highest town in France at 1,326 metres, sitting where five valleys meet, and its defences have been on the UNESCO World Heritage list since 2008. If you know the star forts of Berwick-upon-Tweed or the bastioned lines of the Low Countries, you know the grammar already; what is unusual here is that the whole system was built on mountain ground, which almost nobody attempted. The town had 10,748 residents at the 2022 census against 11,950 in 2016 and 11,876 in 2011, so it gained people between 2011 and 2016 and then lost 1,202 in six years, making it the weakest of the three Hautes-Alpes communes this site follows, while Embrun gains 3.8 per cent and Gap holds steady. Part of that fall is housing converting to second homes, which a census counting residents does not pick up.",
+    sections: [
+      {
+        heading: "The Cité Vauban",
+        body: "The old town fits entirely inside its bastioned wall and is walked uphill. It is a fortified mountain town, which is rare: Vauban built a great many frontier places and very few at this altitude on this kind of relief. The wall, the gates, the steep streets and the tight houses form a fabric that was never driven through in the nineteenth century, for lack of room and lack of military reason to do it. You climb up from the lower town, and it is a real climb: put the height gain into your plan for the day, particularly in hot weather. Altitude does not spare you a hot summer in the Durance valley.",
+      },
+      {
+        heading: "The Grande Gargouille, which is not a gargoyle",
+        body: "The main street of the walled town is called the Grande Gargouille, and the name misleads every visitor who goes looking for a carving. It is the street itself. It drops steeply and carries an open channel down the middle with water running through it permanently. That central gutter is not decoration. It was a firefighting system in a town of tightly packed houses with timber roofs, and it also served for drainage and washing down. The Petite Gargouille runs parallel to it. Walking the Grande Gargouille from top to bottom, listening to the water, is the simplest way to understand how a fortified mountain town solved its daily problems.",
+      },
+      {
+        heading: "The collegiate church of Notre-Dame-et-Saint-Nicolas",
+        body: "The church in the walled town has a history of engineers rather than bishops. Its plans were drawn by the engineer Isaac Robelin, then revised and corrected by Vauban himself, and the work ran from 1703 to 1718. It was consecrated in 1726 by Monseigneur de Tencin, archbishop of Embrun, and raised to collegiate status some twenty years later. A collegiate church is one served by a college of canons rather than by a bishop, which in a garrison town is a statement about rank. Its massive look and its two squat towers follow from the brief: the building had to sit inside a defensive system and survive the climate, not dominate a plain. This is a church designed as a piece of military engineering, and that is what makes it interesting to look at after you have seen the forts.",
+      },
+      {
+        heading: "The pont d'Asfeld",
+        body: "A single arch thrown at great height across the gorge of the Durance: the pont d'Asfeld is the set piece of the site. It takes its name from the marquis d'Asfeld, director general of fortifications, who oversaw its construction. Work opened in 1729, the foundation stone was laid on 20 April 1730 at eleven in the morning, the vault was closed on 24 August, and the bridge was struck and completed in 1731, the date carried on the bronze plaque you can see on site. It was not built for the convenience of residents but to connect the town to the forts on the far bank without dropping to the bottom of the gorge. Look at it from the bridge itself, then from the path below, and the two viewpoints do not show the same structure.",
+      },
+      {
+        heading: "The forts, and what UNESCO actually listed",
+        body: "The 2008 inscription covers the network of major Vauban sites, twelve groups across France, and Briançon appears with Mont-Dauphin. What is listed here is not just the old town: it is the urban wall, the forts of Les Salettes, Trois-Têtes, Randouillet and Dauphin, the communication work known as the communication Y, and the pont d'Asfeld. It is a system, designed so each element covers the others from ridge to ridge. One point of history avoids a common misreading: a large part of these works was carried out after Vauban's death, down to 1734, but to his principles. You are visiting Vauban in the sense of a doctrine, not always in the sense of his own hand. The fort of Les Salettes is the most accessible from the walled town, on the height to the north-east, and the easiest to fit into a day without a vehicle: an hour's walk up a path, and the way back gives the best panorama over the town wall, which is finally where you see the system whole instead of visiting its parts. Access conditions vary from fort to fort, some guided only, some seasonal, some exterior viewing only, so pick up the day's programme at the tourist office rather than climbing on spec.",
+      },
+      {
+        heading: "Five valleys, Serre Chevalier, and the Galibier",
+        body: "Briançon stands at the mouth of five valleys and that is the key to everything you can do here. The Col du Lautaret and the Col du Galibier open north towards the Meije and the Oisans, the Col de Montgenèvre runs into Italy a few kilometres away, and the Queyras opens to the south. The Serre Chevalier ski area, one of the large French domains, starts upstream in the Guisane valley and runs in summer too, for walking and downhill biking. For anyone who follows cycling, this is the address: the Galibier, first crossed by the Tour de France on 10 July 1911, is reached from here over the Col du Lautaret at 2,058 metres, and Briançon sits on the Route des Grandes Alpes, the classic pass-to-pass run from Lake Geneva to the Mediterranean. One practical warning that a route planner will not give you: the high passes close in winter and open in spring, sometimes late depending on snow, which changes journey times completely.",
+      },
+      {
+        heading: "The Écrins national park and the baths, both outside town",
+        body: "The Écrins national park begins west of the town and is not inside the commune: it is an excursion, not a late-afternoon stroll. It covers one of the largest high-mountain massifs in France and its rules are national park core-zone rules, legally enforceable, covering dogs, wild camping, picking plants and leaving the paths. The valleys reachable from Briançon offer day walks, but high mountain country is not improvised: start early, read the forecast for the day rather than yesterday's, and turn back when storms are forecast, since afternoon storms in summer are the rule and not the exception. The Briançonnais also has an old spa tradition based on its sulphurous springs, and the Grands Bains du Monêtier are at Le Monêtier-les-Bains, a commune in the Guisane valley: reachable from Briançon, not situated in it. That is the useful fallback for a day of bad weather or the end of a walking trip, and it is what separates Briançon from an ordinary ski resort with nothing to offer when the weather shuts down. Numbers and time slots book up, particularly in school holidays.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Briançon has a station, the terminus of a line running up the Durance, and a night train connects it to Paris, which makes it one of the few French high-mountain towns you can reach without a car. The journey is long and that is the price of the altitude. Crossing into Italy over Montgenèvre is a Schengen internal border: no visa formality, but carry identity documents, and if you are coming from outside the EU that means your passport. Two days covers the walled town, the pont d'Asfeld and one fort; three or four if you add walking or skiing. The advice that matters most here is seasonal. At 1,326 metres the nights are cold even in July, and a summer stay needs one more layer than you would pack for Provence, which nonetheless starts two hours down the valley.",
+      },
+    ],
+    relatedCities: ["briancon", "gap", "embrun", "digne-les-bains"],
+    tags: ["things to do in briancon", "briancon", "travel", "city guide", "alps"],
+  },
+
+  {
+    slug: "things-to-do-in-figeac-2026",
+    title: "Things to do in Figeac: the town that produced Champollion",
+    metaTitle: "Things to Do in Figeac, Lot (2026)",
+    metaDesc:
+      "Champollion's birthplace, a courtyard paved with the Rosetta Stone inscription, and medieval merchant houses with open drying lofts under the roof.",
+    category: "city-guide",
+    emoji: "📜",
+    readMinutes: 7,
+    publishedAt: "2026-09-11",
+    updatedAt: "2026-09-11",
+    intro:
+      "Start with what is in London, because it decides how you read this town. The Rosetta Stone has been in the British Museum since 1802, and Figeac has the man who made it speak. Jean-François Champollion was born here on 23 December 1790, in a house that is now a museum, and the town has built a good deal around him without ever pretending to hold the object itself. Figeac had 9,757 residents at the 2022 census against 9,833 in 2016 and 9,773 in 2011, which is stable to within sixteen people over eleven years, and that alone makes it the strongest of the three Lot communes this site follows: Cahors loses 1.6 per cent and Gourdon 9.3 per cent. Coming first in a department that is emptying is not much of a feat, and it is better said plainly. What sets Figeac apart is elsewhere: an abbey town from the ninth century, a rare royal right to strike coin, and a medieval merchant fabric that has survived almost intact.",
+    sections: [
+      {
+        heading: "The Champollion museum, Writings of the World",
+        body: "The museum occupies Champollion's birthplace. It opened in 1986 and in 2007 took the name Musée Champollion, Les Écritures du Monde, changing its subject at the same time: it no longer tells only the story of the hieroglyphs but traces the history of writing since it appeared some 5,300 years ago. Around six hundred objects from across the world follow the supports, the alphabets and the systems that are not alphabets at all. It is a demanding choice and it pays off: you go in for a local hero and come out with the idea that writing was invented more than once, elsewhere, differently. The façade, covered in signs, announces the programme from the street.",
+      },
+      {
+        heading: "The place des Écritures and Joseph Kosuth",
+        body: "Behind the museum, an enclosed courtyard is entirely filled by a slab of black granite roughly 11.20 by 8.60 metres, engraved with the trilingual inscription of the Rosetta Stone in hieroglyphic, demotic and Greek. The work is called Ex-Libris, J.-F. Champollion; it is by the American conceptual artist Joseph Kosuth, commissioned in 1990 by the Fonds national d'art contemporain and made in 1991 for the bicentenary of Champollion's birth. So it is not a teaching model but a piece of contemporary art, which is why you walk on it and why there is no explanatory text cut into it. Look at it from above, from the overhanging garden, where the text becomes legible like a page.",
+      },
+      {
+        heading: "The stone itself is in London, and so is half the story",
+        body: "Say it before somebody makes the trip for the wrong reason. The Rosetta Stone is in the British Museum, where it arrived in 1802 after being handed to the British under the terms of the French capitulation at Alexandria. Figeac has the decipherer's birthplace, his house, his archives and a monumental reproduction of the inscription. It does not have the stone and never did. That separation between the object and the man who made it talk is a good introduction to what decipherment actually was: years of comparison carried out on copies, squeezes and drawings, at a distance. It also explains why the race was open to anyone with access to a good copy, and why a rival in London got a long way with one.",
+      },
+      {
+        heading: "Thomas Young, the rival Figeac does not mention",
+        body: "The English half of this story is worth carrying round the museum. Thomas Young, physician, physicist and linguist, published a partial decipherment in the Encyclopaedia Britannica in 1819, three years before Champollion's announcement. He had read the names of Ptolemy and certain queens, correctly grasped that the hieroglyphs were fundamentally phonetic, identified a set of alphabetic characters and worked out an alphabet for demotic. Champollion's Lettre à M. Dacier of 1822, the founding text of the discipline, conspicuously played Young's work down, and Young was in the audience in Paris when the announcement was made. He replied in April 1823 with a book whose subtitle, Including the Author's Original Alphabet, As Extended by Mr Champollion, was as pointed as it looks. The quarrel ran for the rest of both their lives. Nothing in Figeac tells you any of this, and knowing it makes the museum a better visit: the breakthrough belongs to Champollion, and the ground he stood on was not empty.",
+      },
+      {
+        heading: "The soleilhos and the merchant houses",
+        body: "The architectural detail that makes Figeac is at the top of the façades: the soleilho, an open loft under the roof, a gallery carried on stone or timber posts where linen, fruit and grain were dried. They are everywhere once you look up, and they give the town its particular skyline. The medieval houses you see are merchants' houses: pale sandstone fronts, carved detail, ground-floor arcades where the shop stood, living floors above. Figeac is one of the few centres where you can still read, in the stone, the complete layout of a medieval trading house from counter to drying loft. The town also had the rare royal privilege of striking coin, and the building known as the hôtel de la Monnaie keeps the name and the look, one of the finest medieval civil buildings here with its paired windows and arcades. Treat it as a document rather than a backdrop: such a privilege implies a trading place of real weight, which is what every other house in the centre is telling you. Its uses and hours have changed several times, so check what it currently is when you arrive.",
+      },
+      {
+        heading: "Saint-Sauveur, Notre-Dame-du-Puy and the view",
+        body: "Figeac was born from an abbey. Saint-Sauveur was founded around 830 by Pepin I of Aquitaine, and it was the needs of the monks that drew the first inhabitants and fixed the town around the monastery. The present abbey church carries the layers of that long history, Romanesque to begin with and much altered after, with a chapter house turned chapel that keeps a scheme of woodwork. The monastery also made Figeac a stage on the roads to Compostela, which explains the town's position at a crossroads and the walkers of the Le Puy route still coming through. That is the chronological starting point for any visit. Then climb: on the height above the centre, the church of Notre-Dame-du-Puy is the second large religious building in town, and the walk up is the best way to grasp the shape of Figeac, a valley-floor town squeezed against the Célé that spread up its slopes. It keeps a substantial carved altarpiece. The forecourt gives the overall view of the brown tile roofs and the soleilhos, the picture you miss entirely from street level. Twenty minutes of climbing tells you what three hours at ground level will not.",
+      },
+      {
+        heading: "The needles of Figeac",
+        body: "Two stone obelisks stand away from the centre, the aiguille du Cingle and the aiguille de Lissac. They date from the end of the thirteenth century, and tradition makes them boundary markers for the lands of the Saint-Sauveur abbey, the most commonly accepted explanation without being settled. They are intriguing precisely because we do not know everything about them, and this guide stops there rather than inventing a function. You reach them on foot or by car depending which one you choose, and the Cingle needle gives a view over the valley. They have nothing to do with Egypt or with Champollion, who was born five centuries later: the resemblance to an obelisk is a coincidence, and it is exactly the sort of connection the town would have every interest in drawing.",
+      },
+      {
+        heading: "The Saturday market, getting here, and how long to stay",
+        body: "The Saturday morning market fills the place Carnot and its nineteenth-century iron hall along with the surrounding streets, and it is when the town runs at full power. The Quercy is a region of strongly marked local produce, and a Lot market is not a tourist amenity: residents do their shopping there. For a visitor the interest is double, the atmosphere and the sight of an old centre being used for what it was built for, which is trade. The drawback is parking, saturated that morning in a town entered by narrow streets: park on the edge and walk. Figeac has a station on the Brive to Rodez line, a real advantage in a department that otherwise runs on cars. A day covers the Champollion museum, the place des Écritures and the medieval centre, all three within three hundred metres of each other. Two days if you want to add the Célé valley, Saint-Cirq-Lapopie or the causse caves, which are outings in neighbouring communes rather than extensions of a visit to Figeac. The town pairs well with Cahors downstream and Rodez to the east, and it is a quieter and cheaper base than Sarlat for working round the Quercy.",
+      },
+    ],
+    relatedCities: ["figeac", "cahors", "rodez", "sarlat-la-caneda"],
+    tags: ["things to do in figeac", "figeac", "travel", "city guide", "occitanie"],
+  },
+
+  {
+    slug: "things-to-do-in-granville-2026",
+    title: "Things to do in Granville: the Norman town the English founded",
+    metaTitle: "Things to Do in Granville, Normandy (2026)",
+    metaDesc:
+      "A walled town the English built in 1440 to besiege Mont-Saint-Michel, Christian Dior's childhood home, and a carnival on the UNESCO heritage list.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-09-11",
+    updatedAt: "2026-09-11",
+    intro:
+      "The founding fact here runs against every expectation, so take it first. Granville was not built by Normans against the English. It was built by the English, in 1440, as a base from which to besiege Mont-Saint-Michel, which was holding out against them. The town changed hands soon after and became French, but its plan, its site and its whole reason for existing come from that English building campaign. Granville had 12,799 residents at the 2022 census against 12,900 in 2016 and 12,999 in 2011, a very slow and very regular decline of about a hundred residents per interval, which puts it second of the three Manche communes this site follows, between Saint-Lô gaining 2.5 per cent and Cherbourg-en-Cotentin losing 4.5 per cent. The town has two faces that nothing obliges you to reconcile: a fortified upper town on its granite spur, and a nineteenth-century seaside resort below it.",
+    sections: [
+      {
+        heading: "The Haute Ville and its spur",
+        body: "The old town sits on a rock promontory pushing out into the Channel, ringed with ramparts, with cobbled streets and granite houses turned against the wind. The comparison you hear locally, an inhabited rock resembling the one at Monaco, is really about geography: a town set on a boulder, cut off from the mainland by a slope, looking at the sea from every side. You climb up from the harbour by ramps and stairs, which are the only real difficulty of the visit. The circuit of the ramparts takes an hour and gives a continuous view over the bay of Mont-Saint-Michel, the Chausey islands in clear weather, and the port below.",
+      },
+      {
+        heading: "Founded by the English in 1440",
+        body: "This is the fact that explains everything else and it is counter-intuitive. During the Hundred Years War the English set about fortifying the promontory in 1440 and building a church on it, using granite brought from the Chausey islands, in order to hold a strong point facing Mont-Saint-Michel, which was resisting them. The town passed into French hands shortly afterwards, but its layout, its site and its purpose date from that English work. Put another way, Granville exists because Mont-Saint-Michel never fell. For a visitor that transforms the walk round the ramparts: you are not looking at a defence against England, you are walking on an English work turned against its builders. It is one of the few places in France where British visitors are treading on something their own side put up and then lost.",
+      },
+      {
+        heading: "Notre-Dame-du-Cap-Lihou and the Grande Porte",
+        body: "The church of the upper town is built in Chausey granite, in flamboyant Gothic, and its construction began in 1440 at the same time as the fortifications, which makes it the second witness to the English foundation. It stands above the pointe du Roc and serves as a landmark from the sea as much as from the town. The interior, plain and heavy, matches what the material and the climate allowed: this is not a soft limestone you carve at will, it is granite, and it shows in every detail. It is a seamen's church too, with the devotions and votive offerings that go with that, which is enough to set it apart from a collegiate church inland. You enter the upper town through the Grande Porte to the south, facing the harbour, a fortified passage with its drawbridge dated 1625. It opens onto the logis du Roi, the town governor's residence, which now houses museum functions. The arrangement is intact and readable at a glance: you see where the limit was, how people were filtered, and why the upper town kept its closed character while the lower town spread. Start here, because you come in the way people came in, rather than by whichever side a car park chose.",
+      },
+      {
+        heading: "The Christian Dior museum and the villa Les Rhumbs",
+        body: "This is the only museum with Musée de France status devoted to a couturier, and it occupies Christian Dior's childhood home, the villa Les Rhumbs, set on the cliff facing the sea. The place matters as much as the collection: this is where the future couturier grew up, and his eye was formed in front of this façade and this garden. The museum shows an exhibition of haute couture each summer, designed by Dior and then by his successors at the house; the principle of an annual temporary exhibition has been running since 1997. The permanent collections bring together sketches, photographs, perfumes and personal effects. For English-speaking visitors the relevant date is 12 February 1947, when Dior showed his first collection in Paris and Carmel Snow, editor of Harper's Bazaar, said the dresses had such a new look. The phrase stuck and is now the standard English name for the silhouette. Opening follows the rhythm of the exhibition and does not cover the whole year, so check before coming.",
+      },
+      {
+        heading: "The garden Madeleine Dior designed",
+        body: "The garden round the villa was laid out by Madeleine Dior, the couturier's mother, in the English taste, and it is now one of the few surviving artist's gardens of the early twentieth century. It is worth the visit in its own right: the pergola, the beds, the rose garden and above all the position, directly overhanging the sea, in a wind few plants tolerate. Christian Dior said repeatedly that this garden formed his eye and his vocabulary, and you can follow that thread without swallowing it whole. What is certain is that the pink of the façade and the flowers of the parterre come back in the couture house. Access to the garden is broader than access to the museum, which makes it a good option outside the exhibition season.",
+      },
+      {
+        heading: "The carnival, on the UNESCO list",
+        body: "The Granville carnival was inscribed on the representative list of the intangible cultural heritage of humanity on 30 November 2016, at the eleventh session of the UNESCO committee meeting in Addis Ababa. It runs in the days before Shrove Tuesday, gathers around forty floats and draws something of the order of a hundred thousand spectators. Its origin is maritime: it marked the departure of the sailors for the Newfoundland fishing season, which explains both its date and its function, a celebration before an absence of several months. Satire is central to it, the floats aiming at local and national news. It is the only time of year the town is full in midwinter, and accommodation books a long way ahead.",
+      },
+      {
+        heading: "Chausey, Jersey, and the pointe du Roc",
+        body: "The Chausey archipelago is reached by boat from Granville harbour and is not part of the town: it is a day excursion governed by tide times rather than a bus timetable. The local formula has it that there are three hundred and sixty-five islets at low tide and about fifty at high tide; those numbers are a way of describing the tidal range rather than a land survey, and they are better taken that way. The granite of the upper town came from these rocks. The Grande Île is the only inhabited one and is walked. Crossings are cancelled in heavy weather and times shift daily with the tide, so look at the calendar before building a day round it. From the same harbour there is a seasonal passenger service to Jersey, roughly an hour and twenty minutes away, foot passengers only and no cars. Jersey is a British Crown Dependency, not part of the United Kingdom and not in the EU, so this is a border crossing with passport formalities and customs allowances, to be settled before you board rather than on the quay. Above the harbour, the pointe du Roc closes the upper town to the north-west and carries the lighthouse and the signal station. It is the best viewpoint in the area, with the bay on one side and the open sea on the other, and the coast path runs through it. The rock is sound, the cliff is not fenced everywhere, and the wind is genuinely strong: stay on the marked route, which is not a stylistic precaution on an exposed headland. The tidal range in the bay of Mont-Saint-Michel is among the largest in Europe and the sea comes in fast, which applies to the rocks at the cliff foot as much as to the sands.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Granville has a station at the end of a direct line from Paris Montparnasse, which makes it one of the easiest Normandy seaside towns to reach without a car. A day covers the upper town, the church, the Grande Porte and the Dior museum. Two days if you add Chausey, which takes a whole one. Mont-Saint-Michel is visible from the ramparts and sits in the same bay, but it is another commune and another excursion, not something to slip into the same afternoon. The good season is wide here, May to September for the sea and the boats, and winter for the carnival: the town has no complete off-season.",
+      },
+    ],
+    relatedCities: ["granville", "saint-lo", "cherbourg", "bayeux"],
+    tags: ["things to do in granville", "granville", "travel", "city guide", "normandy"],
+  },
+
+
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
