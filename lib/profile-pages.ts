@@ -77,6 +77,7 @@ type ScoreWeights = Partial<{
   mountainProximity: number;
   metroAccess: number;
   borderAccess: number;
+  airportAccess: number;
 }>;
 
 export interface ProfileDef {
@@ -361,6 +362,152 @@ export function borderAccess(city: CityLight): number {
   return Math.max(0, Math.min(10, Math.pow(raw, 1.4) * 10));
 }
 
+// Aéroports desservant la France, coordonnées en dur pour la même raison que
+// `EMPLOYMENT_HUBS` et `BORDER_HUBS` ci-dessus : ce module part dans un bundle
+// client, donc il ne tire aucune valeur d'un JSON de données. Les coordonnées
+// viennent du jeu ouvert OurAirports (domaine public), relevées par code IATA.
+//
+// ⚠️ `lib/distances` porte déjà une liste `AIRPORTS` et un
+// `computeCityDistances(city).airport`. Elle n'est pas réutilisée ici, et c'est
+// délibéré : elle ne compte que dix plateformes métropolitaines, sans la Corse,
+// sans l'outre-mer, sans Bâle-Mulhouse ni aucun aéroport étranger. Mulhouse s'y
+// voit donc rattachée à Strasbourg-Entzheim à une centaine de kilomètres alors
+// que l'EuroAirport est à cinq, et Annemasse à Lyon quand Genève est à vingt.
+// Pour une page dont c'est le critère cardinal, l'écart n'est pas acceptable —
+// mais corriger `lib/distances` déplacerait la ligne « aéroport le plus proche »
+// affichée sur les 540 fiches ville, ce qui est une autre décision.
+//
+// `tier` est le **plafond** que la plateforme peut donner, pas un score de
+// trafic : il dit ce qu'on peut faire depuis là un mardi de novembre, pas
+// combien de passagers y sont passés en août. Le barème suit le trafic 2024
+// publié par la DGAC et les exploitants (178 millions de passagers en France
+// sur l'année), mais il le traduit en usage :
+//   10   — hub de correspondance intercontinentale. Un seul en France.
+//   9    — très grand aéroport, long-courrier direct quotidien.
+//   6,5-8 — grand aéroport international (> 5 M pax) : Europe dense, quelques
+//          long-courriers, souvent saisonniers.
+//   5,5-6 — aéroport international régional (1-5 M pax) : Europe et saisonnier,
+//          correspondance obligatoire au-delà.
+//   4    — petite plateforme à lignes régulières : quelques destinations, une
+//          ou deux compagnies, saisonnalité forte.
+// Un aérodrome sans ligne commerciale régulière n'y figure pas (Mende, Vatry,
+// Angers) : l'inscrire donnerait une note d'accès aérien à une ville qui n'a
+// pas d'avion, exactement le zéro silencieux que ce dépôt corrige ailleurs.
+const AIR_HUBS: Array<{ name: string; lat: number; lon: number; tier: number }> = [
+  // Hub mondial
+  { name: "Paris-Charles-de-Gaulle", lat: 49.009, lon: 2.5541, tier: 10 },
+  // Très grands aéroports
+  { name: "Paris-Orly", lat: 48.7295, lon: 2.359, tier: 9 },
+  { name: "Barcelone-El Prat", lat: 41.2971, lon: 2.0785, tier: 9 },
+  // Grands aéroports internationaux
+  { name: "Genève", lat: 46.2381, lon: 6.109, tier: 8.5 },
+  { name: "Bruxelles-Zaventem", lat: 50.9014, lon: 4.4844, tier: 8.5 },
+  { name: "Nice-Côte d'Azur", lat: 43.6584, lon: 7.2159, tier: 8 },
+  { name: "Marseille-Provence", lat: 43.4381, lon: 5.2125, tier: 7.5 },
+  { name: "Lyon-Saint-Exupéry", lat: 45.726, lon: 5.0901, tier: 7.5 },
+  { name: "Bâle-Mulhouse", lat: 47.6007, lon: 7.5211, tier: 7 },
+  { name: "Toulouse-Blagnac", lat: 43.6291, lon: 1.3638, tier: 7 },
+  { name: "Nantes-Atlantique", lat: 47.1532, lon: -1.6107, tier: 6.5 },
+  { name: "Bordeaux-Mérignac", lat: 44.8287, lon: -0.7154, tier: 6.5 },
+  // Aéroports internationaux régionaux
+  { name: "La Réunion-Roland-Garros", lat: -20.8901, lon: 55.5189, tier: 6 },
+  { name: "Pointe-à-Pitre", lat: 16.2654, lon: -61.5328, tier: 6 },
+  { name: "Fort-de-France", lat: 14.591, lon: -61.0032, tier: 6 },
+  { name: "Luxembourg-Findel", lat: 49.6268, lon: 6.2121, tier: 6 },
+  { name: "Beauvais-Tillé", lat: 49.4544, lon: 2.1128, tier: 5.5 },
+  { name: "Lille-Lesquin", lat: 50.5666, lon: 3.1024, tier: 5.5 },
+  { name: "Montpellier-Méditerranée", lat: 43.5762, lon: 3.963, tier: 5.5 },
+  { name: "Ajaccio", lat: 41.9236, lon: 8.8029, tier: 5.5 },
+  { name: "Bastia-Poretta", lat: 42.5527, lon: 9.4837, tier: 5.5 },
+  { name: "Strasbourg-Entzheim", lat: 48.5383, lon: 7.6282, tier: 5.5 },
+  { name: "Brest-Bretagne", lat: 48.4479, lon: -4.4185, tier: 5.5 },
+  { name: "Biarritz-Pays basque", lat: 43.4684, lon: -1.5232, tier: 5.5 },
+  { name: "Cayenne-Félix-Éboué", lat: 4.82, lon: -52.3613, tier: 5 },
+  { name: "Dzaoudzi-Pamandzi", lat: -12.8093, lon: 45.2818, tier: 5 },
+  // Petites plateformes à lignes régulières
+  { name: "Rennes-Saint-Jacques", lat: 48.0695, lon: -1.7348, tier: 4 },
+  { name: "Toulon-Hyères", lat: 43.0973, lon: 6.146, tier: 4 },
+  { name: "Figari-Sud-Corse", lat: 41.5018, lon: 9.0971, tier: 4 },
+  { name: "Calvi-Sainte-Catherine", lat: 42.5304, lon: 8.793, tier: 4 },
+  { name: "Perpignan-Rivesaltes", lat: 42.7404, lon: 2.8707, tier: 4 },
+  { name: "Clermont-Ferrand-Auvergne", lat: 45.7867, lon: 3.1692, tier: 4 },
+  { name: "Grenoble-Alpes-Isère", lat: 45.3629, lon: 5.3294, tier: 4 },
+  { name: "Chambéry-Savoie", lat: 45.6381, lon: 5.8802, tier: 4 },
+  { name: "Metz-Nancy-Lorraine", lat: 48.9821, lon: 6.2513, tier: 4 },
+  { name: "Limoges-Bellegarde", lat: 45.8628, lon: 1.1794, tier: 4 },
+  { name: "Pau-Pyrénées", lat: 43.38, lon: -0.4186, tier: 4 },
+  { name: "Tarbes-Lourdes-Pyrénées", lat: 43.1787, lon: -0.0064, tier: 4 },
+  { name: "Caen-Carpiquet", lat: 49.1768, lon: -0.4549, tier: 4 },
+  { name: "Deauville-Normandie", lat: 49.3652, lon: 0.1545, tier: 4 },
+  { name: "Tours-Val-de-Loire", lat: 47.4322, lon: 0.7276, tier: 4 },
+  { name: "La Rochelle-Île-de-Ré", lat: 46.1792, lon: -1.1953, tier: 4 },
+  { name: "Poitiers-Biard", lat: 46.5877, lon: 0.3067, tier: 4 },
+  { name: "Bergerac-Dordogne", lat: 44.8253, lon: 0.5186, tier: 4 },
+  { name: "Brive-Vallée-de-la-Dordogne", lat: 45.0397, lon: 1.4856, tier: 4 },
+  { name: "Rodez-Aveyron", lat: 44.4079, lon: 2.4827, tier: 4 },
+  { name: "Aurillac", lat: 44.8914, lon: 2.4219, tier: 4 },
+  { name: "Dole-Jura", lat: 47.039, lon: 5.4276, tier: 4 },
+  { name: "Nîmes-Alès-Camargue", lat: 43.7574, lon: 4.4164, tier: 4 },
+  { name: "Carcassonne-Salvaza", lat: 43.216, lon: 2.3063, tier: 4 },
+  { name: "Béziers-Cap-d'Agde", lat: 43.3235, lon: 3.3539, tier: 4 },
+];
+
+// Détour routier appliqué à la distance à vol d'oiseau, comme dans
+// `metroAccessCommute`. On publie des kilomètres et pas des minutes : la durée
+// d'un trajet vers un aéroport dépend d'une desserte (RER B, tram, navette,
+// parking longue durée) que ce modèle ne connaît pas, et l'annoncer en minutes
+// serait un chiffre plus précis que la mesure qui le porte.
+const AIR_DETOUR = 1.25;
+const AIR_FULL_KM = 20;
+const AIR_ZERO_KM = 250;
+
+const airportCache = new Map<string, { hub: string; km: number; tier: number } | null>();
+
+/**
+ * Aéroport le mieux placé pour la ville et distance routière estimée, ou `null`
+ * quand aucune plateforme à ligne régulière n'est à moins de 250 km de route.
+ * « Le mieux placé » n'est pas « le plus proche » : c'est celui qui maximise
+ * plafond × décroissance, donc un grand aéroport un peu plus loin bat une
+ * petite plateforme d'à côté. Perpignan garde le sien, Compiègne prend Roissy.
+ */
+export function airportAccessHub(city: CityLight): { hub: string; km: number; tier: number } | null {
+  const cached = airportCache.get(city.slug);
+  if (cached !== undefined) return cached;
+
+  let best: { hub: string; km: number; tier: number; value: number } | null = null;
+  for (const h of AIR_HUBS) {
+    const km = Math.round(
+      haversineKm({ lat: city.latitude, lon: city.longitude }, { lat: h.lat, lon: h.lon }) * AIR_DETOUR,
+    );
+    if (km > AIR_ZERO_KM) continue;
+    const raw = km <= AIR_FULL_KM ? 1 : 1 - (km - AIR_FULL_KM) / (AIR_ZERO_KM - AIR_FULL_KM);
+    const value = h.tier * Math.pow(raw, 1.15);
+    if (!best || value > best.value) best = { hub: h.name, km, tier: h.tier, value };
+  }
+  const value = best ? { hub: best.hub, km: best.km, tier: best.tier } : null;
+  airportCache.set(city.slug, value);
+  return value;
+}
+
+/**
+ * Accès aérien international, sur 0-10. Produit d'un plafond de plateforme et
+ * d'une décroissance de distance : plein plafond jusqu'à 30 km de route, zéro
+ * à 250, décroissance en puissance 1,15 entre les deux — à peine plus sévère
+ * qu'une droite, parce qu'on ne va pas à l'aéroport tous les jours et qu'une
+ * heure de route reste supportable six fois par an.
+ *
+ * Conséquence assumée du plafond : **seule une ville proche de Roissy peut
+ * atteindre 10**. Ce n'est pas un biais francilien, c'est la géographie du
+ * réseau aérien français — un seul aéroport du pays offre une correspondance
+ * intercontinentale quotidienne dans toutes les directions.
+ */
+export function airportAccess(city: CityLight): number {
+  const hub = airportAccessHub(city);
+  if (!hub) return 0;
+  const raw = hub.km <= AIR_FULL_KM ? 1 : 1 - (hub.km - AIR_FULL_KM) / (AIR_ZERO_KM - AIR_FULL_KM);
+  return Math.max(0, Math.min(10, hub.tier * Math.pow(raw, 1.15)));
+}
+
 function getScoreValue(city: CityLight, key: string): number {
   // Axes seed
   if (["life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools"].includes(key)) {
@@ -378,6 +525,7 @@ function getScoreValue(city: CityLight, key: string): number {
   if (key === "mountainProximity") return mountainProximity(city);
   if (key === "metroAccess") return metroAccess(city);
   if (key === "borderAccess") return borderAccess(city);
+  if (key === "airportAccess") return airportAccess(city);
   return ownerVal(city, key);
 }
 
@@ -999,6 +1147,28 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) => {
       const b = borderCommute(c);
       return `${b ? `${b.hub} à ${b.km} km` : "aucun pôle frontalier"} · coût ${c.scores.cost.toFixed(1)} · transports ${c.scores.transport.toFixed(1)}`;
+    },
+  },
+  {
+    slug: "famille-a-l-etranger",
+    emoji: "✈️",
+    label: "Famille à l'étranger",
+    metaTitle: "Meilleures villes famille à l'étranger 2026 — Top 20",
+    metaDescription:
+      "Top 20 des villes où habiter quand la famille est à l'étranger : accès à un aéroport international, coût du logement, fibre. 540 villes comparées.",
+    intro:
+      "Famille à l'étranger : c'est le critère dont aucun comparateur de villes ne parle et qui décide pourtant de la moitié des week-ends de l'année. Un couple binational, des parents restés au pays, des enfants partis étudier à Montréal ou à Berlin, un frère installé à Dakar, une belle-famille qu'on voit trois fois par an et qu'il faut aussi pouvoir accueillir : dans tous ces cas, la question n'est pas « quelle ville me plaît » mais « depuis quelle ville puis-je partir et revenir sans que chaque trajet coûte une journée ». Ce profil ne recoupe aucun des trente-cinq autres. « Expatriés de retour » traite du retour définitif et de ses démarches, pas d'une vie qui reste à cheval sur deux pays. « Travailleurs frontaliers » mesure la distance à un bassin d'emploi étranger qu'on rejoint cinq matins par semaine, ce qui est l'inverse d'un vol six fois par an. « Actifs en hybride » vise douze pôles d'emploi français par le rail et la route, où l'avion n'entre pas. Le critère cardinal est donc l'accès aérien international, et il se mesure ici de deux façons à la fois. La première est la distance : chaque ville est rattachée à la plateforme qui lui donne le meilleur accès parmi cinquante et une, quarante-sept en France métropolitaine et outre-mer et quatre de l'autre côté d'une frontière, avec une distance routière estimée à vol d'oiseau majorée d'un quart, un plein score jusqu'à vingt kilomètres et zéro à deux cent cinquante. La seconde est le plafond de la plateforme, et c'est elle qui fait la différence avec un simple « aéroport le plus proche » : ce que permet un aéroport un mardi de novembre n'a rien à voir avec le nombre de passagers qui y transitent en août. Sur les 178 millions de passagers enregistrés en France en 2024, Paris-Charles-de-Gaulle en a porté 70,3 millions et Paris-Orly 33,1, soit 103,4 pour les deux plateformes franciliennes ; viennent ensuite Nice avec 14,7 millions, Marseille 11,2, Lyon-Saint-Exupéry 10,4, Bâle-Mulhouse 8,9, Toulouse 7,8, Nantes 7,0 et Bordeaux 6,5. Un seul aéroport français offre une correspondance intercontinentale quotidienne dans toutes les directions, et c'est Roissy : la conséquence assumée du barème est que seule une ville proche de Roissy peut atteindre 10 sur 10. Ce n'est pas un biais francilien, c'est la forme du réseau aérien français. Dix-huit villes du site y parviennent, toutes à moins de vingt kilomètres de l'aéroport, de Tremblay-en-France à six kilomètres jusqu'à Aubervilliers et Rosny-sous-Bois à vingt ; la médiane du corpus est à 5,3, et soixante villes restent sous 3. Quatre plateformes étrangères entrent dans le calcul parce qu'elles sont, pour une partie du territoire, le vrai aéroport de référence : Genève, qui a accueilli 17,8 millions de passagers en 2024 et dont le secteur français se rejoint directement depuis la France par une route douanière, Bruxelles-Zaventem, Barcelone-El Prat, Luxembourg-Findel. Bâle-Mulhouse, lui, est binational mais physiquement situé en France, sur la commune de Saint-Louis, et compte donc comme un aéroport français. Le coût du logement vient juste derrière l'accès aérien, avec un poids volontairement élevé, parce que c'est le seul profil du site où une dépense récurrente s'additionne au loyer : six billets par an pour deux personnes, et une chambre d'amis qui doit exister quand ce sont les autres qui viennent. Suivent la qualité de vie, la fibre et l'aptitude au télétravail (une part de la relation passe par l'écran entre deux voyages, et un employeur qui accepte trois semaines depuis l'étranger vaut mieux qu'un vol de plus), une demi-part de nature pour ne pas récompenser une commune entièrement minérale, et une demi-part de sécurité. Résultat : un palmarès qu'aucune autre page de ce site ne produit, et dont le recouvrement maximal avec les trente-cinq profils existants est de trois villes sur vingt. Senlis sort en tête (9,6 d'accès aérien, Roissy à 28 km, T3 à 1 030 € et mètre carré à 2 900 €), devant Saint-Claude et Gex, puis Noisy-le-Grand, Champs-sur-Marne, Noisiel, Argenteuil, Soissons, Compiègne, Les Andelys, Étampes, Torcy, Saint-Leu-la-Forêt, Chantilly, Cergy, Fontainebleau, Ivry-sur-Seine, Oyonnax, Chelles et Montmorency. Trois enseignements s'y lisent, et ils valent mieux que l'ordre. Le premier : avoir un aéroport n'est pas avoir un accès. Rennes, Limoges et Clermont-Ferrand ont chacune une piste à moins de dix kilomètres du centre et sortent à 4,0 sur 10, Lille et Montpellier à 5,5, quand Mulhouse atteint 6,8 sans aéroport municipal et Annemasse 8,5 sans aucune piste — parce que l'une a l'EuroAirport à 27 km et l'autre Genève à 14. La question n'est pas de savoir si votre ville a un aéroport, mais ce qu'on peut y prendre. Le deuxième : la frontière suisse produit les deux extrêmes du classement sur le même axe. Gex est à quatorze kilomètres de Genève, et le T3 s'y loue 1 490 € pour un mètre carré à 5 200 € ; Saint-Claude, dans le Jura, tient un accès presque équivalent avec un T3 à 720 € et un mètre carré à 1 300 €, soit le logement le moins cher du top 20 — mais la ville est passée de 10 690 habitants en 2011 à 8 556 en 2022, un cinquième de sa population en onze ans, et ce prix-là est celui d'un long déclin industriel, pas d'une bonne affaire. Il faut ajouter que la distance publiée pour Saint-Claude est une estimation à vol d'oiseau majorée d'un quart : la route réelle franchit la crête du Jura, elle est sensiblement plus longue, et l'hiver plus lente encore. Le modèle traite de la même façon une vallée jurassienne, un col alpin et la plaine de France, et c'est sa limite la plus nette. Le troisième enseignement est un avertissement, et il est la contrepartie directe du critère cardinal : ce classement ne pondère pas le bruit des avions. Les villes qui plafonnent sur l'axe sont par construction celles qui vivent sous les trajectoires, et notre estimation d'exposition sonore place Tremblay-en-France, Goussainville, Gonesse et Villiers-le-Bel au niveau le plus fort de l'échelle aérienne. Aucune des quatre n'entre dans ce top 20 : elles en sont écartées par le coût, la qualité de vie et la sécurité, pas par une pondération du bruit. La seule ville du classement dont le bruit aérien estimé dépasse la moyenne est Ivry-sur-Seine. Le mot « estimation » compte : notre indicateur de bruit se déduit de la proximité de la plateforme et de la taille de la commune, ce n'est pas un relevé acoustique. Le document qui fait foi est le plan d'exposition au bruit de l'aéroport, opposable, consultable pour chaque parcelle en mairie et sur le Géoportail de l'urbanisme, et c'est lui qu'il faut ouvrir avant de signer à moins de vingt kilomètres d'une piste. Deux dernières réserves, qui sont des mesures et non des trous. L'outre-mer d'abord : Saint-Denis de La Réunion, Fort-de-France et Pointe-à-Pitre sortent à 6,0 avec leur aéroport à moins de dix kilomètres, Cayenne et Mamoudzou à 5,0, et le chiffre est honnête sur ce qu'il mesure, une piste internationale toute proche, mais muet sur ce qu'il ne mesure pas : l'essentiel du trafic y part dans une seule direction, la métropole, à des tarifs sans rapport avec un vol européen. Saint-Laurent-du-Maroni ferme le classement de l'axe à 0,0, à 249 km de Cayenne. Côté métropole, les villes les plus enclavées ne sont ni en montagne ni sur une île : ce sont Bourges (1,3, l'aéroport de Tours à 165 km), Nevers (1,2, Clermont-Ferrand à 167 km) et Bar-sur-Aube (1,1), un triangle entre Loire moyenne, Nivernais et Champagne que l'avion a contourné. Enfin, sur la lecture du top 20 lui-même : sept villes sortent exactement à 6,9 pour les rangs 15 à 21, si bien que Domont, vingt-et-unième et absente du tableau, a la même note que Cergy, quinzième. Entre ces sept-là, l'ordre affiché n'est pas un départage.",
+    weights: {
+      airportAccess: 3.5,
+      cost: 2.5,
+      life: 1.0,
+      teletravail: 0.5,
+      nature: 0.5,
+      safety: 0.5,
+    },
+    reasonHint: (c) => {
+      const a = airportAccessHub(c);
+      return `${a ? `${a.hub} à ${a.km} km` : "aucun aéroport à moins de 250 km"} · coût ${c.scores.cost.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
     },
   },
 ];

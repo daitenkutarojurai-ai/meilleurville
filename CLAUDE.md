@@ -2318,8 +2318,8 @@ page mais aucune URL déclarée. Elle est désormais dérivée de `EXPAT_COUNTRI
 Un profil = une entrée de `PROFILE_PAGES` (slug, emoji, label, meta, intro, `weights`,
 `reasonHint`). Ajouter l'entrée suffit : `/pour-qui`, `/pour-qui/[profil]`, le sitemap et le bloc
 « parfait pour » de `lib/honest-reviews.ts` en dérivent tous les quatre. **Compteur mesuré
-(`grep -c '^    slug: "'`) : 35 profils** (2026-08-31).
-⚠️ **Avant d'ajouter un 35ᵉ profil, mesurer son bas de classement — `rankByProfile` trie sur le
+(`grep -c '^    slug: "'`) : 36 profils** (2026-09-11).
+⚠️ **Avant d'ajouter un profil, mesurer son bas de classement — `rankByProfile` trie sur le
 score *arrondi* au dixième**, donc un palier d'ex æquo est coupé en son milieu et les rangs
 qui suivent sont l'ordre d'insertion du seed, exactement le défaut que `lib/owner-rankings.ts`
 interdit ailleurs. Constaté le 2026-08-28 sur un profil candidat « horaires décalés / travail de
@@ -2334,7 +2334,66 @@ un `npx tsx` de scratch qui imprime le nombre d'ex æquo à la note du 20ᵉ. Le
 jamais pondérées par un profil, si l'on cherche un cardinal neuf : `lib/city-income.ts` (Filosofi,
 533/540), `lib/property-prices.ts` (DVF, 499/507) et la structure d'âge réelle de
 `lib/city-population.ts` (538/540).
-Dernier ajouté : **`travailleurs-frontaliers`** (2026-08-31) — le seul profil du fichier dont le
+⚠️ **Mais ces trois-là se paient au bundle client, et la note ci-dessus ne le disait pas** (mesuré
+le 2026-09-11) : `lib/profile-pages.ts` est importé **en valeur** par `PeopleLikeYouClient`, donc un
+`weights` qui lit `lib/property-prices` embarque ses 172 Ko de JSON dans le bundle de
+`/people-like-you`, `lib/city-population` 140 Ko, `lib/city-income` 38 Ko. Le seul des trois qui
+passe sans projection est l'income ; pour les deux autres, le remède est celui déjà en place pour
+`EXPAT_COUNTRY_OPTIONS` et `SEARCH_CITIES` (projection maigre descendue en props), pas un import
+direct. Un cardinal **calculé** depuis des coordonnées en dur ne coûte rien, lui : c'est le parti
+pris de `EMPLOYMENT_HUBS`, `BORDER_HUBS` et maintenant `AIR_HUBS`.
+Dernier ajouté : **`famille-a-l-etranger`** (2026-09-11) — le seul profil du fichier dont le critère
+cardinal est **l'avion**, et le premier à mesurer un accès vers l'extérieur du pays autrement qu'en
+navette quotidienne. Nouvel axe `airportAccess` / `airportAccessHub()` : **51 plateformes** (47 en
+France métropolitaine et outre-mer, 4 étrangères), coordonnées relevées par code IATA dans le jeu
+ouvert **OurAirports** (domaine public) et écrites en dur, comme `EMPLOYMENT_HUBS` et `BORDER_HUBS`,
+pour que le module reste sans données au bundle client. Le score est un produit **plafond ×
+décroissance** : distance à vol d'oiseau majorée de 1,25, plein plafond jusqu'à 20 km, zéro à 250,
+puissance 1,15 entre les deux. Quatre points de méthode à ne pas défaire : ① le `tier` dit **ce
+qu'on peut prendre un mardi de novembre**, pas le trafic d'août — il suit les chiffres 2024 (France
+178 M de passagers ; CDG 70,3 M, Orly 33,1, Nice 14,7, Marseille 11,2, Lyon 10,4, Bâle-Mulhouse 8,9,
+Toulouse 7,8, Nantes 7,0, Bordeaux 6,5, Genève 17,8) mais les traduit en usage, si bien que **seule
+une ville proche de Roissy peut atteindre 10** (18 y parviennent, toutes à moins de 20 km) ; ② un
+aérodrome **sans ligne commerciale régulière n'est pas dans la table** (Mende, Vatry, Angers) —
+l'inscrire donnerait une note d'accès aérien à une ville qui n'a pas d'avion ; ③ quatre plateformes
+étrangères entrent parce qu'elles sont le vrai aéroport de référence d'une partie du territoire
+(Genève et son secteur français, Bruxelles-Zaventem, Barcelone-El Prat, Luxembourg-Findel), tandis
+que **Bâle-Mulhouse est un aéroport français**, à Saint-Louis, malgré son statut binational ;
+④ `lib/distances` porte déjà une liste `AIRPORTS` et **elle n'est pas réutilisée**, volontairement :
+dix plateformes métropolitaines, sans la Corse, sans l'outre-mer, sans Bâle-Mulhouse ni aucun
+aéroport étranger, donc Mulhouse rattachée à Strasbourg à une centaine de kilomètres quand
+l'EuroAirport est à cinq. La corriger déplacerait la ligne « aéroport le plus proche » des 540
+fiches ville : c'est une autre décision, pas celle de ce run.
+**Ex æquo mesurés avant écriture** (contrôle prescrit ci-dessus) : 7 villes à 6,9 pour les rangs 15
+à 21, donc **Domont, 21ᵉ, a la même note que Cergy, 15ᵉ** — l'intro le dit. C'est la meilleure forme
+de coupe possible et non une exception : le comptage fait ce run donne une **médiane de 7 ex æquo au
+rang 20 sur les 35 profils existants**, et **33 sur 35** coupent à l'intérieur d'un palier. La
+convention de `lib/owner-rankings.ts` ne s'applique donc pas telle quelle ici (on ne peut pas
+raccourcir un top 20 partagé par tout le fichier) : l'usage de la section, posé par
+`travailleurs-frontaliers`, est de **mesurer le palier et de le publier dans l'intro**.
+Recouvrement maximal avec les 35 autres profils : **3/20** — le plus faible du fichier avec
+`navetteurs-hybrides`. Deux mesures portent l'éditorial : ① **avoir un aéroport n'est pas avoir un
+accès** — Rennes, Limoges et Clermont-Ferrand ont une piste à moins de 10 km et sortent à 4,0/10,
+Lille et Montpellier à 5,5, quand Mulhouse atteint 6,8 sans aéroport municipal et Annemasse 8,5 sans
+aucune piste ; ② la frontière suisse tient les deux extrêmes du même axe, Gex à 14 km de Genève avec
+un T3 à 1 490 € et un m² à 5 200 €, Saint-Claude avec un accès presque équivalent à 720 € et
+1 300 € — mais **10 690 habitants en 2011 pour 8 556 en 2022**, donc un prix de déclin et pas une
+bonne affaire.
+⚠️ **Le classement ne pondère pas le bruit des avions, et c'est dit dans l'intro** : les villes qui
+plafonnent sur l'axe sont par construction celles qui vivent sous les trajectoires. Notre estimation
+(`lib/noise-exposure`, **estimation** et non relevé acoustique — cf. le correctif du 09/09) place
+Tremblay-en-France, Goussainville, Gonesse et Villiers-le-Bel au niveau le plus fort ; **aucune des
+quatre n'est dans le top 20**, écartée par le coût et la qualité de vie et non par une pondération
+du bruit, et la seule du classement au-dessus du plancher aérien est Ivry-sur-Seine. La page renvoie
+au **plan d'exposition au bruit**, qui est le document opposable. Deux réserves publiées comme des
+mesures : l'outre-mer sort à 6,0 (Saint-Denis, Fort-de-France, Pointe-à-Pitre) et 5,0 (Cayenne,
+Mamoudzou) sur un trafic qui part **dans une seule direction**, et Saint-Laurent-du-Maroni ferme
+l'axe à 0,0 ; côté métropole les plus enclavées ne sont ni en montagne ni sur une île, ce sont
+Bourges (1,3), Nevers (1,2) et Bar-sur-Aube (1,1). Coût client mesuré à l'esbuild, axe et prose
+compris : **175 051 → 187 755 o minifiés, 49 447 → 53 564 o gzip** — aucun JSON de données ajouté.
+Aucune jumelle EN : `app/[locale]/for-who/[slug]` est une **sélection de 13 profils**, un profil FR
+sans jumelle est normal et ne demande pas de hreflang.
+Avant-dernier ajouté : **`travailleurs-frontaliers`** (2026-08-31) — le seul profil du fichier dont le
 critère cardinal pointe **hors de France**. Nouveau composite `borderAccess` / `borderCommute()` :
 distance routière estimée au plus proche de **14 pôles d'emploi transfrontaliers sur 5 pays**,
 plein score à 20 km, décroissance en puissance 1,4, zéro à 110 km — **89 villes sur 540** sont dans
