@@ -32196,47 +32196,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Pézenas est une commune de l'Hérault, 8 500 habitants à 22 km au nord-est de Béziers — surnommée la « Versailles du Languedoc ». Capitale du Languedoc historique des États provinciaux du XVIe-XVIIIe siècles (les rois de France réunissaient les états du Languedoc à Pézenas). Molière y a vécu et joué pendant 7 ans (1650-1657) — il en a tiré l'inspiration de plusieurs personnages (Le Médecin malgré lui, Tartuffe). 70 hôtels particuliers Renaissance et XVIIe siècle.",
+    intro: "Une commune de 8 500 habitants qui aligne 70 hôtels particuliers Renaissance et XVIIe siècle, cela ne s'explique que par son passé. Pézenas, dans l'Hérault, à 22 km au nord-est de Béziers, a été la capitale du Languedoc historique des États provinciaux du XVIe-XVIIIe siècles : les rois de France y réunissaient les états du Languedoc. On l'appelle la « Versailles du Languedoc ». Molière y a vécu et joué pendant 7 ans, de 1650 à 1657, et il en a tiré l'inspiration de plusieurs personnages, du Médecin malgré lui à Tartuffe.",
     sections: [
       {
         heading: "1. Le centre historique — 70 hôtels particuliers",
-        body: "Le centre historique de Pézenas (Secteur sauvegardé depuis 1965) est l'un des plus complets ensembles d'architecture Renaissance et XVIIe siècle de France — 70 hôtels particuliers conservés (Hôtel d'Alfonce où Molière a séjourné, Hôtel des Barons de Lacoste, Maison Jacques-Cœur, Hôtel de Conti). Rues pavées (rue de la Foire, rue Émile-Zola), portes sculptées, cours intérieures à arcades. Promenade libre à pied (2-3h).",
+        body: "Classé en secteur sauvegardé depuis 1965, le centre historique de Pézenas forme l'un des plus complets ensembles d'architecture Renaissance et XVIIe siècle de France, avec 70 hôtels particuliers conservés. On y visite l'Hôtel d'Alfonce, où Molière a séjourné, l'Hôtel des Barons de Lacoste, la Maison Jacques-Cœur et l'Hôtel de Conti. Le reste se regarde en marchant : rues pavées de la rue de la Foire à la rue Émile-Zola, portes sculptées, cours intérieures à arcades. La promenade est libre et demande 2 à 3 heures à pied.",
       },
       {
         heading: "2. La boutique du Barbier Gély — Molière",
-        body: "La Boutique du Barbier Gély (rue Triperie-Vieille — où Molière prenait note des manies des Languedociens chez son barbier favori) est l'un des sites emblématiques de la « cité de Molière ». La boutique est aujourd'hui un mini-musée gratuit (avec reconstitution du salon de coiffure). Les personnages observés par Molière dans cette boutique sont devenus Sganarelle, Tartuffe et Le Bourgeois gentilhomme.",
+        body: "La Boutique du Barbier Gély, rue Triperie-Vieille, est l'un des sites emblématiques de la « cité de Molière » : c'est là, chez son barbier favori, que l'auteur prenait note des manies des Languedociens. Le lieu est aujourd'hui un mini-musée gratuit, avec reconstitution du salon de coiffure. Les personnages qu'il y a observés sont devenus Sganarelle, Tartuffe et Le Bourgeois gentilhomme.",
       },
       {
         heading: "3. Le marché du samedi matin — l'un des plus beaux",
-        body: "Le Marché de Pézenas (samedi matin — l'un des plus beaux marchés du Languedoc) attire 5 000 visiteurs en haute saison. Spécialités : olives, huile d'olive du Languedoc, charcuteries cathares, fromages (Pélardon AOP), petits pâtés de Pézenas IGP (gâteau anglo-indien sucré-salé du XVIIIe siècle — la spécialité emblématique), miel des Causses. Marché en plein air sur la place de la République. À combiner avec le marché du jeudi matin (plus quotidien).",
+        body: "Le marché du samedi matin passe pour l'un des plus beaux marchés du Languedoc, et il attire 5 000 visiteurs en haute saison. Il se tient en plein air, sur la place de la République. Au programme : olives et huile d'olive du Languedoc, charcuteries cathares, fromages dont le Pélardon AOP, miel des Causses, et les petits pâtés de Pézenas IGP, un gâteau anglo-indien sucré-salé du XVIIIe siècle qui reste la spécialité emblématique de la ville. Le marché du jeudi matin, plus quotidien, complète bien la visite.",
       },
       {
         heading: "4. La collégiale Saint-Jean — gothique flamboyant",
-        body: "La Collégiale Saint-Jean de Pézenas (XIIe-XVIIIe siècles, reconstruite plusieurs fois après destructions) est l'église emblématique de la ville. Façade gothique flamboyant XVe siècle, tour-clocher XVIIIe siècle. À l'intérieur : retable doré XVIIIe siècle, orgue Cavaillé-Coll. Visite gratuite.",
+        body: "Bâtie et rebâtie plusieurs fois après destructions entre le XIIe et le XVIIIe siècle, la collégiale Saint-Jean est l'église emblématique de la ville. Sa façade est un gothique flamboyant du XVe siècle, sa tour-clocher date du XVIIIe. À l'intérieur, un retable doré du XVIIIe siècle et un orgue Cavaillé-Coll. La visite est gratuite.",
       },
       {
         heading: "5. Les vignobles AOC Languedoc — Picpoul",
-        body: "L'AOC Picpoul de Pinet (à 20 km à l'est de Pézenas — 1 500 ha, l'une des plus prestigieuses AOC blancs de Languedoc — cépage piquepoul blanc unique au monde) est le vin emblématique du Languedoc oriental. Vin blanc sec, citronné, idéal sur huîtres de Bouzigues (étang de Thau à 20 km). Domaines : Domaine de la Mirande, Domaine Félines-Jourdan. À combiner avec une visite à Bouzigues (huîtres) et Sète.",
+        body: "À 20 km à l'est de Pézenas, l'AOC Picpoul de Pinet couvre 1 500 ha et compte parmi les plus prestigieuses AOC blancs de Languedoc. Son cépage, le piquepoul blanc, est unique au monde. C'est le vin emblématique du Languedoc oriental : blanc, sec, citronné, idéal sur les huîtres de Bouzigues, l'étang de Thau étant lui aussi à 20 km. Deux domaines pour goûter, le Domaine de la Mirande et le Domaine Félines-Jourdan. La sortie se combine avec Bouzigues, pour les huîtres, et avec Sète.",
       },
       {
         heading: "6. Béziers — la cité de Pierre-Paul Riquet",
-        body: "Béziers (à 22 km au sud-ouest de Pézenas) est l'autre grande cité du Languedoc oriental. Les 9 écluses de Fonsérannes (1697, conçues par Pierre-Paul Riquet — chef-d'œuvre du canal du Midi, UNESCO — cascade d'écluses qui permettent au canal de descendre de 21,50 m). Cathédrale Saint-Nazaire (XIIIe siècle, gothique méridional fortifié — silhouette emblématique). Allées Paul-Riquet (la grande promenade arborée). Feria de Béziers en août.",
+        body: "À 22 km au sud-ouest de Pézenas, Béziers est l'autre grande cité du Languedoc oriental. Son morceau de bravoure est la cascade des 9 écluses de Fonsérannes, datée de 1697 et conçue par Pierre-Paul Riquet : ce chef-d'œuvre du canal du Midi, classé à l'UNESCO, fait descendre le canal de 21,50 m. La cathédrale Saint-Nazaire, gothique méridional fortifié du XIIIe siècle, donne à la ville sa silhouette emblématique, et les allées Paul-Riquet sa grande promenade arborée. La feria de Béziers se tient en août.",
       },
       {
         heading: "7. L'étang de Thau et Bouzigues — huîtres",
-        body: "L'étang de Thau (à 25 km à l'est de Pézenas — 75 km², la plus grande lagune française) produit 8 000 tonnes d'huîtres et 600 tonnes de moules par an. Bouzigues (à 25 km de Pézenas) est la capitale des huîtres de l'étang — élevées sur cordes verticales (technique unique en Méditerranée). Visite des mas conchylicoles, dégustation au bord de l'eau (12-18€ la douzaine d'huîtres), tour de l'étang en bateau.",
+        body: "À 25 km à l'est de Pézenas, l'étang de Thau est la plus grande lagune française : 75 km² qui produisent 8 000 tonnes d'huîtres et 600 tonnes de moules par an. Bouzigues, à 25 km de Pézenas également, en est la capitale ostréicole. Les huîtres y sont élevées sur cordes verticales, une technique unique en Méditerranée. On visite les mas conchylicoles, on déguste au bord de l'eau, de 12 à 18€ la douzaine d'huîtres, et l'on peut faire le tour de l'étang en bateau.",
       },
       {
         heading: "8. Sète — la « Venise du Languedoc »",
-        body: "Sète (à 30 km à l'est de Pézenas) est le premier port de pêche de la Méditerranée française. Mont Saint-Clair (175 m, ancien volcan éteint — belvédère panoramique), joutes nautiques (tournoi du 25 août, fête de la Saint-Louis depuis 1666 — sport et fête identitaire de Sète), cimetière marin (où Paul Valéry est enterré), MIAM (Musée International des Arts Modestes). Brassens y est né.",
+        body: "À 30 km à l'est de Pézenas, Sète est le premier port de pêche de la Méditerranée française. Le mont Saint-Clair, ancien volcan éteint de 175 m, lui sert de belvédère panoramique. Les joutes nautiques y sont davantage qu'un folklore : le tournoi du 25 août, pendant la fête de la Saint-Louis, se tient depuis 1666, et c'est autant un sport qu'une fête identitaire de Sète. Restent le cimetière marin, où Paul Valéry est enterré, et le MIAM, Musée International des Arts Modestes. Brassens y est né.",
       },
       {
         heading: "9. Les villages perchés du Languedoc",
-        body: "L'arrière-pays de Pézenas compte plusieurs villages perchés du Languedoc. Saint-Guilhem-le-Désert (à 50 km au nord, plus beau village de France, UNESCO — sur le chemin de Saint-Jacques), Minerve (à 60 km à l'ouest, plus beau village de France — siège cathare de 1210). Mont Saint-Loup (à 8 km à l'est de Pézenas — ancien volcan, vue panoramique sur l'étang de Thau).",
+        body: "L'arrière-pays de Pézenas compte plusieurs villages perchés du Languedoc. Saint-Guilhem-le-Désert, à 50 km au nord, est classé plus beau village de France, inscrit à l'UNESCO, et se trouve sur le chemin de Saint-Jacques. Minerve, à 60 km à l'ouest, porte le même label et garde la mémoire du siège cathare de 1210. Plus près, le mont Saint-Loup, à 8 km à l'est de Pézenas, est un ancien volcan d'où la vue porte sur l'étang de Thau.",
       },
       {
         heading: "10. Gastronomie languedocienne — petit pâté et picpoul",
-        body: "La cuisine de Pézenas mêle Languedoc et héritages méridionaux : petits pâtés de Pézenas IGP (gâteau en croûte sucré-salé au mouton — héritage anglo-indien apporté au XVIIIe siècle par le gouverneur des Indes Lord Clive — chef officiel à Pézenas — la spécialité emblématique). Brandade de morue nîmoise, tielle sétoise (à 30 km), fougasse aux gratons. Charcuteries cévenoles. Fromages : Pélardon AOP (chèvre), Roquefort AOP (à 100 km). Vins : Picpoul de Pinet (sur huîtres de Thau), Terrasses du Larzac (rouge), Muscat de Frontignan (vin doux naturel).",
+        body: "La cuisine de Pézenas mêle Languedoc et héritages méridionaux. La spécialité emblématique reste le petit pâté de Pézenas IGP, un gâteau en croûte sucré-salé au mouton, héritage anglo-indien apporté au XVIIIe siècle par le gouverneur des Indes Lord Clive, chef officiel à Pézenas. Autour viennent la brandade de morue nîmoise, la tielle sétoise, de Sète à 30 km, la fougasse aux gratons et les charcuteries cévenoles. Côté fromages, le Pélardon AOP de chèvre et le Roquefort AOP, produit à 100 km. Côté vins, le Picpoul de Pinet sur les huîtres de Thau, les Terrasses du Larzac en rouge et le Muscat de Frontignan en vin doux naturel.",
       },
     ],
     relatedCities: ["pezenas"],
