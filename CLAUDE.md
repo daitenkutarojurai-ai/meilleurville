@@ -3347,10 +3347,29 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     `lib/city-population`), soit 60 % du composite ; jeunes actifs et renouvellement sont
     estimés. Une surface démographie doit dire **lequel est lequel** — écrire « estimé » en
     bloc y serait faux dans l'autre sens, et le garde le refuse.
-    ⚠️ **Le garde ne scanne que `app/**` et `components/*.tsx`** : `lib/rankings-meta.ts`
-    porte le même défaut sur les **19 descriptions de `RANKING_META`** (« Sources : DREES,
-    Assurance Maladie, ATMO France, INSEE 2026 »…) et reste à traiter. Détail : ROADMAP
-    § Shipped 2026-09-10.
+    ⚠️ **Le garde `moteurs` ne scanne que `app/**` et `components/*.tsx`**, donc il ne voit
+    pas la prose qui vit dans `lib/`. C'est par là que le défaut restait : `lib/rankings-meta.ts`
+    et `lib/rankings-en.ts` portaient **8 lignes « Sources : »** (DREES, Michelin, Gault &
+    Millau, INAO, FUB, Géovélo, ATMO, Ademe, Cerema, Dares, Arcep, DVF, SHOM, SSMSI) sur des
+    palmarès que `getRankedCities` trie **uniquement sur les axes éditoriaux du seed** — deux
+    d'entre elles se contredisant dans leur propre méthodologie, qui précisait que Michelin et
+    la note FUB « ne sont pas injectés ». ✅ **Corrigé le 2026-09-11**, organismes rangés en
+    « cadres de référence », plus **un garde `classements`** dans `npm run integrity` qui refuse
+    toute ligne « Sources : » dans ces deux tables. Deux mesures trouvées au passage et écrites
+    dans la méthodologie plutôt que masquées : `/classements/bord-de-mer` annonçait un filtre
+    « à 5 km du littoral » alors qu'il lit des **tags** (9 de ses 55 villes sont au-delà, Caen à
+    15,0 km), et son bonus soleil annoncé « > 250 j/an » teste en réalité `sunshinedays > 2400`,
+    le champ portant des **heures** malgré son nom (corpus 1 480-3 100). Détail : ROADMAP
+    § Shipped 2026-09-10 et `docs/integrite-2026-09-11.md`.
+    ⚠️ **Même famille, trouvée le 2026-09-11 dans `lib/city-agenda.ts`** : `isCoastal()` était
+    une **recherche de sous-chaîne** sur les tags, donc le piège « `sport` contient `port` » de
+    § City Match. Cinq communes publiaient « Ouverture de la saison balnéaire » — Chenôve à
+    **416 km** de la mer (« vignoble **Côte** de Nuits »), Semur-en-Auxois et Montbard
+    (« **Côte**-d'Or »), Rosny-sous-Bois (« centre com**mer**cial ») et Saint-Quentin
+    (« Guyne**mer** »). Corrigé par la distance **mesurée** de `lib/city-coast.ts` (seuil 30 km :
+    le corpus laisse un trou franc entre 29 et 150 km). ⚠️ **Ne pas symétriser** : 18 communes
+    sont à moins de 5 km de la mer sans tag maritime, dont 11 ultramarines, et le corps de
+    l'entrée est écrit pour la métropole — leur pousser publierait une saison fausse.
   - ⚠️ **`/classements/qualite-air` EXISTE déjà** (owner-ranking de `lib/owner-rankings.ts`,
     dossier `app/classements/qualite-air`) — la note historique « absent des 19 slugs de
     `RANKING_META` » était vraie de `RANKING_META` et fausse du site, les deux familles de

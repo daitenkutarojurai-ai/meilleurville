@@ -881,7 +881,25 @@ const EMPTY_FILE = {
 async function readFile_() {
   try {
     const j = JSON.parse(await fs.readFile(OUT_JSON, "utf8"));
-    return { meta: { ...EMPTY_FILE.meta, ...(j.meta ?? {}) }, cities: j.cities ?? {} };
+    // Les trois champs qui décrivent le CODE (et non la collecte) sont réappliqués
+    // APRÈS le spread du fichier : sinon la valeur écrite au premier run gagne pour
+    // toujours et ne peut plus avancer. C'est ce qui s'était produit — le fichier
+    // annonçait `meta.queryVersion: 1` alors que ses 540 lignes étaient en 3, deux
+    // relances de version après (audit 2026-09-11). Personne ne lisait ce champ
+    // (`pickBatch` et les surfaces lisent la version DE LA LIGNE, qui est juste),
+    // donc rien n'était publié de faux ; mais un champ de provenance qui ment est
+    // exactement ce qu'on finit par croire. `refreshedAt`, lui, décrit la collecte
+    // et doit bien venir du fichier.
+    return {
+      meta: {
+        ...EMPTY_FILE.meta,
+        ...(j.meta ?? {}),
+        queryVersion: QUERY_VERSION,
+        windowMonths: WINDOW_MONTHS,
+        maxEntriesPerCity: MAX_ENTRIES_PER_CITY,
+      },
+      cities: j.cities ?? {},
+    };
   } catch {
     return structuredClone(EMPTY_FILE);
   }

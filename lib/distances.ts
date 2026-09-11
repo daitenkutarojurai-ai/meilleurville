@@ -8,6 +8,21 @@
 // so the distance reflects "drivable in N hours" rather than a perfect crow-fly
 // metric. Mountain points are the centroid of each massif at low altitude
 // (entry, not peak) — same logic.
+//
+// **Convention** — ce module ne rend PAS un score sur 10 : il rend des
+// KILOMÈTRES à vol d'oiseau, donc « plus petit = plus proche ». Il n'y a rien à
+// inverser à l'affichage, et une distance ne doit jamais être passée à
+// `scoreColor`/`scoreHex`, qui est une palette 0-10 « 10 = vert ».
+//
+// ⚠️ `AIRPORTS` ci-dessous est une liste de DIX plateformes métropolitaines,
+// sans la Corse, sans l'outre-mer, sans Bâle-Mulhouse ni aucun aéroport
+// étranger. Elle alimente la ligne « aéroport le plus proche » des fiches ville
+// et rien d'autre. L'axe d'accès aérien du profil « Famille à l'étranger »
+// (`AIR_HUBS` dans `lib/profile-pages.ts`, 51 plateformes) ne la réutilise pas,
+// volontairement : ici Mulhouse est rattachée à Strasbourg à une centaine de
+// kilomètres quand l'EuroAirport est à cinq. Les deux listes divergent donc, et
+// c'est assumé — aligner l'une sur l'autre déplacerait une valeur publiée sur
+// les 540 fiches ville et relève d'une décision produit, pas d'un correctif.
 
 import type { CitySeed } from "@/data/cities-seed";
 

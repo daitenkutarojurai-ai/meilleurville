@@ -7,6 +7,7 @@
 // in the UI so we never claim authority we don't have.
 
 import type { CitySeed } from "@/data/cities-seed";
+import { coastDistanceKm } from "@/lib/city-coast";
 
 export interface AgendaItem {
   month: number; // 1-12
@@ -33,8 +34,39 @@ function tagStr(city: CitySeed): string {
   return (city.characterTags ?? []).join(" ").toLowerCase();
 }
 
+/**
+ * ⚠️ Le test de tags ci-dessous est une RECHERCHE DE SOUS-CHAÎNE, donc le piège
+ * que CLAUDE.md § City Match documente (« sport » contient « port »). Mesuré le
+ * 2026-09-11 : il rendait cinq communes côtières qui ne le sont pas, et leur
+ * agenda publiait « Ouverture de la saison balnéaire » —
+ *   Chenôve 416 km de la mer      ← tag « vignoble Côte de Nuits » (côte)
+ *   Semur-en-Auxois 369 km        ← tag « Côte-d'Or »
+ *   Montbard 360 km               ← tag « Côte-d'Or »
+ *   Rosny-sous-Bois 157 km        ← tag « Rosny 2 (centre com-MER-cial) »
+ *   Saint-Quentin 150 km          ← tag « Guyne-MER »
+ * D'où le garde-fou : la distance MESURÉE à la mer ouverte (`lib/city-coast`,
+ * Natural Earth, 10 Ko, sûr en bundle) a le dernier mot. Le seuil est à 30 km
+ * parce que le corpus laisse un trou franc — les 77 villes légitimes sont
+ * toutes à 29 km ou moins, les 5 fausses à 150 km ou plus — donc tout seuil de
+ * 30 à 149 retire exactement les cinq et ne touche à rien d'autre.
+ *
+ * ⚠️ Ne PAS « symétriser » en remplaçant le test de tags par la seule distance :
+ * 18 communes sont à moins de 5 km de la mer sans porter de tag maritime, et
+ * onze d'entre elles sont ultramarines (Fort-de-France, Pointe-à-Pitre, Cayenne,
+ * Saint-Denis de La Réunion…). Le corps de l'entrée est écrit pour la métropole
+ * (« juin = eau réchauffée, foule raisonnable ; juillet-août = pic ») : le
+ * pousser sur une ville des Antilles ou de La Réunion publierait une saison
+ * fausse. Élargir la couverture demande d'écrire ces saisons, pas de bouger un
+ * prédicat.
+ */
+const COASTAL_AGENDA_KM = 30;
+
 function isCoastal(city: CitySeed): boolean {
-  return /côte|mer|atlantique|méditerranée|littoral|manche|balnéaire|plage/.test(tagStr(city));
+  if (!/côte|mer|atlantique|méditerranée|littoral|manche|balnéaire|plage/.test(tagStr(city))) {
+    return false;
+  }
+  const km = coastDistanceKm(city.slug);
+  return km == null || km <= COASTAL_AGENDA_KM;
 }
 
 function isMountain(city: CitySeed): boolean {

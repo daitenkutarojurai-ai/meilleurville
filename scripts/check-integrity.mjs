@@ -719,6 +719,52 @@ if (!failed) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Tables de classement (`lib/rankings-meta.ts`, `lib/rankings-en.ts`) : une
+// description ne peut pas annoncer « Sources : <organisme> ».
+//
+// Même défaut que le quartet environnement (09/09) et que les six moteurs
+// propriétaires (09/10), dans le dernier endroit que leur garde ne pouvait pas
+// voir : il ne parcourt que `app/**` et `components/*.tsx`, or ces deux tables
+// sont de la PROSE rendue sur les 19 pages `/classements/[slug]` et leurs
+// jumelles — texte de la page, meta description et JSON-LD.
+//
+// `getRankedCities` (lib/rankings.ts) trie sur les axes éditoriaux du seed, plus
+// `data/housing.ts` pour « logement » et les `characterTags` pour « bord-de-mer ».
+// Aucune donnée DREES, Michelin, FUB, ATMO, DVF, SHOM ou SSMSI n'est ingérée.
+// Sept descriptions FR et une EN annonçaient pourtant « Sources : … » (audit
+// 2026-09-11) — deux d'entre elles se contredisaient dans leur propre
+// méthodologie, qui précisait que Michelin et la note FUB « ne sont pas
+// injectés ». Les organismes restent NOMMÉS, comme cadres de référence.
+{
+  const TABLES = ["lib/rankings-meta.ts", "lib/rankings-en.ts"];
+  const claims = [];
+  for (const rel of TABLES) {
+    const src = readFileSync(path.join(ROOT, rel), "utf8");
+    src.split("\n").forEach((line, i) => {
+      if (/Sources ?:/i.test(line)) claims.push(`${rel}:${i + 1}`);
+    });
+  }
+
+  if (claims.length === 0) {
+    console.log(
+      `  ok  classements ${TABLES.length} tables, aucune description n'annonce « Sources : <organisme> »`,
+    );
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  tables de classement : ${claims.length} « Sources : » publiée(s)\n`);
+    for (const p of claims) console.error(`    ${p}`);
+    console.error(
+      "\n    Les 19 classements sont triés depuis les axes éditoriaux du seed —\n" +
+        "    rien n'est ingéré de DREES, Michelin, Gault & Millau, INAO, FUB,\n" +
+        "    Géovélo, ATMO, Ademe, Cerema, Dares, Arcep, DVF, SHOM ni SSMSI. Écrire\n" +
+        "    « Sources : <organisme> » se lit comme « chiffre publié par cet\n" +
+        "    organisme » ; il ne l'est pas. Nommer ces organismes en « cadres de\n" +
+        "    référence », ou dire ce que le score N'EST PAS, est correct.\n",
+    );
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

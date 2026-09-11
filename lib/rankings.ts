@@ -88,6 +88,14 @@ const COASTAL_TAGS = new Set([
   "mer-du-Nord",
 ]);
 
+// ⚠️ Le filtre côtier lit les `characterTags`, donc un CARACTÈRE éditorial, et
+// non la distance mesurée à la mer ouverte de `lib/city-coast.ts`. Ce n'est pas
+// le bug de sous-chaîne que CLAUDE.md § City Match décrit (« sport » contient
+// « port ») : l'appartenance est testée sur un ensemble fermé. Mais le résultat
+// n'est pas un rayon : 9 des 55 villes retenues sont à plus de 5 km du rivage
+// (Caen 15,0 km, Challans 14,4, Quimper 13,6 — mesuré le 2026-09-11 contre
+// `coastDistanceKm`). La méthodologie publiée le dit désormais ; basculer le
+// filtre sur `city-coast` changerait la liste publiée et relève de l'éditorial.
 function coastalLivingScore(c: (typeof CITIES_SEED)[number]): number {
   const tags = new Set(c.characterTags ?? []);
   let isCoastal = false;
@@ -111,7 +119,12 @@ function coastalLivingScore(c: (typeof CITIES_SEED)[number]): number {
 }
 
 function housingAffordabilityScore(c: (typeof CITIES_SEED)[number]): number {
-  // Real-data driven score from DVF + Observatoires Locaux des Loyers.
+  // Score bâti sur `data/housing.ts` : des REPÈRES ÉDITORIAUX (un loyer et un
+  // prix au m² par ville, tous biens confondus), calés sur les Observatoires
+  // Locaux des Loyers — ce ne sont PAS les médianes de transactions DVF.
+  // Celles-ci vivent dans `lib/property-prices.ts`, séparées appartement /
+  // maison, et ne sont pas utilisées ici. CLAUDE.md § « prixM2 » : les deux
+  // nombres coexistent volontairement, ne pas « aligner » l'un sur l'autre.
   // Returns 0..10. Cities without housing data fall back to the cost score.
   const h = HOUSING[c.slug];
   if (!h) return Math.max(0, Math.min(10, c.scores.cost * 0.95));

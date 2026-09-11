@@ -233,9 +233,9 @@ export const RANKING_EN: Record<string, RankingEn> = {
     tagline: "Rent and purchase price vs local wages.",
     headline: "French cities where housing remains affordable in 2026",
     description:
-      "Ranking based on real rent data (T1/T2/T3) and price per m²: where your housing budget goes furthest without sacrificing quality of life. Sources: DVF data.gouv.fr, Observatoires Locaux des Loyers, INSEE 2026.",
+      "Ranking based on our rent and price-per-m² benchmarks (T1/T2/T3): where your housing budget goes furthest without sacrificing quality of life. Editorial benchmarks calibrated against the Observatoires Locaux des Loyers, not DVF transaction medians.",
     methodology:
-      "Affordability score: T2 rent (×3 — lower is better), buy price per m² (×2), cost-of-life score (×1). Anchored on national medians: T2 rent ≈ €700/mo, buy price ≈ €2 500/m².",
+      "Affordability score: T2 rent (×3 — lower is better), buy price per m² (×2), cost-of-life score (×1). Rent and price come from our own benchmarks, whose corpus medians are €700/mo for a T2 and €2,500/m² to buy. These are single all-property benchmarks, not DVF sale medians: those are published separately, flats and houses apart, on each city's Housing page.",
     why: [
       "Median T2 rent (Observatoires Locaux des Loyers 2025)",
       "Buy price per m² (DVF — Demande de Valeurs Foncières 2024-2025)",

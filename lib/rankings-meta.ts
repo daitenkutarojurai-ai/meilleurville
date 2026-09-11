@@ -261,9 +261,9 @@ export const RANKING_META = {
     emoji: "❤️",
     headline: "Meilleures villes françaises pour la santé et l'accès aux soins",
     description:
-      "Classement des villes françaises par qualité du système de santé : densité médicale, hôpitaux, spécialistes, délais d'attente, qualité de l'air et cadre de vie propice au bien-être. Sources : DREES, Assurance Maladie, ATMO France, INSEE 2026.",
+      "Classement des villes françaises par cadre de vie propice à la santé : qualité de vie, sécurité, nature et air, accessibilité, coût. Score estimé depuis nos axes éditoriaux, calé sur les cadres de référence publics (DREES, Assurance Maladie, ATMO France, Insee) sans reprendre leurs relevés.",
     methodology:
-      "Score composite pondéré : Qualité de vie (×3), Sécurité (×2.5), Nature/air (×2), Transport (×1), Coût (×1). La densité médicale et la qualité de l'air (PM2.5) pèsent fortement via les scores Nature et Vie.",
+      "Score composite pondéré : Qualité de vie (×3), Sécurité (×2.5), Nature/air (×2), Transport (×1), Coût (×1). Ce n'est pas un relevé de densité médicale, de délais d'attente ni de PM2.5 : aucune de ces mesures n'entre dans le calcul, qui repose sur les cinq axes ci-dessus. Pour une estimation d'accès aux soins ville par ville, voir la sous-page « Santé » de chaque fiche.",
     weights: { life: 3, safety: 2.5, nature: 2, transport: 1, cost: 1 },
     color: "text-pink-400",
     borderColor: "border-pink-400/20",
@@ -305,9 +305,9 @@ export const RANKING_META = {
     emoji: "🔑",
     headline: "Villes françaises où se loger reste accessible en 2026",
     description:
-      "Classement basé sur les loyers réels (T1, T2, T3) et le prix de l'immobilier au m² : où votre budget logement va le plus loin sans renoncer à la qualité de vie. Sources : DVF data.gouv.fr (Demande de Valeurs Foncières), Observatoires Locaux des Loyers (OLL), INSEE 2026.",
+      "Classement basé sur nos repères de loyer (T1, T2, T3) et de prix au m² : où votre budget logement va le plus loin sans renoncer à la qualité de vie. Repères éditoriaux calés sur les Observatoires Locaux des Loyers, pas les médianes de transactions DVF.",
     methodology:
-      "Score d'accessibilité au logement : loyer T2 (×3, plus c'est bas, mieux c'est), prix d'achat au m² (×2), score coût de la vie (×1). Étalonné sur les médianes nationales : loyer T2 ≈ 700 €/mois, prix achat ≈ 2 500 €/m². Données issues de la DVF (data.gouv.fr) et des Observatoires Locaux des Loyers.",
+      "Score d'accessibilité au logement : loyer T2 (×3, plus c'est bas, mieux c'est), prix d'achat au m² (×2), score coût de la vie (×1). Loyer et prix viennent de nos repères éditoriaux, dont les médianes de corpus sont de 700 €/mois pour un T2 et 2 500 €/m² à l'achat. Ce sont des repères, un par ville et tous biens confondus, pas les médianes de ventes DVF : celles-ci sont publiées séparément, appartement et maison, sur la sous-page « Logement » de chaque ville.",
     weights: { cost: 3, life: 1, transport: 0.5 }, // ignored — logement uses a custom scorer; values here only drive the sidebar bars
     color: "text-cyan-500",
     borderColor: "border-cyan-500/20",
@@ -327,9 +327,9 @@ export const RANKING_META = {
     emoji: "🚀",
     headline: "Meilleures villes françaises pour les jeunes actifs en 2026",
     description:
-      "Classement des villes françaises où démarrer ou relancer une carrière en 2026 : densité de cadres, mobilité TGV, scène culturelle, communauté pro et coût de la vie compatible avec un premier salaire. Sources : Insee (taux de cadres et professions intermédiaires, démographie 25-39 ans), DARES (créations d'entreprises), ARCEP (fibre optique), Observatoires Locaux des Loyers.",
+      "Classement des villes françaises où démarrer ou relancer une carrière en 2026 : scène culturelle, mobilité, aptitude au télétravail et coût de la vie compatible avec un premier salaire. Score estimé depuis nos axes éditoriaux, calé sur les cadres de référence publics (Insee, Dares, Arcep, Observatoires Locaux des Loyers) sans reprendre leurs relevés.",
     methodology:
-      "Score composite pondéré : Culture (×2.5 — réseau, rencontres, sortir), Transport (×2 — TGV, mobilité), Télétravail (×1.5 — fibre et coworkings), Qualité de vie (×1.5 — équilibre pro/perso), Coût (×1.5 — premier salaire). Les très petites villes sont défavorisées indirectement via la faible note culture/transport.",
+      "Score composite pondéré : Culture (×2.5 — réseau, rencontres, sortir), Transport (×2 — TGV, mobilité), Télétravail (×1.5 — fibre et coworkings), Qualité de vie (×1.5 — équilibre pro/perso), Coût (×1.5 — premier salaire). Ni le taux de cadres, ni la démographie des 25-39 ans, ni les créations d'entreprises, ni la couverture fibre ne sont ingérés commune par commune : ce sont les cinq axes ci-dessus qui trient. Les très petites villes sont défavorisées indirectement via la faible note culture/transport.",
     weights: { culture: 2.5, transport: 2, remoteWork: 1.5, life: 1.5, cost: 1.5 },
     color: "text-fuchsia-400",
     borderColor: "border-fuchsia-400/20",
@@ -350,7 +350,7 @@ export const RANKING_META = {
     emoji: "🍽️",
     headline: "Meilleures villes françaises pour la gastronomie en 2026",
     description:
-      "Classement des villes françaises pour bien manger : densité de restaurants, étoiles Michelin et Bib Gourmand 2025, terroir AOC/AOP et tradition culinaire régionale. Sources : Guide Michelin 2025, Gault & Millau, INSEE (densité d'établissements de restauration 2024), INAO (Institut national de l'origine et de la qualité).",
+      "Classement des villes françaises pour bien manger : scène culturelle et culinaire, ambiance, terroir, accessibilité d'un repas honnête. Score estimé depuis nos axes éditoriaux : ni les étoiles Michelin, ni les Bib Gourmand, ni les appellations INAO ne sont comptés ville par ville.",
     methodology:
       "Score composite pondéré (proxy) : Culture (×2.5 — scène culinaire, densité de restaurants, marchés), Qualité de vie (×2 — terrasses, ambiance, marchés couverts), Nature (×1.5 — terroir local, produits frais, jardins potagers), Coût (×1 — accessibilité d'un repas honnête), Sécurité (×0.5). Approche transparente : le nombre d'étoilés Michelin par ville n'est pas injecté en dur — il est fortement corrélé à la note culture/qualité de vie d'une ville et reste consultable directement sur guide.michelin.com.",
     weights: { culture: 2.5, life: 2, nature: 1.5, cost: 1, safety: 0.5 },
@@ -373,9 +373,9 @@ export const RANKING_META = {
     emoji: "🌿",
     headline: "Villes françaises les plus engagées pour l'écologie et la qualité de l'air",
     description:
-      "Classement des villes françaises par engagement environnemental : qualité de l'air (PM2.5, NO₂), mobilité douce, espaces verts, politiques bas-carbone et résilience climatique. Sources : ATMO France, Ademe, Cerema, Ministère de la Transition Écologique 2026.",
+      "Classement des villes françaises par cadre environnemental : nature et air, mobilité douce, qualité de vie. Score estimé depuis nos axes éditoriaux, calé sur les cadres de référence publics (ATMO France, Ademe, Cerema) sans reprendre leurs relevés.",
     methodology:
-      "Score composite pondéré : Nature/air (×4), Transport doux (×2.5), Qualité de vie (×2), Coût (×0.5). L'indice qualité de l'air ATMO et la densité d'espaces verts (Cerema) pèsent prioritairement.",
+      "Score composite pondéré : Nature/air (×4), Transport doux (×2.5), Qualité de vie (×2), Coût (×0.5). Ce n'est pas une mesure de PM2.5 ni de NO₂ : aucun indice ATMO, aucune densité d'espaces verts et aucune politique bas-carbone n'est ingéré commune par commune.",
     weights: { nature: 4, transport: 2.5, life: 2, cost: 0.5 },
     color: "text-lime-500",
     borderColor: "border-lime-500/20",
@@ -395,7 +395,7 @@ export const RANKING_META = {
     emoji: "🚴",
     headline: "Meilleures villes françaises pour les cyclistes en 2026",
     description:
-      "Classement des villes françaises les plus cyclables : kilomètres d'aménagements vélo, sécurité réelle ressentie, continuité du réseau, stationnement sécurisé et politique vélo locale. Sources : FUB Baromètre des villes cyclables 2025, Plan Vélo et Marche 2023-2027 (Ministère de la Transition Écologique), Géovélo, Cerema (Observatoire national des mobilités actives).",
+      "Classement des villes françaises les plus cyclables : mobilité, cadre roulant, sécurité de la cohabitation, topographie et climat. Score estimé depuis nos axes éditoriaux : ni les kilomètres d'aménagements, ni la note FUB, ni le stationnement sécurisé ne sont comptés ville par ville.",
     methodology:
       "Score composite pondéré (proxy) : Transport (×3 — réseau cyclable, continuité, intermodalité train+vélo), Nature (×1.5 — voies vertes EuroVelo, ViaRhôna, Loire à vélo, cadre roulant), Sécurité (×1.5 — cohabitation vélo/voiture, accidentologie cyclistes), Qualité de vie (×1 — topographie, climat compatible à l'année). Approche transparente : la note FUB (climat ressenti A+ à G) n'est pas injectée individuellement — elle est très corrélée à la note transport + nature + sécurité d'une ville, et reste consultable sur barometre.parlons-velo.fr.",
     weights: { transport: 3, nature: 1.5, safety: 1.5, life: 1 },
@@ -419,9 +419,9 @@ export const RANKING_META = {
     emoji: "🌊",
     headline: "Meilleures villes côtières françaises où vivre en 2026",
     description:
-      "Classement des villes françaises au bord de l'océan, de la Méditerranée, de la Manche ou de la mer du Nord — celles où l'on peut vivre à l'année sans devenir touriste de sa propre rue. Filtre par tag côtier puis composite nature + qualité de vie + sécurité, avec bonus ensoleillement et accès direct au littoral. Sources : SHOM (trait de côte 2024), Météo-France (ensoleillement 1991-2020), Insee Recensement 2022 (population résidente), SSMSI 2024 (sécurité), Observatoires Locaux des Loyers (coût).",
+      "Classement des villes françaises au bord de l'océan, de la Méditerranée, de la Manche ou de la mer du Nord — celles où l'on peut vivre à l'année sans devenir touriste de sa propre rue. Filtre par caractère maritime puis composite nature + qualité de vie + sécurité, avec bonus ensoleillement. Score estimé depuis nos axes éditoriaux, pas un relevé d'organisme.",
     methodology:
-      "Filtre par caractère côtier (tags : mer, plage, balnéaire, océan, surf, station-balnéaire) — seules les villes sur ou à 5 km du littoral sont notées. Score composite : Nature (×3 — accès direct mer, voiles vertes littorales, biodiversité), Qualité de vie (×2,5 — promenade de mer, marchés, lumière), Sécurité (×1,5 — densité touristique pondérée), Culture (×1 — patrimoine maritime, festivals), Coût (×0,5 — pression touristique sur le logement). Bonus : +0,4 si > 250 j soleil/an, +0,3 si tag surf/station-balnéaire, +0,2 si population < 30 000 hab. (échelle village vs station). Les communes intérieures sont rangées en queue avec un score à 0.",
+      "Filtre par caractère côtier (tags : mer, plage, balnéaire, océan, surf, station-balnéaire). ⚠️ C'est un caractère éditorial, pas une distance mesurée : le filtre retient des villes que leur identité rattache à la mer, dont quelques-unes sont à plus de 10 km du rivage (Caen, Challans, Quimper). La distance réelle à la mer ouverte, elle, est mesurée et publiée sur chaque fiche ville. Score composite : Nature (×3 — accès à la mer, biodiversité littorale), Qualité de vie (×2,5 — promenade de mer, marchés, lumière), Sécurité (×1,5), Culture (×1 — patrimoine maritime, festivals), Coût (×0,5 — pression touristique sur le logement). Bonus : +0,4 au-delà de 2 400 h d'ensoleillement par an, +0,3 si tag surf/station-balnéaire, +0,2 si population < 30 000 hab. (échelle village vs station). Les communes intérieures sont rangées en queue avec un score à 0.",
     weights: { nature: 3, life: 2.5, safety: 1.5, culture: 1, cost: 0.5 },
     color: "text-cyan-500",
     borderColor: "border-cyan-500/20",

@@ -11,6 +11,17 @@
 //
 // All values are honest medians at the department / region level. The UI
 // must say "indicatif — votre situation peut varier". No silent fake data.
+//
+// **Convention** — ce module ne rend PAS un score sur 10 : il rend des EUROS,
+// donc « plus petit = moins cher ». Rien à inverser à l'affichage, et un
+// montant ne doit jamais être passé à `scoreColor`/`scoreHex`, palette 0-10
+// « 10 = vert ». À la différence des six moteurs propriétaires (santé, emploi,
+// sécurité, services publics, vélo, commerces), qui ne lisent que le seed, les
+// barèmes ci-dessous sont de VRAIES tables de référence lues au département ou
+// à la région (zones thermiques de l'arrêté du 28/12/2012, médianes TEOM,
+// primes régionales). Ce sont donc des médianes territoriales réelles, mais
+// jamais une facture communale : c'est ce que dit le « Indicatif » que les deux
+// calculateurs affichent, et qui doit y rester.
 
 export type ClimateZone = "H1a" | "H1b" | "H1c" | "H2a" | "H2b" | "H2c" | "H2d" | "H3";
 
