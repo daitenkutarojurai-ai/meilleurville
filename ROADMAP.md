@@ -3761,6 +3761,147 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 12/09 — `solo-travel-in-[city]-2026` batch 5 (+7), la série refermée à 36/36
+
+`npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans
+jumelle) : aucune régression de routes à rattraper, donc le run est allé au corpus. Les 7
+jumelles `solo-travel-in-[slug]-2026` du lot FR `vacances-celibataire` du 05/09 écrites d'un
+coup dans `data/guides-en.ts` (Le Mans, Quimper, Valence, Avignon, Mulhouse, Bourges,
+Saint-Denis de La Réunion). **Compteurs mesurés : FR 36, EN 36 — écart nul dans les deux sens,
+série refermée** (`EN_GUIDES` 901 → 908). Aucun slug hors gabarit : les sept slugs de seed
+s'écrivent tels quels, donc la règle du batch 33 (**côté EN le slug se dérive du slug de seed
+tel quel**) n'avait rien à arbitrer — noter seulement que le slug de seed est
+`saint-denis-reunion`, ce qui désambiguïse de lui-même d'avec le Saint-Denis du 93.
+`metaTitle` 49-54 caractères, `metaDesc` 136-158, **6 sections par guide** comme les 29
+guides déjà livrés de la série, **0 em-dash** sur les sept réunis (cible R7.10). Aucun tag
+neuf — les 7 réutilisent `pays-de-la-loire`, `brittany`, `auvergne-rhone-alpes`, `provence`,
+`grand-est`, `centre-val-de-loire`, `reunion`, tous très au-dessus du seuil de 3 guides, et
+`search-index.en.json` reste à **114 tags**, donc aucune page `/tags/` créée ;
+`sitemap:check` donne EN 28 793 → **28 800 URL**, soit exactement les 7 guides neufs (FR
+inchangé). Contrôle de lookup / photo passé **sur les 540 villes et les 36 guides de la
+série**, en appelant le résolveur de la page (`guideCityPhoto(slug, relatedCities)`) et non
+une réimplémentation : **36/36 atteignables, 0 orphelin, 0 collision, 0 guide sans photo
+d'en-tête**.
+
+⚠️ **Le faux trou de ce run tenait à un tiret, et c'est le piège que ce fichier documente
+depuis le batch 24.** Le premier diff des deux corpus annonçait **30 villes** sans jumelle sur
+`vacances-monoparentales` : le script cherchait `single-parent-holidays-**in**-<slug>-2026`
+alors que la série EN s'écrit `single-parent-holidays-<slug>-2026`, sans `in`. La série est en
+réalité **à parité** et fermée depuis le 10/09. Même classe d'erreur sur `vivre-a → living-in`,
+qui sortait **48 manquantes** : la série EN ne s'appelle pas `living-in-<city>` mais
+`<city>-living-guide-for-expats-2026` ou `living-in-<city>-<région>-expat-guide-2026`, nommage
+irrégulier hérité des lots de 2026-06. **Règle : un diff de série se valide dans les deux sens
+avant d'être cru** — une liste de manques côté FR avec **0 manque côté EN** est le signe d'un
+motif de slug faux, pas d'un trou de corpus. Les deux fausses pistes écartées, le seul écart
+réel du corpus mesurable par série était `solo-travel-in`, à 29/36, d'où ce batch.
+
+⚠️ **`npm run integrity` a refusé le premier jet, et il avait raison.** Le garde « citations EN »
+a signalé `solo-travel-in-bourges-2026` : le guide écrivait « neighbourhood cost score of
+8.5/10 » alors que **8.5 est exactement le littéral brut de `bourges.cost` dans le seed** et que
+la fiche ville affiche **6.7**. Le chiffre était pourtant juste — c'est le score de coût du
+**quartier** dans `data/neighborhoods.ts`, et le guide FR écrit la même chose. Mais la collision
+est réelle pour un lecteur autant que pour le garde : le même guide cite « cost score of 6.7/10 »
+trois paragraphes plus haut, donc deux nombres différents sous le même nom. Vérification faite,
+**aucun des 29 guides déjà livrés de la série ne cite de score de coût de quartier** : la
+convention du corpus est nightlife + loyers, et j'avais introduit le motif. Les **5** citations
+concernées ont donc été retirées (Bourges, Le Mans, Quimper, Valence, Mulhouse), les loyers
+disant déjà la même chose sans ambiguïté. Leçon à garder : quand un garde étroit se déclenche,
+regarder si le corpus avait déjà tranché la question avant de plaider le faux positif.
+
+⚠️ **Une section de trop, corrigée avant commit.** Le guide Saint-Denis a d'abord été écrit en
+**7 sections** pour loger la règle d'entrée, alors que les 29 guides de la série sont
+uniformément à **6**. Plutôt que de publier une irrégularité de gabarit ou d'enterrer une règle
+opposable, la matière a été traitée selon le précédent Mamoudzou du batch 30 : la règle est
+**annoncée dans l'intro avant toute phrase attrayante**, et son développement rejoint les deux
+autres règles opposables de la ville dans une section unique, « Before you go: entry rules, no
+train, and where you may swim ». Six sections, et la règle est plus visible qu'elle ne l'était
+en section isolée.
+
+**Cinq figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le contrôle
+mécanique les remontera à chaque run, ne pas les « corriger ».** Le contrôle (chaque suite de
+chiffres du texte EN cherchée dans le guide FR, séparateurs de milliers et virgule décimale
+normalisés des deux côtés) donne **322 figures, 317 retrouvées**. Les 5 restantes sont vérifiées
+en ligne avant écriture et relèvent de la matière propre à l'angle anglophone. ① **Le Mans** :
+`1133`. Pour un lecteur anglophone « Le Mans » est une course avant d'être une ville, et le
+guide corrige deux choses à ce titre — le circuit de la Sarthe est **au sud de la ville et pas
+dedans**, et le week-end de mi-juin est précisément celui qu'il faut éviter. Le 1133 sert
+l'autre moitié : **Henri II, premier roi Plantagenêt d'Angleterre, est né au Mans en 1133**, ce
+qui donne enfin sa raison au nom de la Cité Plantagenêt, que le guide FR emploie sans avoir à
+l'expliquer. ② **Quimper** : `2012`, année d'inscription du **fest-noz** au patrimoine culturel
+immatériel de l'UNESCO. L'argument est structurel et non sentimental, et c'est pour ça qu'il est
+écrit : les danses sont **collectives, en chaîne ou en rond**, donc arriver seul est la manière
+normale d'arriver et personne n'a à être apparié — ce qui est exactement le sujet de la série.
+③ **Avignon** : `1309` et `1377`, les bornes de la papauté d'Avignon, qui est de l'histoire
+occidentale scolaire pour un anglophone là où le guide FR peut se contenter de « palais des
+Papes ». Le guide ajoute au passage l'**attente à corriger sur le pont** : la comptine est
+connue, et le pont Saint-Bénézet **ne traverse plus le Rhône**, il s'arrête au milieu, quatre
+arches sur vingt-deux — même traitement que l'Hermione absente de Rochefort (batch 36) et que la
+pierre de Rosette absente de Figeac (batch 46). ④ **Bourges** : `1992`. ⚠️ **C'est aussi une
+correction de formulation** : le guide FR écrit « centre historique classé au patrimoine mondial
+de l'UNESCO », or l'inscription de 1992 porte sur **la cathédrale Saint-Étienne**, pas sur
+l'ensemble du centre ancien. Le guide EN le dit précisément et signale que la formulation
+circule. Le label **capitale européenne de la culture** est par ailleurs rattaché à Glasgow,
+Liverpool, Cork et Galway, qui le rendent lisible d'un coup pour un lecteur anglophone.
+
+Quatre ajouts sans chiffre propres au lecteur étranger. ① **Valence n'est pas Valencia**, posé
+en première ligne de l'intro : c'est la désambiguïsation la plus coûteuse du lot, et elle suit
+le précédent d'Orange (batch 37), de Vernon (batch 39) et de Bergerac (batch 41). Le piège des
+**deux gares** que le guide FR signale déjà (Valence TGV est sur la commune d'**Alixan**, à une
+dizaine de kilomètres) est présenté comme frappant d'abord ceux qui réservent depuis
+l'étranger. ② **Mulhouse** : l'aéroport que beaucoup réservent sous le nom de « Basel » est
+l'**EuroAirport Basel-Mulhouse-Freiburg**, physiquement **en France**, sur les communes de
+Saint-Louis, Hésingue et Blotzheim, seul aéroport binational au monde, **avec des sorties
+française et suisse distinctes** — se tromper de sortie fait quitter le pays où est l'hôtel.
+Fait vérifié ce run, et cohérent avec ce que § Pour qui établissait déjà côté profils. La
+réserve Schengen du guide FR (Suisse dans Schengen mais hors UE, pièce d'identité et franchises
+douanières) est reprise telle quelle. ③ **Saint-Denis de La Réunion** : **La Réunion est dans
+l'Union européenne mais hors de l'espace Schengen**, donc un visa Schengen court séjour délivré
+pour la métropole **n'y donne pas accès** sauf mention explicite sur la vignette, les DROM
+délivrant leurs propres visas court séjour ; un visa long séjour français ou un titre de séjour
+Schengen couvre, et les ressortissants UE/EEE n'ont besoin de rien. C'est la règle qui fait
+rater un voyage à l'aéroport plutôt que de le décevoir, d'où sa place dans l'intro. S'y
+ajoutent **UTC+4 sans heure d'été** (donc un écart avec la métropole qui bouge deux fois l'an au
+lieu d'être fixe), l'euro, et les **saisons inversées** — même socle que les batches 33 et 47.
+④ Les termes que le lecteur ne peut pas deviner sont glosés en une incise : **scène nationale**,
+**centre dramatique national**, **Intercités et TER** comme réseaux classiques et non à grande
+vitesse, **fest-noz**, et le fait que le terminus parisien de Bourges est **Bercy**, gare qu'un
+visiteur anglophone ne connaît pas.
+
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : **baignade en mer interdite
+hors lagon de la côte ouest et hors zones surveillées** à La Réunion, avec la précision qu'**il
+n'y a pas de lagon devant Saint-Denis** ; **il n'existe aucun train à La Réunion** (ligne fermée
+en 1976, tram-train abandonné en 2010, 435 millions d'euros redéployés vers la route du
+littoral) ; **Le Séchoir est à Saint-Leu et Kabardock au Port**, accessibles depuis Saint-Denis
+sans y être ; **La Montagne est à écarter** faute de pouvoir en descendre sans voiture ; le
+**Train-Théâtre est à Portes-lès-Valence** et une partie de la programmation de la Comédie de
+Valence **ne se joue pas à Valence** ; **pas d'édition 2026 du festival de cerf-volant** ne
+concerne pas ce lot mais la même vigilance de calendrier s'applique au **Printemps de Bourges**
+(50ᵉ édition du 14 au 19 avril 2026, suivante attendue en avril 2027) et aux **24 Heures du
+Mans** (94ᵉ les 13 et 14 juin 2026) ; les scores de sécurité les plus bas du lot (Avignon
+4,3/10, Mulhouse 4,5/10, Saint-Denis 4,9/10) sont écrits comme **décrivant une commune et non
+ses habitants**, sans verdict ; et **aucun tarif de nuitée n'est imprimé**, la série disant
+pourquoi (le supplément single n'est pas une surtaxe, c'est l'absence de quelqu'un pour payer la
+moitié d'une chambre vendue entière).
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 :
+4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le
+substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides
+EN 901 → 908, les 13 contrôles au vert), `search-index` + `search-index:check`,
+`npm run sitemap:check`, `npm run parity` (**code 0**), `npm run hreflang:check`, plus le
+contrôle de lookup / photo exhaustif, le contrôle de figures ci-dessus et une vérification
+d'encodage (accents intacts, `°C` conservé, aucun `m2` / `EUR` / `deg` ascii, aucun mojibake,
+aucune guillemet courbe). Note d'environnement reconfirmée : le conteneur de routine démarre
+**en HEAD détaché et sans `node_modules`** — `git checkout main` puis `npm install` d'abord.
+
+**Prochain run.** Le corpus est à **1 112 FR / 908 EN**. Séries city-clés re-differées ce run et
+**à parité** : tourisme 261/261, `solo-travel-in` 36/36, `single-parent-holidays` fermée,
+`single-parent-in` fermée, `working-in` fermée, `where-to-buy-in` 49/49, `retiring-in` et
+`cost-of-living` sans écart, `studying-in` devançant le FR de 3. **Le motif de slug de chaque
+série est à revalider dans les deux sens avant de conclure quoi que ce soit** (cf. les deux faux
+trous de ce run). Les gisements réels restants sont les séries FR à jumelle EN partielle ou
+absente — `demenager-a-[ville]` (50 FR), `quitter-` face à `leaving-`, le croisement
+mois × profil des vacances — et non les séries ci-dessus.
+
 ### Livré le 11/09 — tourisme batch 47 EN (+7), la série refermée à 261/261
 
 `npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans

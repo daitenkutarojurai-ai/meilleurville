@@ -6454,6 +6454,41 @@
       "emoji": "🍸"
     },
     {
+      "slug": "solo-travel-in-le-mans-2026",
+      "title": "Solo travel in Le Mans: the Plantagenet quarter, and the weekend to avoid",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-quimper-2026",
+      "title": "Solo travel in Quimper: a Breton centre, a festival, and honest limits",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-valence-2026",
+      "title": "Solo travel in Valence: the best-balanced of this batch, and a station trap",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-avignon-2026",
+      "title": "Solo travel in Avignon: three weeks of excess, forty-nine weeks of city",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-mulhouse-2026",
+      "title": "Solo travel in Mulhouse: most for the least, with the bluntest reservations",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-bourges-2026",
+      "title": "Solo travel in Bourges: the cheapest here, and a 2028 deadline",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-saint-denis-reunion-2026",
+      "title": "Solo travel in Saint-Denis de La Réunion: inverted seasons, and no train",
+      "emoji": "🍸"
+    },
+    {
       "slug": "things-to-do-in-saint-laurent-du-maroni-2026",
       "title": "Things to do in Saint-Laurent-du-Maroni: the penal colony and the river",
       "emoji": "🛶"
@@ -7786,14 +7821,14 @@
       "count": 56
     },
     {
-      "slug": "buying-property-france",
-      "label": "buying property france",
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
       "count": 54
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 53
+      "slug": "buying-property-france",
+      "label": "buying property france",
+      "count": 54
     },
     {
       "slug": "real-estate",
@@ -7803,7 +7838,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 48
+      "count": 49
     },
     {
       "slug": "hauts-de-france",
@@ -7818,7 +7853,22 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 35
+      "count": 36
+    },
+    {
+      "slug": "single-supplement",
+      "label": "single supplement",
+      "count": 36
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 36
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
+      "count": 36
     },
     {
       "slug": "working-in-france",
@@ -7836,33 +7886,18 @@
       "count": 30
     },
     {
-      "slug": "single-supplement",
-      "label": "single supplement",
-      "count": 29
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 29
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
-      "count": 29
-    },
-    {
       "slug": "brittany",
       "label": "brittany",
-      "count": 28
-    },
-    {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 28
+      "count": 29
     },
     {
       "slug": "provence",
       "label": "provence",
+      "count": 29
+    },
+    {
+      "slug": "normandy",
+      "label": "normandy",
       "count": 28
     },
     {
@@ -7923,7 +7958,7 @@
     {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "cycling",
@@ -7948,7 +7983,7 @@
     {
       "slug": "reunion",
       "label": "reunion",
-      "count": 13
+      "count": 14
     },
     {
       "slug": "bretagne",

@@ -25702,6 +25702,363 @@ export const EN_GUIDES: EnGuide[] = [
     ],
   },
   {
+    slug: "solo-travel-in-le-mans-2026",
+    title: "Solo travel in Le Mans: the Plantagenet quarter, and the weekend to avoid",
+    metaTitle: "Solo Travel in Le Mans 2026: Old Town, Trams, Budget",
+    metaDesc:
+      "Le Mans alone: a walled medieval quarter, two tram lines, free light projections every summer evening, and the one June weekend to book around.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-12",
+    updatedAt: "2026-09-12",
+    intro:
+      "If you are reading this in English, Le Mans is a motor race to you before it is a city, and that is the first thing this guide has to correct. The race is one weekend in June, the circuit is not in the town, and that weekend is precisely the one a solo traveller should avoid. The other fifty-one weeks, Le Mans is a city of 145,182 residents with two tram lines, an intact walled medieval quarter and a national theatre, and it opens this batch on the share of residents aged 15 to 29, at 21.7% against a national median of 18.4% across the 538 cities measured here. It also carries the batch's two lowest scores for culture, 6.2/10, and nature, 4.8/10. This guide covers where to stay, how to fill a weeknight, how to get about without a car, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Le Mans, and why the race is the wrong reason",
+        body: "Le Mans is the youngest city in this batch on the measure used to build it: 21.7% aged 15 to 29, 95th of the 538 cities measured, against a national median of 18.4%. It is also growing slowly and steadily, 145,182 residents in 2022 against 142,991 in 2016. That relative youth does not cancel a genuinely older population, 27.6% aged 60 and over, slightly above the national median of 27.2%, which places the mood correctly. The site's scores fill in the rest: everyday life 5.5/10, level with Mulhouse and Avignon at the bottom of the seven; transport 6.1/10, level with Avignon; cost 6.4/10, level with Mulhouse, where on this site's convention a high cost score means an affordable city rather than an expensive one; safety 5.3/10, level with Bourges. Two flat reservations, and they are the reservations of an industrial city on a plain: culture tops out at 6.2/10 and nature at 4.8/10, both the lowest here. What is left, and it is enough for this profile, is a dense town whose weeknights do not depend on visitors. For an English speaker there is one more thread worth pulling. Henry II, the first Plantagenet king of England, was born in Le Mans in 1133, which is why the old town is called the Cité Plantagenêt rather than simply the old town. The quarter is not decorated with that history, it is the reason the quarter exists.",
+      },
+      {
+        heading: "Where to stay: the Cité Plantagenêt, and the fallbacks",
+        body: "The Cité Plantagenêt is the default, with no real hesitation on a short stay. It is the old town shut inside its Gallo-Roman walls, around the cathedral of Saint-Julien, and it is the only part of Le Mans whose nightlife score reaches 7.5/10 in the site's neighbourhood data, against 5.5 for both other documented quarters. Average rent for a two-room flat there is 730 euros a month against 650 for the city as a whole, which gives the scale of the central premium. The Quartier Sud is the sensible fallback: residential, on the tram, two-room flats at 680 euros, but a nightlife score of 5.5/10 that tells you plainly what it is, somewhere to sleep rather than to linger after dark. Pontlieue carries the lowest rents in the city, 620 euros for a two-room flat, with a direct tram to the centre. For two or three nights whose unit is the evening, the Cité Plantagenêt remains the right call even on a tight budget: the walk home you no longer have to take is worth the difference on the room.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Chimères, Superforma, the national stage",
+        body: "Le Mans has one feature the rest of this series does not, and it could have been designed for someone travelling alone. From July to the end of September, the Nuit des Chimères projects light onto the facades of the Cité Plantagenêt every single evening, for the two hours after dark. It is a walking trail through the streets, free, with no booking and no ticket to collect, which removes every piece of friction that makes an evening out awkward when you have nobody to arrange it with. You simply walk into it. The rest of the year rests on two institutions. Les Quinconces and L'Espal, designated a scène nationale in December 2018, run a multidisciplinary season across two houses, the second in the Sablons quarter. A scène nationale is a state-funded regional theatre, roughly the equivalent of a producing repertory house. Superforma, designated a scène de musiques actuelles by the Ministry of Culture in 2015 and the only venue of its kind in the Sarthe, handles gigs, mainly at Les Saulnières. Read those two names for what they are: a mid-sized city's offer, consistent with a culture score of 6.2/10, and enough to fill three weeknights rather than seven.",
+      },
+      {
+        heading: "Getting around without a car: two tram lines and a TGV",
+        body: "Le Mans is one of three cities in this batch with a tram, alongside Mulhouse and Avignon, and one of the few networks at this scale to run two lines. The first opened on 19 November 2007 and the second on 30 August 2014; together, operated by Setram, they run to nearly 19 kilometres and 33 stops. In practice that settles the question which decides a solo evening: getting home without a car and without a forty-minute walk. The transport score of 6.1/10 stays middling, level with Avignon, because it also takes in the suburban and regional picture, where Le Mans is less well served. Arrival is the strong point. The station is served by TGV from Paris-Montparnasse and sits on the tram line, which removes the transfer question entirely: you step off the train and onto the tram. That is worth weighing against Valence and Avignon, where arrival involves a connection, and against Bourges, which has neither high-speed rail nor an urban rail mode. One correction for anyone here because of the race: the Circuit de la Sarthe is a few kilometres south of the centre, not in the town, and it has no bearing on a city stay.",
+      },
+      {
+        heading: "The single supplement in Le Mans",
+        body: "Le Mans shares with Mulhouse the best cost score in this batch after Valence and Bourges, 6.4/10, and the site's reference rents show it: 470 euros for a studio and 650 for a two-room flat, values that put the city in the affordable half of the corpus. For a short stay what matters is not the annual rent but what it says about the stock. A city that houses students and people travelling for work has furnished studios and hotel rooms built around a single occupant, and neither format charges for an assumed second person. That is exactly the mechanism that makes the single supplement disappear, and it works well here. The supplement is not a surcharge added to your bill, it is simply the absence of somebody to pay half of a room sold whole. One massive exception, and it has a date: the 24 Hours weekend in mid-June saturates accommodation far beyond the city and tips every rate card over. Three habits, valid here as across this series. Ask explicitly for a single room rather than a double occupied by one person, because French hotels price those as two separate lines. Aim for midweek rather than the weekend. And compare a furnished studio against a hotel from the second night onwards. No nightly rates are printed here, because they move from one season and one platform to the next.",
+      },
+      {
+        heading: "When to go: the Chimères summer, autumn, never mid-June",
+        body: "Three windows, in this order. July to the end of September, when the Nuit des Chimères runs nightly and average July and August temperatures approach 20°C on the normals carried by this site, which makes an evening walk pleasant and free. That is the best period for this profile, and it is rare in this series, where summer is almost always the wrong moment. Mid-September to mid-November brings the indoor season back, the student population returns and rates fall, but the evenings shorten quickly, with November averaging 8°C and 2.6 hours of sun a day. March to June works the same way in reverse. One date is to be ruled out without discussion: the 24 Hours of Le Mans weekend in mid-June, whose 94th running was held on 13 and 14 June 2026, with the next expected in June 2027. That date is not bad for the city, it is bad for this kind of trip: accommodation is full, rates are at their annual peak, and the crowd is organised entirely around a circuit outside the town. December and January, at 6°C then 5°C with about two hours of sun a day, are the real trough.",
+      },
+    ],
+    relatedCities: [
+      "le-mans",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel le mans",
+      "travelling alone in france",
+      "single supplement",
+      "cite plantagenet le mans",
+      "pays-de-la-loire",
+    ],
+  },
+  {
+    slug: "solo-travel-in-quimper-2026",
+    title: "Solo travel in Quimper: a Breton centre, a festival, and honest limits",
+    metaTitle: "Solo Travel in Quimper 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Quimper alone: the safest city in this batch, a medieval centre on the Odet, fest-noz sessions you can walk into, and a direct TGV from Paris.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-12",
+    updatedAt: "2026-09-12",
+    intro:
+      "Quimper closes this batch of seven on the share of residents aged 15 to 29, at 19.7% at the 2022 Insee census, and that is where the selection stopped, on a clear gap rather than in the middle of a tie. It makes up for it on comfort, and by a distance: a safety score of 6.1/10, the best of the seven, an everyday-life score of 6.6/10, second behind Saint-Denis de La Réunion, and an overall score of 6.3/10, the best alongside Valence. The national median for 15 to 29 year olds being 18.4% across the 538 cities measured here, Quimper stays above it, but its population aged 60 and over reaches 28.7%, the second highest of the seven. This guide says plainly what that means for a trip whose unit is the evening.",
+    sections: [
+      {
+        heading: "Why Quimper, and what its place at the bottom of the batch means",
+        body: "Quimper is the most comfortable city in this batch and the least dense in young adults, and the two facts belong together. On comfort: safety 6.1/10, the highest of the seven, well ahead of Avignon at 4.3 and Mulhouse at 4.5; everyday life 6.6/10; nature 6.4/10, second behind Saint-Denis; overall 6.3/10, the highest alongside Valence. On density: 19.7% aged 15 to 29, 190th nationally, last in this batch, and 28.7% aged 60 and over, above the national median of 27.2%. The city is nonetheless growing, 64,530 residents in 2022 against 63,405 in 2016. What to take from that is simple, and worth writing rather than dodging: Quimper is not a city where you are guaranteed to find a crowd on a Tuesday in February, which this series promises elsewhere. It is a city where you will have a very good stay alone, in an intact medieval centre, with decent programming and a university outpost that sustains weeknight life without guaranteeing it. That is a different trade, not a worse one. One thread for an English speaker: this is Cornouaille, a name that is a cousin of Cornwall, and the Breton cultural world you are walking into has real ties to the Celtic ones you may already know.",
+      },
+      {
+        heading: "Where to stay: the historic centre, Kermoysan as a fallback",
+        body: "The historic centre is the default, and it is justified on the figures as much as on the setting. Arranged around the cathedral of Saint-Corentin and the banks of the Odet, it is the part of the city with the highest nightlife score in the site's neighbourhood data, 7.5/10, against 6.5/10 for Kermoysan and 5.0/10 for Ergué-Armel. Average rent for a two-room flat there is 740 euros against 700 for the city as a whole. Kermoysan, the student quarter alongside the university outpost, is the interesting fallback: a nightlife score of 6.5/10, the second highest in the city, two-room flats at 620 euros and decent buses into the centre. It is also the quarter that explains Quimper's weeknight life, which makes it more than a budget choice. Ergué-Armel, residential and green, should be ruled out for this kind of trip: very good for sleeping, of no use for going out, with a nightlife score of 5.0/10.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Théâtre de Cornouaille, the Novomax",
+        body: "Two institutions structure the year. The Théâtre de Cornouaille is Quimper's scène nationale, the state-funded regional theatre, and carries the multidisciplinary season. The Novomax is the contemporary music venue: it holds five rehearsal and recording studios, three teaching rooms, a room belonging to the conservatoire of music and drama, and a modular concert hall called Le Club whose capacity runs from one hundred to three hundred and ninety. Polarité[s], the regional contemporary music body, has its offices there. That modular capacity describes a Quimper evening rather well: gigs on a human scale rather than national tour dates, which matches a culture score of 6.6/10, level with Valence and Bourges. The rest happens in the lanes of the historic centre and along the Odet, with the Breton particularity of the fest-noz and of music sessions in bars. A fest-noz is a communal dance evening, inscribed on the UNESCO list of intangible cultural heritage in 2012, and the point for this profile is structural rather than sentimental: the dances are collective and in lines or circles, so arriving alone is the normal way to arrive and nobody has to be partnered off. That is a real argument here, and it rests on no promise of meeting anyone. It rests on the fact that you walk in without a booked table.",
+      },
+      {
+        heading: "Getting around without a car: the TGV, and nothing on rails in town",
+        body: "Quimper scores 5.5/10 on transport, the third lowest in this batch ahead of Bourges at 5.2 and Saint-Denis de La Réunion at 4.7, and it is worth knowing what that covers before booking. The city has neither a tram nor bus rapid transit: the urban network is buses, and the centre is done entirely on foot, which is enough at Quimper's scale. The strength is arrival. The station is served by TGV inOui from Paris-Montparnasse in three and a half hours, with six return services a day, a journey time achieved since the Bretagne-Pays de la Loire high-speed line opened in 2017. The station is a few minutes' walk from the centre, which removes the transfer question, and that is something Valence and, to a lesser extent, Avignon cannot claim as simply. Regional TER services then open up Cornouaille and the rest of Finistère as day trips. The honest limit is the same as everywhere in inland and coastal Brittany: the headlands and the isolated sites require a coach on a restricted timetable or a car, and the nature score of 6.4/10 measures the setting of the city, not the ease of reaching it without a steering wheel.",
+      },
+      {
+        heading: "The single supplement in Quimper",
+        body: "Quimper scores 6.2/10 on cost, fifth in this batch, behind Valence and Bourges at 6.7 and then Le Mans and Mulhouse at 6.4. The site's reference rents give 510 euros for a studio and 700 for a two-room flat, higher than Bourges and Mulhouse and comparable to Saint-Denis de La Réunion. Two mechanisms fight it out here, and that is what makes the city worth documenting. Against you: Quimper is a Finistère holiday destination, so part of the accommodation stock is built around a summer stay and priced by the room, the classic structure that produces a single supplement. For you: the university outpost and the administrative activity of a prefecture town sustain a stock of furnished studios priced by floor area, and business hotels geared to single occupancy from Monday to Thursday. The strategy that follows is sharper than elsewhere: aiming for midweek and outside July and August moves the city from the first regime to the second. The three habits of this series still apply, with that emphasis on the date. Ask explicitly for a single room, aim for midweek, and compare a studio with a hotel from the second night. No nightly rates are printed here, because they move too fast to be useful.",
+      },
+      {
+        heading: "When to go: May, June and September, not festival week unplanned",
+        body: "Quimper has the mildest winter and the coolest summer in this batch, which the normals carried by this site show clearly: 7°C on average in January, against 3°C in Valence and Mulhouse, but only 17°C in July and August, against 20 to 25°C in the other six. The price is rain and a shortage of light, with 17 rain days in January, the highest of the seven cities, and 2.0 hours of sun a day. The good windows are therefore May and June, 13°C then 15°C with six hours of daily sun, and September, 15°C and 5.3 hours, with the indoor season restarting and the holidaymakers gone. One date needs separate treatment. The Festival de Cornouaille, whose 103rd edition ran from 23 to 26 July 2026 with more than two thousand performers and close to a hundred and fifty events across the city, is the one moment when Quimper becomes a dense going-out town. That is excellent for this profile and it is exactly when accommodation tightens: you book months ahead, or not at all. November to February remain the trough, with under three hours of sun a day.",
+      },
+    ],
+    relatedCities: [
+      "quimper",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel quimper",
+      "travelling alone in france",
+      "single supplement",
+      "festival de cornouaille",
+      "brittany",
+    ],
+  },
+  {
+    slug: "solo-travel-in-valence-2026",
+    title: "Solo travel in Valence: the best-balanced of this batch, and a station trap",
+    metaTitle: "Solo Travel in Valence 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Valence alone, and not Valencia: the best transport and cost scores in this batch, a walkable Rhône-side centre, and two stations ten kilometres apart.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-12",
+    updatedAt: "2026-09-12",
+    intro:
+      "First, the thing that costs English speakers money: Valence is not Valencia. This is a French city of 64,288 people on the Rhône, in the Drôme, halfway between Lyon and Provence, and the Spanish city on the Mediterranean is a different country and a different booking. With that settled, Valence is the best-balanced destination in this batch, and it is hard to argue with once the figures are down: a transport score of 7.4/10, the highest of the seven, a cost score of 6.7/10, the highest alongside Bourges, and an overall score of 6.3/10, the highest alongside Quimper. Its share of residents aged 15 to 29 is 21.4%, against a national median of 18.4% across the 538 cities measured here. The one real trap is not in the city, it is in how you arrive, and it is worth explaining before you book anything.",
+    sections: [
+      {
+        heading: "Why Valence rather than somewhere else",
+        body: "Valence takes first place in this batch on three axes and second on a fourth. Transport 7.4/10, ahead of Mulhouse on 7.0. Cost 6.7/10, level with Bourges, where a high cost score means an affordable city on this site's convention. Overall 6.3/10, level with Quimper. Nature 6.3/10, third behind Saint-Denis de La Réunion and Quimper. Its 21.4% of 15 to 29 year olds puts it 106th nationally and two places behind Le Mans within this batch, well above the median of 18.4%. The city is gaining residents: 64,288 in 2022 against 62,477 in 2016, a rise of 2.9% in six years and the second-fastest in this batch behind Saint-Denis. Two reservations, and they have to be said. Safety is scored 5.2/10, the fourth lowest of the seven, behind Avignon, Mulhouse and Saint-Denis de La Réunion: that is a figure describing a commune, not its inhabitants, and it calls for no verdict on them. And culture, at 6.6/10, level with Bourges and Quimper, is that of a mid-sized prefecture rather than a metropolis: the programming exists, it will not fill seven consecutive evenings.",
+      },
+      {
+        heading: "Where to stay: the historic centre, the Polygone, and no further",
+        body: "The historic centre is the obvious choice. It is arranged around the cathedral of Saint-Apollinaire and the Peynet bandstand, its nightlife score is 7.5/10 in the site's neighbourhood data, the highest in the commune, and its average two-room rent is 720 euros against 680 for the city as a whole. The Polygone, a modern quarter built around the Valence-Ville station and newer facilities, comes just behind with a nightlife score of 7.0/10 and the best transport score in the city at 8.0/10: worth considering if arriving by train and practical comfort matter more than the setting. Fontbarlettes carries the lowest rents, 580 euros for a two-room flat, but a nightlife score of 5.0/10 disqualifies it for this kind of trip, where the unit is the evening and not the night. In other words, two areas only, and they adjoin. At Valence's scale, everything that matters for two or three nights sits inside a walkable radius.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Comédie, the centre, the Rhône bank",
+        body: "The institution that shapes weeknights is the Comédie de Valence, the centre dramatique national for the Drôme and the Ardèche, directed since January 2020 by Marc Lainé. A centre dramatique national is a state-funded producing theatre company, of which France has a few dozen. It has one quirk worth knowing: its touring arm, the Comédie itinérante, plays more than sixty performances a season in towns across the Drôme and the Ardèche, often rural, with more than a hundred and ten local partners. In other words, part of the programme is not performed in Valence, and you should check the venue before buying a ticket. The same applies, more sharply still, to the Train-Théâtre, a venue dedicated to song: it is in Portes-lès-Valence, a neighbouring commune, not in Valence. That is the kind of detail that turns an evening into an expedition when you have no car. Otherwise, a weeknight plays out in the historic centre and on the terraces, with the southern advantage: 21°C on average in July, 9.4 hours of sun a day, and still 16°C in September on the normals carried by this site. The culture score of 6.6/10 states the real level: an evening here is decided around a table more often than around a programme.",
+      },
+      {
+        heading: "Getting around without a car: the best score here, and two stations",
+        body: "The transport score of 7.4/10 is the highest in this batch, but it does not cover what you might imagine. Valence has no tram: the urban network is buses, including one bus rapid transit line, and the centre is done entirely on foot. What lifts the score is the rail position, and that is where the city's one real trap sits. There are two stations. Valence-Ville is in the centre, a few minutes' walk from the evening addresses. Valence TGV is in the commune of Alixan, about ten kilometres out: this is not an outlying Valence station, it is a station in a different commune. The two are linked by a TER regional train of about seven minutes, with roughly twenty services a day, and by urban buses in about fifteen. The practical consequence is simple, and it catches people booking from abroad more than anyone: a ticket bought without checking the arrival station can leave you ten kilometres from your hotel, late, looking for a connection. Check the station, not just the time. With that settled, Valence is the city in this batch where you most easily do without a car.",
+      },
+      {
+        heading: "The single supplement in Valence",
+        body: "With a cost score of 6.7/10, the most favourable in this batch alongside Bourges, Valence is somewhere per-room pricing weighs less than elsewhere. The site's reference rents confirm it: 490 euros for a studio and 680 for a two-room flat, in the affordable half of the corpus. The mechanism working for you is the one described across this series. The single supplement is not a surcharge added to your bill, it is simply the absence of somebody to pay half of a room sold whole. It therefore disappears wherever accommodation is priced per person or per square metre rather than by assumed double occupancy, and Valence has both formats that allow it: a stock of furnished studios and business hotels geared to single occupancy from Monday to Thursday. Two periods invert that grid and are worth anticipating: summer weekends, when Valence's position on the Rhône corridor makes it a staging post, and school holidays, when the Drôme provençale reachable from the city pulls the whole valley up. The three habits of this series apply unchanged: ask for a single room, aim for midweek, and compare a studio with a hotel from the second night onwards.",
+      },
+      {
+        heading: "When to go: spring and September, not high summer",
+        body: "Valence is a south-facing valley city, and its ideal calendar follows fairly directly. The best window runs from mid-April to the end of June: the normals carried by this site give 15°C on average in May with 7.1 hours of sun a day, and 18°C in June with 8.6 hours, which opens the terraces without imposing the heat. The second window is September, 16°C and 6.6 hours of sun, with the added advantage of the new season: the indoor programmes restart and the city gets its weekday population back. July and August are to be avoided for this profile, for two cumulative reasons. The heat first, 21°C on average but with markedly higher daily peaks and only seven rain days a month. The calendar second, because that is when programming stops, part of the addresses close, and the Rhône corridor is at its busiest. Winter is the real trough: 3°C in January, 2.9 hours of sun a day, a city that goes home early. For the same money, one September trip here is worth two in January.",
+      },
+    ],
+    relatedCities: [
+      "valence",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel valence",
+      "travelling alone in france",
+      "single supplement",
+      "valence tgv alixan",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "solo-travel-in-avignon-2026",
+    title: "Solo travel in Avignon: three weeks of excess, forty-nine weeks of city",
+    metaTitle: "Solo Travel in Avignon 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Avignon alone: the highest culture score in this batch at 9.0/10, a walled centre you cross on foot, and a July festival to plan around.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-12",
+    updatedAt: "2026-09-12",
+    intro:
+      "Avignon carries the highest culture score in this batch and among every remaining candidate in this series: 9.0/10, against 6.9 for Mulhouse and Saint-Denis, 6.6 for Valence, Bourges and Quimper, and 6.2 for Le Mans. The gap is enormous and it is earned: a historic centre inscribed on the UNESCO World Heritage list in 1995, the Palais des Papes, 4.3 kilometres of ramparts, and the largest theatre event in Europe every July. It is also the worst-scored city in this batch on safety, 4.3/10, and on the overall score, 5.6/10, and level at the bottom on everyday life with 5.5/10. Its share of residents aged 15 to 29 is 20.3%, against a national median of 18.4%. And its calendar is the most lopsided in the entire series. This guide explains why, and what to do about it.",
+    sections: [
+      {
+        heading: "Why Avignon, and why it is not the easy option here",
+        body: "Both halves of the file have to be put down together, or the guide lies. On the positive side, the culture score of 9.0/10 is an outlier in this batch: 2.8 points above the minimum, which is Le Mans on 6.2/10, and 2.1 points above the joint second, Mulhouse and Saint-Denis de La Réunion on 6.9/10. The historic centre, inscribed by UNESCO in 1995 for the Palais des Papes, the episcopal ensemble and the bridge, sits inside 4.3 kilometres of fourteenth and fifteenth century ramparts, which gives a wholly walkable evening city. For an English speaker the history behind that is more familiar than the city is: seven popes reigned from Avignon rather than Rome between 1309 and 1377, and the palace they built is what you are looking at. So is the bridge in the nursery rhyme. One expectation to manage before you walk down to it: the Pont Saint-Bénézet no longer crosses the Rhône. Four arches survive of an original twenty-two, and it stops partway across the river. On the negative side, safety is scored 4.3/10, the lowest of the seven, and the overall score 5.6/10, also the lowest. Everyday life tops out at 5.5/10, level with Le Mans and Mulhouse. And the population is not growing: 91,760 residents in 2022 against 92,378 in 2016. One point deserves explaining rather than glossing: Avignon's out-of-season vitality does not come from a student population, the university counting around eight thousand enrolments, an order of magnitude away from the student cities in this series. It comes from a permanent cultural economy, which is a different and more fragile mechanism.",
+      },
+      {
+        heading: "Where to stay: inside the walls, and genuinely nowhere else",
+        body: "For this kind of trip the recommendation is blunter in Avignon than anywhere else in this series. The intra-muros, the city enclosed by its ramparts, carries the highest nightlife score in the commune in the site's neighbourhood data, 8.0/10, level with the Nouveau Bassin in Mulhouse for the best in this batch. Average rent for a two-room flat there is 800 euros against 750 for the city as a whole, a modest gap against what it buys: everything on foot, including the walk back at an hour when nothing is running. The Rocade Ouest, the university area around the campus, comes next with a nightlife score of 6.0/10 and two-room flats at 680 euros: a defensible budget option, provided you accept a bus in the evening. Montfavet should be ruled out plainly, despite its quiet and its greenery: a nightlife score of 5.0/10, and the site's data describe a suburban quarter built for families with a car. For two or three nights whose unit is the evening, the intra-muros has no substitute here.",
+      },
+      {
+        heading: "Going out on a Tuesday: the festival, and the other forty-nine weeks",
+        body: "Avignon is the most extreme case in this series for how its offer is spread across the year, and that is the real subject of this guide. For three weeks in July the city hosts the Festival d'Avignon and the Festival Off simultaneously, which ran from 4 to 25 July 2026 for the 80th edition of the first and the sixtieth anniversary of the second, with the next expected in July 2027. The Off is counted in more than seventeen hundred shows across more than a hundred and thirty venues. For someone travelling alone that is objectively both the best and the worst period: the best because you walk into a theatre without having to persuade anybody and you talk to the people in the queue without needing a pretext, the worst because accommodation is full and booked months ahead, and an unshared room costs its annual maximum. The rest of the year the programming rests on the Opéra Grand Avignon and a fabric of permanent venues, at a far lower level but a real one. The honest question to ask before booking is therefore this: are you coming for the festival, in which case start six months out, or for the city, in which case July is precisely the month to avoid.",
+      },
+      {
+        heading: "Getting around without a car: a tram, and two stations four minutes apart",
+        body: "Avignon scores 6.1/10 on transport, level with Le Mans, and that covers a perfectly workable reality for this kind of trip. The city has had a tram since 19 October 2019: one line, 5.2 kilometres, run by the Orizo network under the Grand Avignon authority. That is modest, but the point lies elsewhere, in the fact that the intra-muros is covered entirely on foot. The thing to know concerns the two stations. Avignon-Centre is at the foot of the ramparts. Avignon TGV is in the Courtine district a few kilometres away, but the comparison with Valence stops there: the high-speed station is in the commune of Avignon, and above all the two have been linked since 15 December 2013 by a rail connection known as the Virgule, a TER shuttle taking four minutes with around thirty-five return services a day. It is one of the simplest connections in the corpus, and it is worth flagging because a traveller who does not know about it takes a taxi for nothing. Regionally, TER services open Arles, Nîmes and Orange as day trips without a car.",
+      },
+      {
+        heading: "The single supplement in Avignon, and why it bites harder",
+        body: "Avignon has the second least favourable cost score in this batch, 5.7/10, behind Saint-Denis de La Réunion and ahead of Quimper, and the site's reference rents are the highest of the seven: 540 euros for a studio and 750 for a two-room flat. The single supplement mechanism is harsher here than elsewhere, for a structural reason. A city whose accommodation economy is built around a three-week festival has a stock sized for the peak, priced by the stay and often by the double room, which is exactly the configuration that penalises a single occupant. In July the question does not even arise: the constraint is availability, not price per head. Outside the festival, two levers work well. The first is hostel and bed-based accommodation, which Avignon has in unusual quantity for a city of 91,760 people, precisely because of the festival, and which charges a person rather than a room. The second is short-let accommodation inside the walls, very well developed for the same reason, priced by floor area. The three habits of this series apply, with particular weight on the first: asking explicitly for a single room rather than a double occupied by one person changes the bill more here than elsewhere.",
+      },
+      {
+        heading: "When to go: May, September and October, or July knowingly",
+        body: "Avignon is the sunniest city in this batch, and the normals carried by this site show it clearly: 12 hours of sun a day in July and 2 rain days in the month, against 8.0 hours and 7 rain days in Le Mans over the same period. That opens three windows. May and June, with 18°C then 23°C on average and 9.6 then 11.3 hours of sun, are the best period for the city itself: terraces open, programming still running, rates ahead of the peak. September and October, 21°C then 17°C, are the second window, with the added advantage of a city that has its residents back after the festival. November stays workable at 12°C and 5.0 hours of sun a day, when Le Mans is on 8°C and 2.6 hours and Mulhouse on 6°C and 1.8. July is a choice rather than a mistake, but it has to be made deliberately: the city is then at once at its most intense and its most expensive, and a late booking finds nothing. December to February, at 8°C on average, are the real trough: that is when the gap between Avignon's reputation and what a Tuesday evening actually offers is at its widest.",
+      },
+    ],
+    relatedCities: [
+      "avignon",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel avignon",
+      "travelling alone in france",
+      "single supplement",
+      "avignon festival off",
+      "provence",
+    ],
+  },
+  {
+    slug: "solo-travel-in-mulhouse-2026",
+    title: "Solo travel in Mulhouse: most for the least, with the bluntest reservations",
+    metaTitle: "Solo Travel in Mulhouse 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Mulhouse alone: three tram lines, the world's largest car collection, the cheapest rooms in this batch after Bourges, and Basel twenty minutes away by train.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-12",
+    updatedAt: "2026-09-12",
+    intro:
+      "Mulhouse offers the most for the least in this batch, and it carries the bluntest reservations. On one side: a culture score of 6.9/10, level with Saint-Denis de La Réunion and second behind Avignon, a transport score of 7.0/10, second behind Valence, three tram lines, and the second lowest reference rents of the seven behind Bourges, at 420 euros for a studio. On the other: a safety score of 4.5/10, second from bottom here, an everyday-life score of 5.5/10, level at the lowest, and the sharpest population decline of the seven, 104,924 residents in 2022 against 108,999 in 2016. Its share of residents aged 15 to 29 stays at 20.8%, against a national median of 18.4%. This guide covers where to stay, how to fill a weeknight, how to get about without a car, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Mulhouse rather than somewhere else",
+        body: "Mulhouse ranks 134th nationally on the share of 15 to 29 year olds at 20.8%, fourth in this batch, and its population aged 60 and over, 21.8%, is the second lowest of the seven behind Saint-Denis, well below the national median of 27.2%. It is a young city inside a shrinking one, and both facts are true at once: it has lost 3.7% of its residents between 2016 and 2022 and 4.9% since 2011, the steepest fall in this batch ahead of Bourges and Avignon, which are also declining but more gently. For a short stay that decline matters less than it sounds, because what keeps a city centre alive on a Tuesday evening is density and a resident population, and Mulhouse has both. The scores give the measure: culture 6.9/10, transport 7.0/10, cost 6.4/10 level with Le Mans, where a high cost score means an affordable city on this site's convention. Two reservations not to be smuggled past. Safety is scored 4.5/10, second from bottom of the seven ahead of Avignon: that is a figure describing a commune, not its inhabitants, and this guide passes no verdict on them. And the everyday-life score of 5.5/10, level with Le Mans and Avignon at the bottom here, says you do not come for the setting.",
+      },
+      {
+        heading: "Where to stay: the Nouveau Bassin first, the centre second",
+        body: "The Nouveau Bassin is the area that decides this guide. A former industrial quarter converted into a cultural district, it carries the highest nightlife score in the commune in the site's neighbourhood data, 8.0/10, the best in this batch alongside the intra-muros of Avignon. Average rent for a two-room flat there is 600 euros, very low for a going-out quarter, and the resident profile is young and creative. The historic centre, around the place de la Réunion and the Renaissance town hall, follows closely with a nightlife score of 7.0/10 and two-room flats at 560 euros, below the city average of 580. Both quarters are on the tram and a few minutes apart, which lets you sleep in one and go out in the other without an end-of-evening negotiation. Bourtzwiller carries the lowest rents in the city, 480 euros for a two-room flat, but its nightlife score of 5.5/10 makes it a place to sleep rather than to go out.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Noumatrouff, La Filature, the museums",
+        body: "Mulhouse has a density of venues above what its size suggests, which is what the culture score of 6.9/10 reflects. The Noumatrouff is the city's contemporary music venue: born in 1992 in an industrial shell in the Mertzau quarter, it occupies around 1,500 square metres, has two halls of 600 and 300 capacity, programmes eighty gigs a year and draws close to 25,000 people. That is a volume of programming that fills weeknights, which is not true everywhere in this batch. La Filature, Mulhouse's scène nationale, carries the other half of the bill, from theatre to opera by way of orchestral work. And the city has one argument nobody else here has: the Cité de l'Automobile, the largest car collection on public display in the world, with more than 560 vehicles including 130 Bugattis, housed in a former wool mill bought by the Schlumpf brothers in 1957 and opened to the public in 1982. It is not an evening out, but it is exactly the kind of visit you make alone without owing anyone an explanation, and for a certain sort of English-speaking visitor it is on its own a reason to come to Alsace.",
+      },
+      {
+        heading: "Getting around without a car: three tram lines and a tram-train",
+        body: "Mulhouse is the best-equipped city in this batch for urban transport, which its score of 7.0/10 only half conveys. The network runs three tram lines over 16.2 kilometres and 29 stops. Lines 1 and 2 opened on 20 May 2006 and line 3 on 12 December 2010, at the same time as the Thur valley tram-train, which links Mulhouse to Thann by running first on the urban tramway and then on the national rail network. It was the first genuinely interconnected tram-train in France. In practice, for a car-free stay, that means the centre, the Nouveau Bassin and the station are on one network, and a day trip into the Vosges valley needs a ticket rather than a steering wheel. The main station is served by TGV from Paris, and Mulhouse is also connected by rail to Basel, which puts an evening in another country within reach. Two points worth knowing if you are travelling from outside the EU. Switzerland is in the Schengen area but outside the European Union, so there is no systematic border check but identity documents are required and customs allowances apply. And the airport many visitors book as Basel is EuroAirport Basel-Mulhouse-Freiburg, which is physically on French soil in the communes of Saint-Louis, Hésingue and Blotzheim: it is the only binational airport in the world, jointly run by France and Switzerland, and it has separate French and Swiss exits. Take the wrong one and you have left the country your hotel is in.",
+      },
+      {
+        heading: "The single supplement in Mulhouse",
+        body: "This is, with Bourges, one of the two cheapest destinations in this batch once you are there, and the site's reference rents show it without ambiguity: 420 euros for a studio and 580 for a two-room flat, just above the 410 and 570 of Bourges and far below the 540 and 750 of Avignon. A cost score of 6.4/10, level with Le Mans, puts the city in the affordable half of the corpus. Two mechanisms work in a solo traveller's favour. The first is industrial and cross-border: Mulhouse has long housed people travelling for work and cross-border commuters, so its hotel stock is structured around single occupancy from Monday to Thursday, with a grid that inverts at the weekend. The second is demographic: a city losing residents has a slack housing market, which feeds a supply of furnished studios priced by floor area rather than by occupancy. The three habits of this series apply, with one local nuance: here, aiming for midweek is almost always cheaper than aiming for the weekend, the opposite of what holds in a tourist city. Ask explicitly for a single room, compare a studio with a hotel from the second night, and expect no price range in this guide, because rates move from one season and one platform to the next.",
+      },
+      {
+        heading: "When to go: May and September, and not December for this profile",
+        body: "Mulhouse has an Alsatian plain climate, continental and clear-cut, which the normals carried by this site describe well: 3°C on average in January with 1.8 hours of sun a day, 21°C in July with 7.7 hours. The two good windows for this profile are therefore May and June on one side, 16°C then 19°C with 6.7 then 7.5 hours of daily sun, and September on the other, 16°C and 5.8 hours, with the advantage of the indoor season restarting and the student population returning. July and August work on temperature but coincide with programming stopping, which strips the city of half of what makes it interesting here. November, December and January are the real climatic trough, with under two hours of sun a day and eleven to twelve rain days a month. One seasonal reservation specific to Alsace is worth putting down for this profile precisely: December is the month the region draws the most visitors and accommodation tightens the most, for Christmas markets whose format is a group outing. That is not a bad period, it is a period where you pay the most for a setting designed for groups.",
+      },
+    ],
+    relatedCities: [
+      "mulhouse",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel mulhouse",
+      "travelling alone in france",
+      "single supplement",
+      "cite de l automobile mulhouse",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "solo-travel-in-bourges-2026",
+    title: "Solo travel in Bourges: the cheapest here, and a 2028 deadline",
+    metaTitle: "Solo Travel in Bourges 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Bourges alone: the lowest rents in this batch, a Gothic cathedral on the UNESCO list, an April music festival, and European Capital of Culture status in 2028.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-12",
+    updatedAt: "2026-09-12",
+    intro:
+      "Bourges is the destination in this batch that takes the most effort to reach and costs the least once you are there. It has no TGV, no tram and no bus rapid transit: of the thirty-six destinations in this series only three are in that position, Troyes, Saint-Denis de La Réunion and this one. Against that it shows the most favourable cost score in the batch, 6.7/10 level with Valence, and the lowest reference rents of the seven, 410 euros for a studio. Its share of residents aged 15 to 29 is 20.3% at the 2022 Insee census, against a national median of 18.4% across the 538 cities measured here, but its population aged 60 and over, 29.7%, is the highest in this batch. And one date changes how you read all of it: Bourges will be a European Capital of Culture in 2028.",
+    sections: [
+      {
+        heading: "Why Bourges, and why now rather than in 2028",
+        body: "Bourges was designated European Capital of Culture for 2028 on 13 December 2023, ahead of Clermont-Ferrand, Montpellier and Rouen, at the end of a selection open to nine French cities. It will be the fifth French city to hold the title after Paris, Avignon, Lille and Marseille-Provence, alongside České Budějovice in Czechia and Skopje in North Macedonia. If the label means something to you from Glasgow, Liverpool, Cork or Galway, it means the same thing here. That date matters for a trip, and not in the direction you would expect. In 2028 the programming will be exceptional and accommodation will be full, which is precisely the configuration in which an unshared room costs the most. The two years before it are therefore the good window: the city is investing, venues are opening, and nothing has pulled rates up yet. The rest of the file is that of a Berry prefecture town of 64,238 people in slow decline, 2.0% down on 2016 and 3.5% down on 2011. The scores: culture 6.6/10 level with Valence and Quimper, cost 6.7/10 at the top of this batch with Valence, safety 5.3/10 level with Le Mans, everyday life 5.7/10. And transport on 5.2/10, second from bottom of the seven.",
+      },
+      {
+        heading: "Where to stay: the historic centre, and nowhere else",
+        body: "On this point Bourges leaves no margin. The historic centre, around the cathedral of Saint-Étienne and the Palais Jacques-Cœur, carries a nightlife score of 7.5/10 in the site's neighbourhood data. The two other documented quarters fall to 4.5/10 for Asnières-lès-Bourges and 3.5/10 for the northern suburban fringe, the latter the lowest figure recorded across all twenty-one quarters in this batch. In other words, Bourges's evening life is entirely concentrated in its centre, and staying elsewhere removes the reason for the trip. The good news is that this centre is also affordable: 580 euros average rent for a two-room flat, barely above the city average of 570. That is a rare situation, and it follows from Bourges not being a tight market. Elsewhere in this series the going-out quarter is also the most expensive; here the gap is ten euros a month on the local rent reference. Worth being precise about the heritage, because the wording moves around: it is the cathedral itself that was inscribed on the UNESCO World Heritage list, in 1992, not the whole of the old town.",
+      },
+      {
+        heading: "Going out on a Tuesday: the maison de la culture, the Printemps",
+        body: "Bourges carries an institution that matters in French cultural history, and it deserves citing precisely rather than with a superlative. Its maison de la culture opened in October 1963 and was inaugurated by André Malraux, then Minister of Culture, on 18 April 1964. Le Havre's had been inaugurated before it, in 1961, but Bourges was the first to operate on the principles the minister had set out. It is today a scène nationale, a state-funded regional theatre. The other fixture is the Printemps de Bourges, founded in April 1977, whose 50th edition ran from 14 to 19 April 2026 with around a hundred and thirty artists across close to three hundred concerts spread through the city. The next is expected in April 2027. For this profile the Printemps is a textbook case: it is when Bourges becomes a dense going-out town, and it is also the only moment in the year when accommodation genuinely tightens, so you book months ahead. Outside the festival, the culture score of 6.6/10 says what to expect: a prefecture town's programming, coherent across three evenings, not seven.",
+      },
+      {
+        heading: "Getting around without a car: no TGV, no tram, and what that changes",
+        body: "Bourges is the least well served city in this batch after Saint-Denis de La Réunion, with a transport score of 5.2/10, and its service sheet is empty: no TGV, no tram, no bus rapid transit. It is worth knowing what that means in practice, in two distinct parts. For getting there, the link is by Intercités from Paris-Bercy via Étampes and Vierzon, in about two hours fifteen, with four return services a day. Intercités is the national conventional network rather than the high-speed one, and four services a day is infrequent, so a missed train is expensive: that is the first thing to check before booking accommodation. Note also that the Paris terminus is Bercy, not one of the stations an English-speaking visitor is likely to know. For getting about once there, the answer is simpler than it looks: the historic centre of Bourges is covered entirely on foot, and since all of the evening life is concentrated in it, the absence of an urban rail network is not felt on a short stay. The real constraint is the day trip: without a car, the Berry around the city stays largely out of reach.",
+      },
+      {
+        heading: "The single supplement in Bourges",
+        body: "Bourges is, with Mulhouse, the cheapest destination in this batch, and the site's reference rents give the measure: 410 euros for a studio, the lowest of the seven, and 570 for a two-room flat, also the lowest. The cost score of 6.7/10 is the best here alongside Valence. That does not remove the single supplement, which is not a surcharge but the absence of somebody to pay half of a room sold whole, but it mechanically reduces its absolute weight: the unshared half of a cheap room is still cheap. One point of vigilance specific to Bourges is worth putting down. The hotel stock of a prefecture town this size is narrower than that of a university city, so furnished studios and hostels are rarer here, and a significant share of rooms is priced as doubles. Two habits are usually enough: ask explicitly for a single room rather than a double occupied by one person, because French hotels price those as separate lines, and book early for the week of the Printemps de Bourges in April, which is the one period when the city fills and the rate gap genuinely opens up.",
+      },
+      {
+        heading: "When to go: April for the festival, May and September for the city",
+        body: "Bourges has a central plain climate, without excess in either direction, which the normals carried by this site describe like this: 5°C on average in January with 2.1 hours of sun a day, 21°C in July with 8.0 hours. Three windows stand out. April, if the Printemps de Bourges is the reason for the trip, with the pricing reservation already noted. May and June for the city itself, 15°C then 18°C and seven hours of daily sun, the period when the terraces of the historic centre work and programming is still running. September last, 17°C and 6.5 hours of sun, with the indoor season restarting. July and August are to be avoided for this profile, not for the weather, which is good, but because programming stops and a city of 64,238 people with no substitute summer population becomes very quiet. November to February are the trough, with two to three hours of sun a day and nine to eleven rain days a month. One last note on the long calendar: as 2028 approaches, the city's programming will thicken and its rates will follow, which makes the 2026 and 2027 seasons particularly well placed.",
+      },
+    ],
+    relatedCities: [
+      "bourges",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel bourges",
+      "travelling alone in france",
+      "single supplement",
+      "printemps de bourges",
+      "centre-val-de-loire",
+    ],
+  },
+  {
+    slug: "solo-travel-in-saint-denis-reunion-2026",
+    title: "Solo travel in Saint-Denis de La Réunion: inverted seasons, and no train",
+    metaTitle: "Solo Travel in Saint-Denis, Réunion 2026: Stay, Budget",
+    metaDesc:
+      "Saint-Denis de La Réunion alone: the best everyday-life and nature scores in this batch, inverted seasons, no railway, and a visa rule that is not Schengen.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-12",
+    updatedAt: "2026-09-12",
+    intro:
+      "Saint-Denis is the first destination in this series outside mainland France, and it forces a rethink of almost everything the previous guides established. It is also not the Saint-Denis just north of Paris, which is a different city in a different hemisphere. One rule belongs before anything attractive is said: Réunion is part of the European Union but sits outside the Schengen area, so a short-stay Schengen visa issued for mainland France does not admit you unless it says so on the label. Its share of residents aged 15 to 29 is 21.1% at the 2022 Insee census, against a national median of 18.4% across the 538 cities measured here, and its population aged 60 and over, 20.0%, is the lowest in this batch against a national median of 27.2%. It is the city that lives best day to day of the seven, with an everyday-life score of 6.8/10 and a nature score of 8.4/10, both the highest. It is also the most expensive, cost 4.1/10, and the hardest to move around without a car, transport 4.7/10, both the worst. And its calendar is the exact inverse of the mainland one. This guide takes those four points in order.",
+    sections: [
+      {
+        heading: "Why Saint-Denis changes the rules of this series",
+        body: "Saint-Denis is the most populous city in this batch, with 156,149 residents in 2022, and the only one growing strongly: 147,920 in 2016 and 145,347 in 2011, a rise of 5.6% in six years and 7.4% in eleven. Its age structure is markedly younger than the other six. People aged 60 and over make up 20.0% of the population, when Bourges is on 29.7%, Quimper on 28.7% and Le Mans on 27.6%, above the national median of 27.2%. That difference is not a statistical detail: it means that on a Tuesday evening in June, an Indian Ocean city full of young working people and students resembles none of the empty resorts this profile exists to avoid. The scores confirm it: everyday life 6.8/10, the highest here; culture 6.9/10, level with Mulhouse and second behind Avignon; nature 8.4/10, far above everything else. The counterpart is twofold and severe. Cost, scored 4.1/10, is the least favourable in this batch by a distance, which is the general rule of island economies. And safety is scored 4.9/10, the third lowest of the seven behind Avignon and Mulhouse: that is a figure describing a commune, not its inhabitants.",
+      },
+      {
+        heading: "Where to stay: the Barachois, Sainte-Clotilde, not the heights",
+        body: "The Barachois is the historic seafront of Saint-Denis, with its promenade and its cannon, and it is the area with the highest nightlife score in the commune in the site's neighbourhood data, 7.8/10. Average rent for a two-room flat there is 800 euros a month against 700 for the city as a whole, which makes it the most expensive of the three documented quarters and gives the measure of the central premium. Sainte-Clotilde is the student quarter, alongside the university: a nightlife score of 5.5/10, two-room flats at 680 euros, and decent links into the centre. It is also where the centre dramatique national has its second house, La FabriK, which makes it a coherent option for this profile. La Montagne, by contrast, should be ruled out without hesitation for this kind of trip, despite its view and its quiet: its nightlife score is 4.5/10 and the site's data state explicitly that a car is all but essential there to get down into town. On an island with no railway, that detail is not a detail.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Grand Marché, and what is not in the city",
+        body: "The reference institution is the Centre dramatique national de l'océan Indien, designated by the Ministry of Culture on 30 July 2018. It works across two sites: the Théâtre du Grand Marché, in the middle of Saint-Denis, with a 300-seat house and a 200-seat cabaret room, and La FabriK, in the Sainte-Clotilde quarter. Both are inside the commune, which is not a trivial point when you look at the rest of the island's cultural offer: Le Séchoir is at Piton Saint-Leu, in the commune of Saint-Leu, and Kabardock, the island's contemporary music venue, is at Le Port. Both are reachable from Saint-Denis but neither is in it, and getting there means a car or a coach. That is the nuance to absorb before building an evening around a listing seen online. In Saint-Denis itself, the Téat Champ Fleuri completes the centre dramatique's offer. The evening then plays out at the Barachois and in the streets of the centre, on a register of terraces and counters, with a climate that permits it year-round: 22°C on average in July, the coolest month, and 27°C in January and February on the normals carried by this site. No mainland city in this series offers that in winter.",
+      },
+      {
+        heading: "Before you go: entry rules, no train, and where you may swim",
+        body: "Three rules here are opposable rather than advisory, and all three catch visitors out. The first is entry. Réunion is a French department and part of the European Union, but it is outside the Schengen area. For a non-EU traveller the consequence is direct: a short-stay Schengen visa issued for mainland France is not valid here unless the label itself states that it covers Réunion, and the overseas departments issue their own short-stay visas. A French long-stay visa or a residence permit issued by a Schengen state does cover you, and EU and EEA nationals need no visa whatever the length of stay. Check the wording on your own visa rather than assuming that France is France for this purpose, because it is not. Three smaller practicalities follow from the same distance: the currency is the euro, so there is nothing to change if you are coming from the eurozone; the island runs on UTC+4 with no daylight saving, so the gap to mainland France shifts by an hour twice a year rather than staying fixed; and the seasons are southern. The second rule is that there is no railway on Réunion. The island's old line closed in 1976; the tram-train project, which was to link Saint-Benoît to Saint-Paul via Saint-Denis, was abandoned in 2010 after the regional council changed hands, with the 435 million euros of state funding redirected to the coast road. What replaced it is called Trans Éco Express, a programme of bus rapid transit infrastructure. Saint-Denis is served by the Citalis network, which also covers Sainte-Marie and Sainte-Suzanne. The transport score of 4.7/10, the lowest in this batch, measures exactly that. The practical consequence is clear. A stay confined to Saint-Denis works very well on foot and by bus, the centre being compact and the seafront adjacent. The moment the plan leaves the commune, for the cirques, the volcano or the western beaches, you need an intercity coach on a restricted timetable or a hire car, which is a budget line of its own and, for one person, one more line that cannot be shared. The third rule is not optional and does not depend on the weather: swimming in the sea is prohibited outside the lagoon on the west coast and outside supervised areas, because of shark risk, and there is no lagoon in front of Saint-Denis. Swim where the signage says you may, and nowhere else.",
+      },
+      {
+        heading: "The single supplement here: the real subject is the airfare",
+        body: "Saint-Denis is the destination in this batch where a solo traveller's budget deserves the most attention, with a cost score of 4.1/10, a long way from the 6.7/10 of Valence and Bourges. The site's reference rents give 490 euros for a studio and 700 for a two-room flat, comparable to Quimper, but rent is not what decides here. Two items dominate, and neither can be shared. The first is the airfare from the mainland, which does not divide and whose peak periods follow the school holidays of both hemispheres. The second is car hire, indispensable as soon as you leave the commune, and charged per vehicle rather than per person: that is the line where travelling alone structurally costs double, more so than accommodation. Running the other way, one point works firmly in your favour. Saint-Denis is a prefecture with an administration, a university and an economy of its own, so it has a business accommodation stock geared to single occupancy midweek, a long way from the seaside resort structure that manufactures the single supplement. The habit of this series is worth more here than anywhere: aim for midweek, ask for a single room, and settle the car-versus-coach question at the booking stage rather than on arrival.",
+      },
+      {
+        heading: "When to go: the austral winter, which is our summer",
+        body: "The whole calendar of this series inverts here, and that is the main reason Saint-Denis earns a guide rather than a mention. On Réunion the dry season is the austral winter and runs from May to November. The wet and cyclone season runs from November to April, with the risk peaking in January, February and March. The normals carried by this site show it directly: Saint-Denis counts 14 rain days a month in January, February and March, against 6 in November, 7 in October and 8 in June and September. Temperatures vary little, from 22°C in July and August to 27°C in January and February. The good window for this profile is therefore September to November: dry weather, clear sunshine, and the crowds gone after the mainland summer holidays, the period when Réunion residents themselves travel least. July and August are pleasant but coincide with the peak of mainland visitor traffic, and therefore with the peak airfare. And the first quarter is to be avoided for this kind of trip: a cyclone is not only a weather question, it is a possible immobilisation of several days, which weighs more heavily when you are travelling with nobody to share the cost of a delay.",
+      },
+    ],
+    relatedCities: [
+      "saint-denis-reunion",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel saint-denis reunion",
+      "travelling alone in france",
+      "single supplement",
+      "barachois saint-denis",
+      "reunion",
+    ],
+  },
+  {
     slug: "things-to-do-in-saint-laurent-du-maroni-2026",
     title: "Things to do in Saint-Laurent-du-Maroni: the penal colony and the river",
     metaTitle: "Things to Do in Saint-Laurent-du-Maroni (2026)",
