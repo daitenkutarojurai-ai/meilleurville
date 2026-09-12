@@ -90,6 +90,18 @@ const T: Record<string, Transit> = {
   "saint-raphael": { tgv: true },
   angouleme: { tgv: true, bhns: true },
   niort: { tgv: true },
+  // Ajoutés le 2026-09-12. Les deux villes rendaient `{}`, que la table
+  // documente comme « inconnu » et non comme « pas de desserte » : une surface
+  // qui lit `{}` retombe sur le résumé par score et n'affirme rien. Mais un
+  // rédacteur, lui, lit l'absence comme une absence, et c'est ainsi qu'un guide
+  // peut écrire « pas de TGV » d'une ville qui en a un. Vérifié avant écriture :
+  // Colmar est reliée à Paris-Est par un TGV inOui direct (2 h 20 au plus
+  // rapide), Montauban-Ville-Bourbon est desservie par TGV inOui et Ouigo sur
+  // l'axe Paris-Bordeaux-Toulouse. Ni tram ni métro dans l'une ni dans l'autre ;
+  // `bhns` et `velo` restent non renseignés faute de vérification, pas par
+  // constat d'absence.
+  colmar: { tgv: true },
+  montauban: { tgv: true },
 
   // — Banlieue parisienne — RER & métro Paris —
   "boulogne-billancourt": { metro: true, rer: true, tram: true, velo: "moyen" },

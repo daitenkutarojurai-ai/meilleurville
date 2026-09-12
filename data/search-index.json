@@ -7904,6 +7904,41 @@
       "emoji": "🍸"
     },
     {
+      "slug": "vacances-celibataire-nice-2026",
+      "title": "Vacances célibataire à Nice en 2026 : tram jusqu'à une heure, février en pointe, budget solo",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-annecy-2026",
+      "title": "Vacances célibataire à Annecy en 2026 : la Cité de l'animation change la donne hors saison",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-colmar-2026",
+      "title": "Vacances célibataire à Colmar en 2026 : la seule ville de la série dont la pointe est en hiver",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-saint-pierre-reunion-2026",
+      "title": "Vacances célibataire à Saint-Pierre de La Réunion en 2026 : côte sous le vent, hiver austral, budget solo",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-niort-2026",
+      "title": "Vacances célibataire à Niort en 2026 : une ville qui travaille, le deux-pièces le moins cher du lot",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-montauban-2026",
+      "title": "Vacances célibataire à Montauban en 2026 : la destination la moins chère de toute la série",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-fort-de-france-2026",
+      "title": "Vacances célibataire à Fort-de-France en 2026 : une capitale qui travaille, pas une station",
+      "emoji": "🍸"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -10133,6 +10168,11 @@
     {
       "slug": "vins",
       "label": "vins",
+      "count": 3
+    },
+    {
+      "slug": "week-end-celibataire-nouvelle-aquitaine",
+      "label": "week-end célibataire Nouvelle-Aquitaine",
       "count": 3
     }
   ]
