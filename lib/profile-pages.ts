@@ -491,8 +491,9 @@ export function airportAccessHub(city: CityLight): { hub: string; km: number; ti
 
 /**
  * Accès aérien international, sur 0-10. Produit d'un plafond de plateforme et
- * d'une décroissance de distance : plein plafond jusqu'à 30 km de route, zéro
- * à 250, décroissance en puissance 1,15 entre les deux — à peine plus sévère
+ * d'une décroissance de distance : plein plafond jusqu'à 20 km de route
+ * (`AIR_FULL_KM`), zéro à 250, décroissance en puissance 1,15 entre les deux —
+ * à peine plus sévère
  * qu'une droite, parce qu'on ne va pas à l'aéroport tous les jours et qu'une
  * heure de route reste supportable six fois par an.
  *

@@ -1683,23 +1683,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le paradoxe côtier : mer à tout prix ou mer accessible ?",
-        body: "Les prix de l'immobilier côtier en France varient dans un rapport de 1 à 6 : de 1 500€/m2 à Boulogne-sur-Mer à 9 000€/m2 à Cannes ou Saint-Jean-de-Luz. La mer n'est pas qu'une question de prix : c'est aussi une question de mode de vie. Les côtes bretonnes et normandes offrent une mer dynamique (surf, voile, balades en falaise) mais des étés courts. La côte atlantique centrale (Charente-Maritime, Vendée) combine prix raisonnables et ensoleillement. La côte méditerranéenne reste chère mais certaines villes de l'Hérault ou du Var offrent encore des alternatives.",
+        body: "Les prix de l'immobilier côtier en France varient dans un rapport de 1 à 6 : de 1 500€/m² à Boulogne-sur-Mer à 9 000€/m² à Cannes ou Saint-Jean-de-Luz. La mer n'est pas qu'une question de prix : c'est aussi une question de mode de vie. Les côtes bretonnes et normandes offrent une mer dynamique (surf, voile, balades en falaise) mais des étés courts. La côte atlantique centrale (Charente-Maritime, Vendée) combine prix raisonnables et ensoleillement. La côte méditerranéenne reste chère mais certaines villes de l'Hérault ou du Var offrent encore des alternatives.",
       },
       {
         heading: "Le Top mer + budget : Boulogne-sur-Mer, Brest, Lorient, Sète, Martigues",
-        body: "Boulogne-sur-Mer est la ville côtière la moins chère de France (1 900€/m2 en moyenne) : port de pêche dynamique, plages de Wimereux à côté, et Tunnel sous la Manche à 30 min. Brest a un accès à des panoramas côtiers parmi les plus sauvages d'Europe pour un prix BFC. Lorient combine festival interceltique, rade magnifique et prix encore raisonnables (2 100€/m2). Sète est la perle de l'Hérault : mer, étang, festival et prix encore 40% sous Montpellier. Martigues, la «Venise Provençale», donne accès à la Côte Bleue pour des prix marseillais raisonnables.",
+        body: "Boulogne-sur-Mer est la ville côtière la moins chère de France (1 900€/m² en moyenne) : port de pêche dynamique, plages de Wimereux à côté, et Tunnel sous la Manche à 30 min. Brest a un accès à des panoramas côtiers parmi les plus sauvages d'Europe pour un prix BFC. Lorient combine festival interceltique, rade magnifique et prix encore raisonnables (2 100€/m²). Sète est la perle de l'Hérault : mer, étang, festival et prix encore 40% sous Montpellier. Martigues, la «Venise Provençale», donne accès à la Côte Bleue pour des prix marseillais raisonnables.",
       },
       {
         heading: "La Charente-Maritime : le meilleur rapport qualité/prix côtier de France",
-        body: "La Charente-Maritime (La Rochelle, Rochefort, Saintes, Royan) est systématiquement sous-estimée dans les classements côtiers. Pourtant : 2 100 heures de soleil par an (autant que Nice), accès aux îles de Ré, Oléron et Aix, plages de sable fin, huîtres et fruits de mer, et des prix entre 2 500 et 3 500€/m2 selon la commune. La Rochelle est la plus chère de la zone mais reste 40% moins chère que Biarritz. Rochefort, ville-arsenal royale classée, reste très accessible pour un accès mer en 15 min.",
+        body: "La Charente-Maritime (La Rochelle, Rochefort, Saintes, Royan) est systématiquement sous-estimée dans les classements côtiers. Pourtant : 2 100 heures de soleil par an (autant que Nice), accès aux îles de Ré, Oléron et Aix, plages de sable fin, huîtres et fruits de mer, et des prix entre 2 500 et 3 500€/m² selon la commune. La Rochelle est la plus chère de la zone mais reste 40% moins chère que Biarritz. Rochefort, ville-arsenal royale classée, reste très accessible pour un accès mer en 15 min.",
       },
       {
         heading: "Bretagne : la mer accessible mais froide",
-        body: "La Bretagne offre le paradoxe d'une mer magnifique à des prix encore abordables en dehors de la côte nord (Saint-Malo, Dinard sont maintenant tendus). Les vraies opportunités : Quimper (accès mer 20 min, prix 2 200€/m2), Lorient (rade de Groix, festival), Brest (rade magnifique, TGV vers Paris 3h45). La contrainte : l'été est court (juillet-août), les vents violents en hiver, et il pleut souvent. Pour ceux qui aiment la mer sauvage et l'authenticité bretonne malgré le climat, c'est le meilleur rapport qualité/prix côtier du pays.",
+        body: "La Bretagne offre le paradoxe d'une mer magnifique à des prix encore abordables en dehors de la côte nord (Saint-Malo, Dinard sont maintenant tendus). Les vraies opportunités : Quimper (accès mer 20 min, prix 2 200€/m²), Lorient (rade de Groix, festival), Brest (rade magnifique, TGV vers Paris 3h45). La contrainte : l'été est court (juillet-août), les vents violents en hiver, et il pleut souvent. Pour ceux qui aiment la mer sauvage et l'authenticité bretonne malgré le climat, c'est le meilleur rapport qualité/prix côtier du pays.",
       },
       {
         heading: "Méditerranée low-cost : Sète, Agde, Béziers, Port-Vendres",
-        body: "La côte méditerranéenne accessible se concentre dans l'Hérault et le Pyrénées-Orientales. Sète (2 600€/m2) est la star de cette catégorie avec son ambiance de port de pêche, son festival Jacques Brel, et ses plages de sable. Agde et Cap d'Agde offrent un accès balnéaire à moins de 2 500€/m2. Béziers, 15 km de la mer, est l'une des villes les moins chères du Sud (1 500€/m2). Port-Vendres et Collioure dans les P-O restent encore découvertes par les investisseurs. Attention : ces villes ont souvent un tissu urbain moins dynamique hors-saison.",
+        body: "La côte méditerranéenne accessible se concentre dans l'Hérault et le Pyrénées-Orientales. Sète (2 600€/m²) est la star de cette catégorie avec son ambiance de port de pêche, son festival Jacques Brel, et ses plages de sable. Agde et Cap d'Agde offrent un accès balnéaire à moins de 2 500€/m². Béziers, 15 km de la mer, est l'une des villes les moins chères du Sud (1 500€/m²). Port-Vendres et Collioure dans les P-O restent encore découvertes par les investisseurs. Attention : ces villes ont souvent un tissu urbain moins dynamique hors-saison.",
       },
       {
         heading: "Ce qui fait la différence entre une bonne et une mauvaise ville côtière",
@@ -1912,7 +1912,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le Top 5 montagne : Annecy, Grenoble, Chambéry, Gap, Pau",
-        body: "Annecy est le rêve de montagne accessible : lac du Bourget, Aravis à portée, économie diversifiée, qualité de vie maximale, mais à un prix élevé (4 000€/m2 et plus). Grenoble est la ville de montagne la plus complète : économie tech solide, Vercors et Chartreuse à portée, prix raisonnables. Chambéry offre un accès alpin à des prix encore gérables avec le bonus de la proximité Lyon/Annecy. Gap est la ville alpine la plus accessible : soleil des Alpes du Sud, vélo et ski à portée, coût de la vie Provence-sans-mer. Pau donne accès aux Pyrénées à 45 min pour un coût de la vie parmi les meilleurs de France.",
+        body: "Annecy est le rêve de montagne accessible : lac du Bourget, Aravis à portée, économie diversifiée, qualité de vie maximale, mais à un prix élevé (4 000€/m² et plus). Grenoble est la ville de montagne la plus complète : économie tech solide, Vercors et Chartreuse à portée, prix raisonnables. Chambéry offre un accès alpin à des prix encore gérables avec le bonus de la proximité Lyon/Annecy. Gap est la ville alpine la plus accessible : soleil des Alpes du Sud, vélo et ski à portée, coût de la vie Provence-sans-mer. Pau donne accès aux Pyrénées à 45 min pour un coût de la vie parmi les meilleurs de France.",
       },
       {
         heading: "Les Pyrénées : l'alternative moins chère aux Alpes",
@@ -24752,7 +24752,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. Cathédrale Saint-Pierre-et-Saint-Paul — les vitraux",
-        body: "La cathédrale de Troyes (XIIIe-XVIe siècles) possède 1 800 m2 de vitraux du XIIe au XXe siècle, le plus grand ensemble de vitraux gothiques de France après Chartres. Les baies du XIIIe siècle de la nef et les grandes verrières du XVIe siècle du chœur sont classées monument historique. La rose ouest est l'une des plus belles de l'art gothique champenois.",
+        body: "La cathédrale de Troyes (XIIIe-XVIe siècles) possède 1 800 m² de vitraux du XIIe au XXe siècle, le plus grand ensemble de vitraux gothiques de France après Chartres. Les baies du XIIIe siècle de la nef et les grandes verrières du XVIe siècle du chœur sont classées monument historique. La rose ouest est l'une des plus belles de l'art gothique champenois.",
       },
       {
         heading: "2. Quartier des colombages — la ville médiévale",
@@ -24900,7 +24900,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8. Le musée de la Romanité",
-        body: "Le musée de la Romanité (2018, signé l'architecte Elizabeth de Portzamparc) présente 5 000 objets sur l'histoire romaine de Nîmes, répartis sur cinq niveaux. Sa façade en dentelle de verre reproduit les motifs d'une toge romaine. La pièce maîtresse est la mosaïque de Bellérophon (IIe siècle, 40 m2). La terrasse offre une vue sur les arènes, et l'entrée est gratuite pour les moins de 18 ans.",
+        body: "Le musée de la Romanité (2018, signé l'architecte Elizabeth de Portzamparc) présente 5 000 objets sur l'histoire romaine de Nîmes, répartis sur cinq niveaux. Sa façade en dentelle de verre reproduit les motifs d'une toge romaine. La pièce maîtresse est la mosaïque de Bellérophon (IIe siècle, 40 m²). La terrasse offre une vue sur les arènes, et l'entrée est gratuite pour les moins de 18 ans.",
       },
       {
         heading: "9. Bagnols-sur-Cèze et les gorges de l'Ardèche",
@@ -24933,7 +24933,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. Palais des Papes — la plus grande construction gothique médiévale",
-        body: "Le Palais des Papes (1335-1370) est le plus grand palais gothique du monde (15 000 m2) et l'édifice médiéval le plus visité de France après le Mont-Saint-Michel. Construit en 67 ans pour accueillir la papauté délocalisée à Avignon (1309-1377), il superpose deux palais : le Palais Vieux (Benoît XII) et le Palais Neuf (Clément VI). La salle des Festins (52 m de long) reste impressionnante, même dépouillée de ses tapisseries.",
+        body: "Le Palais des Papes (1335-1370) est le plus grand palais gothique du monde (15 000 m²) et l'édifice médiéval le plus visité de France après le Mont-Saint-Michel. Construit en 67 ans pour accueillir la papauté délocalisée à Avignon (1309-1377), il superpose deux palais : le Palais Vieux (Benoît XII) et le Palais Neuf (Clément VI). La salle des Festins (52 m de long) reste impressionnante, même dépouillée de ses tapisseries.",
       },
       {
         heading: "2. Festival d'Avignon — le plus grand festival de théâtre du monde",
@@ -24965,7 +24965,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "9. Marché des Halles d'Avignon",
-        body: "Les Halles d'Avignon (place Pie) sont le marché couvert central de la ville, ouvert tous les matins sauf le lundi. La façade végétalisée (Patrick Blanc, 4 000 m2 de plantes) habille le côté place. À l'intérieur : maraîchers vauclusiens (melons de Cavaillon AOC, fraises de Carpentras), fromages (banon, pélardon, tome de Camargue), charcuteries et poissons de Méditerranée.",
+        body: "Les Halles d'Avignon (place Pie) sont le marché couvert central de la ville, ouvert tous les matins sauf le lundi. La façade végétalisée (Patrick Blanc, 4 000 m² de plantes) habille le côté place. À l'intérieur : maraîchers vauclusiens (melons de Cavaillon AOC, fraises de Carpentras), fromages (banon, pélardon, tome de Camargue), charcuteries et poissons de Méditerranée.",
       },
       {
         heading: "10. Fontaine-de-Vaucluse — la résurgence de Pétrarque",

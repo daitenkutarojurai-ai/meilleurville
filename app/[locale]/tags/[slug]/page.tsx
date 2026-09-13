@@ -30,7 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!label) return {};
   const guides = getGuidesForTagEn(slug);
   return {
-    title: `${label} · ${guides.length} BestCitiesInFrance guides`,
+    // Pas de marque dans le titre : le template du layout racine est un `%s`
+    // nu, et la marque n'est admise que si le résultat tient en 60 caractères
+    // (cf. CLAUDE.md § Title length). Ici elle coûtait 19 caractères sur les
+    // 114 pages de tag, portait la plus longue à 61 et laissait la jumelle FR
+    // — `app/tags/[slug]`, qui écrit « label · N guides » sans marque — deux
+    // fois plus courte pour la même page. La marque reste dans la description.
+    title: `${label} · ${guides.length} guides`,
     description: `Every BestCitiesInFrance guide about "${label}": ${guides.length} honest reads to choose where to live in France.`,
     alternates: { canonical: `${EN_BASE}/tags/${slug}` },
   };
