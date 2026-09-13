@@ -38711,6 +38711,349 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in granville", "granville", "travel", "city guide", "normandy"],
   },
 
+  {
+    slug: "solo-travel-in-annecy-2026",
+    title: "Solo travel in Annecy: the best setting in the series, and the price that goes with it",
+    metaTitle: "Solo Travel in Annecy 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Annecy alone: the best everyday-life, safety and nature scores in the series, the second worst cost score, and a new animation museum open 362 days a year.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    intro:
+      "Annecy is the best rated city in this whole series on three axes at once: 9.0/10 for everyday life, 7.3/10 for safety and 8.9/10 for nature are each the highest of the forty-three destinations published since the first batch. It is also the second most expensive, with a cost score of 3.1/10 that only Paris beats downward, at 2.2. For a trip taken alone that combination is on paper the worst possible case, because the item you cannot share is the one that costs most. One new fact changes the equation, and no guide on this site carried it yet: the Cité internationale du cinéma d'animation opened on 19 June 2026 and runs 362 days a year. Annecy has just acquired a reason to come in February.",
+    sections: [
+      {
+        heading: "Why Annecy, and why the answer changed in June 2026",
+        body: "Until this year the honest answer to the question of Annecy outside summer came with a caveat. The town is beautiful, it is expensive, and its world-famous moment lasts one week: the international animation film festival, whose 50th edition ran from 21 to 27 June 2026, with the Mifa industry market from 23 to 26 June, more than sixteen thousand professionals and a hundred and sixty thousand visitors. A week of hyperdensity does not make a living year, and that is precisely the pattern this series exists to spot. If the festival means nothing to you by name, one detail places it: the Cristal for a short film awarded here is an Academy Award qualifying prize in the animated short category, which is why the industry treats the week in June as a fixture rather than a French regional event. On 19 June 2026 the Cité internationale du cinéma d'animation opened at the Haras, a restored nineteenth-century site with a 2.6 hectare park. It brings together a permanent museum, a cinema, exhibition spaces and artist residencies, it is run by CITIA, the public body that already runs the festival and the Mifa, it shows more than eight thousand works previously held by the Château-Musée, and it opens 362 days a year. That is the difference between an event and a piece of infrastructure. The rest of the file does not move: 131,272 residents, growth of 3.8% since 2016 which is the strongest in this batch, and 19.4% of residents aged 15 to 29, third of the seven.",
+      },
+      {
+        heading: "Where to stay: the old town, Cran-Gevrier, Novel",
+        body: "The Vieille-Ville is the obvious choice and the most expensive one. It carries a nightlife score of 7.8/10 in the site's neighbourhood data, the highest in the commune, for an average two-room flat at 950 euros, and its cost score of 5.2/10 is the lowest of the three documented quarters. You are on foot from the lake, the canals and everything that opens in the evening, which removes the question of getting back. Cran-Gevrier is the most defensible fallback: 5.5/10 for nightlife, 680 euros for a two-room flat, the best cost score of the trio at 7.8/10, and decent links into the centre. It is a former neighbouring commune, so a real piece of town rather than an estate. Novel, on 5.0/10 for nightlife and 750 euros, is residential and quiet and popular with families: fine for sleeping, pointless for a trip whose unit is the evening. The price ladder speaks for itself at city scale: 750 euros for a studio, 1,100 euros for a two-room flat level with Nice, 1,450 euros for a three-room flat and 5,500 euros per square metre to buy, the last of those the second highest in the series behind Paris.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Brise Glace, Bonlieu, and now the Haras",
+        body: "Three venues hold the year together, and the third one is new. The Brise Glace is the town's contemporary music venue, housed since 1998 at Les Marquisats in a fifteen hundred square metre glass box: two rooms, four hundred and eighty-three places in the main one and a hundred and twenty in the Club, five rehearsal studios and three bars, plus its own festival, Hors Pistes. That double capacity tells you the format of an Annecy evening, gigs on a human scale rather than national tour dates, which matches the culture score of 6.6/10, fourth in this batch. Bonlieu is the scène nationale, a state-funded regional theatre, and carries the multidisciplinary season, the two houses sometimes programming together according to which room fits. The Cité du cinéma d'animation has since this summer added what was missing most: somewhere open on almost every day of the year, in the afternoon as well as for evening screenings, which gives a Tuesday in January some content. For a traveller alone a museum and a cinema beat a bar, because you walk into them without having to account for being one person.",
+      },
+      {
+        heading: "Getting around without a car: a TGV, your feet, and no rails in town",
+        body: "Annecy scores 6.4/10 for transport, second in this batch behind Nice, and it is worth knowing what that covers. The town is served by TGV and its cycle network is rated average in the site's data, but it has neither tram nor metro: urban service is by bus, and the centre is walked from end to end, which is enough at Annecy's scale and largely removes the problem of getting home after a night out. The real asset is at arrival, with a station in the centre, so no transfer to pay for or to calculate. The honest limit is about leaving town. The nature score of 8.9/10, the highest in the series, measures the setting of the town and not the ease of reaching it without a steering wheel: the loop of the lake is very comfortable by bike on the greenway, but the resorts and the high trailheads assume a coach on a restricted timetable or a hire car, which is billed per vehicle and therefore falls entirely on you. That is a budget line to build in when you book, on the same footing as the room.",
+      },
+      {
+        heading: "The single supplement in Annecy",
+        body: "This needs saying plainly: Annecy is the city in this series where this guide has the least good news to give. The table published on the site's solo profile page, which identifies the towns where the single room supplement dilutes, keeps communes whose cost score reaches at least 5.0 and drops those the seed marks with the premium tag. Annecy fails both conditions, with 3.1/10 for cost and that tag, so it does not appear on that list and will not. The mechanism is a familiar one and can be read in the housing figures: a lakeside resort town where a large share of the stock is built around a couple or a family staying, and priced by the room. Two counterweights exist and are worth hunting for. The first is the stock of professional accommodation implied by a remote-work score of 8.8/10, the highest in this batch, an indirect sign of studios and serviced flats. The second is the inverted seasonality of the nearby ski resorts, which frees up rooms in town between seasons. The practical conclusion is blunter here than elsewhere: in Annecy the date does not move the price by ten per cent, it moves it by a factor of two, and it is the date that decides the budget.",
+      },
+      {
+        heading: "When to go: May, late September, and not festival week",
+        body: "One caveat before any climate figure. The nearest reference station to Annecy in the normals carried by this site is Grenoble-Saint-Geoirs, eighty-six kilometres away, in a different valley and without the body of water that gives Annecy its microclimate. The values below therefore describe a regional order of magnitude and not the town itself. They give 2.8°C on average in January with 2.9 hours of sun a day, 20.6°C in July with 9.4 hours, and 6.9°C in November with 3.0 hours and ten rain days. The two windows that work are May, 14.5°C and 7.1 hours of sun, and the second half of September, 16.4°C and 6.6 hours, once the holidaymakers have gone and the indoor season has restarted. Two periods need separate treatment. The last week of June is animation festival week: the town becomes one of the densest in France in the evening, which is perfect for this profile, provided you booked months earlier. And July and August combine the highest rates with the least local crowd, which is exactly the opposite of what is wanted here.",
+      },
+    ],
+    relatedCities: ["annecy"],
+    tags: [
+      "solo travel",
+      "solo travel annecy",
+      "travelling alone in france",
+      "single supplement",
+      "annecy animation festival",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "solo-travel-in-colmar-2026",
+    title: "Solo travel in Colmar: the only city in this series that peaks in winter",
+    metaTitle: "Solo Travel in Colmar 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Colmar alone: the best culture score in this batch level with Nice, and a calendar that peaks in December against every other guide in this series.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    intro:
+      "For thirty-six guides this series has repeated the same instruction about the calendar: aim for the shoulder seasons, avoid July and August, and treat November as the trough where you get a town to yourself at a good price. Colmar contradicts that instruction from end to end, and it has to be said before anything else. Its six Christmas markets run from 23 November to 29 December 2026 with more than a hundred and eighty chalets, and they drew 1.6 million visitors at the previous edition, in a commune of 67,360 people. The month the other guides recommend is here the most saturated of the year. For the rest, Colmar is the second city in this batch on the overall score, 6.4/10, and the first on culture level with Nice, 7.6/10.",
+    sections: [
+      {
+        heading: "Why Colmar, and what its inverted calendar implies",
+        body: "Colmar is a town of 67,360 people that is losing residents: 69,899 in 2016, a fall of 3.6% in six years and the third steepest of the forty-three destinations in this series behind Fort-de-France and Mulhouse. Its share of residents aged 15 to 29, 19.4%, stays above the national median of 18.4% and puts it second in this batch, but the source of that vitality is not the one earlier batches described. Colmar is not a student town: the IUT attached to the Université de Haute-Alsace teaches around thirteen hundred students across the Grillenbreit and Biopôle campuses, in six departments, which is real but nothing like the thirty or sixty thousand of Dijon or Grenoble. What keeps Colmar going out of season is something else: mass tourism concentrated in two periods, and a wine and retail economy that runs all year. There is one more reason to come that the French guide has no need to spell out and an English-speaking reader does. Frédéric Auguste Bartholdi, who made the Statue of Liberty, was born in Colmar in 1834; his family house on the rue des Marchands was given to the town in 1907 and is now the Musée Bartholdi, the only museum devoted to him. The statue itself was inaugurated in New York Harbor in 1886. The consequence for a trip taken alone is clear. Colmar does not have a problem with things being open, it has a problem with prices and crowds, and both peak exactly when the other cities in this series are at their quietest.",
+      },
+      {
+        heading: "Where to stay: the Koifhus rather than the Petite Venise",
+        body: "The three documented quarters divide up differently from elsewhere, and the order to remember is not the postcard one. La Petite Venise, the most photographed corner of Alsace with its timber frames along the canals, carries a nightlife score of 7.0/10, an average two-room flat at 900 euros and the lowest cost score in the commune, 5.5/10. The Koifhus, meaning the historic centre outside the most intense tourist zone, gets the same nightlife score of 7.0/10 for 830 euros and a cost score of 6.5/10: identical going-out value, seventy euros a month less and markedly fewer people. For a traveller alone that is the trade to make, all the more so as the difference in scenery between the two is a five minute walk. The Quartier de l'Europe, 5.5/10 for nightlife and 780 euros, is residential, modern and quiet, well served by bike and bus and of no interest for an evening. At commune scale the reference rents are 550 euros for a studio, 750 euros for a two-room flat and 3,000 euros per square metre to buy, which puts Colmar in the middle of this batch rather than at the top.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Grillen, and two fairs that swallow the year",
+        body: "The Grillen is the town's contemporary music venue, run by the commune since April 1998 and sited next to the Grillenbreit campus, which is not an accident: it is the one address in Colmar whose midweek audience is mostly local and mostly young. It has been a resource centre for contemporary music since 2009, alongside the Hiéro association, and programmes pop, rock, electronic music and hip-hop at a capacity of a few hundred across two rooms. That is the format that matches the culture score of 7.6/10, first in this batch level with Nice. Two fixtures flatten the rest of the calendar. The Foire aux vins d'Alsace ran from 31 July to 9 August 2026 for its 77th edition and took 318,181 visitors. The Christmas markets, from 23 November to 29 December, take 1.6 million. Between those two blocks the town returns to a normal size, and that is when a solo stay here is at its most pleasant and its cheapest.",
+      },
+      {
+        heading: "Getting around without a car: a direct TGV our own data did not list",
+        body: "Colmar scores 6.1/10 for transport, fourth in this batch, and one clarification is needed about what the site said until now. The project's service table, which lists networks town by town, carried no entry at all for Colmar, which means undocumented rather than unserved: the check made for this guide establishes that the station is linked to Paris-Est by a direct TGV inOui, two return services a day, the fastest in two hours twenty. The missing entry was added with this batch. In town there is neither tram nor metro: a bus network, and above all a compact historic centre that is walked from end to end, which is plenty for a stay whose perimeter sits between the station, the Koifhus and the Petite Venise. The wine route and the surrounding villages are the other half of what makes the region worth the trip, and here honesty requires saying that the regional trains and coaches cover most of it but on restricted evening timetables: a day in the vineyards is built around the return times, or done by bike, or paid for as a hire car billed per vehicle.",
+      },
+      {
+        heading: "The single supplement in Colmar",
+        body: "The single room supplement works more brutally here than elsewhere, and it is entirely a matter of the calendar. A hotel sells a room, not a bed; the half that nobody pays in your place weighs more heavily the scarcer the room is. And 1.6 million visitors across five weeks in a town of sixty-seven thousand produces exactly that scarcity, while Colmar's accommodation stock, heavily oriented towards leisure tourism, is built around double occupancy. Between 23 November and 29 December there is therefore no workaround: there is a booking made six months earlier, or there is giving up. The rest of the year the town becomes ordinary again and the three habits of this series work normally: search for a single room rather than a double occupied by one person, because French hotels price those as separate lines; aim for midweek; compare a studio against a hotel from two nights up. The cost score of 6.2/10, third in this batch, describes that Colmar, the one in March or June, and not the one in December. One option is worth flagging for the market period: Mulhouse is half an hour away by train and its reference two-room flat, 580 euros, is the second lowest in the whole series.",
+      },
+      {
+        heading: "When to go: May, June and September, or December with your eyes open",
+        body: "A methodological caveat first, because it weighs more here than elsewhere. The nearest reference station in the normals carried by this site is Strasbourg-Entzheim, fifty-six kilometres away; but Colmar sits in the rain shadow of the Vosges and is among the driest towns in France, which the Strasbourg station does not reflect. Temperatures transpose reasonably, rainfall does not, and this guide therefore publishes no rain figure for Colmar. The regional temperature markers give 2.5°C in January with 1.8 hours of sun a day, 20.6°C in July with 7.7 hours, and 6.3°C in November with 1.8 hours, the same light trough as January. The good windows are therefore May and June, 15.5°C then 18.9°C with 6.7 then 7.5 hours of daily sun, and the first half of September, 16.1°C and 5.8 hours. December remains a defensible option for this profile, because a dense town lit at six in the evening beats an empty one, but in that case the budget is decided in June and not in November.",
+      },
+    ],
+    relatedCities: ["colmar"],
+    tags: [
+      "solo travel",
+      "solo travel colmar",
+      "travelling alone in france",
+      "single supplement",
+      "colmar christmas markets",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "solo-travel-in-fort-de-france-2026",
+    title: "Solo travel in Fort-de-France: a capital that works, not a resort",
+    metaTitle: "Solo Travel in Fort-de-France 2026: Stay, Budget",
+    metaDesc:
+      "Fort-de-France alone: the lowest share of under-30s in the series, a national theatre staging 160 shows a season, and entry rules that are not Schengen.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    intro:
+      "Fort-de-France closes this batch of seven and also closes the whole series on the measure that has served as its rule for five batches: 15.80% of residents aged 15 to 29 at the 2022 Insee census, the lowest share of the forty-three destinations published, well below the national median of 18.4%. It also carries the sharpest population contraction in the corpus, 75,165 residents against 81,017 in 2016, a fall of 7.2%. An honest guide therefore has to start there: this series' rule against ghost resorts does not support Fort-de-France. What does support it is of another kind, and fits in one sentence. This is not a seaside resort, it is the administrative, port and cultural capital of Martinique, and a capital does not close in October.",
+    sections: [
+      {
+        heading: "Why Fort-de-France, when the measure says no",
+        body: "The reasoning in this series is simple: the bars and the venues of a Tuesday evening out of season run on residents, not on holidaymakers, and the share of people aged 15 to 29 is the best available signal of that population. Fort-de-France is where that signal reaches its limit, and it is better explained than dressed up. A share of residents aged 60 and over of 30.1%, the highest in this batch, and a population fall of 7.2% in six years describe a core commune emptying into its wider urban area, a classic and well documented phenomenon in mainland France as overseas: the population of the area does not necessarily follow that of the main town, and the census counts the residents of the commune, not the people who work and go out in it. And Fort-de-France concentrates the prefecture, the port, most of the administration and the island's only scène nationale, which is the French term for a state-funded regional theatre. Its weekday life exists for that reason, and not because it is young. The site's scores draw the same mixed portrait: 6.9/10 for culture, third in this batch, 7.5/10 for nature, also third, but 4.2/10 for safety and 5.1/10 overall, the lowest of the seven on both. That safety figure describes a commune, not the people who live in it.",
+      },
+      {
+        heading: "Where to stay: the centre to go out, Redoute to sleep",
+        body: "The three documented quarters set up a trade-off this guide is not going to smooth over. The centre carries a nightlife score of 7.5/10, the highest in the commune, for an average two-room flat at 780 euros: this is where the bibliothèque Schoelcher, the covered market, the bay and most of what opens in the evening are. It is also the quarter with the lowest safety score of the three, 5.5/10, and the site's neighbourhood data flag streets to avoid after dark. That is handled neither by denial nor by drama: it is handled as in any core commune, by asking locally and not walking deserted streets at night. Redoute is the most reasonable compromise for this kind of trip: 5.5/10 for nightlife, 720 euros for a two-room flat, a safety score of 6.5/10 and decent links. Didier, up on the slopes, is the island's upmarket residential quarter: 5.0/10 for nightlife and the most expensive two-room flat in the commune at 850 euros, with the view over the bay and complete quiet. The commune's reference rents, 530 euros for a studio and 750 euros for a two-room flat, put Fort-de-France in the middle of this batch.",
+      },
+      {
+        heading: "Going out on a Tuesday: Tropiques Atrium, 160 shows a season",
+        body: "This is the town's strongest argument for this profile, and it comes with numbers. Tropiques Atrium is the scène nationale of Martinique, created in 2015 from the merger of the CMAC and L'Atrium and constituted as a public cultural cooperation body. It has two auditoriums, the salle Aimé-Césaire with nine hundred and fifty-eight seats and the salle Frantz-Fanon with two hundred and seventy-six, three creation and rehearsal spaces, two spaces for visual, digital and plastic arts, a bar-restaurant, a studio and four artist residency flats. It programmes around a hundred and sixty shows a season, with a stated priority on new work, on young audiences, on Martinican companies and on Caribbean collaborations. A hundred and sixty dates in a commune of seventy-five thousand people is a programming density very few towns of that size reach in mainland France, and it is that figure, more than the demographics, that justifies Fort-de-France being in this series. The two auditorium names are worth a line for a reader who has met them in English before meeting them here. Aimé Césaire, the poet of Négritude and author of Discourse on Colonialism, was mayor of this town from 1945 to 2001. Frantz Fanon, who wrote Black Skin, White Masks and The Wretched of the Earth, was born here in 1925 and was taught by Césaire at the local lycée. The other moment when the town is dense, late and outdoors is carnival, which runs up to Ash Wednesday.",
+      },
+      {
+        heading: "Before you go: entry rules, the TCSP, and hire cars priced per vehicle",
+        body: "One rule belongs before anything attractive is said, and it catches visitors out every year. Martinique is a French department and part of the European Union, but it is outside the Schengen area. For a non-EU traveller the consequence is direct: a short-stay Schengen visa issued for mainland France does not admit you here unless the label itself says it covers Martinique, and the overseas departments issue their own short-stay visas. Check the wording on your own visa rather than assuming that France is France for this purpose, because it is not. EU and EEA nationals need no visa whatever the length of stay. Two smaller consequences follow from the same status: the currency is the euro, so there is nothing to change if you are coming from the eurozone, but the island sits outside the EU VAT and excise territory, so rum bought here falls under a traveller's allowance rather than free circulation, and the figure is one to check with customs rather than read off a blog. On transport, Fort-de-France shares with Saint-Pierre and Saint-Denis de La Réunion the lowest transport score in the whole series, 4.7/10, and that figure is not the same thing as an absence. Martinique's transport collectif en site propre, a bus rapid transit system running on reserved lanes, has been in commercial service since 13 August 2018 between Fort-de-France and Le Lamentin. It is operated by the Régie des transports de la Martinique within the Mozaïk network, which has carried that name since 7 June 2000, with two lines and a fleet of fourteen Van Hool ExquiCity 24 hybrid bi-articulated vehicles supplemented by five Mercedes Citaro G C2. It is a heavy and recent piece of infrastructure, and it settles the main axis of the conurbation. What it does not settle is the rest of the island, and that is where the arithmetic of a solo trip flips. As in Réunion, the budget line you cannot share is not the room but the airfare, which is charged per person, and the hire car, which is charged per vehicle and therefore carries the whole of the surcharge. A couple halves the hire, you do not.",
+      },
+      {
+        heading: "The single supplement in Fort-de-France",
+        body: "The good news is that Fort-de-France is not a seaside resort, and on this particular item that changes everything. The guesthouses and club hotels built around a unit of two sleepers, which are the main source of the single room supplement, are on the coastal communes of the south of the island, at Les Trois-Îlets, Sainte-Anne or Le Diamant. The capital's stock is made of urban hotels sized for professional and administrative travel, which is to say priced for a single occupant from Monday to Thursday. Staying in Fort-de-France rather than on a beach is therefore, for a traveller alone, a structural saving and not a compromise, with the scène nationale on foot and the bus rapid transit for the conurbation thrown in. The cost score of 4.1/10 is low and reflects the price of imported goods more than that of housing, as at Saint-Pierre. Two habits follow. Book the hire car for the two or three days of touring rather than for the length of the stay, since every day without a vehicle is the real saving. And do not book carnival week without months of notice.",
+      },
+      {
+        heading: "When to go: the Carême, February to April, not the hurricane season",
+        body: "Fort-de-France is, with Nice, the destination in this batch whose normals are the most reliable, the reference station being two kilometres away. They describe a remarkably stable temperature, between 24.9°C in February and 27.5°C in September, so the thermometer settles nothing: what separates the months is rain. The minimum is in March with 12.2 rain days and 70.5 mm, followed by April at 12.6 days and February at 14.1 days. The maximum runs from July to November, between 17.2 and 20.6 rain days a month and up to 246.7 mm in August. That period coincides with the Atlantic hurricane season, which officially runs from 1 June to 30 November. The window to aim for is therefore the Carême, from February to April, which is both the dry season and the carnival season, and which corresponds exactly to the mainland European winter: it is the best ratio in this series between what you are escaping and what you find. The trade-off is well known and shows up at booking, since it is also the high tourist season in the Caribbean.",
+      },
+    ],
+    relatedCities: ["fort-de-france"],
+    tags: [
+      "solo travel",
+      "solo travel fort-de-france",
+      "travelling alone in france",
+      "single supplement",
+      "tropiques atrium",
+      "martinique",
+    ],
+  },
+  {
+    slug: "solo-travel-in-montauban-2026",
+    title: "Solo travel in Montauban: the cheapest destination in this whole series",
+    metaTitle: "Solo Travel in Montauban 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Montauban alone: the best cost score of the 43 destinations in this series, a share of under-30s below the national median, and Toulouse 35 minutes away.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    intro:
+      "Montauban carries a cost score of 7.2/10, and that is the best of the forty-three destinations this series has published since the first batch, ahead of Troyes at 7.1 and Valence at 6.7. On our data it is therefore the town where a trip taken alone costs least for comparable content. It is also one of only two destinations in the series whose share of residents aged 15 to 29 falls below the national median, together with Fort-de-France published the same day and lower still: 17.84% against 18.4%, ranked three hundred and first of the 538 cities measured here. This guide does not work around the contradiction, it states it: the rule that has served this series for five batches no longer supports Montauban, and what supports it instead is pink brick half an hour by train from Toulouse, with population growth of 3.4% since 2016.",
+    sections: [
+      {
+        heading: "Why Montauban, and what its demographics no longer say",
+        body: "The objection comes first. This series spots towns that are alive out of season by the share of their residents aged 15 to 29, and Montauban is one of only two it publishes below the national median on that criterion, with 28.5% of residents aged 60 and over besides. The mechanical conclusion would be to drop the town; that would miss two facts. The first is demographic: Montauban is gaining residents fast, 62,487 in 2022 against 60,444 in 2016, which is 3.4% and the second highest growth in this batch behind Annecy. A town that grows like that owes it to households moving in for the cost of housing and often working further south, which produces a large working population but not necessarily a young one. The second is geographic: Montauban is about thirty-five minutes from Toulouse by train, for forty-six kilometres, and Toulouse has 32.6% of residents aged 15 to 29, sixth of the forty-two communes over a hundred thousand people in this corpus. The right way to present Montauban for this profile is therefore not as a nightlife town but as a cheap base with a major city within regional-train reach. This guide says so rather than leaving you to work it out.",
+      },
+      {
+        heading: "Where to stay: the Vieux Montauban, no argument",
+        body: "The three documented quarters rank clearly. The Vieux Montauban, a pink brick core organised around the place Nationale, carries a nightlife score of 7.5/10 for an average two-room flat at 650 euros, which is exactly the commune's reference rent: staying in the best place to go out therefore costs nothing above average, which is the best possible configuration for a short trip. Villebourbon, on the right bank, gets 5.5/10 for nightlife at 620 euros, in a green residential setting along the Tescou. Sapiac, a working-class quarter on the bank of the Tarn, drops to 5.0/10 but carries the best cost score in the commune, 8.8/10, with a two-room flat at 560 euros: sixty euros less than Villebourbon for half a point less of nightlife, which only matters on a long stay. The commune's reference rents, 470 euros for a studio, 650 euros for a two-room flat, 860 euros for a three-room flat and 2,200 euros per square metre to buy, put Montauban at the bottom of this batch on all four values.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Rio Grande, Ingres, and the Toulouse option",
+        body: "The Rio Grande is the town's contemporary music venue, run by the association Le Rio, present in the Tarn-et-Garonne since 1995 and accredited by the Ministry of Culture. Its programming mixes amateur, emerging and headline acts, at the mid-size capacity that matches the culture score of 6.2/10, sixth in this batch level with Niort. The Théâtre Olympe de Gouges carries the multidisciplinary season. There is also one daytime fixture worth naming for an English-speaking visitor, because it is the reason art historians know this town: Jean-Auguste-Dominique Ingres was born here in 1780, and on his death in 1867 he left the town some four thousand five hundred drawings, forty-four paintings and his violin. The museum built around that bequest is now the Musée Ingres Bourdelle, sharing the building with Antoine Bourdelle, the sculptor, who was also born here. The violin is the origin of the French phrase violon d'Ingres, meaning a serious hobby, and it is in the case. On the evenings, it is best to be frank about volume: in a town of sixty-two thousand people whose young adult population is below the national median, the programme on a Tuesday in February is a mid-size town's programme, and nobody gains from this guide pretending otherwise. That is where the geography takes over. A concert in Toulouse on a Thursday evening is reached by regional train, and the real Montauban calculation is to pay for accommodation at Tarn-et-Garonne rates while consuming the offer of the fourth largest city in France. That is not a fallback, it is the explicit trade this guide recommends, and it is better set out at the start than discovered on arrival.",
+      },
+      {
+        heading: "Getting around without a car: a TGV our own data did not list",
+        body: "Montauban scores 6.2/10 for transport, third in this batch behind Nice and Annecy, and a correction is needed to what the site said. The project's service table carried no entry at all for Montauban, which means undocumented rather than unserved: the check made for this batch establishes that Montauban-Ville-Bourbon station is served by TGV inOui and Ouigo trains on the Paris to Bordeaux to Toulouse axis, with a journey time of the order of three hours fifty-five from Paris-Montparnasse, and by Intercités trains on the Paris to Vierzon to Limoges to Toulouse route, including an overnight service, for around four direct daily links to Paris. Intercités is the conventional national network rather than the high-speed one. The missing entry was added with this guide. In town there is neither tram nor metro: a bus network, and a compact historic centre that is walked, which is enough for a stay whose perimeter sits around the place Nationale. The daily link with Toulouse is by regional train and it is what makes the town practically interesting for this profile.",
+      },
+      {
+        heading: "The single supplement in Montauban",
+        body: "This is the section where Montauban wins, and wins comfortably. The single room supplement is mechanically half the price of the room, so it costs less the cheaper the room is: with a cost score of 7.2/10, the best in the whole series, the unshared half of a night in Montauban is nothing like the unshared half of a night in Annecy or Nice, whose cost scores are 3.1 and 3.3 respectively. The second mechanism runs the same way. Montauban is a prefecture town with an administrative and economic life of its own, so its hotel stock is sized for professional travel priced per single occupant, rather than a resort stock built around the couple. The three habits of this series apply without particular difficulty: search for a single room rather than a double occupied by one person, because French hotels price those as separate lines; aim for midweek; compare a studio against a hotel from two nights up. One methodological note to close, because it holds beyond this town: a cost score measures the cost of living locally and not the price of a hotel night, which this site never quotes because it varies from one season and one platform to the next. What the comparison establishes is an order of magnitude, not an invoice.",
+      },
+      {
+        heading: "When to go: April to June, then September and October",
+        body: "Montauban is, with Nice and Fort-de-France, one of the three towns in this batch whose climate normals are usable as they stand: the reference station is Toulouse-Blagnac, forty-three kilometres away, on the same plain and under the same regime. They give 6.3°C in January with 2.9 hours of sun a day, 22.8°C in August with 7.9 hours and only 5.9 rain days in the month, and 9.9°C in November with 3.3 hours and ten rain days, the highest of the year. The best windows are therefore April to June, from 12.7°C to 20.3°C with more than six hours of daily sun, and above all September and October, 19.3°C then 15.3°C with 7.0 and 5.0 hours of sun and only six to seven rain days: autumn here is appreciably drier than spring, which is the reverse of most destinations in this series. November is the real trough, at once the wettest month of the year and one of the two darkest with December. For a trip whose unit is the evening and the afternoon on a terrace, the late season is clearly the right call here.",
+      },
+    ],
+    relatedCities: ["montauban"],
+    tags: [
+      "solo travel",
+      "solo travel montauban",
+      "travelling alone in france",
+      "single supplement",
+      "musee ingres bourdelle",
+      "occitanie",
+    ],
+  },
+  {
+    slug: "solo-travel-in-nice-2026",
+    title: "Solo travel in Nice: trams until one in the morning, February at the top of the year",
+    metaTitle: "Solo Travel in Nice 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Nice alone: the best transport score in this batch, a tram that runs until one in the morning, the highest rents of the seven, and a carnival in February.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    intro:
+      "Nice is the fourth city in this series by population, behind Paris, Lyon and Toulouse, and that is about the only flattering superlative it collects here. Its share of residents aged 15 to 29 stands at 18.4% at the 2022 Insee census, the national median across the 538 cities measured here to the decimal point, and its share aged 60 and over reaches 29.3%, the second highest in this batch of seven. In other words the measure this series has used since batch 3 to spot cities that are alive out of season says nothing good about Nice. What saves it lies elsewhere, and can also be quantified: 353,701 residents, a transport score of 6.7/10 which is the best of the seven, a culture score of 7.6/10 which is the best level with Colmar, and a tram line that runs until one in the morning. This guide explains why that is enough, and what it costs.",
+    sections: [
+      {
+        heading: "Why Nice, when the demographics do not argue for it",
+        body: "The problem has to be set out before the city is sold. The rule this series has applied for a month looks at the share of residents aged 15 to 29, because the bars and venues of a Tuesday in November run on people who live there, not on holidaymakers. On that criterion Nice is median, no more and no less, and its older population is well above the average of the corpus. What takes over is an effect of sheer mass. A commune of 353,701 people that is still gaining residents, 11,064 more than in 2016 or 3.2%, produces weekday life even with an unfavourable age pyramid, because the absolute number of young adults stays far above that of a student town of sixty thousand. Add a university and an economy that does not stop in October. The practical consequence is that Nice does not suffer the resort-that-closes problem: the question here is never whether something will be open, it is what you will pay to sleep. The city's overall score, 5.4/10, is sixth of the seven and reflects that imbalance: very well provided for on culture and transport, very badly placed on cost, 3.3/10, and on safety, 5.1/10, second from bottom in this batch ahead of Fort-de-France. There is also a piece of history here that an English-speaking visitor will find is about them. Nice was inscribed on the UNESCO World Heritage list in 2021 under the name Nice, Winter Resort Town of the Riviera, and the thing being listed is precisely the town built for foreign winter visitors in the nineteenth century. The seafront is called the Promenade des Anglais because the English paid for it: the first stretch was completed in 1824, funded by subscription among the British winter colony at the instigation of the Reverend Lewis Way, partly to give work to local people after a bad harvest. The hotel stock you will be booking is the direct descendant of that clientele, which is worth knowing before reading the next section.",
+      },
+      {
+        heading: "Where to stay: Vieux-Nice, Libération, and why not Cimiez",
+        body: "The site's neighbourhood data rate Vieux-Nice at 9.2/10 for nightlife, which makes it the second highest score in the corpus across all cities, level with the Presqu'île in Lyon and behind only the Marais in Paris. It is the default choice for a trip whose unit is the evening, and the average rent for a two-room flat there is 1,000 euros, less than the commune average of 1,100 euros, which is counter-intuitive and follows from the size of the flats in the old buildings. Libération is the fallback genuinely worth considering: 8.0/10 for nightlife, second in the commune, 850 euros for a two-room flat, a daily market, and above all a direct tram link. The quarter is in the middle of a transformation and its cost score, 6.8/10, is the best of the three. Cimiez should be ruled out for this kind of trip and it is better said plainly, because its reputation as a smart quarter draws people: 4.0/10 for nightlife, the lowest of the three, 1,100 euros for a two-room flat, gardens, museums and complete quiet up on the hill. You sleep very well there and you do not come back from an evening without planning the journey.",
+      },
+      {
+        heading: "Going out on a Tuesday: the carnival puts February on top of the year",
+        body: "Nice has the distinction of inverting the calendar this series relies on everywhere else. The general rule for a trip taken alone is to avoid July and August, when residents leave and rates climb, and to favour the shoulder seasons. In Nice the peak of the calendar year is February. The carnival ran from 11 February to 1 March 2026 on the theme Vive la Reine, with day and night parades and a village on the promenade du Paillon, place Général-Leclerc. The town is then dense, late, outdoors and in February, which happens almost nowhere else in mainland France. For this kind of trip that is a first-order argument, provided you accept the trade-off: it is also the fortnight when accommodation is booked several months ahead, and when the price of an unshared room weighs most. The rest of the year the programme rests on the opera, the museums and the lanes of Vieux-Nice, whose nightlife score says clearly enough that they do not empty. None of this rests on a promise of meeting anyone: it rests on the fact that you walk into those streets without a table booked.",
+      },
+      {
+        heading: "Getting around without a car: the only tram in this batch that runs past midnight",
+        body: "This is the point where Nice flattens the other six cities in this batch, and it deserves the detail because it genuinely decides a solo trip. Going out without a car requires two distinct things: getting there, and above all getting back. Nice does both. The city is served by TGV, has a network of three tram lines and a bus rapid transit network, for a transport score of 6.7/10 which is the first of the seven. Line 2, linking the port Lympia to the airport, runs every day of the year except 1 May, from five in the morning to one in the morning, with a tram roughly every six minutes during the day, every eight to nine minutes at weekends and every twelve to fifteen minutes in the evening. Line 3, between the airport and Saint-Isidore, runs on weekdays from half past four in the morning to twenty-five to midnight. A last drink at a quarter to one in Vieux-Nice therefore ends with a tram and not a taxi, which no other city in this batch allows. Since the airport is on the line, arrival and departure also happen without a paid transfer, a detail that counts when you are not splitting the bill.",
+      },
+      {
+        heading: "The single supplement in Nice",
+        body: "Here is the bad news, and it is structural. Nice carries a cost score of 3.3/10, sixth of the seven, and its reference rents are the highest in this batch: 780 euros for a studio, 1,100 euros for a two-room flat level with Annecy, 1,500 euros for a three-room flat, 5,200 euros per square metre to buy. Set against the whole series, those figures put Nice third on the two-room flat and third on the square metre, behind Paris and Annecy. The single room supplement is never a charge added to your bill, it is simply the half of the room price that nobody else is paying, so it mechanically costs more where the room costs more. What Nice offers in compensation is a rare depth of supply: a large city that is both a tourist and a business destination, therefore hostels, short-let studios and hotels priced for a single occupant from Monday to Thursday. The three habits of this series apply with particular emphasis on the date, since searching for a single room rather than a double occupied by one person, aiming for midweek and comparing a studio against a hotel from two nights up produce much larger gaps here than in Niort or Montauban. The one strategy that does not work is hoping for a bargain during carnival.",
+      },
+      {
+        heading: "When to go: February for the carnival, May and September for the rest",
+        body: "Nice is the city in this batch whose climate normals are the most reliable, the reference station being seven kilometres away, against fifty to a hundred and twenty-six for four of the other six. They give an average of 9.5°C in January with 5.1 hours of sun a day, which is already more than Colmar, Annecy, Niort or Montauban manage in November, and 24.1°C in July with 11.3 hours of daily sun and 1.9 rain days in the month. November stays mild, 13.3°C and 5.0 hours of sun, but it is also the wettest month of the year at 138.4 mm, with October next at 127.9: the mild Mediterranean autumn is paid for in downpours, and it is better to know that before planning terraces. Three windows stand out. February for the carnival, booking a long way ahead. May, 17.7°C and 8.7 hours of sun a day, before the holidaymakers arrive in force. And the second half of September, 21.2°C and 8.3 hours, when the sea is still warm, the indoor season restarts and rates come back down.",
+      },
+    ],
+    relatedCities: ["nice"],
+    tags: [
+      "solo travel",
+      "solo travel nice",
+      "travelling alone in france",
+      "single supplement",
+      "nice carnival",
+      "french riviera",
+    ],
+  },
+  {
+    slug: "solo-travel-in-niort-2026",
+    title: "Solo travel in Niort: a town that works, and the cheapest flat of the seven",
+    metaTitle: "Solo Travel in Niort 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Niort alone: no tourist reputation, more than ten thousand mutual insurance jobs, the lowest rents of the seven, and a keep begun by Henry II of England.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    intro:
+      "Niort is the smallest destination in this batch at 60,074 residents, and the second smallest in the whole series ahead of Bayonne. It has no tourist reputation, which is precisely the argument: its weekday life owes nothing to a flow of visitors and everything to an economy that does not stop in October. The head offices of MAIF, MACIF, MAAF and SMACL account for more than ten thousand local jobs, which makes this sub-prefecture of the Deux-Sèvres the French capital of mutual insurance. On the site's figures it carries the second best cost score in this batch, 6.4/10, the lowest reference two-room flat of the seven at 640 euros, and the weakest nature score, 5.3/10.",
+    sections: [
+      {
+        heading: "Why Niort, and where its weekday life comes from",
+        body: "For five batches this series has spotted towns that are alive out of season by the share of their residents aged 15 to 29, on the principle that the bars of a Tuesday in November run on students and young workers. Niort comes in at 18.96% on that criterion, barely above the national median of 18.4% and fourth in this batch: the measure does not single it out. What does single it out is a different mechanism, and that is what makes it interesting. A town of sixty thousand people that houses more than ten thousand head-office jobs works from Monday to Friday like a town twice the size, with the restaurants, bars and shops that go with it, and that rhythm does not vary with the tourist season because there is not one. The population grows slowly and steadily, 60,074 residents against 59,005 in 2016, or 1.8%. The overall score of 6.0/10 puts it third in this batch level with Montauban, ahead of Saint-Pierre, Nice and Fort-de-France, which is a respectable result for a town nobody talks about. One thing here will be more familiar to a British reader than to a French one. The twin keep on the bank of the Sèvre was begun by Henry II Plantagenet and finished by his son Richard the Lionheart, roughly between 1160 and 1175, to hold Poitou for a crown that then ran from Northumberland to the Pyrenees. Two square towers survive, joined by a fifteenth-century block; the rest of the fortress is gone. It is the free thing to do on the first afternoon.",
+      },
+      {
+        heading: "Where to stay: the Vieux-Niort, and nowhere else to go out",
+        body: "The hierarchy is sharper here than anywhere else in this batch. The Vieux-Niort, organised around the medieval keep and the banks of the Sèvre Niortaise, carries a nightlife score of 7.5/10 in the site's neighbourhood data, for an average two-room flat at 660 euros. The two other documented districts both come in at 5.0/10, the lowest value: the Marais quarter, at the gates of the Marais poitevin, with a two-room flat at 630 euros and a nature score of 9.5/10 which is by far the highest in the commune, and Saint-Florent, suburban and residential to the north, at 620 euros. The rent gap between the best district for going out and the other two is thirty to forty euros on a two-room flat, which is to say negligible over a short stay: there is therefore no budget reason at all to stay anywhere but the centre, and that is rare enough to be worth flagging. The commune's reference rents, 460 euros for a studio, 640 euros for a two-room flat and 2,100 euros per square metre to buy, are the lowest in this batch on two of the three values.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Camji and the Moulin du Roc",
+        body: "Two venues hold the year together and work in tandem, which is the good news in a town of this size. The Camji is the contemporary music venue, in the middle of the town centre and dedicated to that repertoire since 2000: a three hundred capacity room, a video control room, a bar open on concert nights, an exhibition space, two rehearsal studios and a recording studio. It is accredited within the Nouvelle-Aquitaine contemporary music network. The Moulin du Roc is the scène nationale, the French term for a state-funded regional theatre, and has three auditoriums, the Grand Théâtre with eight hundred and seventy-one seats, the modular salle Philippe-Avron with two hundred and twenty-six and an auditorium of ninety-nine, plus a cinema. The two houses co-programme part of their concerts and split them according to which room fits, which gives Niort a deeper offer than its culture score of 6.2/10 would suggest. That score, sixth in the batch level with Montauban, measures overall density and not the quality of those two addresses. An arthouse cinema in a town of sixty thousand people is exactly what a Tuesday in February needs.",
+      },
+      {
+        heading: "Getting around without a car: a TGV, and the centre on foot",
+        body: "Niort scores 5.5/10 for transport, fifth in this batch, and that score makes sense once you separate arrival from the journey home. Arrival is easy: the station is served by TGV on the line linking Paris to La Rochelle, and it is a few minutes on foot from the centre, which removes the transfer question. Getting home after an evening is no more of a problem, for the opposite reason to Nice: there is neither tram nor metro, but the scale of the town is such that everything that opens in the evening sits within walking distance of the Vieux-Niort. The urban network is a bus network whose end-of-service times are those of a mid-size town and do not cover a late night out: it is staying in the centre that settles the question, not the network. The honest limit is about leaving town. The Marais poitevin, which is the real reason to come to the Deux-Sèvres, starts at Coulon, a separate commune about ten kilometres away: it is reachable from Niort by bike along the banks of the Sèvre, which is the best option, or by coach on a restricted timetable.",
+      },
+      {
+        heading: "The single supplement in Niort",
+        body: "Niort is the most favourable case in this batch, and the reason comes down to one word: offices. The single room supplement is not a surcharge, it is the half of the room price that nobody else is settling, and it disappears where the accommodation stock was built for single occupants rather than for couples. A town that houses four insurance head offices and more than ten thousand service jobs mechanically has a hotel stock geared to the business traveller from Monday to Thursday, which is to say one person per room, and that is the exact opposite of the resort guesthouse priced by the double. The paradox is that this stock frees up at the weekend, when the business travel stops, which inverts the usual advice of this series: in Niort, Friday night and Saturday are often better value than a Tuesday. The cost score of 6.4/10 and the reference two-room flat at 640 euros, the lowest of the seven and the forty-first of the forty-three cities in this series, describe the same phenomenon on the long-term rental side. This is the destination in this batch where the question of a solo budget arises least.",
+      },
+      {
+        heading: "When to go: April to September, and a caveat about our normals",
+        body: "A precaution before the figures: the nearest reference station to Niort in the normals carried by this site is Nantes-Bouguenais, a hundred and twenty-six kilometres away, the greatest distance in this batch of seven. The values below therefore describe a regional oceanic climate and not the town, which is more continental and a little warmer in summer. They give 6.4°C in January with 2.3 hours of sun a day, 19.8°C in August with 7.5 hours, and 9.4°C in November with 3.0 hours. The useful window is wide, April to September, with more than six hours of daily sun across the whole period and a preference for May and June, 14.7°C then 17.8°C, when the Marais poitevin is workable and the indoor season has not yet ended. September, 17.1°C and 6.6 hours of sun, combines the best of both, mild weather and the programmes restarting. The trough runs from November to January, under three hours of sun a day, and that is where the Niort calculation becomes interesting: a town with no tourist season has no low season either, properly speaking, and its February evening offer looks like its June one.",
+      },
+    ],
+    relatedCities: ["niort"],
+    tags: [
+      "solo travel",
+      "solo travel niort",
+      "travelling alone in france",
+      "single supplement",
+      "donjon de niort",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "solo-travel-in-saint-pierre-reunion-2026",
+    title: "Solo travel in Saint-Pierre de La Réunion: leeward coast, southern winter, no train",
+    metaTitle: "Solo Travel in Saint-Pierre, Réunion 2026: Stay, Budget",
+    metaDesc:
+      "Saint-Pierre alone: the youngest population of the seven, the cheapest studio, no railway on the island, and the rule about where you are allowed to swim.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    intro:
+      "Saint-Pierre opens this batch of seven on the share of residents aged 15 to 29, at 19.5% at the 2022 Insee census, and it is above all at the other end of the pyramid that it stands out: 19.4% aged 60 and over, against a national median of 27.2% and 30.1% at Fort-de-France, the other overseas destination in this batch. It is by a distance the youngest population of the seven. For a series that has spent a month looking for towns whose weekday life does not depend on holidaymakers, that is the best signal in the batch. The rest of the file is more mixed: 7.2/10 for everyday life and 8.2/10 for nature, second of the seven on both, but 4.7/10 for transport, last level with Fort-de-France, and a budget line you cannot share that is not the room.",
+    sections: [
+      {
+        heading: "Why Saint-Pierre, the second Réunion city in this series",
+        body: "Saint-Denis opened the overseas departments in this series in the previous batch; Saint-Pierre is its southern counterpart, and the two towns are not alike. The unofficial capital of the south, 85,254 residents at the 2022 census against 84,169 in 2016, a moderate rise of 1.3%, it concentrates most of the going out of its half of the island. Its demographics are the real argument: with fewer than one resident in five aged sixty or over, it escapes entirely the ageing seaside resort profile this series exists to spot, and its evening life therefore does not depend on holidaymakers arriving. The reservations are elsewhere and belong up front. The safety score, 5.2/10, is fifth of the seven. The cost score, 4.3/10, is fourth, which is low in absolute terms and follows from the price of imported goods more than from housing. And the transport score, 4.7/10, is the lowest in this batch level with Fort-de-France, and the lowest in the whole series along with the two other overseas cities.",
+      },
+      {
+        heading: "Where to stay: the centre, Terre-Sainte to sleep",
+        body: "The site's neighbourhood data document only two districts in Saint-Pierre, and the hierarchy between them is clear. The centre carries a nightlife score of 7.5/10, the highest in the commune, for an average two-room flat at 700 euros. This is the seafront, the Saturday market, the restaurants and most of what opens in the evening, and it is the only defensible choice for a trip whose unit is going out. Terre-Sainte, an old fishermen's quarter turned residential on the shore, comes in at 5.0/10 for nightlife at 650 euros for a two-room flat and a better cost score, 7.0/10: the feel there is more local and quieter, which makes it a good place to sleep and a bad place to go out from without planning the way back. At commune scale the reference rents give 450 euros for a studio and 840 euros for a three-room flat, the two lowest values in this batch of seven, and 2,200 euros per square metre to buy. Housing is not Saint-Pierre's problem.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Kerveguen, and a theatre that is not in the commune",
+        body: "Le Kerveguen is the town's concert hall, on the seafront, long known to islanders under its former name of Bato Fou. The Théâtre Lucet Langenier, attached to the cultural centre of the same name, carries the multidisciplinary programme of theatre, dance, comedy, storytelling and circus. One clarification belongs here, because tourist sources routinely skip it: the Théâtre Luc Donat, which many listings attach to going out in Saint-Pierre, is at Le Tampon, rue Victor Le Vigoureux, in a neighbouring but distinct commune. It is reachable from Saint-Pierre, it is not located in it, and an evening return trip means checking the service before buying a ticket. For the rest, the culture score of 6.4/10 puts Saint-Pierre fifth in this batch: indoor programming is modest, and what makes a Saint-Pierre evening happens in the seafront bars and at open-air fixtures, that is to say in formats where arriving alone goes unremarked. That is a real argument for this profile, and it promises no encounters: it observes that you walk in without a table booked.",
+      },
+      {
+        heading: "Before you go: entry rules, no train, and where you may swim",
+        body: "Three rules here are opposable rather than advisory. The first is entry. Réunion is a French department and part of the European Union, but it sits outside the Schengen area, so a short-stay Schengen visa issued for mainland France does not admit you unless the label says it covers Réunion, and the overseas departments issue their own short-stay visas. EU and EEA nationals need no visa whatever the length of stay. Two practicalities follow from the same distance: the currency is the euro, and the island runs on UTC+4 with no daylight saving, so the gap to mainland France shifts by an hour twice a year rather than staying fixed. The second rule is that there is no railway on Réunion, a basic fact worth repeating for a European reader. The old line closed in 1976 and the tram-train project was abandoned in 2010. Urban service in Saint-Pierre is provided by the Alternéo network, operated by the CIVIS agglomeration, which also covers Saint-Louis, l'Étang-Salé, Petite-Île, les Avirons and Cilaos. Do not confuse it with Estival, which is the eastern network, or Citalis, which is the northern one. Links to Saint-Denis are on the Car Jaune interurban network, with several options: the direct ZO line, one departure an hour at peak; line 01 by the expressway at the same rate; line 02 through the coastal towns at one or two departures an hour; and line T along the coast every two hours. All of that runs in daylight. The consequence for a trip whose unit is the evening is that in Saint-Pierre you take accommodation in the centre and go out on foot, or you hire a vehicle. And a hire car is billed per vehicle, not per person. The third rule is the sea. Since a prefectural decree of 26 July 2013, renewed each year, swimming and wave-propelled water sports are prohibited within three hundred metres of the Réunion coast because of shark risk, except in the lagoons, in developed and supervised areas, and in designated monitored zones. Saint-Pierre is one of the places where that exception applies: the town beach is sheltered by a reef and supervised, and the prefecture lists it among the authorised lagoon sites. So the answer for a visitor here is not that you cannot swim in Réunion, it is that you swim where the signage on the spot says you may, and nowhere else.",
+      },
+      {
+        heading: "The single supplement in Saint-Pierre",
+        body: "The budget item you do not share is not the room here, and that is what radically separates an overseas trip from the thirty-six mainland destinations in this series. The room is cheap in relative terms, since the commune's reference rents are the lowest in the batch. What weighs is the airfare, which is charged per person and therefore carries no single supplement at all, and the hire car, which is charged per vehicle and therefore carries the whole surcharge of travelling alone. A couple halves the hire, you do not. The arithmetic of the stay has to be redone the other way round: in mainland France you save on transport and take the hit on the room; here you take the hit on the car and get a break on the room. Two habits follow. Choose accommodation in the centre of Saint-Pierre rather than an isolated gîte, because every day without a hire car is the real saving. And book the car for the two or three days of touring, the cirques, the volcano or the wild south, rather than for the whole length of the stay.",
+      },
+      {
+        heading: "When to go: the southern winter, and why this guide publishes no normals",
+        body: "Two inversions to absorb before booking. The first is seasonal: the southern winter runs from May to November and is the dry season, while the cyclone season runs from November to April with a peak in January, February and March. The months when mainland Europe goes on holiday are therefore the coolest and driest here, and the most comfortable windows are September, October and November, then May and June. The second inversion is geographic, and it is why this guide publishes no monthly rainfall figure for Saint-Pierre. The nearest reference station in the normals carried by this site is Saint-Denis-Gillot, fifty kilometres away, but above all on the other coast: the relief splits the island into two regimes, the windward side taking more than three thousand millimetres a year while the leeward coast, from Le Port to Saint-Pierre, takes less than a thousand, with Saint-Denis around seventeen hundred. Publishing the thirteen January rain days recorded at Gillot as though they described Saint-Pierre would be wrong by a considerable factor. A sentence without a figure is better than a wrong figure, and the right figure here is the local record, which our data do not carry.",
+      },
+    ],
+    relatedCities: ["saint-pierre-reunion"],
+    tags: [
+      "solo travel",
+      "solo travel saint-pierre reunion",
+      "travelling alone in france",
+      "single supplement",
+      "terre-sainte saint-pierre",
+      "reunion",
+    ],
+  },
 
 ];
 

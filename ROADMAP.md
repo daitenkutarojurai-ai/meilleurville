@@ -3925,6 +3925,120 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 13/09 — `solo-travel-in-[city]-2026` batch 6 (+7), la série refermée à 43/43 le lendemain de sa réouverture
+
+`npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans
+jumelle) : aucune régression de routes à rattraper, donc le run est allé au corpus. Les 7
+jumelles du lot FR `vacances-celibataire` du 12/09 écrites d'un coup dans `data/guides-en.ts`
+(Annecy, Colmar, Fort-de-France, Montauban, Nice, Niort, Saint-Pierre de La Réunion).
+**Compteurs mesurés : FR 43, EN 43 — écart nul dans les deux sens, série refermée**
+(`EN_GUIDES` 908 → 915). Aucun slug hors gabarit : les sept slugs de seed s'écrivent tels
+quels, donc la règle du batch 33 (**côté EN le slug se dérive du slug de seed tel quel**)
+n'avait rien à arbitrer — noter seulement que le slug de seed est `saint-pierre-reunion`,
+ce qui désambiguïse de lui-même d'avec le Saint-Pierre de Saint-Pierre-et-Miquelon.
+`metaTitle` 46-55 caractères, `metaDesc` 147-155, **6 sections par guide** comme les 36 déjà
+livrés, **0 em-dash** sur les sept réunis (cible R7.10). Aucun tag neuf au-dessus du seuil :
+les tags de région réutilisent `auvergne-rhone-alpes`, `grand-est`, `martinique`, `occitanie`,
+`french riviera`, `nouvelle-aquitaine`, `reunion`, tous largement au-dessus de 3 guides, et
+les tags de ville et de lieu restent à 1 occurrence — `search-index.en.json` reste à
+**114 tags**, donc aucune page `/tags/` créée ; `sitemap:check` donne EN 28 800 → **28 807
+URL**, soit exactement les 7 guides neufs (FR inchangé à 29 220). Contrôle de lookup / photo
+passé **sur les 540 villes et les 43 guides de la série**, en appelant le résolveur de la page
+(`guideCityPhoto(slug, relatedCities)`) et non une réimplémentation : **43/43 atteignables,
+0 orphelin, 0 collision, 0 guide sans photo d'en-tête**.
+
+⚠️ **La série avait été refermée à 36/36 la veille et le lot FR du 12/09 l'a rouverte le jour
+même.** C'est le deuxième mode de régression de ce chantier, celui qu'aucun contrôle
+automatique ne signale : `npm run parity` sort en code 0 pendant qu'une série déjà mise en
+miroir repart de neuf côté français. Le diff par série reste donc à refaire à chaque run, et
+il a été refait **dans les deux sens** conformément à la leçon du 12/09 : 7 villes FR sans
+jumelle EN et **0 guide EN sans source FR**, ce qui valide le motif de slug avant de croire
+au trou. Un diff qui sort des manques d'un seul côté est d'abord suspect d'un motif faux.
+
+⚠️ **Contrôle de figures : 299 figures distinctes côté EN, 281 retrouvées dans la jumelle FR,
+18 propres à l'EN — le contrôle mécanique les remontera à chaque run, ne pas les
+« corriger ».** Le comparateur est **sensible à la locale** (FR `1 100` et `9,0` face à EN
+`1,100` et `9.0`) : une première version normalisait les deux côtés de la même façon et
+sortait une cinquantaine de faux écarts sur les seuls séparateurs de milliers. Sur les 18
+restantes, **3 ne sont pas des écarts de valeur mais de graphie** — le FR écrit « cent
+soixante spectacles » et « environ trente-cinq minutes » en toutes lettres là où l'EN pose
+`160` et `35`, et `30` vient du seul mot « under-30s » de la meta description. Les **15 autres
+sont de la matière propre à l'angle anglophone, vérifiées en ligne avant écriture** :
+① **Colmar** `1834`, `1907`, `1886` — **Bartholdi, qui a fait la statue de la Liberté, est né
+à Colmar** ; sa maison natale rue des Marchands a été donnée à la ville en 1907 et abrite le
+seul musée qui lui soit consacré, la statue étant inaugurée à New York en 1886. Pour un
+lecteur américain c'est la raison de venir, et le guide FR n'a aucun besoin de la porter.
+② **Fort-de-France** `1945`, `2001`, `1925` — les deux salles de Tropiques Atrium portent les
+noms d'**Aimé Césaire**, maire de la ville de 1945 à 2001, et de **Frantz Fanon**, né ici en
+1925 et élève de Césaire au lycée : un lecteur anglophone a plus de chances d'avoir lu
+*Discourse on Colonialism* et *The Wretched of the Earth* que n'importe quel auteur de la
+saison. ③ **Montauban** `1780`, `1867` — **Ingres est né ici en 1780** et a légué à la ville,
+à sa mort en 1867, ses dessins, quarante-quatre tableaux et son violon, d'où le nom du musée
+et l'expression *violon d'Ingres*. ④ **Nice** `2021`, `1824` — **Nice est inscrite à l'UNESCO
+depuis 2021 sous le nom « Nice, Winter Resort Town of the Riviera »**, et ce qui est classé
+est précisément la ville bâtie pour la clientèle hivernale étrangère : la première section de
+la promenade des Anglais est achevée en **1824**, financée par souscription dans la colonie
+britannique à l'initiative du révérend Lewis Way. Le parc hôtelier que le lecteur va réserver
+descend de cette clientèle-là, ce qui donne sa cause à la section suivante. ⑤ **Niort**
+`1160`, `1175` — le **donjon jumeau est commencé par Henri II Plantagenêt et achevé par
+Richard Cœur de Lion**, vers 1160-1175, pour tenir le Poitou : c'est le seul argument de
+Niort qu'un lecteur britannique reconnaîtra avant d'ouvrir le guide. ⑥ **Saint-Pierre** `4`,
+`26`, `2013` — UTC+4 sans heure d'été, et surtout l'**arrêté préfectoral du 26 juillet 2013**,
+reconduit chaque année.
+
+⚠️ **La règle de baignade réunionnaise est écrite ici dans l'autre sens que dans les guides
+Saint-Louis et Saint-Joseph, et c'est volontaire.** Le batch 32 avait posé « pas de lagon
+devant Saint-Louis, pas de lagon dans le sud » ; transposer cette phrase à Saint-Pierre
+serait **faux**. La vérification faite ce run établit que l'arrêté du 26 juillet 2013 interdit
+la baignade et les activités nautiques à propulsion par vagues dans la bande des trois cents
+mètres **sauf dans les lagons, les zones aménagées et surveillées et les zones
+d'expérimentation**, et que la préfecture range **Saint-Pierre parmi les sites de lagon
+autorisés**, sa plage de centre-ville étant abritée par un récif et surveillée. Le guide écrit
+donc la règle comme opposable **et** dit que la réponse pour Saint-Pierre n'est pas « on ne se
+baigne pas à La Réunion » mais « on se baigne là où la signalétique sur place l'autorise, et
+nulle part ailleurs ». Ne pas aligner cette section sur celles des deux autres communes 974.
+
+Les autres prudences des jumelles FR sont reprises telles quelles, à ne pas diluer : le
+**Théâtre Luc Donat est au Tampon**, commune limitrophe mais distincte, et non à Saint-Pierre ;
+le **Marais poitevin commence à Coulon**, à une dizaine de kilomètres de Niort ; le guide
+Colmar **ne publie aucun chiffre de pluie** (station de référence à Strasbourg-Entzheim, à
+56 km, quand Colmar est abritée par les Vosges) et le guide Saint-Pierre **aucune normale
+mensuelle** (station à Saint-Denis-Gillot, sur l'autre côte, deux régimes de précipitations) ;
+les réserves de distance de station sont répétées pour Annecy (86 km) et Niort (126 km) ; le
+score de sécurité de Fort-de-France est dit **décrire une commune et non ses habitants**, et
+les rues à éviter le soir sont traitées « ni par le déni ni par la dramatisation » ; et les
+**TGV de Colmar et de Montauban absents de la table de desserte** sont signalés comme
+« non documenté » et non « pas de desserte », l'entrée manquante ayant été ajoutée côté FR.
+
+Ajouts sans chiffre propres au lecteur étranger : **scène nationale** glosée en
+« state-funded regional theatre » à chacune de ses apparitions, **Intercités** posé comme le
+réseau classique face au réseau à grande vitesse, le **Cristal d'Annecy** présenté comme un
+prix qualifiant pour l'Oscar du court métrage d'animation (ce qui explique qu'une semaine de
+juin soit un rendez-vous professionnel mondial et pas un festival régional), la **Martinique
+hors territoire TVA et accises de l'UE** donc le rhum relevant d'une franchise voyageur
+renvoyée à la douane sans chiffre imprimé, et la **règle Schengen** rappelée pour les deux
+destinations ultramarines — un visa Schengen délivré pour la métropole n'y vaut pas.
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands de `CLAUDE.md` depuis
+le batch 27 : 4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal
+utile). Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**,
+`npm run integrity` (guides EN 908 → 915), `search-index` + `search-index:check`,
+`sitemap:check`, `npm run parity` (**code 0**), `npm run hreflang:check`, plus le contrôle de
+lookup / photo, le contrôle de figures ci-dessus et une vérification d'encodage (accents
+intacts, aucun `m2` / `EUR` / `deg` ascii, aucun mojibake).
+
+**Écart de corpus après ce run : guides 1 119 FR / 915 EN, tags 267 / 114.** Les deux plus
+gros trous mesurés ce run, tous deux vérifiés dans les deux sens : `demenager-a-[ville]` 50 FR
+contre `moving-to-[city]` **8** EN (42 villes), et `quitter-[ville]-guide` 48 FR contre
+`leaving-[city]-where-to-go` **11** EN (38 villes, plus 1 guide EN sans source FR, Paris). Les
+séries à parité et à re-differ et non à croire sur parole : `parent-solo-` / `single-parent-in-`
+85/85, `acheter-a-` / `where-to-buy-in-` 49/49, `travail-a-` / `working-in-` 30/30,
+`vacances-monoparentales-` / `single-parent-holidays-` 30/30, `famille-a-` / `family-in-` 19/19,
+`retraite-a-` / `retiring-in-` 19/19, `vivre-sans-voiture-` / `car-free-living-in-` 15/15,
+`budget-mensuel-realiste-` / `cost-of-living-` 10/10, `etudiant-a-` 20 FR contre `studying-in-`
+23 EN (l'EN devance). `universites-[ville]` reste à 15 FR / 0 EN et **ne se rouvre qu'avec un
+angle distinct de `studying-in-`**, sinon c'est la cannibalisation de juin qui recommence.
+
 ### Livré le 12/09 — `solo-travel-in-[city]-2026` batch 5 (+7), la série refermée à 36/36
 
 `npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans

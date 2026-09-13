@@ -7782,6 +7782,41 @@
       "slug": "things-to-do-in-granville-2026",
       "title": "Things to do in Granville: the Norman town the English founded",
       "emoji": "⚓"
+    },
+    {
+      "slug": "solo-travel-in-annecy-2026",
+      "title": "Solo travel in Annecy: the best setting in the series, and the price that goes with it",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-colmar-2026",
+      "title": "Solo travel in Colmar: the only city in this series that peaks in winter",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-fort-de-france-2026",
+      "title": "Solo travel in Fort-de-France: a capital that works, not a resort",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-montauban-2026",
+      "title": "Solo travel in Montauban: the cheapest destination in this whole series",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-nice-2026",
+      "title": "Solo travel in Nice: trams until one in the morning, February at the top of the year",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-niort-2026",
+      "title": "Solo travel in Niort: a town that works, and the cheapest flat of the seven",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-saint-pierre-reunion-2026",
+      "title": "Solo travel in Saint-Pierre de La Réunion: leeward coast, southern winter, no train",
+      "emoji": "🍸"
     }
   ],
   "tags": [
@@ -7813,17 +7848,17 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 56
+      "count": 57
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 56
+      "count": 57
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 54
+      "count": 55
     },
     {
       "slug": "buying-property-france",
@@ -7838,7 +7873,22 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 49
+      "count": 50
+    },
+    {
+      "slug": "single-supplement",
+      "label": "single supplement",
+      "count": 43
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 43
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
+      "count": 43
     },
     {
       "slug": "hauts-de-france",
@@ -7853,21 +7903,6 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 36
-    },
-    {
-      "slug": "single-supplement",
-      "label": "single supplement",
-      "count": 36
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 36
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
       "count": 36
     },
     {
@@ -7976,18 +8011,23 @@
       "count": 15
     },
     {
+      "slug": "reunion",
+      "label": "reunion",
+      "count": 15
+    },
+    {
       "slug": "loire-valley",
       "label": "loire valley",
       "count": 14
     },
     {
-      "slug": "reunion",
-      "label": "reunion",
-      "count": 14
-    },
-    {
       "slug": "bretagne",
       "label": "bretagne",
+      "count": 12
+    },
+    {
+      "slug": "french-riviera",
+      "label": "french riviera",
       "count": 12
     },
     {
@@ -8003,11 +8043,6 @@
     {
       "slug": "burgundy",
       "label": "burgundy",
-      "count": 11
-    },
-    {
-      "slug": "french-riviera",
-      "label": "french riviera",
       "count": 11
     },
     {
@@ -8096,6 +8131,11 @@
       "count": 7
     },
     {
+      "slug": "martinique",
+      "label": "martinique",
+      "count": 7
+    },
+    {
       "slug": "nantes",
       "label": "nantes",
       "count": 7
@@ -8118,11 +8158,6 @@
     {
       "slug": "lille",
       "label": "lille",
-      "count": 6
-    },
-    {
-      "slug": "martinique",
-      "label": "martinique",
       "count": 6
     },
     {
