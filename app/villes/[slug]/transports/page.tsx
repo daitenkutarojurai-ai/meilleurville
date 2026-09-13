@@ -8,7 +8,13 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getTransit, transitTags, type Transit } from "@/lib/transit";
 import { commuteEstimate } from "@/lib/commute-estimate";
-import { borderCommute, metroAccess, metroAccessCommute, HUB_LABEL } from "@/lib/profile-pages";
+import {
+  borderCommute,
+  metroAccess,
+  metroAccessCommute,
+  airportAccessHub,
+  HUB_LABEL,
+} from "@/lib/profile-pages";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
 
@@ -116,6 +122,13 @@ export default async function TransportsPage({ params }: Props) {
   // deux heures et demie, et `metroAccessCommute` rend `null` pour les DROM et
   // la Corse, où aucun des douze pôles ne se rejoint.
   const metroHub = metroAccess(city) > 0 ? metroAccessCommute(city) : null;
+  // Plateforme aérienne la mieux placée — définie pour les 540 villes (le 0,0
+  // de Saint-Laurent-du-Maroni est une mesure, pas une donnée manquante), donc
+  // le renvoi est inconditionnel, à l'inverse du badge frontalier ci-dessous.
+  // « La mieux placée » n'est pas « la plus proche » : le barème arbitre entre
+  // le plafond de la plateforme et la distance, si bien que Compiègne prend
+  // Roissy et Mulhouse l'EuroAirport plutôt qu'Entzheim.
+  const airHub = airportAccessHub(city);
 
   // Rank by transport score
   const sorted = [...CITIES_SEED].sort((a, b) => b.scores.transport - a.scores.transport);
@@ -344,6 +357,14 @@ export default async function TransportsPage({ params }: Props) {
               className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
             >
               Habiter ici et travailler à {border.hub} 🛂
+            </Link>
+          )}
+          {airHub && (
+            <Link
+              href="/pour-qui/famille-a-l-etranger"
+              className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            >
+              Famille à l&apos;étranger : partir via {airHub.hub} ✈️
             </Link>
           )}
           <Link

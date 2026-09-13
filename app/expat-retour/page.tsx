@@ -103,6 +103,36 @@ export default function ExpatRetourIndex() {
           </div>
         </Card>
 
+        {/* Le cas voisin : le retour qui n'en est pas tout à fait un. Les
+            fiches pays traitent une expatriation qu'on solde ; quand une partie
+            de la famille reste sur place, le critère de choix de ville n'est
+            plus le même et aucune fiche ne le porte. */}
+        <Card>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <span className="text-4xl" aria-hidden>
+              ✈️
+            </span>
+            <div className="flex-1">
+              <h3 className="text-lg font-bold text-[var(--text-primary)] mb-1">
+                Et si le retour n&apos;en est pas tout à fait un ?
+              </h3>
+              <p className="text-sm text-[var(--text-secondary)]">
+                Les fiches ci-dessus décrivent une expatriation qu&apos;on solde. Quand un
+                conjoint, des parents ou des enfants restent de l&apos;autre côté, la ville
+                se choisit sur un critère que ces guides n&apos;utilisent pas :{" "}
+                <Link href="/pour-qui/famille-a-l-etranger" className="underline">
+                  les villes d&apos;où l&apos;on repart et revient facilement
+                </Link>{" "}
+                classent les {CITIES_COUNT} communes sur l&apos;accès aérien international —
+                pas l&apos;aéroport le plus proche, mais ce qu&apos;on peut y prendre un
+                mardi de novembre — puis le confrontent au loyer, parce que les billets
+                s&apos;ajoutent au budget et qu&apos;il faut une chambre d&apos;amis quand
+                ce sont les autres qui viennent.
+              </p>
+            </div>
+          </div>
+        </Card>
+
         {/* Admin guide */}
         <Card>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">

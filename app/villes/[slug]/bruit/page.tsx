@@ -168,6 +168,29 @@ export default async function BruitPage({ params }: Props) {
           <NoiseBlock dim={n.urbanNight} label="Nocturne — vie de centre-ville" />
         </div>
 
+        {/* Le revers du couloir aérien, dit seulement là où il existe : la
+            condition est le niveau de la dimension aérienne elle-même, pas un
+            seuil inventé — 44 villes sur 540 sortent du niveau « faible ». Le
+            profil renvoyé porte l'avertissement symétrique : son barème ne
+            pondère pas le bruit des avions et il renvoie au PEB, qui est le
+            document opposable. */}
+        {n.aircraft.level !== "faible" && (
+          <p className="mt-3 text-sm text-[var(--text-secondary)] leading-relaxed">
+            Vivre sous une trajectoire a un revers, et il vaut d&apos;être posé en face :
+            une plateforme proche est aussi ce qui rend un aller-retour possible dans la
+            journée.{" "}
+            <Link href="/pour-qui/famille-a-l-etranger" className="underline">
+              Les villes classées pour une famille restée à l&apos;étranger
+            </Link>{" "}
+            mesurent cet accès-là — le plafond de la plateforme autant que la distance qui
+            l&apos;en sépare — et disent, elles aussi, que leur barème ne pondère pas le
+            bruit des avions. Aucune des deux pages ne remplace le plan
+            d&apos;exposition au bruit de l&apos;aéroport, seul document opposable,
+            consultable parcelle par parcelle en mairie et sur le Géoportail de
+            l&apos;urbanisme.
+          </p>
+        )}
+
         {/* Methodology */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Méthodologie</h2>
         <Card className="mt-3">

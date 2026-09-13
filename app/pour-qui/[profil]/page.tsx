@@ -671,6 +671,55 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Air-access counterpart — visible on the three profiles that the
+            target's own intro names to say where it stops : « retour
+            d'expatriation » traite du retour définitif et de ses démarches,
+            « travailleurs frontaliers » mesure une frontière franchie cinq
+            matins par semaine, « actifs en hybride » vise douze bassins
+            d'emploi français par le rail et la route. Aucun des trois ne
+            pondère `airportAccess` (vérifié par exécution sur PROFILE_PAGES :
+            life 2,5 / borderAccess 3,0 / metroAccess 3,0 en tête
+            respectivement), et c'est précisément ce qui justifie le renvoi —
+            `famille-a-l-etranger` est le seul des trente-six profils à peser
+            cet axe. */}
+        {["expat-retour", "travailleurs-frontaliers", "navetteurs-hybrides"].includes(
+          profile.slug,
+        ) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le profil voisin — quand une partie de la famille reste à l&apos;étranger
+            </h3>
+            <Link href="/pour-qui/famille-a-l-etranger" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>✈️</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes où s&apos;installer quand la vie reste à cheval sur deux pays
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus suppose que la vie tient d&apos;un seul côté de la
+                      frontière — un retour qu&apos;on solde, une frontière qu&apos;on
+                      franchit tous les matins, un bureau qu&apos;on rejoint en train.
+                      Celui-ci part de l&apos;inverse : un conjoint, des parents ou des
+                      enfants restés ailleurs, donc quelques voyages par an plutôt
+                      qu&apos;un trajet quasi quotidien — deux rythmes qui ne se
+                      classent pas pareil. Son critère cardinal est l&apos;accès aérien
+                      international, et
+                      il ne se confond pas avec « l&apos;aéroport le plus proche » : ce qui
+                      compte est ce qu&apos;on peut prendre un mardi de novembre, pas la
+                      longueur de la piste. La page dit aussi ses limites : la distance est
+                      estimée à vol d&apos;oiseau et sous-évalue le relief, et le barème ne
+                      pondère pas le bruit des avions — le document opposable reste le plan
+                      d&apos;exposition au bruit de la plateforme.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Other profiles */}
         <section>
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">

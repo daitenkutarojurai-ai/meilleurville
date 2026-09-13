@@ -158,6 +158,22 @@ export default async function ExpatRetourCountryPage({ params }: Props) {
               </Link>
             ))}
           </div>
+          {/* Le cas que cette sélection ne couvre pas : elle suppose un retour
+              définitif. Quand une partie de la famille reste dans le pays de
+              départ, le critère de choix bascule sur l'accès aérien, que
+              `famille-a-l-etranger` est le seul profil du site à pondérer. */}
+          <p className="text-sm text-[var(--text-secondary)] mt-4">
+            Cette sélection suppose un retour définitif. S&apos;il n&apos;en est pas tout à
+            fait un — un conjoint, des parents ou des enfants qui restent sur place —, la
+            ville se choisit sur un critère absent d&apos;ici :{" "}
+            <Link href="/pour-qui/famille-a-l-etranger" className="underline">
+              les villes d&apos;où l&apos;on repart et revient sans y perdre la journée
+            </Link>{" "}
+            mesurent l&apos;accès aérien international plutôt que la distance à
+            l&apos;aéroport le plus proche, puis le confrontent au coût du logement. La
+            page dit ses limites : la distance y est estimée à vol d&apos;oiseau et
+            sous-évalue le relief, et le barème ne pondère pas le bruit des avions.
+          </p>
         </section>
 
         {/* Admin priorities */}
