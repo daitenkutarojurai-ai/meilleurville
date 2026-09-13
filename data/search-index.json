@@ -8734,6 +8734,56 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-chatellerault-2026",
+      "title": "Parent solo à Châtellerault en 2026 : le seuil d'entrée le plus bas du palier 6,5",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-dizier-2026",
+      "title": "Parent solo à Saint-Dizier en 2026 : 65 000 € les 65 mètres carrés, et une ville qui se vide",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-charleville-mezieres-2026",
+      "title": "Parent solo à Charleville-Mézières en 2026 : le meilleur coût de la vie du classement ne fait pas un pouvoir d'achat",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-castres-2026",
+      "title": "Parent solo à Castres en 2026 : la seule ville de province du palier qui gagne des habitants",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-montbeliard-2026",
+      "title": "Parent solo à Montbéliard en 2026 : un profil plat dont le creux est la sécurité",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-abbeville-2026",
+      "title": "Parent solo à Abbeville en 2026 : le meilleur axe coût du lot, et pourtant le loyer le plus élevé",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saumur-2026",
+      "title": "Parent solo à Saumur en 2026 : la meilleure sécurité du palier, et le seul revenu local proche de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-villeneuve-sur-lot-2026",
+      "title": "Parent solo à Villeneuve-sur-Lot en 2026 : 4,2/10 de transports et 37 % de plus de 60 ans",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-issy-les-moulineaux-2026",
+      "title": "Parent solo à Issy-les-Moulineaux en 2026 : transports 9, écoles 9, coût 2,2",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-levallois-perret-2026",
+      "title": "Parent solo à Levallois-Perret en 2026 : même note que Châtellerault, presque trois fois le revenu",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-pontoise-2026",
       "title": "10 choses à faire à Pontoise",
       "emoji": "🎨"
@@ -9181,6 +9231,16 @@
       "count": 8
     },
     {
+      "slug": "famille-monoparentale-hauts-de-france",
+      "label": "famille monoparentale Hauts-de-France",
+      "count": 8
+    },
+    {
+      "slug": "famille-monoparentale-nouvelle-aquitaine",
+      "label": "famille monoparentale Nouvelle-Aquitaine",
+      "count": 8
+    },
+    {
       "slug": "le-mans",
       "label": "Le Mans",
       "count": 8
@@ -9251,8 +9311,8 @@
       "count": 7
     },
     {
-      "slug": "famille-monoparentale-hauts-de-france",
-      "label": "famille monoparentale Hauts-de-France",
+      "slug": "famille-monoparentale-pays-de-la-loire",
+      "label": "famille monoparentale Pays de la Loire",
       "count": 7
     },
     {
@@ -9321,13 +9381,8 @@
       "count": 6
     },
     {
-      "slug": "famille-monoparentale-nouvelle-aquitaine",
-      "label": "famille monoparentale Nouvelle-Aquitaine",
-      "count": 6
-    },
-    {
-      "slug": "famille-monoparentale-pays-de-la-loire",
-      "label": "famille monoparentale Pays de la Loire",
+      "slug": "famille-monoparentale-occitanie",
+      "label": "famille monoparentale Occitanie",
       "count": 6
     },
     {
@@ -9431,8 +9486,8 @@
       "count": 5
     },
     {
-      "slug": "famille-monoparentale-occitanie",
-      "label": "famille monoparentale Occitanie",
+      "slug": "famille-monoparentale-grand-est",
+      "label": "famille monoparentale Grand Est",
       "count": 5
     },
     {
@@ -9568,6 +9623,16 @@
     {
       "slug": "espaces-verts",
       "label": "espaces verts",
+      "count": 4
+    },
+    {
+      "slug": "famille-monoparentale-bourgogne-franche-comte",
+      "label": "famille monoparentale Bourgogne-Franche-Comté",
+      "count": 4
+    },
+    {
+      "slug": "famille-monoparentale-ile-de-france",
+      "label": "famille monoparentale Île-de-France",
       "count": 4
     },
     {
@@ -9861,18 +9926,8 @@
       "count": 3
     },
     {
-      "slug": "famille-monoparentale-bourgogne-franche-comte",
-      "label": "famille monoparentale Bourgogne-Franche-Comté",
-      "count": 3
-    },
-    {
       "slug": "famille-monoparentale-centre-val-de-loire",
       "label": "famille monoparentale Centre-Val de Loire",
-      "count": 3
-    },
-    {
-      "slug": "famille-monoparentale-grand-est",
-      "label": "famille monoparentale Grand Est",
       "count": 3
     },
     {
