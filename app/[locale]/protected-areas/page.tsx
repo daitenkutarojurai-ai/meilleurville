@@ -13,12 +13,18 @@ import {
 } from "@/lib/biodiversity";
 import {
   PROTECTION_ADHESION_ONLY,
+  PROTECTION_BUFFER_COUNT,
+  PROTECTION_BUFFER_EXAMPLE,
+  PROTECTION_BUFFER_LED,
+  PROTECTION_BUFFER_LED_RANKS,
+  PROTECTION_BUFFER_ONLY,
   PROTECTION_CRAWLED_AT,
   PROTECTION_KIND_LABEL_EN,
   PROTECTION_MEDIAN_COVERAGE,
   PROTECTION_NO_PERIMETER,
   PROTECTION_RANKED_COUNT,
   PROTECTION_ZERO_COUNT,
+  bufferShare,
   protectionRankingHead,
   rankByProtection,
   type ProtectionEntry,
@@ -58,6 +64,16 @@ function fmt(n: number): string {
  *  park core is involved. */
 const ADHESION_ONLY_SLUGS = new Set(PROTECTION_ADHESION_ONLY.map((c) => c.slug));
 
+/** Cities whose coverage materially rests on a *périmètre de protection* — the
+ *  buffer around a nature reserve, not the reserve. The "largest site" column
+ *  says so, rather than letting a name that opens with "Réserve Naturelle"
+ *  stand for one. See PROTECTION_BUFFER_LED. */
+const BUFFER_LED_SLUGS = new Set(PROTECTION_BUFFER_LED.map((c) => c.slug));
+
+/** Cities where every nature-reserve polygon found is a buffer: there it is the
+ *  "strongest status" column that overstates. */
+const BUFFER_ONLY_SLUGS = new Set(PROTECTION_BUFFER_ONLY.map((c) => c.slug));
+
 function Row({ entry, rank, tied }: { entry: ProtectionEntry; rank: number; tied: boolean }) {
   return (
     <tr className="border-t border-[var(--border)]">
@@ -83,11 +99,21 @@ function Row({ entry, rank, tied }: { entry: ProtectionEntry; rank: number; tied
       <td className="px-3 py-2 text-[var(--text-secondary)] hidden md:table-cell">
         {entry.strongest ? PROTECTION_KIND_LABEL_EN[entry.strongest] : "—"}
         {ADHESION_ONLY_SLUGS.has(entry.city.slug) && (
-          <span className="block text-[10px] text-[var(--text-tertiary)]">buffer zone only</span>
+          <span className="block text-[10px] text-[var(--text-tertiary)]">adhesion area only</span>
+        )}
+        {BUFFER_ONLY_SLUGS.has(entry.city.slug) && (
+          <span className="block text-[10px] text-[var(--text-tertiary)]">
+            protection perimeter
+          </span>
         )}
       </td>
       <td className="px-3 py-2 text-[11px] text-[var(--text-tertiary)] hidden lg:table-cell">
         {entry.topArea ?? "—"}
+        {BUFFER_LED_SLUGS.has(entry.city.slug) && (
+          <span className="block text-[10px]">
+            buffer zone · {fmt(bufferShare(entry.city.slug))}% of the disc
+          </span>
+        )}
       </td>
     </tr>
   );
@@ -340,7 +366,7 @@ export default function EnProtectedAreasPage() {
               no legal force, and counting them would say a document protects as much as a decree.
             </p>
             <p>
-              <strong>Park cores and buffer zones count the same, for want of better data.</strong>{" "}
+              <strong>Park cores and adhesion areas count the same, for want of better data.</strong>{" "}
               The source publishes both as polygons of the same type; the core carries its own
               regulations, while the adhesion area is a charter zone with no general prohibition.
               For {PROTECTION_ADHESION_ONLY.length} cities the only national-park polygon found is
@@ -348,6 +374,28 @@ export default function EnProtectedAreasPage() {
                 .map((c) => c.name)
                 .join(", ")}{" "}
               among them. Their coverage is an upper bound.
+            </p>
+            <p>
+              <strong>
+                And a nature reserve counts the same as its buffer zone — which is what carries
+                the top of this table.
+              </strong>{" "}
+              Around a reserve, the prefect may institute a <em>périmètre de protection</em>, a
+              buffer where activity is regulated so it does not harm the reserve. The source
+              publishes that buffer in the same layer as the reserve, so at the same weight (1),
+              although the difference in scale is enormous:{" "}
+              {PROTECTION_BUFFER_EXAMPLE && PROTECTION_BUFFER_EXAMPLE.reserveHa != null
+                ? `inside the ${PROTECTION_BUFFER_EXAMPLE.city.name} disc the buffer covers ${PROTECTION_BUFFER_EXAMPLE.bufferHa.toLocaleString("en-GB")} ha and the reserve it surrounds ${PROTECTION_BUFFER_EXAMPLE.reserveHa.toLocaleString("en-GB")} ha. `
+                : ""}
+              Of the {PROTECTION_RANKED_COUNT} cities measured, {PROTECTION_BUFFER_COUNT} carry
+              such a buffer and only {PROTECTION_BUFFER_LED.length} carry one large enough for
+              their figure to depend on it:{" "}
+              {`${PROTECTION_BUFFER_LED.map(
+                (c, i) => `${c.name} (#${PROTECTION_BUFFER_LED_RANKS[i]})`,
+              ).join(", ")}.`}{" "}
+              The right-hand column flags them city by city. We say it rather than correct it:
+              reweighting on the strength of a name would rewrite a published ranking from a
+              regular expression.
             </p>
             <p>
               <strong>Protected does not mean accessible.</strong> A designation says what cannot

@@ -105,6 +105,12 @@ const log = (...a) => console.log(...a);
 /** Wider than the 10 km GBIF radius on purpose: a protected massif 15 km out
  *  is part of the living environment, you go there on a Sunday. */
 const RADIUS_KM = 15;
+/** Name of a `périmètre de protection`: the buffer instituted around a nature
+ *  reserve, published in the same BD TOPO layer as the reserve and therefore
+ *  weighted the same (1). Kept in step with `isBufferPerimeter` in
+ *  `lib/biodiversity.ts` — the script only reports on it, the surfaces are what
+ *  tell the reader. Neither reweights: the test is a name, not an attribute. */
+const BUFFER_PERIMETER_NAME = /p[ée]rim[èe]tre de protection/i;
 /** 250 m cells → 6.25 ha each, ~11 300 cells in the disc. Fine enough that a
  *  coverage percentage is precise to a few tenths, coarse enough that the
  *  whole national pass stays in minutes. */
@@ -1611,6 +1617,31 @@ async function selftest() {
   expectNoKind("Documentation du standard de données");
   expectNoKind("Liste des communes");
 
+  /* ── buffer perimeters ──────────────────────────────────────────────────
+   *
+   * A `périmètre de protection` is the buffer around a nature reserve, not the
+   * reserve, and the source hands both out of the same layer at the same
+   * weight. The detection is a name test, so it is pinned here on the exact
+   * strings the corpus carries — and on the reserve names it must NOT swallow,
+   * which is the failure that would matter: flagging the reserve itself as its
+   * own buffer would tell a reader the strongest perimeter around them is a
+   * tampon when it is the real thing.
+   */
+  const expectBuffer = (name, want) => {
+    const ok = BUFFER_PERIMETER_NAME.test(name) === want;
+    results.push({ label: `buffer name ${name.slice(0, 40)}`, ok });
+    log(`  ${ok ? "ok  " : "FAIL"} buffer name ${want ? "matches" : "is not matched"}: ${name.slice(0, 62)}`);
+  };
+  expectBuffer("Périmètre de Protection de la Réserve Naturelle Géologique de Haute Provence", true);
+  expectBuffer("Périmètre de Protection de la Réserve Naturelle Géologique du Lubéron", true);
+  expectBuffer("Périmètre de Protection de l'Etang du Grand Lemps", true);
+  expectBuffer("perimetre de protection de la reserve naturelle des Marais de Bruges", true);
+  expectBuffer("Réserve Naturelle Nationale Géologique de Haute Provence", false);
+  expectBuffer("Réserve Naturelle Nationale Géologique du Luberon", false);
+  expectBuffer("Réserve Naturelle des Marais de Bruges", false);
+  expectBuffer("Arrêtés de protection de biotope", false);
+  expectBuffer("Grands Rapaces du Lubéron", false);
+
   /* ── territories ────────────────────────────────────────────────────────
    *
    * The scope guard is only as good as the boxes: a seed city matching none of
@@ -1725,6 +1756,35 @@ async function showStats() {
     .slice(0, 5);
   log("  best covered:");
   for (const [slug, r] of top) log(`    ${slug.padEnd(24)} ${r.weightedCoverage} %`);
+
+  // A `périmètre de protection` is the buffer around a nature reserve, not the
+  // reserve. It comes out of the same BD TOPO layer, so it carries the same
+  // weight (1) — the strongest on the scale — and on a handful of cities it is
+  // what sets the coverage figure. Named, not counted: an aggregate that hides
+  // its members is how the ten Saint-X stayed silent for a fortnight on the
+  // BODACC side. The surfaces flag these cities; this line is what tells a
+  // later pass whether the list has moved.
+  const discHa = Math.PI * RADIUS_KM * RADIUS_KM * 100;
+  const buffers = [];
+  for (const [slug, r] of scoped) {
+    // Counted on the polygon, not on the area: one buffer (Étampes) is smaller
+    // than a grid cell and rounds to 0 ha, but it is there. Same rule as
+    // `PROTECTION_BUFFER_COUNT` in lib/protected-areas-ranking.ts, so the two
+    // never publish different totals.
+    const own = (r.areas ?? []).filter(
+      (a) => a.kind === "reserve-naturelle" && BUFFER_PERIMETER_NAME.test(a.name ?? ""),
+    );
+    if (own.length) buffers.push([slug, (100 * own.reduce((s, a) => s + a.areaHa, 0)) / discHa]);
+  }
+  if (buffers.length) {
+    buffers.sort((a, b) => b[1] - a[1]);
+    const material = buffers.filter(([, share]) => share >= 5);
+    log(`  carrying a nature-reserve buffer perimeter, counted at reserve weight: ${buffers.length}`);
+    if (material.length) {
+      log(`  ⚠️  and on ${material.length} of them the buffer sets the figure (≥ 5 % of the disc):`);
+      for (const [slug, share] of material) log(`      ${slug.padEnd(24)} ${share.toFixed(1)} % of the disc`);
+    }
+  }
 }
 
 /* ── run ─────────────────────────────────────────────────────────────────── */

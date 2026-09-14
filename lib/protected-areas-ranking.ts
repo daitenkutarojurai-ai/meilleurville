@@ -37,8 +37,10 @@
 import type { CitySeed } from "@/data/cities-seed";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
+  PROTECTED_RADIUS_KM,
   PROTECTION_WEIGHT,
   cityProtectedAreas,
+  isBufferPerimeter,
   isMeasuredProtection,
   type ProtectionKind,
 } from "@/lib/biodiversity";
@@ -221,6 +223,119 @@ export const PROTECTION_ADHESION_ONLY = ALL.filter((e) => {
   if (!record || !isMeasuredProtection(record)) return false;
   const national = record.areas.filter((a) => a.kind === "parc-national");
   return national.length > 0 && national.every((a) => ADHESION_NAME.test(a.name ?? ""));
+})
+  .map((e) => e.city)
+  .sort((a, b) => a.name.localeCompare(b.name, "fr"));
+
+/** Surface du disque d'analyse, en hectares. Les `areaHa` de la source sont
+ *  déjà **découpées sur ce disque** (grille de 250 m côté ingest), donc le
+ *  rapport des deux est une part exacte, pas une approximation. */
+const DISC_HA = Math.PI * PROTECTED_RADIUS_KM * PROTECTED_RADIUS_KM * 100;
+
+/** Part du disque tenue par les périmètres de protection (zones tampons) d'une
+ *  ville, en %. `0` quand elle n'en porte aucun. */
+export function bufferShare(slug: string): number {
+  const record = cityProtectedAreas(slug);
+  if (!record || !isMeasuredProtection(record)) return 0;
+  const ha = record.areas.filter(isBufferPerimeter).reduce((a, b) => a + b.areaHa, 0);
+  return ha === 0 ? 0 : +((100 * ha) / DISC_HA).toFixed(1);
+}
+
+/** Au-delà de cette part du disque, le tampon pèse assez pour porter le rang
+ *  de la ville, et la page doit le nommer. En dessous, il est dans la liste
+ *  mais ne déplace pas le chiffre : 22 des 28 villes qui en portent un sont
+ *  dans ce cas, en dessous de 2,2 % du disque. */
+const BUFFER_MATERIAL_SHARE = 5;
+
+/**
+ * Villes dont la couverture repose **matériellement sur un périmètre de
+ * protection** — la zone tampon d'une réserve naturelle, pas la réserve.
+ *
+ * Mesuré le 2026-09-14 sur les 540 villes : 28 en portent un, six seulement
+ * au-dessus de `BUFFER_MATERIAL_SHARE`, et ces six occupent les rangs 1, 3, 7,
+ * 11, 23 et 128 du classement national. Deux réserves géologiques expliquent
+ * les six — Haute-Provence et Luberon — et leurs tampons sont d'un autre ordre
+ * de grandeur que ce qu'ils entourent : à Digne-les-Bains 68 081 ha de tampon
+ * pour 75 ha de réserve dans le même disque, à Apt 39 344 ha pour 25 ha.
+ * Comme les deux polygones sortent de la même couche BD TOPO, l'ingest les
+ * pondère pareil (1,0) et la cellule de grille retient ce poids : la tête du
+ * classement national est donc portée par des tampons comptés comme des
+ * réserves.
+ *
+ * ⚠️ On le **dit**, on ne le corrige pas — même arbitrage qu'au couple cœur de
+ * parc / aire d'adhésion (`PROTECTION_ADHESION_ONLY`). Repondérer sur la foi
+ * d'un nom réécrirait un classement publié à partir d'une expression
+ * régulière ; le lecteur, lui, a besoin de savoir ce qu'il regarde. Le remède
+ * propre est côté ingest : la BD TOPO distingue les deux objets par leur
+ * couche d'origine, pas par un attribut qu'on lit ici.
+ */
+export const PROTECTION_BUFFER_LED = ALL.filter(
+  (e) => bufferShare(e.city.slug) >= BUFFER_MATERIAL_SHARE,
+)
+  .map((e) => e.city)
+  .sort((a, b) => bufferShare(b.slug) - bufferShare(a.slug));
+
+/** Villes portant un tampon, quelle que soit sa part du disque. Le comptage
+ *  est publié à côté de `PROTECTION_BUFFER_LED` pour que le lecteur voie que
+ *  la plupart des cas sont anodins. */
+export const PROTECTION_BUFFER_COUNT = ALL.filter((e) => {
+  const record = cityProtectedAreas(e.city.slug);
+  // Sur le polygone, pas sur `bufferShare` : sept tampons pèsent moins de
+  // 0,05 % du disque et s'arrondiraient à zéro, alors qu'ils sont bien là.
+  return !!record && isMeasuredProtection(record) && record.areas.some(isBufferPerimeter);
+}).length;
+
+/** Rangs nationaux des villes de `PROTECTION_BUFFER_LED`, dans le même ordre.
+ *  Rang de compétition, ex æquo partagés — même convention que
+ *  `rankByProtection`. Dérivé, pour qu'une passe de collecte ne laisse pas des
+ *  numéros périmés dans la prose des deux hubs. */
+export const PROTECTION_BUFFER_LED_RANKS: number[] = (() => {
+  const ordered = [...new Set(ALL.map((e) => e.coverage))].sort((a, b) => b - a);
+  const rankOf = new Map<number, number>();
+  let seen = 0;
+  for (const coverage of ordered) {
+    rankOf.set(coverage, seen + 1);
+    seen += ALL.filter((e) => e.coverage === coverage).length;
+  }
+  return PROTECTION_BUFFER_LED.map((city) => {
+    const entry = ALL.find((e) => e.city.slug === city.slug);
+    return entry ? (rankOf.get(entry.coverage) ?? 0) : 0;
+  });
+})();
+
+/**
+ * Le cas d'école, dérivé plutôt que recopié : la ville la plus portée par un
+ * tampon, la surface de ce tampon dans son disque, et celle de la réserve
+ * qu'il entoure quand elle y tombe aussi. Les deux hubs le citent, et une
+ * prochaine passe de collecte déplacera les chiffres au lieu de les périmer.
+ */
+export const PROTECTION_BUFFER_EXAMPLE: {
+  city: CitySeed;
+  bufferHa: number;
+  reserveHa: number | null;
+} | null = (() => {
+  const city = PROTECTION_BUFFER_LED[0];
+  if (!city) return null;
+  const record = cityProtectedAreas(city.slug);
+  if (!record || !isMeasuredProtection(record)) return null;
+  const reserves = record.areas.filter((a) => a.kind === "reserve-naturelle");
+  const bufferHa = reserves.filter(isBufferPerimeter).reduce((a, b) => a + b.areaHa, 0);
+  const own = reserves.filter((a) => !isBufferPerimeter(a));
+  return {
+    city,
+    bufferHa: Math.round(bufferHa),
+    reserveHa: own.length ? Math.round(own.reduce((a, b) => a + b.areaHa, 0)) : null,
+  };
+})();
+
+/** Villes dont **tous** les polygones de réserve naturelle relevés sont des
+ *  tampons : la colonne « protection la plus forte » y annonce une réserve
+ *  naturelle là où il n'y a que son périmètre de protection. */
+export const PROTECTION_BUFFER_ONLY = ALL.filter((e) => {
+  const record = cityProtectedAreas(e.city.slug);
+  if (!record || !isMeasuredProtection(record)) return false;
+  const reserves = record.areas.filter((a) => a.kind === "reserve-naturelle");
+  return reserves.length > 0 && reserves.every(isBufferPerimeter);
 })
   .map((e) => e.city)
   .sort((a, b) => a.name.localeCompare(b.name, "fr"));

@@ -36,6 +36,7 @@ import {
   PROTECTION_KIND_COUNT,
   protectionLabel,
   inpnUrl,
+  isBufferPerimeter,
   isMeasuredProtection,
   type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
@@ -740,6 +741,7 @@ export default async function BiodiversityPage({ params }: Props) {
                         </div>
                         <div className="text-[11px] text-[var(--text-tertiary)]">
                           {protectionLabel(a.kind, "en")}
+                          {isBufferPerimeter(a) && " · buffer zone, not the reserve"}
                           {a.distanceKm > 0
                             ? ` · ${nb(a.distanceKm)} km away`
                             : " · the city centre sits inside it"}
@@ -756,6 +758,15 @@ export default async function BiodiversityPage({ params }: Props) {
                   );
                 })}
               </div>
+            )}
+            {measuredAreas.areas.some(isBufferPerimeter) && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                A <strong>périmètre de protection</strong> is not the reserve itself: it is the
+                buffer instituted around it so that neighbouring activity does not harm it. The
+                source publishes both in the same layer, so the coverage above counts them at the
+                same level — the strongest on the scale. Where the buffer is vast and the reserve
+                tiny, the figure is an upper bound.
+              </p>
             )}
             {measuredAreas.areasTruncated && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">

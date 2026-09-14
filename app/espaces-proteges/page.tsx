@@ -13,12 +13,18 @@ import {
 } from "@/lib/biodiversity";
 import {
   PROTECTION_ADHESION_ONLY,
+  PROTECTION_BUFFER_COUNT,
+  PROTECTION_BUFFER_EXAMPLE,
+  PROTECTION_BUFFER_LED,
+  PROTECTION_BUFFER_LED_RANKS,
+  PROTECTION_BUFFER_ONLY,
   PROTECTION_CRAWLED_AT,
   PROTECTION_KIND_LABEL_FR,
   PROTECTION_MEDIAN_COVERAGE,
   PROTECTION_NO_PERIMETER,
   PROTECTION_RANKED_COUNT,
   PROTECTION_ZERO_COUNT,
+  bufferShare,
   protectionRankingHead,
   rankByProtection,
   type ProtectionEntry,
@@ -49,10 +55,33 @@ function fmt(n: number): string {
   return n.toFixed(1).replace(".", ",");
 }
 
+/** Hectares avec l'espace fine insécable des milliers. */
+function fmtHa(n: number): string {
+  return n.toLocaleString("fr-FR");
+}
+
+/** « du Puy », « des Sables-d'Olonne », « de Digne-les-Bains ». */
+function deLaVille(name: string): string {
+  if (name.startsWith("Le ")) return `du ${name.slice(3)}`;
+  if (name.startsWith("Les ")) return `des ${name.slice(4)}`;
+  if (/^[AEIOUÀÂÉÈÊÎÏÔÖÛÜ]/.test(name)) return `d'${name}`;
+  return `de ${name}`;
+}
+
 /** Villes dont le seul polygone de parc national relevé est une aire d'adhésion :
  *  la colonne « protection la plus forte » le dit, plutôt que de laisser lire
  *  « parc national » là où il n'y a pas de cœur de parc. */
 const ADHESION_ONLY_SLUGS = new Set(PROTECTION_ADHESION_ONLY.map((c) => c.slug));
+
+/** Villes dont la couverture repose matériellement sur un périmètre de
+ *  protection — la zone tampon d'une réserve naturelle, pas la réserve. La
+ *  colonne « plus grand périmètre » le dit plutôt que de laisser lire un nom
+ *  qui commence par « Réserve Naturelle ». Voir PROTECTION_BUFFER_LED. */
+const BUFFER_LED_SLUGS = new Set(PROTECTION_BUFFER_LED.map((c) => c.slug));
+
+/** Villes dont tous les polygones de réserve naturelle relevés sont des
+ *  tampons : c'est la colonne « protection la plus forte » qui surestime. */
+const BUFFER_ONLY_SLUGS = new Set(PROTECTION_BUFFER_ONLY.map((c) => c.slug));
 
 function Row({ entry, rank, tied }: { entry: ProtectionEntry; rank: number; tied: boolean }) {
   return (
@@ -85,9 +114,19 @@ function Row({ entry, rank, tied }: { entry: ProtectionEntry; rank: number; tied
         {ADHESION_ONLY_SLUGS.has(entry.city.slug) && (
           <span className="block text-[10px] text-[var(--text-tertiary)]">aire d&apos;adhésion</span>
         )}
+        {BUFFER_ONLY_SLUGS.has(entry.city.slug) && (
+          <span className="block text-[10px] text-[var(--text-tertiary)]">
+            périmètre de protection
+          </span>
+        )}
       </td>
       <td className="px-3 py-2 text-[11px] text-[var(--text-tertiary)] hidden lg:table-cell">
         {entry.topArea ?? "—"}
+        {BUFFER_LED_SLUGS.has(entry.city.slug) && (
+          <span className="block text-[10px]">
+            zone tampon · {fmt(bufferShare(entry.city.slug))} % du disque
+          </span>
+        )}
       </td>
     </tr>
   );
@@ -347,6 +386,28 @@ export default function EspacesProtegesPage() {
                 .slice(0, 4)
                 .map((c) => c.name)
                 .join(", ")} en font partie. Leur couverture est donc un majorant.
+            </p>
+            <p>
+              <strong>
+                Et une réserve naturelle compte pareil que sa zone tampon — c&apos;est ce qui
+                porte la tête de ce classement.
+              </strong>{" "}
+              Autour d&apos;une réserve, le préfet peut instituer un{" "}
+              <em>périmètre de protection</em> pour que les activités alentour ne lui nuisent
+              pas. La source publie ce tampon dans la même couche que la réserve, donc au même
+              poids (1), alors que l&apos;écart d&apos;échelle est considérable :{" "}
+              {PROTECTION_BUFFER_EXAMPLE && PROTECTION_BUFFER_EXAMPLE.reserveHa != null
+                ? `dans le disque ${deLaVille(PROTECTION_BUFFER_EXAMPLE.city.name)}, le tampon pèse ${fmtHa(PROTECTION_BUFFER_EXAMPLE.bufferHa)} ha et la réserve qu'il entoure ${fmtHa(PROTECTION_BUFFER_EXAMPLE.reserveHa)} ha. `
+                : ""}
+              Sur les {PROTECTION_RANKED_COUNT} villes mesurées, {PROTECTION_BUFFER_COUNT}{" "}
+              portent un tel tampon et {PROTECTION_BUFFER_LED.length} seulement au point que
+              leur chiffre en dépende :{" "}
+              {`${PROTECTION_BUFFER_LED.map(
+                (c, i) => `${c.name} (rang ${PROTECTION_BUFFER_LED_RANKS[i]})`,
+              ).join(", ")}.`}{" "}
+              La colonne de droite le signale ville par ville. Nous le disons plutôt que de le
+              corriger : repondérer sur la foi d&apos;un nom réécrirait un classement publié à
+              partir d&apos;une expression régulière.
             </p>
             <p>
               <strong>Protégé ne veut pas dire accessible.</strong> Un périmètre dit ce

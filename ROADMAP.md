@@ -2190,7 +2190,7 @@ recensées à proximité, zones protégées.
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce ; **passe de troncature le 07/09** : la facette des observateurs, plafonnée à 2 000 sur **101 villes**, était publiée comme un décompte dans la prose et en `value` JSON-LD alors que le tableau de la même page affichait « 2 000+ » — corrigé des deux côtés, plus les insectes plafonnés de 12 villes et deux drapeaux que le collecteur calculait puis jetait. **la collecte a repris les 09-10/09** (180 lignes rejouées en `queryVersion` 3 sur 540, les 360 autres suivent) — c'est le `git push` du cron qui était cassé du 27/08 au 10/09, pas le cron ; **passe sur `topSpecies` le 10/09**, le champ que les deux sous-pages rendent en cartes : un **code de baguage publié comme nom d'espèce sur 522 des 540 pages EN** (1 281 cartes, `GRTI` sur 497, `C F` sur 430, `COST` sur 237, première carte de la section sur 180 pages, zéro côté FR — donc aussi une divergence entre jumelles hreflang) et un **casier « Animalia spec » publié comme l'espèce la plus observée de Saint-Laurent-du-Maroni** (rang 1, 1 058 obs. contre 58 à la deuxième ligne ; rang 2 à Cayenne) qu'aucun test de forme ne pouvait attraper — il a l'allure d'un binôme latin. `displayTopSpecies()` et `speciesDisplay()` deviennent les seuls accès autorisés, `selftest` 54 → 74 |
+| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce ; **passe de troncature le 07/09** : la facette des observateurs, plafonnée à 2 000 sur **101 villes**, était publiée comme un décompte dans la prose et en `value` JSON-LD alors que le tableau de la même page affichait « 2 000+ » — corrigé des deux côtés, plus les insectes plafonnés de 12 villes et deux drapeaux que le collecteur calculait puis jetait. **la collecte a repris les 09-10/09** (180 lignes rejouées en `queryVersion` 3 sur 540, les 360 autres suivent) — c'est le `git push` du cron qui était cassé du 27/08 au 10/09, pas le cron ; **passe sur `topSpecies` le 10/09**, le champ que les deux sous-pages rendent en cartes : un **code de baguage publié comme nom d'espèce sur 522 des 540 pages EN** (1 281 cartes, `GRTI` sur 497, `C F` sur 430, `COST` sur 237, première carte de la section sur 180 pages, zéro côté FR — donc aussi une divergence entre jumelles hreflang) et un **casier « Animalia spec » publié comme l'espèce la plus observée de Saint-Laurent-du-Maroni** (rang 1, 1 058 obs. contre 58 à la deuxième ligne ; rang 2 à Cayenne) qu'aucun test de forme ne pouvait attraper — il a l'allure d'un binôme latin. `displayTopSpecies()` et `speciesDisplay()` deviennent les seuls accès autorisés, `selftest` 54 → 74 ; **corpus GBIF intégralement en `queryVersion` 3 au 13/09** (540/540 relevées du 09 au 13/09 — reptiles comptés partout, zéro code de baguage restant) ; **passe zones protégées le 14/09** : un **périmètre de protection** (la zone tampon d'une réserve naturelle) sort de la même couche BD TOPO que la réserve et pèse donc **1,0** comme elle — 28 villes en portent un, **6 au point que leur chiffre en dépende, aux rangs 1, 3, 7, 11, 23 et 128**, Digne-les-Bains en tête avec 68 081 ha de tampon pour 75 ha de réserve dans le même disque. Signalé sur les deux hubs et les deux sous-pages ville, **jamais repondéré** (même arbitrage qu'à l'aire d'adhésion) ; `protected-areas:selftest` + 9 |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
 | F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 284 entrées** (BODACC 4 244 + CatNat 40). 536 villes affichent la section, 4 masquées. RNA toujours désactivé. ⚠️ **Le collecteur n'a pas repris depuis le 27/08** (12 jours) et le tell posé au run précédent est confirmé : les **180 lignes v1 du 04-05/08 n'ont jamais été servies** (34-35 jours), donc aucune troisième passe — les deux lots des 26-27/08 étaient une intervention manuelle, pas un cron rétabli. 177 villes étiquetées « relevé non repris ». **Défaut corrigé le 08/09, dans Géorisques — la seule des trois sources jamais relue** : l'ingest CatNat lisait **une page de 50 sans `sort`** d'une histoire GASPAR qui remonte à 1982, donc une commune à longue histoire pouvait ne rien renvoyer de récent et être publiée en « on a demandé et il n'y avait rien » — **502 villes nomment Géorisques en source sans lister d'arrêté**, contre 34 qui en listent un. `collectCatnat()` pagine désormais et s'arrête à la première page courte (complet quel que soit l'ordre de tri), budget 8×50 en fil-piège, échec gradué (page 1 lève, page 2+ garde et signale `truncated`), `QUERY_VERSION` = 3. Aucune surface ne lit `truncated` tant qu'un run réel ne l'a pas confirmé ; `news:stats` **nomme** les lectures courtes. `news:selftest` 60 → **73** |
 
@@ -2765,6 +2765,86 @@ l'alerte. **La prochaine passe le dira d'elle-même**, par e-mail — ou, en tro
 demande, par `scripts/local-data-runner.sh --status`, qui donne les trois couvertures, depuis quand
 chacune n'a pas bougé, la présence des couches INPN et celle d'`ogr2ogr`. Si le cron lui-même est
 décroché, rien de tout cela ne partira : c'est la première chose à vérifier (`crontab -l`).
+
+#### Point d'étape 2026-09-14 — la tête du classement national est portée par des zones tampons comptées comme des réserves
+
+**Le corpus GBIF est intégralement à jour, pour la première fois.** Les 540 lignes de
+`data/city-biodiversity.json` sont en `queryVersion` 3, relevées du **09 au 13/09** (120 par jour,
+puis 60) : le rejeu annoncé au point d'étape du 10/09 est **terminé**. Ce qui en découle et qui
+n'était vrai sur aucun run précédent : **les reptiles sont comptés sur les 540 villes** (aucun
+`groups.reptiles` absent, aucun zéro partout), **les 1 281 codes de baguage ont disparu du JSON**
+(mesuré : zéro entrée dont `vernacularEn` soit un code à quatre lettres, contre 522 pages EN
+touchées avant), et il ne reste que **56 entrées sur 6 480 sans nom anglais**, qui retombent sur le
+nom latin — l'affichage prévu. Les deux casiers « Animalia spec » de Cayenne et
+Saint-Laurent-du-Maroni sont toujours dans la donnée et toujours écartés à l'affichage par
+`displayTopSpecies()`, comme prévu. `biodiversity:selftest` et `biodiversity:stats` passent,
+540/540 mesurables, zéro ville sous le plancher d'effort.
+
+**Le run a donc porté sur la seule composante qui publie encore une note — les zones protégées — et
+sur le seul contrôle qu'elle n'avait jamais subi : d'où vient son chiffre.** La réponse est un
+défaut de la même famille que le couple cœur de parc / aire d'adhésion, déjà documenté depuis le
+26/08, mais celui-ci touche **le haut du classement** et n'était dit nulle part.
+
+**Le mécanisme.** Autour d'une réserve naturelle, le préfet peut instituer un **périmètre de
+protection** (art. L332-16 du code de l'environnement) : une zone tampon où l'activité est encadrée
+pour ne pas nuire à la réserve. La BD TOPO publie ce tampon **dans la même couche que la réserve**,
+donc l'ingest le type `reserve-naturelle` et le pondère **1,0**, le niveau le plus fort du barème —
+à égalité avec une réserve naturelle nationale. L'écart d'échelle est d'un autre ordre que celui de
+l'aire d'adhésion : dans le disque de 15 km de **Digne-les-Bains**, le périmètre de protection de la
+réserve géologique de Haute-Provence pèse **68 081 ha** et la réserve qu'il entoure **75 ha** — 908
+fois moins, à poids égal. À **Apt**, 39 344 ha contre 25 ha, soit 1 574 fois moins.
+
+**La mesure, sur les 540 villes.** 28 portent un tel tampon ; sur **6 seulement** il pèse au moins
+5 % du disque, et ces six occupent les rangs **1, 3, 7, 11, 23 et 128** : Digne-les-Bains (96,3 % du
+disque), Apt (55,7), Manosque (23,8), Gordes (21,2), Pertuis (14,7), Sisteron (11,4). Deux réserves
+géologiques les expliquent toutes — Haute-Provence et Luberon. Autrement dit **le premier et le
+troisième du classement national des espaces protégés doivent leur rang à un tampon**, et la page
+laissait lire un nom qui commence par « Réserve Naturelle ».
+
+⚠️ **Une corrélation qui ressemble au défaut du 31/08 mais n'en est pas une, à ne pas re-diagnostiquer
+comme telle.** Le rang de couverture protégée corrèle à **0,96** avec la part du disque tenue par le
+seul plus grand polygone — plus haut que le 0,86 qui a fait retirer le rang d'espaces verts. Ce
+n'est pas un symptôme ici : couvrir un disque, c'est par arithmétique être couvert surtout par le
+plus grand périmètre qui le chevauche. Le retrait du 31/08 tenait à un **mécanisme** (un parc à
+cheval compté en entier dans chaque commune), pas à la corrélation qui le corroborait. Les autres
+contrôles passés ce run ne montrent rien d'analogue : 55,2 % de la variance expliquée par le
+département (une géographie de la protection, pas un artefact), et **+0,25 seulement** avec la
+proximité du littoral — la crainte que le disque « mange de la mer » et gonfle les villes côtières
+par les sites Natura 2000 marins ne se vérifie pas.
+
+**Livré — on le dit, on ne le corrige pas.** Même arbitrage qu'à l'aire d'adhésion, et pour la même
+raison : repondérer sur la foi d'un nom réécrirait un classement publié à partir d'une expression
+régulière. `isBufferPerimeter()` (`lib/biodiversity.ts`) ; `bufferShare()`,
+`PROTECTION_BUFFER_LED`, `PROTECTION_BUFFER_ONLY`, `PROTECTION_BUFFER_COUNT`,
+`PROTECTION_BUFFER_LED_RANKS` et `PROTECTION_BUFFER_EXAMPLE` (`lib/protected-areas-ranking.ts`) —
+**rangs et chiffres dérivés, pas recopiés**, pour qu'une prochaine passe les déplace au lieu de les
+périmer. Surfaces : les deux hubs (`/espaces-proteges`, `/protected-areas`) marquent la colonne
+« plus grand périmètre » d'un « zone tampon · X % du disque » et portent un paragraphe de
+méthodologie à côté de celui de l'aire d'adhésion ; les deux sous-pages ville
+(`/villes/[slug]/biodiversite`, `/cities/[slug]/biodiversity`) écrivent « zone tampon, pas la
+réserve » sous le nom du périmètre et ajoutent une note quand la ville en porte un. Côté collecte,
+`protected-areas:stats` **nomme** les villes concernées (même doctrine qu'aux dix Saint-X du BODACC :
+un agrégat qui cache ses membres ne prévient personne) et `protected-areas:selftest` épingle la
+reconnaissance de nom sur les chaînes réelles du corpus **et sur les noms de réserve qu'elle ne doit
+pas avaler** — confondre la réserve avec son propre tampon serait le faux positif qui coûterait.
+
+🔧 **Corrigé au passage, côté EN** : le badge de l'aire d'adhésion s'affichait « buffer zone only »
+et le paragraphe correspondant s'intitulait « Park cores and buffer zones count the same ». Une aire
+d'adhésion est une **zone de charte**, pas un tampon ; garder ce mot pendant qu'un vrai tampon entre
+dans la même table aurait rendu les deux illisibles, et la jumelle FR disait déjà « aire
+d'adhésion ». Passés à « adhesion area only » / « Park cores and adhesion areas count the same ».
+
+**Ce qui n'est pas couvert.** `overall` reste `null` : deux composantes sur trois n'ont pas de rang
+publiable, et les deux tampons de Guyane faussent encore la raréfaction de Cayenne et de
+Saint-Laurent-du-Maroni (leur vecteur d'abondance est consommé à la collecte, il faut un recrawl qui
+écarte les casiers à la lecture de la facette). Le remède propre au défaut de ce run est **côté
+ingest** et pas ici : la BD TOPO distingue réserve et périmètre de protection par la couche
+d'origine, l'ingest les fusionne en une seule. Les séparer donnerait un poids propre au tampon et
+ferait bouger le classement pour de vrai — c'est une décision de barème, pas une passe d'honnêteté,
+et elle demande de refaire la calibration centile. Contrôles : `npx tsc --noEmit` propre,
+`npm run integrity`, `protected-areas:selftest` (+ 9 contrôles), `biodiversity:selftest`,
+`npm run parity` (code 0), `npm run hreflang:check`. `npm run build` **non lancé, volontairement**
+(cf. CLAUDE.md § Commands depuis le batch 27).
 
 #### Point d'étape 2026-09-10 — la collecte a repris, et elle a livré un code de baguage en guise de nom d'espèce sur 522 pages
 

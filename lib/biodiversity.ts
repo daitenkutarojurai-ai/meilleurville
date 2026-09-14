@@ -542,6 +542,32 @@ export interface ProtectedArea {
   distanceKm: number;
 }
 
+/**
+ * Le périmètre est-il un **périmètre de protection**, c'est-à-dire la zone
+ * tampon instituée *autour* d'une réserve naturelle, et non la réserve ?
+ *
+ * La BD TOPO publie les deux dans la même couche, donc l'ingest les type tous
+ * deux `reserve-naturelle` et les pondère tous deux **1,0**, le niveau le plus
+ * fort du barème. Sur le terrain ce n'est pas la même chose : la réserve porte
+ * une réglementation propre, le périmètre de protection est un régime tampon
+ * institué par le préfet pour que les activités alentour ne nuisent pas à la
+ * réserve (art. L332-16 du code de l'environnement). C'est le pendant exact du
+ * couple cœur de parc / aire d'adhésion, déjà signalé par
+ * `PROTECTION_ADHESION_ONLY`, et l'écart d'échelle y est bien plus grand : à
+ * Digne-les-Bains le tampon relevé pèse 68 081 ha dans le disque de 15 km
+ * quand la Réserve Naturelle Nationale Géologique de Haute Provence qu'il
+ * entoure y pèse 75 ha — 908 fois moins, à poids égal.
+ *
+ * ⚠️ La détection se fait sur le **nom**, faute d'attribut qui distingue les
+ * deux dans la source. C'est écrit ici pour que personne ne la prenne pour une
+ * donnée, et c'est aussi pourquoi elle ne change **aucun poids** : elle sert à
+ * dire au lecteur ce qu'il regarde, pas à réécrire le classement derrière son
+ * dos sur la foi d'une expression régulière. Voir `PROTECTION_BUFFER_LED`.
+ */
+export function isBufferPerimeter(area: ProtectedArea): boolean {
+  return area.kind === "reserve-naturelle" && /p[ée]rim[èe]tre de protection/i.test(area.name ?? "");
+}
+
 /** Territoire dans lequel la ville se trouve, tel que l'ingest le détermine
  *  depuis les coordonnées du seed. Les six sont disjoints. */
 export type ProtectionTerritory =

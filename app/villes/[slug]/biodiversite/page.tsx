@@ -37,6 +37,7 @@ import {
   PROTECTION_KIND_COUNT,
   protectionLabel,
   inpnUrl,
+  isBufferPerimeter,
   isMeasuredProtection,
   type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
@@ -812,6 +813,7 @@ export default async function BiodiversitePage({ params }: Props) {
                         </div>
                         <div className="text-[11px] text-[var(--text-tertiary)]">
                           {protectionLabel(a.kind)}
+                          {isBufferPerimeter(a) && " · zone tampon, pas la réserve"}
                           {a.distanceKm > 0
                             ? ` · à ${nb(a.distanceKm)} km`
                             : " · le centre-ville est dedans"}
@@ -828,6 +830,15 @@ export default async function BiodiversitePage({ params }: Props) {
                   );
                 })}
               </div>
+            )}
+            {measuredAreas.areas.some(isBufferPerimeter) && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                Un <strong>périmètre de protection</strong> n&apos;est pas la réserve : c&apos;est
+                la zone tampon instituée autour d&apos;elle pour que les activités voisines ne lui
+                nuisent pas. La source publie les deux dans la même couche, donc la couverture
+                ci-dessus les compte au même niveau — le plus fort du barème. Là où le tampon est
+                grand et la réserve minuscule, le chiffre est un majorant.
+              </p>
             )}
             {measuredAreas.areasTruncated && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">

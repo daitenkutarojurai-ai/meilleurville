@@ -3242,6 +3242,41 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     lien de fiche n'est affiché. Pour le rebrancher un jour, la BD TOPO porte le code MNHN dans
     `identifiants_sources`.
 
+  - **État au 2026-09-14 — le corpus GBIF est enfin tout entier à jour, et la tête du classement des
+    zones protégées repose sur des zones tampons comptées comme des réserves.** Les 540 lignes sont
+    en `queryVersion` 3, relevées du **09 au 13/09** : le rejeu du 10/09 est terminé, **les reptiles
+    sont comptés sur les 540 villes**, **les 1 281 codes de baguage ont disparu du JSON** (56 entrées
+    sur 6 480 restent sans nom anglais et retombent sur le latin, l'affichage prévu), et 540/540 sont
+    mesurables. Le run a donc porté sur **la seule composante qui publie encore une note**, les zones
+    protégées, et sur le contrôle qu'elle n'avait jamais subi : d'où vient son chiffre.
+    ⚠️ **Un `périmètre de protection` n'est pas la réserve** — c'est la zone tampon instituée autour
+    d'elle (art. L332-16 code env.). La BD TOPO le publie **dans la même couche**, donc l'ingest le
+    type `reserve-naturelle` et le pondère **1,0**, le niveau le plus fort, à égalité avec une
+    réserve naturelle nationale. Mesuré : **28 villes** en portent un, **6 au point que leur chiffre
+    en dépende** (≥ 5 % du disque), et ces six tiennent les rangs **1, 3, 7, 11, 23 et 128** —
+    Digne-les-Bains (96,3 % du disque), Apt (55,7), Manosque (23,8), Gordes (21,2), Pertuis (14,7),
+    Sisteron (11,4). À Digne le tampon pèse **68 081 ha** dans le disque et la réserve qu'il entoure
+    **75 ha**, 908 fois moins, à poids égal ; à Apt 39 344 contre 25.
+    ⚠️ **On le dit, on ne le repondère pas** — même arbitrage qu'au couple cœur de parc / aire
+    d'adhésion : la détection est un **nom**, et repondérer sur la foi d'un nom réécrirait un
+    classement publié à partir d'une expression régulière. `isBufferPerimeter()`
+    (`lib/biodiversity.ts`) ; `bufferShare()`, `PROTECTION_BUFFER_LED`, `PROTECTION_BUFFER_ONLY`,
+    `PROTECTION_BUFFER_COUNT`, `PROTECTION_BUFFER_LED_RANKS`, `PROTECTION_BUFFER_EXAMPLE`
+    (`lib/protected-areas-ranking.ts`) — **rangs et chiffres dérivés, pas recopiés**. Les deux hubs
+    et les deux sous-pages ville le signalent ; `protected-areas:stats` **nomme** les villes
+    concernées et `protected-areas:selftest` (+9) épingle la reconnaissance sur les chaînes réelles
+    **et sur les noms de réserve qu'elle ne doit pas avaler**.
+    ⚠️ **Une corrélation à ne pas re-diagnostiquer comme le défaut du 31/08** : le rang corrèle à
+    **0,96** avec la part du disque tenue par le plus grand polygone, plus haut que le 0,86 qui a
+    fait retirer le rang d'espaces verts — mais couvrir un disque, c'est par arithmétique être
+    couvert surtout par le plus grand périmètre qui le chevauche. Le retrait du 31/08 tenait à un
+    **mécanisme** (un parc à cheval compté en entier dans chaque commune), pas à sa corrélation. Les
+    autres contrôles ne montrent rien : 55,2 % de variance expliquée par le département, et
+    **+0,25 seulement** avec la proximité du littoral — le disque ne « mange » pas de mer au profit
+    des villes côtières. 🔧 Corrigé au passage côté EN : le badge de l'aire d'adhésion disait
+    « buffer zone only » alors qu'une aire d'adhésion est une **zone de charte**, pas un tampon
+    (→ « adhesion area only »). Non couvert : `overall` reste `null`, et la raréfaction des deux
+    villes de Guyane compte encore un casier « Animalia spec ».
   - **État au 2026-09-10 — la collecte a repris, et elle a livré un code de baguage en guise de nom
     d'espèce sur 522 pages EN.** Lignes du **09/09 (120 villes) et du 10/09 (60)** : le rejeu en
     `queryVersion` 3 a commencé, **180/540** sont à jour, 6 423 entrées sur 6 480 portent enfin un nom
