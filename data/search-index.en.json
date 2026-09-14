@@ -7817,6 +7817,56 @@
       "slug": "solo-travel-in-saint-pierre-reunion-2026",
       "title": "Solo travel in Saint-Pierre de La Réunion: leeward coast, southern winter, no train",
       "emoji": "🍸"
+    },
+    {
+      "slug": "single-parent-in-chatellerault-2026",
+      "title": "Single parent in Châtellerault (2026): the lowest entry floor of the 6.5 band",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-dizier-2026",
+      "title": "Single parent in Saint-Dizier (2026): €65,000 for 65 square metres, in a town that is emptying",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-charleville-mezieres-2026",
+      "title": "Single parent in Charleville-Mézières (2026): the best cost axis in the ranking is not purchasing power",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-castres-2026",
+      "title": "Single parent in Castres (2026): €106 a school point, and the only province town in the batch that is growing",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-montbeliard-2026",
+      "title": "Single parent in Montbéliard (2026): an even profile whose floor is safety",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-abbeville-2026",
+      "title": "Single parent in Abbeville (2026): the best cost axis of the batch, and yet the highest rent",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saumur-2026",
+      "title": "Single parent in Saumur (2026): the best safety mark of the band, and the highest local income of the eight",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-villeneuve-sur-lot-2026",
+      "title": "Single parent in Villeneuve-sur-Lot (2026): transport 4.2/10 and 37 per cent aged 60 or over",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-issy-les-moulineaux-2026",
+      "title": "Single parent in Issy-les-Moulineaux (2026): transport 9, schools 9, cost 2.2",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-levallois-perret-2026",
+      "title": "Single parent in Levallois-Perret (2026): the same mark as Châtellerault, for almost three times the income",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -7833,27 +7883,27 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 169
+      "count": 179
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 116
+      "count": 126
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 86
+      "count": 96
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 57
+      "count": 59
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 57
+      "count": 58
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -7873,7 +7923,12 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 50
+      "count": 52
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 43
     },
     {
       "slug": "single-supplement",
@@ -7891,19 +7946,14 @@
       "count": 43
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 42
-    },
-    {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 38
+      "count": 40
     },
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 36
+      "count": 37
     },
     {
       "slug": "working-in-france",
@@ -7988,7 +8038,7 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "centre-val-de-loire",
