@@ -2477,8 +2477,52 @@ Un thème = une entrée de `RED_FLAG_THEMES` (slug, titre, meta, `intro` / `real
 les deux de la liste, il n'y a donc rien d'autre à câbler ; l'EN est une **sélection à part**
 (`EN_THEMES` dans `app/[locale]/red-flags/themes/[slug]/page.tsx`, qui réutilise le `rank()` FR via
 `frSlug`) — un thème FR sans jumelle EN est normal et ne demande pas de hreflang. **Compteurs
-mesurés (`grep -c '^    slug: "'` et `ls app/red-flags | grep -c villes-`) : 38 thèmes, 38 dossiers**
-(2026-09-04). Dernier ajouté : **`villes-prix-au-m2-trompeur`** — le seul classement du fichier qui
+mesurés (`grep -c '^    slug: "'` et `ls app/red-flags | grep -c villes-`) : 39 thèmes, 39 dossiers**
+(2026-09-14). Dernier ajouté : **`villes-sans-enfants`** — troisième thème du fichier bâti sur une
+**mesure publiée et aucun score**, après `villes-qui-se-vident` et les deux thèmes DVF. L'indicateur
+est le nombre de résidents de 60 ans et plus par résident de moins de 15 ans, pris dans les tranches
+d'âge que l'Insee publie à la commune (`lib/city-population.ts`, 538/540). Médiane des 472 villes de
+plus de 10 000 habitants : **1,50**, les moins de 15 ans y pesant **16,9 %**. **28 communes dépassent
+3,00**, Arcachon ouvrant à **9,14** (720 enfants pour 6 586 habitants de 60 ans et plus, soit 60,4 %
+de la population au-dessus de 60 ans et 6,6 % en dessous de 15), devant Royan 7,03, Dinard 5,83,
+La Baule 5,15 et Granville 4,96.
+⚠️ **Le résultat contredit la lecture réflexe, et c'est tout l'intérêt du thème : ce ne sont pas des
+villes pauvres en déclin, ce sont des stations.** Mesuré : les 28 publiées ont un niveau de vie médian
+de **23 490 €** contre **21 410 €** pour le corpus, et un loyer T3 médian de **1 050 €** contre
+**950 €** — plus riches et plus chères que la moyenne. Trois géographies : 21 des 28 sont à moins de
+15 km de la mer ouverte (pauvreté basse : 9 % aux Sables-d'Olonne, 12 % à Arcachon et Dinard) ; les
+villes d'eaux et de soins (Vichy 3,89, Lourdes 3,66, Dax 3,05) portent le **même rapport par un
+mécanisme inverse**, avec 23 % de pauvreté à Vichy et à Lourdes ; puis quelques villes moyennes de
+l'Ouest intérieur (Fontenay-le-Comte, Saintes, Dinan, Bergerac). Le miroir est publié tel quel : les
+communes les plus jeunes du corpus sont Saint-Laurent-du-Maroni (0,13 senior par enfant, 41,7 % de
+moins de 15 ans), Cayenne, Stains, Creil, Cergy et Trappes.
+⚠️ **Trois points de méthode à ne pas défaire.** ① **Les tranches d'âge n'existent que pour le
+millésime 2022**, là où les populations totales en portent trois : le thème publie un **état, jamais
+une tendance**, et aucune phrase ne doit laisser croire qu'il mesure une baisse de la cohorte
+d'enfants — c'est la différence de fond avec `villes-qui-se-vident`. ② Le recensement compte des
+**résidents** : en villégiature une part du parc est en résidence secondaire et les ménages jeunes
+habitent la commune voisine, moins chère, donc l'aire alentour peut être plus jeune que la commune
+(même réserve qu'au thème précédent). ③ Le repère « part des moins de 15 ans » est **calculé au
+chargement, pas écrit en dur**, pour suivre le fichier de recensement. Recouvrements mesurés avant
+écriture, tous bas : **2/28** avec `villes-vieillissement-critique` (qui classe un score composite et
+mesure la *charge* d'une population âgée), **0/28** avec `villes-fuite-jeunes-actifs`, **0/28** avec
+`villes-manque-de-creches`, et 5 des 9 villes de `villes-mono-touristiques` s'y retrouvent par une
+autre porte (une **économie** saisonnière là, une **démographie** ici).
+⚠️ **Une erreur rattrapée en cours de run, du genre que rien n'automatise** : la part médiane des
+moins de 15 ans avait d'abord été lue à 17,7 % en prenant le `kidShare` de la ville médiane *par
+rapport seniors/enfants* au lieu de la médiane des parts. La vraie valeur est **16,9 %**. Le calcul
+au chargement l'a démentie à la première exécution — **une médiane se prend sur le tableau trié par
+la grandeur qu'on médiane, pas sur la ligne du milieu d'un autre tri.**
+⚠️ Une **piste écartée ce run et à ne pas re-proposer en l'état** : classer la **liquidité du marché**
+(ventes DVF par millier d'habitants). Mesurée, elle donne un bas de classement composé des DROM et des
+communes à fort parc social de Seine-Saint-Denis et du Val-d'Oise (La Courneuve 5,5 ‰, Gennevilliers
+5,6 ‰) et un haut composé de stations (Agde 124,5 ‰, Arcachon 78,9 ‰). L'indicateur mesure d'abord la
+**part de parc privé en accession**, pas la facilité de revente, et nous n'avons pas la structure
+d'occupation qui permettrait de corriger — publier « on y revend difficilement » sur La Courneuve
+serait une affirmation que nos données ne portent pas. Corrélation avec le taux de pauvreté −0,19
+seulement, ce qui ne suffit pas à disculper la mesure : c'est le mécanisme, pas la corrélation, qui
+la disqualifie.
+Avant-dernier ajouté : **`villes-prix-au-m2-trompeur`** — le seul classement du fichier qui
 ne mesure pas la ville mais **le chiffre qu'on publie sur elle**, celui de ce site compris.
 L'indicateur est l'écart interquartile relatif des prix d'appartement DVF (p75 ÷ p25, millésimes
 2024-2025, `lib/property-prices.ts`) : sur les 433 villes où le calcul est possible, la médiane est
@@ -2508,7 +2552,7 @@ foncier (Bas-Rhin, Haut-Rhin, Moselle) et Mayotte sont hors source, 15 sous le s
 les 100 ventes. Aucune égalité exacte sur le corpus éligible, le tri porte sur la valeur non
 arrondie. Distinct de `villes-achat-hors-de-portee`, qui rapporte la **médiane** au revenu local :
 là on demande si la ville est achetable, ici si son prix affiché veut dire quelque chose — Montluçon
-est les deux. Avant-dernier ajouté : **`villes-achat-hors-de-portee`** — le premier classement du site à
+est les deux. Ajouté avant lui : **`villes-achat-hors-de-portee`** — le premier classement du site à
 confronter **deux mesures publiées et aucun score** : la médiane DVF des prix d'appartement
 (`lib/property-prices.ts`, millésimes 2024-2025) rapportée au niveau de vie médian communal
 (`lib/city-income.ts`, Filosofi 2021). Publié en **années de revenu disponible pour 65 m²** : sur les

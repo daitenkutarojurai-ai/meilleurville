@@ -1,6 +1,6 @@
 // F4 — Red Flag thématiques.
 //
-// 37 thèmes éditoriaux (regrets d'achat, sans voiture difficile, belles mais
+// 39 thèmes éditoriaux (regrets d'achat, sans voiture difficile, belles mais
 // invivables l'été, air irrespirable l'hiver…). Chaque thème expose une
 // fonction `rank()` qui retourne les villes triées par "gravité" sur ce
 // thème, avec un score 0-10 et une raison citable.
@@ -11,7 +11,7 @@
 // doit donc énoncer les deux sens (cf. la légende de `RedFlagThemePage` et de
 // sa jumelle EN) et ne jamais nourrir `scoreColor` avec `severity` : la couleur
 // passe par la palette par niveau `severityColor` (rouge en haut).
-// Les 36 `rank()` trient sans exception par `severity` décroissante, donc #1
+// Les 39 `rank()` trient sans exception par `severity` décroissante, donc #1
 // est toujours la ville la plus concernée.
 //
 // ⚠️ Un `rank()` peut légitimement lire un moteur à convention **inverse**
@@ -2265,6 +2265,104 @@ function rankPrixM2Trompeur(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity);
 }
 
+// --- THEME 39 — Villes où les enfants sont devenus rares ---
+//
+// Troisième thème du fichier bâti sur une **mesure publiée et aucun score**,
+// après `villes-qui-se-vident` (populations municipales) et le couple
+// `villes-achat-hors-de-portee` / `villes-prix-au-m2-trompeur` (DVF). La
+// source est ici la structure par âge réelle du recensement, publiée à la
+// commune par l'Insee et lue via `lib/city-population.ts` (538 des 540 villes
+// du site ; manquent Mamoudzou, hors du fichier « France hors Mayotte », et
+// Pierrefitte-sur-Seine, fusionnée dans Saint-Denis en 2025).
+//
+// L'indicateur est un rapport entre deux effectifs comptés, pas une note :
+// combien d'habitants de 60 ans et plus la commune compte pour un habitant de
+// moins de 15 ans. Médiane du corpus des villes d'au moins 10 000 habitants :
+// 1,50. Vingt-huit communes dépassent 3,00, et Arcachon atteint 9,14.
+//
+// ⚠️ **Le résultat contredit la lecture réflexe, et c'est l'intérêt du thème.**
+// On attend la France industrielle en recul ; on trouve les stations. Les 28
+// communes publiées ont un niveau de vie médian **supérieur** à celui du
+// corpus (23 490 € contre 21 410 €) et un loyer T3 médian supérieur aussi
+// (1 050 € contre 950 €). Ne pas récrire ce classement comme un classement de
+// villes pauvres : il n'en est pas un.
+//
+// ⚠️ **Les tranches d'âge n'existent que pour le millésime 2022** dans notre
+// fichier, là où les populations totales en portent trois (2011, 2016, 2022).
+// Ce thème publie donc un **état**, jamais une tendance : il ne peut pas dire
+// si la cohorte d'enfants se réduit ou se stabilise, et aucune phrase de la
+// page ne doit le laisser entendre. C'est la différence de fond avec
+// `villes-qui-se-vident`, qui mesure une évolution.
+//
+// ⚠️ Le recensement compte des **résidents**. Dans les communes de villégiature
+// une part du parc est en résidence secondaire, et les ménages jeunes habitent
+// souvent la commune voisine, moins chère. La structure publiée est celle de la
+// commune et elle est exacte ; l'aire alentour peut être plus jeune. Même
+// réserve que dans `villes-qui-se-vident`, et pour la même raison.
+//
+// Distinct de `villes-vieillissement-critique`, qui classe le score composite
+// de `lib/demography.ts` et mesure la charge que représente une population
+// âgée (recouvrement mesuré : 2 villes sur les 28). Distinct de
+// `villes-fuite-jeunes-actifs` (0 sur 28) et de `villes-mono-touristiques`,
+// qui classe une **économie** saisonnière quand celui-ci classe une
+// **démographie** (5 des 9 villes publiées là s'y retrouvent, par une autre
+// porte). Distinct enfin de `villes-manque-de-creches`, qui mesure une offre
+// d'accueil et non un effectif d'enfants (0 sur 28).
+const MIN_SENIORS_PER_CHILD = 3.0;
+const MAX_SENIORS_PER_CHILD = 8.0; // 10/10 : huit seniors pour un enfant
+const MIN_POP_FOR_AGE_RATIO = 10_000;
+
+function seniorsPerChild(slug: string): { ratio: number; kids: number; seniors: number; pop: number } | null {
+  const p = cityPopulation(slug);
+  if (!p?.ages || p.pop2022 <= 0) return null;
+  const { a0014, a6074, a7589, a90p } = p.ages;
+  if (!a0014) return null;
+  const seniors = a6074 + a7589 + a90p;
+  return { ratio: seniors / a0014, kids: a0014, seniors, pop: p.pop2022 };
+}
+
+function rankVillesSansEnfants(): RedFlagRow[] {
+  // Part des moins de 15 ans dans les villes d'au moins 10 000 habitants, à
+  // laquelle chaque ligne se compare. Calculée et non écrite en dur : le
+  // repère doit suivre le fichier de recensement, pas une mesure d'un run.
+  const shares: number[] = [];
+  for (const city of CITIES_SEED) {
+    const m = seniorsPerChild(city.slug);
+    if (m && m.pop >= MIN_POP_FOR_AGE_RATIO) shares.push((m.kids / m.pop) * 100);
+  }
+  shares.sort((a, b) => a - b);
+  const medianShare = shares[Math.floor(shares.length / 2)];
+
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const m = seniorsPerChild(city.slug);
+    if (!m) continue;
+    if (m.pop < MIN_POP_FOR_AGE_RATIO) continue;
+    if (m.ratio < MIN_SENIORS_PER_CHILD) continue;
+
+    // Le seuil d'entrée EST le plancher de gravité, comme pour les deux
+    // thèmes DVF : toute ville publiée ici compte au moins trois seniors par
+    // enfant. La pente porte ensuite jusqu'à 10/10 à huit pour un.
+    const severity = Math.min(
+      10,
+      8 +
+        ((m.ratio - MIN_SENIORS_PER_CHILD) * 2) /
+          (MAX_SENIORS_PER_CHILD - MIN_SENIORS_PER_CHILD),
+    );
+
+    const one = (v: number) =>
+      v.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const n = (v: number) => Math.round(v).toLocaleString("fr-FR");
+    const kidShare = (m.kids / m.pop) * 100;
+    const reason = `${one(m.ratio)} habitants de 60 ans et plus pour un enfant de moins de 15 ans · ${n(m.kids)} enfants face à ${n(m.seniors)} seniors · les moins de 15 ans font ${one(kidShare)} % de la population, contre ${one(medianShare)} % en médiane dans les villes de plus de 10 000 habitants`;
+    // Tri sur la valeur non arrondie. Aucune égalité exacte sur le corpus
+    // éligible, mais Fontenay-le-Comte (3,2013) et Anglet (3,1968) affichent
+    // le même 3,20 sans être à égalité.
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -2835,6 +2933,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Indicateur = p75 ÷ p25 des prix au m² d'appartement, publié en pourcentage d'écart (rapport − 1). Severity = 8 + 4 × (rapport − 1,75), plafonnée à 10/10 : le seuil de publication est le plancher de gravité, et un rapport de 2,25 vaut 10. Source : DGFiP, Demandes de valeurs foncières (DVF géolocalisé, Etalab, Licence Ouverte 2.0), millésimes 2024 et 2025, via `lib/property-prices.ts`. Ce sont des quantiles de transactions enregistrées, pas des estimations d'agence, et le périmètre est celui de la commune. Filtres : quartiles d'appartement publiés et au moins 100 ventes d'appartement sur la fenêtre — cinq fois le seuil de publication de DVF, parce qu'un quartile demande plus d'observations qu'une médiane — puis rapport ≥ 1,75. 433 des 540 villes du site réunissent ces conditions. Sont écartées : 25 communes relevant du livre foncier (Bas-Rhin, Haut-Rhin, Moselle), absentes de DVF et dont rien ne viendra, Mayotte qui n'est pas dans la source, 15 villes sous le seuil de publication de DVF et 66 sous les 100 ventes exigées ici. Le tri porte sur la valeur non arrondie ; aucune égalité exacte n'existe sur le corpus éligible, mais deux villes peuvent afficher le même pourcentage arrondi sans être à égalité. Trois vérifications ont précédé la publication, parce qu'un indicateur de dispersion est d'abord suspect d'être un artefact d'échantillon. La dispersion médiane ne varie pas avec l'effectif : 1,49 sur les communes de 100 à 200 ventes, 1,46 de 200 à 400, 1,50 de 400 à 800, 1,50 de 800 à 2 000 et 1,54 au-delà de 2 000 — un artefact produirait l'inverse, du bruit en bas et du lissage en haut. La corrélation de rang avec le nombre de ventes vaut 0,05 et avec la population 0,01, donc l'indicateur ne mesure ni la taille de la ville ni l'intensité de son marché. Et p25 comme p75 sont des quantiles, insensibles aux valeurs extrêmes qui déformeraient une moyenne ou un écart-type. Quatre limites à connaître. Le rapport est communal alors que le phénomène est infra-communal par définition : il signale qu'il faut descendre à l'échelle du quartier, il ne dit pas lequel est cher — pour cela, voir la page quartiers de la ville et sa page logement, qui publie les quartiles par type de bien. Il ne porte que sur les appartements, parce que le prix d'une maison inclut son terrain et ses dépendances et disperse pour des raisons qui ne sont pas celles du bâti ; la corrélation entre les deux dispersions n'est d'ailleurs que de 0,30, et l'écart appartement contre maison à Aulnay-sous-Bois (1,93 contre 1,43) ou à Chenôve (2,03 contre 1,42) montre que le phénomène tient surtout aux copropriétés. DVF ne retient ici que les mutations portant un seul logement, ce qui exclut les ventes en bloc et une partie du neuf en VEFA : dans une commune en fort renouvellement, le haut de la distribution est sous-représenté et l'écart réel est donc plutôt supérieur à celui publié. Enfin la dispersion décrit un marché, pas un risque : elle n'annonce ni moins-value ni difficulté de revente, et plusieurs villes du classement sont parmi les plus recherchées de France.",
     rank: rankPrixM2Trompeur,
+  },
+  {
+    slug: "villes-sans-enfants",
+    title: "Villes où les enfants sont devenus rares",
+    metaTitle: "Villes où les enfants sont rares — classement 2026",
+    metaDescription:
+      "Classement 2026 des villes comptant le plus de seniors par enfant (recensement Insee 2022) : jusqu'à 9,1 habitants de 60 ans et plus pour un moins de 15 ans.",
+    emoji: "🧸",
+    intro:
+      "On y vient d'abord en août, et en août la démonstration est imparable : la plage est pleine d'enfants, le manège tourne, il y a la queue devant le marchand de glaces et le club de voile affiche complet. On rentre avec l'idée que c'est un endroit où élever les siens. Ce que le mois d'août ne montre pas, c'est qui habite là le reste de l'année. Les enfants de la plage sont ceux des vacanciers, et ils repartent le 31. En novembre, la même commune compte parfois neuf habitants de soixante ans et plus pour un enfant de moins de quinze. Cela ne se voit toujours pas en visitant : les rues sont belles, les commerces ouverts, la ville est calme et bien tenue, souvent mieux tenue que celle qu'on quitte. Cela se découvre plus tard, au moment de trouver un camarade pour l'anniversaire, une place au club de foot qui n'a plus assez de licenciés pour aligner une équipe dans sa catégorie, ou un remplaçant au pédiatre qui part à la retraite.",
+    reality:
+      "Ce classement ne repose sur aucun score : il compte des habitants par tranche d'âge. L'indicateur est le nombre de résidents de 60 ans et plus rapporté au nombre de résidents de moins de 15 ans, tel que l'Insee les publie commune par commune au recensement. Sur les 472 villes du site qui dépassent 10 000 habitants, ce rapport vaut 1,50 en médiane, et les moins de 15 ans y représentent 16,9 % de la population. Vingt-huit communes dépassent trois seniors par enfant, et ce sont elles que le classement retient. Arcachon ouvre à 9,14, un chiffre que rien n'approche : 720 enfants de moins de 15 ans pour 6 586 habitants de 60 ans et plus, une population dont 60,4 % a franchi la soixantaine et 6,6 % n'a pas quinze ans. Suivent Royan à 7,03, Dinard à 5,83, La Baule-Escoublac à 5,15 et Granville à 4,96. Il faut résister à la lecture réflexe, celle qui rangerait ces villes parmi les territoires en déshérence : elle est fausse, et de façon mesurable. Le niveau de vie médian de ces 28 communes s'établit à 23 490 €, au-dessus des 21 410 € du corpus, et leur loyer T3 médian à 1 050 € contre 950 €. Ce sont, en moyenne, des villes plus riches et plus chères que les autres. Trois géographies s'y croisent. La première, très majoritaire, est celle des stations du littoral : 21 des 28 communes sont à moins de quinze kilomètres de la mer ouverte, d'Arcachon à Saint-Malo en passant par Biarritz, Les Sables-d'Olonne, Saint-Raphaël, Sète, Agde et Concarneau. Leurs taux de pauvreté sont bas, 9 % aux Sables-d'Olonne, 12 % à Arcachon et à Dinard, 13 % à Biarritz : la retraite y est arrivée avec des moyens. La deuxième est celle des villes d'eaux et de soins, Vichy à 3,89, Lourdes à 3,66, Dax à 3,05, où l'économie est bâtie autour de curistes et de pèlerins, et où le taux de pauvreté est au contraire élevé, 23 % à Vichy comme à Lourdes, 20 % à Dax. Le même rapport y recouvre donc un mécanisme différent, et nos données constatent cet écart sans établir sa cause. La troisième réunit quelques villes moyennes de l'intérieur de l'Ouest, Fontenay-le-Comte, Saintes, Dinan, Bergerac. Le miroir de ce classement est instructif, et il est dérangeant. Les communes les plus jeunes du corpus sont Saint-Laurent-du-Maroni, où l'on compte 0,13 senior par enfant et où 41,7 % des habitants ont moins de 15 ans, puis Cayenne, Stains, Creil, Cergy et Trappes. Plusieurs figurent ailleurs dans ce Red Flag Radar, pour la pauvreté ou le chômage. Les enfants de France et les villes calmes, chères et bien notées de France habitent très largement des communes différentes, et ce constat n'accuse personne : il décrit une géographie. Compter peu d'enfants n'est pas un défaut, et plusieurs villes de cette liste sont parmi les plus agréables du site. C'est un fait qui change trois calculs pour un ménage qui arrive avec des enfants : celui du groupe d'âge que les siens trouveront sur place, celui des arbitrages que la commune fera entre une classe et un service aux aînés, et celui de la revente, puisqu'une maison familiale s'y vendra le plus souvent à des retraités ou à des acheteurs de résidence secondaire, c'est-à-dire sur un autre marché que celui où on l'a achetée.",
+    methodology:
+      "Indicateur = (60-74 ans + 75-89 ans + 90 ans et plus) ÷ (0-14 ans). Severity = 8 + 0,4 × (rapport − 3), plafonnée à 10/10 : le seuil de publication est le plancher de gravité, et huit seniors pour un enfant valent 10. Une seule ville atteint le plafond, Arcachon. Source : Insee, recensement de la population, base « Évolution et structure de la population en 2022 », tranches d'âge publiées à la commune, exploitées via `lib/city-population.ts` (538 des 540 villes du site ; manquent Mamoudzou, hors du fichier France hors Mayotte, et Pierrefitte-sur-Seine, fusionnée dans Saint-Denis en 2025). Revenus : Insee, Filosofi 2021, via `lib/city-income.ts`. Loyers : `data/housing.ts`. Distances au littoral : `lib/city-coast.ts`, qui mesure la distance à la mer ouverte et non à un plan d'eau. Filtres : population municipale 2022 d'au moins 10 000 habitants, ce qui ramène le corpus de 538 à 472 villes, puis rapport ≥ 3,00. La coupure ne tombe pas au milieu d'un palier : sous Dax, dernière publiée à 3,055, vient Tulle à 2,955. Le tri porte sur la valeur non arrondie, et aucune égalité exacte n'existe sur le corpus éligible, mais Fontenay-le-Comte et Anglet affichent tous deux 3,20 sans être à égalité, à 3,2013 contre 3,1968. Quatre limites à connaître avant d'en tirer une conclusion. La première est la plus importante : les tranches d'âge n'existent que pour le millésime 2022 dans notre fichier, là où les populations totales en portent trois. Ce classement publie donc un état et non une tendance. Il ne dit pas si la cohorte d'enfants se réduit, se stabilise ou remonte, et seul un millésime supplémentaire le dirait. Deuxièmement, le recensement compte la population résidente : dans les communes de villégiature une part importante du parc est en résidence secondaire, et les ménages jeunes habitent souvent la commune voisine, moins chère. La structure publiée est bien celle de la commune, mais l'aire alentour peut être nettement plus jeune, et le bassin scolaire ne s'arrête pas à la limite communale. Troisièmement, le rapport ne dit rien de la qualité ni de la capacité des établissements présents, qui relèvent de la page écoles de chaque ville, ni de l'offre d'accueil des jeunes enfants, traitée par les villes où les crèches manquent. Enfin deux mécanismes très différents produisent ici le même nombre, une économie de villégiature qui attire des retraités aisés et une économie de soins qui attire une population âgée plus modeste ; les taux de pauvreté les distinguent, 12 % à Arcachon contre 23 % à Vichy, mais nos données constatent l'écart sans en établir la cause. Pour la trajectoire démographique complète d'une ville, ses sept tranches d'âge et son évolution depuis 2011, voir sa page démographie.",
+    rank: rankVillesSansEnfants,
   },
 ];
 
