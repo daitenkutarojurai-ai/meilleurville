@@ -4117,6 +4117,127 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 15/09 — `moving-to-[city]-2026` batch 2 (+8), la série portée de 8/50 à 16/50
+
+`npm run parity` en **code 0** en début et en fin de run (FR 221 · EN 166, 0 route FR sans
+jumelle) : la parité de **routes** tient, le run porte donc sur l'écart de **corpus**. Les
+sitemaps en ligne étant injoignables depuis la routine (403 CONNECT sur les deux domaines,
+comme prévu), l'écart par section a été mesuré **hors ligne en exécutant `app/sitemap.ts`
+dans les deux locales** : FR 29 232 URL contre EN 28 817 avant ce run. Deux sections
+portent la quasi-totalité de l'écart, **guides 1 137 / 932** et **tags 269 / 115**, et la
+seconde est dérivée de la première (une page de tag naît à 3 guides). Le reste est soit à
+parité, soit une asymétrie déjà assumée (`/badge` ×541 FR-only, `/pour-qui` 37 contre une
+sélection EN de 13 profils).
+
+**Le lot honore la consigne laissée par le batch du 09/09** : continuer `moving-to-[city]`
+par matière réelle. **Villes** : Nantes, Montpellier, Rennes, Grenoble, Toulon, Rouen,
+Angers, Dijon — les huit nommées ce jour-là, toutes pourvues de leur jumelle FR
+`demenager-a-[ville]-2026`. La série passe de **8 à 16 sur 50**.
+
+⚠️ **Le diff naïf par série surestime encore l'écart de corpus, et ce run l'a remesuré
+plutôt que recopié.** Un diff par préfixe donne des trous spectaculaires qui n'en sont pas :
+`universites-` 15 FR / 0 EN est couvert par **`studying-in-[city]` (24 EN)**, qui fusionne
+les séries FR `etudiant-a-` et `universites-` ; `vivre-en-/dans-` 76 FR / 45 EN
+`living-in-` est couvert à la sous-région près par des slugs EN d'un autre gabarit
+(`reims-champagne-living-expat-guide`, `vannes-morbihan-coast-living-expat`,
+`occitanie-rural-lot-aveyron-tarn-expat-guide`, `french-riviera-cote-dazur-living`). **Cinq
+régions candidates — Champagne, Morbihan, Riviera, Lot-Aveyron-Tarn, Normandie — ont été
+écartées pour cette raison avant d'écrire une ligne** : les livrer aurait refabriqué la
+cannibalisation que les trois passes de déduplication du 04/06 ont nettoyée. Ne pas les
+re-proposer sur la foi d'un `comm` sur les préfixes.
+
+**Compteurs mesurés** : `EN_GUIDES` 925 → **933**. `metaTitle` 49-53, `metaDesc` 145-153,
+8 sections par guide (la jumelle FR en compte 6), 1 256 à 1 331 mots. **0 em-dash** dans
+les intros et les corps ; les 8 du bloc inséré sont les séparateurs de `metaTitle`, gardés
+comme partout dans le corpus (cible R7.10 tenue).
+
+**Aucun tag neuf** : les 8 réutilisent `moving to france` (179 guides), le tag de ville, le
+tag de région et `relocation` / `cost of living`, tous largement au-dessus du seuil de 3.
+`search-index.en.json` reste à **114 tags**, donc aucune page `/tags/` créée, et
+`sitemap:check` confirme EN 28 817 → **28 825 URL**, soit exactement les 8 guides neufs
+(FR inchangé à 29 232).
+
+⚠️ **Le fait le plus utile du batch est un piège de calendrier, du genre du festival de
+cerf-volant de Dieppe (batch 36) et du musée de Vernon (batch 38) : la carte des traversées
+transmanche change en 2026.** Brittany Ferries **ferme sa ligne Portsmouth-Le Havre en
+octobre 2026**, Portsmouth-Caen restant l'équivalent le plus proche pour la Normandie et
+**Newhaven-Dieppe** (DFDS) la liaison la plus proche de Rouen. Un guide EN qui écrit
+« ferry Portsmouth-Le Havre » pour un déménagement en van depuis l'Angleterre envoie son
+lecteur sur une ligne qui n'existera plus — c'est exactement le lecteur que cette section
+vise. Les guides Rouen et Rennes le disent, **avec la consigne de vérifier la ligne visée
+plutôt que de réserver sur la carte de l'an dernier**. Vérifié en ligne avant rédaction.
+
+**Contrôle de figures** : chaque suite de chiffres du texte EN cherchée dans la jumelle FR
+`demenager-a-[ville]-2026`, séparateurs normalisés — **167 figures, 144 retrouvées**. Les
+23 restantes sont toutes explicables et **ne doivent pas être « corrigées »** au prochain
+run : `10070` ×8 est le numéro de cerfa de la franchise de déménagement, ajout EN délibéré
+de toute la série ; `2026` ×2 (Rennes, Rouen) est l'année de fermeture de la ligne
+Portsmouth-Le Havre, vérifiée en ligne ; `1100` et `55 / 61 / 67 / 77` (Toulon) sont le
+loyer T2 de Nice lu dans `data/housing.ts` et les scores transport **rendus** de Toulon,
+Marseille, Nice et Montpellier lus dans `CITIES_SEED` par le module ; `1960 / 1970 / 1980`
+rendent en années pleines les « résidences années 60-70 » et « 60-80 » des jumelles FR ;
+`930` (Nantes) est « 9.30am » là où le FR écrit « 9 h 30 », et `830` (Toulon) **est** dans
+la jumelle FR — les deux derniers sont des artefacts du contrôle, qui découpe « 9 h 30 » en
+deux jetons et fusionne « A57, 830 km » en un seul.
+
+⚠️ **Un superlatif a été rendu vérifiable avant insertion plutôt que retiré** — c'est le
+défaut récurrent des batches 34, 38, 40, 42, 44 et 46. Toulon était donné avec « le score
+transport le plus faible des grandes villes méditerranéennes », affirmation qu'aucun
+contrôle automatique ne voit. Mesurée sur le module : **5,5/10 contre 6,1 à Marseille, 6,7
+à Nice et 7,7 à Montpellier**, soit le plus faible des **quatre** grandes villes du
+littoral méditerranéen. La phrase publie désormais l'ensemble de comparaison et les trois
+chiffres, donc elle se relit.
+🔧 Corrigé de la même façon, et dans l'autre sens : le guide FR Rouen appelle « TGV » la
+liaison Paris-Saint-Lazare, qui n'en est pas une. La jumelle EN garde le **1 h 15** de la
+jumelle FR et écrit « trains to Paris Saint-Lazare », sans la catégorie de train fausse.
+Le guide Grenoble ne dit pas « championne cyclable de France » mais renvoie aux baromètres
+de la fédération des usagers, notre propre `lib/rankings-meta.ts` ayant dû retirer sa
+mention « Sources : FUB » le 11/09 faute d'injecter cette donnée.
+
+**Découvrabilité vérifiée après écriture, pas supposée** : les 8 guides sont retrouvés par
+`getEnGuide()`, portent une `category` (`moving`) présente dans `EN_GUIDE_CATEGORIES`, et
+remontent **en 1re position** de la recherche inverse `relatedCities` de `CityGuidesList`
+sur leur page ville EN — **sauf Angers, 2e sur 47**, et c'est une égalité de date et non un
+défaut : `moving-to-nantes-2026`, publié le même jour, liste `angers` dans ses
+`relatedCities` comme le fait sa jumelle FR, et le tri de `CityGuidesList` ne départage que
+sur `updatedAt`. Les deux guides sont bien sur les deux pages. Ne pas « corriger » en
+déplaçant une date de publication : l'ordre dans un palier d'égalité ne se fabrique pas
+(même principe que `lib/owner-rankings.ts`).
+
+**Contrôles** : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 925 → 933,
+dont « citations EN 0 score brut recopié », qui couvre les quatre scores cités par le guide
+Toulon), `search-index` + `search-index:check`, `sitemap:check`, `npm run parity`
+(**code 0**), `npm run hreflang:check`, plus le contrôle de lookup / photo, le contrôle de
+figures ci-dessus et une vérification d'encodage (137 `€` intacts, aucun `m2` / `EUR` /
+`deg` ascii, aucun mojibake, aucune guillemet courbe). `npm run build` **non lancé,
+volontairement** (cf. § Commands de `CLAUDE.md` depuis le batch 27). Note d'environnement
+reconfirmée : le conteneur démarre **en HEAD détaché et sans `node_modules`** —
+`git checkout main` puis `npm install` d'abord.
+
+**Prochain run** : `moving-to-[city]-2026` est à **16/50** et reste le plus gros écart de
+corpus identifié. Les 34 villes FR restantes sans jumelle sont, par matière décroissante
+pour un lecteur anglophone : **Aix-en-Provence, Antibes, Reims, Nîmes, Brest, Caen, Metz,
+Nancy, Tours, Clermont-Ferrand, Orléans, Le Havre, Saint-Étienne, Mulhouse, Perpignan,
+Amiens, Le Mans, Villeurbanne**, puis les communes de la petite couronne parisienne
+(Boulogne-Billancourt, Nanterre, Créteil, Argenteuil, Vitry-sur-Seine, Aubervilliers,
+Colombes, Asnières-sur-Seine, Courbevoie, Rueil-Malmaison, Champigny-sur-Marne,
+Saint-Maur-des-Fossés, Saint-Denis 93) et les trois villes ultramarines
+(Saint-Denis 974, Saint-Paul 974, Le Tampon).
+
+⚠️ **Une affirmation écrite au premier jet et démentie par la mesure avant commit** :
+« Antibes est la seule des 34 sans `[city]-living-guide` côté EN » est faux. Antibes est
+citée par **20 guides EN**, dont `french-riviera-cote-dazur-living-2026` et
+`nice-living-guide-2026`. Le comptage réel, fait sur `relatedCities` et non de mémoire,
+dit l'inverse et désigne un autre gisement : **les 12 villes réellement sans aucune page
+de vie EN sont les communes de la petite couronne** (Saint-Denis 93, Argenteuil, Nanterre,
+Créteil, Vitry-sur-Seine, Aubervilliers, Colombes, Asnières-sur-Seine, Courbevoie,
+Rueil-Malmaison, Champigny-sur-Marne, Saint-Maur-des-Fossés). **Champigny-sur-Marne et
+Saint-Maur-des-Fossés portent zéro guide EN**, Colombes, Asnières et Rueil-Malmaison un
+seul — or `CityGuidesList` ne rend **rien sous 2 guides**, donc leur page ville EN n'a
+aujourd'hui aucune section guides du tout. Un `moving-to-` y vaut plus qu'ailleurs, mais
+il en faut **deux** pour que la section apparaisse : à traiter par paires, pas à l'unité.
+Après cette série, le second gisement reste `leaving-` 23 EN contre `quitter-` 55 FR.
+
 ### Livré le 14/09 — `single-parent-in-[city]-2026` batch 10 (+10), la série refermée à 95/95 le lendemain du batch FR
 
 `npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans

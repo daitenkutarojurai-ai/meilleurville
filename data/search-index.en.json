@@ -7749,6 +7749,46 @@
       "emoji": "📦"
     },
     {
+      "slug": "moving-to-nantes-2026",
+      "title": "Moving to Nantes in 2026: the queue, not the price",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-montpellier-2026",
+      "title": "Moving to Montpellier in 2026: never arrive in late August",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-rennes-2026",
+      "title": "Moving to Rennes in 2026: a metro city that lets in days",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-grenoble-2026",
+      "title": "Moving to Grenoble in 2026: the bowl decides everything",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-toulon-2026",
+      "title": "Moving to Toulon in 2026: the Riviera at half the rent",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-rouen-2026",
+      "title": "Moving to Rouen in 2026: the easy arrival, with two caveats",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-angers-2026",
+      "title": "Moving to Angers in 2026: live along the two tram lines",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-dijon-2026",
+      "title": "Moving to Dijon in 2026: the cheapest arrival of the big cities",
+      "emoji": "📦"
+    },
+    {
       "slug": "things-to-do-in-verdun-2026",
       "title": "Things to do in Verdun: the battlefield is not in the town",
       "emoji": "🕊️"
@@ -7883,7 +7923,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 179
+      "count": 187
     },
     {
       "slug": "single-parent-in-france",
@@ -7903,12 +7943,12 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 58
+      "count": 59
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 55
+      "count": 56
     },
     {
       "slug": "buying-property-france",
@@ -7953,7 +7993,12 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 37
+      "count": 39
+    },
+    {
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 35
     },
     {
       "slug": "working-in-france",
@@ -7961,9 +8006,24 @@
       "count": 34
     },
     {
+      "slug": "cost-of-living",
+      "label": "cost of living",
+      "count": 33
+    },
+    {
       "slug": "job-market-france",
       "label": "job market france",
       "count": 32
+    },
+    {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 30
+    },
+    {
+      "slug": "provence",
+      "label": "provence",
+      "count": 30
     },
     {
       "slug": "single-parent-holidays",
@@ -7971,34 +8031,14 @@
       "count": 30
     },
     {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 29
-    },
-    {
-      "slug": "provence",
-      "label": "provence",
-      "count": 29
-    },
-    {
       "slug": "normandy",
       "label": "normandy",
-      "count": 28
+      "count": 29
     },
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
       "count": 28
-    },
-    {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 27
-    },
-    {
-      "slug": "cost-of-living",
-      "label": "cost of living",
-      "count": 25
     },
     {
       "slug": "international-students",
@@ -8076,6 +8116,11 @@
       "count": 12
     },
     {
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 12
+    },
+    {
       "slug": "french-riviera",
       "label": "french riviera",
       "count": 12
@@ -8088,11 +8133,6 @@
     {
       "slug": "atlantic-coast",
       "label": "atlantic coast",
-      "count": 11
-    },
-    {
-      "slug": "burgundy",
-      "label": "burgundy",
       "count": 11
     },
     {
@@ -8156,6 +8196,11 @@
       "count": 8
     },
     {
+      "slug": "nantes",
+      "label": "nantes",
+      "count": 8
+    },
+    {
       "slug": "pyrenees",
       "label": "pyrenees",
       "count": 8
@@ -8186,8 +8231,8 @@
       "count": 7
     },
     {
-      "slug": "nantes",
-      "label": "nantes",
+      "slug": "rennes",
+      "label": "rennes",
       "count": 7
     },
     {
@@ -8201,6 +8246,11 @@
       "count": 7
     },
     {
+      "slug": "dijon",
+      "label": "dijon",
+      "count": 6
+    },
+    {
       "slug": "itinerary",
       "label": "itinerary",
       "count": 6
@@ -8211,13 +8261,13 @@
       "count": 6
     },
     {
-      "slug": "paris",
-      "label": "paris",
+      "slug": "montpellier",
+      "label": "montpellier",
       "count": 6
     },
     {
-      "slug": "rennes",
-      "label": "rennes",
+      "slug": "paris",
+      "label": "paris",
       "count": 6
     },
     {
@@ -8233,6 +8283,11 @@
     {
       "slug": "affordable-france",
       "label": "affordable france",
+      "count": 5
+    },
+    {
+      "slug": "angers",
+      "label": "angers",
       "count": 5
     },
     {
@@ -8261,18 +8316,13 @@
       "count": 5
     },
     {
-      "slug": "dijon",
-      "label": "dijon",
+      "slug": "grenoble",
+      "label": "grenoble",
       "count": 5
     },
     {
       "slug": "metz",
       "label": "metz",
-      "count": 5
-    },
-    {
-      "slug": "montpellier",
-      "label": "montpellier",
       "count": 5
     },
     {
@@ -8284,11 +8334,6 @@
       "slug": "quality-of-life",
       "label": "quality-of-life",
       "count": 5
-    },
-    {
-      "slug": "angers",
-      "label": "angers",
-      "count": 4
     },
     {
       "slug": "annecy",
@@ -8303,11 +8348,6 @@
     {
       "slug": "franche-comte",
       "label": "franche-comte",
-      "count": 4
-    },
-    {
-      "slug": "grenoble",
-      "label": "grenoble",
       "count": 4
     },
     {
@@ -8338,6 +8378,16 @@
     {
       "slug": "rhone-alpes",
       "label": "rhone alpes",
+      "count": 4
+    },
+    {
+      "slug": "rouen",
+      "label": "rouen",
+      "count": 4
+    },
+    {
+      "slug": "toulon",
+      "label": "toulon",
       "count": 4
     },
     {
@@ -8426,18 +8476,8 @@
       "count": 3
     },
     {
-      "slug": "rouen",
-      "label": "rouen",
-      "count": 3
-    },
-    {
       "slug": "sea-level-rise",
       "label": "sea level rise",
-      "count": 3
-    },
-    {
-      "slug": "toulon",
-      "label": "toulon",
       "count": 3
     }
   ]
