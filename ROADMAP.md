@@ -4117,6 +4117,218 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 15/09 — tourisme batch 48 FR (+7 : Langres, Saint-Rémy-de-Provence, La Baule, Morlaix, Dax, Vendôme, Céret)
+
+La série était à parité **261 FR / 261 EN**, mesurée par diff des deux listes de slugs et non
+recopiée du journal, donc la main revenait au FR. **+7 guides, compteur mesuré
+`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'` = 268 ; `GUIDES` 1 129 → 1 136.** Aucun
+nouveau slug hors gabarit : les sept villes prennent « à » sans contraction, et les huit exceptions
+restent `au-puy-en-velay`, `au-tampon`, `au-francois`, `au-robert`, `au-lamentin`, `au-cannet`,
+`aux-abymes`, `aux-sables-d-olonne`. ⚠️ Noter que le slug de seed de La Baule est **`la-baule`**
+alors que le nom du seed est « La Baule-Escoublac » : le guide se dérive du slug, comme toujours.
+`metaTitle` 31-42 caractères, `metaDesc` 139-153, 10 sections par guide, 1 128-1 302 mots, **0
+em-dash**, densité d'accents 0,139-0,167 **par mot** (seuil ascii-strip 0,09). `npm run search-index`
+relancé (1 136 guides, **268 tags, inchangé** — aucun tag neuf n'a franchi le seuil de 3 guides,
+donc aucune page `/tags/` créée), `npm run sitemap:check` repassé (FR **29 239 URL**, EN 28 825,
+chaque URL déclarée a une page et réciproquement). Contrôle de lookup / photo passé **sur les 540
+villes et les 268 guides de la série**, avec le même résolveur que les pages (`citySlugElisions`
+compris) : **268/268 atteignables, 0 orphelin, 0 collision, 0 guide sans photo d'en-tête**, et les
+sept sont en 1re position de la recherche inverse `relatedCities`.
+
+**Pourquoi ces sept-là.** Le comptage fait ce run donne **278 villes du seed sur 540 sans guide
+tourisme**. Les sept sortent du vivier laissé par les batches 46 et 47, choisies pour couvrir sept
+régions différentes, et **trois d'entre elles n'étaient citées par aucun guide du site** : Langres,
+Saint-Rémy-de-Provence et La Baule. Que la ville natale de Diderot, le site antique où Van Gogh a
+passé un an et la plus grande station balnéaire de Loire-Atlantique n'apparaissent nulle part dans
+un corpus de 1 129 guides était le vrai trou. Les gisements nommés **restent ouverts et n'ont pas
+été entamés** : Saint-Herblain, les trois banlieues bordelaises (Villenave-d'Ornon, Talence,
+Le Bouscat) et, du vivier du batch 46, **Sélestat, Obernai, Saverne, Aubusson, Douarnenez,
+Quiberon** — tous vérifiés présents au seed et sans guide ce run.
+
+⚠️ **Deux affirmations écrites au premier jet et corrigées avant commit, toutes deux démenties par
+une mesure sur nos propres données et non par une relecture.** ① Morlaix était donnée « la moins
+chère des cinq communes du Finistère que suit ce site, devant Douarnenez » : c'est l'inverse, le T3
+de Douarnenez est à 690 € contre 710 € et son mètre carré à 1 600 € contre 1 700 €, donc Morlaix est
+la **deuxième** et Douarnenez la première. La phrase se trompait de sens, pas d'ordre de grandeur.
+② Le château du Taureau était placé « à une vingtaine de kilomètres en aval » de Morlaix, distance
+jamais vérifiée : le chiffre est retiré, la seule chose à dire étant qu'il n'est pas dans la ville.
+**Le contrôle qui a trouvé la première est un tri complet du département sur le loyer et le prix au
+mètre carré, pas une relecture.**
+
+⚠️ **Le fait le plus utile du batch est une correction d'attribution, et elle est dans le guide
+Céret : des toiles de Picasso longtemps rattachées au Pont-Neuf de Paris représentent le pont du
+chemin de fer de Céret**, inauguré en 1889, que les habitants appelaient **el pont nou**, le pont
+neuf en catalan. Le malentendu tient à une traduction. Le même paragraphe porte l'autre fait du
+lieu : la **gare de Céret, ouverte en 1889, a été fermée aux voyageurs en 1940**, la section
+Céret-Arles-sur-Tech est déclassée et celle du Boulou à Céret neutralisée, donc **il n'y a pas de
+train pour Céret depuis 1940** et la gare utile est Perpignan. Deuxième correction du même genre au
+guide La Baule : la station n'est pas née d'une plage mais d'un **désastre**. Le premier village
+d'Escoublac a été submergé par les avancées de sable sur plus de vingt ans et la commune s'est
+rebâtie **un kilomètre à l'intérieur des terres en 1779** ; la forêt de pins qu'on traverse
+aujourd'hui a été plantée au milieu du XIXe siècle **pour arrêter ce sable**, et c'est elle qui a
+rendu la station possible. Les récits qui attribuent le désastre aux habitants eux-mêmes (arrachage
+des plantes fixatrices pour en faire des balais, pâturage des moutons) sont donnés comme **tradition
+orale et non comme fait établi**.
+
+Faits vérifiés en ligne avant rédaction et qui portent les guides : remparts de Langres **3,5 km en
+boucle complète** ; **tour de Navarre achevée en 1521** sous François Ier, **28 m de diamètre**,
+murs jusqu'à **7 m d'épaisseur**, rampe hélicoïdale pour l'artillerie ; **cathédrale Saint-Mammès**
+de la seconde moitié du XIIe siècle, façade refaite au XVIIIe dans le goût classique ; **maison des
+Lumières Denis Diderot inaugurée le 5 octobre 2013** pour le tricentenaire de la naissance de
+l'écrivain, dans l'**hôtel du Breuil de Saint-Germain bâti en 1576**, restauré de **2009 à 2013** ;
+**statue de Diderot par Bartholdi, 1884** (même sculpteur que la Liberté de New York et le Lion de
+Belfort) ; **fromage de Langres AOC en 1991 et AOP en 2009**, pâte molle à croûte lavée, cuvette
+formée parce que le fromage est retourné **deux fois au plus** pendant l'affinage et parfois jamais,
+affinage minimum **15 à 21 jours** ; **quatre lacs de retenue creusés au XIXe siècle pour alimenter
+le canal entre Champagne et Bourgogne** — Liez **290 ha** derrière un barrage de **460 m de long et
+16 m de haut**, Vingeanne **199 ha**, Charmes **197 ha**, Mouche **94 ha** ; gare de Langres sur la
+ligne de **Paris-Est à Mulhouse**, à **1,5 km et 120 m de dénivelé** de la première porte de la ville
+haute. **Glanum** occupé de l'âge du bronze à la fin de l'Empire, **premières fouilles systématiques
+en 1921**, confiées par **Jules Formigé** au botaniste et géologue **Pierre de Brun**, reprises de
+**1942 à 1969** par **Henri Rolland** ; **mausolée des Jules élevé par trois frères** en l'honneur de
+leur père Caius et de leur grand-père, signalé dès le XVIe siècle et **jamais enfoui**, en accès
+libre au bord de la route ; **Van Gogh interné à Saint-Paul-de-Mausole du 8 mai 1889 à mai 1890**,
+**plus de 140 toiles** dont La Nuit étoilée et Les Iris ; **Nostradamus né à Saint-Rémy en 1503** ;
+**musée des Alpilles dans l'hôtel Mistral de Mondragon**, **centre d'art Présence Van Gogh dans
+l'hôtel Estrine** du XVIIIe ; **orgue de la collégiale Saint-Martin installé en 1923 et entièrement
+reconstruit par Pascal Quoirin en 1983**, trois claviers et pédalier, **62 jeux**, de l'ordre de
+**5 000 tuyaux** ; **parc naturel régional des Alpilles créé le 1er février 2007**, **45e** parc
+régional de France, **51 000 ha** sur **16 communes**, Maison du Parc à Saint-Rémy. **Baie de La
+Baule 9 km** de Pornichet au Pouliguen ; **chemin de fer en 1879** avec la liaison de Paris au
+Croisic, lotissement par la **Société des Dunes**, développement de **1879 à 1914**, **premier casino
+en 1904** ; périmètre de protection devenu **site patrimonial remarquable après la loi du 7 juillet
+2016**, **6 871 bâtiments**, dont **15 villas en patrimoine exceptionnel**, **699 remarquables** et
+**1 741 d'accompagnement**. **Viaduc de Morlaix, chantier 1861-1863**, **292 m de long**, **62 m de
+haut**, deux niveaux d'arches ; **152 maisons à pans de bois recensées**, la plus forte densité du
+Finistère ; **maison à pondalez** au plan dit « à lanterne » (deux corps séparés par une cour
+intérieure couverte, escalier en vis monumental, passerelles suspendues), restaurée dans les années
+1990 ; **maison dite de la Duchesse Anne vers 1520-1530**, datation déduite du style et du **sac de
+Morlaix par les Anglais en 1522** ; **musée ouvert en 1887** dans le **couvent des Jacobins fondé en
+1230**, aujourd'hui sur trois sites ; **Queffleuth et Jarlot couverts** sous la ville et
+réapparaissant au **port de plaisance, 200 anneaux** ; **kiosque de la place des Otages offert en
+1903 par Auguste Ropars**, sur l'emprise de l'ancien port ; **manufacture des tabacs établie en
+1736** sur des plans attribués à l'architecte Blondel. **Source de la Nèhe à Dax : 2,4 millions de
+litres par jour à 64 °C**, bassin du XIXe à l'emplacement de thermes romains ; **péloïde** obtenu par
+maturation de limon de l'Adour avec l'eau thermale ; **enceinte gallo-romaine du IVe siècle**, près
+de **1 500 m** de développement, **43 tours rondes de 10 m de diamètre**, **4 portes**, **environ
+320 m encore debout** ; **crypte archéologique** sur les fondations d'une **basilique civile du Ier
+ou IIe siècle** ; **portail des Apôtres** remonté à l'intérieur de la cathédrale reconstruite aux
+XVIIe-XIXe ; **arènes inaugurées en 1913**, feria à la mi-août. **Abbaye de la Trinité de Vendôme
+fondée en 1033 par Geoffroy Martel** ; **façade de 1508 par Jean Texier dit Jean de Beauce**, aussi
+constructeur du **clocher nord de la cathédrale de Chartres** ; **clocher roman du XIIe siècle**
+apparenté au clocher sud de Chartres ; **Sainte Larme** donnée par Geoffroy Martel, pèlerinage **du
+XIe siècle à la fin du XVIIIe** ; **château endommagé par les huguenots en 1562 et les
+révolutionnaires en 1793**, **tour de Poitiers**, parc à l'anglaise du XIXe avec un **cèdre de 1807**
+et une collection d'hortensias des **Mouillère** ; **porte Saint-Georges**, seule survivante des
+quatre portes, **reconstruite au début du XVIe par Marie de Luxembourg**, **hôtel de ville de 1467**
+jusqu'à une date récente ; **lavoirs rive gauche du Loir, rue Saint-Bienheuré**, en aval du pont
+Saint-Georges ; **gare TGV à 42 minutes de Paris-Montparnasse** mais **à environ 5 km au nord-ouest
+du centre, sur le territoire de Villiers-sur-Loir**. **Pont du Diable de Céret bâti de 1321 à 1341**,
+arche unique de **45,45 m de portée**, **22,3 m à la clé**, **plus grand arc de pont du monde** à son
+achèvement devant le Ponte della Maddalena, et **jusqu'en 1356** où le pont de Castelvecchio à Vérone
+le dépasse ; **musée d'art moderne fondé en 1950 par Pierre Brune et Frank Burty Haviland**, **78
+pièces de Picasso dont 57 données par l'artiste** ; **Picasso et Braque à Céret à l'été 1911**,
+« **Mecque du cubisme** » de la main du critique **André Salmon** ; **cagette de cerises envoyée au
+président de la République depuis 1932**, tradition engagée avec l'équipe de **Paul Doumer** et
+reçue par **Albert Lebrun** après l'assassinat de Doumer.
+
+⚠️ **Deux chiffres volontairement omis, parce que les sources divergent — ne pas les « compléter » au
+prochain run.** ① Le **nombre de tours encore debout sur l'enceinte de Langres** : sept selon
+certaines sources locales, douze selon d'autres, l'écart venant de ce qu'on décide d'appeler une
+tour ; le guide écrit la divergence et s'en tient aux 3,5 km de la boucle, qui ne bougent pas.
+② Le **nombre d'établissements thermaux de Dax** : 14, 15 ou 16 selon les sources, le guide écrit
+« une quinzaine ». Même doctrine que le décompte de la crue de Vaison au batch 46 et le jour de la
+reddition de Melun au batch 45 : **une phrase sans chiffre vaut mieux qu'un chiffre faux.** Le
+nombre de curistes annuels de Dax est donné « de l'ordre de 60 000 », avec sa réserve, parce qu'il
+ne repose que sur des sources secondaires concordantes.
+
+Six prudences assumées dans la copie, à ne pas diluer : ① **Saint-Paul-de-Mausole est toujours une
+clinique psychiatrique en activité** — dit avant toute phrase sur Van Gogh, avec la conséquence
+pratique (on visite une partie du monastère, pas un établissement de soins, et des patients vivent
+sur place) ; l'**atelier d'art-thérapie Valetudo** est présenté comme ce qu'il est, un dispositif de
+soin, pas une boutique. ② **Aucune des toiles peintes à Saint-Rémy n'est restée à Saint-Rémy** (La
+Nuit étoilée est au Museum of Modern Art de New York), dit **avant** que quelqu'un fasse le voyage
+pour la mauvaise raison — même traitement que la pierre de Rosette absente de Figeac au batch 46 et
+l'Hermione absente de Rochefort au batch 36. ③ Convention « **accessible depuis** » plutôt que
+« situé à » partout où c'est une commune voisine : les **quatre lacs** depuis Langres, **Les
+Baux-de-Provence** depuis Saint-Rémy, **Le Pouliguen, Pornichet et les marais salants de Guérande**
+depuis La Baule (avec la conséquence qu'un hébergement annoncé « à La Baule » peut être sur une autre
+commune), le **château du Taureau** depuis Morlaix, la **côte landaise vers Capbreton et Hossegor**
+depuis Dax, **Blois et Amboise** depuis Vendôme, le **Canigou et les Aspres** depuis Céret. ④ **Deux
+règles écrites comme des règles opposables et non comme des conseils** : l'accès aux massifs est
+réglementé par arrêté préfectoral en saison des feux, à consulter le matin même, dans les guides
+Saint-Rémy et Céret ; et la surveillance de la baignade à La Baule est saisonnière, limitée à des
+zones délimitées, la signalétique vert-jaune-rouge étant réglementaire, avec la mécanique de marée
+propre à une plage plate (l'eau remonte vite sur du sable découvert). ⑤ **On ne se baigne pas dans la
+fontaine chaude de Dax** : à 64 °C l'eau brûle en quelques secondes, ce qu'une margelle accessible ne
+suggère pas assez ; et la **feria** est traitée en fait pratique, la corrida nommée comme une
+pratique encadrée et contestée que le guide ne tranche pas. ⑥ Deux attributions ramenées à leur
+statut de tradition : la **maison dite de la Duchesse Anne** à Morlaix (rien n'établit qu'elle y ait
+logé, et le bâtiment est postérieur à sa mort) et la **légende du diable** au pont de Céret.
+**Trois honnêtetés de fond** ferment la liste : Diderot **est né à Langres et a écrit à Paris**, la
+ville a la mémoire et pas l'œuvre ; **Nostradamus a fait sa carrière à Salon-de-Provence**, où il est
+mort et enterré, et sa maison natale de Saint-Rémy n'est que des vestiges intégrés au bâti ; et les
+cerises de Céret **ne sont plus systématiquement les premières de France**, celles de Saint-Gilles
+dans le Gard les devançant certaines années.
+
+Aucun horaire, aucun tarif, aucune figure en `/10` ; quatre équipements à ouverture instable sont
+explicitement renvoyés à une vérification préalable (crypte archéologique de Dax par créneaux, sites
+du musée de Morlaix dont la répartition a bougé, manufacture des tabacs en reconversion par tranches,
+accrochages du musée de Céret et du centre d'art Estrine). Les seuls chiffres de population sont ceux
+de l'Insee 2022 lus dans `data/city-population.json` (Langres 7 683, Saint-Rémy-de-Provence 9 547,
+La Baule-Escoublac 16 613, Morlaix 15 220, Dax 21 716, Vendôme 15 566, Céret 7 544) — **pas les
+`population` approximatives du seed**.
+
+Trois tensions mesurées portent les intros, et aucune n'était supposée : **Saint-Rémy perd 11,8 % de
+ses habitants sur onze ans** et n'est devancée en recul que par Cassis, alors que ce sont les **deux
+plus chères et les deux mieux notées** des treize communes des Bouches-du-Rhône du corpus — une
+commune peut être très demandée et perdre des résidents, parce que ce que le marché achète n'est pas
+toujours une résidence principale ; **Vendôme perd 7,6 %**, dernière des trois communes du
+Loir-et-Cher, tout en étant celle des trois à laquelle nos scores donnent la meilleure note globale,
+et le guide **refuse explicitement de relier** cette baisse au TGV à 42 minutes ; **La Baule** est
+dernière des sept communes de Loire-Atlantique sur onze ans (+3,1 %) et bien placée sur six ans
+(+7,5 %), parce qu'elle a perdu puis repris, un recensement comptant des **résidents et pas des
+lits**. Langres, elle, est simplement **celle des trois communes de Haute-Marne qui perd le moins**,
+et le guide le dit avant de vanter quoi que ce soit.
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. CLAUDE.md § Commands depuis le
+batch 27 : 4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile).
+Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR
+1 129 → 1 136), `search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**,
+0 route FR sans jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo exhaustif
+ci-dessus et une vérification d'encodage (accents intacts, `°C` conservé, aucun `m2` / `EUR` / `deg`
+ascii, aucun mojibake, aucune guillemet courbe, 0 em-dash). Note d'environnement reconfirmée : le
+conteneur de routine démarre **en HEAD détaché et sans `node_modules`** — `git checkout main` puis
+`npm install` d'abord. ⚠️ Egress : **`fr.wikipedia.org` répond 403 CONNECT depuis la routine**, la
+recherche web fonctionne en revanche ; les faits ci-dessus ont donc été recoupés sur plusieurs
+résultats de recherche plutôt que sur une fiche unique, et c'est ce qui a imposé les deux omissions
+de chiffre signalées plus haut.
+
+Écart FR→EN après ce batch : **7 villes** (langres, saint-remy-de-provence, la-baule, morlaix, dax,
+vendome, ceret) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN**. Rappel de
+la règle du batch 33 : côté EN, le slug se dérive du **slug de seed tel quel**
+(`getEnGuide('things-to-do-in-' + slug + '-2026')`), donc **`things-to-do-in-la-baule-2026`** et non
+une forme « propre » en `-escoublac`, et aucun des sept ne porte d'article, donc rien d'autre à
+arbitrer. Quatre points de vigilance pour ces jumelles : ① **`things-to-do-in-dax-2026` est un slug
+ambigu en anglais**, *dax* étant un mot courant des marchés financiers (l'indice allemand) et une
+abréviation usuelle — l'intro doit poser la ville dès la première ligne, comme celles d'Orange au
+batch 37, de Vernon au batch 39 et de Bergerac au batch 41 ; ② **Van Gogh est de l'histoire de l'art
+anglophone avant d'être de l'histoire française** pour ce lecteur : La Nuit étoilée est au MoMA, Les
+Iris au Getty, et la jumelle Saint-Rémy a donc de la matière propre là où le FR reste sobre, à
+condition de garder intacte la prudence sur la clinique en activité ; ③ **La Baule a un angle
+anglophone que le FR n'a pas**, la station ayant été bâtie sur le modèle des resorts victoriens et
+son quartier de villas se lisant comme un catalogue d'architecture balnéaire — et la
+désambiguïsation *bay* / *beach* / trois communes doit être posée tôt ; ④ **Céret demande la
+correction du pont neuf en première ligne de sa section**, parce que c'est dans la littérature
+anglophone sur le cubisme que l'erreur d'attribution circule le plus.
+
+Pour le batch FR **suivant**, il reste **271 villes du seed sur 540 sans guide tourisme** (278 avant
+ce run). Gisements nommés restants, tous vérifiés présents au seed et sans guide ce run :
+**Saint-Herblain** (écarté au batch 34 faute de matière), les trois banlieues bordelaises
+(**Villenave-d'Ornon, Talence, Le Bouscat**) et le reliquat du vivier du batch 46 — **Sélestat**
+(bibliothèque humaniste inscrite au registre Mémoire du monde), **Obernai**, **Saverne**,
+**Aubusson** (tapisserie), **Douarnenez** et **Quiberon**.
+
 ### Livré le 15/09 — `moving-to-[city]-2026` batch 2 (+8), la série portée de 8/50 à 16/50
 
 `npm run parity` en **code 0** en début et en fin de run (FR 221 · EN 166, 0 route FR sans

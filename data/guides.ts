@@ -56499,6 +56499,454 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Granville", "activités Granville 2026", "que faire dans la Manche", "sorties Normandie littoral", "Haute Ville musée Christian Dior carnaval Chausey"]
   },
+  {
+    slug: "10-choses-a-faire-a-langres-2026",
+    title: "10 choses à faire à Langres",
+    metaTitle: "10 choses à faire à Langres en 2026",
+    metaDesc:
+      "3,5 km de remparts qu'on parcourt en entier, la ville natale de Diderot, un fromage AOP à cuvette : 10 activités à Langres, en Haute-Marne.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-09-15",
+    updatedAt: "2026-09-15",
+    intro:
+      "Langres comptait 7 683 habitants au recensement de 2022, contre 7 761 en 2016 et 7 968 en 2011, soit un recul de 3,6 % sur onze ans. C'est le moins rapide des trois communes de Haute-Marne que suit ce site : Chaumont perd 5,7 % et Saint-Dizier 8,1 % sur la même période. Ici la question n'est pas de savoir qui gagne des habitants, mais qui en perd le moins, et il vaut mieux le dire avant de vanter quoi que ce soit. La ville tient sur un éperon calcaire et a gardé ce que presque toutes les autres ont démoli au XIXe siècle pour s'agrandir : sa ceinture de remparts, entière. On en fait le tour à pied sans jamais en sortir, 3,5 kilomètres, et cette boucle est la visite elle-même. Le second fait tient en une date. Denis Diderot est né ici en 1713, et la ville a mis trois siècles à lui consacrer un musée.",
+    sections: [
+      {
+        heading: "1. Le tour des remparts, 3,5 km sans interruption",
+        body: "L'enceinte fait le tour complet du plateau et se parcourt d'un bout à l'autre, à pied, en une heure à une heure et demie selon les arrêts. C'est ce qui distingue Langres de la plupart des villes fortifiées françaises, où il reste un pan de mur et une porte : ici le circuit est continu, et l'on voit la campagne de tous les côtés, le plateau d'un côté, les vallées de l'autre. Le chemin est plat une fois qu'on est en haut, ce qui n'est pas le cas de la montée. Les sources locales ne s'accordent pas sur le nombre de tours encore debout, entre sept et douze selon ce qu'on décide d'appeler une tour ; le chiffre qui vaut, et qui ne bouge pas, est celui de la boucle."
+      },
+      {
+        heading: "2. La tour de Navarre",
+        body: "C'est l'ouvrage le plus impressionnant de l'enceinte et le plus facile à dater : elle est achevée en 1521, sous François Ier, pour répondre à l'artillerie à poudre qui vient de rendre les vieilles murailles minces inutiles. Elle mesure vingt-huit mètres de diamètre et ses murs atteignent sept mètres d'épaisseur, proportions qui n'ont rien d'une tour de guet et tout d'une plateforme de canons. L'intérieur se visite, avec ses salles voûtées et sa rampe hélicoïdale, conçue pour monter les pièces d'artillerie sans les démonter. On comprend en cinq minutes, en la parcourant, pourquoi la fortification a changé de forme à ce moment précis."
+      },
+      {
+        heading: "3. Les portes, et celle des Moulins",
+        body: "On entre dans Langres par des portes, et chacune raconte un siècle différent. La porte des Moulins est la plus ornée, couverte de motifs militaires qui tiennent autant du décor que de la défense. La porte de l'Hôtel-de-Ville a gardé sa barbacane et son ancien corps de garde. La porte Henri IV a conservé son allure médiévale. Deux d'entre elles sont encore les vraies entrées de la ville haute pour les voitures, ce qui donne une sensation rare : on franchit un ouvrage du XVIe ou du XVIIe siècle pour aller faire ses courses. Les suivre l'une après l'autre est une manière de faire le tour des remparts par en bas."
+      },
+      {
+        heading: "4. La cathédrale Saint-Mammès",
+        body: "Bâtie dans la seconde moitié du XIIe siècle, elle attrape le moment exact où l'architecture romane bascule vers le gothique, et cela se lit dans la nef sans avoir besoin d'un guide : les arcs en plein cintre et les croisées d'ogives cohabitent dans le même vaisseau. La façade, elle, n'a rien de médiéval. Elle a été refaite au XVIIIe siècle dans le goût classique, ce qui produit de la place un effet déroutant, un portique à colonnes posé devant une église de cinq cents ans son aînée. Le cloître attenant, transformé en bibliothèque, se visite également. La cathédrale porte des chantiers de restauration réguliers, et une partie peut être sous échafaudage."
+      },
+      {
+        heading: "5. La maison des Lumières Denis Diderot",
+        body: "Le musée est consacré au siècle des Lumières et à la vie de Diderot, et il occupe l'hôtel du Breuil de Saint-Germain, un hôtel particulier bâti en 1576. Il a été inauguré le 5 octobre 2013, pour le tricentenaire de la naissance de l'écrivain, au terme d'une campagne de restauration menée de 2009 à 2013. Le parcours ne se contente pas de la biographie : il montre ce qu'était le travail encyclopédique, la circulation des idées, l'imprimerie et la censure, ce qui est beaucoup plus intéressant qu'une collection de portraits. C'est un musée de France, donc un établissement à collections publiques, et non un centre d'interprétation."
+      },
+      {
+        heading: "6. Diderot dans la ville, et la statue de Bartholdi",
+        body: "La statue de Diderot, place Diderot, a été élevée en 1884 et elle est de Bartholdi, le sculpteur de la Liberté éclairant le monde à New York et du Lion de Belfort. Une précision honnête s'impose ici, parce qu'elle change la visite : Diderot est né à Langres, y a fait ses premières études, puis est parti pour Paris et n'y est pratiquement pas revenu. La ville a la maison natale, la mémoire et le musée ; elle n'a pas l'œuvre, qui s'est écrite ailleurs. C'est le même rapport qu'entretient Figeac avec Champollion. Venir pour Diderot, c'est venir voir d'où il est parti, ce qui est une raison suffisante mais qu'il vaut mieux savoir avant."
+      },
+      {
+        heading: "7. Le fromage de Langres",
+        body: "Le langres est un fromage de lait de vache à pâte molle et à croûte lavée, de la même famille que l'époisses, le munster, le maroilles et le livarot. Il bénéficie d'une AOC depuis 1991 et d'une AOP depuis 2009. Son signe distinctif se voit à l'œil : un creux au sommet, la fontaine ou cuvette, qui se forme parce que le fromage est retourné deux fois au plus pendant l'affinage, et parfois jamais. C'est donc un défaut de manipulation devenu un caractère protégé. On le trouve chez les fromagers de la ville et sur le marché ; l'affinage minimum est de quinze à vingt et un jours selon le format, et la différence entre un jeune et un affiné est franche."
+      },
+      {
+        heading: "8. Les quatre lacs, accessibles depuis Langres",
+        body: "Quatre lacs de retenue entourent la ville, et aucun n'est naturel : ils ont été creusés au XIXe siècle pour alimenter le canal entre Champagne et Bourgogne. Le plus grand, la Liez, couvre 290 hectares derrière un barrage de 460 mètres de long et 16 mètres de haut ; viennent ensuite la Vingeanne avec 199 hectares, les Charmes avec 197 et la Mouche avec 94. On les voit depuis les remparts, ce qui donne au panorama sa profondeur. Ils relèvent des communes voisines et se rejoignent en voiture ou à vélo, pas à pied depuis le centre. Baignade, voile et pêche y sont pratiquées là où elles sont autorisées : la signalisation sur place fait foi."
+      },
+      {
+        heading: "9. Monter en ville haute",
+        body: "C'est la seule vraie difficulté du séjour et elle mérite d'être dite avant, pas après. La gare est en contrebas de l'éperon : il faut compter environ un kilomètre et demi et cent vingt mètres de dénivelé pour atteindre la première porte au nord. Avec des bagages, en plein été ou par vent d'hiver, cela se sent. Un service de bus dessert la gare et un transport à la demande existe sur réservation préalable, mais les horaires et les modalités changent d'une année à l'autre : on se renseigne auprès de l'office de tourisme plutôt que de compter dessus. En voiture, on monte par les portes et l'on se gare dans la ville haute."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Langres est desservie par la ligne de Paris-Est à Mulhouse, avec des trains régionaux vers Culmont-Chalindrey, Belfort ou Mulhouse ; la fréquence est celle d'une petite gare et se vérifie avant de bâtir une journée dessus. Une journée suffit pour le tour des remparts, la tour de Navarre, la cathédrale et la maison des Lumières. Deux jours si l'on ajoute les lacs, qui demandent un véhicule. Le plateau est haut et découvert : il fait plus froid et plus venteux ici que dans les vallées voisines, et le circuit des remparts n'offre aucun abri. La belle saison va d'avril à octobre ; l'hiver, la ville est très calme et une partie des sites ferme."
+      }
+    ],
+    relatedCities: ["langres", "chaumont", "dijon", "vesoul"],
+    relatedGuides: [
+      "10-choses-a-faire-a-chaumont-2026",
+      "10-choses-a-faire-a-dijon-2026",
+      "10-choses-a-faire-a-vesoul-2026",
+      "10-choses-a-faire-a-dole-2026"
+    ],
+    tags: ["10 choses à faire à Langres", "activités Langres 2026", "que faire en Haute-Marne", "sorties Grand Est patrimoine", "remparts tour de Navarre Diderot fromage AOP"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-remy-de-provence-2026",
+    title: "10 choses à faire à Saint-Rémy-de-Provence",
+    metaTitle: "10 choses à faire à Saint-Rémy-de-Provence",
+    metaDesc:
+      "Une ville antique fouillée sous un champ d'oliviers, l'asile où Van Gogh a peint plus de 140 toiles, Nostradamus : 10 activités à Saint-Rémy-de-Provence.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-09-15",
+    updatedAt: "2026-09-15",
+    intro:
+      "Saint-Rémy-de-Provence comptait 9 547 habitants au recensement de 2022, contre 9 612 en 2016 et 10 826 en 2011 : une perte de 11,8 % sur onze ans, qui la place avant-dernière des treize communes des Bouches-du-Rhône que suit ce site, devant Cassis seulement. Le rapprochement vaut la peine d'être fait, parce qu'il n'est pas un hasard : ces deux communes sont aussi les deux plus chères du département dans nos relevés de loyers et les deux mieux notées. Une ville peut donc être très demandée et perdre des résidents, parce que ce que le marché achète n'est pas toujours une résidence principale. Le reste tient en une image. Glanum, la ville antique qui fait la réputation du lieu, dormait sous un champ d'oliviers que Van Gogh a peint sans savoir ce qu'il y avait dessous.",
+    sections: [
+      {
+        heading: "1. Le site archéologique de Glanum",
+        body: "Glanum occupe un vallon au pied des Alpilles, à la sortie sud de la ville, et couvre une séquence rare : de l'âge du bronze à la fin de l'Empire romain, avec un passage successif sous influence gauloise, grecque puis romaine, lisible dans le bâti lui-même. Les premières fouilles systématiques commencent en 1921, confiées par Jules Formigé, architecte en chef des monuments historiques, au botaniste et géologue Pierre de Brun ; elles sont ensuite reprises et développées de 1942 à 1969 sous la direction d'Henri Rolland. Le site se parcourt sur une pente, en plein soleil, sans ombre continue : chapeau et eau ne sont pas un conseil décoratif en juillet."
+      },
+      {
+        heading: "2. Les Antiques, visibles depuis la route",
+        body: "Deux monuments se tiennent debout à l'entrée du site, en accès libre et au bord de la départementale : le mausolée des Jules et l'arc. Le mausolée a été élevé par trois frères de la famille des Julii en l'honneur de leur père, Caius, et de leur grand-père. Le fait intéressant est qu'ils ne se sont jamais couchés. Pendant que Glanum disparaissait sous les alluvions et les oliviers, ces deux-là sont restés visibles en permanence, signalés dès le XVIe siècle, et l'on est passé devant pendant des siècles sans creuser à côté. Ils sont gratuits et se regardent en dix minutes, ce qui en fait le meilleur point de départ avant de payer l'entrée du site."
+      },
+      {
+        heading: "3. Saint-Paul-de-Mausole, et ce qu'il est encore",
+        body: "Vincent van Gogh y arrive le 8 mai 1889 et y reste une année entière, jusqu'en mai 1890. Il y peint plus de cent quarante toiles, dont La Nuit étoilée et Les Iris. Le cloître roman, la chambre reconstituée et les champs alentour se visitent. Il faut dire ce que le lieu est aujourd'hui, parce que cela commande la manière de s'y comporter : Saint-Paul-de-Mausole est toujours une clinique psychiatrique en activité. On visite une partie du monastère, pas un établissement de soins, et des patients vivent sur place. Le silence et le respect du parcours balisé ne sont pas ici une politesse de brochure."
+      },
+      {
+        heading: "4. L'atelier Valetudo",
+        body: "Près de la chambre de Van Gogh, le long de la galerie du cloître, l'association Valetudo fait fonctionner un atelier d'art-thérapie qui associe la pratique artistique, la recherche et le soin. Dans les anciennes salles capitulaires et la cage d'escalier romane, une exposition permanente présente des œuvres réalisées par les patients de l'atelier, qui sont proposées à la vente. C'est la partie du lieu dont on parle le moins et c'est celle qui justifie le mieux la visite : elle empêche de traiter l'endroit comme un décor de biographie. Ce que Van Gogh a trouvé ici, une institution qui laissait peindre, continue d'exister sous une autre forme à quelques mètres de sa chambre."
+      },
+      {
+        heading: "5. Les tableaux ne sont pas ici",
+        body: "C'est la précision à donner avant que quelqu'un fasse le voyage pour la mauvaise raison. Aucune des toiles peintes à Saint-Rémy n'est restée à Saint-Rémy. La Nuit étoilée est au Museum of Modern Art de New York, et le reste s'est dispersé entre grandes collections publiques et privées. Ce qu'on vient voir ici, ce sont les motifs : le champ de blé derrière le mur, les oliviers, les cyprès, les Alpilles au fond, et la fenêtre depuis laquelle une partie a été peinte. Des reproductions sont installées sur les lieux mêmes, ce qui permet la comparaison sur place. C'est exactement le rapport qu'entretient Figeac avec la pierre de Rosette : le lieu d'origine, pas l'objet."
+      },
+      {
+        heading: "6. Nostradamus, né ici en 1503",
+        body: "Michel de Nostredame naît à Saint-Rémy en 1503 et y passe ses premières années. Une plaque et des vestiges de la maison natale se voient dans la vieille ville, rue Hoche. Là encore, il faut mesurer ses attentes : ce sont des vestiges intégrés au bâti, pas un musée, et l'homme a fait sa carrière et écrit ses Prophéties ailleurs, à Salon-de-Provence, où il est mort et enterré. La fontaine Nostradamus, sur la place, date du XIXe siècle et lui rend hommage sans avoir rien connu de lui. Le personnage sert surtout à comprendre que cette petite ville a produit deux célébrités mondiales à quatre siècles de distance."
+      },
+      {
+        heading: "7. Le musée des Alpilles",
+        body: "Installé dans l'hôtel Mistral de Mondragon, un hôtel particulier de la Renaissance organisé autour d'une cour à galeries, le musée traite de ce qui fait la région plutôt que de ses vedettes : le paysage des Alpilles, les métiers, les fêtes, les costumes, la transhumance, les savoir-faire agricoles. C'est le contrepoint utile d'une journée passée entre les Romains et Van Gogh, parce qu'il explique le pays qui a servi de fond aux deux. Le bâtiment vaut à lui seul le détour pour sa cour. Les collections sont présentées par rotations et les expositions temporaires occupent une partie des salles : le contenu visible change d'une saison à l'autre."
+      },
+      {
+        heading: "8. L'hôtel Estrine et le centre d'art",
+        body: "Le centre d'art Présence Van Gogh occupe l'hôtel Estrine, un hôtel particulier du XVIIIe siècle au cœur de la vieille ville. La programmation est celle d'un centre d'art contemporain et non d'un musée Van Gogh, ce que le nom peut laisser croire : on y voit des expositions temporaires d'artistes vivants, avec un fil documentaire sur le séjour du peintre. L'escalier et les volumes intérieurs sont remarquables. Comme pour tout lieu à programmation tournante, il faut regarder ce qui est accroché avant de venir, y compris les périodes de montage entre deux expositions, pendant lesquelles il peut être fermé."
+      },
+      {
+        heading: "9. La collégiale Saint-Martin et son orgue",
+        body: "La collégiale domine le boulevard qui ceinture la vieille ville, et son intérêt principal est un instrument. L'orgue, installé en 1923, a été entièrement reconstruit par le facteur Pascal Quoirin en 1983 : trois claviers et pédalier, soixante-deux jeux, de l'ordre de cinq mille tuyaux. C'est un instrument de concert d'envergure nationale dans une commune de moins de dix mille habitants, ce qui n'a rien d'ordinaire, et il fait l'objet d'une saison de récitals. Les horaires d'ouverture de l'église et le calendrier des concerts sont deux choses différentes : on vérifie les deux si l'on vient pour entendre l'orgue et pas seulement pour le voir."
+      },
+      {
+        heading: "10. Les Alpilles, et comment venir",
+        body: "Le parc naturel régional des Alpilles a été créé le 1er février 2007, quarante-cinquième parc régional de France ; il couvre 51 000 hectares sur seize communes, et la Maison du Parc est à Saint-Rémy. Les sentiers partent du massif au sud de la ville. L'accès aux massifs est réglementé par arrêté préfectoral en saison des feux, avec des niveaux évalués au jour le jour qui peuvent tout fermer : cela se consulte le matin même, et passer outre est une infraction. Les Baux-de-Provence sont une commune à part entière, à une dizaine de kilomètres, et se traitent comme une excursion. Saint-Rémy n'a pas de gare : la plus proche est à Avignon."
+      }
+    ],
+    relatedCities: ["saint-remy-de-provence", "avignon", "arles", "cavaillon", "salon-de-provence"],
+    relatedGuides: [
+      "10-choses-a-faire-a-avignon-2026",
+      "10-choses-a-faire-a-arles-2026",
+      "10-choses-a-faire-a-cavaillon-2026",
+      "10-choses-a-faire-a-salon-de-provence-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Rémy-de-Provence", "activités Saint-Rémy 2026", "que faire dans les Alpilles", "sorties Provence patrimoine", "Glanum Saint-Paul-de-Mausole Van Gogh Nostradamus"]
+  },
+  {
+    slug: "10-choses-a-faire-a-la-baule-2026",
+    title: "10 choses à faire à La Baule",
+    metaTitle: "10 choses à faire à La Baule en 2026",
+    metaDesc:
+      "Un village enseveli sous le sable, une forêt plantée pour l'arrêter, 9 km de plage et 6 871 bâtiments sous protection : 10 activités à La Baule.",
+    category: "tourisme",
+    emoji: "🏖️",
+    readMinutes: 7,
+    publishedAt: "2026-09-15",
+    updatedAt: "2026-09-15",
+    intro:
+      "La Baule-Escoublac comptait 16 613 habitants au recensement de 2022, contre 15 455 en 2016 et 16 112 en 2011. La commune a donc perdu des résidents puis en a repris davantage : plus 3,1 % sur onze ans, mais plus 7,5 % sur les six dernières années. Sur la longue période elle est la dernière des sept communes de Loire-Atlantique que suit ce site, derrière Vertou, Saint-Herblain, Orvault, Nantes, Rezé et Saint-Nazaire ; sur la période récente, la lecture s'inverse. C'est une station, et une station se compte mal avec un recensement, qui enregistre des résidents et pas des lits. Le fait fondateur, lui, est un désastre : le village d'Escoublac a été enseveli sous le sable, et la forêt de pins qu'on traverse aujourd'hui a été plantée pour l'arrêter.",
+    sections: [
+      {
+        heading: "1. La baie, neuf kilomètres de plage",
+        body: "La baie s'étend sur neuf kilomètres entre Pornichet à l'est et Le Pouliguen à l'ouest, et elle est classée au club des plus belles baies du monde. C'est une plage de sable fin en arc régulier, sans rocher au milieu, ce qui explique à la fois son succès et son uniformité : on marche longtemps sans que le paysage change beaucoup. Le fond est plat et la mer se retire loin, si bien que la distance entre le remblai et l'eau varie fortement dans la journée. Les trois communes se partagent l'arc, donc une partie de ce qu'on appelle couramment la plage de La Baule n'est pas à La Baule."
+      },
+      {
+        heading: "2. Escoublac, le village que le sable a enseveli",
+        body: "Le premier village d'Escoublac, établi autour d'un prieuré au XIe siècle, a été submergé par les avancées de sable à la fin du XVIIIe siècle. L'ensevelissement ne s'est pas fait en une nuit mais sur plus de vingt ans, et la commune a fini par abandonner le site pour se rebâtir à environ un kilomètre à l'intérieur des terres, en 1779. Les récits locaux attribuent une part du désastre aux habitants eux-mêmes, qui arrachaient les plantes fixant les dunes pour en faire des balais et y laissaient paître leurs moutons ; c'est une tradition orale, pas une démonstration. L'ancien village est sous la grande dune, et il n'y a rien à voir : c'est justement l'intérêt de le savoir."
+      },
+      {
+        heading: "3. La forêt, plantée contre les dunes",
+        body: "Un vaste programme de plantation de pins maritimes est lancé au milieu du XIXe siècle pour arrêter l'avancée des sables, et la fixation des dunes rend habitables des terrains qui ne l'étaient pas. Autrement dit, la forêt d'Escoublac n'est pas un reste de nature préservée, c'est un ouvrage de génie civil qui a poussé. Sans elle, il n'y aurait ni villas ni station. Elle se parcourt aujourd'hui à pied et à vélo par des allées sableuses, offre de l'ombre les jours de canicule et fait la transition entre le front de mer et le bourg. C'est le meilleur endroit de la commune pour comprendre comment elle a été fabriquée."
+      },
+      {
+        heading: "4. Le quartier des villas",
+        body: "Le périmètre de protection du patrimoine communal, devenu site patrimonial remarquable après la loi du 7 juillet 2016 qui a transformé les anciennes ZPPAUP puis AVAP, englobe 6 871 bâtiments. Quinze villas y sont distinguées comme patrimoine exceptionnel, 699 comme patrimoine remarquable à conserver et 1 741 comme accompagnement indispensable. Ces chiffres disent mieux que tout adjectif ce qu'est cet endroit : une station dont la matière première est son bâti. Les styles se mêlent, régionaliste, balnéaire, Art déco, sous les pins. Une précision nécessaire : ce sont des propriétés privées, qui se regardent depuis la rue et pas depuis un jardin."
+      },
+      {
+        heading: "5. 1879, le train, et la station qu'il fabrique",
+        body: "Tout part de l'arrivée du chemin de fer en 1879, avec la liaison de Paris au Croisic qui dessert Escoublac. La Société des Dunes lotit alors les terrains situés entre la plage et la pinède, et le développement de la station court de 1879 à 1914. Un premier casino ouvre en 1904. La chronologie explique la forme de la ville : un damier d'avenues tracé d'un coup sur des dunes tout juste stabilisées, avec des parcelles calibrées pour des villas de villégiature, et non un bourg qui aurait grandi par accrétion. C'est une ville conçue en même temps que sa clientèle, et cela se voit encore dans le plan."
+      },
+      {
+        heading: "6. Le Pouliguen, à l'ouest de la baie",
+        body: "Le Pouliguen ferme la baie à l'ouest et c'est une commune distincte, accessible à pied depuis La Baule par le bord de mer. Le caractère y change complètement : port de pêche et de plaisance, criques rocheuses, sentier côtier sur la côte sauvage au-delà de la pointe. La transition est nette et se fait au niveau de l'étier qui sépare les deux communes. C'est le complément logique d'une journée de plage, parce qu'on y retrouve le relief et les rochers que l'arc de sable n'a pas. Les sentiers de falaise sont exposés et balisés : on reste sur le tracé, la roche se délite par endroits."
+      },
+      {
+        heading: "7. Pornichet, à l'est de la baie",
+        body: "À l'autre extrémité, Pornichet est également une commune à part entière, avec son port de plaisance, son hippodrome et un front de mer qui prolonge celui de La Baule sans rupture visible. C'est là que la baie se termine et que commence le secteur de Saint-Nazaire. Le fait qu'on passe d'une commune à l'autre sans s'en apercevoir explique une bonne part des confusions d'adresse : un hébergement annoncé à La Baule peut être à Pornichet ou au Pouliguen, avec la même plage devant et pas les mêmes services derrière. On vérifie la commune sur une carte avant de réserver, pas le nom de la baie."
+      },
+      {
+        heading: "8. Les marais salants de Guérande, accessibles depuis La Baule",
+        body: "Les marais salants sont sur les communes de Guérande et de Batz-sur-Mer, à une dizaine de kilomètres au nord et à l'ouest, et se traitent comme une excursion d'une demi-journée. On y voit un paysage entièrement artificiel, un damier d'œillets et de talus d'argile façonné pour faire cristalliser l'eau de mer, et une activité de production toujours en cours. Des visites guidées existent avec des paludiers. C'est le contrepoint exact de la plage : une côte qu'on a modelée pour en tirer autre chose que du loisir. La cité médiévale de Guérande, ceinte de remparts, est dans la foulée et sur la même commune."
+      },
+      {
+        heading: "9. Se baigner, et ce que la marée change",
+        body: "La baie est abritée et le fond descend en pente douce, ce qui en fait une plage réputée facile, mais la mer s'y retire loin et remonte vite sur un sable plat. Deux conséquences pratiques : les distances à parcourir pour atteindre l'eau varient de plusieurs centaines de mètres dans la journée, et une zone de sable découverte peut être recouverte plus rapidement qu'on ne l'anticipe. La surveillance est saisonnière et ne couvre que des zones délimitées ; la signalétique vert, jaune, rouge d'un poste de secours est réglementaire et non indicative. Hors saison et hors zone surveillée, on nage sans filet, ce qui est un choix mais doit en être un."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "La commune est desservie par la ligne ferroviaire qui longe la côte jusqu'au Croisic, avec des relations directes depuis Paris dont la fréquence varie fortement selon la saison : les horaires se vérifient avant de partir, un train d'été n'est pas un train de novembre. Deux jours suffisent pour la baie, la forêt et le quartier des villas. Trois avec Guérande et les marais. La pleine saison est courte et dense, juillet et août, avec des prix et une fréquentation qui n'ont rien à voir avec le reste de l'année ; mai, juin et septembre offrent la même plage sans la foule, avec une eau plus fraîche et des services partiellement ouverts."
+      }
+    ],
+    relatedCities: ["la-baule", "saint-nazaire", "vannes", "nantes", "carnac"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-nazaire-2026",
+      "10-choses-a-faire-a-nantes-2026",
+      "10-choses-a-faire-a-vannes-2026",
+      "10-choses-a-faire-a-carnac-2026"
+    ],
+    tags: ["10 choses à faire à La Baule", "activités La Baule 2026", "que faire en Loire-Atlantique", "sorties Pays de la Loire littoral", "baie villas forêt d'Escoublac marais de Guérande"]
+  },
+  {
+    slug: "10-choses-a-faire-a-morlaix-2026",
+    title: "10 choses à faire à Morlaix",
+    metaTitle: "10 choses à faire à Morlaix en 2026",
+    metaDesc:
+      "Un viaduc de 62 m au-dessus des toits, des maisons à pondalez qu'on ne trouve nulle part ailleurs, une rivière enterrée : 10 activités à Morlaix.",
+    category: "tourisme",
+    emoji: "🌉",
+    readMinutes: 7,
+    publishedAt: "2026-09-15",
+    updatedAt: "2026-09-15",
+    intro:
+      "Morlaix comptait 15 220 habitants au recensement de 2022, contre 14 721 en 2016 et 15 549 en 2011. Le solde sur onze ans reste négatif, moins 2,1 %, mais la commune a repris 3,4 % sur les six dernières années : c'est une ville qui a cessé de perdre, ce qui n'est pas si courant dans le Finistère intérieur. C'est aussi l'une des deux moins chères des cinq communes du département que suit ce site, sur le loyer comme sur le prix au mètre carré, derrière Douarnenez et devant Brest, Quimper et Concarneau. Le reste se voit en arrivant. Un viaduc ferroviaire de soixante-deux mètres de haut et deux cent quatre-vingt-douze mètres de long passe au-dessus du centre-ville, et la ville a organisé sa vie autour de ce qui lui sert de plafond.",
+    sections: [
+      {
+        heading: "1. Le viaduc",
+        body: "Le viaduc est un pont ferroviaire en maçonnerie de pierre à deux niveaux d'arches en plein cintre, construit de 1861 à 1863. Il mesure deux cent quatre-vingt-douze mètres de long et culmine à soixante-deux mètres au-dessus de la vallée, si bien que les trains passent au niveau des toits et non au niveau des rues. Aucune photographie ne rend l'échelle : il faut se placer dessous, sur la place, pour la mesurer. Un cheminement existe au niveau inférieur et a été ouvert aux piétons ; son accessibilité dépend des travaux en cours et se vérifie sur place ou auprès de l'office de tourisme avant de monter."
+      },
+      {
+        heading: "2. Les maisons à pans de bois",
+        body: "Morlaix compte cent cinquante-deux maisons à pans de bois recensées, la plus forte densité du Finistère. Ce n'est pas un décor reconstitué mais un tissu urbain qui a échappé aux destructions, dans une région où la plupart des villes portuaires ont été rasées ou refaites. Les façades se lisent à l'œil nu : encorbellements, poteaux sculptés, figures de bois taillées à hauteur de regard. La rue Ange-de-Guernisac et la Grand-Rue en concentrent l'essentiel. C'est une visite qui se fait sans billet et sans horaire, simplement en marchant la tête levée, et c'est probablement le meilleur usage d'une première heure en ville."
+      },
+      {
+        heading: "3. La maison à pondalez",
+        body: "Le pondalez est un type de maison qu'on ne trouve pratiquement qu'ici. Le plan associe deux corps de bâtiment, l'un sur rue et l'autre sur cour, séparés par une cour intérieure couverte qui traverse la maison sur toute sa hauteur ; un escalier en vis monumental en bois dessert les niveaux, reliés entre eux par des passerelles suspendues, les pondalez. Cela produit un intérieur vertical et éclairé par le haut, très loin de ce que la façade laisse imaginer. La maison ouverte au public a été restaurée dans les années 1990 et est classée au titre des monuments historiques ; elle présente des collections du musée."
+      },
+      {
+        heading: "4. La maison dite de la Duchesse Anne",
+        body: "C'est le pondalez le plus connu de la ville, avec sa façade couverte de statues de saints et de personnages. Sa construction est située vers 1520-1530, datation déduite du style du décor et du contexte, la ville ayant été mise à sac par les Anglais en 1522. Le nom, lui, est une tradition et non un fait établi : rien ne démontre que la duchesse Anne y ait logé, et le bâtiment est postérieur à sa mort. Cela n'enlève rien à l'édifice, qui est l'un des plus riches intérieurs civils de la Bretagne du XVIe siècle, mais il vaut mieux le savoir que de répéter une légende comme une date."
+      },
+      {
+        heading: "5. Le musée de Morlaix",
+        body: "Le musée ouvre en 1887 dans le couvent des Jacobins, un bâtiment fondé en 1230 et classé monument historique, et fonctionne aujourd'hui sur plusieurs sites : les Jacobins, la maison à pondalez et l'espace des arts. Les collections couvrent les beaux-arts, l'archéologie et l'histoire locale. Un point pratique avant de se déplacer : la répartition entre les sites a bougé au fil des campagnes de travaux, et l'un d'eux peut être fermé quand les autres sont ouverts. On vérifie quel site présente quoi à la date de la visite, plutôt que de se fier à une brochure ancienne ou à une page tierce."
+      },
+      {
+        heading: "6. La rivière que la ville a enterrée",
+        body: "Le Queffleuth et le Jarlot se rejoignent près de l'hôtel de ville, et à partir de là la rivière est couverte : elle circule sous la ville et ne réapparaît qu'au port de plaisance, qui compte deux cents anneaux. C'est ce qui explique la topographie en V du centre et la disposition des rues, qui suivent deux vallées convergentes. L'ancien port remontait bien plus haut que le bassin actuel, jusqu'à la place des Otages, avant les comblements. Marcher du haut de la ville jusqu'au port revient donc à suivre une rivière qu'on ne voit pas, ce qui est une manière assez juste de comprendre Morlaix."
+      },
+      {
+        heading: "7. Les venelles et les escaliers",
+        body: "Entre les deux versants, la ville est cousue de venelles étroites et raides, entrecoupées d'escaliers de pierre, qui font gagner en quelques dizaines de mètres ce qu'une rue carrossable met plusieurs centaines à monter. Elles sont l'autre visite gratuite de Morlaix, et de loin la plus dépaysante : on passe de la place animée à un passage silencieux entre deux murs en trois pas. Le revers est mécanique : le centre se pratique en côte, les pavés sont glissants par temps de pluie, ce qui est fréquent, et le parcours convient mal aux poussettes et aux personnes à mobilité réduite."
+      },
+      {
+        heading: "8. La place des Otages",
+        body: "C'est le centre névralgique de la ville, au pied du viaduc, et le meilleur endroit pour saisir l'échelle de l'ouvrage. Le kiosque qui l'occupe a été offert en 1903 par Auguste Ropars. La place est bâtie sur l'emprise de l'ancien port, qui remontait jusque-là avant les travaux de comblement, ce qui explique sa forme allongée et son niveau. Marché, terrasses et manifestations s'y tiennent, et c'est de là que partent la plupart des circuits de découverte. Le point de vue est aussi le plus photographié de Bretagne intérieure, ce qui n'enlève rien au fait qu'il tient ses promesses."
+      },
+      {
+        heading: "9. La manufacture des tabacs",
+        body: "La manufacture est établie en 1736 sur des plans attribués à l'architecte Blondel, et c'est un bâtiment de granit d'une ampleur qui n'a rien de provincial : il a surveillé le port pendant plus de deux siècles et demi et a employé une part considérable de la ville, en particulier des femmes. La production a cessé et le site est engagé dans une reconversion culturelle et scientifique de longue haleine, dont un espace des sciences. Comme tout site en chantier par tranches, ce qui est ouvert au public varie : on regarde l'état d'avancement avant de venir, et l'extérieur se voit de toute façon depuis le quai."
+      },
+      {
+        heading: "10. Le château du Taureau et la baie, accessibles depuis Morlaix",
+        body: "Le château du Taureau se dresse sur un îlot rocheux à l'entrée de la rade, à l'embouchure de la rivière, donc bien en aval du centre et pas dans la ville. Forteresse du XVIe siècle agrandie par Vauban, il ne se rejoint qu'en bateau, au départ des embarcadères de la baie, et les traversées dépendent de la marée et de la météo. C'est une excursion à part entière et non un ajout de fin d'après-midi. Pour venir, Morlaix a une gare sur la ligne de Paris à Brest, desservie par des trains directs : c'est l'une des villes de Bretagne intérieure les plus simples à atteindre sans voiture."
+      }
+    ],
+    relatedCities: ["morlaix", "brest", "quimper", "saint-brieuc", "concarneau"],
+    relatedGuides: [
+      "10-choses-a-faire-a-brest-2026",
+      "10-choses-a-faire-a-quimper-2026",
+      "10-choses-a-faire-a-saint-brieuc-2026",
+      "10-choses-a-faire-a-concarneau-2026"
+    ],
+    tags: ["10 choses à faire à Morlaix", "activités Morlaix 2026", "que faire dans le Finistère", "sorties Bretagne patrimoine", "viaduc maisons à pondalez manufacture des tabacs"]
+  },
+  {
+    slug: "10-choses-a-faire-a-dax-2026",
+    title: "10 choses à faire à Dax",
+    metaTitle: "10 choses à faire à Dax en 2026",
+    metaDesc:
+      "Une source qui débite 2,4 millions de litres par jour à 64 °C, 320 m de rempart romain debout, des arènes de 1913 : 10 activités à Dax, dans les Landes.",
+    category: "tourisme",
+    emoji: "♨️",
+    readMinutes: 7,
+    publishedAt: "2026-09-15",
+    updatedAt: "2026-09-15",
+    intro:
+      "Dax comptait 21 716 habitants au recensement de 2022, contre 20 891 en 2016 et 20 299 en 2011, soit une hausse de 7,0 % sur onze ans qui la place deuxième des quatre communes des Landes que suit ce site, derrière Biscarrosse et ses 22,0 %. C'est la première destination thermale de France, avec de l'ordre de soixante mille curistes par an et une quinzaine d'établissements thermaux, hôpital thermal compris. Cela commande à peu près tout le reste : l'organisation des rues, le calendrier, la démographie, le type de commerce. Le point de départ est physique et tient en un chiffre. L'eau sort du sol au centre-ville à soixante-quatre degrés, et elle le faisait déjà quand les Romains ont construit leur enceinte autour.",
+    sections: [
+      {
+        heading: "1. La fontaine chaude",
+        body: "La source de la Nèhe débite environ 2,4 millions de litres par jour à 64 °C, dans un bassin ouvert en plein centre-ville, bâti au XIXe siècle à l'emplacement de thermes romains. La vapeur qui s'en dégage en hiver est le spectacle le plus simple et le plus caractéristique de la ville. Une chose doit être dite clairement : on ne s'y baigne pas et on n'y trempe pas la main plus d'un instant. À soixante-quatre degrés, l'eau brûle en quelques secondes, ce que la présence d'une margelle accessible ne suggère pas assez. Le bassin est un ouvrage de captage, pas un bain."
+      },
+      {
+        heading: "2. Le péloïde, la boue de Dax",
+        body: "Le péloïde est la boue thermale locale, obtenue par la maturation de limon de l'Adour avec l'eau thermale, et c'est le support de la plupart des cures pratiquées ici, en rhumatologie et en phlébologie. Ce n'est pas de la vase ramassée dans la rivière : c'est un produit encadré, préparé dans des bassins de maturation, avec un cycle et des contrôles. On ne le manipule donc pas hors établissement. Comprendre cette chaîne, de l'eau chaude au limon puis au soin, est ce qui distingue une visite de Dax d'une visite de n'importe quelle ville d'eaux, et cela s'explique dans les établissements qui proposent des visites."
+      },
+      {
+        heading: "3. Les remparts gallo-romains",
+        body: "L'enceinte a été élevée au IVe siècle et faisait près de mille cinq cents mètres de développement, surveillée par quarante-trois tours rondes de dix mètres de diamètre, percée de quatre portes. Il en reste environ trois cent vingt mètres debout, considérés par les archéologues comme l'un des ensembles les mieux conservés de France dans cette catégorie. Ils se longent librement, en extérieur, et l'on mesure d'un coup d'œil l'épaisseur de l'ouvrage. Le rapport avec la section précédente n'est pas décoratif : c'est l'eau chaude qui a fixé une agglomération assez importante pour justifier une muraille de cette taille au Bas-Empire."
+      },
+      {
+        heading: "4. La crypte archéologique",
+        body: "Sous le centre-ville, la crypte conserve les fondations d'une basilique civile datée du Ier ou du IIe siècle, c'est-à-dire d'un édifice public antérieur de deux siècles et demi à l'enceinte. C'est un témoignage direct de la vie publique romaine à cet endroit, et le contrepoint souterrain des remparts. L'accès se fait par créneaux et souvent en visite accompagnée, avec des jauges réduites par la configuration des lieux : la réservation préalable est la règle et non l'exception, et l'espace ne convient pas à tout le monde. On se renseigne à l'office de tourisme avant de se déplacer, l'ouverture n'étant pas continue."
+      },
+      {
+        heading: "5. L'ancienne cathédrale et le portail des Apôtres",
+        body: "La cathédrale Notre-Dame a été reconstruite entre le XVIIe et le XIXe siècle dans un goût néoclassique qui surprend pour une église méridionale, et l'essentiel de son intérêt est un survivant. Le portail des Apôtres, vestige de la cathédrale gothique précédente, a été remonté à l'intérieur de l'édifice actuel au lieu d'être détruit avec le reste. On a donc une façade sculptée médiévale conservée sous une voûte du XVIIIe, situation inhabituelle qui vaut d'être cherchée : le portail n'est pas là où l'on attend un portail, ce qui fait que beaucoup de visiteurs passent devant sans le voir."
+      },
+      {
+        heading: "6. Les arènes et la feria",
+        body: "Les arènes de Dax ont été inaugurées en 1913 et la feria se tient à la mi-août. Il faut dire ce qui s'y passe sans en faire l'éloge : la corrida y occupe une place centrale, c'est une pratique légalement encadrée dans les départements de tradition taurine et vivement contestée par ailleurs, et ce guide n'a pas à trancher ce débat à la place du lecteur. Ce qui relève du fait pratique est simple : pendant la feria, la ville est pleine, les rues sont occupées jour et nuit, l'hébergement se réserve très en avance et les prix ne sont pas ceux du reste de l'année."
+      },
+      {
+        heading: "7. Le quartier thermal hors saison de cure",
+        body: "Une cure conventionnée dure trois semaines, et cela imprime un rythme particulier à la ville : la population visible change par cycles, les commerces, les horaires et les services sont calés dessus. Hors des pics, le quartier thermal se promène très bien, avec ses établissements de la première moitié du XXe siècle, ses parcs et ses berges. C'est une dimension qu'on ne trouve dans presque aucune autre ville française à cette échelle, et c'est aussi ce qui explique la structure d'âge locale et le type d'hébergement disponible, davantage orienté vers le séjour long que vers la nuit d'étape."
+      },
+      {
+        heading: "8. L'Adour et les berges",
+        body: "Le fleuve traverse la ville et sépare le centre historique de la rive droite. Les berges aménagées se parcourent à pied et à vélo, et c'est la meilleure manière de sortir du secteur thermal sans prendre la voiture. Le limon dont on tire le péloïde vient de là, ce qui referme la boucle de la visite. Les zones humides du val de l'Adour, appelées barthes localement, commencent aux portes de la ville et constituent un milieu naturel de premier ordre pour les oiseaux. Elles relèvent de plusieurs communes et s'abordent par des sentiers balisés depuis les accès aménagés."
+      },
+      {
+        heading: "9. La forêt des Landes et la côte, accessibles depuis Dax",
+        body: "Dax est à l'intérieur des terres et n'a pas de plage : le littoral commence à une trentaine de kilomètres, du côté de Capbreton et d'Hossegor, et la forêt de pins des Landes de Gascogne s'étend au nord. Les deux se traitent comme des excursions, pas comme des annexes du centre-ville. C'est une précision utile parce que la confusion est fréquente chez qui réserve un séjour dans les Landes : la station thermale et la côte océane sont deux univers distincts, avec une demi-heure à quarante minutes de route entre elles, et la saison de l'une ne coïncide pas avec celle de l'autre."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "La gare de Dax est sur l'axe de Bordeaux à Hendaye et reçoit des relations directes depuis Paris, ce qui en fait l'une des villes thermales les mieux desservies du pays ; c'est aussi un nœud vers le Béarn et la Bigorre. Une journée suffit pour la fontaine chaude, les remparts, la cathédrale et les berges. Deux si l'on ajoute la crypte et une visite d'établissement thermal. Le climat est doux et humide, la belle saison longue, et la ville ne connaît pas de morte-saison complète puisque les cures s'étalent de l'hiver à l'automne. La mi-août est à éviter si l'on ne vient pas pour la feria."
+      }
+    ],
+    relatedCities: ["dax", "bayonne", "mont-de-marsan", "biarritz", "hossegor"],
+    relatedGuides: [
+      "10-choses-a-faire-a-bayonne-2026",
+      "10-choses-a-faire-a-mont-de-marsan-2026",
+      "10-choses-a-faire-a-biarritz-2026",
+      "10-choses-a-faire-a-anglet-2026"
+    ],
+    tags: ["10 choses à faire à Dax", "activités Dax 2026", "que faire dans les Landes", "sorties Nouvelle-Aquitaine thermalisme", "fontaine chaude péloïde remparts gallo-romains"]
+  },
+  {
+    slug: "10-choses-a-faire-a-vendome-2026",
+    title: "10 choses à faire à Vendôme",
+    metaTitle: "10 choses à faire à Vendôme en 2026",
+    metaDesc:
+      "Une façade flamboyante signée Jean de Beauce, une relique qui a fait pèlerinage sept siècles, le Loir en bras multiples : 10 activités à Vendôme.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-09-15",
+    updatedAt: "2026-09-15",
+    intro:
+      "Vendôme comptait 15 566 habitants au recensement de 2022, contre 16 688 en 2016 et 16 849 en 2011 : moins 7,6 % sur onze ans et moins 6,7 % sur les six dernières, ce qui en fait la dernière des trois communes de Loir-et-Cher que suit ce site, derrière Blois et Romorantin-Lanthenay, toutes deux en hausse. C'est pourtant celle des trois à laquelle nos scores donnent la meilleure note globale. Le TGV met Paris-Montparnasse à quarante-deux minutes et la population baisse quand même ; ces deux faits coexistent, et ce guide n'entreprend pas de les relier. Ce qu'on vient voir, en revanche, ne se discute pas : une façade de 1508 qui est l'un des sommets du gothique flamboyant, posée sur une abbaye fondée en 1033.",
+    sections: [
+      {
+        heading: "1. L'abbaye de la Trinité",
+        body: "L'abbaye a été fondée en 1033 par Geoffroy Martel, comte d'Anjou et de Vendôme, et elle a été pendant des siècles l'une des maisons bénédictines les plus puissantes de la vallée. L'ensemble abbatial, et pas seulement l'église, constitue le cœur monumental de la ville : bâtiments conventuels, cloître, salle capitulaire. C'est une échelle sans rapport avec la taille de la commune actuelle, et c'est le premier constat qu'on fait en arrivant sur le parvis. L'accès à l'église est libre aux heures d'ouverture ; les parties conventuelles ont des usages divers, dont des équipements publics, et ne se visitent pas toutes."
+      },
+      {
+        heading: "2. La façade de Jean de Beauce",
+        body: "En 1508, le maître d'œuvre Jean Texier, dit Jean de Beauce, dessine la façade de l'abbatiale, et le résultat est l'un des chefs-d'œuvre du gothique flamboyant : une paroi entièrement travaillée, où la pierre semble brûler. Le même homme construit le clocher nord de la cathédrale de Chartres, ce qui donne la mesure du commanditaire et du chantier. On la regarde de face depuis le parvis, puis en oblique en fin de journée, quand la lumière rasante fait ressortir le relief. C'est le seul monument de ce guide pour lequel il vaut la peine de revenir à une autre heure."
+      },
+      {
+        heading: "3. Le clocher roman du XIIe siècle",
+        body: "Détaché de l'église, le clocher est antérieur de trois siècles et demi à la façade et il appartient à un autre monde architectural. Il ressemble au clocher sud de la cathédrale de Chartres, lui aussi du XIIe siècle, au point que la parenté est un lieu commun de l'histoire de l'art régionale. Le contraste entre les deux, à quelques mètres l'un de l'autre, est l'intérêt principal de la place : d'un côté la sobriété romane et la pyramide de pierre, de l'autre la dentelle du XVIe. Les voir dans le même champ de vision épargne un cours d'architecture."
+      },
+      {
+        heading: "4. La Sainte Larme, et ce qu'elle a fabriqué",
+        body: "Geoffroy Martel donne à l'abbaye la Sainte Larme, obtenue selon la tradition de l'empereur de Constantinople, présentée comme une larme versée par le Christ sur le tombeau de Lazare et conservée dans un vase de cristal. La relique fait de Vendôme un centre de pèlerinage majeur du XIe siècle jusqu'à la fin du XVIIIe, c'est-à-dire pendant sept siècles. C'est elle qui explique la richesse du chantier, la taille de l'abbaye et la façade de 1508. On ne vient donc pas voir un objet mais son effet : tout ce qui est debout ici a été payé par un flux de pèlerins qui s'est arrêté à la Révolution."
+      },
+      {
+        heading: "5. Le château et son parc",
+        body: "Les vestiges du château, échelonnés du XIe au XVIIe siècle, et ceux de sa collégiale Saint-Georges rappellent la puissance des comtes puis ducs de Bourbon-Vendôme, dont la maison accède au trône de France avec Henri IV. La tour de Poitiers domine encore l'ensemble. Le site a été endommagé deux fois, par les huguenots en 1562 et par les révolutionnaires en 1793. Un parc à l'anglaise a été créé au XIXe siècle à l'intérieur de l'enceinte, avec un cèdre planté en 1807 et une collection d'hortensias due aux Mouillère, horticulteurs vendômois. La vue sur la ville depuis le promontoire est la meilleure du secteur."
+      },
+      {
+        heading: "6. La porte Saint-Georges",
+        body: "C'est la seule survivante des quatre portes qui défendaient la ville, reconstruite au début du XVIe siècle par Marie de Luxembourg, comtesse de Vendôme. Elle enjambe le Loir, ce qui est déjà inhabituel pour une porte de ville, et elle a abrité l'hôtel de ville de 1467 jusqu'à une date récente, soit plus de cinq siècles d'usage administratif continu. La façade côté rivière est la plus soignée. C'est le meilleur endroit pour comprendre comment la ville se défendait : non pas par une muraille sèche, mais en s'appuyant sur les bras d'eau qui l'entourent et en tenant les passages."
+      },
+      {
+        heading: "7. Le Loir et ses bras",
+        body: "La vieille ville médiévale est enserrée entre deux bras du Loir, et la rivière se divise encore en canaux à l'intérieur du tissu urbain, ce qui donne à Vendôme ses ponts, ses quais et ses jardins d'eau. Ce n'est pas la Loire : le Loir est un affluent du Loir-et-Cher et de la Sarthe, plus modeste, plus lent, et beaucoup plus intime. La confusion entre les deux noms est permanente et vaut d'être levée avant de chercher des châteaux de la Loire à Vendôme. La promenade le long des bras, du parc Ronsard aux abords de l'abbaye, se fait en une heure."
+      },
+      {
+        heading: "8. Les lavoirs",
+        body: "Les lavoirs sont établis sur la rive gauche du Loir, le long de la rue Saint-Bienheuré, en aval du pont Saint-Georges. Ils forment un alignement d'ouvrages modestes, faciles à manquer, et ils disent quelque chose que les monuments ne disent pas : une ville d'eau vive avant l'eau courante, avec une organisation du travail domestique inscrite dans la pierre. C'est une visite de dix minutes qui complète bien l'abbaye, parce qu'elle change d'échelle sociale. Ils se voient depuis la rue et depuis l'autre rive, et le meilleur moment est le matin, quand la lumière tombe sur la rive gauche."
+      },
+      {
+        heading: "9. Le collège des Oratoriens, où Balzac a été élève",
+        body: "L'ancien collège des Oratoriens, devenu lycée, a accueilli Honoré de Balzac comme pensionnaire, expérience qu'il a transposée dans Louis Lambert. C'est un établissement scolaire en activité, donc on ne le visite pas : on le regarde depuis la rue, et c'est déjà instructif sur ce qu'était un internat provincial au début du XIXe siècle. La mention vaut surtout pour situer Vendôme dans une géographie littéraire qui dépasse largement sa taille actuelle, entre Ronsard, né dans le Vendômois, et Balzac. L'office de tourisme propose des parcours thématiques qui relient ces points."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "La gare TGV met Paris-Montparnasse à quarante-deux minutes, avec un nombre de circulations quotidiennes limité, mais elle ne s'appelle pas Vendôme par hasard et ne s'y trouve pas non plus : la gare de Vendôme-Villiers-sur-Loir est à environ cinq kilomètres au nord-ouest du centre, sur le territoire de Villiers-sur-Loir. Sans voiture ni correspondance, ces cinq kilomètres se règlent avant le départ. Une journée suffit pour l'abbaye, le château, la porte et les bras du Loir. Blois est à une trentaine de kilomètres et Amboise à une quarantaine : les châteaux de la Loire sont proches, mais ce sont d'autres communes et d'autres journées."
+      }
+    ],
+    relatedCities: ["vendome", "blois", "amboise", "tours"],
+    relatedGuides: [
+      "10-choses-a-faire-a-blois-2026",
+      "10-choses-a-faire-a-amboise-2026",
+      "10-choses-a-faire-a-tours-2026",
+      "10-choses-a-faire-a-orleans-2026"
+    ],
+    tags: ["10 choses à faire à Vendôme", "activités Vendôme 2026", "que faire en Loir-et-Cher", "sorties Centre-Val de Loire patrimoine", "abbaye de la Trinité Jean de Beauce porte Saint-Georges"]
+  },
+  {
+    slug: "10-choses-a-faire-a-ceret-2026",
+    title: "10 choses à faire à Céret",
+    metaTitle: "10 choses à faire à Céret en 2026",
+    metaDesc:
+      "Le plus grand arc de pont du monde en 1341, Picasso et Braque à l'été 1911, les cerises de l'Élysée : 10 activités à Céret, dans les Pyrénées-Orientales.",
+    category: "tourisme",
+    emoji: "🍒",
+    readMinutes: 7,
+    publishedAt: "2026-09-15",
+    updatedAt: "2026-09-15",
+    intro:
+      "Céret comptait 7 544 habitants au recensement de 2022, contre 7 747 en 2016 et 7 583 en 2011 : la commune est stable à long terme, moins 0,5 % sur onze ans, entre Perpignan qui gagne 2,3 % et Collioure qui perd 13,1 %, les deux autres communes des Pyrénées-Orientales que suit ce site. Une petite ville du Vallespir qui ne bouge pas, donc, et qui aligne deux titres mondiaux à quatre cents ans d'écart. En 1341, quand on ferme son arche, le pont du Diable est le plus grand arc de pont du monde. À l'été 1911, Picasso et Braque s'installent ici, et le critique André Salmon appelle Céret la Mecque du cubisme.",
+    sections: [
+      {
+        heading: "1. Le pont du Diable",
+        body: "Le pont franchit le Tech d'une seule arche de 45,45 mètres de portée, culminant à 22,3 mètres à la clé, et il a été bâti entre 1321 et 1341. À son achèvement, c'est le plus grand arc de pont du monde, devant le Ponte della Maddalena en Italie qui détenait le record jusque-là ; il le reste jusqu'en 1356, année où le pont de Castelvecchio à Vérone le dépasse. Quinze ans de record mondial pour une commune du Vallespir, cela mérite d'être dit. On le voit de la rive et l'on passe dessus à pied. La perspective la plus juste s'obtient depuis le lit du fleuve, en contrebas."
+      },
+      {
+        heading: "2. La légende du pont",
+        body: "La tradition veut que l'ouvrage soit l'œuvre inachevée du diable, à qui il manquerait la dernière pierre. Les habitants, voulant un pont sur la rivière, l'auraient appelé ; il aurait accepté à la condition d'emporter la première âme qui passerait. Le pont bâti, les habitants auraient envoyé un chat traverser en premier. C'est un récit de type très répandu, qu'on retrouve sur d'autres ponts français portant le même nom, et il faut le prendre pour ce qu'il est : une explication populaire d'un exploit technique que personne, localement, n'avait les moyens de comprendre au XIVe siècle."
+      },
+      {
+        heading: "3. Le musée d'art moderne",
+        body: "Le musée a été fondé en 1950 par deux peintres, Pierre Brune et Frank Burty Haviland, et il doit son fonds à une particularité : les artistes qui sont passés ici ont donné. Il conserve soixante-dix-huit pièces de Picasso, dont cinquante-sept offertes par l'artiste lui-même. C'est ce qui rend l'endroit disproportionné par rapport à la taille de la commune, et c'est aussi ce qui le distingue d'un musée constitué par achats. Les accrochages changent et le musée a connu une campagne de travaux d'extension : on vérifie ce qui est présenté au moment de la visite, une collection n'étant jamais montrée en entier."
+      },
+      {
+        heading: "4. L'été 1911, Picasso et Braque",
+        body: "Picasso et Braque arrivent à Céret pour la première fois à l'été 1911, dans une petite ville catalane que rien ne prédisposait à cela, et d'autres suivent. C'est le moment où le cubisme analytique atteint son point le plus serré, et une partie des toiles qui le fixent ont été peintes ici. Le surnom de Mecque du cubisme est de la main du critique André Salmon. Il faut préciser ce qu'on peut voir aujourd'hui : les lieux de séjour, les rues, les platanes et le paysage qui sert de fond, plus les œuvres du musée. Les tableaux majeurs de 1911 et 1912, eux, sont dans les grandes collections internationales."
+      },
+      {
+        heading: "5. Le pont que Picasso n'a pas peint à Paris",
+        body: "C'est la correction la plus utile à faire ici. Des toiles longtemps rattachées au Pont-Neuf de Paris représentent en réalité le pont du chemin de fer de Céret, inauguré en 1889, que les habitants appelaient el pont nou, le pont neuf en catalan. Le malentendu tient à une traduction. Cela change la lecture des œuvres concernées et donne une raison supplémentaire d'aller regarder cet ouvrage métallique, beaucoup moins photogénique que son voisin médiéval. Il portait une ligne de chemin de fer : la gare de Céret, mise en service en 1889, a été fermée aux voyageurs en 1940 et la section n'en transporte plus depuis."
+      },
+      {
+        heading: "6. Les cerises, et la cagette de l'Élysée",
+        body: "Depuis 1932, la commune et les producteurs envoient au président de la République la première cagette de cerises récoltées à Céret. La tradition a commencé sur un fait divers : les échanges s'étaient engagés avec l'équipe de Paul Doumer, mais c'est Albert Lebrun qui les a reçues, Doumer ayant été assassiné entre-temps. Une honnêteté s'impose sur la formule qu'on entend partout : ce ne sont plus systématiquement les premières cerises de France, celles de Saint-Gilles dans le Gard les devançant certaines années. Elles restent une production de référence, et la récolte se voit sur les marchés à partir du printemps."
+      },
+      {
+        heading: "7. Le Vallespir et le Tech",
+        body: "Céret est la porte basse du Vallespir, la vallée du Tech, qui remonte vers l'intérieur jusqu'à Prats-de-Mollo. La vallée concentre en quelques dizaines de kilomètres un étagement complet, des vergers et des oliviers ici, la montagne et les stations thermales plus haut. Le Tech est un fleuve côtier à régime méditerranéen : très bas l'été, capable de crues brutales à l'automne, ce qui explique la démesure de l'arche du pont du Diable. Les abords du lit ne sont pas un lieu où s'installer par temps incertain, et les épisodes cévenols concernent ce département autant que ses voisins."
+      },
+      {
+        heading: "8. La ville catalane",
+        body: "On est ici en Catalogne du Nord, et cela se voit et s'entend : toponymie catalane, bilinguisme dans la signalétique, sardane dansée sur les places, calendrier de fêtes qui n'est pas celui du reste de l'Occitanie. La frontière espagnole est à une vingtaine de kilomètres par la route, ce qui fait de la Catalogne du Sud une excursion facile mais bien un franchissement de frontière, intérieur à l'espace Schengen, sans formalité mais avec une pièce d'identité. Le centre ancien se parcourt sous les platanes, autour des places, et c'est là que la ville se pratique réellement."
+      },
+      {
+        heading: "9. Le Canigou et les Aspres, accessibles depuis Céret",
+        body: "Le massif du Canigou domine tout l'horizon nord depuis la commune, et c'est le repère visuel de la Catalogne entière, des deux côtés de la frontière. Il n'est pas sur Céret : les accès et les refuges relèvent d'autres communes, la montée se fait par des pistes et des sentiers qui demandent préparation, et la haute montagne s'y comporte comme partout ailleurs, avec des orages d'après-midi en été et des conditions hivernales sévères. Les Aspres, collines sèches entre le Vallespir et le Conflent, offrent une randonnée plus accessible et des villages de caractère à courte distance."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Il n'y a pas de train pour Céret depuis 1940 : on arrive en voiture ou par car depuis Perpignan, à une trentaine de kilomètres, qui est la gare utile. Une journée suffit pour le pont, le musée et le centre ancien. Deux si l'on remonte le Vallespir ou si l'on passe la frontière. La saison est large, le climat méditerranéen de piémont donnant des intersaisons agréables ; l'été est chaud et la fréquentation forte, le printemps est la période des cerises. L'accès aux massifs boisés peut être réglementé par arrêté préfectoral en période de risque incendie, et cela se consulte le jour même."
+      }
+    ],
+    relatedCities: ["ceret", "perpignan", "collioure", "narbonne"],
+    relatedGuides: [
+      "10-choses-a-faire-a-perpignan-2026",
+      "10-choses-a-faire-a-collioure-2026",
+      "10-choses-a-faire-a-narbonne-2026",
+      "10-choses-a-faire-a-carcassonne-2026"
+    ],
+    tags: ["10 choses à faire à Céret", "activités Céret 2026", "que faire dans les Pyrénées-Orientales", "sorties Occitanie art moderne", "pont du Diable musée d'art moderne cerises Vallespir"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

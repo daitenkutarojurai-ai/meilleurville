@@ -1825,6 +1825,62 @@ bordelaises (Villenave-d'Ornon, Talence, Le Bouscat) et les trous listés au bat
 Saint-Rémy-de-Provence, La Baule, Morlaix, Sélestat, Dax, Obernai, Aubusson, Saverne, Vendôme,
 Douarnenez, Quiberon, Céret).
 
+**Batch 48 — FR, shipped 2026-09-15 : Langres, Saint-Rémy-de-Provence, La Baule, Morlaix, Dax,
+Vendôme, Céret.** Sept villes, sept régions, prises dans le vivier laissé par les batches 46 et 47 ;
+**trois n'étaient citées par aucun guide du site** (Langres, Saint-Rémy-de-Provence, La Baule), ce
+qui était le vrai trou du corpus. **Compteurs mesurés : FR 268 (`-a-` strict 260 + 6 en `au-` + 2 en
+`aux-`), EN 261 ; `GUIDES` 1 129 → 1 136.** Aucun nouveau slug hors gabarit ; ⚠️ noter que le slug de
+seed de La Baule est **`la-baule`** alors que le nom du seed est « La Baule-Escoublac » — le guide se
+dérive du slug, côté FR comme côté EN. `metaTitle` 31-42 caractères, `metaDesc` 139-153, 10 sections
+par guide, densité d'accents 0,139-0,167 **par mot** (seuil ascii-strip 0,09), **0 em-dash**.
+`npm run search-index` relancé (1 136 guides, **268 tags, inchangé**, donc aucune page `/tags/`
+créée) et `npm run sitemap:check` repassé (FR **29 239 URL**, EN 28 825). Contrôle de lookup / photo
+passé **sur les 540 villes et les 268 guides de la série** : 268/268 atteignables, 0 orphelin,
+0 collision, 0 guide sans photo d'en-tête.
+⚠️ **Le fait le plus utile du batch est une correction d'attribution** : des toiles de Picasso
+longtemps rattachées au **Pont-Neuf de Paris** représentent le **pont du chemin de fer de Céret**,
+inauguré en 1889, que les habitants appelaient **el pont nou** — le malentendu tient à une
+traduction. Et la **gare de Céret, ouverte en 1889, est fermée aux voyageurs depuis 1940** : il n'y a
+pas de train pour Céret, la gare utile est Perpignan. Deuxième correction du même genre : **La Baule
+n'est pas née d'une plage mais d'un désastre** — le premier village d'Escoublac a été submergé par le
+sable et la commune s'est rebâtie **un kilomètre à l'intérieur des terres en 1779**, la forêt de pins
+ayant été plantée au milieu du XIXe siècle **pour arrêter ce sable**.
+⚠️ **Deux affirmations corrigées avant commit, toutes deux démenties par une mesure sur nos propres
+données** : Morlaix donnée « la moins chère des cinq communes du Finistère, devant Douarnenez » alors
+que c'est **l'inverse** (Douarnenez T3 690 € et m² 1 600 € contre 710 € et 1 700 €) ; et le château du
+Taureau placé « à une vingtaine de kilomètres » de Morlaix, distance jamais vérifiée, retirée. **Le
+contrôle qui a trouvé la première est un tri du département sur le loyer et le prix au m², pas une
+relecture.**
+⚠️ **Deux chiffres volontairement omis, sources divergentes — ne pas les « compléter »** : le nombre
+de tours encore debout sur l'enceinte de Langres (7 ou 12 selon ce qu'on appelle une tour ; le guide
+publie la divergence et s'en tient aux 3,5 km de la boucle) et le nombre d'établissements thermaux de
+Dax (14, 15 ou 16 ; le guide écrit « une quinzaine »). Même doctrine qu'au batch 46.
+Prudences assumées à ne pas diluer : **Saint-Paul-de-Mausole est toujours une clinique psychiatrique
+en activité**, dit avant toute phrase sur Van Gogh ; **aucune des toiles peintes à Saint-Rémy n'y est
+restée** (La Nuit étoilée est au MoMA), dit avant que quelqu'un fasse le voyage pour la mauvaise
+raison ; **on ne se baigne pas dans la fontaine chaude de Dax** (64 °C) et la feria est traitée en
+fait pratique, la corrida nommée comme une pratique encadrée et contestée que le guide ne tranche
+pas ; la **maison dite de la Duchesse Anne** à Morlaix et la **légende du diable** à Céret sont
+ramenées à leur statut de tradition ; les **cerises de Céret ne sont plus systématiquement les
+premières de France** (Saint-Gilles dans le Gard les devance certaines années) ; et la convention
+« **accessible depuis** » tient partout (quatre lacs depuis Langres, Les Baux depuis Saint-Rémy,
+Le Pouliguen, Pornichet et Guérande depuis La Baule, château du Taureau depuis Morlaix, côte landaise
+depuis Dax, Blois et Amboise depuis Vendôme, Canigou depuis Céret).
+⚠️ Egress : **`fr.wikipedia.org` répond 403 CONNECT depuis la routine**, la recherche web fonctionne
+en revanche — les faits ont été recoupés sur plusieurs résultats plutôt que sur une fiche unique.
+Écart FR→EN après ce batch : **7 villes** — donc **le prochain run doit être un batch EN**. Quatre
+points de vigilance : ① **`things-to-do-in-dax-2026` est ambigu en anglais** (*dax* est l'indice
+boursier allemand), l'intro doit poser la ville dès la première ligne, comme Orange au batch 37 et
+Bergerac au batch 41 ; ② **Van Gogh est de l'histoire de l'art anglophone** (MoMA, Getty), donc la
+jumelle Saint-Rémy a de la matière propre, à condition de garder intacte la prudence sur la clinique ;
+③ **La Baule se lit comme un resort victorien** côté anglophone, et la désambiguïsation entre la baie
+et les trois communes doit être posée tôt ; ④ **Céret demande la correction du pont neuf en première
+ligne**, c'est dans la littérature anglophone sur le cubisme que l'erreur circule le plus.
+Pour le batch FR **suivant**, il reste **271 villes du seed sur 540 sans guide tourisme** (278 avant
+ce run) ; gisements nommés restants, tous vérifiés présents au seed et sans guide : Saint-Herblain,
+les trois banlieues bordelaises (Villenave-d'Ornon, Talence, Le Bouscat) et le reliquat du vivier du
+batch 46 — Sélestat, Obernai, Saverne, Aubusson, Douarnenez, Quiberon.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique
