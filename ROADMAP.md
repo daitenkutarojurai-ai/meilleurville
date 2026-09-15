@@ -2192,7 +2192,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce ; **passe de troncature le 07/09** : la facette des observateurs, plafonnée à 2 000 sur **101 villes**, était publiée comme un décompte dans la prose et en `value` JSON-LD alors que le tableau de la même page affichait « 2 000+ » — corrigé des deux côtés, plus les insectes plafonnés de 12 villes et deux drapeaux que le collecteur calculait puis jetait. **la collecte a repris les 09-10/09** (180 lignes rejouées en `queryVersion` 3 sur 540, les 360 autres suivent) — c'est le `git push` du cron qui était cassé du 27/08 au 10/09, pas le cron ; **passe sur `topSpecies` le 10/09**, le champ que les deux sous-pages rendent en cartes : un **code de baguage publié comme nom d'espèce sur 522 des 540 pages EN** (1 281 cartes, `GRTI` sur 497, `C F` sur 430, `COST` sur 237, première carte de la section sur 180 pages, zéro côté FR — donc aussi une divergence entre jumelles hreflang) et un **casier « Animalia spec » publié comme l'espèce la plus observée de Saint-Laurent-du-Maroni** (rang 1, 1 058 obs. contre 58 à la deuxième ligne ; rang 2 à Cayenne) qu'aucun test de forme ne pouvait attraper — il a l'allure d'un binôme latin. `displayTopSpecies()` et `speciesDisplay()` deviennent les seuls accès autorisés, `selftest` 54 → 74 ; **corpus GBIF intégralement en `queryVersion` 3 au 13/09** (540/540 relevées du 09 au 13/09 — reptiles comptés partout, zéro code de baguage restant) ; **passe zones protégées le 14/09** : un **périmètre de protection** (la zone tampon d'une réserve naturelle) sort de la même couche BD TOPO que la réserve et pèse donc **1,0** comme elle — 28 villes en portent un, **6 au point que leur chiffre en dépende, aux rangs 1, 3, 7, 11, 23 et 128**, Digne-les-Bains en tête avec 68 081 ha de tampon pour 75 ha de réserve dans le même disque. Signalé sur les deux hubs et les deux sous-pages ville, **jamais repondéré** (même arbitrage qu'à l'aire d'adhésion) ; `protected-areas:selftest` + 9 |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
-| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 284 entrées** (BODACC 4 244 + CatNat 40). 536 villes affichent la section, 4 masquées. RNA toujours désactivé. ⚠️ **Le collecteur n'a pas repris depuis le 27/08** (12 jours) et le tell posé au run précédent est confirmé : les **180 lignes v1 du 04-05/08 n'ont jamais été servies** (34-35 jours), donc aucune troisième passe — les deux lots des 26-27/08 étaient une intervention manuelle, pas un cron rétabli. 177 villes étiquetées « relevé non repris ». **Défaut corrigé le 08/09, dans Géorisques — la seule des trois sources jamais relue** : l'ingest CatNat lisait **une page de 50 sans `sort`** d'une histoire GASPAR qui remonte à 1982, donc une commune à longue histoire pouvait ne rien renvoyer de récent et être publiée en « on a demandé et il n'y avait rien » — **502 villes nomment Géorisques en source sans lister d'arrêté**, contre 34 qui en listent un. `collectCatnat()` pagine désormais et s'arrête à la première page courte (complet quel que soit l'ordre de tri), budget 8×50 en fil-piège, échec gradué (page 1 lève, page 2+ garde et signale `truncated`), `QUERY_VERSION` = 3. Aucune surface ne lit `truncated` tant qu'un run réel ne l'a pas confirmé ; `news:stats` **nomme** les lectures courtes. `news:selftest` 60 → **73** |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 292 entrées** (BODACC 4 252 + CatNat 40). 537 villes affichent la section, 3 masquées (dinan, selestat, ile-de-re). RNA toujours désactivé. **Le collecteur est sain pour la première fois** : trois passes les 09 et 10/09, **540 lignes en `queryVersion` 3**, âge 5-6 jours, **0 ville étiquetée « relevé non repris »** (177 au run précédent), et son silence depuis est **nominal** — aucune ligne n'échoit avant le ~23/09. ⚠️ Ne pas le lire comme une panne : ce serait l'erreur symétrique des trois runs précédents. **La question du 08/09 est tranchée : les 502 zéros Géorisques étaient vrais** — la pagination a tourné sur les 540, aucune lecture courte, et le comptage donne **34 villes / 40 arrêtés, identiques entrée par entrée** à l'état v2 d'avant correctif (même jeu de villes, zéro écart, 19 arrêtés distincts). Le correctif reste juste : il a supprimé un pari sur un ordre de tri jamais observé, et c'est le pari qui était le défaut, pas son résultat. **Défaut corrigé le 15/09, dans la phrase d'introduction** : elle annonçait « sur les 12 derniers mois » sur les 537 pages et dans les deux locales, alors que 12 est la fenêtre **interrogée** et que la liste **imprimée** est plafonnée à 8 entrées — mesuré, **536 des 537 villes sont au plafond**, la liste porte **3 mois pour 332 villes et 4 pour 174** (506/537 à quatre mois ou moins, aucune à douze). Conséquence, même famille que les quatre défauts précédents : **47 villes rendent une liste trouée** dont les trous sont des évictions par le plafond, pas des zéros constatés. Nouvel export `newsSpan(entries)`, qui prend **le tableau déjà rendu** donc la portée citée ne peut pas diverger de la liste ; la surface énonce fenêtre **et** portée réelle, et la mise en garde d'éviction n'est imprimée que si `capped`. `news:selftest` 73 → **77** (les deux anciennes phrases nommées et interdites, garde vérifiée en la faisant échouer) |
 
 ### F62 — Score Biodiversité
 
@@ -3908,6 +3908,105 @@ ligne `⚠ incomplete reads`** : si elle imprime, des communes ont plus de 400 a
 le budget est à revoir ; si elle n'imprime pas, la pagination a fait son travail et le nombre de
 villes portant un arrêté aura bougé — **c'est ce nombre, comparé aux 34 d'aujourd'hui, qui dira
 enfin si les 502 zéros étaient vrais**. Ne rien conclure des deux côtés avant ce comptage.
+
+#### État au 2026-09-15 — le comptage demandé est tombé, et la section annonçait douze mois pour en montrer trois
+
+**Le collecteur a tourné, et son silence est nominal — c'est la première fois.** Trois passes,
+les **09/09 (×2, 360 villes) et 10/09 (180)** : `data/city-news.json` porte 540 villes et
+**4 292 entrées**, et **les 540 lignes sont en `queryVersion` 3**. Il n'a rien produit depuis
+cinq jours, et cette fois **c'est la bonne réponse** : `pickBatch()` ne sert que les lignes
+échues, aucune ne l'est avant `DUE_AFTER_DAYS` (14), donc le collecteur imprime « nothing to
+do — every row is fresh » et sort jusque vers le 23/09. ⚠️ Les trois runs précédents ont lu un
+silence comme une mort, à raison ; **lire celui-ci de la même façon serait l'erreur
+symétrique**. Le contrôle reste la date des lignes avant leur nombre, mais il se lit dans les
+deux sens : cohortes 09/09 et 10/09, âge 5-6 jours, **zéro ville étiquetée « relevé non
+repris »** (elles étaient 177 au run précédent). `le-francois`, dernière v1, a guéri à son
+tour comme annoncé ; restent vides `dinan`, `selestat` et `ile-de-re`, inchangées et toujours
+sans rien à écrire dessus sans réponse d'API.
+
+**La question ouverte le 08/09 est tranchée : les 502 zéros Géorisques étaient vrais.** Le
+correctif de pagination a bien tourné sur les 540 villes en v3, `news:stats` **n'imprime pas**
+`⚠ incomplete reads` (aucune lecture courte, aucun `truncated` dans le fichier), et le
+comptage que le run précédent réclamait donne **34 villes portant un arrêté, 40 arrêtés** —
+c'est-à-dire **exactement le compte d'avant le correctif**. Vérifié plus finement qu'un total :
+le jeu des 34 villes est **le même**, et la comparaison entrée par entrée entre l'état v2
+(lecture d'une page, 26-27/08) et l'état v3 (lecture paginée, 09-10/09) donne **zéro écart**,
+pour 19 arrêtés distincts. Donc aucune commune du corpus ne cachait d'arrêté récent au-delà de
+la première page de 50. ⚠️ **Le correctif reste juste et ne doit pas être défait** : il a
+supprimé un pari sur un ordre de tri que personne n'a jamais observé, et c'est le pari qui
+était le défaut, pas son résultat. Il se trouve qu'il était sans effet sur ce corpus. La
+distinction vaut d'être gardée : on ne mesure pas la valeur d'un correctif de ce type à ce
+qu'il change, mais à ce qu'il cesse de supposer.
+
+**Le défaut trouvé ce run est dans la phrase d'introduction, et il porte sur les 537 pages qui
+rendent la section, dans les deux locales.** Elle annonçait « Ce que les publications
+officielles disent de *X* **sur les 12 derniers mois** ». Douze est la fenêtre que le
+**crawler interroge** ; ce que la surface **imprime** est le sommet de ce que cette recherche a
+rapporté, plafonné à `maxEntriesPerCity`. Les deux n'ont aucun rapport, mesuré ce run à travers
+`cityNews()` lui-même : **536 des 537 villes rendues sont exactement au plafond de 8 entrées**,
+et la liste rendue porte **3 mois distincts pour 332 d'entre elles, 4 pour 174** — soit **506
+sur 537 à quatre mois ou moins**, médiane **3**, et **aucune ville n'en rend douze** (le
+maximum du corpus est 8, sur deux villes). Le lecteur était invité à lire une année et on lui
+en montrait un trimestre.
+
+⚠️ **La conséquence est pire qu'une portée fausse, et c'est elle qui range ce défaut dans la
+famille des quatre précédents : un silence qui se lit comme une mesure.** La note sous la liste
+invite explicitement à lire la colonne (« là où les lignes voisines portent un mois entier »),
+donc un mois sans ligne se lit comme un mois sans dépôt. Or **47 villes rendent une liste
+trouée à l'intérieur de sa propre plage** : Nantes affiche mars 2026 puis juillet à septembre,
+Agde janvier puis juillet à septembre. Ces trous sont des **évictions par le plafond**, pas des
+zéros constatés. C'est la même signature que le filtre commune en majuscules (04/08), que les
+dix Saint-X annonçant douze mois vides (18/08), que les 502 zéros Géorisques d'une lecture
+d'une page (08/09) et que le plafond de pagination publié en décompte côté biodiversité
+(07/09).
+
+**Le correctif, au site d'affichage.** Nouvel export **`newsSpan(entries)`**
+(`lib/city-news.ts`), qui prend **le tableau déjà rendu** au lieu d'un slug : la portée citée et
+les lignes imprimées viennent alors d'un seul tableau, et la phrase **ne peut pas** diverger de
+la liste faute d'une seconde requête à tenir synchronisée. La dérive est fermée par la
+signature, pas par un test. Il rend `{ from, to, months, capped, gapped }`. La surface énonce
+désormais la fenêtre interrogée **et** la portée réellement imprimée
+(« Les 12 derniers mois ont été interrogés ; la liste n'en retient que 8 signaux, les plus
+récents de chaque type, ici de mars 2026 à septembre 2026 »), et **la mise en garde sur
+l'éviction n'est imprimée que si `capped`** : quand la liste a tout gardé, un mois absent est
+un vrai mois vide, et le prévenir serait faux dans l'autre sens.
+⚠️ **Piège rencontré en relisant la sortie réelle, à ne pas réintroduire** : le premier jet
+écrivait « les 8 signaux **les plus récents** », ce qui décrit un tri par date. La liste est un
+**tourniquet par type** (`roundRobinByKind()`), et c'est précisément pour ça que Nantes garde
+son arrêté CatNat du 2 mars qu'un tri par date aurait éjecté. La phrase était donc fausse sur la
+page même qui a servi à la relire. « les plus récents **de chaque type** » est l'énoncé juste.
+
+**La garde.** `news:selftest` passe de 73 à **77 contrôles**, toujours zéro réseau : existence
+de `newsSpan` dans la lib, la surface doit interpoler `span.from` / `span.to`, la mise en garde
+doit être conditionnée à `span.capped`, et surtout **les deux anciennes phrases sont nommées et
+interdites** dans la copie du composant (commentaires retirés, comme depuis le 01/09). Contrôle
+de falsification fait : la phrase d'origine réinjectée fait **échouer** le test, retirée le fait
+repasser — une garde qu'on n'a pas vue échouer ne garde rien.
+
+**Vérifications.** `npx tsc --noEmit` **propre**, `npm run integrity` vert (540 villes, 4 292
+entrées), `news:selftest` **77/77**, `news:prune` ne trouve rien hors fenêtre. Section rendue
+pour de vrai contre les données réelles (`renderToStaticMarkup`, les 540 villes, FR **et** EN) :
+**537 rendues, 3 masquées**, phrase de portée présente sur les 537, **zéro écart de chiffre
+entre FR et EN**, mise en garde d'éviction sur les **536** villes au plafond et sur aucune
+autre, **501 entrées portant un mois partiel**, **zéro lien sans `rel="nofollow"`**, **zéro
+section sans énoncé de plafond**, **zéro page annonçant encore douze mois**, **zéro fuite de
+français côté EN**. Sorties FR et EN de Nantes relues à la main.
+
+🔧 **Et `meta.queryVersion` passe de 1 à 3, sans que ce run l'ait cherché.** Le fichier annonçait
+encore **1** alors que ses 540 lignes sont en 3 : c'est le défaut corrigé par l'audit du 11/09,
+dont le correctif ne s'applique qu'à une **écriture** du fichier, et les trois passes de collecte
+datent des 09-10/09, soit avant. `npm run news:prune` a produit cette écriture ce run — une ligne
+de diff, `meta` seul, aucune entrée touchée. Personne ne lisait ce champ (`pickBatch` et les
+surfaces lisent la version **de la ligne**, qui était juste), mais un champ de provenance qui ment
+est exactement celui qu'on finit par croire.
+
+**Ce que le prochain run doit regarder en premier.** Les cohortes de dates. Si elles sont
+toujours 09/09 et 10/09, le collecteur a manqué son échéance du ~23/09 et le seuil de 21 jours
+aura commencé à étiqueter les villes ; si elles ont bougé, le cycle tourne pour la première
+fois tout seul, et la chose à mesurer devient **la dispersion des cohortes** — trois lots
+groupés sur deux jours veulent dire que les 540 lignes échoiront de nouveau ensemble, donc que
+le lissage supposé par les trois seuils n'existe toujours pas. Côté Géorisques, il n'y a plus
+rien à attendre : le comptage réclamé est fait, les 34 villes sont la mesure.
 
 ---
 

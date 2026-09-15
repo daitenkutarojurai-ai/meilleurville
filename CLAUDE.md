@@ -3620,6 +3620,41 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     il ressemble — en revanche `news:stats` **nomme** les villes à lecture courte et dit que leurs
     comptes sont des planchers. `news:selftest` 60 → **73 contrôles**, dont le défaut écrit comme
     un test (une page d'une histoire triée du plus ancien ne voit aucun arrêté récent).
+  - **État au 2026-09-15 — le collecteur est sain, son silence est nominal, et la section annonçait
+    douze mois pour en montrer trois.** Trois passes les **09/09 (×2) et 10/09**, **540 lignes en
+    `queryVersion` 3**, 4 292 entrées, âge 5-6 jours, **zéro ville étiquetée « relevé non repris »**
+    (177 au run précédent). ⚠️ **Rien depuis cinq jours est la bonne réponse et non une panne** :
+    `pickBatch()` ne sert que les lignes échues et aucune ne l'est avant `DUE_AFTER_DAYS` (14), donc
+    le collecteur sort sur « nothing to do » jusque vers le 23/09. Les trois runs précédents ont lu
+    un silence comme une mort, à raison ; lire celui-ci pareil serait l'erreur symétrique. **La
+    question ouverte le 08/09 est tranchée : les 502 zéros Géorisques étaient vrais.** La pagination
+    a tourné sur les 540 villes en v3, aucune lecture courte (`⚠ incomplete reads` ne s'imprime pas),
+    et le comptage donne **34 villes / 40 arrêtés — identiques entrée par entrée** à l'état v2
+    d'avant correctif (même jeu de villes, zéro écart, 19 arrêtés distincts). Le correctif reste
+    juste et ne se défait pas : **il a supprimé un pari sur un ordre de tri jamais observé, et c'est
+    le pari qui était le défaut, pas son résultat.** **Le défaut corrigé ce run est la phrase
+    d'introduction**, sur les 537 pages rendues et dans les deux locales : elle annonçait « sur les
+    12 derniers mois » alors que 12 est la fenêtre **interrogée** et que la liste **imprimée** est
+    plafonnée à 8 entrées. Mesuré à travers `cityNews()` : **536 des 537 villes sont au plafond**, la
+    liste porte **3 mois pour 332 villes, 4 pour 174** (506/537 à quatre mois ou moins, médiane 3,
+    **aucune à douze**). Conséquence, et c'est ce qui range le défaut dans la même famille que les
+    quatre précédents — un silence qui se lit comme une mesure : la note sous la liste invite à lire
+    la colonne, donc un mois sans ligne se lit comme un mois sans dépôt, et **47 villes rendent une
+    liste trouée** (Nantes : mars, puis juillet à septembre) dont les trous sont des **évictions par
+    le plafond**. Correctif au site d'affichage : **`newsSpan(entries)`** prend **le tableau déjà
+    rendu**, donc la portée citée ne peut pas diverger de la liste faute d'une seconde requête à
+    tenir synchronisée ; la surface énonce fenêtre **et** portée réelle, et la mise en garde
+    d'éviction n'est imprimée que si `capped` (quand rien n'a été jeté, un mois absent est un vrai
+    mois vide). ⚠️ **Piège à ne pas réintroduire** : le premier jet écrivait « les 8 signaux **les
+    plus récents** », ce qui décrit un tri par date alors que la liste est un **tourniquet par type**
+    (`roundRobinByKind()`) — c'est pour ça que Nantes garde son arrêté CatNat du 2 mars. La phrase
+    était fausse sur la page même qui a servi à la relire ; l'énoncé juste est « les plus récents
+    **de chaque type** ». `news:selftest` **73 → 77**, les deux anciennes phrases nommées et
+    interdites, garde vérifiée **en la faisant échouer**. 🔧 Au passage, `meta.queryVersion` passe de
+    **1 à 3** : le fichier annonçait 1 pour des lignes toutes en 3, et le correctif du 11/09
+    n'attendait qu'une **écriture** pour s'appliquer — c'est `news:prune` qui l'a produite ce run, une
+    ligne de diff, aucune entrée touchée. Personne ne lisait ce champ (`pickBatch` et les surfaces
+    lisent la version **de la ligne**), mais un champ de provenance qui ment finit par être cru.
   - **La collecte est automatisée, ne la relance pas depuis une routine.**
     `scripts/local-data-runner.sh` (cron local, 02h20 / 14h20 UTC) lance `npm run news` par
     lots de 180 villes (~4 s la ville), commite `data/city-news.json` et pousse.

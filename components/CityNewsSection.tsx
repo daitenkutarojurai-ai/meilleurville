@@ -7,6 +7,7 @@ import {
   cityNewsRefreshedAt,
   isCityNewsStale,
   newsPartialCoverage,
+  newsSpan,
   NEWS_WINDOW_MONTHS,
   NEWS_REFRESH_INTERVAL_DAYS,
   type CityNewsEntry,
@@ -74,6 +75,22 @@ export function CityNewsSection({
   const entries = cityNews(slug);
   if (!entries.length) return null;
 
+  // What the reader is actually looking at, derived from the very array printed
+  // below — see newsSpan(). The intro used to assert the section covered the
+  // whole 12-month window; measured on the real file, 536 of the 537 rendering
+  // cities are pinned at the 8-entry cap and the list carries 3 or 4 months on
+  // 506 of them, never 12.
+  const span = newsSpan(entries);
+  const range =
+    span == null
+      ? ""
+      : span.from === span.to
+        ? newsMonthLabel(span.from, locale)
+        : L(
+            `de ${newsMonthLabel(span.from, locale)} à ${newsMonthLabel(span.to, locale)}`,
+            `${newsMonthLabel(span.from, locale)} to ${newsMonthLabel(span.to, locale)}`,
+          );
+
   const refreshedAt = cityNewsRefreshedAt(slug);
   const stale = isCityNewsStale(slug);
   // Fall back to the sources the entries themselves name, so the footer is
@@ -101,10 +118,37 @@ export function CityNewsSection({
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)] max-w-3xl">
           {L(
-            `Ce que les publications officielles disent de ${name} sur les ${NEWS_WINDOW_MONTHS} derniers mois. Ce ne sont ni des articles de presse ni un classement : des dépôts légaux et des arrêtés, comptés et datés. Une création d'entreprise n'est pas une bonne nouvelle en soi, une radiation n'est pas une mauvaise.`,
-            `What official publications say about ${name} over the past ${NEWS_WINDOW_MONTHS} months. These are not news articles and not a ranking: legal filings and government orders, counted and dated. A business registration is not good news in itself, and a deregistration is not bad news.`,
+            `Ce que les publications officielles disent de ${name}. Ce ne sont ni des articles de presse ni un classement : des dépôts légaux et des arrêtés, comptés et datés. Une création d'entreprise n'est pas une bonne nouvelle en soi, une radiation n'est pas une mauvaise.`,
+            `What official publications say about ${name}. These are not news articles and not a ranking: legal filings and government orders, counted and dated. A business registration is not good news in itself, and a deregistration is not bad news.`,
           )}
         </p>
+
+        {/* The searched window and the printed list are two different things,
+            and the first sentence used to name only the former — "sur les 12
+            derniers mois", on every rendering page, above a list that carries
+            three. The scope is therefore stated from the list itself, and the
+            cap is named where it has a consequence: once it bites, a month with
+            no line is a month that was evicted, not a month with nothing in it.
+            That caveat is printed only when `capped`, because when the list
+            kept everything found, an absent month really is an empty one. */}
+        {span ? (
+          <p className="mt-2 text-sm text-[var(--text-secondary)] max-w-3xl">
+            {span.capped
+              ? L(
+                  // "les plus récents de chaque type", not "les N plus récents":
+                  // the list is a per-type round-robin, so Nantes keeps a March
+                  // CatNat order that a pure date sort would have evicted. The
+                  // first draft of this sentence said "les plus récents" and was
+                  // already false on the page it was read against.
+                  `Les ${NEWS_WINDOW_MONTHS} derniers mois ont été interrogés ; la liste n'en retient que ${entries.length} signaux, les plus récents de chaque type, ici ${range}. Un mois qui n'y figure pas n'est donc pas un mois sans dépôt : il a été écarté par cette limite.`,
+                  `The past ${NEWS_WINDOW_MONTHS} months were searched; the list keeps only ${entries.length} signals, the most recent of each type, here ${range}. A month missing from it is therefore not a month without filings — it was displaced by that limit.`,
+                )
+              : L(
+                  `Les ${NEWS_WINDOW_MONTHS} derniers mois ont été interrogés : ils portent ${entries.length} signal${entries.length > 1 ? "s" : ""} en tout, ${range}.`,
+                  `The past ${NEWS_WINDOW_MONTHS} months were searched: they hold ${entries.length} signal${entries.length > 1 ? "s" : ""} in all, ${range}.`,
+                )}
+          </p>
+        ) : null}
 
         <ul className="mt-6 divide-y divide-[var(--border)] border-y border-[var(--border)]">
           {entries.map((e, i) => {

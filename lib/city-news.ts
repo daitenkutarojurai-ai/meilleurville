@@ -324,6 +324,71 @@ export function newsPartialThrough(slug: string, entry: CityNewsEntry): string |
   return newsPartialCoverage(slug, entry)?.through ?? null;
 }
 
+/** What the rendered list actually spans, as opposed to what was searched. */
+export interface CityNewsSpan {
+  /** First month carried by the rendered list, YYYY-MM-01. */
+  from: string;
+  /** Last month carried by the rendered list, YYYY-MM-01. */
+  to: string;
+  /** Distinct months the rendered list carries. */
+  months: number;
+  /** True when the list is pinned at the per-city cap — i.e. older in-window
+   *  signals exist and were dropped to make room. */
+  capped: boolean;
+  /** True when a calendar month inside [from, to] carries no rendered line. */
+  gapped: boolean;
+}
+
+/**
+ * The span of the list a reader is actually looking at.
+ *
+ * Takes the ALREADY-RENDERED entries rather than a slug, and that is the whole
+ * point: the number the surface quotes and the lines it prints then come from
+ * one array, so the sentence cannot drift from the list the way a separately
+ * derived figure would. There is no second query to keep in sync.
+ *
+ * The regression it closes (measured 2026-09-15, on the real file, through
+ * `cityNews()` itself). The intro said, on all 537 rendering pages and in both
+ * locales, that the section was "ce que les publications officielles disent de X
+ * sur les 12 derniers mois". Twelve is the window the CRAWLER searched; what the
+ * surface prints is the top `NEWS_MAX_ENTRIES` of what that search returned, and
+ * the two are nowhere near each other: 536 of the 537 rendering cities sit
+ * exactly at the 8-entry cap, the rendered list carries 3 distinct months for
+ * 332 of them and 4 for 174 — 506 of 537 render four months or fewer, the median
+ * is 3, and NOT ONE city renders twelve. A reader was told they were looking at
+ * a year and shown a quarter.
+ *
+ * `capped` and `gapped` exist because the consequence is worse than a wrong
+ * scope. The footnote under the list invites reading the column ("les lignes
+ * voisines portent un mois entier"), so a month with no line reads as a month
+ * with no filings — and on 47 cities the rendered list has a hole inside its own
+ * range (agde: January, then July to September). Those holes are evictions by
+ * the cap, not measured zeros. That is the failure this pipeline has now shipped
+ * five times in another costume: the uppercase commune filter (04/08), the ten
+ * Saint-X reporting twelve empty months (18/08), the 502 Géorisques zeros from a
+ * single-page read (08/09), the biodiversity page cap published as a count
+ * (07/09) — every one of them a silence that read as a measurement.
+ *
+ * Returns null for an empty list: there is no span to state, and the surface
+ * renders nothing at all in that case.
+ */
+export function newsSpan(entries: readonly CityNewsEntry[]): CityNewsSpan | null {
+  if (!entries.length) return null;
+  const months = [...new Set(entries.map((e) => e.date.slice(0, 7)))].sort();
+  const from = `${months[0]}-01`;
+  const to = `${months[months.length - 1]}-01`;
+  const [y1, m1] = months[0].split("-").map(Number);
+  const [y2, m2] = months[months.length - 1].split("-").map(Number);
+  const calendar = (y2 - y1) * 12 + (m2 - m1) + 1;
+  return {
+    from,
+    to,
+    months: months.length,
+    capped: entries.length >= NEWS_MAX_ENTRIES,
+    gapped: calendar > months.length,
+  };
+}
+
 const KIND_LABEL_FR: Record<NewsKind, string> = {
   entreprises: "Créations d'entreprises",
   radiations: "Radiations",

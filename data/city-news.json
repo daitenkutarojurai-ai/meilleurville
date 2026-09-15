@@ -1,7 +1,7 @@
 {
   "meta": {
     "refreshedAt": "2026-09-10",
-    "queryVersion": 1,
+    "queryVersion": 3,
     "windowMonths": 12,
     "maxEntriesPerCity": 8
   },

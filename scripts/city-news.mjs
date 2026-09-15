@@ -1481,6 +1481,29 @@ async function selftest() {
     /daysCounted/.test(uiCopy) && /daysInMonth/.test(uiCopy)
       && !/quelques jours|a few days/.test(uiCopy), true);
 
+  // — the stated scope must be the list's, not the crawler's —
+  //
+  // The regression, written as a test. WINDOW_MONTHS is what the crawler
+  // SEARCHES; MAX_ENTRIES_PER_CITY is what survives into the file, and the
+  // surface prints that. The intro conflated them — "ce que les publications
+  // officielles disent de X sur les 12 derniers mois" — while 536 of the 537
+  // rendering cities sat at the 8-entry cap and carried three or four months.
+  // Anything that reintroduces the window as a claim about the LIST brings the
+  // same falsehood back, so the two old sentences are named and forbidden.
+  check("the lib derives the span from the rendered entries",
+    /export function newsSpan/.test(libSrc), true);
+  check("the surface states the span it actually prints",
+    /newsSpan\(entries\)/.test(uiCopy) && /span\.from/.test(uiCopy)
+      && /span\.to/.test(uiCopy), true);
+  check("the intro no longer claims the list covers the whole search window",
+    !/disent de \$\{name\} sur les/.test(uiCopy)
+      && !/say about \$\{name\} over the past/.test(uiCopy), true);
+  // A cap that bites turns an absent month into an apparent zero — the shape
+  // this pipeline has shipped five times. The caveat must be conditioned on the
+  // cap, not printed always (when nothing was dropped, an absent month is real).
+  check("the eviction caveat is tied to the cap",
+    /span\.capped/.test(uiCopy), true);
+
   const failed = results.filter((r) => !r).length;
   log(failed ? `\n${failed} check(s) FAILED of ${results.length}` : `\nall ${results.length} checks passed`);
   return failed;
