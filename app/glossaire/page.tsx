@@ -9,7 +9,7 @@ import { pathAlternates } from "@/lib/i18n";
 export const metadata: Metadata = {
   title: "Glossaire immobilier, école, santé, emploi & mobilité",
   description:
-    "DPE, TAEG, APL, carte scolaire, cat-nat, médecin traitant, zone d'emploi, ARE, clause de mobilité : les termes utiles pour s'installer quelque part en France.",
+    "DPE, TAEG, APL, carte scolaire, cat-nat, médecin traitant, ARE, clause de mobilité, TEOM, prix de l'eau : les termes utiles pour s'installer en France.",
   alternates: pathAlternates("/glossaire", "/glossary"),
 };
 
@@ -789,6 +789,68 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Eau, assainissement, déchets et réseaux",
+    emoji: "💧",
+    terms: [
+      {
+        term: "Prix de l'eau : il n'existe pas de tarif national",
+        def: "Le mètre cube facturé réunit deux services distincts, l'eau potable et l'assainissement collectif, et son prix est fixé par la collectivité compétente, jamais par l'État. Le rapport de l'observatoire Sispea publié en juin 2026 sur l'activité 2024 donne une moyenne nationale de 4,89 € TTC le mètre cube au 1ᵉʳ janvier 2025, dont 2,50 € pour l'eau potable et 2,39 € pour l'assainissement collectif, soit 586,80 € par an pour la facture de référence de 120 m³. Cette moyenne ne se paie nulle part : elle agrège des milliers de tarifs délibérés localement, selon la ressource disponible, l'état du réseau et le nombre d'abonnés qui se partagent la facture d'entretien. C'est l'un des rares postes du budget d'un ménage dont le montant change le jour où l'on franchit une limite communale, à consommation strictement identique.",
+      },
+      {
+        term: "Qui vote ce prix : régie, délégation, syndicat",
+        def: "La compétence appartient à la commune, qui peut l'exercer elle-même en régie, la confier à une entreprise par délégation de service public, et surtout la transférer à une intercommunalité ou à un syndicat des eaux. C'est le piège de lecture de tout ce chapitre : le nom imprimé sur la facture est souvent celui d'un grand opérateur présent dans toute la France, ce qui laisse croire à une grille nationale, alors qu'il désigne seulement le délégataire retenu ici et que le tarif a été voté par une assemblée locale. Corollaire pratique : l'échelle du prix n'est pas forcément la commune. Deux communes voisines adhérentes du même syndicat paieront le même mètre cube, deux quartiers d'une même agglomération répartis entre deux syndicats ne le paieront pas.",
+      },
+      {
+        term: "Part fixe (abonnement) et son plafond",
+        def: "La facture d'eau se décompose en une part proportionnelle au volume consommé et une part fixe, qui couvre l'accès au service, la location ou l'entretien du compteur et la gestion du branchement. L'arrêté du 6 août 2007 plafonne cette part fixe à 40 % du coût du service pour une consommation de 120 m³ par logement sur douze mois, pour l'eau comme pour l'assainissement. Le plafond est relevé à 50 % pour les communes rurales, ainsi que pour les groupements où les communes rurales représentent plus de la moitié de la population ou les communes touristiques plus du quart. Une exception géographique mérite d'être publiée plutôt que lissée : le plafond ne s'applique pas aux communes touristiques au sens de l'article L. 133-11 du code du tourisme, et une commune classée sur une partie seulement de son territoire y échappe également. Dans une station, un logement peu occupé peut donc payer une facture d'eau très majoritairement fixe, c'est-à-dire presque indépendante de sa consommation.",
+      },
+      {
+        term: "Raccordement obligatoire au réseau d'eaux usées",
+        def: "L'article L. 1331-1 du code de la santé publique rend le raccordement obligatoire dans un délai de deux ans à compter de la mise en service du réseau public de collecte, pour tout immeuble qui y a accès. Des prolongations, plafonnées à dix ans, ou des exonérations peuvent être accordées par arrêté du maire approuvé par le préfet. Le propriétaire qui ne s'exécute pas est astreint au paiement d'une somme au moins équivalente à la redevance qu'il aurait acquittée s'il était raccordé, et le conseil municipal peut la majorer dans la limite de 100 %. Ce taux de majoration est donc une décision de la commune : le coût de l'inaction n'est pas le même d'une rive à l'autre d'une limite communale.",
+      },
+      {
+        term: "PFAC (participation pour le financement de l'assainissement collectif)",
+        def: "Facture ponctuelle exigible au moment du raccordement au réseau de collecte, instituée et chiffrée par délibération de la collectivité compétente. L'article L. 1331-7 du code de la santé publique la plafonne à 80 % du coût de fourniture et de pose d'une installation d'assainissement non collectif, c'est-à-dire de la fosse qu'on n'aura pas à construire ; elle est diminuée de ce qui a déjà été versé au service pour la partie publique du branchement, afin que le cumul ne dépasse pas ce plafond. Elle vise les constructions neuves, les extensions qui produisent des eaux usées supplémentaires et les immeubles existants nouvellement desservis. Son montant n'apparaît dans aucun calcul standard de frais d'acquisition, et il se demande à la collectivité avant de signer, pas après.",
+      },
+      {
+        term: "SPANC et contrôle périodique",
+        def: "Le service public d'assainissement non collectif contrôle les installations qui ne sont pas raccordées au réseau. Il faut distinguer deux contrôles qu'on confond souvent : le diagnostic exigé lors d'une vente, défini plus haut en section diagnostics, et le contrôle périodique de bon fonctionnement, qui concerne tout propriétaire concerné qu'il vende ou non. La fréquence de ce dernier est fixée par la collectivité et ne peut pas excéder dix ans en application de l'article L. 2224-8 du code général des collectivités territoriales ; en pratique les règlements de service retiennent quatre à dix ans, et rapprochent les visites en cas de nuisances constatées. Il donne lieu à une redevance pour service rendu, dont le montant relève lui aussi d'une délibération locale.",
+      },
+      {
+        term: "TEOM ou REOM : deux financements, pas deux noms",
+        def: "La collecte des déchets se finance par la taxe d'enlèvement des ordures ménagères ou par la redevance, et le choix résulte d'une délibération : deux communes voisines peuvent relever de régimes différents. La TEOM est adossée à la taxe foncière, assise sur la valeur locative cadastrale du bien, due même par qui n'utilise pas le service, payée par le propriétaire et récupérable sur le locataire au titre des charges. La REOM est le prix d'un service rendu, facturée directement à l'usager selon l'usage qu'il en fait. La conséquence de lecture est contre-intuitive : sous le régime de la taxe, ce qu'on paie ne dépend pas de ce qu'on jette mais de ce que vaut le logement au cadastre, si bien qu'un grand logement peu occupé paie davantage qu'un petit logement plein.",
+      },
+      {
+        term: "Zonage de TEOM et taux manifestement disproportionné",
+        def: "Une commune, une intercommunalité ou un syndicat mixte peut voter des taux différents par zone, en fonction de l'importance du service rendu : fréquence de collecte, porte-à-porte ou apport volontaire. Deux rues d'un même territoire peuvent donc porter légalement des taux différents. La limite est jurisprudentielle : le produit attendu ne doit pas être manifestement disproportionné au coût du service, faute de quoi la délibération fixant le taux est illégale et la taxe contestable. Le Conseil d'État a resserré ce contrôle, en l'appliquant zone par zone lorsque la taxe est votée par zones, et en appréciant les dépenses réelles engagées sur le territoire concerné plutôt que la seule contribution versée à un syndicat. Le taux se vérifie sur l'avis de taxe foncière du bien visé, pas sur une moyenne locale.",
+      },
+      {
+        term: "Tarification incitative",
+        def: "Variante des deux régimes précédents dans laquelle une part de la facture dépend du volume de déchets, de leur poids ou du nombre de levées du bac. La loi de transition énergétique pour la croissance verte en programmait la généralisation, avec quinze millions d'habitants couverts en 2020 et vingt-cinq millions en 2025 ; ces cibles n'ont pas été atteintes et les bilans publiés situent la couverture réelle sous les 10 % de la population, avec de fortes disparités régionales. L'Ademe mesure une baisse d'environ 30 % des ordures ménagères résiduelles collectées après sa mise en place. Attention à une comparaison qui circule beaucoup : rapporter le tonnage des collectivités en tarification incitative à la moyenne nationale mélange l'effet du tarif et celui du territoire, ces collectivités étant majoritairement rurales, là où l'habitat individuel facilite le tri et le compostage.",
+      },
+      {
+        term: "Déchèterie : un service intercommunal, pas un droit",
+        def: "L'accès est presque partout réservé aux habitants des communes du territoire compétent, sur justificatif de domicile puis carte ou badge, souvent un seul par foyer, avec des plafonds de dépôt et des restrictions par type de déchet et de véhicule. La logique assumée est fiscale : l'équipement est financé par la taxe ou la redevance payée par les habitants du territoire. Il n'existe pas de droit d'accès à la déchèterie la plus proche de chez soi : si elle relève d'une autre intercommunalité, l'entrée suppose une convention entre collectivités, qui peut ne pas exister. Un déménagement change donc à la fois l'adresse de la déchèterie, la carte à demander et la liste de ce qu'on peut y déposer, y compris sans changer de département.",
+      },
+      {
+        term: "Taxe d'aménagement",
+        def: "Due pour la plupart des constructions, reconstructions et agrandissements soumis à autorisation d'urbanisme, elle se calcule en multipliant la surface taxable par une valeur forfaitaire au mètre carré, puis par la somme des taux votés. L'arrêté du 22 décembre 2025, indexé sur l'indice du coût de la construction du 3ᵉ trimestre 2025, fixe cette valeur pour 2026 à 892 € le mètre carré hors Île-de-France et 1 011 € en Île-de-France, en baisse par rapport aux 930 € et 1 054 € de 2025. Les taux, eux, sont locaux : part communale ou intercommunale le plus souvent comprise entre 1 et 5 %, pouvant atteindre 20 % dans certains secteurs justifiés par des travaux d'équipement, part départementale plafonnée à 2,5 %, part régionale d'Île-de-France à 1 %. Deux terrains séparés par une limite de commune ne portent donc pas la même taxe pour la même extension.",
+      },
+      {
+        term: "Réseau de chaleur et périmètre de développement prioritaire",
+        def: "Un réseau de chaleur de service public est classé automatiquement lorsqu'il réunit trois critères : plus de 50 % d'énergies renouvelables et de récupération, un comptage de la chaleur livrée par point de livraison, et un équilibre financier. La collectivité peut s'y opposer par délibération motivée. Le classement ouvre un périmètre de développement prioritaire à l'intérieur duquel le raccordement devient obligatoire pour tout bâtiment neuf ou faisant l'objet de travaux de rénovation importants, dès lors que la puissance de chauffage, de climatisation ou d'eau chaude dépasse 30 kilowatts ; à défaut de délibération, ce périmètre est par défaut celui d'exploitation du réseau. Côté facture, la part fixe est soumise à une TVA de 5,5 %, et la part variable en bénéficie lorsque le réseau dépasse ce même seuil de 50 % d'énergies renouvelables. Se raccorder ou installer sa propre chaudière n'est donc pas toujours un choix, et ce qui décide est l'adresse.",
+      },
+      {
+        term: "Arrêté sécheresse : vigilance, alerte, alerte renforcée, crise",
+        def: "Les restrictions d'usage de l'eau sont prises par arrêté préfectoral, à l'échelle d'une zone d'alerte définie sur des bassins versants et non sur les limites départementales ou communales : une intercommunalité peut être coupée en deux, et deux communes limitrophes relever de niveaux différents. La vigilance appelle à réduire volontairement sa consommation ; l'alerte puis l'alerte renforcée restreignent des usages de façon graduée ; la crise ne maintient que les usages prioritaires, sanitaires et de sécurité. Le portail VigiEau publie le niveau en vigueur commune par commune, et c'est lui qui fait foi, pas la carte du département. La restriction n'est pas partout un régime d'exception saisonnier : à Mayotte, la distribution elle-même est rationnée depuis plusieurs années par des tours d'eau, la production installée restant durablement inférieure aux besoins quotidiens du territoire.",
+      },
+      {
+        term: "Contrôle sanitaire de l'eau du robinet",
+        def: "Il est assuré par les agences régionales de santé, avec des prélèvements analysés par des laboratoires agréés par le ministère chargé de la santé, et centralisés depuis 1994 dans la base nationale SISE-Eaux. Les résultats sont publics : ils se consultent commune par commune et par date de prélèvement, et chaque réseau fait l'objet d'une fiche de synthèse annuelle décrivant l'origine de l'eau, sa qualité et sa conformité réglementaire. Un point de méthode vaut d'être retenu avant de conclure quoi que ce soit sur une ville : la bonne maille n'est pas la commune mais le réseau de distribution, et une même commune peut être alimentée par plusieurs réseaux dont les résultats diffèrent. Chercher « la qualité de l'eau à X » sans descendre au réseau revient à moyenner des situations qui ne se ressemblent pas.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -834,8 +896,9 @@ export default function GlossairePage() {
           <p className="text-[var(--text-secondary)] leading-relaxed">
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
             locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants,
-            l&apos;accès aux soins et le marché du travail en France en 2026. Pas de jargon inutile,
-            juste les définitions qu&apos;il faut connaître avant de signer.
+            l&apos;accès aux soins, les transports, le marché du travail et les factures d&apos;eau et
+            de déchets en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
+            connaître avant de signer.
           </p>
         </div>
       </section>

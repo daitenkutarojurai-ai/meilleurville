@@ -2028,10 +2028,60 @@ Vaulx-en-Velin, Saint-Priest, Bron) et les trous listés aux batches 34 et 36 ci
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré
 depuis le tableau — ajouter un terme suffit, rien d'autre à câbler. **Compteur mesuré
-(`grep -c 'term: "'`) : 169 termes, 16 sections** (2026-09-07). ⚠️ Un terme ajouté oblige à
-remonter `GLOSSARY_TERMS_COUNT` (`lib/site-stats.ts`, 155 → 169 ce run) : `npm run integrity`
+(`grep -c 'term: "'`) : 183 termes, 17 sections** (2026-09-16). ⚠️ Un terme ajouté oblige à
+remonter `GLOSSARY_TERMS_COUNT` (`lib/site-stats.ts`, 169 → 183 ce run) : `npm run integrity`
 recompte la page et **échoue** sinon — le nombre est affiché sur `/outils`, `/recherche`, la carte
-OG et `StaticPageCrossLink`. Dernière section ajoutée : « Emploi, chômage et mobilité
+OG et `StaticPageCrossLink`. Dernière section ajoutée : « Eau, assainissement, déchets et
+réseaux » 💧 — 14 termes (prix de l'eau, régie/délégation/syndicat, part fixe et son plafond,
+raccordement obligatoire aux eaux usées, PFAC, SPANC et contrôle périodique, TEOM ou REOM, zonage
+de TEOM et taux disproportionné, tarification incitative, déchèterie, taxe d'aménagement, réseau de
+chaleur et périmètre de développement prioritaire, arrêté sécheresse, contrôle sanitaire de l'eau).
+C'était le trou béant de la page : sur 169 termes, **zéro** ne parlait d'eau, de déchets ni de
+raccordement, alors que ce sont les factures d'un ménage qui varient le plus d'une commune à
+l'autre et que le site porte `/villes/[slug]/eau`, `/villes/[slug]/risques` et le red flag
+`villes-sans-eau-ete`. Cinq points de méthode à ne pas diluer : ① **le piège central du chapitre est
+nommé** — il n'existe ni prix national de l'eau ni taux national de TEOM, l'État ne fixe aucun des
+deux, et ce qui donne l'illusion inverse est le **nom de l'opérateur** imprimé sur la facture, le
+même dans toute la France alors que le tarif a été voté par une assemblée locale ; corollaire,
+l'échelle du prix n'est pas forcément la commune mais le **syndicat**, ce qui découpe une
+agglomération autrement que ses limites administratives ; ② **aucune entrée en doublon** — la taxe
+GEMAPI (section assurance) et le diagnostic d'assainissement non collectif (section diagnostics)
+existaient déjà, donc le SPANC distingue explicitement le **contrôle périodique** du diagnostic de
+vente au lieu d'ouvrir une seconde entrée, même précédent que la CFE renvoyée depuis la zone FRR et
+que l'homonymie APL ; ③ les chiffres sont tous réglementaires ou publiés et **vérifiés en ligne ce
+run** (4,89 € TTC/m³ au 1ᵉʳ janvier 2025 dont 2,50 € eau potable et 2,39 € assainissement, rapport
+Sispea de juin 2026 sur l'activité 2024, soit 586,80 €/an pour la facture de référence de 120 m³ ;
+plafond de part fixe à 40 % du coût du service pour 120 m³, relevé à 50 % en communes rurales,
+arrêté du 6 août 2007 ; raccordement sous deux ans, prolongation jusqu'à dix ans, majoration jusqu'à
+100 % votée par le conseil municipal, art. L1331-1 CSP ; PFAC plafonnée à 80 %, art. L1331-7 CSP ;
+contrôle SPANC à dix ans au plus, art. L2224-8 CGCT ; taxe d'aménagement 2026 à **892 €/m²** hors
+Île-de-France et **1 011 €** en Île-de-France, arrêté du 22 décembre 2025 indexé sur l'ICC du T3
+2025, part départementale ≤ 2,5 % et part régionale francilienne ≤ 1 % ; réseau de chaleur classé
+au-delà de 50 % d'EnR&R avec obligation de raccordement au-delà de 30 kW dans le périmètre
+prioritaire) — aucun tarif d'opérateur, aucune moyenne de facture inventée, aucun taux de TEOM
+commune par commune ; ④ **une exception géographique est publiée plutôt que lissée** : le plafond de
+part fixe **ne s'applique pas aux communes touristiques** (art. L133-11 code du tourisme), y compris
+classées sur une partie seulement de leur territoire, donc dans une station un logement peu occupé
+paie une facture d'eau presque indépendante de sa consommation ; et la restriction n'est pas partout
+saisonnière — à **Mayotte** la distribution est rationnée par des tours d'eau depuis plusieurs
+années, ce que l'entrée sécheresse dit au lieu de décrire un régime métropolitain comme universel ;
+⑤ **deux chiffres volontairement écartés**, faute de sources concordantes ou parce que la
+comparaison était biaisée — la couverture exacte de la tarification incitative (les bilans donnent
+6,5 à 6,6 millions d'habitants selon le millésime, l'entrée publie « sous les 10 % de la population »
+et les cibles légales LTECV de 15 millions en 2020 et 25 millions en 2025, qui elles sont fermes),
+et surtout le rapprochement très répandu **132 kg/hab/an d'ordures résiduelles en tarification
+incitative contre 249 kg au niveau national** : les collectivités concernées étant majoritairement
+rurales, ce rapport mélange l'effet du tarif et celui du territoire, donc l'entrée retient la baisse
+d'environ 30 % mesurée par l'Ademe et **nomme le biais** plutôt que de republier l'écart. 🔧 Corrigé
+au passage : l'intro de la page **énumérait les chapitres couverts et avait dérivé** — elle ne citait
+ni les transports (section livrée le 2026-09-07) ni le nouveau chapitre, alors que le compteur juste
+au-dessus est dérivé de `SECTIONS` ; même famille de dérive que les deux compteurs du hub expat
+fermés le 2026-09-16. ⚠️ Egress : `legifrance.gouv.fr`, `service-public.fr`, `economie.gouv.fr` et
+`banquedesterritoires.fr` répondent **403 CONNECT** depuis la routine — la recherche web fonctionne,
+donc les faits ont été recoupés sur plusieurs résultats plutôt que sur une fiche unique, méthode déjà
+retenue au batch 48. Aucune jumelle EN à câbler : `app/[locale]/glossary` est une **sélection de
+32 termes** pour le lecteur expatrié, pas un miroir, et la paire `pathAlternates("/glossaire",
+"/glossary")` est inchangée. Avant-dernière section ajoutée : « Emploi, chômage et mobilité
 professionnelle » 📈 — 14 termes (zone d'emploi, taux de chômage localisé vs recensement,
 catégories A/B/C, France Travail, contrat d'engagement, ARE, démission légitime pour suivi de
 conjoint, rupture conventionnelle, clause de mobilité, aide à la mobilité, télétravail par accord
