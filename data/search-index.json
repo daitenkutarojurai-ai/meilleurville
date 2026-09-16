@@ -8444,6 +8444,46 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "vacances-monoparentales-anglet-2026",
+      "title": "Vacances monoparentales à Anglet en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-vendome-2026",
+      "title": "Vacances monoparentales à Vendôme en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-la-roche-sur-yon-2026",
+      "title": "Vacances monoparentales à La Roche-sur-Yon en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-vienne-2026",
+      "title": "Vacances monoparentales à Vienne en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-villefranche-sur-saone-2026",
+      "title": "Vacances monoparentales à Villefranche-sur-Saône en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-brive-la-gaillarde-2026",
+      "title": "Vacances monoparentales à Brive-la-Gaillarde en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-compiegne-2026",
+      "title": "Vacances monoparentales à Compiègne en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-dieppe-2026",
+      "title": "Vacances monoparentales à Dieppe en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "parent-solo-a-valence-2026",
       "title": "Parent solo à Valence en 2026 : 2 750 € net, et le meilleur transport du lot après Pessac",
       "emoji": "🧑‍🍼"
@@ -9231,6 +9271,11 @@
       "count": 9
     },
     {
+      "slug": "vacances-pas-cheres-en-famille",
+      "label": "vacances pas chères en famille",
+      "count": 9
+    },
+    {
       "slug": "alpes",
       "label": "alpes",
       "count": 8
@@ -9383,11 +9428,6 @@
     {
       "slug": "surf",
       "label": "surf",
-      "count": 7
-    },
-    {
-      "slug": "vacances-pas-cheres-en-famille",
-      "label": "vacances pas chères en famille",
       "count": 7
     },
     {
@@ -10013,6 +10053,11 @@
     {
       "slug": "guadeloupe",
       "label": "Guadeloupe",
+      "count": 3
+    },
+    {
+      "slug": "hors-saison-val-de-loire",
+      "label": "hors saison Val de Loire",
       "count": 3
     },
     {

@@ -103,6 +103,27 @@ const T: Record<string, Transit> = {
   colmar: { tgv: true },
   montauban: { tgv: true },
 
+  // Ajoutés le 2026-09-16, même motif qu'au 2026-09-12 : les deux rendaient
+  // `{}`, que la table documente comme « inconnu » et non comme « pas de
+  // desserte », et un rédacteur lit l'absence comme une absence. Vérifié avant
+  // écriture : Vendôme-Villiers-sur-Loir TGV est reliée à Paris-Montparnasse
+  // par TGV inOui en 42 à 44 min, 7 à 8 liaisons directes par jour, la gare
+  // étant à ~5 km du centre avec une navette du réseau MOVE calée sur chaque
+  // arrivée et chaque départ ; La Roche-sur-Yon est desservie par TGV inOui
+  // depuis Paris-Montparnasse via Nantes, ~16 trains/jour, 3 h 06 au plus
+  // rapide. Ni tram ni métro dans l'une ni dans l'autre ; `bhns` et `velo`
+  // restent non renseignés faute de vérification, pas par constat d'absence.
+  // ⚠️ Vérifiées le même jour et volontairement NON ajoutées, faute de TGV :
+  // Vienne (TER Lyon 18 min), Villefranche-sur-Saône (TER Lyon 21 min),
+  // Compiègne (TER Paris-Nord direct, ~30/jour), Brive-la-Gaillarde
+  // (Intercités Paris-Austerlitz, ~4 h 35), Dieppe (correspondance à
+  // Rouen-Rive-Droite, direct Paris uniquement le week-end). Anglet n'a pas de
+  // gare du tout et se rejoint par Bayonne ou Biarritz. Ne pas leur poser
+  // `tgv: true` : le type ne sait pas exprimer « vérifié absent », donc ces
+  // six-là restent hors table et cette note est leur seule trace.
+  vendome: { tgv: true },
+  "la-roche-sur-yon": { tgv: true },
+
   // — Banlieue parisienne — RER & métro Paris —
   "boulogne-billancourt": { metro: true, rer: true, tram: true, velo: "moyen" },
   "issy-les-moulineaux": { metro: true, rer: true, tram: true, velo: "moyen" },

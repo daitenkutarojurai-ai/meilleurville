@@ -27395,39 +27395,39 @@ export const GUIDES: Guide[] = [
         body: "Cette place centrale gigantesque compte parmi les plus grandes places de France. Elle porte la statue équestre de Napoléon et des animaux mécaniques (girafe, ours, crocodiles) qui animent un spectacle d'eau et de lumière l'été, gratuit. C'est le cœur de la ville pentagonale.",
       },
       {
-        heading: "2. Le Haras de la Vendée — chevaux de trait",
+        heading: "2. Le plan en pentagone voulu par Napoléon en 1804",
         body: "Le plan en étoile, ou pentagone, a été voulu par Napoléon en 1804, avec ses rues en damier et ses perspectives. Cette ville nouvelle du XIXe a été pensée comme une caserne-préfecture, ce qui la rend atypique en France. Baladez-vous pour en saisir la géométrie.",
       },
       {
-        heading: "3. Le Puy du Fou — à 50 km en Vendée bocagère",
+        heading: "3. Les animaux mécaniques — le spectacle gratuit de l'été",
         body: "Ce spectacle d'animaux mécaniques (girafe géante, ours blanc, crocodiles, oiseaux) prend vie au rythme de l'eau et de la musique. Gratuit, il se donne l'été en soirée et reste très populaire en famille. C'est la signature de la Roche moderne.",
       },
       {
-        heading: "4. Les Sables-d'Olonne et le Vendée Globe",
+        heading: "4. L'Historial de la Vendée — aux Lucs-sur-Boulogne",
         body: "À 15 min, aux Lucs-sur-Boulogne, ce grand musée retrace l'histoire de la Vendée, de la préhistoire à aujourd'hui, avec un focus sur les guerres de Vendée. Son architecture contemporaine s'inscrit dans la nature, et l'ensemble est très complet. Le mémorial des Lucs se trouve juste à côté.",
       },
       {
-        heading: "5. La forêt et le lac de Mervent",
+        heading: "5. Le Haras de la Vendée — chevaux de trait",
         body: "Cet ancien haras national se tient en centre-ville, avec ses chevaux et ses écuries du XIXe. On y propose des visites et des spectacles équestres l'été, dans un espace vert agréable. Un beau témoignage du patrimoine équestre vendéen.",
       },
       {
-        heading: "6. Le Marais poitevin — la Venise verte",
+        heading: "6. Les halles centrales — le ventre de la ville",
         body: "Les halles centrales abritent un marché couvert où l'on trouve les produits vendéens : brioche, jambon, fruits de mer, car la côte n'est pas loin. L'ambiance y est très locale. C'est le ventre de la ville.",
       },
       {
-        heading: "7. Tiffauges — le château de Gilles de Rais (Barbe Bleue)",
+        heading: "7. Les parcs et la vallée de l'Yon",
         body: "La ville compte plusieurs parcs, comme le jardin de la mairie ou le parc des Oudairies. Verte malgré son côté minéral, elle se prête bien aux promenades. La Yon, rivière, la traverse au sud.",
       },
       {
-        heading: "8. Le musée municipal — Paul Baudry",
+        heading: "8. Les Sables-d'Olonne — l'excursion mer",
         body: "À 35 km, c'est LA station balnéaire vendéenne, avec sa grande plage, son remblai et son port, d'où part le Vendée Globe tous les 4 ans. C'est l'excursion mer incontournable depuis La Roche, à 30 min en voiture.",
       },
       {
-        heading: "9. La vallée de l'Yon — promenades vertes",
+        heading: "9. Le Vendée Globe — le rythme du département",
         body: "La Roche est la préfecture du département qui vit au rythme du Vendée Globe, cette course autour du monde en solitaire qui part des Sables-d'Olonne tous les 4 ans, la prochaine étant prévue en 2028. La ferveur maritime se ressent dans tout le 85.",
       },
       {
-        heading: "10. Gastronomie vendéenne — préfou et brioche",
+        heading: "10. Le Puy du Fou — aux Épesses",
         body: "À 50 min, aux Épesses, ce parc historique majeur propose des spectacles grandioses et la Cinéscénie. C'est l'excursion famille phare de Vendée. Pensez à réserver très en avance.",
       },
     ],
@@ -31686,7 +31686,7 @@ export const GUIDES: Guide[] = [
         body: "Senlis, à 25 km au sud-est de Compiègne, est l'une des plus belles cités médiévales d'Île-de-France et la première résidence des premiers Capétiens : Hugues Capet y fut élu roi en 987. On y admire la cathédrale Notre-Dame (XIIe siècle, gothique primitif), dont la façade compte parmi les plus belles façades romanes de France, une enceinte gallo-romaine et médiévale restée intacte sur 800 m, et des ruelles pavées. Une journée à combiner avec Compiègne.",
       },
       {
-        heading: "6. L'historial du Char et de la Cavalerie",
+        heading: "6. Le musée de la Figurine historique",
         body: "Le Musée de la Figurine historique de Compiègne rassemble 4 500 figurines historiques retraçant l'histoire de France : un musée curieux et original. Sa section sur la Première Guerre mondiale présente uniformes et armes, car Compiègne fut le quartier général du général Joffre puis du général Foch pendant la guerre. Une section impériale est consacrée à Napoléon Ier. L'entrée est gratuite pour les enfants.",
       },
       {
@@ -51548,6 +51548,430 @@ export const GUIDES: Guide[] = [
       "vacances-monoparentales-montpellier-2026"
     ],
     tags: ["vacances monoparentales Avignon", "parent solo Vaucluse", "palais des papes famille", "gare TGV excentrée", "hors saison Provence"]
+  },
+  {
+    slug: "vacances-monoparentales-anglet-2026",
+    title: "Vacances monoparentales à Anglet en 2026",
+    metaTitle: "Vacances monoparentales à Anglet 2026",
+    metaDesc:
+      "Anglet sort à 7,3/10 au composite monoparental, le meilleur de la série avec Vendôme, et la plus haute qualité de vie des 38. Mais elle n'a pas de gare.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Anglet sort à 7,3/10 au composite « famille monoparentale », le meilleur score des trente-huit destinations que cette série a couvertes, à égalité avec Vendôme et devant La Roche-sur-Yon à 7,2 (source : lib/vacation-fit.ts). Le détail : sécurité 7,2/10, transports 7,7/10, coût de la vie 4,5/10 et qualité de vie 8,7/10 (source : data/cities-seed.ts). Ce 8,7 est la meilleure qualité de vie des trente-huit, et le 7,8 de l'axe nature est le deuxième derrière Grenoble à 8,4. Le 4,5 de l'axe coût, en revanche, est le cinquième plus mauvais de la série : le T3 de référence est à 1 200 € et le mètre carré à 4 300 € (source : data/housing.ts), contre une médiane de série à 950 € et 2 550 €. La commune compte 42 288 habitants au recensement 2022, contre 38 581 en 2011, soit une hausse de 9,6 % (source : data/city-population.json). Ce guide ouvre sur la gare, parce qu'Anglet n'en a pas.",
+    sections: [
+      {
+        heading: "La commune n'a pas de gare, et c'est la première chose à régler",
+        body: "Anglet est coincée entre Bayonne au nord et Biarritz au sud, sur la conurbation dite BAB, et elle ne possède pas de gare ferroviaire propre. On arrive donc à Bayonne ou à Biarritz, puis on rejoint son hébergement. Vérification faite avant écriture : la gare de Biarritz est desservie par TGV inOui depuis Paris-Montparnasse, à raison de quatre liaisons directes par jour environ, sur l'axe qui relie Hendaye à Paris en passant par Saint-Jean-de-Luz, Biarritz, Bayonne, Dax et Bordeaux-Saint-Jean, pour un temps de parcours de l'ordre de cinq heures trente. C'est la plus longue arrivée depuis Paris de tout ce lot, devant Brive-la-Gaillarde et ses quatre heures trente-cinq. Sur place, le réseau Tram'bus dessert la conurbation et relie Anglet à la mairie de Bayonne en une vingtaine de minutes. Un mot sur le nom, parce qu'il induit en erreur exactement comme le « tram » de Nancy que ce site a dû corriger : le Tram'bus n'est pas un tramway mais un bus à haut niveau de service, sur voie réservée. Cela ne change rien à son utilité et tout à ce qu'il faut chercher sur un plan. Pour un adulte seul avec des enfants et des bagages, la conséquence pratique est simple : le trajet ne s'arrête pas à la gare d'arrivée, il faut compter le segment suivant, et le choix de l'hébergement se fait en regardant d'abord la desserte Tram'bus, pas la distance à vol d'oiseau jusqu'à la plage."
+      },
+      {
+        heading: "Qualité de vie 8,7/10 : le meilleur score des trente-huit",
+        body: "Sur l'axe qualité de vie, Anglet sort à 8,7/10 (source : data/cities-seed.ts), et c'est le maximum des trente-huit destinations de la série, devant La Rochelle à 8,1, Saint-Raphaël et Aix-en-Provence à 7,8. L'axe nature suit à 7,8/10, deuxième de la série derrière le 8,4 de Grenoble. Ce que ces deux chiffres mesurent se voit sur le terrain. La commune aligne 4,5 kilomètres de plages océanes en descendant de l'embouchure de l'Adour à la Chambre d'Amour, et son poumon vert est la forêt du Pignada, 220 hectares de pins maritimes plantés au XIXe siècle pour fixer les dunes, aujourd'hui parcourus de sentiers, de pistes cyclables et d'un parcours d'orientation. Le relevé cartographique retient par ailleurs 31 espaces verts sur la commune, dont 14 portent une aire de jeux (source : data/city-parks.json). Ce total de 31 est un compte réel : il est sous le plafond de quarante entrées par commune du relevé, que vingt-deux des trente-huit destinations de la série atteignent, et dont la valeur affichée n'est alors qu'un plancher. Pour un parent qui voyage seul, la densité compte plus que la beauté : quatorze aires de jeux réparties dans une commune tenue par une ligne de bus à haut niveau de service, cela veut dire qu'un après-midi peut se décider le matin même."
+      },
+      {
+        heading: "Le coût : le point faible, et il est net",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Anglet sort à 4,5/10 (source : data/cities-seed.ts), le quatrième score le plus bas des trente-huit, à égalité avec Bordeaux et derrière Aix-en-Provence 3,6, Saint-Raphaël 3,9 et Lyon 4,2. Le marché résidentiel donne 1 200 € le T3 de référence et 4 300 € le mètre carré (source : data/housing.ts), soit le quatrième T3 le plus élevé de la série à égalité avec Bordeaux, et le cinquième mètre carré. Le moteur la classe en €€€€, le palier le plus cher (source : lib/vacation-fit.ts), et c'est la seule des huit destinations ajoutées ce mois-ci à y figurer. Ces repères décrivent un marché résidentiel et non des tarifs de vacances, mais sur une commune balnéaire l'écart entre les deux joue dans le même sens, à la hausse. Pour un adulte qui paie seul l'hébergement d'un foyer entier, le raisonnement honnête est le suivant : Anglet obtient le meilleur composite de la série parce que la sécurité, la qualité de vie et la nature y sont exceptionnelles, et malgré son coût, pas grâce à lui. Si le budget est la contrainte première, Vendôme sort au même 7,3/10 avec un T3 à 720 €, soit 480 € de moins par mois de référence."
+      },
+      {
+        heading: "Notre station climatique est à 164 kilomètres, la plus lointaine de la série",
+        body: "La station de référence retenue pour Anglet est celle de Bordeaux-Mérignac, à 164 kilomètres (source : lib/climate-normals.ts). C'est le rattachement le plus lointain des trente-huit destinations de la série, devant Pau à 146 kilomètres et Metz à 125, pour une médiane de série à 55 kilomètres. Il faut donc lire les valeurs qu'elle rapporte comme un ordre de grandeur et non comme une mesure locale : 7,1 °C en janvier et 12,2 jours de pluie, 21,7 °C en juillet et 7,1 jours de pluie. Entre Bordeaux et la côte basque, la façade océanique et le relief pyrénéen ne produisent pas le même régime de précipitations, et ce rattachement ne le voit pas. Les ancres propres à la commune viennent du seed et sont plus fiables ici : 9 °C de moyenne en janvier, 23,5 °C en juillet et 2 000 heures de soleil annuelles (source : data/cities-seed.ts). Côté affluence, notre indicateur donne 4 sur 5 en juillet et en août, le palier le plus élevé de tout ce lot, 3 en juin et en septembre, 2 le reste de l'année (source : lib/vacation-seasons.ts). La fenêtre à viser est donc mai, avec 17 °C de moyenne et une affluence à 2, ou la première quinzaine d'octobre à 15 °C."
+      },
+      {
+        heading: "Sécurité 7,2/10, et la vraie question ici est l'océan",
+        body: "Anglet affiche 7,2/10 sur l'axe sécurité (source : data/cities-seed.ts), le troisième meilleur score des trente-huit, derrière La Roche-sur-Yon à 8,0 et Vendôme à 7,5, très au-dessus de la médiane de série qui vaut 5,6. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Mais sur cette destination précise, le risque qui concerne réellement un adulte seul avec des enfants n'est pas celui que cet axe mesure. Les plages d'Anglet sont des plages océanes de surf, et non un plan d'eau abrité. Les Cavaliers accueillent une étape du circuit qualificatif de la World Surf League, ce qui dit assez la puissance de la houle. L'embouchure de l'Adour, dite la Barre, à l'extrémité nord de la commune, est un spot réservé aux pratiquants expérimentés en raison de courants forts. Le lac de Chiberta, 18 hectares entre la forêt et l'océan, est pratiqué en baignade mais n'est pas surveillé. La règle à appliquer est celle du drapeau : on se baigne dans la zone surveillée, entre les drapeaux, aux heures de surveillance, et la signalétique verte, jaune et rouge est réglementaire, pas indicative. Un parent seul ne peut pas surveiller deux enfants dans une baïne."
+      },
+      {
+        heading: "Ce qu'on fait sur place, et ce qui n'est pas à Anglet",
+        body: "Le programme tient sans voiture. Les plages et la promenade de la Chambre d'Amour, avec son petit phare de 1918 et son point de vue sur la baie de Biscaye ; la forêt du Pignada et son arboretum ; le tour du lac de Chiberta, deux kilomètres de sentier, une trentaine de minutes de marche ; la Villa Beatrix Enea, centre d'art contemporain municipal dans un parc de quatre hectares planté de sculptures monumentales, et la médiathèque Quintaou à côté. Deux précisions de localisation, dans la convention que ce site applique partout. Bayonne, avec sa cathédrale Sainte-Marie, son cloître du XIVe siècle et son marché des Halles, est accessible depuis Anglet et n'y est pas située : c'est la commune voisine au nord, une vingtaine de minutes en Tram'bus. Biarritz, avec sa Grande Plage, son Rocher de la Vierge et son Musée de la Mer, est de même accessible depuis Anglet au sud, la Chambre d'Amour se trouvant à la limite des deux communes. Le circuit à pied qui longe la corniche depuis la Chambre d'Amour jusqu'à la Grande Plage de Biarritz prend environ une heure, ce qui en fait la meilleure demi-journée du séjour pour qui n'a pas de véhicule."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après : sur une destination classée €€€€, c'est le levier qui pèse le plus lourd des quatre. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et chez beaucoup de prestataires de loisirs, écoles de surf comprises sur la côte basque, ce qui vaut d'être demandé à la réservation. Les bons vacances de la caisse d'allocations familiales des Pyrénées-Atlantiques se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["anglet", "bayonne", "biarritz", "pau"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-anglet-2026",
+      "parent-solo-a-anglet-2026",
+      "vacances-monoparentales-pau-2026",
+      "vacances-monoparentales-vendome-2026"
+    ],
+    tags: ["vacances monoparentales Anglet", "parent solo Pays basque", "plage surveillée famille", "côte basque sans voiture", "hors saison Atlantique"]
+  },
+  {
+    slug: "vacances-monoparentales-vendome-2026",
+    title: "Vacances monoparentales à Vendôme en 2026",
+    metaTitle: "Vacances monoparentales à Vendôme 2026",
+    metaDesc:
+      "Vendôme sort à 7,3/10 au composite monoparental, le meilleur de la série avec Anglet, et c'est la moins chère des trente-huit : T3 720 €, mètre carré 1 500 €.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Vendôme sort à 7,3/10 au composite « famille monoparentale », le meilleur score des trente-huit destinations de la série, à égalité avec Anglet (source : lib/vacation-fit.ts). Le détail : sécurité 7,5/10, transports 7,1/10, coût de la vie 7,6/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Deux de ces chiffres sont des records de série : le 7,6 de l'axe coût est le plus élevé des trente-huit, et le 7,5 de sécurité le deuxième derrière La Roche-sur-Yon. Le marché suit : 720 € le T3 de référence, le minimum de la série, et 1 500 € le mètre carré, à égalité avec Saint-Étienne pour le minimum également (source : data/housing.ts), contre une médiane de série à 950 € et 2 550 €. Autrement dit, la destination la mieux notée du corpus est aussi la moins chère, ce qui n'était encore jamais arrivé dans cette série. La commune compte 15 566 habitants au recensement 2022, contre 16 849 en 2011, soit une baisse de 7,6 % (source : data/city-population.json).",
+    sections: [
+      {
+        heading: "Une gare TGV à cinq kilomètres, et une navette calée sur les trains",
+        body: "Cette série a documenté plusieurs fois le même piège : le drapeau TGV d'une ville peut désigner une gare posée loin du centre, et l'arrivée coûte alors une heure de fatigue supplémentaire à un adulte seul chargé de bagages et d'enfants. Vendôme est dans ce cas, avec une réponse correcte. Vérification faite avant écriture : la gare de Vendôme-Villiers-sur-Loir TGV est à environ cinq kilomètres du centre, et elle est reliée à Paris-Montparnasse par TGV inOui en quarante-deux à quarante-quatre minutes, avec de l'ordre de sept à huit liaisons directes par jour. C'est le trajet le plus court depuis Paris de tout ce lot, et l'un des plus courts de province. Le raccordement au centre est assuré par le réseau urbain MOVE, qui exploite une navette gare TGV calée sur chaque arrivée et chaque départ de TGV, ainsi que par deux lignes régulières, pour une douzaine de minutes de trajet. La ville dispose par ailleurs d'une gare TER distincte, en centre-ville, vers laquelle la navette fait le lien. Pour un parent qui voyage seul, le point à retenir est que la correspondance est organisée et synchronisée, ce qui n'est pas le cas partout : le risque n'est pas d'attendre, il est de ne pas savoir que la navette existe et de réserver un taxi."
+      },
+      {
+        heading: "Coût 7,6/10 : la destination la moins chère des trente-huit",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Vendôme sort à 7,6/10 (source : data/cities-seed.ts), le meilleur score des trente-huit destinations de la série, devant La Roche-sur-Yon à 7,2 et Saint-Étienne à 7,1, pour une médiane de série à 6,1. Le marché résidentiel confirme : 720 € le T3 de référence, le minimum absolu de la série, devant Saint-Étienne à 770 €, Mulhouse et Brive-la-Gaillarde à 780 € ; et 1 500 € le mètre carré, à égalité avec Saint-Étienne pour le minimum (source : data/housing.ts). Le moteur la classe en €€, le deuxième palier le moins cher (source : lib/vacation-fit.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais l'ordre de grandeur se transporte : une petite ville de 15 566 habitants sans pression touristique de masse n'a pas de tarification de haute saison comparable à celle d'une station. Pour un adulte qui paie seul l'hébergement d'un foyer entier, c'est la configuration la plus favorable que cette série ait documentée, et elle se double du meilleur composite. Le contrepoint honnête est plus loin dans ce guide : la ville est petite, et le programme se termine."
+      },
+      {
+        heading: "Ce qu'on vient voir, et pourquoi c'est disproportionné",
+        body: "L'abbaye de la Trinité a été fondée en 1033 par Geoffroy Martel, comte d'Anjou et de Vendôme, et l'ensemble abbatial, bâtiments conventuels et cloître compris, est d'une échelle sans rapport avec la taille de la commune actuelle. La raison est une relique : la Sainte Larme, obtenue selon la tradition de l'empereur de Constantinople, a fait de Vendôme un centre de pèlerinage majeur du XIe siècle à la fin du XVIIIe, soit sept siècles de flux de visiteurs. C'est ce flux qui a payé la façade. En 1508, Jean Texier, dit Jean de Beauce, dessine la façade de l'abbatiale, l'un des chefs-d'œuvre du gothique flamboyant ; le même homme construit le clocher nord de la cathédrale de Chartres. À quelques mètres de là se dresse le clocher roman du XIIe siècle, antérieur de trois siècles et demi, qui ressemble au clocher sud de Chartres. Les deux tiennent dans le même champ de vision, et pour un enfant c'est la façon la plus économique de comprendre ce que veut dire un changement d'époque. L'accès à l'église est libre aux heures d'ouverture ; les parties conventuelles ont des usages divers et ne se visitent pas toutes, ce qui se vérifie avant de s'y rendre."
+      },
+      {
+        heading: "Le Loir n'est pas la Loire, et il faut le savoir avant de réserver",
+        body: "La vieille ville est enserrée entre deux bras du Loir, qui se divise encore en canaux à l'intérieur du tissu urbain et donne à Vendôme ses ponts, ses quais et ses jardins d'eau. Le Loir n'est pas la Loire : c'est une rivière plus modeste et plus lente, et la confusion entre les deux noms est permanente. Elle vaut d'être levée avant le départ, parce qu'un parent qui réserve Vendôme en pensant enchaîner les châteaux de la Loire à pied se trompe de géographie. Ce qui se fait réellement à pied, en une heure, c'est la promenade le long des bras, du parc Ronsard aux abords de l'abbaye. S'y ajoutent la porte Saint-Georges, seule survivante des quatre portes de la ville, reconstruite au début du XVIe siècle par Marie de Luxembourg, qui enjambe le Loir et a abrité l'hôtel de ville de 1467 jusqu'à une date récente ; les vestiges du château et son parc à l'anglaise du XIXe siècle, avec un cèdre planté en 1807 et la meilleure vue sur la ville ; et l'alignement de lavoirs de la rue Saint-Bienheuré, visite de dix minutes qui change d'échelle sociale après l'abbaye. Le relevé cartographique retient 14 espaces verts sur la commune, dont 3 seulement portent une aire de jeux (source : data/city-parks.json) : c'est peu, et c'est la limite réelle de la destination avec de jeunes enfants."
+      },
+      {
+        heading: "Sécurité 7,5/10 et une ville qui se vide",
+        body: "Vendôme affiche 7,5/10 sur l'axe sécurité (source : data/cities-seed.ts), le deuxième meilleur score des trente-huit destinations de la série, derrière La Roche-sur-Yon à 8,0 et devant Anglet à 7,2, pour une médiane de série à 5,6. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Le second chiffre démographique mérite d'être posé à côté, parce qu'il va dans l'autre sens : la commune est passée de 16 849 habitants en 2011 à 16 688 en 2016 puis 15 566 en 2022, soit une baisse de 7,6 % sur onze ans (source : data/city-population.json). Avec Dieppe, qui perd 8,2 % sur la même période, ce sont les deux reculs les plus marqués des trente-huit. Le TGV met Paris à quarante-deux minutes et la population baisse quand même ; ces deux faits coexistent et ce guide n'entreprend pas de les relier. Ce qu'un visiteur en retire est plus limité mais concret : hors juillet et août, la ville est calme, notre indicateur d'affluence la donne à 1 sur 5 pendant sept mois de l'année (source : lib/vacation-seasons.ts), et l'offre de restauration et de commerces d'une ville qui perd des habitants se vérifie le soir et le dimanche, avant de compter dessus."
+      },
+      {
+        heading: "Quand y aller, et combien de temps rester",
+        body: "La station climatique de référence est celle de Tours-Saint-Symphorien, à 47 kilomètres (source : lib/climate-normals.ts), un rattachement court pour la série, dont la médiane est à 55 kilomètres, et qui porte un climat comparable : même bassin, même absence de relief. Les valeurs donnent 5,1 °C en janvier avec 11 jours de pluie, et 20,2 °C en juillet avec 6,7 jours de pluie. Les ancres propres à la commune viennent du seed : 4,5 °C en janvier, 22,5 °C en juillet et 1 950 heures de soleil annuelles (source : data/cities-seed.ts). Notre indicateur d'affluence donne 1 sur 5 de janvier à mai puis en octobre, novembre et décembre, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts) : c'est la destination la plus calme de ce lot de huit. La fenêtre à viser est mai, avec 15 °C de moyenne et une affluence au plancher, ou septembre à 17 °C. Sur la durée, il faut être franc : le cœur monumental se voit en une journée pleine, deux avec le château, le parc et les lavoirs pris sans se presser. Vendôme est une base économique et sûre pour un séjour d'une semaine dans le Vendômois, pas une destination qui occupe sept jours à elle seule."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Les bons vacances de la caisse d'allocations familiales de Loir-et-Cher se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : sur la moins chère des trente-huit, le poste qui pèsera le plus n'est pas l'hébergement mais le transport, surtout à plusieurs. Les tarifs jeunes et famille de la SNCF, et la réservation anticipée sur un axe TGV très fréquenté, valent ici plus que n'importe quelle aide au logement. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["vendome", "blois", "tours", "chartres"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-vendome-2026",
+      "vacances-monoparentales-tours-2026",
+      "vacances-monoparentales-anglet-2026",
+      "vacances-monoparentales-la-roche-sur-yon-2026"
+    ],
+    tags: ["vacances monoparentales Vendôme", "parent solo Loir-et-Cher", "vacances pas chères en famille", "TGV Paris 45 minutes", "hors saison Val de Loire"]
+  },
+  {
+    slug: "vacances-monoparentales-la-roche-sur-yon-2026",
+    title: "Vacances monoparentales à La Roche-sur-Yon en 2026",
+    metaTitle: "Vacances monoparentales La Roche-sur-Yon 2026",
+    metaDesc:
+      "La Roche-sur-Yon porte la meilleure sécurité des trente-huit destinations de la série, 8,0/10, et la plus faible culture, 5,7/10. Le guide dit ce que ça change.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "La Roche-sur-Yon sort à 7,2/10 au composite « famille monoparentale », troisième des trente-huit destinations de la série derrière Anglet et Vendôme à 7,3 (source : lib/vacation-fit.ts). Le détail : sécurité 8,0/10, transports 7,0/10, coût de la vie 7,2/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Le 8,0 de sécurité est le meilleur score des trente-huit, devant Vendôme à 7,5, et il pèse lourd puisque le composite monoparental pondère cet axe à 0,30, le plus élevé de ses quatre critères. Mais la même ville porte le plus faible score de culture de toute la série, 5,7/10, derrière Saint-Étienne à 5,9. Les deux chiffres sont vrais ensemble, et ce guide est construit sur ce que cela implique concrètement. Le T3 de référence est à 800 € et le mètre carré à 2 100 € (source : data/housing.ts), sous les médianes de série à 950 € et 2 550 €. La commune compte 54 699 habitants au recensement 2022, contre 52 773 en 2011, soit une hausse de 3,6 % (source : data/city-population.json).",
+    sections: [
+      {
+        heading: "TGV direct depuis Paris, et le détail qui compte est la correspondance",
+        body: "Vérification faite avant écriture : la gare de La Roche-sur-Yon est desservie par TGV inOui depuis Paris-Montparnasse, avec de l'ordre de seize trains par jour sur la liaison et un temps de parcours qui descend à trois heures six minutes pour les plus rapides, la desserte passant par Le Mans, Angers-Saint-Laud et Nantes. La gare est en ville, ce qui écarte d'emblée le piège de la gare excentrée que cette série a documenté à Mâcon, à Aix-en-Provence et à Vendôme. Le point de vigilance est ailleurs : selon l'horaire choisi, la liaison peut impliquer un changement à Nantes, et une correspondance n'a pas le même coût pour un adulte seul avec deux enfants et des bagages que pour un voyageur seul. Le réflexe utile au moment de réserver est de filtrer sur les trajets directs même s'ils sont un peu plus longs, plutôt que de prendre le plus rapide sur le papier. Sur place, l'axe transports du seed donne 7,0/10 (source : data/cities-seed.ts), exactement la médiane des trente-huit destinations de la série : un maillage de bus correct pour une préfecture de cette taille, sans mode lourd, et une ville dont le plan géométrique rend la marche lisible."
+      },
+      {
+        heading: "Sécurité 8,0/10 : le meilleur score de la série",
+        body: "La Roche-sur-Yon affiche 8,0/10 sur l'axe sécurité (source : data/cities-seed.ts), le meilleur score des trente-huit destinations de la série, devant Vendôme à 7,5, Anglet à 7,2 et Vannes à 6,9, pour une médiane de série à 5,6. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Deux remarques pour lui donner sa juste portée. La première est méthodologique : le composite monoparental pondère la sécurité à 0,30, devant les transports et le coût à 0,25 et la qualité de vie à 0,20, ce qui veut dire qu'un tiers du classement de cette destination tient à ce seul chiffre. La seconde remet ce lot dans la série : les huit destinations ajoutées ce mois-ci sont toutes au-dessus de la médiane de sécurité de 5,6, et les quatre meilleurs scores des trente-huit sont dans ce lot. C'est l'exacte inversion du lot précédent, où sept des huit villes étaient sous cette médiane et où figuraient les deux plus mauvais scores du corpus. La raison n'est pas éditoriale, elle est expliquée dans la section suivante : la règle de sélection a changé, et elle a cessé d'écarter ce type de ville."
+      },
+      {
+        heading: "Culture 5,7/10 : le plus bas de la série, et ce que cela veut dire en pratique",
+        body: "Sur l'axe culture, La Roche-sur-Yon sort à 5,7/10 (source : data/cities-seed.ts), le score le plus bas des trente-huit destinations de la série, derrière Saint-Étienne à 5,9, Vannes, Poitiers et Le Mans à 6,2, pour une médiane de série à 7,3. À l'autre bout du même corpus, Vienne, Avignon, Strasbourg et Lyon sont à 9,0. L'écart est réel et il a une traduction pratique : ici, le contenu du séjour ne se présente pas tout seul, il se prépare. Ce qui existe et qui vaut le déplacement tient d'abord à l'urbanisme. La ville a été créée ex nihilo par Napoléon en 1804, sur un plan en pentagone aux rues en damier, pensé comme une caserne-préfecture, ce qui la rend atypique en France. La place Napoléon, au centre, compte parmi les plus grandes places de France et porte la statue équestre de l'empereur. Le Haras de la Vendée, ancien haras national du XIXe siècle, se tient en centre-ville avec ses écuries et propose des visites et des spectacles équestres l'été. Les halles centrales abritent un marché couvert de produits vendéens. Pour un parent seul, la conséquence est qu'il faut arriver avec un programme, ou choisir la ville comme base plutôt que comme destination."
+      },
+      {
+        heading: "Les animaux mécaniques, et pourquoi la gratuité compte ici",
+        body: "Sur la place Napoléon, un ensemble d'animaux mécaniques, dont une girafe, un ours et des crocodiles, prend vie au rythme de l'eau et de la musique lors d'un spectacle donné en soirée l'été. Il est gratuit. Ce dernier point n'est pas un détail sur cette série. Un adulte qui finance seul les vacances d'un foyer entier paie chaque entrée en nombre d'enfants plus un, sans l'amortissement que permet un second revenu, et la variable qui décide réellement d'un programme n'est pas le prix moyen d'une activité mais le nombre d'activités gratuites disponibles. Le relevé cartographique retient par ailleurs 30 espaces verts sur la commune, dont 10 portent une aire de jeux (source : data/city-parks.json), avec le parc de la Vallée verte à 45,6 hectares, le plus vaste des huit destinations ajoutées ce mois-ci. Ce total de 30 est un compte réel, sous le plafond de quarante entrées par commune du relevé que vingt-deux des trente-huit destinations de la série atteignent et dont la valeur n'est alors qu'un plancher. Entre un spectacle gratuit en soirée, un marché couvert et trente espaces verts, un séjour de quatre à cinq jours se monte sans billetterie."
+      },
+      {
+        heading: "Le budget, et la mer qui n'est pas là",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. La Roche-sur-Yon sort à 7,2/10 (source : data/cities-seed.ts), le deuxième meilleur score des trente-huit derrière Vendôme à 7,6, pour une médiane de série à 6,1. Le marché résidentiel donne 800 € le T3 de référence et 2 100 € le mètre carré (source : data/housing.ts), le cinquième T3 le moins cher de la série, à égalité avec Mâcon. Le moteur la classe en €€ (source : lib/vacation-fit.ts). Il faut cependant lever un malentendu de géographie, parce qu'il change le budget du séjour. La Roche-sur-Yon n'est pas une commune littorale. Les Sables-d'Olonne, la station balnéaire vendéenne de référence et le port de départ du Vendée Globe, sont à trente-cinq kilomètres et sont accessibles depuis La Roche-sur-Yon sans y être situés. C'est précisément ce qui rend l'arbitrage intéressant pour un parent seul : loger ici plutôt que sur le littoral coûte nettement moins cher, au prix d'un aller-retour quotidien s'il s'agit d'aller à la plage tous les jours. Si le programme est balnéaire, il faut compter ce trajet ; si la mer est une sortie parmi d'autres, la base yonnaise est un bon calcul."
+      },
+      {
+        heading: "Quand y aller, et une lacune de nos données",
+        body: "La station climatique de référence est celle de Nantes-Bouguenais, à 55 kilomètres (source : lib/climate-normals.ts), exactement la médiane de la série, et un rattachement cohérent : même façade atlantique, même absence de relief. Les valeurs de température donnent 6,4 °C en janvier et 19,7 °C en juillet. Il faut dire ici ce que nos données ne portent pas : le nombre de jours de pluie n'est pas renseigné pour cette station, comme il ne l'est pas pour celle de Rouen qui sert à Dieppe dans ce même lot. Nous préférons l'écrire plutôt que de combler le trou avec une valeur voisine. Les ancres propres à la commune viennent du seed : 6,5 °C en janvier, 21,5 °C en juillet et 2 000 heures de soleil annuelles (source : data/cities-seed.ts). Notre indicateur d'affluence donne 2 sur 5 pendant huit mois, 3 en juin et en septembre, 4 en juillet et en août (source : lib/vacation-seasons.ts). La fenêtre à viser est mai, avec 15 °C de moyenne et une affluence à 2, ou la seconde quinzaine de septembre. Le spectacle des animaux mécaniques étant estival, un séjour de mai ou de septembre perd cette carte : c'est l'arbitrage à trancher avant de réserver, et il vaut la peine de vérifier les dates auprès de la ville."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après : la Vendée est un département à forte densité de campings et de villages vacances conventionnés, ce qui rend ce dispositif particulièrement pertinent ici. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et chez beaucoup de prestataires de loisirs. Les bons vacances de la caisse d'allocations familiales de la Vendée se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance, et cette anticipation compte double sur un département dont l'offre estivale se remplit tôt. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["la-roche-sur-yon", "les-sables-d-olonne", "nantes", "challans"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-la-roche-sur-yon-2026",
+      "parent-solo-a-la-roche-sur-yon-2026",
+      "vacances-monoparentales-vendome-2026",
+      "vacances-monoparentales-nantes-2026"
+    ],
+    tags: ["vacances monoparentales La Roche-sur-Yon", "parent solo Vendée", "activités gratuites enfants", "base pour les Sables-d'Olonne", "sécurité en vacances"]
+  },
+  {
+    slug: "vacances-monoparentales-vienne-2026",
+    title: "Vacances monoparentales à Vienne en 2026",
+    metaTitle: "Vacances monoparentales à Vienne (Isère) 2026",
+    metaDesc:
+      "Vienne porte 9,0/10 de culture, le maximum de la série, sur 31 555 habitants. TER de 18 min depuis Lyon, aucun TGV, huit parcs sur huit avec aire de jeux.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Vienne sort à 6,9/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), sur sécurité 5,7/10, transports 7,7/10, coût de la vie 6,7/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Le chiffre qui la distingue est ailleurs : 9,0/10 sur l'axe culture, le maximum des trente-huit destinations de la série, à égalité avec Avignon, Strasbourg et Lyon, pour une médiane de série à 7,3. Ces trois autres villes comptent respectivement 91 760, 291 709 et 520 774 habitants ; Vienne en compte 31 555 au recensement 2022, contre 28 800 en 2011, soit une hausse de 9,6 % (source : data/city-population.json). C'est la densité patrimoniale la plus élevée par habitant que cette série ait rencontrée. Le T3 de référence est à 940 € et le mètre carré à 2 200 € (source : data/housing.ts), sous les médianes de série à 950 € et 2 550 €. Attention à l'homonyme : il s'agit de Vienne en Isère, et non du département de la Vienne ni de la capitale autrichienne.",
+    sections: [
+      {
+        heading: "Dix-huit minutes de TER depuis Lyon, et pas un mètre de TGV",
+        body: "Vérification faite avant écriture : la gare de Vienne est desservie par les TER Auvergne-Rhône-Alpes, avec de l'ordre de seize trains par jour vers Lyon Part-Dieu et un trajet d'environ dix-huit minutes pour vingt-six kilomètres. La gare se trouve à environ un kilomètre du centre-ville. Aucun TGV ne s'y arrête, alors que la ville est sur l'axe historique Paris-Lyon-Marseille. Ce point mérite d'être posé clairement, parce qu'il illustre ce qui a changé dans la sélection de cette série. Jusqu'au lot précédent, les destinations étaient retenues sur une règle qui exigeait un drapeau TGV ou RER pour considérer une ville comme atteignable en train. Cette règle écartait Vienne, qui possède pourtant l'une des meilleures dessertes ferroviaires urbaines de tout le corpus : seize liaisons quotidiennes et dix-huit minutes de trajet valent mieux, pour un adulte seul avec des enfants, qu'un TGV bi-quotidien vers une gare posée à quinze kilomètres du centre. Un TER est un train. La règle a été recalculée sur un critère disponible pour les cinq cent quarante villes du corpus, l'axe transports du seed, et Vienne sort à 7,7/10 sur cet axe, au-dessus de la médiane de série qui vaut 7,0."
+      },
+      {
+        heading: "Culture 9,0/10 sur 31 555 habitants",
+        body: "Vienne a été la capitale des Allobroges celtiques, puis l'une des cités majeures de la Gaule romaine sous le nom de Vienna Allobrogum. Ce qu'il en reste est exceptionnel et, ce qui compte ici, concentré. Le temple d'Auguste et de Livie, du Iᵉʳ siècle avant notre ère, dix-huit mètres de hauteur et vingt-quatre de long sur une façade à six colonnes corinthiennes, est l'un des deux seuls temples romains complets encore debout en France avec la Maison Carrée de Nîmes ; il doit sa survie à sa réutilisation comme église au Moyen Âge. Le théâtre romain, adossé à la colline du mont Pipet, comptait treize mille places et figure parmi les plus grands de la Gaule. La cathédrale Saint-Maurice, des XIIe au XVIe siècles, aligne une nef gothique de quatre-vingt-dix mètres, l'une des plus longues de France, et sa visite est gratuite. Pour un parent qui voyage seul, l'intérêt tient à la géométrie autant qu'à l'histoire : ces trois monuments sont dans la même ville close, à distance de marche les uns des autres, et le score de 9,0/10 mesure exactement cette densité. Un séjour ici ne demande pas de programme préparé, ce qui est l'inverse de la situation yonnaise décrite dans ce même lot."
+      },
+      {
+        heading: "Fin juin et début juillet : notre indicateur d'affluence se trompe",
+        body: "Notre indicateur place Vienne à 1 sur 5 pendant sept mois de l'année, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts). C'est faux pour la charnière de fin juin et de mi-juillet, et il faut le dire ici plutôt que de laisser un lecteur le découvrir sur place. L'indicateur attribue un palier selon le type de destination et la saison puis module par le mois : il raisonne en régime moyen et il ne voit pas un événement, exactement comme il ne voyait pas le festival off d'Avignon. Or Jazz à Vienne, créé en 1981, se tient sur une quinzaine de jours de fin juin à mi-juillet et rassemble de l'ordre de deux cent mille spectateurs par an, les concerts du soir ayant lieu dans le théâtre antique. Une commune de 31 555 habitants qui accueille cela n'est pas à 1 ou 2 sur 5 pendant ces deux semaines. La conséquence pratique est double, et elle est à double tranchant pour un parent seul : sur cette période, réserver très en avance ou renoncer ; mais le festival programme aussi des concerts gratuits le midi au jardin de Cybèle, ce qui en fait, pour qui a déjà son hébergement, l'une des rares occasions d'offrir de la musique live à des enfants sans billetterie."
+      },
+      {
+        heading: "Huit espaces verts, et les huit ont une aire de jeux",
+        body: "Le relevé cartographique retient 8 espaces verts sur la commune (source : data/city-parks.json), le deuxième total le plus faible des trente-huit destinations de la série après Dieppe et ses 5. C'est un compte réel et non un plancher : il est très en dessous du plafond de quarante entrées par commune du relevé, que vingt-deux des trente-huit destinations atteignent. Le chiffre paraît disqualifiant et il faut le nuancer par une mesure que nous ne publions pas ailleurs : les huit espaces recensés portent tous une aire de jeux, ce qui n'arrive sur aucune des sept autres destinations ajoutées ce mois-ci, où la proportion va de trois sur quatorze à Vendôme à quatorze sur trente et un à Anglet. Autrement dit, Vienne n'a pas de grand parc mais elle n'a pas non plus d'espace vert inutile à un parent. Les plus étendus, le jardin du 8 Mai 1945 à 1,1 hectare et le jardin de Cybèle à 0,6, sont des jardins de centre-ville, à quelques minutes des monuments. La ViaRhôna, voie verte de l'EuroVélo 17, traverse par ailleurs la commune, et l'étape Lyon-Vienne fait une trentaine de kilomètres à plat le long du Rhône : des loueurs de vélos à assistance électrique sont présents sur place."
+      },
+      {
+        heading: "Sécurité 5,7/10, le plus bas du lot et au-dessus de la médiane",
+        body: "Vienne affiche 5,7/10 sur l'axe sécurité (source : data/cities-seed.ts), à égalité avec Dijon, Angers, Besançon, Brest, Pau et Poitiers. C'est le score le plus bas des huit destinations ajoutées ce mois-ci, et il reste au-dessus de la médiane de sécurité des trente-huit, qui vaut 5,6. Les deux affirmations sont vraies ensemble, et leur coexistence est la caractéristique de ce lot : les huit villes sont toutes à la médiane ou au-dessus, ce qui n'était jamais arrivé dans cette série. À titre de repère, le lot précédent comptait Montpellier à 3,7 et Lille à 3,9. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Deux points de logistique propres au terrain. Un, la ville est adossée à une colline et le mont Pipet se monte : avec une poussette, l'itinéraire se prépare, et le théâtre antique n'est pas au niveau du temple. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end ; l'annuaire santé d'ameli.fr permet de repérer un cabinet avant le départ."
+      },
+      {
+        heading: "Ce qui n'est pas à Vienne, et le climat",
+        body: "Deux précisions de localisation, dans la convention que ce site applique partout. Le musée gallo-romain de Saint-Romain-en-Gal, avec son site archéologique de sept hectares et ses mosaïques en place, est sur la rive droite du Rhône, en face de la ville : il est accessible depuis Vienne et n'y est pas situé, et le franchissement du fleuve est à compter dans le temps de trajet. Lyon, à une vingtaine de minutes de train, est de même une excursion et non une extension de la ville. La station climatique de référence est celle de Lyon-Bron, à 23 kilomètres (source : lib/climate-normals.ts), l'un des rattachements les plus courts de la série, dont la médiane est à 55 kilomètres, et cohérent puisque les deux villes partagent le couloir rhodanien. Les valeurs donnent 4,1 °C en janvier avec 8,1 jours de pluie, et 22,6 °C en juillet avec 7,5 jours de pluie. Les ancres propres à la commune viennent du seed : 4,5 °C en janvier, 24,0 °C en juillet et 2 100 heures de soleil annuelles (source : data/cities-seed.ts). La fenêtre à viser est mai, avec 16 °C de moyenne et une affluence à 1, ou septembre à 18 °C, après le festival."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle, ce qui compte sur une destination dont le programme est essentiellement patrimonial. Les bons vacances de la caisse d'allocations familiales de l'Isère se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance, et cette anticipation compte double si le séjour tombe pendant le festival. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["vienne", "lyon", "villefranche-sur-saone", "valence"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-vienne-2026",
+      "parent-solo-a-vienne-2026",
+      "vacances-monoparentales-lyon-2026",
+      "vacances-monoparentales-villefranche-sur-saone-2026"
+    ],
+    tags: ["vacances monoparentales Vienne", "parent solo Isère", "patrimoine romain famille", "TER sans voiture", "Jazz à Vienne"]
+  },
+  {
+    slug: "vacances-monoparentales-villefranche-sur-saone-2026",
+    title: "Vacances monoparentales à Villefranche-sur-Saône en 2026",
+    metaTitle: "Vacances monoparentales Villefranche-sur-Saône",
+    metaDesc:
+      "Villefranche sort à 6,9/10 au composite monoparental, avec 8,7/10 d'écoles. Vingt minutes de TER depuis Lyon, mais son patrimoine est invisible depuis la rue.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Villefranche-sur-Saône sort à 6,9/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), à égalité avec Vienne, sur sécurité 6,3/10, transports 7,0/10, coût de la vie 5,9/10 et qualité de vie 7,4/10 (source : data/cities-seed.ts). Ce 7,4 de qualité de vie est le deuxième des huit destinations ajoutées ce mois-ci, derrière Anglet à 8,7, et le septième des trente-huit de la série. Le score d'écoles, 8,7/10, est à égalité avec Anglet et Strasbourg, derrière Lyon à 8,9 et le trio Rennes, Grenoble et Toulouse à 9,0. Le T3 de référence est à 1 070 € et le mètre carré à 2 500 € (source : data/housing.ts) : le T3 est au-dessus de la médiane de série de 950 €, le mètre carré en dessous de celle de 2 550 €. La commune compte 36 224 habitants au recensement 2022, contre 35 640 en 2011 (source : data/city-population.json). Ce guide ouvre sur une particularité qui change la préparation du séjour : ici, ce qu'on vient voir ne se voit pas depuis la rue.",
+    sections: [
+      {
+        heading: "Vingt et une minutes de TER depuis Lyon Part-Dieu",
+        body: "Vérification faite avant écriture : la gare de Villefranche-sur-Saône est reliée à Lyon Part-Dieu par TER, avec de l'ordre de treize à dix-huit liaisons directes par jour et un trajet d'environ vingt et une minutes. Aucun TGV ne dessert la ville. Comme pour Vienne dans ce même lot, c'est ce qui l'écartait de la sélection de cette série jusqu'au mois dernier, et c'est ce qui a changé : une liaison régionale cadencée à vingt minutes vers une métropole est, pour un adulte seul chargé d'enfants et de bagages, une meilleure arrivée qu'un TGV rare vers une gare excentrée. L'axe transports du seed donne 7,0/10 (source : data/cities-seed.ts), exactement la médiane des trente-huit destinations de la série. Un point pratique découle de cette configuration : la ville est faisable à la journée depuis Lyon sans voiture, et l'inverse est vrai aussi, ce qui permet de loger ici et de visiter Lyon plutôt que de payer un hébergement lyonnais. À titre de repère, le T3 de référence lyonnais est à 1 380 € contre 1 070 € ici (source : data/housing.ts). L'arbitrage est réel pour un budget à un seul revenu."
+      },
+      {
+        heading: "Le patrimoine est derrière les portes, et ça se prépare",
+        body: "C'est la singularité de la ville et elle commande tout le reste. Les maisons de la rue Nationale, l'artère historique aujourd'hui piétonne, ont une géométrie très particulière : façade étroite sur rue, parcelle profonde, un premier corps de bâtiment, une cour intérieure, puis un second corps derrière. L'explication traditionnellement avancée est fiscale, l'impôt se calculant sur la largeur donnant sur la rue. Le résultat est une succession de cours à galeries, d'escaliers à vis et de tourelles, bâties aux XVe et XVIe siècles, et invisibles depuis l'extérieur. Un visiteur qui descend la rue en ligne droite voit une rue commerçante de sous-préfecture et rien d'autre. Un itinéraire balisé permet d'en parcourir une partie ; les autres relèvent de la propriété privée et ne s'ouvrent qu'à l'occasion des journées du patrimoine ou de visites guidées. Pour un parent qui voyage seul, la conséquence est franche : se renseigner à l'office de tourisme avant de partir change tout au rendement de la journée, et une visite guidée avec des enfants se réserve, elle ne s'improvise pas sur place un matin de semaine."
+      },
+      {
+        heading: "Ce qui se voit sans rien réserver",
+        body: "Trois choses tiennent sans préparation. La collégiale Notre-Dame-des-Marais, dont la flèche de soixante-douze mètres domine la ville et sert de repère : le chantier commence au XIIe siècle et s'achève au XVIe, ce qui en fait un manuel d'architecture à ciel ouvert, avec des parties romanes à la base et une façade flamboyante richement sculptée. Le nom dit l'origine du lieu, une zone humide au bord de la Saône assainie par la ville médiévale. Le musée Paul-Dini, ouvert le 9 juin 2001 dans l'ancienne halle aux grains dite la Grenette, installée là en 1893 et réaménagée entre 1999 et 2001 : il est né d'une donation de Muguette et Paul Dini, d'environ quatre cent cinquante tableaux après un premier don du 15 août 1998, et sa collection permanente dépasse aujourd'hui mille deux cents œuvres. Son propos est précis, la peinture lyonnaise et rhônalpine de 1875 à aujourd'hui, et ses volumes de halle marchande conviennent mieux à un accrochage que les enfilades de salles d'un hôtel particulier, ce qui se traduit très concrètement en confort de visite avec une poussette. Enfin quelques adresses de la rue Nationale se regardent depuis le trottoir : la Pêcherie, qui montre côte à côte une façade gothique et une façade Renaissance, et l'auberge de la Coupe d'Or."
+      },
+      {
+        heading: "Les Conscrits : l'événement que notre indicateur ne voit pas",
+        body: "La fête des Conscrits est née vers 1850 à Villefranche et elle y est restée la plus vivante de la région. Le principe : chaque année, on fête ensemble tous ceux dont l'année de naissance se termine par le même chiffre que l'année en cours, de dix ans en dix ans. En 2026, ce sont donc les classes en 6 qui défilent. Le sommet de la fête est la grande vague sur la rue Nationale, où les classes avancent et reculent bras dessus bras dessous en un mouvement de balancier. La tradition a été inscrite en 2020 à l'inventaire du patrimoine culturel immatériel en France, et une charte encadre son déroulement. Notre indicateur d'affluence, qui donne 2 sur 5 pendant huit mois de l'année, 3 en juin et en septembre et 4 en juillet et en août (source : lib/vacation-seasons.ts), ne voit pas cet événement, exactement comme il ne voyait ni le festival off d'Avignon ni Jazz à Vienne. La conséquence pratique est double : l'événement occupe la ville entière pendant plusieurs jours et l'hébergement s'y réserve longtemps à l'avance ; et pour un parent seul qui chercherait précisément une fête populaire réellement pratiquée par les habitants, c'est la meilleure occasion de l'année. Les dates se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "Le budget, et le vignoble qui demande une voiture",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Villefranche-sur-Saône sort à 5,9/10 (source : data/cities-seed.ts), à égalité avec Tours et Compiègne, sous la médiane de série qui vaut 6,1, et c'est, à égalité avec Compiègne, la deuxième destination la plus chère des huit ajoutées ce mois-ci après Anglet. Le marché résidentiel donne 1 070 € le T3 de référence, au-dessus de la médiane de série de 950 €, et 2 500 € le mètre carré, juste en dessous de celle de 2 550 € (source : data/housing.ts). Le moteur la classe en €€€ (source : lib/vacation-fit.ts). Un point de méthode sur la destination elle-même, parce qu'il pèse sur le budget réel. Villefranche est le chef-lieu du vignoble du Beaujolais et la porte d'entrée logique pour le visiter, les villages de pierres dorées étant au sud-ouest et les crus au nord, dans un rayon d'une trentaine de kilomètres. Mais le vignoble n'est pas dans Villefranche, il est accessible depuis Villefranche, et il demande une voiture ou une excursion organisée. Pour un séjour construit sans véhicule, l'arbitrage honnête est de traiter le Beaujolais comme une sortie facultative avec un coût de transport à part, et de bâtir le séjour sur la ville et sur Lyon, qui eux se font en train."
+      },
+      {
+        heading: "Sécurité 6,3/10, espaces verts et climat",
+        body: "Villefranche-sur-Saône affiche 6,3/10 sur l'axe sécurité (source : data/cities-seed.ts), au-dessus de la médiane de série qui vaut 5,6, entre Dieppe et Compiègne à 6,2 et Brive-la-Gaillarde à 6,7. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Le relevé cartographique retient 15 espaces verts sur la commune, dont 7 portent une aire de jeux (source : data/city-parks.json), le parc Vermorel étant le plus étendu avec deux hectares : un compte réel, sous le plafond de quarante entrées par commune que vingt-deux des trente-huit destinations de la série atteignent. La station climatique de référence est celle de Lyon-Bron, à 34 kilomètres (source : lib/climate-normals.ts), un rattachement court pour la série, dont la médiane est à 55 kilomètres, et cohérent puisque les deux villes partagent le couloir de la Saône et du Rhône. Les valeurs donnent 4,1 °C en janvier avec 8,1 jours de pluie, et 22,6 °C en juillet avec 7,5 jours de pluie. Les ancres propres à la commune viennent du seed : 3,5 °C en janvier, 24,0 °C en juillet et 2 000 heures de soleil annuelles (source : data/cities-seed.ts). La fenêtre à viser est mai, à 16 °C, ou septembre, à 18 °C. Un point de vocabulaire utile sur place : les habitants sont les Caladois, du nom ancien de la ville, et l'expression revient sur les enseignes sans être expliquée nulle part."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales du Rhône se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance, et cette anticipation compte double si le séjour tombe pendant les Conscrits. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["villefranche-sur-saone", "lyon", "vienne", "macon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-villefranche-sur-saone-2026",
+      "parent-solo-a-villefranche-sur-saone-2026",
+      "vacances-monoparentales-lyon-2026",
+      "vacances-monoparentales-vienne-2026"
+    ],
+    tags: ["vacances monoparentales Villefranche-sur-Saône", "parent solo Rhône", "base pour visiter Lyon", "cours Renaissance", "Beaujolais sans voiture"]
+  },
+  {
+    slug: "vacances-monoparentales-brive-la-gaillarde-2026",
+    title: "Vacances monoparentales à Brive-la-Gaillarde en 2026",
+    metaTitle: "Vacances monoparentales Brive-la-Gaillarde 2026",
+    metaDesc:
+      "Brive sort à 6,8/10 au composite monoparental, avec 6,7/10 de sécurité et un T3 à 780 €. Mais l'arrivée depuis Paris est un Intercités de 4 h 35.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Brive-la-Gaillarde sort à 6,8/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), sur sécurité 6,7/10, transports 7,0/10, coût de la vie 6,7/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). C'est le profil le plus régulier des huit destinations ajoutées ce mois-ci : aucun axe sous 6,3, aucun au-dessus de 7,5, là où Anglet oscille de 4,5 à 8,7 et La Roche-sur-Yon de 5,7 à 8,0. Le 6,7 de sécurité est le cinquième meilleur des trente-huit de la série, pour une médiane à 5,6. Le T3 de référence est à 780 € et le mètre carré à 2 000 € (source : data/housing.ts), respectivement le quatrième et le septième les moins chers de la série, contre des médianes à 950 € et 2 550 €. La commune compte 46 769 habitants au recensement 2022, contre 48 267 en 2011, soit une baisse de 3,1 % (source : data/city-population.json). Ce guide ouvre sur l'arrivée, parce que c'est la plus longue du lot.",
+    sections: [
+      {
+        heading: "Quatre heures et demie depuis Paris, en Intercités et pas en TGV",
+        body: "Vérification faite avant écriture : la gare de Brive-la-Gaillarde est desservie depuis Paris-Austerlitz par des trains Intercités, avec de l'ordre de treize trains par jour sur la liaison et un temps de parcours voisin de quatre heures trente-cinq. Il n'y a pas de desserte TGV régulière. C'est la deuxième plus longue arrivée depuis Paris des huit destinations ajoutées ce mois-ci, derrière Anglet qui n'a pas de gare, et elle demande d'être prise au sérieux dans l'organisation d'un séjour en parent solo : quatre heures et demie avec des enfants, c'est un jour de voyage, pas une matinée. Deux conséquences concrètes. La première est de compter l'aller comme une journée entière du séjour et de ne rien programmer le jour d'arrivée. La seconde est que le format court, deux ou trois nuits, n'a pas de sens ici : la destination se justifie sur une semaine, où le temps de trajet s'amortit. En contrepartie, le train est direct, sans correspondance, ce qui vaut mieux qu'un trajet plus rapide coupé par un changement quand on voyage seul avec des bagages. La gare est par ailleurs en ville, et l'axe transports du seed donne 7,0/10 (source : data/cities-seed.ts), la médiane de la série."
+      },
+      {
+        heading: "Le marché sous la halle, et pourquoi ce guide commence par lui",
+        body: "Le marché se tient le mardi, le jeudi et le samedi matin sous la halle Georges-Brassens, et c'est le samedi qu'il déborde dans les rues alentour. On y trouve les producteurs de la Corrèze, du Lot et de la Dordogne : noix, cèpes en saison, foie gras, veau sous la mère, fromages, fraises. La halle porte le nom de Brassens parce que sa chanson « Hécatombe » situe à Brive une bagarre mémorable entre des marchandes et des gendarmes mal inspirés, et les Brivistes lui ont dédié leur halle. Pour un parent qui voyage seul, ce marché est l'élément le plus utile de la destination, et pour trois raisons qui n'ont rien de pittoresque. Il est gratuit, ce qui compte quand chaque entrée se paie en nombre d'enfants plus un. Il est central, donc il ne coûte pas de transport. Et il finit vers midi, ce qui structure la matinée et laisse l'après-midi libre, alors que le rythme d'un séjour à un seul adulte se casse surtout sur les temps morts. Accessoirement, c'est le moyen le moins cher de déjeuner correctement dans une région dont la gastronomie est l'argument principal."
+      },
+      {
+        heading: "Ce qu'il y a d'autre, contre le malentendu",
+        body: "Brive souffre d'un malentendu : beaucoup de gens connaissent le nom par la chanson ou par le rugby et croient qu'il n'y a rien d'autre. Il y a un centre ancien complet, qui se parcourt à pied. Il y a un musée installé dans un hôtel Renaissance. Il y a une crypte archéologique en accès libre sous la collégiale, et l'accès libre est une information budgétaire autant que patrimoniale sur cette série. Il y a une distillerie qui tourne depuis 1839. Et il y a l'un des plus gros rendez-vous littéraires français, dont les dates se vérifient auprès de l'organisateur avant de bâtir un séjour dessus. Le score de culture du seed donne 7,5/10 (source : data/cities-seed.ts), à égalité avec Villefranche-sur-Saône, Compiègne et Dieppe dans ce même lot, au-dessus de la médiane de série qui vaut 7,3, et très au-dessus du 5,7 de La Roche-sur-Yon. Le relevé cartographique retient par ailleurs 11 espaces verts sur la commune, dont 5 portent une aire de jeux (source : data/city-parks.json), la plaine des jeux de Tujac à 23,2 hectares étant de loin la plus vaste : un compte réel, sous le plafond de quarante entrées par commune que vingt-deux des trente-huit destinations de la série atteignent."
+      },
+      {
+        heading: "Le budget : la meilleure semaine du lot après Vendôme",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Brive-la-Gaillarde sort à 6,7/10 (source : data/cities-seed.ts), à égalité avec Vienne et Dieppe dans ce lot, au-dessus de la médiane de série qui vaut 6,1. Le marché résidentiel donne 780 € le T3 de référence, le troisième le moins cher des trente-huit, à égalité avec Mulhouse et derrière Vendôme à 720 € et Saint-Étienne à 770 € ; et 2 000 € le mètre carré (source : data/housing.ts). Le moteur la classe en €€ (source : lib/vacation-fit.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais sur une destination sans pression touristique de masse l'ordre de grandeur se transporte mieux qu'ailleurs. Le raisonnement complet, pour un adulte qui paie seul, doit cependant réintégrer le transport : sur un séjour d'une semaine, le coût du billet Intercités pour un adulte et deux enfants pèse plus lourd que l'écart d'hébergement avec une destination plus proche, et c'est l'inverse sur deux semaines. C'est la seule des huit destinations de ce lot où ce calcul change la réponse selon la durée."
+      },
+      {
+        heading: "Sécurité 6,7/10, et une ville qui perd des habitants",
+        body: "Brive-la-Gaillarde affiche 6,7/10 sur l'axe sécurité (source : data/cities-seed.ts), le cinquième meilleur score des trente-huit destinations de la série, derrière La Roche-sur-Yon à 8,0, Vendôme à 7,5, Anglet à 7,2 et Vannes à 6,9, pour une médiane de série à 5,6. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. La démographie va dans l'autre sens : la commune est passée de 48 267 habitants en 2011 à 47 004 en 2016 puis 46 769 en 2022, soit une baisse de 3,1 % sur onze ans, avec un recul qui ralentit nettement sur la seconde période (source : data/city-population.json). Trois des huit destinations de ce lot perdent des habitants, Dieppe à moins 8,2 %, Vendôme à moins 7,6 % et Brive à moins 3,1 %, quand Anglet et Vienne en gagnent 9,6 % chacune. Ce que cela change pour un visiteur est limité mais réel : l'offre de restauration et de commerces se vérifie le dimanche et en soirée avant de compter dessus, ce qui vaut pour toute ville moyenne en décroissance et pas seulement pour celle-ci."
+      },
+      {
+        heading: "Quand y aller, et ce qui n'est pas à Brive",
+        body: "La station climatique de référence est celle de Limoges-Bellegarde, à 83 kilomètres (source : lib/climate-normals.ts), un rattachement long pour la série, dont la médiane est à 55 kilomètres, et à lire comme un ordre de grandeur : le bassin de Brive est notoirement plus doux que le plateau limousin. Les valeurs donnent 4,6 °C en janvier avec 13,2 jours de pluie, et 19,5 °C en juillet avec 8,3 jours de pluie. Les ancres propres à la commune viennent du seed et sont plus chaudes : 5 °C en janvier, 25,0 °C en juillet, le maximum des huit destinations de ce lot, et 2 000 heures de soleil annuelles (source : data/cities-seed.ts). Notre indicateur d'affluence donne 1 sur 5 pendant sept mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts). La fenêtre à viser est mai, à 14 °C, ou septembre, à 16 °C. Une précision de localisation pour finir, dans la convention que ce site applique partout : le Périgord noir et ses sites les plus connus sont accessibles depuis Brive et n'y sont pas situés, et ces excursions demandent un véhicule. Un séjour construit sans voiture se tient sur la ville, son marché et son centre ancien."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et chez beaucoup de prestataires de loisirs. Les bons vacances de la caisse d'allocations familiales de la Corrèze se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : sur une arrivée de quatre heures et demie, le poste transport pèse autant que l'hébergement, et les tarifs jeunes et famille de la SNCF ainsi que la réservation anticipée valent ici plus que sur n'importe quelle autre ville de ce lot. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["brive-la-gaillarde", "tulle", "limoges", "perigueux"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-brive-la-gaillarde-2026",
+      "parent-solo-a-brive-la-gaillarde-2026",
+      "vacances-monoparentales-angouleme-2026",
+      "vacances-monoparentales-vendome-2026"
+    ],
+    tags: ["vacances monoparentales Brive", "parent solo Corrèze", "marché gratuit famille", "Intercités depuis Paris", "vacances pas chères en famille"]
+  },
+  {
+    slug: "vacances-monoparentales-compiegne-2026",
+    title: "Vacances monoparentales à Compiègne en 2026",
+    metaTitle: "Vacances monoparentales à Compiègne 2026",
+    metaDesc:
+      "Compiègne a la meilleure arrivée du lot depuis Paris : un TER direct de Gare du Nord toutes les demi-heures, sans TGV. Transports 7,7/10, nature 7,1/10.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Compiègne sort à 6,7/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), sur sécurité 6,2/10, transports 7,7/10, coût de la vie 5,9/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Le 7,7 de transports est à égalité avec Anglet et Vienne pour le meilleur des huit destinations ajoutées ce mois-ci, et le huitième des trente-huit de la série, à égalité avec Montpellier, dont la médiane vaut 7,0. L'axe nature donne 7,1/10, à égalité avec Dieppe et derrière Anglet à 7,8 dans ce lot. Le T3 de référence est à 980 € et le mètre carré à 2 700 € (source : data/housing.ts), tous deux légèrement au-dessus des médianes de série de 950 € et 2 550 €. La commune compte 40 808 habitants au recensement 2022, contre 39 517 en 2011, soit une hausse de 3,3 % (source : data/city-population.json). Ce guide ouvre sur l'arrivée, parce que c'est la meilleure du lot et qu'elle ne doit rien au TGV.",
+    sections: [
+      {
+        heading: "Un TER direct de Gare du Nord, toutes les demi-heures",
+        body: "Vérification faite avant écriture : la gare de Compiègne est reliée à Paris Gare du Nord par TER, en direct et sans correspondance, avec de l'ordre de trente trains par jour, un départ environ toutes les demi-heures en journée, et un temps de parcours qui va de trente-neuf minutes pour les plus rapides à une petite heure pour les omnibus. Aucun TGV ne dessert la ville. C'est la meilleure arrivée des huit destinations ajoutées ce mois-ci, et l'une des meilleures de toute la série, et elle illustre exactement ce que la règle de sélection de cette série ratait jusqu'au mois dernier. Cette règle exigeait un drapeau TGV ou RER pour tenir une ville pour atteignable en train ; elle écartait donc Compiègne, dont la desserte est pourtant plus commode pour un parent seul que celle de la plupart des villes TGV du corpus. Une fréquence à la demi-heure veut dire qu'un train raté n'est pas un problème, ce qui est le vrai risque quand on voyage avec de jeunes enfants et qu'on ne peut pas courir. Sur place, l'axe transports du seed donne 7,7/10 (source : data/cities-seed.ts), et la gare est à distance de marche du palais."
+      },
+      {
+        heading: "Le palais, et un musée de la voiture inclus dans le même billet",
+        body: "Le palais de Compiègne a été reconstruit au XVIIIe siècle pour Louis XV et Louis XVI par Ange-Jacques Gabriel, l'architecte du Petit Trianon de Versailles, puis habité par Napoléon Ier et Napoléon III. C'est l'une des trois grandes résidences royales et impériales françaises avec Versailles et Fontainebleau, avec ses mille deux cents pièces sur quatre hectares. On y visite les appartements impériaux de Marie-Louise, seconde femme de Napoléon Ier, et d'Eugénie de Montijo, femme de Napoléon III, ainsi que la galerie de bal et le théâtre impérial. Le point qui intéresse un parent seul est ailleurs : le musée de la Voiture et du Tourisme, créé en 1927 dans l'ancienne salle des gardes du corps du palais, est le plus ancien musée de l'automobile de France, il rassemble cent trente véhicules, des carrosses royaux aux premières automobiles de 1894 à 1920 et aux vélocipèdes anciens, et la visite est incluse dans le pass palais. Autrement dit, deux registres très différents dans le même bâtiment et sur le même billet, ce qui est rare et précieux quand un enfant décroche des appartements d'apparat au bout de vingt minutes."
+      },
+      {
+        heading: "La forêt : 14 400 hectares, et le vrai budget d'un après-midi",
+        body: "La forêt domaniale de Compiègne couvre 14 400 hectares et c'est l'une des plus belles hêtraies-chênaies de France. On y trouve des allées royales créées pour les chasses des rois de France, des étangs et des sentiers balisés, et on y croise cerfs, biches, chevreuils et sangliers. Pour un adulte qui finance seul les vacances d'un foyer, c'est la ressource centrale de la destination, parce qu'elle est gratuite et qu'elle absorbe une demi-journée entière sans billetterie. L'axe nature du seed donne 7,1/10 (source : data/cities-seed.ts), au-dessus de la médiane de série qui vaut 5,8. À l'échelle de la ville elle-même, le relevé cartographique retient 10 espaces verts, dont 4 portent une aire de jeux (source : data/city-parks.json), avec le Grand Parc à 23,4 hectares et le Petit Parc à 19,1 : un compte réel, sous le plafond de quarante entrées par commune du relevé que vingt-deux des trente-huit destinations de la série atteignent. La ville porte par ailleurs le tag vélo dans nos données, et les allées forestières s'y prêtent : la location se vérifie avant le départ, une remorque ou un siège enfant ne se trouvant pas partout."
+      },
+      {
+        heading: "La clairière de l'Armistice, et ce qu'on y voit exactement",
+        body: "La clairière de l'Armistice, à six kilomètres au nord-est de la ville en pleine forêt, est le lieu où fut signé l'armistice du 11 novembre 1918, à cinq heures quinze du matin, dans le wagon-restaurant numéro 2419 D du maréchal Foch. C'est aussi là que Hitler imposa l'armistice de 1940. Deux précisions honnêtes avant d'y emmener un enfant. La première est matérielle : le wagon que l'on visite est une reconstitution, l'original ayant été détruit par les Allemands en 1944 précisément pour qu'il ne serve pas à un nouvel armistice. Le mémorial le dit, et le dire aussi ici évite la déception. La seconde est logistique, dans la convention que ce site applique partout : le site est accessible depuis Compiègne et n'y est pas situé, il est en forêt à six kilomètres, et il demande donc un moyen de transport, ce qui est la seule entorse au séjour sans voiture que cette destination impose. Le musée du mémorial est gratuit, ce qui compense. Deux autres excursions relèvent de la même règle : le château de Pierrefonds, restauré par Viollet-le-Duc entre 1857 et 1885 sur ordre de Napoléon III, est à quinze kilomètres, et Senlis, où Hugues Capet fut élu roi en 987, à vingt-cinq."
+      },
+      {
+        heading: "Le budget et la sécurité",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Compiègne sort à 5,9/10 (source : data/cities-seed.ts), à égalité avec Tours et Villefranche-sur-Saône, sous la médiane de série qui vaut 6,1. Le marché résidentiel donne 980 € le T3 de référence et 2 700 € le mètre carré (source : data/housing.ts), tous deux légèrement au-dessus des médianes de série. Le moteur la classe en €€€ (source : lib/vacation-fit.ts). La proximité de Paris explique l'essentiel de ce niveau, et elle a une conséquence que cette série a déjà rencontrée ailleurs : une partie du marché local est un marché de navetteurs, pas de visiteurs. Sur l'axe sécurité, la ville affiche 6,2/10, à égalité avec Dieppe dans ce même lot, au-dessus de la médiane de série qui vaut 5,6. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. Un point de logistique propre à la destination : la forêt est vaste et le balisage y fait foi, une sortie se prépare avec une carte et un point de rendez-vous fixé au départ plutôt qu'en cours de route, et la chasse à courre y est encore pratiquée, ce qui se vérifie localement en saison."
+      },
+      {
+        heading: "Quand y aller",
+        body: "La station climatique de référence est celle de Paris-Montsouris, à 75 kilomètres (source : lib/climate-normals.ts), un rattachement long pour la série, dont la médiane est à 55 kilomètres, et qui rapporte à Compiègne des valeurs prises au cœur d'une agglomération de plus de deux millions d'habitants alors que la ville est bordée de quatorze mille hectares de forêt : l'écart joue surtout sur les températures nocturnes d'été, que l'îlot de chaleur parisien majore. À lire comme un ordre de grandeur, donc. Les valeurs donnent 5,4 °C en janvier avec 9,9 jours de pluie, et 20,9 °C en juillet avec 7,4 jours de pluie. Les ancres propres à la commune viennent du seed : 3 °C en janvier, 21,0 °C en juillet et 1 700 heures de soleil annuelles (source : data/cities-seed.ts), à égalité avec Dieppe pour le minimum des huit destinations de ce lot. Notre indicateur d'affluence donne 1 sur 5 pendant sept mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts). La fenêtre à viser est mai, à 16 °C avec une affluence au plancher, ou septembre à 17 °C : sur une destination dont la ressource principale est une forêt, l'automne est un meilleur choix que le plein été."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de l'Oise se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés, et le palais en fait partie sur beaucoup de catalogues. Une remarque propre à cette destination : la proximité de Paris permet un séjour en étoile depuis le domicile pour les familles franciliennes, sans hébergement du tout, ce qui est l'économie la plus efficace disponible et qu'aucune aide ne remplace. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["compiegne", "senlis", "beauvais", "soissons"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-compiegne-2026",
+      "parent-solo-a-compiegne-2026",
+      "vacances-monoparentales-reims-2026",
+      "vacances-monoparentales-dieppe-2026"
+    ],
+    tags: ["vacances monoparentales Compiègne", "parent solo Oise", "TER direct depuis Paris", "forêt domaniale famille", "palais impérial"]
+  },
+  {
+    slug: "vacances-monoparentales-dieppe-2026",
+    title: "Vacances monoparentales à Dieppe en 2026",
+    metaTitle: "Vacances monoparentales à Dieppe 2026",
+    metaDesc:
+      "Dieppe est la seule des huit sans train direct depuis Paris, et celle où la voiture sert le moins une fois arrivé. Cinq espaces verts, le minimum de la série.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Dieppe sort à 6,6/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), dernière des huit destinations ajoutées ce mois-ci, sur sécurité 6,2/10, transports 7,0/10, coût de la vie 6,7/10 et qualité de vie 6,2/10 (source : data/cities-seed.ts). Elle reste au-dessus de la médiane de fit des trente-huit, qui vaut 6,3. Le T3 de référence est à 820 € et le mètre carré à 1 800 € (source : data/housing.ts), respectivement le septième et le quatrième les moins chers de la série, à égalité dans les deux cas avec Angoulême, contre des médianes à 950 € et 2 550 €. La commune compte 28 599 habitants au recensement 2022, contre 31 148 en 2011, soit une baisse de 8,2 % : le recul le plus marqué des trente-huit (source : data/city-population.json). C'est aussi la seule des huit sans train direct depuis Paris, et pourtant celle où une voiture sert le moins une fois sur place. Ce guide traite les deux faits dans cet ordre.",
+    sections: [
+      {
+        heading: "Pas de train direct depuis Paris, sauf le week-end",
+        body: "Vérification faite avant écriture : la liaison entre Paris-Saint-Lazare et Dieppe passe aujourd'hui par une correspondance à Rouen-Rive-Droite, la relation directe historique par Serqueux et Gisors ayant été fermée en 2006. Depuis 2020, des TER Normandie relient toutefois directement Paris-Saint-Lazare à Dieppe via Rouen le samedi et le dimanche, une desserte saisonnière localement appelée le train de la marée. C'est la seule des huit destinations ajoutées ce mois-ci qui impose une correspondance en semaine, et il faut le dire franchement : pour un adulte seul avec des enfants et des bagages, changer de train à Rouen n'est pas neutre. Deux conséquences pratiques. La première est de privilégier un départ le samedi si le calendrier le permet, puisque la liaison directe existe alors. La seconde est de vérifier l'horaire de correspondance à la réservation plutôt que de faire confiance au temps de trajet affiché : un quart d'heure de battement annoncé n'est pas la même chose selon qu'on descend seul ou avec une poussette et deux enfants. Une fois cette étape passée, la destination est l'une des plus commodes du corpus, et la section suivante explique pourquoi."
+      },
+      {
+        heading: "La ville où la voiture sert le moins",
+        body: "Dieppe se fait intégralement à pied, château compris si l'on accepte la montée, et il n'y a aucune raison de prendre un véhicule une fois arrivé, ce qui n'est pas le cas de la plupart des stations de la côte normande. La géographie l'explique : la ville tient entre deux falaises, le port de pêche pénètre jusqu'au cœur du tissu urbain, et la Grande Rue piétonne relie l'église Saint-Jacques au front de mer. L'axe transports du seed donne 7,0/10 (source : data/cities-seed.ts), exactement la médiane des trente-huit destinations de la série, mais ce chiffre sous-estime ici la réalité vécue, parce qu'il mesure une offre de transport et non une compacité. Pour un parent qui voyage seul, la compacité est souvent la variable décisive : elle supprime les temps morts, les attentes d'arrêt et les négociations de trajet, qui sont le vrai coût d'une journée à un seul adulte. C'est le paradoxe de cette destination et la raison de son entrée dans la série : l'arrivée est la moins bonne des huit, le séjour est le plus simple à organiser."
+      },
+      {
+        heading: "Cinq espaces verts, et les pelouses du front de mer",
+        body: "Le relevé cartographique retient 5 espaces verts sur la commune (source : data/city-parks.json), le total le plus faible des trente-huit destinations de la série, devant Vienne et ses 8. C'est un compte réel et non un plancher : il est très en dessous du plafond de quarante entrées par commune du relevé, que vingt-deux des trente-huit destinations atteignent et dont la valeur affichée n'est alors qu'un minorant. Trois de ces cinq portent une aire de jeux. Le chiffre est faible et il ne doit pas être maquillé, mais il passe à côté de ce qui tient lieu d'espace de jeu ici. Entre la ville et la plage de galets s'étend une bande de pelouses de plusieurs hectares, dégagée de toute construction, face au château, et le relevé la compte pour une seule entrée de 7,5 hectares. Cette largeur vide est une singularité de Dieppe : la plupart des stations de la Manche ont laissé bâtir jusqu'au bord, et ici le dégagement résulte des destructions de la guerre et d'un choix de reconstruction. C'est un espace de marche, de jeu et de cerf-volant, et la meilleure façon d'aborder la ville en arrivant est d'en longer la longueur avant d'entrer dans les rues."
+      },
+      {
+        heading: "Il n'y a pas de festival de cerf-volant en 2026",
+        body: "Ces pelouses accueillent depuis 1980, tous les deux ans en septembre, un festival international de cerf-volant qui rassemble une quarantaine de nations invitées et qui a valu à la ville son surnom de capitale du cerf-volant. Il faut le dire nettement, parce que c'est le genre d'erreur qu'un guide daté recopie sans la vérifier : les éditions tombent les années impaires, la dernière a eu lieu en septembre 2025, la prochaine est attendue en 2027, et il n'y a donc pas d'édition en 2026. Une page qui vous promet le contraire reprend une année précédente. Les dates précises se vérifient auprès de l'organisation. Cette série a déjà rencontré deux fois le même piège, avec le festival de bande dessinée d'Angoulême annulé en 2026 et avec les Choralies de Vaison-la-Romaine, triennales. La conséquence pour un parent qui construit un séjour de septembre est simple : le front de mer reste le meilleur endroit de la ville pour faire voler un cerf-volant, la ville y est favorable et le vent aussi, mais l'événement n'aura pas lieu, et il ne faut pas bâtir le choix de la date dessus."
+      },
+      {
+        heading: "Ce qu'on visite, et ce que ça coûte en énergie",
+        body: "Le château domine la ville depuis la falaise ouest et abrite le musée municipal, dont la collection d'ivoires est la plus importante d'Europe : Dieppe a été pendant plus de trois siècles le principal centre français de travail de l'ivoire, à partir du XVIe siècle. L'Estran Cité de la Mer, créé le 20 mai 1987, est un centre de culture scientifique organisé en quatre espaces, la construction navale, la pêche, les falaises et les galets, et des aquariums de la faune de la Manche : c'est franchement pédagogique et c'est fait pour, notamment avec des enfants, et sa vraie valeur est de donner les clés du paysage qu'on regardera ensuite dehors. Le port de pêche reste en activité, la criée fonctionne, et le marché du samedi matin, l'un des plus réputés de Normandie, s'étire dans les rues du centre : gratuit, central, il structure une matinée. Un fait d'histoire que la ville porte de façon très présente : le 19 août 1942, l'opération Jubilee a fait de cette journée la plus meurtrière de la guerre pour le Canada. Le cimetière militaire canadien est à Hautot-sur-Mer, accessible depuis Dieppe sans y être situé. Le château se mérite : la montée depuis le front de mer est réelle, et avec une poussette elle se prépare."
+      },
+      {
+        heading: "Galets, falaises et saison",
+        body: "Deux avertissements concrets, et ils ne relèvent pas du score de sécurité, qui donne 6,2/10 (source : data/cities-seed.ts), au-dessus de la médiane de série de 5,6. Le premier : la plage est une plage de galets et non de sable. Cela change la journée type d'un parent seul plus qu'on ne le croit, entre les chaussures nécessaires pour entrer dans l'eau, l'absence de château de sable et le confort d'installation. Le second : les falaises de craie de la côte d'Albâtre s'effondrent par plaques, et la règle est de respecter la distance au bord en haut comme en bas, et le balisage, qui fait foi. La station climatique de référence est celle de Rouen, à 56 kilomètres (source : lib/climate-normals.ts), soit à peu près la médiane de série, avec 5,6 °C en janvier et 20,2 °C en juillet ; comme pour La Roche-sur-Yon dans ce même lot, le nombre de jours de pluie n'est pas renseigné pour cette station et nous préférons l'écrire plutôt que de combler le trou. Les ancres du seed donnent 6 °C en janvier, 19,5 °C en juillet, le minimum des huit, et 1 700 heures de soleil (source : data/cities-seed.ts). La coquille Saint-Jacques se pêche l'hiver, ce qui donne à Dieppe un intérêt réel hors saison estivale."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie. Les bons vacances de la caisse d'allocations familiales de Seine-Maritime se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : la correspondance de Rouen étant le principal obstacle, un séjour du samedi au samedi permet de profiter de la liaison directe de week-end à l'aller comme au retour, ce qui ne coûte rien et supprime le point dur. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["dieppe", "rouen", "le-havre", "granville"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-dieppe-2026",
+      "parent-solo-a-dieppe-2026",
+      "vacances-monoparentales-compiegne-2026",
+      "vacances-monoparentales-le-mans-2026"
+    ],
+    tags: ["vacances monoparentales Dieppe", "parent solo Seine-Maritime", "station balnéaire sans voiture", "plage de galets", "hors saison Normandie"]
   },
   {
     slug: "parent-solo-a-valence-2026",

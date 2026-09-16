@@ -37,6 +37,21 @@ interface TrainDest {
   transit: string[];
 }
 
+// ⚠️ Portée réelle de ce filtre, mesurée le 2026-09-16 : `lib/transit.ts` est
+// une table saisie à la main qui ne documente que 91 des 495 villes classées
+// par ce profil, et `getTransit` rend `{}` pour les 404 autres, ce que la table
+// documente comme « inconnu » et non comme « pas de desserte ». Le test
+// `arrivable` ci-dessous traite pourtant les deux de la même façon, si bien que
+// cette section ne sélectionne pas les villes accessibles en train mais les
+// villes *documentées* comme telles. Second biais, du même ordre : il exige un
+// TGV ou un RER, donc un TER n'y est pas un train, alors que Vienne est à 18 min
+// de Lyon Part-Dieu à raison de 16 trains par jour et Compiègne à 39 min de
+// Paris-Nord en direct toutes les demi-heures. Les deux biais se cumulent pour
+// écarter le haut du classement : les mieux notées du profil, Obernai 8,0,
+// Amboise 7,5 et Autun 7,4, ne sont pas dans la table. Le titre et le chapeau
+// de la section disent donc ce qu'elle montre vraiment ; corriger le fond
+// suppose d'étendre la table, ville par ville et vérification par vérification,
+// pas d'élargir le test.
 function trainAccessibleDestinations(): TrainDest[] {
   return monoPool()
     .map(({ city, fit }) => {
@@ -254,8 +269,8 @@ export function MonoparentalExtras() {
       {/* Section 1 — Train + local sans voiture */}
       <Section
         emoji={<TrainFront className="h-6 w-6" />}
-        title="Faisables en train, sans louer de voiture sur place"
-        intro="On arrive en TGV ou en RER, on pose le sac, et on tient la semaine avec métro, tram ou bus. Les 12 villes qui cumulent les deux dans le top monoparental."
+        title="Faisables en TGV ou en RER, sans louer de voiture sur place"
+        intro="On arrive en TGV ou en RER, on pose le sac, et on tient la semaine avec métro, tram ou bus. Ce filtre s'appuie sur notre table de desserte, qui est saisie à la main et ne couvre qu'une partie des villes : une ville absente de la table n'y apparaît pas, même bien desservie, et une ville reliée par un TER seulement en est exclue par construction."
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {trainDest.map(({ city, score, transit }) => (
