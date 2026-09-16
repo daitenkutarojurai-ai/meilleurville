@@ -7907,6 +7907,46 @@
       "slug": "single-parent-in-levallois-perret-2026",
       "title": "Single parent in Levallois-Perret (2026): the same mark as Châtellerault, for almost three times the income",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "moving-to-champigny-sur-marne-2026",
+      "title": "Moving to Champigny-sur-Marne in 2026: the cheap side of the loop",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-saint-maur-des-fosses-2026",
+      "title": "Moving to Saint-Maur-des-Fossés in 2026: six villages on a peninsula",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-creteil-2026",
+      "title": "Moving to Créteil in 2026: a 1970s new town that works",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-vitry-sur-seine-2026",
+      "title": "Moving to Vitry-sur-Seine in 2026: street art and a building site",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-colombes-2026",
+      "title": "Moving to Colombes in 2026: the Chariots of Fire stadium, and a long wait",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-asnieres-sur-seine-2026",
+      "title": "Moving to Asnières-sur-Seine in 2026: eight minutes from Saint-Lazare",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-courbevoie-2026",
+      "title": "Moving to Courbevoie in 2026: living at the foot of La Défense",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-rueil-malmaison-2026",
+      "title": "Moving to Rueil-Malmaison in 2026: Joséphine's house and a very large commune",
+      "emoji": "📦"
     }
   ],
   "tags": [
@@ -7923,7 +7963,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 187
+      "count": 195
     },
     {
       "slug": "single-parent-in-france",
@@ -7966,8 +8006,18 @@
       "count": 52
     },
     {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 48
+    },
+    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
+      "count": 43
+    },
+    {
+      "slug": "relocation",
+      "label": "relocation",
       "count": 43
     },
     {
@@ -7986,9 +8036,9 @@
       "count": 43
     },
     {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 40
+      "slug": "cost-of-living",
+      "label": "cost of living",
+      "count": 41
     },
     {
       "slug": "pays-de-la-loire",
@@ -7996,19 +8046,9 @@
       "count": 39
     },
     {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 35
-    },
-    {
       "slug": "working-in-france",
       "label": "working in france",
       "count": 34
-    },
-    {
-      "slug": "cost-of-living",
-      "label": "cost of living",
-      "count": 33
     },
     {
       "slug": "job-market-france",

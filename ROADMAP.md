@@ -4216,6 +4216,155 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 16/09 — `moving-to-[city]-2026` batch 3 (+8), la petite couronne, et 5 erreurs de fond du corpus FR
+
+`npm run parity` en **code 0** en début et en fin de run (FR 221 · EN 166, 0 route FR sans
+jumelle) : la parité de **routes** tient, le run porte donc sur l'écart de **corpus**. La série
+`moving-to-[city]` passe de **16 à 24 sur 50**, mesurée par diff des deux listes de slugs et non
+recopiée du journal.
+
+**Le lot n'est pas pris dans l'ordre de la liste laissée le 15/09, et c'est la correction de
+méthode du run.** Cette liste ouvrait sur Aix-en-Provence, Antibes, Reims, Nîmes — des villes qui
+portent déjà 20 à 48 guides EN chacune. Le comptage refait ce run (sur `relatedCities`, pas de
+mémoire) dit que le trou réel est ailleurs : **Champigny-sur-Marne et Saint-Maur-des-Fossés
+portaient ZÉRO guide EN**, Colombes, Asnières-sur-Seine et Rueil-Malmaison un seul. Or
+`components/CityGuidesList.tsx` **ne rend rien sous 2 guides** (`matches.length < 2` → `null`) :
+ces cinq pages ville EN n'avaient donc **aucune section guides du tout**. Villes retenues :
+Champigny-sur-Marne, Saint-Maur-des-Fossés, Créteil, Vitry-sur-Seine, Colombes,
+Asnières-sur-Seine, Courbevoie, Rueil-Malmaison. Vérifié après écriture : les huit passent le
+seuil (2, 3, 6, 4, 4, 4, 6, 2), donc **cinq pages ville EN gagnent une section qui n'existait
+pas**. C'est le meilleur rendement par guide de la série, et il ne se voyait pas dans la liste.
+
+⚠️ **Les cinq faits les plus utiles du batch sont des corrections, et elles portent sur le corpus
+FR bien au-delà de ces 8 villes.** Toutes vérifiées en ligne avant rédaction, deux sources
+chacune quand la source primaire était inaccessible depuis la routine :
+① **Il n'y a pas d'encadrement des loyers dans ces 8 communes.** Les jumelles FR affirment toutes
+« concernée par l'encadrement des loyers étendu à la Métropole du Grand Paris depuis 2019 :
+loyer de référence à respecter, majoré de 20 % maximum ». C'est **faux** : le dispositif couvre
+Paris et **18 communes de Seine-Saint-Denis** (les 9 de Plaine Commune depuis le 01/06/2021, les
+9 d'Est Ensemble depuis le 01/12/2021), et **aucune commune du 92 ni du 94** — arrêtés 2026
+publiés par la DRIHL le 01/06/2026. C'est la plus lourde des cinq : elle dit à un locataire
+qu'un plafond le protège, et à un bailleur qu'il y est tenu. **11 guides FR portent la phrase.**
+② **Le plafond des honoraires d'agence a bougé le 01/01/2026, pour la première fois depuis le
+décret de 2014** : **12,10 €/m²** en zone très tendue (où siège l'agglomération parisienne),
+10,09 € en zone tendue, 8,07 € ailleurs, **plus 3,03 €/m²** d'état des lieux, sur la surface
+habitable, et **uniquement sur les baux signés à partir de janvier 2026**. Les jumelles FR
+écrivent « plafonnés à 13 €/m² au total (10 + 3) », l'ancien barème et la mauvaise tranche.
+**11 occurrences côté FR.**
+③ **La ligne 15 Sud du Grand Paris Express ouvre à l'automne 2027**, décision de la Société des
+Grands Projets du **25 juin 2026** (elle promettait avril 2027 ; essais dynamiques depuis
+novembre 2025). Les jumelles FR de Champigny et Vitry annoncent « en cours d'ouverture
+progressive 2025-2026 » et « fin 2025-2026 » : elles vendent un métro **déjà ouvert** qui a plus
+d'un an de retard. Stations concernées, vérifiées : Mairie de Vitry-sur-Seine, Les Ardoines,
+Créteil-L'Échat, Hôpital Henri-Mondor, Saint-Maur-Créteil, Champigny Centre,
+Villiers-Champigny-Bry.
+④ **La ligne 15 Ouest ouvre en 2031**, pas « à horizon 2027-2028 » comme l'écrivent les jumelles
+Colombes, Asnières et Courbevoie. **C'est la confusion la plus rentable du dossier francilien** :
+15 Sud et 15 Ouest sont deux chantiers distincts, et Bécon-les-Bruyères (les trois guides) est
+sur l'Ouest. Trois à quatre ans d'écart, sur l'argument qui justifie la prime de prix du secteur.
+⑤ **Le Navigo Mois vaut 90,80 € depuis le 01/01/2026** (88,80 € en 2025), **à prix unique toutes
+zones** — il n'y a plus de tarification par zones pour le forfait mensuel. Les jumelles FR
+écrivent « la carte **Navigate** zones 1-3 (84,10 € par mois en 2026) » : mauvais nom, mauvais
+prix, et un zonage qui n'existe plus. **26 guides FR écrivent « carte Navigate », 13 citent
+« 84,10 € ».**
+
+⚠️ **Ces cinq défauts n'ont PAS été corrigés côté FR, et c'est délibéré.** Ils débordent largement
+les 8 villes du lot (11 guides pour l'encadrement et les honoraires, 26 pour le Navigo), donc en
+réparer 8 laisserait le corpus incohérent **et** donnerait le problème pour réglé — c'est
+exactement l'erreur du « neuvième réouverture refermée » du batch 8. **C'est une tâche FR à part
+entière, à prendre en entier, avec les valeurs vérifiées ci-dessus.** Le run suivant peut la
+prendre telle quelle ; elle vaut plus que 8 guides de plus.
+
+⚠️ **Deux jumelles FR portent des loyers qui ne viennent pas de `data/housing.ts`, et l'EN suit le
+module.** Colombes FR annonce T1 720 / T2 1 050 / T3 1 450 et 5 500 €/m² quand le module dit
+**680 / 980 / 1 300 et 4 600** ; Courbevoie FR annonce 950 / 1 350 / 1 900 et 7 500 quand le
+module dit **820 / 1 250 / 1 750 et 6 200**. Les six autres concordent. Conformément à la
+convention (« lire la valeur par le module »), les guides EN publient les valeurs du module —
+donc **l'écart de chiffres entre ces deux paires est réel et c'est la version FR qui est fausse**.
+À corriger avec la passe ci-dessus, pas séparément.
+
+**Compteurs mesurés** : `EN_GUIDES` 933 → **941**. `metaTitle` 45-51 caractères, `metaDesc`
+144-159, 8 sections par guide (la jumelle FR en compte 6), 1 477 à 1 602 mots. **0 em-dash dans
+les intros et les corps** ; les 8 du bloc sont les séparateurs de `metaTitle`, gardés comme
+partout dans le corpus (cible R7.10 tenue).
+
+⚠️ **Un défaut de rédaction corrigé avant insertion, et il est structurel à un batch de série** :
+la première version partageait **trois blocs verbatim** entre les 8 guides (le rappel juridique
+loyers/honoraires à ~180 mots, le dossier de location, l'expédition depuis l'étranger), soit
+~540 mots identiques répétés huit fois. Un gabarit de sections est de la **structure de série**,
+que les trois passes de déduplication du 04/06 ont explicitement épargnée ; un paragraphe
+identique au mot près, non. Les trois blocs ont été réécrits **par ville** (mêmes faits vérifiés,
+phrases et angles différents), puis deux phrases réglementaires courtes qui restaient répétées
+6 et 7 fois (zone tendue, Navigo) ont été variées à leur tour. Contrôle final : **5 phrases de
+8 mots ou plus encore répétées**, toutes des énoncés de chiffres identiques (fourchettes de
+déménagement, total d'installation, phrase ZFE) — les reformuler pour la variété serait pire.
+
+⚠️ **Quatre superlatifs rendus vérifiables avant insertion plutôt que retirés**, le défaut
+récurrent des batches 34 à 46 : « la façon la moins chère de vivre dans la boucle de la Marne »
+(Champigny n'est pas *dans* la boucle et le superlatif n'était pas borné) → la comparaison
+chiffrée des deux communes ; « le marché le plus tendu de la série après Courbevoie »
+(Saint-Maur) et « le marché le plus tendu de la série » (Courbevoie) → **Courbevoie est la plus
+chère des huit au loyer (1 250 € le T2 contre 1 240 €), Saint-Maur la plus chère à l'achat
+(6 500 €/m²)**, les deux phrases publient l'ensemble de comparaison ; et « le trajet le plus
+court de la série » (Asnières) → « le plus court vers le centre de Paris des huit communes ».
+
+**Contrôle de figures** : chaque suite de chiffres du texte EN cherchée dans la jumelle FR,
+séparateurs normalisés — **472 figures, 285 retrouvées, 187 absentes**. Proportion beaucoup plus
+haute que les batches précédents (~10-15 %), et **classée et non balayée** : ① les corrections
+①-⑤ ci-dessus (`1210`, `303`, `9080`, `4540`, `2014`, `2027`, `2031`) sont absentes **parce que
+le FR est faux** ; ② les **populations Insee 2022** lues dans `lib/city-population.ts` (78 367,
+76 010, 92 859, 95 282, 90 692, 91 457, 81 945, 80 842) remplacent les arrondis des jumelles,
+convention des batches tourisme ; ③ les loyers Colombes et Courbevoie, cas ci-dessus ; ④ les
+comparaisons inter-villes lues dans `data/housing.ts` ; ⑤ les totaux d'honoraires recalculés sur
+le barème 2026 (45 m² × 15,13 € ≈ 680 €, 50 m² ≈ 755 €) ; ⑥ `10070`, le cerfa de la franchise de
+déménagement, ajout EN de toute la série ; ⑦ la matière anglophone neuve (Van Gogh à Asnières en
+**1887**, cimetière des chiens **1899**, Malmaison **1799/1809/1814/1905**) ; ⑧ des **artefacts
+du contrôle** — « 7.30am » contre « 7 h 30 » côté FR, « 1960s and 1970s » contre « années
+60-70 », « Line 15 » découpé en `15`. Les sept cas non immédiatement plaçables ont été relus en
+contexte un par un : aucun n'est une erreur.
+
+**Matière propre à l'angle anglophone, vérifiée en ligne** : le **Stade Yves-du-Manoir de
+Colombes** est le stade principal des JO de **1924**, ceux de la rivalité Abrahams / Liddell que
+raconte *Chariots of Fire*, et **le seul site français à avoir accueilli les Jeux deux fois**
+(hockey en 2024) — le guide FR l'expédie en « ex-Stade Olympique 1924 » ; **Van Gogh a peint à
+Asnières l'été 1887** avec Signac et Bernard, et la prudence de Saint-Rémy (batch 48) est reprise
+telle quelle : **aucune des toiles n'est restée**, *La Sirène* est à Orsay, *Restaurant Rispal*
+au Nelson-Atkins de Kansas City ; **Malmaison** est la maison de Joséphine, achetée en avril
+**1799**, gardée après le divorce de **1809**, où elle meurt en mai **1814**, musée national
+depuis **1905** ; et **Créteil se lit comme une ville nouvelle britannique des mêmes années, à
+une différence près : elle a eu son métro**.
+
+**Découvrabilité vérifiée après écriture, pas supposée** : les 8 guides sont retrouvés par
+`getEnGuide()`, portent `category: "moving"` (présente dans `EN_GUIDE_CATEGORIES`), sont pourvus
+de leur photo d'en-tête par `guideCityPhoto()`, listent **leur propre ville en 1re position** de
+`relatedCities`, et aucun `relatedCities` ne pointe hors du seed.
+
+**Aucun tag neuf** : les 8 réutilisent `moving to france` (187 guides), `relocation`,
+`ile-de-france`, `cost of living` et le tag de ville. `search-index.en.json` reste à **114
+tags**, donc aucune page `/tags/` créée, et `sitemap:check` confirme EN 28 825 → **28 833 URL**,
+soit exactement les 8 guides neufs (FR inchangé à 29 239).
+
+**Contrôles** : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 933 → 941, dont
+« citations EN 0 score brut recopié »), `search-index` + `search-index:check`, `sitemap:check`,
+`npm run parity` (**code 0**), `npm run hreflang:check`, plus le contrôle de lookup / photo /
+seuil ci-dessus, le contrôle de figures et une vérification d'encodage (163 `€` intacts, 0
+em-dash en corps, 0 guillemet courbe, aucun `m2` / `EUR` / `deg` ascii, aucun mojibake).
+`npm run build` **non lancé, volontairement** (cf. § Commands de `CLAUDE.md` depuis le batch 27).
+Note d'environnement reconfirmée : le conteneur démarre **sans `node_modules`** — `npm install`
+d'abord.
+
+**Prochain run** : deux candidats, et le second est le plus rentable. ① `moving-to-[city]` est à
+**24/50** ; les 26 villes restantes sont Aix-en-Provence, Antibes, Reims, Nîmes, Brest, Caen,
+Metz, Nancy, Tours, Clermont-Ferrand, Orléans, Le Havre, Saint-Étienne, Mulhouse, Perpignan,
+Amiens, Le Mans, Villeurbanne, les communes de petite couronne encore sans jumelle
+(Boulogne-Billancourt, Nanterre, Argenteuil, Aubervilliers, Saint-Denis 93) et les trois villes
+ultramarines. ⚠️ **Toutes portent déjà 3 guides EN ou plus** (comptage fait ce run), donc aucune
+ne débloque une section absente : le rendement par guide retombe au niveau ordinaire.
+② **La passe de correction FR des cinq défauts ci-dessus**, qui touche 11 à 26 guides et remet
+d'aplomb des chiffres réglementaires faux sur l'arbre qui porte tout le trafic. Les valeurs
+vérifiées sont dans cette section, il n'y a pas de recherche à refaire.
+Après cette série, le gisement suivant reste `leaving-` 23 EN contre `quitter-` 55 FR.
+
 ### Livré le 15/09 — tourisme batch 48 FR (+7 : Langres, Saint-Rémy-de-Provence, La Baule, Morlaix, Dax, Vendôme, Céret)
 
 La série était à parité **261 FR / 261 EN**, mesurée par diff des deux listes de slugs et non

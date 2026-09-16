@@ -39991,6 +39991,462 @@ export const EN_GUIDES: EnGuide[] = [
       "ile-de-france"
     ]
   },
+
+  {
+    slug: "moving-to-champigny-sur-marne-2026",
+    title: "Moving to Champigny-sur-Marne in 2026: the cheap side of the loop",
+    metaTitle: "Moving to Champigny-sur-Marne 2026 — Rents, Costs",
+    metaDesc:
+      "Moving to Champigny-sur-Marne: a two-room flat at €980, the metro that is now autumn 2027 and not next year, the Marne flood zone, and what arriving costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 9,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Champigny-sur-Marne and Saint-Maur-des-Fossés face each other across the same bend of the Marne, and one costs far more than the other: a two-room flat averages €980 in Champigny and €1,240 in Saint-Maur, with flats selling at around €4,200 per square metre against €6,500. The two communes will share a Grand Paris Express line. The reason to read this before signing is that the line is later than almost everything written about it says, and the gap between the two prices is the market pricing exactly that delay. Champigny had 78,367 residents at the 2022 census and has been growing while Paris shrinks. This guide covers the lease, the district, moving day, the paperwork and the local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: about €720 for a studio or one-bedroom, €980 for a two-room flat, €1,320 for a three-room. Two legal points before you negotiate anything. There is no rent cap here, and that surprises people who have read that the Paris area is covered: the encadrement des loyers runs in Paris itself and in eighteen suburban communes, the nine of Plaine Commune and the nine of Est Ensemble, all in Seine-Saint-Denis. Champigny is in none of them, so the asking price is the price and the market is your only lever. And agency fees changed on 1 January 2026, for the first time since the 2014 decree set them: the ceiling in the tightest band, which covers the Paris agglomeration, is €12.10 per square metre plus €3.03 per square metre for the inventory, charged on habitable floor area rather than as a percentage. It binds only on leases signed from January 2026. Multiply the floor area by those two numbers before you hand over anything. The commune is classified zone tendue under the 2013 decree, which is a different thing from a rent cap and works in your favour: it cuts the notice you must give to leave from three months to one, and limits the deposit to one month excluding charges. Pressure concentrates on renovated flats near the RER A at Champigny-Saint-Maur, from which La Défense is about twenty-five minutes, and on the newer blocks near the future station in the centre. September is the tight window, December to February the quiet one. Several social landlords also run intermediate schemes outside the private market, with waits measured in one to two years rather than weeks.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected file is proof of identity, three recent payslips, the latest French tax notice and receipts from a previous French landlord, and an arrival from abroad has none of them. Two documents close the gap. Visale, the free rent guarantee run by Action Logement, substitutes for a French guarantor and is the most valuable thing you can turn up with; check eligibility on the official site before you start viewing. A signed French employment contract with a letter from the employer does the same job. The local advantage is that Champigny is not a prestige market: landlords are used to ordinary working files and to people moving within the eastern suburbs, so a Visale-backed application from a newcomer is unremarkable here in a way it is not in Saint-Maur. No money moves before you have seen the actual flat, and read the energy rating and the risk statement while you are standing in it.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. The town centre around the mairie and the market, which will have the Champigny Centre station: shops, cafes, a real high street, the highest prices in the northern half, and a bet on the station. The Marne banks in the south, around the bridge and the riverside walk: houses and small blocks, families, quiet, and the stretch of river the Impressionists painted, with the surviving guinguette dance halls. Coeuilly in the south-east: interwar houses, calm, five minutes from the RER E at Villiers-sur-Marne. Le Plateau and Tremblay in the north: the best floor area per euro, 1960s and 1970s blocks in the middle of renovation, trams and buses down to the RER A. Bois-l'Abbé in the north-west, a large estate under a national urban renewal programme running to 2030: the lowest prices in the commune and the most variable street-by-street reading. Walk any address twice, once on a weekday evening and once on a Sunday morning, before you commit to a year.",
+      },
+      {
+        heading: "Moving day: the worksite, the river and the emissions zone",
+        body: "Three particularities. One: the Grand Paris Express worksites in the centre and the east still close roads at short notice, so check the project site for your street in the week before the van comes. Two: the low parcels along the Marne, around the Vieux-Pont and the Chennevières bridge, sit in the flood-risk plan, which matters if your flat has a ground floor or a cellar and which changes both your insurance and what you are required to do. Three: the metropolitan low-emission zone covers the area inside the A86 ring, and vehicles rated Crit'Air 3 and worse are barred. The rule is in force; enforcement through 2026 is informative, with fines not expected before 2027, but hire companies apply the sticker rule regardless, so check the rating of any van you book. Ask the city for an autorisation d'occupation temporaire, a permit to occupy the kerb, one to two weeks ahead. Best slot: Saturday morning or a weekday before 10am, avoiding the central market on Tuesday, Friday and Sunday morning.",
+      },
+      {
+        heading: "The metro that is coming, and when it actually arrives",
+        body: "This is the section to read twice, because it is the reason Champigny is cheap and because most of what is written about it is out of date. Line 15 South of the Grand Paris Express will run from Pont-de-Sevres to Noisy-Champs and will give Champigny two stations, Champigny Centre and Villiers-Champigny-Bry. It is not opening progressively now, and it did not open in 2025 or 2026. On 25 June 2026 the Societe des Grands Projets pushed the opening to autumn 2027, having previously promised April 2027, blaming the pace at which the automation equipment is being installed in the tunnels and the stations integrated. Dynamic testing with trains began in November 2025. What that means for a decision: a three-year lease signed now ends around the time the line opens, so if you are buying the transport improvement rather than the flat, you are paying today for something that arrives towards the end of your stay. Until then the honest commute is the RER A from Champigny-Saint-Maur, plus the RER E from Villiers-sur-Marne next door.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Personal effects from outside the EU come in duty free under transfer-of-residence relief, subject to three conditions that are genuinely checked: twelve months of residence outside the EU, goods owned for more than six months, and a declaration on form cerfa 10070. Fill it in before the lorry arrives, not at the depot. There is no port or air freight terminal nearby, so everything comes by road through the eastern suburbs, and the approach motorway is heavily congested between 7.30am and 9.30am. If you are driving a van across yourself, note that the cross-Channel map is changing and older guides will send you to a route that has gone: Brittany Ferries closes Portsmouth to Le Havre in October 2026, leaving Portsmouth to Caen as the nearest Normandy crossing and Newhaven to Dieppe as the shortest hop. Measure the stairwell, the lift and the window openings at the viewing, because that is what decides whether you need a furniture lift.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €980: a deposit of one month excluding charges, around €920; the first month's rent; agency fees at the legal ceiling, which for a 45 square metre flat is about €680 including the inventory under the 2026 figures. The move itself runs €400 to €900 for a studio from within the region and €1,000 to €2,400 for a three-room from the provinces. A full arrival for a couple renting: €2,800 to €4,800. Then the standing local lines. A monthly Navigo pass costs €90.80 from 1 January 2026 and is a single all-zones price, so the old talk of zone 1-3 pricing is obsolete; your employer is legally required to reimburse half, which brings it to €45.40. Budget heating honestly if you take a 1960s or 1970s block on the Plateau, where energy ratings of E and F are common, and budget a contingency for building works, because several addresses are part-way through insulation, lift and boiler programmes that reach a tenant through the service charges.",
+      },
+      {
+        heading: "The traps specific to Champigny",
+        body: "Four. One: signing in the centre on the strength of the metro, on a timetable that has already moved twice. Autumn 2027 is the current date, not a promise, and the shops and associations that make a station district liveable arrive years after the trains. Two: ignoring the flood-risk plan on the low ground by the river. Some addresses are in the red zone, the information sheet is attached to the lease by law, and georisques.gouv.fr will tell you before the agent does. Three: judging Bois-l'Abbe from its press coverage instead of from two walks at two different hours. The estate is being rebuilt under a programme that runs to 2030, with demolitions in progress, and it changes street by street. Four: taking a 1960s or 1970s flat without reading the last three years of building meeting minutes, which is where the scheduled works are written down and where you will find out what your charges are about to do. Read those and Champigny is the best value in the loop; skip them and it is the most expensive kind of bargain.",
+      },
+    ],
+    relatedCities: ["champigny-sur-marne", "saint-maur-des-fosses", "creteil", "paris"],
+    tags: [
+      "moving to france",
+      "champigny-sur-marne",
+      "relocation",
+      "ile-de-france",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-saint-maur-des-fosses-2026",
+    title: "Moving to Saint-Maur-des-Fossés in 2026: six villages on a peninsula",
+    metaTitle: "Moving to Saint-Maur-des-Fosses 2026 — Rents, Costs",
+    metaDesc:
+      "Moving to Saint-Maur-des-Fossés: four RER A stations, six village districts, Belle Epoque houses that cost a fortune to heat, and what arriving really costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 9,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Saint-Maur-des-Fossés sits on a peninsula inside a loop of the Marne, which is the single fact that explains the place: the river surrounds it on three sides, four RER A stations serve a commune of 76,010 people, and the result is six distinct village districts rather than one town. It is among the most sought-after addresses in the inner south-eastern suburbs, with a two-room flat at €1,240 and flats around €6,500 per square metre. What an anglophone reader should know before committing is that the charm is almost entirely late-nineteenth and early-twentieth-century houses, which brings a parking problem and a heating bill that nobody mentions at the viewing. This guide covers the lease, the district, moving day, the paperwork and the local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: about €920 for a studio or one-bedroom, €1,240 for a two-room flat, €1,680 for a three-room. Two legal points that matter more here than in a soft market. First, and against what most people assume, there is no rent cap in Saint-Maur. The encadrement des loyers covers Paris and eighteen communes of Seine-Saint-Denis, the nine of Plaine Commune and the nine of Est Ensemble, and nothing in the Val-de-Marne. In a commune where family houses are scarce and signed within days, that means nothing restrains the asking rent, and you should budget from the listing rather than from a ceiling that does not exist. Second, agency fees rose on 1 January 2026, the first move since 2014: €12.10 per square metre in the tightest band, which is where the whole Paris agglomeration sits, plus €3.03 per square metre for the inventory, both calculated on habitable floor area. On the larger properties this commune specialises in, that is a real sum, so check the arithmetic on the invoice. What does apply is the zone tendue classification under the 2013 decree, a separate mechanism that works for you rather than against: one month's notice to leave instead of three, and a deposit limited to one month excluding charges. On rent this is the second dearest commune in this series, at €1,240 for a two-room flat against €1,250 in Courbevoie, and on purchase price it is the dearest of the eight at €6,500 per square metre. It behaves accordingly: family houses turn over rarely and are signed within days, employer references are asked for as a matter of course on the better properties, and a meaningful share of family lettings never reaches a portal at all, moving instead through school-gate and colleague networks. September and October are brutal because of the school calendar; December to February is the only genuinely calm window.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The file a landlord expects is identity, three payslips, the last French tax notice and receipts from a previous French tenancy. You will have none of them, and here you are competing against applicants who have all four. Be realistic: in a market where the landlord chooses, a foreign file without a Visale guarantee or a signed French contract loses every time. Visale is free, it is run by Action Logement, it replaces a French guarantor, and you should have the certificate in hand before your first viewing. Two workable strategies follow from that. Take a smaller flat near a station for a first year and move within the commune once you have French payslips, or arrive with an employer's letter stating the post and the salary in euros. And never send money before seeing the flat: the advance-fee scam aimed at people relocating from abroad is common precisely because they are abroad and in a hurry.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings, and they are genuinely different places. La Varenne-Saint-Hilaire on the right bank: Belle Epoque villas, a riverside village feel, restaurants, the highest prices in the commune. Le Vieux-Saint-Maur, the historic core around the old abbey and the mairie: central, the most architecture, the Saint-Maur-Creteil RER A station at the door. Saint-Maur-Creteil itself, at the western neck of the peninsula: the best compromise between price and travel time, a mix of houses and 1960s to 1990s blocks, La Defense in about thirty-five minutes. Adamville in the north-east: family territory, very village in feel, and heavily in demand for its schools. La Pie in the west, on the river: small blocks and houses with the water at the end of the street. Singles often end up looking at Vincennes ten minutes up the RER A, or at Nogent-sur-Marne and Joinville-le-Pont next door. The classic error is choosing a house on price without standing in the street on a Friday evening to see where you would actually put a car.",
+      },
+      {
+        heading: "Moving day: narrow streets, four stations, one river",
+        body: "Three particularities. One: the street pattern is inherited from nineteenth-century villa plots, so the roads are narrow, and a furniture lift is close to standard above the first floor. Budget €100 to €300 for it and ask the question at the viewing rather than on the day. Two: an autorisation d'occupation temporaire, the permit that lets your lorry legally occupy the kerb, must be requested from the city one to two weeks ahead, and it is not optional in La Varenne, Le Vieux-Saint-Maur or Champignol. Three: the low parcels along the river are in the flood-risk plan, which changes your insurance and your obligations. The metropolitan low-emission zone applies, barring Crit'Air 3 and worse inside the A86; enforcement is informative through 2026 with fines not expected before 2027, but hire firms apply the rule anyway. Best slot: Saturday morning or a weekday before 10am, working around three separate markets, in La Varenne, Le Vieux-Saint-Maur and Adamville, each with its own days.",
+      },
+      {
+        heading: "The RER A, and the metro line arriving in 2027",
+        body: "Four RER A stations inside one commune is close to unique in the Paris suburbs, and it is what you are paying for: Saint-Maur-Creteil, Le Parc de Saint-Maur, Champigny and Bord de Marne. The RER A is the busiest line in Europe by passenger numbers, which is both the reason the commune works and the reason the morning platform at Saint-Maur-Creteil is not a pleasant place in February. A second layer is coming: Saint-Maur-Creteil is one of the interchange stations on Line 15 South of the Grand Paris Express, the orbital line that will let you cross between suburbs without going through Paris first. Its opening was pushed to autumn 2027 on 25 June 2026, having been promised for April 2027. Treat that as the date to plan around rather than a fixed point. For a family choosing between here and Champigny across the water, the honest framing is that you are paying roughly fifty per cent more per square metre for a better housing stock and for schools, not for a transport advantage that is about to be equalised.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "From outside the EU, personal effects clear duty free under transfer-of-residence relief: twelve months of residence outside the EU, goods owned more than six months, declared on form cerfa 10070, and the form is worth preparing before the lorry arrives. The constraint that catches people out in Saint-Maur is the street pattern rather than the distance. The villa roads were laid out for carriages, a full-size container lorry frequently cannot reach the door, and the shipper will reload into a smaller vehicle at extra cost if you have not warned them in advance. Say which district you are going to when you ask for the quote. If you are driving across, check the sailing: Brittany Ferries closes Portsmouth to Le Havre in October 2026, with Portsmouth to Caen the nearest Normandy replacement and Newhaven to Dieppe the shortest crossing. Measure the stairwell and the window openings while you are viewing.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,240: a deposit of one month excluding charges, around €1,170; the first month's rent; agency fees at the legal ceiling, about €755 for a 50 square metre flat including the inventory under the 2026 figures. The move itself runs €500 to €900 for a studio from within the region and €1,200 to €2,800 for a three-room from the provinces. A full arrival for a couple renting: €3,600 to €5,800, at the top of this series apart from Courbevoie. The standing lines: a monthly Navigo pass at €90.80 from 1 January 2026, a single all-zones price with half reimbursed by your employer, so €45.40 net; and a residents' parking permit, which here is not optional but structural, since the villa streets were laid out before cars and most households get one space. The line people underestimate is heating. A handsome unrenovated villa with an energy rating of E, F or G is a genuine financial commitment in January, and the rating is on the lease.",
+      },
+      {
+        heading: "The traps specific to Saint-Maur",
+        body: "Four. One: signing a house without solving parking first. Go and look at the street at 8pm on a Friday, not at 11am on a Tuesday when the agent is free. Two: buying the charm of an unrenovated Belle Epoque villa without reading its energy rating. The heating bill on a poorly insulated family house here runs into thousands a year, and the rating is a legal disclosure you are entitled to before signing. Three: underestimating the flood-risk plan on the low ground by the river, in the Bord de Marne stretch, the lower part of La Pie and the riverside edge of La Varenne. The information sheet comes with the lease; georisques.gouv.fr is the independent check. Four: assuming you can choose your children's school. Catchment here is strict, the most popular secondary schools are heavily oversubscribed, and exemptions are close to impossible to obtain outside a genuine change of address. If you have children in secondary education, confirm the catchment for the precise street before you sign, because it is decided by the address and not by the commune.",
+      },
+    ],
+    relatedCities: ["saint-maur-des-fosses", "champigny-sur-marne", "creteil", "paris"],
+    tags: [
+      "moving to france",
+      "saint-maur-des-fosses",
+      "relocation",
+      "ile-de-france",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-creteil-2026",
+    title: "Moving to Créteil in 2026: a 1970s new town that works",
+    metaTitle: "Moving to Créteil 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Créteil: the best floor area per euro in the inner suburbs, a metro with four stations, a lake, a university, and the service charges to check first.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 9,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Créteil is a planned new town built in the 1970s, and it is the closest French equivalent to the British new towns of the same era, with one large difference: it got a metro. Four stations on line 8 serve a commune of 92,859 people, along with a 40-hectare lake in the middle of the built-up area, a university of some 30,000 students and a teaching hospital. A two-room flat averages €950 and flats sell around €4,200 per square metre, which makes this the best floor area per euro in this series. What the brochures do not say is that a new town built in one go also ages in one go, and the renovation bills are arriving together. This guide covers the lease, the district, moving day, the paperwork and the local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: about €650 for a studio or one-bedroom, €950 for a two-room flat, €1,250 for a three-room. Two legal points worth knowing before you compare listings. There is no rent cap in Créteil. People assume the whole inner suburbs are covered; in fact the encadrement des loyers applies in Paris and in eighteen Seine-Saint-Denis communes, the nine of Plaine Commune and the nine of Est Ensemble, and nowhere in the Val-de-Marne. The asking rent is the rent. Second, the ceiling on agency fees moved on 1 January 2026 after twelve years frozen at the 2014 level: €12.10 per square metre in the tightest band, which includes the Paris agglomeration, plus €3.03 per square metre for the inventory, both on habitable floor area and binding only on leases signed from January 2026. Because the flats here are generously sized for the money, the fee is larger than the low rent would suggest, so work it out from the square metres and not from the monthly figure. Separately, the commune is classified zone tendue under the 2013 decree. That is not a rent cap, and it is in your favour: one month's notice to quit rather than three, and a deposit capped at a single month excluding charges. Demand concentrates on renovated flats near a line 8 station and on the lakeside. Two institutional flows set the rhythm: the university, which makes September the tight month, and the public sector, since the prefecture, the department, the hospital, the courts and the regional health agency are all here and generate a steady stream of transfers with solid files. That is genuinely useful to know as an incoming applicant, because it tells you what a landlord here is used to seeing and what you are being compared against.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The standard file is identity, three payslips, the latest French tax notice and previous rent receipts, none of which you can produce on arrival from abroad. The answers are Visale, the free Action Logement guarantee that stands in for a French guarantor, or a signed French employment contract with a supporting letter. Créteil is among the more forgiving markets in this series for a foreign application, for a structural reason: the housing stock is large and homogeneous, so if this two-room flat goes, there is a comparable one next week. Use that rather than accepting pressure. View several, compare them properly, and do not let an agent present a standard 1970s flat as a rare opportunity. As everywhere, no money before a real viewing of the actual flat, and read the energy rating and the risk statement attached to the lease before you sign rather than after.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. The lakeside in the west, between Bleuets and Palais: renovated 1970s blocks, some with a view of the water, families, the highest local prices and the best quality of life in the commune. Palais and Bleuets at the centre of the new town, around the prefecture and the Créteil Soleil shopping centre: central, a line 8 station at the door, the new town at its most assumed. Créteil-Village in the south, the pre-existing old village around the church, which survived the planners: a genuine village atmosphere inside a new town, and much in demand for it. Croix-des-Meches and lower Mont-Mesly for floor area per euro, in renovated 1970s and 1980s blocks with direct buses to the metro. Créteil-l'Echat in the north, by the hospital and the university campus, which is where medical and academic transfers land. Families also look at Alfortville, Maisons-Alfort, Bonneuil-sur-Marne and Choisy-le-Roi next door. The usual error is choosing upper Mont-Mesly on price alone without walking it at two different hours.",
+      },
+      {
+        heading: "Moving day: raised decks, the metro and the shopping centre",
+        body: "Three particularities, all of them consequences of the same 1970s design. One: the heart of the new town is pedestrian, built on raised concrete decks linking Bleuets, Palais, Croix-des-Meches and the lakeside, with parking underneath or at the edge. A lorry cannot simply pull up at your door, a furniture lift is often needed to reach deck level, and you need an autorisation d'occupation temporaire, the kerb permit, from the city one to two weeks ahead. Two: the big 1970s blocks have strict building rules on moving slots, usually booked through the managing agent a fortnight in advance. Three: Créteil Soleil is one of the largest shopping centres in the Paris region and it draws the whole southern suburbs on Saturday afternoons, saturating traffic and parking for a good distance around. If your new flat is within walking distance of it, do not book a Saturday afternoon. The low-emission zone applies, barring Crit'Air 3 and worse inside the A86, with enforcement informative through 2026 and fines not expected before 2027.",
+      },
+      {
+        heading: "Getting to Paris, and the orbital line arriving in 2027",
+        body: "Line 8 of the metro runs into central Paris and gives Créteil four stations, which is why the commune scores as well as it does on transport despite sitting well outside the city. It is a long line and not a fast one, so measure your own journey rather than the distance. The change coming is orbital rather than radial: Line 15 South of the Grand Paris Express will serve Créteil-l'Echat and Hopital Henri-Mondor, letting you reach other suburbs without going into Paris and out again, which is the trip that currently makes cross-suburban commuting painful. The date has moved repeatedly and the current one is autumn 2027, set on 25 June 2026 after an earlier promise of April 2027, with the Societe des Grands Projets citing the pace of automation work in the tunnels and of fitting out the stations. Plan on the metro you can ride today and treat 2027 as an improvement you may see towards the end of a first lease.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Personal effects from outside the EU are duty free under transfer-of-residence relief, on three conditions that get checked: twelve months of residence outside the EU, ownership of the goods for more than six months, and a declaration on form cerfa 10070, which is better prepared in advance than at the depot. The good news about Créteil is that once you are past the raised pedestrian decks, the 1970s stock has wide doorways, generous lifts and rooms designed around standard furniture, which is not true of the older communes in this series. Shipping a large sofa here is a much smaller problem than shipping it to Saint-Maur. If you are driving across from Britain, check the route is still running: Brittany Ferries closes Portsmouth to Le Havre in October 2026, leaving Portsmouth to Caen and Newhaven to Dieppe as the nearest alternatives.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €950: a deposit of one month excluding charges, around €900; the first month's rent; agency fees at the legal ceiling, about €680 for a 45 square metre flat including the inventory under the 2026 figures. The move itself runs €400 to €900 for a studio from within the region and €1,000 to €2,400 for a three-room from the provinces. A full arrival for a couple renting: €2,800 to €4,800. The standing lines: a Navigo monthly pass at €90.80 since 1 January 2026, one price for the whole region rather than the zone bands people still quote, of which your employer must reimburse half. Many arrivals give up a car within six months here, because the metro is genuinely usable and the emissions zone makes running an older vehicle a losing proposition. The line to provision for is the building. Unrenovated 1970s blocks commonly carry energy ratings of E or F, and several estates are part-way through insulation, facade and lift programmes. Those reach a tenant through the service charges, so ask what the charges have done over the last three years, not just what they are now.",
+      },
+      {
+        heading: "The traps specific to Créteil",
+        body: "Four. One: underestimating the ageing of a town built all at once. The large 1970s estates are carrying heavy renovation programmes, and the three most recent sets of building meeting minutes will tell you which ones and roughly what they cost. Read them; they are the single most useful document here. Two: choosing upper or lower Mont-Mesly on price without walking it at the hours you would actually live there. Parts are in the national urban policy programme, renewal work is under way, and the reading changes street by street. Three: assuming the lake is at the bottom of the garden. The water is ringed by 1970s blocks but pedestrian access runs from the north and east, so a lake view does not reliably mean a short walk to the shore. Check the geometry on a map before you sign for the view. Four: treating Créteil Soleil as merely convenient. It is a regional-scale shopping centre, and its Saturdays are a genuine factor in where you choose to live within the commune, not just in when you move.",
+      },
+    ],
+    relatedCities: ["creteil", "vitry-sur-seine", "saint-maur-des-fosses", "paris"],
+    tags: [
+      "moving to france",
+      "creteil",
+      "relocation",
+      "ile-de-france",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-vitry-sur-seine-2026",
+    title: "Moving to Vitry-sur-Seine in 2026: street art and a building site",
+    metaTitle: "Moving to Vitry-sur-Seine 2026 — Rents, Costs",
+    metaDesc:
+      "Moving to Vitry-sur-Seine: France's street-art capital, a major contemporary art museum, two metro stations due in 2027, and what the arrival actually costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 9,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Vitry-sur-Seine is the largest commune in this series, with 95,282 residents at the 2022 census, and the one with the clearest identity: since the early 2000s it has become the densest concentration of large-scale street art in France, and it holds MAC VAL, one of the most substantial public collections of contemporary art anywhere in the country outside central Paris. A two-room flat averages €980 and flats sell around €4,500 per square metre. The counterweight is that a large part of the commune, the Ardoines district by the river, is a construction site and will remain one for years. This guide covers the lease, the district, moving day, the paperwork and the local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: about €680 for a studio or one-bedroom, €980 for a two-room flat, €1,300 for a three-room. Two legal points, and the first is a common misconception. There is no rent cap in Vitry. The encadrement des loyers applies in Paris and in eighteen communes of Seine-Saint-Denis, the nine that make up Plaine Commune and the nine of Est Ensemble; the Val-de-Marne has none, so nothing caps what a landlord here may ask. Second, agency fees were raised on 1 January 2026, the first change since the 2014 decree: €12.10 per square metre in the tightest band, covering the Paris agglomeration, plus €3.03 per square metre for the inventory, both on habitable floor area, and applying only to leases signed from January 2026. Institutional landlords in the new districts tend to apply the ceilings exactly; smaller agencies are where the arithmetic occasionally needs checking. Either way the calculation is yours to do. The zone tendue classification under the 2013 decree does apply, which is a different mechanism and a helpful one: your notice to leave drops to one month and the deposit cannot exceed one month excluding charges. Pressure sits on renovated flats near the RER C station, near the line 7 terminus at Villejuif-Louis-Aragon just over the boundary, and on the new blocks in the Ardoines. That last point is worth something concrete to a tenant: the Ardoines deliver new housing in waves, and new construction in France carries energy ratings of B or C, which removes the heating gamble that dominates the rest of this series. If your priority is a predictable winter bill rather than character, this is where to look.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Identity, three payslips, the latest French tax notice, previous rent receipts: the standard file, and you will have none of it. Visale, the free guarantee from Action Logement, replaces a French guarantor and is worth obtaining before you view anything; a signed French contract with an employer's letter works too. One feature of Vitry is worth planning around. Much of the new stock in the redeveloped eastern district is let by institutional landlords rather than private individuals, and that cuts both ways for a foreign applicant: the process is procedural rather than personal, so a Visale certificate carries real weight and a good conversation carries none. Assemble the file as a single PDF and expect it to be assessed against criteria rather than impressions. No money before a genuine viewing, and read the energy rating and the flood-risk statement in the flat rather than afterwards.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. The town centre around the mairie, the market square and the RER C station: central, shops and cafes, the highest local prices and still modest by Paris-region standards. The Ardoines in the east, between the river and the railway, the district being rebuilt from scratch: recent blocks, good energy ratings, younger professionals, prices rising, and a long bet. Port-a-l'Anglais on the river in the north, near MAC VAL: relaxed, central, the most obviously pleasant part of the commune. Le Fort in the south-west for floor area per euro, in renovated 1960s and 1970s blocks with the T9 tram at the door. Belleville-de-Vitry on the western slope, about 90 metres up: cooler in summer, a view, quieter, families. Singles also look at Ivry-sur-Seine to the north and Choisy-le-Roi to the south. The classic error is signing in the Ardoines while imagining the district as it will be in five years rather than as it is on the day you move in.",
+      },
+      {
+        heading: "Moving day: the river, the tram and a permanent worksite",
+        body: "Three particularities. One: the Ardoines is a continuous construction zone and will be until around 2030, between the metro station, the urban project and the riverside development, so roads close at short notice and you should check the week before rather than the month before. Two: the T9 tram, which opened in 2020 and runs down the main north-south road towards Orly, shares the carriageway, so do not plan to park a lorry in a tram lane. Three: the low parcels along the Seine, in Port-a-l'Anglais and the riverside edge of the Ardoines, are in the flood-risk plan, which affects insurance and obligations and is disclosed on the lease. Ask the city for an autorisation d'occupation temporaire, the kerb permit, one to two weeks ahead, which is not optional in the centre. The low-emission zone bars Crit'Air 3 and worse inside the A86, with enforcement informative through 2026 and fines not expected before 2027. Best slot: Saturday morning or a weekday before 10am, avoiding the Sunday market.",
+      },
+      {
+        heading: "Two metro stations, and the date that keeps moving",
+        body: "Vitry gets two Grand Paris Express stations, which is more than any other commune in this series: Mairie de Vitry-sur-Seine and Les Ardoines, both on Line 15 South. This is the single largest transport change coming to the commune, and it is also the claim most often repeated with the wrong date. It did not open in 2025 and it is not opening in 2026. On 25 June 2026 the opening was moved to autumn 2027, after an earlier commitment to April 2027, because of the pace of installing the automation system in the tunnels and of fitting out the sixteen stations. Trains began dynamic testing in November 2025. In the meantime, the honest options are the RER C from the town centre, the line 7 terminus at Villejuif-Louis-Aragon on the western boundary, and the T9 tram. Measure the one you would actually use at 8am, because the difference between them is larger than a map suggests.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Bringing personal effects in from outside the EU is duty free under transfer-of-residence relief, subject to twelve months of residence outside the EU, goods owned for more than six months and a declaration on form cerfa 10070. Prepare it in advance. If you are landing in one of the new blocks in the eastern district, ask the managing agent whether the building has a dedicated moving slot and a goods lift, because the recent developments here almost always do, and booking it removes most of the difficulty. In the older stock, measure the stairwell and the window openings at the viewing instead. For a self-drive move from Britain, the crossing map is being redrawn: Brittany Ferries closes Portsmouth to Le Havre in October 2026, so check that the sailing you intend to use still exists on your dates rather than booking from last year's information.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €980: a deposit of one month excluding charges, around €920; the first month's rent; agency fees at the legal ceiling, about €680 for a 45 square metre flat including the inventory under the 2026 figures. The move itself runs €400 to €900 for a studio from within the region and €1,000 to €2,400 for a three-room from the provinces. A full arrival for a couple renting: €2,800 to €4,800. The standing lines: the Navigo monthly travel pass, €90.80 since 1 January 2026 at a single all-zones price, half of it reimbursed by your employer as a legal obligation. Many arrivals drop the car within six months, because the combination of RER, metro and tram covers most trips and the emissions zone penalises an older vehicle. The provision to make is for the older stock: unrenovated 1960s and 1970s blocks carry energy ratings of E or F, and several have insulation and lift programmes running, which reach a tenant through the service charges. In the new Ardoines blocks that provision is close to zero, which is a large part of their appeal.",
+      },
+      {
+        heading: "The traps specific to Vitry",
+        body: "Four. One: signing in the Ardoines on the promise of the station. Autumn 2027 is the current date and it has moved more than once, and the shops, schools and associations that make a district work follow the trains by years rather than months. Two: ignoring the flood-risk plan by the river. Some addresses are in the red zone; the statement is attached to the lease, and georisques.gouv.fr is the check you can run yourself. Three: judging the Fort, Balzac or Robespierre areas from reputation rather than from two walks at two different hours, since parts of the commune are in the national urban policy programme and the reading changes street by street. Four: taking a 1960s or 1970s flat without reading the last three years of building meeting minutes, where the scheduled works and the trajectory of the charges are written down. Do that, and Vitry is the most distinctive place to live in this series and among the cheapest; skip it, and the charges will make the point for you.",
+      },
+    ],
+    relatedCities: ["vitry-sur-seine", "creteil", "paris"],
+    tags: [
+      "moving to france",
+      "vitry-sur-seine",
+      "relocation",
+      "ile-de-france",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-colombes-2026",
+    title: "Moving to Colombes in 2026: the Chariots of Fire stadium, and a long wait",
+    metaTitle: "Moving to Colombes 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Colombes: ten minutes from La Défense by tram, the 1924 Olympic stadium, and the Grand Paris metro that arrives in 2031 rather than next year.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 9,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "British readers have already seen Colombes without knowing it. The Stade Yves-du-Manoir was the main stadium of the 1924 Paris Olympics, the Games of Harold Abrahams and Eric Liddell that Chariots of Fire retells, and in 2024 it became the only venue in France to host the Olympics a second time, for the hockey. The commune around it is a large, mixed, working suburb of 90,692 people, ten minutes from La Défense on the tram, where a two-room flat averages €980 against €1,250 in Courbevoie next door. That gap is the subject of this guide, along with the reason it will not close as quickly as people assume.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: about €680 for a studio or one-bedroom, €980 for a two-room flat, €1,300 for a three-room, with flats selling around €4,600 per square metre. Two legal points that decide what you actually pay. There is no rent cap in Colombes, despite what a lot of relocation advice implies about the Paris suburbs: the encadrement des loyers covers Paris and eighteen communes of Seine-Saint-Denis, the nine of Plaine Commune and the nine of Est Ensemble, and no commune in the Hauts-de-Seine. The listed rent is the rent. Second, the ceiling on agency fees rose on 1 January 2026, the first change in twelve years, to €12.10 per square metre in the tightest band, which is where the Paris agglomeration sits, plus €3.03 per square metre for the inventory. Both are per square metre of habitable floor area rather than a percentage of the rent, they bind only on leases signed from January 2026, and an agency charging above them is exposed to a fine. Zone tendue status under the 2013 decree does apply here. It is not a rent ceiling but it is worth having: one month's notice to leave rather than three, and a deposit limited to one month excluding charges. Demand concentrates on renovated flats near the two Transilien J stations and near the tram. The rhythm is set by La Défense rather than by students: transfers into the business district tighten September and January, and May to July is the quiet stretch. Several social landlords also run intermediate schemes here, which are worth asking about if your employer has a housing contact.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected file is identity, three payslips, the last French tax notice and previous rent receipts, and an arrival from abroad has none of them. Visale, the free Action Logement guarantee, replaces a French guarantor and is the single most useful document to arrive with; a signed French contract with an employer's letter does the same. There is a useful local fact here: so many applicants are corporate transfers into La Défense that landlords read employer letters fluently, and one from a recognisable company does a great deal of work. If your employer has a relocation contact, ask for a letter naming the post, the salary in euros and the contract type before you begin viewing. And the standing rule: no money before you have seen the actual flat, whatever urgency you are told about, because the advance-fee scam targets people who are still abroad.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. The town centre around the mairie and the main square: shops, restaurants, administration, a Transilien J station, a real high street and the highest prices in the northern half. Becon-les-Bruyeres in the south-east, straddling the boundary with Courbevoie: reworked 1900 to 1930 buildings and interwar houses, young professionals working in La Défense, and noticeably cheaper than the Courbevoie side of the same street pattern. Petit-Colombes and Charles-de-Gaulle in the north, around the rebuilt Olympic stadium: mixed, much of it renovated. Les Fosses-Jean in the south-west by the Le Stade station: floor area per euro, renovated 1960s to 1980s blocks, the tram nearby. Agent-Sarre in the east: millstone houses and small 1930s blocks, quiet, families, in demand. People also look at Asnieres-sur-Seine and Gennevilliers next door. The usual error is choosing Petit-Colombes on price alone without walking it at two different hours.",
+      },
+      {
+        heading: "Moving day: the arena, the tram and the emissions zone",
+        body: "Three particularities. One: Paris La Défense Arena, a 40,000-seat venue on the far side of the southern boundary, hosts stadium concerts and Racing 92 rugby, and on those evenings the southern approaches, the tram and the parking are all saturated. Check its calendar before you fix a date, and check it again before you sign a lease in the south of the commune, because what is an inconvenience on moving day is a recurring fact of life afterwards. Two: the T2 tram shares the carriageway along the southern avenues, so those are not lorry parking. Three: the low-emission zone bars Crit'Air 3 and worse inside the A86, with enforcement informative through 2026 and fines not expected before 2027, though hire firms apply the sticker rule regardless. Ask the city for an autorisation d'occupation temporaire, the kerb permit, one to two weeks ahead. Best slot: Saturday morning or a weekday before 10am, avoiding market days and event nights.",
+      },
+      {
+        heading: "The metro that is coming in 2031, not in 2027",
+        body: "This is the correction that matters most in Colombes, because the local property pitch leans on it. Becon-les-Bruyeres is a station on Line 15 West of the Grand Paris Express, and Line 15 West is scheduled to open in 2031. Not 2027, not 2028. The western arc is a different and much later project from Line 15 South, which serves the Val-de-Marne communes and which was itself pushed to autumn 2027 in June 2026; conflating the two is the single most common error in what is written about the Paris suburbs, and it is worth a lot of money. Tunnelling on the western section is in progress, with a machine having set off from Nanterre towards Courbevoie at the end of 2025, and the finished line will run eleven stations from Pont de Sevres to Saint-Denis Pleyel. If you are signing a three-year lease in 2026, the metro will not arrive during it, nor during the one after. What you actually have today is the T2 tram to La Défense in about ten minutes and two Transilien J stations into Paris Saint-Lazare, and those are good enough that the 2031 line should be a bonus rather than the reason.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Personal effects from outside the EU clear duty free under transfer-of-residence relief: twelve months of residence outside the EU, goods owned more than six months, declaration on form cerfa 10070, prepared before the lorry arrives. Colombes is one of the easier addresses in this series for a large vehicle, sitting just inside the A86 with major motorway interchanges close by, provided you have avoided an event evening at the arena. If you are driving your own van from Britain, check the crossing before you book: Brittany Ferries closes Portsmouth to Le Havre in October 2026, leaving Portsmouth to Caen as the nearest Normandy link and Newhaven to Dieppe as the shortest. One measurement taken at the viewing, of the stairwell, the lift car and the window openings, decides whether the quote includes a furniture lift.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €980: a deposit of one month excluding charges, around €920; the first month's rent; agency fees at the legal ceiling, about €755 for a 50 square metre flat including the inventory under the 2026 figures. The move itself runs €500 to €900 for a studio from within the region and €1,200 to €2,800 for a three-room from the provinces. A full arrival for a couple renting: €3,200 to €5,200. The standing lines: a Navigo monthly pass, €90.80 since 1 January 2026, sold at one all-zones price and reimbursed by your employer to the tune of half. Many arrivals give up a car within six months, since the tram and the two stations cover the usual trips. Provision for heating if you take an unrenovated 1960s or 1970s flat, where ratings of E and F are common, and for building works, since several addresses in the south are running energy renovation programmes that reach a tenant through the service charges.",
+      },
+      {
+        heading: "The traps specific to Colombes",
+        body: "Four. One: underestimating the arena. Forty thousand people arriving for a concert is not a background detail if you live in the south of the commune, and it happens often enough to matter. Two: judging Petit-Colombes or Charles-de-Gaulle from reputation rather than from two walks at two different hours, since parts of the commune are in the national urban policy programme and the reading changes street by street. Three: paying a premium at Becon-les-Bruyeres for a metro arriving in 2031. Pay for the Transilien and the tram, which exist, and let the metro be a windfall. Four: taking a 1960s or 1970s flat without reading the last three years of building meeting minutes, which is where the scheduled insulation, facade and lift works are recorded. Done properly, Colombes is the best-value address within ten minutes of La Défense, and the stadium at the end of the road is a better story than anything in the estate agent's window.",
+      },
+    ],
+    relatedCities: ["colombes", "asnieres-sur-seine", "courbevoie", "nanterre"],
+    tags: [
+      "moving to france",
+      "colombes",
+      "relocation",
+      "ile-de-france",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-asnieres-sur-seine-2026",
+    title: "Moving to Asnières-sur-Seine in 2026: eight minutes from Saint-Lazare",
+    metaTitle: "Moving to Asnieres-sur-Seine 2026 — Rents, Costs",
+    metaDesc:
+      "Moving to Asnières-sur-Seine: eight minutes to Paris Saint-Lazare, the summer Van Gogh painted here, a sharp north-south divide, and what arriving costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 9,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Asnières-sur-Seine is eight minutes from Paris Saint-Lazare by suburban train, the shortest run into central Paris of the eight communes in this series, and the reason a two-room flat costs €1,150 here against €980 in Colombes next door. It is also where Van Gogh spent the summer of 1887, painting the riverbank alongside Paul Signac and Emile Bernard in the months that turned his palette from Dutch brown to the colour everyone now recognises. The commune of 91,457 people is sharply divided between a prosperous southern half by the river and a historically industrial north-west, and reading that divide correctly is most of the work of choosing where to live. This guide covers the lease, the district, moving day, the paperwork and the local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: about €850 for a studio or one-bedroom, €1,150 for a two-room flat, €1,550 for a three-room, with flats selling around €6,200 per square metre. Two legal points, and in a market this fast they are easy to skip. There is no rent cap in Asnières. The encadrement des loyers runs in Paris and in eighteen communes of Seine-Saint-Denis, the nine of Plaine Commune and the nine of Est Ensemble, and in no commune of the Hauts-de-Seine, so nothing limits the asking rent. Second, agency fees changed on 1 January 2026 after twelve years frozen: €12.10 per square metre in the tightest band, which covers the Paris agglomeration, plus €3.03 per square metre for the inventory, both on habitable floor area, binding on leases signed from January 2026. When a flat is being decided in a day, the temptation is to sign whatever is put in front of you; do the two multiplications anyway, because charging above the ceiling exposes the agency to a fine and you are entitled to the correct figure. The commune is however zone tendue under the 2013 decree, which shortens your notice to quit to one month and holds the deposit to one month excluding charges. Pressure is heaviest on renovated flats near the station and on the newer riverside blocks. The studio market aimed at young professionals is the fastest-moving thing in this series: a correctly priced one collects a full set of applications within a day of going online, which means the file has to be complete and in PDF before you start looking, not after you find something. September and January tighten; May to July is calmer.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Identity, three payslips, the latest French tax notice, previous receipts: the file you cannot produce from abroad. Visale, the free Action Logement guarantee, stands in for a French guarantor, and a signed French contract with an employer's letter is the alternative. The advice here is unusually specific because the market is unusually fast. Small flats in Asnières collect a full set of applications within a day of appearing online, so the file must be assembled as a single PDF, with the Visale certificate already obtained, before your first viewing rather than after it. A complete application arriving the same day beats a better-paid one arriving three days later, and that is the whole game in this commune. The one thing speed must not cost you: no money before a real viewing of the actual flat, and a look at the energy rating while you are in it.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. The centre around the mairie and the market: shops, cafes, the station at the door, and the highest prices in the northern half. The riverside in the south, along the quays: 1930s stone buildings and newer blocks with a water view, prosperous, in demand, expensive. Becon-les-Bruyeres in the south-east, straddling the Courbevoie boundary: reworked 1900 to 1930 buildings and interwar houses, young professionals in La Défense, cheaper than the Courbevoie side. Les Gresillons in the north-west, by the metro 13 station and the T1 tram: mixed, changing, the best floor area per euro. The Voltaire district in the centre-north: a sound compromise on price and transport, in renovated 1960s to 1980s blocks. People also look at Clichy, Levallois-Perret and Gennevilliers nearby. The classic error is taking a riverside flat for the view without measuring the traffic noise on the quays, which are main roads and busy at both peaks.",
+      },
+      {
+        heading: "Moving day: narrow streets, the railway and the emissions zone",
+        body: "Three particularities. One: the centre and the Voltaire district have narrow streets from the 1900 to 1930 building boom, so a furniture lift is close to standard from the second floor up, at €100 to €300 on the quote, and an autorisation d'occupation temporaire, the kerb permit, must be requested from the city one to two weeks ahead. It is not optional in the central grid. Two: the northern edge of the commune is railway land, a large marshalling yard, which constrains the road pattern and is worth understanding before you assume a route. Three: the low-emission zone bars Crit'Air 3 and worse inside the A86, with enforcement informative through 2026 and fines not expected before 2027, though hire companies apply the rule regardless. The newer riverside blocks have strict moving slots booked through the managing agent a fortnight ahead. Best slot: Saturday morning or a weekday before 10am, avoiding the two markets, which run on different days in the centre and in Les Gresillons.",
+      },
+      {
+        heading: "The summer Van Gogh spent here, and where the pictures went",
+        body: "From May 1887 Van Gogh walked out from Paris to paint at Asnières over three months, often with Signac, who later described him in a zinc worker's blue smock with dots of colour on the sleeves, and with Emile Bernard, whose garden studio was here. It is the campaign in which he took up the broken, unmixed colour of the Neo-Impressionists, and the work from it includes Le Restaurant de la Sirene a Asnieres, Restaurant Rispal at Asnieres and several views of the bridges across the Seine. One honest warning, because it is the same disappointment tourists have at Saint-Remy: none of the paintings stayed. La Sirene is at the Musee d'Orsay, Restaurant Rispal is at the Nelson-Atkins in Kansas City, and the rest are scattered across collections in Chicago, Amsterdam and elsewhere. What is here is the riverbank, the bridges and the light, which is a reasonable thing to have at the end of your street, and it costs nothing. The other local curiosity worth knowing is the pet cemetery on the island, opened in 1899 and among the oldest in Europe.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "From outside the EU, personal effects come in duty free under transfer-of-residence relief: twelve months of residence outside the EU, goods owned for more than six months, and form cerfa 10070, which is worth completing before the lorry turns up. The binding constraint in Asnières is the width of the streets in the central grid, not the distance: warn the shipper that the last leg may need a smaller vehicle, and expect the quote to include a furniture lift if you are above the second floor. Photograph the stairwell at the viewing and send the picture with your request for a quote. For a self-drive move from Britain, check the sailing still runs: Brittany Ferries closes Portsmouth to Le Havre in October 2026, with Portsmouth to Caen and Newhaven to Dieppe the nearest remaining options.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,150: a deposit of one month excluding charges, around €1,080; the first month's rent; agency fees at the legal ceiling, about €755 for a 50 square metre flat including the inventory under the 2026 figures. The move itself runs €500 to €900 for a studio from within the region and €1,200 to €2,800 for a three-room from the provinces. A full arrival for a couple renting: €3,400 to €5,400. The standing lines: the Navigo monthly pass at €90.80 since 1 January 2026, a single all-zones price with the statutory half paid by your employer, so €45.40 in practice. Most arrivals abandon the car within six months, because with a suburban train, a metro line and a tram there is very little a car does better. Provision for heating in unrenovated 1960s and 1970s blocks in the Voltaire and Gresillons areas, where ratings of E and F are common, and for building works reaching you through the service charges.",
+      },
+      {
+        heading: "The traps specific to Asnières",
+        body: "Four. One: taking a riverside flat on the view alone. The quays are main roads carrying heavy peak traffic, and a flat facing them without proper glazing is loud in a way that photographs do not convey. Open the window at the viewing and stand there for a minute. Two: judging Les Gresillons or the northern Voltaire area from reputation rather than from two walks at two different hours, because the social contrast between the prosperous south and the industrial north-west is real and does not follow a tidy line. Three: paying a premium at Becon-les-Bruyeres for the Grand Paris metro. That is Line 15 West and it opens in 2031, not in 2027 or 2028 as much of the local material still says. Four: assuming you can pick a school in the centre. The central catchment is oversubscribed and exemptions are hard to get, so if you have school-age children, confirm the allocation for the exact street before you sign. The Saint-Lazare commute is genuinely the best in this series, and it is enough of a reason on its own.",
+      },
+    ],
+    relatedCities: ["asnieres-sur-seine", "colombes", "courbevoie", "levallois-perret"],
+    tags: [
+      "moving to france",
+      "asnieres-sur-seine",
+      "relocation",
+      "ile-de-france",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-courbevoie-2026",
+    title: "Moving to Courbevoie in 2026: living at the foot of La Défense",
+    metaTitle: "Moving to Courbevoie 2026 — Rents, Charges, Costs",
+    metaDesc:
+      "Moving to Courbevoie: three districts with nothing in common, the service charges that are not in the advertised rent, and what arriving at La Défense costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 9,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "If you are being posted to La Défense, there is a good chance a relocation agent will put you in Courbevoie: the business district spills over the commune boundary, the RER A is at the edge of it, and a two-room flat averages €1,250 against €1,800 in Paris proper. At €1,250 for a two-room flat it is the dearest of the eight communes in this series on rent, just above Saint-Maur-des-Fossés at €1,240, and it is the one where the advertised rent is least likely to be what you actually pay, because the corporate blocks carry service charges that are quoted separately and are not small. Courbevoie has 81,945 residents and three districts with almost nothing in common. This guide covers the lease, the district, moving day, the paperwork and the local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: about €820 for a studio or one-bedroom, €1,250 for a two-room flat, €1,750 for a three-room, with flats selling around €6,200 per square metre. Two legal points, and then a third in its own section below, because in Courbevoie the rent is only part of the cost. There is no rent cap here: the encadrement des loyers applies in Paris and in eighteen communes of Seine-Saint-Denis, the nine of Plaine Commune and the nine of Est Ensemble, and nowhere in the Hauts-de-Seine, so nothing restrains what the corporate lettings ask. Second, agency fees rose on 1 January 2026, the first change since the 2014 decree, to €12.10 per square metre in the tightest band, which is where the Paris agglomeration sits, plus €3.03 per square metre for the inventory, both on habitable floor area and binding on leases signed from January 2026. Furnished corporate lettings sometimes sit outside the ordinary fee structure altogether, so ask what you are being charged for and under which regime. Zone tendue status under the 2013 decree does apply, giving you one month's notice to leave instead of three and a deposit capped at one month excluding charges. Demand is heaviest on renovated flats near the RER A and the Transilien L, and on the newer blocks in the Faubourg-de-l'Arche, which are marketed to international transfers and are often let furnished on long leases at a premium above ordinary market rents. Expect an exhaustive dossier and an employer reference as standard. There are few students and many corporate transfers, so the tight months are September and January and the calm ones May to July and late in the year.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected file is identity, three payslips, the latest French tax notice and previous rent receipts, none of which an arrival from abroad can supply. Visale, the free Action Logement guarantee, replaces a French guarantor; a signed French contract with an employer's letter is the alternative. This is the market in the series where the employer's letter does the most work, because the landlords deal with international transfers constantly and know exactly what one looks like. If your company uses a relocation agency, let them make the approach. If not, a letter on headed paper giving the post, the salary in euros, the contract type and the start date is the nearest equivalent. One question to ask in writing before you commit, and it is specific to this commune: what are the monthly service charges. The section below explains why that matters more here than the rent does.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings, and the differences between them are larger than in any other commune here. The historic centre around the mairie and the Charras district: shops, cafes, restaurants, a Transilien L station and the only real high-street life in the commune. The Faubourg-de-l'Arche, an extension of La Défense built between 1990 and 2010: recent blocks with energy ratings of B or C, international transfers, the highest prices, and an openly corporate atmosphere with little in the way of neighbourhood life. Becon-les-Bruyeres in the south, straddling the Asnieres boundary: reworked 1900 to 1930 buildings and interwar houses, a more genuine urban fabric, cheaper than the Faubourg. The Gambetta district in the centre-east: floor area per euro, renovated 1960s to 1980s blocks, tram and buses to La Défense. Place de Belgique in the north-west: 1930s houses and small blocks, families, quiet, less central. People also look at Puteaux, Neuilly-sur-Seine and La Garenne-Colombes.",
+      },
+      {
+        heading: "Moving day: the business district, the tram and the permit",
+        body: "Three particularities. One: La Défense is next door, which means the main roads are congested between 7.30am and 9.30am and between 5.30pm and 7.30pm on weekdays. Book a Saturday morning if you possibly can. Two: the T2 tram shares the carriageway along the southern avenue, so that is not somewhere to leave a lorry. Three: the newer blocks in the Faubourg-de-l'Arche have the strictest moving rules in this series, with slots booked through the managing agent up to three weeks ahead and some buildings mandating a Saturday. Ask about it at the viewing, not the week before. An autorisation d'occupation temporaire, the kerb permit, is needed from the city one to two weeks ahead, and is not optional in the narrow streets of the old centre around Charras. The low-emission zone bars Crit'Air 3 and worse inside the A86, with enforcement informative through 2026 and fines not expected before 2027.",
+      },
+      {
+        heading: "Service charges, and why the advertised rent misleads here",
+        body: "This is the section that will save you the most money, and it applies to Courbevoie more than anywhere else in the series. The serviced blocks in the Faubourg-de-l'Arche carry building charges of roughly €3 to €6 per square metre per month, covering concierge cover, multiple lifts and premium common parts. On a 50 square metre two-room flat that is €150 to €300 a month on top of the rent, or up to €3,600 a year, and it is not in the headline figure on the listing. A flat advertised at €1,350 in the Faubourg can therefore cost more in practice than one advertised at €1,550 in the old centre, where the charges on a 1930s building are a fraction of that. Ask for the provision for charges in writing before you sign, ask what it did over the last three years, and compare flats on rent plus charges rather than on rent. The second half of the same point: the Faubourg is quiet at weekends in a way that surprises people, because it was built around offices. Walk it on a Saturday evening before deciding it is the convenient option.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Personal effects from outside the EU are duty free under transfer-of-residence relief, on the usual three conditions: twelve months of residence outside the EU, goods owned more than six months, and a declaration on form cerfa 10070. Two local notes matter more than the paperwork. The newer blocks in the business-district extension generally have goods lifts and loading bays, which makes them the easiest delivery addresses in this series provided the slot is booked, sometimes three weeks ahead. The old centre is the hardest, with narrow streets and no such provision. Tell the shipper which of the two you are going to. If you are driving across, Brittany Ferries closes Portsmouth to Le Havre in October 2026, so confirm your crossing rather than booking from an old guide.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,250: a deposit of one month excluding charges, around €1,180; the first month's rent; agency fees at the legal ceiling, about €755 for a 50 square metre flat including the inventory under the 2026 figures. The move itself runs €500 to €900 for a studio from within the region and €1,200 to €2,800 for a three-room from the provinces. A full arrival for a couple renting: €3,800 to €6,000, the highest in this series. The standing lines: a Navigo monthly pass at €90.80 since 1 January 2026, one all-zones price, half of it reimbursed by the employer, so €45.40 net. Almost everyone gives up the car here within six months, because the RER A, the Transilien L and the tram cover everything and parking is expensive. Then the charges discussed above, which in the Faubourg are the largest single variable in your housing cost, and heating in the unrenovated 1960s to 1980s stock around Gambetta and Belgique, where ratings of E and F are common.",
+      },
+      {
+        heading: "The traps specific to Courbevoie",
+        body: "Four. One: comparing flats on rent alone. In the Faubourg-de-l'Arche the service charges can move the real cost by €300 a month, and they are disclosed only if you ask. Two: expecting neighbourhood life in the Faubourg. It is a residential extension of an office district, thin on independent shops and quiet at weekends, and the social life happens in the shopping centres of La Défense rather than at your door. Three: signing at Becon-les-Bruyeres for the Grand Paris metro. That station is on Line 15 West, which opens in 2031; the 2027 and 2028 dates in circulation belong to Line 15 South on the other side of Paris, and the two are routinely confused. Four: assuming the old centre around Charras will feel like Paris. It is more animated than the Faubourg and has a real market, but it is a modest high street rather than a city quarter, and people who arrive expecting the latter are disappointed by the former. Choose which of the three Courbevoies you actually want, because they are not interchangeable.",
+      },
+    ],
+    relatedCities: ["courbevoie", "asnieres-sur-seine", "colombes", "nanterre", "puteaux"],
+    tags: [
+      "moving to france",
+      "courbevoie",
+      "relocation",
+      "ile-de-france",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-rueil-malmaison-2026",
+    title: "Moving to Rueil-Malmaison in 2026: Joséphine's house and a very large commune",
+    metaTitle: "Moving to Rueil-Malmaison 2026 — Rents, Costs",
+    metaDesc:
+      "Moving to Rueil-Malmaison: the best-rated commune in this series, ten minutes from La Défense, 14.7 km² that you must read district by district.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 9,
+    publishedAt: "2026-09-16",
+    updatedAt: "2026-09-16",
+    intro:
+      "Rueil-Malmaison is the best-rated commune in this series on our own scoring, and the one an anglophone reader is most likely to have heard of, because the Château de Malmaison was Joséphine's house. Napoleon's first wife bought it in 1799, kept it after the divorce and died there in 1814, and it is now a national museum at the edge of a commune of 80,842 people. A two-room flat averages €1,150 and flats sell around €5,400 per square metre, which is twenty to thirty per cent below Neuilly or Boulogne for a comparable ten-minute run into La Défense on the RER A. The complication is size: at 14.7 km² this is the largest commune in the Hauts-de-Seine, and the districts are not interchangeable. This guide covers the lease, the district, moving day, the paperwork and the local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: about €780 for a studio or one-bedroom, €1,150 for a two-room flat, €1,600 for a three-room. Two legal points before you look at a listing. There is no rent cap in Rueil. The encadrement des loyers covers Paris and eighteen communes of Seine-Saint-Denis, the nine of Plaine Commune and the nine of Est Ensemble, and no commune of the Hauts-de-Seine, so the asking rent stands on its own. Second, the ceiling on agency fees moved on 1 January 2026, the first change since 2014: €12.10 per square metre in the tightest band, which includes the Paris agglomeration, plus €3.03 per square metre for the inventory, both calculated on habitable floor area, and applying only to leases signed from January 2026. The fee therefore scales with the size of the flat, which in a commune of large family properties is worth working out in advance rather than discovering at signature. The zone tendue classification under the 2013 decree does apply, and it is the one rule working in a tenant's favour here: one month's notice to leave, and a deposit of no more than one month excluding charges. Pressure sits on renovated flats near the RER A station, on the newer blocks in the business district and on studios, since several higher education institutions in and around the commune bring a student intake each September. Turnover on family properties is low, because people who get in here tend to stay, and the better ones are signed quickly. September, October and January are the tight months; May to July is the window worth aiming for if you have any choice in the matter.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Identity, three payslips, the latest French tax notice and previous rent receipts make up the expected file, and you will arrive with none of it. Visale, the free Action Logement guarantee, replaces a French guarantor and should be obtained before you start viewing; a signed French contract with an employer's letter serves the same purpose. Employer references are routinely asked for on the business-district properties, and the family market is competitive enough that a foreign file needs one of the two to be taken seriously at all. One approach that works in a commune this large: take a smaller flat near the station for a first year, then move within Rueil once you have French payslips and have worked out which of its very different districts you actually want. No money before a real viewing, and read the energy rating and the risk statement in the flat.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings, and in a commune this size the choice matters more than usual. The historic centre around the mairie, the RER A station and the main avenue: shops, cafes, a market, visible heritage, the highest central prices. The business district in the north-east, built through the 1980s and 1990s around several large corporate headquarters: blocks from that period with ratings of C or D, corporate tenants, good value for the RER A access, and an openly functional atmosphere. The riverside and the island in the west: houses and upmarket residential streets, families, quiet, expensive. Buzenval and Le Plateau on the north-western slope, 90 to 140 metres up: 1930s to 1960s houses and townhouses, families, a proper residential suburb. Rueil-Sud by the T2 tram: floor area per euro in 1960s to 1980s blocks, with La Défense five minutes away on the tram. People also look at Suresnes and Nanterre next door. The classic error is signing in the business district expecting neighbourhood life within a year.",
+      },
+      {
+        heading: "Moving day: one commune, several different logistics",
+        body: "The particularity of Rueil is that there is no single answer, because the commune is too big for one. The historic centre has narrow streets from the 1900s, needing a furniture lift and an autorisation d'occupation temporaire, the kerb permit, requested from the city one to two weeks ahead. The business district is easy, laid out in the 1980s with wide boulevards built for lorries. The riverside and the island are the hardest, with narrow lanes and nowhere to leave a large vehicle for long. The T2 tram runs along the southern edge and shares the carriageway. The main road through the commune is heavily congested at both peaks, so avoid 7.30am to 9.30am and 5.30pm to 7.30pm. The low-emission zone bars Crit'Air 3 and worse inside the A86, with enforcement informative through 2026 and fines not expected before 2027, and hire firms apply the sticker rule anyway. Best slot: Saturday morning or Sunday, outside the central market days.",
+      },
+      {
+        heading: "Malmaison, and what is actually on your doorstep",
+        body: "The Château de Malmaison is a national museum and a genuine one, not a municipal display: Joséphine de Beauharnais, born in Martinique and the first wife of Napoleon, bought the estate in April 1799, kept it as her own residence after the divorce of 1809 and died there in May 1814. The house passed to the state through a private donation and opened as a museum in 1905. Next to it, the Bois-Préau park runs to seventeen hectares. This matters practically rather than sentimentally: it is why the western half of the commune is green, why the scores for quality of life and safety come out highest in this series, and why people pay to be here rather than in a cheaper suburb with the same commute. The other thing on the doorstep is the Seine, with the island that the Impressionists painted, and the walking and rowing that go with it. One transport note to keep in proportion: Line 15 West of the Grand Paris Express will serve the commune, and it opens in 2031, so it is not a factor in a lease you sign now.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "Personal effects from outside the EU clear duty free under transfer-of-residence relief: twelve months of residence outside the EU, goods owned more than six months, declared on form cerfa 10070 and better prepared in advance. The single most useful thing you can do here is tell the shipper which district you are going to rather than just the commune, because the answer for the wide 1980s boulevards of the business district and the answer for the narrow riverside lanes are completely different, and a quote written for the wrong one gets revised upwards on the day. If you are driving a van from Britain, check the sailing: Brittany Ferries closes Portsmouth to Le Havre in October 2026, leaving Portsmouth to Caen as the nearest Normandy crossing and Newhaven to Dieppe as the shortest.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,150: a deposit of one month excluding charges, around €1,080; the first month's rent; agency fees at the legal ceiling, about €755 for a 50 square metre flat including the inventory under the 2026 figures. The move itself runs €500 to €900 for a studio from within the region and €1,200 to €2,800 for a three-room from the provinces. A full arrival for a couple renting: €3,300 to €5,300. The standing lines: the Navigo monthly travel pass, €90.80 since 1 January 2026, a single all-zones price of which your employer must refund half. Rueil is one of the few communes in this series where keeping a car is defensible, because the commune is large and spread out and the weekend routes west are genuinely useful, but check the emissions rules before you bring an older vehicle in. Provision for heating in unrenovated 1960s to 1980s blocks in Rueil-Sud and Le Plateau, where ratings of E and F are common, and for renovation programmes running on several of the larger 1970s to 1990s estates.",
+      },
+      {
+        heading: "The traps specific to Rueil-Malmaison",
+        body: "Four. One: underestimating 14.7 km². Crossing from the riverside to Buzenval or Le Plateau is fifteen to twenty-five minutes by bus depending on the hour, so choose the district around your actual anchor point, whether that is the school, the RER A station or the office, and do not assume the commune is small enough for it not to matter. Two: signing in the business district expecting a neighbourhood. It empties at weekends, independent shops are scarce, and what social life there is tends to be organised by the employers. Walk it on a Saturday evening. Three: taking a flat in a 1970s to 1990s estate without reading the last three years of building meeting minutes, since several are running insulation, facade, lift and boiler programmes that reach a tenant through the service charges, and the bills are larger in the big estates than in the small central buildings. Four: ignoring the flood-risk plan by the river, where some addresses are in the red zone. The statement comes with the lease and georisques.gouv.fr is the independent check. Handled with care, Rueil is the most liveable address in this series.",
+      },
+    ],
+    relatedCities: ["rueil-malmaison", "nanterre", "courbevoie", "boulogne-billancourt"],
+    tags: [
+      "moving to france",
+      "rueil-malmaison",
+      "relocation",
+      "ile-de-france",
+      "cost of living",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
