@@ -765,6 +765,87 @@ if (!failed) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Fiches expat retour : un nom de pays ne se compose pas à la main.
+//
+// Défaut trouvé le 2026-09-16. `ExpatCountryProfile` portait deux champs
+// OPTIONNELS — `depuisLabel` et `auLabel` — dont le repli silencieux valait
+// « le » et « Au ». Les six fiches les plus anciennes ne les avaient jamais
+// renseignés, donc trois pages publiaient « Rentrer en France depuis le
+// Suisse », « le Belgique », « le Allemagne » et les en-têtes de tableau
+// assortis ; les quatre fiches en « l' » rendaient « depuis l' Espagne », le
+// JSX insérant une espace que l'élision refuse ; et les 23 `<title>` portaient
+// le nom NU, sans aucun article.
+//
+// Le champ est désormais requis (`article`) et les quatre tournures se
+// dérivent (`lib/country-article.ts`), donc `tsc` arrête la fiche suivante. Ce
+// garde-ci couvre l'autre moitié du défaut, que le typage ne voit pas : une
+// SURFACE qui recompose « depuis » + nom nu, et un compte de pays écrit en dur
+// — la description du hub annonçait « 18 pays » pour 23, et son paragraphe
+// d'intro nommait les 18 mêmes (même dérive que la liste du sitemap).
+{
+  const SURFACES = [
+    "app/expat-retour/page.tsx",
+    "app/expat-retour/[pays]/page.tsx",
+    "components/ExpatQuiz.tsx",
+  ];
+  // Prépositions après lesquelles un nom de pays doit porter son article.
+  const PREPOSITION = /(?:^|[\s>"'`])(?:[Dd]epuis|de|du|des|d')\s*$/;
+  const offences = [];
+
+  // ⚠️ Les commentaires sont retirés avant lecture, numéros de ligne conservés.
+  // Un commentaire qui pose la règle cite forcément la formulation qu'elle
+  // interdit — celui du hub rappelle qu'il annonçait « 18 pays » pour 23, et le
+  // garde s'accusait lui-même au premier lancement (même piège que
+  // `news:selftest`, cf. CLAUDE.md § F64).
+  const stripComments = (src) =>
+    src
+      .replace(/\/\*[\s\S]*?\*\//g, (m) => m.replace(/[^\n]/g, " "))
+      .replace(/(^|[^:])\/\/[^\n]*/g, (m, lead) => lead + " ".repeat(m.length - lead.length));
+
+  for (const rel of SURFACES) {
+    const src = stripComments(readFileSync(path.join(ROOT, rel), "utf8"));
+    src.split("\n").forEach((line, i) => {
+      const where = `${rel}:${i + 1}`;
+      // Les deux champs supprimés ne doivent pas revenir : leur repli est
+      // exactement ce qui a rendu le défaut invisible pendant des mois.
+      if (/\b(?:depuisLabel|auLabel)\b/.test(line)) {
+        offences.push(`${where}  champ à repli silencieux réintroduit`);
+      }
+      // Nom de pays interpolé juste après une préposition.
+      for (const m of line.matchAll(/\$?\{\s*(?:country|c)\.name\s*\}/g)) {
+        if (PREPOSITION.test(line.slice(0, m.index))) {
+          offences.push(`${where}  « ${line.trim().slice(0, 72)} »`);
+        }
+      }
+      // Compte de pays en dur, hors longueur dérivée du tableau.
+      if (/\b\d{1,3}\s+pays\b/.test(line) && !/EXPAT_COUNTRIES\.length/.test(line)) {
+        offences.push(`${where}  compte de pays écrit en dur`);
+      }
+    });
+  }
+
+  if (offences.length === 0) {
+    console.log(
+      `  ok  expat     ${SURFACES.length} surfaces, aucun nom de pays sans article ni compte en dur`,
+    );
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  fiches expat : ${offences.length} composition(s) à la main\n`);
+    for (const o of offences) console.error(`    ${o}`);
+    console.error(
+      "\n    Un nom de pays passe par `lib/country-article.ts` : `countryWithArticle`\n" +
+        "    (« la Suisse », « l'Allemagne », « les États-Unis », « Singapour »),\n" +
+        "    `countryFrom` pour la provenance (« de Suisse », « du Japon », « des\n" +
+        "    États-Unis ») ou `countryInLabel` pour un en-tête (« En », « Au »,\n" +
+        "    « Aux », « À »). Écrire « depuis {country.name} » rend « depuis\n" +
+        "    Mexique » ; concaténer l'article en JSX rend « depuis l' Espagne ».\n" +
+        "    Et un compte de pays se dérive d'`EXPAT_COUNTRIES.length` : celui du\n" +
+        "    hub annonçait 18 pays pour 23 après cinq fiches ajoutées.\n",
+    );
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

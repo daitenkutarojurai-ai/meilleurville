@@ -2227,10 +2227,32 @@ une vérification d'encodage (accents intacts, densité 0,175 par mot contre un 
 aucun `m2` / `EUR` / `deg` ascii, aucun mojibake) et une passe em-dash ramenée de 35 à **10** pour
 4 647 mots (cible R7.10 : ~1 pour 200 mots). `npm run build` **non lancé, volontairement** (cf.
 § Commands depuis le batch 27).
-⚠️ Note de rédaction pour la prochaine fiche : le `<title>` de `app/expat-retour/[pays]/page.tsx`
-n'utilise **pas** `depuisLabel` (« Rentrer en France depuis Mexique »), alors que le H1 et le hub le
-font. C'est un défaut préexistant commun aux 23 fiches, pas une régression de ce run — le corriger
-touche 23 titres et relève d'une passe SEO, pas d'un run de contenu.
+✅ **Le nom de pays ne se compose plus à la main (2026-09-16).** La note qui vivait ici — le
+`<title>` n'utilisait pas `depuisLabel` et rendait « Rentrer en France depuis Mexique » — sous-estimait
+le défaut. `depuisLabel` et `auLabel` étaient **optionnels**, avec un repli `?? "le"` / `?? "Au"` écrit
+dans le JSX, et **six fiches sur 23 ne les avaient jamais portés** : les pages publiaient « depuis
+**le** Suisse », « **le** Belgique », « **le** Allemagne », les en-têtes de tableau assortis, et
+« depuis **l' Espagne** » sur les quatre fiches en `l'` (le JSX insère une espace que l'élision
+refuse). Les 23 `<title>`, `description` et `og:title` portaient par ailleurs le nom **nu**.
+Désormais : champ **requis** `article` (`le` · `la` · `l'` · `les` · `""`), et les quatre tournures
+dérivent de **`lib/country-article.ts`** — `countryWithArticle`, `countryFrom` (provenance),
+`countryInLabel` (en-tête), `listCountriesFrom` (énumération du hub). Trois règles à ne pas défaire :
+① **la dérivation reproduit à l'identique les 17 `auLabel` / `depuisLabel` écrits à la main**, 0 écart
+contrôlé contre `HEAD` — c'est ce qui la valide, pas une intuition ; ② `countryFrom` n'est **pas** une
+contraction mécanique : un féminin **perd** son article (« rentrer **de** Suisse »), un masculin
+consonantique le garde contracté (« **du** Japon »), et `l'` couvre les deux genres exprès
+(« l'Iran » → « d'Iran » → « En Iran ») ; ③ un composant **client** lit `@/lib/country-article`, qui
+n'importe rien, et **jamais** `@/lib/expat-return`, qui les réexporte — importer une fonction en
+valeur depuis la lib tirerait ses 248 Ko dans le bundle (mesuré : +220 o minifiés, +91 o gzip sur le
+quiz, contre les 248 Ko qu'un import direct coûterait). Garde `expat` dans `npm run integrity` :
+3 surfaces, il refuse « depuis {country.name} », un compte de pays en dur et le retour d'un champ à
+repli. Deux dérives de compteur fermées au passage sur le hub, qui annonçait **18 pays** pour 23 et
+nommait les 18 mêmes dans son intro — les deux se dérivent d'`EXPAT_COUNTRIES`.
+⚠️ **Reste ouvert** : les 6 fiches FR ayant une jumelle EN ne déclarent pas de `languages` (leur
+`generateMetadata` ne rend qu'un `canonical`). `hreflang:check` passe parce qu'il contrôle les paires
+**déclarées**, pas les paires **existantes**. La paire a une queue traduite
+(`depuis-suisse` ↔ `from-suisse`), donc elle s'écrit à la main avec `pathAlternates` des deux côtés —
+12 `generateMetadata` conditionnés sur `EN_EXPAT_COUNTRY_SLUGS`, c'est un item à part.
 Avant-dernier ajouté : **Thaïlande** — la
 première fiche dont le fil conducteur n'est ni l'argent ni la fiscalité mais **la santé** : on rentre de
 Thaïlande le plus souvent pour se faire soigner, et c'est exactement là que le dossier est le plus mal
@@ -2347,9 +2369,10 @@ dans `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à câbler.
 ⚠️ La **meta description** de `app/expat-retour/[pays]/page.tsx` dépassait 160 caractères sur **les 20
 fiches d'alors** (jusqu'à 176 pour « Émirats arabes unis ») : la queue générique « Avec villes recommandées
 (frontalières + métropoles). » poussait hors du snippet les postes réellement cherchés. Réécrite,
-138-152 caractères sur les 20, 139 pour la fiche Brésil, 142 pour la Thaïlande et 140 pour le Mexique
-ajoutées depuis — ne
-pas y remettre de queue générique.
+puis **141-156 caractères sur les 23** depuis que l'article du pays y entre (mesure du 2026-09-16 ;
+c'était 138-152 quand la description portait le nom nu) — ne pas y remettre de queue générique. Le
+`<title>` a le même plafond et la même histoire : il montait à 66 pour « Émirats arabes unis », la
+queue « 2026 · Guide pratique » a été ramenée à l'année seule, et il tient **38-53 sur les 23**.
 Ajouté avant lui : **Suède** —
 premier pays nordique de la liste, et le seul dossier du site où **le retour est fiscalement
 neutre** (kommunalskatt à taux plat ~29-35 % + 20 % d'État au-delà d'environ 600-625 k SEK, à peu

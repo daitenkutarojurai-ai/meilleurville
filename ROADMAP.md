@@ -7131,6 +7131,109 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-16
+
+*(Run du matin : `moving-to-[city]-2026` batch 3, cf. § Parité EN → « Livré le 16/09 ».
+Cette entrée-ci est le second run du jour, côté technique.)*
+
+- **Expat retour — un article de pays optionnel, dont le repli silencieux publiait « Rentrer
+  en France depuis le Suisse » depuis l'origine de la verticale.** Le défaut était nommé en
+  une ligne au bas de la § « Expat retour » de `CLAUDE.md` (« relève d'une passe SEO, pas
+  d'un run de contenu ») ; il était plus large que la ligne ne le disait, et il touchait les
+  23 fiches.
+
+  `ExpatCountryProfile` portait **deux champs optionnels**, `depuisLabel` (l'article après
+  « Rentrer en France depuis ») et `auLabel` (l'en-tête de colonne du tableau), avec un repli
+  écrit dans le JSX : `?? "le"` et `?? "Au"`. **Dix-sept fiches les renseignaient, six ne les
+  avaient jamais portés** — et ces six sont les plus anciennes, donc les plus liées, les six
+  mêmes qui ont une jumelle EN. Ce que ça publiait, mesuré en exécutant le module et non en
+  lisant la source :
+
+  | Surface | Fiches touchées | Rendu |
+  |---|---|---|
+  | H1 + carte du hub | 3 | « depuis **le** Suisse », « **le** Belgique », « **le** Allemagne » |
+  | H1 + carte du hub | 4 | « depuis **l' Espagne** » — le JSX insère une espace que l'élision refuse (`{article} {name}`), idem Italie, Australie, Irlande |
+  | En-tête du tableau | 3 | « **Au** Suisse », « **Au** Belgique », « **Au** Allemagne » |
+  | `<title>` | **23** | le nom **nu** : « Rentrer en France depuis Mexique », « depuis États-Unis » |
+  | `description` | **23** | même nom nu |
+  | `og:title` | **23** | « Rentrer **de** Japon » pour « du Japon », « **de** États-Unis » pour « des » |
+  | Quiz (2 endroits) | **23** | « depuis 🇲🇽 Mexique », « Guide complet retour depuis Mexique » |
+
+  **Le correctif est de supprimer le repli, pas de remplir les six trous.** Nouveau module
+  **`lib/country-article.ts`**, qui n'importe rien : l'article (`le` · `la` · `l'` · `les` ·
+  `""`) devient le champ **requis** `article`, et les quatre tournures en dérivent —
+  `countryWithArticle` (« la Suisse », « l'Allemagne », « les États-Unis », « Singapour »),
+  `countryFrom` pour la provenance, `countryInLabel` pour l'en-tête, `listCountriesFrom`
+  pour l'énumération du hub. Requis, le champ fait échouer `tsc` sur la 24ᵉ fiche ; optionnel
+  à repli, il la laissait passer avec un article faux et sans bruit.
+
+  ⚠️ **La dérivation n'est pas une intuition de rédaction : elle reproduit à l'identique les
+  17 `auLabel` et les 17 `depuisLabel` écrits à la main avant ce run — 0 écart, contrôlé
+  programmatiquement contre `HEAD`.** Elle ne fait qu'ajouter les 6 qui manquaient. C'est ce
+  qui la valide, et c'est le seul contrôle qui pouvait la valider.
+
+  ⚠️ **`countryFrom` n'est pas une contraction mécanique de l'article.** La règle française
+  de la provenance fait **perdre son article à un nom féminin** (« rentrer **de** Suisse »,
+  comme « de France ») là où un masculin à initiale consonantique le garde contracté
+  (« **du** Japon ») : `le → du`, `la → de`, `l' → d'`, `les → des`, `"" → de`. Et `l'`
+  couvre les deux genres, volontairement — un masculin à initiale vocalique se comporte comme
+  un féminin sur les trois formes (« l'Iran », « d'Iran », « En Iran »). Ne pas lui ouvrir un
+  cinquième cas.
+
+  **Deux dérives de compteur fermées au passage, sur le hub.** Sa `description` annonçait
+  « **18 pays d'origine** » quand la lib en porte **23**, et son paragraphe d'intro nommait
+  les **18 mêmes** : Suède, Chine, Brésil, Thaïlande et Mexique ont été ajoutées sans que
+  personne ne revienne ici. Les deux se dérivent désormais d'`EXPAT_COUNTRIES` — même
+  correctif que la liste du sitemap, dérivée après avoir dérivé (§ Expat retour de
+  `CLAUDE.md`).
+
+  **Longueurs, mesurées après coup.** Les `<title>` passaient de 52 à 66 caractères, « Émirats
+  arabes unis » dépassant les ~60 que Google rend ; la queue « 2026 · Guide pratique » est
+  ramenée à l'année seule, ce qui donne **38-53 sur les 23**, la plus longue tenant à 53
+  article compris. `description` **141-156** (≤ 160), hub 147.
+
+  ⚠️ **Le quiz est un composant client, donc les helpers viennent de `@/lib/country-article`
+  et jamais de `@/lib/expat-return`, qui les réexporte.** `lib/expat-return.ts` fait 248 Ko de
+  prose pays, et un tableau de littéraux n'est pas tree-shakable : importer une fonction **en
+  valeur** depuis la lib expédierait tout le corpus au navigateur, ce que la projection
+  `EXPAT_COUNTRY_OPTIONS` existe précisément pour éviter (précédent `lib/rankings-meta.ts`).
+  Mesuré à l'esbuild, mêmes externals des deux côtés : **88 484 → 88 704 o minifiés, 22 510 →
+  22 601 o gzip**, soit **+220 / +91 octets** — les deux fonctions et les 23 articles, pas le
+  corpus. (La mesure d'avant reproduit au bit près le 88 484 consigné dans `CLAUDE.md` le
+  27/08, ce qui valide la méthode.)
+
+  **Garde ajouté à `npm run integrity` : `expat`, 3 surfaces.** Le typage couvre la moitié du
+  défaut (un champ requis ne se laisse pas oublier) ; le garde couvre l'autre, qu'il ne voit
+  pas — une **surface** qui recompose « depuis » + nom nu, un compte de pays écrit en dur, ou
+  la réintroduction d'un champ à repli silencieux. ⚠️ **Il lit les fichiers commentaires
+  retirés** : le commentaire qui pose la règle cite forcément la formulation qu'elle interdit,
+  et le garde s'est accusé lui-même au premier lancement sur le « 18 pays » de son propre
+  avertissement (même piège que `news:selftest`, § F64). Vérifié **en le faisant échouer** :
+  les trois formes d'infraction réintroduites une à une sont bien remontées, puis annulées.
+
+  ⚠️ **Aucun caractère de la prose des 23 fiches n'est touché** : le diff de
+  `lib/expat-return.ts` ne porte que 57 lignes de champ (23 `article` ajoutés, 17
+  `depuisLabel` et 17 `auLabel` retirés), le type et l'en-tête. Côté EN, rien à faire — les 6
+  fiches anglaises passent par `EN_COUNTRY_NAME`, où « the United States » est déjà écrit, et
+  l'anglais ne demande pas d'article aux autres.
+
+  Contrôles : `npx tsc --noEmit` **propre**, `npm run integrity` (nouveau garde compris),
+  `npm run sitemap:check` (FR **29 239** URL, EN **28 833** — inchangés, c'est un correctif et
+  non une route neuve), `npm run parity` (**code 0**), `npm run hreflang:check`.
+  `npm run build` **non lancé, volontairement** (cf. `CLAUDE.md` § Commands depuis le
+  batch 27).
+
+  **Reste ouvert, et ce n'est pas ce run** : les 6 fiches FR qui ont une jumelle EN
+  (`/expat-retour/depuis-suisse` ↔ `/expat-return/from-suisse`) ne déclarent **pas** de
+  `languages` — leur `generateMetadata` ne rend qu'un `canonical`. `hreflang:check` passe
+  parce qu'il contrôle les paires **déclarées**, pas les paires **existantes** ; le hub, lui,
+  utilise bien `pathAlternates`. Une paire à queue traduite s'écrit à la main
+  (`pathAlternates("/expat-retour/depuis-suisse", "/expat-return/from-suisse")`), des deux
+  côtés, et c'est **12 `generateMetadata` conditionnés sur `EN_EXPAT_COUNTRY_SLUGS`** — un
+  item à part entière.
+
+---
+
 ## Shipped 2026-09-10
 
 - **Moteurs propriétaires (F47 santé, F50 emploi, F57 vélo, F58 sécurité, F59 démographie,

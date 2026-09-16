@@ -11,6 +11,19 @@
 // systématique : "consultatif, ne remplace pas le conseil d'un expert-comptable
 // ou du consulat".
 
+import type { CountryArticle } from "@/lib/country-article";
+
+// Réexport pour les appelants serveur (pages FR du hub et des fiches), qui
+// tirent déjà ce module en valeur. Un composant **client** lit
+// `@/lib/country-article` directement — cf. l'en-tête de ce fichier-là.
+export {
+  countryWithArticle,
+  countryFrom,
+  countryInLabel,
+  listCountriesFrom,
+} from "@/lib/country-article";
+export type { CountryArticle } from "@/lib/country-article";
+
 export type ExpatCountry =
   | "suisse"
   | "luxembourg"
@@ -40,8 +53,18 @@ export interface ExpatCountryProfile {
   slug: ExpatCountry;
   name: string;
   flag: string;
-  depuisLabel?: string; // article après "Rentrer en France depuis" (défaut "le", ex. "les" pour les États-Unis)
-  auLabel?: string; // en-tête de colonne du tableau (défaut "Au", ex. "Aux" pour les États-Unis)
+  /**
+   * Article du nom de pays — **obligatoire**. Les quatre tournures que le site
+   * compose (« depuis la Suisse », « de Suisse », « En Suisse », « la Suisse »)
+   * en dérivent, cf. `lib/country-article.ts`.
+   *
+   * ⚠️ Remplace `depuisLabel` et `auLabel` (2026-09-16), deux champs optionnels
+   * dont le repli valait `"le"` / `"Au"`. Les six fiches les plus anciennes ne
+   * les portaient pas, et trois publiaient donc « depuis le Suisse », « le
+   * Belgique », « le Allemagne ». Requis, le champ fait échouer `tsc` sur la
+   * fiche suivante au lieu de lui donner un article faux en silence.
+   */
+  article: CountryArticle;
   currency: string;
   currencyToEurApprox: number; // 1 unité locale = X €, janvier 2026 estimé
   netConversionFactor: number; // pour 100 unités locales nettes, tu retrouves ~ X € en France pour vivre pareil (pouvoir d'achat)
@@ -78,7 +101,7 @@ export const EN_EXPAT_COUNTRY_SLUGS = new Set([
  */
 export type ExpatCountryOption = Pick<
   ExpatCountryProfile,
-  "slug" | "name" | "flag" | "bestSuitedCities"
+  "slug" | "name" | "flag" | "article" | "bestSuitedCities"
 >;
 
 export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
@@ -86,6 +109,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "suisse",
     name: "Suisse",
     flag: "🇨🇭",
+    article: "la",
     currency: "CHF",
     currencyToEurApprox: 1.07, // 1 CHF ≈ 1,07 €
     netConversionFactor: 0.55, // 100 CHF nets = ~55 € pour conserver le même niveau de vie en province
@@ -117,6 +141,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "luxembourg",
     name: "Luxembourg",
     flag: "🇱🇺",
+    article: "le",
     currency: "EUR",
     currencyToEurApprox: 1.0,
     netConversionFactor: 0.65,
@@ -146,6 +171,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "belgique",
     name: "Belgique",
     flag: "🇧🇪",
+    article: "la",
     currency: "EUR",
     currencyToEurApprox: 1.0,
     netConversionFactor: 0.95,
@@ -175,6 +201,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "royaume-uni",
     name: "Royaume-Uni",
     flag: "🇬🇧",
+    article: "le",
     currency: "GBP",
     currencyToEurApprox: 1.18, // 1 GBP ≈ 1,18 €
     netConversionFactor: 0.7,
@@ -204,6 +231,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "canada",
     name: "Canada",
     flag: "🇨🇦",
+    article: "le",
     currency: "CAD",
     currencyToEurApprox: 0.68, // 1 CAD ≈ 0,68 €
     netConversionFactor: 0.85, // 100 CAD nets = ~85 € de pouvoir d'achat équivalent en France
@@ -233,6 +261,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "allemagne",
     name: "Allemagne",
     flag: "🇩🇪",
+    article: "l'",
     currency: "EUR",
     currencyToEurApprox: 1.0,
     netConversionFactor: 0.9, // pas de choc de change ; léger ajustement de pouvoir d'achat selon la ville cible
@@ -264,8 +293,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "etats-unis",
     name: "États-Unis",
     flag: "🇺🇸",
-    depuisLabel: "les",
-    auLabel: "Aux",
+    article: "les",
     currency: "USD",
     currencyToEurApprox: 0.92, // 1 USD ≈ 0,92 € (EUR/USD autour de 1,08 début 2026, estimé)
     netConversionFactor: 0.72, // 100 USD nets ≈ 72 € de pouvoir d'achat pour vivre pareil en province
@@ -298,8 +326,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "espagne",
     name: "Espagne",
     flag: "🇪🇸",
-    depuisLabel: "l'",
-    auLabel: "En",
+    article: "l'",
     currency: "EUR",
     currencyToEurApprox: 1.0,
     netConversionFactor: 0.85, // 100 € nets en Espagne valent environ 85 € de pouvoir d'achat en France hors Paris (coût de la vie plus élevé en France)
@@ -333,8 +360,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "portugal",
     name: "Portugal",
     flag: "🇵🇹",
-    depuisLabel: "le",
-    auLabel: "Au",
+    article: "le",
     currency: "EUR",
     currencyToEurApprox: 1.0,
     netConversionFactor: 0.8, // 100 € nets au Portugal valent environ 80 € de pouvoir d'achat en France hors Paris (logement et alimentaire plus chers en France)
@@ -369,8 +395,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "pays-bas",
     name: "Pays-Bas",
     flag: "🇳🇱",
-    depuisLabel: "les",
-    auLabel: "Aux",
+    article: "les",
     currency: "EUR",
     currencyToEurApprox: 1.0,
     netConversionFactor: 0.95, // 100 € nets aux Pays-Bas valent environ 95 € de pouvoir d'achat en France hors Paris — niveau de vie globalement comparable, logement plus cher côté NL, alimentaire légèrement moins cher
@@ -406,8 +431,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "italie",
     name: "Italie",
     flag: "🇮🇹",
-    depuisLabel: "l'",
-    auLabel: "En",
+    article: "l'",
     currency: "EUR",
     currencyToEurApprox: 1.0,
     netConversionFactor: 1.0, // 100 € nets en Italie valent environ 100 € de pouvoir d'achat en France hors Paris — coût de la vie globalement comparable, alimentaire un peu moins cher côté IT, logement plus cher dans les grandes métropoles italiennes
@@ -442,8 +466,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "maroc",
     name: "Maroc",
     flag: "🇲🇦",
-    depuisLabel: "le",
-    auLabel: "Au",
+    article: "le",
     currency: "MAD",
     currencyToEurApprox: 0.092, // 1 MAD ≈ 0,092 € (autour de 10,8 MAD pour 1 € début 2026, estimé)
     netConversionFactor: 0.22, // 100 MAD nets correspondent à environ 22 € de pouvoir d'achat en France hors Paris : la France reste structurellement 2 à 2,5 fois plus chère que le Maroc sur le panier moyen (logement, alimentaire, services)
@@ -480,8 +503,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "cote-d-ivoire",
     name: "Côte d'Ivoire",
     flag: "🇨🇮",
-    depuisLabel: "la",
-    auLabel: "En",
+    article: "la",
     currency: "XOF",
     currencyToEurApprox: 0.001524, // 1 XOF = 0,001524 € (parité fixe : 655,957 XOF = 1 €, mécanisme de l'ancien franc CFA rebaptisé eco à horizon lointain, garantie du Trésor français en pratique inchangée)
     netConversionFactor: 0.28, // 100 000 XOF nets correspondent à environ 28 000 XOF de pouvoir d'achat équivalent en France (soit ~43 € pour 100 000 XOF ≈ 152 €) : la France reste structurellement 2 à 3 fois plus chère qu'Abidjan sur le panier moyen (logement en dehors des quartiers Cocody/Riviera, alimentaire, services et main-d'œuvre)
@@ -522,8 +544,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "emirats-arabes-unis",
     name: "Émirats arabes unis",
     flag: "🇦🇪",
-    depuisLabel: "les",
-    auLabel: "Aux",
+    article: "les",
     currency: "AED",
     currencyToEurApprox: 0.25, // 1 AED ≈ 0,25 € (le dirham est arrimé au dollar à 3,6725 AED pour 1 USD ; janv. 2026 estimé)
     netConversionFactor: 0.22, // 100 AED nets correspondent à environ 22 € de pouvoir d'achat en France hors Paris : Dubaï/Abu Dhabi cumulent zéro impôt sur le revenu mais un coût du logement et de l'école très élevés
@@ -562,8 +583,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "australie",
     name: "Australie",
     flag: "🇦🇺",
-    depuisLabel: "l'",
-    auLabel: "En",
+    article: "l'",
     currency: "AUD",
     currencyToEurApprox: 0.61, // 1 AUD ≈ 0,61 € (autour de 1,63 AUD pour 1 € début 2026, estimé — taux fluctuant ces dernières années)
     netConversionFactor: 0.62, // 100 AUD nets correspondent à environ 62 € de pouvoir d'achat en France hors Paris : Sydney et Melbourne cumulent salaires élevés mais l'un des coûts du logement les plus chers au monde
@@ -602,8 +622,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "irlande",
     name: "Irlande",
     flag: "🇮🇪",
-    depuisLabel: "l'",
-    auLabel: "En",
+    article: "l'",
     currency: "EUR",
     currencyToEurApprox: 1.0,
     netConversionFactor: 0.85, // 100 € nets en Irlande valent ~85 € de pouvoir d'achat en France hors Paris : alimentaire et énergie sensiblement plus chers côté irlandais, loyers Dublin parmi les plus tendus d'Europe
@@ -640,8 +659,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "singapour",
     name: "Singapour",
     flag: "🇸🇬",
-    depuisLabel: "",
-    auLabel: "À",
+    article: "",
     currency: "SGD",
     currencyToEurApprox: 0.68, // 1 SGD ≈ 0,68 € (autour de 1,47 SGD pour 1 € début 2026, estimé — taux plutôt stable ces dernières années grâce au régime de change géré par la MAS)
     netConversionFactor: 0.40, // 100 SGD nets correspondent à environ 40 € de pouvoir d'achat en France hors Paris : Singapour figure systématiquement dans le top 3 des villes les plus chères au monde (EIU Cost of Living Survey), dominé par le logement et l'automobile, mais compense côté salaire brut et fiscalité douce
@@ -682,8 +700,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "japon",
     name: "Japon",
     flag: "🇯🇵",
-    depuisLabel: "le",
-    auLabel: "Au",
+    article: "le",
     currency: "JPY",
     currencyToEurApprox: 0.0058, // 1 JPY ≈ 0,0058 € (yen historiquement faible depuis 2022, autour de 170-175 JPY pour 1 € début 2026, estimé)
     netConversionFactor: 0.75, // 100 000 JPY nets correspondent à environ 750 € de pouvoir d'achat en France hors Paris : Tokyo cumule loyers modérés au regard de son standing mais alimentation, transport et loisirs très abordables
@@ -725,8 +742,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "suede",
     name: "Suède",
     flag: "🇸🇪",
-    depuisLabel: "la",
-    auLabel: "En",
+    article: "la",
     currency: "SEK",
     currencyToEurApprox: 0.087, // 1 SEK ≈ 0,087 € (autour de 11,3-11,7 SEK pour 1 € début 2026, estimé — la couronne a perdu près de 15 % face à l'euro depuis 2021)
     netConversionFactor: 0.082, // 100 SEK nets correspondent à environ 8,2 € de pouvoir d'achat en France hors Paris : niveau de prix suédois légèrement au-dessus du français sur l'alimentaire, l'alcool et les services, nettement en dessous sur les loyers de première main (encadrés)
@@ -769,8 +785,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "chine",
     name: "Chine",
     flag: "🇨🇳",
-    depuisLabel: "la",
-    auLabel: "En",
+    article: "la",
     currency: "CNY",
     currencyToEurApprox: 0.128, // 1 CNY ≈ 0,128 € (autour de 7,7-8,0 CNY pour 1 € sur l'ensemble de 2026, estimé)
     netConversionFactor: 0.18, // 100 CNY nets valent ~18 € de pouvoir d'achat courant en France : la vie quotidienne chinoise (transport, restauration locale, services, aide à domicile) est nettement moins chère qu'en France, donc il faut plus d'euros que ne le donne le taux de marché pour reproduire le même quotidien. Le rapport s'inverse sur les produits importés, l'automobile et le logement aux standards expatriés de Shanghai ou Pékin
@@ -814,8 +829,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "bresil",
     name: "Brésil",
     flag: "🇧🇷",
-    depuisLabel: "le",
-    auLabel: "Au",
+    article: "le",
     currency: "BRL",
     currencyToEurApprox: 0.168, // 1 BRL ≈ 0,168 € : l'euro s'échangeait en moyenne autour de 5,94 R$ en août 2026, dans une fourchette mensuelle de 5,81 à 6,15 — le real est une monnaie volatile, un taux mémorisé six mois plus tôt est faux
     netConversionFactor: 0.25, // 100 R$ nets valent ~25 € de pouvoir d'achat courant en France, au-dessus du taux de marché : la vie quotidienne brésilienne (services à la personne, restauration, transport, loyers rapportés au m²) coûte nettement moins cher qu'en France. Le rapport s'inverse sur l'automobile, l'électronique et tout ce qui est importé, lourdement taxé au Brésil
@@ -861,8 +875,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "thailande",
     name: "Thaïlande",
     flag: "🇹🇭",
-    depuisLabel: "la",
-    auLabel: "En",
+    article: "la",
     currency: "THB",
     currencyToEurApprox: 0.0261, // 1 THB ≈ 0,0261 € : l'euro s'échangeait en moyenne autour de 38,29 bahts en août 2026, dans une fourchette mensuelle de 38,10 à 38,55. Le baht est une monnaie stable comparée au real ou à la couronne suédoise, mais un taux mémorisé au départ reste un taux périmé
     netConversionFactor: 0.047, // 100 THB nets valent ~4,70 € de pouvoir d'achat courant en France, nettement au-dessus du taux de marché (2,61 €) : restauration, transport, services à la personne et soins privés coûtent une fraction du prix français. Le rapport s'inverse sur l'automobile, lourdement taxée à l'importation en Thaïlande, et sur l'électronique et l'alimentaire importés
@@ -908,8 +921,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     slug: "mexique",
     name: "Mexique",
     flag: "🇲🇽",
-    depuisLabel: "le",
-    auLabel: "Au",
+    article: "le",
     currency: "MXN",
     currencyToEurApprox: 0.0512, // 1 MXN ≈ 0,0512 € : l'euro s'échangeait en moyenne autour de 19,53 pesos en août 2026, dans une fourchette mensuelle de 19,09 à 20,00, ouverture à 19,63 et clôture à 19,38. Le peso est une des devises émergentes les plus échangées au monde, et il bouge vite — un taux mémorisé au départ est un taux périmé
     netConversionFactor: 0.082, // 100 MXN nets valent ~8,20 € de pouvoir d'achat courant en France, nettement au-dessus du taux de marché (5,12 €) : restauration, transport, aide à domicile et soins privés coûtent une fraction du prix français. Le rapport s'inverse sur l'automobile, l'électronique et l'alimentaire importés, et il s'annule sur le logement des quartiers où vit la communauté française — Roma, Condesa, Polanco, la Riviera Maya — dont les loyers sont libellés en pesos mais tirés par une demande en dollars et en euros
@@ -963,5 +975,11 @@ export function getExpatCountry(slug: string): ExpatCountryProfile | undefined {
 
 /** Dérivée du tableau ci-dessus — cf. le commentaire d'`ExpatCountryOption`. */
 export const EXPAT_COUNTRY_OPTIONS: ExpatCountryOption[] = EXPAT_COUNTRIES.map(
-  ({ slug, name, flag, bestSuitedCities }) => ({ slug, name, flag, bestSuitedCities }),
+  ({ slug, name, flag, article, bestSuitedCities }) => ({
+    slug,
+    name,
+    flag,
+    article,
+    bestSuitedCities,
+  }),
 );

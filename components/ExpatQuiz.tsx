@@ -24,6 +24,11 @@ import type { CityLight } from "@/lib/cities-light";
 // frontalières. La liste descend en prop depuis la page serveur, comme
 // `cities` — cf. `ExpatCountryOption` dans la lib.
 import type { ExpatCountry, ExpatCountryOption } from "@/lib/expat-return";
+// ⚠️ Les deux helpers viennent de `@/lib/country-article`, qui n'importe rien,
+// et **jamais** de `@/lib/expat-return`, qui les réexporte : cet import-ci est
+// en **valeur**, donc le second tirerait les 248 Ko du corpus pays dans le
+// bundle du quiz — exactement ce que la projection ci-dessus évite.
+import { countryWithArticle, countryFrom } from "@/lib/country-article";
 
 type Step =
   | { id: "originCountry"; type: "country"; question: string }
@@ -159,7 +164,7 @@ export function ExpatQuiz({
               <>
                 {" "}
                 <span className="text-base text-[var(--text-secondary)]">
-                  depuis {country.flag} {country.name}
+                  depuis {country.flag} {countryWithArticle(country)}
                 </span>
               </>
             )}
@@ -235,7 +240,7 @@ export function ExpatQuiz({
               href={`/expat-retour/depuis-${country.slug}`}
               className="block text-sm text-[var(--accent)] underline"
             >
-              Guide complet retour depuis {country.name} →
+              Guide complet retour {countryFrom(country)} →
             </Link>
           )}
           <button

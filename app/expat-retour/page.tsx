@@ -5,15 +5,19 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { EXPAT_COUNTRIES } from "@/lib/expat-return";
+import { EXPAT_COUNTRIES, countryWithArticle, listCountriesFrom } from "@/lib/expat-return";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
 
+// ⚠️ Le compte des pays se **dérive**, il ne s'écrit pas. Cette description
+// annonçait « 18 pays d'origine » alors que la lib en portait 23 : les fiches
+// Suède, Chine, Brésil, Thaïlande et Mexique ont été ajoutées sans que personne
+// ne revienne ici. Même dérive que la liste du sitemap, dérivée d'EXPAT_COUNTRIES
+// après coup — et que le paragraphe d'intro plus bas, qui nommait les 18 mêmes.
 export const metadata: Metadata = {
   title: "Expat retour France 2026 · Guide pratique pour rentrer",
-  description:
-    "18 pays d'origine (Suisse, USA, UK, Émirats, Singapour, Japon, Côte d'Ivoire…) : ce qui change côté salaire, fiscalité, santé, admin. Quiz retour inclus.",
+  description: `${EXPAT_COUNTRIES.length} pays d'origine (Suisse, USA, UK, Émirats, Singapour, Japon, Mexique…) : ce qui change côté salaire, fiscalité, santé, admin. Quiz retour inclus.`,
   alternates: pathAlternates("/expat-retour", "/expat-return"),
 };
 
@@ -38,9 +42,9 @@ export default function ExpatRetourIndex() {
             Rentrer en France après l&apos;expatriation
           </h1>
           <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
-            Salaires, fiscalité, santé, admin : ce qui change vraiment en rentrant de
-            Suisse, Luxembourg, Belgique, UK, Irlande, Canada, Allemagne, États-Unis, Espagne, Portugal, Pays-Bas, Italie, Maroc, Côte d&apos;Ivoire, des Émirats, d&apos;Australie, de Singapour ou du Japon.
-            Plus un quiz adapté pour trouver la bonne ville côté France.
+            Salaires, fiscalité, santé, admin : ce qui change vraiment en rentrant{" "}
+            {listCountriesFrom(EXPAT_COUNTRIES)}. Plus un quiz adapté pour trouver la bonne
+            ville côté France.
           </p>
         </div>
       </section>
@@ -64,7 +68,7 @@ export default function ExpatRetourIndex() {
                       {country.flag}
                     </span>
                     <h3 className="text-lg font-bold text-[var(--text-primary)]">
-                      Depuis {country.depuisLabel ?? "le"} {country.name}
+                      Depuis {countryWithArticle(country)}
                     </h3>
                   </div>
                   <p className="text-xs text-[var(--text-secondary)] line-clamp-3">

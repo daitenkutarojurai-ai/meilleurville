@@ -5,7 +5,13 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { EXPAT_COUNTRIES, getExpatCountry } from "@/lib/expat-return";
+import {
+  EXPAT_COUNTRIES,
+  getExpatCountry,
+  countryWithArticle,
+  countryFrom,
+  countryInLabel,
+} from "@/lib/expat-return";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -34,18 +40,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const country = getExpatCountry(stripDepuisPrefix(pays));
   if (!country) return {};
   return {
-    title: `Rentrer en France depuis ${country.name} 2026 · Guide pratique`,
-    // ≤ 160 caractères sur les 23 fiches (138-152). L'ancienne rédaction montait
-    // à 176 pour « Émirats arabes unis » et dépassait sur les 20 : la queue
-    // générique « Avec villes recommandées (frontalières + métropoles). »
-    // poussait hors du snippet les postes que le lecteur vient chercher.
-    description: `Salaire net, loyer, fiscalité, santé, retraite : ce qui change vraiment quand on rentre en France depuis ${country.name}, et les villes où atterrir.`,
+    // ⚠️ Le titre portait le nom **sans article** — « Rentrer en France depuis
+    // Mexique », « depuis États-Unis » — sur les 23 fiches, alors que le H1
+    // juste en dessous l'écrivait correctement. La queue « 2026 · Guide
+    // pratique » poussait par ailleurs « Émirats arabes unis » à 66 caractères,
+    // au-delà des ~60 que Google rend : elle est ramenée à l'année seule, ce
+    // qui tient la fiche la plus longue à 53.
+    title: `Rentrer en France depuis ${countryWithArticle(country)} 2026`,
+    // ≤ 160 caractères sur les 23 fiches. L'ancienne rédaction montait à 176
+    // pour « Émirats arabes unis » et dépassait sur les 20 : la queue générique
+    // « Avec villes recommandées (frontalières + métropoles). » poussait hors
+    // du snippet les postes que le lecteur vient chercher.
+    description: `Salaire net, loyer, fiscalité, santé, retraite : ce qui change vraiment quand on rentre en France depuis ${countryWithArticle(country)}, et les villes où atterrir.`,
     alternates: { canonical: `/expat-retour/${pays}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Rentrer de ${country.name} en France · Guide 2026`,
+      // `countryFrom` et non le nom nu : « Rentrer de Japon » se dit « du
+      // Japon », « de États-Unis » « des États-Unis ».
+      title: `Rentrer ${countryFrom(country)} en France · Guide 2026`,
       description: country.intro.slice(0, 160),
     },
   };
@@ -83,7 +97,7 @@ export default async function ExpatRetourCountryPage({ params }: Props) {
               {country.flag}
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-              Rentrer en France depuis {country.depuisLabel ?? "le"} {country.name}
+              Rentrer en France depuis {countryWithArticle(country)}
             </h1>
           </div>
           <p className="text-[var(--text-secondary)] leading-relaxed">{country.intro}</p>
@@ -111,7 +125,7 @@ export default async function ExpatRetourCountryPage({ params }: Props) {
                 <tr className="border-b border-[var(--border)]">
                   <th className="text-left py-2 font-semibold text-[var(--text-primary)]">Critère</th>
                   <th className="text-left py-2 font-semibold text-[var(--text-secondary)]">
-                    {country.flag} {country.auLabel ?? "Au"} {country.name}
+                    {country.flag} {countryInLabel(country)} {country.name}
                   </th>
                   <th className="text-left py-2 font-semibold text-[var(--text-secondary)]">
                     🇫🇷 En France
