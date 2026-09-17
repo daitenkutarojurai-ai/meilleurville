@@ -294,6 +294,16 @@ export default function SportHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Classement national universel</div>
             </Card>
           </Link>
+          {/* Le cadre outdoor de ce composite (30 %) additionne montagne, côte,
+              forêt et plan d'eau : deux atouts quelconques suffisent à faire
+              monter la note. Le profil montagne ne retient que le relief. */}
+          <Link href="/pour-qui/amateurs-de-montagne" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🏔️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Vivre au pied d&apos;un massif</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Le relief seul, sans le reste de l&apos;outdoor</div>
+            </Card>
+          </Link>
         </div>
       </section>
 

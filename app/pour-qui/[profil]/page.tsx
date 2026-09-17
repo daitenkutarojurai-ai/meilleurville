@@ -455,6 +455,45 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Mountain counterpart — visible for the three profiles that come
+            closest to the same terrain without ever weighting `mountainProximity`
+            (checked against PROFILE_PAGES: nature 3.0 for plein-air,
+            coastalProximity 3.0 for littoral, sportLeisure 3.0 for sportifs).
+            The mountain profile's own intro names the first two to say where it
+            stops; the third measures facilities and clubs, not relief. */}
+        {["amateurs-de-plein-air", "amateurs-de-littoral", "sportifs"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le profil voisin — quand c&apos;est le relief qui décide
+            </h3>
+            <Link href="/pour-qui/amateurs-de-montagne" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🏔️</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Vivre au pied d&apos;un massif, pas y monter le week-end
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus ne pondère la montagne qu&apos;indirectement : elle
+                      compte au même titre que les forêts, les lacs, la mer ou les
+                      équipements municipaux, donc une ville de plaine bien dotée peut
+                      devancer une ville de piémont. Les{" "}
+                      <span className="underline">villes où le relief commence au bout de la rue</span>{" "}
+                      repartent d&apos;une seule mesure, la distance au massif le plus
+                      proche, puis y ajoutent la fraîcheur d&apos;été et la desserte
+                      hivernale. La distance est calculée à vol d&apos;oiseau depuis la
+                      porte d&apos;entrée basse du massif et non depuis un sommet : elle
+                      sous-évalue le temps de route réel, et vaut zéro dans les DROM, dont
+                      aucun massif ne figure dans la table.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Coastal counterpart — visible only for the littoral profile */}
         {profile.slug === "amateurs-de-littoral" && (
           <section>

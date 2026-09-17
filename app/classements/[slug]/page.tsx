@@ -504,6 +504,38 @@ export default async function RankingPage({ params }: Props) {
             </div>
           )}
 
+          {/* Profil voisin — l'axe `nature` du seed est un composite : forêts,
+              lacs, montagne et mer y comptent ensemble, si bien qu'une ville de
+              bord de mer et une ville de piémont peuvent sortir à la même note
+              pour des raisons opposées. Le profil montagne repart d'une seule
+              mesure, la distance à la porte d'entrée du massif le plus proche,
+              et laisse donc le littoral au classement bord-de-mer. */}
+          {slug === "nature" && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Profil voisin
+              </p>
+              <Link
+                href="/pour-qui/amateurs-de-montagne"
+                className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+              >
+                <span className="text-xl flex-shrink-0">🏔️</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    Quand c&apos;est le relief que vous cherchez, pas la nature en général
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Ici forêts, lacs, montagne et mer pèsent dans le même axe : une ville
+                    littorale et une ville de piémont peuvent sortir à égalité pour des
+                    raisons opposées. Le profil montagne ne garde que la distance au massif
+                    le plus proche, mesurée à vol d&apos;oiseau depuis sa porte d&apos;entrée
+                    basse, ce qui sous-évalue le temps de route en relief.
+                  </p>
+                </div>
+              </Link>
+            </div>
+          )}
+
           {/* Profil voisin — ce classement pondère remoteWork, qualité de vie,
               coût, transport et culture : cinq axes, dont aucun ne mesure la
               distance à un siège. C'est le bon barème quand on ne revient

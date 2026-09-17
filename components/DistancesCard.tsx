@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Plane, Mountain, Waves, Snowflake, Train, MapPin } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import {
@@ -129,6 +130,25 @@ export function DistancesCard({ city, locale = "fr" }: Props) {
           <>Distances à vol d&apos;oiseau (Haversine). Temps voiture indicatif (~75 km/h).</>
         )}
       </p>
+
+      {/* Renvoi FR seulement : `app/[locale]/for-who/[slug]` ne publie qu'une
+          sélection de 13 profils et « amateurs de montagne » n'en fait pas
+          partie — un lien depuis la carte anglaise tomberait en 404.
+          Le seuil de 250 km n'est pas choisi ici : c'est celui de
+          `mountainProximity()` (`lib/profile-pages.ts`), au-delà duquel le
+          profil met la ville à zéro. Ce composant est monté par `CityProfile`,
+          qui est `"use client"` : on reprend donc le seuil en clair plutôt que
+          d'importer la lib, dont les ~200 Ko de prose partiraient dans le
+          bundle de chacune des 540 pages ville. */}
+      {locale !== "en" && d.mountain != null && d.mountain.distanceKm < 250 && (
+        <p className="mt-2 text-[10px] text-[var(--text-tertiary)] leading-tight">
+          <Link href="/pour-qui/amateurs-de-montagne" className="text-[var(--accent)] hover:underline">
+            Les villes classées sur cette distance-là
+          </Link>{" "}
+          : le profil montagne en fait son critère principal, devant la fraîcheur
+          d&apos;été et la desserte hivernale.
+        </p>
+      )}
     </Card>
   );
 }

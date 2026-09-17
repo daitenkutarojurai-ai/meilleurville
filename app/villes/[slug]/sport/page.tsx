@@ -15,6 +15,8 @@ import {
   type SportDimension,
 } from "@/lib/sport-leisure";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { computeCityDistances } from "@/lib/distances";
+import { mountainProximity } from "@/lib/profile-pages";
 import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
@@ -96,6 +98,16 @@ export default async function SportPage({ params }: Props) {
       a: `Les Maisons des Associations communales et les annuaires des fédérations agréées (FFRandonnée, FFCT, FFEscalade, FFR, FFF, FFN…) listent les clubs locaux. La DRAJES (Direction Régionale Académique à la Jeunesse, à l'Engagement et aux Sports) référence les structures agréées Jeunesse & Sport.`,
     },
   ]);
+
+  // Renvoi vers le profil « amateurs de montagne » — rendu seulement quand le
+  // barème de ce profil retient la ville, c'est-à-dire `mountainProximity > 0`,
+  // soit une porte de massif à moins de 250 km (279 villes sur 540). Ailleurs —
+  // Bretagne, Normandie, bassin parisien, DROM — la ligne serait du bruit, et
+  // parler du « massif le plus proche » à Brest, que la table place à 647 km des
+  // Pyrénées, serait faux. Le seuil n'est pas inventé ici : c'est celui de
+  // `mountainProximity()` dans `lib/profile-pages.ts`.
+  const massif = computeCityDistances(city).mountain;
+  const showMountainProfile = mountainProximity(city) > 0 && massif != null;
 
   return (
     <main id="main-content" className="min-h-screen">
@@ -244,6 +256,26 @@ export default async function SportPage({ params }: Props) {
             → Voir le classement national des villes sportives
           </Link>
         </div>
+
+        {showMountainProfile && (
+          <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
+            Le cadre outdoor ci-dessus met le relief dans le même sac que la façade
+            côtière, le massif forestier et le plan d&apos;eau : deux atouts cumulés
+            suffisent à faire monter la note, quels qu&apos;ils soient. Si c&apos;est
+            précisément la montagne que vous cherchez, voici le massif que le site
+            retient depuis {city.name} : {massif!.label.replace(" — Massif", "")}
+            {massif!.meta && massif!.meta !== city.name ? `, entrée par ${massif!.meta}` : ""}.
+            Le profil{" "}
+            <Link href="/pour-qui/amateurs-de-montagne" className="text-[var(--accent)] hover:underline">
+              amateurs de montagne
+            </Link>{" "}
+            isole cet axe-là plutôt que de le diluer : proximité du relief d&apos;abord,
+            puis fraîcheur d&apos;été, air respirable et desserte hivernale. La distance
+            y est mesurée à vol d&apos;oiseau depuis la porte d&apos;entrée basse du
+            massif et non depuis un sommet, donc elle ne dit rien du temps de route
+            réel, que le relief allonge.
+          </p>
+        )}
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
