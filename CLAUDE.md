@@ -1881,6 +1881,82 @@ ce run) ; gisements nommés restants, tous vérifiés présents au seed et sans 
 les trois banlieues bordelaises (Villenave-d'Ornon, Talence, Le Bouscat) et le reliquat du vivier du
 batch 46 — Sélestat, Obernai, Saverne, Aubusson, Douarnenez, Quiberon.
 
+**Batch 49 — EN, rattrapage de parité, shipped 2026-09-17.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 48 écrites d'un coup dans `data/guides-en.ts` (Langres,
+Saint-Rémy-de-Provence, La Baule, Morlaix, Dax, Vendôme, Céret). **Compteurs mesurés : FR 268,
+EN 268 — écart nul dans les deux sens, parité rétablie** (`EN_GUIDES` 941 → 948). Les 7 villes
+manquantes ont été **mesurées par diff des deux listes de slugs** après application de la table de
+correspondance des articles contractés, pas recopiées du journal. Aucun slug hors gabarit : les
+sept prennent « à » sans contraction, donc la règle du batch 33 (**côté EN le slug se dérive du
+slug de seed tel quel**) n'avait rien à arbitrer — noter seulement que le slug de seed de La Baule
+est **`la-baule`** alors que le nom du seed est « La Baule-Escoublac ». `metaTitle` 41-49
+caractères, `metaDesc` 141-152, 8 sections par guide (la série FR en compte 10, l'EN fusionne les
+fins de liste), **0 em-dash** sur les sept réunis. Contrôle de lookup / photo passé **sur les 540
+villes et les 268 guides de la série**, avec le **même résolveur que la page** (`getEnGuide(slug)`
+puis `citySlugElisions(slug)`, la leçon du batch 47) : **268/268 atteignables, 0 orphelin, 0
+collision**. Aucun tag neuf — `search-index.en.json` reste à **114 tags**, donc aucune page
+`/tags/` créée ; `sitemap:check` donne EN **28 840 URL**, soit exactement les 7 guides neufs
+(FR inchangé à 29 248).
+⚠️ **Onze figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — ne pas les
+« corriger ».** 137 figures, 126 retrouvées ; les 11 restantes sont vérifiées en ligne avant
+écriture. ① **Langres** : `1917`, `1918`, `28`, `1919` — **c'est la ville où l'armée américaine a
+formé ses officiers d'état-major**, Army General Staff College organisé le **28 novembre 1917**,
+**75** élèves à la première promotion, quatre cours de trois mois, dissous en **décembre 1918**,
+au milieu d'une grappe d'écoles de l'AEF de **1917 à 1919** ; **Pershing n'était pas ici**, son GHQ
+était à **Chaumont depuis le 1ᵉʳ septembre 1917** (commune à part → « accessible depuis »). Le
+guide dit que **c'est du contexte et non un musée**. ② **Saint-Rémy** : `1990`, `1987`, `53.9` —
+**Les Iris au Getty de Los Angeles depuis 1990**, vendue aux enchères en **1987** pour **53,9 M$**,
+commencée dans le jardin clos le lendemain de l'arrivée ; le FR ne cite que *La Nuit étoilée* au
+MoMA. ③ **La Baule** : `1940`, `1944`, `1945` — le **Lancastria** coulé le **17 juin 1940**
+(opération Aerial), plus lourde perte britannique sur un seul navire, ⚠️ **bilan volontairement
+non cité** (estimations très divergentes, même doctrine que la crue de Vaison au batch 46) ; et la
+**poche de Saint-Nazaire**, d'**août 1944** au **11 mai 1945**, trois jours après la capitulation
+générale, ⚠️ reddition **à Bouvron** et non ici. ④ **Vendôme** : `1578` — **Sonnets pour Hélène**,
+dont « Quand vous serez bien vieille » est le poème que **Yeats** a refait en « When You Are Old » ;
+⚠️ **la date du poème de Yeats n'est pas citée**, les sources donnant 1891 et 1893.
+⚠️ **Deux angles anglophones retirés avant commit, faute de source** : la cathédrale de **Dax
+donnée dans les 71 monuments de l'inscription UNESCO Compostelle** (non vérifiable — l'entrée dit
+seulement que Dax est une **étape de la Via Turonensis**, sans chiffre) et **La Baule « épargnée
+par les bombardements qui ont détruit Saint-Nazaire »** (la destruction est documentée mais les
+sources divergent, 80 % et 85 %, et rien n'établit que La Baule ait été épargnée — supprimé, pas
+nuancé). Même mode de défaillance qu'aux batches 42 et 46.
+Les quatre points de vigilance du batch 48 sont honorés : **Dax désambiguïsé de l'indice boursier
+allemand dès la première ligne** ; **La Baule pose dès l'intro que la baie est partagée par trois
+communes** (un hébergement annoncé à La Baule peut être à Pornichet ou au Pouliguen) et se lit
+comme une station balnéaire de chemin de fer du même moule que celles des côtes britanniques ;
+**Céret ouvre sur la correction du pont neuf**, en section 1 ; et **Van Gogh est traité en histoire
+de l'art anglophone sans toucher à la prudence FR**, Saint-Paul-de-Mausole étant dit **clinique
+psychiatrique en activité** avant toute phrase sur le peintre. Prudences du FR reprises telles
+quelles : **on ne se baigne pas dans la fontaine chaude** (64 °C), corrida nommée sans être
+tranchée, **péloïde** qui n'est pas de la vase de rivière, **maison de la Duchesse Anne** et
+**légende du pont du Diable** en tradition, **cerises de Céret plus systématiquement les premières
+de France**, **villas de La Baule propriétés privées**, drapeaux de baignade réglementaires,
+**arrêtés massifs opposables** à Saint-Rémy comme à Céret, frontière espagnole Schengen avec pièce
+d'identité obligatoire, **aucune toile peinte à Saint-Rémy n'y est restée**, tours de Langres
+**non tranchées** (sept à douze), et « accessible depuis » partout.
+Six ajouts sans chiffre propres au lecteur étranger : **Morlaix ouvre sur sa devise** « S'ils te
+mordent, mords-les » (*bite us and we bite back*), née du sac de la ville par **Thomas Howard, duc
+de Norfolk et Grand Amiral d'Henri VIII, le 1ᵉʳ juillet 1522** — date que le FR utilise déjà pour
+dater la maison de la Duchesse Anne sans dire d'où elle vient ; **Morlaix est atteignable depuis
+ces îles sans avion** (Roscoff à une vingtaine de km, Brittany Ferries depuis Plymouth et Cork —
+précédent Dieppe-Newhaven du batch 37) ; **Anne de Bretagne** et **l'Encyclopédie de Diderot**
+glosées en une incise ; **ce qu'est une cure thermale** posé avant tout le reste du guide Dax,
+le mot anglais *spa* désignant autre chose ; et **l'Élysée** glosé comme résidence présidentielle.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27). Le
+substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN
+941 → 948), `search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**),
+`npm run hreflang:check`, plus le contrôle de lookup / photo, le contrôle de figures ci-dessus et
+une vérification d'encodage. 🔎 Trouvé en passant, **pas un défaut de parité** :
+`things-to-do-in-vesoul-2026` est le **seul guide de la série sans photo d'en-tête**, parce que
+**Vesoul n'a aucune entrée dans `data/city-images.json`** ; le guide FR jumeau se comporte
+exactement pareil, donc les deux locales sont symétriques. C'est un trou du pipeline photo, à
+combler par `npm run photos` en passe locale, pas par du contenu.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Il reste **272 villes
+du seed sur 540 sans guide tourisme** (mesuré ce run) ; gisements nommés restants, tous
+**revérifiés ce run** présents au seed et sans guide : Saint-Herblain, les trois banlieues
+bordelaises (Villenave-d'Ornon, Talence, Le Bouscat) et le reliquat du vivier du batch 46 —
+Sélestat, Obernai, Saverne, Aubusson, Douarnenez, Quiberon.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique

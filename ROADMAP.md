@@ -4368,6 +4368,140 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 17/09 — tourisme batch 49 EN (+7), la série `things-to-do-in-[city]` refermée à 268/268
+
+`npm run parity` en **code 0** en début et en fin de run (FR 221 · EN 166, 0 route FR sans
+jumelle) : la parité de **routes** tient, le run porte donc sur l'écart de **corpus**. Les 7
+jumelles `things-to-do-in-[slug]-2026` du batch 48 FR écrites d'un coup dans `data/guides-en.ts`
+(Langres, Saint-Rémy-de-Provence, La Baule, Morlaix, Dax, Vendôme, Céret). **Compteurs mesurés :
+FR 268, EN 268 — écart nul dans les deux sens, parité rétablie** (`EN_GUIDES` 941 → 948). Les 7
+villes manquantes ont été **mesurées par diff des deux listes de slugs** après application de la
+table de correspondance des articles contractés, pas recopiées du journal. Aucun slug hors
+gabarit : les sept villes prennent « à » sans contraction, donc la règle du batch 33 (**côté EN le
+slug se dérive du slug de seed tel quel**) n'avait rien à arbitrer — noter seulement que le slug de
+seed de La Baule est **`la-baule`** alors que le nom du seed est « La Baule-Escoublac ».
+`metaTitle` 41-49 caractères, `metaDesc` 141-152, 8 sections par guide (la série FR en compte 10,
+l'EN fusionne les fins de liste), **0 em-dash** sur les sept réunis, 0 guillemet courbe, aucun
+`m2` / `EUR` / `deg` ascii, aucun mojibake. Contrôle de lookup / photo passé **sur les 540 villes
+et les 268 guides de la série** et non sur le seul lot, avec le **même résolveur que la page**
+(`getEnGuide(slug)` puis `citySlugElisions(slug)`, la leçon du batch 47) : **268/268 atteignables,
+0 orphelin, 0 collision**. Aucun tag neuf — `search-index.en.json` reste à **114 tags**, donc
+aucune page `/tags/` créée ; `sitemap:check` donne EN **28 840 URL**, les seules URL neuves étant
+les 7 guides (FR inchangé à 29 248).
+
+⚠️ **Onze figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le contrôle
+mécanique les remontera à chaque run, ne pas les « corriger ».** 137 figures, 126 retrouvées ; les
+11 restantes sont **vérifiées en ligne avant écriture** et relèvent de la matière propre à l'angle
+anglophone que le batch 48 avait demandée. ① **Langres** : `1917`, `1918`, `28`, `1919`. C'est la
+matière la plus forte du batch et le guide FR ne la porte pas du tout : **Langres est la ville où
+l'armée américaine a formé ses officiers d'état-major**. L'Army General Staff College y est
+organisé le **28 novembre 1917**, première promotion de **soixante-quinze** élèves le jour même,
+quatre cours de trois mois, dissous en **décembre 1918** ; la ville portait en même temps une
+grappe d'écoles de l'AEF de **1917 à 1919** (ligne, artillerie, génie, gaz, mitrailleuses,
+renseignement, transmissions, service de santé), d'où son surnom de quartier général des écoles de
+l'armée américaine. **Pershing, lui, n'était pas ici** : il installe son GHQ à **Chaumont le 1ᵉʳ
+septembre 1917** et y dirige plus de deux millions d'hommes, l'American Battle Monuments Commission
+ayant posé un marqueur sur le site. Chaumont est une commune à part, que ce site couvre pour
+elle-même, donc traitée en « accessible depuis ». Le guide dit explicitement que **c'est du
+contexte et non un musée** : il n'y a rien à visiter de cette histoire à Langres, et ce qu'on
+regarde est la raison pour laquelle l'armée a choisi la place. ② **Saint-Rémy-de-Provence** :
+`1990`, `1987`, `53.9`. Le FR dit que les toiles ne sont pas restées sur place et cite *La Nuit
+étoilée* au MoMA ; pour un lecteur anglophone il en manque une seconde, **Les Iris, commencée dans
+le jardin clos le lendemain de son arrivée et au Getty de Los Angeles depuis 1990**, vendue aux
+enchères en **1987** pour **53,9 millions de dollars**, record d'enchères de l'époque, puis cédée
+de gré à gré au musée. Les deux musées mis bout à bout veulent dire qu'un lecteur américain s'est
+probablement déjà tenu devant ce jardin. ③ **La Baule** : `1940`, `1944`, `1945`. Deux faits de la
+Seconde Guerre mondiale sont sur cette baie et aucun n'est signalé comme un lecteur britannique
+l'attendrait. Le **Lancastria**, coulé le **17 juin 1940** pendant l'opération Aerial dans
+l'estuaire de la Loire, un peu au-delà du bout est de la baie : **la plus lourde perte en vies
+humaines de l'histoire maritime britannique sur un seul navire**. ⚠️ **Le bilan n'est pas cité** :
+le navire portait plusieurs fois sa capacité, les registres sont lacunaires et les estimations
+publiées s'étalent sur une fourchette très large — le guide donne la date et rien de plus, même
+doctrine que le décompte de la crue de Vaison (batch 46) et que le jour de la reddition de Melun
+(batch 45). Churchill a imposé le silence de presse le jour même. Puis la **poche de
+Saint-Nazaire**, formée en **août 1944**, qui tient jusqu'au **11 mai 1945**, trois jours après la
+capitulation générale. ⚠️ **La cérémonie de reddition a eu lieu à Bouvron, dans les terres, pas
+ici**, et le guide le dit ; il mentionne le cimetière militaire du Commonwealth d'Escoublac **sans
+lui prêter de décompte ni le rattacher au Lancastria**, faute d'avoir pu le vérifier (cwgc.org est
+bloqué en egress depuis la routine). ④ **Vendôme** : `1578`. Ronsard est né dans le Vendômois, et
+le lecteur anglophone le connaît par une porte inattendue : son sonnet « Quand vous serez bien
+vieille », publié dans les **Sonnets pour Hélène de 1578**, est le poème que **W. B. Yeats** a
+refait en « When You Are Old ». ⚠️ **La date du poème de Yeats n'est pas citée** — les sources
+consultées donnent 1891 et 1893 — alors que 1578 fait consensus.
+
+⚠️ **Deux angles anglophones écrits au premier jet et retirés avant commit, faute de source.**
+① La cathédrale de **Dax donnée comme un des 71 monuments de l'inscription UNESCO « Chemins de
+Saint-Jacques-de-Compostelle en France »** (1998) : la vérification ne l'y trouve pas, l'entrée est
+donc réécrite pour dire seulement que **Dax est une étape de la Via Turonensis**, la voie de Tours,
+ce que l'office de tourisme et les guides de la voie confirment, et **sans aucun chiffre**. ② **La
+Baule « épargnée par les bombardements qui ont détruit Saint-Nazaire »** : la destruction de
+Saint-Nazaire est documentée mais les sources divergent sur son ampleur (80 % et 85 % selon la
+source) et **rien n'établit que La Baule ait été épargnée** — l'affirmation est supprimée, pas
+nuancée. Même mode de défaillance qu'aux batches 42 et 46 : une affirmation vraisemblable,
+nécessaire à aucune phrase, qu'aucun contrôle automatique n'aurait vue.
+
+Trois points de vigilance du batch 48 sont honorés à la lettre : **Dax est désambiguïsé de l'indice
+boursier allemand dès la première ligne de l'intro** (même traitement qu'Orange au batch 37,
+Vernon au 39 et Bergerac au 41) ; **La Baule pose dès l'intro que la baie est
+partagée par trois communes distinctes**, avec le corollaire pratique qu'un hébergement annoncé à
+La Baule peut être à Pornichet ou au Pouliguen, et se lit explicitement comme une station
+balnéaire de chemin de fer du même moule que celles des côtes britanniques ; et **Céret ouvre sur
+la correction du pont neuf**, en section 1 et non en fin de guide, parce que c'est dans la
+littérature anglophone sur le cubisme que l'erreur circule le plus. Le quatrième — Van Gogh comme
+histoire de l'art anglophone — est traité **sans toucher à la prudence FR** : Saint-Paul-de-Mausole
+est dit **clinique psychiatrique en activité** avant toute phrase sur le peintre, et l'atelier
+Valetudo garde sa section.
+
+Les autres prudences du FR sont reprises telles quelles, à ne pas diluer : **on ne se baigne pas
+dans la fontaine chaude de Dax** (64 °C, brûlure en quelques secondes, le bassin est un ouvrage de
+captage), la **corrida de la feria** est nommée comme une pratique légalement encadrée et vivement
+contestée que le guide ne tranche pas, le **péloïde** n'est pas de la vase de rivière, la **maison
+dite de la Duchesse Anne** et la **légende du pont du Diable** sont ramenées à leur statut de
+tradition, les **cerises de Céret ne sont plus systématiquement les premières de France**
+(Saint-Gilles les devance certaines années), les **villas de La Baule sont des propriétés privées**
+regardées depuis la rue, la **signalétique vert/jaune/rouge** d'un poste de secours est
+réglementaire et non indicative, l'**accès aux massifs par arrêté préfectoral** en saison des feux
+est écrit comme une règle opposable à Saint-Rémy comme à Céret, le **franchissement de la frontière
+espagnole** est Schengen sans formalité mais avec pièce d'identité obligatoire, **aucune toile
+peinte à Saint-Rémy n'y est restée**, **Nostradamus a fait sa carrière à Salon**, le nombre de
+tours debout à Langres **n'est pas tranché** (sept à douze selon ce qu'on appelle une tour), et la
+convention « **accessible depuis** » tient partout : quatre lacs et Chaumont depuis Langres, Les
+Baux depuis Saint-Rémy, Le Pouliguen / Pornichet / Guérande et Batz-sur-Mer depuis La Baule,
+château du Taureau depuis Morlaix, côte landaise et forêt depuis Dax, Blois et Amboise depuis
+Vendôme, Canigou et Aspres depuis Céret.
+
+Six ajouts sans chiffre propres au lecteur étranger : **Morlaix ouvre sur sa devise**, « S'ils te
+mordent, mords-les », rendue en anglais par *bite us and we bite back* — elle vient du sac de la
+ville par **Thomas Howard, duc de Norfolk et Grand Amiral d'Henri VIII, le 1ᵉʳ juillet 1522**, date
+que le guide FR utilise déjà pour dater la maison de la Duchesse Anne sans dire d'où elle vient ;
+**Morlaix est atteignable depuis ces îles sans avion**, Roscoff étant à une vingtaine de kilomètres
+avec un car régulier et Brittany Ferries reliant Plymouth et Cork au port (précédent
+Dieppe-Newhaven du batch 37) ; **Anne de Bretagne** est présentée en une incise ; **l'Encyclopédie
+de Diderot** est glosée pour qui ne connaît que le nom ; **ce qu'est une cure thermale** est posé
+avant tout le reste du guide Dax, parce que le mot anglais *spa* désigne autre chose — trois
+semaines prescrites par un médecin, en établissement agréé, partiellement remboursées, et non un
+week-end de massages ; et **l'Élysée** est glosé comme la résidence officielle du président.
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. CLAUDE.md § Commands depuis le
+batch 27 : 4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal
+utile). Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity`
+(guides EN 941 → 948), `search-index` + `search-index:check`, `sitemap:check`, `npm run parity`
+(**code 0**), `npm run hreflang:check`, plus le contrôle de lookup / photo, le contrôle de figures
+ci-dessus et une vérification d'encodage. 🔎 **Trouvé en passant, pas corrigé, et ce n'est pas un
+défaut de parité** : `things-to-do-in-vesoul-2026` est le **seul guide de la série sans photo
+d'en-tête**, parce que **Vesoul n'a aucune entrée dans `data/city-images.json`** — la commune n'a
+pas de P18 exploitable au crawl Commons. Le guide FR jumeau se comporte exactement pareil, donc les
+deux locales sont symétriques ; c'est un trou du pipeline photo, à combler par `npm run photos` en
+passe locale, pas par du contenu. Note d'environnement reconfirmée : le conteneur de routine
+démarre **en HEAD détaché et sans `node_modules`** — `git checkout main` puis `npm install`
+d'abord, sinon `tsc` sort des dizaines de milliers d'erreurs qui ne sont pas des régressions.
+
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Gisements laissés par
+le batch 48, tous vérifiés présents au seed et sans guide : **Saint-Herblain** (écarté au batch 34
+faute de matière), les **trois banlieues bordelaises** jamais faites (Villenave-d'Ornon, Talence,
+Le Bouscat) et le reliquat du vivier du batch 46 — **Sélestat, Obernai, Saverne, Aubusson,
+Douarnenez, Quiberon**. Il reste **272 villes du seed sur 540 sans guide tourisme**.
+
 ### Livré le 16/09 — `moving-to-[city]-2026` batch 3 (+8), la petite couronne, et 5 erreurs de fond du corpus FR
 
 `npm run parity` en **code 0** en début et en fin de run (FR 221 · EN 166, 0 route FR sans

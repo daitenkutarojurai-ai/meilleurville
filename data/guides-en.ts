@@ -40447,6 +40447,369 @@ export const EN_GUIDES: EnGuide[] = [
       "cost of living",
     ],
   },
+
+  {
+    slug: "things-to-do-in-langres-2026",
+    title: "Things to do in Langres: a rampart ring that never breaks, and Diderot",
+    metaTitle: "Things to Do in Langres, Haute-Marne (2026)",
+    metaDesc:
+      "A 3.5 km rampart circuit with no gap in it, the birthplace of Diderot, a washed-rind cheese with a crater, and four lakes dug to feed a canal.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    intro:
+      "Langres had 7,683 residents at the 2022 census against 7,761 in 2016 and 7,968 in 2011, a fall of 3.6 per cent over eleven years. That is the slowest decline of the three Haute-Marne communes this site follows: Chaumont loses 5.7 per cent over the same period and Saint-Dizier 8.1 per cent. The question here is not who is gaining residents but who is losing fewest, and it is better said before anything is praised. The town sits on a limestone spur and kept the thing almost every other French town demolished in the nineteenth century to make room for itself: its ring of ramparts, entire. You walk the whole circuit without ever leaving it, 3.5 kilometres, and that loop is the visit. The second fact is a date. Denis Diderot was born here in 1713, and the town took three centuries to give him a museum.",
+    sections: [
+      {
+        heading: "The rampart circuit, 3.5 km without a break",
+        body: "The wall goes right round the plateau and can be walked from end to end in an hour to an hour and a half depending on how often you stop. That is what separates Langres from most French fortified towns, where a stretch of wall and one gate survive: here the circuit is continuous, and you see open country on every side, the plateau one way and the valleys the other. Once you are up there the path is level, which the climb is not. Local sources do not agree on how many towers are still standing, somewhere between seven and twelve depending on what you decide to call a tower; the figure that holds, and does not move, is the length of the loop.",
+      },
+      {
+        heading: "The tour de Navarre",
+        body: "This is the heaviest piece of the wall and the easiest to date: it was finished in 1521, under François I, as an answer to gunpowder artillery, which had just made thin medieval curtain walls useless. It is twenty-eight metres across and its walls reach seven metres thick, proportions that have nothing to do with a watchtower and everything to do with a gun platform. The inside is open to visitors, with vaulted chambers and a helical ramp built so that artillery pieces could be taken up without being dismantled. Five minutes of walking through it explain why fortification changed shape at that precise moment, which is more than a diagram will do.",
+      },
+      {
+        heading: "The gates, and the climb to the upper town",
+        body: "You enter Langres through gates, and each belongs to a different century. The porte des Moulins is the most worked, covered in military motifs that are as much decoration as defence. The porte de l'Hôtel-de-Ville kept its barbican and its old guardhouse. The porte Henri IV kept its medieval look. Two of them are still the real way into the upper town for cars, which produces a rare sensation: you drive through a sixteenth or seventeenth century work to go and buy bread. Following them one after another is a way of doing the rampart circuit from below. The climb is the one genuine difficulty of a stay here and deserves saying in advance rather than after. The station sits below the spur: reckon about a kilometre and a half and a hundred and twenty metres of ascent to reach the first gate to the north. With luggage, in July, or in a winter wind, you feel it. A bus serves the station and a booking-only on-demand service exists, but timetables and terms change from year to year, so ask the tourist office rather than count on it. By car you come up through the gates and park in the upper town.",
+      },
+      {
+        heading: "Saint-Mammès cathedral",
+        body: "Built in the second half of the twelfth century, it catches the exact moment when Romanesque architecture tips into Gothic, and you can read that in the nave without a guide: round arches and ribbed vaults share the same vessel. The front is not medieval at all. It was rebuilt in the eighteenth century in classical taste, which from the square produces a disconcerting effect, a colonnaded portico set in front of a church five hundred years its senior. The cloister alongside, turned into a library, can also be visited. The cathedral has restoration work running regularly and part of it may be under scaffolding.",
+      },
+      {
+        heading: "The Maison des Lumières, and the Diderot who left",
+        body: "The museum is devoted to the Enlightenment and to Diderot's life, and it occupies the hôtel du Breuil de Saint-Germain, a private mansion built in 1576. It opened on 5 October 2013 for the tercentenary of the writer's birth, after a restoration campaign that ran from 2009 to 2013. The displays do not stop at biography: they show what encyclopaedic work actually involved, how ideas circulated, how printing and censorship worked, which is far more interesting than a wall of portraits. If the name means little to you, Diderot spent some twenty-five years editing the Encyclopédie, the work that set out to put every trade, science and craft of the period between covers and was fought over by church and crown for most of its production. He has a statue on the place Diderot, put up in 1884, and it is by Bartholdi, the sculptor of the Statue of Liberty in New York and of the Lion of Belfort. One honest point changes the visit. Diderot was born here and had his first schooling here, then left for Paris and barely came back. The town has the birthplace, the memory and the museum; it does not have the work, which was written elsewhere. That is the same relationship Figeac has with Champollion. Coming for Diderot means coming to see where he set out from, which is reason enough provided you know it first.",
+      },
+      {
+        heading: "The American army school town, 1917 to 1918",
+        body: "This is the part of the story most likely to matter to an American visitor and nothing in the town shouts it. When the American Expeditionary Forces arrived in France, their officers had to be trained for staff work on the French and British model, and Langres is where that was done. The Army General Staff College was organised here on 28 November 1917 and its first class began the same day with seventy-five students; it ran four three-month courses and was dissolved in December 1918. It was not alone. Langres carried a whole cluster of AEF schools between 1917 and 1919, for the line, for artillery, engineers, gas, machine guns, intelligence, signals and medical services, which is why it was known as the headquarters of the American army schools. A garrison town with barracks, forts and room around it was exactly what was needed. Pershing himself was not here: he moved his general headquarters to Chaumont on 1 September 1917 and directed more than two million American soldiers from there until 1919, and the American Battle Monuments Commission has placed a marker on the site. Chaumont is a separate town, covered by this site in its own right, and a separate trip. At Langres the honest statement is that this is context rather than an exhibit: there is no museum of it, and what you are walking on is the reason the army chose the place.",
+      },
+      {
+        heading: "Langres cheese",
+        body: "Langres is a cow's milk cheese, soft-bodied with a washed rind, of the same family as Époisses, Munster, Maroilles and Livarot. It has held an AOC since 1991 and a European AOP since 2009, meaning the name is legally reserved to cheese made to a defined method in a defined area. Its distinguishing mark is visible: a hollow in the top, the fountain or basin, which forms because the cheese is turned at most twice during ripening and sometimes not at all. It is, in other words, a handling fault that became a protected characteristic. You find it at the cheesemongers in town and on the market; minimum ripening runs fifteen to twenty-one days depending on the format, and the difference between a young one and a well aged one is not subtle.",
+      },
+      {
+        heading: "The four lakes, getting here and how long to stay",
+        body: "Four reservoir lakes ring the town and none of them is natural: they were dug in the nineteenth century to feed the canal between Champagne and Burgundy. The largest, the Liez, covers 290 hectares behind a dam 460 metres long and 16 metres high; then come the Vingeanne at 199 hectares, the Charmes at 197 and the Mouche at 94. You see them from the ramparts, which is what gives the view its depth. They belong to neighbouring communes and are reached by car or bike, not on foot from the centre. Swimming, sailing and fishing happen where they are permitted, and the signs on site are what counts. Langres is served by the Paris-Est to Mulhouse line, with regional trains towards Culmont-Chalindrey, Belfort or Mulhouse; the frequency is that of a small station and should be checked before a day is built on it. One day covers the ramparts, the tour de Navarre, the cathedral and the Maison des Lumières. Two if you add the lakes, which need a vehicle. The plateau is high and exposed: it is colder and windier here than in the valleys below, and the rampart walk offers no shelter anywhere. The good season runs April to October; in winter the town is very quiet and some sites close.",
+      },
+    ],
+    relatedCities: ["langres", "chaumont", "dijon", "vesoul"],
+    tags: ["things to do in langres", "langres", "travel", "city guide", "grand-est"],
+  },
+
+  {
+    slug: "things-to-do-in-saint-remy-de-provence-2026",
+    title: "Things to do in Saint-Rémy-de-Provence: Glanum, and the year Van Gogh spent here",
+    metaTitle: "Things to Do in Saint-Rémy-de-Provence (2026)",
+    metaDesc:
+      "A Roman town that slept under an olive grove, the asylum where Van Gogh painted over 140 canvases in a year, and Nostradamus, born here in 1503.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    intro:
+      "Saint-Rémy-de-Provence had 9,547 residents at the 2022 census against 9,612 in 2016 and 10,826 in 2011, a loss of 11.8 per cent over eleven years, which puts it second from last of the thirteen Bouches-du-Rhône communes this site follows, ahead of Cassis alone. The comparison is worth making because it is not an accident: those two are also the two most expensive in the department in our rent figures and the two best rated. A town can be in heavy demand and lose residents, because what the market is buying is not always a main home. The rest comes down to one image. Glanum, the Roman town the place is known for, lay under an olive grove that Van Gogh painted without knowing what was beneath it.",
+    sections: [
+      {
+        heading: "The archaeological site of Glanum",
+        body: "Glanum fills a small valley at the foot of the Alpilles, at the southern edge of town, and covers a rare sequence: from the Bronze Age to the end of the Roman empire, passing under Gaulish, Greek and then Roman influence, all of it legible in the masonry itself. Systematic excavation began in 1921, when Jules Formigé, chief architect of historic monuments, handed the work to the botanist and geologist Pierre de Brun; it was then taken up and expanded from 1942 to 1969 under Henri Rolland. The site is walked on a slope, in full sun, with no continuous shade: a hat and water in July are not a decorative suggestion.",
+      },
+      {
+        heading: "Les Antiques, free at the roadside",
+        body: "Two monuments stand upright at the entrance to the site, free to approach and right by the departmental road: the mausoleum of the Julii and the arch. The mausoleum was raised by three brothers of the Julii family in honour of their father, Caius, and their grandfather. The interesting thing is that they never fell. While Glanum disappeared under silt and olive trees, these two stayed permanently visible, recorded as landmarks from the sixteenth century onwards, and people walked past them for centuries without digging alongside. They cost nothing and take ten minutes, which makes them the best possible start before paying to go into the site.",
+      },
+      {
+        heading: "Saint-Paul-de-Mausole, and what it still is",
+        body: "Vincent van Gogh arrived on 8 May 1889 and stayed a full year, until May 1890. He painted more than a hundred and forty canvases here, among them The Starry Night and Irises. The Romanesque cloister, the reconstructed room and the fields around are open to visitors. What the place is today has to be said, because it governs how you behave in it: Saint-Paul-de-Mausole is still a working psychiatric clinic. You visit part of a monastery, not a healthcare facility, and patients live on site. Quiet and keeping to the marked route are not brochure politeness here.",
+      },
+      {
+        heading: "The Valetudo studio",
+        body: "Near Van Gogh's room, along the cloister gallery, the Valetudo association runs an art therapy studio that combines artistic practice, research and care. In the former chapter rooms and the Romanesque stairwell, a permanent display shows work made by the patients of the studio, which is offered for sale. It is the part of the place least talked about and the part that best justifies the visit: it stops the site being treated as a stage set for a biography. What Van Gogh found here, an institution that let him paint, still exists in another form a few metres from his room.",
+      },
+      {
+        heading: "The paintings are not here",
+        body: "This is the point to make before somebody makes the trip for the wrong reason. Not one of the canvases painted at Saint-Rémy stayed at Saint-Rémy. The Starry Night is at the Museum of Modern Art in New York, and the rest scattered into major public and private collections. Two of them are worth naming for an English-speaking reader, because between them they mean you have probably already stood in front of this garden without knowing it. Irises was begun in the walled garden the morning after he arrived, and it has been at the Getty in Los Angeles since 1990; before that it was sold at auction in 1987 for 53.9 million dollars, which at the time made it the most expensive painting ever sold at auction, and the Getty bought it privately from the buyer. What you come here to see are the motifs: the wheatfield behind the wall, the olive trees, the cypresses, the Alpilles at the back, and the window part of it was painted from. Reproductions are installed on the spots themselves, so the comparison can be made where it happened. It is exactly the relationship Figeac has with the Rosetta Stone: the place of origin, not the object.",
+      },
+      {
+        heading: "Nostradamus, born here in 1503",
+        body: "Michel de Nostredame was born at Saint-Rémy in 1503 and spent his early years here. A plaque and the remains of the birthplace can be seen in the old town, rue Hoche. Again, expectations need sizing: these are fragments built into later fabric, not a museum, and the man made his career and wrote the Prophecies elsewhere, at Salon-de-Provence, where he died and is buried. The Nostradamus fountain on the square dates from the nineteenth century and honours a man it never knew. He is mainly useful as a way of noticing that this small town produced two globally famous figures four centuries apart.",
+      },
+      {
+        heading: "The Musée des Alpilles and the Hôtel Estrine",
+        body: "Housed in the hôtel Mistral de Mondragon, a Renaissance mansion built round a galleried courtyard, the Musée des Alpilles deals with what makes the region rather than with its celebrities: the landscape of the Alpilles, the trades, the festivals, the costume, transhumance, farming skills. It is the useful counterweight to a day spent between the Romans and Van Gogh, because it explains the country that served as a background to both. The building is worth the detour for its courtyard alone. Collections are shown in rotation and temporary exhibitions take up part of the rooms, so what is on view changes from season to season. A few streets away, the Présence Van Gogh art centre occupies the hôtel Estrine, an eighteenth century mansion in the heart of the old town. Its programme is that of a contemporary art centre and not of a Van Gogh museum, which the name can easily suggest: you see temporary shows by living artists, with a documentary thread on the painter's stay. The staircase and the interior volumes are remarkable. As with any venue on a rotating programme, look at what is hanging before you come, including the changeover periods between two exhibitions, when it can be shut.",
+      },
+      {
+        heading: "The organ, the Alpilles, and how to get here",
+        body: "The collegiate church of Saint-Martin looks over the boulevard that rings the old town, and its main interest is an instrument. The organ, installed in 1923, was entirely rebuilt by the organ builder Pascal Quoirin in 1983: three manuals and pedals, sixty-two stops, of the order of five thousand pipes. That is a concert instrument of national standing in a commune of under ten thousand people, which is not ordinary, and it has a recital season. Church opening hours and the concert calendar are two different things: check both if you are coming to hear the organ and not merely to look at it. The Alpilles regional nature park was created on 1 February 2007, the forty-fifth regional park in France; it covers 51,000 hectares across sixteen communes, and the park headquarters is at Saint-Rémy. Paths start from the massif south of town. Access to the hills is controlled by prefectural order during the fire season, with risk levels assessed day by day that can close everything: this is checked the same morning, and ignoring a closure is an offence, not an act of daring. Les Baux-de-Provence is a commune in its own right about ten kilometres away and is treated as an excursion. Saint-Rémy has no station; the nearest is at Avignon.",
+      },
+    ],
+    relatedCities: ["saint-remy-de-provence", "avignon", "arles", "cavaillon", "salon-de-provence"],
+    tags: [
+      "things to do in saint-remy-de-provence",
+      "saint-remy-de-provence",
+      "travel",
+      "city guide",
+      "provence",
+    ],
+  },
+
+  {
+    slug: "things-to-do-in-la-baule-2026",
+    title: "Things to do in La Baule: a resort built on top of a buried village",
+    metaTitle: "Things to Do in La Baule, Loire-Atlantique (2026)",
+    metaDesc:
+      "A village buried under sand, a pine forest planted to stop it, nine kilometres of beach shared by three communes, and 6,871 protected buildings.",
+    category: "city-guide",
+    emoji: "🏖️",
+    readMinutes: 7,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    intro:
+      "Two things to settle before anything else. The bay everyone calls La Baule is shared by three separate communes, so an address on the beach is not necessarily an address in this town; and the resort itself is younger than it looks, laid out from 1879 on dunes that had swallowed a village a century earlier. La Baule-Escoublac had 16,613 residents at the 2022 census against 15,455 in 2016 and 16,112 in 2011. The commune lost residents and then took back more: up 3.1 per cent over eleven years, but up 7.5 per cent over the last six. On the long view it is last of the seven Loire-Atlantique communes this site follows, behind Vertou, Saint-Herblain, Orvault, Nantes, Rezé and Saint-Nazaire; on the recent view the reading reverses. It is a resort, and a census counts residents rather than beds, which makes resorts hard to measure. The founding fact is a disaster: the village of Escoublac was buried under sand, and the pine forest you walk through today was planted to stop it.",
+    sections: [
+      {
+        heading: "The bay, nine kilometres, and three communes",
+        body: "The bay runs nine kilometres between Pornichet to the east and Le Pouliguen to the west, and belongs to the club of the world's most beautiful bays. It is fine sand in a regular arc with no rock in the middle, which explains both its success and its sameness: you walk a long way without the view changing much. The bottom is flat and the sea goes out a long way, so the distance between the promenade and the water varies sharply through the day. The three communes share the arc, which means that part of what is loosely called the beach at La Baule is not at La Baule. This matters when booking rather than when swimming: accommodation advertised as La Baule can sit in Pornichet or Le Pouliguen, with the same sand in front and different services behind. Check the commune on a map, not the name of the bay.",
+      },
+      {
+        heading: "Escoublac, the village the sand buried",
+        body: "The first village of Escoublac, established around a priory in the eleventh century, was overwhelmed by advancing sand at the end of the eighteenth century. The burial did not happen in a night but over more than twenty years, and the commune eventually abandoned the site and rebuilt itself about a kilometre inland, in 1779. Local accounts put part of the blame on the inhabitants themselves, who pulled up the plants holding the dunes to make brooms and grazed their sheep on them; that is oral tradition, not a demonstration. The old village lies under the great dune, and there is nothing to see: knowing it is precisely the point.",
+      },
+      {
+        heading: "The forest, planted against the dunes",
+        body: "A large programme of maritime pine planting was launched in the middle of the nineteenth century to halt the sand, and fixing the dunes made ground habitable that had not been. Put another way, the Escoublac forest is not a remnant of preserved nature, it is a civil engineering work that grew. Without it there would be no villas and no resort. It is walked and cycled today along sandy rides, it gives shade on the hot days, and it makes the transition between the seafront and the old village. It is the best place in the commune to understand how the commune was manufactured.",
+      },
+      {
+        heading: "The villa quarter",
+        body: "The heritage protection perimeter, now a site patrimonial remarquable under the law of 7 July 2016 that replaced the earlier ZPPAUP and AVAP designations, takes in 6,871 buildings. Fifteen villas are singled out as exceptional heritage, 699 as remarkable heritage to be conserved and 1,741 as essential supporting fabric. Those numbers say what this place is better than any adjective: a resort whose raw material is its own building stock. The styles mix, regionalist, seaside, Art Deco, under the pines. One necessary point: these are private homes, looked at from the street and not from a garden.",
+      },
+      {
+        heading: "1879, the railway, and the resort it manufactured",
+        body: "It all starts with the arrival of the railway in 1879, on the Paris to Le Croisic line serving Escoublac. The Société des Dunes then divided up the ground between the beach and the pinewood, and the resort was built out between 1879 and 1914. A first casino opened in 1904. The chronology explains the shape of the town: a grid of avenues laid out in one go on dunes that had only just been stabilised, with plots sized for holiday villas, rather than a village that grew by accretion. This is a town designed at the same time as its clientele, and the plan still shows it. British and Irish visitors will recognise the mechanism immediately, because it is the one that produced the railway seaside resorts of the same decades on their own coasts: a line reaches a stretch of sand, a company buys the land behind it, and a town appears facing the water with nothing older behind it.",
+      },
+      {
+        heading: "1940 and 1945, which are not on the tourist map",
+        body: "Two pieces of Second World War history sit on this bay and neither is signposted the way an English-speaking visitor might expect. On 17 June 1940, during Operation Aerial, the evacuation of British forces from western France after Dunkirk, the liner Lancastria was bombed and sunk while loading troops and civilians in the Loire estuary, a short way beyond the eastern end of this bay. It is the largest single-ship loss of life in British maritime history. The death toll has never been settled: the ship was carrying several times her rated capacity, the records are thin, and published estimates run across a very wide range, so this guide gives the date and not a number. Churchill imposed a news blackout the same day, on the grounds that the papers had had enough disastrous news, and the story did not reach the wider public until weeks later. Then the other end of the war: the Saint-Nazaire pocket, formed in August 1944 when German forces dug in around the submarine base rather than retreat, held until 11 May 1945, three days after the general surrender in Europe, which is why this stretch of coast was among the last ground in France to be liberated. The surrender ceremony took place inland, at Bouvron, not here. There is a Commonwealth war cemetery in the commune, at Escoublac. None of this is a reason to come, and all of it changes what you are looking at.",
+      },
+      {
+        heading: "Le Pouliguen, Pornichet and the Guérande salt marshes",
+        body: "Le Pouliguen closes the bay to the west and is a distinct commune, reachable on foot from La Baule along the shore. The character changes completely: a fishing and pleasure harbour, rocky coves, a coast path along the wild shore beyond the point. The transition is sharp and happens at the channel dividing the two communes. It is the logical complement to a day on the sand, because it gives back the relief and the rocks the arc does not have. The cliff paths are exposed and waymarked: stay on the route, the rock crumbles in places. At the other end, Pornichet is equally a commune in its own right, with its marina, its racecourse and a seafront continuing La Baule's with no visible break. That is where the bay ends and the Saint-Nazaire area begins. Inland, the salt marshes lie in the communes of Guérande and Batz-sur-Mer, about ten kilometres to the north and west, and are treated as a half-day excursion. What you see there is an entirely artificial landscape, a chequerboard of pans and clay banks shaped to crystallise seawater, and a production still going on. Guided visits with working salt makers exist. It is the exact counterpoint to the beach: a coast modelled to get something other than leisure out of it. The walled medieval town of Guérande is on the same commune and follows naturally.",
+      },
+      {
+        heading: "Swimming, the tide, and how long to stay",
+        body: "The bay is sheltered and shelves gently, which makes it a famously easy beach, but the sea goes out a long way and comes back quickly over flat sand. Two practical consequences: the walk to reach the water varies by several hundred metres through the day, and a stretch of exposed sand can be covered faster than you expect. Lifeguarding is seasonal and covers marked zones only; the green, yellow and red flag system at a lifeguard post is regulatory rather than advisory, so a red flag is a prohibition and not an opinion. Outside the season and outside the watched zones you swim without a net, which is a choice and should be one. The commune is on the coastal railway line that runs to Le Croisic, with direct services from Paris whose frequency varies a great deal by season: check timetables before travelling, a summer train is not a November train. Two days cover the bay, the forest and the villa quarter. Three with Guérande and the marshes. The high season is short and intense, July and August, with prices and crowds bearing no relation to the rest of the year; May, June and September give the same beach without the crowd, with cooler water and services only partly open.",
+      },
+    ],
+    relatedCities: ["la-baule", "saint-nazaire", "vannes", "nantes", "carnac"],
+    tags: ["things to do in la baule", "la baule", "travel", "city guide", "pays-de-la-loire"],
+  },
+
+  {
+    slug: "things-to-do-in-morlaix-2026",
+    title: "Things to do in Morlaix: a viaduct over the rooftops, and a motto aimed at England",
+    metaTitle: "Things to Do in Morlaix, Finistère (2026)",
+    metaDesc:
+      "A 62 m railway viaduct over the town centre, a house type found almost nowhere else, a buried river, and a town motto England earned in 1522.",
+    category: "city-guide",
+    emoji: "🌉",
+    readMinutes: 8,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    intro:
+      "Morlaix had 15,220 residents at the 2022 census against 14,721 in 2016 and 15,549 in 2011. The eleven-year balance is still negative, down 2.1 per cent, but the commune has taken back 3.4 per cent over the last six years: this is a town that has stopped losing people, which is not common in inland Finistère. It is also one of the two cheapest of the five communes in the department this site follows, on rent and on price per square metre alike, behind Douarnenez and ahead of Brest, Quimper and Concarneau. The rest you see on arrival. A masonry railway viaduct sixty-two metres high and two hundred and ninety-two metres long crosses the town centre, and the town has arranged its life around what serves it as a ceiling. For a British or Irish visitor there is a second thing worth knowing before you get here, and it is in the town motto.",
+    sections: [
+      {
+        heading: "The viaduct",
+        body: "The viaduct is a stone masonry railway bridge with two tiers of round arches, built between 1861 and 1863. It runs two hundred and ninety-two metres and tops out sixty-two metres above the valley, so trains pass at roof level rather than at street level. No photograph conveys the scale: you have to stand underneath it, on the square, to measure it. A walkway exists at the lower level and has been opened to pedestrians; whether it is accessible depends on works in progress and should be checked on the spot or with the tourist office before you climb.",
+      },
+      {
+        heading: "1522, and why the town motto is what it is",
+        body: "On 1 July 1522, an English fleet under Thomas Howard, Duke of Norfolk and Lord High Admiral, which had been raiding the coasts of Normandy and Brittany on Henry VIII's orders, took Morlaix and set it on fire. The town was largely burned in a single day, a number of wealthy inhabitants were carried off and held to ransom, and its considerable trade took something like ten years to recover. Out of that came the motto the town still uses: S'ils te mordent, mords-les, which means if they bite you, bite them back, and which works as a pun because mords-les sounds like Morlaix. English-language sources usually render it as bite us and we bite back. It is the only town motto in this series addressed to a specific foreign country, and the raid is not a footnote here: it is the reference point local historians date buildings against, which is why the date turns up again two sections below. Nothing about the modern town is hostile, and the joke is now four and a half centuries old, but if you want one fact to arrive with, this is it.",
+      },
+      {
+        heading: "The half-timbered houses",
+        body: "Morlaix has a hundred and fifty-two recorded half-timbered houses, the highest density in Finistère. This is not a reconstructed set but an urban fabric that escaped destruction, in a region where most port towns were flattened or rebuilt. The facades read with the naked eye: jettied upper floors, carved posts, wooden figures cut at eye level. The rue Ange-de-Guernisac and the Grand-Rue hold most of them. It is a visit with no ticket and no opening hours, done simply by walking with your head up, and it is probably the best use of a first hour in town.",
+      },
+      {
+        heading: "The pondalez house",
+        body: "The pondalez is a house type found effectively nowhere else. The plan pairs two blocks, one on the street and one on the yard, separated by a covered internal court running the full height of the house; a monumental wooden spiral stair serves the floors, linked to one another by suspended walkways, the pondalez themselves. The result is a vertical interior lit from above, nothing like what the facade suggests. The one open to the public was restored in the 1990s and is listed as a historic monument; it displays collections from the museum.",
+      },
+      {
+        heading: "The house called the Duchesse Anne's",
+        body: "This is the best known pondalez in town, its facade covered in statues of saints and figures. Its construction is placed around 1520 to 1530, a date deduced from the style of the carving and from context, the context being that the town was sacked by the English in 1522. The name itself is a tradition and not an established fact: nothing shows that Duchess Anne ever lodged there, and the building is later than her death. That takes nothing away from it, since it is one of the richest surviving domestic interiors in sixteenth century Brittany, but it is better known than repeated as if it were a date. Anne of Brittany, for a reader meeting her here for the first time, was the duchess whose two marriages to successive kings of France brought the duchy into the French crown, which is why her name is attached to good buildings all over the region whether or not she set foot in them.",
+      },
+      {
+        heading: "The museum, and the river the town buried",
+        body: "The museum opened in 1887 in the Jacobin convent, a building founded in 1230 and listed as a historic monument, and now works across several sites: the Jacobins, the pondalez house and the arts space. The collections cover fine art, archaeology and local history. One practical point before travelling: the split between the sites has shifted with successive building campaigns, and one of them can be shut while the others are open. Check which site is showing what on the date of your visit rather than trusting an old leaflet or a third-party page. Meanwhile, under your feet: the Queffleuth and the Jarlot meet near the town hall, and from there the river is covered. It runs beneath the town and only reappears at the marina, which has two hundred berths. That is what explains the V-shaped topography of the centre and the layout of the streets, which follow two converging valleys. The old port reached far higher than the present basin, as far as the place des Otages, before it was filled in. Walking from the top of the town down to the harbour therefore means following a river you cannot see, which is a fair way of understanding Morlaix.",
+      },
+      {
+        heading: "The alleys, the place des Otages and the tobacco manufactory",
+        body: "Between the two slopes the town is stitched with narrow steep alleys broken by stone stairs, which gain in a few dozen metres what a road takes several hundred to climb. They are the other free visit in Morlaix and much the most disorienting: three steps take you from a busy square to a silent passage between two walls. The drawback is mechanical: the centre is practised on a gradient, the cobbles are slippery in the rain, which is frequent, and the route suits neither pushchairs nor reduced mobility. They come out on the place des Otages, the nerve centre of the town at the foot of the viaduct and the best place to take in the scale of it. The bandstand there was given in 1903 by Auguste Ropars. The square is built on the footprint of the old port, which reached this far before the infilling, which explains its elongated shape and its level. Market, terraces and events happen here and most guided circuits start from it. Down at the water, the tobacco manufactory was established in 1736 on plans attributed to the architect Blondel, and it is a granite building on a scale that is in no way provincial: it watched over the port for more than two and a half centuries and employed a considerable part of the town, women in particular. Production has ceased and the site is engaged in a long-haul conversion to cultural and scientific use, including a science centre. As with any site being rebuilt in phases, what is open to the public varies: look at how far it has got before coming, and the exterior can be seen from the quay in any case.",
+      },
+      {
+        heading: "The château du Taureau, and getting here from Britain or Ireland",
+        body: "The château du Taureau stands on a rocky islet at the entrance to the roadstead, at the river mouth, well downstream of the centre and not in the town. A sixteenth century fortress enlarged by Vauban, it can only be reached by boat from the landing stages on the bay, and crossings depend on the tide and the weather. It is an excursion in its own right and not an add-on to the end of an afternoon. As for arriving, Morlaix has a station on the Paris to Brest line served by direct trains, which makes it one of the easiest towns in inland Brittany to reach without a car. It is also one of the easiest to reach from these islands without flying: the ferry port of Roscoff is about twenty-four kilometres away, with a regular bus taking around thirty-five minutes, and Brittany Ferries runs Plymouth to Roscoff in about six hours and Cork to Roscoff in about thirteen and a half. That makes Morlaix a realistic first stop off the boat rather than a place you have to drive past.",
+      },
+    ],
+    relatedCities: ["morlaix", "brest", "quimper", "saint-brieuc", "concarneau"],
+    tags: ["things to do in morlaix", "morlaix", "travel", "city guide", "brittany"],
+  },
+
+  {
+    slug: "things-to-do-in-dax-2026",
+    title: "Things to do in Dax: the biggest spa town in France, and what a cure actually is",
+    metaTitle: "Things to Do in Dax, Landes: Spa Town Guide 2026",
+    metaDesc:
+      "Not the stock index: a town in the Landes where a spring runs 2.4 million litres a day at 64 degrees, with 320 m of Roman wall still standing.",
+    category: "city-guide",
+    emoji: "♨️",
+    readMinutes: 7,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    intro:
+      "If you typed Dax into a search box and landed here, start with the disambiguation: this is a town of twenty-odd thousand people in the Landes, in south-west France, and not the German share index of the same name. Dax had 21,716 residents at the 2022 census against 20,891 in 2016 and 20,299 in 2011, a rise of 7.0 per cent over eleven years that puts it second of the four Landes communes this site follows, behind Biscarrosse and its 22.0 per cent. It is the leading thermal destination in France, with something of the order of sixty thousand patients a year and about fifteen thermal establishments, the thermal hospital included. That governs more or less everything else: the street pattern, the calendar, the age structure, the kind of shops. The starting point is physical and fits in one figure. Water comes out of the ground in the town centre at sixty-four degrees, and it was doing so when the Romans built their wall around it.",
+    sections: [
+      {
+        heading: "The Fontaine Chaude",
+        body: "The Nèhe spring runs about 2.4 million litres a day at 64 degrees Celsius, into an open basin in the middle of town, built in the nineteenth century on the site of Roman baths. The steam coming off it in winter is the simplest and most characteristic sight in the town. One thing needs saying plainly: you do not bathe in it and you do not leave a hand in it for more than an instant. At sixty-four degrees the water scalds in seconds, which the presence of an accessible parapet does not sufficiently suggest. The basin is a catchment structure, not a bath.",
+      },
+      {
+        heading: "What a French thermal cure actually is",
+        body: "This is the piece of vocabulary that trips up English-speaking visitors, because the English word spa points at something else entirely. A cure thermale here is not a weekend of massages. It is a course of treatment lasting three weeks, prescribed by a doctor, delivered in a licensed establishment on a fixed daily schedule, and partly reimbursed by the French health system when the prescription is accepted. The material is the local one: the péloïde, a thermal mud obtained by maturing silt from the Adour with the thermal water, which is the basis of most of the treatment done here, in rheumatology and phlebology. This is not sludge scooped out of the river. It is a regulated product, prepared in maturation basins, on a cycle and with controls, and it is not handled outside an establishment. Understanding that chain, from hot water to silt to treatment, is what separates a visit to Dax from a visit to any other spa town, and some establishments run tours that explain it. It also explains the rhythm of the place: because a course runs three weeks, the visible population changes in cycles and the shops, the hours and the services are set to that.",
+      },
+      {
+        heading: "The Gallo-Roman walls",
+        body: "The enceinte was raised in the fourth century and ran close to fifteen hundred metres, watched by forty-three round towers ten metres across and pierced by four gates. About three hundred and twenty metres are still standing, regarded by archaeologists as one of the best preserved examples of its kind in France. You walk alongside them freely, in the open, and the thickness of the work registers at a glance. The connection with the previous section is not decorative: it was the hot water that fixed a settlement here large enough to justify a wall of this size under the late empire.",
+      },
+      {
+        heading: "The archaeological crypt",
+        body: "Under the town centre, the crypt preserves the foundations of a civic basilica dated to the first or second century, that is, of a public building two and a half centuries older than the wall. It is direct evidence of Roman public life on this spot, and the underground counterpart to the ramparts. Access is by time slot and usually on a guided visit, with small numbers imposed by the shape of the space: booking ahead is the rule rather than the exception, and the space does not suit everyone. Ask at the tourist office before making the trip, since it is not open continuously.",
+      },
+      {
+        heading: "The former cathedral and the Apostles' doorway",
+        body: "Notre-Dame cathedral was rebuilt between the seventeenth and nineteenth centuries in a neoclassical taste that comes as a surprise for a southern church, and most of its interest is a survivor. The Apostles' doorway, left over from the earlier Gothic cathedral, was re-erected inside the present building instead of being destroyed with the rest. So there is a carved medieval portal preserved under an eighteenth century vault, an unusual arrangement worth hunting for: the doorway is not where a doorway is expected to be, which is why a lot of visitors walk past without seeing it.",
+      },
+      {
+        heading: "The arena and the feria",
+        body: "The Dax arena opened in 1913 and the feria is held in mid-August. What happens there should be stated without being praised: bullfighting has a central place in it, it is a legally regulated practice in the departments with a bullfighting tradition and is strongly contested elsewhere, and this guide has no business settling that argument on the reader's behalf. The practical facts are simple. During the feria the town is full, the streets are occupied day and night, accommodation books a long way ahead and prices are not those of the rest of the year. If you are not coming for the feria, mid-August is the week to avoid.",
+      },
+      {
+        heading: "The Adour, the barthes, and the road to Compostela",
+        body: "The river crosses the town and separates the historic centre from the right bank. The laid-out banks are walked and cycled, and this is the best way of getting out of the thermal quarter without a car. The silt the péloïde is made from comes from here, which closes the loop of the visit. The wetlands of the Adour valley, known locally as barthes, begin at the edge of town and are a first-rate habitat for birds. They lie across several communes and are approached on waymarked paths from the laid-out access points. Outside the thermal peaks the spa quarter itself walks very well, with its establishments from the first half of the twentieth century, its parks and its riverside. One thread that will mean more to an English-speaking visitor than to a French one: Dax is a stage on the Via Turonensis, the Tours route of the Camino de Santiago, which runs from Paris through Tours, Poitiers and Bordeaux to Dax and on towards Saint-Jean-Pied-de-Port and the Pyrenees. Pilgrims have been coming through here for the same reason as everyone else, because it is where the road crosses the river, and walkers on the route still pass through town today.",
+      },
+      {
+        heading: "The coast, the forest, and how long to stay",
+        body: "Dax is inland and has no beach: the coast begins about thirty kilometres away, around Capbreton and Hossegor, and the pine forest of the Landes de Gascogne spreads to the north. Both are excursions, not annexes of the town centre. This is worth spelling out because the confusion is common among people booking a stay in the Landes: the spa town and the ocean coast are two distinct worlds, with half an hour to forty minutes of road between them, and the season of one does not coincide with the season of the other. Dax station is on the Bordeaux to Hendaye line and takes direct services from Paris, which makes it one of the best connected spa towns in the country; it is also a junction towards Béarn and Bigorre. One day covers the Fontaine Chaude, the walls, the cathedral and the riverside. Two if you add the crypt and a tour of a thermal establishment. The climate is mild and damp, the good season long, and the town has no complete dead season since courses run from winter through to autumn.",
+      },
+    ],
+    relatedCities: ["dax", "bayonne", "mont-de-marsan", "biarritz", "hossegor"],
+    tags: ["things to do in dax", "dax", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+
+  {
+    slug: "things-to-do-in-vendome-2026",
+    title: "Things to do in Vendôme: a 1508 façade, and the relic that paid for it",
+    metaTitle: "Things to Do in Vendôme, Loir-et-Cher (2026)",
+    metaDesc:
+      "A flamboyant Gothic front by the man who built the north spire at Chartres, seven centuries of pilgrimage, and the Loir, which is not the Loire.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    intro:
+      "First, a warning about the name of the river, because it sends people to the wrong place. Vendôme stands on the Loir, without an e, a modest tributary, and not on the Loire. The châteaux everyone comes to the region for are on the other river, in other communes. Vendôme had 15,566 residents at the 2022 census against 16,688 in 2016 and 16,849 in 2011: down 7.6 per cent over eleven years and down 6.7 per cent over the last six, which makes it last of the three Loir-et-Cher communes this site follows, behind Blois and Romorantin-Lanthenay, both rising. It is nevertheless the one of the three our scores rate best overall. The TGV puts Paris-Montparnasse forty-two minutes away and the population falls all the same; those two facts coexist, and this guide does not undertake to connect them. What you come to see is not in dispute: a façade of 1508 that is one of the high points of flamboyant Gothic, set on an abbey founded in 1033.",
+    sections: [
+      {
+        heading: "The abbey of the Trinity",
+        body: "The abbey was founded in 1033 by Geoffroy Martel, count of Anjou and of Vendôme, and was for centuries one of the most powerful Benedictine houses in the valley. The abbey complex, and not only the church, is the monumental core of the town: conventual buildings, cloister, chapter house. The scale bears no relation to the size of the present commune, and that is the first thing you notice arriving on the forecourt. Entry to the church is free during opening hours; the conventual parts have various uses, including public facilities, and are not all open to visitors.",
+      },
+      {
+        heading: "The façade of Jean de Beauce",
+        body: "In 1508 the master mason Jean Texier, known as Jean de Beauce, designed the front of the abbey church, and the result is one of the masterpieces of flamboyant Gothic: a wall worked over entirely, where the stone appears to be burning. The same man built the north spire of Chartres cathedral, which gives the measure of both the patron and the undertaking, and which means anyone who has stood in front of Chartres has already seen his hand. Look at it square on from the forecourt, then obliquely late in the day, when raking light brings the relief out. It is the one monument in this guide worth coming back to at another hour.",
+      },
+      {
+        heading: "The Romanesque bell tower",
+        body: "Standing apart from the church, the bell tower is three and a half centuries older than the façade and belongs to another architectural world. It resembles the south spire of Chartres cathedral, also twelfth century, closely enough that the kinship is a commonplace of regional art history. The contrast between the two, a few metres apart, is the main interest of the square: Romanesque plainness and a stone pyramid on one side, sixteenth century lacework on the other. Seeing them in the same field of view saves a course in architecture.",
+      },
+      {
+        heading: "The Holy Tear, and what it built",
+        body: "Geoffroy Martel gave the abbey the Holy Tear, obtained according to tradition from the emperor in Constantinople, presented as a tear shed by Christ at the tomb of Lazarus and kept in a crystal vessel. The relic made Vendôme a major pilgrimage centre from the eleventh century to the end of the eighteenth, that is, for seven hundred years. It is what explains the wealth of the building works, the size of the abbey and the façade of 1508. So you do not come to see an object but its effect: everything standing here was paid for by a flow of pilgrims that stopped at the Revolution.",
+      },
+      {
+        heading: "The castle and its park",
+        body: "The remains of the castle, spread from the eleventh to the seventeenth century, and those of its collegiate church of Saint-Georges recall the power of the counts and later dukes of Bourbon-Vendôme, whose house reached the French throne with Henri IV. The tour de Poitiers still dominates the site. It was damaged twice, by the Huguenots in 1562 and by the revolutionaries in 1793. An English-style park was created inside the enclosure in the nineteenth century, with a cedar planted in 1807 and a collection of hydrangeas due to the Mouillère family, nurserymen of Vendôme. The view over the town from the promontory is the best in the area.",
+      },
+      {
+        heading: "The porte Saint-Georges, and the town the water defends",
+        body: "This is the only survivor of the four gates that defended the town, rebuilt at the beginning of the sixteenth century by Marie de Luxembourg, countess of Vendôme. It spans the Loir, which is already unusual for a town gate, and it housed the town hall from 1467 until recently, more than five centuries of continuous administrative use. The river side is the better finished. It is the best place to understand how the town defended itself: not with a dry wall but by leaning on the arms of water that surround it and holding the crossings. The medieval old town is held between two arms of the Loir, and the river divides again into channels inside the urban fabric, which gives Vendôme its bridges, its quays and its water gardens. This is not the Loire: the Loir is smaller, slower and far more intimate. The walk along the arms, from the parc Ronsard to the edge of the abbey, takes an hour.",
+      },
+      {
+        heading: "The washhouses, Balzac, and the poet behind a Yeats poem",
+        body: "The washhouses stand on the left bank of the Loir, along the rue Saint-Bienheuré, downstream of the pont Saint-Georges. They form a line of modest structures, easy to miss, and they say something the monuments do not: a town of running water before running water, with the organisation of domestic labour written into the stone. It is a ten-minute visit that complements the abbey well, because it changes social scale. They are seen from the street and from the opposite bank, and the best moment is the morning, when the light falls on the left bank. Further up, the former Oratorian college, now a lycée, took Honoré de Balzac as a boarder, an experience he transposed into Louis Lambert. It is a working school, so it is not visited: you look at it from the street, and that is already instructive about what a provincial boarding school was at the start of the nineteenth century. The mention is chiefly useful for placing Vendôme in a literary geography much larger than its present size, because the other name attached to the area will be familiar to English readers from an unexpected direction. Pierre de Ronsard was born in the Vendômois, at a manor in a neighbouring commune, and his sonnet beginning Quand vous serez bien vieille, published in the Sonnets pour Hélène of 1578, is the poem W. B. Yeats reworked as When You Are Old. The version most English speakers know by heart started here.",
+      },
+      {
+        heading: "Getting here, and the station that is not in Vendôme",
+        body: "The TGV station puts Paris-Montparnasse forty-two minutes away, with a limited number of trains a day, but it is not called Vendôme by accident and it is not in Vendôme either: the station of Vendôme-Villiers-sur-Loir sits about five kilometres north-west of the centre, on the territory of Villiers-sur-Loir. Without a car or a connection, those five kilometres are a problem to be solved before departure rather than on arrival. One day covers the abbey, the castle, the gate and the arms of the Loir. Blois is about thirty kilometres away and Amboise about forty: the Loire châteaux are close, but they are other communes and other days out. Vendôme works well as a quiet, cheap base for them, on condition that the five kilometres to the station and the gap between the two rivers are both accounted for in advance.",
+      },
+    ],
+    relatedCities: ["vendome", "blois", "amboise", "tours"],
+    tags: ["things to do in vendome", "vendome", "travel", "city guide", "centre-val-de-loire"],
+  },
+
+  {
+    slug: "things-to-do-in-ceret-2026",
+    title: "Things to do in Céret: the bridge Picasso painted that is not in Paris",
+    metaTitle: "Things to Do in Céret, French Catalonia (2026)",
+    metaDesc:
+      "Canvases long filed under the Pont-Neuf in Paris show a bridge here. Plus a record-breaking 1341 arch, 78 Picassos, and the cherries sent to the Élysée.",
+    category: "city-guide",
+    emoji: "🍒",
+    readMinutes: 7,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    intro:
+      "Start with a correction, because it is the one that circulates most in English-language writing on Cubism. Paintings long attached to the Pont-Neuf in Paris in fact show the railway bridge at Céret, opened in 1889, which local people called el pont nou, the new bridge in Catalan. The misunderstanding comes down to a translation. Céret had 7,544 residents at the 2022 census against 7,747 in 2016 and 7,583 in 2011: the commune is stable over the long run, down 0.5 per cent across eleven years, between Perpignan gaining 2.3 per cent and Collioure losing 13.1 per cent, the other two Pyrénées-Orientales communes this site follows. A small town in the Vallespir that does not move, then, and one holding two world records four hundred years apart. In 1341, when its arch was closed, the Pont du Diable was the largest bridge arch in the world. In the summer of 1911 Picasso and Braque moved in, and the critic André Salmon called Céret the Mecca of Cubism.",
+    sections: [
+      {
+        heading: "The bridge that is not the Pont-Neuf",
+        body: "Taking the correction first, since it is the reason a number of people end up here. Canvases catalogued for a long time as views of the Pont-Neuf in Paris are in fact views of the railway bridge at Céret, opened in 1889, which the inhabitants called el pont nou, Catalan for the new bridge. Someone translated the Catalan into French, French turned it into a Paris landmark, and the attribution stuck. It changes the reading of the works concerned and gives an extra reason to go and look at this iron structure, which is a great deal less photogenic than its medieval neighbour. It carried a railway line: Céret station, opened in 1889, closed to passengers in 1940, and the section has carried none since.",
+      },
+      {
+        heading: "The Pont du Diable",
+        body: "The bridge crosses the Tech in a single arch of 45.45 metres span, rising to 22.3 metres at the crown, and was built between 1321 and 1341. On completion it was the largest bridge arch in the world, ahead of the Ponte della Maddalena in Italy which had held the record until then; it kept the title until 1356, when the Castelvecchio bridge at Verona overtook it. Fifteen years of a world record for a commune in the Vallespir is worth stating. You see it from the bank and walk across it. The truest perspective is from down in the river bed, below.",
+      },
+      {
+        heading: "The legend of the bridge",
+        body: "Tradition has it that the work is the devil's, left unfinished, missing its last stone. The inhabitants, wanting a bridge over the river, are supposed to have called him in; he agreed on condition of carrying off the first soul to cross. Once it was built, they sent a cat over first. It is a very widespread type of story, found on other French bridges carrying the same name, and it should be taken for what it is: a popular explanation for a piece of engineering that nobody locally had the means to understand in the fourteenth century.",
+      },
+      {
+        heading: "The museum of modern art",
+        body: "The museum was founded in 1950 by two painters, Pierre Brune and Frank Burty Haviland, and it owes its holdings to one peculiarity: the artists who passed through gave. It holds seventy-eight pieces by Picasso, fifty-seven of them presented by the artist himself. That is what makes the place disproportionate to the size of the commune, and it is also what distinguishes it from a museum assembled by purchase. Hangs change and the museum has been through an extension campaign: check what is on display at the time of your visit, since a collection is never shown whole.",
+      },
+      {
+        heading: "The summer of 1911, Picasso and Braque",
+        body: "Picasso and Braque came to Céret for the first time in the summer of 1911, to a small Catalan town with nothing to predispose it to that, and others followed. This is the moment when analytic Cubism reaches its tightest point, and some of the canvases that fix it were painted here. The nickname Mecca of Cubism is the critic André Salmon's. What can actually be seen today needs saying: the places they stayed, the streets, the plane trees and the landscape that served as a background, plus the works in the museum. The major canvases of 1911 and 1912 are in the large international collections, which for an English-speaking visitor mostly means New York, London and Philadelphia rather than the Pyrenees.",
+      },
+      {
+        heading: "The cherries, and the crate sent to the president",
+        body: "Since 1932 the commune and its growers have sent the first crate of cherries picked at Céret to the President of the Republic, at the Élysée Palace, which is the French equivalent of the White House or Number Ten and the president's official residence. The tradition began on a news item: talks had been opened with the staff of Paul Doumer, but it was Albert Lebrun who received them, Doumer having been assassinated in the meantime. Honesty is required about the line you hear everywhere: these are no longer systematically the first cherries in France, since those of Saint-Gilles in the Gard beat them in some years. They remain a benchmark crop, and the harvest shows up on the markets from spring onwards.",
+      },
+      {
+        heading: "The Vallespir, the Tech, and a Catalan town",
+        body: "Céret is the lower gateway to the Vallespir, the valley of the Tech, which climbs inland as far as Prats-de-Mollo. The valley packs a complete altitudinal range into a few dozen kilometres, orchards and olive trees here, mountains and spa towns higher up. The Tech is a coastal river on a Mediterranean regime: very low in summer, capable of violent floods in autumn, which is what explains the outsized arch of the Pont du Diable. The edges of the bed are not a place to settle in uncertain weather, and the autumn storm episodes concern this department as much as its neighbours. As for the town itself, this is Northern Catalonia, and it shows and it sounds: Catalan place names, bilingual signage, the sardana danced in the squares, a calendar of festivals that is not the rest of Occitania's. The old centre is walked under the plane trees, around the squares, and that is where the town is actually lived in. The Spanish border is about twenty kilometres away by road, which makes Southern Catalonia an easy excursion but still a border crossing: it is internal to the Schengen area, so no visa formality applies, but carrying identity documents is a legal requirement and not a precaution.",
+      },
+      {
+        heading: "The Canigou, and getting here",
+        body: "The Canigou massif dominates the whole northern horizon from the commune and is the visual landmark of Catalonia as a whole, on both sides of the border. It is not in Céret: the approaches and the refuges belong to other communes, the ascent uses tracks and paths that require preparation, and high mountains behave here as they do everywhere else, with afternoon storms in summer and severe winter conditions. The Aspres, dry hills between the Vallespir and the Conflent, offer easier walking and villages of character a short distance away. There has been no train to Céret since 1940: you arrive by car or by coach from Perpignan, about thirty kilometres away, which is the useful station. One day covers the bridge, the museum and the old centre. Two if you go up the Vallespir or cross the border. The season is wide, a Mediterranean foothill climate giving pleasant shoulder seasons; summer is hot and busy, and spring is the cherry season. Access to the wooded massifs can be restricted by prefectural order during fire risk periods, and that is checked on the day itself.",
+      },
+    ],
+    relatedCities: ["ceret", "perpignan", "collioure", "narbonne"],
+    tags: ["things to do in ceret", "ceret", "travel", "city guide", "occitanie"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

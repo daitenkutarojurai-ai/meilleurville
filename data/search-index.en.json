@@ -7947,18 +7947,53 @@
       "slug": "moving-to-rueil-malmaison-2026",
       "title": "Moving to Rueil-Malmaison in 2026: Joséphine's house and a very large commune",
       "emoji": "📦"
+    },
+    {
+      "slug": "things-to-do-in-langres-2026",
+      "title": "Things to do in Langres: a rampart ring that never breaks, and Diderot",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-saint-remy-de-provence-2026",
+      "title": "Things to do in Saint-Rémy-de-Provence: Glanum, and the year Van Gogh spent here",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-la-baule-2026",
+      "title": "Things to do in La Baule: a resort built on top of a buried village",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "things-to-do-in-morlaix-2026",
+      "title": "Things to do in Morlaix: a viaduct over the rooftops, and a motto aimed at England",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "things-to-do-in-dax-2026",
+      "title": "Things to do in Dax: the biggest spa town in France, and what a cure actually is",
+      "emoji": "♨️"
+    },
+    {
+      "slug": "things-to-do-in-vendome-2026",
+      "title": "Things to do in Vendôme: a 1508 façade, and the relic that paid for it",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-ceret-2026",
+      "title": "Things to do in Céret: the bridge Picasso painted that is not in Paris",
+      "emoji": "🍒"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 267
+      "count": 274
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 261
+      "count": 268
     },
     {
       "slug": "moving-to-france",
@@ -7978,12 +8013,12 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 59
+      "count": 60
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 59
+      "count": 60
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -7996,14 +8031,14 @@
       "count": 54
     },
     {
-      "slug": "real-estate",
-      "label": "real estate",
+      "slug": "grand-est",
+      "label": "grand est",
       "count": 53
     },
     {
-      "slug": "grand-est",
-      "label": "grand est",
-      "count": 52
+      "slug": "real-estate",
+      "label": "real estate",
+      "count": 53
     },
     {
       "slug": "ile-de-france",
@@ -8043,7 +8078,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 39
+      "count": 40
     },
     {
       "slug": "working-in-france",
@@ -8058,12 +8093,12 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 30
+      "count": 31
     },
     {
       "slug": "provence",
       "label": "provence",
-      "count": 30
+      "count": 31
     },
     {
       "slug": "single-parent-holidays",
@@ -8123,7 +8158,7 @@
     {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "cycling",
