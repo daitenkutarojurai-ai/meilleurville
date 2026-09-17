@@ -6,37 +6,38 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { QUITTER_PAIRS, buildQuitterPairData } from "@/lib/quitter-pairs";
+import {
+  QUITTER_PAIRS,
+  buildQuitterPairData,
+  pairToSlug,
+  pairToSlugEn,
+  slugToPairEn,
+} from "@/lib/quitter-pairs";
 import { comparePairSlug } from "@/lib/comparer-pairs";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { scoreColor } from "@/lib/utils";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
 
 type Props = { params: Promise<{ locale: string; pair: string }> };
 
-function enSlugToPair(slug: string): [string, string] | null {
-  const parts = slug.split("-to-");
-  if (parts.length !== 2) return null;
-  return [parts[0], parts[1]];
-}
-
 export function generateStaticParams() {
-  return QUITTER_PAIRS.map(([a, b]) => ({ locale: "en", pair: `${a}-to-${b}` }));
+  return QUITTER_PAIRS.map((p) => ({ locale: "en", pair: pairToSlugEn(p) }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { pair } = await params;
-  const parsed = enSlugToPair(pair);
+  const parsed = slugToPairEn(pair);
   if (!parsed) return {};
   const data = buildQuitterPairData(parsed[0], parsed[1]);
   if (!data) return {};
   const { origin, destination, monthlySavings } = data;
+  // Same pair, FR separator: both routes are generated from QUITTER_PAIRS, so
+  // every EN page has an FR twin at `/quitter/<a>-pour-<b>`.
+  const frPair = pairToSlug(parsed);
   const savingsLabel =
     monthlySavings != null
       ? monthlySavings > 0
@@ -48,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(
       `Moving from ${origin.name} to ${destination.name}: rent, fixed costs, quality-of-life scores, climate, and a verdict on who the move makes sense for.${savingsLabel}`,
     ),
-    alternates: { canonical: `${EN_BASE}/moving-from/${pair}` },
+    alternates: pathAlternatesEn(`/quitter/${frPair}`, `/moving-from/${pair}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
@@ -86,7 +87,7 @@ function CostRow({ label, origin, destination }: { label: string; origin: number
 
 export default async function MovingFromPairPage({ params }: Props) {
   const { pair } = await params;
-  const parsed = enSlugToPair(pair);
+  const parsed = slugToPairEn(pair);
   if (!parsed) notFound();
   const data = buildQuitterPairData(parsed[0], parsed[1]);
   if (!data) notFound();

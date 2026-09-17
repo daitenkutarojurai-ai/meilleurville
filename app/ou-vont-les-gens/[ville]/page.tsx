@@ -11,6 +11,7 @@ import { CITIES_LIGHT } from "@/lib/cities-light";
 import { migrationFor, commonOriginSlugs } from "@/lib/people-like-you";
 import { getProfile } from "@/lib/profile-pages";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 import { MapPin, ArrowRight, Info, Sparkles, TrendingUp } from "lucide-react";
 
@@ -48,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(
       `Vous envisagez de quitter ${city.name} ? Selon votre profil — famille, télétravailleur, jeune actif, retraité, étudiant, primo-accédant — voici les villes qui font mieux. Modèle estimatif transparent (scores officiels), pas du suivi.`,
     ),
-    alternates: { canonical: `/ou-vont-les-gens/${city.slug}` },
+    alternates: pathAlternates(`/ou-vont-les-gens/${city.slug}`, `/leaving/${city.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

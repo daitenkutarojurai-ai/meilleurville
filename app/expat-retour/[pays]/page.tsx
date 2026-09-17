@@ -11,7 +11,9 @@ import {
   countryWithArticle,
   countryFrom,
   countryInLabel,
+  EN_EXPAT_COUNTRY_SLUGS,
 } from "@/lib/expat-return";
+import { pathAlternates } from "@/lib/i18n";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -39,6 +41,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { pays } = await params;
   const country = getExpatCountry(stripDepuisPrefix(pays));
   if (!country) return {};
+  // ⚠️ Seules 6 des 23 fiches ont une jumelle anglaise : `app/[locale]/expat-return/[slug]`
+  // ne génère que `EN_EXPAT_COUNTRY_SLUGS`. On conditionne donc le `languages`
+  // sur ce même ensemble — l'ensemble qui commande le `generateStaticParams`
+  // d'en face, pas une ressemblance de slug (CLAUDE.md § hreflang : un
+  // hreflang qui pointe vers un 404 coûte plus cher que pas de hreflang).
+  // Les 17 autres gardent un canonical nu, ce qui est le comportement juste.
+  //
+  // La paire ne peut pas être dérivée par `hreflangLanguages()` : sa **queue**
+  // est traduite (`depuis-suisse` ↔ `from-suisse`), donc elle s'écrit à la
+  // main avec `pathAlternates`, comme le prescrit CLAUDE.md.
+  const enSlug = `from-${country.slug}`;
+  const frPath = `/expat-retour/${pays}`;
   return {
     // ⚠️ Le titre portait le nom **sans article** — « Rentrer en France depuis
     // Mexique », « depuis États-Unis » — sur les 23 fiches, alors que le H1
@@ -52,7 +66,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // « Avec villes recommandées (frontalières + métropoles). » poussait hors
     // du snippet les postes que le lecteur vient chercher.
     description: `Salaire net, loyer, fiscalité, santé, retraite : ce qui change vraiment quand on rentre en France depuis ${countryWithArticle(country)}, et les villes où atterrir.`,
-    alternates: { canonical: `/expat-retour/${pays}` },
+    alternates: EN_EXPAT_COUNTRY_SLUGS.has(country.slug)
+      ? pathAlternates(`/expat-retour/${pays}`, `/expat-return/${enSlug}`)
+      : { canonical: frPath },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

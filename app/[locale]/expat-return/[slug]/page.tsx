@@ -8,12 +8,10 @@ import { getExpatCountry, EN_EXPAT_COUNTRY_SLUGS } from "@/lib/expat-return";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
@@ -472,10 +470,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!country) return {};
 
   const name = EN_COUNTRY_NAME[countryKey] ?? country.name;
+  // Reciprocal of the FR page's hreflang. Every URL this route generates has an
+  // FR twin (the FR route covers all 23 countries, this one only the 6 with EN
+  // copy), so the pair is unconditional here — unlike on the FR side. The tail
+  // is translated (`from-suisse` ↔ `depuis-suisse`), hence pathAlternatesEn and
+  // not a derived map.
+  const frSlug = `depuis-${countryKey}`;
   return {
     title: `Moving back to France from ${name} — 2026 guide`,
     description: `Salary, tax, healthcare, admin steps: everything that changes when you return to France from ${name}. Practical per-country guide with city suggestions.`,
-    alternates: { canonical: `${EN_BASE}/expat-return/from-${countryKey}` },
+    alternates: pathAlternatesEn(`/expat-retour/${frSlug}`, `/expat-return/${slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

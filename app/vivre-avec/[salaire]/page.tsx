@@ -12,6 +12,7 @@ import {
   buildSalaryLanding,
 } from "@/lib/vivre-avec";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Vivre avec ${salary} €/mois en France 2026 · Top 10 villes adaptées`,
     description: `Salaire net ${salary} €/mois : où vivre confortablement en France ? Top 10 villes compatibles avec budget logement ${Math.round(salary * 0.33)} €, calcul du reste à vivre + comparatif Paris.`,
-    alternates: { canonical: `/vivre-avec/${salaire}` },
+    alternates: pathAlternates(`/vivre-avec/${salaire}`, `/living-on/${salaire}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

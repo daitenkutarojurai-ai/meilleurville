@@ -2374,11 +2374,18 @@ quiz, contre les 248 Ko qu'un import direct coûterait). Garde `expat` dans `npm
 3 surfaces, il refuse « depuis {country.name} », un compte de pays en dur et le retour d'un champ à
 repli. Deux dérives de compteur fermées au passage sur le hub, qui annonçait **18 pays** pour 23 et
 nommait les 18 mêmes dans son intro — les deux se dérivent d'`EXPAT_COUNTRIES`.
-⚠️ **Reste ouvert** : les 6 fiches FR ayant une jumelle EN ne déclarent pas de `languages` (leur
-`generateMetadata` ne rend qu'un `canonical`). `hreflang:check` passe parce qu'il contrôle les paires
-**déclarées**, pas les paires **existantes**. La paire a une queue traduite
-(`depuis-suisse` ↔ `from-suisse`), donc elle s'écrit à la main avec `pathAlternates` des deux côtés —
-12 `generateMetadata` conditionnés sur `EN_EXPAT_COUNTRY_SLUGS`, c'est un item à part.
+✅ **La paire hreflang est déclarée (2026-09-17)**, ce qui était noté ici « reste ouvert ». La queue
+est traduite (`depuis-suisse` ↔ `from-suisse`), donc elle s'écrit à la main avec `pathAlternates` /
+`pathAlternatesEn` des deux côtés. Deux asymétries à ne pas « harmoniser » : ① côté **FR** le
+`languages` est **conditionné sur `EN_EXPAT_COUNTRY_SLUGS`** — 6 fiches sur 23 ont une jumelle, les
+17 autres gardent un canonical nu, et c'est le comportement juste ; ② côté **EN** la paire est
+**inconditionnelle**, la route FR couvrant les 23 pays. Garde ajoutée dans `npm run integrity` :
+tout slug de `EN_EXPAT_COUNTRY_SLUGS` doit être le slug d'une fiche réelle — un `Set` de littéraux
+est bien typé même quand il porte une faute de frappe, et la faute produirait à la fois un
+`notFound()` côté EN et un hreflang FR en 404. ⚠️ `hreflang:check` contrôle les chemins des paires
+**déclarées** contre l'arbre de routes, pas l'égalité des deux `generateStaticParams` : celle-ci a
+été **mesurée** ce run (6/6, 0 slug EN sans fiche FR) et reste à remesurer si l'un des deux
+ensembles bouge.
 Avant-dernier ajouté : **Thaïlande** — la
 première fiche dont le fil conducteur n'est ni l'argent ni la fiscalité mais **la santé** : on rentre de
 Thaïlande le plus souvent pour se faire soigner, et c'est exactement là que le dossier est le plus mal

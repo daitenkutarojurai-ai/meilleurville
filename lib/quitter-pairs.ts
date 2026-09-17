@@ -236,6 +236,27 @@ export function slugToPair(slug: string): QuitterPair | null {
   return [parts[0], parts[1]] as const;
 }
 
+// Le séparateur de la jumelle EN : `/quitter/lyon-pour-bordeaux` est servi sur
+// `/moving-from/lyon-to-bordeaux`. Les deux routes génèrent exactement
+// `QUITTER_PAIRS`, seul le mot du milieu change — c'est donc une paire hreflang
+// valide, mais une paire dont la **queue** est traduite, que
+// `hreflangLanguages()` ne peut pas dériver (elle ne traduit que la tête et
+// émettrait `/moving-from/lyon-pour-bordeaux`, un 404).
+//
+// Les deux fonctions vivent ici et non dans la page EN, où `enSlugToPair`
+// était déclarée localement : la page FR a besoin du même séparateur pour
+// écrire son hreflang, et deux définitions du mot « to » se seraient
+// désynchronisées en silence.
+export function pairToSlugEn([a, b]: QuitterPair): string {
+  return `${a}-to-${b}`;
+}
+
+export function slugToPairEn(slug: string): QuitterPair | null {
+  const parts = slug.split("-to-");
+  if (parts.length !== 2) return null;
+  return [parts[0], parts[1]] as const;
+}
+
 const QUITTER_SLUGS = new Set(QUITTER_PAIRS.map(pairToSlug));
 
 // Same contract as `comparePairSlug`: `/quitter/[pair]` is `dynamicParams = false`,

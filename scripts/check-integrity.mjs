@@ -825,9 +825,32 @@ if (!failed) {
     });
   }
 
+  // ── Le sous-ensemble EN, qui commande un hreflang ────────────────────────
+  //
+  // `app/[locale]/expat-return/[slug]` ne génère que `EN_EXPAT_COUNTRY_SLUGS`,
+  // et depuis le 2026-09-17 il déclare pour chacune sa jumelle FR
+  // `/expat-retour/depuis-<slug>` en hreflang, **sans condition** — il peut se
+  // le permettre parce que la route FR couvre les 23 pays.
+  //
+  // Ce que `tsc` ne voit pas : un `Set` de chaînes littérales est bien typé,
+  // qu'il nomme un pays du tableau ou une faute de frappe. Un slug EN sans
+  // fiche FR ferait donc deux dégâts d'un coup — une page EN qui rend
+  // `notFound()` et un hreflang qui annonce une URL FR en 404, ce qui coûte
+  // plus cher que pas de hreflang du tout (CLAUDE.md § hreflang).
+  const { EXPAT_COUNTRIES, EN_EXPAT_COUNTRY_SLUGS } = load("lib/expat-return.ts");
+  const frSlugs = new Set(EXPAT_COUNTRIES.map((c) => c.slug));
+  for (const slug of EN_EXPAT_COUNTRY_SLUGS) {
+    if (!frSlugs.has(slug)) {
+      offences.push(
+        `lib/expat-return.ts  EN_EXPAT_COUNTRY_SLUGS contient « ${slug} », qui n'est le slug d'aucune fiche`,
+      );
+    }
+  }
+
   if (offences.length === 0) {
     console.log(
-      `  ok  expat     ${SURFACES.length} surfaces, aucun nom de pays sans article ni compte en dur`,
+      `  ok  expat     ${SURFACES.length} surfaces, aucun nom de pays sans article ni compte en dur` +
+        ` · ${EN_EXPAT_COUNTRY_SLUGS.size}/${EXPAT_COUNTRIES.length} fiches ont une jumelle EN, toutes réelles`,
     );
   } else {
     failed = true;

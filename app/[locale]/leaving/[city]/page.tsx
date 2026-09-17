@@ -11,10 +11,8 @@ import { CITIES_LIGHT, type CityLight } from "@/lib/cities-light";
 import { migrationFor, commonOriginSlugs } from "@/lib/people-like-you";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { scoreColor } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { MapPin, Info, Sparkles, TrendingUp } from "lucide-react";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -107,7 +105,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(
       `Thinking of leaving ${origin.name}? By profile — family, remote worker, retiree, student, first-time buyer — here are the French cities that score better. Transparent model from official data, no tracking.`,
     ),
-    alternates: { canonical: `${EN_BASE}/leaving/${origin.slug}` },
+    alternates: pathAlternatesEn(`/ou-vont-les-gens/${origin.slug}`, `/leaving/${origin.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

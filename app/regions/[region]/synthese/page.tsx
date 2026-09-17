@@ -27,6 +27,7 @@ import {
 } from "@/lib/city-synthesis";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -55,7 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(
       `Classement synthèse des ${count} villes de la région ${region} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
     ),
-    alternates: { canonical: `/regions/${regionSlug}/synthese` },
+    alternates: pathAlternates(`/regions/${regionSlug}/synthese`, `/regions/${regionSlug}/synthesis`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

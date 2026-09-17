@@ -7417,6 +7417,121 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-17
+
+- **hreflang — 7 familles FR/EN à jumelle exacte n'émettaient qu'un canonical, donc 2 416 pages
+  d'un côté comme de l'autre ne se déclaraient pas l'une à l'autre.** L'item nommé dans
+  `CLAUDE.md` § Expat retour (« reste ouvert : les 6 fiches FR ayant une jumelle EN ne déclarent
+  pas de `languages` ») est livré, et le balayage fait pour le livrer a trouvé six familles de plus
+  portant exactement le même défaut.
+
+  ⚠️ **Le mécanisme est celui documenté depuis l'audit du 2026-08-02 § 2.1, et il est silencieux
+  par construction** : `alternates` d'une page **remplace en entier** l'objet du layout racine, donc
+  une page qui ne rend qu'un `canonical` **supprime** le `languages` hérité au lieu de l'étendre.
+  Rien n'échoue, rien ne s'affiche : les deux domaines publient juste deux pages concurrentes sur le
+  même contenu, chacune muette sur l'existence de l'autre. `npm run hreflang:check` passait parce
+  qu'il contrôle les paires **déclarées** contre l'arbre de routes — il ne peut pas voir une paire
+  qui existe et n'est pas déclarée.
+
+  **Les 7 familles, et le nombre d'URL que chacune apporte** (mesuré en rejouant les vrais
+  `generateStaticParams` depuis les modules, pas en lisant les fichiers) :
+
+  | Famille | FR ↔ EN | Pages par locale |
+  |---|---|---|
+  | Coût ménage | `/cout-menage/[ville]` ↔ `/household-cost/[city]` | 540 |
+  | Calculateur coût réel | `/calculateur-cout-reel/[ville]` ↔ `/calculator/real-cost/[city]` | 540 |
+  | Quitter A pour B | `/quitter/<a>-pour-<b>` ↔ `/moving-from/<a>-to-<b>` | 74 |
+  | Où vont les gens | `/ou-vont-les-gens/[ville]` ↔ `/leaving/[city]` | 24 |
+  | Synthèse régionale | `/regions/[region]/synthese` ↔ `/regions/[region]/synthesis` | 18 |
+  | Vivre avec X €/mois | `/vivre-avec/[salaire]` ↔ `/living-on/[salary]` | 6 |
+  | Expat retour | `/expat-retour/depuis-<pays>` ↔ `/expat-return/from-<pays>` | 6 (sur 23 fiches) |
+
+  Soit **1 208 pages par locale, 2 416 en tout**. Aucune route neuve, aucune URL de sitemap neuve :
+  `sitemap:check` donne les mêmes FR 29 248 / EN 28 840 avant et après. `hreflang:check` passe de
+  **195 à 209 paires écrites à la main**, soit les 14 `generateMetadata` touchés (7 familles × 2
+  côtés), et le contrôle reste vert — chaque chemin déclaré tombe sur une route réelle, littéral
+  face à littéral et dynamique face à dynamique, et chaque canonical est bien celui de la page qui
+  l'émet. **Les canonicals sont inchangés au caractère près** (FR relatif contre `metadataBase`, EN
+  absolu sur l'origine EN) : le run n'ajoute que le `languages`.
+
+  ⚠️ **Les 6 des 7 familles sont des paires à queue traduite ou à séparateur traduit, donc
+  `hreflangLanguages()` ne pouvait pas les dériver** : elle ne traduit que la **tête** de segment et
+  aurait émis `/regions/x/synthese` côté EN, `/moving-from/<a>-pour-<b>`, `/expat-return/depuis-x` —
+  trois URL qui n'existent pas. C'est la règle de `CLAUDE.md` § hreflang : hors sous-pages ville, la
+  paire s'écrit **à la main** avec `pathAlternates` / `pathAlternatesEn`, qui sont précisément les
+  appels que `hreflang:check` relit.
+
+  ⚠️ **L'asymétrie de la famille expat est volontaire et ne doit pas être « harmonisée ».** Côté
+  **FR** le `languages` est conditionné sur `EN_EXPAT_COUNTRY_SLUGS` — **6 fiches sur 23** ont une
+  jumelle anglaise, les 17 autres gardent un canonical nu, ce qui est le comportement juste (un
+  hreflang vers un 404 coûte plus cher que pas de hreflang). Côté **EN** la paire est
+  **inconditionnelle**, la route FR couvrant les 23 pays. Et la condition est posée sur
+  **l'ensemble qui commande le `generateStaticParams` d'en face**, jamais sur une ressemblance de
+  slug — c'est le piège que `CLAUDE.md` signale à propos du `coveredByDynamic` de `npm run parity`.
+
+  **Ce qui prouve le run n'est pas `hreflang:check` mais une mesure d'ensembles.** Un contrôle de
+  motifs de routes ne dit rien du fait que le slug précis existe en face ; un script de scratch a
+  donc rejoué les sept `generateStaticParams` depuis `CITIES_SEED`, `SALARY_BRACKETS`,
+  `ALL_REGIONS`, `QUITTER_PAIRS`, `commonOriginSlugs(CITIES_LIGHT, 24)` et `EXPAT_COUNTRIES`, puis
+  vérifié **dans les deux sens** que la cible hreflang de chaque page est générée de l'autre côté :
+  **0 manquant sur les 1 208 paires**, 0 doublon, et 0 slug de `EN_EXPAT_COUNTRY_SLUGS` sans fiche
+  FR. Contrôle supplémentaire sur la famille `quitter`, dont les deux séparateurs sont des mots :
+  les 74 paires font l'aller-retour `pairToSlug`/`slugToPair` et `pairToSlugEn`/`slugToPairEn` sans
+  perte, et **aucun slug de ville du corpus ne porte un segment valant exactement « to » ou
+  « pour », ce qui casserait le découpage.
+
+  🔧 **Une définition en double supprimée au passage** : `app/[locale]/moving-from/[pair]/page.tsx`
+  déclarait localement `enSlugToPair` et interpolait `` `${a}-to-${b}` `` dans son
+  `generateStaticParams`, alors que la page FR a désormais besoin du même séparateur pour écrire son
+  hreflang. `pairToSlugEn` / `slugToPairEn` vivent maintenant dans `lib/quitter-pairs.ts`, à côté de
+  leurs équivalents FR : deux définitions du mot « to » se seraient désynchronisées en silence.
+  `EN_BASE` devenu inutilisé est retiré des 5 pages EN où il ne servait plus qu'au canonical.
+
+  **Garde ajoutée à `npm run integrity`** (bloc `expat`, qui passe à « 6/23 fiches ont une jumelle
+  EN, toutes réelles ») : tout slug de `EN_EXPAT_COUNTRY_SLUGS` doit être le slug d'une fiche de
+  `EXPAT_COUNTRIES`. C'est le seul point du dispositif que `tsc` ne peut pas tenir — un `Set` de
+  chaînes littérales est bien typé qu'il nomme un pays ou une faute de frappe — et la faute ferait
+  deux dégâts d'un coup : une page EN en `notFound()` et un hreflang FR vers un 404. **Garde
+  vérifiée en la faisant échouer** (`luxembourg` → `luxemburg` : le contrôle sort en rouge), puis
+  restaurée.
+
+  **Contrôles** : `npx tsc --noEmit` **propre**, `npm run integrity`, `npm run hreflang:check`
+  (195 → 209 paires, vert), `npm run parity` (**code 0**, 0 route FR sans jumelle),
+  `npm run sitemap:check` (FR 29 248 · EN 28 840, inchangés — c'est un changement de métadonnées,
+  pas de routes), plus les deux mesures d'ensembles ci-dessus. `npm run build` **non lancé,
+  volontairement** (cf. `CLAUDE.md` § Commands depuis le batch 27).
+
+  **Ce qui n'est PAS livré, et qui reste ouvert, mesuré ce run par balayage de l'arbre** — il reste
+  **64 pages FR** et **12 pages EN** qui rendent un `alternates` sans `languages` (hors pages de
+  compte, exclues volontairement). La très grande majorité est **correctement** sans hreflang :
+  familles FR sans équivalent EN (`/badge/*` — miroir EN écarté par décision, `/villes-qui-grandissent`,
+  les 12 owner-rankings `/classements/<slug>`, `/gentrification/carte`, les deux `/personnaliser`,
+  `/expat-retour/quiz`), corpus non traduits (`/guides/[slug]` et `/guides/categorie/[categorie]` :
+  les guides EN sont du contenu natif et les catégories EN sont **six** contre sept côté FR, le
+  fichier le documente), et `/quiz`, dont le canonical pointe volontairement vers `/city-match`.
+  Trois familles restent de **vraies** paires non déclarées, chacune un item à part parce qu'elle
+  demande une table partagée que les pages n'ont pas aujourd'hui :
+  1. **`/pour-qui/[profil]` ↔ `/for-who/[slug]`** — 13 des 36 profils ont une jumelle, **avec slug
+     traduit** (`familles-avec-enfants` ↔ `families`). La correspondance vit dans le champ `enSlug`
+     de `EN_PROFILES`, **à l'intérieur de la page EN**, donc la page FR ne peut pas la lire : il
+     faut sortir la table dans une lib avant de câbler quoi que ce soit.
+  2. **`/red-flags/<thème>` ↔ `/red-flags/themes/<slug>`** — **28 des 39** thèmes FR ont une
+     jumelle, mesuré ce run, et `EN_THEMES` porte déjà le `frSlug` de chacune (les 28 pointent
+     toutes vers une page FR réelle, 0 doublon : la table est saine, elle n'est simplement pas
+     lue par les `generateMetadata`). Deux obstacles : **la profondeur d'URL diffère** (un segment
+     `themes` en plus côté EN, donc `hreflangLanguages()` est hors jeu) et le `languages` FR doit
+     être conditionné sur cette sélection, comme celui des fiches expat l'est ce run — les 11
+     thèmes sans jumelle gardent un canonical nu.
+  3. **`/tags/[slug]`** — les deux corpus de tags sont distincts (269 FR contre 114 EN) et leurs
+     slugs sont dérivés de guides différents. L'intersection est **mesurée ce run : 55 slugs
+     communs** (`bordeaux`, `lyon`, `bretagne`, `budget`, `alsace`, `lifestyle`…), donc la paire
+     existe pour ceux-là et pour eux seuls — mais deux pages `/tags/lyon` qui listent des corpus
+     différents ne sont pas forcément des alternates au sens de Google, et c'est la question
+     éditoriale à trancher avant de câbler quoi que ce soit. Ce qui est sûr : la paire se déclare
+     sur l'intersection **mesurée**, jamais sur la ressemblance des mots.
+
+---
+
 ## Shipped 2026-09-16
 
 *(Run du matin : `moving-to-[city]-2026` batch 3, cf. § Parité EN → « Livré le 16/09 ».

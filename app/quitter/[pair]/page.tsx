@@ -9,8 +9,10 @@ import {
   QUITTER_PAIRS,
   buildQuitterPairData,
   pairToSlug,
+  pairToSlugEn,
   slugToPair,
 } from "@/lib/quitter-pairs";
+import { pathAlternates } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { comparePairSlug } from "@/lib/comparer-pairs";
 import { scoreColor } from "@/lib/utils";
@@ -37,6 +39,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = buildQuitterPairData(parsed[0], parsed[1]);
   if (!data) return {};
   const { origin, destination, monthlySavings } = data;
+  // Les deux routes dérivent de `QUITTER_PAIRS` : la jumelle EN existe pour
+  // chacune des paires, seul le séparateur est traduit (`-pour-` → `-to-`).
+  const enPair = pairToSlugEn(parsed);
   const savingsLabel =
     monthlySavings != null
       ? monthlySavings > 0
@@ -46,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Quitter ${origin.name} pour ${destination.name} · Comparatif honnête 2026`,
     description: `Quitter ${origin.name} pour ${destination.name} : loyer, charges, owner scores, climat, verdict pour qui le move a du sens.${savingsLabel}`,
-    alternates: { canonical: `/quitter/${pair}` },
+    alternates: pathAlternates(`/quitter/${pair}`, `/moving-from/${enPair}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

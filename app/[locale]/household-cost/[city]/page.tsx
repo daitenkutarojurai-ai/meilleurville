@@ -13,12 +13,10 @@ import {
   type HouseholdProfile,
 } from "@/lib/household-cost";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 type Props = { params: Promise<{ locale: string; city: string }> };
 
@@ -33,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Cost of living in ${c.name} by household type 2026 · Solo, couple, family, retired`,
     description: `Real monthly fixed costs in ${c.name} for 4 household types: single (studio), couple (1-bed), family of 4, retired. Rent, heating, mobility, taxes.`,
-    alternates: { canonical: `${EN_BASE}/household-cost/${city}` },
+    alternates: pathAlternatesEn(`/cout-menage/${city}`, `/household-cost/${city}`),
   };
 }
 
