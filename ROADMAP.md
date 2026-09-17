@@ -2918,6 +2918,116 @@ demande, par `scripts/local-data-runner.sh --status`, qui donne les trois couver
 chacune n'a pas bougé, la présence des couches INPN et celle d'`ogr2ogr`. Si le cron lui-même est
 décroché, rien de tout cela ne partira : c'est la première chose à vérifier (`crontab -l`).
 
+#### Point d'étape 2026-09-17 — le disque compte la mer, et le seul chiffre encore publié n'est pas la part du sol protégé
+
+**État de la collecte, contrôlé sur la date des lignes et non sur leur nombre.**
+`data/city-biodiversity.json` porte 540 lignes en `queryVersion` 3, relevées du **09 au 13/09**
+(120/120/120/120/60) ; `data/city-protected-areas.json` 540 lignes de la passe BD TOPO du
+**19/08**. Rien de neuf depuis le run précédent, et c'est **nominal** : le collecteur ne sert que
+les lignes échues, aucune ne l'est à quatre jours. `biodiversity:stats`, `biodiversity:selftest`
+et `protected-areas:selftest` passent ; 540/540 mesurables, aucune ville sous le plancher
+d'effort. Les deux casiers « Animalia spec » de Cayenne et Saint-Laurent-du-Maroni sont toujours
+dans la donnée et toujours écartés à l'affichage par `displayTopSpecies()` — toujours non couvert :
+leur vecteur de raréfaction est consommé à la collecte.
+
+**Le run a donc porté, comme le précédent, sur la seule composante qui publie encore une note — les
+zones protégées — et sur le dernier terme de sa fraction que personne n'avait relu : le
+dénominateur.**
+
+⚠️ **Le disque de 15 km est rastérisé sans distinguer la mer du sol. Sur 101 villes sur 540, le
+pourcentage publié mélange donc du sol et de l'eau des deux côtés de la fraction** : au
+dénominateur l'eau compte comme du sol qui aurait pu être protégé, au numérateur les périmètres
+**marins** qui la couvrent comptent comme n'importe quel zonage. En métropole ce sont des sites
+Natura 2000, et c'est visible dans la donnée sans aucune classification de notre part : le plus
+grand périmètre des Sables-d'Olonne est le « **Secteur Marin de l'Île d'Yeu Jusqu'au Continent** »
+(24 006 ha), celui de La Rochelle « **Pertuis Charentais - Rochebonne** » (29 025 ha, un plateau du
+large), celui de Granville « **Chausey** » (29 044 ha), celui du Havre « **Baie de Seine
+Orientale** », et les « **Posidonies de la Côte Palavasienne** » de Sète sont un herbier
+sous-marin.
+
+⚠️ **Le plus parlant est que l'ingest connaît la règle et l'a écrite noir sur blanc — à l'endroit
+où elle ne change rien.** Son tableau `EXCLUDED` refuse les **ZNIEFF marines** au motif que « les
+compter reviendrait à récompenser une ville côtière pour de l'eau ; la couverture mesurée ici est
+celle du sol autour de la commune ». Mais les deux ZNIEFF sont **hors barème depuis le 26/08** :
+l'exclusion porte donc sur la seule couche absente du score, et **jamais sur Natura 2000**, qui est
+dans le score à 0,6 et qui porte les sites marins. La règle était juste, elle n'était pas appliquée
+là où elle mordait.
+
+**Mesures du run, toutes dérivées et aucune recopiée.** Le discriminant n'est pas un nom mais une
+mesure déjà dans le dépôt : `lib/city-coast.ts`, la distance à la **mer ouverte** des 540 villes
+(polygone océan Natural Earth, filtré sur la largeur du plan d'eau, donc l'estuaire de la Loire à
+Nantes — 25,5 km — n'en est pas). Villes dont le disque atteint la mer : **101 sur 540 (18,7 %)**,
+dont **37** ont la mer à moins d'un kilomètre du centre et **18 sont ultramarines**. Couverture
+médiane **20,4 % contre 4,6 %** pour les 439 villes de l'intérieur, soit 4,4 fois. Et elles sont
+sur-représentées là où ça se lit : **16 des 40 lignes** du classement national pour un vivier à
+18,7 %, **8 des 20** du classement des villes de plus de 100 000 habitants — soit huit des neuf
+grandes villes dont le disque touche la mer.
+
+⚠️ **Cet écart n'est pas « la part d'eau », et aucune surface ne doit le présenter ainsi.** Le
+littoral français est réellement plus protégé que l'intérieur — dunes, marais, conservatoire — et
+**nos données ne savent pas partager les deux** : il faudrait un masque terre/mer à la collecte.
+Ce qui est établi, c'est que les deux entrent dans le même nombre, donc que les deux groupes ne se
+comparent pas. C'est ce que les surfaces disent, ni plus ni moins.
+
+⚠️ **On le dit, on ne le repondère pas** — troisième application du même arbitrage, après le couple
+cœur de parc / aire d'adhésion (26/08) et les zones tampons (14/09). Redresser demanderait un
+masque terre/mer **à l'ingest** : la part d'eau d'un disque ne se déduit pas d'une distance (une
+presqu'île et un fond d'estuaire à 0 km de la mer n'ont pas la même), et découper les polygones
+marins sur le trait de côte est une autre passe, pas un correctif d'affichage. La différence avec
+le retrait du rang d'espaces verts (31/08) tient au même critère qu'alors : là, le chiffre était
+**faux** (un polygone porté au crédit d'une commune où il n'est pas) ; ici il est **exact et mal
+nommé**, et le lecteur peut en tenir compte dès lors qu'on le lui dit.
+
+**Livré.** `protectionSeaDistanceKm()` (`lib/biodiversity.ts`) — la distance à la mer ouverte quand
+elle tombe dans le disque, `null` sinon ; `PROTECTION_SEA_EXPOSED`, `PROTECTION_SEA_COUNT`,
+`PROTECTION_SEA_MEDIAN`, `PROTECTION_INLAND_MEDIAN` et `seaExposedInRanking(limit, minPop)`
+(`lib/protected-areas-ranking.ts`), **tous dérivés du `rankByProtection` réel avec ses paliers
+d'ex æquo**, pour qu'une passe de collecte déplace les nombres au lieu de les périmer. Les
+**quatre** surfaces qui publient la couverture le disent : les deux sous-pages ville
+(`/villes/[slug]/biodiversite`, `/cities/[slug]/biodiversity`) avec la distance mesurée de *leur*
+mer, et les deux hubs (`/espaces-proteges`, `/protected-areas`) avec un paragraphe de méthode, une
+entrée de FAQ — donc du JSON-LD `FAQPage` — et un marqueur « disque en partie en mer » ligne par
+ligne, à côté du marqueur de zone tampon. `protected-areas:stats` **nomme** les villes concernées
+et publie les deux médianes, par un chemin de code indépendant de la lib : les deux tombent sur
+101/540, 20,4 % et 4,6 %.
+
+**Garde ajoutée à `npm run integrity` : `protégées`.** Toute surface de `app/**` ou
+`components/*.tsx` qui lit `weightedCoverage`, `protectionCoverage`, `rankByProtection` ou
+`PROTECTION_MEDIAN_COVERAGE` doit dire que le disque compte la mer, dans sa locale. Même forme que
+les gardes `env quartet` (09/09) et `moteurs` (09/10), et pour la même raison : le correctif tient
+en quatre fichiers, un correctif de cette famille s'est déjà perdu en ne traitant qu'une surface
+sur huit, et ni `tsc` ni le build ne voient qu'une page a cessé de le dire. **Vérifiée en la
+faisant échouer** (prose retirée de la jumelle EN → `ÉCHEC ... 1 surface muette`), puis restaurée.
+⚠️ Elle lit le code **commentaires retirés** : la première version passait sur un fichier dont la
+prose avait été effacée, parce que le commentaire qui pose la règle (« villes dont le disque
+atteint la mer ») satisfaisait la règle — même piège qu'au garde F64 du 15/09.
+
+🔧 **Corrigé en passant, dans le chargeur de `scripts/check-integrity.mjs`** : un import portant
+déjà son extension (`@/data/city-biodiversity.json`) ne se résolvait pas du tout — la boucle
+n'essayait que `base + ext` et jamais `base` nu — ce qui rendait `lib/biodiversity.ts`, et tout ce
+qui en dépend, **inchargeable** par les gardes. L'extension vide est essayée en dernier, avec un
+test `isFile` pour ne pas « résoudre » un répertoire homonyme.
+
+⚠️ **Non couvert, et à ne pas confondre avec du mesuré.** ① Le pendant **terrestre** du même
+défaut : le disque d'une ville frontalière déborde sur l'Allemagne, la Belgique, le Luxembourg, la
+Suisse, l'Espagne ou l'Italie, où la BD TOPO n'a aucun périmètre, donc son dénominateur contient
+lui aussi de la surface où la source ne peut rien trouver. **Ce run ne l'a pas mesuré** — il
+faudrait un polygone des frontières, qu'aucun fichier du dépôt ne porte — et rien n'autorise à
+supposer son ampleur. ② La part d'eau **par ville** n'est pas publiée : une approximation par
+segment de disque sur un trait de côte droit est fausse d'un facteur notable sur une presqu'île
+comme Brest ou un fond de rade, et une phrase sans chiffre vaut mieux qu'un chiffre faux (même
+doctrine que le décompte de la crue de Vaison, batch 46). Les pages publient la **distance
+mesurée**, pas une fraction modélisée. ③ `overall` reste `null` sur les 540 : deux composantes sur
+trois n'ont plus de rang publiable, et repondérer sur une seule donnerait un chiffre qui ne mesure
+pas ce que son nom annonce.
+
+**Contrôles.** `npx tsc --noEmit` **propre**, `npm run integrity` (dont la garde neuve),
+`npm run sitemap:check` (FR 29 248 URL, EN 28 840 — inchangés, aucune route neuve),
+`npm run parity` (code 0), `npm run hreflang:check` (code 0), `protected-areas:selftest`,
+`biodiversity:selftest`, plus une vérification d'encodage (accents intacts, aucun mojibake, aucun
+`m2` / `EUR` / `deg` ascii) et une passe em-dash à **1 pour 271 mots** sur la prose ajoutée (cible
+R7.10 : ~1 pour 200). `npm run build` **non lancé, volontairement** (cf. CLAUDE.md § Commands).
+
 #### Point d'étape 2026-09-14 — la tête du classement national est portée par des zones tampons comptées comme des réserves
 
 **Le corpus GBIF est intégralement à jour, pour la première fois.** Les 540 lignes de

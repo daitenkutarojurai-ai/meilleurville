@@ -18,6 +18,11 @@ import {
   PROTECTION_BUFFER_LED,
   PROTECTION_BUFFER_LED_RANKS,
   PROTECTION_BUFFER_ONLY,
+  PROTECTION_SEA_EXPOSED,
+  PROTECTION_SEA_COUNT,
+  PROTECTION_SEA_MEDIAN,
+  PROTECTION_INLAND_MEDIAN,
+  seaExposedInRanking,
   PROTECTION_CRAWLED_AT,
   PROTECTION_KIND_LABEL_EN,
   PROTECTION_MEDIAN_COVERAGE,
@@ -74,6 +79,13 @@ const BUFFER_LED_SLUGS = new Set(PROTECTION_BUFFER_LED.map((c) => c.slug));
  *  "strongest status" column that overstates. */
 const BUFFER_ONLY_SLUGS = new Set(PROTECTION_BUFFER_ONLY.map((c) => c.slug));
 
+/** Cities whose disc reaches the open sea: their percentage mixes ground and
+ *  water on both sides of the fraction. Same 101 cities as the French twin. */
+const SEA_SLUGS = new Set(PROTECTION_SEA_EXPOSED.map((c) => c.slug));
+
+/** Share of the corpus concerned, derived — 18.7 % on 2026-09-17. */
+const SEA_SHARE_PCT = ((100 * PROTECTION_SEA_COUNT) / PROTECTION_RANKED_COUNT).toFixed(1);
+
 function Row({ entry, rank, tied }: { entry: ProtectionEntry; rank: number; tied: boolean }) {
   return (
     <tr className="border-t border-[var(--border)]">
@@ -113,6 +125,9 @@ function Row({ entry, rank, tied }: { entry: ProtectionEntry; rank: number; tied
           <span className="block text-[10px]">
             buffer zone · {fmt(bufferShare(entry.city.slug))}% of the disc
           </span>
+        )}
+        {SEA_SLUGS.has(entry.city.slug) && (
+          <span className="block text-[10px]">disc partly at sea</span>
         )}
       </td>
     </tr>
@@ -167,6 +182,10 @@ export default function EnProtectedAreasPage() {
     {
       q: "Are ZNIEFF inventories included?",
       a: "No. A ZNIEFF is a scientific inventory with no legal force — it protects nothing on its own. Only statutory designations count: nature reserves, national and regional parks, prefectural biotope orders and Natura 2000 sites.",
+    },
+    {
+      q: "Is a seaside city's figure comparable with an inland one's?",
+      a: `No. The ${PROTECTED_RADIUS_KM} km disc is cut up without telling sea from ground: on the ${PROTECTION_SEA_COUNT} cities whose disc reaches the open sea, the water counts in the denominator as though it were ground that could have been designated, and the marine Natura 2000 sites covering it count in the numerator. Their median coverage is ${fmt(PROTECTION_SEA_MEDIAN)}% against ${fmt(PROTECTION_INLAND_MEDIAN)}% for the rest, but that gap mixes two things our data does not separate: water counted as ground, and a coastline genuinely better protected than an inland plain.`,
     },
     {
       q: "Does high coverage mean the nature is accessible?",
@@ -396,6 +415,30 @@ export default function EnProtectedAreasPage() {
               The right-hand column flags them city by city. We say it rather than correct it:
               reweighting on the strength of a name would rewrite a published ranking from a
               regular expression.
+            </p>
+            <p>
+              <strong>
+                And on {PROTECTION_SEA_COUNT} cities, part of the disc is sea.
+              </strong>{" "}
+              The disc is rasterised without telling water from ground. For a coastal commune
+              the water therefore sits in the denominator as though it were ground that could
+              have been designated — and the <em>marine</em> sites covering it sit in the
+              numerator like any other designation. In metropolitan France those are Natura 2000
+              sites: the largest one at Les Sables
+              d&apos;Olonne is the &laquo;&nbsp;Secteur Marin de l&apos;Île d&apos;Yeu
+              Jusqu&apos;au Continent&nbsp;&raquo;, La Rochelle&apos;s is the offshore
+              Rochebonne plateau, and Sète&apos;s &laquo;&nbsp;Posidonies de la Côte
+              Palavasienne&nbsp;&raquo; is an underwater seagrass meadow. These cities are{" "}
+              {SEA_SHARE_PCT}% of the corpus and{" "}
+              {seaExposedInRanking(NATIONAL_LIMIT).published} of the {NATIONAL_LIMIT} rows
+              above; their median coverage is {fmt(PROTECTION_SEA_MEDIAN)}% against{" "}
+              {fmt(PROTECTION_INLAND_MEDIAN)}% for inland cities.{" "}
+              <strong>That gap is not &ldquo;the share of water&rdquo;</strong>: a coastline
+              genuinely is better protected too, and our data cannot split the two — it would
+              take a land/sea mask at collection time. The ingest does know the rule: it
+              refuses marine ZNIEFF sites so as not to &ldquo;reward a coastal city for
+              water&rdquo;. Only ZNIEFF are outside the score anyway, so the exclusion applies
+              to the one layer where it changes nothing.
             </p>
             <p>
               <strong>Protected does not mean accessible.</strong> A designation says what cannot

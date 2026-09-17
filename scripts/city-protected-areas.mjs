@@ -1785,6 +1785,43 @@ async function showStats() {
       for (const [slug, share] of material) log(`      ${slug.padEnd(24)} ${share.toFixed(1)} % of the disc`);
     }
   }
+
+  // Sea inside the disc. The grid does not tell water from ground, so for a
+  // coastal commune the water sits in the denominator as though it were ground
+  // that could have been designated — and the MARINE Natura 2000 sites covering
+  // it sit in the numerator like any other designation. This file already knows
+  // the rule: EXCLUDED refuses marine ZNIEFF so as not to "récompenser une ville
+  // côtière pour de l'eau". Only ZNIEFF are outside the score anyway (since
+  // 2026-08-26), so that exclusion bites on the one layer where it changes
+  // nothing, and never on Natura 2000. Found 2026-09-17.
+  //
+  // Read from data/city-coast.json — a real measurement (Natural Earth ocean
+  // polygon, filtered on the width of the water body), not a guess from a tag.
+  // No land/sea mask here, so this line does not correct anything: it says who
+  // is concerned and how far the open sea is, which is what the surfaces show.
+  try {
+    const coast = JSON.parse(await fs.readFile(path.join(ROOT, "data", "city-coast.json"), "utf8"));
+    const atSea = scoped
+      .filter(([slug]) => typeof coast[slug] === "number" && coast[slug] < RADIUS_KM)
+      .sort((a, b) => coast[a[0]] - coast[b[0]]);
+    if (atSea.length) {
+      const med = (rows) => {
+        const v = rows.map(([, r]) => r.weightedCoverage).sort((a, b) => a - b);
+        return v.length ? v[v.length >> 1] : 0;
+      };
+      const seaSlugs = new Set(atSea.map(([slug]) => slug));
+      const inland = scoped.filter(([slug]) => !seaSlugs.has(slug));
+      log(
+        `  ⚠️  disc reaching the open sea (water counted as ground, marine Natura 2000 counted as protection): ` +
+          `${atSea.length}/${scoped.length}`,
+      );
+      log(`      median coverage ${med(atSea)} % against ${med(inland)} % inland — the gap mixes`);
+      log(`      water counted as ground with a genuinely better-protected coastline; we cannot split it.`);
+      log(`      closest to the sea: ${atSea.slice(0, 6).map(([slug]) => `${slug} (${coast[slug]} km)`).join(", ")}`);
+    }
+  } catch (err) {
+    log(`  (sea exposure not computed: ${err.message})`);
+  }
 }
 
 /* ── run ─────────────────────────────────────────────────────────────────── */

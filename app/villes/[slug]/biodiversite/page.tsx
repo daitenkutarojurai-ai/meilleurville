@@ -39,6 +39,7 @@ import {
   inpnUrl,
   isBufferPerimeter,
   isMeasuredProtection,
+  protectionSeaDistanceKm,
   type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
   recordConcentration,
@@ -56,6 +57,9 @@ import {
 import {
   PROTECTION_MEDIAN_COVERAGE,
   PROTECTION_RANKED_COUNT,
+  PROTECTION_SEA_COUNT,
+  PROTECTION_SEA_MEDIAN,
+  PROTECTION_INLAND_MEDIAN,
 } from "@/lib/protected-areas-ranking";
 
 export const revalidate = false;
@@ -319,6 +323,11 @@ export default async function BiodiversitePage({ params }: Props) {
   // aucun périmètre, elle, a bien été mesurée — la page l'écrit, plutôt que de
   // laisser croire à un trou de données.
   const measuredAreas = protectedAreas && isMeasuredProtection(protectedAreas) ? protectedAreas : null;
+  // La mer dans le disque : sur 101 villes le pourcentage ci-dessous mélange du
+  // sol et de l'eau, des deux côtés de la fraction. Mesuré — `lib/city-coast`
+  // porte la distance à la mer ouverte, filtrée sur la largeur du plan d'eau,
+  // donc l'estuaire de la Loire à Nantes (25,5 km) n'en est pas.
+  const seaKm = protectionSeaDistanceKm(slug);
   const protectionDetail = measuredAreas
     ? `${nb(measuredAreas.weightedCoverage)} % du disque de ${measuredAreas.radiusKm} km sous protection, ` +
       `pondéré par le niveau (${nb(measuredAreas.rawCoverage)} % sous un zonage quelconque). ` +
@@ -838,6 +847,25 @@ export default async function BiodiversitePage({ params }: Props) {
                 nuisent pas. La source publie les deux dans la même couche, donc la couverture
                 ci-dessus les compte au même niveau — le plus fort du barème. Là où le tampon est
                 grand et la réserve minuscule, le chiffre est un majorant.
+              </p>
+            )}
+            {seaKm !== null && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                {seaKm < 0.5
+                  ? "La mer ouverte borde le centre-ville"
+                  : `La mer ouverte est à ${nb(seaKm)} km du centre`}{" "}
+                : une part du disque de {measuredAreas.radiusKm} km est donc de l&apos;
+                <strong>eau</strong>. Le calcul ne distingue pas l&apos;eau du sol. Elle compte au
+                dénominateur comme du sol qui aurait pu être protégé, et un périmètre marin qui la
+                couvre compte au numérateur comme n&apos;importe quel zonage. Le pourcentage
+                ci-dessus n&apos;est donc pas la part du <em>sol</em> sous protection,
+                et il ne se compare pas à celui d&apos;une ville de l&apos;intérieur : médiane{" "}
+                {nb(PROTECTION_SEA_MEDIAN)} % sur les {nb(PROTECTION_SEA_COUNT)} villes dont le
+                disque touche la mer, {nb(PROTECTION_INLAND_MEDIAN)} % sur les{" "}
+                {nb(PROTECTION_RANKED_COUNT - PROTECTION_SEA_COUNT)} autres. Nous ne savons pas
+                partager l&apos;écart : un littoral est aussi réellement plus protégé qu&apos;un
+                intérieur de terres, et séparer les deux demanderait un masque terre/mer que notre
+                source n&apos;a pas.
               </p>
             )}
             {measuredAreas.areasTruncated && (

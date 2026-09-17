@@ -18,6 +18,11 @@ import {
   PROTECTION_BUFFER_LED,
   PROTECTION_BUFFER_LED_RANKS,
   PROTECTION_BUFFER_ONLY,
+  PROTECTION_SEA_EXPOSED,
+  PROTECTION_SEA_COUNT,
+  PROTECTION_SEA_MEDIAN,
+  PROTECTION_INLAND_MEDIAN,
+  seaExposedInRanking,
   PROTECTION_CRAWLED_AT,
   PROTECTION_KIND_LABEL_FR,
   PROTECTION_MEDIAN_COVERAGE,
@@ -83,6 +88,16 @@ const BUFFER_LED_SLUGS = new Set(PROTECTION_BUFFER_LED.map((c) => c.slug));
  *  tampons : c'est la colonne « protection la plus forte » qui surestime. */
 const BUFFER_ONLY_SLUGS = new Set(PROTECTION_BUFFER_ONLY.map((c) => c.slug));
 
+/** Villes dont le disque atteint la mer ouverte : leur pourcentage mélange du
+ *  sol et de l'eau, des deux côtés de la fraction. Voir
+ *  `protectionSeaDistanceKm`. */
+const SEA_SLUGS = new Set(PROTECTION_SEA_EXPOSED.map((c) => c.slug));
+
+/** Part du corpus concernée, dérivée — 18,7 % au 2026-09-17. */
+const SEA_SHARE_PCT = ((100 * PROTECTION_SEA_COUNT) / PROTECTION_RANKED_COUNT)
+  .toFixed(1)
+  .replace(".", ",");
+
 function Row({ entry, rank, tied }: { entry: ProtectionEntry; rank: number; tied: boolean }) {
   return (
     <tr className="border-t border-[var(--border)]">
@@ -126,6 +141,9 @@ function Row({ entry, rank, tied }: { entry: ProtectionEntry; rank: number; tied
           <span className="block text-[10px]">
             zone tampon · {fmt(bufferShare(entry.city.slug))} % du disque
           </span>
+        )}
+        {SEA_SLUGS.has(entry.city.slug) && (
+          <span className="block text-[10px]">disque en partie en mer</span>
         )}
       </td>
     </tr>
@@ -180,6 +198,10 @@ export default function EspacesProtegesPage() {
     {
       q: "Les ZNIEFF entrent-elles dans le calcul ?",
       a: "Non. Une ZNIEFF est un inventaire scientifique sans portée juridique : elle ne protège rien par elle-même. Seules les protections réglementaires comptent — réserves naturelles, parcs nationaux et régionaux, arrêtés de protection de biotope, sites Natura 2000.",
+    },
+    {
+      q: "Le chiffre d'une ville du bord de mer est-il comparable à celui d'une ville de l'intérieur ?",
+      a: `Non. Le disque de ${PROTECTED_RADIUS_KM} km est découpé sans distinguer la mer du sol : pour les ${PROTECTION_SEA_COUNT} villes qu'il fait déborder sur la mer ouverte, l'eau compte au dénominateur comme du sol qui aurait pu être protégé, et les sites Natura 2000 marins qui la couvrent comptent au numérateur. Leur couverture médiane est de ${fmt(PROTECTION_SEA_MEDIAN)} % contre ${fmt(PROTECTION_INLAND_MEDIAN)} % pour les autres, mais cet écart mélange deux choses que nos données ne séparent pas : de l'eau comptée comme du sol, et un littoral réellement plus protégé qu'un intérieur de terres.`,
     },
     {
       q: "Une couverture élevée veut-elle dire que la nature est accessible ?",
@@ -408,6 +430,29 @@ export default function EspacesProtegesPage() {
               La colonne de droite le signale ville par ville. Nous le disons plutôt que de le
               corriger : repondérer sur la foi d&apos;un nom réécrirait un classement publié à
               partir d&apos;une expression régulière.
+            </p>
+            <p>
+              <strong>
+                Et sur {PROTECTION_SEA_COUNT} villes, une partie du disque est de la mer.
+              </strong>{" "}
+              Le disque est rastérisé sans distinguer l&apos;eau du sol. Pour une commune
+              littorale, l&apos;eau compte donc au dénominateur comme du sol qui aurait pu être
+              protégé — et les périmètres <em>marins</em> qui la couvrent comptent au numérateur
+              comme n&apos;importe quel zonage. En métropole ce sont des sites Natura 2000 : le
+              plus grand périmètre des Sables
+              d&apos;Olonne est le « Secteur Marin de l&apos;Île d&apos;Yeu Jusqu&apos;au
+              Continent », celui de La Rochelle le plateau du large de Rochebonne, et les
+              « Posidonies de la Côte Palavasienne » de Sète sont un herbier sous-marin. Ces
+              villes sont {SEA_SHARE_PCT} % du corpus et{" "}
+              {seaExposedInRanking(NATIONAL_LIMIT).published} des {NATIONAL_LIMIT} lignes
+              ci-dessus ; leur couverture médiane est de {fmt(PROTECTION_SEA_MEDIAN)} % contre{" "}
+              {fmt(PROTECTION_INLAND_MEDIAN)} % pour les villes de l&apos;intérieur.{" "}
+              <strong>Cet écart n&apos;est pas « la part d&apos;eau »</strong> : un littoral est
+              aussi réellement plus protégé, et nos données ne savent pas partager les deux —
+              il faudrait un masque terre/mer à la collecte. L&apos;ingest connaît pourtant la
+              règle, il refuse les ZNIEFF marines « pour ne pas récompenser une ville côtière
+              pour de l&apos;eau » ; seulement les ZNIEFF sont hors barème, si bien que
+              l&apos;exclusion porte sur la seule couche où elle ne change rien.
             </p>
             <p>
               <strong>Protégé ne veut pas dire accessible.</strong> Un périmètre dit ce

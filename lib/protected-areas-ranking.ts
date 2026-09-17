@@ -42,6 +42,7 @@ import {
   cityProtectedAreas,
   isBufferPerimeter,
   isMeasuredProtection,
+  protectionSeaDistanceKm,
   type ProtectionKind,
 } from "@/lib/biodiversity";
 
@@ -339,6 +340,83 @@ export const PROTECTION_BUFFER_ONLY = ALL.filter((e) => {
 })
   .map((e) => e.city)
   .sort((a, b) => a.name.localeCompare(b.name, "fr"));
+
+/* ── la mer dans le disque ────────────────────────────────────────────── */
+
+/**
+ * Villes dont le disque d'analyse atteint la **mer ouverte**, triées de la
+ * plus exposée à la moins exposée. Voir `protectionSeaDistanceKm` pour le
+ * mécanisme : chez elles le chiffre publié mélange du sol et de l'eau, au
+ * dénominateur (le disque ne distingue pas les deux) comme au numérateur (les
+ * sites Natura 2000 marins y sont comptés comme n'importe quel zonage).
+ *
+ * Mesuré le 2026-09-17 : **101 villes sur 540**, dont 37 ont la mer à moins
+ * d'un kilomètre de leur centre.
+ */
+export const PROTECTION_SEA_EXPOSED = ALL.filter(
+  (e) => protectionSeaDistanceKm(e.city.slug) != null,
+)
+  .map((e) => e.city)
+  .sort(
+    (a, b) =>
+      (protectionSeaDistanceKm(a.slug) ?? 0) - (protectionSeaDistanceKm(b.slug) ?? 0) ||
+      a.name.localeCompare(b.name, "fr"),
+  );
+
+export const PROTECTION_SEA_COUNT = PROTECTION_SEA_EXPOSED.length;
+
+const median = (values: number[]): number => {
+  const sorted = values.slice().sort((a, b) => a - b);
+  if (!sorted.length) return 0;
+  const mid = sorted.length >> 1;
+  return sorted.length % 2 ? sorted[mid] : +(((sorted[mid - 1] + sorted[mid]) / 2).toFixed(1));
+};
+
+const SEA_SLUGS = new Set(PROTECTION_SEA_EXPOSED.map((c) => c.slug));
+
+/**
+ * L'écart que le mélange produit, dérivé et non recopié : la couverture
+ * médiane des villes dont le disque touche la mer, contre celle des villes
+ * entièrement continentales. Mesuré le 2026-09-17 : **20,4 % contre 4,6 %**.
+ *
+ * ⚠️ **Cet écart n'est pas « la part d'eau »** et ne doit jamais être présenté
+ * comme tel. Le littoral français est réellement plus protégé que l'intérieur
+ * — dunes, marais, conservatoire — et nos données ne savent pas séparer cette
+ * protection-là de l'eau comptée comme du sol : il faudrait un masque
+ * terre/mer à l'ingest. Ce qui est établi, c'est que les deux entrent dans le
+ * même nombre, donc que les deux groupes ne se comparent pas.
+ */
+export const PROTECTION_SEA_MEDIAN = median(
+  ALL.filter((e) => SEA_SLUGS.has(e.city.slug)).map((e) => e.coverage),
+);
+
+export const PROTECTION_INLAND_MEDIAN = median(
+  ALL.filter((e) => !SEA_SLUGS.has(e.city.slug)).map((e) => e.coverage),
+);
+
+/**
+ * Combien de villes exposées à la mer un classement publie, et combien il en
+ * brassait. Dérivé du `rankByProtection` réel, avec ses paliers d'ex æquo,
+ * pour qu'une passe de collecte déplace les nombres au lieu de les périmer.
+ *
+ * Mesuré le 2026-09-17 : le classement national en publie **16 sur 40** pour
+ * un vivier à 18,7 % ; celui des villes de plus de 100 000 habitants **8 sur
+ * 20**, soit huit des neuf grandes villes dont le disque touche la mer.
+ */
+export function seaExposedInRanking(
+  limit: number,
+  minPopulation = 0,
+): { published: number; total: number; poolShare: number } {
+  const ranking = rankByProtection(limit, minPopulation);
+  const entries = ranking.tiers.flatMap((t) => t.entries);
+  const pool = protectionEntries(minPopulation);
+  const poolSea = pool.filter((e) => SEA_SLUGS.has(e.city.slug)).length;
+  return {
+    published: entries.filter((e) => SEA_SLUGS.has(e.city.slug)).length,
+    total: entries.length,
+    poolShare: pool.length ? +((100 * poolSea) / pool.length).toFixed(1) : 0,
+  };
+}
 
 /** Date de la passe qui a produit les périmètres, telle qu'écrite dans les
  *  enregistrements. Publiée comme un plafond, pas comme un gage de fraîcheur. */

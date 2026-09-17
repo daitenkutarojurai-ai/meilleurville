@@ -3454,6 +3454,50 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     lien de fiche n'est affiché. Pour le rebrancher un jour, la BD TOPO porte le code MNHN dans
     `identifiants_sources`.
 
+  - **État au 2026-09-17 — le disque compte la mer, et le seul chiffre encore publié n'est pas la
+    part du sol protégé.** Rien de neuf côté collecte et c'est **nominal** : les 540 lignes GBIF
+    sont en `queryVersion` 3 du 09 au 13/09, les zones protégées à la passe BD TOPO du 19/08, et
+    aucune ligne n'est échue à quatre jours — ⚠️ le contrôle se fait sur **la date des lignes**,
+    jamais sur leur nombre. Le run a porté sur le dernier terme jamais relu de la seule composante
+    qui publie une note : son **dénominateur**. ⚠️ **Le disque de 15 km est rastérisé sans
+    distinguer la mer du sol**, donc sur **101 villes sur 540 (18,7 %, dont 37 avec la mer à moins
+    d'un km et 18 ultramarines)** le pourcentage mélange sol et eau des deux côtés de la fraction :
+    l'eau compte au dénominateur comme du sol qui aurait pu être protégé, et les périmètres
+    **marins** qui la couvrent comptent au numérateur comme n'importe quel zonage — « Secteur Marin
+    de l'Île d'Yeu Jusqu'au Continent » (24 006 ha) est le plus grand périmètre des Sables-d'Olonne,
+    « Pertuis Charentais - Rochebonne » (29 025 ha, plateau du large) celui de La Rochelle, et les
+    « Posidonies de la Côte Palavasienne » de Sète sont un herbier sous-marin. ⚠️ **L'ingest connaît
+    la règle et l'applique là où elle ne change rien** : son `EXCLUDED` refuse les **ZNIEFF
+    marines** pour ne pas « récompenser une ville côtière pour de l'eau », or les deux ZNIEFF sont
+    hors barème depuis le 26/08 — l'exclusion ne porte donc jamais sur Natura 2000, qui est dans le
+    score à 0,6 et qui porte les sites marins. Effets mesurés, tous **dérivés** : couverture médiane
+    **20,4 % contre 4,6 %** à l'intérieur, **16 des 40** lignes du classement national et **8 des
+    20** de celui des villes > 100 000 hab. ⚠️ **Cet écart n'est pas « la part d'eau »** et aucune
+    surface ne doit le dire : le littoral est aussi réellement plus protégé, et séparer les deux
+    demanderait un masque terre/mer que la source n'a pas. ⚠️ **On le dit, on ne le repondère pas**
+    — troisième application de l'arbitrage du couple cœur/aire d'adhésion (26/08) et des zones
+    tampons (14/09) ; la différence avec le **retrait** du rang d'espaces verts (31/08) est que là
+    le chiffre était faux, ici il est exact et mal nommé. Le discriminant n'est pas un nom mais une
+    mesure déjà au dépôt : `lib/city-coast.ts` (mer **ouverte**, filtrée sur la largeur du plan
+    d'eau, donc Nantes à 25,5 km n'en est pas). Livré : `protectionSeaDistanceKm()`
+    (`lib/biodiversity.ts`), `PROTECTION_SEA_EXPOSED` / `_COUNT` / `_MEDIAN`,
+    `PROTECTION_INLAND_MEDIAN` et `seaExposedInRanking()` (`lib/protected-areas-ranking.ts`), les
+    **quatre** surfaces qui publient la couverture (deux sous-pages ville avec la distance mesurée
+    de *leur* mer, deux hubs avec méthode, FAQ — donc JSON-LD — et marqueur « disque en partie en
+    mer » ligne par ligne), et `protected-areas:stats` qui **nomme** les villes par un chemin de
+    code indépendant tombant sur les mêmes 101/540, 20,4 % et 4,6 %. **Garde `protégées` dans
+    `npm run integrity`** : 4 surfaces, toute lecture de `weightedCoverage` / `protectionCoverage` /
+    `rankByProtection` / `PROTECTION_MEDIAN_COVERAGE` doit le dire dans sa locale — vérifiée **en la
+    faisant échouer**, et elle lit le code **commentaires retirés** (la première version passait
+    parce que le commentaire qui pose la règle la satisfaisait, piège du garde F64 du 15/09).
+    🔧 Corrigé au passage : le chargeur de `scripts/check-integrity.mjs` ne résolvait **pas du tout**
+    un import portant déjà son extension (`@/data/city-biodiversity.json`), ce qui rendait
+    `lib/biodiversity.ts` inchargeable par les gardes. ⚠️ **Non couvert** : le pendant **terrestre**
+    du défaut — le disque d'une ville frontalière déborde sur un pays où la BD TOPO n'a aucun
+    périmètre — **n'a pas été mesuré** (aucun polygone de frontières au dépôt), ne pas le supposer ;
+    la part d'eau **par ville** n'est pas publiée (une approximation par segment de disque est
+    fausse d'un facteur notable sur une presqu'île, on publie la distance mesurée) ; et `overall`
+    reste `null` sur les 540.
   - **État au 2026-09-14 — le corpus GBIF est enfin tout entier à jour, et la tête du classement des
     zones protégées repose sur des zones tampons comptées comme des réserves.** Les 540 lignes sont
     en `queryVersion` 3, relevées du **09 au 13/09** : le rejeu du 10/09 est terminé, **les reptiles

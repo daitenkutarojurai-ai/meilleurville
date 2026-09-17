@@ -64,6 +64,7 @@ import {
   OSM_CREDIT_EN,
 } from "@/lib/city-parks";
 import { cityPopulation } from "@/lib/city-population";
+import { coastDistanceKm } from "@/lib/city-coast";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 /* ── attribution ──────────────────────────────────────────────────────── */
@@ -566,6 +567,52 @@ export interface ProtectedArea {
  */
 export function isBufferPerimeter(area: ProtectedArea): boolean {
   return area.kind === "reserve-naturelle" && /p[ée]rim[èe]tre de protection/i.test(area.name ?? "");
+}
+
+/**
+ * Distance à la mer ouverte **quand elle tombe dans le disque d'analyse**, en
+ * km ; `null` quand le disque est entièrement continental.
+ *
+ * ⚠️ **Ce que ce prédicat signale (trouvé le 2026-09-17) : pour ces villes, le
+ * chiffre publié n'est pas la part du *sol* sous protection.** Le disque de
+ * PROTECTED_RADIUS_KM est rastérisé sans distinguer la mer de la terre, donc :
+ * ① au **dénominateur**, l'eau compte comme du sol qui aurait pu être protégé ;
+ * ② au **numérateur**, les périmètres **marins** couvrent cette eau et sont
+ * comptés comme n'importe quel zonage. En métropole ce sont des sites
+ * Natura 2000 — « Secteur Marin de l'Île d'Yeu
+ * Jusqu'au Continent » (24 006 ha) est le plus grand périmètre des Sables
+ * d'Olonne, « Pertuis Charentais - Rochebonne » (29 025 ha, un plateau du
+ * large) celui de La Rochelle, et les « Posidonies de la Côte Palavasienne »
+ * de Sète sont un herbier sous-marin.
+ *
+ * L'ingest connaît pourtant la règle et l'a écrite noir sur blanc — il refuse
+ * les **ZNIEFF marines** au motif que « les compter reviendrait à récompenser
+ * une ville côtière pour de l'eau ». Mais les deux ZNIEFF sont hors barème
+ * depuis le 26/08 : l'exclusion porte donc sur la seule couche où elle ne
+ * change rien, et jamais sur Natura 2000, qui est dans le score à 0,6 et qui
+ * porte les sites marins.
+ *
+ * ⚠️ **On le dit, on ne le repondère pas** — même arbitrage qu'au couple
+ * cœur de parc / aire d'adhésion (26/08) et qu'aux zones tampons (14/09).
+ * Redresser demanderait un masque terre/mer **à l'ingest** : la part d'eau
+ * d'un disque ne se déduit pas d'une distance (une presqu'île et un fond
+ * d'estuaire à 0 km de la mer n'ont pas la même), et découper les polygones
+ * marins sur le trait de côte est une autre passe, pas un correctif
+ * d'affichage. Ce qui se publie tout de suite, c'est **qui** est concerné —
+ * et ça, c'est mesuré : `lib/city-coast.ts` porte la distance à la mer
+ * ouverte des 540 villes, filtrée sur la largeur du plan d'eau. 18 des 101
+ * sont ultramarines, où Natura 2000 ne s'applique pas : une surface qui nomme
+ * la couche se trompe sur elles, d'où le mot « périmètre marin » côté ville et
+ * l'exemple métropolitain réservé aux deux hubs.
+ *
+ * ⚠️ Et la part du sol protégé n'est **pas** déductible du chiffre affiché :
+ * nos données ne séparent pas ce qui relève d'un littoral réellement très
+ * protégé (dunes, marais, conservatoire) de ce qui est de l'eau comptée
+ * comme du sol. Les deux surfaces disent l'un et l'autre.
+ */
+export function protectionSeaDistanceKm(slug: string): number | null {
+  const d = coastDistanceKm(slug);
+  return d != null && d < PROTECTED_RADIUS_KM ? d : null;
 }
 
 /** Territoire dans lequel la ville se trouve, tel que l'ingest le détermine

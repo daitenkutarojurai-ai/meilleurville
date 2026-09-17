@@ -38,6 +38,7 @@ import {
   inpnUrl,
   isBufferPerimeter,
   isMeasuredProtection,
+  protectionSeaDistanceKm,
   type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
   recordConcentration,
@@ -55,6 +56,9 @@ import {
 import {
   PROTECTION_MEDIAN_COVERAGE,
   PROTECTION_RANKED_COUNT,
+  PROTECTION_SEA_COUNT,
+  PROTECTION_SEA_MEDIAN,
+  PROTECTION_INLAND_MEDIAN,
 } from "@/lib/protected-areas-ranking";
 
 export const revalidate = false;
@@ -268,6 +272,10 @@ export default async function BiodiversityPage({ params }: Props) {
   // "not measured". One ingested with no perimeter at all has been measured,
   // and says so.
   const measuredAreas = protectedAreas && isMeasuredProtection(protectedAreas) ? protectedAreas : null;
+  // Sea inside the disc — same measure and same wording as the French twin, on
+  // the same 101 cities. `lib/city-coast` filters on the width of the water
+  // body, so the Loire estuary at Nantes (25.5 km) is not the sea.
+  const seaKm = protectionSeaDistanceKm(slug);
   const protectionDetail = measuredAreas
     ? `${nb(measuredAreas.weightedCoverage)} % of the ${measuredAreas.radiusKm} km disc under protection, ` +
       `weighted by level (${nb(measuredAreas.rawCoverage)} % under any designation at all). ` +
@@ -766,6 +774,24 @@ export default async function BiodiversityPage({ params }: Props) {
                 source publishes both in the same layer, so the coverage above counts them at the
                 same level — the strongest on the scale. Where the buffer is vast and the reserve
                 tiny, the figure is an upper bound.
+              </p>
+            )}
+            {seaKm !== null && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                {seaKm < 0.5
+                  ? "The open sea reaches the town centre"
+                  : `The open sea is ${nb(seaKm)} km from the centre`}
+                , so part of the {measuredAreas.radiusKm} km disc is <strong>water</strong>. The
+                calculation does not tell water from ground: the water sits in the denominator as
+                though it were ground that could have been designated, and any marine site
+                covering it sits in the numerator like any other designation. The percentage
+                above is therefore not the share of <em>land</em> under protection, and it does
+                not compare with an inland city&apos;s: the median is{" "}
+                {PROTECTION_SEA_MEDIAN.toFixed(1)}% across the {nb(PROTECTION_SEA_COUNT)} cities
+                whose disc reaches the sea, {PROTECTION_INLAND_MEDIAN.toFixed(1)}% across the
+                other {nb(PROTECTION_RANKED_COUNT - PROTECTION_SEA_COUNT)}. We cannot split that
+                gap: a coastline genuinely is better protected than an inland plain, and telling
+                the two apart would need a land/sea mask our source does not carry.
               </p>
             )}
             {measuredAreas.areasTruncated && (

@@ -60,9 +60,14 @@ function load(relPath) {
       throw new Error(`${relPath} : import externe inattendu « ${id} »`);
     }
     const base = id.slice(2);
-    for (const ext of [".ts", ".tsx", ".json", "/index.ts"]) {
+    // `""` en dernier : un import qui porte déjà son extension
+    // (`@/data/city-biodiversity.json`) ne se résolvait pas du tout, ce qui
+    // rendait `lib/biodiversity.ts` et tout ce qui en dépend inchargeable ici.
+    // Le test `isFile` évite de « résoudre » un répertoire homonyme.
+    for (const ext of [".ts", ".tsx", ".json", "/index.ts", ""]) {
       const candidate = base + ext;
-      if (!existsSync(path.join(ROOT, candidate))) continue;
+      const full = path.join(ROOT, candidate);
+      if (!existsSync(full) || !statSync(full).isFile()) continue;
       if (candidate.endsWith(".json")) {
         return JSON.parse(readFileSync(path.join(ROOT, candidate), "utf8"));
       }
@@ -715,6 +720,80 @@ if (!failed) {
         "    La démographie est le cas mixte : vieillissement et trajectoire SONT\n" +
         "    mesurés au recensement Insee, jeunes actifs et renouvellement ne le sont\n" +
         "    pas — la surface doit dire lequel est lequel, pas « estimé » en bloc.\n",
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Zones protégées (F62) : une surface qui publie la couverture doit dire que le
+// disque compte la mer.
+//
+// C'est la seule des trois composantes de la biodiversité qui publie encore un
+// chiffre, et sur 101 villes sur 540 ce chiffre mélange du sol et de l'eau des
+// deux côtés de la fraction : le disque de 15 km est rastérisé sans distinguer
+// la mer du sol (dénominateur) et les sites Natura 2000 marins y sont comptés
+// comme n'importe quel zonage (numérateur). Trouvé le 2026-09-17.
+//
+// Même forme de garde que le quartet environnement et les six moteurs, et pour
+// la même raison : le correctif tient en quatre surfaces, il s'en est déjà
+// perdu un en n'en traitant qu'une sur huit (09/09), et ni `tsc` ni le build ne
+// peuvent voir qu'une page a cessé de le dire.
+{
+  const PUBLISHES = /weightedCoverage|protectionCoverage|rankByProtection|PROTECTION_MEDIAN_COVERAGE/;
+  // Un marqueur par locale. On exige le mot qui porte le fait — la mer dans le
+  // disque — pas une phrase générique sur les limites de l'indicateur.
+  const MARK = /disque .{0,40}mer|en partie en mer|part du disque .{0,30}eau|disc .{0,40}sea|partly at sea|part of the disc is sea/i;
+  // ⚠️ Sur le code rendu, **commentaires retirés** : la première version de ce
+  // garde passait alors que la prose avait été effacée, parce que le
+  // commentaire qui pose la règle (« villes dont le disque atteint la mer »)
+  // satisfaisait la règle. Même piège qu'au garde F64 du 15/09.
+  const stripComments = (src) =>
+    src.replace(/\/\*[\s\S]*?\*\//g, " ").replace(/^[ \t]*\/\/.*$/gm, " ");
+
+  const surfaces = [];
+  (function walk(dir) {
+    for (const entry of readdirSync(dir)) {
+      const p = path.join(dir, entry);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (entry.endsWith(".tsx")) surfaces.push(p);
+    }
+  })(path.join(ROOT, "app"));
+  for (const entry of readdirSync(path.join(ROOT, "components"))) {
+    if (entry.endsWith(".tsx")) surfaces.push(path.join(ROOT, "components", entry));
+  }
+
+  const scanned = [];
+  const mute = [];
+  for (const file of surfaces) {
+    const src = stripComments(readFileSync(file, "utf8"));
+    if (!PUBLISHES.test(src)) continue;
+    scanned.push(file);
+    if (!MARK.test(src)) mute.push(path.relative(ROOT, file));
+  }
+
+  // Le compte de villes concernées est dérivé, jamais écrit à la main : une
+  // passe de collecte qui déplacerait le trait de côte déplacerait ce nombre.
+  const { PROTECTION_SEA_COUNT, PROTECTION_RANKED_COUNT } = load("lib/protected-areas-ranking.ts");
+
+  if (mute.length === 0) {
+    console.log(
+      `  ok  protégées ${scanned.length} surfaces, chacune dit que le disque compte la mer` +
+        ` · ${PROTECTION_SEA_COUNT}/${PROTECTION_RANKED_COUNT} villes concernées`,
+    );
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  zones protégées : ${mute.length} surface(s) muette(s)\n`);
+    for (const p of mute) console.error(`    ${p}`);
+    console.error(
+      "\n    Le disque de 15 km est découpé sans distinguer la mer du sol. Sur\n" +
+        `    ${PROTECTION_SEA_COUNT} villes sur ${PROTECTION_RANKED_COUNT} il déborde sur la mer ouverte : l'eau compte au\n` +
+        "    dénominateur comme du sol qui aurait pu être protégé, et les sites\n" +
+        "    périmètres MARINS qui la couvrent comptent au numérateur. Le\n" +
+        "    pourcentage publié n'est donc pas la part du sol sous protection, et\n" +
+        "    une surface qui l'affiche doit le dire — `protectionSeaDistanceKm`\n" +
+        "    (lib/biodiversity.ts) dit ville par ville si le cas se pose.\n" +
+        "    ⚠️ On le dit, on ne le repondère pas : redresser demande un masque\n" +
+        "    terre/mer à l'ingest, pas un correctif d'affichage.\n",
     );
   }
 }
