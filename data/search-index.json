@@ -7930,12 +7930,47 @@
     },
     {
       "slug": "vacances-celibataire-montauban-2026",
-      "title": "Vacances célibataire à Montauban en 2026 : la destination la moins chère de toute la série",
+      "title": "Vacances célibataire à Montauban en 2026 : la deuxième destination la moins chère de la série",
       "emoji": "🍸"
     },
     {
       "slug": "vacances-celibataire-fort-de-france-2026",
       "title": "Vacances célibataire à Fort-de-France en 2026 : une capitale qui travaille, pas une station",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-arras-2026",
+      "title": "Vacances célibataire à Arras en 2026 : le logement le moins cher des cinquante destinations",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-angouleme-2026",
+      "title": "Vacances célibataire à Angoulême en 2026 : le festival n'a pas eu lieu, la ville tient quand même",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-compiegne-2026",
+      "title": "Vacances célibataire à Compiègne en 2026 : le bus est gratuit depuis 1975",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-albi-2026",
+      "title": "Vacances célibataire à Albi en 2026 : la destination la moins chère de la série, et la plus âgée",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-lorient-2026",
+      "title": "Vacances célibataire à Lorient en 2026 : un bunker à sous-marins devenu salle de concert",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-vannes-2026",
+      "title": "Vacances célibataire à Vannes en 2026 : la plus chère du lot, et sa salle de concert est ailleurs",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-beauvais-2026",
+      "title": "Vacances célibataire à Beauvais en 2026 : le plus haut chœur gothique jamais construit",
       "emoji": "🍸"
     },
     {
@@ -9846,8 +9881,18 @@
       "count": 4
     },
     {
+      "slug": "week-end-celibataire-bretagne",
+      "label": "week-end célibataire Bretagne",
+      "count": 4
+    },
+    {
       "slug": "week-end-celibataire-grand-est",
       "label": "week-end célibataire Grand Est",
+      "count": 4
+    },
+    {
+      "slug": "week-end-celibataire-nouvelle-aquitaine",
+      "label": "week-end célibataire Nouvelle-Aquitaine",
       "count": 4
     },
     {
@@ -10306,8 +10351,8 @@
       "count": 3
     },
     {
-      "slug": "week-end-celibataire-nouvelle-aquitaine",
-      "label": "week-end célibataire Nouvelle-Aquitaine",
+      "slug": "week-end-celibataire-sud-ouest",
+      "label": "week-end célibataire sud-ouest",
       "count": 3
     }
   ]

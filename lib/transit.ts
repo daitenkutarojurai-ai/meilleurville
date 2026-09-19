@@ -124,6 +124,18 @@ const T: Record<string, Transit> = {
   vendome: { tgv: true },
   "la-roche-sur-yon": { tgv: true },
 
+  // ⚠️ Vérifiées le 2026-09-19 pour le batch 7 de la série célibataire et
+  // volontairement NON ajoutées, faute de TGV : Albi (TER liO depuis
+  // Toulouse-Matabiau, ~53 min, une dizaine de liaisons par jour, gares
+  // Albi-Ville et Albi-Madeleine), Beauvais (TER Hauts-de-France depuis
+  // Paris-Nord, 1 h 05 au plus rapide, ~1 h 19 en moyenne, une vingtaine de
+  // liaisons par jour). Arras, Angoulême, Lorient et Vannes, les quatre autres
+  // villes du lot, sont déjà dans la table avec leur TGV. Même raison qu'au
+  // 2026-09-16 : le type ne sait pas exprimer « vérifié absent », donc ces
+  // deux-là restent hors table et cette note est leur seule trace. Ne pas leur
+  // poser `tgv: true`, et ne pas déduire de leur `{}` qu'elles sont
+  // inaccessibles en train : elles le sont très bien, en TER.
+
   // — Banlieue parisienne — RER & métro Paris —
   "boulogne-billancourt": { metro: true, rer: true, tram: true, velo: "moyen" },
   "issy-les-moulineaux": { metro: true, rer: true, tram: true, velo: "moyen" },

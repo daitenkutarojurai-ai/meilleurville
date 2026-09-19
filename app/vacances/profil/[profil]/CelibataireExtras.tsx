@@ -74,6 +74,16 @@ function celibPool() {
 // de retraités n'est pas une mauvaise ville, elle est mal appariée à ce
 // séjour-là.
 
+// ⚠️ Note pour les batches de guides, posée le 2026-09-19 : les deux seuils
+// ci-dessous sont ceux que *cette page* publie et justifie. La sélection des
+// villes du batch 6 de la série `vacances-celibataire-` s'appuyait sur la même
+// mesure mais avec un plancher de population de 60 000, une valeur qui n'est
+// écrite nulle part et que rien ne justifie, et elle en a conclu que la série
+// avait consommé ses villes étudiantes. Recalculé à 40 000, le plancher ci-
+// dessous, le vivier rendait encore onze communes au-dessus de YOUTH_SHARE_FLOOR,
+// dont sept entre 24,53 % et 21,38 %, c'est-à-dire toutes au-dessus de la
+// meilleure du batch 6. Un batch qui reprend cette règle la recalcule avec ces
+// deux constantes, il ne recopie pas les seuils d'un journal.
 const YOUTH_SHARE_FLOOR = 20;
 const RESIDENT_POP_FLOOR = 40_000;
 
@@ -127,6 +137,24 @@ function offSeasonAlivePicks(): OffSeasonPick[] {
 }
 
 // ─── Section 2 : accessibles en train sans voiture ───────────────────────
+//
+// ⚠️ Portée réelle de ce filtre, mesurée le 2026-09-19 : `lib/transit.ts` est
+// une table saisie à la main qui ne documente que 93 des 495 villes classées
+// par ce profil, et 33 seulement du vivier de 100 lu ici ; `getTransit` rend
+// `{}` pour les autres, ce que la table documente comme « inconnu » et non
+// comme « pas de desserte ». Le test `arrivable` ci-dessous traite pourtant les
+// deux de la même façon, si bien que cette section ne sélectionne pas les
+// villes accessibles en train mais les villes *documentées* comme telles.
+// Second biais, du même ordre : il exige un TGV ou un RER, donc un TER n'y est
+// pas un train, alors qu'Albi est à ~53 min de Toulouse-Matabiau, Compiègne à
+// 39 min de Paris-Nord en direct et Beauvais à 1 h 05. Les deux biais se
+// cumulent pour écarter le haut du classement : sur les douze villes les mieux
+// notées du profil, neuf sont absentes de la table, dont Obernai 8,3,
+// Amboise 8,0 et Beaune 7,9. Le titre et le chapeau de la section disent donc
+// ce qu'elle montre vraiment ; corriger le fond suppose d'étendre la table,
+// ville par ville et vérification par vérification, pas d'élargir le test.
+// C'est le même défaut que la série monoparentale a documenté le 2026-09-16
+// sur sa propre page, et il n'avait jamais été reporté ici.
 
 interface TrainDest {
   city: CityLight;
@@ -325,8 +353,8 @@ export function CelibataireExtras() {
       {/* Section 2 — Train + local sans voiture */}
       <Section
         emoji={<TrainFront className="h-6 w-6" />}
-        title="Accessibles en train, sortie du soir sans voiture"
-        intro="On arrive en TGV ou en RER, on rentre du bar à minuit à pied ou en tram. Sans voiture, un dernier verre en périphérie devient une expédition — la desserte urbaine tardive fait toute la différence sur un séjour en célibataire."
+        title="Desserte documentée : TGV ou RER, puis sortie du soir sans voiture"
+        intro="On arrive en TGV ou en RER, on rentre du bar à minuit à pied ou en tram. Sans voiture, un dernier verre en périphérie devient une expédition, et la desserte urbaine tardive fait toute la différence sur un séjour en célibataire. Une réserve à lire avant la liste : notre table de desserte est saisie à la main et ne couvre que 93 des 495 villes classées par ce profil. Cette liste montre donc les destinations dont la desserte est documentée, pas toutes celles qui sont accessibles en train, et elle ne compte pas le TER comme un train : Albi, Compiègne ou Beauvais en sont absentes alors qu'un direct y mène en une heure environ."
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {trainDest.map(({ city, score, transit }) => (
