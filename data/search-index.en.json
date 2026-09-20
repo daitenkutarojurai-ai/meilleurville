@@ -7982,6 +7982,41 @@
       "slug": "things-to-do-in-ceret-2026",
       "title": "Things to do in Céret: the bridge Picasso painted that is not in Paris",
       "emoji": "🍒"
+    },
+    {
+      "slug": "solo-travel-in-arras-2026",
+      "title": "Solo travel in Arras: the cheapest rents in this whole series",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-angouleme-2026",
+      "title": "Solo travel in Angoulême: the festival did not happen, the town still works",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-compiegne-2026",
+      "title": "Solo travel in Compiègne: the buses have been free since 1975",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-albi-2026",
+      "title": "Solo travel in Albi: the cheapest destination in this series, and the oldest",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-lorient-2026",
+      "title": "Solo travel in Lorient: a U-boat bunker turned concert hall",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-vannes-2026",
+      "title": "Solo travel in Vannes: the dearest in this batch, and its concert hall is elsewhere",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-beauvais-2026",
+      "title": "Solo travel in Beauvais: the tallest Gothic choir ever built",
+      "emoji": "🍸"
     }
   ],
   "tags": [
@@ -8013,12 +8048,12 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 60
+      "count": 61
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 60
+      "count": 61
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -8041,6 +8076,21 @@
       "count": 53
     },
     {
+      "slug": "single-supplement",
+      "label": "single supplement",
+      "count": 50
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 50
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
+      "count": 50
+    },
+    {
       "slug": "ile-de-france",
       "label": "ile de france",
       "count": 48
@@ -8048,26 +8098,11 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 43
+      "count": 46
     },
     {
       "slug": "relocation",
       "label": "relocation",
-      "count": 43
-    },
-    {
-      "slug": "single-supplement",
-      "label": "single supplement",
-      "count": 43
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 43
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
       "count": 43
     },
     {
@@ -8086,14 +8121,14 @@
       "count": 34
     },
     {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 33
+    },
+    {
       "slug": "job-market-france",
       "label": "job market france",
       "count": 32
-    },
-    {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 31
     },
     {
       "slug": "provence",

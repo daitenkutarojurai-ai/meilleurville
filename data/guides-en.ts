@@ -40810,6 +40810,415 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["ceret", "perpignan", "collioure", "narbonne"],
     tags: ["things to do in ceret", "ceret", "travel", "city guide", "occitanie"],
   },
+  {
+    slug: "solo-travel-in-arras-2026",
+    title: "Solo travel in Arras: the cheapest rents in this whole series",
+    metaTitle: "Solo Travel in Arras 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Arras alone: the lowest studio, one-bed and two-bed rents of the fifty destinations in this series, 24.53% of residents aged 15 to 29, Paris in 49 minutes.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-20",
+    updatedAt: "2026-09-20",
+    intro:
+      "Arras carries the three lowest reference rents in this whole series: 390 euros for a studio, 540 for a two-room flat, 720 for a three-room flat, first of the fifty destinations published since the first batch and first on each of the three values. It also records 24.53% of residents aged 15 to 29 in the 2022 census, the highest share in this batch of seven and well above the national median of 18.44%. Those two facts together describe what this series has been looking for from the start: a town kept running all year by its own population, where a room paid for alone does not cost what a shared room costs somewhere else. There is a second reason to come that an English-speaking reader is more likely to know than a French one, and it is underground.",
+    sections: [
+      {
+        heading: "Why Arras, and why this series only reaches it now",
+        body:
+          "The answer is about our method rather than about the town. This series spots places that are alive out of season by the share of their residents aged 15 to 29, and since the third batch it has applied that test to a pool of communes of at least sixty thousand people. The profile page that publishes the same measure uses a floor of forty thousand instead, and gives a reason for it: below that, even a pleasant town loses its going-out scene on a Tuesday evening in October. The two floors were never the same, and it was the higher of the two that was quietly choosing the towns. Recalculated at the published floor, eleven communes still clear the 20% bar, and the seven kept for this batch run from 24.53% down to 21.38%, which is to say all of them above the best of the previous batch. Arras is the first of them. It has 42,621 residents in 2022 against 40,883 in 2016, growth of 4.3%, and the Université d'Artois is headquartered here, with 12,300 students spread over five sites across the Artois and the old coalfield. The Arras campus is about ten minutes on foot from the station. Finally, 22.4% of the population is aged 60 or over, the lowest share of the seven: this is a young town in the statistical sense, and not only in the sense of the institutions that happen to sit in it.",
+      },
+      {
+        heading: "April 1917, and the tunnels under the town",
+        body:
+          "For a British, Canadian, Australian or New Zealand reader, Arras is a name from the First World War before it is anything else, and the reason is directly under the streets. The chalk beneath the town is riddled with quarries known locally as the boves, worked since the Middle Ages, and in the winter of 1916 to 1917 tunnellers linked and extended them into a network large enough to hold an army. New Zealand tunnellers did much of that work, with British tunnelling companies alongside them, and they named the underground sectors after New Zealand towns, which is how the Wellington Quarry got its name. At half past five in the morning on 9 April 1917, around twenty-four thousand British soldiers came up out of those tunnels into the German front line, and the Battle of Arras began; it ran into the middle of May along a front of about twenty kilometres, from Vimy in the north to Bullecourt in the south. The Carrière Wellington opened to the public as a memorial on 1 March 2008 and is visited by guided tour, underground and reached by lift, at a constant 11°C: take a layer. Above ground, the Arras Memorial at the Faubourg-d'Amiens Cemetery carries close to thirty-five thousand names of men with no known grave, the exact total differing slightly between sources. Vimy Ridge, which is where a Canadian visitor will want to go, is a separate commune about ten kilometres north and needs a car or a tour. None of this is the subject of a solo trip, but pretending it is not here would be odd.",
+      },
+      {
+        heading: "Where to stay: the two squares, and nothing else",
+        body:
+          "Three districts are documented and the order is plain. Grand-Place and Petite-Place, the Flemish core built around two arcaded squares and the belfry, scores 7.0/10 for nightlife with an average two-room flat at 550 euros. The commune's reference is 540 euros, so staying in the best place to go out costs ten euros more than the town average, the smallest gap in this batch along with Beauvais. Saint-Nicolas, residential and well off, drops to 5.0/10 for nightlife at 530 euros. Bac d'Arras, suburban houses, falls to 3.5/10 at 500 euros with the best cost score of the three at 8.0/10. The trade-off is therefore pointless on a short stay: fifty euros a month separates the liveliest district from the quietest, which is close to nothing over two or three nights and costs you the one thing you came for. The four commune references, 390 euros for a studio, 540 for a two-room flat, 720 for a three-room flat and 1,800 euros per square metre to buy, put Arras first of the fifty destinations on all three rents and second on the square metre, level with Angoulême and behind Mulhouse.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: two squares, cellars, and a festival that does not count",
+        body:
+          "Arras scores 7.3/10 for culture, third in this batch behind Albi at 8.0 and the Compiègne and Beauvais pair at 7.5. What makes the town work for this profile is first of all its shape. The gabled fronts of the Grand-Place and the place des Héros form one continuous public room, arcaded all the way round, where the terraces are physically grouped instead of strung out along a boulevard. If you are out on your own, that concentration matters more than a programme: you move from one address to the next without a transport decision and without crossing an empty district. The belfry, listed by UNESCO with the other belfries of Belgium and France, can be climbed. One word about the Main Square Festival, which takes over the citadel from 3 to 5 July 2026 for its twentieth edition: it is a three-day event, not a mechanism that keeps a town alive, and this series makes a point of not confusing the two. It matters for a July trip and for what you will pay for a room; it says nothing about a Tuesday in November, which is the actual question here.",
+      },
+      {
+        heading: "Getting here, getting home, and the single supplement",
+        body:
+          "Arras scores 6.1/10 for transport, third in this batch level with Lorient. The station is reached from Paris-Nord by TGV inOui in about forty-nine minutes on the Paris to Lille axis, which the check made for this batch confirms. There is no tram and no metro, and that matters less than you would think in a town this size: the useful perimeter sits between the station, the two squares and the town hall, and it is walked from end to end, university campus included. One figure does need saying plainly, because it is the town's weakest: Arras scores 4.2/10 for nature, the fourth lowest of the fifty destinations in this series, level with Reims. This is a town of squares and stone, not of parks and river walks. As for the single room supplement, it is mechanically half the price of the room, so it costs less the cheaper the room is, and Arras is the cheapest of the fifty on all three dwelling sizes at once, which no other town in the series manages. Its cost score is 6.2/10, level with Lorient here. The second mechanism runs the same way: this is a prefecture town with an administration and a university of its own, so its accommodation stock is sized for professional and student stays priced per single occupant rather than for couples on holiday. The three habits of this series apply: search for a single room rather than a double occupied by one person, because French hotels price those as separate lines; aim for midweek; compare a studio against a hotel from two nights up. One caveat to close, and it holds for all seven guides in this batch: a cost score measures the cost of living locally, and a reference rent measures a residential market. Neither is a price per night, which this site never quotes because it moves from one season and one platform to the next.",
+      },
+      {
+        heading:
+          "When to go: May, June and September, and certainly not December",
+        body:
+          "Arras is the only one of the seven towns in this batch whose reference weather station sits less than fifty kilometres away: Lille-Lesquin, thirty-nine kilometres off, on the same plain and under the same regime. The figures are therefore usable as they stand, with one reservation, which is that this station does not publish a number of rain days in our data. The normals give 4.1°C in January with 62.2 hours of sun in the month, 13.8°C in May with 195.7 hours, 16.7°C in June with 201.5 hours and 18.9°C in July with 209.7 hours, the peak of the year. September stays very comfortable at 15.8°C and 155.3 hours, with 56.8 millimetres of rainfall, the fourth driest month of the year after April, February and March. The two months to drop are November and December: November is the wettest of the year at 75.0 millimetres, December the darkest at 52.5 hours of sun across the whole month, which is under two hours a day. For a trip whose unit is the evening and the terrace, the useful window runs from May to the end of September, with a preference for the first half of September: the university year has started, the town is full, and peak summer rates have come back down.",
+      },
+    ],
+    relatedCities: ["arras"],
+    tags: [
+      "solo travel",
+      "solo travel arras",
+      "travelling alone in france",
+      "single supplement",
+      "carriere wellington",
+      "hauts-de-france",
+    ],
+  },
+  {
+    slug: "solo-travel-in-angouleme-2026",
+    title:
+      "Solo travel in Angoulême: the festival did not happen, the town still works",
+    metaTitle: "Solo Travel in Angoulême 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Angoulême alone: the 2026 comics festival was cancelled, so what carries the town is the year-round venue. Where to stay, going out, the single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-20",
+    updatedAt: "2026-09-20",
+    intro:
+      "Angoulême records 24.24% of residents aged 15 to 29 in the 2022 census, the second highest share in this batch of seven behind Arras, against a national median of 18.44%. But the fact that governs this guide is somewhere else, and it is recent: the fifty-third edition of the Festival international de la bande dessinée, due to run from 29 January to 1 February 2026, was cancelled, the first cancellation since the festival was founded in 1974 apart from the 2021 edition stopped by the pandemic. A page published in September 2026 that sent a reader to Angoulême for the festival would be promising something that did not take place. That does not cancel the town's interest for this profile, but it changes its nature: it is not a four-day event, it is a building open all year.",
+    sections: [
+      {
+        heading: "Why Angoulême, and why its argument is not the one you think",
+        body:
+          "The festival was cancelled at the end of a crisis that set much of the industry against the organising company, whose contract was not renewed. A new operator has been chosen for 2027, the Morgane group, which also produces the Francofolies de La Rochelle and the Printemps de Bourges; this guide publishes no date for that edition, having no verified one. What remains, and what was already the town's real argument, is the Cité internationale de la bande dessinée et de l'image. Bande dessinée is the French term for comics as a form taken seriously, closer in standing to a novel than to a newspaper strip, and Angoulême is its European capital in the way Cannes is cinema's. The museum has occupied the converted riverside warehouses of the Magelis site on the bank of the Charente since June 2009. It holds more than 25,000 original pages and more than 250,000 printed items, its public lending library lists 55,750 volumes, and on the same site there is an arthouse cinema, a documentation centre, a specialist bookshop and the Maison des auteurs, which houses creators in residence. That is exactly the distinction the previous batch drew at Annecy between a festival and a building, and Angoulême is the clearest demonstration of it in the series: the only thing that guarantees something is happening on a Tuesday in February is the thing that opens three hundred and sixty days a year. The rest of the demographics is less flattering and should be said: Angoulême is losing residents, 41,423 in 2022 against 41,935 in 2016, a fall of 1.2%, and it is one of the two towns in this batch that are shrinking, with Beauvais.",
+      },
+      {
+        heading: "Isabella, Brétigny, and why the name may sound familiar",
+        body:
+          "There is a reason Angoulême appears in English history without ever appearing in an English guidebook. Isabella of Angoulême was Countess of Angoulême in her own right and became queen of England as the second wife of King John, married on 24 August 1200 at Bordeaux and crowned at Westminster Abbey on 9 October of the same year. She was queen until John died on 19 October 1216, and she was the mother of his heir, who reigned as Henry III. A hundred and sixty years later the county changed hands again on paper: under the Treaty of Brétigny of 1360 the Angoumois was ceded to Edward III, and it was recovered by the French crown within two decades. None of this is commemorated with anything you can visit, and this guide is not going to invent a trail. It is context, and it is the kind of context that makes an unfamiliar name stick: the ramparts you walk round on the plateau enclose a town that was, for a while and on parchment, English.",
+      },
+      {
+        heading: "Where to stay: the Plateau, and two communes that are not it",
+        body:
+          "A correction to our own neighbourhood data comes first. Three districts are documented for Angoulême, but two of them, La Couronne and Soyaux, are separate communes in the wider urban area rather than quarters of the town, which our own labels half admit by describing Soyaux as adjoining. For a two-night stay without a car that distinction is not cosmetic: it decides whether you walk home. The only documented district inside Angoulême itself is therefore the Plateau, the walled rocky spur carrying the cathedral, the town hall and most of the terraces. It scores 7.5/10 for nightlife, the best nightlife score in this batch of seven, level with the episcopal quarter of Albi, the rebuilt centre of Lorient and the walled town of Vannes, for an average two-room flat at 640 euros against a commune reference of 620 euros, a gap of twenty euros. In other words the only address that counts for this profile costs roughly the town average. The commune references are 450 euros for a studio, 620 for a two-room flat, 820 for a three-room flat and 1,800 euros per square metre to buy, that last figure being the second lowest of the fifty destinations in the series, level with Arras.",
+      },
+      {
+        heading: "Going out on a Tuesday: a plateau, ramparts, and a hill",
+        body:
+          "Angoulême scores 6.6/10 for culture, fifth in this batch. It does not have a metropolitan programme and there is no reason to pretend otherwise, but it has an unusual density for its size, because everything that counts sits on the plateau: the cathedral of Saint-Pierre, the circuit of the ramparts with its view over the valley, the shopping streets and the terraces occupy a few hundred metres. The image quarter in the old warehouses, down at the riverside, completes the picture with the museum and its cinema. Two plain reservations. The first is safety: 5.1/10, the lowest score in this batch of seven, which calls for ordinary urban caution on a late night out, no more and no less. The second is topographical and nobody ever mentions it: the plateau is a spur, the station is at the bottom, and the climb back up is on foot or not at all. At one in the morning that hill is the real parameter of the trip, far more than the distance on a map.",
+      },
+      {
+        heading: "Getting around, and the single supplement: one week to watch",
+        body:
+          "Angoulême scores 5.2/10 for transport, the lowest in this batch of seven and the fifth lowest of the fifty destinations in the series, level with Bourges. That figure and the experience of arriving say two different things, and they need separating. Arriving is easy: the station is served by direct TGV inOui trains from Paris-Montparnasse on the Sud Europe Atlantique high-speed line, and the site's service table also credits it with a bus rapid transit line. On the ground there is neither tram nor metro, the relief complicates every route, and 5.2/10 measures precisely that. The practical conclusion holds for almost every mid-sized town in this series: you arrive by train without difficulty, you choose your accommodation on the plateau, and you do not count on the urban network to get home after closing. On the budget side, the cost score is 6.7/10, sixth of the fifty destinations level with Valence, Bourges and Beauvais. The single room supplement is half the price of the room, and here it dilutes into low housing references, 450 euros for a studio and 620 for a two-room flat. Angoulême is also a prefecture town with administrative and industrial activity of its own, so its accommodation stock is sized for weekday travel priced per single occupant. There is one exception, and it is the reverse of the usual advice: the last week of January has historically been the one moment in the year when Angoulême accommodation is saturated and an unshared room costs a premium, because the festival concentrates tens of thousands of visitors into four days. The 2026 edition did not happen and the 2027 one returns under a new operator with no verified date as this guide is written, so the prudent rule is to check the calendar before booking in January and to treat the other eleven months as a normal market. The three habits of the series apply the rest of the year: search for a single room rather than a double occupied by one person, aim for midweek, compare a studio against a hotel from two nights up.",
+      },
+      {
+        heading:
+          "When to go: this guide publishes no climate normals, and here is why",
+        body:
+          "This is a reservation this batch of seven has had to make more often than any other, and Angoulême is the clearest case along with Lorient and Vannes. Our monthly normals come from twenty-nine reference stations, and each town inherits the nearest one. Angoulême's is Limoges-Bellegarde, eighty-three kilometres away. Limoges sits on the western edge of the Massif Central, at altitude; Angoulême sits in the Charente plain under a markedly more oceanic regime. Publishing one station's readings as though they described the other would be printing a false figure with the authority of a measurement. This guide therefore publishes none, in line with the series doctrine that a sentence without a figure beats a figure that is wrong. What can be said without data fits in two lines and is still useful: the Charente climate is oceanic with a continental edge, the best windows for a trip built around terraces are late spring and the first half of autumn, and the constraint that actually structures a stay in Angoulême is not the weather but the festival calendar dealt with above. For a temperature or a rainfall figure, consult Météo-France, which publishes the normals for the Charente station our data does not yet carry.",
+      },
+    ],
+    relatedCities: ["angouleme"],
+    tags: [
+      "solo travel",
+      "solo travel angouleme",
+      "travelling alone in france",
+      "single supplement",
+      "cite de la bande dessinee",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "solo-travel-in-compiegne-2026",
+    title: "Solo travel in Compiègne: the buses have been free since 1975",
+    metaTitle: "Solo Travel in Compiègne 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Compiègne alone: a bus network free since 1975, 39 minutes from Paris-Nord direct, 23.89% of residents aged 15 to 29, and the glade where 1918 ended.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-20",
+    updatedAt: "2026-09-20",
+    intro:
+      "Compiègne scores 7.7/10 for transport, the best figure in this batch of seven level with Beauvais, and 6.8/10 overall, second behind Albi. It records 23.89% of residents aged 15 to 29 in the 2022 census, third in the batch, against a national median of 18.44%. And it has one feature the other forty-nine destinations in this series do not: its bus network is entirely free, and has been since 1975, when the mayor of the day created what is presented as the first free bus line in Europe. For a trip whose unit is an evening out without a car, that deserves a close look, including at what it does not tell you. It also has a clearing in its forest that most English-speaking readers know the name of without knowing it is here.",
+    sections: [
+      {
+        heading:
+          "Why Compiègne: a technology university in a town of forty thousand",
+        body:
+          "Compiègne has 40,808 residents in 2022 against 40,258 in 2016, growth of 1.4%, and it is the smallest commune in this batch of seven. The mechanism that keeps it alive out of season can be named in one line: the Université de technologie de Compiègne, an engineering school with 4,400 students in 2024. Set against the size of the commune, that student population is a proportion no large city ever reaches, and it is what explains the 23.89% of 15 to 29 year olds measured in the census. The other scores follow: 7.5/10 for culture, level with Beauvais and second in the batch behind Albi; 7.1/10 for nature, second of the seven behind Vannes, thanks to the state forest that begins at the edge of town; 6.2/10 for safety, third in the batch. The weak point is cost, 5.9/10, second from bottom of the seven ahead of Vannes, and it shows up in the rents: 530 euros for a studio and 730 for a two-room flat, the second highest in the batch behind Vannes. Compiègne is an hour from Paris, and its housing market knows it.",
+      },
+      {
+        heading: "The glade in the forest, twice",
+        body:
+          "The armistice that ended the First World War was signed in a railway carriage parked on a siding in the forest of Compiègne, in the early hours of 11 November 1918, to take effect at eleven that morning. The site is usually called Rethondes after the nearby village, but it lies within the commune of Compiègne, about seven kilometres out along the road towards Soissons. In June 1940, after the fall of France, Hitler had the same carriage taken out of the museum building put up around it and returned to the exact spot it had occupied in 1918, and the second armistice was signed there on 22 June 1940 with Hitler sitting in Foch's chair. One precision matters before you make the trip, and it is the kind this series exists to make: the carriage you see is not the original. Carriage 2419D was taken to Germany and destroyed near the end of the war; what stands in the memorial today is a carriage from the same series, given by the Compagnie des Wagons-Lits in September 1950 and fitted out to match, with the surviving remains of the burnt original displayed in the museum. Going there is a half-day and needs a bus, a bike or a taxi: the free network described below covers the agglomeration, and the timings are worth checking before you set out rather than after. Separately, and five hundred years earlier, Joan of Arc was captured by Burgundian troops outside Compiègne on 23 May 1430 while trying to relieve the town. That capture is why she was tried by Pierre Cauchon, bishop of Beauvais, who claimed jurisdiction on the grounds that Compiègne lay in his diocese. Beauvais is the other Oise town in this batch, and that is the thread between them.",
+      },
+      {
+        heading:
+          "Where to stay: the historic centre, and two neighbouring communes",
+        body:
+          "The same correction as at Angoulême and for the same reason: of the three documented districts, two are separate communes. Saint-Jean-aux-Bois is a village inside the forest of Compiègne, Margny-lès-Compiègne a commune on the other side of the Oise. Putting you there is not absurd for a stay in the green, but they are not quarters of Compiègne and that changes everything at one in the morning. The only documented Compiègne district is the historic centre, around the château and the town hall, which scores 6.5/10 for nightlife and 8.0/10 for transport with an average two-room flat at 750 euros against a commune reference of 730 euros, a gap of twenty euros. At 750 euros it is also the most expensive district two-room flat in this batch after the walled town of Vannes and its Tohannic campus. Compiègne is not a cheap destination at the scale of this batch, and all of its references confirm it: 530 euros for a studio, 730 for a two-room flat, 980 for a three-room flat and 2,700 euros per square metre to buy.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: the Espace Jean Legendre, the château, the forest",
+        body:
+          "The main venue is the Espace Jean Legendre, which has two halls of 880 and 200 seats and a multidisciplinary programme covering theatre, dance, circus, opera, jazz, chanson, classical music, contemporary and world music, puppetry and shadow theatre. Two auditoriums of that size in a commune of forty thousand people is what sustains a culture score of 7.5/10. The château de Compiègne, a royal residence that became an imperial one, and the state forest around it fill the daytime. It is worth being straight about volume, as this series is elsewhere: in a commune this size, the programme on a Tuesday in February is a mid-sized town's programme, and the density of terraces does not compare with a regional capital. The daily-life score of 6.8/10 says exactly that, and it is third in this batch behind Vannes and Albi. What rescues Compiègne on this point is not one more hall, it is the student population described above and the fact that a night out here is walked, in a compact centre.",
+      },
+      {
+        heading: "Free buses, a fast train, and the single supplement",
+        body:
+          "The bus network of the Compiègne agglomeration is entirely free. The story goes back to 1975, when mayor Jean Legendre decided to create a free bus line for his residents, a decision presented as a European first, and the concert hall mentioned above now carries his name. On a solo trip that is a real advantage: you stop pricing the journey home. But a network being free says nothing about its operating hours or its frequency, and conflating the two is the classic error. The parameter that counts when you are out in the evening is the time of the last service, and that is checked locally or on the network's own site, not inferred from the fare. Second point, and it corrects what our own data implied: the site's service table carries no entry at all for Compiègne, which means undocumented rather than unserved. The check made for this batch establishes that Compiègne has no TGV but is linked to Paris-Nord by direct regional trains, thirty-nine minutes at the fastest, a little under an hour on average, with around ten services a day. For this profile that beats a distant high-speed line: you leave after work and you are there for dinner. On the budget, Compiègne has the second worst cost score in the batch, 5.9/10 ahead of Vannes at 5.5, and the single room supplement, being half the room price, therefore weighs more here than at Arras or Albi. Two mechanisms partly offset it. The first is the shape of the local economy: a technology university, industrial subcontracting and administration produce a weekday clientele travelling mostly alone, so an accommodation stock already priced per single occupant. The second is the remote-work score, 6.3/10, which stays under the 6.5 threshold the profile page uses as an indirect sign of a furnished studio market: Compiègne misses that filter by two tenths, and saying so is more honest than leaving it out. Of the seven towns in this batch, only Albi and Vannes clear it. The three habits of the series still hold: search for a single room rather than a double occupied by one person, aim for midweek, compare a studio against a hotel from two nights up. And here there is one more argument: the trip from Paris costs the price of a regional ticket, which leaves more room in the budget for the room.",
+      },
+      {
+        heading:
+          "When to go: September, and a caveat about the measuring station",
+        body:
+          "The nearest weather station to Compiègne in our data is Paris-Montsouris, seventy-five kilometres away. It is an urban station in the middle of a dense agglomeration and its temperatures are known to run above those of the surrounding countryside, so this guide publishes no temperature average for Compiègne, which lies seventy-five kilometres to the north on the edge of a forest. Sunshine and the number of rain days are far less affected by that gap and describe the wider Paris basin correctly. They give 201.0 hours of sun in May, 203.5 in June, 222.4 in July, the peak of the year, 215.3 in August and 174.7 in September. On rain, July and September are the two driest months with 7.4 and 7.5 rain days, against 10.4 in November and 11.4 in December, the latter combining the year's most rain with its least light at 56.9 hours across the whole month. The window to keep is therefore September: almost as much sun as June, as little rain as July, the university year started and summer rates back down. One closing note on method, which holds for this batch: Compiègne and Beauvais are both attached to Paris-Montsouris and so carry exactly the same climate table in our data. That is a property of our matching method, not an observation about the weather of the Oise.",
+      },
+    ],
+    relatedCities: ["compiegne"],
+    tags: [
+      "solo travel",
+      "solo travel compiegne",
+      "travelling alone in france",
+      "single supplement",
+      "clairiere de l armistice",
+      "hauts-de-france",
+    ],
+  },
+  {
+    slug: "solo-travel-in-albi-2026",
+    title:
+      "Solo travel in Albi: the cheapest destination in this series, and the oldest",
+    metaTitle: "Solo Travel in Albi 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Albi alone: the best cost score of the fifty destinations in this series and the highest share of over-60s. Where to stay, going out, single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-20",
+    updatedAt: "2026-09-20",
+    intro:
+      "Albi holds two opposite first places. Its cost score is 7.6/10, the highest of the fifty destinations this series has published, ahead of Montauban at 7.2 and Troyes at 7.1: on our data it is the town where a trip taken alone costs least for comparable content. And its share of residents aged 60 and over is 33.6%, also the highest of the fifty, ahead of Vannes at 33.1. A cheap destination for a solo trip, in the oldest town in the corpus: the contradiction is only apparent, it resolves through a single age band, and that is where to start.",
+    sections: [
+      {
+        heading:
+          "Why Albi: the town has students and pensioners, not thirty-somethings",
+        body:
+          "Albi records 22.21% of residents aged 15 to 29 in the 2022 census, fourth share in this batch of seven and well above the national median of 18.44%, with the Institut national universitaire Champollion and its roughly five thousand students as the mechanism. At the same time it records 33.6% aged 60 and over. The two figures coexist because the band that is missing is the 30 to 44 year olds: 14.43% of the population, the sixty-eighth lowest share of the 538 communes we measure, against a national median of 17.61%. This is the classic profile of a mid-sized university town where people study and then leave to work somewhere else, before some of them come back to retire. For this kind of trip the consequence is direct and rather good: what fills the terraces on a Tuesday evening is not the general demographics but the student population, and the students are here. The rest of the scores are the best in this batch on almost every axis: 7.1/10 overall, sixth of the fifty destinations level with Lyon; 8.0/10 for culture, ninth level with Toulouse and Lille; 7.4/10 for daily life; 6.7/10 for safety, third of the fifty behind Annecy and Vannes. And the commune is gaining residents, 50,605 in 2022 against 49,024 in 2016, which is 3.2%.",
+      },
+      {
+        heading: "Albigensian: the word you already know",
+        body:
+          "English uses one word from this town without most people noticing it is a place name. The Albigensian Crusade, the campaign launched in 1209 and running for two decades against the Cathars of Languedoc, is called that because Albi was taken as the movement's centre, and Albigensian became the English name for the heresy and its adherents. That history is legible in the stone. The cathedral of Sainte-Cécile was begun in 1282, in the aftermath, and took roughly two centuries to build: it is the largest brick cathedral in the world, and from the outside it reads as a fortress rather than a church, which is the point, since it was built by a victorious church in a defeated region. The inside is the opposite, painted end to end. Next door, the Palais de la Berbie, the old bishops' palace above the Tarn and part of the same UNESCO listing, holds the largest public collection of Henri de Toulouse-Lautrec in the world, which is the second reason an English-speaking visitor ends up here. He was born in Albi, and the collection is here because his family gave it to the town rather than to Paris.",
+      },
+      {
+        heading:
+          "Where to stay: the episcopal quarter, and a hundred and fifty euros",
+        body:
+          "Three districts are documented and, for once in this batch, all three are actually in Albi. The cité épiscopale, listed by UNESCO on 31 July 2010, scores 7.5/10 for nightlife, the best in this batch level with the Plateau at Angoulême, the rebuilt centre of Lorient and the walled town of Vannes, with an average two-room flat at 680 euros. Cantepau, residential, drops to 5.0/10 at 610 euros. Les Ouldes, more working-class and further out, falls to 4.5/10 but carries the best district cost score in this batch, 9.0/10, with a two-room flat at 530 euros. The gap between the best and the cheapest is therefore a hundred and fifty euros a month, the widest in the batch, and it only matters on a long stay. Over two or three nights the episcopal quarter is the only defensible choice: that is where the terraces are, and the rest falls away quickly. The commune references, 450 euros for a studio, 620 for a two-room flat, 840 for a three-room flat and 2,200 euros per square metre to buy, put Albi in the lower half of the fifty destinations on all four values.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: a national stage, a museum, and a July festival",
+        body:
+          "Albi scores 8.0/10 for culture, the highest in this batch and ninth of the fifty destinations in the series, level with Toulouse and Lille. For a commune of fifty thousand people that is a statistical anomaly, and it comes down to one venue and one museum. The venue is the Scène nationale d'Albi, which runs the Grand Théâtre and the Athanor hall. A scène nationale is a state-accredited regional theatre, and the label guarantees a professional programme spread across the whole season, which is precisely what this series is after when it talks about a town being alive out of season. The museum is the Toulouse-Lautrec, described above. The Pause Guitare festival, whose thirtieth edition runs from 8 to 12 July 2026, is a fine event and it is not the mechanism under discussion here: five days in July say nothing about a Tuesday in November, and this series makes a rule of not confusing the two. The red brick, the sheer scale of Sainte-Cécile and the banks of the Tarn fill the rest of the day.",
+      },
+      {
+        heading:
+          "Getting here without a car, and the single supplement at its best",
+        body:
+          "Albi scores 5.5/10 for transport, second from bottom in this batch level with Vannes and ahead of Angoulême. A data point needs making, because the site's service table carries no entry for Albi and that absence means undocumented rather than unserved: the check made for this batch establishes that Albi has no TGV and is reached by regional train from Toulouse in about an hour. In practice the consequence is twofold. Arriving from most French cities means a change at Toulouse, which lengthens the journey and makes Albi a three-night destination rather than a two-night one. On the ground, everything is settled on foot: the episcopal quarter, the cathedral, the museum and the terraces sit within a few hundred metres, and there is no tram or metro whose absence you would feel. The town's relationship with Toulouse is the same as Montauban's, covered in the previous batch: you pay for accommodation at Tarn rates and draw on the offer of the fourth largest city in France when you want it. On the budget, this is the section where Albi beats the other forty-nine. The single room supplement is mechanically half the price of the room, so it costs less the cheaper the room is, and the Albi cost score of 7.6/10 is the highest in the series corpus. For internal comparison, the lowest cost scores in this same series are Paris at 2.2, Annecy at 3.1 and Nice at 3.3: the unshared half of a night in Albi and the unshared half of a night in Annecy are not the same order of magnitude. Albi is also a prefecture town with an administration and a university, so its accommodation is priced for weekday stays per single occupant, and its remote-work score of 6.8/10 clears the 6.5 threshold the profile page uses as an indirect sign of a furnished studio market: of the seven towns in this batch, only Albi and Vannes manage that. The three habits of the series apply without difficulty: search for a single room rather than a double occupied by one person, aim for midweek, compare a studio against a hotel from two nights up. The usual caveat holds here too: a cost score measures the cost of living locally and not the price of a hotel night, which this site never quotes.",
+      },
+      {
+        heading:
+          "When to go: September and October, the best late season in the batch",
+        body:
+          "Albi's reference weather station is Toulouse-Blagnac, seventy kilometres away. That is far, and the reservation has to be stated: Albi is more continental than Toulouse and sits away from the Garonne corridor, so its temperature swings are probably a little sharper. The order of magnitude and the shape of the year remain usable, the two towns sharing the same southern lowland regime. The normals give 6.3°C in January with 89.1 hours of sun in the month, 16.4°C in May with 212.3 hours, 20.3°C in June with 231.8 hours, then 22.6°C in July with 258.6 hours and 5.7 rain days, and 22.8°C in August with 246.4 hours and 5.9 rain days. That is the highest sunshine of the four towns in this batch for which we publish figures. But the real window is elsewhere: September gives 19.3°C, 210.1 hours of sun and 6.6 rain days, October 15.3°C, 155.2 hours and 7.5 days. November is the trough, the wettest month of the year with 10.0 rain days, although January and December are darker still at 89.1 and 89.7 hours against 99.9. For a trip whose unit is the terrace, September and October combine the warmth, the light and the restarting programmes, without the rates or the heat of high summer.",
+      },
+    ],
+    relatedCities: ["albi"],
+    tags: [
+      "solo travel",
+      "solo travel albi",
+      "travelling alone in france",
+      "single supplement",
+      "musee toulouse-lautrec",
+      "occitanie",
+    ],
+  },
+  {
+    slug: "solo-travel-in-lorient-2026",
+    title: "Solo travel in Lorient: a U-boat bunker turned concert hall",
+    metaTitle: "Solo Travel in Lorient 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Lorient alone: a contemporary music venue built inside a submarine bunker, 21.80% of residents aged 15 to 29, and ten days in summer to avoid or plan for.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-20",
+    updatedAt: "2026-09-20",
+    intro:
+      "Lorient is the largest of the seven towns in this batch at 58,202 residents, and the most average of all of them on our data: none of the four axes that matter for this profile goes above 6.2/10, not culture, not daily life, not transport, and not safety, which drops to 5.5. If you were choosing this destination off a scoreboard, you would not choose it. You choose it on two facts the scores do not carry: 21.80% of residents aged 15 to 29 in the 2022 census against a national median of 18.44%, and a contemporary music venue built inside a bunker of the submarine base. That is the kind of thing that does not transpose anywhere else.",
+    sections: [
+      {
+        heading: "Why Lorient: a port town that happens to have a university",
+        body:
+          "Lorient has 58,202 residents in 2022 against 57,274 in 2016, growth of 1.6%. What keeps it alive out of season is a weekday economy rather than tourism: a fishing and commercial port, a naval dockyard, and the Université Bretagne Sud, of which Lorient is one of the two campuses along with Vannes. Those activities are what explain the 21.80% of 15 to 29 year olds and the fact that the town does not empty in October. The downside shows in the age structure: 28.9% of residents are 60 or over, the seventh highest value of the fifty destinations in the series, with a median standard of living of 20,860 euros and a poverty rate of 21%. Lorient is not a wealthy town and it is not a resort. For this kind of trip that is mostly good news: prices are those of a town that lives off its own work, not those of a seafront. One general point before the rest, because it governs everything that follows: the centre of Lorient is a 1950s reconstruction, the town having been destroyed during the Second World War because of the German submarine base at Keroman. You do not come here for a medieval centre, and it is better to know that before booking.",
+      },
+      {
+        heading: "Keroman, 1943, and why the centre looks like that",
+        body:
+          "For a British or American reader this is the part of Lorient that needs no introduction once it is named. From February 1941 the Kriegsmarine built a set of bunkers at Keroman for its Atlantic U-boat flotillas, the third and largest of them going up between October 1941 and January 1943, with room for around thirty submarines under several metres of reinforced concrete. Because the bunkers could not be broken, the Allies set out to destroy the port and the town around them instead: between 14 January and 17 February 1943 something close to ninety per cent of Lorient was flattened by high-explosive and incendiary bombing. The bunkers came through it. That is the whole explanation of the town you walk around today, a 1950s reconstruction wrapped around concrete that would not break, and it is also why the German garrison was still there at the end: the Lorient pocket, surrounded by American forces but never taken, held out until 10 May 1945, two days after the general surrender. One smaller piece of etymology, given as tradition rather than fact because no document settles it: the town was created from nothing in 1666 around the shipyard of the French East India Company, at the meeting of the Scorff and the Blavet, and the name L'Orient is traditionally credited to a large vessel built there, the Soleil d'Orient. Historians repeat it; nothing proves it.",
+      },
+      {
+        heading: "Where to stay: the rebuilt centre, at exactly the town price",
+        body:
+          "Three districts are documented, all of them in Lorient. The rebuilt centre, which holds the shops, the activity and the terraces, scores 7.5/10 for nightlife, the best in this batch level with the Plateau at Angoulême, the episcopal quarter of Albi and the walled town of Vannes, with an average two-room flat at 680 euros. The commune reference is also 680 euros: this is the only town in the batch where staying in the best place to go out costs exactly the town average, with no premium of any kind. Merville, residential and green, drops to 5.5/10 at 650 euros. Kérentrech, more working-class and under renovation, gets 6.0/10, making it the second liveliest district, at 600 euros with the best cost score of the three at 8.5/10. It is the most balanced trade-off in the batch: eighty euros a month between the centre and Kérentrech for a point and a half of nightlife. The commune references are 500 euros for a studio, 680 for a two-room flat, 900 for a three-room flat and 2,800 euros per square metre to buy, that last figure being the second highest in the batch behind Vannes.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Hydrophone, inside blockhouse K2",
+        body:
+          "Lorient scores 6.2/10 for culture, the lowest in this batch level with Vannes, and it should be taken for what it is: a mid-sized town's programme, not a city's. But the town carries one venue that justifies the journey for this profile specifically. The Hydrophone is the contemporary music venue of Lorient Bretagne Sud, built by the agglomeration inside blockhouse K2 at Lorient La Base, which is to say inside the former German submarine base. A venue holding the scène de musiques actuelles accreditation programmes across the whole season rather than just the summer, which is exactly the guarantee this series looks for. And the building itself, metres of concrete converted into a cultural facility, is a reason to come independently of who is playing. The rest of the Lorient La Base site, the Keroman fishing port and the roadstead fill the daytime. It does need saying plainly that these sites are not in the rebuilt centre and that getting to them means a journey: the Lorient perimeter is not as compact as Arras or Albi.",
+      },
+      {
+        heading: "Getting around, and the ten days when the supplement bites",
+        body:
+          "Lorient scores 6.1/10 for transport, third in this batch level with Arras. The site's service table credits it with a direct TGV, which the check confirms: Lorient station is served by TGV inOui from Paris-Montparnasse. There is no tram and no metro, and the urban network is a bus network. The practical consequence is the one that recurs in almost every guide in this series about a town of this size: arriving is easy, getting home after an evening depends on the last bus or on walking. The prudent rule is therefore to stay in the rebuilt centre rather than at Lorient La Base, even if it means making the round trip earlier in the evening. One methodological point, which holds beyond Lorient: this site never derives a negative claim from an empty service record, because an empty record means undocumented and not unserved. On the budget, the cost score is 6.2/10, level with Arras in this batch, and the housing references above confirm it: the town sits in the lower middle of the corpus without being cheap the way Arras or Albi are. The single room supplement is half the price of the room and dilutes here into an accommodation stock oriented towards weekday work, port and dockyard obliging. There is one exception, and it is a large one. The Festival interceltique de Lorient runs from 31 July to 9 August 2026 for its fifty-fifth edition, with Cornwall as guest of honour, which for a British reader is worth knowing: the festival is built around the eight Celtic nations, and 2026 is Cornwall's year. Over those ten days the town takes a footfall out of all proportion to its size, and that is precisely the configuration where an unshared room costs most, because supply is saturated and a single occupant pays the price of a double with nothing to trade. It is a great festival and it can be an excellent reason to come, but you have to choose: either you come for it and book far ahead accepting the price, or you come for the town and avoid those ten days. The rest of the year the three habits of the series work normally: search for a single room rather than a double occupied by one person, aim for midweek, compare a studio against a hotel from two nights up.",
+      },
+      {
+        heading:
+          "When to go: this guide publishes no normals, and the reason is measured",
+        body:
+          "The nearest weather station to Lorient in our data is Brest-Guipavas, a hundred and ten kilometres away, and it is the worst match in this batch of seven. Brest occupies the western tip of Brittany, where rainfall is among the highest in mainland France; Lorient sits on the southern coast of the Morbihan under a noticeably drier and brighter regime. Publishing the Brest readings as though they described Lorient would produce a false figure with the authority of a measurement, so this guide publishes none. That is not fastidiousness: the same problem applies to Vannes, attached to Rennes eighty-nine kilometres off, and to Angoulême, attached to Limoges at eighty-three. Across the fifty destinations in the series, the median distance to the reference station is eight kilometres for towns above a hundred and twenty thousand people and eighty-three kilometres for those under sixty thousand. Our twenty-nine stations are in the big cities, so the further down in size this series goes, the less reliable its climate section becomes. What can be said without data is still useful: the south Brittany coast gives its best window from late spring to the end of September, and the one period to rule out firmly for this profile is the festival, from 31 July to 9 August.",
+      },
+    ],
+    relatedCities: ["lorient"],
+    tags: [
+      "solo travel",
+      "solo travel lorient",
+      "travelling alone in france",
+      "single supplement",
+      "hydrophone lorient",
+      "brittany",
+    ],
+  },
+  {
+    slug: "solo-travel-in-vannes-2026",
+    title:
+      "Solo travel in Vannes: the dearest in this batch, and its concert hall is elsewhere",
+    metaTitle: "Solo Travel in Vannes 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Vannes alone: the best quality of life in this batch, a two-bed flat at Nantes prices, and a contemporary music venue in a different commune altogether.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-20",
+    updatedAt: "2026-09-20",
+    intro:
+      "Vannes scores 7.8/10 for daily life and 6.9/10 for safety, fourth and second respectively of the fifty destinations in this series. On our data it is by some distance the most pleasant town in this batch of seven. It is also the most expensive: 5.5/10 for cost, the lowest of the seven, a reference three-room flat at 1,150 euros, the same level as Nantes, Montpellier and Toulouse for a commune of 54,955 people, and 3,900 euros per square metre to buy. This guide therefore handles a case the series had not met in this form: a destination that ticks everything the profile asks for except the budget, and whose only contemporary music venue is in another commune.",
+    sections: [
+      {
+        heading:
+          "Why Vannes: a well-off town, an old one, and one that is growing",
+        body:
+          "Vannes has 54,955 residents in 2022 against 53,218 in 2016, growth of 3.3%, the second highest in this batch behind the 4.3% of Arras. It records 21.70% of residents aged 15 to 29, above the national median of 18.44%, thanks to the Tohannic campus of the Université Bretagne Sud, which brings together the faculty of law, economics and management, the faculty of science and engineering and the nursing training institute; its garden has been run by the students since 2011, and the campus is a kilometre from the port. The rest of the demographics pulls the other way: 33.1% of residents are 60 or over, the second highest share of the fifty destinations in the series behind Albi. It is also the wealthiest commune in the batch, and clearly so: a median standard of living of 24,070 euros, seventh of the fifty, and a poverty rate of 15%, the fourth lowest of the fifty level with Aix-en-Provence, against 26% at Angoulême and 25% at Arras and Beauvais. A rich town, an old one, growing, on the edge of the Gulf of Morbihan: the housing price that follows is not an anomaly, it is the consequence.",
+      },
+      {
+        heading: "Darioritum, Caesar, and the end of the duchy",
+        body:
+          "Two pieces of history here are better known in English than the town is. Vannes was Darioritum, the capital of the Veneti, the seafaring Gaulish people of southern Brittany, and in 56 BC Julius Caesar destroyed their fleet somewhere off this coast, in what is generally taken to be the first naval battle recorded in the Atlantic. Caesar tells it himself in Book III of the Gallic War, which means a great many English-speaking readers met the name of this place in a Latin class without ever connecting it to a town in the Morbihan. The Veneti built heavy oak ships with leather sails suited to an Atlantic swell, and the Roman answer, as Caesar describes it, was to cut their rigging with hooked poles in a flat calm. The second date is 1532, when the Estates of Brittany met at Vannes over the union of the duchy with the French crown. Sources differ on exactly where the act was finally sealed, the edict being signed at the castle of Plessis-Macé in Anjou, so this guide says only what is not in dispute: the decisive assembly sat here in August 1532, and independent Brittany ends at that point. Neither episode has a monument, which is worth saying before anyone goes looking for one. The ramparts you walk are medieval, not Roman.",
+      },
+      {
+        heading: "Where to stay: two districts, and neither of them cheap",
+        body:
+          "Vannes is the only town in this batch for which we document two districts rather than three, and both tell the same story. The intra-muros, the old town inside its walls, scores 7.5/10 for nightlife, the best in this batch level with the Plateau at Angoulême, the episcopal quarter of Albi and the rebuilt centre of Lorient, with an average two-room flat at 950 euros. The commune reference being 850 euros, staying in the best place to go out costs a hundred euros above the average here, the widest gap in the batch, ahead of the sixty euros at Albi. Tohannic, the campus district, gets 4.5/10 for nightlife at 890 euros. And here is the measure that sums the situation up: the cheaper of the two Vannes districts, at 890 euros, costs more than the most expensive district of each of the six other towns in this batch, the historic centre of Compiègne being next at 750 euros. The commune references, 620 euros for a studio, 850 for a two-room flat, 1,150 for a three-room flat and 3,900 euros per square metre to buy, are the highest of the seven on all four values.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: the Échonova is at Saint-Avé, not in Vannes",
+        body:
+          "Vannes scores 6.2/10 for culture, the lowest in this batch level with Lorient, and it takes a geographical precision to see why. The agglomeration's contemporary music venue is called the Échonova: six hundred seats, some forty concerts a year, five rehearsal studios and a recording studio, opened in March 2010 and run by Golfe du Morbihan Vannes Agglomération. It is not in Vannes. It stands at Saint-Avé, a separate commune a few kilometres to the north, and that distinction decides whether an evening without a car is feasible at all. This guide therefore applies the series convention: the Échonova is reachable from Vannes, it is not situated in Vannes. What remains in the town itself is what the walled centre offers, and that is not nothing for a short stay: ramparts, washhouses, a dense pedestrian old town of timber-framed houses, terraces grouped together, and a port a few hundred metres away. The physical density of the addresses partly makes up for the thinness of the programme, as at Arras. But if your trip is built around gigs, Vannes is not the right town in this batch, and Lorient, a few dozen minutes away by train, is more like it.",
+      },
+      {
+        heading:
+          "Getting around, and the single supplement at its worst in this batch",
+        body:
+          "Vannes scores 5.5/10 for transport, second from bottom in this batch level with Albi. The site's service table credits it with a direct TGV, which the check confirms: Vannes station is served by TGV inOui from Paris-Montparnasse. There is no tram and no metro, and the urban network is a bus network. For a stay that happens entirely inside the walls and around the port, that hardly matters: the perimeter is walked from end to end. The problem arises exactly once, and it was flagged above: an evening at the Échonova means reaching another commune and, above all, getting back from it after the concert, which depends on the last bus or on a taxi. Check that before buying a ticket, not after. It is the Vannes version of a rule this series has repeated since the first batch: in a mid-sized town, what limits an evening is never the programme, it is the journey home. On the budget, the cost score of 5.5/10 is the lowest in this batch of seven, and the housing references above give the measure of it. The single room supplement being half the price of the room, it weighs more here than in the other six towns, and the gap with Albi, whose cost score is 7.6/10, is not marginal. Two things pull the other way and are worth knowing. The first is the remote-work score, 7.8/10, the highest in this batch: the profile page uses 6.5 as an indirect sign of a furnished studio market, and Vannes clears it comfortably, alone with Albi among the seven. The second is seasonality, which is sharper here than anywhere else in the batch: Vannes is a Gulf of Morbihan town, so a summer destination, and the balance between supply and demand reverses completely between August and November. The usual advice of aiming for midweek is secondary here to aiming for the right month. The three habits still hold: search for a single room rather than a double occupied by one person, aim for midweek, compare a studio against a hotel from two nights up.",
+      },
+      {
+        heading:
+          "When to go: outside July and August, and without figures from us",
+        body:
+          "The nearest weather station to Vannes in our data is Rennes-Saint-Jacques, eighty-nine kilometres away. Rennes is inland, Vannes is on the Gulf of Morbihan, one of the most sheltered and sunniest pockets in Brittany: the two regimes are not the same, and publishing one set of readings as though it described the other would be printing a false figure with the authority of a measurement. This guide therefore publishes no monthly normals for Vannes, on the same doctrine that led the previous batch to publish none for Saint-Pierre in Réunion. What can be said without data is enough to decide on. Vannes is a gulf destination, so saturated and expensive in July and August, and that is exactly the period this profile has least reason to pick: you pay the most for a room you have not shared, in the one stretch of the year when the town does not need extra visitors. Late spring and the first half of autumn keep the Atlantic mildness, student life is back from September, and the walled town becomes a place people live in again rather than a corridor to walk through.",
+      },
+    ],
+    relatedCities: ["vannes"],
+    tags: [
+      "solo travel",
+      "solo travel vannes",
+      "travelling alone in france",
+      "single supplement",
+      "golfe du morbihan",
+      "brittany",
+    ],
+  },
+  {
+    slug: "solo-travel-in-beauvais-2026",
+    title: "Solo travel in Beauvais: the tallest Gothic choir ever built",
+    metaTitle: "Solo Travel in Beauvais 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Beauvais alone: 21.38% of residents aged 15 to 29, a Gothic vault 48.50 m high, the best transport in this batch and the thinnest studio market here.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-20",
+    updatedAt: "2026-09-20",
+    intro:
+      "Beauvais closes this batch of seven on the measure that serves as its rule: 21.38% of residents aged 15 to 29 in the 2022 census, the lowest share of the seven and still above the 20% floor the profile page publishes, and well above the national median of 18.44%. At the same time it carries the best transport score in the batch along with Compiègne at 7.7/10, and the second culture score with it as well at 7.5/10. And it has a monument with no equivalent anywhere: the Gothic choir of the cathedral of Saint-Pierre rises to 48.50 metres under the vault, the highest Gothic vault ever built, in a building left unfinished after two collapses. For a great many English-speaking visitors it is also, without their quite realising it, the first French town they ever landed in.",
+    sections: [
+      {
+        heading:
+          "Why Beauvais: a town that has stopped growing, and two thousand students",
+        body:
+          "Start with the demographic reservation. Beauvais has 55,906 residents in 2022 against 56,020 in 2016, a fall of 0.2%: with Angoulême it is one of the two towns in this batch that are not gaining people, and the only one whose population has been essentially flat for six years. What still supports its share of 15 to 29 year olds is identifiable: the UniLaSalle polytechnic institute has its largest campus here, with more than two thousand students, published figures ranging from 2,150 to 2,300 depending on the source, which is why this guide sticks to an order of magnitude. The town is also the prefecture of the Oise, which gives it administrative activity of its own. The scores draw a clear profile: 7.7/10 for transport and 7.5/10 for culture, the two best values in the batch level with Compiègne, against 5.9/10 for daily life and 5.2/10 for safety, second from bottom in the batch ahead of Angoulême. In other words, Beauvais is easy to reach and well equipped, but the density of terraces and evening trade is not its argument, and the daily-life score says so without hedging.",
+      },
+      {
+        heading:
+          "The cathedral that tried too hard, and a bishop you have heard of",
+        body:
+          "The cathedral of Saint-Pierre is the reason to come, and its history is one of overreach that failed twice. The thirteenth-century choir rises to 48.50 metres under the vault, the highest ever built in Gothic, and it came down in 1284, most likely in a storm, before being rebuilt with extra piers. Three centuries later the builders tried again upwards: a crossing tower finished in 1569 carried a spire that sources put at 150 to 153 metres, which for a few years made this the tallest structure ever raised by human hands. It collapsed on 30 April 1573, shortly after a service. The nave was never built. What you visit is therefore a choir and a transept with nothing in front of them, which produces an odd silhouette from outside and, inside, a height that is difficult to credit when you are standing under it. There is a second Beauvais name an English-speaking reader will know from elsewhere. Pierre Cauchon, bishop of Beauvais, presided over the trial of Joan of Arc at Rouen in 1431, and the jurisdiction he claimed rested on the fact that she had been captured at Compiègne, which lay in his diocese. Compiègne is the other Oise town in this batch, and that is the thread between the two guides. Lastly, the Beauvais tapestry manufactory was founded here in 1664 by Colbert to rival the Gobelins, and its work is why the town's name turns up on labels in the Getty, the Metropolitan and the Victoria and Albert.",
+      },
+      {
+        heading:
+          "Where to stay: the historic centre, and a commune that is not it",
+        body:
+          "Three districts are documented, and the third calls for the same correction as at Angoulême and Compiègne: Tillé, which carries the airport, is a separate commune from Beauvais. The historic centre, around the cathedral, scores 6.5/10 for nightlife with an average two-room flat at 660 euros against a commune reference of 650 euros, a gap of ten euros, the smallest in this batch along with Arras. The residential district of Noireaigues drops to 4.5/10 at 620 euros. Tillé falls to 3.0/10 for nightlife, the lowest of any documented district in this batch, at 590 euros: it is a suburban address next to an airport, to be ruled out without hesitation for this kind of stay, whatever the saving. The commune references are 470 euros for a studio, 650 for a two-room flat, 870 for a three-room flat and 2,200 euros per square metre to buy, which puts Beauvais in the lower half of the fifty destinations in the series on all four values.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: a national stage, and a cathedral with no nave",
+        body:
+          "Beauvais scores 7.5/10 for culture, second in this batch level with Compiègne and behind Albi, and it rests on an identifiable venue: the Théâtre du Beauvaisis, which holds the scène nationale accreditation, the state label for a regional theatre, guaranteeing a professional programme spread across the whole season rather than concentrated into a summer festival. For this series that label is exactly the signal being looked for. The cathedral, described above, is a reason to come in its own right and takes an hour or two. Then there is the safety reservation, to be stated without drama: 5.2/10, second from bottom in the batch ahead of Angoulême, which calls for ordinary urban caution on a late night out.",
+      },
+      {
+        heading: "The airport, the trains, and the single supplement",
+        body:
+          "Beauvais scores 7.7/10 for transport, the best value in this batch level with Compiègne, and that figure needs explaining because it does not cover what you would assume. The site's service table carries no entry for Beauvais, which means undocumented rather than unserved, a distinction this series applies since it nearly wrote the opposite. The check made for this batch establishes that Beauvais has no TGV and is reached from Paris-Nord by regional train in a little over an hour. As for the airport, it trades commercially as Paris-Beauvais while sitting at Tillé, in the Oise, and it is the Ryanair and Wizz Air gateway: there is a fair chance that if you have flown to Paris on a cheap ticket, you have already been here without leaving the terminal, and that the coach to Porte Maillot took you an hour and a quarter at best. It is a useful door into the country from abroad and strictly no use for an evening out. In town there is neither tram nor metro, but the centre is compact and the cathedral, the theatre and the terraces sit within walking distance. On the budget, the cost score is 6.7/10, level with Angoulême in this batch and sixth of the fifty destinations in the series. The single room supplement being half the price of the room, it dilutes into low housing references, 470 euros for a studio and 650 for a two-room flat. But a reservation has to be added that this guide alone in the batch must make in this direction. The profile page uses the remote-work score as an indirect indicator of how deep the furnished studio market is, with a threshold of 6.5: Beauvais scores 5.1/10, the lowest of the seven and the sixth lowest of the fifty destinations. In other words the town fails the filter this site itself applies to predict that a single occupant will easily find a small room. The price is low, the choice is probably narrow, and both pieces of information count equally. Across the batch, only Albi and Vannes clear that threshold. The three habits of the series remain useful and the first becomes decisive here: search for a single room rather than a double occupied by one person, aim for midweek, compare a studio against a hotel from two nights up.",
+      },
+      {
+        heading: "When to go: September, with the same caveat as at Compiègne",
+        body:
+          "Beauvais is attached, like Compiègne, to the Paris-Montsouris station, seventy-one kilometres away. The two Oise towns in this batch therefore carry exactly the same climate table in our data: that is a property of our matching method and not an observation about the weather of the department. As at Compiègne, this guide publishes no temperature average, Paris-Montsouris being an urban station whose thermal readings run above those of the surrounding countryside. Sunshine and the number of rain days, far less sensitive to that gap, describe the wider Paris basin correctly: 201.0 hours of sun in May, 203.5 in June, 222.4 in July, 215.3 in August and 174.7 in September, with 7.4 and 7.5 rain days in July and September, the two driest months, against 10.4 in November and 11.4 in December. December combines the most rain with the least light, 56.9 hours of sun across the whole month. The window to keep is therefore the same as at Compiègne and for the same reasons: September, when the university year has refilled the town, the national stage restarts its programme and summer rates have come back down.",
+      },
+    ],
+    relatedCities: ["beauvais"],
+    tags: [
+      "solo travel",
+      "solo travel beauvais",
+      "travelling alone in france",
+      "single supplement",
+      "cathedrale saint-pierre beauvais",
+      "hauts-de-france",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

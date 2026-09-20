@@ -4704,6 +4704,170 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 20/09 — `solo-travel-in-[city]-2026` batch 7 (+7), la série refermée à 50/50
+
+`npm run parity` en **code 0** en début et en fin de run (FR 221 · EN 166, 0 route FR sans
+jumelle) : la parité de **routes** tient, le run porte donc sur l'écart de **corpus**. Les 7
+jumelles du lot FR `vacances-celibataire` du 19/09, écrites d'un coup dans `data/guides-en.ts`
+(Arras, Angoulême, Compiègne, Albi, Lorient, Vannes, Beauvais). **Compteurs mesurés : FR 50,
+EN 50 — écart nul dans les deux sens, série refermée** (`EN_GUIDES` 948 → 955).
+
+Le lot FR a été poussé **la veille** (commit `42f0982`) et ce run le rattrape le lendemain :
+c'est le mode de régression qu'aucun contrôle automatique ne signale, d'où le **diff par série
+refait à chaque run et refait dans les deux sens** — 7 villes FR sans jumelle EN, 0 guide EN
+sans source FR, ce qui valide le motif de slug avant de croire au trou. Le diff est **mesuré**
+sur les deux listes de slugs, jamais recopié du journal.
+
+**Gabarit** : `metaTitle` 46-51, `metaDesc` 149-155, 6 sections par guide comme les 43 déjà
+livrés, **0 em-dash** sur les sept réunis. Aucun tag neuf au-dessus du seuil de 3 guides,
+`search-index.en.json` reste à **114 tags** donc aucune page `/tags/` créée ; `sitemap:check`
+donne EN 28 840 → **28 847 URL**, soit exactement les 7 guides neufs (FR inchangé à 29 257).
+Contrôle de lookup / photo passé **sur les 540 villes et les 50 guides de la série** en appelant
+le résolveur de la page (`guideCityPhoto`) et non une réimplémentation : **50/50 atteignables,
+0 orphelin, 0 collision, 0 guide sans photo d'en-tête**.
+
+⚠️ **`npm run integrity` a refusé le premier jet, et il avait raison sur le fond même si le
+chiffre était juste.** La garde « citations EN » a signalé `solo-travel-in-albi-2026 · albi.cost :
+écrit 9.0, affiché 7.6` sur la phrase « carries 9.0/10 for cost ». Le 9,0 est le score de coût du
+**quartier** Les Ouldes, lu dans `data/neighborhoods.ts`, et il est exact ; il coïncide seulement
+avec le littéral brut de l'axe `cost` d'Albi au seed, que la fiche ville rend à 7,6. La garde ne
+pouvait pas faire la différence, mais **un lecteur non plus** : « 9.0/10 for cost » dans un
+paragraphe sur Albi se lit comme le score de la ville. Corrigé par la **phrase** et non par la
+garde — « carries the best district cost score in this batch, 9.0/10 » — ce qui garde le chiffre,
+le rend non ambigu et laisse la garde intacte. ⚠️ **La jumelle FR porte la même coïncidence et
+passe**, parce qu'elle écrit « porte 9,0/10 de score de coût » et que la liste de connecteurs
+FR de la garde n'attrape pas « de score de ». Ne pas « corriger » le FR : son chiffre est bon et
+sa formulation nomme déjà un score. Et ne pas élargir la garde sur ce cas sans mesurer ce qu'elle
+avalerait : un score de quartier égal par hasard à un littéral d'axe est rare, l'inverse ne l'est
+pas.
+
+⚠️ **28 figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le contrôle
+mécanique les remontera à chaque run, ne pas les « corriger ».** Contrôle sensible à la locale
+(FR « 1 150 » / « 24,53 » face à EN « 1,150 » / « 24.53 ») : **326 figures distinctes côté EN,
+298 retrouvées** dans la jumelle FR. Une seule des 28 est un écart de **graphie** et non de
+valeur : le FR écrit « quarante-neuf minutes » en toutes lettres là où l'EN écrit 49. Les 27
+autres sont de la matière propre à l'angle anglophone, **vérifiées en ligne avant écriture**, et
+c'est ce que ce lot avait de mieux à offrir : **six des sept villes sont dans l'histoire
+britannique, américaine, canadienne ou néo-zélandaise avant d'être dans un guide de voyage**,
+et les guides FR, écrits pour un lecteur français, n'en portent presque rien. Même arbitrage
+qu'avec Jubilee à Dieppe (tourisme batch 37), Cambrai (39), Béthune (41), Blagnac (43) et
+Verdun (47).
+
+- **Arras** `1916`, `1917`, `2008` — c'est un nom de la Première Guerre mondiale avant d'être une
+  ville, et la raison est sous les rues. Les carrières médiévales (les boves) ont été reliées et
+  étendues à l'hiver 1916-1917 par des **tunneliers néo-zélandais**, avec des compagnies
+  britanniques à leurs côtés, qui ont **baptisé les secteurs souterrains de noms de villes
+  néo-zélandaises** — d'où le nom de la carrière Wellington. Le **9 avril 1917 à 5 h 30**, environ
+  **24 000** soldats britanniques en sont sortis dans la ligne allemande. Mémorial ouvert au public
+  le **1ᵉʳ mars 2008**, visite guidée souterraine à **11 °C constants**. Le mémorial d'Arras au
+  cimetière du Faubourg-d'Amiens porte **près de trente-cinq mille** noms de disparus : ⚠️ le
+  total exact **diffère selon les sources** (34 749 à 35 942), donc le guide écrit « close to
+  thirty-five thousand » et le dit, il ne tranche pas. ⚠️ **Vimy est une autre commune**, à une
+  dizaine de kilomètres, écrit comme tel.
+- **Angoulême** `1200`, `1216`, `1360` — **Isabelle d'Angoulême**, comtesse d'Angoulême de son
+  propre chef, épouse **Jean sans Terre le 24 août 1200** à Bordeaux, est couronnée à Westminster
+  le 9 octobre, reine jusqu'à la mort de Jean le **19 octobre 1216**, mère d'Henri III ; et le
+  **traité de Brétigny de 1360** cède l'Angoumois à Édouard III, repris par la couronne de France
+  moins de vingt ans après. ⚠️ Rien de tout cela ne se visite, et le guide le dit au lieu
+  d'inventer un parcours.
+- **Compiègne** `1918`, `1940`, `2419`, `1950`, `1430` — l'**armistice du 11 novembre 1918** a été
+  signé dans un wagon en forêt de Compiègne, et Hitler a fait ramener le même wagon au même endroit
+  pour l'armistice du **22 juin 1940**. ⚠️ **Le wagon exposé n'est pas l'original** : le 2419D a
+  été emmené en Allemagne et détruit ; ce qu'on voit est un wagon de la **même série donné par la
+  Compagnie des Wagons-Lits en septembre 1950**, les restes brûlés de l'original étant au musée.
+  C'est la prudence de la famille « l'Hermione n'est pas à Rochefort ». ⚠️ **La clairière est bien
+  sur le territoire de la commune de Compiègne** malgré le nom de Rethondes qu'on lui donne, mais à
+  **sept kilomètres** du centre : le guide le dit avant qu'on parte à pied. Et **Jeanne d'Arc a été
+  capturée devant Compiègne le 23 mai 1430**, ce qui est **le lien avec Beauvais dans ce même lot** :
+  Pierre Cauchon, évêque de Beauvais, a fondé sa compétence sur le fait que Compiègne était dans
+  son diocèse.
+- **Albi** `1209`, `1282` — **« Albigensian » est un mot anglais courant qui est un nom de ville**,
+  et la croisade lancée en **1209** est la raison pour laquelle la cathédrale, commencée en **1282**,
+  a la silhouette d'une forteresse. Le musée Toulouse-Lautrec porte la **plus grande collection
+  publique au monde** de l'artiste.
+- **Lorient** `1941`, `1943`, `14`, `17`, `1945`, `1666` — la base de Keroman est construite à
+  partir de **février 1941**, les bunkers n'ont jamais été percés, donc les Alliés ont détruit la
+  ville autour : **du 14 janvier au 17 février 1943**, près de **90 %** de Lorient est rasé et les
+  bunkers tiennent. C'est l'explication entière du centre reconstruit que décrit le guide FR sans
+  la dater, et c'est aussi pourquoi la **poche de Lorient n'a capitulé que le 10 mai 1945**, deux
+  jours après la reddition générale. ⚠️ L'étymologie est donnée **comme tradition et non comme
+  fait** : la ville naît ex nihilo en **1666** autour du chantier de la Compagnie des Indes, et le
+  nom « L'Orient » est attribué par tradition à un vaisseau, le *Soleil d'Orient*, **sans qu'aucun
+  document l'établisse** — même traitement que « faire ripaille » au tourisme batch 40. Enfin, le
+  festival interceltique 2026 a **la Cornouailles pour invitée d'honneur**, ce qui pour un lecteur
+  britannique n'est pas un détail : le guide FR le mentionne, l'EN explique les huit nations celtes.
+- **Vannes** `56`, `1532` — Vannes est **Darioritum, capitale des Vénètes**, dont **César a détruit
+  la flotte en 56 av. J.-C.** dans ce qui passe pour la première bataille navale attestée de
+  l'Atlantique, et il la raconte lui-même au **livre III** de la *Guerre des Gaules* : beaucoup de
+  lecteurs anglophones ont croisé ce nom en cours de latin sans savoir que c'était une ville du
+  Morbihan. ⚠️ Pour **1532**, les sources divergent sur le lieu de la ratification (l'édit est signé
+  au château du Plessis-Macé en Anjou), donc le guide n'écrit que ce qui n'est pas contesté :
+  **les États de Bretagne siègent à Vannes en août 1532**. ⚠️ Et il précise qu'aucun des deux
+  épisodes n'a de monument, les remparts étant médiévaux et non romains.
+- **Beauvais** `1284`, `1569`, `153`, `1573`, `1431`, `1664` — la voûte de **48,50 m** (chiffre de
+  la jumelle FR, conservé tel quel) s'effondre en **1284** ; la tour achevée en **1569** portait une
+  flèche que les sources donnent **entre 150 et 153 mètres**, ce qui en a fait pour quelques années
+  la plus haute construction humaine, et elle tombe le **30 avril 1573**. ⚠️ **La divergence
+  150/153 est publiée**, pas tranchée, et une comparaison avec la pyramide de Khéops écrite au
+  premier jet a été **retirée avant commit** faute de source sur la hauteur de référence — c'est la
+  leçon du tourisme batch 38, les écarts et les comparaisons dérapent là où les dates prises une à
+  une sont justes. Deux autres entrées : **Pierre Cauchon**, évêque de Beauvais, préside le procès
+  de Jeanne d'Arc à Rouen en **1431** (cf. Compiègne ci-dessus), et la **manufacture de tapisserie
+  fondée par Colbert en 1664** est la raison pour laquelle le nom de la ville figure sur des
+  cartels au Getty, au Metropolitan et au V&A.
+
+⚠️ **Trois affirmations écrites au premier jet et corrigées avant commit**, toutes du genre que
+rien n'automatise : ① l'heure exacte de la signature du 11 novembre 1918 (« un peu après cinq
+heures et quart »), que les sources ne fixent pas à la minute — remplacée par « in the early hours,
+to take effect at eleven that morning », qui est établi ; ② la comparaison Beauvais / pyramide de
+Khéops, supprimée ; ③ la température de la carrière Wellington écrite « eleven degrees or so »
+avant vérification, puis **vérifiée et durcie** à 11 °C constants. Deux retraits, un durcissement.
+
+Les prudences des jumelles FR sont reprises telles quelles, à ne pas diluer : **La Couronne et
+Soyaux sont des communes distinctes** et non des quartiers d'Angoulême, de même que
+**Saint-Jean-aux-Bois et Margny-lès-Compiègne** pour Compiègne et **Tillé** pour Beauvais ;
+**l'Échonova est à Saint-Avé** et non à Vannes, avec la conséquence pratique sur le retour de
+soirée ; **Main Square à Arras et Pause Guitare à Albi sont des événements et non un mécanisme de
+vie permanente**, et la série refuse de confondre les deux ; **l'édition 2026 du festival
+d'Angoulême n'a pas eu lieu** et celle de 2027 revient sous un nouvel opérateur **sans date
+vérifiée**, donc le guide n'en publie pas ; **la gratuité du bus de Compiègne ne dit rien de son
+amplitude horaire**, et c'est l'heure du dernier passage qui décide d'une soirée ; **le plateau
+d'Angoulême est un éperon** et la remontée depuis la gare se fait à pied ; **aucune normale
+climatique n'est publiée pour Angoulême (station à 83 km), Lorient (110 km) ni Vannes (89 km)**,
+ni aucune moyenne de température pour Compiègne et Beauvais, toutes deux rattachées à
+Paris-Montsouris, dont les relevés urbains sont supérieurs à ceux de la campagne ; **une fiche de
+desserte vide signifie non documenté et non pas absence de desserte** ; et **un score de coût n'est
+pas un prix de nuit**, que ce site ne chiffre jamais.
+
+Ajouts sans chiffre propres au lecteur étranger : **« bande dessinée » glosé** comme une forme
+prise au sérieux, plus proche du roman que du comic strip, avec Angoulême présentée comme son
+Cannes ; **« scène nationale » rendu** par « state-accredited regional theatre » à Albi comme à
+Beauvais ; **« intra-muros », « boves », « prefecture town » et « scène de musiques actuelles »**
+posés en une incise ; et l'**aéroport de Beauvais** dit pour ce qu'il est côté anglophone — la
+porte low cost par laquelle beaucoup de lecteurs sont déjà entrés en France sans quitter le
+terminal, à Tillé, avec une navette d'**une heure et quart au mieux** jusqu'à la porte Maillot,
+utile depuis l'étranger et sans aucun intérêt pour une soirée.
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands de `CLAUDE.md` depuis le
+batch 27). Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**,
+`npm run integrity` (guides EN 948 → 955), `search-index` + `search-index:check`, `sitemap:check`,
+`npm run parity` (**code 0**), `npm run hreflang:check`, plus le contrôle de lookup / photo, le
+contrôle de figures ci-dessus et une vérification d'encodage (accents intacts, `°` conservé,
+aucun `m2` / `EUR` / `deg` ascii, aucun mojibake, aucune guillemet courbe). Note d'environnement
+reconfirmée : le conteneur de routine démarre **en HEAD détaché et sans `node_modules`** —
+`git checkout main` puis `npm install` d'abord. ⚠️ Egress : **`en.wikipedia.org`,
+`cathedrale-beauvais.fr` et `en.mairie-vannes.fr` répondent 403 depuis la routine**, la recherche
+web fonctionne — les faits ont donc été recoupés sur plusieurs résultats plutôt que sur une fiche
+unique, méthode déjà retenue au tourisme batch 48.
+
+**Prochain run** : la série `solo-travel` est refermée, donc l'écart de corpus suivant est à
+**mesurer et non à recopier**. Au 20/09 les deux plus gros trous par série sont
+`quitter-[ville]-guide` **49 FR contre 11 EN** (`leaving-[city]-where-to-go`) et
+`demenager-a-[ville]` **50 FR contre 24 EN** (`moving-to-[city]`), suivis de
+`vacances-monoparentales-[ville]` **38 FR contre 30 EN** (`single-parent-holidays-[city]`, 8
+villes manquantes : anglet, brive-la-gaillarde, compiegne, dieppe, la-roche-sur-yon, vendome,
+vienne, villefranche-sur-saone). Corpus global : **FR 1 151 · EN 955**.
+
 ### Livré le 17/09 — tourisme batch 49 EN (+7), la série `things-to-do-in-[city]` refermée à 268/268
 
 `npm run parity` en **code 0** en début et en fin de run (FR 221 · EN 166, 0 route FR sans
