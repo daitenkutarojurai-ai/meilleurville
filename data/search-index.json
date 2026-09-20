@@ -8859,6 +8859,46 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-annemasse-2026",
+      "title": "Parent solo à Annemasse en 2026 : tout tient sauf le prix, et le prix vient de Genève",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-belfort-2026",
+      "title": "Parent solo à Belfort en 2026 : 58 € manquent au ménage médian, et c'est tout le sujet",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-cambrai-2026",
+      "title": "Parent solo à Cambrai en 2026 : le seuil d'entrée le plus bas du classement, et une sécurité à 4,6",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-epernay-2026",
+      "title": "Parent solo à Épernay en 2026 : le profil le plus régulier du palier, sans aucun point faible",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-neuilly-sur-seine-2026",
+      "title": "Parent solo à Neuilly-sur-Seine en 2026 : la commune la plus riche du classement, et un seuil à 7 150 €",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-nevers-2026",
+      "title": "Parent solo à Nevers en 2026 : 22 € de marge, et deux axes à 5,5 qui expliquent pourquoi",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-oyonnax-2026",
+      "title": "Parent solo à Oyonnax en 2026 : 4,2/10 de transports, l'axe qui décide de la semaine",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-troyes-2026",
+      "title": "Parent solo à Troyes en 2026 : la seule du lot qui gagne des habitants et qui appauvrit",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-pontoise-2026",
       "title": "10 choses à faire à Pontoise",
       "emoji": "🎨"
@@ -9266,6 +9306,11 @@
       "count": 9
     },
     {
+      "slug": "famille-monoparentale-hauts-de-france",
+      "label": "famille monoparentale Hauts-de-France",
+      "count": 9
+    },
+    {
       "slug": "frontalier",
       "label": "frontalier",
       "count": 9
@@ -9346,11 +9391,6 @@
       "count": 8
     },
     {
-      "slug": "famille-monoparentale-hauts-de-france",
-      "label": "famille monoparentale Hauts-de-France",
-      "count": 8
-    },
-    {
       "slug": "famille-monoparentale-nouvelle-aquitaine",
       "label": "famille monoparentale Nouvelle-Aquitaine",
       "count": 8
@@ -9426,6 +9466,16 @@
       "count": 7
     },
     {
+      "slug": "famille-monoparentale-auvergne-rhone-alpes",
+      "label": "famille monoparentale Auvergne-Rhône-Alpes",
+      "count": 7
+    },
+    {
+      "slug": "famille-monoparentale-grand-est",
+      "label": "famille monoparentale Grand Est",
+      "count": 7
+    },
+    {
       "slug": "famille-monoparentale-pays-de-la-loire",
       "label": "famille monoparentale Pays de la Loire",
       "count": 7
@@ -9488,6 +9538,11 @@
     {
       "slug": "ecoles",
       "label": "écoles",
+      "count": 6
+    },
+    {
+      "slug": "famille-monoparentale-bourgogne-franche-comte",
+      "label": "famille monoparentale Bourgogne-Franche-Comté",
       "count": 6
     },
     {
@@ -9586,18 +9641,13 @@
       "count": 5
     },
     {
-      "slug": "famille-monoparentale-auvergne-rhone-alpes",
-      "label": "famille monoparentale Auvergne-Rhône-Alpes",
-      "count": 5
-    },
-    {
       "slug": "famille-monoparentale-drom",
       "label": "famille monoparentale DROM",
       "count": 5
     },
     {
-      "slug": "famille-monoparentale-grand-est",
-      "label": "famille monoparentale Grand Est",
+      "slug": "famille-monoparentale-ile-de-france",
+      "label": "famille monoparentale Île-de-France",
       "count": 5
     },
     {
@@ -9623,6 +9673,11 @@
     {
       "slug": "lorient",
       "label": "Lorient",
+      "count": 5
+    },
+    {
+      "slug": "loyer-bas-parent-seul",
+      "label": "loyer bas parent seul",
       "count": 5
     },
     {
@@ -9736,16 +9791,6 @@
       "count": 4
     },
     {
-      "slug": "famille-monoparentale-bourgogne-franche-comte",
-      "label": "famille monoparentale Bourgogne-Franche-Comté",
-      "count": 4
-    },
-    {
-      "slug": "famille-monoparentale-ile-de-france",
-      "label": "famille monoparentale Île-de-France",
-      "count": 4
-    },
-    {
       "slug": "fiscalite",
       "label": "fiscalité",
       "count": 4
@@ -9793,11 +9838,6 @@
     {
       "slug": "loyer",
       "label": "loyer",
-      "count": 4
-    },
-    {
-      "slug": "loyer-bas-parent-seul",
-      "label": "loyer bas parent seul",
       "count": 4
     },
     {
@@ -10158,6 +10198,11 @@
     {
       "slug": "monoparental-aisne",
       "label": "monoparental Aisne",
+      "count": 3
+    },
+    {
+      "slug": "monoparental-hauts-de-seine",
+      "label": "monoparental Hauts-de-Seine",
       "count": 3
     },
     {

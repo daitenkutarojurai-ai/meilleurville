@@ -11,8 +11,11 @@
  *  1. Per-axis z-score normalization → target mean ≈ 5.0, std ≈ 1.7
  *     clamped to [1.8, 8.8]. Pulls clusters apart and pushes weak cities down.
  *  2. Global is a weighted mean MINUS a "worst-axis penalty":
- *       penalty = max(0, (4.5 - min_axis)) * 0.55
- *     so a city with safety 3.0 loses ~0.8 pts on its global score.
+ *       penalty = max(0, (4.5 - min_axis)) * 0.35
+ *     so a city with safety 3.0 loses ~0.5 pts on its global score.
+ *     (Le multiplicateur a été ramené de 0,55 à 0,35 dans le code sans que
+ *     ce bloc suive : il annonçait 0,55 et « ~0.8 pts » pour un calcul qui
+ *     rend 0,525. Le code fait foi, cf. `worstPenalty` plus bas.)
  *  3. Final clamp on global: [2.5, 8.6].
  *
  * Applied AFTER calibrateScores so editorial overrides still anchor ordering.
