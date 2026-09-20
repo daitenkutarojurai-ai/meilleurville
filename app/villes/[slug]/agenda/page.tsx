@@ -130,6 +130,25 @@ export default async function AgendaPage({ params }: Props) {
               Cet agenda combine événements nationaux confirmés (loi française pour le 14 juillet, Journées du patrimoine), événements régionaux structurels (Cannes, Avignon, Lorient, marchés de Noël alsaciens) et indicateurs saisonniers dérivés du climat moyen de la ville. Aucune date précise n'est garantie sans vérification auprès des organisateurs.
             </p>
 
+            {/* Cet agenda dit ce qui se passe *ici* mois par mois. Il ne dit
+                pas où la programmation est assez dense pour qu'on choisisse sa
+                ville dessus — c'est l'objet du profil culture, qui n'était lié
+                depuis aucune page du site avant le 2026-09-20. */}
+            <p className="mt-4 text-xs text-[var(--text-tertiary)] leading-relaxed">
+              Un agenda répond à « quand venir à {city.name} ». Si la question est
+              plutôt « où s&apos;installer pour avoir quelque chose à voir toute
+              l&apos;année », le profil{" "}
+              <Link
+                href="/pour-qui/amateurs-de-culture"
+                className="underline hover:text-[var(--accent)]"
+              >
+                villes où il y a quelque chose à voir toute l&apos;année
+              </Link>{" "}
+              classe les villes françaises sur la densité d&apos;équipements et de
+              patrimoine plutôt que sur un calendrier, avec la même réserve
+              qu&apos;ici : une saison se vérifie chez l&apos;organisateur.
+            </p>
+
             <div className="mt-8">
               <Link
                 href={`/villes/${city.slug}`}

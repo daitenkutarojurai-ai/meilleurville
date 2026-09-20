@@ -261,6 +261,26 @@ export default async function CityVibePage({ params }: Props) {
           à lire comme un repère éditorial, pas comme une mesure.
         </div>
 
+        {/* Le ton mélange quatre axes en une étiquette, donc deux villes peuvent
+            le partager pour des raisons opposées. Mesuré sur les 540 villes :
+            l'étiquette « Calme » couvre à la fois des villes où la culture dépasse
+            nettement la nature et, trois fois plus nombreuses, des villes où
+            c'est l'inverse. Le profil culture repart d'un seul de ces axes, ce
+            qui est exactement ce que cette page ne fait pas. */}
+        <p className="text-xs text-[var(--text-tertiary)] leading-relaxed">
+          Le ton ci-dessus fond quatre axes en une étiquette, si bien que deux villes
+          peuvent le partager pour des raisons opposées. Si c&apos;est la culture seule
+          qui vous intéresse, le profil{" "}
+          <Link
+            href="/pour-qui/amateurs-de-culture"
+            className="underline hover:text-[var(--accent)]"
+          >
+            classement des villes sur le seul axe culture
+          </Link>{" "}
+          repart de cet axe-là sans le diluer : même seed, même réserve, lecture
+          inverse.
+        </p>
+
         <DiscussionCTA citySlug={slug} cityName={city.name} />
 
         <div className="text-center">

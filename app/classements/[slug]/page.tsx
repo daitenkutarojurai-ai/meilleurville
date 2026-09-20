@@ -536,6 +536,39 @@ export default async function RankingPage({ params }: Props) {
             </div>
           )}
 
+          {/* Profil voisin — ce barème-ci garde l'axe écoles à côté de la
+              culture, héritage d'une lecture où la vie culturelle d'une ville se
+              confond avec son offre d'enseignement. Le profil culture le retire
+              et met à la place ce qui décide vraiment d'une semaine commandée par
+              la programmation : pouvoir sortir à pied le soir. Les deux tops se
+              ressemblent — ce qui change est la raison d'y figurer. */}
+          {slug === "culture" && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Profil voisin
+              </p>
+              <Link
+                href="/pour-qui/amateurs-de-culture"
+                className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+              >
+                <span className="text-xl flex-shrink-0">🎭</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    Quand c&apos;est la programmation qui commande la semaine
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Ce classement-ci compte l&apos;axe écoles avec la culture, ce qui n&apos;a
+                    guère de sens pour qui choisit sa ville sur une saison lyrique. Le
+                    profil culture-first l&apos;écarte et pondère à la place la
+                    praticabilité sans voiture et la sécurité du retour de spectacle.
+                    Il reste bâti sur la même mesure d&apos;équipements et de patrimoine,
+                    qui ne dit rien de la programmation d&apos;une saison donnée.
+                  </p>
+                </div>
+              </Link>
+            </div>
+          )}
+
           {/* Profil voisin — ce classement pondère remoteWork, qualité de vie,
               coût, transport et culture : cinq axes, dont aucun ne mesure la
               distance à un siège. C'est le bon barème quand on ne revient

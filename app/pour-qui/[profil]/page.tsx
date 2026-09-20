@@ -554,6 +554,43 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Culture counterpart — les quatre profils où la culture pèse
+            réellement (2,0 à 2,5, mesuré sur `PROFILE_PAGES`) mais toujours
+            mêlée à un critère d'étape de vie. ⚠️ L'intro du profil culture cite
+            aussi « télétravailleurs », qui ne pondère en fait pas la culture du
+            tout : ne pas l'ajouter ici sur la foi de cette phrase. */}
+        {["couple-sans-enfant", "celibataires", "etudiants", "jeunes-actifs"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le profil voisin — quand la culture passe devant l&apos;étape de vie
+            </h3>
+            <Link href="/pour-qui/amateurs-de-culture" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🎭</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes où la programmation commande la semaine
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus pondère la culture, mais mélangée à ce que votre
+                      âge ou votre situation exige par ailleurs — début de carrière,
+                      vie à deux, années d&apos;études. Les{" "}
+                      <span className="underline">villes faites pour un abonné à la saison</span>{" "}
+                      inversent l&apos;ordre : la programmation d&apos;abord, le reste autour,
+                      avec la praticabilité sans voiture et la sécurité du retour de
+                      spectacle à 23 h à la place du critère d&apos;étape de vie. Le
+                      barème reste une mesure d&apos;équipements et de patrimoine classé :
+                      il ne voit ni la programmation d&apos;un directeur ni l&apos;ancrage
+                      d&apos;une scène locale.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Solitude counterpart — visible for the profiles who arrive somewhere
             with a social circle to rebuild rather than to keep: célibataires
             (whose own intro derives its "densité de célibataires" from that very

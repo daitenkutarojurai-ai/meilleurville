@@ -291,6 +291,22 @@ export default async function AFairePage({ params }: Props) {
           <p className="mt-4 text-xs text-[var(--text-tertiary)]">
             Scores sur 10 · <Link href="/methode" className="underline hover:text-[var(--accent)]">Voir la méthodologie</Link>
           </p>
+          {/* L'axe culture affiché ci-dessus est le critère cardinal d'un seul
+              profil du site, et aucune page « à faire » ne menait jusqu'ici vers
+              lui : cette page dit ce qu'on peut faire ici, elle ne dit pas où la
+              programmation est assez dense pour organiser une semaine autour. */}
+          <p className="mt-3 text-xs text-[var(--text-tertiary)] leading-relaxed">
+            L&apos;axe culture ci-dessus vaut pour {city.name} seule. Si c&apos;est lui qui
+            décide de votre ville plutôt que le travail ou l&apos;école, le profil{" "}
+            <Link
+              href="/pour-qui/amateurs-de-culture"
+              className="underline hover:text-[var(--accent)]"
+            >
+              villes où la programmation commande la semaine
+            </Link>{" "}
+            le repondère au-dessus de tous les autres axes et lui ajoute la
+            possibilité de rentrer à pied d&apos;une sortie du soir.
+          </p>
         </div>
 
         {/* Character tags */}
