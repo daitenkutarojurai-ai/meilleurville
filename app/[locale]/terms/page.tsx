@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export function generateStaticParams() {
   return [{ locale: "en" }];
@@ -14,13 +12,7 @@ export const metadata: Metadata = {
   title: "Terms of use · BestCitiesInFrance",
   description:
     "Terms of use for BestCitiesInFrance: access, resident reviews, intellectual property, liability, and the governing law.",
-  alternates: {
-    ...pathAlternatesEn("/cgu", "/terms"),
-    languages: {
-      fr: "https://www.mavilleideale.fr/cgu",
-      en: `${EN_BASE}/terms`,
-    },
-  },
+  alternates: pathAlternatesEn("/cgu", "/terms"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

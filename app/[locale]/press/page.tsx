@@ -9,9 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { EN_GUIDES } from "@/data/guides-en";
 import { CITIES_COUNT, RANKINGS_COUNT, DEPARTMENTS_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export function generateStaticParams() {
   return [{ locale: "en" }];
@@ -21,13 +19,7 @@ export const metadata: Metadata = {
   title: "Press room · French city data, free to reuse",
   description:
     "Journalists and institutions: the full ranking of French cities, per-city data and the method behind it. Free to reuse with attribution, CSV included.",
-  alternates: {
-    ...pathAlternatesEn("/presse", "/press"),
-    languages: {
-      fr: "https://www.mavilleideale.fr/presse",
-      en: `${EN_BASE}/press`,
-    },
-  },
+  alternates: pathAlternatesEn("/presse", "/press"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

@@ -8,9 +8,7 @@ import { CITIES_LIGHT } from "@/lib/cities-light";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { formatScore, scoreColor, scoreLabel } from "@/lib/utils";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -24,13 +22,7 @@ export const metadata: Metadata = {
   // renders — and the part that got cut was the brand.
   title: "French city ratings & reviews | BestCitiesInFrance",
   description: `A quality-of-life rating for ${CITIES_COUNT} French cities across 8 measured criteria, plus what the people living there actually say. Find yours, read it, add yours.`,
-  alternates: {
-    ...pathAlternatesEn("/avis", "/reviews"),
-    languages: {
-      fr: "https://www.mavilleideale.fr/avis",
-      en: `${EN_BASE}/reviews`,
-    },
-  },
+  alternates: pathAlternatesEn("/avis", "/reviews"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

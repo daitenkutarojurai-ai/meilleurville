@@ -2,21 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Legal notice · BestCitiesInFrance",
   description:
     "Publisher details, hosting provider, affiliate disclosure and contact information for BestCitiesInFrance.",
-  alternates: {
-    ...pathAlternatesEn("/mentions-legales", "/legal-notice"),
-    languages: {
-      fr: "https://www.mavilleideale.fr/mentions-legales",
-      en: `${EN_BASE}/legal-notice`,
-    },
-  },
+  alternates: pathAlternatesEn("/mentions-legales", "/legal-notice"),
 };
 
 export default function LegalNoticePage() {
