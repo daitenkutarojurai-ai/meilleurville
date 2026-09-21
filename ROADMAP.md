@@ -4831,6 +4831,83 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 21/09 — `single-parent-in-[city]-2026` batch 11 (+8), la série refermée à 103/103
+
+Les 8 jumelles du batch FR `parent-solo` du 20/09 écrites d'un coup dans `data/guides-en.ts`
+(Annemasse, Belfort, Cambrai, Épernay, Neuilly-sur-Seine, Nevers, Oyonnax, Troyes). **Compteurs
+mesurés par diff des deux listes de slugs, pas recopiés du journal : FR 103, EN 103 — écart nul
+dans les deux sens** (`EN_GUIDES` 955 → 963). Le lot FR était le commit `HEAD` de la veille, donc
+l'écart est rattrapé le lendemain : c'est le cas le moins cher, une page par ville plutôt que cent.
+`metaTitle` 42-45 caractères, `metaDesc` 133-150, 6 sections par guide, **0 em-dash** sur les huit
+réunis (cible R7.10 : ~1 pour 200 mots), 1 736 à 1 922 mots. Aucun tag neuf —
+`search-index.en.json` reste à **114 tags**, donc aucune page `/tags/` créée ; `sitemap:check`
+donne EN 28 847 → **28 855 URL**, soit exactement les 8 guides neufs. Les 8 sont vérifiés
+**retrouvés par `getEnGuide()`, présents dans leurs propres `relatedCities` et pourvus de leur
+photo d'en-tête** (`guideCityPhoto`), contrôle passé sur **toute la série** : 103 guides, 0 sans
+photo, 0 référence fantôme.
+
+⚠️ **Le batch a trouvé une affirmation fausse dans le guide FR Cambrai du 20/09, corrigée des deux
+côtés.** Le guide annonçait 1 950 € comme « **le plancher du classement** » (titre de section,
+corps de la section 1 et verdict), alors que **six communes passent en dessous** : Aurillac à
+1 700 €, Cahors, Millau et Lens à 1 800 €, Alençon et Chaumont à 1 900 €. 1 950 € est la
+**septième valeur distincte en partant du bas**, partagée par dix communes, et c'est bien le
+plancher **du palier 6,4** — ce que le guide dit désormais, en publiant les six communes qui le
+démentaient. L'ensemble des dix communes citées était juste, seule la qualification était fausse.
+**Le contrôle qui l'a trouvée est un tri complet des 363 seuils d'entrée, pas une relecture** :
+même mode de défaillance que les superlatifs faux des batches 6 à 11, où le chiffre pris seul est
+exact et c'est le rang ou la comparaison qui dérape.
+
+**Convention de palier tenue côté EN, comme au batch 10** : les guides EN **ne publient aucun rang
+à l'intérieur du palier 6,4**, ils le nomment (« one of thirteen communes out of the 363 ranked
+that share exactly that mark »), alors que les metaDesc FR en publient un qui dépend de l'ordre de
+tri dans une égalité à 13. **Ne pas aligner l'EN dessus.** La thèse du lot FR est reprise et
+vérifiée contre la source : la pénalité de pire axe du score global vaut
+`max(0, 4,5 − axe_min) × 0,35` (`lib/score-distribution.ts:78`), le composite parent solo n'en
+applique aucune, et 4 des 13 communes du palier ont un axe sous 4,5 (Annemasse coût 3,4, Neuilly
+coût 2,2, Oyonnax transports 4,2, Toulouse sécurité 4,3). Le rapport des seuils d'entrée du palier
+monte à **3,67** (1 950 € à Cambrai contre 7 150 € à Neuilly), recalculé et non recopié.
+
+⚠️ **1 141 figures contrôlées contre les jumelles FR, 1 123 retrouvées ; les 18 restantes sont
+délibérées — le contrôle mécanique les remontera à chaque run, ne pas les « corriger ».** Ce sont
+**14 soustractions dérivées de chiffres eux-mêmes présents au FR** (écarts d'axes entre deux villes
+du lot : 0,7 · 2,1 · 2,4 · 5,0 ; écarts de seuils : 450 · 5 200 · 5 550 ; écarts de revenu : 253 ;
+pertes de population sur onze ans : 2 430 · 2 597 ; rapport loyer/école de Troyes : 134), **le
+plancher de pénalité 4,5** lu dans `lib/score-distribution.ts` et non dans un guide, **le seuil de
+Nancy à 2 900 €** mesuré sur le moteur (Nancy est dans le palier mais hors du lot de huit), **la
+date 1917** de la bataille de Cambrai (déjà portée par le corpus, batch tourisme 39) et **deux
+arrondis de lecture** (45 000 pour Belfort, 62 000 pour Troyes).
+
+Ajouts sans chiffre propres au lecteur étranger, absents du FR parce qu'inutiles à un lecteur
+français : **le T3 glosé dès l'intro des huit guides** (trois pièces = deux chambres plus un
+séjour, le séjour compté et ni la cuisine ni la salle de bains — un anglophone lit « T3 » comme
+trois chambres et se trompe d'un tiers sur la surface) ; **le statut frontalier d'Annemasse** posé
+en trois règles opposables et sans chiffre (la Suisse est hors UE donc le droit d'y travailler est
+une procédure à part et non le prolongement d'un titre de séjour européen, Genève impose à la
+source, et le choix entre couverture maladie suisse et française est une option unique à exercer à
+l'arrivée), la garde d'enfants transfrontalière nommée comme le point le moins documenté ;
+**l'axe écoles de Neuilly explicitement disjoint de la scolarité internationale ou bilingue** — la
+note mesure l'offre publique communale, elle n'est pas corrélée à ce qu'une famille anglophone
+cherche, et son coût s'ajoute au seuil de 7 150 € au lieu d'y être inclus ; et quatre repères
+culturels déjà portés par le corpus FR (le lion de Bartholdi à Belfort, auteur de la statue de la
+Liberté ; la bataille de chars de novembre 1917 à Cambrai ; Bernadette Soubirous et le circuit de
+Magny-Cours **accessibles depuis** Nevers, commune voisine ; l'avenue de Champagne à Épernay), plus
+l'étymologie de l'once troy rattachée aux foires de Troyes, donnée comme filiation communément
+admise et non comme fait établi.
+
+Contrôles : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 955 → 963),
+`search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**, 0 route FR
+sans jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo sur les 103 guides de
+la série, le contrôle de figures ci-dessus et une vérification d'encodage (accents intacts, glyphe
+€ conservé, aucun `m2` / `EUR` / `deg` ascii, aucun mojibake, aucune guillemet courbe).
+`npm run build` **non lancé, volontairement** (cf. § Commands depuis le batch 27). Note
+d'environnement reconfirmée : le conteneur de routine démarre **en HEAD détaché et sans
+`node_modules`** — `git checkout main` puis `npm install` d'abord.
+
+**Prochain run** : l'écart de série le plus large reste `quitter-[ville]` → `leaving-[city]`
+(55 FR contre 23 EN, 32 manquantes) puis `demenager-a-` → `moving-to-` (50 contre 28) et
+`vivre-a-` → série EN sans jumelle nommée (51 FR, 0 EN). Écart le plus frais à surveiller :
+`vacances-monoparentales-` → `single-parent-holidays-` (38 contre 30, 8 manquantes, mesuré ce run).
+
 ### Livré le 20/09 — `solo-travel-in-[city]-2026` batch 7 (+7), la série refermée à 50/50
 
 `npm run parity` en **code 0** en début et en fin de run (FR 221 · EN 166, 0 route FR sans

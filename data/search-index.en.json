@@ -8017,6 +8017,46 @@
       "slug": "solo-travel-in-beauvais-2026",
       "title": "Solo travel in Beauvais: the tallest Gothic choir ever built",
       "emoji": "🍸"
+    },
+    {
+      "slug": "single-parent-in-annemasse-2026",
+      "title": "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-belfort-2026",
+      "title": "Single parent in Belfort (2026): the median household is €58 short, and that is the whole subject",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-cambrai-2026",
+      "title": "Single parent in Cambrai (2026): the lowest entry floor of the band, and a safety mark of 4.6",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-epernay-2026",
+      "title": "Single parent in Épernay (2026): the steadiest profile of the band, with no weak point",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-neuilly-sur-seine-2026",
+      "title": "Single parent in Neuilly-sur-Seine (2026): the richest commune of the ranking, and a floor of €7,150",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-nevers-2026",
+      "title": "Single parent in Nevers (2026): the median household clears the floor by €22",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-oyonnax-2026",
+      "title": "Single parent in Oyonnax (2026): transport at 4.2, the lowest mark of the batch",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-troyes-2026",
+      "title": "Single parent in Troyes (2026): one of two communes in this batch that is growing, and 30 per cent poverty",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -8033,17 +8073,17 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 195
+      "count": 203
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 126
+      "count": 134
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 96
+      "count": 104
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -8058,17 +8098,17 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 56
+      "count": 58
+    },
+    {
+      "slug": "grand-est",
+      "label": "grand est",
+      "count": 55
     },
     {
       "slug": "buying-property-france",
       "label": "buying property france",
       "count": 54
-    },
-    {
-      "slug": "grand-est",
-      "label": "grand est",
-      "count": 53
     },
     {
       "slug": "real-estate",
@@ -8093,12 +8133,12 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 48
+      "count": 49
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 46
+      "count": 47
     },
     {
       "slug": "relocation",
@@ -8166,6 +8206,11 @@
       "count": 24
     },
     {
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
+      "count": 22
+    },
+    {
       "slug": "budget",
       "label": "budget",
       "count": 22
@@ -8184,11 +8229,6 @@
       "slug": "moving-to-france-with-children",
       "label": "moving to france with children",
       "count": 21
-    },
-    {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
-      "count": 20
     },
     {
       "slug": "centre-val-de-loire",
