@@ -26,6 +26,7 @@
  * | `l'`    | l'Allemagne              | **d'**Allemagne       | En      |
  * | `les`   | les États-Unis           | **des** États-Unis    | Aux     |
  * | `""`    | Singapour                | **de** Singapour      | À       |
+ * | `d'`    | Israël                   | **d'**Israël          | En      |
  *
  * La colonne `from` suit la règle française de la provenance, qui n'est pas une
  * simple contraction : un nom **féminin perd son article** (« rentrer de
@@ -35,7 +36,26 @@
  *
  * ⚠️ **`l'` couvre les deux genres** et c'est voulu : un masculin à initiale
  * vocalique se comporte comme un féminin sur les trois formes (« l'Iran »,
- * « d'Iran », « En Iran »). Ne pas introduire un cinquième cas pour lui.
+ * « d'Iran », « En Iran »). Ne pas introduire un cas de plus pour lui.
+ *
+ * ⚠️ **`d'` n'est pas `l'`, et c'est la seule chose qui les sépare : la
+ * première colonne.** Le cas a été ouvert le 2026-09-21 pour la fiche Israël,
+ * et il désigne un nom qui **refuse l'article** tout en **commençant par une
+ * voyelle** — on dit « Israël » et non « l'Israël », mais « d'Israël » et non
+ * « de Israël », et « en Israël » et non « à Israël ». Avec `""`, deux
+ * dérivations sur quatre sortaient fausses (`og:title` « Rentrer de Israël en
+ * France », en-tête de tableau « À Israël », énumération du hub « … ou de
+ * Israël ») ; avec `l'`, c'est le titre et le H1 qui sortaient faux
+ * (« depuis l'Israël »). Aucune des deux valeurs existantes n'était juste,
+ * donc le défaut ne se corrigeait pas par un meilleur choix dans l'ancienne
+ * union. Même classe : Oman, Haïti, Aruba.
+ *
+ * ⚠️ **Et il se saisit, il ne se devine pas.** Tester l'initiale du nom pour
+ * décider de l'élision serait une heuristique sur une chaîne — exactement ce
+ * qui a produit le `isCoastal` par sous-chaîne de City Match (« sport »
+ * contient « port ») et les faux positifs de `guideCityPhoto`. Un h muet
+ * (« Haïti » → « d'Haïti ») et un h aspiré se ressemblent à la lettre près et
+ * se comportent à l'inverse : la distinction est de la donnée, pas du code.
  */
 
 /**
@@ -49,7 +69,7 @@
  * assortis. Un champ requis fait échouer `tsc` sur la vingt-quatrième fiche ;
  * un champ optionnel à repli la laisse passer.
  */
-export type CountryArticle = "le" | "la" | "l'" | "les" | "";
+export type CountryArticle = "le" | "la" | "l'" | "les" | "" | "d'";
 
 /** Le minimum qu'une fonction d'ici demande — un nom et son article. */
 export interface ArticledCountry {
@@ -66,7 +86,9 @@ export interface ArticledCountry {
  * rendait « depuis l' Espagne » sur les quatre fiches en `l'`.
  */
 export function countryWithArticle({ name, article }: ArticledCountry): string {
-  if (article === "") return name;
+  // `d'` comme `""` : le nom refuse l'article. Ce qui les sépare est la
+  // provenance, pas le nom nu — cf. l'avertissement en tête de fichier.
+  if (article === "" || article === "d'") return name;
   if (article === "l'") return `l'${name}`;
   return `${article} ${name}`;
 }
@@ -82,9 +104,12 @@ export function countryFrom({ name, article }: ArticledCountry): string {
       return `du ${name}`;
     case "les":
       return `des ${name}`;
+    // Élision devant voyelle, que le nom prenne l'article (« l'Allemagne » →
+    // « d'Allemagne ») ou non (« Israël » → « d'Israël »).
     case "l'":
+    case "d'":
       return `d'${name}`;
-    // Féminin et noms sans article : provenance sans article.
+    // Féminin et noms sans article ni élision : provenance sans article.
     case "la":
     case "":
       return `de ${name}`;
@@ -106,8 +131,11 @@ export function countryInLabel({ article }: ArticledCountry): string {
       return "Au";
     case "les":
       return "Aux";
+    // « En Israël » et non « À Israël » : le nom refuse l'article mais pas la
+    // préposition des noms féminins et vocaliques.
     case "la":
     case "l'":
+    case "d'":
       return "En";
     case "":
       return "À";

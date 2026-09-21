@@ -2283,7 +2283,137 @@ les montants réglementaires seulement, et rien qui ne soit sourçable.
 Une fiche par pays de départ, données inline (`EXPAT_COUNTRIES`), rendues par
 `app/expat-retour/[pays]/page.tsx` (URL `/expat-retour/depuis-<slug>`). Ajouter une entrée au
 tableau suffit : `generateStaticParams`, le hub et le sitemap en dérivent tous les trois.
-**Compteur mesuré (`grep -c '^    slug: "'`) : 23 pays** (2026-09-09). Dernier ajouté : **Mexique** — la
+**Compteur mesuré (`grep -c '^    slug: "'`) : 24 pays** (2026-09-21). Dernier ajouté : **Israël** — la fiche
+dont le fil conducteur est qu'**on quitte le pays deux fois, devant deux administrations, et qu'aucune des
+deux ne le fait toute seule**. Côté fisc, il n'existe **aucun formulaire qui prononce** la fin de la
+résidence : elle s'apprécie au centre des intérêts vitaux, avec des présomptions de séjour (183 jours dans
+l'année, ou 30 jours dans l'année et 425 sur cette année et les deux précédentes) que **l'une comme l'autre
+partie** peut renverser en supportant la charge de la preuve. ⚠️ **Le formulaire 1348 existe** — premier jet
+corrigé, j'avais écrit « il n'y a pas de formulaire » : c'est une **déclaration de résidence** par laquelle
+on soutient que son centre de vie est ailleurs, donc une position que l'administration peut contester des
+années plus tard, pas une notification qui clôt quoi que ce soit. S'y ajoute l'**exit tax de l'article 100A**
+de l'ordonnance de l'impôt sur le revenu : les biens sont **réputés vendus la veille** de la perte de
+résidence, et le **report du paiement jusqu'à la cession réelle est le régime par défaut** (le contribuable
+est réputé l'avoir choisi), la part israélienne se calculant à la vente au prorata de la durée de détention
+antérieure à la sortie. Côté social, la **résidence Bituah Leumi est un statut distinct**, décidé par un
+autre organisme : elle prend fin sur déclaration ou automatiquement après **cinq ans** hors du pays, et sans
+déclaration **les cotisations minimales courent jusqu'à cinq ans** et fabriquent une dette qu'on découvre au
+retour. Au retour en Israël, la **période d'attente** se compte à raison d'**un mois par tranche de 25 jours
+consécutifs** passés sur place, rachetable par un paiement spécial.
+⚠️ **Le réflexe faux du dossier est symétrique de celui des trois fiches précédentes, et il faut le garder
+tel quel : « il y a une convention, donc je suis couvert » est faux.** La convention générale du **17
+décembre 1965** (décret n° 66-784 du 14 octobre 1966) **totalise** bien les périodes pour la retraite — à
+l'inverse du Mexique, de la Thaïlande et de la Chine, où les années valent zéro trimestre — mais elle **ne
+comporte aucune disposition** ouvrant la prise en charge des soins en France au titre d'une retraite
+israélienne. **Il n'y a donc pas de S1**, qui est un instrument du droit de l'Union et non des conventions
+bilatérales : PUMa de droit commun, 3 mois de résidence puis instruction. Le chômage, comme dans toute
+convention bilatérale, est hors champ.
+⚠️ **Et l'épargne retraite se traite à l'inverse du Mexique, du Brésil, de la Chine et de la Thaïlande** :
+un fonds israélien **continue de fructifier pour un non-résident et verse sa rente à l'étranger** par
+virement international à partir de l'âge de la retraite, alors qu'un **retrait anticipé subit 35 %** de
+retenue. La bonne décision est de **ne pas y toucher** — kupat gemel sans pénalité à partir de 60 ans,
+keren hishtalmut disponible et non imposée après six ans. Quatre fiches d'affilée installaient l'habitude
+inverse.
+Autres faits vérifiés en ligne et qui portent la fiche : convention fiscale signée à Jérusalem le **31
+juillet 1995**, en vigueur le **18 juillet 1996** (loi n° 96-503 du 11 juin 1996, décret n° 96-814 du 11
+septembre 1996), modifiée depuis par la convention multilatérale ; barème IR 2026 à sept tranches, **10 %
+jusqu'à 84 120 ILS** puis 14, 20, 31, 35 et 47 % jusqu'à **721 560 ILS**, au-delà desquels une **surtaxe de
+3 %** porte le marginal à 50 % ; **TVA 18 %** depuis le 1ᵉʳ janvier 2025 (contre 17 %), donc **sous** les
+20 % français ; cotisation nationale + prélèvement santé du salarié ~**4,27 %** sous **7 703 ILS/mois** et
+~**12,17 %** au-dessus, plafond **51 910 ILS/mois** ; pension de vieillesse forfaitaire 2026 **1 838
+ILS/mois** seul et **2 762 ILS** en couple ; âge de la retraite **67 ans** pour les hommes, **62 → 65 ans**
+pour les femmes sur onze ans par cohorte (65 ans pour celles nées en 1970 ou après), loi de finances 2022 ;
+exonération de dix ans des olim maintenue mais **l'amendement n° 272**, publié en **avril 2024**, supprime
+l'exonération **de déclaration** pour qui devient résident à compter du **1ᵉʳ janvier 2026** (ceux arrivés
+jusqu'à fin 2025 la gardent) ; loyer moyen national **5 027 ILS** au T1 2026 (+3,5 % sur un an), Tel-Aviv
+**7 351**, Jérusalem **5 280**, Haïfa T3 **3 082** et T4 **3 937**, districts Tel-Aviv 6 338 / Centre 5 386
+/ Jérusalem 5 232 / Haïfa 3 665 / Sud 3 632 ; parc automobile **entièrement importé**, taxe d'achat + TVA
+renchérissant le prix hors taxe de **115 à 130 %**, taxe d'achat électrique **52 % en 2026** (plafond
+d'avantage 30 000 ILS) contre 45 % et 35 000 ILS en 2025 ; indice de niveau des prix **138** pour une
+moyenne OCDE à 100 en **2022**, le plus élevé du groupe alors, **en recul de plus de dix points entre 2021
+et 2023** ; année scolaire de septembre à la mi-juin, réseau AEFE avec le **collège français Marc-Chagall**
+(Tel-Aviv, 1966), le **collège-lycée Marcel et Lucette Drahi** (Holon) et le **collège des Frères**.
+⚠️ **Deux chiffres volontairement omis, sources divergentes ou datées — ne pas les « compléter »** : la
+**taille de la communauté** (le registre est réparti sur **trois circonscriptions consulaires**, Tel-Aviv,
+Haïfa et **Jérusalem, poste autonome qui ne relève pas de l'ambassade** — la fiche le dit pour la radiation,
+et s'arrête là, les estimations publiées allant du simple au double et les comptes trouvés datant de
+2014-2016) ; et la **moyenne mensuelle EUR/ILS d'août 2026**. Sur ce second point, un piège à retenir :
+**les « moyennes mensuelles » que les sites de change placent en tête de résultats sont souvent des
+prévisions et non des relevés** — celle trouvée d'abord (3,476, fourchette 3,377-3,584) est une projection.
+La fiche publie **environ 3,45 shekels pour un euro, fourchette voisine de 3,42 à 3,48**, appuyée sur des
+cotations de jours réels.
+⚠️ **Le permis israélien : divergence de sources publiée telle quelle, et le plan est bâti sur le cas
+défavorable.** Plusieurs réponses ministérielles à des questions écrites de l'Assemblée nationale énoncent
+qu'Israël **ne figure pas** sur la liste de l'arrêté du **12 janvier 2012** (circulaire du **3 août 2012**),
+et en donnent la raison, ce qui les rend crédibles : la partie israélienne voulait maintenir examen, test
+d'acuité visuelle et taxe pour les permis français présentés à l'échange en Israël, ce qui contredit la
+conception française de l'échange. En face, des listicles de 2026 rangent Israël parmi les pays
+conventionnés **sans citer de texte**. La fiche publie les deux, renvoie à la liste en vigueur et
+**construit le conseil sur l'hypothèse défavorable** (un an de reconnaissance, puis code et conduite) :
+c'est la mieux étayée, et la seule dont l'erreur coûte cher.
+⚠️ **L'animal : la réglementation a été refondue en 2026 et le statut d'Israël n'a pas pu être établi.** Le
+**règlement d'exécution (UE) 2026/636 du 20 mars 2026** porte désormais les listes de pays tiers, le
+**règlement (UE) n° 577/2013 étant abrogé** et le **règlement délégué (UE) 2026/131** prenant le relais.
+Quatre tentatives (EUR-Lex, autorités vétérinaires nationales, ministère) sont revenues **403 CONNECT** ou
+sans la lettre I de la liste : la fiche **n'affirme rien**, renvoie aux services vétérinaires et bâtit le
+calendrier sur le cas non listé (titrage ≥ **0,5 UI/ml** sur prélèvement ≥ **30 jours** après vaccination,
+puis **3 mois** d'attente), parce que c'est le seul dont l'erreur coûte un trimestre.
+🔧 **Corrigé au passage dans la fiche Mexique** : elle citait deux fois le **règlement (UE) n° 577/2013**
+comme le texte en vigueur, alors qu'il est abrogé depuis la refonte ci-dessus. Le fond ne bouge pas (la
+refonte reprend les mêmes listes), c'est **le numéro cité qui était périmé** — les deux passages nomment
+désormais le texte courant et invitent à vérifier la liste avant de réserver.
+✅ **Nouvelle valeur d'article, et c'était nécessaire, pas cosmétique.** `CountryArticle`
+(`lib/country-article.ts`) gagne **`d'`**, pour un nom qui **refuse l'article** tout en **commençant par une
+voyelle**. Avec `""`, deux dérivations sur quatre sortaient fausses (« Rentrer **de Israël** en France » en
+og:title, « **À Israël** » en en-tête de tableau, « … ou **de Israël** » dans l'énumération du hub) ; avec
+`l'`, c'étaient le `<title>` et le H1 (« depuis **l'Israël** »). **Aucune des cinq valeurs existantes
+n'était juste**, donc le défaut ne se corrigeait pas par un meilleur choix dans l'ancienne union, et
+**aucun garde ne l'aurait vu** : le garde `expat` de `npm run integrity` contrôle les surfaces, pas la
+justesse d'une valeur d'article. Les **23 fiches existantes sont inchangées** (dérivations vérifiées une à
+une après la modification), et ⚠️ **l'élision se saisit, elle ne se devine pas** : tester l'initiale du nom
+serait une heuristique sur une chaîne, exactement ce qui a produit le `isCoastal` par sous-chaîne de City
+Match — un h muet (« d'Haïti ») et un h aspiré se ressemblent à la lettre près. Même classe : Oman, Haïti,
+Aruba.
+Les 10 `bestSuitedCities` **sont un calcul et la fiche le dit** : `npx tsx` de scratch sur les **116
+communes métropolitaines de plus de 50 000 habitants** dont `data/housing.ts` publie un loyer, notées sur la
+**facilité** d'accès aux soins (30 %, soit `10 - computeHealthcareAccess().composite`, l'inversion étant au
+site de lecture), l'accessibilité du T3 (25 %), la continuité climatique (25 %, moyenne de `avgTempJanuary`
+et de `sunshinedays`) et `life` (20 %). Résultat : Cagnes-sur-Mer, Montpellier, Nice, Béziers,
+Aix-en-Provence, Nîmes, Hyères, Marseille, Grasse, Toulon — un arc méditerranéen continu, **4 villes
+communes sur 10 avec la fiche Maroc**, ce que la fiche assume. Départage : le 10ᵉ (Toulon 7,27) et le 11ᵉ
+(Fréjus 7,16) sont séparés de plus d'un dixième, donc **aucun palier n'est coupé au rang 10** ; mais **six
+villes partagent la même note arrondie (7,3)**, donc les rangs 5 à 10 sont **un ordre stable et non un
+départage**, et la fiche le publie.
+⚠️ **Correction de méthode à ne pas défaire : le vivier est métropolitain parce que l'axe climatique
+détectait les tropiques.** Sur les **127** communes de plus de 50 000 habitants **DROM compris**, le même
+barème donnait Fort-de-France, Saint-Denis, Saint-Pierre, Saint-Paul et Les Abymes aux **cinq premières
+places**, puis Cayenne et Mamoudzou dans les seize premières. La cause n'est pas une préférence du modèle :
+normalisée sur les 540 villes, la température de janvier cesse de mesurer une continuité méditerranéenne et
+**écrase les 1 à 10,5 °C de la métropole dans le bas de son échelle**. Restreint à la métropole, l'axe
+redevient un gradient réel (1 à 10,5 °C, 1 480 à 2 900 h d'ensoleillement). Les villes ultramarines ne sont
+pas écartées comme mauvaises destinations : **l'axe ne mesurait plus ce que son nom annonçait**.
+Mesure maison publiée dans la fiche : au taux d'août 2026, la moyenne de Tel-Aviv (**7 351 ILS ≈ 2 115 €**)
+**dépasse 537 des 540 loyers T3** que nous publions, seuls Paris (2 800 €), Saint-Tropez (2 600 €) et
+Neuilly-sur-Seine (2 500 €) restant au-dessus ; la moyenne nationale israélienne (**5 027 ILS ≈ 1 446 €**)
+en dépasse **487 sur 540**, pour un T3 médian français de **930 €**. ⚠️ La fiche dit que **les deux chiffres
+ne mesurent pas le même objet** (moyenne israélienne tous types de logements contre loyer de référence d'un
+trois-pièces), donc l'écart est un ordre de grandeur. Le `netConversionFactor` est **0,25 contre un taux de
+marché à 0,29**, l'inverse du Maroc, du Mexique et de la Thaïlande, et la fiche dit que c'est un **ordre de
+grandeur raisonné et non une PPA mesurée** — aucun rapport France/Israël n'a pu être établi ce run.
+Aucune page EN : `israel` n'est pas dans `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à câbler. Contrôles :
+`npx tsc --noEmit` **propre**, `npm run integrity` (24 fiches, 6 jumelles EN toutes réelles),
+`npm run sitemap:check` (FR **29 267 URL**, soit exactement la fiche neuve ; EN 28 855 inchangé),
+`npm run parity` (code 0), `npm run hreflang:check`, plus un contrôle des quatre tournures sur les 24 fiches
+(titre max **53/60**, description max **156/160**), des 10 slugs contre `CITIES_SEED`, et de l'encodage
+(densité d'accents **0,168** par mot contre un seuil ascii-strip de 0,09, aucun `m2` / `EUR` / `deg` ascii,
+aucun mojibake, **1 seul em-dash** pour 4 831 mots là où la cible R7.10 en tolère ~24).
+`npm run build` **non lancé, volontairement** (cf. § Commands depuis le batch 27).
+⚠️ Egress : `legifrance.gouv.fr`, `service-public.fr`, `diplomatie.gouv.fr`, `securite-routiere.gouv.fr`,
+`eur-lex.europa.eu`, `cleiss.fr`, `taxsummaries.pwc.com` et la plupart des sites d'autorité répondent
+**403 CONNECT** en `WebFetch` depuis la routine, alors que la **recherche web fonctionne** : les faits ont
+donc été recoupés sur plusieurs résultats plutôt que sur une fiche unique, méthode déjà retenue au batch 48
+et à la section glossaire.
+Avant-dernier ajouté : **Mexique** — la
 fiche dont le fil conducteur est **une date, et elle tombe avant le vol**. L'avis de changement de
 résidence fiscale se dépose auprès du SAT **au plus tard dans les quinze jours qui précèdent** le
 changement, et pas plus de deux mois à l'avance (dernier alinéa de l'**article 9 du CFF**, fiche
@@ -2386,7 +2516,7 @@ est bien typé même quand il porte une faute de frappe, et la faute produirait 
 **déclarées** contre l'arbre de routes, pas l'égalité des deux `generateStaticParams` : celle-ci a
 été **mesurée** ce run (6/6, 0 slug EN sans fiche FR) et reste à remesurer si l'un des deux
 ensembles bouge.
-Avant-dernier ajouté : **Thaïlande** — la
+Ajouté avant lui : **Thaïlande** — la
 première fiche dont le fil conducteur n'est ni l'argent ni la fiscalité mais **la santé** : on rentre de
 Thaïlande le plus souvent pour se faire soigner, et c'est exactement là que le dossier est le plus mal
 armé. **Il n'existe aucune convention de sécurité sociale France-Thaïlande** (vérifié ce run) : ni
