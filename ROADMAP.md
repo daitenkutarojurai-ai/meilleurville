@@ -8220,6 +8220,119 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-22
+
+- **R13.2 — palmarès de décembre 2026 : la structure par âge réelle, et le constat que les villes
+  que nous notons le mieux sont les plus âgées.** Le thème annoncé par l'édition de novembre est
+  honoré tel quel, sur les mêmes 361 communes éligibles : population municipale mesurée > 20 000
+  habitants, Mamoudzou hors du fichier « France hors Mayotte » et Pierrefitte-sur-Seine fusionnée
+  dans Saint-Denis. Guide `palmares-decembre-2026-structure-par-age`, catégorie `budget`,
+  9 sections, 3 258 mots, `metaTitle` 50 caractères, `metaDesc` 158, densité d'accents **0,152 par
+  mot** (seuil ascii-strip 0,09), **1 em-dash** (le séparateur de `metaTitle`, convention de la
+  série). Les trois repères annoncés en novembre sont retrouvés à l'identique : **48,7 % aux
+  Sables-d'Olonne, 5,3 % à Saint-Laurent-du-Maroni, médiane 24,1 %.**
+  **Compteurs mesurés : `GUIDES` 1 159 → 1 160 ; `search-index` 272 tags, inchangé**, donc aucune
+  page `/tags/` créée (trois tags neufs restent à 1 occurrence, sous le seuil de 3 ; « classement
+  mensuel villes France » passe de 5 à 6 et avait déjà sa page). `npm run sitemap:check` :
+  FR 29 267 → **29 268 URL**, soit exactement le guide neuf ; EN 28 863 inchangé. Le guide remonte
+  **en première position** sur les 8 pages ville qu'il cite (contrôle de recherche inverse
+  `relatedCities`), 0 `relatedGuides` mort, 0 doublon de slug.
+
+  ⚠️ **La thèse de l'édition est une corrélation avec nos propres notes : +0,455 entre la part des
+  60 ans et plus et le score global.** La seule autre corrélation avec ce score que la série ait
+  publiée est le **−0,165** de novembre, entre ce même score et la croissance démographique
+  (relevé sur les cinq éditions précédentes, pas supposé). Les deux éditions décrivent donc le même fait vu de deux côtés. La pente par
+  bandes ne se retourne jamais sur les 361 villes : **3,5 · 4,8 · 5,2 · 5,7 · 5,9** de note
+  médiane pour les bandes < 18 %, 18-22 %, 22-26 %, 26-30 % et > 30 % (48, 86, 80, 80 et 67
+  communes), contre 5,3 de médiane générale — c'est-à-dire un résultat nettement plus robuste que
+  le U de novembre, dont la dernière bande ne portait que 17 villes. **Le mécanisme est mesuré et
+  non supposé, et il est entièrement géographique** : la part des seniors corrèle à **+0,608** avec
+  l'axe nature, **+0,499** sécurité, **+0,451** qualité de vie, **+0,377** coût, mais **−0,519**
+  transports et **−0,066** télétravail. Nos axes récompensent le calme, la nature, la sécurité et
+  le logement abordable, donc exactement la géographie que l'âge occupe. **Le score ne mesure pas
+  l'âge, il mesure la même carte** — le guide le dit ainsi et n'en tire aucune causalité.
+
+  ⚠️ **Le run trouve un renversement apparent avec notre propre Red Flag Radar, et le publie au lieu
+  de le lisser.** Le thème `villes-sans-enfants` (livré le 14/09) mesure que ses 28 communes sont
+  **plus riches et plus chères** que son corpus (23 490 € contre 21 410 €, T3 1 050 € contre
+  950 €). Ici, à partir de **20 000** habitants et non de 10 000, c'est l'inverse : les 30 plus
+  âgées ont un T3 médian de **880 € contre 1 010 €**, un prix de référence de **2 350 € contre
+  2 900 €** et un niveau de vie de **21 505 € contre 21 420 €**, soit le même. **Les deux mesures
+  sont exactes** : elles ne portent ni sur le même indicateur (part vs rapport seniors/enfants) ni
+  sur le même corpus, et **les stations balnéaires aisées de France sont petites** — à 10 000
+  habitants, cinq communes se glissent devant Les Sables-d'Olonne (**Arcachon 60,4 %, Royan 56,0 %,
+  Dinard 51,2 %, La Baule-Escoublac 50,5 %, Sanary-sur-Mer 49,6 %**), toutes à 8-14 % de pauvreté,
+  et le seuil de 20 000 les efface toutes. Second biais de corpus publié plutôt que masqué :
+  **113 des 361 communes éligibles sont en Île-de-France** (part médiane 19,3 %, la plus basse des
+  régions métropolitaines), si bien que **les 24,1 % affichés sont la médiane de notre corpus et
+  non celle des villes françaises — hors Île-de-France elle remonte à 27,1 %.**
+
+  **Deux mesures neuves portent le reste du guide, et toutes deux disent la même chose : une seule
+  part d'âge recouvre deux villes opposées.** ① En haut, la **distance à la mer trie l'argent** :
+  dans le top 30, les 16 communes à moins de 5 km de la mer ouverte affichent **13,5 % de pauvreté,
+  1 220 € de T3 et 23 585 € de niveau de vie**, les 14 autres **20 %, 660 € et 20 475 €**
+  (corrélation de rang distance ↔ pauvreté **+0,438** dans ce seul top 30). ⚠️ Le marqueur se
+  trompe environ une fois sur cinq et le guide nomme ses exceptions : **Challans** à 14 km de la
+  mer et 10 % de pauvreté, **Dieppe** à 1,3 km et 26 %, **Sète** 25 %, **Agde** 22 %, **Cannes**
+  21 %. ② En bas, **Lille (355e) et Creil (354e) publient la même part, 14,6 %**, pour
+  **14,4 % de moins de 15 ans et 36,8 % de 15-29 ans** d'un côté, **26,8 % et 21,0 %** de l'autre :
+  la même absence de seniors recouvre le campus et la cité. Leur ordre relatif est un **tri
+  alphabétique à l'intérieur d'une égalité et le guide le dit**, conformément à la convention
+  d'ex æquo de `lib/owner-rankings.ts` ; la coupure au 20e rang, elle, ne tombe pas dans un palier
+  (Vierzon 36,2 % contre Dax 36,1 %). ③ Troisième mesure : **60 ans n'est pas 80 ans** — le rapport
+  75 ans et plus / 60-74 ans vaut **0,62** en médiane, de **0,93 à Vichy** (21,5 % contre 20,0 %) à
+  **0,21 à Saint-Laurent-du-Maroni**, et Vichy comme Agde ont des parts de seniors voisines (41,5 %
+  et 43,3 %) pour des parts de 75 ans et plus de **20,0 % et 16,0 %**. Le guide renvoie à la page
+  santé plutôt qu'au classement dès que c'est cette tranche-là qui pèse.
+
+  ⚠️ **Cinq affirmations écrites au premier jet et corrigées avant commit, toutes des décomptes que
+  ni `tsc` ni `npm run integrity` ne peuvent voir.** ① « Seize de ces vingt communes sont à moins de
+  quinze kilomètres de la mer » : c'est **quinze**, et la liste des exceptions **oubliait Saintes**
+  (29,9 km) à côté de Vichy, Bergerac, Villeneuve-sur-Lot et Vierzon. ② Challans donnée « meilleure
+  note du top 20 après Anglet » alors que **Les Sables-d'Olonne (7,4) passe devant elle (7,1)**.
+  ③ Caen donnée « cinquième part de moins de 15 ans la plus faible » pour la **sixième** (Biarritz
+  9,4 · Les Sables 10,3 · Vichy 10,7 · Saint-Raphaël 11,1 · Anglet 11,7 · Caen 11,8). ④ « Soixante-
+  sept communes dépassent 30 % » pour **soixante-six** (67 sont à 30 % ou plus) et « vingt dépassent
+  36 % » pour **vingt et une**. ⑤ Vierzon donnée « seule commune du classement » à 1 100 € le mètre
+  carré, affirmation portant sur 361 villes et jamais vérifiée : ramenée au **top 20**, où elle
+  l'est. Deux superlatifs retirés au passage, faute d'être vérifiables : la corrélation « la plus
+  forte que ce palmarès ait mesurée » (remplacée par la comparaison chiffrée avec novembre) et la
+  liste des villes « au-dessus de 0,85 » sur le rapport 75+/60-74, dont la frontière avalait
+  Montluçon et Le Cannet à 0,86 et 0,85.
+
+  ⚠️ **Deux prudences assumées dans la copie, à ne pas diluer.** ① Le guide publie l'**état et jamais
+  la tendance** : nos tranches d'âge ne portent que le millésime 2022, donc aucune ville n'y est dite
+  « en train de vieillir » — et le rappel qui le rend concret est que **Les Sables-d'Olonne, commune
+  la plus âgée du corpus, gagne 17,5 % d'habitants depuis 2011, et 17 des 30 premières sont en
+  croissance**. ② Le guide désamorce explicitement une lecture que nos données ne portent pas : notre
+  axe **écoles corrèle à −0,482 avec la part des moins de 15 ans**, ce qui pris au pied de la lettre
+  ferait croire qu'une ville riche en enfants est mal dotée ; l'axe est un **repère éditorial sur
+  l'offre communale**, pas une mesure de résultats scolaires, et la corrélation décrit la géographie
+  des banlieues jeunes et denses, pas une école. Même cadrage que l'édition de septembre. Le prix
+  au m² cité pour Vierzon est le **repère éditorial `avgBuyPriceM2`** et le guide le nomme comme tel,
+  puisque la section suivante annonce précisément DVF contre ce repère.
+
+  **Thème annoncé pour janvier 2027 : les prix DVF réellement enregistrés**, médiane du m²
+  appartement sur les ventes 2024-2025, **disponible pour 347 des 361 villes éligibles**, médiane du
+  corpus **2 712 €/m²**. Les 14 manquantes sont mesurées et nommées dans le guide : **13 communes
+  d'Alsace-Moselle** hors DVF (livre foncier : Strasbourg, Mulhouse, Metz, Colmar, Thionville,
+  Haguenau, Schiltigheim, Illkirch-Graffenstaden, Lingolsheim, Saint-Louis, Forbach, Sarreguemines,
+  Montigny-lès-Metz) et **Saint-Laurent-du-Maroni**, à 9 ventes d'appartement sur deux ans, sous le
+  seuil de 20. L'angle annoncé est l'écart entre `HOUSING.avgBuyPriceM2` (repère éditorial de
+  l'édition d'août) et la médiane de transactions.
+
+  ⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. CLAUDE.md § Commands depuis le
+  batch 27). Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**,
+  `npm run integrity` (guides FR 1 159 → 1 160), `search-index` + `search-index:check`,
+  `npm run sitemap:check`, `npm run parity` (**code 0**, 0 route FR sans jumelle),
+  `npm run hreflang:check`, plus le contrôle de recherche inverse ci-dessus et une vérification
+  d'encodage (accents intacts, aucune guillemet courbe, aucun `m2` / `EUR` / `deg` ascii).
+  **Aucune jumelle EN** : la série `palmares-*` est FR uniquement depuis l'édition de juillet, donc
+  rien à câbler côté hreflang. Note d'environnement reconduite : le conteneur de routine démarre
+  **sans `node_modules`** — `npm install` d'abord.
+
+---
+
 ## Shipped 2026-09-17
 
 - **hreflang — 7 familles FR/EN à jumelle exacte n'émettaient qu'un canonical, donc 2 416 pages
