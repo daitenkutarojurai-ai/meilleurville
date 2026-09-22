@@ -70,7 +70,26 @@ export interface CityNewsEntry {
   titleEn?: string;
   /** Publisher, as displayed: "BODACC", "Journal officiel des associations"… */
   source: string;
-  /** Landing page for the underlying record — outbound, rel="nofollow". */
+  /** Outbound link, rel="nofollow". What it lands on depends on the source and
+   *  the two cases are not interchangeable — see `newsLinkTarget()`, which is
+   *  how a surface must decide which of the two it is holding.
+   *
+   *  A CatNat order carries its own national code, so the link opens THAT act
+   *  (`…/catnat/donnees?codeNational=INTE2601369A`). A BODACC line does not:
+   *  the figure is a `count(*)` over announcements the collector grouped by
+   *  commune, month and family, that total exists nowhere upstream, and the
+   *  link falls back to the publisher's front door. Measured 2026-09-22 on the
+   *  real file, through `cityNews()`: 4 252 of the 4 292 rendered lines (99,1 %)
+   *  point at `https://www.bodacc.fr/`, and all 537 rendering cities carry at
+   *  least one of them — 503 carry nothing else.
+   *
+   *  The contract this replaces read "landing page for the underlying record",
+   *  which was true of 0,9 % of the rows. Do not restore it, and do not compose
+   *  a deep link at display time to make it true: the only grammar this
+   *  pipeline has ever SEEN answer is the one in `bodaccWhere()`, and every
+   *  defect in its history is a constant written without watching the API
+   *  reply. A per-announcement link belongs in the collector, built against a
+   *  live response, the way the CatNat one already is. */
   sourceUrl: string;
   /** e.g. "Licence Ouverte / Etalab". Per entry: sources may diverge later. */
   licence: string;
@@ -244,6 +263,109 @@ const AGGREGATE_KINDS: ReadonlySet<NewsKind> = new Set<NewsKind>([
   "procedures",
   "associations",
 ]);
+
+/** The ingest behind each kind — i.e. who published the rows a line counted.
+ *  Needed because the record stores which ingests ANSWERED, not which ones
+ *  ended up on screen, and those are not the same set (see
+ *  `cityNewsProvenance`). */
+const KIND_SOURCE: Record<NewsKind, string> = {
+  entreprises: "bodacc",
+  radiations: "bodacc",
+  procedures: "bodacc",
+  associations: "rna",
+  catnat: "georisques",
+};
+
+/** What a line's outbound link actually opens. */
+export type NewsLinkTarget = "record" | "publisher";
+
+/**
+ * Whether a line links to the act it describes, or merely to its publisher.
+ *
+ * Read off the URL itself rather than the kind, so it stays right the day a
+ * collector starts emitting per-announcement links for a source that has none
+ * today: a bare origin is a front door, anything with a path or a query is a
+ * record. Never throws and never guesses upward — an unparseable URL is
+ * reported as "publisher", the weaker of the two claims.
+ *
+ * Why this exists at all: the section's premise is that every figure traces to
+ * a citable source, and 99,1 % of its lines link to `https://www.bodacc.fr/`,
+ * which cannot answer the question the reader clicked with. BODACC's own search
+ * is by company and by announcement — never by commune × month × family — and
+ * the sentence being checked ("192 créations d'entreprises en août 2026") was
+ * never published there in the first place: the collector counted it. So the
+ * surface has to say which lines can be checked and which can only be sourced,
+ * and it has to derive that from the lines it is printing.
+ */
+export function newsLinkTarget(entry: CityNewsEntry): NewsLinkTarget {
+  const m = /^https?:\/\/[^/?#]+([/?#].*)?$/.exec(entry?.sourceUrl ?? "");
+  if (!m) return "publisher";
+  const rest = m[1] ?? "";
+  return rest === "" || rest === "/" ? "publisher" : "record";
+}
+
+/** Where the printed list's figures come from, and how far they can be checked. */
+export interface CityNewsProvenance {
+  /** Ingest keys that produced at least one rendered line. */
+  cited: string[];
+  /** Ingest keys that answered for this city and produced none. Not a failure:
+   *  Géorisques answering "no order in this window" is a measurement, and the
+   *  whole pipeline turns on telling that apart from "we did not ask". */
+  consultedOnly: string[];
+  /** Rendered lines linking to the act they describe. */
+  records: number;
+  /** Rendered lines linking only to their publisher's site. */
+  publisherOnly: number;
+  /** Rendered lines that are a count over a month, as opposed to a dated act —
+   *  i.e. the lines whose figure is ours and not the publisher's. */
+  aggregates: number;
+}
+
+/**
+ * Provenance of the list a reader is actually looking at.
+ *
+ * Takes the ALREADY-RENDERED entries alongside the slug, for the same reason
+ * `newsSpan()` does: the footer then describes the lines above it rather than a
+ * second query that has to be kept in step.
+ *
+ * The regression it closes (measured 2026-09-22, through `cityNews()`). The
+ * footer read `Sources : BODACC, Géorisques (GASPAR) · Licence Ouverte /
+ * Etalab · consultables librement` — one list, two things it could not back.
+ * Géorisques appears on all 540 rows because it answered for all of them, but
+ * on 503 of the 537 rendering cities it put no line on the page, so it was
+ * named as a source of figures none of which were its own. And "consultables
+ * librement" promised the reader could go and check, under a list where 4 252
+ * of 4 292 lines open a portal that cannot reach the figure. This is the same
+ * shape the site purged twice in September — an organism under "Sources :" for
+ * a number it did not publish (the env quartet on 09/09, the six proprietary
+ * engines on 09/10, `lib/rankings-meta` on 09/11) — and it survived here
+ * because F64's organisms genuinely do publish the underlying rows. They do not
+ * publish the count.
+ *
+ * `consultedOnly` is stated rather than dropped: "asked, nothing here" is worth
+ * more to a reader than silence, and it is the distinction this pipeline has
+ * lost four times in the other direction.
+ */
+export function cityNewsProvenance(
+  slug: string,
+  entries: readonly CityNewsEntry[],
+): CityNewsProvenance {
+  const answered = cityNewsSources(slug);
+  const printed = new Set(entries.map((e) => KIND_SOURCE[e.kind]).filter(Boolean));
+  const cited = answered.filter((s) => printed.has(s));
+  // A source that put a line on the page but is missing from `sources` (a row
+  // written before the field existed) is still cited — the page shows it.
+  for (const s of printed) if (!cited.includes(s)) cited.push(s);
+  let records = 0;
+  for (const e of entries) if (newsLinkTarget(e) === "record") records++;
+  return {
+    cited,
+    consultedOnly: answered.filter((s) => !printed.has(s)),
+    records,
+    publisherOnly: entries.length - records,
+    aggregates: entries.filter((e) => AGGREGATE_KINDS.has(e.kind)).length,
+  };
+}
 
 function lastDayOfMonth(year: number, month1: number): number {
   return new Date(Date.UTC(year, month1, 0)).getUTCDate();

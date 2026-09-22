@@ -1,6 +1,5 @@
 import {
   cityNews,
-  cityNewsSources,
   newsKindLabel,
   newsDateLabel,
   newsMonthLabel,
@@ -8,6 +7,7 @@ import {
   isCityNewsStale,
   newsPartialCoverage,
   newsSpan,
+  cityNewsProvenance,
   NEWS_WINDOW_MONTHS,
   NEWS_REFRESH_INTERVAL_DAYS,
   type CityNewsEntry,
@@ -33,6 +33,16 @@ import {
  * company registration is not good news, a deregistration is not bad news, and
  * a CatNat order is a fact with a date. Every entry names its source and its
  * licence, and links out with rel="nofollow".
+ *
+ * It also states how far those links go, because they do not all go the same
+ * distance. A CatNat line opens the order it describes; a BODACC line opens
+ * bodacc.fr, which holds the announcements but not the monthly total — that
+ * total is the collector's `count(*)`, and no page upstream carries it. 4 252
+ * of the 4 292 rendered lines are in the second case (measured 2026-09-22), so
+ * the footer says who published the rows, who was consulted without landing a
+ * line, and which links can actually be followed back to a figure. All three
+ * are derived from the printed array via cityNewsProvenance(), never from a
+ * constant, so they cannot drift from the list above them.
  */
 
 const KIND_ACCENT: Record<CityNewsEntry["kind"], string> = {
@@ -93,10 +103,18 @@ export function CityNewsSection({
 
   const refreshedAt = cityNewsRefreshedAt(slug);
   const stale = isCityNewsStale(slug);
-  // Fall back to the sources the entries themselves name, so the footer is
-  // never blank on a row written before `sources` was recorded.
-  const sources = (cityNewsSources(slug).length
-    ? cityNewsSources(slug).map((s) => SOURCE_LABEL[s] ?? s)
+  // Who is behind the lines above, and who was merely asked — derived from the
+  // printed array, like the span. The footer used to name both in one
+  // "Sources :" list: Géorisques answered for all 540 cities and put a line on
+  // 34 of them, so on 503 pages it was credited with figures none of which were
+  // its own. Same shape the site purged across the env quartet and the ranking
+  // tables in September.
+  const prov = cityNewsProvenance(slug, entries);
+  const label = (k: string) => SOURCE_LABEL[k] ?? k;
+  // Fall back to the names the entries carry, so the footer is never blank on a
+  // row written before `sources` was recorded.
+  const cited = (prov.cited.length
+    ? prov.cited.map(label)
     : [...new Set(entries.map((e) => e.source))]);
   // Licence lives on the entry, not the file, precisely because the sources may
   // diverge — so the footer lists the distinct ones rather than assuming the
@@ -219,9 +237,57 @@ export function CityNewsSection({
 
         <p className="mt-4 text-xs text-[var(--text-tertiary)]">
           {L(
-            `Sources : ${sources.join(", ")} · ${licences.join(" · ")} · consultables librement.`,
-            `Sources: ${sources.join(", ")} · ${licences.join(" · ")} · openly available.`,
+            `Relevé établi à partir de ${cited.join(", ")} · ${licences.join(" · ")}.`,
+            `Compiled from ${cited.join(", ")} · ${licences.join(" · ")}.`,
           )}
+          {/* The count is ours, the announcements are theirs. Nobody upstream
+              published "192 créations d'entreprises en août 2026" — the
+              collector grouped BODACC rows by commune, month and family and
+              counted them. Saying so is the same rule the site applied to the
+              four environment engines (09/09), the six proprietary ones
+              (09/10) and the ranking tables (09/11): an organism is named for
+              what it published, never for a number we derived from it. */}
+          {prov.aggregates > 0 ? (
+            <>
+              {" "}
+              {L(
+                "Les totaux mensuels sont notre comptage des annonces publiées, pas un chiffre publié comme tel par l'éditeur.",
+                "The monthly totals are our own count of published filings, not a figure the publisher issues as such.",
+              )}
+            </>
+          ) : null}
+          {/* "Asked and found nothing" is a measurement here — the Géorisques
+              register is exhaustive — and it is worth more to a reader than
+              silence. What it is not is a source of the figures above, which is
+              how it was listed. */}
+          {prov.consultedOnly.length ? (
+            <>
+              {" "}
+              {L(
+                `Registre également consulté, sans ligne ici : ${prov.consultedOnly.map(label).join(", ")}.`,
+                `Also consulted, with no line here: ${prov.consultedOnly.map(label).join(", ")}.`,
+              )}
+            </>
+          ) : null}
+          {/* The old tail read "consultables librement", i.e. go and check —
+              under a list where 99,1 % of the links open a front door from
+              which the figure cannot be reached. Both halves are derived from
+              the printed lines, so a collector that starts emitting
+              per-announcement links flips this sentence on its own. */}
+          {prov.publisherOnly > 0 ? (
+            <>
+              {" "}
+              {prov.records > 0
+                ? L(
+                    "Les arrêtés renvoient à l'acte lui-même ; les autres lignes renvoient au site de l'éditeur, où ce total ne se retrouve pas.",
+                    "Orders link to the act itself; the other lines link to the publisher's site, where that total cannot be found.",
+                  )
+                : L(
+                    "Les lignes renvoient au site de l'éditeur, où ce total ne se retrouve pas.",
+                    "The lines link to the publisher's site, where that total cannot be found.",
+                  )}
+            </>
+          ) : null}
           {/* The date is published as a CEILING, not as a badge of freshness.
               "Mis à jour le 4 août" reads as reassurance and stops being the
               point the day the collector dies — which it did on 2026-08-05,

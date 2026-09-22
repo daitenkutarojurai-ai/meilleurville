@@ -2697,7 +2697,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce ; **passe de troncature le 07/09** : la facette des observateurs, plafonnée à 2 000 sur **101 villes**, était publiée comme un décompte dans la prose et en `value` JSON-LD alors que le tableau de la même page affichait « 2 000+ » — corrigé des deux côtés, plus les insectes plafonnés de 12 villes et deux drapeaux que le collecteur calculait puis jetait. **la collecte a repris les 09-10/09** (180 lignes rejouées en `queryVersion` 3 sur 540, les 360 autres suivent) — c'est le `git push` du cron qui était cassé du 27/08 au 10/09, pas le cron ; **passe sur `topSpecies` le 10/09**, le champ que les deux sous-pages rendent en cartes : un **code de baguage publié comme nom d'espèce sur 522 des 540 pages EN** (1 281 cartes, `GRTI` sur 497, `C F` sur 430, `COST` sur 237, première carte de la section sur 180 pages, zéro côté FR — donc aussi une divergence entre jumelles hreflang) et un **casier « Animalia spec » publié comme l'espèce la plus observée de Saint-Laurent-du-Maroni** (rang 1, 1 058 obs. contre 58 à la deuxième ligne ; rang 2 à Cayenne) qu'aucun test de forme ne pouvait attraper — il a l'allure d'un binôme latin. `displayTopSpecies()` et `speciesDisplay()` deviennent les seuls accès autorisés, `selftest` 54 → 74 ; **corpus GBIF intégralement en `queryVersion` 3 au 13/09** (540/540 relevées du 09 au 13/09 — reptiles comptés partout, zéro code de baguage restant) ; **passe zones protégées le 14/09** : un **périmètre de protection** (la zone tampon d'une réserve naturelle) sort de la même couche BD TOPO que la réserve et pèse donc **1,0** comme elle — 28 villes en portent un, **6 au point que leur chiffre en dépende, aux rangs 1, 3, 7, 11, 23 et 128**, Digne-les-Bains en tête avec 68 081 ha de tampon pour 75 ha de réserve dans le même disque. Signalé sur les deux hubs et les deux sous-pages ville, **jamais repondéré** (même arbitrage qu'à l'aire d'adhésion) ; `protected-areas:selftest` + 9 |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
-| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 292 entrées** (BODACC 4 252 + CatNat 40). 537 villes affichent la section, 3 masquées (dinan, selestat, ile-de-re). RNA toujours désactivé. **Le collecteur est sain pour la première fois** : trois passes les 09 et 10/09, **540 lignes en `queryVersion` 3**, âge 5-6 jours, **0 ville étiquetée « relevé non repris »** (177 au run précédent), et son silence depuis est **nominal** — aucune ligne n'échoit avant le ~23/09. ⚠️ Ne pas le lire comme une panne : ce serait l'erreur symétrique des trois runs précédents. **La question du 08/09 est tranchée : les 502 zéros Géorisques étaient vrais** — la pagination a tourné sur les 540, aucune lecture courte, et le comptage donne **34 villes / 40 arrêtés, identiques entrée par entrée** à l'état v2 d'avant correctif (même jeu de villes, zéro écart, 19 arrêtés distincts). Le correctif reste juste : il a supprimé un pari sur un ordre de tri jamais observé, et c'est le pari qui était le défaut, pas son résultat. **Défaut corrigé le 15/09, dans la phrase d'introduction** : elle annonçait « sur les 12 derniers mois » sur les 537 pages et dans les deux locales, alors que 12 est la fenêtre **interrogée** et que la liste **imprimée** est plafonnée à 8 entrées — mesuré, **536 des 537 villes sont au plafond**, la liste porte **3 mois pour 332 villes et 4 pour 174** (506/537 à quatre mois ou moins, aucune à douze). Conséquence, même famille que les quatre défauts précédents : **47 villes rendent une liste trouée** dont les trous sont des évictions par le plafond, pas des zéros constatés. Nouvel export `newsSpan(entries)`, qui prend **le tableau déjà rendu** donc la portée citée ne peut pas diverger de la liste ; la surface énonce fenêtre **et** portée réelle, et la mise en garde d'éviction n'est imprimée que si `capped`. `news:selftest` 73 → **77** (les deux anciennes phrases nommées et interdites, garde vérifiée en la faisant échouer) |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 292 entrées** (BODACC 4 252 + CatNat 40). 537 villes affichent la section, 3 masquées (dinan, selestat, ile-de-re). RNA toujours désactivé. **Collecteur nominal et silence nominal** : cohortes 09/09 (360) et 10/09 (180) inchangées, 540 lignes en `queryVersion` 3, âge 12-13 jours pour un `DUE_AFTER_DAYS` de 14 — rien n'échoit avant le ~23/09, le seuil d'affichage de 21 jours n'a étiqueté aucune ville, et ⚠️ **le contrôle reste la date des lignes, jamais leur nombre**. La dispersion des cohortes reste la seule question ouverte côté plomberie. **Défaut corrigé le 22/09, dans le pied de section** : `Sources : BODACC, Géorisques (GASPAR) · Licence Ouverte / Etalab · consultables librement` portait deux affirmations que la page ne peut pas soutenir. ① Géorisques répond pour les 540 villes et ne pose de ligne que sur 34, donc sur **503 des 537 pages** il était crédité de chiffres dont aucun n'était le sien — la forme purgée trois fois en septembre (quartet env 09/09, six moteurs 09/10, tables de classements 09/11), qui a survécu ici parce que les organismes de F64 publient bien les **lignes**, pas le **comptage** : « 192 créations d'entreprises en août 2026 » est un `count(*)` de ce script. ② « consultables librement » invitait à vérifier au-dessus d'une liste dont **4 252 des 4 292 lignes rendues (99,1 %) pointent sur `https://www.bodacc.fr/`**, contre 40 qui ouvrent l'acte décrit ; les 537 villes en portent au moins une, **503 n'ont que ça**, et le contrat du champ disait « landing page for the underlying record ». Corrigé au site d'affichage : `newsLinkTarget()` lit la portée **sur l'URL** et non sur le `kind`, `cityNewsProvenance(slug, entries)` prend le tableau **déjà rendu** et sépare cité / consulté sans ligne. ⚠️ Le registre consulté est **nommé, pas retiré** (« demandé, rien ici » est une mesure), et ⚠️ **aucun lien profond n'a été fabriqué** — une borne haute de date demanderait un opérateur jamais vu répondre d'ici, la classe de défaut exacte des quatre premières pannes ; ce lien se construit dans le collecteur. `news:selftest` 77 → **85**, garde `signaux` de `npm run integrity` étendue à la surface, les deux **vérifiées en les faisant échouer**, plus 26 contrôles de rendu réel FR/EN |
 
 ### F62 — Score Biodiversité
 
@@ -4622,6 +4622,89 @@ fois tout seul, et la chose à mesurer devient **la dispersion des cohortes** �
 groupés sur deux jours veulent dire que les 540 lignes échoiront de nouveau ensemble, donc que
 le lissage supposé par les trois seuils n'existe toujours pas. Côté Géorisques, il n'y a plus
 rien à attendre : le comptage réclamé est fait, les 34 villes sont la mesure.
+
+#### État au 2026-09-22 — le pied de section créditait deux sources de chiffres qu'elles n'ont pas publiés
+
+**Rien de neuf côté collecte, et c'est encore nominal.** Les cohortes n'ont pas bougé — **09/09
+(360 villes) et 10/09 (180)**, 540 lignes en `queryVersion` 3, 4 292 entrées, âge **12-13
+jours** — ce qui est exactement ce que `DUE_AFTER_DAYS` (14) prescrit : aucune ligne n'échoit
+avant le ~23/09, `pickBatch()` ne sert que les lignes échues, et le seuil d'affichage de 21
+jours n'a donc étiqueté aucune ville. ⚠️ La consigne du run précédent tient dans les deux
+sens : **le contrôle est la date des lignes, jamais leur nombre**, et un silence de neuf jours
+sur un cycle de quatorze n'est pas une panne. La question de la **dispersion des cohortes**
+reste donc ouverte et se tranchera au prochain run : trois lots groupés sur deux jours veulent
+dire que les 540 lignes échoiront de nouveau ensemble.
+
+**Le défaut corrigé est dans le seul paragraphe de la section que personne n'avait relu, et il
+porte deux affirmations de provenance que la page ne peut pas soutenir.** Le pied annonçait,
+sur les 537 pages qui rendent la section et dans les deux locales :
+`Sources : BODACC, Géorisques (GASPAR) · Licence Ouverte / Etalab · consultables librement.`
+
+① **Géorisques répond pour les 540 villes et ne pose de ligne que sur 34.** Sur **503 des 537
+pages**, il était donc nommé sous « Sources : » d'une liste dont **aucun** chiffre n'était le
+sien. C'est très exactement la forme que le site a purgée trois fois en septembre — le quartet
+environnement le 09/09, les six moteurs propriétaires le 09/10, les deux tables de classements
+le 09/11 — et si elle a survécu ici, c'est que les organismes de F64 publient **réellement**
+les lignes sous-jacentes. Ils ne publient pas le comptage : « 192 créations d'entreprises
+publiées au BODACC en août 2026 » est un `count(*)` groupé par commune, mois et famille que
+**ce script** a exécuté, et qui n'existe sur aucune page en amont.
+
+② **« consultables librement » invitait à aller vérifier, au-dessus d'une liste dont 99,1 %
+des liens ne le permettent pas.** Mesuré ce run à travers `cityNews()`, donc sur ce qui est
+réellement imprimé : **4 252 des 4 292 lignes rendues pointent sur `https://www.bodacc.fr/`**,
+la porte d'entrée du portail, contre **40** qui ouvrent l'acte qu'elles décrivent (les arrêtés
+CatNat, par leur `codeNational`). **Les 537 villes en portent au moins une ; 503 n'ont que
+ça.** Le lecteur qui clique pour contrôler un total atterrit sur un portail dont la recherche
+se fait par entreprise et par annonce, **jamais par commune × mois × famille** — et la phrase
+qu'il vérifiait n'y a de toute façon jamais été publiée. Le contrat du champ, lui, disait
+`Landing page for the underlying record` : vrai de 0,9 % des lignes.
+
+**Corrigé au site d'affichage, et rien n'est réécrit dans les données.** Deux exports neufs
+dans `lib/city-news.ts` : `newsLinkTarget(entry)`, qui lit la portée d'un lien **sur l'URL**
+et non sur le `kind` (origine nue = portail, chemin ou requête = enregistrement), donc qui
+bascule tout seul le jour où un collecteur émettra des liens par annonce ; et
+`cityNewsProvenance(slug, entries)`, qui prend **le tableau déjà rendu** — même discipline que
+`newsSpan()` depuis le 15/09 — et sépare ce qui est **cité** de ce qui a été **consulté sans
+rien poser ici**, en comptant au passage les liens de chaque sorte. Le pied dit désormais
+d'où viennent les lignes, que **les totaux mensuels sont notre comptage** et pas un chiffre
+publié comme tel, quel registre a été consulté sans résultat, et jusqu'où les liens vont.
+
+⚠️ **Le registre consulté est nommé, pas retiré.** « On a demandé, il n'y avait rien » est une
+**mesure** ici — l'inventaire Géorisques est exhaustif, et le comptage du 15/09 a établi que
+ces zéros sont vrais — et c'est la distinction que ce pipeline a perdue quatre fois dans
+l'autre sens. Le supprimer du pied aurait rendu la page plus courte et moins vraie.
+
+⚠️ **Et aucun lien profond n'a été fabriqué, délibérément.** Composer à l'affichage une URL
+`records` qui reproduirait le comptage demanderait une borne haute de date, c'est-à-dire un
+opérateur (`<`, ou `year()`/`month()` en `where`) que **personne n'a jamais vu répondre**
+depuis ce dépôt — la classe de défaut exacte des quatre premières pannes de F64. Un lien par
+annonce se construit **dans le collecteur**, contre une réponse réelle, comme celui des
+arrêtés CatNat. C'est écrit dans le contrat du champ pour que ce ne soit pas retenté d'ici.
+
+**Gardes.** `news:selftest` **77 → 85** : les deux anciennes tournures sont nommées et
+interdites, la lecture se fait **commentaires retirés** (le commentaire qui pose la règle cite
+forcément ce qu'elle proscrit — piège du garde du 15/09), et les trois principales ont été
+**vérifiées en les faisant échouer**. Surtout, le contrôle est **aussi** dans
+`npm run integrity`, garde `signaux`, parce que c'est la commande que chaque routine lance :
+elle refuse un pied qui réannonce « Sources : » ou « consultables librement », exige
+l'attribution du comptage dans les deux locales, et imprime la part de liens qui ne mènent
+qu'au portail (`4 252 lien(s) vers le portail de l'éditeur, annoncés comme tels`). Elle aussi
+vérifiée en la faisant échouer. Rendu réel du composant (`renderToStaticMarkup`, FR et EN,
+contre le fichier réel) : **26 contrôles verts**, dont l'absence de fuite de français côté EN,
+les trois régimes de pied (tout au portail, mixte, tout cité) et les 537 villes qui annoncent
+la portée de leurs liens. `npx tsc --noEmit` propre, `npm run news:prune` ne trouve rien hors
+fenêtre. `npm run build` **non lancé, volontairement** (cf. CLAUDE.md § Commands).
+
+**Ce que le prochain run doit regarder en premier.** Toujours les cohortes de dates, mais la
+lecture a changé de sens : à partir du ~23/09 les lignes sont échues, donc des cohortes encore
+figées au 09-10/09 voudront dire que le collecteur a manqué son échéance, et le seuil de 21
+jours commencera à étiqueter les villes autour du 30/09-01/10. Si elles ont bougé, mesurer
+**la dispersion** — c'est la seule question F64 encore ouverte côté plomberie. Côté surface,
+ce qui n'a jamais été relu : le **libellé** de chaque famille face à ce que le BODACC met
+dedans (`familleavis = collective` couvre les étapes d'une procédure — ouverture, conversion,
+plan, clôture — et la ligne les compte toutes sous « Procédures collectives »), question qui
+**ne se tranche pas d'ici** : elle demande de voir répondre l'API sur la ventilation des
+`nature` d'annonce, donc une passe locale.
 
 ---
 

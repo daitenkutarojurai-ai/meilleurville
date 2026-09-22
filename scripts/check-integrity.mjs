@@ -320,9 +320,49 @@ if (!failed) {
       }
     }
 
+    // La surface, au même titre que le fichier. Même famille que les gardes
+    // « env quartet », « moteurs » et « classements » : un organisme n'est nommé
+    // que pour ce qu'il a publié, jamais pour un nombre que nous en avons tiré.
+    // Le pied de section annonçait « Sources : BODACC, Géorisques (GASPAR) ·
+    // Licence Ouverte / Etalab · consultables librement » — or Géorisques répond
+    // pour les 540 villes et ne pose de ligne que sur 34, donc sur 503 pages il
+    // était crédité de chiffres dont aucun n'était le sien ; et « consultables
+    // librement » invitait à aller vérifier au-dessus d'une liste dont 4 252
+    // lignes sur 4 292 ouvrent bodacc.fr, qui ne sait chercher ni par commune,
+    // ni par mois, ni par famille. Le commentaire est retiré avant lecture : il
+    // cite forcément les tournures qu'il interdit.
+    const uiPath = path.join(ROOT, "components/CityNewsSection.tsx");
+    if (existsSync(uiPath)) {
+      const ui = readFileSync(uiPath, "utf8")
+        .replace(/\/\*[\s\S]*?\*\//g, " ")
+        .replace(/^\s*\/\/.*$/gm, " ");
+      if (/Sources ?:/.test(ui) || /consultables librement/.test(ui) || /openly available/.test(ui)) {
+        problems.push("CityNewsSection : le pied annonce « Sources : » ou promet des chiffres « consultables librement »");
+      }
+      if (!/notre comptage des annonces/.test(ui) || !/our own count of published filings/.test(ui)) {
+        problems.push("CityNewsSection : les totaux mensuels ne sont pas attribués à notre comptage dans les deux locales");
+      }
+      if (!/cityNewsProvenance\(slug, entries\)/.test(ui)) {
+        problems.push("CityNewsSection : la provenance n'est pas dérivée des lignes réellement imprimées");
+      }
+      if (!/prov\.publisherOnly/.test(ui) || !/prov\.records/.test(ui)) {
+        problems.push("CityNewsSection : la portée des liens n'est pas dérivée des lignes imprimées");
+      }
+    }
+
     if (problems.length === 0) {
       const entries = slugs.reduce((n, s) => n + cities[s].entries.length, 0);
-      console.log(`  ok  signaux    ${slugs.length} villes, ${entries} entrées`);
+      // La part des liens qui ne mènent qu'au portail de l'éditeur est dite ici
+      // parce que c'est elle que la section doit annoncer au lecteur.
+      let portal = 0;
+      for (const s2 of slugs) {
+        for (const e of cities[s2].entries) {
+          const m = /^https?:\/\/[^/?#]+([/?#].*)?$/.exec(e.sourceUrl ?? "");
+          const rest = m ? (m[1] ?? "") : "";
+          if (!m || rest === "" || rest === "/") portal++;
+        }
+      }
+      console.log(`  ok  signaux    ${slugs.length} villes, ${entries} entrées · ${portal} lien(s) vers le portail de l'éditeur, annoncés comme tels`);
     } else {
       failed = true;
       console.error(`\n  ÉCHEC  data/city-news.json : ${problems.length} anomalie(s)\n`);

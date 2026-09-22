@@ -1116,6 +1116,31 @@ async function showStats() {
     for (const [slug, r] of short.slice(0, 25)) log(`    ${slug}: ${r.truncated.join(", ")}`);
     if (short.length > 25) log(`    … +${short.length - 25}`);
   }
+  // How far a reader can follow a line back. A CatNat entry links to the order
+  // it describes; a BODACC entry links to bodacc.fr, which holds the
+  // announcements but not the monthly total — that total is this script's
+  // count(*) and exists on no page upstream. Printed rather than assumed
+  // because the day a collector starts emitting per-announcement links, this
+  // is the line that says so; and printed as a share because the type used to
+  // promise "landing page for the underlying record" while 99,1 % of the rows
+  // held a front door.
+  const targets = { record: 0, publisher: 0 };
+  const portals = new Map();
+  for (const r of rows) {
+    for (const e of r.entries ?? []) {
+      const m = /^https?:\/\/[^/?#]+([/?#].*)?$/.exec(e.sourceUrl ?? "");
+      const rest = m ? (m[1] ?? "") : "";
+      if (m && rest !== "" && rest !== "/") targets.record++;
+      else {
+        targets.publisher++;
+        portals.set(e.source, (portals.get(e.source) ?? 0) + 1);
+      }
+    }
+  }
+  const total = targets.record + targets.publisher || 1;
+  log(`links: ${targets.record} to the record, ${targets.publisher} to a publisher portal ` +
+    `(${((targets.publisher / total) * 100).toFixed(1)} %)` +
+    (portals.size ? ` — ${[...portals].map(([src, n]) => `${src} ${n}`).join(", ")}` : ""));
 }
 
 /* ── selftest ───────────────────────────────────────────────────────────── */
@@ -1503,6 +1528,41 @@ async function selftest() {
   // cap, not printed always (when nothing was dropped, an absent month is real).
   check("the eviction caveat is tied to the cap",
     /span\.capped/.test(uiCopy), true);
+
+  // — a source is credited for what it published, not for what we derived —
+  //
+  // The regression, written as a test. The footer printed one list, `Sources :
+  // BODACC, Géorisques (GASPAR) · Licence Ouverte / Etalab · consultables
+  // librement`, and could back neither half of it. Géorisques answers for all
+  // 540 cities but lands a line on 34, so on 503 of the 537 rendering pages it
+  // was credited with figures none of which were its own — the shape the site
+  // purged from the environment engines (09/09), the six proprietary ones
+  // (09/10) and the ranking tables (09/11), and which survived here because
+  // F64's organisms really do publish the underlying rows. They do not publish
+  // the count: 192 créations d'entreprises en août 2026 is a group_by this
+  // script ran. And "consultables librement" invited the reader to go and
+  // check, above a list where 4 252 of 4 292 lines (99,1 %, measured
+  // 2026-09-22 through cityNews()) open bodacc.fr, whose own search is by
+  // company and by announcement and can never reach a commune × month × family
+  // total. Both old sentences are named and forbidden.
+  check("the lib reads link reach off the URL, not off the kind",
+    /export function newsLinkTarget/.test(libSrc), true);
+  check("the lib splits what was cited from what was merely consulted",
+    /export function cityNewsProvenance/.test(libSrc), true);
+  check("the surface derives provenance from the entries it prints",
+    /cityNewsProvenance\(slug, entries\)/.test(uiCopy), true);
+  check("the old source list is gone from the surface",
+    !/Sources ?:/.test(uiCopy) && !/consultables librement/.test(uiCopy)
+      && !/openly available/.test(uiCopy), true);
+  check("the monthly total is attributed to us, in both locales",
+    /notre comptage des annonces/.test(uiCopy) && /our own count of published filings/.test(uiCopy),
+    true);
+  check("a consulted register that landed no line is said to have landed none",
+    /consultedOnly/.test(uiCopy), true);
+  check("how far the links go is derived from the printed lines",
+    /prov\.publisherOnly/.test(uiCopy) && /prov\.records/.test(uiCopy), true);
+  check("the sourceUrl contract no longer calls every link a record",
+    !/Landing page for the underlying record/.test(libSrc), true);
 
   const failed = results.filter((r) => !r).length;
   log(failed ? `\n${failed} check(s) FAILED of ${results.length}` : `\nall ${results.length} checks passed`);
