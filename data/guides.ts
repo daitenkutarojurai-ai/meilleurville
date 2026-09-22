@@ -58140,6 +58140,454 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Céret", "activités Céret 2026", "que faire dans les Pyrénées-Orientales", "sorties Occitanie art moderne", "pont du Diable musée d'art moderne cerises Vallespir"]
   },
+  {
+    slug: "10-choses-a-faire-a-selestat-2026",
+    title: "10 choses à faire à Sélestat",
+    metaTitle: "10 choses à faire à Sélestat en 2026",
+    metaDesc:
+      "Une bibliothèque de 1452 inscrite à l'UNESCO, le registre de 1521 qui parle d'un sapin, 1 855 hectares de Ried : 10 activités à Sélestat.",
+    category: "tourisme",
+    emoji: "📚",
+    readMinutes: 7,
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    intro:
+      "Sélestat comptait 19 523 habitants au recensement de 2022, contre 19 124 en 2016 et 19 181 en 2011, soit une progression de 1,8 % sur onze ans. C'est la huitième des neuf communes du Bas-Rhin que suit ce site, devant Saverne seule, très loin de Lingolsheim et de ses 23,8 % ou d'Obernai et de ses 15,1 %. Autrement dit, la ville que tout le monde traverse entre Strasbourg et Colmar ne profite pas de sa position autant qu'on le croirait. Ce qui la distingue tient en un lieu et une date. L'école latine fondée ici en 1452 a laissé une bibliothèque dont le fonds est inscrit depuis 2011 au registre Mémoire du monde de l'UNESCO, et les archives municipales conservent un registre de comptes de 1521 qui est la pièce la plus souvent citée dans l'histoire du sapin de Noël.",
+    sections: [
+      {
+        heading: "1. La Bibliothèque humaniste",
+        body: "Elle réunit deux fonds. Celui de l'école latine, fondée en 1452, qui a fait de la petite ville un foyer d'enseignement reconnu dans toute la vallée du Rhin, et la collection personnelle de Beatus Rhenanus, léguée à la ville en 1547. L'ensemble compte 1 686 documents anciens, pour l'essentiel du XVe et du XVIe siècle, et il est inscrit depuis 2011 au registre Mémoire du monde de l'UNESCO. Ce qui lui vaut cette inscription n'est pas l'âge des volumes mais leur cohérence : livres, lettres et annotations d'un même homme, collaborateur d'Érasme à Bâle, qui donnent à lire la circulation des idées et le commerce du livre dans l'Europe rhénane de la première moitié du XVIe siècle. Érasme lui-même est venu quatre fois à Sélestat, entre 1515 et 1522."
+      },
+      {
+        heading: "2. Le registre de 1521, et ce qu'il dit exactement",
+        body: "La ville conserve une entrée comptable du 21 décembre 1521 : quatre schillings versés aux gardes forestiers pour surveiller la forêt communale le jour de la Saint-Thomas, quand on y coupait les sapins. C'est la mention écrite la plus souvent citée comme point de départ de la tradition. Une précision s'impose, parce qu'elle est régulièrement escamotée : la primauté est disputée. Les archives de Strasbourg portent un achat de neuf sapins par l'Œuvre Notre-Dame en 1492, et les revendications de Riga et de Tallinn, au début du XVIe siècle, sont contestées par les historiens qui y voient des fêtes de corporations sans rapport avec Noël. Le document de Sélestat est réel, daté et exposé pendant la période de l'Avent ; c'est le superlatif qui l'accompagne qui mérite d'être manié avec prudence."
+      },
+      {
+        heading: "3. L'église Sainte-Foy",
+        body: "Elle est romane, bâtie entre 1152 et 1190 grâce à des dons de Frédéric Barberousse, et c'est le seul vestige du prieuré occupé par les bénédictins puis par les jésuites. Elle est classée au titre des monuments historiques depuis 1862. On est ici dans le même moment et sous le même empereur qu'à Haguenau, à une soixantaine de kilomètres au nord, où Barberousse installait son palais impérial : la différence, c'est qu'à Haguenau il n'en reste rien et qu'ici l'église est debout. Le grès rose, les arcatures et la sobriété du vaisseau donnent à lire un roman rhénan presque intact."
+      },
+      {
+        heading: "4. L'église Saint-Georges",
+        body: "Elle se tient à quelques dizaines de mètres de la précédente, et le contraste est tout l'intérêt du quartier. Le chantier s'étale de 1220 à 1490. La nef et les bas-côtés, élevés entre 1220 et 1235, relèvent d'un gothique bourguignon à voûtes sexpartites et à élévations sobres. Les sept baies du chœur portent des vitraux réalisés entre 1430 et 1460. L'histoire du vitrage ne s'arrête pas là : Max Ingrand a réintégré au XXe siècle des panneaux anciens dans des baies modernes de sa main, et François Chapuis a signé des créations en 1986. L'église est classée depuis 1848. Deux édifices, trois siècles d'écart, une même rue : c'est la visite la plus rentable de la ville."
+      },
+      {
+        heading: "5. Les tours, l'arsenal et les remparts",
+        body: "La tour des Sorcières appartenait à la première enceinte, celle de 1216, remaniée à plusieurs reprises et utilisée jusqu'à ce qu'une fortification moderne la rende inutile. La tour Neuve, du XIIIe siècle, domine encore le centre. L'arsenal Sainte-Barbe est un bâtiment gothique de 1470 qui servait d'abord d'entrepôt communal et n'est devenu arsenal qu'en 1534, sainte Barbe étant la patronne des artilleurs. Quant aux remparts, ils ont été élevés entre 1675 et 1691 par Jacques Tarade, ingénieur formé par Vauban. Sélestat figure à ce titre dans le réseau des sites Vauban, ce qui n'est pas la même chose que les douze ouvrages inscrits à l'UNESCO en 2008 : la nuance vaut d'être connue avant de citer le mot."
+      },
+      {
+        heading: "6. La Maison du Pain d'Alsace",
+        body: "Le lieu occupe l'ancien poêle de la corporation des boulangers et associe un parcours muséal à un fournil en activité, où l'on regarde travailler les artisans avant de repartir avec ce qu'ils viennent de sortir. C'est plus intéressant que ça n'en a l'air : le pain est ici le fil qui relie la corporation médiévale, les fours communaux, les farines de la plaine et les spécialités qu'on trouve encore sur le marché. Les espaces de visite ont été refaits en 2018. Une heure suffit, et c'est la bonne étape pour un jour de pluie ou pour des enfants que trois églises d'affilée auraient découragés."
+      },
+      {
+        heading: "7. L'Ill*Wald, la réserve du Ried",
+        body: "C'est le meilleur argument de Sélestat et le moins connu. La réserve naturelle régionale du Ried de Sélestat couvre environ 1 855 hectares, sur la commune même. Elle a été créée en 1995 et classée en 2013, et c'est la plus vaste réserve naturelle régionale d'Alsace. Le mot ried vient d'un terme alémanique désignant le roseau : on est dans une zone humide alimentée par la nappe, parcourue par plus de 130 kilomètres de cours d'eau, rivières phréatiques et fossés, avec une forêt alluviale de quelque 1 500 hectares d'un seul tenant, parmi les plus étendues de France. Prairies de fauche, haies lâches, chemins plats : cela se parcourt à pied ou à vélo depuis le centre-ville, sans voiture."
+      },
+      {
+        heading: "8. Le Corso fleuri",
+        body: "Depuis 1929, la ville sort chaque année en août des chars entièrement recouverts de dahlias, avec défilé de jour, défilé de nuit, musiciens et compagnies de rue. C'est l'un de ces rendez-vous qui transforment complètement une ville moyenne pendant un week-end, et il vaut mieux savoir avant de réserver un hébergement que ce week-end-là n'a rien de calme. Les dates changent d'une année à l'autre et se vérifient auprès de l'office de tourisme plutôt que sur une page reprise de l'édition précédente : c'est l'erreur classique sur ce genre de manifestation."
+      },
+      {
+        heading: "9. Le Haut-Koenigsbourg et le vignoble, accessibles depuis Sélestat",
+        body: "Le château qui domine la plaine depuis 755 mètres n'est pas à Sélestat : il est sur la commune d'Orschwiller, à une dizaine de kilomètres, et la montée se fait en voiture ou par navette saisonnière. Ce qu'on visite est une reconstitution assumée, menée de 1900 à 1908 par l'architecte berlinois Bodo Ebhardt et inaugurée le 13 mai 1908 en présence de Guillaume II, alors que l'Alsace était allemande. C'est ce qui en fait un document sur 1900 autant que sur le Moyen Âge, et il vaut mieux le savoir en entrant. Les villages viticoles de la route des Vins commencent à la même sortie de ville, vers l'ouest."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Sélestat est sur la ligne Strasbourg-Bâle, avec des liaisons régionales fréquentes dans les deux sens et une gare à dix minutes à pied du centre historique : on y vient sans voiture sans y perdre de temps. Une journée suffit pour la Bibliothèque humaniste, les deux églises, l'arsenal et une fin d'après-midi dans le Ried. Deux jours si l'on ajoute le Haut-Koenigsbourg et un village viticole, qui demandent un véhicule ou une navette. La plaine est chaude et lourde en juillet et en août ; le printemps et le début de l'automne sont plus agréables, et décembre est le mois où la ville joue sa carte du sapin, donc l'un des plus fréquentés."
+      }
+    ],
+    relatedCities: ["selestat", "colmar", "strasbourg", "haguenau"],
+    relatedGuides: [
+      "10-choses-a-faire-a-colmar-2026",
+      "10-choses-a-faire-a-strasbourg-2026",
+      "10-choses-a-faire-a-haguenau-2026",
+      "10-choses-a-faire-a-obernai-2026"
+    ],
+    tags: ["10 choses à faire à Sélestat", "activités Sélestat 2026", "que faire dans le Bas-Rhin", "sorties Alsace patrimoine", "Bibliothèque humaniste sapin de Noël Ried Haut-Koenigsbourg"]
+  },
+  {
+    slug: "10-choses-a-faire-a-obernai-2026",
+    title: "10 choses à faire à Obernai",
+    metaTitle: "10 choses à faire à Obernai en 2026",
+    metaDesc:
+      "Un puits de 1579, un beffroi de 60 mètres, un marché tenu le jeudi depuis 1301 : 10 activités à Obernai, sur la route des Vins d'Alsace.",
+    category: "tourisme",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    intro:
+      "Obernai comptait 12 303 habitants au recensement de 2022, contre 10 953 en 2016 et 10 689 en 2011 : une progression de 15,1 % sur onze ans, la deuxième des neuf communes du Bas-Rhin que suit ce site, derrière Lingolsheim et loin devant Strasbourg, qui gagne 7,2 %. Une commune de douze mille habitants qui grossit deux fois plus vite que la métropole voisine, ce n'est pas courant, et l'explication tient en partie à ce qui fait aussi son intérêt touristique : elle est à une vingtaine de kilomètres de Strasbourg, au pied du Mont Sainte-Odile, sur la route des Vins, et son mètre carré de référence reste sous celui de la métropole. Le centre est un manuel d'architecture alsacienne à ciel ouvert, et il se parcourt en une matinée.",
+    sections: [
+      {
+        heading: "1. La place du Marché",
+        body: "Tout est là, et c'est rare à ce point : le beffroi, l'hôtel de ville, l'ancienne halle aux blés, les auberges et les lieux de réunion des corporations se tiennent sur le même espace, parce que c'est là que la ville s'est organisée depuis le Moyen Âge. Le marché hebdomadaire du jeudi matin est mentionné dès 1301 et il se tient toujours, ce qui donne à la place deux visages très différents selon le jour où l'on arrive. Un jeudi, on voit une ville qui fonctionne ; un mardi, on voit un décor. Les deux valent le détour, mais ce n'est pas la même visite."
+      },
+      {
+        heading: "2. Le puits aux six seaux",
+        body: "Daté de 1579, il est considéré comme l'un des plus beaux et des mieux conservés d'Alsace. Trois colonnes à chapiteaux corinthiens portent un baldaquin octogonal, et chacune des trois roues du mécanisme porte deux seaux, ce qui lui donne son nom et explique pourquoi on le regarde deux fois avant de comprendre. C'est un objet de la Renaissance posé au milieu d'une place médiévale, et cette superposition résume assez bien la ville : Obernai n'a pas un siècle, elle en a cinq empilés sur trois cents mètres."
+      },
+      {
+        heading: "3. Le Kapellturm, le beffroi de la ville",
+        body: "La tour fait soixante mètres et c'est tout ce qui reste d'une chapelle de la Vierge élevée à la fin du XIIIe siècle et démolie en 1873. Elle a servi de clocher et de tour de guet, deux fonctions qui allaient ensemble dans une ville libre où l'on surveillait autant le feu que l'ennemi. Elle domine la place du Marché et sert de repère depuis n'importe quel point du centre. Un mot de vocabulaire, parce qu'il induit en erreur : un beffroi alsacien n'est pas un clocher d'église, c'est une tour civile, celle de la commune, et c'est précisément ce que raconte le fait qu'on ait démoli la chapelle et gardé la tour."
+      },
+      {
+        heading: "4. L'église Saints-Pierre-et-Paul",
+        body: "Elle est néogothique, bâtie de 1867 à 1872 sur les plans de l'architecte Eugène Petit, hors les anciennes fortifications, sur le domaine qui appartenait à l'abbaye du Mont Sainte-Odile. Elle a remplacé un sanctuaire gothique du XVe siècle démoli en 1867, lui-même élevé sur une église romane à crypte du XIIe. Le décor est du XIXe, mais l'église conserve des pièces bien plus anciennes : un Saint-Sépulcre de 1504 dans le bras gauche du transept, des vitraux de la fin du XVe repris en 1895 et 1896, et un orgue symphonique de Joseph Merklin daté de 1882. S'y ajoute, depuis 1921, un reliquaire contenant le cœur de Mgr Freppel, né à Obernai."
+      },
+      {
+        heading: "5. Le tour des remparts",
+        body: "L'enceinte ne se parcourt pas d'un seul tenant comme à Langres, mais des pans substantiels subsistent avec leurs tours, et le circuit qui les longe fait le tour du centre en moins d'une heure. C'est la meilleure manière de comprendre la forme de la ville : un ovale compact, très dense à l'intérieur, qui s'arrête net là où passait le mur. Ce qui s'est construit au-delà date du XIXe et du XXe, et cela se voit sans avoir besoin qu'on vous l'explique. Le parcours est plat, praticable avec une poussette, et il donne accès à des ruelles que la foule de la place du Marché ne trouve jamais."
+      },
+      {
+        heading: "6. Le Mont Sainte-Odile et le mur païen, accessibles depuis Obernai",
+        body: "Le sommet est à 764 mètres et porte l'abbaye de Hohenbourg, fondée par sainte Odile, patronne de l'Alsace. Une précision géographique s'impose : le site est sur la commune d'Ottrott, à une quinzaine de kilomètres par la départementale 426, et non à Obernai. On y monte en voiture. Le mur païen, qui ceinture le sommet sur une dizaine de kilomètres, est l'ouvrage le plus intrigant du massif : quelque trois cent mille blocs de conglomérat, un mur large de 1,6 à 1,8 mètre et haut par endroits de trois mètres, longtemps donné pour celtique et que les recherches récentes datent du VIIe siècle, c'est-à-dire de l'époque du couvent. Une partie se suit à pied sur des sentiers balisés."
+      },
+      {
+        heading: "7. La route des Vins, et ce qu'elle est vraiment",
+        body: "Obernai est l'une des étapes les plus fréquentées d'un itinéraire créé le 30 mai 1953, à l'occasion d'un rallye automobile organisé par le comité de tourisme. Il court sur plus de cent soixante-dix kilomètres de Marlenheim à Thann, à travers cent dix-neuf communes agricoles, sur le piémont oriental des Vosges. Ce n'est donc pas un chemin balisé mais un réseau de routes départementales jalonnées, ce qui change la façon de l'aborder : on n'en fait pas la totalité, on en prend un tronçon. Depuis Obernai, les villages du versant du Mont Sainte-Odile sont à quelques minutes, et le vignoble commence à la sortie des remparts."
+      },
+      {
+        heading: "8. Le domaine de la Léonardsau",
+        body: "À l'écart du centre, vers le hameau Saint-Léonard, la ville possède un domaine protégé au titre des monuments historiques dont le parc paysager couvre huit hectares. Son intérêt est d'être un catalogue plutôt qu'un jardin : on y passe d'une composition à la française à un parc à l'anglaise, avec des séquences d'inspiration italienne et japonaise, ce qui était la manière dont on concevait un grand jardin privé au tournant du XXe siècle. C'est le contrepoint calme d'une place du Marché saturée en août, et l'endroit où l'on comprend que la commune ne se limite pas à son ovale médiéval."
+      },
+      {
+        heading: "9. La brasserie, et ce qu'elle dit de la ville",
+        body: "Obernai n'est pas qu'une carte postale : la commune abrite le site de production de Kronenbourg, ouvert en 1969, qui s'étend sur plus de soixante-dix hectares et compte parmi les plus grandes brasseries de France, avec une houblonnière conduite en agriculture biologique. Il faut le dire comme tel avant toute phrase attrayante : c'est une emprise industrielle en activité, pas un musée, et les visites, lorsqu'elles existent, sont organisées par l'exploitant et se vérifient auprès de lui. Le fait a son importance pour un visiteur : la ville la mieux notée du département dans nos relevés est aussi une ville d'usine, et les deux ne se contredisent pas."
+      },
+      {
+        heading: "10. Y aller, et quand",
+        body: "Obernai a une gare sur la ligne de Strasbourg à Sélestat par le piémont, ce qui en fait l'une des rares étapes de la route des Vins accessible sans voiture ; la fréquence est celle d'une desserte régionale et se vérifie avant de bâtir une journée dessus. Une demi-journée suffit pour la place, le puits, le beffroi, l'église et le tour des remparts. Une journée entière avec la Léonardsau, deux avec le Mont Sainte-Odile. Les mois à éviter si l'on cherche du calme sont juillet, août et décembre, où le marché de Noël attire un public considérable pour la taille du centre ; avril, mai, septembre et octobre donnent la même ville sans la file d'attente, et les vendanges tombent dans le dernier de ces mois."
+      }
+    ],
+    relatedCities: ["obernai", "selestat", "strasbourg", "colmar"],
+    relatedGuides: [
+      "10-choses-a-faire-a-selestat-2026",
+      "10-choses-a-faire-a-strasbourg-2026",
+      "10-choses-a-faire-a-colmar-2026",
+      "10-choses-a-faire-a-saverne-2026"
+    ],
+    tags: ["10 choses à faire à Obernai", "activités Obernai 2026", "que faire dans le Bas-Rhin", "sorties Alsace route des vins", "place du Marché puits aux six seaux Mont Sainte-Odile"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saverne-2026",
+    title: "10 choses à faire à Saverne",
+    metaTitle: "10 choses à faire à Saverne en 2026",
+    metaDesc:
+      "140 mètres de façade en grès rose bâtis par le cardinal du collier de la reine, 8 500 rosiers, l'œil de l'Alsace : 10 activités à Saverne.",
+    category: "tourisme",
+    emoji: "🌹",
+    readMinutes: 7,
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    intro:
+      "Saverne comptait 11 323 habitants au recensement de 2022, contre 11 151 en 2016 et 11 685 en 2011, soit un recul de 3,1 % sur onze ans. C'est la seule des neuf communes du Bas-Rhin que suit ce site à perdre des habitants sur cette période, pendant que Lingolsheim en gagne 23,8 % et Strasbourg 7,2 %. Le comptage mérite d'être posé d'entrée, parce qu'il contredit l'impression que donne la ville : c'est aussi celle dont le mètre carré de référence est le plus bas du département dans nos relevés, et l'une des mieux notées. Une ville agréable et abordable qui se vide lentement, c'est la situation de beaucoup de sous-préfectures, et elle n'enlève rien à ce qu'il y a à voir. Ici, l'essentiel tient en une façade de cent quarante mètres bâtie pour un prince que l'Histoire a ruiné avant qu'il n'emménage.",
+    sections: [
+      {
+        heading: "1. Le château des Rohan",
+        body: "Louis-René de Rohan devient évêque de Strasbourg en 1779, et la même année un incendie ravage une partie des bâtiments existants de sa résidence de Saverne. La reconstruction est lancée presque aussitôt. C'est Nicolas-Alexandre Salins de Montfort qui dessine la séquence néoclassique de la façade sur parc, entièrement en grès rose, trente-cinq travées rythmées par des pilastres ioniques colossaux, cent quarante mètres de long. L'ensemble est achevé en 1789. Les décors intérieurs, eux, ne l'ont jamais été : le chantier s'arrête en 1790, la Révolution ayant d'autres priorités. On regarde donc un palais fini dehors et interrompu dedans, ce qui est assez rare pour valoir le déplacement."
+      },
+      {
+        heading: "2. Le cardinal, et l'affaire du collier",
+        body: "Cette façade ne se comprend pas sans son commanditaire. Cardinal en 1778, évêque de Strasbourg en 1779, grand aumônier de France, Louis-René de Rohan mène grand train et cherche les faveurs de Marie-Antoinette. Une aventurière, Jeanne de La Motte, le convainc que la reine désire un collier de diamants d'un prix considérable ; il l'achète en son nom et le lui remet. Le scandale éclate le 15 août 1785 : le cardinal est arrêté le jour même à Versailles et conduit à la Bastille. Le parlement de Paris l'acquitte le 31 mai 1786, condamne La Motte, et l'affaire achève d'abîmer l'image de la monarchie. Rohan finira sa vie de l'autre côté du Rhin, à Ettenheim. Le palais de Saverne a été terminé pour un homme déjà tombé."
+      },
+      {
+        heading: "3. Le musée du château",
+        body: "Le palais abrite aujourd'hui le musée de la ville, et sa section la plus solide est archéologique : un ensemble de stèles funéraires et votives gallo-romaines qui constitue la deuxième collection lapidaire d'Alsace après celle de Strasbourg. S'y ajoutent une section d'art et d'histoire et une section consacrée à Louise Weiss, journaliste, militante du droit de vote des femmes et figure européenne, dont la présence ici surprend et justifie à elle seule une demi-heure. L'accrochage et les horaires varient selon la saison : on vérifie avant de s'y rendre, comme pour la plupart des musées municipaux de cette taille."
+      },
+      {
+        heading: "4. La roseraie",
+        body: "La société qui l'a fondée date de 1898, ce qui en fait la deuxième plus ancienne roseraie de France. Elle occupe un hectare et demi et présente environ huit mille cinq cents rosiers répartis sur quelque huit cents variétés, avec un concours annuel de roses nouvelles qui explique le renouvellement régulier des plates-bandes. C'est une collection de travail autant qu'un jardin d'agrément, et cela se voit à la manière dont les massifs sont étiquetés. La floraison commande tout : l'endroit n'a d'intérêt qu'entre le début de l'été et le début de l'automne, et il est fermé le reste de l'année."
+      },
+      {
+        heading: "5. Le Haut-Barr, l'œil de l'Alsace",
+        body: "Le château est construit sur trois rochers de grès, à environ quatre cent soixante-dix mètres, et sa position lui vaut depuis le Moyen Âge le surnom d'œil de l'Alsace, parce qu'on y voit venir de partout. Il commande le passage entre le plateau lorrain et la plaine, ce qui est toute la raison d'être de Saverne. Une passerelle appelée le pont du Diable relie deux des rochers ; elle n'est pas pour les personnes sujettes au vertige. Les origines de la forteresse remontent au XIIe siècle et ce qu'on parcourt aujourd'hui est une ruine, partiellement aménagée. L'accès se fait en voiture par une route étroite, ou à pied depuis la ville par un sentier qui grimpe."
+      },
+      {
+        heading: "6. Le télégraphe Chappe",
+        body: "En contrebas du Haut-Barr, une tour reconstituée et son petit musée présentent le télégraphe optique de Claude Chappe, en service de 1798 à 1852 sur la ligne qui reliait Paris à Strasbourg. La démonstration du mécanisme de bras articulés y vaut mieux que n'importe quelle explication écrite : on comprend en trois minutes comment une dépêche traversait le pays en quelques heures avant l'électricité, et pourquoi le système est mort si vite quand le télégraphe électrique est arrivé. La position, sur la même crête que le château, n'est évidemment pas un hasard."
+      },
+      {
+        heading: "7. La maison Katz",
+        body: "Bâtie en 1605 par Henri Katz, receveur général de l'évêché, c'est l'une des plus anciennes maisons de la ville : une façade à colombages ouvragés, avec un travail de sculpture sur bois qui n'a rien de rustique et beaucoup de la Renaissance rhénane. Elle abrite aujourd'hui un restaurant, ce qui est la meilleure et la pire des nouvelles : on peut y entrer, mais on n'y entre pas pour l'architecture. La façade se regarde depuis la Grand-Rue, gratuitement, et c'est déjà l'essentiel."
+      },
+      {
+        heading: "8. Le jardin botanique du col de Saverne",
+        body: "À trois cent trente-cinq mètres d'altitude, sur le versant du col, deux hectares et demi ont été aménagés en 1931 par des naturalistes parmi lesquels le botaniste Émile Walter, mort en 1953. Le jardin est organisé par secteurs de classification et présente sa collection d'orchidées indigènes comme la plus importante de France, avec une vingtaine d'espèces. S'y ajoutent une collection de fougères, un secteur de plantes alpines et une tourbière reconstituée pour les plantes carnivores. C'est petit, sérieux, et à contre-courant des grands jardins spectaculaires : on y va pour regarder de près, pas pour la vue."
+      },
+      {
+        heading: "9. Le canal, et le plan incliné accessible depuis Saverne",
+        body: "Le canal de la Marne au Rhin traverse la ville au pied du château, et son halage se marche ou se pédale sans dénivelé. À une vingtaine de kilomètres vers l'ouest, sur la commune de Saint-Louis, en Moselle, le plan incliné de Saint-Louis-Arzviller est un ascenseur à bateaux transversal mis en service le 27 janvier 1969. Il remplace une échelle de dix-sept écluses réparties sur quatre kilomètres, qui demandait une journée entière de navigation, et franchit un dénivelé de l'ordre de quarante-cinq mètres en quelques minutes. L'ouvrage est sur une autre commune et dans un autre département : c'est une excursion, pas une promenade de fin d'après-midi."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Saverne est sur la ligne de Paris à Strasbourg et la gare est à quelques minutes à pied du château, ce qui permet d'y venir sans voiture sans perdre une heure en correspondances. Une journée suffit largement pour le château, le musée, la maison Katz et le canal. Une deuxième si l'on ajoute le Haut-Barr, le télégraphe et le jardin botanique, qui sont tous les trois sur la hauteur et se combinent en une demi-journée avec un véhicule. La roseraie impose sa saison, de l'été au début de l'automne. En hiver, la ville est calme et une partie des sites de hauteur ferme ou devient difficile d'accès."
+      }
+    ],
+    relatedCities: ["saverne", "strasbourg", "haguenau", "sarrebourg"],
+    relatedGuides: [
+      "10-choses-a-faire-a-strasbourg-2026",
+      "10-choses-a-faire-a-haguenau-2026",
+      "10-choses-a-faire-a-selestat-2026",
+      "10-choses-a-faire-a-obernai-2026"
+    ],
+    tags: ["10 choses à faire à Saverne", "activités Saverne 2026", "que faire dans le Bas-Rhin", "sorties Alsace châteaux", "château des Rohan roseraie Haut-Barr télégraphe Chappe"]
+  },
+  {
+    slug: "10-choses-a-faire-a-aubusson-2026",
+    title: "10 choses à faire à Aubusson",
+    metaTitle: "10 choses à faire à Aubusson en 2026",
+    metaDesc:
+      "Un savoir-faire inscrit à l'UNESCO en 2009, une cité de la tapisserie ouverte en 2016, Tolkien tissé pendant sept ans : 10 activités à Aubusson.",
+    category: "tourisme",
+    emoji: "🧵",
+    readMinutes: 7,
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    intro:
+      "Il faut donner le chiffre avant de vanter quoi que ce soit. Aubusson comptait 3 036 habitants au recensement de 2022, contre 3 400 en 2016 et 3 716 en 2011 : un recul de 18,3 % sur onze ans, soit six cent quatre-vingts habitants de moins. C'est la dernière des trois communes de la Creuse que suit ce site, et les trois reculent, Guéret de 5,5 % et La Souterraine de 11,6 %. La capitale mondiale d'un savoir-faire inscrit par l'UNESCO est donc un bourg de trois mille âmes qui en perd un cinquième en onze ans, avec un mètre carré de référence autour de huit cents euros : sur les 540 communes que suit ce site, seule Mauriac, dans le Cantal, est en dessous, et La Souterraine est au même niveau. Cela ne rend pas la visite moins intéressante : cela explique pourquoi on y croise des ateliers et pas des boutiques de souvenirs.",
+    sections: [
+      {
+        heading: "1. La Cité internationale de la tapisserie",
+        body: "Elle a ouvert en juillet 2016, inaugurée le 10 juillet, dans les anciens locaux de l'École nationale d'art décoratif d'Aubusson, et elle est à la fois un musée, un lieu de création et un outil de transmission. Le parcours ne se contente pas d'aligner des tentures anciennes : il montre comment on passe d'un carton à une pièce tissée, ce que fait un lissier, pourquoi la basse lisse d'Aubusson n'est pas la haute lisse des Gobelins, et comment une commande contemporaine se fabrique aujourd'hui. Le syndicat mixte qui porte l'établissement a été créé en 2010, en réponse directe à l'inscription du savoir-faire sur la liste de l'UNESCO l'année précédente."
+      },
+      {
+        heading: "2. Ce que l'inscription UNESCO recouvre, et ce qu'elle ne recouvre pas",
+        body: "La tapisserie d'Aubusson est inscrite depuis 2009 au patrimoine culturel immatériel de l'humanité. Le mot immatériel est le point important et il est presque toujours mal lu : ce n'est pas un monument qui est protégé, c'est un savoir-faire, celui de gens vivants qui l'exercent encore. Il n'y a donc rien à visiter de l'inscription elle-même, et aucun bâtiment n'en porte le label. Ce qu'on vient voir, ce sont des ateliers en activité et des œuvres. C'est exactement la même logique que pour le carnaval de Granville ou les savoir-faire gastronomiques : l'inscription reconnaît une pratique, pas une pierre."
+      },
+      {
+        heading: "3. Aubusson tisse Tolkien",
+        body: "En janvier 2017, la Cité signe un accord avec la Tolkien Estate pour tisser une série de pièces à partir de l'œuvre graphique de l'écrivain, et non à partir d'illustrations réalisées par d'autres : des dessins offerts par Tolkien à ses enfants à Noël, des illustrations du Hobbit et du Seigneur des anneaux. Sept ateliers et manufactures de la région ont travaillé sur le chantier, achevé en 2024 après sept ans. Une réserve honnête : les sources divergent sur le décompte exact de l'ensemble, entre treize et quatorze tentures murales, un ou deux tapis, et sur la surface totale tissée. Ce guide ne tranche pas ce que les publications ne tranchent pas. Les pièces sont présentées par rotation et prêtées à d'autres institutions : on vérifie ce qui est accroché avant de venir pour elles."
+      },
+      {
+        heading: "4. Les ateliers en activité",
+        body: "C'est ce qui distingue Aubusson d'un musée de province : la fabrication n'a pas cessé. Des ateliers de lissiers, des teinturiers et des filatures travaillent dans la ville et aux alentours, sur des commandes contemporaines comme sur des restaurations. Plusieurs ouvrent leurs portes, à des jours et des horaires qui n'ont rien d'un équipement public et qui changent selon les chantiers en cours. L'office de tourisme tient la liste à jour, et c'est par lui qu'il faut passer plutôt que de se présenter devant une porte. Voir un métier à basse lisse en fonctionnement prend vingt minutes et rend tout le reste de la visite lisible."
+      },
+      {
+        heading: "5. La Maison du Tapissier",
+        body: "La bâtisse date des XVe et XVIe siècles et passe pour la plus ancienne maison de la ville : tourelle circulaire, porte rectangulaire à chanfrein, fenêtre de boutique en arc surbaissé. Elle a appartenu au XVIe siècle à la famille Corneille, lissiers et jurés-gardes de la manufacture royale, c'est-à-dire chargés de contrôler la qualité des pièces produites. L'intérieur présente un logis de tapissier reconstitué et un atelier. C'est l'endroit où l'on comprend que la tapisserie n'était pas un art mais un métier organisé, avec ses règlements, ses contrôleurs et ses conflits, et que la ville entière vivait de cette organisation."
+      },
+      {
+        heading: "6. Le pont de la Terrade",
+        body: "Il date du XVIe siècle et fut longtemps le seul passage sur la Creuse. Le quartier qu'il dessert, la Terrade, était celui des teinturiers : on y travaillait au bord de l'eau parce que la teinture en consomme et en rejette énormément, et la topographie de la ville raconte cette division du travail mieux qu'un panneau. Depuis le pont, on a la meilleure vue sur les maisons accrochées à la pente et sur la rivière qui a fait la réputation des laines d'ici. C'est aussi le point de départ le plus commode pour remonter vers la vieille ville à pied."
+      },
+      {
+        heading: "7. La tour de l'Horloge et la vieille ville",
+        body: "Ancienne tour de guet, elle domine le bourg et offre le panorama qui manque quand on circule au fond de la vallée. Autour, les ruelles montantes, les escaliers et les maisons à échoppes se parcourent en une heure. Il faut regarder les fenêtres : beaucoup sont larges et basses, dimensionnées pour éclairer un métier à tisser installé au rez-de-chaussée, et c'est le détail qui trahit une ville d'atelier plutôt qu'une ville de commerce. Le contraste avec l'état actuel de la démographie est saisissant, et il ne sert à rien de le masquer : Aubusson est un bourg bâti pour plus d'habitants qu'il n'en a."
+      },
+      {
+        heading: "8. L'église Sainte-Croix",
+        body: "Bâtie au XIIIe siècle par les vicomtes d'Aubusson, c'est le plus ancien édifice important de la ville et le plus sobre. Elle n'a rien de spectaculaire et c'est très bien ainsi : après une journée passée devant des pièces tissées de plusieurs mètres, un vaisseau nu et froid remet les proportions en place. Elle conserve quelques tapisseries, ce qui est la manière la plus juste de les voir, puisque c'est bien pour des murs comme ceux-là qu'elles ont d'abord été faites, avant les musées et les vitrines climatisées."
+      },
+      {
+        heading: "9. Felletin, accessible depuis Aubusson",
+        body: "Dix kilomètres au sud, Felletin revendique le titre de berceau de la tapisserie, que les deux communes se disputent avec constance. On y trouve des ateliers en activité, l'église gothique Notre-Dame-du-Château et l'église Sainte-Valérie du Moutier, dont le clocher se monte pour un panorama sur le plateau de Millevaches. Un avertissement sur une confusion fréquente : la vallée des peintres, celle de Crozant et de Fresselines où Monet a séjourné en 1889 et où Armand Guillaumin est revenu pendant trente ans, est dans le nord du département, à plus d'une heure de route d'Aubusson. C'est une autre journée et presque un autre pays."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "C'est la vraie difficulté et il faut la dire avant, pas après : Aubusson est à l'écart des grands axes, au fond de la vallée de la Creuse, et notre relevé d'accessibilité la place parmi les communes les moins bien desservies du corpus. L'accès se fait en voiture, ou par car depuis Limoges et Guéret ; la desserte ferroviaire de la Creuse a beaucoup changé et se vérifie avant de bâtir un voyage dessus. Une journée pleine suffit pour la Cité, la Maison du Tapissier, la vieille ville et un atelier. Deux si l'on ajoute Felletin et une marche dans la vallée. La bonne saison va d'avril à octobre ; l'hiver est rude sur ce plateau et une partie des ateliers ferme."
+      }
+    ],
+    relatedCities: ["aubusson", "gueret", "limoges", "tulle"],
+    relatedGuides: [
+      "10-choses-a-faire-a-gueret-2026",
+      "10-choses-a-faire-a-limoges-2026",
+      "10-choses-a-faire-a-tulle-2026",
+      "10-choses-a-faire-a-moulins-2026"
+    ],
+    tags: ["10 choses à faire à Aubusson", "activités Aubusson 2026", "que faire dans la Creuse", "sorties Nouvelle-Aquitaine artisanat", "tapisserie UNESCO Tolkien Felletin pont de la Terrade"]
+  },
+  {
+    slug: "10-choses-a-faire-a-douarnenez-2026",
+    title: "10 choses à faire à Douarnenez",
+    metaTitle: "10 choses à faire à Douarnenez en 2026",
+    metaDesc:
+      "Des cuves à garum du Ier siècle, un musée où les bateaux flottent, le berceau du kouign-amann : 10 activités à Douarnenez, dans le Finistère.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    intro:
+      "Douarnenez comptait 14 188 habitants au recensement de 2022, contre 14 063 en 2016 et 14 815 en 2011, soit un recul de 4,2 % sur onze ans. C'est la dernière des cinq communes du Finistère que suit ce site : Concarneau gagne 9,6 % sur la même période, Quimper 2,0 %, Brest 0,3 %, et Morlaix perd 2,1 %. C'est aussi la moins chère des cinq dans nos relevés, avec un mètre carré de référence autour de 1 600 € contre 2 800 € à Quimper. Ces deux chiffres disent la même chose et il vaut mieux l'entendre avant d'arriver : Douarnenez n'est pas une station, c'est un port de pêche qui a perdu son industrie et qui n'a pas été repeint pour les visiteurs. C'est précisément ce qui en fait l'un des endroits les plus intéressants de la côte sud du Finistère.",
+    sections: [
+      {
+        heading: "1. Le Port-Musée",
+        body: "Inauguré en mai 1993, il occupe le Port-Rhu, l'ancien estuaire du Pouldavid, et se distingue de la plupart des musées maritimes français par une chose simple : une partie de la collection flotte. Depuis les pontons et le quai, on visite huit bateaux de pêche et de cabotage, dont certains intégralement, cale comprise. Monter dans un bateau de travail amarré dans l'eau où il a travaillé n'a rien à voir avec regarder une coque posée sur un socle dans un hangar, et c'est l'argument du lieu. Les collections à terre complètent avec les métiers, les outils et les gréements."
+      },
+      {
+        heading: "2. La sardine et les conserveries",
+        body: "Une partie du musée est consacrée aux conserveries, qui ont fait la ville et l'ont défaite. Douarnenez a été, pendant des décennies, l'un des grands ports sardiniers français, avec des dizaines d'usines le long des quais et une main-d'œuvre très largement féminine. C'est l'histoire sociale qui rend ce passage intéressant : les conditions de travail, les grèves, les rythmes imposés par l'arrivée du poisson. Quelques conserveries fonctionnent encore dans la ville et vendent sur place ; elles ne sont pas un décor patrimonial mais des entreprises, avec des horaires de commerce et non de musée."
+      },
+      {
+        heading: "3. Les Plomarc'h et les cuves à garum",
+        body: "Au bout du sentier des Plomarc'h, à la sortie de la ville, on marche au milieu des vestiges d'un établissement romain de salaison de poisson bâti au Iᵉʳ siècle après J.-C. On y produisait du garum, de l'alec et du liquamen, ces condiments fermentés dont l'Empire était friand. Une réserve : les publications divergent sur le nombre de cuves maçonnées mises au jour, entre une quinzaine et une trentaine selon les sources et selon ce qu'on décide de compter. Ce qui ne fait pas débat, c'est que le site est l'un des mieux conservés de la façade atlantique, et qu'il est en accès libre, au bord de la mer, gratuitement."
+      },
+      {
+        heading: "4. L'île Tristan",
+        body: "Elle est à quelques dizaines de mètres du rivage et ne s'atteint qu'à marée basse, en visite guidée. Ce n'est pas une contrainte administrative arbitraire : le passage se referme, et l'île se visite sur réservation, aux dates où le coefficient de marée le permet. On y trouve un jardin botanique aux essences exotiques, des vergers inattendus et des vestiges de fortifications. L'ensemble tient de l'île-jardin plus que de l'île sauvage, et le fait qu'on n'y accède pas quand on veut fait partie de ce qui la rend mémorable. Les créneaux se prennent auprès de l'office de tourisme, souvent plusieurs jours à l'avance en été."
+      },
+      {
+        heading: "5. Les trois ports",
+        body: "La ville en aligne trois, et les confondre est la meilleure manière de rater son séjour. Rosmeur est le port de pêche, avec la criée, les casiers et les cafés qui ouvrent tôt. Port-Rhu, dans la ria, abrite le musée et ses bateaux à flot. Tréboul, de l'autre côté, est le port de plaisance, adossé à un quartier qui était une commune à part avant d'être rattaché. Les trois se rejoignent à pied, par le pont et les quais, et la promenade complète prend une bonne heure. C'est le meilleur plan de la ville : il suffit de suivre l'eau."
+      },
+      {
+        heading: "6. Le kouign-amann",
+        body: "Il est né ici, vers 1860, et la tradition locale l'attribue au boulanger Yves-René Scordia, qui aurait improvisé avec ce qu'il avait sous la main un jour d'affluence : de la pâte à pain, du beurre et du sucre, feuilletés par pliages successifs. L'anecdote est une tradition et ce guide ne la donne pas pour davantage. Le nom, lui, est littéral : kouign veut dire gâteau et amann beurre, en breton. La recette de Douarnenez repose sur un rapport de quarante pour cent de pâte à pain, trente de beurre et trente de sucre, et l'appellation Véritable Kouign Amann de Douarnenez a été déposée à l'INPI le 15 décembre 1999. Plusieurs maisons de la ville le font ; il se mange tiède."
+      },
+      {
+        heading: "7. Temps Fête, une année sur deux",
+        body: "Les fêtes maritimes de Douarnenez existent depuis 1986, année où s'est tenu ici le premier rassemblement national de voiliers du patrimoine en France. Elles réunissent plusieurs centaines de bateaux traditionnels autour du port de Rosmeur pendant quatre jours, avec navigations, concerts et ateliers de charpente marine, de matelotage, de forge, de ramendage et de voilerie. Point à ne pas rater : la manifestation est biennale et tombe les années paires. L'édition 2026, la quarantième, s'est tenue du 23 au 26 juillet ; la suivante est donc attendue en 2028, et il n'y a rien en 2027. Une page qui promet le contraire recopie une édition passée."
+      },
+      {
+        heading: "8. Les plages et le sentier côtier",
+        body: "La plage des Sables Blancs, à Tréboul, est la principale de la commune et la mieux abritée. Le GR 34, l'ancien sentier des douaniers, passe par la commune et permet de sortir de la ville à pied dans les deux directions, vers le cap Sizun d'un côté, vers la pointe de Leydé de l'autre. Deux règles valent ici comme ailleurs sur cette côte et ne sont pas des conseils : on se baigne dans les zones surveillées quand elles le sont, en respectant la signalisation par drapeaux, qui est réglementaire, et on reste sur le sentier balisé au-dessus des falaises. La météo tourne vite dans la baie."
+      },
+      {
+        heading: "9. La baie, et la ville d'Ys",
+        body: "La baie de Douarnenez est vaste, peu profonde et très ouverte, ce qui en fait un plan d'eau recherché des navigateurs et un abri relatif seulement. C'est là que la tradition bretonne situe la ville d'Ys, engloutie par les flots, dont le roi Gradlon aurait seul réchappé. Il n'y a rien à visiter, aucun vestige, aucune preuve : c'est une légende, transmise par des textes bien postérieurs, et la dire pour ce qu'elle est vaut mieux que d'envoyer quelqu'un chercher des ruines sous l'eau. Elle a en revanche nourri quantité de musique, de peinture et de littérature, et l'on en trouve la trace partout en ville."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Il n'y a plus de train ici : la ligne de Quimper a fermé aux voyageurs le 6 mars 1972 et aux marchandises en 1988, et il ne reste ni voie ni gare à Tréboul. On arrive par la gare de Quimper, où des cars régionaux prennent le relais, l'arrêt de Douarnenez se trouvant à l'office de tourisme ; les horaires se vérifient avant de partir. En voiture, la ville est au fond de sa baie, à l'écart de la quatre voies. Une journée suffit pour le Port-Musée, les Plomarc'h et le tour des trois ports. Deux si l'on ajoute l'île Tristan, qui dépend des marées, et une marche sur le GR 34. La bonne saison va de mai à septembre ; les fêtes maritimes, les années paires, remplissent la ville et les hébergements plusieurs mois à l'avance. Hors saison, le port travaille toujours, ce qui n'est pas le cas partout sur cette côte."
+      }
+    ],
+    relatedCities: ["douarnenez", "quimper", "concarneau", "brest"],
+    relatedGuides: [
+      "10-choses-a-faire-a-quimper-2026",
+      "10-choses-a-faire-a-concarneau-2026",
+      "10-choses-a-faire-a-brest-2026",
+      "10-choses-a-faire-a-morlaix-2026"
+    ],
+    tags: ["10 choses à faire à Douarnenez", "activités Douarnenez 2026", "que faire dans le Finistère", "sorties Bretagne port", "Port-Musée Plomarc'h kouign-amann île Tristan"]
+  },
+  {
+    slug: "10-choses-a-faire-a-quiberon-2026",
+    title: "10 choses à faire à Quiberon",
+    metaTitle: "10 choses à faire à Quiberon en 2026",
+    metaDesc:
+      "Une côte où la baignade est interdite par arrêté, l'embarcadère de Belle-Île, la thalasso de 1964 : 10 activités à Quiberon, dans le Morbihan.",
+    category: "tourisme",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    intro:
+      "Quiberon comptait 4 782 habitants au recensement de 2022, contre 4 842 en 2016 et 5 028 en 2011 : un recul de 4,9 % sur onze ans, le plus fort des cinq communes du Morbihan que suit ce site, devant Carnac qui perd 0,3 % pendant que Lanester gagne 4,6 %, Vannes 4,1 % et Lorient 1,4 %. Et pourtant c'est la deuxième commune la plus chère des cinq dans nos relevés, avec un mètre carré de référence autour de 3 600 € et un T3 autour de 1 100 €, juste derrière Vannes. Une commune chère qui perd des résidents n'est pas une contradiction : c'est la signature d'une station, où ce que le marché achète est une résidence secondaire et non un domicile. Carnac, à côté, présente exactement le même profil. Le reste tient en une interdiction municipale qu'il faut lire avant de poser sa serviette.",
+    sections: [
+      {
+        heading: "1. La Côte Sauvage, et l'interdiction de baignade",
+        body: "C'est le paysage qui fait la réputation de la presqu'île : une dizaine de kilomètres de côte occidentale battue par la houle, falaises basses, arches, criques et landes rases. Et c'est aussi le point à comprendre avant tout le reste. La baignade est interdite sur toute la Côte Sauvage par arrêté municipal, l'arrêté n° 128/2021 du 20 avril 2021. Ce n'est pas un conseil de prudence, c'est une règle opposable, prise à cause des courants et de la houle, qui se lève en quelques minutes sur une mer qui paraissait calme. On s'y promène, on y regarde, on n'y nage pas. Les plages surveillées sont sur l'autre côte."
+      },
+      {
+        heading: "2. La presqu'île, et son isthme",
+        body: "Quiberon n'est presque pas une presqu'île : le cordon de sable qui la rattache au continent se réduit par endroits à quelques dizaines de mètres, avec la route d'un côté et la mer des deux. C'est une géographie rare en France métropolitaine et elle explique tout le reste, du climat à la circulation. L'ancienne île s'est soudée au continent par accumulation sédimentaire, et le cordon reste un objet mouvant, protégé, que la mer entame par gros temps. On le franchit en voiture, en train ou à vélo, et ce passage entre deux mers donne le ton du séjour."
+      },
+      {
+        heading: "3. Le fort de Penthièvre, qui n'est pas à Quiberon",
+        body: "Le fort commande l'isthme, mais il relève de la commune de Saint-Pierre-Quiberon et non de Quiberon : la distinction a son importance pour qui prépare un itinéraire. Sa construction est décidée en 1747, après le siège de Lorient et le pillage de la presqu'île l'année précédente, dans le cadre du renforcement des côtes du sud de la Bretagne ; il porte le nom du duc de Penthièvre, alors gouverneur de Bretagne. L'armée allemande l'a occupé et intégré au mur de l'Atlantique. Un avertissement qui n'est pas négociable : le fort est aujourd'hui un terrain militaire, base d'entraînement du 3ᵉ régiment d'infanterie de marine de Vannes depuis 1969, et il ne se visite pas."
+      },
+      {
+        heading: "4. Le mémorial des fusillés de 1944",
+        body: "Ce que l'on peut approcher au fort, c'est la mémoire. Cinquante-neuf résistants y sont morts entre avril et juillet 1944, dont cinquante le 13 juillet ; plusieurs dizaines de corps ont été retrouvés dans une galerie de mine du fort, transformée depuis en crypte. Un monument a été élevé après la guerre sur la partie haute du glacis, et une cérémonie s'y tient chaque 13 juillet, suivie d'une messe dans le fossé, près de la galerie. L'obélisque et le secteur du mémorial, avec leurs plaques explicatives, sont accessibles, contrairement à l'ouvrage lui-même. C'est le lieu le plus grave de la presqu'île, et celui devant lequel passent le plus de gens sans s'arrêter."
+      },
+      {
+        heading: "5. Le désastre de 1795",
+        body: "Le 27 juin 1795, une flotte britannique débarque plus de quatre mille émigrés sur la plage de Carnac, dans la baie. Ils sont rejoints par des royalistes commandés par Georges Cadoudal, s'emparent d'Auray, puis se replient sur la presqu'île. Le général Hoche reprend Auray, bloque l'isthme et attaque le fort Penthièvre sous le feu des navires anglais. L'assaut final du 21 juillet provoque la déroute de l'armée royaliste. C'est l'un des épisodes les plus meurtriers de la Chouannerie, et il s'est joué sur ce cordon de sable de quelques dizaines de mètres de large, ce qui rend la géographie de la section 2 beaucoup moins abstraite."
+      },
+      {
+        heading: "6. Port-Maria et la traversée vers Belle-Île",
+        body: "La gare maritime de Port-Maria est le principal point d'embarquement pour Belle-Île-en-Mer. La traversée jusqu'au Palais dure environ cinquante minutes toute l'année, et une trentaine de minutes en navette rapide l'été. Deux conseils pratiques qui évitent les mauvaises surprises : la réservation est indispensable en saison, et embarquer une voiture relève d'une démarche à part, contingentée et coûteuse, que l'on évite en louant un vélo sur place. Le port est aussi celui de la pêche locale, ce qui en fait le meilleur endroit de la commune pour manger du poisson sans mise en scène."
+      },
+      {
+        heading: "7. Houat et Hoëdic",
+        body: "Les deux petites îles du même archipel se rejoignent depuis Port-Maria, et elles offrent l'exact contraire de Belle-Île : pas de voiture, très peu d'habitants à l'année, des plages de sable blanc et un village par île. Houat est la plus grande des deux, Hoëdic la plus intime. On y va à la journée, et il faut surveiller l'heure du dernier retour plutôt que de compter sur une solution de repli, car il n'y en a pas. En cas de mer formée, les rotations peuvent être suspendues : ce n'est pas anecdotique, et cela s'anticipe si l'on n'a pas prévu de dormir sur place."
+      },
+      {
+        heading: "8. La thalasso, et pourquoi elle est ici",
+        body: "L'institut de thalassothérapie de Quiberon a été fondé en mai 1964 par Louison Bobet, triple vainqueur du Tour de France, dont la carrière s'était arrêtée fin 1961 sur un accident de voiture où il s'était fracturé le fémur et la cheville. C'est pendant sa rééducation, soigné à Roscoff par le docteur René Bagot, qu'il s'est convaincu de l'effet de l'eau de mer et a décidé d'en faire un établissement. C'est l'un des actes fondateurs de la thalassothérapie en France, et cela explique que cette commune de moins de cinq mille habitants porte une activité de cette ampleur. Un mot de vocabulaire utile : la thalassothérapie utilise l'eau de mer prélevée sur place et chauffée, ce qui n'a rien à voir avec le thermalisme, qui exploite une eau minérale d'origine souterraine. Les deux se confondent souvent dans les brochures."
+      },
+      {
+        heading: "9. Les plages abritées, le GR 34 et le vélo",
+        body: "Toute la côte orientale, celle qui regarde la baie, est l'inverse de la Côte Sauvage : des plages de sable, une mer plus calme, et des postes de surveillance en saison, avec une signalisation par drapeaux qui est réglementaire et fait foi. Le GR 34 fait le tour complet de la presqu'île, ce qui en fait l'une des boucles les plus faciles à organiser du sentier : on part de chez soi et on revient au même endroit. Des pistes cyclables doublent une partie du parcours. C'est la meilleure manière d'échapper à la circulation, qui est le principal défaut de l'endroit en juillet et en août."
+      },
+      {
+        heading: "10. Y aller, et quand",
+        body: "En juillet et en août, une navette ferroviaire appelée le Tire-Bouchon relie Auray à Quiberon et longe la baie : c'est la solution qui évite l'unique route de l'isthme, saturée en pleine saison et sans itinéraire de contournement possible, puisqu'il n'y en a pas d'autre. Hors de ces deux mois, l'accès se fait en car depuis Auray ou en voiture. Deux jours suffisent pour la Côte Sauvage, le mémorial et les plages. Trois ou quatre avec Belle-Île, qui mérite une journée entière et non une demi-journée. Mai, juin et septembre offrent la même presqu'île sans la file d'attente à l'embarquement, et l'eau y est plus agréable en septembre qu'en juin."
+      }
+    ],
+    relatedCities: ["quiberon", "carnac", "vannes", "lorient"],
+    relatedGuides: [
+      "10-choses-a-faire-a-carnac-2026",
+      "10-choses-a-faire-a-vannes-2026",
+      "10-choses-a-faire-a-lorient-2026",
+      "10-choses-a-faire-a-douarnenez-2026"
+    ],
+    tags: ["10 choses à faire à Quiberon", "activités Quiberon 2026", "que faire dans le Morbihan", "sorties Bretagne littoral", "Côte Sauvage Belle-Île fort de Penthièvre thalassothérapie"]
+  },
+  {
+    slug: "10-choses-a-faire-a-moissac-2026",
+    title: "10 choses à faire à Moissac",
+    metaTitle: "10 choses à faire à Moissac en 2026",
+    metaDesc:
+      "Un cloître de 1100 sauvé du chemin de fer, un tympan de l'Apocalypse, un quartier Art déco né d'une crue : 10 activités à Moissac.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    intro:
+      "Moissac comptait 13 652 habitants au recensement de 2022, contre 12 652 en 2016 et 12 365 en 2011, soit une progression de 10,4 % sur onze ans. C'est la deuxième des trois communes de Tarn-et-Garonne que suit ce site, à un dixième de point de Montauban qui gagne 10,5 %, devant Castelsarrasin et ses 9,8 %. Les trois gagnent des habitants, ce qui devient assez rare dans les départements de cette taille pour mériter d'être dit, et Moissac le fait avec un mètre carré de référence autour de 1 500 € contre 2 200 € à Montauban. Deux faits font la ville, et ils sont à un siècle de distance : un cloître de 1100 qu'une compagnie de chemin de fer a failli raser, et une crue qui a fait quelque cent vingt morts en une nuit de mars 1930 et reconstruit quatre quartiers en Art déco.",
+    sections: [
+      {
+        heading: "1. Le cloître",
+        body: "Il est daté avec certitude de 1100, ce qui est exceptionnel pour un ensemble de cette nature, et il compte soixante-seize chapiteaux dont quarante-six sont historiés, c'est-à-dire sculptés de scènes bibliques et de figures plutôt que de motifs. On en fait le tour lentement, chapiteau par chapiteau, autour d'un jardin central, et c'est la seule bonne manière de le visiter : la valeur du lieu est dans le détail, pas dans le volume. C'est l'un des grands repères de la sculpture romane en Europe, et il faut compter une heure au minimum pour que la visite ait un sens."
+      },
+      {
+        heading: "2. Il a failli disparaître, et il en manque une partie",
+        body: "Au milieu du XIXe siècle, le tracé prévu de la ligne ferroviaire de Bordeaux à Sète passait par le cloître, dont la démolition complète était programmée. Une série de protestations l'a sauvé au dernier moment, et la voie a été déviée : elle fait aujourd'hui une courbe pour le contourner, ce qui se voit sur une carte. Mais le sauvetage a eu un prix, et il est rarement mentionné : le grand réfectoire et les cuisines des moines, au nord, ont été sacrifiés. Ce qu'on visite est donc un survivant amputé, et savoir ce qui manque change la manière de regarder ce qui reste."
+      },
+      {
+        heading: "3. Le tympan du portail sud",
+        body: "C'est la pièce maîtresse de Moissac et elle se regarde depuis la rue, avant même d'entrer. Sculpté dans la première moitié du XIIe siècle, le tympan illustre la vision de saint Jean dans l'Apocalypse : le Christ en majesté entouré des quatre vivants et des vingt-quatre vieillards. La composition, les proportions étirées des figures et le trumeau qui soutient le linteau sont étudiés partout où l'on enseigne l'art roman. Il est en plein air, donc gratuit, et exposé aux intempéries depuis neuf siècles, ce qui explique les campagnes de restauration successives : une partie peut être sous protection ou sous échafaudage."
+      },
+      {
+        heading: "4. L'abbatiale Saint-Pierre et l'inscription UNESCO",
+        body: "L'abbaye est fondée au VIIIe siècle, rattachée en 1047 à la puissante abbaye de Cluny, et devient au XIIe siècle le principal centre monastique du sud-ouest de la France. L'église mêle roman et gothique dans le même vaisseau, la partie haute ayant été rebâtie en brique, ce qui produit un contraste franc avec la pierre du portail. L'abbatiale et son cloître sont inscrits depuis 1998 sur la liste du patrimoine mondial de l'UNESCO au titre des chemins de Saint-Jacques-de-Compostelle en France : Moissac est une étape de la via Podiensis, que suit aujourd'hui le sentier de grande randonnée 65."
+      },
+      {
+        heading: "5. La crue de mars 1930",
+        body: "Dans la nuit du 3 au 4 mars 1930, après des pluies torrentielles, le Tarn emporte une digue et submerge la ville. Le bilan est de l'ordre de cent vingt morts dans une commune qui comptait alors quelque sept mille quatre cents habitants, et plus de six cents maisons détruites. Les sources publiées divergent sur les chiffres exacts, certaines comptant cent trente morts, d'autres évaluant à quatorze cents le nombre de maisons à rebâtir : ce guide donne l'ordre de grandeur et ne tranche pas ce que les bilans n'ont pas tranché. L'eau s'est engouffrée dans le quartier Sainte-Blanche en contournant les digues par une trouée du passage sous la route de Montauban."
+      },
+      {
+        heading: "6. Les quartiers Art déco",
+        body: "C'est la conséquence directe de la section précédente, et c'est ce qu'on ne s'attend pas à trouver ici. La reconstruction, financée par une solidarité nationale et internationale, a été confiée à une douzaine d'architectes toulousains qui ont apporté le style de leur époque. Quatre quartiers ont été rebâtis, et près d'une centaine de maisons sont en Art déco : façades à pans coupés, ouvertures géométriques, frontons pyramidaux, frises de fleurs stylisées. Une ville dont on vient voir le roman et dont une part substantielle du bâti date de 1930, cela mérite qu'on lève les yeux au-delà de l'abbatiale. La commune porte le label Ville d'art et d'histoire depuis 2012 et propose des parcours guidés sur ce thème."
+      },
+      {
+        heading: "7. L'Uvarium et la cure uvale",
+        body: "Bâti en 1932 au bord du Tarn, l'Uvarium est un pavillon octogonal à quatre grandes baies et quatre entrées voûtées, surmontées de fresques de ceps entrelacés. Sa façade porte l'inscription Don de la Ville de Paris, 1930, qui dit d'où venait l'argent. Il servait à déguster le raisin : Moissac est devenue station uvale en 1931, c'est-à-dire un lieu où l'on venait pratiquer la cure de raisin, une monodiète qui a eu son heure de gloire entre les deux guerres et dont le Moulin de Moissac était l'hôtel. Le mot vient du latin uva, raisin. Le pavillon a retrouvé un usage de guinguette en été."
+      },
+      {
+        heading: "8. Le chasselas",
+        body: "C'est un raisin de table blanc, cultivé sur les coteaux qui dominent la ville, et il bénéficie d'une appellation d'origine protégée depuis 1996 au niveau européen, après une reconnaissance nationale obtenue dans les années 1970 dont les sources ne donnent pas toutes la même date. Il se reconnaît à ses grains dorés et à ses grappes que les producteurs ciselent à la main, grain par grain, avant expédition. La récolte s'étale de la fin de l'été au début de l'automne, et c'est évidemment le moment pour l'acheter sur le marché plutôt qu'ailleurs. La culture du chasselas de Moissac figure à l'inventaire national du patrimoine culturel immatériel."
+      },
+      {
+        heading: "9. Le pont-canal du Cacor",
+        body: "Il porte le canal latéral à la Garonne au-dessus du Tarn, sur trois cent cinquante-six mètres de long et huit mètres trente-cinq de large, reposant sur quatorze piles. Construit en 1844 et 1845 en brique de Toulouse et en pierre du Quercy par l'ingénieur François Terrié, c'est l'un des plus longs ouvrages de ce type en France, et l'on peut le traverser à pied ou à vélo par le chemin de halage, ce qui produit la sensation étrange de marcher au-dessus d'une rivière à côté d'un bateau. Le canal lui-même traverse Moissac et se suit sans dénivelé vers Castelsarrasin ou vers Agen."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Moissac a une gare sur la ligne de Bordeaux à Sète, celle-là même qui a failli emporter le cloître, avec des liaisons régionales vers Agen, Montauban et Toulouse ; la fréquence est celle d'une gare moyenne et se vérifie avant de bâtir une journée dessus. Le centre historique est à un quart d'heure à pied. Une journée suffit pour le cloître, le tympan, l'abbatiale et une boucle dans les quartiers Art déco. Deux si l'on ajoute le canal, les coteaux et un marché. La meilleure période va d'avril à octobre, avec une préférence marquée pour septembre, quand le chasselas est récolté et que la chaleur de la vallée de la Garonne est retombée."
+      }
+    ],
+    relatedCities: ["moissac", "montauban", "agen", "cahors"],
+    relatedGuides: [
+      "10-choses-a-faire-a-montauban-2026",
+      "10-choses-a-faire-a-agen-2026",
+      "10-choses-a-faire-a-cahors-2026",
+      "10-choses-a-faire-a-toulouse-2026"
+    ],
+    tags: ["10 choses à faire à Moissac", "activités Moissac 2026", "que faire en Tarn-et-Garonne", "sorties Occitanie art roman", "cloître roman tympan Art déco chasselas pont-canal"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

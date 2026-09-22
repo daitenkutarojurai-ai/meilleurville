@@ -9042,6 +9042,41 @@
       "slug": "10-choses-a-faire-a-ceret-2026",
       "title": "10 choses à faire à Céret",
       "emoji": "🍒"
+    },
+    {
+      "slug": "10-choses-a-faire-a-selestat-2026",
+      "title": "10 choses à faire à Sélestat",
+      "emoji": "📚"
+    },
+    {
+      "slug": "10-choses-a-faire-a-obernai-2026",
+      "title": "10 choses à faire à Obernai",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saverne-2026",
+      "title": "10 choses à faire à Saverne",
+      "emoji": "🌹"
+    },
+    {
+      "slug": "10-choses-a-faire-a-aubusson-2026",
+      "title": "10 choses à faire à Aubusson",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "10-choses-a-faire-a-douarnenez-2026",
+      "title": "10 choses à faire à Douarnenez",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-quiberon-2026",
+      "title": "10 choses à faire à Quiberon",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "10-choses-a-faire-a-moissac-2026",
+      "title": "10 choses à faire à Moissac",
+      "emoji": "⛪"
     }
   ],
   "tags": [
@@ -9863,6 +9898,11 @@
     {
       "slug": "pollution",
       "label": "pollution",
+      "count": 4
+    },
+    {
+      "slug": "que-faire-dans-le-bas-rhin",
+      "label": "que faire dans le Bas-Rhin",
       "count": 4
     },
     {

@@ -1957,6 +1957,182 @@ du seed sur 540 sans guide tourisme** (mesuré ce run) ; gisements nommés resta
 bordelaises (Villenave-d'Ornon, Talence, Le Bouscat) et le reliquat du vivier du batch 46 —
 Sélestat, Obernai, Saverne, Aubusson, Douarnenez, Quiberon.
 
+**Batch 50 — FR, shipped 2026-09-22 : Sélestat, Obernai, Saverne, Aubusson, Douarnenez, Quiberon,
+Moissac.** Le batch **épuise le vivier du batch 46** : ses six dernières villes sont écrites d'un coup,
+et il ne reste plus de cette liste que Saint-Herblain (écarté au batch 34 faute de matière) et les
+trois banlieues bordelaises jamais faites (Villenave-d'Ornon, Talence, Le Bouscat). **Moissac** est
+l'ajout du run et le plus gros trou restant du corpus : un cloître daté avec certitude de 1100,
+soixante-seize chapiteaux dont quarante-six historiés, un tympan qui est un repère de la sculpture
+romane, inscrit à l'UNESCO depuis 1998, et aucun guide ne citait la ville. Trois des sept sont
+alsaciennes, ce qui est assumé : c'est le vivier qui était ainsi composé, et les trois guides se
+citent mutuellement plutôt que de se répéter.
+**Compteurs mesurés : FR 275 (`-a-` strict 267 + 6 en `au-` + 2 en `aux-`), EN 268 ; `GUIDES` 1 160 →
+1 167.** Aucun nouveau slug hors gabarit : les huit exceptions restent `au-puy-en-velay`, `au-tampon`,
+`au-francois`, `au-robert`, `au-lamentin`, `au-cannet`, `aux-abymes`, `aux-sables-d-olonne`.
+`metaTitle` 35-38 caractères, `metaDesc` 130-144, 10 sections par guide, 1 178-1 273 mots, densité
+d'accents 0,145-0,197 **par mot** (seuil ascii-strip 0,09), **0 em-dash** sur les sept réunis.
+`npm run search-index` relancé (1 167 guides, 272 → **273 tags** : « que faire dans le Bas-Rhin »
+franchit le seuil de 3 guides avec les trois villes alsaciennes et Haguenau, et crée
+`/tags/que-faire-dans-le-bas-rhin`), d'où le passage de `npm run sitemap:check` (FR **29 276 URL**,
+EN 28 863, chaque URL déclarée a une page et réciproquement). Contrôle de lookup / photo passé **sur
+les 540 villes et les 275 guides de la série**, avec le **résolveur recopié de
+`app/villes/[slug]/a-faire/page.tsx`** (la leçon du batch 47) : **275/275 atteignables, 0 orphelin,
+0 collision**, et un seul guide sans photo d'en-tête, `10-choses-a-faire-a-vesoul-2026`, qui est le
+trou de pipeline photo déjà relevé au batch 49 et pas une régression de ce lot.
+⚠️ **Le fait le plus utile du batch est une nuance retirée à un superlatif, et elle concerne le seul
+argument que Sélestat met en avant : la primauté de son sapin de Noël est disputée.** La ville
+conserve bien une entrée comptable du **21 décembre 1521** (quatre schillings aux gardes forestiers
+pour surveiller la forêt communale le jour de la Saint-Thomas, quand on y coupait les sapins), et
+c'est la mention la plus souvent citée. Mais les archives de **Strasbourg** portent un achat de
+**neuf sapins par l'Œuvre Notre-Dame en 1492**, et les revendications de **Riga** et de **Tallinn**
+au début du XVIe siècle sont contestées par les historiens, qui y voient des fêtes de corporations
+sans rapport avec Noël. Le guide publie la divergence au lieu de recopier « la plus ancienne mention
+écrite du sapin de Noël », formule qu'on lit partout. Deuxième désamorçage du même genre : **Sélestat
+appartient au réseau des sites Vauban sans être l'un des douze ouvrages inscrits à l'UNESCO en 2008**
+— ses remparts sont de **Jacques Tarade**, ingénieur formé par Vauban, entre 1675 et 1691.
+⚠️ **Deux affirmations corrigées avant commit par une mesure, pas par une relecture.** ① Le guide
+Aubusson donnait la commune comme ayant « le mètre carré de référence le plus bas de notre corpus » :
+le tri complet de `data/housing.ts` la place **deuxième sur 540**, derrière **Mauriac** (750 €) et à
+égalité avec **La Souterraine** (800 €) ; la phrase publie désormais le classement exact. ② Le guide
+Sélestat plaçait Haguenau « à quarante kilomètres au nord » : le calcul sur les coordonnées du seed
+donne **66 km**. Même famille que l'écart de sept siècles et demi de Sens (batch 37) et que les six
+comparaisons du batch 38 — ce sont les **distances et les rangs dérivés** qui dérapent, jamais les
+dates prises une à une. Six autres retouches du même passage en revue : une durée de trajet non
+vérifiée (Obernai-Strasbourg, remplacée par la distance mesurée), une traversée d'isthme chronométrée
+à trois minutes sans source (Quiberon), une fraction inventée (« un tiers du tissu bâti » de Moissac),
+et trois superlatifs invérifiables sur la fréquentation ou la photogénie.
+⚠️ **Trois chiffres volontairement omis, sources divergentes — ne pas les « compléter » au prochain
+run.** ① Le décompte de la tenture **Aubusson tisse Tolkien** : les publications donnent treize ou
+quatorze tentures murales, un ou deux tapis, et 130 ou 160 m² tissés ; le guide donne l'accord signé
+avec la **Tolkien Estate en janvier 2017**, les sept ateliers de la région, l'achèvement en **2024**
+après sept ans, et s'arrête là. ② Le nombre de **cuves à garum des Plomarc'h** à Douarnenez, entre une
+quinzaine et une trentaine selon ce qu'on décide de compter. ③ Le bilan de la **crue du Tarn des 3-4
+mars 1930** à Moissac : cent vingt ou cent trente morts, six cents maisons détruites ou quatorze cents
+à rebâtir. Même doctrine qu'au batch 46 (victimes de Vaison, tours de Senlis, villas de Dinard) et
+qu'au batch 48. S'y ajoute l'**AOC du chasselas de Moissac**, donnée tantôt en 1971 tantôt en 1977 :
+le guide ne retient que l'**AOP de 1996**, sur laquelle les sources concordent.
+Faits vérifiés en ligne avant rédaction et qui portent les guides : **Bibliothèque humaniste** de
+Sélestat, école latine fondée en **1452** et collection de **Beatus Rhenanus** léguée en **1547**,
+**1 686 documents anciens**, registre **Mémoire du monde de l'UNESCO depuis 2011**, Érasme venu
+**quatre fois entre 1515 et 1522** ; **Sainte-Foy** romane **1152-1190** sur dons de Barberousse,
+classée **1862**, seul vestige du prieuré bénédictin puis jésuite ; **Saint-Georges 1220-1490**, nef
+**1220-1235** en gothique bourguignon à voûtes sexpartites, vitraux du chœur **1430-1460**, reprises
+de **Max Ingrand** et créations de **François Chapuis en 1986**, classée **1848** ; **arsenal
+Sainte-Barbe** gothique de **1470**, arsenal en **1534** ; **tour des Sorcières** de la première
+enceinte de **1216** ; **Ill*Wald** environ **1 855 ha**, créée **1995**, classée **2013**, plus vaste
+réserve naturelle régionale d'Alsace, forêt alluviale de **1 500 ha** d'un seul tenant, plus de
+**130 km** de cours d'eau ; **Corso fleuri depuis 1929** ; **Haut-Koenigsbourg** à **755 m** sur
+**Orschwiller**, restauration **1900-1908** par **Bodo Ebhardt**, inaugurée le **13 mai 1908** devant
+Guillaume II ; **puits aux six seaux d'Obernai, 1579**, trois colonnes à chapiteaux corinthiens et
+baldaquin octogonal ; **Kapellturm 60 m**, vestige d'une chapelle de la fin du XIIIe démolie en
+**1873** ; marché du jeudi mentionné dès **1301** ; **Saints-Pierre-et-Paul 1867-1872** par **Eugène
+Petit**, **Saint-Sépulcre de 1504**, vitraux de la fin du XVe repris en **1895-96**, orgue **Merklin
+1882**, cœur de **Mgr Freppel** (né à Obernai en 1827) depuis **1921** ; **Mont Sainte-Odile 764 m**
+sur **Ottrott**, abbaye de **Hohenbourg**, **mur païen** d'une dizaine de km, ~**300 000 blocs**,
+1,6 à 1,8 m de large, jusqu'à 3 m de haut, **daté du VIIe siècle** par les recherches récentes ;
+**route des Vins créée le 30 mai 1953** lors d'un rallye automobile, **170 km** de Marlenheim à Thann,
+**119 communes** ; **Léonardsau**, parc de **8 ha** ; **brasserie Kronenbourg d'Obernai ouverte en
+1969**, plus de **70 ha** ; **gare d'Obernai** sur la ligne de Sélestat à Saverne, ouverte le
+**28 septembre 1864** ; **château des Rohan de Saverne**, **Louis-René de Rohan** évêque en **1779**,
+incendie la même année, façade sur parc de **Nicolas-Alexandre Salins de Montfort**, **35 travées** à
+pilastres ioniques colossaux, **140 m** de grès rose, achevée **1789**, décors interrompus en **1790** ;
+**affaire du collier**, scandale le **15 août 1785**, arrestation le jour même, acquittement le
+**31 mai 1786**, fin de vie à **Ettenheim** ; **musée du château**, **deuxième collection lapidaire
+d'Alsace** après Strasbourg, section **Louise Weiss** ; **roseraie**, société fondée en **1898**,
+deuxième plus ancienne de France, **1,5 ha**, ~**8 500 rosiers**, **800 variétés** ; **Haut-Barr** sur
+trois rochers à ~**470 m**, « **œil de l'Alsace** », passerelle dite pont du Diable ; **télégraphe
+Chappe** en service de **1798 à 1852** ; **maison Katz de 1605**, bâtie par **Henri Katz**, receveur
+général de l'évêché ; **jardin botanique du col de Saverne**, **2,5 ha**, aménagé en **1931** par des
+naturalistes dont **Émile Walter** (mort en 1953), à **335 m**, collection d'orchidées indigènes
+présentée comme la plus importante de France avec une vingtaine d'espèces ; **plan incliné de
+Saint-Louis-Arzviller** en service le **27 janvier 1969**, remplace **17 écluses sur 4 km** qui
+demandaient une journée, dénivelé de l'ordre de **45 m** ; **Cité internationale de la tapisserie
+ouverte en juillet 2016** (inaugurée le **10 juillet**) dans les anciens locaux de l'**ENAD**,
+syndicat mixte créé en **2010** ; **tapisserie d'Aubusson inscrite en 2009** au patrimoine culturel
+immatériel ; **Maison du Tapissier** des XVe-XVIe, famille **Corneille**, lissiers et jurés-gardes de
+la manufacture royale ; **pont de la Terrade** du XVIe, quartier des teinturiers ; **Sainte-Croix** du
+XIIIe, bâtie par les vicomtes d'Aubusson ; **Felletin à 10 km au sud**, qui dispute à Aubusson le titre
+de berceau ; **Port-Musée de Douarnenez inauguré en mai 1993** au Port-Rhu, **huit bateaux** visitables
+à flot ; **Plomarc'h**, établissement de salaison du **Iᵉʳ siècle**, garum, alec et liquamen ;
+**kouign-amann** né vers **1860**, attribué par la tradition à **Yves-René Scordia**, rapport
+**40/30/30**, appellation « Véritable Kouign Amann de Douarnenez » déposée à l'INPI le **15 décembre
+1999** ; **Temps Fête depuis 1986**, premier rassemblement national de voiliers du patrimoine en
+France ; **ligne de Quimper fermée aux voyageurs le 6 mars 1972** et aux marchandises en **1988**, ni
+voie ni gare à Tréboul ; **Côte Sauvage de Quiberon**, baignade interdite par l'**arrêté municipal
+n° 128/2021 du 20 avril 2021** ; **fort de Penthièvre** décidé en **1747** après le pillage de **1746**,
+nom du duc de Penthièvre, gouverneur de Bretagne ; **59 résistants morts entre avril et juillet 1944**
+dont **50 le 13 juillet**, monument sur le glacis, cérémonie chaque 13 juillet ; **débarquement du
+27 juin 1795**, plus de **4 000 émigrés** sur la plage de Carnac, Cadoudal, Hoche, **assaut final le
+21 juillet** ; **traversée Port-Maria-Le Palais ~50 min** à l'année et ~**30 min** en navette rapide
+l'été ; **institut de thalassothérapie fondé en mai 1964 par Louison Bobet**, dont la carrière s'arrête
+fin **1961** sur un accident de voiture et qui se convainc de l'eau de mer en rééducation à **Roscoff**
+chez le **docteur René Bagot** ; **Tire-Bouchon** Auray-Quiberon en juillet et août ; **cloître de
+Moissac de 1100**, **76 chapiteaux dont 46 historiés** ; **tympan du portail sud** de la première
+moitié du XIIe, vision de saint Jean ; **abbaye fondée au VIIIe**, rattachée à **Cluny en 1047** ;
+**UNESCO 1998** au titre des chemins de Saint-Jacques, via Podiensis, **GR 65** ; **Uvarium de 1932**,
+pavillon octogonal portant « Don de la Ville de Paris, 1930 », **station uvale en 1931**, Moulin de
+Moissac comme hôtel des curistes ; **Ville d'art et d'histoire depuis 2012** ; **pont-canal du Cacor**,
+**356 m**, **8,35 m** de large, **14 piles**, **1844-1845**, brique de Toulouse et pierre du Quercy,
+ingénieur **François Terrié**.
+Six prudences assumées dans la copie, à ne pas diluer : ① convention « **accessible depuis** » plutôt
+que « situé à » partout où le site relève d'une commune voisine — **Haut-Koenigsbourg à Orschwiller**,
+**Mont Sainte-Odile et mur païen à Ottrott**, **plan incliné à Saint-Louis, en Moselle**, **Felletin**,
+et surtout le **fort de Penthièvre, qui est à Saint-Pierre-Quiberon et non à Quiberon** ; ② le **fort de
+Penthièvre est une emprise militaire**, base d'entraînement du **3ᵉ RIMa de Vannes depuis 1969**, et
+**il ne se visite pas** : seuls l'obélisque et le secteur du mémorial sont accessibles, dit avant toute
+phrase attrayante, même traitement que la base 106 de Mérignac (batch 28), la base 701 de Salon
+(batch 34) et la BA 125 d'Istres (batch 44) ; ③ la **brasserie Kronenbourg d'Obernai** est une emprise
+industrielle en activité, pas un musée, et ses visites relèvent de l'exploitant ; ④ l'**interdiction de
+baignade de la Côte Sauvage** est écrite comme une **règle opposable** avec son numéro d'arrêté, et non
+comme un conseil, la signalisation par drapeaux des plages surveillées valant partout ailleurs ; ⑤ la
+**vallée des peintres (Crozant, Fresselines, Monet en 1889) est dans le nord de la Creuse**, à plus
+d'une heure de route d'Aubusson, ce que le guide dit explicitement plutôt que de laisser croire à une
+excursion ; ⑥ **Temps Fête est biennal et tombe les années paires** — l'édition 2026 s'est tenue du 23
+au 26 juillet, la suivante est attendue en **2028**, et **il n'y a rien en 2027** : même piège de
+calendrier que le festival de cerf-volant de Dieppe (batch 36) et les Choralies de Vaison (batch 46), et
+la copie le dit. Aucun horaire, aucun tarif, aucune figure en `/10` ; les seuls chiffres de population
+sont ceux de l'Insee 2022 lus dans `data/city-population.json` (Sélestat 19 523, Obernai 12 303, Saverne
+11 323, Aubusson 3 036, Douarnenez 14 188, Quiberon 4 782, Moissac 13 652) — **pas les `population`
+approximatives du seed** — et les loyers et prix au m² viennent de `data/housing.ts`.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30 de
+génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut prescrit
+passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR 1 160 → 1 167),
+`search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**, 0 route FR sans
+jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo exhaustif ci-dessus et une
+vérification d'encodage (accents intacts, `€` conservé, aucun `m2` / `EUR` / `deg` ascii, aucun
+mojibake, aucune apostrophe typographique). Note d'environnement reconfirmée : le conteneur de routine
+démarre **en HEAD détaché et sans `node_modules`** — `git checkout main` puis `npm install` d'abord, et
+les brouillons vont **hors du dépôt** (leçon du batch 47).
+⚠️ Egress : la **recherche web fonctionne**, et c'est par elle que tous les faits ci-dessus ont été
+recoupés sur plusieurs résultats plutôt que sur une fiche unique, méthode retenue depuis le batch 48.
+Écart FR→EN après ce batch : **7 villes** (selestat, obernai, saverne, aubusson, douarnenez, quiberon,
+moissac) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN**. Rappel de la règle
+du batch 33 : côté EN, le slug se dérive du **slug de seed tel quel**
+(`getEnGuide('things-to-do-in-' + slug + '-2026')`), et aucun de ces sept ne porte d'article, donc rien
+à arbitrer. Quatre points de vigilance pour ces jumelles : ① **le sapin de Noël de Sélestat est le
+meilleur angle anglophone du lot et le plus piégeux** — la primauté est disputée (Strasbourg 1492, Riga,
+Tallinn), la jumelle doit publier la divergence comme le FR et non reprendre le superlatif des guides de
+voyage ; ② **Aubusson tisse Tolkien est de la matière anglophone avant d'être française**, Tolkien étant
+lu en anglais et la Tolkien Estate britannique : la jumelle a de la matière propre là où le FR reste
+sobre, même arbitrage qu'avec Jubilee à Dieppe (batch 37), Cambrai (batch 39), Béthune (batch 41) et
+Blagnac (batch 43) ; ③ **le débarquement de 1795 à Quiberon est une opération britannique** (flotte de la
+Royal Navy, émigrés armés par Londres) et se lira autrement pour un lecteur anglophone, mais
+l'interdiction de baignade et le statut militaire du fort de Penthièvre restent des **règles opposables**
+à écrire comme telles ; ④ **`things-to-do-in-moissac-2026` doit poser Moissac face à Toulouse et à la
+route de Compostelle dès la première ligne**, un lecteur anglophone connaissant le Camino et ignorant la
+ville qui en porte l'étape.
+Pour le batch FR **suivant**, il reste **265 villes du seed sur 540 sans guide tourisme** (272 avant ce
+run). Le vivier du batch 46 est **épuisé** ; les gisements nommés restants sont **Saint-Herblain**
+(écarté au batch 34 faute de matière) et les **trois banlieues bordelaises** jamais faites
+(Villenave-d'Ornon, Talence, Le Bouscat), à compléter par les trous mesurés ce run et non retenus faute
+de place, tous vérifiés présents au seed et sans guide : **Sedan** (le château fort le plus étendu
+d'Europe, la capitulation de 1870, la percée de 1940), **Firminy** (site Le Corbusier, dont l'église
+Saint-Pierre relève de l'inscription UNESCO de 2016), **Corte** (citadelle, musée de la Corse),
+**Gérardmer**, **Les Andelys** (Château-Gaillard), **Paray-le-Monial**, **Sanary-sur-Mer**,
+**Noirmoutier-en-l'Île** (passage du Gois ; ⚠️ le slug de seed est `noirmoutier`, pas `noirmoutier-en-l-ile`), **Vitré**, **Lannion**, **Hendaye**, **Saint-Flour** et
+**Embrun**. Rappel des batches 26, 32, 34, 36, 40, 42 et 46 : **on choisit par matière touristique
+réelle, pas par inertie de liste.**
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique
