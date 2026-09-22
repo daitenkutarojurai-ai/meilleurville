@@ -4831,6 +4831,105 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 22/09 — `single-parent-holidays-[city]-2026` batch 5 (+8), la série refermée à 38/38
+
+Les 8 jumelles du batch FR `vacances-monoparentales` du 16/09 écrites d'un coup dans
+`data/guides-en.ts` (Anglet, Vendôme, La Roche-sur-Yon, Vienne, Villefranche-sur-Saône,
+Brive-la-Gaillarde, Compiègne, Dieppe). **Compteurs mesurés par diff des deux listes de slugs,
+pas recopiés du journal : FR 38, EN 38 — écart nul dans les deux sens** (`EN_GUIDES` 963 → 971).
+Le choix du lot est une mesure et non une intuition : sur les 17 séries FR de plus de 5 guides,
+celle-ci était la seule à **8 jumelles près de la fermeture**, quand `quitter-[ville]` en
+demande 38 et `demenager-a-[ville]` 26 — refermer une série entière valait mieux qu'entamer
+la plus grosse. Écart de corpus ramené de **196 à 188**.
+
+⚠️ **Le composite cité par cette série n'est pas `profileFit()`, et s'y tromper fabrique des
+rangs faux.** Le premier contrôle de ce run a recalculé à la main
+`safety*0,3 + transport*0,25 + cost*0,25 + life*0,2` et sorti Anglet à 7,0 contre 7,3 dans le
+guide FR, La Roche-sur-Yon à 7,3 contre 7,2 — de quoi conclure à une erreur des guides FR.
+C'est le contrôle qui était faux : `vacationFit()` renvoie `profileScore` **et** `score`, et
+la série cite le second, `profileScore * 0,55 + global * 0,45`. Les trois valeurs sont alors
+exactes au dixième. **Un chiffre de la série se relit en appelant `vacationFit(city,
+{profile:"monoparental"}).score`, jamais en réimplémentant la formule** — même piège que la
+lecture d'un littéral du seed au lieu de la valeur rendue.
+
+**Contrôle de figures : 373 distinctes, 370 retrouvées dans les jumelles FR.** Les 3 restantes
+sont délibérées et le contrôle les remontera à chaque run — ne pas les « corriger ». ① `42`
+(Vendôme) est la forme chiffrée du « quarante-deux » que le FR écrit en toutes lettres, même
+fait. ② `1985` (Villefranche) date le décret qui fixe la sortie du Beaujolais nouveau au
+troisième jeudi de novembre, matière propre à l'angle anglophone. ③ `4` (Dieppe) est le palier
+d'affluence de juillet et août lu dans `lib/vacation-seasons.ts`, que la jumelle FR ne publie
+pas : c'est une donnée du même moteur, pas un chiffre neuf.
+
+**Huit angles propres au lecteur anglophone, tous vérifiés en ligne avant écriture**, et qui
+sont la raison d'être d'un guide natif plutôt que d'une traduction. ① **Anglet** : le guide FR
+ouvre sur « la commune n'a pas de gare », et pour un lecteur britannique le problème
+s'inverse — l'**aéroport de Biarritz Pays Basque est sur le territoire d'Anglet**, adresse
+postale 64600 Anglet, avec des lignes Ryanair directes vers Stansted, Dublin et Édimbourg ;
+**aucune fréquence n'est citée**, les sources donnant 3 et 6 vols par semaine. S'y ajoute la
+prononciation du **t final**, confirmée par l'office de tourisme (basque *Angelu*, gascon
+*Anglet*), et la **baïne** expliquée comme *rip current*, que la signalétique française ne
+traduit pas. ② **Vendôme** : la **Place Vendôme** parisienne tient son nom de l'hôtel de César
+de Bourbon, duc de Vendôme, fils naturel d'Henri IV — le duché est cette ville ; et Jean de
+Beauce a bâti la **flèche nord de Chartres**. ③ **La Roche-sur-Yon** : le **Vendée Globe** part
+des Sables-d'Olonne, à 35 km, fait déjà porté par le FR mais que l'anglophone lit autrement.
+④ **Vienne** : le nom est un piège réel en anglais, *Vienne* étant ce que le français appelle
+Vienna, et surtout le **concile de Vienne s'est ouvert le 16 octobre 1311 dans la cathédrale
+Saint-Maurice**, celle dont le guide FR dit que l'entrée est gratuite, pour dissoudre l'ordre
+du **Temple** par la bulle *Vox in excelso* du 22 mars 1312. ⑤ **Villefranche** :
+désambiguïsation d'avec **Villefranche-sur-Mer**, et les **dix crus n'ont pas le droit de faire
+du nouveau**. ⑥ **Brive** : le **28-9 contre les Leicester Tigers** en finale de Heineken Cup à
+l'Arms Park le 25 janvier 1997, seul titre européen du club et la raison pour laquelle un
+lecteur britannique connaît ce nom. ⑦ **Compiègne** : l'armistice du **11 novembre 1918** est
+le Remembrance Day du lecteur, **Jeanne d'Arc a été capturée devant la ville le 23 mai 1430**
+puis vendue aux Anglais, et Gare du Nord étant le terminus Eurostar la ville est à une heure et
+demie de Londres sans traverser Paris. ⑧ **Dieppe** : le ferry **DFDS Newhaven-Dieppe**, ~4 h,
+piétons acceptés, **horaires commandés par la marée donc sans cadence fixe** — c'est la seule
+destination de la série atteignable sans avion et sans passer par Paris ; et l'**opération
+Jubilee du 19 août 1942** est de l'histoire canadienne avant d'être française.
+
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : **il n'y a pas d'édition
+2026 du festival de cerf-volant de Dieppe** (biennal, années impaires, prochaine attendue en
+2027) ; le **wagon de la clairière de l'Armistice est une reconstitution**, l'original ayant
+été détruit en 1944 ; **le nombre de jours de pluie n'est pas renseigné** aux stations de
+Nantes-Bouguenais (La Roche-sur-Yon) et de Rouen (Dieppe), et on l'écrit au lieu de combler le
+trou avec une valeur voisine ; l'indicateur d'affluence **ne voit ni Jazz à Vienne ni les
+Conscrits** ; **La Roche-sur-Yon n'est pas littorale** ; la **plage de Dieppe est de galets**
+et les **falaises de craie s'effondrent par plaques** ; le **lac de Chiberta n'est pas
+surveillé** ; et la convention « **accessible depuis** » tient partout (Bayonne et Biarritz
+depuis Anglet, Les Sables-d'Olonne, Saint-Romain-en-Gal et Lyon depuis Vienne, le vignoble du
+Beaujolais depuis Villefranche, le Périgord noir depuis Brive, la clairière, Pierrefonds et
+Senlis depuis Compiègne, Hautot-sur-Mer depuis Dieppe).
+
+`metaTitle` 37-46 caractères, `metaDesc` 150-159, 6 sections par guide (la série FR en compte
+7, l'EN fusionne la section « aides » avec la précédente, comme les quatre batches EN
+précédents), **0 em-dash** sur les huit réunis. Aucun tag neuf n'atteint le seuil de 3 guides —
+les 8 tags `<ville> with kids` restent à 1 occurrence et les tags de région réutilisent
+`nouvelle-aquitaine`, `centre-val-de-loire`, `pays-de-la-loire`, `auvergne-rhone-alpes`,
+`hauts-de-france`, `normandy` — donc **aucune page `/tags/` créée**, `search-index.en.json`
+reste à 114 tags. Contrôle de lookup passé **sur les 540 villes et les 38 guides de la série**
+et pas seulement sur le lot : **38/38 atteignables depuis la page ville par la recherche
+inverse `relatedCities`, 0 orphelin** — chaque guide liste sa propre ville, le défaut que le
+batch 45 tourisme avait dû corriger après coup.
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27).
+Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity`
+(guides EN 963 → 971), `search-index` + `search-index:check`, `sitemap:check` (EN 28 855 →
+**28 863**, soit exactement les 8 guides neufs ; FR inchangé à 29 267), `npm run parity`
+(**code 0**, 0 route FR sans jumelle), `npm run hreflang:check`, plus le contrôle de lookup, le
+contrôle de figures ci-dessus et une vérification d'encodage (accents intacts, aucun `m2` /
+`EUR` / `deg` ascii, aucun mojibake). Note d'environnement reconfirmée : le conteneur de
+routine démarre **en HEAD détaché et sans `node_modules`** — `git checkout main` puis
+`npm install` d'abord, faute de quoi `tsc` sort des dizaines de milliers d'erreurs qui ne sont
+pas des régressions. ⚠️ Egress : `en.wikipedia.org` répond **EGRESS_BLOCKED** en `WebFetch`
+alors que la **recherche web fonctionne** — les faits ont donc été recoupés sur plusieurs
+résultats plutôt que sur une fiche unique, méthode déjà retenue au batch 48 tourisme.
+
+**Prochain run** : l'écart de corpus est de **188 guides**, et les deux plus gros gisements
+sont mesurés — `quitter-[ville]-guide-2026` (48 FR, 38 sans jumelle `leaving-[city]`) et
+`demenager-a-[ville]-2026` (50 FR, 26 sans jumelle `moving-to-[city]`, série déjà rouverte au
+16/09). Aucune des deux ne se referme en un lot : les prendre par batches de 8 à 10, en
+commençant par les villes que le trafic FR porte réellement.
+
 ### Livré le 21/09 — `single-parent-in-[city]-2026` batch 11 (+8), la série refermée à 103/103
 
 Les 8 jumelles du batch FR `parent-solo` du 20/09 écrites d'un coup dans `data/guides-en.ts`

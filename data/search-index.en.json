@@ -8057,6 +8057,46 @@
       "slug": "single-parent-in-troyes-2026",
       "title": "Single parent in Troyes (2026): one of two communes in this batch that is growing, and 30 per cent poverty",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-anglet-2026",
+      "title": "Single-parent holidays in Anglet: no railway station, but the airport is here",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-vendome-2026",
+      "title": "Single-parent holidays in Vendôme: 42 minutes from Paris, and the cheapest of the series",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-la-roche-sur-yon-2026",
+      "title": "Single-parent holidays in La Roche-sur-Yon: the safest of the series, and the least cultural",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-vienne-2026",
+      "title": "Single-parent holidays in Vienne: not Vienna, and the Templars were abolished here",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-villefranche-sur-saone-2026",
+      "title": "Single-parent holidays in Villefranche-sur-Saône: the Beaujolais capital, and its heritage is behind doors",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-brive-la-gaillarde-2026",
+      "title": "Single-parent holidays in Brive-la-Gaillarde: the most even profile of the eight, and a four-and-a-half-hour arrival",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-compiegne-2026",
+      "title": "Single-parent holidays in Compiègne: where the Armistice was signed, half an hour from Paris",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-dieppe-2026",
+      "title": "Single-parent holidays in Dieppe: a ferry from Newhaven, and no kite festival in 2026",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -8078,7 +8118,7 @@
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 134
+      "count": 142
     },
     {
       "slug": "expat-single-parent",
@@ -8088,7 +8128,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 61
+      "count": 63
     },
     {
       "slug": "occitanie",
@@ -8098,7 +8138,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 58
+      "count": 60
     },
     {
       "slug": "grand-est",
@@ -8138,7 +8178,7 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 47
+      "count": 48
     },
     {
       "slug": "relocation",
@@ -8153,7 +8193,12 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 40
+      "count": 41
+    },
+    {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 38
     },
     {
       "slug": "working-in-france",
@@ -8176,14 +8221,9 @@
       "count": 31
     },
     {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
-      "count": 30
-    },
-    {
       "slug": "normandy",
       "label": "normandy",
-      "count": 29
+      "count": 30
     },
     {
       "slug": "provence-alpes-cote-d-azur",
@@ -8226,14 +8266,14 @@
       "count": 22
     },
     {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
       "count": 21
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 20
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 21
     },
     {
       "slug": "cycling",
