@@ -42037,6 +42037,363 @@ export const EN_GUIDES: EnGuide[] = [
       "normandy",
     ],
   },
+
+  {
+    slug: "things-to-do-in-selestat-2026",
+    title: "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
+    metaTitle: "Things to Do in Sélestat, Alsace (2026)",
+    metaDesc:
+      "A library of 1452 on the UNESCO Memory of the World register, a 1521 entry about a fir tree, and 1,855 hectares of wetland forest.",
+    category: "city-guide",
+    emoji: "📚",
+    readMinutes: 8,
+    publishedAt: "2026-09-23",
+    updatedAt: "2026-09-23",
+    intro:
+      "Sélestat had 19,523 residents at the 2022 census against 19,124 in 2016 and 19,181 in 2011, a rise of 1.8 per cent over eleven years. That is eighth of the nine Bas-Rhin communes this site follows, ahead of Saverne alone and a long way behind Lingolsheim on 23.8 per cent or Obernai on 15.1. The town everybody drives through between Strasbourg and Colmar is not cashing in on its position as much as you would assume. What sets it apart is one place and one date. The Latin school founded here in 1452 left a library whose holdings went on the UNESCO Memory of the World register in 2011, and the town archives hold an account book from 1521 that is the single document most often cited in the history of the Christmas tree. Both claims need handling with some care, and the second one especially, because the version an English-speaking reader is likely to have met is Victorian and three centuries younger.",
+    sections: [
+      {
+        heading: "The Humanist Library",
+        body: "Two collections sit here together. The first belonged to the Latin school founded in 1452, which made a small Alsatian town a teaching centre known the length of the Rhine valley. The second is the personal library of Beatus Rhenanus, who worked alongside Erasmus at Basel and left his books to the town in 1547. Together they run to 1,686 early documents, mostly fifteenth and sixteenth century, and the whole has been on the UNESCO Memory of the World register since 2011. What earned the listing is not the age of the volumes but their coherence: books, letters and marginal annotations belonging to one man, which let you read the circulation of ideas and the book trade across Rhineland Europe in the first half of the sixteenth century. Erasmus, who had been teaching Greek at Cambridge and lodging at Queens' College a few years earlier, came to Sélestat four times himself, between 1515 and 1522. For a reader who met him first as a name on an English college staircase, this is the other end of the same career.",
+      },
+      {
+        heading: "The 1521 entry, and what it does and does not prove",
+        body: "The town holds an accounting line dated 21 December 1521: four shillings paid to the forest wardens to watch the communal woods on St Thomas's day, when firs were being cut there. It is the written mention most often given as the starting point of the tradition, and it is real, dated, and put on show during Advent. The superlative wrapped around it is the part to handle with tongs, because the primacy is contested on at least three fronts. Strasbourg's archives record the cathedral works buying nine firs in 1492. Riga's claim is dated 1510 and Tallinn's is put earlier still, and both rest on the same story about the Brotherhood of Blackheads, a merchants' guild that cut a tree, dressed it, paraded it through the town and then burned it, which is exactly why historians treat the Baltic claims as guild festivities with no particular connection to Christmas; the Latvian historian Gustavs Strenga regards neither as accurate. There is even an objection to the Sélestat line itself, since 21 December is the feast of St Thomas the Apostle and what is being paid for is the guarding of a wood, not the dressing of a tree. Now the part that will land differently in English. The origin story most British readers carry is Victorian: Queen Charlotte, George III's German wife, is credited with the first English Christmas tree at Windsor in 1800, and it was a yew; the custom went general after the Illustrated London News printed the engraving of Victoria, Albert and their children around a tree in 1848. The Sélestat entry predates that engraving by more than three centuries, and it is a line in a ledger rather than a picture, which is both its strength and the reason it settles less than the posters suggest.",
+      },
+      {
+        heading: "Sainte-Foy",
+        body: "Romanesque, built between 1152 and 1190 on gifts from Frederick Barbarossa, and the only surviving fragment of a priory held first by Benedictines and then by Jesuits. It has been a listed historic monument since 1862. This is the same moment and the same emperor as at Haguenau, sixty-odd kilometres north, where Barbarossa was installing his imperial palace: the difference is that at Haguenau nothing of it is left and here the church is standing. Pink sandstone, blind arcading, a plain nave, and a Rhineland Romanesque that has come through almost intact.",
+      },
+      {
+        heading: "Saint-Georges, a few dozen metres away",
+        body: "The second church stands within sight of the first, and the contrast is the whole point of the quarter. Work ran from 1220 to 1490. The nave and aisles, raised between 1220 and 1235, are Burgundian Gothic with sexpartite vaults and sober elevations. The seven bays of the choir carry glass made between 1430 and 1460. The glazing history does not stop there: in the twentieth century Max Ingrand set old panels back into modern openings of his own design, and François Chapuis signed new work in 1986. The church has been listed since 1848. Two buildings, three centuries apart, one street: it is the best-value half hour in town.",
+      },
+      {
+        heading: "The towers, the arsenal and the ramparts",
+        body: "The Witches' Tower belonged to the first enceinte, the one of 1216, reworked repeatedly and used until a modern fortification made it redundant. The New Tower, thirteenth century, still dominates the centre. The Sainte-Barbe arsenal is a Gothic building of 1470 that started as a municipal warehouse and only became an arsenal in 1534, St Barbara being the patron of gunners. The ramparts themselves went up between 1675 and 1691 under Jacques Tarade, an engineer trained by Vauban. Sélestat belongs on that basis to the network of Vauban sites, which is not the same thing as the twelve works inscribed by UNESCO in 2008, and the distinction is worth knowing before you use the word: the listing covers named fortifications, not everyone who worked in the manner.",
+      },
+      {
+        heading: "The Maison du Pain",
+        body: "The building is the old bakers' guild house, and it puts a museum route and a working bakehouse under one roof, so you watch the bakers before leaving with what they have just taken out. It is more interesting than it sounds. Bread is the thread that ties the medieval guild to the communal ovens, the flour of the plain and the things still sold on the market. The display spaces were redone in 2018. An hour is enough, and it is the right stop for a wet day or for children whom three churches in a row would have finished off.",
+      },
+      {
+        heading: "The Ill*Wald, the Ried reserve",
+        body: "This is the strongest argument Sélestat has and the least known. The regional nature reserve of the Sélestat Ried covers about 1,855 hectares, inside the commune itself. It was created in 1995 and classified in 2013, and it is the largest regional nature reserve in Alsace. Ried comes from an Alemannic word for reed: this is groundwater-fed wetland, threaded by more than 130 kilometres of watercourses, phreatic rivers and ditches, with an alluvial forest of some 1,500 hectares in a single block, among the most extensive in France. Hay meadows, loose hedges, flat tracks. You walk or cycle into it from the town centre without a car, which is rare for a reserve of this size.",
+      },
+      {
+        heading: "The Corso fleuri, Haut-Koenigsbourg, and getting here",
+        body: "Since 1929 the town has put floats covered entirely in dahlias through the streets each August, with a daytime parade, a night parade, bands and street companies. It is one of those events that turns a middling town completely over for a weekend, and it is better to know before booking a bed that the weekend in question is not a quiet one. The dates move from year to year and should be checked with the tourist office rather than on a page copied from last year's edition, which is the standard error with this kind of thing. As for the castle on the ridge, Haut-Koenigsbourg at 755 metres is not in Sélestat: it stands in the commune of Orschwiller, about ten kilometres off, reached by car or by a seasonal shuttle. What you visit is an avowed reconstruction, carried out from 1900 to 1908 by the Berlin architect Bodo Ebhardt and inaugurated on 13 May 1908 in the presence of Wilhelm II, Alsace then being German. That makes it a document about 1900 as much as about the Middle Ages, and it is better to know that walking in. The wine villages of the Route des Vins start at the same edge of town, westwards. Sélestat itself is on the Strasbourg to Basel line, with frequent regional services both ways and a station ten minutes' walk from the old centre, so you can come without a car and lose nothing. One day covers the library, the two churches, the arsenal and a late afternoon in the Ried. Two if you add the castle and a wine village, which need a vehicle or a shuttle. The plain is hot and heavy in July and August; spring and early autumn are pleasanter, and December is the month the town plays its fir tree card, so one of the busiest.",
+      },
+    ],
+    relatedCities: ["selestat", "colmar", "strasbourg", "haguenau", "obernai"],
+    tags: ["things to do in selestat", "selestat", "travel", "city guide", "alsace", "grand-est"],
+  },
+
+  {
+    slug: "things-to-do-in-obernai-2026",
+    title: "Things to do in Obernai: a wine-route town with a railway station",
+    metaTitle: "Things to Do in Obernai, Alsace Wine Route (2026)",
+    metaDesc:
+      "A well of 1579, a 60 m civic tower, a market held on Thursdays since 1301, and the brewery where the beer called 1664 is actually made.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-09-23",
+    updatedAt: "2026-09-23",
+    intro:
+      "Obernai had 12,303 residents at the 2022 census against 10,953 in 2016 and 10,689 in 2011: a rise of 15.1 per cent over eleven years, second of the nine Bas-Rhin communes this site follows, behind Lingolsheim and well ahead of Strasbourg on 7.2. A town of twelve thousand growing twice as fast as the metropolis next door is not a common thing, and part of the explanation is also what makes it worth visiting: it is twenty-odd kilometres from Strasbourg, at the foot of Mont Sainte-Odile, on the Route des Vins, and its reference price per square metre is still below the city's. The centre is an open-air manual of Alsatian architecture and it is walked in a morning. It is also, and this is the practical point for anyone without a car, one of the very few stops on the wine route with its own railway station.",
+    sections: [
+      {
+        heading: "The market square",
+        body: "Everything is here, which is rarer than it sounds: the belfry, the town hall, the old corn hall, the inns and the guild meeting rooms all stand on the same space, because that is where the town organised itself from the Middle Ages onward. The Thursday morning market is recorded as early as 1301 and is still held, which gives the square two entirely different faces depending on the day you turn up. On a Thursday you see a town working. On a Tuesday you see a set. Both are worth the trip, but they are not the same visit, and if you have one morning here, make it the Thursday.",
+      },
+      {
+        heading: "The six-bucket well",
+        body: "Dated 1579, and reckoned one of the best and best-preserved Renaissance wells in Alsace. Three columns with Corinthian capitals carry an octagonal canopy, and each of the three wheels of the mechanism carries two buckets, which is where the name comes from and why you look at it twice before it makes sense. It is a Renaissance object dropped into the middle of a medieval square, and that layering sums the town up fairly well: Obernai does not have one century, it has five stacked inside three hundred metres.",
+      },
+      {
+        heading: "The Kapellturm, and what a belfry is",
+        body: "The tower is sixty metres high and is all that survives of a chapel of the Virgin raised at the end of the thirteenth century and pulled down in 1873. It served as bell tower and as watchtower, two jobs that went together in a free imperial town where you watched for fire as closely as for an enemy. It stands over the market square and works as a bearing from anywhere in the centre. One piece of vocabulary, because it misleads English speakers constantly: a belfry in this part of Europe is not a church steeple. It is the civic tower, the commune's own, and the fact that the chapel was demolished and the tower kept is precisely the point being made.",
+      },
+      {
+        heading: "The church of Saints Peter and Paul",
+        body: "Neo-Gothic, built from 1867 to 1872 to designs by the architect Eugène Petit, outside the old fortifications, on land that had belonged to the abbey of Mont Sainte-Odile. It replaced a fifteenth-century Gothic church demolished in 1867, which had itself gone up over a twelfth-century Romanesque church with a crypt. The decoration is nineteenth century, but the building keeps much older pieces: a Holy Sepulchre of 1504 in the left transept, late fifteenth-century glass reworked in 1895 and 1896, and a symphonic organ by Joseph Merklin dated 1882. Since 1921 it has also held a reliquary containing the heart of Bishop Freppel, who was born in the town.",
+      },
+      {
+        heading: "The circuit of the ramparts",
+        body: "The enceinte is not walked in one unbroken loop as it is at Langres, but substantial stretches survive with their towers, and the circuit that follows them goes round the centre in under an hour. It is the best way to understand the shape of the place: a compact oval, very dense inside, stopping dead where the wall ran. What was built beyond is nineteenth and twentieth century, and you can see that without being told. The route is flat, works with a pushchair, and gives onto lanes the crowd on the market square never finds.",
+      },
+      {
+        heading: "Mont Sainte-Odile and the pagan wall, reached from Obernai",
+        body: "The summit stands at 764 metres and carries the abbey of Hohenbourg, founded by St Odile, patron saint of Alsace. A geographical point first: the site is in the commune of Ottrott, about fifteen kilometres away on the D426, and not in Obernai. You drive up. The pagan wall, which rings the summit for some ten kilometres, is the strangest thing on the massif: something like three hundred thousand blocks of conglomerate, a wall 1.6 to 1.8 metres thick and three metres high in places, long taken for Celtic and dated by recent work to the seventh century, which is to say to the period of the convent. Parts of it are followed on waymarked paths.",
+      },
+      {
+        heading: "The wine route, and the Leonardsau estate",
+        body: "Obernai is one of the busiest stops on an itinerary created on 30 May 1953, for a motor rally organised by the tourism committee. It runs more than a hundred and seventy kilometres from Marlenheim to Thann, through a hundred and nineteen farming communes, along the eastern foot of the Vosges. So it is not a waymarked trail but a network of signposted country roads, which changes how you should treat it: you do not do the whole thing, you take a section. From Obernai the villages on the Mont Sainte-Odile side are minutes away and the vineyard begins where the ramparts end. Out of the centre, towards the hamlet of Saint-Léonard, the town also owns a listed estate whose landscaped park covers eight hectares. Its interest is that it is a catalogue rather than a garden: you pass from a formal French composition to an English park, by way of Italian and Japanese sequences, which is how a large private garden was conceived at the turn of the twentieth century. It is the quiet counterweight to a market square at full August capacity.",
+      },
+      {
+        heading: "The brewery, and getting here",
+        body: "Obernai is not only a postcard. The commune holds the Kronenbourg production site, opened in 1969, spread over more than seventy hectares, one of the largest breweries in France, with an organically farmed hop garden. That has to be said plainly before any appealing sentence: it is a working industrial site, not a museum, and visits, where they exist, are run by the operator and checked with them. For a British or Irish reader there is a second thing worth knowing. The number on a bottle of 1664 is a date: the brewery was founded in that year by Geronimus Hatt at Strasbourg, the company now belongs to Carlsberg, and 1664 is the second-biggest selling premium lager in the United Kingdom. The beer most people meet in a pub in Leeds is brewed, in its French form, on the edge of this small town. The fact matters for a visitor in a plainer way too: the best-rated town in the department on our figures is also a factory town, and the two do not cancel out. Obernai has a station on the line from Strasbourg to Sélestat by the piedmont, which makes it one of the rare wine-route stops you can reach without a car; frequency is that of a regional service and should be checked before you build a day on it. Half a day covers the square, the well, the belfry, the church and the ramparts. A full day with the Leonardsau, two with Mont Sainte-Odile. If you want quiet, avoid July, August and December, when the Christmas market pulls a crowd that is considerable for the size of the centre; April, May, September and October give the same town without the queue, and the harvest falls in the last of those.",
+      },
+    ],
+    relatedCities: ["obernai", "selestat", "strasbourg", "colmar", "haguenau"],
+    tags: ["things to do in obernai", "obernai", "travel", "city guide", "alsace", "grand-est"],
+  },
+
+  {
+    slug: "things-to-do-in-saverne-2026",
+    title: "Things to do in Saverne: a palace finished for a cardinal already ruined",
+    metaTitle: "Things to Do in Saverne, Alsace: Rohan Palace 2026",
+    metaDesc:
+      "A 140 m sandstone façade built by the cardinal of the diamond necklace affair, 8,500 rose bushes, and the eye of Alsace on the ridge above.",
+    category: "city-guide",
+    emoji: "🌹",
+    readMinutes: 8,
+    publishedAt: "2026-09-23",
+    updatedAt: "2026-09-23",
+    intro:
+      "Saverne had 11,323 residents at the 2022 census against 11,151 in 2016 and 11,685 in 2011, a fall of 3.1 per cent over eleven years. It is the only one of the nine Bas-Rhin communes this site follows to lose people over that period, while Lingolsheim gains 23.8 per cent and Strasbourg 7.2. The count is worth putting up front because it contradicts the impression the town gives: this is also the commune with the lowest reference price per square metre in the department on our figures, and one of the best rated. A pleasant, affordable town emptying slowly is the situation of a great many sub-prefectures, and it takes nothing away from what there is to see. Here the essential thing is a façade a hundred and forty metres long, built for a prince whom history had already destroyed before he could move in. English-speaking readers will know the story that destroyed him, even if they have never heard of the town.",
+    sections: [
+      {
+        heading: "The Rohan palace",
+        body: "Louis-René de Rohan became bishop of Strasbourg in 1779, and in the same year a fire wrecked part of the existing buildings of his residence at Saverne. Reconstruction started almost at once. It was Nicolas-Alexandre Salins de Montfort who drew the neoclassical sequence of the park front, entirely in pink sandstone, thirty-five bays paced by colossal Ionic pilasters, a hundred and forty metres long. The whole was finished in 1789. The interiors never were: work stopped in 1790, the Revolution having other priorities. So what you look at is a palace completed outside and interrupted inside, which is uncommon enough to be worth the journey on its own.",
+      },
+      {
+        heading: "The cardinal, and the affair of the diamond necklace",
+        body: "The façade does not make sense without the man who commissioned it, and for an English-speaking reader he is the most familiar thing in town. Louis-René de Rohan had been French ambassador to the Austrian court at Vienna from 1772 to 1774, where he made himself thoroughly disliked by the Empress Maria Theresa, who called him a dreadful type without morals, and by extension by her daughter, the queen of France. Cardinal in 1778, bishop of Strasbourg in 1779, grand almoner of France, he lived on a large scale and wanted back into favour at court. An adventuress, Jeanne de La Motte, convinced him that Marie Antoinette wanted a diamond necklace of enormous price; he bought it in the queen's name and handed it over. The scandal broke on 15 August 1785: the cardinal was arrested that same day at Versailles and taken to the Bastille. The Paris parlement acquitted him on 31 May 1786, condemned La Motte, and the affair finished what was left of the monarchy's reputation, since the public, following the trial in the press, blamed the queen for the whole thing whether or not she had touched the necklace. She had not. In English the episode has had a long afterlife of its own: Thomas Carlyle told it in Fraser's Magazine in 1837, the same year as his French Revolution, and Dumas built a novel on it. Rohan ended his life across the Rhine at Ettenheim. The palace at Saverne was finished for a man who had already fallen.",
+      },
+      {
+        heading: "The castle museum",
+        body: "The palace now holds the town museum, and its strongest section is archaeological: a set of Gallo-Roman funerary and votive stelae that make up the second lapidary collection in Alsace after Strasbourg's. To that are added an art and history section and a room devoted to Louise Weiss, journalist, campaigner for women's suffrage and a European figure, whose presence here is a surprise and justifies half an hour by itself. The hang and the opening hours vary with the season: check before setting out, as with most municipal museums of this size.",
+      },
+      {
+        heading: "The rose garden",
+        body: "The society that founded it dates from 1898, which makes this the second oldest rose garden in France. It occupies a hectare and a half and shows about eight thousand five hundred rose bushes across some eight hundred varieties, with an annual competition for new roses that explains why the beds keep changing. It is a working collection as much as an ornamental garden, and you can see that in how carefully the beds are labelled. Flowering governs everything: the place is only of interest between early summer and early autumn, and it is shut the rest of the year.",
+      },
+      {
+        heading: "The Haut-Barr, the eye of Alsace",
+        body: "The castle is built on three sandstone rocks at about four hundred and seventy metres, and its position has earned it the nickname of the eye of Alsace since the Middle Ages, because you see everything coming. It commands the pass between the Lorraine plateau and the plain, which is the entire reason Saverne exists where it does. A footbridge called the devil's bridge links two of the rocks; it is not for anyone who dislikes heights. The fortress goes back to the twelfth century and what you walk through now is a ruin, partly laid out for visitors. Access is by car up a narrow road, or on foot from the town by a path that climbs.",
+      },
+      {
+        heading: "The Chappe telegraph",
+        body: "Below the Haut-Barr, a reconstructed tower and its small museum present Claude Chappe's optical telegraph, in service from 1798 to 1852 on the line linking Paris to Strasbourg. The demonstration of the jointed arms is worth more than any written explanation: in three minutes you understand how a despatch crossed the country in a few hours before electricity, and why the system died so fast once the electric telegraph arrived. The position, on the same ridge as the castle, is obviously not an accident. There is a British footnote that makes the place read differently. The Admiralty wanted the same capability and would not copy Chappe, so the Reverend Lord George Murray designed a shutter telegraph instead, working by opening and closing panels rather than moving arms; the first line was completed in January 1796 and was extended that year from London to Portsmouth. It was built because of the system you are looking at. Three decades later the Admiralty gave in and adopted the Chappe semaphore after all, putting a line to Portsmouth in 1822.",
+      },
+      {
+        heading: "The Katz house and the botanic garden on the pass",
+        body: "Built in 1605 by Henri Katz, receiver general of the bishopric, this is one of the oldest houses in the town: a half-timbered front with worked carving that is nothing rustic and a great deal of Rhenish Renaissance. It is a restaurant today, which is the best and the worst of news: you can go in, but you do not go in for the architecture. The façade is looked at from the Grand-Rue, free, and that is the substance of it. Higher up, at three hundred and thirty-five metres on the flank of the pass, two and a half hectares were laid out in 1931 by naturalists including the botanist Émile Walter, who died in 1953. The garden is arranged by botanical classification and presents its collection of native orchids as the largest in France, with some twenty species. There is also a fern collection, an alpine section and a reconstructed peat bog for carnivorous plants. It is small, serious and entirely against the grain of the spectacular garden: you go to look closely, not for the view.",
+      },
+      {
+        heading: "The canal, the boat lift, and getting here",
+        body: "The Marne-Rhine canal crosses the town at the foot of the castle, and its towpath is walked or cycled with no gradient at all. Twenty-odd kilometres west, in the commune of Saint-Louis and in the Moselle department, the Saint-Louis-Arzviller inclined plane is a transverse boat lift brought into service on 27 January 1969. It replaced a ladder of seventeen locks spread over four kilometres, which took a full day to work through, and it crosses a drop of the order of forty-five metres in minutes. It is in another commune and another department: treat it as an excursion, not as a walk at the end of an afternoon. Saverne itself is on the Paris to Strasbourg line and the station is a few minutes on foot from the palace, so you can come without a car and lose nothing in connections. One day is plenty for the palace, the museum, the Katz house and the canal. A second if you add the Haut-Barr, the telegraph and the botanic garden, which are all three on the height and combine into half a day with a vehicle. The rose garden imposes its own season, summer to early autumn. In winter the town is quiet and some of the hill sites close or become awkward to reach.",
+      },
+    ],
+    relatedCities: ["saverne", "strasbourg", "haguenau", "sarrebourg", "selestat"],
+    tags: ["things to do in saverne", "saverne", "travel", "city guide", "alsace", "grand-est"],
+  },
+
+  {
+    slug: "things-to-do-in-aubusson-2026",
+    title: "Things to do in Aubusson: a town of three thousand that wove Tolkien for seven years",
+    metaTitle: "Things to Do in Aubusson, Creuse: Tapestry 2026",
+    metaDesc:
+      "A craft on the UNESCO intangible list since 2009, a tapestry centre opened in 2016, and Tolkien's own drawings woven over seven years.",
+    category: "city-guide",
+    emoji: "🧵",
+    readMinutes: 8,
+    publishedAt: "2026-09-23",
+    updatedAt: "2026-09-23",
+    intro:
+      "The number has to come before any praise. Aubusson had 3,036 residents at the 2022 census against 3,400 in 2016 and 3,716 in 2011: a fall of 18.3 per cent over eleven years, six hundred and eighty people fewer. It is the last of the three Creuse communes this site follows, and all three are falling, Guéret by 5.5 per cent and La Souterraine by 11.6. So the world capital of a craft listed by UNESCO is a town of three thousand souls losing a fifth of them in eleven years, with a reference price around eight hundred euros a square metre: of the 540 communes this site follows, only Mauriac in the Cantal is below it, and La Souterraine is level. None of that makes the visit less interesting. It explains why what you meet here are workshops rather than souvenir shops.",
+    sections: [
+      {
+        heading: "The Cité internationale de la tapisserie",
+        body: "It opened in July 2016, inaugurated on the tenth, in the former premises of the national school of decorative art, and it is at once a museum, a place of production and a training institution. The route through it does not simply line up old hangings: it shows how you get from a cartoon to a woven piece, what a lissier actually does, why the low-warp weaving of Aubusson is not the high-warp of the Gobelins, and how a contemporary commission gets made today. The joint authority behind the institution was created in 2010, in direct response to the craft going on the UNESCO list the year before.",
+      },
+      {
+        heading: "What the UNESCO listing covers, and what it does not",
+        body: "Aubusson tapestry has been on the representative list of the intangible cultural heritage of humanity since 2009. The word intangible is the important one and it is almost always misread: what is protected is not a monument, it is a body of know-how held by living people who still practise it. There is therefore nothing to visit of the listing itself, and no building carries a plaque for it. What you come to see are working workshops and finished pieces. The logic is exactly that of the Granville carnival or of a listed culinary practice: the inscription recognises a practice, not a stone. It is worth spelling out because visitors regularly arrive looking for the UNESCO site and there is not one.",
+      },
+      {
+        heading: "Aubusson weaves Tolkien",
+        body: "This is the reason a good many English-speaking visitors now come, and it is the strongest thing in the building. The Cité agreed with the Tolkien Estate to weave a series of pieces from the writer's own graphic work, and not from illustrations made by other hands: drawings Tolkien gave his children at Christmas, and his illustrations for The Hobbit and The Lord of the Rings. The signature came from Christopher Tolkien, the author's youngest son and his literary executor, the man who edited The Silmarillion and the twelve volumes of The History of Middle-earth and who drew the map of Middle-earth printed in the 1954 edition. He died in 2020, in France, which makes this one of the last projects he put his name to. Seven workshops and manufactories in the region worked on the commission, finished in 2024 after seven years. One honest reserve: published sources disagree on the exact count of the ensemble, between thirteen and fourteen wall pieces, one or two carpets, and on the total area woven. This guide does not settle what the publications have not settled. The pieces are shown in rotation and lent to other institutions, so check what is hanging before travelling for them specifically.",
+      },
+      {
+        heading: "The workshops that are still working",
+        body: "This is what separates Aubusson from a provincial museum: production never stopped. Weaving workshops, dyers and spinners work in the town and around it, on contemporary commissions as much as on restoration. Several open their doors, on days and at hours that are nothing like those of a public institution and that shift with whatever is on the looms. The tourist office keeps the list current, and that is the way to do it rather than turning up at a door. Watching a low-warp loom in use takes twenty minutes and makes the whole of the rest of the visit legible.",
+      },
+      {
+        heading: "The Maison du Tapissier",
+        body: "The building is fifteenth and sixteenth century and passes for the oldest house in town: a round turret, a chamfered rectangular doorway, a shop window under a segmental arch. In the sixteenth century it belonged to the Corneille family, weavers and sworn wardens of the royal manufactory, which is to say the people charged with inspecting the quality of what was produced. Inside, a weaver's dwelling and workshop have been reconstructed. This is where you understand that tapestry was not an art but an organised trade, with its regulations, its inspectors and its disputes, and that the whole town lived off that organisation.",
+      },
+      {
+        heading: "The Terrade bridge and the clock tower",
+        body: "The bridge dates from the sixteenth century and was for a long time the only crossing of the Creuse. The quarter it serves, the Terrade, was the dyers' quarter: you worked at the water's edge because dyeing consumes and discharges enormous quantities of it, and the topography of the town tells that division of labour better than any panel. From the bridge you get the best view of the houses clinging to the slope and of the river that made the reputation of the wool here. It is also the easiest starting point for climbing back up into the old town. Above, the clock tower, an old watchtower, gives the panorama you lack while moving about the valley floor. Around it, the climbing lanes, the stairs and the shop-fronted houses take an hour. Look at the windows: many are wide and low, sized to light a loom set up on the ground floor, and that is the detail that gives away a town of workshops rather than a town of trade. The contrast with the present state of the population is stark and there is no use hiding it. Aubusson is a town built for more people than it has.",
+      },
+      {
+        heading: "Sainte-Croix, and Felletin",
+        body: "The church was built in the thirteenth century by the viscounts of Aubusson, and it is the oldest substantial building in the town and the plainest. It is not spectacular and that is exactly right: after a day in front of woven pieces several metres across, a bare cold nave puts the proportions back. It keeps a few tapestries, which is the truest way to see them, since walls like these are what they were made for in the first place, before museums and climate-controlled cases. Ten kilometres south, Felletin claims the title of cradle of the craft, which the two communes dispute with great persistence. There are working workshops there, the Gothic church of Notre-Dame-du-Château and the church of Sainte-Valérie du Moutier, whose tower can be climbed for a view over the Millevaches plateau. One warning about a frequent confusion: the painters' valley, Crozant and Fresselines, where Monet stayed in 1889 and where Armand Guillaumin kept coming back for thirty years, is in the north of the department, more than an hour's drive from Aubusson. That is another day and very nearly another country.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "This is the real difficulty and it belongs at the start rather than the end. Aubusson is off the main routes, at the bottom of the Creuse valley, and our accessibility measure puts it among the worst-served communes in the whole corpus. You arrive by car, or by coach from Limoges and Guéret; rail service in the Creuse has changed a great deal and should be checked before a trip is built on it. For a visitor coming from outside France this is the point to plan around: the nearest useful rail hub is Limoges, and the last leg is a road one whichever way you come. A full day covers the Cité, the Maison du Tapissier, the old town and a workshop. Two if you add Felletin and a walk in the valley. The good season runs from April to October; winter is hard on this plateau and some of the workshops close.",
+      },
+    ],
+    relatedCities: ["aubusson", "gueret", "limoges", "tulle", "la-souterraine"],
+    tags: ["things to do in aubusson", "aubusson", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+
+  {
+    slug: "things-to-do-in-douarnenez-2026",
+    title: "Things to do in Douarnenez: Roman fish-sauce tanks, and where the kouign-amann comes from",
+    metaTitle: "Things to Do in Douarnenez, Finistère (2026)",
+    metaDesc:
+      "First-century Roman salting tanks on a free coast path, a museum where the boats float, and the working port that invented the kouign-amann.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 8,
+    publishedAt: "2026-09-23",
+    updatedAt: "2026-09-23",
+    intro:
+      "Douarnenez had 14,188 residents at the 2022 census against 14,063 in 2016 and 14,815 in 2011, a fall of 4.2 per cent over eleven years. It is the last of the five Finistère communes this site follows: Concarneau gains 9.6 per cent over the same period, Quimper 2.0, Brest 0.3, and Morlaix loses 2.1. It is also the cheapest of the five on our figures, with a reference square metre around 1,600 € against 2,800 € at Quimper. The two numbers say the same thing and it is better to hear it before arriving: Douarnenez is not a resort, it is a fishing port that lost its industry and was never repainted for visitors. That is precisely what makes it one of the most interesting places on the south coast of Finistère. If you have eaten a kouign-amann in Brooklyn or San Francisco, this is the town it came from.",
+    sections: [
+      {
+        heading: "The Port-Musée",
+        body: "Opened in May 1993, it occupies the Port-Rhu, the old estuary of the Pouldavid, and differs from most French maritime museums in one simple respect: part of the collection floats. From the pontoons and the quay you go aboard eight fishing and coasting vessels, some of them right down into the hold. Climbing into a working boat moored in the water it worked in is nothing like looking at a hull propped on a cradle in a shed, and that is the argument of the place. The collections ashore fill in the trades, the tools and the rigging.",
+      },
+      {
+        heading: "Sardines, and the canneries",
+        body: "Part of the museum is given to the canneries, which made the town and then unmade it. For decades Douarnenez was one of the great French sardine ports, with dozens of factories along the quays and a workforce that was overwhelmingly female. It is the social history that makes this section worth the time: the working conditions, the strikes, the rhythms imposed by whenever the fish arrived. A few canneries still operate in the town and sell on the premises; they are not heritage scenery but businesses, keeping shop hours rather than museum ones.",
+      },
+      {
+        heading: "The Plomarc'h and the garum tanks",
+        body: "At the end of the Plomarc'h path, on the edge of town, you walk through the remains of a Roman fish-salting works built in the first century AD. What was produced here was garum, along with alec and liquamen: fermented fish condiments the Empire could not do without, and the closest thing on a modern table is Southeast Asian fish sauce, which is made in much the same way. One reserve: publications disagree on the number of masonry tanks uncovered, somewhere between fifteen and thirty depending on the source and on what you decide to count. What is not in dispute is that the site is among the best preserved on the Atlantic seaboard, and that it is open, by the sea, and free.",
+      },
+      {
+        heading: "The île Tristan",
+        body: "It lies a few dozen metres off the shore and is reached only at low tide, on a guided visit. That is not arbitrary red tape: the crossing closes behind you, and the island is visited by booking, on dates when the tidal coefficient allows. On it are a botanic garden of exotic species, unexpected orchards and the remains of fortifications. The whole is an island garden rather than a wild island, and the fact that you cannot go when you feel like it is part of what makes it stick. Slots are taken through the tourist office, often several days ahead in summer.",
+      },
+      {
+        heading: "The three ports",
+        body: "The town has three of them, and confusing them is the surest way to waste a stay. Rosmeur is the fishing port, with the auction hall, the pots and the cafés that open early. Port-Rhu, in the ria, holds the museum and its floating boats. Tréboul, on the other side, is the marina, backed by a quarter that was a separate commune before it was absorbed. The three join up on foot, by the bridge and the quays, and the full walk takes a good hour. It is the best plan of the town there is: follow the water.",
+      },
+      {
+        heading: "The kouign-amann",
+        body: "It was born here, around 1860, and local tradition attributes it to the baker Yves-René Scordia, who is said to have improvised on a busy day with what he had to hand: bread dough, butter and sugar, laminated by successive folds. The anecdote is a tradition and this guide does not present it as more than that. The name is literal: kouign means cake and amann means butter, in Breton. The Douarnenez recipe rests on a ratio of forty per cent bread dough, thirty butter and thirty sugar, and the name Véritable Kouign Amann de Douarnenez was registered with the French patent office on 15 December 1999. Several bakers in town make it, and it is eaten warm. For an English-speaking reader there is a second half to this story that has nothing to do with Brittany. The pastry was effectively unknown in the United States until Dominique Ansel put it on the counter when his New York bakery opened in 2011, under the initials DKA; by 2015 bakeries in New York, Washington, Boston, San Francisco and Salt Lake City were selling it, and in some places the name had been shortened to queen because nobody could pronounce it. A lot of people now arrive in Douarnenez having met the thing three thousand miles away and never in the town that made it.",
+      },
+      {
+        heading: "Temps Fête, the beaches and the coast path",
+        body: "The Douarnenez maritime festival has existed since 1986, the year the first national gathering of heritage sailing craft in France was held here. It brings several hundred traditional boats around the Rosmeur basin for four days, with sailing, concerts and workshops in boatbuilding, ropework, forge, net-mending and sailmaking. The point not to miss: it is biennial and falls in even years. The 2026 edition, the fortieth, ran from 23 to 26 July; the next is therefore expected in 2028, and there is nothing in 2027. Any page promising otherwise is recycling a past edition. For the rest of the coast, the Sables Blancs beach at Tréboul is the main one in the commune and the best sheltered. The GR 34, the old customs officers' path, runs through the commune and lets you walk out of town in either direction, towards the cap Sizun one way and the pointe de Leydé the other. Two rules apply here as everywhere on this coast and they are not advice: you swim in the supervised zones when they are supervised, respecting the flag signage, which is a regulatory system and not a suggestion, and you stay on the waymarked path above the cliffs. The weather in the bay turns fast.",
+      },
+      {
+        heading: "The bay, the city of Ys, and getting here",
+        body: "The bay of Douarnenez is wide, shallow and very open, which makes it sought after by sailors and only a relative shelter. It is here that Breton tradition puts the city of Ys, drowned by the sea, from which King Gradlon alone is supposed to have escaped after his daughter Dahut opened the sea gate. There is nothing to visit, no remains, no evidence: it is a legend, carried by texts written long after, and saying so is better than sending someone to look for ruins underwater. It has, on the other hand, fed a great deal of music, painting and writing, and the trace of it is all over the town. English-speaking visitors have almost certainly heard the best-known piece of it without knowing what it was about: Debussy's tenth prelude of the first book, published in 1910 as La cathédrale engloutie, The Sunken Cathedral, is the cathedral of Ys rising out of the water on clear mornings, and Lalo's opera Le roi d'Ys had filled the Opéra-Comique in Paris a generation earlier. As for arriving, there is no train any more: the line from Quimper closed to passengers on 6 March 1972 and to freight in 1988, and neither track nor station is left at Tréboul. You come via Quimper station, where regional coaches take over, the Douarnenez stop being at the tourist office; check the timetable before setting off. By car the town sits at the back of its bay, off the dual carriageway. One day covers the Port-Musée, the Plomarc'h and the circuit of the three ports. Two if you add the île Tristan, which depends on the tide, and a walk on the GR 34. The good season runs from May to September; in even years the maritime festival fills the town and the beds months ahead. Out of season the port is still working, which is not true everywhere on this coast.",
+      },
+    ],
+    relatedCities: ["douarnenez", "quimper", "concarneau", "brest", "morlaix"],
+    tags: ["things to do in douarnenez", "douarnenez", "travel", "city guide", "brittany"],
+  },
+
+  {
+    slug: "things-to-do-in-quiberon-2026",
+    title: "Things to do in Quiberon: the bay the Royal Navy knows, and a coast you cannot swim from",
+    metaTitle: "Things to Do in Quiberon, Morbihan (2026)",
+    metaDesc:
+      "Swimming is banned along the whole Côte Sauvage by municipal order, the fort is a working army base, and the bay is the one Hawke sailed into in 1759.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-09-23",
+    updatedAt: "2026-09-23",
+    intro:
+      "Quiberon had 4,782 residents at the 2022 census against 4,842 in 2016 and 5,028 in 2011: a fall of 4.9 per cent over eleven years, the steepest of the five Morbihan communes this site follows, ahead of Carnac which loses 0.3 per cent while Lanester gains 4.6, Vannes 4.1 and Lorient 1.4. And yet it is the second most expensive of the five on our figures, with a reference square metre around 3,600 € and a three-room flat around 1,100 €, just behind Vannes. An expensive commune losing residents is not a contradiction: it is the signature of a resort, where what the market buys is a second home and not an address. Carnac next door shows exactly the same profile. The rest comes down to a municipal order you want to read before putting your towel down, and to the fact that in English the name of this place belongs to the Royal Navy before it belongs to the beach.",
+    sections: [
+      {
+        heading: "The Côte Sauvage, and the swimming ban",
+        body: "This is the landscape the peninsula is known for: ten kilometres or so of western coast taking the full swell, low cliffs, arches, coves and cropped heath. It is also the thing to understand before anything else. Swimming is prohibited along the whole of the Côte Sauvage by municipal order, order number 128/2021 of 20 April 2021. That is not a note of caution, it is an enforceable rule, made because of the currents and of a swell that gets up in minutes on a sea that looked flat. You walk it, you look at it, you do not swim in it. The supervised beaches are on the other coast, and there are plenty of them.",
+      },
+      {
+        heading: "The peninsula, its isthmus, and the bay of 20 November 1759",
+        body: "Quiberon is barely a peninsula at all: the sand bar tying it to the mainland narrows in places to a few dozen metres, with the road down the middle and the sea on both sides. That geography is rare in mainland France and it explains everything else, from the climate to the traffic. The former island welded itself to the coast by sediment, and the bar is still a moving, protected object that the sea bites into in heavy weather. You cross it by car, by train or by bike, and the passage between two seas sets the tone of a stay. The water on the sheltered side is Quiberon Bay, held in by the peninsula itself and by Belle-Île, Houat and Hoëdic, and for an English-speaking reader that name carries a great deal. On 20 November 1759 Admiral Sir Edward Hawke chased the French fleet under Marshal de Conflans into this bay in a November gale. Conflans ran for the shoal ground expecting that the rocks, the reefs and the weather at the entrance would turn the pursuit back. They did not. Hawke lost two ships on the reefs and broke the French fleet, and the invasion of Britain that the fleet was meant to escort never sailed. Contemporary accounts say the fighting was close enough inshore to be watched from the land. Heart of Oak, still the official march of the Royal Navy, was written that year by David Garrick with music by William Boyce for the pantomime Harlequin's Invasion, first staged at Drury Lane on New Year's Eve; the wonderful year of its first verse is 1759, the year of Minden, Lagos, Quebec and this bay. There is nothing to visit and no monument: the water is the site, and you look at it from the eastern beaches or from the Belle-Île boat.",
+      },
+      {
+        heading: "Fort Penthièvre, which is not in Quiberon",
+        body: "The fort commands the isthmus, but it belongs to the commune of Saint-Pierre-Quiberon and not to Quiberon: the distinction matters to anyone planning a route. Its construction was decided in 1747, after the siege of Lorient and the sacking of the peninsula the year before, as part of the strengthening of the south Brittany coast; it carries the name of the duc de Penthièvre, then governor of Brittany. The German army occupied it and folded it into the Atlantic Wall. One warning that is not negotiable: the fort is military ground today, a training base of the 3rd marine infantry regiment of Vannes since 1969, and it cannot be visited. No arrangement, no open day, no exception to ask about at the tourist office.",
+      },
+      {
+        heading: "The 1944 memorial",
+        body: "What you can approach at the fort is the memory. Fifty-nine resistance fighters died there between April and July 1944, fifty of them on 13 July; several dozen bodies were found in a mine gallery of the fort, since converted into a crypt. A monument was raised after the war on the upper part of the glacis, and a ceremony is held there every 13 July, followed by a mass in the ditch, near the gallery. The obelisk and the memorial area, with their explanatory plaques, are accessible, unlike the work itself. It is the gravest place on the peninsula, and the one most people drive past without stopping.",
+      },
+      {
+        heading: "The disaster of 1795",
+        body: "Thirty-six years after Hawke, and on the same ground, the British came back. On 27 June 1795 a fleet landed émigré troops on the beach at Carnac, in the bay. The expedition was paid for, armed and shipped by Britain, and one of the two squadrons carrying it was commanded by Commodore John Borlase Warren; the holds carried uniforms, muskets, cannon, gold and a quantity of forged assignats printed in London. The émigrés were joined by royalists under Georges Cadoudal, took Auray, then fell back onto the peninsula. General Hoche retook Auray, sealed the isthmus and attacked Fort Penthièvre under fire from the English ships. The final assault of 21 July routed the royalist army. It is one of the bloodiest episodes of the Chouannerie and it was fought out on a sand bar a few dozen metres wide, which makes the geography two sections up a great deal less abstract. Note the two events are quite separate and are both called Quiberon in English: a sea battle in 1759 and a failed landing in 1795, a generation and a half apart, with Britain on the losing side the second time.",
+      },
+      {
+        heading: "Port-Maria, Belle-Île, Houat and Hoëdic",
+        body: "The ferry terminal at Port-Maria is the main embarkation point for Belle-Île-en-Mer. The crossing to Le Palais takes about fifty minutes year-round, and about thirty on the summer fast shuttle. Two practical points that head off unpleasant surprises: booking is essential in season, and taking a car across is a separate, rationed and expensive business that you avoid by hiring a bike on arrival. The port is also the local fishing harbour, which makes it the best place in the commune to eat fish without any staging. The two small islands of the same archipelago, Houat and Hoëdic, are reached from the same quay and offer the exact opposite of Belle-Île: no cars, very few year-round residents, white sand and one village apiece. Houat is the larger, Hoëdic the more intimate. You go for the day, and you watch the time of the last boat back rather than counting on a fallback, because there is not one. In heavy seas the rotations can be suspended: that is not a footnote, and it needs planning for if you have not arranged to sleep over.",
+      },
+      {
+        heading: "The thalassotherapy institute, and what it is not",
+        body: "The Quiberon institute was founded in May 1964 by Louison Bobet, three times winner of the Tour de France, whose career had ended late in 1961 in a car crash that broke his femur and his ankle. It was during his rehabilitation, treated at Roscoff by Doctor René Bagot, that he became convinced of the effect of sea water and decided to build an establishment around it. That is one of the founding acts of thalassotherapy in France, and it explains why a commune of under five thousand people carries an operation on this scale. A word of vocabulary that is useful and regularly got wrong, including in brochures: thalassotherapy uses sea water drawn on site and heated, which has nothing to do with thermalism, which exploits mineral water of underground origin. Dax and Vichy are the second thing; this is the first.",
+      },
+      {
+        heading: "The sheltered beaches, the coast path, and getting here",
+        body: "The whole eastern coast, the one facing the bay, is the inverse of the Côte Sauvage: sand, a calmer sea, and lifeguard posts in season with flag signage that is regulatory and governs. The GR 34 goes right round the peninsula, which makes it one of the easiest loops on the whole path to organise: you start from where you are staying and come back to it. Cycle paths shadow part of the route. That is the best way of escaping the traffic, which is the main defect of the place in July and August. In those two months a rail shuttle called the Tire-Bouchon links Auray to Quiberon along the bay, and it is the answer to the single road across the isthmus, which saturates at the height of the season with no possible alternative, there being no other road. Outside those two months you come by coach from Auray or by car. Two days cover the Côte Sauvage, the memorial and the beaches. Three or four with Belle-Île, which deserves a full day and not a half. May, June and September give the same peninsula without the queue at the boarding gate, and the water is better in September than in June.",
+      },
+    ],
+    relatedCities: ["quiberon", "carnac", "vannes", "lorient", "douarnenez"],
+    tags: ["things to do in quiberon", "quiberon", "travel", "city guide", "brittany"],
+  },
+
+  {
+    slug: "things-to-do-in-moissac-2026",
+    title: "Things to do in Moissac: a cloister of 1100, an hour from Toulouse, on the Le Puy camino",
+    metaTitle: "Things to Do in Moissac: Cloister and Camino 2026",
+    metaDesc:
+      "Seventy-six capitals dated to 1100, an Apocalypse tympanum, and an Art deco quarter built after the flood of 1930. A stage on the GR 65.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 8,
+    publishedAt: "2026-09-23",
+    updatedAt: "2026-09-23",
+    intro:
+      "If you have walked any part of the Camino de Santiago from Le Puy-en-Velay, you have slept here. If you have not, Moissac is a town of thirteen thousand people in the Tarn-et-Garonne, an hour north of Toulouse in the Garonne valley, and it holds one of the two or three things every English-language course on Romanesque sculpture is built around. It had 13,652 residents at the 2022 census against 12,652 in 2016 and 12,365 in 2011, a rise of 10.4 per cent over eleven years. That is second of the three Tarn-et-Garonne communes this site follows, a tenth of a point behind Montauban on 10.5 and ahead of Castelsarrasin on 9.8. All three are gaining people, which is rare enough in departments of this size to be worth saying, and Moissac manages it with a reference square metre around 1,500 € against 2,200 € at Montauban. Two facts make the town, and they are a century apart: a cloister of 1100 that a railway company nearly levelled, and a flood that killed something like a hundred and twenty people in a single night of March 1930 and rebuilt four quarters in Art deco.",
+    sections: [
+      {
+        heading: "The cloister",
+        body: "It is dated with certainty to 1100, which is exceptional for an ensemble of this kind, and it has seventy-six capitals of which forty-six are historiated, that is, carved with biblical scenes and figures rather than with foliage and pattern. You go round it slowly, capital by capital, about a central garden, and that is the only good way to visit it: the value of the place is in the detail, not in the volume. It is one of the major reference points of Romanesque sculpture in Europe, and you should reckon on an hour minimum for the visit to mean anything at all.",
+      },
+      {
+        heading: "It nearly disappeared, and part of it is missing",
+        body: "In the middle of the nineteenth century the planned route of the Bordeaux to Sète railway ran through the cloister, whose complete demolition was scheduled. A campaign of protests saved it at the last moment and the line was diverted: it makes a curve to go round it, which is visible on a map. But the rescue had a price, and it is rarely mentioned: the monks' great refectory and kitchens, on the north side, were sacrificed. What you visit is therefore an amputated survivor, and knowing what is gone changes the way you look at what is left.",
+      },
+      {
+        heading: "The south doorway, and the book written about it in English",
+        body: "This is the masterpiece of Moissac and you look at it from the street, before going in at all. Carved in the first half of the twelfth century, the tympanum sets out St John's vision in the Apocalypse: Christ in majesty surrounded by the four living creatures and the twenty-four elders. The composition, the stretched proportions of the figures and the trumeau holding up the lintel are studied wherever Romanesque art is taught. If you studied it in English, you studied this doorway in particular. Meyer Schapiro came to France in 1926, aged twenty-two, to gather material on Moissac for a doctorate; the degree Columbia gave him in 1929 was the first that university awarded in fine arts and archaeology, and the greater part of the thesis appeared in The Art Bulletin in 1931 as The Romanesque Sculpture of Moissac. It changed how medieval sculpture was read in English and it is still in print. The practical note is duller: the tympanum is in the open air, so it is free, and it has been exposed to the weather for nine centuries, which is why restoration campaigns come round regularly and why part of it can be under protection or behind scaffolding on the day you arrive.",
+      },
+      {
+        heading: "The abbey church, UNESCO, and the Le Puy route",
+        body: "The abbey was founded in the eighth century, attached in 1047 to the powerful abbey of Cluny, and became in the twelfth century the principal monastic centre of south-west France. The church mixes Romanesque and Gothic in a single vessel, the upper part having been rebuilt in brick, which gives a hard contrast with the stone of the doorway. The church and its cloister have been on the UNESCO World Heritage list since 1998, under the Routes of Santiago de Compostela in France: Moissac is a stage on the Via Podiensis, the Le Puy route, which the long-distance path GR 65 follows today. That is the line that will mean most to an English-speaking visitor, because the Le Puy route is the one a large share of English-speaking Camino walkers choose for the French section. It runs from Le Puy-en-Velay to Saint-Jean-Pied-de-Port at the foot of the Pyrenees, takes most walkers between four and six weeks, and Moissac sits roughly a week short of the Spanish border. Walkers come through the town every day of the season, which is why it has more beds than a commune this size would otherwise carry, and why the cloister is busy early in the morning.",
+      },
+      {
+        heading: "The flood of March 1930",
+        body: "On the night of 3 to 4 March 1930, after torrential rain, the Tarn carried away a dyke and submerged the town. The toll is of the order of a hundred and twenty dead in a commune that then had some seven thousand four hundred inhabitants, with more than six hundred houses destroyed. Published sources disagree on the exact figures, some counting a hundred and thirty dead, others putting at fourteen hundred the number of houses to rebuild: this guide gives the order of magnitude and does not settle what the official tallies never settled. The water got into the Sainte-Blanche quarter by going round the dykes through a gap at the underpass on the Montauban road.",
+      },
+      {
+        heading: "The Art deco quarters",
+        body: "This is the direct consequence of the section above, and it is what you do not expect to find here. The reconstruction, paid for by national and international solidarity, was entrusted to a dozen Toulouse architects who brought the style of their moment with them. Four quarters were rebuilt, and close to a hundred houses are Art deco: canted façades, geometric openings, pyramidal pediments, friezes of stylised flowers. A town people come to for its Romanesque, with a substantial part of its fabric dating from 1930, deserves to have your eyes raised beyond the abbey church. The commune has held the Ville d'art et d'histoire label since 2012 and runs guided circuits on the theme.",
+      },
+      {
+        heading: "The Uvarium and the chasselas",
+        body: "Built in 1932 on the bank of the Tarn, the Uvarium is an octagonal pavilion with four large bays and four vaulted entrances, topped with frescoes of interlaced vine stems. Its front carries the inscription Don de la Ville de Paris, 1930, which tells you where the money came from. It was for tasting grapes: Moissac became a station uvale in 1931, that is, a place where people came to take the grape cure, a monodiet that had its moment between the wars and for which the Moulin de Moissac was the hotel. The word comes from the Latin uva, grape. The pavilion has gone back to being a summer guinguette. The grape in question is the chasselas, a white table variety grown on the slopes above the town, protected at European level since 1996 after a national recognition obtained in the nineteen-seventies for which the sources do not all give the same date, so only the 1996 date is retained here. It is recognised by its golden berries and by the bunches the growers trim by hand, berry by berry, before despatch. The harvest runs from the end of summer into the early autumn, and that is obviously when to buy it on the market rather than anywhere else. The cultivation of Moissac chasselas is on the national inventory of intangible cultural heritage.",
+      },
+      {
+        heading: "The Cacor canal bridge, and getting here",
+        body: "It carries the Garonne lateral canal over the Tarn, three hundred and fifty-six metres long and eight metres thirty-five wide, resting on fourteen piers. Built in 1844 and 1845 in Toulouse brick and Quercy stone by the engineer François Terrié, it is one of the longest structures of its kind in France, and you can cross it on foot or by bike along the towpath, which produces the odd sensation of walking above a river alongside a boat. The canal itself goes through Moissac and is followed without a gradient towards Castelsarrasin or towards Agen. As for arriving, Moissac has a station on the Bordeaux to Sète line, the very one that nearly took the cloister, with regional services to Agen, Montauban and Toulouse; the frequency is that of a middling station and should be checked before a day is built on it. From outside France the sensible approach is Toulouse, an hour away, and from there the train. The historic centre is a quarter of an hour from the station on foot. One day covers the cloister, the tympanum, the abbey church and a loop through the Art deco quarters. Two if you add the canal, the slopes and a market. The best period runs from April to October, with a marked preference for September, when the chasselas is picked and the heat of the Garonne valley has dropped.",
+      },
+    ],
+    relatedCities: ["moissac", "montauban", "agen", "cahors", "castelsarrasin"],
+    tags: ["things to do in moissac", "moissac", "travel", "city guide", "occitanie"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

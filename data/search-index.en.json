@@ -8097,18 +8097,53 @@
       "slug": "single-parent-holidays-dieppe-2026",
       "title": "Single-parent holidays in Dieppe: a ferry from Newhaven, and no kite festival in 2026",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "things-to-do-in-selestat-2026",
+      "title": "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
+      "emoji": "📚"
+    },
+    {
+      "slug": "things-to-do-in-obernai-2026",
+      "title": "Things to do in Obernai: a wine-route town with a railway station",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "things-to-do-in-saverne-2026",
+      "title": "Things to do in Saverne: a palace finished for a cardinal already ruined",
+      "emoji": "🌹"
+    },
+    {
+      "slug": "things-to-do-in-aubusson-2026",
+      "title": "Things to do in Aubusson: a town of three thousand that wove Tolkien for seven years",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "things-to-do-in-douarnenez-2026",
+      "title": "Things to do in Douarnenez: Roman fish-sauce tanks, and where the kouign-amann comes from",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "things-to-do-in-quiberon-2026",
+      "title": "Things to do in Quiberon: the bay the Royal Navy knows, and a coast you cannot swim from",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "things-to-do-in-moissac-2026",
+      "title": "Things to do in Moissac: a cloister of 1100, an hour from Toulouse, on the Le Puy camino",
+      "emoji": "⛪"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 274
+      "count": 281
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 268
+      "count": 275
     },
     {
       "slug": "moving-to-france",
@@ -8128,12 +8163,12 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 63
+      "count": 64
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 61
+      "count": 62
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -8143,7 +8178,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 55
+      "count": 58
     },
     {
       "slug": "buying-property-france",
@@ -8201,14 +8236,14 @@
       "count": 38
     },
     {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 35
+    },
+    {
       "slug": "working-in-france",
       "label": "working in france",
       "count": 34
-    },
-    {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 33
     },
     {
       "slug": "job-market-france",
@@ -8301,6 +8336,11 @@
       "count": 14
     },
     {
+      "slug": "alsace",
+      "label": "alsace",
+      "count": 13
+    },
+    {
       "slug": "bretagne",
       "label": "bretagne",
       "count": 12
@@ -8324,11 +8364,6 @@
       "slug": "atlantic-coast",
       "label": "atlantic coast",
       "count": 11
-    },
-    {
-      "slug": "alsace",
-      "label": "alsace",
-      "count": 10
     },
     {
       "slug": "climate",

@@ -8303,6 +8303,182 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-23
+
+- **Parité EN — `things-to-do-in-[city]-2026` batch 51, rattrapage de parité (+7 : Sélestat,
+  Obernai, Saverne, Aubusson, Douarnenez, Quiberon, Moissac).** Les 7 jumelles du batch 50 FR du
+  22/09 écrites d'un coup dans `data/guides-en.ts`. **Compteurs mesurés : FR 275, EN 275 — écart
+  nul dans les deux sens, parité rétablie** (`EN_GUIDES` 971 → 978). `npm run parity` sort en
+  **code 0**, 0 route FR sans jumelle EN (FR 221 / EN 166) : la parité de routes tient, le run
+  porte donc sur l'écart de corpus.
+  ⚠️ **Les 7 villes manquantes ont été mesurées par le résolveur de la page, pas par un diff de
+  slugs** — et c'est ce qui a évité de répéter le faux orphelin du batch 47. Un premier script
+  écrit pour ce run testait le slug de seed tel quel et a signalé `clermont-herault` comme sans
+  jumelle EN, alors que `things-to-do-in-clermont-l-herault-2026` existe depuis le batch 11 et se
+  résout par `citySlugElisions()`. **Un contrôle de parité doit appeler
+  `getEnGuide(slug)` puis `citySlugElisions(slug)`, exactement comme
+  `app/[locale]/cities/[slug]/things-to-do/page.tsx`.** Deuxième piège du même run :
+  `guideCityPhoto()` prend **deux** arguments (`guideSlug`, `relatedCities`) et résout la photo
+  **par `relatedCities`**, donc une ville absente de son propre `relatedCities` perd son en-tête
+  — c'est le défaut que le batch 44 avait dû corriger après coup. Les 7 portent leur ville en
+  1re position.
+  Contrôle de lookup / photo passé **sur les 540 villes et les 275 guides de la série**, des deux
+  côtés : **275/275 FR et 275/275 EN atteignables, 0 orphelin, 0 collision**, et un seul guide
+  sans photo d'en-tête, `things-to-do-in-vesoul-2026` — le trou du pipeline photo relevé au
+  batch 49 (Vesoul n'a aucune entrée dans `data/city-images.json`, et la jumelle FR se comporte
+  pareil, donc les deux locales restent symétriques). Ce n'est pas une régression de ce lot.
+  Aucun slug hors gabarit : les sept villes prennent « à » sans contraction, donc la règle du
+  batch 33 (**côté EN le slug se dérive du slug de seed tel quel**) n'avait rien à arbitrer, et
+  les huit exceptions restent `au-puy-en-velay`, `au-tampon`, `au-francois`, `au-robert`,
+  `au-lamentin`, `au-cannet`, `aux-abymes`, `aux-sables-d-olonne`. `metaTitle` 39-50 caractères,
+  `metaDesc` 130-150, 8 sections par guide (la série FR en compte 10, l'EN fusionne les fins de
+  liste), 1 342-1 620 mots, **0 em-dash** sur les sept réunis. Aucun tag neuf —
+  `search-index.en.json` reste à **114 tags**, donc aucune page `/tags/` créée ; `sitemap:check`
+  donne EN 28 863 → **28 870 URL**, soit exactement les 7 guides neufs (FR inchangé à 29 276).
+  ⚠️ **Vingt et une figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le
+  contrôle mécanique les remontera à chaque run, ne pas les « corriger ».** 249 figures, 228
+  retrouvées ; les 21 restantes sont vérifiées en ligne avant écriture et relèvent de la matière
+  propre à l'angle anglophone que le batch 50 avait demandée.
+  ① **Sélestat** : `1800` et `1510`. C'était le point de vigilance nº 1 du batch 50, et c'est le
+  guide le plus piégeux du lot. **L'histoire d'origine qu'un lecteur britannique porte est
+  victorienne** : la reine Charlotte, épouse allemande de George III, est créditée du premier
+  sapin de Noël anglais à Windsor en **1800** — et c'était un **if**, pas un sapin — et la coutume
+  ne se généralise qu'après la gravure de Victoria, Albert et leurs enfants autour d'un arbre
+  publiée par l'*Illustrated London News* en **1848** (date déjà au FR, qui l'utilise pour le
+  classement de Saint-Georges). Le registre de Sélestat précède cette gravure de plus de trois
+  siècles. La divergence du FR est reprise **sans être résolue** et même élargie, car les sources
+  anglophones la documentent mieux : Strasbourg 1492, la revendication de Riga datée **1510** et
+  celle de Tallinn placée plus tôt encore, toutes deux appuyées sur la **confrérie des
+  Têtes-Noires**, une guilde marchande qui coupait un arbre, l'ornait, le promenait **puis le
+  brûlait** — ce qui est précisément pourquoi les historiens y voient des fêtes de corporation
+  sans rapport avec Noël ; l'historien letton **Gustavs Strenga** ne tient aucune des deux pour
+  exacte. S'y ajoute l'objection faite au document de Sélestat lui-même, que le FR ne porte pas :
+  le **21 décembre est la fête de saint Thomas apôtre**, et ce qui est payé est la garde d'un
+  bois, pas la parure d'un arbre. ⚠️ **La date de 1441 souvent donnée à Tallinn n'est pas citée**,
+  parce qu'elle contredirait le « début du XVIᵉ siècle » de la jumelle FR pour un gain nul.
+  ② **Saverne** : `1772`, `1774`, `1837`, `1796`, `1822`. C'est le guide où l'angle anglophone est
+  le plus fort du lot, et le batch 50 ne l'avait pas vu venir. **L'affaire du collier est une
+  histoire que le lecteur anglophone connaît déjà** sans savoir qu'elle a une adresse : Rohan a
+  été **ambassadeur de France à Vienne de 1772 à 1774**, où il s'est fait détester de
+  Marie-Thérèse — qui le tenait pour « a dreadful type without morals » — et par ricochet de sa
+  fille, ce qui donne enfin **sa cause** à la scène du collier que le FR raconte sans mobile. Et
+  **Thomas Carlyle l'a racontée dans *Fraser's Magazine* en 1837**, l'année même de sa *French
+  Revolution*, Dumas en ayant tiré un roman. Second apport : le télégraphe Chappe se lit autrement
+  quand on sait que **l'Amirauté britannique a refusé de copier Chappe** et fait dessiner par le
+  Revd Lord George Murray un télégraphe **à volets**, première ligne achevée en **janvier 1796**
+  puis prolongée de Londres à Portsmouth la même année — bâti **à cause** de l'appareil qu'on
+  regarde ici — avant de céder et d'adopter le sémaphore Chappe, ligne de Portsmouth en **1822**.
+  ③ **Quiberon** : `1759`. C'est le meilleur angle anglophone du batch et le batch 50 ne l'avait
+  pas identifié non plus : **un anglophone qui tape « Quiberon » tombe d'abord sur la Royal
+  Navy**. Le **20 novembre 1759**, l'amiral **sir Edward Hawke** poursuit la flotte française du
+  maréchal de Conflans **dans la baie même**, par coup de vent de novembre, au milieu des récifs
+  où Conflans comptait le voir renoncer ; Hawke perd deux navires sur les cailloux, brise la
+  flotte française et l'invasion de la Grande-Bretagne qu'elle devait escorter ne part jamais.
+  **Heart of Oak**, toujours marche officielle de la Royal Navy, est écrit cette année-là par
+  **David Garrick** sur une musique de **William Boyce** pour la pantomime *Harlequin's Invasion*,
+  créée à Drury Lane la nuit du Nouvel An ; le « wonderful year » de son premier couplet est
+  **1759**, année de Minden, Lagos, Québec et de cette baie. Le fait est **géographique avant
+  d'être militaire** et c'est pour ça qu'il tient la section de l'isthme : la baie est définie par
+  la presqu'île, Belle-Île, Houat et Hoëdic, c'est-à-dire par les sections 2, 6 et 7 du guide FR.
+  ⚠️ **Aucun bilan humain n'est cité** (les sources donnent 2 500 marins, 630 pour le seul
+  *Superbe*, sans concorder), et le guide **distingue explicitement les deux Quiberon anglais** :
+  la bataille navale de 1759 et le débarquement manqué de 1795, à trente-six ans d'écart, la
+  Grande-Bretagne du côté des perdants la seconde fois. Pour 1795, le FR est complété par le nom
+  du **commodore John Borlase Warren** et par le fait que l'expédition était **payée, armée et
+  transportée par Londres** (assignats faux imprimés à Londres compris) — sans chiffre, les
+  effectifs divergeant entre le FR (4 000) et les sources anglophones (3 000).
+  ④ **Moissac** : `1926`, `1929`. C'était le point de vigilance nº 4 du batch 50 — poser Moissac
+  face à Toulouse et au Camino dès la première ligne — et il est honoré dès l'intro, mais l'angle
+  le plus fort est ailleurs : **si vous avez étudié la sculpture romane en anglais, vous avez
+  étudié ce portail**. **Meyer Schapiro** vient en France en **1926**, à **22 ans**, pour réunir
+  la matière d'une thèse sur Moissac ; le doctorat que Columbia lui décerne en **1929** est le
+  **premier** que cette université délivre en histoire de l'art et archéologie, et l'essentiel du
+  travail paraît dans *The Art Bulletin* en **1931** sous le titre *The Romanesque Sculpture of
+  Moissac*. La voie du Puy est en outre **celle que choisit une large part des marcheurs
+  anglophones** du Camino en France, et Moissac est à une semaine environ de la frontière.
+  ⑤ **Obernai** : `1664`. Le FR dit que la commune abrite le site Kronenbourg et que c'est une
+  emprise industrielle ; côté EN cela vaut davantage, parce que **le nombre imprimé sur la
+  bouteille est une date** — brasserie fondée en **1664** par Geronimus Hatt à Strasbourg, groupe
+  Carlsberg aujourd'hui — et que **1664 est la deuxième lager premium la plus vendue au
+  Royaume-Uni**. La bière qu'on sert dans un pub de Leeds est brassée, dans sa forme française,
+  en bordure de ce bourg. ⑥ **Aubusson** : `1954`, `2020`. C'était le point de vigilance nº 2 du
+  batch 50 et il est honoré par **un nom** : l'accord avec la Tolkien Estate a été signé par
+  **Christopher Tolkien**, fils cadet et exécuteur littéraire de l'auteur, éditeur du *Silmarillion*
+  et des douze volumes de *The History of Middle-earth*, **auteur de la carte de la Terre du Milieu
+  imprimée dans l'édition de 1954**, mort en **2020** en France — ce qui fait du chantier d'Aubusson
+  l'un des derniers projets qu'il ait signés. ⚠️ **La date de signature reste « 2017 » comme au FR**
+  alors que plusieurs sources anglophones la placent fin 2016, et **le décompte de l'ensemble n'est
+  pas tranché** (13 ou 14 tentures, 1 ou 2 tapis, surface) : la réserve du FR est reprise telle
+  quelle, on ne résout pas côté EN ce que le FR a explicitement laissé ouvert.
+  ⑦ **Douarnenez** : `2011`, `2015`, `1910`. Le kouign-amann est **le seul élément du lot qu'un
+  lecteur nord-américain a déjà mangé** : inconnu aux États-Unis jusqu'à ce que **Dominique Ansel**
+  le mette en vitrine à l'ouverture de sa boulangerie new-yorkaise en **2011** sous le sigle
+  **DKA** ; dès **2015** New York, Washington, Boston, San Francisco et Salt Lake City en
+  vendaient, certains raccourcissant le nom en *queen* faute de savoir le prononcer. (Le `2011` est
+  mécaniquement retrouvé dans la jumelle FR, qui porte le recensement de 2011 — coïncidence, pas
+  correspondance.) Et là où le FR dit que la légende d'Ys « a nourri quantité de musique » sans
+  nommer une seule œuvre, l'EN nomme celle que le lecteur a certainement entendue : le dixième
+  prélude du premier livre de Debussy, publié en **1910**, *La cathédrale engloutie*, est la
+  cathédrale d'Ys remontant de l'eau, et l'opéra *Le roi d'Ys* de Lalo avait rempli l'Opéra-Comique
+  une génération plus tôt.
+  **Les prudences du FR sont reprises telles quelles, à ne pas diluer** : primauté du sapin de
+  Sélestat **disputée** ; Sélestat dans le **réseau** des sites Vauban **sans être** l'un des douze
+  ouvrages inscrits en 2008 ; dates du Corso fleuri à vérifier auprès de l'office de tourisme et
+  non sur une page recopiée de l'édition passée ; **Haut-Koenigsbourg à Orschwiller**, reconstitution
+  de 1900-1908 inaugurée devant Guillaume II ; **Mont Sainte-Odile et mur païen à Ottrott** ;
+  **Kronenbourg = emprise industrielle en activité, pas un musée**, dit avant toute phrase
+  attrayante (même traitement que la base 106 de Mérignac au batch 28, la base 701 de Salon au
+  batch 34 et la BA 125 d'Istres au batch 44) ; route des Vins = **réseau de routes départementales
+  jalonnées et non sentier balisé** ; musée de Saverne à horaires variables ; **roseraie fermée hors
+  saison** ; passerelle du Haut-Barr déconseillée aux sujets au vertige ; **plan incliné à
+  Saint-Louis, en Moselle**, donc excursion ; maison Katz = restaurant, façade depuis la rue ;
+  **inscription UNESCO immatérielle d'Aubusson = un savoir-faire et non un bâtiment**, rien à
+  visiter de l'inscription elle-même ; ateliers d'Aubusson aux horaires mouvants, passer par
+  l'office de tourisme ; **vallée des peintres au nord du département, à plus d'une heure** ;
+  Aubusson **parmi les communes les moins bien desservies du corpus** ; nombre de cuves à garum
+  **non tranché** (quinze à trente) ; origine du kouign-amann donnée pour **tradition** ; île
+  Tristan **à marée basse, visite guidée sur réservation** ; **Temps Fête biennal, années paires,
+  rien en 2027** ; drapeaux de baignade **réglementaires** et sentier balisé au-dessus des falaises ;
+  **Ys = légende, rien à visiter** ; plus de train à Douarnenez depuis le 6 mars 1972 ; **baignade
+  interdite sur toute la Côte Sauvage par l'arrêté n° 128/2021 du 20 avril 2021**, écrite comme une
+  **règle opposable** et non comme un conseil (point de vigilance nº 3 du batch 50) ; **fort de
+  Penthièvre à Saint-Pierre-Quiberon et non à Quiberon**, terrain militaire du 3ᵉ RIMa depuis 1969,
+  **qui ne se visite pas** — la version EN ajoute « no arrangement, no open day, no exception to ask
+  about » parce qu'un visiteur étranger est plus enclin à aller demander ; rotations de Houat et
+  Hoëdic **suspendues par mer formée** ; **thalassothérapie ≠ thermalisme** ; **cloître de Moissac
+  amputé** de son réfectoire et de ses cuisines par le sauvetage de 1850 ; **bilan de la crue de
+  1930 non tranché** ; **date de l'AOC chasselas non tranchée**, seule l'AOP de 1996 retenue ;
+  tympan en plein air, donc possiblement sous échafaudage.
+  Ajouts sans chiffre propres au lecteur étranger : **Érasme enseignait le grec à Cambridge et
+  logeait à Queens' College** quelques années avant ses quatre séjours à Sélestat, ce qui rattache
+  la bibliothèque à un nom que le lecteur a croisé sur un escalier de collège anglais (⚠️ **la chaire
+  Lady Margaret n'est pas citée** : les historiens ne s'accordent ni sur le fait qu'il l'ait obtenue
+  ni sur l'année de son départ) ; **« beffroi » défini comme tour civile et non clocher**, la
+  démolition de la chapelle et la conservation de la tour étant précisément la démonstration ;
+  **« lissier », basse lisse contre haute lisse des Gobelins** ; **garum expliqué par la sauce de
+  poisson d'Asie du Sud-Est**, faite de la même manière ; **« station uvale » et *uva*** glosés ;
+  et Toulouse posée comme l'approche pratique de Moissac pour qui vient de l'étranger.
+  ⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. CLAUDE.md § Commands depuis le
+  batch 27 : 4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal
+  utile). Le substitut prescrit passe en entier : `npx tsc --noEmit` **propre**,
+  `npm run integrity` (guides EN 971 → 978), `search-index` + `search-index:check`,
+  `sitemap:check`, `npm run parity` (**code 0**), `npm run hreflang:check`, plus le contrôle de
+  lookup / photo exhaustif ci-dessus, le contrôle de figures et une vérification d'encodage
+  (accents intacts, aucun mojibake, aucune apostrophe ni guillemet typographique, aucun `m2` /
+  `EUR` / `deg` ascii, aucune figure en `/10`, aucun horaire, aucun tarif). Note d'environnement
+  reconfirmée : le conteneur de routine démarre **sans `node_modules`** — `npm install` d'abord.
+  ⚠️ Egress : `en.wikipedia.org` répond **EGRESS_BLOCKED** en `WebFetch` depuis la routine, alors
+  que **la recherche web fonctionne** : les faits ci-dessus ont donc été recoupés sur plusieurs
+  résultats plutôt que sur une fiche unique, méthode retenue depuis le batch 48.
+  **Prochain run de la série : batch FR** (l'écart est nul, la série FR reprend la main). Il reste
+  **265 villes du seed sur 540 sans guide tourisme** ; gisements nommés restants au batch 50 :
+  **Saint-Herblain** (écarté au batch 34 faute de matière), les **trois banlieues bordelaises**
+  jamais faites (Villenave-d'Ornon, Talence, Le Bouscat) et les trous mesurés au batch 50 — Sedan,
+  Firminy, Corte, Gérardmer, Les Andelys, Paray-le-Monial, Sanary-sur-Mer, Noirmoutier-en-l'Île
+  (⚠️ slug de seed `noirmoutier`), Vitré, Lannion, Hendaye, Saint-Flour, Embrun.
+
+---
+
 ## Shipped 2026-09-22
 
 - **R13.2 — palmarès de décembre 2026 : la structure par âge réelle, et le constat que les villes
