@@ -7979,6 +7979,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "vacances-celibataire-marseille-2026",
+      "title": "Vacances célibataire à Marseille en 2026 : la meilleure scène du soir du corpus, et son score de vie le plus bas",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-villeurbanne-2026",
+      "title": "Vacances célibataire à Villeurbanne en 2026 : la scène la plus régulière du corpus, et Lyon à deux stations",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-saint-paul-reunion-2026",
+      "title": "Vacances célibataire à Saint-Paul de La Réunion en 2026 : le lagon est à Saint-Gilles, pas devant la ville",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-nimes-2026",
+      "title": "Vacances célibataire à Nîmes en 2026 : la seule du lot qui passe aussi la règle des étudiants",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-bastia-2026",
+      "title": "Vacances célibataire à Bastia en 2026 : la première destination corse de la série, et la moins bien desservie",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-amiens-2026",
+      "title": "Vacances célibataire à Amiens en 2026 : une salle de 500 places ouverte le 12 septembre, dans le quartier qui sort",
+      "emoji": "🍸"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -10438,6 +10468,11 @@
     {
       "slug": "vins",
       "label": "vins",
+      "count": 3
+    },
+    {
+      "slug": "voyage-solo-la-reunion",
+      "label": "voyage solo La Réunion",
       "count": 3
     },
     {

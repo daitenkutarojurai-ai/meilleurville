@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CalendarClock, TrainFront, BedDouble, Info } from "lucide-react";
+import { CalendarClock, TrainFront, BedDouble, Info, Wine } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_LIGHT, type CityLight } from "@/lib/cities-light";
@@ -14,6 +14,7 @@ import {
   INSEE_POP_CREDIT,
   INSEE_POP_YEAR,
 } from "@/lib/city-population";
+import { NEIGHBORHOODS } from "@/data/neighborhoods";
 
 // Sections propres au voyage en célibataire — la distinction avec « solo »
 // (voyager seul·e, où sécurité et calme priment) tient ici :
@@ -86,6 +87,31 @@ function celibPool() {
 // deux constantes, il ne recopie pas les seuils d'un journal.
 const YOUTH_SHARE_FLOOR = 20;
 const RESIDENT_POP_FLOOR = 40_000;
+
+// ⚠️ Mesure du 2026-09-26, à lire avant de reprendre cette règle pour choisir
+// des villes : **elle est épuisée, et elle l'est arithmétiquement.** Le terme
+// contraignant n'est pas la part des 15-29 ans, c'est `life >= 7.0`, que 62
+// communes seulement franchissent sur les 495 que ce profil classe ; croisé
+// avec `culture >= 6.5` il en reste 51, et avec YOUTH_SHARE_FLOOR il en reste
+// **treize**. Neuf ont leur guide (Rennes, Angers, Bordeaux, Nantes,
+// Strasbourg, Aix-en-Provence, La Rochelle, Albi, Bayonne) ; des quatre
+// autres, deux sont des communes résidentielles de la petite couronne que la
+// série écarte depuis son premier lot (Levallois-Perret, Versailles) et deux
+// sont sous le plancher de population (Le Puy-en-Velay 18 989 habitants,
+// Valbonne 12 389). Supprimer le plancher de population n'y change donc rien,
+// et le remplacer par un effectif absolu de 15-29 ans non plus : la plus
+// basse des cinquante destinations déjà publiées en compte 9 749 (Compiègne),
+// quand Le Puy-en-Velay en compte 4 019 et Valbonne 2 851.
+// ⚠️ Corollaire sur le batch 7 du 2026-09-19, qui annonçait onze candidates
+// au-dessus de YOUTH_SHARE_FLOOR : ce décompte a été obtenu **sans les deux
+// seuils de score ci-dessus**, alors que le titre de la section les publie.
+// Six de ses sept villes ne franchissent pas `life >= 7.0` (Angoulême 5,5,
+// Arras 5,9, Beauvais 5,9, Lorient 6,2, Compiègne 6,8, Vannes 7,8 étant la
+// seule à passer, Albi 7,4 la seconde). Le batch 7 avait corrigé le plancher
+// de population que le batch 6 avait durci en silence et laissé tomber, en
+// silence aussi, les deux termes qui mesurent ce que la section annonce. La
+// règle a **quatre** termes : les recopier tous les quatre ou n'en reprendre
+// aucun.
 
 /** Part des 15-29 ans dans la population résidente (%), Insee 2022. */
 function youngAdultShare(slug: string): number | null {
@@ -225,6 +251,122 @@ function soloBudgetDestinations(): SoloBudgetPick[] {
     .slice(0, 10);
 }
 
+// ─── Section 4 : la scène du soir documentée ─────────────────────────────
+//
+// Les trois sections ci-dessus mesurent la ville : sa démographie, sa
+// desserte, son coût. Aucune ne mesure **ce qu'on vient y faire**. Cette
+// quatrième-là part de l'autre bout, du quartier plutôt que de la commune, et
+// de la seule note que nous publions sur la vie du soir : le score de vie
+// nocturne des quartiers documentés dans `data/neighborhoods.ts`.
+//
+// ⚠️ **Ce n'est pas un recensement de bars, et il ne faut pas l'écrire comme
+// tel.** `data/neighborhoods.ts` est un jeu **éditorial calibré**, deux à
+// trois quartiers par commune, et ce sont les quartiers les mieux connus —
+// c'est la raison pour laquelle la série de guides « quartiers à éviter » a
+// été écartée en 2026-07-28. Ce que la colonne mesure est donc une
+// **estimation de notre part sur les quartiers que nous documentons**, pas un
+// décompte de terrain, et une commune peut avoir une scène que nos trois
+// fiches ne voient pas. En positif, l'usage tient : dire d'un quartier
+// documenté qu'il sort le soir engage notre note, pas la réputation de
+// personne.
+//
+// Barème, calibré sur le corpus et non choisi à vue :
+//   - `NIGHTLIFE_FLOOR = 8.0` sur le **meilleur** quartier documenté de la
+//     commune. Sur les 495 villes que ce profil classe, la médiane de cette
+//     valeur est 6,5 et le 9ᵉ décile 7,5 : le plancher est donc au-dessus du
+//     neuvième décile. 41 communes sur 540 l'atteignent.
+//   - `SENIOR_SHARE_CEILING = 32` % de résidents de 60 ans et plus. C'est le
+//     garde anti-station-fantôme de cette section, et il remplace la part des
+//     15-29 ans parce qu'il attrape ce que l'autre rate : une station peut
+//     avoir une vraie scène de bord de mer et la refermer en octobre. Le 3ᵉ
+//     quartile national est à 31,0 %, donc le plafond est juste au-dessus ;
+//     47 des 50 destinations déjà publiées passent dessous.
+//   - `RESIDENT_POP_FLOOR`, le plancher de population déjà publié plus haut.
+//
+// La règle est plus fidèle à la série que celle de la section 1 : 24 des 50
+// destinations déjà publiées la satisfont, contre 9 pour l'autre.
+const NIGHTLIFE_FLOOR = 8.0;
+const SENIOR_SHARE_CEILING = 32;
+
+const NIGHTLIFE_BY_CITY = new Map(
+  NEIGHBORHOODS.map((c) => [
+    c.citySlug,
+    {
+      best: Math.max(...c.neighborhoods.map((n) => n.scores.nightlife)),
+      bestName:
+        [...c.neighborhoods].sort(
+          (a, b) => b.scores.nightlife - a.scores.nightlife,
+        )[0]?.name ?? "",
+      documented: c.neighborhoods.length,
+    },
+  ]),
+);
+
+interface NightScenePick {
+  city: CityLight;
+  score: number;
+  best: number;
+  bestName: string;
+  documented: number;
+  seniors: number;
+}
+
+// ⚠️ Cette section lit le **classement entier** et non `celibPool()`, et c'est
+// une correction et non une inattention. Mesuré le 2026-09-26 : sur les 33
+// communes qui satisfont le barème ci-dessous, **17 sont au-delà du rang 100**,
+// dont Paris (118ᵉ), Lille (106ᵉ), Bayonne (129ᵉ), Montpellier (145ᵉ), Nice
+// (146ᵉ) et Marseille (322ᵉ). La fenêtre de 100 rendait donc les trois listes
+// précédentes incapables de contenir Paris — sur une page qui parle de sortir
+// le soir. La cause est l'axe `life`, qui pèse 0,30 dans ce profil et qui
+// mesure la qualité du quotidien d'un **résident** : il vaut 5,5 à Paris, 5,7 à
+// Lille, 5,9 à Montpellier et 4,1 à Marseille, c'est-à-dire qu'il pénalise
+// précisément les villes dont la soirée est l'argument. Ne pas « harmoniser »
+// cette section sur les trois autres en lui remettant le pool.
+function nightSceneDestinations(): NightScenePick[] {
+  // ⚠️ `limit` est explicite : sans option, `topCitiesForProfile` s'arrête à 30.
+  const eligible = topCitiesForProfile("celibataire", CITIES_LIGHT, {
+    limit: CITIES_LIGHT.length,
+  })
+    .map(({ city, fit }) => {
+      const n = NIGHTLIFE_BY_CITY.get(city.slug);
+      const rec = cityPopulation(city.slug);
+      const seniors = seniorShare(city.slug);
+      if (!n || !rec || seniors === null) return null;
+      return {
+        city,
+        score: fit.score,
+        best: n.best,
+        bestName: n.bestName,
+        documented: n.documented,
+        seniors,
+        residents: rec.pop2022,
+      };
+    })
+    .filter((p): p is NonNullable<typeof p> => p !== null)
+    .filter(
+      (p) =>
+        p.best >= NIGHTLIFE_FLOOR &&
+        p.seniors < SENIOR_SHARE_CEILING &&
+        p.residents >= RESIDENT_POP_FLOOR,
+    )
+    .sort((a, b) => b.best - a.best || b.score - a.score);
+
+  // Une égalité ne se coupe jamais en son milieu (convention de
+  // `lib/owner-rankings.ts`) : la note de vie du soir est publiée au dixième et
+  // les paliers y sont larges — le palier 8,0 compte à lui seul une douzaine de
+  // communes. On s'arrête donc **avant** le palier qui déborde de la cible,
+  // plutôt que d'en publier une moitié dans l'ordre d'insertion du seed.
+  const TARGET = 12;
+  const out: NightScenePick[] = [];
+  for (let i = 0; i < eligible.length; ) {
+    const band = eligible.filter((p) => p.best === eligible[i].best);
+    if (out.length > 0 && out.length + band.length > TARGET) break;
+    out.push(...band);
+    i += band.length;
+  }
+  return out;
+}
+
 // ─── Rendu ────────────────────────────────────────────────────────────────
 
 function Section({
@@ -260,6 +402,7 @@ export function CelibataireExtras() {
   const offSeason = offSeasonAlivePicks();
   const trainDest = trainAccessibleDestinations();
   const soloBudget = soloBudgetDestinations();
+  const nightScene = nightSceneDestinations();
 
   return (
     <>
@@ -434,6 +577,87 @@ export function CelibataireExtras() {
           coliving) · population ≥ 60 000 hab. Villes taggées{" "}
           <em>premium</em> exclues. Les valeurs ne sont pas des prix de nuit,
           c'est un filtre.
+        </p>
+      </Section>
+
+      {/* Section 4 — La scène du soir documentée */}
+      <Section
+        emoji={<Wine className="h-6 w-6" />}
+        title="La scène du soir, quartier par quartier"
+        intro="Les trois listes précédentes mesurent la ville : qui y habite, comment on y arrive, ce qu'elle coûte. Celle-ci mesure ce qu'on vient y faire, et elle part du quartier. Pour chaque commune, on retient la note de vie nocturne de son quartier documenté le mieux noté, à condition que moins d'un résident sur trois ait 60 ans ou plus — une station peut très bien avoir une scène de bord de mer et la refermer en octobre."
+      >
+        <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
+          <table className="w-full text-sm min-w-[560px]">
+            <thead>
+              <tr className="border-b border-[var(--border)] text-left text-[var(--text-tertiary)] text-xs uppercase tracking-wide">
+                <th className="py-2 pr-3">Ville</th>
+                <th className="py-2 pr-3">Quartier le mieux noté</th>
+                <th className="py-2 pr-3 text-right">Vie du soir</th>
+                <th className="py-2 pr-3 text-right">60 ans +</th>
+                <th className="py-2 text-right">Fit</th>
+              </tr>
+            </thead>
+            <tbody>
+              {nightScene.map(
+                ({ city, best, bestName, documented, seniors, score }) => (
+                  <tr
+                    key={city.slug}
+                    className="border-b border-[var(--border)]/50 last:border-0"
+                  >
+                    <td className="py-2 pr-3">
+                      <Link
+                        href={`/villes/${city.slug}`}
+                        className="text-[var(--text-primary)] hover:text-[var(--accent)] font-medium"
+                      >
+                        {city.name}
+                      </Link>
+                      <span className="ml-2 text-[11px] text-[var(--text-tertiary)]">
+                        {city.department}
+                      </span>
+                    </td>
+                    <td className="py-2 pr-3 text-[var(--text-secondary)]">
+                      <Link
+                        href={`/villes/${city.slug}/quartiers`}
+                        className="hover:text-[var(--accent)]"
+                      >
+                        {bestName}
+                      </Link>
+                      <span className="ml-1.5 text-[11px] text-[var(--text-tertiary)]">
+                        sur {documented} documentés
+                      </span>
+                    </td>
+                    <td className="py-2 pr-3 text-right font-mono-data text-[var(--text-secondary)]">
+                      {best.toFixed(1)}
+                    </td>
+                    <td className="py-2 pr-3 text-right font-mono-data text-[var(--text-tertiary)]">
+                      {seniors.toFixed(1)} %
+                    </td>
+                    <td className="py-2 text-right font-mono-data font-bold text-[var(--accent)]">
+                      {score.toFixed(1)}
+                    </td>
+                  </tr>
+                ),
+              )}
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-3 text-[11px] text-[var(--text-tertiary)] leading-relaxed">
+          Seuils : vie du soir du meilleur quartier documenté ≥{" "}
+          {NIGHTLIFE_FLOOR.toLocaleString("fr-FR", {
+            minimumFractionDigits: 1,
+          })}{" "}
+          (médiane du corpus 6,5, neuvième décile 7,5 ; 41 communes sur 540
+          l'atteignent) · part des 60 ans et plus &lt;{" "}
+          {SENIOR_SHARE_CEILING} % (3ᵉ quartile national 31,0 %) · population ≥{" "}
+          {RESIDENT_POP_FLOOR.toLocaleString("fr-FR")} habitants.{" "}
+          <strong>
+            Cette note de vie du soir est une estimation de notre part
+          </strong>{" "}
+          sur les deux à trois quartiers que nous documentons par commune, pas
+          un recensement de bars ni un relevé de terrain : une ville peut avoir
+          une scène que nos fiches ne voient pas, et la colonne « sur N
+          documentés » dit sur combien de quartiers la note est prise. Part des
+          60 ans et plus : {INSEE_POP_CREDIT}, millésime {INSEE_POP_YEAR}.
         </p>
       </Section>
 
