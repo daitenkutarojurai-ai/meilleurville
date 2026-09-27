@@ -70,7 +70,16 @@ export default async function GuidePage({ params }: Props) {
   const guide = GUIDES.find((g) => g.slug === slug);
   if (!guide) notFound();
 
-  const relatedGuides = GUIDES.filter((g) => guide.relatedGuides.includes(g.slug));
+  // `g.slug !== guide.slug` : un guide qui se cite lui-même dans `relatedGuides`
+  // rendait une carte « À lire ensuite » pointant sur la page courante
+  // (`meilleures-villes-familles-ecoles-securite-france-2025`, trouvé le
+  // 2026-09-27). Le filtre vit ici et pas dans la donnée pour que la faute ne
+  // puisse pas revenir par l'un des 1 173 guides ; c'est la discipline que
+  // `suggestNextGuides` applique déjà de son côté (`lib/guide-suggestions.ts`,
+  // qui exclut `current.slug` avant de proposer).
+  const relatedGuides = GUIDES.filter(
+    (g) => g.slug !== guide.slug && guide.relatedGuides.includes(g.slug)
+  );
   const nextGuides = suggestNextGuides(guide, 3);
 
   // Prev/next siblings within the same category, ordered by publish date so

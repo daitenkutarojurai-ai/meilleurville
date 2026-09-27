@@ -8,15 +8,25 @@
  * trade-off instead of a uniform "everywhere is great".
  *
  * Mechanics:
- *  1. Per-axis z-score normalization → target mean ≈ 5.0, std ≈ 1.7
- *     clamped to [1.8, 8.8]. Pulls clusters apart and pushes weak cities down.
+ *  1. Per-axis z-score normalization → target mean ≈ 5.7, std ≈ 1.7
+ *     clamped to [2.2, 9.0]. Pulls clusters apart and pushes weak cities down.
  *  2. Global is a weighted mean MINUS a "worst-axis penalty":
  *       penalty = max(0, (4.5 - min_axis)) * 0.35
  *     so a city with safety 3.0 loses ~0.5 pts on its global score.
- *     (Le multiplicateur a été ramené de 0,55 à 0,35 dans le code sans que
- *     ce bloc suive : il annonçait 0,55 et « ~0.8 pts » pour un calcul qui
- *     rend 0,525. Le code fait foi, cf. `worstPenalty` plus bas.)
- *  3. Final clamp on global: [2.5, 8.6].
+ *  3. Final clamp on global: [2.8, 8.6].
+ *
+ * ⚠️ Ce bloc a dérivé quatre fois du code qu'il décrit, et une seule des
+ * quatre a été corrigée le 2026-09-23 (le multiplicateur, ramené de 0,55 à
+ * 0,35 dans le code sans que le commentaire suive). Les trois autres tenaient
+ * encore le 2026-09-27 : la moyenne cible annoncée 5,0 pour `TARGET_MEAN = 5.7`,
+ * le clamp d'axe annoncé [1,8 – 8,8] pour `MIN = 2.2` / `MAX = 9.0`, et le clamp
+ * global annoncé [2,5 – 8,6] pour `GLOBAL_MIN = 2.8`. Les quatre valeurs
+ * ci-dessus sont désormais celles des constantes, et elles sont confirmées par
+ * la distribution réellement rendue par `CITIES_SEED` (540 villes : moyennes
+ * d'axe 5,68–5,72, minimum d'axe 2,2, maximum d'axe 9,0, global 2,8–8,4).
+ * **Les constantes font foi** : elles sont vingt lignes plus bas, ce commentaire
+ * n'est qu'un résumé, et un résumé faux du barème de notes est ce qui a produit
+ * les 1 026 chiffres dérivés du corpus de guides (cf. CLAUDE.md § Score pipeline).
  *
  * Applied AFTER calibrateScores so editorial overrides still anchor ordering.
  * We keep the *ranking* but stretch the *spread*.
