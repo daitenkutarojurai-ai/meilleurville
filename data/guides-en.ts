@@ -41220,6 +41220,375 @@ export const EN_GUIDES: EnGuide[] = [
     ],
   },
   {
+    slug: "solo-travel-in-marseille-2026",
+    title:
+      "Solo travel in Marseille: the best night out in this series, and the metro stops at 21:30",
+    metaTitle: "Solo Travel in Marseille 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Marseille alone: culture 9.0/10, nightlife 9.0/10 at the Cours Julien, the lowest daily-life score of the fifty-six, and a metro that stops at 21:30 midweek.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    intro:
+      "Marseille was the largest hole this series had left, and the reason it was left is worth stating. Of the fifty-six destinations we now publish, it carries the highest culture score in our data, 9.0/10, level with Paris, Lyon, Strasbourg and Avignon. It also carries the lowest daily-life score, 4.1/10, and the lowest safety score, 2.7/10, alone in last place on both. Because the ranking for this profile combines its weightings, where daily life counts for 0.30 and safety for 0.10, with the city's overall score for 0.45, those two figures pushed Marseille to 322nd of 495: the city appeared in none of the lists on its own profile page. This batch corrects that method fault by ranking destinations on the nightlife of their districts rather than on an axis that measures what a resident lives through across a year.",
+    sections: [
+      {
+        heading:
+          "Why Marseille: the Cours Julien against an axis that does not measure an evening",
+        body:
+          "The Cours Julien and Noailles district scores 9.0/10 for nightlife in our district records, the highest value in Marseille and one of five scores at 9.0 among the fifty-six destinations in the series, with Bordeaux, Montpellier, Bayonne and Lille. Only Paris at 9.5, Lyon and Nice at 9.2 and Nantes and Toulouse at 9.1 sit above it. The average across the three Marseille districts we document is 7.67, ninth of the corpus. Against that, the seed's daily-life axis gives Marseille 4.1/10, last of the fifty-six, behind Nîmes, Bastia and Amiens at 5.1. The two measures are not saying the same thing and there is no contradiction to resolve: the daily-life axis aggregates what makes a resident's year, cleanliness, services, quiet, while the district score describes a density of bars and terraces on a given evening. A three-night stay consumes the second and barely touches the first. Marseille is the second city of the corpus by population, 877,215 residents in the 2022 census against 862,211 in 2016, and records 19.40% of residents aged 15 to 29, fiftieth share of the fifty-six. It is not a student city in the sense that Rennes or Lille are. It is simply a very large one, which produces the same result for a Tuesday evening by a different route.",
+      },
+      {
+        heading:
+          "Massalia, Monte Cristo, and an island that belongs to the city",
+        body:
+          "Three things here are better known in English than the city is. The first is its age: Marseille was founded as Massalia around 600 BC by Greek colonists from Phocaea in Asia Minor, which makes it the oldest city in France, older than Paris as a settlement by a wide margin. The second is a novel. Alexandre Dumas published The Count of Monte Cristo in 1844, and its prison is the Château d'If, the fortress on the smallest island of the Frioul archipelago, about a kilometre and a half offshore. The fortress is sixteenth century, served as a prison until the end of the nineteenth, and was demilitarised and opened to the public in 1890, which is to say it became a visitor attraction because of a book. A practical point matters more than the literary one: the island is inside the commune of Marseille, so this guide does not send you to another town, but it is reachable only by boat from the Vieux-Port, and a crossing can be cancelled in a mistral. Check the sailing on the morning, not the day before. The third is 2013, when Marseille was European Capital of Culture and the MuCEM opened on the harbour mouth, inaugurated on 7 June that year to a design by Rudy Ricciotti, the first museum given over entirely to Mediterranean civilisations. That label is a European Union scheme, and worth distinguishing from the French national Capital of Culture title that Villeurbanne held in 2022, which is a different award from a different institution.",
+      },
+      {
+        heading:
+          "Where to stay: the liveliest district is also the cheapest, which almost never happens",
+        body:
+          "Our three documented sectors describe three different trips. Cours Julien and Noailles, which our records class as the hip district, is the cheapest of the three with an average two-room flat at 820 euros, and carries the best district cost score, 7.0/10. That is the useful anomaly of this city: the place with the most going on after dark is also the most affordable, which is rare anywhere and never happens in a seaside resort. The Vieux-Port and the first arrondissement rise to 950 euros for 8.5/10 of nightlife, with 9.0/10 for transport, the best served of the three. Endoume and Malmousque, residential, falls to 5.5/10 for nightlife at 1,080 euros, the dearest: there you pay for the view and the calanques, not for the evening. For a stay whose unit is the evening the trade-off is therefore unusually simple, and the cheapest sector is the one to aim at. The commune references are 590 euros for a studio, 820 for a two-room flat, 1,100 for a three-room flat and, for the editorial all-property benchmark, 3,500 euros per square metre. The median price of flats actually sold is a different figure and does not measure the same thing: 3,154 euros per square metre across 19,801 transactions from the 2024 and 2025 vintages, the second largest sample in the corpus behind Paris. The median standard of living is 20,600 euros and the poverty rate 26%.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: the Friche, the Cours Julien, and nothing seasonal",
+        body:
+          "The culture score of 9.0/10 holds up on venues open all year rather than on a festival, which is exactly what this series looks for. La Friche la Belle de Mai is the clearest case: Système Friche Théâtre moved into the old Seita tobacco factory in April 1992, twelve hectares above the Belle de Mai district, and the site now gathers some sixty cultural organisations across 45,000 square metres, with five performance and concert halls, 2,400 square metres of exhibition space and an 8,000 square metre roof terrace where the summer evenings happen, for close to 450,000 visitors a year. Around the Cours Julien and the Plaine, the density of bars, small venues and independent restaurants needs no programme at all: it is a fabric of streets rather than an institution, so it has no season. The Noailles market runs during the day and gives the quarter its character from morning to night. None of that depends on a date, which separates Marseille from the destinations whose whole argument is four days in July.",
+      },
+      {
+        heading:
+          "The metro stops at 21:30 from Monday to Wednesday, and that decides the evening",
+        body:
+          "This is the parameter that settles a Marseille night out, and it is dated. Marseille is the only one of the six cities in this batch that our service table documents, with metro, tram, TGV and bus rapid transit, and its transport score is 6.1/10, forty-second of the fifty-six level with ten others. Saint-Charles station puts Paris at 3 hours 15, Lyon at 1 hour 45 and Avignon at 35 minutes. On the ground, metro line 2 serves Noailles and Notre-Dame-du-Mont Cours Julien, and trams T1 and T2 stop at Noailles. But the works preparing the metro for automation, begun in October 2023, have imposed reduced hours ever since: from Monday to Wednesday the last departures from the termini are at 21:30, and three free replacement bus routes then serve every station on both lines at ten-minute intervals until 00:30. From Thursday to Sunday the last departures are at 00:30, Thursday having been moved onto the weekend pattern on 25 June 2026. In other words, on a Tuesday evening the question is not whether the metro exists but whether it is still running, and after 21:30 the answer is no. A Marseille trip built around going out is therefore planned from Thursday to Sunday, or booked within walking distance of the Cours Julien. These hours are the state of a worksite and should be checked with the RTM before you go out, like any network's operating times.",
+      },
+      {
+        heading:
+          "The single supplement, the safety score, and when to go",
+        body:
+          "The Marseille cost score is 5.4/10, thirty-eighth of the fifty-six level with two others, so mid-corpus and a long way from Albi's 7.6/10. What works in a lone traveller's favour is not the price level but the size of the stock: a city of 877,000 people with a cruise terminal, a conference centre and a business clientele has hotels in every category, hostels and a short-let market, so the room priced for two and occupied by one is easier to avoid here than in most places. The remote-work score of 4.3/10 does not clear the 6.5 threshold our profile page uses as an indirect sign of a furnished studio market, and that is worth saying rather than leaving out: of the six cities in this batch, only Villeurbanne clears it. The three habits of the series apply, search for a single room rather than a double occupied by one person, aim for midweek, compare a studio against a hotel from two nights up. Then there is the safety score, 2.7/10, the lowest of the fifty-six destinations and the lowest in the seed. It is a score and not a count of recorded offences, and it passes no judgement on the people who live here. In practice, for a trip whose programme is an evening, it comes down to ordinary urban caution and to one choice of address: the sectors we document as liveliest after dark are also the busiest, and walking home down a street with people in it is not the same thing as walking home down an empty one. On dates, the reference weather station is Marseille Marignane, twenty kilometres away, which is close by the standards of this corpus, though it publishes no count of rain days in our data, so only totals are available. The normals give 7.7 degrees in January with 147.9 hours of sun, 18.4 in May with 298.6 hours and 37.7 millimetres, 22.5 in June with 337.8 hours and 27.9 millimetres, then 25.2 in July with 372.2 hours, the brightest month, and only 10.8 millimetres. September holds 20.9 degrees and 263.7 hours but takes 82.0 millimetres, the highest monthly total of the year, Mediterranean rain arriving in short violent episodes rather than in grey days. The window to aim for is May, June and the first half of September, when the terraces work without July's heat or the downpours of late autumn. And the transport point above governs the choice of dates as much as the choice of district: from Thursday to Sunday, the network brings you home.",
+      },
+    ],
+    relatedCities: ["marseille"],
+    tags: [
+      "solo travel",
+      "solo travel marseille",
+      "travelling alone in france",
+      "single supplement",
+      "cours julien",
+      "provence",
+    ],
+  },
+  {
+    slug: "solo-travel-in-villeurbanne-2026",
+    title:
+      "Solo travel in Villeurbanne: the steadiest night scene here, and Lyon two stops away",
+    metaTitle: "Solo Travel in Villeurbanne 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Villeurbanne alone: 8.00 average nightlife across three districts, the first French Capital of Culture, metro line A, and Part-Dieu station two stops away.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    intro:
+      "Villeurbanne is the only city in this batch that the profile ranking places high, fourteenth of 495, and the only one that also satisfies the single-supplement test on our profile page. Its real distinction is elsewhere: with an average nightlife score of 8.00 across its three documented districts, it is sixth of the fifty-six destinations in this series, behind Paris at 8.83, Lyon and Bordeaux at 8.40, Toulouse at 8.33 and Lille at 8.17. None of its districts peaks as high as the Cours Julien in Marseille, but none of them drops away either. It is a steady scene rather than one flagship quarter, which is precisely what you want when you go out alone on a weekday and would rather not cross a city to do it.",
+    sections: [
+      {
+        heading:
+          "Why Villeurbanne: the third youngest population of the fifty-six",
+        body:
+          "Villeurbanne records 17.7% of residents aged 60 or over in the 2022 census, the third lowest share of the fifty-six destinations behind Lille at 14.6% and Toulouse at 17.1%, and 29.24% aged 15 to 29, the highest share in this batch of six ahead of Amiens at 28.98%. It is gaining people fast: 162,207 residents in 2022 against 149,019 in 2016, growth of 8.85%, the second best in the corpus behind Montpellier at 9.05%. The mechanism is a campus, and the campus is in the town: Charpennes, which our records class as the student district, carries INSA Lyon, the Lyon 1 medical faculty and student residences, for 8.5/10 of nightlife. The scores follow, 8.4/10 for culture, eighth of the corpus level with two others, 9.0/10 for transport, fourth level with three others, 6.8/10 for daily life and 5.7/10 for safety. One thing has to be said at the outset about what Villeurbanne is not: a commune separated from Lyon by an administrative boundary and by nothing else. This series has excluded residential suburbs since its first batch, because a district of houses is not a destination. Villeurbanne is a different case. It has its own institutions, its own urban history and its own centre, and that is what admits it here.",
+      },
+      {
+        heading:
+          "Where to stay: the Gratte-Ciel, a town centre built on purpose",
+        body:
+          "The Gratte-Ciel, the skyscrapers, are not a figure of speech. They are an urban project of the nineteen-thirties, and the district carries 8.5/10 for nightlife and 8.5/10 overall, the best of our three Villeurbanne sectors, for an average two-room flat at 900 euros. The building that opens the ensemble is the Palais du Travail, inaugurated in 1934, the first of the project willed by mayor Lazare Goujon, and since 1972 it has housed the Théâtre national populaire on place Lazare-Goujon. Charpennes, the student district, comes down to 870 euros for the same 8.5/10 of nightlife and 9.5/10 for transport, the best of the three. Cusset, working class, falls to 7.0/10 of nightlife at 820 euros, with a weekly market and the parc de la Feyssine ten minutes away. Eighty euros therefore separate the dearest from the cheapest, the narrowest spread in this batch of six, and all three districts sit on the same metro line: the choice of address matters less here than in any other city in the batch. The commune references are 600 euros for a studio, 870 for a two-room flat and 1,150 for a three-room flat, which puts Villeurbanne among the eight most expensive destinations in the corpus on the two-room figure. The editorial all-property benchmark gives 4,200 euros per square metre; the median of flats actually sold, which is a different measure, comes out at 3,554 euros across 3,578 transactions from the 2024 and 2025 vintages. Median standard of living 21,540 euros, poverty rate 21%.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: the first French Capital of Culture",
+        body:
+          "Villeurbanne was, in 2022, the very first French Capital of Culture, the ministry's label never having been awarded before. It is worth separating that from the European Capital of Culture that an English-speaking reader is more likely to know, and which Marseille held in 2013: different institution, different scheme, different scale. For a commune of 162,000 people next door to a metropolis that absorbs the attention, the French title is the fact that explains the culture score of 8.4/10, and it rests on three venues open all year. The Théâtre national populaire, founded in 1920 by Firmin Gémier at the Palais de Chaillot and installed in Villeurbanne since 1972, programmes a full season. The Institut d'art contemporain, born in 1998 from the merger of the Nouveau Musée art centre, created in 1978 by Jean-Louis Maubant, and the FRAC Rhône-Alpes, shows very contemporary work ten minutes' walk from the metro. Le Rize, opened in February 2008, brings together a media library, the municipal archives and cultural spaces across 2,600 square metres. None of the three has a dead season, and that is the difference from a town whose only argument is a festival. There is a fourth draw that our scores do not measure and that an English-speaking visitor may well come for: ASVEL, founded in 1948, is the most titled club in French basketball and plays at the Astroballe, here in Villeurbanne, which is why one of the metro stops is called Laurent Bonnevay Astroballe. Tony Parker, four times an NBA champion with the San Antonio Spurs, has run the club since 2014. A league fixture is a straightforward evening for one person, which a theatre subscription is not. For the rest of the night the town leans on Lyon, and honesty requires saying so: part of what a visitor goes to see after dark is on the other side of the communal boundary, a few minutes away by metro. On this travel profile that is not a defect, it is the main argument, and the next section explains why.",
+      },
+      {
+        heading:
+          "Getting around: line A crosses the town, and the station is two stops away",
+        body:
+          "Our service table carries no entry for Villeurbanne, and that absence means undocumented, not unserved: the check made for this batch is therefore recorded here. Line A of the Lyon metro crosses the commune from east to west under the cours Émile-Zola, with the stations Charpennes Charles Hernu, République Villeurbanne, Gratte-Ciel, Flachet Alain Gilles, Cusset and Laurent Bonnevay Astroballe; it links Perrache to Vaulx-en-Velin La Soie, opened on 28 April 1978 between Perrache and Laurent Bonnevay and was extended to La Soie in 2007. Charpennes Charles Hernu is also the northern terminus of line B and the interchange with trams T1 and T4, whose northern terminus La Doua Gaston Berger is likewise in Villeurbanne; the T3 crosses the commune eastwards. Lyon Part-Dieu station, one of the busiest in France, is two stops from Charpennes on line B, via Brotteaux. The transport score of 9.0/10 is therefore earned, and the practical consequence is the right one for this profile: you arrive by TGV at Part-Dieu, you sleep in Villeurbanne at Villeurbanne prices and you come home by metro. One methodological reservation, the same as elsewhere in this series: a metro line tells you nothing about its last train, and the closing time is what decides an evening. Check it with TCL before you go out. A correction was made to our own data in passing, because it bears on exactly this paragraph: the Cusset district record attached the station to metro line D, which does not serve Villeurbanne at all. Cusset is on line A.",
+      },
+      {
+        heading:
+          "The single supplement: the only one of the six to clear our furnished-studio threshold",
+        body:
+          "Villeurbanne scores 8.8/10 for remote work, well above the 6.5 threshold our profile page uses as an indirect sign of a studio and furnished-let market, and it is the only one of the six cities in this batch to clear it. Its cost score of 5.4/10, thirty-ninth of the fifty-six level with two others, puts it mid-corpus, so this is not a cheap destination: the reference two-room flat at 870 euros is the highest of the six cities here, and that should be said plainly. What works is the composition of the stock rather than its price level. A university commune of this size, with INSA and a medical faculty, lines up studios, halls and furnished lets priced by floor area and not by occupancy, which is exactly the case where the unshared half of a double room disappears. Add a metropolitan business clientele, whose hotels price a weekday for a single occupant. The three habits of the series apply fully here, and the third more than anywhere: beyond two nights, comparing a studio against a hotel has a good chance of settling in the studio's favour. A reminder of convention, since the figure invites the confusion: a cost score measures the cost of living in a place and never the price of a night, which this site does not quote.",
+      },
+      {
+        heading:
+          "When to go: May, June and September, with the closest station in the batch",
+        body:
+          "The reference weather station is Lyon Bron, seven kilometres away, and it is by a long way the best situation in this batch of six: Bron adjoins the metropolis and sits on the same plain, so the table is usable without geographical caveat, and it carries the rain-day counts that several other stations in the corpus do not publish. The normals give 4.1 degrees in January with 71.1 hours of sun and 8.1 rain days, 12.3 in April with 197.7 hours, then 16.3 in May with 223.8 hours and 10.3 rain days, the wettest month by number of days. June rises to 20.3 degrees with 256.5 hours and 8.5 days, July to 22.6 degrees with 288.1 hours and 7.5 days, the brightest month and the driest by days, August to 22.3 degrees with 263.1 hours and 7.2 days. September holds 17.9 degrees, 204.1 hours and only 7.3 rain days, which makes it the best late season in the table. October drops to 13.7 degrees, 131.4 hours and 99.8 millimetres, the highest total of the year. November and December fall to 78.9 and 58.7 hours of sun, the two darkest months, and that is where this town is judged: a November stay in Villeurbanne is grey, but it is not empty, because the campus and the three cultural institutions do not close. That is the whole difference from a resort.",
+      },
+    ],
+    relatedCities: ["villeurbanne"],
+    tags: [
+      "solo travel",
+      "solo travel villeurbanne",
+      "travelling alone in france",
+      "single supplement",
+      "gratte-ciel villeurbanne",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "solo-travel-in-saint-paul-reunion-2026",
+    title:
+      "Solo travel in Saint-Paul, Réunion: the lagoon is at Saint-Gilles, not at the town",
+    metaTitle: "Solo Travel in Saint-Paul, Réunion 2026: Stay, Go Out",
+    metaDesc:
+      "Saint-Paul on Réunion alone: Saint-Gilles-les-Bains at 8.5/10 for nightlife, swimming lawful in the lagoon only, inverted seasons, and no Schengen visa here.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    intro:
+      "Saint-Paul is the fourth overseas destination in this series and the third on Réunion, after Saint-Denis and Saint-Pierre. It enters on the strength of one district and one only: Saint-Gilles-les-Bains, which our records score 8.5/10 for nightlife, level with the Gratte-Ciel in Villeurbanne and on a par with Grenoble, La Rochelle, Nancy and Tours. Two clarifications have to come before anything else, because they decide a trip. The first is that Saint-Gilles is not the centre of Saint-Paul: they are two distinct places in the same commune, some fifteen kilometres apart. The second is that there is a lagoon in front of Saint-Gilles and there is none in front of Saint-Paul, which changes what you may do in the water, and not marginally.",
+    sections: [
+      {
+        heading:
+          "Before anything else: what an island in the Indian Ocean is, administratively",
+        body:
+          "Four facts settle more of a trip here than any score, and none of them is obvious from outside France. Réunion is a French department and an outermost region of the European Union: French law applies, the currency is the euro, and mobile roaming works as it does in mainland France. But the overseas departments are not in the Schengen area, so a Schengen visa is not valid for Réunion and a traveller who needs one needs the right one; check that against your own nationality well before booking, not at the airport. The island runs on UTC+4 with no daylight saving, so the offset from London or from mainland France shifts across the year rather than staying fixed. It lies in the southern hemisphere, so the calendar is inverted: the austral winter from May to October is the good season, dry and mild, while the austral summer from November to April is hot, humid and coincides with the cyclone season. And since 1 August 2010 the interior has been a UNESCO World Heritage site, the Pitons, cirques and remparts of Réunion Island, whose boundary coincides with the core zone of the national park and covers around 40% of the island. That last point is not decoration: core-zone rules are enforceable, and they apply to the ground you walk on above this commune.",
+      },
+      {
+        heading:
+          "Why Saint-Paul: a beach commune with the lowest culture score in the corpus",
+        body:
+          "Saint-Paul is the second most populous commune on Réunion with 106,220 residents in the 2022 census, and the island's first settlement site, where the French established themselves in 1665. It carries 8.5/10 for nature and a strong daily-life score at 6.8/10, along with two figures that have to be published as they stand: 5.9/10 for culture, the lowest of the fifty-six destinations in this series, and 4.0/10 for transport, the lowest as well, level with Bastia. On demographics, 17.25% of residents are aged 15 to 29, fifty-fourth share of the fifty-six, and 20.2% are 60 or over, which is low and sits comfortably under the 32% ceiling our scale applies to weed out resorts that shut down out of season. In other words, what limits this destination is not an ageing population, it is the cultural offer and the transport. The poverty rate is 30%, seventh of the corpus level with one other city, and the median standard of living 18,910 euros, seventh lowest. Only two districts are documented in our records, against three for the other five cities in this batch: the nightlife score therefore rests on a narrower base than elsewhere, and that is worth knowing as you read it.",
+      },
+      {
+        heading:
+          "Swimming: lawful inside the lagoon, forbidden outside it, and this is a rule not a tip",
+        body:
+          "This is the most important section in this guide and it is not a note of caution, it is law. The marine nature reserve of Réunion covers around 3,500 hectares across five communes, from Saint-Paul to l'Étang-Salé. Swimming and water sports are permitted inside the lagoon and on the reef flats, which in the commune of Saint-Paul means Saint-Gilles-les-Bains, l'Hermitage-les-Bains and La Saline-les-Bains, and inside netted enclosures and areas under the surveillance of the Vigie Requins scheme. Outside those authorised zones, swimming and water sports are prohibited because of shark risk, and the bay of Saint-Paul itself, in front of the town and the seafront cemetery, is not sheltered by a coral barrier: there is no lagoon in front of the town. The flag flown on a supervised beach and the presence of the lifeguards are what count, before you go in and not after. A visitor travelling alone is unusually exposed to this mistake, because there is nobody to tell them that the beach in front of them is not a swimming beach, and the water can look entirely inviting. Do not reason from the fact that other people are in it somewhere else along the coast. For the rest of the water programme, the Ermitage snorkelling trail runs inside the reserve, under the reserve's rules.",
+      },
+      {
+        heading:
+          "What to see: a market, a seafront cemetery, and a dead volcano at 2,205 metres",
+        body:
+          "The culture score of 5.9/10 is the lowest in the corpus and it reflects the absence of a national stage or a metropolitan institution, not an absence of things to do. The Saint-Paul open-air market runs for several hundred metres along the seafront, on Friday from 7am to 4pm and Saturday from 7am to noon: it is one of the largest on the island and it is the commune's appointment with itself. The cimetière marin, south of the town and facing the ocean, holds two graves that visitors come looking for: that of Leconte de Lisle, born at Saint-Paul on 22 October 1818, whose remains were transferred back to Réunion in September 1977, and that of Olivier Levasseur, known as La Buse, a pirate executed at Saint-Paul on 7 July 1730, whose supposed treasure has never been found. The cryptogram attributed to him has kept English-language treasure hunters busy for a century, which is worth saying in the same breath as this: it is legend, the grave is real, and nothing here is a treasure trail. The grotte des Premiers Français recalls the landing of 1665. And the Maïdo, which rises to 2,205 metres inside this commune, looks down into the cirque of Mafate: that is a high-end excursion, done early in the morning before the cloud comes up, and it needs a vehicle. In the evening the concentration is at Saint-Gilles, around the marina and the restaurants, and the 8.5/10 rests on that density.",
+      },
+      {
+        heading:
+          "Getting around without a car, and the single supplement in the tropics",
+        body:
+          "The transport score of 4.0/10 is the lowest of the fifty-six destinations, level with Bastia, and the point should be made bluntly: there is no railway on Réunion, not at Saint-Paul and not anywhere else on the island. Movement is by road, the links between Saint-Paul, Saint-Gilles and Saint-Denis are by coach or by car, and the fifteen kilometres between the town centre and Saint-Gilles is not a walk you make in the evening. A stay without a vehicle is therefore possible but it plays out inside a single sector, and the practical consequence is to pick Saint-Gilles and stay there. Our service table carries no entry for Saint-Paul, and that absence means undocumented; the check made for this batch confirms that no rail service exists. On the budget, the cost score of 4.1/10 is fifty-first of the fifty-six level with two others, so among the most expensive in the corpus, and the remote-work score of 4.3/10 does not clear the 6.5 threshold of our indirect furnished-studio indicator. What works for a lone traveller is the accommodation fabric of a mature seaside resort, which includes guesthouses and studios priced by floor area. What works against them is the price structure of an island where almost everything is imported, and the fact that the air fare dominates the budget of any trip here, which this site never prices. On the housing references, Saint-Gilles-les-Bains, which our records class as the hip district, carries its 8.5/10 for an average two-room flat at 850 euros, with a marina, beaches, an aquarium and an open-air theatre. The centre of Saint-Paul, classed as town centre, comes down to 6.5/10 of nightlife at 720 euros, a hundred and thirty euros less, and carries the heritage, the seafront and the market. The commune references are 490 euros for a studio, 700 for a two-room flat and 900 for a three-room flat, the lowest values in this batch of six on all three lines. Be careful on the purchase figures, where the two numbers we publish diverge sharply and do not measure the same thing: the editorial all-property benchmark gives 2,400 euros per square metre, while the median of flats actually sold over the 2024 and 2025 vintages comes out at 5,304 euros across 478 transactions, the second highest value of the fifty-six destinations behind Paris. That is not a contradiction to settle, it is a commune benchmark against a median of transactions, and this west coast is exactly the kind of market where the two part company.",
+      },
+      {
+        heading:
+          "When to go, and why we publish no rainfall figures here",
+        body:
+          "The inverted calendar above is the first thing to absorb, and it means the good window is June to October, with September and October combining the dry season with temperatures on the way back up. Our reference weather station is Gillot, at Saint-Denis, thirty kilometres away, and a serious reservation has to be stated before any figure is read: Gillot is on the north coast, windward, whereas Saint-Paul is on the west coast, leeward, sheltered from the trade winds by the relief. The temperatures are comparable and we publish them: 26.9 degrees in January, 25.8 in April, 24.2 in May, 22.6 in June, 21.8 in July, the coolest month, 21.9 in August, 22.4 in September, 23.5 in October, 24.7 in November and 26.1 in December. Rainfall, on the other hand, we do not publish for Saint-Paul, and that is a documented choice rather than an omission: the gap in annual rainfall between the east and the west of the island reaches a factor of twenty across seventy kilometres of width, the heights above Sainte-Rose approaching 11,000 millimetres a year while Saint-Gilles-les-Bains runs around 525 millimetres and the pointe des Trois-Bassins around 436. Copying Gillot's totals across would give a false picture of one of the driest coastlines on Réunion. Take the dry season, take the lagoon rule seriously, and take the flight into the budget before anything else.",
+      },
+    ],
+    relatedCities: ["saint-paul-reunion"],
+    tags: [
+      "solo travel",
+      "solo travel saint-paul reunion",
+      "travelling alone in france",
+      "single supplement",
+      "saint-gilles-les-bains",
+      "reunion",
+    ],
+  },
+  {
+    slug: "solo-travel-in-nimes-2026",
+    title:
+      "Solo travel in Nîmes: the town that gave denim its name, and it passes both our rules",
+    metaTitle: "Solo Travel in Nîmes 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Nîmes alone: the Arènes district at 8/10 for nightlife, 21.12% aged 15 to 29, a Roman temple listed in 2023, and a TGV station that is in two other communes.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    intro:
+      "Nîmes is the only one of the six cities in this batch to satisfy both rules our profile page publishes. It enters on the nightlife of its Arènes district, scored 8/10, and it also clears the 20% floor for residents aged 15 to 29 that the anti-ghost-town rule applies, with 21.12% at the 2022 census. Passing both does not make it an easy destination: its daily-life score is 5.1/10, fifty-third of the fifty-six level with Bastia and Amiens, its safety score 3.9/10, and it is the only city in the batch whose population is falling. A trip built on evenings works very well here, provided you know what you are buying and what you are not.",
+    sections: [
+      {
+        heading:
+          "Why Nîmes: students, Roman stone, and a town that is losing people",
+        body:
+          "Nîmes records 150,444 residents at the 2022 census, eighteenth of the fifty-six destinations, against 151,001 in 2016: it loses 0.37% across that window, the only city in this batch of six to do so, and forty-seventh of the corpus on growth. Over the longer window it gains 3.80% since 2011, which means the decline is recent. The share aged 15 to 29 is 21.12%, above the national median of 18.44%, and the share aged 60 or over is 27.4%, fifteenth of the corpus level with one other city, so under our scale's 32% ceiling but distinctly above Villeurbanne and Amiens. The scores describe a heritage town rather than a comfortable one: 7.3/10 for culture, twenty-eighth level with eight others, against 5.1/10 for daily life and 3.9/10 for safety, fifty-fourth level with two others. The social indicators are hard and they should be published: the poverty rate is 31%, fifth of the corpus behind Mulhouse at 36%, Saint-Pierre on Réunion at 34%, Saint-Denis on Réunion and Avignon at 33%, and the median standard of living 18,760 euros, sixth lowest. None of that takes anything away from the town for a three-night stay, and it explains part of its prices.",
+      },
+      {
+        heading:
+          "Denim, and the temple that became an American state capitol",
+        body:
+          "Two things make this town more familiar to an English-speaking reader than its name suggests. The first is in your wardrobe. The word denim is generally traced to serge de Nîmes, the hard-wearing twill woven here, contracted in English to a single word; the weavers of Nîmes were reportedly trying to reproduce a cotton cloth made at Genoa, whose own name survives in the word jeans. Historians argue about how directly the modern fabric descends from the Nîmes original, so treat the etymology as the standard account rather than a settled genealogy, and do not expect a mill to visit: what survives here is the name. The second is a building. The Maison Carrée, the Roman temple in the centre of town, is the model Thomas Jefferson chose for the Virginia State Capitol at Richmond, having urged the Virginia General Assembly to adopt its form in 1785 from published plans. He only saw the thing itself in 1787, and wrote to Madame de Tessé that he was there gazing whole hours at it like a lover at his mistress. Working with the French architect Charles-Louis Clérisseau, he built larger and swapped the temple's Corinthian columns for Ionic ones. An American visitor standing in front of the Maison Carrée is therefore looking at the source of a building they have very likely seen, and the resemblance is deliberate rather than generic.",
+      },
+      {
+        heading:
+          "Where to stay: the Arènes or the Écusson, thirty euros apart",
+        body:
+          "Three sectors are documented, all inside Nîmes, and two of them hold up. The Arènes district, classed as town centre, carries 8/10 for nightlife, the best in town, for an average two-room flat at 720 euros and 7.5/10 for transport. The Écusson, classed as the hip district, barely drops to 7.5/10 for nightlife at 690 euros, with galleries, renovation and the best cost score of the three at 7.5/10: it is the historic core, and on a trip made of evenings the two are equivalent, thirty euros and a few streets apart. Pissevin, working class, falls to 5/10 for nightlife at 550 euros, with 9.0/10 for cost, the best district cost score in this batch of six: it is a lived-in district away from the centre, so of no use for this kind of stay. The spread between the liveliest and the cheapest is a hundred and seventy euros a month, the widest in the batch. The commune references are 520 euros for a studio, 720 for a two-room flat and 960 for a three-room flat, the second lowest set in the batch after Amiens, and the editorial all-property benchmark gives 2,800 euros per square metre. The median of flats actually sold, which is a different measure, comes out at 2,106 euros per square metre across 3,203 transactions from the 2024 and 2025 vintages, the lowest of the six cities here.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: three Roman monuments and a museum from 2018",
+        body:
+          "The culture score of 7.3/10 rests on an ancient ensemble few French towns can line up, and most of it is open all year. The Maison Carrée has been a UNESCO World Heritage site since 18 September 2023: it is the fifty-first French property listed and the ninth in Occitanie, and the inscription is recent enough that many guidebooks have yet to mention it. The arena, a Roman amphitheatre, is still used as a concert and performance venue, which makes it a working building and not only a monument. The Musée de la Romanité, opened on 2 June 2018 to designs by Elizabeth de Portzamparc, faces the amphitheatre and closes the circuit along with the Tour Magne, the jardins de la Fontaine and the temple of Diana, around the spring that gave the town its name. For the evening proper, what counts is the density of terraces in the Écusson and around the arena, and that depends on no date at all. The Feria de Pentecôte does: it runs from 21 to 25 May 2026, it fills the town and it pushes accommodation prices up. Bullfighting is central to it; that is a regulated and contested practice, and this guide does not settle that argument, it flags the date because the date decides a budget.",
+      },
+      {
+        heading:
+          "Getting around: two stations, and one of them is in two other communes",
+        body:
+          "The transport score of 6.1/10 places Nîmes forty-third of the fifty-six level with ten others, and our service table carries no entry for it, which means undocumented rather than unserved. The check for this batch is therefore recorded here, and it carries a distinction that matters to anyone without a car: there are two stations. Nîmes Centre sits on the edge of the Écusson, a few minutes' walk from the arena, and that is the one to aim for. Nîmes Pont-du-Gard, on the high-speed line, is fourteen kilometres out and is not in Nîmes: it stands on the communes of Manduel and Redessan, and it means a connection. That connection is straightforward, a TER shuttle links it to Nîmes Centre in nine minutes with around forty services a day, and urban route 33 does the same trip in about half an hour. But it exists, it has to be planned for, and a ticket that arrives there does not arrive in the centre. On the ground the historic core is compact and everything this trip cares about is done on foot, which is the real answer to a middling transport score. The urban network has segregated bus lanes, but as everywhere in this series, a route tells you nothing about its last departure, and the closing time is what decides an evening: check it with the operator before you go out, not after.",
+      },
+      {
+        heading:
+          "The single supplement, and when to go",
+        body:
+          "The Nîmes cost score is 5.9/10, thirty-first of the fifty-six level with two others, so slightly better than the corpus average and well ahead of Marseille, Villeurbanne and Saint-Paul in this batch. Since the single-room supplement mechanically comes to half the price of the room, it weighs less the cheaper the room, and this town's rental references are among the lowest in the batch. The remote-work score of 5.3/10 does not clear the 6.5 threshold our profile page uses as an indirect sign of a furnished studio market, and that should be said: of the six cities here, only Villeurbanne clears it. The Nîmes accommodation stock is that of a mid-sized tourist prefecture, with town-centre hotels priced by the room, which is exactly the configuration where a lone traveller pays for a half they do not occupy. The three habits of the series are therefore useful rather than optional: search for a single room and not a double occupied by one person, aim for midweek rather than the weekend, compare a studio against a hotel from two nights up. And one date is to be avoided if the budget matters, the Feria. On the weather, the reference station is Montpellier Fréjorgues, forty-three kilometres away, and the caveat is double: the station sits beside the coastal lagoons whereas Nîmes is inland, at the foot of the garrigues and nearer the Cévennes relief that generates the heavy autumn rain. The shape of the year remains usable, the two towns sharing the same Mediterranean plain regime. The normals give 7.6 degrees in January with 145.6 hours of sun and 5.8 rain days, 13.9 in April with 228.6 hours, 17.8 in May with 271.4 hours and 5.2 rain days, then 21.8 in June with 315.7 hours and only 3.6 days. July rises to 24.4 degrees with 344.8 hours of sun and 2.5 rain days, the driest and brightest month, August to 24.1 degrees with 305.1 hours. Then autumn turns over: September keeps 20.2 degrees and 246.6 hours but takes 86.7 millimetres, and October 16.4 degrees, 175.5 hours and 94.7 millimetres, the highest total of the year, falling in 6.2 days. The window to aim for is April, May and the first half of June, before the heat and before the Feria if you want terraces without the crowd; September stays good for the light, provided you accept that most of the late-season rain arrives in very few days.",
+      },
+    ],
+    relatedCities: ["nimes"],
+    tags: [
+      "solo travel",
+      "solo travel nimes",
+      "travelling alone in france",
+      "single supplement",
+      "maison carree nimes",
+      "occitanie",
+    ],
+  },
+  {
+    slug: "solo-travel-in-bastia-2026",
+    title:
+      "Solo travel in Bastia: the first Corsican destination here, and the worst connected",
+    metaTitle: "Solo Travel in Bastia 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Bastia alone: Terra Vecchia at 8/10 for nightlife, a working port that lives out of season, the lowest transport score in the series, and Nelson besieged it.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    intro:
+      "Bastia is the first Corsican destination in this series, and it enters on the strength of what it is not: a resort. Terra Vecchia, the old quarter around the harbour, carries 8/10 for nightlife in our records, and the neighbouring commercial sector 7.5/10, which gives a commune of 47,459 people a scene comparable to towns three times the size. Two figures have to come straight away, because they contradict what this series usually looks for: Bastia records 15.83% of residents aged 15 to 29, the second lowest share of the fifty-six destinations, and 29.3% aged 60 or over. So this is not a student town, and if its nightlife holds up, it does so by another mechanism.",
+    sections: [
+      {
+        heading: "Why Bastia: a working port, not a seaside resort",
+        body:
+          "The mechanism is that Bastia is a prefecture, a commercial and passenger port and the economic engine of the north of the island, which is to say a town whose working population works here all year. The terraces on the place Saint-Nicolas and around the old harbour are filled by people from Bastia in November as in July, which is the exact opposite of a resort whose clientele goes home. Our two demographic measures remain what they are and this guide does not dress them up: 15.83% aged 15 to 29, only Fort-de-France doing less at 15.80%, and 29.3% aged 60 or over, the seventh highest share in the corpus level with Nice. The counterweight is growth: 47,459 residents in 2022 against 44,829 in 2016, a rise of 5.87%, the fifth best of the fifty-six destinations, and 10.60% since 2011. The scores are severe and should be published: 5.1/10 for daily life, level with Nîmes and Amiens, 6.2/10 for culture, fifty-fifth level with eight other cities, 4.1/10 for safety and 4.0/10 for transport, the lowest figure in the corpus. The median standard of living, 20,530 euros, and the poverty rate, 23%, are by contrast mid-corpus, better than Nîmes, Amiens or Saint-Paul.",
+      },
+      {
+        heading:
+          "Nelson laid siege to this town, which is why the name may already be familiar",
+        body:
+          "For a British reader Corsica has an eighteenth-century chapter that French accounts pass over quickly, and Bastia is where it starts. In January 1794 British land and naval forces intervened on the island at the request of Pasquale Paoli, the leader of the Corsican independence movement, and it was agreed that a British protectorate, the Anglo-Corsican Kingdom, would be set up. The siege of Bastia ran from 4 April to 22 May 1794, with Captain Horatio Nelson of HMS Agamemnon given the job of taking the town with a mixed force of seamen and marines under Lord Hood. Hood expected it to fall to bombardment in about ten days; the French positions were far stronger than he had assumed, the siege lasted six weeks, and the garrison gave in only when its food ran out. The wound that cost Nelson the sight of his right eye came a few weeks later at Calvi, which is the other end of the railway branch described below. The British withdrew from Corsica in 1796 and the kingdom ended with them. One correction while we are here, because visitors make it constantly: Napoleon was not born in Bastia. He was born at Ajaccio, on the other side of the island, at the far end of the line from Ponte-Leccia.",
+      },
+      {
+        heading:
+          "Where to stay: Terra Vecchia, and thirty euros to change side of the harbour",
+        body:
+          "The three documented sectors are tightly grouped, which is good news for a trip without a car. Terra Vecchia, the old quarter, carries 8/10 for nightlife and 8.0/10 overall, the best of the three, for an average two-room flat at 850 euros: it is the oldest part of town, historically the Corsican quarter, with its lanes, its baroque churches and the old harbour. The commercial sector around the place Saint-Nicolas comes down to 7.5/10 for nightlife at 820 euros, with 8.5/10 for transport, the best served of the three, and the markets. Lupino, residential, falls to 5/10 for nightlife at 720 euros. Thirty euros therefore separate the two lively sectors, which justifies no deliberation at all: you stay in one or the other, they adjoin, and everything is done on foot. The commune references are 580 euros for a studio, 820 for a two-room flat and 1,100 for a three-room flat, which is to say exactly the Marseille figures on the last two lines, for a commune twenty times smaller. That is the price of being on an island, and it is the real budget warning for this destination. The editorial all-property benchmark gives 3,200 euros per square metre; the median of flats actually sold, which is a different measure, comes out at 2,874 euros across 745 transactions from the 2024 and 2025 vintages.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: a Genoese citadel and a square planted with plane trees",
+        body:
+          "The culture score of 6.2/10 says there is no national stage and no major museum here, and that is true. What makes a Bastia evening is urban rather than programmed: the place Saint-Nicolas, a long esplanade planted with plane trees, lined with cafés and shops and open towards the ferry terminal, is the town's drawing room, and the streets of Terra Vecchia running down to the old harbour concentrate the bars and restaurants. On the far side of the old harbour, the citadel of Terra Nova, built between 1378 and 1530, was the Genoese quarter when Terra Vecchia was the Corsican one: the crossing takes a few minutes on foot and the two atmospheres have nothing in common. The church of Saint-Jean-Baptiste, sixteenth century, is the largest baroque church in Corsica and stands over the old harbour. None of that has a season, which is the central argument for this destination: at Bastia, what you come to see in the evening is the town itself, and a town does not close in October. Part of the waterfront restaurant trade, on the other hand, does follow the tourist calendar, and that is worth checking before booking a November trip.",
+      },
+      {
+        heading:
+          "Getting around: a railway that reaches no mainland line, and a port in the middle of town",
+        body:
+          "The transport score of 4.0/10 is the lowest of the fifty-six destinations in this series, level with Saint-Paul on Réunion, and it is the accepted price of being on an island. Our service table carries no entry for Bastia, and that absence means undocumented: the check made for this batch establishes that there is obviously no TGV, and that the Corsican railway is an island network in its own right, joining no continental line anywhere. The Chemins de fer de la Corse run out of Ponte-Leccia, from which the Bastia to Ajaccio line runs 158 kilometres in about 3 hours 40 through the mountainous heart of the island, and the Calvi branch runs 74 kilometres from Ponte-Leccia via Île-Rousse. It is a way of seeing Corsica, not a way of getting there. Arrival is therefore by sea, and the passenger port is in the town, facing the place Saint-Nicolas, which is the real asset of Bastia for a trip without a car: you walk off the ferry into the district you are sleeping in. From mainland France the crossings come from Marseille, Toulon and Nice; from Italy, Livorno is the year-round route and Genoa, Savona, Piombino and Civitavecchia run wholly or partly in season, which makes Bastia the practical Corsican entry point for anyone already in Tuscany or Liguria. Frequencies and crossing times move with the season and with the operator, so take them from the operator and not from a guide. Bastia Poretta airport is some twenty kilometres out, in the commune of Lucciana, with a shuttle that takes twenty-five to forty-five minutes depending on traffic. On the ground, everything this guide cares about fits inside a walkable perimeter, which is the only reason a transport score of 4.0/10 is not disqualifying here.",
+      },
+      {
+        heading:
+          "The single supplement: at Bastia the real cost is the crossing, and when to go",
+        body:
+          "The Bastia cost score is 5.3/10, forty-second of the fifty-six level with two others, so in the expensive half of the corpus, and the remote-work score of 3.3/10 is the lowest in this batch of six: it does not clear the 6.5 threshold our profile page uses as an indirect sign of a furnished studio market, and not by a small margin. In practice the accommodation stock here is that of a mid-sized island town, dominated by town-centre hotels and holiday lets, so priced by the room or by the property: that is the configuration where a lone traveller most often pays for a half they do not occupy. The three habits of the series apply, and the second more than the others: aim for midweek, because Bastia is also a business and administrative town whose hotels price Monday to Thursday for a single occupant. But the essential point is not in our scores at all. On a Corsican trip the dominant line item is the crossing, ferry or flight, and it depends neither on the town nor on how many people are in the room. A lone traveller pays it whole where a couple splits it across two people for one car shipped. This is the only place in this series where the heaviest supplement is not the room's. On dates, the reference weather station is the Bastia one, located at Oletta, thirteen kilometres away, the second best situation in this batch after Villeurbanne; the caveat is that Oletta is inland, in the Nebbio, and not on the seafront. One data gap has to be flagged at once: this station publishes no sunshine duration at all in our normals, for any month, so we can say nothing about the light and we are not going to invent it. Temperature and rainfall are complete. January gives 8.8 degrees with 71.0 millimetres over 6.9 rain days, April 13.7 degrees and 46.5 millimetres, May 17.1 degrees and 60.4 millimetres over 6.3 days. June rises to 21.0 degrees with 26.9 millimetres over 3.1 days only, July to 24.0 degrees with 8.4 millimetres over 1.4 days, by far the driest month, August to 23.8 degrees with 15.8 millimetres. September still holds 20.8 degrees for 52.4 millimetres over 4.3 days, which makes it the best late season in the table. Then autumn turns over sharply: October 17.3 degrees and 100.0 millimetres, and November 13.2 degrees with 122.6 millimetres over 8.9 rain days, the wettest month of the year by a wide margin. The window to aim for is therefore May, June and September, and a November trip, which is also when the town is most itself, is paid for in rain.",
+      },
+    ],
+    relatedCities: ["bastia"],
+    tags: [
+      "solo travel",
+      "solo travel bastia",
+      "travelling alone in france",
+      "single supplement",
+      "terra vecchia bastia",
+      "corsica",
+    ],
+  },
+  {
+    slug: "solo-travel-in-amiens-2026",
+    title:
+      "Solo travel in Amiens: a 500-seat hall opened this month, in the district that goes out",
+    metaTitle: "Solo Travel in Amiens 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Amiens alone: Saint-Leu at 8/10 for nightlife, a new 500-seat music venue since September 2026, 28.98% aged 15 to 29, and the best cost score in this batch.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    intro:
+      "Amiens is the city in this batch whose argument is the most recent: the town's contemporary music venue opened a second hall of 500 seats on Saturday 12 September 2026, a fortnight before this guide was written, and it opened it inside Saint-Leu, which is to say in the district our records score 8/10 for nightlife. The rest of the figures point the same way: 28.98% of residents aged 15 to 29 at the 2022 census, seventeenth share of the fifty-six destinations in this series, and a cost score of 6.4/10, fifteenth of the corpus level with six other cities. On paper this is the most balanced destination in the batch of six for a trip built on evenings on a contained budget.",
+    sections: [
+      {
+        heading: "Why Amiens: a university of 30,000 students and low prices",
+        body:
+          "The share aged 15 to 29, 28.98%, is the second in this batch behind Villeurbanne at 29.24%, and well above the national median of 18.44%. The mechanism is the Université de Picardie Jules-Verne, founded in 1969, which has around 30,000 students, with the usual reservation: the institution has campuses in several towns across the Hauts-de-France, so that total does not all live in Amiens. The share aged 60 or over is 20.7%, comfortably under our scale's 32% ceiling, which puts Amiens among the towns that live all year. The commune has 134,780 residents in 2022 against 133,755 in 2016, a rise of 0.77%: this is not a city taking off, it is a stable one. The scores mix the good and the mediocre and should be given as they stand: 6.4/10 for cost, the best in this batch, against 5.1/10 for daily life, fifty-fifth of the fifty-six level with Nîmes and Bastia, 6.6/10 for culture, forty-fifth level with nine others, and 4.5/10 for safety. The median standard of living is 19,650 euros, tenth lowest in the corpus, and the poverty rate 26%.",
+      },
+      {
+        heading:
+          "Jules Verne died here, and 1918 was fought twenty kilometres east",
+        body:
+          "Two Amiens names will be familiar to an English-speaking reader who has never heard of the town. The first is Jules Verne, who is read in English far more than most French novelists and who spent his last decades here: he lived at 2 rue Charles-Dubois from 1882 to 1900, sat as a town councillor from 1888 to 1904 without ever being mayor, and died in Amiens on 24 March 1905. The city bought the house in 1980 and it is now a museum run with the Centre International Jules Verne, which is a good hour and an easy one to do alone. The second is a battle, and it needs placing on a map before anything else. The Battle of Amiens opened on 8 August 1918, led by the Australian and Canadian Corps with a British corps on their left and the French First Army on their right; Ludendorff called it the black day of the German Army, and it began the Hundred Days that ran to the armistice of 11 November. But it was not fought in the town. The line was east of here, on the Somme, and the place an Australian visitor is looking for is the Australian National Memorial with the Sir John Monash Centre behind it, which opened in April 2018 some twenty kilometres east of Amiens, between Villers-Bretonneux, Corbie and Fouilloy. Those are separate communes: the centre is reachable from Amiens, it is not situated in Amiens, and it is a half-day with a car or a booked tour rather than an afternoon on foot. The town was the base and the railhead, which is why its name is on the battle.",
+      },
+      {
+        heading: "Where to stay: Saint-Leu, and nothing else for this trip",
+        body:
+          "This is the simplest choice in the batch. Saint-Leu, classed as town centre in our records, carries 8/10 for nightlife and 8.0/10 overall, the best in town, for an average two-room flat at 700 euros: it is the canal quarter at the foot of the cathedral, the one with the floating gardens, and it is also the student quarter. Henriville, residential and Haussmannian, falls to 5.5/10 for nightlife at 680 euros, twenty euros less for a distinctly quieter evening, though it does carry 8.0/10 for safety, the best of the three. Étouvie, working class, comes down to 5/10 for nightlife at 560 euros, with 9.0/10 for cost, and sits away from the centre: it is a lived-in district served by bus rapid transit, and it holds no interest for this kind of stay. Since twenty euros separate the first two, there is no reason not to sleep in Saint-Leu. The commune references are 490 euros for a studio, 680 for a two-room flat and 900 for a three-room flat, the lowest set in this batch of six on all three lines, and the editorial all-property benchmark gives 2,200 euros per square metre, also the lowest in the batch. The median of flats actually sold, which is a different measure, comes out at 2,491 euros per square metre across 1,481 transactions from the 2024 and 2025 vintages.",
+      },
+      {
+        heading:
+          "Going out on a Tuesday: two halls instead of one, since this month",
+        body:
+          "La Lune des Pirates is the contemporary music venue of Amiens and has been putting on gigs at 17 quai Bélu, in Saint-Leu, since 1987. Since Saturday 12 September 2026 it runs across two sites: the historic room on the quai Bélu, now called the Club, with 200 places, and a new Grande Salle of 500 places at 58 bis rue Saint-Leu, opened with a parade setting out from the Club. Both addresses are in the same district, a few minutes' walk apart, and doubling the capacity changes what a town of this size can programme: a 500-seat room catches tours that a 200-seat room cannot. For a trip whose unit is the evening, that is the most concrete argument in this batch, and it is dated to this month, so check the listings before fixing your dates. Alongside it, Notre-Dame cathedral, a UNESCO World Heritage site since 1981, carries the Chroma show, a fifty-minute illumination of its façade projected on summer evenings from July to September and again in December. Access is free and unticketed, it is outdoors, a guide answers questions about the polychromy of the portals during the second half, and it fills precisely the slot where a lone traveller is wondering what to do after dinner. The hortillonnages, the floating market gardens on the canals, are a daytime thing.",
+      },
+      {
+        heading:
+          "Getting around: Paris-Nord direct, and two stations not to confuse",
+        body:
+          "The transport score is 6.1/10, forty-fourth of the fifty-six level with ten other cities, and our service table carries no entry for Amiens, which means undocumented rather than unserved. The check for this batch is therefore recorded here, with the same distinction as at Nîmes: there are two stations, and only one is in the town. Amiens station is in the centre, about fifteen minutes' walk from Saint-Leu, and some twenty services a day link it directly to Paris-Nord in around an hour and ten, by regional train and not by high speed. Haute-Picardie TGV station is not in Amiens: it stands on the communes of Estrées-Deniécourt and Ablaincourt-Pressoir, some forty kilometres out, halfway between Amiens and Saint-Quentin, it is served only by cross-country TGV services, and the road shuttle from Amiens station takes about forty-five minutes. In other words, coming from Paris you do not go through it, and coming from Lyon or Bordeaux you have to allow for that connection. On the ground, everything this guide cares about fits in a walkable perimeter between the station, the cathedral and Saint-Leu, which is the real reason a middling transport score does not get in the way. The urban network has bus rapid transit routes, one of which serves Étouvie. As everywhere in this series, a route tells you nothing about its last departure, and the closing time is what decides an evening: check it with the operator before you go out.",
+      },
+      {
+        heading:
+          "The single supplement, and why this guide publishes no climate figures",
+        body:
+          "The cost score of 6.4/10 is the best of the six cities in this batch, fifteenth of the fifty-six destinations level with Clermont-Ferrand, Besançon, Brest, Le Mans, Mulhouse and Niort. Since the single-room supplement mechanically comes to half the price of the room, it costs less the cheaper the room, and the Amiens rental references are the lowest in this batch on all three lines. One honest reservation, however, the same as in the last batch of this series: the Amiens remote-work score is 4.8/10 and does not clear the 6.5 threshold our profile page uses as an indirect sign of a furnished studio market. Of the six cities here, only Villeurbanne clears it, and that should be said rather than letting anyone assume that a stock of small rooms automatically follows low prices. What does work for Amiens is the combination of an administrative prefecture, a teaching hospital and a university: three sources of single-occupancy weekday business, so a hotel trade that knows how to price one person from Monday to Thursday. The three habits of the series apply without difficulty, and the convention holds here as elsewhere: a cost score measures the cost of living in a place and never the price of a hotel night, which this site does not quote. On the weather, this is the only guide in the batch that gives no temperature figure at all, and the reason is a property of our data rather than a lack of interest. Our monthly normals come from a network of twenty-nine stations and each town inherits the nearest: for Amiens that is Lille-Lesquin, ninety-five kilometres away, the eleventh largest distance among the fifty-six destinations in this series. That station also publishes no count of rain days in our data, so the table would be both distant and incomplete. The series already applies this rule elsewhere and it holds to it here: Bayonne, whose reference station is a hundred and sixty-one kilometres off, Pau at a hundred and forty-six, Metz at a hundred and twenty-five and La Rochelle at a hundred and sixteen publish no normals either, and in the previous batch Angoulême, Lorient and Vannes were treated the same way. A distant figure presented as a local one is worse than an empty cell, because people copy it. What can be said without data, and it is enough to choose dates on: Amiens is a plain town in northern France with a degraded oceanic climate, so grey unlit winters, temperate summers, and rainfall spread across the year rather than concentrated. The practical consequence for this trip is simple, and it is the good news about this destination: when the weather decides nothing, the venue's calendar decides, and it runs from September to June. The low season in Amiens is not winter, it is July and August, when the students have gone and the concert season stops, at exactly the point where Chroma takes over on the cathedral front.",
+      },
+    ],
+    relatedCities: ["amiens"],
+    tags: [
+      "solo travel",
+      "solo travel amiens",
+      "travelling alone in france",
+      "single supplement",
+      "saint-leu amiens",
+      "hauts-de-france",
+    ],
+  },
+  {
     slug: "single-parent-in-annemasse-2026",
     title:
       "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",

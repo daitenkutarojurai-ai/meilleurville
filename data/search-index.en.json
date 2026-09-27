@@ -8019,6 +8019,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "solo-travel-in-marseille-2026",
+      "title": "Solo travel in Marseille: the best night out in this series, and the metro stops at 21:30",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-villeurbanne-2026",
+      "title": "Solo travel in Villeurbanne: the steadiest night scene here, and Lyon two stops away",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-saint-paul-reunion-2026",
+      "title": "Solo travel in Saint-Paul, Réunion: the lagoon is at Saint-Gilles, not at the town",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-nimes-2026",
+      "title": "Solo travel in Nîmes: the town that gave denim its name, and it passes both our rules",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-bastia-2026",
+      "title": "Solo travel in Bastia: the first Corsican destination here, and the worst connected",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-amiens-2026",
+      "title": "Solo travel in Amiens: a 500-seat hall opened this month, in the district that goes out",
+      "emoji": "🍸"
+    },
+    {
       "slug": "single-parent-in-annemasse-2026",
       "title": "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
       "emoji": "🧑‍🍼"
@@ -8168,17 +8198,32 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 62
+      "count": 63
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 60
+      "count": 61
     },
     {
       "slug": "grand-est",
       "label": "grand est",
       "count": 58
+    },
+    {
+      "slug": "single-supplement",
+      "label": "single supplement",
+      "count": 56
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 56
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
+      "count": 56
     },
     {
       "slug": "buying-property-france",
@@ -8191,29 +8236,14 @@
       "count": 53
     },
     {
-      "slug": "single-supplement",
-      "label": "single supplement",
-      "count": 50
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 50
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
-      "count": 50
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 49
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
       "count": 49
-    },
-    {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 48
     },
     {
       "slug": "relocation",
@@ -8253,7 +8283,7 @@
     {
       "slug": "provence",
       "label": "provence",
-      "count": 31
+      "count": 32
     },
     {
       "slug": "normandy",
@@ -8311,6 +8341,11 @@
       "count": 21
     },
     {
+      "slug": "reunion",
+      "label": "reunion",
+      "count": 16
+    },
+    {
       "slug": "cycling",
       "label": "cycling",
       "count": 15
@@ -8323,11 +8358,6 @@
     {
       "slug": "public-transport",
       "label": "public transport",
-      "count": 15
-    },
-    {
-      "slug": "reunion",
-      "label": "reunion",
       "count": 15
     },
     {
@@ -8471,6 +8501,11 @@
       "count": 7
     },
     {
+      "slug": "corsica",
+      "label": "corsica",
+      "count": 6
+    },
+    {
       "slug": "dijon",
       "label": "dijon",
       "count": 6
@@ -8533,11 +8568,6 @@
     {
       "slug": "clermont-ferrand",
       "label": "clermont ferrand",
-      "count": 5
-    },
-    {
-      "slug": "corsica",
-      "label": "corsica",
       "count": 5
     },
     {

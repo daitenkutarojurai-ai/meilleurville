@@ -8597,6 +8597,171 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-27
+
+- **Parité EN — `solo-travel-in-[city]-2026` batch 8, rattrapage de parité (+6 : Marseille,
+  Villeurbanne, Saint-Paul 974, Nîmes, Bastia, Amiens).** Les 6 jumelles du batch FR
+  `vacances-celibataire` du 26/09 écrites d'un coup dans `data/guides-en.ts`. **Compteurs mesurés :
+  FR 56, EN 56 — écart nul dans les deux sens, parité rétablie** (`EN_GUIDES` 978 → 984).
+  `npm run parity` sort en **code 0**, 0 route FR sans jumelle EN (FR 221 / EN 166) : la parité de
+  routes tient depuis le 09/08, le run porte donc sur l'écart de corpus.
+  ⚠️ **Le lot a été choisi par mesure de fraîcheur, pas au fil du journal.** Le comptage par gabarit
+  des deux corpus donne FR 1 173 contre EN 984, et les grandes séries sont à parité
+  (`10-choses-a-faire` 275/275, `parent-solo` 103/103, `vacances-monoparentales` 38/38,
+  `acheter-a` 49/49, `travail-a` 30/30). La seule divergence datée de la veille était
+  `vacances-celibataire` 56 contre `solo-travel-in` 50, donc six jumelles : **un écart rattrapé le
+  jour même coûte six pages, rattrapé dans un mois il en coûte cent.** Les écarts structurels
+  restants, tous anciens, sont `quitter-[ville]-guide` 49 contre ~17 côté `leaving-`,
+  `universites-[ville]` 15 sans jumelle, `vivre-au-vert-pres-de` 5 et `investir-locatif` 5, plus
+  les 98 comparatifs FR — c'est le vivier des prochains runs, et il se remesure, il ne se recopie pas.
+  **Contrôle de série passé sur les 540 villes et les deux locales**, avec le résolveur de la page
+  (`getEnGuide()` puis `guideCityPhoto(guideSlug, relatedCities)`, les deux leçons des batches 47
+  et 51) : **56/56 atteignables des deux côtés, 0 orphelin, 0 collision, 0 guide sans photo
+  d'en-tête**, et les 6 portent leur ville en 1re position de `relatedCities` — sans quoi l'en-tête
+  disparaît en silence. 6 sections par guide (la série FR en compte 7, l'EN fusionne les fins de
+  liste comme le reste du corpus EN), `metaTitle` 47-54, `metaDesc` 155-157, `title` 82-89,
+  1 693-1 838 mots, **0 em-dash** sur les six réunis. Aucun tag neuf — `search-index.en.json` reste
+  à **114 tags**, donc aucune page `/tags/` créée ; `sitemap:check` donne EN 28 870 → **28 876 URL**,
+  soit exactement les 6 guides neufs (FR inchangé à 29 283).
+  ⚠️ **Vingt-deux figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le
+  contrôle mécanique les remontera à chaque run, ne pas les « corriger ».** 585 figures, 563
+  retrouvées ; les 22 restantes sont toutes des dates vérifiées en ligne avant écriture et relèvent
+  de la matière propre à l'angle anglophone. ① **Marseille** : `600` (av. J.-C.), `1844`, `1890`,
+  `2013`. Trois choses y sont plus connues en anglais que la ville : Massalia, fondée vers 600 av.
+  J.-C. par des colons grecs de Phocée, ce qui en fait la plus ancienne ville de France ; le
+  **Château d'If**, prison d'Edmond Dantès depuis que Dumas a publié *The Count of Monte Cristo* en
+  **1844**, forteresse du XVIe siècle démilitarisée et **ouverte au public en 1890**, c'est-à-dire
+  devenue une attraction **à cause d'un livre** ; et **2013**, Capitale européenne de la culture,
+  année d'ouverture du MuCEM (7 juin, Rudy Ricciotti). ⚠️ Le guide **distingue explicitement** ce
+  label européen du titre national de **Capitale française de la culture** que Villeurbanne a porté
+  en 2022 : ce sont deux institutions et deux dispositifs différents, et un lecteur anglophone
+  confondra les deux si on ne le dit pas. ⚠️ Le Château d'If est **dans la commune** de Marseille,
+  donc la convention « accessible depuis » ne s'applique pas, mais il ne s'atteint qu'en bateau
+  depuis le Vieux-Port et **une traversée s'annule par mistral** : le guide dit de vérifier la
+  navette le matin même. ② **Villeurbanne** : `1948`, `2014`, `2013`. **ASVEL, fondée en 1948, est le
+  club le plus titré du basket français** et joue à l'Astroballe, d'où le nom de la station de métro
+  Laurent Bonnevay Astroballe que le guide FR cite sans l'expliquer ; **Tony Parker**, quadruple
+  champion NBA avec les San Antonio Spurs, **dirige le club depuis 2014**. ⚠️ **Le nombre de titres
+  n'est pas cité** (les sources donnent 21 championnats, un compte qui bouge chaque saison) et **la
+  fonction de Parker n'est pas nommée** : il en a changé récemment, donc la phrase dit qu'il dirige
+  le club et non qu'il en est président, ce qui reste vrai dans les deux cas. Un match de
+  championnat est par ailleurs une soirée simple pour une personne seule, ce qu'un abonnement de
+  théâtre n'est pas. ③ **Saint-Paul 974** : `2010`. **Les Pitons, cirques et remparts de l'île de La
+  Réunion sont inscrits à l'UNESCO depuis le 1ᵉʳ août 2010**, le périmètre coïncidant avec le cœur
+  du parc national et couvrant environ **40 %** de l'île : ce n'est pas décoratif, la réglementation
+  de cœur de parc est **opposable** et porte sur le Maïdo, qui est dans cette commune. ④ **Nîmes** :
+  `1785`, `1787`. Deux angles anglophones majeurs, et le premier est dans la garde-robe du lecteur :
+  **le mot *denim* se rattache à la *serge de Nîmes***, contractée en anglais, les tisserands nîmois
+  cherchant à reproduire une toile génoise dont le nom survit dans *jeans*. ⚠️ **L'étymologie est
+  donnée comme le récit standard et non comme une filiation établie** — les historiens discutent du
+  lien direct au tissu moderne — et le guide précise qu'**il n'y a pas de manufacture à visiter, ce
+  qui reste ici est le nom**. Le second : **la Maison Carrée est le modèle du Capitole de l'État de
+  Virginie**, Jefferson ayant convaincu l'assemblée de Virginie d'en adopter la forme en **1785** sur
+  plans publiés, avant de voir le monument en **1787** et d'écrire à Mme de Tessé qu'il le
+  contemplait des heures entières comme un amant sa maîtresse ; avec Charles-Louis Clérisseau il a
+  bâti plus grand et remplacé le corinthien par de l'ionique. ⑤ **Bastia** : `1794`, `1796`. **Un
+  lecteur britannique qui tape Bastia tombe sur la Royal Navy** : intervention britannique de janvier
+  1794 à la demande de **Pasquale Paoli**, **royaume anglo-corse**, et **siège de Bastia du 4 avril
+  au 22 mai 1794**, Nelson (HMS Agamemnon) chargé de prendre la ville sous Hood, qui l'attendait en
+  dix jours et y a mis six semaines, la garnison ne cédant qu'à bout de vivres ; les Britanniques
+  évacuent l'île en **1796**. ⚠️ **La blessure qui coûte l'œil à Nelson n'est pas à Bastia mais à
+  Calvi**, quelques semaines plus tard — plusieurs pages anglophones l'attribuent à Bastia, et Calvi
+  se trouve être le terminus de la branche ferroviaire que le guide FR décrit. ⚠️ Correction d'une
+  erreur que les visiteurs font constamment, dite dans le guide : **Napoléon n'est pas né à Bastia**
+  mais à Ajaccio. ⑥ **Amiens** : `1918`, `11`, `1882`, `1888`, `1900`, `1904`, `1905`, `1980`, `2018`.
+  Deux noms familiers à un anglophone qui n'a jamais entendu parler de la ville. **Jules Verne** y a
+  vécu au 2 rue Charles-Dubois **de 1882 à 1900**, a siégé au conseil municipal **de 1888 à 1904**
+  sans jamais être maire, et **y est mort le 24 mars 1905** ; la ville a acheté la maison en **1980**
+  et c'est un musée. Et **la bataille d'Amiens du 8 août 1918**, menée par les corps **australien et
+  canadien**, que Ludendorff a appelée le jour noir de l'armée allemande et qui ouvre les Cent Jours
+  jusqu'à l'armistice du **11 novembre**. ⚠️ **Mais elle n'a pas été livrée dans la ville** : la
+  ligne était à l'est, sur la Somme, et ce qu'un visiteur australien cherche est le **Mémorial
+  national australien et le Sir John Monash Centre, ouvert en avril 2018 à une vingtaine de
+  kilomètres à l'est, entre Villers-Bretonneux, Corbie et Fouilloy** — communes distinctes, donc
+  « accessible depuis » et non « situé à », même traitement que le champ de bataille de Verdun au
+  batch 46. La ville était la base et la tête de ligne, ce qui explique que son nom soit sur la
+  bataille.
+  ⚠️ **Trois affirmations corrigées avant commit, toutes du même genre : une durée ou une fonction
+  dérivée, que ni `tsc` ni `npm run integrity` ne peuvent voir.** ① Un intertitre annonçait « Jules
+  Verne lived here for eighteen years », durée **calculée sur les dates de la maison** (1882-1900)
+  et fausse de la ville, où il s'installe en 1871 et meurt en 1905 ; ② le corps disait « spent the
+  second half of his life here », ce qu'aucune source ne porte (43 ans sur 77 avant l'arrivée), remplacé
+  par « his last decades » ; ③ Parker donné « president since 2014 », fonction dont il a changé.
+  Même mode de défaillance que l'écart de sept siècles et demi de Sens (batch 37) et les six
+  comparaisons du batch 38 : **les dates prises une à une étaient justes, ce sont les écarts et les
+  rôles dérivés qui dérapent.** Deux longueurs hors gabarit corrigées dans la même passe (un
+  `metaDesc` à 164 caractères, trois `title` à 91-97 quand la série plafonnait à 89).
+  ⚠️ **Piège d'outillage, et il a d'abord menti dans le bon sens.** Le premier contrôle de figures
+  annonçait **74 écarts** au lieu de 22 : il normalisait le séparateur décimal (virgule FR → point)
+  mais **pas le séparateur de milliers**, donc l'EN `877,215` ne tombait jamais en face du FR
+  `877 215`. Un contrôle de parité de chiffres entre deux locales doit traiter **les deux
+  conventions** : FR milliers par espace insécable et décimale par virgule, EN milliers par virgule
+  et décimale par point. Un tel faux positif est coûteux dans les deux sens — il noie les vrais
+  écarts délibérés, et il invite à « corriger » un chiffre juste.
+  Les prudences du FR sont reprises telles quelles, à ne pas diluer : **le métro de Marseille
+  s'arrête à 21 h 30 du lundi au mercredi** depuis les travaux d'automatisation d'octobre 2023, avec
+  trois lignes de bus relais gratuites jusqu'à 0 h 30, le jeudi réaligné sur le week-end le 25 juin
+  2026 — écrit comme un **état de chantier à vérifier auprès de la RTM**, et la conséquence est dite
+  (un séjour orienté sortie se planifie de jeudi à dimanche, ou se loge à pied du Cours Julien) ;
+  **la sécurité marseillaise à 2,7/10 est un score et non un décompte de faits enregistrés**, sans
+  jugement sur les habitants ; **l'axe de vie quotidienne et la note de vie du soir ne mesurent pas
+  la même chose** et il n'y a pas de contradiction à trancher ; **Villeurbanne n'est pas une banlieue
+  résidentielle** mais une commune à équipements, histoire urbaine et centre propres, et le fait
+  qu'une partie de la soirée soit de l'autre côté de la limite communale est **l'argument et non le
+  défaut** ; **une ligne de métro ne dit rien de son dernier passage** (TCL, TER, exploitant urbain,
+  selon la ville) ; **Cusset est sur la ligne A et non D**, correction apportée à nos propres données
+  au batch FR ; à **Saint-Paul**, Saint-Gilles **n'est pas le centre** (une quinzaine de kilomètres),
+  **il y a un lagon devant Saint-Gilles et pas devant Saint-Paul**, la **baignade est autorisée dans
+  le lagon, les platiers, les filets et les zones Vigie Requins et interdite ailleurs pour risque
+  requin**, écrite comme une **règle de droit** avec le drapeau et les sauveteurs qui font foi avant
+  d'entrer dans l'eau, et le guide EN ajoute qu'**un voyageur seul n'a personne pour lui dire que la
+  plage devant lui n'est pas baignable** et qu'on ne raisonne pas depuis des baigneurs vus ailleurs
+  sur la côte ; **les cumuls de pluie ne sont pas publiés pour Saint-Paul** (gradient est-ouest d'un
+  facteur vingt), les températures de Gillot le sont ; à **Nîmes**, **Nîmes Pont-du-Gard n'est pas à
+  Nîmes** (Manduel et Redessan, 14 km, navette de 9 minutes) et **Pissevin est un quartier habité**
+  sans verdict de sécurité ; la **corrida de la Feria est nommée comme une pratique encadrée et
+  contestée que le guide ne tranche pas**, la date étant signalée parce qu'elle décide d'un budget ;
+  à **Bastia**, le réseau ferré corse **ne rejoint aucune ligne continentale**, l'aéroport Poretta
+  est **à Lucciana**, et **le supplément le plus lourd n'est pas celui de la chambre mais la
+  traversée**, qu'un voyageur seul paie en entier là où un couple la partage — seul endroit de la
+  série où c'est le cas ; **la station d'Oletta ne publie aucune durée d'ensoleillement**, donc le
+  guide ne dit rien de la lumière et ne l'invente pas ; à **Amiens**, **Haute-Picardie n'est pas à
+  Amiens** (Estrées-Deniécourt et Ablaincourt-Pressoir, une quarantaine de kilomètres), **Étouvie
+  est un quartier habité**, les ~30 000 étudiants de l'UPJV **ne résident pas tous à Amiens**, et
+  **aucune normale climatique n'est publiée** parce que Lille-Lesquin est à 95 km et ne publie pas de
+  jours de pluie — *un chiffre lointain présenté comme local est pire qu'une case vide, parce qu'on
+  le recopie*. Partout, le **repère éditorial `avgBuyPriceM2` et la médiane DVF sont nommés comme
+  deux mesures différentes** et jamais alignés l'un sur l'autre, et le **score de coût mesure le coût
+  de la vie sur place et jamais le prix d'une nuit**, que ce site ne chiffre pas.
+  Cinq ajouts sans chiffre propres au lecteur étranger : à **Saint-Paul**, une section entière
+  d'ouverture sur ce qu'est administrativement une île de l'océan Indien — **La Réunion est un
+  département français et une région ultrapériphérique de l'UE mais n'est pas dans l'espace
+  Schengen, donc un visa Schengen n'y vaut pas** (règle posée au batch 33), **UTC+4 sans heure d'été**,
+  donc un décalage qui bouge dans l'année, **saisons inversées** avec hiver austral sec de mai à
+  octobre et saison cyclonique de novembre à avril ; le **cryptogramme de La Buse** situé comme un
+  siècle de chasse au trésor anglophone **et nommé comme une légende**, la tombe étant réelle et le
+  guide ne proposant aucune piste ; **Bastia posée comme la porte corse pratique depuis la Toscane et
+  la Ligurie** (Livourne à l'année, Gênes, Savone, Piombino et Civitavecchia en tout ou partie
+  saisonniers), **fréquences et durées renvoyées à l'opérateur et non citées** ; et le rappel que le
+  **Sir John Monash Centre est une demi-journée avec véhicule ou visite réservée**, pas un
+  après-midi à pied.
+  ⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30
+  de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut
+  prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 978 →
+  984), `search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**),
+  `npm run hreflang:check`, plus le contrôle de lookup / photo exhaustif, le contrôle de figures
+  ci-dessus et une vérification d'encodage (accents intacts, aucune apostrophe typographique, aucun
+  mojibake, aucun `m2` / `EUR` / `deg` ascii). Diff limité à `data/guides-en.ts` et
+  `data/search-index.en.json` : **aucun fichier FR touché**. Note d'environnement reconfirmée : le
+  conteneur de routine démarre **en HEAD détaché et sans `node_modules`** — `git checkout main` puis
+  `npm install` d'abord, et les brouillons vont **hors du dépôt**.
+  **Prochain run** : l'écart de la série `solo-travel-in` est nul, donc la série FR reprend la main.
+  Les écarts de corpus à traiter ensuite, mesurés ce run et à remesurer au prochain, sont
+  `quitter-[ville]-guide` (49 FR contre ~17 côté `leaving-`), `universites-[ville]` (15 FR sans
+  jumelle), `vivre-au-vert-pres-de` et `investir-locatif` (5 chacun), et les 98 comparatifs FR.
+
+---
+
 ## Shipped 2026-09-23
 
 - **Parité EN — `things-to-do-in-[city]-2026` batch 51, rattrapage de parité (+7 : Sélestat,
