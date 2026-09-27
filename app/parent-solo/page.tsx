@@ -20,6 +20,9 @@ export const revalidate = false;
 // transport signals go noisy. The 20 000 floor is the same threshold used by
 // F52 quality-of-life rankings.
 const MIN_POP = 20_000;
+// Quotas indicatifs : ce sont des cibles, pas des coupes. `cutAtTier` s'arrête
+// avant le palier qui les dépasserait, donc la table publiée peut compter un
+// peu moins de lignes — jamais un palier tronqué.
 const TOP_N = 30;
 const BOTTOM_N = 10;
 
@@ -58,10 +61,61 @@ function buildRows(): Row[] {
   return rows;
 }
 
+/**
+ * Coupe une liste triée AVANT le palier qui déborde du quota.
+ *
+ * Un `sort` suivi d'un `slice(0, N)` sur un score à une décimale **fabrique** la
+ * fin de sa liste. Mesuré sur ce classement : le palier 6,6 compte dix communes
+ * et occupe les rangs 27 à 36, si bien qu'un `slice(0, 30)` en publiait quatre
+ * et laissait six ex æquo dehors, départagées par l'ordre alphabétique ; côté
+ * bas, le palier 4,1 compte onze communes et un `slice(0, 10)` en nommait trois
+ * parmi « les dix villes qui pénalisent le plus », ce qui est une affirmation
+ * négative sur une commune réelle décidée par son initiale.
+ *
+ * Convention de `lib/owner-rankings.ts` : on groupe par valeur, on s'arrête
+ * avant le palier qui déborde, et la page dit combien de villes suivaient et à
+ * quelle note. Si le premier palier dépasse déjà le quota, on le publie entier
+ * — le quota est une cible, la coupe d'une égalité est une faute.
+ */
+function cutAtTier(sorted: Row[], quota: number): {
+  rows: Row[];
+  followers: number;
+  followerFit: number | null;
+} {
+  let end = 0;
+  while (end < sorted.length) {
+    const fit = sorted[end].fit;
+    let next = end;
+    while (next < sorted.length && sorted[next].fit === fit) next++;
+    if (next > quota && end > 0) break;
+    end = next;
+    if (end >= quota) break;
+  }
+  return {
+    rows: sorted.slice(0, end),
+    followers: sorted.length - end,
+    followerFit: end < sorted.length ? sorted[end].fit : null,
+  };
+}
+
+/**
+ * Rang d'un palier, et sa taille. Toutes les communes d'un palier partagent le
+ * même rang : l'ordre alphabétique qui les sépare dans la table est un ordre
+ * **stable**, pas un départage, et publier une position dedans reviendrait à
+ * publier l'initiale de la commune. Mesuré sur ce classement : 340 des 363
+ * communes changent de rang si l'on inverse ce seul départage.
+ */
+function tierOf(rows: Row[], fit: number, better: (a: number, b: number) => boolean) {
+  return {
+    rank: rows.filter((r) => better(r.fit, fit)).length + 1,
+    size: rows.filter((r) => r.fit === fit).length,
+  };
+}
+
 export const metadata: Metadata = {
   title: "Parent solo : les villes qui tiennent en 2026",
   description:
-    "Top 30 villes françaises où la vie de parent solo tient : coût, transports, écoles, sécurité. Composite 4 axes pondérés, mêmes poids que City Match, budget T3 estimé.",
+    "Les villes françaises où la vie de parent solo tient : coût, transports, écoles, sécurité. Composite 4 axes pondérés, mêmes poids que City Match, budget T3 estimé.",
   alternates: pathAlternates("/parent-solo", "/single-parent"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -75,10 +129,21 @@ export const metadata: Metadata = {
 
 export default function ParentSoloHubPage() {
   const rows = buildRows();
-  const top = [...rows].sort((a, b) => b.fit - a.fit || a.name.localeCompare(b.name, "fr")).slice(0, TOP_N);
-  const bottom = [...rows]
-    .sort((a, b) => a.fit - b.fit || a.name.localeCompare(b.name, "fr"))
-    .slice(0, BOTTOM_N);
+  const topCut = cutAtTier(
+    [...rows].sort((a, b) => b.fit - a.fit || a.name.localeCompare(b.name, "fr")),
+    TOP_N,
+  );
+  const bottomCut = cutAtTier(
+    [...rows].sort((a, b) => a.fit - b.fit || a.name.localeCompare(b.name, "fr")),
+    BOTTOM_N,
+  );
+  const top = topCut.rows;
+  const bottom = bottomCut.rows;
+  // Les 5 « meilleures » citées en FAQ suivent la même règle : on ne coupe pas
+  // un palier au rang 5 pour faire un chiffre rond.
+  const faqTop = cutAtTier(top, 5).rows;
+  const higher = (a: number, b: number) => a > b;
+  const lower = (a: number, b: number) => a < b;
 
   const relatedGuides = GUIDES.filter((g) => g.slug.startsWith("parent-solo-a-")).sort((a, b) =>
     a.title.localeCompare(b.title, "fr"),
@@ -94,9 +159,14 @@ export default function ParentSoloHubPage() {
     "@type": "ItemList",
     name: "Villes françaises les mieux adaptées au profil parent solo",
     numberOfItems: top.length,
-    itemListElement: top.map((r, i) => ({
+    // Les premières villes comportent des ex æquo (deux communes à 7,2/10, trois
+    // à 7,1), et l'ordre qui les sépare est alphabétique. Publier `position`
+    // renverrait cet ordre fabriqué en données structurées, où personne ne le
+    // relit — d'où `ItemListUnordered` et l'absence de `position`, comme
+    // l'exige la convention de lib/owner-rankings.ts.
+    itemListOrder: "https://schema.org/ItemListUnordered",
+    itemListElement: top.map((r) => ({
       "@type": "ListItem",
-      position: i + 1,
       name: r.name,
       url: `https://www.mavilleideale.fr/villes/${r.slug}/parent-solo`,
       description: `Score fit ${r.fit.toFixed(1)}/10 (${r.label.toLowerCase()}) · coût ${r.breakdown.cost.toFixed(1)}, transports ${r.breakdown.transport.toFixed(1)}, écoles ${r.breakdown.schools.toFixed(1)}, sécurité ${r.breakdown.safety.toFixed(1)}`,
@@ -106,14 +176,13 @@ export default function ParentSoloHubPage() {
   const faq = faqJsonLd([
     {
       q: "Quelles villes françaises sont les plus adaptées à une vie de parent solo ?",
-      a: `Selon notre composite parent solo (coût 30 % + transports 20 % + écoles 25 % + sécurité 25 %, mêmes poids que le profil City Match), les 5 villes ≥ ${MIN_POP.toLocaleString("fr-FR")} habitants au meilleur score sont : ${top
-        .slice(0, 5)
+      a: `Selon notre composite parent solo (coût 30 % + transports 20 % + écoles 25 % + sécurité 25 %, mêmes poids que le profil City Match), les 5 villes ≥ ${MIN_POP.toLocaleString("fr-FR")} habitants au meilleur score sont : ${faqTop
         .map((c) => `${c.name} (${c.fit.toFixed(1)}/10)`)
         .join(", ")}. Ces villes cumulent un coût de la vie tenable sur un seul revenu, un réseau de transport qui absorbe l'imprévu quand personne d'autre ne peut prendre le relais, un maillage scolaire et périscolaire dense, et un niveau de sécurité qui rend la sortie d'école ou le retour de nuit sereins.`,
     },
     {
       q: "Comment le score parent solo est-il calculé ?",
-      a: "Pondération éditoriale explicite : coût de la vie 0,30 · transports 0,20 · écoles 0,25 · sécurité 0,25 (total 1,00). Les 4 axes viennent du seed (data/cities-seed.ts), calibrés à partir de sources publiques (Insee, SSMSI, observatoires loyers). Le résultat reste sur une échelle 0-10 avec la même convention que les axes individuels (10 = excellent). Formule identique à celle du profil « single-parent » dans lib/city-match.ts.",
+      a: "Pondération éditoriale explicite : coût de la vie 0,30 · transports 0,20 · écoles 0,25 · sécurité 0,25 (total 1,00). Les 4 axes sont des notes estimées à l'échelle de la commune, issues du seed (data/cities-seed.ts) et calibrées à partir de cadres de référence publics (Insee, SSMSI, observatoires des loyers) ; ce ne sont pas des taux publiés. Aucune donnée de revenu n'entre dans le classement. Le résultat reste sur une échelle 0-10 avec la même convention que les axes individuels (10 = excellent). Formule identique à celle du profil « single-parent » dans lib/city-match.ts.",
     },
     {
       q: "Pourquoi ce classement diffère-t-il du palmarès général ?",
@@ -121,8 +190,7 @@ export default function ParentSoloHubPage() {
     },
     {
       q: "Quel budget minimum pour un T3 en parent solo ?",
-      a: `Sur la règle du tiers du revenu net (33 %, relâchée à 35 % sur les marchés très tendus où le score coût passe sous 5), les seuils varient fortement selon la ville. Sur les 5 villes du top : ${top
-        .slice(0, 5)
+      a: `Sur la règle du tiers du revenu net (33 %, relâchée à 35 % sur les marchés très tendus où le score coût passe sous 5), les seuils varient fortement selon la ville. Sur les villes de tête : ${faqTop
         .filter((r) => r.minIncome)
         .map((r) => `${r.name} ${r.minIncome} €/mois net (T3 ${r.rentT3} €)`)
         .join(", ")}. Sous ce seuil, il faut activer un levier logement (social, intermédiaire, colocation avec un autre parent solo) ou basculer sur un T2 avec chambre partagée.`,
@@ -216,13 +284,28 @@ export default function ParentSoloHubPage() {
           <div className="flex items-center gap-2 mb-1">
             <Users className="h-5 w-5 text-[var(--accent)] shrink-0" />
             <h2 className="text-xl font-bold text-[var(--text-primary)]">
-              Top {TOP_N} — le profil parent solo tient sans arbitrage douloureux
+              Les {top.length} villes où le profil parent solo tient sans arbitrage douloureux
             </h2>
           </div>
           <p className="text-sm text-[var(--text-secondary)] mb-6 max-w-3xl">
             Villes ≥ {MIN_POP.toLocaleString("fr-FR")} hab. au meilleur score composite parent solo.
             La colonne « revenu minimum » applique la règle du tiers du revenu net au loyer T3 réel.
             Sous ce seuil, il faut activer un levier logement.
+          </p>
+          <p className="text-xs text-[var(--text-tertiary)] mb-6 max-w-3xl">
+            <strong className="text-[var(--text-secondary)]">Pourquoi {top.length} et pas {TOP_N}.</strong>{" "}
+            La liste s&apos;arrête avant le palier qui déborderait : le score est à une décimale, donc
+            des communes sont à égalité stricte, et couper une égalité en son milieu fabriquerait la
+            fin de la liste.{" "}
+            {topCut.followerFit !== null && (
+              <>
+                {topCut.followers} commune{topCut.followers > 1 ? "s" : ""} suiv
+                {topCut.followers > 1 ? "ent" : "t"}, la première à{" "}
+                {topCut.followerFit.toFixed(1)}/10.{" "}
+              </>
+            )}
+            Les communes d&apos;un même palier partagent leur rang ; l&apos;ordre alphabétique qui les
+            sépare ici est un ordre stable, pas un départage.
           </p>
 
           <div className="overflow-x-auto rounded-xl border border-[var(--border)] bg-[var(--bg-surface)]">
@@ -242,9 +325,21 @@ export default function ParentSoloHubPage() {
                 </tr>
               </thead>
               <tbody>
-                {top.map((r, i) => (
+                {top.map((r) => {
+                  const t = tierOf(rows, r.fit, higher);
+                  return (
                   <tr key={r.slug} className="border-t border-[var(--border)]">
-                    <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
+                    <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums whitespace-nowrap">
+                      {t.rank}
+                      {t.size > 1 && (
+                        <span
+                          className="ml-1 text-[10px] text-[var(--text-tertiary)]"
+                          title={`${t.size} communes à ${r.fit.toFixed(1)}/10 — rang partagé, l'ordre entre elles est alphabétique`}
+                        >
+                          ex æquo
+                        </span>
+                      )}
+                    </td>
                     <td className="px-3 py-2">
                       <Link
                         href={`/villes/${r.slug}/parent-solo`}
@@ -284,7 +379,8 @@ export default function ParentSoloHubPage() {
                       {r.minIncome ? `${r.minIncome} €` : "—"}
                     </td>
                   </tr>
-                ))}
+                  );
+                })}
               </tbody>
             </table>
           </div>
@@ -301,7 +397,7 @@ export default function ParentSoloHubPage() {
       <section className="py-10 sm:py-14 border-t border-[var(--border)]">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
-            Les {BOTTOM_N} villes qui pénalisent le profil parent solo
+            Les {bottom.length} villes qui pénalisent le plus le profil parent solo
           </h2>
           <p className="text-sm text-[var(--text-secondary)] mb-6 max-w-3xl">
             Villes ≥ {MIN_POP.toLocaleString("fr-FR")} hab. au composite le plus bas — cumulent
@@ -309,6 +405,20 @@ export default function ParentSoloHubPage() {
             malgré un coût correct. Ce n&apos;est pas une condamnation : c&apos;est un signal que la
             configuration parent solo y demande plus d&apos;organisation, plus d&apos;aides à activer
             (CAF, CCAS, logement social) et une vérification quartier par quartier avant de signer.
+          </p>
+          <p className="text-xs text-[var(--text-tertiary)] mb-6 max-w-3xl">
+            <strong className="text-[var(--text-secondary)]">Pourquoi {bottom.length} et pas {BOTTOM_N}.</strong>{" "}
+            Même règle qu&apos;en haut de page, et elle compte double ici : nommer une commune parmi
+            les plus pénalisantes est une affirmation négative sur un lieu réel, et il serait
+            indéfendable de la retenir plutôt qu&apos;une autre au même score parce que son nom vient
+            avant dans l&apos;alphabet.{" "}
+            {bottomCut.followerFit !== null && (
+              <>
+                {bottomCut.followers} commune{bottomCut.followers > 1 ? "s" : ""} suiv
+                {bottomCut.followers > 1 ? "ent" : "t"}, la première à{" "}
+                {bottomCut.followerFit.toFixed(1)}/10.
+              </>
+            )}
           </p>
 
           <div className="overflow-x-auto rounded-xl border border-[var(--border)] bg-[var(--bg-surface)]">
@@ -326,9 +436,21 @@ export default function ParentSoloHubPage() {
                 </tr>
               </thead>
               <tbody>
-                {bottom.map((r, i) => (
+                {bottom.map((r) => {
+                  const t = tierOf(rows, r.fit, lower);
+                  return (
                   <tr key={r.slug} className="border-t border-[var(--border)]">
-                    <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
+                    <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums whitespace-nowrap">
+                      {t.rank}
+                      {t.size > 1 && (
+                        <span
+                          className="ml-1 text-[10px] text-[var(--text-tertiary)]"
+                          title={`${t.size} communes à ${r.fit.toFixed(1)}/10 — rang partagé, l'ordre entre elles est alphabétique`}
+                        >
+                          ex æquo
+                        </span>
+                      )}
+                    </td>
                     <td className="px-3 py-2">
                       <Link
                         href={`/villes/${r.slug}/parent-solo`}
@@ -362,7 +484,8 @@ export default function ParentSoloHubPage() {
                       {r.breakdown.safety.toFixed(1)}
                     </td>
                   </tr>
-                ))}
+                  );
+                })}
               </tbody>
             </table>
           </div>
@@ -436,11 +559,27 @@ export default function ParentSoloHubPage() {
               a un score coût &lt; 5 (marchés très chers où les bailleurs acceptent souvent 40 %
               avec caution Visale ou garant familial). Arrondi à 50 € près.
             </p>
+            <p>
+              <strong className="text-[var(--text-primary)]">Ce que ce score est, et ce qu&apos;il n&apos;est pas.</strong>{" "}
+              Le composite est une moyenne pondérée des quatre axes éditoriaux du seed
+              (<code className="text-xs px-1 rounded bg-[var(--bg-elevated)]">data/cities-seed.ts</code>),
+              calibrés à partir de cadres de référence publics (Insee pour la démographie, SSMSI
+              pour la délinquance enregistrée, observatoires des loyers) et documentés dans{" "}
+              <code className="text-xs px-1 rounded bg-[var(--bg-elevated)]">lib/score-calibration.ts</code>.
+              Ce n&apos;est donc <strong className="text-[var(--text-primary)]">ni un taux de
+              délinquance publié, ni un indice de loyer mesuré, ni un salaire local</strong> : aucune
+              donnée de revenu n&apos;entre dans ce classement, et le seuil de la colonne « revenu
+              minimum » est un besoin calculé depuis le loyer, pas un revenu observé. Les quatre
+              notes sont <strong className="text-[var(--text-primary)]">estimées</strong> à l&apos;échelle
+              de la commune : la note de sécurité est une moyenne communale et ne dit rien d&apos;une
+              rue, d&apos;un quartier ni des personnes qui y vivent. Le calcul, lui, est déterministe
+              et reproductible, et aucun chiffre n&apos;est inventé.
+            </p>
             <p className="text-xs text-[var(--text-tertiary)]">
-              Sources : Insee (population, salaires), SSMSI (sécurité), observatoires régionaux
-              (loyers), et calibration éditoriale documentée dans{" "}
-              <code className="text-xs">lib/score-calibration.ts</code>. Calcul déterministe et
-              reproductible. Aucun chiffre inventé.
+              Pour un revenu réellement mesuré à la commune (niveau de vie médian et taux de
+              pauvreté, Insee Filosofi), voir la sous-page{" "}
+              <code className="text-xs">/villes/&lt;slug&gt;/statistiques</code> — cette mesure existe
+              sur le site, elle n&apos;entre simplement pas dans ce composite.
             </p>
           </div>
         </div>
