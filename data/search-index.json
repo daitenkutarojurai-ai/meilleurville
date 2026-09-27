@@ -8934,6 +8934,61 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-auxerre-2026",
+      "title": "Parent solo à Auxerre en 2026 : la seule des seize où le ménage médian franchit le seuil",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-bourgoin-jallieu-2026",
+      "title": "Parent solo à Bourgoin-Jallieu en 2026 : le profil le plus plat du lot, et un seuil qui ne suit pas",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-chalon-sur-saone-2026",
+      "title": "Parent solo à Chalon-sur-Saône en 2026 : même note et même département que Mâcon, 150 € d'écart à l'entrée",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-courbevoie-2026",
+      "title": "Parent solo à Courbevoie en 2026 : le meilleur réseau de France et un coût de la vie à 2,2/10",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-rueil-malmaison-2026",
+      "title": "Parent solo à Rueil-Malmaison en 2026 : les meilleures écoles du corpus, et 977 € qui manquent quand même",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-macon-2026",
+      "title": "Parent solo à Mâcon en 2026 : dernière de sa région par le nom, pas par le calcul",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-montauban-2026",
+      "title": "Parent solo à Montauban en 2026 : seule commune classée du Tarn-et-Garonne, et +10 % d'habitants",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-montelimar-2026",
+      "title": "Parent solo à Montélimar en 2026 : la croissance la plus forte du lot, et 37 € qui manquent",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-muret-2026",
+      "title": "Parent solo à Muret en 2026 : la sécurité de la périphérie toulousaine, au prix du marché toulousain",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-tarbes-2026",
+      "title": "Parent solo à Tarbes en 2026 : le seul coût de la vie à 7,4/10 du classement, et les transports les plus faibles du lot",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-vannes-2026",
+      "title": "Parent solo à Vannes en 2026 : la meilleure sécurité du lot, un tiers de la commune à plus de 60 ans",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-pontoise-2026",
       "title": "10 choses à faire à Pontoise",
       "emoji": "🎨"
@@ -9376,8 +9431,23 @@
       "count": 9
     },
     {
+      "slug": "famille-monoparentale-auvergne-rhone-alpes",
+      "label": "famille monoparentale Auvergne-Rhône-Alpes",
+      "count": 9
+    },
+    {
+      "slug": "famille-monoparentale-bourgogne-franche-comte",
+      "label": "famille monoparentale Bourgogne-Franche-Comté",
+      "count": 9
+    },
+    {
       "slug": "famille-monoparentale-hauts-de-france",
       "label": "famille monoparentale Hauts-de-France",
+      "count": 9
+    },
+    {
+      "slug": "famille-monoparentale-occitanie",
+      "label": "famille monoparentale Occitanie",
       "count": 9
     },
     {
@@ -9536,13 +9606,13 @@
       "count": 7
     },
     {
-      "slug": "famille-monoparentale-auvergne-rhone-alpes",
-      "label": "famille monoparentale Auvergne-Rhône-Alpes",
+      "slug": "famille-monoparentale-grand-est",
+      "label": "famille monoparentale Grand Est",
       "count": 7
     },
     {
-      "slug": "famille-monoparentale-grand-est",
-      "label": "famille monoparentale Grand Est",
+      "slug": "famille-monoparentale-ile-de-france",
+      "label": "famille monoparentale Île-de-France",
       "count": 7
     },
     {
@@ -9613,16 +9683,6 @@
     {
       "slug": "ecoles",
       "label": "écoles",
-      "count": 6
-    },
-    {
-      "slug": "famille-monoparentale-bourgogne-franche-comte",
-      "label": "famille monoparentale Bourgogne-Franche-Comté",
-      "count": 6
-    },
-    {
-      "slug": "famille-monoparentale-occitanie",
-      "label": "famille monoparentale Occitanie",
       "count": 6
     },
     {
@@ -9716,11 +9776,6 @@
       "count": 5
     },
     {
-      "slug": "famille-monoparentale-ile-de-france",
-      "label": "famille monoparentale Île-de-France",
-      "count": 5
-    },
-    {
       "slug": "hauts-de-france",
       "label": "Hauts-de-France",
       "count": 5
@@ -9748,6 +9803,11 @@
     {
       "slug": "loyer-bas-parent-seul",
       "label": "loyer bas parent seul",
+      "count": 5
+    },
+    {
+      "slug": "monoparental-hauts-de-seine",
+      "label": "monoparental Hauts-de-Seine",
       "count": 5
     },
     {
@@ -9928,6 +9988,11 @@
     {
       "slug": "pollution",
       "label": "pollution",
+      "count": 4
+    },
+    {
+      "slug": "profil-sans-point-faible-parent-seul",
+      "label": "profil sans point faible parent seul",
       "count": 4
     },
     {
@@ -10276,11 +10341,6 @@
       "count": 3
     },
     {
-      "slug": "monoparental-hauts-de-seine",
-      "label": "monoparental Hauts-de-Seine",
-      "count": 3
-    },
-    {
       "slug": "monoparental-la-reunion",
       "label": "monoparental La Réunion",
       "count": 3
@@ -10333,11 +10393,6 @@
     {
       "slug": "picardie",
       "label": "Picardie",
-      "count": 3
-    },
-    {
-      "slug": "profil-sans-point-faible-parent-seul",
-      "label": "profil sans point faible parent seul",
       "count": 3
     },
     {
