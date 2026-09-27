@@ -369,6 +369,22 @@ export default function RisquesHubPage() {
               </div>
             </Card>
           </Link>
+          {/* Le littoral entre ici comme un ingrédient du risque — la position
+              côtière basse est l'une des entrées de la dimension inondation. Le
+              profil littoral regarde la même géographie par l'autre bout, et ne
+              pondère ni érosion ni submersion : les deux pages se lisent
+              ensemble, pas l'une à la place de l'autre. */}
+          <Link href="/pour-qui/amateurs-de-littoral" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🌊</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">
+                Choisir une ville pour sa côte
+              </div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                Ici la côte est un aléa ; là, un critère
+              </div>
+            </Card>
+          </Link>
           <Link href="/climat-2040-timelapse" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🌡️</div>

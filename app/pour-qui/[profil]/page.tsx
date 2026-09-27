@@ -494,6 +494,51 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Coastal counterpart — the mirror of the mountain block above, for the
+            three profiles that come closest to the same terrain without ever
+            weighting `coastalProximity`. Measured on PROFILE_PAGES:
+            `amateurs-de-littoral` is the ONLY one of the 36 profiles that
+            weights it at all (3.0, its cardinal), and these three weight it at
+            zero — mountainProximity 3.0, nature 3.0 and canicule 3.0
+            respectively. The littoral profile's own intro names « amateurs de
+            plein air » and « anti-canicule » to say where it stops; the
+            mountain profile's intro names littoral for the same reason. */}
+        {["amateurs-de-montagne", "amateurs-de-plein-air", "anti-canicule"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le profil voisin — quand c&apos;est la mer qui décide
+            </h3>
+            <Link href="/pour-qui/amateurs-de-littoral" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🌊</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Se baigner en rentrant du bureau, pas descendre à la mer en août
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus ne pondère pas la mer pour elle-même : elle compte
+                      au mieux dans un axe nature où forêts, lacs et relief pèsent
+                      autant, si bien qu&apos;une ville intérieure bien dotée peut devancer
+                      un port. Les{" "}
+                      <span className="underline">villes où le rivage est un trajet quotidien</span>{" "}
+                      repartent d&apos;une seule mesure, la distance à la côte, puis y
+                      ajoutent la résistance canicule, parce qu&apos;un été atlantique et un été
+                      méditerranéen ne se vivent pas pareil à l&apos;année, puis la
+                      qualité de l&apos;air, que la brise nettoie sauf à proximité
+                      industrialo-portuaire. La distance vise une courte liste de ports de
+                      référence et non le trait de côte : elle surestime
+                      l&apos;éloignement d&apos;un bourg côtier installé loin d&apos;eux, et
+                      laisse hors barème la Corse et les DROM, pourtant entièrement
+                      littoraux.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Coastal counterpart — visible only for the littoral profile */}
         {profile.slug === "amateurs-de-littoral" && (
           <section>

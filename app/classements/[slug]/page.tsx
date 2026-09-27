@@ -536,6 +536,45 @@ export default async function RankingPage({ params }: Props) {
             </div>
           )}
 
+          {/* Profil voisin — ce classement-ci sélectionne ses villes par
+              caractère maritime (tags mer / plage / balnéaire / océan / surf),
+              ce que sa propre méthodologie assume : il retient 55 communes,
+              dont quelques-unes à plus de dix kilomètres du rivage. Le profil
+              littoral part de l'autre bout — une distance, appliquée aux 540
+              villes — et les deux listes divergent réellement : la moitié
+              seulement du haut de tableau est commune aux deux (mesuré en
+              exécutant les deux moteurs). C'est aussi le seul des 36 profils qui
+              pondère `coastalProximity`, vérifié sur PROFILE_PAGES. */}
+          {slug === "bord-de-mer" && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Profil voisin
+              </p>
+              <Link
+                href="/pour-qui/amateurs-de-littoral"
+                className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+              >
+                <span className="text-xl flex-shrink-0">🌊</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    Trier par distance à la mer plutôt que par caractère maritime
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Ce classement-ci part de l&apos;identité d&apos;une ville, et le dit :
+                    le filtre par tags fait entrer des communes que leur histoire rattache
+                    à la mer sans qu&apos;on y aille à pied. Le profil littoral part
+                    d&apos;une distance et l&apos;applique à tout le corpus, puis ajoute la
+                    résistance canicule et la qualité de l&apos;air, si bien que les deux hauts
+                    de tableau ne se recouvrent qu&apos;à moitié. La mesure a sa limite
+                    symétrique : elle vise une courte liste de ports de référence, donc
+                    elle surestime l&apos;éloignement d&apos;un bourg côtier installé loin
+                    d&apos;eux, et laisse la Corse et les DROM hors barème.
+                  </p>
+                </div>
+              </Link>
+            </div>
+          )}
+
           {/* Profil voisin — ce barème-ci garde l'axe écoles à côté de la
               culture, héritage d'une lecture où la vie culturelle d'une ville se
               confond avec son offre d'enseignement. Le profil culture le retire

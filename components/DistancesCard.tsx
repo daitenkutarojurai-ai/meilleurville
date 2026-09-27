@@ -131,6 +131,39 @@ export function DistancesCard({ city, locale = "fr" }: Props) {
         )}
       </p>
 
+      {/* Renvoi FR seulement, même contrainte de route que le renvoi montagne
+          ci-dessous : « amateurs de littoral » ne fait pas partie des 13 profils
+          publiés par `app/[locale]/for-who/[slug]`, donc un lien depuis la carte
+          anglaise tomberait en 404.
+          Le seuil de 200 km n'est pas choisi ici : c'est celui de
+          `coastalProximity()` (`lib/profile-pages.ts`), au-delà duquel le profil
+          met la ville à zéro — on ne renvoie donc pas vers un classement qui
+          n'ordonne pas la ville où l'on se trouve. Ce composant est monté par
+          `CityProfile`, qui est `"use client"` : on reprend le seuil en clair
+          plutôt que d'importer la lib, dont les ~200 Ko de prose partiraient dans
+          le bundle de chacune des 540 pages ville.
+          `d.sea` est la distance au plus proche d'une courte liste de ports de
+          référence, pas au trait de côte : elle vaut ~8 700 km à Saint-Denis de
+          La Réunion et ~210 km à Bastia, deux villes mesurées au bord de l'eau
+          par `lib/city-coast.ts`. Le seuil les écarte, ce qui est le comportement
+          voulu — le profil ne les classe pas non plus. Ne pas élargir la
+          condition sans corriger d'abord le moteur.
+          Le départage `sea <= mountain` évite d'empiler deux renvois sur la même
+          carte : le terrain le plus proche prend la parole, et la condition du
+          renvoi montagne n'est pas touchée. */}
+      {locale !== "en" &&
+        d.sea != null &&
+        d.sea.distanceKm < 200 &&
+        (d.mountain == null || d.sea.distanceKm <= d.mountain.distanceKm) && (
+          <p className="mt-2 text-[10px] text-[var(--text-tertiary)] leading-tight">
+            <Link href="/pour-qui/amateurs-de-littoral" className="text-[var(--accent)] hover:underline">
+              Les villes où cette distance-là se fait à pied
+            </Link>{" "}
+            : le profil littoral en fait son critère principal, devant la fraîcheur
+            d&apos;été et l&apos;air marin.
+          </p>
+        )}
+
       {/* Renvoi FR seulement : `app/[locale]/for-who/[slug]` ne publie qu'une
           sélection de 13 profils et « amateurs de montagne » n'en fait pas
           partie — un lien depuis la carte anglaise tomberait en 404.

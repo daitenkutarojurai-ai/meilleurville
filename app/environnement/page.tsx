@@ -282,7 +282,15 @@ export default function EnvironmentHubPage() {
           <Link href="/pour-qui/asthmatiques-allergiques" className="text-[var(--accent)] hover:underline">
             top 20 asthmatiques et allergiques
           </Link>{" "}
-          (qualité de l&apos;air ×3, potentiel anti-canicule ×2).
+          (qualité de l&apos;air ×3, potentiel anti-canicule ×2). Le même
+          raisonnement vaut pour la géographie : si le « littoral atlantique
+          tempéré » revient dans les communes les moins tendues ci-dessus, c&apos;est
+          un résultat de l&apos;index et non un critère ; le{" "}
+          <Link href="/pour-qui/amateurs-de-littoral" className="text-[var(--accent)] hover:underline">
+            top 20 des villes où vivre au bord de la mer
+          </Link>{" "}
+          en fait un critère à part entière, en partant de la distance à la côte
+          avant de repondérer l&apos;air et la canicule.
         </p>
 
         {/* Cross-links */}
