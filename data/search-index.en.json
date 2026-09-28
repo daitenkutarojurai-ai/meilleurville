@@ -8089,6 +8089,61 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-in-auxerre-2026",
+      "title": "Single parent in Auxerre (2026): a €2,000 floor, and the only clear margin of its tier",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-chalon-sur-saone-2026",
+      "title": "Single parent in Chalon-sur-Saône (2026): €128 short of the floor, and safety at 5.2/10",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-macon-2026",
+      "title": "Single parent in Mâcon (2026): transport 7.0/10, the best of the nine provincial towns",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-montauban-2026",
+      "title": "Single parent in Montauban (2026): 10.5 per cent more residents, and the Ingres collection",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-montelimar-2026",
+      "title": "Single parent in Montélimar (2026): €37 from clearing the floor, and the strongest growth of the batch",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-bourgoin-jallieu-2026",
+      "title": "Single parent in Bourgoin-Jallieu (2026): four axes inside 0.6 of a point, and the youngest commune of the batch",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-muret-2026",
+      "title": "Single parent in Muret (2026): the same entry floor as Toulouse, and 1.8 points more safety",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-tarbes-2026",
+      "title": "Single parent in Tarbes (2026): the only 7.4 of the ranking on cost, and the two weakest axes of the batch",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-vannes-2026",
+      "title": "Single parent in Vannes (2026): the best schools and safety outside Paris, and a third of the commune over 60",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-courbevoie-2026",
+      "title": "Single parent in Courbevoie (2026): a €5,000 floor for the same mark as a €2,000 town",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-rueil-malmaison-2026",
+      "title": "Single parent in Rueil-Malmaison (2026): schools at the top of the scale, cancelled by a cost mark of 2.2",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "single-parent-holidays-anglet-2026",
       "title": "Single-parent holidays in Anglet: no railway station, but the airport is here",
       "emoji": "🧑‍🍼"
@@ -8178,17 +8233,22 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 203
+      "count": 214
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 142
+      "count": 153
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 104
+      "count": 115
+    },
+    {
+      "slug": "occitanie",
+      "label": "occitanie",
+      "count": 66
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -8196,14 +8256,9 @@
       "count": 64
     },
     {
-      "slug": "occitanie",
-      "label": "occitanie",
-      "count": 63
-    },
-    {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 61
+      "count": 63
     },
     {
       "slug": "grand-est",
@@ -8236,13 +8291,13 @@
       "count": 53
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 49
-    },
-    {
       "slug": "ile-de-france",
       "label": "ile de france",
+      "count": 51
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
       "count": 49
     },
     {
@@ -8268,7 +8323,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 35
+      "count": 36
     },
     {
       "slug": "working-in-france",
@@ -8296,6 +8351,11 @@
       "count": 28
     },
     {
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
+      "count": 25
+    },
+    {
       "slug": "international-students",
       "label": "international students",
       "count": 24
@@ -8309,11 +8369,6 @@
       "slug": "student-visa-france",
       "label": "student visa france",
       "count": 24
-    },
-    {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
-      "count": 22
     },
     {
       "slug": "budget",
