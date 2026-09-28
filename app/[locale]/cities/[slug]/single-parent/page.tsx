@@ -6,6 +6,7 @@ import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
+import { EN_GUIDES } from "@/data/guides-en";
 import { parentSoloFit, fitLabel, minIncomeForT3 } from "@/lib/parent-solo";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -61,6 +62,9 @@ export default async function SingleParentPage({ params }: Props) {
   const meta = fitLabel(fit.score);
   const s = city.scores;
   const minIncome = housing ? minIncomeForT3(housing.avgRentT3, s.cost) : null;
+  // Mirrors the FR sub-page: the guide slug derives from the seed slug as it
+  // stands (the batch-33 rule), never from a tidied-up version of it.
+  const relatedGuide = EN_GUIDES.find((g) => g.slug === `single-parent-in-${slug}-2026`);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
@@ -397,6 +401,29 @@ export default async function SingleParentPage({ params }: Props) {
               </p>
             </div>
           </section>
+
+          {/* Dedicated guide */}
+          {relatedGuide && (
+            <section>
+              <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
+                The long read next
+              </h2>
+              <Link
+                href={`/guides/${relatedGuide.slug}`}
+                className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-5 py-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all group"
+              >
+                <div>
+                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                    {relatedGuide.emoji} {relatedGuide.title}
+                  </div>
+                  <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                    {relatedGuide.readMinutes} min · {relatedGuide.metaDesc}
+                  </div>
+                </div>
+                <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+              </Link>
+            </section>
+          )}
 
           {/* Related sub-pages */}
           <section>

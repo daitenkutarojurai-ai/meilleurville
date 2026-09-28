@@ -5360,6 +5360,148 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 28/09 — `single-parent-in-[city]-2026` batch 12 (+11), la série refermée à 114/114, et 114 sous-pages EN qui ne montraient pas leur guide
+
+Les 11 jumelles du batch FR `parent-solo-a-[ville]` du 27/09 écrites d'un coup dans
+`data/guides-en.ts` (Auxerre, Chalon-sur-Saône, Mâcon, Montauban, Montélimar, Bourgoin-Jallieu,
+Muret, Tarbes, Vannes, Courbevoie, Rueil-Malmaison). **Compteurs mesurés par diff des deux listes
+de slugs, pas recopiés du journal : FR 114, EN 114 — écart nul dans les deux sens** (`EN_GUIDES`
+984 → 995). Aucun slug hors gabarit : les onze sont des slugs de seed tels quels, donc la règle du
+batch 33 (**côté EN le slug se dérive du slug de seed tel quel**) n'avait rien à arbitrer.
+`metaTitle` 46-55 caractères, `metaDesc` 130-155, 6 sections par guide comme le reste de la série,
+1 582-1 803 mots, **0 em-dash** sur les onze réunis. Aucun tag neuf —
+`search-index.en.json` reste à **114 tags**, donc aucune page `/tags/` créée ; les tags de ville
+sont à 1 occurrence et les 5 tags de région (`bourgogne-franche-comte`, `auvergne-rhone-alpes`,
+`ile-de-france`, `occitanie`, `brittany`) existaient déjà. `sitemap:check` : EN **28 876 → 28 887
+URL**, soit exactement les 11 guides neufs, delta **mesuré dans un worktree détaché sur `HEAD`** et
+non déduit ; FR inchangé à 29 294.
+
+⚠️ **Le défaut corrigé avec le contenu est plus large que le contenu : la sous-page EN
+`/cities/[slug]/single-parent` n'a jamais montré son guide, sur les 103 villes qui en avaient un.**
+La page FR `app/villes/[slug]/parent-solo/page.tsx` résout `parent-solo-a-${slug}-2026` et rend une
+carte « Guide long à lire ensuite » ; la jumelle EN n'avait **aucune** résolution équivalente, donc
+la série entière était invisible depuis la ville dont elle parle — exactement le défaut que le
+batch 32 tourisme avait dû corriger après coup, côté EN cette fois. Corrigé en miroir de la page FR
+(`EN_GUIDES.find` sur `single-parent-in-<slug>-2026`, carte « The long read next »
+insérée avant « Dig deeper on »), donc **114 sous-pages EN gagnent la carte, pas seulement les 11
+neuves**. Contrôle passé **sur les 540 villes et avec le résolveur de la page** (la leçon du batch 47
+tourisme) : **114/114 atteignables des deux côtés, 0 orphelin, 0 collision, 0 guide sans photo
+d'en-tête**, et chaque guide porte sa ville en 1re position de `relatedCities` — sans quoi
+`guideCityPhoto()`, qui résout par `relatedCities` et non par le slug, perd l'en-tête en silence
+(leçon du batch 51).
+
+**La thèse du lot est celle du batch FR et elle tient sans rang : les onze villes partagent la même
+note et n'ont presque rien en commun.** Les 11 sont dans le **palier 6,3/10, seize communes que rien
+dans notre barème ne départage**, donc aucun rang n'est publié à l'intérieur — le palier est nommé,
+convention de `lib/owner-rankings.ts`. Ce palier contient **Lille, Nantes, La Rochelle et
+Clermont-Ferrand** à côté d'Auxerre, de Muret et de Tarbes, et son **seuil d'entrée va de 2 000 €
+(Auxerre) à 5 000 € (Courbevoie)**, soit un rapport de 2,5 pour une note identique. Mesure qui porte
+le lot : **Auxerre est la seule des seize où un ménage monoparental au niveau de vie médian local
+(1,3 UC, échelle OCDE modifiée) franchit son propre seuil**, de **204 €**, et sur l'ensemble du
+classement le franchissement n'intervient que dans **36 des 357 communes** où le revenu est mesuré.
+Les trois réserves de méthode sont écrites dans chaque guide concerné et ne jouent pas dans le même
+sens : le niveau de vie est un revenu disponible prestations et aides au logement comprises, il est
+au millésime Filosofi 2021 quand les loyers sont à 2026, et le loyer est un loyer de marché donc un
+coût d'entrée.
+
+⚠️ **Onze affirmations fausses corrigées avant commit, dont six par une mesure et non par une
+relecture** — c'est le même mode de défaillance que les batches précédents, les chiffres pris un à
+un étant justes et les **rangs, écarts et superlatifs dérivés** dérapant. ① Auxerre : transport 5,5
+donné « joint weakest » des villes de province du lot alors que **Tarbes est à 5,2**. ② Bourgoin :
+sécurité 6,0 donnée quatrième du lot pour la **sixième**. ③ Bourgoin : loyer 1 060 € annoncé
+supérieur à celui de Vannes, qui est à **1 150 €**. ④ Montélimar : écoles 6,6 données « joint best
+des six villes de province hors Vannes », alors qu'il y en a **huit** et que le palier compte
+Auxerre, Bourgoin-Jallieu et Muret. ⑤ Vannes : trois communes bretonnes nommées devant elle
+(Rennes, Vitré, Quimper) alors que ce sont **Lannion 7,2, Rennes 7,1 et Brest 6,5** — Quimper est
+à 6,1, donc **derrière**. ⑥ à ⑪ **six décomptes « N communes demandent moins » faux**, tous vérifiés
+contre le moteur : Montauban 96 → **98**, Montélimar 61 → **59**, Bourgoin 190 → **193**, Muret et
+Vannes 222 → **240** (222 était le nombre de villes à T3 moins cher, pas à seuil moins élevé),
+Courbevoie « douze demandent plus » → **onze**, Rueil « vingt et une » → **dix-neuf**. Le contrôle
+qui les a trouvées est un script qui recompte `less / exactly / more` sur les 363 lignes du
+classement, pas une relecture.
+
+**Contrôle de figures : les 15 chiffres propres de chaque ville sont vérifiés contre les modules et
+non contre la prose du jumeau FR**, ce qui est plus fort — quatre axes, T3, T2, T1, m², seuil,
+populations 2011/2016/2022, part des 60 ans et plus, prix de 65 m² : **11/11 villes, 165 figures,
+0 écart**. ⚠️ Le contrôle habituel « chaque nombre du texte EN cherché dans la jumelle FR » donne ici
+**587 figures dont 99 absentes, et c'est attendu par construction — ne pas les « corriger »** : ces
+guides comparent les onze villes entre elles, donc le guide Vannes cite le loyer d'Auxerre (660 €) et
+de Tarbes (770 €), qui vivent dans *leurs* jumelles FR ; s'y ajoutent les références T2/T1 que les
+guides FR ne citent pas toutes, l'arithmétique dérivée (65 m² à 104 000 €, 110 500 €, 136 500 €,
+143 000 €, 149 500 €, 182 000 €, 253 500 €, 351 000 €, 403 000 €), les pondérations du composite
+(0,30 / 0,25 / 0,20) et les faits vérifiés en ligne ci-dessous. Trois figures manquantes ont en
+revanche été **ajoutées** après ce contrôle, parce que la série les cite partout ailleurs : T2/T1 de
+Chalon-sur-Saône, de Tarbes et de Muret, et le prix de 65 m² à Muret.
+
+**Faits vérifiés en ligne avant rédaction, et qui portent la matière propre à l'angle anglophone que
+la série demande.** ① **Courbevoie** : *La Défense n'est pas une commune*. Le quartier d'affaires
+s'étend sur le sud de Courbevoie et sur **Puteaux, Nanterre et La Garenne-Colombes**, donc il est
+« partly here » et non situé ici — convention « accessible depuis » du batch 26. C'est la matière la
+plus utile du lot : **on est muté à La Défense, pas à Courbevoie**, et on découvre ensuite que
+l'adresse proposée relève de l'une de quatre communes aux cartes scolaires et aux tarifs
+périscolaires différents. ② **Chalon-sur-Saône** : Niépce y est **né en 1765** et le musée qui porte
+son nom (fondé **1972**, installé **1974**, de l'ordre de trois millions de pièces) est ici, mais
+**la première photographie n'a pas été faite à Chalon** — le *Point de vue du Gras* a été fixé à
+**Saint-Loup-de-Varennes**, commune voisine, et **la plaque est aux États-Unis**, collection
+Gernsheim de l'université du Texas à Austin. Même précédent que la pierre de Rosette absente de
+Figeac (batch 46) et l'Hermione absente de Rochefort (batch 36) : on le dit avant que quelqu'un
+fasse le voyage. ③ **Muret** : la **bataille du 12 septembre 1213**, où Simon de Montfort l'aîné
+défait **Pierre II d'Aragon**, tué sur le champ. Son fils du même nom passe en Angleterre en
+**1229**, devient comte de Leicester et mène la révolte des barons contre Henri III — le point de
+départ habituel des récits anglophones sur le parlement. ⚠️ **Le père et le fils ne sont pas
+numérotés pareil en français et en anglais**, d'où une formulation qui les distingue par
+« l'aîné » / « son fils » et ne publie aucun numéro. ④ **Montauban** : **Ingres y est né en 1780** et
+**Bourdelle en 1861** ; le musée Ingres Bourdelle, rouvert après trois ans de travaux, tient **la
+plus grande collection d'Ingres au monde après le Louvre, 44 tableaux contre 50**. C'est le cas
+inverse des deux précédents, la collection est restée sur place. ⑤ **Tarbes** : l'aéroport
+**Tarbes-Lourdes-Pyrénées est à Juillan**, commune voisine, à peu près à mi-chemin de Tarbes et de
+Lourdes, et c'est l'un des plus gros aéroports charter de France **parce que le pèlerinage de
+Lourdes** y amène des vols d'Irlande, du Royaume-Uni et d'Italie : accès aérien disproportionné pour
+une ville de 44 529 habitants, mais **trafic charter donc saisonnier et à vérifier avant d'y
+compter**, et aucune liste de lignes n'est publiée.
+
+**Deux prudences reprises du FR et à ne pas diluer.** ① **Tarbes, le millésime 2016 en creux** :
+42 888 habitants en 2011, **40 318 en 2016**, 44 529 en 2022, donc +3,8 % sur onze ans et **+10,4 %
+sur six**. Le second chiffre se mesure depuis un point bas et l'exagère mécaniquement ; le guide
+publie la mesure longue, dit la réserve, et **n'explique pas le creux faute de la donnée qui le
+permettrait**. ② **Courbevoie perd 7,4 % de sa population sur onze ans** et c'est la seule du lot
+dans ce cas, mais dans une commune de cette densité un effectif qui baisse est d'abord un
+**rétrécissement des ménages** et non un marché qui se détend : le guide en tire le risque de
+**fermeture de classes** et refuse l'inférence inverse d'un marché locatif plus accessible — même
+distinction que le thème `villes-qui-se-vident` applique à Paris. S'y ajoutent les prudences
+d'usage de la série : les quatre axes sont des **estimations éditoriales** et le site nomme ses
+cadres de référence plutôt que de revendiquer un relevé, la note d'écoles décrit une **offre** et
+non ce qui arrive à un enfant donné, la **carte scolaire** décide de l'école et une dérogation se
+demande, le **quotient familial** fixe le prix du périscolaire et de la cantine, `avgBuyPriceM2` est
+un **repère éditorial tous biens confondus** et non une médiane de transactions, et le site ne
+publie **aucun verdict par quartier**.
+
+Trois glosses propres au lecteur étranger, sans chiffre : **T3 = séjour plus deux chambres** (les
+logements français se comptent en pièces et non en chambres), **carte scolaire** et **quotient
+familial** expliqués en une incise, et le **RER A** nommé comme ce qui rend Rueil-Malmaison
+« commutable » sans voiture. ⚠️ Écoles 9,0 à Rueil et transports 9,0 à Courbevoie sont des
+**maximums partagés** et non des records : dix communes du seed atteignent 9,0 en écoles, vingt-trois
+en transports — la première rédaction écrivait « the highest », corrigé en « at the top of the
+scale ».
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30
+de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut
+prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 984 → 995,
+« citations EN 0 score brut recopié »), `search-index` + `search-index:check` (995 guides, 114 tags),
+`sitemap:check`, `npm run parity` (**code 0**, FR 221 / EN 166, 0 route FR sans jumelle),
+`npm run hreflang:check`, plus le contrôle de lookup / photo exhaustif, les deux contrôles de figures
+ci-dessus et une vérification d'encodage (accents intacts sur Chalon-sur-Saône, Mâcon, Montélimar,
+Nicéphore Niépce, Hautes-Pyrénées et Saint-Martin-d'Hères, aucun mojibake, aucune apostrophe
+typographique, aucun `m2` / `EUR` / `deg` ascii). Note d'environnement reconfirmée : le conteneur de
+routine démarre **en HEAD détaché et sans `node_modules`** — `git checkout main` puis `npm install`
+d'abord, et les brouillons vont **hors du dépôt** (leçon du batch 47 tourisme).
+
+**Prochain run côté cette série : batch FR** (l'écart est nul, la série FR reprend la main). Le
+palier 6,3 étant refermé, **toute commune notée 6,3 ou plus a désormais son guide des deux côtés**,
+et le vivier suivant est le palier 6,2 — à recalculer, pas à recopier, et à prendre en entier pour ne
+pas couper une égalité en son milieu.
+
+
 ### Livré le 22/09 — `single-parent-holidays-[city]-2026` batch 5 (+8), la série refermée à 38/38
 
 Les 8 jumelles du batch FR `vacances-monoparentales` du 16/09 écrites d'un coup dans
