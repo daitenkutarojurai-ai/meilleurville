@@ -1577,6 +1577,49 @@ async function selftest() {
   // The disc denominator itself.
   check("disc cell count vs πR²", (grid.cells * 0.0625) / discArea, 1, 0.005);
 
+  /* ── the measurement floor ──────────────────────────────────────────────
+   *
+   * A cell is 250 m × 250 m = 6.25 ha, so that is the smallest area this grid
+   * can report: anything finer covers no cell centre and comes back as **0
+   * cells**, i.e. `areaHa: 0`. That is correct as a coverage contribution and
+   * wrong as a published figure — both city pages printed "0 ha" against a
+   * perimeter that is really there (404 entries, 239 cities, found
+   * 2026-09-28), Hayange against the Réserve Naturelle Nationale
+   * d'Hettange-Grande. The surfaces now go through `areaWithinDisc()`
+   * (lib/biodiversity.ts) and publish a bound. These cases pin the mechanism
+   * that produces the zero, so it cannot drift silently.
+   */
+  const cellHa = (250 * 250) / 10000;
+  check("one grid cell → 6.25 ha", cellHa, 6.25, 0.0001);
+
+  const cellsOf = (mask) => {
+    let c = 0;
+    for (let i = 0; i < mask.length; i++) if (mask[i]) c++;
+    return c;
+  };
+  // A 100 m square, placed between cell centres (which sit on the ±125 m
+  // lattice) so it cannot accidentally catch one.
+  m = new Uint8Array(grid.n * grid.n);
+  fillPolygon([box(0, 0, 100, 100)], grid, m);
+  check("perimeter smaller than a cell → 0 ha, not a small area", cellsOf(m) * cellHa, 0, 0.0001);
+
+  // A huge site whose edge merely grazes the disc: same zero, opposite cause.
+  // 46 of the 404 are of this kind — Châtellerault printed "0 ha" for the Parc
+  // Naturel Régional Loire-Anjou-Touraine.
+  m = new Uint8Array(grid.n * grid.n);
+  fillPolygon([box(14990, -40000, 60000, 40000)], grid, m);
+  check("vast site grazing the disc edge → 0 ha too", cellsOf(m) * cellHa, 0, 0.0001);
+
+  // And the first area the grid can actually report is one whole cell.
+  m = new Uint8Array(grid.n * grid.n);
+  fillPolygon([box(-200, -200, 200, 200)], grid, m);
+  const smallest = cellsOf(m) * cellHa;
+  results.push({ label: "smallest reportable area is a whole cell", ok: smallest >= cellHa });
+  log(
+    `  ${smallest >= cellHa ? "ok  " : "FAIL"} smallest reportable area is a whole cell: ` +
+      `${smallest} ha (expected >= ${cellHa})`,
+  );
+
   /* ── layer recognition ──────────────────────────────────────────────────
    *
    * The geometry above was always right; the filename matcher was not. A
@@ -1743,13 +1786,54 @@ async function showStats() {
     return;
   }
   const none = scoped.filter(([, r]) => r.areasTotal === 0).length;
-  const partial = scoped.filter(([, r]) => r.kinds.length < LAYERS.length).length;
+  // ⚠️ Pas `LAYERS.length` : la table en compte 7, les deux ZNIEFF comprises,
+  // alors qu'elles sont hors barème depuis le 26/08 et que la passe BD TOPO en
+  // livre 5 partout, volontairement. Comparer à 7 allumait cet avertissement
+  // sur 540 rangées sur 540 — un signal permanent ne signale rien, et c'est
+  // pour ça que personne ne l'avait relu. On se cale sur la passe elle-même :
+  // est en retard la ville qui porte moins de couches que la mieux servie du
+  // même lot. Le pendant côté pages est `PROTECTION_SCORED_KINDS`.
+  const bestKinds = Math.max(...scoped.map(([, r]) => r.kinds.length));
+  const partial = scoped.filter(([, r]) => r.kinds.length < bestKinds).length;
   const cov = scoped.map(([, r]) => r.weightedCoverage).sort((a, b) => a - b);
   const median = cov[cov.length >> 1];
   log(`  with a coverage figure: ${scoped.length}`);
   log(`  median weighted coverage: ${median} %`);
   log(`  cities with no protected perimeter within ${RADIUS_KM} km: ${none}`);
-  if (partial) log(`  ⚠️  ingested from an incomplete layer set: ${partial}`);
+  if (partial)
+    log(`  ⚠️  ingested from fewer layers than the best-served city of this pass (${bestKinds}): ${partial}`);
+
+  /* Le résidu de la grille. Une cellule pèse 6,25 ha, donc tout périmètre plus
+     fin — ou tout grand site que le disque effleure — rend `areaHa: 0`. Les
+     deux pages ville affichaient « 0 ha » en face, et neuf villes annonçaient
+     « 0 % de couverture » au-dessus d'une liste non vide. Trouvé le 2026-09-28,
+     corrigé au site d'affichage (`areaWithinDisc`, lib/biodiversity.ts).
+     Les villes sont NOMMÉES : un agrégat de zéros doit nommer ses membres —
+     c'est le comptage muet qui avait caché les dix Saint-X de F64 quinze jours
+     durant. */
+  const cellHa = (scoped[0]?.[1]?.gridStepM ?? 250) ** 2 / 10000;
+  let belowGrid = 0;
+  const belowGridCities = new Set();
+  const zeroCoverage = [];
+  for (const [slug, r] of scoped) {
+    for (const a of r.areas ?? []) {
+      if (a.areaHa >= cellHa) continue;
+      belowGrid++;
+      belowGridCities.add(slug);
+    }
+    if (r.areasTotal > 0 && r.weightedCoverage === 0) zeroCoverage.push(slug);
+  }
+  if (belowGrid) {
+    log(
+      `  perimeters below one grid cell (${cellHa} ha), published as a bound and not as 0 ha: ` +
+        `${belowGrid} on ${belowGridCities.size} cities`,
+    );
+  }
+  if (zeroCoverage.length) {
+    log(`  ⚠️  listing perimeters yet reporting 0 % coverage: ${zeroCoverage.length}`);
+    log(`      ${zeroCoverage.join(", ")}`);
+    log("      both figures come from the same grid and both are right; the pages say so.");
+  }
   const top = scoped
     .slice()
     .sort((a, b) => b[1].weightedCoverage - a[1].weightedCoverage)

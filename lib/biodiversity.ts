@@ -525,9 +525,38 @@ export const PROTECTION_WEIGHT: Record<ProtectionKind, number> = {
   "znieff-2": 0.25,
 };
 
+/**
+ * Couches qu'une passe **complète** doit rapporter, c'est-à-dire celles qui
+ * entrent dans le barème.
+ *
+ * ⚠️ Ce n'est PAS `Object.keys(PROTECTION_WEIGHT)`, et c'est exactement ce que
+ * ce compte disait jusqu'au 2026-09-28. La table des poids garde les deux
+ * ZNIEFF pour une source qui les servirait un jour, mais elles sont **hors
+ * calcul depuis le 26/08** : un inventaire scientifique sans portée juridique
+ * ne protège rien par lui-même, et les quatre surfaces le disent. La passe
+ * BD TOPO livre donc 5 couches sur les 540 villes, volontairement et partout.
+ *
+ * Compter 7 faisait afficher « Passe partielle : 5 des 7 couches nationales
+ * étaient disponibles. La couverture est donc un minimum. » sur **les 540
+ * pages ville des deux locales** — c'est-à-dire un avertissement allumé 100 %
+ * du temps, qui ne signale donc rien, et qui minorait un chiffre juste. La
+ * même page affirmait trois cents lignes plus bas que les ZNIEFF sont écartées
+ * *par choix* : elle se contredisait à voix haute.
+ *
+ * La note reste en place et garde son intérêt : elle se déclenchera le jour où
+ * une passe perdra réellement l'une des cinq couches réglementaires.
+ */
+export const PROTECTION_SCORED_KINDS: ProtectionKind[] = [
+  "reserve-naturelle",
+  "parc-national",
+  "parc-naturel-regional",
+  "natura-2000",
+  "arrete-biotope",
+];
+
 /** Nombre de couches nationales attendues par l'ingest. Une ville ingérée avec
  *  moins que ça a une couverture minorée, et sa page le dit. */
-export const PROTECTION_KIND_COUNT = Object.keys(PROTECTION_WEIGHT).length;
+export const PROTECTION_KIND_COUNT = PROTECTION_SCORED_KINDS.length;
 
 export interface ProtectedArea {
   /** Identifiant national INPN (code Natura 2000, n° ZNIEFF, code RN…).
@@ -786,6 +815,150 @@ export function protectionCoverage(slug: string): number | null {
   if (!record || !isMeasuredProtection(record)) return null;
   return record.weightedCoverage;
 }
+
+/* ── surface d'un périmètre : une découpe, pas la taille du site ──────── */
+
+/**
+ * Pas de la grille d'analyse (m) et surface d'une cellule (ha), **dérivés du
+ * fichier** et jamais écrits à la main : une passe qui changerait `gridStepM`
+ * déplacerait le plancher de mesure, et un chiffre recopié mentirait le
+ * lendemain.
+ */
+export const PROTECTION_GRID_STEP_M: number = (() => {
+  const steps = new Set(
+    PROTECTED_MEASURED_SLUGS.map((s) => (PROTECTED[s] as MeasuredProtectedAreas).gridStepM),
+  );
+  // Une seule valeur sur les 540 aujourd'hui. Si une passe en mêlait deux, le
+  // plancher affiché ne vaudrait plus pour tout le monde : on prend le pas le
+  // plus grossier, celui qui borne le pire cas.
+  return steps.size ? Math.max(...steps) : 250;
+})();
+
+export const PROTECTION_GRID_CELL_HA = +((PROTECTION_GRID_STEP_M * PROTECTION_GRID_STEP_M) / 10_000).toFixed(2);
+
+export interface AreaWithinDisc {
+  /** Surface du périmètre **à l'intérieur du disque**, en hectares, ou `null`
+   *  quand elle est sous la résolution de la grille. */
+  ha: number | null;
+  /** La mesure est sous une cellule. On publie une borne (« moins de N ha »),
+   *  jamais un zéro : le périmètre est là, c'est sa part dans le disque qui
+   *  est trop petite pour que la grille la voie. */
+  belowGrid: boolean;
+}
+
+/**
+ * Seul accès autorisé à `ProtectedArea.areaHa` depuis une surface.
+ *
+ * Deux faits que le nombre brut ne porte pas, et que le lecteur ne peut pas
+ * deviner :
+ *
+ * ① **C'est une découpe, pas la taille du site.** `areaHa` est la part du
+ * périmètre qui tombe dans le disque de PROTECTED_RADIUS_KM, mesurée sur la
+ * grille — pas la surface du zonage. Notre propre fichier le prouve sans
+ * source extérieure : sur les PROTECTION_AREA_SHARED_COUNT périmètres listés
+ * par au moins deux villes, PROTECTION_AREA_CLIPPED_COUNT portent un chiffre
+ * différent d'une ville à l'autre. Le Parc Naturel Régional du Luberon vaut
+ * 12,5 ha sur une page et 65 025 ha sur une autre ; c'est le même parc.
+ *
+ * ② **Sous une cellule, la grille rend zéro.** Une cellule pèse
+ * PROTECTION_GRID_CELL_HA ha, donc la plus petite surface publiable est cette
+ * cellule : tout ce qui est en dessous — un gîte à chiroptères dans une
+ * église, une carrière, ou le bord d'un très grand site que le disque effleure
+ * — sortait « 0 ha ». Sur les PROTECTION_AREA_ENTRY_COUNT entrées
+ * (ville, périmètre) du fichier, PROTECTION_AREA_BELOW_GRID_COUNT étaient dans
+ * ce cas, sur PROTECTION_AREA_BELOW_GRID_CITIES villes. Elles ne disent pas la
+ * même chose : PROTECTION_AREA_BELOW_GRID_CLIPPED d'entre elles portent un
+ * identifiant qui pèse 100 ha ou plus dans le disque d'une autre ville, donc
+ * ce sont de grands sites rognés par le bord — Châtellerault affichait « 0 ha »
+ * en face du Parc Naturel Régional Loire-Anjou-Touraine.
+ *
+ * Trouvé le 2026-09-28. Correctif **au site d'affichage**, pas dans la
+ * collecte : la grille est le bon outil pour la couverture (elle règle les
+ * recouvrements, cf. `protectionCoverage`), c'est la lecture de son résidu qui
+ * était fausse. Même doctrine que `countWithFloor` et `groupSpecies` : lire
+ * `area.areaHa` depuis une surface fait revenir le zéro.
+ */
+export function areaWithinDisc(area: ProtectedArea): AreaWithinDisc {
+  const below = !(area.areaHa >= PROTECTION_GRID_CELL_HA);
+  return { ha: below ? null : area.areaHa, belowGrid: below };
+}
+
+/**
+ * La ville publie-t-elle une couverture nulle **tout en listant** des
+ * périmètres ? Neuf villes sont dans ce cas, et c'est la forme la plus
+ * contradictoire du défaut ci-dessus : Hayange affiche « 0 % du disque sous
+ * protection » au-dessus de la Réserve Naturelle Nationale d'Hettange-Grande,
+ * Épinal au-dessus du Massif Vosgien. Les deux chiffres sortent de la même
+ * grille et sont exacts ; c'est leur voisinage muet qui se lit comme une
+ * erreur. La page le dit au lieu de laisser le lecteur trancher.
+ */
+export function protectionBelowGridOnly(slug: string): boolean {
+  const record = cityProtectedAreas(slug);
+  if (!record || !isMeasuredProtection(record)) return false;
+  return record.areasTotal > 0 && record.weightedCoverage === 0;
+}
+
+/* Comptes mesurés sur le fichier au chargement, jamais recopiés d'un run. */
+const AREA_STATS = (() => {
+  /** Par identifiant de périmètre : les villes qui le listent, et les surfaces
+   *  qu'elles en publient. Deux surfaces distinctes pour un même identifiant
+   *  prouvent que le nombre est une découpe et non la taille du site. */
+  const cities = new Map<string, number>();
+  const values = new Map<string, Set<number>>();
+  const maxHa = new Map<string, number>();
+  let entries = 0;
+  let belowGrid = 0;
+  let belowGridClipped = 0;
+  let zeroCoverageWithAreas = 0;
+  const belowGridCities = new Set<string>();
+
+  for (const slug of PROTECTED_MEASURED_SLUGS) {
+    const record = PROTECTED[slug] as MeasuredProtectedAreas;
+    if (record.areasTotal > 0 && record.weightedCoverage === 0) zeroCoverageWithAreas++;
+    for (const a of record.areas) {
+      entries++;
+      if (!a.id) continue;
+      cities.set(a.id, (cities.get(a.id) ?? 0) + 1);
+      if (!values.has(a.id)) values.set(a.id, new Set());
+      values.get(a.id)!.add(a.areaHa);
+      maxHa.set(a.id, Math.max(maxHa.get(a.id) ?? 0, a.areaHa));
+    }
+  }
+  // Second passage : `maxHa` doit être complet avant de qualifier un zéro.
+  for (const slug of PROTECTED_MEASURED_SLUGS) {
+    for (const a of (PROTECTED[slug] as MeasuredProtectedAreas).areas) {
+      if (!areaWithinDisc(a).belowGrid) continue;
+      belowGrid++;
+      belowGridCities.add(slug);
+      if (a.id && (maxHa.get(a.id) ?? 0) >= 100) belowGridClipped++;
+    }
+  }
+
+  let shared = 0;
+  let clipped = 0;
+  for (const [id, n] of cities) {
+    if (n < 2) continue;
+    shared++;
+    if ((values.get(id)?.size ?? 1) > 1) clipped++;
+  }
+  return {
+    entries,
+    belowGrid,
+    belowGridClipped,
+    belowGridCities: belowGridCities.size,
+    shared,
+    clipped,
+    zeroCoverageWithAreas,
+  };
+})();
+
+export const PROTECTION_AREA_ENTRY_COUNT = AREA_STATS.entries;
+export const PROTECTION_AREA_BELOW_GRID_COUNT = AREA_STATS.belowGrid;
+export const PROTECTION_AREA_BELOW_GRID_CITIES = AREA_STATS.belowGridCities;
+export const PROTECTION_AREA_BELOW_GRID_CLIPPED = AREA_STATS.belowGridClipped;
+export const PROTECTION_AREA_SHARED_COUNT = AREA_STATS.shared;
+export const PROTECTION_AREA_CLIPPED_COUNT = AREA_STATS.clipped;
+export const PROTECTION_ZERO_COVERAGE_WITH_AREAS = AREA_STATS.zeroCoverageWithAreas;
 
 /* ── composantes ──────────────────────────────────────────────────────── */
 

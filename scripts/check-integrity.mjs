@@ -839,6 +839,68 @@ if (!failed) {
 }
 
 // ---------------------------------------------------------------------------
+// Zones protégées (F62), second garde : une surface ne lit jamais `areaHa` nu.
+//
+// `ProtectedArea.areaHa` est la part du périmètre qui tombe dans le disque,
+// mesurée sur une grille de 250 m. Une cellule pèse 6,25 ha, donc tout ce qui
+// est plus fin rend **0** — et les deux pages ville affichaient « 0 ha » en
+// face d'un périmètre qui existe : 404 entrées sur 4 511, sur 239 villes.
+// Hayange annonçait « 0 % du disque sous protection » au-dessus de la Réserve
+// Naturelle Nationale d'Hettange-Grande, Châtellerault « 0 ha » en face du
+// Parc Naturel Régional Loire-Anjou-Touraine. Trouvé le 2026-09-28.
+//
+// Même forme que `countWithFloor` et `groupSpecies` : la règle tient dans une
+// fonction, et le seul moyen de la contourner est de relire le champ brut.
+{
+  const stripComments = (src) =>
+    src.replace(/\/\*[\s\S]*?\*\//g, " ").replace(/^[ \t]*\/\/.*$/gm, " ");
+  const surfaces = [];
+  (function walk(dir) {
+    for (const entry of readdirSync(dir)) {
+      const p = path.join(dir, entry);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (entry.endsWith(".tsx")) surfaces.push(p);
+    }
+  })(path.join(ROOT, "app"));
+  for (const entry of readdirSync(path.join(ROOT, "components"))) {
+    if (entry.endsWith(".tsx")) surfaces.push(path.join(ROOT, "components", entry));
+  }
+
+  const raw = [];
+  let scanned = 0;
+  for (const file of surfaces) {
+    const src = stripComments(readFileSync(file, "utf8"));
+    if (!/areaWithinDisc|\.areaHa\b/.test(src)) continue;
+    scanned++;
+    if (/\.areaHa\b/.test(src)) raw.push(path.relative(ROOT, file));
+  }
+
+  // Dérivé, jamais recopié : une passe de collecte qui changerait le pas de la
+  // grille déplacerait ce compte, et un nombre en dur mentirait le lendemain.
+  const { PROTECTION_AREA_BELOW_GRID_COUNT, PROTECTION_AREA_BELOW_GRID_CITIES, PROTECTION_GRID_CELL_HA } =
+    load("lib/biodiversity.ts");
+
+  if (raw.length === 0) {
+    console.log(
+      `  ok  périmètres ${scanned} surface(s) passent par areaWithinDisc` +
+        ` · ${PROTECTION_AREA_BELOW_GRID_COUNT} périmètres sous la cellule de ${PROTECTION_GRID_CELL_HA} ha,` +
+        ` sur ${PROTECTION_AREA_BELOW_GRID_CITIES} villes`,
+    );
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  zones protégées : ${raw.length} surface(s) lisent areaHa nu\n`);
+    for (const p of raw) console.error(`    ${p}`);
+    console.error(
+      `\n    Une cellule de grille pèse ${PROTECTION_GRID_CELL_HA} ha : sous ce plancher\n` +
+        `    \`areaHa\` vaut 0, et « 0 ha » en face d'un périmètre recensé se lit\n` +
+        `    comme une absence. ${PROTECTION_AREA_BELOW_GRID_COUNT} périmètres sont dans ce cas, sur\n` +
+        `    ${PROTECTION_AREA_BELOW_GRID_CITIES} villes. Passer par \`areaWithinDisc()\`\n` +
+        "    (lib/biodiversity.ts), qui rend `belowGrid` et une borne au lieu du zéro.\n",
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Tables de classement (`lib/rankings-meta.ts`, `lib/rankings-en.ts`) : une
 // description ne peut pas annoncer « Sources : <organisme> ».
 //

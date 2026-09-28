@@ -39,6 +39,13 @@ import {
   isBufferPerimeter,
   isMeasuredProtection,
   protectionSeaDistanceKm,
+  areaWithinDisc,
+  protectionBelowGridOnly,
+  PROTECTION_GRID_STEP_M,
+  PROTECTION_GRID_CELL_HA,
+  PROTECTION_AREA_BELOW_GRID_COUNT,
+  PROTECTION_AREA_BELOW_GRID_CLIPPED,
+  PROTECTION_ZERO_COVERAGE_WITH_AREAS,
   type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
   recordConcentration,
@@ -727,6 +734,10 @@ export default async function BiodiversityPage({ params }: Props) {
                 {measuredAreas.areas.map((a, i) => {
                   const href = inpnUrl(a);
                   const label = a.name ?? a.id ?? protectionLabel(a.kind, "en");
+                  // Never `a.areaHa` straight: below one grid cell the raw
+                  // value is 0, and "0 ha" against a site that is really there
+                  // reads as an absence. See `areaWithinDisc`.
+                  const within = areaWithinDisc(a);
                   return (
                     <div
                       key={`${a.kind}-${a.id ?? i}`}
@@ -756,7 +767,9 @@ export default async function BiodiversityPage({ params }: Props) {
                         </div>
                       </div>
                       <div className="shrink-0 text-right text-sm font-mono-data text-[var(--text-primary)]">
-                        {nb(Math.round(a.areaHa))}
+                        {within.belowGrid
+                          ? `< ${nb(PROTECTION_GRID_CELL_HA)}`
+                          : nb(Math.round(within.ha as number))}
                         <span className="text-[11px] font-normal text-[var(--text-tertiary)]">
                           {" "}
                           ha
@@ -766,6 +779,30 @@ export default async function BiodiversityPage({ params }: Props) {
                   );
                 })}
               </div>
+            )}
+            {measuredAreas.areas.some((a) => areaWithinDisc(a).belowGrid) && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                &ldquo;less than {nb(PROTECTION_GRID_CELL_HA)} ha&rdquo; is not zero. The clip is
+                measured on a {PROTECTION_GRID_STEP_M} m grid, so one cell weighs{" "}
+                {nb(PROTECTION_GRID_CELL_HA)} ha and nothing finer can be measured: below that
+                floor the calculation returns 0, and the site would look empty when it is in fact
+                there. Two very different situations land here, and the distance above is what
+                tells them apart — a genuinely tiny site (a bat roost in a church, a quarry), or
+                the edge of a very large one that the disc merely grazes. Of the{" "}
+                {nb(PROTECTION_AREA_BELOW_GRID_COUNT)} sites concerned across the corpus,{" "}
+                {nb(PROTECTION_AREA_BELOW_GRID_CLIPPED)} weigh more than 100 ha inside another
+                city&apos;s disc: those are large sites cut by the edge, not scraps. None of them
+                adds anything to the coverage figure above.
+              </p>
+            )}
+            {protectionBelowGridOnly(slug) && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                Hence this page&apos;s apparent contradiction: the coverage quoted above is{" "}
+                <strong>0%</strong> while this list is not empty. Both figures come from the same
+                grid and both are right — not one of the sites recorded here covers a whole cell.{" "}
+                {nb(PROTECTION_ZERO_COVERAGE_WITH_AREAS)} cities in the corpus are in this
+                position.
+              </p>
             )}
             {measuredAreas.areas.some(isBufferPerimeter) && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">

@@ -3717,6 +3717,108 @@ demande, par `scripts/local-data-runner.sh --status`, qui donne les trois couver
 chacune n'a pas bougé, la présence des couches INPN et celle d'`ogr2ogr`. Si le cron lui-même est
 décroché, rien de tout cela ne partira : c'est la première chose à vérifier (`crontab -l`).
 
+#### Point d'étape 2026-09-28 — « 0 ha » en face d'une réserve nationale, et un avertissement allumé sur les 1 080 pages
+
+**Rien de neuf côté collecte, et c'est nominal.** Les 540 lignes GBIF sont en `queryVersion` 3,
+relevées du **09 au 13/09** ; les zones protégées sont à la passe BD TOPO du **19/08**, qui est un
+ingest one-shot et non un crawl échu. Les quatre commits `[local-runner]` intervenus depuis ne
+touchent que F64. ⚠️ **Le contrôle se fait sur la date des lignes, jamais sur leur nombre** —
+540/540 sur les trois fichiers ne dit rien de la santé d'un collecteur. Le run a donc porté sur le
+dernier champ de la seule composante qui publie encore une note, et que personne n'avait relu : la
+**surface d'un périmètre**.
+
+⚠️ **`areaHa` est un résidu de grille, et sous une cellule il vaut zéro — que le périmètre soit un
+confetti ou un parc régional.** Le découpage se fait sur une grille de **250 m**, donc une cellule
+pèse **6,25 ha** et c'est la plus petite surface publiable : tout ce qui est plus fin ne couvre
+aucun centre de cellule et sort à `areaHa: 0`. Les deux pages ville affichaient ce zéro tel quel.
+Mesuré sur le fichier : **404 entrées (ville, périmètre) sur 4 511, réparties sur 239 des 540
+villes**, rendaient « **0 ha** » en face d'un périmètre qui existe. Et **deux causes opposées
+tombent dans le même zéro** : un site réellement minuscule — gîte à chiroptères dans une église,
+carrière — ou **le bord d'un très grand site que le disque effleure**. La seconde est démontrée par
+nos propres données, sans source extérieure : **46 de ces 404 portent un identifiant qui pèse 100 ha
+ou plus dans le disque d'une autre ville**, presque tous relevés à 14,8–15,0 km, c'est-à-dire
+exactement au bord. Châtellerault affichait « 0 ha » en face du **Parc Naturel Régional
+Loire-Anjou-Touraine**, qui pèse 65 862,5 ha dans le disque de la ville voisine.
+
+⚠️ **La forme la plus contradictoire touche 9 villes, qui annoncent « 0 % du disque sous
+protection » au-dessus d'une liste non vide** : Hayange au-dessus de la **Réserve Naturelle
+Nationale d'Hettange-Grande**, Épinal au-dessus du **Massif Vosgien**, plus Châlons-en-Champagne,
+Chartres, Cholet, Condom, Montargis, Rueil-Malmaison et Soissons. Les deux chiffres sortent de la
+même grille et **sont exacts** — aucun de ces périmètres ne couvre une cellule entière. C'est leur
+voisinage muet qui se lit comme une erreur, et la page le dit désormais au lieu de laisser le
+lecteur trancher.
+
+⚠️ **Le second défaut est plus large, et la page se contredisait à voix haute.** `PROTECTION_KIND_COUNT`
+valait `Object.keys(PROTECTION_WEIGHT).length`, soit **7**, les deux ZNIEFF comprises — alors
+qu'elles sont **hors barème depuis le 26/08** et que la passe BD TOPO livre **5 couches sur les 540
+villes, volontairement et partout**. Résultat : « **Passe partielle : 5 des 7 couches nationales
+étaient disponibles. La couverture est donc un minimum.** » s'affichait sur **540 villes × 2
+locales, soit 1 080 pages**, trois cents lignes sous un paragraphe de la *même page* expliquant que
+les ZNIEFF sont écartées **par choix**, « un inventaire sans portée juridique ne protégeant rien par
+lui-même ». Un avertissement allumé 100 % du temps ne signale rien — c'est précisément pour ça que
+personne ne l'avait relu — et celui-ci **minorait un chiffre juste**. `PROTECTION_SCORED_KINDS`
+déclare désormais les cinq couches réglementaires que le barème attend ; la note tombe à **0/540**
+et garde son intérêt, puisqu'elle se déclenchera le jour où une passe perdra réellement l'une
+d'elles. Contrôlé à travers le module : les 5 couches sont présentes sur les 540, aucune ville
+n'est réellement partielle.
+
+**Correctif au site d'affichage, pas dans la collecte** — même doctrine qu'au 10/09 (codes de
+baguage) et qu'au 07/09 (plafonds de pagination) : la grille est le bon outil pour la couverture,
+c'est elle qui règle les recouvrements des zonages français (cf. `protectionCoverage`), et un
+périmètre sous la cellule **n'ajoute réellement rien** à cette couverture. C'est la lecture de son
+résidu qui était fausse. Livré : **`areaWithinDisc()`, seul accès autorisé à `ProtectedArea.areaHa`
+depuis une surface** (même règle que `countWithFloor` et `groupSpecies` — relire le champ brut fait
+revenir le zéro), qui rend `belowGrid` et une borne ; `protectionBelowGridOnly()` pour les 9 villes
+ci-dessus ; `PROTECTION_GRID_STEP_M` / `PROTECTION_GRID_CELL_HA` **dérivés du fichier** et non
+écrits à la main, avec les comptes `PROTECTION_AREA_*` calculés au chargement. Les deux pages
+affichent « moins de 6,25 ha » au lieu de « 0 ha », expliquent les deux causes et disent que ces
+périmètres n'ajoutent rien à la couverture.
+
+**Ce qui était déjà dit et que je n'ai pas eu à ajouter** : les deux locales écrivaient déjà, en
+tête de la liste, que « les surfaces sont mesurées sur la part du périmètre qui tombe dans le
+rayon, pas sur le site entier ». La mesure le confirme largement — sur les **806** périmètres listés
+par au moins deux villes, **741 portent un chiffre différent d'une ville à l'autre** (le PNR du
+Luberon vaut 12,5 ha sur une page et 65 025 ha sur une autre) — donc la découpe est bien annoncée,
+et c'est ce qui rend « moins de 6,25 ha » lisible en face du Massif Vosgien.
+
+**Gardes.** Nouveau garde **`périmètres`** dans `npm run integrity` : toute surface lisant `.areaHa`
+nu échoue, sur le code **commentaires retirés** (piège des gardes F64 du 15/09 et `protégées` du
+17/09), et **vérifiée en la faisant échouer** — elle nomme le fichier fautif et le compte de
+périmètres concernés, dérivé du module. `protected-areas:selftest` **+4 contrôles** qui épinglent le
+mécanisme plutôt que son résultat : une cellule pèse 6,25 ha, un périmètre de 100 m placé entre deux
+centres de cellule rend 0, un site immense qui effleure le bord rend 0 lui aussi, et la plus petite
+surface publiable est une cellule entière. ⚠️ La première version du test plaçait son carré sur le
+réseau des centres (±125 m) et attrapait une cellule : **un test de plancher doit viser entre les
+mailles, pas au hasard.**
+
+🔧 **Corrigé au passage dans `protected-areas:stats`, et c'est le même défaut que le précédent** :
+`partial` comparait `kinds.length` à `LAYERS.length` (7), donc le diagnostic annonçait « ingested
+from an incomplete layer set: **540** » — 100 % des rangées, à chaque run, depuis le 26/08. Il se
+cale désormais sur la passe elle-même (est en retard la ville qui porte moins de couches que la
+mieux servie du même lot), et il **nomme** les 9 villes à couverture nulle au lieu de les compter :
+un agrégat de zéros doit nommer ses membres, c'est le comptage muet qui avait caché les dix Saint-X
+de F64 quinze jours durant. Les comptes du script (404 / 239 / 9) sont produits par un chemin de
+code indépendant de celui de la lib et tombent sur les mêmes valeurs.
+
+**Non couvert, et à ne pas supposer réglé.** `overall` reste **`null` sur les 540** : deux
+composantes sur trois n'ont plus de rang (richesse retirée le 10/08, espaces verts le 31/08), et
+repondérer ce qui reste donnerait un nombre qui ne mesure pas ce que son nom annonce. Le **pendant
+terrestre** du défaut de mer du 17/09 — le disque d'une ville frontalière déborde sur un pays où la
+BD TOPO n'a aucun périmètre — **n'est toujours pas mesuré**, faute de polygone de frontières au
+dépôt. La part d'eau **par ville** n'est toujours pas publiée. Le couple **cœur de parc / aire
+d'adhésion** et les **zones tampons** restent détectés par le **nom** du périmètre, donc signalés et
+jamais repondérés. Et la raréfaction des deux villes de Guyane compte encore un casier
+« Animalia spec », qui demande un recrawl.
+
+**Contrôles.** `npx tsc --noEmit` **propre**, `npm run integrity` (16 gardes, dont le nouveau),
+`npm run protected-areas:selftest` et `npm run biodiversity:selftest` verts, `npm run sitemap:check`
+(FR **29 294** URL, EN **28 887** — **inchangé**, aucune route neuve), `npm run parity` (code 0),
+`npm run hreflang:check`, plus une vérification d'encodage (accents intacts, aucun mojibake, aucun
+`m2` / `EUR` / `deg` ascii, aucune apostrophe typographique, **1 em-dash pour 196 mots**, cible
+R7.10 ~1 pour 200). `npm run build` **non lancé, volontairement** (cf. CLAUDE.md § Commands depuis
+le batch 27 : 4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal
+utile).
+
 #### Point d'étape 2026-09-17 — le disque compte la mer, et le seul chiffre encore publié n'est pas la part du sol protégé
 
 **État de la collecte, contrôlé sur la date des lignes et non sur leur nombre.**

@@ -3948,6 +3948,53 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     lien de fiche n'est affiché. Pour le rebrancher un jour, la BD TOPO porte le code MNHN dans
     `identifiants_sources`.
 
+  - **État au 2026-09-28 — « 0 ha » en face d'une réserve naturelle nationale, et un avertissement
+    allumé sur les 1 080 pages ville.** Rien de neuf côté collecte et c'est **nominal** : GBIF en
+    `queryVersion` 3 du 09 au 13/09, zones protégées à la passe BD TOPO du 19/08 (ingest one-shot,
+    pas un crawl échu) — ⚠️ le contrôle se fait sur **la date des lignes, jamais sur leur nombre**.
+    Le run a porté sur le dernier champ jamais relu de la seule composante qui publie une note : la
+    **surface d'un périmètre**. ⚠️ **`areaHa` est un résidu de grille** : le découpage se fait sur
+    250 m, donc une cellule pèse **6,25 ha** et rien de plus fin ne se mesure — **404 entrées sur
+    4 511, sur 239 des 540 villes**, sortaient « **0 ha** » en face d'un périmètre qui existe, et
+    **deux causes opposées tombaient dans le même zéro** : un site minuscule (gîte à chiroptères,
+    carrière) ou **le bord d'un très grand site que le disque effleure**. La seconde est démontrée
+    par nos propres données — **46 de ces 404** portent un identifiant qui pèse ≥ 100 ha dans le
+    disque d'une autre ville, presque tous relevés à 14,8–15,0 km : Châtellerault affichait « 0 ha »
+    en face du **Parc Naturel Régional Loire-Anjou-Touraine**. ⚠️ **Forme la plus contradictoire, 9
+    villes** annonçaient « 0 % du disque sous protection » au-dessus d'une liste non vide — Hayange
+    au-dessus de la **Réserve Naturelle Nationale d'Hettange-Grande**, Épinal au-dessus du **Massif
+    Vosgien** — les deux chiffres sortant de la même grille et **étant exacts**. ⚠️ **Second défaut,
+    plus large, et la page se contredisait à voix haute** : `PROTECTION_KIND_COUNT` valait
+    `Object.keys(PROTECTION_WEIGHT).length` = **7**, ZNIEFF comprises, alors qu'elles sont **hors
+    barème depuis le 26/08** et que la passe livre **5 couches partout, volontairement** — d'où
+    « Passe partielle : 5 des 7 couches nationales étaient disponibles. La couverture est donc un
+    minimum. » sur **540 villes × 2 locales**, trois cents lignes sous un paragraphe de la *même
+    page* disant que les ZNIEFF sont écartées **par choix**. Un avertissement allumé 100 % du temps
+    ne signale rien, et celui-ci **minorait un chiffre juste** ; `PROTECTION_SCORED_KINDS` déclare
+    les cinq couches réglementaires attendues, la note tombe à **0/540** et se déclenchera le jour
+    où une passe en perdra réellement une. Livré **au site d'affichage** (même doctrine qu'au 10/09
+    et au 07/09 : la grille reste le bon outil pour la couverture, c'est la lecture de son résidu
+    qui était fausse) : **`areaWithinDisc()`, seul accès autorisé à `ProtectedArea.areaHa` depuis
+    une surface** (relire le champ brut fait revenir le zéro, comme `countWithFloor` et
+    `groupSpecies`), `protectionBelowGridOnly()`, `PROTECTION_GRID_STEP_M` /
+    `PROTECTION_GRID_CELL_HA` **dérivés du fichier** et les comptes `PROTECTION_AREA_*` calculés au
+    chargement ; les deux pages affichent « moins de 6,25 ha », expliquent les deux causes et disent
+    que ces périmètres n'ajoutent rien à la couverture. **Déjà dit et non réécrit** : les deux
+    locales annonçaient déjà que la surface est « la part du périmètre qui tombe dans le rayon, pas
+    le site entier » — ce que la mesure confirme (sur **806** périmètres listés par ≥ 2 villes,
+    **741** portent un chiffre différent d'une ville à l'autre ; le PNR du Luberon vaut 12,5 ha sur
+    une page et 65 025 ha sur une autre). **Garde `périmètres`** dans `npm run integrity` : toute
+    surface lisant `.areaHa` nu échoue, sur le code **commentaires retirés**, **vérifiée en la
+    faisant échouer** ; `protected-areas:selftest` **+4 contrôles** qui épinglent le mécanisme
+    (⚠️ un test de plancher doit viser **entre les mailles** — la première version posait son carré
+    sur le réseau des centres à ±125 m et attrapait une cellule). 🔧 Corrigé au passage dans
+    `protected-areas:stats`, même défaut : `partial` comparait à `LAYERS.length` (7) et annonçait
+    « incomplete layer set: **540** » à chaque run depuis le 26/08 ; il se cale désormais sur la
+    passe elle-même et **nomme** les 9 villes à couverture nulle. **Non couvert** : `overall` reste
+    **`null` sur les 540**, le **pendant terrestre** du défaut de mer (disque débordant sur un pays
+    sans BD TOPO) n'est **toujours pas mesuré** faute de polygone de frontières, la part d'eau par
+    ville n'est pas publiée, cœur/aire d'adhésion et zones tampons restent détectés par le **nom**,
+    et la raréfaction des deux villes de Guyane compte encore un casier « Animalia spec ».
   - **État au 2026-09-17 — le disque compte la mer, et le seul chiffre encore publié n'est pas la
     part du sol protégé.** Rien de neuf côté collecte et c'est **nominal** : les 540 lignes GBIF
     sont en `queryVersion` 3 du 09 au 13/09, les zones protégées à la passe BD TOPO du 19/08, et

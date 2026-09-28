@@ -40,6 +40,13 @@ import {
   isBufferPerimeter,
   isMeasuredProtection,
   protectionSeaDistanceKm,
+  areaWithinDisc,
+  protectionBelowGridOnly,
+  PROTECTION_GRID_STEP_M,
+  PROTECTION_GRID_CELL_HA,
+  PROTECTION_AREA_BELOW_GRID_COUNT,
+  PROTECTION_AREA_BELOW_GRID_CLIPPED,
+  PROTECTION_ZERO_COVERAGE_WITH_AREAS,
   type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
   recordConcentration,
@@ -800,6 +807,10 @@ export default async function BiodiversitePage({ params }: Props) {
                 {measuredAreas.areas.map((a, i) => {
                   const href = inpnUrl(a);
                   const label = a.name ?? a.id ?? protectionLabel(a.kind);
+                  // Jamais `a.areaHa` directement : sous une cellule de grille
+                  // le brut vaut 0, et « 0 ha » en face d'un périmètre qui
+                  // existe se lit comme une absence. Cf. `areaWithinDisc`.
+                  const within = areaWithinDisc(a);
                   return (
                     <div
                       key={`${a.kind}-${a.id ?? i}`}
@@ -829,7 +840,9 @@ export default async function BiodiversitePage({ params }: Props) {
                         </div>
                       </div>
                       <div className="shrink-0 text-right text-sm font-mono-data text-[var(--text-primary)]">
-                        {nb(Math.round(a.areaHa))}
+                        {within.belowGrid
+                          ? `< ${nb(PROTECTION_GRID_CELL_HA)}`
+                          : nb(Math.round(within.ha as number))}
                         <span className="text-[11px] font-normal text-[var(--text-tertiary)]">
                           {" "}
                           ha
@@ -839,6 +852,31 @@ export default async function BiodiversitePage({ params }: Props) {
                   );
                 })}
               </div>
+            )}
+            {measuredAreas.areas.some((a) => areaWithinDisc(a).belowGrid) && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                « moins de {nb(PROTECTION_GRID_CELL_HA)} ha » n&apos;est pas zéro. Le découpage se
+                fait sur une grille de {PROTECTION_GRID_STEP_M} m, donc une cellule pèse{" "}
+                {nb(PROTECTION_GRID_CELL_HA)} ha et rien de plus fin ne se mesure : sous ce
+                plancher, le calcul rend 0 et le périmètre semblerait vide alors qu&apos;il est
+                bien là. Deux situations très différentes tombent dans ce cas, et c&apos;est la
+                distance ci-dessus qui les sépare — un site réellement minuscule (un gîte à
+                chiroptères dans une église, une carrière), ou le bord d&apos;un très grand site
+                que le disque effleure. Sur les {nb(PROTECTION_AREA_BELOW_GRID_COUNT)} périmètres
+                concernés dans le corpus, {nb(PROTECTION_AREA_BELOW_GRID_CLIPPED)} pèsent plus de
+                100 ha dans le disque d&apos;une autre ville : ce sont des grands sites rognés par
+                le bord, pas des confettis. Aucun n&apos;ajoute quoi que ce soit à la couverture
+                affichée plus haut.
+              </p>
+            )}
+            {protectionBelowGridOnly(slug) && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                D&apos;où la contradiction apparente de cette page : la couverture annoncée plus
+                haut est de <strong>0 %</strong> alors que cette liste n&apos;est pas vide. Les
+                deux chiffres sortent de la même grille et sont exacts — aucun des périmètres
+                recensés ici ne couvre une cellule entière.{" "}
+                {nb(PROTECTION_ZERO_COVERAGE_WITH_AREAS)} villes du corpus sont dans ce cas.
+              </p>
             )}
             {measuredAreas.areas.some(isBufferPerimeter) && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
