@@ -4171,6 +4171,29 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     relevé de cabinets · taux publié · faits enregistrés · annuaire des équipements · note
     d'enquête · décompte terrain). **Garde `moteurs` dans `npm run integrity` : 52 surfaces
     contrôlées.**
+    ⚠️ **Défaut vérifié le 2026-09-28, trouvé en passant et NON corrigé : le `CHU_CITIES` de
+    `lib/healthcare-access.ts` crédite le mauvais Saint-Denis.** Le `Set` porte `"saint-denis"` sous
+    le commentaire « CHU DROM (Martinique, Réunion) », mais ce slug est **Saint-Denis
+    (Seine-Saint-Denis)**, qui n'a pas de CHU (centre hospitalier Delafontaine ; le CHU voisin est
+    Avicenne, à Bobigny) ; La Réunion s'écrit `saint-denis-reunion` et **n'est pas dans le `Set`**,
+    alors qu'elle héberge le CHU site Félix-Guyon. Mesuré à travers le module, pas par lecture du
+    source : Saint-Denis 93 sort `urgences` 1,5 et `spécialistes` 2,0 avec les phrases « CHU avec SAU
+    24/7 dans la commune » et « Ville hébergeant un CHU » rendues sur sa page, quand
+    `saint-denis-reunion` retombe sur le repli générique à 3,0 et 4,0. ⚠️ **Les deux composites
+    valent 2,9, donc un contrôle sur le composite ne voit rien** — c'est la dixième occurrence du
+    piège d'homonymie déjà documenté aux batches 30 à 33 (`saint-denis` 93 contre
+    `saint-denis-reunion`, `saint-louis-reunion-974`). Second défaut de la même ligne de code, plus
+    large : `CHU_CITIES` est un **test binaire d'appartenance sur le slug de la commune**, donc une
+    commune qui héberge réellement un site de CHU sans en porter le nom n'a aucun crédit —
+    **Le Kremlin-Bicêtre** (CHU Bicêtre, AP-HP, nommé dans ses propres `characterTags` de seed) sort
+    `spécialistes` 8,0, c'est-à-dire le niveau « désert ». Même cas pour Bron, Pessac ou
+    Vandœuvre-lès-Nancy. Portée : les phrases rendues sur `/villes/[slug]/sante` et EN
+    `healthcare`, le profil `suivi-medical-regulier` (qui pondère `healthcareAccess` à 3,0) et le red
+    flag `villes-desert-medical`. Le remède n'est pas un correctif d'affichage : c'est une distance à
+    un site de CHU, donc une table de points en dur sur le modèle d'`AIR_HUBS`, et **ça déplace un
+    score sur 540 pages × 2 locales** — à faire dans une passe dédiée, avec un garde qui refuse tout
+    slug de `CHU_CITIES` absent de `CITIES_SEED` (un `Set` de littéraux est bien typé même quand il
+    désigne la mauvaise ville, exactement le précédent du garde `EN_EXPAT_COUNTRY_SLUGS`).
     ⚠️ **`lib/demography.ts` est le cas mixte et a son propre marqueur** : vieillissement et
     trajectoire **sont mesurés** au recensement Insee (538/540 villes, via
     `lib/city-population`), soit 60 % du composite ; jeunes actifs et renouvellement sont
