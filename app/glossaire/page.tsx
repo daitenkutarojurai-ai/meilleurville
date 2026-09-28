@@ -851,6 +851,80 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Grand âge, dépendance et aide à domicile",
+    emoji: "👵",
+    terms: [
+      {
+        term: "Grille AGGIR et GIR 1 à 6",
+        def: "L'entrée dans presque tous les dispositifs du grand âge passe par un classement, et il ne se déclare pas : une équipe médico-sociale du département se déplace au domicile, observe dix-sept variables d'activité (se lever, se laver, s'habiller, s'alimenter, se déplacer, cohérence, orientation) et en déduit un groupe iso-ressources, de GIR 1, la perte d'autonomie la plus lourde, à GIR 6, l'autonomie conservée pour les actes essentiels. Le seuil qui commande tout le reste se situe entre 4 et 5 : les GIR 1 à 4 ouvrent droit à l'allocation personnalisée d'autonomie, les GIR 5 et 6 non. Une personne classée GIR 5 n'est pas sans recours pour autant, mais elle change de guichet : l'aide ménagère relève alors de la caisse de retraite (Carsat, MSA, régimes complémentaires) ou du centre communal d'action sociale, avec des plans d'aide et des conditions propres à chaque caisse et à chaque commune. Le même besoin n'est donc pas financé par le même acteur, et le point de bascule est une évaluation faite chez vous.",
+      },
+      {
+        term: "APA à domicile : un plafond national, un plan d'aide local",
+        def: "L'allocation personnalisée d'autonomie s'adresse aux personnes de 60 ans et plus classées en GIR 1 à 4. Elle ne finance pas un forfait mais un plan d'aide : des heures d'intervention, du portage de repas, de la téléassistance, des aides techniques, dont le contenu est arrêté par l'équipe médico-sociale du département. Les plafonds mensuels sont nationaux et indexés sur la majoration pour tierce personne ; au 1ᵉʳ janvier 2026 ils atteignent 2 080,33 € en GIR 1, 1 682,30 € en GIR 2, 1 215,99 € en GIR 3 et 811,52 € en GIR 4, une majoration de répit pouvant ajouter jusqu'à 583,52 € par an quand l'aidant a besoin de souffler. Au-delà de 933,89 € de ressources mensuelles, une participation reste à la charge du bénéficiaire, croissante avec le revenu. Le piège de lecture est là : le plafond est le même partout, ce qui se passe en dessous ne l'est pas. Le département décide quelles heures il retient, à quel tarif horaire il les rembourse et quels prestataires il conventionne, si bien que deux plans d'aide au même plafond ne couvrent pas le même nombre d'heures réelles d'un département à l'autre.",
+      },
+      {
+        term: "APA en établissement et talon GIR 5-6",
+        def: "En EHPAD, l'APA ne prend pas la forme d'un plan d'aide : elle couvre le tarif dépendance de l'établissement, diminué d'une participation qui reste due quel que soit le degré de perte d'autonomie, à savoir le tarif applicable aux résidents classés GIR 5 et 6, souvent appelé talon ou ticket modérateur. Ce montant est de l'ordre de 5 à 7 € par jour selon l'établissement, soit à peu près 150 à 210 € par mois, et il est voté localement comme les autres tarifs dépendance. Beaucoup de départements versent l'APA directement à l'établissement sous forme de dotation globale, si bien que le résident ne la voit jamais passer : sa facture porte simplement le tarif dépendance de son GIR moins celui des GIR 5-6. Confondre les deux régimes conduit à surestimer largement l'aide attendue une fois l'entrée décidée, parce que les plafonds spectaculaires de l'APA à domicile ne s'appliquent pas en établissement.",
+      },
+      {
+        term: "Les trois tarifs d'un EHPAD",
+        def: "Une facture d'EHPAD additionne trois sections qui n'ont ni le même payeur ni le même décideur. Le tarif soins est financé par l'assurance maladie et n'apparaît pas sur la facture du résident. Le tarif dépendance couvre l'aide aux actes de la vie quotidienne : il est arrêté par le président du conseil départemental et partiellement pris en charge par l'APA. Le tarif hébergement paie le logement, les repas, l'entretien et l'animation : c'est lui qui fait l'essentiel du reste à charge, et il incombe au résident puis, le cas échéant, à sa famille ou à l'aide sociale. Retenir cette découpe est la condition pour lire un devis. Une brochure qui annonce un prix « tout compris » ne dit pas lequel de ces tarifs elle a inclus, et un établissement peut paraître moins cher simplement parce qu'il n'a chiffré que l'hébergement.",
+      },
+      {
+        term: "Prix d'un EHPAD : il n'existe pas de tarif national",
+        def: "C'est le piège central de ce chapitre, et il est du même ordre que celui du prix de l'eau. Aucun texte ne fixe le prix d'une place, et les moyennes publiées par la presse et les comparateurs ne sont pas comparables entre elles : certaines donnent une médiane, d'autres une moyenne ; certaines le seul tarif hébergement, d'autres l'hébergement plus le tarif dépendance des GIR 5-6 ; certaines les places habilitées à l'aide sociale, d'autres le secteur privé commercial, dont les prix d'entrée sont libres. Selon ce qu'on mesure, le même pays produit des chiffres qui vont d'environ 1 900 € à près de 2 700 € par mois, et l'écart entre un département rural et Paris se compte en milliers d'euros. Nous ne publions donc pas de prix national, parce qu'il ne se paie nulle part. Le seul chiffre utile est celui d'un établissement donné : les tarifs sont déclarés et consultables sur le comparateur public des prix des EHPAD, établissement par établissement, et c'est là qu'il faut aller avant de comparer deux villes.",
+      },
+      {
+        term: "Habilitation à l'aide sociale",
+        def: "C'est la caractéristique la plus lourde de conséquences au moment de choisir un établissement, et elle ne se lit pas sur la façade. Un EHPAD habilité à l'aide sociale voit son tarif hébergement fixé par le conseil départemental et peut accueillir des résidents dont le séjour est pris en charge par l'aide sociale à l'hébergement. Un établissement non habilité fixe librement son prix d'entrée et n'ouvre en principe aucun droit à cette prise en charge : si les ressources ne suffisent plus dix ans plus tard, il faudra déménager, à un âge et dans un état où un déménagement n'est plus anodin. L'habilitation peut aussi être partielle, sur un nombre de places déterminé, ce qui revient à dire qu'un établissement habilité n'a pas forcément une place habilitée libre. La proportion de places habilitées varie fortement d'un département à l'autre, et c'est une donnée de géographie autant que de budget : elle décide de l'existence d'un filet, pas seulement de son montant.",
+      },
+      {
+        term: "Encadrement de la hausse annuelle du tarif hébergement",
+        def: "Dans un établissement non habilité à l'aide sociale, le prix d'entrée est libre, mais son augmentation ne l'est pas pour les résidents déjà présents : un arrêté ministériel fixe chaque année le pourcentage maximal d'évolution applicable aux contrats en cours. Pour 2026, l'arrêté du 24 décembre 2025 l'a plafonné à 0,86 %. Ce plafond ne concerne ni les nouveaux entrants, dont le tarif est celui négocié à l'arrivée, ni les établissements habilités, dont les tarifs sont arrêtés par le département. Conséquence pratique au moment de comparer : deux résidents du même couloir peuvent payer des prix sensiblement différents pour la même chambre selon leur année d'entrée, et la question à poser à un établissement n'est pas seulement son prix affiché, c'est aussi celui qu'il pratique pour ses résidents les plus anciens.",
+      },
+      {
+        term: "ASH (aide sociale à l'hébergement)",
+        def: "Quand les ressources ne couvrent pas le tarif hébergement, le département peut en prendre la charge. L'ASH est une aide départementale et subsidiaire, pas un droit automatique : elle suppose un établissement habilité, une résidence stable en France, un âge de 65 ans (60 ans en cas d'inaptitude au travail) et des ressources insuffisantes. Le bénéficiaire reverse l'essentiel de ses revenus à l'établissement, à hauteur de 90 %, en conservant un minimum mensuel destiné aux dépenses personnelles, de l'ordre de 125 € en 2026 ; le département complète le reste. Trois conséquences sont à connaître avant de déposer un dossier, et elles font les trois entrées suivantes : l'aide se récupère, la famille peut être appelée à contribuer, et le département qui paie n'est pas forcément celui où se trouve l'établissement.",
+      },
+      {
+        term: "Récupération sur succession de l'ASH",
+        def: "L'ASH n'est pas un don. Le département la récupère sur la succession du bénéficiaire, et la comparaison avec le minimum vieillesse éclaire la différence de régime : la récupération de l'allocation de solidarité aux personnes âgées ne s'exerce qu'au-delà d'un actif net successoral de l'ordre de 39 000 € en métropole, alors que celle de l'ASH s'exerce en principe dès le premier euro, sans franchise. La créance peut aussi être recherchée sur une donation consentie dans les dix ans qui précèdent la demande, sur un contrat d'assurance vie, et en cas de retour à meilleure fortune. Une divergence mérite ici d'être publiée plutôt que tranchée : beaucoup de sources annoncent un seuil de 46 000 €, d'autres une récupération au premier euro, et les deux se rencontrent sur le terrain parce que les départements n'appliquent pas la même politique de recouvrement. Ce n'est donc pas une règle nationale mal expliquée, c'est une pratique locale, et elle se demande par écrit au conseil départemental concerné.",
+      },
+      {
+        term: "Obligation alimentaire",
+        def: "Les articles 205 à 207 du code civil obligent les enfants à subvenir aux besoins de leurs parents dans le besoin, et l'instruction d'une demande d'ASH conduit le département à identifier ces obligés alimentaires et à leur demander une participation, le juge aux affaires familiales tranchant le montant à défaut d'accord. Deux points sont mal connus. Le premier est récent et vaut contre ce qu'on lit encore couramment : la loi du 8 avril 2024 a exclu les petits-enfants de l'obligation alimentaire lorsqu'elle est mise en œuvre dans le cadre d'une demande d'ASH pour un grand-parent, et de nombreuses pages en ligne, y compris des guides spécialisés, continuent d'écrire l'inverse. Le second est géographique : la loi laisse aux départements une marge d'appréciation considérable, dans le barème comme dans le fait de solliciter ou non tous les obligés, si bien que la même configuration familiale n'appelle pas la même contribution de part et d'autre d'une limite départementale.",
+      },
+      {
+        term: "Domicile de secours",
+        def: "C'est la notion qui désigne le département payeur d'une aide sociale, et elle réserve la surprise la plus coûteuse du dossier. Le domicile de secours s'acquiert par une résidence habituelle de trois mois dans un département et se perd par une absence ininterrompue de trois mois. Mais l'article L. 122-2 du code de l'action sociale et des familles ajoute deux exceptions symétriques : le séjour dans un établissement sanitaire ou social n'est pas acquisitif de domicile de secours, et une absence motivée par un tel séjour ne le fait pas perdre. Installer un parent dans un EHPAD d'un autre département pour le rapprocher de ses enfants ne transfère donc pas la charge à ce département : celui où il résidait avant l'entrée reste compétent, aussi longtemps que durera le séjour. La conséquence est très concrète, puisque le barème d'ASH, la politique de récupération et le traitement des obligés alimentaires resteront ceux du département d'origine, et non ceux du département où la famille vient d'emménager.",
+      },
+      {
+        term: "Réforme expérimentale de la tarification (23 départements)",
+        def: "Un fait daté, à revérifier avant de s'y fier, parce que la structure de facture décrite plus haut ne vaut pas partout en ce moment. La loi de financement de la sécurité sociale pour 2024, modifiée par celle pour 2025, a ouvert une expérimentation qui fusionne les sections soins et dépendance en un forfait unique financé par l'assurance maladie via les agences régionales de santé, ce qui déplace vers l'État une part de ce que finançaient les départements. Elle court du 1ᵉʳ juillet 2025 au 31 décembre 2026 dans 23 départements volontaires, avec un rapport au Parlement attendu avant juin 2026 et une généralisation envisagée à partir de 2027 sans calendrier arrêté. Pendant cette période, deux départements voisins ne financent donc pas la dépendance de la même façon. C'est une réserve sur la comparaison plus que sur le reste à charge : l'expérimentation porte sur le circuit de financement, et le tarif hébergement, qui fait l'essentiel de la facture, n'entre pas dans le forfait fusionné.",
+      },
+      {
+        term: "Résidence autonomie et résidence services seniors",
+        def: "Deux objets qu'un même dépliant appelle volontiers « résidence seniors » et que le droit distingue. La résidence autonomie, anciennement foyer-logement, est un établissement social et médico-social, souvent géré par un centre communal d'action sociale ou une association, destiné à des personnes âgées encore autonomes : logements privatifs, espaces communs, socle de prestations, redevances modérées, et possibilité pour l'établissement d'être habilité à l'aide sociale. La résidence services seniors relève du logement et du commerce : on y est locataire ou propriétaire, les services sont facturés en sus et le prix est libre. L'écart de tarif entre les deux formules n'est donc pas qu'une affaire de standing, c'est une différence de régime juridique. Corollaire pour qui compare deux villes : l'offre de la première dépend directement de la politique de la commune et du département, et elle peut être inexistante dans une commune voisine de taille comparable.",
+      },
+      {
+        term: "SAAD, SSIAD, accueil familial, et le guichet où commence le dossier",
+        def: "À domicile, l'aide prend trois formes distinctes qu'il vaut mieux ne pas confondre. Un service d'aide et d'accompagnement à domicile (SAAD) intervient sur les actes de la vie quotidienne, ménage, repas, aide à la toilette non médicalisée, et c'est lui qu'un plan d'APA finance le plus souvent. Un service de soins infirmiers à domicile (SSIAD) intervient sur prescription médicale et relève de l'assurance maladie. L'accueil familial est la moins connue des trois solutions : un particulier agréé par le département héberge chez lui jusqu'à trois personnes âgées ou handicapées, sous son contrôle et son suivi, pour un coût généralement très inférieur à celui d'un établissement. Dans tous les cas le dossier commence au même endroit, et c'est une adresse locale : le centre communal d'action sociale de la mairie, un centre local d'information et de coordination gérontologique, ou le service autonomie du département. Le CCAS est aussi le lieu où vivent les aides qu'aucun barème national ne recense, portage de repas, téléassistance, transport accompagné, décidées commune par commune.",
+      },
+      {
+        term: "Réduction d'impôt pour frais de séjour en établissement",
+        def: "Un résident en EHPAD bénéficie d'une réduction d'impôt de 25 % des sommes versées au titre de l'hébergement et de la dépendance, hors soins, retenues dans la limite de 10 000 € par personne hébergée et par an, soit au maximum 2 500 €. Le plafond se calcule après déduction de l'APA, de l'aide sociale et des aides au logement perçues, et les seuls frais d'hébergement ne suffisent pas : il faut des frais de dépendance pour y avoir droit. Le mot « réduction » est à prendre au sérieux, parce qu'il décide de qui touche quoi : une réduction s'impute sur un impôt dû, donc elle ne rapporte rien à un foyer non imposable, c'est-à-dire précisément celui qui aura besoin de l'ASH. Sa transformation en crédit d'impôt, votée par les députés le 25 octobre 2025, n'a pas été retenue dans la loi de finances pour 2026 : le dispositif reste une réduction, et ce point est à revérifier à chaque loi de finances.",
+      },
+      {
+        term: "Crédit d'impôt services à la personne et avance immédiate",
+        def: "Pour l'aide à domicile, le régime est plus favorable que celui de l'établissement, parce qu'il s'agit cette fois d'un crédit d'impôt : 50 % des dépenses engagées, dans la limite de 12 000 € par an, majorée de 1 500 € par enfant à charge, par membre du foyer de plus de 65 ans ou par ascendant bénéficiaire de l'APA, sans dépasser 15 000 €, et jusqu'à 18 000 € la première année d'emploi d'un salarié à domicile. Étant un crédit, il est versé même en l'absence d'impôt dû, ce qui est l'exacte différence avec l'entrée précédente. L'avance immédiate, via le dispositif Cesu +, évite d'attendre l'année suivante : on ne règle que la moitié du coût, l'autre moitié étant avancée. Les mêmes dépenses ne peuvent pas ouvrir droit deux fois, ce crédit ne se cumule donc pas avec la réduction d'impôt de séjour sur un même euro dépensé. L'aide travaux qui complète ces deux dispositifs pour adapter le logement, MaPrimeAdapt', est définie au chapitre rénovation énergétique.",
+      },
+      {
+        term: "Congé de proche aidant et AJPA",
+        def: "Le congé de proche aidant permet à un salarié de suspendre ou de réduire son activité pour accompagner un proche âgé en perte d'autonomie, sans rupture du contrat de travail. Il est indemnisé par l'allocation journalière du proche aidant, versée par la caisse d'allocations familiales ou la MSA : 66,64 € par jour et 33,32 € par demi-journée au 1ᵉʳ janvier 2026, dans la limite de 66 jours par personne accompagnée et de 264 jours sur l'ensemble d'une carrière depuis le 1ᵉʳ janvier 2025, soit quatre proches au plus. L'ordre de grandeur est à retenir tel quel : 66 jours indemnisés couvrent une hospitalisation, une sortie de crise ou une entrée en établissement, pas une aide durable. Le congé lui-même peut se prolonger au-delà de ce que l'allocation couvre, dans les limites fixées par l'accord de branche ou, à défaut, par la loi, et cette partie n'est pas payée.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -861,7 +935,7 @@ export default function GlossairePage() {
     "@type": "DefinedTermSet",
     name: "Glossaire immobilier et relocation",
     description:
-      "Termes clés pour acheter, louer, investir, assurer, déménager, scolariser ses enfants, se faire soigner, se déplacer ou chercher du travail en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat, médecin traitant, ALD, zonage ZIP, Crit'Air, forfait mobilités durables, FPS, zone d'emploi, ARE, clause de mobilité, zone FRR et plus.",
+      "Termes clés pour acheter, louer, investir, assurer, déménager, scolariser ses enfants, se faire soigner, se déplacer ou chercher du travail en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat, médecin traitant, ALD, zonage ZIP, Crit'Air, forfait mobilités durables, FPS, zone d'emploi, ARE, clause de mobilité, zone FRR, GIR, APA, ASH, domicile de secours et plus.",
     hasDefinedTerm: SECTIONS.flatMap((s) =>
       s.terms.map((t) => ({
         "@type": "DefinedTerm",
@@ -896,8 +970,8 @@ export default function GlossairePage() {
           <p className="text-[var(--text-secondary)] leading-relaxed">
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
             locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants,
-            l&apos;accès aux soins, les transports, le marché du travail et les factures d&apos;eau et
-            de déchets en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
+            l&apos;accès aux soins, les transports, le marché du travail, les factures d&apos;eau et
+            de déchets et la dépendance du grand âge en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
             connaître avant de signer.
           </p>
         </div>

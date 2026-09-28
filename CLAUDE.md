@@ -2379,10 +2379,95 @@ Vaulx-en-Velin, Saint-Priest, Bron) et les trous listés aux batches 34 et 36 ci
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré
 depuis le tableau — ajouter un terme suffit, rien d'autre à câbler. **Compteur mesuré
-(`grep -c 'term: "'`) : 183 termes, 17 sections** (2026-09-16). ⚠️ Un terme ajouté oblige à
-remonter `GLOSSARY_TERMS_COUNT` (`lib/site-stats.ts`, 169 → 183 ce run) : `npm run integrity`
+(`grep -c 'term: "'`) : 200 termes, 18 sections** (2026-09-28). ⚠️ Un terme ajouté oblige à
+remonter `GLOSSARY_TERMS_COUNT` (`lib/site-stats.ts`, 183 → 200 ce run) : `npm run integrity`
 recompte la page et **échoue** sinon — le nombre est affiché sur `/outils`, `/recherche`, la carte
-OG et `StaticPageCrossLink`. Dernière section ajoutée : « Eau, assainissement, déchets et
+OG et `StaticPageCrossLink`. Dernière section ajoutée : « Grand âge, dépendance et aide à domicile »
+👵 — 17 termes (grille AGGIR et GIR 1 à 6, APA à domicile, APA en établissement et talon GIR 5-6,
+les trois tarifs d'un EHPAD, prix d'un EHPAD, habilitation à l'aide sociale, encadrement de la
+hausse annuelle du tarif hébergement, ASH, récupération sur succession, obligation alimentaire,
+domicile de secours, réforme expérimentale de la tarification à 23 départements, résidence autonomie
+contre résidence services seniors, SAAD/SSIAD/accueil familial et guichet d'entrée, réduction
+d'impôt de séjour, crédit d'impôt services à la personne, congé de proche aidant et AJPA). C'était
+le trou béant de la page : sur 183 termes, **zéro** ne parlait de perte d'autonomie, d'EHPAD, d'APA
+ni de qui paie quand les ressources ne suffisent plus — ni EHPAD, ni AGGIR, ni ASH, ni obligation
+alimentaire, ni domicile de secours, ni tutelle n'apparaissaient une seule fois, APA et GIR ne
+figurant qu'en incise dans la définition de MaPrimeAdapt'. Le site porte pourtant quatre profils
+concernés (`retraites`, `futurs-retraites`, `proches-aidants`, `suivi-medical-regulier`), le red
+flag `villes-vieillissement-critique`, `/villes/[slug]/sante` — et l'édition de décembre du palmarès
+vient de mesurer que **les villes que nous notons le mieux sont les plus âgées** (corrélation de
+rang +0,455 entre la part des 60 ans et plus et le score global). Cinq points de méthode à ne pas
+diluer : ① **le piège central du chapitre est nommé, et c'est celui du prix de l'eau** — il n'existe
+aucun tarif national d'EHPAD, et surtout les chiffres qui circulent ne mesurent pas le même objet :
+médiane contre moyenne, tarif hébergement seul contre hébergement plus tarif dépendance des
+GIR 5-6, places habilitées à l'aide sociale contre secteur privé commercial à prix d'entrée libre.
+Selon ce qu'on mesure, les sources consultées ce run vont d'environ 1 900 € à près de 2 700 € par
+mois pour le même pays. La page **ne publie donc aucun prix national** et renvoie au comparateur
+public des prix des EHPAD, établissement par établissement ; ② **aucune entrée en doublon** —
+l'ALD, le forfait journalier hospitalier et la CMI stationnement existaient déjà (sections santé et
+transports), MaPrimeAdapt' aussi (section rénovation énergétique), donc le chapitre y **renvoie**
+au lieu d'ouvrir une seconde définition, même précédent que la CFE rappelée depuis la zone FRR, que
+l'homonymie APL et que le quotient familial CAF contre fiscal ; ③ **la clé géographique du chapitre
+est le domicile de secours** (art. L. 122-2 CASF) : il s'acquiert par trois mois de résidence
+habituelle et se perd par trois mois d'absence, mais le séjour en établissement sanitaire ou social
+**n'est ni acquisitif ni une cause de perte**. Installer un parent dans un EHPAD d'un autre
+département pour le rapprocher de ses enfants ne transfère donc pas la charge de l'ASH : le
+département d'origine reste compétent, avec son barème, sa politique de récupération et sa façon de
+solliciter les obligés alimentaires. C'est le fait le plus contre-intuitif du chapitre et il est au
+cœur de ce que ce site raconte, à savoir qu'un déménagement déplace des droits ; ④ **une divergence
+réelle est publiée plutôt que tranchée** : la récupération de l'ASH sur succession s'exerce en
+principe **dès le premier euro et sans franchise**, là où celle de l'ASPA attend un actif net de
+l'ordre de 39 000 € en métropole, mais beaucoup de sources annoncent un seuil de 46 000 € et les
+deux se rencontrent sur le terrain parce que **la politique de recouvrement est départementale** —
+l'entrée dit donc que ce n'est pas une règle nationale mal expliquée mais une pratique locale, à
+demander par écrit au conseil départemental ; ⑤ **deux faits sont écrits comme datés et à
+revérifier**, pas comme acquis : l'expérimentation de fusion des sections soins et dépendance
+(LFSS 2024 modifiée par la LFSS 2025, du 1ᵉʳ juillet 2025 au 31 décembre 2026, **23 départements
+volontaires**, rapport au Parlement attendu avant juin 2026, généralisation envisagée à partir de
+2027 sans calendrier arrêté), qui fait que deux départements voisins ne financent pas la dépendance
+de la même façon en ce moment ; et la transformation de la réduction d'impôt de séjour en crédit
+d'impôt, **votée par les députés le 25 octobre 2025 mais non retenue dans la loi de finances pour
+2026** — le dispositif reste une réduction, ce qui est précisément pourquoi il ne rapporte rien au
+foyer non imposable, c'est-à-dire à celui qui aura besoin de l'ASH.
+⚠️ **Le fait le plus utile du run est une correction de ma propre mémoire, et elle contredit ce
+qu'écrivent encore des guides spécialisés** : l'exclusion des **petits-enfants** de l'obligation
+alimentaire au titre d'une demande d'ASH est la **loi du 8 avril 2024**, pas la loi ASV du
+28 décembre 2015 ; le premier résultat de recherche consulté affirmait au contraire que « les
+enfants et petits-enfants peuvent être appelés à contribuer ». Chiffres cités, tous réglementaires
+ou publiés et **vérifiés en ligne ce run** : plafonds APA au 1ᵉʳ janvier 2026 de 2 080,33 € (GIR 1),
+1 682,30 € (GIR 2), 1 215,99 € (GIR 3) et 811,52 € (GIR 4), indexés sur la majoration pour tierce
+personne, majoration de répit jusqu'à 583,52 €/an, participation au-delà de 933,89 € de ressources
+mensuelles ; talon GIR 5-6 de l'ordre de 5 à 7 €/jour ; hausse du tarif hébergement des
+établissements non habilités plafonnée à **0,86 %** en 2026 par l'arrêté du 24 décembre 2025, pour
+les seuls contrats en cours ; ASH à 90 % des ressources avec un minimum de l'ordre de 125 €/mois
+laissé au résident, 65 ans (60 en cas d'inaptitude au travail), donations récupérables sur dix ans ;
+réduction d'impôt de séjour de 25 % dans la limite de 10 000 €/personne/an, soit 2 500 € au plus,
+plafond diminué de l'APA, de l'aide sociale et des aides au logement perçues ; crédit d'impôt
+services à la personne de 50 % dans la limite de 12 000 €, majorée de 1 500 € par enfant à charge,
+par membre du foyer de plus de 65 ans ou par ascendant bénéficiaire de l'APA, sans dépasser
+15 000 €, et jusqu'à 18 000 € la première année d'emploi ; AJPA à 66,64 €/jour et 33,32 €/demi-
+journée au 1ᵉʳ janvier 2026, 66 jours par personne accompagnée et 264 sur une carrière depuis le
+1ᵉʳ janvier 2025. **Trois chiffres volontairement omis, faute de sources concordantes — ne pas les
+« compléter »** : le prix médian national d'un EHPAD (voir ① ci-dessus), la part de places
+habilitées à l'aide sociale par département, et la durée maximale du congé de proche aidant sur une
+carrière, l'entrée s'en tenant aux 66 jours **indemnisés** et disant que le congé peut se prolonger
+au-delà sans être payé. Aucun horaire, aucun tarif d'établissement, aucune moyenne inventée, aucun
+prix d'EHPAD commune par commune. Aucune jumelle EN à câbler : `app/[locale]/glossary` est une
+**sélection de 32 termes** pour le lecteur expatrié, pas un miroir, et la paire
+`pathAlternates("/glossaire", "/glossary")` est inchangée. 🔧 Corrigé au passage, même famille de
+dérive qu'au run précédent : l'**intro de la page énumère les chapitres couverts** et ne citait pas
+le nouveau, alors que le compteur juste au-dessus est dérivé de `SECTIONS` ; la description du
+`DefinedTermSet` a reçu GIR, APA, ASH et domicile de secours au même titre. Contrôles :
+`npx tsc --noEmit` **propre**, `npm run integrity` (garde `glossaire` : 200 termes recomptés sur la
+page), `npm run sitemap:check` (FR 29 294 URL, EN 28 887 — **inchangé**, `/glossaire` existait déjà,
+donc aucune URL neuve), `npm run hreflang:check`, plus une vérification d'encodage (densité
+d'accents **0,201** par mot contre un seuil ascii-strip de 0,09, `€` conservé ×21, aucun `m2` /
+`EUR` / `deg` ascii, aucun mojibake, aucune apostrophe typographique, **0 em-dash** pour 2 811 mots
+là où la cible R7.10 en tolérerait 14). `npm run build` **non lancé, volontairement** (cf.
+§ Commands depuis le batch 27). ⚠️ Egress : `legifrance.gouv.fr`, `service-public.fr` et
+`pour-les-personnes-agees.gouv.fr` restent hors d'atteinte en `WebFetch` depuis la routine, alors
+que **la recherche web fonctionne** : les faits ont donc été recoupés sur plusieurs résultats plutôt
+que sur une fiche unique, méthode retenue depuis le batch 48. Avant-dernière section ajoutée : « Eau, assainissement, déchets et
 réseaux » 💧 — 14 termes (prix de l'eau, régie/délégation/syndicat, part fixe et son plafond,
 raccordement obligatoire aux eaux usées, PFAC, SPANC et contrôle périodique, TEOM ou REOM, zonage
 de TEOM et taux disproportionné, tarification incitative, déchèterie, taxe d'aménagement, réseau de
@@ -2432,7 +2517,7 @@ fermés le 2026-09-16. ⚠️ Egress : `legifrance.gouv.fr`, `service-public.fr`
 donc les faits ont été recoupés sur plusieurs résultats plutôt que sur une fiche unique, méthode déjà
 retenue au batch 48. Aucune jumelle EN à câbler : `app/[locale]/glossary` est une **sélection de
 32 termes** pour le lecteur expatrié, pas un miroir, et la paire `pathAlternates("/glossaire",
-"/glossary")` est inchangée. Avant-dernière section ajoutée : « Emploi, chômage et mobilité
+"/glossary")` est inchangée. Section précédente : « Emploi, chômage et mobilité
 professionnelle » 📈 — 14 termes (zone d'emploi, taux de chômage localisé vs recensement,
 catégories A/B/C, France Travail, contrat d'engagement, ARE, démission légitime pour suivi de
 conjoint, rupture conventionnelle, clause de mobilité, aide à la mobilité, télétravail par accord
