@@ -5762,7 +5762,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul financier honnête",
-        body: "Prenons un cas type : ménage à 4 200 € nets, T3 actuel dans le 6e à 1 350 € de loyer. Pour la même surface ailleurs : 550 € à Saint-Étienne, 700 € à Valence, 900 € à Grenoble, 950 € à Chambéry, 1 250 € à Annecy. Sur 10 ans, le différentiel Saint-Étienne représente environ 96 000 € d'épargne brute. Deux coûts cachés viennent immédiatement mordre dedans : les aller-retours hebdomadaires vers Lyon (carburant et péages, autour de 200 €/mois) et une garde d'enfants moins flexible si l'employeur reste lyonnais. Le vrai gain net atterrit plutôt autour de 60 000 € — toujours significatif, mais loin du chiffre brut affiché.",
+        body: "Prenons un cas type : ménage à 4 200 € nets, T3 actuel dans le 6e à 1 380 € de loyer. Pour la même surface ailleurs : 770 € à Saint-Étienne, 900 € à Valence, 1 020 € à Grenoble, 1 100 € à Chambéry — et 1 450 € à Annecy, seule de la liste à coûter plus cher que Lyon. Sur 10 ans, le différentiel Saint-Étienne représente environ 73 000 € d'épargne brute. Deux coûts cachés viennent immédiatement mordre dedans : les aller-retours hebdomadaires vers Lyon (carburant et péages, autour de 200 €/mois) et une garde d'enfants moins flexible si l'employeur reste lyonnais. Le vrai gain net atterrit plutôt autour de 49 000 € — toujours significatif, mais loin du chiffre brut affiché.",
       },
       {
         heading: "Les erreurs classiques",
@@ -5864,7 +5864,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul, et la météo",
-        body: "Prenons un ménage à 4 200 € nets avec un T3 dans le Vieux-Lille (loyer 1 100 €). Pour la même surface ailleurs : Arras 700 €, Roubaix 700 €, Amiens 600 €, Reims 850 €. Sur 10 ans, Arras représente environ 48 000 € d'épargne. Mais on ne minimise pas le facteur météo : si la grisaille du Nord pèse vraiment, sortir du Nord (Reims, Strasbourg, plus au sud) doit primer sur l'arbitrage prix. Lille pluvieux dans un cadre apprécié, c'est tenable. Arras pluvieux dans un cadre patrimonial, c'est tenable. Mais ce n'est pas un changement de climat.",
+        body: "Prenons un ménage à 4 200 € nets avec un T3 dans le Vieux-Lille (loyer 1 080 €). Pour la même surface ailleurs : Arras 720 €, Roubaix 700 €, Amiens 900 €, Reims 900 €. Sur 10 ans, Arras représente environ 43 000 € d'épargne. Mais on ne minimise pas le facteur météo : si la grisaille du Nord pèse vraiment, sortir du Nord (Reims, Strasbourg, plus au sud) doit primer sur l'arbitrage prix. Lille pluvieux dans un cadre apprécié, c'est tenable. Arras pluvieux dans un cadre patrimonial, c'est tenable. Mais ce n'est pas un changement de climat.",
       },
     ],
     relatedCities: ["arras", "amiens", "valenciennes", "reims"],
@@ -5911,7 +5911,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul et la canicule",
-        body: "T3 centre Toulouse (Carmes, Saint-Cyprien) autour de 1 100 €. Albi 700 €, Montauban 600 €, Pau 800 €. Sur 10 ans, l'écart Albi représente environ 48 000 €. Mais surtout, si la canicule pèse, on regarde les minimales nocturnes. Albi gagne 2 à 3 °C la nuit en juillet-août. Sur dix ans, ça fait plusieurs centaines de nuits dormables récupérées, critère sous-estimé qui peut peser plus dans la balance que les 4 800 €/an d'épargne.",
+        body: "T3 centre Toulouse (Carmes, Saint-Cyprien) autour de 1 150 €. Albi 840 €, Montauban 860 €, Pau 900 €. Sur 10 ans, l'écart Albi représente environ 37 000 €. Mais surtout, si la canicule pèse, on regarde les minimales nocturnes. Albi gagne 2 à 3 °C la nuit en juillet-août. Sur dix ans, ça fait plusieurs centaines de nuits dormables récupérées, critère sous-estimé qui peut peser plus dans la balance que les 3 700 €/an d'épargne.",
       },
     ],
     relatedCities: ["albi", "montauban", "pau", "bordeaux", "montpellier", "carcassonne"],
@@ -5962,7 +5962,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul et le piège « je veux la mer »",
-        body: "Comptez un T3 Chartrons / Saint-Pierre / Capucins autour de 1 200 €. Pour les mêmes m² ailleurs : Andernos 850 €, Bayonne 950 €, La Rochelle 850 €, Périgueux 600 €, Limoges 550 €. Le piège classique consiste à signer pour la mer en imaginant y aller toutes les semaines. On vérifie d'abord combien de fois on y va dans sa vie actuelle (moins de 15 fois par an dans la plupart des cas). Sinon, l'arbitrage Périgueux ou Limoges devient plus rationnel : il libère 600 €/mois pour aller en vacances à la mer exactement où on veut.",
+        body: "Comptez un T3 Chartrons / Saint-Pierre / Capucins autour de 1 200 €. Pour les mêmes m² ailleurs : Limoges 800 €, Périgueux 720 €, La Rochelle 1 100 €, et Bayonne au même niveau que Bordeaux (1 200 €). Le piège classique consiste à signer pour la mer en imaginant y aller toutes les semaines. On vérifie d'abord combien de fois on y va dans sa vie actuelle (moins de 15 fois par an dans la plupart des cas). Sinon, l'arbitrage Périgueux ou Limoges devient plus rationnel : il libère 400 à 480 €/mois pour aller en vacances à la mer exactement où on veut.",
       },
     ],
     relatedCities: ["bayonne", "biarritz", "la-rochelle", "rochefort", "arcachon", "perigueux", "sarlat-la-caneda", "limoges", "angouleme", "niort"],
@@ -6076,7 +6076,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul sur 10 ans",
-        body: "Prenons un ménage à 4 000 € nets, avec un T3 en location à Nantes Centre (1 350 €). Pour les mêmes surfaces ailleurs : Angers 900 €, La Rochelle 1 000 €, Vannes 950 €, Saint-Nazaire 700 €. Le différentiel Nantes–Angers sur 10 ans en location atteint 54 000 €. À l'achat (pour 80 000 € de moins), l'économie sur mensualités plus apport libéré dépasse les 100 000 €. Même en soustrayant d'éventuels coûts de mobilité, le gain est massif pour les familles propriétaires.",
+        body: "Prenons un ménage à 4 000 € nets, avec un T3 en location à Nantes (1 150 €). Pour les mêmes surfaces ailleurs : Saint-Nazaire 850 €, Angers 1 000 €, La Rochelle 1 100 € — et Vannes au même niveau que Nantes (1 150 €). Le différentiel Nantes–Angers sur 10 ans en location n'atteint que 18 000 € : sur le loyer, l'écart entre les deux villes est faible, et c'est le premier résultat contre-intuitif du calcul. C'est à l'achat qu'il bascule : pour 80 000 € de moins sur la même surface, l'économie sur mensualités plus apport libéré dépasse les 100 000 €. Le gain est donc réel pour les familles qui achètent, marginal pour celles qui louent.",
       },
     ],
     relatedCities: ["angers", "la-rochelle", "rennes", "vannes", "saint-nazaire", "le-mans"],
@@ -6440,7 +6440,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les raisons qui font partir",
-        body: "Trois moteurs se dégagent clairement. D'abord le logement : un T3 dans la Krutenau ou le quartier de la Gare se loue entre 1 200 et 1 400 €/mois, et la tension locative est exacerbée par 55 000 étudiants et les fonctionnaires des institutions européennes qui tirent les prix vers le haut. Ensuite la frontalité, paradoxalement : beaucoup de salariés frontaliers (Kehl, Offenburg, Fribourg-en-Brisgau) résident à Strasbourg par confort administratif, mais paient un prix de métropole pour des commodités qu'ils n'utilisent pas. Enfin la saturation estivale et l'avant-décembre : la vieille ville est pratiquement ingérable en novembre-décembre avec les 3 millions de visiteurs du marché de Noël.",
+        body: "Trois moteurs se dégagent clairement. D'abord le logement : un T3 dans la Krutenau ou le quartier de la Gare se loue entre 1 200 et 1 400 €/mois, quand le loyer T3 de référence que nous publions pour la commune est de 1 080 €, et la tension locative est exacerbée par 55 000 étudiants et les fonctionnaires des institutions européennes qui tirent les prix vers le haut. Ensuite la frontalité, paradoxalement : beaucoup de salariés frontaliers (Kehl, Offenburg, Fribourg-en-Brisgau) résident à Strasbourg par confort administratif, mais paient un prix de métropole pour des commodités qu'ils n'utilisent pas. Enfin la saturation estivale et l'avant-décembre : la vieille ville est pratiquement ingérable en novembre-décembre avec les 3 millions de visiteurs du marché de Noël.",
       },
       {
         heading: "Colmar : la carte alsacienne premium sans la pression",
@@ -6456,7 +6456,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Nancy : la ville art-nouveau pour les amateurs de culture",
-        body: "Nancy est la ville que les architectes et les amateurs d'art mentionnent quand on parle du Grand Est. La Place Stanislas (classée UNESCO) reste l'une des plus belles places de France. L'université de Lorraine (60 000 étudiants) maintient une vie intellectuelle et associative dense. Prix autour de 2 200 €/m², loyer médian T2 autour de 620 €. TGV Paris en 1h30. Pour un couple télétravailleur attaché à la qualité architecturale et à la vie culturelle, Nancy reste probablement la meilleure offre de tout le Grand Est.",
+        body: "Nancy est la ville que les architectes et les amateurs d'art mentionnent quand on parle du Grand Est. La Place Stanislas (classée UNESCO) reste l'une des plus belles places de France. L'université de Lorraine (60 000 étudiants) maintient une vie intellectuelle et associative dense. Prix autour de 2 200 €/m², loyer médian T2 autour de 710 €. TGV Paris en 1h30. Pour un couple télétravailleur attaché à la qualité architecturale et à la vie culturelle, Nancy reste probablement la meilleure offre de tout le Grand Est.",
       },
       {
         heading: "Le calcul frontalier : Strasbourg reste-t-elle indispensable ?",
@@ -6507,7 +6507,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul honnête",
-        body: "Prenons un ménage à 3 800 € nets, avec un T3 en location à Nice quartier Musiciens (1 450 €). Pour les mêmes surfaces ailleurs : Toulon 800 €, Antibes 1 100 €, arrière-pays Vence 800 €, Montpellier 1 000 €. Le différentiel Nice–Toulon sur 10 ans en location atteint 78 000 €. À l'achat, un budget Nice de 450 000 € pour un T3 standard équivaut à 260 000 € sur la même surface à Toulon, soit une économie de 190 000 € sur le capital. Cela libère environ 700 €/mois de mensualité, ce qui couvre facilement 2 à 3 allers-retours Nice–Toulon par mois si l'emploi l'exige.",
+        body: "Prenons un ménage à 3 800 € nets, avec un T3 en location à Nice (1 500 €). Pour les mêmes surfaces ailleurs : Toulon 1 050 €, Montpellier 1 150 €, Antibes 1 450 € — Antibes ne fait donc presque rien gagner. Le différentiel Nice–Toulon sur 10 ans en location atteint 54 000 €. À l'achat, un budget Nice de 450 000 € achète environ 86 m² au prix niçois du mètre carré, surface qui revient à près de 275 000 € à Toulon, soit une économie de l'ordre de 175 000 € sur le capital. Le seul écart de loyer libère 450 €/mois, ce qui couvre facilement 2 à 3 allers-retours Nice–Toulon par mois si l'emploi l'exige.",
       },
     ],
     relatedCities: ["toulon", "antibes", "cannes", "grasse", "montpellier", "aix-en-provence"],
@@ -9779,15 +9779,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : Lyon — la fuite vers la grande ville (60 % des départs)",
-        body: "Lyon est à 45 min en TER (50 km, ligne très fréquentée). Beaucoup de Stéphanois cadres font le trajet quotidien sans déménager (TER à 8,80 € l'aller, abonnement mensuel ~210 €). Pour ceux qui déménagent vraiment : Lyon offre un marché de l'emploi 3 fois plus dense, des écoles d'ingénieurs prestigieuses (INSA, Centrale), un tissu culturel premier en province. Le revers : loyers et prix doublent (T2 ~620 €/mois à Lyon vs 380 €/mois à Saint-Étienne ; achat 4 500 €/m² Lyon centre vs 1 800 €/m² Saint-Étienne centre). Pour beaucoup de familles, le calcul ne tient pas : on garde Saint-Étienne et on subit le TER, ou on s'installe dans les communes périphériques lyonnaises (Givors, Brignais, Saint-Genis-Laval) qui offrent un compromis géographique mais ne sont plus vraiment Saint-Étienne.",
+        body: "Lyon est à 45 min en TER (50 km, ligne très fréquentée). Beaucoup de Stéphanois cadres font le trajet quotidien sans déménager (TER à 8,80 € l'aller, abonnement mensuel ~210 €). Pour ceux qui déménagent vraiment : Lyon offre un marché de l'emploi 3 fois plus dense, des écoles d'ingénieurs prestigieuses (INSA, Centrale), un tissu culturel premier en province. Le revers : loyers et prix s'envolent (T2 ~1 000 €/mois à Lyon contre 580 € à Saint-Étienne ; achat 4 500 €/m² Lyon centre contre 1 800 €/m² Saint-Étienne centre). Pour beaucoup de familles, le calcul ne tient pas : on garde Saint-Étienne et on subit le TER, ou on s'installe dans les communes périphériques lyonnaises (Givors, Brignais, Saint-Genis-Laval) qui offrent un compromis géographique mais ne sont plus vraiment Saint-Étienne.",
       },
       {
         heading: "Option 2 : la montagne — Annecy, Chambéry, Grenoble",
-        body: "Pour les Stéphanois qui aiment la nature et les sports outdoor (proximité Pilat, Massif Central), le pivot vers la Savoie/Isère est cohérent. Annecy (à 2h30 par autoroute) est très demandée, qualité de vie classée numéro 1 dans nos rankings, mais l'immobilier est inaccessible (~6 500 €/m² centre). Chambéry et Grenoble sont des cibles plus réalistes : Grenoble est techniquement comparable à Saint-Étienne en taille (~160 000 hab.), avec un emploi très différent (CEA, recherche, semi-conducteurs, alpinisme professionnel). Loyer T2 ~520 €/mois à Grenoble. Chambéry (~60 000 hab.) : ville à taille humaine, marché de l'emploi plus restreint, mais TGV vers Paris (3h) et Lyon (1h).",
+        body: "Pour les Stéphanois qui aiment la nature et les sports outdoor (proximité Pilat, Massif Central), le pivot vers la Savoie/Isère est cohérent. Annecy (à 2h30 par autoroute) est très demandée, qualité de vie classée numéro 1 dans nos rankings, mais l'immobilier est inaccessible (~6 500 €/m² centre). Chambéry et Grenoble sont des cibles plus réalistes : Grenoble est techniquement comparable à Saint-Étienne en taille (~160 000 hab.), avec un emploi très différent (CEA, recherche, semi-conducteurs, alpinisme professionnel). Loyer T2 ~750 €/mois à Grenoble. Chambéry (~60 000 hab.) : ville à taille humaine, marché de l'emploi plus restreint, mais TGV vers Paris (3h) et Lyon (1h).",
       },
       {
         heading: "Option 3 : retour à la mer — Marseille, Montpellier, Nice",
-        body: "Profil-type : Stéphanois originaire du Sud ou rêvant de Méditerranée. Marseille (~2h en TGV) est l'option la plus abordable (T2 ~570 €/mois centre-ville, à condition d'éviter certains arrondissements). Montpellier est plus chère (~520 €/mois T2) mais offre une qualité de vie étudiante+sun rare en France. Nice est sur-cotée, prix très élevés, tissu d'emploi étroit hors tourisme et santé. Le risque : sous-estimer l'éloignement (départ famille/amis stéphanois compliqué, retour ponctuel coûteux en TGV ou avion). Pour beaucoup, c'est un projet de fin de carrière ou de retraite plutôt qu'une mobilité professionnelle.",
+        body: "Profil-type : Stéphanois originaire du Sud ou rêvant de Méditerranée. Marseille (~2h en TGV) est l'option la plus abordable (T2 ~820 €/mois, à condition d'éviter certains arrondissements). Montpellier est plus chère (~850 €/mois T2) mais offre une qualité de vie étudiante+sun rare en France. Nice est sur-cotée, prix très élevés, tissu d'emploi étroit hors tourisme et santé. Le risque : sous-estimer l'éloignement (départ famille/amis stéphanois compliqué, retour ponctuel coûteux en TGV ou avion). Pour beaucoup, c'est un projet de fin de carrière ou de retraite plutôt qu'une mobilité professionnelle.",
       },
       {
         heading: "Option 4 : rester dans la région — Roanne, Saint-Chamond, Firminy",
@@ -9832,7 +9832,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 2 : Strasbourg — la capitale régionale",
-        body: "Strasbourg est à 1h en TER de Mulhouse (~25 €). Beaucoup de Mulhousiens diplômés se tournent vers Strasbourg pour : (1) un marché de l'emploi cadre plus dense, (2) une image plus valorisée socialement, (3) la proximité Europe (institutions européennes). Strasbourg offre une qualité de vie reconnue (notes élevées dans nos classements). Inconvénient : immobilier ~30 % plus cher qu'à Mulhouse (T2 ~520 €/mois Strasbourg vs ~395 €/mois Mulhouse). La trajectoire classique : étudiant à Strasbourg, retour à Mulhouse pour acheter dans le quartier où on a grandi, ou inversement, départ vers Strasbourg à 30 ans avec famille.",
+        body: "Strasbourg est à 1h en TER de Mulhouse (~25 €). Beaucoup de Mulhousiens diplômés se tournent vers Strasbourg pour : (1) un marché de l'emploi cadre plus dense, (2) une image plus valorisée socialement, (3) la proximité Europe (institutions européennes). Strasbourg offre une qualité de vie reconnue (notes élevées dans nos classements). Inconvénient : immobilier ~40 % plus cher qu'à Mulhouse (T2 ~800 €/mois à Strasbourg contre ~580 €/mois à Mulhouse). La trajectoire classique : étudiant à Strasbourg, retour à Mulhouse pour acheter dans le quartier où on a grandi, ou inversement, départ vers Strasbourg à 30 ans avec famille.",
       },
       {
         heading: "Option 3 : Colmar — le compromis Alsace",
@@ -10018,7 +10018,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-05-02",
     intro:
-      "Le Havre est une ville singulière : centre Perret classé UNESCO, port de commerce parmi les plus importants d'Europe, immobilier parmi les plus abordables des grandes villes françaises (T2 ~440 €/mois centre, achat ~2 100 €/m²). Mais l'agglomération a perdu 20 000 habitants depuis 1975 et les flux de départ vers Rouen, Caen et Paris restent marqués. Ce guide explique pourquoi, où vont vraiment les Havrais qui partent, et ce que chaque option coûte.",
+      "Le Havre est une ville singulière : centre Perret classé UNESCO, port de commerce parmi les plus importants d'Europe, immobilier parmi les plus abordables des grandes villes françaises (T2 ~650 €/mois, achat ~2 100 €/m²). Mais l'agglomération a perdu 20 000 habitants depuis 1975 et les flux de départ vers Rouen, Caen et Paris restent marqués. Ce guide explique pourquoi, où vont vraiment les Havrais qui partent, et ce que chaque option coûte.",
     sections: [
       {
         heading: "Pourquoi on quitte Le Havre",
@@ -10026,19 +10026,19 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : Rouen — la métropole normande (~40 % des départs)",
-        body: "Rouen est à 1h en TER (87 km) ou 50 min en voiture. Beaucoup d'Havrais font le trajet quotidien pour le travail sans déménager (TER ~12 €, abonnement ~225 €/mois). Pour ceux qui s'installent vraiment : Rouen offre un marché de l'emploi cadre 2,5 fois plus dense (santé, agro, industrie pharma, université), un tissu culturel plus profond (Opéra, musées, scène underground vivace). Coût immobilier comparable (T2 ~510 €/mois Rouen centre vs 440 € Le Havre), achat ~2 600 €/m² centre. Le climat reste normand (gris, humide) mais sans le vent océanique. Pour les familles avec enfants en âge scolaire, Rouen offre plus d'écoles d'ingénieurs et de filières spécialisées.",
+        body: "Rouen est à 1h en TER (87 km) ou 50 min en voiture. Beaucoup d'Havrais font le trajet quotidien pour le travail sans déménager (TER ~12 €, abonnement ~225 €/mois). Pour ceux qui s'installent vraiment : Rouen offre un marché de l'emploi cadre 2,5 fois plus dense (santé, agro, industrie pharma, université), un tissu culturel plus profond (Opéra, musées, scène underground vivace). Coût immobilier comparable (T2 ~720 €/mois à Rouen contre 650 € au Havre), achat ~2 600 €/m² centre. Le climat reste normand (gris, humide) mais sans le vent océanique. Pour les familles avec enfants en âge scolaire, Rouen offre plus d'écoles d'ingénieurs et de filières spécialisées.",
       },
       {
         heading: "Option 2 : Caen — l'autre Normandie (~15 % des départs)",
-        body: "Caen (à 1h30 en voiture, 2h en train via Rouen) est l'alternative basse-normande : ville universitaire 110 000 hab., qualité de vie reconnue, proximité plages du Débarquement et campagne du Bessin. Tissu d'emploi : CHU important, recherche (GANIL, accélérateur de particules), enseignement supérieur, services aux entreprises. Immobilier ~2 700 €/m² centre, T2 ~510 €/mois. Climat marin mais moins venteux et moins gris que Le Havre. Limite : Caen est plus éloignée de Paris (~2h en train) que Rouen (~1h15), ce qui matter si on garde un lien professionnel parisien.",
+        body: "Caen (à 1h30 en voiture, 2h en train via Rouen) est l'alternative basse-normande : ville universitaire 110 000 hab., qualité de vie reconnue, proximité plages du Débarquement et campagne du Bessin. Tissu d'emploi : CHU important, recherche (GANIL, accélérateur de particules), enseignement supérieur, services aux entreprises. Immobilier ~2 700 €/m² centre, T2 ~700 €/mois. Climat marin mais moins venteux et moins gris que Le Havre. Limite : Caen est plus éloignée de Paris (~2h en train) que Rouen (~1h15), ce qui matter si on garde un lien professionnel parisien.",
       },
       {
         heading: "Option 3 : Paris et la grande couronne (~20 % des départs)",
-        body: "Le Havre-Paris en train direct (intercités) prend ~2h15, trop long pour un commuting quotidien. Les Havrais qui visent Paris déménagent vraiment, le plus souvent vers les Yvelines ou le Val-d'Oise (Mantes-la-Jolie, Cergy, Poissy) pour conserver un coût de logement supportable. Gain salarial moyen estimé : +25 % (offre cadre démultipliée). Perte de pouvoir d'achat immobilier : 50–60 % (T2 ~720 €/mois Mantes vs 440 € Le Havre, et bien plus à Paris intramuros). Ce déplacement n'a de sens que si la trajectoire de carrière le justifie clairement.",
+        body: "Le Havre-Paris en train direct (intercités) prend ~2h15, trop long pour un commuting quotidien. Les Havrais qui visent Paris déménagent vraiment, le plus souvent vers les Yvelines ou le Val-d'Oise (Mantes-la-Jolie, Cergy, Poissy) pour conserver un coût de logement supportable. Gain salarial moyen estimé : +25 % (offre cadre démultipliée). Perte de pouvoir d'achat immobilier nette (T2 ~800 €/mois à Mantes-la-Jolie contre 650 € au Havre, et bien plus à Paris intramuros). Ce déplacement n'a de sens que si la trajectoire de carrière le justifie clairement.",
       },
       {
         heading: "Option 4 : la côte normande — Deauville, Honfleur, Étretat",
-        body: "Pour ceux qui aiment Le Havre pour la mer mais veulent quitter l'industriel : la côte fleurie offre un cadre très différent à 30–60 min. Deauville (~3 800 hab.) est élitiste et chère (achat ~6 800 €/m² centre, T2 ~720 €/mois), faite pour les retraités aisés et résidences secondaires. Honfleur (~7 500 hab., côté Calvados) est plus accessible (~4 500 €/m²), villes d'artistes, tourisme important. Étretat et Fécamp (côté Seine-Maritime) sont des compromis Havrais, accessibles en voiture quotidienne, prix maîtrisés, ambiance village balnéaire. Limite : ces villes-là ne règlent pas le problème «emploi» ; elles ne marchent que pour télétravailleurs ou retraités.",
+        body: "Pour ceux qui aiment Le Havre pour la mer mais veulent quitter l'industriel : la côte fleurie offre un cadre très différent à 30–60 min. Deauville (~3 800 hab.) est élitiste et chère (achat ~6 800 €/m² centre ; nous ne publions pas de loyer de référence pour la commune), faite pour les retraités aisés et résidences secondaires. Honfleur (~7 500 hab., côté Calvados) est plus accessible (~4 500 €/m²), villes d'artistes, tourisme important. Étretat et Fécamp (côté Seine-Maritime) sont des compromis Havrais, accessibles en voiture quotidienne, prix maîtrisés, ambiance village balnéaire. Limite : ces villes-là ne règlent pas le problème «emploi» ; elles ne marchent que pour télétravailleurs ou retraités.",
       },
       {
         heading: "Le calcul honnête : qui gagne vraiment à partir ?",
@@ -10067,7 +10067,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-02-01",
     intro:
-      "Tours est l'une des villes moyennes les plus prisées de France : TGV Paris en 1h05, patrimoine UNESCO Loire, qualité de vie classée régulièrement dans le top 10 français. Mais l'attractivité a fait grimper les prix (achat ~3 600 €/m² centre, T2 ~570 €/mois) et le marché de l'emploi cadre reste modeste pour une métropole de 350 000 hab. Chaque année, environ 4 500 Tourangeaux quittent l'agglomération. Voici où ils vont et pourquoi.",
+      "Tours est l'une des villes moyennes les plus prisées de France : TGV Paris en 1h05, patrimoine UNESCO Loire, qualité de vie classée régulièrement dans le top 10 français. Mais l'attractivité a fait grimper les prix (achat ~3 600 €/m² centre, T2 ~700 €/mois) et le marché de l'emploi cadre reste modeste pour une métropole de 350 000 hab. Chaque année, environ 4 500 Tourangeaux quittent l'agglomération. Voici où ils vont et pourquoi.",
     sections: [
       {
         heading: "Pourquoi on quitte Tours",
@@ -10079,11 +10079,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 2 : Nantes (~12 % des départs)",
-        body: "Nantes (à 1h45 en TGV) attire les Tourangeaux pour son dynamisme : marché de l'emploi cadre plus dense (numérique, agro, naval, biotech), scène culturelle plus engagée, proximité Atlantique. Coût immobilier comparable (~3 800 €/m² centre Nantes vs 3 600 € Tours), loyer T2 similaire (~590 €/mois Nantes). La principale différence : un marché du travail 3× plus profond et une ville plus jeune (~40 % de moins de 30 ans). Limite : Nantes n'a pas le TGV Paris en 1h ; elle est à 2h05, choisir Nantes c'est s'éloigner de Paris.",
+        body: "Nantes (à 1h45 en TGV) attire les Tourangeaux pour son dynamisme : marché de l'emploi cadre plus dense (numérique, agro, naval, biotech), scène culturelle plus engagée, proximité Atlantique. Coût immobilier comparable (~3 800 €/m² centre Nantes vs 3 600 € Tours), loyer T2 plus élevé (~850 €/mois à Nantes contre 700 € à Tours). La principale différence : un marché du travail 3× plus profond et une ville plus jeune (~40 % de moins de 30 ans). Limite : Nantes n'a pas le TGV Paris en 1h ; elle est à 2h05, choisir Nantes c'est s'éloigner de Paris.",
       },
       {
         heading: "Option 3 : Orléans (~10 % des départs)",
-        body: "Orléans (à 1h05 en voiture, 1h20 en train) est l'alternative discrète : prix immobiliers 25 % inférieurs à Tours (~2 700 €/m² centre, T2 ~480 €/mois), marché de l'emploi cadre presque équivalent (recherche CNRS, BRGM, pharma, IBM), TGV Paris ~1h10 (en passant par Les Aubrais). Moins de patrimoine touristique mais une qualité de vie réelle, moins exposée à la saisonnalité. Beaucoup de Tourangeaux qui veulent moins payer pour le même cadre de vie choisissent Orléans.",
+        body: "Orléans (à 1h05 en voiture, 1h20 en train) est l'alternative discrète : prix immobiliers inférieurs à l'achat mais loyer équivalent (~2 700 €/m² centre, T2 ~700 €/mois), marché de l'emploi cadre presque équivalent (recherche CNRS, BRGM, pharma, IBM), TGV Paris ~1h10 (en passant par Les Aubrais). Moins de patrimoine touristique mais une qualité de vie réelle, moins exposée à la saisonnalité. Beaucoup de Tourangeaux qui veulent moins payer pour le même cadre de vie choisissent Orléans.",
       },
       {
         heading: "Option 4 : la campagne tourangelle — Amboise, Vouvray, Loches",
@@ -10120,11 +10120,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Pourquoi on quitte Angers",
-        body: "Trois motivations principales : (1) Plafond cadre, au-delà de l'agro-alimentaire (Bouvet-Ladubay, agro-végétal), de l'IT et de l'université, les opportunités tertiaires supérieures se raréfient. Les jeunes cadres en finance, conseil, marketing partent vers Paris ou Nantes. (2) Saturation immobilière, Angers a vu ses prix grimper +35 % sur 5 ans (T2 ~490 €/mois, achat ~3 100 €/m² centre). La rareté du foncier autour du Maine et de la Loire pèse. (3) Effet «trop petit», beaucoup d'Angevins jeunes diplômés trouvent la ville rapidement étroite (mêmes restaurants, mêmes sorties, mêmes événements).",
+        body: "Trois motivations principales : (1) Plafond cadre, au-delà de l'agro-alimentaire (Bouvet-Ladubay, agro-végétal), de l'IT et de l'université, les opportunités tertiaires supérieures se raréfient. Les jeunes cadres en finance, conseil, marketing partent vers Paris ou Nantes. (2) Saturation immobilière, Angers a vu ses prix grimper +35 % sur 5 ans (T2 ~750 €/mois, achat ~3 100 €/m² centre). La rareté du foncier autour du Maine et de la Loire pèse. (3) Effet «trop petit», beaucoup d'Angevins jeunes diplômés trouvent la ville rapidement étroite (mêmes restaurants, mêmes sorties, mêmes événements).",
       },
       {
         heading: "Option 1 : Nantes (~30 % des départs)",
-        body: "Nantes est à 1h en train (90 km) et capte massivement les départs angevins. Marché de l'emploi 3× plus dense (numérique, agro, naval, biotech), tissu culturel plus large (Voyage à Nantes, scène musicale), ouverture océanique. Coût immobilier supérieur d'environ 20 % (T2 ~590 €/mois centre Nantes vs 490 € Angers ; achat ~3 800 €/m² vs 3 100 €). Beaucoup d'Angevins font le trajet quotidien sans déménager (TER abonnement ~225 €/mois). Pour ceux qui s'installent : gain de carrière net en moyenne, mais perte d'identité tranquille angevine, Nantes est nettement plus métropolitaine.",
+        body: "Nantes est à 1h en train (90 km) et capte massivement les départs angevins. Marché de l'emploi 3× plus dense (numérique, agro, naval, biotech), tissu culturel plus large (Voyage à Nantes, scène musicale), ouverture océanique. Coût immobilier supérieur d'environ 13 % sur le loyer et 23 % à l'achat (T2 ~850 €/mois à Nantes contre 750 € à Angers ; achat ~3 800 €/m² contre 3 100 €). Beaucoup d'Angevins font le trajet quotidien sans déménager (TER abonnement ~225 €/mois). Pour ceux qui s'installent : gain de carrière net en moyenne, mais perte d'identité tranquille angevine, Nantes est nettement plus métropolitaine.",
       },
       {
         heading: "Option 2 : Paris (~18 % des départs)",
@@ -10132,7 +10132,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 3 : Le Mans, Laval — l'arrière-pays accessible",
-        body: "Le Mans (~140 000 hab., à 45 min en TGV d'Angers, 55 min de Paris) propose un cadre comparable à Angers en plus modeste : prix 30 % plus bas (T2 ~390 €/mois, achat ~2 100 €/m²), même qualité de vie urbaine sans la pression touristique. Laval (~50 000 hab.) est plus rurale, prix très bas, marché de l'emploi étroit. Ces options conviennent aux télétravailleurs ou aux profils administratifs/publics moins dépendants du marché cadre privé.",
+        body: "Le Mans (~140 000 hab., à 45 min en TGV d'Angers, 55 min de Paris) propose un cadre comparable à Angers en plus modeste : prix plus bas, surtout à l'achat (T2 ~650 €/mois, achat ~2 100 €/m²), même qualité de vie urbaine sans la pression touristique. Laval (~50 000 hab.) est plus rurale, prix très bas, marché de l'emploi étroit. Ces options conviennent aux télétravailleurs ou aux profils administratifs/publics moins dépendants du marché cadre privé.",
       },
       {
         heading: "Option 4 : campagne du Maine-et-Loire — Saumur, Cholet, Segré",
@@ -10165,7 +10165,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-02-26",
     intro:
-      "Brest a le port militaire, la rade, le climat océanique pur et un immobilier parmi les plus abordables des grandes villes françaises (T2 ~430 €/mois centre, achat ~2 100 €/m²). Mais la pointe bretonne paie son éloignement : TGV Paris en 3h35, marché de l'emploi cadre dominé par la Défense et la recherche, pluviométrie soutenue. Chaque année, ~3 500 Brestois quittent l'agglomération. Voici où.",
+      "Brest a le port militaire, la rade, le climat océanique pur et un immobilier parmi les plus abordables des grandes villes françaises (T2 ~650 €/mois, achat ~2 100 €/m²). Mais la pointe bretonne paie son éloignement : TGV Paris en 3h35, marché de l'emploi cadre dominé par la Défense et la recherche, pluviométrie soutenue. Chaque année, ~3 500 Brestois quittent l'agglomération. Voici où.",
     sections: [
       {
         heading: "Pourquoi on quitte Brest",
@@ -10173,7 +10173,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : Rennes (~30 % des départs)",
-        body: "Rennes (à 2h en TGV, 2h30 en voiture) est la grosse capture des départs brestois. Marché de l'emploi cadre 4× plus dense (numérique, télécoms, biotech, services aux entreprises), tissu universitaire majeur, climat un peu moins humide, TGV Paris 1h25 (vs 3h35 de Brest). Coût immobilier supérieur d'environ 50 % (T2 ~580 €/mois Rennes vs 430 € Brest, achat ~3 600 €/m² vs 2 100 €). Pour la plupart des Brestois cadres, le saut Rennes représente une vraie ouverture de carrière sans rupture identitaire bretonne.",
+        body: "Rennes (à 2h en TGV, 2h30 en voiture) est la grosse capture des départs brestois. Marché de l'emploi cadre 4× plus dense (numérique, télécoms, biotech, services aux entreprises), tissu universitaire majeur, climat un peu moins humide, TGV Paris 1h25 (vs 3h35 de Brest). Coût immobilier supérieur d'environ 25 % sur le loyer et nettement plus à l'achat (T2 ~820 €/mois à Rennes contre 650 € à Brest, achat ~3 600 €/m² contre 2 100 €). Pour la plupart des Brestois cadres, le saut Rennes représente une vraie ouverture de carrière sans rupture identitaire bretonne.",
       },
       {
         heading: "Option 2 : Nantes (~15 % des départs)",
@@ -10185,7 +10185,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 4 : la côte sud — Quimper, Lorient, Vannes",
-        body: "Pour les Brestois qui veulent garder la mer et la Bretagne en quittant la grisaille : la côte sud Morbihan offre +20 jours de soleil/an, des prix modérément inférieurs, et un climat plus doux. Quimper (~63 000 hab., à 1h de Brest) : patrimoine, prix très bas (T2 ~390 €/mois), services adaptés ; Lorient (~57 000 hab., à 2h) : port et reconversion industrielle, prix accessibles ; Vannes (~55 000 hab., à 2h30, golfe du Morbihan) : qualité de vie remarquable mais prix grimpants (T2 ~510 €/mois). Profil-type : famille brestoise voulant moins de pluie sans changer de région.",
+        body: "Pour les Brestois qui veulent garder la mer et la Bretagne en quittant la grisaille : la côte sud Morbihan offre +20 jours de soleil/an et un climat plus doux, mais des loyers qui ne sont pas inférieurs à ceux de Brest. Quimper (~63 000 hab., à 1h de Brest) : patrimoine, loyers un peu au-dessus de Brest (T2 ~700 €/mois), services adaptés ; Lorient (~57 000 hab., à 2h) : port et reconversion industrielle, loyers comparables à ceux de Brest (T2 ~680 €/mois) ; Vannes (~55 000 hab., à 2h30, golfe du Morbihan) : qualité de vie remarquable mais prix grimpants (T2 ~850 €/mois). Profil-type : famille brestoise voulant moins de pluie sans changer de région.",
       },
       {
         heading: "Le calcul honnête : qui gagne vraiment à partir ?",
@@ -10214,7 +10214,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-03-31",
     intro:
-      "Caen est l'une des villes moyennes les plus équilibrées de France : 110 000 hab. au centre, 270 000 dans l'agglo, mer à 20 min, prix immobiliers raisonnables (T2 ~510 €/mois centre, achat ~2 700 €/m²), CHU, université reconnue. Mais le tissu d'emploi cadre tertiaire reste limité hors santé, recherche et services publics. Voici où vont les Caennais qui partent.",
+      "Caen est l'une des villes moyennes les plus équilibrées de France : 110 000 hab. au centre, 270 000 dans l'agglo, mer à 20 min, prix immobiliers raisonnables (T2 ~700 €/mois, achat ~2 700 €/m²), CHU, université reconnue. Mais le tissu d'emploi cadre tertiaire reste limité hors santé, recherche et services publics. Voici où vont les Caennais qui partent.",
     sections: [
       {
         heading: "Pourquoi on quitte Caen",
@@ -10230,7 +10230,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 3 : la côte normande — Cherbourg, Bayeux, Deauville",
-        body: "Pour les Caennais qui veulent rester en Basse-Normandie en quittant la pression urbaine, plusieurs options se dessinent. Cherbourg (~36 000 hab., à 1h15 en train) joue le port, la marine et des prix très bas (T2 ~370 €/mois), avec un tissu d'emploi maritime spécifique. Bayeux (~14 000 hab., à 30 min) mise sur le patrimoine UNESCO, des prix accessibles et le calme rural. Deauville et Trouville (à 45 min) restent élitistes et chers (T2 ~720 €/mois), faits pour les résidences secondaires ou les télétravailleurs. Saint-Lô (~19 000 hab., à 1h) est une préfecture rurale aux services réduits.",
+        body: "Pour les Caennais qui veulent rester en Basse-Normandie en quittant la pression urbaine, plusieurs options se dessinent. Cherbourg (~36 000 hab., à 1h15 en train) joue le port, la marine et des loyers plus bas (T2 ~620 €/mois), avec un tissu d'emploi maritime spécifique. Bayeux (~14 000 hab., à 30 min) mise sur le patrimoine UNESCO, des prix accessibles et le calme rural. Deauville et Trouville (à 45 min) restent élitistes et chers — nous ne publions pas de loyer de référence pour ces deux communes —, faits pour les résidences secondaires ou les télétravailleurs. Saint-Lô (~19 000 hab., à 1h) est une préfecture rurale aux services réduits.",
       },
       {
         heading: "Option 4 : la campagne du Calvados — Bessin, pays d'Auge, Suisse normande",
@@ -10263,7 +10263,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-03-31",
     intro:
-      "Avignon a le Palais des Papes, le Festival mondialement connu, le TGV Méditerranée (Paris en 2h40), le soleil provençal et un immobilier modéré (T2 ~510 €/mois intra-muros, achat ~3 100 €/m²). Mais la ville (~90 000 hab. centre, ~340 000 agglo) souffre d'une saisonnalité dure (juillet bondé, hiver creux) et d'un marché cadre étroit. Chaque année ~3 200 Avignonnais quittent l'agglomération.",
+      "Avignon a le Palais des Papes, le Festival mondialement connu, le TGV Méditerranée (Paris en 2h40), le soleil provençal et un immobilier modéré (T2 ~750 €/mois, achat ~3 100 €/m²). Mais la ville (~90 000 hab. centre, ~340 000 agglo) souffre d'une saisonnalité dure (juillet bondé, hiver creux) et d'un marché cadre étroit. Chaque année ~3 200 Avignonnais quittent l'agglomération.",
     sections: [
       {
         heading: "Pourquoi on quitte Avignon",
@@ -10271,7 +10271,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : Aix-en-Provence (~25 % des départs)",
-        body: "Aix (à 1h en voiture, 1h15 en train) capte massivement les départs avignonnais. Le marché cadre y est 2,5× plus dense (énergie, conseil, recherche, université), la qualité de vie reconnue, le climat plus stable et la scène étudiante très active. Le coût immobilier est supérieur (~5 400 €/m² centre Aix vs 3 100 € Avignon, T2 ~770 €/mois vs 510 €). Pour beaucoup d'Avignonnais cadres, Aix représente une vraie ouverture professionnelle au prix d'un effort budgétaire. La limite : Aix est snobé par certains pour son côté «bobo provençal», et la saisonnalité touristique existe aussi (juillet plein, mais répartie sur plus de zones).",
+        body: "Aix (à 1h en voiture, 1h15 en train) capte massivement les départs avignonnais. Le marché cadre y est 2,5× plus dense (énergie, conseil, recherche, université), la qualité de vie reconnue, le climat plus stable et la scène étudiante très active. Le coût immobilier est supérieur (~5 400 €/m² centre Aix vs 3 100 € Avignon, T2 ~1 050 €/mois vs 750 €). Pour beaucoup d'Avignonnais cadres, Aix représente une vraie ouverture professionnelle au prix d'un effort budgétaire. La limite : Aix est snobé par certains pour son côté «bobo provençal», et la saisonnalité touristique existe aussi (juillet plein, mais répartie sur plus de zones).",
       },
       {
         heading: "Option 2 : Marseille (~20 % des départs)",
@@ -10279,7 +10279,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 3 : Montpellier et Nîmes (~15 % des départs)",
-        body: "Montpellier (à 1h30 en voiture, 1h en train) est l'option Occitanie : ville jeune et dynamique (~50 % de moins de 30 ans), marché cadre plus large (numérique, biotech, université), climat très ensoleillé. Le coût immobilier y est de ~3 700 €/m² au centre, avec un T2 à ~520 €/mois. Nîmes (à 45 min) en est l'alternative plus modeste, avec des prix très bas (T2 ~400 €/mois, achat ~2 200 €/m²), un patrimoine romain remarquable et un marché cadre étroit mais ouvert sur Montpellier en pendulaire. Pour un Avignonnais cherchant moins de saisonnalité, Nîmes est un bon compromis.",
+        body: "Montpellier (à 1h30 en voiture, 1h en train) est l'option Occitanie : ville jeune et dynamique (~50 % de moins de 30 ans), marché cadre plus large (numérique, biotech, université), climat très ensoleillé. Le coût immobilier y est de ~3 700 €/m² au centre, avec un T2 à ~850 €/mois. Nîmes (à 45 min) en est l'alternative plus modeste, avec des prix plus bas, surtout à l'achat (T2 ~720 €/mois, achat ~2 200 €/m²), un patrimoine romain remarquable et un marché cadre étroit mais ouvert sur Montpellier en pendulaire. Pour un Avignonnais cherchant moins de saisonnalité, Nîmes est un bon compromis.",
       },
       {
         heading: "Option 4 : campagne provençale — Luberon, Mont Ventoux, Camargue",
@@ -10312,7 +10312,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-02-10",
     intro:
-      "Limoges est l'une des grandes villes les plus accessibles de France : achat ~1 700 €/m² centre, T2 ~400 €/mois, cadre vert reconnu (BBC label «ville verte»), porcelaine et patrimoine. Mais l'agglomération (~280 000 hab.) perd des habitants depuis vingt ans et le marché de l'emploi cadre reste contraint. Chaque année ~2 800 Limougeauds quittent l'agglo.",
+      "Limoges est l'une des grandes villes les plus accessibles de France : achat ~1 700 €/m² centre, T2 ~600 €/mois, cadre vert reconnu (BBC label «ville verte»), porcelaine et patrimoine. Mais l'agglomération (~280 000 hab.) perd des habitants depuis vingt ans et le marché de l'emploi cadre reste contraint. Chaque année ~2 800 Limougeauds quittent l'agglo.",
     sections: [
       {
         heading: "Pourquoi on quitte Limoges",
@@ -10320,11 +10320,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : Bordeaux (~25 % des départs)",
-        body: "Bordeaux (à 2h30 en train, 2h30 en voiture) est la première destination : marché cadre 4× plus dense (numérique, vin, aéronautique, biotech), climat plus doux, ouverture océanique en 1h. Le coût immobilier y est 2,5× supérieur (achat ~4 800 €/m² centre Bordeaux vs 1 700 € Limoges, T2 ~720 €/mois vs 400 €). Pour beaucoup de Limougeauds cadres, le saut est financier mais professionnellement décisif.",
+        body: "Bordeaux (à 2h30 en train, 2h30 en voiture) est la première destination : marché cadre 4× plus dense (numérique, vin, aéronautique, biotech), climat plus doux, ouverture océanique en 1h. Le coût immobilier y est près de trois fois supérieur à l'achat et de moitié plus élevé en loyer (achat ~4 800 €/m² centre Bordeaux vs 1 700 € Limoges, T2 ~900 €/mois vs 600 €). Pour beaucoup de Limougeauds cadres, le saut est financier mais professionnellement décisif.",
       },
       {
         heading: "Option 2 : Poitiers et Clermont-Ferrand (~20 % des départs)",
-        body: "Poitiers (~90 000 hab., à 1h45 en train) est une alternative équilibrée : université active, prix modérés (T2 ~450 €/mois, achat ~2 100 €/m²), TGV Paris en 1h20. Clermont-Ferrand (~150 000 hab., à 2h30 en voiture) joue la carte Michelin et la recherche, avec une taille comparable à Limoges mais un marché cadre plus large et le Massif Central pour décor. Ces deux villes sont des compromis pour les Limougeauds voulant peu de rupture financière.",
+        body: "Poitiers (~90 000 hab., à 1h45 en train) est une alternative équilibrée : université active, prix modérés (T2 ~660 €/mois, achat ~2 100 €/m²), TGV Paris en 1h20. Clermont-Ferrand (~150 000 hab., à 2h30 en voiture) joue la carte Michelin et la recherche, avec une taille comparable à Limoges mais un marché cadre plus large et le Massif Central pour décor. Ces deux villes sont des compromis pour les Limougeauds voulant peu de rupture financière.",
       },
       {
         heading: "Option 3 : Paris (~15 % des départs)",
@@ -10332,7 +10332,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 4 : la campagne du Limousin et de la Corrèze",
-        body: "Beaucoup de Limougeauds quittent la ville sans quitter la région. Brive-la-Gaillarde (~46 000 hab., à 1h en voiture) est une sous-préfecture corrézienne dynamique, aux prix très bas (T2 ~360 €/mois, achat ~1 500 €/m²) et au tissu marchand vivant. Tulle (~14 000 hab.) est une préfecture rurale aux services réduits. Saint-Yrieix-la-Perche, Eymoutiers ou Saint-Léonard-de-Noblat sont des bourgs limousins typiques, aux prix dérisoires et à la qualité de vie nature, mais aux services fragiles. Plutôt pour télétravailleurs et retraités. Vérifiez la fibre et la 4G avant de signer.",
+        body: "Beaucoup de Limougeauds quittent la ville sans quitter la région. Brive-la-Gaillarde (~46 000 hab., à 1h en voiture) est une sous-préfecture corrézienne dynamique, aux prix comparables à ceux de Limoges (T2 ~580 €/mois, achat ~2 000 €/m²) et au tissu marchand vivant. Tulle (~14 000 hab.) est une préfecture rurale aux services réduits. Saint-Yrieix-la-Perche, Eymoutiers ou Saint-Léonard-de-Noblat sont des bourgs limousins typiques, aux prix dérisoires et à la qualité de vie nature, mais aux services fragiles. Plutôt pour télétravailleurs et retraités. Vérifiez la fibre et la 4G avant de signer.",
       },
       {
         heading: "Le calcul honnête",
@@ -10361,7 +10361,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-01-01",
     intro:
-      "Besançon est une ville-bijou : citadelle Vauban UNESCO, méandres du Doubs, qualité de vie reconnue, marché immobilier modéré (T2 ~470 €/mois, achat ~2 400 €/m²). Mais avec ~115 000 hab. centre et ~250 000 agglo, le marché de l'emploi cadre reste étroit hors microtechnique, santé et université. ~2 500 Bisontins quittent chaque année.",
+      "Besançon est une ville-bijou : citadelle Vauban UNESCO, méandres du Doubs, qualité de vie reconnue, marché immobilier modéré (T2 ~680 €/mois, achat ~2 400 €/m²). Mais avec ~115 000 hab. centre et ~250 000 agglo, le marché de l'emploi cadre reste étroit hors microtechnique, santé et université. ~2 500 Bisontins quittent chaque année.",
     sections: [
       {
         heading: "Pourquoi on quitte Besançon",
@@ -10369,7 +10369,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : Dijon (~20 % des départs)",
-        body: "Dijon (à 1h en TER, 90 km) est la grande sœur bourguignonne : marché cadre 2× plus dense (santé, agro, recherche, droit), tissu universitaire majeur, TGV Paris en 1h35. Le coût immobilier est similaire (T2 ~510 €/mois, achat ~2 700 €/m²). Pour beaucoup de Bisontins cadres, Dijon offre une vraie ouverture sans saut financier.",
+        body: "Dijon (à 1h en TER, 90 km) est la grande sœur bourguignonne : marché cadre 2× plus dense (santé, agro, recherche, droit), tissu universitaire majeur, TGV Paris en 1h35. Le coût immobilier est similaire (T2 ~720 €/mois, achat ~2 700 €/m²). Pour beaucoup de Bisontins cadres, Dijon offre une vraie ouverture sans saut financier.",
       },
       {
         heading: "Option 2 : Suisse frontalière (~25 % des départs)",
@@ -10381,7 +10381,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 4 : Jura, Haut-Doubs, Pays de Montbéliard",
-        body: "Pour les Bisontins voulant la nature jurassienne sans la ville, plusieurs options existent. Pontarlier (~17 000 hab., à 1h) est la porte du Haut-Doubs, près de la frontière, avec une qualité de vie nordique. Lons-le-Saunier (~17 000 hab.) est la capitale jurassienne, aux prix très bas (T2 ~330 €/mois), dans le cadre du Revermont. Montbéliard (~25 000 hab., à 1h) compte un site PSA en reconversion, reste accessible et ouvre sur l'Alsace. Plutôt pour télétravailleurs et profils industrie.",
+        body: "Pour les Bisontins voulant la nature jurassienne sans la ville, plusieurs options existent. Pontarlier (~17 000 hab., à 1h) est la porte du Haut-Doubs, près de la frontière, avec une qualité de vie nordique. Lons-le-Saunier (~17 000 hab.) est la capitale jurassienne, aux prix plus bas (T2 ~610 €/mois), dans le cadre du Revermont. Montbéliard (~25 000 hab., à 1h) compte un site PSA en reconversion, reste accessible et ouvre sur l'Alsace. Plutôt pour télétravailleurs et profils industrie.",
       },
       {
         heading: "Le calcul honnête",
@@ -10410,7 +10410,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-05-08",
     intro:
-      "Pau est une ville à part : panorama unique sur les Pyrénées depuis le Boulevard des Pyrénées, climat doux (microclimat océanique abrité), patrimoine bourbonien, immobilier modéré (T2 ~440 €/mois, achat ~2 300 €/m²). Mais avec ~80 000 hab. centre, ~200 000 agglo, le tissu d'emploi reste dominé par Total/TotalEnergies (Lacq), l'aéronautique et le public. ~2 200 Palois quittent chaque année.",
+      "Pau est une ville à part : panorama unique sur les Pyrénées depuis le Boulevard des Pyrénées, climat doux (microclimat océanique abrité), patrimoine bourbonien, immobilier modéré (T2 ~680 €/mois, achat ~2 300 €/m²). Mais avec ~80 000 hab. centre, ~200 000 agglo, le tissu d'emploi reste dominé par Total/TotalEnergies (Lacq), l'aéronautique et le public. ~2 200 Palois quittent chaque année.",
     sections: [
       {
         heading: "Pourquoi on quitte Pau",
@@ -10418,15 +10418,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : Bordeaux (~25 % des départs)",
-        body: "Bordeaux (à 2h en voiture, 2h en train via Dax) est l'évidence pour les cadres ambitieux : marché 5× plus dense (numérique, aéronautique, biotech, vin), TGV Paris en 2h, climat similaire. Le coût immobilier y est double (T2 ~720 €/mois centre Bordeaux vs 440 € Pau, achat ~4 800 €/m² vs 2 300 €). Un choix de couple jeune en montée de carrière.",
+        body: "Bordeaux (à 2h en voiture, 2h en train via Dax) est l'évidence pour les cadres ambitieux : marché 5× plus dense (numérique, aéronautique, biotech, vin), TGV Paris en 2h, climat similaire. Le coût immobilier y est double à l'achat et supérieur d'un tiers en loyer (T2 ~900 €/mois centre Bordeaux vs 680 € Pau, achat ~4 800 €/m² vs 2 300 €). Un choix de couple jeune en montée de carrière.",
       },
       {
         heading: "Option 2 : Toulouse (~22 % des départs)",
-        body: "Toulouse (à 2h30 en voiture, 2h45 en train) est l'alternative occitane : marché aéronautique majeur (Airbus, ATR, Thales), universités, secteur spatial. Le coût immobilier y est ~50 % supérieur à Pau (T2 ~580 €/mois, achat ~3 600 €/m²). Pour les ingénieurs aéronautique Palois (Turbomeca à Bordes, Safran), Toulouse est la suite logique de carrière.",
+        body: "Toulouse (à 2h30 en voiture, 2h45 en train) est l'alternative occitane : marché aéronautique majeur (Airbus, ATR, Thales), universités, secteur spatial. Le coût immobilier y est supérieur d'un quart en loyer et de moitié à l'achat (T2 ~850 €/mois, achat ~3 600 €/m²). Pour les ingénieurs aéronautique Palois (Turbomeca à Bordes, Safran), Toulouse est la suite logique de carrière.",
       },
       {
         heading: "Option 3 : Pays Basque — Bayonne, Biarritz, Anglet (~15 % des départs)",
-        body: "La côte basque (à 1h en voiture) attire les Palois pour la mer, le surf et l'identité régionale. Bayonne (T2 ~510 €/mois, achat ~3 800 €/m²) est plus accessible que Biarritz (T2 ~750 €, achat ~6 500 €/m² souvent supérieur). Le marché cadre y est moins large qu'à Bordeaux, mais la culture basque est vivante. Beaucoup de Palois choisissent Biarritz ou Anglet pour les week-ends et déménagent vraiment quand le télétravail s'installe.",
+        body: "La côte basque (à 1h en voiture) attire les Palois pour la mer, le surf et l'identité régionale. Bayonne (T2 ~900 €/mois, achat ~3 800 €/m²) est plus accessible que Biarritz (T2 ~1 000 €, achat ~6 500 €/m² souvent supérieur). Le marché cadre y est moins large qu'à Bordeaux, mais la culture basque est vivante. Beaucoup de Palois choisissent Biarritz ou Anglet pour les week-ends et déménagent vraiment quand le télétravail s'installe.",
       },
       {
         heading: "Option 4 : Tarbes, Oloron, et les vallées pyrénéennes",
@@ -10459,7 +10459,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-01-28",
     intro:
-      "Le BAB (Bayonne-Anglet-Biarritz, ~125 000 hab.) est l'une des zones les plus tendues du marché immobilier français : T2 ~600 €/mois Bayonne centre, ~750 € Biarritz, achat ~3 800 €/m² Bayonne et ~6 500 €/m² Biarritz front de mer. La pression touristique et la rareté foncière poussent une partie des Bayonnais natifs hors de chez eux.",
+      "Le BAB (Bayonne-Anglet-Biarritz, ~125 000 hab.) est l'une des zones les plus tendues du marché immobilier français : T2 ~900 €/mois Bayonne, ~1 000 € Biarritz, achat ~3 800 €/m² Bayonne et ~6 500 €/m² Biarritz front de mer. La pression touristique et la rareté foncière poussent une partie des Bayonnais natifs hors de chez eux.",
     sections: [
       {
         heading: "Pourquoi on quitte Bayonne",
@@ -10508,7 +10508,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-04-24",
     intro:
-      "Perpignan a 300 jours de soleil/an, la frontière espagnole à 30 km, la Méditerranée à 15 km, un immobilier accessible (T2 ~430 €/mois centre, achat ~2 000 €/m²). Mais la ville (~120 000 hab.) affiche un taux de chômage parmi les plus élevés de France (~13 %) et une perception sécurité dégradée. ~2 800 Perpignanais quittent l'agglomération chaque année.",
+      "Perpignan a 300 jours de soleil/an, la frontière espagnole à 30 km, la Méditerranée à 15 km, un immobilier accessible (T2 ~650 €/mois, achat ~2 000 €/m²). Mais la ville (~120 000 hab.) affiche un taux de chômage parmi les plus élevés de France (~13 %) et une perception sécurité dégradée. ~2 800 Perpignanais quittent l'agglomération chaque année.",
     sections: [
       {
         heading: "Pourquoi on quitte Perpignan",
@@ -10516,7 +10516,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : Montpellier (~25 % des départs)",
-        body: "Montpellier (à 1h30 en voiture, 1h45 en train) est la grande capture : métropole jeune et dynamique, marché cadre 4× plus dense (numérique, biotech, université), même soleil, climat équivalent. Le coût immobilier y est ~80 % supérieur (T2 ~520 €/mois Montpellier vs 430 € Perpignan, achat ~3 700 €/m² vs 2 000 €). Pour beaucoup de Perpignanais cadres ou jeunes diplômés, Montpellier est le pas naturel.",
+        body: "Montpellier (à 1h30 en voiture, 1h45 en train) est la grande capture : métropole jeune et dynamique, marché cadre 4× plus dense (numérique, biotech, université), même soleil, climat équivalent. Le coût immobilier y est supérieur d'environ 30 % en loyer et de 70 % à l'achat (T2 ~850 €/mois Montpellier vs 650 € Perpignan, achat ~3 700 €/m² vs 2 000 €). Pour beaucoup de Perpignanais cadres ou jeunes diplômés, Montpellier est le pas naturel.",
       },
       {
         heading: "Option 2 : Toulouse (~18 % des départs)",
@@ -10528,7 +10528,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 4 : Roussillon — Narbonne, Béziers, et villages côtiers",
-        body: "Pour les Perpignanais voulant rester dans l'Aude ou l'Hérault sans aller à Montpellier, plusieurs options existent. Narbonne (~55 000 hab., à 1h) offre un patrimoine romain, des prix très bas (T2 ~380 €/mois) et le train Montpellier-Toulouse. Béziers (~80 000 hab., à 1h15) propose des prix accessibles et un marché cadre étroit. Côté villages côtiers, Argelès, Collioure et Banyuls affichent des prix très tendus du côté de Collioure (touristique) mais accessibles à l'arrière (Sorède, Laroque-des-Albères). Côté arrière-pays catalan, Prades et Céret ont des communautés actives, des prix bas et une identité culturelle forte.",
+        body: "Pour les Perpignanais voulant rester dans l'Aude ou l'Hérault sans aller à Montpellier, plusieurs options existent. Narbonne (~55 000 hab., à 1h) offre un patrimoine romain, des loyers comparables à ceux de Perpignan (T2 ~680 €/mois) et le train Montpellier-Toulouse. Béziers (~80 000 hab., à 1h15) propose des prix accessibles et un marché cadre étroit. Côté villages côtiers, Argelès, Collioure et Banyuls affichent des prix très tendus du côté de Collioure (touristique) mais accessibles à l'arrière (Sorède, Laroque-des-Albères). Côté arrière-pays catalan, Prades et Céret ont des communautés actives, des prix bas et une identité culturelle forte.",
       },
       {
         heading: "Le calcul honnête",
@@ -10557,7 +10557,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-03-18",
     intro:
-      "La Rochelle truste les classements qualité de vie depuis quinze ans : port médiéval, voile, climat océanique doux, université. Mais les prix ont explosé (T2 ~620 €/mois centre, achat ~4 200 €/m²), la pression touristique estivale est devenue dure, et les Rochelais natifs sont poussés vers la périphérie. On compte environ 2 500 départs par an de l'agglo.",
+      "La Rochelle truste les classements qualité de vie depuis quinze ans : port médiéval, voile, climat océanique doux, université. Mais les prix ont explosé (T2 ~820 €/mois, achat ~4 200 €/m²), la pression touristique estivale est devenue dure, et les Rochelais natifs sont poussés vers la périphérie. On compte environ 2 500 départs par an de l'agglo.",
     sections: [
       {
         heading: "Pourquoi on quitte La Rochelle",
@@ -10573,11 +10573,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 3 : Niort et l'arrière-pays charentais (~18 % des départs)",
-        body: "Niort (~60 000 hab., à 1h en train) est la capitale française des mutuelles (MAIF, MAAF, MACIF, Smacl), avec un tissu d'emploi assurance et finance solide et des prix très inférieurs (T2 ~430 €/mois, achat ~2 200 €/m²). Saintes, Cognac et Rochefort, préfectures et sous-préfectures de Charente-Maritime et de Charente, offrent des prix très accessibles et une qualité de vie réelle, mais un marché cadre étroit hors public et viticole ou cognac. C'est l'option des familles qui veulent acheter sans renoncer à l'identité régionale.",
+        body: "Niort (~60 000 hab., à 1h en train) est la capitale française des mutuelles (MAIF, MAAF, MACIF, Smacl), avec un tissu d'emploi assurance et finance solide et des prix très inférieurs (T2 ~640 €/mois, achat ~2 200 €/m²). Saintes, Cognac et Rochefort, préfectures et sous-préfectures de Charente-Maritime et de Charente, offrent des prix très accessibles et une qualité de vie réelle, mais un marché cadre étroit hors public et viticole ou cognac. C'est l'option des familles qui veulent acheter sans renoncer à l'identité régionale.",
       },
       {
         heading: "Option 4 : Île de Ré, Oléron, et villages littoraux",
-        body: "L'île de Ré est extrêmement chère (achat ~10 000 €/m² à Saint-Martin, T2 ~900 €/mois) et faite pour les résidences secondaires et les retraités aisés. Oléron reste très chère, mais un peu moins extrême. Châtelaillon-Plage, Yves et Aytré sont des communes proches de La Rochelle, aux prix proches du centre, avec une ambiance balnéaire familiale. Marennes et Mornac, dans le sud de la Charente-Maritime, affichent des prix plus accessibles. Tous demandent une vraie vérification de l'évolution touristique annuelle.",
+        body: "L'île de Ré est extrêmement chère (achat ~10 000 €/m² à Saint-Martin, T2 ~1 200 €/mois) et faite pour les résidences secondaires et les retraités aisés. Oléron reste très chère, mais un peu moins extrême. Châtelaillon-Plage, Yves et Aytré sont des communes proches de La Rochelle, aux prix proches du centre, avec une ambiance balnéaire familiale. Marennes et Mornac, dans le sud de la Charente-Maritime, affichent des prix plus accessibles. Tous demandent une vraie vérification de l'évolution touristique annuelle.",
       },
       {
         heading: "Le calcul honnête",
@@ -10606,7 +10606,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-02-06",
     intro:
-      "Metz a le Centre Pompidou-Metz, le quartier impérial UNESCO, un cadre vert reconnu et le frontalier Luxembourg à 30 km. Les prix immobiliers y restent modérés (T2 ~480 €/mois centre, achat ~2 400 €/m²). Mais le marché de l'emploi cadre local reste tendu hors sidérurgie en reconversion, et beaucoup de Messins migrent vers le Luxembourg en frontalier ou vers les métropoles voisines.",
+      "Metz a le Centre Pompidou-Metz, le quartier impérial UNESCO, un cadre vert reconnu et le frontalier Luxembourg à 30 km. Les prix immobiliers y restent modérés (T2 ~680 €/mois, achat ~2 400 €/m²). Mais le marché de l'emploi cadre local reste tendu hors sidérurgie en reconversion, et beaucoup de Messins migrent vers le Luxembourg en frontalier ou vers les métropoles voisines.",
     sections: [
       {
         heading: "Pourquoi on quitte Metz",
@@ -10655,7 +10655,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-03-29",
     intro:
-      "Nancy a la place Stanislas (UNESCO), l'École de Nancy, l'université, le CHU et un patrimoine Art nouveau remarquable. Les prix immobiliers y restent modérés (T2 ~480 €/mois, achat ~2 500 €/m²). Mais avec ~105 000 hab. au centre et ~260 000 dans l'agglo, l'offre cadre tertiaire reste contrainte. On compte environ 3 000 départs par an de l'agglomération.",
+      "Nancy a la place Stanislas (UNESCO), l'École de Nancy, l'université, le CHU et un patrimoine Art nouveau remarquable. Les prix immobiliers y restent modérés (T2 ~710 €/mois, achat ~2 500 €/m²). Mais avec ~105 000 hab. au centre et ~260 000 dans l'agglo, l'offre cadre tertiaire reste contrainte. On compte environ 3 000 départs par an de l'agglomération.",
     sections: [
       {
         heading: "Pourquoi on quitte Nancy",
@@ -10667,7 +10667,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 2 : Strasbourg (~18 % des départs)",
-        body: "Strasbourg (à 1h30 en train, 2h en voiture) est la capitale alsacienne et une métropole européenne, avec un marché cadre 2× plus dense que Nancy (UE, recherche, pharma, biotech) et un TGV Paris en 1h45. Le coût immobilier y est plus élevé (T2 ~580 €/mois à Strasbourg contre 480 € à Nancy ; achat ~3 500 €/m² contre 2 500 €). C'est l'option des cadres en montée.",
+        body: "Strasbourg (à 1h30 en train, 2h en voiture) est la capitale alsacienne et une métropole européenne, avec un marché cadre 2× plus dense que Nancy (UE, recherche, pharma, biotech) et un TGV Paris en 1h45. Le coût immobilier y est plus élevé (T2 ~800 €/mois à Strasbourg contre 710 € à Nancy ; achat ~3 500 €/m² contre 2 500 €). C'est l'option des cadres en montée.",
       },
       {
         heading: "Option 3 : Paris (~15 % des départs)",
@@ -10704,7 +10704,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-05-09",
     intro:
-      "Amiens a la plus grande cathédrale gothique de France (UNESCO), les hortillonnages, l'université et un immobilier parmi les plus accessibles des préfectures (T2 ~410 €/mois, achat ~2 000 €/m²). Mais l'agglo (~180 000 hab.) souffre d'un marché cadre restreint et d'un déclin démographique régulier. On compte environ 2 600 départs par an.",
+      "Amiens a la plus grande cathédrale gothique de France (UNESCO), les hortillonnages, l'université et un immobilier parmi les plus accessibles des préfectures (T2 ~680 €/mois, achat ~2 000 €/m²). Mais l'agglo (~180 000 hab.) souffre d'un marché cadre restreint et d'un déclin démographique régulier. On compte environ 2 600 départs par an.",
     sections: [
       {
         heading: "Pourquoi on quitte Amiens",
@@ -10712,7 +10712,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : Lille (~30 % des départs)",
-        body: "Lille (à 1h05 en TGV, 1h30 en voiture) est la métropole régionale, avec un marché cadre 4× plus dense (numérique, retail, biotech, transports), un Eurostar direct vers Londres et Bruxelles, et une ambiance jeune et dynamique. Le coût immobilier y est plus élevé (~3 800 €/m² centre à Lille contre 2 000 € à Amiens, T2 ~580 €/mois contre 410 €). Pour les cadres amiénois en montée, Lille est l'option naturelle.",
+        body: "Lille (à 1h05 en TGV, 1h30 en voiture) est la métropole régionale, avec un marché cadre 4× plus dense (numérique, retail, biotech, transports), un Eurostar direct vers Londres et Bruxelles, et une ambiance jeune et dynamique. Le coût immobilier y est plus élevé (~3 800 €/m² centre à Lille contre 2 000 € à Amiens, T2 ~800 €/mois contre 680 €). Pour les cadres amiénois en montée, Lille est l'option naturelle.",
       },
       {
         heading: "Option 2 : Paris (~25 % des départs)",
@@ -10802,7 +10802,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-02-27",
     intro:
-      "Le Mans est l'une des grandes villes les plus accessibles à Paris (TGV 55 min) avec un immobilier très abordable (T2 ~390 €/mois, achat ~2 100 €/m²). Patrimoine Plantagenêt, 24 Heures du Mans, MMA, université : la ville a des atouts. Mais avec ~145 000 hab. au centre et ~210 000 dans l'agglo, le marché cadre local reste étroit. On compte environ 2 800 départs par an.",
+      "Le Mans est l'une des grandes villes les plus accessibles à Paris (TGV 55 min) avec un immobilier très abordable (T2 ~650 €/mois, achat ~2 100 €/m²). Patrimoine Plantagenêt, 24 Heures du Mans, MMA, université : la ville a des atouts. Mais avec ~145 000 hab. au centre et ~210 000 dans l'agglo, le marché cadre local reste étroit. On compte environ 2 800 départs par an.",
     sections: [
       {
         heading: "Pourquoi on quitte Le Mans",
@@ -10814,7 +10814,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 2 : Nantes (~15 % des départs)",
-        body: "Nantes (à 1h30 en TGV) est la métropole du Grand Ouest, avec un marché cadre 4× plus profond et une ambiance jeune et atlantique. Le coût immobilier y est 80 % supérieur au Mans (T2 ~590 €/mois à Nantes contre 390 € au Mans). C'est l'option des Manceaux voulant changer complètement d'environnement et de marché.",
+        body: "Nantes (à 1h30 en TGV) est la métropole du Grand Ouest, avec un marché cadre 4× plus profond et une ambiance jeune et atlantique. Le coût immobilier y est supérieur d'environ 30 % sur le loyer, et pratiquement doublé à l'achat (T2 ~850 €/mois à Nantes contre 650 € au Mans). C'est l'option des Manceaux voulant changer complètement d'environnement et de marché.",
       },
       {
         heading: "Option 3 : Tours et Angers (~12 % des départs)",
@@ -21083,7 +21083,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Biarritz est devenue en une décennie l'une des villes de province les plus chères de France : 5 000 à 7 500 €/m² sur la frange balnéaire, des loyers de T2 à 1 200 à 1 600 €/mois, et une pression immobilière exacerbée par les investisseurs en résidences secondaires et les télétravailleurs parisiens et madrilènes. Pour les Biarrots nés là ou installés depuis longtemps, le calcul est souvent impossible. Où aller en restant dans l'esprit basque ou atlantique sans sacrifier sa santé financière ?",
+    intro: "Biarritz est devenue en une décennie l'une des villes de province les plus chères de France : 5 000 à 7 500 €/m² sur la frange balnéaire, des loyers de T2 autour de 1 000 €/mois en moyenne communale, bien davantage sur le front de mer, et une pression immobilière exacerbée par les investisseurs en résidences secondaires et les télétravailleurs parisiens et madrilènes. Pour les Biarrots nés là ou installés depuis longtemps, le calcul est souvent impossible. Où aller en restant dans l'esprit basque ou atlantique sans sacrifier sa santé financière ?",
     sections: [
       {
         heading: "Le problème spécifique de Biarritz",

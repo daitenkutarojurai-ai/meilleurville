@@ -9148,6 +9148,103 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-29
+
+- **Série FR `quitter-[ville]-guide-2026` — les loyers cités réalignés sur `data/housing.ts`, et
+  une garde `loyers` dans `npm run integrity`.** C'est la passe FR que le run de parité EN du 29/09
+  avait mesurée puis laissée ouverte (commit `5049b8a`, « mesuré, non corrigé ») : les 48 guides de
+  la série publiaient leurs propres loyers, sur une échelle cohérente mais qui n'est pas la nôtre.
+  **64 corrections sur 26 guides** (amiens, angers, avignon, bayonne, besancon, biarritz, bordeaux,
+  brest, caen, la-rochelle, le-havre, le-mans, lille, limoges, lyon, metz, mulhouse, nancy, nantes,
+  nice, pau, perpignan, saint-etienne, strasbourg, toulouse, tours).
+  ⚠️ **Le chiffre du défaut dépend de la façon dont on attribue une figure à une ville, et les deux
+  mesures sont publiées.** Attribution large (nom de ville le plus proche dans une fenêtre de 150
+  caractères) : **95 figures de loyer, 84 hors de ±10 %, médiane des écarts signés −24,4 %, 65 des
+  84 sous la référence**. Attribution stricte, celle de la garde (ville collée au montant, ou
+  segment ne nommant que la ville du guide) : **22 figures attribuables, 22 hors de ±12 %, médiane
+  −30,8 %, pire −40 %, 20 des 22 sous la référence** — soit 22 sur 22. Après la passe :
+  **24 attribuables, 0 hors tolérance, médiane 0,0 %**. Les deux comptes disent la même chose, la
+  seconde le dit sans marge d'erreur d'attribution.
+  ⚠️ **Le diagnostic qui a décidé du périmètre : c'est l'échelle de loyer, et elle seule.** Les
+  **204 figures de prix au m²** de la même série ont une **médiane d'écart signé de 0,0 %**
+  (75 sous la référence, 54 au-dessus) — la dispersion d'une fourchette de quartier autour d'une
+  moyenne communale, pas un décalage. Les prix au m² ne sont donc **pas** touchés, sauf deux
+  endroits où la phrase elle-même en dépendait (Brive donnée à 1 500 €/m² pour 2 000). Corollaire
+  pour un prochain run : **129 des 204 figures au m² s'écartent individuellement de plus de 10 %**,
+  et ni la passe ni la garde ne s'en occupent.
+  ⚠️ **Le guide qui concorde est le seul qui nomme ses sources.** `quitter-reims` cite les données
+  DVF 2024-2025 et les Observatoires Locaux des Loyers, et ses chiffres tombent juste (Châlons-en-
+  Champagne 1 700 €/m² = notre référence, T2 580 € contre 540, Reims 680 € = notre référence). Il
+  avait été signalé par mon premier script comme divergent : c'était mon attribution qui se
+  trompait, pas le guide.
+  **Huit affirmations éditoriales démenties par la mesure, pas par une relecture** — corrigées avec
+  les chiffres : ① la côte sud du Morbihan « offre des prix modérément inférieurs » à Brest, alors
+  que **Quimper 700 €, Lorient 680 € et Vannes 850 € sont tous au-dessus de Brest (650 €)** : aucune
+  des trois n'est moins chère ; ② Brive-la-Gaillarde « aux prix très bas » face à Limoges (580 €
+  contre 600 €, l'égalité) ; ③ Narbonne « des prix très bas » face à Perpignan (680 € contre 650 €,
+  donc plus cher) ; ④ Orléans « prix immobiliers 25 % inférieurs à Tours » alors que le loyer est
+  **identique** (700 € des deux côtés, l'écart est à l'achat) ; ⑤ Lons-le-Saunier « aux prix très
+  bas » face à Besançon (610 € contre 680 €) ; ⑥ Nîmes « des prix très bas » face à Avignon (720 €
+  contre 750 €) ; ⑦ à Nantes, « le gain est massif » en location était un artefact du loyer angevin
+  sous-évalué — **le différentiel Nantes-Angers sur 10 ans vaut 18 000 € et non 54 000 €**, le
+  calcul ne bascule qu'à l'achat, et le guide le dit désormais dans cet ordre ; ⑧ trois listes
+  « pour la même surface ailleurs » contenaient des villes qui ne sont **pas** moins chères
+  (Annecy 1 450 € au-dessus de Lyon 1 380 €, Bayonne au niveau de Bordeaux à 1 200 €, Vannes au
+  niveau de Nantes à 1 150 €), ce qui est maintenant écrit.
+  **Toutes les grandeurs dérivées d'un loyer ont été recalculées**, sinon la correction aurait
+  laissé des sommes fausses : Lyon 96 000 → **73 000 €** d'épargne brute sur 10 ans et 60 000 →
+  **49 000 €** net ; Lille 48 000 → **43 000 €** ; Toulouse 48 000 → **37 000 €** et 4 800 →
+  **3 700 €/an** ; Bordeaux « libère 600 €/mois » → **400 à 480 €** ; Nantes 54 000 → **18 000 €** ;
+  Nice 78 000 → **54 000 €**, capital 190 000 → **~175 000 €** (86 m² au prix niçois du m², la même
+  surface au prix toulonnais), et « libère 700 €/mois de mensualité » remplacé par le seul écart de
+  loyer, **450 €/mois**, qui lui se dérive de nos données.
+  **Quatre chiffres retirés faute de référence, pas réécrits** : Deauville et Trouville (guides Caen
+  et Le Havre), Andernos (guide Bordeaux) et Vence (guide Nice) **n'ont aucune entrée dans
+  `data/housing.ts`**. Leur loyer venait de l'ancienne échelle, donc il n'était pas défendable ; les
+  deux guides qui les citaient disent maintenant que nous ne publions pas de loyer de référence pour
+  ces communes, au lieu d'un chiffre que rien n'appuie. Même doctrine que le prix médian d'EHPAD du
+  glossaire : une phrase sans chiffre vaut mieux qu'un chiffre faux.
+- **Garde `loyers` (`scripts/check-integrity.mjs`)** : 48 guides de la série, **24 loyers cités
+  attribuables**, tolérance **12 %**. Elle est **narrow par construction**, comme la garde des
+  scores cités : elle ne lit que la forme « T2 ~X €/mois » (marqueur de type, montant unique) et
+  **se tait** sur tout ce qu'elle ne sait pas attribuer — fourchettes, tournures directionnelles
+  (« dépasse », « difficilement sous »), claims de quartier, et fenêtres où deux villes se
+  disputent le montant. Elle ne peut donc pas crier à tort ; en revanche **elle ne voit pas un
+  chiffre inventé sans marqueur de type**, et c'est un filet, pas une preuve.
+  **Vérifiée en la faisant échouer** : le loyer d'Amiens remis à 410 €, elle sort
+  « T2 cité 410 € pour amiens (HOUSING : 680 €, −40 %) », puis repasse au vert une fois restauré.
+  ⚠️ **Sa première version accusait 10 figures à tort, et les deux causes sont notées pour que
+  personne ne relâche l'attribution** : la fenêtre de ±30 caractères franchissait la fin de phrase,
+  si bien qu'un « TGV Paris en 1h30 » qui suivait le point s'appropriait le loyer de Nancy ; et le
+  découpage en phrases cassait sur « 63 000 hab. », ce qui ouvrait un faux segment sans nom de
+  ville. D'où la règle actuelle : rien ne peut s'interposer entre le montant et la ville, et un
+  segment ne se coupe que sur une espace suivie d'une majuscule.
+- **Non livré, et nommé pour le prochain run.** ① La série EN **`leaving-*` (31 guides) n'a pas été
+  touchée** : ce n'est pas la jumelle hreflang de `quitter-` (corpus natif distinct, pas une
+  traduction), donc la règle « deux jumelles ne montrent jamais deux chiffres » ne s'y applique pas.
+  Relevée à la main sur ses 18 phrases de loyer, ses **fourchettes contiennent notre référence**
+  (Annecy 1 100-1 400 pour 1 100, Valence 600-800 pour 680, Aix 1 100-1 500 pour 1 050), mais
+  **`leaving-paris-best-french-cities-2026` publie Paris à 1 400 € pour 1 800 (−22 %) et Lyon à
+  800 € pour 1 000 (−20 %)**, en dérive « €30,000-plus over five years » quand nos chiffres donnent
+  48 000, et affirme que Rennes a « the lowest rents of any major French city » à 730 € — **faux
+  contre `data/housing.ts`**, où Saint-Étienne 580 €, Limoges 600 €, Brest 650 € et Le Havre 650 €
+  sont tous en dessous. ② Les figures au m² individuelles (cf. supra). ③ Les cinq guides `quitter-*`
+  **hors gabarit `-guide-2026`** (les trois `quitter-paris-*-2025`, `quitter-reims-paris-lille-
+  epernay-2026`, `quitter-teletravail-pour-rural-*`) n'ont été ni scannés ni corrigés, et la garde
+  ne les couvre pas.
+- **Contrôles** : `npx tsc --noEmit` **propre**, `npm run integrity` (dont la garde neuve),
+  `npm run search-index` + `search-index:check` (**inchangés** — 1 184 guides, 274 tags : la
+  projection ne porte pas la prose corrigée, donc aucune page `/tags/` touchée),
+  `npm run sitemap:check` (FR **29 294** URL, EN 28 898, **inchangés**, aucune route neuve),
+  `npm run parity` (**code 0**), `npm run hreflang:check` (OK). Encodage : **0 apostrophe
+  typographique, 0 `m2`/`EUR`/`deg` ascii, 0 mojibake**, densité d'accents 0,110 à 0,194 par mot
+  (seuil ascii-strip 0,09), **17 em-dashes pour 28 645 mots** sur la série, soit 1 pour 1 685 là où
+  la cible R7.10 en tolère 1 pour 200. `npm run build` **non lancé, volontairement** (cf. CLAUDE.md
+  § Commands). Note d'environnement reconfirmée : le conteneur de routine démarre **sans
+  `node_modules`** — `npm install` d'abord.
+
+---
+
 ## Shipped 2026-09-27
 
 - **Parité EN — `solo-travel-in-[city]-2026` batch 8, rattrapage de parité (+6 : Marseille,

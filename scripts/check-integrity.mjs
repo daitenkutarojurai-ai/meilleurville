@@ -1050,6 +1050,189 @@ if (!failed) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Série « quitter » : un loyer cité doit être celui que la page ville rend.
+//
+// Défaut mesuré le 2026-09-29. Les 48 guides `quitter-<ville>-guide-2026`
+// publiaient leurs propres loyers, sur une échelle cohérente mais qui n'est pas
+// la nôtre : sur les 95 figures de loyer de la série, 88 % s'écartaient de plus
+// de 10 % de `data/housing.ts`, la médiane des écarts signés valait −24,4 % et
+// 65 des 84 divergences tiraient vers le bas. `quitter-le-mans` annonçait un T2
+// à ~390 €/mois quand `/villes/le-mans` rend 650 €, `quitter-angers` ~490 €
+// contre 750 € : une contradiction visible en un clic, exactement le mode de
+// défaillance des 1 026 figures de score du 2026-08-10 (CLAUDE.md § pipeline).
+// Les prix au m² de la même série, eux, concordent (médiane des écarts 0,0 %) —
+// c'était donc bien l'échelle de loyer, et elle seule.
+//
+// `tsc` ne peut pas le voir (un nombre dans une chaîne est bien typé) et la
+// garde de citations de ce fichier compare aux scores du seed, pas aux loyers.
+//
+// La garde est volontairement NARROW, comme celle des scores cités : elle ne
+// contrôle que la forme « T2 ~X €/mois » (un marqueur de type, un montant
+// unique) et **saute** tout ce qu'elle ne sait pas attribuer avec certitude —
+// les fourchettes, les tournures directionnelles (« dépasse », « difficilement
+// sous »), les claims de quartier et les fenêtres où deux villes se disputent
+// le montant. Elle ne peut donc pas crier à tort ; en revanche elle ne voit pas
+// un chiffre inventé sans marqueur de type. C'est un filet, pas une preuve.
+{
+  const { GUIDES } = load("data/guides.ts");
+  const { HOUSING } = load("data/housing.ts");
+  const { CITIES_SEED } = load("data/cities-seed.ts");
+
+  const TOLERANCE = 0.12;
+  const SERIES = GUIDES.filter((g) => /^quitter-.+-guide-2026$/.test(g.slug));
+
+  // Noms de ville à casse conservée : en minuscules, « sens », « tours »,
+  // « gap » et « apt » sont des mots français courants, et l'attribution
+  // partirait sur la mauvaise ville.
+  const CITY_NAMES = CITIES_SEED
+    .map((c) => ({ name: String(c.name).replace(/\s*\(.*\)$/, ""), slug: c.slug }))
+    .filter((c) => HOUSING[c.slug])
+    .sort((a, b) => b.name.length - a.name.length);
+
+  const nameHits = (text) => {
+    const found = new Set();
+    for (const { name, slug } of CITY_NAMES) {
+      let from = 0;
+      for (;;) {
+        const i = text.indexOf(name, from);
+        if (i < 0) break;
+        const before = text[i - 1] ?? " ";
+        const after = text[i + name.length] ?? " ";
+        if (!/[\p{L}-]/u.test(before) && !/[\p{L}-]/u.test(after)) found.add(slug);
+        from = i + 1;
+      }
+    }
+    return found;
+  };
+
+  // Attribution nº 1 : la ville est collée au montant — « 850 €/mois à Nantes »,
+  // « ~680 € Pau », « 900 €/mois centre Bordeaux ». Rien ne peut s'interposer,
+  // pas même une fin de phrase : c'est ce qui a fait attribuer « 710 € » à Paris
+  // au premier jet de cette garde, sur la seule foi d'un « TGV Paris » qui
+  // suivait le point.
+  const CONNECTOR = /^\s*(?:\/mois)?[ ,;:]*(?:centre[- ]ville |centre |intra-muros |à |au |aux |en |dans |de |pour )?/;
+  const cityGluedAfter = (tail) => {
+    const m = CONNECTOR.exec(tail);
+    const rest = tail.slice(m ? m[0].length : 0);
+    if (/^[.!?]/.test(tail.trimStart())) return null;
+    for (const { name, slug } of CITY_NAMES) {
+      if (rest.startsWith(name)) {
+        const after = rest[name.length] ?? " ";
+        if (!/[\p{L}-]/u.test(after)) return slug;
+      }
+    }
+    return null;
+  };
+
+  // Attribution nº 2 : le segment de phrase qui porte le montant ne nomme aucune
+  // autre ville que celle du guide, et ne compare rien. Le découpage exige une
+  // espace puis une majuscule, sinon « 63 000 hab., à 1h de Brest » ouvrirait un
+  // faux segment.
+  const COMPARISON = /\bvs\b|contre|supérieur|inférieur|comparable|similaire|plus cher|moins cher|plus élevé|plus bas|équivalent/i;
+  const namesIn = (text) => {
+    const found = new Set();
+    for (const { name, slug } of CITY_NAMES) {
+      let from = 0;
+      for (;;) {
+        const i = text.indexOf(name, from);
+        if (i < 0) break;
+        const before = text[i - 1] ?? " ";
+        const after = text[i + name.length] ?? " ";
+        if (!/[\p{L}-]/u.test(before) && !/[\p{L}-]/u.test(after)) found.add(slug);
+        from = i + 1;
+      }
+    }
+    return found;
+  };
+
+  // « T2 » … « 680 € », montant unique, pas un prix au m².
+  const CLAIM = /\bT([123])\b[^.!?€]{0,40}?(\d[\d   ]*)\s*€/g;
+  const DIRECTIONAL = /dépasse|au-delà|difficilement|à partir de|jusqu'à|minimum|plus de|moins de|quartier/i;
+
+  const offences = [];
+  let checked = 0;
+
+  for (const g of SERIES) {
+    const guideCity = g.slug.replace(/^quitter-/, "").replace(/-guide-2026$/, "");
+    const fields = [
+      ["metaDesc", g.metaDesc ?? ""],
+      ["intro", g.intro ?? ""],
+      ...(g.sections ?? []).map((s, i) => [`s${i}`, s.body ?? ""]),
+    ];
+    for (const [field, text] of fields) {
+      CLAIM.lastIndex = 0;
+      let m;
+      while ((m = CLAIM.exec(text)) !== null) {
+        const amount = Number(m[2].replace(/[   ]/g, ""));
+        if (!Number.isFinite(amount) || amount < 100 || amount > 5000) continue;
+        const end = m.index + m[0].length;
+        // Prix au m² : ce n'est pas un loyer.
+        if (/^\s*\/?\s*(m²|m2)/.test(text.slice(end, end + 6))) continue;
+        // Fourchette : « 1 100–1 500 € », « entre 1 300 et 1 600 € ».
+        if (/[-–—]\s*$|\bentre\b[^.]*$|\bet\s*$/.test(m[0].slice(0, m[0].indexOf(m[2])))) continue;
+        if (/^\s*(?:[-–—]|à\s*\d)/.test(text.slice(end - 1).replace(/^€/, ""))) continue;
+        const sentStart = Math.max(0, text.lastIndexOf(".", m.index) + 1);
+        let sentEnd = text.indexOf(".", end);
+        if (sentEnd < 0) sentEnd = text.length;
+        const sentence = text.slice(sentStart, sentEnd);
+        // Tournure directionnelle ou claim de quartier : pas une égalité.
+        if (DIRECTIONAL.test(sentence)) continue;
+
+        let city = cityGluedAfter(text.slice(end - 1).replace(/^€/, ""));
+        if (!city) {
+          const segments = text.split(/(?<=[.!?])\s+(?=[A-ZÉÈÀÂÎÔÛÇ«])/);
+          let offset = 0;
+          let segment = null;
+          for (const seg of segments) {
+            const at = text.indexOf(seg, offset);
+            if (at <= m.index && m.index < at + seg.length) { segment = seg; break; }
+            offset = at + seg.length;
+          }
+          if (segment && !COMPARISON.test(segment)) {
+            const named = nameHits(segment);
+            named.delete(guideCity);
+            if (named.size === 0 && nameHits(segment).has(guideCity)) city = guideCity;
+          }
+        }
+        if (!city) continue; // attribution ambiguë : la garde se tait
+
+        const h = HOUSING[city];
+        if (!h) continue;
+        const ref = m[1] === "1" ? h.avgRentT1 : m[1] === "2" ? h.avgRentT2 : h.avgRentT3;
+        checked++;
+        const gap = (amount - ref) / ref;
+        if (Math.abs(gap) > TOLERANCE) {
+          offences.push(
+            `${g.slug} ${field}  T${m[1]} cité ${amount} € pour ${city} ` +
+              `(HOUSING : ${ref} €, ${(gap * 100).toFixed(0)} %)`,
+          );
+        }
+      }
+    }
+  }
+
+  if (offences.length === 0) {
+    console.log(
+      `  ok  loyers    ${SERIES.length} guides « quitter », ${checked} loyers cités attribuables,` +
+        ` tous à moins de ${Math.round(TOLERANCE * 100)} % de data/housing.ts`,
+    );
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  série « quitter » : ${offences.length} loyer(s) hors de data/housing.ts\n`);
+    for (const o of offences) console.error(`    ${o}`);
+    console.error(
+      "\n    Un loyer cité dans un guide doit être celui que la page ville rend,\n" +
+        "    c'est-à-dire `HOUSING[slug].avgRentT1|T2|T3` (`data/housing.ts`). La\n" +
+        "    série publiait sa propre échelle, ~24 % sous la nôtre en médiane :\n" +
+        "    un lecteur qui cliquait sur la ville voyait l'autre chiffre. Si le\n" +
+        "    loyer de référence est faux, on corrige `data/housing.ts` et les 540\n" +
+        "    pages avec, pas la prose d'un guide ; et une phrase sans chiffre vaut\n" +
+        "    mieux qu'un chiffre que nos données démentent.\n",
+    );
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");
