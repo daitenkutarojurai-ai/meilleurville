@@ -170,6 +170,32 @@ export default async function CitySaisonsPage({ params }: Props) {
           </p>
         </Card>
 
+        {/* Les quatre cartes ci-dessus disent quand il fait bon sortir ici ;
+            le profil plein air classe les villes sur l'année entière, avec la
+            résistance à la chaleur d'été comme l'un de ses axes. Elle y est
+            dérivée de la même température moyenne de juillet que celle affichée
+            plus haut, donc la parenté est réelle et se dit. */}
+        <Card>
+          <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-2">
+            Quand la saison décide où l&apos;on s&apos;installe
+          </h3>
+          <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+            Ces quatre saisons disent à quel moment de l&apos;année {city.name} se vit
+            dehors. Si c&apos;est le critère qui commande le choix de la ville
+            elle-même, les{" "}
+            <Link
+              href="/pour-qui/amateurs-de-plein-air"
+              className="text-[var(--accent)] underline hover:opacity-80"
+            >
+              villes où l&apos;année entière se prête au plein air
+            </Link>{" "}
+            font passer le cadre naturel devant tout le reste, puis y ajoutent un air
+            respirable et un été supportable. Ce dernier axe se déduit de la même
+            température moyenne de juillet que celle lue plus haut : il classe des
+            étés moyens, pas un nombre de jours au-dessus d&apos;un seuil.
+          </p>
+        </Card>
+
         <div className="text-center">
           <Link
             href={`/villes/${slug}`}

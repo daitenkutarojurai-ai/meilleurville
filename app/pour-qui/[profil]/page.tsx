@@ -565,6 +565,51 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Outdoor counterpart — visible for the three profiles that come
+            closest to the same reader without ever putting the seed's `nature`
+            axis first. Checked against PROFILE_PAGES: `amateurs-de-plein-air`
+            is the ONLY one of the 36 that weights nature at 3.0, and it is its
+            sole cardinal; these three keep nature in second rank behind another
+            axis entirely (sportLeisure 3.0, cost 3.0 and qualiteAir 3.0
+            respectively, against nature at 1.5, 2.5 and 1.5).
+            `sportifs` also carries the mountain block above, so it shows two
+            counterpart sections — the same stacking the plein-air page itself
+            already has (mountain + coastal), which is why the heading here does
+            not reuse the « Le profil voisin » formula. */}
+        {["sportifs", "neo-ruraux", "asthmatiques-allergiques"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le profil qui met le dehors en premier
+            </h3>
+            <Link href="/pour-qui/amateurs-de-plein-air" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🥾</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Passer ses journées dehors, pas seulement ses week-ends
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus place le cadre naturel en second rideau, derrière
+                      un axe qui commande tout le reste : une ville peut y monter sans
+                      qu&apos;on y vive particulièrement dehors. Les{" "}
+                      <span className="underline">villes classées sur le dehors d&apos;abord</span>{" "}
+                      inversent l&apos;ordre : le cadre naturel d&apos;abord, puis un air
+                      respirable et un été qui ne cloue pas à l&apos;intérieur. Ils ne
+                      privilégient aucun terrain, et une ville de forêt y devance des
+                      ports comme des villes de piémont. Deux limites y sont assumées : l&apos;air
+                      est une moyenne départementale, la même pour toutes les communes
+                      d&apos;un département, et le confort d&apos;été se déduit de la
+                      température moyenne de juillet, pas d&apos;un décompte de jours de
+                      canicule.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Country-of-departure counterpart — visible only for the returning-expat
             profile. The top-20 above ranks French cities; what it cannot rank is
             the gap with the country you are leaving, which is where the friction

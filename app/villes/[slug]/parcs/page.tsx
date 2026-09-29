@@ -314,6 +314,32 @@ export default async function ParcsPage({ params }: Props) {
         </section>
       )}
 
+      {/* Cette page dit où aller depuis ici ; le profil plein air dit où
+          s'installer pour que la question ne se pose plus. Les deux mesures sont
+          indépendantes (OSM d'un côté, axe nature du seed de l'autre), donc ce
+          n'est pas un doublon. Rendu sur les 540 villes, comme cette route. */}
+      <section className="relative pb-8">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+            Ce repère dit où sortir depuis {city.name}. La question d&apos;avant, celle
+            du déménagement, se traite ailleurs : les{" "}
+            <Link
+              href="/pour-qui/amateurs-de-plein-air"
+              className="text-[var(--accent)] hover:underline"
+            >
+              villes où la semaine se construit autour du dehors
+            </Link>{" "}
+            sont classées sur le cadre naturel de la commune d&apos;abord, puis sur
+            l&apos;air et sur un été praticable — trois choses qu&apos;un inventaire de
+            parcs ne mesure pas. Deux réserves y sont assumées et valent ici aussi :
+            l&apos;air y est une moyenne départementale, identique pour toutes les
+            communes d&apos;un même département, et le confort d&apos;été se déduit de
+            la température moyenne de juillet, pas d&apos;un décompte de jours de
+            canicule.
+          </p>
+        </div>
+      </section>
+
       {/* ODbL — attribution is a licence condition, not decoration. */}
       <section className="relative pb-8">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">

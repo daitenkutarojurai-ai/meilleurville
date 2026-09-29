@@ -304,6 +304,20 @@ export default function SportHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Le relief seul, sans le reste de l&apos;outdoor</div>
             </Card>
           </Link>
+          {/* Ce composite est d'abord un inventaire de ce que la commune
+              finance : équipements et clubs pèsent plus lourd, ensemble, que le
+              cadre naturel et le climat réunis. Le profil plein air part de
+              l'autre bout — l'axe nature du seed en tête, puis l'air et le
+              confort d'été — et ne compte ni salle, ni licencié, ni piscine
+              municipale. C'est le seul des 36 profils dont l'axe nature est le
+              poids cardinal. */}
+          <Link href="/pour-qui/amateurs-de-plein-air" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🥾</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Vivre dehors sans club ni licence</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Le cadre naturel avant les équipements</div>
+            </Card>
+          </Link>
         </div>
       </section>
 

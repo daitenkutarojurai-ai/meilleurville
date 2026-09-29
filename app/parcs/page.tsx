@@ -226,6 +226,27 @@ export default function ParcsHubPage() {
             )}
           </p>
 
+          {/* Le comptage de cette page et le classement plein air sont
+              indépendants : l'un compte des équipements cartographiés dans OSM,
+              l'autre part de l'axe nature du seed. Mesuré sur les 540 villes,
+              la corrélation de rang entre les deux est quasi nulle — d'où le
+              renvoi, qui ne fait pas doublon. */}
+          <p className="mt-6 text-sm text-[var(--text-secondary)] leading-relaxed">
+            Un parc est une destination à l&apos;intérieur de la ville. Quand la question
+            devient plutôt où la journée entière se passe dehors, le classement des{" "}
+            <Link
+              href="/pour-qui/amateurs-de-plein-air"
+              className="text-[var(--accent)] hover:underline"
+            >
+              villes faites pour vivre dehors
+            </Link>{" "}
+            prend le problème par l&apos;autre bout : il part du cadre naturel de la
+            commune, y ajoute un air respirable et un été qui ne cloue pas à
+            l&apos;intérieur, et ne compte aucun parc. Les deux lectures ne se recouvrent
+            pratiquement pas — une commune à peine dotée en parcs nommés peut y figurer
+            en tête, une métropole qui plafonne ici s&apos;y retrouver au milieu du corpus.
+          </p>
+
           <p className="mt-4 text-xs text-[var(--text-tertiary)]">
             Données{" "}
             <a
