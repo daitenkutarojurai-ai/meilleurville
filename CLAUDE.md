@@ -2126,8 +2126,9 @@ run). Le vivier du batch 46 est **épuisé** ; les gisements nommés restants so
 (écarté au batch 34 faute de matière) et les **trois banlieues bordelaises** jamais faites
 (Villenave-d'Ornon, Talence, Le Bouscat), à compléter par les trous mesurés ce run et non retenus faute
 de place, tous vérifiés présents au seed et sans guide : **Sedan** (le château fort le plus étendu
-d'Europe, la capitulation de 1870, la percée de 1940), **Firminy** (site Le Corbusier, dont l'église
-Saint-Pierre relève de l'inscription UNESCO de 2016), **Corte** (citadelle, musée de la Corse),
+d'Europe, la capitulation de 1870, la percée de 1940), **Firminy** (site Le Corbusier ; ⚠️ **corrigé au batch 52** — ce
+n'est pas l'église Saint-Pierre qui relève de l'inscription UNESCO de 2016 mais la **Maison de la
+Culture**, seul bâtiment de la ville achevé du vivant de l'architecte), **Corte** (citadelle, musée de la Corse),
 **Gérardmer**, **Les Andelys** (Château-Gaillard), **Paray-le-Monial**, **Sanary-sur-Mer**,
 **Noirmoutier-en-l'Île** (passage du Gois ; ⚠️ le slug de seed est `noirmoutier`, pas `noirmoutier-en-l-ile`), **Vitré**, **Lannion**, **Hendaye**, **Saint-Flour** et
 **Embrun**. Rappel des batches 26, 32, 34, 36, 40, 42 et 46 : **on choisit par matière touristique
@@ -2231,6 +2232,173 @@ seed sur 540 sans guide tourisme** ; gisements inchangés : **Saint-Herblain**, 
 bordelaises** (Villenave-d'Ornon, Talence, Le Bouscat) et les trous listés au batch 50 — Sedan,
 Firminy, Corte, Gérardmer, Les Andelys, Paray-le-Monial, Sanary-sur-Mer, Noirmoutier-en-l'Île
 (⚠️ slug de seed `noirmoutier`), Vitré, Lannion, Hendaye, Saint-Flour, Embrun.
+
+**Batch 52 — FR, shipped 2026-09-29 : Sedan, Corte, Les Andelys, Paray-le-Monial, Vitré, Firminy,
+Noirmoutier-en-l'Île.** Sept villes, sept régions, **toutes prises dans le vivier laissé par les
+batches 50 et 51** : pour la deuxième fois seulement depuis le batch 38, le lot n'a rien eu à
+arbitrer contre la liste. Il en reste six de ce vivier (**Gérardmer, Sanary-sur-Mer, Lannion,
+Hendaye, Saint-Flour, Embrun**), plus **Saint-Herblain** (écarté au batch 34 faute de matière) et
+les **trois banlieues bordelaises** jamais faites (Villenave-d'Ornon, Talence, Le Bouscat).
+⚠️ **Un nouveau slug hors gabarit, le neuvième, et le troisième en `aux-`** :
+`10-choses-a-faire-**aux**-andelys-2026` (« aux Andelys », le seed écrivant `les-andelys`). Le
+compte réel se prend toujours avec **`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'`**, et la
+table de correspondance à appliquer avant tout `comm` s'allonge : `puy-en-velay`→`le-puy-en-velay`,
+`tampon`→`le-tampon`, `francois`→`le-francois`, `robert`→`le-robert`, `lamentin`→`le-lamentin`,
+`cannet`→`le-cannet`, `abymes`→`les-abymes`, `andelys`→`les-andelys`,
+`sables-d-olonne`→`les-sables-d-olonne`. Le correctif du batch 32 tient : le résolveur de
+`app/villes/[slug]/a-faire/page.tsx` retrouve bien la forme contractée depuis `les-andelys`,
+vérifié après écriture.
+**Compteurs mesurés : FR 282 (`-a-` strict 273 + 6 en `au-` + 3 en `aux-`), EN 275 ; `GUIDES` 1 184
+→ 1 191.** `metaTitle` 33-43 caractères, `metaDesc` 123-146, 10 sections par guide, 1 109-1 241 mots,
+densité d'accents 0,131-0,169 **par mot** (seuil ascii-strip 0,09), **0 em-dash** sur les sept réunis.
+`npm run search-index` relancé (1 191 guides, **274 tags, inchangé** — aucun tag neuf n'a franchi le
+seuil de 3 guides, donc aucune page `/tags/` créée) et `npm run sitemap:check` repassé (FR **29 301
+URL**, EN 28 898, chaque URL déclarée a une page et réciproquement). Contrôle de lookup / photo passé
+**sur les 540 villes et les 282 guides de la série**, avec le résolveur recopié de la page :
+**282/282 atteignables, 0 orphelin, 0 collision**, et un seul guide sans photo d'en-tête,
+`10-choses-a-faire-a-vesoul-2026`, qui est le trou de pipeline photo relevé au batch 49 et pas une
+régression de ce lot.
+⚠️ **Le fait le plus utile du batch est une correction de ce fichier : à Firminy, ce n'est pas
+l'église Saint-Pierre qui est inscrite à l'UNESCO, c'est la Maison de la Culture.** Le batch 50
+inscrivait la ville au vivier avec la mention « dont l'église Saint-Pierre relève de l'inscription
+UNESCO de 2016 » : c'est faux, et la raison est une règle et non un hasard. L'œuvre architecturale de
+Le Corbusier a été inscrite le **17 juillet 2016** en **dix-sept sites**, et le seul retenu à Firminy
+est la **Maison de la Culture** (1961-1965, **112 m** de long, toit de béton suspendu à des câbles
+sans aucun appui intérieur, **classée MH en 1984**), **parce que c'est le seul bâtiment de la ville
+achevé du vivant de l'architecte**. Les trois autres sont posthumes en tout ou partie — église
+Saint-Pierre conçue en 1960 et **achevée en 2006** par José Oubrerie, unité d'habitation commencée en
+1965 (**cinquième au monde**), stade de 1965-1966 — donc hors périmètre. Le guide consacre une
+section entière à dire ce qui est inscrit et ce qui ne l'est pas, la confusion étant générale.
+⚠️ **Deuxième correction, du même genre que l'Hermione absente de Rochefort (batch 36) : la Via Vitae
+du musée du Hiéron a été partiellement volée.** La pièce maîtresse de Paray-le-Monial — **138
+statuettes chryséléphantines** d'or et d'ivoire achevées en **1904** par le joaillier **Joseph
+Chaumet**, classées **Trésor national en 2000** et acquises par le musée en **2005** — a fait l'objet
+d'un **braquage à main armée le 21 novembre 2024**, dont une partie de l'œuvre n'est pas revenue. Le
+guide renvoie à une vérification auprès du musée avant de se déplacer pour elle plutôt que de
+promettre ce qui n'est peut-être plus exposé.
+⚠️ **Troisième correction, de géographie, et elle structure le guide Noirmoutier : ni le passage du
+Gois ni le pont ne sont sur la commune.** Le **Gois** (4,15 km, **neuf balises de sauvetage numérotées
+de 1 à 9** espacées d'environ 500 m, praticable une heure et demie avant et après la basse mer) relie
+**Beauvoir-sur-Mer** à **Barbâtre**, à la pointe sud de l'île ; le **pont** relie **Fromentine**,
+commune de **La Barre-de-Monts**, à **Barbâtre** également. L'île compte **quatre communes** et
+Noirmoutier-en-l'Île est à une vingtaine de kilomètres de l'une comme de l'autre. Un lecteur qui
+réserve au bourg en croyant arriver au pied du Gois se trompe de bout d'île. La règle de marée est
+écrite comme **opposable** et non comme un conseil, et le guide dit que les balises existent parce que
+le cas se produit tous les ans.
+Autres faits vérifiés en ligne avant rédaction et qui portent les guides : **château de Sedan fondé en
+1424** par la famille de **La Marck**, chantier étalé sur environ un siècle et demi, **35 000 m²**
+d'enceinte pour jusqu'à **4 000 hommes**, murailles de **7 à 27 m** d'épaisseur, **principauté
+souveraine protestante jusqu'au rattachement de 1642** ; **Turenne né au château de Sedan le
+11 septembre 1611**, deuxième fils du duc de Bouillon, formé à la guerre chez ses oncles **Maurice et
+Frédéric-Henri de Nassau**, **maréchal de France en 1643** ; **Dijonval**, privilège accordé par
+**Fabert en 1646** à trois marchands parisiens, **seule manufacture royale de draps fins du royaume**,
+corps principal de **1755** et ailes en retour de **1778** ; **bataille de Sedan du 1er septembre
+1870**, capitulation signée le lendemain au **château de Bellevue**, **quelque 83 000 prisonniers**
+dont l'empereur, République proclamée le 4 ; **maison de la dernière cartouche à Bazeilles**, auberge
+**Bourgerie**, dernière cartouche tirée par le capitaine **Arsène Lambert**, scène fixée par le tableau
+d'**Alphonse de Neuville** ; **percée du 13 mai 1940**, **Guderian** ayant dissimulé bateaux et
+pontonniers dans les ruelles des usines textiles avant de passer la Meuse en canots pneumatiques en
+fin d'après-midi, le massif ardennais étant tenu par l'état-major français pour difficilement
+franchissable ; **Nid d'Aigle de Corte** du **XVe siècle** dans une citadelle du XVIIIe, **musée de la
+Corse ouvert le 21 juin 1997** sur un projet d'**Andrea Bruno** autour de la collection ethnographique
+du père **Louis Doazan** (~**3 000 objets**) ; **université fondée par Paoli en 1765**, fermée avec
+l'indépendance et **rouverte en 1981** ; **Restonica** site classé depuis **1966**, **lac de Melo
+1 711 m**, **lac de Capitello 1 930 m**, départ des **bergeries de Grotelle** au bout de la **D623**,
+**brèche de Capitello 2 080 m** sur le **GR20** ; **Château-Gaillard**, chantier ouvert en **1196** et
+forteresse debout en **1198**, de l'ordre de **6 000 personnes** sur le chantier, **siège d'environ six
+mois** et prise le **6 mars 1204** par Philippe Auguste, la Normandie entière tombant **en trois mois**
+ensuite ; **Poussin né en juin 1594 au hameau de Villers**, **musée Nicolas Poussin** dans une maison
+du XVIIIe avec une **mosaïque gallo-romaine du IIIe siècle** et un **Coriolan** de Poussin ;
+**collégiale Notre-Dame des Andelys** à orgue **Cavaillé-Coll** sur une tribune Renaissance signée
+**Étienne Delaune** ; **basilique de Paray bâtie 1090-1109** sous l'abbatiat de **saint Hugues**,
+**parallèlement au chantier de Cluny III** ; **Marguerite-Marie Alacoque (1647-1690)**, première vision
+le **27 décembre 1673**, grandes apparitions **1673-1675**, **monastère de la Visitation fondé en
+1626** ; **maison Jayet bâtie 1525-1528** pour **Pierre Jayet**, marchand de serge de laine, façade de
+première Renaissance appliquée sur du bâti plus ancien, **classée MH en 1875**, mairie **depuis 1862** ;
+**château de Vitré bâti vers 1050**, agrandi au XIIIe par **André III**, enceinte triangulaire,
+**classé MH en 1872**, mairie et musée ; **remparts des XIIIe-XVe**, environ **500 m** conservés ;
+**château des Rochers-Sévigné**, manoir du XVe dans la famille de Sévigné **depuis 1410**, **à 6 km du
+centre mais sur le territoire communal**, **16 séjours** et **297 lettres** de Madame de Sévigné
+(**1626-1696**), **chapelle octogonale de 1671** pour l'abbé de Coulanges, jardin sur un dessin de
+**Le Nôtre** restauré en **1982** ; **donjon de Noirmoutier** bâti fin XIIe par **Pierre V de la
+Garnache**, une vingtaine de mètres, l'un des mieux conservés du grand Ouest ; **crypte Saint-Philbert**
+abritant le corps du saint **de 690 à 836** avant les transferts vers **Déas, Cunault et Tournus**
+(fuite devant les raids scandinaves), **classée MH en 1898** ; **marais salants sur environ un tiers de
+l'île**, communes de Noirmoutier et de **L'Épine** ; **bois de la Chaise, 93 ha** au nord-est,
+mimosas, chênes verts et pins maritimes.
+⚠️ **Quatre chiffres volontairement omis, sources divergentes — ne pas les « compléter » au prochain
+run.** ① La **durée du chantier de Château-Gaillard** : les sources disent « en un an » et « de 1196 à
+1198 », le guide publie la divergence et s'en tient au fait que la forteresse est debout en 1198.
+② La **date du jardin des Rochers** : 1689 ou 1690 selon les sources, le guide écrit « à la fin des
+années 1680 » et dit qu'il ne tranche pas. ③ Le **classement MH du château de Noirmoutier**, donné
+1994 par une seule source : le guide dit « classé au titre des monuments historiques » sans l'année.
+④ La **hauteur exacte du donjon de Noirmoutier**, donnée « près de 20 m » : « une vingtaine de mètres ».
+Même doctrine qu'aux batches 46, 48 et 50.
+⚠️ **Une orthographe non tranchée** : la maison de Paray s'écrit **Jayet** sur les sources de l'office
+de tourisme et **Jaillet** ailleurs ; le guide retient Jayet, celle des sources locales. Ne pas
+« corriger » sans nouvelle source.
+⚠️ **Deux affirmations écrites au premier jet et retirées avant commit, toutes deux démenties par une
+mesure sur nos propres données** — même mode de défaillance qu'aux batches 40, 44, 46, 48 et 50, où
+ce sont les **rangs et les comparaisons** qui dérapent et jamais les dates prises une à une : ① Sedan
+donnée en effondrement démographique sans réserve, alors que le tri du département montre qu'elle
+**perd le plus sur onze ans (−9,6 %) et le moins sur la fenêtre récente (−0,7 %)**, devant
+Charleville-Mézières (−2,2 %) et Rethel (−3,0 %) : la chute est ancienne et s'est arrêtée, et les deux
+comptes sont désormais publiés ; ② Vitré présentée comme une ville qui profite de Rennes, alors qu'elle
+est **la première des quatre communes d'Ille-et-Vilaine du corpus à +10,4 %, devant Rennes à +9,5 %** —
+elle grandit plus vite que sa métropole, à 35 km à vol d'oiseau et pour un T3 à 800 € contre 1 100 €.
+Six prudences assumées dans la copie, à ne pas diluer : ① convention « **accessible depuis** » plutôt
+que « situé à » partout où le site relève d'une commune voisine — **Bazeilles** depuis Sedan,
+**Charleville-Mézières** (18 km à vol d'oiseau) et sa place Ducale, **Giverny qui est une commune à
+part entière** et **Vernon** (18 km) depuis Les Andelys, **Fougères** depuis Vitré, **Charolles et le
+Charolais** depuis Paray, le **massif du Pilat** et **Saint-Étienne** (10 km) depuis Firminy ;
+② l'**unité d'habitation de Firminy est un immeuble habité** et **Firminy-Vert un quartier habité**,
+dits comme tels avant toute phrase attrayante, même cadrage que les Minguettes (batch 28) et les cités
+Tase (batch 44) ; ③ les **bassins des marais salants sont un outil de travail sur propriété privée**,
+on regarde depuis les chemins ; ④ les **falaises de craie des Andelys se détachent par plaques**, avec
+le balisage qui fait foi, même règle qu'à Dieppe (batch 36) et Granville (batch 46) ; ⑤ l'**accès
+motorisé à la haute Restonica est réglementé en saison** et le dispositif change d'une année à l'autre,
+donc renvoi à l'office de tourisme et **pas à un calculateur d'itinéraire**, et les lacs sont écrits
+comme de la haute montagne (orage d'après-midi la règle en été) ; ⑥ **Paray est une ville sanctuaire**,
+donc le calendrier du sanctuaire commande les hébergements et l'accès à la chapelle des apparitions,
+qui reste un lieu de culte en activité et non un monument ouvert en permanence. Aucun horaire, aucun
+tarif, aucune figure en `/10` ; les seuls chiffres de population sont ceux de l'Insee 2022 lus dans
+`data/city-population.json` (Sedan 16 727, Corte 7 737, Les Andelys 7 822, Paray-le-Monial 9 256,
+Vitré 18 892, Firminy 17 128, Noirmoutier 4 502) — **pas les `population` approximatives du seed** — et
+les loyers et prix au m² viennent de `data/housing.ts`.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30 de
+génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut prescrit
+passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR 1 184 → 1 191),
+`search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**, 0 route FR sans
+jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo exhaustif ci-dessus et une
+vérification d'encodage (accents intacts, `m²` conservé, `œ` conservé, aucun `m2` / `EUR` / `deg`
+ascii, aucun mojibake, aucune apostrophe typographique). Note d'environnement reconfirmée : le
+conteneur de routine démarre **en HEAD détaché et sans `node_modules`** — `git checkout main` puis
+`npm install` d'abord.
+⚠️ Egress : la **recherche web fonctionne** et c'est par elle que tous les faits ci-dessus ont été
+recoupés sur plusieurs résultats plutôt que sur une fiche unique, méthode retenue depuis le batch 48.
+Écart FR→EN après ce batch : **7 villes** (sedan, corte, les-andelys, paray-le-monial, vitre, firminy,
+noirmoutier) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN**. Rappel de la
+règle du batch 33 : côté EN, le slug se dérive du **slug de seed tel quel**
+(`getEnGuide('things-to-do-in-' + slug + '-2026')`), donc
+**`things-to-do-in-les-andelys-2026` garde son article** (comme `le-cannet`, `le-tampon`,
+`les-sables-d-olonne`) et **`things-to-do-in-noirmoutier-2026` garde la forme courte du seed**, pas
+`noirmoutier-en-l-ile`. Cinq points de vigilance pour ces jumelles : ① **Château-Gaillard est de
+l'histoire anglaise avant d'être de l'histoire française** — Richard Cœur de Lion, la perte du duché
+anglo-normand, le siège de 1204 : la jumelle a de la matière propre là où le FR reste sobre, même
+arbitrage qu'avec Jubilee à Dieppe (batch 37), Cambrai (batch 39), Béthune (batch 41), Blagnac
+(batch 43) et Verdun (batch 47) ; ② **`things-to-do-in-corte-2026` est un slug ambigu en anglais**
+(*Corte* est un patronyme et un toponyme fréquents, et *Cortes* renvoie au parlement espagnol), l'intro
+doit poser la ville dès la première ligne, comme Orange (batch 37), Bergerac (batch 41) et Dax
+(batch 49) ; ③ **la correction UNESCO de Firminy est encore plus utile côté anglophone**, où « Le
+Corbusier UNESCO site » circule sans distinguer les dix-sept sites inscrits du reste ; ④ la **règle de
+marée du Gois** et le fait que **ni le Gois ni le pont ne sont sur la commune** sont à écrire comme des
+**règles opposables**, un visiteur étranger étant plus enclin à se fier à un GPS qu'à un horaire de
+marée ; ⑤ **Madame de Sévigné n'a pas d'équivalent anglophone évident** — la lettre comme genre
+littéraire se pose en une incise avant d'être utilisée.
+Pour le batch FR **suivant**, il reste **258 villes du seed sur 540 sans guide tourisme** (265 avant ce
+run) ; gisements nommés restants : **Saint-Herblain**, les **trois banlieues bordelaises**
+(Villenave-d'Ornon, Talence, Le Bouscat) et le reliquat du vivier du batch 50 — **Gérardmer,
+Sanary-sur-Mer, Lannion, Hendaye, Saint-Flour, Embrun**.
 
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et

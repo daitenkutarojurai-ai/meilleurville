@@ -59373,6 +59373,454 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Moissac", "activités Moissac 2026", "que faire en Tarn-et-Garonne", "sorties Occitanie art roman", "cloître roman tympan Art déco chasselas pont-canal"]
   },
+  {
+    slug: "10-choses-a-faire-a-sedan-2026",
+    title: "10 choses à faire à Sedan",
+    metaTitle: "10 choses à faire à Sedan en 2026",
+    metaDesc:
+      "Le plus grand château fort d'Europe, une principauté souveraine jusqu'en 1642, et deux défaites françaises au même gué : 10 activités à Sedan.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Sedan comptait 16 727 habitants au recensement de 2022, contre 16 846 en 2016 et 18 512 en 2011, soit un recul de 9,6 % sur onze ans. C'est la plus forte baisse des trois communes ardennaises que suit ce site, devant Charleville-Mézières à 7,7 % et Rethel à 3,7 %. Mais le détail compte plus que le total : sur la seule fenêtre 2016-2022, Sedan ne perd que 0,7 %, quand Charleville en perd 2,2 % et Rethel 3,0 %. La chute est ancienne, elle s'est arrêtée, et c'est aujourd'hui la commune du département qui se stabilise le mieux. On y loge un trois-pièces autour de 720 € et le mètre carré de référence tourne autour de 1 100 €. La ville tient en une phrase : elle a été un État souverain avant d'être française, elle en a gardé la plus grande forteresse d'Europe, et elle a vu la France perdre deux fois au même endroit, à soixante-dix ans d'écart.",
+    sections: [
+      {
+        heading: "1. Le château fort, et ses 35 000 m²",
+        body: "C'est le plus grand château fort d'Europe, et le chiffre qui le dit est sa surface : 35 000 m² d'enceinte, de quoi abriter jusqu'à quatre mille hommes. Les murailles vont de sept mètres d'épaisseur au plus mince à près de vingt-sept au plus épais, ce qui n'est pas une fantaisie de bâtisseur mais la réponse mécanique à l'artillerie qui apparaît pendant le chantier. On y entre par des rampes, on y monte par des tours, et le parcours emprunte des salles superposées sur sept niveaux. Comptez deux heures au minimum : le volume est tel qu'une visite pressée ne donne aucune idée du lieu."
+      },
+      {
+        heading: "2. Pourquoi il est si grand",
+        body: "La forteresse est fondée en 1424 par la famille de La Marck, et le chantier se poursuit sur environ un siècle et demi. C'est la clé de sa taille : un château qu'on agrandit pendant cent cinquante ans, en enveloppant à chaque fois l'état précédent, finit par contenir plusieurs châteaux emboîtés. On voit ce phénomène en coupe dans les salles basses, où les murs du XVe siècle se retrouvent au milieu du bâti au lieu d'être en périphérie. Ce n'est pas un palais devenu grand par prestige, c'est une place de guerre devenue grande par accumulation."
+      },
+      {
+        heading: "3. Une principauté souveraine, pas une ville de province",
+        body: "Voilà ce qu'on oublie en arrivant, et qui explique tout le reste : Sedan n'a pas été française avant 1642. C'était une principauté indépendante, protestante, entre la France et l'Empire, avec sa propre monnaie et son académie, et c'est cette souveraineté qui a payé la forteresse. Le rattachement à la France en 1642 est une confiscation politique, pas un mariage : le duc de Bouillon, prince souverain de Sedan, avait trempé dans les conspirations contre Richelieu. Regarder le château en sachant qu'il défendait un État et non une frontière change ce qu'on regarde."
+      },
+      {
+        heading: "4. Turenne est né ici",
+        body: "Henri de La Tour d'Auvergne, vicomte de Turenne, naît au château de Sedan le 11 septembre 1611, deuxième fils du duc de Bouillon. Il est élevé dans la religion réformée, et c'est chez ses oncles maternels, Maurice et Frédéric-Henri de Nassau, princes d'Orange, qu'il apprend la guerre aux Pays-Bas. Il deviendra l'un des plus grands chefs de guerre de l'histoire de France, maréchal de France en 1643, au service du roi qui avait annexé sa ville natale l'année précédente. Le paradoxe vaut d'être tenu en tête en traversant la cour : le meilleur général de Louis XIV est né sujet d'un autre prince."
+      },
+      {
+        heading: "5. Le Dijonval et le drap de Sedan",
+        body: "Après le rattachement, Fabert accorde en 1646 à trois marchands parisiens le privilège de fabriquer des draps noirs à la manière de la Hollande, et le Dijonval devient la seule manufacture royale de draps fins du royaume. Le bâtiment qu'on voit aujourd'hui date du siècle suivant : corps principal de 1755, ailes en retour de 1778, conçus selon un projet de palais-usine. Le drap de Sedan a habillé la cour et l'armée pendant deux siècles, la mécanisation et la machine à vapeur sont arrivées au XIXe, et l'industrie s'est éteinte au XXe. C'est l'autre moitié de l'histoire locale, celle qui explique la démographie."
+      },
+      {
+        heading: "6. Le 1er septembre 1870",
+        body: "L'armée de Châlons, commandée par Napoléon III, se fait enfermer dans la cuvette de Sedan par les armées allemandes. La bataille se livre le 1er septembre, la capitulation est signée le lendemain au château de Bellevue, sur les hauteurs, et quelque quatre-vingt-trois mille hommes sont faits prisonniers, l'empereur compris. Deux jours plus tard, à Paris, la République est proclamée. Sedan n'est pas une bataille parmi d'autres : c'est le nom sous lequel le Second Empire s'effondre, et il est resté dans la langue politique française pendant un siècle comme synonyme de débâcle."
+      },
+      {
+        heading: "7. Bazeilles, à quelques kilomètres",
+        body: "Le combat le plus raconté de la journée n'a pas eu lieu à Sedan mais à Bazeilles, commune voisine, et c'est là qu'il faut aller le voir. Des soldats de l'infanterie de marine s'y sont retranchés dans une auberge, l'auberge Bourgerie, et y ont tenu des heures en économisant leurs munitions ; la dernière cartouche est tirée par le capitaine Arsène Lambert, et les survivants sont épargnés par un officier bavarois. La maison est aujourd'hui un musée, la Maison de la dernière cartouche, et la scène a été fixée par le tableau d'Alphonse de Neuville qui lui a donné son nom. Il faut un véhicule, ou se renseigner sur les liaisons locales."
+      },
+      {
+        heading: "8. Mai 1940, au même endroit",
+        body: "Le 10 mai 1940, la Wehrmacht traverse le Luxembourg et la Belgique et engage ses blindés dans le massif ardennais, que l'état-major français tenait pour difficilement franchissable. Le 13 mai en fin d'après-midi, l'infanterie allemande passe la Meuse en canots pneumatiques à Sedan ; Guderian avait dissimulé bateaux et pontonniers dans les ruelles des usines textiles, hors de portée de l'artillerie française. La percée ouvre la route de la Manche et décide de la campagne de France en quelques jours. Sedan, c'est donc deux fois le même gué, la même vallée et la même surprise, à soixante-dix ans d'intervalle, et c'est ce qui rend la géographie de la ville lisible sur le terrain."
+      },
+      {
+        heading: "9. La Meuse, et Charleville-Mézières",
+        body: "La Meuse traverse la ville et se suit à pied ou à vélo par les chemins de halage, vers l'amont ou vers l'aval, sans dénivelé. En descendant la vallée on atteint Charleville-Mézières, à dix-huit kilomètres à vol d'oiseau, avec sa place Ducale du XVIIe siècle et la maison où Rimbaud a grandi : c'est une commune à part entière et une sortie d'une demi-journée, pas une extension de Sedan. Plus au nord, la vallée se resserre dans la forêt ardennaise en méandres encaissés, et c'est là que le paysage devient réellement particulier."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Sedan a une gare sur la ligne de Charleville-Mézières à Longwy, avec des liaisons régionales et une desserte vers Paris via Charleville ; la fréquence est celle d'une gare moyenne et se vérifie avant de bâtir une journée dessus. Le château est à un quart d'heure à pied du centre. Une journée pleine suffit pour la forteresse, le Dijonval et une boucle en ville. Deux si l'on ajoute Bazeilles et la descente de la Meuse. La belle saison va d'avril à octobre : le château est en grande partie à ciel ouvert, et les Ardennes sont un des coins les plus humides de France."
+      }
+    ],
+    relatedCities: ["sedan", "charleville-mezieres", "reims", "verdun"],
+    relatedGuides: [
+      "10-choses-a-faire-a-charleville-mezieres-2026",
+      "10-choses-a-faire-a-verdun-2026",
+      "10-choses-a-faire-a-reims-2026",
+      "10-choses-a-faire-a-metz-2026"
+    ],
+    tags: ["10 choses à faire à Sedan", "activités Sedan 2026", "que faire dans les Ardennes", "sorties Grand Est patrimoine militaire", "château fort principauté drap 1870 1940"]
+  },
+  {
+    slug: "10-choses-a-faire-a-corte-2026",
+    title: "10 choses à faire à Corte",
+    metaTitle: "10 choses à faire à Corte en 2026",
+    metaDesc:
+      "La capitale de la Corse indépendante, un musée dans une citadelle, une université rouverte après deux siècles : 10 activités à Corte.",
+    category: "tourisme",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Corte comptait 7 737 habitants au recensement de 2022, contre 7 389 en 2016 et 7 098 en 2011, soit une progression de 9,0 % sur onze ans. C'est la deuxième des trois communes de Haute-Corse que suit ce site, derrière Bastia et ses 10,6 %, devant Calvi et ses 2,2 %. La particularité est ailleurs : Corte est de loin la moins chère des trois, avec un mètre carré de référence autour de 2 200 € contre 3 200 € à Bastia et 3 500 € à Calvi, et un trois-pièces autour de 870 € contre 1 100 € dans les deux autres. C'est ce qu'on obtient quand une ville grandit sans littoral. Corte est à l'intérieur, au confluent de deux vallées, et c'est la seule ville corse dont le sujet ne soit ni la mer ni le tourisme balnéaire mais l'histoire politique de l'île.",
+    sections: [
+      {
+        heading: "1. La citadelle et le Nid d'Aigle",
+        body: "Elle est plantée sur un piton rocheux au-dessus du confluent, et sa partie la plus ancienne, le donjon qu'on appelle le Nid d'Aigle, remonte au XVe siècle. L'ensemble fortifié qui l'entoure est du XVIIIe. On y monte par la ville haute, et la montée fait partie de la visite : les rues sont pentues, pavées, et le point de vue change tous les vingt mètres. C'est la seule citadelle de Corse construite à l'intérieur des terres, toutes les autres étant des places côtières, et cette anomalie dit exactement à quoi elle servait, c'est-à-dire à tenir le centre de l'île."
+      },
+      {
+        heading: "2. Le musée de la Corse",
+        body: "Il est installé dans la citadelle et il a ouvert le 21 juin 1997, sur un projet de l'architecte Andrea Bruno, qui a inséré le bâtiment dans la forteresse au lieu de le poser à côté. Le noyau des collections est la collection ethnographique réunie par le père Louis Doazan, l'un des pionniers de l'ethnographie corse, soit environ trois mille objets de la Corse traditionnelle, enrichie depuis de peintures, d'arts graphiques, de photographies anciennes, d'une bibliothèque patrimoniale et d'archives sonores. Le parcours est organisé en deux espaces permanents, la galerie Doazan et le musée en train de se faire, plus des expositions temporaires. C'est le musée de référence sur la société insulaire, et il ne se visite pas en vingt minutes."
+      },
+      {
+        heading: "3. La capitale d'un État qui a existé",
+        body: "Pascal Paoli fait de Corte la capitale de la Corse indépendante au XVIIIe siècle, et ce n'est pas une formule de brochure : il y a eu un gouvernement, une constitution, une monnaie et une administration. La séquence est brève, elle se termine par la conquête française, mais elle a laissé à la ville un statut qu'aucune autre n'a en Corse. C'est ici qu'on vient si l'on veut comprendre pourquoi l'île a une relation particulière à sa propre histoire politique, et c'est ce qui donne son sens au musée installé au-dessus."
+      },
+      {
+        heading: "4. L'université",
+        body: "Paoli fonde l'université de Corse à Corte en 1765. Elle ferme avec la fin de l'indépendance et reste fermée plus de deux siècles, jusqu'à sa réouverture en 1981. Aujourd'hui elle est la seule université de l'île et elle fait de cette commune de moins de huit mille habitants une ville étudiante, ce qui se voit immédiatement dans les rues, dans les cafés et dans la démographie. C'est aussi ce qui explique une partie de la croissance mesurée plus haut : Corte grandit parce qu'on y étudie, pas parce qu'on y passe l'été."
+      },
+      {
+        heading: "5. La ville haute",
+        body: "Entre le bas de la ville et la citadelle, les ruelles montent en escaliers entre des maisons de schiste hautes et étroites, et c'est le meilleur endroit pour perdre une heure sans programme. Le belvédère aménagé au pied de la citadelle donne d'un côté sur la vallée de la Restonica, de l'autre sur celle du Tavignano, et l'on comprend d'un coup d'œil la logique du site : la ville est posée sur l'éperon qui sépare deux gorges. Aucune carte ne fait passer cela aussi bien que cinq minutes sur place."
+      },
+      {
+        heading: "6. Les gorges de la Restonica",
+        body: "Elles remontent vers le sud-ouest depuis la ville, par la D623, une route étroite et sinueuse qui grimpe jusqu'aux bergeries de Grotelle. Le site est classé depuis 1966 et relève du parc naturel régional de Corse. L'eau y est très froide toute l'année et les vasques, très photographiées, sont profondes et glissantes. Important : l'accès motorisé à la haute vallée est réglementé en saison, avec des dispositifs qui changent d'une année à l'autre. Renseignez-vous auprès de l'office de tourisme ou de la commune avant de partir, ne vous fiez pas à un calculateur d'itinéraire."
+      },
+      {
+        heading: "7. Les lacs de Melo et de Capitello",
+        body: "Ce sont deux lacs glaciaires en haut de la Restonica, et c'est la randonnée la plus fréquentée de Corse. Melo est à 1 711 mètres, Capitello à 1 930 mètres, et le départ se fait des bergeries de Grotelle, au bout de la route. On atteint Melo d'abord ; la montée vers Capitello passe à droite du premier lac et se fait sur un terrain rocheux et raide. Au-dessus, la brèche de Capitello, à 2 080 mètres, est sur le GR20. C'est de la vraie montagne : chaussures adaptées, départ tôt, et l'orage d'après-midi est la règle en été, pas l'exception."
+      },
+      {
+        heading: "8. La vallée du Tavignano",
+        body: "C'est l'autre gorge, et elle a un avantage décisif sur la Restonica : aucune route ne la remonte. On y entre à pied depuis la ville haute, par un sentier muletier qui part sous la citadelle et suit le versant en balcon au-dessus du torrent. La conséquence est immédiate, il y a dix fois moins de monde que dans la vallée voisine pour un paysage de la même famille, et l'on peut faire demi-tour quand on veut puisqu'on part du centre. Si vous n'avez qu'une demi-journée et pas de voiture, c'est celle-là qu'il faut prendre."
+      },
+      {
+        heading: "9. Le train",
+        body: "Corte est sur la ligne des chemins de fer de la Corse, entre Bastia et Ajaccio, à une cinquantaine de kilomètres à vol d'oiseau de la première et une cinquantaine de la seconde. Le trajet, sur voie métrique, franchit le centre de l'île par des viaducs et des tunnels, et c'est un des rares endroits où le train est plus intéressant que la route pour le paysage et non seulement pour le confort. Cela fait aussi de Corte une base sans voiture crédible pour l'intérieur de l'île, ce qui est rare en Corse. Horaires et fréquences se vérifient avant de réserver."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "On arrive par le train depuis Bastia ou Ajaccio, ou par la route, et les aéroports les plus proches sont ceux de ces deux villes. Deux jours sont le bon format : un pour la citadelle, le musée et la ville haute, un pour une des deux vallées. Trois si vous voulez les lacs sans courir. La meilleure période va de mai à octobre, avec une réserve sur juillet et août, où la Restonica est saturée et où l'accès est le plus contraint. Le printemps donne les torrents en eau et les cols encore enneigés en arrière-plan, et c'est probablement le meilleur moment."
+      }
+    ],
+    relatedCities: ["corte", "bastia", "ajaccio", "calvi"],
+    relatedGuides: [
+      "10-choses-a-faire-a-bastia-2026",
+      "10-choses-a-faire-a-ajaccio-2026",
+      "10-choses-a-faire-a-calvi-2026",
+      "10-choses-a-faire-a-porto-vecchio-2026"
+    ],
+    tags: ["10 choses à faire à Corte", "activités Corte 2026", "que faire en Haute-Corse", "sorties Corse montagne", "citadelle musée Paoli Restonica Tavignano"]
+  },
+  {
+    slug: "10-choses-a-faire-aux-andelys-2026",
+    title: "10 choses à faire aux Andelys",
+    metaTitle: "10 choses à faire aux Andelys en 2026",
+    metaDesc:
+      "Château-Gaillard bâti en deux ans par Richard Cœur de Lion, un siège de six mois en 1204, Poussin né tout près : 10 activités aux Andelys.",
+    category: "tourisme",
+    emoji: "⚔️",
+    readMinutes: 7,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Les Andelys comptaient 7 822 habitants au recensement de 2022, contre 8 098 en 2016 et 8 192 en 2011, soit un recul de 4,5 % sur onze ans. C'est la dernière des quatre communes de l'Eure que suit ce site, et elle recule sur les deux fenêtres, avec 3,4 % perdus sur la seule période 2016-2022, quand Vernon gagne 4,8 % et Louviers en perd 1,0 %. Le trois-pièces y tourne autour de 890 € et le mètre carré de référence autour de 1 900 €, à peu près le niveau de Louviers et nettement sous Vernon. Une ville qui se vide, donc, et qui porte pourtant l'une des ruines les plus célèbres d'Europe : la forteresse que Richard Cœur de Lion a fait bâtir en deux ans pour barrer la Seine à Philippe Auguste, et qui a fini par tomber quand même.",
+    sections: [
+      {
+        heading: "1. Château-Gaillard",
+        body: "Il domine la boucle de la Seine depuis un éperon calcaire, et c'est une ruine, ce qu'il faut savoir avant de monter : on visite des murs, pas des salles meublées. Cela ne diminue rien, parce que ce qui se lit sur place est précisément la structure défensive, avec ses enceintes emboîtées, son fossé taillé dans la roche et son donjon aux murs à redents, une invention pour dévier les projectiles. La montée depuis le Petit-Andely prend une vingtaine de minutes à pied, et il existe un accès routier par le haut. Le point de vue seul justifierait le déplacement."
+      },
+      {
+        heading: "2. Un chantier record",
+        body: "Richard Cœur de Lion ouvre le chantier en 1196 et la forteresse est debout en 1198 : selon les sources, on parle d'un an ou de deux pour l'essentiel de l'ouvrage, et ce guide ne tranche pas ce que les chroniques n'ont pas tranché. Ce qui est sûr, c'est l'ordre de grandeur des moyens engagés, de l'ordre de six mille personnes sur le chantier dans des conditions très dures. L'objectif était limpide : verrouiller la Seine en aval de Paris et protéger Rouen, donc le duché anglo-normand, contre le roi de France. Bâtir vite était l'intérêt militaire, et le prix payé en main-d'œuvre et en argent a été considérable."
+      },
+      {
+        heading: "3. Le siège de 1204",
+        body: "Richard meurt en 1199, et cinq ans plus tard Philippe Auguste met le siège devant la place. Il tient environ six mois et tombe le 6 mars 1204. Le reste va très vite : la Normandie entière est conquise en trois mois. Autrement dit, la forteresse a rempli sa fonction tant qu'elle a tenu et l'a perdue en une journée, et c'est cet enchaînement qui fait de Château-Gaillard un objet d'étude et non seulement une belle ruine. Pour un lecteur britannique, c'est l'endroit où le duché de Normandie cesse d'être anglo-normand."
+      },
+      {
+        heading: "4. Deux villes en une",
+        body: "Les Andelys sont la réunion de deux bourgs qu'on distingue encore parfaitement. Le Grand-Andely est le plus ancien, à l'intérieur des terres, autour de sa collégiale. Le Petit-Andely est né plus tard au bord de la Seine, au pied du château, et il est le produit direct de la forteresse : on l'a bâti pour la servir. Ils sont à un peu plus d'un kilomètre l'un de l'autre et la promenade entre les deux est le meilleur résumé de l'histoire locale, une ville d'église et une ville de garnison qui ont fini par former une commune."
+      },
+      {
+        heading: "5. La collégiale Notre-Dame",
+        body: "Elle est au Grand-Andely et ses dimensions sont celles d'une cathédrale, ce qui surprend dans une commune de cette taille. L'extérieur porte deux époques bien visibles : des formes flamboyantes au sud, des colonnes, des pilastres et des frises Renaissance au nord. À l'intérieur, l'orgue est un Cavaillé-Coll, logé dans une tribune de menuiserie Renaissance signée Étienne Delaune et sculptée de vertus, d'arts libéraux, de sciences et de divinités mythologiques, ce qui est un programme profane inattendu dans une église. On y entre librement dans la journée, en vérifiant les horaires avant de se déplacer pour elle."
+      },
+      {
+        heading: "6. Nicolas Poussin",
+        body: "Le peintre naît en juin 1594 au hameau de Villers, sur le territoire de la commune, et c'est la deuxième célébrité locale après Richard Cœur de Lion. Poussin part très jeune, fait sa carrière à Rome et devient la référence du classicisme français ; il n'a pratiquement pas travaillé ici. Il faut le dire dans cet ordre, parce qu'on ne vient pas aux Andelys voir des Poussin comme on va à Giverny voir le jardin de Monet : on vient voir où il est né, ce qui est autre chose."
+      },
+      {
+        heading: "7. Le musée Nicolas Poussin",
+        body: "Il occupe une maison du XVIIIe siècle au Grand-Andely. Les collections mêlent mobilier du XVIIIe, objets religieux, vitraux, peintures des XIXe et XXe siècles et une mosaïque gallo-romaine du IIIe siècle, plus un tableau de Poussin lui-même, un Coriolan. C'est un musée de ville moyenne, il faut arriver avec les attentes qui vont avec, et c'est justement ce qui le rend intéressant : on y voit ce qu'une commune de huit mille habitants a réussi à réunir autour d'un nom. Ouvertures à vérifier avant de venir."
+      },
+      {
+        heading: "8. La boucle de la Seine",
+        body: "Le fleuve fait ici un méandre serré entre des falaises de craie, et c'est le paysage qui a décidé de l'emplacement du château. On le regarde depuis les hauteurs, au-dessus de la forteresse, et c'est l'une des vues les plus connues de la vallée de la Seine. Les coteaux sont des falaises vives, qui se détachent par plaques comme sur toute la craie normande : restez sur les sentiers balisés et à distance du bord, ce n'est pas un conseil de prudence mais la conséquence de la géologie locale."
+      },
+      {
+        heading: "9. Vernon et Giverny, à côté",
+        body: "Vernon est à dix-huit kilomètres à vol d'oiseau en remontant la Seine, avec son Vieux-Moulin posé sur les piles d'un pont médiéval et son musée Blanche Hoschedé-Monet, rebaptisé en 2024 et que les panneaux désignaient encore sous son ancien nom. De Vernon, Giverny est à quelques kilomètres, et c'est une commune à part entière : le jardin de Monet ne se visite pas depuis Les Andelys, il se visite depuis Giverny, en comptant le trajet. Rouen est à quarante et un kilomètres à vol d'oiseau et se traite comme une journée séparée."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Il n'y a pas de gare aux Andelys : la desserte ferroviaire la plus proche est celle de Gaillon-Aubevoye ou de Vernon, et il faut ensuite un car ou un véhicule. C'est la contrainte principale du séjour et elle se règle avant de partir, pas sur place. Une journée suffit largement pour le château, les deux bourgs, la collégiale et le point de vue. Une demi-journée de plus si l'on ajoute le musée et les bords de Seine. La forteresse étant entièrement à ciel ouvert, la bonne période va d'avril à octobre, et la lumière du matin sur la craie est celle qui a fait la réputation du site."
+      }
+    ],
+    relatedCities: ["les-andelys", "vernon", "rouen", "evreux"],
+    relatedGuides: [
+      "10-choses-a-faire-a-vernon-2026",
+      "10-choses-a-faire-a-rouen-2026",
+      "10-choses-a-faire-a-evreux-2026",
+      "10-choses-a-faire-a-honfleur-2026"
+    ],
+    tags: ["10 choses à faire aux Andelys", "activités Les Andelys 2026", "que faire dans l'Eure", "sorties Normandie châteaux", "Château-Gaillard Richard Cœur de Lion Poussin Seine"]
+  },
+  {
+    slug: "10-choses-a-faire-a-paray-le-monial-2026",
+    title: "10 choses à faire à Paray-le-Monial",
+    metaTitle: "10 choses à faire à Paray-le-Monial en 2026",
+    metaDesc:
+      "Une basilique bâtie en même temps que Cluny et qui lui a survécu, des apparitions de 1673, un trésor national amputé : 10 activités à Paray.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Paray-le-Monial comptait 9 256 habitants au recensement de 2022, contre 9 160 en 2016 et 9 094 en 2011, soit une progression de 1,8 % sur onze ans. C'est la deuxième des quatre communes de Saône-et-Loire que suit ce site, derrière Mâcon et ses 3,1 %, et l'une des deux seules qui gagnent des habitants : Chalon-sur-Saône recule de 0,6 % et Autun de 8,9 %. C'est aussi la moins chère des quatre, avec un trois-pièces autour de 720 € et un mètre carré de référence autour de 1 300 €, contre 2 100 € à Mâcon. La ville doit tout à deux faits séparés de six siècles : une église romane bâtie en même temps que la plus grande abbaye d'Occident, et une religieuse qui a vu le Christ dans une chapelle en 1673.",
+    sections: [
+      {
+        heading: "1. La basilique du Sacré-Cœur",
+        body: "Elle est bâtie entre 1090 et 1109, sous l'abbatiat de saint Hugues, c'est-à-dire exactement pendant le chantier de Cluny III. Les proportions, l'élévation à trois niveaux, le chevet à chapelles rayonnantes, les volumes emboîtés du clocher : tout y est une version réduite de ce qui se faisait alors à Cluny. C'est une des grandes églises romanes de Bourgogne, et elle se visite d'abord par l'extérieur, depuis le chevet et depuis la rive de la Bourbince, avant d'entrer."
+      },
+      {
+        heading: "2. Ce que Paray conserve et que Cluny a perdu",
+        body: "Voilà la raison pour laquelle cette église compte plus que sa taille ne le laisse croire. Cluny III a été la plus vaste église de la chrétienté et elle a été vendue puis démolie après la Révolution : il n'en reste qu'un fragment. Paray, bâtie en même temps et sur le même parti architectural, est donc le témoin à peu près intact de ce qui a disparu, un modèle à échelle réduite de l'original perdu. On ne regarde pas la même chose selon qu'on sait cela ou non, et c'est ce qui fait de cette commune de neuf mille habitants une étape obligée pour qui s'intéresse à l'art roman."
+      },
+      {
+        heading: "3. Marguerite-Marie Alacoque",
+        body: "Née en 1647, morte en 1690, elle entre chez les visitandines de Paray et y reçoit, à partir du 27 décembre 1673, une série de visions du Christ montrant son cœur. Les grandes apparitions s'échelonnent de 1673 à 1675. Le jésuite Claude La Colombière, en poste à Paray, la soutient à un moment où ce genre de récit expose surtout celle qui le porte. La dévotion au Sacré-Cœur, l'une des plus répandues du catholicisme des trois derniers siècles, part de cette poignée d'années dans cette ville-là."
+      },
+      {
+        heading: "4. La chapelle de la Visitation",
+        body: "C'est le lieu même des apparitions, dans le monastère de la Visitation fondé en 1626 à la demande des jésuites. On y entre, et c'est un espace modeste, sans commune mesure avec la basilique : un lecteur qui arrive en attendant un grand édifice sera décontenancé, et c'est justement l'intérêt du contraste. Le sanctuaire reste un lieu de culte en activité et pas un monument ouvert en permanence pour la visite, donc l'accès dépend des offices et des temps de prière."
+      },
+      {
+        heading: "5. Comprendre le pèlerinage avant de venir",
+        body: "Paray est une ville sanctuaire, et cela change concrètement un séjour. Pendant les sessions et les grands rassemblements, la population de la commune est multipliée, les hébergements se remplissent longtemps à l'avance, la circulation se complique et certains lieux ne sont pas visitables comme en temps ordinaire. Ce n'est ni un avantage ni un inconvénient en soi, mais c'est une information à avoir avant de réserver : consultez le calendrier du sanctuaire, pas seulement celui de l'office de tourisme."
+      },
+      {
+        heading: "6. La maison Jayet, qui est la mairie",
+        body: "Bâtie de 1525 à 1528 pour Pierre Jayet, riche marchand de serge de laine, c'est une façade de la première Renaissance, celle des châteaux de la Loire, appliquée sur des constructions plus anciennes. Elle est couverte de médaillons, de coquilles, de colonnettes et de putti musiciens, et l'abondance du décor est un message : elle célèbre la mémoire de celui qui l'a payée. Elle est classée au titre des monuments historiques depuis 1875 et la mairie y est installée depuis 1862. On la regarde depuis la rue, il n'y a rien d'autre à faire."
+      },
+      {
+        heading: "7. Le musée du Hiéron, et un avertissement",
+        body: "C'est un des rares bâtiments français conçus dès l'origine comme un musée, à la fin du XIXe siècle, et il est aujourd'hui protégé au titre des monuments historiques et labellisé Musée de France. Sa pièce maîtresse est la Via Vitae de Joseph Chaumet, joaillier parisien, achevée en 1904 : cent trente-huit statuettes chryséléphantines, or et ivoire, qui déroulent la vie du Christ. Elle a été classée Trésor national en 2000 et acquise par le musée en 2005. Mais une partie de l'œuvre a été volée lors d'un braquage à main armée le 21 novembre 2024, et son état de présentation a changé : vérifiez auprès du musée avant de faire le déplacement pour elle."
+      },
+      {
+        heading: "8. La Bourbince et le canal du Centre",
+        body: "La rivière longe le chevet de la basilique et lui offre son meilleur point de vue, celui de toutes les photographies. Le canal du Centre passe à proximité et se suit par son chemin de halage, à pied ou à vélo, sans dénivelé, vers Digoin à l'ouest ou vers Montceau à l'est. C'est le contrepoint utile à une journée d'églises : de l'eau, des écluses et des péniches, dans une campagne que rien ne signale et qui est très calme."
+      },
+      {
+        heading: "9. Le Charolais autour",
+        body: "Paray est au cœur du pays charolais, celui de la race bovine qui porte son nom et qu'on voit dans les prés dès la sortie de la ville. Le paysage est un bocage de collines basses, très vert, avec un habitat dispersé et un semis d'églises romanes de campagne qui appartiennent à la même famille que la basilique en beaucoup plus petit. Charolles, la sous-préfecture, et les villages alentour se rejoignent en voiture et sont des communes à part entière : c'est une excursion d'une demi-journée, pas une promenade depuis le centre."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Paray-le-Monial a une gare, sur l'axe qui relie la vallée de la Loire à la Bourgogne du sud, avec des liaisons régionales ; la fréquence est modeste et se vérifie avant de bâtir un séjour dessus. Mâcon est à cinquante-sept kilomètres à vol d'oiseau, Autun à autant. Une journée suffit pour la basilique, la chapelle, le Hiéron et la maison Jayet, tous à distance de marche les uns des autres. Deux si l'on ajoute le canal et le Charolais. La basilique se visite toute l'année ; le reste est plus agréable d'avril à octobre."
+      }
+    ],
+    relatedCities: ["paray-le-monial", "autun", "macon", "chalon-sur-saone"],
+    relatedGuides: [
+      "10-choses-a-faire-a-autun-2026",
+      "10-choses-a-faire-a-macon-2026",
+      "10-choses-a-faire-a-chalon-sur-saone-2026",
+      "10-choses-a-faire-a-beaune-2026"
+    ],
+    tags: ["10 choses à faire à Paray-le-Monial", "activités Paray-le-Monial 2026", "que faire en Saône-et-Loire", "sorties Bourgogne art roman", "basilique Cluny Sacré-Cœur Hiéron Charolais"]
+  },
+  {
+    slug: "10-choses-a-faire-a-vitre-2026",
+    title: "10 choses à faire à Vitré",
+    metaTitle: "10 choses à faire à Vitré en 2026",
+    metaDesc:
+      "Un château des Marches de Bretagne, une ville close presque intacte, le manoir de Madame de Sévigné : 10 activités à Vitré.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Vitré comptait 18 892 habitants au recensement de 2022, contre 17 884 en 2016 et 17 106 en 2011, soit une progression de 10,4 % sur onze ans. C'est la première des quatre communes d'Ille-et-Vilaine que suit ce site, devant Rennes et ses 9,5 %, Saint-Malo et ses 4,5 % et Dinard et ses 1,7 %. Une commune de dix-neuf mille habitants qui grandit plus vite que sa métropole n'est pas un cas courant, et le loyer explique une partie du mouvement : un trois-pièces y tourne autour de 800 € contre 1 100 € à Rennes, à trente-cinq kilomètres à vol d'oiseau et une demi-heure de train. Ce que le visiteur vient voir, en revanche, n'a rien à voir avec cela : une forteresse des Marches de Bretagne et une ville médiévale qui a conservé son plan, ses remparts et ses maisons de bois.",
+    sections: [
+      {
+        heading: "1. Le château",
+        body: "Il est bâti vers 1050 sur un éperon rocheux, puis agrandi au XIIIe siècle par André III, et son enceinte dessine un triangle qui suit la forme du rocher. Il est classé au titre des monuments historiques depuis 1872. La particularité, qui déroute au premier abord, est qu'il abrite aujourd'hui à la fois la mairie et le musée d'art et d'histoire : on entre dans une forteresse médiévale et l'on croise des services municipaux. Le chemin de ronde et les tours se parcourent, et la vue depuis le haut donne le plan de la ville d'un seul coup d'œil."
+      },
+      {
+        heading: "2. Les Marches de Bretagne",
+        body: "C'est ce qui explique pourquoi une forteresse de cette taille se dresse ici plutôt qu'ailleurs. Les Marches étaient la zone frontière entre le duché de Bretagne et le royaume de France, hérissée de places fortes tenues par des familles puissantes et chargées de défendre l'indépendance ducale. Vitré est l'une d'elles, avec Fougères au nord et Châteaubriant au sud. Regarder le château sans cette carte en tête revient à voir un beau monument ; avec elle, on voit un dispositif, et l'on comprend pourquoi la ville qui l'entoure a été fortifiée avec la même énergie."
+      },
+      {
+        heading: "3. La ville close et les remparts",
+        body: "L'enceinte des XIIIe au XVe siècle ceinture le promontoire sur lequel la ville et le château sont posés, et il en subsiste environ cinq cents mètres, ce qui est considérable pour une commune de cette taille. Le mur de schiste du XIIIe siècle est bien conservé, et l'on suit son tracé par des rues extérieures qui en épousent la courbe. C'est un des rares endroits de Bretagne où l'on peut encore faire à peu près le tour d'une ville close en marchant, et cela prend une petite heure sans se presser."
+      },
+      {
+        heading: "4. Les maisons à pans de bois",
+        body: "La rue Baudrairie, la rue Poterie, la rue d'Embas : le centre ancien aligne des façades à pans de bois et à porches, en encorbellement au-dessus de la rue, dont certaines remontent aux XVe et XVIe siècles. Ce sont des maisons de marchands, et la ville doit sa prospérité d'alors au commerce de la toile de chanvre exportée jusqu'en Espagne et aux Amériques. C'est le meilleur usage possible d'une heure sans programme à Vitré, et c'est gratuit."
+      },
+      {
+        heading: "5. Notre-Dame",
+        body: "L'église domine le haut de la ville et sa façade sud, sur la place, est une succession de pignons à crochets en gothique flamboyant, une forme très bretonne et assez rare ailleurs. On y trouve aussi, sur cette façade extérieure, une chaire à prêcher en pierre, dispositif destiné aux prédications en plein air. L'intérieur porte des verrières anciennes. Comme pour toute église paroissiale en activité, les horaires d'ouverture se vérifient avant de se déplacer pour elle."
+      },
+      {
+        heading: "6. Le faubourg du Rachapt",
+        body: "En contrebas des remparts, le long de la Vilaine, ce quartier de maisons basses n'a rien de spectaculaire et c'est pour cela qu'il faut y descendre : c'est le Vitré populaire, celui des tanneurs et des artisans, par opposition à la ville close des marchands et du château. On y voit le rempart depuis l'extérieur et par le bas, ce qui donne enfin son échelle à l'ouvrage, et le chemin le long de la rivière ramène doucement vers le centre."
+      },
+      {
+        heading: "7. Le château des Rochers-Sévigné",
+        body: "C'est un manoir gothique du XVe siècle, dans la famille de Sévigné depuis 1410, situé à six kilomètres du centre mais sur le territoire de la commune : il faut un véhicule ou un vélo, ce n'est pas une promenade depuis la gare. Madame de Sévigné y a fait seize séjours et y a écrit deux cent quatre-vingt-dix-sept lettres, principalement à sa fille la comtesse de Grignan. La chapelle octogonale a été bâtie en 1671 pour son oncle l'abbé de Coulanges. Le jardin à la française a été tracé à la fin des années 1680 sur un dessin d'André Le Nôtre, à la demande de son fils Charles, et restauré en 1982 ; les sources consultées donnent 1689 ou 1690 pour sa création, et ce guide ne tranche pas."
+      },
+      {
+        heading: "8. Madame de Sévigné",
+        body: "Née en 1626, morte en 1696, elle est l'une des grandes prosatrices françaises et son œuvre entière tient en lettres, ce qui est une singularité. Aux Rochers, elle écrit, elle s'ennuie, elle donne des noms à toutes les allées du parc boisé, et elle décrit la Bretagne à une correspondante qui vit en Provence. Le lieu vaut donc autant pour ce qui s'y est écrit que pour ce qu'on y voit, et c'est le seul endroit de ce guide où il faut avoir lu quelque chose avant de venir pour que la visite prenne son sens."
+      },
+      {
+        heading: "9. Le pays de Vitré",
+        body: "Autour de la ville, le bocage des Marches est semé de châteaux, de manoirs et d'églises de campagne, et le relief y est plus marqué qu'on ne l'attend en Ille-et-Vilaine. Plus au nord, Fougères porte l'autre grande forteresse de la frontière bretonne, avec une enceinte et des tours dans un fond de vallée : c'est une commune à part entière, à une demi-heure de route, et elle se traite comme une journée séparée plutôt que comme une extension de Vitré."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Vitré est sur la ligne de Paris à Rennes et sa gare est à cinq minutes à pied du château, ce qui en fait l'une des villes médiévales les plus faciles d'accès de France sans voiture : Rennes est à une demi-heure, Paris à moins de deux heures pour les liaisons directes, à vérifier avant de réserver. Une journée suffit pour le château, les remparts, le centre ancien et Notre-Dame. Une journée de plus pour les Rochers et le pays alentour. Le climat est celui de la Bretagne intérieure, donc pluvieux et doux : avril à octobre pour le confort, mais la ville close se visite très bien sous la pluie."
+      }
+    ],
+    relatedCities: ["vitre", "rennes", "saint-malo", "vannes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-rennes-2026",
+      "10-choses-a-faire-a-saint-malo-2026",
+      "10-choses-a-faire-a-vannes-2026",
+      "10-choses-a-faire-a-dinan-2026"
+    ],
+    tags: ["10 choses à faire à Vitré", "activités Vitré 2026", "que faire en Ille-et-Vilaine", "sorties Bretagne cité médiévale", "château remparts pans de bois Sévigné Marches"]
+  },
+  {
+    slug: "10-choses-a-faire-a-firminy-2026",
+    title: "10 choses à faire à Firminy",
+    metaTitle: "10 choses à faire à Firminy en 2026",
+    metaDesc:
+      "Le plus grand ensemble de Le Corbusier en Europe, une église achevée quarante ans après sa mort, un seul bâtiment UNESCO : 10 activités à Firminy.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Firminy comptait 17 128 habitants au recensement de 2022, contre 16 994 en 2016 et 16 993 en 2011, soit une progression de 0,8 % sur onze ans. C'est la troisième des cinq communes de la Loire que suit ce site, derrière Montbrison et ses 5,1 % et Saint-Étienne et ses 1,5 %, devant Saint-Chamond et Roanne. Une ville industrielle stable, donc, ce qui dans ce bassin n'est pas rien. Et c'est de très loin la moins chère des cinq : un trois-pièces autour de 630 € et un mètre carré de référence autour de 1 200 €, contre 1 500 € partout ailleurs dans le département. On y vient pour une seule raison, et elle est considérable : c'est le plus grand ensemble bâti d'après Le Corbusier en Europe, et le deuxième au monde après Chandigarh.",
+    sections: [
+      {
+        heading: "1. Le site Le Corbusier",
+        body: "Quatre bâtiments, sur un même secteur, tous dessinés par Le Corbusier : la Maison de la Culture, le stade, l'unité d'habitation et l'église Saint-Pierre. On les parcourt à pied en une demi-journée, et c'est là que l'intérêt se joue : ailleurs, une œuvre de Le Corbusier est un objet isolé dans une ville qui ne lui doit rien. Ici, elle est un morceau de ville, avec une école, un terrain de sport, des logements et un équipement culturel, ce qui est exactement ce que l'architecte voulait démontrer et ce qu'il n'a presque jamais pu faire."
+      },
+      {
+        heading: "2. Ce qui est inscrit à l'UNESCO, et ce qui ne l'est pas",
+        body: "Il faut le dire clairement parce que la confusion est générale : sur les quatre bâtiments, un seul est inscrit au patrimoine mondial. L'œuvre architecturale de Le Corbusier a été inscrite le 17 juillet 2016 en dix-sept sites répartis sur plusieurs pays, et celui de Firminy est la Maison de la Culture, pas l'église Saint-Pierre ni l'unité d'habitation. La raison est simple et tient à la règle : la Maison de la Culture est le seul bâtiment de Firminy achevé du vivant de l'architecte. Les trois autres sont posthumes en tout ou partie, donc hors du périmètre. Cela ne les rend pas moins intéressants, cela signifie seulement que le label ne couvre pas ce qu'on croit."
+      },
+      {
+        heading: "3. La Maison de la Culture",
+        body: "Construite de 1961 à 1965 à la demande du maire, c'est un long bâtiment rectangulaire de cent douze mètres, et sa prouesse est son toit : une dalle de béton en courbe suspendue à des câbles tendus entre les portiques des deux façades, sans le moindre appui à l'intérieur. La conséquence se voit tout de suite quand on entre, l'espace est entièrement dégagé, et la courbe du plafond descend puis remonte au-dessus des têtes. Elle est classée au titre des monuments historiques depuis 1984. C'est le bâtiment à voir en premier si vous n'en voyez qu'un."
+      },
+      {
+        heading: "4. L'unité d'habitation",
+        body: "C'est la cinquième unité d'habitation construite au monde, commencée en 1965, et elle applique le programme que Le Corbusier a mis au point à Marseille : une cité-jardin verticale, des logements traversants en duplex, des rues intérieures, des équipements collectifs dans l'immeuble et sur le toit. Le point important pour un visiteur : c'est un immeuble habité, avec des gens dedans qui rentrent du travail. On le regarde depuis l'extérieur et depuis les parties accessibles, pas en sonnant aux portes, et les visites d'appartements relèvent des dispositifs organisés."
+      },
+      {
+        heading: "5. L'église Saint-Pierre",
+        body: "Elle est conçue en 1960, le chantier s'interrompt, et elle n'est achevée qu'en 2006 sous la conduite de José Oubrerie, collaborateur de Le Corbusier. Autrement dit, ce bâtiment a été terminé plus de quarante ans après la mort de son auteur, ce qui pose une question que la visite ne résout pas : jusqu'où une œuvre reste-t-elle de celui qui l'a dessinée. La forme est un tronc de cône en béton posé sur une base carrée, percé de petits orifices qui dessinent une constellation lumineuse sur le mur intérieur. C'est le bâtiment le plus spectaculaire du site et le plus discuté."
+      },
+      {
+        heading: "6. Le stade",
+        body: "Construit de 1965 à 1966, c'est l'élément qu'on oublie et il ne faut pas : il est creusé dans une ancienne carrière, et les gradins prennent appui sur la paroi rocheuse. Le geste est caractéristique de la manière dont Le Corbusier travaillait le terrain plutôt que contre lui, et l'on comprend en le voyant que le site n'est pas une collection de bâtiments posés sur un plan mais une réponse à un relief. C'est un équipement sportif en activité, ce qui limite l'accès selon les jours."
+      },
+      {
+        heading: "7. Firminy-Vert, le quartier",
+        body: "Autour des quatre bâtiments, tout un quartier a été bâti dans les années 1950 et 1960 selon les principes de l'urbanisme moderne, par d'autres architectes que Le Corbusier : barres et tours dans la verdure, circulations séparées, équipements de proximité. C'est un quartier habité, pas un musée en plein air, et il se parcourt depuis la rue avec le respect qu'on doit à des gens chez eux. Il est aussi l'argument principal de Firminy : on y voit ce que l'urbanisme d'après-guerre a réellement produit, à une époque où cette question redevient un sujet."
+      },
+      {
+        heading: "8. Le maire qui a fait venir Le Corbusier",
+        body: "Eugène Claudius-Petit, maire de Firminy, est à l'origine de la commande, et c'est le fait qui explique qu'une ville ouvrière de dix-sept mille habitants porte un ensemble de cette importance. Ancien ministre de la Reconstruction et de l'Urbanisme, il avait les convictions et le réseau pour faire venir l'architecte le plus discuté de son temps dans une vallée sidérurgique. Sans lui, rien de tout ce qui précède n'existe. C'est un bon rappel que le patrimoine du XXe siècle est très souvent une décision politique locale identifiable, ce qui est rarement le cas du patrimoine ancien."
+      },
+      {
+        heading: "9. La vallée de l'Ondaine et le Pilat",
+        body: "Firminy est au fond d'une vallée industrielle, celle de l'Ondaine, qui a vécu de l'acier et de la mine, et le paysage le dit sans qu'on ait besoin d'un musée. Au sud, le massif du Pilat commence presque immédiatement, avec des crêts, des forêts et des sentiers de grande randonnée : c'est un parc naturel régional, il relève de communes voisines, et il se rejoint en voiture pour une demi-journée ou une journée. Saint-Étienne est à dix kilomètres à vol d'oiseau et se traite comme une ville séparée, avec son musée d'art moderne et contemporain."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Firminy est reliée à Saint-Étienne par le train et le tram-train de la vallée de l'Ondaine, ce qui en fait une excursion facile depuis Saint-Étienne, elle-même à une heure de Lyon. Le site Le Corbusier est à distance de marche de la gare. Une demi-journée suffit pour les quatre bâtiments si l'on ne fait que les voir, une journée si l'on visite l'intérieur de ce qui se visite. Les accès intérieurs dépendent des expositions, des offices et des activités en cours : vérifiez avant de venir, c'est la seule vraie contrainte du lieu. Le béton se photographie mieux par ciel dégagé, mais il ne pleut pas plus ici qu'ailleurs dans la région."
+      }
+    ],
+    relatedCities: ["firminy", "saint-etienne", "roanne", "lyon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-etienne-2026",
+      "10-choses-a-faire-a-roanne-2026",
+      "10-choses-a-faire-a-lyon-2026",
+      "10-choses-a-faire-a-vienne-2026"
+    ],
+    tags: ["10 choses à faire à Firminy", "activités Firminy 2026", "que faire dans la Loire", "sorties Auvergne-Rhône-Alpes architecture", "Le Corbusier UNESCO unité d'habitation Firminy-Vert"]
+  },
+  {
+    slug: "10-choses-a-faire-a-noirmoutier-2026",
+    title: "10 choses à faire à Noirmoutier",
+    metaTitle: "10 choses à faire à Noirmoutier en 2026",
+    metaDesc:
+      "Une route que la mer recouvre deux fois par jour, un donjon roman, des marais salants sur un tiers de l'île : 10 activités à Noirmoutier.",
+    category: "tourisme",
+    emoji: "🧂",
+    readMinutes: 7,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Noirmoutier-en-l'Île comptait 4 502 habitants au recensement de 2022, contre 4 675 en 2016 et 4 550 en 2011, soit un recul de 1,1 % sur onze ans et de 3,7 % sur la seule fenêtre récente, la plus forte baisse des cinq communes de Vendée que suit ce site. Dans le même temps Challans gagne 20,9 % et Les Sables-d'Olonne 17,5 %. Et pourtant c'est la plus chère des cinq : un trois-pièces autour de 1 100 € et un mètre carré de référence autour de 3 500 €, à égalité avec Les Sables. Cette combinaison, des prix hauts et une population résidente qui baisse, est la signature d'une commune de villégiature où une part du parc bascule en résidence secondaire. Le recensement compte des habitants, pas des lits, et c'est la première chose à savoir avant de lire le reste.",
+    sections: [
+      {
+        heading: "1. Le passage du Gois, et où il se trouve vraiment",
+        body: "C'est une chaussée de 4,15 kilomètres que la mer recouvre deux fois par jour et qui se traverse à marée basse, à peu près une heure et demie avant et une heure et demie après la basse mer. Précision indispensable : le Gois ne part pas de Noirmoutier-en-l'Île. Il relie Beauvoir-sur-Mer, sur le continent, à Barbâtre, à la pointe sud de l'île, soit une vingtaine de kilomètres du bourg. Le pont, lui, relie Fromentine, sur la commune de La Barre-de-Monts, à Barbâtre également. L'île compte quatre communes, et ni la route ni le pont ne sont sur celle dont parle ce guide."
+      },
+      {
+        heading: "2. Les neuf balises",
+        body: "Le long du passage, neuf balises numérotées de 1 à 9 sont espacées d'environ cinq cents mètres, et ce sont des refuges : on y grimpe quand l'eau vous surprend. Elles existent parce que le cas se produit, tous les ans, et que la marée monte ici plus vite qu'un piéton ne marche. La règle est simple et elle est opposable, pas indicative : on consulte l'horaire officiel de la marée du jour, on ne s'engage pas dans la fenêtre, on s'engage au début de la fenêtre, et on ne se fie ni à l'absence d'eau visible ni au véhicule qui vient de passer. Le Gois n'est pas une curiosité à tenter, c'est une route à horaire."
+      },
+      {
+        heading: "3. Le château et son donjon",
+        body: "Il est bâti à la fin du XIIe siècle par le seigneur Pierre V de la Garnache, et son donjon d'une vingtaine de mètres domine le bourg. C'est l'un des donjons romans les mieux conservés du grand Ouest, et cela vaut d'être souligné dans une région où la pierre ancienne est rare. Il abrite le musée de la commune et l'on monte au sommet, d'où l'on voit l'île entière dans sa longueur, les marais, le bois et la mer des deux côtés. Comptez une heure, davantage s'il y a une exposition."
+      },
+      {
+        heading: "4. L'église Saint-Philbert et sa crypte",
+        body: "La crypte, sous le chœur, est bâtie sur le premier lieu de sépulture de saint Philbert, qui a évangélisé la région au VIIe siècle. Son corps y est resté de 690 à 836, puis il a été déplacé à Déas, à Cunault et enfin à Tournus : ces transferts successifs racontent les raids scandinaves, que les moines fuyaient en emportant leur saint. La crypte est classée au titre des monuments historiques depuis 1898. C'est la partie la plus ancienne de l'île accessible au public et elle se visite en quelques minutes, ce qui n'enlève rien à ce qu'elle représente."
+      },
+      {
+        heading: "5. Les marais salants",
+        body: "Ils occupent environ un tiers de l'île, sur les communes de Noirmoutier et de L'Épine, et ils ne sont pas un décor : des sauniers y travaillent, et l'on récolte le sel et la fleur de sel à la main sur des œillets d'argile, à la saison chaude. On les traverse par des chemins et par la piste cyclable, et le paysage est une géométrie de bassins peu profonds qui changent de couleur selon la lumière et la salinité. Les bassins sont un outil de travail sur propriété privée : on regarde depuis les chemins, on ne marche pas sur les talus."
+      },
+      {
+        heading: "6. Le bois de la Chaise",
+        body: "Quatre-vingt-treize hectares au nord-est de la commune, plantés de mimosas, de chênes verts et de pins maritimes, avec un sol semé de blocs de grès dont les accumulations forment des grottes. La végétation y est étonnamment méditerranéenne pour une latitude vendéenne, ce qui tient au microclimat de l'île. C'est là que se trouvent les villas balnéaires du XIXe siècle et les plages les plus abritées, et c'est le plus agréable endroit de l'île pour marcher une heure ou deux sans dénivelé."
+      },
+      {
+        heading: "7. Le mimosa en février",
+        body: "Il fleurit au cœur de l'hiver, et c'est l'argument le plus solide pour venir hors saison : en février, le bois de la Chaise est jaune et parfumé pendant que le reste du pays est gris. L'île est alors à peu près vide, les prix d'hébergement sont sans rapport avec ceux d'août, et la lumière d'hiver sur les marais est la meilleure de l'année. C'est aussi un rappel utile : une île touristique a une basse saison qui vaut souvent mieux que sa haute saison, à condition d'accepter que beaucoup de commerces soient fermés."
+      },
+      {
+        heading: "8. La bonnotte",
+        body: "C'est une pomme de terre primeur, plantée puis récoltée à la main sur les parcelles sableuses de l'île et fêtée chaque année au printemps. Elle est devenue un objet de curiosité pour ses prix de vente aux enchères, mais l'essentiel est ailleurs : c'est une culture de main-d'œuvre sur un sol sableux amendé au goémon, c'est-à-dire une agriculture littorale que presque plus rien n'incarne ailleurs. La saison est brève et se situe au printemps ; en dehors, on trouve les autres primeurs de l'île, qui sont excellentes aussi et beaucoup moins chères."
+      },
+      {
+        heading: "9. L'île à vélo",
+        body: "C'est le bon moyen de transport ici, et de loin : l'île est plate, longue d'une vingtaine de kilomètres, et parcourue d'un réseau de pistes qui relient le bourg, les marais, le bois, les plages et les autres communes. Une journée de vélo permet de voir à peu près tout ce qui précède sans chercher de place de stationnement, ce qui en août est un argument décisif. Le vent d'ouest est le seul relief de l'île et il se sent au retour : prévoyez le trajet de manière à ne pas l'avoir de face à la fin."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "On arrive par le pont, ouvert en permanence, ou par le Gois aux heures où la mer le permet. Il n'y a pas de gare sur l'île ; les plus proches sont sur le continent et il faut ensuite un car ou un véhicule. Nantes est à cinquante-huit kilomètres à vol d'oiseau, La Roche-sur-Yon à soixante-treize. Deux jours sont le bon format pour le bourg, le château, les marais et le bois. La saison balnéaire est courte et très dense ; février pour le mimosa et septembre pour l'eau encore tiède sont deux fenêtres nettement plus agréables que juillet et août. Sur les plages, la baignade se pratique dans les zones surveillées et la signalisation par drapeaux fait foi."
+      }
+    ],
+    relatedCities: ["noirmoutier", "les-sables-d-olonne", "la-roche-sur-yon", "nantes"],
+    relatedGuides: [
+      "10-choses-a-faire-aux-sables-d-olonne-2026",
+      "10-choses-a-faire-a-la-roche-sur-yon-2026",
+      "10-choses-a-faire-a-nantes-2026",
+      "10-choses-a-faire-a-saint-nazaire-2026"
+    ],
+    tags: ["10 choses à faire à Noirmoutier", "activités Noirmoutier 2026", "que faire en Vendée", "sorties Pays de la Loire île", "passage du Gois marais salants bois de la Chaise mimosa bonnotte"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
