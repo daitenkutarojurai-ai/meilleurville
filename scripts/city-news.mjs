@@ -1564,6 +1564,60 @@ async function selftest() {
   check("the sourceUrl contract no longer calls every link a record",
     !/Landing page for the underlying record/.test(libSrc), true);
 
+  // — a blank in a rendered month is not a zero, and sometimes it is —
+  //
+  // The regression, written as a test. The cap does not evict MONTHS, it evicts
+  // the tail of each family's own column: this function takes one line per
+  // family in turn and stops at `max`, so with three families and a cap of 8 the
+  // oldest month printed carries two of them. Measured 2026-09-29 through
+  // cityNews(): a month present in the list with a family missing happens on 532
+  // of the 537 rendering cities (1 037 blanks, 65 of them in the list's most
+  // recent month, 319 in a month sandwiched between two that do carry the
+  // family), against 42 cities where a whole month is absent — and only the
+  // second shape was ever warned about, while the footnote under the list is the
+  // one telling the reader to read down the column.
+  //
+  // The two checks below pin the PROPERTY that lets lib/city-news.ts tell a
+  // displaced blank from a measured zero: because each family's queue is drained
+  // in date order and only skipped when empty, the printed lines of a family are
+  // a PREFIX of its in-window entries. Hence a family with a line for a month
+  // OLDER than the blank one was counted there and found nothing. Replace this
+  // with any scheme that is not prefix-preserving — a quota per family, a
+  // relevance sort — and newsColumnDepth's 254 measured zeros silently become
+  // guesses. That is why the property is tested here rather than assumed.
+  {
+    const months = ["09", "08", "07", "06", "05", "04"].map((m) => `2026-${m}-01`);
+    const kinds = ["entreprises", "procedures", "radiations"];
+    const sorted = months.flatMap((date) => kinds.map((kind) => ({ date, kind })));
+    const out = roundRobinByKind(sorted, 8);
+    check("round-robin keeps each family's newest lines, in order (prefix property)",
+      kinds.every((k) => {
+        const want = sorted.filter((e) => e.kind === k).map((e) => e.date);
+        const got = out.filter((e) => e.kind === k).map((e) => e.date);
+        return want.slice(0, got.length).join("|") === got.join("|");
+      }), true);
+    // The defect itself: at the cap, the oldest month printed is incomplete, so
+    // a family is blank in a month the list shows. This must stay TRUE — it is
+    // the behaviour the surface has to explain, not a bug to silence.
+    const oldest = out.map((e) => e.date).sort()[0];
+    check("at the cap, the oldest month printed carries only some families",
+      out.filter((e) => e.date === oldest).length < kinds.length, true);
+  }
+  check("the lib qualifies a family blank in a rendered month",
+    /export function newsColumnDepth/.test(libSrc), true);
+  check("the lib separates a displaced blank from a counted zero",
+    /measuredZeros/.test(libSrc) && /undecidable/.test(libSrc), true);
+  check("the surface derives column depth from the entries it prints",
+    /newsColumnDepth\(entries\)/.test(uiCopy), true);
+  check("a blank below a family's floor is not presented as a zero, in both locales",
+    /n'y est pas un zéro/.test(uiCopy) && /is not a zero there/.test(uiCopy), true);
+  check("a month the family did reach and found empty is said so, in both locales",
+    /n'y a rien trouvé/.test(uiCopy) && /found nothing there/.test(uiCopy), true);
+  // Both, not one: a single blanket "a blank is not a zero" would erase the 254
+  // real zeros, the symmetric error this pipeline made four times the other way.
+  check("the two kinds of blank are stated separately, not lumped together",
+    /cols\?\.uneven/.test(uiCopy) && /cols\?\.measuredZeros\.length/.test(uiCopy), true);
+
   const failed = results.filter((r) => !r).length;
   log(failed ? `\n${failed} check(s) FAILED of ${results.length}` : `\nall ${results.length} checks passed`);
   return failed;

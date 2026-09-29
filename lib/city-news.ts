@@ -511,6 +511,116 @@ export function newsSpan(entries: readonly CityNewsEntry[]): CityNewsSpan | null
   };
 }
 
+/** How deep one family's column runs inside the rendered list. */
+export interface NewsColumnFloor {
+  kind: NewsKind;
+  /** Oldest month this family reaches in the rendered list, YYYY-MM-01. */
+  oldest: string;
+}
+
+/** A (family, month) pair the rendered list leaves blank, and why. */
+export interface NewsColumnHole {
+  kind: NewsKind;
+  /** YYYY-MM-01 — a month the list DOES carry, for other families. */
+  month: string;
+}
+
+export interface NewsColumnDepth {
+  /** One per monthly family present in the list, deepest column first. */
+  floors: NewsColumnFloor[];
+  /** True when the families do not all stop at the same month — i.e. the cap cut
+   *  the columns at uneven depths, so above the deepest floor there are months
+   *  that carry some families and not others. */
+  uneven: boolean;
+  /** Blanks ABOVE the family's own floor. The family's queue walked past that
+   *  month, so the collector counted it and found nothing: a measured zero, and
+   *  worth stating. */
+  measuredZeros: NewsColumnHole[];
+  /** Blanks BELOW the family's own floor, inside the list's range. The queue
+   *  stopped there, so the month is either empty or displaced by the cap — not
+   *  decidable from the list, therefore never presented as a zero. */
+  undecidable: NewsColumnHole[];
+}
+
+/**
+ * Which family is missing from which month of the rendered list, and whether
+ * that blank is a measurement.
+ *
+ * Takes the ALREADY-RENDERED entries, like `newsSpan()` and
+ * `cityNewsProvenance()`: the sentence then describes the very lines above it.
+ *
+ * The regression it closes (measured 2026-09-29, on the real file, through
+ * `cityNews()`). The cap does not evict MONTHS, it evicts the tail of each
+ * family's own column — `roundRobinByKind()` in the collector takes one line
+ * from each family in turn and stops at 8, so the rendered lines of a family are
+ * a prefix of its in-window entries and the three columns end at different
+ * months. The surface only ever warned about the other shape: "un mois qui n'y
+ * figure pas n'est donc pas un mois sans dépôt". A month absent altogether
+ * happens on 42 cities. A month that IS in the list and carries two families out
+ * of three happens on **532 of the 537 rendering cities**, 1 037 blanks in all,
+ * 65 of them in the list's most recent month and 319 in a month sandwiched
+ * between two that do carry the family. Nantes shows radiations for August and
+ * September, then a July line with no radiations — and the footnote under the
+ * list is the one that tells the reader to read down the column ("l'écart avec
+ * le mois plein qui suit"). So a displaced line reads as a zero, which is the
+ * failure this pipeline has now shipped six times in another costume: the
+ * uppercase commune filter (04/08), the ten Saint-X reporting twelve empty
+ * months (18/08), the single-page GASPAR read (08/09), the biodiversity page cap
+ * published as a count (07/09), the twelve-month scope over a three-month list
+ * (15/09).
+ *
+ * Erasing all of them as "not a zero" would be the symmetric error, and 254 of
+ * the 1 037 are real: because the columns are prefixes, a family that has a line
+ * for an OLDER month than M and none at M was counted at M and found nothing.
+ * Brest published no insolvency notice in September 2026, and saying so is worth
+ * more than silence — the same reason `cityNewsProvenance` names a register that
+ * answered with nothing. The remaining 783, on 509 cities, are undecidable from
+ * the list, and the surface says exactly that about them.
+ *
+ * CatNat is excluded: a dated order is not a monthly column, and its absence
+ * from a month was never a count.
+ *
+ * Returns null when the list carries no monthly family at all.
+ */
+export function newsColumnDepth(
+  entries: readonly CityNewsEntry[],
+): NewsColumnDepth | null {
+  const monthly = entries.filter((e) => AGGREGATE_KINDS.has(e.kind));
+  if (!monthly.length) return null;
+  const kinds = [...new Set(monthly.map((e) => e.kind))];
+  const months = [...new Set(monthly.map((e) => e.date.slice(0, 7)))].sort().reverse();
+  const floors: NewsColumnFloor[] = kinds
+    .map((kind) => ({
+      kind,
+      oldest: `${monthly
+        .filter((e) => e.kind === kind)
+        .map((e) => e.date.slice(0, 7))
+        .sort()[0]}-01`,
+    }))
+    .sort((a, b) => (a.oldest < b.oldest ? -1 : a.oldest > b.oldest ? 1 : 0));
+  const measuredZeros: NewsColumnHole[] = [];
+  const undecidable: NewsColumnHole[] = [];
+  for (const month of months) {
+    const present = new Set(
+      monthly.filter((e) => e.date.slice(0, 7) === month).map((e) => e.kind),
+    );
+    for (const f of floors) {
+      if (present.has(f.kind)) continue;
+      const hole: NewsColumnHole = { kind: f.kind, month: `${month}-01` };
+      // Strictly older floor => the family's queue walked past this month, so
+      // the month was searched and held nothing.
+      if (f.oldest < hole.month) measuredZeros.push(hole);
+      else undecidable.push(hole);
+    }
+  }
+  return {
+    floors,
+    uneven: new Set(floors.map((f) => f.oldest)).size > 1,
+    measuredZeros,
+    undecidable,
+  };
+}
+
 const KIND_LABEL_FR: Record<NewsKind, string> = {
   entreprises: "Créations d'entreprises",
   radiations: "Radiations",

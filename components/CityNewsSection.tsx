@@ -7,6 +7,7 @@ import {
   isCityNewsStale,
   newsPartialCoverage,
   newsSpan,
+  newsColumnDepth,
   cityNewsProvenance,
   NEWS_WINDOW_MONTHS,
   NEWS_REFRESH_INTERVAL_DAYS,
@@ -72,6 +73,23 @@ function dateLabel(entry: CityNewsEntry, locale: "fr" | "en") {
     : newsMonthLabel(entry.date, locale);
 }
 
+/** "a, b et c" / "a, b and c" — the list is short by construction (at most three
+ *  monthly families, at most a handful of months), so it is spelled out rather
+ *  than truncated: a reader checking a column needs the month that is missing,
+ *  not a count of them. */
+/** The outer list of groups, comma-separated and WITHOUT a conjunction: each
+ *  group already ends in one ("Procédures collectives et Radiations"), so a
+ *  second "et" between the groups read as a single four-item list. */
+function groupList(parts: string[]) {
+  return parts.join(", ");
+}
+
+function join(parts: string[], locale: "fr" | "en") {
+  if (parts.length <= 1) return parts.join("");
+  const last = parts[parts.length - 1];
+  return `${parts.slice(0, -1).join(", ")} ${locale === "en" ? "and" : "et"} ${last}`;
+}
+
 export function CityNewsSection({
   slug,
   name,
@@ -124,6 +142,12 @@ export function CityNewsSection({
   // partial when it falls in that same month — so one coverage describes them
   // all, and the footnote can quote it instead of guessing at an adjective.
   const partial = entries.map((e) => newsPartialCoverage(slug, e)).find(Boolean) ?? null;
+  // The cap does not evict months, it evicts the tail of each family's own
+  // column — so a month can be in the list and carry two families out of three.
+  // Measured on the real file: that happens on 532 of the 537 rendering cities,
+  // against 42 where a whole month is missing. Only the second shape was ever
+  // warned about. See newsColumnDepth().
+  const cols = newsColumnDepth(entries);
 
   return (
     <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-12">
@@ -226,6 +250,98 @@ export function CityNewsSection({
             few" and that comparing them to a full month said nothing. Naming the
             denominator is true at 4/31 and at 27/31, and leaves the arithmetic
             to the reader rather than ruling on what the figure is worth. */}
+        {/* Reading down a column is what the footnote below invites, and it is
+            where the cap does its damage: Nantes shows radiations for August and
+            September, then a July line with no radiations at all. The blank is a
+            displaced line, not a zero — except where it provably is one, which
+            is why the two are stated separately rather than lumped under one
+            disclaimer. Both lists are derived from the printed array. */}
+        {cols?.uneven ? (
+          <p className="mt-3 text-xs text-[var(--text-secondary)]">
+            {L(
+              `Les familles ne s'arrêtent pas toutes au même mois : ${groupList(
+                [
+                  ...new Map(
+                    cols.floors.map((f) => [
+                      f.oldest,
+                      cols.floors.filter((g) => g.oldest === f.oldest),
+                    ]),
+                  ),
+                ].map(
+                  ([month, group]) =>
+                    `${join(group.map((g) => newsKindLabel(g.kind, locale)), locale)} jusqu'à ${newsMonthLabel(month, locale)}`,
+                ),
+              )}. Sous la dernière ligne d'une famille, la même limite a écarté les mois antérieurs : un mois présent dans la liste mais sans ligne pour cette famille n'y est pas un zéro.`,
+              `The families do not all stop at the same month: ${groupList(
+                [
+                  ...new Map(
+                    cols.floors.map((f) => [
+                      f.oldest,
+                      cols.floors.filter((g) => g.oldest === f.oldest),
+                    ]),
+                  ),
+                ].map(
+                  ([month, group]) =>
+                    `${join(group.map((g) => newsKindLabel(g.kind, locale)), locale)} down to ${newsMonthLabel(month, locale)}`,
+                ),
+              )}. Below a family's last line the same limit displaced the earlier months: a month present in the list but carrying no line for that family is not a zero there.`,
+            )}
+          </p>
+        ) : null}
+
+        {/* The symmetric error would be to call every blank undecidable. Because
+            each column is a prefix of its family's entries, a family that has a
+            line for an OLDER month than the blank one was counted there and
+            found nothing — 254 blanks on 164 cities. "Asked and found nothing"
+            is a measurement, the same reason cityNewsProvenance names a register
+            that landed no line. */}
+        {cols?.measuredZeros.length ? (
+          <p className="mt-2 text-xs text-[var(--text-secondary)]">
+            {L(
+              `Une famille qui descend plus bas qu'un mois sans ligne a bien été comptée sur ce mois-là et n'y a rien trouvé : ${groupList(
+                [
+                  ...new Map(
+                    cols.measuredZeros.map((h) => [
+                      h.kind,
+                      cols.measuredZeros.filter((g) => g.kind === h.kind),
+                    ]),
+                  ),
+                ].map(
+                  ([kind, group]) =>
+                    `aucune ligne de ${newsKindLabel(kind, locale)} en ${join(
+                      group
+                        .map((g) => g.month)
+                        .sort()
+                        .reverse()
+                        .map((m) => newsMonthLabel(m, locale)),
+                      locale,
+                    )}`,
+                ),
+              )}.`,
+              `A family that reaches below a blank month was counted for that month and found nothing there: ${groupList(
+                [
+                  ...new Map(
+                    cols.measuredZeros.map((h) => [
+                      h.kind,
+                      cols.measuredZeros.filter((g) => g.kind === h.kind),
+                    ]),
+                  ),
+                ].map(
+                  ([kind, group]) =>
+                    `no ${newsKindLabel(kind, locale)} line in ${join(
+                      group
+                        .map((g) => g.month)
+                        .sort()
+                        .reverse()
+                        .map((m) => newsMonthLabel(m, locale)),
+                      locale,
+                    )}`,
+                ),
+              )}.`,
+            )}
+          </p>
+        ) : null}
+
         {partial ? (
           <p className="mt-3 text-xs text-[var(--text-secondary)]">
             {L(

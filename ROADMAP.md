@@ -3143,7 +3143,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce ; **passe de troncature le 07/09** : la facette des observateurs, plafonnée à 2 000 sur **101 villes**, était publiée comme un décompte dans la prose et en `value` JSON-LD alors que le tableau de la même page affichait « 2 000+ » — corrigé des deux côtés, plus les insectes plafonnés de 12 villes et deux drapeaux que le collecteur calculait puis jetait. **la collecte a repris les 09-10/09** (180 lignes rejouées en `queryVersion` 3 sur 540, les 360 autres suivent) — c'est le `git push` du cron qui était cassé du 27/08 au 10/09, pas le cron ; **passe sur `topSpecies` le 10/09**, le champ que les deux sous-pages rendent en cartes : un **code de baguage publié comme nom d'espèce sur 522 des 540 pages EN** (1 281 cartes, `GRTI` sur 497, `C F` sur 430, `COST` sur 237, première carte de la section sur 180 pages, zéro côté FR — donc aussi une divergence entre jumelles hreflang) et un **casier « Animalia spec » publié comme l'espèce la plus observée de Saint-Laurent-du-Maroni** (rang 1, 1 058 obs. contre 58 à la deuxième ligne ; rang 2 à Cayenne) qu'aucun test de forme ne pouvait attraper — il a l'allure d'un binôme latin. `displayTopSpecies()` et `speciesDisplay()` deviennent les seuls accès autorisés, `selftest` 54 → 74 ; **corpus GBIF intégralement en `queryVersion` 3 au 13/09** (540/540 relevées du 09 au 13/09 — reptiles comptés partout, zéro code de baguage restant) ; **passe zones protégées le 14/09** : un **périmètre de protection** (la zone tampon d'une réserve naturelle) sort de la même couche BD TOPO que la réserve et pèse donc **1,0** comme elle — 28 villes en portent un, **6 au point que leur chiffre en dépende, aux rangs 1, 3, 7, 11, 23 et 128**, Digne-les-Bains en tête avec 68 081 ha de tampon pour 75 ha de réserve dans le même disque. Signalé sur les deux hubs et les deux sous-pages ville, **jamais repondéré** (même arbitrage qu'à l'aire d'adhésion) ; `protected-areas:selftest` + 9 |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
-| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 292 entrées** (BODACC 4 252 + CatNat 40). 537 villes affichent la section, 3 masquées (dinan, selestat, ile-de-re). RNA toujours désactivé. **Collecteur nominal et silence nominal** : cohortes 09/09 (360) et 10/09 (180) inchangées, 540 lignes en `queryVersion` 3, âge 12-13 jours pour un `DUE_AFTER_DAYS` de 14 — rien n'échoit avant le ~23/09, le seuil d'affichage de 21 jours n'a étiqueté aucune ville, et ⚠️ **le contrôle reste la date des lignes, jamais leur nombre**. La dispersion des cohortes reste la seule question ouverte côté plomberie. **Défaut corrigé le 22/09, dans le pied de section** : `Sources : BODACC, Géorisques (GASPAR) · Licence Ouverte / Etalab · consultables librement` portait deux affirmations que la page ne peut pas soutenir. ① Géorisques répond pour les 540 villes et ne pose de ligne que sur 34, donc sur **503 des 537 pages** il était crédité de chiffres dont aucun n'était le sien — la forme purgée trois fois en septembre (quartet env 09/09, six moteurs 09/10, tables de classements 09/11), qui a survécu ici parce que les organismes de F64 publient bien les **lignes**, pas le **comptage** : « 192 créations d'entreprises en août 2026 » est un `count(*)` de ce script. ② « consultables librement » invitait à vérifier au-dessus d'une liste dont **4 252 des 4 292 lignes rendues (99,1 %) pointent sur `https://www.bodacc.fr/`**, contre 40 qui ouvrent l'acte décrit ; les 537 villes en portent au moins une, **503 n'ont que ça**, et le contrat du champ disait « landing page for the underlying record ». Corrigé au site d'affichage : `newsLinkTarget()` lit la portée **sur l'URL** et non sur le `kind`, `cityNewsProvenance(slug, entries)` prend le tableau **déjà rendu** et sépare cité / consulté sans ligne. ⚠️ Le registre consulté est **nommé, pas retiré** (« demandé, rien ici » est une mesure), et ⚠️ **aucun lien profond n'a été fabriqué** — une borne haute de date demanderait un opérateur jamais vu répondre d'ici, la classe de défaut exacte des quatre premières pannes ; ce lien se construit dans le collecteur. `news:selftest` 77 → **85**, garde `signaux` de `npm run integrity` étendue à la surface, les deux **vérifiées en les faisant échouer**, plus 26 contrôles de rendu réel FR/EN |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 292 entrées** (BODACC 4 252 + CatNat 40). 537 villes affichent la section, 3 masquées (dinan, selestat, ile-de-re). RNA toujours désactivé. **Collecteur nominal et silence nominal** : cohortes 09/09 (360) et 10/09 (180) inchangées, 540 lignes en `queryVersion` 3, âge 12-13 jours pour un `DUE_AFTER_DAYS` de 14 — rien n'échoit avant le ~23/09, le seuil d'affichage de 21 jours n'a étiqueté aucune ville, et ⚠️ **le contrôle reste la date des lignes, jamais leur nombre**. La dispersion des cohortes reste la seule question ouverte côté plomberie. **Défaut corrigé le 22/09, dans le pied de section** : `Sources : BODACC, Géorisques (GASPAR) · Licence Ouverte / Etalab · consultables librement` portait deux affirmations que la page ne peut pas soutenir. ① Géorisques répond pour les 540 villes et ne pose de ligne que sur 34, donc sur **503 des 537 pages** il était crédité de chiffres dont aucun n'était le sien — la forme purgée trois fois en septembre (quartet env 09/09, six moteurs 09/10, tables de classements 09/11), qui a survécu ici parce que les organismes de F64 publient bien les **lignes**, pas le **comptage** : « 192 créations d'entreprises en août 2026 » est un `count(*)` de ce script. ② « consultables librement » invitait à vérifier au-dessus d'une liste dont **4 252 des 4 292 lignes rendues (99,1 %) pointent sur `https://www.bodacc.fr/`**, contre 40 qui ouvrent l'acte décrit ; les 537 villes en portent au moins une, **503 n'ont que ça**, et le contrat du champ disait « landing page for the underlying record ». Corrigé au site d'affichage : `newsLinkTarget()` lit la portée **sur l'URL** et non sur le `kind`, `cityNewsProvenance(slug, entries)` prend le tableau **déjà rendu** et sépare cité / consulté sans ligne. ⚠️ Le registre consulté est **nommé, pas retiré** (« demandé, rien ici » est une mesure), et ⚠️ **aucun lien profond n'a été fabriqué** — une borne haute de date demanderait un opérateur jamais vu répondre d'ici, la classe de défaut exacte des quatre premières pannes ; ce lien se construit dans le collecteur. `news:selftest` 77 → **85**, garde `signaux` de `npm run integrity` étendue à la surface, les deux **vérifiées en les faisant échouer**, plus 26 contrôles de rendu réel FR/EN. **Défaut corrigé le 29/09, et c'est ce que la section n'avait jamais dit sur sa propre liste** : le plafond de 8 n'écarte pas des **mois**, il écarte le bas de la **colonne de chaque famille** (`roundRobinByKind` prend une ligne par famille à tour de rôle), donc un mois **affiché** peut ne porter que deux familles sur trois — **532 des 537 villes rendues, 1 037 blancs**, 65 dans le mois le plus récent et 319 dans un mois encadré par deux qui portent la famille, quand un mois absent en entier ne concerne que 42 villes et était le seul cas annoncé. Sixième silence lu comme une mesure. ⚠️ **254 de ces blancs sont de vrais zéros** (les colonnes étant des **préfixes**, 0 violation sur 540, une famille qui descend plus bas a été comptée et n'a rien trouvé) : `newsColumnDepth(entries)` sépare les 254 des **783 indécidables sur 509 villes** et la section dit les deux, jamais un avertissement global. `news:selftest` 85 → **93** dont 2 contrôles de comportement sur la propriété de préfixe, garde `signaux` étendue, **les cinq vérifiées en les faisant échouer**, 537 rendues FR/EN contre le fichier réel. **Dispersion : question close** — 4 tirs, 180+133+131+96 = 540 lignes, **zéro doublon**, cohortes 09-10/09 → **24-25/09**, donc le corpus se resynchronise sur deux jours et échoit de nouveau ensemble vers le 08-09/10 ; rien à lisser. ⚠️ 3 tirs sur 4 s'arrêtent **avant** la limite de 180 : plafond de 3 600 s de `run_stage` ou lignes sans réponse, indistinguable d'ici, et si c'est le temps la note de dimensionnement (~3 s la ville) est fausse d'un ordre de grandeur |
 
 ### F62 — Score Biodiversité
 
@@ -5253,6 +5253,136 @@ dedans (`familleavis = collective` couvre les étapes d'une procédure — ouver
 plan, clôture — et la ligne les compte toutes sous « Procédures collectives »), question qui
 **ne se tranche pas d'ici** : elle demande de voir répondre l'API sur la ventilation des
 `nature` d'annonce, donc une passe locale.
+
+#### État au 2026-09-29 — le plafond n'écarte pas des mois, il écarte le bas de chaque colonne
+
+**Le cycle a tourné tout seul pour la première fois, et la question de la dispersion est
+close.** Les cohortes ont bougé — **24/09 (313 villes) et 25/09 (227)**, 540 lignes en
+`queryVersion` 3, 4 292 entrées, âge 4-5 jours — et la passe a été **mesurée commit par
+commit** plutôt que déduite : quatre tirs (24/09 02h30 et 15h20, 25/09 03h20 et 14h25) ont
+servi **180 + 133 + 131 + 96 = 540 lignes, chaque ville exactement une fois, zéro doublon**.
+`pickBatch()` est donc correct : il n'a servi que l'échu (360 lignes dues le 24, 540 le 25,
+par sa règle `age > 14` en dates pleines) et n'a jamais recrawlé une ligne fraîche.
+
+⚠️ **Mais la dispersion n'existe pas et ne peut pas apparaître.** Avant la passe les cohortes
+étaient 09/09 (360) + 10/09 (180) ; après, 24/09 (313) + 25/09 (227). Le corpus reste groupé
+sur **deux jours consécutifs d'une passe à l'autre**, parce que `pickBatch` vide la file d'échu
+aussi vite que les tirs le permettent : une cohorte qui se solde en deux jours se
+**resynchronise** sur deux jours. Les 540 lignes échoiront donc de nouveau ensemble vers le
+**08-09/10**, et les trois seuils (14 j dû · 21 j affichage · fenêtre 12 mois) ne sont pas une
+échelle progressive mais un état tout-ou-rien : le fichier est uniformément frais, ou
+uniformément vieux de ~14-16 jours. Ce n'est pas un défaut — c'est le comportement que
+`DUE_AFTER_DAYS` prescrit — et **la question se ferme ici** : il n'y a rien à lisser.
+
+⚠️ **Un écart de plomberie reste ouvert et ne se tranche pas d'ici** : trois des quatre tirs
+se sont arrêtés **avant** la limite de 180 (133, 131, 96). Deux causes possibles, toutes deux
+dans le dépôt et indistinguables depuis lui : `run_stage` (`scripts/local-data-runner.sh`)
+plafonne l'étape à **3 600 s** et traite un lot coupé comme un résultat partiel (code 124), et
+`crawlBatch` saute une ligne quand aucune source ne répond. Les deux laissent la ligne due,
+c'est pourquoi la passe s'est quand même soldée. ⚠️ Si c'est le plafond de temps, alors la
+**note de dimensionnement de `scripts/city-news.mjs` est fausse** : elle annonce « ~3 requêtes
+à ~1 req/s, soit ~3 s la ville, et 180 en ~10 min », or s'arrêter à 133 dans 3 600 s implique
+**≥ 27 s la ville**, un ordre de grandeur de plus. Le journal qui trancherait
+(`~/.local/state/meilleurville/data-runner.log`) est sur la machine du propriétaire, pas ici :
+la constante n'est donc **pas retouchée**, et c'est une prédiction à vérifier au prochain run
+local. Autre mouvement nominal : **CatNat 40 → 31 lignes**, la fenêtre de 12 mois ayant fait
+sortir les arrêtés de septembre 2025.
+
+**Le défaut corrigé est dans la seule chose que la section n'avait jamais dite sur sa propre
+liste : le plafond de 8 n'écarte pas des mois, il écarte le bas de la colonne de chaque
+famille.** `roundRobinByKind()` prend une ligne par famille à tour de rôle et s'arrête à 8,
+donc avec trois familles les trois colonnes s'arrêtent à des **mois différents** et un mois
+présent dans la liste peut ne porter que deux familles sur trois. La section n'avertissait que
+de l'autre forme — « Un mois qui n'y figure pas n'est donc pas un mois sans dépôt » — qui
+concerne **42 villes**. Mesuré ce run à travers `cityNews()`, donc sur ce qui est réellement
+imprimé : un mois **affiché** auquel il manque une famille arrive sur **532 des 537 villes
+rendues**, **1 037 blancs**, dont **65 dans le mois le plus récent** de la liste et **319 dans
+un mois encadré par deux mois qui, eux, portent la famille**. Nantes affiche des radiations en
+août et en septembre, puis une ligne de juillet **sans radiations** — et la note sous la liste
+est précisément celle qui invite à lire la colonne (« l'écart avec le mois plein qui suit »).
+Un blanc se lit donc comme un zéro. C'est la sixième fois que ce pipeline publie un silence
+qui se lit comme une mesure, après le filtre commune en majuscules (04/08), les dix Saint-X à
+douze mois vides (18/08), la lecture GASPAR d'une seule page (08/09), le plafond de pagination
+biodiversité (07/09) et la portée de douze mois sur une liste de trois (15/09).
+
+⚠️ **Et l'erreur symétrique aurait été de tout couvrir par un « un blanc n'est pas un zéro » :
+254 de ces 1 037 en sont vraiment.** La démonstration est interne et tient à une propriété du
+collecteur : chaque file de famille est vidée **en ordre de date** et n'est sautée que
+lorsqu'elle est vide, donc les lignes imprimées d'une famille sont un **préfixe** de ses
+entrées en fenêtre (vérifié sur les 540 villes : **0 violation**). Par conséquent une famille
+qui porte une ligne pour un mois **plus ancien** que le mois blanc a bien été comptée sur ce
+mois-là et n'y a rien trouvé — Brest n'a eu **aucune annonce de procédure collective en
+septembre 2026**, et le dire vaut mieux que le taire, au même titre que le registre consulté
+sans résultat nommé au pied depuis le 22/09. Les **783 autres, sur 509 villes**, ne se
+tranchent pas depuis la liste : mois vide ou ligne écartée, on ne sait pas, et la section dit
+exactement cela.
+
+**Corrigé au site d'affichage, rien n'est réécrit dans les données.** Export neuf
+`newsColumnDepth(entries)` (`lib/city-news.ts`), qui prend **le tableau déjà imprimé** — même
+discipline que `newsSpan()` depuis le 15/09 et `cityNewsProvenance()` depuis le 22/09 — et rend
+le **plancher de chaque famille**, `uneven`, `measuredZeros` et `undecidable`. La section
+imprime deux phrases dérivées, dans les deux locales : les planchers famille par famille avec
+la mention qu'**en dessous du dernier mois d'une famille l'absence de ligne n'est pas un zéro**
+(509 villes), et, séparément, **les mois réellement comptés à zéro** (164 villes). `uneven ⟺ au
+moins un blanc indécidable` est vérifié sur les 537. CatNat est hors barème : un arrêté daté
+n'est pas une colonne mensuelle, son absence d'un mois n'a jamais été un comptage.
+
+**Gardes.** `news:selftest` **85 → 93**, dont deux contrôles **de comportement** et non de
+texte, qui épinglent la propriété de préfixe dont dépend la distinction — remplacer le
+round-robin par un quota par famille ou un tri par pertinence transformerait silencieusement
+les 254 zéros mesurés en conjectures — plus le défaut écrit comme un test (« au plafond, le
+mois le plus ancien imprimé ne porte qu'une partie des familles », qui doit rester **vrai**).
+Les deux ont été **vérifiés en les faisant échouer** (file vidée par la fin ; plafond porté à
+9). La garde **`signaux`** de `npm run integrity` refuse une surface qui ne dérive pas la
+profondeur des colonnes, qui ne distingue pas les deux sortes de blanc, ou qui perd l'une des
+deux tournures dans l'une des deux locales — **les trois branches vérifiées en les faisant
+échouer**, lecture **commentaires retirés** (le commentaire qui pose la règle cite forcément
+ce qu'elle interdit — piège des gardes du 15/09 et `protégées` du 17/09). Elle imprime
+désormais la ventilation, prise par le résolveur de la page : `783 blanc(s) de famille écartés
+par le plafond sur 509 villes, 254 comptés à zéro`. Rendu réel du composant
+(`renderToStaticMarkup`, FR **et** EN, contre le fichier réel, les 540 villes) : **537 rendues,
+3 masquées**, phrase de planchers sur exactement les 509 villes inégales, phrase de zéro
+mesuré sur exactement les 164, aucun couple (famille, mois) annoncé à la fois zéro et
+indécidable, **zéro lien sans `rel="nofollow"`**, **zéro fuite de français côté EN**. Sorties
+FR et EN de Nantes et de Brest relues à la main — c'est cette relecture qui a rattrapé deux
+défauts de copie qu'aucun contrôle n'aurait vus : un `join()` imbriqué rendait « Créations
+d'entreprises jusqu'à juillet 2026 **et** Procédures collectives **et** Radiations jusqu'à août
+2026 » (quatre éléments d'une seule liste au lieu de deux groupes), et la phrase de zéro
+mesuré s'ouvrait sur « en revanche », qui sur les 55 villes portant un zéro **sans** colonnes
+inégales renvoie à une phrase jamais imprimée.
+`npx tsc --noEmit` **propre**, `npm run integrity`, `npm run news:prune` (rien hors fenêtre),
+`npm run news:selftest` 93/93, `npm run sitemap:check` (aucune URL neuve — la section n'a
+toujours pas d'URL propre, par construction), `npm run parity` (code 0), `npm run
+hreflang:check`, plus un contrôle d'encodage : **0 em-dash ajouté à la copie rendue** (les 10
+du diff sont tous en commentaire), aucun mojibake, aucun `m2` / `EUR` / `deg` ascii.
+`npm run build` **non lancé, volontairement** (cf. CLAUDE.md § Commands).
+
+⚠️ **Une piste tentée ce run et qui ne se tranche pas d'ici — ne pas la reprendre en l'état.**
+Le run précédent laissait ouverte la question du **libellé** des familles (« N procédures
+collectives » compte des **annonces**, et `familleavis = collective` couvre les étapes d'une
+procédure). Le test interne évident est un rapport d'échelle : nationalement, 2025 porte
+**1 165 800 créations d'entreprises** (Insee, dont 758 600 micro-entrepreneurs) contre
+**68 602 procédures ouvertes** (Banque de France), soit **17:1** ; nos 540 villes donnent
+**26 098 créations contre 4 355 procédures en août 2026**, soit **6:1**. L'écart d'un facteur
+2,8 suggère bien un comptage d'annonces. ⚠️ **Mais le test est confondu et ne conclut pas** :
+si le BODACC ne publie pas d'annonce pour l'essentiel des 758 600 micro-entrepreneurs, la base
+nationale comparable tombe à ~407 000 créations, et les deux parts de nos 540 villes
+deviennent cohérentes (77 % des créations, 76 % des procédures). Lever la confusion demande de
+voir répondre l'API sur la couverture des micro-entrepreneurs et sur la ventilation des
+`nature` d'annonce — donc **une passe locale**, comme le run du 22/09 l'avait déjà dit. Le
+libellé n'est pas retouché : on ne renomme pas 4 292 titres sur une hypothèse.
+
+**Ce que le prochain run doit regarder en premier.** Les cohortes, toujours, mais la lecture
+est désormais établie : elles doivent être passées à **08-09/10** ± un jour. Figées au
+24-25/09 le 10/10, le collecteur a manqué son échéance et le seuil de 21 jours commencera à
+étiqueter les villes autour du **15-16/10**. Si elles ont bougé, **compter les tirs et les
+lignes servies** (le script ci-dessus, `git show <sha>:data/city-news.json` sur les commits
+`[local-runner]`) : quatre tirs pour 540 lignes est la référence, et un cinquième tir voudrait
+dire que les lots raccourcissent encore, donc que le plafond de 3 600 s mord. Côté surface, ce
+qui n'a toujours jamais été relu : le **libellé** des familles (gaté ci-dessus), et le fait
+que le champ **`gapped`** de `newsSpan()` est calculé depuis le 15/09 et **n'est lu par aucune
+surface** — les 42 villes concernées sont couvertes par la mise en garde d'éviction, donc rien
+n'est faux, mais un champ dérivé que personne ne lit est un champ qu'on finit par croire.
 
 ---
 

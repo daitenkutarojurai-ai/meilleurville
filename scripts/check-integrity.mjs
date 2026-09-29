@@ -348,6 +348,27 @@ if (!failed) {
       if (!/prov\.publisherOnly/.test(ui) || !/prov\.records/.test(ui)) {
         problems.push("CityNewsSection : la portée des liens n'est pas dérivée des lignes imprimées");
       }
+      // Le plafond de 8 n'écarte pas des MOIS, il écarte la queue de la colonne
+      // de chaque famille : `roundRobinByKind` prend une ligne par famille à
+      // tour de rôle, donc les trois colonnes s'arrêtent à des mois différents
+      // et un mois présent dans la liste peut ne porter que deux familles sur
+      // trois. Mesuré le 29/09 : 532 des 537 villes rendues, 1 037 blancs, quand
+      // un mois absent en entier n'arrive que sur 42 — et c'est le second cas
+      // seul que la section annonçait. Un blanc se lit comme un zéro, sauf que
+      // 254 en sont vraiment : la garde exige donc les deux énoncés, jamais un
+      // avertissement global qui effacerait la mesure.
+      if (!/newsColumnDepth\(entries\)/.test(ui)) {
+        problems.push("CityNewsSection : la profondeur des colonnes n'est pas dérivée des lignes imprimées");
+      }
+      if (!/cols\?\.uneven/.test(ui) || !/cols\?\.measuredZeros\.length/.test(ui)) {
+        problems.push("CityNewsSection : un blanc de famille dans un mois affiché n'est pas qualifié (colonnes inégales / zéro mesuré)");
+      }
+      if (!/n'y est pas un zéro/.test(ui) || !/is not a zero there/.test(ui)) {
+        problems.push("CityNewsSection : la ligne écartée par le plafond n'est pas distinguée d'un zéro dans les deux locales");
+      }
+      if (!/n'y a rien trouvé/.test(ui) || !/found nothing there/.test(ui)) {
+        problems.push("CityNewsSection : le mois réellement compté à zéro n'est pas dit comme tel dans les deux locales");
+      }
     }
 
     if (problems.length === 0) {
@@ -362,7 +383,20 @@ if (!failed) {
           if (!m || rest === "" || rest === "/") portal++;
         }
       }
-      console.log(`  ok  signaux    ${slugs.length} villes, ${entries} entrées · ${portal} lien(s) vers le portail de l'éditeur, annoncés comme tels`);
+      // La part des blancs de famille est imprimée parce que c'est elle que la
+      // section doit qualifier, et elle se prend par le résolveur de la page.
+      const news = load("lib/city-news.ts");
+      let zeros = 0, undecided = 0, unevenCities = 0;
+      for (const s2 of slugs) {
+        const printed = news.cityNews(s2);
+        if (!printed.length) continue;
+        const d = news.newsColumnDepth(printed);
+        if (!d) continue;
+        zeros += d.measuredZeros.length;
+        undecided += d.undecidable.length;
+        if (d.uneven) unevenCities++;
+      }
+      console.log(`  ok  signaux    ${slugs.length} villes, ${entries} entrées · ${portal} lien(s) vers le portail de l'éditeur, annoncés comme tels · ${undecided} blanc(s) de famille écartés par le plafond sur ${unevenCities} villes, ${zeros} comptés à zéro`);
     } else {
       failed = true;
       console.error(`\n  ÉCHEC  data/city-news.json : ${problems.length} anomalie(s)\n`);
