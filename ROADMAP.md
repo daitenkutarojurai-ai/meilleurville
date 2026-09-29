@@ -5462,6 +5462,144 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 29/09 — `leaving-[city]-where-to-go-2026` batch 1 (+8), la plus grosse série FR sans jumelle EN
+
+`npm run parity` sort en **code 0** au début du run (FR 221 · EN 166, 0 route FR sans jumelle) :
+aucune régression de route à rattraper, donc le run travaille le corpus. **La série choisie est
+mesurée, pas reprise du journal** : un clustering des 1 184 guides FR et des 995 guides EN par
+slug normalisé sur le slug de ville donne, pour chaque série FR, sa jumelle EN et l'écart. La
+série `quitter-[ville]-guide-2026` est l'écart le plus large du corpus — **48 villes FR contre
+14 couvertes côté EN, soit 34 manquantes**, loin devant `demenager-a-` / `moving-to-` (26) et
+`universites-` (15, aucune jumelle). Les huit villes du lot sont les huit plus peuplées des 34,
+sans arbitrage : **Reims, Toulon, Le Havre, Saint-Étienne, Dijon, Angers, Nîmes, Le Mans**.
+Après le batch : **22 couvertes, 26 manquantes**, `EN_GUIDES` 995 → **1 003**.
+
+⚠️ **Les chiffres de loyer ne sont PAS repris des jumelles FR, et c'est délibéré — ne pas les
+« réaligner ».** La série `quitter-` porte sa propre série de loyers, nettement plus basse que
+`data/housing.ts` : le guide FR du Mans annonce un T2 à ~390 €/mois quand le fichier que
+`/villes/le-mans` rend publie **650 €** (Angers ~490 € contre **750 €**, Nantes ~590 € contre
+**850 €**). L'écart est systématique, il traverse toute la série FR, et le recopier aurait mis
+la page EN en contradiction avec la page ville d'en face en un clic — le mode de défaillance
+exact que le § « Never quote a seed literal in copy » interdit. Les 8 guides EN citent donc
+`HOUSING[slug].avgRentT2 / avgRentT3 / avgBuyPriceM2`, la population **Insee 2022** de
+`data/city-population.json` (jamais les `population` approximatives du seed) et le score global
+**rendu** par `CITIES_SEED`. Contrôle mécanique passé sur le lot : chaque « N residents »,
+« N EUR per square metre », « N EUR for a two-room », « N out of 10 » et « N hours of sun » du
+texte doit exister dans nos données — **0 valeur introuvable** sur les 8 guides (deux faux
+positifs identifiés et écartés : « more than 100,000 residents » est un seuil d'éligibilité,
+pas une population). Corollaire pour le prochain batch de cette série : **la jumelle EN
+diverge volontairement du chiffre FR**, et un contrôle de figures EN→FR remontera l'écart à
+chaque run.
+
+⚠️ **Cinq superlatifs corrigés avant commit, quatre démentis par une mesure et non par une
+relecture.** ① Toulon donnée « the cheapest large city on this coast » : **Perpignan**, à
+11,1 km de la mer ouverte, est à **2 300 €/m²** contre 3 200 € à Toulon, donc la phrase est
+fausse à l'échelle de la Méditerranée ; elle est devenue une comparaison explicite des trois
+grandes villes de la côte Provence-Riviera (Marseille 3 500, Toulon 3 200, Nice 5 200), qui
+elle tient. ② Saint-Étienne donnée « the cheapest large city in France » : le tri des communes
+de plus de 100 000 habitants sur `avgBuyPriceM2` la donne bien **première sur le corpus**
+(1 500 €, devant Limoges 1 600 et Mulhouse 1 700), mais le corpus n'est pas la France — borné
+à « the cheapest city of more than 100,000 residents in the 540 we cover ». ③ Le Mans donnée
+« nowhere else within an hour of Paris is this cheap », invérifiable en l'état : remplacée par
+le comptage réel, **seules trois communes de plus de 100 000 habitants sont moins chères**
+(Saint-Étienne, Limoges, Mulhouse) et aucune des trois n'est à moins de deux heures de Paris.
+④ Charleville-Mézières donnée « among the lowest of any French prefecture » (superlatif du
+guide FR, jamais sourcé) : le rang mesuré est **50e sur 540** et la phrase le dit désormais.
+⑤ Annecy donnée « the highest in this guide after Paris » dans le guide Saint-Étienne, où
+**Paris n'est pas cité** : corrigé en « the highest figure anywhere in this guide ». Les
+pourcentages publiés ont tous été recalculés depuis `data/housing.ts` après ces corrections
+(Toulon −38 % vs Nice et −36 % vs Aix ; Angers → Nantes +40 % à l'achat mais +13 % au loyer ;
+Le Mans → Nantes +121 % ; Nîmes → Montpellier +39 % à l'achat et +18 % au loyer ; Nîmes → Alès
+−43 % ; Le Havre → Honfleur +75 %).
+Une affirmation transversale vérifiée plutôt que supposée : **Beaune, 7,7/10, est bien la note
+la plus haute de toutes les villes citées dans les huit guides** (46 communes contrôlées, devant
+Annecy 7,3 et Lyon 7,1), et Saumur 7,1 passe bien devant Angers 6,7.
+
+**Matière propre à l'angle anglophone, vérifiée en ligne avant écriture et absente des jumelles
+FR** — c'est l'arbitrage des batches 37, 39, 41, 43 et 51 de la série tourisme, appliqué ici
+pour la première fois à la série « quitter ». ① **Reims** : la capitulation allemande a été
+signée à **2 h 41 le 7 mai 1945** dans la salle des cartes d'un collège technique qu'Eisenhower
+avait pris comme QG du SHAEF, **Walter Bedell Smith** signant pour les Alliés occidentaux ; la
+pièce est conservée en **Musée de la Reddition** dans l'actuel lycée Roosevelt, et le 8 mai est
+la date retenue parce que le commandement soviétique a exigé une seconde signature à Berlin le
+lendemain. ② **Le Havre** : l'**opération Astonia**, 10-12 septembre 1944, menée par les 49e
+d'infanterie et 51e Highland britanniques avec les blindés spécialisés de la 79e, après un
+bombardement qui a détruit le centre ; le centre reconstruit par **Auguste Perret entre 1945 et
+1964** est inscrit à l'UNESCO depuis le **15 juillet 2005**. ⚠️ **Le bilan humain est écrit
+sans chiffre de mon fait** : la fiche UNESCO donne « plus de 5 000 morts et plus de 12 500
+immeubles rasés » pour l'ensemble, une source sur Astonia donne « plus de 2 000 civils » pour
+le seul bombardement préparatoire, et les deux ne mesurent pas la même chose — c'est la fiche
+UNESCO qui est citée, avec son périmètre. ③ **Le Havre, point pratique** : Brittany Ferries a
+annoncé la **fermeture de la liaison Portsmouth-Le Havre à partir d'octobre 2026**, les
+discussions restant ouvertes à la rédaction, tandis que Portsmouth-Caen (Ouistreham) et
+Portsmouth-Cherbourg sont les routes conservées. Le guide le dit **dans la section Caen**, parce
+que c'est Caen qui garde le bateau : une page qui enverrait un lecteur britannique s'installer
+au Havre pour le ferry l'enverrait sur une ligne en cours de fermeture. À revérifier avant de
+le durcir. ④ **Saint-Étienne** : la finale de Coupe d'Europe du **12 mai 1976 à Hampden Park,
+Glasgow**, perdue 1-0 contre le Bayern après deux barres transversales **carrées**, Hampden
+ayant gardé les poteaux de 1903 ; c'est par là qu'un lecteur britannique connaît la ville, et
+Firminy porte le plus grand ensemble Le Corbusier d'Europe, dont Saint-Pierre relève de
+l'inscription UNESCO de 2016. ⑤ **Dijon** : les tombeaux de **Philippe le Hardi (mort en 1404)
+et Jean sans Peur (tué en 1419)** sont dans la salle des Gardes du musée des Beaux-Arts, à
+l'intérieur du palais ducal, sculptés par Jean de Marville, Claus Sluter et Claus de Werve, et
+la Bourgogne a passé une grande part de la guerre de Cent Ans alliée à l'Angleterre. ⚠️ **Le
+tombeau de Philippe le Bon n'est pas cité** : il est à Bruges, et l'écrire à Dijon serait faux.
+⑥ **Angers** : la maison royale d'Angleterre porte le nom de l'**Anjou** (Geoffroy d'Anjou
+épouse l'impératrice Mathilde, leur fils devient Henri II), et la **tenture de l'Apocalypse**
+du château, commandée vers **1373** par Louis Iᵉʳ d'Anjou et tissée à Paris entre **1377 et
+1382**, longue d'environ **140 m** à l'origine dont **103 m** subsistent, est le plus grand
+ensemble de tapisseries médiévales conservé. ⚠️ **Fontevraud, qui porte les gisants d'Henri II,
+d'Aliénor et de Richard Cœur de Lion, est écrit « accessible depuis Saumur » et non situé à
+Saumur** — convention des batches 26, 28, 32 et 38. ⑦ **Le Mans** : **Henri II d'Angleterre est
+né au Mans le 5 mars 1133**, son père Geoffroy est inhumé dans la cathédrale Saint-Julien et la
+plaque émaillée de son tombeau est au **musée de Tessé** ; la Cité Plantagenêt tient dans une
+enceinte romaine tardive parmi les mieux conservées d'Europe. ⑧ **Nîmes** : *denim* vient de
+**serge de Nîmes** (dérivation admise, écrite comme telle) et la **Maison Carrée** est inscrite
+à l'UNESCO depuis le **18 septembre 2023**, l'amphithéâtre n'étant **pas** dans cette
+inscription ; ⚠️ le **pont du Gard** (UNESCO 1985) **n'est pas à Nîmes**, il est à une vingtaine
+de kilomètres à Vers-Pont-du-Gard, ce que le guide dit avant qu'un lecteur y compte une matinée.
+⑨ **Toulon** : le **siège du 29 août au 19 décembre 1793**, la rade livrée à la flotte de
+l'amiral **Hood**, et un capitaine Bonaparte sorti de là général de brigade — c'est l'épisode
+par lequel l'historiographie anglophone connaît le port, et il explique l'emprise militaire
+d'aujourd'hui.
+
+⚠️ **Le lot est parti ascii-strippé et a été repris avant commit** : les noms propres français
+étaient écrits sans accents (« Nimes », « Saint-Etienne », « Chalons-en-Champagne », « Musee de
+la Reddition »), alors que le corpus EN les accentue partout (`Nîmes` ×106, `Saint-Étienne`
+×151, `Besançon` ×167 avant ce run). 23 mots restaurés, **slugs, `relatedCities` et `tags`
+laissés en ascii** — la clé de résolution ne prend pas d'accent. C'est le même défaut que la
+restauration d'accents du 03/06 sur les 58 guides tourisme, et il ne se voit pas à la
+compilation.
+
+**Contrôles.** `npx tsc --noEmit` **propre** · `npm run integrity` (guides EN 995 → **1 003**,
+tous les gardes passent, dont `assertUniqueSlugs` et `assertKnownSlugs` sur les 55
+`relatedCities` du lot) · `npm run search-index` + `search-index:check`
+(`data/search-index.en.json` 1 003 guides, **114 → 117 tags** : `provence-alpes-cote-dazur`,
+`saint-etienne` et `wine` franchissent le seuil de 3 guides et créent trois pages `/tags/`
+côté EN — aucun tag inventé, les trois existaient déjà dans le vocabulaire du corpus) ·
+`npm run sitemap:check` (FR 29 294 inchangé, **EN 28 887 → 28 898**, soit exactement les 8
+guides et les 3 pages de tag) · `npm run parity` **code 0** · `npm run hreflang:check` ·
+contrôle de lookup / photo passé sur le lot : les 8 portent leur ville en **1re position de
+`relatedCities`**, donc ils remontent par la recherche inverse de `CityGuidesList` sur leur
+page ville EN et `guideCityPhoto()` leur rend une photo d'en-tête (rappel du batch 51 : ce
+résolveur lit `relatedCities`, pas le slug) · vérification d'encodage (**0 em-dash** sur
+8 651 mots là où la cible R7.10 en tolérerait 43, 0 apostrophe typographique, 0 guillemet
+courbe, aucun mojibake, aucune figure en `/10` recopiée d'un littéral de seed, aucun horaire,
+aucun tarif). `npm run build` **non lancé, volontairement** (cf. CLAUDE.md § Commands depuis le
+batch 27). Note d'environnement reconfirmée : le conteneur de routine démarre **en HEAD détaché
+et sans `node_modules`** — `git checkout main` puis `npm install` d'abord.
+
+**Prochain run.** L'écart de corpus mesuré ce run, série par série, après le batch :
+`leaving-` **26 villes manquantes** (par population : Clermont-Ferrand, Brest, Tours, Amiens,
+Limoges, Perpignan, Metz, Besançon, Orléans, Rouen, Caen, Mulhouse, Nancy, Avignon, Poitiers,
+Pau, La Rochelle, Chambéry, Colmar, Valence, Troyes, Vannes, Lorient, Arles, Bayonne, Chartres),
+`moving-to-` **26**, `universites-[ville]` **15 et aucune jumelle EN** (série FR close depuis
+le 25/07, c'est la plus grosse série FR sans le moindre équivalent anglais), `vivre-a-` **10**.
+Corpus global : **FR 1 184 · EN 1 003**. Les séries à parité stricte et à ne pas rouvrir :
+tourisme 275/275, `parent-solo` 114/114, `vacances-celibataire` 56/56, `acheter-a-` 49/49,
+`vacances-monoparentales` 38/38, `travail-a-` 30/30, `famille-a-` 19/19, `retraite-a-` 19/19,
+`vivre-sans-voiture` 15/15, `budget-mensuel-realiste` 10/10.
+
 ### Livré le 28/09 — `single-parent-in-[city]-2026` batch 12 (+11), la série refermée à 114/114, et 114 sous-pages EN qui ne montraient pas leur guide
 
 Les 11 jumelles du batch FR `parent-solo-a-[ville]` du 27/09 écrites d'un coup dans

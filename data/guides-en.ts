@@ -43302,6 +43302,378 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["moissac", "montauban", "agen", "cahors", "castelsarrasin"],
     tags: ["things to do in moissac", "moissac", "travel", "city guide", "occitanie"],
   },
+  {
+    slug: "leaving-reims-where-to-go-2026",
+    title: "Leaving Reims: where people actually go",
+    metaTitle: "Leaving Reims 2026: Where to Go Next",
+    metaDesc:
+      "Leaving Reims as an expat: Châlons, Épernay, Troyes, Metz, Nancy, Paris. Real rents, real travel times, and what the cathedral city still gives you.",
+    category: "lifestyle",
+    emoji: "🍾",
+    readMinutes: 8,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Reims is easy to visit and harder to settle in. The Gothic cathedral where French kings were crowned, the champagne houses, and a TGV that reaches Paris-Est in 45 minutes make the sales pitch write itself. The city of 178,478 people (Insee, 2022) nevertheless loses a steady trickle of working-age residents, and the reasons people give are consistent: the light, the depth of the job market, and a gap between the historic centre and the estates on the western edge. This guide goes through the alternatives with the rents we publish for each one, so you can see what the move actually costs.",
+    sections: [
+      {
+        heading: "What actually drives people out",
+        body: "Three complaints recur. The first is grey. Reims gets about 1,664 hours of sunshine a year, which puts it in the bottom third of French prefectures, near Lille and a long way below Toulouse or Montpellier, and January averages around 3,2 °C. A continental winter that starts in November and does not really let go until March wears on people who did not grow up with it. The second is the job market. Champagne, the teaching hospital and the university hold the local economy up, but they hold it up in a narrow band: outside those three, a senior commercial or technical role is hard to find locally, and ambitious people take the 45-minute train instead. The third is uneven. The historic centre and the Boulingrin quarter are pleasant and safe; parts of the west of the city are not comparable, and families making a first move into Reims frequently pick the wrong side of it.",
+      },
+      {
+        heading: "Châlons-en-Champagne: the cheap administrative option",
+        body: "Châlons-en-Champagne (43,218 residents) is the prefecture of the Marne, about 45 minutes from Reims by the A26, and it is the least disruptive move on this list. We publish a reference of 1,700 EUR per square metre against 2,300 in Reims, and a median two-room rent of 540 EUR a month against 680. It is a small, quiet, canal-crossed town with a basilica of its own, and its economy is the prefecture, the departmental council and the hospital: stable, limited, and not growing. For a civil servant with a transfer, or for someone working remotely who wants a lower rent without leaving the department, this is the simplest version of leaving Reims. For anyone who needs a private-sector employer to change jobs without moving again, it is too thin.",
+      },
+      {
+        heading: "Épernay: prestige, and an economy on one crop",
+        body: "Épernay (22,022 residents, half an hour from Reims) is where the premium champagne houses keep their headquarters, along the Avenue de Champagne, and the hillsides, houses and cellars of Champagne were inscribed on the UNESCO World Heritage list in 2015. Our reference price is 2,100 EUR per square metre, below Reims, though the addresses on the avenue itself are in a different market altogether. What you need to weigh is concentration: local employment is wine, tourism and hospitality, and all three move with the champagne trade. If you work in those, Épernay is a genuine destination rather than a compromise. If you are a generalist, you are trading a narrow job market for a narrower one.",
+      },
+      {
+        heading: "Troyes: the medieval centre at a lower price",
+        body: "Troyes (62,443 residents, prefecture of the Aube) is about an hour and three quarters from Reims by the A26 and then the A5. Its half-timbered centre is one of the best preserved in France, and our reference price of 2,000 EUR per square metre makes it one of the more affordable old towns in the north-east, with a two-room rent around 650 EUR. Paris-Est is roughly an hour and a half by regional train. The Université de Technologie de Troyes gives the city an engineering base, and the old textile economy has moved towards logistics and digital. For someone in Reims who wants the same density of heritage for less money, Troyes deserves a weekend before you dismiss it.",
+      },
+      {
+        heading: "Metz and Nancy: a wider job market in Lorraine",
+        body: "Metz (121,695) and Nancy (104,387) are the two Lorraine capitals, two and a half to three hours from Reims by road. Metz has a very large pedestrian centre, the Centre Pompidou-Metz, and a reference price of 2,300 EUR per square metre, the same as Reims. Nancy has the Place Stanislas, inscribed by UNESCO, a large university, and a reference of 2,400 EUR. Both are better served by TGV towards Paris-Est than Reims is by any measure of frequency, and both carry a broader industrial and service base, inherited from steel and from health. If your reason for leaving Reims is that you have run out of employers rather than that you dislike the city, Lorraine is where the options widen without the cost of Paris.",
+      },
+      {
+        heading: "Paris: the 45-minute question",
+        body: "Because Paris-Est is 45 minutes away, a large number of Reims residents never really leave: they commute, or they keep an eye on Paris while staying put. A season ticket is not cheap, but it is a fraction of the difference in rent. Our figures for Paris are a two-room median of 1,800 EUR a month and a reference of 10,500 EUR per square metre, against 680 EUR and 2,300 in Reims: the salary premium for a qualified role is real and it does not close that gap on its own. The honest version of this decision is that it turns on the job, not on the property maths. If the role exists in Paris and nowhere else, you go. If it exists remotely, Reims at a quarter of the square-metre price is very hard to beat.",
+      },
+      {
+        heading: "Charleville-Mézières and the Ardennes: actually slowing down",
+        body: "Charleville-Mézières (45,634 residents, about an hour and a quarter up the A34) is the most radical option on cost. Our reference is 1,300 EUR per square metre and a two-room rent of 520 EUR a month, which puts it among the fifty lowest square-metre references of the 540 cities we cover. The Place Ducale, laid out on the same model as the Place des Vosges in Paris, is a genuinely fine piece of urbanism that almost no visitor sees. The counterpart is an employment basin that has been shrinking since the 1980s. This works for retirees, for self-sufficient remote workers and for trades. It does not work for anyone who expects to change employer locally.",
+      },
+      {
+        heading: "What Reims has that the alternatives do not",
+        body: "Before you pack, two things worth counting. The cathedral is not just old: it is the church where French kings were crowned, listed by UNESCO in 1991 together with the Palais du Tau and the basilica of Saint-Rémi, and it is a forty-minute walk from most of the city. The second is less advertised and matters more to an English-speaking reader. The German surrender was signed in Reims at 2.41 in the morning on 7 May 1945, in the map room of a technical college that Eisenhower had taken over as the headquarters of the Supreme Headquarters Allied Expeditionary Force. Walter Bedell Smith signed for the Western Allies. The room is preserved as the Musée de la Reddition, inside what is now the Lycée Roosevelt, and the reason VE Day is celebrated on the 8th rather than the 7th is that the Soviet command required a second signing in Berlin the following day. Almost no visitor to Reims knows the room is there. Add a tram network opened in 2011, an opera house, and a square-metre reference well below Strasbourg or Nantes, and the case for staying is stronger than the weather suggests.",
+      },
+    ],
+    relatedCities: ["reims", "chalons-en-champagne", "epernay", "troyes", "metz", "nancy", "charleville-mezieres"],
+    tags: ["reims", "leaving reims", "champagne", "grand-est", "relocation"],
+  },
+  {
+    slug: "leaving-toulon-where-to-go-2026",
+    title: "Leaving Toulon: the navy town that splits opinion",
+    metaTitle: "Leaving Toulon 2026: Where to Go Next",
+    metaDesc:
+      "Leaving Toulon as an expat: Marseille, Aix, Hyères, Six-Fours, Nice. Real rents and square-metre prices, and why Toulon is cheaper than the rest of the coast.",
+    category: "lifestyle",
+    emoji: "⚓",
+    readMinutes: 8,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Toulon is the Mediterranean city that French people argue about and foreign visitors mostly skip. It has 180,834 residents (Insee, 2022), the main base of the French Mediterranean fleet, and it sits 70 km from Marseille and 120 km from Nice without having borrowed the reputation of either. The arguments against it are real and specific rather than general: a civil economy that leans heavily on the navy, and districts that are not comparable to one another. The arguments for it are also specific. Of the three big cities on the Provence and Riviera coast it is by far the cheapest, at a reference of 3,200 EUR per square metre against 3,500 in Marseille and 5,200 in Nice, it gets about 2,750 hours of sun a year, and the roadstead is one of the finest natural harbours in Europe. This guide is for people seriously weighing the move, including the ones who may be about to make it for the wrong reason.",
+    sections: [
+      {
+        heading: "Why the port is what it is",
+        body: "If the naval presence looks disproportionate, it is because the port has been a strategic prize for three centuries. During the siege of Toulon, from 29 August to 19 December 1793, royalists handed the harbour to a British and Spanish fleet under Admiral Lord Hood, and the Republican artillery that eventually forced the evacuation was commanded by a young captain named Bonaparte, who left the siege a brigadier general. That is the episode English-language histories know Toulon for, and it explains the fortifications that ring the roadstead. The consequence for anyone living here today is prosaic: the navy is the largest single employer, directly and through its supply chain, and a very large part of the waterfront is a military installation rather than a promenade.",
+      },
+      {
+        heading: "The reputation, and what the numbers say",
+        body: "Toulon carries two old reputations, one political and one about crime, and both are applied to the whole commune when neither is true of the whole commune. What is accurate is that the difference between districts here is wider than the average. The historic centre, Le Mourillon, which is the seaside residential quarter, and Saint-Jean du Var are calm. The northern districts and the western periphery are a different proposition. This is the same as every large French city: the useful question is not whether Toulon is safe but which street you are signing for, and a weekend spent walking the specific neighbourhood beats any city-level statistic.",
+      },
+      {
+        heading: "What Toulon has that the coast does not",
+        body: "The property argument is the strongest one. Our reference price for Toulon is 3,200 EUR per square metre, with a median two-room rent of 780 EUR a month and a three-room at 1,050 EUR. Compare Nice at 5,200 EUR per square metre and 1,100 EUR for a two-room, or Aix-en-Provence at 5,000 EUR and 1,050 EUR. Toulon is 38 per cent below Nice on the square metre and 36 per cent below Aix, for the same sea and very nearly the same sun. The beaches at Le Mourillon are ten minutes from the centre. Porquerolles and Port-Cros are reachable by boat, though the usual departure point is the Giens peninsula, which belongs to Hyères rather than to Toulon.",
+      },
+      {
+        heading: "Marseille: the big city 70 km west",
+        body: "This is the most common move. Marseille (877,215 residents) gives you what Toulon does not: a diversified economy at scale, an international airport, a cultural and food scene of national weight, and a university system of 80,000 students. Our reference is 3,500 EUR per square metre and 820 EUR for a two-room, so the cost step is modest by the standards of this coast, around 9 per cent on the square metre. The caveat is that Marseille is a city you have to learn. Its districts vary more than Toulon's do, not less, and people who move for the opportunity and pick the address casually tend to move again within two years.",
+      },
+      {
+        heading: "Aix-en-Provence: the premium version",
+        body: "Aix (147,933) is the expensive, polished option: a strong university, a very educated working population, and a centre that works. The price is severe. Our reference of 5,000 EUR per square metre and 1,050 EUR for a two-room puts it 56 per cent above Toulon on the square metre. Aix makes sense for senior professionals, the liberal professions and high-earning families, and for people whose children will use the private or international schooling. On a mid-range salary the quality-of-life-per-euro calculation goes back to Toulon, and it is not close.",
+      },
+      {
+        heading: "Staying on the Var coast: Hyères, Six-Fours, La Ciotat",
+        body: "Plenty of people who leave Toulon do not leave the bay. Hyères (55,384) is the obvious one: our reference is 4,200 EUR per square metre with a two-room at 950 EUR, so you pay about 31 per cent more than Toulon on the square metre for a smaller, greener, more touristic town and the ferry port for the islands. Six-Fours-les-Plages (36,843) is 4,500 EUR per square metre and 980 EUR, and you will need a car for everything. La Ciotat (37,599), just over the departmental line in the Bouches-du-Rhone, is 4,200 EUR and 920 EUR, with an old shipyard converted into a yachting and refit cluster: interesting if you work in that industry, expensive if you do not. None of these is a budget move. They are lifestyle moves made by people who already own in Toulon.",
+      },
+      {
+        heading: "Who should stay, and who should go",
+        body: "Stay if you are navy or navy-adjacent, since postings usually decide this for you anyway. Stay if you are retired and active, and you want the sea and the sun without the Nice price. Stay if you work remotely and want a large flat with a terrace on this coast, because Toulon is the only city here where that is still within reach. Go if you are early in a digital or finance career, because the local employers for those profiles are thin. Go if you are a creative and you need the ecosystem, which is in Marseille. And go if you want a wide choice of bilingual or international schooling, which is in Aix and Marseille rather than here. The short version: if your work is portable or naval, Toulon is undervalued. If your work needs a large market, it is not.",
+      },
+    ],
+    relatedCities: ["toulon", "marseille", "aix-en-provence", "hyeres", "six-fours-les-plages", "la-ciotat", "nice"],
+    tags: ["toulon", "leaving toulon", "provence-alpes-cote-dazur", "relocation"],
+  },
+  {
+    slug: "leaving-le-havre-where-to-go-2026",
+    title: "Leaving Le Havre: Rouen, Caen, Paris or the coast",
+    metaTitle: "Leaving Le Havre 2026: Where to Go Next",
+    metaDesc:
+      "Leaving Le Havre as an expat: Rouen, Caen, Paris, the Côte Fleurie. Real rents, the ferry that is closing, and why the concrete is UNESCO-listed.",
+    category: "lifestyle",
+    emoji: "🏗️",
+    readMinutes: 8,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Le Havre is a strange city to explain and an easy one to underestimate. It has 166,462 residents (Insee, 2022), one of the largest commercial ports in Europe, a city centre on the UNESCO World Heritage list, and the cheapest housing of any large city on the Channel coast: our reference is 2,000 EUR per square metre and 650 EUR a month for a two-room flat. It also has a long history of people leaving, mostly for Rouen, Caen and Paris. This guide sets out where they go, what each option costs against the numbers we publish, and one piece of travel news that will matter to British readers in particular.",
+    sections: [
+      {
+        heading: "Why people leave",
+        body: "Three reasons, in roughly this order. Senior white-collar work is scarce: the local economy runs on port logistics, refining and heavy industry, and if you are in marketing, design, consulting or finance the list of local employers is short enough to read in an afternoon. The weather is relentless rather than extreme. Le Havre gets around 1,590 hours of sunshine a year, the lowest figure of any city in this guide, and the wind off the Channel blows most of the year. Neither fact kills a first winter; it is the fourth that does the damage. And the image lags the reality: the city still reads as post-industrial to people who have not been, even after the UNESCO listing and the redevelopment of the docks. Qualified young people leave to study in Rouen or Paris and a large share never come back.",
+      },
+      {
+        heading: "What a visitor gets wrong about the concrete",
+        body: "Foreign visitors see the reinforced concrete and assume a failure of taste. The history is the opposite. Between 5 and 12 September 1944, in the run-up to the ground assault codenamed Operation Astonia, Allied bombing destroyed the centre of Le Havre almost completely: the UNESCO record for the site puts the toll at more than 5,000 dead and over 12,500 buildings razed. The city was then rebuilt from 1945 to 1964 to a plan led by Auguste Perret, on a modular grid, in prefabricated concrete, and that rebuilt centre was inscribed on the World Heritage list on 15 July 2005 as an exceptional example of post-war planning. The ground attack itself, on 10 to 12 September 1944, was carried out by the British 49th Infantry and 51st Highland divisions with the specialist armour of the 79th. Knowing that changes what the centre looks like, and it is the single thing most worth telling a British visitor before they arrive.",
+      },
+      {
+        heading: "Rouen: the Normandy metropolis",
+        body: "Rouen (116,331 residents) is 87 km away, about an hour by regional train and fifty minutes by road, and it takes the largest share of departures. A great many people make the trip daily without moving at all. For those who do move, Rouen offers a noticeably deeper market for qualified roles, in health, agri-food, pharmaceuticals and the university, and a more layered cultural life. It costs more, but not dramatically: our reference is 2,600 EUR per square metre against 2,000 in Le Havre, and a two-room at 720 EUR against 650. The weather is still Normandy, grey and damp, but without the ocean wind. For families, Rouen has more engineering schools and specialist secondary options.",
+      },
+      {
+        heading: "Caen: the other Normandy, and the one that keeps the ferry",
+        body: "Caen (108,398 residents) is about an hour and a half by road. It is a university town with a large teaching hospital, a particle accelerator, and the landing beaches and the Bessin countryside on its doorstep. Our reference is 2,500 EUR per square metre and 700 EUR for a two-room, and it gets a little more sun than Le Havre at around 1,726 hours. It is further from Paris than Rouen, which matters if you are keeping a Paris connection. One practical point for British readers, and it cuts the other way from what you would expect: Brittany Ferries has announced that the Portsmouth to Le Havre crossing is due to close from October 2026, while Portsmouth to Caen via Ouistreham and Portsmouth to Cherbourg are the routes it is concentrating on. Discussions about the Le Havre service were still running as this was written, so check before you plan around it. If a direct sailing to England is part of why you are on this coast, Caen is now the safer address.",
+      },
+      {
+        heading: "Paris and the western commuter belt",
+        body: "Le Havre to Paris is around two and a quarter hours by direct train, which is too long to do every day. People aiming at Paris therefore move properly, and most land in the Yvelines or the Val-d'Oise rather than inside the city: Paris itself runs at 1,800 EUR a month for a two-room and a reference of 10,500 EUR per square metre, against 650 EUR and 2,000 here. A qualified move typically buys a real salary increase and gives back more than that in housing. This is a career decision, not a cost-of-living decision, and it works cleanly for single people and couples without children early in a career.",
+      },
+      {
+        heading: "The Côte Fleurie: Honfleur and the coast",
+        body: "For people who love the sea and want out of the industrial city, the coast east of the estuary is a different world half an hour to an hour away. Honfleur (6,751 residents) is the best known, all harbour and painters and tourism, and it is not cheap: our reference is 3,500 EUR per square metre, 75 per cent above Le Havre, with a two-room at 700 EUR. The resort towns further along the Calvados coast are more expensive again. None of these places solves the employment problem. They work for remote workers and for retirees, and the standard mistake is to sign for one without checking the actual fibre and mobile coverage at that exact address first.",
+      },
+      {
+        heading: "The honest sum",
+        body: "People who move to Rouen for the same job gain little in salary and gain a lot in the depth of options around them, which is what most of them were actually short of. People who move to Paris gain in salary and lose in housing, and the arithmetic only works if the career step is real. People who move along the coast trade an employment problem for a connectivity problem. And the group nobody counts are the ones who stay: a two-room flat at 650 EUR a month within walking distance of a World Heritage centre and a real beach is not a thing you will find again easily, and it is worth pricing what you are giving up before you decide the grey has won.",
+      },
+    ],
+    relatedCities: ["le-havre", "rouen", "caen", "honfleur", "paris"],
+    tags: ["le havre", "leaving le havre", "normandie", "relocation"],
+  },
+  {
+    slug: "leaving-saint-etienne-where-to-go-2026",
+    title: "Leaving Saint-Étienne: Lyon, the mountains, or staying put",
+    metaTitle: "Leaving Saint-Étienne 2026: Where to Go",
+    metaDesc:
+      "Leaving Saint-Étienne as an expat: Lyon, Grenoble, Chambéry, Annecy, Roanne, Firminy. Real rents, and why this is the cheapest big city in France.",
+    category: "lifestyle",
+    emoji: "⚒️",
+    readMinutes: 8,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Saint-Étienne is the cheapest city of more than 100,000 residents in the 540 we cover, and it cannot get anyone to believe it. With 172,569 residents (Insee, 2022) it publishes a reference price of 1,500 EUR per square metre and a median two-room rent of 580 EUR a month, figures you would expect from a town a fifth of its size. It also has a UNESCO City of Design label, the Pilat regional park on its southern edge, and an agglomeration that has been shrinking since the 1970s. Several thousand people leave every year. This guide covers where they go and what it costs, and makes the case that a good share of them are solving the wrong problem.",
+    sections: [
+      {
+        heading: "Why people leave",
+        body: "Three things come up. Work first: the industrial base eroded over four decades, the automotive supply chain is being reshaped by electrification, and outside health and a small technology cluster the choice of employers for a qualified role is limited. Reputation second, and this one is self-reinforcing: the city reads as grey and post-industrial to people who have never walked it, which depresses property values, which confirms the impression. Climate third, and it is real: the basin holds winter fog and the city gets more rain than Lyon does. The compounding effect is that managers transferred to Lyon routinely refuse to live here, which keeps the salary premium and the reputation exactly where they are.",
+      },
+      {
+        heading: "Lyon: 45 minutes away, at roughly double the price",
+        body: "Lyon (520,774 residents) is 50 km up a very busy regional line, about 45 minutes. Enough people commute daily that the train is the real answer for a large share of Saint-Étienne residents who take a Lyon job. If you move properly, the market is several times deeper, the engineering schools are among the best in France, and the cultural offer is the strongest outside Paris. The cost is unambiguous: our reference is 5,000 EUR per square metre in Lyon against 1,500 here, and a two-room at 1,000 EUR against 580. That is more than triple on the square metre. For a family that already owns in Saint-Étienne, the move very often does not survive contact with a mortgage calculator, and the outcome is either the train or a compromise commune on the Lyon side that is neither one thing nor the other.",
+      },
+      {
+        heading: "Grenoble: the same size, a different economy",
+        body: "Grenoble (156,389) is almost exactly the same size as Saint-Étienne and almost nothing else about it is the same. Research laboratories, semiconductors and a large scientific population give it a job market that barely overlaps with this one, and the mountains are on the doorstep rather than an hour away. Our reference is 3,200 EUR per square metre and 750 EUR for a two-room, so around double Saint-Étienne on the square metre. The known drawback is the inversion fog: the city sits in a basin between three massifs and traps cold, polluted air for long stretches in winter. If you are leaving Saint-Étienne because of the fog in the bowl, read that sentence twice.",
+      },
+      {
+        heading: "Chambéry and Annecy: the Savoie option",
+        body: "For people who leave for the outdoors, Savoie is the coherent destination. Annecy (131,272) tops French quality-of-life rankings and prices accordingly: our reference is 5,500 EUR per square metre, the highest figure anywhere in this guide, with a two-room at 1,100 EUR. It scores 7.3 out of 10 on our overall index, against 5.5 for Saint-Étienne, and you pay every tenth of that. Chambéry (60,251) is the realistic version of the same idea: 3,600 EUR per square metre, 820 EUR for a two-room, a human-scale historic centre, the mountains just as close, and Lyon an hour away. Chambéry is the move most often recommended and least often made.",
+      },
+      {
+        heading: "Staying in the Loire: Roanne, Saint-Chamond, Firminy",
+        body: "Many people who want out of central Saint-Étienne do not actually want out of the department. Roanne (35,364) is about an hour by regional train, with a reference of 1,500 EUR per square metre and a two-room at 520 EUR, and a textile economy in long reconversion. Saint-Chamond (35,586) is fifteen minutes away on the Lyon line, at the same 1,500 EUR reference. Firminy (17,128) is the cheapest address in this guide at 1,200 EUR per square metre and 470 EUR for a two-room, and it holds the largest concentration of Le Corbusier buildings in Europe, including the church of Saint-Pierre, which is part of the 2016 UNESCO inscription of his work. Be clear about what these are: they minimise the cost and the upheaval, and they do not change your job market, since all three feed the same one.",
+      },
+      {
+        heading: "The reason a British reader has heard of this city",
+        body: "If the name rings a bell in English it is almost certainly football. AS Saint-Étienne reached the European Cup final on 12 May 1976 at Hampden Park in Glasgow and lost 1-0 to Bayern Munich, having twice hit a crossbar that was square rather than round, because Hampden had kept the angular posts installed in 1903 long after other grounds had switched. Les poteaux carrés entered the language here as a permanent national grievance, and the team came home to a crowd that behaved as though it had won. That is the other half of the city that the grey reputation hides: a place with an unusually strong sense of itself, a design biennale of international standing, and rents that make a first purchase possible at an age when Lyon has stopped being an option.",
+      },
+      {
+        heading: "The honest sum",
+        body: "People who move to Lyon for a better-paid job generally do get the better-paid job, and generally do lose the ability to buy an equivalent property, which is a trade and not a win. People who move to Grenoble or Annecy report a better balance and a heavier bill, in money at Annecy and in winter air at Grenoble. People who stay in the Loire keep their purchasing power and change very little else. The worst outcome we see repeatedly is the half-move: a distant suburb on the Lyon side chosen to escape central Lyon rents, ending in a ninety-minute daily commute that is worse than the train from Saint-Étienne ever was. If the job is portable, run the numbers on staying before anything else.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "grenoble", "chambery", "annecy", "roanne", "saint-chamond", "firminy"],
+    tags: ["saint-etienne", "leaving saint-etienne", "rhone-alpes", "affordable france", "relocation"],
+  },
+  {
+    slug: "leaving-dijon-where-to-go-2026",
+    title: "Leaving Dijon: when Burgundy starts to feel small",
+    metaTitle: "Leaving Dijon 2026: Where to Go Next",
+    metaDesc:
+      "Leaving Dijon as an expat: Lyon, Besançon, Chalon, Mâcon, Beaune, Paris. Real rents and prices, and what a city with a ducal palace still gives you.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Dijon is a city people leave for one reason far more often than any other, and it is not the quality of life. With 159,941 residents (Insee, 2022), an intact historic centre, a food culture that needs no introduction and vineyards half an hour away, it scores 6.4 out of 10 on our overall index, well above the national middle. What it has is a narrow private-sector job market for qualified profiles outside food, banking, health and the public sector. When a transfer, a redundancy or simple ambition arrives, people look elsewhere. This guide covers where, and what each option costs against the figures we publish.",
+    sections: [
+      {
+        heading: "What makes people go",
+        body: "Two forces, and they compound. The job market first. Dijon is solid for agri-food, banking and insurance, health and public administration. For software, digital marketing, product design or anything selling to businesses at scale, local vacancies are far thinner than in Lyon, Bordeaux or Rennes, and the shortfall is structural rather than cyclical. Size second. An urban area of roughly a quarter of a million is big enough never to feel isolated and small enough that a professional network saturates in about five years. People who want to keep moving find they have already met everyone worth meeting, and that is a quieter reason for leaving than any salary comparison but it shows up in the same statistics.",
+      },
+      {
+        heading: "Lyon: the obvious move, at double the price",
+        body: "Lyon is the first destination for people leaving Dijon for work: an hour and forty by TGV, a metropolitan area of 2.3 million, and a technology, pharmaceutical and finance ecosystem of European weight. Our reference price is 5,000 EUR per square metre in Lyon against 2,600 in Dijon, with a two-room at 1,000 EUR against 720. A strategy a lot of people adopt instead: buy in Mâcon or Bourg-en-Bresse, both within an hour of Lyon by regional train, and go in two or three days a week. Our references there are 2,100 and 2,300 EUR per square metre, so you keep access to the Lyon market at well under half the Lyon square metre.",
+      },
+      {
+        heading: "Besançon: staying in the region, with hills",
+        body: "Besançon (120,057 residents) is an hour and a quarter from Dijon on the A36, and its economy is genuinely different: microtechnology, watchmaking inherited from the Jura, a large teaching hospital and the university. The city is built inside a loop of the Doubs under a Vauban citadel, which gives it a setting Dijon simply does not have. Our reference is 2,300 EUR per square metre against 2,600 here, and a two-room at 680 EUR against 720, so it is a change of scene that costs nothing. For someone who wants a different environment without leaving the region or stretching the budget, Besançon is the most consistently underrated option on this list.",
+      },
+      {
+        heading: "The Saone towns: Chalon, Mâcon, Bourg-en-Bresse",
+        body: "Chalon-sur-Saône (44,592 residents, forty minutes by regional train) runs at 1,700 EUR per square metre and 550 EUR for a two-room, with an active industrial and retail base and a street-arts festival of national standing. Mâcon (34,759) is at 2,100 EUR and 600 EUR, and sits at the gateway to southern Burgundy and the Beaujolais with a TGV that reaches Lyon in about thirty-five minutes. Bourg-en-Bresse (42,065), just over into the Ain, is at 2,300 EUR and 630 EUR. All three keep a fast connection to Lyon or Paris at a cost of living well below Dijon, and all three are smaller than what you are leaving, which is the point for some people and the problem for others.",
+      },
+      {
+        heading: "Beaune: small, dear, and the best-rated town here",
+        body: "Beaune (20,233 residents) is thirty minutes south and it is the outlier in this guide: it scores 7.7 out of 10 on our overall index, the highest of any city named in these pages, Annecy and Lyon included. It is also expensive for its size, at 3,200 EUR per square metre and 800 EUR for a two-room, above Dijon on both counts. What you buy is the capital of the Burgundy wine trade, the Hospices with their glazed-tile roof, and a town where almost everything is walkable. What you do not buy is a job market: local employment is wine, tourism and hospitality. It is a destination for people who work in those, who work remotely, or who have stopped working.",
+      },
+      {
+        heading: "Paris: an hour and thirty-five, and the staged version",
+        body: "For people leaving the region entirely, Paris is still where ambition goes. The TGV takes about an hour and thirty-five minutes, and salaries for qualified roles run well above their Dijon equivalents. Cost of living erases much of that difference but not all of it at the top of the range: our Paris reference is 10,500 EUR per square metre and 1,800 EUR for a two-room, against 2,600 and 720 here. The version that works best in practice is staged rather than sudden. Fully remote from Dijon first, then two days a week in Paris, then a decision taken with real information instead of a spreadsheet.",
+      },
+      {
+        heading: "What you give up, including a room most visitors miss",
+        body: "Count what you are leaving. A pedestrian centre of real quality, food markets to match, the Côte de Nuits by bicycle in half an hour, a national-grade teaching hospital, and a cost of living that lets a mid-level professional salary actually accumulate savings. There is also one thing an English-speaking reader will not expect. The dukes of Burgundy spent much of the Hundred Years War allied with England rather than with the French crown, and the tombs of Philip the Bold, who died in 1404, and John the Fearless, killed in 1419, stand in the Salle des Gardes of the Musée des Beaux-Arts, inside the ducal palace in the middle of town. They were carved by Jean de Marville, Claus Sluter and Claus de Werve, and the ranks of mourners beneath the effigies are among the finest pieces of late medieval sculpture anywhere. Entry to that museum is a short walk from most of the city. If the job exists locally, even in hybrid form, the question is worth asking in reverse.",
+      },
+    ],
+    relatedCities: ["dijon", "lyon", "besancon", "chalon-sur-saone", "macon", "beaune", "bourg-en-bresse"],
+    tags: ["dijon", "leaving dijon", "burgundy", "wine", "relocation"],
+  },
+  {
+    slug: "leaving-angers-where-to-go-2026",
+    title: "Leaving Angers: Nantes, Paris or the Anjou countryside",
+    metaTitle: "Leaving Angers 2026: Where to Go Next",
+    metaDesc:
+      "Leaving Angers as an expat: Nantes, Paris, Le Mans, Laval, Saumur, Cholet. Real rents and prices, and why the English crown is named after this place.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 8,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Angers has been near the top of French quality-of-life rankings for a decade, and it deserves it: 157,555 residents (Insee, 2022), an unusual amount of greenery for a French city, a TGV that reaches Paris in an hour and a half, and a score of 6.7 out of 10 on our overall index. The problem is arithmetic. The metropolitan area is modest, and outside horticulture, agri-food and software the supply of senior white-collar roles runs out quickly. Several thousand people leave every year, most of them along four well-worn routes. Here they are, with what each one costs.",
+    sections: [
+      {
+        heading: "Why people leave",
+        body: "Three motives. A career ceiling: beyond the plant and food sectors, information technology and the university, the choice of employers for a senior commercial, consulting or finance role is limited, and people who want the next step take it elsewhere. Property pressure: Angers now runs at a reference of 3,000 EUR per square metre with a median two-room rent of 750 EUR a month, which is a lot for a city this size and reflects how little buildable land there is between the Maine and the Loire. And the small-city effect, which nobody puts on a form but everybody mentions: the same restaurants, the same events, the same faces, sooner than expected.",
+      },
+      {
+        heading: "Nantes: an hour west, a market several times deeper",
+        body: "Nantes (325,070 residents) is 90 km away, about an hour by train, and it absorbs the largest share of Angers departures. Software, agri-food, shipbuilding and biotechnology give it a job market several times the size of this one, and the cultural life is on a different scale. It costs more, and specifically: our reference is 4,200 EUR per square metre against 3,000 in Angers, and a two-room at 850 EUR against 750. That is 40 per cent on the square metre and 13 per cent on the rent, a wider gap on buying than on renting, which is exactly the pattern that catches people who rent in Angers and plan to buy in Nantes. A good number commute instead and never move at all.",
+      },
+      {
+        heading: "Paris: an hour and a half, and the commuter maths",
+        body: "Angers to Paris-Montparnasse is an hour and a half by TGV, which is short enough that two days a week in Paris is a normal arrangement rather than a heroic one. For people who move properly, the salary step for a qualified role is real, and the housing bill is worse than the step: our Paris reference is 10,500 EUR per square metre and 1,800 EUR for a two-room, against 3,000 and 750 here. Most end up in the outer ring rather than in Paris itself. The recurring pattern in this particular flow is the return: people who go to Paris from Anjou come back at a higher rate than the national average, usually when a child arrives, and they come back to a property market that has moved on without them.",
+      },
+      {
+        heading: "Le Mans and Laval: the cheap inland option",
+        body: "Le Mans (145,182 residents) is about 45 minutes by TGV and offers a comparable urban life for materially less: our reference is 1,900 EUR per square metre against 3,000 in Angers, with a two-room at 650 EUR against 750. That is 37 per cent off the square metre for a city only slightly smaller. Laval (49,474) is smaller and cheaper again at 1,550 EUR and 490 EUR, and correspondingly thinner on employment. Both of these work for remote workers and for people in public-sector or administrative roles who are not dependent on a private white-collar market. Neither is a career move.",
+      },
+      {
+        heading: "Saumur, Cholet and the Anjou countryside",
+        body: "For people who want to stay in Maine-et-Loire, the department has real options. Saumur (26,074 residents, about fifty minutes by regional train) sits in the Loire valley World Heritage area, in wine country, and scores 7.1 out of 10 on our index, higher than Angers itself, at a reference of 1,900 EUR per square metre and 600 EUR for a two-room. Cholet (54,074) has a reconverted textile economy and the same 1,900 EUR reference. Of the two, Saumur is the better balance of heritage, price and direct trains, and it is the natural base for the one place in this guide that most English readers would actually make a detour for: the abbey of Fontevraud, which holds the tombs of Henry II, Eleanor of Aquitaine and Richard the Lionheart, is a short drive from Saumur and not in it.",
+      },
+      {
+        heading: "Why the English crown is named after this place",
+        body: "Anjou is not a regional footnote in English history, it is the source of a dynasty. Geoffrey of Anjou, count here, married the Empress Matilda, daughter of Henry I of England, and their son Henry was born at Le Mans on 5 March 1133 and became Henry II, the first of the Plantagenet kings who ruled England until 1485. The name itself is Angevin. The counts held court at what is now the Château d'Angers, a black schist fortress ringed by seventeen towers in the middle of the city, and inside it hangs the Apocalypse Tapestry, commissioned around 1373 by Louis I of Anjou and woven in Paris between 1377 and 1382. It ran to roughly 140 metres originally and about 103 metres survive, which makes it the largest set of medieval tapestries left anywhere, and it is on the UNESCO Memory of the World register. Most people who move to Angers for the parks never go in.",
+      },
+      {
+        heading: "The honest sum",
+        body: "People who move to Nantes gain market depth and urban stimulation, and lose relatively little on rent, though more than they expect on a purchase. People who move to Paris gain salary and lose the thing that got them ranked top of the quality-of-life tables in the first place. People who stay in Maine-et-Loire, at Saumur or Cholet, usually come out ahead on purchasing power with their weekends unchanged. The worst version we see is a move to Paris taken for the prestige of the title, reversed four years later with a family in tow and a housing budget that no longer reaches Angers. Ask at the outset whether Paris is compatible with the ten-year plan, not the two-year one.",
+      },
+    ],
+    relatedCities: ["angers", "nantes", "le-mans", "laval", "saumur", "cholet", "tours"],
+    tags: ["angers", "leaving angers", "pays de la loire", "relocation"],
+  },
+  {
+    slug: "leaving-nimes-where-to-go-2026",
+    title: "Leaving Nîmes: what nobody tells you first",
+    metaTitle: "Leaving Nîmes 2026: Where to Go Next",
+    metaDesc:
+      "Leaving Nîmes as an expat: Montpellier, Avignon, Marseille, Alès. Real rents and prices, plus two things English speakers get wrong about the city.",
+    category: "lifestyle",
+    emoji: "🏛️",
+    readMinutes: 8,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Nîmes has 150,444 residents (Insee, 2022), around 2,700 hours of sunshine a year and a Roman amphitheatre that most Mediterranean cities would build a tourist board around. It also loses working-age people at a steady rate, and not because it is a bad city. It is caught in a specific trap: large enough to have the drawbacks of a city, traffic, rising rents, districts that pull apart from one another, and not large enough to carry the density of professional opportunity of a metropolis. The employment base is retail, logistics and tourism. That is fine, and it is not enough to hold a postgraduate engineer. This guide puts the numbers on the table rather than arguing a side, because leaving Nîmes for Montpellier and leaving Nîmes for Avignon are not the same decision and confusing them is expensive.",
+    sections: [
+      {
+        heading: "Why people actually leave",
+        body: "Qualified work first. Nîmes has no large autonomous university pole: the local university is small, nothing like the weight of Montpellier or Toulouse, and serious technology firms, business law practices and creative agencies are rare. A postgraduate in software or consulting has few local choices. Mobility second. Montpellier is around an hour and ten by car, Avignon forty-five minutes, but direct high-speed services towards Paris are fewer and dearer than from Montpellier, and daily life without a car gets difficult as soon as you leave the centre. Image third. Fairly or not, Nîmes carries a reputation for being a difficult city, driven by the situation in one or two specific western districts, and that reputation weighs on where families and newcomers decide to live.",
+      },
+      {
+        heading: "What is underrated about staying",
+        body: "The Roman heritage is exceptional and it is genuinely in the city, not near it: the amphitheatre and the Maison Carrée are both a short walk from the station. Property is reasonable by Mediterranean standards. Our reference is 2,800 EUR per square metre with a median two-room rent of 720 EUR a month, against Montpellier at 3,900 EUR and 850 EUR. That is 28 per cent less on the square metre for a city forty minutes away. The sun is real and measurable: around 2,700 hours a year here, 2,740 in Montpellier and 1,972 in Lyon. For a remote worker or a retired household, that combination is hard to beat anywhere in the south of France.",
+      },
+      {
+        heading: "Montpellier: 50 km, and a third more on the square metre",
+        body: "Montpellier (307,101 residents) is the obvious destination and not always the right one. What it gives you is real: a university of around 70,000 students, a major health and life-sciences cluster, a growing startup scene and an effective tram network. What it costs is also real. Our reference is 3,900 EUR per square metre and 850 EUR for a two-room, so 39 per cent up on buying and 18 per cent on rent, and the pressure on rental stock is chronic rather than seasonal because the city attracts enough people to keep it that way. For a young professional in health, digital or higher education, Montpellier is the rational move in spite of the cost. For a remote worker looking for calm and sun, the case is much weaker. The classic mistake is to move there and expect to keep a Nîmes housing budget.",
+      },
+      {
+        heading: "Avignon: 45 km, mistral included",
+        body: "Avignon (91,760 residents) is the third city of Provence-Alpes-Côte d'Azur by weight of its urban area, and it occupies an interesting middle position: cheaper than Marseille or Aix, smaller and more manageable than Montpellier, and on the TGV line to Paris. Our reference is 3,000 EUR per square metre and 750 EUR for a two-room, so barely above Nîmes on both, and the employment base is more diversified, spanning logistics, agri-food, public services and tourism. The festival in July gives the city a cultural intensity nowhere else on this list matches. One caveat that people who have only visited in spring underestimate: the mistral blows harder and more often in Avignon than it does in Nîmes, and it is a genuine factor in daily life.",
+      },
+      {
+        heading: "Marseille: a different scale entirely",
+        body: "Marseille (877,215 residents) is another order of magnitude and another logic. An international airport, a port, a cultural apparatus, and professional opportunity with no comparison anywhere in this guide. Our reference is 3,500 EUR per square metre and 820 EUR for a two-room, which is 25 per cent above Nîmes on the square metre, less than Montpellier costs. The complication is not price, it is variance: districts differ enormously in character, and a household that picks an address on a weekend visit will frequently move again. For an entrepreneurial or creative profile, or anyone in maritime logistics, Marseille has no rival in the south-east. For a family looking for calm and green space, the adjustment is a real piece of work.",
+      },
+      {
+        heading: "Alès and the edge of the Cévennes: the cheap direction",
+        body: "Not everyone leaving Nîmes is going up a rung. Alès (45,025 residents), the second town of the Gard, runs at a reference of 1,600 EUR per square metre and 520 EUR for a two-room, which is 43 per cent below Nîmes on the square metre and the cheapest move available. It keeps the southern light, with around 2,700 hours of sun, and it puts the Cévennes at the end of the street. Be honest about the counterpart: it scores 4.9 out of 10 on our overall index against 5.1 for Nîmes, the employment base is thinner, and the mining economy that built the town has been gone for two generations. This is a move for remote workers, for trades and for retirement, not for a career.",
+      },
+      {
+        heading: "Two things English speakers get wrong about Nîmes",
+        body: "The first is a word you are wearing. Denim takes its name from serge de Nîmes, the twill the city exported, which is the accepted derivation for the fabric that ended up in Nevada making work trousers. The second is a matter of geography that wastes a lot of visitors a morning. The Pont du Gard, the Roman aqueduct bridge that was inscribed by UNESCO in 1985, is not in Nîmes: it is about 20 km away at Vers-Pont-du-Gard, and it needs a car or a bus and a half day. What is in Nîmes, and what people overlook because they came for the arena, is the Maison Carrée, one of the best-preserved Roman temples anywhere, which was added to the World Heritage list in its own right on 18 September 2023. The amphitheatre is not part of that inscription. If the sun and the stonework are the reason you came, that is an argument for staying that no spreadsheet will produce.",
+      },
+    ],
+    relatedCities: ["nimes", "montpellier", "avignon", "marseille", "ales", "aix-en-provence"],
+    tags: ["nimes", "leaving nimes", "occitanie", "relocation"],
+  },
+  {
+    slug: "leaving-le-mans-where-to-go-2026",
+    title: "Leaving Le Mans: Paris, Nantes or the Sarthe",
+    metaTitle: "Leaving Le Mans 2026: Where to Go Next",
+    metaDesc:
+      "Leaving Le Mans as an expat: Paris, Nantes, Tours, Angers, Laval, rural Sarthe. Real rents, and why an English king was born inside the Roman walls.",
+    category: "lifestyle",
+    emoji: "🏎️",
+    readMinutes: 8,
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    intro:
+      "Le Mans is one of the best-value addresses in France if your work does not depend on being here. It has 145,182 residents (Insee, 2022), a reference price of 1,900 EUR per square metre, a median two-room rent of 650 EUR a month, and a TGV that reaches Paris-Montparnasse in 55 minutes. That combination is rare enough to be worth stating plainly. Only three of the cities over 100,000 residents that we cover are cheaper per square metre, Saint-Étienne, Limoges and Mulhouse, and none of the three is within two hours of Paris. And yet people leave, at a rate of a couple of thousand a year, for reasons that have almost nothing to do with the price of housing. Here is where they go.",
+    sections: [
+      {
+        heading: "Why people leave",
+        body: "Three reasons. The senior job market is narrow: outside insurance, which is the historic local industry, the automotive supply chain, the university and the public sector, the supply of senior white-collar roles is limited, and a career step usually means a different city. The commuting effect is self-reinforcing: a great many people already work in Paris daily, and after a few years of a 55-minute train at each end the final move stops feeling like a decision and starts feeling like a formality. And the motor-racing identity, powerful in marketing terms, leaves some residents describing the city as quiet outside the week of the race, which is a fair criticism and an incomplete one.",
+      },
+      {
+        heading: "Paris: 55 minutes, and the case for not moving",
+        body: "Le Mans to Paris-Montparnasse is 55 minutes by TGV and daily commuting is entirely normal here. For people who move properly, the salary step for a qualified role is real and the housing loss is larger: our Paris reference is 10,500 EUR per square metre and 1,800 EUR for a two-room, against 1,900 and 650 here, which is more than five times on the square metre and nearly three times on rent. The western suburbs are the usual compromise. The point worth making, because it is so often skipped, is that the season ticket is a fraction of the rent difference, and for a great many households the train remains more profitable than the move for the entire length of a career.",
+      },
+      {
+        heading: "Nantes: an hour and a half, and a different market",
+        body: "Nantes (325,070 residents) is about an hour and a half by TGV and it is the metropolis of the west: software, agri-food, shipbuilding, biotechnology, and a young Atlantic city that feels nothing like this one. The cost is the largest relative step on this list after Paris. Our reference is 4,200 EUR per square metre against 1,900 here, and a two-room at 850 EUR against 650, so you are paying 121 per cent more per square metre. This is the option for people who want to change their market and their environment at the same time, and who have accepted that they are probably renting for longer than they planned.",
+      },
+      {
+        heading: "Tours and Angers: the Loire without Paris",
+        body: "Tours (138,668 residents, about 45 minutes by TGV) is almost exactly the same size as Le Mans, with a Loire valley setting, a good teaching hospital and a comparable market for qualified roles, at a reference of 2,700 EUR per square metre and 700 EUR for a two-room. Angers (157,555, about fifty minutes) trades on greenery and quality of life and scores 6.7 out of 10 on our index against 5.7 for Le Mans, at a cost of 3,000 EUR per square metre and 750 EUR. Neither is a large career step. Both are lateral moves into a nicer setting, and both cost between 42 and 58 per cent more per square metre than what you are leaving, which is the number people forget to run.",
+      },
+      {
+        heading: "Staying in the Sarthe: Sable, Laval, Alençon",
+        body: "For people who want to stay local, the department and its neighbours are very cheap. Sablé-sur-Sarthe (12,194 residents, about 45 minutes) is at a reference of 1,400 EUR per square metre and 510 EUR for a two-room, with a regional line towards Angers. Laval (49,474, in the Mayenne) is at 1,550 EUR and 490 EUR. Alençon (25,667, in the Orne) is the cheapest rent in this guide at 460 EUR for a two-room and 1,400 EUR per square metre. All three optimise purchasing power and all three make a car compulsory. The recurring error, and it is the expensive one, is buying deep in the rural Sarthe to work remotely for Paris without having tested the actual fibre connection at that address first. Check the line before you sign, not after.",
+      },
+      {
+        heading: "The race, and what it does to your rent",
+        body: "If you have heard of Le Mans in English it is because of the 24 Hours, run since 1923 on a circuit that is part permanent track and part ordinary departmental road, which is why the Mulsanne straight is a public highway for most of the year. Two practical consequences for a resident rather than a spectator. Accommodation prices in and around the city move sharply for that week and for the motorcycle race, which is a real income opportunity if you own and a real annoyance if you are trying to move house in June. And the city genuinely does empty of visitors the rest of the year, which is why the old town is one of the least crowded major heritage sites in France.",
+      },
+      {
+        heading: "The Plantagenet city most English visitors drive past",
+        body: "There is a better reason than the race to look at the old town before you leave it. Le Mans is where Henry II of England was born, on 5 March 1133, son of Geoffrey of Anjou and the Empress Matilda, and the first of the Plantagenet kings who held the English throne until 1485. His father Geoffrey was buried in the cathedral of Saint-Julien here, and the enamelled copper plaque from that tomb, made in the Limoges technique around the middle of the twelfth century, is one of the earliest pieces of armorial art in Europe and is now kept in the Musée de Tessé in the city. The old town itself, the Cité Plantagenêt, sits inside a circuit of late Roman walls that is among the best preserved in Europe. None of that appears in the race coverage, and almost no English visitor who comes for the 24 Hours walks up the hill to see it.",
+      },
+    ],
+    relatedCities: ["le-mans", "paris", "nantes", "tours", "angers", "laval", "alencon", "sable-sur-sarthe"],
+    tags: ["le mans", "leaving le mans", "pays de la loire", "affordable france", "relocation"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

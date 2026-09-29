@@ -8217,6 +8217,46 @@
       "slug": "things-to-do-in-moissac-2026",
       "title": "Things to do in Moissac: a cloister of 1100, an hour from Toulouse, on the Le Puy camino",
       "emoji": "⛪"
+    },
+    {
+      "slug": "leaving-reims-where-to-go-2026",
+      "title": "Leaving Reims: where people actually go",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "leaving-toulon-where-to-go-2026",
+      "title": "Leaving Toulon: the navy town that splits opinion",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "leaving-le-havre-where-to-go-2026",
+      "title": "Leaving Le Havre: Rouen, Caen, Paris or the coast",
+      "emoji": "🏗️"
+    },
+    {
+      "slug": "leaving-saint-etienne-where-to-go-2026",
+      "title": "Leaving Saint-Étienne: Lyon, the mountains, or staying put",
+      "emoji": "⚒️"
+    },
+    {
+      "slug": "leaving-dijon-where-to-go-2026",
+      "title": "Leaving Dijon: when Burgundy starts to feel small",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "leaving-angers-where-to-go-2026",
+      "title": "Leaving Angers: Nantes, Paris or the Anjou countryside",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "leaving-nimes-where-to-go-2026",
+      "title": "Leaving Nîmes: what nobody tells you first",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "leaving-le-mans-where-to-go-2026",
+      "title": "Leaving Le Mans: Paris, Nantes or the Sarthe",
+      "emoji": "🏎️"
     }
   ],
   "tags": [
@@ -8248,7 +8288,7 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 66
+      "count": 67
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -8263,7 +8303,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 58
+      "count": 59
     },
     {
       "slug": "single-supplement",
@@ -8296,23 +8336,23 @@
       "count": 51
     },
     {
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 51
+    },
+    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
       "count": 49
     },
     {
-      "slug": "relocation",
-      "label": "relocation",
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
       "count": 43
     },
     {
       "slug": "cost-of-living",
       "label": "cost of living",
-      "count": 41
-    },
-    {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
       "count": 41
     },
     {
@@ -8426,13 +8466,13 @@
       "count": 13
     },
     {
-      "slug": "bretagne",
-      "label": "bretagne",
-      "count": 12
-    },
-    {
       "slug": "burgundy",
       "label": "burgundy",
+      "count": 13
+    },
+    {
+      "slug": "bretagne",
+      "label": "bretagne",
       "count": 12
     },
     {
@@ -8521,6 +8561,11 @@
       "count": 8
     },
     {
+      "slug": "affordable-france",
+      "label": "affordable france",
+      "count": 7
+    },
+    {
       "slug": "alps",
       "label": "alps",
       "count": 7
@@ -8528,6 +8573,11 @@
     {
       "slug": "car-free-holidays-france",
       "label": "car-free holidays france",
+      "count": 7
+    },
+    {
+      "slug": "dijon",
+      "label": "dijon",
       "count": 7
     },
     {
@@ -8556,13 +8606,18 @@
       "count": 7
     },
     {
-      "slug": "corsica",
-      "label": "corsica",
+      "slug": "angers",
+      "label": "angers",
       "count": 6
     },
     {
-      "slug": "dijon",
-      "label": "dijon",
+      "slug": "champagne",
+      "label": "champagne",
+      "count": 6
+    },
+    {
+      "slug": "corsica",
+      "label": "corsica",
       "count": 6
     },
     {
@@ -8581,6 +8636,11 @@
       "count": 6
     },
     {
+      "slug": "normandie",
+      "label": "normandie",
+      "count": 6
+    },
+    {
       "slug": "paris",
       "label": "paris",
       "count": 6
@@ -8596,16 +8656,6 @@
       "count": 6
     },
     {
-      "slug": "affordable-france",
-      "label": "affordable france",
-      "count": 5
-    },
-    {
-      "slug": "angers",
-      "label": "angers",
-      "count": 5
-    },
-    {
       "slug": "basque-country",
       "label": "basque country",
       "count": 5
@@ -8613,11 +8663,6 @@
     {
       "slug": "caen",
       "label": "caen",
-      "count": 5
-    },
-    {
-      "slug": "champagne",
-      "label": "champagne",
       "count": 5
     },
     {
@@ -8636,13 +8681,18 @@
       "count": 5
     },
     {
-      "slug": "normandie",
-      "label": "normandie",
+      "slug": "quality-of-life",
+      "label": "quality-of-life",
       "count": 5
     },
     {
-      "slug": "quality-of-life",
-      "label": "quality-of-life",
+      "slug": "rhone-alpes",
+      "label": "rhone alpes",
+      "count": 5
+    },
+    {
+      "slug": "toulon",
+      "label": "toulon",
       "count": 5
     },
     {
@@ -8671,8 +8721,23 @@
       "count": 4
     },
     {
+      "slug": "le-havre",
+      "label": "le havre",
+      "count": 4
+    },
+    {
+      "slug": "le-mans",
+      "label": "le mans",
+      "count": 4
+    },
+    {
       "slug": "nancy",
       "label": "nancy",
+      "count": 4
+    },
+    {
+      "slug": "nimes",
+      "label": "nimes",
       "count": 4
     },
     {
@@ -8686,18 +8751,13 @@
       "count": 4
     },
     {
-      "slug": "rhone-alpes",
-      "label": "rhone alpes",
+      "slug": "reims",
+      "label": "reims",
       "count": 4
     },
     {
       "slug": "rouen",
       "label": "rouen",
-      "count": 4
-    },
-    {
-      "slug": "toulon",
-      "label": "toulon",
       "count": 4
     },
     {
@@ -8756,23 +8816,8 @@
       "count": 3
     },
     {
-      "slug": "le-havre",
-      "label": "le havre",
-      "count": 3
-    },
-    {
-      "slug": "le-mans",
-      "label": "le mans",
-      "count": 3
-    },
-    {
       "slug": "living-in-france",
       "label": "living in france",
-      "count": 3
-    },
-    {
-      "slug": "nimes",
-      "label": "nimes",
       "count": 3
     },
     {
@@ -8781,13 +8826,23 @@
       "count": 3
     },
     {
-      "slug": "reims",
-      "label": "reims",
+      "slug": "provence-alpes-cote-dazur",
+      "label": "provence-alpes-cote-dazur",
+      "count": 3
+    },
+    {
+      "slug": "saint-etienne",
+      "label": "saint-etienne",
       "count": 3
     },
     {
       "slug": "sea-level-rise",
       "label": "sea level rise",
+      "count": 3
+    },
+    {
+      "slug": "wine",
+      "label": "wine",
       "count": 3
     }
   ]
