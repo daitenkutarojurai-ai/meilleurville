@@ -5589,6 +5589,23 @@ aucun tarif). `npm run build` **non lancé, volontairement** (cf. CLAUDE.md § C
 batch 27). Note d'environnement reconfirmée : le conteneur de routine démarre **en HEAD détaché
 et sans `node_modules`** — `git checkout main` puis `npm install` d'abord.
 
+⚠️ **Défaut FR trouvé en passant, mesuré, et NON corrigé — c'est une passe FR, pas une passe
+de parité EN.** La divergence de loyers décrite plus haut n'est pas un accident sur trois
+guides : sur les **48 guides `quitter-*-guide-2026`**, un rapprochement automatique des loyers
+T2 cités avec `data/housing.ts` donne **43 des 49 figures rapprochables divergentes d'au moins
+10 %**, presque toutes **vers le bas**, avec des écarts jusqu'à **−48 %**. Les deux cas lus
+directement dans la prose, donc sûrs : `quitter-le-mans` annonce « T2 ~390 €/mois » quand
+`/villes/le-mans` rend **650 €**, et `quitter-angers` « T2 ~490 €/mois » quand `/villes/angers`
+rend **750 €**. ⚠️ L'attribution ville par ville du comptage passe par une expression régulière
+et retombe sur la ville du guide quand elle ne sait pas lire le nom : **les lignes individuelles
+sont indicatives, seuls la direction et l'ordre de grandeur sont établis.** C'est le mode de
+défaillance du § « Never quote a seed literal in copy » appliqué à un autre fichier : le guide
+et la page ville de la même commune se contredisent en un clic, et c'est le côté FR qui porte
+le trafic (4 192 clics sur 90 jours contre 165 côté EN). À traiter en passe FR dédiée — soit en
+réécrivant les chiffres depuis `HOUSING`, soit en disant dans la série d'où vient son barème
+s'il mesure autre chose qu'un loyer de marché. `npm run integrity` ne peut pas le voir : sa
+garde de citations compare aux **scores** du seed, pas aux loyers.
+
 **Prochain run.** L'écart de corpus mesuré ce run, série par série, après le batch :
 `leaving-` **26 villes manquantes** (par population : Clermont-Ferrand, Brest, Tours, Amiens,
 Limoges, Perpignan, Metz, Besançon, Orléans, Rouen, Caen, Mulhouse, Nancy, Avignon, Poitiers,
