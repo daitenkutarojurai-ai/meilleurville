@@ -32374,47 +32374,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Sisteron est une commune des Alpes-de-Haute-Provence, 7 000 habitants à 480 m d'altitude — surnommée la « porte de la Provence » (passage stratégique entre Alpes du Sud et Provence sur la Durance). La ville est dominée par sa citadelle Vauban (XIe-XVIIe siècles, perchée sur un éperon rocheux de 100 m de hauteur). Patrie de l'agneau de Sisteron IGP (le plus prestigieux agneau français — élevé en bergeries d'alpage, chair claire et goût subtil).",
+    intro: "Le surnom de Sisteron, la « porte de la Provence », décrit une géographie et non une brochure. Cette commune des Alpes-de-Haute-Provence tient le passage stratégique entre les Alpes du Sud et la Provence, sur la Durance, et ce verrou explique à peu près tout le reste : les 7 000 habitants installés à 480 m d'altitude, et surtout la citadelle Vauban qui surveille le défilé depuis les XIe-XVIIe siècles, plantée sur un éperon rocheux de 100 m de hauteur. L'autre titre de la ville se mange. Sisteron est la patrie de l'agneau IGP, le plus prestigieux agneau français, élevé en bergeries d'alpage, chair claire et goût subtil.",
     sections: [
       {
         heading: "1. La citadelle de Sisteron — Vauban",
-        body: "La Citadelle de Sisteron (XIe-XVIIe siècles, fortifiée par Vauban en 1690 — perchée à 580 m sur un éperon rocheux de 100 m surplombant la Durance) est l'une des plus impressionnantes places fortes de Provence. Visite avec audioguide (1h30) — bastions, casemates, chapelle Notre-Dame du Château, donjon roman. Vue panoramique à 360° sur les Préalpes de Digne, la Durance et la vallée du Buëch. Festival « Nuits de la Citadelle » en juillet-août (théâtre, musique).",
+        body: "Les dates disent l'essentiel : le rocher est fortifié dès le XIe siècle et le chantier court jusqu'au XVIIe, Vauban n'intervenant qu'en 1690 sur une place forte déjà ancienne. La citadelle de Sisteron est perchée à 580 m sur un éperon rocheux de 100 m qui surplombe la Durance, et c'est l'une des places fortes les plus impressionnantes de Provence. La visite se fait à l'audioguide et demande 1h30 : bastions, casemates, chapelle Notre-Dame du Château, donjon roman. Tout en haut, la vue est panoramique à 360° sur les Préalpes de Digne, la Durance et la vallée du Buëch. En juillet-août, le festival « Nuits de la Citadelle » y installe théâtre et musique.",
       },
       {
         heading: "2. L'agneau de Sisteron — IGP",
-        body: "L'Agneau de Sisteron IGP (depuis 1995 — le plus prestigieux agneau français, élevé en bergeries d'alpage de Sisteron-Manosque) est la fierté gastronomique locale. 250 000 agneaux par an. Chair claire, goût subtil, gras absorbé par le muscle. Marché aux ovins de Sisteron (le mercredi matin — l'un des plus grands de France pour le marché des agneaux d'estive). Restaurants spécialisés : Les Becs Fins (à Sisteron — Michelin), Mas des Espérances.",
+        body: "L'IGP date de 1995, la réputation de bien plus loin. L'agneau de Sisteron est le plus prestigieux agneau français, issu des bergeries d'alpage de Sisteron-Manosque, et il reste la fierté gastronomique locale : la production atteint 250 000 agneaux par an. Ce qui le distingue tient à trois choses, une chair claire, un goût subtil, et un gras absorbé par le muscle. Le mercredi matin, le marché aux ovins de Sisteron est l'un des plus grands de France pour les agneaux d'estive. Côté table, Les Becs Fins, à Sisteron, est au Michelin ; le Mas des Espérances est l'autre maison spécialisée.",
       },
       {
         heading: "3. La Durance et les gorges",
-        body: "La Durance (rivière qui passe à Sisteron) traverse la cité dans des gorges encaissées entre la Baume et le Rocher de la Baume. Sentier de la Durance (10 km en boucle) au pied de la citadelle. Possibilité de descente en canoë sur la Durance (rivière calme dans cette section). Le Rocher de la Baume (face à la citadelle, sur l'autre rive — escalade renommée, l'un des meilleurs spots calcaires français).",
+        body: "À Sisteron, la Durance ne longe pas la ville : elle la traverse, dans des gorges encaissées entre la Baume et le Rocher de la Baume. Au pied de la citadelle, le sentier de la Durance forme une boucle de 10 km. La rivière est calme sur cette section, ce qui autorise la descente en canoë. Et en face de la forteresse, sur l'autre rive, le Rocher de la Baume est un site d'escalade renommé, l'un des meilleurs spots calcaires français.",
       },
       {
         heading: "4. Le plateau de Valensole — lavandes",
-        body: "Le Plateau de Valensole (à 30 km au sud de Sisteron) est le plus grand plateau lavandier de France — 800 km² de cultures de lavandin (floraison fin juin à fin juillet — l'un des plus beaux paysages d'Europe). Fête de la Lavande à Valensole le 3e dimanche de juillet. Distilleries à visiter. À photographier avant 8h ou après 18h pour éviter la foule.",
+        body: "À 30 km au sud de Sisteron, le plateau de Valensole est le plus grand plateau lavandier de France : 800 km² de cultures de lavandin, qui fleurissent de fin juin à fin juillet et composent alors l'un des plus beaux paysages d'Europe. La Fête de la Lavande se tient à Valensole le 3e dimanche de juillet, et plusieurs distilleries se visitent. Pour les photos, l'heure compte plus que le matériel : avant 8h ou après 18h, faute de quoi la foule est dans le cadre.",
       },
       {
         heading: "5. Manosque — la patrie de Giono",
-        body: "Manosque (à 50 km au sud de Sisteron, dans les Alpes-de-Haute-Provence) est la plus grande ville du département. Patrie de Jean Giono (1895-1970, l'un des plus grands romanciers français du XXe siècle — Hussard sur le toit, Regain) — Centre Jean-Giono à visiter. Siège de L'Occitane en Provence (visite gratuite de l'usine). Centre médiéval avec portes fortifiées.",
+        body: "Manosque est à 50 km au sud de Sisteron, toujours dans les Alpes-de-Haute-Provence, et c'est la plus grande ville du département. Jean Giono (1895-1970) y est né, l'un des plus grands romanciers français du XXe siècle, l'auteur du Hussard sur le toit et de Regain ; le Centre Jean-Giono lui est consacré et se visite. La ville abrite aussi le siège de L'Occitane en Provence, dont l'usine s'ouvre gratuitement aux visiteurs, et un centre médiéval avec ses portes fortifiées.",
       },
       {
         heading: "6. Forcalquier — la cité des comtes de Provence",
-        body: "Forcalquier (à 35 km au sud de Sisteron) est l'ancien siège des comtes de Provence avant Aix. Cité médiévale perchée. La citadelle Notre-Dame-de-Provence (au sommet, vue à 360° sur le Luberon et les Alpes), la cathédrale Notre-Dame-du-Marché (XIIe-XIIIe siècles), la place du Bourget (terrasses ombragées). Marché du lundi matin (l'un des plus beaux de Provence — pas touristique, vraiment local).",
+        body: "Avant Aix, le siège des comtes de Provence était ici. Forcalquier, à 35 km au sud de Sisteron, est une cité médiévale perchée, et l'on monte jusqu'à la citadelle Notre-Dame-de-Provence, au sommet, pour une vue à 360° sur le Luberon et les Alpes. En redescendant viennent la cathédrale Notre-Dame-du-Marché, des XIIe-XIIIe siècles, puis la place du Bourget et ses terrasses ombragées. Le marché du lundi matin est l'un des plus beaux de Provence, et l'un des moins touristiques : il est resté vraiment local.",
       },
       {
         heading: "7. Les gorges de la Méouge",
-        body: "Les Gorges de la Méouge (à 15 km à l'ouest de Sisteron — sur la rivière Méouge, affluent du Buëch) sont l'une des plus belles gorges des Alpes du Sud. Eau turquoise, baignade sauvage (plages de galets), pont médiéval (XIIIe siècle). Sentier balisé en boucle (8 km, 3h). Mois idéal pour la baignade : juillet-août (eau à 16-18°C).",
+        body: "La Méouge, affluent du Buëch, a creusé à 15 km à l'ouest de Sisteron l'une des plus belles gorges des Alpes du Sud. L'eau y est turquoise, la baignade sauvage et les plages de galets ; un pont médiéval du XIIIe siècle achève le décor. Un sentier balisé en fait le tour, 8 km et 3h de marche. Reste la température, qui tranche la saison : juillet-août est le bon moment, l'eau étant alors à 16-18°C.",
       },
       {
         heading: "8. L'observatoire de Saint-Michel et le ciel étoilé",
-        body: "L'Observatoire de Haute-Provence (à 40 km au sud de Sisteron, à Saint-Michel-l'Observatoire — l'un des plus grands observatoires astronomiques français — créé en 1937 dans l'air le plus pur d'Europe occidentale) est l'un des hauts lieux de l'astronomie française. Lieu de la découverte de la première exoplanète en 1995 (Michel Mayor, prix Nobel 2019). Visite guidée des coupoles (T193 cm, le plus grand télescope optique français). Soirées d'observation.",
+        body: "C'est ici qu'a été découverte la première exoplanète, en 1995 : la trouvaille de Michel Mayor, que le prix Nobel a couronnée en 2019. L'Observatoire de Haute-Provence se tient à 40 km au sud de Sisteron, à Saint-Michel-l'Observatoire, où il a été créé en 1937, dans l'air le plus pur d'Europe occidentale. C'est l'un des plus grands observatoires astronomiques français et l'un des hauts lieux de l'astronomie française. Les coupoles se visitent avec un guide, dont celle du T193 cm, le plus grand télescope optique français. Des soirées d'observation sont organisées.",
       },
       {
         heading: "9. La cathédrale Notre-Dame-des-Pommiers",
-        body: "La Cathédrale Notre-Dame-des-Pommiers de Sisteron (XIIe siècle, romane lombarde — l'une des plus belles églises romanes des Alpes du Sud) est le monument religieux emblématique. Façade en pierre blanche, tour-clocher massive. Trésor de la cathédrale (orfèvrerie médiévale, statues sculptées). Restaurée au XIXe siècle. Visite gratuite.",
+        body: "Le monument religieux emblématique de Sisteron est sa cathédrale Notre-Dame-des-Pommiers, bâtie au XIIe siècle en roman lombard, et l'une des plus belles églises romanes des Alpes du Sud. On la reconnaît à sa façade de pierre blanche et à sa tour-clocher massive. Son trésor réunit de l'orfèvrerie médiévale et des statues sculptées. L'édifice a été restauré au XIXe siècle. La visite est gratuite.",
       },
       {
         heading: "10. Gastronomie haut-provençale — agneau et fromages",
-        body: "La cuisine de Sisteron est haut-provençale : agneau de Sisteron IGP (rôti, grillé, en navarin — recette dominicale), pieds-paquets (tripes d'agneau farcies, héritage de Marseille), tian de légumes provençaux. Fromages AOP : Banon (chèvre fermier feuille de châtaignier — à 50 km à l'ouest), Bleu de Sassenage. Spécialités : huile d'olive de Haute-Provence AOP, miel de Provence (lavande, romarin). Vins : Coteaux de Pierrevert (AOC haute altitude — l'une des AOC les plus hautes de France à 450 m), Côtes du Luberon (à 50 km).",
+        body: "La cuisine de Sisteron est haut-provençale, et l'agneau IGP y revient sous trois formes : rôti, grillé ou en navarin, ce dernier tenant de la recette dominicale. À côté figurent les pieds-paquets, des tripes d'agneau farcies héritées de Marseille, et le tian de légumes provençaux. Deux fromages AOP à retenir, le Banon, un chèvre fermier en feuille de châtaignier produit à 50 km à l'ouest, et le Bleu de Sassenage. S'y ajoutent l'huile d'olive de Haute-Provence AOP et le miel de Provence, lavande ou romarin. Pour les vins, les Coteaux de Pierrevert forment une AOC de haute altitude, l'une des AOC les plus hautes de France à 450 m, et les Côtes du Luberon sont à 50 km.",
       },
     ],
     relatedCities: ["sisteron"],
