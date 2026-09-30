@@ -9366,6 +9366,13 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
   étant absent du conteneur** — ce qui est établi est que le module n'a gagné **aucun import**
   (toujours le seul `import type { CityLight }`), donc aucun fichier de données n'entre dans le
   graphe client, et la doctrine du projet interdit d'annoncer un chiffre non mesuré.
+  🔧 **Deux défauts de copie attrapés en rendant les chaînes réelles avant de clore le run**, et ils
+  seraient partis sur 540 pages FR et dans le JSON-LD `FAQPage` qui les reprend : la distance
+  sortait avec un **séparateur décimal anglais** (« à 8.9 km ») dans une copie française, et la
+  commune d'implantation se décrivait elle-même « à 0.0 km (Le Kremlin-Bicêtre) » — avec, pour les
+  slugs qui portent déjà une parenthèse de désambiguïsation, une **parenthèse imbriquée**
+  (« (Saint-Denis (La Réunion)) »). `chuWhere()` rend désormais « dans la commune » à 0 km et
+  « à 8,9 km (Paris) » au-delà. **Une chaîne construite se relit rendue, pas dans le source.**
   ⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27). Le
   substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (nouveau
   garde `CHU` compris, 37 communes), `npm run parity` (**code 0**, 0 route FR sans jumelle),

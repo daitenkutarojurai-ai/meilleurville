@@ -271,6 +271,18 @@ export function nearestChuSite(city: CityLight): { commune: string; km: number }
 }
 
 /**
+ * Rend la distance telle qu'une page française la lit : virgule décimale, et
+ * « dans la commune » plutôt que « à 0,0 km (Untel) » quand la ville EST le
+ * site — le nom entre parenthèses serait le sien, et certains portent déjà une
+ * parenthèse de désambiguïsation (« Saint-Denis (La Réunion) »), qu'on
+ * imbriquerait.
+ */
+function chuWhere(commune: string, km: number): string {
+  if (km === 0) return "dans la commune";
+  return `à ${km.toFixed(1).replace(".", ",")} km (${commune})`;
+}
+
+/**
  * La proximité d'un CHU ne peut qu'**améliorer** l'accès, jamais le dégrader :
  * on garde le palier le plus favorable des deux (rappel de la convention du
  * fichier, 10 = le plus difficile). Sans cette règle, une commune de 60 000
@@ -293,14 +305,14 @@ function specialistesFromChu(city: CityLight): HealthDimension | null {
     return {
       score: 2,
       level: "facile",
-      reason: `Site de CHU à ${km.toFixed(1)} km (${commune}) — plateau technique complet et recours à toutes les spécialités sans quitter l'agglomération. La distance est mesurée entre centroïdes de communes ; les délais de rendez-vous, eux, ne sont pas relevés.`,
+      reason: `Site de CHU ${chuWhere(commune, km)} — plateau technique complet et recours à toutes les spécialités sans quitter l'agglomération. La distance est mesurée entre centroïdes de communes ; les délais de rendez-vous, eux, ne sont pas relevés.`,
     };
   }
   if (km <= CHU_REACH_KM) {
     return {
       score: 4,
       level: "correct",
-      reason: `Site de CHU à ${km.toFixed(1)} km (${commune}) — la majorité des spécialités est atteignable en une demi-heure de route environ, mais hors de la commune. Distance mesurée entre centroïdes ; délais non relevés.`,
+      reason: `Site de CHU ${chuWhere(commune, km)} — la majorité des spécialités est atteignable en une demi-heure de route environ, mais hors de la commune. Distance mesurée entre centroïdes ; délais non relevés.`,
     };
   }
   return null;
@@ -345,14 +357,14 @@ function urgencesFromChu(city: CityLight): HealthDimension | null {
     return {
       score: 1.5,
       level: "facile",
-      reason: `Site de CHU avec SAU 24/7 à ${km.toFixed(1)} km (${commune}) — le recours aux soins critiques est dans l'agglomération, sans transfert vers un autre département.`,
+      reason: `Site de CHU avec SAU 24/7 ${chuWhere(commune, km)} — le recours aux soins critiques est dans l'agglomération, sans transfert vers un autre département.`,
     };
   }
   if (km <= CHU_REACH_KM) {
     return {
       score: 5,
       level: "correct",
-      reason: `Pas de CHU sur la commune, mais un site à ${km.toFixed(1)} km (${commune}) — de l'ordre de 20 à 30 min de route hors conditions dégradées.`,
+      reason: `Pas de CHU sur la commune, mais un site ${chuWhere(commune, km)} — de l'ordre de 20 à 30 min de route hors conditions dégradées.`,
     };
   }
   return null;
