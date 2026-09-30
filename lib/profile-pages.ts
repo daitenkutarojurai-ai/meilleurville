@@ -23,6 +23,15 @@
 //      seul profil `investisseurs-locatifs` : pour un bailleur, un marché tendu
 //      est un délai de relocation court, et l'intro du profil le dit. La même
 //      clé sur un profil de locataire serait un bug.
+//   ③ `healthcareScarcity` — même moteur F47 que `healthcareAccess` ci-dessus,
+//      lu **sans inversion** (`10 = désert`), avec un poids positif, sur le
+//      seul profil `professionnels-de-sante` : pour un soignant qui cherche où
+//      installer un cabinet, une zone sous-dotée est une patientèle qui
+//      attend, et c'est ce que le zonage ARS subventionne. Les deux clés lisent
+//      donc le même composite dans les deux sens, volontairement, et aucune
+//      des deux n'est « la bonne » — chacune nomme sa direction. Mettre
+//      `healthcareScarcity` sur un profil de patient serait un bug, comme
+//      `rentalTension` sur un profil de locataire.
 //
 // Rappel de direction pour le reste : les axes seed, `sportLeisure`,
 // `cyclingMobility`, `investorYield`, `coastalProximity`, `mountainProximity`,
@@ -72,6 +81,11 @@ type ScoreWeights = Partial<{
   // inversée (10 = accès facile), au site d'affichage et jamais dans le moteur,
   // conformément à la convention de score du projet.
   healthcareAccess: number;
+  // Manque de soignants (F47 encore), lu à l'endroit du moteur : `10 = désert`.
+  // ⚠️ Ce n'est pas un doublon de `healthcareAccess`, c'est son opposé assumé —
+  // même composite, direction inverse, pour le profil du praticien et non du
+  // patient. Cf. l'exception ③ en tête de fichier.
+  healthcareScarcity: number;
   // Dérivés géographiques
   coastalProximity: number;
   mountainProximity: number;
@@ -522,6 +536,9 @@ function getScoreValue(city: CityLight, key: string): number {
   // Inversion assumée : le moteur F47 mesure la difficulté d'accès, la clé
   // nomme la facilité. Même traitement que sur /villes/[slug]/sante.
   if (key === "healthcareAccess") return 10 - computeHealthcareAccess(city).composite;
+  // Non-inversion assumée : la clé nomme le manque, le moteur le mesure déjà
+  // dans ce sens. Un seul profil la porte (cf. exception ③ en tête de fichier).
+  if (key === "healthcareScarcity") return computeHealthcareAccess(city).composite;
   if (key === "coastalProximity") return coastalProximity(city);
   if (key === "mountainProximity") return mountainProximity(city);
   if (key === "metroAccess") return metroAccess(city);
@@ -1170,6 +1187,115 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) => {
       const a = airportAccessHub(c);
       return `${a ? `${a.hub} à ${a.km} km` : "aucun aéroport à moins de 250 km"} · coût ${c.scores.cost.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
+    },
+  },
+  {
+    slug: "professionnels-de-sante",
+    emoji: "\u{1F9D1}\u200D\u2695\uFE0F",
+    label: "Professionnels de santé",
+    metaTitle: "Villes où s'installer soignant 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 des villes où installer un cabinet quand on est médecin, infirmier ou kiné : manque de soignants estimé, coût du logement, écoles, zonage ARS.",
+    intro:
+      "Professionnels de santé : ce classement récompense une pénurie, et autant le dire avant le premier " +
+      "rang. Les trente-six autres profils cherchent une ville où vivre ; celui-ci cherche une " +
+      "ville où installer un cabinet, et la question du praticien est l'exact inverse de celle du patient. « Suivi " +
+      "médical régulier » classe l'accès aux soins du point de vue de qui doit s'y rendre, donc récompense " +
+      "l'abondance ; ici la même mesure entre avec le même signe mais se lit dans l'autre sens, parce qu'un " +
+      "territoire où l'on ne trouve pas de médecin traitant est une patientèle qui attend. Ce n'est pas non plus « " +
+      "proches aidants », qui accompagne quelqu'un d'autre et cherche du calme, ni « personnes à mobilité réduite " +
+      "», qui pondère l'accessibilité des transports. Le précédent existe déjà dans ce fichier : la tension " +
+      "locative est une nuisance pour le locataire, et elle entre sans inversion, avec un poids positif, sur le " +
+      "seul profil « investisseurs locatifs », parce qu'un marché tendu signifie un délai de relocation court. Le " +
+      "manque de soignants joue ici le même rôle, et comme là-bas, la même clé sur un profil de patient serait un " +
+      "bug. Le critère cardinal est donc le manque estimé de soignants, agrégé sur quatre dimensions : la densité " +
+      "de généralistes, la présence de spécialistes et d'un plateau technique, la distance à un service d'accueil " +
+      "des urgences, le maillage de pharmacies. Un mot sur ce que ce chiffre est, avant de lire un seul rang. Ce " +
+      "n'est pas un relevé de cabinets commune par commune : c'est une estimation construite depuis le département " +
+      "et la taille de la commune, dont les paliers sont calés sur des cadres de référence publics, à savoir les " +
+      "statistiques de la DREES, l'atlas démographique du Conseil national de l'Ordre des médecins et le zonage " +
+      "des agences régionales " +
+      "de santé. Aucun de ces relevés n'est ingéré, et la seule chose réellement mesurée ici est la distance au " +
+      "site de CHU le plus proche. La conséquence se mesure elle aussi : 73 % de la variance de cet indicateur " +
+      "s'explique par le seul département, sur les 102 que compte le corpus. Autrement dit, ce classement trie des " +
+      "départements avant de trier des villes, et deux communes voisines y partagent la même densité de " +
+      "généralistes alors que l'une a peut-être vu partir deux médecins l'an dernier. La grille n'est pas plate " +
+      "pour autant à l'intérieur d'un département, parce que les dimensions urgences, spécialistes et pharmacies " +
+      "suivent la taille de la commune : dans la Sarthe, La Flèche et Sablé-sur-Sarthe sortent à 7,7 quand Le Mans, " +
+      "préfecture dotée d'un centre hospitalier, tombe à 5,2. C'est ce quart de variance restant qui sépare une " +
+      "sous-préfecture d'une ville-centre, et c'est lui qui rend la page lisible. Sur les 540 villes, 22 atteignent " +
+      "le niveau « désert » de l'échelle, 205 le niveau « tendu », 166 sont correctes et 147 faciles, pour une " +
+      "médiane à 4,5. Le coût du logement vient juste derrière, avec un poids volontairement élevé : une " +
+      "installation en libéral, c'est un local à trouver et souvent un emprunt, au moment précis où l'on renonce à " +
+      "un salaire. Suivent la qualité de vie, les écoles (on s'installe rarement seul, et une installation en " +
+      "libéral s'envisage pour dix ans, donc pour une scolarité entière), puis une demi-part de sécurité et une " +
+      "demi-part de nature. Le résultat n'est surtout pas « les villes les plus dépourvues », et c'est " +
+      "l'enseignement principal de la page. Seize des 22 villes de niveau désert sont dans ce top 20, mais les deux " +
+      "plus dépourvues du corpus n'y sont pas : Mauriac, qui affiche le manque le plus élevé de toutes nos villes à " +
+      "8,2, sort 84ᵉ, et Clamecy, à 8,0, sort 99ᵉ — la première avec une qualité de vie à 3,8 et des écoles à 2,2, " +
+      "la seconde à 4,5 et 2,4. Aubusson porte le même 8,0 que Clamecy et sort 5ᵉ, parce que sa qualité de vie est " +
+      "à 6,4 et ses écoles à 4,5. La pénurie seule ne suffit donc pas à faire un bon endroit pour installer un " +
+      "cabinet, et quatre villes du top 20 ne sont même pas au niveau désert mais seulement tendu : Saint-Girons, " +
+      "Fontenay-le-Comte, Florac-Trois-Rivières et Gourdon. Gérardmer sort en tête avec un manque à 7,9 et la " +
+      "meilleure qualité de vie du classement à 8,7, mais c'est aussi le logement le plus cher des vingt (T3 à 870 " +
+      "€, mètre carré à 2 200 €) : elle ne gagne pas en étant bon marché. Suivent Autun, Saint-Flour et La Flèche, " +
+      "cette dernière portant les meilleures écoles du lot à 8,7 pour 14 500 habitants. À l'autre bout du top 20, " +
+      "La Souterraine loue son T3 520 € et vend le mètre carré 800 €, le moins cher des vingt, et " +
+      "Florac-Trois-Rivières est la plus petite avec 2 200 habitants et la meilleure note de nature à 9,0. La " +
+      "Creuse place à elle seule trois des vingt villes : Aubusson, Guéret et La Souterraine. Deux chiffres " +
+      "résument la géographie de ce classement. Les vingt villes se répartissent sur 15 départements et 8 régions, " +
+      "aucune ne dépasse 14 500 habitants, et leur T3 médian est à 700 € contre 930 € pour le corpus, leur mètre " +
+      "carré à 1 300 € contre 2 500 € : on achète son local à peu près moitié prix. Si la taille compte plus que le " +
+      "rang, la lecture change : la première ville de plus de 20 000 habitants est Saint-Dié-des-Vosges, 24ᵉ, " +
+      "suivie de Vichy 30ᵉ, Laon 46ᵉ et Chaumont 48ᵉ. Et à l'autre extrémité de l'axe, les villes les mieux " +
+      "pourvues du pays sont Rennes, Angers, Strasbourg, Grenoble, Dijon et Nantes, toutes à 2,1 : on y trouve un " +
+      "médecin, on n'y trouve pas de zone sous-dotée, et l'on s'y installe face à une concurrence déjà en place. Reste " +
+      "la question de l'argent public, et la réponse a changé au 1ᵉʳ janvier 2026. Les quatre contrats " +
+      "démographiques de l'Assurance maladie — CAIM, COTRAM, COSCOM, CTSM — ont cessé d'exister le 31 décembre " +
+      "2025. Ce qui les remplace est une aide ponctuelle à la première installation en libéral, versée " +
+      "automatiquement par la CPAM : environ 10 000 € en zone d'intervention prioritaire, un montant plus faible en " +
+      "zone d'action complémentaire, et de l'ordre de 3 000 € pour l'ouverture d'un cabinet secondaire en ZIP. " +
+      "L'ancien CAIM pouvait atteindre 50 000 €. Autrement dit, l'incitation financière à l'installation en zone " +
+      "sous-dotée a été divisée par cinq, en échange d'un versement plus rapide et d'une paperasse plus légère : " +
+      "c'est une prime, pas un plan de financement, et choisir une commune pour elle serait une erreur " +
+      "d'arithmétique. Le cumul reste possible avec les exonérations d'impôt sur les bénéfices des zones France " +
+      "Ruralités Revitalisation, qui couvrent 17 700 communes depuis le 1ᵉʳ juillet 2024, treize départements en " +
+      "totalité, avec un niveau renforcé dit « FRR plus » pour le quart le plus en difficulté — mais ce zonage-là " +
+      "est indépendant du zonage santé et se lit commune par commune. Trois vérifications, enfin, qu'aucun modèle " +
+      "ne remplace, et qui sont l'objet réel de la décision. La première : « désert médical » est une expression de " +
+      "presse et non une catégorie administrative, à laquelle aucune aide n'est attachée. Ce qui ouvre des droits, " +
+      "c'est le zonage arrêté par votre agence régionale de santé, qui distingue les zones d'intervention " +
+      "prioritaire des zones d'action complémentaire selon une méthodologie nationale fixée en 2017 ; il se révise " +
+      "périodiquement, donc le millésime compte autant que la carte. La deuxième : ce zonage n'est pas le même pour " +
+      "toutes les professions. Celui des médecins relève d'un arrêté du 13 novembre 2017 et d'une méthodologie " +
+      "ministérielle ; ceux des orthophonistes (31 mai 2018), des masseurs-kinésithérapeutes (24 septembre 2018), " +
+      "des sages-femmes (17 octobre 2019) et des infirmiers (10 janvier 2020) sont négociés entre l'Assurance " +
+      "maladie et les syndicats représentatifs, dans le cadre de chaque convention nationale. Notre indicateur " +
+      "estime une densité de médecins : si vous êtes kinésithérapeute ou infirmière libérale, cette page situe un " +
+      "territoire, elle ne vous dit pas si votre propre profession y est sous-dotée, et c'est le zonage de votre " +
+      "convention qu'il faut ouvrir. La troisième est d'échelle : le zonage travaille par bassin de vie, notre " +
+      "modèle par commune, et une communauté professionnelle territoriale de santé fédère justement plusieurs " +
+      "communes. C'est aussi la réponse au vrai risque de ces territoires, qui n'est pas l'absence de patients mais " +
+      "l'isolement professionnel et la charge de garde : une maison de santé pluriprofessionnelle ou un centre de " +
+      "santé change complètement la proposition — 2 644 MSP étaient recensées en 2024 pour un objectif national de " +
+      "4 000 en 2027, et savoir si la commune visée en a une, ou en monte une, vaut plus que n'importe quel écart de " +
+      "rang sur cette page. Sur la lecture du tableau lui-même : six villes sortent exactement à 7,3, si bien que les rangs " +
+      "17 à 22 ne sont pas départagés — Bagnères-de-Bigorre et Commercy, absentes du tableau, ont la même note que " +
+      "Fontenay-le-Comte, dix-septième. Entre ces six-là, l'ordre affiché n'est pas un départage. Pour le reste, le " +
+      "classement est réellement neuf : son recouvrement maximal avec les trente-six profils existants est de huit " +
+      "villes sur vingt, avec « néo-ruraux », là où la médiane des recouvrements maximaux entre profils existants " +
+      "est de treize.",
+    weights: {
+      healthcareScarcity: 3.5,
+      cost: 2.0,
+      life: 1.5,
+      schools: 1.0,
+      safety: 0.5,
+      nature: 0.5,
+    },
+    reasonHint: (c) => {
+      const h = computeHealthcareAccess(c).composite;
+      return `Manque de soignants estimé ${h.toFixed(1)}/10 · coût ${c.scores.cost.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
     },
   },
 ];

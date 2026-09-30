@@ -981,6 +981,63 @@ if (!failed) {
 }
 
 // ---------------------------------------------------------------------------
+// Profils « Pour qui » : un profil qui pondère un moteur propriétaire doit dire
+// dans SA PROPRE intro que le score est estimé.
+//
+// Troisième endroit que la garde `moteurs` ne peut pas voir, après
+// `lib/rankings-meta.ts` (11/09) : elle ne parcourt que `app/**` et
+// `components/*.tsx`, or l'intro d'un profil est de la prose rendue sur
+// `/pour-qui/[profil]`, dans sa meta description et dans le bloc « parfait
+// pour » de `lib/honest-reviews.ts`.
+//
+// Le contrôle est par ENTRÉE et non par fichier, volontairement : `PROFILE_PAGES`
+// est un seul tableau, donc un marqueur posé par un profil satisferait tous les
+// autres — c'est exactement le piège du 17/09, où un commentaire qui posait la
+// règle suffisait à valider la surface. Un profil qui pondère `healthcareAccess`
+// ou `healthcareScarcity` publie un top 20 tiré d'un composite que personne n'a
+// relevé sur le terrain : il doit le dire lui-même.
+{
+  const src = readFileSync(path.join(ROOT, "lib/profile-pages.ts"), "utf8");
+  // Une entrée commence à `slug:` et court jusqu'au `slug:` suivant.
+  const parts = src.split(/\n {4}slug: "/).slice(1);
+  const ENGINE_KEYS = /healthcareAccess:|healthcareScarcity:/;
+  const MARK = /pas un relev|estimation construite|estimation communale|estimé|estimés|estimées/;
+  const mute = [];
+  let weighted = 0;
+  for (const part of parts) {
+    const slug = part.slice(0, part.indexOf('"'));
+    const weightsAt = part.indexOf("weights:");
+    if (weightsAt < 0) continue;
+    const weights = part.slice(weightsAt, part.indexOf("reasonHint:", weightsAt));
+    if (!ENGINE_KEYS.test(weights)) continue;
+    weighted += 1;
+    // On relit l'intro seule : le marqueur doit être dans le texte publié, pas
+    // dans un commentaire de pondération.
+    const introAt = part.indexOf("intro:");
+    const intro = introAt < 0 ? "" : part.slice(introAt, weightsAt);
+    if (!MARK.test(intro)) mute.push(slug);
+  }
+
+  if (mute.length === 0) {
+    console.log(
+      `  ok  pour-qui  ${weighted} profil(s) pondérant le moteur santé disent que le score est estimé`,
+    );
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  profils « Pour qui » : ${mute.length} intro(s) muette(s)\n`);
+    for (const s of mute) console.error(`    ${s}`);
+    console.error(
+      "\n    `lib/healthcare-access` ne lit que le seed : aucune donnée DREES, CNOM\n" +
+        "    ni ARS n'est ingérée, et la seule chose mesurée est la distance au site\n" +
+        "    de CHU le plus proche. Un profil qui classe 540 villes sur ce composite\n" +
+        "    doit écrire dans son intro qu'il est estimé et qu'il n'est pas un relevé\n" +
+        "    de cabinets. La garde `moteurs` ne voit pas ce fichier : elle ne\n" +
+        "    parcourt que app/** et components/*.tsx.\n",
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Fiches expat retour : un nom de pays ne se compose pas à la main.
 //
 // Défaut trouvé le 2026-09-16. `ExpatCountryProfile` portait deux champs
