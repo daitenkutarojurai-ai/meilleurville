@@ -27441,7 +27441,7 @@ export const GUIDES: Guide[] = [
     slug: "10-choses-a-faire-a-chatellerault-2026",
     title: "10 choses à faire à Châtellerault (la manufacture d'armes et le Futuroscope)",
     metaTitle: "10 choses à faire à Châtellerault 2026 — activités et sorties locales",
-    metaDesc: "Auto Moto Vélo, pont Henri-IV, Futuroscope, abbaye de Saint-Savin et vallée de la Vienne : 10 activités à Châtellerault pour découvrir le nord du Poitou.",
+    metaDesc: "Pont Henri-IV, Manufacture d'armes, musée Auto Moto Vélo, maison de Descartes et Futuroscope : 10 activités à Châtellerault, dans le nord du Poitou.",
     category: "tourisme",
     emoji: "⚙️",
     readMinutes: 6,
@@ -27450,43 +27450,43 @@ export const GUIDES: Guide[] = [
     intro: "Châtellerault, sur la Vienne, est une ancienne ville d'armes, qui abrita la Manufacture d'armes royale puis nationale. Elle est la patrie de Clément Ader, pionnier de l'aviation, et de Rodolphe Salis, fondateur du Chat Noir. Son patrimoine industriel et fluvial se déploie sur la route Paris-Bordeaux. Discrète mais riche. Voici 10 choses à faire.",
     sections: [
       {
-        heading: "1. Auto Moto Vélo — le musée des transports",
+        heading: "1. Le pont Henri-IV, l'ouvrage du début du XVIIe",
         body: "Ce magnifique pont du XVIIe, voulu par Henri IV et achevé en 1611, franchit la Vienne avec ses deux tours-pavillons à l'entrée. Emblématique et piéton, il offre une belle vue sur la Vienne et la ville. C'est l'un des plus beaux ponts anciens de la région.",
       },
       {
-        heading: "2. Le pont Henri-IV — l'ouvrage Renaissance",
+        heading: "2. L'ancienne Manufacture d'armes",
         body: "Cette ancienne Manufacture d'armes a fonctionné de 1819 à 1968 : un immense site industriel au bord de la Vienne, aujourd'hui reconverti en musée Auto Moto Vélo, en logements et en école. Cheminées et halles ponctuent ce patrimoine industriel majeur. Le musée Auto Moto Vélo s'y trouve.",
       },
       {
-        heading: "3. Le Futuroscope — le parc à thèmes audiovisuels",
+        heading: "3. Le musée Auto Moto Vélo",
         body: "Installé dans la Manufacture, ce musée présente une belle collection de véhicules anciens, autos, motos et vélos, en lien avec l'industrie locale. Ludique et bien présenté, il plaira autant aux amateurs qu'aux familles. Il rappelle le passé industriel de Châtellerault.",
       },
       {
-        heading: "4. L'abbaye de Saint-Savin — fresques UNESCO",
+        heading: "4. La vieille ville et la maison de Descartes",
         body: "Le centre ancien déroule ses rues médiévales et Renaissance autour de l'église Saint-Jacques, une étape de Compostelle. On y voit des maisons à pans de bois, des hôtels particuliers et la maison de Descartes, où il vécut enfant. Tout cela s'explore à pied.",
       },
       {
-        heading: "5. La vieille ville et la rue Bourbon",
+        heading: "5. L'église Saint-Jacques et son carillon de 52 cloches",
         body: "Cette église se dresse sur le chemin de Compostelle, la Via Turonensis. Son carillon est renommé, avec 52 cloches, et son architecture composite va du roman au néogothique. Étape jacquaire, elle se situe au cœur du centre ancien.",
       },
       {
-        heading: "6. Le parc Naturel régional du Pinail — les fosses à meules",
+        heading: "6. Clément Ader, pionnier de l'aviation",
         body: "Châtellerault honore Clément Ader, pionnier de l'aviation et premier homme à décoller dans un engin motorisé, en 1890, avec l'Éole. Le lien avec l'histoire aéronautique est fort, et le musée évoque ces pionniers.",
       },
       {
-        heading: "7. Le château d'Oiron — Renaissance et art contemporain",
+        heading: "7. Les bords de Vienne, à pied ou en canoë",
         body: "La promenade longe la Vienne, entre verdure, ponts, coins de pêche et descentes en canoë. Le pont Henri IV en est le point d'orgue. C'est agréable pour flâner, et la Vienne fait l'identité de la ville.",
       },
       {
-        heading: "8. La Vienne en canoë — descente sportive",
+        heading: "8. Le Futuroscope, accessible depuis Châtellerault",
         body: "À 20 min, à Chasseneuil-du-Poitou, ce parc d'attractions du futur enchaîne cinémas, attractions immersives et spectacle nocturne. C'est l'excursion famille majeure, et Châtellerault sert de base pratique pour le Futuroscope. Pensez à réserver.",
       },
       {
-        heading: "9. Poitiers — la capitale du Poitou à 30 km",
+        heading: "9. Le théâtre à l'italienne",
         body: "Ce joli théâtre à l'italienne, datant du XIXe, propose une programmation culturelle. Il fait partie du patrimoine architectural du centre et témoigne du Châtellerault prospère du XIXe industriel.",
       },
       {
-        heading: "10. Gastronomie poitevine — chabichou et farci",
+        heading: "10. Le marché et le terroir poitevin",
         body: "Le marché de Châtellerault met à l'honneur les produits du Poitou : chèvre, macarons de Montmorillon (juste à côté), vins. Les restos du centre complètent l'offre. Un terroir poitevin authentique.",
       },
     ],
@@ -51378,7 +51378,7 @@ export const GUIDES: Guide[] = [
     title: "Vacances monoparentales à Toulouse en 2026",
     metaTitle: "Vacances monoparentales à Toulouse 2026",
     metaDesc:
-      "Toulouse en parent solo : le meilleur réseau de ce lot, 7,5/10, pour des sites enfants tous en périphérie. Et le score de sécurité le plus bas de la série.",
+      "Toulouse en parent solo : le meilleur réseau de ce lot, 7,5/10, pour des sites enfants tous en périphérie. Et l'un des scores de sécurité les plus bas de la série.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 7,
@@ -51498,7 +51498,7 @@ export const GUIDES: Guide[] = [
         body: "Mâcon est signalée desservie par le TGV (source : lib/transit.ts), et ce drapeau est exact. Il masque pourtant la distinction qui décide de la qualité d'une arrivée quand on porte des bagages et qu'on tient une main. La gare Mâcon-Loché-TGV est située à environ sept kilomètres du centre-ville, sur la ligne à grande vitesse, dans la commune voisine de Loché ; la gare de Mâcon-Ville, elle, est en plein centre, à quelques minutes à pied de l'essentiel, et elle est desservie par les TER. Autrement dit, le train le plus rapide vous dépose le plus loin. La conséquence pratique est simple et vaut d'être répétée : au moment de réserver, lisez le nom de la gare d'arrivée sur le billet, pas seulement la mention TGV, et si c'est Loché, prévoyez la liaison vers le centre avant de partir. C'est exactement le même piège qu'à Besançon et à Valence, et c'est celui qui coûte le plus cher en fatigue le premier jour."
       },
       {
-        heading: "Le budget le plus bas de la série, et ce que ça veut dire",
+        heading: "Un budget dans le bas de la série, et ce que ça veut dire",
         body: "Sur l'axe coût de la vie, un score haut signifie abordable. Mâcon sort à 6,6/10, à égalité avec Poitiers, deuxième de toute la série derrière Valence à 6,7 (source : data/cities-seed.ts). Le marché résidentiel confirme l'ordre de grandeur et le pousse même plus loin : 800 € le T3 de référence, le plus bas des vingt-deux villes traitées, et 2 100 € le mètre carré (source : data/housing.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais ils disent quelque chose de réel : une ville où le mètre carré vaut 2 100 € n'affiche pas les mêmes semaines de location qu'une ville à 5 000 €, et Aix-en-Provence, dans ce même lot, est à 5 000 €. Pour un adulte qui paie seul l'hébergement d'un foyer entier, sans personne avec qui partager une chambre, c'est le poste où l'écart se creuse le plus vite. Mâcon est le choix de ce lot quand le budget commande."
       },
       {
@@ -51544,10 +51544,10 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     intro:
-      "Aix-en-Provence sort à 6,1/10 au composite « famille monoparentale », quatrième de cette sélection à égalité avec Poitiers et Saint-Raphaël, sur sécurité 5,9/10, transports 6,1/10, coût de la vie 3,6/10 et qualité de vie 7,8/10 (source : data/cities-seed.ts). Ce 3,6 en coût est le plus bas des vingt-deux destinations que cette série a traitées : sur cet axe, un score bas signifie cher, et Aix est donc la ville la plus chère du corpus, avec 1 400 € pour le T3 de référence et 5 000 € le mètre carré à l'achat (source : data/housing.ts). Elle se classe pourtant quatrième d'un profil qui pondère le coût à 0,25. Ce guide dit exactement ce qui a payé ce classement, et ce que cela coûte à un foyer à un seul revenu.",
+      "Aix-en-Provence sort à 6,1/10 au composite « famille monoparentale », quatrième de cette sélection à égalité avec Poitiers et Saint-Raphaël, sur sécurité 5,9/10, transports 6,1/10, coût de la vie 3,6/10 et qualité de vie 7,8/10 (source : data/cities-seed.ts). Ce 3,6 en coût est le plus bas des vingt-deux destinations que cette série a traitées : sur cet axe, un score bas signifie cher, et Aix est donc la deuxième ville la plus chère du corpus sur cet axe, derrière Annemasse à 3,4, et elle garde le T3 de référence le plus élevé de la série avec 1 400 €, pour 5 000 € le mètre carré à l'achat (source : data/housing.ts). Elle se classe pourtant quatrième d'un profil qui pondère le coût à 0,25. Ce guide dit exactement ce qui a payé ce classement, et ce que cela coûte à un foyer à un seul revenu.",
     sections: [
       {
-        heading: "La ville la plus chère de la série, et ce qui la maintient dans le classement",
+        heading: "Le T3 le plus élevé de la série, et ce qui la maintient dans le classement",
         body: "Il faut commencer par là, parce que c'est la seule question qui compte quand on paie seul. Le profil monoparental pondère la sécurité à 0,30, les transports à 0,25, le coût à 0,25 et la qualité de vie à 0,20 (source : lib/vacation-fit.ts). Aix perd lourdement sur le coût, à 3,6/10, et rattrape sur les trois autres : qualité de vie 7,8/10, la meilleure de ce lot à égalité avec Saint-Raphaël, culture 8,4/10, la meilleure du lot, et sécurité 5,9/10, deuxième du lot (source : data/cities-seed.ts). Le classement est donc honnête mais il faut le lire pour ce qu'il est : Aix n'est pas ici parce qu'elle est abordable, elle est ici malgré son prix. Concrètement, pour un adulte qui ne partage aucune chambre et aucun budget, l'écart avec Mâcon dans ce même lot est de 600 € sur le T3 de référence et de 2 900 € sur le mètre carré. La décision se prend en connaissance de cause, et hors saison plutôt qu'en août."
       },
       {
@@ -51597,7 +51597,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-02",
     updatedAt: "2026-09-02",
     intro:
-      "Poitiers sort à 6,1/10 au composite « famille monoparentale », quatrième de cette sélection à égalité avec Aix-en-Provence et Saint-Raphaël, sur sécurité 5,7/10, transports 6,4/10, coût de la vie 6,6/10 et qualité de vie 5,9/10 (source : data/cities-seed.ts). Avec Mâcon, c'est l'une des deux seules destinations classées €€ de ce lot (source : lib/vacation-fit.ts), à 880 € le T3 de référence et 2 100 € le mètre carré à l'achat, ce dernier chiffre le plus bas de la série avec Mâcon (source : data/housing.ts). Mais l'argument qui décide, pour un adulte qui part seul avec des enfants et sans voiture, tient en une phrase : le Futuroscope a sa propre gare TGV. Ce guide dit ce que cela permet, et ce que Poitiers ne fait pas.",
+      "Poitiers sort à 6,1/10 au composite « famille monoparentale », quatrième de cette sélection à égalité avec Aix-en-Provence et Saint-Raphaël, sur sécurité 5,7/10, transports 6,4/10, coût de la vie 6,6/10 et qualité de vie 5,9/10 (source : data/cities-seed.ts). Avec Mâcon, c'est l'une des deux seules destinations classées €€ de ce lot (source : lib/vacation-fit.ts), à 880 € le T3 de référence et 2 100 € le mètre carré à l'achat, ce dernier chiffre à égalité avec Mâcon et La Roche-sur-Yon (source : data/housing.ts). Mais l'argument qui décide, pour un adulte qui part seul avec des enfants et sans voiture, tient en une phrase : le Futuroscope a sa propre gare TGV. Ce guide dit ce que cela permet, et ce que Poitiers ne fait pas.",
     sections: [
       {
         heading: "Un grand parc à thème sans louer de voiture, ce qui est rare",
@@ -51605,7 +51605,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le prix : deuxième plus abordable de la série, à égalité avec Mâcon",
-        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Poitiers sort à 6,6/10, à égalité exacte avec Mâcon et deuxième de toute la série derrière Valence à 6,7 (source : data/cities-seed.ts). Le marché résidentiel confirme : 880 € le T3 de référence et 2 100 € le mètre carré à l'achat, à égalité avec Mâcon pour le plus bas de la série (source : data/housing.ts). Ce sont des repères de marché local, pas des tarifs de vacances, mais ils ordonnent correctement les marchés : l'écart avec Aix-en-Provence, dans ce même lot, est de 520 € sur le T3 et de 2 900 € sur le mètre carré. Quand on paie seul l'hébergement d'un foyer entier, sans chambre à partager, c'est le poste où l'écart se creuse le plus vite, et c'est ce qui fait de Poitiers un candidat sérieux malgré des scores de confort moyens."
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Poitiers sort à 6,6/10, à égalité exacte avec Mâcon et deuxième de toute la série derrière Valence à 6,7 (source : data/cities-seed.ts). Le marché résidentiel confirme : 880 € le T3 de référence et 2 100 € le mètre carré à l'achat, à égalité avec Mâcon et La Roche-sur-Yon (source : data/housing.ts). Ce sont des repères de marché local, pas des tarifs de vacances, mais ils ordonnent correctement les marchés : l'écart avec Aix-en-Provence, dans ce même lot, est de 520 € sur le T3 et de 2 900 € sur le mètre carré. Quand on paie seul l'hébergement d'un foyer entier, sans chambre à partager, c'est le poste où l'écart se creuse le plus vite, et c'est ce qui fait de Poitiers un candidat sérieux malgré des scores de confort moyens."
       },
       {
         heading: "Ce que Poitiers ne fait pas : culture 6,2 et qualité de vie 5,9",
@@ -52021,7 +52021,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-09",
     updatedAt: "2026-09-09",
     intro:
-      "Angoulême sort à 5,6/10 au composite « famille monoparentale », sixième de ce lot juste derrière Saint-Étienne, sur sécurité 5,1/10, transports 5,2/10, coût de la vie 6,7/10 et qualité de vie 5,5/10 (source : data/cities-seed.ts). Son score de transports est le plus bas des trente destinations que cette série a couvertes, et c'est la raison pour laquelle il faut lire ce guide avant de réserver : ce chiffre décrit une commune de 41 423 habitants (source : data/city-population.json), la plus petite des huit ajoutées ici, et il ne dit presque rien de la difficulté réelle d'un séjour. Le T3 de référence est à 820 € et le mètre carré à 1 800 €, troisième valeur la plus basse de la série (source : data/housing.ts).",
+      "Angoulême sort à 5,6/10 au composite « famille monoparentale », sixième de ce lot juste derrière Saint-Étienne, sur sécurité 5,1/10, transports 5,2/10, coût de la vie 6,7/10 et qualité de vie 5,5/10 (source : data/cities-seed.ts). Son score de transports est le plus bas des trente destinations que cette série a couvertes, et c'est la raison pour laquelle il faut lire ce guide avant de réserver : ce chiffre décrit une commune de 41 423 habitants (source : data/city-population.json), la plus petite des huit ajoutées ici, et il ne dit presque rien de la difficulté réelle d'un séjour. Le T3 de référence est à 820 € et le mètre carré à 1 800 €, septième valeur la plus basse de la série, à égalité avec Dieppe (source : data/housing.ts).",
     sections: [
       {
         heading: "Une ville à deux niveaux, et c'est la seule difficulté d'arrivée",
@@ -52037,7 +52037,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le budget : troisième mètre carré le plus bas des trente",
-        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Angoulême sort à 6,7/10 (source : data/cities-seed.ts), à égalité avec Valence sur le palier qui suit immédiatement Saint-Étienne et son 7,1. Le marché résidentiel confirme : 820 € le T3 de référence, quatrième valeur la plus basse de la série derrière Saint-Étienne à 770, Mulhouse à 780 et Mâcon à 800 ; et 1 800 € le mètre carré, troisième valeur la plus basse derrière Saint-Étienne et Mulhouse (source : data/housing.ts). Le moteur classe la ville en €€, palier que seules cinq des trente atteignent (source : lib/vacation-fit.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais l'ordre de grandeur tient : pour un foyer à un seul revenu, Angoulême appartient au tiers de la série où l'hébergement ne décide pas de tout."
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Angoulême sort à 6,7/10 (source : data/cities-seed.ts), à égalité avec Valence sur le palier qui suit immédiatement Saint-Étienne et son 7,1. Le marché résidentiel confirme : 820 € le T3 de référence, dixième valeur la plus basse de la série, à égalité avec Dieppe ; et 1 800 € le mètre carré, troisième valeur la plus basse derrière Saint-Étienne et Mulhouse (source : data/housing.ts). Le moteur classe la ville en €€, palier que seules cinq des trente atteignent (source : lib/vacation-fit.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais l'ordre de grandeur tient : pour un foyer à un seul revenu, Angoulême appartient au tiers de la série où l'hébergement ne décide pas de tout."
       },
       {
         heading: "Quand y aller : dix-neuf parcs réels, et un régime de pluie à regarder",
@@ -52180,7 +52180,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-16",
     updatedAt: "2026-09-16",
     intro:
-      "Anglet sort à 7,3/10 au composite « famille monoparentale », le meilleur score des trente-huit destinations que cette série a couvertes, à égalité avec Vendôme et devant La Roche-sur-Yon à 7,2 (source : lib/vacation-fit.ts). Le détail : sécurité 7,2/10, transports 7,7/10, coût de la vie 4,5/10 et qualité de vie 8,7/10 (source : data/cities-seed.ts). Ce 8,7 est la meilleure qualité de vie des trente-huit, et le 7,8 de l'axe nature est le deuxième derrière Grenoble à 8,4. Le 4,5 de l'axe coût, en revanche, est le cinquième plus mauvais de la série : le T3 de référence est à 1 200 € et le mètre carré à 4 300 € (source : data/housing.ts), contre une médiane de série à 950 € et 2 550 €. La commune compte 42 288 habitants au recensement 2022, contre 38 581 en 2011, soit une hausse de 9,6 % (source : data/city-population.json). Ce guide ouvre sur la gare, parce qu'Anglet n'en a pas.",
+      "Anglet sort à 7,3/10 au composite « famille monoparentale », le meilleur score des trente-huit destinations que cette série a couvertes, à égalité avec Vendôme et devant La Roche-sur-Yon à 7,2 (source : lib/vacation-fit.ts). Le détail : sécurité 7,2/10, transports 7,7/10, coût de la vie 4,5/10 et qualité de vie 8,7/10 (source : data/cities-seed.ts). Ce 8,7 est la meilleure qualité de vie des trente-huit, et le 7,8 de l'axe nature est le deuxième derrière Grenoble à 8,4. Le 4,5 de l'axe coût, en revanche, est le cinquième plus mauvais de la série : le T3 de référence est à 1 200 € et le mètre carré à 4 300 € (source : data/housing.ts), contre une médiane de série à 940 € et 2 500 €. La commune compte 42 288 habitants au recensement 2022, contre 38 581 en 2011, soit une hausse de 9,6 % (source : data/city-population.json). Ce guide ouvre sur la gare, parce qu'Anglet n'en a pas.",
     sections: [
       {
         heading: "La commune n'a pas de gare, et c'est la première chose à régler",
@@ -52226,14 +52226,14 @@ export const GUIDES: Guide[] = [
     title: "Vacances monoparentales à Vendôme en 2026",
     metaTitle: "Vacances monoparentales à Vendôme 2026",
     metaDesc:
-      "Vendôme sort à 7,3/10 au composite monoparental, le meilleur de la série avec Anglet, et c'est la moins chère des trente-huit : T3 720 €, mètre carré 1 500 €.",
+      "Vendôme sort à 7,3/10 au composite monoparental, le meilleur de la série avec Anglet, pour un T3 de référence à 720 € et un mètre carré à 1 500 €.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-16",
     updatedAt: "2026-09-16",
     intro:
-      "Vendôme sort à 7,3/10 au composite « famille monoparentale », le meilleur score des trente-huit destinations de la série, à égalité avec Anglet (source : lib/vacation-fit.ts). Le détail : sécurité 7,5/10, transports 7,1/10, coût de la vie 7,6/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Deux de ces chiffres sont des records de série : le 7,6 de l'axe coût est le plus élevé des trente-huit, et le 7,5 de sécurité le deuxième derrière La Roche-sur-Yon. Le marché suit : 720 € le T3 de référence, le minimum de la série, et 1 500 € le mètre carré, à égalité avec Saint-Étienne pour le minimum également (source : data/housing.ts), contre une médiane de série à 950 € et 2 550 €. Autrement dit, la destination la mieux notée du corpus est aussi la moins chère, ce qui n'était encore jamais arrivé dans cette série. La commune compte 15 566 habitants au recensement 2022, contre 16 849 en 2011, soit une baisse de 7,6 % (source : data/city-population.json).",
+      "Vendôme sort à 7,3/10 au composite « famille monoparentale », le meilleur score des trente-huit destinations de la série, à égalité avec Anglet (source : lib/vacation-fit.ts). Le détail : sécurité 7,5/10, transports 7,1/10, coût de la vie 7,6/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Deux de ces chiffres sont des records de série : le 7,6 de l'axe coût est le deuxième des quarante-cinq derrière Saint-Quentin à 8,3, et le 7,5 de sécurité le deuxième derrière La Roche-sur-Yon. Le marché suit : 720 € le T3 de référence, quatrième valeur la plus basse de la série, et 1 500 € le mètre carré, minimum de série partagé à quatre avec Saint-Étienne, Châtellerault et Saint-Quentin (source : data/housing.ts), contre une médiane de série à 940 € et 2 500 €. Autrement dit, la destination la mieux notée du corpus est aussi l'une des moins chères, ce qui n'était encore jamais arrivé dans cette série. La commune compte 15 566 habitants au recensement 2022, contre 16 849 en 2011, soit une baisse de 7,6 % (source : data/city-population.json).",
     sections: [
       {
         heading: "Une gare TGV à cinq kilomètres, et une navette calée sur les trains",
@@ -52241,7 +52241,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Coût 7,6/10 : la destination la moins chère des trente-huit",
-        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Vendôme sort à 7,6/10 (source : data/cities-seed.ts), le meilleur score des trente-huit destinations de la série, devant La Roche-sur-Yon à 7,2 et Saint-Étienne à 7,1, pour une médiane de série à 6,1. Le marché résidentiel confirme : 720 € le T3 de référence, le minimum absolu de la série, devant Saint-Étienne à 770 €, Mulhouse et Brive-la-Gaillarde à 780 € ; et 1 500 € le mètre carré, à égalité avec Saint-Étienne pour le minimum (source : data/housing.ts). Le moteur la classe en €€, le deuxième palier le moins cher (source : lib/vacation-fit.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais l'ordre de grandeur se transporte : une petite ville de 15 566 habitants sans pression touristique de masse n'a pas de tarification de haute saison comparable à celle d'une station. Pour un adulte qui paie seul l'hébergement d'un foyer entier, c'est la configuration la plus favorable que cette série ait documentée, et elle se double du meilleur composite. Le contrepoint honnête est plus loin dans ce guide : la ville est petite, et le programme se termine."
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Vendôme sort à 7,6/10 (source : data/cities-seed.ts), le deuxième score des quarante-cinq destinations de la série, derrière Saint-Quentin à 8,3 et devant le palier à 7,2 que partagent La Roche-sur-Yon, Châtellerault, Dreux et Cambrai, pour une médiane de série à 6,2. Le marché résidentiel confirme : 720 € le T3 de référence, quatrième valeur la plus basse de la série derrière Châtellerault et Cambrai à 640 € et Saint-Quentin à 650 € ; et 1 500 € le mètre carré, à égalité avec Saint-Étienne pour le minimum (source : data/housing.ts). Le moteur la classe en €€, le deuxième palier le moins cher (source : lib/vacation-fit.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais l'ordre de grandeur se transporte : une petite ville de 15 566 habitants sans pression touristique de masse n'a pas de tarification de haute saison comparable à celle d'une station. Pour un adulte qui paie seul l'hébergement d'un foyer entier, c'est la configuration la plus favorable que cette série ait documentée, et elle se double du meilleur composite. Le contrepoint honnête est plus loin dans ce guide : la ville est petite, et le programme se termine."
       },
       {
         heading: "Ce qu'on vient voir, et pourquoi c'est disproportionné",
@@ -52286,7 +52286,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-16",
     updatedAt: "2026-09-16",
     intro:
-      "La Roche-sur-Yon sort à 7,2/10 au composite « famille monoparentale », troisième des trente-huit destinations de la série derrière Anglet et Vendôme à 7,3 (source : lib/vacation-fit.ts). Le détail : sécurité 8,0/10, transports 7,0/10, coût de la vie 7,2/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Le 8,0 de sécurité est le meilleur score des trente-huit, devant Vendôme à 7,5, et il pèse lourd puisque le composite monoparental pondère cet axe à 0,30, le plus élevé de ses quatre critères. Mais la même ville porte le plus faible score de culture de toute la série, 5,7/10, derrière Saint-Étienne à 5,9. Les deux chiffres sont vrais ensemble, et ce guide est construit sur ce que cela implique concrètement. Le T3 de référence est à 800 € et le mètre carré à 2 100 € (source : data/housing.ts), sous les médianes de série à 950 € et 2 550 €. La commune compte 54 699 habitants au recensement 2022, contre 52 773 en 2011, soit une hausse de 3,6 % (source : data/city-population.json).",
+      "La Roche-sur-Yon sort à 7,2/10 au composite « famille monoparentale », troisième des trente-huit destinations de la série derrière Anglet et Vendôme à 7,3 (source : lib/vacation-fit.ts). Le détail : sécurité 8,0/10, transports 7,0/10, coût de la vie 7,2/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Le 8,0 de sécurité est le meilleur score des trente-huit, devant Vendôme à 7,5, et il pèse lourd puisque le composite monoparental pondère cet axe à 0,30, le plus élevé de ses quatre critères. Mais la même ville porte le plus faible score de culture de toute la série, 5,7/10, derrière Saint-Étienne à 5,9. Les deux chiffres sont vrais ensemble, et ce guide est construit sur ce que cela implique concrètement. Le T3 de référence est à 800 € et le mètre carré à 2 100 € (source : data/housing.ts), sous les médianes de série à 940 € et 2 500 €. La commune compte 54 699 habitants au recensement 2022, contre 52 773 en 2011, soit une hausse de 3,6 % (source : data/city-population.json).",
     sections: [
       {
         heading: "TGV direct depuis Paris, et le détail qui compte est la correspondance",
@@ -52339,7 +52339,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-16",
     updatedAt: "2026-09-16",
     intro:
-      "Vienne sort à 6,9/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), sur sécurité 5,7/10, transports 7,7/10, coût de la vie 6,7/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Le chiffre qui la distingue est ailleurs : 9,0/10 sur l'axe culture, le maximum des trente-huit destinations de la série, à égalité avec Avignon, Strasbourg et Lyon, pour une médiane de série à 7,3. Ces trois autres villes comptent respectivement 91 760, 291 709 et 520 774 habitants ; Vienne en compte 31 555 au recensement 2022, contre 28 800 en 2011, soit une hausse de 9,6 % (source : data/city-population.json). C'est la densité patrimoniale la plus élevée par habitant que cette série ait rencontrée. Le T3 de référence est à 940 € et le mètre carré à 2 200 € (source : data/housing.ts), sous les médianes de série à 950 € et 2 550 €. Attention à l'homonyme : il s'agit de Vienne en Isère, et non du département de la Vienne ni de la capitale autrichienne.",
+      "Vienne sort à 6,9/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), sur sécurité 5,7/10, transports 7,7/10, coût de la vie 6,7/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Le chiffre qui la distingue est ailleurs : 9,0/10 sur l'axe culture, le maximum des trente-huit destinations de la série, à égalité avec Avignon, Strasbourg et Lyon, pour une médiane de série à 7,3. Ces trois autres villes comptent respectivement 91 760, 291 709 et 520 774 habitants ; Vienne en compte 31 555 au recensement 2022, contre 28 800 en 2011, soit une hausse de 9,6 % (source : data/city-population.json). C'est la densité patrimoniale la plus élevée par habitant que cette série ait rencontrée. Le T3 de référence est à 940 € et le mètre carré à 2 200 € (source : data/housing.ts), à la médiane de série du loyer, qui est de 940 €, et sous celle du mètre carré, qui est de 2 500 € (source : data/housing.ts). Attention à l'homonyme : il s'agit de Vienne en Isère, et non du département de la Vienne ni de la capitale autrichienne.",
     sections: [
       {
         heading: "Dix-huit minutes de TER depuis Lyon, et pas un mètre de TGV",
@@ -52392,7 +52392,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-16",
     updatedAt: "2026-09-16",
     intro:
-      "Villefranche-sur-Saône sort à 6,9/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), à égalité avec Vienne, sur sécurité 6,3/10, transports 7,0/10, coût de la vie 5,9/10 et qualité de vie 7,4/10 (source : data/cities-seed.ts). Ce 7,4 de qualité de vie est le deuxième des huit destinations ajoutées ce mois-ci, derrière Anglet à 8,7, et le septième des trente-huit de la série. Le score d'écoles, 8,7/10, est à égalité avec Anglet et Strasbourg, derrière Lyon à 8,9 et le trio Rennes, Grenoble et Toulouse à 9,0. Le T3 de référence est à 1 070 € et le mètre carré à 2 500 € (source : data/housing.ts) : le T3 est au-dessus de la médiane de série de 950 €, le mètre carré en dessous de celle de 2 550 €. La commune compte 36 224 habitants au recensement 2022, contre 35 640 en 2011 (source : data/city-population.json). Ce guide ouvre sur une particularité qui change la préparation du séjour : ici, ce qu'on vient voir ne se voit pas depuis la rue.",
+      "Villefranche-sur-Saône sort à 6,9/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), à égalité avec Vienne, sur sécurité 6,3/10, transports 7,0/10, coût de la vie 5,9/10 et qualité de vie 7,4/10 (source : data/cities-seed.ts). Ce 7,4 de qualité de vie est le deuxième des huit destinations ajoutées ce mois-ci, derrière Anglet à 8,7, et le septième des trente-huit de la série. Le score d'écoles, 8,7/10, est à égalité avec Anglet et Strasbourg, derrière Lyon à 8,9 et le trio Rennes, Grenoble et Toulouse à 9,0. Le T3 de référence est à 1 070 € et le mètre carré à 2 500 € (source : data/housing.ts) : le T3 est au-dessus de la médiane de série de 940 €, le mètre carré exactement à celle de 2 500 €. La commune compte 36 224 habitants au recensement 2022, contre 35 640 en 2011 (source : data/city-population.json). Ce guide ouvre sur une particularité qui change la préparation du séjour : ici, ce qu'on vient voir ne se voit pas depuis la rue.",
     sections: [
       {
         heading: "Vingt et une minutes de TER depuis Lyon Part-Dieu",
@@ -52412,7 +52412,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le budget, et le vignoble qui demande une voiture",
-        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Villefranche-sur-Saône sort à 5,9/10 (source : data/cities-seed.ts), à égalité avec Tours et Compiègne, sous la médiane de série qui vaut 6,1, et c'est, à égalité avec Compiègne, la deuxième destination la plus chère des huit ajoutées ce mois-ci après Anglet. Le marché résidentiel donne 1 070 € le T3 de référence, au-dessus de la médiane de série de 950 €, et 2 500 € le mètre carré, juste en dessous de celle de 2 550 € (source : data/housing.ts). Le moteur la classe en €€€ (source : lib/vacation-fit.ts). Un point de méthode sur la destination elle-même, parce qu'il pèse sur le budget réel. Villefranche est le chef-lieu du vignoble du Beaujolais et la porte d'entrée logique pour le visiter, les villages de pierres dorées étant au sud-ouest et les crus au nord, dans un rayon d'une trentaine de kilomètres. Mais le vignoble n'est pas dans Villefranche, il est accessible depuis Villefranche, et il demande une voiture ou une excursion organisée. Pour un séjour construit sans véhicule, l'arbitrage honnête est de traiter le Beaujolais comme une sortie facultative avec un coût de transport à part, et de bâtir le séjour sur la ville et sur Lyon, qui eux se font en train."
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Villefranche-sur-Saône sort à 5,9/10 (source : data/cities-seed.ts), à égalité avec Tours et Compiègne, sous la médiane de série qui vaut 6,1, et c'est, à égalité avec Compiègne, la deuxième destination la plus chère des huit ajoutées ce mois-ci après Anglet. Le marché résidentiel donne 1 070 € le T3 de référence, au-dessus de la médiane de série de 950 €, et 2 500 € le mètre carré, soit exactement celle de 2 500 € (source : data/housing.ts). Le moteur la classe en €€€ (source : lib/vacation-fit.ts). Un point de méthode sur la destination elle-même, parce qu'il pèse sur le budget réel. Villefranche est le chef-lieu du vignoble du Beaujolais et la porte d'entrée logique pour le visiter, les villages de pierres dorées étant au sud-ouest et les crus au nord, dans un rayon d'une trentaine de kilomètres. Mais le vignoble n'est pas dans Villefranche, il est accessible depuis Villefranche, et il demande une voiture ou une excursion organisée. Pour un séjour construit sans véhicule, l'arbitrage honnête est de traiter le Beaujolais comme une sortie facultative avec un coût de transport à part, et de bâtir le séjour sur la ville et sur Lyon, qui eux se font en train."
       },
       {
         heading: "Sécurité 6,3/10, espaces verts et climat",
@@ -52445,7 +52445,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-16",
     updatedAt: "2026-09-16",
     intro:
-      "Brive-la-Gaillarde sort à 6,8/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), sur sécurité 6,7/10, transports 7,0/10, coût de la vie 6,7/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). C'est le profil le plus régulier des huit destinations ajoutées ce mois-ci : aucun axe sous 6,3, aucun au-dessus de 7,5, là où Anglet oscille de 4,5 à 8,7 et La Roche-sur-Yon de 5,7 à 8,0. Le 6,7 de sécurité est le cinquième meilleur des trente-huit de la série, pour une médiane à 5,6. Le T3 de référence est à 780 € et le mètre carré à 2 000 € (source : data/housing.ts), respectivement le quatrième et le septième les moins chers de la série, contre des médianes à 950 € et 2 550 €. La commune compte 46 769 habitants au recensement 2022, contre 48 267 en 2011, soit une baisse de 3,1 % (source : data/city-population.json). Ce guide ouvre sur l'arrivée, parce que c'est la plus longue du lot.",
+      "Brive-la-Gaillarde sort à 6,8/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), sur sécurité 6,7/10, transports 7,0/10, coût de la vie 6,7/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). C'est le profil le plus régulier des huit destinations ajoutées ce mois-ci : aucun axe sous 6,3, aucun au-dessus de 7,5, là où Anglet oscille de 4,5 à 8,7 et La Roche-sur-Yon de 5,7 à 8,0. Le 6,7 de sécurité est le cinquième meilleur des trente-huit de la série, pour une médiane à 5,6. Le T3 de référence est à 780 € et le mètre carré à 2 000 € (source : data/housing.ts), respectivement le quatrième et le septième les moins chers de la série, contre des médianes à 940 € et 2 500 €. La commune compte 46 769 habitants au recensement 2022, contre 48 267 en 2011, soit une baisse de 3,1 % (source : data/city-population.json). Ce guide ouvre sur l'arrivée, parce que c'est la plus longue du lot.",
     sections: [
       {
         heading: "Quatre heures et demie depuis Paris, en Intercités et pas en TGV",
@@ -52498,7 +52498,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-16",
     updatedAt: "2026-09-16",
     intro:
-      "Compiègne sort à 6,7/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), sur sécurité 6,2/10, transports 7,7/10, coût de la vie 5,9/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Le 7,7 de transports est à égalité avec Anglet et Vienne pour le meilleur des huit destinations ajoutées ce mois-ci, et le huitième des trente-huit de la série, à égalité avec Montpellier, dont la médiane vaut 7,0. L'axe nature donne 7,1/10, à égalité avec Dieppe et derrière Anglet à 7,8 dans ce lot. Le T3 de référence est à 980 € et le mètre carré à 2 700 € (source : data/housing.ts), tous deux légèrement au-dessus des médianes de série de 950 € et 2 550 €. La commune compte 40 808 habitants au recensement 2022, contre 39 517 en 2011, soit une hausse de 3,3 % (source : data/city-population.json). Ce guide ouvre sur l'arrivée, parce que c'est la meilleure du lot et qu'elle ne doit rien au TGV.",
+      "Compiègne sort à 6,7/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), sur sécurité 6,2/10, transports 7,7/10, coût de la vie 5,9/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Le 7,7 de transports est à égalité avec Anglet et Vienne pour le meilleur des huit destinations ajoutées ce mois-ci, et le huitième des trente-huit de la série, à égalité avec Montpellier, dont la médiane vaut 7,0. L'axe nature donne 7,1/10, à égalité avec Dieppe et derrière Anglet à 7,8 dans ce lot. Le T3 de référence est à 980 € et le mètre carré à 2 700 € (source : data/housing.ts), tous deux légèrement au-dessus des médianes de série de 940 € et 2 500 €. La commune compte 40 808 habitants au recensement 2022, contre 39 517 en 2011, soit une hausse de 3,3 % (source : data/city-population.json). Ce guide ouvre sur l'arrivée, parce que c'est la meilleure du lot et qu'elle ne doit rien au TGV.",
     sections: [
       {
         heading: "Un TER direct de Gare du Nord, toutes les demi-heures",
@@ -52551,7 +52551,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-09-16",
     updatedAt: "2026-09-16",
     intro:
-      "Dieppe sort à 6,6/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), dernière des huit destinations ajoutées ce mois-ci, sur sécurité 6,2/10, transports 7,0/10, coût de la vie 6,7/10 et qualité de vie 6,2/10 (source : data/cities-seed.ts). Elle reste au-dessus de la médiane de fit des trente-huit, qui vaut 6,3. Le T3 de référence est à 820 € et le mètre carré à 1 800 € (source : data/housing.ts), respectivement le septième et le quatrième les moins chers de la série, à égalité dans les deux cas avec Angoulême, contre des médianes à 950 € et 2 550 €. La commune compte 28 599 habitants au recensement 2022, contre 31 148 en 2011, soit une baisse de 8,2 % : le recul le plus marqué des trente-huit (source : data/city-population.json). C'est aussi la seule des huit sans train direct depuis Paris, et pourtant celle où une voiture sert le moins une fois sur place. Ce guide traite les deux faits dans cet ordre.",
+      "Dieppe sort à 6,6/10 au composite « famille monoparentale » (source : lib/vacation-fit.ts), dernière des huit destinations ajoutées ce mois-ci, sur sécurité 6,2/10, transports 7,0/10, coût de la vie 6,7/10 et qualité de vie 6,2/10 (source : data/cities-seed.ts). Elle reste au-dessus de la médiane de fit des trente-huit, qui vaut 6,3. Le T3 de référence est à 820 € et le mètre carré à 1 800 € (source : data/housing.ts), respectivement le septième et le quatrième les moins chers de la série, à égalité dans les deux cas avec Angoulême, contre des médianes à 940 € et 2 500 €. La commune compte 28 599 habitants au recensement 2022, contre 31 148 en 2011, soit une baisse de 8,2 % : le recul le plus marqué des trente-huit (source : data/city-population.json). C'est aussi la seule des huit sans train direct depuis Paris, et pourtant celle où une voiture sert le moins une fois sur place. Ce guide traite les deux faits dans cet ordre.",
     sections: [
       {
         heading: "Pas de train direct depuis Paris, sauf le week-end",
@@ -59820,6 +59820,375 @@ export const GUIDES: Guide[] = [
       "10-choses-a-faire-a-saint-nazaire-2026"
     ],
     tags: ["10 choses à faire à Noirmoutier", "activités Noirmoutier 2026", "que faire en Vendée", "sorties Pays de la Loire île", "passage du Gois marais salants bois de la Chaise mimosa bonnotte"]
+  },
+  {
+    slug: "vacances-monoparentales-chatellerault-2026",
+    title: "Vacances monoparentales à Châtellerault en 2026",
+    metaTitle: "Vacances monoparentales à Châtellerault 2026",
+    metaDesc:
+      "Châtellerault sort à 6,5/10 au composite monoparental et porte le T3 le moins cher des quarante-cinq, 640 € à égalité avec Cambrai. TGV Paris en 1 h 36.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Châtellerault sort à 6,5/10 au composite « famille monoparentale », quinzième des quarante-cinq destinations de la série, à égalité avec Nantes et Annemasse (source : lib/vacation-fit.ts). Le détail : sécurité 5,7/10, transports 7,7/10, coût de la vie 7,2/10 et qualité de vie 5,9/10 (source : data/cities-seed.ts). Le chiffre qui compte ici est ailleurs, dans le marché : 640 € le T3 de référence, la valeur la plus basse des quarante-cinq à égalité exacte avec Cambrai, et 1 500 € le mètre carré, minimum de la série partagé à quatre avec Saint-Étienne, Vendôme et Saint-Quentin (source : data/housing.ts). La médiane de série est à 940 € et 2 500 € pour mémoire. Autrement dit, aucune destination de cette série n'est moins chère, et celle-ci est en même temps à une heure trente-six de Paris-Montparnasse en TGV direct, ce qui n'arrive nulle part ailleurs à ce niveau de prix. La commune compte 31 105 habitants au recensement 2022, contre 31 902 en 2011, soit une baisse de 2,5 % (source : data/city-population.json).",
+    sections: [
+      {
+        heading: "Un TGV direct, et c'est la meilleure arrivée du lot",
+        body: "Vérification faite en ligne avant écriture : Châtellerault est reliée à Paris-Montparnasse par TGV inOui, en une heure trente-six à une heure quarante-quatre selon le service, avec de l'ordre de cinq liaisons directes par jour sur une huitaine de circulations. C'est la relation la plus simple des sept destinations ajoutées ce mois-ci, et la seule à reposer sur un TGV : les six autres arrivent en TER, en Intercités ou avec une correspondance. Pour un adulte qui voyage seul avec un ou plusieurs enfants, la différence n'est pas le gain de minutes, elle est le nombre de ruptures de charge. Un direct veut dire une seule installation, un seul déballage, aucune surveillance de correspondance avec des bagages et des enfants fatigués sur un quai inconnu. Le score transports de la commune, 7,7/10, la place neuvième des quarante-cinq, à égalité avec six autres destinations de la série (source : data/cities-seed.ts) ; il décrit la desserte et la circulation sur place, pas la seule gare. Le corollaire honnête est qu'un axe TGV très fréquenté se réserve à l'avance si l'on veut un tarif tenable, et que c'est le poste qui pèsera le plus lourd dans ce séjour, davantage que l'hébergement."
+      },
+      {
+        heading: "Coût 7,2/10 : le loyer de référence le plus bas de la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Châtellerault sort à 7,2/10 (source : data/cities-seed.ts), troisième des quarante-cinq destinations de la série, à égalité exacte avec La Roche-sur-Yon, Dreux et Cambrai, derrière Saint-Quentin à 8,3 et Vendôme à 7,6, pour une médiane de série à 6,2. Le marché résidentiel va plus loin que l'axe : 640 € le T3 de référence, valeur la plus basse des quarante-cinq à égalité avec Cambrai, et 1 500 € le mètre carré, minimum partagé à quatre avec Saint-Étienne, Vendôme et Saint-Quentin (source : data/housing.ts). Le moteur la classe en €€, deuxième palier le moins cher (source : lib/vacation-fit.ts). Deux précautions sur ces nombres. Ce sont des repères de marché local, pas des tarifs de vacances : ils disent le niveau de prix d'une ville, pas le prix d'une chambre en août. Et une égalité n'est pas un classement : Châtellerault et Cambrai partagent la première place sur le loyer, aucune des deux ne précède l'autre. Ce que l'ordre de grandeur transporte quand même, c'est qu'une ville de 31 000 habitants sans pression touristique de masse n'a pas de tarification de haute saison comparable à celle d'une station."
+      },
+      {
+        heading: "Ce qu'on voit à pied, et ce que la ville a été",
+        body: "Le pont Henri-IV, achevé en 1611 et voulu par le roi dont il porte le nom, franchit la Vienne avec ses deux tours-pavillons à l'entrée ; il est piéton, ce qui en fait le point de départ évident avec des enfants, parce qu'on peut s'y arrêter au milieu sans surveiller une circulation. L'ancienne Manufacture d'armes, en activité de 1819 à 1968, est le second fait de la ville : un site industriel entier au bord de l'eau, reconverti depuis en logements, en école et en musée. Le musée Auto Moto Vélo s'y est installé et présente une collection de voitures, de motos et de vélos anciens en lien direct avec l'industrie locale, ce qui en fait la visite couverte la plus facile à vendre à un enfant de la ville. Le centre ancien se parcourt autour de l'église Saint-Jacques, étape de la Via Turonensis vers Compostelle, dont le carillon compte 52 cloches ; on y voit des maisons à pans de bois et la maison où Descartes a vécu enfant. La ville honore par ailleurs Clément Ader, qui décolle en 1890 avec l'Éole, et garde un théâtre à l'italienne du XIXe siècle. Tout cela tient dans une journée à pied, et c'est la bonne nouvelle comme la limite."
+      },
+      {
+        heading: "Trois aires de jeux, et un parc d'attractions qui n'est pas ici",
+        body: "Le relevé cartographique retient 10 espaces verts sur la commune, dont 3 seulement portent une aire de jeux (source : data/city-parks.json). C'est le deuxième total le plus faible des sept destinations de ce lot, derrière Saint-Quentin et ses 2, et c'est la vraie limite de la destination avec de jeunes enfants : le patrimoine se visite très bien, mais il n'y a pas le maillage de squares qui permet de couper une journée toutes les deux heures. Il faut par ailleurs être net sur un point que le nom de la ville ne dit pas. Le Futuroscope, qui est l'excursion enfant majeure du secteur et probablement la raison pour laquelle une famille regarde cette région, n'est pas à Châtellerault : il est à Chasseneuil-du-Poitou, à une vingtaine de minutes, et il se rejoint comme une sortie à part entière. Poitiers est à une trentaine de kilomètres. Châtellerault est donc une base économique et bien reliée pour ces deux destinations, ce qui est un usage parfaitement valable, à condition de budgéter un second trajet par jour de sortie et de le vérifier avant de réserver plutôt que de le découvrir sur place. Les créneaux du parc se réservent."
+      },
+      {
+        heading: "Sécurité 5,7/10, soit exactement la médiane de la série",
+        body: "Châtellerault affiche 5,7/10 sur l'axe sécurité (source : data/cities-seed.ts), quinzième des quarante-cinq destinations de la série, à égalité avec huit autres, et cette valeur est exactement la médiane de série. C'est donc une destination moyenne sur l'axe que ce profil pondère le plus lourd, ni un point fort ni un signal d'alerte. Deux rappels de lecture, les mêmes que partout dans cette série. Cet indicateur est un agrégat communal : il décrit une commune entière, pas un quartier ni une heure de la journée, et il ne porte aucun jugement sur les habitants. Et il est estimé par notre modèle, pas relevé sur des faits constatés. Le second chiffre à poser à côté est démographique : la commune est passée de 31 902 habitants en 2011 à 31 105 en 2022, soit une baisse de 2,5 % (source : data/city-population.json). C'est un recul modéré à l'échelle de cette série, où Dieppe perd 8,2 % et Vendôme 7,6 %, mais il a une conséquence pratique pour un visiteur : dans une ville qui ne gagne pas d'habitants, l'offre de restauration et de commerces du soir et du dimanche se vérifie avant de compter dessus, surtout hors saison."
+      },
+      {
+        heading: "Quand y aller, et combien de temps rester",
+        body: "La station climatique de référence est celle de Tours-Saint-Symphorien, à 70 kilomètres (source : lib/climate-normals.ts), un rattachement plus long que la médiane de série, qui est à 56 kilomètres, mais qui porte un climat comparable : même bassin, pas de relief entre les deux. Les normales de la station donnent 5,1 °C de moyenne en janvier avec 11 jours de pluie, et 20,2 °C en juillet avec 6,7 jours de pluie. Les ancres propres à la commune viennent du seed et sont plus chaudes en été : 5 °C en janvier, 24 °C en juillet et 2 000 heures de soleil annuelles (source : data/cities-seed.ts). Notre indicateur d'affluence donne 1 sur 5 de janvier à mai puis en octobre, novembre et décembre, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts) : la ville est calme sept mois sur douze. La fenêtre à viser est mai, avec 14,5 °C de moyenne et l'affluence au plancher, ou septembre à 16,8 °C. Sur la durée, il faut être franc : le cœur de ville se voit en une journée, deux avec le musée pris sans se presser. Compter une semaine ici n'a de sens que si l'on prévoit le Futuroscope, Poitiers et la vallée de la Vienne, c'est-à-dire si l'on accepte de bouger chaque jour."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Les bons vacances de la caisse d'allocations familiales de la Vienne se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : sur la moins chère des quarante-cinq, le poste qui pèsera le plus n'est pas l'hébergement mais le transport, et il doublera si le programme repose sur le Futuroscope. Les tarifs jeunes et famille de la SNCF et la réservation anticipée valent donc ici davantage que n'importe quelle aide au logement. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["chatellerault", "poitiers", "tours", "niort"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-chatellerault-2026",
+      "parent-solo-a-chatellerault-2026",
+      "vacances-monoparentales-poitiers-2026",
+      "vacances-monoparentales-cambrai-2026"
+    ],
+    tags: ["vacances monoparentales Châtellerault", "parent solo Vienne", "vacances pas chères en famille", "TGV Paris Châtellerault", "base Futuroscope"]
+  },
+  {
+    slug: "vacances-monoparentales-annemasse-2026",
+    title: "Vacances monoparentales à Annemasse en 2026",
+    metaTitle: "Vacances monoparentales à Annemasse 2026",
+    metaDesc:
+      "Annemasse sort à 6,5/10 au composite monoparental avec les meilleurs transports de la série, 9,0/10, et le coût le plus élevé des quarante-cinq : 3,4/10.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Annemasse sort à 6,5/10 au composite « famille monoparentale », quinzième des quarante-cinq destinations de la série à égalité avec Nantes et Châtellerault (source : lib/vacation-fit.ts). Elle y arrive par un chemin que cette série n'avait encore jamais documenté, et qui se lit dans le détail des axes : transports 9,0/10, sécurité 6,8/10, qualité de vie 6,8/10, et coût de la vie 3,4/10 (source : data/cities-seed.ts). Le 9,0 des transports est le meilleur score de la série, à égalité avec Strasbourg et Lyon. Le 3,4 du coût est le plus bas des quarante-cinq, c'est-à-dire que cette destination est la plus chère que cette série ait publiée, devant Aix-en-Provence à 3,6 qui détenait ce rang jusqu'ici. Le marché confirme : 1 350 € le T3 de référence et 4 800 € le mètre carré, contre une médiane de série à 940 € et 2 500 € (source : data/housing.ts). Le moteur la classe en €€€€, le palier le plus cher (source : lib/vacation-fit.ts). La commune compte 37 595 habitants au recensement 2022, contre 32 657 en 2011, soit une hausse de 15,1 % (source : data/city-population.json), la plus forte croissance de ce lot.",
+    sections: [
+      {
+        heading: "Un tramway qui franchit une frontière internationale",
+        body: "C'est le fait central de cette destination et il est vérifié en ligne avant écriture. Annemasse est le terminus français de la ligne de tramway 17, exploitée par les transports publics genevois, qui relie Annemasse-Parc Montessuit à Lancy-Pont-Rouge en une vingtaine à une trentaine de minutes, avec une fréquence de l'ordre de neuf minutes aux heures de pointe du lundi au vendredi. La ligne a été mise en service le 15 décembre 2019, après soixante et un ans sans tramway dans la ville, en même temps que la restructuration de l'offre autour du Léman Express, dont Annemasse est un nœud. Un adulte seul avec des enfants peut donc traverser une frontière internationale sur un ticket de transport urbain, sans voiture, sans parking et sans péage. Le terminus est par ailleurs un parc doté d'une aire de jeux, ce qui règle la question de l'attente au retour. Le score transports de 9,0/10, meilleur de la série avec Strasbourg et Lyon (source : data/cities-seed.ts), n'est donc pas une abstraction : il décrit une ville où le non-recours à la voiture est le régime normal et non un exploit. Depuis Paris, l'accès se fait par l'axe Bellegarde, Annemasse, Thonon, Évian, avec un nombre limité de liaisons directes et sinon une correspondance à Bellegarde, à trente-six à quarante-six minutes de là."
+      },
+      {
+        heading: "La destination la plus chère que cette série ait publiée",
+        body: "Sur l'axe coût de la vie, un score bas signifie cher. Annemasse sort à 3,4/10 (source : data/cities-seed.ts), la valeur la plus basse des quarante-cinq destinations de la série, derrière Aix-en-Provence à 3,6, Saint-Raphaël à 3,9 et Lyon à 4,2, pour une médiane de série à 6,2. Le marché résidentiel confirme l'ordre de grandeur : 1 350 € le T3 de référence, troisième valeur la plus élevée de la série derrière Aix-en-Provence à 1 400 € et Lyon à 1 380 €, et 4 800 € le mètre carré (source : data/housing.ts). La cause est nommable en un mot : la frontière. Annemasse est dans l'aire d'emploi de Genève, une partie de ses habitants est payée en francs suisses, et le marché du logement s'aligne sur ces revenus et non sur les revenus français. Pour un parent qui paie seul l'hébergement d'un foyer entier, c'est la configuration la plus défavorable de toute la série, et ce guide ne va pas l'habiller autrement. La contrepartie existe et elle est réelle : le poste transport, qui est le deuxième budget d'un séjour et souvent le premier quand on ne peut pas partager la conduite, tombe à un abonnement de réseau urbain. Reste à savoir si l'un compense l'autre, et la réponse dépend du nombre de nuits."
+      },
+      {
+        heading: "Ce que la Suisse change, et qui n'est pas qu'une affaire de prix",
+        body: "Trois règles à connaître avant de réserver, parce qu'elles sont opposables et qu'un calculateur d'itinéraire ne les dira pas. La Suisse est dans l'espace Schengen, donc il n'y a pas de contrôle systématique à la frontière, mais elle n'est pas dans l'Union européenne : une pièce d'identité en cours de validité reste obligatoire pour chaque membre du foyer, enfants compris, et « pas de contrôle » ne veut pas dire « pas de règles ». La Suisse n'est pas non plus dans l'union douanière, donc les franchises voyageurs s'appliquent dans les deux sens, et il faut se renseigner auprès de la douane plutôt que de se fier à une habitude prise aux frontières intérieures de l'Union. Enfin les prix côté genevois sont libellés en francs suisses et ne sont pas comparables aux prix français : une sortie à Genève payée sans y penser peut coûter davantage que la nuit d'hôtel en France. Le Salève, qui est le relief que l'on voit depuis la ville et la promenade évidente du séjour, mérite la même précision : le téléphérique part du Pas de l'Échelle, à Étrembières, commune voisine et non Annemasse. Il est desservi par la ligne 4 du réseau urbain avec un arrêt au téléphérique les week-ends et jours fériés, et en semaine par l'arrêt Veyrier-Douane suivi d'une dizaine de minutes à pied."
+      },
+      {
+        heading: "Quatorze aires de jeux, le meilleur maillage du lot après Caen",
+        body: "Le relevé cartographique retient 26 espaces verts sur la commune, dont 14 portent une aire de jeux (source : data/city-parks.json). C'est, à égalité avec Cambrai, le deuxième maillage de ce lot de sept derrière Caen, et il compte plus qu'il n'y paraît dans une destination chère : un square avec des jeux est la seule activité enfant qui ne coûte rien, et quatorze d'entre eux sur une commune de cette taille signifient qu'on n'a jamais à traverser la ville pour en trouver un. Le parc Montessuit, qui est aussi le terminus du tramway, la plaine de jeux de Romagny, les coteaux du Vernand et le parc la Fantasia structurent cette offre. C'est la réponse concrète à la contradiction de la destination : le programme payant est hors de portée d'un budget unique si on l'enchaîne, mais le programme gratuit est dense et il est à pied ou à une station de tram. Un séjour tenable ici ressemble donc à une alternance, une sortie payante tous les deux jours et le reste en parcs, en marche sur les hauteurs et en transports urbains, plutôt qu'à une semaine de billetterie. Formulé autrement : c'est une destination où l'arbitrage se fait à la journée, pas à l'arrivée."
+      },
+      {
+        heading: "Sécurité 6,8/10, cinquième de la série, et une ville qui grossit vite",
+        body: "Annemasse affiche 6,8/10 sur l'axe sécurité (source : data/cities-seed.ts), cinquième des quarante-cinq destinations de la série, derrière La Roche-sur-Yon à 8,0, Vendôme à 7,5, Anglet à 7,2 et Vannes à 6,9, pour une médiane de série à 5,7. C'est le meilleur score de ce lot de sept et c'est, avec les transports, ce qui la maintient si haut au composite malgré le coût. Comme partout dans cette série, cet indicateur est un agrégat communal estimé par notre modèle : il décrit une commune entière, pas un quartier ni une heure, et il ne juge pas ses habitants. Le chiffre démographique va dans le même sens de dynamisme et il est spectaculaire : 32 657 habitants en 2011, 37 595 en 2022, soit 15,1 % de plus en onze ans (source : data/city-population.json). C'est la seule ville de ce lot à croître à ce rythme, et de loin, quand quatre des sept perdent des habitants. Ce que ça veut dire pour un visiteur est plutôt favorable : les commerces, les services et l'offre de restauration d'une ville qui gagne cinq mille habitants en onze ans ne ferment pas en septembre. La contrepartie est celle du logement, déjà dite, et elle est la cause de la première."
+      },
+      {
+        heading: "Quand y aller, et pourquoi aucune normale climatique n'est citée ici",
+        body: "Il faut poser une limite de nos données plutôt que de la masquer. La station climatique la plus proche d'Annemasse dans notre jeu de normales est celle de Lyon-Bron, à 112 kilomètres (source : lib/climate-normals.ts), contre une médiane de série à 56 kilomètres. Ce n'est pas seulement loin, c'est un autre climat : Lyon-Bron mesure la plaine du Rhône, quand Annemasse est adossée au Salève, à l'entrée des Alpes et à quelques kilomètres du Léman. Publier les normales de Lyon comme si elles décrivaient Annemasse donnerait un chiffre faux avec l'apparence d'une mesure, donc ce guide ne le fait pas, et il faut savoir que les moyennes mensuelles affichées ailleurs sur le site pour cette commune héritent de cette station. Les seules ancres propres à la ville viennent du seed : 1 °C en janvier, 25 °C en juillet et 1 900 heures de soleil annuelles (source : data/cities-seed.ts), c'est-à-dire l'hiver le plus froid des sept destinations de ce lot et l'été le plus chaud. Notre indicateur d'affluence donne 1 sur 5 pendant sept mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts). La fenêtre à viser est mai ou septembre, pour une raison propre à la montagne : les sentiers d'altitude sont dégagés, et l'orage de fin d'après-midi est la règle en été."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle, et il faut retenir qu'ils n'ont pas cours en Suisse : sur cette destination, ils financent le séjour côté français et rien de ce qu'on fera à Genève. Les bons vacances de la caisse d'allocations familiales de la Haute-Savoie se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination, et c'est la plus importante du guide : sur la plus chère des quarante-cinq, aucune aide ne compensera un hébergement pris en juillet sans anticipation. Ce qui change l'équation ici est la saison et le nombre de nuits, pas le dispositif. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["annemasse", "thonon-les-bains", "annecy", "gex"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "parent-solo-a-annemasse-2026",
+      "vacances-monoparentales-chatellerault-2026",
+      "vacances-monoparentales-saint-quentin-2026"
+    ],
+    tags: ["vacances monoparentales Annemasse", "parent solo Haute-Savoie", "vacances sans voiture", "tramway Genève Annemasse", "frontière suisse en famille"]
+  },
+  {
+    slug: "vacances-monoparentales-caen-2026",
+    title: "Vacances monoparentales à Caen en 2026",
+    metaTitle: "Vacances monoparentales à Caen 2026",
+    metaDesc:
+      "Caen sort à 6,4/10 au composite monoparental, avec au moins 23 aires de jeux, trois lignes de tramway et une station météo à 6 km. T3 930 €, m² 2 500 €.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Caen sort à 6,4/10 au composite « famille monoparentale », dix-huitième des quarante-cinq destinations de la série, à égalité avec cinq autres (source : lib/vacation-fit.ts). Le détail : sécurité 5,9/10, transports 7,0/10, coût de la vie 6,2/10 et qualité de vie 6,6/10 (source : data/cities-seed.ts). C'est la destination la plus médiane que cette série ait publiée, et au sens littéral : son T3 de référence est à 930 € pour une médiane de série à 940 €, et son mètre carré à 2 500 € est exactement la médiane de série (source : data/housing.ts). Elle est aussi la seule des sept destinations ajoutées ce mois-ci dont le réseau de transport soit documenté dans notre table, avec tramway et bus à haut niveau de service (source : lib/transit.ts), et celle dont la station climatique de référence est la plus proche de toute la série. Avec 108 398 habitants au recensement 2022 contre 108 793 en 2011, soit une baisse de 0,4 % (source : data/city-population.json), c'est aussi la plus grande ville de ce lot et la plus stable.",
+    sections: [
+      {
+        heading: "Deux heures de Paris, et trois lignes de tram depuis la gare",
+        body: "Vérification faite en ligne avant écriture : Caen est reliée à Paris-Saint-Lazare en une heure cinquante-sept environ, sur l'axe qui continue vers Cherbourg. Ce n'est pas un TGV et il ne faut pas en attendre la régularité d'un cadencement à la demi-heure, mais c'est un direct, et la desserte est celle d'une préfecture de région historique. Le point qui distingue cette destination des six autres de ce lot est ce qui se passe à l'arrivée : les lignes de tramway T1, T2 et T3 relient la gare au centre-ville, et le réseau comporte par ailleurs des lignes de bus à haut niveau de service. Notre table de desserte documente les deux (source : lib/transit.ts), ce qui n'est le cas d'aucune autre ville de ce lot. Pour un adulte seul avec des enfants et des bagages, c'est la différence entre sortir d'une gare et chercher un taxi, et sortir d'une gare et monter dans un tram. Le score transports de 7,0/10 place la ville dix-neuvième des quarante-cinq, à égalité avec quinze autres destinations (source : data/cities-seed.ts) : il faut le lire comme la médiane de série exactement, et non comme un point fort, parce qu'il agrège la desserte longue distance et la circulation locale."
+      },
+      {
+        heading: "Au moins vingt-trois aires de jeux, et pourquoi on écrit « au moins »",
+        body: "Le relevé cartographique retient au moins 40 espaces verts sur la commune, dont au moins 23 portent une aire de jeux (source : data/city-parks.json). La formulation est prudente pour une raison technique qu'il faut dire : notre collecte plafonne à quarante parcs par commune, Caen atteint ce plafond, donc les deux nombres sont des planchers et non des totaux. Ce qui est certain est que c'est de très loin le meilleur maillage des sept destinations de ce lot, devant Annemasse et Cambrai à 14, et que Caen est la seule à offrir ce niveau de choix. Pour un parent seul, un maillage dense d'aires de jeux est l'équipement le plus utile qui existe, parce que c'est le seul qui permette de couper une journée sans payer et sans se déplacer. La Prairie, vaste espace ouvert près du centre, le parc de la Colline aux Oiseaux, la Vallée des Jardins et les coteaux Saint-Julien en sont les pièces principales, et plusieurs sont accessibles en tramway. C'est le point sur lequel cette destination bat tout le reste du lot, et il compense un climat d'été qui, on le verra, n'est pas celui d'une destination balnéaire."
+      },
+      {
+        heading: "Un château au milieu de la ville, et deux abbayes",
+        body: "Caen a été très largement détruite en 1944 puis reconstruite, et son patrimoine médiéval a pourtant traversé l'épisode en grande partie : c'est la particularité de la ville et la première chose à expliquer à un enfant sur place. Le château, fondé par Guillaume le Conquérant, domine le centre depuis près de mille ans ; son enceinte se parcourt librement et c'est un terrain de jeu autant qu'un monument, ce qui est rare et ce qui en fait la visite la plus économique du séjour. L'abbaye aux Hommes et l'abbaye aux Dames encadrent la ville de part et d'autre, l'une abritant aujourd'hui l'hôtel de ville. Le Mémorial de Caen est l'équipement culturel majeur, consacré à la Seconde Guerre mondiale et au Débarquement : il est remarquable et il demande un avertissement honnête, parce que son propos est dur et qu'il ne convient pas à de jeunes enfants sans préparation. Le marché du dimanche et les halles Saint-Pierre donnent la version quotidienne de la ville, et le port de plaisance avec les bords de l'Orne offrent une promenade plate et sans voiture, ce qui compte avec une poussette."
+      },
+      {
+        heading: "Les plages du Débarquement ne sont pas à Caen",
+        body: "Il faut le dire avant qu'une famille réserve sur un malentendu, parce que c'est probablement la raison pour laquelle on regarde Caen. Les plages du Débarquement, Sword, Juno et Gold, ne sont pas sur la commune : elles sont sur le littoral, à une quinzaine de kilomètres au nord, et elles se rejoignent comme une sortie d'une demi-journée au moins. Caen est reliée à la mer par l'Orne et son canal, mais la ville n'est pas balnéaire. Formulé comme un arbitrage, cela donne deux séjours possibles et il vaut mieux choisir. Soit on prend Caen pour ce qu'elle est, une ville de patrimoine médiéval avec un maillage de parcs exceptionnel et une desserte en tramway, et on y reste trois jours sans voiture. Soit on en fait la base d'une exploration du littoral et du bocage, et il faut alors vérifier les liaisons de bus interurbains avant de partir, parce que c'est précisément le type de trajet où l'absence de second conducteur se paie. La même remarque vaut pour le château de Fontaine-Henry et pour les producteurs de cidre et de calvados du Pays d'Auge, qui relèvent d'autres communes et se traitent comme des excursions."
+      },
+      {
+        heading: "Sécurité 5,9/10 et une population stable depuis onze ans",
+        body: "Caen affiche 5,9/10 sur l'axe sécurité (source : data/cities-seed.ts), douzième des quarante-cinq destinations de la série, à égalité avec deux autres, pour une médiane de série à 5,7. C'est donc légèrement au-dessus de la médiane, et c'est notable pour une ville de plus de cent mille habitants : dans cette série, les grandes villes sont en général enterrées par cet axe, Montpellier à 3,7, Lille à 3,9, Toulouse et Grenoble à 4,3. Comme partout ici, cet indicateur est un agrégat communal estimé par notre modèle et non un relevé de faits constatés : il décrit une commune entière, pas un quartier ni une heure, et il ne porte aucun jugement sur les habitants. Le chiffre démographique est le plus stable de ce lot : 108 793 habitants en 2011, 108 398 en 2022, soit une baisse de 0,4 % en onze ans (source : data/city-population.json), c'est-à-dire une quasi-stagnation quand Saint-Quentin perd 5,8 % et Annemasse gagne 15,1 %. La conséquence pratique est simple et rassurante : une ville universitaire de cette taille et de cette stabilité garde une offre de restauration, de commerces et de culture ouverte toute l'année, y compris le dimanche et hors saison."
+      },
+      {
+        heading: "Quand y aller, et le seul chiffre climatique vraiment local de ce lot",
+        body: "C'est ici que Caen a un avantage que rien d'autre dans ce lot ne peut offrir. La station climatique de référence est celle de Caen-Carpiquet, à 6 kilomètres (source : lib/climate-normals.ts), contre une médiane de série à 56 kilomètres : c'est le rattachement le plus court de toute la série, et les normales décrivent donc réellement la ville et non une région voisine. Elles donnent 5,6 °C de moyenne en janvier avec 11,3 jours de pluie, et 18,0 °C en juillet avec 7,4 jours de pluie. Ce 18,0 de juillet est la donnée à regarder en face. Sur les ancres du seed, Caen partage avec Saint-Quentin l'été le plus frais de ce lot, et ce n'est pas une destination de chaleur. Les ancres du seed confirment, avec 19 °C en juillet et 1 726 heures de soleil annuelles (source : data/cities-seed.ts). Notre indicateur d'affluence donne 2 sur 5 huit mois sur douze, 3 en juin et en septembre, 4 en juillet et en août (source : lib/vacation-seasons.ts) : c'est, avec Saint-Quentin, la plus fréquentée de ce lot, et le pic d'août se sent sur le littoral voisin plus que dans la ville. La fenêtre à viser est juin, à 15,9 °C et 9 jours de pluie, ou septembre à 15,8 °C. Trois jours suffisent pour la ville ; une semaine se justifie avec le littoral."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Les bons vacances de la caisse d'allocations familiales du Calvados se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Deux remarques propres à cette destination. Le Calvados est un département très touristique en été, littoral compris, donc l'hébergement conventionné y part tôt et la réservation anticipée pèse davantage ici que sur les petites villes de ce lot. Et le poste à surveiller n'est pas l'hébergement mais les sorties vers le littoral, qui sont payantes en transport même quand le site est gratuit. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["caen", "bayeux", "le-havre", "cherbourg"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-caen-2026",
+      "parent-solo-a-caen-2026",
+      "vacances-monoparentales-dieppe-2026",
+      "vacances-monoparentales-annemasse-2026"
+    ],
+    tags: ["vacances monoparentales Caen", "parent solo Calvados", "vacances en Normandie", "tramway Caen sans voiture", "plages du Débarquement en famille"]
+  },
+  {
+    slug: "vacances-monoparentales-saint-quentin-2026",
+    title: "Vacances monoparentales à Saint-Quentin en 2026",
+    metaTitle: "Vacances monoparentales à Saint-Quentin 2026",
+    metaDesc:
+      "Saint-Quentin porte le meilleur axe coût des quarante-cinq, 8,3/10, et un centre Art déco entier en accès libre. Mais sécurité 4,7/10 et 2 aires de jeux.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Saint-Quentin sort à 6,4/10 au composite « famille monoparentale », dix-huitième des quarante-cinq destinations de la série à égalité avec cinq autres (source : lib/vacation-fit.ts). Un de ses axes est un record de série et il est celui qui compte le plus pour un budget unique : coût de la vie 8,3/10, le meilleur des quarante-cinq, devant Vendôme à 7,6 qui détenait ce rang depuis le lot précédent (source : data/cities-seed.ts). Les trois autres axes sont plus sévères : sécurité 4,7/10, transports 7,7/10, qualité de vie 5,5/10. Le marché suit le coût : 650 € le T3 de référence, troisième valeur la plus basse de la série derrière Châtellerault et Cambrai à 640 €, et 1 500 € le mètre carré, minimum de série partagé à quatre (source : data/housing.ts), contre une médiane de série à 940 € et 2 500 €. Le moteur la classe en €, le palier le moins cher, et c'est la seule des sept destinations de ce lot à y figurer (source : lib/vacation-fit.ts). La commune compte 52 995 habitants au recensement 2022, contre 56 278 en 2011, soit une baisse de 5,8 % (source : data/city-population.json).",
+    sections: [
+      {
+        heading: "Le meilleur axe coût que cette série ait publié",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Saint-Quentin sort à 8,3/10 (source : data/cities-seed.ts), le meilleur score des quarante-cinq destinations de la série, devant Vendôme à 7,6, puis un palier à 7,2 partagé par La Roche-sur-Yon, Châtellerault, Dreux et Cambrai, pour une médiane de série à 6,2. C'est aussi la seule destination de la série classée €, le palier le moins cher du moteur (source : lib/vacation-fit.ts). Le marché résidentiel confirme sans le pousser aussi loin : 650 € le T3 de référence, troisième valeur la plus basse derrière Châtellerault et Cambrai qui partagent 640 €, et 1 500 € le mètre carré, minimum de série à égalité avec Saint-Étienne, Vendôme et Châtellerault (source : data/housing.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais l'écart avec la médiane de série est tel qu'il se transporte : on parle d'une ville où le niveau général des prix est le plus bas que ce classement ait rencontré. Pour un adulte qui finance seul un séjour entier, c'est l'argument principal de cette destination, et il est solide. Le reste de ce guide dit ce qu'il coûte."
+      },
+      {
+        heading: "Un centre Art déco entier, et il est dans la rue",
+        body: "C'est la meilleure nouvelle de cette destination pour un budget unique, et elle tient en une phrase : l'essentiel de ce qu'on vient voir à Saint-Quentin est gratuit, parce que c'est de l'architecture en accès libre. La ville a été occupée puis détruite pendant la Première Guerre mondiale, et reconstruite dans les années qui ont suivi, au moment exact où l'Art déco s'imposait. Il en résulte un centre entier dessiné dans un même vocabulaire, ferronneries, mosaïques, verrières, bow-windows et motifs géométriques en façade, jusque sur des immeubles très ordinaires : l'un des ensembles Art déco les plus cohérents de France, et il se parcourt à pied sans billet. L'hôtel de ville résume la ville en un seul bâtiment : chantier ouvert en 1331 et achevé en 1509 pour une façade de gothique flamboyant à influence flamande, puis restauration en 1926 par l'architecte Louis Guindez, qui traite l'intérieur en Art déco. On entre par le XVIe siècle pour trouver les années 1920. La basilique, bâtie du XIIe au XVe siècle, est la plus grande église gothique des Hauts-de-France après la cathédrale d'Amiens, surnommée la septième cathédrale de Picardie alors qu'elle n'a jamais été siège d'évêché, d'où son titre de basilique."
+      },
+      {
+        heading: "Une réserve naturelle nationale en pleine agglomération",
+        body: "C'est l'autre atout de la destination et il est peu commun. La réserve naturelle nationale des marais d'Isle, créée en 1981, protège 47 hectares de zone humide, et elle est en pleine agglomération, ce qui est rare pour une réserve de ce statut. Roselières, plans d'eau et prairies humides en font une halte migratoire et une zone de reproduction pour de nombreux oiseaux, et un observatoire permet de regarder sans déranger. Avec des enfants, le cadrage honnête est qu'on y va pour ce qui vole et non pour un paysage spectaculaire, et que la patience requise a un âge minimum. Les milieux sont fragiles et la fréquentation encadrée : les sentiers balisés ne sont pas une suggestion, ils sont ce qui permet à la réserve d'exister au milieu d'une ville. Autour de la réserve, le parc d'Isle donne la version promenade du même milieu, avec des chemins, des plans d'eau et des aires de jeux, à distance de marche du centre. Des sorties en bacôve, la barque à fond plat traditionnelle des marais du Nord menée à la perche, sont organisées sur le site : les créneaux sont saisonniers et limités, donc on réserve et on ne se présente pas au bord de l'eau. Le musée Antoine-Lécuyer conserve par ailleurs la plus grande collection de pastels de Maurice-Quentin de La Tour au monde, né et mort dans la ville."
+      },
+      {
+        heading: "Deux aires de jeux, le minimum du lot",
+        body: "Le relevé cartographique retient 7 espaces verts sur la commune, dont 2 portent une aire de jeux (source : data/city-parks.json). C'est le total le plus faible des sept destinations de ce lot, et de loin : Caen en compte au moins 40 avec au moins 23 aires de jeux, Annemasse et Cambrai 26 avec 14. Sur une commune de 53 000 habitants, c'est un déficit réel et il faut le dire avant de réserver, parce qu'il change la façon dont une journée s'organise. Concrètement, avec de jeunes enfants, le programme de Saint-Quentin repose sur deux piliers et pas trois : le circuit Art déco, qui est de la marche en ville et qui suppose des enfants capables de marcher, et le parc d'Isle avec la réserve, qui concentre à lui seul l'essentiel de l'offre de plein air, aires de jeux comprises. Il n'y a pas le maillage de squares qui permet de couper une matinée toutes les deux heures. L'axe nature de la commune, 5,0/10 (source : data/cities-seed.ts), et l'axe qualité de vie à 5,5/10, trente-neuvième des quarante-cinq à égalité avec cinq autres, disent la même chose par un autre chemin. C'est le prix de la destination la moins chère de la série, et il est payé ici plutôt qu'en euros."
+      },
+      {
+        heading: "Sécurité 4,7/10 : le chiffre qu'il faut poser franchement",
+        body: "Saint-Quentin affiche 4,7/10 sur l'axe sécurité (source : data/cities-seed.ts), trente-sixième des quarante-cinq destinations de la série, pour une médiane de série à 5,7. Sur le profil monoparental, c'est l'axe le plus lourdement pondéré, donc ce chiffre est la contrepartie directe du record de coût, et il ne faut pas le noyer. Trois précisions de lecture, et elles comptent. Cet indicateur est un agrégat communal : il décrit une commune entière, jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, il n'est pas un relevé de faits constatés, et il ne porte aucun jugement sur les habitants. Et il reste au-dessus du plancher de la série, que tiennent Montpellier à 3,7, Lille à 3,9, puis Grenoble, Toulouse, Saint-Étienne et Avignon à 4,3, toutes destinations que cette série publie par ailleurs. Le chiffre démographique va dans le même sens : 56 278 habitants en 2011, 52 995 en 2022, soit une baisse de 5,8 % en onze ans (source : data/city-population.json), le recul le plus marqué des sept destinations de ce lot, et l'un des plus nets de la série. La conséquence pratique est la même que partout : l'offre du soir et du dimanche se vérifie avant de compter dessus."
+      },
+      {
+        heading: "Quand y aller, et ce que notre station climatique ne dit pas",
+        body: "La station climatique de référence est celle de Lille-Lesquin, à 81 kilomètres (source : lib/climate-normals.ts), un rattachement plus long que la médiane de série, qui est à 56 kilomètres. Ses normales donnent 4,1 °C de moyenne en janvier et 18,9 °C en juillet, et il faut préciser une lacune plutôt que de la combler : cette station ne publie pas de nombre de jours de pluie dans notre jeu de données, donc les valeurs mensuelles de précipitations affichées pour Saint-Quentin sur le site viennent de notre modèle saisonnier et non d'un relevé de station (source : lib/vacation-seasons.ts). Les ancres propres à la commune viennent du seed : 2,5 °C en janvier, 19 °C en juillet et 1 700 heures de soleil annuelles (source : data/cities-seed.ts), c'est-à-dire l'un des deux étés les plus frais de ce lot avec Caen. Notre indicateur d'affluence donne 2 sur 5 huit mois sur douze, 3 en juin et en septembre, 4 en juillet et en août (source : lib/vacation-seasons.ts). La fenêtre à viser est juin, à 16,7 °C et 9 jours de pluie modélisés, ou septembre à 15,8 °C. Sur la durée, deux jours suffisent : le circuit Art déco et la basilique tiennent dans une journée, le parc d'Isle et le musée dans la seconde. Au-delà, il faut sortir de la ville."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Les bons vacances de la caisse d'allocations familiales de l'Aisne se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination, et elle est inhabituelle dans cette série : sur la moins chère des quarante-cinq et sur une ville dont le principal intérêt est en accès libre, le budget d'un séjour de deux jours est déjà si bas que l'enjeu n'est pas l'aide mais le transport depuis le domicile. Les tarifs jeunes et famille de la SNCF pèsent ici davantage que n'importe quel dispositif, et l'Intercités depuis Paris-Nord se réserve à l'avance. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["saint-quentin", "laon", "compiegne", "cambrai"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-saint-quentin-2026",
+      "parent-solo-a-saint-quentin-2026",
+      "vacances-monoparentales-compiegne-2026",
+      "vacances-monoparentales-cambrai-2026"
+    ],
+    tags: ["vacances monoparentales Saint-Quentin", "parent solo Aisne", "vacances pas chères en famille", "Art déco Saint-Quentin", "marais d'Isle réserve naturelle"]
+  },
+  {
+    slug: "vacances-monoparentales-dreux-2026",
+    title: "Vacances monoparentales à Dreux en 2026",
+    metaTitle: "Vacances monoparentales à Dreux 2026",
+    metaDesc:
+      "Dreux sort à 6,4/10 au composite monoparental, à moins d'une heure de Paris-Montparnasse en TER direct, avec 12 aires de jeux et une nécropole royale.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Dreux sort à 6,4/10 au composite « famille monoparentale », dix-huitième des quarante-cinq destinations de la série à égalité avec cinq autres (source : lib/vacation-fit.ts). Le détail : sécurité 5,7/10, transports 7,0/10, coût de la vie 7,2/10 et qualité de vie 5,5/10 (source : data/cities-seed.ts). L'axe coût la place troisième des quarante-cinq, à égalité avec La Roche-sur-Yon, Châtellerault et Cambrai, et l'axe qualité de vie trente-neuvième, à égalité avec cinq autres : c'est un écart de trente-six rangs entre deux axes, et il résume la destination. Le marché est à 930 € le T3 de référence et 2 000 € le mètre carré (source : data/housing.ts), contre une médiane de série à 940 € et 2 500 €, donc un loyer médian pour un mètre carré nettement sous la médiane. La commune compte 31 205 habitants au recensement 2022, contre 30 536 en 2011, soit une hausse de 2,2 % (source : data/city-population.json). Et elle a la particularité d'être, de tout ce lot, la plus proche de Paris en temps de trajet.",
+    sections: [
+      {
+        heading: "Moins d'une heure de Paris, en direct, et sans TGV",
+        body: "Vérification faite en ligne avant écriture : Dreux est reliée à Paris-Montparnasse par TER Normandie en cinquante-huit minutes à une heure environ pour les liaisons directes, sur la ligne qui continue vers Nonancourt et Granville, et la gare est aussi desservie vers Argentan. C'est le trajet le plus court des sept destinations de ce lot, et il se fait sans TGV, ce qui a une conséquence pratique que cette série a documentée plusieurs fois : le tarif d'un TER est réglementé et ne dépend pas d'un remplissage, donc il ne s'envole pas à mesure qu'on approche de la date. Pour un parent qui ne peut pas décider ses vacances six mois à l'avance, c'est un avantage réel sur un axe TGV, et il compense largement la quinzaine de minutes perdues par rapport à un train à grande vitesse. Le score transports de 7,0/10 place la ville dix-neuvième des quarante-cinq, à égalité avec quinze autres (source : data/cities-seed.ts), soit la médiane de série : il agrège la desserte et la circulation locale, et il faut le lire comme correct sans être remarquable. Sur place, une ville de 31 000 habitants se traverse à pied, ce qui est la seule chose qui compte quand on n'a pas de voiture."
+      },
+      {
+        heading: "Une nécropole royale dans une ville de trente et un mille habitants",
+        body: "C'est le fait de la destination, et il est disproportionné par rapport à la taille de la commune. La chapelle royale Saint-Louis est la sépulture traditionnelle de la maison d'Orléans. Vérification faite en ligne avant écriture : sa construction est engagée en 1816 par la duchesse d'Orléans, mère du futur Louis-Philippe, sur l'emplacement d'une fosse commune de l'ancien cimetière des Chanoines, pour y réunir sa famille ; en 1830 Louis-Philippe, devenu roi des Français, la fait agrandir et embellir, et elle prend alors son nom de chapelle royale. C'est aujourd'hui la nécropole de la famille d'Orléans, et l'intérieur se visite. Pour un enfant, l'intérêt n'est pas dynastique, il est visuel : une succession de tombeaux sculptés et un ensemble de vitraux dans un bâtiment du XIXe siècle. Le domaine qui l'entoure est par ailleurs recensé comme espace vert de la commune (source : data/city-parks.json), ce qui permet d'enchaîner la visite et une pause dehors sans se déplacer. Le beffroi, ancien hôtel de ville de la Renaissance, ferme le centre ancien : ce guide ne lui donne pas de date, faute d'avoir pu en vérifier une."
+      },
+      {
+        heading: "Douze aires de jeux, et c'est ce qui sauve le séjour",
+        body: "Le relevé cartographique retient 23 espaces verts sur la commune, dont 12 portent une aire de jeux (source : data/city-parks.json). C'est le troisième maillage de ce lot, derrière Caen et derrière Annemasse et Cambrai à 14, mais rapporté à une commune de 31 000 habitants c'est un très bon ratio, et c'est l'élément qui rend cette destination tenable avec de jeunes enfants. Le parc Louis-Philippe, le parc de la Sablonnière et le parc Alexandre-de-Yougoslavie portent tous une aire de jeux, et le domaine de la chapelle royale complète l'offre. Il faut mettre ce chiffre en face de l'autre, celui qui est mauvais : la qualité de vie de la commune est notée 5,5/10, trente-neuvième des quarante-cinq destinations de la série à égalité avec cinq autres, et l'axe nature 5,0/10 (source : data/cities-seed.ts). Ces deux notes décrivent l'expérience d'un résident, pas celle d'un visiteur, et c'est la nuance utile ici : ce qui pénalise un habitant à l'année, une offre culturelle et commerciale limitée pour la taille de la ville, pèse beaucoup moins sur trois jours, alors que douze aires de jeux pèsent immédiatement. Dreux est une destination qui se défend mieux en séjour court qu'en lecture de scores."
+      },
+      {
+        heading: "Ce que Dreux n'est pas, et ce qu'il y a autour",
+        body: "Il faut être clair sur un point pour éviter le malentendu qui guette toutes les villes de la couronne parisienne dans cette série : Dreux n'est pas une excursion depuis Paris, et ce guide ne la traite pas comme telle. Elle est en Eure-et-Loir, en région Centre-Val de Loire, et à une heure de train de la capitale, ce qui la met à la bonne distance pour un séjour de deux ou trois nuits sans avoir le sentiment de faire des allers-retours. Ce qui se voit autour relève de communes voisines et se rejoint comme des sorties : Chartres et sa cathédrale à une trentaine de kilomètres, la vallée de l'Eure, et l'Île-de-France de l'ouest qui commence juste après. Il faut vérifier les liaisons avant de partir, parce que les trajets transversaux sans voiture dans cette région ne sont pas évidents, et que c'est exactement le type de déplacement où l'absence de second conducteur coûte une demi-journée. Le score de télétravail de la commune, 7,5/10 (source : data/cities-seed.ts), est le plus élevé de ce lot avec Annemasse : il ne dit rien d'un séjour touristique, mais il signale une connexion correcte, ce qui compte pour un parent qui prolonge un week-end en travaillant un jour."
+      },
+      {
+        heading: "Sécurité 5,7/10, la médiane exacte de la série",
+        body: "Dreux affiche 5,7/10 sur l'axe sécurité (source : data/cities-seed.ts), quinzième des quarante-cinq destinations de la série, à égalité avec huit autres dont Châtellerault, et cette valeur est exactement la médiane de série. C'est donc une destination moyenne sur l'axe que ce profil pondère le plus lourd. Les rappels de lecture sont les mêmes que partout dans cette série, et ils sont importants sur une ville dont la réputation médiatique est plus mauvaise que son chiffre : cet indicateur est un agrégat communal estimé par notre modèle, pas un relevé de faits constatés ; il décrit une commune entière et jamais un quartier ni une heure de la journée ; et il ne porte aucun jugement sur les habitants. Le chiffre démographique est l'un des trois seuls de ce lot à être positif : 30 536 habitants en 2011, 31 205 en 2022, soit une hausse de 2,2 % en onze ans (source : data/city-population.json), quand quatre des sept destinations de ce lot perdent des habitants. Une ville qui gagne des habitants garde ses commerces ouverts, et c'est la seule conséquence pratique qu'un visiteur ait à en tirer."
+      },
+      {
+        heading: "Quand y aller, et une station météo partagée avec Beauvais",
+        body: "La station climatique de référence est celle de Paris-Montsouris, à 72 kilomètres (source : lib/climate-normals.ts), un rattachement plus long que la médiane de série, qui est à 56 kilomètres. Il faut signaler une conséquence de ce rattachement plutôt que la laisser passer : Beauvais, également dans ce lot, est rattachée à la même station à 71 kilomètres, si bien que les valeurs mensuelles affichées sur le site pour Dreux et pour Beauvais sont identiques. Elles ne sont donc pas deux mesures concordantes, c'est une seule mesure lue deux fois, et une station urbaine parisienne est par ailleurs plus douce que la campagne de l'Eure-et-Loir. Les normales donnent 5,4 °C de moyenne en janvier avec 9,9 jours de pluie, et 20,9 °C en juillet avec 7,4 jours de pluie. Les ancres propres à la commune viennent du seed : 4 °C en janvier, 22 °C en juillet et 1 780 heures de soleil annuelles (source : data/cities-seed.ts). Notre indicateur d'affluence donne 1 sur 5 pendant sept mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts). La fenêtre à viser est mai, à 15,6 °C et l'affluence au plancher. Deux jours suffisent pour la ville, trois avec une sortie vers Chartres."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Les bons vacances de la caisse d'allocations familiales d'Eure-et-Loir se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : à moins d'une heure de Paris en TER, le coût du transport est le plus bas de ce lot, et le budget se concentre donc presque entièrement sur l'hébergement et les repas. C'est la configuration où les aides à l'hébergement, VACAF en particulier, ont le plus d'effet proportionnel, parce qu'elles portent sur le poste dominant. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["dreux", "chartres", "evreux", "rambouillet"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "parent-solo-a-dreux-2026",
+      "vacances-monoparentales-vendome-2026",
+      "vacances-monoparentales-beauvais-2026"
+    ],
+    tags: ["vacances monoparentales Dreux", "parent solo Eure-et-Loir", "vacances près de Paris en train", "chapelle royale Dreux", "vacances pas chères en famille"]
+  },
+  {
+    slug: "vacances-monoparentales-beauvais-2026",
+    title: "Vacances monoparentales à Beauvais en 2026",
+    metaTitle: "Vacances monoparentales à Beauvais 2026",
+    metaDesc:
+      "Beauvais sort à 6,2/10 au composite monoparental, à 1 h 10 de Paris-Nord en TER, avec la plus haute voûte gothique du monde et un aéroport dans la ville.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Beauvais sort à 6,2/10 au composite « famille monoparentale », vingt-huitième des quarante-cinq destinations de la série à égalité avec trois autres (source : lib/vacation-fit.ts). Le détail : sécurité 5,2/10, transports 7,7/10, coût de la vie 6,7/10 et qualité de vie 5,9/10 (source : data/cities-seed.ts). L'axe culture, 7,5/10, la place treizième des quarante-cinq à égalité avec six autres, et c'est le meilleur de ce lot avec Saint-Quentin et Cambrai. Le marché est à 870 € le T3 de référence et 2 200 € le mètre carré (source : data/housing.ts), contre une médiane de série à 940 € et 2 500 €, donc sous la médiane sur les deux repères sans être dans le bas de tableau. La commune compte 55 906 habitants au recensement 2022, contre 54 189 en 2011, soit une hausse de 3,2 % (source : data/city-population.json). C'est la deuxième ville de ce lot par la population, derrière Caen, et l'une des trois seules à gagner des habitants.",
+    sections: [
+      {
+        heading: "Un aéroport qui porte le nom de Paris, et une ville qui en profite",
+        body: "Il faut commencer par là parce que c'est le malentendu le plus utile à lever. L'aéroport de Beauvais-Tillé est commercialisé comme aéroport parisien à bas coût, et il est en réalité à Beauvais, à 80 kilomètres de Paris. Des milliers de voyageurs y atterrissent chaque semaine pour prendre aussitôt une navette vers la capitale, sans savoir qu'ils sont dans une préfecture de 56 000 habitants qui abrite la plus haute voûte gothique du monde. Pour un parent seul, la conséquence est concrète et rare : si le vol le moins cher depuis l'étranger ou depuis une ville française atterrit ici, il n'y a aucune raison de payer une navette et deux heures de trajet aller-retour pour aller dormir à Paris. La ville est la destination. L'autre accès est le train : vérification faite en ligne avant écriture, Beauvais est reliée à Paris-Nord par TER en une heure dix environ, avec un meilleur temps autour d'une heure cinq, et de l'ordre de seize liaisons directes par jour sur une vingtaine de circulations. Le score transports de 7,7/10 place la ville neuvième des quarante-cinq, à égalité avec six autres (source : data/cities-seed.ts), et c'est le deuxième de ce lot derrière Annemasse."
+      },
+      {
+        heading: "La plus haute voûte gothique du monde, et elle est tombée deux fois",
+        body: "La cathédrale Saint-Pierre est la raison de venir, et son histoire est plus intéressante que sa fiche. Bâtie du XIIIe au XVIe siècle, elle n'a jamais été achevée : elle n'a pas de nef. Ce qui existe, le chœur et le transept, porte la plus haute voûte gothique du monde, à 48,5 mètres, et cette hauteur a été payée deux fois, puisque la structure s'est effondrée en 1284 puis en 1573. Avec des enfants, c'est le meilleur sujet qu'une cathédrale puisse offrir, parce qu'il ne demande aucune culture préalable : on est dans un bâtiment que ses constructeurs ont voulu trop grand, et qui le leur a fait savoir. La visite est couverte, ce qui compte dans une ville dont le seed donne 1 650 heures de soleil annuelles, le total le plus faible de ce lot (source : data/cities-seed.ts). La Galerie nationale de la Tapisserie complète le programme : la manufacture de Beauvais a été créée en 1664 par Colbert, et c'est l'une des trois manufactures royales encore en activité avec les Gobelins et la Savonnerie. Le MUDO, musée de l'Oise, la maladrerie Saint-Lazare et la place Jeanne-Hachette ferment le tour du centre, qui se fait à pied."
+      },
+      {
+        heading: "Six aires de jeux pour vingt-quatre espaces verts",
+        body: "Le relevé cartographique retient 24 espaces verts sur la commune, dont 6 seulement portent une aire de jeux (source : data/city-parks.json). C'est le ratio le plus déséquilibré des sept destinations de ce lot : Beauvais a presque autant d'espaces verts qu'Annemasse et Cambrai, qui en comptent 26, mais plus de deux fois moins d'entre eux sont équipés pour des enfants, quatorze dans les deux autres cas. Le parc Marcel-Dassault, le parc Kennedy et le parc de la Fosse-à-Baillevent portent une aire de jeux, l'espace naturel du Moulin de la Fos non. La lecture pratique est qu'il faut choisir sa base : à Beauvais, la promenade verte est abondante et le jeu d'extérieur l'est beaucoup moins, ce qui convient mieux à des enfants qui marchent qu'à des petits. L'axe nature de la commune est à 5,0/10 (source : data/cities-seed.ts), ce qui confirme. En contrepartie, la destination est l'une des mieux équipées de ce lot en visites couvertes, avec la cathédrale, la Galerie de la Tapisserie et le MUDO : sur un séjour de printemps ou d'automne dans l'Oise, où la pluie est un paramètre et non un risque, c'est l'arbitrage qui compte le plus."
+      },
+      {
+        heading: "Chantilly, Senlis et Gerberoy ne sont pas à Beauvais",
+        body: "Les trois excursions qui reviennent dans toute documentation sur Beauvais relèvent d'autres communes, et il vaut mieux le savoir avant de construire un programme. Le château de Chantilly est à une trentaine de kilomètres, Senlis un peu plus loin, et Gerberoy, classé parmi les plus beaux villages de France, à l'ouest. Chacune de ces sorties est une demi-journée au moins, et aucune ne se fait de façon évidente sans voiture : c'est le point à vérifier avant de réserver, parce qu'un parent seul ne peut pas se relayer sur un trajet et que deux correspondances de bus interurbain avec des enfants coûtent plus que le billet. Le programme robuste à Beauvais est donc celui de la ville elle-même, qui tient facilement deux jours, plus une sortie unique choisie et préparée. Senlis est par ailleurs une destination de cette série à part entière, et Compiègne l'est aussi : si le projet est de voir plusieurs villes de l'Oise, il est plus simple de faire deux bases successives en train que de rayonner depuis une seule, ce qui est l'inverse du réflexe habituel mais correspond à ce que permet réellement le réseau."
+      },
+      {
+        heading: "Sécurité 5,2/10, et une ville qui gagne des habitants",
+        body: "Beauvais affiche 5,2/10 sur l'axe sécurité (source : data/cities-seed.ts), vingt-neuvième des quarante-cinq destinations de la série à égalité avec une autre, pour une médiane de série à 5,7. C'est donc sous la médiane sur l'axe que ce profil pondère le plus lourd, sans approcher le plancher de la série que tiennent Montpellier à 3,7 et Lille à 3,9. Les rappels de lecture valent ici comme partout : l'indicateur est un agrégat communal estimé par notre modèle et non un relevé de faits constatés, il décrit une commune entière et jamais un quartier ni une heure, et il ne porte aucun jugement sur les habitants. Le chiffre démographique est favorable et c'est notable dans ce lot : 54 189 habitants en 2011, 55 906 en 2022, soit une hausse de 3,2 % en onze ans (source : data/city-population.json). Avec Annemasse, qui gagne 15,1 %, et Dreux, qui gagne 2,2 %, Beauvais fait partie des trois seules destinations de ce lot à croître, quand Saint-Quentin perd 5,8 %, Cambrai 3,7 % et Châtellerault 2,5 %. Pour un visiteur, la conséquence utile est que l'offre de commerces et de restauration d'une ville qui grandit ne se rétracte pas hors saison."
+      },
+      {
+        heading: "Quand y aller, et une station météo partagée avec Dreux",
+        body: "La station climatique de référence est celle de Paris-Montsouris, à 71 kilomètres (source : lib/climate-normals.ts), contre une médiane de série à 56 kilomètres. Comme pour Dreux, également dans ce lot et rattachée à la même station à 72 kilomètres, il faut dire la conséquence : les valeurs mensuelles affichées sur le site pour ces deux villes sont identiques, ce n'est pas une concordance mais une seule mesure lue deux fois, et une station urbaine parisienne est plus douce que la campagne de l'Oise. Les normales donnent 5,4 °C de moyenne en janvier avec 9,9 jours de pluie, et 20,9 °C en juillet avec 7,4 jours de pluie. Les ancres propres à la commune, qui sont plus fraîches et nettement moins ensoleillées, viennent du seed : 3 °C en janvier, 20 °C en juillet et 1 650 heures de soleil annuelles (source : data/cities-seed.ts), le minimum de ce lot de sept. Notre indicateur d'affluence donne 1 sur 5 pendant sept mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts). La fenêtre à viser est mai, à 15,6 °C, ou septembre à 17,2 °C. Deux jours suffisent pour la ville, trois avec une sortie."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Les bons vacances de la caisse d'allocations familiales de l'Oise se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : Beauvais est la seule de ce lot où l'arrivée peut se faire en avion à bas coût, et c'est un piège budgétaire autant qu'une opportunité. Le billet affiché n'inclut ni bagage en soute ni siège attribué, deux postes qui pèsent lourd quand on voyage avec des enfants et qu'on ne peut pas se répartir les sacs. Le comparer au train avant de réserver est la seule façon de savoir. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["beauvais", "senlis", "compiegne", "amiens"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-beauvais-2026",
+      "vacances-celibataire-beauvais-2026",
+      "vacances-monoparentales-compiegne-2026",
+      "vacances-monoparentales-dreux-2026"
+    ],
+    tags: ["vacances monoparentales Beauvais", "parent solo Oise", "cathédrale de Beauvais en famille", "vacances près de Paris en train", "aéroport Beauvais-Tillé"]
+  },
+  {
+    slug: "vacances-monoparentales-cambrai-2026",
+    title: "Vacances monoparentales à Cambrai en 2026",
+    metaTitle: "Vacances monoparentales à Cambrai 2026",
+    metaDesc:
+      "Cambrai porte le T3 le moins cher des quarante-cinq à 640 €, à égalité avec Châtellerault, et 14 aires de jeux. Mais sécurité 4,6/10 et pas de train direct.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Cambrai sort à 6,1/10 au composite « famille monoparentale », trente-deuxième des quarante-cinq destinations de la série à égalité avec quatre autres (source : lib/vacation-fit.ts). Le détail : sécurité 4,6/10, transports 7,0/10, coût de la vie 7,2/10 et qualité de vie 5,9/10 (source : data/cities-seed.ts). C'est la destination de ce lot où les deux axes les plus lourds du profil divergent le plus : l'axe coût la place troisième des quarante-cinq à égalité avec trois autres, l'axe sécurité trente-septième à égalité avec une autre. Le marché suit le premier : 640 € le T3 de référence, valeur la plus basse des quarante-cinq à égalité exacte avec Châtellerault, et 1 600 € le mètre carré, cinquième valeur la plus basse (source : data/housing.ts), contre une médiane de série à 940 € et 2 500 €. La commune compte 31 568 habitants au recensement 2022, contre 32 770 en 2011, soit une baisse de 3,7 % (source : data/city-population.json). Elle est aussi la seule des sept destinations de ce lot qu'on ne puisse pas rejoindre depuis Paris sans changer de train.",
+    sections: [
+      {
+        heading: "Pas de train direct depuis Paris, et ce que ça change",
+        body: "Vérification faite en ligne avant écriture : il n'existe pas de liaison directe entre Paris et Cambrai. Le trajet usuel passe par une correspondance à Douai, avec un TER Cambrai-Douai d'une trentaine de minutes à raison d'environ une circulation par heure, puis un train à grande vitesse entre Douai et Paris-Nord, pour un temps total de l'ordre de deux heures. C'est la seule destination de ce lot dans cette situation, et il faut en tirer la conséquence plutôt que la minimiser. Pour un adulte seul chargé de bagages et d'enfants, une correspondance n'est pas quinze minutes d'attente, c'est un changement de quai, une surveillance de deux valises et d'un ou deux enfants dans une gare inconnue, et un risque de rupture si le premier train a du retard. Le cadencement horaire du TER limite le dégât : manquer la correspondance coûte une heure, pas une demi-journée. Le score transports de 7,0/10 place la ville dix-neuvième des quarante-cinq, à égalité avec quinze autres (source : data/cities-seed.ts), soit la médiane de série : il décrit une desserte correcte à l'échelle régionale, et c'est bien la relation vers Paris qui est le point faible, pas la circulation locale."
+      },
+      {
+        heading: "Le loyer de référence le plus bas de la série, à égalité avec Châtellerault",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Cambrai sort à 7,2/10 (source : data/cities-seed.ts), troisième des quarante-cinq destinations de la série, à égalité exacte avec La Roche-sur-Yon, Châtellerault et Dreux, derrière Saint-Quentin à 8,3 et Vendôme à 7,6, pour une médiane de série à 6,2. Le marché va plus loin : 640 € le T3 de référence, la valeur la plus basse des quarante-cinq, à égalité exacte avec Châtellerault, et 1 600 € le mètre carré, cinquième valeur la plus basse derrière le palier à 1 500 € que partagent Saint-Étienne, Vendôme, Châtellerault et Saint-Quentin (source : data/housing.ts). Le moteur la classe en €€, deuxième palier le moins cher (source : lib/vacation-fit.ts). Une égalité n'est pas un classement : Cambrai et Châtellerault partagent la première place sur le loyer, aucune des deux ne précède l'autre, et les deux sont dans ce lot. Ce sont par ailleurs des repères de marché local et non des tarifs de vacances. Ce qui se transporte de l'un à l'autre, c'est le niveau général des prix d'une ville de 31 000 habitants sans pression touristique de masse, où rien n'est tarifé pour une haute saison qui n'existe pas."
+      },
+      {
+        heading: "Un beffroi UNESCO, et une cathédrale qui n'était pas la cathédrale",
+        body: "Cambrai garde une cité épiscopale complète et un patrimoine dont l'échelle dépasse la taille actuelle de la ville. Le beffroi, ancien clocher de l'église Saint-Martin bâti de 1447 à 1474, culmine à 62 mètres et est inscrit au patrimoine mondial de l'UNESCO depuis 2005, au titre des beffrois de Belgique et de France. Il faut savoir qu'un beffroi est une tour civique, marque de l'autonomie d'une ville, et non un clocher d'église : la distinction est exactement ce qui fait l'intérêt du monument. La cathédrale actuelle est l'ancienne abbatiale du Saint-Sépulcre, rebâtie de 1696 à 1702 sous l'épiscopat de Fénelon, et devenue cathédrale seulement en 1804 sous Louis Belmas. La vraie cathédrale gothique de Cambrai, surnommée la merveille des Pays-Bas et dotée d'une flèche de 110 mètres, a disparu : c'est une absence qu'il vaut mieux annoncer avant qu'une famille la cherche. Le mausolée de Fénelon, sculpté par David d'Angers en 1826, et l'icône Notre-Dame de Grâce, datée des environs de 1340, sont les deux pièces à voir à l'intérieur. La maison espagnole de 1595 abrite l'office de tourisme, et le musée occupe l'hôtel de Francqueville, de 1720."
+      },
+      {
+        heading: "Quatorze aires de jeux, et une bêtise qui sert d'appât",
+        body: "Le relevé cartographique retient 26 espaces verts sur la commune, dont 14 portent une aire de jeux (source : data/city-parks.json). C'est, à égalité avec Annemasse, le deuxième maillage de ce lot derrière Caen, et sur une commune de 31 000 habitants c'est un excellent ratio : le jardin public, le jardin des Grottes et le jardin Monstrelet en portent tous une, et le domaine du château de la Motte-Fénelon complète l'offre. C'est l'atout le plus concret de cette destination avec le prix, parce que quatorze aires de jeux dans une petite ville veulent dire qu'on en trouve une là où l'on se trouve, sans traverser. L'autre levier avec des enfants est la bêtise de Cambrai, bonbon apparu vers 1830 dont deux familles de confiseurs se sont disputé la paternité jusqu'à un procès conclu en 1889 : c'est une visite de boutique, gratuite à regarder, qui donne une histoire à raconter et une raison d'avancer jusqu'au bout d'une rue. À l'inverse, il faut dire ce qui n'est pas ici : le char Deborah, pièce majeure de la bataille de chars de novembre 1917, est à Flesquières, à une dizaine de kilomètres, et se rejoint comme une sortie à part entière."
+      },
+      {
+        heading: "Sécurité 4,6/10, et c'est la contrepartie du prix",
+        body: "Cambrai affiche 4,6/10 sur l'axe sécurité (source : data/cities-seed.ts), trente-septième des quarante-cinq destinations de la série à égalité avec une autre, pour une médiane de série à 5,7. C'est le chiffre le plus bas de ce lot de sept, et sur le profil monoparental c'est l'axe le plus lourdement pondéré : il est donc la contrepartie directe du loyer le plus bas de la série, et ce guide le pose plutôt que de le diluer. Trois précisions de lecture. Cet indicateur est un agrégat communal, il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés, et il ne porte aucun jugement sur les habitants. Et il reste au-dessus du plancher de la série, tenu par Montpellier à 3,7 et Lille à 3,9. Le chiffre démographique va dans le même sens : 32 770 habitants en 2011, 31 568 en 2022, soit une baisse de 3,7 % en onze ans (source : data/city-population.json), comme une grande partie du Cambrésis. Conséquence pratique : l'offre du soir et du dimanche se vérifie avant de compter dessus."
+      },
+      {
+        heading: "Quand y aller, et ce que notre station climatique ne dit pas",
+        body: "La station climatique de référence est celle de Lille-Lesquin, à 45 kilomètres (source : lib/climate-normals.ts), un rattachement plus court que la médiane de série, qui est à 56 kilomètres, et cohérent : même plaine, pas de relief entre les deux. Ses normales donnent 4,1 °C de moyenne en janvier et 18,9 °C en juillet. Il faut signaler une lacune plutôt que la combler : cette station ne publie pas de nombre de jours de pluie dans notre jeu de données, donc les valeurs mensuelles de précipitations affichées pour Cambrai sur le site viennent de notre modèle saisonnier et non d'un relevé (source : lib/vacation-seasons.ts). Les ancres propres à la commune viennent du seed : 3 °C en janvier, 19,5 °C en juillet et 1 700 heures de soleil annuelles (source : data/cities-seed.ts). Notre indicateur d'affluence donne 1 sur 5 pendant sept mois, 2 en juin et en septembre, 3 en juillet et en août (source : lib/vacation-seasons.ts) : c'est l'une des destinations les plus calmes de ce lot, ce qui pour cette série est un argument et non un défaut. La fenêtre à viser est mai, à 13,8 °C, ou septembre à 15,8 °C. Deux jours suffisent pour la cité épiscopale et les jardins, trois si l'on ajoute Flesquières."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Les bons vacances de la caisse d'allocations familiales du Nord se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : sur la ville qui partage le loyer le plus bas de la série, le poste dominant n'est pas l'hébergement mais le transport, et il l'est d'autant plus qu'il faut un TER et un train à grande vitesse pour venir de Paris. Les tarifs jeunes et famille de la SNCF et la vérification de la correspondance à Douai valent ici davantage que n'importe quelle aide au logement. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["cambrai", "valenciennes", "douai", "saint-quentin"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-cambrai-2026",
+      "parent-solo-a-cambrai-2026",
+      "vacances-monoparentales-saint-quentin-2026",
+      "vacances-monoparentales-chatellerault-2026"
+    ],
+    tags: ["vacances monoparentales Cambrai", "parent solo Nord", "vacances pas chères en famille", "beffroi UNESCO Cambrai", "bêtise de Cambrai"]
   },
 ];
 

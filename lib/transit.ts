@@ -136,6 +136,33 @@ const T: Record<string, Transit> = {
   // poser `tgv: true`, et ne pas déduire de leur `{}` qu'elles sont
   // inaccessibles en train : elles le sont très bien, en TER.
 
+  // ⚠️ Vérifiées en ligne le 2026-09-30 pour le batch 6 de la série
+  // monoparentale. Châtellerault est reliée à Paris-Montparnasse par TGV inOui
+  // en 1 h 36 à 1 h 44, avec de l'ordre de 5 liaisons directes par jour sur une
+  // huitaine de circulations. Annemasse porte le terminus français de la ligne
+  // de tramway 17, exploitée par les transports publics genevois : elle relie
+  // Annemasse-Parc Montessuit à Lancy-Pont-Rouge en une vingtaine à une
+  // trentaine de minutes, toutes les neuf minutes environ aux heures de pointe
+  // du lundi au vendredi, et elle est en service depuis le 15 décembre 2019.
+  // ⚠️ Son `tram` est donc un tram **genevois qui franchit la frontière**, et non
+  // un réseau municipal français : ne pas le retirer au motif qu'Annemasse n'a
+  // pas de réseau de tramway en propre.
+  // ⚠️ Vérifiées le même jour et volontairement NON ajoutées, faute de TGV :
+  // Saint-Quentin (Intercités et TER depuis Paris-Nord, ~1 h 18, 15 directs sur
+  // 19), Dreux (TER Normandie depuis Paris-Montparnasse, 58 min à 1 h), Cambrai
+  // (aucun direct depuis Paris : correspondance à Douai, TER d'une trentaine de
+  // minutes à raison d'une circulation par heure, puis TGV, ~2 h au total).
+  // Beauvais est déjà consignée comme vérifiée-absente au 2026-09-19, et Caen
+  // est dans la table plus haut avec son tramway et son BHNS. `tgv` n'est pas
+  // posé sur Annemasse : des liaisons directes existent sur l'axe
+  // Bellegarde-Annemasse-Thonon-Évian, mais leur nombre n'a pas pu être établi
+  // et la relation usuelle passe par une correspondance à Bellegarde. Même
+  // raison qu'au 2026-09-16 et qu'au 2026-09-19 : le type ne sait pas exprimer
+  // « vérifié absent », donc cette note est leur seule trace, et il ne faut pas
+  // déduire de leur `{}` qu'elles sont inaccessibles en train.
+  chatellerault: { tgv: true },
+  annemasse: { tram: true },
+
   // — Banlieue parisienne — RER & métro Paris —
   "boulogne-billancourt": { metro: true, rer: true, tram: true, velo: "moyen" },
   "issy-les-moulineaux": { metro: true, rer: true, tram: true, velo: "moyen" },

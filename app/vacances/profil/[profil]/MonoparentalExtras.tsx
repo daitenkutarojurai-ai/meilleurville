@@ -21,12 +21,82 @@ import {
 // (safety/transport/cost/life), vers lib/transit.ts (TGV/tram/métro) ou vers
 // lib/vacation-seasons.ts.
 
-const MONO_POOL_SIZE = 60;
+// ⚠️ Les trois premières sections lisent le **classement entier** et non une
+// fenêtre, et c'est une correction et non une inattention. Mesuré le
+// 2026-09-30 : avec la fenêtre de 60 qui vivait ici, **29 des 38 destinations
+// que la série `vacances-monoparentales-` publiait alors étaient invisibles**
+// sur cette page, Lyon (76ᵉ), Nantes (91ᵉ), Bordeaux (103ᵉ), Dijon (104ᵉ),
+// Besançon (106ᵉ), Grenoble (120ᵉ), Toulouse (139ᵉ), Lille (206ᵉ) et
+// Montpellier (254ᵉ) comprises, soit 76 % du corpus que la page est censée
+// éclairer. La section « train » en souffrait le plus : 56 villes satisfont
+// son critère sur le classement entier, la fenêtre n'en laissait que **5**,
+// pour un plafond d'affichage de 12. La cause est la pondération du profil,
+// qui met sécurité 0,30 et coût 0,25 : elle enterre précisément les villes
+// desservies par un train, parce que ce sont les grandes. Même défaut, même
+// remède et même avertissement que sur la page célibataire (26/09) : ne pas
+// « harmoniser » ces sections en leur remettant une fenêtre.
+const MONO_OFFPEAK_POOL = 30;
 
-function monoPool() {
+function monoAll() {
   return topCitiesForProfile("monoparental", CITIES_LIGHT, {
-    limit: MONO_POOL_SIZE,
+    limit: CITIES_LIGHT.length,
   });
+}
+
+// Île-de-France : écartée de la section « train » seulement, et pour une
+// raison propre à son critère. Ce test accepte le RER, qui est le réseau de
+// banlieue parisien : il promeut donc mécaniquement des communes de la
+// couronne dans une liste de destinations de vacances, jusqu'à Saint-Denis au
+// 448ᵉ rang du profil. 20 des 56 villes éligibles sont dans ce cas. C'est le
+// même motif que l'exclusion francilienne de la règle de sélection des
+// guides : une excursion depuis Paris n'est pas un séjour, et l'axe coût y
+// mesure un marché résidentiel. Les sections 2 et 3 ne l'appliquent pas :
+// leurs critères écartent déjà les communes-dortoirs, et Fontainebleau ou
+// Rambouillet sont de vraies destinations.
+const IDF_REGION = "Île-de-France";
+
+/**
+ * Groupe par valeur et ne coupe jamais un palier en son milieu (convention de
+ * `lib/owner-rankings.ts`) : un `slice` sur un score à une décimale fabrique la
+ * fin de sa liste. Le palier de tête entre toujours, même s'il dépasse à lui
+ * seul le plafond, sans quoi une section dont la tête est une grosse égalité
+ * n'afficherait rien. Rend aussi la valeur et l'effectif du premier palier
+ * écarté, pour que la page puisse le dire.
+ */
+function wholeTiers<T>(
+  rows: T[],
+  value: (r: T) => number,
+  name: (r: T) => string,
+  cap: number,
+): { kept: T[]; next: { value: number; count: number } | null } {
+  // Tri par valeur décroissante puis par nom : à l'intérieur d'un palier
+  // l'ordre alphabétique est un ordre **stable**, pas un départage.
+  const sorted = [...rows].sort(
+    (a, b) => value(b) - value(a) || name(a).localeCompare(name(b), "fr"),
+  );
+  const tiers: [number, T[]][] = [];
+  for (const r of sorted) {
+    const v = value(r);
+    const last = tiers[tiers.length - 1];
+    if (last && last[0] === v) last[1].push(r);
+    else tiers.push([v, [r]]);
+  }
+  const kept: T[] = [];
+  let next: { value: number; count: number } | null = null;
+  for (let i = 0; i < tiers.length; i++) {
+    const [v, list] = tiers[i];
+    if (kept.length > 0 && kept.length + list.length > cap) {
+      next = { value: v, count: list.length };
+      break;
+    }
+    kept.push(...list);
+    if (kept.length >= cap) {
+      const after = tiers[i + 1];
+      if (after) next = { value: after[0], count: after[1].length };
+      break;
+    }
+  }
+  return { kept, next };
 }
 
 // ─── Section 1 : accessibles en train sans voiture ────────────────────────
@@ -52,8 +122,13 @@ interface TrainDest {
 // de la section disent donc ce qu'elle montre vraiment ; corriger le fond
 // suppose d'étendre la table, ville par ville et vérification par vérification,
 // pas d'élargir le test.
-function trainAccessibleDestinations(): TrainDest[] {
-  return monoPool()
+function trainAccessibleDestinations(): {
+  kept: TrainDest[];
+  next: { value: number; count: number } | null;
+  eligible: number;
+} {
+  const all = monoAll()
+    .filter(({ city }) => city.region !== IDF_REGION)
     .map(({ city, fit }) => {
       const t = getTransit(city.slug);
       // On veut arriver en train (TGV/RER) ET pouvoir se déplacer sur place
@@ -68,9 +143,9 @@ function trainAccessibleDestinations(): TrainDest[] {
         transit: transitTags(t),
       };
     })
-    .filter((d): d is TrainDest => d !== null)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 12);
+    .filter((d): d is TrainDest => d !== null);
+  const { kept, next } = wholeTiers(all, (d) => d.score, (d) => d.city.name, 12);
+  return { kept, next, eligible: all.length };
 }
 
 // ─── Section 2 : où le budget d'un seul revenu tient ──────────────────────
@@ -82,8 +157,12 @@ interface BudgetDest {
   budgetTier: 1 | 2 | 3 | 4;
 }
 
-function budgetProofDestinations(): BudgetDest[] {
-  return monoPool()
+function budgetProofDestinations(): {
+  kept: BudgetDest[];
+  next: { value: number; count: number } | null;
+  eligible: number;
+} {
+  const all = monoAll()
     .map(({ city, fit }) => ({
       city,
       score: fit.score,
@@ -93,9 +172,12 @@ function budgetProofDestinations(): BudgetDest[] {
     // Une station très chère fait doubler la note dès qu'on n'est plus deux
     // à partager la chambre. On garde les villes où le coût est dans la
     // moitié haute du seed (≥ 6.5) et le budgetTier reste correct.
-    .filter((d) => d.cost >= 6.5 && d.budgetTier <= 2)
-    .sort((a, b) => b.cost - a.cost)
-    .slice(0, 10);
+    .filter((d) => d.cost >= 6.5 && d.budgetTier <= 2);
+  // ⚠️ Plafond à 18 et non 10 : le palier de tête de l'axe coût compte à lui
+  // seul 18 communes à 8,5/10, donc tout plafond plus bas le couperait en son
+  // milieu et publierait l'ordre d'insertion du seed comme un classement.
+  const { kept, next } = wholeTiers(all, (d) => d.cost, (d) => d.city.name, 18);
+  return { kept, next, eligible: all.length };
 }
 
 // ─── Section 3 : enfants à portée à pied ──────────────────────────────────
@@ -123,8 +205,12 @@ interface WalkableDest {
   matchedTags: string[];
 }
 
-function walkableFamilyDestinations(): WalkableDest[] {
-  return monoPool()
+function walkableFamilyDestinations(): {
+  kept: WalkableDest[];
+  next: { value: number; count: number } | null;
+  eligible: number;
+} {
+  const all = monoAll()
     .map(({ city, fit }) => {
       const tags = city.characterTags ?? [];
       const matched = tags.filter((t) => WALKABLE_TAGS.has(t));
@@ -149,9 +235,9 @@ function walkableFamilyDestinations(): WalkableDest[] {
       score: fit.score,
       safety: city.scores.safety,
       matchedTags: matched.slice(0, 3),
-    }))
-    .sort((a, b) => b.safety - a.safety || b.score - a.score)
-    .slice(0, 10);
+    }));
+  const { kept, next } = wholeTiers(all, (d) => d.safety, (d) => d.city.name, 10);
+  return { kept, next, eligible: all.length };
 }
 
 // ─── Section 4 : quand partir hors saison ────────────────────────────────
@@ -172,7 +258,7 @@ function offPeakPicks(): OffPeakPick[] {
   // (mi-saisons : chambres 30 à 50 % moins chères en règle générale,
   // moins de foule, températures encore correctes).
   const targetMonths: MonthIndex[] = [3, 4, 5, 9, 10];
-  const pool = monoPool().slice(0, 30);
+  const pool = monoAll().slice(0, MONO_OFFPEAK_POOL);
   const picks: OffPeakPick[] = [];
   for (const { city } of pool) {
     let best: { month: MonthIndex; sig: ReturnType<typeof monthSignal> } | null = null;
@@ -241,11 +327,27 @@ function Section({
   );
 }
 
+/** Phrase de portée : ce que la liste montre, et ce qu'elle a écarté. */
+function tierNote(
+  eligible: number,
+  shown: number,
+  next: { value: number; count: number } | null,
+  unit: string,
+): string {
+  const base = `${eligible} villes satisfont ce filtre sur les ${CITIES_LIGHT.length} du corpus ; les ${shown} affichées ici sont les mieux placées, paliers d'ex æquo pris entiers.`;
+  if (!next) return base;
+  const plural = next.count > 1 ? "villes suivaient" : "ville suivait";
+  return `${base} ${next.count} ${plural} à ${next.value.toFixed(1)}${unit}, et la liste s'arrête avant ce palier plutôt que de le couper en son milieu.`;
+}
+
 export function MonoparentalExtras() {
-  const trainDest = trainAccessibleDestinations();
-  const budgetDest = budgetProofDestinations();
-  const walkableDest = walkableFamilyDestinations();
+  const train = trainAccessibleDestinations();
+  const budget = budgetProofDestinations();
+  const walkable = walkableFamilyDestinations();
   const offPeak = offPeakPicks();
+  const trainDest = train.kept;
+  const budgetDest = budget.kept;
+  const walkableDest = walkable.kept;
 
   return (
     <>
@@ -270,7 +372,7 @@ export function MonoparentalExtras() {
       <Section
         emoji={<TrainFront className="h-6 w-6" />}
         title="Faisables en TGV ou en RER, sans louer de voiture sur place"
-        intro="On arrive en TGV ou en RER, on pose le sac, et on tient la semaine avec métro, tram ou bus. Ce filtre s'appuie sur notre table de desserte, qui est saisie à la main et ne couvre qu'une partie des villes : une ville absente de la table n'y apparaît pas, même bien desservie, et une ville reliée par un TER seulement en est exclue par construction."
+        intro={`On arrive en TGV ou en RER, on pose le sac, et on tient la semaine avec métro, tram ou bus. Ce filtre s'appuie sur notre table de desserte, qui est saisie à la main et ne couvre qu'une partie des villes : une ville absente de la table n'y apparaît pas, même bien desservie, et une ville reliée par un TER seulement en est exclue par construction. L'Île-de-France est écartée ici, parce que le test accepte le RER et ferait remonter des communes de la couronne parisienne dans une liste de destinations. ${tierNote(train.eligible, trainDest.length, train.next, " de fit")}`}
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {trainDest.map(({ city, score, transit }) => (
@@ -310,18 +412,15 @@ export function MonoparentalExtras() {
       <Section
         emoji={<Wallet className="h-6 w-6" />}
         title="Où le budget d'un seul revenu tient"
-        intro="Un adulte, une chambre : le supplément single peut faire mal. On garde les villes du top monoparental dont le score coût reste dans la moitié haute du seed et où l'écosystème (restos, courses, transports du quotidien) reste abordable."
+        intro={`Un adulte, une chambre : le supplément single peut faire mal. On garde les villes dont le score coût reste dans la moitié haute du seed et où l'écosystème (restos, courses, transports du quotidien) reste abordable. ${tierNote(budget.eligible, budgetDest.length, budget.next, "/10 de coût")} À l'intérieur d'un palier l'ordre est alphabétique : c'est un ordre stable et non un départage, et aucune de ces villes ne précède les autres.`}
       >
         <div className="space-y-2">
-          {budgetDest.map(({ city, cost, budgetTier, score }, i) => (
+          {budgetDest.map(({ city, cost, budgetTier, score }) => (
             <div
               key={city.slug}
               className="flex items-center justify-between gap-3 rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2.5"
             >
               <div className="flex items-center gap-3 min-w-0">
-                <span className="font-mono-data text-xs text-[var(--text-tertiary)] w-6 shrink-0">
-                  #{i + 1}
-                </span>
                 <Link
                   href={`/villes/${city.slug}`}
                   className="text-sm font-medium text-[var(--text-primary)] hover:text-[var(--accent)] truncate"
@@ -350,7 +449,7 @@ export function MonoparentalExtras() {
       <Section
         emoji={<Footprints className="h-6 w-6" />}
         title="Activités enfants regroupées, tout à pied"
-        intro="Petites-moyennes villes (15 à 130 000 hab.), centre historique traversable en 20 min à pied, sécurité au-dessus de la moyenne du seed, et un signal patrimoine/tourisme qui garantit qu'il y a des choses à faire sans reprendre la voiture — ni la poussette sur 4 km."
+        intro={`Petites-moyennes villes (15 à 130 000 hab.), centre historique traversable en 20 min à pied, sécurité au-dessus de la moyenne du seed, et un signal patrimoine/tourisme qui garantit qu'il y a des choses à faire sans reprendre la voiture, ni la poussette sur 4 km. ${tierNote(walkable.eligible, walkableDest.length, walkable.next, "/10 de sécurité")}`}
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {walkableDest.map(({ city, safety, matchedTags, score }) => (
@@ -387,7 +486,7 @@ export function MonoparentalExtras() {
       <Section
         emoji={<CalendarDays className="h-6 w-6" />}
         title="Fenêtres hors août — chambre à prix normal"
-        intro="Août double la note partout ; hors vacances scolaires, on peut aussi. Ici les créneaux mars-mai et sept-oct pour lesquels le climat reste correct (≥ 12 °C) et l'affluence reste basse (crowded ≤ 2 sur 5). Un seul adulte au volant du budget : autant partir la semaine où la chambre est deux fois moins chère."
+        intro={`Août double la note partout ; hors vacances scolaires, on peut aussi. Ici les créneaux mars-mai et sept-oct pour lesquels le climat reste correct (≥ 12 °C) et l'affluence reste basse (crowded ≤ 2 sur 5). Un seul adulte au volant du budget : autant partir la semaine où la chambre est deux fois moins chère. À la différence des trois sections ci-dessus, celle-ci se limite volontairement aux ${MONO_OFFPEAK_POOL} destinations les mieux notées du profil : elle répond à « quand partir » et non à « où », donc elle n'a pas de critère propre qui justifierait de balayer le corpus entier.`}
       >
         <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
           <table className="w-full text-sm min-w-[520px]">

@@ -9197,6 +9197,41 @@
       "slug": "10-choses-a-faire-a-noirmoutier-2026",
       "title": "10 choses à faire à Noirmoutier",
       "emoji": "🧂"
+    },
+    {
+      "slug": "vacances-monoparentales-chatellerault-2026",
+      "title": "Vacances monoparentales à Châtellerault en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-annemasse-2026",
+      "title": "Vacances monoparentales à Annemasse en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-caen-2026",
+      "title": "Vacances monoparentales à Caen en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-saint-quentin-2026",
+      "title": "Vacances monoparentales à Saint-Quentin en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-dreux-2026",
+      "title": "Vacances monoparentales à Dreux en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-beauvais-2026",
+      "title": "Vacances monoparentales à Beauvais en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-cambrai-2026",
+      "title": "Vacances monoparentales à Cambrai en 2026",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -9351,6 +9386,11 @@
       "count": 13
     },
     {
+      "slug": "vacances-pas-cheres-en-famille",
+      "label": "vacances pas chères en famille",
+      "count": 13
+    },
+    {
       "slug": "marseille",
       "label": "Marseille",
       "count": 12
@@ -9358,6 +9398,11 @@
     {
       "slug": "paris",
       "label": "Paris",
+      "count": 12
+    },
+    {
+      "slug": "vacances-sans-voiture",
+      "label": "vacances sans voiture",
       "count": 12
     },
     {
@@ -9378,11 +9423,6 @@
     {
       "slug": "nature",
       "label": "nature",
-      "count": 11
-    },
-    {
-      "slug": "vacances-sans-voiture",
-      "label": "vacances sans voiture",
       "count": 11
     },
     {
@@ -9523,11 +9563,6 @@
     {
       "slug": "tgv-paris",
       "label": "TGV Paris",
-      "count": 9
-    },
-    {
-      "slug": "vacances-pas-cheres-en-famille",
-      "label": "vacances pas chères en famille",
       "count": 9
     },
     {
