@@ -43674,6 +43674,376 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["le-mans", "paris", "nantes", "tours", "angers", "laval", "alencon", "sable-sur-sarthe"],
     tags: ["le mans", "leaving le mans", "pays de la loire", "affordable france", "relocation"],
   },
+  {
+    slug: "things-to-do-in-les-andelys-2026",
+    title: "Things to do in Les Andelys: Richard the Lionheart's castle above the Seine",
+    metaTitle: "Things to Do in Les Andelys: Château-Gaillard 2026",
+    metaDesc:
+      "The fortress Richard I threw up in two years to block the Seine, the six-month siege that lost Normandy in 1204, and Poussin's birthplace.",
+    category: "city-guide",
+    emoji: "⚔️",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "This is the one town on this site where the history is English before it is French. Les Andelys is a commune of under eight thousand people in the Eure, in the Seine valley between Paris and Rouen, and on the chalk spur above it stands the castle Richard the Lionheart built to keep the King of France out of Normandy. It had 7,822 residents at the 2022 census against 8,098 in 2016 and 8,192 in 2011, a fall of 4.5 per cent over eleven years, and it is losing people on both windows, 3.4 per cent of them since 2016, while Vernon up the river gains 4.8. A three-room flat runs to about 890 EUR a month and the reference square metre to about 1,900 EUR, roughly Louviers's level and well under Vernon's. So: a town that is emptying, holding one of the most famous ruins in Europe. Richard built it in two years to bar the Seine to Philip Augustus. Five years after he died, it fell anyway, and Normandy went with it.",
+    sections: [
+      {
+        heading: "Château-Gaillard, and what you are actually visiting",
+        body: "It stands on a chalk spur over a tight bend of the Seine, and it is a ruin — know that before you climb, because you are visiting walls, not furnished rooms. That takes nothing away, because what you read on the ground is precisely the defensive structure: nested baileys, a ditch cut into the rock, and a keep whose walls are built in a series of projecting spurs, an innovation meant to deflect missiles rather than take them square on. The climb from the Petit-Andely takes about twenty minutes on foot and there is a road approach from above. The view alone would justify the trip.",
+      },
+      {
+        heading: "Built in two years, by a king in a hurry",
+        body: "Richard opened the works in 1196 and the fortress was standing in 1198. Sources say one year or two for the bulk of it, and this guide does not settle what the chronicles never settled. What is solid is the order of magnitude of the effort: something like six thousand people on the site, in very hard conditions. The aim was plain. Richard was Duke of Normandy as well as King of England, and the castle was there to lock the Seine downstream of Paris and shield Rouen, and with Rouen the whole Anglo-Norman duchy, against the King of France. Building fast was the military point, and the price in labour and money was enormous. Richard is said to have looked at the finished work and called it his fair one-year-old daughter. He was also breaking a treaty by building it at all, which is part of why it went up so quickly.",
+      },
+      {
+        heading: "The siege of 1204, and the garrison that held for King John",
+        body: "Richard died in 1199. Five years later Philip Augustus came for the castle, and the man holding it was not French and not Richard: Roger de Lacy, Baron of Pontefract, commanding for King John. He held for roughly six months, through the winter, and the place fell on 6 March 1204. Then it went very fast indeed — the whole of Normandy was taken in three months. That is the sequence that makes Château-Gaillard a case study rather than just a handsome ruin: the fortress did its job for exactly as long as it stood, and the duchy did not outlive it by a season. For an English-speaking reader this is the ground where the Duchy of Normandy stops being Anglo-Norman, and where the phrase King John lost Normandy stops being an abstraction and becomes a hill you can walk up.",
+      },
+      {
+        heading: "How it fell, and what it cost the town",
+        body: "Two details of the siege are worth carrying up the hill, and neither is comfortable. The first is how the French got in: a party was sent up one of the castle's latrine shafts into the chapel above, and from inside they brought a drawbridge down. Nine centuries of military engineering, undone through the drains. The second belongs to the town rather than the castle. Something like fifteen hundred civilians from Les Andelys had taken refuge inside when the siege closed, and they were, in the language of siege warfare, useless mouths — people eating the garrison's supplies without adding to its defence. De Lacy expelled about a thousand of them and Philip let those through his lines. When a second group was sent out, the French turned them back, and they found the castle gates shut behind them. They spent the rest of the winter in the outer ditch, between the two armies, and roughly half of them died there of cold and hunger. Published figures vary and this guide gives the order of magnitude rather than a precision the chronicles do not support. The castle above the town was built to protect a duchy; the people of the town were the first thing spent to hold it.",
+      },
+      {
+        heading: "Two towns in one",
+        body: "Les Andelys is two settlements joined, and you can still tell them apart perfectly. The Grand-Andely is the older, set back inland around its collegiate church. The Petit-Andely grew up later on the bank of the Seine at the foot of the castle, and it is a direct product of the fortress: it was built to serve it. They are a little over a kilometre apart and the walk between them is the best possible summary of the local history — a church town and a garrison town that ended up as one commune.",
+      },
+      {
+        heading: "The collegiate church of Notre-Dame",
+        body: "A collegiate church, for anyone who has not met the word, is one staffed by a college of canons rather than by a bishop or a monastery: it explains why a small town can own something on this scale. This one is in the Grand-Andely and its dimensions are a cathedral's, which is startling in a commune of this size. The outside carries two periods, plainly legible: Flamboyant Gothic forms on the south, Renaissance columns, pilasters and friezes on the north. Inside, the organ is a Cavaillé-Coll, set in a Renaissance joinery gallery signed by Étienne Delaune and carved with virtues, liberal arts, sciences and mythological deities — a thoroughly secular programme for a church. You can go in freely during the day, though check the hours before making a journey for it.",
+      },
+      {
+        heading: "Nicolas Poussin, who was born here and worked elsewhere",
+        body: "The painter was born in June 1594 at the hamlet of Villers, within the commune, and he is the second famous name here after Richard I. Poussin left young, made his career in Rome and became the reference point of French classicism; he worked here essentially not at all. It has to be said in that order, because you do not come to Les Andelys to see Poussins the way you go to Giverny to see Monet's garden. You come to see where he was born, which is a different proposition. The Musée Nicolas Poussin occupies an eighteenth-century house in the Grand-Andely, and its collections mix eighteenth-century furniture, religious objects, stained glass, nineteenth- and twentieth-century painting and a third-century Gallo-Roman mosaic, plus one Poussin of its own, a Coriolanus. It is a mid-size town's museum and you should arrive with the expectations that go with that, which is also what makes it interesting, because what you see is what a commune of eight thousand people managed to assemble around a name. Opening times to check before coming.",
+      },
+      {
+        heading: "The Seine bend, the cliffs, and getting here",
+        body: "The river makes a tight meander here between chalk cliffs, and the landscape is what decided where the castle went. You look at it from the heights above the fortress, and it is one of the best-known views in the Seine valley. Two warnings, one geological and one logistical. The slopes are live chalk cliffs and they come away in slabs, as they do along the whole Normandy chalk: stay on the marked paths and back from the edge — that is the consequence of the rock, not a note of caution. And there is no station at Les Andelys. The nearest rail is Gaillon-Aubevoye or Vernon, and you need a bus or a car after that; this is the main constraint of the trip and it is settled before you leave, not on arrival. From Vernon, eighteen kilometres up the river as the crow flies, you get the Vieux-Moulin on its medieval bridge piers and the Musée Blanche Hoschedé-Monet, renamed in 2024, with the old name still on some signs. Giverny is a few kilometres from Vernon and a commune in its own right: Monet's garden is not visited from Les Andelys, it is visited from Giverny, travel time included. Rouen is forty-one kilometres away as the crow flies and is a separate day. One day covers the castle, both towns, the church and the viewpoint; half a day more for the museum and the riverbank. The fortress is entirely open to the sky, so April to October, and the morning light on the chalk is what made the site's reputation.",
+      },
+    ],
+    relatedCities: ["les-andelys", "vernon", "rouen", "evreux"],
+    tags: ["things to do in les andelys", "les andelys", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-corte-2026",
+    title: "Things to do in Corte: the inland capital of independent Corsica",
+    metaTitle: "Things to Do in Corte, Corsica: Citadel and Gorges",
+    metaDesc:
+      "Corsica's mountain town: a citadel museum, the university Paoli founded in 1765, and two gorges you can walk into from the high street.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Corte, Corti in Corsican, is a town of under eight thousand people in the mountains at the centre of Corsica, and it is worth saying that in the first line, because the name collides with a good deal else in English: it is a common surname, a scattering of place names, and one letter off the Cortes, the Spanish parliament. This is none of those. It is the one Corsican town whose subject is neither the sea nor a beach holiday. It had 7,737 residents at the 2022 census against 7,389 in 2016 and 7,098 in 2011, a rise of 9.0 per cent over eleven years, which puts it second of the three Haute-Corse communes this site follows, behind Bastia on 10.6 and ahead of Calvi on 2.2. The interesting number is the other one: it is by a long way the cheapest of the three, with a reference square metre around 2,200 EUR against 3,200 at Bastia and 3,500 at Calvi, and a three-room flat around 870 EUR against 1,100 in both. That is what a town looks like when it grows without a coastline. Corte sits inland, at the junction of two valleys, and its subject is the political history of the island.",
+    sections: [
+      {
+        heading: "The citadel and the Eagle's Nest",
+        body: "It is planted on a rock spike above the confluence, and its oldest part, the keep they call the Nid d'Aigle, the Eagle's Nest, goes back to the fifteenth century. The fortified ring round it is eighteenth-century. You climb up through the upper town and the climb is part of the visit: the streets are steep and cobbled and the view changes every twenty metres. This is the only citadel in Corsica built inland (every other one is a coastal strongpoint), and that anomaly tells you exactly what it was for, which was holding the middle of the island rather than watching the sea.",
+      },
+      {
+        heading: "The Musée de la Corse",
+        body: "It is inside the citadel and it opened on 21 June 1997, to a design by the architect Andrea Bruno, who inserted the building into the fortress instead of setting it down alongside. The core of the collection is the ethnographic material assembled by Father Louis Doazan, one of the pioneers of Corsican ethnography, some three thousand objects of traditional Corsica, since enlarged with paintings, graphic art, early photography, a heritage library and sound archives. The route runs through two permanent spaces, the Doazan gallery and a section built around work in progress, plus temporary exhibitions. This is the reference museum on island society and it does not get done in twenty minutes.",
+      },
+      {
+        heading: "The capital of a state that actually existed",
+        body: "Pasquale Paoli made Corte the capital of independent Corsica in the eighteenth century, and that is not brochure language: there was a government, a constitution, a currency and an administration. Paoli was elected general of the Corsican nation on 13 July 1755 and independence was declared. The episode is short and ends in French conquest at Ponte Nuovo in 1769, but it left this town a standing no other place in Corsica has. If you want to understand why the island has the relationship it has with its own political history, this is where you come, and it is what gives the museum above its point.",
+      },
+      {
+        heading: "Why Paoli is buried in Westminster Abbey — and why he is not",
+        body: "This is the part of Corte's story that belongs to English readers, and nothing in the town says it. After Ponte Nuovo, Paoli went into exile in England and stayed for most of the rest of his life. He was already famous there: James Boswell, Samuel Johnson's biographer, had come to Corsica in 1765, met Paoli, and published An Account of Corsica in February 1768, a book that ran to three editions inside a year, was widely translated, and made the Corsican cause fashionable in Britain and read with interest in America. Boswell's line on meeting him has lasted: he had come from seeing the ruins of one brave and free people, and now saw the rise of another. Paoli died in London on 5 February 1807 and was buried in Old St Pancras churchyard. A white marble monument went up in the south choir aisle of Westminster Abbey that same year, incorporating a bust by John Flaxman made some years earlier, and it is still there. But the man is not: in 1889 his remains were taken back to Corsica in a British frigate and reburied in the family chapel at Morosaglia, his native village and a separate commune an hour or so north of here. So there is a memorial to the founder of Corsican independence in the coronation church of the English kings, and an empty grave in London — and the body came home.",
+      },
+      {
+        heading: "The university, closed for two centuries",
+        body: "Paoli founded the University of Corsica at Corte in 1765. It shut when independence ended and stayed shut for more than two hundred years, until it reopened in 1981. It is now the island's only university, and it makes this commune of under eight thousand people a student town, which you see immediately in the streets, in the cafés and in the demography. It also explains part of the growth measured above: Corte is getting bigger because people study here, not because they summer here.",
+      },
+      {
+        heading: "The upper town",
+        body: "Between the bottom of the town and the citadel, the lanes climb in stairs between tall narrow houses of schist, and this is the best place to lose an hour with no plan. The belvedere laid out at the foot of the citadel looks one way down the Restonica valley and the other down the Tavignano, and the logic of the site lands in a single glance: the town sits on the spur that separates two gorges. No map conveys that as well as five minutes standing there.",
+      },
+      {
+        heading: "The Restonica gorges, and the access rule",
+        body: "They run up to the south-west from the town by the D623, a narrow winding road that climbs to the Grotelle shepherds' huts. The site has been listed since 1966 and falls under the Corsica regional nature park. The water is very cold all year and the pools, much photographed, are deep and slippery. The important part: motorised access to the upper valley is regulated in season, and the arrangements change from one year to the next. Ask the tourist office or the commune before setting out — do not trust a route planner, which will cheerfully send you up a road that is shut or capped for the day.",
+      },
+      {
+        heading: "The lakes, the Tavignano, and getting here",
+        body: "Melo and Capitello are two glacial lakes at the head of the Restonica and the most walked route in Corsica. Melo is at 1,711 metres, Capitello at 1,930, and you start from the Grotelle huts at the end of the road. You reach Melo first; the climb on to Capitello passes to the right of the lower lake over steep rocky ground. Above it the Capitello breach, at 2,080 metres, is on the GR20, the long-distance path that crosses the island. This is real mountain: proper boots, an early start, and an afternoon thunderstorm is the summer rule rather than the exception. The Tavignano is the other gorge and it has one decisive advantage over the Restonica — no road goes up it. You walk in from the upper town on a mule path that leaves from under the citadel and runs along the slope above the torrent. The result is that there are ten times fewer people for a landscape of the same family, and you can turn round whenever you like because you started from the centre. If you have half a day and no car, that is the one to take. Corte is on the Corsican railway between Bastia and Ajaccio, about fifty kilometres from each as the crow flies; the metre-gauge line crosses the middle of the island on viaducts and through tunnels, and this is one of the few places where the train beats the road on landscape and not just on comfort. It also makes Corte a credible car-free base for the interior, which is rare in Corsica. Timetables to check before booking, and the nearest airports are Bastia's and Ajaccio's. Two days is the right format: one for the citadel, the museum and the upper town, one for a valley. Three if you want the lakes without rushing. May to October, with a reservation about July and August, when the Restonica is saturated and access most restricted. Spring gives you the torrents full and snow still on the tops behind, and is probably the best moment.",
+      },
+    ],
+    relatedCities: ["corte", "bastia", "ajaccio", "calvi"],
+    tags: ["things to do in corte", "corte", "travel", "city guide", "corsica"],
+  },
+  {
+    slug: "things-to-do-in-sedan-2026",
+    title: "Things to do in Sedan: the largest castle in Europe, and two French defeats at one crossing",
+    metaTitle: "Things to Do in Sedan: Europe's Largest Castle 2026",
+    metaDesc:
+      "A fortress of 35,000 square metres, a sovereign Protestant principality until 1642, and the same stretch of the Meuse lost twice, in 1870 and 1940.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Sedan is a town of sixteen thousand people on the Meuse in the Ardennes, ten kilometres from the Belgian border, and it holds the largest castle in Europe. It had 16,727 residents at the 2022 census against 16,846 in 2016 and 18,512 in 2011, a fall of 9.6 per cent over eleven years — the steepest of the three Ardennes communes this site follows, ahead of Charleville-Mézières on 7.7 and Rethel on 3.7. But the detail matters more than the total: over the 2016 to 2022 window alone Sedan loses only 0.7 per cent, where Charleville loses 2.2 and Rethel 3.0. The collapse is old, it has stopped, and this is now the commune in the department that is steadying best. A three-room flat runs to about 720 EUR and the reference square metre to about 1,100 EUR, which is among the cheapest in this guide series. The town holds in one sentence: it was a sovereign state before it was French, it kept the biggest fortress in Europe from that period, and it watched France lose twice at the same river crossing, seventy years apart.",
+    sections: [
+      {
+        heading: "The castle, and its 35,000 square metres",
+        body: "It is the largest fortified castle in Europe, and the figure that says so is its area: 35,000 square metres inside the walls, enough to hold up to four thousand men. The walls run from seven metres thick at the thinnest to nearly twenty-seven at the thickest, which is not a builder's whim but the mechanical answer to the artillery that appeared while the works were going on. You enter by ramps, climb by towers, and the route takes in halls stacked over seven levels. Allow two hours minimum: the volume is such that a rushed visit gives you no idea of the place at all.",
+      },
+      {
+        heading: "Why it is so big",
+        body: "The fortress was founded in 1424 by the La Marck family and the works went on for about a century and a half. That is the key to its size: a castle you keep enlarging for a hundred and fifty years, wrapping each new stage round the last, ends up containing several castles nested inside one another. You can see the effect in section in the lower halls, where fifteenth-century walls turn up in the middle of the structure instead of at its edge. This is not a palace that grew large for prestige. It is a war station that grew large by accumulation.",
+      },
+      {
+        heading: "A sovereign principality, not a provincial town",
+        body: "Here is what visitors forget on arrival, and it explains all the rest: Sedan was not French before 1642. It was an independent Protestant principality between France and the Empire, with its own coinage and its own academy, and it was that sovereignty which paid for the fortress. The annexation to France in 1642 was a political confiscation, not a marriage: the Duke of Bouillon, sovereign prince of Sedan, had been mixed up in the conspiracies against Cardinal Richelieu. Looking at the castle knowing it defended a state rather than a border changes what you are looking at. It also made the town a refuge for Protestants: the academy drew students from across Protestant Europe — until Louis XIV closed that door.",
+      },
+      {
+        heading: "Turenne was born here",
+        body: "Henri de La Tour d'Auvergne, Vicomte de Turenne, was born in the castle at Sedan on 11 September 1611, second son of the Duke of Bouillon. He was raised a Calvinist, and he learned war in the Netherlands with his maternal uncles Maurice and Frederick Henry of Nassau, Princes of Orange, which is to say in the Dutch service, alongside the army English readers meet in the same decades. He became one of the great commanders in French history, Marshal of France in 1643, in the service of the king who had annexed his birthplace the year before. The paradox is worth carrying across the courtyard: the best general Louis XIV had was born the subject of another prince. Marlborough's generation studied his campaigns, and Napoleon put him among the handful of commanders worth reading.",
+      },
+      {
+        heading: "No, the sedan chair is probably not named after this town",
+        body: "An English reader who knows the word — the chair carried on poles, and in American usage the car body — will assume it comes from here, and the guidebooks used to say so. It is a conjecture, not an etymology. Samuel Johnson proposed the derivation from the town, where the chairs were supposedly made or first used, and the Oxford English Dictionary frowns on it: there is no historical evidence for the connection. The competing theory takes the word from a southern Italian form of Italian sede, a seat, from Latin sedes and sedere, to sit (the chairs themselves seem to have come from Naples) but there is no trustworthy evidence of the Italian dialect form either. In other words the origin is genuinely unknown, and the town connection is the weaker of two unproven guesses. Nothing in Sedan will tell you this, which is the reason to put it here.",
+      },
+      {
+        heading: "The Dijonval and the black cloth of Sedan",
+        body: "After the annexation, the governor Fabert granted three Paris merchants the privilege in 1646 of making fine black cloth in the Dutch manner, and the Dijonval became the only royal fine-cloth manufactory in the kingdom. The building you see today is from the following century: main block of 1755, return wings of 1778, laid out to a palace-factory design. Sedan cloth dressed the court and the army for two hundred years, mechanisation and the steam engine arrived in the nineteenth century, and the industry died in the twentieth. This is the other half of the local story, and it is the half that explains the demography in the intro.",
+      },
+      {
+        heading: "1 September 1870: where the Second Empire ended",
+        body: "The Army of Châlons, with Napoleon III present, let itself be shut into the basin of Sedan by the German armies. The battle was fought on 1 September, the capitulation signed the next day at the château de Bellevue on the heights, and some eighty-three thousand men were taken prisoner, the emperor among them. Two days later, in Paris, the Republic was proclaimed. Sedan is not one battle among others: it is the name under which the Second Empire collapsed, and for a century afterwards the word stood in French political language for a rout. For English-speaking readers this is the hinge of the Franco-Prussian War, the event that produced the German Empire five months later and set the terms of everything from 1871 to 1914.",
+      },
+      {
+        heading: "Bazeilles, and May 1940 at the same crossing",
+        body: "The most-told fight of that day did not happen at Sedan but at Bazeilles, the next commune along, and that is where you go to see it. Marine infantry dug into an inn, the auberge Bourgerie, and held for hours by rationing their cartridges; the last round was fired by Captain Arsène Lambert, and the survivors were spared by a Bavarian officer. The house is now a museum, the Maison de la dernière cartouche, the House of the Last Cartridge, and the scene was fixed by Alphonse de Neuville's painting, which gave it the name. It needs a vehicle, or local bus enquiries. Then come back and look at the river, because seventy years later the same ground decided a bigger campaign. On 10 May 1940 the Wehrmacht crossed Luxembourg and Belgium and pushed its armour into the Ardennes massif, which the French staff held to be barely passable. Late in the afternoon of 13 May German infantry crossed the Meuse at Sedan in rubber boats; Guderian had hidden his boats and bridging troops in the alleys of the textile works, out of reach of the French guns. The breakthrough opened the road to the Channel and settled the Battle of France in a matter of days. Sedan is therefore the same ford, the same valley and the same surprise twice over, seventy years apart, and that is what makes the town's geography readable on the ground.",
+      },
+      {
+        heading: "The Meuse, Charleville, and getting here",
+        body: "The Meuse runs through the town and is walkable or cyclable along the towpaths, upstream or down, with no gradient. Going down the valley you reach Charleville-Mézières, eighteen kilometres away as the crow flies, with its seventeenth-century Place Ducale and the house where Rimbaud grew up: it is a commune in its own right and a half-day out, not an extension of Sedan. Further north the valley narrows into the Ardennes forest in deep-set meanders, and that is where the landscape becomes genuinely distinctive. Sedan has a station on the Charleville-Mézières to Longwy line, with regional services and a connection towards Paris via Charleville; the frequency is a middling station's and should be checked before a day is built on it. The Belgian border is a Schengen internal crossing — no formality, but carry identification. The castle is a quarter of an hour from the centre on foot. A full day covers the fortress, the Dijonval and a loop through the town. Two if you add Bazeilles and the river. April to October: the castle is largely open to the sky, and the Ardennes are one of the wettest corners of France.",
+      },
+    ],
+    relatedCities: ["sedan", "charleville-mezieres", "reims", "verdun"],
+    tags: ["things to do in sedan", "sedan", "travel", "city guide", "grand-est"],
+  },
+  {
+    slug: "things-to-do-in-firminy-2026",
+    title: "Things to do in Firminy: the largest Le Corbusier site in Europe",
+    metaTitle: "Things to Do in Firminy: Le Corbusier Site 2026",
+    metaDesc:
+      "Four Le Corbusier buildings in one district, a church finished forty years after he died, and only one of them on the UNESCO list. Here is which.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Firminy is a steel town of seventeen thousand people at the bottom of a valley in the Loire department, ten kilometres from Saint-Étienne and an hour from Lyon, and you come for one reason, which is a considerable one: it holds the largest built ensemble by Le Corbusier in Europe, and the second largest anywhere after Chandigarh. It had 17,128 residents at the 2022 census against 16,994 in 2016 and 16,993 in 2011, a rise of 0.8 per cent over eleven years — third of the five Loire communes this site follows, behind Montbrison on 5.1 and Saint-Étienne on 1.5, ahead of Saint-Chamond and Roanne. A stable industrial town, which in this basin is not nothing. And it is by a long way the cheapest of the five: a three-room flat around 630 EUR and a reference square metre around 1,200 EUR, against 1,500 everywhere else in the department. If you have any interest in twentieth-century architecture, the rent-to-architecture ratio here is the best in France.",
+    sections: [
+      {
+        heading: "The Site Le Corbusier",
+        body: "Four buildings, in one district, all designed by Le Corbusier: the Maison de la Culture, the stadium, the unité d'habitation and the church of Saint-Pierre. You walk round them in half a day, and that is where the interest lies. Everywhere else, a Le Corbusier work is an isolated object in a city that owes it nothing. Here it is a piece of city, with a school, a sports ground, housing and a cultural facility, which is exactly what the architect spent his life arguing for and almost never got to build. Chandigarh is the other place he managed it, and Chandigarh is a state capital in India. This is a French steel town of seventeen thousand people.",
+      },
+      {
+        heading: "What is on the UNESCO list, and what is not",
+        body: "This has to be said plainly because the confusion is general, and it is worse in English, where Le Corbusier UNESCO site circulates as though it covered everything he touched. Of the four buildings here, one is on the World Heritage list. The Architectural Work of Le Corbusier was inscribed on 17 July 2016, at the committee's session in Istanbul, as a transnational serial property of seventeen sites spread over seven countries — from a house in La Plata, Argentina, to a museum in Tokyo. The Firminy component is the Maison de la Culture. It is not the church of Saint-Pierre, and it is not the unité d'habitation. The reason is a rule rather than an accident: the Maison de la Culture is the only building in Firminy completed in the architect's lifetime. He inaugurated the finished shell in May 1965, a few months before his death. The other three are posthumous in whole or in part and therefore fall outside the boundary. That does not make them less interesting. It means the label does not cover what people assume it covers, and if you came for the list you should know which building you are standing in front of.",
+      },
+      {
+        heading: "The Maison de la Culture",
+        body: "Built from 1961 to 1965 at the request of the mayor, it is a long rectangular building of a hundred and twelve metres, and its feat is the roof: a curved concrete slab suspended from cables strung between the frames of the two façades, with no internal support whatsoever. The consequence is immediate when you go in — the space is completely clear, and the curve of the ceiling drops and then rises again over your head. It has been a listed monument since 1984. This is the building to see first if you only see one, and it is the one the UNESCO inscription actually covers.",
+      },
+      {
+        heading: "The church of Saint-Pierre, finished in 2006",
+        body: "It was designed in 1960, the works stopped, and it was not completed until 2006, under José Oubrerie, who had worked with Le Corbusier. So this building was finished more than forty years after its author died, which raises a question the visit does not resolve: how far does a work remain the work of the man who drew it? The form is a truncated cone of concrete on a square base, pierced with small openings that throw a constellation of light across the inner wall. It is the most spectacular building on the site and the most argued-over, and it is the reason the UNESCO distinction above is worth getting right rather than glossing.",
+      },
+      {
+        heading: "The unité d'habitation, which is someone's home",
+        body: "This is the fifth unité d'habitation built anywhere, begun in 1965, and it applies the programme Le Corbusier worked out at Marseille: a vertical garden city, through-going duplex flats, internal streets, collective facilities inside the block and on the roof. The important point for a visitor, and it is not a nicety: this is an inhabited building, with people in it coming home from work. You look at it from outside and from the parts that are open, not by ringing doorbells, and flat visits go through the organised arrangements. Treat it the way you would treat a housing block in your own town, because that is what it is.",
+      },
+      {
+        heading: "The stadium, cut into a quarry",
+        body: "Built from 1965 to 1966, this is the element people skip and should not: it is dug into a former quarry, and the terraces bear on the rock face. The gesture is characteristic of the way Le Corbusier worked with the ground rather than against it, and seeing it makes clear that the site is not a collection of buildings dropped on a plan but a response to a piece of relief. It is a working sports facility, which limits access depending on the day.",
+      },
+      {
+        heading: "Firminy-Vert, a lived-in district",
+        body: "Around the four buildings, a whole district was built in the 1950s and 1960s on modernist planning principles, by architects other than Le Corbusier: slabs and towers in greenery, separated circulation, local facilities. It is a lived-in district, not an open-air museum, and you walk through it from the street with the respect you owe people at home. It is also Firminy's main argument: you see here what post-war planning actually produced, at a moment when that question has become live again. English-speaking visitors who know post-war housing only through its demolition footage will find the comparison instructive, in both directions.",
+      },
+      {
+        heading: "The mayor who brought Le Corbusier here",
+        body: "Eugène Claudius-Petit, mayor of Firminy, is the origin of the commission, and this is the fact that explains how a working-class town of seventeen thousand people came to hold an ensemble of this importance. A former Minister of Reconstruction and Urbanism, he had the convictions and the address book to bring the most argued-over architect of his day into a steel valley. Without him, none of the above exists. It is a useful reminder that twentieth-century heritage is very often an identifiable local political decision, which is rarely the case with older buildings.",
+      },
+      {
+        heading: "The Ondaine valley, the Pilat, and getting here",
+        body: "Firminy sits at the bottom of an industrial valley, the Ondaine, which lived on steel and coal, and the landscape says so without needing a museum. To the south the Pilat massif begins almost immediately, with ridges, forest and long-distance paths: it is a regional nature park, it belongs to neighbouring communes, and it is reached by car for a half day or a day. Saint-Étienne is ten kilometres away as the crow flies and is treated as a separate city, with its museum of modern and contemporary art — which, for anyone following the thread, holds one of the significant French collections of the period the buildings here belong to. Firminy is connected to Saint-Étienne by train and by the Ondaine valley tram-train, which makes it an easy excursion from Saint-Étienne, itself an hour from Lyon. The Site Le Corbusier is within walking distance of the station. Half a day covers the four buildings if you only look at them, a day if you go inside what can be gone inside. Interior access depends on exhibitions, services and activities under way: check before coming, and that is the only real constraint of the place. Concrete photographs better under a clear sky, but it does not rain here more than anywhere else in the region.",
+      },
+    ],
+    relatedCities: ["firminy", "saint-etienne", "roanne", "lyon"],
+    tags: ["things to do in firminy", "firminy", "travel", "city guide", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "things-to-do-in-paray-le-monial-2026",
+    title: "Things to do in Paray-le-Monial: the Romanesque church that outlived Cluny",
+    metaTitle: "Things to Do in Paray-le-Monial: Basilica 2026",
+    metaDesc:
+      "A basilica built alongside Cluny III and still standing when Cluny was not, the visions of 1673, and a national treasure part-stolen in 2024.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Paray-le-Monial is a town of nine thousand people in southern Burgundy, in the Saône-et-Loire, and it owes everything to two facts six centuries apart: a Romanesque church built at the same time as the largest abbey in the Western world, and a nun who saw Christ in a chapel here in 1673. It had 9,256 residents at the 2022 census against 9,160 in 2016 and 9,094 in 2011, a rise of 1.8 per cent over eleven years. That is second of the four Saône-et-Loire communes this site follows, behind Mâcon on 3.1, and one of only two that are gaining people: Chalon-sur-Saône is down 0.6 per cent and Autun down 8.9. It is also the cheapest of the four, with a three-room flat around 720 EUR and a reference square metre around 1,300 EUR against 2,100 at Mâcon. If the name means nothing to you, the devotion that started here almost certainly does — the Sacred Heart, which is on church names, school names and hospital names across the English-speaking world.",
+    sections: [
+      {
+        heading: "The basilica of the Sacré-Cœur",
+        body: "It was built between 1090 and 1109, under the abbacy of St Hugh, which is to say exactly while Cluny III was going up. The proportions, the three-storey elevation, the chevet with its radiating chapels, the nested volumes of the bell tower: all of it is a reduced version of what was then being done at Cluny. It is one of the great Romanesque churches of Burgundy, and you visit it first from the outside, from the chevet and from the bank of the Bourbince, before going in.",
+      },
+      {
+        heading: "What Paray kept and Cluny lost",
+        body: "This is why the church matters more than its size suggests. Cluny III was the largest church in Christendom and it was sold off and demolished after the Revolution: a fragment remains. Paray, built at the same time and on the same architectural scheme, is therefore the more or less intact witness to what disappeared — a scale model of the lost original. You are not looking at the same thing depending on whether you know that or not, and it is what makes a commune of nine thousand people an obligatory stop for anyone interested in Romanesque architecture. Cluny itself is a separate day trip; what survives there is a transept arm and a museum, which is precisely the point.",
+      },
+      {
+        heading: "Margaret Mary Alacoque",
+        body: "Born in 1647, died in 1690, she entered the Visitation convent at Paray and there received, from 27 December 1673, a series of visions of Christ showing his heart. The major apparitions run from 1673 to 1675. The devotion to the Sacred Heart, one of the most widespread in Catholicism over the last three centuries, starts from that handful of years in this town. She was canonised in 1920, which is why the English-speaking world is full of institutions named after her.",
+      },
+      {
+        heading: "The Jesuit who took it to London, and went to prison for it",
+        body: "This is the part of the story that runs through English history, and it is not signposted here. Claude La Colombière, the Jesuit who became superior of the college at Paray in 1675, was the one man who took Margaret Mary's account seriously at a point when that kind of report mostly endangered the person making it. In 1676 he was sent to London as court preacher to Mary of Modena, Duchess of York and wife of the future James II, and he lived at St James's Palace, preaching at Mass in the chapel there every Sunday and feast day to a congregation of courtiers and foreigners. That is how the devotion first reached England. In November 1678, waiting to be recalled to France, he was arrested and imprisoned — denounced as a party to the Popish Plot, the conspiracy Titus Oates invented against the English throne. He was held about five weeks, and on release was expelled from the country. His health never recovered and he died at Paray in 1682. So the chapel in this small Burgundian town connects directly to St James's Palace and to one of the uglier episodes of Restoration England, and nothing on the site will tell you so.",
+      },
+      {
+        heading: "The chapel of the Visitation",
+        body: "This is the place of the apparitions themselves, in the Visitation monastery founded in 1626 at the request of the Jesuits. You can go in, and it is a modest space, on no comparable scale to the basilica: a reader arriving expecting a great building will be thrown, and the contrast is exactly the interest. The sanctuary remains a working place of worship and not a monument open continuously for visits, so access depends on services and times of prayer.",
+      },
+      {
+        heading: "Understand the pilgrimage before you come",
+        body: "Paray is a sanctuary town, and that changes a stay in practical terms. During sessions and the big gatherings the population of the commune multiplies, accommodation fills up a long way ahead, traffic gets difficult and some places cannot be visited as they can in ordinary times. This is neither an advantage nor a drawback in itself, but it is information to have before booking: consult the sanctuary's calendar, not only the tourist office's. If you are coming for the Romanesque architecture and not for the pilgrimage, look at both calendars and pick a week in between.",
+      },
+      {
+        heading: "The maison Jayet, which is the town hall",
+        body: "Built from 1525 to 1528 for Pierre Jayet, a rich wool serge merchant, this is a first-Renaissance façade, the Loire châteaux idiom, applied to older structures behind. It is covered in medallions, shells, small columns and music-making putti, and the abundance of the decoration is a message: it celebrates the memory of the man who paid for it. It has been a listed monument since 1875 and the town hall has been in it since 1862. You look at it from the street; there is nothing else to do. The family name is spelled Jayet on the tourist office's sources and Jaillet elsewhere; this guide keeps Jayet, the local spelling.",
+      },
+      {
+        heading: "The musée du Hiéron, and a warning",
+        body: "This is one of the rare French buildings conceived from the start as a museum, at the end of the nineteenth century, and it is now a listed monument and holds the Musée de France label. Its masterpiece is the Via Vitae by Joseph Chaumet, a Paris jeweller, finished in 1904: a hundred and thirty-eight chryselephantine statuettes, gold and ivory, unfolding the life of Christ. It was classified a national treasure in 2000 and acquired by the museum in 2005. But part of the work was stolen in an armed robbery on 21 November 2024, and the way it is presented has changed. If the Via Vitae is your reason for the journey, check with the museum before travelling. It is the same principle as the frigate that is not at Rochefort: a page that sends you somewhere to see a thing that is not there has failed at the only job it had.",
+      },
+      {
+        heading: "The Bourbince, the Charolais, and getting here",
+        body: "The river runs along the chevet of the basilica and gives it its best viewpoint, the one in all the photographs. The Canal du Centre passes nearby and can be followed along its towpath, on foot or by bike, with no gradient, towards Digoin to the west or Montceau to the east. It is the useful counterpoint to a day of churches: water, locks and barges, in a countryside nothing advertises and which is very quiet. Paray is also at the heart of the Charolais, the country of the cattle breed that carries its name — the white cattle you will see in the fields as soon as you leave town, and which anyone who has read a menu in Britain or America has met as a beef breed. The landscape is a bocage of low hills, very green, with scattered farms and a sowing of small Romanesque country churches belonging to the same family as the basilica on a much smaller scale. Charolles, the sub-prefecture, and the surrounding villages are separate communes reached by car: a half-day excursion, not a stroll from the centre. Paray-le-Monial has a station on the line linking the Loire valley to southern Burgundy, with regional services; the frequency is modest and should be checked before a stay is built on it. Mâcon is fifty-seven kilometres away as the crow flies, Autun the same. One day covers the basilica, the chapel, the Hiéron and the maison Jayet, all within walking distance of each other. Two if you add the canal and the Charolais. The basilica can be visited all year; the rest is pleasanter from April to October.",
+      },
+    ],
+    relatedCities: ["paray-le-monial", "autun", "macon", "chalon-sur-saone"],
+    tags: ["things to do in paray-le-monial", "paray-le-monial", "travel", "city guide", "burgundy"],
+  },
+  {
+    slug: "things-to-do-in-vitre-2026",
+    title: "Things to do in Vitré: a walled Breton town half an hour from Rennes",
+    metaTitle: "Things to Do in Vitré: Castle and Walled Town 2026",
+    metaDesc:
+      "A castle of about 1050 on the Breton march, five hundred metres of surviving rampart, timber-framed streets, and Madame de Sévigné's manor.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Vitré is a town of nineteen thousand people in eastern Brittany, thirty-five kilometres from Rennes as the crow flies and half an hour by train, and it is one of the best-preserved walled towns in France while being almost absurdly easy to reach without a car. It had 18,892 residents at the 2022 census against 17,884 in 2016 and 17,106 in 2011, a rise of 10.4 per cent over eleven years. That makes it first of the four Ille-et-Vilaine communes this site follows, ahead of Rennes on 9.5, Saint-Malo on 4.5 and Dinard on 1.7. A town of nineteen thousand growing faster than its own regional capital is not a common case, and the rent explains part of the movement: a three-room flat runs to about 800 EUR here against 1,100 EUR in Rennes. What the visitor comes for has nothing to do with that: a fortress of the Breton marches, and a medieval town that kept its plan, its walls and its timber houses.",
+    sections: [
+      {
+        heading: "The castle",
+        body: "It was built around 1050 on a rocky spur, then enlarged in the thirteenth century by André III, and its curtain wall traces a triangle following the shape of the rock. It has been a listed monument since 1872. The oddity, which throws people at first, is that it now houses both the town hall and the museum of art and history: you walk into a medieval fortress and pass municipal offices. The wall-walk and the towers can be gone round, and the view from the top gives you the plan of the town in a single glance.",
+      },
+      {
+        heading: "The Marches of Brittany",
+        body: "This is what explains why a fortress of this size stands here rather than somewhere else. The Marches were the frontier zone between the Duchy of Brittany and the Kingdom of France, bristling with strongholds held by powerful families and charged with defending the duchy's independence — Brittany was a separate state until the sixteenth century, a thing English readers often miss because the map has looked settled for so long. Vitré is one of those strongholds, with Fougères to the north and Châteaubriant to the south. Looking at the castle without that map in your head gives you a handsome monument; with it, you see a system, and you understand why the town around it was fortified with the same energy.",
+      },
+      {
+        heading: "The walled town and the ramparts",
+        body: "The thirteenth- to fifteenth-century circuit girdles the promontory the town and castle sit on, and about five hundred metres of it survive, which is considerable for a commune of this size. The thirteenth-century schist wall is well preserved, and you follow its line along outer streets that hug the curve. This is one of the few places in Brittany where you can still more or less walk round a walled town, and it takes a good hour at an unhurried pace.",
+      },
+      {
+        heading: "The timber-framed streets",
+        body: "Rue Baudrairie, rue Poterie, rue d'Embas: the old centre lines up timber-framed façades with porches, jettied out over the street, some of them fifteenth- and sixteenth-century. These are merchants' houses, and the town owed its prosperity then to the trade in hemp canvas, exported as far as Spain and the Americas, and these houses are what that trade bought. It is the best possible use of an unplanned hour in Vitré, and it is free.",
+      },
+      {
+        heading: "Notre-Dame",
+        body: "The church dominates the upper town and its south front, on the square, is a run of crocketed gables in Flamboyant Gothic, a very Breton form and fairly rare elsewhere. On that outer façade there is also a stone preaching pulpit, a device built for preaching in the open air, to congregations larger than the building could hold. Inside there are old stained-glass windows. As with any working parish church, check the opening hours before making a journey for it.",
+      },
+      {
+        heading: "The faubourg du Rachapt",
+        body: "Below the ramparts, along the Vilaine, this quarter of low houses is not spectacular and that is exactly why you should walk down into it: this is working Vitré, the tanners' and craftsmen's town, as against the walled town of the merchants and the castle. You see the rampart from outside and from below, which finally gives the work its scale, and the path along the river brings you gently back to the centre.",
+      },
+      {
+        heading: "Les Rochers-Sévigné",
+        body: "This is a fifteenth-century Gothic manor, in the Sévigné family since 1410, six kilometres from the centre but within the commune's territory: you need a vehicle or a bike, it is not a walk from the station. Madame de Sévigné made sixteen stays here and wrote two hundred and ninety-seven letters from it, mostly to her daughter, the Comtesse de Grignan. The octagonal chapel was built in 1671 for her uncle the Abbé de Coulanges. The formal garden was laid out at the end of the 1680s to a design by André Le Nôtre — the Versailles gardener — at her son Charles's request, and restored in 1982; consulted sources give 1689 or 1690 for its creation, and this guide does not settle it.",
+      },
+      {
+        heading: "Madame de Sévigné, and what a letter-writer is",
+        body: "Born in 1626, died in 1696, she is one of the great French prose writers, and her entire body of work is letters. That needs unpacking for a reader coming from English, where the equivalent canon does not really exist: she wrote no novels, no plays, no memoirs. She wrote to one person, chiefly her daughter, about her health, her neighbours, the weather in Brittany, court gossip and the price of things, with no thought of publication at all — and the result is read as literature. It became public by accident and then by family decision: a clandestine edition of a few letters appeared in 1725, and her granddaughter Pauline de Simiane then published some six hundred and fourteen of them between 1734 and 1737. Simiane was an intrusive editor who dropped letters she thought too domestic or badly written and rewrote others to the taste of her own day, so what has been read for three centuries is not quite what was posted — worth knowing before you stand in the room. Her letters are in Penguin Classics in English, and for readers who know Proust, they are the book the narrator's grandmother never puts down. At Les Rochers she writes, she is bored, she gives names to all the walks in the park, and she describes Brittany to a correspondent living in Provence. The place is therefore worth as much for what was written there as for what you can see, and it is the one entry in this guide where you should have read something before coming for the visit to mean anything.",
+      },
+      {
+        heading: "The pays de Vitré, and getting here",
+        body: "Around the town, the bocage of the Marches is scattered with châteaux, manors and country churches, and the relief is more marked than you expect in Ille-et-Vilaine. Further north, Fougères carries the other great fortress of the Breton frontier, with a curtain wall and towers down in a valley bottom: it is a commune in its own right, half an hour by road, and it is treated as a separate day rather than an extension of Vitré. As for arriving, Vitré is on the Paris to Rennes line and its station is five minutes' walk from the castle, which makes it one of the most accessible medieval towns in France without a car: Rennes is half an hour, Paris under two hours on direct services, to be checked before booking. For anyone coming from Britain, Saint-Malo is the ferry port on this coast and Rennes is the junction. One day covers the castle, the ramparts, the old centre and Notre-Dame. Another day for Les Rochers and the country round about. The climate is inland Brittany's, so wet and mild: April to October for comfort, but the walled town visits perfectly well in the rain, which is a more useful thing to know here than a best-season recommendation.",
+      },
+    ],
+    relatedCities: ["vitre", "rennes", "saint-malo", "vannes"],
+    tags: ["things to do in vitre", "vitre", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-noirmoutier-2026",
+    title: "Things to do in Noirmoutier: a road the sea covers twice a day",
+    metaTitle: "Things to Do in Noirmoutier: the Gois and Salt 2026",
+    metaDesc:
+      "A tidal causeway with nine rescue beacons, a Romanesque keep, salt marshes over a third of the island, and mimosa flowering in February.",
+    category: "city-guide",
+    emoji: "🧂",
+    readMinutes: 8,
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-09-30",
+    intro:
+      "Noirmoutier-en-l'Île is a commune of four and a half thousand people on an island off the Vendée coast, and the first thing to get straight is that the island has four communes and this guide is about one of them. It had 4,502 residents at the 2022 census against 4,675 in 2016 and 4,550 in 2011, a fall of 1.1 per cent over eleven years and 3.7 per cent over the recent window alone, the steepest drop of the five Vendée communes this site follows. Over the same period Challans gains 20.9 per cent and Les Sables-d'Olonne 17.5. And yet it is the most expensive of the five: a three-room flat around 1,100 EUR and a reference square metre around 3,500 EUR, level with Les Sables. That combination — high prices and a falling resident population — is the signature of a holiday commune where part of the housing stock is turning into second homes. The census counts residents, not beds, and that is the first thing to know before reading the rest.",
+    sections: [
+      {
+        heading: "The Passage du Gois, and where it actually is",
+        body: "It is a causeway 4.15 kilometres long that the sea covers twice a day and which is crossed at low water, roughly an hour and a half either side of low tide. Essential precision: the Gois does not start from Noirmoutier-en-l'Île. It links Beauvoir-sur-Mer, on the mainland, to Barbâtre at the southern tip of the island, some twenty kilometres from this town. The bridge, for its part, links Fromentine, in the commune of La Barre-de-Monts, to Barbâtre as well. The island has four communes, and neither the causeway nor the bridge is in the one this guide is about. If you book a room in the old town believing you are staying at the foot of the Gois, you have booked the wrong end of the island.",
+      },
+      {
+        heading: "The nine beacons, and why the tide table is not advice",
+        body: "Along the causeway, nine beacons numbered 1 to 9 stand about five hundred metres apart, and they are refuges: you climb them when the water catches you out. They exist because it happens, every year, and because the tide comes in here faster than a person walks. The rule is simple and it is binding, not indicative: consult the official tide time for the day, do not enter part-way through the window, enter at the start of it, and trust neither the absence of visible water nor the vehicle that just went across. The Gois is not a curiosity to attempt; it is a road with a timetable.",
+      },
+      {
+        heading: "What the Tour de France learned here",
+        body: "If the paragraph above sounds overcautious, the best argument against that reading comes from an organisation with unlimited planning resources. On stage 2 of the 1999 Tour de France the peloton crossed the Gois, and on a surface of sand, weed and standing water somebody touched the brakes: the chain-reaction crash put around twenty-five riders on the ground and split the field by some six minutes. Alex Zülle, who would finish second in Paris, was caught behind and never made the time up — a race decided on a causeway. Then, in 2018, the Tour came back and started stage 1 in Noirmoutier-en-l'Île itself, intending to leave the island over the Gois again. It did not: because the race had been shifted a week later to avoid clashing with the football World Cup, the tide times no longer fitted, and the causeway would have been under several feet of water on the day. The peloton left over the bridge instead. The Tour de France had to re-route itself around this tide. Your hire car does not get an exemption.",
+      },
+      {
+        heading: "The castle and its keep",
+        body: "It was built at the end of the twelfth century by the lord Pierre V de la Garnache, and its keep, some twenty metres tall, dominates the old town. It is one of the best-preserved Romanesque keeps in the west of France, which is worth underlining in a region where old stone is scarce. It houses the commune's museum and you can climb to the top, from which you see the whole length of the island, the marshes, the wood and the sea on both sides. Allow an hour, more if there is an exhibition.",
+      },
+      {
+        heading: "The church of Saint-Philbert and its crypt",
+        body: "The crypt, under the chancel, is built on the first burial place of St Philbert, who evangelised the region in the seventh century. His body lay here from 690 to 836, and was then moved to Déas, to Cunault and finally to Tournus: those successive transfers are the Viking raids, told from the other end — the monks fled inland carrying their saint with them, each move taking him further from an exposed coast. The crypt has been a listed monument since 1898. It is the oldest part of the island open to the public and it takes a few minutes to see, which takes nothing away from what it represents.",
+      },
+      {
+        heading: "The salt marshes",
+        body: "They occupy about a third of the island, across the communes of Noirmoutier and L'Épine, and they are not scenery: salt workers work them, and the salt and the fleur de sel are harvested by hand from clay pans in the warm season. You cross them by footpaths and by the cycle track, and the landscape is a geometry of shallow basins that change colour with the light and the salinity. The pans are a working tool on private property: you look from the paths, and you do not walk on the banks between them.",
+      },
+      {
+        heading: "The bois de la Chaise and the mimosa in February",
+        body: "Ninety-three hectares at the north-east of the commune, planted with mimosa, holm oak and maritime pine, on ground strewn with sandstone blocks whose piles form small caves. The vegetation is surprisingly Mediterranean for a Vendée latitude, which is down to the island's microclimate. This is where the nineteenth-century seaside villas are and the most sheltered beaches, and it is the pleasantest place on the island for an hour or two of level walking. The mimosa flowers in the depths of winter, and that is the strongest argument for coming out of season: in February the bois de la Chaise is yellow and scented while the rest of the country is grey. The island is more or less empty then, accommodation prices bear no relation to August's, and the winter light on the marshes is the best of the year. It is also a useful reminder that a holiday island has a low season often better than its high one, provided you accept that a lot of the shops will be shut.",
+      },
+      {
+        heading: "The bonnotte potato",
+        body: "This is an early potato, planted and then lifted by hand on the island's sandy plots and celebrated every spring. It has become a curiosity for the prices it fetches at auction, but the real point is elsewhere: it is a labour-intensive crop on sandy soil dressed with seaweed, which is to say a kind of coastal agriculture almost nothing else still embodies. The season is short and falls in spring; outside it you will find the island's other earlies, which are also excellent and very much cheaper.",
+      },
+      {
+        heading: "The island by bike, and getting here",
+        body: "This is the right way to get about here, by a wide margin: the island is flat, about twenty kilometres long, and threaded with a network of tracks linking the town, the marshes, the wood, the beaches and the other communes. A day on a bike lets you see more or less everything above without looking for a parking space, which in August is decisive. The west wind is the only relief on the island and you feel it on the way back: plan the route so as not to have it in your face at the end. You arrive by the bridge, open at all times, or by the Gois at the hours the sea allows. There is no station on the island; the nearest are on the mainland and you need a bus or a vehicle after that. Nantes is fifty-eight kilometres away as the crow flies, La Roche-sur-Yon seventy-three. Two days is the right format for the town, the castle, the marshes and the wood. The bathing season is short and very crowded; February for the mimosa and September for water that is still warm are two distinctly pleasanter windows than July and August. On the beaches, swim in the supervised zones — the flag signalling is regulatory and it is what counts, green, yellow and red, and an unsupervised beach is not a quiet beach but an unwatched one.",
+      },
+    ],
+    relatedCities: ["noirmoutier", "les-sables-d-olonne", "la-roche-sur-yon", "nantes"],
+    tags: ["things to do in noirmoutier", "noirmoutier", "travel", "city guide", "pays-de-la-loire"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

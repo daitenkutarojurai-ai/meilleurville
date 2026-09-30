@@ -8257,18 +8257,53 @@
       "slug": "leaving-le-mans-where-to-go-2026",
       "title": "Leaving Le Mans: Paris, Nantes or the Sarthe",
       "emoji": "🏎️"
+    },
+    {
+      "slug": "things-to-do-in-les-andelys-2026",
+      "title": "Things to do in Les Andelys: Richard the Lionheart's castle above the Seine",
+      "emoji": "⚔️"
+    },
+    {
+      "slug": "things-to-do-in-corte-2026",
+      "title": "Things to do in Corte: the inland capital of independent Corsica",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "things-to-do-in-sedan-2026",
+      "title": "Things to do in Sedan: the largest castle in Europe, and two French defeats at one crossing",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-firminy-2026",
+      "title": "Things to do in Firminy: the largest Le Corbusier site in Europe",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-paray-le-monial-2026",
+      "title": "Things to do in Paray-le-Monial: the Romanesque church that outlived Cluny",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-vitre-2026",
+      "title": "Things to do in Vitré: a walled Breton town half an hour from Rennes",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-noirmoutier-2026",
+      "title": "Things to do in Noirmoutier: a road the sea covers twice a day",
+      "emoji": "🧂"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 281
+      "count": 288
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 275
+      "count": 282
     },
     {
       "slug": "moving-to-france",
@@ -8291,19 +8326,19 @@
       "count": 67
     },
     {
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 64
+    },
+    {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
       "count": 64
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 63
-    },
-    {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 59
+      "count": 60
     },
     {
       "slug": "single-supplement",
@@ -8348,7 +8383,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 43
+      "count": 44
     },
     {
       "slug": "cost-of-living",
@@ -8363,7 +8398,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 36
+      "count": 37
     },
     {
       "slug": "working-in-france",
@@ -8383,7 +8418,7 @@
     {
       "slug": "normandy",
       "label": "normandy",
-      "count": 30
+      "count": 31
     },
     {
       "slug": "provence-alpes-cote-d-azur",
@@ -8456,6 +8491,11 @@
       "count": 15
     },
     {
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 14
+    },
+    {
       "slug": "loire-valley",
       "label": "loire valley",
       "count": 14
@@ -8463,11 +8503,6 @@
     {
       "slug": "alsace",
       "label": "alsace",
-      "count": 13
-    },
-    {
-      "slug": "burgundy",
-      "label": "burgundy",
       "count": 13
     },
     {
@@ -8576,6 +8611,11 @@
       "count": 7
     },
     {
+      "slug": "corsica",
+      "label": "corsica",
+      "count": 7
+    },
+    {
       "slug": "dijon",
       "label": "dijon",
       "count": 7
@@ -8613,11 +8653,6 @@
     {
       "slug": "champagne",
       "label": "champagne",
-      "count": 6
-    },
-    {
-      "slug": "corsica",
-      "label": "corsica",
       "count": 6
     },
     {

@@ -2400,6 +2400,123 @@ run) ; gisements nommés restants : **Saint-Herblain**, les **trois banlieues bo
 (Villenave-d'Ornon, Talence, Le Bouscat) et le reliquat du vivier du batch 50 — **Gérardmer,
 Sanary-sur-Mer, Lannion, Hendaye, Saint-Flour, Embrun**.
 
+**Batch 53 — EN, rattrapage de parité, shipped 2026-09-30.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 52 écrites d'un coup dans `data/guides-en.ts` (Sedan, Corte,
+Les Andelys, Paray-le-Monial, Vitré, Firminy, Noirmoutier). **Compteurs mesurés : FR 282, EN 282 —
+écart nul dans les deux sens, parité rétablie** (`EN_GUIDES` 1 003 → 1 010). Les 7 villes manquantes
+ont été **mesurées par diff des deux listes de slugs**, article contracté restauré avant comparaison,
+puis recoupées par le résolveur de la page. Un slug hors gabarit à arbitrer, et la règle du batch 33
+tranche : **`things-to-do-in-les-andelys-2026` garde son article** là où le FR contracte en
+`10-choses-a-faire-aux-andelys-2026`, et **`things-to-do-in-noirmoutier-2026` garde la forme courte
+du seed**, pas `noirmoutier-en-l-ile`. `metaTitle` 46-51 caractères, `metaDesc` 135-147, 8 à 9
+sections par guide (la série FR en compte 10, l'EN fusionne les fins de liste), 1 330-1 533 mots,
+**1 em-dash pour 252 à 362 mots** après une passe de réduction (Corte sortait à 1 pour 121, Sedan à
+1 pour 171). Contrôle de lookup / photo passé **sur les 540 villes et les 282 guides de la série,
+des deux côtés**, avec le résolveur recopié de la page (`getEnGuide(slug)` puis
+`citySlugElisions(slug)`, la leçon des batches 47 et 51) : **282/282 atteignables, 0 orphelin,
+0 collision**, les 7 portant leur ville en 1re position de `relatedCities` et pourvus de leur photo
+d'en-tête ; seul `things-to-do-in-vesoul-2026` reste sans photo, trou de pipeline du batch 49,
+symétrique en FR.
+⚠️ **Aucun tag neuf, et le compte du journal était périmé** : `search-index.en.json` reste à
+**117 tags**, pas 114 — le fichier au HEAD en portait déjà 117 avant ce run. **Un compte de tags se
+prend par diff des deux index, pas en recopiant la dernière valeur écrite ici.** `sitemap:check`
+donne EN 28 898 → **28 905 URL**, soit exactement les 7 guides neufs (FR inchangé à 29 301).
+⚠️ **Dix-sept figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — ne pas les
+« corriger ».** 185 figures, 168 retrouvées ; les 17 restantes sont vérifiées en ligne avant
+écriture. ① **Corte** : `13`, `1755`, `1769`, `1768`, `1807`, `1889` — **la moitié de l'histoire de
+Paoli est à Londres et rien à Corte ne le dit.** Élu général de la nation corse le **13 juillet
+1755**, battu à Ponte Nuovo en **1769**, exilé en Angleterre où **James Boswell**, biographe de
+Samuel Johnson, l'avait rencontré en 1765 avant de publier *An Account of Corsica* en **février
+1768** (trois éditions en un an). Mort à Londres le **5 février 1807**, enterré à Old St Pancras ;
+monument de marbre blanc à buste de **John Flaxman** élevé la même année dans le bas-côté sud du
+chœur de **Westminster Abbey**, toujours en place — mais **le corps n'y est pas** : en **1889** ses
+restes repartent en Corse sur une frégate britannique, réinhumés à **Morosaglia**, commune à part.
+② **Paray-le-Monial** : `1676`, `1678`, `1682`, `1920` — **le jésuite qui a cru Marguerite-Marie a
+porté la dévotion à Londres et en a fait de la prison.** Claude La Colombière, supérieur du collège
+de Paray en 1675, part en **1676** comme prédicateur de cour de **Marie de Modène, duchesse d'York**
+et femme du futur Jacques II, réside à **St James's Palace** ; arrêté en **novembre 1678**, dénoncé
+comme partie au **complot papiste** de Titus Oates, détenu une cinquantaine de jours puis expulsé,
+mort à Paray en **1682**. Canonisation de Marguerite-Marie en **1920**. ③ **Vitré** : `1725`, `1734`,
+`1737` — l'épistolier posé comme genre avant d'être utilisé (point de vigilance ⑤ du batch 52) :
+édition clandestine en **1725**, puis **614 lettres** publiées par sa petite-fille Pauline de Simiane
+entre **1734 et 1737**. ⚠️ Simiane est une **éditrice intrusive** qui écarte et réécrit : ce qu'on
+lit depuis trois siècles n'est pas tout à fait ce qui a été posté, dit avant qu'on entre dans la
+pièce. ④ **Noirmoutier** : `1999`, `2018` — la règle de marée **démontrée par une organisation qui a
+dû se dérouter**. Tour **1999**, étape 2 : chute en chaîne sur le Gois, peloton coupé de **six
+minutes**, Alex Zülle (2e à Paris) ne rattrape jamais. **2018** : le Tour repart de
+**Noirmoutier-en-l'Île même** en prévoyant le Gois et sort finalement **par le pont**, la course
+ayant été décalée d'une semaine pour la Coupe du monde et les heures de marée ne collant plus. ⑤
+**Sedan** : `1871`, `1914`, cadrage franco-prussien, plus **un désamorçage d'étymologie** dans la
+manière de « faire ripaille » (batch 40) : un anglophone qui connaît *sedan* (chaise à porteurs, et
+en usage américain une carrosserie) supposera que le mot vient de la ville. **C'est une conjecture de
+Samuel Johnson et l'OED la désavoue** ; la thèse italienne (*sede*, *sedere*) n'a pas de preuve non
+plus. L'origine est **inconnue**.
+⚠️ **Le contrôle de figures ne voit que les chiffres, pas les nombres écrits en lettres.** Il sort
+**0 écart sur Les Andelys et Firminy** alors que ces deux guides portent justement la matière
+anglophone la plus lourde du lot, écrite en lettres : ① **Les Andelys** — le FR dit que la place tient
+six mois et tombe le 6 mars 1204 **sans nommer qui la tenait**, à savoir **Roger de Lacy, baron de
+Pontefract, commandant pour le roi Jean** ; le guide EN pose que c'est le sol où le duché de
+Normandie cesse d'être anglo-normand, ajoute l'entrée française **par un conduit de latrines** jusqu'à
+la chapelle, et les **quinze cents civils** réfugiés dans la place dont **un millier** est expulsé et
+laissé passer par Philippe, un second groupe refoulé trouvant les portes closes, hivernant dans le
+fossé et y perdant **environ la moitié** des siens (⚠️ chiffres divergents, ordre de grandeur seul) ;
+② **Firminy** — **dix-sept sites dans sept pays**. **Ne pas lire un `0` de cette colonne comme
+« aucune matière propre ».**
+⚠️ **Quatre affirmations écrites au premier jet et retirées avant commit, faute de source et non de
+vraisemblance** — même mode de défaillance qu'aux batches 42, 46 et 49 : ① la basilique de Paray
+donnée témoin de Cluny III « par les mêmes ateliers » (simultanéité et parti architectural sourcés,
+ateliers non) ; ② **Cluny placée « à une cinquantaine de kilomètres » de Paray** alors que le calcul
+sur les coordonnées du seed donne **41,5 km** — et **Cluny n'étant pas dans `CITIES_SEED`**, la
+coordonnée d'en face venait de ma mémoire, donc la distance est **retirée** et non corrigée ;
+③ la chaire extérieure de Notre-Dame de Vitré attribuée à la Contre-Réforme et donnée pour rare ;
+④ la toile de chanvre de Vitré qualifiée de toile à voile. Reformulé aussi : les trois transferts des
+reliques de saint Philbert ne « cartographient » pas les raids scandinaves, chaque étape éloigne le
+saint d'une côte exposée. **Seul le cas ② a été tranché par une mesure sur nos données ; les autres
+sont tombés à la relecture de source.**
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : **ni le Gois ni le pont ne sont
+sur la commune** (l'île compte quatre communes ; Gois = Beauvoir-sur-Mer ↔ Barbâtre, pont =
+Fromentine, à La Barre-de-Monts, ↔ Barbâtre, soit une vingtaine de km du bourg), **neuf balises =
+refuges parce que le cas se produit**, **bassins salants = outil de travail sur propriété privée**,
+**baignade en zone surveillée, drapeaux réglementaires** ; **unité d'habitation de Firminy = immeuble
+habité** et **Firminy-Vert = quartier habité**, dits avant toute phrase attrayante ; **stade en
+activité** ; **falaises de craie des Andelys** qui se détachent par plaques, balisage qui fait foi ;
+**pas de gare aux Andelys** ; **Giverny commune à part entière**, visitée depuis Giverny, et **musée
+de Vernon sous son nouveau nom** ; **Poussin n'a pratiquement pas travaillé aux Andelys** ; **accès
+motorisé à la haute Restonica réglementé en saison**, renvoi à l'office de tourisme **et pas à un
+calculateur d'itinéraire** ; **Melo et Capitello = haute montagne** ; **Paray ville sanctuaire**,
+calendrier du sanctuaire, **chapelle de la Visitation lieu de culte en activité** ; **Via Vitae
+partiellement volée le 21 novembre 2024**, à vérifier avant de se déplacer pour elle (doctrine de
+l'Hermione absente de Rochefort, batch 36, reprise explicitement) ; **Jayet / Jaillet non tranché** ;
+**jardin des Rochers « fin des années 1680 »**, 1689 ou 1690 non tranché ; **Les Rochers à 6 km mais
+sur le territoire communal** ; **Bazeilles et Charleville-Mézières communes à part** ; **chantier de
+Château-Gaillard en un an ou deux, non tranché**.
+Ajouts sans chiffre propres au lecteur étranger : **Corte désambiguïsé dès la première ligne**
+(patronyme, toponymes, *Cortes* espagnoles à une lettre près — point de vigilance ② du batch 52),
+*Corti* donné en corse ; **collégiale** définie comme desservie par un collège de chanoines, ce qui
+explique l'échelle du bâtiment aux Andelys ; **Marches de Bretagne** posées avec le fait que la
+Bretagne était **un État distinct jusqu'au XVIe siècle** ; **Turenne rattaché au service hollandais**
+et à la génération étudiée par Marlborough ; **frontière belge = passage Schengen intérieur sans
+formalité mais avec pièce d'identité** ; **Saint-Malo nommé comme port de ferry** et Rennes comme
+nœud ; **Charolais rattaché à la race bovine** ; **Chandigarh** nommée comme l'autre endroit où Le
+Corbusier a bâti un morceau de ville entier ; **Sacré-Cœur présenté par les institutions anglophones
+qui en portent le nom**.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27). Le
+substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN
+1 003 → 1 010), `search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (**code 0**,
+0 route FR sans jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo exhaustif, le
+contrôle de figures ci-dessus et une vérification d'encodage (accents intacts, aucun mojibake, aucune
+apostrophe typographique, aucun `m2` / `EUR` / `deg` ascii, aucune figure en `/10`, aucun horaire,
+aucun tarif).
+⚠️ Egress : `en.wikipedia.org` **et `westminster-abbey.org`** répondent **EGRESS_BLOCKED** en
+`WebFetch` depuis la routine, alors que **la recherche web fonctionne** — faits recoupés sur
+plusieurs résultats plutôt que sur une fiche unique, méthode retenue depuis le batch 48. C'est ce
+recoupement qui a tranché la date d'*An Account of Corsica*, donnée **1766** par un résultat et
+**février 1768** par les autres, libraires d'ancien compris.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Il reste **258 villes du
+seed sur 540 sans guide tourisme** ; gisements nommés : **Saint-Herblain**, les **trois banlieues
+bordelaises** jamais faites (Villenave-d'Ornon, Talence, Le Bouscat) et le reliquat du vivier du
+batch 50 — **Gérardmer, Sanary-sur-Mer, Lannion, Hendaye, Saint-Flour, Embrun**.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique
