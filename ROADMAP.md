@@ -16,7 +16,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) · **batch 6 FR (+9 : Valence, Colmar, Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon 974, Ajaccio) shipped 2026-08-28 — 57 FR contre 48 EN, premier guide corse de la série** (+ 5 superlatifs faux corrigés, dont un dans le guide Pau du batch 5, cf. § ci-dessous) · **miroir EN batch 6 (+9) shipped 2026-08-29 — parité rétablie à 57/57**, premier guide corse côté EN (+ 2 comparatifs faux des guides FR du 28/08 corrigés des deux côtés, cf. § Parité EN) · **batch 7 FR (+9 : La Roche-sur-Yon, Dole, Lannion, Challans, Saint-Dié-des-Vosges, Albi, Cholet, Laon, Anglet) shipped 2026-08-30 — 66 FR contre 57 EN. Le run change la règle de sélection : population → rang. Six batches « par population » avaient couvert 9 des 40 premières villes du classement et laissé La Roche-sur-Yon, 1re sur 363, sans guide ; ce batch referme le top 11 en entier** (+ 3 superlatifs faux corrigés et le vivier du batch 6 démenti par la mesure, cf. § ci-dessous) · **miroir EN batch 7 (+9) shipped 2026-09-02 — parité rétablie à 66/66** · **batch 8 FR (+9 : Fontainebleau, Soissons, Vienne 38, Villefranche-sur-Saône, Auch, Chaumont, Compiègne, Les Sables-d'Olonne, Sens) shipped 2026-09-04 — 75 FR contre 66 EN. Le batch referme le **top 20 du classement publié** en appliquant la règle du rang du batch 7, vivier recalculé et non recopié ; 5 superlatifs faux corrigés avant insertion et le plancher d'éligibilité du classement mesuré (5 communes classées sont sous 20 000 au recensement, Fontainebleau à 4 213 près, cf. § ci-dessous)**, neuvième réouverture refermée ; 532 figures contrôlées contre les jumelles FR, 0 écart, et aucun superlatif faux trouvé cette fois (cf. § Parité EN)** · ⚠️ **la mention « neuvième réouverture refermée » ci-dessus était fausse : le batch 8 FR laissait la série à 75 FR / 66 EN, mesuré le 06/09. **Miroir EN batch 8 (+9) shipped 2026-09-06 — parité rétablie à 75/75**, dixième réouverture refermée ; 1 409 figures contrôlées contre les jumelles FR (3 écarts délibérés et documentés) et une erreur de décompte du guide FR Sens corrigée des deux côtés, « deux autres communes » pour trois (cf. § Parité EN) · **batch 9 FR (+10 : Alençon, Brive-la-Gaillarde, Étampes, Vichy, Beaune, Dieppe, Dreux, Laval, Roanne, Saint-Quentin) shipped 2026-09-06 — 85 FR contre 75 EN. Le batch prend 10 villes et non 9 pour ne pas couper un palier d'ex æquo en son milieu : il referme les paliers 6,7 et 6,6, donc **toute commune notée 6,6 ou plus a désormais son guide**. Le lot est le premier de la série où la majorité des villes perd des habitants (7 sur 10), et la corrélation est mesurée, pas supposée. 5 superlatifs faux corrigés avant insertion, et **11 guides déjà publiés affirmaient à tort que `data/neighborhoods.ts` ne documente aucun quartier pour leur ville** : le fichier en documente trois pour chacune des 540 (deux pour Le Tampon et Saint-Paul), correction appliquée aux 11 (cf. § ci-dessous) · **miroir EN batch 9 (+10) shipped 2026-09-07 — parité rétablie à 85/85** · **batch 10 FR (+10 : Châtellerault, Saint-Dizier, Charleville-Mézières, Castres, Montbéliard, Abbeville, Saumur, Villeneuve-sur-Lot, Issy-les-Moulineaux, Levallois-Perret) shipped 2026-09-13 — 95 FR contre 85 EN. Le batch prend 10 villes et non 9 pour ne pas couper un palier d'ex æquo en son milieu : il referme le **palier 6,5 en entier**, donc toute commune notée 6,5 ou plus a désormais son guide. Thèse du lot : **un palier n'est pas une liste de choix** — les 14 communes à 6,5/10 vont de 1 950 € (Châtellerault) à 5 700 € (Levallois-Perret) de seuil d'entrée, soit un rapport de 2,92 pour une note identique. Mesure neuve du run : le **ménage monoparental au niveau de vie médian local** (1,3 UC) ne franchit le seuil T3 que dans **36 des 357 communes** où le revenu est mesuré, et dans **2 des 14** du palier. 9 affirmations fausses corrigées avant commit (cf. § ci-dessous) · **miroir EN batch 10 (+10) shipped 2026-09-14 — parité rétablie à 95/95** le lendemain du batch FR (`EN_GUIDES` 915 → 925). Les guides EN **ne publient aucun rang à l'intérieur du palier 6,5**, ils le nomment, alors que les metaDesc FR en publient un qui dépend de l'ordre de tri dans une égalité à 14 — ne pas aligner l'EN dessus. 4 comparatifs inter-villes faux corrigés avant insertion (dont Besançon donnée à 7,9/10 d'écoles pour 7,4) et 1 387 figures contrôlées contre les jumelles FR, 64 écarts délibérés et documentés (cf. § Parité EN) · **batch 11 FR (+8 : Annemasse, Belfort, Cambrai, Épernay, Neuilly-sur-Seine, Nevers, Oyonnax, Troyes) shipped 2026-09-20 — 103 FR contre 95 EN. Le batch referme le **palier 6,4 en entier**, donc toute commune notée 6,4 ou plus a désormais son guide, et **Annemasse et Oyonnax n'étaient citées par aucun guide du site**. Thèse du lot : **le composite n'applique pas la pénalité de pire axe que le score global du site applique** — 4 des 13 communes du palier ont un axe sous 4,5, et sous cette règle Neuilly perdrait 89 rangs et Annemasse 41 ; on publie la limite, on ne repondère pas. Le palier couvre à lui seul toute l'étendue d'amplitude du corpus (1,0 à 6,8 pour une note identique) et le rapport des seuils d'entrée y monte à 3,67 contre 2,92 au palier 6,5. 9 affirmations fausses corrigées avant commit, dont 3 chiffres faux dans une seule comparaison Besançon, et le docstring de `lib/score-distribution.ts` réaligné sur son code (0,55 annoncé pour 0,35 appliqué) (cf. § ci-dessous) · **batch 12 FR (+11 : Auxerre, Bourgoin-Jallieu, Chalon-sur-Saône, Courbevoie, Mâcon, Montauban, Montélimar, Muret, Rueil-Malmaison, Tarbes, Vannes) shipped 2026-09-27 — 114 FR contre 103 EN. Le batch referme le **palier 6,3 en entier** (16 communes, 11 sans guide), donc toute commune notée 6,3 ou plus a désormais son guide, et il prend 11 villes et non 8 à 10 pour ne pas couper une égalité en son milieu. Thèse du lot : **le rang publié à l'intérieur d'un palier est fabriqué par l'alphabet** — Auxerre est 64e en tri alphabétique et 79e en tri inverse, 340 des 363 communes changent de rang si l'on inverse ce seul départage, et les **77 guides de la série qui citaient un « Ne sur 363 » tombaient tous dans un palier**. Les 11 guides nomment donc le palier et ne publient aucun rang, rupture avec les batches précédents. Cas limite : l'alphabet **inverse ici un écart réel**, Mâcon devançant Chalon-sur-Saône de 0,055 point non arrondi tout en apparaissant après elle. Le même défaut a été corrigé sur le hub `/parent-solo`, qui coupait ses deux paliers d'ex æquo et renvoyait l'ordre fabriqué en JSON-LD (cf. § ci-dessous). 12 affirmations fausses corrigées avant commit, dont 6 démenties par une mesure |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
-| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 4 (+7 : Brest, Reims, Orléans, Metz, Troyes, Pau, Chambéry) shipped 2026-08-29 — règle du batch 3 recalculée et non recopiée, ce qui a rattrapé Orléans que la liste annoncée avait sauté ; + 4 erreurs de mode de transport corrigées dans `data/neighborhoods.ts` (Metz, Limoges, Amiens, Valence), cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 3 (+7 : Toulouse, Pau, Mâcon, Aix-en-Provence, Poitiers, Saint-Raphaël, Metz) shipped 2026-09-02 — premier lot où le profil classe haut des destinations chères, règle de sélection recalculée et non recopiée ; 7 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 5 (+7 : Le Mans, Valence, Saint-Denis de La Réunion, Mulhouse, Avignon, Bourges, Quimper) shipped 2026-09-05 — premier lot de la série hors métropole (calendrier austral inversé, aucun train sur l'île), règle recalculée et non recopiée, palier d'ex æquo Avignon/Bourges pris entier ; 10 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 4 (+8 : Reims, Le Mans, Lille, Mulhouse, Saint-Étienne, Angoulême, Montpellier, Avignon) shipped 2026-09-09 — le premier lot où l'axe le plus lourd du profil décroche, règle de sélection recalculée et non recopiée, quatre paliers d'ex æquo pris entiers ; le tramway gratuit de Montpellier et le festival BD d'Angoulême 2026 corrigés avant écriture, 26 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 8 (+6 : Marseille, Villeurbanne, Saint-Paul de La Réunion, Nîmes, Bastia, Amiens) shipped 2026-09-26 — le run où la règle des batches 3 à 7 est mesurée épuisée (treize communes seulement franchissent ses **quatre** termes, dont neuf déjà publiées) et où le décompte du batch 7 est corrigé : il avait laissé tomber `life >= 7,0` et `culture >= 6,5`, si bien que six de ses sept villes ne franchissent pas le premier. Nouveau barème publié en quatrième section de la page de profil, cardinal = vie du soir du meilleur quartier documenté, plancher 8,0 calibré au-dessus du neuvième décile et plafond de 32 % de seniors au-dessus du 3e quartile : il rend exactement six villes sans guide, et 24 des 50 déjà publiées le satisfont contre 9 pour l'ancien. Défaut corrigé au passage sur une page en ligne : la fenêtre de 100 villes empêchait les trois listes de contenir Paris (118e), Lille, Bayonne, Montpellier, Nice et Marseille, que l'axe `life` enterre. 2 erreurs de desserte corrigées dans `data/neighborhoods.ts` (Cusset donné sur le métro D, Part-Dieu donné sur la ligne A), 5 affirmations devenues fausses corrigées dans 5 guides publiés dont une qui l'était déjà depuis le batch 7, et 6 affirmations fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 7 (+7 : Arras, Angoulême, Compiègne, Albi, Lorient, Vannes, Beauvais) shipped 2026-09-19 — le run où la conclusion du batch 6 est démentie : la règle n'était pas épuisée, elle était tronquée par un plancher de population de 60 000 que rien ne justifiait alors que la page profil en publie un de 40 000, et les sept villes du lot sont toutes au-dessus de la meilleure du batch 6 sur le critère cardinal ; la dégradation de la couverture climatique avec la taille des villes est mesurée et 3 guides sur 7 ne publient aucune normale ; la section « accessibles en train » de la page profil corrigée du défaut que la série jumelle avait documenté le 16/09 ; `lib/transit.ts` annoté de 2 vérifiées-absentes ; 5 affirmations devenues fausses corrigées dans 3 guides déjà publiés et 8 comparaisons fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 6 (+7 : Saint-Pierre de La Réunion, Colmar, Annecy, Niort, Nice, Montauban, Fort-de-France) shipped 2026-09-12 — le run où la règle anti-station-fantôme franchit son propre seuil (deux villes sous la médiane nationale des 15-29 ans, dont la plus basse des 43), donc le batch 7 ne peut plus l'appliquer telle quelle ; `lib/transit.ts` corrigé sur Colmar et Montauban, qui rendaient `{}` en ayant un TGV direct ; 8 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 5 (+8 : Anglet, Vendôme, La Roche-sur-Yon, Vienne, Villefranche-sur-Saône, Brive-la-Gaillarde, Compiègne, Dieppe) shipped 2026-09-16 — le run où la règle de sélection des batches 2 à 4 est remplacée parce qu'elle mesurait la couverture de `lib/transit.ts` (91 villes sur 495) et non l'accès en train, et tenait un TER pour autre chose qu'un train ; le lot apporte de ce fait **les trois meilleurs fits de toute la série** et les quatre meilleures sécurités, exacte inversion du batch 4 ; `lib/transit.ts` complété de 2 entrées vérifiées et 6 vérifiées-absentes consignées, chapeau de `MonoparentalExtras.tsx` corrigé, 9 comparaisons fausses corrigées avant commit, et 10 titres de section réalignés sur leur corps dans deux guides tourisme déjà publiés, cf. § ci-dessous** |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 4 (+7 : Brest, Reims, Orléans, Metz, Troyes, Pau, Chambéry) shipped 2026-08-29 — règle du batch 3 recalculée et non recopiée, ce qui a rattrapé Orléans que la liste annoncée avait sauté ; + 4 erreurs de mode de transport corrigées dans `data/neighborhoods.ts` (Metz, Limoges, Amiens, Valence), cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 3 (+7 : Toulouse, Pau, Mâcon, Aix-en-Provence, Poitiers, Saint-Raphaël, Metz) shipped 2026-09-02 — premier lot où le profil classe haut des destinations chères, règle de sélection recalculée et non recopiée ; 7 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 5 (+7 : Le Mans, Valence, Saint-Denis de La Réunion, Mulhouse, Avignon, Bourges, Quimper) shipped 2026-09-05 — premier lot de la série hors métropole (calendrier austral inversé, aucun train sur l'île), règle recalculée et non recopiée, palier d'ex æquo Avignon/Bourges pris entier ; 10 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 4 (+8 : Reims, Le Mans, Lille, Mulhouse, Saint-Étienne, Angoulême, Montpellier, Avignon) shipped 2026-09-09 — le premier lot où l'axe le plus lourd du profil décroche, règle de sélection recalculée et non recopiée, quatre paliers d'ex æquo pris entiers ; le tramway gratuit de Montpellier et le festival BD d'Angoulême 2026 corrigés avant écriture, 26 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 8 (+6 : Marseille, Villeurbanne, Saint-Paul de La Réunion, Nîmes, Bastia, Amiens) shipped 2026-09-26 — le run où la règle des batches 3 à 7 est mesurée épuisée (treize communes seulement franchissent ses **quatre** termes, dont neuf déjà publiées) et où le décompte du batch 7 est corrigé : il avait laissé tomber `life >= 7,0` et `culture >= 6,5`, si bien que six de ses sept villes ne franchissent pas le premier. Nouveau barème publié en quatrième section de la page de profil, cardinal = vie du soir du meilleur quartier documenté, plancher 8,0 calibré au-dessus du neuvième décile et plafond de 32 % de seniors au-dessus du 3e quartile : il rend exactement six villes sans guide, et 24 des 50 déjà publiées le satisfont contre 9 pour l'ancien. Défaut corrigé au passage sur une page en ligne : la fenêtre de 100 villes empêchait les trois listes de contenir Paris (118e), Lille, Bayonne, Montpellier, Nice et Marseille, que l'axe `life` enterre. 2 erreurs de desserte corrigées dans `data/neighborhoods.ts` (Cusset donné sur le métro D, Part-Dieu donné sur la ligne A), 5 affirmations devenues fausses corrigées dans 5 guides publiés dont une qui l'était déjà depuis le batch 7, et 6 affirmations fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 7 (+7 : Arras, Angoulême, Compiègne, Albi, Lorient, Vannes, Beauvais) shipped 2026-09-19 — le run où la conclusion du batch 6 est démentie : la règle n'était pas épuisée, elle était tronquée par un plancher de population de 60 000 que rien ne justifiait alors que la page profil en publie un de 40 000, et les sept villes du lot sont toutes au-dessus de la meilleure du batch 6 sur le critère cardinal ; la dégradation de la couverture climatique avec la taille des villes est mesurée et 3 guides sur 7 ne publient aucune normale ; la section « accessibles en train » de la page profil corrigée du défaut que la série jumelle avait documenté le 16/09 ; `lib/transit.ts` annoté de 2 vérifiées-absentes ; 5 affirmations devenues fausses corrigées dans 3 guides déjà publiés et 8 comparaisons fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 6 (+7 : Saint-Pierre de La Réunion, Colmar, Annecy, Niort, Nice, Montauban, Fort-de-France) shipped 2026-09-12 — le run où la règle anti-station-fantôme franchit son propre seuil (deux villes sous la médiane nationale des 15-29 ans, dont la plus basse des 43), donc le batch 7 ne peut plus l'appliquer telle quelle ; `lib/transit.ts` corrigé sur Colmar et Montauban, qui rendaient `{}` en ayant un TGV direct ; 8 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 6 (+7 : Châtellerault, Annemasse, Caen, Saint-Quentin, Dreux, Beauvais, Cambrai) shipped 2026-09-30 — le lot porte simultanément la destination la moins chère et la plus chère des quarante-cinq, à un palier de fit d'écart (Saint-Quentin prend le record de l'axe coût à 8,3/10 devant les 7,6 de Vendôme, Annemasse celui du prix à 3,4/10 devant les 3,6 d'Aix) ; règle recalculée et non recopiée, et **mesure clé pour le batch 7 : 28 des 39 candidates restantes (72 %) sont à moins de 15 km d'une ville de 100 000 habitants contre 1 des 38 déjà publiées**, donc l'exclusion de Villeurbanne du batch 5 est une catégorie et non un cas ; défaut corrigé sur une page en ligne, `MONO_POOL_SIZE = 60` cachait 29 des 38 destinations de la série (76 %) et la section « train » montrait 5 villes pour 56 éligibles ; 30 rangs d'ex æquo et 13 affirmations devenues fausses dans 6 guides publiés corrigés avant commit ; 9 des 10 titres de `10-choses-a-faire-a-chatellerault-2026` réalignés sur leur corps, troisième occurrence de ce défaut, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 5 (+8 : Anglet, Vendôme, La Roche-sur-Yon, Vienne, Villefranche-sur-Saône, Brive-la-Gaillarde, Compiègne, Dieppe) shipped 2026-09-16 — le run où la règle de sélection des batches 2 à 4 est remplacée parce qu'elle mesurait la couverture de `lib/transit.ts` (91 villes sur 495) et non l'accès en train, et tenait un TER pour autre chose qu'un train ; le lot apporte de ce fait **les trois meilleurs fits de toute la série** et les quatre meilleures sécurités, exacte inversion du batch 4 ; `lib/transit.ts` complété de 2 entrées vérifiées et 6 vérifiées-absentes consignées, chapeau de `MonoparentalExtras.tsx` corrigé, 9 comparaisons fausses corrigées avant commit, et 10 titres de section réalignés sur leur corps dans deux guides tourisme déjà publiés, cf. § ci-dessous** |
 
 ### F58 — série parent solo, batch 12 : `parent-solo-a-[ville]-2026` (2026-09-27)
 
@@ -408,6 +408,231 @@ guides FR, sous peine de cannibalisation ; ⓑ la thèse du palier (1 950 € �
 identique) est **la matière propre du lot** et doit passer en EN sans être diluée en conseil général.
 Pour le batch FR **suivant**, le palier à ouvrir est **6,4 : 13 communes, dont 8 sans guide**
 (Annemasse, Belfort, Cambrai, Épernay, Neuilly-sur-Seine, Nevers, Oyonnax, Troyes).
+
+### F61 — série monoparentale, batch 6 : `vacances-monoparentales-[ville]-2026` (2026-09-30)
+
+Item 2 du plan agent « vacances monoparentales ». La série était à parité 38 FR / 38 EN, **mesurée
+par diff des deux listes de slugs et non recopiée du journal**, donc la main revenait au FR.
+**+7 guides, compteur mesuré `grep -c 'slug: "vacances-monoparentales-'` = 45 ; `GUIDES` 1 191 →
+1 198.** Contrôles : `npx tsc --noEmit` **propre**, `npm run integrity` (20 gardes vertes),
+`search-index` + `search-index:check` (1 198 guides, **274 tags, inchangé** — aucun tag neuf n'a
+franchi le seuil de 3 guides, donc aucune page `/tags/` créée), `npm run sitemap:check` (FR 29 302 →
+**29 309 URL**, soit exactement les 7 guides neufs ; EN 28 905 inchangé), `npm run parity` (**code
+0**), `npm run hreflang:check`. `metaTitle` 35-44 caractères, `metaDesc` 150-156, 7 sections par
+guide, 1 549-1 681 mots, **0 em-dash**, densité d'accents 0,120-0,153 **par mot** (seuil ascii-strip
+0,09). Contrôle de rattachement passé sur les **45 guides de la série** et pas seulement sur le lot :
+45 slugs uniques, 0 orphelin, 0 `relatedCities` cassée, ville en 1re position sur les 45.
+`npm run build` **non lancé, volontairement** (cf. CLAUDE.md § Commands depuis le batch 27).
+
+**La règle du batch 5 a été recalculée et non recopiée**, ce que ce fichier prescrit explicitement :
+axe `transport` ≥ 6,8 sur les 495 villes classées par le profil, hors Île-de-France, hors
+Villeurbanne. Elle retient **150 villes sur 495**, dont **39 non couvertes** hors Île-de-France (le
+journal du batch 5 en annonçait 40 ; le réel prévaut). Paliers pris entiers, convention de
+`lib/owner-rankings.ts` : 6,5 (Châtellerault, Annemasse), 6,4 (Caen, Saint-Quentin, Dreux), 6,2
+(Beauvais), 6,1 (Cambrai), soit **7, et on s'arrête avant le palier 6,0** qui en compte deux.
+
+**Thèse du batch : le lot porte simultanément la destination la moins chère et la plus chère des
+quarante-cinq, à un palier de fit d'écart.** **Saint-Quentin** prend le record de l'axe coût avec
+**8,3/10, le meilleur de la série**, devant les 7,6 de Vendôme qui le tenaient depuis le lot
+précédent, et c'est la **seule destination de la série classée €**, le palier le moins cher du
+moteur. **Annemasse** prend celui du prix avec **3,4/10, le plus bas des quarante-cinq**, devant les
+3,6 d'Aix-en-Provence : c'est la destination la plus chère que cette série ait publiée, T3 à 1 350 €
+et mètre carré à 4 800 €, et elle n'arrive à 6,5 de composite que portée par des transports à
+**9,0/10, meilleur de la série avec Strasbourg et Lyon**, et une sécurité 5ᵉ des quarante-cinq.
+Troisième record : **Châtellerault et Cambrai partagent le loyer T3 le plus bas de la série, 640 €**,
+et le mètre carré de Châtellerault, 1 500 €, entre dans le minimum de série partagé à quatre avec
+Saint-Étienne, Vendôme et Saint-Quentin. **Caen** est à l'autre bout : son T3 à 930 € et son mètre
+carré à **2 500 € exactement la médiane de série**, plus de cent mille habitants, la seule du lot
+dont le réseau soit documenté dans `lib/transit.ts`, **au moins 40 espaces verts dont au moins 23
+avec une aire de jeux** (le relevé plafonne à 40 par commune et Caen atteint le plafond, donc les
+deux nombres sont des planchers), et la station climatique la plus proche de toute la série, à 6 km.
+
+⚠️ **La mesure la plus importante de ce run est un avertissement pour le batch 7 : la règle entre
+dans le périurbain, et l'exclusion de Villeurbanne posée au batch 5 comme un cas nommé est en
+réalité une catégorie entière.** Sur les 39 candidates restantes, **28 (72 %) sont à moins de 15 km
+d'une commune de 100 000 habitants et 25 à moins de 10 km**, contre **1 des 38 déjà publiées** (Lyon,
+à 4,0 km de Villeurbanne). La cause est mécanique et non accidentelle : l'axe `transport` récompense
+la présence d'un métro ou d'un tram, et en France les communes qui en ont sans être la ville-centre
+sont les banlieues des dix plus grandes agglomérations. Le Bouscat est à 3,5 km de Bordeaux,
+Fleury-les-Aubrais à 3,1 km d'Orléans, Fontaine à 3,3 km de Grenoble, Schiltigheim à 3,9 km de
+Strasbourg, Rezé à 3,9 km de Nantes, et sept candidates portent littéralement « Métropole de Lyon »
+comme département. **Écrire « vacances monoparentales à Bègles » quand Bordeaux a déjà son guide à
+4,1 km serait le défaut de Villeurbanne à l'échelle d'un lot.** La contamination commence **sous le
+fit 5,8** : les paliers retenus ce run sont tous des villes autonomes, la plus proche voisine de
+100 000 habitants étant à 33,9 km (Annemasse) et la plus éloignée à 71,3 km (Saint-Quentin). La règle
+n'est donc **pas épuisée, elle est sur le point de l'être**, et le batch 7 doit soit lui ajouter un
+critère de distance mesurée à une ville déjà couverte, soit changer de barème. ⚠️ Ne pas conclure de
+ce paragraphe que les banlieues sont de mauvaises destinations : le défaut est qu'un guide de séjour
+sur une commune à 4 km d'une ville dont le guide existe déjà **cannibalise sa propre série**, ce qui
+est un problème de corpus et pas de qualité de ville.
+
+⚠️ **Trente rangs d'ex æquo corrigés avant commit dans le lot lui-même, et la cause est
+instructive : un index de tableau n'est pas un rang.** Le script de mesure rendait la position dans
+un tableau trié, si bien que la même valeur sortait à des rangs différents selon la ville :
+`transport` 7,0 était annoncé 32ᵉ pour Caen, 33ᵉ pour Dreux et 34ᵉ pour Cambrai, `life` 5,5
+quarante-troisième pour Saint-Quentin et quarante-quatrième pour Dreux, et le palier de coût à 7,2
+sortait 4ᵉ, 5ᵉ et 6ᵉ pour trois de ses quatre membres. **Le rang d'un palier vaut 1 + le nombre
+d'entrées strictement meilleures**, ce qui donne 19ᵉ pour transport 7,0 (ex æquo ×16), 39ᵉ pour life
+5,5 (ex æquo ×6) et 3ᵉ pour coût 7,2 (ex æquo ×4). C'est exactement le défaut que le batch 5 avait
+documenté (« sept sur neuf sont des paliers d'ex æquo présentés comme des rangs nets ») et il a été
+reproduit : le contrôle à écrire n'est pas une relecture, c'est un script qui compte les meilleurs.
+Quatre comparaisons fausses s'y ajoutent, toutes démenties par une mesure : Dreux annoncée porteuse
+de « l'écart le plus large entre deux axes de ce lot » quand Annemasse va de 1ᵉ à 45ᵉ, Dreux donnée
+« l'un des deux seuls » chiffres démographiques positifs du lot alors qu'ils sont trois, Annemasse
+donnée seule deuxième maillage d'aires de jeux alors qu'elle est à égalité avec Cambrai à 14, et
+Saint-Quentin annoncée « deuxième recul le plus marqué de ce lot après aucun autre » (formule
+elle-même cassée) alors qu'elle en est le premier à −5,8 %.
+
+⚠️ **Treize affirmations devenues fausses corrigées dans six guides déjà publiés, dont neuf parce que
+ce batch a déplacé les médianes de série.** Les médianes passent de **950 € et 2 550 €** (38
+destinations) à **940 € et 2 500 €** (45), ce qui périmait la phrase de repère de huit guides du
+batch 5 **et faisait basculer deux affirmations directionnelles** : le T3 de Vienne, 940 €, et le
+mètre carré de Villefranche-sur-Saône, 2 500 €, sont désormais **exactement** à la médiane et non
+plus en dessous. S'y ajoutent les records cédés : Vendôme perd « le minimum absolu de la série » sur
+le T3 (720 €, désormais 4ᵉ derrière 640 € ×2 et 650 €), son axe coût 7,6 passe 2ᵉ derrière
+Saint-Quentin, son mètre carré à 1 500 € devient une égalité à quatre, et la phrase « la destination
+la mieux notée du corpus est aussi la moins chère » devient « l'une des moins chères » ;
+Aix-en-Provence perd « la ville la plus chère du corpus » sur l'axe coût au profit d'Annemasse, mais
+**garde le T3 le plus élevé de la série à 1 400 €**, ce que la correction dit plutôt que de tout
+retirer. Quatre autres étaient **déjà fausses avant ce run** et ont été trouvées en vérifiant les
+premières : le titre de section « Le budget le plus bas de la série » de Mâcon (T3 800 €, 8ᵉ), le
+mètre carré de Poitiers donné « le plus bas de la série avec Mâcon » (2 100 €, 13ᵉ), les rangs de
+mètre carré et de loyer d'Angoulême (« troisième » et « quatrième », réels 7ᵉ et 10ᵉ) et la
+`metaDesc` de Toulouse annonçant « le score de sécurité le plus bas de la série » alors que
+Montpellier à 3,7 et Lille à 3,9 sont sous ses 4,3 depuis le batch 4. **Un superlatif scopé à un
+effectif (« des trente-huit ») vieillit mieux qu'un superlatif nu (« de la série ») : les seconds
+sont ceux qu'un batch casse en silence.**
+
+🔧 **Défaut corrigé sur une page en ligne, et c'est le jumeau de celui que la page célibataire a
+fermé le 26/09 : `MONO_POOL_SIZE = 60` cachait 76 % de la série que la page est censée éclairer.**
+Les quatre sections de `MonoparentalExtras.tsx` lisaient les 60 premières villes du classement, or
+**29 des 38 destinations que la série publiait sont au-delà du rang 60** — Compiègne 69ᵉ, Lyon 76ᵉ,
+Angers 77ᵉ, Dieppe 83ᵉ, Nantes 91ᵉ, Bordeaux 103ᵉ, Dijon 104ᵉ, Besançon 106ᵉ, Grenoble 120ᵉ,
+Toulouse 139ᵉ, Lille 206ᵉ, Montpellier 254ᵉ, Avignon 273ᵉ. La section « Faisables en TGV ou en
+RER » en souffrait le plus : **56 villes satisfont son critère sur le classement entier, la fenêtre
+n'en laissait que 5**, pour un plafond d'affichage de 12, si bien qu'une section consacrée aux
+destinations accessibles en train ne pouvait montrer ni Lyon, ni Nantes, ni Bordeaux, ni Dijon, ni
+Besançon, ni Angers. La cause est la pondération du profil, sécurité 0,30 et coût 0,25, qui enterre
+précisément les grandes villes, c'est-à-dire celles qui ont un train. Remède, identique à celui de
+la page jumelle : **les trois premières sections lisent le classement entier**, leurs critères étant
+déjà assez restrictifs pour faire le tri. Elles affichent désormais 12, 18 et 7 lignes contre 5, 10
+et 10. ⚠️ Ne pas « harmoniser » ces sections en leur remettant une fenêtre.
+Trois décisions à ne pas défaire dans ce correctif. ① **L'Île-de-France sort de la section
+« train » seulement**, et pour une raison propre à son critère : le test accepte le `rer`, qui est
+le réseau de banlieue parisien, donc il promeut mécaniquement des communes de la couronne dans une
+liste de destinations de vacances, jusqu'à **Saint-Denis au 448ᵉ rang du profil** ; 20 des 56 villes
+éligibles sont dans ce cas. Les sections 2 et 3 ne l'appliquent pas, et c'est volontaire : leurs
+critères écartent déjà les communes-dortoirs, et Fontainebleau ou Rambouillet sont de vraies
+destinations. ② **La convention d'ex æquo de `lib/owner-rankings.ts` est appliquée aux sections 2 et
+3** par un `wholeTiers()` qui groupe par valeur et ne coupe jamais un palier en son milieu. Le
+plafond de la section 2 passe de 10 à **18**, parce que le palier de tête de l'axe coût compte à lui
+seul **18 communes à 8,5/10** : tout plafond plus bas publiait l'ordre d'insertion du seed comme un
+classement. Le palier de tête entre toujours, même s'il dépasse seul le plafond, sans quoi une
+section dont la tête est une grosse égalité n'afficherait rien ; l'ordre interne est alphabétique et
+**la page dit que c'est un ordre stable et non un départage**, plus combien de villes suivaient et à
+quelle note. ③ **Le `#n` de la section 2 disparaît** : il numérotait de 1 à 10 une égalité à 18
+villes, ce qui est la forme la plus directe du défaut que cette convention interdit. La section 4
+garde volontairement sa fenêtre de 30, avec la constante nommée et la portée dite dans le chapeau :
+elle répond à « quand partir » et non à « où », donc elle n'a pas de critère propre qui justifierait
+de balayer le corpus.
+
+⚠️ **Les sept arrivées ferroviaires ont été vérifiées en ligne avant rédaction, et une seule des
+sept est un TGV.** Châtellerault (TGV inOui Paris-Montparnasse, 1 h 36 à 1 h 44, ~5 directs par jour
+sur une huitaine de circulations) ; Annemasse (**terminus français de la ligne de tramway 17
+exploitée par les transports publics genevois**, Annemasse-Parc Montessuit à Lancy-Pont-Rouge en une
+vingtaine à une trentaine de minutes, toutes les neuf minutes environ en pointe du lundi au vendredi,
+en service depuis le **15 décembre 2019** après soixante et un ans sans tramway, et nœud du Léman
+Express ; depuis Paris, axe Bellegarde-Annemasse-Thonon-Évian, directs en nombre limité, sinon
+correspondance à Bellegarde) ; Caen (Paris-Saint-Lazare ~1 h 57 sur l'axe de Cherbourg, **trams T1,
+T2 et T3 de la gare au centre**) ; Saint-Quentin (**Intercités et TER** Paris-Nord, ~1 h 18, 15
+directs sur 19) ; Dreux (**TER Normandie** Paris-Montparnasse, 58 min à 1 h, ligne de Granville) ;
+Beauvais (**TER** Paris-Nord, 1 h 05 au plus rapide, 16 directs sur 22) ; **Cambrai, seule du lot
+sans aucun direct depuis Paris** : correspondance à Douai, TER d'une trentaine de minutes à raison
+d'une circulation par heure, puis TGV, ~2 h au total.
+🔧 **`lib/transit.ts` gagne les deux seules entrées que la vérification autorise**, `chatellerault`
+en `{ tgv: true }` et `annemasse` en `{ tram: true }`, sur le précédent de Colmar, Montauban, Vendôme
+et La Roche-sur-Yon. ⚠️ Le `tram` d'Annemasse est un **tram genevois qui franchit la frontière** et
+non un réseau municipal français : ne pas le retirer au motif qu'Annemasse n'a pas de réseau propre.
+⚠️ `tgv` n'est **pas** posé sur Annemasse : des directs existent sur l'axe d'Évian mais leur nombre
+n'a pas pu être établi. Saint-Quentin, Dreux et Cambrai sont **vérifiées et volontairement non
+ajoutées**, faute de TGV, et le commentaire le consigne nommément ; Beauvais l'était déjà depuis le
+2026-09-19. L'ajout de Châtellerault fait passer la section « train » de 11 à 12 lignes, soit
+exactement son plafond.
+
+⚠️ **Une limite de nos données publiée plutôt que masquée, et c'est le guide Annemasse qui la
+porte : aucune normale climatique n'y est citée.** Sa station la plus proche est **Lyon-Bron, à
+112 km** contre une médiane de série à 56 km, et ce n'est pas seulement loin, c'est un autre climat :
+Lyon-Bron mesure la plaine du Rhône quand Annemasse est adossée au Salève, à l'entrée des Alpes et à
+quelques kilomètres du Léman. Le guide dit que les moyennes mensuelles affichées ailleurs sur le site
+pour cette commune héritent de cette station, et s'en tient aux ancres du seed. Même doctrine que les
+trois guides sans normales du batch 7 célibataire. Deux autres précautions de la même famille :
+**Lille-Lesquin ne publie pas de nombre de jours de pluie** dans notre jeu de données, donc les
+guides Saint-Quentin et Cambrai citent les températures de la station et disent que les
+précipitations mensuelles viennent de notre modèle saisonnier ; et **Dreux et Beauvais sont
+rattachées à la même station**, Paris-Montsouris à 72 et 71 km, si bien que les valeurs mensuelles
+affichées pour ces deux villes sont identiques : ce n'est pas une concordance, c'est une seule mesure
+lue deux fois, et une station urbaine parisienne est plus douce que la campagne de l'Eure-et-Loir ou
+de l'Oise. Les deux guides le disent.
+
+Cinq prudences assumées dans la copie, à ne pas diluer. ① Convention « **accessible depuis** » plutôt
+que « situé à » partout où le site relève d'une commune voisine : le **Futuroscope est à
+Chasseneuil-du-Poitou** et non à Châtellerault, le **téléphérique du Salève part du Pas de l'Échelle,
+à Étrembières** (desservi par la ligne 4 du réseau urbain avec arrêt au téléphérique les week-ends et
+jours fériés, en semaine par l'arrêt Veyrier-Douane puis dix minutes à pied), les **plages du
+Débarquement ne sont pas à Caen** mais à une quinzaine de kilomètres au nord, le **char Deborah est à
+Flesquières** à une dizaine de kilomètres de Cambrai, et Chantilly, Senlis et Gerberoy ne sont pas à
+Beauvais. ② **La Suisse est dans Schengen mais pas dans l'Union européenne ni dans l'union
+douanière** : le guide Annemasse écrit la pièce d'identité obligatoire pour chaque membre du foyer et
+les franchises voyageurs comme des **règles opposables**, et rappelle que « pas de contrôle » ne veut
+pas dire « pas de règles » ni prix comparables. ③ Les **chèques-vacances de l'ANCV n'ont pas cours en
+Suisse**, ce que le même guide dit dans sa section aides. ④ Le **Mémorial de Caen** est signalé comme
+un propos dur qui ne convient pas à de jeunes enfants sans préparation, et la **cathédrale disparue
+de Cambrai** comme une absence annoncée avant qu'une famille la cherche. ⑤ **Aucun montant d'aide
+n'est cité** sur les sept, VACAF, ANCV, bons CAF et CSE étant décrits et renvoyés à l'organisme,
+conformément à l'item 3 du plan agent ; les seuls chiffres de population viennent de
+`data/city-population.json` et les loyers de `data/housing.ts`. Aucun horaire, aucun tarif.
+
+🔧 **Défaut pré-existant trouvé en lisant le guide de grounding, et corrigé : dans
+`10-choses-a-faire-a-chatellerault-2026`, 9 des 10 titres de section surmontaient le corps d'une
+autre section.** « Auto Moto Vélo » coiffait le texte sur le pont Henri-IV, « Le pont Henri-IV »
+celui de la Manufacture d'armes, « Le Futuroscope » celui du musée, « La vieille ville et la rue
+Bourbon » celui de l'église Saint-Jacques. Quatre titres promettaient par ailleurs un contenu absent
+du guide (**abbaye de Saint-Savin, parc naturel régional du Pinail, château d'Oiron, Poitiers**), et
+la `metaDesc` annonçait elle aussi Saint-Savin. **C'est la troisième occurrence de ce défaut** après
+La Roche-sur-Yon et Compiègne au batch 5, ce qui en fait un mode de défaillance de la série tourisme
+et non un accident : les corps sont justes et vérifiés à leur batch, **ce sont les titres qui ont été
+réalignés sur le corps qu'ils surmontent**, sans toucher une ligne de texte, et les quatre titres
+sans corps ont disparu par la même opération. Ni `tsc` ni `npm run integrity` ne peuvent voir l'écart
+entre un titre et son paragraphe. ⚠️ **Les `tags` du guide citent encore Saint-Savin et le Pinail et
+n'ont volontairement pas été touchés** : ce sont des chaînes de mots-clés qui alimentent les pages
+`/tags/`, et les modifier peut faire disparaître une page de tag. À traiter séparément, avec un
+`sitemap:check`. ⚠️ **Un balayage systématique de la série tourisme sur ce défaut reste à faire** :
+trois occurrences trouvées par hasard en deux batches suggèrent qu'il y en a d'autres parmi les 261
+guides, et le seul contrôle possible est une relecture appariée titre/corps.
+
+Écart FR→EN après ce batch : **7 villes** (chatellerault, annemasse, caen, saint-quentin, dreux,
+beauvais, cambrai) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN**,
+`single-parent-holidays-[city]-2026`. Rappel de la règle du batch 33 tourisme : côté EN le slug se
+dérive du **slug de seed tel quel**, et aucun de ces sept ne porte d'article, donc rien à arbitrer.
+Cinq points de vigilance pour ces jumelles : ① **Caen est de l'histoire britannique et canadienne
+avant d'être de l'histoire française** pour un lecteur anglophone (Guillaume le Conquérant, Sword et
+Juno, le Mémorial), donc la jumelle a de la matière propre là où le guide FR reste sobre, même
+arbitrage qu'avec Dieppe au batch 37 tourisme ; ② **`single-parent-holidays-caen-2026` doit poser que
+les plages du Débarquement ne sont pas dans la ville** dès l'intro, parce que c'est précisément la
+raison pour laquelle un anglophone tape « Caen » ; ③ **la frontière suisse d'Annemasse demande le
+traitement de Thonon** (Schengen sans visa mais pièce d'identité obligatoire, Suisse hors UE et hors
+union douanière donc franchises applicables), et le tram genevois est le meilleur angle du lot ;
+④ **Saint-Quentin (Aisne) doit être désambiguïsé du mont Saint-Quentin de la Somme**, qui revient
+dans les sources anglophones sur 1918, comme le batch 34 tourisme l'avait déjà noté ; ⑤ le lecteur
+étranger ne sait pas qu'**un TER est un train** ni ce que recouvrent « Intercités » et « BHNS » : les
+trois se glosent en une incise, sans quoi la thèse du lot ne passe pas.
+
+Pour le batch FR **suivant**, la règle recalculée laisse **32 candidates** non couvertes hors
+Île-de-France sur l'axe transport ≥ 6,8, le palier suivant étant **6,0 (Cagnes-sur-Mer, Aubagne)**
+puis **5,8 (Illkirch-Graffenstaden)** et **5,7 (Lens, Le Bouscat)**. ⚠️ Ne pas recopier cette liste :
+la recalculer, comme ce run l'a fait, est ce qui a révélé la dérive périurbaine ci-dessus. Et
+**arbitrer d'abord la question de la banlieue** : à partir du palier 5,8, la règle sélectionne
+majoritairement des communes à moins de 10 km d'une ville dont le guide existe déjà.
 
 ### F61 — série monoparentale, batch 5 : `vacances-monoparentales-[ville]-2026` (2026-09-16)
 
