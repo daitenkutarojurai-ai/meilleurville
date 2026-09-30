@@ -1267,6 +1267,76 @@ if (!failed) {
   }
 }
 
+// Sites de CHU (F47) : chaque entrée de `CHU_SITES` doit désigner une ville du
+// seed, et porter SES coordonnées.
+//
+// C'est le garde que le défaut du 2026-09-28 appelait. Jusqu'au 2026-09-30,
+// `lib/healthcare-access.ts` testait l'appartenance du slug de la commune à un
+// `Set` de villes « hébergeant un CHU » ; ce `Set` portait `"saint-denis"` sous
+// le commentaire « CHU DROM », c'est-à-dire **Saint-Denis (Seine-Saint-Denis)**,
+// qui n'a pas de CHU, pendant que `saint-denis-reunion`, qui héberge le site
+// Félix-Guyon, n'y figurait pas. Un `Set` de littéraux est parfaitement bien
+// typé quand il désigne la mauvaise ville, et les deux composites valaient 2,9,
+// donc aucun contrôle sur le score ne pouvait le voir. Même précédent que le
+// garde `EN_EXPAT_COUNTRY_SLUGS`.
+//
+// La table porte désormais un nom de commune ET ses coordonnées : on vérifie
+// les deux l'un par l'autre. Un nom qui ne désigne aucune ville du seed échoue ;
+// un nom juste avec les coordonnées d'une homonyme échoue aussi, ce qui est
+// exactement la forme qu'avait le défaut.
+{
+  const { CHU_SITES, CHU_SITE_COUNT, nearestChuSite } = load("lib/healthcare-access.ts");
+  const { CITIES_SEED } = load("data/cities-seed.ts");
+  const byName = new Map(CITIES_SEED.map((c) => [c.name, c]));
+
+  const offences = [];
+  const seen = new Set();
+  for (const site of CHU_SITES) {
+    const city = byName.get(site.commune);
+    if (!city) {
+      offences.push(`${site.commune} — aucune ville du seed ne porte ce nom`);
+      continue;
+    }
+    if (seen.has(site.commune)) offences.push(`${site.commune} — entrée en double`);
+    seen.add(site.commune);
+    // Tolérance volontairement serrée : les coordonnées sont celles du seed,
+    // recopiées, pas une saisie indépendante. Tout écart est une erreur de
+    // report — typiquement celle d'une commune homonyme.
+    const drift = Math.max(
+      Math.abs(city.latitude - site.lat),
+      Math.abs(city.longitude - site.lng),
+    );
+    if (drift > 0.001) {
+      offences.push(
+        `${site.commune} — coordonnées ${site.lat},${site.lng} au lieu de ` +
+          `${city.latitude},${city.longitude} dans le seed`,
+      );
+      continue;
+    }
+    // La commune d'implantation doit se mesurer à 0 km d'elle-même : c'est ce
+    // qui relie la table au calcul qui la consomme.
+    const d = nearestChuSite(city);
+    if (d.km !== 0) offences.push(`${site.commune} — ${d.km} km de son propre site`);
+  }
+
+  if (offences.length === 0) {
+    console.log(`  ok  CHU ${CHU_SITE_COUNT} communes d'implantation, toutes au seed avec ses coordonnées`);
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  sites de CHU : ${offences.length} entrée(s) invalide(s)\n`);
+    for (const o of offences) console.error(`    ${o}`);
+    console.error(
+      "\n    `CHU_SITES` (lib/healthcare-access.ts) porte les communes d'implantation\n" +
+        "    des sites de CHU et leurs coordonnées, qui doivent être celles que\n" +
+        "    `data/cities-seed.ts` publie pour la commune du même nom. Le défaut que\n" +
+        "    ce garde existe pour attraper est l'homonymie : `\"saint-denis\"` a crédité\n" +
+        "    Saint-Denis (Seine-Saint-Denis) d'un CHU pendant que Saint-Denis (La\n" +
+        "    Réunion), qui en héberge un, n'était pas crédité — sans qu'aucun type ni\n" +
+        "    aucun score ne bronche.\n",
+    );
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

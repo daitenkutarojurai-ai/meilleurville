@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { HEALTH_LEVEL_LABEL, HEALTH_LEVEL_COLOR } from "@/lib/healthcare-access";
+import { HEALTH_LEVEL_LABEL, HEALTH_LEVEL_COLOR, CHU_SITE_COUNT } from "@/lib/healthcare-access";
 import { topBestAccess, topDeserts } from "@/lib/healthcare-access-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -56,7 +56,7 @@ export default function HealthcareHubPage() {
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : médecins généralistes (35 %, densité DREES par dept + override CHU/métropole), spécialistes (25 %, présence CHU > grande agglo > moyenne > rural), urgences/SAU (25 %, présence dans la commune + malus montagne/île), pharmacies (15 %, maillage population × statut urbain). Score 0-10, 10 = excellent accès aux soins. C'est une estimation communale bâtie sur le département, la taille de la commune et la présence hospitalière : les paliers sont calés sur les repères DREES, CNOM et ARS, mais aucun de leurs relevés n'est repris — ce n'est ni un décompte de cabinets, ni le zonage ZIP/ZAC en vigueur.",
+      a: "Composite agrégeant 4 dimensions : médecins généralistes (35 %, palier départemental calé sur les repères DREES, relevé par le statut de métropole), spécialistes (25 %, distance mesurée au site de CHU le plus proche, puis grande agglo > moyenne > rural), urgences/SAU (25 %, même distance au CHU, sinon présence estimée + malus montagne/île), pharmacies (15 %, maillage population × statut urbain). Score 0-10, 10 = excellent accès aux soins. Seule la distance au CHU est mesurée ; le reste est une estimation communale bâtie sur le département et la taille de la commune : les paliers sont calés sur les repères DREES, CNOM et ARS, mais aucun de leurs relevés n'est repris — ce n'est ni un décompte de cabinets, ni le zonage ZIP/ZAC en vigueur.",
     },
     {
       q: "Que faire si je ne trouve pas de médecin traitant ?",
@@ -97,7 +97,7 @@ export default function HealthcareHubPage() {
           Top 30 — villes au meilleur accès aux soins
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Communes hébergeant un CHU, grandes agglomérations bien dotées en MG et spécialistes,
+          Communes proches d&apos;un site de CHU, grandes agglomérations bien dotées en MG et spécialistes,
           maillage urbain dense. Score composite élevé = accès facile.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
@@ -210,18 +210,22 @@ export default function HealthcareHubPage() {
               le département est rangé dans l&apos;un de quatre paliers — désert /
               sous-doté / correct / bien doté — définis d&apos;après les repères DREES
               (sous 80/100k hab. avec plus de la moitié des praticiens au-delà de 60 ans,
-              sous 100/100k, au-delà de 145/100k ou métropole/CHU). Le palier est attribué
+              sous 100/100k, au-delà de 145/100k, ou statut de métropole). Le palier est attribué
               au département ; aucune densité n&apos;est relevée commune par commune.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Spécialistes (25 %)</strong> —
-              ville hébergeant un CHU (28 villes) &gt; grande agglo &gt; ville moyenne &gt; rural.
-              Délais ophtalmo et dermato croissants à mesure qu&apos;on s&apos;éloigne du CHU.
+              distance au site de CHU le plus proche, sur les {CHU_SITE_COUNT} communes
+              d&apos;implantation recensées : plein accès sous 10 km, accès dégradé jusqu&apos;à
+              30 km, puis grande agglo &gt; ville moyenne &gt; rural. La distance est mesurée
+              entre centroïdes de communes ; les délais de rendez-vous ne le sont pas.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Urgences/SAU (25 %)</strong> —
-              présence d&apos;un Service d&apos;Accueil des Urgences dans la commune ou délai
-              d&apos;accès. Malus zone de montagne (enneigement) et zone insulaire (liaisons).
+              la même distance au CHU, sinon la présence estimée d&apos;un Service d&apos;Accueil
+              des Urgences selon la taille de la commune. Malus zone de montagne (enneigement)
+              et zone insulaire (liaisons). La proximité d&apos;un CHU ne peut qu&apos;améliorer
+              ces deux notes, jamais les dégrader.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Pharmacies (15 %)</strong> —

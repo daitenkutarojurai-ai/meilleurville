@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { HEALTH_LEVEL_LABEL, HEALTH_LEVEL_COLOR, type HealthLevel } from "@/lib/healthcare-access";
+import { HEALTH_LEVEL_LABEL, HEALTH_LEVEL_COLOR, CHU_SITE_COUNT, type HealthLevel } from "@/lib/healthcare-access";
 import { topBestAccess, topDeserts } from "@/lib/healthcare-access-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
@@ -76,7 +76,7 @@ export default function HealthcareHubPage() {
     },
     {
       q: "How is this ranking calculated?",
-      a: "Composite of 4 dimensions: GPs (35%, DREES departmental density + university hospital overrides), specialists (25%, university hospital > large agglomeration > medium city > rural), A&E (25%, presence in city + mountain/island penalty), pharmacies (15%, population coverage × urban status). Score 0-10, 10 = excellent access. It is a commune-level estimate built from the department, town size and hospital status: the bands are calibrated against DREES, CNOM and ARS reference figures, but none of their readings are reused — this is neither a count of practices nor the ARS zoning in force.",
+      a: "Composite of 4 dimensions: GPs (35%, departmental band calibrated against DREES reference figures, lifted by metro status), specialists (25%, measured distance to the nearest university-hospital site, then large agglomeration > medium city > rural), A&E (25%, the same distance to a university hospital, otherwise an estimated emergency department by town size + mountain/island penalty), pharmacies (15%, population coverage × urban status). Score 0-10, 10 = excellent access. Only the distance to a university hospital is measured; the rest is a commune-level estimate built from the department and town size: the bands are calibrated against DREES, CNOM and ARS reference figures, but none of their readings are reused — this is neither a count of practices nor the ARS zoning in force.",
     },
     {
       q: "What if I cannot find a GP?",
@@ -116,7 +116,7 @@ export default function HealthcareHubPage() {
           Top 30 — Best healthcare access
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Cities hosting a university hospital, large agglomerations well-equipped with GPs and
+          Cities close to a university-hospital site, large agglomerations well-equipped with GPs and
           specialists, dense urban networks. High composite score = easy access.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
@@ -244,18 +244,20 @@ export default function HealthcareHubPage() {
               <strong className="text-[var(--text-primary)]">GPs (35%)</strong> — the
               department is placed in one of four bands — desert / under-served / adequate /
               well-served — defined from DREES reference figures (below 80/100k with more than
-              half of GPs over 60, below 100/100k, above 145/100k or metro/university hospital).
+              half of GPs over 60, below 100/100k, above 145/100k, or metro status).
               The band is assigned to the department; no density is read town by town.
             </li>
             <li>
-              <strong className="text-[var(--text-primary)]">Specialists (25%)</strong> — city hosts
-              a university hospital (28 cities) &gt; large agglomeration &gt; medium city &gt; rural.
-              Wait times for ophthalmology and dermatology increase the further from a university
-              hospital.
+              <strong className="text-[var(--text-primary)]">Specialists (25%)</strong> — distance
+              to the nearest university-hospital site, across the {CHU_SITE_COUNT} host communes on
+              record: full access under 10 km, degraded access out to 30 km, then large agglomeration
+              &gt; medium city &gt; rural. The distance is measured between commune centroids; wait
+              times are not.
             </li>
             <li>
-              <strong className="text-[var(--text-primary)]">A&E (25%)</strong> — presence of an
-              emergency department in the city or access time. Penalty for mountain zones (snow) and
+              <strong className="text-[var(--text-primary)]">A&E (25%)</strong> — the same distance
+              to a university hospital, otherwise an estimated emergency department by town size.
+              Being near one can only improve these two scores, never lower them. Penalty for mountain zones (snow) and
               island zones (transport links).
             </li>
             <li>

@@ -98,9 +98,10 @@ export default async function EnCityHealthcare({ params }: Props) {
             not disagree on that. `lib/healthcare-access.ts` imports CityLight
             only — no DREES, CNOM or ARS figure is ingested anywhere. */}
         <p className="mt-2 text-xs text-[var(--text-tertiary)]">
-          10 = easiest access. Estimated at commune level from the department, town
-          size and hospital status — calibrated against DREES, CNOM and ARS reference
-          bands, not a count of practices or the ARS zoning in force.
+          10 = easiest access. Only the distance to the nearest university-hospital site
+          is measured; the rest is estimated at commune level from the department and town
+          size — calibrated against DREES, CNOM and ARS reference bands, not a count of
+          practices or the ARS zoning in force.
         </p>
       </section>
 

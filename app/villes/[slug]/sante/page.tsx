@@ -13,6 +13,7 @@ import {
   HEALTH_LEVEL_COLOR,
   HEALTH_LEVEL_BG,
   type HealthDimension,
+  CHU_SITE_COUNT,
 } from "@/lib/healthcare-access";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
@@ -152,7 +153,7 @@ export default async function SantePage({ params }: Props) {
             {(10 - h.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
-          <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = excellent accès aux soins · 0 = désert médical avéré — estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets.</p>
+          <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = excellent accès aux soins · 0 = désert médical avéré — seule la distance au site de CHU le plus proche est mesurée, le reste est une estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{h.signature}</p>
         </Card>
 
@@ -179,15 +180,18 @@ export default async function SantePage({ params }: Props) {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Spécialistes (25 %) :</strong>{" "}
-              présence d&apos;un CHU dans la commune (accès direct) puis dégradé selon
-              la taille de l&apos;agglomération. Cadres de référence : liste des CHU de la
-              Conférence des doyens, atlas démographique du CNOM — les délais de
-              rendez-vous ne sont pas mesurés.
+              distance au site de CHU le plus proche ({CHU_SITE_COUNT} communes
+              d&apos;implantation recensées), puis, au-delà de 30 km, la taille de
+              l&apos;agglomération. La distance est <strong className="text-[var(--text-primary)]">mesurée</strong>{" "}
+              entre centroïdes de communes, au grain du centroïde et pas du porche de
+              l&apos;hôpital ; les délais de rendez-vous, eux, ne sont pas relevés.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Urgences/SAU (25 %) :</strong>{" "}
-              présence d&apos;un SAU dans la commune ou délai d&apos;accès. Pénalité pour
-              zone de montagne (enneigement) et zone insulaire (liaisons).
+              la même distance au CHU, sinon la présence estimée d&apos;un SAU selon la
+              taille de la commune. Pénalité pour zone de montagne (enneigement) et zone
+              insulaire (liaisons). La proximité d&apos;un CHU ne peut qu&apos;améliorer
+              ces deux notes, jamais les dégrader.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Pharmacies (15 %) :</strong>{" "}

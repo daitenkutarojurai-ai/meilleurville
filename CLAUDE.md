@@ -4503,29 +4503,67 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     relevé de cabinets · taux publié · faits enregistrés · annuaire des équipements · note
     d'enquête · décompte terrain). **Garde `moteurs` dans `npm run integrity` : 52 surfaces
     contrôlées.**
-    ⚠️ **Défaut vérifié le 2026-09-28, trouvé en passant et NON corrigé : le `CHU_CITIES` de
-    `lib/healthcare-access.ts` crédite le mauvais Saint-Denis.** Le `Set` porte `"saint-denis"` sous
-    le commentaire « CHU DROM (Martinique, Réunion) », mais ce slug est **Saint-Denis
-    (Seine-Saint-Denis)**, qui n'a pas de CHU (centre hospitalier Delafontaine ; le CHU voisin est
-    Avicenne, à Bobigny) ; La Réunion s'écrit `saint-denis-reunion` et **n'est pas dans le `Set`**,
-    alors qu'elle héberge le CHU site Félix-Guyon. Mesuré à travers le module, pas par lecture du
-    source : Saint-Denis 93 sort `urgences` 1,5 et `spécialistes` 2,0 avec les phrases « CHU avec SAU
-    24/7 dans la commune » et « Ville hébergeant un CHU » rendues sur sa page, quand
-    `saint-denis-reunion` retombe sur le repli générique à 3,0 et 4,0. ⚠️ **Les deux composites
-    valent 2,9, donc un contrôle sur le composite ne voit rien** — c'est la dixième occurrence du
-    piège d'homonymie déjà documenté aux batches 30 à 33 (`saint-denis` 93 contre
-    `saint-denis-reunion`, `saint-louis-reunion-974`). Second défaut de la même ligne de code, plus
-    large : `CHU_CITIES` est un **test binaire d'appartenance sur le slug de la commune**, donc une
-    commune qui héberge réellement un site de CHU sans en porter le nom n'a aucun crédit —
-    **Le Kremlin-Bicêtre** (CHU Bicêtre, AP-HP, nommé dans ses propres `characterTags` de seed) sort
-    `spécialistes` 8,0, c'est-à-dire le niveau « désert ». Même cas pour Bron, Pessac ou
-    Vandœuvre-lès-Nancy. Portée : les phrases rendues sur `/villes/[slug]/sante` et EN
-    `healthcare`, le profil `suivi-medical-regulier` (qui pondère `healthcareAccess` à 3,0) et le red
-    flag `villes-desert-medical`. Le remède n'est pas un correctif d'affichage : c'est une distance à
-    un site de CHU, donc une table de points en dur sur le modèle d'`AIR_HUBS`, et **ça déplace un
-    score sur 540 pages × 2 locales** — à faire dans une passe dédiée, avec un garde qui refuse tout
-    slug de `CHU_CITIES` absent de `CITIES_SEED` (un `Set` de littéraux est bien typé même quand il
-    désigne la mauvaise ville, exactement le précédent du garde `EN_EXPAT_COUNTRY_SLUGS`).
+    ✅ **Corrigé le 2026-09-30, et c'était le plus large des deux : `lib/healthcare-access.ts` ne
+    teste plus l'appartenance d'un slug à un `Set`, il mesure une distance.** Le défaut relevé le
+    28/09 tenait en deux formes. ① `CHU_CITIES` portait `"saint-denis"` sous le commentaire « CHU
+    DROM », or ce slug est **Saint-Denis (Seine-Saint-Denis)**, sans CHU, pendant que
+    `saint-denis-reunion`, qui héberge le site Félix-Guyon, n'y figurait pas — dixième occurrence du
+    piège d'homonymie des batches 30-33, et **les deux composites valaient 2,9**, donc aucun contrôle
+    sur le score ne pouvait le voir. ② Un test sur le slug ne crédite que la commune qui **porte le
+    nom** du CHU : Le Kremlin-Bicêtre (hôpital Bicêtre, AP-HP) sortait **8,0 sur les spécialistes,
+    c'est-à-dire le niveau « désert »**, comme Bron, Pessac, Vandœuvre-lès-Nancy et Créteil. La
+    seconde forme était de loin la plus large — **291 villes sur 540 étaient à 8,0**, contre 205
+    après correction.
+    Le remède est celui que cette note prescrivait : **`CHU_SITES`, 37 communes d'implantation avec
+    leurs coordonnées**, sur le modèle d'`AIR_HUBS` (littéraux en dur — le module est tiré dans le
+    bundle client par `lib/profile-pages.ts`, donc **aucun JSON ne doit y entrer** ; il n'importe
+    toujours que `CityLight`, en `import type`). ⚠️ **Les coordonnées sont celles que
+    `data/cities-seed.ts` publie pour la commune d'implantation, aucune n'est saisie à la main** : la
+    précision est donc celle d'un centroïde de commune, ce qui est aussi le grain des paliers. Deux
+    seuils, `CHU_ON_SITE_KM = 10` (134 villes) et `CHU_REACH_KM = 30` (111 de plus), et **une règle
+    monotone à ne pas défaire : la proximité d'un CHU ne peut qu'améliorer une note, jamais la
+    dégrader** — sans elle, une commune de 60 000 habitants dotée de son propre SAU serait pénalisée
+    par un CHU à 25 km.
+    ⚠️ **Quatre faits vérifiés en ligne avant écriture, et trois corrigent la table héritée** :
+    **Orléans est le 33ᵉ CHU** (CHR érigé en CHU en 2022) et manquait ; le **CHU de la Guadeloupe est
+    implanté aux Abymes**, pas à Pointe-à-Pitre — qui reste pourtant créditée, par la distance
+    (2,9 km) et non par son nom, ce qui est exactement l'intérêt du modèle ; **Cayenne est un CHR
+    depuis un décret de mai 2025, pas un CHU**, et sort donc de la table. Bicêtre au Kremlin-Bicêtre,
+    Brabois à Vandœuvre, Haut-Lévêque à Pessac et le groupement hospitalier Est à Bron sont confirmés
+    par recoupement.
+    **Blast radius mesuré : 213 villes sur 540 voient leur composite bouger, 212 vers un meilleur
+    accès et une seule vers un moins bon — Cayenne (2,9 → 4,3), à 1 438 km du premier CHU.** Niveaux :
+    `facile` 62 → 147, `tendu` 277 → 205, **`desert` inchangé à 22**. Le red flag
+    `villes-desert-medical` passe de 46 à 45 lignes, la seule sortie étant Louviers (22 km de Rouen).
+    ⚠️ **Saint-Denis (93) garde 2,9** : le nombre était accidentellement presque juste, c'est sa
+    justification qui était fausse — il l'obtient désormais par 8,9 km mesurés jusqu'aux sites
+    parisiens. **Un composite stable n'est pas la preuve qu'un modèle est sain.**
+    Prose réalignée dans les deux locales, parce qu'elle décrivait le modèle remplacé : les deux hubs
+    (`/sante`, `/[locale]/healthcare`) annonçaient « ville hébergeant un CHU (**28 villes**) » quand
+    le `Set` en portait 31 — le compte se dérive maintenant de `CHU_SITE_COUNT` ; les bullets
+    méthodologie, le chapeau des deux sous-pages ville et la méthodologie du red flag disent
+    désormais **que seule la distance est mesurée et que le reste reste estimé** (le garde `moteurs`
+    l'exige, et la santé devient un cas mixte comme `demography`). L'intro du profil
+    `suivi-medical-regulier` a été refaite sur mesure : son top 20 est recomposé (Ivry, Vitry,
+    Vincennes, Issy, Levallois, Neuilly et Créteil entrent, aucune n'hébergeant de CHU sous son nom,
+    toutes à moins de 10 km d'un site AP-HP) et **Paris, Marseille et Nice passent des rangs 57ᵉ,
+    163ᵉ et 100ᵉ aux rangs 110ᵉ, 251ᵉ et 189ᵉ**. ✅ Vérifié plutôt que supposé : ses deux enseignements
+    chiffrés **tiennent toujours** — les 22 villes « désert » comptent toutes moins de 15 000
+    habitants (max 14 500) et affichent toutes un m² sous la médiane du site (2 500 €) — et les
+    figures rurales et touristiques citées (Guéret 2,3, Aurillac 3,1, Mende 3,0, Nevers 3,6,
+    Arcachon 3,5, Gordes 3,4, Saint-Tropez 4,2) sont inchangées. Les rangs 16 à 22 partagent 6,9,
+    donc le top 20 coupe un palier en son milieu : publié dans l'intro, comme la section le prescrit.
+    **Garde `CHU` dans `npm run integrity`** : toute entrée de `CHU_SITES` doit nommer une ville du
+    seed **et** porter ses coordonnées, et se mesurer à 0 km d'elle-même — **vérifiée en la faisant
+    échouer** sur le défaut d'origine exact (nom du 93, coordonnées de La Réunion), qu'elle nomme.
+    ⚠️ **Non couvert** : la table ne porte que des **sites français**, donc le CHU le plus proche
+    d'Hendaye sort à 184,8 km (Pessac) alors que Saint-Sébastien est à une trentaine de kilomètres —
+    même limite de frontière que le disque des zones protégées ; un site implanté dans une commune
+    absente du seed (La Tronche, Salouël, Chambray-lès-Tours, Saint-Priest-en-Jarez, Villejuif,
+    Clamart, Bobigny) n'est pas dupliqué, la ville qui donne son nom au CHU le couvrant à quelques
+    kilomètres ; et **aucune mesure de bundle n'a été prise, `esbuild` étant absent du conteneur** —
+    ce qui est établi est que le module n'a gagné **aucun import** (toujours le seul `import type`),
+    donc aucun fichier de données n'entre dans le graphe client.
     ⚠️ **`lib/demography.ts` est le cas mixte et a son propre marqueur** : vieillissement et
     trajectoire **sont mesurés** au recensement Insee (538/540 villes, via
     `lib/city-population`), soit 60 % du composite ; jeunes actifs et renouvellement sont

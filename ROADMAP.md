@@ -9280,6 +9280,99 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ## Shipped 2026-09-30
 
+- **F47 accès aux soins — `CHU_CITIES` créditait la mauvaise ville, et la bonne n'était pas
+  créditée : le test d'appartenance à un `Set` devient une distance mesurée.** C'est le défaut
+  relevé « vérifié, non corrigé » le 28/09, et la passe dédiée que sa note appelait. Deux formes,
+  toutes deux silencieuses. ① Le `Set` de `lib/healthcare-access.ts` portait `"saint-denis"` sous
+  le commentaire « CHU DROM (Martinique, Réunion) », or ce slug est **Saint-Denis
+  (Seine-Saint-Denis)**, qui n'a pas de CHU — c'est le centre hospitalier Delafontaine, le CHU
+  voisin étant Avicenne à Bobigny — pendant que `saint-denis-reunion`, qui héberge le site
+  Félix-Guyon, n'y figurait pas. ⚠️ **Les deux composites valaient 2,9, donc aucun contrôle sur le
+  composite ne pouvait voir l'échange** : dixième occurrence du piège d'homonymie documenté aux
+  batches 30 à 33. ② Un test d'appartenance sur le slug ne crédite que la commune qui **porte le
+  nom** du CHU : Le Kremlin-Bicêtre, qui héberge l'hôpital Bicêtre (AP-HP), sortait **8,0 sur les
+  spécialistes, c'est-à-dire le niveau « désert »**, comme Bron (groupement hospitalier Est des
+  HCL), Pessac (Haut-Lévêque), Vandœuvre-lès-Nancy (Brabois) et Créteil (Henri-Mondor). **La
+  seconde forme était de loin la plus large : 291 villes sur 540 étaient à 8,0, contre 205 après
+  correction.**
+  **Le remède est celui que la note prescrivait** : ce que la dimension veut mesurer n'est pas une
+  limite communale mais une **distance à un plateau technique**. `CHU_SITES` porte donc **37
+  communes d'implantation** avec leurs coordonnées, en littéraux, sur le modèle d'`AIR_HUBS` —
+  le module est tiré dans le bundle client par `lib/profile-pages.ts`, donc aucun JSON ne doit y
+  entrer, et il n'importe toujours que `CityLight`, en `import type`. ⚠️ **Aucune coordonnée n'est
+  saisie à la main : ce sont celles que `data/cities-seed.ts` publie pour la commune
+  d'implantation**, donc la précision est celle d'un centroïde de commune, ce qui est aussi le
+  grain des paliers — on ne mesure pas une distance au porche de l'hôpital, et la copie le dit.
+  Deux seuils, `CHU_ON_SITE_KM = 10` (134 villes) et `CHU_REACH_KM = 30` (111 de plus, 295 au-delà),
+  et **une règle monotone à ne pas défaire : la proximité d'un CHU ne peut qu'améliorer une note,
+  jamais la dégrader** — sans elle, une commune de 60 000 habitants dotée de son propre SAU serait
+  pénalisée par un CHU à 25 km.
+  ⚠️ **Quatre faits vérifiés en ligne avant écriture, et trois corrigent la table héritée.**
+  **Orléans est le 33ᵉ CHU** (son CHR a été érigé en CHU en 2022) et manquait purement et
+  simplement. Le **CHU de la Guadeloupe est implanté aux Abymes**, pas à Pointe-à-Pitre : la table
+  déplace donc le point, et **Pointe-à-Pitre reste créditée — par la distance (2,9 km) et non par
+  son nom**, ce qui est exactement l'intérêt du modèle. **Cayenne est un CHR depuis un décret de
+  mai 2025, pas un CHU**, et sort de la table ; c'est la seule dégradation du run. Bicêtre au
+  Kremlin-Bicêtre, les hôpitaux de Brabois à Vandœuvre-lès-Nancy, Haut-Lévêque à Pessac et le
+  groupement hospitalier Est à Bron sont confirmés par recoupement de plusieurs résultats, méthode
+  retenue depuis le batch 48.
+  **Blast radius mesuré à travers le module, pas estimé : 213 villes sur 540 voient leur composite
+  bouger, 212 vers un meilleur accès et une seule vers un moins bon** — Cayenne (2,9 → 4,3), à
+  1 438 km du premier site de CHU. C'est la signature attendue quand on corrige une classe de faux
+  négatifs. Niveaux : `facile` 62 → 147, `tendu` 277 → 205, `correct` 179 → 166, **`desert`
+  inchangé à 22**. Le red flag `villes-desert-medical` passe de **46 à 45 lignes**, la seule sortie
+  étant Louviers (6,9 → 5,9, à 22 km de Rouen) — une amélioration ne peut faire que rétrécir ce
+  classement, qui sélectionne les composites ≥ 6,5.
+  ⚠️ **Saint-Denis (93) garde 2,9, et c'est le fait à retenir du run.** Le nombre était
+  accidentellement presque juste ; c'est sa justification qui était fausse. Il l'obtient désormais
+  par **8,9 km mesurés** jusqu'aux sites parisiens, et la page ne dit plus « Ville hébergeant un
+  CHU ». **Un composite stable n'est pas la preuve qu'un modèle est sain** — c'est même ce qui a
+  gardé ce défaut invisible.
+  **Prose réalignée dans les deux locales, parce qu'elle décrivait le modèle remplacé.** Les deux
+  hubs annonçaient « ville hébergeant un CHU (**28 villes**) » / « a university hospital (**28
+  cities**) » alors que le `Set` en portait 31 : le compte se dérive maintenant de
+  `CHU_SITE_COUNT`. Les bullets méthodologie de `/sante` et `/[locale]/healthcare`, le chapeau des
+  deux sous-pages ville et la méthodologie du red flag disent désormais **que seule la distance est
+  mesurée et que tout le reste reste estimé** — la santé devient un cas mixte comme `demography`,
+  et le garde `moteurs` (52 surfaces) continue de passer. 🔧 Corrigé au passage, même famille : les
+  deux hubs attribuaient le palier « bien doté » des généralistes à « métropole/CHU » alors que
+  cette dimension **n'a jamais testé la liste des CHU** (`MG_BIEN_DOTE_DEPTS.has(d) || isMetro`).
+  **L'intro du profil `suivi-medical-regulier` a été refaite sur mesure**, son top 20 étant
+  recomposé : Ivry-sur-Seine, Vitry-sur-Seine, Vincennes, Issy-les-Moulineaux, Levallois-Perret,
+  Neuilly-sur-Seine et Créteil entrent, **aucune n'hébergeant de CHU sous son nom et toutes étant à
+  moins de 10 km d'un site AP-HP**, pendant que Grenoble, Tours, Limoges et Rouen reculent à 6,8.
+  **Paris, Marseille et Nice passent des rangs 57ᵉ, 163ᵉ et 100ᵉ aux rangs 110ᵉ, 251ᵉ et 189ᵉ.**
+  ✅ **Vérifié plutôt que supposé** : les deux enseignements chiffrés de cette intro **tiennent
+  toujours** — les 22 villes « désert » comptent toutes moins de 15 000 habitants (max mesuré
+  14 500) et affichent toutes un m² sous la médiane du site (2 500 €) — et les figures rurales et
+  touristiques citées sont inchangées au dixième (Guéret 2,3, Aurillac 3,1, Mende 3,0, Nevers 3,6,
+  Arcachon 3,5, Gordes 3,4, Saint-Tropez 4,2), parce que ces communes sont loin de tout site. Les
+  rangs 16 à 22 partagent 6,9 : le top 20 coupe donc un palier en son milieu, et l'intro le publie,
+  comme la section `lib/profile-pages.ts` le prescrit.
+  **Garde `CHU` dans `npm run integrity`** : toute entrée de `CHU_SITES` doit nommer une ville du
+  seed, porter **ses** coordonnées (tolérance 0,001°) et se mesurer à 0 km d'elle-même. ⚠️ **Elle a
+  été vérifiée en la faisant échouer** sur le défaut d'origine exact — le nom du 93 avec les
+  coordonnées de La Réunion — qu'elle nomme en clair. C'est le garde que la note du 28/09
+  demandait : un `Set` de littéraux est parfaitement bien typé quand il désigne la mauvaise ville,
+  même précédent que `EN_EXPAT_COUNTRY_SLUGS`.
+  ⚠️ **Non couvert, à ne pas lire comme fait** : la table ne porte que des **sites français**, donc
+  le CHU le plus proche d'Hendaye sort à 184,8 km (Pessac) quand Saint-Sébastien est à une
+  trentaine de kilomètres — même limite de frontière que le disque des zones protégées, et elle est
+  écrite dans le fichier ; un site implanté dans une commune absente du seed (La Tronche, Salouël,
+  Chambray-lès-Tours, Saint-Priest-en-Jarez, Villejuif, Clamart, Bobigny) n'est **pas** dupliqué,
+  la ville qui donne son nom au CHU le couvrant à quelques kilomètres, et l'AP-HP compte à elle
+  seule une trentaine de sites franciliens que le point « Paris » représente ; le cœur du modèle
+  reste une **estimation** hors distance ; et **aucune mesure de bundle n'a été prise, `esbuild`
+  étant absent du conteneur** — ce qui est établi est que le module n'a gagné **aucun import**
+  (toujours le seul `import type { CityLight }`), donc aucun fichier de données n'entre dans le
+  graphe client, et la doctrine du projet interdit d'annoncer un chiffre non mesuré.
+  ⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27). Le
+  substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (nouveau
+  garde `CHU` compris, 37 communes), `npm run parity` (**code 0**, 0 route FR sans jumelle),
+  `npm run hreflang:check`, `npm run sitemap:check` (FR **29 301** URL, EN **28 905** — inchangés,
+  aucune route n'est créée), plus une vérification d'encodage (accents intacts, `œ` conservé,
+  aucun mojibake, aucune apostrophe typographique).
+
 - **Parité EN — `things-to-do-in-[city]-2026` batch 53, rattrapage de parité (+7 : Sedan, Corte,
   Les Andelys, Paray-le-Monial, Vitré, Firminy, Noirmoutier).** Les 7 jumelles du batch 52 FR du
   29/09 écrites d'un coup dans `data/guides-en.ts`. **Compteurs mesurés : FR 282, EN 282 — écart
