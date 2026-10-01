@@ -5737,6 +5737,112 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
+### `moving-to-[city]-2026` batch 1 — l'écart de corpus, pris par la série la plus intentionnelle (2026-10-01)
+
+`npm run parity` sort en **code 0** au début comme à la fin du run (FR 221 · EN 166, 0 route FR sans
+jumelle) : la parité de routes tient, donc le run porte sur l'**écart de corpus**, qui est le vrai
+sujet depuis le 09/08. Mesuré ce run plutôt que recopié : **FR 1 198 guides contre EN 1 010**, soit
+188. ⚠️ **Les catégories ne se comparent pas d'une locale à l'autre** — les deux taxonomies sont
+disjointes (`tourisme`/`famille`/`comparaison` côté FR, `city-guide`/`family`/`moving` côté EN), donc
+un diff par `category` affiche des écarts de ±365 qui ne veulent rien dire. L'écart se mesure **par
+série**, en rapprochant les slugs ville par ville.
+
+Le comptage par série donne trois trous nets, et **l'EN est devant sur plusieurs autres** (single-parent
+152 contre 114, studying-in 24 contre 20, retiring-in 21 contre 20, cost-of-living 13 contre 10), ce
+qui interdit de lire les 188 comme une dette uniforme :
+
+| série FR → EN | FR | EN avant | manquantes |
+|---|---|---|---|
+| `demenager-a-X` → `moving-to-X` | 50 | 24 | 26 |
+| `quitter-X-guide` → `leaving-X-where-to-go` | 49 | 19 | 30 |
+| `vivre-a-X` → `X-living-guide` | 48 | 20 | 28 |
+
+⚠️ **Ces trois paires ne se rapprochent pas par un `comm` naïf sur les slugs** : les gabarits ne
+partagent pas leur radical (`quitter-<ville>-**guide**-2026` face à `leaving-<ville>-**where-to-go**-2026`,
+`vivre-a-<ville>-2026` face à `<ville>-**living-guide**-2026`). Un premier diff écrit sans regarder les
+slugs réels a sorti « 51 manquantes sur 51 » et « 38 sur 50 », c'est-à-dire du bruit. **On lit six slugs
+de chaque côté avant d'écrire la regex.**
+
+**`moving-to` est retenue** parce que c'est la plus intentionnelle des trois pour l'audience EN : un
+lecteur à l'étranger tape « moving to Lyon », pas « leaving Lyon ». **Batch 1 (+8 : Aix-en-Provence,
+Antibes, Reims, Tours, Caen, Le Havre, Nîmes, Clermont-Ferrand)** — choisies sur la matière
+anglophone réelle et non sur la population : Antibes porte l'une des plus grandes communautés
+britanniques du sud de la France et la technopole Sophia-Antipolis, Caen et Le Havre sont des ports
+transmanche, Reims et Tours sont les deux meilleurs compromis TGV-Paris du corpus, Aix est le plus
+gros marché cher de province. **`moving-to` passe de 24 à 32, l'écart de 26 à 18 ; `EN_GUIDES`
+1 010 → 1 018.**
+
+⚠️ **Le fait le plus utile du batch est une correction, et elle tombe à un jour près : la liaison
+Portsmouth–Le Havre n'existe plus.** Le guide Le Havre a d'abord été écrit avec le ferry transmanche
+en argument d'accroche, présent dans l'intro, dans la section expédition **et dans la meta
+description**. Vérification avant commit : Brittany Ferries **ferme Portsmouth–Le Havre en octobre
+2026** (et Poole–Cherbourg en novembre), **Portsmouth–Caen via Ouistreham étant explicitement
+maintenue**. Le run tombe le 1ᵉʳ octobre : la page aurait envoyé un lecteur britannique réserver une
+traversée supprimée la veille, exactement le mode de défaillance de l'Hermione absente de Rochefort
+(batch 36). Les trois mentions sont corrigées, et **le guide dit désormais la suppression** plutôt que
+de l'omettre — c'est l'information qu'un lecteur anglophone cherche. Le guide Caen, lui, garde son
+ferry **parce que la vérification l'a confirmé maintenu**, et gagne la précision qu'Ouistreham devient
+le lien normand le plus proche.
+⚠️ **Formulation alignée sur le corpus et non sur la source la plus précise** : les sources donnent
+« fin septembre 2026 » et « octobre 2026 », et **sept guides EN déjà publiés écrivent « closes
+Portsmouth to Le Havre in October 2026 »**. On écrit octobre 2026 des deux côtés — même doctrine que
+le jour de la reddition de Melun (batch 45) et le bilan de la crue de Vaison (batch 46) : on ne publie
+pas une date plus fine que ce sur quoi les sources s'accordent, et on ne fait pas diverger le corpus.
+
+⚠️ **Deux conventions de la série vérifiées dans les guides existants et non supposées, après un
+premier jet qui s'en écartait sur les deux** : la série écrit **`€1,050` et pas « 1,050 euros »**
+(435 occurrences du symbole contre 18 du mot sur les guides `moving-to`), et elle **garde les accents
+des termes français** (`médecin traitant` ×15, `Écusson` ×8, 101 `é`). Le premier jet avait tout
+translittéré en ascii et épelé « euros ». **Une convention de série se mesure sur la série, elle ne se
+déduit pas du fait qu'on écrit en anglais.**
+
+Contrôles de forme, sur les 8 : `metaTitle` **46-53** caractères, `metaDesc` **145-156**, 8 sections,
+**1 156-1 242 mots**, **0 em-dash dans le corps** (les 8 du lot sont les séparateurs de `metaTitle`, que
+CLAUDE.md conserve), accents intacts, aucun `m2` / `EUR` / `deg` ascii, aucun mojibake, aucune
+apostrophe typographique, aucune figure en `/10`, aucun horaire, aucun tarif. Les 8 sont vérifiés
+**retrouvés par `getEnGuide()` depuis le slug de seed**, **pourvus de leur photo d'en-tête**
+(`guideCityPhoto`) et portant **leur ville en 1re position de `relatedCities`**, ce qui est ce qui les
+fait remonter sur la page ville EN — les 21 slugs de `relatedCities` sont contrôlés un à un contre
+`CITIES_SEED` avant insertion, parce qu'un slug inexistant y est parfaitement bien typé et ne casse le
+dépôt qu'au `build` (leçon du 2026-08-08).
+
+Contrôle de figures : **207 figures, 183 retrouvées** dans les jumelles FR. Les 24 restantes sont
+inspectées une à une et **aucune n'est inventée** — ce sont des différences de notation et un ajout
+assumé, à ne pas « corriger » au prochain run : les décennies (`1950`, `1960`, `1970`, `1980`, `1990`)
+rendent les « années 50/60/70/80/90 » du FR, les heures (`7.30`, `17.30`, `19.30`) rendent « 7 h 30 »,
+et **`10070` est le cerfa de la franchise de déménagement**, que CLAUDE.md documente déjà (§ Expat
+retour) et qui relève de la matière propre au lecteur venant de hors UE — il n'a pas de contrepartie
+FR parce qu'un lecteur qui déménage à l'intérieur de la France n'en a pas besoin. La section
+« Shipping your things in from another country » est pour la même raison la seule des huit sans
+jumelle FR.
+
+🔎 **Trouvé en passant, non corrigé, et c'est une dette à traiter dans un run dédié** : les tags EN
+portent **21 couples de variantes orthographiques** pour le même tag, dont `grand-est` (49) contre
+`grand est` (11), `centre-val-de-loire` (15) contre `centre-val de loire` (6), `pays-de-la-loire` (29)
+contre `pays de la loire` (15), `cote d'azur` / `cote d azur` / `cote-dazur` / `cote-d-azur`, et des
+doublons de casse (`Lyon`/`lyon`, `Paris`/`paris`). Le correctif ponctuel du batch 45 sur
+`ile de france` n'a traité qu'une occurrence et **il en reste une**. Chaque variante qui franchit le
+seuil de 3 guides crée une page `/tags/` doublon à côté de la canonique. Le batch n'aggrave rien : les
+40 tags posés reprennent tous l'orthographe **dominante**, et `search-index.en.json` reste à
+**117 tags**, donc **aucune page `/tags/` créée**.
+
+Contrôles : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 1 010 → 1 018, tous les
+gardes verts), `search-index` + `search-index:check`, `npm run sitemap:check` (EN 28 905 → **28 913**,
+soit exactement les 8 guides neufs ; FR inchangé), `npm run hreflang:check`, `npm run parity`
+(**code 0**). `npm run build` **non lancé, volontairement** (cf. CLAUDE.md § Commands depuis le
+batch 27). Note d'environnement reconfirmée : le conteneur de routine démarre **en HEAD détaché et
+sans `node_modules`** — `git checkout main` puis `npm install` d'abord.
+
+**Prochain run** : `moving-to` batch 2, **18 villes restantes**, mesurées et non recopiées : amiens,
+argenteuil, aubervilliers, boulogne-billancourt, brest, le-mans, le-tampon, metz, mulhouse, nancy,
+nanterre, orleans, perpignan, saint-denis, saint-denis-reunion, saint-etienne, saint-paul-reunion,
+villeurbanne. ⚠️ **Piège de
+nommage à l'horizon** : `saint-denis` (93) et `saint-denis-reunion` sont deux villes du seed et la
+règle du batch 33 vaut ici aussi — le slug EN se dérive du **slug de seed tel quel**, donc
+`moving-to-saint-denis-2026` et `moving-to-saint-denis-reunion-2026`, comme la série tourisme l'a déjà
+tranché. Puis `leaving-X-where-to-go` (30) et `X-living-guide` (28). La dette de tags ci-dessus mérite
+son propre run.
+
 ### État au 2026-08-20 — **0 route FR sans jumelle EN** (tenu)
 
 ```

@@ -7759,6 +7759,46 @@
       "emoji": "📦"
     },
     {
+      "slug": "moving-to-aix-en-provence-2026",
+      "title": "Moving to Aix-en-Provence in 2026: the cheap-Provence myth",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-antibes-2026",
+      "title": "Moving to Antibes in 2026: the Sophia commute decides it",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-reims-2026",
+      "title": "Moving to Reims in 2026: a Paris salary on a Reims budget",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-tours-2026",
+      "title": "Moving to Tours in 2026: 55 minutes from Paris, half the rent",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-caen-2026",
+      "title": "Moving to Caen in 2026: the ferry port with a city attached",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-le-havre-2026",
+      "title": "Moving to Le Havre in 2026: a UNESCO centre at €650 a flat",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-nimes-2026",
+      "title": "Moving to Nîmes in 2026: plan the arrival around the heat",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-clermont-ferrand-2026",
+      "title": "Moving to Clermont-Ferrand in 2026: the rail distance filters it",
+      "emoji": "📦"
+    },
+    {
       "slug": "moving-to-rennes-2026",
       "title": "Moving to Rennes in 2026: a metro city that lets in days",
       "emoji": "📦"
@@ -8308,7 +8348,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 214
+      "count": 222
     },
     {
       "slug": "single-parent-in-france",
@@ -8323,12 +8363,12 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 67
+      "count": 68
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 64
+      "count": 65
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -8338,7 +8378,12 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 60
+      "count": 61
+    },
+    {
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 59
     },
     {
       "slug": "single-supplement",
@@ -8371,24 +8416,19 @@
       "count": 51
     },
     {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 51
-    },
-    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
       "count": 49
     },
     {
+      "slug": "cost-of-living",
+      "label": "cost of living",
+      "count": 47
+    },
+    {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
       "count": 44
-    },
-    {
-      "slug": "cost-of-living",
-      "label": "cost of living",
-      "count": 41
     },
     {
       "slug": "single-parent-holidays",
@@ -8406,19 +8446,19 @@
       "count": 34
     },
     {
-      "slug": "job-market-france",
-      "label": "job market france",
-      "count": 32
+      "slug": "normandy",
+      "label": "normandy",
+      "count": 33
     },
     {
       "slug": "provence",
       "label": "provence",
-      "count": 32
+      "count": 33
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 31
+      "slug": "job-market-france",
+      "label": "job market france",
+      "count": 32
     },
     {
       "slug": "provence-alpes-cote-d-azur",
@@ -8451,6 +8491,11 @@
       "count": 22
     },
     {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 22
+    },
+    {
       "slug": "expat-retirement",
       "label": "expat retirement",
       "count": 22
@@ -8459,11 +8504,6 @@
       "slug": "french-school-system",
       "label": "french school system",
       "count": 22
-    },
-    {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 21
     },
     {
       "slug": "moving-to-france-with-children",
@@ -8486,6 +8526,11 @@
       "count": 15
     },
     {
+      "slug": "loire-valley",
+      "label": "loire valley",
+      "count": 15
+    },
+    {
       "slug": "public-transport",
       "label": "public transport",
       "count": 15
@@ -8496,23 +8541,18 @@
       "count": 14
     },
     {
-      "slug": "loire-valley",
-      "label": "loire valley",
-      "count": 14
-    },
-    {
       "slug": "alsace",
       "label": "alsace",
       "count": 13
     },
     {
-      "slug": "bretagne",
-      "label": "bretagne",
-      "count": 12
-    },
-    {
       "slug": "french-riviera",
       "label": "french riviera",
+      "count": 13
+    },
+    {
+      "slug": "bretagne",
+      "label": "bretagne",
       "count": 12
     },
     {
@@ -8611,6 +8651,11 @@
       "count": 7
     },
     {
+      "slug": "champagne",
+      "label": "champagne",
+      "count": 7
+    },
+    {
       "slug": "corsica",
       "label": "corsica",
       "count": 7
@@ -8646,13 +8691,23 @@
       "count": 7
     },
     {
+      "slug": "tours",
+      "label": "tours",
+      "count": 7
+    },
+    {
       "slug": "angers",
       "label": "angers",
       "count": 6
     },
     {
-      "slug": "champagne",
-      "label": "champagne",
+      "slug": "caen",
+      "label": "caen",
+      "count": 6
+    },
+    {
+      "slug": "clermont-ferrand",
+      "label": "clermont ferrand",
       "count": 6
     },
     {
@@ -8686,23 +8741,8 @@
       "count": 6
     },
     {
-      "slug": "tours",
-      "label": "tours",
-      "count": 6
-    },
-    {
       "slug": "basque-country",
       "label": "basque country",
-      "count": 5
-    },
-    {
-      "slug": "caen",
-      "label": "caen",
-      "count": 5
-    },
-    {
-      "slug": "clermont-ferrand",
-      "label": "clermont ferrand",
       "count": 5
     },
     {
@@ -8711,13 +8751,28 @@
       "count": 5
     },
     {
+      "slug": "le-havre",
+      "label": "le havre",
+      "count": 5
+    },
+    {
       "slug": "metz",
       "label": "metz",
       "count": 5
     },
     {
+      "slug": "nimes",
+      "label": "nimes",
+      "count": 5
+    },
+    {
       "slug": "quality-of-life",
       "label": "quality-of-life",
+      "count": 5
+    },
+    {
+      "slug": "reims",
+      "label": "reims",
       "count": 5
     },
     {
@@ -8729,6 +8784,11 @@
       "slug": "toulon",
       "label": "toulon",
       "count": 5
+    },
+    {
+      "slug": "aix-en-provence",
+      "label": "aix-en-provence",
+      "count": 4
     },
     {
       "slug": "annecy",
@@ -8756,11 +8816,6 @@
       "count": 4
     },
     {
-      "slug": "le-havre",
-      "label": "le havre",
-      "count": 4
-    },
-    {
       "slug": "le-mans",
       "label": "le mans",
       "count": 4
@@ -8768,11 +8823,6 @@
     {
       "slug": "nancy",
       "label": "nancy",
-      "count": 4
-    },
-    {
-      "slug": "nimes",
-      "label": "nimes",
       "count": 4
     },
     {
@@ -8786,19 +8836,9 @@
       "count": 4
     },
     {
-      "slug": "reims",
-      "label": "reims",
-      "count": 4
-    },
-    {
       "slug": "rouen",
       "label": "rouen",
       "count": 4
-    },
-    {
-      "slug": "aix-en-provence",
-      "label": "aix-en-provence",
-      "count": 3
     },
     {
       "slug": "avignon",

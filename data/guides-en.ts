@@ -38469,6 +38469,462 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "moving-to-aix-en-provence-2026",
+    title: "Moving to Aix-en-Provence in 2026: the cheap-Provence myth",
+    metaTitle: "Moving to Aix-en-Provence 2026 — Rents, Costs, Moving",
+    metaDesc:
+      "Moving to Aix-en-Provence: what the lease really costs, the September student crush, the mistral and the heat on moving day, and the local traps.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-10-01",
+    updatedAt: "2026-10-01",
+    intro:
+      "Aix-en-Provence sells itself as the affordable Provence alternative to Paris. The rent figures say otherwise: a two-room flat averages €1,050 and buying runs around €5,000 per square metre, up to €8,000 in the Mazarin. The city is zone tendue, a legal shortage designation, it has 40,000 students who empty the market every September, and it sits in a corridor between the Sainte-Victoire and the Trévaresse where the mistral blows a hundred days a year. Marseille is twelve minutes away by TGV, Paris three hours. This guide puts your arrival in order: the lease, the district, moving day, the paperwork, the local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €760 for a studio or one-bedroom, €1,050 for a two-room flat, €1,400 for a three-room. Aix has been zone tendue since 2013, a legal designation for a housing shortage: agency fees are capped at €10 per square metre plus €3 per square metre for the inventory, roughly €585 on a 45 square metre two-room flat, and your notice period as a tenant drops to one month. There is no rent cap as such, unlike Montpellier, but pressure on central and south Aix listings is severe. Forty thousand students across the Aix-Marseille University campuses at Schuman and Cuques, Sciences Po and the art schools saturate the market in September, and furnished student lets go in twenty-four to forty-eight hours in late August. The quiet window is November to February.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is proof of identity, three French payslips, the latest French tax notice and previous rent receipts. An arrival from abroad can produce none of them. Visale, the free rent guarantee from Action Logement, is the standard answer and is widely accepted here; check eligibility on the official site before you start viewing. A signed French employment contract with a letter from the employer works too, as does a French-resident guarantor earning three times the rent. Have the whole file ready as a single PDF before the first viewing, because good listings are decided within the hour. One warning that costs arrivals real money: furnished lets around the Schuman and Cuques campuses are routinely priced €200 to €400 above the reasonable rate in September, so check the local rent observatory before signing. Never send money before a real viewing and a signed lease.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. The Mazarin, south of the cours Mirabeau, is the grand quarter of seventeenth and eighteenth century townhouses and the most expensive address in the city. The Vieil Aix, north of the cours around the place Richelme, is the living historical core, walkable to everything, with the fiercest competition and genuinely exceptional quality. Sextius-Mirabeau and the Rotonde give you contemporary centrality and easy access to the bus station. The Facultés sector, Cuques and Schuman, suits students and young professionals, with the overpricing warning above. Jas-de-Bouffan and Encagnane work for families on a moderate budget: renovated 1970s blocks, frequent buses. Larger families look at Puyricard, Bouc-Bel-Air, Venelles and Meyreuil for houses with a view of the Sainte-Victoire. The classic mistake is signing in northern Marseille or Salon-de-Provence on price alone, because the A51 saturates at peak hours and the commute costs you in time and tolls.",
+      },
+      {
+        heading: "Moving day: the Vieil Aix, the mistral and the heat",
+        body: "Four local constraints. The Vieil Aix pedestrian zone, around the place Richelme, the rue Espariat and the place Verdun, has very narrow medieval and Renaissance streets: you need a temporary occupancy permit from the city, requested one to two weeks ahead, and inside the old walls it is not optional. A furniture lift is close to mandatory above the first floor in the Mazarin townhouses. The mistral blows at 60 to 90 kilometres an hour on roughly a hundred days a year, and you postpone if gusts pass 60, because a mattress on a roof rack is a sail. Summer heat is the other one: July and August run at 32 to 35 degrees in dry air with occasional days at 40, so from late June to early September you move between six and ten in the morning or six and nine at night. Check the Crit'Air emissions sticker on any hired van.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "If your belongings are coming from outside the European Union, the relief you want is the franchise de déménagement, the customs exemption on personal effects. You need to have lived outside the EU for at least twelve months, to have owned the goods for at least six, and to file a detailed inventory with values; the form is cerfa 10070. A removal from inside the EU needs no customs formality at all. Aix is awkward for a large international lorry, because the historic centre cannot take one, and most international movers will tranship to a smaller vehicle, which you want priced in writing beforehand. If your things come by sea, Marseille is the port of entry and sits thirty minutes away, which is the one real logistical advantage of this address. Allow several weeks between docking and clearance, and avoid a July or August delivery.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,050: one month of rent as the deposit, around €990, the first month up front, and the capped agency fee of roughly €585 for 45 square metres including the inventory. The removal runs €500 to €1,000 for a studio coming from within the region, with Marseille thirty minutes away, Avignon an hour and Toulon an hour and a half, and €1,800 to €3,500 for a three-room flat from Paris, 750 kilometres down the A6 and A7 in seven and a half to eight and a half hours. A complete setup for a couple renting runs €3,800 to €6,500, among the highest in provincial France and close to central Bordeaux or Nantes. Budget separately for summer air conditioning and for city-centre parking, which is paid almost everywhere unless you hold a resident permit.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, and fibre coverage across Aix and the Pays d'Aix is good. Home insurance has to be in place before you take the keys, which for a French tenant is a legal obligation and not a formality. Then the grouped change of address on service-public.fr, and re-registering any vehicle within a month. Locally: the Aix en Bus season ticket, which covers the Aixpress bus rapid transit line and reaches Marseille in thirty minutes, the Vhello bike share, and a resident parking permit, which matters because the paid zones cover most of the Vieil Aix and the Mazarin. Registering with a médecin traitant, the declared family doctor who gates your reimbursement rate, is the step arrivals leave too late, and pressure is severe here. The private clinics across the metropolitan area have reasonable waiting times.",
+      },
+      {
+        heading: "The traps specific to Aix-en-Provence",
+        body: "Five. One, underestimating the total budget: once you add rent, summer electricity for air conditioning and parking, Aix is probably the most expensive provincial city in France, and the Parisian who moves here to live more cheaply is a myth unless the remote work is total. Two, the overpriced student lets already covered. Three, the service charges in the Mazarin and the Vieil Aix, which are high because listed facades, shared fountains and collective heating all cost money, so ask for three years of co-ownership meeting minutes before committing. Four, signing on the outlying hills, upper Puyricard, Bibémus or Éguilles, without measuring the daily constraint, because a car becomes compulsory and heating costs more. Five, the opera festival in July, which floods the city, so check the calendar before fixing a moving date. Aix rewards careful preparation and an honestly calibrated budget.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "salon-de-provence"],
+    tags: [
+      "moving to france",
+      "aix-en-provence",
+      "relocation",
+      "provence",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-antibes-2026",
+    title: "Moving to Antibes in 2026: the Sophia commute decides it",
+    metaTitle: "Moving to Antibes 2026 — Rents, Sophia, Moving Day",
+    metaDesc:
+      "Moving to Antibes: rents, the seasonal-let squeeze on long leases, the Sophia-Antipolis commute, moving day inside the ramparts and what it all costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-10-01",
+    updatedAt: "2026-10-01",
+    intro:
+      "Antibes is the second commune of the Alpes-Maritimes after Nice, 75,000 people spread between a walled medieval town, the largest marina in Europe at Port Vauban, the seaside resort of Juan-les-Pins and the pine woods of the Cap. It also sits ten kilometres from Sophia-Antipolis, the technology park that employs some 35,000 people and brings most corporate arrivals here. A two-room flat averages €1,050 and buying runs around €5,200 per square metre. Two things decide whether this address works for you: the holiday-let competition for long leases, and the morning commute to Sophia. This guide covers both.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €750 for a studio or one-bedroom, €1,050 for a two-room flat, €1,450 for a three-room. Antibes is zone tendue, a legal designation for a housing shortage: agency fees are capped at €10 per square metre plus €3 per square metre for the inventory, roughly €585 on a 45 square metre two-room flat, and a tenant's notice drops to one month. There is no rent cap. The structural problem here is not students, it is holiday lets: a large part of the stock is pulled out of the long-term market for July and August, which fragments supply and props prices up all year. Corporate transfers into Sophia-Antipolis tighten the September and January windows further. The quiet stretch is mid-November to mid-February, and September to October, just after the tourist peak, is the best prospecting window.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The standard dossier is identity, three French payslips, the latest French tax notice and past rent receipts, and a new arrival has none of them. Visale, the free Action Logement rent guarantee, is the usual substitute; check eligibility before viewing. If you are being transferred into one of the Sophia employers, a signed contract plus a letter from the employer carries real weight with Antibes landlords, who see a lot of corporate mobility and read it as stability. Say so explicitly in the application. One local check: confirm in writing that the flat is let as a residence principale on a standard twelve-month lease, not as a seasonal let dressed up as a long one. Owners on the coast sometimes expect you out for July and August, and that expectation belongs in the contract or nowhere.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. Vieil-Antibes, the fortified old town around the cours Masséna, the daily Provençal market and the Picasso museum in the Château Grimaldi, is central and in demand all year, with the highest price per square metre but decent studios and two-room flats. Juan-les-Pins gives you beaches on foot and 1960s to 1990s blocks under renovation, with heavy seasonality. Antibes-Centre around the SNCF station puts Nice twenty-five minutes away and Cannes fifteen by regional train, which is the best compromise of price and connection. La Fontonne and Les Semboules are the quieter family sectors, five to ten minutes out by car and cheaper. Cap d'Antibes is the villa peninsula, the most expensive part of the commune and almost without shops. Neighbouring Villeneuve-Loubet, Vallauris-Golfe-Juan and Biot are the cheaper ring.",
+      },
+      {
+        heading: "Moving day: ramparts, the coast road and the season",
+        body: "Three constraints. Vieil-Antibes sits inside Vauban ramparts and its streets, the rue Sade and the rue Fourmillière among them, are too narrow for anything large: a furniture lift is near automatic from the first floor, and a temporary occupancy permit from the city, requested one to two weeks ahead, is essential inside the walls. Some pedestrian streets only open to vehicles in set windows, typically early morning and evening, so check with the municipal police rather than guessing. Second, avoid July and August outright, and avoid the Jazz à Juan weekends in mid-July: the town is full, parking is impossible and a van has nowhere to sit. Third, the coastal D6007 is heavily congested at peak, so stay clear of 7.30 to 9.30 and 17.30 to 19.30. Check the Crit'Air sticker on any hired van.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership of the goods, and a detailed valued inventory on cerfa 10070. Nothing is required for a move from inside the EU. Antibes has a particular advantage and a particular catch. The advantage is that the yachting industry has made this one of the best-served corners of France for international shipping agents, and there is real competition for the work. The catch is the old town, where no full-size lorry can reach the door, so budget for transhipment to a small van and say so when you ask for quotes. If a container is coming by sea, Marseille is the usual port of entry and clearance takes weeks, not days.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,050: a deposit of one month excluding charges, around €990, the first month up front, and capped agency fees of roughly €585 for 45 square metres including the inventory. The removal runs €500 to €900 for a studio from within the region, with Nice twenty-five minutes away by train, Cannes fifteen and Grasse twenty-five by road, and €1,500 to €3,200 for a three-room flat from Paris, 930 kilometres by the A6, A7 and A8, realistically eight to nine hours or two days. A complete setup for a couple renting runs €3,000 to €5,000. Then the running costs that catch people out: the Côte d'Azur runs 10 to 15 per cent above the national average excluding rent, fuel and food in particular, and summer air conditioning is not optional.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre across most of the commune including the old town and Juan-les-Pins. Home insurance before the keys, which is a legal obligation for a French tenant. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the Envibus season ticket, which links Antibes, Sophia-Antipolis, Biot and Vallauris and is reimbursed at half by employers, the Vélo Bleu bike share, and a resident parking permit, which is strongly advisable in Vieil-Antibes and Juan-les-Pins. For a médecin traitant, the declared family doctor who gates your reimbursement rate, register early: the Alpes-Maritimes are under pressure despite the Antibes hospital. One social note that matters to English speakers: the yachting industry has built one of the largest British communities in southern France here, with the associations to match.",
+      },
+      {
+        heading: "The traps specific to Antibes",
+        body: "Five. One, choosing Juan-les-Pins for the beach without weighing the seasonality: summer is loud, with festivals and terraces running late, and from November to March the resort empties and independent shops close for days at a time. Two, underestimating the Sophia-Antipolis commute: ten kilometres takes fifteen minutes off-peak and forty to fifty in the morning rush on the congested RD35, so confirm the hybrid-working policy with your employer before you sign a lease. Three, signing on the seafront at Juan-les-Pins or the Cap without checking coastal flood risk on georisques.gouv.fr and reading the risk statement attached to the lease. Four, signing into a 1960s to 1980s block without reading three years of co-ownership minutes, because several buildings here carry heavy insulation and facade works that reach tenants through the charges. Five, assuming coastal means cheap. It does not.",
+      },
+    ],
+    relatedCities: ["antibes", "nice", "cannes"],
+    tags: [
+      "moving to france",
+      "antibes",
+      "relocation",
+      "french riviera",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-reims-2026",
+    title: "Moving to Reims in 2026: a Paris salary on a Reims budget",
+    metaTitle: "Moving to Reims 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Reims: 45 minutes from Paris by TGV, a two-room flat at €680, the September squeeze, moving day around the cathedral and what arriving costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-10-01",
+    updatedAt: "2026-10-01",
+    intro:
+      "Reims is one of the best-placed French cities for an arrival that keeps Paris within reach: 45 minutes to the Gare de l'Est by TGV, a two-room flat averaging €680, two tram lines structuring a city you can cross on foot, 30,000 students, and a Gothic cathedral where French kings were crowned. Against that, a semi-continental climate with real frosts from November to March, vineyard slopes that complicate any approach from the south, and a rental market that tightens sharply in September. This guide puts your arrival in order: the lease, the district, moving day, the paperwork, the traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €490 for a studio or one-bedroom, €680 for a two-room flat, €900 for a three-room. Reims is not zone tendue in the strict sense for the commune itself, which changes two things in your favour: agency fees fall under the ordinary legal ceiling of €8 per square metre plus €3 per square metre for the inventory, roughly €500 on a 45 square metre flat, and the market is calmer than the headline figures for Paris commuter towns would suggest. Thirty thousand students across the university, the IUT, Sciences Po Reims and the business schools keep pressure moderate rather than severe. The tight window is mid-August to mid-September, when students and TGV commuters compete at once. November to February is calm. Expect competition on central tram-served flats and almost none elsewhere.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three French payslips, the latest French tax notice and previous rent receipts, which an arrival from abroad cannot assemble. Visale, the free rent guarantee from Action Logement, is the standard substitute and is well understood by Reims agencies; check eligibility on the official site first. A signed French contract with an employer's letter works, as does a French-resident guarantor on three times the rent. There is a local pattern worth knowing: a large share of arrivals here are people earning a Paris salary and spending it on a Reims budget, so landlords are used to applications where the employer is in another city. That works in your favour if you say it plainly, and it also means the good central flats near the tram attract strong files. Apply the same day.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. Cathédrale, Cérès and Chanzy form the hyper-centre, trams A and B at the door, cafés and shops, the highest local prices and still reasonable by national standards. Clairmarais, beside Reims-Centre station, is the commuter choice: two minutes on foot from the Paris platform, recent or renovated blocks, tram A direct. Erlon and Boulingrin give you preserved nineteenth-century and art deco character and the most distinctly Rémois atmosphere. Sainte-Anne and Wilson offer the best space for the money, renovated 1960s and 1970s blocks with tram access. Families also look at Tinqueux to the west, Bezannes near the TGV station and Cormontreuil to the south. The classic mistake is signing in Bezannes on the strength of new-build prices without testing how little daily life is there yet.",
+      },
+      {
+        heading: "Moving day: trams, the cathedral quarter and winter",
+        body: "Three constraints. The two tram lines run along the main axes, the avenue de Laon, the avenue Jean Jaurès and the boulevard Foch, so plan where the van sits and keep it out of the reserved lanes. The pedestrian zone around the cathedral, the place du Cardinal Luçon, the rue Libergier and the place Drouet d'Erlon, needs a temporary occupancy permit from the city, requested one to two weeks ahead. The art deco blocks built during the reconstruction after the First World War, which flattened much of Reims, often have narrow staircases, so a furniture lift earns its cost on the central avenues. The city itself is flat south of the Vesle, but the vineyard slopes climb to 200 or 280 metres as soon as you leave, which matters for a long-distance approach in winter. Check the Crit'Air sticker.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "From outside the European Union, the relief is the franchise de déménagement, the customs exemption on personal effects: you must have lived outside the EU for twelve months, owned the goods for six, and filed a valued inventory on cerfa 10070. A move from inside the EU needs no formality. Reims is genuinely easy for this. It sits on the A4, 145 kilometres from Paris, so an international mover routing through the Paris region or through Belgium adds very little, and unlike the Mediterranean cities there is no port clearance to wait on and no old town a lorry cannot enter outside the cathedral quarter. The one thing to plan around is winter: the semi-continental climate brings real frosts and several snow episodes a year, and a long approach over the slopes is the part that goes wrong.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €680: one month of rent as the deposit, around €640, the first month up front, and agency fees at the legal ceiling, roughly €500 for 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Épernay thirty minutes away, Châlons-en-Champagne forty-five and Charleville-Mézières an hour, and €800 to €1,800 for a three-room flat from Paris, 145 kilometres on the A4 in about an hour and three quarters. A complete setup for a couple renting runs €2,200 to €3,800, in the lower range for a French city of this size. Two local lines to provision: winter heating, which runs 15 to 25 per cent above the national average here, and the recurring A4 toll if you commute to Paris by road.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one. Home insurance before the keys, which is a legal obligation for a French tenant rather than a formality. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the CITURA season ticket covering trams A and B and the buses, plus the Zébullo bike share, and a resident parking permit if the car stays on a paid street in the centre. A bicycle makes sense here because the lower town is flat. Register with a médecin traitant, the declared family doctor who sets your reimbursement rate, in the first weeks rather than the first year. If you are commuting to Paris, price the SNCF season ticket separately and early: it is the single line most likely to break the budget you built before arriving.",
+      },
+      {
+        heading: "The traps specific to Reims",
+        body: "Four. One, underestimating the winters. A semi-continental climate means real frosts from November to March, a few snow episodes a year and a heating bill well above the national average, so check insulation, the energy rating and the collective heating charges before signing rather than after. Two, the overpriced furnished student lets around the university and Sciences Po campuses, typically €100 to €200 above the reasonable rate in September. Three, signing in Bezannes or the other new quarters near the TGV station on new-build appeal alone: shops and street life arrive slowly, and a first lease there can feel like exile inside your own metropolitan area. Four, the big events that fill the centre, the June pageant and the Christmas markets among them, which are worth checking before you fix a date. Reims is one of the easiest arrivals in France.",
+      },
+    ],
+    relatedCities: ["reims", "epernay", "chalons-en-champagne"],
+    tags: [
+      "moving to france",
+      "reims",
+      "relocation",
+      "grand-est",
+      "champagne",
+    ],
+  },
+
+  {
+    slug: "moving-to-tours-2026",
+    title: "Moving to Tours in 2026: 55 minutes from Paris, half the rent",
+    metaTitle: "Moving to Tours 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Tours: 55 minutes from Paris by TGV, a two-room flat at €700, a relaxed rental market, moving day in the old town and what arriving costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-10-01",
+    updatedAt: "2026-10-01",
+    intro:
+      "Tours has something rare: 55 minutes to Paris on the high-speed line, which puts it genuinely inside the capital's daily orbit, and a two-room flat averaging €700, half what the same flat costs in Paris. Add an efficient tram line, a pedestrian medieval centre, 30,000 students and the mild Loire valley climate, and you have one of the softest landings in France. The châteaux most English speakers associate with the Loire are on the doorstep rather than in the city. This guide puts the arrival in practical order: the lease, the district, moving day, the paperwork and the local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €510 for a studio or one-bedroom, €700 for a two-room flat, €940 for a three-room. There is no rent cap here and Tours Métropole is not classed zone tendue in the strict sense, so agency fees sit at the ordinary legal ceiling of €8 per square metre plus €3 per square metre for the inventory, roughly €500 on a 45 square metre flat. The market is markedly calmer than Nantes or Angers. Outside the late-August and September university rush, decent flats stay listed for weeks, individual viewings are the norm rather than group visits, and competition on files is reasonable. One local habit works in a foreign arrival's favour: Tours landlords like long leases and are well disposed to Paris commuters, so an application that states that intention explicitly is received well.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The standard dossier is identity, three French payslips, the latest French tax notice and past rent receipts, none of which you will have on arrival from abroad. Visale, the free Action Logement rent guarantee, is the usual answer; check eligibility on the official site before viewing. A signed French contract with an employer's letter works, as does a French-resident guarantor earning three times the rent. Because the market here is relaxed, you have something arrivals in Montpellier or Aix do not: time. Use it. View in person rather than committing from abroad, visit on a weekday morning, and ask about the energy rating before anything else in the old town. The pressure that forces rushed decisions elsewhere does not really exist in Tours outside September, so do not manufacture it.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. The historic centre and Vieux-Tours, around the place Plumereau, the place Jean-Jaurès and the cathedral, is central with tram A at the door, carries the highest local prices and makes an excellent first experiential lease. Les Prébendes-Rabelais is the comfortable residential option, built around its park, ten minutes from the centre and much wanted by families and younger professionals. Les Deux-Lions is new, modern, on tram A, slightly cheaper than the centre and convenient for southern employers and for commuters. Le Sanitas and the north bank at Saint-Symphorien suit tighter budgets, with tram A straight into the centre from Sanitas. Families also look at Joué-lès-Tours and Saint-Cyr-sur-Loire, three or four kilometres out. The classic mistake is signing in La Riche or Chambray-lès-Tours on price without testing the tram connection.",
+      },
+      {
+        heading: "Moving day: the old town, the tram and permits",
+        body: "The logistics here are gentle. The city is flat, the suburban streets are wide, and a van parks without drama in most residential districts. Two points need attention. The Vieux-Tours and the pedestrian sector, the place Plumereau, the rue Colbert and the cathedral quarter, need a temporary occupancy permit from the city, requested one to two weeks ahead, with early morning slots. The tram A rails also change how the centre circulates, so plan the detour rather than discovering it. The half-timbered houses of the old town and the protected sector usually mean a furniture lift unless you are willing to abandon the three-seat sofa. Check the Crit'Air sticker for any hired van in the low-emission zone, which is moderate but active. Best slots: Saturday morning or a weekday before ten, avoiding the May fair.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "From outside the European Union, the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership, and a valued inventory filed on cerfa 10070. Nothing is needed from inside the EU. Tours is one of the simpler French cities to ship into. The A10 runs directly from the Paris region, the distance is short enough to keep quotes down, and the flat suburban street layout means a full-size lorry can usually reach the door outside the protected sector. The exception is the old town, where the medieval street pattern and the pedestrian zone force a transfer to a smaller vehicle: ask for that to be quoted explicitly rather than discovered on the day, and book the occupancy permit at the same time.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €700: a deposit of one month excluding charges, around €660, the first month up front, and agency fees at the legal ceiling, roughly €500 for 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, because the Loire valley is compact and Orléans, Blois, Le Mans and Poitiers are all close, and €900 to €2,100 for a three-room flat from Paris, where the direct A10 and the short distance both work in your favour. A complete setup for a couple renting runs €2,300 to €4,100, among the gentlest of any large French city. If you intend to commute, price the Paris season ticket separately: at €400 to €450 a month it is the line that decides the real budget.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well deployed across Tours and the inner ring. Home insurance before the keys, a legal obligation for a French tenant. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the Fil Bleu season ticket covering tram A and the buses, the Vélociti bike share, and a resident permit if the car stays on a paid street. A bicycle is genuinely useful here given the flat terrain and the Loire-side paths. Register with a médecin traitant, the declared family doctor who gates your reimbursement rate: pressure is moderate for a teaching-hospital city, and the health centres in the outer metropolitan communes still take new patients. If you commute, the local commuter forums are worth joining for the timetable knowledge alone.",
+      },
+      {
+        heading: "The traps specific to Tours",
+        body: "Five. One, romanticising the 55 minutes without pricing the season ticket, which at €400 to €450 a month for a daily return changes the arithmetic completely. Two, signing without checking the flood-risk plan for the Loire and the Cher, because part of the north bank and of Saint-Pierre-des-Corps is in a flood zone, with consequences for insurance and works; read the risk statement attached to the lease. Three, falling for the half-timbered charm of the old town without reading the energy rating, since poorly renovated medieval buildings are frequently the worst performers. Four, the overpriced furnished student lets around the campuses, as everywhere. Five, signing further out at Chambray-lès-Tours or Chinon on price alone: the southern Touraine and the Amboise valley are lovely to visit and poorly served by public transport, so the car becomes compulsory again.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "blois"],
+    tags: [
+      "moving to france",
+      "tours",
+      "relocation",
+      "centre-val-de-loire",
+      "loire valley",
+    ],
+  },
+
+  {
+    slug: "moving-to-caen-2026",
+    title: "Moving to Caen in 2026: the ferry port with a city attached",
+    metaTitle: "Moving to Caen 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Caen: a two-room flat at €700, three tram lines, the sea fifteen minutes away, the Portsmouth ferry, moving day and what arriving really costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-10-01",
+    updatedAt: "2026-10-01",
+    intro:
+      "Caen is one of the easiest large French cities to move into, and for a British arrival it has an advantage no inland city can match: the Portsmouth ferry docks at Ouistreham, fifteen minutes from the centre, so you can arrive with a car and its contents without ever booking a flight. A two-room flat averages €700, three tram lines cover the conurbation, 30,000 students fill the university, the sea is a quarter of an hour away and Paris is two hours by train from Saint-Lazare. The centre was rebuilt in the 1950s after the Battle of Normandy. This guide puts the arrival in order.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €510 for a studio or one-bedroom, €700 for a two-room flat, €930 for a three-room. There is no rent cap and the commune is not zone tendue in the strict sense, so agency fees sit at the ordinary legal ceiling of €8 per square metre plus €3 per square metre for the inventory, roughly €500 on a 45 square metre flat. The market is distinctly calmer than the big western metropolitan areas: outside the university rush, decent flats stay listed for weeks, individual viewings are normal and selection on paperwork is reasonable. The 30,000 students at the university and the engineering and art schools produce a short, sharp tightening in late August and early September around the three campuses. Caen landlords favour long leases and stable tenants, which is a signal worth sending in your application.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three French payslips, the latest French tax notice and past rent receipts, which no arrival from abroad has. Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility on the official site before viewing. A signed French contract with an employer's letter works, as does a French-resident guarantor on three times the rent. Because the market is relaxed here, the pressure that forces bad decisions in Montpellier or Aix is largely absent, so use the time: view in person, view on a weekday morning, and ask specifically about ventilation and the energy rating. That last point is not generic advice in Caen. The oceanic climate is genuinely damp, and a poorly ventilated ground floor on a shaded courtyard will show it within a winter.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. The rebuilt centre, Saint-Pierre and Bourg-l'Abbé around the church of Saint-Étienne, is central with trams T1, T2 and T3 at the door and the highest local prices, which remain modest nationally. Saint-Gilles and Sainte-Thérèse to the south-east form the comfortable residential quarter, ten minutes out and much wanted by families. Vaucelles and Saint-Jean-Eudes give the best space for the money, with a direct tram and 1960s family blocks. Saint-Ouen, La Guérinière and Le Chemin Vert suit tight budgets: renovated large estates, unbeatable rents, decent transport. Families also look at Hérouville-Saint-Clair, Mondeville and Ifs in the immediate ring. The classic mistake is signing at Ouistreham, Cabourg or Douvres-la-Délivrande for the coastal setting without measuring the daily distance, because the car becomes compulsory again.",
+      },
+      {
+        heading: "Moving day: the rebuilt centre, trams and permits",
+        body: "The logistics are gentle. The city is mostly flat apart from the castle and the old town, and the rebuilt centre has wide streets by design, because the 1950s planning was far more generous with road widths than anything medieval. Two points need attention. The pedestrian sector around Saint-Pierre, the rue Saint-Pierre and the place Saint-Sauveur, needs a temporary occupancy permit from the city, requested one to two weeks ahead, with early slots. The three tram lines cross the city and change the circulation, so park the van clear of the reserved lanes. The older buildings around Vieux-Saint-Sauveur have narrow staircases, while the wide avenues of the rebuilt centre are exactly where a furniture lift is easy to deploy. Check the Crit'Air sticker, and avoid the July festival weekend.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership, and a valued inventory on cerfa 10070. Nothing is required from inside the EU, and since the United Kingdom left, a move from Britain is a move from outside it, so the inventory matters. Caen is the one address in this series where you can reasonably do a small move yourself: the ferry from Portsmouth arrives at Ouistreham, fifteen minutes from the centre, and a van with a cabin booking is a serious option for a studio. That crossing also matters more than it used to, because Brittany Ferries closes Portsmouth to Le Havre in October 2026, which leaves Ouistreham as the nearest Normandy link. Book the sailing before the removal date, not after.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €700: a deposit of one month excluding charges, around €660, the first month up front, and agency fees at the legal ceiling, roughly €500 for 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Le Havre an hour away, Rouen an hour and a half and Rennes two and a half, and €1,000 to €2,300 for a three-room flat from Paris, 240 kilometres on the direct A13 in about two and a half hours. A complete setup for a couple renting runs €2,300 to €4,000, among the gentlest of any large French city. The line to provision is winter heating, because the oceanic climate brings frequent rain and high humidity rather than deep cold.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well deployed across the conurbation. Home insurance before the keys, a legal obligation for a French tenant. Then the grouped change of address on service-public.fr and vehicle re-registration within a month, which for a car brought over on the ferry is the step most British arrivals underestimate. Locally: the Twisto season ticket covering the three trams and the buses, the V'eol bike share, and a resident permit if the car stays on a paid street. A bicycle works well here given how flat and well equipped the city is. Register with a médecin traitant, the declared family doctor who gates your reimbursement rate: pressure is moderate for a teaching-hospital city and the health centres in the ring communes still take patients.",
+      },
+      {
+        heading: "The traps specific to Caen",
+        body: "Four. One, underestimating Normandy damp. The oceanic climate means frequent rain and high humidity, which punishes badly ventilated flats and shaded ground floors, so check the mechanical ventilation and the orientation, and view on a weekday morning rather than trusting the listing photographs. Two, the overpriced furnished student lets around the three university campuses in September. Three, signing at Ouistreham or along the coast for the setting without measuring the daily constraint: the car becomes compulsory, the coastal bus is decent but less frequent than a tram, and the roads saturate on summer weekends. Four, the D-Day commemorations in June and the maritime festivals in summer, which close streets and fill car parks for days at a time, so check the calendar before you fix a date. Caen is among the easiest arrivals in western France.",
+      },
+    ],
+    relatedCities: ["caen", "le-havre", "rouen"],
+    tags: [
+      "moving to france",
+      "caen",
+      "relocation",
+      "normandy",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-le-havre-2026",
+    title: "Moving to Le Havre in 2026: a UNESCO centre at €650 a flat",
+    metaTitle: "Moving to Le Havre 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Le Havre: a two-room flat at €650, a UNESCO-listed centre, Paris in 2h05, the wind that dictates moving day, and what the arrival really costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-10-01",
+    updatedAt: "2026-10-01",
+    intro:
+      "Le Havre is the cheapest address in this series and the most architecturally singular. The centre, rebuilt by Auguste Perret after the bombing of 1944, has been on the UNESCO World Heritage list since 2005, and it gives you high ceilings, wide streets and flats full of light for a two-room average of €650. Paris is 2h05 by train from Saint-Lazare, one of the main container ports in France sits on the doorstep, and a compact tramway links the beach, the university and the station. Against that: zone tendue status since 2023, a genuinely windy oceanic climate, and a city split between a lower and an upper town.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €470 for a studio or one-bedroom, €650 for a two-room flat, €870 for a three-room, the lowest of any city in this series. Le Havre became zone tendue in 2023, a legal designation for a housing shortage: agency fees are capped at €10 per square metre plus €3 per square metre for the inventory, roughly €585 on a 45 square metre flat, and a tenant's notice drops to one month. There is no rent cap. Despite the designation, the pressure is milder than in Rouen or Caen, and decent flats stay listed one to three weeks outside the start of term. The 12,000 students concentrate around the Frissard and Caucriauville campuses, which produces a targeted September tightening rather than a city-wide one.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three French payslips, the latest French tax notice and past rent receipts, and an arrival from abroad has none of them. Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility before viewing. A signed French contract with an employer's letter works, as does a French-resident guarantor earning three times the rent. There is a peculiarity here that helps you compare: the Perret reconstruction covers 133 hectares of the centre to standardised plans, so the same layouts recur from one building to the next. That makes it unusually easy to tell whether a flat is fairly priced, because you are genuinely comparing like with like, which is rarely true elsewhere in France. What differs between two identical plans is the floor, the orientation and the state of the windows.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. The rebuilt Perret centre, around the Hôtel de Ville, the avenue Foch and Danton, is the UNESCO-listed part: bright, generously proportioned, trams A and B at the door, the highest local prices and still very low nationally. Saint-Vincent and Saint-François on the port side keep the eighteenth-century blocks the bombing spared, which is the picture-postcard quarter. Sainte-Marie and Danton give the best space for the money in renovated 1960s and 1970s buildings with a direct tram to the centre and the beach. Sanvic and Aplemont are the residential upper town, houses and gardens, much wanted by families for the schools and the access to open country. The classic mistake is signing at Sainte-Adresse or Octeville-sur-Mer for the coastal setting without measuring the winter wind and the daily drive.",
+      },
+      {
+        heading: "Moving day: the Perret centre, the hills and the wind",
+        body: "Three local features. The Perret centre is the easiest place in this series to move into: the 1945 to 1964 plan laid out a wide orthogonal grid with standardised buildings and central stairwells, so a furniture lift is rarely compulsory, though often useful up to the sixth floor. The two tram lines share the roadway on the main axes, the avenue René Coty and the boulevard de Strasbourg, so keep the van out of the reserved lanes. The upper town, Sanvic, Bléville and Aplemont, is reached by a steep ramp, and the funicular will take boxes by hand if the van cannot. Saint-François and the quays need a temporary occupancy permit, requested one to two weeks ahead. The wind is the real variable: above 40 kilometres an hour, which is common from October to March, carrying mattresses and flat panels becomes unsafe.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership, and a valued inventory on cerfa 10070. Nothing is required from inside the EU, and a move from Britain has counted as outside it since Brexit. Le Havre is the easiest arrival in France for a container, because it is one of the country's main ports and the clearance happens where you are landing rather than several hundred kilometres away. That removes both the inland haulage leg and the usual coordination problem. One correction to older advice, because it is changing as you read this: Brittany Ferries closes its Portsmouth to Le Havre route in October 2026, so a self-driven move from southern England now routes through Ouistreham near Caen, or through Calais or Dunkirk. Clearance still takes weeks rather than days, so do not plan around an exact date.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €650: a deposit of one month excluding charges, around €610, the first month up front, and capped agency fees of roughly €585 for 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Rouen and Caen an hour away and Amiens two, and €1,000 to €2,200 for a three-room flat from Paris, 200 kilometres by the A13 and A29 in about two and a quarter hours. A complete setup for a couple renting runs €2,200 to €3,900, among the gentlest in France. Provision for winter heating, because the climate is cool, damp and windy rather than cold, and for the sea air, which attacks window frames on the exposed south-western facades.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one. Home insurance before the keys, which is a legal obligation for a French tenant. Then the grouped change of address on service-public.fr and vehicle re-registration within a month, the step most arrivals who bring a car over on the ferry leave too late. Locally: the LiA season ticket covering trams A and B and the buses, the VéloLiA bike share, and a resident permit if the car stays on a paid street. A bicycle is practical in the flat lower town and much less so up the hill. Register with a médecin traitant, the declared family doctor who gates your reimbursement rate. One thing worth doing early for its own sake: the Perret show flat, which explains the reconstruction you are now living inside better than any guidebook.",
+      },
+      {
+        heading: "The traps specific to Le Havre",
+        body: "Four. One, underestimating the wind. A very exposed oceanic climate changes ordinary things: a badly secured mattress on a roof rack, doors that slam, the daily walk between the tram and the front door. Check the orientation of the flat and whether the balcony is sheltered before you sign. Two, taking a ground floor on a damp courtyard in the rebuilt stock without checking the ventilation, because the damp here finds poorly aired flats quickly. Three, ignoring salt and spray on the south-western facades facing the sea, which matters for the window frames of a rental and not only for a purchase. Four, signing at Octeville-sur-Mer or upper Sainte-Adresse for the setting alone: the car becomes compulsory, heating costs more than in the centre, and the exposure to the wind is frontal.",
+      },
+    ],
+    relatedCities: ["le-havre", "rouen", "caen"],
+    tags: [
+      "moving to france",
+      "le havre",
+      "relocation",
+      "normandy",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-nimes-2026",
+    title: "Moving to Nîmes in 2026: plan the arrival around the heat",
+    metaTitle: "Moving to Nîmes 2026 — Rents, Heat, Moving Day",
+    metaDesc:
+      "Moving to Nîmes: a two-room flat at €720, Roman monuments, the summer heat that dictates moving day, Cévennes flood risk and what arriving really costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-10-01",
+    updatedAt: "2026-10-01",
+    intro:
+      "Nîmes gives you a Roman amphitheatre, the Maison Carrée and the Tour Magne for a two-room flat at €720, which is less than almost any city of comparable standing in the south. Montpellier is thirty minutes away by train and Marseille an hour and twenty. The catch is the climate, and it is not a detail: Nîmes regularly holds the French national temperature record in July, with 34 days above 35 degrees in recent years, and the Gardon has a documented history of flash floods. Both change how you choose a flat and when you move. This guide covers the arrival in order.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €520 for a studio or one-bedroom, €720 for a two-room flat, €960 for a three-room. There is no rent cap and the commune itself is not zone tendue in the strict sense, although some communes in the wider area are, so agency fees sit at the ordinary legal ceiling of €8 per square metre plus €3 per square metre for the inventory, roughly €500 on a 45 square metre flat. Pressure is moderate, driven by 25,000 students and by a September peak. The summer complicates it: from June to September a share of the stock moves into holiday letting, which tightens long-term supply around the arena and the Maison Carrée in particular. A local pattern worth knowing is that many arrivals earn a Montpellier or Marseille salary on a Nîmes budget.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three French payslips, the latest French tax notice and past rent receipts, which an arrival from abroad cannot produce. Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility on the official site before viewing. A signed French contract with an employer's letter works, as does a French-resident guarantor on three times the rent. Two checks matter more here than the paperwork. First, get it in writing that the flat is let as a main residence on a standard lease, because holiday lets around the Roman monuments are commonly offered as long-term from September to May and reclaimed for the summer. Second, ask for the energy rating and look specifically at summer performance, which is the figure that decides whether the flat is liveable in July.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. The Écusson, the historic core inside the boulevards around the arena, the Maison Carrée and the place aux Herbes, is the tourist and restaurant heart with the highest local prices, best suited to a single person or a couple without a car. Feuchères and Jean Jaurès form the calm residential quarter near the station, favoured by families and professionals. Gambetta gives the best space for the money in renovated 1960s and 1970s blocks. The route de Beaucaire and Croix de Fer suit younger arrivals. Families also look at Marguerittes, Caissargues and Saint-Gervasy in the ring for houses. The classic mistake is signing at Vauvert, Beaucaire or Uzès on price and scenery alone, because the car becomes compulsory, the A9 saturates and the summer heat makes the daily trip exhausting.",
+      },
+      {
+        heading: "Moving day: the Écusson, narrow streets and the heat",
+        body: "Three local features. The Écusson has very narrow streets inherited from the Roman and medieval layout and an extended pedestrian zone around the arena and the Maison Carrée: you need a temporary occupancy permit from the city, requested one to two weeks ahead, and inside the boulevards it is essential. A furniture lift is close to automatic above the first floor in the historic fabric. The outer districts take a van far more easily, though parking on the main roads can be awkward. The heat is the real logistical problem. June to September regularly produces days above 35 degrees and peaks above 40, so in July and August you move between six and ten in the morning or six and nine at night, and April, May, October and November are much better months. Watch for the autumn Cévennes storms.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership, and a valued inventory filed on cerfa 10070. A move from inside the EU needs no formality. Nîmes sits on the main southern corridor, so road quotes from the Paris region or from Spain and Italy are competitive, and Marseille is the usual port of entry for anything arriving by sea. Two scheduling points are specific to here. Do not have a container delivered in July or August, because unloading in 40-degree heat is both slow and genuinely unsafe. And avoid September and October for anything time-critical, which is when the Cévennes storms arrive.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €720: a deposit of one month excluding charges, around €680, the first month up front, and agency fees at the legal ceiling, roughly €500 for 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Montpellier thirty minutes away, Avignon and Arles forty-five and Alès forty, and €1,400 to €2,800 for a three-room flat from Paris, 720 kilometres by the A6, A7 and A9 in seven to eight hours. A complete setup for a couple renting runs €2,400 to €4,200, in the lower range nationally. The line to provision that arrivals forget is summer cooling, whether air conditioning or shutters and fans, which here is a running cost rather than a luxury.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one. Home insurance before the keys, a legal obligation for a French tenant and not a formality. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the Tango season ticket covering the T1 and T2 bus rapid transit lines and the bus network, plus the Vél'Ô bike share. A bicycle works on the flat ground south of the boulevards and much less well in the Écusson or to the north, both of which climb. Many arrivals keep a car for the Cévennes and the Camargue at weekends. Register with a médecin traitant, the declared family doctor who sets your reimbursement rate. And read the risk statement attached to your lease properly, which in this city is not boilerplate.",
+      },
+      {
+        heading: "The traps specific to Nîmes",
+        body: "Five. One, underestimating the heat. Nîmes regularly holds the national July record, with 30 to 45 days above 30 degrees per summer and peaks of 42 to 43 in the recent decade, so the energy rating, the wall thickness, the orientation and the shutters matter more than anywhere else in this series: a south-facing flat with no shutters is uninhabitable. Two, ignoring the Cévennes flood risk. The Gardon and its tributaries have produced deadly flash floods, in 1988, 2002 and 2015, and the flood plan is active, so check the address on georisques.gouv.fr before signing, especially on a ground floor. Three, holiday lets disguised as long leases around the monuments. Four, southern service charges, which carry collective cooling and exposed facades. Five, signing in Uzès or the Cévennes without weighing the car dependency. The fabric name denim is usually traced to serge de Nîmes.",
+      },
+    ],
+    relatedCities: ["nimes", "montpellier", "avignon"],
+    tags: [
+      "moving to france",
+      "nimes",
+      "relocation",
+      "occitanie",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "moving-to-clermont-ferrand-2026",
+    title: "Moving to Clermont-Ferrand in 2026: the rail distance filters it",
+    metaTitle: "Moving to Clermont-Ferrand 2026 — Rents and Costs",
+    metaDesc:
+      "Moving to Clermont-Ferrand: a two-room flat at €680, a relaxed market, the volcanoes fifteen minutes away, moving day in the black-stone centre, real costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-10-01",
+    updatedAt: "2026-10-01",
+    intro:
+      "Clermont-Ferrand offers one of the best ratios in France between a working city and what it costs to live there: a two-room flat at €680, an efficient tram line, 36,000 students, Michelin as the historic major employer, and the Auvergne volcanoes fifteen minutes away. The reason it stays affordable is the thing most guides skip: there is no high-speed line, and Paris is 3h30 away. That distance filters out the commuters who have driven prices up in Tours or Reims, which is good news for your rent and bad news if your plan involves regular trips to the capital. This guide puts the arrival in order.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: around €480 for a studio or one-bedroom, €680 for a two-room flat, €900 for a three-room. There is no rent cap and the commune is not zone tendue in the strict sense, so agency fees sit at the ordinary legal ceiling of €8 per square metre plus €3 per square metre for the inventory, roughly €500 on a 45 square metre flat. The market is markedly more relaxed than the French average for a city this size: outside the university rush, decent flats stay listed for weeks, individual viewings are the norm and selection on paperwork is reasonable, with the usual requirement of income at three times the rent or a Visale guarantee. Clermont sees a moderate inflow, far less exposed to the remote-work wave than Nantes or Bordeaux, because the rail distance from Paris does the filtering.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three French payslips, the latest French tax notice and past rent receipts, and an arrival from abroad has none of them. Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility on the official site before viewing. A signed French contract with an employer's letter works, as does a French-resident guarantor earning three times the rent. The useful local fact is that Clermont landlords favour long leases and stable tenants, so a file that signals you intend to stay is read well, more so than one that signals a high income and a short horizon. And because the market is calm, you can afford to view in person and on a weekday rather than committing from abroad on photographs, which is the single best thing any arrival can do.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. The historic centre around the place de Jaude, the black basalt cathedral and the rue des Gras is central, with tram A at the door, the highest local prices and a good first experiential lease. Jaude-Trudaine and Chanturgue are the comfortable residential quarters with a park, ten minutes from the centre, much wanted by younger professionals and families. Delille-Montjuzet and Salins on the north side give the best space for the money with a direct tram. Croix-de-Neyrat and La Gauthière suit tight budgets, with renovated large estates and tram or bus access. Families also look at Aubière, Chamalières and Beaumont in the immediate ring for the schools. The classic mistake is signing at Cournon-d'Auvergne or Riom on price without testing the connection, because the tram stops at the edge of a narrow metropolitan area.",
+      },
+      {
+        heading: "Moving day: the black-stone centre, trams and permits",
+        body: "The logistics are gentle. The city is mostly flat, with the historic centre sitting on a plateau and the faubourgs descending gradually, and a van parks without difficulty in most residential districts. Two points need attention. The historic centre and the pedestrian sector around the cathedral, the place de la Victoire and the rue Blatin need a temporary occupancy permit from the city, requested one to two weeks ahead, with early morning slots. The buildings of Volvic stone, the black volcanic rock that gives the city its colour, are solid, but their stairs are often narrow and winding, so a furniture lift earns its cost on the main avenues. Check the Crit'Air emissions sticker for a hired van in the low-emission zone, which is moderate but active. Best slots: Saturday morning or a weekday before ten.",
+      },
+      {
+        heading: "Shipping your things in from another country",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership of the goods, and a valued inventory on cerfa 10070. Nothing is required from inside the EU. Clermont is inland and has no port, so anything arriving by sea clears at Marseille or Le Havre and then travels by road, which adds a leg and a cost you should have quoted explicitly rather than assumed. By road the A71 runs directly from the Paris region and the 400 kilometres are comfortably a single day. The thing to plan around is winter: the Auvergne winter is real, the approaches climb, and a January or February delivery can be delayed by snow on the plateau.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €680: a deposit of one month excluding charges, around €640, the first month up front, and agency fees at the legal ceiling, roughly €500 for 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Lyon two hours away and Vichy, Montluçon and Saint-Étienne closer, and €1,100 to €2,300 for a three-room flat from Paris, 400 kilometres on the direct A71, comfortably one day. A complete setup for a couple renting runs €2,200 to €4,000, among the gentlest of any large French city. One line is worth provisioning deliberately here: a car. Clermont is one of the few large cities where keeping one is genuinely rational, with Super-Besse forty-five minutes away and the Mont-Dore fifty.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one. Home insurance before the keys, a legal obligation for a French tenant. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the T2C season ticket covering tram A and the buses, which is cheap even by French standards, and a resident permit if the car stays on a paid street in the centre. Register with a médecin traitant, the declared family doctor who gates your reimbursement rate. And one piece of practical advice that is specific to the Auvergne rather than generic: sort winter tyres or snow chains before December rather than during the first cold snap, because January and February here are not symbolic, and the mountain roads that make the city attractive are the ones that close.",
+      },
+      {
+        heading: "The traps specific to Clermont-Ferrand",
+        body: "Five. One, underestimating the rail isolation. Paris in 3h30 with no high-speed line means a day return is possible but tiring, and a twice-weekly commute to the capital is not comfortable, so if your plan is to treat this like Tours, read the timetable before you sign anything. Two, taking a flat in the historic centre without reading the energy rating, because Volvic stone regulates heat well but a badly renovated building is still harsh in January. Three, the overpriced furnished student lets around the Cézeaux and Carnot campuses in September. Four, signing at Cournon or Lempdes on price without testing the connection, because outside the tram A corridor the car becomes necessary. Five, romanticising the mountains and forgetting the winter that comes with them. Clermont rewards an arrival that is settled rather than speculative.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "vichy", "montlucon"],
+    tags: [
+      "moving to france",
+      "clermont-ferrand",
+      "relocation",
+      "auvergne-rhone-alpes",
+      "cost of living",
+    ],
+  },
+
+  {
     slug: "moving-to-rennes-2026",
     title: "Moving to Rennes in 2026: a metro city that lets in days",
     metaTitle: "Moving to Rennes 2026 — Rentals, Costs, Moving Day",
