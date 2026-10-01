@@ -42978,7 +42978,7 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-lyon-2026",
     title: "Parent solo à Lyon en 2026 : la métropole qui rend ça faisable",
     metaTitle: "Parent solo à Lyon 2026 — Budget, écoles, transports",
-    metaDesc: "Élever seul·e à Lyon : T3 à 1 380 €, quatre lignes de métro, écoles publiques denses. Lyon est probablement la meilleure grande métropole française pour un parent solo. Voici pourquoi et à quels prix.",
+    metaDesc: "Élever seul·e à Lyon : T3 à 1 380 €, quatre lignes de métro, écoles 8,9/10, fit 6,6/10 dans un palier de 10 communes. Voici l'arbitrage réel.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -43213,7 +43213,7 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-montpellier-2026",
     title: "Parent solo à Montpellier en 2026 : soleil, tram, et budget qui reste tendu",
     metaTitle: "Parent solo à Montpellier 2026 — Budget, écoles, tram",
-    metaDesc: "Élever seul·e à Montpellier : T3 à 1 150 €, quatre lignes de tram, climat 300 jours de soleil. Un choix rationnel si le revenu suit — pas si le budget est serré.",
+    metaDesc: "Élever seul·e à Montpellier : T3 à 1 150 €, quatre lignes de tram, climat 300 jours de soleil. Un choix rationnel si le revenu suit, pas si le budget est serré.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -43354,7 +43354,7 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-lille-2026",
     title: "Parent solo à Lille en 2026 : la métropole la moins chère du top 10",
     metaTitle: "Parent solo à Lille 2026 — Budget, écoles, métro",
-    metaDesc: "Élever seul·e à Lille : T3 à 1 080 €, deux métros automatiques, écoles 7,9/10. Un des meilleurs rapports coût-transports français, avec des filtres sécurité à faire.",
+    metaDesc: "Élever seul·e à Lille : T3 à 1 080 €, deux métros automatiques, écoles 7,9/10. Un des meilleurs rapports coût-transports, avec un filtre sécurité à faire.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -47968,7 +47968,7 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-rennes-2026",
     title: "Parent solo à Rennes en 2026 : deux lignes de métro et un T3 à 1 100 €",
     metaTitle: "Parent solo à Rennes 2026 — Budget, écoles, métro",
-    metaDesc: "Élever seul·e à Rennes : T3 à 1 100 €, deux lignes de métro depuis 2022, écoles 9,0/10, sécurité 5,9/10. Un des meilleurs candidats français en parent solo — voici l'arbitrage réel.",
+    metaDesc: "Élever seul·e à Rennes : T3 à 1 100 €, deux lignes de métro depuis 2022, écoles 9,0/10, sécurité 5,9/10. Un des meilleurs candidats en parent solo.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -48015,7 +48015,7 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-nancy-2026",
     title: "Parent solo à Nancy en 2026 : T3 à 950 € et cœur baroque compact",
     metaTitle: "Parent solo à Nancy 2026 — Budget, écoles, tram",
-    metaDesc: "Élever seul·e à Nancy : T3 à 950 €, deux lignes tram-BHNS, écoles 7,4/10, coût 6,2/10. Le meilleur rapport coût-écoles-culture pour un parent solo dans le Grand Est.",
+    metaDesc: "Élever seul·e à Nancy : T3 à 950 €, deux lignes tram-BHNS, écoles 7,4/10, coût 6,2/10. L'arbitrage pour un parent solo dans le Grand Est.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -48062,7 +48062,7 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-angers-2026",
     title: "Parent solo à Angers en 2026 : T3 à 1 000 € et douceur angevine",
     metaTitle: "Parent solo à Angers 2026 — Budget, écoles, tram",
-    metaDesc: "Élever seul·e à Angers : T3 à 1 000 €, deux lignes tram, écoles 7,9/10, sécurité 5,7/10. La ville la mieux classée qualité de vie en France, testée sur un budget solo.",
+    metaDesc: "Élever seul·e à Angers : T3 à 1 000 €, deux lignes tram, écoles 7,9/10, sécurité 5,7/10. Qualité de vie 7,2/10, testée sur un budget solo.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -48109,7 +48109,7 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-grenoble-2026",
     title: "Parent solo à Grenoble en 2026 : T3 à 1 020 € et montagne au bout du tram",
     metaTitle: "Parent solo à Grenoble 2026 — Budget, écoles, tram",
-    metaDesc: "Élever seul·e à Grenoble : T3 à 1 020 €, cinq lignes de tram, écoles 9,0/10, air d'hiver à surveiller. Ville plate, cyclable, avec un vrai réseau — l'arbitrage réel.",
+    metaDesc: "Élever seul·e à Grenoble : T3 à 1 020 €, cinq lignes de tram, écoles 9,0/10, air d'hiver à surveiller. Ville plate, cyclable, avec un vrai réseau.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -48297,7 +48297,7 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-aix-en-provence-2026",
     title: "Parent solo à Aix-en-Provence en 2026 : T3 à 1 400 € et soleil à plein temps",
     metaTitle: "Parent solo à Aix 2026 — Budget, écoles, transports",
-    metaDesc: "Élever seul·e à Aix-en-Provence : T3 à 1 400 €, sécurité 5,9/10, écoles 8,3/10, mais coût 3,6/10 — la ville la plus tendue budgétairement de la liste parent solo.",
+    metaDesc: "Élever seul·e à Aix-en-Provence : T3 à 1 400 €, sécurité 5,9/10, écoles 8,3/10, mais coût 3,6/10 : le budget est le point de rupture.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -48438,13 +48438,13 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-villeurbanne-2026",
     title: "Parent solo à Villeurbanne en 2026 : le meilleur réseau de France, à condition d'avoir le revenu",
     metaTitle: "Parent solo à Villeurbanne 2026 — transports, T3, écoles",
-    metaDesc: "Transports 9,0/10, écoles 7,7/10, T3 à 1 150 €. Villeurbanne est 21e sur 363 en fit parent solo, mais demande 3 500 € net. L'arbitrage réel.",
+    metaDesc: "Transports 9,0/10, écoles 7,7/10, T3 à 1 150 €. Villeurbanne est dans un palier de 6 communes en fit parent solo, mais demande 3 500 € net.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
     publishedAt: "2026-08-14",
     updatedAt: "2026-08-14",
-    intro: "Villeurbanne obtient 6,8/10 au composite parent solo du site, ce qui la place 21e sur les 363 communes de plus de 20 000 habitants que classe /parent-solo. Le détail est très déséquilibré : transports 9,0/10, le maximum de l'échelle, écoles 7,7/10, sécurité 5,7/10, mais coût de la vie 5,4/10 seulement (source : data/cities-seed.ts). Autrement dit, la ville résout brillamment le problème de la mobilité quand personne d'autre ne peut aller chercher l'enfant, et le fait payer. Le T3 moyen est à 1 150 € (source : data/housing.ts), ce qui porte le revenu net minimum estimé à 3 500 € par mois selon la règle des 33 % appliquée par lib/parent-solo.ts. C'est le seuil d'entrée le plus élevé de ce lot de neuf villes, et c'est le premier chiffre à regarder avant tout le reste.",
+    intro: "Villeurbanne obtient 6,8/10 au composite parent solo du site, ce qui la place dans un palier de 6 communes sur les 363 de plus de 20 000 habitants que classe /parent-solo. Le détail est très déséquilibré : transports 9,0/10, le maximum de l'échelle, écoles 7,7/10, sécurité 5,7/10, mais coût de la vie 5,4/10 seulement (source : data/cities-seed.ts). Autrement dit, la ville résout brillamment le problème de la mobilité quand personne d'autre ne peut aller chercher l'enfant, et le fait payer. Le T3 moyen est à 1 150 € (source : data/housing.ts), ce qui porte le revenu net minimum estimé à 3 500 € par mois selon la règle des 33 % appliquée par lib/parent-solo.ts. C'est le seuil d'entrée le plus élevé de ce lot de neuf villes, et c'est le premier chiffre à regarder avant tout le reste.",
     sections: [
       {
         heading: "Ce que dit le calcul, et où il coince",
@@ -48485,13 +48485,13 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-besancon-2026",
     title: "Parent solo à Besançon en 2026 : la ville compacte qui fait gagner du temps",
     metaTitle: "Parent solo à Besançon 2026 — T3, tram, écoles, sécurité",
-    metaDesc: "Fit parent solo 6,6/10, 28e sur 363. T3 à 900 €, écoles 7,4/10, tram depuis 2014, revenu minimum 2 750 €. Le calcul complet pour Besançon.",
+    metaDesc: "Fit parent solo 6,6/10, palier de 10 communes. T3 à 900 €, écoles 7,4/10, tram depuis 2014, revenu minimum 2 750 €. Le calcul complet pour Besançon.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
     updatedAt: "2026-08-14",
-    intro: "Besançon obtient 6,6/10 au composite parent solo et se classe 28e sur les 363 communes de plus de 20 000 habitants. C'est un profil rare parce qu'il n'a pas de trou : coût 6,4/10, transports 7,0/10, écoles 7,4/10, sécurité 5,7/10 (source : data/cities-seed.ts). Aucun de ces quatre axes ne descend sous 5,7, ce qui est exactement ce qu'on cherche quand on est seul à tout porter, où un seul point faible suffit à faire dérailler une semaine. Le T3 moyen est à 900 € et l'achat à 2 300 € le mètre carré (source : data/housing.ts), ce qui fixe le revenu net minimum estimé à 2 750 € par mois. Soit 750 € de moins qu'à Villeurbanne pour trois points de transports en moins.",
+    intro: "Besançon obtient 6,6/10 au composite parent solo et se classe dans un palier de 10 communes sur les 363 de plus de 20 000 habitants. C'est un profil rare parce qu'il n'a pas de trou : coût 6,4/10, transports 7,0/10, écoles 7,4/10, sécurité 5,7/10 (source : data/cities-seed.ts). Aucun de ces quatre axes ne descend sous 5,7, ce qui est exactement ce qu'on cherche quand on est seul à tout porter, où un seul point faible suffit à faire dérailler une semaine. Le T3 moyen est à 900 € et l'achat à 2 300 € le mètre carré (source : data/housing.ts), ce qui fixe le revenu net minimum estimé à 2 750 € par mois. Soit 750 € de moins qu'à Villeurbanne pour trois points de transports en moins.",
     sections: [
       {
         heading: "Un profil sans trou, ce qui est plus rare qu'il n'y paraît",
@@ -48532,13 +48532,13 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-caen-2026",
     title: "Parent solo à Caen en 2026 : la meilleure sécurité du lot, à 930 € le T3",
     metaTitle: "Parent solo à Caen 2026 — sécurité, T3, écoles, tram",
-    metaDesc: "Fit 6,6/10, 29e sur 363. Sécurité 5,9/10, écoles 7,4/10, T3 à 930 €, revenu minimum 2 800 €. Ce que Caen change vraiment quand on élève seul.",
+    metaDesc: "Fit 6,6/10, palier de 10 communes. Sécurité 5,9/10, écoles 7,4/10, T3 à 930 €, revenu minimum 2 800 €. Ce que Caen change vraiment quand on élève seul.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
     updatedAt: "2026-08-14",
-    intro: "Caen obtient 6,6/10 au composite parent solo, 29e sur 363 communes classées. Son argument principal tient en un chiffre : 5,9/10 en sécurité, le meilleur score des neuf villes de ce batch après Limoges, et le meilleur parmi celles qui dépassent 100 000 habitants (source : data/cities-seed.ts). Le reste suit sans faiblesse : écoles 7,4/10, transports 7,0/10, coût de la vie 6,2/10. Le T3 moyen est à 930 € et l'achat à 2 500 € le mètre carré (source : data/housing.ts), ce qui place le revenu net minimum estimé à 2 800 € par mois. À quinze kilomètres de la mer, avec un tramway sur rail depuis 2019 et un CHU qui structure l'emploi, c'est un des dossiers les plus équilibrés du classement.",
+    intro: "Caen obtient 6,6/10 au composite parent solo, dans un palier de 10 communes sur 363 classées. Son argument principal tient en un chiffre : 5,9/10 en sécurité, le meilleur score des neuf villes de ce batch après Limoges, et le meilleur parmi celles qui dépassent 100 000 habitants (source : data/cities-seed.ts). Le reste suit sans faiblesse : écoles 7,4/10, transports 7,0/10, coût de la vie 6,2/10. Le T3 moyen est à 930 € et l'achat à 2 500 € le mètre carré (source : data/housing.ts), ce qui place le revenu net minimum estimé à 2 800 € par mois. À quinze kilomètres de la mer, avec un tramway sur rail depuis 2019 et un CHU qui structure l'emploi, c'est un des dossiers les plus équilibrés du classement.",
     sections: [
       {
         heading: "Pourquoi la sécurité pèse autant dans ce calcul",
@@ -48585,11 +48585,11 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2026-08-14",
     updatedAt: "2026-08-14",
-    intro: "Brest obtient 6,5/10 au composite parent solo et se classe 38e sur les 363 communes de plus de 20 000 habitants. Le chiffre qui la distingue n'est pas dans le composite : c'est le rapport entre son score écoles, 7,4/10, et son loyer T3 moyen, 850 € (sources : data/cities-seed.ts et data/housing.ts). Cela fait 115 € de loyer par point d'écoles, le meilleur ratio des neuf villes de ce batch, devant Tours à 119 € et Besançon à 122 €. Le revenu net minimum estimé tombe à 2 600 € par mois, soit 900 € de moins qu'à Villeurbanne. La contrepartie n'est pas dans les scores, elle est géographique : Brest est à la pointe du Finistère, et ce n'est pas un détail quand on organise seul la vie d'un enfant.",
+    intro: "Brest obtient 6,5/10 au composite parent solo et se classe dans un palier de 14 communes sur les 363 de plus de 20 000 habitants. Le chiffre qui la distingue n'est pas dans le composite : c'est le rapport entre son score écoles, 7,4/10, et son loyer T3 moyen, 850 € (sources : data/cities-seed.ts et data/housing.ts). Cela fait 115 € de loyer par point d'écoles, le meilleur ratio des neuf villes de ce batch, devant Tours à 119 € et Besançon à 122 €. Le revenu net minimum estimé tombe à 2 600 € par mois, soit 900 € de moins qu'à Villeurbanne. La contrepartie n'est pas dans les scores, elle est géographique : Brest est à la pointe du Finistère, et ce n'est pas un détail quand on organise seul la vie d'un enfant.",
     sections: [
       {
         heading: "Le calcul : quatre axes sans point noir",
-        body: "Brest affiche coût 6,4/10, transports 6,4/10, écoles 7,4/10 et sécurité 5,7/10 (source : data/cities-seed.ts). Comme Besançon, elle n'a pas de trou : son axe le plus bas reste à 5,7, et l'amplitude entre son meilleur et son moins bon axe se limite à 1,7 point. Son score global tous axes confondus est de 6,4/10, sa nature 6,4/10 et sa qualité de vie 6,2/10. Ce profil régulier vaut mieux, pour un parent seul, qu'un pic sur un axe compensé par un creux sur un autre, parce que le quotidien casse toujours par le maillon faible. La position au classement, 38e sur 363, la place dans les quarante premières communes classées, ce qui est cohérent avec un composite de 6,5/10 dans la catégorie « Bien ».",
+        body: "Brest affiche coût 6,4/10, transports 6,4/10, écoles 7,4/10 et sécurité 5,7/10 (source : data/cities-seed.ts). Comme Besançon, elle n'a pas de trou : son axe le plus bas reste à 5,7, et l'amplitude entre son meilleur et son moins bon axe se limite à 1,7 point. Son score global tous axes confondus est de 6,4/10, sa nature 6,4/10 et sa qualité de vie 6,2/10. Ce profil régulier vaut mieux, pour un parent seul, qu'un pic sur un axe compensé par un creux sur un autre, parce que le quotidien casse toujours par le maillon faible. La position au classement, dans un palier de 14 communes à 6,5/10, la place dans les cinquante premières communes classées, ce qui est cohérent avec un composite de 6,5/10 dans la catégorie « Bien ».",
       },
       {
         heading: "T3 à 850 € : le loyer le plus bas des villes bien notées",
@@ -48632,7 +48632,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2026-08-14",
     updatedAt: "2026-08-14",
-    intro: "Tours obtient 6,5/10 au composite parent solo, 49e sur les 363 communes de plus de 20 000 habitants classées. Son point fort est net : 7,9/10 en écoles, le meilleur score des neuf villes de ce batch et un des plus élevés de France (source : data/cities-seed.ts). Le reste se tient, avec transports 7,0/10 et sécurité 5,5/10, mais le coût de la vie décroche un peu à 5,9/10. Le T3 moyen est à 940 € et l'achat à 2 700 € le mètre carré (source : data/housing.ts), ce qui fixe le revenu net minimum estimé à 2 850 € par mois. À une heure de Paris en TGV, avec un tramway depuis 2013, Tours est le compromis « ville moyenne bien équipée sans être coupée de la capitale » le plus abouti du lot.",
+    intro: "Tours obtient 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 classées de plus de 20 000 habitants. Son point fort est net : 7,9/10 en écoles, le meilleur score des neuf villes de ce batch et un des plus élevés de France (source : data/cities-seed.ts). Le reste se tient, avec transports 7,0/10 et sécurité 5,5/10, mais le coût de la vie décroche un peu à 5,9/10. Le T3 moyen est à 940 € et l'achat à 2 700 € le mètre carré (source : data/housing.ts), ce qui fixe le revenu net minimum estimé à 2 850 € par mois. À une heure de Paris en TGV, avec un tramway depuis 2013, Tours est le compromis « ville moyenne bien équipée sans être coupée de la capitale » le plus abouti du lot.",
     sections: [
       {
         heading: "7,9/10 en écoles : ce que ça vaut concrètement",
@@ -48679,7 +48679,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2026-08-14",
     updatedAt: "2026-08-14",
-    intro: "Limoges obtient 6,4/10 au composite parent solo, 55e sur les 363 communes classées. Sa particularité est le croisement de deux axes que la plupart des villes abordables ne réussissent pas ensemble : coût de la vie 7,1/10 et sécurité 6,1/10 (source : data/cities-seed.ts). C'est la seule des neuf villes de ce batch où les deux dépassent 6, et la sécurité y est la meilleure des neuf. Le T3 moyen est à 800 € et l'achat à 1 600 € le mètre carré, le deuxième prix le plus bas du lot (source : data/housing.ts) ; le revenu net minimum estimé tombe à 2 400 € par mois. Ce que Limoges ne fournit pas, ce sont les transports (6,1/10) et les écoles (6,2/10), et c'est là que se joue l'arbitrage.",
+    intro: "Limoges obtient 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 classées. Sa particularité est le croisement de deux axes que la plupart des villes abordables ne réussissent pas ensemble : coût de la vie 7,1/10 et sécurité 6,1/10 (source : data/cities-seed.ts). C'est la seule des neuf villes de ce batch où les deux dépassent 6, et la sécurité y est la meilleure des neuf. Le T3 moyen est à 800 € et l'achat à 1 600 € le mètre carré, le deuxième prix le plus bas du lot (source : data/housing.ts) ; le revenu net minimum estimé tombe à 2 400 € par mois. Ce que Limoges ne fournit pas, ce sont les transports (6,1/10) et les écoles (6,2/10), et c'est là que se joue l'arbitrage.",
     sections: [
       {
         heading: "Le croisement coût-sécurité, et pourquoi il est rare",
@@ -48726,7 +48726,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2026-08-14",
     updatedAt: "2026-08-14",
-    intro: "Clermont-Ferrand obtient 6,3/10 au composite parent solo, 67e sur les 363 communes de plus de 20 000 habitants classées, dans la catégorie « Correct ». Le détail est équilibré sans excellence : coût 6,4/10, transports 6,4/10, écoles 7,0/10, sécurité 5,5/10 (source : data/cities-seed.ts). Ce qui la distingue dans ce batch se lit sur un axe qui ne compte pas dans le composite mais compte dans la vie, la nature à 7,2/10, le meilleur score des neuf villes. Le T3 moyen est à 900 € et l'achat à 2 400 € le mètre carré (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois, identique à celui de Besançon.",
+    intro: "Clermont-Ferrand obtient 6,3/10 au composite parent solo, dans un palier de 16 communes sur les 363 classées de plus de 20 000 habitants, dans la catégorie « Correct ». Le détail est équilibré sans excellence : coût 6,4/10, transports 6,4/10, écoles 7,0/10, sécurité 5,5/10 (source : data/cities-seed.ts). Ce qui la distingue dans ce batch se lit sur un axe qui ne compte pas dans le composite mais compte dans la vie, la nature à 7,2/10, le meilleur score des neuf villes. Le T3 moyen est à 900 € et l'achat à 2 400 € le mètre carré (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois, identique à celui de Besançon.",
     sections: [
       {
         heading: "Le calcul : correct partout, remarquable nulle part",
@@ -48773,7 +48773,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2026-08-14",
     updatedAt: "2026-08-14",
-    intro: "Saint-Étienne obtient 6,0/10 au composite parent solo, 116e sur les 363 communes de plus de 20 000 habitants classées. Le dossier est frontalement asymétrique : coût de la vie 7,1/10, le meilleur du batch à égalité avec Limoges, et sécurité 4,3/10, le plus bas des neuf (source : data/cities-seed.ts). Entre les deux, transports 6,7/10 et écoles 5,8/10. Le T3 moyen est à 770 € et le mètre carré à l'achat à 1 500 €, les deux prix les plus bas du lot (source : data/housing.ts) ; le revenu net minimum estimé descend à 2 350 € par mois. C'est un vrai choix, pas une évidence, et il mérite d'être posé en chiffres plutôt qu'en impressions.",
+    intro: "Saint-Étienne obtient 6,0/10 au composite parent solo, dans un palier de 12 communes sur les 363 classées de plus de 20 000 habitants. Le dossier est frontalement asymétrique : coût de la vie 7,1/10, le meilleur du batch à égalité avec Limoges, et sécurité 4,3/10, le plus bas des neuf (source : data/cities-seed.ts). Entre les deux, transports 6,7/10 et écoles 5,8/10. Le T3 moyen est à 770 € et le mètre carré à l'achat à 1 500 €, les deux prix les plus bas du lot (source : data/housing.ts) ; le revenu net minimum estimé descend à 2 350 € par mois. C'est un vrai choix, pas une évidence, et il mérite d'être posé en chiffres plutôt qu'en impressions.",
     sections: [
       {
         heading: "L'écart de loyer, en euros et sur une année",
@@ -48814,13 +48814,13 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-le-havre-2026",
     title: "Parent solo au Havre en 2026 : la mer, l'achat à 2 000 € le m², et deux axes qui coincent",
     metaTitle: "Parent solo au Havre 2026 — T3 870 €, achat, écoles, tram",
-    metaDesc: "Fit 5,7/10, 162e sur 363. T3 à 870 €, achat à 2 000 €/m², mais sécurité 4,5/10 et écoles 5,8/10. Le calcul honnête pour un parent seul.",
+    metaDesc: "Fit 5,7/10, palier de 13 communes. T3 à 870 €, achat à 2 000 €/m², mais sécurité 4,5/10 et écoles 5,8/10. Le calcul honnête pour un parent seul.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
     updatedAt: "2026-08-14",
-    intro: "Le Havre est la plus peuplée des villes de ce batch avec 172 000 habitants, et la moins bien classée : 5,7/10 au composite parent solo, 162e sur les 363 communes de plus de 20 000 habitants, tout juste au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail explique pourquoi : coût de la vie 6,3/10 et transports 6,2/10 sont corrects, mais écoles 5,8/10 et sécurité 4,5/10 pèsent lourd puisque ces deux axes cumulent la moitié du poids du composite (source : data/cities-seed.ts). Le T3 moyen est à 870 € et le mètre carré à l'achat à 2 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Voici ce que ces chiffres impliquent, sans arrondir les angles.",
+    intro: "Le Havre est la plus peuplée des villes de ce batch avec 172 000 habitants, et la moins bien classée : 5,7/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, tout juste au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail explique pourquoi : coût de la vie 6,3/10 et transports 6,2/10 sont corrects, mais écoles 5,8/10 et sécurité 4,5/10 pèsent lourd puisque ces deux axes cumulent la moitié du poids du composite (source : data/cities-seed.ts). Le T3 moyen est à 870 € et le mètre carré à l'achat à 2 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Voici ce que ces chiffres impliquent, sans arrondir les angles.",
     sections: [
       {
         heading: "Où le composite décroche, et de combien",
@@ -49296,17 +49296,17 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Poitiers en 2026 : le meilleur rapport écoles-loyer du classement",
     metaTitle: "Parent solo à Poitiers 2026 — T3 880 €, écoles 7,4/10",
     metaDesc:
-      "Fit 6,5/10, 46e sur 363. T3 à 880 €, écoles 7,4/10 : 119 € de loyer par point, le meilleur ratio de ce batch. Le calcul complet sur un seul revenu.",
+      "Fit 6,5/10, palier de 14 communes. T3 à 880 €, écoles 7,4/10 : 119 € de loyer par point, le meilleur ratio de ce batch. Le calcul complet sur un seul revenu.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Poitiers est la plus petite ville de ce batch avec 89 250 habitants, et la mieux classée : 6,5/10 au composite parent solo, 46e sur les 363 communes de plus de 20 000 habitants, un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail se tient sur les quatre axes : coût de la vie 6,6/10, écoles 7,4/10, transports 6,4/10, sécurité 5,7/10 (source : data/cities-seed.ts). Aucun de ces chiffres n'est spectaculaire, et c'est précisément ce qui fait le résultat : le composite pénalise lourdement les villes qui décrochent sur un axe, et Poitiers ne décroche nulle part. Le T3 moyen est à 880 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Voici ce que ces chiffres impliquent concrètement quand il n'y a qu'un salaire et qu'un conducteur.",
+      "Poitiers est la plus petite ville de ce batch avec 89 250 habitants, et la mieux classée : 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 de plus de 20 000 habitants, un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail se tient sur les quatre axes : coût de la vie 6,6/10, écoles 7,4/10, transports 6,4/10, sécurité 5,7/10 (source : data/cities-seed.ts). Aucun de ces chiffres n'est spectaculaire, et c'est précisément ce qui fait le résultat : le composite pénalise lourdement les villes qui décrochent sur un axe, et Poitiers ne décroche nulle part. Le T3 moyen est à 880 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Voici ce que ces chiffres impliquent concrètement quand il n'y a qu'un salaire et qu'un conducteur.",
     sections: [
       {
-        heading: "Pourquoi Poitiers sort 46e sur 363",
+        heading: "Pourquoi Poitiers sort à 6,5/10",
         body: "Le composite parent solo pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Ces poids sont ceux du profil correspondant de City Match, et ils traduisent une situation précise : un seul revenu, donc le coût compte plus que tout ; un seul conducteur, donc les transports comptent réellement ; et pas de second adulte pour absorber un imprévu scolaire ou un quartier qui pose problème. Poitiers marque 6,6/10 sur l'axe le plus lourd et 7,4/10 sur les écoles, ce qui suffit à la porter au-dessus des trois quarts du classement sans qu'elle soit première nulle part. C'est la mécanique qu'il faut comprendre avant de lire n'importe quel classement de ce site : une ville régulière bat une ville brillante et bancale. Poitiers est quatrième de Nouvelle-Aquitaine sur 28 communes éligibles, derrière Anglet, Brive-la-Gaillarde et Châtellerault, qui la devance de peu à 6,5 également. Ses autres axes, hors composite : score global 6,1/10, qualité de vie 5,9/10, culture 6,2/10, nature 5,0/10, télétravail 5,8/10.",
       },
       {
@@ -49345,14 +49345,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Annecy en 2026 : le meilleur dossier du batch, et le plus inaccessible",
     metaTitle: "Parent solo à Annecy 2026 — il faut 4 150 € net pour un T3",
     metaDesc:
-      "Fit 6,2/10, 80e sur 363. Écoles 8,7/10 et sécurité 7,3/10, les meilleures du batch. Mais T3 à 1 450 € : le seuil d'entrée est de 4 150 € net par mois.",
+      "Fit 6,2/10, palier de 13 communes. Écoles 8,7/10 et sécurité 7,3/10, les meilleures du batch. Mais T3 à 1 450 € : le seuil d'entrée est de 4 150 € net par mois.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Annecy compte 131 282 habitants et sort 6,2/10 au composite parent solo, 80e sur les 363 communes de plus de 20 000 habitants, largement au-dessus de la médiane du classement à 5,5/10. Le détail est le plus déséquilibré de ce batch : écoles 8,7/10 et sécurité 7,3/10, les deux meilleures valeurs des dix villes traitées ici, transports 6,4/10, et coût de la vie 3,1/10, la plus mauvaise (source : data/cities-seed.ts). Le T3 moyen est à 1 450 € et le mètre carré à l'achat à 5 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 4 150 € par mois. Ce guide existe surtout pour poser ce chiffre. Annecy est la démonstration qu'un bon score composite et un dossier finançable sur un seul salaire sont deux questions différentes, et qu'il vaut mieux le savoir avant de faire trois cents kilomètres pour une visite.",
+      "Annecy compte 131 282 habitants et sort 6,2/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, largement au-dessus de la médiane du classement à 5,5/10. Le détail est le plus déséquilibré de ce batch : écoles 8,7/10 et sécurité 7,3/10, les deux meilleures valeurs des dix villes traitées ici, transports 6,4/10, et coût de la vie 3,1/10, la plus mauvaise (source : data/cities-seed.ts). Le T3 moyen est à 1 450 € et le mètre carré à l'achat à 5 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 4 150 € par mois. Ce guide existe surtout pour poser ce chiffre. Annecy est la démonstration qu'un bon score composite et un dossier finançable sur un seul salaire sont deux questions différentes, et qu'il vaut mieux le savoir avant de faire trois cents kilomètres pour une visite.",
     sections: [
       {
         heading: "Un composite qui a raison et qui ne suffit pas",
@@ -49394,14 +49394,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Orléans en 2026 : le tram, Paris à portée, et 2 800 € net pour un T3",
     metaTitle: "Parent solo à Orléans 2026 — T3 930 €, tram, écoles 6,6",
     metaDesc:
-      "Fit 6,1/10, 102e sur 363. T3 à 930 €, écoles 6,6/10, transports 6,4/10 et deux lignes de tram. Ce que ça donne avec un seul revenu et un seul conducteur.",
+      "Fit 6,1/10, palier de 13 communes. T3 à 930 €, écoles 6,6/10, transports 6,4/10 et deux lignes de tram. Le calcul sur un seul revenu.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Orléans compte 115 754 habitants et obtient 6,1/10 au composite parent solo, 102e sur les 363 communes de plus de 20 000 habitants, nettement au-dessus de la médiane du classement fixée à 5,5/10. Les quatre axes se tiennent : coût de la vie 6,2/10, écoles 6,6/10, transports 6,4/10, sécurité 5,1/10 (source : data/cities-seed.ts). Le T3 moyen est à 930 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 800 € par mois. Orléans est le cas typique de la ville que personne ne cite spontanément dans une conversation sur les villes où élever un enfant seul, et qui sort pourtant dans le premier tiers du classement. Voici ce que les chiffres disent, y compris là où ils ne sont pas flatteurs.",
+      "Orléans compte 115 754 habitants et obtient 6,1/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, nettement au-dessus de la médiane du classement fixée à 5,5/10. Les quatre axes se tiennent : coût de la vie 6,2/10, écoles 6,6/10, transports 6,4/10, sécurité 5,1/10 (source : data/cities-seed.ts). Le T3 moyen est à 930 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 800 € par mois. Orléans est le cas typique de la ville que personne ne cite spontanément dans une conversation sur les villes où élever un enfant seul, et qui sort pourtant dans le premier tiers du classement. Voici ce que les chiffres disent, y compris là où ils ne sont pas flatteurs.",
     sections: [
       {
         heading: "Où le composite se tient, et où il plie",
@@ -49443,14 +49443,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo au Mans en 2026 : 1 900 € le mètre carré, un tram, et un seul revenu",
     metaTitle: "Parent solo au Mans 2026 — T3 870 €, achat à 1 900 €/m²",
     metaDesc:
-      "Fit 6,0/10, 110e sur 363. T3 à 870 €, achat à 1 900 €/m², tram et TGV. Écoles 6,2/10, sécurité 5,3/10 : le calcul complet pour un parent seul.",
+      "Fit 6,0/10, palier de 12 communes. T3 à 870 €, achat à 1 900 €/m², tram et TGV. Écoles 6,2/10, sécurité 5,3/10 : le calcul complet pour un parent seul.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Le Mans compte 148 141 habitants et obtient 6,0/10 au composite parent solo, 110e sur les 363 communes de plus de 20 000 habitants, un demi-point au-dessus de la médiane du classement établie à 5,5/10. Le détail : coût de la vie 6,4/10, écoles 6,2/10, transports 6,1/10, sécurité 5,3/10 (source : data/cities-seed.ts). Aucun axe ne brille, aucun ne s'effondre, et c'est ce profil régulier que le composite récompense. Le T3 moyen est à 870 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Ce prix d'achat est le deuxième plus bas de ce batch après Mulhouse, et c'est autour de lui que tourne l'essentiel de l'intérêt du dossier manceau pour un parent seul.",
+      "Le Mans compte 148 141 habitants et obtient 6,0/10 au composite parent solo, dans un palier de 12 communes sur les 363 de plus de 20 000 habitants, un demi-point au-dessus de la médiane du classement établie à 5,5/10. Le détail : coût de la vie 6,4/10, écoles 6,2/10, transports 6,1/10, sécurité 5,3/10 (source : data/cities-seed.ts). Aucun axe ne brille, aucun ne s'effondre, et c'est ce profil régulier que le composite récompense. Le T3 moyen est à 870 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Ce prix d'achat est le deuxième plus bas de ce batch après Mulhouse, et c'est autour de lui que tourne l'essentiel de l'intérêt du dossier manceau pour un parent seul.",
     sections: [
       {
         heading: "Un dossier sans trou, ce qui est plus rare qu'il n'y paraît",
@@ -49492,14 +49492,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Amiens en 2026 : de bonnes écoles, un loyer bas, et une sécurité à 4,5",
     metaTitle: "Parent solo à Amiens 2026 — T3 900 €, écoles 6,6/10",
     metaDesc:
-      "Fit 5,9/10, 119e sur 363. T3 à 900 € et écoles 6,6/10, soit 136 € par point. Mais sécurité 4,5/10 : l'arbitrage posé sans détour pour un seul revenu.",
+      "Fit 5,9/10, palier de 19 communes. T3 à 900 € et écoles 6,6/10, soit 136 € par point. Mais sécurité 4,5/10 : l'arbitrage posé sans détour pour un seul revenu.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Amiens compte 134 057 habitants et sort 5,9/10 au composite parent solo, 119e sur les 363 communes de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,5/10. Le détail est plus contrasté que le résultat ne le suggère : coût de la vie 6,4/10 et écoles 6,6/10 tirent vers le haut, transports 6,1/10 suit, et sécurité 4,5/10 pèse lourd puisque cet axe compte pour un quart du composite (source : data/cities-seed.ts). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. Le dossier amiénois a une particularité utile : c'est le meilleur score d'écoles du batch après Annecy et Poitiers, obtenu à un prix de logement de ville moyenne. Reste à savoir ce que coûte l'autre côté du bilan.",
+      "Amiens compte 134 057 habitants et sort 5,9/10 au composite parent solo, dans un palier de 19 communes sur les 363 de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,5/10. Le détail est plus contrasté que le résultat ne le suggère : coût de la vie 6,4/10 et écoles 6,6/10 tirent vers le haut, transports 6,1/10 suit, et sécurité 4,5/10 pèse lourd puisque cet axe compte pour un quart du composite (source : data/cities-seed.ts). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. Le dossier amiénois a une particularité utile : c'est le meilleur score d'écoles du batch après Annecy et Poitiers, obtenu à un prix de logement de ville moyenne. Reste à savoir ce que coûte l'autre côté du bilan.",
     sections: [
       {
         heading: "Deux axes qui portent, un qui coûte",
@@ -49541,14 +49541,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Mulhouse en 2026 : le logement le moins cher du batch, et pourquoi",
     metaTitle: "Parent solo à Mulhouse 2026 — T3 780 €, tram, achat 1 700 €",
     metaDesc:
-      "Fit 5,9/10, 126e sur 363. T3 à 780 € et achat à 1 700 €/m², les plus bas du batch. Transports 7,0/10, sécurité 4,5/10 : l'arbitrage, chiffres à l'appui.",
+      "Fit 5,9/10, palier de 19 communes. T3 à 780 € et achat à 1 700 €/m², les plus bas du batch. Transports 7,0/10, sécurité 4,5/10 : l'arbitrage chiffré.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Mulhouse compte 108 000 habitants et obtient 5,9/10 au composite parent solo, 126e sur les 363 communes de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,5/10. Le détail : transports 7,0/10, la meilleure valeur des dix villes de ce batch, coût de la vie 6,4/10, écoles 5,8/10, sécurité 4,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 780 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), soit les deux montants les plus bas de tout ce batch, pour un revenu net minimum estimé à 2 350 € par mois. Un T3 sous 800 € dans une ville de plus de 100 000 habitants équipée d'un tramway est une combinaison rare, et elle mérite qu'on explique à la fois ce qu'elle permet et ce qu'elle recouvre.",
+      "Mulhouse compte 108 000 habitants et obtient 5,9/10 au composite parent solo, dans un palier de 19 communes sur les 363 de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,5/10. Le détail : transports 7,0/10, la meilleure valeur des dix villes de ce batch, coût de la vie 6,4/10, écoles 5,8/10, sécurité 4,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 780 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), soit les deux montants les plus bas de tout ce batch, pour un revenu net minimum estimé à 2 350 € par mois. Un T3 sous 800 € dans une ville de plus de 100 000 habitants équipée d'un tramway est une combinaison rare, et elle mérite qu'on explique à la fois ce qu'elle permet et ce qu'elle recouvre.",
     sections: [
       {
         heading: "Le meilleur score de transports du batch",
@@ -49590,14 +49590,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Dunkerque en 2026 : les transports gratuits et le loyer le plus bas du batch",
     metaTitle: "Parent solo à Dunkerque 2026 — T3 750 €, bus gratuit",
     metaDesc:
-      "Fit 5,7/10, 158e sur 363. T3 à 750 € et seuil d'entrée à 2 250 €, les plus bas du batch. Bus gratuit depuis 2018, sécurité 4,5/10 : le calcul honnête.",
+      "Fit 5,7/10, palier de 13 communes. T3 à 750 € et seuil d'entrée à 2 250 €, les plus bas du batch. Bus gratuit depuis 2018, sécurité 4,5/10 : le calcul honnête.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Dunkerque compte 90 000 habitants et obtient 5,7/10 au composite parent solo, 158e sur les 363 communes de plus de 20 000 habitants, juste au-dessus de la médiane du classement établie à 5,5/10. Le détail : coût de la vie 6,4/10, transports 6,1/10, écoles 5,8/10, sécurité 4,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 750 € et le mètre carré à l'achat à 1 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 250 € par mois, le seuil d'entrée le plus bas des dix villes de ce batch. À ce chiffre s'ajoute une donnée qui n'apparaît dans aucun de nos axes et qui pèse pourtant lourd sur un budget à un seul revenu : le réseau de bus de l'agglomération est gratuit pour tous depuis 2018. Voici ce que l'ensemble donne.",
+      "Dunkerque compte 90 000 habitants et obtient 5,7/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, juste au-dessus de la médiane du classement établie à 5,5/10. Le détail : coût de la vie 6,4/10, transports 6,1/10, écoles 5,8/10, sécurité 4,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 750 € et le mètre carré à l'achat à 1 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 250 € par mois, le seuil d'entrée le plus bas des dix villes de ce batch. À ce chiffre s'ajoute une donnée qui n'apparaît dans aucun de nos axes et qui pèse pourtant lourd sur un budget à un seul revenu : le réseau de bus de l'agglomération est gratuit pour tous depuis 2018. Voici ce que l'ensemble donne.",
     sections: [
       {
         heading: "2 250 € net : le seuil d'entrée le plus bas du batch",
@@ -49639,14 +49639,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Nîmes en 2026 : le soleil ne compense pas le classement",
     metaTitle: "Parent solo à Nîmes 2026 — T3 960 €, sécurité 3,9/10",
     metaDesc:
-      "Fit 5,3/10, 224e sur 363, sous la médiane. T3 à 960 €, écoles 5,3/10, sécurité 3,9/10 : 181 € de loyer par point. L'arbitrage posé sans arrondir.",
+      "Fit 5,3/10, palier de 16 communes, sous la médiane. T3 à 960 €, écoles 5,3/10, sécurité 3,9/10 : 181 € de loyer par point. L'arbitrage posé sans arrondir.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Nîmes compte 153 005 habitants et obtient 5,3/10 au composite parent solo, 224e sur les 363 communes de plus de 20 000 habitants, sous la médiane du classement qui se situe à 5,5/10. Le détail : coût de la vie 5,9/10, transports 6,1/10, écoles 5,3/10, sécurité 3,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 960 € et le mètre carré à l'achat à 2 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 900 € par mois. C'est le deuxième loyer le plus élevé de ce batch après Annecy, associé au troisième plus mauvais score d'écoles, ce qui produit le ratio le moins favorable du lot après Perpignan. Ce guide dit pourquoi le dossier nîmois est difficile pour un parent seul, ce qui n'est pas la même chose que dire que Nîmes est une mauvaise ville.",
+      "Nîmes compte 153 005 habitants et obtient 5,3/10 au composite parent solo, dans un palier de 16 communes sur les 363 de plus de 20 000 habitants, sous la médiane du classement qui se situe à 5,5/10. Le détail : coût de la vie 5,9/10, transports 6,1/10, écoles 5,3/10, sécurité 3,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 960 € et le mètre carré à l'achat à 2 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 900 € par mois. C'est le deuxième loyer le plus élevé de ce batch après Annecy, associé au troisième plus mauvais score d'écoles, ce qui produit le ratio le moins favorable du lot après Perpignan. Ce guide dit pourquoi le dossier nîmois est difficile pour un parent seul, ce qui n'est pas la même chose que dire que Nîmes est une mauvaise ville.",
     sections: [
       {
         heading: "Où le composite décroche, et de combien",
@@ -49688,14 +49688,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Perpignan en 2026 : le dossier métropolitain le plus difficile du batch",
     metaTitle: "Parent solo à Perpignan 2026 — T3 870 €, écoles 4,5/10",
     metaDesc:
-      "Fit 5,0/10, 263e sur 363. Écoles 4,5/10 et sécurité 3,7/10, les plus basses du batch, pour un T3 à 870 €. Ce que le loyer bas ne compense pas.",
+      "Fit 5,0/10, palier de 11 communes. Écoles 4,5/10 et sécurité 3,7/10, les plus basses du batch, pour un T3 à 870 €. Ce que le loyer bas ne compense pas.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Perpignan compte 121 875 habitants et obtient 5,0/10 au composite parent solo, 263e sur les 363 communes de plus de 20 000 habitants, un demi-point sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,2/10, transports 5,5/10, écoles 4,5/10, sécurité 3,7/10 (source : data/cities-seed.ts). Ces deux dernières valeurs sont les plus basses des dix villes de ce batch, et elles pèsent ensemble la moitié du composite. Le T3 moyen est à 870 € et le mètre carré à l'achat à 2 300 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Le loyer est bas, et ce guide explique pourquoi cela ne suffit pas à faire un bon dossier de parent solo, avec les chiffres qui le montrent.",
+      "Perpignan compte 121 875 habitants et obtient 5,0/10 au composite parent solo, dans un palier de 11 communes sur les 363 de plus de 20 000 habitants, un demi-point sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,2/10, transports 5,5/10, écoles 4,5/10, sécurité 3,7/10 (source : data/cities-seed.ts). Ces deux dernières valeurs sont les plus basses des dix villes de ce batch, et elles pèsent ensemble la moitié du composite. Le T3 moyen est à 870 € et le mètre carré à l'achat à 2 300 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Le loyer est bas, et ce guide explique pourquoi cela ne suffit pas à faire un bon dossier de parent solo, avec les chiffres qui le montrent.",
     sections: [
       {
         heading: "193 € par point d'écoles : le pire ratio du batch",
@@ -49737,14 +49737,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Saint-Denis de La Réunion en 2026 : la vie chère, la voiture, et l'éloignement",
     metaTitle: "Parent solo à Saint-Denis (974) 2026 — T3 900 €, voiture",
     metaDesc:
-      "Fit 4,8/10, 287e sur 363. Coût 4,1/10 et transports 4,7/10, les plus bas du batch, pour un T3 à 900 €. Le premier guide outre-mer de la série.",
+      "Fit 4,8/10, palier de 11 communes. Coût 4,1/10 et transports 4,7/10, les plus bas du batch, pour un T3 à 900 €. Le premier guide outre-mer de la série.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
     updatedAt: "2026-08-16",
     intro:
-      "Saint-Denis de La Réunion compte 153 810 habitants, ce qui en fait la ville la plus peuplée de ce batch, et elle obtient 4,8/10 au composite parent solo, 287e sur les 363 communes de plus de 20 000 habitants, nettement sous la médiane du classement fixée à 5,5/10. Le détail : écoles 5,5/10, sécurité 4,9/10, transports 4,7/10 et coût de la vie 4,1/10, ces deux dernières valeurs étant les plus basses des dix villes de ce batch (source : data/cities-seed.ts). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 550 € par mois. C'est le premier guide outre-mer de cette série, et il existe parce que la série était entièrement métropolitaine alors que huit communes réunionnaises figurent au classement.",
+      "Saint-Denis de La Réunion compte 153 810 habitants, ce qui en fait la ville la plus peuplée de ce batch, et elle obtient 4,8/10 au composite parent solo, dans un palier de 11 communes sur les 363 de plus de 20 000 habitants, nettement sous la médiane du classement fixée à 5,5/10. Le détail : écoles 5,5/10, sécurité 4,9/10, transports 4,7/10 et coût de la vie 4,1/10, ces deux dernières valeurs étant les plus basses des dix villes de ce batch (source : data/cities-seed.ts). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 550 € par mois. C'est le premier guide outre-mer de cette série, et il existe parce que la série était entièrement métropolitaine alors que huit communes réunionnaises figurent au classement.",
     sections: [
       {
         heading: "Le meilleur dossier de son département, et ce que ça dit",
@@ -49786,17 +49786,17 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Saint-Paul (La Réunion) en 2026 : 2 550 € et une voiture qui ne se supprime pas",
     metaTitle: "Parent solo à Saint-Paul 974 — T3 900 €, fit 4,4/10",
     metaDesc:
-      "Fit 4,4/10, 325e sur 363. T3 à 900 €, transports 4,0/10 : la voiture est une charge fixe, pas une variable. Le calcul complet sur un seul revenu.",
+      "Fit 4,4/10, palier de 13 communes. T3 à 900 €, transports 4,0/10 : la voiture est une charge fixe, pas une variable. Le calcul complet sur un seul revenu.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
     updatedAt: "2026-08-23",
     intro:
-      "Saint-Paul est la commune la plus peuplée de ce batch avec 106 220 habitants au recensement 2022 (source : data/city-population.json), et la moins bien classée : 4,4/10 au composite parent solo, 325e sur les 363 communes de plus de 20 000 habitants, plus d'un point sous la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes : coût de la vie 4,1/10, transports 4,0/10, écoles 4,9/10, sécurité 4,7/10 (source : data/cities-seed.ts). Aucun des quatre n'atteint la moyenne, et c'est ce qui produit le résultat : le composite parent solo ne récompense pas les points forts d'une ville, il sanctionne les axes qui décrochent, et Saint-Paul décroche partout où ce profil est vulnérable. Ses points forts existent pourtant, et ils sont réels : nature 8,5/10, qualité de vie 6,8/10. Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 550 € par mois. Voici ce que ces chiffres impliquent quand il n'y a qu'un salaire, qu'un conducteur, et pas de relais à moins de 9 000 kilomètres.",
+      "Saint-Paul est la commune la plus peuplée de ce batch avec 106 220 habitants au recensement 2022 (source : data/city-population.json), et la moins bien classée : 4,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, plus d'un point sous la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes : coût de la vie 4,1/10, transports 4,0/10, écoles 4,9/10, sécurité 4,7/10 (source : data/cities-seed.ts). Aucun des quatre n'atteint la moyenne, et c'est ce qui produit le résultat : le composite parent solo ne récompense pas les points forts d'une ville, il sanctionne les axes qui décrochent, et Saint-Paul décroche partout où ce profil est vulnérable. Ses points forts existent pourtant, et ils sont réels : nature 8,5/10, qualité de vie 6,8/10. Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 550 € par mois. Voici ce que ces chiffres impliquent quand il n'y a qu'un salaire, qu'un conducteur, et pas de relais à moins de 9 000 kilomètres.",
     sections: [
       {
-        heading: "Pourquoi Saint-Paul sort 325e sur 363",
+        heading: "Pourquoi Saint-Paul sort à 4,4/10",
         body: "Le composite parent solo pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20 : ce sont les poids du profil correspondant de City Match, et ils décrivent une situation précise — un seul revenu, un seul conducteur, personne pour absorber l'imprévu. Saint-Paul marque 4,1/10 sur l'axe le plus lourd et 4,0/10 sur les transports, elle est donc pénalisée deux fois sur la moitié de la pondération. Ce qui la sauverait dans un classement généraliste ne compte pas ici : la nature à 8,5/10, troisième meilleur score du batch, ne paie ni le loyer ni le trajet de l'école. Son score global tous axes confondus est de 5,3/10, presque un point au-dessus de son fit parent solo, et cet écart est exactement la mesure de ce que ce profil coûte. À l'intérieur de La Réunion, Saint-Paul est 4e des 8 communes éligibles, derrière Le Tampon et Saint-Pierre à 4,9 et Saint-Denis à 4,8, devant Saint-Benoît et Saint-Joseph à 4,3. Le constat posé dans le guide de Saint-Denis tient toujours et mérite d'être répété : aucune commune de l'île n'atteint la médiane nationale, et l'écart entre la première et la dernière est inférieur à un point. Le choix entre communes réunionnaises ne se joue donc pas sur ce classement. Il se joue sur l'emploi et sur le trajet.",
       },
       {
@@ -49835,14 +49835,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Avignon en 2026 : culture 9/10, et 212e quand même",
     metaTitle: "Parent solo à Avignon 2026 — T3 1 000 €, fit 5,3/10",
     metaDesc:
-      "Fit 5,3/10, 212e sur 363. Culture 9,0/10, sécurité 4,3/10, T3 à 1 000 € : pourquoi la réputation d'une ville ne pèse rien dans ce classement.",
+      "Fit 5,3/10, palier de 16 communes. Culture 9,0/10, sécurité 4,3/10, T3 à 1 000 € : pourquoi la réputation d'une ville ne pèse rien dans ce classement.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
     updatedAt: "2026-08-23",
     intro:
-      "Avignon est la ville la mieux dotée culturellement de tout ce batch — 9,0/10 sur l'axe culture, l'une des plus hautes valeurs du site (source : data/cities-seed.ts) — et elle sort 212e sur 363 au composite parent solo, avec 5,3/10. Ce n'est pas une anomalie de calcul, c'est le résultat qu'on attend d'un classement qui pondère coût 0,30, écoles 0,25, sécurité 0,25 et transports 0,20 : la culture n'y pèse rien, et c'est assumé. Le détail : coût de la vie 5,7/10, transports 6,1/10, écoles 5,3/10, sécurité 4,3/10 — c'est ce dernier chiffre qui coûte le plus cher. La commune compte 91 760 habitants au recensement 2022 (source : data/city-population.json), une population presque stable sur onze ans et en léger repli depuis 2016. Le T3 moyen est à 1 000 € et le mètre carré à l'achat à 3 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 050 € par mois. Voici ce que ça change concrètement pour un foyer à un seul adulte.",
+      "Avignon est la ville la mieux dotée culturellement de tout ce batch — 9,0/10 sur l'axe culture, l'une des plus hautes valeurs du site (source : data/cities-seed.ts) — et elle sort dans un palier de 16 communes au composite parent solo, avec 5,3/10. Ce n'est pas une anomalie de calcul, c'est le résultat qu'on attend d'un classement qui pondère coût 0,30, écoles 0,25, sécurité 0,25 et transports 0,20 : la culture n'y pèse rien, et c'est assumé. Le détail : coût de la vie 5,7/10, transports 6,1/10, écoles 5,3/10, sécurité 4,3/10 — c'est ce dernier chiffre qui coûte le plus cher. La commune compte 91 760 habitants au recensement 2022 (source : data/city-population.json), une population presque stable sur onze ans et en léger repli depuis 2016. Le T3 moyen est à 1 000 € et le mètre carré à l'achat à 3 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 050 € par mois. Voici ce que ça change concrètement pour un foyer à un seul adulte.",
     sections: [
       {
         heading: "Pourquoi une ville de festival sort 212e",
@@ -49884,14 +49884,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Saint-Pierre (La Réunion) en 2026 : le meilleur dossier de l'île, et il reste difficile",
     metaTitle: "Parent solo à Saint-Pierre 974 — T3 840 €, fit 4,9/10",
     metaDesc:
-      "Fit 4,9/10, 280e sur 363. T3 à 840 €, seuil d'entrée 2 400 €, transports 4,7/10 : le dossier le mieux équilibré de La Réunion, à égalité avec Le Tampon.",
+      "Fit 4,9/10, palier de 13 communes. T3 à 840 €, seuil d'entrée 2 400 €, transports 4,7/10 : le dossier réunionnais le mieux équilibré, à égalité avec Le Tampon.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
     updatedAt: "2026-08-23",
     intro:
-      "Saint-Pierre affiche 4,9/10 au composite parent solo et sort 280e sur les 363 communes de plus de 20 000 habitants. C'est le meilleur dossier réunionnais de ce classement — à égalité stricte avec Le Tampon, également à 4,9, l'ordre entre les deux étant un départage par nom et non une mesure. C'est aussi, malgré ce titre, un dossier difficile : 280e sur 363 reste dans le dernier quart. Le détail : coût de la vie 4,3/10, transports 4,7/10, écoles 5,5/10, sécurité 5,2/10 (source : data/cities-seed.ts). Deux axes sur quatre passent la moyenne, ce que seule Le Tampon fait également parmi les huit communes réunionnaises du classement. La ville compte 85 254 habitants au recensement 2022 et en a gagné près de 5 000 depuis 2011 (source : data/city-population.json). Le T3 moyen est à 840 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois, à comparer aux 2 550 € de Saint-Denis et de Saint-Paul et aux 2 250 € du Tampon.",
+      "Saint-Pierre affiche 4,9/10 au composite parent solo et sort dans un palier de 13 communes sur les 363 de plus de 20 000 habitants. C'est le meilleur dossier réunionnais de ce classement — à égalité stricte avec Le Tampon, également à 4,9, l'ordre entre les deux étant un départage par nom et non une mesure. C'est aussi, malgré ce titre, un dossier difficile : ce palier reste dans le dernier tiers du classement. Le détail : coût de la vie 4,3/10, transports 4,7/10, écoles 5,5/10, sécurité 5,2/10 (source : data/cities-seed.ts). Deux axes sur quatre passent la moyenne, ce que seule Le Tampon fait également parmi les huit communes réunionnaises du classement. La ville compte 85 254 habitants au recensement 2022 et en a gagné près de 5 000 depuis 2011 (source : data/city-population.json). Le T3 moyen est à 840 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois, à comparer aux 2 550 € de Saint-Denis et de Saint-Paul et aux 2 250 € du Tampon.",
     sections: [
       {
         heading: "Ce que veut dire « premier de l'île » quand l'île entière est sous la médiane",
@@ -49915,7 +49915,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le verdict : pour qui Saint-Pierre fonctionne",
-        body: "Saint-Pierre fonctionne à partir de 2 400 € net par mois, pour un parent solo dont l'emploi est dans le sud de l'île, avec une voiture et un réseau local. C'est le compromis réunionnais le plus équilibré du classement : la meilleure note d'écoles de l'île, la deuxième note de sécurité, la meilleure desserte des trois communes de tête, et un seuil d'entrée inférieur de 150 € par mois à celui du chef-lieu. Ces avantages sont réels et cumulatifs, et aucun n'est un superlatif isolé. Ils ne suffisent pas à en faire une ville facile, et le rang de 280e sur 363 le rappelle sans ambiguïté : les quatre axes du composite restent tirés vers le bas par le coût de la vie ultramarin et par l'absence d'alternative à la voiture. Elle ne fonctionne pas pour qui travaille au nord — le trajet quotidien vers Saint-Denis annule tout le bénéfice — ni pour qui compte se passer de voiture. Le comparateur direct est Le Tampon, à 4,9 également, avec un T3 à 780 € et un seuil de 2 250 €, mais des transports à 3,7/10 contre 4,7 : 150 € de moins par mois contre un isolement supérieur. C'est l'arbitrage central du sud réunionnais, et il se tranche sur le lieu de travail. Le détail axe par axe est sur /villes/saint-pierre-reunion/parent-solo.",
+        body: "Saint-Pierre fonctionne à partir de 2 400 € net par mois, pour un parent solo dont l'emploi est dans le sud de l'île, avec une voiture et un réseau local. C'est le compromis réunionnais le plus équilibré du classement : la meilleure note d'écoles de l'île, la deuxième note de sécurité, la meilleure desserte des trois communes de tête, et un seuil d'entrée inférieur de 150 € par mois à celui du chef-lieu. Ces avantages sont réels et cumulatifs, et aucun n'est un superlatif isolé. Ils ne suffisent pas à en faire une ville facile, et son palier de 13 communes à 4,9/10, dans le dernier tiers du classement, le rappelle sans ambiguïté : les quatre axes du composite restent tirés vers le bas par le coût de la vie ultramarin et par l'absence d'alternative à la voiture. Elle ne fonctionne pas pour qui travaille au nord — le trajet quotidien vers Saint-Denis annule tout le bénéfice — ni pour qui compte se passer de voiture. Le comparateur direct est Le Tampon, à 4,9 également, avec un T3 à 780 € et un seuil de 2 250 €, mais des transports à 3,7/10 contre 4,7 : 150 € de moins par mois contre un isolement supérieur. C'est l'arbitrage central du sud réunionnais, et il se tranche sur le lieu de travail. Le détail axe par axe est sur /villes/saint-pierre-reunion/parent-solo.",
       },
     ],
     relatedCities: ["saint-pierre-reunion", "le-tampon", "saint-louis-reunion-974", "saint-joseph-reunion", "saint-denis-reunion"],
@@ -49933,14 +49933,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Béziers en 2026 : 2 200 € suffisent, et c'est la seule bonne nouvelle du dossier",
     metaTitle: "Parent solo à Béziers 2026 — T3 720 €, fit 4,7/10",
     metaDesc:
-      "Fit 4,7/10, 294e sur 363, dernière d'Occitanie. T3 à 720 €, seuil d'entrée 2 200 € : le prix le plus bas du batch, et pourquoi il se paie ailleurs.",
+      "Fit 4,7/10, palier de 4 communes, dernière d'Occitanie. T3 à 720 €, seuil d'entrée 2 200 € : le prix le plus bas du batch, et pourquoi il se paie ailleurs.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
     updatedAt: "2026-08-23",
     intro:
-      "Béziers est la ville la moins chère de ce batch et la moins bien classée de sa région : 4,7/10 au composite parent solo, 294e sur les 363 communes de plus de 20 000 habitants, et 22e sur 22 en Occitanie. Les deux faits sont liés et il n'y a aucune raison de les séparer. Le détail : coût de la vie 6,4/10, transports 4,9/10, écoles 3,6/10, sécurité 3,5/10 (source : data/cities-seed.ts). Les deux axes les plus faibles sont exactement ceux que le composite pondère le plus lourd ensemble — écoles et sécurité valent 0,25 chacun, soit la moitié du calcul. Le T3 moyen est à 720 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 200 € par mois : le seuil d'entrée le plus bas des neuf villes de ce batch. La commune compte 80 815 habitants au recensement 2022 et en a gagné plus de 9 000 depuis 2011 (source : data/city-population.json), la deuxième plus forte croissance du lot. Voici ce que ces chiffres impliquent, sans les arrondir.",
+      "Béziers est la ville la moins chère de ce batch et la moins bien classée de sa région : 4,7/10 au composite parent solo, dans un palier de 4 communes sur les 363 de plus de 20 000 habitants, et 22e sur 22 en Occitanie. Les deux faits sont liés et il n'y a aucune raison de les séparer. Le détail : coût de la vie 6,4/10, transports 4,9/10, écoles 3,6/10, sécurité 3,5/10 (source : data/cities-seed.ts). Les deux axes les plus faibles sont exactement ceux que le composite pondère le plus lourd ensemble — écoles et sécurité valent 0,25 chacun, soit la moitié du calcul. Le T3 moyen est à 720 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 200 € par mois : le seuil d'entrée le plus bas des neuf villes de ce batch. La commune compte 80 815 habitants au recensement 2022 et en a gagné plus de 9 000 depuis 2011 (source : data/city-population.json), la deuxième plus forte croissance du lot. Voici ce que ces chiffres impliquent, sans les arrondir.",
     sections: [
       {
         heading: "2 200 € net : le prix d'entrée le plus bas du batch",
@@ -49982,18 +49982,18 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à La Rochelle en 2026 : 70e du classement, 3 150 € pour y entrer",
     metaTitle: "Parent solo à La Rochelle 2026 — T3 1 100 €, fit 6,3/10",
     metaDesc:
-      "Fit 6,3/10, 70e sur 363, sécurité 6,5/10 : le meilleur dossier du batch. Et un seuil d'entrée à 3 150 € net. Un bon rang n'est pas un test de solvabilité.",
+      "Fit 6,3/10, palier de 16 communes, sécurité 6,5/10, mais un seuil d'entrée à 3 150 € net. Un bon palier n'est pas un test de solvabilité.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
     updatedAt: "2026-08-23",
     intro:
-      "La Rochelle a le meilleur dossier qualitatif de ce batch et le prix d'entrée le plus élevé. Les deux affirmations sont vraies simultanément, et c'est tout l'intérêt du cas. Au composite parent solo, la ville sort à 6,3/10, 70e sur les 363 communes de plus de 20 000 habitants, avec écoles 7,4/10, sécurité 6,5/10 — la meilleure des neuf villes examinées ici — transports 7,0/10, et un coût de la vie à 4,6/10 qui plombe l'ensemble (source : data/cities-seed.ts). Son score global tous axes confondus atteint 7,2/10 et son score télétravail 8,8/10, les plus hauts du batch. Le T3 moyen est à 1 100 € et le mètre carré à l'achat à 4 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 150 € par mois : le seuil le plus élevé du lot. La commune compte 79 961 habitants au recensement 2022, en hausse de 6,8 % depuis 2011 (source : data/city-population.json). Voici pourquoi un bon rang et un dossier finançable sur un seul salaire sont deux questions différentes.",
+      "La Rochelle a le meilleur dossier qualitatif de ce batch et le prix d'entrée le plus élevé. Les deux affirmations sont vraies simultanément, et c'est tout l'intérêt du cas. Au composite parent solo, la ville sort à 6,3/10, dans un palier de 16 communes sur les 363 de plus de 20 000 habitants, avec écoles 7,4/10, sécurité 6,5/10 — la meilleure des neuf villes examinées ici — transports 7,0/10, et un coût de la vie à 4,6/10 qui plombe l'ensemble (source : data/cities-seed.ts). Son score global tous axes confondus atteint 7,2/10 et son score télétravail 8,8/10, les plus hauts du batch. Le T3 moyen est à 1 100 € et le mètre carré à l'achat à 4 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 150 € par mois : le seuil le plus élevé du lot. La commune compte 79 961 habitants au recensement 2022, en hausse de 6,8 % depuis 2011 (source : data/city-population.json). Voici pourquoi un bon rang et un dossier finançable sur un seul salaire sont deux questions différentes.",
     sections: [
       {
         heading: "Un rang est une position relative, pas un test de solvabilité",
-        body: "C'est la leçon centrale du dossier rochelais, et elle a déjà été posée dans cette série à propos d'Annecy. Le composite parent solo pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20, puis compare les villes entre elles. La Rochelle marque très bien sur trois axes et mal sur le quatrième, et cette combinaison la place 70e sur 363, c'est-à-dire dans le premier cinquième du classement. Ce rang est exact. Il ne dit rien de la capacité d'un foyer donné à payer le loyer. Le seuil de 3 150 € net par mois calculé par lib/parent-solo.ts, lui, le dit : c'est le revenu à partir duquel un bailleur classique ne bloque pas le dossier, sur la règle des 33 %. Le score de coût de La Rochelle étant à 4,6, donc sous 5, le moteur applique déjà la version relâchée à 35 % — le seuil affiché est l'estimation la plus indulgente, pas la plus prudente. Un parent solo à 2 400 € net ne « rate » pas La Rochelle de peu : il est hors marché sur le T3 moyen, quel que soit le rang de la ville. Le classement et le budget doivent se lire dans cet ordre, et jamais l'un à la place de l'autre.",
+        body: "C'est la leçon centrale du dossier rochelais, et elle a déjà été posée dans cette série à propos d'Annecy. Le composite parent solo pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20, puis compare les villes entre elles. La Rochelle marque très bien sur trois axes et mal sur le quatrième, et cette combinaison la place dans un palier de 16 communes à 6,3/10, c'est-à-dire dans le premier quart du classement. Ce palier est exact. Il ne dit rien de la capacité d'un foyer donné à payer le loyer. Le seuil de 3 150 € net par mois calculé par lib/parent-solo.ts, lui, le dit : c'est le revenu à partir duquel un bailleur classique ne bloque pas le dossier, sur la règle des 33 %. Le score de coût de La Rochelle étant à 4,6, donc sous 5, le moteur applique déjà la version relâchée à 35 % — le seuil affiché est l'estimation la plus indulgente, pas la plus prudente. Un parent solo à 2 400 € net ne « rate » pas La Rochelle de peu : il est hors marché sur le T3 moyen, quel que soit le rang de la ville. Le classement et le budget doivent se lire dans cet ordre, et jamais l'un à la place de l'autre.",
       },
       {
         heading: "Ce que le coût de la vie à 4,6/10 recouvre vraiment",
@@ -50031,14 +50031,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Pau en 2026 : 122 € de loyer par point d'écoles, le meilleur du batch",
     metaTitle: "Parent solo à Pau 2026 — T3 900 €, écoles 7,4/10",
     metaDesc:
-      "Fit 6,4/10, 60e sur 363. T3 à 900 € pour des écoles à 7,4/10 : 122 € par point, le meilleur ratio du batch. Le calcul complet sur un seul revenu.",
+      "Fit 6,4/10, palier de 13 communes. T3 à 900 € pour des écoles à 7,4/10 : 122 € par point, le meilleur ratio du batch. Le calcul complet sur un seul revenu.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
     updatedAt: "2026-08-23",
     intro:
-      "Pau est la ville la mieux classée de ce batch : 6,4/10 au composite parent solo, 60e sur les 363 communes de plus de 20 000 habitants, presque un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes sans point faible marqué : écoles 7,4/10, coût de la vie 6,2/10, transports 6,1/10, sécurité 5,7/10 (source : data/cities-seed.ts). C'est la mécanique récurrente de ce classement — une ville régulière bat une ville brillante et bancale, et Avignon, dans le même batch, en fournit la démonstration inverse avec sa culture à 9,0/10 et son 212e rang. Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 78 620 habitants au recensement 2022, un chiffre stable à 1,5 % près depuis 2011 (source : data/city-population.json). Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
+      "Pau est la ville la mieux classée de ce batch : 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, presque un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes sans point faible marqué : écoles 7,4/10, coût de la vie 6,2/10, transports 6,1/10, sécurité 5,7/10 (source : data/cities-seed.ts). C'est la mécanique récurrente de ce classement — une ville régulière bat une ville brillante et bancale, et Avignon, dans le même batch, en fournit la démonstration inverse avec sa culture à 9,0/10 et son 212e rang. Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 78 620 habitants au recensement 2022, un chiffre stable à 1,5 % près depuis 2011 (source : data/city-population.json). Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
     sections: [
       {
         heading: "122 € de loyer par point d'écoles : le meilleur ratio du batch",
@@ -50080,14 +50080,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Cherbourg-en-Cotentin en 2026 : 2 500 €, une commune nouvelle et une voiture",
     metaTitle: "Parent solo à Cherbourg 2026 — T3 820 €, fit 5,7/10",
     metaDesc:
-      "Fit 5,7/10, 157e sur 363. T3 à 820 €, m² à 1 900 €, transports 4,9/10 : le deuxième meilleur rapport écoles-loyer du batch, et pourquoi il faut une voiture.",
+      "Fit 5,7/10, palier de 13 communes. T3 à 820 €, m² à 1 900 €, transports 4,9/10 : le deuxième rapport écoles-loyer du batch, et pourquoi il faut une voiture.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
     updatedAt: "2026-08-23",
     intro:
-      "Cherbourg-en-Cotentin sort à 5,7/10 au composite parent solo, 157e sur les 363 communes de plus de 20 000 habitants, soit un cran au-dessus de la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,4/10, écoles 5,8/10, sécurité 5,3/10, transports 4,9/10 (source : data/cities-seed.ts). Le dernier chiffre est le point faible du dossier et il commande la suite. Le T3 moyen est à 820 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 500 € par mois — le troisième seuil le plus bas du batch, derrière Béziers à 2 200 € et Saint-Pierre de La Réunion à 2 400 €. Un fait supplémentaire, absent des quatre axes, structure pourtant le dossier : la commune compte 78 028 habitants au recensement 2022 contre 81 690 en 2011, soit 3 662 habitants de moins en onze ans (source : data/city-population.json). C'est la seule ville de ce batch, avec Fort-de-France, à perdre de la population de façon continue.",
+      "Cherbourg-en-Cotentin sort à 5,7/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, soit un cran au-dessus de la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,4/10, écoles 5,8/10, sécurité 5,3/10, transports 4,9/10 (source : data/cities-seed.ts). Le dernier chiffre est le point faible du dossier et il commande la suite. Le T3 moyen est à 820 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 500 € par mois — le troisième seuil le plus bas du batch, derrière Béziers à 2 200 € et Saint-Pierre de La Réunion à 2 400 €. Un fait supplémentaire, absent des quatre axes, structure pourtant le dossier : la commune compte 78 028 habitants au recensement 2022 contre 81 690 en 2011, soit 3 662 habitants de moins en onze ans (source : data/city-population.json). C'est la seule ville de ce batch, avec Fort-de-France, à perdre de la population de façon continue.",
     sections: [
       {
         heading: "141 € de loyer par point d'écoles : le deuxième meilleur ratio du batch",
@@ -50129,14 +50129,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Fort-de-France en 2026 : la ville a perdu 11 588 habitants, et ça compte",
     metaTitle: "Parent solo à Fort-de-France 2026 — T3 960 €, fit 4,5/10",
     metaDesc:
-      "Fit 4,5/10, 304e sur 363. T3 à 960 €, coût de la vie 4,1/10, et 13 % de population en moins depuis 2011 : ce que ça change pour un foyer à un adulte.",
+      "Fit 4,5/10, palier de 14 communes. T3 à 960 €, coût de la vie 4,1/10, et 13 % de population en moins depuis 2011 : ce que ça change pour un foyer à un adulte.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
     updatedAt: "2026-08-23",
     intro:
-      "Fort-de-France est la première commune martiniquaise de cette série, et son dossier est difficile : 4,5/10 au composite parent solo, 304e sur les 363 communes de plus de 20 000 habitants, un point sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 4,1/10, transports 4,7/10, écoles 5,1/10, sécurité 4,2/10 (source : data/cities-seed.ts). Un seul axe approche la moyenne. Le T3 moyen est à 960 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. Mais le chiffre qui structure vraiment ce dossier n'est dans aucun des quatre axes : la commune est passée de 86 753 habitants en 2011 à 75 165 en 2022, soit 11 588 de moins en onze ans, une baisse de 13,4 % (source : data/city-population.json). C'est la plus forte contraction démographique de ce batch, et de loin la donnée la plus utile à un parent solo qui envisage de s'y installer.",
+      "Fort-de-France est la première commune martiniquaise de cette série, et son dossier est difficile : 4,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 de plus de 20 000 habitants, un point sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 4,1/10, transports 4,7/10, écoles 5,1/10, sécurité 4,2/10 (source : data/cities-seed.ts). Un seul axe approche la moyenne. Le T3 moyen est à 960 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. Mais le chiffre qui structure vraiment ce dossier n'est dans aucun des quatre axes : la commune est passée de 86 753 habitants en 2011 à 75 165 en 2022, soit 11 588 de moins en onze ans, une baisse de 13,4 % (source : data/city-population.json). C'est la plus forte contraction démographique de ce batch, et de loin la donnée la plus utile à un parent solo qui envisage de s'y installer.",
     sections: [
       {
         heading: "Le dépeuplement, et pourquoi il concerne un parent solo plus qu'un autre",
@@ -50178,14 +50178,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Mérignac en 2026 : le prix de Bordeaux sans les écoles de Bordeaux",
     metaTitle: "Parent solo à Mérignac 2026 — T3 1 080 €, fit 5,3/10",
     metaDesc:
-      "Fit 5,3/10, 222e sur 363. T3 à 1 080 €, écoles 5,5/10 quand Pessac fait 6,6 au même loyer : l'arbitrage chiffré dans la métropole bordelaise.",
+      "Fit 5,3/10, palier de 16 communes. T3 à 1 080 €, écoles 5,5/10 quand Pessac fait 6,6 au même loyer : l'arbitrage chiffré dans la métropole bordelaise.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
     updatedAt: "2026-08-23",
     intro:
-      "Mérignac est le cas « banlieue de métropole » de ce batch, et son dossier se résume en une phrase : on y paie le prix de l'agglomération bordelaise sans en obtenir l'offre scolaire. Au composite parent solo, la ville sort à 5,3/10, 222e sur les 363 communes de plus de 20 000 habitants, sous la médiane du classement fixée à 5,5/10. Le détail : transports 7,7/10 — le meilleur score du batch — écoles 5,5/10, sécurité 4,7/10, coût de la vie 4,0/10, l'avant-dernier du lot (source : data/cities-seed.ts). Le T3 moyen est à 1 080 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 100 € par mois. La commune compte 77 136 habitants au recensement 2022 contre 65 882 en 2011, soit 11 254 de plus en onze ans et une croissance de 17,1 %, la plus forte de ce batch (source : data/city-population.json). Voici l'arbitrage, chiffré, entre les communes de la métropole.",
+      "Mérignac est le cas « banlieue de métropole » de ce batch, et son dossier se résume en une phrase : on y paie le prix de l'agglomération bordelaise sans en obtenir l'offre scolaire. Au composite parent solo, la ville sort à 5,3/10, dans un palier de 16 communes sur les 363 de plus de 20 000 habitants, sous la médiane du classement fixée à 5,5/10. Le détail : transports 7,7/10 — le meilleur score du batch — écoles 5,5/10, sécurité 4,7/10, coût de la vie 4,0/10, l'avant-dernier du lot (source : data/cities-seed.ts). Le T3 moyen est à 1 080 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 100 € par mois. La commune compte 77 136 habitants au recensement 2022 contre 65 882 en 2011, soit 11 254 de plus en onze ans et une croissance de 17,1 %, la plus forte de ce batch (source : data/city-population.json). Voici l'arbitrage, chiffré, entre les communes de la métropole.",
     sections: [
       {
         heading: "Le calcul que personne ne fait : Mérignac contre Pessac contre Bordeaux",
@@ -52597,14 +52597,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Valence en 2026 : 2 750 € net, et le meilleur transport du lot après Pessac",
     metaTitle: "Parent solo à Valence 2026 — T3 900 €, fit 6,4/10",
     metaDesc:
-      "Fit 6,4/10, 63e sur 363. T3 à 900 €, transports 7,4/10, revenu minimum 2 750 € : le meilleur dossier de ce batch, et ce que le score de sécurité coûte.",
+      "Fit 6,4/10, palier de 13 communes. T3 à 900 €, transports 7,4/10, revenu minimum 2 750 € : le meilleur dossier du batch, et ce que la sécurité coûte.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     intro:
-      "Valence est la ville la mieux classée de ce batch : 6,4/10 au composite parent solo, 63e sur les 363 communes de plus de 20 000 habitants, presque un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes dont trois se tiennent : transports 7,4/10, coût de la vie 6,7/10, écoles 6,6/10, sécurité 5,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 64 288 habitants au recensement 2022 (source : data/city-population.json), et c'est la seule des neuf villes de ce batch dont la population baisse puis repart : 63 148 en 2011, 62 477 en 2016, 64 288 en 2022. Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
+      "Valence est la ville la mieux classée de ce batch : 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, presque un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes dont trois se tiennent : transports 7,4/10, coût de la vie 6,7/10, écoles 6,6/10, sécurité 5,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 64 288 habitants au recensement 2022 (source : data/city-population.json), et c'est la seule des neuf villes de ce batch dont la population baisse puis repart : 63 148 en 2011, 62 477 en 2016, 64 288 en 2022. Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
     sections: [
       {
         heading: "Transports 7,4/10 : le seul axe capable de supprimer une ligne du budget",
@@ -52646,14 +52646,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Colmar en 2026 : la seule du batch sans axe faible, et 2 539 habitants de moins",
     metaTitle: "Parent solo à Colmar 2026 — T3 1 000 €, fit 6,3/10",
     metaDesc:
-      "Fit 6,3/10, 68e sur 363. Quatre axes tous au-dessus de 6, un T3 à 1 000 € et une population qui recule depuis 2016 : le calcul sur un seul revenu.",
+      "Fit 6,3/10, palier de 16 communes. Quatre axes tous au-dessus de 6, un T3 à 1 000 € et une population qui recule depuis 2016 : le calcul sur un seul revenu.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     intro:
-      "Colmar sort à 6,3/10 au composite parent solo, 68e sur les 363 communes de plus de 20 000 habitants, nettement au-dessus de la médiane du classement fixée à 5,5/10. Le détail : écoles 6,6/10, coût de la vie 6,2/10, transports 6,1/10, sécurité 6,1/10 (source : data/cities-seed.ts). C'est la seule ville de ce batch dont les quatre axes dépassent tous 6,0, et c'est aussi la raison exacte de son classement. Le T3 moyen est à 1 000 € et le mètre carré à l'achat à 3 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 050 € par mois. Un fait absent des quatre axes mérite d'être posé dès l'entrée, parce qu'un résumé rapide le masque : la commune compte 67 360 habitants en 2022 contre 67 409 en 2011, soit une stabilité apparente qui recouvre un pic à 69 899 habitants en 2016 puis une perte de 2 539 personnes en six ans (source : data/city-population.json).",
+      "Colmar sort à 6,3/10 au composite parent solo, dans un palier de 16 communes sur les 363 de plus de 20 000 habitants, nettement au-dessus de la médiane du classement fixée à 5,5/10. Le détail : écoles 6,6/10, coût de la vie 6,2/10, transports 6,1/10, sécurité 6,1/10 (source : data/cities-seed.ts). C'est la seule ville de ce batch dont les quatre axes dépassent tous 6,0, et c'est aussi la raison exacte de son classement. Le T3 moyen est à 1 000 € et le mètre carré à l'achat à 3 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 050 € par mois. Un fait absent des quatre axes mérite d'être posé dès l'entrée, parce qu'un résumé rapide le masque : la commune compte 67 360 habitants en 2022 contre 67 409 en 2011, soit une stabilité apparente qui recouvre un pic à 69 899 habitants en 2016 puis une perte de 2 539 personnes en six ans (source : data/city-population.json).",
     sections: [
       {
         heading: "Quatre axes au-dessus de 6 : ce que la régularité vaut, et ce qu'elle ne vaut pas",
@@ -52695,14 +52695,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Saint-Nazaire en 2026 : le meilleur ratio du batch, dans la région qui fait mieux ailleurs",
     metaTitle: "Parent solo à Saint-Nazaire 2026 — T3 850 €, fit 6,2",
     metaDesc:
-      "Fit 6,2/10, 90e sur 363. T3 à 850 €, 129 € par point d'écoles : le meilleur rapport du batch, et pourquoi cinq villes des Pays de la Loire font mieux.",
+      "Fit 6,2/10, palier de 13 communes. T3 à 850 €, 129 € par point d'écoles : le meilleur rapport du batch, et pourquoi cinq villes des Pays de la Loire font mieux.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     intro:
-      "Saint-Nazaire sort à 6,2/10 au composite parent solo, 90e sur les 363 communes de plus de 20 000 habitants, soit sept dixièmes au-dessus de la médiane du classement fixée à 5,5/10. Le détail : écoles 6,6/10, coût de la vie 6,3/10, transports 6,2/10, sécurité 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 850 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 600 € par mois. La commune compte 73 111 habitants au recensement 2022 contre 67 097 en 2011, soit 6 014 de plus en onze ans et une hausse de 9,0 % (source : data/city-population.json). Le dossier a un point fort mesurable, le meilleur rapport écoles-loyer des neuf villes de ce batch, et un contexte régional qui oblige à le relativiser : les Pays de la Loire portent le haut de tableau le plus dense du pays pour ce profil, avec trois communes dans les huit premières nationales, et Saint-Nazaire n'y est que neuvième sur quatorze.",
+      "Saint-Nazaire sort à 6,2/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, soit sept dixièmes au-dessus de la médiane du classement fixée à 5,5/10. Le détail : écoles 6,6/10, coût de la vie 6,3/10, transports 6,2/10, sécurité 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 850 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 600 € par mois. La commune compte 73 111 habitants au recensement 2022 contre 67 097 en 2011, soit 6 014 de plus en onze ans et une hausse de 9,0 % (source : data/city-population.json). Le dossier a un point fort mesurable, le meilleur rapport écoles-loyer des neuf villes de ce batch, et un contexte régional qui oblige à le relativiser : les Pays de la Loire portent le haut de tableau le plus dense du pays pour ce profil, avec trois communes dans les huit premières nationales, et Saint-Nazaire n'y est que neuvième sur quatorze.",
     sections: [
       {
         heading: "129 € de loyer par point d'écoles : le meilleur rapport du batch",
@@ -52744,14 +52744,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Chambéry en 2026 : le meilleur dossier du batch, et 3 350 € pour y accéder",
     metaTitle: "Parent solo à Chambéry 2026 — écoles 7,4, T3 1 100 €",
     metaDesc:
-      "Fit 6,1/10, 97e sur 363. Écoles 7,4/10 et sécurité 6,3/10, les deux meilleures du batch, pour 3 350 € net de seuil d'entrée. Le calcul complet.",
+      "Fit 6,1/10, palier de 13 communes. Écoles 7,4/10 et sécurité 6,3/10, les deux meilleures du batch, pour 3 350 € net de seuil d'entrée. Le calcul complet.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     intro:
-      "Chambéry sort à 6,1/10 au composite parent solo, 97e sur les 363 communes de plus de 20 000 habitants, soit un demi-point au-dessus de la médiane du classement fixée à 5,5/10. Le détail : écoles 7,4/10, sécurité 6,3/10, transports 6,1/10, coût de la vie 5,0/10 (source : data/cities-seed.ts). Les deux premiers chiffres sont les meilleurs des neuf villes de ce batch sur leurs axes respectifs ; le dernier explique pourquoi le classement final est moins bon que le dossier. Le T3 moyen est à 1 100 € et le mètre carré à l'achat à 3 600 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 350 € par mois, deuxième seuil le plus élevé de ce batch derrière Ajaccio. La commune compte 60 251 habitants au recensement 2022 contre 58 437 en 2011, une hausse régulière de 3,1 % (source : data/city-population.json). Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
+      "Chambéry sort à 6,1/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, soit un demi-point au-dessus de la médiane du classement fixée à 5,5/10. Le détail : écoles 7,4/10, sécurité 6,3/10, transports 6,1/10, coût de la vie 5,0/10 (source : data/cities-seed.ts). Les deux premiers chiffres sont les meilleurs des neuf villes de ce batch sur leurs axes respectifs ; le dernier explique pourquoi le classement final est moins bon que le dossier. Le T3 moyen est à 1 100 € et le mètre carré à l'achat à 3 600 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 350 € par mois, deuxième seuil le plus élevé de ce batch derrière Ajaccio. La commune compte 60 251 habitants au recensement 2022 contre 58 437 en 2011, une hausse régulière de 3,1 % (source : data/city-population.json). Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
     sections: [
       {
         heading: "Écoles 7,4 et sécurité 6,3 : les deux meilleures notes du batch",
@@ -52793,14 +52793,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Bourges en 2026 : 123 500 € pour 65 m², et une voiture à intégrer au calcul",
     metaTitle: "Parent solo à Bourges 2026 — T3 760 €, m² à 1 900 €",
     metaDesc:
-      "Fit 5,8/10, 139e sur 363. T3 à 760 €, seuil d'entrée 2 300 €, m² à 1 900 € : la ville de ce batch où acheter reste arithmétiquement possible.",
+      "Fit 5,8/10, palier de 18 communes. T3 à 760 €, seuil d'entrée 2 300 €, m² à 1 900 € : la ville de ce batch où acheter reste arithmétiquement possible.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     intro:
-      "Bourges sort à 5,8/10 au composite parent solo, 139e sur les 363 communes de plus de 20 000 habitants, trois dixièmes au-dessus de la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,7/10, écoles 5,8/10, sécurité 5,3/10, transports 5,2/10 (source : data/cities-seed.ts). Le dernier chiffre est le point faible du dossier et il commande une part du budget. Le T3 moyen est à 760 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 300 € par mois, troisième seuil le plus bas de ce batch. La commune compte 64 238 habitants au recensement 2022 contre 66 602 en 2011, soit 2 364 de moins en onze ans et un recul continu d'un recensement à l'autre (source : data/city-population.json). Ce dossier se lit d'abord par l'accession, parce que c'est le seul levier que ces chiffres ouvrent réellement.",
+      "Bourges sort à 5,8/10 au composite parent solo, dans un palier de 18 communes sur les 363 de plus de 20 000 habitants, trois dixièmes au-dessus de la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,7/10, écoles 5,8/10, sécurité 5,3/10, transports 5,2/10 (source : data/cities-seed.ts). Le dernier chiffre est le point faible du dossier et il commande une part du budget. Le T3 moyen est à 760 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 300 € par mois, troisième seuil le plus bas de ce batch. La commune compte 64 238 habitants au recensement 2022 contre 66 602 en 2011, soit 2 364 de moins en onze ans et un recul continu d'un recensement à l'autre (source : data/city-population.json). Ce dossier se lit d'abord par l'accession, parce que c'est le seul levier que ces chiffres ouvrent réellement.",
     sections: [
       {
         heading: "1 900 € le mètre carré : la seule configuration de ce batch où acheter tient sur un revenu",
@@ -52842,18 +52842,18 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Pessac en 2026 : même loyer que Mérignac, un point d'écoles de plus",
     metaTitle: "Parent solo à Pessac 2026 — T3 1 080 €, transports 7,7",
     metaDesc:
-      "Fit 5,6/10, 170e sur 363. Même T3 et même m² qu'à Mérignac pour 1,1 point d'écoles de plus, avec le meilleur transport du batch. Le calcul à un revenu.",
+      "Fit 5,6/10, palier de 6 communes. Même T3 et même m² qu'à Mérignac pour 1,1 point d'écoles de plus, avec le meilleur transport du batch. Le calcul à un revenu.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     intro:
-      "Pessac sort à 5,6/10 au composite parent solo, 170e sur les 363 communes de plus de 20 000 habitants, tout juste au-dessus de la médiane du classement fixée à 5,5/10. Le détail : transports 7,7/10, écoles 6,6/10, sécurité 4,9/10, coût de la vie 4,0/10 (source : data/cities-seed.ts). Les deux premiers chiffres sont bons, le dernier est le plus bas des neuf villes de ce batch et il commande tout le reste. Le T3 moyen est à 1 080 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 100 € par mois. La commune compte 66 874 habitants au recensement 2022 contre 58 743 en 2011, soit 8 131 de plus en onze ans et une hausse de 13,8 %, la plus forte de ce batch (source : data/city-population.json). Ce guide était annoncé par celui de Mérignac, publié dans le batch précédent, et c'est par cette comparaison qu'il faut commencer.",
+      "Pessac sort à 5,6/10 au composite parent solo, dans un palier de 6 communes sur les 363 de plus de 20 000 habitants, tout juste au-dessus de la médiane du classement fixée à 5,5/10. Le détail : transports 7,7/10, écoles 6,6/10, sécurité 4,9/10, coût de la vie 4,0/10 (source : data/cities-seed.ts). Les deux premiers chiffres sont bons, le dernier est le plus bas des neuf villes de ce batch et il commande tout le reste. Le T3 moyen est à 1 080 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 100 € par mois. La commune compte 66 874 habitants au recensement 2022 contre 58 743 en 2011, soit 8 131 de plus en onze ans et une hausse de 13,8 %, la plus forte de ce batch (source : data/city-population.json). Ce guide était annoncé par celui de Mérignac, publié dans le batch précédent, et c'est par cette comparaison qu'il faut commencer.",
     sections: [
       {
         heading: "Même loyer que Mérignac, même mètre carré, un point d'écoles de plus",
-        body: "Le guide parent solo de Mérignac, publié dans le batch précédent, posait la comparaison en une phrase : à loyer strictement identique, Pessac offre une meilleure offre scolaire et un meilleur composite. Les chiffres le confirment sans ambiguïté. Les deux communes affichent le même T3 moyen à 1 080 €, le même mètre carré à l'achat à 3 800 €, et donc le même seuil d'entrée de 3 100 € net par mois. Sur les axes, Pessac marque 6,6/10 d'écoles contre 5,5 à Mérignac, et son composite sort à 5,6 contre 5,3, soit 170e contre 222e sur les 363 communes classées. Les deux villes sont identiques sur le coût de la vie (4,0/10) et sur les transports (7,7/10), et Pessac garde deux dixièmes d'avance sur la sécurité, à 4,9/10 contre 4,7. Rapporté à l'offre scolaire, le T3 pessacais revient à 164 € par point d'écoles contre 196 € à Mérignac : pour le même loyer, 1,1 point d'offre supplémentaire. Portée de la mesure, à répéter : l'axe écoles décrit l'offre communale, la densité d'établissements et l'éventail de filières, pas la réussite des élèves ni la qualité du travail des enseignants. À budget logement rigoureusement égal dans la même métropole, l'arbitrage penche donc du côté de Pessac, et il n'y a pas de contrepartie visible dans les données.",
+        body: "Le guide parent solo de Mérignac, publié dans le batch précédent, posait la comparaison en une phrase : à loyer strictement identique, Pessac offre une meilleure offre scolaire et un meilleur composite. Les chiffres le confirment sans ambiguïté. Les deux communes affichent le même T3 moyen à 1 080 €, le même mètre carré à l'achat à 3 800 €, et donc le même seuil d'entrée de 3 100 € net par mois. Sur les axes, Pessac marque 6,6/10 d'écoles contre 5,5 à Mérignac, et son composite sort à 5,6 contre 5,3, soit un palier de 6 communes à 5,6/10 contre un palier de 16 à 5,3/10 sur les 363 communes classées. Les deux villes sont identiques sur le coût de la vie (4,0/10) et sur les transports (7,7/10), et Pessac garde deux dixièmes d'avance sur la sécurité, à 4,9/10 contre 4,7. Rapporté à l'offre scolaire, le T3 pessacais revient à 164 € par point d'écoles contre 196 € à Mérignac : pour le même loyer, 1,1 point d'offre supplémentaire. Portée de la mesure, à répéter : l'axe écoles décrit l'offre communale, la densité d'établissements et l'éventail de filières, pas la réussite des élèves ni la qualité du travail des enseignants. À budget logement rigoureusement égal dans la même métropole, l'arbitrage penche donc du côté de Pessac, et il n'y a pas de contrepartie visible dans les données.",
       },
       {
         heading: "Coût de la vie 4,0/10 : le seuil affiché est déjà la version indulgente",
@@ -52891,14 +52891,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Calais en 2026 : 1 950 € net, le seuil d'entrée le plus bas de toute la série",
     metaTitle: "Parent solo à Calais 2026 — T3 640 €, seuil 1 950 €",
     metaDesc:
-      "Fit 5,2/10, 227e sur 363. T3 à 640 €, m² à 1 350 €, seuil d'entrée 1 950 € : les chiffres les plus bas de la série, et les deux axes qui les paient.",
+      "Fit 5,2/10, palier de 19 communes. T3 à 640 €, m² à 1 350 €, seuil d'entrée 1 950 € : les chiffres les plus bas de la série, et les deux axes qui les paient.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     intro:
-      "Calais sort à 5,2/10 au composite parent solo, 227e sur les 363 communes de plus de 20 000 habitants, trois dixièmes sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,4/10, transports 6,1/10, écoles 4,5/10, sécurité 3,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 350 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois : c'est le seuil d'entrée le plus bas des cinquante-sept villes couvertes par cette série de guides, et le mètre carré est également le moins cher des cinquante-sept. Un fait absent des quatre axes structure pourtant tout le dossier : la commune compte 67 585 habitants en 2022 contre 74 978 en 2016, soit 7 393 de moins en six ans (source : data/city-population.json). C'est la contraction la plus forte de toute la série sur cette fenêtre.",
+      "Calais sort à 5,2/10 au composite parent solo, dans un palier de 19 communes sur les 363 de plus de 20 000 habitants, trois dixièmes sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,4/10, transports 6,1/10, écoles 4,5/10, sécurité 3,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 350 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois : c'est le seuil d'entrée le plus bas des cinquante-sept villes couvertes par cette série de guides, et le mètre carré est également le moins cher des cinquante-sept. Un fait absent des quatre axes structure pourtant tout le dossier : la commune compte 67 585 habitants en 2022 contre 74 978 en 2016, soit 7 393 de moins en six ans (source : data/city-population.json). C'est la contraction la plus forte de toute la série sur cette fenêtre.",
     sections: [
       {
         heading: "1 950 € net et 87 750 € pour 65 m² : l'arithmétique la plus favorable de la série",
@@ -52940,14 +52940,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo au Tampon en 2026 : premier de La Réunion sur ce classement, 274e en France",
     metaTitle: "Parent solo au Tampon 2026 — T3 780 €, fit 4,9/10",
     metaDesc:
-      "Fit 4,9/10, 274e sur 363, mais premier des huit communes réunionnaises. T3 à 780 €, seuil 2 250 €, transports 3,7/10 : le calcul sur un seul revenu.",
+      "Fit 4,9/10, palier de 13 communes, mais premier des huit communes réunionnaises. T3 à 780 €, seuil 2 250 €, transports 3,7/10 : le calcul sur un seul revenu.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     intro:
-      "Le Tampon sort à 4,9/10 au composite parent solo, 274e sur les 363 communes de plus de 20 000 habitants, six dixièmes sous la médiane du classement fixée à 5,5/10. Et pourtant, c'est la première des huit communes réunionnaises éligibles, à égalité de score avec Saint-Pierre : sur ce palier, l'ordre est celui des noms et non un départage. Le détail : écoles 5,5/10, sécurité 5,5/10, coût de la vie 4,6/10, transports 3,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 780 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 250 € par mois. La commune compte 81 964 habitants au recensement 2022 contre 74 998 en 2011, soit 6 966 de plus et une hausse de 9,3 % (source : data/city-population.json).",
+      "Le Tampon sort à 4,9/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, six dixièmes sous la médiane du classement fixée à 5,5/10. Et pourtant, c'est la première des huit communes réunionnaises éligibles, à égalité de score avec Saint-Pierre : sur ce palier, l'ordre est celui des noms et non un départage. Le détail : écoles 5,5/10, sécurité 5,5/10, coût de la vie 4,6/10, transports 3,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 780 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 250 € par mois. La commune compte 81 964 habitants au recensement 2022 contre 74 998 en 2011, soit 6 966 de plus et une hausse de 9,3 % (source : data/city-population.json).",
     sections: [
       {
         heading: "Première de La Réunion, et sur quels critères exactement",
@@ -52989,14 +52989,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Ajaccio en 2026 : 3 650 € net pour des écoles à 4,1/10",
     metaTitle: "Parent solo à Ajaccio 2026 — T3 1 200 €, fit 4,4/10",
     metaDesc:
-      "Fit 4,4/10, 316e sur 363. Un seuil d'entrée de 3 650 € net, supérieur à Bordeaux, pour des écoles à 4,1/10 et des transports à 4,0/10. Le calcul complet.",
+      "Fit 4,4/10, palier de 13 communes. Seuil d'entrée 3 650 € net, au-dessus de Bordeaux, pour des écoles à 4,1/10 et des transports à 4,0/10.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
     updatedAt: "2026-08-28",
     intro:
-      "Ajaccio est la première commune corse de cette série, et son dossier est le plus difficile du batch : 4,4/10 au composite parent solo, 316e sur les 363 communes de plus de 20 000 habitants, plus d'un point sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 5,0/10, sécurité 4,3/10, écoles 4,1/10, transports 4,0/10 (source : data/cities-seed.ts). Aucun axe ne dépasse 5,0. Le T3 moyen est à 1 200 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 650 € par mois, le seuil le plus élevé de ce batch et un niveau supérieur à celui de Bordeaux. La commune compte 75 343 habitants au recensement 2022 contre 66 809 en 2011, soit 8 534 de plus et une hausse de 12,8 % (source : data/city-population.json). Une ville qui gagne des habitants vite tout en sortant 316e : c'est le fait à expliquer.",
+      "Ajaccio est la première commune corse de cette série, et son dossier est le plus difficile du batch : 4,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, plus d'un point sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 5,0/10, sécurité 4,3/10, écoles 4,1/10, transports 4,0/10 (source : data/cities-seed.ts). Aucun axe ne dépasse 5,0. Le T3 moyen est à 1 200 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 650 € par mois, le seuil le plus élevé de ce batch et un niveau supérieur à celui de Bordeaux. La commune compte 75 343 habitants au recensement 2022 contre 66 809 en 2011, soit 8 534 de plus et une hausse de 12,8 % (source : data/city-population.json). Une ville qui gagne des habitants vite tout en sortant 316e : c'est le fait à expliquer.",
     sections: [
       {
         heading: "3 650 € de seuil d'entrée : plus cher que Bordeaux, pour un dossier bien inférieur",
@@ -53016,7 +53016,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8 534 habitants de plus, et ce que ça dit du classement",
-        body: "Ajaccio gagne 8 534 habitants entre 2011 et 2022, avec une progression continue : 66 809, puis 69 075, puis 75 343, soit 12,8 % sur onze ans et 9,1 % sur les six dernières années (source : data/city-population.json). C'est la deuxième plus forte croissance de ce batch après celle de Pessac. Une ville qui attire à ce rythme tout en sortant 316e sur 363 dit une chose utile sur ce que ce classement mesure et ne mesure pas. Les quatre axes du composite parent solo sont le coût, les transports, les écoles et la sécurité, choisis parce que ce sont eux qui décident d'une semaine quand on est seul à conduire, seul à gagner et seul à porter la charge. Ils ignorent délibérément la nature, notée 7,5/10 à Ajaccio, et la culture, notée 6,6/10, qui sont des raisons parfaitement légitimes de venir et qui expliquent une part de cette croissance. Ce que le classement dit, ce n'est pas qu'Ajaccio est une mauvaise ville, c'est qu'elle est une ville coûteuse à faire fonctionner avec un seul revenu et un seul conducteur. Ce que cette croissance dit en retour, et qui n'est dans aucun axe : la demande augmentant plus vite que l'offre, les places en crèche, en périscolaire et en restauration scolaire, c'est-à-dire les dispositifs qui remplacent le second adulte absent, se tendent d'année en année.",
+        body: "Ajaccio gagne 8 534 habitants entre 2011 et 2022, avec une progression continue : 66 809, puis 69 075, puis 75 343, soit 12,8 % sur onze ans et 9,1 % sur les six dernières années (source : data/city-population.json). C'est la deuxième plus forte croissance de ce batch après celle de Pessac. Une ville qui attire à ce rythme tout en sortant dans un palier de 13 communes à 4,4/10, plus d'un point sous la médiane, dit une chose utile sur ce que ce classement mesure et ne mesure pas. Les quatre axes du composite parent solo sont le coût, les transports, les écoles et la sécurité, choisis parce que ce sont eux qui décident d'une semaine quand on est seul à conduire, seul à gagner et seul à porter la charge. Ils ignorent délibérément la nature, notée 7,5/10 à Ajaccio, et la culture, notée 6,6/10, qui sont des raisons parfaitement légitimes de venir et qui expliquent une part de cette croissance. Ce que le classement dit, ce n'est pas qu'Ajaccio est une mauvaise ville, c'est qu'elle est une ville coûteuse à faire fonctionner avec un seul revenu et un seul conducteur. Ce que cette croissance dit en retour, et qui n'est dans aucun axe : la demande augmentant plus vite que l'offre, les places en crèche, en périscolaire et en restauration scolaire, c'est-à-dire les dispositifs qui remplacent le second adulte absent, se tendent d'année en année.",
       },
       {
         heading: "Le verdict : pour qui Ajaccio fonctionne",
@@ -53087,14 +53087,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Dole en 2026 : 101 € de loyer par point d'écoles, le meilleur rapport de la série",
     metaTitle: "Parent solo à Dole 2026 — T3 780 €, seuil 2 350 €",
     metaDesc:
-      "Fit 7,2/10, 2e sur 363. T3 à 780 €, m² à 1 800 €, seuil d'entrée 2 350 € et 101 € de loyer par point d'écoles : le meilleur rapport des 66 guides de la série.",
+      "Fit 7,2/10, palier de 2 communes. T3 à 780 €, m² à 1 800 €, seuil d'entrée 2 350 € et 101 € de loyer par point d'écoles, septième rapport de la série.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     intro:
-      "Dole sort à 7,2/10 au composite parent solo, deuxième des 363 communes françaises de plus de 20 000 habitants, très au-dessus de la médiane du classement fixée à 5,5/10. Le détail : écoles 7,7/10, coût de la vie 7,6/10, sécurité 7,0/10, transports 6,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 780 € et le mètre carré à l'achat à 1 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 350 € par mois. La commune compte 23 784 habitants au recensement 2022 contre 24 009 en 2011 et 23 579 en 2016 (source : data/city-population.json) : une courbe en creux, qui perd puis regagne. Le chiffre qui résume ce dossier n'est aucun des précédents : à 780 € de T3 pour 7,7/10 d'écoles, Dole affiche 101 € de loyer par point d'offre scolaire, le meilleur rapport des soixante-six villes couvertes par cette série de guides.",
+      "Dole sort à 7,2/10 au composite parent solo, dans un palier de 2 communes sur les 363 françaises de plus de 20 000 habitants, très au-dessus de la médiane du classement fixée à 5,5/10. Le détail : écoles 7,7/10, coût de la vie 7,6/10, sécurité 7,0/10, transports 6,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 780 € et le mètre carré à l'achat à 1 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 350 € par mois. La commune compte 23 784 habitants au recensement 2022 contre 24 009 en 2011 et 23 579 en 2016 (source : data/city-population.json) : une courbe en creux, qui perd puis regagne. Le chiffre qui résume ce dossier n'est aucun des précédents : à 780 € de T3 pour 7,7/10 d'écoles, Dole affiche 101 € de loyer par point d'offre scolaire, le meilleur rapport des soixante-six villes couvertes par cette série de guides.",
     sections: [
       {
         heading: "101 € par point d'écoles : ce que ce rapport dit et ce qu'il ne dit pas",
@@ -53136,14 +53136,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Lannion en 2026 : 8,2 de sécurité, 4,9 de transports, et un arbitrage à faire",
     metaTitle: "Parent solo à Lannion 2026 — T3 800 €, seuil 2 400 €",
     metaDesc:
-      "Fit 7,2/10, 3e sur 363. Sécurité 8,2/10 et écoles 7,7/10 pour un T3 à 800 €, mais des transports à 4,9 : la voiture est une ligne du budget, pas une option.",
+      "Fit 7,2/10, palier de 2 communes. Sécurité 8,2/10 et écoles 7,7/10 pour un T3 à 800 €, mais transports 4,9/10 : la voiture est une ligne du budget.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     intro:
-      "Lannion sort à 7,2/10 au composite parent solo, troisième des 363 communes françaises de plus de 20 000 habitants et première de Bretagne devant Rennes. Le détail : sécurité 8,2/10, écoles 7,7/10, coût de la vie 7,6/10, transports 4,9/10 (source : data/cities-seed.ts). Le dernier chiffre est le plus bas des quatre et il commande une part entière du budget. Le T3 moyen est à 800 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 20 525 habitants au recensement 2022 contre 19 920 en 2011, soit 605 de plus en onze ans et une reprise nette depuis 2016 (source : data/city-population.json). C'est le dossier le mieux noté de cette série sur les trois axes qui décrivent la vie quotidienne, avec une contrepartie qui se chiffre.",
+      "Lannion sort à 7,2/10 au composite parent solo, dans un palier de 2 communes sur les 363 françaises de plus de 20 000 habitants et première de Bretagne devant Rennes. Le détail : sécurité 8,2/10, écoles 7,7/10, coût de la vie 7,6/10, transports 4,9/10 (source : data/cities-seed.ts). Le dernier chiffre est le plus bas des quatre et il commande une part entière du budget. Le T3 moyen est à 800 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 20 525 habitants au recensement 2022 contre 19 920 en 2011, soit 605 de plus en onze ans et une reprise nette depuis 2016 (source : data/city-population.json). C'est le dossier le mieux noté de cette série sur les trois axes qui décrivent la vie quotidienne, avec une contrepartie qui se chiffre.",
     sections: [
       {
         heading: "Sécurité 8,2 et écoles 7,7 : trois axes sur quatre en haut de tableau",
@@ -53185,14 +53185,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Challans en 2026 : la meilleure note de sécurité de France, et 20,9 % d'habitants en plus",
     metaTitle: "Parent solo à Challans 2026 — sécurité 8,3, T3 860 €",
     metaDesc:
-      "Fit 7,1/10, 4e sur 363. Meilleure note de sécurité des 363 villes classées, T3 à 860 €, seuil 2 600 € — et la croissance qui tend le périscolaire.",
+      "Fit 7,1/10, palier de 3 communes. Meilleure note de sécurité des 363 villes classées, T3 à 860 €, seuil 2 600 € — et la croissance qui tend le périscolaire.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     intro:
-      "Challans sort à 7,1/10 au composite parent solo, quatrième des 363 communes françaises de plus de 20 000 habitants et deuxième de Vendée derrière La Roche-sur-Yon. Le détail : sécurité 8,3/10, écoles 7,7/10, coût de la vie 7,2/10, transports 4,9/10 (source : data/cities-seed.ts). La première note est la meilleure des 363 communes classées, la dernière est parmi les plus basses et les deux comptent autant l'une que l'autre. Le T3 moyen est à 860 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 600 € par mois. Un fait absent des quatre axes structure pourtant tout le dossier : la commune compte 22 890 habitants au recensement 2022 contre 18 930 en 2011, soit 3 960 de plus et une hausse de 20,9 % en onze ans (source : data/city-population.json). C'est la croissance la plus forte des soixante-six villes couvertes par cette série.",
+      "Challans sort à 7,1/10 au composite parent solo, dans un palier de 3 communes sur les 363 françaises de plus de 20 000 habitants et deuxième de Vendée derrière La Roche-sur-Yon. Le détail : sécurité 8,3/10, écoles 7,7/10, coût de la vie 7,2/10, transports 4,9/10 (source : data/cities-seed.ts). La première note est la meilleure des 363 communes classées, la dernière est parmi les plus basses et les deux comptent autant l'une que l'autre. Le T3 moyen est à 860 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 600 € par mois. Un fait absent des quatre axes structure pourtant tout le dossier : la commune compte 22 890 habitants au recensement 2022 contre 18 930 en 2011, soit 3 960 de plus et une hausse de 20,9 % en onze ans (source : data/city-population.json). C'est la croissance la plus forte des soixante-six villes couvertes par cette série.",
     sections: [
       {
         heading: "8,3/10 de sécurité : la meilleure note du classement, et ce qu'elle mesure",
@@ -53234,14 +53234,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Saint-Dié-des-Vosges en 2026 : 71 500 € pour 65 m², et une ville qui perd des habitants",
     metaTitle: "Parent solo à Saint-Dié 2026 — T3 670 €, m² à 1 100 €",
     metaDesc:
-      "Fit 7,1/10, 6e sur 363. Le m² le moins cher et le 2e seuil d'entrée le plus bas de la série, face au 2e recul démographique le plus marqué. L'arbitrage.",
+      "Fit 7,1/10, palier de 3 communes. Le m² le moins cher de la série et le deuxième seuil le plus bas, face au deuxième recul démographique.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     intro:
-      "Saint-Dié-des-Vosges sort à 7,1/10 au composite parent solo, sixième des 363 communes françaises de plus de 20 000 habitants et première du Grand Est devant Strasbourg. Le détail : coût de la vie 8,5/10, sécurité 7,5/10, écoles 6,6/10, transports 4,9/10 (source : data/cities-seed.ts). Le premier chiffre est le plus élevé des soixante-six villes couvertes par cette série. Le T3 moyen est à 670 € et le mètre carré à l'achat à 1 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 050 € par mois : c'est le deuxième seuil d'entrée le plus bas de la série, derrière Calais à 1 950 €, et le mètre carré est le moins cher des soixante-six. Un fait que les quatre axes ne mesurent pas commande pourtant la lecture : la commune compte 19 324 habitants au recensement 2022 contre 21 361 en 2011, soit 2 037 de moins en onze ans (source : data/city-population.json).",
+      "Saint-Dié-des-Vosges sort à 7,1/10 au composite parent solo, dans un palier de 3 communes sur les 363 françaises de plus de 20 000 habitants et première du Grand Est devant Strasbourg. Le détail : coût de la vie 8,5/10, sécurité 7,5/10, écoles 6,6/10, transports 4,9/10 (source : data/cities-seed.ts). Le premier chiffre est le plus élevé des soixante-six villes couvertes par cette série. Le T3 moyen est à 670 € et le mètre carré à l'achat à 1 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 050 € par mois : c'est le deuxième seuil d'entrée le plus bas de la série, derrière Calais à 1 950 €, et le mètre carré est le moins cher des soixante-six. Un fait que les quatre axes ne mesurent pas commande pourtant la lecture : la commune compte 19 324 habitants au recensement 2022 contre 21 361 en 2011, soit 2 037 de moins en onze ans (source : data/city-population.json).",
     sections: [
       {
         heading: "2 050 € net et 71 500 € pour 65 m² : l'arithmétique la plus favorable après Calais",
@@ -53283,14 +53283,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Albi en 2026 : 2 550 € de seuil pour 7,7 d'écoles, la meilleure combinaison d'Occitanie",
     metaTitle: "Parent solo à Albi 2026 — T3 840 €, écoles 7,7/10",
     metaDesc:
-      "Fit 7,0/10, 7e sur 363 et 1re d'Occitanie. T3 à 840 €, seuil d'entrée 2 550 €, 109 € de loyer par point d'écoles — contre 3 500 € à Toulouse.",
+      "Fit 7,0/10, palier de 4 communes et 1re d'Occitanie. T3 à 840 €, seuil d'entrée 2 550 €, 109 € de loyer par point d'écoles — contre 3 500 € à Toulouse.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     intro:
-      "Albi sort à 7,0/10 au composite parent solo, septième des 363 communes françaises de plus de 20 000 habitants et première d'Occitanie devant Auch et Castres. Le détail : écoles 7,7/10, coût de la vie 7,6/10, sécurité 6,7/10, transports 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 840 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 550 € par mois. La commune compte 50 605 habitants au recensement 2022 contre 49 179 en 2011, soit 1 426 de plus, après un creux à 49 024 en 2016 (source : data/city-population.json). Le dossier se lit d'abord par comparaison avec Toulouse, à une heure de route et de train, dont le seuil d'entrée est presque mille euros plus haut.",
+      "Albi sort à 7,0/10 au composite parent solo, dans un palier de 4 communes sur les 363 françaises de plus de 20 000 habitants et première d'Occitanie devant Auch et Castres. Le détail : écoles 7,7/10, coût de la vie 7,6/10, sécurité 6,7/10, transports 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 840 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 550 € par mois. La commune compte 50 605 habitants au recensement 2022 contre 49 179 en 2011, soit 1 426 de plus, après un creux à 49 024 en 2016 (source : data/city-population.json). Le dossier se lit d'abord par comparaison avec Toulouse, à une heure de route et de train, dont le seuil d'entrée est presque mille euros plus haut.",
     sections: [
       {
         heading: "2 550 € contre 3 500 € à Toulouse, pour 1,3 point d'écoles de moins",
@@ -53332,14 +53332,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Cholet en 2026 : 800 € de T3 pour 7,7 d'écoles, et 650 € de revenu de moins qu'à Angers",
     metaTitle: "Parent solo à Cholet 2026 — T3 800 €, seuil 2 400 €",
     metaDesc:
-      "Fit 7,0/10, 8e sur 363. T3 à 800 €, seuil d'entrée 2 400 €, 104 € de loyer par point d'écoles : 650 € de revenu mensuel de moins qu'à Angers, à offre égale.",
+      "Fit 7,0/10, palier de 4 communes. T3 à 800 €, seuil d'entrée 2 400 €, 104 € par point d'écoles : 650 € de revenu mensuel de moins qu'à Angers.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     intro:
-      "Cholet sort à 7,0/10 au composite parent solo, huitième des 363 communes françaises de plus de 20 000 habitants et troisième des Pays de la Loire. Le détail : écoles 7,7/10, sécurité 7,1/10, coût de la vie 6,7/10, transports 6,2/10 (source : data/cities-seed.ts). Aucun de ces quatre chiffres ne décroche, ce qui est la signature des villes du haut de ce classement. Le T3 moyen est à 800 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 54 074 habitants au recensement 2022 contre 54 421 en 2011 et 53 718 en 2016 (source : data/city-population.json) : une population stable à trois cents habitants près sur onze ans, ce qui est rare et vaut d'être expliqué. Le comparateur qui devrait décider d'un projet est à cinquante kilomètres, et c'est Angers.",
+      "Cholet sort à 7,0/10 au composite parent solo, dans un palier de 4 communes sur les 363 françaises de plus de 20 000 habitants et troisième des Pays de la Loire. Le détail : écoles 7,7/10, sécurité 7,1/10, coût de la vie 6,7/10, transports 6,2/10 (source : data/cities-seed.ts). Aucun de ces quatre chiffres ne décroche, ce qui est la signature des villes du haut de ce classement. Le T3 moyen est à 800 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 54 074 habitants au recensement 2022 contre 54 421 en 2011 et 53 718 en 2016 (source : data/city-population.json) : une population stable à trois cents habitants près sur onze ans, ce qui est rare et vaut d'être expliqué. Le comparateur qui devrait décider d'un projet est à cinquante kilomètres, et c'est Angers.",
     sections: [
       {
         heading: "2 400 € contre 3 050 € à Angers, pour 0,2 point d'écoles d'écart",
@@ -53381,14 +53381,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Laon en 2026 : 2 250 € de seuil, et trois villes de l'Aisne à comparer avant de signer",
     metaTitle: "Parent solo à Laon 2026 — T3 740 €, seuil 2 250 €",
     metaDesc:
-      "Fit 7,0/10, 9e sur 363 et 1re des Hauts-de-France. T3 à 740 €, m² à 1 400 €, seuil 2 250 € — face à Soissons et Saint-Quentin dans le même département.",
+      "Fit 7,0/10, palier de 4 communes et 1re des Hauts-de-France. T3 à 740 €, m² à 1 400 €, seuil 2 250 €, devant Soissons et Saint-Quentin.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     intro:
-      "Laon sort à 7,0/10 au composite parent solo, neuvième des 363 communes françaises de plus de 20 000 habitants et première des Hauts-de-France, une région dont ce classement montre par ailleurs les extrêmes. Le détail : coût de la vie 8,3/10, transports 6,4/10, écoles 6,6/10, sécurité 6,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 740 € et le mètre carré à l'achat à 1 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 250 € par mois. La commune compte 24 066 habitants au recensement 2022 contre 25 745 en 2011, soit 1 679 de moins en onze ans et un recul continu d'un recensement à l'autre (source : data/city-population.json). Le dossier est cohérent, et il se compare d'abord à deux voisines du même département plutôt qu'au reste de la France.",
+      "Laon sort à 7,0/10 au composite parent solo, dans un palier de 4 communes sur les 363 françaises de plus de 20 000 habitants et première des Hauts-de-France, une région dont ce classement montre par ailleurs les extrêmes. Le détail : coût de la vie 8,3/10, transports 6,4/10, écoles 6,6/10, sécurité 6,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 740 € et le mètre carré à l'achat à 1 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 250 € par mois. La commune compte 24 066 habitants au recensement 2022 contre 25 745 en 2011, soit 1 679 de moins en onze ans et un recul continu d'un recensement à l'autre (source : data/city-population.json). Le dossier est cohérent, et il se compare d'abord à deux voisines du même département plutôt qu'au reste de la France.",
     sections: [
       {
         heading: "8,3/10 de coût de la vie : le deuxième meilleur de la série",
@@ -53430,14 +53430,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Anglet en 2026 : même loyer qu'à Bayonne, 1,7 point d'écoles de plus",
     metaTitle: "Parent solo à Anglet 2026 — T3 1 200 €, seuil 3 450 €",
     metaDesc:
-      "Fit 6,9/10, 11e sur 363 et 1re de Nouvelle-Aquitaine. Même T3 et même seuil qu'à Bayonne pour 1,7 point d'écoles de plus — et le seuil affiché est l'indulgent.",
+      "Fit 6,9/10, palier de 5 communes et 1re de Nouvelle-Aquitaine. Même T3 et même seuil qu'à Bayonne pour 1,7 point d'écoles de plus.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
     updatedAt: "2026-08-30",
     intro:
-      "Anglet sort à 6,9/10 au composite parent solo, onzième des 363 communes françaises de plus de 20 000 habitants et première de Nouvelle-Aquitaine devant Brive-la-Gaillarde et Poitiers. Le détail : écoles 8,7/10, transports 7,7/10, sécurité 7,2/10, coût de la vie 4,5/10 (source : data/cities-seed.ts). Les trois premiers chiffres sont excellents, le dernier est le seul du batch à passer sous 5 et il commande tout le reste. Le T3 moyen est à 1 200 € et le mètre carré à l'achat à 4 300 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 450 € par mois, le seuil d'entrée le plus élevé des neuf villes de ce batch. La commune compte 42 288 habitants au recensement 2022 contre 38 581 en 2011, soit 3 707 de plus et une hausse de 9,6 % (source : data/city-population.json). Le dossier se lit d'abord par comparaison avec ses deux voisines immédiates.",
+      "Anglet sort à 6,9/10 au composite parent solo, dans un palier de 5 communes sur les 363 françaises de plus de 20 000 habitants et première de Nouvelle-Aquitaine devant Brive-la-Gaillarde et Poitiers. Le détail : écoles 8,7/10, transports 7,7/10, sécurité 7,2/10, coût de la vie 4,5/10 (source : data/cities-seed.ts). Les trois premiers chiffres sont excellents, le dernier est le seul du batch à passer sous 5 et il commande tout le reste. Le T3 moyen est à 1 200 € et le mètre carré à l'achat à 4 300 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 450 € par mois, le seuil d'entrée le plus élevé des neuf villes de ce batch. La commune compte 42 288 habitants au recensement 2022 contre 38 581 en 2011, soit 3 707 de plus et une hausse de 9,6 % (source : data/city-population.json). Le dossier se lit d'abord par comparaison avec ses deux voisines immédiates.",
     sections: [
       {
         heading: "Même loyer qu'à Bayonne, même seuil d'entrée, 1,7 point d'écoles de plus",
@@ -54781,14 +54781,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Fontainebleau en 2026 : première d'Île-de-France, et 15 787 habitants",
     metaTitle: "Parent solo à Fontainebleau 2026 — seuil 3 450 €",
     metaDesc:
-      "Fit 6,9/10, 12e sur 363 et 1re des 115 communes franciliennes classées. T3 à 1 200 €, seuil 3 450 €, écoles 8,7/10 sans le prix des Hauts-de-Seine.",
+      "Fit 6,9/10, palier de 5 communes et 1re des 115 communes franciliennes classées. T3 à 1 200 €, seuil 3 450 €, écoles 8,7/10 sans le prix des Hauts-de-Seine.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-04",
     updatedAt: "2026-09-04",
     intro:
-      "Fontainebleau sort à 6,9/10 au composite parent solo, douzième des 363 communes françaises retenues au classement, très au-dessus de la médiane fixée à 5,5/10. Le détail : écoles 8,7/10, sécurité 8,1/10, transports 6,4/10, coût de la vie 4,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 200 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 450 € par mois. La commune compte 15 787 habitants au recensement 2022 contre 14 708 en 2011 et 14 907 en 2016 (source : data/city-population.json). Le fait qui structure ce dossier tient en une ligne : c'est la première commune d'Île-de-France de ce classement, sur 115 éligibles, et elle y arrive sans le mètre carré des Hauts-de-Seine. Le fait qui l'ébrèche tient en une autre : le seed du site lui prête 25 000 habitants, le recensement en compte 15 787, et c'est le premier chiffre qui la fait entrer au classement.",
+      "Fontainebleau sort à 6,9/10 au composite parent solo, dans un palier de 5 communes sur les 363 françaises retenues au classement, très au-dessus de la médiane fixée à 5,5/10. Le détail : écoles 8,7/10, sécurité 8,1/10, transports 6,4/10, coût de la vie 4,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 200 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 450 € par mois. La commune compte 15 787 habitants au recensement 2022 contre 14 708 en 2011 et 14 907 en 2016 (source : data/city-population.json). Le fait qui structure ce dossier tient en une ligne : c'est la première commune d'Île-de-France de ce classement, sur 115 éligibles, et elle y arrive sans le mètre carré des Hauts-de-Seine. Le fait qui l'ébrèche tient en une autre : le seed du site lui prête 25 000 habitants, le recensement en compte 15 787, et c'est le premier chiffre qui la fait entrer au classement.",
     sections: [
       {
         heading: "Première des 115 communes franciliennes, et de loin",
@@ -54808,7 +54808,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Où Fontainebleau se situe en Île-de-France",
-        body: "L'arbitrage francilien d'un parent solo se joue rarement entre Fontainebleau et Neuilly. Il se joue entre Fontainebleau et Étampes, deuxième du classement régional à 6,7/10, avec un T3 à 1 120 € et un seuil de 3 400 € pour 7,7/10 d'écoles et 6,1/10 de sécurité : cinquante euros de revenu mensuel de moins pour un point d'écoles et deux points de sécurité en moins. Il se joue aussi contre Melun, à une trentaine de kilomètres au nord dans le même département, qui sort 237e sur 363 avec 5,3/10 d'écoles et 4,1/10 de sécurité pour un T3 à 1 010 € : moins cher, et sur deux axes décisifs très en dessous. Et contre Paris, 202e, où le T3 moyen est à 2 800 € et le seuil à 8 000 €. La comparaison la plus honnête reste celle de Rambouillet, autre ville-forêt de la grande couronne, 88e à 6,2/10, avec un T3 à 1 420 € et un seuil de 4 050 € pour 7,7/10 d'écoles : six cents euros de revenu mensuel de plus qu'à Fontainebleau pour une note d'écoles inférieure d'un point. Sur ce classement, Fontainebleau n'a pas d'équivalent francilien.",
+        body: "L'arbitrage francilien d'un parent solo se joue rarement entre Fontainebleau et Neuilly. Il se joue entre Fontainebleau et Étampes, deuxième du classement régional à 6,7/10, avec un T3 à 1 120 € et un seuil de 3 400 € pour 7,7/10 d'écoles et 6,1/10 de sécurité : cinquante euros de revenu mensuel de moins pour un point d'écoles et deux points de sécurité en moins. Il se joue aussi contre Melun, à une trentaine de kilomètres au nord dans le même département, qui sort à 5,2/10 au composite, dans un palier de 19 communes, avec 5,3/10 d'écoles et 4,1/10 de sécurité pour un T3 à 1 010 € : moins cher, et sur deux axes décisifs très en dessous. Et contre Paris, 5,4/10 dans un palier de 21 communes, où le T3 moyen est à 2 800 € et le seuil à 8 000 €. La comparaison la plus honnête reste celle de Rambouillet, autre ville-forêt de la grande couronne, à 6,2/10 dans un palier de 13 communes, avec un T3 à 1 420 € et un seuil de 4 050 € pour 7,7/10 d'écoles : six cents euros de revenu mensuel de plus qu'à Fontainebleau pour une note d'écoles inférieure d'un point. Sur ce classement, Fontainebleau n'a pas d'équivalent francilien.",
       },
       {
         heading: "Le verdict : pour qui Fontainebleau fonctionne",
@@ -54827,17 +54827,17 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-soissons-2026",
-    title: "Parent solo à Soissons en 2026 : 13e sur 363, et Laon fait aussi bien pour 190 € de moins",
+    title: "Parent solo à Soissons en 2026 : 6,9/10, et Laon fait mieux pour 190 € de moins",
     metaTitle: "Parent solo à Soissons 2026 — T3 930 €, seuil 2 800 €",
     metaDesc:
-      "Fit 6,9/10, 13e sur 363 et 2e des Hauts-de-France. T3 à 930 €, seuil 2 800 €, mais 141 € de loyer par point d'écoles : le rapport le moins favorable du top 20.",
+      "Fit 6,9/10, palier de 5 communes et 2e des Hauts-de-France. T3 à 930 €, seuil 2 800 €, mais 141 € par point d'écoles, le rapport le moins favorable du lot.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-04",
     updatedAt: "2026-09-04",
     intro:
-      "Soissons sort à 6,9/10 au composite parent solo, treizième des 363 communes françaises retenues au classement et deuxième des 27 communes des Hauts-de-France, très au-dessus de la médiane fixée à 5,5/10. Le détail : coût de la vie 8,3/10, écoles 6,6/10, sécurité 6,5/10, transports 5,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 930 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 800 € par mois. La commune compte 28 667 habitants au recensement 2022 contre 28 551 en 2011 et 28 466 en 2016 (source : data/city-population.json), soit la trajectoire la plus plate de ce lot de guides. Le chiffre qui décide vraiment de ce dossier n'est aucun des précédents : à 930 € de T3 pour 6,6/10 d'écoles, Soissons affiche 141 € de loyer par point d'offre scolaire, le rapport le moins favorable des vingt premières communes du classement.",
+      "Soissons sort à 6,9/10 au composite parent solo, dans un palier de 5 communes sur les 363 françaises retenues au classement et deuxième des 27 communes des Hauts-de-France, très au-dessus de la médiane fixée à 5,5/10. Le détail : coût de la vie 8,3/10, écoles 6,6/10, sécurité 6,5/10, transports 5,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 930 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 800 € par mois. La commune compte 28 667 habitants au recensement 2022 contre 28 551 en 2011 et 28 466 en 2016 (source : data/city-population.json), soit la trajectoire la plus plate de ce lot de guides. Le chiffre qui décide vraiment de ce dossier n'est aucun des précédents : à 930 € de T3 pour 6,6/10 d'écoles, Soissons affiche 141 € de loyer par point d'offre scolaire, le rapport le moins favorable des vingt premières communes du classement.",
     sections: [
       {
         heading: "141 € par point d'écoles : le rapport le moins favorable du top 20",
@@ -54879,14 +54879,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Vienne en 2026 : première d'Auvergne-Rhône-Alpes, devant Lyon et Grenoble",
     metaTitle: "Parent solo à Vienne (38) 2026 — seuil 2 850 €",
     metaDesc:
-      "Fit 6,9/10, 14e sur 363 et 1re des 39 communes d'Auvergne-Rhône-Alpes. T3 à 940 €, seuil 2 850 €, transports et écoles à 7,7/10. Sécurité 5,7 en réserve.",
+      "Fit 6,9/10, palier de 5 communes à égalité avec Villefranche-sur-Saône en tête d'Auvergne-Rhône-Alpes. T3 à 940 €, transports et écoles à 7,7/10.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-04",
     updatedAt: "2026-09-04",
     intro:
-      "Il s'agit ici de Vienne en Isère, sur le Rhône au sud de Lyon, et non du département de la Vienne dont la préfecture est Poitiers, ni de la capitale autrichienne. Cette Vienne-là sort à 6,9/10 au composite parent solo, quatorzième des 363 communes françaises retenues au classement et première des 39 communes d'Auvergne-Rhône-Alpes, devant Villeurbanne, Grenoble et Lyon. Le détail : transports 7,7/10, écoles 7,7/10, coût de la vie 6,7/10, sécurité 5,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 940 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 850 € par mois. La commune compte 31 555 habitants au recensement 2022 contre 28 800 en 2011 et 29 454 en 2016 (source : data/city-population.json), soit 9,6 % de plus en onze ans. Le chiffre qui résume ce dossier est ailleurs : à 940 € de T3 pour 7,7/10 d'écoles, Vienne demande 440 € de loyer mensuel de moins que Lyon pour un point d'écoles de moins.",
+      "Il s'agit ici de Vienne en Isère, sur le Rhône au sud de Lyon, et non du département de la Vienne dont la préfecture est Poitiers, ni de la capitale autrichienne. Cette Vienne-là sort à 6,9/10 au composite parent solo, dans un palier de 5 communes sur les 363 françaises retenues au classement et à égalité avec Villefranche-sur-Saône en tête des 39 communes d'Auvergne-Rhône-Alpes, devant Villeurbanne, Grenoble et Lyon. Le détail : transports 7,7/10, écoles 7,7/10, coût de la vie 6,7/10, sécurité 5,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 940 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 850 € par mois. La commune compte 31 555 habitants au recensement 2022 contre 28 800 en 2011 et 29 454 en 2016 (source : data/city-population.json), soit 9,6 % de plus en onze ans. Le chiffre qui résume ce dossier est ailleurs : à 940 € de T3 pour 7,7/10 d'écoles, Vienne demande 440 € de loyer mensuel de moins que Lyon pour un point d'écoles de moins.",
     sections: [
       {
         heading: "Première d'Auvergne-Rhône-Alpes, et ce que ce rang recouvre",
@@ -54928,14 +54928,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Villefranche-sur-Saône en 2026 : 8,7/10 d'écoles pour 700 € de revenu de moins qu'à Lyon",
     metaTitle: "Parent solo à Villefranche-sur-Saône 2026 — T3 1 070 €",
     metaDesc:
-      "Fit 6,9/10, 15e sur 363. Écoles 8,7/10, le niveau de Strasbourg et d'Annecy, pour un seuil de 3 250 € contre 3 950 € à Lyon. Mais la population recule.",
+      "Fit 6,9/10, palier de 5 communes. Écoles 8,7/10, le niveau de Strasbourg et d'Annecy, pour un seuil de 3 250 € contre 3 950 € à Lyon. Mais la population recule.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-04",
     updatedAt: "2026-09-04",
     intro:
-      "Villefranche-sur-Saône sort à 6,9/10 au composite parent solo, quinzième des 363 communes françaises retenues au classement et deuxième des 39 communes d'Auvergne-Rhône-Alpes, derrière Vienne. Le détail : écoles 8,7/10, transports 7,0/10, sécurité 6,3/10, coût de la vie 5,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 070 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 250 € par mois. La commune compte 36 224 habitants au recensement 2022 contre 35 640 en 2011 et 37 266 en 2016 (source : data/city-population.json). Le chiffre qui porte ce dossier est la note d'écoles : 8,7/10, c'est le niveau de Strasbourg, d'Annecy et de Fontainebleau, et dix communes seulement des 363 l'atteignent. Le chiffre qui l'ébrèche est dans la ligne précédente : la population a reculé de 2,8 % depuis 2016.",
+      "Villefranche-sur-Saône sort à 6,9/10 au composite parent solo, dans un palier de 5 communes sur les 363 françaises retenues au classement et à égalité avec Vienne en tête des 39 communes d'Auvergne-Rhône-Alpes. Le détail : écoles 8,7/10, transports 7,0/10, sécurité 6,3/10, coût de la vie 5,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 070 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 250 € par mois. La commune compte 36 224 habitants au recensement 2022 contre 35 640 en 2011 et 37 266 en 2016 (source : data/city-population.json). Le chiffre qui porte ce dossier est la note d'écoles : 8,7/10, c'est le niveau de Strasbourg, d'Annecy et de Fontainebleau, et dix communes seulement des 363 l'atteignent. Le chiffre qui l'ébrèche est dans la ligne précédente : la population a reculé de 2,8 % depuis 2016.",
     sections: [
       {
         heading: "8,7/10 d'écoles : où ce chiffre place Villefranche",
@@ -54977,14 +54977,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Auch en 2026 : 97 € de loyer par point d'écoles, le meilleur rapport de la série",
     metaTitle: "Parent solo à Auch 2026 — T3 640 €, seuil 1 950 €",
     metaDesc:
-      "Fit 6,8/10, 16e sur 363. T3 à 640 €, seuil 1 950 € et 97 € de loyer par point d'écoles : le meilleur rapport de la série. Transports 4,2/10 en contrepartie.",
+      "Fit 6,8/10, palier de 6 communes. T3 à 640 €, seuil 1 950 € et 97 € par point d'écoles, à égalité avec Vichy et Cambrai derrière Alençon. Transports 4,2/10.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-04",
     updatedAt: "2026-09-04",
     intro:
-      "Auch sort à 6,8/10 au composite parent solo, seizième des 363 communes françaises retenues au classement et deuxième des 22 communes d'Occitanie, derrière Albi. Le détail : coût de la vie 8,0/10, sécurité 7,5/10, écoles 6,6/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois, le plus bas des neuf villes de ce lot de guides. La commune compte 22 825 habitants au recensement 2022 contre 21 871 en 2011 et 21 618 en 2016 (source : data/city-population.json). Le chiffre qui décide de ce dossier est un rapport : à 640 € de T3 pour 6,6/10 d'écoles, Auch affiche 97 € de loyer par point d'offre scolaire, le meilleur des soixante-quinze villes couvertes par cette série de guides. Le chiffre qui le tempère est la desserte, 4,2/10 : vingt communes seulement des 363 font moins bien.",
+      "Auch sort à 6,8/10 au composite parent solo, dans un palier de 6 communes sur les 363 françaises retenues au classement et deuxième des 22 communes d'Occitanie, derrière Albi. Le détail : coût de la vie 8,0/10, sécurité 7,5/10, écoles 6,6/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois, le plus bas des neuf villes de ce lot de guides. La commune compte 22 825 habitants au recensement 2022 contre 21 871 en 2011 et 21 618 en 2016 (source : data/city-population.json). Le chiffre qui décide de ce dossier est un rapport : à 640 € de T3 pour 6,6/10 d'écoles, Auch affiche 97 € de loyer par point d'offre scolaire, le meilleur des soixante-quinze villes couvertes par cette série de guides. Le chiffre qui le tempère est la desserte, 4,2/10 : vingt communes seulement des 363 font moins bien.",
     sections: [
       {
         heading: "97 € par point d'écoles, et par quel mécanisme",
@@ -55026,14 +55026,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Chaumont en 2026 : le mètre carré le moins cher des 363 communes classées",
     metaTitle: "Parent solo à Chaumont 2026 — m² 950 €, seuil 1 900 €",
     metaDesc:
-      "Fit 6,8/10, 17e sur 363. Le mètre carré le moins cher du classement à 950 €, soit 61 750 € les 65 m². Écoles 5,5/10 et population en recul : les deux réserves.",
+      "Fit 6,8/10, palier de 6 communes. Le m² le moins cher du classement à 950 €, soit 61 750 € les 65 m². Écoles 5,5/10 et population en recul.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-04",
     updatedAt: "2026-09-04",
     intro:
-      "Chaumont sort à 6,8/10 au composite parent solo, dix-septième des 363 communes françaises retenues au classement et troisième des 24 communes du Grand Est, derrière Saint-Dié-des-Vosges et Strasbourg. Le détail : coût de la vie 8,5/10, sécurité 7,5/10, écoles 5,5/10, transports 4,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 630 € et le mètre carré à l'achat à 950 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 900 € par mois. La commune compte 21 418 habitants au recensement 2022 contre 22 705 en 2011 et 22 367 en 2016 (source : data/city-population.json), soit 5,7 % de moins en onze ans. Le chiffre qui porte ce dossier est le mètre carré : 950 €, le moins cher des 363 communes classées, ce qui situe 65 mètres carrés autour de 61 750 €. Les deux chiffres qui le tempèrent sont dans les lignes précédentes : une note d'écoles à 5,5/10 et un recul démographique qui s'accélère.",
+      "Chaumont sort à 6,8/10 au composite parent solo, dans un palier de 6 communes sur les 363 françaises retenues au classement et troisième des 24 communes du Grand Est, derrière Saint-Dié-des-Vosges et Strasbourg. Le détail : coût de la vie 8,5/10, sécurité 7,5/10, écoles 5,5/10, transports 4,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 630 € et le mètre carré à l'achat à 950 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 900 € par mois. La commune compte 21 418 habitants au recensement 2022 contre 22 705 en 2011 et 22 367 en 2016 (source : data/city-population.json), soit 5,7 % de moins en onze ans. Le chiffre qui porte ce dossier est le mètre carré : 950 €, le moins cher des 363 communes classées, ce qui situe 65 mètres carrés autour de 61 750 €. Les deux chiffres qui le tempèrent sont dans les lignes précédentes : une note d'écoles à 5,5/10 et un recul démographique qui s'accélère.",
     sections: [
       {
         heading: "950 € le mètre carré : le prix le plus bas du classement",
@@ -55075,14 +55075,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Compiègne en 2026 : transports et écoles à 7,7/10, le coût en contrepartie",
     metaTitle: "Parent solo à Compiègne 2026 — T3 980 €, seuil 2 950 €",
     metaDesc:
-      "Fit 6,8/10, 18e sur 363 et 3e des Hauts-de-France. Transports 7,7/10 et écoles 7,7/10, l'un des cinq profils du top 20 à réussir les deux. Coût 5,9 en réserve.",
+      "Fit 6,8/10, palier de 6 communes et 3e des Hauts-de-France. Transports 7,7/10 et écoles 7,7/10, l'un des cinq profils du lot à réussir les deux.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-04",
     updatedAt: "2026-09-04",
     intro:
-      "Compiègne sort à 6,8/10 au composite parent solo, dix-huitième des 363 communes françaises retenues au classement et troisième des 27 communes des Hauts-de-France, derrière Laon et Soissons. Le détail : transports 7,7/10, écoles 7,7/10, sécurité 6,2/10, coût de la vie 5,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 980 € et le mètre carré à l'achat à 2 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 950 € par mois. La commune compte 40 808 habitants au recensement 2022 contre 39 517 en 2011 et 40 258 en 2016 (source : data/city-population.json). Ce qui distingue ce dossier n'est aucun de ces chiffres pris seul, mais leur combinaison : Compiègne est l'une des cinq communes des vingt premières du classement à dépasser 7,5/10 à la fois sur la desserte et sur l'offre scolaire, avec Rennes, Strasbourg, Anglet et Vienne. Le prix en est une note de coût de la vie de 5,9/10, la deuxième plus basse des neuf villes de ce lot.",
+      "Compiègne sort à 6,8/10 au composite parent solo, dans un palier de 6 communes sur les 363 françaises retenues au classement et troisième des 27 communes des Hauts-de-France, derrière Laon et Soissons. Le détail : transports 7,7/10, écoles 7,7/10, sécurité 6,2/10, coût de la vie 5,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 980 € et le mètre carré à l'achat à 2 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 950 € par mois. La commune compte 40 808 habitants au recensement 2022 contre 39 517 en 2011 et 40 258 en 2016 (source : data/city-population.json). Ce qui distingue ce dossier n'est aucun de ces chiffres pris seul, mais leur combinaison : Compiègne est l'une des cinq communes des vingt premières du classement à dépasser 7,5/10 à la fois sur la desserte et sur l'offre scolaire, avec Rennes, Strasbourg, Anglet et Vienne. Le prix en est une note de coût de la vie de 5,9/10, la deuxième plus basse des neuf villes de ce lot.",
     sections: [
       {
         heading: "7,7 sur les transports et 7,7 sur les écoles : la combinaison rare",
@@ -55124,14 +55124,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo aux Sables-d'Olonne en 2026 : 800 € de revenu de plus qu'à La Roche-sur-Yon pour les mêmes écoles",
     metaTitle: "Parent solo aux Sables-d'Olonne 2026 — seuil 3 200 €",
     metaDesc:
-      "Fit 6,8/10, 19e sur 363 et 4e des Pays de la Loire. Sécurité 8,0/10 et écoles 7,7/10, mais La Roche-sur-Yon offre autant pour 800 € de revenu de moins.",
+      "Fit 6,8/10, palier de 6 communes et 4e des Pays de la Loire. Sécurité 8,0/10 et écoles 7,7/10, mais La Roche-sur-Yon offre autant pour 800 € de revenu de moins.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-04",
     updatedAt: "2026-09-04",
     intro:
-      "Les Sables-d'Olonne sortent à 6,8/10 au composite parent solo, dix-neuvième des 363 communes françaises retenues au classement et quatrième des 14 communes des Pays de la Loire, derrière La Roche-sur-Yon, Challans et Cholet. Le détail : sécurité 8,0/10, écoles 7,7/10, transports 6,2/10, coût de la vie 5,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 050 € et le mètre carré à l'achat à 3 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 200 € par mois. La commune compte 48 740 habitants au recensement 2022 contre 41 478 en 2011 et 43 219 en 2016 (source : data/city-population.json), soit 17,5 % de plus en onze ans, la plus forte croissance des neuf villes de ce lot de guides. Le fait qui commande ce dossier est une comparaison interne au département : La Roche-sur-Yon, première des 363 communes du classement, offre exactement la même note d'écoles et la même note de sécurité pour 800 € de revenu mensuel minimum en moins.",
+      "Les Sables-d'Olonne sortent à 6,8/10 au composite parent solo, dans un palier de 6 communes sur les 363 françaises retenues au classement et quatrième des 14 communes des Pays de la Loire, derrière La Roche-sur-Yon, Challans et Cholet. Le détail : sécurité 8,0/10, écoles 7,7/10, transports 6,2/10, coût de la vie 5,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 050 € et le mètre carré à l'achat à 3 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 200 € par mois. La commune compte 48 740 habitants au recensement 2022 contre 41 478 en 2011 et 43 219 en 2016 (source : data/city-population.json), soit 17,5 % de plus en onze ans, la plus forte croissance des neuf villes de ce lot de guides. Le fait qui commande ce dossier est une comparaison interne au département : La Roche-sur-Yon, première des 363 communes du classement, offre exactement la même note d'écoles et la même note de sécurité pour 800 € de revenu mensuel minimum en moins.",
     sections: [
       {
         heading: "Sécurité 8,0 et écoles 7,7 : le haut du panier, à un prix",
@@ -55173,14 +55173,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Sens en 2026 : aucun axe sous 6,4, le deuxième profil le plus plat du top 20",
     metaTitle: "Parent solo à Sens 2026 — T3 920 €, seuil 2 800 €",
     metaDesc:
-      "Fit 6,8/10, 20e sur 363 et 2e de Bourgogne-Franche-Comté. Aucun des quatre axes sous 6,4/10 : le deuxième profil le plus régulier du top 20.",
+      "Fit 6,8/10, palier de 6 communes et 2e de Bourgogne-Franche-Comté. Aucun des quatre axes sous 6,4/10 : le deuxième profil le plus régulier du top 20.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-04",
     updatedAt: "2026-09-04",
     intro:
-      "Sens sort à 6,8/10 au composite parent solo, vingtième des 363 communes françaises retenues au classement et deuxième des 11 communes de Bourgogne-Franche-Comté, derrière Dole. Le détail : coût de la vie 7,6/10, écoles 6,6/10, sécurité 6,5/10, transports 6,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 920 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 800 € par mois. La commune compte 27 275 habitants au recensement 2022 contre 25 146 en 2011 et 25 913 en 2016 (source : data/city-population.json), soit 8,5 % de plus en onze ans. Ce qui caractérise ce dossier n'est aucun pic mais une absence de creux : 1,2 point sépare le meilleur axe du plus faible, la deuxième amplitude la plus réduite des vingt premières communes du classement, derrière La Roche-sur-Yon. Sur ce composite, c'est précisément ce qui paie.",
+      "Sens sort à 6,8/10 au composite parent solo, dans un palier de 6 communes sur les 363 françaises retenues au classement et deuxième des 11 communes de Bourgogne-Franche-Comté, derrière Dole. Le détail : coût de la vie 7,6/10, écoles 6,6/10, sécurité 6,5/10, transports 6,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 920 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 800 € par mois. La commune compte 27 275 habitants au recensement 2022 contre 25 146 en 2011 et 25 913 en 2016 (source : data/city-population.json), soit 8,5 % de plus en onze ans. Ce qui caractérise ce dossier n'est aucun pic mais une absence de creux : 1,2 point sépare le meilleur axe du plus faible, la deuxième amplitude la plus réduite des vingt premières communes du classement, derrière La Roche-sur-Yon. Sur ce composite, c'est précisément ce qui paie.",
     sections: [
       {
         heading: "1,2 point d'amplitude : pourquoi le composite récompense ça",
@@ -55222,14 +55222,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Alençon en 2026 : le meilleur rapport loyer/écoles des 363 villes classées",
     metaTitle: "Parent solo à Alençon 2026 — T3 620 €, seuil 1 900 €",
     metaDesc:
-      "Fit 6,7/10, 22e sur 363 et 1re de Normandie. 94 € de loyer par point d'offre scolaire : le meilleur rapport du classement, et 4,2/10 de transports.",
+      "Fit 6,7/10, palier de 5 communes et 1re de Normandie. 94 € de loyer par point d'offre scolaire : le meilleur rapport du classement, et 4,2/10 de transports.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
     updatedAt: "2026-09-06",
     intro:
-      "Alençon sort à 6,7/10 au composite parent solo, vingt-deuxième des 363 communes retenues au classement et première des 11 communes normandes. Le détail : coût de la vie 8,0/10, sécurité 7,1/10, écoles 6,6/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 620 € et le mètre carré à l'achat à 1 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 900 € par mois. La commune compte 25 667 habitants au recensement 2022 contre 26 129 en 2016 et 26 300 en 2011 (source : data/city-population.json), soit 2,4 % de moins en onze ans. Ce qui distingue ce dossier tient en un rapport : 94 € de loyer mensuel par point d'offre scolaire, le meilleur des 363 communes classées. Aucune autre ne descend aussi bas, et la contrepartie est également mesurable.",
+      "Alençon sort à 6,7/10 au composite parent solo, dans un palier de 5 communes sur les 363 retenues au classement et première des 11 communes normandes. Le détail : coût de la vie 8,0/10, sécurité 7,1/10, écoles 6,6/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 620 € et le mètre carré à l'achat à 1 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 900 € par mois. La commune compte 25 667 habitants au recensement 2022 contre 26 129 en 2016 et 26 300 en 2011 (source : data/city-population.json), soit 2,4 % de moins en onze ans. Ce qui distingue ce dossier tient en un rapport : 94 € de loyer mensuel par point d'offre scolaire, le meilleur des 363 communes classées. Aucune autre ne descend aussi bas, et la contrepartie est également mesurable.",
     sections: [
       {
         heading: "94 € par point d'école : le meilleur rapport des 363",
@@ -55271,14 +55271,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Brive-la-Gaillarde en 2026 : le profil le plus régulier des 363 villes classées",
     metaTitle: "Parent solo à Brive 2026 — T3 780 €, seuil 2 350 €",
     metaDesc:
-      "Fit 6,7/10, 24e sur 363 et 2e de Nouvelle-Aquitaine. 0,4 point sépare son meilleur axe du plus faible : l'amplitude la plus réduite du classement.",
+      "Fit 6,7/10, palier de 5 communes et 2e de Nouvelle-Aquitaine. 0,4 point sépare son meilleur axe du plus faible : l'amplitude la plus réduite du classement.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
     updatedAt: "2026-09-06",
     intro:
-      "Brive-la-Gaillarde sort à 6,7/10 au composite parent solo, vingt-quatrième des 363 communes retenues au classement et deuxième des 28 communes de Nouvelle-Aquitaine, derrière Anglet. Le détail : transports 7,0/10, sécurité 6,7/10, coût de la vie 6,7/10, écoles 6,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 780 € et le mètre carré à l'achat à 2 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 350 € par mois. La commune compte 46 769 habitants au recensement 2022 contre 47 004 en 2016 et 48 267 en 2011 (source : data/city-population.json), soit 3,1 % de moins en onze ans. Le fait marquant de ce dossier n'est aucune de ces valeurs prise isolément mais leur écart : 0,4 point sépare le meilleur axe du plus faible, l'amplitude la plus réduite des 363 communes classées.",
+      "Brive-la-Gaillarde sort à 6,7/10 au composite parent solo, dans un palier de 5 communes sur les 363 retenues au classement et deuxième des 28 communes de Nouvelle-Aquitaine, derrière Anglet. Le détail : transports 7,0/10, sécurité 6,7/10, coût de la vie 6,7/10, écoles 6,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 780 € et le mètre carré à l'achat à 2 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 350 € par mois. La commune compte 46 769 habitants au recensement 2022 contre 47 004 en 2016 et 48 267 en 2011 (source : data/city-population.json), soit 3,1 % de moins en onze ans. Le fait marquant de ce dossier n'est aucune de ces valeurs prise isolément mais leur écart : 0,4 point sépare le meilleur axe du plus faible, l'amplitude la plus réduite des 363 communes classées.",
     sections: [
       {
         heading: "0,4 point d'amplitude : le profil le plus plat du classement",
@@ -55320,14 +55320,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Étampes en 2026 : deuxième d'Île-de-France, et la seule du lot qui gagne des habitants",
     metaTitle: "Parent solo à Étampes 2026 — T3 1 120 €, seuil 3 400 €",
     metaDesc:
-      "Fit 6,7/10, 25e sur 363 et 2e des 115 communes franciliennes classées. Écoles 7,7/10, mais un seuil d'entrée de 3 400 € : l'Île-de-France se paie.",
+      "Fit 6,7/10, palier de 5 communes et 2e des 115 communes franciliennes classées. Écoles 7,7/10, mais un seuil d'entrée de 3 400 € : l'Île-de-France se paie.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
     updatedAt: "2026-09-06",
     intro:
-      "Étampes sort à 6,7/10 au composite parent solo, vingt-cinquième des 363 communes retenues au classement et deuxième des 115 communes franciliennes classées, derrière Fontainebleau. Le détail : écoles 7,7/10, coût de la vie 6,7/10, transports 6,4/10, sécurité 6,1/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 120 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 400 € par mois, le plus élevé des dix villes de ce lot de guides. La commune compte 26 601 habitants au recensement 2022 contre 24 422 en 2016 et 24 013 en 2011 (source : data/city-population.json), soit 10,8 % de plus en onze ans. C'est la seule commune de ce lot dont la population augmente franchement, et la seule dont le dossier se juge d'abord sur ce qu'il coûte.",
+      "Étampes sort à 6,7/10 au composite parent solo, dans un palier de 5 communes sur les 363 retenues au classement et deuxième des 115 communes franciliennes classées, derrière Fontainebleau. Le détail : écoles 7,7/10, coût de la vie 6,7/10, transports 6,4/10, sécurité 6,1/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 120 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 400 € par mois, le plus élevé des dix villes de ce lot de guides. La commune compte 26 601 habitants au recensement 2022 contre 24 422 en 2016 et 24 013 en 2011 (source : data/city-population.json), soit 10,8 % de plus en onze ans. C'est la seule commune de ce lot dont la population augmente franchement, et la seule dont le dossier se juge d'abord sur ce qu'il coûte.",
     sections: [
       {
         heading: "Deuxième d'Île-de-France, et l'écart avec l'Essonne est le fait",
@@ -55369,14 +55369,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Vichy en 2026 : 97 € par point d'école, et 41,5 % d'habitants de 60 ans et plus",
     metaTitle: "Parent solo à Vichy 2026 — T3 640 €, seuil 1 950 €",
     metaDesc:
-      "Fit 6,7/10, 26e sur 363 et 4e d'Auvergne-Rhône-Alpes. Un des trois meilleurs rapports loyer/écoles du classement, dans une commune très âgée.",
+      "Fit 6,7/10, palier de 5 communes et 4e d'Auvergne-Rhône-Alpes. Un des quatre meilleurs rapports loyer/écoles du classement, dans une commune très âgée.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
     updatedAt: "2026-09-06",
     intro:
-      "Vichy sort à 6,7/10 au composite parent solo, vingt-sixième des 363 communes retenues au classement et quatrième des 39 communes d'Auvergne-Rhône-Alpes. Le détail : coût de la vie 8,2/10, sécurité 7,0/10, écoles 6,6/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois. La commune compte 25 702 habitants au recensement 2022 contre 24 383 en 2016 et 24 992 en 2011 (source : data/city-population.json), soit 2,8 % de plus en onze ans après un creux. Deux chiffres portent ce dossier et ils tirent en sens contraire : 97 € de loyer par point d'offre scolaire, l'un des trois meilleurs rapports du classement, et 41,5 % d'habitants de 60 ans et plus.",
+      "Vichy sort à 6,7/10 au composite parent solo, dans un palier de 5 communes sur les 363 retenues au classement et quatrième des 39 communes d'Auvergne-Rhône-Alpes. Le détail : coût de la vie 8,2/10, sécurité 7,0/10, écoles 6,6/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois. La commune compte 25 702 habitants au recensement 2022 contre 24 383 en 2016 et 24 992 en 2011 (source : data/city-population.json), soit 2,8 % de plus en onze ans après un creux. Deux chiffres portent ce dossier et ils tirent en sens contraire : 97 € de loyer par point d'offre scolaire, l'un des trois meilleurs rapports du classement, et 41,5 % d'habitants de 60 ans et plus.",
     sections: [
       {
         heading: "97 € par point d'école : troisième du classement, à égalité",
@@ -55418,14 +55418,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Beaune en 2026 : 8,1/10 de sécurité, et le coût le plus dur des dix villes du lot",
     metaTitle: "Parent solo à Beaune 2026 — T3 1 080 €, seuil 3 250 €",
     metaDesc:
-      "Fit 6,6/10, 27e sur 363 et 3e de Bourgogne-Franche-Comté. Écoles 7,7/10 et sécurité 8,1/10, pour un coût de la vie posé exactement sur 5,0/10.",
+      "Fit 6,6/10, palier de 10 communes à égalité avec Besançon en Bourgogne-Franche-Comté. Écoles 7,7/10, sécurité 8,1/10, coût de la vie exactement 5,0/10.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
     updatedAt: "2026-09-06",
     intro:
-      "Beaune sort à 6,6/10 au composite parent solo, vingt-septième des 363 communes retenues au classement et troisième des 11 communes de Bourgogne-Franche-Comté, derrière Dole et Sens. Le détail : sécurité 8,1/10, écoles 7,7/10, transports 5,6/10, coût de la vie 5,0/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 080 € et le mètre carré à l'achat à 3 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 250 € par mois. La commune compte 20 233 habitants au recensement 2022 contre 21 644 en 2016 et 21 872 en 2011 (source : data/city-population.json), soit 7,5 % de moins en onze ans, et le recul le plus rapide des dix villes de ce lot sur la période récente. C'est le dossier le plus contrasté du lot : deux axes très au-dessus de la moyenne, un troisième posé exactement sur la ligne qui sépare deux régimes de calcul.",
+      "Beaune sort à 6,6/10 au composite parent solo, dans un palier de 10 communes sur les 363 retenues au classement et à égalité avec Besançon au troisième rang des 11 communes de Bourgogne-Franche-Comté, derrière Dole et Sens. Le détail : sécurité 8,1/10, écoles 7,7/10, transports 5,6/10, coût de la vie 5,0/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 080 € et le mètre carré à l'achat à 3 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 250 € par mois. La commune compte 20 233 habitants au recensement 2022 contre 21 644 en 2016 et 21 872 en 2011 (source : data/city-population.json), soit 7,5 % de moins en onze ans, et le recul le plus rapide des dix villes de ce lot sur la période récente. C'est le dossier le plus contrasté du lot : deux axes très au-dessus de la moyenne, un troisième posé exactement sur la ligne qui sépare deux régimes de calcul.",
     sections: [
       {
         heading: "Sécurité 8,1 et écoles 7,7 : les deux meilleurs axes du lot",
@@ -55467,14 +55467,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Dieppe en 2026 : première de Seine-Maritime, et 0,8 point d'amplitude",
     metaTitle: "Parent solo à Dieppe 2026 — T3 820 €, seuil 2 500 €",
     metaDesc:
-      "Fit 6,6/10, 30e sur 363 et 1re des 5 communes classées de Seine-Maritime. Un profil presque plat, dans une commune qui perd 8,2 % d'habitants.",
+      "Fit 6,6/10, palier de 10 communes et 1re des 5 communes classées de Seine-Maritime. Un profil presque plat, dans une commune qui perd 8,2 % d'habitants.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
     updatedAt: "2026-09-06",
     intro:
-      "Dieppe sort à 6,6/10 au composite parent solo, trentième des 363 communes retenues au classement et troisième des 11 communes normandes, derrière Alençon et à égalité avec Caen. Le détail : transports 7,0/10, coût de la vie 6,7/10, écoles 6,6/10, sécurité 6,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 820 € et le mètre carré à l'achat à 1 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 500 € par mois. La commune compte 28 599 habitants au recensement 2022 contre 29 606 en 2016 et 31 148 en 2011 (source : data/city-population.json), soit 8,2 % de moins en onze ans. Deux faits structurent ce dossier : 0,8 point sépare le meilleur axe du plus faible, la deuxième amplitude la plus réduite du top 40, et la commune devance très largement les quatre autres communes classées de son département.",
+      "Dieppe sort à 6,6/10 au composite parent solo, dans un palier de 10 communes sur les 363 retenues au classement et à égalité avec Caen au deuxième rang des 11 communes normandes, derrière Alençon. Le détail : transports 7,0/10, coût de la vie 6,7/10, écoles 6,6/10, sécurité 6,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 820 € et le mètre carré à l'achat à 1 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 500 € par mois. La commune compte 28 599 habitants au recensement 2022 contre 29 606 en 2016 et 31 148 en 2011 (source : data/city-population.json), soit 8,2 % de moins en onze ans. Deux faits structurent ce dossier : 0,8 point sépare le meilleur axe du plus faible, la deuxième amplitude la plus réduite du top 40, et la commune devance très largement les quatre autres communes classées de son département.",
     sections: [
       {
         heading: "0,8 point d'amplitude : le deuxième profil le plus plat du top 40",
@@ -55516,7 +55516,7 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Dreux en 2026 : première de Centre-Val de Loire, devant Tours et Orléans",
     metaTitle: "Parent solo à Dreux 2026 — T3 930 €, seuil 2 800 €",
     metaDesc:
-      "Fit 6,6/10, 31e sur 363 et 1re des 11 communes classées de Centre-Val de Loire. Transports 7,0/10, et une sécurité à 5,7/10 qui plafonne le dossier.",
+      "Fit 6,6/10, palier de 10 communes et 1re des 11 communes classées de Centre-Val de Loire. Transports 7,0/10, et une sécurité à 5,7/10 qui plafonne le dossier.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
@@ -55565,14 +55565,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Laval en 2026 : 100 € par point d'école, et cinq villes de sa région devant elle",
     metaTitle: "Parent solo à Laval 2026 — T3 660 €, seuil 2 000 €",
     metaDesc:
-      "Fit 6,6/10, 33e sur 363 et 6e des 14 communes classées des Pays de la Loire. Un des cinq meilleurs rapports loyer/écoles, et une région très dense.",
+      "Fit 6,6/10, palier de 10 communes et 6e des 14 communes classées des Pays de la Loire. Un des six meilleurs rapports loyer/écoles, et une région très dense.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
     updatedAt: "2026-09-06",
     intro:
-      "Laval sort à 6,6/10 au composite parent solo, trente-troisième des 363 communes retenues au classement et sixième des 14 communes des Pays de la Loire. Le détail : coût de la vie 7,2/10, sécurité 6,8/10, écoles 6,6/10, transports 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 660 € et le mètre carré à l'achat à 1 550 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 000 € par mois. La commune compte 49 474 habitants au recensement 2022 contre 49 492 en 2016 et 50 843 en 2011 (source : data/city-population.json), soit 2,7 % de moins en onze ans mais une population strictement stabilisée depuis 2016. C'est la plus grande commune des dix villes de ce lot de guides, et celle dont le dossier demande le plus honnêtement de regarder ailleurs d'abord.",
+      "Laval sort à 6,6/10 au composite parent solo, dans un palier de 10 communes sur les 363 retenues au classement et sixième des 14 communes des Pays de la Loire. Le détail : coût de la vie 7,2/10, sécurité 6,8/10, écoles 6,6/10, transports 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 660 € et le mètre carré à l'achat à 1 550 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 000 € par mois. La commune compte 49 474 habitants au recensement 2022 contre 49 492 en 2016 et 50 843 en 2011 (source : data/city-population.json), soit 2,7 % de moins en onze ans mais une population strictement stabilisée depuis 2016. C'est la plus grande commune des dix villes de ce lot de guides, et celle dont le dossier demande le plus honnêtement de regarder ailleurs d'abord.",
     sections: [
       {
         heading: "100 € par point d'école : cinquième des 363, à égalité",
@@ -55614,14 +55614,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Roanne en 2026 : première de la Loire, et 97 500 € pour 65 mètres carrés",
     metaTitle: "Parent solo à Roanne 2026 — T3 700 €, seuil 2 100 €",
     metaDesc:
-      "Fit 6,6/10, 35e sur 363 et 1re des 3 communes classées de la Loire, devant Saint-Étienne. Coût de la vie 7,7/10, sécurité 5,7/10 : l'arbitrage est net.",
+      "Fit 6,6/10, palier de 10 communes et 1re des 3 communes classées de la Loire. Coût de la vie 7,7/10, sécurité 5,7/10 : l'arbitrage est net.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
     updatedAt: "2026-09-06",
     intro:
-      "Roanne sort à 6,6/10 au composite parent solo, trente-cinquième des 363 communes retenues au classement et septième des 39 communes d'Auvergne-Rhône-Alpes. Le détail : coût de la vie 7,7/10, écoles 6,6/10, transports 6,2/10, sécurité 5,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 700 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 100 € par mois. La commune compte 35 364 habitants au recensement 2022 contre 34 685 en 2016 et 36 147 en 2011 (source : data/city-population.json), soit 2,2 % de moins en onze ans mais une reprise nette depuis 2016. Elle est première des trois communes classées de la Loire, avec six dixièmes de point d'avance sur Saint-Étienne, et son dossier se résume à un arbitrage simple entre le budget et la sécurité.",
+      "Roanne sort à 6,6/10 au composite parent solo, dans un palier de 10 communes sur les 363 retenues au classement et à égalité avec Grenoble et Lyon au cinquième rang des 39 communes d'Auvergne-Rhône-Alpes. Le détail : coût de la vie 7,7/10, écoles 6,6/10, transports 6,2/10, sécurité 5,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 700 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 100 € par mois. La commune compte 35 364 habitants au recensement 2022 contre 34 685 en 2016 et 36 147 en 2011 (source : data/city-population.json), soit 2,2 % de moins en onze ans mais une reprise nette depuis 2016. Elle est première des trois communes classées de la Loire, avec six dixièmes de point d'avance sur Saint-Étienne, et son dossier se résume à un arbitrage simple entre le budget et la sécurité.",
     sections: [
       {
         heading: "Première de la Loire, et l'écart avec Saint-Étienne s'explique",
@@ -55663,14 +55663,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Saint-Quentin en 2026 : le meilleur budget de l'Aisne, les deux axes faibles du trio",
     metaTitle: "Parent solo à Saint-Quentin 2026 — T3 650 €, seuil 1 950 €",
     metaDesc:
-      "Fit 6,6/10, 36e sur 363 et 4e des Hauts-de-France. Coût 8,3/10 et transports 7,7/10, contre 5,5/10 d'écoles et 4,7/10 de sécurité : un dossier tranché.",
+      "Fit 6,6/10, palier de 10 communes et 4e des Hauts-de-France. Coût 8,3/10 et transports 7,7/10 contre 5,5/10 d'écoles et 4,7/10 de sécurité.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
     updatedAt: "2026-09-06",
     intro:
-      "Saint-Quentin sort à 6,6/10 au composite parent solo, trente-sixième des 363 communes retenues au classement et quatrième des 27 communes des Hauts-de-France, derrière Laon, Soissons et Compiègne. Le détail : coût de la vie 8,3/10, transports 7,7/10, écoles 5,5/10, sécurité 4,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 650 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois. La commune compte 52 995 habitants au recensement 2022 contre 54 373 en 2016 et 56 278 en 2011 (source : data/city-population.json), soit 5,8 % de moins en onze ans. C'est le dossier le plus tranché des dix villes de ce lot : deux axes dans le haut du classement, deux axes dans le bas, et un rang qui ne se comprend qu'en regardant lesquels.",
+      "Saint-Quentin sort à 6,6/10 au composite parent solo, dans un palier de 10 communes sur les 363 retenues au classement et quatrième des 27 communes des Hauts-de-France, derrière Laon, Soissons et Compiègne. Le détail : coût de la vie 8,3/10, transports 7,7/10, écoles 5,5/10, sécurité 4,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 650 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois. La commune compte 52 995 habitants au recensement 2022 contre 54 373 en 2016 et 56 278 en 2011 (source : data/city-population.json), soit 5,8 % de moins en onze ans. C'est le dossier le plus tranché des dix villes de ce lot : deux axes dans le haut du classement, deux axes dans le bas, et un rang qui ne se comprend qu'en regardant lesquels.",
     sections: [
       {
         heading: "Le trio de l'Aisne, et le même coût de la vie pour les trois",
@@ -55712,14 +55712,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Châtellerault en 2026 : le seuil d'entrée le plus bas du palier 6,5",
     metaTitle: "Parent solo à Châtellerault 2026 — seuil 1 950 €",
     metaDesc:
-      "Fit 6,5/10, 41e sur 363. Le seuil d'entrée le plus bas des 14 villes du palier : 1 950 € net pour un T3 à 640 €, et 7,7/10 de transports.",
+      "Fit 6,5/10, palier de 14 communes. Le seuil d'entrée le plus bas des 14 villes du palier : 1 950 € net pour un T3 à 640 €, et 7,7/10 de transports.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Châtellerault sort à 6,5/10 au composite parent solo, quarante et unième des 363 communes retenues au classement et troisième des 28 communes de Nouvelle-Aquitaine. Le détail : transports 7,7/10, coût de la vie 7,2/10, sécurité 5,7/10, écoles 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois. La commune compte 31 105 habitants au recensement 2022 contre 32 057 en 2016 et 31 902 en 2011 (source : data/city-population.json), soit 2,5 % de moins en onze ans. Deux faits distinguent ce dossier, et ils se tiennent : c'est le seuil d'entrée le plus bas des quatorze communes qui partagent la note de 6,5, et c'est celle des quatorze qui porte le meilleur axe transports hors Île-de-France.",
+      "Châtellerault sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et à égalité avec Poitiers et Villeneuve-sur-Lot au troisième rang des 28 communes de Nouvelle-Aquitaine. Le détail : transports 7,7/10, coût de la vie 7,2/10, sécurité 5,7/10, écoles 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois. La commune compte 31 105 habitants au recensement 2022 contre 32 057 en 2016 et 31 902 en 2011 (source : data/city-population.json), soit 2,5 % de moins en onze ans. Deux faits distinguent ce dossier, et ils se tiennent : c'est le seuil d'entrée le plus bas des quatorze communes qui partagent la note de 6,5, et c'est celle des quatorze qui porte le meilleur axe transports hors Île-de-France.",
     sections: [
       {
         heading: "1 950 € : le seuil d'entrée le plus bas des quatorze",
@@ -55761,14 +55761,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Saint-Dizier en 2026 : 65 000 € les 65 mètres carrés, et une ville qui se vide",
     metaTitle: "Parent solo à Saint-Dizier 2026 — m² à 1 000 €",
     metaDesc:
-      "Fit 6,5/10, 47e sur 363. Le deuxième mètre carré le moins cher du classement et la population qui recule le plus vite du lot : 8,5 % en six ans.",
+      "Fit 6,5/10, palier de 14 communes. Le deuxième mètre carré le moins cher du classement et la population qui recule le plus vite du lot : 8,5 % en six ans.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Saint-Dizier sort à 6,5/10 au composite parent solo, quarante-septième des 363 communes retenues au classement et cinquième des 24 communes du Grand Est. Le détail : coût de la vie 8,5/10, sécurité 6,5/10, écoles 5,5/10, transports 4,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 680 € et le mètre carré à l'achat à 1 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 050 € par mois. La commune compte 22 811 habitants au recensement 2022 contre 24 932 en 2016 et 24 825 en 2011 (source : data/city-population.json). Deux faits gouvernent ce dossier et il faut les lire ensemble plutôt que l'un après l'autre : c'est le deuxième mètre carré le moins cher des 363 communes classées, derrière Chaumont à 950 €, et c'est la commune qui perd le plus d'habitants du lot de dix guides publié avec celui-ci, à 8,5 % sur les six dernières années.",
+      "Saint-Dizier sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et à égalité avec Charleville-Mézières au quatrième rang des 24 communes du Grand Est. Le détail : coût de la vie 8,5/10, sécurité 6,5/10, écoles 5,5/10, transports 4,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 680 € et le mètre carré à l'achat à 1 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 050 € par mois. La commune compte 22 811 habitants au recensement 2022 contre 24 932 en 2016 et 24 825 en 2011 (source : data/city-population.json). Deux faits gouvernent ce dossier et il faut les lire ensemble plutôt que l'un après l'autre : c'est le deuxième mètre carré le moins cher des 363 communes classées, derrière Chaumont à 950 €, et c'est la commune qui perd le plus d'habitants du lot de dix guides publié avec celui-ci, à 8,5 % sur les six dernières années.",
     sections: [
       {
         heading: "1 000 € le mètre carré : ce que ça change vraiment",
@@ -55810,14 +55810,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Charleville-Mézières en 2026 : le meilleur coût de la vie du classement ne fait pas un pouvoir d'achat",
     metaTitle: "Parent solo à Charleville-Mézières 2026",
     metaDesc:
-      "Fit 6,5/10, 40e sur 363. Coût de la vie 8,5/10, le meilleur axe du classement, face à 30 % de taux de pauvreté : les deux mesurent la même économie.",
+      "Fit 6,5/10, palier de 14 communes. Coût de la vie 8,5/10, le meilleur axe du classement, face à 30 % de taux de pauvreté : les deux mesurent la même économie.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Charleville-Mézières sort à 6,5/10 au composite parent solo, quarantième des 363 communes retenues au classement et quatrième des 24 communes du Grand Est. Le détail : coût de la vie 8,5/10, sécurité 5,7/10, transports 5,5/10, écoles 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 700 € et le mètre carré à l'achat à 1 300 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 100 € par mois. La commune compte 45 634 habitants au recensement 2022 contre 46 682 en 2016 et 49 433 en 2011 (source : data/city-population.json), soit 7,7 % de moins en onze ans. C'est la seule commune des Ardennes retenue au classement, et elle porte le meilleur axe coût de la vie du corpus, à égalité avec quatre autres communes. Ce guide est en grande partie consacré à ce que cet axe ne dit pas.",
+      "Charleville-Mézières sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et à égalité avec Saint-Dizier au quatrième rang des 24 communes du Grand Est. Le détail : coût de la vie 8,5/10, sécurité 5,7/10, transports 5,5/10, écoles 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 700 € et le mètre carré à l'achat à 1 300 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 100 € par mois. La commune compte 45 634 habitants au recensement 2022 contre 46 682 en 2016 et 49 433 en 2011 (source : data/city-population.json), soit 7,7 % de moins en onze ans. C'est la seule commune des Ardennes retenue au classement, et elle porte le meilleur axe coût de la vie du corpus, à égalité avec quatre autres communes. Ce guide est en grande partie consacré à ce que cet axe ne dit pas.",
     sections: [
       {
         heading: "8,5/10 de coût de la vie : la meilleure note du classement",
@@ -55859,14 +55859,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Castres en 2026 : la seule ville de province du palier qui gagne des habitants",
     metaTitle: "Parent solo à Castres 2026 — T3 700 €, seuil 2 100 €",
     metaDesc:
-      "Fit 6,5/10, 39e sur 363. 106 € de loyer par point d'offre scolaire, 13e rapport des 363, et la seule du lot de province dont la population monte.",
+      "Fit 6,5/10, palier de 14 communes. 106 € de loyer par point d'offre scolaire, 14e rapport des 363 à égalité, et la seule du lot dont la population monte.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Castres sort à 6,5/10 au composite parent solo, trente-neuvième des 363 communes retenues au classement et troisième des 22 communes d'Occitanie. Le détail : coût de la vie 7,2/10, écoles 6,6/10, sécurité 6,2/10, transports 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 700 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 100 € par mois. La commune compte 42 700 habitants au recensement 2022 contre 41 338 en 2016 et 42 222 en 2011 (source : data/city-population.json). Deux faits distinguent ce dossier des huit autres communes de province publiées avec lui : le rapport entre le loyer et l'offre scolaire s'y établit à 106 €, treizième valeur des 363 communes classées, et c'est la seule des huit dont la population augmente sur onze ans.",
+      "Castres sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et troisième des 22 communes d'Occitanie. Le détail : coût de la vie 7,2/10, écoles 6,6/10, sécurité 6,2/10, transports 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 700 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 100 € par mois. La commune compte 42 700 habitants au recensement 2022 contre 41 338 en 2016 et 42 222 en 2011 (source : data/city-population.json). Deux faits distinguent ce dossier des huit autres communes de province publiées avec lui : le rapport entre le loyer et l'offre scolaire s'y établit à 106 €, treizième valeur des 363 communes classées, et c'est la seule des huit dont la population augmente sur onze ans.",
     sections: [
       {
         heading: "106 € par point d'école : le treizième rapport des 363",
@@ -55908,14 +55908,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Montbéliard en 2026 : un profil plat dont le creux est la sécurité",
     metaTitle: "Parent solo à Montbéliard 2026 — T3 720 €",
     metaDesc:
-      "Fit 6,5/10, 45e sur 363. 1,7 point d'amplitude entre ses quatre axes, 109 € de loyer par point d'école, et un plancher à 5,5/10 sur la sécurité.",
+      "Fit 6,5/10, palier de 14 communes. 1,7 point d'amplitude entre ses quatre axes, 109 € de loyer par point d'école, et un plancher à 5,5/10 sur la sécurité.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Montbéliard sort à 6,5/10 au composite parent solo, quarante-cinquième des 363 communes retenues au classement et sixième des 11 communes de Bourgogne-Franche-Comté. Le détail : coût de la vie 7,2/10, écoles 6,6/10, transports 6,4/10, sécurité 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 720 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 200 € par mois. La commune compte 25 516 habitants au recensement 2022 contre 25 304 en 2016 et 25 974 en 2011 (source : data/city-population.json). Le dossier a une structure particulière : 1,7 point sépare son meilleur axe du plus faible, ce qui en fait l'un des deux profils les plus réguliers de ce lot de dix guides, mais l'axe qui fait le plancher est la sécurité, que le composite pondère à 0,25.",
+      "Montbéliard sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et à égalité avec Dijon au cinquième rang des 11 communes de Bourgogne-Franche-Comté. Le détail : coût de la vie 7,2/10, écoles 6,6/10, transports 6,4/10, sécurité 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 720 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 200 € par mois. La commune compte 25 516 habitants au recensement 2022 contre 25 304 en 2016 et 25 974 en 2011 (source : data/city-population.json). Le dossier a une structure particulière : 1,7 point sépare son meilleur axe du plus faible, ce qui en fait l'un des deux profils les plus réguliers de ce lot de dix guides, mais l'axe qui fait le plancher est la sécurité, que le composite pondère à 0,25.",
     sections: [
       {
         heading: "1,7 point d'amplitude : un dossier sans creux profond",
@@ -55957,14 +55957,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Abbeville en 2026 : le meilleur axe coût du lot, et pourtant le loyer le plus élevé",
     metaTitle: "Parent solo à Abbeville 2026 — T3 830 €",
     metaDesc:
-      "Fit 6,5/10, 37e sur 363 et 1re de la Somme. L'axe coût la classe 14e des 363, son T3 la classe 87e : les deux ne mesurent pas la même chose.",
+      "Fit 6,5/10, palier de 14 communes et 1re de la Somme. L'axe coût la place dans un palier de 8 communes, son T3 au 87e rang à égalité : deux mesures distinctes.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Abbeville sort à 6,5/10 au composite parent solo, trente-septième des 363 communes retenues au classement et cinquième des 27 communes des Hauts-de-France. Le détail : coût de la vie 7,6/10, écoles 6,6/10, sécurité 6,5/10, transports 4,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 830 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 500 € par mois. La commune compte 22 406 habitants au recensement 2022 contre 23 231 en 2016 et 24 104 en 2011 (source : data/city-population.json), soit 7,0 % de moins en onze ans. Le dossier porte une tension qu'il faut nommer d'entrée, parce qu'elle décide de tout le reste : l'axe coût de la vie place Abbeville au quatorzième rang des 363, et son loyer la place au quatre-vingt-septième. Les deux chiffres sont justes et ils ne mesurent pas la même chose.",
+      "Abbeville sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et cinquième des 27 communes des Hauts-de-France. Le détail : coût de la vie 7,6/10, écoles 6,6/10, sécurité 6,5/10, transports 4,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 830 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 500 € par mois. La commune compte 22 406 habitants au recensement 2022 contre 23 231 en 2016 et 24 104 en 2011 (source : data/city-population.json), soit 7,0 % de moins en onze ans. Le dossier porte une tension qu'il faut nommer d'entrée, parce qu'elle décide de tout le reste : l'axe coût de la vie place Abbeville au quatorzième rang des 363, et son loyer la place au quatre-vingt-septième. Les deux chiffres sont justes et ils ne mesurent pas la même chose.",
     sections: [
       {
         heading: "Quatorzième sur le coût, quatre-vingt-septième sur le loyer",
@@ -56006,14 +56006,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Saumur en 2026 : la meilleure sécurité du palier, et le seul revenu local proche de la médiane",
     metaTitle: "Parent solo à Saumur 2026 — sécurité 7,4/10",
     metaDesc:
-      "Fit 6,5/10, 48e sur 363. Sécurité 7,4/10, 10e des 363 et seule à ce niveau, avec le revenu local le plus élevé des huit villes de province du lot.",
+      "Fit 6,5/10, palier de 14 communes. Sécurité 7,4/10, 10e des 363 et seule à ce niveau, avec le revenu local le plus élevé des huit villes de province du lot.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Saumur sort à 6,5/10 au composite parent solo, quarante-huitième des 363 communes retenues au classement et septième des 14 communes des Pays de la Loire. Le détail : sécurité 7,4/10, coût de la vie 6,7/10, écoles 6,6/10, transports 4,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 800 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 26 074 habitants au recensement 2022 contre 27 125 en 2016 et 27 093 en 2011 (source : data/city-population.json), soit 3,8 % de moins en onze ans. Deux mesures distinguent ce dossier des huit autres communes de province publiées avec lui : l'axe sécurité marque 7,4/10, dixième valeur des 363 et la seule commune du classement à ce niveau exact, et le niveau de vie médian local est le plus élevé des huit.",
+      "Saumur sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et septième des 14 communes des Pays de la Loire. Le détail : sécurité 7,4/10, coût de la vie 6,7/10, écoles 6,6/10, transports 4,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 800 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 26 074 habitants au recensement 2022 contre 27 125 en 2016 et 27 093 en 2011 (source : data/city-population.json), soit 3,8 % de moins en onze ans. Deux mesures distinguent ce dossier des huit autres communes de province publiées avec lui : l'axe sécurité marque 7,4/10, dixième valeur des 363 et la seule commune du classement à ce niveau exact, et le niveau de vie médian local est le plus élevé des huit.",
     sections: [
       {
         heading: "Sécurité 7,4/10 : dixième des 363, et seule à ce niveau",
@@ -56055,14 +56055,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Villeneuve-sur-Lot en 2026 : 4,2/10 de transports et 37 % de plus de 60 ans",
     metaTitle: "Parent solo à Villeneuve-sur-Lot 2026 — T3 810 €",
     metaDesc:
-      "Fit 6,5/10, 50e sur 363 et 1,2 point devant Agen. Sécurité 7,0/10, mais des transports dans les trente derniers rangs et la population la plus âgée du lot.",
+      "Fit 6,5/10, palier de 14 communes, 1,2 point devant Agen. Sécurité 7,0/10, mais des transports dans les trente derniers rangs et la population la plus âgée.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Villeneuve-sur-Lot sort à 6,5/10 au composite parent solo, cinquantième des 363 communes retenues au classement et cinquième des 28 communes de Nouvelle-Aquitaine. Le détail : coût de la vie 7,6/10, sécurité 7,0/10, écoles 6,6/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 810 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 450 € par mois. La commune compte 22 004 habitants au recensement 2022 contre 22 422 en 2016 et 23 232 en 2011 (source : data/city-population.json), soit 5,3 % de moins en onze ans. Le dossier a un argument solide et deux réserves qui se renforcent l'une l'autre : trois axes sur quatre sont au-dessus de la médiane du classement, mais l'axe transports est dans les trente derniers rangs des 363, et 37,0 % des habitants ont 60 ans ou plus, la part la plus élevée des dix communes traitées dans ce lot.",
+      "Villeneuve-sur-Lot sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et à égalité avec Châtellerault et Poitiers au troisième rang des 28 communes de Nouvelle-Aquitaine. Le détail : coût de la vie 7,6/10, sécurité 7,0/10, écoles 6,6/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 810 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 450 € par mois. La commune compte 22 004 habitants au recensement 2022 contre 22 422 en 2016 et 23 232 en 2011 (source : data/city-population.json), soit 5,3 % de moins en onze ans. Le dossier a un argument solide et deux réserves qui se renforcent l'une l'autre : trois axes sur quatre sont au-dessus de la médiane du classement, mais l'axe transports est dans les trente derniers rangs des 363, et 37,0 % des habitants ont 60 ans ou plus, la part la plus élevée des dix communes traitées dans ce lot.",
     sections: [
       {
         heading: "Transports 4,2/10 : les trente derniers rangs des 363",
@@ -56104,14 +56104,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Issy-les-Moulineaux en 2026 : transports 9, écoles 9, coût 2,2",
     metaTitle: "Parent solo à Issy-les-Moulineaux 2026",
     metaDesc:
-      "Fit 6,5/10, 43e sur 363. Le maximum du classement sur les transports et les écoles, le minimum sur le coût, et 5 150 € de seuil d'entrée.",
+      "Fit 6,5/10, palier de 14 communes. Le maximum du classement sur les transports et les écoles, le minimum sur le coût, et 5 150 € de seuil d'entrée.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Issy-les-Moulineaux sort à 6,5/10 au composite parent solo, quarante-troisième des 363 communes retenues au classement et troisième des 115 communes d'Île-de-France. Le détail : transports 9,0/10, écoles 9,0/10, sécurité 7,2/10, coût de la vie 2,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 800 € et le mètre carré à l'achat à 6 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 5 150 € par mois. La commune compte 67 695 habitants au recensement 2022 contre 68 395 en 2016 et 65 326 en 2011 (source : data/city-population.json). Ce dossier est le cas limite du barème : la commune touche le maximum du classement sur deux axes et son minimum sur un troisième, ce qui produit l'amplitude la plus forte du corpus et une note finale strictement identique à celle de Châtellerault, qui entre à 1 950 € par mois.",
+      "Issy-les-Moulineaux sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et à égalité avec Levallois-Perret au troisième rang des 115 communes d'Île-de-France. Le détail : transports 9,0/10, écoles 9,0/10, sécurité 7,2/10, coût de la vie 2,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 800 € et le mètre carré à l'achat à 6 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 5 150 € par mois. La commune compte 67 695 habitants au recensement 2022 contre 68 395 en 2016 et 65 326 en 2011 (source : data/city-population.json). Ce dossier est le cas limite du barème : la commune touche le maximum du classement sur deux axes et son minimum sur un troisième, ce qui produit l'amplitude la plus forte du corpus et une note finale strictement identique à celle de Châtellerault, qui entre à 1 950 € par mois.",
     sections: [
       {
         heading: "Le maximum du classement sur deux axes, le minimum sur un troisième",
@@ -56153,14 +56153,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Levallois-Perret en 2026 : même note que Châtellerault, presque trois fois le revenu",
     metaTitle: "Parent solo à Levallois-Perret 2026 — T3 2 000 €",
     metaDesc:
-      "Fit 6,5/10, 44e sur 363. Le palier 6,5 va de 1 950 € à 5 700 € de seuil d'entrée pour une note identique : un palier n'est pas une liste de choix.",
+      "Fit 6,5/10, palier de 14 communes. Le palier 6,5 va de 1 950 € à 5 700 € de seuil d'entrée pour une note identique : un palier n'est pas une liste de choix.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-13",
     updatedAt: "2026-09-13",
     intro:
-      "Levallois-Perret sort à 6,5/10 au composite parent solo, quarante-quatrième des 363 communes retenues au classement et quatrième des 115 communes d'Île-de-France. Le détail : transports 9,0/10, écoles 9,0/10, sécurité 7,2/10, coût de la vie 2,2/10 (source : data/cities-seed.ts), soit exactement les quatre notes d'Issy-les-Moulineaux, traitée dans ce même lot. Le T3 moyen est à 2 000 € et le mètre carré à l'achat à 7 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 5 700 € par mois. La commune compte 68 412 habitants au recensement 2022 contre 63 462 en 2016 et 64 629 en 2011 (source : data/city-population.json). C'est la commune la plus chère du palier 6,5, et le palier lui-même est le sujet de ce guide : quatorze communes y partagent la même note, et le revenu nécessaire pour y entrer va de 1 950 € à 5 700 € par mois.",
+      "Levallois-Perret sort à 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 retenues au classement et à égalité avec Issy-les-Moulineaux au troisième rang des 115 communes d'Île-de-France. Le détail : transports 9,0/10, écoles 9,0/10, sécurité 7,2/10, coût de la vie 2,2/10 (source : data/cities-seed.ts), soit exactement les quatre notes d'Issy-les-Moulineaux, traitée dans ce même lot. Le T3 moyen est à 2 000 € et le mètre carré à l'achat à 7 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 5 700 € par mois. La commune compte 68 412 habitants au recensement 2022 contre 63 462 en 2016 et 64 629 en 2011 (source : data/city-population.json). C'est la commune la plus chère du palier 6,5, et le palier lui-même est le sujet de ce guide : quatorze communes y partagent la même note, et le revenu nécessaire pour y entrer va de 1 950 € à 5 700 € par mois.",
     sections: [
       {
         heading: "Un palier qui va de 1 950 € à 5 700 € pour la même note",
@@ -56202,7 +56202,7 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Annemasse en 2026 : tout tient sauf le prix, et le prix vient de Genève",
     metaTitle: "Parent solo à Annemasse 2026 — seuil 3 850 €",
     metaDesc:
-      "Fit 6,4/10, 51e sur 363. Transports 9,0/10, écoles 7,7/10, sécurité 6,8/10, et un seul axe qui coince : le coût, à 3,4/10 pour un T3 à 1 350 €.",
+      "Fit 6,4/10, palier de 13 communes. Transports 9,0/10, écoles 7,7/10, sécurité 6,8/10, et un seul axe qui coince : le coût, à 3,4/10 pour un T3 à 1 350 €.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
@@ -56251,14 +56251,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Belfort en 2026 : 58 € manquent au ménage médian, et c'est tout le sujet",
     metaTitle: "Parent solo à Belfort 2026 — seuil 2 100 €",
     metaDesc:
-      "Fit 6,4/10, 52e sur 363. T3 à 690 €, 105 € de loyer par point d'offre scolaire : 12e rapport des 363. Mais 29 % de pauvreté et 6,8 % d'habitants en moins.",
+      "Fit 6,4/10, palier de 13 communes. T3 à 690 €, 105 € par point d'offre scolaire, 12e rapport des 363. Mais 29 % de pauvreté.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-20",
     updatedAt: "2026-09-20",
     intro:
-      "Belfort sort à 6,4/10 au composite parent solo, cinquante-deuxième des 363 communes retenues au classement et seule commune du Territoire de Belfort à y figurer. Le détail : coût de la vie 7,2/10, écoles 6,6/10, transports 6,2/10, sécurité 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 690 € et le mètre carré à l'achat à 1 550 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 100 € par mois. La commune compte 45 646 habitants au recensement 2022 contre 48 973 en 2016 et 50 128 en 2011 (source : data/city-population.json). Un chiffre gouverne ce dossier et il est inhabituellement précis : un ménage monoparental situé exactement au niveau de vie médian belfortain dispose d'environ 2 042 € par mois, pour un seuil d'entrée de 2 100 €. Il manque 58 €.",
+      "Belfort sort à 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 retenues au classement et seule commune du Territoire de Belfort à y figurer. Le détail : coût de la vie 7,2/10, écoles 6,6/10, transports 6,2/10, sécurité 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 690 € et le mètre carré à l'achat à 1 550 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 100 € par mois. La commune compte 45 646 habitants au recensement 2022 contre 48 973 en 2016 et 50 128 en 2011 (source : data/city-population.json). Un chiffre gouverne ce dossier et il est inhabituellement précis : un ménage monoparental situé exactement au niveau de vie médian belfortain dispose d'environ 2 042 € par mois, pour un seuil d'entrée de 2 100 €. Il manque 58 €.",
     sections: [
       {
         heading: "58 € : le calcul, et pourquoi il mérite une section",
@@ -56300,14 +56300,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Cambrai en 2026 : le seuil d'entrée le plus bas du classement, et une sécurité à 4,6",
     metaTitle: "Parent solo à Cambrai 2026 — seuil 1 950 €",
     metaDesc:
-      "Fit 6,4/10, 53e sur 363. Seuil d'entrée de 1 950 € net, 97 € de loyer par point d'école : 3e rapport des 363. Sécurité 4,6/10, le creux du dossier.",
+      "Fit 6,4/10, palier de 13 communes. Seuil 1 950 € net, 97 € par point d'école : 2e rapport des 363, à égalité. Sécurité 4,6/10, le creux.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-20",
     updatedAt: "2026-09-20",
     intro:
-      "Cambrai sort à 6,4/10 au composite parent solo, cinquante-troisième des 363 communes retenues au classement et première des onze communes du Nord classées, devant Lille à 6,3/10. Le détail : coût de la vie 7,2/10, transports 7,0/10, écoles 6,6/10, sécurité 4,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 600 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois. La commune compte 31 568 habitants au recensement 2022 contre 32 668 en 2016 et 32 770 en 2011 (source : data/city-population.json). Deux faits opposés gouvernent ce dossier et il faut les lire ensemble : c'est le seuil d'entrée le plus bas des treize communes du palier, et c'est la sécurité la plus faible des treize communes du palier 6,4.",
+      "Cambrai sort à 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 retenues au classement et première des onze communes du Nord classées, devant Lille à 6,3/10. Le détail : coût de la vie 7,2/10, transports 7,0/10, écoles 6,6/10, sécurité 4,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 600 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois. La commune compte 31 568 habitants au recensement 2022 contre 32 668 en 2016 et 32 770 en 2011 (source : data/city-population.json). Deux faits opposés gouvernent ce dossier et il faut les lire ensemble : c'est le seuil d'entrée le plus bas des treize communes du palier, et c'est la sécurité la plus faible des treize communes du palier 6,4.",
     sections: [
       {
         heading: "1 950 € : le plancher du palier, partagé par dix communes",
@@ -56349,14 +56349,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Épernay en 2026 : le profil le plus régulier du palier, sans aucun point faible",
     metaTitle: "Parent solo à Épernay 2026 — seuil 2 600 €",
     metaDesc:
-      "Fit 6,4/10, 54e sur 363. Quatre axes entre 5,6 et 6,7, soit 1,1 point d'amplitude : le profil le plus régulier du lot. Première des trois communes de la Marne.",
+      "Fit 6,4/10, palier de 13 communes. Quatre axes entre 5,6 et 6,7, le profil le plus régulier du lot. Première des trois communes de la Marne.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-20",
     updatedAt: "2026-09-20",
     intro:
-      "Épernay sort à 6,4/10 au composite parent solo, cinquante-quatrième des 363 communes retenues au classement et première des trois communes de la Marne classées, devant Châlons-en-Champagne à 6,2/10 et Reims à 5,9/10. Le détail : coût de la vie 6,7/10, écoles 6,6/10, sécurité 6,5/10, transports 5,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 850 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 600 € par mois. La commune compte 22 022 habitants au recensement 2022 contre 23 084 en 2016 et 23 888 en 2011 (source : data/city-population.json). Une caractéristique distingue ce dossier de tous les autres du lot et elle ne saute pas aux yeux dans un tableau : les quatre axes tiennent dans 1,1 point d'écart.",
+      "Épernay sort à 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 retenues au classement et première des trois communes de la Marne classées, devant Châlons-en-Champagne à 6,2/10 et Reims à 5,9/10. Le détail : coût de la vie 6,7/10, écoles 6,6/10, sécurité 6,5/10, transports 5,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 850 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 600 € par mois. La commune compte 22 022 habitants au recensement 2022 contre 23 084 en 2016 et 23 888 en 2011 (source : data/city-population.json). Une caractéristique distingue ce dossier de tous les autres du lot et elle ne saute pas aux yeux dans un tableau : les quatre axes tiennent dans 1,1 point d'écart.",
     sections: [
       {
         heading: "1,1 point d'amplitude : ce que vaut un profil sans creux",
@@ -56398,14 +56398,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Neuilly-sur-Seine en 2026 : la commune la plus riche du classement, et un seuil à 7 150 €",
     metaTitle: "Parent solo à Neuilly 2026 — seuil 7 150 €",
     metaDesc:
-      "Fit 6,4/10, 57e sur 363. Transports et écoles à 9,0/10, coût de la vie à 2,2 : le maximum d'amplitude du corpus. Le ménage médian rate le seuil de 1 949 €.",
+      "Fit 6,4/10, palier de 13 communes. Transports et écoles à 9,0/10, coût 2,2 : l'amplitude maximale du corpus. Le ménage médian rate le seuil de 1 949 €.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
     publishedAt: "2026-09-20",
     updatedAt: "2026-09-20",
     intro:
-      "Neuilly-sur-Seine sort à 6,4/10 au composite parent solo, cinquante-septième des 363 communes retenues au classement et troisième des vingt-six communes des Hauts-de-Seine classées, derrière Issy-les-Moulineaux et Levallois-Perret toutes deux à 6,5/10. Le détail : transports 9,0/10, écoles 9,0/10, sécurité 6,7/10, coût de la vie 2,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 2 500 € et le mètre carré à l'achat à 9 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 7 150 € par mois. La commune compte 59 200 habitants au recensement 2022 contre 60 580 en 2016 et 61 797 en 2011 (source : data/city-population.json). Ce guide est celui du lot qui porte la limite du barème, et il faut l'annoncer d'emblée plutôt que de la découvrir en chemin : Neuilly a deux axes au maximum du classement, un axe dans son dernier vingtième, et la moyenne pondérée des quatre tombe exactement sur la note d'Oyonnax et de Cambrai.",
+      "Neuilly-sur-Seine sort à 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 retenues au classement et troisième des vingt-six communes des Hauts-de-Seine classées, derrière Issy-les-Moulineaux et Levallois-Perret toutes deux à 6,5/10. Le détail : transports 9,0/10, écoles 9,0/10, sécurité 6,7/10, coût de la vie 2,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 2 500 € et le mètre carré à l'achat à 9 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 7 150 € par mois. La commune compte 59 200 habitants au recensement 2022 contre 60 580 en 2016 et 61 797 en 2011 (source : data/city-population.json). Ce guide est celui du lot qui porte la limite du barème, et il faut l'annoncer d'emblée plutôt que de la découvrir en chemin : Neuilly a deux axes au maximum du classement, un axe dans son dernier vingtième, et la moyenne pondérée des quatre tombe exactement sur la note d'Oyonnax et de Cambrai.",
     sections: [
       {
         heading: "6,8 points d'amplitude : le maximum mesurable du corpus",
@@ -56451,14 +56451,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Nevers en 2026 : 22 € de marge, et deux axes à 5,5 qui expliquent pourquoi",
     metaTitle: "Parent solo à Nevers 2026 — coût de la vie 8,2",
     metaDesc:
-      "Fit 6,4/10, 58e sur 363. Coût de la vie 8,2/10, partagé avec une seule autre commune. Mais transports et écoles à 5,5, et 32,5 % de 60 ans et plus.",
+      "Fit 6,4/10, palier de 13 communes. Coût de la vie 8,2/10, partagé avec une seule autre commune. Mais transports et écoles à 5,5, et 32,5 % de 60 ans et plus.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-20",
     updatedAt: "2026-09-20",
     intro:
-      "Nevers sort à 6,4/10 au composite parent solo, cinquante-huitième des 363 communes retenues au classement et seule commune de la Nièvre à y figurer. Le détail : coût de la vie 8,2/10, sécurité 5,7/10, transports 5,5/10, écoles 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 710 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 150 € par mois. La commune compte 33 172 habitants au recensement 2022 contre 33 235 en 2016 et 36 210 en 2011 (source : data/city-population.json). Le dossier repose entièrement sur un axe et il faut le dire d'emblée : le coût de la vie à 8,2/10 est la neuvième valeur des 363 communes classées, partagée avec la seule Vichy, et il porte à lui seul une note que les trois autres postes tireraient nettement plus bas.",
+      "Nevers sort à 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 retenues au classement et seule commune de la Nièvre à y figurer. Le détail : coût de la vie 8,2/10, sécurité 5,7/10, transports 5,5/10, écoles 5,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 710 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 150 € par mois. La commune compte 33 172 habitants au recensement 2022 contre 33 235 en 2016 et 36 210 en 2011 (source : data/city-population.json). Le dossier repose entièrement sur un axe et il faut le dire d'emblée : le coût de la vie à 8,2/10 est la neuvième valeur des 363 communes classées, partagée avec la seule Vichy, et il porte à lui seul une note que les trois autres postes tireraient nettement plus bas.",
     sections: [
       {
         heading: "8,2/10 de coût de la vie : neuvième des 363, partagé avec Vichy",
@@ -56500,14 +56500,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Oyonnax en 2026 : 4,2/10 de transports, l'axe qui décide de la semaine",
     metaTitle: "Parent solo à Oyonnax 2026 — transports 4,2/10",
     metaDesc:
-      "Fit 6,4/10, 59e sur 363. Coût de la vie 7,6/10 et sécurité 6,5/10, mais des transports au 334e rang des 363 : la voiture n'est pas une option ici.",
+      "Fit 6,4/10, palier de 13 communes. Coût de la vie 7,6/10 et sécurité 6,5/10, mais des transports dans les trente derniers rangs : la voiture est obligatoire.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-20",
     updatedAt: "2026-09-20",
     intro:
-      "Oyonnax sort à 6,4/10 au composite parent solo, cinquante-neuvième des 363 communes retenues au classement et première des deux communes de l'Ain classées, devant Bourg-en-Bresse à 6,1/10. Le détail : coût de la vie 7,6/10, écoles 6,6/10, sécurité 6,5/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 800 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 22 378 habitants au recensement 2022 contre 22 559 en 2016 et 22 459 en 2011 (source : data/city-population.json). Ce guide est le premier du site à traiter Oyonnax, et un chiffre commande tout le dossier : l'axe transports à 4,2/10 est le trois cent trente-quatrième des 363, et c'est le seul poste du profil qui descende sous le plancher à partir duquel le score global du site pénalise une commune.",
+      "Oyonnax sort à 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 retenues au classement et première des deux communes de l'Ain classées, devant Bourg-en-Bresse à 6,1/10. Le détail : coût de la vie 7,6/10, écoles 6,6/10, sécurité 6,5/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 800 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 22 378 habitants au recensement 2022 contre 22 559 en 2016 et 22 459 en 2011 (source : data/city-population.json). Ce guide est le premier du site à traiter Oyonnax, et un chiffre commande tout le dossier : l'axe transports à 4,2/10 est le trois cent trente-quatrième des 363, et c'est le seul poste du profil qui descende sous le plancher à partir duquel le score global du site pénalise une commune.",
     sections: [
       {
         heading: "4,2/10 de transports : ce que ça veut dire pour un foyer à un adulte",
@@ -56549,14 +56549,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Troyes en 2026 : la seule du lot qui gagne des habitants et qui appauvrit",
     metaTitle: "Parent solo à Troyes 2026 — seuil 2 600 €",
     metaDesc:
-      "Fit 6,4/10, 62e sur 363. +3 % d'habitants en six ans, mais 30 % de pauvreté et le niveau de vie le plus bas des huit villes du lot. Seuil d'entrée 2 600 €.",
+      "Fit 6,4/10, palier de 13 communes. +3 % d'habitants en six ans, mais 30 % de pauvreté et le niveau de vie le plus bas du lot. Seuil 2 600 €.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-20",
     updatedAt: "2026-09-20",
     intro:
-      "Troyes sort à 6,4/10 au composite parent solo, soixante-deuxième des 363 communes retenues au classement et seule commune de l'Aube à y figurer. Le détail : coût de la vie 7,1/10, transports 6,7/10, écoles 6,4/10, sécurité 5,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 860 € et le mètre carré à l'achat à 2 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 600 € par mois. La commune compte 62 443 habitants au recensement 2022 contre 60 640 en 2016 et 60 013 en 2011 (source : data/city-population.json). C'est la plus peuplée des huit communes traitées dans ce lot, et elle y porte une combinaison qu'aucune autre ne présente : elle gagne des habitants sur les deux périodes mesurées, et elle affiche en même temps le niveau de vie le plus bas et le taux de pauvreté le plus élevé des huit.",
+      "Troyes sort à 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 retenues au classement et seule commune de l'Aube à y figurer. Le détail : coût de la vie 7,1/10, transports 6,7/10, écoles 6,4/10, sécurité 5,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 860 € et le mètre carré à l'achat à 2 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 600 € par mois. La commune compte 62 443 habitants au recensement 2022 contre 60 640 en 2016 et 60 013 en 2011 (source : data/city-population.json). C'est la plus peuplée des huit communes traitées dans ce lot, et elle y porte une combinaison qu'aucune autre ne présente : elle gagne des habitants sur les deux périodes mesurées, et elle affiche en même temps le niveau de vie le plus bas et le taux de pauvreté le plus élevé des huit.",
     sections: [
       {
         heading: "Croissance et pauvreté ensemble : ce que les deux chiffres disent",
@@ -56598,7 +56598,7 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Auxerre en 2026 : la seule des seize où le ménage médian franchit le seuil",
     metaTitle: "Parent solo à Auxerre 2026 — seuil 2 000 €",
     metaDesc:
-      "Fit 6,3/10 dans un palier de 16 communes. Seuil d'entrée 2 000 €, sixième meilleur rapport loyer/point d'école des 363. Mais 29,9 % de 60 ans et plus.",
+      "Fit 6,3/10 dans un palier de 16 communes. Seuil d'entrée 2 000 €, cinquième rapport loyer/école des 363, à égalité avec Laval. Mais 29,9 % de 60 ans et plus.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,

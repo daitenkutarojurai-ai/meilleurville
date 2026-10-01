@@ -51,9 +51,14 @@ avec un déplacement médian de 6 rangs et un maximum de 20 (Agde). Et le contr�
 æquo** — il n'y a pas une seule exception. Les 11 guides de ce lot **nomment donc le palier et ne
 publient aucun rang**, ce qui est une rupture assumée avec les batches précédents ; la note du batch 10
 qui demandait de ne pas aligner l'EN sur les metaDesc FR est ainsi tranchée dans l'autre sens, côté FR.
-⚠️ **Les 77 metaDesc déjà publiées n'ont pas été réécrites** : c'est une dette nommée, pas un oubli. Le
-correctif est mécanique (remplacer « Ne sur 363 » par le palier) mais il touche 77 chaînes d'un fichier
-partagé avec d'autres agents, et il mérite son propre run.
+✅ **Les 77 metaDesc déjà publiées ont été réécrites le 2026-10-01** (cf. § Shipped de ce jour), et la
+dette était trois fois plus large que son nom : 128 citations en chiffres, 44 en lettres (« quarante et
+unième des 363 »), 12 positions régionales assises dans une égalité et 4 superlatifs démentis par la
+mesure — 175 chaînes au total. ⚠️ **Deux formes de rang national subsistent volontairement dans la
+série et ne sont pas à « corriger »** : La Roche-sur-Yon « 1re sur 363 » (seule à 7,5) et Saumur
+« sécurité 7,4/10, 10e des 363 et seule à ce niveau ». ⚠️ **Et trois dettes restent ouvertes, mesurées**
+: la jumelle EN (116 rangs fabriqués sur 65 de ses 114 guides), 38 positions d'axe en lettres non
+qualifiées côté FR, et 13 rangs tiers en chiffres nus dans les bodies FR.
 
 ⚠️ **Cas limite trouvé en écrivant, et il renforce la thèse : l'alphabet n'ordonne pas seulement une
 égalité exacte, il inverse ici un écart réel.** Chalon-sur-Saône et Mâcon sont les deux seules communes
@@ -9619,6 +9624,91 @@ signal thématique du domaine. Noindex ou suppression — décision produit, pas
 tableau de bord, une route par run, sortie du contrôle collée dans chaque message de commit.
 
 ---
+
+## Shipped 2026-10-01
+
+- **Série parent solo — les 77 metaDesc annoncées comme « dette nommée » au batch 12 sont réécrites,
+  et la dette était trois fois plus large que son nom.** Le batch 12 (27/09) avait établi que le rang
+  publié à l'intérieur d'un palier d'ex æquo est **fabriqué par l'alphabet** (`a.name.localeCompare`),
+  avait cessé d'en publier pour ses onze guides, et avait laissé les autres en l'état : « le correctif
+  est mécanique mais il touche 77 chaînes d'un fichier partagé, et il mérite son propre run ». C'est ce
+  run. **175 chaînes réécrites dans `data/guides.ts`, zéro rang fabriqué restant sur la famille
+  nationale.**
+  ⚠️ **La structure du classement rend la quasi-totalité des rangs fabriqués, et c'est mesuré** : sur
+  les **363 communes éligibles**, le composite à une décimale ne prend que **37 valeurs distinctes**, et
+  **trois paliers seulement comptent une commune** — donc **360 des 363 communes partagent leur note
+  avec au moins une autre**. Les plus larges : 5,4 (21 communes), 5,9 (19), 5,2 (19), 5,8 (18), 6,3 (16).
+  **Décompte des citations trouvées et traitées** (chaque rang confronté au palier réel, recalculé
+  depuis `CITIES_SEED` et `parentSoloFit`, jamais recopié du journal) :
+  ① **128 citations en chiffres** du rang national — 124 le rang propre du guide, 2 un rang tiers
+  (Mérignac dans le guide Pessac, Melun dans le guide Fontainebleau), 2 un rang d'axe — dont **124
+  assises dans un palier**. ② **44 citations du même rang écrites en lettres** (« quarante et unième des
+  363 communes retenues au classement »), dont **42 fabriquées**. ③ **12 positions régionales ou
+  départementales** assises dans une égalité régionale ; **21 autres vérifiées uniques et conservées
+  telles quelles**. ④ **5 rangs de ratio ou d'axe** dans une égalité, plus **1 erreur de rang franche** :
+  Castres annonçait le « 13e rapport des 363 » pour le **14e**. ⑤ **4 superlatifs démentis par la
+  mesure**, pas par une relecture — Dole « le meilleur rapport **des 66 guides** de la série » (la série
+  en compte 114 et Dole est **7e** du ratio loyer/point d'écoles, derrière Alençon à 94 € et le trio
+  Auch/Vichy/Cambrai à 97 €), Auch « le meilleur rapport de la série » (2e, **à égalité à trois**),
+  Angers « la ville la mieux classée qualité de vie en France » (axe `life` **7,2/10**, le maximum du
+  corpus étant Annecy à 9,0) et Aix-en-Provence « la ville la plus tendue budgétairement de la liste »
+  (coût **3,6/10** quand six communes de la série sont à 2,2).
+  **Deux formes conservées, parce qu'elles sont vraies** : La Roche-sur-Yon reste « 1re sur 363 »
+  (**seule à 7,5**, palier de 1), et Saumur garde « sécurité 7,4/10, 10e des 363 **et seule à ce
+  niveau** », qui dit déjà son unicité. Ce sont les deux seules citations de rang national qui
+  subsistent dans la série.
+  **Formulation** : la forme retenue est celle du batch 12, « dans un palier de N communes », en prose ;
+  en `metaDesc` la variante compacte « , palier de N communes » là où la longue ferait dépasser les
+  160 caractères. **Deux phrasés d'une même affirmation coexistent donc dans la série** — ce n'est pas
+  un oubli, et les onze `metaDesc` déjà correctes du batch 12 n'ont pas été churnées pour l'uniformité.
+  🔧 **Corrigé au passage, sans rapport avec les rangs : les 8 `metaDesc` de la série qui dépassaient
+  la convention des 160 caractères**, toutes des batches 1 et 2 et toutes antérieures à ce run (vérifié
+  contre `HEAD` avant de toucher quoi que ce soit) — **Lyon à 200**, Rennes 181, Angers 167, Nancy 165,
+  Lille 165, Grenoble 165, Aix 162, Montpellier 161. Les deux superlatifs faux ci-dessus (Angers, Aix)
+  étaient dans ce lot. La série tient maintenant **124-160 caractères sur les 114 guides**, `metaTitle`
+  tous ≤ 60.
+  ⚠️ **Trois leçons de méthode, chacune payée d'un défaut que ni `tsc` ni `npm run integrity` ne
+  voient.** ① **Une famille de citations s'énumère avant de se compter.** Le premier décompte a donné
+  **90** citations et le vrai est **128** : la variante « sur **les** 363 » échappait à la regex, et la
+  variante en **lettres** échappait aux deux. Un audit de rangs commence par extraire les **formes de
+  phrase** distinctes, pas par supposer la forme. ② **Un ordinal composé à espaces casse une passe par
+  regex.** « quarante et unième » se laisse découper en « et unième des 363 communes », que ma règle de
+  position régionale a pris pour une position régionale : l'intro de Châtellerault est sortie en
+  « quarante **et à égalité avec Poitiers en tête** des 363 communes retenues au classement », soit le
+  contraire du vrai. Rattrapé par une passe de cohérence mécanique (fragment orphelin, clause doublée,
+  partenaire d'égalité aussi nommé comme devant) **et** par une relecture du diff ancien→nouveau sur les
+  175 chaînes, région changée isolée. Deux autres collisions du même genre ont été trouvées là :
+  « à égalité avec Vienne … **derrière Vienne** » (Villefranche-sur-Saône) et « à égalité avec Caen …
+  derrière Alençon **et à égalité avec Caen** » (Dieppe). ③ **Un raccourcissement casse les phrases
+  vraies.** Pour tenir les 160 caractères, « des transports dans les trente derniers rangs » est devenu
+  « au dernier palier » chez Villeneuve-sur-Lot : c'est faux, son 4,2 de transports occupe les positions
+  **21 à 30 en partant du pire** et le minimum du corpus est 2,5. Restauré après remesure, et la mesure
+  est désormais dans le script de correctif plutôt que dans ma tête.
+  **Contrôles** : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR 1 198, tous les gardes
+  verts), `search-index` + `search-index:check` (1 198 guides, **274 tags inchangés**, donc aucune page
+  `/tags/` créée), `npm run sitemap:check` (FR **29 309 URL**, EN 28 913 — **inchangés**, aucun slug
+  neuf), `npm run parity` (**code 0**), `npm run hreflang:check`, plus **172 figures de palier
+  confrontées une à une au classement vivant, 0 écart** (les 2 remontées par le contrôle sont les
+  paliers de Melun et de Rambouillet dans le guide Fontainebleau, tiers et corrects), une vérification
+  d'encodage sur les 175 lignes ajoutées (accents intacts, aucun mojibake, aucune apostrophe
+  typographique, aucun `m2` / `EUR` / `deg` ascii) et un décompte d'em-dash **en baisse** sur les lignes
+  touchées (22 → 16). `npm run build` **non lancé, volontairement** (cf. CLAUDE.md § Commands depuis le
+  batch 27).
+  ⚠️ **Ce qui n'est PAS livré, mesuré et non supposé — trois dettes nommées, chacune méritant son run.**
+  ① **La jumelle EN porte le même défaut, en plus grand** : `single-parent-in-[city]-2026` compte **118
+  citations de son rang propre, dont 116 assises dans un palier, réparties sur 65 des 114 guides** et
+  sur six surfaces (`metaDesc` 56, `intro` 39, bodies 11, `metaTitle` 6, `title` 3, headings 3) — là où
+  le FR concentrait l'essentiel dans la `metaDesc`. Rien n'y a été touché ce run : les deux locales ne
+  se contredisent pas sur un **chiffre** (le FR ne publie plus de rang, l'EN en publie un qui est le
+  vrai rang de tri), mais l'EN publie encore une position que l'alphabet fabrique. ② **38 positions
+  nationales en lettres restent non qualifiées côté FR**, et ce sont pour l'essentiel des positions
+  **d'axe** dans les bodies (« septième valeur la plus basse des 363 » sur le coût), chacune à confronter
+  au palier de **son propre axe** et non à celui du composite — 95 autres se qualifient déjà elles-mêmes
+  par « palier », « à égalité » ou « partagé », convention que les guides des batches 11 et 12 avaient
+  posée en prose. ③ **13 rangs nationaux tiers en chiffres nus subsistent dans les bodies FR, et les 13
+  sont dans un palier** (Amiens 119e, Lille 71e, Lyon 34e, Saint-Quentin 36e, Beauvais 81e, Tarbes 78e,
+  Bourgoin-Jallieu 65e, Vichy 26e…) ; seuls les trois du guide Fontainebleau (Melun, Paris, Rambouillet)
+  ont été corrigés, parce que sa chaîne était réécrite de toute façon.
 
 ## Shipped 2026-09-30
 
