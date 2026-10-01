@@ -5816,6 +5816,17 @@ FR parce qu'un lecteur qui déménage à l'intérieur de la France n'en a pas be
 « Shipping your things in from another country » est pour la même raison la seule des huit sans
 jumelle FR.
 
+⚠️ **Deuxième dette datée, non corrigée ce run, et elle a une échéance : novembre 2026.** La
+vérification du ferry a mis au jour que **12 guides EN** écrivent la fermeture au présent ou au futur
+(« Brittany Ferries **closes** Portsmouth to Le Havre **in October 2026** »), formulation juste
+aujourd'hui et **fausse dès novembre**, où il faudra lire « a fermé ». Et côté FR, qui porte le
+trafic, le guide **Cherbourg** cite « Poole, Portsmouth, Rosslare » comme les traversées de la
+ville : **Poole–Cherbourg ferme d'ici novembre 2026** et est remplacée par Portsmouth–Cherbourg, donc
+cette ligne périme à la même échéance. Vérifié ce run : **aucun guide FR n'affirme la liaison
+Portsmouth–Le Havre**, le défaut FR se limite à Poole. Rien n'est cassé à la date d'écriture, et
+c'est précisément pourquoi ça se perd : une phrase datée juste se relit comme une phrase juste. À
+reprendre en novembre, les deux locales ensemble.
+
 🔎 **Trouvé en passant, non corrigé, et c'est une dette à traiter dans un run dédié** : les tags EN
 portent **21 couples de variantes orthographiques** pour le même tag, dont `grand-est` (49) contre
 `grand est` (11), `centre-val-de-loire` (15) contre `centre-val de loire` (6), `pays-de-la-loire` (29)
