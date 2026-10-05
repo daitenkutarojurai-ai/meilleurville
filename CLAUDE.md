@@ -3544,8 +3544,8 @@ Un thème = une entrée de `RED_FLAG_THEMES` (slug, titre, meta, `intro` / `real
 les deux de la liste, il n'y a donc rien d'autre à câbler ; l'EN est une **sélection à part**
 (`EN_THEMES` dans `app/[locale]/red-flags/themes/[slug]/page.tsx`, qui réutilise le `rank()` FR via
 `frSlug`) — un thème FR sans jumelle EN est normal et ne demande pas de hreflang. **Compteurs
-mesurés (`grep -c '^    slug: "'` et `ls app/red-flags | grep -c villes-`) : 39 thèmes, 39 dossiers**
-(2026-09-14). Dernier ajouté : **`villes-sans-enfants`** — troisième thème du fichier bâti sur une
+mesurés (`grep -c '^    slug: "'` et `ls app/red-flags | grep -c villes-`) : 40 thèmes, 40 dossiers**
+(2026-10-05). Dernier ajouté : **`villes-arrivees-loyers-hauts`** — deux mesures publiées, aucun score : villes de 20 000 hab. et plus qui gagnent ≥ 10 % d'habitants (Insee 2011→2022) et ≥ 4 % sur 2016-2022 avec un T3 ≥ 1,15 × la médiane des 361 villes comparées (1 010 €). 71 villes passent la croissance, 27 le loyer (17 en Île-de-France), 15 publiées ; Bagnolet ouvre. Aucune causalité ni pénurie de parc affirmée (pas de données de stock), et 19 des 71 ont un T3 sous la médiane (Villenave-d'Ornon, +45,5 %, est pile à 1 010 €). Avant-dernier : **`villes-sans-enfants`** — troisième thème du fichier bâti sur une
 **mesure publiée et aucun score**, après `villes-qui-se-vident` et les deux thèmes DVF. L'indicateur
 est le nombre de résidents de 60 ans et plus par résident de moins de 15 ans, pris dans les tranches
 d'âge que l'Insee publie à la commune (`lib/city-population.ts`, 538/540). Médiane des 472 villes de

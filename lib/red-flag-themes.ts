@@ -2196,6 +2196,53 @@ function rankAchatHorsDePortee(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity);
 }
 
+// « Villes où l'on arrive en masse et où le loyer est déjà haut ».
+//
+// Deux mesures publiées, aucun score : la variation de population municipale
+// Insee (2011 → 2022, même fichier donc même périmètre communal) et le loyer
+// T3 de référence de `data/housing.ts` rapporté à la médiane des villes
+// éligibles. Une ville entre quand elle gagne au moins 10 % d'habitants sur
+// onze ans, continue de gagner au moins 4 % sur 2016-2022, et affiche un T3 au
+// moins 15 % au-dessus de la médiane du corpus éligible (villes de 20 000
+// habitants et plus mesurés, loyer connu).
+//
+// ⚠️ Ce classement ne dit PAS que la ville manque de logements : nous n'avons
+// pas le parc ni la construction neuve. Il dit que deux faits se cumulent et que
+// celui qui arrive paie un marché déjà cher. La causalité n'est pas tirée.
+// ⚠️ Le seuil de population porte sur la population **mesurée**, pas sur la
+// `population` approximative du seed.
+function rankArriveesLoyersHauts(): RedFlagRow[] {
+  const eligible: { city: SeedCity; p: { pop2011: number; pop2016: number; pop2022: number }; t3: number }[] = [];
+  for (const city of CITIES_SEED) {
+    const p = cityPopulation(city.slug);
+    const t3 = HOUSING[city.slug]?.avgRentT3;
+    if (!p || t3 == null || p.pop2011 == null || p.pop2016 == null) continue;
+    if (p.pop2022 < 20_000) continue;
+    eligible.push({ city, p: { pop2011: p.pop2011, pop2016: p.pop2016, pop2022: p.pop2022 }, t3 });
+  }
+  const sorted = eligible.map((e) => e.t3).sort((a, b) => a - b);
+  const medianT3 = sorted[Math.floor(sorted.length / 2)];
+
+  const rows: RedFlagRow[] = [];
+  for (const { city, p, t3 } of eligible) {
+    const longPct = ((p.pop2022 - p.pop2011) / p.pop2011) * 100;
+    const recentPct = ((p.pop2022 - p.pop2016) / p.pop2016) * 100;
+    if (longPct < 10 || recentPct < 4) continue;
+    const ratio = t3 / medianT3;
+    if (ratio < 1.15) continue;
+
+    // Le seuil d'entrée EST le plancher de gravité (6) ; la pente porte ensuite
+    // jusqu'à 10/10. Tri sur la valeur non arrondie.
+    const severity = Math.min(10, 6 + 0.12 * (longPct - 10) + 2 * (ratio - 1.15));
+    const n = (v: number) => Math.round(v).toLocaleString("fr-FR");
+    const pct = longPct.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const gain = Math.round(p.pop2022 - p.pop2011);
+    const reason = `+${pct} % d'habitants depuis 2011 (${n(p.pop2011)} → ${n(p.pop2022)}, soit ${n(gain)} de plus) · +${recentPct.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 })} % sur 2016-2022 · T3 à ${n(t3)} €/mois, ${Math.round((ratio - 1) * 100)} % au-dessus de la médiane des villes comparées (${n(medianT3)} €)`;
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 15);
+}
+
 // « Villes où le prix au m² affiché ne veut rien dire ».
 //
 // Le seul classement du fichier qui ne mesure pas la ville mais **le chiffre
@@ -2948,6 +2995,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Indicateur = (60-74 ans + 75-89 ans + 90 ans et plus) ÷ (0-14 ans). Severity = 8 + 0,4 × (rapport − 3), plafonnée à 10/10 : le seuil de publication est le plancher de gravité, et huit seniors pour un enfant valent 10. Une seule ville atteint le plafond, Arcachon. Source : Insee, recensement de la population, base « Évolution et structure de la population en 2022 », tranches d'âge publiées à la commune, exploitées via `lib/city-population.ts` (538 des 540 villes du site ; manquent Mamoudzou, hors du fichier France hors Mayotte, et Pierrefitte-sur-Seine, fusionnée dans Saint-Denis en 2025). Revenus : Insee, Filosofi 2021, via `lib/city-income.ts`. Loyers : `data/housing.ts`. Distances au littoral : `lib/city-coast.ts`, qui mesure la distance à la mer ouverte et non à un plan d'eau. Filtres : population municipale 2022 d'au moins 10 000 habitants, ce qui ramène le corpus de 538 à 472 villes, puis rapport ≥ 3,00. La coupure ne tombe pas au milieu d'un palier : sous Dax, dernière publiée à 3,055, vient Tulle à 2,955. Le tri porte sur la valeur non arrondie, et aucune égalité exacte n'existe sur le corpus éligible, mais Fontenay-le-Comte et Anglet affichent tous deux 3,20 sans être à égalité, à 3,2013 contre 3,1968. Quatre limites à connaître avant d'en tirer une conclusion. La première est la plus importante : les tranches d'âge n'existent que pour le millésime 2022 dans notre fichier, là où les populations totales en portent trois. Ce classement publie donc un état et non une tendance. Il ne dit pas si la cohorte d'enfants se réduit, se stabilise ou remonte, et seul un millésime supplémentaire le dirait. Deuxièmement, le recensement compte la population résidente : dans les communes de villégiature une part importante du parc est en résidence secondaire, et les ménages jeunes habitent souvent la commune voisine, moins chère. La structure publiée est bien celle de la commune, mais l'aire alentour peut être nettement plus jeune, et le bassin scolaire ne s'arrête pas à la limite communale. Troisièmement, le rapport ne dit rien de la qualité ni de la capacité des établissements présents, qui relèvent de la page écoles de chaque ville, ni de l'offre d'accueil des jeunes enfants, traitée par les villes où les crèches manquent. Enfin deux mécanismes très différents produisent ici le même nombre, une économie de villégiature qui attire des retraités aisés et une économie de soins qui attire une population âgée plus modeste ; les taux de pauvreté les distinguent, 12 % à Arcachon contre 23 % à Vichy, mais nos données constatent l'écart sans en établir la cause. Pour la trajectoire démographique complète d'une ville, ses sept tranches d'âge et son évolution depuis 2011, voir sa page démographie.",
     rank: rankVillesSansEnfants,
+  },
+  {
+    slug: "villes-arrivees-loyers-hauts",
+    title: "Villes où l'on arrive en masse et où le loyer est déjà haut",
+    metaTitle: "Arrivées en masse, loyers hauts — classement 2026",
+    metaDescription:
+      "Classement 2026 des villes qui gagnent le plus d'habitants (Insee 2011-2022) avec un loyer T3 au moins 15 % au-dessus de la médiane des villes comparées.",
+    emoji: "🧳",
+    intro:
+      "L'annonce vante la ville qui bouge : les chantiers de la ligne de métro, les programmes neufs, les nouvelles enseignes, le quartier « qu'on a vu changer en dix ans ». Tout cela est vrai, et on le voit en visitant. Ce qu'on ne voit pas depuis le trottoir, c'est que ces dix ans ont amené des milliers de ménages qui cherchaient la même chose que vous, et que le loyer qu'on vous annonce est celui que ce flux de candidats a installé. Une ville qui grandit vite n'est pas un défaut. Une ville qui grandit vite dans un marché déjà cher se paie au moment de signer le bail, puis chaque année au moment de le renouveler.",
+    reality:
+      "Ce classement ne repose sur aucun score : il confronte deux mesures publiées. La première est la variation de population municipale de l'Insee, les recensements 2011, 2016 et 2022 étant lus dans un même fichier, donc sur le même périmètre communal. La seconde est le loyer de référence d'un trois-pièces de `data/housing.ts`, rapporté à la médiane des 361 villes comparées, celles de 20 000 habitants et plus mesurés dont le loyer est connu : 1 010 € par mois. Sur ces 361 villes, 71 gagnent au moins 10 % d'habitants entre 2011 et 2022 et continuent de gagner au moins 4 % entre 2016 et 2022. Parmi elles, 27 affichent un T3 au moins 15 % au-dessus de la médiane, et 17 de ces 27 sont en Île-de-France. Le classement publie les quinze premières. Bagnolet ouvre la liste : 34 513 habitants en 2011, 41 776 en 2022, un T3 à 1 420 €. Gennevilliers gagne 8 944 habitants, Athis-Mons 22,2 %, Bezons 18,4 % rien que depuis 2016. Hors de la région parisienne, Bayonne (+20,3 %, T3 à 1 200 €), Annemasse, Meyzieu et Décines-Charpieu. Le résultat n'est pas une règle. Les 71 villes à croissance rapide comptent aussi 19 villes dont le T3 ne dépasse pas la médiane : Villenave-d'Ornon, la plus forte croissance des 361 villes comparées (+45,5 %), est exactement à 1 010 €, Cugnaux à 970 €, Agde à 930 €, Saint-Laurent-du-Maroni à 830 €. Croissance et loyer élevé vont ensemble sans se confondre. Perdre ou gagner des habitants ne dit pas non plus si la ville est agréable : plusieurs villes de la liste sont bien desservies et très demandées, et c'est une raison de leur loyer. Ce que le classement dit, c'est que l'arrivant paie un marché qui s'est déjà rempli.",
+    methodology:
+      "Indicateur : variation de la population municipale 2011 → 2022 (≥ 10 %), prolongée sur 2016 → 2022 (≥ 4 %), croisée avec le rapport entre le loyer T3 de référence et la médiane des villes comparées (≥ 1,15). Severity = 6 + 0,12 × (croissance 2011-2022 en % − 10) + 2 × (rapport − 1,15), plafonnée à 10/10 : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, loyer connu, soit 361 villes. Source : Insee, recensement de la population, base « Évolution et structure de la population en 2022 », via `lib/city-population.ts` ; loyers : `data/housing.ts`, un repère éditorial et non une moyenne d'annonces. Quatre limites à connaître. Nous n'avons ni le parc de logements ni la construction neuve : le classement ne dit pas que la ville manque de logements, il dit que deux faits se cumulent, et aucune causalité n'est tirée. Le recensement compte des résidents, et une part de la croissance vient de la livraison de programmes neufs, ce qui est précisément ce qui peut détendre un marché dans les années suivantes. Le loyer de référence est celui d'un T3 et ne décrit ni le parc social ni les logements déjà occupés dont le bail est ancien. Enfin les millésimes de loyer sont plus récents que le dernier recensement (2022), donc le rapprochement est un état, pas une trajectoire. Pour la structure par âge et le détail démographique d'une ville, voir sa page démographie ; pour le loyer rapporté au revenu local, voir le palmarès d'octobre.",
+    rank: rankArriveesLoyersHauts,
   },
 ];
 
