@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { CityCard } from "@/components/CityCard";
+import { DepartementFiche } from "@/components/DepartementFiche";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import type { City } from "@/lib/types";
@@ -267,6 +268,8 @@ export default async function DeptPage({ params }: Props) {
             Voir →
           </span>
         </Link>
+
+        <DepartementFiche department={deptName} />
 
         <section>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">
