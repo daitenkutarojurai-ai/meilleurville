@@ -15273,6 +15273,61 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Quartier pavillonnaire au sud-ouest. Lotissements récents, écoles primaires, profil familles pendulaires Paris/Beauvais." },
     ],
   },
+  // Extension du seed, lot 1 (2026-10-06). Aucune donnée infra-communale au dépôt :
+  // notes et loyer T2 recopient ceux de la ville, sans différenciation inventée
+  // entre quartiers (docs/extension-villes.md § 3.3).
+  {
+    citySlug: "villejuif",
+    neighborhoods: [
+      { slug: "centre", name: "Centre-ville", type: "centre-ville",
+        scores: { global: 6.3, safety: 6.3, transport: 8.3, nature: 5.5, cost: 5, nightlife: 6.8 },
+        avgRentT2: 1070, tags: ["hôtel de ville","métro 7","commerces"],
+        summary: "Centre de la commune autour de l'hôtel de ville, desservi par le métro 7 (Villejuif–Louis Aragon)." },
+      { slug: "hautes-bruyeres", name: "Les Hautes-Bruyères", type: "résidentiel",
+        scores: { global: 6.3, safety: 6.3, transport: 8.3, nature: 5.5, cost: 5, nightlife: 6.8 },
+        avgRentT2: 1070, tags: ["parc départemental","métro 14"],
+        summary: "Quartier qui tient son nom du parc départemental des Hautes-Bruyères." },
+    ],
+  },
+  {
+    citySlug: "clamart",
+    neighborhoods: [
+      { slug: "centre", name: "Centre-ville", type: "centre-ville",
+        scores: { global: 6.5, safety: 7, transport: 7.8, nature: 6, cost: 4.5, nightlife: 6.3 },
+        avgRentT2: 1180, tags: ["hôtel de ville","commerces"],
+        summary: "Centre historique de la commune autour de l'hôtel de ville." },
+      { slug: "petit-clamart", name: "Petit-Clamart", type: "résidentiel",
+        scores: { global: 6.5, safety: 7, transport: 7.8, nature: 6, cost: 4.5, nightlife: 6.3 },
+        avgRentT2: 1180, tags: ["tramway T6","forêt de Meudon"],
+        summary: "Partie sud-ouest de la commune, traversée par le tramway T6 et bordée par la forêt de Meudon." },
+    ],
+  },
+  {
+    citySlug: "bobigny",
+    neighborhoods: [
+      { slug: "centre", name: "Centre-ville", type: "centre-ville",
+        scores: { global: 5.5, safety: 4.7, transport: 7.1, nature: 5.3, cost: 6.5, nightlife: 5 },
+        avgRentT2: 850, tags: ["préfecture","métro 5","tramway T1"],
+        summary: "Cœur administratif autour de la préfecture et du terminus du métro 5, Bobigny–Pablo Picasso." },
+      { slug: "abreuvoir", name: "L'Abreuvoir", type: "résidentiel",
+        scores: { global: 5.5, safety: 4.7, transport: 7.1, nature: 5.3, cost: 6.5, nightlife: 5 },
+        avgRentT2: 850, tags: ["habitat collectif","Émile Aillaud"],
+        summary: "Cité d'habitat collectif conçue par l'architecte Émile Aillaud." },
+    ],
+  },
+  {
+    citySlug: "epinay-sur-seine",
+    neighborhoods: [
+      { slug: "centre", name: "Centre-ville", type: "centre-ville",
+        scores: { global: 5.2, safety: 4, transport: 7, nature: 5, cost: 7.1, nightlife: 4.8 },
+        avgRentT2: 790, tags: ["bords de Seine","commerces"],
+        summary: "Centre de la commune, en rive droite de la Seine." },
+      { slug: "orgemont", name: "Orgemont", type: "résidentiel",
+        scores: { global: 5.2, safety: 4, transport: 7, nature: 5, cost: 7.1, nightlife: 4.8 },
+        avgRentT2: 790, tags: ["tramway T8","habitat collectif"],
+        summary: "Quartier d'habitat collectif desservi par le tramway T8, dont le terminus porte son nom (Épinay–Orgemont)." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

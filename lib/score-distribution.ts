@@ -40,6 +40,12 @@ const AXES: Axis[] = ["life", "transport", "nature", "cost", "safety", "culture"
 interface City {
   slug: string;
   scores: CityScore;
+  /**
+   * `"extension"` : ville ajoutée au seed après les 540 d'origine (F34/F35,
+   * docs/extension-villes.md). Elle est NOTÉE avec les moyennes et écarts-types
+   * de la cohorte de référence, mais N'ENTRE PAS dans leur calcul.
+   */
+  scoreCohort?: string;
 }
 
 const TARGET_MEAN = 5.7;
@@ -103,10 +109,23 @@ function computeGlobal(s: CityScore): number {
 export function normalizeDistribution<T extends City>(cities: T[]): T[] {
   if (cities.length === 0) return cities;
 
+  // Cohorte de référence (2026-10-06). Le z-score se calculait sur TOUT le
+  // corpus, donc chaque ville ajoutée déplaçait la note rendue de toutes les
+  // autres : mesuré avec `scripts/seed-drift.ts` sur 4 communes de petite
+  // couronne, 522 des 540 villes changeaient d'au moins un dixième (sécurité :
+  // 491) et 1 018 citations « x,y/10 » des guides devenaient candidates à être
+  // fausses — l'incident du 2026-08-10, rejoué à chaque lot. Les moments sont
+  // donc pris sur les villes d'origine seulement ; une ville d'extension est
+  // projetée sur la même échelle sans la déformer. Pour la cohorte d'origine,
+  // le calcul est inchangé à l'octet près (mêmes villes, même ordre), et
+  // modifier l'une d'elles la renormalise toujours comme avant.
+  const reference = cities.filter((c) => c.scoreCohort !== "extension");
+  const base = reference.length > 0 ? reference : cities;
+
   // Compute per-axis mean & std
   const stats: Record<Axis, { mean: number; std: number }> = {} as never;
   for (const axis of AXES) {
-    const values = cities.map((c) => c.scores[axis]);
+    const values = base.map((c) => c.scores[axis]);
     const mean = values.reduce((a, b) => a + b, 0) / values.length;
     const variance = values.reduce((a, b) => a + (b - mean) ** 2, 0) / values.length;
     const std = Math.sqrt(variance) || 1;

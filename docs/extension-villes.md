@@ -77,8 +77,13 @@ du seed dont le « quality-of-life score x.y/10 » ne vaut plus la note globale 
 portent un, **502/502 alignées** au 2026-10-06, et **aucune garde ne le vérifie** ailleurs).
 `npm run integrity` contrôle en plus les citations brutes-vs-rendues des guides.
 
-Règle de minimisation : une ville dont les notes brutes sont celles de ses voisines déplace peu les
-moments du corpus. C'est une raison de plus pour la règle de dérivation du § 3.2.
+**Depuis le lot 1, la dérive est nulle par construction** : le premier essai (4 communes, sans
+cohorte) changeait la note arrondie de **522 villes sur 540** (sécurité : 491, global : 191, écart
+max 0,1) et produisait **1 018 citations de guides candidates** — un incident du 2026-08-10 par
+lot. `lib/score-distribution.ts` prend désormais ses moments sur la **cohorte d'origine** et toute
+ville ajoutée porte **`scoreCohort: "extension"`** : elle est notée sur la même échelle sans la
+déplacer, et les 540 rendent à l'octet près ce qu'ils rendaient. Le script reste le contrôle
+obligatoire : il doit afficher **0 ville changée** ; sinon un champ `scoreCohort` manque.
 
 ---
 
@@ -136,6 +141,7 @@ Tourcoing / Wattrelos) en hériterait des notes : elle **attend** un override do
 - `characterTags` : faits vérifiables (préfecture, lignes de transport, équipement majeur). ⚠️ Éviter
   les sous-chaînes que des prédicats lisent : `côte`, `mer`, `plage`, `littoral`, `port`
   (cf. `lib/city-agenda.ts`, City Match).
+- **`scoreCohort: "extension"`** sur chaque nouvelle ville (§ 2). Oubli = dérive de tout le corpus.
 - `seoDescriptionEn` : le gabarit du corpus cite « quality-of-life score x.y/10 » = **note globale
   rendue**, lue après ajout (`CITIES_SEED`), jamais la valeur brute.
 
@@ -206,8 +212,8 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 Montrouge (92049, 46 324 en 2023 selon Wikipédia FR — 2ᵉ source à trouver), Meudon, Vanves,
 L'Haÿ-les-Roses, Thiais, Villeneuve-Saint-Georges, Livry-Gargan, Villepinte, Gagny,
 Clichy-sous-Bois, Romainville, Villemomble, Grigny, Ris-Orangis, Les Mureaux, Chatou ;
-Saint-Laurent-du-Var, Vallauris, La Valette-du-Var, Gardanne, Miramas, Lunel ; Lormont ; Oullins,
-Villefontaine ; Marcq-en-Barœul, Lambersart ; Saint-Étienne-du-Rouvray ; DROM : Le Port,
+Saint-Laurent-du-Var, Vallauris, La Valette-du-Var, Gardanne, Miramas, Lunel ; Lormont ;
+Villefontaine (Oullins est déjà au seed, fusionnée : `oullins-pierre-benite`) ; Marcq-en-Barœul, Lambersart ; Saint-Étienne-du-Rouvray ; DROM : Le Port,
 Sainte-Marie, Saint-Leu (974), Le Gosier (971), Matoury (973), Koungou (976) — homonymes
 métropolitains possibles, **vérifier par code Insee**. Liste non exhaustive : la liste complète par
 population vient de la base Insee, qui ne se télécharge que depuis la machine locale.
@@ -216,7 +222,70 @@ population vient de la base Insee, qui ne se télécharge que depuis la machine 
 
 ## 6. Journal
 
-### 2026-10-06 — run 1 : inventaire, outillage, lot 1
+### 2026-10-06 — run 1 : inventaire, outillage, cohorte de référence, lot 1 (+4)
 
 Inventaire ci-dessus ; `scripts/seed-drift.ts` et `scripts/seed-coverage.mjs` ; runner local
-étendu ; trois défauts de dégradation corrigés (§ 4). Lot 1 : voir l'entrée suivante.
+étendu ; trois défauts de dégradation corrigés et 18 « 540 » affichés dérivés (§ 4) — commit
+`docs(extension-villes): inventaire et procédure`.
+
+**Lot 1 : Villejuif, Clamart, Bobigny, Épinay-sur-Seine** — 540 → **544** villes, toutes en
+Île-de-France (aucune région, aucun département nouveau).
+
+*Identité* (recherche web, `WebFetch` bloqué ; deux résultats concordants par population) :
+
+| Ville | Insee | Pop. seed | Source pop. | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Villejuif | 94076 | 60 200 | 60 183 en 2023 (Wikipédia FR ; 2ᵉ résultat identique) | 48°47′31″N 2°21′49″E | 62-130 → 96 m |
+| Clamart | 92023 | 58 600 | 58 576 en 2023 (Wikipédia FR ; 2ᵉ résultat identique) | 48°48′05″N 2°15′46″E | 63-174 → 118 m |
+| Bobigny | 93008 | 56 900 | 56 927 en 2023 (Wikipédia ; bien-dans-ma-ville) | 48°54′38″N 2°26′23″E | 39-57 → 48 m |
+| Épinay-sur-Seine | 93031 | 52 800 | 52 833 en 2023 (Wikipédia FR ; ville-data 52 606) | 48°57′19″N 2°18′33″E | 22-60 → 41 m |
+
+*Notes brutes* (§ 3.2, médiane des 4 voisines même département, hors overrides) :
+
+| Ville | Voisines (distance) | life | transp. | nature | cost | safety | culture | remote | schools |
+|---|---|---|---|---|---|---|---|---|---|
+| Villejuif | Vitry 2,3 · Kremlin-Bicêtre 2,4 · Cachan 2,4 · Arcueil 2,7 km | 6.5 | 8.3 | 5.5 | 5.0 | 6.3 | 6.8 | 6.8 | 6.5 |
+| Clamart | Plessis-Robinson 2,0 · Châtillon 2,3 · Issy 2,5 · Bagneux 3,2 km | 7.0 | 7.8 | 6.0 | 4.5 | 7.0 | 6.3 | 6.9 | 7.0 |
+| Bobigny | Drancy 1,5 · Noisy-le-Sec 2,3 · Bondy 3,2 · Blanc-Mesnil 3,4 km | 4.9 | 7.1 | 5.3 | 6.5 | 4.7 | 5.0 | 6.0 | 5.0 |
+| Épinay | Pierrefitte 3,8 · Saint-Ouen 5,2 · Stains 5,5 · La Courneuve 6,8 km | 4.2 | 7.0 | 5.0 | 7.1 | 4.0 | 4.8 | 5.5 | 4.7 |
+
+Épinay : ses deux plus proches voisines du seed (Villeneuve-la-Garenne 2,1 km, Gennevilliers
+2,5 km) sont dans les Hauts-de-Seine et Saint-Denis est un override — elles sont donc écartées par la
+règle, et la médiane vient de voisines du 93 plus éloignées. Notes **rendues** après calibrage
+(biais départementaux) et projection : Villejuif 4,5, Clamart 4,5, Bobigny 2,8, Épinay 2,8 —
+cohérentes avec leurs voisines rendues (Kremlin-Bicêtre 4,0, Cachan 4,7, Plessis 5,1, Châtillon
+4,2 ; Drancy, Bondy, Stains, Pierrefitte toutes à 2,8).
+
+*Climat* : ville du seed la plus proche — Vitry (Villejuif), Le Plessis-Robinson (Clamart),
+Drancy (Bobigny), Villeneuve-la-Garenne (Épinay).
+
+*Logement* (`housing.ts`, médiane des 4 mêmes voisines) : T1/T2/T3/m² = Villejuif 760/1 070/1 430/
+5 900 ; Clamart 800/1 180/1 580/6 300 ; Bobigny 620/850/1 150/3 200 ; Épinay 570/790/1 070/2 800.
+Recoupement de marché (realadvisor, prix moyen appartement, juillet 2026, via recherche web) :
+Clamart 6 430 €/m² (**−2 %** vs repère), Bobigny 3 938 € (repère **19 % sous** le marché affiché),
+Épinay 3 209 € (repère **13 % sous**), Villejuif non trouvé. Écart assumé : le repère reproduit
+celui des voisines du 93, qui est lui-même plus bas que ce site d'annonces ; la médiane DVF arrivera
+par `npm run property-prices` et s'affichera séparément, comme pour les 540.
+
+*Quartiers* (2 par ville, réels, notes = ville) : Villejuif centre + Hautes-Bruyères ; Clamart centre
++ Petit-Clamart ; Bobigny centre + L'Abreuvoir (Émile Aillaud) ; Épinay centre + Orgemont.
+
+*Dérive* : premier essai sans cohorte → 522 villes changées, 1 018 citations candidates (refusé) ;
+avec `scoreCohort: "extension"` → **0 ville changée, 0 citation, 502/502 `seoDescriptionEn`
+alignées**. Table des couleurs de `CLAUDE.md` recomptée : 19 / 50 / 151 / 141 / **102** / **81**,
+moyenne 5,44.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (544 villes) + `:check`,
+`sitemap:check` (FR 29 487 URL, EN 29 089), `hreflang:check`. `npm run build` non lancé.
+
+*En attente du runner local* (`node scripts/seed-coverage.mjs`) : population Insee, Filosofi, DVF,
+littoral, parcs, photos, biodiversité, actualité, zones protégées pour les 4. **Sans pipeline** :
+codes postaux et orientation politique — manque assumé, pas de chiffre au jugé.
+
+*Reportées* : Villeneuve-d'Ascq (règle de voisinage non valable, attend un override documenté) ;
+Montrouge (une seule source de population).
+
+**Prochain lot** : Montrouge (2ᵉ source de population), puis Meudon, Vanves, L'Haÿ-les-Roses,
+Thiais, Villeneuve-Saint-Georges, Livry-Gargan, Villepinte — toutes en petite couronne dense, où
+la règle de voisinage tient. Vérifier d'abord avec `seed-coverage` que le runner local a bien rempli
+les 4 du lot 1.

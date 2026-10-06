@@ -16156,6 +16156,100 @@ const RAW_CITIES_SEED = [
       "Méru (Oise, Hauts-de-France): quality-of-life score 4.0/10. Pays de Thelle, Transilien H.",
     scores: { global: 5.7, life: 5.8, transport: 6.3, nature: 6.5, cost: 6.5, safety: 5.8, culture: 5.5, remoteWork: 5.8, schools: 5.8 },
   },
+  // ─── Extension du seed (F34), lot 1 — 2026-10-06 ───────────────────────
+  // Notes brutes = médiane des 4 voisines du même département les plus proches
+  // (hors overrides), climat = ville du seed la plus proche. `scoreCohort:
+  // "extension"` : notées sur l'échelle des 540 d'origine sans la déplacer
+  // (lib/score-distribution.ts). Détail et sources :
+  // docs/extension-villes.md § Journal.
+  {
+    slug: "villejuif",
+    name: "Villejuif",
+    scoreCohort: "extension",
+    region: "Île-de-France",
+    department: "Val-de-Marne",
+    inseeCode: "94076",
+    population: 60200,
+    latitude: 48.7919,
+    longitude: 2.3636,
+    elevation: 96,
+    sunshinedays: 1630,
+    avgTempJuly: 20.5,
+    avgTempJanuary: 4.8,
+    characterTags: ["Val-de-Marne","métro 7","métro 14","tramway T7","Gustave Roussy","accessible Paris"],
+    descriptionEn:
+      "Villejuif is a Val-de-Marne commune on the plateau just south of Paris, home to the Gustave Roussy cancer institute. Metro line 7 ends at Villejuif–Louis Aragon, line 14 has stopped at Villejuif–Gustave Roussy since its 2024 extension to Orly, and tram T7 runs south from the town. Best fit: hospital and research staff, Paris commuters who want a direct metro.",
+    seoTitleEn: "Villejuif — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villejuif (Val-de-Marne, Île-de-France): quality-of-life score 4.5/10. Plateau south of Paris, Gustave Roussy, metro lines 7 and 14.",
+    scores: { global: 6.3, life: 6.5, transport: 8.3, nature: 5.5, cost: 5, safety: 6.3, culture: 6.8, remoteWork: 6.8, schools: 6.5 },
+  },
+  {
+    slug: "clamart",
+    name: "Clamart",
+    scoreCohort: "extension",
+    region: "Île-de-France",
+    department: "Hauts-de-Seine",
+    inseeCode: "92023",
+    population: 58600,
+    latitude: 48.8014,
+    longitude: 2.2628,
+    elevation: 118,
+    sunshinedays: 1700,
+    avgTempJuly: 20.5,
+    avgTempJanuary: 4,
+    characterTags: ["Hauts-de-Seine","forêt de Meudon","Transilien N","tramway T6","hôpital Béclère","résidentiel"],
+    descriptionEn:
+      "Clamart is a residential Hauts-de-Seine commune south-west of Paris, bordered by the Meudon forest. Transilien line N stops at Clamart station, tram T6 crosses the commune past the Antoine-Béclère hospital, and the Petit-Clamart side backs onto the woods. Best fit: families who want green space close to Paris, commuters to the south-west business districts.",
+    seoTitleEn: "Clamart — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Clamart (Hauts-de-Seine, Île-de-France): quality-of-life score 4.5/10. Residential south-west suburb, Meudon forest, Transilien N and tram T6.",
+    scores: { global: 6.5, life: 7, transport: 7.8, nature: 6, cost: 4.5, safety: 7, culture: 6.3, remoteWork: 6.9, schools: 7 },
+  },
+  {
+    slug: "bobigny",
+    name: "Bobigny",
+    scoreCohort: "extension",
+    region: "Île-de-France",
+    department: "Seine-Saint-Denis",
+    inseeCode: "93008",
+    population: 56900,
+    latitude: 48.9106,
+    longitude: 2.4397,
+    elevation: 48,
+    sunshinedays: 1700,
+    avgTempJuly: 20.5,
+    avgTempJanuary: 4,
+    characterTags: ["Seine-Saint-Denis","préfecture","métro 5","tramway T1","hôpital Avicenne","canal de l'Ourcq"],
+    descriptionEn:
+      "Bobigny is the prefecture of Seine-Saint-Denis, seat of the department's administration and courts and of the Avicenne hospital. Metro line 5 ends at Bobigny–Pablo Picasso, tram T1 crosses the commune and the Ourcq canal runs along its southern edge. Best fit: public-sector workers, budget-conscious households commuting to Paris.",
+    seoTitleEn: "Bobigny — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bobigny (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Prefecture of the department, metro line 5, tram T1, Ourcq canal.",
+    scores: { global: 5.5, life: 4.9, transport: 7.1, nature: 5.3, cost: 6.5, safety: 4.7, culture: 5, remoteWork: 6, schools: 5 },
+  },
+  {
+    slug: "epinay-sur-seine",
+    name: "Épinay-sur-Seine",
+    scoreCohort: "extension",
+    region: "Île-de-France",
+    department: "Seine-Saint-Denis",
+    inseeCode: "93031",
+    population: 52800,
+    latitude: 48.9553,
+    longitude: 2.3092,
+    elevation: 41,
+    sunshinedays: 1700,
+    avgTempJuly: 20.5,
+    avgTempJanuary: 4,
+    characterTags: ["Seine-Saint-Denis","bords de Seine","RER C","tramway T8","studios Éclair"],
+    descriptionEn:
+      "Épinay-sur-Seine is a Seine-Saint-Denis commune on the right bank of the Seine, north of Paris. RER C stops at Épinay-sur-Seine, tram T8 serves the town up to its Épinay–Orgemont terminus, and the Éclair film studios were founded here in the early twentieth century. Best fit: budget-conscious households, commuters to Saint-Denis and northern Paris.",
+    seoTitleEn: "Épinay-sur-Seine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Épinay-sur-Seine (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Right bank of the Seine north of Paris, RER C, tram T8.",
+    scores: { global: 5.2, life: 4.2, transport: 7, nature: 5, cost: 7.1, safety: 4, culture: 4.8, remoteWork: 5.5, schools: 4.7 },
+  },
 ];
 
 // Post-process: editorial calibration first, then z-score rescaling so the

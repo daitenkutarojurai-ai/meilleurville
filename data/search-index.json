@@ -3240,6 +3240,30 @@
       "name": "Méru",
       "region": "Hauts-de-France",
       "score": 4
+    },
+    {
+      "slug": "villejuif",
+      "name": "Villejuif",
+      "region": "Île-de-France",
+      "score": 4.5
+    },
+    {
+      "slug": "clamart",
+      "name": "Clamart",
+      "region": "Île-de-France",
+      "score": 4.5
+    },
+    {
+      "slug": "bobigny",
+      "name": "Bobigny",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "epinay-sur-seine",
+      "name": "Épinay-sur-Seine",
+      "region": "Île-de-France",
+      "score": 2.8
     }
   ],
   "guides": [

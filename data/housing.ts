@@ -549,6 +549,11 @@ export const HOUSING: Record<string, HousingData> = {
   chantilly:                 { avgRentT1: 720, avgRentT2: 1000, avgRentT3: 1350, avgBuyPriceM2: 5200 },
   "crepy-en-valois":         { avgRentT1: 480, avgRentT2: 670,  avgRentT3: 900,  avgBuyPriceM2: 2300 },
   meru:                      { avgRentT1: 480, avgRentT2: 670,  avgRentT3: 900,  avgBuyPriceM2: 2400 },
+  // Extension du seed, lot 1 (2026-10-06) : médiane des 4 voisines (docs/extension-villes.md).
+  "villejuif": { avgRentT1: 760, avgRentT2: 1070, avgRentT3: 1430, avgBuyPriceM2: 5900 },
+  "clamart": { avgRentT1: 800, avgRentT2: 1180, avgRentT3: 1580, avgBuyPriceM2: 6300 },
+  "bobigny": { avgRentT1: 620, avgRentT2: 850, avgRentT3: 1150, avgBuyPriceM2: 3200 },
+  "epinay-sur-seine": { avgRentT1: 570, avgRentT2: 790, avgRentT3: 1070, avgBuyPriceM2: 2800 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

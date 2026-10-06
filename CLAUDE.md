@@ -1,6 +1,6 @@
 # MeilleurVille — Project briefing
 
-French city ranking & relocation guide site. 540 cities, 524 FR guides + 261 EN guides, 19 ranking
+French city ranking & relocation guide site. 544 cities, 524 FR guides + 261 EN guides, 19 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 (Counts derived at build — see `lib/site-stats.ts`; figures here are indicative.)
 
@@ -46,7 +46,7 @@ app/
   quiz/                          # Lifestyle → city match
   red-flags/                     # Pitfalls per city archetype
 data/
-  cities-seed.ts                 # 540 cities, raw seed (calibrated + normalized at module load)
+  cities-seed.ts                 # 544 cities, raw seed (calibrated + normalized at module load)
   guides.ts                      # 195 long-form guides
   neighborhoods.ts               # Quartier-level data (subset of cities)
   housing.ts                     # Rent/price benchmarks per city
@@ -79,6 +79,14 @@ components/
    mean **minus a worst-axis penalty**, so a city weak on one axis can't hide
    behind strengths elsewhere. Final clamp `[2.8, 8.6]`.
 
+**Cohorte de référence (2026-10-06)** : les moments du z-score (moyenne, écart-type par axe) se
+calculent sur les 540 villes d'origine seulement. Une ville ajoutée par l'extension du seed porte
+`scoreCohort: "extension"` : elle est notée sur la même échelle mais n'entre pas dans le calcul,
+donc **ajouter une ville ne déplace la note rendue d'aucune autre**. Sans ça, 4 communes de petite
+couronne changeaient la note de 522 villes et rendaient 1 018 citations de guides candidates à être
+fausses (mesure `scripts/seed-drift.ts`). Ne pas retirer le champ d'une ville d'extension, et ne
+pas le poser sur une ville d'origine. Procédure complète : `docs/extension-villes.md`.
+
 **Editing a score**: change the seed value or add an override in
 `score-calibration.ts`. Don't touch `score-distribution.ts` for a single
 city — the rescaler is designed to keep relative ranking stable.
@@ -104,18 +112,20 @@ from any seed field.
 Effectifs mesurés le 2026-08-30 en exécutant `CITIES_SEED` (donc après calibrage et
 normalisation), pas en lisant le seed source. La table d'avant portait les comptes des
 **352** villes d'alors et sous-estimait le haut de l'échelle d'un facteur 6 : le violet
-n'est plus « très rare », il tient 3,5 % du corpus. Recompter après tout ajout de villes.
+n'est plus « très rare », il tient 3,5 % du corpus. Recompter après tout ajout de villes —
+recompté le 2026-10-06 à 544 villes (extension du seed, lot 1 : +2 orange, +2 rouge ; les 540
+d'origine n'ont pas bougé, cf. § Score pipeline, cohorte de référence).
 
-| Range  | Colour  | Count (540 cities) | Meaning        |
+| Range  | Colour  | Count (544 cities) | Meaning        |
 |--------|---------|-------------------|----------------|
 | ≥ 7.5  | Violet (`#A855F7`) | 19 (3.5%) | Exceptionnel   |
-| ≥ 7.0  | Green   | 50 (9.3%)         | Excellent      |
-| ≥ 6.0  | Lime    | 151 (28.0%)       | Bon            |
-| ≥ 5.0  | Amber   | 141 (26.1%)       | Moyen          |
-| ≥ 4.0  | Orange  | 100 (18.5%)       | En dessous     |
-| < 4.0  | Red     | 79 (14.6%)        | Mauvais        |
+| ≥ 7.0  | Green   | 50 (9.2%)         | Excellent      |
+| ≥ 6.0  | Lime    | 151 (27.8%)       | Bon            |
+| ≥ 5.0  | Amber   | 141 (25.9%)       | Moyen          |
+| ≥ 4.0  | Orange  | 102 (18.8%)       | En dessous     |
+| < 4.0  | Red     | 81 (14.9%)        | Mauvais        |
 
-Distribution mean ≈ 5.46. Penalties:
+Distribution mean ≈ 5.44. Penalties:
 - `worstPenalty = max(0, 4.5 − worst_axis) × 0.35` — fires when any axis < 4.5
 - `safetyPenalty = (4.5 − safety) × 0.25` when safety < 4.5
 - `standoutBonus = max(0, top3_mean − 7.5) × 0.35` — only truly exceptional top-3
