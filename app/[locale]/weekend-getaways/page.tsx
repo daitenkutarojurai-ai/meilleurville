@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CITIES_SEED } from "@/data/cities-seed";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -61,7 +62,7 @@ export default function EnWeekendGetawaysIndexPage() {
 
         <div className="mt-4 flex flex-wrap gap-2">
           <Badge>26 departure cities</Badge>
-          <Badge>540 destinations</Badge>
+          <Badge>{CITIES_SEED.length} destinations</Badge>
           <Badge>SNCF estimates + local access</Badge>
         </div>
 

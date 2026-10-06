@@ -159,7 +159,7 @@ export default async function BadgePerCityPage({ params }: Props) {
               au build du site).
             </li>
             <li>
-              Le classement porte sur les 540 villes couvertes par
+              Le classement porte sur les {CITIES_SEED.length} villes couvertes par
               MaVilleIdéale — pas toutes les communes de France. Une ville
               15ᵉ ici n&apos;est pas 15ᵉ sur les 34 000 communes du pays ;
               c&apos;est 15ᵉ sur un échantillon représentatif des villes de

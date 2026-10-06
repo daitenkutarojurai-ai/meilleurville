@@ -13,7 +13,7 @@ export const dynamicParams = false;
 export const metadata: Metadata = {
   title: "City Match — quelle ville française vous correspond vraiment ?",
   description:
-    "8 questions, 90 secondes : on calcule votre match personnel parmi 540 villes françaises. Top 3 + match surprise, classement live à chaque réponse, lien partageable.",
+    `8 questions, 90 secondes : on calcule votre match personnel parmi ${CITIES_LIGHT.length} villes françaises. Top 3 + match surprise, classement live à chaque réponse, lien partageable.`,
   alternates: pathAlternates("/city-match", "/city-match"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

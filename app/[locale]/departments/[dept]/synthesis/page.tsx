@@ -336,7 +336,7 @@ export default async function EnDeptSynthesisPage({ params }: Props) {
           <Link href="/overall-ranking" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-sm font-semibold text-[var(--text-primary)]">National ranking</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">All 540 cities on the same 8 axes</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">All {CITIES_SEED.length} cities on the same 8 axes</div>
             </Card>
           </Link>
         </div>

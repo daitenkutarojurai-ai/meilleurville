@@ -297,7 +297,7 @@ export default function HealthcareHubPage() {
               <div className="text-2xl mb-1">🏙️</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">All cities</div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Browse all 540 cities by score
+                Browse all {CITIES_COUNT} cities by score
               </div>
             </Card>
           </Link>

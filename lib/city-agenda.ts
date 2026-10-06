@@ -66,7 +66,10 @@ function isCoastal(city: CitySeed): boolean {
     return false;
   }
   const km = coastDistanceKm(city.slug);
-  return km == null || km <= COASTAL_AGENDA_KM;
+  // Pas de distance mesurée (ville entrée au seed avant sa passe `npm run coast`,
+  // cf. docs/extension-villes.md) : on ne publie pas une saison balnéaire sur la
+  // foi d'un tag — c'est exactement le défaut que la mesure a corrigé.
+  return km != null && km <= COASTAL_AGENDA_KM;
 }
 
 function isMountain(city: CitySeed): boolean {

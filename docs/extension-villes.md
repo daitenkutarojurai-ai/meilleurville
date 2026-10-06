@@ -1,0 +1,222 @@
+# Extension du seed — inventaire, procédure, backlog, journal
+
+Mémoire de l'agent « extension du seed » (ROADMAP § « Vague 4 — extension du seed », F34 puis
+F35). À relire **en entier** avant chaque lot. Objectif : couvrir plus de communes que les 540
+d'origine, un lot par run, **sans jamais publier une ville à moitié remplie ni un chiffre
+inventé**.
+
+---
+
+## 1. Ce que « ville complète » veut dire (inventaire du 2026-10-06)
+
+Une ville est une ligne de `data/cities-seed.ts` **plus** une quinzaine de jeux de données par
+slug. Mesuré en lisant les lecteurs et les pages, pas en le supposant : **aucun fichier ne fait
+planter le build ni une page quand un slug y manque** — tous les accès passent par `?? null`,
+`?? []` ou `undefined` contrôlé, et les sous-pages conditionnelles (parcs, biodiversité) ne sont
+générées que pour les villes présentes (`generateStaticParams` filtré + `dynamicParams = false`,
+sitemap sur le même prédicat).
+
+| Fichier | Lecteur | Générateur | Exécutable depuis une routine ? | Quand la ville manque |
+|---|---|---|---|---|
+| `data/cities-seed.ts` | partout | à la main | oui | — (c'est la ville) |
+| `data/housing.ts` | `getHousing` + ~10 libs | à la main | oui | sections masquées (`housing && …`) **mais** `teletravail` / `remote-work` affichent un repli `?? 800 €` et deux red flags `?? 0 €/m²` → **obligatoire** |
+| `data/neighborhoods.ts` | `getNeighborhoods` (`?? []`) | à la main | oui | `/quartiers` rendue avec l'écran vide → **obligatoire** (2-3 quartiers) |
+| `data/city-population.json` | `lib/city-population` | `npm run population` | **non** (insee.fr 403) | repli sur `population` du seed (statistiques, démographie), tendance départementale |
+| `data/city-income.json` | `lib/city-income` | `npm run income` | **non** | bloc masqué |
+| `data/city-property-prices.json` | `lib/property-prices` | `npm run property-prices` | **non** (DVF) | `PropertyPriceTable` rend `null` |
+| `data/city-coast.json` | `lib/city-coast` (`?? null`) | `npm run coast` | **non** (Natural Earth) | City Match : terrain neutre ; agenda : **corrigé** (cf. § 4) |
+| `data/city-parks.json` | `lib/city-parks` | `npm run parks` | **non** (Overpass) | `/parcs` non générée, absente du sitemap |
+| `data/city-images.json` + `city-cards.json` | `lib/city-images`, `lib/city-cards` | `npm run photos` | **non** (Wikidata/Commons) | pas de photo, rien d'autre |
+| `data/city-postal-codes.json` | `SearchPalette`, `VillesSearch` (`?? []`) | **aucun générateur au dépôt** | — | la recherche par code postal ne trouve pas la ville |
+| `data/climate-normals-raw.json` | `lib/climate-normals` | aucun (29 stations) | — | pas par ville : station la plus proche, sans distance max |
+| `data/political-lean.json` | `lib/political-lean` (`?? null`) | `python scripts/build-political-lean.py` | **non** | composant `null` (cadre d'accent vide dans `CityProfile`, cosmétique) |
+| `data/city-biodiversity.json` | `lib/biodiversity` | `npm run biodiversity` | **non** (GBIF) — runner local | `/biodiversite` non générée |
+| `data/city-news.json` | `lib/city-news` (`[]`) | `npm run news` | **non** (BODACC) — runner local | section absente |
+| `data/city-protected-areas.json` | `lib/biodiversity` | `npm run protected-areas` | **non** (BD TOPO) — runner local | `null`, absente du classement |
+
+Tables en dur dans `lib/` : `lib/fiscalite.ts` (`DEPT_TIER[dept] ?? "moderee"` — un **département
+nouveau** reçoit en silence le palier « modéré »), `lib/score-calibration.ts` (`DEPT_SAFETY_BIAS`,
+`DEPT_COST_BIAS`, appliqués automatiquement aux villes sans override), `lib/healthcare-access.ts`
+(`CHU_SITES` par distance : rien à faire, sauf qu'une **homonymie de nom** avec une ville CHU
+casserait la garde `CHU` de `npm run integrity`, qui indexe le seed par nom). `lib/dept-slug.ts`
+exige un `inseeCode` sur chaque ville.
+
+**Egress depuis une routine (testé le 2026-10-06)** : `geo.api.gouv.fr`, `insee.fr`,
+`files.data.gouv.fr`, `data.gouv.fr`, `overpass-api.de`, `wikidata`, `commons` → **403 CONNECT** ;
+`WebFetch` bloqué aussi sur `insee.fr`, `citypopulation.de`, `banatic.interieur.gouv.fr`.
+**Seule la recherche web fonctionne.** Conséquence : en routine, une ville ne peut porter que les
+champs du seed, `housing.ts` et `neighborhoods.ts` ; tout le reste vient du runner local (§ 3).
+
+### Les deux catégories de champs
+
+- **Obligatoires avant d'entrer au seed** (sinon la ville attend) : slug, nom, région, département,
+  `inseeCode`, population, lat/lng, altitude, `sunshinedays` / `avgTempJuly` / `avgTempJanuary`,
+  `characterTags`, les 8 notes brutes, `descriptionEn` / `seoTitleEn` / `seoDescriptionEn`, une
+  entrée `housing.ts`, 2-3 quartiers dans `neighborhoods.ts`.
+- **Complétés par le runner local après coup** (la page dégrade proprement d'ici là) : population
+  Insee 2011/2016/2022 + âges, Filosofi, DVF, littoral, parcs, photos, biodiversité, actualité,
+  zones protégées. Codes postaux et orientation politique : **pas de pipeline automatique** —
+  manque assumé, la ville n'est simplement pas trouvée par code postal et n'a pas de bloc politique.
+
+---
+
+## 2. Effet de bord sur les notes des autres villes
+
+`normalizeDistribution` est un z-score sur **tout** le corpus : chaque ajout déplace moyenne et
+écart-type de chaque axe, donc la note rendue de toutes les autres villes, au dixième près pour
+celles qui sont à la frontière d'un arrondi. Mesure, avant chaque commit de lot :
+
+```bash
+npx tsx --tsconfig tsconfig.json scripts/seed-drift.ts          # arbre de travail vs HEAD
+```
+
+Il imprime l'écart max / médian (global + 8 axes) sur les villes existantes, la liste des villes
+dont une note arrondie change, les citations « x,y/10 » des guides FR/EN qui reprennent une
+ancienne note d'une ville nommée juste avant (candidates, heuristique), et les `seoDescriptionEn`
+du seed dont le « quality-of-life score x.y/10 » ne vaut plus la note globale rendue (502 villes en
+portent un, **502/502 alignées** au 2026-10-06, et **aucune garde ne le vérifie** ailleurs).
+`npm run integrity` contrôle en plus les citations brutes-vs-rendues des guides.
+
+Règle de minimisation : une ville dont les notes brutes sont celles de ses voisines déplace peu les
+moments du corpus. C'est une raison de plus pour la règle de dérivation du § 3.2.
+
+---
+
+## 3. Procédure d'un lot (5 à 8 communes, 3 si les sources résistent)
+
+```bash
+git checkout main && git pull --rebase origin main
+npm install                        # le conteneur démarre sans node_modules
+node scripts/seed-coverage.mjs     # état de couverture de chaque jeu de données
+```
+
+### 3.1 Identité (recherche web, recoupée)
+
+Pour chaque commune : `inseeCode`, département, région, population, coordonnées, altitude. Depuis
+une routine, seule la recherche web répond : **chaque population doit être donnée par deux résultats
+indépendants** (ex. fiche Wikipédia FR qui cite le recensement + site tiers). Le seed porte une
+population **approximative** (arrondie à la centaine, millésime le plus récent concordant) — c'est
+son statut dans tout le corpus ; la population Insee exacte 2011/2016/2022 arrive avec
+`npm run population` (runner local). ⚠️ Les synthèses de la recherche web se trompent : une passe a
+donné Clamart à 82 505 hab. (le vrai ordre de grandeur est 58 000). Un chiffre isolé ne passe pas.
+L'absence au seed se vérifie **par code Insee** (`grep 'inseeCode: "XXXXX"' data/cities-seed.ts`),
+jamais par nom. Altitude : milieu de la fourchette min/max publiée (convention de ce journal).
+
+### 3.2 Notes brutes des 8 axes — dérivées, jamais au jugé
+
+Règle appliquée depuis le lot 1 : **médiane des notes brutes des 4 villes du seed les plus proches
+à vol d'oiseau, dans le même département, entre 20 000 et 150 000 hab., hors villes à override**
+(`lib/score-calibration.ts` → `OVERRIDES`), arrondie au dixième. Pourquoi ces filtres : les villes
+à override n'ont pas de note brute effective (l'override l'écrase), et le même département garantit
+que la nouvelle ville reçoit les **mêmes biais départementaux** (`DEPT_SAFETY_BIAS`,
+`DEPT_COST_BIAS`) que ses comparables ; la fourchette de population évite les ajustements de taille
+(< 30 000 / > 400 000) que les voisines n'auraient pas. Le `global` brut est recalculé par
+`calibrateScores` (valeur du seed ignorée) — écrire la moyenne pondérée de `recomputeGlobal` par
+cohérence. Le calcul se rejoue avec le script de scratch décrit au journal ; chaque ville y liste
+ses 4 voisines et leurs notes.
+
+**Limite connue** : la règle n'est valable que là où le seed est dense. Une ville qui ne ressemble
+pas à ses voisines (Villeneuve-d'Ascq, ville universitaire et technopole entourée de Roubaix /
+Tourcoing / Wattrelos) en hériterait des notes : elle **attend** un override documenté dans
+`score-calibration.ts` plutôt que de recevoir une médiane fausse.
+
+### 3.3 Climat, logement, quartiers
+
+- `sunshinedays` / `avgTempJuly` / `avgTempJanuary` : ceux de la **ville du seed la plus proche**
+  (même station Météo-France de référence à l'échelle de quelques km) ; les normales affichées
+  viennent de toute façon de `lib/climate-normals.ts` (station la plus proche).
+- `housing.ts` : **médiane des 4 mêmes voisines**, arrondie à 10 € (loyers) et 100 € (m²) — le
+  corpus est un repère éditorial cohérent entre voisines, et c'est cette cohérence qu'on reproduit.
+  Un ordre de grandeur de marché est recoupé par recherche web et l'écart noté au journal ; la
+  médiane DVF réellement enregistrée arrive avec `npm run property-prices` et s'affiche séparément.
+- `neighborhoods.ts` : 2 quartiers **réels**, résumé factuel sans verdict. **Aucune donnée
+  infra-communale au dépôt** : leurs notes recopient les notes brutes de la ville (global, sécurité,
+  transports, nature, coût ; `nightlife` = culture) et leur loyer T2 celui de la ville. Pas de
+  différenciation inventée entre quartiers.
+- `characterTags` : faits vérifiables (préfecture, lignes de transport, équipement majeur). ⚠️ Éviter
+  les sous-chaînes que des prédicats lisent : `côte`, `mer`, `plage`, `littoral`, `port`
+  (cf. `lib/city-agenda.ts`, City Match).
+- `seoDescriptionEn` : le gabarit du corpus cite « quality-of-life score x.y/10 » = **note globale
+  rendue**, lue après ajout (`CITIES_SEED`), jamais la valeur brute.
+
+### 3.4 Contrôles avant commit
+
+```bash
+npx tsx --tsconfig tsconfig.json scripts/seed-drift.ts
+npx tsc --noEmit
+npm run integrity
+npm run search-index && npm run search-index:check   # SEARCH_CITIES porte les villes
+npm run sitemap:check
+npm run hreflang:check
+node scripts/seed-coverage.mjs
+```
+
+**Jamais `npm run build`** (4 h 30, ~33 Go, ENOSPC muet en session cloud). Recompter la table des
+couleurs de `CLAUDE.md` en exécutant `CITIES_SEED` et mettre à jour les compteurs « 540 ».
+Nouvelle région → `REGION_EMOJIS` / `REGION_DESCRIPTIONS` (`CLAUDE.md` § Adding a new city).
+Nouveau département → vérifier `lib/fiscalite.ts` `DEPT_TIER` et `lib/dept-slug.ts`.
+
+### 3.5 Après le push : le runner local
+
+`scripts/local-data-runner.sh` (cron sur la machine du propriétaire, 02h20 / 14h20 UTC) relance
+depuis le 2026-10-06 **population, income, property-prices, coast, parks, photos** dès que
+`node scripts/seed-coverage.mjs --needs=<pipeline>` signale une ville du seed absente de leur
+sortie (manques permanents connus exclus : Mamoudzou, Pierrefitte, Vesoul…). Biodiversité et
+actualité servent d'eux-mêmes les villes absentes ; l'ingest des zones protégées est relancé aussi
+quand le seed porte une ville absente du JSON. Sa cible de couverture est **comptée dans le seed**,
+plus un `540` en dur. Les prochains runs vérifient l'arrivée des données avec
+`node scripts/seed-coverage.mjs`.
+
+---
+
+## 4. Bloqueurs levés au run 1 (2026-10-06)
+
+- `scripts/local-data-runner.sh` : `TARGET_CITIES=540` en dur (aurait déclaré complets des
+  pipelines qui n'ont jamais vu les nouvelles villes) ; aucun des six pipelines « population →
+  photos » n'était rejoué ; l'ingest des zones protégées ne voyait pas une ville ajoutée.
+- `lib/city-agenda.ts` : une ville taguée « mer » **sans** distance mesurée recevait une saison
+  balnéaire (`km == null || …`) — désormais seulement sur distance mesurée.
+- `lib/city-match.ts` : « mer à 0 km » quand la distance manquait — désormais aucune mention.
+- « 540 » affiché en dur comme taille du corpus : remplacé par `CITIES_SEED.length` /
+  `CITIES_COUNT` dans 18 surfaces (badges, hubs EN, City Match, Future You, parent solo, week-end,
+  red flags EN, départements). Les « 540 » restants sont des **mesures datées** (« mesuré sur les
+  540 villes », « 538 des 540 villes couvertes ») : vraies du corpus qu'elles décrivent, à
+  réécrire par le run qui refait la mesure, pas à dériver mécaniquement.
+
+---
+
+## 5. Backlog
+
+Absence vérifiée **par code Insee** pour le lot en cours et le suivant ; pour le reste, absence
+constatée **par nom** (à reconfirmer par code Insee avant d'entrer dans un lot — homonymes DROM).
+Populations : seulement quand recoupées, sinon « à mesurer ».
+
+### 50 000 – 100 000 hab. absentes du seed
+
+| Commune | Insee | Dép. | Région | Pop. (année, source) | Statut |
+|---|---|---|---|---|---|
+| Villejuif | 94076 | Val-de-Marne | Île-de-France | 60 183 (2023, Wikipédia FR + 2ᵉ résultat) | **lot 1** |
+| Clamart | 92023 | Hauts-de-Seine | Île-de-France | 58 576 (2023, Wikipédia FR + 2ᵉ résultat) | **lot 1** |
+| Bobigny | 93008 | Seine-Saint-Denis | Île-de-France | 56 927 (2023, Wikipédia + bien-dans-ma-ville) | **lot 1** |
+| Épinay-sur-Seine | 93031 | Seine-Saint-Denis | Île-de-France | 52 833 (2023, Wikipédia FR ; 52 606 ville-data) | **lot 1** |
+| Villeneuve-d'Ascq | 59009 (à confirmer) | Nord | Hauts-de-France | à mesurer | **attend un override** (§ 3.2) |
+
+### 20 000 – 50 000 hab. — candidats (absents par nom)
+
+Montrouge (92049, 46 324 en 2023 selon Wikipédia FR — 2ᵉ source à trouver), Meudon, Vanves,
+L'Haÿ-les-Roses, Thiais, Villeneuve-Saint-Georges, Livry-Gargan, Villepinte, Gagny,
+Clichy-sous-Bois, Romainville, Villemomble, Grigny, Ris-Orangis, Les Mureaux, Chatou ;
+Saint-Laurent-du-Var, Vallauris, La Valette-du-Var, Gardanne, Miramas, Lunel ; Lormont ; Oullins,
+Villefontaine ; Marcq-en-Barœul, Lambersart ; Saint-Étienne-du-Rouvray ; DROM : Le Port,
+Sainte-Marie, Saint-Leu (974), Le Gosier (971), Matoury (973), Koungou (976) — homonymes
+métropolitains possibles, **vérifier par code Insee**. Liste non exhaustive : la liste complète par
+population vient de la base Insee, qui ne se télécharge que depuis la machine locale.
+
+---
+
+## 6. Journal
+
+### 2026-10-06 — run 1 : inventaire, outillage, lot 1
+
+Inventaire ci-dessus ; `scripts/seed-drift.ts` et `scripts/seed-coverage.mjs` ; runner local
+étendu ; trois défauts de dégradation corrigés (§ 4). Lot 1 : voir l'entrée suivante.

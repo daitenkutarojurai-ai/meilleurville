@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Single parent in France · French cities that actually work in 2026",
     description:
-      "One income, one driver. Ranking of 4 axes (cost, transit, schools, safety) across 540 French cities. No sugarcoating.",
+      `One income, one driver. Ranking of 4 axes (cost, transit, schools, safety) across ${CITIES_COUNT} French cities. No sugarcoating.`,
   },
 };
 

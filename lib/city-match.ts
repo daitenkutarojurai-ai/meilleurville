@@ -364,7 +364,10 @@ export function computeMatches(answers: CityMatchAnswer[], cities: CityLight[]):
       // l'absence des deux reliefs, et le plus marqué des deux commande.
       const away = (fit: number) => 1 - 2 * Math.max(0, fit);
       add(W.terrain * 0.8, clamp(Math.min(away(seaFit(c)), away(mountainFit(c)))), "plaine",
-        mountainFit(c) > seaFit(c) ? `${c.elevation ?? 0} m d'altitude` : `mer à ${Math.round(coastDistanceKm(c.slug) ?? 0)} km`);
+        mountainFit(c) > seaFit(c)
+          ? `${c.elevation ?? 0} m d'altitude`
+          // Distance non encore mesurée (ville récente au seed) : rien plutôt que « mer à 0 km ».
+          : coastDistanceKm(c.slug) == null ? undefined : `mer à ${Math.round(coastDistanceKm(c.slug)!)} km`);
     }
 
     return {

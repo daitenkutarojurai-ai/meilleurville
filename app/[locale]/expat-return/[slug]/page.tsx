@@ -703,7 +703,7 @@ export default async function EnExpatReturnCountryPage({ params }: Props) {
                 </h3>
                 <p className="text-sm text-[var(--text-secondary)]">
                   Take the 5-minute compatibility quiz — it matches your lifestyle,
-                  budget, and work situation against all 540 cities.
+                  budget, and work situation against all {CITIES_SEED.length} cities.
                 </p>
               </div>
               <Link

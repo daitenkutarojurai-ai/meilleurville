@@ -294,7 +294,7 @@ export default function EnSafetyHubPage() {
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🗺️</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">Browse cities</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">All 540 cities with scores</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">All {CITIES_COUNT} cities with scores</div>
             </Card>
           </Link>
           <Link href="/red-flags" className="block">

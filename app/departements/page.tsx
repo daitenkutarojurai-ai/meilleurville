@@ -96,7 +96,7 @@ export default function DepartementsPage() {
         <DepartementFinder depts={deptEntries} cityIndex={cityIndex} />
 
         {/* Index complet ville par ville — replié, mais bien dans le HTML
-            statique : c'est lui qui porte le maillage interne vers les 540
+            statique : c'est lui qui porte le maillage interne vers les {CITIES_SEED.length}
             villes, que la grille compacte ci-dessus ne peut plus assurer. */}
         <details className="mt-8 rounded-2xl glass border border-white/50 p-5">
           <summary className="cursor-pointer text-sm font-semibold text-[var(--text-primary)]">

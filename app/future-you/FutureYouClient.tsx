@@ -338,7 +338,7 @@ export function FutureYouClient({ locale = "fr", cities }: { locale?: "fr" | "en
             {t("Top 3 villes pour vous", "Your top 3 cities")}
           </h2>
           <span className="text-xs text-[var(--text-tertiary)] font-mono-data">
-            {t(`sur ${top3.length ? 540 : 0} villes`, `out of ${top3.length ? 540 : 0} cities`)}
+            {t(`sur ${top3.length ? cities.length : 0} villes`, `out of ${top3.length ? cities.length : 0} cities`)}
           </span>
         </div>
 

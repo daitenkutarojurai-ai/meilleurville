@@ -123,7 +123,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Parent solo · Les villes françaises qui tiennent en 2026",
     description:
-      "Un seul revenu, un seul conducteur. Classement 4 axes (coût, transports, écoles, sécurité) sur 540 villes.",
+      `Un seul revenu, un seul conducteur. Classement 4 axes (coût, transports, écoles, sécurité) sur ${CITIES_COUNT} villes.`,
   },
 };
 

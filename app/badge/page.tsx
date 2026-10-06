@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Badge Nᵉ ville de France — à embarquer",
     description:
-      "Badge SVG libre pour mairies, offices de tourisme et agences immobilières. Classement 2026 · 540 villes.",
+      `Badge SVG libre pour mairies, offices de tourisme et agences immobilières. Classement 2026 · ${CITIES_SEED.length} villes.`,
   },
 };
 
@@ -216,7 +216,7 @@ export default function BadgePage() {
             })}
           </div>
           <p className="mt-3 text-xs text-[var(--text-tertiary)]">
-            Toutes les villes du seed (540) ont leur badge. Cherchez la vôtre
+            Toutes les villes du seed ({CITIES_SEED.length}) ont leur badge. Cherchez la vôtre
             depuis <Link href="/villes" className="text-[var(--accent)] hover:underline">/villes</Link>
             {" "}puis remplacez <code className="text-[10px] bg-[var(--bg-elevated)] px-1 py-0.5 rounded">/villes</code>{" "}
             par <code className="text-[10px] bg-[var(--bg-elevated)] px-1 py-0.5 rounded">/badge</code> dans l&apos;URL.

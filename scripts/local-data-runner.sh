@@ -67,7 +67,11 @@ WORKTREE_BRANCH="local-data-runner"
 # build alone writes ~33 GB into .next/ + out/.
 MIN_FREE_GB=8
 # Toutes les villes du seed. Une couverture en dessous = pipeline incomplet.
-TARGET_CITIES=540
+# Compté dans le seed et non écrit en dur (2026-10-06) : le seed s'étend (F34/F35),
+# et un « 540 » figé aurait déclaré complet un pipeline qui n'a jamais vu les
+# villes ajoutées. Recompté dans le dossier de travail de la passe (cf. plus bas).
+count_seed() { grep -c '^    slug: "' "$1/data/cities-seed.ts" 2>/dev/null || echo 0; }
+TARGET_CITIES="$(count_seed "$REPO")"
 # Deux nuits sans avancer sur un pipeline incomplet : ce n'est plus un
 # contretemps, c'est une panne. (Le lot GBIF fait 60 villes la nuit, le lot
 # BODACC 180 : un pipeline vivant bouge à chaque passe.)
@@ -101,6 +105,16 @@ OWNED=(
   data/city-biodiversity.json
   data/city-protected-areas.json
   data/city-news.json
+  # Extension du seed (F34/F35) : pipelines relancés seulement quand le seed
+  # porte une ville absente de leur sortie — cf. scripts/seed-coverage.mjs.
+  data/city-population.json
+  data/city-income.json
+  data/city-property-prices.json
+  data/city-coast.json
+  data/city-parks.json
+  data/city-images.json
+  data/city-cards.json
+  public/photos/villes
 )
 
 # Les trois pipelines : étiquette courte, commande de statut, libellé lisible.
@@ -304,6 +318,7 @@ else
   WORK="$REPO"
 fi
 cd "$WORK" || { say "FATAL cannot enter $WORK"; exit 1; }
+TARGET_CITIES="$(count_seed "$WORK")"
 
 summary=()
 failures=()
@@ -334,6 +349,23 @@ run_stage() {
   fi
   return 0
 }
+
+# --- extension du seed (F34/F35) ------------------------------------------
+# Une ville ajoutée au seed n'a ni population Insee, ni revenus Filosofi, ni prix
+# DVF, ni distance à la mer, ni parcs, ni photo : ces pipelines ont tous été
+# lancés une fois, à la main, sur les 540 d'origine, et rien ne les rejouait.
+# Les pages dégradent proprement d'ici là (section absente, jamais un zéro), mais
+# la ville resterait à moitié remplie pour toujours. On ne relance que ce qui a
+# une ville à traiter : `seed-coverage --needs=X` sort 0 dans ce cas, et ignore les
+# manques permanents connus (Mamoudzou hors fichier Insee, etc.). Les archives
+# Insee / DVF / Natural Earth sont dans `.cache`, donc un rejeu coûte des secondes.
+needs() { node scripts/seed-coverage.mjs --needs="$1" >>"$LOG" 2>&1; }
+needs population      && run_stage "extension — population (Insee)" 1800 npm run population
+needs income          && run_stage "extension — revenus (Filosofi)" 1800 npm run income
+needs property-prices && run_stage "extension — prix DVF" 3600 npm run property-prices
+needs coast           && run_stage "extension — distance à la mer" 1800 npm run coast
+needs parks           && run_stage "extension — parcs (Overpass)" 3600 npm run parks -- --limit=60
+needs photos          && run_stage "extension — photos (Wikidata/Commons)" 3600 npm run photos
 
 # GBIF: ~45 s a city, so 60 cities is about 45 min. 540 cities = 9 nights.
 # Now that the 540 are covered this stage prints "nothing to do" and returns in
@@ -390,9 +422,12 @@ if compgen -G "$PA_SOURCES/*.geojson" >/dev/null; then
   # nightly would burn an hour to rewrite an identical JSON. Run it when the
   # output is missing or older than the layers it reads.
   newest_src="$(ls -t "$PA_SOURCES"/*.geojson 2>/dev/null | head -1)"
+  # Troisième cas (2026-10-06) : une ville ajoutée au seed absente du JSON — sans
+  # lui l'ingest, « à jour » vis-à-vis des couches, ne l'aurait jamais vue.
   if [[ ! -s data/city-protected-areas.json ]] \
      || [[ "$(head -c 3 data/city-protected-areas.json)" == "{}" ]] \
-     || [[ "$newest_src" -nt data/city-protected-areas.json ]]; then
+     || [[ "$newest_src" -nt data/city-protected-areas.json ]] \
+     || needs protected-areas; then
     run_stage "zones protégées (INPN)" 3600 npm run protected-areas
   else
     say "-> zones protégées: ingest à jour (couches inchangées depuis la dernière passe)"
