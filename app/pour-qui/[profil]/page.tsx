@@ -795,6 +795,35 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Miroir côté soignant — le profil « suivi médical régulier » classe
+            le composite d'accès aux soins du point de vue de qui doit s'y rendre ;
+            `professionnels-de-sante` lit le même composite sans inversion (pénurie). */}
+        {profile.slug === "suivi-medical-regulier" && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le profil miroir — côté soignant
+            </h3>
+            <Link href="/pour-qui/professionnels-de-sante" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🧑‍⚕️</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes où s&apos;installer quand on soigne
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Ce top cherche l&apos;offre de soins ; celui-ci part de la même
+                      grille et la lit dans l&apos;autre sens, pour une professionnelle ou
+                      un professionnel de santé qui cherche un territoire où son
+                      cabinet répondra à un vrai besoin.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Hub-distance counterpart — visible on the four profiles that the
             target's own intro names to say where it stops : « télétravailleurs
             salariés » et « freelances » notent la ville pour les jours passés à

@@ -282,6 +282,15 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
               son coût
             </Link>
           </p>
+          <p>
+            <Link
+              href="/pour-qui/professionnels-de-sante"
+              className="text-[var(--accent)] hover:underline"
+            >
+              → Vous êtes soignant et cherchez où ouvrir un cabinet : la même grille
+              lue du côté de la pénurie
+            </Link>
+          </p>
         </div>
       </section>
 

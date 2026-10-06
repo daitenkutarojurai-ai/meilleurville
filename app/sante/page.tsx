@@ -295,6 +295,13 @@ export default function HealthcareHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">L&apos;accès aux soins repondéré avec le coût, les trajets et la canicule</div>
             </Card>
           </Link>
+          <Link href="/pour-qui/professionnels-de-sante" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🧑‍⚕️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">S&apos;installer comme soignant là où l&apos;on manque de bras</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Le même indicateur lu à l&apos;envers, du côté du cabinet</div>
+            </Card>
+          </Link>
         </div>
       </section>
 

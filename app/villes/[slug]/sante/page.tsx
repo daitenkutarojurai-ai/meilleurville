@@ -251,6 +251,15 @@ export default async function SantePage({ params }: Props) {
               des rendez-vous réguliers
             </Link>
           </p>
+          <p>
+            <Link
+              href="/pour-qui/professionnels-de-sante"
+              className="text-[var(--accent)] hover:underline"
+            >
+              → Pour un médecin ou un paramédical qui hésite à s&apos;installer : les
+              villes où la pénurie d&apos;offre de soins est la plus marquée
+            </Link>
+          </p>
         </div>
       </section>
 
