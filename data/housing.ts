@@ -554,6 +554,13 @@ export const HOUSING: Record<string, HousingData> = {
   "clamart": { avgRentT1: 800, avgRentT2: 1180, avgRentT3: 1580, avgBuyPriceM2: 6300 },
   "bobigny": { avgRentT1: 620, avgRentT2: 850, avgRentT3: 1150, avgBuyPriceM2: 3200 },
   "epinay-sur-seine": { avgRentT1: 570, avgRentT2: 790, avgRentT3: 1070, avgBuyPriceM2: 2800 },
+  "montrouge": { avgRentT1: 750, avgRentT2: 1050, avgRentT3: 1400, avgBuyPriceM2: 6000 },
+  "meudon": { avgRentT1: 950, avgRentT2: 1370, avgRentT3: 1860, avgBuyPriceM2: 7300 },
+  "vanves": { avgRentT1: 750, avgRentT2: 1050, avgRentT3: 1400, avgBuyPriceM2: 6000 },
+  "l-hay-les-roses": { avgRentT1: 760, avgRentT2: 1060, avgRentT3: 1420, avgBuyPriceM2: 5700 },
+  "thiais": { avgRentT1: 730, avgRentT2: 1020, avgRentT3: 1360, avgBuyPriceM2: 4900 },
+  "livry-gargan": { avgRentT1: 590, avgRentT2: 810, avgRentT3: 1090, avgBuyPriceM2: 2900 },
+  "villepinte": { avgRentT1: 610, avgRentT2: 840, avgRentT3: 1130, avgBuyPriceM2: 3200 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

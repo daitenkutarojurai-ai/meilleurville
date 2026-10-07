@@ -209,8 +209,9 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 
 ### 20 000 – 50 000 hab. — candidats (absents par nom)
 
-Montrouge (92049, 46 324 en 2023 selon Wikipédia FR — 2ᵉ source à trouver), Meudon, Vanves,
-L'Haÿ-les-Roses, Thiais, Villeneuve-Saint-Georges, Livry-Gargan, Villepinte, Gagny,
+~~Montrouge, Meudon, Vanves, L'Haÿ-les-Roses, Thiais, Livry-Gargan, Villepinte~~ (**lot 2**),
+Villeneuve-Saint-Georges (94078, **attend un override** : ses voisines 94 du seed sont à 4,7-8 km
+et ne lui ressemblent pas, ses vraies voisines sont en Essonne), Gagny,
 Clichy-sous-Bois, Romainville, Villemomble, Grigny, Ris-Orangis, Les Mureaux, Chatou ;
 Saint-Laurent-du-Var, Vallauris, La Valette-du-Var, Gardanne, Miramas, Lunel ; Lormont ;
 Villefontaine (Oullins est déjà au seed, fusionnée : `oullins-pierre-benite`) ; Marcq-en-Barœul, Lambersart ; Saint-Étienne-du-Rouvray ; DROM : Le Port,
@@ -289,3 +290,83 @@ Montrouge (une seule source de population).
 Thiais, Villeneuve-Saint-Georges, Livry-Gargan, Villepinte — toutes en petite couronne dense, où
 la règle de voisinage tient. Vérifier d'abord avec `seed-coverage` que le runner local a bien rempli
 les 4 du lot 1.
+
+### 2026-10-07 — lot 2 (+7) : Montrouge, Meudon, Vanves, L'Haÿ-les-Roses, Thiais, Livry-Gargan, Villepinte
+
+544 → **551** villes, toutes en Île-de-France (aucune région, aucun département nouveau). Absence
+vérifiée par code Insee avant ajout. ⚠️ Le runner local n'avait **pas encore servi le lot 1** au
+moment du run (`seed-coverage` : les 4 villes du 06/10 absentes des 11 jeux), donc pas de
+vérification d'arrivée possible — à refaire au prochain run ; ce n'est pas un défaut tant que les
+pages dégradent (elles le font, § 1).
+
+*Identité* (recherche web ; `WebFetch` toujours bloqué) :
+
+| Ville | Insee | Pop. seed | Source pop. (2023) | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Montrouge | 92049 | 46 300 | 46 324 (bien-dans-ma-ville ; Wikipédia FR) | 48°49′02″N 2°19′19″E | 67-85 → 76 m |
+| Meudon | 92048 | 46 300 | 46 334 (bien-dans-ma-ville ; Wikipédia EN) | 48°48′46″N 2°14′18″E | 28-179 → 104 m |
+| Vanves | 92075 | 28 600 | 28 622 (bien-dans-ma-ville ; Wikipédia EN) | 48°49′15″N 2°17′23″E | 35-78 → 57 m |
+| L'Haÿ-les-Roses | 94038 | 31 200 | 31 188 (bien-dans-ma-ville ; Wikipédia EN) | 48°46′48″N 2°20′15″E | 45-110 → 78 m |
+| Thiais | 94073 | 32 900 | 32 918 (bien-dans-ma-ville ; Wikipédia EN, pop. municipale) | 48°45′54″N 2°23′32″E | 41-96 → 69 m |
+| Livry-Gargan | 93046 | 47 200 | 47 228 (bien-dans-ma-ville ; Wikipédia EN) | 48°55′09″N 2°32′10″E | 54-125 → 90 m |
+| Villepinte | 93078 | 41 500 | 41 470 (bien-dans-ma-ville ; Wikipédia EN) | 48°57′18″N 2°32′28″E | 54-81 → 68 m ⚠️ |
+
+⚠️ Villepinte : une seconde source donne 46-87 m (→ 67) ; écart d'un mètre, 68 retenu (cartesfrance,
+dont la moyenne publiée vaut aussi 68). Thiais : un résultat donnait 33 141, non recoupé — 32 918
+retenu, porté par deux résultats.
+
+*Notes brutes* (§ 3.2, médiane des 4 voisines même département, 20 000-150 000 hab., hors
+overrides ; ordre : life, transport, nature, cost, safety, culture, remoteWork, schools ; global =
+`recomputeGlobal`) :
+
+| Ville | Voisines (distance) | Notes brutes | global |
+|---|---|---|---|
+| Montrouge | Malakoff 1,6 · Bagneux 2,4 · Châtillon 2,7 · Issy 3,7 km | 6.5 · 8 · 5.3 · 5 · 6.5 · 6.3 · 6.5 · 6.5 | 6.2 |
+| Meudon | Clamart 2,2 · Sèvres 2,3 · Issy 2,7 · Saint-Cloud 3,7 km (Boulogne écartée : override) | 7.7 · 7.7 · 7 · 3.9 · 7.5 · 6.8 · 7.4 · 7.8 | 6.9 |
+| Vanves | Malakoff 0,7 · Issy 1,4 · Châtillon 2,2 · Bagneux 2,7 km | 6.5 · 8 · 5.3 · 5 · 6.5 · 6.3 · 6.5 · 6.5 | 6.2 |
+| L'Haÿ-les-Roses | Cachan 1,7 · Villejuif 2,3 · Arcueil 2,9 · Fresnes 3,0 km (Bourg-la-Reine écartée : 92) | 6.5 · 7.8 · 5.5 · 5 · 6.2 · 6.7 · 6.7 · 6.5 | 6.3 |
+| Thiais | Choisy 1,7 · Vitry 2,8 · Villejuif 3,7 · Alfortville 4,9 km | 6.4 · 7.9 · 5.7 · 5.3 · 5.9 · 6.3 · 6.8 · 6.3 | 6.2 |
+| Livry-Gargan | Sevran 1,9 · Aulnay 3,5 · Bondy 4,6 · Blanc-Mesnil 5,6 km | 4.4 · 6.9 · 5.3 · 6.8 · 4.1 · 4.9 · 5.7 · 4.8 | 5.3 |
+| Villepinte | Sevran 2,1 · Tremblay 3,0 · Aulnay 4,0 · Blanc-Mesnil 6,0 km | 4.8 · 6.9 · 5.5 · 6.7 · 4.5 · 5 · 5.9 · 4.9 | 5.5 |
+
+Villejuif (lot 1) entre comme voisine de L'Haÿ et de Thiais : c'est une note elle-même dérivée par
+médiane, donc la règle se nourrit d'elle-même dès qu'un lot s'étend sur un précédent. Acceptable
+tant qu'une seule des 4 voisines est une ville d'extension ; **à surveiller** si un lot futur en
+aligne deux ou plus (préférer alors une voisine d'origine un peu plus lointaine et le dire ici).
+Montrouge et Vanves ont les mêmes 4 voisines, donc les mêmes notes brutes ; leurs notes rendues
+diffèrent (4,1 contre 4,2) par l'ajustement de taille de `calibrateScores` (Vanves < 30 000 hab.).
+
+Notes **rendues** (lues dans `CITIES_SEED`, reprises dans `seoDescriptionEn`) : Montrouge 4,1 ·
+Meudon 5,4 · Vanves 4,2 · L'Haÿ-les-Roses 4,3 · Thiais 4,2 · Livry-Gargan 2,8 · Villepinte 2,8.
+
+*Climat* : ville du seed la plus proche — Arcueil (Montrouge), Clamart (Meudon), Malakoff (Vanves),
+Cachan (L'Haÿ), Choisy-le-Roi (Thiais), Sevran (Livry-Gargan, Villepinte).
+
+*Logement* (`housing.ts`, médiane des 4 mêmes voisines, T1/T2/T3/m²) : Montrouge et Vanves
+750/1 050/1 400/6 000 ; Meudon 950/1 370/1 860/7 300 ; L'Haÿ 760/1 060/1 420/5 700 ; Thiais
+730/1 020/1 360/4 900 ; Livry-Gargan 590/810/1 090/2 900 ; Villepinte 610/840/1 130/3 200. Pas de
+recoupement de marché ce run ; la médiane DVF arrivera par `npm run property-prices`.
+
+*Quartiers* (2 par ville, réels, recoupés par recherche web, notes = ville) : Montrouge centre +
+Haut-Mesnil–Grand Sud ; Meudon Bellevue + Meudon-la-Forêt ; Vanves centre + Plateau de Vanves ;
+L'Haÿ centre + Lallier ; Thiais centre + Pavé de Grignon ; Livry-Gargan Livry + Gargan ; Villepinte
+Vieux-Pays + Vert-Galant.
+
+*Faits des `characterTags` / `descriptionEn`, vérifiés en ligne* : T4 à L'Abbaye et Lycée
+Henri-Sellier (gare de Gargan en limite, sur Les Pavillons-sous-Bois — la description le dit) ;
+station de métro 14 « L'Haÿ-les-Roses » ouverte le 24/06/2024, à la jonction L'Haÿ / Chevilly /
+Villejuif ; T7 (La Belle Épine) et T9 à Thiais, station 14 Thiais–Orly. Tags évitant les
+sous-chaînes lues par les prédicats (« centre commercial » contient « mer », « aéroport » contient
+« port » : écrits « Belle Épine » et « proche Roissy »).
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation candidate**. Table des couleurs de
+`CLAUDE.md` recomptée sur `CITIES_SEED` : 19 / 50 / 151 / **142** / **106** / **83**, moyenne 5,42.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (551 villes) + `:check`,
+`sitemap:check` (FR 29 795 URL, EN 29 397), `hreflang:check`. `npm run build` non lancé.
+
+*Reportée* : Villeneuve-Saint-Georges (règle de voisinage non valable, cf. backlog).
+
+**Prochain lot** : Gagny, Clichy-sous-Bois, Romainville, Villemomble (93, seed dense) ; Les Mureaux,
+Chatou (78) ; Ris-Orangis, Grigny (91) — vérifier la densité de voisines de chacune avec le script,
+et d'abord `seed-coverage` pour constater l'arrivée des lots 1 et 2 via le runner local.

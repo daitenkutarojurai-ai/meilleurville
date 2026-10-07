@@ -3264,6 +3264,48 @@
       "name": "Épinay-sur-Seine",
       "region": "Île-de-France",
       "score": 2.8
+    },
+    {
+      "slug": "montrouge",
+      "name": "Montrouge",
+      "region": "Île-de-France",
+      "score": 4.1
+    },
+    {
+      "slug": "meudon",
+      "name": "Meudon",
+      "region": "Île-de-France",
+      "score": 5.4
+    },
+    {
+      "slug": "vanves",
+      "name": "Vanves",
+      "region": "Île-de-France",
+      "score": 4.2
+    },
+    {
+      "slug": "l-hay-les-roses",
+      "name": "L'Haÿ-les-Roses",
+      "region": "Île-de-France",
+      "score": 4.3
+    },
+    {
+      "slug": "thiais",
+      "name": "Thiais",
+      "region": "Île-de-France",
+      "score": 4.2
+    },
+    {
+      "slug": "livry-gargan",
+      "name": "Livry-Gargan",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "villepinte",
+      "name": "Villepinte",
+      "region": "Île-de-France",
+      "score": 2.8
     }
   ],
   "guides": [
