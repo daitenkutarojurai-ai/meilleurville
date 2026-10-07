@@ -9303,6 +9303,41 @@
       "slug": "vacances-monoparentales-cambrai-2026",
       "title": "Vacances monoparentales à Cambrai en 2026",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "10-choses-a-faire-a-gerardmer-2026",
+      "title": "10 choses à faire à Gérardmer",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-lannion-2026",
+      "title": "10 choses à faire à Lannion",
+      "emoji": "🛰️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-flour-2026",
+      "title": "10 choses à faire à Saint-Flour",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "10-choses-a-faire-a-semur-en-auxois-2026",
+      "title": "10 choses à faire à Semur-en-Auxois",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-maubeuge-2026",
+      "title": "10 choses à faire à Maubeuge",
+      "emoji": "🛡️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-sartene-2026",
+      "title": "10 choses à faire à Sartène",
+      "emoji": "🗿"
+    },
+    {
+      "slug": "10-choses-a-faire-a-sceaux-2026",
+      "title": "10 choses à faire à Sceaux",
+      "emoji": "🌳"
     }
   ],
   "tags": [
@@ -10142,6 +10177,11 @@
       "count": 4
     },
     {
+      "slug": "que-faire-dans-le-nord",
+      "label": "que faire dans le Nord",
+      "count": 4
+    },
+    {
       "slug": "que-faire-en-martinique",
       "label": "que faire en Martinique",
       "count": 4
@@ -10539,11 +10579,6 @@
     {
       "slug": "que-faire-dans-la-metropole-de-lyon",
       "label": "que faire dans la Métropole de Lyon",
-      "count": 3
-    },
-    {
-      "slug": "que-faire-dans-le-nord",
-      "label": "que faire dans le Nord",
       "count": 3
     },
     {

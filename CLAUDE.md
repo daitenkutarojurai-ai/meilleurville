@@ -2528,6 +2528,25 @@ seed sur 540 sans guide tourisme** ; gisements nommés : **Saint-Herblain**, les
 bordelaises** jamais faites (Villenave-d'Ornon, Talence, Le Bouscat) et le reliquat du vivier du
 batch 50 — **Gérardmer, Sanary-sur-Mer, Lannion, Hendaye, Saint-Flour, Embrun**.
 
+**Batch 54 — FR, shipped 2026-10-07 : Gérardmer, Lannion, Saint-Flour, Semur-en-Auxois, Maubeuge,
+Sartène, Sceaux.** Sept villes prises dans le vivier du batch 52 (Gérardmer, Lannion, Saint-Flour) et
+dans les trous mesurés ce run par `relatedCities` des guides tourisme. **Compteurs mesurés : FR 289
+(`-a-` strict 280 + 6 en `au-` + 3 en `aux-`), EN 282 ; `GUIDES` 1 199 → 1 206.** Aucun slug hors
+gabarit. `metaTitle` 34-43, `metaDesc` 133-145, 10 sections, 654-837 mots (plus courts que la série :
+choix de ne rien écrire qui ne soit sourcé), 0 em-dash. `search-index` relancé (1 206 guides, 274 tags,
+inchangé), `sitemap:check` vert (FR 29 802, EN 29 397), `tsc` et `integrity` verts.
+⚠️ **Correction de vivier : Maubeuge n'est PAS l'un des douze sites Vauban de l'UNESCO (2008)** — elle
+est dans le réseau des places fortes mais pas dans l'inscription ; le guide le dit en intro. Autres
+prudences : « accessible depuis » pour Garabit (Ruynes-en-Margeride), Alésia (Alise-Sainte-Reine),
+Fontenay (Marmagne), Filitosa (Sollacaro), radôme (Pleumeur-Bodou), Longemer/Retournemer, Linge,
+Vallée-aux-Loups (Châtenay-Malabry) ; Gérardmer reconstruite après l'incendie de nov. 1944 (~85 %) ;
+château de Sceaux du Second Empire, pas de Colbert ; Catenacciu traité comme une cérémonie religieuse.
+Ni le fait que Sceaux soit en RER B ni les horaires ne sont chiffrés. `npm run build` non lancé.
+**Prochain run : batch EN** (écart FR→EN = 7 villes : gerardmer, lannion, saint-flour, semur-en-auxois,
+maubeuge, sartene, sceaux). Vigilance : Maubeuge/UNESCO, Lannion↔Telstar (angle anglophone), Sceaux.
+Gisements FR restants (non couverts, mesurés) : Montbard, Sainte-Maxime, Mandelieu-la-Napoule, Berck,
+Florac, Sarreguemines, Saint-Claude, Péronne, Châteaudun, Montargis, Guebwiller, Sallanches.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique

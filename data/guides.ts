@@ -60248,6 +60248,454 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["vacances monoparentales Cambrai", "parent solo Nord", "vacances pas chères en famille", "beffroi UNESCO Cambrai", "bêtise de Cambrai"]
   },
+  {
+    slug: "10-choses-a-faire-a-gerardmer-2026",
+    title: "10 choses à faire à Gérardmer",
+    metaTitle: "10 choses à faire à Gérardmer en 2026",
+    metaDesc:
+      "Un lac glaciaire, une ville reconstruite après 1944, des cascades dans les Vosges et un festival du film fantastique : 10 activités à Gérardmer.",
+    category: "tourisme",
+    emoji: "🏞️",
+    readMinutes: 7,
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    intro:
+      "Gérardmer comptait 7 685 habitants au recensement de 2022, contre 8 133 en 2016 et 8 561 en 2011. C'est une station qui perd des résidents tout en recevant des foules : le recensement compte les gens qui y habitent, pas ceux qui y dorment trois nuits en février ou en août. Le lac glaciaire occupe environ 115 hectares et règle tout le reste, de l'implantation des quais au calendrier des week-ends. Un point à poser avant le reste : la ville que l'on traverse n'est pas une ville ancienne. Elle a été incendiée en novembre 1944 par les troupes allemandes en retraite, détruite à environ 85 %, et rebâtie sur un plan d'André Gutton. Ce guide dit où regarder, ce qui se visite à pied, et ce qui relève des communes voisines.",
+    sections: [
+      {
+        heading: "1. Le tour du lac",
+        body: "Le lac se contourne à pied ou à vélo en une demi-journée tranquille, sur un parcours aménagé dont la distance se vérifie auprès de l'office de tourisme. C'est la meilleure entrée dans la ville : on voit les villas de villégiature, les plages, la base nautique et les pentes boisées qui plongent dans l'eau. Un lac d'origine glaciaire reste froid, même en été, et la baignade se fait sur les zones prévues à cet effet, signalées sur place."
+      },
+      {
+        heading: "2. Le centre reconstruit",
+        body: "La ville a été incendiée les 16 et 17 novembre 1944 et détruite à environ 85 %. Le plan de reconstruction a été confié en 1945 à l'architecte urbaniste André Gutton et approuvé par le conseil municipal en 1946. Ce qu'on voit aujourd'hui, c'est donc de l'architecture d'après-guerre sur un lac ancien, et non un bourg vosgien d'avant 1900. Le contraste est le sujet : il faut marcher dans les rues avec cette date en tête pour comprendre pourquoi les façades ne ressemblent pas à celles de Colmar."
+      },
+      {
+        heading: "3. Le Saut des Cuves",
+        body: "C'est une cascade de la Vologne, dans le défilé des Granges, à proximité de la ville. On y va à pied depuis un parking, et le débit dépend de la saison : abondant à la fonte des neiges et après les pluies, plus discret en été sec. Les rochers autour sont mouillés et glissants, de bonnes chaussures s'imposent, et l'on reste sur les sentiers et les passerelles aménagés."
+      },
+      {
+        heading: "4. Longemer et Retournemer",
+        body: "Les deux lacs voisins sont accessibles depuis Gérardmer, mais ils ne relèvent pas de la commune : on y va par la route de la Vologne, en voiture ou à vélo. Plus petits et plus encaissés, ils offrent des berges plus sauvages que le grand lac et se parcourent à pied. Retournemer, au pied des roches, est le plus photographié des deux."
+      },
+      {
+        heading: "5. Le festival du film fantastique",
+        body: "Le Festival international du film fantastique de Gérardmer se tient chaque année depuis 1994, en hiver, ce qui est la saison creuse de la station et la raison pour laquelle il a pris. Les projections se tiennent en ville, le public y est mélangé, et réserver son hébergement bien en amont est la règle. Les dates exactes de l'édition se vérifient auprès de l'organisation, elles changent d'une année à l'autre."
+      },
+      {
+        heading: "6. Les pistes et le ski",
+        body: "Gérardmer est une station de ski de moyenne montagne, dont l'enneigement n'est jamais garanti à ces altitudes. Une saison réussie dépend d'un hiver froid, et l'exploitant publie l'état des pistes au jour le jour : c'est cette source qui fait foi, pas un calendrier. Hors neige, les mêmes pentes servent à la randonnée, au VTT et à la luge d'été."
+      },
+      {
+        heading: "7. Le linge et les savoir-faire vosgiens",
+        body: "Le linge de maison tissé dans les Vosges est l'une des spécialités du massif, et plusieurs maisons de textile ont leur point de vente dans la région. C'est le genre d'achat qu'on rapporte plus facilement qu'un fromage, et qui se compare à la qualité plutôt qu'au prix. Pour la table, le munster, fromage de la vallée voisine, et les bonbons des Vosges forment les deux autres emblèmes régionaux."
+      },
+      {
+        heading: "8. La route des Crêtes et le Linge",
+        body: "La route des Crêtes, qui longe la ligne de partage entre Lorraine et Alsace, est accessible depuis Gérardmer, tout comme le site du Linge, champ de bataille de 1915 situé en Haut-Rhin. Ils ne sont pas dans la commune et demandent une journée à part, avec une voiture. Les tranchées conservées du Linge sont un lieu de mémoire : on s'y tient avec sobriété et l'on reste sur les cheminements."
+      },
+      {
+        heading: "9. Randonner autour de la ville",
+        body: "Le massif vosgien est de la moyenne montagne arrondie, avec des crêtes dégagées, des tourbières et des forêts de sapins. Les sentiers balisés sont nombreux, les dénivelés restent à la portée d'un marcheur ordinaire, mais la météo peut basculer vite en altitude : brouillard, vent, fraîcheur en plein été. Un coupe-vent et de l'eau se glissent dans le sac, même pour une demi-journée."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "La voiture est le moyen le plus pratique pour atteindre Gérardmer et pour bouger autour. Sans voiture, il faut combiner train jusqu'à une gare des Vosges puis car, liaisons et horaires à vérifier avant de réserver. Deux jours suffisent pour le lac, la cascade et le centre, trois pour ajouter les lacs voisins et la route des Crêtes. L'été et l'hiver concentrent la foule, mai et septembre sont plus calmes, et les week-ends de festival se réservent tôt."
+      }
+    ],
+    relatedCities: ["gerardmer", "saint-die-des-vosges", "colmar", "mulhouse"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-die-des-vosges-2026",
+      "10-choses-a-faire-a-colmar-2026",
+      "10-choses-a-faire-a-mulhouse-2026",
+      "10-choses-a-faire-a-obernai-2026"
+    ],
+    tags: ["10 choses à faire à Gérardmer", "activités Gérardmer 2026", "que faire dans les Vosges", "sorties Grand Est lacs montagne", "lac cascade festival fantastique Vosges"]
+  },
+  {
+    slug: "10-choses-a-faire-a-lannion-2026",
+    title: "10 choses à faire à Lannion",
+    metaTitle: "10 choses à faire à Lannion en 2026",
+    metaDesc:
+      "Maisons à pans de bois, église sur sa colline, vallée du Léguer et radôme du premier direct transatlantique : 10 activités à Lannion.",
+    category: "tourisme",
+    emoji: "🛰️",
+    readMinutes: 7,
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    intro:
+      "Lannion comptait 20 525 habitants au recensement de 2022, contre 19 831 en 2016 et 19 920 en 2011 : la commune a regagné du terrain après un creux, ce qui n'est pas si fréquent dans les Côtes-d'Armor. Elle est la ville du Trégor, vieille cité de marché au bord du Léguer, et en même temps l'un des pôles français des télécommunications, parce que le radôme de Pleumeur-Bodou, à quelques kilomètres, a servi au premier direct télévisé transatlantique par satellite en 1962. Ce guide sépare ce qui est dans Lannion, ce qui est accessible depuis elle, et ce qu'il faut ranger dans une journée à part.",
+    sections: [
+      {
+        heading: "1. La place du Centre et les pans de bois",
+        body: "Le cœur ancien tient autour de la place du Centre, bordée de maisons à pans de bois en encorbellement, dont certaines remontent aux XVe et XVIe siècles. Les rues voisines, pentues et pavées, descendent vers le Léguer. C'est la partie de Lannion qui se fait à pied et sans programme, et le marché hebdomadaire, qui se tient ici, est le meilleur moment pour la voir habitée."
+      },
+      {
+        heading: "2. L'église de Brélévenez",
+        body: "Elle domine la ville depuis sa colline, et on y monte par un escalier d'environ cent quarante marches, un chiffre à prendre comme un ordre de grandeur plutôt qu'au pas près. L'ancienne tradition qui en fait une fondation des Templiers est largement reprise, mais c'est une tradition et non un fait établi par les sources : elle se raconte, elle ne se cite pas comme une certitude. La vue sur la vallée et les toits vaut la montée."
+      },
+      {
+        heading: "3. Les rives du Léguer",
+        body: "La rivière traverse la ville et ses berges se parcourent à pied, avec un cheminement qui remonte dans une vallée boisée et peu aménagée. Plus on avance vers l'amont, plus le paysage devient celui d'un fond de vallée breton, avec ses moulins, ses ponts de pierre et ses sentiers de randonnée. C'est une promenade qui prend une heure ou une demi-journée selon le courage."
+      },
+      {
+        heading: "4. Le radôme et la Cité des télécoms",
+        body: "Le radôme est à Pleumeur-Bodou, commune voisine, et il est accessible depuis Lannion en voiture. Il a abrité l'antenne de la liaison du 11 juillet 1962, premier direct télévisé transatlantique par satellite, avec Telstar 1. Le dôme blanc, classé monument historique, est le dernier de ce type conservé au monde et abrite un parcours sur l'histoire des télécommunications. Les horaires et les conditions d'accès changent selon la saison : il faut les vérifier avant de partir."
+      },
+      {
+        heading: "5. Lannion, ville des télécoms",
+        body: "Le choix de Pleumeur-Bodou en 1962 a installé durablement la région dans les télécommunications : des laboratoires et des entreprises du secteur se sont implantés dans l'agglomération. La ville n'en fait pas un musée, mais cette histoire explique la présence d'un pôle d'ingénieurs dans une ville moyenne bretonne, et donc la jeunesse relative de la population."
+      },
+      {
+        heading: "6. La côte de Granit rose",
+        body: "Perros-Guirec et Ploumanac'h, avec leurs rochers roses, sont accessibles depuis Lannion en une petite demi-heure de route. Ce sont des communes distinctes, et le sentier des douaniers qui longe la côte est l'une des randonnées les plus fréquentées de Bretagne : l'été, on y marche en file, et mieux vaut y aller tôt le matin ou hors saison."
+      },
+      {
+        heading: "7. Tréguier et le Trégor",
+        body: "La cathédrale de Tréguier, commune à part, est accessible depuis Lannion et se traite comme une sortie de demi-journée. Plus largement, le Trégor offre des chapelles, des calvaires et des petits ports qui se visitent à rythme lent. Une carte routière ou une application vaut mieux qu'une intuition : les routes sont sinueuses et les distances en temps dépassent les distances à vol d'oiseau."
+      },
+      {
+        heading: "8. Le château de Tonquédec",
+        body: "Cette forteresse en ruine est située à Tonquédec, commune voisine, et se visite depuis Lannion comme une excursion de quelques heures. Elle donne une idée de ce que pouvait être une place féodale bretonne, avec ses tours, son enceinte et son donjon. Les conditions de visite changent selon la saison et se vérifient avant de partir."
+      },
+      {
+        heading: "9. La mer à portée",
+        body: "Lannion n'est pas en bord de mer : la plage la plus proche est à une dizaine de kilomètres, sur la côte de la baie de Lannion. Les plages de la baie sont des plages de sable dont la fréquentation et la surveillance varient selon la saison. Le drapeau indique l'état de la baignade, et la marée, très marquée sur cette côte, change l'aspect de la plage plusieurs fois par jour."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Lannion se rejoint en train par une ligne qui part de Plouaret, avec correspondance sur les liaisons vers Rennes et Paris : l'organisation exacte et les horaires se vérifient avant de réserver. La voiture reste le meilleur moyen de rayonner dans le Trégor. Deux jours suffisent pour la ville et le Léguer, trois à quatre pour ajouter le radôme, la côte de Granit rose et Tréguier. De mai à septembre pour la mer, toute l'année pour la ville, avec une saison d'hiver pluvieuse et douce."
+      }
+    ],
+    relatedCities: ["lannion", "morlaix", "saint-brieuc", "dinan"],
+    relatedGuides: [
+      "10-choses-a-faire-a-morlaix-2026",
+      "10-choses-a-faire-a-saint-brieuc-2026",
+      "10-choses-a-faire-a-dinan-2026",
+      "10-choses-a-faire-a-quimper-2026"
+    ],
+    tags: ["10 choses à faire à Lannion", "activités Lannion 2026", "que faire dans les Côtes-d'Armor", "sorties Bretagne Trégor", "pans de bois Léguer radôme Granit rose"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-flour-2026",
+    title: "10 choses à faire à Saint-Flour",
+    metaTitle: "10 choses à faire à Saint-Flour en 2026",
+    metaDesc:
+      "Une ville haute posée sur un éperon volcanique, une cathédrale sombre, le viaduc de Garabit et la Margeride : 10 activités à Saint-Flour.",
+    category: "tourisme",
+    emoji: "🌋",
+    readMinutes: 7,
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    intro:
+      "Saint-Flour comptait 6 390 habitants au recensement de 2022, contre 6 504 en 2016 et 6 665 en 2011, un recul lent mais continu. La ville est un cas d'école de géographie : une ville haute perchée sur un éperon volcanique, qui domine la ville basse et la plaine de la Planèze. C'est aussi un point d'appui pour visiter le Cantal, notamment le viaduc de Garabit, qui n'est pas dans la commune. Ce guide dit ce qui se voit à pied dans la ville haute, ce qui relève des communes voisines, et ce qu'il faut prévoir en matière de météo et de distances.",
+    sections: [
+      {
+        heading: "1. La ville haute",
+        body: "Elle est bâtie sur un promontoire d'origine volcanique, dominant la ville basse de plusieurs dizaines de mètres. C'est une ville de pierre sombre, aux rues étroites et aux façades de caractère, que l'on parcourt à pied en une heure ou deux. La montée depuis la ville basse est raide, avec des escaliers et des rampes : pour un visiteur à mobilité réduite, mieux vaut monter en voiture ou en navette si elle existe, à vérifier auprès de l'office de tourisme."
+      },
+      {
+        heading: "2. La cathédrale Saint-Pierre",
+        body: "Elle est de style gothique et domine le haut de la ville. Elle abrite un Christ noir en bois, que les sources datent des XIe-XIIe siècles ; les datations varient, et le plus honnête est de dire que l'objet est très ancien. Comme tout édifice cultuel en activité, ses horaires d'ouverture dépendent de la paroisse et se vérifient avant de se déplacer pour elle."
+      },
+      {
+        heading: "3. Les remparts et les belvédères",
+        body: "Des points de vue sur la plaine de la Planèze et la vallée de l'Ander s'ouvrent depuis le bord du plateau. C'est ici que l'on comprend l'implantation de la ville, et le meilleur moment est le soir, quand la lumière rase le plateau. Le vent peut être fort en toute saison : une couche supplémentaire dans le sac vaut mieux qu'un regret."
+      },
+      {
+        heading: "4. Les musées de la ville",
+        body: "La ville haute abrite plusieurs musées, notamment sur l'histoire locale et les arts de la Haute-Auvergne. Les collections et les horaires évoluent, et les conditions d'accès sont à vérifier auprès de l'office de tourisme. Si le temps est mauvais, c'est le meilleur usage d'une demi-journée : la ville haute se visite par fragments de rue et de salle."
+      },
+      {
+        heading: "5. Le viaduc de Garabit",
+        body: "Il franchit les gorges de la Truyère et il est accessible depuis Saint-Flour, mais il n'est pas dans la commune : il se trouve sur le territoire voisin de Ruynes-en-Margeride, à une quinzaine de kilomètres. Conçu par Gustave Eiffel et Léon Boyer, mis en service en 1888, il mesure un peu plus de 560 mètres de long pour environ 120 mètres de hauteur. Il a servi de laboratoire à Eiffel avant sa tour. C'est l'excursion obligatoire du séjour, et on peut le voir depuis plusieurs belvédères."
+      },
+      {
+        heading: "6. Les gorges de la Truyère",
+        body: "La Truyère et ses lacs de retenue entaillent le plateau, et les paysages se découvrent en voiture, à pied ou en bateau selon l'endroit. Les accès, les départs de promenade en bateau et les sentiers sont à confirmer auprès de l'office de tourisme. Les routes sont sinueuses, les distances en temps dépassent celles à vol d'oiseau, et le réseau mobile est irrégulier dans les gorges."
+      },
+      {
+        heading: "7. La Margeride et la Planèze",
+        body: "Autour de Saint-Flour, deux paysages se côtoient : la Planèze, plateau basaltique dégagé, et la Margeride, massif granitique plus boisé. Ce sont des terres d'élevage, et on y croise des troupeaux de vaches de race locale, ce qui donne leur raison d'être aux fromages de la région. Les randonnées sont nombreuses, de la sortie d'une heure aux longs itinéraires."
+      },
+      {
+        heading: "8. Le cantal, le fromage",
+        body: "Le cantal est le fromage emblématique du département et bénéficie d'une appellation d'origine protégée. Il se déguste jeune, entre-deux ou vieux, avec des goûts différents, et se trouve sur les marchés et chez les producteurs de la région. Les visites de fermes se réservent généralement à l'avance, et leurs conditions sont à vérifier."
+      },
+      {
+        heading: "9. Les saisons et la météo",
+        body: "À cette altitude, l'hiver est froid et la neige peut tomber de façon durable. L'été est frais le matin et le soir, et des orages se forment l'après-midi. Les routes de montagne autour peuvent être difficiles en hiver : il faut vérifier l'état des routes avant de partir. Le printemps et l'automne sont des saisons agréables mais variables."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Saint-Flour est desservie par le train sur la ligne de Béziers à Clermont-Ferrand, mais la gare est située en ville basse, à distance de la ville haute, ce qui impose de monter à pied, en taxi ou en navette. Les horaires sont à vérifier avant de réserver. Une journée suffit pour la ville haute, deux pour ajouter Garabit et la Truyère. De mai à octobre pour le confort, avec une météo qui se vérifie toujours."
+      }
+    ],
+    relatedCities: ["saint-flour", "aurillac", "clermont-ferrand", "millau"],
+    relatedGuides: [
+      "10-choses-a-faire-a-aurillac-2026",
+      "10-choses-a-faire-a-clermont-ferrand-2026",
+      "10-choses-a-faire-a-millau-2026",
+      "10-choses-a-faire-au-puy-en-velay-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Flour", "activités Saint-Flour 2026", "que faire dans le Cantal", "sorties Auvergne volcans", "ville haute cathédrale Garabit Truyère Margeride"]
+  },
+  {
+    slug: "10-choses-a-faire-a-semur-en-auxois-2026",
+    title: "10 choses à faire à Semur-en-Auxois",
+    metaTitle: "10 choses à faire à Semur-en-Auxois en 2026",
+    metaDesc:
+      "Une cité médiévale dans une boucle de l'Armançon, un pont du XVIIIe, une collégiale gothique et Alésia à portée : 10 activités à Semur-en-Auxois.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    intro:
+      "Semur-en-Auxois comptait 4 027 habitants au recensement de 2022, contre 4 132 en 2016 et 4 166 en 2011, une petite sous-préfecture en recul lent dont l'intérêt n'est pas démographique mais topographique. La vieille ville occupe un éperon rocheux enserré par une boucle de l'Armançon, et c'est cette position qui explique ses tours, ses remparts et sa silhouette sur la rivière. Ce guide dit ce qui se voit à pied, ce qui est accessible depuis la ville sans y être, et pourquoi le meilleur moment pour la regarder est depuis le pont.",
+    sections: [
+      {
+        heading: "1. Le pont Joly et la vue sur la ville",
+        body: "Le pont Joly enjambe l'Armançon et date du XVIIIe siècle. C'est le point de vue classique : de là, on voit l'éperon, les remparts, les toits de tuiles rouges et la silhouette de la collégiale, tout ce qui fait l'image de la ville. Le meilleur moment est tôt le matin ou en fin d'après-midi, quand la lumière est rasante."
+      },
+      {
+        heading: "2. Les tours et les remparts",
+        body: "La ville a conservé une partie de son enceinte médiévale et plusieurs tours du château. La tour de l'Orle d'Or est la plus massive et la plus citée. Les remparts se longent à pied, sur des chemins qui suivent le pied des murs ou leur sommet selon les tronçons ; l'accès à certaines tours est limité, et ce qui se visite se vérifie auprès de l'office de tourisme."
+      },
+      {
+        heading: "3. La collégiale Notre-Dame",
+        body: "Elle date pour l'essentiel du XIIIe siècle et domine le cœur de la ville avec deux tours carrées encadrant une façade sculptée. C'est l'édifice gothique le plus important de l'Auxois, et son portail et ses vitraux méritent qu'on s'y arrête. Comme toute église en activité, ses horaires d'ouverture se vérifient avant de se déplacer pour elle."
+      },
+      {
+        heading: "4. Les rues du centre ancien",
+        body: "Les ruelles pavées, les maisons à colombages et les hôtels particuliers donnent au centre un aspect d'ensemble cohérent. Il n'y a rien à cocher : le plaisir est de marcher sans plan entre la place, les ruelles et les remparts, en une heure ou deux. Les commerces sont ceux d'une petite ville : boulangeries, galeries, produits régionaux."
+      },
+      {
+        heading: "5. Les bords de l'Armançon",
+        body: "La rivière entoure la vieille ville, et des chemins permettent de la longer en bas des remparts, ce qui donne une autre perspective sur l'éperon. La promenade est facile et plate, et se prolonge selon l'envie le long de la rivière. Après de fortes pluies, certaines berges peuvent être inondées ou glissantes."
+      },
+      {
+        heading: "6. Les musées",
+        body: "La ville a un musée municipal, installé dans un ancien couvent, qui présente des collections d'archéologie, de beaux-arts et d'histoire naturelle. Les horaires et les conditions d'ouverture changent selon la saison, et sont à vérifier avant de se déplacer. Par temps de pluie, c'est une bonne manière de passer une demi-journée."
+      },
+      {
+        heading: "7. Alésia",
+        body: "Le site d'Alésia, où se serait joué le siège de 52 avant J.-C., est situé à Alise-Sainte-Reine, commune voisine accessible depuis Semur en une petite demi-heure de route. Il se traite comme une sortie de demi-journée, avec un parc archéologique et un musée dont les conditions de visite et les horaires sont à vérifier. Il faut savoir que la localisation du siège fait l'objet de débats d'historiens, et que le site bourguignon est celui qui est retenu dans la tradition."
+      },
+      {
+        heading: "8. L'abbaye de Fontenay",
+        body: "Cette abbaye cistercienne, inscrite à l'UNESCO, est à Marmagne, près de Montbard, et non à Semur : elle est accessible depuis la ville en voiture, en un peu moins d'une demi-heure. Elle se visite comme une sortie à part, d'une demi-journée. Les conditions de visite, les horaires et les tarifs changent selon la saison."
+      },
+      {
+        heading: "9. L'Auxois à vélo ou en voiture",
+        body: "L'Auxois est un pays de bocage et de collines douces, d'élevage, avec des villages, des châteaux et des églises. Le canal de Bourgogne passe non loin et sert de chemin de halage cyclable et pédestre. C'est le genre de pays où l'on découvre plus en avançant lentement qu'en suivant un itinéraire strict, et la voiture est le moyen le plus pratique."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Semur-en-Auxois n'a pas de gare desservie par les grandes lignes ; la voiture est le moyen le plus pratique, et les gares les plus proches se vérifient au moment de réserver. Une demi-journée suffit pour le pont, la collégiale et les remparts, une journée pour ajouter les musées et les bords de l'Armançon, deux pour combiner avec Alésia et Fontenay. De mai à octobre, avec un hiver frais et humide."
+      }
+    ],
+    relatedCities: ["semur-en-auxois", "montbard", "beaune", "dijon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-beaune-2026",
+      "10-choses-a-faire-a-dijon-2026",
+      "10-choses-a-faire-a-auxerre-2026",
+      "10-choses-a-faire-a-autun-2026"
+    ],
+    tags: ["10 choses à faire à Semur-en-Auxois", "activités Semur-en-Auxois 2026", "que faire en Côte-d'Or", "sorties Bourgogne cité médiévale", "remparts collégiale Armançon Alésia Fontenay"]
+  },
+  {
+    slug: "10-choses-a-faire-a-maubeuge-2026",
+    title: "10 choses à faire à Maubeuge",
+    metaTitle: "10 choses à faire à Maubeuge en 2026",
+    metaDesc:
+      "Les fortifications de Vauban, le siège de 1914, un zoo de renom régional et la Sambre : 10 activités à Maubeuge, dans la Sambre-Avesnois.",
+    category: "tourisme",
+    emoji: "🛡️",
+    readMinutes: 7,
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    intro:
+      "Maubeuge comptait 28 879 habitants au recensement de 2022, contre 29 679 en 2016 et 31 103 en 2011, un recul net. C'est une ville de la Sambre, à proximité de la frontière belge, et elle en garde la marque : place forte fortifiée par Vauban à partir de 1679, assiégée en 1914. Une précision utile : Maubeuge relève du réseau des fortifications de Vauban, mais elle n'est pas l'un des douze sites inscrits à l'UNESCO en 2008. Ce guide dit ce qui se voit, ce qui reste debout, et ce qu'on ne peut pas visiter librement.",
+    sections: [
+      {
+        heading: "1. Les fortifications de Vauban",
+        body: "Les travaux commencent en 1679 sur ordre de Louis XIV et se terminent en 1685. Vauban a fait démolir l'enceinte médiévale et bâti la sienne dans le même périmètre. Il subsiste des bastions, des courtines et des fossés, que l'on suit à pied sur des chemins aménagés. Maubeuge fait partie du réseau des places fortes de Vauban, mais n'est pas l'un des douze sites inscrits à l'UNESCO en 2008."
+      },
+      {
+        heading: "2. La porte de Mons",
+        body: "C'est le monument emblématique de la ville : la porte de Mons a conservé son dispositif défensif d'origine, avec son corps de garde installé dans la demi-lune. Elle abrite un petit musée consacré à l'histoire des fortifications et à l'histoire militaire de Maubeuge. Les horaires d'ouverture varient selon la saison et sont à vérifier avant de se déplacer."
+      },
+      {
+        heading: "3. Le siège de 1914",
+        body: "Du 27 août au 7 septembre 1914, la place est assiégée par l'armée allemande. Le gouverneur, le général Fournier, capitule le 7 septembre, et plus de 40 000 hommes de la garnison sont faits prisonniers. L'épisode est une défaite lourde, longtemps resté dans la mémoire locale. Les ouvrages de la ceinture fortifiée de l'époque sont dispersés autour de la ville, et leur accessibilité varie : certains sont ouverts, d'autres sont sur des terrains privés ou fermés."
+      },
+      {
+        heading: "4. Les forts de la ceinture",
+        body: "Autour de Maubeuge, des forts construits après 1870 complètent l'enceinte de Vauban. Ils sont dans des communes voisines, sont accessibles depuis la ville et sont de statuts variés : certains se visitent à des dates précises, d'autres sont des propriétés privées, d'autres encore sont des ruines à ne pas escalader. Se renseigner auprès de l'office de tourisme avant de partir est indispensable, un panneau d'interdiction se respecte."
+      },
+      {
+        heading: "5. Le zoo",
+        body: "Le zoo de Maubeuge, fondé en 1955, est l'une des attractions les plus fréquentées de la région. Il est implanté dans l'ancienne enceinte fortifiée, ce qui donne un décor assez singulier. C'est la sortie à faire avec des enfants, et les horaires, tarifs et conditions d'accès sont à vérifier auprès du parc."
+      },
+      {
+        heading: "6. La Sambre et ses bords",
+        body: "La Sambre traverse la ville et ses berges se prolongent par des chemins de halage et des itinéraires cyclables. C'est une promenade plate et facile, adaptée à une sortie en famille ou à vélo, qui permet de relier la ville aux communes voisines. La Sambre est aussi un axe fluvial, et le trafic de péniches est une réalité qui se voit sur certains tronçons."
+      },
+      {
+        heading: "7. Le centre-ville",
+        body: "Maubeuge a été très touchée par les deux guerres et le centre-ville est en grande partie reconstruit. Le plaisir de la promenade est donc ailleurs que dans l'architecture ancienne : ici, on regarde les fortifications plus que le centre. Les commerces, les marchés et les cafés sont ceux d'une ville moyenne du Nord."
+      },
+      {
+        heading: "8. La Sambre-Avesnois",
+        body: "Autour de Maubeuge, l'Avesnois est un pays de bocage, de forêts et de petites villes dans le sud du département du Nord. Le parc naturel régional de l'Avesnois est accessible depuis la ville et propose des itinéraires de randonnée et de cyclotourisme. Les distances en voiture se comptent en dizaines de minutes, et la voiture est le moyen le plus pratique."
+      },
+      {
+        heading: "9. La frontière belge",
+        body: "Maubeuge est à proximité immédiate de la Belgique, dont Mons est la ville la plus proche. La frontière est un passage intérieur à l'espace Schengen, sans contrôle systématique, mais une pièce d'identité reste obligatoire. Une excursion à Mons se fait en une petite demi-heure de route ou en train, liaisons à vérifier."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Maubeuge est desservie par le train, avec des liaisons vers Paris, Lille et la Belgique : les horaires et les correspondances se vérifient avant de réserver. Une demi-journée suffit pour les fortifications et la porte de Mons, une journée pour ajouter le zoo, deux pour l'Avesnois et la frontière. De mai à septembre pour le confort, avec un climat de plaine du Nord : frais, humide et variable."
+      }
+    ],
+    relatedCities: ["maubeuge", "valenciennes", "lille", "arras"],
+    relatedGuides: [
+      "10-choses-a-faire-a-valenciennes-2026",
+      "10-choses-a-faire-a-lille-2026",
+      "10-choses-a-faire-a-arras-2026",
+      "10-choses-a-faire-a-cambrai-2026"
+    ],
+    tags: ["10 choses à faire à Maubeuge", "activités Maubeuge 2026", "que faire dans le Nord", "sorties Hauts-de-France Vauban", "fortifications zoo Sambre Avesnois siège 1914"]
+  },
+  {
+    slug: "10-choses-a-faire-a-sartene-2026",
+    title: "10 choses à faire à Sartène",
+    metaTitle: "10 choses à faire à Sartène en 2026",
+    metaDesc:
+      "Une ville de granit, la procession du Catenacciu, le musée de préhistoire corse et les alignements de Cauria : 10 activités à Sartène.",
+    category: "tourisme",
+    emoji: "🗿",
+    readMinutes: 7,
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    intro:
+      "Sartène comptait 3 732 habitants au recensement de 2022, contre 3 252 en 2016 et 3 374 en 2011, une progression récente dans une Corse du Sud qui attire. La ville est célèbre pour sa vieille ville de granit, pour la procession du Vendredi saint et pour un territoire communal immense, qui court jusqu'à la mer et porte plusieurs sites préhistoriques majeurs. Ce guide distingue ce qui est dans Sartène, au sens du bourg, de ce qui relève de la commune étendue, et de ce qui est accessible depuis la ville sans y être.",
+    sections: [
+      {
+        heading: "1. La vieille ville",
+        body: "Le quartier de Santa Anna et les ruelles voisines forment un ensemble de maisons de granit, hautes et serrées, qui donnent à la ville sa réputation d'austérité. La place centrale est le cœur de la vie sociale, avec ses cafés, et c'est là qu'on observe le mieux la vie locale. Sartène est labellisée ville d'art et d'histoire, et l'on peut s'y promener sans programme."
+      },
+      {
+        heading: "2. La procession du Catenacciu",
+        body: "Chaque Vendredi saint, en soirée, la procession du Catenacciu traverse la vieille ville. Un pénitent anonyme, vêtu de rouge, marche pieds nus, enchaîné aux chevilles, portant une lourde croix. Il est suivi d'un pénitent blanc, de pénitents noirs et du clergé. C'est une cérémonie religieuse et non un spectacle : on la regarde en silence, on ne photographie pas avec flash, on se tient à l'écart du parcours si on y est invité. Les horaires exacts se vérifient auprès de la paroisse."
+      },
+      {
+        heading: "3. Le musée de préhistoire corse",
+        body: "Le musée de préhistoire et d'archéologie de la Corse, ouvert au printemps 2009, présente un panorama de l'archéologie insulaire, de la pointe de flèche aux statues-menhirs. C'est le bon préalable aux sites en plein air, qui prennent leur sens quand on sait ce qu'on cherche. Les conditions de visite et les horaires changent selon la saison."
+      },
+      {
+        heading: "4. Cauria et le dolmen de Fontanaccia",
+        body: "Le plateau de Cauria, sur la commune de Sartène, à quelques kilomètres de la mer, réunit des alignements mégalithiques et le dolmen de Fontanaccia, réputé le plus connu et le mieux conservé de Corse. Le site se visite à pied sur des chemins, et on y reste sur les passages prévus : les pierres sont fragiles et le terrain en pente peut être glissant."
+      },
+      {
+        heading: "5. Roccapina et le rocher du Lion",
+        body: "La baie de Roccapina et son rocher en forme de lion couché se trouvent sur le territoire de Sartène et sont accessibles depuis le bourg en voiture. La plage de sable est belle mais exposée, et la baignade y dépend des conditions de mer et de vent. Il n'y a pas de surveillance permanente garantie : se renseigner avant d'y aller, et respecter les consignes affichées sur place."
+      },
+      {
+        heading: "6. Filitosa",
+        body: "Le site de Filitosa, célèbre pour ses statues-menhirs, est à Sollacaro, dans le Taravo, et non à Sartène. Il est accessible depuis la ville en voiture, en comptant une petite heure de route, et se traite comme une sortie d'une demi-journée. Les conditions de visite et les horaires changent selon la saison et sont à vérifier."
+      },
+      {
+        heading: "7. Les vins du Sartenais",
+        body: "Le Sartenais est l'une des appellations viticoles de la Corse, sur des terrains granitiques. Plusieurs domaines accueillent les visiteurs, généralement sur réservation. La dégustation se prolonge facilement en repas, et il faut prévoir qui conduit, car les routes sont étroites et sinueuses."
+      },
+      {
+        heading: "8. Propriano et la côte",
+        body: "Propriano, commune distincte, est accessible depuis Sartène en une petite demi-heure de route. C'est le port et la station balnéaire du Valinco, avec des plages et des restaurants de bord de mer. Sartène est une ville de l'intérieur, à quelques kilomètres de la côte, et on peut loger dans l'une et visiter l'autre."
+      },
+      {
+        heading: "9. Bonifacio",
+        body: "Bonifacio est à une heure de route environ au sud, une commune à part entière et une journée séparée. Les falaises de calcaire, la citadelle et le port en font l'une des destinations les plus visitées de l'île. On la combine avec Sartène dans un même séjour mais pas dans la même journée, car la route est longue en été."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Sartène n'a pas de gare : la Corse du Sud est desservie par la route, et la voiture est indispensable pour rayonner. Les aéroports de Figari et d'Ajaccio sont les plus proches, avec des liaisons et des horaires à vérifier avant de réserver. Une journée suffit pour la ville et le musée, deux pour ajouter Cauria et Roccapina. L'été est chaud et très fréquenté, et le printemps et l'automne sont les saisons les plus agréables. Hors saison, certains établissements ferment."
+      }
+    ],
+    relatedCities: ["sartene", "ajaccio", "porto-vecchio", "bastia"],
+    relatedGuides: [
+      "10-choses-a-faire-a-ajaccio-2026",
+      "10-choses-a-faire-a-porto-vecchio-2026",
+      "10-choses-a-faire-a-bastia-2026",
+      "10-choses-a-faire-a-calvi-2026"
+    ],
+    tags: ["10 choses à faire à Sartène", "activités Sartène 2026", "que faire en Corse-du-Sud", "sorties Corse préhistoire", "Catenacciu Cauria Roccapina granit"]
+  },
+  {
+    slug: "10-choses-a-faire-a-sceaux-2026",
+    title: "10 choses à faire à Sceaux",
+    metaTitle: "10 choses à faire à Sceaux en 2026",
+    metaDesc:
+      "Le parc dessiné par Le Nôtre, le pavillon de l'Aurore de Le Brun, l'Orangerie et le Grand Canal : 10 activités à Sceaux, aux portes de Paris.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 7,
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    intro:
+      "Sceaux comptait 20 740 habitants au recensement de 2022, contre 19 479 en 2016 et 19 930 en 2011. C'est une commune résidentielle des Hauts-de-Seine, desservie par le RER B, et son principal attrait tient en un nom : le domaine de Sceaux, ancien domaine de Colbert, ministre de Louis XIV. Le parc dépasse 180 hectares et a été dessiné par André Le Nôtre. Il appartient au département des Hauts-de-Seine, et ce guide dit ce qui s'y trouve, ce qui relève des communes voisines, et ce qui se visite en pratique.",
+    sections: [
+      {
+        heading: "1. Le parc du domaine",
+        body: "Le domaine départemental de Sceaux s'étend sur plus de 180 hectares et reste l'un des grands parcs de la banlieue parisienne. Il est dessiné à la française, avec de grandes perspectives, des bassins, des allées et des bosquets. L'entrée est libre, et on s'y promène, on y court, on y pique-nique : c'est d'abord un parc de quartier avant d'être un monument, ce qui explique la fréquentation locale."
+      },
+      {
+        heading: "2. Le château et le musée de l'Île-de-France",
+        body: "Le château actuel a été bâti sous le Second Empire, et non au temps de Colbert : l'édifice d'origine a été détruit. Il abrite le musée départemental, consacré à l'histoire du domaine et de ses propriétaires, avec des collections d'estampes, de dessins et de photographies. Les expositions, horaires et conditions d'accès changent, et se vérifient avant de se déplacer."
+      },
+      {
+        heading: "3. Le pavillon de l'Aurore",
+        body: "Ce petit pavillon du parc est coiffé d'une coupole peinte par Charles Le Brun, ce qui en fait l'un des rares éléments de la décoration d'origine. Son accès est limité à des visites, qui se réservent ou se programment selon les périodes : il faut se renseigner auprès du domaine avant de venir pour lui."
+      },
+      {
+        heading: "4. L'Orangerie",
+        body: "L'Orangerie est l'œuvre de Jules Hardouin-Mansart. Elle sert aujourd'hui de lieu de concerts et de manifestations, notamment pour des festivals de musique. Sa programmation est annoncée par le département, et il vaut mieux consulter le calendrier avant de venir si l'on veut y entrer."
+      },
+      {
+        heading: "5. Le Grand Canal",
+        body: "Dessiné par Le Nôtre, c'est la pièce d'eau principale du parc, bordée d'allées plantées. La promenade en bordure est l'une des plus belles du domaine, et le matin ou en fin d'après-midi, la lumière y est la plus agréable. Les berges ne sont pas des zones de baignade, et la pêche et les jeux nautiques sont soumis à des règles affichées sur place."
+      },
+      {
+        heading: "6. Le centre de Sceaux",
+        body: "Autour de la rue Houdan et de la place du Général-de-Gaulle, le centre-ville est une zone piétonne, avec des commerces, des marchés et des cafés. Le marché a ses jours fixes, à vérifier auprès de la mairie."
+      },
+      {
+        heading: "7. Les petits parcs et la trame résidentielle",
+        body: "La commune est truffée de petits jardins publics et de squares, dans une trame de rues résidentielles bordées de maisons et de villas. Le plaisir de la promenade est celui d'une ville-jardin : on regarde les façades, les clôtures, les arbres. Il n'y a pas de programme, seulement une heure à perdre."
+      },
+      {
+        heading: "8. Les spectacles",
+        body: "Sceaux accueille une scène nationale, Les Gémeaux, qui programme théâtre, danse et musique. La saison s'étend généralement de l'automne au printemps, et les places se réservent à l'avance. C'est un bon complément à une journée dans le parc quand la météo se gâte."
+      },
+      {
+        heading: "9. La Vallée-aux-Loups",
+        body: "La maison de Chateaubriand est à Châtenay-Malabry, commune voisine, et non à Sceaux : elle est accessible depuis Sceaux à pied ou à vélo par les parcs, en une petite demi-heure environ. C'est une demeure que Chateaubriand a achetée en 1807, entourée d'un parc boisé. Les conditions de visite changent selon la saison, et sont à vérifier."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Sceaux est desservie par le RER B, et la gare de Bourg-la-Reine, commune voisine, est aussi à distance de marche : le trajet depuis le centre de Paris prend une demi-heure environ, et horaires et perturbations se vérifient avant de partir. Une demi-journée suffit pour le parc et le château, une journée pour ajouter le centre et la Vallée-aux-Loups. Le printemps et le début de l'automne sont les plus beaux moments, et le parc ferme à la nuit, selon des horaires qui varient avec les saisons."
+      }
+    ],
+    relatedCities: ["sceaux", "bourg-la-reine", "versailles", "paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-versailles-2026",
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-boulogne-billancourt-2026",
+      "10-choses-a-faire-a-issy-les-moulineaux-2026"
+    ],
+    tags: ["10 choses à faire à Sceaux", "activités Sceaux 2026", "que faire dans les Hauts-de-Seine", "sorties Île-de-France parc Le Nôtre", "domaine de Sceaux Colbert pavillon Aurore Orangerie"]
+  }
 ];
 
 // --- Build-time integrity check -------------------------------------------
