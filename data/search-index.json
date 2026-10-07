@@ -9060,6 +9060,56 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-beauvais-2026",
+      "title": "Parent solo à Beauvais en 2026 : un seuil de 2 650 € porté par le loyer et les transports, sur un revenu local à 19 520 €",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-cergy-2026",
+      "title": "Parent solo à Cergy en 2026 : +19,3 % d'habitants en onze ans, 12,8 % de seniors et une sécurité à 4,4/10",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-chalons-en-champagne-2026",
+      "title": "Parent solo à Châlons-en-Champagne en 2026 : un seuil à 2 200 € que le ménage médian franchit d'un euro",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-chartres-2026",
+      "title": "Parent solo à Chartres en 2026 : un seuil de 2 700 €, 233 € d'écart et une commune qui perd 3,3 % d'habitants",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-haguenau-2026",
+      "title": "Parent solo à Haguenau en 2026 : le profil le plus plat du palier, 346 € sous le seuil",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-libourne-2026",
+      "title": "Parent solo à Libourne en 2026 : un seuil de 2 900 €, 21 % de pauvreté et 640 € qui manquent au ménage médian",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-rambouillet-2026",
+      "title": "Parent solo à Rambouillet en 2026 : des axes forts partout sauf le coût de la vie, un seuil à 4 050 € et 27,6 % de seniors",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-germain-en-laye-2026",
+      "title": "Parent solo à Saint-Germain-en-Laye en 2026 : des écoles à 9/10, un coût de la vie à 2,2/10 et un seuil à 4 550 €",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-versailles-2026",
+      "title": "Parent solo à Versailles en 2026 : écoles 9,0/10, coût de la vie 2,4/10 et un seuil de 4 850 €",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-vincennes-2026",
+      "title": "Parent solo à Vincennes en 2026 : transports à 9/10, coût de la vie à 2,2/10 et seuil d'entrée à 5 150 €",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-pontoise-2026",
       "title": "10 choses à faire à Pontoise",
       "emoji": "🎨"
@@ -9497,6 +9547,11 @@
       "count": 13
     },
     {
+      "slug": "famille-monoparentale-ile-de-france",
+      "label": "famille monoparentale Île-de-France",
+      "count": 12
+    },
+    {
       "slug": "marseille",
       "label": "Marseille",
       "count": 12
@@ -9539,6 +9594,11 @@
     {
       "slug": "emploi",
       "label": "emploi",
+      "count": 10
+    },
+    {
+      "slug": "famille-monoparentale-hauts-de-france",
+      "label": "famille monoparentale Hauts-de-France",
       "count": 10
     },
     {
@@ -9622,8 +9682,13 @@
       "count": 9
     },
     {
-      "slug": "famille-monoparentale-hauts-de-france",
-      "label": "famille monoparentale Hauts-de-France",
+      "slug": "famille-monoparentale-grand-est",
+      "label": "famille monoparentale Grand Est",
+      "count": 9
+    },
+    {
+      "slug": "famille-monoparentale-nouvelle-aquitaine",
+      "label": "famille monoparentale Nouvelle-Aquitaine",
       "count": 9
     },
     {
@@ -9707,11 +9772,6 @@
       "count": 8
     },
     {
-      "slug": "famille-monoparentale-nouvelle-aquitaine",
-      "label": "famille monoparentale Nouvelle-Aquitaine",
-      "count": 8
-    },
-    {
       "slug": "le-mans",
       "label": "Le Mans",
       "count": 8
@@ -9784,16 +9844,6 @@
     {
       "slug": "dpe",
       "label": "DPE",
-      "count": 7
-    },
-    {
-      "slug": "famille-monoparentale-grand-est",
-      "label": "famille monoparentale Grand Est",
-      "count": 7
-    },
-    {
-      "slug": "famille-monoparentale-ile-de-france",
-      "label": "famille monoparentale Île-de-France",
       "count": 7
     },
     {
@@ -10094,6 +10144,11 @@
     {
       "slug": "espaces-verts",
       "label": "espaces verts",
+      "count": 4
+    },
+    {
+      "slug": "famille-monoparentale-centre-val-de-loire",
+      "label": "famille monoparentale Centre-Val de Loire",
       "count": 4
     },
     {
@@ -10407,11 +10462,6 @@
       "count": 3
     },
     {
-      "slug": "famille-monoparentale-centre-val-de-loire",
-      "label": "famille monoparentale Centre-Val de Loire",
-      "count": 3
-    },
-    {
       "slug": "famille-monoparentale-normandie",
       "label": "famille monoparentale Normandie",
       "count": 3
@@ -10522,6 +10572,11 @@
       "count": 3
     },
     {
+      "slug": "monoparental-gironde",
+      "label": "monoparental Gironde",
+      "count": 3
+    },
+    {
       "slug": "monoparental-la-reunion",
       "label": "monoparental La Réunion",
       "count": 3
@@ -10529,6 +10584,11 @@
     {
       "slug": "monoparental-vendee",
       "label": "monoparental Vendée",
+      "count": 3
+    },
+    {
+      "slug": "monoparental-yvelines",
+      "label": "monoparental Yvelines",
       "count": 3
     },
     {
