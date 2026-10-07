@@ -1178,6 +1178,10 @@ mémoire), là où le premier lot en couvrait deux. Pour le batch FR **suivant**
 noter que ce palier fait entrer des villes à sécurité basse (Lille 3,9) qu'il faudra traiter comme
 Grenoble l'est ici : le chiffre dit, sans verdict sur les habitants.
 
+### F61 — série célibataire, passe de fraîcheur (2026-10-07)
+
+Aucun item neuf à livrer : les 5 items du plan agent sont livrés, la série FR est à 56/56 avec ses 56 jumelles EN, et la règle du batch 8 (six villes sans guide) est épuisée. Le run a donc audité les **dates 2026 citées dans les 56 guides FR et le pilier** au 07/10. Quatre événements passés étaient écrits au présent (« se tient ») : Main Square (Arras), Pause Guitare (Albi), Festival interceltique (Lorient), Feria de Pentecôte (Nîmes). Passés au passé composé ; aucune date de 2027 inventée. Les autres événements datés (Le Mans, Avignon, Bourges, Quimper, Nice, Annecy, Colmar, Angoulême, Marseille, Amiens) étaient déjà au passé ou à venir correctement. `tsc` et `integrity` verts. **À faire au prochain run** : même relecture côté `solo-travel-in-*` (EN) ; sinon la verticale est saturée, ne pas fabriquer de batch 9.
+
 ### F61 — série célibataire, batch 8 : `vacances-celibataire-[ville]-2026` (2026-09-26)
 
 Item 2 du plan agent « vacances célibataire ». La série comptait 50 guides FR et 50 jumelles EN
