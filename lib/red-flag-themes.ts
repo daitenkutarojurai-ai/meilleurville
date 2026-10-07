@@ -2410,6 +2410,50 @@ function rankVillesSansEnfants(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity);
 }
 
+// « Villes où l'on arrive jeune et où le studio est déjà cher ».
+//
+// Deux mesures publiées, aucun score : la part des 15-29 ans dans la population
+// (Insee, recensement 2022, `lib/city-population.ts`) et le loyer de référence
+// d'un T1 de `data/housing.ts`, rapporté à la médiane des villes comparées.
+// Villes comparées : population Insee 2022 ≥ 20 000 habitants et loyer connu.
+// Seuils d'entrée : 24 % de 15-29 ans (médiane des villes comparées ≈ 19,5 %)
+// et un T1 au moins 10 % au-dessus de la médiane.
+// ⚠️ La part des 15-29 ans mesure des **résidents** : elle compte étudiants et
+// jeunes actifs sans les distinguer, et ne dit rien de leur revenu. Le thème ne
+// prétend donc pas que ces jeunes paient ce loyer eux-mêmes.
+const MIN_YOUNG_SHARE = 24;
+const MIN_T1_RATIO = 1.1;
+
+function rankJeunesStudioCher(): RedFlagRow[] {
+  const eligible: { city: SeedCity; share: number; young: number; pop: number; t1: number }[] = [];
+  for (const city of CITIES_SEED) {
+    const p = cityPopulation(city.slug);
+    const t1 = HOUSING[city.slug]?.avgRentT1;
+    if (!p?.ages || t1 == null || p.pop2022 < 20_000) continue;
+    const a = p.ages;
+    const total = a.a0014 + a.a1529 + a.a3044 + a.a4559 + a.a6074 + a.a7589 + a.a90p;
+    if (total <= 0) continue;
+    eligible.push({ city, share: (a.a1529 / total) * 100, young: a.a1529, pop: p.pop2022, t1 });
+  }
+  const sorted = eligible.map((e) => e.t1).sort((a, b) => a - b);
+  const medianT1 = sorted[Math.floor(sorted.length / 2)];
+
+  const rows: RedFlagRow[] = [];
+  for (const { city, share, young, pop, t1 } of eligible) {
+    if (share < MIN_YOUNG_SHARE) continue;
+    const ratio = t1 / medianT1;
+    if (ratio < MIN_T1_RATIO) continue;
+    // Le seuil d'entrée EST le plancher de gravité (6) ; la pente porte ensuite
+    // jusqu'à 10/10. Tri sur la valeur non arrondie.
+    const severity = Math.min(10, 6 + 0.3 * (share - MIN_YOUNG_SHARE) + 3 * (ratio - MIN_T1_RATIO));
+    const n = (v: number) => Math.round(v).toLocaleString("fr-FR");
+    const one = (v: number) => v.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const reason = `${one(share)} % de 15-29 ans (${n(young)} sur ${n(pop)} habitants) · T1 de référence à ${n(t1)} €/mois, soit ${ratio.toLocaleString("fr-FR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}× la médiane des villes comparées (${n(medianT1)} €)`;
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -3010,6 +3054,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Indicateur : variation de la population municipale 2011 → 2022 (≥ 10 %), prolongée sur 2016 → 2022 (≥ 4 %), croisée avec le rapport entre le loyer T3 de référence et la médiane des villes comparées (≥ 1,15). Severity = 6 + 0,12 × (croissance 2011-2022 en % − 10) + 2 × (rapport − 1,15), plafonnée à 10/10 : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, loyer connu, soit 361 villes. Source : Insee, recensement de la population, base « Évolution et structure de la population en 2022 », via `lib/city-population.ts` ; loyers : `data/housing.ts`, un repère éditorial et non une moyenne d'annonces. Quatre limites à connaître. Nous n'avons ni le parc de logements ni la construction neuve : le classement ne dit pas que la ville manque de logements, il dit que deux faits se cumulent, et aucune causalité n'est tirée. Le recensement compte des résidents, et une part de la croissance vient de la livraison de programmes neufs, ce qui est précisément ce qui peut détendre un marché dans les années suivantes. Le loyer de référence est celui d'un T3 et ne décrit ni le parc social ni les logements déjà occupés dont le bail est ancien. Enfin les millésimes de loyer sont plus récents que le dernier recensement (2022), donc le rapprochement est un état, pas une trajectoire. Pour la structure par âge et le détail démographique d'une ville, voir sa page démographie ; pour le loyer rapporté au revenu local, voir le palmarès d'octobre.",
     rank: rankArriveesLoyersHauts,
+  },
+  {
+    slug: "villes-jeunes-studio-cher",
+    title: "Villes où l'on arrive jeune et où le studio est déjà cher",
+    metaTitle: "Villes jeunes, studios chers — classement 2026",
+    metaDescription:
+      "Classement 2026 des villes où les 15-29 ans pèsent au moins 24 % des habitants (Insee 2022) et où le T1 dépasse de 10 % la médiane : Talence, Paris, Toulouse.",
+    emoji: "🎓",
+    intro:
+      "La brochure parle d'une ville « jeune », « étudiante », « qui bouge » : des terrasses pleines, des amphis, des vélos devant la gare. C'est exact, et c'est précisément ce qui se paie au moment de chercher un premier logement. Une ville jeune est une ville où beaucoup de gens de vingt ans cherchent la même chose que vous la même semaine de septembre. Cela ne la rend pas mauvaise, loin de là : beaucoup de villes très jeunes de notre corpus restent bon marché. Mais l'étiquette « ville jeune » ne dit rien du loyer d'un studio, et c'est cette confusion que ce classement sépare.",
+    reality:
+      "Ce classement ne repose sur aucun score : il confronte deux mesures publiées. La première est la part des 15-29 ans dans la population municipale, lue dans les tranches d'âge du recensement Insee 2022. La seconde est le loyer de référence d'un T1 de `data/housing.ts`, rapporté à la médiane des 361 villes comparées (population mesurée de 20 000 habitants et plus, loyer connu) : 540 € par mois. La part médiane des 15-29 ans y est de 19,5 %. Cinquante villes atteignent 24 % et plus, et 145 ont un T1 au moins 10 % au-dessus de la médiane ; seules 15 cumulent les deux. Les 35 autres villes très jeunes restent sous le seuil de cherté : Lille, Nancy, Poitiers, Rennes, Rouen, Caen, Grenoble ou Dijon sont dans ce cas, avec un T1 entre 480 et 590 €. Le T1 médian des 50 villes jeunes est de 510 €, sous celui du corpus : la jeunesse d'une ville n'est donc pas, en soi, un facteur de cherté. Talence ouvre le classement avec 36,5 % de 15-29 ans et un T1 à 620 €, devant Paris (24,3 % et 1 200 €, soit 2,2 fois la médiane), Toulouse, Montpellier, Lyon et Bordeaux. On trouve ensuite des communes de banlieue universitaire, Palaiseau, Cachan, Le Kremlin-Bicêtre, Ivry-sur-Seine, Champs-sur-Marne, où le T1 est plus cher que la médiane de 26 à 44 %. Deux réserves de lecture. Le recensement compte des résidents : la tranche 15-29 ans réunit étudiants et jeunes actifs, sans dire qui paie le loyer ni avec quel revenu. Et le loyer de `data/housing.ts` est un repère éditorial par ville, pas un loyer moyen constaté : il situe, il ne chiffre pas votre budget.",
+    methodology:
+      "Indicateur : part des 15-29 ans (tranche Insee 15-29 ans ÷ somme des sept tranches d'âge, commune par commune) ≥ 24 %, croisée avec le rapport entre le loyer T1 de référence et la médiane des villes comparées ≥ 1,10. Severity = 6 + 0,3 × (part en points au-dessus de 24) + 3 × (rapport − 1,10), plafonnée à 10/10 : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, loyer connu, soit 361 villes. Sources : Insee, recensement de la population, base « Évolution et structure de la population en 2022 », exploitée via `lib/city-population.ts` (538 des 540 villes ; manquent Mamoudzou et Pierrefitte-sur-Seine) ; `data/housing.ts` pour le loyer T1, un repère éditorial. Aucune causalité n'est affirmée entre la part de jeunes et le niveau du loyer, et aucune donnée de stock de logements n'est mobilisée. Distinct de `villes-logement-introuvable` (score de tension locative) et de `villes-fuite-jeunes-actifs` (score de départ des jeunes actifs) : ici deux mesures publiées, sans score.",
+    rank: rankJeunesStudioCher,
   },
 ];
 
