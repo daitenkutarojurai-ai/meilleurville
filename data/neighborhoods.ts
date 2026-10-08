@@ -15419,6 +15419,71 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Quartier né dans les années 1920 du lotissement de terrains boisés au sud de la commune, desservi par la gare RER B du Vert-Galant." },
     ],
   },
+  {
+    citySlug: "gagny",
+    neighborhoods: [
+      { slug: "centre", name: "Centre", type: "centre-ville",
+        scores: { global: 5.6, safety: 4.8, transport: 7, nature: 5.6, cost: 6.2, nightlife: 5.2 },
+        avgRentT2: 900, tags: ["hôtel de ville","gare de Gagny (RER E)"],
+        summary: "Cœur administratif et commerçant de la commune, autour de la gare RER E de Gagny." },
+      { slug: "le-chenay", name: "Le Chénay", type: "pavillonnaire",
+        scores: { global: 5.6, safety: 4.8, transport: 7, nature: 5.6, cost: 6.2, nightlife: 5.2 },
+        avgRentT2: 900, tags: ["gare du Chénay-Gagny (RER E)"],
+        summary: "Quartier résidentiel du sud-est de la commune, desservi par la gare RER E du Chénay-Gagny, qui porte son nom." },
+    ],
+  },
+  {
+    citySlug: "clichy-sous-bois",
+    neighborhoods: [
+      { slug: "centre", name: "Centre", type: "centre-ville",
+        scores: { global: 5.3, safety: 4.1, transport: 7, nature: 5.2, cost: 6.8, nightlife: 4.9 },
+        avgRentT2: 810, tags: ["hôtel de ville","tramway T4"],
+        summary: "Secteur de la mairie, desservi par le tramway T4 (station Clichy-sous-Bois – Mairie)." },
+      { slug: "bas-clichy", name: "Bas-Clichy", type: "populaire",
+        scores: { global: 5.3, safety: 4.1, transport: 7, nature: 5.2, cost: 6.8, nightlife: 4.9 },
+        avgRentT2: 810, tags: ["ORCOD-IN","Chêne Pointu"],
+        summary: "Quartier des grandes copropriétés du Chêne Pointu et de l'Étoile du Chêne Pointu, objet depuis 2015 de la première opération de requalification des copropriétés dégradées d'intérêt national (ORCOD-IN), pilotée par l'EPFIF." },
+    ],
+  },
+  {
+    citySlug: "romainville",
+    neighborhoods: [
+      { slug: "centre", name: "Centre", type: "centre-ville",
+        scores: { global: 5.6, safety: 4.9, transport: 7.3, nature: 5.2, cost: 6.3, nightlife: 5.3 },
+        avgRentT2: 910, tags: ["hôtel de ville","métro 11"],
+        summary: "Centre de la commune, desservi depuis 2024 par le prolongement de la ligne 11 du métro." },
+      { slug: "carnot", name: "Carnot", type: "résidentiel",
+        scores: { global: 5.6, safety: 4.9, transport: 7.3, nature: 5.2, cost: 6.3, nightlife: 5.3 },
+        avgRentT2: 910, tags: ["station Romainville-Carnot (métro 11)"],
+        summary: "Quartier du nord de la commune, autour de la place Carnot réaménagée et de la station de métro Romainville-Carnot." },
+    ],
+  },
+  {
+    citySlug: "villemomble",
+    neighborhoods: [
+      { slug: "centre", name: "Centre", type: "centre-ville",
+        scores: { global: 5.9, safety: 5.3, transport: 7.3, nature: 5.7, cost: 5.8, nightlife: 5.5 },
+        avgRentT2: 980, tags: ["hôtel de ville","gare Le Raincy-Villemomble-Montfermeil (RER E)"],
+        summary: "Centre de la commune, proche de la gare RER E Le Raincy-Villemomble-Montfermeil, partagée avec Le Raincy." },
+      { slug: "plateau-d-avron", name: "Plateau d'Avron", type: "pavillonnaire",
+        scores: { global: 5.9, safety: 5.3, transport: 7.3, nature: 5.7, cost: 5.8, nightlife: 5.5 },
+        avgRentT2: 980, tags: ["plateau d'Avron"],
+        summary: "Versant villemomblois du plateau d'Avron, que la commune partage avec Rosny-sous-Bois et Neuilly-Plaisance ; le parc des Coteaux d'Avron, sur Neuilly-Plaisance, est accessible depuis le quartier." },
+    ],
+  },
+  {
+    citySlug: "ris-orangis",
+    neighborhoods: [
+      { slug: "centre", name: "Centre", type: "centre-ville",
+        scores: { global: 6.1, safety: 5.9, transport: 6.8, nature: 6.5, cost: 5.5, nightlife: 5.7 },
+        avgRentT2: 960, tags: ["hôtel de ville","gare de Ris-Orangis (RER D)"],
+        summary: "Centre de la commune, autour de la gare RER D de Ris-Orangis." },
+      { slug: "plateau", name: "Plateau", type: "populaire",
+        scores: { global: 6.1, safety: 5.9, transport: 6.8, nature: 6.5, cost: 5.5, nightlife: 5.7 },
+        avgRentT2: 960, tags: ["quartier politique de la ville"],
+        summary: "Grand ensemble d'après-guerre de la commune, classé autrefois en zone urbaine sensible sous le nom de Grand Ensemble du Plateau." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

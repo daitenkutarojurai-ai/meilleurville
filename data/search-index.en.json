@@ -3306,6 +3306,36 @@
       "name": "Villepinte",
       "region": "Île-de-France",
       "score": 2.8
+    },
+    {
+      "slug": "gagny",
+      "name": "Gagny",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "clichy-sous-bois",
+      "name": "Clichy-sous-Bois",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "romainville",
+      "name": "Romainville",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "villemomble",
+      "name": "Villemomble",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "ris-orangis",
+      "name": "Ris-Orangis",
+      "region": "Île-de-France",
+      "score": 4.6
     }
   ],
   "guides": [

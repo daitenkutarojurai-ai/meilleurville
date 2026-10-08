@@ -211,9 +211,11 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 
 ~~Montrouge, Meudon, Vanves, L'Haÿ-les-Roses, Thiais, Livry-Gargan, Villepinte~~ (**lot 2**),
 Villeneuve-Saint-Georges (94078, **attend un override** : ses voisines 94 du seed sont à 4,7-8 km
-et ne lui ressemblent pas, ses vraies voisines sont en Essonne), Gagny,
-Clichy-sous-Bois, Romainville, Villemomble, Grigny, Ris-Orangis, Les Mureaux, Chatou ;
-Saint-Laurent-du-Var, Vallauris, La Valette-du-Var, Gardanne, Miramas, Lunel ; Lormont ;
+et ne lui ressemblent pas, ses vraies voisines sont en Essonne), ~~Gagny,
+Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; **règle de voisinage non
+valable, mesurée le 2026-10-08** (cf. journal) : Grigny, Les Mureaux, Chatou, Lormont,
+Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Lunel, Saint-Étienne-du-Rouvray, Lambersart,
+Marcq-en-Barœul — toutes attendent un override documenté ; non mesurées : Vallauris, Miramas ;
 Villefontaine (Oullins est déjà au seed, fusionnée : `oullins-pierre-benite`) ; Marcq-en-Barœul, Lambersart ; Saint-Étienne-du-Rouvray ; DROM : Le Port,
 Sainte-Marie, Saint-Leu (974), Le Gosier (971), Matoury (973), Koungou (976) — homonymes
 métropolitains possibles, **vérifier par code Insee**. Liste non exhaustive : la liste complète par
@@ -370,3 +372,100 @@ sous-chaînes lues par les prédicats (« centre commercial » contient « mer �
 **Prochain lot** : Gagny, Clichy-sous-Bois, Romainville, Villemomble (93, seed dense) ; Les Mureaux,
 Chatou (78) ; Ris-Orangis, Grigny (91) — vérifier la densité de voisines de chacune avec le script,
 et d'abord `seed-coverage` pour constater l'arrivée des lots 1 et 2 via le runner local.
+
+### 2026-10-08 — lot 3 (+5) : Gagny, Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis
+
+551 → **556** villes, toutes en Île-de-France (aucune région, aucun département nouveau). Absence
+vérifiée par code Insee avant ajout.
+
+⚠️ **Runner local toujours arrêté** : aucun commit `[local-runner]` depuis le **2026-09-25** ;
+`seed-coverage` montre les 11 villes des lots 1-2 absentes des 11 jeux (population, revenus, DVF,
+littoral, parcs, photos, biodiversité, actualité, zones protégées, orientation politique, codes
+postaux). Après ce lot : **16 villes en attente**, sous le seuil de 30 fixé par la routine. Les pages
+dégradent proprement (§ 1), mais **au-delà de 30 la routine cesse d'ajouter des villes** : si la
+machine du propriétaire ne repart pas, il reste environ deux lots.
+
+*Mesure de densité avant choix* (script de scratch, § 3.2, qui imprime pour chaque candidate ses 4
+voisines admissibles et les plus proches écartées) — **11 candidates du backlog refusées** parce que
+leurs voisines du même département sont lointaines ou ne leur ressemblent pas :
+
+| Candidate | Pourquoi la règle ne tient pas |
+|---|---|
+| Grigny (91) | voisines Viry, Draveil, Savigny, Sainte-Geneviève (2,3-4,4 km) : communes pavillonnaires, Grigny est la commune des grands ensembles de la Grande Borne et de Grigny 2 |
+| Les Mureaux (78) | voisines à 11-19 km (Poissy, Conflans, Sartrouville, Plaisir) |
+| Chatou (78) | voisines à 4,4-9,6 km, Rueil (2,7 km) écartée car 92 ; commune aisée, médiane tirée par Houilles/Sartrouville |
+| Lormont (33) | Bordeaux override ; voisines Le Bouscat, Bègles, Talence, Villenave, rive gauche |
+| Saint-Laurent-du-Var (06) | Nice override ; 3 des 4 voisines à 17-25 km |
+| La Valette-du-Var (83) | Toulon override ; 3 voisines seulement, dont Saint-Raphaël à 71 km |
+| Gardanne (13) | Aix override ; voisines à 13-21 km |
+| Lunel (34) | Montpellier, Nîmes, Sète overrides ; seule voisine admissible Agde à 67 km |
+| Saint-Étienne-du-Rouvray (76) | 3 voisines, dont Dieppe à 61 km |
+| Lambersart, Marcq-en-Barœul (59) | Lille override ; médiane = Roubaix/Tourcoing/Wattrelos/Armentières, communes plus modestes |
+
+*Identité* (recherche web ; `WebFetch` bloqué ; deux résultats concordants par population, millésime
+2023 = population municipale en vigueur) :
+
+| Ville | Insee | Pop. seed | Source pop. | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Gagny | 93032 | 42 300 | 42 313 (Banatic ; notre-planete.info) | 48,8833 N 2,5333 E (Wikipédia) | 37-120 → 79 m |
+| Clichy-sous-Bois | 93014 | 29 400 | 29 354 (Banatic ; 2ᵉ profil) | 48,9058 N 2,5422 E (latitude.to) | 66-121 → 94 m |
+| Romainville | 93063 | 37 200 | 37 152 (Banatic ; Wikipédia EN) | 48,884 N 2,435 E (Wikipédia ; distanceenvoiture 48,8861 / 2,4350) | 54-123 → 89 m |
+| Villemomble | 93077 | 29 800 | 29 795 (Banatic ; Wikipédia EN) | 48,8833 N 2,5 E (Wikipédia ; GeoNames) | 54-107 → 81 m |
+| Ris-Orangis | 91521 | 31 200 | 31 189 (Banatic ; villesavivre) | 48,6537 N 2,4161 E (Wikipédia ; GeoNames 48,6511 / 2,4141) | 32-82 → 57 m |
+
+*Notes brutes* (§ 3.2 ; ordre life, transport, nature, cost, safety, culture, remoteWork, schools ;
+global = `recomputeGlobal`) :
+
+| Ville | Voisines (distance) | Notes brutes | global |
+|---|---|---|---|
+| Gagny | Neuilly-sur-Marne 3,5 · Rosny 3,6 · Livry-Gargan* 4,0 · Bondy 4,3 km | 5.1 · 7 · 5.6 · 6.2 · 4.8 · 5.2 · 6.3 · 5.3 | 5.6 |
+| Clichy-sous-Bois | Livry-Gargan* 1,3 · Sevran 3,1 · Aulnay 4,7 · Bondy 5,0 km | 4.4 · 7 · 5.2 · 6.8 · 4.1 · 4.9 · 5.7 · 4.8 | 5.3 |
+| Romainville | Noisy-le-Sec 1,3 · Bagnolet 2,1 · Bobigny* 3,0 · Bondy 3,8 km (Montreuil, Pantin écartées : override) | 5.2 · 7.3 · 5.2 · 6.3 · 4.9 · 5.3 · 6.3 · 5.3 | 5.6 |
+| Villemomble | Rosny 1,9 · Bondy 2,8 · Neuilly-sur-Marne 4,0 · Noisy-le-Sec 4,3 km | 5.7 · 7.3 · 5.7 · 5.8 · 5.3 · 5.5 · 6.7 · 5.7 | 5.9 |
+| Ris-Orangis | Draveil 3,6 · Viry-Châtillon 3,6 · Savigny 5,7 · Sainte-Geneviève 5,9 km (Évry-Courcouronnes écartée : override) | 6.3 · 6.8 · 6.5 · 5.5 · 5.9 · 5.7 · 6.6 · 6.3 | 6.1 |
+
+\* ville d'extension. Une seule par ville au plus, conformément à la vigilance du lot 2. Clichy a les
+mêmes 4 voisines que Livry-Gargan à une près, d'où des notes brutes identiques ; sa note rendue
+diffère par l'ajustement de taille (< 30 000 hab.). Notes **rendues** (`CITIES_SEED`, reprises dans
+`seoDescriptionEn`) : Gagny 2,8 · Clichy-sous-Bois 2,8 · Romainville 2,8 · Villemomble 2,8 ·
+Ris-Orangis 4,6 — comme leurs voisines rendues (Bondy, Rosny, Noisy-le-Sec, Livry 2,8 ; Viry 3,9,
+Draveil 5,0).
+
+*Climat* : ville du seed la plus proche — Neuilly-sur-Marne (Gagny), Livry-Gargan (Clichy),
+Noisy-le-Sec (Romainville), Rosny-sous-Bois (Villemomble), Draveil (Ris-Orangis) ; toutes 1 700 h /
+20,5 °C / 4 °C.
+
+*Logement* (médiane des 4 mêmes voisines, T1/T2/T3/m²) : Gagny 660/900/1 220/3 600 ; Clichy
+590/810/1 090/2 900 ; Romainville 660/910/1 230/3 600 ; Villemomble 710/980/1 330/4 200 ; Ris-Orangis
+690/960/1 290/4 000. Pas de recoupement de marché ce run.
+
+*Quartiers* (2 par ville, réels, notes = ville, types pris dans l'union existante) : Gagny centre +
+Le Chénay (gare RER E éponyme) ; Clichy centre + Bas-Clichy (copropriétés du Chêne Pointu, ORCOD-IN
+de 2015, EPFIF) ; Romainville centre + Carnot (station Romainville-Carnot) ; Villemomble centre +
+plateau d'Avron (versant villemomblois — le parc des Coteaux d'Avron est sur Neuilly-Plaisance,
+écrit « accessible depuis ») ; Ris-Orangis centre + Plateau (ancien « Grand Ensemble du Plateau » en
+ZUS).
+
+*Faits retirés au premier jet faute de source* : relief de Gagny « entre vallée de la Marne et
+plateau d'Avron », mairie de Villemomble « dans le parc du château », « vieux village de Ris au bord
+de l'eau », trois gares RER D à Ris (Grand-Bourg et Orangis-Bois de l'Épine non attribuées avec
+certitude à la commune — seule la gare de Ris-Orangis est citée). **Le fort de Romainville est sur
+Les Lilas** : il n'est cité nulle part.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation candidate**. Table des couleurs de
+`CLAUDE.md` recomptée sur `CITIES_SEED` : 19 / 50 / 151 / 142 / **107** / **87**, moyenne 5,40.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (556 villes) + `:check`,
+`sitemap:check` (FR 30 035 URL, EN 29 617), `hreflang:check`. `npm run build` non lancé.
+
+*Reportées* : les 11 candidates du tableau ci-dessus (overrides à écrire), Villeneuve-Saint-Georges,
+Villeneuve-d'Ascq.
+
+**Prochain lot** : le backlog « dense » (petite couronne où la règle tient) est presque épuisé.
+Pistes **absentes du seed par code Insee (vérifié ce run)**, à mesurer avec le même script :
+Neuilly-Plaisance (93049), Montfermeil (93047), Le Raincy (93062), Les Pavillons-sous-Bois
+(93057) — populations à mesurer. Déjà au seed (inutile de les chercher) : Neuilly-sur-Marne, Bagnolet,
+Fontenay-sous-Bois, Nogent-sur-Marne, Bourg-la-Reine, Sceaux, Châtenay-Malabry. À défaut de candidates denses, le run suivant doit écrire des **overrides documentés**
+(Villeneuve-d'Ascq, Grigny, Chatou) plutôt qu'appliquer la médiane là où elle ment. Et d'abord
+`seed-coverage` : si le runner local n'a toujours rien servi et que l'attente dépasse 30 villes, pas
+de lot.
