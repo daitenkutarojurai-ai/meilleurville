@@ -30890,47 +30890,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Concarneau est une ville du Finistère sud, 19 000 habitants — 3e port de pêche français (après Boulogne et Lorient). La ville est célèbre pour sa Ville Close (cité fortifiée Vauban du XIVe-XVIIe siècles sur une île reliée au continent par un pont — l'une des cités fortifiées les plus pittoresques de Bretagne). Capitale française du thon (auctions au port chaque matin). Porte d'entrée de l'archipel des Glénan (à 20 km au large — paradis turquoise).",
+    intro: "Concarneau, dans le Finistère sud, compte 19 000 habitants et se classe 3e port de pêche français, derrière Boulogne et Lorient. Sa Ville Close, cité fortifiée Vauban du XIVe-XVIIe siècles sur une île reliée au continent par un pont, passe pour l'une des plus pittoresques de Bretagne. Capitale française du thon, avec ses ventes à la criée chaque matin au port, la ville ouvre aussi sur l'archipel des Glénan, à 20 km au large : un paradis turquoise.",
     sections: [
       {
         heading: "1. La Ville Close — la cité fortifiée Vauban",
-        body: "La Ville Close de Concarneau (XIVe-XVIIe siècles, fortifiée par Vauban en 1689 — l'une des cités fortifiées les plus pittoresques de Bretagne) est construite sur une île de 350 m de long, reliée au continent par un pont. 2 km de remparts intacts, ruelles pavées (rue Vauban, rue Bélafé), maisons à toits d'ardoise. Tour du Beffroi (XIVe siècle, l'une des plus anciennes encore en service en France). 3 musées : Musée de la Pêche, Musée du Tabac, Maison du Patrimoine.",
+        body: "La Ville Close de Concarneau (XIVe-XVIIe siècles, fortifiée par Vauban en 1689) occupe une île de 350 m de long, reliée au continent par un pont. Les 2 km de remparts sont intacts, et les ruelles pavées (rue Vauban, rue Bélafé) bordent des maisons à toits d'ardoise. On y trouve la tour du Beffroi (XIVe siècle), l'une des plus anciennes encore en service en France, et 3 musées : Musée de la Pêche, Musée du Tabac, Maison du Patrimoine.",
       },
       {
         heading: "2. Le musée de la Pêche — le tabac et la sardine",
-        body: "Le Musée de la Pêche de Concarneau (à l'intérieur de la Ville Close, dans les anciens magasins à voiles XVIIe siècle) est l'un des plus complets musées de France sur la pêche maritime — métiers anciens, ateliers de pêche (filets, chalut), reconstitution d'un chalutier des années 1950. Section sardinerie (Concarneau a été l'un des principaux centres français de la conserve à la sardine au XIXe siècle — 30 conserveries en 1900). Section tabac.",
+        body: "Installé dans la Ville Close, au cœur d'anciens magasins à voiles du XVIIe siècle, le Musée de la Pêche de Concarneau est l'un des plus complets de France sur la pêche maritime. Il montre les métiers anciens, les ateliers de pêche (filets, chalut) et la reconstitution d'un chalutier des années 1950. Une section revient sur la sardinerie : Concarneau fut l'un des principaux centres français de la conserve à la sardine au XIXe siècle, avec 30 conserveries en 1900. Une autre est consacrée au tabac.",
       },
       {
         heading: "3. Le port de pêche — la criée au thon",
-        body: "Le port de pêche de Concarneau (3e port français — 100 tonnes de poisson débarquées chaque jour, 20 000 tonnes par an) est l'un des plus actifs de France. Pour info, le port est spécialisé dans le thon (Concarneau est le premier port français pour le thon — listao, albacore, germon). Criée matinale (vente aux mareyeurs à 6h, accessible sur réservation à l'office de tourisme). Quai du Moros pour voir les chalutiers à thon (12-30 m de long).",
+        body: "Le port de pêche de Concarneau, 3e port français, voit débarquer 100 tonnes de poisson chaque jour, soit 20 000 tonnes par an : c'est l'un des plus actifs de France. Il s'est spécialisé dans le thon (premier port français pour cette pêche : listao, albacore, germon). La criée du matin vend aux mareyeurs à 6h et se visite sur réservation à l'office de tourisme. Le quai du Moros permet ensuite de voir les chalutiers à thon, de 12 à 30 m de long.",
       },
       {
         heading: "4. L'archipel des Glénan — les Maldives bretonnes",
-        body: "L'archipel des Glénan (à 20 km au large de Concarneau, 9 îles principales) est l'un des plus beaux archipels de France — sable blanc fin, eau turquoise translucide. Surnommé « les Maldives bretonnes ». Accessible en 1h de bateau au départ de Concarneau (vedettes Penn ar Bed, 30€ AR). Île Saint-Nicolas (la plus visitée, plage paradisiaque). École de voile mythique des Glénan (CN Glénan, formée d'élite des skippers français). Pas de voitures, pas d'hôtels.",
+        body: "L'archipel des Glénan, à 20 km au large de Concarneau, compte 9 îles principales. Sable blanc fin, eau turquoise translucide : on l'a surnommé « les Maldives bretonnes », et c'est l'un des plus beaux archipels de France. Il s'atteint en 1h de bateau depuis Concarneau (vedettes Penn ar Bed, 30€ AR). L'île Saint-Nicolas, la plus visitée, abrite une plage paradisiaque. C'est aussi le siège de la mythique école de voile des Glénan (CN Glénan), qui forme l'élite des skippers français. Pas de voitures, pas d'hôtels.",
       },
       {
         heading: "5. Pont-Aven — l'école de peinture",
-        body: "Pont-Aven (à 15 km à l'est de Concarneau, 2 800 habitants) est mondialement connue pour l'École de Pont-Aven (1888-1894, autour de Paul Gauguin — peintres synthétistes et symbolistes : Émile Bernard, Paul Sérusier, Maxime Maufra, Charles Filiger). Musée de Pont-Aven (collection des peintres locaux). Maison de Marie-Henry (auberge où vécurent les peintres). Galettes Traou Mad (« biscuits Pont-Aven », IGP — créés en 1920). Marché du mardi matin.",
+        body: "Pont-Aven, à 15 km à l'est de Concarneau et 2 800 habitants, doit sa renommée mondiale à l'École de Pont-Aven (1888-1894), née autour de Paul Gauguin : peintres synthétistes et symbolistes comme Émile Bernard, Paul Sérusier, Maxime Maufra et Charles Filiger. Le Musée de Pont-Aven réunit les peintres locaux, et la Maison de Marie-Henry est l'auberge où ils vécurent. Côté gourmandise, les galettes Traou Mad (« biscuits Pont-Aven », IGP) datent de 1920. Le marché se tient le mardi matin.",
       },
       {
         heading: "6. La plage des Sables Blancs — la plus belle",
-        body: "La plage des Sables Blancs (à 2 km au sud du centre de Concarneau, plage urbaine surveillée juin-août) est l'une des plus belles plages de la côte du Finistère sud — sable fin blanc, eau à 18-20°C en été. Promenade en bord de mer aménagée, terrasses de cafés. Plage du Cabellou (plage de réserve naturelle, plus sauvage). Plage du Porzou (plage de famille, abritée).",
+        body: "La plage des Sables Blancs, à 2 km au sud du centre de Concarneau, est une plage urbaine surveillée de juin à août. C'est l'une des plus belles de la côte du Finistère sud : sable fin blanc, eau à 18-20°C en été. Une promenade en bord de mer a été aménagée, avec des terrasses de cafés. Pour plus de sauvage, la plage du Cabellou relève d'une réserve naturelle ; la plage du Porzou, abritée, convient aux familles.",
       },
       {
         heading: "7. Le Quimperlé — la cité des trois rivières",
-        body: "Quimperlé (à 25 km à l'est de Concarneau, au confluent de l'Ellé et de l'Isole qui forment la Laïta) est l'une des plus belles cités médiévales du Finistère sud. Abbaye Sainte-Croix (XIe siècle, romane bretonne — plan en croix grecque rare en Bretagne), maisons à pans de bois XVe-XVIe siècles. À 10 min, la plage du Pouldu (où Gauguin et Sérusier ont peint).",
+        body: "Quimperlé, à 25 km à l'est de Concarneau, s'étend au confluent de l'Ellé et de l'Isole, qui forment la Laïta. C'est l'une des plus belles cités médiévales du Finistère sud. L'abbaye Sainte-Croix (XIe siècle), romane bretonne, a un plan en croix grecque rare en Bretagne ; les maisons à pans de bois datent des XVe-XVIe siècles. À 10 min, la plage du Pouldu, où Gauguin et Sérusier ont peint.",
       },
       {
         heading: "8. Le sentier des Douaniers — GR34",
-        body: "Le sentier des Douaniers (GR34, 2 000 km — du Mont-Saint-Michel à Saint-Nazaire en longeant toute la côte bretonne) passe par Concarneau. Étape Concarneau-Pont-Aven (15 km, 5h — passage par le rio des Sables Blancs et la côte sauvage du Cabellou), Concarneau-Beg-Meil (la pointe de la presqu'île, 10 km — plages familiales). Sentier balisé blanc et rouge.",
+        body: "Le sentier des Douaniers (GR34, 2 000 km) longe toute la côte bretonne, du Mont-Saint-Michel à Saint-Nazaire, et passe par Concarneau. Deux étapes partent de la ville : Concarneau-Pont-Aven (15 km, 5h), par le rio des Sables Blancs et la côte sauvage du Cabellou, et Concarneau-Beg-Meil (10 km), jusqu'à la pointe de la presqu'île et ses plages familiales. Le balisage est blanc et rouge.",
       },
       {
         heading: "9. Bénodet et la rivière de l'Odet",
-        body: "Bénodet (à 15 km à l'ouest de Concarneau) est l'une des plus belles stations balnéaires du Finistère sud — port de plaisance, plage du Trez (la plus emblématique). La rivière de l'Odet (la « plus jolie rivière de France » selon les guides bretons) est navigable en bateau touristique (au départ du port — descente jusqu'à Quimper en 1h30, paysages de châteaux et villages). Le Cap-Coz (presqu'île de pinède dunaire) est une belle randonnée à pied.",
+        body: "Bénodet, à 15 km à l'ouest de Concarneau, est l'une des plus belles stations balnéaires du Finistère sud, avec son port de plaisance et la plage du Trez, la plus emblématique. La rivière de l'Odet, la « plus jolie rivière de France » selon les guides bretons, se parcourt en bateau touristique depuis le port : descente jusqu'à Quimper en 1h30, entre châteaux et villages. Le Cap-Coz, presqu'île de pinède dunaire, offre une belle randonnée à pied.",
       },
       {
         heading: "10. Gastronomie bretonne — fruits de mer et crêpes",
-        body: "La cuisine de Concarneau est marine et bretonne : kig-ha-farz (potée bretonne au lard, légumes et far — pâte de blé noir cuite dans le bouillon — plat dominical traditionnel), galettes-saucisse (galette de blé noir roulée autour d'une saucisse — « hot dog breton »), homard à la concarnoise, langouste de Bretagne. Fruits de mer : huîtres du Belon (à 30 km, l'une des plus prestigieuses AOC), moules de Bouchot, ormeaux. Spécialités sucrées : galettes Traou Mad de Pont-Aven IGP, kouign-amann (gâteau breton au beurre — IGP). Cidre brut breton, chouchen (hydromel).",
+        body: "La cuisine de Concarneau est marine et bretonne. Au menu : kig-ha-farz (potée bretonne au lard, légumes et far, pâte de blé noir cuite dans le bouillon, plat dominical traditionnel), galettes-saucisse (galette de blé noir roulée autour d'une saucisse, le « hot dog breton »), homard à la concarnoise, langouste de Bretagne. Côté fruits de mer, huîtres du Belon (à 30 km, l'une des plus prestigieuses AOC), moules de Bouchot, ormeaux. Pour le sucré, galettes Traou Mad de Pont-Aven IGP et kouign-amann (gâteau breton au beurre, IGP). Le tout s'arrose de cidre brut breton ou de chouchen (hydromel).",
       },
     ],
     relatedCities: ["concarneau"],
