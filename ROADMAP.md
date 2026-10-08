@@ -5737,6 +5737,12 @@ descendre la base à 4/jour partout (−7 runs/semaine) : arbitrage à faire, pa
 
 Demande utilisateur : « le site anglais doit être identique au français ».
 
+### 2026-10-08 — deux fuites de français fermées (audit du 04/10)
+
+- **`HonestReviewCard`** (carte « Honest take » de toute `/cities/[slug]`) rendait libellés, détails et phrase de synthèse en français. Tables EN extraites dans `lib/honest-reviews-en.ts` (sans import, partagées avec la page `/cities/[slug]/honest-review`, qui les dupliquait) ; la carte traduit **au site d'affichage** par source (`axis`/`owner`, « Télétravail » étant les deux), reconstruit la phrase via `oneLineEn` (mêmes seuils que le lib), étiquette les 37 profils de `PROFILE_PAGES` (13 seulement avant) et utilise des guillemets anglais. Sortie FR inchangée ; `lib/honest-reviews.ts` non modifiée.
+- **`/cities/[slug]/vibe`** : `cityVibe().breakdown` passe par `translateBreakdown` (désormais exporté de `VibeWidget`) pour la liste **et** la FAQ JSON-LD.
+- Vérifié sur Paris, Sceaux, Sartène, Bron, Tulle, Les Abymes, Marseille : aucune chaîne française restante dans bullets, phrase de synthèse et breakdown ; 37/37 profils étiquetés. `tsc` et `integrity` verts.
+
 ### Pourquoi c'est prioritaire maintenant
 
 Le domaine EN s'est effondré le **13/06/2026** : 168 impressions en position 15,1 le 12,

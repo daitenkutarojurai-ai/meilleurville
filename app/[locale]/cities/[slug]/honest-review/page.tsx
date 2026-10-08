@@ -11,6 +11,7 @@ import { buildHonestReview } from "@/lib/honest-reviews";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { clampMeta } from "@/lib/brand";
+import { AXIS_EN, OWNER_LABEL_EN, OWNER_EN_PRO, OWNER_EN_CON, PROFILE_LABEL_EN } from "@/lib/honest-reviews-en";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -32,71 +33,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: cityAlternatesEn("honest-review", slug),
   };
 }
-
-const AXIS_EN: Record<string, { label: string; pro: string; con: string }> = {
-  life: { label: "Quality of life", pro: "Outstanding everyday quality of life", con: "Everyday life lacks distinction" },
-  transport: { label: "Transport", pro: "Dense network — no car needed", con: "Car almost mandatory" },
-  nature: { label: "Nature access", pro: "Direct access to nature, water or mountains", con: "Very few accessible green spaces" },
-  cost: { label: "Cost of living", pro: "Affordable rents and prices", con: "Purchasing power under pressure" },
-  safety: { label: "Safety", pro: "High sense of personal safety", con: "Significant perceived insecurity" },
-  culture: { label: "Culture", pro: "Rich cultural scene and festivals", con: "Thin cultural offering" },
-  remoteWork: { label: "Remote work", pro: "Fibre + coworking + great setting", con: "Below-average remote-work conditions" },
-  schools: { label: "Schools", pro: "Top-tier schooling options", con: "Below-average school choice" },
-};
-
-const OWNER_LABEL_EN: Record<string, string> = {
-  score_canicule: "Heat resilience",
-  score_solitude: "Social connection",
-  score_bruit: "Noise level",
-  score_securite_nocturne: "Night safety",
-  score_sans_voiture: "Car-free living",
-  score_teletravail: "Remote connectivity",
-  score_qualite_air: "Air quality",
-  score_securite_femme_seule: "Safety for women",
-  score_jeune_actif: "Young professional scene",
-  score_famille: "Family-friendliness",
-};
-
-const OWNER_EN_PRO: Record<string, string> = {
-  score_canicule: "Stays cool in summer",
-  score_solitude: "Strong social fabric — low isolation risk",
-  score_bruit: "Quieter than average",
-  score_securite_nocturne: "Safe to go out at night",
-  score_sans_voiture: "Fully liveable without a car",
-  score_teletravail: "Great connectivity for remote work",
-  score_qualite_air: "Excellent air quality",
-  score_securite_femme_seule: "Safe for women living alone",
-  score_jeune_actif: "Active 25-35 community",
-  score_famille: "Great for raising children",
-};
-
-const OWNER_EN_CON: Record<string, string> = {
-  score_canicule: "Summers increasingly uncomfortable",
-  score_solitude: "High social isolation risk",
-  score_bruit: "Significant noise issues",
-  score_securite_nocturne: "Stay vigilant at night in some areas",
-  score_sans_voiture: "Very difficult without a car",
-  score_teletravail: "Limited fibre coverage and coworking",
-  score_qualite_air: "Degraded air quality",
-  score_securite_femme_seule: "Below-average safety for women alone",
-  score_jeune_actif: "Young demographic under-represented",
-  score_famille: "Not the best choice for families",
-};
-
-const PROFILE_LABEL_EN: Record<string, string> = {
-  "familles-avec-enfants": "Families with children",
-  "jeunes-actifs": "Young professionals",
-  retraites: "Retirees",
-  freelances: "Freelancers",
-  teletravailleurs: "Remote workers",
-  etudiants: "Students",
-  "sans-voiture": "Car-free living",
-  premium: "Premium lifestyle",
-  "solo-femme": "Women living solo",
-  "couple-sans-enfant": "Couples without children",
-  "expat-retour": "Returning expats",
-  "navetteurs-hybrides": "Hybrid commuters (2-3 days on site)",
-};
 
 interface Bullet { label: string; detail: string; score: number }
 

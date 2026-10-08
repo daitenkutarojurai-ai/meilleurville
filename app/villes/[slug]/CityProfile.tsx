@@ -482,7 +482,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
               </Card>
 
               {/* F27 — Honest Review (algorithmic synthesis) */}
-              <HonestReviewCard cityName={city.name} citySlug={city.slug} review={data.honestReview} citiesCount={data.citiesCount} locale={locale} />
+              <HonestReviewCard cityName={city.name} citySlug={city.slug} review={data.honestReview} citiesCount={data.citiesCount} locale={locale} globalScore={city.scores.global} />
 
               {/* Témoignages — pointer to the now-adjacent CommentSection */}
               <Card>

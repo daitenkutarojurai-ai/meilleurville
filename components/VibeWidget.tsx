@@ -10,7 +10,7 @@ const VIBE_META_EN: Record<VibeTone, { label: string; desc: string }> = {
 };
 
 // breakdown sentences come from lib/vibe.ts (French); translate at the display site.
-function translateBreakdown(b: string): string {
+export function translateBreakdown(b: string): string {
   const numMatch = b.match(/\(([\d.]+)\/10\)/);
   const score = numMatch ? ` (${numMatch[1]}/10)` : "";
   if (b.startsWith("Score nature élevé")) return `High nature score${score}`;

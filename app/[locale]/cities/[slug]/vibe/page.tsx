@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { translateBreakdown } from "@/components/VibeWidget";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Zap } from "lucide-react";
@@ -87,7 +88,8 @@ export default async function CityVibeENPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
 
-  const { tone, score, breakdown } = cityVibe(city);
+  const { tone, score, breakdown: breakdownFr } = cityVibe(city);
+  const breakdown = breakdownFr.map(translateBreakdown);
   const meta = EN_VIBE_META[tone];
   const frMeta = VIBE_META[tone];
 

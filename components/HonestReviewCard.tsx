@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ThumbsUp, ThumbsDown, CheckCircle2, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import type { HonestReviewLite } from "@/lib/city-profile-data";
+import { PROFILE_LABEL_EN, bulletTextEn, oneLineEn } from "@/lib/honest-reviews-en";
 
 // review/citiesCount come from the server caller — buildHonestReview and
 // site-stats both drag the full seed (and guides) into the client bundle.
@@ -14,6 +15,8 @@ interface Props {
       lives on /villes/[slug]/avis-honnete. */
   compact?: boolean;
   locale?: "fr" | "en";
+  /** Global score, only used by the EN one-liner fallback. */
+  globalScore?: number;
 }
 
 /** FR profile slug → EN /for-who/ slug. Only profiles that actually have an EN
@@ -42,8 +45,18 @@ function ratingBadge(score: number): { label: string; tone: string } {
   return { label: score.toFixed(1), tone: "bg-red-500/15 text-red-700 border-red-400/30" };
 }
 
-export function HonestReviewCard({ cityName, citySlug, review, citiesCount, compact = false, locale = "fr" }: Props) {
+export function HonestReviewCard({ cityName, citySlug, review, citiesCount, compact = false, locale = "fr", globalScore = 0 }: Props) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
+
+  // The lib builds bullets, one-liner and profile labels in French: translate at
+  // the display site for EN (FR output untouched).
+  const tr = (list: HonestReviewLite["strengths"]) =>
+    locale === "en"
+      ? list.map((b) => ({ ...b, label: bulletTextEn(b.label, b.source), detail: bulletTextEn(b.detail, b.source) }))
+      : list;
+  const strengths = tr(review.strengths);
+  const weaknesses = tr(review.weaknesses);
+  const oneLine = locale === "en" ? oneLineEn(cityName, globalScore, strengths, weaknesses) : review.oneLine;
 
   return (
     <Card>
@@ -58,7 +71,7 @@ export function HonestReviewCard({ cityName, citySlug, review, citiesCount, comp
       </div>
 
       <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-5 italic">
-        « {review.oneLine} »
+        {locale === "en" ? `\u201C${oneLine}\u201D` : `« ${oneLine} »`}
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
@@ -70,9 +83,9 @@ export function HonestReviewCard({ cityName, citySlug, review, citiesCount, comp
               {L("Ce qui est vraiment bon", "What's genuinely good")}
             </span>
           </div>
-          {review.strengths.length > 0 ? (
+          {strengths.length > 0 ? (
             <ul className="space-y-2">
-              {review.strengths.map((b, i) => {
+              {strengths.map((b, i) => {
                 const badge = ratingBadge(b.score);
                 return (
                   <li key={i} className="flex items-start justify-between gap-2 text-sm">
@@ -107,9 +120,9 @@ export function HonestReviewCard({ cityName, citySlug, review, citiesCount, comp
               {L("À regarder de près", "Worth a closer look")}
             </span>
           </div>
-          {review.weaknesses.length > 0 ? (
+          {weaknesses.length > 0 ? (
             <ul className="space-y-2">
-              {review.weaknesses.map((b, i) => {
+              {weaknesses.map((b, i) => {
                 const badge = ratingBadge(b.score);
                 return (
                   <li key={i} className="flex items-start justify-between gap-2 text-sm">
@@ -170,7 +183,7 @@ export function HonestReviewCard({ cityName, citySlug, review, citiesCount, comp
                   const body = (
                     <>
                       <span aria-hidden>{f.profile.emoji}</span>
-                      {f.profile.label}
+                      {locale === "en" ? PROFILE_LABEL_EN[f.profile.slug] ?? f.profile.label : f.profile.label}
                       <span className="text-[11px] text-[var(--text-tertiary)] ml-1">
                         {L(`(#${f.rank} sur ${citiesCount})`, `(#${f.rank} of ${citiesCount})`)}
                       </span>
