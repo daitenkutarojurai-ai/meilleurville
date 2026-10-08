@@ -44,7 +44,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "French cities ringed by protected nature — 2026",
   description:
-    "Share of the 15 km radius under statutory protection around 540 French cities: nature reserves, national and regional parks, Natura 2000, biotope orders.",
+    `Share of the 15 km radius under statutory protection around ${PROTECTION_RANKED_COUNT} French cities: nature reserves, national and regional parks, Natura 2000, biotope orders.`,
   alternates: pathAlternatesEn("/espaces-proteges", "/protected-areas"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

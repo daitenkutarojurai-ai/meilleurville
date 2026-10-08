@@ -40,7 +40,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Villes entourées d'espaces naturels protégés — 2026",
   description:
-    "Part du rayon de 15 km sous protection réglementaire autour des 540 villes du site : réserves, parcs nationaux et régionaux, Natura 2000, arrêtés de biotope.",
+    `Part du rayon de 15 km sous protection réglementaire autour des ${PROTECTION_RANKED_COUNT} villes du site : réserves, parcs nationaux et régionaux, Natura 2000, arrêtés de biotope.`,
   alternates: pathAlternates("/espaces-proteges", "/protected-areas"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

@@ -5642,6 +5642,14 @@ que le champ **`gapped`** de `newsSpan()` est calculé depuis le 15/09 et **n'es
 surface** — les 42 villes concernées sont couvertes par la mise en garde d'éviction, donc rien
 n'est faux, mais un champ dérivé que personne ne lit est un champ qu'on finit par croire.
 
+
+### F62 — point d'étape 2026-10-08 (routine biodiversité)
+
+- **Collecte** : `data/city-biodiversity.json` couvre **540/556** villes (540 mesurables, 0 sous le seuil d'effort). Les 16 villes d'extension du seed (`scoreCohort: "extension"`) n'ont aucune ligne : c'est attendu, pas un défaut. Dernier commit touchant le JSON : 2026-09-22 (aucune ligne échue à surveiller avant le prochain lot du runner local).
+- **Vérifié** : `hasBiodiversityData()` garde `generateStaticParams`, sitemap et `city-profile-data` ; les 16 villes sans ligne n'ont donc ni page, ni URL de sitemap, ni carte 🦋 (pas de 404 déclaré). `tsc` et `npm run integrity` verts.
+- **Corrigé** : les meta descriptions des hubs `/espaces-proteges` et `/protected-areas` écrivaient « 540 villes » en dur ; elles lisent maintenant `PROTECTION_RANKED_COUNT` (valeur identique aujourd'hui, ne dérive plus quand le périmètre bouge).
+- **Non couvert, inchangé** : `overall` reste `null` (2 composantes sur 3), `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`, casier « Animalia spec » encore compté dans la raréfaction de Cayenne et Saint-Laurent-du-Maroni (`biodiversity:stats` le signale), pas de couverture pour les 16 villes d'extension tant que le runner ne les a pas servies.
+
 ---
 
 ## Flotte de routines — état 2026-08-03
