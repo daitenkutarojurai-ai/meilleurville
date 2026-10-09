@@ -8310,6 +8310,56 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-in-beauvais-2026",
+      "title": "Single parent in Beauvais (2026): a €2,650 floor carried by rent and transport, on a local income of €19,520",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-cergy-2026",
+      "title": "Single parent in Cergy (2026): +19.3% in residents over eleven years, 12.8% seniors and safety at 4.4/10",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-chalons-en-champagne-2026",
+      "title": "Single parent in Châlons-en-Champagne (2026): an entry floor of €2,200 that the median household clears by one euro",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-chartres-2026",
+      "title": "Single parent in Chartres (2026): a €2,700 floor, a €233 gap and a commune that has lost 3.3% of its residents",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-haguenau-2026",
+      "title": "Single parent in Haguenau (2026): the flattest profile in its tier, €346 below the floor",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-libourne-2026",
+      "title": "Single parent in Libourne (2026): a €2,900 floor, 21% poverty and a median household €640 short",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-rambouillet-2026",
+      "title": "Single parent in Rambouillet (2026): strong on three axes, weak on cost of living, a €4,050 floor and 27.6% aged 60 and over",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-germain-en-laye-2026",
+      "title": "Single parent in Saint-Germain-en-Laye (2026): schools at 9/10, cost of living at 2.2/10, and a €4,550 floor",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-versailles-2026",
+      "title": "Single parent in Versailles (2026): schools 9.0/10, cost of living 2.4/10 and a floor of €4,850",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-vincennes-2026",
+      "title": "Single parent in Vincennes (2026): transport at 9/10, cost of living at 2.2/10 and an entry floor of €5,150",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "single-parent-holidays-anglet-2026",
       "title": "Single-parent holidays in Anglet: no railway station, but the airport is here",
       "emoji": "🧑‍🍼"
@@ -8509,17 +8559,17 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 222
+      "count": 232
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 153
+      "count": 163
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 115
+      "count": 125
     },
     {
       "slug": "occitanie",
@@ -8534,17 +8584,22 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 64
+      "count": 65
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 62
+      "count": 64
     },
     {
       "slug": "relocation",
       "label": "relocation",
       "count": 59
+    },
+    {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 57
     },
     {
       "slug": "single-supplement",
@@ -8572,14 +8627,9 @@
       "count": 53
     },
     {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 52
-    },
-    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 50
+      "count": 51
     },
     {
       "slug": "cost-of-living",
@@ -8647,13 +8697,13 @@
       "count": 24
     },
     {
-      "slug": "budget",
-      "label": "budget",
-      "count": 22
-    },
-    {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
+      "count": 23
+    },
+    {
+      "slug": "budget",
+      "label": "budget",
       "count": 22
     },
     {
