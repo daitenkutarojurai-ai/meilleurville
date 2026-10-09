@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { CityCard } from "@/components/CityCard";
 import { DepartementFiche } from "@/components/DepartementFiche";
+import { DepartementVoisins } from "@/components/DepartementVoisins";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import type { City } from "@/lib/types";
@@ -333,6 +334,8 @@ export default async function DeptPage({ params }: Props) {
           </section>
         )}
 
+        <DepartementVoisins department={deptName} />
+
         {(() => {
           const siblings = [...new Set(
             CITIES_SEED.filter((c) => c.region === region && c.department !== deptName).map((c) => c.department)
@@ -341,7 +344,7 @@ export default async function DeptPage({ params }: Props) {
           return (
             <section className="pt-2">
               <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
-                Comparer {deptName} avec ses voisins
+                Comparer {deptName} avec les départements de sa région
               </h2>
               <div className="flex flex-wrap gap-2">
                 {siblings.map((s) => {

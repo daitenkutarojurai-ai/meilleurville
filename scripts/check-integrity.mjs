@@ -1394,6 +1394,31 @@ if (!failed) {
   }
 }
 
+// Départements limitrophes (F60) : la table est écrite à la main, donc une faute
+// de frappe sur un nom est bien typée et passe `tsc` ; elle ferait un voisin
+// fantôme (lien absent) ou un département isolé. On exige que chaque nom existe
+// au seed et que tout département métropolitain ait au moins un voisin (seuls
+// les DROM, territoires insulaires ou isolés, n'en ont pas).
+{
+  const { neighborDepartments, deptNeighborProblems } = load("lib/dept-neighbors.ts");
+  const { CITIES_SEED } = load("data/cities-seed.ts");
+  const offences = deptNeighborProblems().map((n) => `${n} — nom absent du seed`);
+  const drom = new Set(["Guadeloupe", "Martinique", "Guyane", "La Réunion", "Mayotte"]);
+  for (const d of new Set(CITIES_SEED.map((c) => c.department))) {
+    if (!drom.has(d) && neighborDepartments(d).length === 0) {
+      offences.push(`${d} — aucun département limitrophe`);
+    }
+  }
+  if (offences.length === 0) {
+    console.log("  ok  départements limitrophes : tous les noms existent, aucun département métropolitain isolé");
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  départements limitrophes : ${offences.length} problème(s)\n`);
+    for (const o of offences) console.error(`    ${o}`);
+    console.error("\n    Voir `lib/dept-neighbors.ts` (table écrite à la main, noms du seed).\n");
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");
