@@ -8440,6 +8440,41 @@
       "emoji": "🏰"
     },
     {
+      "slug": "things-to-do-in-gerardmer-2026",
+      "title": "Things to do in Gérardmer: a glacial lake, a rebuilt town and a horror-film festival",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "things-to-do-in-lannion-2026",
+      "title": "Things to do in Lannion: half-timbered streets and the dome that carried Telstar",
+      "emoji": "🛰️"
+    },
+    {
+      "slug": "things-to-do-in-saint-flour-2026",
+      "title": "Things to do in Saint-Flour: an upper town on a volcanic spur",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "things-to-do-in-semur-en-auxois-2026",
+      "title": "Things to do in Semur-en-Auxois: a medieval town in a loop of the river",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-maubeuge-2026",
+      "title": "Things to do in Maubeuge: Vauban's fortifications and the siege of 1914",
+      "emoji": "🛡️"
+    },
+    {
+      "slug": "things-to-do-in-sartene-2026",
+      "title": "Things to do in Sartène: a granite town and Corsica's prehistory",
+      "emoji": "🗿"
+    },
+    {
+      "slug": "things-to-do-in-sceaux-2026",
+      "title": "Things to do in Sceaux: Le Nôtre's park, half an hour from Paris",
+      "emoji": "🌳"
+    },
+    {
       "slug": "things-to-do-in-firminy-2026",
       "title": "Things to do in Firminy: the largest Le Corbusier site in Europe",
       "emoji": "🏛️"
@@ -8464,12 +8499,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 288
+      "count": 295
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 282
+      "count": 289
     },
     {
       "slug": "moving-to-france",
@@ -8504,7 +8539,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 61
+      "count": 62
     },
     {
       "slug": "relocation",
@@ -8539,12 +8574,12 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 51
+      "count": 52
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 49
+      "count": 50
     },
     {
       "slug": "cost-of-living",
@@ -8557,14 +8592,14 @@
       "count": 44
     },
     {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
+      "slug": "brittany",
+      "label": "brittany",
       "count": 38
     },
     {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 37
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 38
     },
     {
       "slug": "working-in-france",
@@ -8642,6 +8677,11 @@
       "count": 16
     },
     {
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 15
+    },
+    {
       "slug": "cycling",
       "label": "cycling",
       "count": 15
@@ -8660,11 +8700,6 @@
       "slug": "public-transport",
       "label": "public transport",
       "count": 15
-    },
-    {
-      "slug": "burgundy",
-      "label": "burgundy",
-      "count": 14
     },
     {
       "slug": "alsace",
@@ -8692,6 +8727,11 @@
       "count": 11
     },
     {
+      "slug": "auvergne",
+      "label": "auvergne",
+      "count": 10
+    },
+    {
       "slug": "climate",
       "label": "climate",
       "count": 10
@@ -8707,11 +8747,6 @@
       "count": 10
     },
     {
-      "slug": "auvergne",
-      "label": "auvergne",
-      "count": 9
-    },
-    {
       "slug": "bordeaux",
       "label": "bordeaux",
       "count": 9
@@ -8725,6 +8760,11 @@
       "slug": "strasbourg",
       "label": "strasbourg",
       "count": 9
+    },
+    {
+      "slug": "corsica",
+      "label": "corsica",
+      "count": 8
     },
     {
       "slug": "france-climate-2040",
@@ -8779,11 +8819,6 @@
     {
       "slug": "champagne",
       "label": "champagne",
-      "count": 7
-    },
-    {
-      "slug": "corsica",
-      "label": "corsica",
       "count": 7
     },
     {

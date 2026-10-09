@@ -5743,6 +5743,8 @@ descendre la base à 4/jour partout (−7 runs/semaine) : arbitrage à faire, pa
 
 ## Parité EN — bestcitiesinfrance.com au périmètre de mavilleideale.fr (ouverte 2026-08-03)
 
+- **Parité EN — `things-to-do-in-[city]-2026` batch 55, rattrapage de parité (+7 : Gérardmer, Lannion, Saint-Flour, Semur-en-Auxois, Maubeuge, Sartène, Sceaux), shipped 2026-10-09.** Jumelles du batch FR 54, écrites en anglais natif depuis les faits des guides FR (aucun chiffre qui n'y soit), 10 sections, `metaTitle` 36-48, `metaDesc` 133-154, 0 em-dash, retrouvées par `getEnGuide()` et pourvues de leur photo. `EN_GUIDES` 1 025 après `search-index` (117 tags, inchangé). Prudences FR reprises : Maubeuge hors des 12 sites UNESCO Vauban, Garabit/Alésia/Fontenay/Filitosa/radôme/Vallée-aux-Loups « accessibles depuis », Catenacciu = cérémonie religieuse, Brélévenez/Templiers = tradition. Ajouts angle anglophone sans chiffre neuf : Goonhilly (liaison Telstar), Mons/BEF avant le siège de 1914, Vercingétorix/Astérix, Chateaubriand glosé. Les deux fuites de français de l'audit du 04/10 (`HonestReviewCard`, `/cities/[slug]/vibe`) étaient déjà corrigées par 019b2ce (08/10) : revérifié au code ce run. `tsc`, `integrity`, `search-index:check`, `sitemap:check` (EN 29 844), `hreflang:check` verts, `parity` code 0. **Prochain run : batch FR hors parité (écart nul).**
+
 Demande utilisateur : « le site anglais doit être identique au français ».
 
 ### 2026-10-08 — deux fuites de français fermées (audit du 04/10)

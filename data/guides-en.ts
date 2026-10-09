@@ -44285,6 +44285,412 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in sedan", "sedan", "travel", "city guide", "grand-est"],
   },
   {
+    slug: "things-to-do-in-gerardmer-2026",
+    title: "Things to do in Gérardmer: a glacial lake, a rebuilt town and a horror-film festival",
+    metaTitle: "Things to Do in Gérardmer: Lake and Vosges 2026",
+    metaDesc:
+      "A glacial lake of about 115 hectares, a town rebuilt after 1944, waterfalls in the Vosges and a fantasy and horror film festival: what to do in Gérardmer.",
+    category: "city-guide",
+    emoji: "🏞️",
+    readMinutes: 7,
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    intro:
+      "Gérardmer is a lakeside resort in the Vosges, the low mountain range in eastern France between Lorraine and Alsace. It had 7,685 residents at the 2022 census against 8,133 in 2016 and 8,561 in 2011, so it is losing residents while receiving crowds: the census counts people who live here, not the ones who sleep here for three nights in February or August. One thing to settle before anything else is that the town you walk through is not old. German troops burned it in November 1944 as they retreated, about 85 per cent was destroyed, and it was rebuilt on a plan by the architect André Gutton. This guide covers what you can see on foot, what belongs to neighbouring communes, and what the weather decides for you.",
+    sections: [
+      {
+        heading: "The lake, and the walk around it",
+        body: "The lake is glacial in origin and covers roughly 115 hectares. It organises everything else, from where the quays sit to how weekends fill up. You can walk or cycle round it in a relaxed half day on a laid-out path; ask the tourist office for the exact distance rather than trusting a number from a website. It is the best way into the town: you pass the holiday villas, the beaches, the watersports base and the wooded slopes that drop straight into the water. A glacial lake stays cold even in summer, and swimming is limited to the designated zones, which are signed on site.",
+      },
+      {
+        heading: "A town rebuilt after the fire of 1944",
+        body: "Gérardmer was set alight on 16 and 17 November 1944 and about 85 per cent of it was destroyed. The reconstruction plan was entrusted in 1945 to the architect and urbanist André Gutton and approved by the town council in 1946. What you see is therefore post-war architecture beside an ancient lake, not a Vosges village from before 1900. The contrast is the point of the walk. Keep the date in mind and you will understand why the facades look nothing like those of Colmar, a few valleys to the east, which came through the war largely intact.",
+      },
+      {
+        heading: "The Saut des Cuves waterfall",
+        body: "This is a waterfall on the Vologne river, in the Granges gorge close to the town. You walk to it from a car park. The flow depends on the season: strong at snowmelt and after rain, more discreet in a dry summer. The rocks around it are wet and slippery, so wear proper shoes and stay on the paths and footbridges that have been built for the purpose.",
+      },
+      {
+        heading: "Longemer and Retournemer",
+        body: "These two smaller lakes can be reached from Gérardmer, but they are not in the commune. You get there along the Vologne road, by car or bicycle. They are narrower and more enclosed than the big lake, with wilder shores that you can walk round on foot. Retournemer, at the foot of the cliffs, is the more photographed of the two.",
+      },
+      {
+        heading: "The fantasy and horror film festival",
+        body: "The Gérardmer International Fantastic Film Festival has run every year since 1994. Fantastique here means the genre cinema of horror, fantasy and science fiction. It is held in winter, which is the resort's quiet season and the reason it worked. Screenings take place in town and the audience is a mix of locals and film people. Book accommodation well ahead. The dates change from year to year, so check them with the organisers.",
+      },
+      {
+        heading: "Skiing, and what the slopes do in summer",
+        body: "Gérardmer is a mid-altitude ski resort, and at these heights snow is never guaranteed. A good season depends on a cold winter, and the operator publishes the state of the pistes day by day: that is the source to trust, not a calendar. Outside the snow season the same slopes serve for hiking, mountain biking and summer luge.",
+      },
+      {
+        heading: "Vosges linen, munster and local specialities",
+        body: "Household linen woven in the Vosges is one of the massif's specialities, and several textile houses run shops in the area. It is an easier souvenir to carry home than cheese, and one you judge on quality rather than price. For the table, munster, the strong washed-rind cheese of the neighbouring valley, and the sweets known as bonbons des Vosges are the two other regional emblems.",
+      },
+      {
+        heading: "The Route des Crêtes and the Linge battlefield",
+        body: "The Route des Crêtes, which follows the watershed between Lorraine and Alsace, can be reached from Gérardmer, and so can the Linge, a First World War battlefield of 1915 in the Haut-Rhin department. Neither is in the commune, and each needs a separate day with a car. The preserved trenches at the Linge are a place of remembrance: keep to the marked paths and behave accordingly.",
+      },
+      {
+        heading: "Walking in the massif, and the weather",
+        body: "The Vosges are rounded mid-mountain country: open ridges, peat bogs and fir forests. Waymarked paths are plentiful and the climbs are within reach of an ordinary walker, but the weather can turn fast at altitude, with fog, wind and cold even in midsummer. Put a windproof layer and water in the bag for any outing, however short.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "A car is by far the easiest way to reach Gérardmer and to move around it. Without one you have to combine a train to a station elsewhere in the Vosges with a coach; check the connections and times before you book. Two days is enough for the lake, the waterfall and the town, three if you add the neighbouring lakes and the Route des Crêtes. Summer and winter bring the crowds, May and September are calmer, and festival weekends sell out early.",
+      },
+    ],
+    relatedCities: ["gerardmer", "saint-die-des-vosges", "colmar", "mulhouse"],
+    tags: ["things to do in gerardmer", "gerardmer", "travel", "city guide", "grand est"],
+  },
+  {
+    slug: "things-to-do-in-lannion-2026",
+    title: "Things to do in Lannion: half-timbered streets and the dome that carried Telstar",
+    metaTitle: "Things to Do in Lannion: Brittany's Trégor 2026",
+    metaDesc:
+      "Half-timbered houses, a church on its hill, the Léguer valley and the radome of the first live transatlantic television link: what to do in Lannion.",
+    category: "city-guide",
+    emoji: "🛰️",
+    readMinutes: 7,
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    intro:
+      "Lannion is the main town of the Trégor, the north-western corner of the Côtes-d'Armor department in Brittany. It had 20,525 residents at the 2022 census against 19,831 in 2016 and 19,920 in 2011: after a dip it has regained ground, which is not common in this department. It is an old market town on the river Léguer and, at the same time, one of France's telecommunications hubs, because the radome at Pleumeur-Bodou, a few kilometres away, carried the first live transatlantic television broadcast by satellite in 1962. This guide separates what is in Lannion from what you can reach from it, and what belongs in a separate day.",
+    sections: [
+      {
+        heading: "Place du Centre and the half-timbered houses",
+        body: "The old centre is built around the Place du Centre, lined with half-timbered houses whose upper floors jut out over the street, some dating from the fifteenth and sixteenth centuries. The steep cobbled lanes nearby run down towards the Léguer. This is the part of Lannion to do on foot and without a plan, and the weekly market, held here, is the best moment to see it lived in.",
+      },
+      {
+        heading: "The church of Brélévenez",
+        body: "The church overlooks the town from its hill, and you reach it by a stairway of about a hundred and forty steps, which is an order of magnitude rather than a count to the step. The old story that makes it a Templar foundation is widely repeated, but it is a tradition and not something the sources establish: tell it, do not cite it as fact. The view over the valley and the rooftops justifies the climb.",
+      },
+      {
+        heading: "The banks of the Léguer",
+        body: "The river runs through the town and its banks can be walked on a path that continues up a wooded, lightly developed valley. The further upstream you go, the more the landscape becomes a Breton valley floor, with mills, stone bridges and walking trails. It is an hour or half a day, depending on your stamina.",
+      },
+      {
+        heading: "The radome and the Telstar story",
+        body: "The radome is at Pleumeur-Bodou, a neighbouring commune, and you reach it from Lannion by car. It housed the antenna for the link of 11 July 1962, the first live television transmission across the Atlantic by satellite, using Telstar 1. The same experiments involved a British station at Goonhilly in Cornwall, so the story has a British side that is rarely told on the French end. The white dome, a listed historic monument, is the last of its kind preserved anywhere in the world and houses an exhibition on the history of telecommunications. Opening hours and access conditions change with the season; check before you set out.",
+      },
+      {
+        heading: "Why a Breton market town has engineers",
+        body: "The choice of Pleumeur-Bodou in 1962 settled the region in telecommunications for good, and laboratories and companies in the sector set up in the surrounding area. The town does not make a museum of it, but the history explains why a mid-sized Breton town has a community of engineers, and therefore a comparatively young population.",
+      },
+      {
+        heading: "The Pink Granite Coast",
+        body: "Perros-Guirec and Ploumanac'h, with their pink rocks, are about half an hour from Lannion by road. They are separate communes, and the customs officers' path that runs along the coast is one of the most walked routes in Brittany. In summer people walk it in single file, so go early in the morning or outside the season.",
+      },
+      {
+        heading: "Tréguier and the Trégor",
+        body: "The cathedral of Tréguier, in a separate commune, can be reached from Lannion as a half-day outing. More broadly the Trégor offers chapels, calvaries (the carved stone crosses typical of Breton parishes) and small harbours, all visited at a slow pace. Use a road map or a navigation app rather than instinct: the roads wind, and journey times run well beyond the straight-line distance.",
+      },
+      {
+        heading: "Tonquédec castle",
+        body: "This ruined fortress is at Tonquédec, a neighbouring commune, and makes an outing of a few hours from Lannion. It gives an idea of a Breton feudal stronghold, with its towers, curtain wall and keep. Visiting conditions change with the season and should be checked before you leave.",
+      },
+      {
+        heading: "The sea, and its tides",
+        body: "Lannion is not on the coast: the nearest beach is about ten kilometres away, on the bay of Lannion. The bay's beaches are sand, and how busy and how supervised they are varies with the season. The flag tells you the state of bathing, and the tide, which is very marked on this coast, changes the look of a beach several times a day.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Lannion is reached by train on a branch line that leaves from Plouaret, with connections to the lines towards Rennes and Paris; check the exact arrangements and times before booking. A car remains the best way to range across the Trégor. Two days cover the town and the Léguer, three or four add the radome, the Pink Granite Coast and Tréguier. Come from May to September for the sea and any time of year for the town, bearing in mind a mild, rainy winter.",
+      },
+    ],
+    relatedCities: ["lannion", "morlaix", "saint-brieuc", "dinan"],
+    tags: ["things to do in lannion", "lannion", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-saint-flour-2026",
+    title: "Things to do in Saint-Flour: an upper town on a volcanic spur",
+    metaTitle: "Things to Do in Saint-Flour: Cantal Guide 2026",
+    metaDesc:
+      "An upper town on a volcanic spur, a dark cathedral, the Garabit viaduct and the Margeride plateau: what to do in Saint-Flour, in the Cantal.",
+    category: "city-guide",
+    emoji: "🌋",
+    readMinutes: 7,
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    intro:
+      "Saint-Flour is a small town in the Cantal, in the volcanic Auvergne. It had 6,390 residents at the 2022 census against 6,504 in 2016 and 6,665 in 2011, a slow but continuous decline. It is a textbook case of geography: an upper town perched on a volcanic spur that looks down on the lower town and the Planèze plateau. It is also a base for seeing the Cantal, in particular the Garabit viaduct, which is not in the commune. This guide covers what you can see on foot in the upper town, what belongs to neighbouring communes, and what to plan for in terms of weather and distance.",
+    sections: [
+      {
+        heading: "The upper town",
+        body: "It is built on a promontory of volcanic origin that stands several dozen metres above the lower town. It is a town of dark stone, narrow streets and façades with character, covered on foot in an hour or two. The climb from the lower town is steep, with steps and ramps. For a visitor with reduced mobility it is better to go up by car or by shuttle if one runs; ask the tourist office.",
+      },
+      {
+        heading: "The cathedral of Saint-Pierre",
+        body: "It is Gothic and dominates the top of the town. It houses a black wooden Christ that the sources date to the eleventh or twelfth century; the dating varies, and the honest way to put it is that the object is very old. Like any church in use, its opening hours depend on the parish, so check before making a trip for it.",
+      },
+      {
+        heading: "The ramparts and the viewpoints",
+        body: "Viewpoints over the Planèze plateau and the Ander valley open up from the edge of the plateau. This is where you understand why the town is where it is, and the best time is evening, when the light rakes across the plateau. The wind can be strong in any season: an extra layer in the bag beats a regret.",
+      },
+      {
+        heading: "The town's museums",
+        body: "The upper town has several museums, notably on local history and the arts of the Haute-Auvergne. Collections and hours change, and access conditions are worth checking with the tourist office. In poor weather this is the best use of half a day: the upper town is visited in fragments of street and gallery.",
+      },
+      {
+        heading: "The Garabit viaduct",
+        body: "It crosses the Truyère gorge and can be reached from Saint-Flour, but it is not in the commune. It stands on the territory of the neighbouring Ruynes-en-Margeride, about fifteen kilometres away. Designed by Gustave Eiffel and Léon Boyer and opened in 1888, it is a little over 560 metres long and about 120 metres high. It served Eiffel as a testing ground before his tower in Paris. It is the outing no stay should skip, and you can see it from several viewpoints.",
+      },
+      {
+        heading: "The Truyère gorges",
+        body: "The Truyère river and its reservoirs cut into the plateau, and the landscapes are seen by car, on foot or by boat depending on where you are. Access points, boat departures and paths should be confirmed with the tourist office. The roads wind, journey times run longer than the straight-line distance, and mobile reception is patchy in the gorges.",
+      },
+      {
+        heading: "The Margeride and the Planèze",
+        body: "Two landscapes sit side by side around Saint-Flour: the Planèze, an open basalt plateau, and the Margeride, a more wooded granite massif. These are livestock lands, and you will meet herds of a local breed of cattle, which is the reason behind the region's cheeses. Walks are plentiful, from an hour's outing to long itineraries.",
+      },
+      {
+        heading: "Cantal, the cheese",
+        body: "Cantal is the département's emblematic cheese and carries a protected designation of origin (AOP). It is eaten young, semi-aged or aged, with different flavours at each stage, and is sold in markets and by producers across the region. Farm visits usually need to be booked in advance, and their conditions are worth checking.",
+      },
+      {
+        heading: "Seasons and weather",
+        body: "At this altitude winter is cold and snow can lie for long periods. Summer is cool in the morning and evening, and storms build in the afternoon. Mountain roads around the town can be difficult in winter, so check road conditions before you set out. Spring and autumn are pleasant but changeable.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Saint-Flour is served by train on the line from Béziers to Clermont-Ferrand, but the station is in the lower town, some way from the upper town, so you walk up or take a taxi or shuttle. Check timetables before booking. One day is enough for the upper town, two if you add Garabit and the Truyère. May to October is the comfortable season, and the weather should always be checked.",
+      },
+    ],
+    relatedCities: ["saint-flour", "aurillac", "clermont-ferrand", "millau"],
+    tags: ["things to do in saint-flour", "saint-flour", "travel", "city guide", "auvergne"],
+  },
+  {
+    slug: "things-to-do-in-semur-en-auxois-2026",
+    title: "Things to do in Semur-en-Auxois: a medieval town in a loop of the river",
+    metaTitle: "Things to Do in Semur-en-Auxois 2026",
+    metaDesc:
+      "A medieval town in a bend of the Armançon, an eighteenth-century bridge, a Gothic collegiate church and Alésia close by: what to do in Semur-en-Auxois.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    intro:
+      "Semur-en-Auxois is a small sub-prefecture in the Côte-d'Or department of Burgundy. It had 4,027 residents at the 2022 census against 4,132 in 2016 and 4,166 in 2011, a slow decline, and its interest is topographical rather than demographic. The old town sits on a rocky spur enclosed by a loop of the river Armançon, and that position explains its towers, ramparts and silhouette over the water. This guide says what you see on foot, what can be reached from the town without being in it, and why the best moment to look at it is from the bridge.",
+    sections: [
+      {
+        heading: "The Pont Joly and the view of the town",
+        body: "The Pont Joly crosses the Armançon and dates from the eighteenth century. It is the classic viewpoint: from here you see the spur, the ramparts, the red-tiled roofs and the outline of the collegiate church, everything that makes the image of the town. The best time is early morning or late afternoon, when the light is low.",
+      },
+      {
+        heading: "The towers and the ramparts",
+        body: "The town has kept part of its medieval walls and several towers of the castle. The Tour de l'Orle d'Or is the most massive and the most cited. The ramparts can be followed on foot along paths that run at the foot of the walls or along the top, depending on the stretch. Access to some towers is limited, and what can be visited is worth checking with the tourist office.",
+      },
+      {
+        heading: "The collegiate church of Notre-Dame",
+        body: "A collegiate church is a church served by a college of canons rather than a bishop's seat. This one dates mostly from the thirteenth century and stands over the heart of the town with two square towers framing a sculpted façade. It is the most important Gothic building of the Auxois, and its portal and stained glass reward a stop. Like any church in use, its opening hours should be checked before you make a trip for it.",
+      },
+      {
+        heading: "The streets of the old centre",
+        body: "Cobbled lanes, timber-framed houses and townhouses give the centre a coherent look. There is nothing to tick off: the pleasure is walking without a plan between the square, the lanes and the ramparts, for an hour or two. The shops are those of a small town: bakeries, galleries, regional produce.",
+      },
+      {
+        heading: "The banks of the Armançon",
+        body: "The river runs round the old town, and paths let you follow it below the ramparts, which gives another view of the spur. The walk is easy and flat, and extends as far as you like along the river. After heavy rain some banks can be flooded or slippery.",
+      },
+      {
+        heading: "The museums",
+        body: "The town has a municipal museum, housed in a former convent, with collections of archaeology, fine art and natural history. Hours and opening conditions change with the season and should be checked before you go. On a rainy day it is a good way to spend half a day.",
+      },
+      {
+        heading: "Alésia",
+        body: "The site of Alésia, where the siege of 52 BC is said to have been fought, is at Alise-Sainte-Reine, a neighbouring commune about half an hour from Semur by road. This is where Julius Caesar besieged the Gaulish chief Vercingetorix, the story that every reader of Asterix knows in cartoon form. Treat it as a half-day outing, with an archaeological park and a museum whose visiting conditions and hours should be checked. Bear in mind that historians debate where the siege took place, and the Burgundy site is the one retained by tradition.",
+      },
+      {
+        heading: "Fontenay Abbey",
+        body: "This Cistercian abbey, a UNESCO World Heritage Site, is at Marmagne, near Montbard, and not at Semur: it can be reached from the town by car in a little under half an hour. Treat it as a separate half-day outing. Visiting conditions, hours and prices change with the season.",
+      },
+      {
+        heading: "The Auxois by bicycle or by car",
+        body: "The Auxois is a country of hedged farmland and gentle hills, given over to cattle, with villages, castles and churches. The Burgundy Canal runs not far away and its towpath serves as a cycling and walking route. This is the kind of country where you discover more by going slowly than by following a strict itinerary, and a car is the most practical way to get around.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Semur-en-Auxois has no station on the main lines, so a car is the most practical way to come, and the nearest stations should be checked when you book. Half a day is enough for the bridge, the collegiate church and the ramparts, a day to add the museums and the river banks, two to combine with Alésia and Fontenay. Come from May to October; winters are cool and damp.",
+      },
+    ],
+    relatedCities: ["semur-en-auxois", "montbard", "beaune", "dijon"],
+    tags: ["things to do in semur-en-auxois", "semur-en-auxois", "travel", "city guide", "burgundy"],
+  },
+  {
+    slug: "things-to-do-in-maubeuge-2026",
+    title: "Things to do in Maubeuge: Vauban's fortifications and the siege of 1914",
+    metaTitle: "Things to Do in Maubeuge: Vauban's Fortress 2026",
+    metaDesc:
+      "Vauban's fortifications, the siege of 1914, a well-known regional zoo and the river Sambre: what to do in Maubeuge, in northern France.",
+    category: "city-guide",
+    emoji: "🛡️",
+    readMinutes: 7,
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    intro:
+      "Maubeuge is a town on the river Sambre in the Nord department, close to the Belgian border. It had 28,879 residents at the 2022 census against 29,679 in 2016 and 31,103 in 2011, a clear decline. It carries the mark of its position: a fortress town fortified by Vauban, Louis XIV's military engineer, from 1679, and besieged in 1914. A precision worth making early: Maubeuge belongs to Vauban's network of fortified places, but it is not one of the twelve sites inscribed by UNESCO in 2008. For an English-speaking reader there is a further link: the British Expeditionary Force fought its first battle of the First World War at Mons, a short distance away, in the days before the siege opened. This guide says what you can see, what is still standing, and what you cannot visit freely.",
+    sections: [
+      {
+        heading: "Vauban's fortifications",
+        body: "Work began in 1679 on Louis XIV's orders and finished in 1685. Vauban had the medieval wall demolished and built his own on the same perimeter. Bastions, curtain walls and ditches survive, and you follow them on foot along laid-out paths. Maubeuge belongs to the network of Vauban's fortified places but is not one of the twelve sites inscribed by UNESCO in 2008.",
+      },
+      {
+        heading: "The Porte de Mons",
+        body: "This is the town's emblematic monument: the Porte de Mons has kept its original defensive layout, with its guardroom set in the demi-lune, the triangular outwork in front of the gate. It houses a small museum on the history of the fortifications and the military history of Maubeuge. Opening hours vary with the season and should be checked before you go.",
+      },
+      {
+        heading: "The siege of 1914",
+        body: "From 27 August to 7 September 1914 the fortress was besieged by the German army. The governor, General Fournier, surrendered on 7 September, and more than 40,000 men of the garrison were taken prisoner. The episode was a heavy defeat and long remained in local memory. The works of the fortified belt of the period are scattered around the town and their accessibility varies: some are open, others are on private land or closed.",
+      },
+      {
+        heading: "The forts of the outer ring",
+        body: "Around Maubeuge, forts built after 1870 complete Vauban's enceinte. They are in neighbouring communes, can be reached from the town and have varied status: some can be visited on set dates, some are private property, others are ruins that must not be climbed. Ask the tourist office before you set out, and respect any sign that forbids entry.",
+      },
+      {
+        heading: "The zoo",
+        body: "The Maubeuge zoo, founded in 1955, is one of the most visited attractions in the region. It is set inside the old fortified enceinte, which gives it an unusual backdrop. It is the outing for children, and hours, prices and access conditions should be checked with the park.",
+      },
+      {
+        heading: "The Sambre and its banks",
+        body: "The Sambre runs through the town and its banks continue as towpaths and cycle routes. It is a flat, easy walk, suited to a family outing or a bike ride, and it links the town to neighbouring communes. The Sambre is also a working waterway, and barge traffic is something you will see on some stretches.",
+      },
+      {
+        heading: "The town centre",
+        body: "Maubeuge was badly hit in both wars and the centre has been largely rebuilt. The pleasure of the walk is therefore elsewhere than in old architecture: here you look at the fortifications rather than at the centre. Shops, markets and cafés are those of a mid-sized town in the north.",
+      },
+      {
+        heading: "The Sambre-Avesnois",
+        body: "Around Maubeuge the Avesnois is a country of hedged farmland, forests and small towns in the south of the Nord department. The Avesnois regional nature park can be reached from the town and offers hiking and cycling routes. Distances by car are counted in tens of minutes, and a car is the most practical way to get around.",
+      },
+      {
+        heading: "The Belgian border",
+        body: "Maubeuge is right next to Belgium, of which Mons is the nearest town. The border is an internal crossing within the Schengen area, with no systematic checks, but you must still carry identity papers. A trip to Mons takes a short half hour by road or by train; check the connections.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Maubeuge has train services to Paris, Lille and Belgium; times and connections should be checked before you book. Half a day is enough for the fortifications and the Porte de Mons, a day to add the zoo, two for the Avesnois and the border. Come from May to September for comfort; the climate is that of the northern plain, cool, damp and changeable.",
+      },
+    ],
+    relatedCities: ["maubeuge", "valenciennes", "lille", "arras"],
+    tags: ["things to do in maubeuge", "maubeuge", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-sartene-2026",
+    title: "Things to do in Sartène: a granite town and Corsica's prehistory",
+    metaTitle: "Things to Do in Sartène: Corsica's Granite Town",
+    metaDesc:
+      "A granite old town, the Good Friday Catenacciu procession, the Corsican prehistory museum and the megaliths of Cauria: what to do in Sartène.",
+    category: "city-guide",
+    emoji: "🗿",
+    readMinutes: 7,
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    intro:
+      "Sartène is a town in Corse-du-Sud, in the south of Corsica. It had 3,732 residents at the 2022 census against 3,252 in 2016 and 3,374 in 2011, a recent rise in a southern Corsica that attracts newcomers. The town is known for its granite old town, for the Good Friday procession, and for a very large communal territory that runs down to the sea and holds several major prehistoric sites. This guide separates what is in Sartène proper, meaning the town itself, from what belongs to the extended commune and from what you can reach from the town without being in it.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "The Santa Anna quarter and the neighbouring lanes form a group of tall, tightly packed granite houses that give the town its reputation for austerity. The central square is the heart of social life, with its cafés, and it is where you see local life best. Sartène carries the French label Ville d'art et d'histoire, and you can walk it without a programme.",
+      },
+      {
+        heading: "The Catenacciu procession",
+        body: "Every Good Friday evening the Catenacciu procession passes through the old town. An anonymous penitent dressed in red walks barefoot, chained at the ankles and carrying a heavy cross. He is followed by a white penitent, black penitents and clergy. It is a religious ceremony and not a spectacle: watch in silence, do not photograph with flash, and keep away from the route if asked. Exact times should be checked with the parish.",
+      },
+      {
+        heading: "The Corsican prehistory museum",
+        body: "The museum of prehistory and archaeology of Corsica, opened in spring 2009, gives an overview of the island's archaeology, from arrowheads to statue-menhirs, the carved standing stones typical of Corsica and Sardinia. It is the right preparation for the open-air sites, which make more sense when you know what you are looking for. Visiting conditions and hours change with the season.",
+      },
+      {
+        heading: "Cauria and the Fontanaccia dolmen",
+        body: "The Cauria plateau, in the commune of Sartène a few kilometres from the sea, brings together megalithic alignments and the Fontanaccia dolmen, reputed to be the best known and best preserved in Corsica. You visit on foot along paths and stay on the routes provided: the stones are fragile and the sloping ground can be slippery.",
+      },
+      {
+        heading: "Roccapina and the Lion Rock",
+        body: "The bay of Roccapina and its rock shaped like a lying lion are on Sartène's territory and can be reached from the town by car. The sand beach is beautiful but exposed, and swimming depends on sea and wind conditions. Permanent lifeguard cover is not guaranteed: find out before you go, and follow the notices posted on site.",
+      },
+      {
+        heading: "Filitosa",
+        body: "The site of Filitosa, famous for its statue-menhirs, is at Sollacaro, in the Taravo valley, and not at Sartène. It can be reached from the town by car, allowing a little over an hour, and is a half-day outing. Visiting conditions and hours change with the season and should be checked.",
+      },
+      {
+        heading: "The wines of the Sartenais",
+        body: "The Sartenais is one of Corsica's wine appellations, on granite soils. Several estates welcome visitors, usually by appointment. A tasting extends easily into a meal, and you need to plan who drives, because the roads are narrow and winding.",
+      },
+      {
+        heading: "Propriano and the coast",
+        body: "Propriano, a separate commune, is about half an hour from Sartène by road. It is the port and seaside resort of the Valinco, with beaches and waterfront restaurants. Sartène is an inland town a few kilometres from the coast, and you can sleep in one and visit the other.",
+      },
+      {
+        heading: "Bonifacio",
+        body: "Bonifacio is about an hour by road to the south, a commune in its own right and a separate day. The limestone cliffs, the citadel and the harbour make it one of the island's most visited destinations. Combine it with Sartène in a single stay but not in the same day, because the road is long in summer.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Sartène has no railway station: southern Corsica is served by road, and a car is essential for getting around. The airports of Figari and Ajaccio are the nearest, and connections and times should be checked before you book. A day is enough for the town and the museum, two to add Cauria and Roccapina. Summer is hot and crowded, and spring and autumn are the most pleasant seasons. Out of season some businesses close.",
+      },
+    ],
+    relatedCities: ["sartene", "ajaccio", "porto-vecchio", "bastia"],
+    tags: ["things to do in sartene", "sartene", "travel", "city guide", "corsica"],
+  },
+  {
+    slug: "things-to-do-in-sceaux-2026",
+    title: "Things to do in Sceaux: Le Nôtre's park, half an hour from Paris",
+    metaTitle: "Things to Do in Sceaux: Le Nôtre's Park 2026",
+    metaDesc:
+      "A park laid out by Le Nôtre, Le Brun's Aurora pavilion, the Orangery and the Grand Canal: what to do in Sceaux, on the edge of Paris.",
+    category: "city-guide",
+    emoji: "🌳",
+    readMinutes: 7,
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    intro:
+      "Sceaux is a residential commune in the Hauts-de-Seine department, just south of Paris, served by the RER B, one of the Paris regional express lines. It had 20,740 residents at the 2022 census against 19,479 in 2016 and 19,930 in 2011. Its main attraction comes down to one name: the Domaine de Sceaux, the former estate of Colbert, Louis XIV's finance minister. The park covers more than 180 hectares and was laid out by André Le Nôtre, the gardener of Versailles. It belongs to the Hauts-de-Seine department, and this guide says what is in it, what belongs to neighbouring communes, and what can be visited in practice.",
+    sections: [
+      {
+        heading: "The park of the estate",
+        body: "The departmental estate of Sceaux covers more than 180 hectares and remains one of the great parks of the Paris suburbs. It is laid out in the French formal style, with long perspectives, basins, avenues and groves. Entry to the park is free, and people stroll, run and picnic there: it is first a neighbourhood park before it is a monument, which explains the local crowds.",
+      },
+      {
+        heading: "The château and the Île-de-France museum",
+        body: "The present château was built under the Second Empire, not in Colbert's day: the original building was destroyed. It houses the departmental museum, devoted to the history of the estate and its owners, with collections of prints, drawings and photographs. Exhibitions, hours and access conditions change, and should be checked before you go.",
+      },
+      {
+        heading: "The Aurora pavilion",
+        body: "This small pavilion in the park is topped by a dome painted by Charles Le Brun, which makes it one of the few elements of the original decoration. Access is limited to guided visits, booked or scheduled according to the period: ask the estate before you come specifically for it.",
+      },
+      {
+        heading: "The Orangery",
+        body: "The Orangery is the work of Jules Hardouin-Mansart. It now serves as a venue for concerts and events, notably music festivals. Its programme is announced by the department, and it is better to consult the calendar before coming if you want to go in.",
+      },
+      {
+        heading: "The Grand Canal",
+        body: "Designed by Le Nôtre, it is the main body of water in the park, lined with planted avenues. The walk along it is one of the finest in the estate, and in the morning or late afternoon the light is at its best. The banks are not swimming areas, and fishing and water games are subject to rules posted on site.",
+      },
+      {
+        heading: "The centre of Sceaux",
+        body: "Around the Rue Houdan and the Place du Général-de-Gaulle, the town centre is a pedestrian zone with shops, markets and cafés. The market has fixed days, to be checked with the town hall.",
+      },
+      {
+        heading: "Small parks and the residential grid",
+        body: "The commune is dotted with small public gardens and squares, within a grid of residential streets lined with houses and villas. The pleasure of the walk is that of a garden suburb: you look at the façades, the railings, the trees. There is no programme, only an hour to spare.",
+      },
+      {
+        heading: "Performances",
+        body: "Sceaux hosts a national stage, Les Gémeaux, which programmes theatre, dance and music. The season generally runs from autumn to spring, and seats are booked in advance. It is a good complement to a day in the park when the weather turns.",
+      },
+      {
+        heading: "The Vallée-aux-Loups",
+        body: "The house of Chateaubriand, the writer who founded French Romanticism, is at Châtenay-Malabry, a neighbouring commune, and not at Sceaux: it can be reached from Sceaux on foot or by bicycle through the parks, in a little under half an hour. Chateaubriand bought it in 1807, and it stands in a wooded park. Visiting conditions change with the season and should be checked.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Sceaux is served by the RER B, and the station of Bourg-la-Reine, in the neighbouring commune, is also within walking distance. The trip from central Paris takes around half an hour, and times and disruptions should be checked before you leave. Half a day is enough for the park and the château, a day to add the centre and the Vallée-aux-Loups. Spring and early autumn are the best times, and the park closes at nightfall, at hours that vary with the season.",
+      },
+    ],
+    relatedCities: ["sceaux", "bourg-la-reine", "versailles", "paris"],
+    tags: ["things to do in sceaux", "sceaux", "travel", "city guide", "ile-de-france"],
+  },
+  {
     slug: "things-to-do-in-firminy-2026",
     title: "Things to do in Firminy: the largest Le Corbusier site in Europe",
     metaTitle: "Things to Do in Firminy: Le Corbusier Site 2026",
