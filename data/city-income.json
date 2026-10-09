@@ -271,6 +271,10 @@
     "medianIncome": 19360,
     "povertyRate": 27
   },
+  "bobigny": {
+    "povertyRate": 36,
+    "medianIncome": 16330
+  },
   "bois-colombes": {
     "medianIncome": 32650,
     "povertyRate": 10
@@ -483,6 +487,10 @@
     "povertyRate": 19,
     "medianIncome": 21490
   },
+  "chaville": {
+    "povertyRate": 8,
+    "medianIncome": 32290
+  },
   "chelles": {
     "medianIncome": 23830,
     "povertyRate": 16
@@ -507,6 +515,10 @@
     "povertyRate": 14,
     "medianIncome": 21960
   },
+  "clamart": {
+    "povertyRate": 11,
+    "medianIncome": 29920
+  },
   "clamecy": {
     "medianIncome": 18240,
     "povertyRate": 28
@@ -522,6 +534,10 @@
   "clichy": {
     "medianIncome": 22410,
     "povertyRate": 22
+  },
+  "clichy-sous-bois": {
+    "medianIncome": 15260,
+    "povertyRate": 42
   },
   "cluses": {
     "povertyRate": 17,
@@ -703,6 +719,10 @@
     "povertyRate": 25,
     "medianIncome": 20140
   },
+  "epinay-sur-seine": {
+    "medianIncome": 17880,
+    "povertyRate": 31
+  },
   "ermont": {
     "povertyRate": 16,
     "medianIncome": 24940
@@ -758,6 +778,10 @@
     "medianIncome": 27340,
     "povertyRate": 13
   },
+  "fontenay-aux-roses": {
+    "povertyRate": 12,
+    "medianIncome": 26990
+  },
   "fontenay-le-comte": {
     "medianIncome": 21440,
     "povertyRate": 16
@@ -785,6 +809,10 @@
   "fresnes": {
     "medianIncome": 23940,
     "povertyRate": 15
+  },
+  "gagny": {
+    "povertyRate": 18,
+    "medianIncome": 23090
   },
   "gaillac": {
     "medianIncome": 20780,
@@ -944,6 +972,10 @@
     "medianIncome": 18260,
     "povertyRate": 30
   },
+  "joinville-le-pont": {
+    "medianIncome": 29100,
+    "povertyRate": 11
+  },
   "joue-les-tours": {
     "medianIncome": 21520,
     "povertyRate": 19
@@ -951,6 +983,10 @@
   "kingersheim": {
     "povertyRate": 13,
     "medianIncome": 23170
+  },
+  "l-hay-les-roses": {
+    "povertyRate": 16,
+    "medianIncome": 24990
   },
   "la-baule": {
     "medianIncome": 28490,
@@ -1084,6 +1120,10 @@
     "medianIncome": 20750,
     "povertyRate": 17
   },
+  "les-pavillons-sous-bois": {
+    "povertyRate": 21,
+    "medianIncome": 21890
+  },
   "les-sables-d-olonne": {
     "medianIncome": 24520,
     "povertyRate": 9
@@ -1115,6 +1155,10 @@
   "lingolsheim": {
     "povertyRate": 17,
     "medianIncome": 22260
+  },
+  "livry-gargan": {
+    "medianIncome": 21750,
+    "povertyRate": 20
   },
   "longwy": {
     "povertyRate": 31,
@@ -1232,6 +1276,10 @@
     "povertyRate": 24,
     "medianIncome": 20940
   },
+  "meudon": {
+    "medianIncome": 30680,
+    "povertyRate": 11
+  },
   "meyzieu": {
     "medianIncome": 23860,
     "povertyRate": 13
@@ -1308,6 +1356,10 @@
     "medianIncome": 21150,
     "povertyRate": 25
   },
+  "montrouge": {
+    "povertyRate": 10,
+    "medianIncome": 30500
+  },
   "morlaix": {
     "medianIncome": 20930,
     "povertyRate": 19
@@ -1339,6 +1391,10 @@
   "narbonne": {
     "povertyRate": 25,
     "medianIncome": 19850
+  },
+  "neuilly-plaisance": {
+    "povertyRate": 14,
+    "medianIncome": 26590
   },
   "neuilly-sur-marne": {
     "povertyRate": 21,
@@ -1552,6 +1608,10 @@
     "medianIncome": 23090,
     "povertyRate": 14
   },
+  "ris-orangis": {
+    "medianIncome": 20090,
+    "povertyRate": 24
+  },
   "roanne": {
     "medianIncome": 18930,
     "povertyRate": 25
@@ -1563,6 +1623,10 @@
   "rodez": {
     "medianIncome": 22210,
     "povertyRate": 16
+  },
+  "romainville": {
+    "povertyRate": 24,
+    "medianIncome": 21110
   },
   "romans-sur-isere": {
     "medianIncome": 20520,
@@ -1932,6 +1996,10 @@
     "povertyRate": 8,
     "medianIncome": 29010
   },
+  "thiais": {
+    "medianIncome": 24670,
+    "povertyRate": 16
+  },
   "thiers": {
     "medianIncome": 19300,
     "povertyRate": 24
@@ -2016,6 +2084,10 @@
     "povertyRate": 15,
     "medianIncome": 24070
   },
+  "vanves": {
+    "medianIncome": 30770,
+    "povertyRate": 9
+  },
   "vaulx-en-velin": {
     "povertyRate": 33,
     "medianIncome": 17180
@@ -2072,6 +2144,14 @@
     "povertyRate": 25,
     "medianIncome": 19640
   },
+  "villejuif": {
+    "medianIncome": 21950,
+    "povertyRate": 22
+  },
+  "villemomble": {
+    "povertyRate": 19,
+    "medianIncome": 23920
+  },
   "villenave-d-ornon": {
     "povertyRate": 13,
     "medianIncome": 23780
@@ -2083,6 +2163,10 @@
   "villeneuve-sur-lot": {
     "povertyRate": 23,
     "medianIncome": 19420
+  },
+  "villepinte": {
+    "medianIncome": 19060,
+    "povertyRate": 25
   },
   "villeurbanne": {
     "povertyRate": 21,

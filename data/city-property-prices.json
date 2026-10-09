@@ -1363,6 +1363,26 @@
     ],
     "queryVersion": 1
   },
+  "bobigny": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 212,
+      "medianM2": 3437,
+      "p25M2": 2682,
+      "p75M2": 3989
+    },
+    "house": {
+      "sales": 132,
+      "medianM2": 3529,
+      "p25M2": 2875,
+      "p75M2": 4578
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "bois-colombes": {
     "coverage": "dvf",
     "apartment": {
@@ -2429,6 +2449,26 @@
     ],
     "queryVersion": 1
   },
+  "chaville": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 340,
+      "medianM2": 5458,
+      "p25M2": 4693,
+      "p75M2": 6363
+    },
+    "house": {
+      "sales": 94,
+      "medianM2": 7143,
+      "p25M2": 5989,
+      "p75M2": 8367
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "chelles": {
     "coverage": "dvf",
     "apartment": {
@@ -2549,6 +2589,26 @@
     ],
     "queryVersion": 1
   },
+  "clamart": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 802,
+      "medianM2": 5535,
+      "p25M2": 4806,
+      "p75M2": 6416
+    },
+    "house": {
+      "sales": 303,
+      "medianM2": 7103,
+      "p25M2": 5698,
+      "p75M2": 8495
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "clamecy": {
     "coverage": "dvf",
     "apartment": {
@@ -2618,6 +2678,26 @@
     "house": {
       "sales": 12,
       "pending": "sample"
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "clichy-sous-bois": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 174,
+      "medianM2": 1835,
+      "p25M2": 1448,
+      "p75M2": 2312
+    },
+    "house": {
+      "sales": 73,
+      "medianM2": 3056,
+      "p25M2": 2577,
+      "p75M2": 3973
     },
     "years": [
       2024,
@@ -3509,6 +3589,26 @@
     ],
     "queryVersion": 1
   },
+  "epinay-sur-seine": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 488,
+      "medianM2": 2718,
+      "p25M2": 2280,
+      "p75M2": 3285
+    },
+    "house": {
+      "sales": 139,
+      "medianM2": 3544,
+      "p25M2": 2925,
+      "p75M2": 4264
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "ermont": {
     "coverage": "dvf",
     "apartment": {
@@ -3787,6 +3887,26 @@
     ],
     "queryVersion": 1
   },
+  "fontenay-aux-roses": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 322,
+      "medianM2": 4283,
+      "p25M2": 3713,
+      "p75M2": 5027
+    },
+    "house": {
+      "sales": 63,
+      "medianM2": 5722,
+      "p25M2": 4926,
+      "p75M2": 6711
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "fontenay-le-comte": {
     "coverage": "dvf",
     "apartment": {
@@ -3908,6 +4028,26 @@
       "medianM2": 4984,
       "p25M2": 3617,
       "p75M2": 5740
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "gagny": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 318,
+      "medianM2": 3005,
+      "p25M2": 2520,
+      "p75M2": 3727
+    },
+    "house": {
+      "sales": 404,
+      "medianM2": 3691,
+      "p25M2": 3099,
+      "p75M2": 4392
     },
     "years": [
       2024,
@@ -4663,6 +4803,26 @@
     ],
     "queryVersion": 1
   },
+  "joinville-le-pont": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 344,
+      "medianM2": 5477,
+      "p25M2": 4667,
+      "p75M2": 6355
+    },
+    "house": {
+      "sales": 105,
+      "medianM2": 7163,
+      "p25M2": 5789,
+      "p75M2": 9026
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "joue-les-tours": {
     "coverage": "dvf",
     "apartment": {
@@ -4685,6 +4845,26 @@
   },
   "kingersheim": {
     "coverage": "livre-foncier",
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "l-hay-les-roses": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 351,
+      "medianM2": 3840,
+      "p25M2": 3324,
+      "p75M2": 4525
+    },
+    "house": {
+      "sales": 171,
+      "medianM2": 5158,
+      "p25M2": 4412,
+      "p75M2": 6323
+    },
     "years": [
       2024,
       2025
@@ -5365,6 +5545,26 @@
     ],
     "queryVersion": 1
   },
+  "les-pavillons-sous-bois": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 278,
+      "medianM2": 3112,
+      "p25M2": 2621,
+      "p75M2": 3659
+    },
+    "house": {
+      "sales": 189,
+      "medianM2": 3766,
+      "p25M2": 3167,
+      "p75M2": 4710
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "les-sables-d-olonne": {
     "coverage": "dvf",
     "apartment": {
@@ -5505,6 +5705,26 @@
   },
   "lingolsheim": {
     "coverage": "livre-foncier",
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "livry-gargan": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 545,
+      "medianM2": 2852,
+      "p25M2": 2382,
+      "p75M2": 3444
+    },
+    "house": {
+      "sales": 345,
+      "medianM2": 3606,
+      "p25M2": 2976,
+      "p75M2": 4248
+    },
     "years": [
       2024,
       2025
@@ -6087,6 +6307,26 @@
     ],
     "queryVersion": 1
   },
+  "meudon": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 749,
+      "medianM2": 5503,
+      "p25M2": 3764,
+      "p75M2": 6400
+    },
+    "house": {
+      "sales": 133,
+      "medianM2": 8185,
+      "p25M2": 6800,
+      "p75M2": 9844
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "meyzieu": {
     "coverage": "dvf",
     "apartment": {
@@ -6453,6 +6693,26 @@
     ],
     "queryVersion": 1
   },
+  "montrouge": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 1196,
+      "medianM2": 7107,
+      "p25M2": 6000,
+      "p75M2": 8001
+    },
+    "house": {
+      "sales": 43,
+      "medianM2": 10087,
+      "p25M2": 8157,
+      "p75M2": 12175
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "morlaix": {
     "coverage": "dvf",
     "apartment": {
@@ -6594,6 +6854,26 @@
       "medianM2": 2661,
       "p25M2": 2073,
       "p75M2": 3371
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "neuilly-plaisance": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 266,
+      "medianM2": 3797,
+      "p25M2": 3054,
+      "p75M2": 4699
+    },
+    "house": {
+      "sales": 194,
+      "medianM2": 4414,
+      "p25M2": 3423,
+      "p75M2": 5302
     },
     "years": [
       2024,
@@ -7673,6 +7953,26 @@
     ],
     "queryVersion": 1
   },
+  "ris-orangis": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 353,
+      "medianM2": 2008,
+      "p25M2": 1778,
+      "p75M2": 2421
+    },
+    "house": {
+      "sales": 110,
+      "medianM2": 3254,
+      "p25M2": 2673,
+      "p75M2": 3877
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "roanne": {
     "coverage": "dvf",
     "apartment": {
@@ -7726,6 +8026,26 @@
       "medianM2": 2102,
       "p25M2": 1698,
       "p75M2": 2539
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "romainville": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 394,
+      "medianM2": 5240,
+      "p25M2": 4630,
+      "p75M2": 5800
+    },
+    "house": {
+      "sales": 113,
+      "medianM2": 5808,
+      "p25M2": 4802,
+      "p75M2": 7143
     },
     "years": [
       2024,
@@ -9487,6 +9807,26 @@
     ],
     "queryVersion": 1
   },
+  "thiais": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 451,
+      "medianM2": 3571,
+      "p25M2": 2873,
+      "p75M2": 4338
+    },
+    "house": {
+      "sales": 123,
+      "medianM2": 4398,
+      "p25M2": 3871,
+      "p75M2": 5053
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "thiers": {
     "coverage": "dvf",
     "apartment": {
@@ -9895,6 +10235,26 @@
     ],
     "queryVersion": 1
   },
+  "vanves": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 636,
+      "medianM2": 6222,
+      "p25M2": 5341,
+      "p75M2": 7168
+    },
+    "house": {
+      "sales": 54,
+      "medianM2": 7956,
+      "p25M2": 6682,
+      "p75M2": 10460
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "vaulx-en-velin": {
     "coverage": "dvf",
     "apartment": {
@@ -10175,6 +10535,46 @@
     ],
     "queryVersion": 1
   },
+  "villejuif": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 608,
+      "medianM2": 4785,
+      "p25M2": 3986,
+      "p75M2": 5617
+    },
+    "house": {
+      "sales": 170,
+      "medianM2": 5780,
+      "p25M2": 4875,
+      "p75M2": 6695
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "villemomble": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 315,
+      "medianM2": 3492,
+      "p25M2": 2971,
+      "p75M2": 4146
+    },
+    "house": {
+      "sales": 247,
+      "medianM2": 4108,
+      "p25M2": 3369,
+      "p75M2": 4867
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "villenave-d-ornon": {
     "coverage": "dvf",
     "apartment": {
@@ -10228,6 +10628,26 @@
       "medianM2": 1429,
       "p25M2": 1036,
       "p75M2": 1831
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "villepinte": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 272,
+      "medianM2": 2462,
+      "p25M2": 2061,
+      "p75M2": 3177
+    },
+    "house": {
+      "sales": 262,
+      "medianM2": 3135,
+      "p25M2": 2601,
+      "p75M2": 3667
     },
     "years": [
       2024,

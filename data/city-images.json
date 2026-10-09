@@ -189,22 +189,22 @@
     }
   },
   "ales": {
-    "insee": "30006",
-    "qid": "Q243915",
-    "file": "Mairie d'Aimargues.jpg",
-    "author": "FRLDEL",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:FRLDEL",
+    "insee": "30007",
+    "qid": "Q193183",
+    "file": "Ales from Belvedere.jpg",
+    "author": "MartinD",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:MartinD",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_d%27Aimargues.jpg",
-    "color": "#f8f8f8",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ales_from_Belvedere.jpg",
+    "color": "#88a8d8",
     "hero": {
-      "src": "/photos/villes/ales-1024.ec5a83a4.webp",
+      "src": "/photos/villes/ales-1024.6f48d26b.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/ales-480.d07220a3.webp",
+      "src": "/photos/villes/ales-480.b74b39a4.webp",
       "width": 480,
       "height": 300
     }
@@ -254,20 +254,20 @@
   "amberieu-en-bugey": {
     "insee": "01004",
     "qid": "Q192166",
-    "file": "Mairie-Ambérieu.jpg",
-    "author": "Marius Bernard",
-    "authorUrl": null,
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie-Amb%C3%A9rieu.jpg",
-    "color": "#180808",
+    "file": "Hôtel Ville - Ambérieu-en-Bugey (FR01) - 2020-09-16 - 1.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Amb%C3%A9rieu-en-Bugey_(FR01)_-_2020-09-16_-_1.jpg",
+    "color": "#080808",
     "hero": {
-      "src": "/photos/villes/amberieu-en-bugey-1024.514f3548.webp",
-      "width": 800,
-      "height": 529
+      "src": "/photos/villes/amberieu-en-bugey-1024.5f3c2783.webp",
+      "width": 1024,
+      "height": 640
     },
     "card": {
-      "src": "/photos/villes/amberieu-en-bugey-480.10615a60.webp",
+      "src": "/photos/villes/amberieu-en-bugey-480.29db3b62.webp",
       "width": 480,
       "height": 300
     }
@@ -1448,6 +1448,27 @@
       "height": 300
     }
   },
+  "bobigny": {
+    "insee": "93008",
+    "qid": "Q154724",
+    "file": "Bobigny - L Illustration 01.jpg",
+    "author": "Clicsouris",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Clicsouris",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Bobigny_-_L_Illustration_01.jpg",
+    "color": "#6898d8",
+    "hero": {
+      "src": "/photos/villes/bobigny-1024.eddf42be.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/bobigny-480.54b4ac4e.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "bois-colombes": {
     "insee": "92009",
     "qid": "Q212566",
@@ -1701,22 +1722,22 @@
     }
   },
   "brioude": {
-    "insee": "43035",
-    "qid": "Q1065812",
-    "file": "La Mairie de Bonneval.jpg",
-    "author": "Mairiebonneval",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Mairiebonneval&amp;action=edit&amp;redlink=1",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:La_Mairie_de_Bonneval.jpg",
+    "insee": "43040",
+    "qid": "Q203303",
+    "file": "Chevet de Saint-Julien de Brioude.jpg",
+    "author": "Fabienuniversité",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Fabienuniversit%C3%A9&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Chevet_de_Saint-Julien_de_Brioude.jpg",
     "color": "#080808",
     "hero": {
-      "src": "/photos/villes/brioude-1024.1946afb6.webp",
-      "width": 1024,
-      "height": 640
+      "src": "/photos/villes/brioude-1024.62b57d9b.webp",
+      "width": 720,
+      "height": 537
     },
     "card": {
-      "src": "/photos/villes/brioude-480.d3d847b3.webp",
+      "src": "/photos/villes/brioude-480.302cf0c5.webp",
       "width": 480,
       "height": 300
     }
@@ -2079,22 +2100,22 @@
     }
   },
   "castelsarrasin": {
-    "insee": "82034",
-    "qid": "Q1359442",
-    "file": "Castéra-Bouzet - Église Saint-Barthélemy -1.JPG",
-    "author": "MOSSOT",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:MOSSOT",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Cast%C3%A9ra-Bouzet_-_%C3%89glise_Saint-Barth%C3%A9lemy_-1.JPG",
-    "color": "#7898c8",
+    "insee": "82033",
+    "qid": "Q213285",
+    "file": "Castelsarrasin - Hotel de Ville.jpg",
+    "author": "Didier Descouens",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Archaeodontosaurus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Castelsarrasin_-_Hotel_de_Ville.jpg",
+    "color": "#e8e8f8",
     "hero": {
-      "src": "/photos/villes/castelsarrasin-1024.4340ed1f.webp",
+      "src": "/photos/villes/castelsarrasin-1024.bee4a1cc.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/castelsarrasin-480.40f6868c.webp",
+      "src": "/photos/villes/castelsarrasin-480.5c87ee4d.webp",
       "width": 480,
       "height": 300
     }
@@ -2163,22 +2184,22 @@
     }
   },
   "ceret": {
-    "insee": "66044",
-    "qid": "Q191094",
-    "file": "Castelnou.jpg",
-    "author": null,
-    "authorUrl": null,
+    "insee": "66049",
+    "qid": "Q6643",
+    "file": "Ceret.jpg",
+    "author": "Reichter66",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Reichter66&amp;action=edit&amp;redlink=1",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Castelnou.jpg",
-    "color": "#484848",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ceret.jpg",
+    "color": "#585868",
     "hero": {
-      "src": "/photos/villes/ceret-1024.c5b639de.webp",
-      "width": 850,
-      "height": 638
+      "src": "/photos/villes/ceret-1024.c160e6c9.webp",
+      "width": 1024,
+      "height": 640
     },
     "card": {
-      "src": "/photos/villes/ceret-480.a9de77f5.webp",
+      "src": "/photos/villes/ceret-480.89309095.webp",
       "width": 480,
       "height": 300
     }
@@ -2582,6 +2603,27 @@
       "height": 300
     }
   },
+  "chaville": {
+    "insee": "92022",
+    "qid": "Q494125",
+    "file": "Hôtel Ville - Chaville (FR92) - 2023-02-18 - 7.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Chaville_(FR92)_-_2023-02-18_-_7.jpg",
+    "color": "#c8c8b8",
+    "hero": {
+      "src": "/photos/villes/chaville-1024.0a10139d.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/chaville-480.aa3b5df6.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "chelles": {
     "insee": "77108",
     "qid": "Q272916",
@@ -2646,22 +2688,22 @@
     }
   },
   "chinon": {
-    "insee": "37063",
-    "qid": "Q476900",
-    "file": "Château-Renault (Indre-et-Loire).jpg",
-    "author": "sybarite48",
-    "authorUrl": "https://www.flickr.com/people/26082117@N07",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau-Renault_(Indre-et-Loire).jpg",
-    "color": "#f8f8f8",
+    "insee": "37072",
+    "qid": "Q194138",
+    "file": "00 30013 Chinon - Frankreich.jpg",
+    "author": "W. Bulach",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:W._Bulach",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:00_30013_Chinon_-_Frankreich.jpg",
+    "color": "#6898d8",
     "hero": {
-      "src": "/photos/villes/chinon-1024.c4898703.webp",
+      "src": "/photos/villes/chinon-1024.29243097.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/chinon-480.2eabd71c.webp",
+      "src": "/photos/villes/chinon-480.879203cd.webp",
       "width": 480,
       "height": 300
     }
@@ -2704,6 +2746,27 @@
     },
     "card": {
       "src": "/photos/villes/cholet-480.5ccdc8e0.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "clamart": {
+    "insee": "92023",
+    "qid": "Q194160",
+    "file": "Mairie de clamart.jpg",
+    "author": null,
+    "authorUrl": null,
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_de_clamart.jpg",
+    "color": "#888888",
+    "hero": {
+      "src": "/photos/villes/clamart-1024.d2b476e0.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/clamart-480.27ece284.webp",
       "width": 480,
       "height": 300
     }
@@ -2751,22 +2814,22 @@
     }
   },
   "clermont-herault": {
-    "insee": "34065",
-    "qid": "Q1073226",
-    "file": "Fontcaude7avril071bis.JPG",
-    "author": "Ph. REUL",
-    "authorUrl": null,
-    "license": "Public domain",
-    "licenseUrl": null,
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Fontcaude7avril071bis.JPG",
-    "color": "#d8e8f8",
+    "insee": "34079",
+    "qid": "Q238689",
+    "file": "Collégiale Saint-Paul de Clermont-l'Hérault (2).jpg",
+    "author": "Selmoval",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Selmoval",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Coll%C3%A9giale_Saint-Paul_de_Clermont-l%27H%C3%A9rault_(2).jpg",
+    "color": "#484848",
     "hero": {
-      "src": "/photos/villes/clermont-herault-1024.0a7e9b0d.webp",
-      "width": 922,
+      "src": "/photos/villes/clermont-herault-1024.b0f6ecf6.webp",
+      "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/clermont-herault-480.78f07493.webp",
+      "src": "/photos/villes/clermont-herault-480.a017270d.webp",
       "width": 480,
       "height": 300
     }
@@ -2792,23 +2855,44 @@
       "height": 300
     }
   },
-  "cluses": {
-    "insee": "74065",
-    "qid": "Q819275",
-    "file": "ChaumontHauteSavoie.jpg",
-    "author": "Rexpain",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Rexpain&amp;action=edit&amp;redlink=1",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:ChaumontHauteSavoie.jpg",
-    "color": "#b8c8e8",
+  "clichy-sous-bois": {
+    "insee": "93014",
+    "qid": "Q206931",
+    "file": "Hôtel Ville Clichy Bois 9.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_Clichy_Bois_9.jpg",
+    "color": "#080808",
     "hero": {
-      "src": "/photos/villes/cluses-1024.676f2461.webp",
-      "width": 800,
-      "height": 600
+      "src": "/photos/villes/clichy-sous-bois-1024.335bc194.webp",
+      "width": 1024,
+      "height": 640
     },
     "card": {
-      "src": "/photos/villes/cluses-480.08d46064.webp",
+      "src": "/photos/villes/clichy-sous-bois-480.b0dc9b2d.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "cluses": {
+    "insee": "74081",
+    "qid": "Q654153",
+    "file": "Cluses vue du Chevran.JPG",
+    "author": "Sébastien Bruneau",
+    "authorUrl": null,
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Cluses_vue_du_Chevran.JPG",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/cluses-1024.4aff8a8a.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/cluses-480.7e0aa153.webp",
       "width": 480,
       "height": 300
     }
@@ -2835,22 +2919,22 @@
     }
   },
   "collioure": {
-    "insee": "66047",
-    "qid": "Q190045",
-    "file": "Caudiès de Conflent.jpg",
-    "author": "Jcb-caz-11",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Jcb-caz-11",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Caudi%C3%A8s_de_Conflent.jpg",
-    "color": "#080808",
+    "insee": "66053",
+    "qid": "Q254829",
+    "file": "Collioure 002.jpg",
+    "author": "Doronenko",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Doronenko",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Collioure_002.jpg",
+    "color": "#88b8d8",
     "hero": {
-      "src": "/photos/villes/collioure-1024.7b01c77c.webp",
+      "src": "/photos/villes/collioure-1024.362c97df.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/collioure-480.00772eaa.webp",
+      "src": "/photos/villes/collioure-480.c718b48c.webp",
       "width": 480,
       "height": 300
     }
@@ -3108,22 +3192,22 @@
     }
   },
   "cosne-cours-sur-loire": {
-    "insee": "58083",
-    "qid": "Q644025",
-    "file": "L'Anguison a Corbigny DSC 0406.JPG",
-    "author": "Pline",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Pline",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:L%27Anguison_a_Corbigny_DSC_0406.JPG",
+    "insee": "58086",
+    "qid": "Q476253",
+    "file": "Bords de Loire et pont, Cosne-Cours-sur-Loire.jpg",
+    "author": "Cjp24",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Cjp24",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Bords_de_Loire_et_pont,_Cosne-Cours-sur-Loire.jpg",
     "color": "#080808",
     "hero": {
-      "src": "/photos/villes/cosne-cours-sur-loire-1024.62663e41.webp",
+      "src": "/photos/villes/cosne-cours-sur-loire-1024.eddfcc39.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/cosne-cours-sur-loire-480.10305679.webp",
+      "src": "/photos/villes/cosne-cours-sur-loire-480.ed476da3.webp",
       "width": 480,
       "height": 300
     }
@@ -3381,22 +3465,22 @@
     }
   },
   "dinan": {
-    "insee": "22023",
-    "qid": "Q214389",
-    "file": "Bulat Pestivien - Bretagne - France - Eglise Church Notre-Dame 2003.jpg",
-    "author": "Binche",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Binche",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Bulat_Pestivien_-_Bretagne_-_France_-_Eglise_Church_Notre-Dame_2003.jpg",
-    "color": "#4898d8",
+    "insee": "22050",
+    "qid": "Q201311",
+    "file": "Dinan Panorama.jpg",
+    "author": "Benh LIEU SONG",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Benh",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Dinan_Panorama.jpg",
+    "color": "#080808",
     "hero": {
-      "src": "/photos/villes/dinan-1024.088275d7.webp",
-      "width": 600,
+      "src": "/photos/villes/dinan-1024.0b24d75c.webp",
+      "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/dinan-480.8d20920d.webp",
+      "src": "/photos/villes/dinan-480.2e7aa128.webp",
       "width": 480,
       "height": 300
     }
@@ -3737,6 +3821,27 @@
       "height": 300
     }
   },
+  "epinay-sur-seine": {
+    "insee": "93031",
+    "qid": "Q206961",
+    "file": "Mairie de Épinay-sur-Seine.jpg",
+    "author": "The original uploader was Olivier2000 at French Wikipedia. and has taken this picture himself",
+    "authorUrl": "https://en.wikipedia.org/wiki/fr:User:Olivier2000",
+    "license": "CC BY 1.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/1.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_de_%C3%89pinay-sur-Seine.jpg",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/epinay-sur-seine-1024.b5ced207.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/epinay-sur-seine-480.704a7c6b.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "ermont": {
     "insee": "95219",
     "qid": "Q239123",
@@ -3780,22 +3885,22 @@
     }
   },
   "evian-les-bains": {
-    "insee": "74114",
-    "qid": "Q829221",
-    "file": "Village-essert-romand.jpg",
-    "author": "Yvan Tisseyre / OT Vallée d'Aulps",
-    "authorUrl": null,
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Village-essert-romand.jpg",
-    "color": "#c8e8f8",
+    "insee": "74119",
+    "qid": "Q273017",
+    "file": "2009-08-27 Lake Geneva 464.JPG",
+    "author": "Norbert Aepli, Switzerland (User:Noebu)",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Noebu",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:2009-08-27_Lake_Geneva_464.JPG",
+    "color": "#f8f8f8",
     "hero": {
-      "src": "/photos/villes/evian-les-bains-1024.81098185.webp",
-      "width": 800,
-      "height": 524
+      "src": "/photos/villes/evian-les-bains-1024.1d8f9e4b.webp",
+      "width": 1024,
+      "height": 640
     },
     "card": {
-      "src": "/photos/villes/evian-les-bains-480.9fe0c3ee.webp",
+      "src": "/photos/villes/evian-les-bains-480.2958c4d8.webp",
       "width": 480,
       "height": 300
     }
@@ -3929,20 +4034,20 @@
   "fleury-les-aubrais": {
     "insee": "45147",
     "qid": "Q857771",
-    "file": "Fleury les Aubrais 009.jpg",
-    "author": "Wikifrédéric",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Wikifr%C3%A9d%C3%A9ric&amp;action=edit&amp;redlink=1",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Fleury_les_Aubrais_009.jpg",
-    "color": "#6888b8",
+    "file": "Mairie de Fleury-les-Aubrais.jpg",
+    "author": "U4you",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:U4you",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_de_Fleury-les-Aubrais.jpg",
+    "color": "#383838",
     "hero": {
-      "src": "/photos/villes/fleury-les-aubrais-1024.9870990e.webp",
+      "src": "/photos/villes/fleury-les-aubrais-1024.5f6e2530.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/fleury-les-aubrais-480.6deb90d3.webp",
+      "src": "/photos/villes/fleury-les-aubrais-480.366259c2.webp",
       "width": 480,
       "height": 300
     }
@@ -4027,6 +4132,27 @@
     },
     "card": {
       "src": "/photos/villes/fontainebleau-480.f1433140.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "fontenay-aux-roses": {
+    "insee": "92032",
+    "qid": "Q269166",
+    "file": "Mairie - Fontenay-aux-Roses (FR92) - 2021-01-03 - 2.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_-_Fontenay-aux-Roses_(FR92)_-_2021-01-03_-_2.jpg",
+    "color": "#e8e8f8",
+    "hero": {
+      "src": "/photos/villes/fontenay-aux-roses-1024.2ac10925.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/fontenay-aux-roses-480.e247e22c.webp",
       "width": 480,
       "height": 300
     }
@@ -4174,6 +4300,27 @@
     },
     "card": {
       "src": "/photos/villes/fresnes-480.a711a02f.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "gagny": {
+    "insee": "93032",
+    "qid": "Q179821",
+    "file": "Hôtel Ville Gagny 5.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_Gagny_5.jpg",
+    "color": "#d8d8e8",
+    "hero": {
+      "src": "/photos/villes/gagny-1024.a0f074c2.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/gagny-480.19e4fc3c.webp",
       "width": 480,
       "height": 300
     }
@@ -4326,22 +4473,22 @@
     }
   },
   "gien": {
-    "insee": "45154",
-    "qid": "Q837367",
-    "file": "Mairie de Gidy en juin 2014 - 1.jpg",
-    "author": "Lionel Allorge",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Lionel_Allorge",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_de_Gidy_en_juin_2014_-_1.jpg",
-    "color": "#c8c8c8",
+    "insee": "45155",
+    "qid": "Q475599",
+    "file": "00 2366 Gien, Département Loiret.jpg",
+    "author": "W. Bulach",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:W._Bulach",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:00_2366_Gien,_D%C3%A9partement_Loiret.jpg",
+    "color": "#98b8d8",
     "hero": {
-      "src": "/photos/villes/gien-1024.195b25cb.webp",
+      "src": "/photos/villes/gien-1024.eec63167.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/gien-480.1d60ec10.webp",
+      "src": "/photos/villes/gien-480.f4470a08.webp",
       "width": 480,
       "height": 300
     }
@@ -4389,22 +4536,22 @@
     }
   },
   "gordes": {
-    "insee": "84049",
-    "qid": "Q334400",
-    "file": "Gigondas by JM Rosier.jpg",
-    "author": "Jean-Marc Rosier http://www.cjrosier.com + http://www.gordes-immobilier.com)",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Ampon",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Gigondas_by_JM_Rosier.jpg",
-    "color": "#d8d8e8",
+    "insee": "84050",
+    "qid": "Q272308",
+    "file": "0 Gordes sur son piton rocheux.jpg",
+    "author": "Jean-Pol GRANDMONT",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Jean-Pol_GRANDMONT",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:0_Gordes_sur_son_piton_rocheux.jpg",
+    "color": "#a8c8e8",
     "hero": {
-      "src": "/photos/villes/gordes-1024.0757897f.webp",
-      "width": 700,
-      "height": 441
+      "src": "/photos/villes/gordes-1024.2cfff8f5.webp",
+      "width": 1024,
+      "height": 640
     },
     "card": {
-      "src": "/photos/villes/gordes-480.8b6b4a83.webp",
+      "src": "/photos/villes/gordes-480.c7ec0de7.webp",
       "width": 480,
       "height": 300
     }
@@ -4725,22 +4872,22 @@
     }
   },
   "herouville-saint-clair": {
-    "insee": "14341",
-    "qid": "Q996113",
-    "file": "Ifs mairie.png",
-    "author": "hamon jp",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Entomolo",
+    "insee": "14327",
+    "qid": "Q234361",
+    "file": "La place fontaine vue passerelle Hérouville.jpg",
+    "author": "Pascal Radigue",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Pradigue",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ifs_mairie.png",
-    "color": "#080808",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:La_place_fontaine_vue_passerelle_H%C3%A9rouville.jpg",
+    "color": "#4878b8",
     "hero": {
-      "src": "/photos/villes/herouville-saint-clair-1024.03d549fd.webp",
+      "src": "/photos/villes/herouville-saint-clair-1024.bf70e979.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/herouville-saint-clair-480.11137ac1.webp",
+      "src": "/photos/villes/herouville-saint-clair-480.c965669f.webp",
       "width": 480,
       "height": 300
     }
@@ -4767,22 +4914,22 @@
     }
   },
   "hossegor": {
-    "insee": "40271",
-    "qid": "Q651802",
-    "file": "Sainte-Marie-de-Gosse - Mairie.jpg",
-    "author": "This illustration was made by Peter Potrowl. Please credit this with : © Peter Potrowl in the immediate vicinity of the image. A link to my website sitemai.eu would be much appreciated but isn't mandatory. An email to Peter Potrowl would be appreciated too. Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me Peter Potrowl to negotiate terms. More free pictures in my website. Donations are accepted here and here.",
-    "authorUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Sainte-Marie-de-Gosse_-_Mairie.jpg",
+    "insee": "40304",
+    "qid": "Q546832",
+    "file": "PlageHossegore.jpg",
+    "author": "Kelly Walter",
+    "authorUrl": null,
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Sainte-Marie-de-Gosse_-_Mairie.jpg",
-    "color": "#6888c8",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:PlageHossegore.jpg",
+    "color": "#6898b8",
     "hero": {
-      "src": "/photos/villes/hossegor-1024.22832aa7.webp",
+      "src": "/photos/villes/hossegor-1024.e997e62b.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/hossegor-480.1d671f8a.webp",
+      "src": "/photos/villes/hossegor-480.32e8cf5d.webp",
       "width": 480,
       "height": 300
     }
@@ -4830,22 +4977,22 @@
     }
   },
   "ile-de-re": {
-    "insee": "17300",
-    "qid": "Q82185",
-    "file": "La Rochelle Vieux-Port.JPG",
-    "author": "Remi Jouan",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:CaptainHaddock",
+    "insee": "17369",
+    "qid": "Q845987",
+    "file": "Saint-Martin.jpg",
+    "author": "User:Brice~commonswiki",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Brice~commonswiki",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:La_Rochelle_Vieux-Port.JPG",
-    "color": "#b8c8c8",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Saint-Martin.jpg",
+    "color": "#f8f8f8",
     "hero": {
-      "src": "/photos/villes/ile-de-re-1024.a3906e7e.webp",
+      "src": "/photos/villes/ile-de-re-1024.4b98e33c.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/ile-de-re-480.bcb23e7e.webp",
+      "src": "/photos/villes/ile-de-re-480.094699be.webp",
       "width": 480,
       "height": 300
     }
@@ -5018,6 +5165,27 @@
       "height": 300
     }
   },
+  "joinville-le-pont": {
+    "insee": "94042",
+    "qid": "Q609134",
+    "file": "Pont de Joinville.jpg",
+    "author": "Lecheminlu",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Lecheminlu&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Pont_de_Joinville.jpg",
+    "color": "#686878",
+    "hero": {
+      "src": "/photos/villes/joinville-le-pont-1024.ba6e5a13.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/joinville-le-pont-480.2da120c7.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "joue-les-tours": {
     "insee": "37122",
     "qid": "Q269364",
@@ -5057,6 +5225,27 @@
     "card": {
       "src": "/photos/villes/kingersheim-480.9bce5ce8.webp",
       "width": 480,
+      "height": 300
+    }
+  },
+  "l-hay-les-roses": {
+    "insee": "94038",
+    "qid": "Q128643",
+    "file": "Pavillon normand.jpg",
+    "author": "C. Potez-Delpuech",
+    "authorUrl": null,
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Pavillon_normand.jpg",
+    "color": "#080808",
+    "hero": {
+      "src": "/photos/villes/l-hay-les-roses-1024.e7ce8ec1.webp",
+      "width": 404,
+      "height": 450
+    },
+    "card": {
+      "src": "/photos/villes/l-hay-les-roses-480.4d6b9d63.webp",
+      "width": 404,
       "height": 300
     }
   },
@@ -5481,22 +5670,22 @@
     }
   },
   "le-francois": {
-    "insee": "97214",
-    "qid": "Q595351",
-    "file": "St Hyacinthe Lorrain 2.jpg",
-    "author": "UHF",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:UHF&amp;action=edit&amp;redlink=1",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:St_Hyacinthe_Lorrain_2.jpg",
-    "color": "#5878b8",
+    "insee": "97210",
+    "qid": "Q282944",
+    "file": "France-Martinique-Le Francois.jpg",
+    "author": null,
+    "authorUrl": null,
+    "license": "Public domain",
+    "licenseUrl": null,
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:France-Martinique-Le_Francois.jpg",
+    "color": "#8898a8",
     "hero": {
-      "src": "/photos/villes/le-francois-1024.a4c8501d.webp",
+      "src": "/photos/villes/le-francois-1024.387c0a77.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/le-francois-480.b19bc7f0.webp",
+      "src": "/photos/villes/le-francois-480.331189ed.webp",
       "width": 480,
       "height": 300
     }
@@ -5754,22 +5943,43 @@
     }
   },
   "les-andelys": {
-    "insee": "27003",
-    "qid": "Q342546",
-    "file": "Mairie d'Acquigny.jpg",
-    "author": "Brigitte CLIN",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Acquigny27400&amp;action=edit&amp;redlink=1",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_d%27Acquigny.jpg",
-    "color": "#080808",
+    "insee": "27016",
+    "qid": "Q209770",
+    "file": "Petit-andely-depuis-chateau-gaillard.jpg",
+    "author": "Tristan Nitot",
+    "authorUrl": null,
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Petit-andely-depuis-chateau-gaillard.jpg",
+    "color": "#f8f8f8",
     "hero": {
-      "src": "/photos/villes/les-andelys-1024.e1a725f8.webp",
+      "src": "/photos/villes/les-andelys-1024.58b11ec2.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/les-andelys-480.5a5b031e.webp",
+      "src": "/photos/villes/les-andelys-480.5930134b.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "les-pavillons-sous-bois": {
+    "insee": "93057",
+    "qid": "Q498043",
+    "file": "Pavillons Garde - Les Pavillons-sous-Bois (FR93) - 2026-04-17 - 15.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Pavillons_Garde_-_Les_Pavillons-sous-Bois_(FR93)_-_2026-04-17_-_15.jpg",
+    "color": "#98b8e8",
+    "hero": {
+      "src": "/photos/villes/les-pavillons-sous-bois-1024.be58de2b.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/les-pavillons-sous-bois-480.6fc832f1.webp",
       "width": 480,
       "height": 300
     }
@@ -5817,22 +6027,22 @@
     }
   },
   "libourne": {
-    "insee": "33227",
-    "qid": "Q207154",
-    "file": "Langon 33 Mairie.jpg",
-    "author": "Henry Salomé",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Henrysalome",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Langon_33_Mairie.jpg",
-    "color": "#f8f8f8",
+    "insee": "33243",
+    "qid": "Q6544",
+    "file": "Libourne Pont de Pierre.jpg",
+    "author": "Marcel Roblin",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Marcel_Roblin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Libourne_Pont_de_Pierre.jpg",
+    "color": "#a8b8c8",
     "hero": {
-      "src": "/photos/villes/libourne-1024.f0e91cbe.webp",
+      "src": "/photos/villes/libourne-1024.213bec68.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/libourne-480.47d5beb9.webp",
+      "src": "/photos/villes/libourne-480.cf33cc49.webp",
       "width": 480,
       "height": 300
     }
@@ -5942,23 +6152,44 @@
       "height": 300
     }
   },
-  "longwy": {
-    "insee": "54329",
-    "qid": "Q208794",
-    "file": "Chateau Luneville ar 10 2010.JPG",
-    "author": "fr:Utilisateur:Grain de sel",
-    "authorUrl": null,
+  "livry-gargan": {
+    "insee": "93046",
+    "qid": "Q180005",
+    "file": "Hôtel Ville Livry Gargan 2.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Chateau_Luneville_ar_10_2010.JPG",
-    "color": "#78a8e8",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_Livry_Gargan_2.jpg",
+    "color": "#c8c8c8",
     "hero": {
-      "src": "/photos/villes/longwy-1024.2eedff82.webp",
-      "width": 800,
-      "height": 602
+      "src": "/photos/villes/livry-gargan-1024.7b068a07.webp",
+      "width": 1024,
+      "height": 640
     },
     "card": {
-      "src": "/photos/villes/longwy-480.6492947c.webp",
+      "src": "/photos/villes/livry-gargan-480.6612c044.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "longwy": {
+    "insee": "54323",
+    "qid": "Q318535",
+    "file": "Longwy.jpg",
+    "author": "Initsogan",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Initsogan&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Longwy.jpg",
+    "color": "#081808",
+    "hero": {
+      "src": "/photos/villes/longwy-1024.c1e70b99.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/longwy-480.13fbc2a0.webp",
       "width": 480,
       "height": 300
     }
@@ -6153,22 +6384,22 @@
     }
   },
   "mamoudzou": {
-    "insee": "97608",
-    "qid": "Q846048",
-    "file": "Dzaoudzi.jpg",
-    "author": "Yane MAINARD",
-    "authorUrl": "https://pixabay.com/fr/users/anymal2-5110801/",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Dzaoudzi.jpg",
-    "color": "#285878",
+    "insee": "97611",
+    "qid": "Q132676",
+    "file": "Mamoudzou (10029936275).jpg",
+    "author": "David Stanley from Nanaimo, Canada",
+    "authorUrl": "https://www.flickr.com/people/79721788@N00",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mamoudzou_(10029936275).jpg",
+    "color": "#88c8e8",
     "hero": {
-      "src": "/photos/villes/mamoudzou-1024.83b7a3d8.webp",
-      "width": 960,
-      "height": 638
+      "src": "/photos/villes/mamoudzou-1024.c97a99c6.webp",
+      "width": 1024,
+      "height": 640
     },
     "card": {
-      "src": "/photos/villes/mamoudzou-480.b3c85923.webp",
+      "src": "/photos/villes/mamoudzou-480.6749a8dc.webp",
       "width": 480,
       "height": 300
     }
@@ -6405,22 +6636,22 @@
     }
   },
   "mayenne": {
-    "insee": "53145",
-    "qid": "Q1105905",
-    "file": "Marigné-Peuton église.jpg",
-    "author": "Simon de l'Ouest",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Simon_de_l%27Ouest",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Marign%C3%A9-Peuton_%C3%A9glise.jpg",
-    "color": "#181818",
+    "insee": "53147",
+    "qid": "Q213513",
+    "file": "Mayenne - Castle - 2.jpg",
+    "author": "Own work",
+    "authorUrl": null,
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mayenne_-_Castle_-_2.jpg",
+    "color": "#6898d8",
     "hero": {
-      "src": "/photos/villes/mayenne-1024.34832778.webp",
+      "src": "/photos/villes/mayenne-1024.f7e12988.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/mayenne-480.e77a05c1.webp",
+      "src": "/photos/villes/mayenne-480.eada74cd.webp",
       "width": 480,
       "height": 300
     }
@@ -6568,6 +6799,27 @@
     },
     "card": {
       "src": "/photos/villes/metz-480.fcc6ec84.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "meudon": {
+    "insee": "92048",
+    "qid": "Q234735",
+    "file": "Meudon-Observatoire.jpg",
+    "author": "Jean-Christophe BENOIST",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Jean-Christophe_BENOIST",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Meudon-Observatoire.jpg",
+    "color": "#0868b8",
+    "hero": {
+      "src": "/photos/villes/meudon-1024.55bab390.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/meudon-480.c9554aad.webp",
       "width": 480,
       "height": 300
     }
@@ -6971,6 +7223,27 @@
       "height": 300
     }
   },
+  "montrouge": {
+    "insee": "92049",
+    "qid": "Q241021",
+    "file": "Hôtel ville Montrouge 2.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_Montrouge_2.jpg",
+    "color": "#a8b8d8",
+    "hero": {
+      "src": "/photos/villes/montrouge-1024.47fb05f4.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/montrouge-480.dd0724c9.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "morlaix": {
     "insee": "29151",
     "qid": "Q202368",
@@ -6993,22 +7266,22 @@
     }
   },
   "moulins": {
-    "insee": "03185",
-    "qid": "Q193256",
-    "file": "Château des ducs de Bourbon à Montluçon en juillet 2014 - 04.jpg",
-    "author": "Lionel Allorge",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Lionel_Allorge",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_des_ducs_de_Bourbon_%C3%A0_Montlu%C3%A7on_en_juillet_2014_-_04.jpg",
-    "color": "#080808",
+    "insee": "03190",
+    "qid": "Q184883",
+    "file": "Cathédrale Notre Dame et église du Sacré Coeur de Moulins 2006-07-24.jpg",
+    "author": "jean-louis Zimmermann",
+    "authorUrl": "https://www.flickr.com/people/40911451@N00",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre_Dame_et_%C3%A9glise_du_Sacr%C3%A9_Coeur_de_Moulins_2006-07-24.jpg",
+    "color": "#284858",
     "hero": {
-      "src": "/photos/villes/moulins-1024.b99dc849.webp",
+      "src": "/photos/villes/moulins-1024.28dda070.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/moulins-480.8d9ea233.webp",
+      "src": "/photos/villes/moulins-480.e629b0eb.webp",
       "width": 480,
       "height": 300
     }
@@ -7139,7 +7412,7 @@
       "height": 300
     }
   },
-  "neuilly-sur-marne": {
+  "neuilly-plaisance": {
     "insee": "93049",
     "qid": "Q685597",
     "file": "Mairie Neuilly Plaisance 2.jpg",
@@ -7150,12 +7423,33 @@
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_Neuilly_Plaisance_2.jpg",
     "color": "#d8d8e8",
     "hero": {
-      "src": "/photos/villes/neuilly-sur-marne-1024.0bb9cf7d.webp",
+      "src": "/photos/villes/neuilly-plaisance-1024.0bb9cf7d.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/neuilly-sur-marne-480.2a55e5e7.webp",
+      "src": "/photos/villes/neuilly-plaisance-480.2a55e5e7.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "neuilly-sur-marne": {
+    "insee": "93050",
+    "qid": "Q220906",
+    "file": "Église Ste Baudile Neuilly Marne 23.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Ste_Baudile_Neuilly_Marne_23.jpg",
+    "color": "#b8c8d8",
+    "hero": {
+      "src": "/photos/villes/neuilly-sur-marne-1024.cb8333f5.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/neuilly-sur-marne-480.6020e9fb.webp",
       "width": 480,
       "height": 300
     }
@@ -7329,22 +7623,22 @@
     }
   },
   "noisy-le-grand": {
-    "insee": "93047",
-    "qid": "Q237367",
-    "file": "Hôtel Ville - Montfermeil (FR93) - 2022-10-23 - 3.jpg",
+    "insee": "93051",
+    "qid": "Q207605",
+    "file": "Mairie Noisy Grand 24.jpg",
     "author": "Chabe01",
     "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Montfermeil_(FR93)_-_2022-10-23_-_3.jpg",
-    "color": "#080808",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_Noisy_Grand_24.jpg",
+    "color": "#78a8f8",
     "hero": {
-      "src": "/photos/villes/noisy-le-grand-1024.e227e78a.webp",
+      "src": "/photos/villes/noisy-le-grand-1024.4d38a3d6.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/noisy-le-grand-480.c3445d3b.webp",
+      "src": "/photos/villes/noisy-le-grand-480.edc3fd85.webp",
       "width": 480,
       "height": 300
     }
@@ -7371,22 +7665,22 @@
     }
   },
   "obernai": {
-    "insee": "67360",
-    "qid": "Q21335",
-    "file": "Ohnenheim 002.JPG",
-    "author": "Bernard Chenal",
-    "authorUrl": null,
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ohnenheim_002.JPG",
-    "color": "#080808",
+    "insee": "67348",
+    "qid": "Q22727",
+    "file": "Le centre d'Obernai hivernal depuis le mont national.jpg",
+    "author": "Valentin F.R.",
+    "authorUrl": "https://www.flickr.com/people/147161025@N05",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Le_centre_d%27Obernai_hivernal_depuis_le_mont_national.jpg",
+    "color": "#e8d8d8",
     "hero": {
-      "src": "/photos/villes/obernai-1024.bf225908.webp",
+      "src": "/photos/villes/obernai-1024.1bdc1b16.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/obernai-480.28c49a92.webp",
+      "src": "/photos/villes/obernai-480.f8a921cc.webp",
       "width": 480,
       "height": 300
     }
@@ -7539,22 +7833,22 @@
     }
   },
   "pamiers": {
-    "insee": "09220",
-    "qid": "Q526432",
-    "file": "Orlu, le village, Ariège 1900.jpg",
-    "author": "Original by Eugène Trutat (Born in 1840 - Dead in 1910) - Scan on Flickr by Bibliothèque de Toulouse",
-    "authorUrl": "https://en.wikipedia.org/wiki/en:Eug%C3%A8ne_Trutat",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Orlu,_le_village,_Ari%C3%A8ge_1900.jpg",
-    "color": "#f8f8f8",
+    "insee": "09225",
+    "qid": "Q209834",
+    "file": "Bannière Pamiers.jpg",
+    "author": "Nebru09",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Nebru09",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Banni%C3%A8re_Pamiers.jpg",
+    "color": "#5888b8",
     "hero": {
-      "src": "/photos/villes/pamiers-1024.35437393.webp",
+      "src": "/photos/villes/pamiers-1024.e8516828.webp",
       "width": 1024,
-      "height": 640
+      "height": 557
     },
     "card": {
-      "src": "/photos/villes/pamiers-480.18816546.webp",
+      "src": "/photos/villes/pamiers-480.ef5d0095.webp",
       "width": 480,
       "height": 300
     }
@@ -7770,22 +8064,22 @@
     }
   },
   "pezenas": {
-    "insee": "34197",
-    "qid": "Q1150715",
-    "file": "Peret (14).jpg",
-    "author": "Archives départementales de l'Hérault (France) DAASI",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Archives_d%C3%A9partementales_de_l%27H%C3%A9rault_(France)_DAASI&amp;action=edit&amp;redlink=1",
+    "insee": "34199",
+    "qid": "Q633811",
+    "file": "Cours Jean Jaures in Pezenas.jpg",
+    "author": "Krzysztof Golik",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Tournasol7",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Peret_(14).jpg",
-    "color": "#f8f8f8",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Cours_Jean_Jaures_in_Pezenas.jpg",
+    "color": "#686868",
     "hero": {
-      "src": "/photos/villes/pezenas-1024.9a588b20.webp",
+      "src": "/photos/villes/pezenas-1024.29f06113.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/pezenas-480.d9c3beb6.webp",
+      "src": "/photos/villes/pezenas-480.b015991a.webp",
       "width": 480,
       "height": 300
     }
@@ -8211,22 +8505,22 @@
     }
   },
   "riedisheim": {
-    "insee": "68267",
-    "qid": "Q148780",
-    "file": "Maison ancienne Reiningue 2008.jpg",
-    "author": "Félix Potuit",
-    "authorUrl": null,
-    "license": "Public domain",
-    "licenseUrl": null,
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Maison_ancienne_Reiningue_2008.jpg",
-    "color": "#b8c8e8",
+    "insee": "68271",
+    "qid": "Q148775",
+    "file": "Riedisheim, Hôtel de ville.jpg",
+    "author": "Rauenstein",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Rauenstein",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Riedisheim,_H%C3%B4tel_de_ville.jpg",
+    "color": "#88b8e8",
     "hero": {
-      "src": "/photos/villes/riedisheim-1024.7d586712.webp",
+      "src": "/photos/villes/riedisheim-1024.7da6a983.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/riedisheim-480.2e36eb08.webp",
+      "src": "/photos/villes/riedisheim-480.48e4dbc5.webp",
       "width": 480,
       "height": 300
     }
@@ -8269,6 +8563,27 @@
     },
     "card": {
       "src": "/photos/villes/riom-480.9823eec3.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "ris-orangis": {
+    "insee": "91521",
+    "qid": "Q274237",
+    "file": "MAIRIE RIS-ORANGIS.jpg",
+    "author": "ABRI IMMO",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:ABRI_IMMO&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:MAIRIE_RIS-ORANGIS.jpg",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/ris-orangis-1024.5233dda4.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/ris-orangis-480.c877d613.webp",
       "width": 480,
       "height": 300
     }
@@ -8332,6 +8647,27 @@
     },
     "card": {
       "src": "/photos/villes/rodez-480.bc2c0e36.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "romainville": {
+    "insee": "93063",
+    "qid": "Q372111",
+    "file": "Église St Germain Auxerrois - Romainville (FR93) - 2020-10-17 - 8.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:%C3%89glise_St_Germain_Auxerrois_-_Romainville_(FR93)_-_2020-10-17_-_8.jpg",
+    "color": "#d8d8e8",
+    "hero": {
+      "src": "/photos/villes/romainville-1024.206fe008.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/romainville-480.73e41cb6.webp",
       "width": 480,
       "height": 300
     }
@@ -8505,22 +8841,22 @@
     }
   },
   "rumilly": {
-    "insee": "74228",
-    "qid": "Q430974",
-    "file": "Saint-Blaise du ciel.png",
-    "author": "Electrocaine74",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Electrocaine74&amp;action=edit&amp;redlink=1",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Saint-Blaise_du_ciel.png",
-    "color": "#585828",
+    "insee": "74225",
+    "qid": "Q841518",
+    "file": "Ville Rumilly.jpg",
+    "author": "Villerumilly",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Villerumilly&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ville_Rumilly.jpg",
+    "color": "#f8f8f8",
     "hero": {
-      "src": "/photos/villes/rumilly-1024.4abafa45.webp",
+      "src": "/photos/villes/rumilly-1024.0992f4dc.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/rumilly-480.10736cab.webp",
+      "src": "/photos/villes/rumilly-480.7712e759.webp",
       "width": 480,
       "height": 300
     }
@@ -8568,22 +8904,22 @@
     }
   },
   "saint-andre-reunion": {
-    "insee": "97410",
-    "qid": "Q478215",
-    "file": "Hôtel-de-ville-de-Saint-Benoît.JPG",
+    "insee": "97409",
+    "qid": "Q1649370",
+    "file": "Hôtel-de-ville-de-Saint-André.JPG",
     "author": "Thierry Caro",
     "authorUrl": "https://commons.wikimedia.org/wiki/User:Thierry_Caro",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel-de-ville-de-Saint-Beno%C3%AEt.JPG",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel-de-ville-de-Saint-Andr%C3%A9.JPG",
     "color": "#080808",
     "hero": {
-      "src": "/photos/villes/saint-andre-reunion-1024.1c200b7d.webp",
+      "src": "/photos/villes/saint-andre-reunion-1024.8dab892a.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saint-andre-reunion-480.a3f3fa99.webp",
+      "src": "/photos/villes/saint-andre-reunion-480.803386f6.webp",
       "width": 480,
       "height": 300
     }
@@ -8610,22 +8946,22 @@
     }
   },
   "saint-benoit-reunion": {
-    "insee": "97411",
-    "qid": "Q47045",
-    "file": "SaintDenisReunion002.jpg",
-    "author": "No machine-readable author provided. B.navez assumed (based on copyright claims).",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:B.navez",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:SaintDenisReunion002.jpg",
-    "color": "#4878b8",
+    "insee": "97410",
+    "qid": "Q478215",
+    "file": "Hôtel-de-ville-de-Saint-Benoît.JPG",
+    "author": "Thierry Caro",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Thierry_Caro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel-de-ville-de-Saint-Beno%C3%AEt.JPG",
+    "color": "#080808",
     "hero": {
-      "src": "/photos/villes/saint-benoit-reunion-1024.681ee9a4.webp",
+      "src": "/photos/villes/saint-benoit-reunion-1024.68fa9438.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saint-benoit-reunion-480.10d68c4a.webp",
+      "src": "/photos/villes/saint-benoit-reunion-480.11064ffe.webp",
       "width": 480,
       "height": 300
     }
@@ -8883,22 +9219,22 @@
     }
   },
   "saint-genis-laval": {
-    "insee": "69233",
-    "qid": "Q1361294",
-    "file": "Stromainmontdor rue.jpg",
-    "author": "Karldupart",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Karldupart",
+    "insee": "69204",
+    "qid": "Q910089",
+    "file": "CastleSaintGenisLaval.jpg",
+    "author": "The original uploader was Klodo6975 at French Wikipedia.",
+    "authorUrl": "https://en.wikipedia.org/wiki/fr:User:Klodo6975",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Stromainmontdor_rue.jpg",
-    "color": "#f8f8f8",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:CastleSaintGenisLaval.jpg",
+    "color": "#d8d8e8",
     "hero": {
-      "src": "/photos/villes/saint-genis-laval-1024.4ba6113f.webp",
+      "src": "/photos/villes/saint-genis-laval-1024.22061ffa.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saint-genis-laval-480.1f645c24.webp",
+      "src": "/photos/villes/saint-genis-laval-480.66025860.webp",
       "width": 480,
       "height": 300
     }
@@ -9051,22 +9387,22 @@
     }
   },
   "saint-lo": {
-    "insee": "50592",
-    "qid": "Q775592",
-    "file": "FranceNormandieTessySurVireEglise.jpg",
-    "author": "Ikmo-ned",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Ikmo-ned",
+    "insee": "50502",
+    "qid": "Q181704",
+    "file": "Vue-Est-depuis-Notre-Dame-Saint-Lo.JPG",
+    "author": "N. Lenoir",
+    "authorUrl": null,
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:FranceNormandieTessySurVireEglise.jpg",
-    "color": "#78b8f8",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Vue-Est-depuis-Notre-Dame-Saint-Lo.JPG",
+    "color": "#b8c8d8",
     "hero": {
-      "src": "/photos/villes/saint-lo-1024.df7017f0.webp",
+      "src": "/photos/villes/saint-lo-1024.f66354a6.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saint-lo-480.cb19894c.webp",
+      "src": "/photos/villes/saint-lo-480.ea9438c1.webp",
       "width": 480,
       "height": 300
     }
@@ -9116,20 +9452,20 @@
   "saint-malo": {
     "insee": "35288",
     "qid": "Q163108",
-    "file": "Saint-Malo la Tour Bidouane.jpg",
-    "author": "Pierre André Leclercq",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Pierre_Andr%C3%A9_Leclercq",
+    "file": "Aerial image of Saint-Malo (view from the south).jpg",
+    "author": "Carsten Steger",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Carsten_Steger",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Saint-Malo_la_Tour_Bidouane.jpg",
-    "color": "#080808",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Saint-Malo_(view_from_the_south).jpg",
+    "color": "#183858",
     "hero": {
-      "src": "/photos/villes/saint-malo-1024.31c152cc.webp",
+      "src": "/photos/villes/saint-malo-1024.a5d2e817.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saint-malo-480.efc90e37.webp",
+      "src": "/photos/villes/saint-malo-480.9c169ee8.webp",
       "width": 480,
       "height": 300
     }
@@ -9242,20 +9578,20 @@
   "saint-omer": {
     "insee": "62765",
     "qid": "Q208793",
-    "file": "Saint-Omer - Hôtel de Ville (cropped).jpg",
-    "author": "Jean-Christophe BENOIST",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Jean-Christophe_BENOIST",
+    "file": "Théâtre La Barcarolle (Le Moulin à Café) de Saint-Omer.jpg",
+    "author": "JackyM59",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:JackyM59",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Saint-Omer_-_H%C3%B4tel_de_Ville_(cropped).jpg",
-    "color": "#7888a8",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_La_Barcarolle_(Le_Moulin_%C3%A0_Caf%C3%A9)_de_Saint-Omer.jpg",
+    "color": "#98b8e8",
     "hero": {
-      "src": "/photos/villes/saint-omer-1024.393cbb58.webp",
+      "src": "/photos/villes/saint-omer-1024.8bef54b4.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saint-omer-480.925c630d.webp",
+      "src": "/photos/villes/saint-omer-480.75da8b57.webp",
       "width": 480,
       "height": 300
     }
@@ -9282,22 +9618,22 @@
     }
   },
   "saint-paul-de-vence": {
-    "insee": "06111",
-    "qid": "Q1018207",
-    "file": "Roure - Eglise et village dominant la vallée de la Tinée -182.jpg",
-    "author": "MOSSOT",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:MOSSOT",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Roure_-_Eglise_et_village_dominant_la_vall%C3%A9e_de_la_Tin%C3%A9e_-182.jpg",
-    "color": "#080808",
+    "insee": "06128",
+    "qid": "Q208260",
+    "file": "St-Paul-de-Vence (Lunon).jpg",
+    "author": "Baptiste ROUSSEL",
+    "authorUrl": "https://en.wikipedia.org/wiki/fr:Utilisateur:Lunon92",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:St-Paul-de-Vence_(Lunon).jpg",
+    "color": "#b8b8b8",
     "hero": {
-      "src": "/photos/villes/saint-paul-de-vence-1024.8808d183.webp",
+      "src": "/photos/villes/saint-paul-de-vence-1024.a1ac8819.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saint-paul-de-vence-480.cd40d738.webp",
+      "src": "/photos/villes/saint-paul-de-vence-480.36b82123.webp",
       "width": 480,
       "height": 300
     }
@@ -9429,43 +9765,43 @@
     }
   },
   "saint-tropez": {
-    "insee": "83118",
-    "qid": "Q234281",
-    "file": "MairieStRaphaël.JPG",
-    "author": "Cyrilb1881",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Cyrilb1881",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:MairieStRapha%C3%ABl.JPG",
-    "color": "#c8c8f8",
+    "insee": "83119",
+    "qid": "Q1813",
+    "file": "Bell tower of the church Our Lady of the Assumption in Saint-Tropez, France (52723273607).jpg",
+    "author": "dronepicr",
+    "authorUrl": "https://www.flickr.com/people/132646954@N02",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Bell_tower_of_the_church_Our_Lady_of_the_Assumption_in_Saint-Tropez,_France_(52723273607).jpg",
+    "color": "#f8f8f8",
     "hero": {
-      "src": "/photos/villes/saint-tropez-1024.a3068d2a.webp",
+      "src": "/photos/villes/saint-tropez-1024.13ee8740.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saint-tropez-480.370d462d.webp",
+      "src": "/photos/villes/saint-tropez-480.15f478af.webp",
       "width": 480,
       "height": 300
     }
   },
   "saint-yrieix-la-perche": {
-    "insee": "87154",
-    "qid": "Q472922",
-    "file": "Hotel-de-ville-saint-junien-87.jpg",
-    "author": "Nitot",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Nitot",
+    "insee": "87187",
+    "qid": "Q523015",
+    "file": "Hôtel de ville de Saint-Yrieix-la-Perche.JPG",
+    "author": "MairieSY",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:MairieSY&amp;action=edit&amp;redlink=1",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Hotel-de-ville-saint-junien-87.jpg",
-    "color": "#888888",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_ville_de_Saint-Yrieix-la-Perche.JPG",
+    "color": "#88b8e8",
     "hero": {
-      "src": "/photos/villes/saint-yrieix-la-perche-1024.b2bdf939.webp",
+      "src": "/photos/villes/saint-yrieix-la-perche-1024.8d48d0ff.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saint-yrieix-la-perche-480.c4d79f86.webp",
+      "src": "/photos/villes/saint-yrieix-la-perche-480.89b84112.webp",
       "width": 480,
       "height": 300
     }
@@ -9597,22 +9933,22 @@
     }
   },
   "sanary-sur-mer": {
-    "insee": "83122",
-    "qid": "Q692069",
-    "file": "Aerial view of Les Salles-sur-Verdon 01.jpg",
-    "author": "Olivier Cleynen",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Ariadacapo",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Les_Salles-sur-Verdon_01.jpg",
-    "color": "#d8d8d8",
+    "insee": "83123",
+    "qid": "Q659484",
+    "file": "Sanary-sur-mer-var-eglise-port.jpg",
+    "author": "Patrick Verdier, Free On Line Photos",
+    "authorUrl": "http://www.folp.free.fr",
+    "license": "Copyrighted free use",
+    "licenseUrl": null,
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Sanary-sur-mer-var-eglise-port.jpg",
+    "color": "#5888b8",
     "hero": {
-      "src": "/photos/villes/sanary-sur-mer-1024.52ececdc.webp",
+      "src": "/photos/villes/sanary-sur-mer-1024.c53fd862.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/sanary-sur-mer-480.f7987d44.webp",
+      "src": "/photos/villes/sanary-sur-mer-480.0170b235.webp",
       "width": 480,
       "height": 300
     }
@@ -9681,22 +10017,22 @@
     }
   },
   "sarrebourg": {
-    "insee": "57631",
-    "qid": "Q22642",
-    "file": "Casino et Pavillon 2 (c) Office de Tourisme Sarreguemines.jpg",
-    "author": "Office de Tourisme de Sarreguemines",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Office_de_Tourisme_de_Sarreguemines&amp;action=edit&amp;redlink=1",
+    "insee": "57630",
+    "qid": "Q22544",
+    "file": "Sarrebourg - hôtel de ville.JPG",
+    "author": "Fab5669",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Fab5669",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Casino_et_Pavillon_2_(c)_Office_de_Tourisme_Sarreguemines.jpg",
-    "color": "#88a8c8",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Sarrebourg_-_h%C3%B4tel_de_ville.JPG",
+    "color": "#f8f8f8",
     "hero": {
-      "src": "/photos/villes/sarrebourg-1024.a6f28d51.webp",
+      "src": "/photos/villes/sarrebourg-1024.93b14f74.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/sarrebourg-480.c4602f8e.webp",
+      "src": "/photos/villes/sarrebourg-480.5116c7b7.webp",
       "width": 480,
       "height": 300
     }
@@ -9786,22 +10122,22 @@
     }
   },
   "saverne": {
-    "insee": "67440",
-    "qid": "Q21324",
-    "file": "Schaffhouse-pres-Seltz-04-Mairie-gje.jpg",
-    "author": "Gerd Eichmann",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Gerd_Eichmann",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Schaffhouse-pres-Seltz-04-Mairie-gje.jpg",
-    "color": "#98a8c8",
+    "insee": "67437",
+    "qid": "Q22741",
+    "file": "Chateau Rohan Saverne 01.jpg",
+    "author": "Rolf Krahl (Rotkraut)",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Rotkraut",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Chateau_Rohan_Saverne_01.jpg",
+    "color": "#88b8d8",
     "hero": {
-      "src": "/photos/villes/saverne-1024.e908c5f7.webp",
+      "src": "/photos/villes/saverne-1024.38a1f8e1.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/saverne-480.5ce37f80.webp",
+      "src": "/photos/villes/saverne-480.5785026e.webp",
       "width": 480,
       "height": 300
     }
@@ -9996,22 +10332,22 @@
     }
   },
   "sete": {
-    "insee": "34295",
-    "qid": "Q980365",
-    "file": "F34570-Saussan-20090501-11.jpg",
-    "author": "Patrice Semeria",
-    "authorUrl": null,
-    "license": "Public domain",
-    "licenseUrl": null,
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:F34570-Saussan-20090501-11.jpg",
-    "color": "#88a8d8",
+    "insee": "34301",
+    "qid": "Q191141",
+    "file": "La Grace (ship, 2010), Sète, Hérault 01.jpg",
+    "author": "Christian Ferrer",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Christian_Ferrer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:La_Grace_(ship,_2010),_S%C3%A8te,_H%C3%A9rault_01.jpg",
+    "color": "#68a8d8",
     "hero": {
-      "src": "/photos/villes/sete-1024.66cb8bd5.webp",
+      "src": "/photos/villes/sete-1024.f7bad08d.webp",
       "width": 1024,
       "height": 640
     },
     "card": {
-      "src": "/photos/villes/sete-480.b65e42b5.webp",
+      "src": "/photos/villes/sete-480.828eee94.webp",
       "width": 480,
       "height": 300
     }
@@ -10285,6 +10621,27 @@
     },
     "card": {
       "src": "/photos/villes/tassin-la-demi-lune-480.66c32d49.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "thiais": {
+    "insee": "94073",
+    "qid": "Q316452",
+    "file": "Nouvelle Mairie (3704330429).jpg",
+    "author": "besopha",
+    "authorUrl": "https://www.flickr.com/people/26700188@N05",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Nouvelle_Mairie_(3704330429).jpg",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/thiais-1024.8e01e00c.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/thiais-480.1cea91b6.webp",
       "width": 480,
       "height": 300
     }
@@ -10730,6 +11087,27 @@
       "height": 300
     }
   },
+  "vanves": {
+    "insee": "92075",
+    "qid": "Q234728",
+    "file": "Carrefour Albert Legris.jpg",
+    "author": "Alt0160",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Alt0160",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Carrefour_Albert_Legris.jpg",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/vanves-1024.fb693590.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/vanves-480.ebb98f37.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "vaulx-en-velin": {
     "insee": "69256",
     "qid": "Q13596",
@@ -11003,6 +11381,48 @@
       "height": 300
     }
   },
+  "villejuif": {
+    "insee": "94076",
+    "qid": "Q128466",
+    "file": "Mairie Villejuif 9.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_Villejuif_9.jpg",
+    "color": "#e8f8f8",
+    "hero": {
+      "src": "/photos/villes/villejuif-1024.17ab7842.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/villejuif-480.414ba0d8.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "villemomble": {
+    "insee": "93077",
+    "qid": "Q244716",
+    "file": "Château seigneurial de Villemomble en 2012, après rénovation.jpg",
+    "author": "Mairie de Villemomble",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Mairie_de_Villemomble&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_seigneurial_de_Villemomble_en_2012,_apr%C3%A8s_r%C3%A9novation.jpg",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/villemomble-1024.90e8ecd1.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/villemomble-480.eb513b47.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "villenave-d-ornon": {
     "insee": "33550",
     "qid": "Q235733",
@@ -11062,6 +11482,27 @@
     },
     "card": {
       "src": "/photos/villes/villeneuve-sur-lot-480.610a1840.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "villepinte": {
+    "insee": "93078",
+    "qid": "Q241064",
+    "file": "Hôtel ville Villepinte Seine St Denis 2.jpg",
+    "author": "Chabe01",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_Villepinte_Seine_St_Denis_2.jpg",
+    "color": "#5888c8",
+    "hero": {
+      "src": "/photos/villes/villepinte-1024.edb9841a.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/villepinte-480.f902b024.webp",
       "width": 480,
       "height": 300
     }

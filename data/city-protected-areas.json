@@ -1,6 +1,6 @@
 {
   "abbeville": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -85,7 +85,7 @@
     ]
   },
   "agde": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -212,7 +212,7 @@
     ]
   },
   "agen": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -283,7 +283,7 @@
     ]
   },
   "aix-en-provence": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -347,7 +347,7 @@
     ]
   },
   "aix-les-bains": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -516,7 +516,7 @@
     ]
   },
   "ajaccio": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -629,7 +629,7 @@
     ]
   },
   "albertville": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -756,7 +756,7 @@
     ]
   },
   "albi": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -777,7 +777,7 @@
     "areas": []
   },
   "alencon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -876,7 +876,7 @@
     ]
   },
   "ales": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -947,7 +947,7 @@
     ]
   },
   "alfortville": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -1039,7 +1039,7 @@
     ]
   },
   "allauch": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -1145,7 +1145,7 @@
     ]
   },
   "amberieu-en-bugey": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -1230,7 +1230,7 @@
     ]
   },
   "amboise": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -1301,7 +1301,7 @@
     ]
   },
   "amiens": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -1379,7 +1379,7 @@
     ]
   },
   "angers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -1492,7 +1492,7 @@
     ]
   },
   "anglet": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -1654,7 +1654,7 @@
     ]
   },
   "angouleme": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -1739,7 +1739,7 @@
     ]
   },
   "annecy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -1873,7 +1873,7 @@
     ]
   },
   "annemasse": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2035,7 +2035,7 @@
     ]
   },
   "annonay": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2120,7 +2120,7 @@
     ]
   },
   "antibes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2212,7 +2212,7 @@
     ]
   },
   "antony": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2283,7 +2283,7 @@
     ]
   },
   "apt": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2382,7 +2382,7 @@
     ]
   },
   "arcachon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2488,7 +2488,7 @@
     ]
   },
   "arcueil": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2559,7 +2559,7 @@
     ]
   },
   "argentan": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2637,7 +2637,7 @@
     ]
   },
   "argenteuil": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2687,7 +2687,7 @@
     ]
   },
   "arles": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2814,7 +2814,7 @@
     ]
   },
   "armentieres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2850,7 +2850,7 @@
     ]
   },
   "arras": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2879,7 +2879,7 @@
     ]
   },
   "asnieres-sur-seine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2922,7 +2922,7 @@
     ]
   },
   "athis-mons": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -2993,7 +2993,7 @@
     ]
   },
   "aubagne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3099,7 +3099,7 @@
     ]
   },
   "aubenas": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3170,7 +3170,7 @@
     ]
   },
   "aubervilliers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3234,7 +3234,7 @@
     ]
   },
   "aubusson": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3277,7 +3277,7 @@
     ]
   },
   "auch": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3298,7 +3298,7 @@
     "areas": []
   },
   "aulnay-sous-bois": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3397,7 +3397,7 @@
     ]
   },
   "aurillac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3454,7 +3454,7 @@
     ]
   },
   "autun": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3504,7 +3504,7 @@
     ]
   },
   "auxerre": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3582,7 +3582,7 @@
     ]
   },
   "avignon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3667,7 +3667,7 @@
     ]
   },
   "bagneres-de-bigorre": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3731,7 +3731,7 @@
     ]
   },
   "bagneux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3802,7 +3802,7 @@
     ]
   },
   "bagnolet": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3887,7 +3887,7 @@
     ]
   },
   "bagnols-sur-ceze": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -3986,7 +3986,7 @@
     ]
   },
   "baie-mahault": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4022,7 +4022,7 @@
     ]
   },
   "bar-le-duc": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4072,7 +4072,7 @@
     ]
   },
   "bar-sur-aube": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4150,7 +4150,7 @@
     ]
   },
   "bastia": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4312,7 +4312,7 @@
     ]
   },
   "bayeux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4397,7 +4397,7 @@
     ]
   },
   "bayonne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4566,7 +4566,7 @@
     ]
   },
   "beaune": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4630,7 +4630,7 @@
     ]
   },
   "beauvais": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4687,7 +4687,7 @@
     ]
   },
   "begles": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4800,7 +4800,7 @@
     ]
   },
   "belfort": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4948,7 +4948,7 @@
     ]
   },
   "bellac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -4984,7 +4984,7 @@
     ]
   },
   "berck": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5146,7 +5146,7 @@
     ]
   },
   "bergerac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5203,7 +5203,7 @@
     ]
   },
   "besancon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5302,7 +5302,7 @@
     ]
   },
   "bethune": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5331,7 +5331,7 @@
     ]
   },
   "beziers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5479,7 +5479,7 @@
     ]
   },
   "bezons": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5515,7 +5515,7 @@
     ]
   },
   "biarritz": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5656,7 +5656,7 @@
     ]
   },
   "biscarrosse": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5706,7 +5706,7 @@
     ]
   },
   "bischheim": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5784,7 +5784,7 @@
     ]
   },
   "blagnac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5911,7 +5911,7 @@
     ]
   },
   "blois": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -5995,8 +5995,100 @@
       }
     ]
   },
+  "bobigny": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.2,
+    "rawCoverage": 1.9,
+    "areasTotal": 10,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 1143.8,
+        "distanceKm": 3.9
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 181.3,
+        "distanceKm": 13.6
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 181.3,
+        "distanceKm": 13.6
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 43.8,
+        "distanceKm": 9.7
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 2.8
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 12.2
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 12.5,
+        "distanceKm": 14.7
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 12.5,
+        "distanceKm": 11.9
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 7.3
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 6.8
+      }
+    ]
+  },
   "bois-colombes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6039,7 +6131,7 @@
     ]
   },
   "bondy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6138,7 +6230,7 @@
     ]
   },
   "bordeaux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6237,7 +6329,7 @@
     ]
   },
   "boulogne-billancourt": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6287,7 +6379,7 @@
     ]
   },
   "boulogne-sur-mer": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6414,7 +6506,7 @@
     ]
   },
   "bourg-en-bresse": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6464,7 +6556,7 @@
     ]
   },
   "bourg-la-reine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6535,7 +6627,7 @@
     ]
   },
   "bourges": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6620,7 +6712,7 @@
     ]
   },
   "bourgoin-jallieu": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6712,7 +6804,7 @@
     ]
   },
   "bressuire": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6741,7 +6833,7 @@
     ]
   },
   "brest": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6805,7 +6897,7 @@
     ]
   },
   "briancon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -6904,7 +6996,7 @@
     ]
   },
   "brioude": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7003,7 +7095,7 @@
     ]
   },
   "brive-la-gaillarde": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7067,7 +7159,7 @@
     ]
   },
   "bron": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7110,7 +7202,7 @@
     ]
   },
   "bruay-la-buissiere": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7139,7 +7231,7 @@
     ]
   },
   "brunoy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7210,7 +7302,7 @@
     ]
   },
   "cachan": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7281,7 +7373,7 @@
     ]
   },
   "caen": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7352,7 +7444,7 @@
     ]
   },
   "cagnes-sur-mer": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7486,7 +7578,7 @@
     ]
   },
   "cahors": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7557,7 +7649,7 @@
     ]
   },
   "calais": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7719,7 +7811,7 @@
     ]
   },
   "caluire-et-cuire": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7783,7 +7875,7 @@
     ]
   },
   "calvi": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7868,7 +7960,7 @@
     ]
   },
   "cambrai": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7897,7 +7989,7 @@
     ]
   },
   "cannes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -7982,7 +8074,7 @@
     ]
   },
   "carcassonne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8025,7 +8117,7 @@
     ]
   },
   "carnac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8152,7 +8244,7 @@
     ]
   },
   "carpentras": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8223,7 +8315,7 @@
     ]
   },
   "cassis": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8336,7 +8428,7 @@
     ]
   },
   "castelsarrasin": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8414,7 +8506,7 @@
     ]
   },
   "castres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8478,7 +8570,7 @@
     ]
   },
   "cavaillon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8626,7 +8718,7 @@
     ]
   },
   "cayenne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8669,7 +8761,7 @@
     ]
   },
   "ceret": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8705,7 +8797,7 @@
     ]
   },
   "cergy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8769,7 +8861,7 @@
     ]
   },
   "cernay": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8882,7 +8974,7 @@
     ]
   },
   "challans": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8918,7 +9010,7 @@
     ]
   },
   "chalon-sur-saone": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8968,7 +9060,7 @@
     ]
   },
   "chalons-en-champagne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -8997,7 +9089,7 @@
     ]
   },
   "chambery": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9173,7 +9265,7 @@
     ]
   },
   "champigny-sur-marne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9272,7 +9364,7 @@
     ]
   },
   "champs-sur-marne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9385,7 +9477,7 @@
     ]
   },
   "chantilly": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9435,7 +9527,7 @@
     ]
   },
   "charenton-le-pont": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9520,7 +9612,7 @@
     ]
   },
   "charleville-mezieres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9577,7 +9669,7 @@
     ]
   },
   "chartres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9606,7 +9698,7 @@
     ]
   },
   "chateau-gontier-sur-mayenne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9635,7 +9727,7 @@
     ]
   },
   "chateaudun": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9671,7 +9763,7 @@
     ]
   },
   "chateauroux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9714,7 +9806,7 @@
     ]
   },
   "chatellerault": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9785,7 +9877,7 @@
     ]
   },
   "chatenay-malabry": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9856,7 +9948,7 @@
     ]
   },
   "chatillon-92": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -9927,7 +10019,7 @@
     ]
   },
   "chaumont": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10025,8 +10117,93 @@
       }
     ]
   },
+  "chaville": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 3.7,
+    "rawCoverage": 7,
+    "areasTotal": 9,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 4681.3,
+        "distanceKm": 8
+      },
+      {
+        "id": "SURFPARC0000002333272453",
+        "name": "Massif de Rambouillet et Zones Humides Proches",
+        "kind": "natura-2000",
+        "areaHa": 700,
+        "distanceKm": 10.3
+      },
+      {
+        "id": "SURFPARC0000002333273184",
+        "name": "Etang de Saint Quentin",
+        "kind": "natura-2000",
+        "areaHa": 93.8,
+        "distanceKm": 12.9
+      },
+      {
+        "id": "SURFPARC0000000319871723",
+        "name": "Réserve Naturelle Nationale des Étangs et Rigoles d'Yveline",
+        "kind": "reserve-naturelle",
+        "areaHa": 87.5,
+        "distanceKm": 12.8
+      },
+      {
+        "id": "SURFPARC0000000319871516",
+        "name": "Réserve Naturelle Régionale du Val et Coteau de Saint-Rémy",
+        "kind": "reserve-naturelle",
+        "areaHa": 81.3,
+        "distanceKm": 13.2
+      },
+      {
+        "id": "SURFPARC0000002333273501",
+        "name": "Tourbières et Prairies Tourbeuses de la Forêt d'Yveline",
+        "kind": "natura-2000",
+        "areaHa": 12.5,
+        "distanceKm": 14.3
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 9.6
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 9.7
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 14.7
+      }
+    ]
+  },
   "chelles": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10139,7 +10316,7 @@
     ]
   },
   "chenove": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10231,7 +10408,7 @@
     ]
   },
   "cherbourg": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10295,7 +10472,7 @@
     ]
   },
   "chinon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10408,7 +10585,7 @@
     ]
   },
   "choisy-le-roi": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10500,7 +10677,7 @@
     ]
   },
   "cholet": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10528,8 +10705,72 @@
       }
     ]
   },
+  "clamart": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 0.7,
+    "rawCoverage": 1.3,
+    "areasTotal": 6,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 887.5,
+        "distanceKm": 12.4
+      },
+      {
+        "id": "SURFPARC0000002333272453",
+        "name": "Massif de Rambouillet et Zones Humides Proches",
+        "kind": "natura-2000",
+        "areaHa": 87.5,
+        "distanceKm": 14
+      },
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 18.8,
+        "distanceKm": 13.4
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 6.4
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 8.3
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 13.7
+      }
+    ]
+  },
   "clamecy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10586,7 +10827,7 @@
     ]
   },
   "clermont-ferrand": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10685,7 +10926,7 @@
     ]
   },
   "clermont-herault": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10791,7 +11032,7 @@
     ]
   },
   "clichy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10833,8 +11074,114 @@
       }
     ]
   },
+  "clichy-sous-bois": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 2.2,
+    "rawCoverage": 3.4,
+    "areasTotal": 12,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 1075,
+        "distanceKm": 0.1
+      },
+      {
+        "id": "SURFPARC0000002333272314",
+        "name": "Boucles de la Marne",
+        "kind": "natura-2000",
+        "areaHa": 687.5,
+        "distanceKm": 11.5
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 487.5,
+        "distanceKm": 9.3
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 487.5,
+        "distanceKm": 9.3
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 93.8,
+        "distanceKm": 7.4
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 37.5,
+        "distanceKm": 2.8
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 31.3,
+        "distanceKm": 12
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 10.8
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 18.8,
+        "distanceKm": 5.6
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 6.9
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 4
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 4.5
+      }
+    ]
+  },
   "cluses": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -10989,7 +11336,7 @@
     ]
   },
   "cognac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11046,7 +11393,7 @@
     ]
   },
   "collioure": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11166,7 +11513,7 @@
     ]
   },
   "colmar": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11300,7 +11647,7 @@
     ]
   },
   "colombes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11343,7 +11690,7 @@
     ]
   },
   "colomiers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11456,7 +11803,7 @@
     ]
   },
   "combs-la-ville": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11520,7 +11867,7 @@
     ]
   },
   "commercy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11640,7 +11987,7 @@
     ]
   },
   "compiegne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11704,7 +12051,7 @@
     ]
   },
   "concarneau": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11803,7 +12150,7 @@
     ]
   },
   "condom": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11832,7 +12179,7 @@
     ]
   },
   "conflans-sainte-honorine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11882,7 +12229,7 @@
     ]
   },
   "corbeil-essonnes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -11974,7 +12321,7 @@
     ]
   },
   "cormeilles-en-parisis": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12024,7 +12371,7 @@
     ]
   },
   "corte": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12165,7 +12512,7 @@
     ]
   },
   "cosne-cours-sur-loire": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12236,7 +12583,7 @@
     ]
   },
   "courbevoie": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12272,7 +12619,7 @@
     ]
   },
   "creil": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12329,7 +12676,7 @@
     ]
   },
   "crepy-en-valois": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12393,7 +12740,7 @@
     ]
   },
   "creteil": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12492,7 +12839,7 @@
     ]
   },
   "cugnaux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12598,7 +12945,7 @@
     ]
   },
   "dax": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12662,7 +13009,7 @@
     ]
   },
   "decines-charpieu": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12747,7 +13094,7 @@
     ]
   },
   "delle": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12818,7 +13165,7 @@
     ]
   },
   "denain": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12889,7 +13236,7 @@
     ]
   },
   "dieppe": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -12953,7 +13300,7 @@
     ]
   },
   "digne-les-bains": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13038,7 +13385,7 @@
     ]
   },
   "dijon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13116,7 +13463,7 @@
     ]
   },
   "dinan": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13166,7 +13513,7 @@
     ]
   },
   "dinard": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13293,7 +13640,7 @@
     ]
   },
   "dole": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13406,7 +13753,7 @@
     ]
   },
   "domont": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13470,7 +13817,7 @@
     ]
   },
   "douai": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13569,7 +13916,7 @@
     ]
   },
   "douarnenez": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13654,7 +14001,7 @@
     ]
   },
   "draguignan": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13753,7 +14100,7 @@
     ]
   },
   "drancy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13852,7 +14199,7 @@
     ]
   },
   "draveil": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13930,7 +14277,7 @@
     ]
   },
   "dreux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -13987,7 +14334,7 @@
     ]
   },
   "dunkerque": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14051,7 +14398,7 @@
     ]
   },
   "eaubonne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14108,7 +14455,7 @@
     ]
   },
   "echirolles": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14249,7 +14596,7 @@
     ]
   },
   "elancourt": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14327,7 +14674,7 @@
     ]
   },
   "embrun": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14398,7 +14745,7 @@
     ]
   },
   "epernay": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14469,7 +14816,7 @@
     ]
   },
   "epinal": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14504,8 +14851,51 @@
       }
     ]
   },
+  "epinay-sur-seine": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 2.7,
+    "rawCoverage": 5.2,
+    "areasTotal": 3,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000003750269",
+        "name": "Parc Naturel Régional Oise-Pays de France",
+        "kind": "parc-naturel-regional",
+        "areaHa": 3225,
+        "distanceKm": 9.3
+      },
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 456.3,
+        "distanceKm": 0.5
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 12.7
+      }
+    ]
+  },
   "ermont": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14562,7 +14952,7 @@
     ]
   },
   "etampes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14640,7 +15030,7 @@
     ]
   },
   "evian-les-bains": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14781,7 +15171,7 @@
     ]
   },
   "evreux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14824,7 +15214,7 @@
     ]
   },
   "evry-courcouronnes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14902,7 +15292,7 @@
     ]
   },
   "figeac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -14945,7 +15335,7 @@
     ]
   },
   "firminy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15058,7 +15448,7 @@
     ]
   },
   "flers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15171,7 +15561,7 @@
     ]
   },
   "fleurance": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15192,7 +15582,7 @@
     "areas": []
   },
   "fleury-les-aubrais": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15270,7 +15660,7 @@
     ]
   },
   "florac-trois-rivieres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15376,7 +15766,7 @@
     ]
   },
   "foix": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15461,7 +15851,7 @@
     ]
   },
   "fontaine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15567,7 +15957,7 @@
     ]
   },
   "fontainebleau": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15721,8 +16111,79 @@
       }
     ]
   },
+  "fontenay-aux-roses": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 0.3,
+    "rawCoverage": 0.5,
+    "areasTotal": 7,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 237.5,
+        "distanceKm": 13.5
+      },
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 56.3,
+        "distanceKm": 12.6
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 13.9
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 4.9
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 7.5
+      },
+      {
+        "id": "SURFPARC0000002333272453",
+        "name": "Massif de Rambouillet et Zones Humides Proches",
+        "kind": "natura-2000",
+        "areaHa": 0,
+        "distanceKm": 14.9
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 12.7
+      }
+    ]
+  },
   "fontenay-le-comte": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15821,7 +16282,7 @@
     ]
   },
   "fontenay-sous-bois": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15920,7 +16381,7 @@
     ]
   },
   "forbach": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -15963,7 +16424,7 @@
     ]
   },
   "fort-de-france": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16013,7 +16474,7 @@
     ]
   },
   "franconville": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16070,7 +16531,7 @@
     ]
   },
   "frejus": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16141,7 +16602,7 @@
     ]
   },
   "fresnes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16211,8 +16672,114 @@
       }
     ]
   },
+  "gagny": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 2,
+    "rawCoverage": 3.1,
+    "areasTotal": 12,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 1118.8,
+        "distanceKm": 1
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 475,
+        "distanceKm": 7.2
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 475,
+        "distanceKm": 7.2
+      },
+      {
+        "id": "SURFPARC0000002333272314",
+        "name": "Boucles de la Marne",
+        "kind": "natura-2000",
+        "areaHa": 456.3,
+        "distanceKm": 12.6
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 93.8,
+        "distanceKm": 7.5
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 43.8,
+        "distanceKm": 10.7
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 37.5,
+        "distanceKm": 5.1
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 12.5,
+        "distanceKm": 4.4
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 1.5
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 5.8
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 8.2
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 2.1
+      }
+    ]
+  },
   "gaillac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16248,7 +16815,7 @@
     ]
   },
   "gap": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16361,7 +16928,7 @@
     ]
   },
   "garges-les-gonesse": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16425,7 +16992,7 @@
     ]
   },
   "gennevilliers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16468,7 +17035,7 @@
     ]
   },
   "gentilly": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16539,7 +17106,7 @@
     ]
   },
   "gerardmer": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16771,7 +17338,7 @@
     ]
   },
   "gex": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16919,7 +17486,7 @@
     ]
   },
   "gien": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -16983,7 +17550,7 @@
     ]
   },
   "givors": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17054,7 +17621,7 @@
     ]
   },
   "gonesse": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17111,7 +17678,7 @@
     ]
   },
   "gordes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17224,7 +17791,7 @@
     ]
   },
   "gourdon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17316,7 +17883,7 @@
     ]
   },
   "goussainville": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17373,7 +17940,7 @@
     ]
   },
   "granville": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17444,7 +18011,7 @@
     ]
   },
   "grasse": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17550,7 +18117,7 @@
     ]
   },
   "gray": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17600,7 +18167,7 @@
     ]
   },
   "grenoble": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17720,7 +18287,7 @@
     ]
   },
   "guebwiller": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17854,7 +18421,7 @@
     ]
   },
   "gueret": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17904,7 +18471,7 @@
     ]
   },
   "guingamp": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -17947,7 +18514,7 @@
     ]
   },
   "guyancourt": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18025,7 +18592,7 @@
     ]
   },
   "haguenau": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18124,7 +18691,7 @@
     ]
   },
   "hayange": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18153,7 +18720,7 @@
     ]
   },
   "hazebrouck": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18224,7 +18791,7 @@
     ]
   },
   "hendaye": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18302,7 +18869,7 @@
     ]
   },
   "henin-beaumont": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18373,7 +18940,7 @@
     ]
   },
   "herouville-saint-clair": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18444,7 +19011,7 @@
     ]
   },
   "honfleur": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18536,7 +19103,7 @@
     ]
   },
   "hossegor": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18642,7 +19209,7 @@
     ]
   },
   "houilles": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18678,7 +19245,7 @@
     ]
   },
   "hyeres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18777,7 +19344,7 @@
     ]
   },
   "ile-de-re": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18876,7 +19443,7 @@
     ]
   },
   "illkirch-graffenstaden": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -18968,7 +19535,7 @@
     ]
   },
   "issoire": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19046,7 +19613,7 @@
     ]
   },
   "issoudun": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19096,7 +19663,7 @@
     ]
   },
   "issy-les-moulineaux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19153,7 +19720,7 @@
     ]
   },
   "istres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19301,7 +19868,7 @@
     ]
   },
   "ivry-sur-seine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19393,7 +19960,7 @@
     ]
   },
   "jarnac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19464,7 +20031,7 @@
     ]
   },
   "joigny": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19499,8 +20066,107 @@
       }
     ]
   },
+  "joinville-le-pont": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.5,
+    "rawCoverage": 2.2,
+    "areasTotal": 11,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 918.8,
+        "distanceKm": 3.6
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 487.5,
+        "distanceKm": 6.8
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 487.5,
+        "distanceKm": 6.8
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 87.5,
+        "distanceKm": 13.3
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 50,
+        "distanceKm": 12.4
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 43.8,
+        "distanceKm": 12.9
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 18.8,
+        "distanceKm": 9.4
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 6.4
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 3
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 5.8
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 5.5
+      }
+    ]
+  },
   "joue-les-tours": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19557,7 +20223,7 @@
     ]
   },
   "kingersheim": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19669,8 +20335,79 @@
       }
     ]
   },
+  "l-hay-les-roses": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 0.1,
+    "rawCoverage": 0.2,
+    "areasTotal": 7,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 62.5,
+        "distanceKm": 10.9
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 11.4
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 18.8,
+        "distanceKm": 11.8
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 13.9
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 8.8
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 5.6
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 13.1
+      }
+    ]
+  },
   "la-baule": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19790,7 +20527,7 @@
     ]
   },
   "la-ciotat": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19889,7 +20626,7 @@
     ]
   },
   "la-courneuve": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -19953,7 +20690,7 @@
     ]
   },
   "la-fleche": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20010,7 +20747,7 @@
     ]
   },
   "la-garenne-colombes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20053,7 +20790,7 @@
     ]
   },
   "la-roche-sur-yon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20082,7 +20819,7 @@
     ]
   },
   "la-rochelle": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20209,7 +20946,7 @@
     ]
   },
   "la-seyne-sur-mer": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20336,7 +21073,7 @@
     ]
   },
   "la-souterraine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20365,7 +21102,7 @@
     ]
   },
   "lanester": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20485,7 +21222,7 @@
     ]
   },
   "langres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20612,7 +21349,7 @@
     ]
   },
   "lannion": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20676,7 +21413,7 @@
     ]
   },
   "laon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20768,7 +21505,7 @@
     ]
   },
   "laval": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20818,7 +21555,7 @@
     ]
   },
   "laxou": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20896,7 +21633,7 @@
     ]
   },
   "le-blanc": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -20995,7 +21732,7 @@
     ]
   },
   "le-blanc-mesnil": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21094,7 +21831,7 @@
     ]
   },
   "le-bouscat": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21207,7 +21944,7 @@
     ]
   },
   "le-cannet": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21299,7 +22036,7 @@
     ]
   },
   "le-chesnay-rocquencourt": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21384,7 +22121,7 @@
     ]
   },
   "le-francois": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21525,7 +22262,7 @@
     ]
   },
   "le-grand-quevilly": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21638,7 +22375,7 @@
     ]
   },
   "le-havre": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21716,7 +22453,7 @@
     ]
   },
   "le-kremlin-bicetre": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21794,7 +22531,7 @@
     ]
   },
   "le-lamentin": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21879,7 +22616,7 @@
     ]
   },
   "le-mans": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -21915,7 +22652,7 @@
     ]
   },
   "le-perreux-sur-marne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22014,7 +22751,7 @@
     ]
   },
   "le-plessis-robinson": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22085,7 +22822,7 @@
     ]
   },
   "le-puy-en-velay": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22149,7 +22886,7 @@
     ]
   },
   "le-robert": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22304,7 +23041,7 @@
     ]
   },
   "le-tampon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22354,7 +23091,7 @@
     ]
   },
   "lens": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22397,7 +23134,7 @@
     ]
   },
   "les-abymes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22433,7 +23170,7 @@
     ]
   },
   "les-andelys": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22503,8 +23240,114 @@
       }
     ]
   },
+  "les-pavillons-sous-bois": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.8,
+    "rawCoverage": 2.7,
+    "areasTotal": 12,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 1150,
+        "distanceKm": 1.9
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 487.5,
+        "distanceKm": 10.4
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 487.5,
+        "distanceKm": 10.4
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 93.8,
+        "distanceKm": 9.9
+      },
+      {
+        "id": "SURFPARC0000002333272314",
+        "name": "Boucles de la Marne",
+        "kind": "natura-2000",
+        "areaHa": 81.3,
+        "distanceKm": 14.1
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 56.3,
+        "distanceKm": 13.9
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 31.3,
+        "distanceKm": 5
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 4
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 4
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 4.6
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 10.6
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 7.5
+      }
+    ]
+  },
   "les-sables-d-olonne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22582,7 +23425,7 @@
     ]
   },
   "levallois-perret": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22618,7 +23461,7 @@
     ]
   },
   "libourne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22696,7 +23539,7 @@
     ]
   },
   "lievin": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22732,7 +23575,7 @@
     ]
   },
   "lille": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22768,7 +23611,7 @@
     ]
   },
   "limoges": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22804,7 +23647,7 @@
     ]
   },
   "limoux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22861,7 +23704,7 @@
     ]
   },
   "lingolsheim": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22952,8 +23795,114 @@
       }
     ]
   },
+  "livry-gargan": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 2.2,
+    "rawCoverage": 3.4,
+    "areasTotal": 12,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 1143.8,
+        "distanceKm": 1.3
+      },
+      {
+        "id": "SURFPARC0000002333272314",
+        "name": "Boucles de la Marne",
+        "kind": "natura-2000",
+        "areaHa": 581.3,
+        "distanceKm": 11.9
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 481.3,
+        "distanceKm": 10.9
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 481.3,
+        "distanceKm": 10.9
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 81.3,
+        "distanceKm": 8.5
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 43.8,
+        "distanceKm": 13.4
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 43.8,
+        "distanceKm": 2.5
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 18.8,
+        "distanceKm": 12.2
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 18.8,
+        "distanceKm": 7
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 5.3
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 7.2
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 5.7
+      }
+    ]
+  },
   "longwy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -22974,7 +23923,7 @@
     "areas": []
   },
   "lons-le-saunier": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23094,7 +24043,7 @@
     ]
   },
   "lorient": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23207,7 +24156,7 @@
     ]
   },
   "lourdes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23306,7 +24255,7 @@
     ]
   },
   "louviers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23405,7 +24354,7 @@
     ]
   },
   "lure": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23497,7 +24446,7 @@
     ]
   },
   "lyon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23554,7 +24503,7 @@
     ]
   },
   "macon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23646,7 +24595,7 @@
     ]
   },
   "maisons-alfort": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23738,7 +24687,7 @@
     ]
   },
   "malakoff": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23788,7 +24737,7 @@
     ]
   },
   "mamoudzou": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23824,7 +24773,7 @@
     ]
   },
   "mandelieu-la-napoule": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -23895,7 +24844,7 @@
     ]
   },
   "manosque": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24022,7 +24971,7 @@
     ]
   },
   "mantes-la-jolie": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24135,7 +25084,7 @@
     ]
   },
   "marignane": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24248,7 +25197,7 @@
     ]
   },
   "marmande": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24312,7 +25261,7 @@
     ]
   },
   "marseille": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24432,7 +25381,7 @@
     ]
   },
   "martigues": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24594,7 +25543,7 @@
     ]
   },
   "massy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24665,7 +25614,7 @@
     ]
   },
   "maubeuge": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24736,7 +25685,7 @@
     ]
   },
   "maurepas": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24814,7 +25763,7 @@
     ]
   },
   "mauriac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24899,7 +25848,7 @@
     ]
   },
   "mayenne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24942,7 +25891,7 @@
     ]
   },
   "meaux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -24992,7 +25941,7 @@
     ]
   },
   "melun": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25056,7 +26005,7 @@
     ]
   },
   "mende": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25148,7 +26097,7 @@
     ]
   },
   "menton": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25240,7 +26189,7 @@
     ]
   },
   "merignac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25339,7 +26288,7 @@
     ]
   },
   "meru": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25396,7 +26345,7 @@
     ]
   },
   "metz": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25487,8 +26436,72 @@
       }
     ]
   },
+  "meudon": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1,
+    "rawCoverage": 2,
+    "areasTotal": 6,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 1368.8,
+        "distanceKm": 11.4
+      },
+      {
+        "id": "SURFPARC0000002333272453",
+        "name": "Massif de Rambouillet et Zones Humides Proches",
+        "kind": "natura-2000",
+        "areaHa": 206.3,
+        "distanceKm": 13.4
+      },
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 25,
+        "distanceKm": 14.4
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 12.5,
+        "distanceKm": 8.2
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 9.5
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 14.9
+      }
+    ]
+  },
   "meyzieu": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25580,7 +26593,7 @@
     ]
   },
   "millau": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25721,7 +26734,7 @@
     ]
   },
   "moissac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25799,7 +26812,7 @@
     ]
   },
   "monistrol-sur-loire": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25870,7 +26883,7 @@
     ]
   },
   "mont-de-marsan": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25920,7 +26933,7 @@
     ]
   },
   "mont-saint-aignan": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -25984,7 +26997,7 @@
     ]
   },
   "montargis": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26013,7 +27026,7 @@
     ]
   },
   "montauban": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26063,7 +27076,7 @@
     ]
   },
   "montbard": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26106,7 +27119,7 @@
     ]
   },
   "montbeliard": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26212,7 +27225,7 @@
     ]
   },
   "montbrison": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26304,7 +27317,7 @@
     ]
   },
   "montelimar": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26403,7 +27416,7 @@
     ]
   },
   "montigny-le-bretonneux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26474,7 +27487,7 @@
     ]
   },
   "montigny-les-metz": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26566,7 +27579,7 @@
     ]
   },
   "montlucon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26602,7 +27615,7 @@
     ]
   },
   "montmorency": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26659,7 +27672,7 @@
     ]
   },
   "montmorillon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26821,7 +27834,7 @@
     ]
   },
   "montpellier": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -26948,7 +27961,7 @@
     ]
   },
   "montreuil": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27039,8 +28052,72 @@
       }
     ]
   },
+  "montrouge": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 0.2,
+    "rawCoverage": 0.4,
+    "areasTotal": 6,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 237.5,
+        "distanceKm": 8.9
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 13.4
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 11.8
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 8.5
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 15
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 11.4
+      }
+    ]
+  },
   "morlaix": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27139,7 +28216,7 @@
     ]
   },
   "moulins": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27217,7 +28294,7 @@
     ]
   },
   "mulhouse": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27337,7 +28414,7 @@
     ]
   },
   "muret": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27394,7 +28471,7 @@
     ]
   },
   "nancy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27465,7 +28542,7 @@
     ]
   },
   "nanterre": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27494,7 +28571,7 @@
     ]
   },
   "nantes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27642,7 +28719,7 @@
     ]
   },
   "narbonne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27782,8 +28859,107 @@
       }
     ]
   },
+  "neuilly-plaisance": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.7,
+    "rawCoverage": 2.5,
+    "areasTotal": 11,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 1093.8,
+        "distanceKm": 0.5
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 475,
+        "distanceKm": 6.4
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 475,
+        "distanceKm": 6.4
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 100,
+        "distanceKm": 9.7
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 56.3,
+        "distanceKm": 11.1
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 37.5,
+        "distanceKm": 8.2
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 12.5,
+        "distanceKm": 6
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 0.9
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 4.5
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 5.7
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 1.2
+      }
+    ]
+  },
   "neuilly-sur-marne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27889,7 +29065,7 @@
     ]
   },
   "neuilly-sur-seine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27925,7 +29101,7 @@
     ]
   },
   "nevers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -27989,7 +29165,7 @@
     ]
   },
   "nice": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28130,7 +29306,7 @@
     ]
   },
   "nimes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28201,7 +29377,7 @@
     ]
   },
   "niort": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28300,7 +29476,7 @@
     ]
   },
   "nogent-sur-marne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28399,7 +29575,7 @@
     ]
   },
   "noirmoutier": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28477,7 +29653,7 @@
     ]
   },
   "noisiel": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28590,7 +29766,7 @@
     ]
   },
   "noisy-le-grand": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28696,7 +29872,7 @@
     ]
   },
   "noisy-le-sec": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28788,7 +29964,7 @@
     ]
   },
   "obernai": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28866,7 +30042,7 @@
     ]
   },
   "olivet": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -28937,7 +30113,7 @@
     ]
   },
   "orange": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29015,7 +30191,7 @@
     ]
   },
   "orleans": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29086,7 +30262,7 @@
     ]
   },
   "orvault": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29206,7 +30382,7 @@
     ]
   },
   "oullins-pierre-benite": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29270,7 +30446,7 @@
     ]
   },
   "oyonnax": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29390,7 +30566,7 @@
     ]
   },
   "palaiseau": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29461,7 +30637,7 @@
     ]
   },
   "pamiers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29532,7 +30708,7 @@
     ]
   },
   "pantin": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29617,7 +30793,7 @@
     ]
   },
   "paray-le-monial": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29660,7 +30836,7 @@
     ]
   },
   "paris": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29724,7 +30900,7 @@
     ]
   },
   "parthenay": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29774,7 +30950,7 @@
     ]
   },
   "pau": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29824,7 +31000,7 @@
     ]
   },
   "perigueux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29853,7 +31029,7 @@
     ]
   },
   "peronne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29889,7 +31065,7 @@
     ]
   },
   "perpignan": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -29981,7 +31157,7 @@
     ]
   },
   "pertuis": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30108,7 +31284,7 @@
     ]
   },
   "pessac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30221,7 +31397,7 @@
     ]
   },
   "pezenas": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30306,7 +31482,7 @@
     ]
   },
   "pierrefitte-sur-seine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30356,7 +31532,7 @@
     ]
   },
   "plaisir": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30427,7 +31603,7 @@
     ]
   },
   "pointe-a-pitre": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30463,7 +31639,7 @@
     ]
   },
   "poissy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30499,7 +31675,7 @@
     ]
   },
   "poitiers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30549,7 +31725,7 @@
     ]
   },
   "pont-a-mousson": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30620,7 +31796,7 @@
     ]
   },
   "pontarlier": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30747,7 +31923,7 @@
     ]
   },
   "pontault-combault": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30846,7 +32022,7 @@
     ]
   },
   "pontoise": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -30917,7 +32093,7 @@
     ]
   },
   "porto-vecchio": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31093,7 +32269,7 @@
     ]
   },
   "privas": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31178,7 +32354,7 @@
     ]
   },
   "provins": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31242,7 +32418,7 @@
     ]
   },
   "puteaux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31271,7 +32447,7 @@
     ]
   },
   "quiberon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31356,7 +32532,7 @@
     ]
   },
   "quimper": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31455,7 +32631,7 @@
     ]
   },
   "rambouillet": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31526,7 +32702,7 @@
     ]
   },
   "reims": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31590,7 +32766,7 @@
     ]
   },
   "rennes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31633,7 +32809,7 @@
     ]
   },
   "rethel": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31676,7 +32852,7 @@
     ]
   },
   "reze": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31810,7 +32986,7 @@
     ]
   },
   "riberac": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31867,7 +33043,7 @@
     ]
   },
   "riedisheim": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -31980,7 +33156,7 @@
     ]
   },
   "rillieux-la-pape": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32037,7 +33213,7 @@
     ]
   },
   "riom": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32114,8 +33290,93 @@
       }
     ]
   },
+  "ris-orangis": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.9,
+    "rawCoverage": 3.5,
+    "areasTotal": 9,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000003087723",
+        "name": "Parc Naturel Régional du Gâtinais Français",
+        "kind": "parc-naturel-regional",
+        "areaHa": 1962.5,
+        "distanceKm": 11.8
+      },
+      {
+        "id": "SURFPARC0000002333272478",
+        "name": "Marais d'Itteville et de Fontenay-le-Vicomte",
+        "kind": "natura-2000",
+        "areaHa": 418.8,
+        "distanceKm": 8.3
+      },
+      {
+        "id": "SURFPARC0000002333273276",
+        "name": "Marais des Basses Vallées de la Juine et de l'Essonne",
+        "kind": "natura-2000",
+        "areaHa": 325,
+        "distanceKm": 8.6
+      },
+      {
+        "id": "SURFPARC0000002333271459",
+        "name": "Marais de Fontenay-le-Vicomte",
+        "kind": "arrete-biotope",
+        "areaHa": 293.8,
+        "distanceKm": 9.5
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 31.3,
+        "distanceKm": 3.3
+      },
+      {
+        "id": "SURFPARC0000002333271386",
+        "name": "le Grand Marais",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 15
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 14.8
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 13.9
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 12.7
+      }
+    ]
+  },
   "roanne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32158,7 +33419,7 @@
     ]
   },
   "rochefort": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32264,7 +33525,7 @@
     ]
   },
   "rodez": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32313,8 +33574,100 @@
       }
     ]
   },
+  "romainville": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.6,
+    "rawCoverage": 2.4,
+    "areasTotal": 10,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 1162.5,
+        "distanceKm": 2.1
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 475,
+        "distanceKm": 12
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 475,
+        "distanceKm": 12
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 37.5,
+        "distanceKm": 10.8
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 6.3
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 5.7
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 0.9
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 9.8
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 6.3,
+        "distanceKm": 14.7
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 11.4
+      }
+    ]
+  },
   "romans-sur-isere": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32364,7 +33717,7 @@
     ]
   },
   "romilly-sur-seine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32407,7 +33760,7 @@
     ]
   },
   "romorantin-lanthenay": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32450,7 +33803,7 @@
     ]
   },
   "rosny-sous-bois": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32549,7 +33902,7 @@
     ]
   },
   "roubaix": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32578,7 +33931,7 @@
     ]
   },
   "rouen": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32663,7 +34016,7 @@
     ]
   },
   "royan": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32790,7 +34143,7 @@
     ]
   },
   "rueil-malmaison": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32826,7 +34179,7 @@
     ]
   },
   "rumilly": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -32981,7 +34334,7 @@
     ]
   },
   "sable-sur-sarthe": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33017,7 +34370,7 @@
     ]
   },
   "saint-amand-montrond": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33060,7 +34413,7 @@
     ]
   },
   "saint-andre-reunion": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33096,7 +34449,7 @@
     ]
   },
   "saint-avold": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33139,7 +34492,7 @@
     ]
   },
   "saint-benoit-reunion": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33182,7 +34535,7 @@
     ]
   },
   "saint-brieuc": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33225,7 +34578,7 @@
     ]
   },
   "saint-chamond": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33289,7 +34642,7 @@
     ]
   },
   "saint-chely-d-apcher": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33360,7 +34713,7 @@
     ]
   },
   "saint-claude": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33543,7 +34896,7 @@
     ]
   },
   "saint-cloud": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33600,7 +34953,7 @@
     ]
   },
   "saint-denis": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33657,7 +35010,7 @@
     ]
   },
   "saint-denis-reunion": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33693,7 +35046,7 @@
     ]
   },
   "saint-die-des-vosges": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33750,7 +35103,7 @@
     ]
   },
   "saint-dizier": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33814,7 +35167,7 @@
     ]
   },
   "saint-etienne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -33920,7 +35273,7 @@
     ]
   },
   "saint-flour": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34012,7 +35365,7 @@
     ]
   },
   "saint-gaudens": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34062,7 +35415,7 @@
     ]
   },
   "saint-genis-laval": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34140,7 +35493,7 @@
     ]
   },
   "saint-germain-en-laye": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34190,7 +35543,7 @@
     ]
   },
   "saint-girons": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34303,7 +35656,7 @@
     ]
   },
   "saint-herblain": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34437,7 +35790,7 @@
     ]
   },
   "saint-jean-de-luz": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34557,7 +35910,7 @@
     ]
   },
   "saint-joseph-reunion": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34600,7 +35953,7 @@
     ]
   },
   "saint-laurent-du-maroni": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34629,7 +35982,7 @@
     ]
   },
   "saint-leu-la-foret": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34686,7 +36039,7 @@
     ]
   },
   "saint-lo": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34750,7 +36103,7 @@
     ]
   },
   "saint-louis-haut-rhin": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34814,7 +36167,7 @@
     ]
   },
   "saint-louis-reunion-974": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34864,7 +36217,7 @@
     ]
   },
   "saint-malo": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -34991,7 +36344,7 @@
     ]
   },
   "saint-mande": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35083,7 +36436,7 @@
     ]
   },
   "saint-martin-d-heres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35224,7 +36577,7 @@
     ]
   },
   "saint-maur-des-fosses": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35330,7 +36683,7 @@
     ]
   },
   "saint-medard-en-jalles": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35429,7 +36782,7 @@
     ]
   },
   "saint-nazaire": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35549,7 +36902,7 @@
     ]
   },
   "saint-omer": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35676,7 +37029,7 @@
     ]
   },
   "saint-ouen-sur-seine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35733,7 +37086,7 @@
     ]
   },
   "saint-paul-de-vence": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35860,7 +37213,7 @@
     ]
   },
   "saint-paul-reunion": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35910,7 +37263,7 @@
     ]
   },
   "saint-pierre-reunion": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -35960,7 +37313,7 @@
     ]
   },
   "saint-priest": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36003,7 +37356,7 @@
     ]
   },
   "saint-quentin": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36039,7 +37392,7 @@
     ]
   },
   "saint-raphael": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36110,7 +37463,7 @@
     ]
   },
   "saint-remy-de-provence": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36230,7 +37583,7 @@
     ]
   },
   "saint-tropez": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36280,7 +37633,7 @@
     ]
   },
   "saint-yrieix-la-perche": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36330,7 +37683,7 @@
     ]
   },
   "sainte-foy-les-lyon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36394,7 +37747,7 @@
     ]
   },
   "sainte-genevieve-des-bois": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36486,7 +37839,7 @@
     ]
   },
   "sainte-maxime": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36564,7 +37917,7 @@
     ]
   },
   "saintes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36621,7 +37974,7 @@
     ]
   },
   "sallanches": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36783,7 +38136,7 @@
     ]
   },
   "salon-de-provence": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -36945,7 +38298,7 @@
     ]
   },
   "sanary-sur-mer": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37079,7 +38432,7 @@
     ]
   },
   "sannois": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37129,7 +38482,7 @@
     ]
   },
   "sarcelles": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37186,7 +38539,7 @@
     ]
   },
   "sarlat-la-caneda": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37278,7 +38631,7 @@
     ]
   },
   "sarrebourg": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37356,7 +38709,7 @@
     ]
   },
   "sarreguemines": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37420,7 +38773,7 @@
     ]
   },
   "sartene": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37519,7 +38872,7 @@
     ]
   },
   "sartrouville": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37562,7 +38915,7 @@
     ]
   },
   "saumur": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37682,7 +39035,7 @@
     ]
   },
   "saverne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37774,7 +39127,7 @@
     ]
   },
   "savigny-le-temple": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37852,7 +39205,7 @@
     ]
   },
   "savigny-sur-orge": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -37930,7 +39283,7 @@
     ]
   },
   "sceaux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38001,7 +39354,7 @@
     ]
   },
   "schiltigheim": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38079,7 +39432,7 @@
     ]
   },
   "sedan": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38129,7 +39482,7 @@
     ]
   },
   "selestat": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38277,7 +39630,7 @@
     ]
   },
   "semur-en-auxois": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38320,7 +39673,7 @@
     ]
   },
   "senlis": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38384,7 +39737,7 @@
     ]
   },
   "sens": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38434,7 +39787,7 @@
     ]
   },
   "sete": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38533,7 +39886,7 @@
     ]
   },
   "sevran": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38639,7 +39992,7 @@
     ]
   },
   "sevres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38703,7 +40056,7 @@
     ]
   },
   "sisteron": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38774,7 +40127,7 @@
     ]
   },
   "six-fours-les-plages": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38894,7 +40247,7 @@
     ]
   },
   "soissons": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -38944,7 +40297,7 @@
     ]
   },
   "soisy-sous-montmorency": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39001,7 +40354,7 @@
     ]
   },
   "sotteville-les-rouen": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39107,7 +40460,7 @@
     ]
   },
   "stains": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39171,7 +40524,7 @@
     ]
   },
   "strasbourg": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39256,7 +40609,7 @@
     ]
   },
   "suresnes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39292,7 +40645,7 @@
     ]
   },
   "talence": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39405,7 +40758,7 @@
     ]
   },
   "tarbes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39448,7 +40801,7 @@
     ]
   },
   "tassin-la-demi-lune": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39511,8 +40864,107 @@
       }
     ]
   },
+  "thiais": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 0.3,
+    "rawCoverage": 0.4,
+    "areasTotal": 11,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 118.8,
+        "distanceKm": 10.7
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 75,
+        "distanceKm": 14.1
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 75,
+        "distanceKm": 14.1
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 9
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 8
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 14.8
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 13.5
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 8.3
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 14.4
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 11.4
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 14.4
+      }
+    ]
+  },
   "thiers": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39611,7 +41063,7 @@
     ]
   },
   "thionville": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39661,7 +41113,7 @@
     ]
   },
   "thonon-les-bains": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39809,7 +41261,7 @@
     ]
   },
   "torcy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -39929,7 +41381,7 @@
     ]
   },
   "toulon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40063,7 +41515,7 @@
     ]
   },
   "toulouse": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40183,7 +41635,7 @@
     ]
   },
   "tourcoing": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40212,7 +41664,7 @@
     ]
   },
   "tournefeuille": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40325,7 +41777,7 @@
     ]
   },
   "tours": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40382,7 +41834,7 @@
     ]
   },
   "trappes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40460,7 +41912,7 @@
     ]
   },
   "trelaze": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40587,7 +42039,7 @@
     ]
   },
   "tremblay-en-france": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40672,7 +42124,7 @@
     ]
   },
   "troyes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40743,7 +42195,7 @@
     ]
   },
   "tulle": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40779,7 +42231,7 @@
     ]
   },
   "ussel": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40843,7 +42295,7 @@
     ]
   },
   "vaison-la-romaine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -40942,7 +42394,7 @@
     ]
   },
   "valbonne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41027,7 +42479,7 @@
     ]
   },
   "valence": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41105,7 +42557,7 @@
     ]
   },
   "valenciennes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41155,7 +42607,7 @@
     ]
   },
   "vandoeuvre-les-nancy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41233,7 +42685,7 @@
     ]
   },
   "vannes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41352,8 +42804,58 @@
       }
     ]
   },
+  "vanves": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 0.1,
+    "rawCoverage": 0.2,
+    "areasTotal": 4,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 137.5,
+        "distanceKm": 10.7
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 13.5
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 8.4
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 10.8
+      }
+    ]
+  },
   "vaulx-en-velin": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41410,7 +42912,7 @@
     ]
   },
   "velizy-villacoublay": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41495,7 +42997,7 @@
     ]
   },
   "vendome": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41531,7 +43033,7 @@
     ]
   },
   "venissieux": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41581,7 +43083,7 @@
     ]
   },
   "verdun": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41638,7 +43140,7 @@
     ]
   },
   "vernon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41751,7 +43253,7 @@
     ]
   },
   "versailles": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41836,7 +43338,7 @@
     ]
   },
   "vertou": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -41956,7 +43458,7 @@
     ]
   },
   "vesoul": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42069,7 +43571,7 @@
     ]
   },
   "vichy": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42161,7 +43663,7 @@
     ]
   },
   "vienne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42232,7 +43734,7 @@
     ]
   },
   "vierzon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42282,7 +43784,7 @@
     ]
   },
   "villefranche-de-rouergue": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42346,7 +43848,7 @@
     ]
   },
   "villefranche-sur-saone": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42395,8 +43897,192 @@
       }
     ]
   },
+  "villejuif": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 0.2,
+    "rawCoverage": 0.2,
+    "areasTotal": 8,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 112.5,
+        "distanceKm": 8.7
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 12.2
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 12.5,
+        "distanceKm": 7.9
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 13.8
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 11.7
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 14.2
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 11.1
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 9.9
+      }
+    ]
+  },
+  "villemomble": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.7,
+    "rawCoverage": 2.5,
+    "areasTotal": 12,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 1112.5,
+        "distanceKm": 0.8
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 462.5,
+        "distanceKm": 8.4
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 462.5,
+        "distanceKm": 8.4
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 93.8,
+        "distanceKm": 10
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 37.5,
+        "distanceKm": 12.7
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 37.5,
+        "distanceKm": 6.8
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 25,
+        "distanceKm": 6.7
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 18.8,
+        "distanceKm": 8.1
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 3.4
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 2
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 1.6
+      },
+      {
+        "id": "SURFPARC0000002333272314",
+        "name": "Boucles de la Marne",
+        "kind": "natura-2000",
+        "areaHa": 0,
+        "distanceKm": 15
+      }
+    ]
+  },
   "villenave-d-ornon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42495,7 +44181,7 @@
     ]
   },
   "villeneuve-la-garenne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42538,7 +44224,7 @@
     ]
   },
   "villeneuve-sur-lot": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42587,8 +44273,107 @@
       }
     ]
   },
+  "villepinte": {
+    "crawledAt": "2026-10-09",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 2.1,
+    "rawCoverage": 3.6,
+    "areasTotal": 11,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 1087.5,
+        "distanceKm": 1.2
+      },
+      {
+        "id": "SURFPARC0000000003750269",
+        "name": "Parc Naturel Régional Oise-Pays de France",
+        "kind": "parc-naturel-regional",
+        "areaHa": 812.5,
+        "distanceKm": 11.9
+      },
+      {
+        "id": "SURFPARC0000002333272314",
+        "name": "Boucles de la Marne",
+        "kind": "natura-2000",
+        "areaHa": 481.3,
+        "distanceKm": 12.2
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 100,
+        "distanceKm": 10.7
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 50,
+        "distanceKm": 14.5
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 50,
+        "distanceKm": 14.5
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 4
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 12.5,
+        "distanceKm": 10.4
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 9.6
+      },
+      {
+        "id": "SURFPARC0000002333271009",
+        "name": "Glacis du Fort de Noisy-le-Sec",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 10.1
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 9.3
+      }
+    ]
+  },
   "villeurbanne": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42645,7 +44430,7 @@
     ]
   },
   "villiers-le-bel": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42702,7 +44487,7 @@
     ]
   },
   "vincennes": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42794,7 +44579,7 @@
     ]
   },
   "viry-chatillon": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42879,7 +44664,7 @@
     ]
   },
   "vitre": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -42900,7 +44685,7 @@
     "areas": []
   },
   "vitrolles": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -43013,7 +44798,7 @@
     ]
   },
   "vitry-sur-seine": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -43105,7 +44890,7 @@
     ]
   },
   "voiron": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -43246,7 +45031,7 @@
     ]
   },
   "wattrelos": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -43275,7 +45060,7 @@
     ]
   },
   "wittenheim": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
@@ -43402,7 +45187,7 @@
     ]
   },
   "yerres": {
-    "crawledAt": "2026-08-19",
+    "crawledAt": "2026-10-09",
     "source": "bdtopo",
     "ingestVersion": 3,
     "radiusKm": 15,
