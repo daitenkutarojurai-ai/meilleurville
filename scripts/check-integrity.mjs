@@ -1419,6 +1419,54 @@ if (!failed) {
   }
 }
 
+// Palmarès mensuel (R13.2) : aucune édition d'un mois futur ne doit être rendue.
+// Défaut constaté le 2026-10-07 : `GUIDES` publiait déjà novembre 2026, décembre
+// 2026 et janvier 2027. Les éditions préparées en avance vivent dans
+// `data/palmares-drafts.ts`, que rien de rendu ne doit importer. Une édition
+// entre dans `GUIDES` à partir du 2 du mois que porte son slug.
+{
+  const MONTHS = ["janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "decembre"];
+  const { GUIDES } = load("data/guides.ts");
+  const { PALMARES_DRAFTS } = load("data/palmares-drafts.ts");
+  const now = new Date();
+  const nowKey = now.getUTCFullYear() * 12 + now.getUTCMonth() - (now.getUTCDate() < 2 ? 1 : 0);
+  const offences = [];
+  let published = 0;
+  for (const g of GUIDES) {
+    const m = g.slug.match(/^palmares-([a-z]+)-(\d{4})-/);
+    if (!m) continue;
+    const mi = MONTHS.indexOf(m[1]);
+    if (mi < 0) { offences.push(`${g.slug} — mois illisible dans le slug`); continue; }
+    published++;
+    if (Number(m[2]) * 12 + mi > nowKey) offences.push(`${g.slug} — édition d'un mois futur publiée dans GUIDES`);
+  }
+  const live = new Set(GUIDES.map((g) => g.slug));
+  for (const d of PALMARES_DRAFTS ?? []) {
+    if (live.has(d.slug)) offences.push(`${d.slug} — présent à la fois en brouillon et dans GUIDES`);
+  }
+  const walk = (dir) => readdirSync(path.join(ROOT, dir), { withFileTypes: true }).flatMap((e) => {
+    const rel = path.join(dir, e.name);
+    if (e.isDirectory()) return walk(rel);
+    return /\.(ts|tsx|mjs|js)$/.test(e.name) ? [rel] : [];
+  });
+  for (const dir of ["app", "components", "lib", "worker"]) {
+    if (!existsSync(path.join(ROOT, dir))) continue;
+    for (const f of walk(dir)) {
+      if (readFileSync(path.join(ROOT, f), "utf8").includes("palmares-drafts")) {
+        offences.push(`${f} — importe les brouillons du palmarès (ils seraient rendus)`);
+      }
+    }
+  }
+  if (offences.length === 0) {
+    console.log(`  ok  palmarès   ${published} éditions publiées, aucune d'un mois futur · ${(PALMARES_DRAFTS ?? []).length} brouillon(s) non rendu(s)`);
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  palmarès : ${offences.length} problème(s)\n`);
+    for (const o of offences) console.error(`    ${o}`);
+    console.error("\n    Voir `data/palmares-drafts.ts` et CLAUDE.md § R13.2.\n");
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = computeSportLeisure(city);
   return {
     title: `Faire du sport à ${city.name} · équipements, outdoor, clubs`,
-    description: `Synthèse de la pratique sportive à ${city.name} (${city.department}) : équipements ${SPORT_LEVEL_LABEL[s.facilities.level].toLowerCase()}, outdoor ${SPORT_LEVEL_LABEL[s.outdoor.level].toLowerCase()}, clubs ${SPORT_LEVEL_LABEL[s.clubs.level].toLowerCase()}, climat ${SPORT_LEVEL_LABEL[s.climate.level].toLowerCase()}. Score ${s.composite}/10.`,
+    description: `Synthèse de la pratique sportive à ${city.name} (${city.department}) : équipements ${SPORT_LEVEL_LABEL[s.facilities.level].toLowerCase()}, outdoor ${SPORT_LEVEL_LABEL[s.outdoor.level].toLowerCase()}, clubs ${SPORT_LEVEL_LABEL[s.clubs.level].toLowerCase()}, climat ${SPORT_LEVEL_LABEL[s.climate.level].toLowerCase()}. Score ${s.composite.toFixed(1).replace(".", ",")}/10.`,
     alternates: cityAlternates("sport", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -83,7 +83,7 @@ export default async function SportPage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `${city.name} est-elle adaptée à la pratique sportive ?`,
-      a: `${city.name} obtient un score composite ${s.composite}/10 (${SPORT_LEVEL_LABEL[s.level].toLowerCase()}). Détail : équipements ${s.facilities.score}/10, cadre outdoor ${s.outdoor.score}/10, vie associative ${s.clubs.score}/10, climat ${s.climate.score}/10. ${s.signature}`,
+      a: `${city.name} obtient un score composite ${s.composite.toFixed(1).replace(".", ",")}/10 (${SPORT_LEVEL_LABEL[s.level].toLowerCase()}). Détail : équipements ${s.facilities.score.toFixed(1).replace(".", ",")}/10, cadre outdoor ${s.outdoor.score.toFixed(1).replace(".", ",")}/10, vie associative ${s.clubs.score.toFixed(1).replace(".", ",")}/10, climat ${s.climate.score.toFixed(1).replace(".", ",")}/10. ${s.signature}`,
     },
     {
       q: `Où trouver les équipements sportifs municipaux de ${city.name} ?`,

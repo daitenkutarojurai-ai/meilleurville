@@ -7150,21 +7150,6 @@
       "emoji": "🏆"
     },
     {
-      "slug": "palmares-novembre-2026-ou-la-france-emmenage",
-      "title": "Palmarès novembre 2026 : les 20 villes où la France emménage vraiment",
-      "emoji": "🏆"
-    },
-    {
-      "slug": "palmares-decembre-2026-structure-par-age",
-      "title": "Palmarès décembre 2026 : les 20 villes les plus âgées de France",
-      "emoji": "🏆"
-    },
-    {
-      "slug": "palmares-janvier-2027-prix-reels-appartements",
-      "title": "Palmarès janvier 2027 : ce que les acheteurs ont vraiment payé",
-      "emoji": "🏆"
-    },
-    {
       "slug": "retraite-a-dinan-2026",
       "title": "Retraite à Dinan en 2026 : santé, logement, budget, le guide",
       "emoji": "🌅"
@@ -9892,11 +9877,6 @@
       "count": 7
     },
     {
-      "slug": "classement-mensuel-villes-france",
-      "label": "classement mensuel villes France",
-      "count": 7
-    },
-    {
       "slug": "dordogne",
       "label": "Dordogne",
       "count": 7
@@ -10164,6 +10144,11 @@
     {
       "slug": "chartres",
       "label": "Chartres",
+      "count": 4
+    },
+    {
+      "slug": "classement-mensuel-villes-france",
+      "label": "classement mensuel villes France",
       "count": 4
     },
     {
