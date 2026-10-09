@@ -5,7 +5,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CompareTool } from "./CompareTool";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { comparePairSlug } from "@/lib/comparer-pairs";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { hubTitle } from "@/lib/brand";
 import { pathAlternates } from "@/lib/i18n";

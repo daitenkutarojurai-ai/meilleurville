@@ -7,7 +7,7 @@
 // alternates: they exist on both sides or on neither, and they show the SAME
 // numbers (both read the same `biodiversityProfile`). Never unpark one alone.
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";

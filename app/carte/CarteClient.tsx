@@ -1,7 +1,7 @@
 "use client";
 
 import { memo, useEffect, useMemo, useRef, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import type { CityLight, LeanMeta } from "@/lib/cities-light";
 import { DromStrip } from "@/components/DromStrip";
 import { scoreHex as scoreColor } from "@/lib/utils";

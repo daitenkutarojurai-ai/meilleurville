@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Search, MapPin, BookOpen, Trophy, Globe2, Tag as TagIcon, BookText, X } from "lucide-react";
 import { RANKING_META } from "@/lib/rankings-meta";
 import { rankingEn } from "@/lib/rankings-en";

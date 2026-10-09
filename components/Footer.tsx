@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Heart } from "lucide-react";
 import { DEFAULT_LOCALE } from "@/lib/i18n";
 import { BrandMark } from "@/components/BrandMark";
@@ -175,9 +175,11 @@ export function Footer() {
           {/* Link groups */}
           {Object.entries(LINKS).map(([group, links]) => (
             <div key={group}>
-              <h4 className="mb-4 text-xs font-semibold uppercase tracking-wider text-[#84CC16]">
+              {/* h2, not h4: the footer follows the page's last h2, and a jump
+                  to h4 breaks the heading outline screen readers navigate by. */}
+              <h2 className="mb-4 text-xs font-semibold uppercase tracking-wider text-[#84CC16]">
                 {group}
-              </h4>
+              </h2>
               <ul className="space-y-2.5">
                 {links.map(({ label, href }) => (
                   <li key={href}>

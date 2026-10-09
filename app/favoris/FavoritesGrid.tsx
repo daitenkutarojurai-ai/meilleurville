@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { CityCard } from "@/components/CityCard";
 import type { CityLight } from "@/lib/cities-light";
 import { readFavorites } from "@/components/effects/FavoriteButton";

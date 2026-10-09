@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Heart, Star, Bell, LogOut, Loader2, MapPin, LineChart, Pencil, Check, X } from "lucide-react";
 import { CityCard } from "@/components/CityCard";
 import type { CityLight } from "@/lib/cities-light";

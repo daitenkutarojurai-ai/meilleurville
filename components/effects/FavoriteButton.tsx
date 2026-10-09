@@ -116,12 +116,16 @@ export function FavoriteButton({
   className = "",
   size = 18,
   label = false,
+  locale = "fr",
 }: {
   slug: string;
   className?: string;
   size?: number;
   label?: boolean;
+  /** CityProfile renders on both domains; without this the EN city page showed "Sauvegarder". */
+  locale?: "fr" | "en";
 }) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const favorites = useFavorites();
   const active = favorites.includes(slug);
   const [animating, setAnimating] = useState(false);
@@ -151,7 +155,15 @@ export function FavoriteButton({
       type="button"
       onClick={toggle}
       aria-pressed={active}
-      aria-label={active ? "Retirer des favoris" : "Ajouter aux favoris"}
+      // Icon-only: the label is the button's whole name. With visible text,
+      // the text is the name (WCAG 2.5.3) and aria-pressed carries the state.
+      aria-label={
+        label
+          ? undefined
+          : active
+            ? t("Retirer des favoris", "Remove from favourites")
+            : t("Ajouter aux favoris", "Add to favourites")
+      }
       className={
         "inline-flex items-center gap-1.5 rounded-full transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-pink)] " +
         (active
@@ -171,7 +183,7 @@ export function FavoriteButton({
       />
       {label && (
         <span className="text-xs font-semibold">
-          {active ? "Sauvegardé" : "Sauvegarder"}
+          {active ? t("Sauvegardé", "Saved") : t("Sauvegarder", "Save")}
         </span>
       )}
     </button>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Thermometer, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { projectClimate2040 } from "@/lib/climate-2040";

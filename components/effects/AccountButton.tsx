@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { useEffect, useState, useSyncExternalStore } from "react";
 import { User } from "lucide-react";
 import {

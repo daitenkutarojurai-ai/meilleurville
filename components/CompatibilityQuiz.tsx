@@ -6,7 +6,7 @@
 // breakdown. All computation client-side (calls lib/compatibility.ts).
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { ArrowLeft, ArrowRight, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";

@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { Clock, ListOrdered, MapPin, CalendarDays } from "lucide-react";
 import { notFound } from "next/navigation";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
 import { cn } from "@/lib/utils";

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Thermometer, Sun, Moon, Play, Pause, ChevronRight } from "lucide-react";
 import type { CityLight } from "@/lib/cities-light";
 import {

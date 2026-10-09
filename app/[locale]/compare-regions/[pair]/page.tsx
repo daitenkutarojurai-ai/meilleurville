@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import React from "react";
 import { Navbar } from "@/components/Navbar";

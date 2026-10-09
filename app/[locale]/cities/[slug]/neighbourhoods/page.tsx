@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";
 import { cityPhoto } from "@/lib/city-images";
@@ -52,11 +52,11 @@ const EN_TYPE_LABELS: Record<Neighborhood["type"], string> = {
 
 const EN_TYPE_COLORS: Record<Neighborhood["type"], string> = {
   "centre-ville": "text-blue-600 bg-blue-400/10 border-blue-400/20",
-  résidentiel: "text-emerald-600 bg-emerald-500/10 border-emerald-400/20",
-  étudiant: "text-violet-400 bg-violet-400/10 border-violet-400/20",
-  branché: "text-pink-400 bg-pink-400/10 border-pink-400/20",
+  résidentiel: "text-emerald-700 bg-emerald-500/10 border-emerald-400/20",
+  étudiant: "text-violet-700 bg-violet-400/10 border-violet-400/20",
+  branché: "text-pink-700 bg-pink-400/10 border-pink-400/20",
   populaire: "text-orange-600 bg-orange-400/10 border-orange-400/20",
-  pavillonnaire: "text-amber-400 bg-amber-400/10 border-amber-400/20",
+  pavillonnaire: "text-amber-700 bg-amber-400/10 border-amber-400/20",
 };
 
 const SCORE_AXES: Array<{ key: keyof Neighborhood["scores"]; label: string }> = [
@@ -68,12 +68,12 @@ const SCORE_AXES: Array<{ key: keyof Neighborhood["scores"]; label: string }> = 
 ];
 
 function scoreColor(s: number) {
-  if (s >= 7.5) return "text-purple-500";
-  if (s >= 7.0) return "text-green-500";
-  if (s >= 6.0) return "text-lime-500";
-  if (s >= 5.0) return "text-amber-400";
-  if (s >= 4.0) return "text-orange-500";
-  return "text-red-500";
+  if (s >= 7.5) return "text-purple-600";
+  if (s >= 7.0) return "text-green-700";
+  if (s >= 6.0) return "text-lime-700";
+  if (s >= 5.0) return "text-amber-700";
+  if (s >= 4.0) return "text-orange-700";
+  return "text-red-600";
 }
 
 function enDescription(n: Neighborhood, cityName: string): string {

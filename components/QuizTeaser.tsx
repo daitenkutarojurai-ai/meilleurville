@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { useState } from "react";
 import { Sparkles, ArrowRight, Brain, Target, Zap, Check } from "lucide-react";
 import { Button } from "@/components/ui/Button";

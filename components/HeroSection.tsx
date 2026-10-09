@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { useState, useRef, useEffect, useMemo } from "react";
 import { Search, Sparkles, ArrowRight, MapPin, Star } from "lucide-react";
 import { Button } from "@/components/ui/Button";
@@ -20,14 +20,20 @@ interface SearchResult {
 
 // Scores resolved from the real seed at render — hardcoded values drifted
 // above the actual score clamp (fake figures).
+//
+// Placed in the side gutters, west cities left and east cities right, north
+// above south. They used to be projected from lat/lng across the whole hero,
+// which dropped Nantes onto the subtitle, Bordeaux onto the trending chips and
+// Montpellier behind the CTA buttons (audit 2026-10-09). The gutters only
+// exist from `xl` up (content column is max-w-5xl), hence `hidden xl:block`.
 const FLOATING_DOTS = [
-  { name: "Annecy",      lng: 6.13, lat: 45.90 },
-  { name: "Bordeaux",    lng: -0.58, lat: 44.84 },
-  { name: "Lyon",        lng: 4.83, lat: 45.76 },
-  { name: "Nantes",      lng: -1.55, lat: 47.22 },
-  { name: "Strasbourg",  lng: 7.75, lat: 48.58 },
-  { name: "Montpellier", lng: 3.88, lat: 43.61 },
-];
+  { name: "Nantes",      side: "left",  top: 24 },
+  { name: "Bordeaux",    side: "left",  top: 48 },
+  { name: "Montpellier", side: "left",  top: 72 },
+  { name: "Strasbourg",  side: "right", top: 18 },
+  { name: "Lyon",        side: "right", top: 42 },
+  { name: "Annecy",      side: "right", top: 66 },
+] as const;
 
 // cities/counts come from the server page (lib/hero-data, lib/site-stats) —
 // importing the seed or site-stats here would ship the full datasets in the
@@ -136,10 +142,8 @@ export function HeroSection({
       </div>
 
       {/* Floating city dots — desktop only, behind the headline */}
-      <div className="pointer-events-none absolute inset-0 hidden lg:block" aria-hidden>
+      <div className="pointer-events-none absolute inset-0 hidden xl:block" aria-hidden>
         {FLOATING_DOTS.map((d, i) => {
-          const x = ((d.lng + 5) / 14) * 100;
-          const y = ((52 - d.lat) / 11) * 100;
           const score = cities.find((c) => c.name === d.name)?.scores.global;
           if (score == null) return null;
           return (
@@ -147,8 +151,8 @@ export function HeroSection({
               key={d.name}
               className="absolute animate-drift"
               style={{
-                left: `${x}%`,
-                top: `${Math.max(8, Math.min(72, y))}%`,
+                [d.side]: "max(1.5rem, calc((100% - 64rem) / 2 - 9rem))",
+                top: `${d.top}%`,
                 animationDelay: `${i * 0.4}s`,
               }}
             >

@@ -3,7 +3,7 @@
 // Surface le méga-index F52 (env + santé + emploi) sur la page la plus
 // trafiquée du site (×540). Composant serveur — zéro JS.
 
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import type { CitySeed } from "@/data/cities-seed";
 import {
   computeQualityOfLife,

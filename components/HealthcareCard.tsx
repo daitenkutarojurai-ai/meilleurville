@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Stethoscope, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { computeHealthcareAccess, HEALTH_LEVEL_LABEL, HEALTH_LEVEL_COLOR } from "@/lib/healthcare-access";

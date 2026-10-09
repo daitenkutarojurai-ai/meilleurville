@@ -8,7 +8,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { cityMindset } from "@/lib/city-mindset";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Sparkles, ArrowLeft, Users, Coffee, Mountain, Heart, Globe2 } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;

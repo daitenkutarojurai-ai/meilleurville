@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { translateBreakdown } from "@/components/VibeWidget";
 import { notFound } from "next/navigation";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Zap } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";

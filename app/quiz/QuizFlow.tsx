@@ -7,7 +7,7 @@ import type { QuizAnswers, MatchResult } from "@/lib/types";
 import { CityCard } from "@/components/CityCard";
 import { QuizShareButton } from "./QuizShareButton";
 import type { CityLight } from "@/lib/cities-light";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 
 // ─── Steps ───────────────────────────────────────────────────────────────────
 

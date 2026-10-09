@@ -7,7 +7,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import { ClassementsJumpNav } from "@/components/ClassementsJumpNav";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import {
   Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet,
   Sun, Shield, Music, Bike, Building2, Heart, Leaf, CloudSun, KeyRound, Rocket,

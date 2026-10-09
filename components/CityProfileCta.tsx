@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { MapPin, ArrowRight } from "lucide-react";
 import { cn, formatScore, scoreColor, scoreBg, scoreLabel } from "@/lib/utils";
 

@@ -9,7 +9,7 @@
 
   --text-primary: #1C2833;       /* dark charcoal, neutral near-black */
   --text-secondary: #5D6D7E;     /* medium gray */
-  --text-tertiary: #64748B;      /* lighter gray for hints — 4.76:1 on white (AA) */
+  --text-tertiary: #5B6B82;      /* lighter gray for hints — 5.3:1 on white; #64748B fell to 4.2:1 on the tinted cards (#ecf3f4), audit 2026-10-09 */
 
   --accent: #0F766E;             /* teal — distinct from score greens; 5.47:1 on white (AA) */
   --accent-hover: #115E59;       /* darker teal for button hover */
@@ -340,7 +340,10 @@ body {
   opacity: 0;
   /* Keep short — the h1 is the LCP element and paints opacity:0 until this ends */
   animation: wordReveal 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
-  will-change: transform, opacity, filter;
+  /* No `will-change` here: the browser promotes an element for the length of
+     its own animation, while a static `will-change` kept every revealed word
+     and block of the hero on its own filtered GPU layer for the life of the
+     page (audit 2026-10-09). */
 }
 
 /* Spotlight follow — set --x and --y from JS (0-1) */

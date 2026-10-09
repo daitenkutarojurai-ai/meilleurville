@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { ShieldAlert, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { computeNaturalRisks, RISK_LEVEL_LABEL, RISK_LEVEL_COLOR } from "@/lib/natural-risks";

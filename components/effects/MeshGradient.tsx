@@ -9,7 +9,46 @@ import { useEffect, useRef } from "react";
  * frame).
  *
  * Tuned for the meilleurville cream + grass-green + amber + pink palette.
+ *
+ * Budget (audit 2026-10-09). Mounted behind ~80 page templates via
+ * AmbientBackground, this used to shade every device pixel (DPR up to 2) with a
+ * 5-octave fbm, 60 times a second, for as long as the tab stayed open — the
+ * single largest main-thread/GPU cost Lighthouse found on mobile (home: 4.9 s
+ * TBT, 27 s of main-thread work). The picture is soft and its motion slow (a
+ * blob drifts over ~2 minutes), so none of that was visible:
+ *  • RENDER_SCALE: the canvas is drawn at a fraction of its CSS size and
+ *    upscaled by the browser — the gradient has no detail to lose;
+ *  • FRAME_MS: ~15 fps is indistinguishable from 60 at this speed;
+ *  • the first frame waits for idle time, so it never competes with the
+ *    page's own load and hydration;
+ *  • small screens, Data Saver and low-core devices get one static frame.
+ * The pixel-level grain the shader used to add is gone with the resolution
+ * drop (it would turn into blotches); the CSS `.grain` overlay provides it.
  */
+const RENDER_SCALE = 0.35;
+const FRAME_MS = 1000 / 15;
+
+function shouldAnimate(): boolean {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return false;
+  if (window.matchMedia("(max-width: 767px)").matches) return false;
+  const nav = navigator as Navigator & { connection?: { saveData?: boolean } };
+  if (nav.connection?.saveData) return false;
+  if ((navigator.hardwareConcurrency ?? 8) <= 4) return false;
+  return true;
+}
+
+function whenIdle(cb: () => void): () => void {
+  const w = window as Window & {
+    requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+    cancelIdleCallback?: (id: number) => void;
+  };
+  if (w.requestIdleCallback) {
+    const id = w.requestIdleCallback(cb, { timeout: 2500 });
+    return () => w.cancelIdleCallback?.(id);
+  }
+  const id = window.setTimeout(cb, 1200);
+  return () => window.clearTimeout(id);
+}
 export function MeshGradient({ className = "" }: { className?: string }) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const fallbackRef = useRef<HTMLDivElement | null>(null);
@@ -24,7 +63,7 @@ export function MeshGradient({ className = "" }: { className?: string }) {
       return;
     }
 
-    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const animate = shouldAnimate();
 
     const vert = `
       attribute vec2 a;
@@ -102,10 +141,6 @@ export function MeshGradient({ className = "" }: { className?: string }) {
         float vig = smoothstep(1.20, 0.30, length(uv - 0.5));
         col *= mix(0.92, 1.02, vig);
 
-        // Tiny grain
-        float g = h(uv * uRes.xy + t * 60.0);
-        col += (g - 0.5) * 0.020;
-
         gl_FragColor = vec4(col, 1.0);
       }
     `;
@@ -149,49 +184,67 @@ export function MeshGradient({ className = "" }: { className?: string }) {
     const uRes = gl.getUniformLocation(prog, "uRes");
     const uT = gl.getUniformLocation(prog, "uT");
 
-    const dpr = Math.min(2, window.devicePixelRatio || 1);
-    function resize() {
-      if (!canvas) return;
-      const w = Math.floor(canvas.clientWidth * dpr);
-      const h = Math.floor(canvas.clientHeight * dpr);
+    function resize(): boolean {
+      if (!canvas) return false;
+      const w = Math.max(1, Math.floor(canvas.clientWidth * RENDER_SCALE));
+      const h = Math.max(1, Math.floor(canvas.clientHeight * RENDER_SCALE));
       if (canvas.width !== w || canvas.height !== h) {
         canvas.width = w;
         canvas.height = h;
         gl!.viewport(0, 0, w, h);
         gl!.uniform2f(uRes, w, h);
+        return true;
       }
+      return false;
     }
 
     let raf = 0;
-    let visible = true;
+    let started = false;
+    let visible = document.visibilityState === "visible";
+    let last = -Infinity;
+    const start = performance.now();
+
+    function draw(now: number) {
+      gl!.uniform1f(uT, (now - start) / 1000);
+      gl!.drawArrays(gl!.TRIANGLE_STRIP, 0, 4);
+    }
+
+    function loop(now: number) {
+      raf = 0;
+      if (!visible) return;
+      if (now - last >= FRAME_MS) {
+        last = now;
+        resize();
+        draw(now);
+      }
+      raf = requestAnimationFrame(loop);
+    }
+
     const onVis = () => {
       visible = document.visibilityState === "visible";
-      if (visible) loop(performance.now());
+      if (visible && started && animate && !raf) raf = requestAnimationFrame(loop);
     };
     document.addEventListener("visibilitychange", onVis);
 
-    const start = performance.now();
-    function loop(now: number) {
-      resize();
-      const t = (now - start) / 1000;
-      gl!.uniform1f(uT, t);
-      gl!.drawArrays(gl!.TRIANGLE_STRIP, 0, 4);
-      if (!reduced && visible) raf = requestAnimationFrame(loop);
-    }
-
-    const ro = new ResizeObserver(resize);
+    // A static canvas only needs a redraw when its size changes.
+    const ro = new ResizeObserver(() => {
+      if (started && resize() && !animate) draw(performance.now());
+    });
     ro.observe(canvas);
 
-    if (reduced) {
+    const cancelIdle = whenIdle(() => {
+      started = true;
+      // Force the first resize to run (and set uRes) even if the canvas
+      // already happens to have the target size.
+      canvas.width = 0;
       resize();
-      gl.uniform1f(uT, 0);
-      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-    } else {
-      loop(start);
-    }
+      draw(performance.now());
+      if (animate && visible) raf = requestAnimationFrame(loop);
+    });
 
     return () => {
-      cancelAnimationFrame(raf);
+      cancelIdle();
+      if (raf) cancelAnimationFrame(raf);
       ro.disconnect();
       document.removeEventListener("visibilitychange", onVis);
       gl.deleteProgram(prog);

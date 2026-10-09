@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { ArrowUpRight, Clock } from "lucide-react";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";

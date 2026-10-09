@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { Send, Bot, User, Sparkles, MapPin, ArrowRight } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 
 interface Message {
   role: "user" | "assistant";

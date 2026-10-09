@@ -23,7 +23,7 @@ export function GuidePoiCard({ poi, cityName }: { poi: GuidePoi; cityName: strin
       />
       <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3">
         <span className="flex items-center gap-1.5 text-sm font-semibold text-[var(--text-primary)]">
-          <MapPin className="h-4 w-4 flex-shrink-0 text-cyan-400" aria-hidden />
+          <MapPin className="h-4 w-4 flex-shrink-0 text-cyan-700" aria-hidden />
           {poi.name}
         </span>
 
@@ -31,7 +31,7 @@ export function GuidePoiCard({ poi, cityName }: { poi: GuidePoi; cityName: strin
           href={mapsUrl(poi, cityName)}
           target="_blank"
           rel="noopener nofollow"
-          className="text-xs font-medium text-cyan-400 hover:underline underline-offset-2"
+          className="text-xs font-medium text-cyan-700 hover:underline underline-offset-2"
         >
           Voir sur Google Maps
         </a>

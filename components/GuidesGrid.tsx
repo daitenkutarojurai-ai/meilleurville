@@ -1,6 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Search, X } from "lucide-react";
 import { GuideCard, type GuideCardData } from "@/components/GuideCard";
 import { Badge } from "@/components/ui/Badge";

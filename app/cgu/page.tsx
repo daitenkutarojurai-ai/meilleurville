@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { pathAlternates } from "@/lib/i18n";

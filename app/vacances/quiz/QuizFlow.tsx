@@ -1,6 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { ChevronRight, ChevronLeft, MapPin, RefreshCw, Sparkles } from "lucide-react";
 import type { CityLight } from "@/lib/cities-light";
 import { BookingCTA } from "@/components/BookingCTA";

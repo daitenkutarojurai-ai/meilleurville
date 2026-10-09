@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Volume2, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { computeNoiseExposure, NOISE_LEVEL_LABEL, NOISE_LEVEL_COLOR } from "@/lib/noise-exposure";

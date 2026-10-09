@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { scoreHex } from "@/lib/utils";
 
 // Minimal city shape — the parent (FranceHeatmap / CarteClient) passes its

@@ -7,7 +7,7 @@
 // frais de notaire estimés.
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Card } from "@/components/ui/Card";
 import { scoreColor } from "@/lib/utils";
 

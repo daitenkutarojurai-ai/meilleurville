@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 const FLAG_TYPES = [

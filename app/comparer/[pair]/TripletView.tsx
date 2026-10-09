@@ -4,7 +4,7 @@
 // Pair view in page.tsx is untouched — this file is only loaded for triplets.
 
 import React from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CommentSection } from "@/components/CommentSection";

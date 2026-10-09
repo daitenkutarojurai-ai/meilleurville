@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { MapPin, Star } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { cn, formatNumber, formatScore, scoreHex, scoreColor, scoreLabel } from "@/lib/utils";

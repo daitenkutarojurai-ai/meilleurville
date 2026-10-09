@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import type { CityLight } from "@/lib/cities-light";
 import { cn, scoreColor as scoreClass } from "@/lib/utils";
 

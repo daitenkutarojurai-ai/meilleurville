@@ -8,7 +8,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import type { City } from "@/lib/types";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { getHousing } from "@/data/housing";
 import React from "react";
 import { TripletView } from "./TripletView";

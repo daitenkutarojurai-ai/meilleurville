@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Vote, ArrowRight } from "lucide-react";
 import {
   BLOC_ORDER,

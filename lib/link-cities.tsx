@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Fragment } from "react";
 import { CITIES_SEED } from "@/data/cities-seed";
 

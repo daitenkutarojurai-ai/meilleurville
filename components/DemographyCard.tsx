@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Users, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import {
@@ -12,6 +12,15 @@ interface Props {
   city: CitySeed;
   locale?: "fr" | "en";
 }
+
+// DEMO_LEVEL_LABEL is French; the EN city page printed « Dynamique ». The lib
+// stays as is — translation happens at the display site.
+const DEMO_LEVEL_LABEL_EN: Record<keyof typeof DEMO_LEVEL_LABEL, string> = {
+  dynamique: "Dynamic",
+  equilibre: "Balanced",
+  vieillissant: "Ageing",
+  critique: "Critical",
+};
 
 export function DemographyCard({ city, locale = "fr" }: Props) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
@@ -45,7 +54,7 @@ export function DemographyCard({ city, locale = "fr" }: Props) {
             <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
           </span>
           <span className={`text-xs font-bold uppercase ${DEMO_LEVEL_COLOR[d.level]}`}>
-            {DEMO_LEVEL_LABEL[d.level]}
+            {locale === "en" ? DEMO_LEVEL_LABEL_EN[d.level] : DEMO_LEVEL_LABEL[d.level]}
           </span>
         </div>
 

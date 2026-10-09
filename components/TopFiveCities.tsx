@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { ArrowRight, Trophy } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";

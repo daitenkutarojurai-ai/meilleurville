@@ -10,7 +10,7 @@
 // calculator instant.
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { MapPin, ChevronRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import {

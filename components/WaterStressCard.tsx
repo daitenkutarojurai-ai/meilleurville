@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Droplets, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { computeWaterStress, WATER_LEVEL_LABEL, WATER_LEVEL_COLOR } from "@/lib/water-stress";

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { MessageCircle, ChevronRight } from "lucide-react";
 
 interface Props {

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Briefcase, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { computeEmploymentMarket, JOB_LEVEL_LABEL, JOB_LEVEL_COLOR, type JobLevel } from "@/lib/employment-market";

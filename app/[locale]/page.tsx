@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";

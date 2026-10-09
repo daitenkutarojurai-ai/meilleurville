@@ -8,7 +8,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityFaq } from "@/lib/city-faq";
 import { HelpCircle, ArrowLeft } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;

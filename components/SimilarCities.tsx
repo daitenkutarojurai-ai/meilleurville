@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import type { SimilarCityItem } from "@/lib/city-profile-data";
 
 // Presentational only — the cosine-similarity ranking is computed server-side

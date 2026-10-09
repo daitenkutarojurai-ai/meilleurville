@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { useEffect } from "react";
 import { Button } from "@/components/ui/Button";
 import { Home, RotateCcw, AlertTriangle } from "lucide-react";

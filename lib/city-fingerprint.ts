@@ -139,11 +139,16 @@ export function buildFingerprint(input: { slug: string; scores: ScoreAxes }): Fi
   const orbitalDots: OrbitalDot[] = Array.from({ length: 16 }, () => {
     const angle = rng() * Math.PI * 2;
     const radius = BASE_RADIUS + SCORE_SPAN + 8 + rng() * 36;
+    // Rounded to 2 decimals like the petal path and polygon above: Node and
+    // the browser disagree on the last digits of Math.sin/cos, so unrounded
+    // coordinates logged a hydration mismatch on every city page (audit
+    // 2026-10-09) — and 17-digit floats were dead weight in the HTML.
+    const r2 = (n: number) => Math.round(n * 100) / 100;
     return {
-      x: CENTER + Math.cos(angle) * radius,
-      y: CENTER + Math.sin(angle) * radius,
-      r: 1.1 + rng() * 2.3,
-      alpha: 0.18 + rng() * 0.42,
+      x: r2(CENTER + Math.cos(angle) * radius),
+      y: r2(CENTER + Math.sin(angle) * radius),
+      r: r2(1.1 + rng() * 2.3),
+      alpha: r2(0.18 + rng() * 0.42),
       color: hexFor(globalScore),
     };
   });

@@ -1,7 +1,7 @@
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { ArrowRight } from "lucide-react";
 import type { City } from "@/lib/types";
 import { TiltCard } from "@/components/effects/TiltCard";

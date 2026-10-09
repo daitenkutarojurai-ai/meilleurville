@@ -8,7 +8,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { cityAgenda } from "@/lib/city-agenda";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CalendarDays, ArrowLeft } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;

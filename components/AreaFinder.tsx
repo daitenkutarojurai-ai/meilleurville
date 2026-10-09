@@ -1,6 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Search, X } from "lucide-react";
 import { scoreHex } from "@/lib/utils";
 

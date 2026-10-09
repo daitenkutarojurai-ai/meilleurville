@@ -7,7 +7,7 @@
 // URL hash (#e=X&s=Y&j=Z) pour partager le résultat.
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { QOL_LEVEL_LABEL, QOL_LEVEL_COLOR, personalQolRanking, type QolWeights } from "@/lib/quality-of-life-index";

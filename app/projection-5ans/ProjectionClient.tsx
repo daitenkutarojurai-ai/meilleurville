@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState, useCallback } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import {
   ArrowLeft,
   ArrowRight,

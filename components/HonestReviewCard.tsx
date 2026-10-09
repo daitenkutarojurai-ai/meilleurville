@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { ThumbsUp, ThumbsDown, CheckCircle2, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import type { HonestReviewLite } from "@/lib/city-profile-data";

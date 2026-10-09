@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import type { Guide } from "@/data/guides";
 
 // Card-level projection of Guide — server pages pass only these fields so the

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { AlertTriangle, ArrowRight, Volume2, Droplets, Wind, Shield } from "lucide-react";
 
 export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {

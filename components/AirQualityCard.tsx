@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Wind, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { computeAirQuality, AIR_LEVEL_LABEL, AIR_LEVEL_COLOR } from "@/lib/air-quality";

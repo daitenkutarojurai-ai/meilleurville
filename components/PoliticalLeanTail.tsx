@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 // `-meta` et non `@/lib/political-lean` : ce dernier réexporte bien ces
 // constantes, mais lit `data/political-lean.json` (289 Ko) à l'initialisation
 // du module. Mesuré, le bundler l'élimine aujourd'hui — les fonctions qui

@@ -12,7 +12,7 @@
 // DROM are excluded (outside the metropolitan bbox); they surface via the
 // finder grid below the map, and via /regions.
 
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { scoreHex } from "@/lib/utils";
 import {
   MAP_W as W,

@@ -1,7 +1,7 @@
 "use client";
 
 import { memo, useEffect, useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import {
   MAP_W as W,
   MAP_H as H,

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { ArrowLeft, ArrowRight, RotateCcw, Share2, Sparkles, Check } from "lucide-react";
 import {
   CITY_MATCH_QUESTIONS,

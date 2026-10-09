@@ -8,7 +8,7 @@
 // affichent les MÊMES nombres (elles lisent le même `biodiversityProfile`).
 // Ne jamais en dégarer une seule.
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";

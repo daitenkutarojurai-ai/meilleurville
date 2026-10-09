@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Cookie, X } from "lucide-react";
 
 const STORAGE_KEY = "mv:consent:v1";

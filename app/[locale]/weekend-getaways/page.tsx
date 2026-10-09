@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { CITIES_SEED } from "@/data/cities-seed";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";

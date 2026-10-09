@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { cityPopulation } from "@/lib/city-population";
 import { deptNumber } from "@/lib/dept-slug";

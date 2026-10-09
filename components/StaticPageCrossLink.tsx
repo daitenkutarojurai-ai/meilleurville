@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { CITIES_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
 
 type Item = { href: string; emoji: string; label: string; desc: string };

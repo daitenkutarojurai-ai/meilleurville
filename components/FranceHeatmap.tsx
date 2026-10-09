@@ -1,6 +1,6 @@
 "use client";
 import { memo, useMemo, useRef, useState, useEffect } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import type { MapCity } from "@/lib/cities-light";
 import { DromStrip } from "@/components/DromStrip";
 import { scoreHex } from "@/lib/utils";

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Home, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { VERDICT_META, type RentVsBuyVerdict, type RentVsBuyData } from "@/lib/rent-vs-buy";

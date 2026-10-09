@@ -3,7 +3,7 @@ import { useState, useMemo } from "react";
 import { Calculator, ArrowRight, TrendingDown, TrendingUp, AlertCircle } from "lucide-react";
 import type { HomeCity } from "@/lib/home-data";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 
 const PARIS_CHARGES = 180;
 const PARIS_TRANSPORT = 86;
@@ -213,7 +213,7 @@ export function CostCalculator({ locale = "fr", cities: source }: { locale?: "fr
                 </div>
               </div>
               <div className="flex items-center gap-2 flex-shrink-0">
-                <div className={cn("text-right", positive ? "text-emerald-600" : "text-red-500")}>
+                <div className={cn("text-right", positive ? "text-emerald-700" : "text-red-600")}>
                   <div className="text-sm font-bold font-mono-data">
                     {positive ? "+" : ""}{totalMonthlySavings}{L("€/mois", "€/mo")}
                   </div>

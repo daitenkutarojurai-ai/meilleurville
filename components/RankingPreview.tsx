@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { ArrowRight, Laptop, Home, TreePine, GraduationCap, Palmtree } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { TiltCard } from "@/components/effects/TiltCard";

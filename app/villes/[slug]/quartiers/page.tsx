@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";
 import { cityPhoto } from "@/lib/city-images";
@@ -46,20 +46,20 @@ const TYPE_LABELS: Record<string, string> = {
 
 const TYPE_COLORS: Record<string, string> = {
   "centre-ville": "text-blue-600 bg-blue-400/10 border-blue-400/20",
-  résidentiel: "text-emerald-600 bg-emerald-500/10 border-emerald-400/20",
-  étudiant: "text-violet-400 bg-violet-400/10 border-violet-400/20",
-  branché: "text-pink-400 bg-pink-400/10 border-pink-400/20",
+  résidentiel: "text-emerald-700 bg-emerald-500/10 border-emerald-400/20",
+  étudiant: "text-violet-700 bg-violet-400/10 border-violet-400/20",
+  branché: "text-pink-700 bg-pink-400/10 border-pink-400/20",
   populaire: "text-orange-600 bg-orange-400/10 border-orange-400/20",
-  pavillonnaire: "text-amber-400 bg-amber-400/10 border-amber-400/20",
+  pavillonnaire: "text-amber-700 bg-amber-400/10 border-amber-400/20",
 };
 
 function scoreColor(s: number) {
-  if (s >= 7.5) return "text-purple-500";
-  if (s >= 7.0) return "text-green-500";
-  if (s >= 6.0) return "text-lime-500";
-  if (s >= 5.0) return "text-amber-400";
-  if (s >= 4.0) return "text-orange-500";
-  return "text-red-500";
+  if (s >= 7.5) return "text-purple-600";
+  if (s >= 7.0) return "text-green-700";
+  if (s >= 6.0) return "text-lime-700";
+  if (s >= 5.0) return "text-amber-700";
+  if (s >= 4.0) return "text-orange-700";
+  return "text-red-600";
 }
 
 const SCORE_KEYS: Array<{ key: "safety" | "transport" | "nature" | "cost" | "nightlife"; label: string }> = [
@@ -231,7 +231,7 @@ export default async function QuartiersPage({ params }: Props) {
                             <td className="px-5 py-3 text-xs text-[var(--text-secondary)]">{label}</td>
                             {vals.map((v, i) => (
                               <td key={i} className="px-4 py-3 text-center">
-                                <span className={`font-bold font-mono-data text-xs ${v === best ? "text-emerald-600" : scoreColor(v)}`}>{v.toFixed(1)}</span>
+                                <span className={`font-bold font-mono-data text-xs ${v === best ? "text-emerald-700" : scoreColor(v)}`}>{v.toFixed(1)}</span>
                               </td>
                             ))}
                           </tr>
@@ -243,7 +243,7 @@ export default async function QuartiersPage({ params }: Props) {
                           const cheapest = Math.min(...neighborhoods.map((x) => x.avgRentT2));
                           return (
                             <td key={n.slug} className="px-4 py-3 text-center">
-                              <span className={`font-bold text-xs ${n.avgRentT2 === cheapest ? "text-emerald-600" : "text-[var(--text-primary)]"}`}>{n.avgRentT2}€</span>
+                              <span className={`font-bold text-xs ${n.avgRentT2 === cheapest ? "text-emerald-700" : "text-[var(--text-primary)]"}`}>{n.avgRentT2}€</span>
                             </td>
                           );
                         })}

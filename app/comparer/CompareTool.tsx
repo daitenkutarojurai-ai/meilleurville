@@ -5,7 +5,7 @@ import type { CityLight } from "@/lib/cities-light";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn, scoreColor } from "@/lib/utils";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 
 type CitySeed = CityLight;
 type Locale = "fr" | "en";

@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import {
@@ -232,14 +232,18 @@ function SearchTrigger({ variant }: { variant: "bar" | "desktop" }) {
     typeof navigator !== "undefined" && /Mac|iPad|iPhone/.test(navigator.platform)
   );
   const placeholder = IS_EN ? "Search a city…" : "Rechercher une ville…";
-  const ariaLabel = IS_EN ? "Open search" : "Ouvrir la recherche";
+  // The accessible name must contain the visible label (WCAG 2.5.3 "label in
+  // name"): a voice-control user says what they see. "Ouvrir la recherche"
+  // matched neither "Rechercher une ville…" nor "Chercher…".
+  const barLabel = IS_EN ? "Search a city" : "Rechercher une ville";
+  const desktopLabel = IS_EN ? "Search a city" : "Chercher une ville";
 
   if (variant === "bar") {
     return (
       <button
         type="button"
         onClick={openSearchPalette}
-        aria-label={ariaLabel}
+        aria-label={barLabel}
         className="flex w-full items-center gap-2 rounded-full border border-[var(--border)] bg-white/70 backdrop-blur px-3.5 py-2 text-sm text-[var(--text-tertiary)] transition-colors hover:border-[var(--accent)]/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
       >
         <Search className="h-4 w-4 flex-shrink-0" />
@@ -251,7 +255,7 @@ function SearchTrigger({ variant }: { variant: "bar" | "desktop" }) {
     <button
       type="button"
       onClick={openSearchPalette}
-      aria-label={ariaLabel}
+      aria-label={desktopLabel}
       className="group inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/60 backdrop-blur px-3 py-1.5 text-xs text-[var(--text-tertiary)] transition-all hover:border-[var(--accent)]/40 hover:bg-white hover:text-[var(--text-primary)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
     >
       <Search className="h-3.5 w-3.5" />

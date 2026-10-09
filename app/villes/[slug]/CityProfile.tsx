@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Link from "next/link";
+import Link from "@/components/AppLink";
 import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, GraduationCap, Shield, Bus, TreePine, ChevronRight, ChevronDown, Check, X, Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
@@ -9,6 +9,7 @@ import { CityDiscussionTabs } from "@/components/CityDiscussionTabs";
 import { AlerteForm } from "@/components/AlerteForm";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
 import { FollowCityButton } from "@/components/FollowCityButton";
+import { tagLabelEn } from "@/lib/tag-labels-en";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
 import { AISummaryCard } from "@/components/AISummaryCard";
 import { UserVsOfficialScore } from "@/components/UserVsOfficialScore";
@@ -161,13 +162,18 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
           <div className="flex flex-col sm:flex-row gap-6 items-start">
             <div className="flex-1 min-w-0">
               <div className="flex flex-wrap items-center gap-2 mb-4">
-                {city.characterTags.map((tag) => (
-                  <Badge key={tag} variant="subtle" className="capitalize">
-                    {tag}
+                {/* EN: only tags with a reviewed English label (lib/tag-labels-en) —
+                    the seed's tags are free French text. */}
+                {(locale === "en"
+                  ? city.characterTags.map((tag) => ({ key: tag, text: tagLabelEn(tag) })).filter((t) => t.text)
+                  : city.characterTags.map((tag) => ({ key: tag, text: tag }))
+                ).map(({ key, text }) => (
+                  <Badge key={key} variant="subtle" className="capitalize">
+                    {text}
                   </Badge>
                 ))}
-                <FavoriteButton slug={city.slug} className="!ml-1" label />
-                <FollowCityButton citySlug={city.slug} cityName={city.name} />
+                <FavoriteButton slug={city.slug} className="!ml-1" label locale={locale} />
+                <FollowCityButton citySlug={city.slug} cityName={city.name} locale={locale} />
               </div>
               <h1 className="text-5xl sm:text-7xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.02]">
                 <span className="font-display gradient-text-anim italic">{city.name}</span>
@@ -175,7 +181,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
               <p className="text-[var(--text-secondary)] text-lg">
                 <MapPin className="inline h-4 w-4 mr-1 text-[var(--accent)]" />
                 {city.department} · {city.region}
-                {city.population && ` · ${formatNumber(city.population)} hab.`}
+                {city.population && ` · ${formatNumber(city.population)}${L(" hab.", " inhabitants")}`}
               </p>
             </div>
 
@@ -203,7 +209,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                   <Sun className="h-4 w-4 text-white" />
                 </div>
                 <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
-                  {sunshineDays(city.sunshinedays)}<span className="text-base text-[var(--text-tertiary)]"> j</span>
+                  {sunshineDays(city.sunshinedays)}<span className="text-base text-[var(--text-tertiary)]">{L(" j", " days")}</span>
                 </div>
                 <div className="text-xs text-[var(--text-secondary)]">
                   {L("de soleil / an", "of sun / year")}
@@ -307,6 +313,8 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
             role="tabpanel"
             aria-labelledby="city-tab-overview"
             className="grid gap-6 lg:grid-cols-3">
+            {/* The panel's cards use h3: without an h2 the outline jumped h1 → h3. */}
+            <h2 className="sr-only">{L("Vue d'ensemble", "Overview")}</h2>
             {/* Scores */}
             <div className="lg:col-span-2 space-y-6 min-w-0">
               {/* Summary — intro + pros/cons + notable */}
