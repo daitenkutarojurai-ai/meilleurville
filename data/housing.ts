@@ -566,6 +566,11 @@ export const HOUSING: Record<string, HousingData> = {
   "romainville": { avgRentT1: 660, avgRentT2: 910, avgRentT3: 1230, avgBuyPriceM2: 3600 },
   "villemomble": { avgRentT1: 710, avgRentT2: 980, avgRentT3: 1330, avgBuyPriceM2: 4200 },
   "ris-orangis": { avgRentT1: 690, avgRentT2: 960, avgRentT3: 1290, avgBuyPriceM2: 4000 },
+  "fontenay-aux-roses": { avgRentT1: 780, avgRentT2: 1080, avgRentT3: 1450, avgBuyPriceM2: 6200 },
+  "chaville": { avgRentT1: 1000, avgRentT2: 1400, avgRentT3: 1890, avgBuyPriceM2: 7600 },
+  "joinville-le-pont": { avgRentT1: 950, avgRentT2: 1290, avgRentT3: 1740, avgBuyPriceM2: 6800 },
+  "les-pavillons-sous-bois": { avgRentT1: 600, avgRentT2: 820, avgRentT3: 1100, avgBuyPriceM2: 3000 },
+  "neuilly-plaisance": { avgRentT1: 720, avgRentT2: 990, avgRentT3: 1340, avgBuyPriceM2: 4300 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

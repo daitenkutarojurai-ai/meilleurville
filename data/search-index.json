@@ -3336,6 +3336,36 @@
       "name": "Ris-Orangis",
       "region": "Île-de-France",
       "score": 4.6
+    },
+    {
+      "slug": "fontenay-aux-roses",
+      "name": "Fontenay-aux-Roses",
+      "region": "Île-de-France",
+      "score": 4.5
+    },
+    {
+      "slug": "chaville",
+      "name": "Chaville",
+      "region": "Île-de-France",
+      "score": 5.2
+    },
+    {
+      "slug": "joinville-le-pont",
+      "name": "Joinville-le-Pont",
+      "region": "Île-de-France",
+      "score": 5.3
+    },
+    {
+      "slug": "les-pavillons-sous-bois",
+      "name": "Les Pavillons-sous-Bois",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "neuilly-plaisance",
+      "name": "Neuilly-Plaisance",
+      "region": "Île-de-France",
+      "score": 3.3
     }
   ],
   "guides": [

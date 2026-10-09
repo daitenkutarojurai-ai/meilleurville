@@ -15484,6 +15484,71 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Grand ensemble d'après-guerre de la commune, classé autrefois en zone urbaine sensible sous le nom de Grand Ensemble du Plateau." },
     ],
   },
+  {
+    citySlug: "fontenay-aux-roses",
+    neighborhoods: [
+      { slug: "blagis-gare", name: "Blagis – Gare", type: "résidentiel",
+        scores: { global: 6.4, safety: 7, transport: 7.5, nature: 6, cost: 4.5, nightlife: 6.3 },
+        avgRentT2: 1080, tags: ["gare de Fontenay-aux-Roses (RER B)","commerces"],
+        summary: "Quartier du sud-est de la commune, autour de la gare RER B de Fontenay-aux-Roses." },
+      { slug: "scarron-sorrieres", name: "Scarron – Sorrières", type: "résidentiel",
+        scores: { global: 6.4, safety: 7, transport: 7.5, nature: 6, cost: 4.5, nightlife: 6.3 },
+        avgRentT2: 1080, tags: ["limite de Bagneux"],
+        summary: "Quartier du nord-est de la commune, en limite de Bagneux." },
+    ],
+  },
+  {
+    citySlug: "chaville",
+    neighborhoods: [
+      { slug: "rive-droite", name: "Rive Droite", type: "résidentiel",
+        scores: { global: 6.9, safety: 7.5, transport: 7.5, nature: 7.5, cost: 3.9, nightlife: 6.7 },
+        avgRentT2: 1400, tags: ["gare de Chaville-Rive-Droite (Transilien L,U)"],
+        summary: "Partie de la commune desservie par la gare de Chaville-Rive-Droite, sur les lignes Transilien L et U." },
+      { slug: "rive-gauche", name: "Rive Gauche", type: "résidentiel",
+        scores: { global: 6.9, safety: 7.5, transport: 7.5, nature: 7.5, cost: 3.9, nightlife: 6.7 },
+        avgRentT2: 1400, tags: ["gare de Chaville-Rive-Gauche (Transilien N)","forêt domaniale de Meudon"],
+        summary: "Partie de la commune desservie par la gare de Chaville-Rive-Gauche (ligne N, vers Montparnasse), en bordure de la forêt domaniale de Meudon." },
+    ],
+  },
+  {
+    citySlug: "joinville-le-pont",
+    neighborhoods: [
+      { slug: "centre", name: "Centre", type: "centre-ville",
+        scores: { global: 6.8, safety: 7, transport: 7.5, nature: 7.5, cost: 4.3, nightlife: 6.5 },
+        avgRentT2: 1290, tags: ["hôtel de ville","gare de Joinville-le-Pont (RER A)"],
+        summary: "Centre de la commune, autour de la gare RER A de Joinville-le-Pont." },
+      { slug: "polangis", name: "Polangis", type: "pavillonnaire",
+        scores: { global: 6.8, safety: 7, transport: 7.5, nature: 7.5, cost: 4.3, nightlife: 6.5 },
+        avgRentT2: 1290, tags: ["bords de Marne","ru de Polangis"],
+        summary: "Quartier au bord de la Marne, traversé par le ru de Polangis, séparé du quartier Palissy par l'avenue du Général-Gallieni." },
+    ],
+  },
+  {
+    citySlug: "les-pavillons-sous-bois",
+    neighborhoods: [
+      { slug: "basoche", name: "Basoche", type: "pavillonnaire",
+        scores: { global: 5.3, safety: 4.2, transport: 7, nature: 5.2, cost: 6.8, nightlife: 5 },
+        avgRentT2: 820, tags: ["plus ancien quartier"],
+        summary: "Plus ancien quartier de la commune." },
+      { slug: "chanzy", name: "Chanzy", type: "résidentiel",
+        scores: { global: 5.3, safety: 4.2, transport: 7, nature: 5.2, cost: 6.8, nightlife: 5 },
+        avgRentT2: 820, tags: ["tramway T4"],
+        summary: "Quartier au pied du tramway T4 ; le secteur Victor-Hugo – Chanzy fait l'objet d'un projet de réaménagement annoncé par la commune." },
+    ],
+  },
+  {
+    citySlug: "neuilly-plaisance",
+    neighborhoods: [
+      { slug: "bords-de-marne", name: "Bords de Marne", type: "résidentiel",
+        scores: { global: 6.1, safety: 5.7, transport: 7.4, nature: 6.4, cost: 5.7, nightlife: 5.5 },
+        avgRentT2: 990, tags: ["gare de Neuilly-Plaisance (RER A)","Marne"],
+        summary: "Quartier du sud de la commune, entre la gare RER A et la Marne, qui borde la commune au sud." },
+      { slug: "plateau-d-avron", name: "Plateau d'Avron", type: "pavillonnaire",
+        scores: { global: 6.1, safety: 5.7, transport: 7.4, nature: 6.4, cost: 5.7, nightlife: 5.5 },
+        avgRentT2: 990, tags: ["plateau d'Avron","voie Lamarque"],
+        summary: "Quartier résidentiel sur les hauteurs du plateau d'Avron, que la commune partage avec Rosny-sous-Bois et Villemomble ; la voie Lamarque le relie à la gare RER A." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

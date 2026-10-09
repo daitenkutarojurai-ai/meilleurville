@@ -212,7 +212,10 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 ~~Montrouge, Meudon, Vanves, L'Haÿ-les-Roses, Thiais, Livry-Gargan, Villepinte~~ (**lot 2**),
 Villeneuve-Saint-Georges (94078, **attend un override** : ses voisines 94 du seed sont à 4,7-8 km
 et ne lui ressemblent pas, ses vraies voisines sont en Essonne), ~~Gagny,
-Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; **règle de voisinage non
+Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
+Neuilly-Plaisance~~ (**lot 4**) ; mesurées le 2026-10-09 et **reportées** : Montfermeil, Les Lilas,
+Villiers-sur-Marne, Chevilly-Larue (cf. journal) ; non retenues faute de place, règle valable : Orly
+(94054), Villeneuve-le-Roi (94077), Sucy-en-Brie (94071) ; **règle de voisinage non
 valable, mesurée le 2026-10-08** (cf. journal) : Grigny, Les Mureaux, Chatou, Lormont,
 Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Lunel, Saint-Étienne-du-Rouvray, Lambersart,
 Marcq-en-Barœul — toutes attendent un override documenté ; non mesurées : Vallauris, Miramas ;
@@ -469,3 +472,89 @@ Fontenay-sous-Bois, Nogent-sur-Marne, Bourg-la-Reine, Sceaux, Châtenay-Malabry.
 (Villeneuve-d'Ascq, Grigny, Chatou) plutôt qu'appliquer la médiane là où elle ment. Et d'abord
 `seed-coverage` : si le runner local n'a toujours rien servi et que l'attente dépasse 30 villes, pas
 de lot.
+
+### 2026-10-09 — lot 4 (+5) : Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois, Neuilly-Plaisance
+
+556 → **561** villes, toutes en Île-de-France (aucune région, aucun département nouveau). Absence
+vérifiée par code Insee avant ajout. Garde-fou runner local : `seed-coverage` donnait **16 villes en
+attente** avant le lot (sous le seuil de 30), **21 après**. ⚠️ Toujours aucun commit `[local-runner]`
+depuis le **2026-09-25** : les lots 1 à 4 n'ont ni population Insee, ni Filosofi, ni DVF, ni parcs,
+ni photos. **Il reste au plus un lot (≤ 9 villes) avant que la routine cesse d'ajouter.**
+
+*Densité mesurée avant choix* (script de scratch § 3.2, avec la vigilance du lot 2 désormais
+**appliquée par le script** : au plus une ville d'extension parmi les 4 voisines, sinon on descend à la
+voisine d'origine suivante). 12 candidates mesurées, 4 refusées :
+
+| Candidate | Pourquoi elle attend |
+|---|---|
+| Montfermeil (93047) | 3 voisines d'extension (Clichy, Gagny, Livry) ; avec une seule, les voisines d'origine sont à 4,9-6,1 km (Sevran, Neuilly-sur-Marne, Noisy-le-Grand) et Montfermeil porte les grands ensembles des Bosquets — médiane non représentative |
+| Les Lilas (93045) | Pantin et Montreuil (les plus proches) sont des overrides ; la 4ᵉ voisine admissible devient Aubervilliers à 4,7 km |
+| Villiers-sur-Marne (94079) | plus proche ville du seed Noisy-le-Grand (93, écartée) ; la médiane 94 est tirée par Nogent, Le Perreux et Saint-Maur |
+| Chevilly-Larue (94021) | 19 826 hab. (sous 20 000) et 3 voisines d'extension |
+
+*Identité* (recherche web ; deux résultats concordants par population, population municipale 2023) :
+
+| Ville | Insee | Pop. seed | Source pop. | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Fontenay-aux-Roses | 92032 | 24 100 | 24 070 (Banatic ; Wikipédia EN, citypopulation) | 48,7893 N 2,2888 E (latlong.net ; Geneawiki) | 58-164 → 111 m |
+| Chaville | 92022 | 20 600 | 20 594 (Banatic ; notre-planete.info) | 48,8057 N 2,1886 E (latitudelongitude.org ; cartesfrance 48,804/2,186) | 63-173 → 118 m |
+| Joinville-le-Pont | 94042 | 20 500 | 20 525 (Banatic ; Wikipédia EN) | 48,8254 N 2,4746 E (GeoNames NGA ; distancefromto) | 33-61 → 47 m |
+| Les Pavillons-sous-Bois | 93057 | 25 800 | 25 804 (Wikipédia EN ; habity.fr) ⚠️ | 48,9068 N 2,5065 E (distancecalculator ; meilleurescpi) | 50-64 → 57 m |
+| Neuilly-Plaisance | 93049 | 21 900 | 21 941 (Wikipédia EN ; pss-archi) | 48,8619 N 2,5064 E (Geneawiki ; latlong.net) | 37-117 → 77 m |
+
+⚠️ Les Pavillons-sous-Bois : d'autres résultats donnent 24 872 (« 2025 », comersis) et 24 003 (budget
+communal 2023, référence de recensement différente) ; 25 804 retenu, porté par deux résultats pour le
+millésime 2023. La population Insee exacte arrivera avec `npm run population`.
+
+*Notes brutes* (§ 3.2 ; ordre life, transport, nature, cost, safety, culture, remoteWork, schools ;
+global = `recomputeGlobal`) :
+
+| Ville | Voisines (distance) | Notes brutes | global |
+|---|---|---|---|
+| Fontenay-aux-Roses | Châtillon 1,4 · Sceaux 1,5 · Bagneux 1,6 · Plessis-Robinson 1,8 km | 7 · 7.5 · 6 · 4.5 · 7 · 6.3 · 6.8 · 7 | 6.4 |
+| Chaville | Sèvres 2,7 · Meudon* 3,7 · Saint-Cloud 4,1 · Plessis-Robinson 6,2 km (Boulogne écartée : override ; Clamart* écartée : 2ᵉ extension) | 7.6 · 7.5 · 7.5 · 3.9 · 7.5 · 6.7 · 7.3 · 7.7 | 6.9 |
+| Joinville-le-Pont | Nogent 1,4 · Le Perreux 2,5 · Fontenay-sous-Bois 2,8 · Saint-Maur 3,2 km (Vincennes, Créteil écartées : override) | 7.5 · 7.5 · 7.5 · 4.3 · 7 · 6.5 · 7.2 · 7.5 | 6.8 |
+| Les Pavillons-sous-Bois | Bondy 2,0 · Livry-Gargan* 2,6 · Aulnay 3,3 · Rosny 3,9 km (Villemomble*, Clichy* écartées : 2ᵉ/3ᵉ extension) | 4.5 · 7 · 5.2 · 6.8 · 4.2 · 5 · 5.8 · 4.8 | 5.3 |
+| Neuilly-Plaisance | Rosny 2,0 · Neuilly-sur-Marne 2,4 · Villemomble* 2,4 · Noisy-le-Grand 3,9 km (Gagny* écartée : 2ᵉ extension ; Montreuil : override) | 6.2 · 7.4 · 6.4 · 5.7 · 5.7 · 5.5 · 6.8 · 5.9 | 6.1 |
+
+\* ville d'extension. Chaville : la ville du seed la plus proche est Vélizy-Villacoublay (Yvelines,
+2,5 km), écartée par la règle du même département. Notes **rendues** (`CITIES_SEED`, reprises dans
+`seoDescriptionEn`) : Fontenay-aux-Roses 4,5 · Chaville 5,2 · Joinville-le-Pont 5,3 · Les
+Pavillons-sous-Bois 2,8 · Neuilly-Plaisance 3,3 — à comparer aux voisines rendues (Meudon 5,4 ;
+Bondy, Livry 2,8).
+
+*Climat* : ville du seed la plus proche — Châtillon (Fontenay ; 1 750 h / 21 °C / 4 °C), Vélizy (Chaville ;
+idem), Nogent-sur-Marne (Joinville), Bondy (Pavillons), Rosny-sous-Bois (Neuilly-Plaisance) ; ces trois
+dernières 1 700 h / 20,5 °C / 4 °C.
+
+*Logement* (médiane des 4 mêmes voisines, T1/T2/T3/m²) : Fontenay 780/1 080/1 450/6 200 ; Chaville
+1 000/1 400/1 890/7 600 ; Joinville 950/1 290/1 740/6 800 ; Pavillons 600/820/1 100/3 000 ;
+Neuilly-Plaisance 720/990/1 340/4 300. Pas de recoupement de marché ce run.
+
+*Quartiers* (2 par ville, réels, recoupés par recherche web, notes = ville) : Fontenay Blagis – Gare
+(gare RER B) + Scarron – Sorrières (limite de Bagneux) ; Chaville Rive Droite (Transilien L, U) + Rive
+Gauche (ligne N, bordure de la forêt domaniale de Meudon) ; Joinville Centre (gare RER A) + Polangis
+(bords de Marne, ru de Polangis) ; Pavillons Basoche (plus ancien quartier) + Chanzy (au pied du T4,
+secteur Victor-Hugo – Chanzy en projet de réaménagement annoncé par la commune) ; Neuilly-Plaisance
+Bords de Marne (gare RER A) + Plateau d'Avron (voie Lamarque).
+
+*Faits retirés ou évités faute de source* : la commune d'implantation du parc des Coteaux d'Avron
+(le lot 3 l'écrivait « sur Neuilly-Plaisance », un résultat de ce run le dit partagé avec Rosny — la
+description EN dit seulement que la voie Lamarque y mène) ; les limites des quartiers de Fontenay (aucune
+liste officielle trouvée, les sources immobilières divergent) ; le côté de la Marne de Polangis.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation candidate**. Table des couleurs de `CLAUDE.md`
+recomptée sur `CITIES_SEED` : 19 / 50 / 151 / **144** / **108** / **89**, moyenne 5,39.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (561 villes) + `:check`,
+`sitemap:check` (FR 30 256 URL, EN 29 837), `hreflang:check`. `npm run build` non lancé.
+
+*Reportées* : Montfermeil, Les Lilas, Villiers-sur-Marne, Chevilly-Larue (tableau ci-dessus), plus les
+reportées des lots précédents (overrides à écrire).
+
+**Prochain lot** : d'abord `seed-coverage` — à 21 villes en attente, un lot de plus de 9 dépasserait
+le seuil de 30 ; si le runner n'a toujours rien servi, **le lot suivant est le dernier** avant l'arrêt.
+Candidates mesurées valables : Orly (Thiais* 2,3 · Choisy 3,2 · Vitry 5,1 · Fresnes 5,4) ; à regarder de près : Sucy-en-Brie (voisines 3,9-7,7 km),
+Villeneuve-le-Roi (voisines 3,9-7,4 km, à regarder). Si le seuil est atteint : écrire les overrides
+documentés (Villeneuve-d'Ascq, Grigny, Chatou) plutôt qu'ajouter.
+

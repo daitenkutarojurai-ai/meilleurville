@@ -1,6 +1,6 @@
 # MeilleurVille — Project briefing
 
-French city ranking & relocation guide site. 556 cities, 524 FR guides + 261 EN guides, 19 ranking
+French city ranking & relocation guide site. 561 cities, 524 FR guides + 261 EN guides, 19 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 (Counts derived at build — see `lib/site-stats.ts`; figures here are indicative.)
 
@@ -46,7 +46,7 @@ app/
   quiz/                          # Lifestyle → city match
   red-flags/                     # Pitfalls per city archetype
 data/
-  cities-seed.ts                 # 556 cities, raw seed (calibrated + normalized at module load)
+  cities-seed.ts                 # 561 cities, raw seed (calibrated + normalized at module load)
   guides.ts                      # 195 long-form guides
   neighborhoods.ts               # Quartier-level data (subset of cities)
   housing.ts                     # Rent/price benchmarks per city
@@ -115,19 +115,19 @@ normalisation), pas en lisant le seed source. La table d'avant portait les compt
 n'est plus « très rare », il tient 3,5 % du corpus. Recompter après tout ajout de villes —
 recompté le 2026-10-06 à 544 villes (extension du seed, lot 1 : +2 orange, +2 rouge), puis le
 2026-10-07 à 551 (lot 2 : +1 ambre, +4 orange, +2 rouge), puis le 2026-10-08 à 556 (lot 3 : +1 orange,
-+4 rouge) ; les 540 d'origine n'ont pas bougé,
++4 rouge), puis le 2026-10-09 à 561 (lot 4 : +2 ambre, +1 orange, +2 rouge) ; les 540 d'origine n'ont pas bougé,
 cf. § Score pipeline, cohorte de référence.
 
-| Range  | Colour  | Count (556 cities) | Meaning        |
+| Range  | Colour  | Count (561 cities) | Meaning        |
 |--------|---------|-------------------|----------------|
 | ≥ 7.5  | Violet (`#A855F7`) | 19 (3.4%) | Exceptionnel   |
-| ≥ 7.0  | Green   | 50 (9.0%)         | Excellent      |
-| ≥ 6.0  | Lime    | 151 (27.2%)       | Bon            |
-| ≥ 5.0  | Amber   | 142 (25.5%)       | Moyen          |
-| ≥ 4.0  | Orange  | 107 (19.2%)       | En dessous     |
-| < 4.0  | Red     | 87 (15.6%)        | Mauvais        |
+| ≥ 7.0  | Green   | 50 (8.9%)         | Excellent      |
+| ≥ 6.0  | Lime    | 151 (26.9%)       | Bon            |
+| ≥ 5.0  | Amber   | 144 (25.7%)       | Moyen          |
+| ≥ 4.0  | Orange  | 108 (19.3%)       | En dessous     |
+| < 4.0  | Red     | 89 (15.9%)        | Mauvais        |
 
-Distribution mean ≈ 5.40. Penalties:
+Distribution mean ≈ 5.39. Penalties:
 - `worstPenalty = max(0, 4.5 − worst_axis) × 0.35` — fires when any axis < 4.5
 - `safetyPenalty = (4.5 − safety) × 0.25` when safety < 4.5
 - `standoutBonus = max(0, top3_mean − 7.5) × 0.35` — only truly exceptional top-3
