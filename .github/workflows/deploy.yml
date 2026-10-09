@@ -1,0 +1,150 @@
+# Publication de `main` sur les deux domaines (mavilleideal.fr puis
+# bestcitiesinfrance.com).
+#
+# Remplace scripts/local-deploy-runner.sh, dont la machine a été retirée en
+# octobre 2026 (la prod est restée figée au 25/09 sans que rien n'échoue). Même
+# ordre de contrôles : tsc + integrity bloquants, sitemap:check signalé seulement,
+# build FR → deploy FR → build EN → deploy EN, puis vérification en prod.
+#
+# Secrets requis (Settings → Secrets and variables → Actions) :
+#   CLOUDFLARE_API_TOKEN   jeton « Edit Cloudflare Workers » + D1 Edit,
+#                          zones mavilleideale.fr et bestcitiesinfrance.com
+#   CLOUDFLARE_ACCOUNT_ID  facultatif : wrangler le déduit du jeton quand
+#                          celui-ci ne voit qu'un compte
+#
+# Rien ne part si `main` n'a pas bougé depuis la dernière publication réussie
+# (même règle que l'ancien runner) ; un lancement manuel publie toujours.
+# Un échec envoie le courriel de GitHub Actions au propriétaire du dépôt.
+name: deploy
+
+on:
+  schedule:
+    # 05h30 UTC : après l'extension du seed (01h30) et la collecte (02h20).
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      NEXT_TELEMETRY_DISABLED: "1"
+      # L'export EN dépassait le tas par défaut (cf. CLAUDE.md). Le plafond vaut
+      # par processus et le build lance plusieurs workers : 8 Go, pas 16.
+      NODE_OPTIONS: --max-old-space-size=8192
+    steps:
+      - name: Check secrets
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::error::CLOUDFLARE_API_TOKEN manquant — voir l'en-tête de .github/workflows/deploy.yml"
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # Le sha publié est celui de la dernière exécution réussie de ce workflow.
+      - name: Anything new on main?
+        id: changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          head="$(git rev-parse HEAD)"
+          last="$(gh run list --repo "$GITHUB_REPOSITORY" --workflow deploy.yml --status success \
+                   --limit 1 --json headSha --jq '.[0].headSha // ""')"
+          echo "main=$head  dernière publication=${last:-aucune}"
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$head" = "$last" ]; then
+            echo "Rien de neuf depuis la dernière publication — on s'arrête là."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Un build complet culmine vers 35 Go (.next ~25 + out ~9) ; l'image Ubuntu
+      # n'en laisse qu'une vingtaine avant ménage.
+      - name: Free disk space
+        if: steps.changed.outputs.go == 'true'
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/local/share/boost /usr/share/swift /opt/az \
+            /usr/local/share/powershell /usr/local/share/chromium /usr/local/lib/heroku
+          sudo docker image prune --all --force >/dev/null 2>&1 || true
+          df -h /
+
+      - uses: actions/setup-node@v4
+        if: steps.changed.outputs.go == 'true'
+        with:
+          node-version: 24
+          cache: npm
+
+      - if: steps.changed.outputs.go == 'true'
+        run: npm ci --no-audit --no-fund
+
+      # wrangler n'est pas une dépendance du dépôt (il était installé globalement
+      # sur l'ancienne machine) ; `npm run cf:deploy*` l'appelle par son nom.
+      - if: steps.changed.outputs.go == 'true'
+        run: npm install -g wrangler@4
+
+      - name: Checks (tsc + integrity) — main must hold together
+        if: steps.changed.outputs.go == 'true'
+        run: |
+          npx tsc --noEmit
+          npm run integrity
+
+      - name: sitemap:check (reported, never blocking)
+        if: steps.changed.outputs.go == 'true'
+        run: npm run sitemap:check || echo "::warning::sitemap:check en échec — publication maintenue"
+
+      - name: Build FR
+        if: steps.changed.outputs.go == 'true'
+        run: npm run build
+
+      - name: Deploy FR (www.mavilleideale.fr)
+        if: steps.changed.outputs.go == 'true'
+        run: npm run cf:deploy
+
+      - name: Reclaim build space
+        if: steps.changed.outputs.go == 'true'
+        run: |
+          rm -rf .next out
+          df -h /
+
+      # Les IDs GA4/GTM du site anglais sont inlinés au build (export statique) ;
+      # les [vars] de wrangler.en.toml ne sont lues qu'à l'exécution du Worker,
+      # donc sans ces deux lignes layout.tsx retombe sur les IDs FR.
+      - name: Build EN
+        if: steps.changed.outputs.go == 'true'
+        env:
+          NEXT_PUBLIC_GA4_ID: G-KX52P5TMN7
+          NEXT_PUBLIC_GTM_ID: GTM-NF5TVK9R
+        run: npm run build:en
+
+      - name: Deploy EN (bestcitiesinfrance.com)
+        if: steps.changed.outputs.go == 'true'
+        run: npm run cf:deploy:en
+
+      # wrangler qui répond « ok » et la page réellement servie sont deux
+      # affirmations différentes : on vérifie en prod, après propagation.
+      - name: Verify production
+        if: steps.changed.outputs.go == 'true'
+        run: |
+          sleep 240
+          ok=1
+          for u in https://www.mavilleideale.fr/ https://bestcitiesinfrance.com/; do
+            code="$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 "$u")"
+            echo "$code $u"
+            [ "$code" = "200" ] || ok=0
+          done
+          [ "$ok" = 1 ] || { echo "::error::un domaine ne répond pas 200"; exit 1; }
+          echo "Déployé : $(git rev-parse --short HEAD)"

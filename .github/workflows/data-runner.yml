@@ -1,0 +1,107 @@
+# Collecte des données que les routines cloud ne peuvent pas atteindre
+# (GBIF, BODACC/Géorisques, data.gouv.fr/INPN, Insee, DVF, Overpass, Wikidata).
+#
+# Remplace le cron de la machine locale du propriétaire, retirée en octobre 2026.
+# Le travail lui-même reste dans scripts/local-data-runner.sh, exécuté tel quel :
+# ce workflow ne fournit que la machine (Ubuntu avec egress), la reprise des
+# crawls (.cache restauré d'une passe à l'autre) et l'identité git. Le commit
+# garde le suffixe [local-runner], que la veille quotidienne et les routines
+# lisent pour dater la dernière collecte.
+name: data-runner
+
+on:
+  schedule:
+    # Mêmes horaires que l'ancien cron local (02h20 / 14h20 UTC). La passe de
+    # 02h20 suit l'extension du seed (01h30 UTC) et sert ses nouvelles villes.
+    - cron: "20 2,14 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Collecter sans commiter (--dry-run)"
+        type: boolean
+        default: false
+
+# Une passe à la fois : deux crawls concurrents se disputeraient les mêmes JSON.
+concurrency:
+  group: data-runner
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      # Les couches INPN exigent 15 Go libres (cf. PA_FREE_GB dans le script) ;
+      # l'image Ubuntu n'en laisse qu'une quinzaine avant ménage.
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/local/share/boost /usr/share/swift
+          df -h /
+
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # ogr2ogr : reprojection des couches INPN en GeoJSON.
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq gdal-bin
+
+      # Le script réécrit PATH en prenant le node le plus récent sous ~/.nvm
+      # (le cron de l'ancienne machine avait un PATH nu) : on y expose le node
+      # de setup-node pour qu'il le retrouve.
+      - name: Expose node where the script looks for it
+        run: |
+          mkdir -p "$HOME/.nvm/versions/node/v24"
+          ln -sfn "$(dirname "$(command -v node)")" "$HOME/.nvm/versions/node/v24/bin"
+
+      # .cache porte la reprise des crawls (GBIF, BODACC, archives Insee/DVF/INPN) ;
+      # l'état du runner (compteurs d'immobilité) suit avec lui.
+      - name: Restore crawl cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .cache
+            ~/.local/state/meilleurville
+          key: data-runner-${{ github.run_id }}
+          restore-keys: data-runner-
+
+      - run: npm ci --no-audit --no-fund
+
+      - name: Git identity
+        run: |
+          git config user.name "meilleurville-data-runner"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run scripts/local-data-runner.sh
+        env:
+          REPO: ${{ github.workspace }}
+        run: bash scripts/local-data-runner.sh ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Runner log
+        if: always()
+        run: tail -n 300 "$HOME/.local/state/meilleurville/data-runner.log" || true
+
+      - name: Status
+        if: always()
+        env:
+          REPO: ${{ github.workspace }}
+        run: bash scripts/local-data-runner.sh --status || true
+
+      - name: Save crawl cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .cache
+            ~/.local/state/meilleurville
+          key: data-runner-${{ github.run_id }}

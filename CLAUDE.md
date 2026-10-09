@@ -340,6 +340,16 @@ opérationnelles :
 
 ## Déploiement — automatique la nuit, manuel si tu es pressé
 
+⚠️ **Depuis le 2026-10-09, publication et collecte tournent sur GitHub Actions**, la machine Linux
+du propriétaire ayant été retirée : `.github/workflows/deploy.yml` (chaque jour à 05h30 UTC,
+rien ne part si `main` n'a pas bougé depuis la dernière publication réussie ; secret
+`CLOUDFLARE_API_TOKEN`) et `.github/workflows/data-runner.yml` (02h20 / 14h20 UTC, exécute
+`scripts/local-data-runner.sh` tel quel, `.cache` conservé entre passes par `actions/cache`).
+Tout ce qui suit sur le cron local, `~/.local/state/meilleurville` et le worktree décrit le
+mécanisme d'origine ; la fraîcheur de la prod se lit désormais dans l'onglet Actions
+(`gh run list --workflow deploy.yml`), pas dans un journal local. Lancer une publication à la
+main : `gh workflow run deploy.yml`.
+
 **Depuis le 2026-08-10, `scripts/local-deploy-runner.sh` publie `main` chaque nuit à 04h12 UTC**
 (cron de cette machine, à côté du data-runner). Il ne fait rien si `main` n'a pas bougé, ne tourne
 pas pendant le crawl du data-runner, passe `tsc` + `npm run integrity` avant de publier, déploie FR
