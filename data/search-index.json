@@ -3432,6 +3432,42 @@
       "name": "Achères",
       "region": "Île-de-France",
       "score": 4.6
+    },
+    {
+      "slug": "bretigny-sur-orge",
+      "name": "Brétigny-sur-Orge",
+      "region": "Île-de-France",
+      "score": 4.5
+    },
+    {
+      "slug": "saint-michel-sur-orge",
+      "name": "Saint-Michel-sur-Orge",
+      "region": "Île-de-France",
+      "score": 4.5
+    },
+    {
+      "slug": "lagny-sur-marne",
+      "name": "Lagny-sur-Marne",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "bussy-saint-georges",
+      "name": "Bussy-Saint-Georges",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "saint-cyr-l-ecole",
+      "name": "Saint-Cyr-l'École",
+      "region": "Île-de-France",
+      "score": 5
+    },
+    {
+      "slug": "roissy-en-brie",
+      "name": "Roissy-en-Brie",
+      "region": "Île-de-France",
+      "score": 5.1
     }
   ],
   "guides": [

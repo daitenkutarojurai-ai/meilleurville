@@ -582,6 +582,12 @@ export const HOUSING: Record<string, HousingData> = {
   "montgeron": { avgRentT1: 690, avgRentT2: 960, avgRentT3: 1290, avgBuyPriceM2: 4000 },
   "longjumeau": { avgRentT1: 730, avgRentT2: 1010, avgRentT3: 1360, avgBuyPriceM2: 4100 },
   "acheres": { avgRentT1: 710, avgRentT2: 960, avgRentT3: 1300, avgBuyPriceM2: 4100 },
+  "bretigny-sur-orge": { avgRentT1: 690, avgRentT2: 960, avgRentT3: 1290, avgBuyPriceM2: 4000 },
+  "saint-michel-sur-orge": { avgRentT1: 690, avgRentT2: 960, avgRentT3: 1290, avgBuyPriceM2: 4000 },
+  "lagny-sur-marne": { avgRentT1: 680, avgRentT2: 930, avgRentT3: 1260, avgBuyPriceM2: 3900 },
+  "bussy-saint-georges": { avgRentT1: 680, avgRentT2: 930, avgRentT3: 1260, avgBuyPriceM2: 3900 },
+  "saint-cyr-l-ecole": { avgRentT1: 720, avgRentT2: 990, avgRentT3: 1330, avgBuyPriceM2: 4200 },
+  "roissy-en-brie": { avgRentT1: 680, avgRentT2: 930, avgRentT3: 1260, avgBuyPriceM2: 3900 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

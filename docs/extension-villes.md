@@ -214,7 +214,10 @@ Villeneuve-Saint-Georges (94078, **attend un override** : ses voisines 94 du see
 et ne lui ressemblent pas, ses vraies voisines sont en Essonne), ~~Gagny,
 Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
 Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny,
-Maisons-Laffitte, Gradignan~~ (**lot 5**) ; ~~Eysines, Montgeron, Longjumeau, Achères~~ (**lot 6**) ;
+Maisons-Laffitte, Gradignan~~ (**lot 5**) ; ~~Eysines, Montgeron, Longjumeau, Achères~~ (**lot 6**) ; ~~Brétigny-sur-Orge, Saint-Michel-sur-Orge, Lagny-sur-Marne,
+Bussy-Saint-Georges, Saint-Cyr-l'École, Roissy-en-Brie~~ (**lot 7**) ; **Juvisy-sur-Orge** (91326) **sortie du backlog** :
+19 292 hab. en 2023 (Banatic + Wikipédia EN), sous le seuil de 20 000 ; **Morsang-sur-Orge** (91434, 21 667 hab.) reportée
+faute de 2 quartiers sourcés hors d'un seul site d'annonces ;
 **Sucy-en-Brie** (94071, 27 764 hab.) **attend un override** : voisines Saint-Maur / Champigny / Joinville /
 Maisons-Alfort → repère 6 200 €/m² contre ~3 750-4 300 € au marché (+50 %), Saint-Maur tire tout ; mesurées
 le 2026-10-10 (lot 6), règle valable, non retenues faute de place : Juvisy-sur-Orge (voisines 2,2-2,6 km, pop. à
@@ -729,3 +732,77 @@ sur `CITIES_SEED` : 19 / 50 / 151 / **146** / **115** / 91, moyenne 5,38.
 Bussy-Saint-Georges, Lagny-sur-Marne — vérifier chaque population (plusieurs sont proches du seuil de 20 000) et le
 recoupement de marché avant ajout. Overrides en attente : Sucy-en-Brie, Villeneuve-d'Ascq, Villeneuve-Saint-Georges,
 Grigny, Chatou, Cenon.
+
+### 2026-10-10 (troisième run) — lot 7 (+6) : Brétigny-sur-Orge, Saint-Michel-sur-Orge, Lagny-sur-Marne, Bussy-Saint-Georges, Saint-Cyr-l'École, Roissy-en-Brie
+
+`seed-coverage` au départ : 4 villes en attente du runner local (lot 6), sous le garde-fou de 30 → lot autorisé.
+572 → **578** villes, toutes en Île-de-France (Essonne ×2, Seine-et-Marne ×3, Yvelines ×1), aucun département ni
+région nouveaux.
+
+*Identité* (recherche web ; population municipale 2023 = Banatic et/ou Wikipédia, recoupée par un 2ᵉ résultat) :
+
+| Ville | Insee | Pop. seed | Source pop. | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Brétigny-sur-Orge | 91103 | 26 700 | 26 658 (Wikipédia EN ; villesavivre) | 48,6114 N 2,3060 E (latlong.net ; distanceenvoiture) | 41-97 → 69 m (Wikipédia ; Geneawiki) |
+| Saint-Michel-sur-Orge | 91570 | 21 800 | 21 776 (Wikipédia EN ; Commons, villesavivre) | 48,6326 N 2,3129 E (gps-latitude-longitude ; mairie 48,642/2,312) | 38-91 → 65 m (Wikipédia ; Geneawiki) |
+| Lagny-sur-Marne | 77243 | 21 500 | 21 461 (Wikipédia EN ; habity) | 48,8773 N 2,7112 E (Sygic/Wikipédia, une seule source précise) | 37-112 → 75 m (Wikipédia) |
+| Bussy-Saint-Georges | 77058 | 27 500 | 27 498 (Banatic ; Wikipédia EN) | 48,8422 N 2,6980 E (distanceenvoiture ; mairie 48,8422/2,6983) | 63-130 → 97 m (Wikipédia ; Simple Wikipedia) |
+| Saint-Cyr-l'École | 78545 | 21 300 | 21 268 (Banatic ; villesavivre) | 48,8008 N 2,0633 E (Geneawiki ; mairie 48,8017/2,0628) | 99-174 → 137 m (Geneawiki) |
+| Roissy-en-Brie | 77390 | 23 200 | 23 229 (Wikipédia EN ; Banatic) | 48,7906 N 2,6519 E (Wikipédia ; Geneawiki) | 95-115 → 105 m (Wikipédia) |
+
+*Notes brutes* (§ 3.2 ; life, transport, nature, cost, safety, culture, remoteWork, schools ; global =
+`recomputeGlobal`) :
+
+| Ville | Voisines (distance) | Notes brutes | global |
+|---|---|---|---|
+| Brétigny-sur-Orge | Sainte-Geneviève-des-Bois 3,7 · Viry-Châtillon 8,2 · Savigny-sur-Orge 8,3 · Longjumeau* 9,1 km | 6.3 · 7 · 6.4 · 5.5 · 5.9 · 5.7 · 6.8 · 6.3 | 6.2 |
+| Saint-Michel-sur-Orge | Sainte-Geneviève-des-Bois 2,0 · Savigny-sur-Orge 5,9 · Viry-Châtillon 6,1 · Longjumeau* 6,9 km | idem | 6.2 |
+| Lagny-sur-Marne | Torcy 5,4 · Chelles 8,5 · Champs-sur-Marne 8,7 · Pontault-Combault 12,6 km (Noisiel < 20 000 écartée) | 6.5 · 7.3 · 6.8 · 5.5 · 6.2 · 5.9 · 6.9 · 6.5 | 6.4 |
+| Bussy-Saint-Georges | Torcy 3,6 · Champs-sur-Marne 7,2 · Chelles 8,6 · Pontault-Combault 9,0 km | idem Lagny | 6.4 |
+| Saint-Cyr-l'École | Guyancourt 3,5 · Montigny-le-Bretonneux 4,0 · Trappes 4,7 · Le Chesnay-Rocquencourt 5,0 km (Versailles : override) | 6.9 · 6.5 · 7.3 · 5.5 · 6.5 · 5.9 · 6.9 · 7 | 6.5 |
+| Roissy-en-Brie | Pontault-Combault 3,2 · Torcy 6,6 · Champs-sur-Marne 7,6 · Chelles 10,8 km | idem Lagny | 6.4 |
+
+\* ville d'extension (une au plus par ville). Les deux paires Essonne et le trio Seine-et-Marne partagent leurs 4
+voisines, d'où des notes identiques : c'est la règle, pas un copier-coller. Lagny est la plus éloignée de ses
+voisines (4ᵉ à 12,6 km) — limite haute de la règle, assumée. Notes **rendues** : Brétigny 4,5 · Saint-Michel 4,5 ·
+Lagny 5,1 · Bussy 5,1 · Saint-Cyr 5,0 · Roissy 5,1 — voisines rendues : Sainte-Geneviève 4,6, Savigny 4,4 ;
+Torcy 5,1, Pontault 5,0 ; Guyancourt 5,1.
+
+*Climat* : ville du seed la plus proche — Sainte-Geneviève-des-Bois, Torcy, Guyancourt, Pontault-Combault (toutes
+1 700 h / 20,5 °C / 4 °C).
+
+*Logement* (médiane des 4 voisines, T1/T2/T3/m²) : Brétigny et Saint-Michel 690/960/1 290/4 000 ; Lagny, Bussy,
+Roissy 680/930/1 260/3 900 ; Saint-Cyr 720/990/1 330/4 200. Recoupement (prix moyen appartement 2026, recherche
+web) : Brétigny 3 088-3 242 € (Square Habitat / PAP, repère **~ +25-30 %**) ; Saint-Michel ~3 050 € (RealAdvisor,
+**~ +30 %**) — même écart que Longjumeau au lot 6, présent chez les voisines essonniennes du repère ; Lagny
+3 870-3 989 € (PAP / Square Habitat, ~ 0 %) ; Bussy 4 275-4 374 € (SeLoger / PAP, repère **~ −10 %**) ; Saint-Cyr
+4 043-4 387 € (Square Habitat / PAP / RealAdvisor, ~ 0 %) ; Roissy 3 462-3 574 € (PAP / SeLoger, ~ +10 %). Écarts
+assumés ; la médiane DVF arrivera par le runner et s'affiche séparément.
+
+*Quartiers* (2 par ville, notes = ville) : Brétigny Centre-ville – Gare + Clause-Bois Badeau (écoquartier, 42 ha de
+l'ancienne friche Clause, label 2013) ; Saint-Michel Centre-ville – Gare + Bois des Roches (centre commercial du
+Grand Bois en réhabilitation, décrit sans verdict) ; Lagny Centre historique (Notre-Dame-des-Ardents) + Bords de
+Marne (gare Lagny-Thorigny **située à Thorigny**, ~1 km) ; Bussy Le Village – Golf + Le Sycomore (EPA Marne) ;
+Saint-Cyr Centre-ville + Charles Renard (ZAC près de la gare) ; Roissy Centre-ville – Gare (RER E, 1857) +
+La Renardière (bornée par le Morbras).
+
+*Codes postaux* : 91220, 91240, 77400, 77600, 78210, 77680 → 578/578.
+
+*Faits évités faute de source* : date de mise en service et statut du tram-train T13 à Saint-Cyr (sources
+contradictoires), temps de trajet vers Paris (promoteurs), population de la Renardière, gare la plus proche de
+Morsang. Roissy-en-Brie est désambiguïsée de Roissy-en-France dans `descriptionEn`. Tags sans `port` / `mer` / `côte`.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation candidate**. Table des couleurs de `CLAUDE.md` recomptée
+sur `CITIES_SEED` : 19 / 50 / 151 / **150** / **117** / 91, moyenne 5,37.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (578 villes) + `:check`, `sitemap:check`
+(FR 31 064 URL, EN 30 658), `hreflang:check`. `npm run build` non lancé.
+
+*En attente du runner local* : 10 villes (lots 6 et 7) pour population, Filosofi, DVF, littoral, parcs, photos,
+biodiversité, actualité, zones protégées, orientation politique.
+
+**Prochain lot** : `seed-coverage` d'abord (garde-fou 30). Candidates à mesurer (population ≥ 20 000 à confirmer) :
+Le Plessis-Trévise, Villiers-sur-Marne (reportée le 2026-10-09, à remesurer), Ozoir-la-Ferrière et Mitry-Mory
+(reportées, voisines à remesurer depuis l'arrivée de Lagny / Bussy / Roissy) ; hors IdF, chercher des communes 20-50 k à
+voisinage dense (métropoles lyonnaise, lilloise, toulousaine). Morsang-sur-Orge si 2 quartiers se sourcent.
+Overrides en attente : Sucy-en-Brie, Villeneuve-d'Ascq, Villeneuve-Saint-Georges, Grigny, Chatou, Cenon.
