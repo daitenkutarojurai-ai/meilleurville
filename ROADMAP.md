@@ -451,6 +451,22 @@ identique) est **la matière propre du lot** et doit passer en EN sans être dil
 Pour le batch FR **suivant**, le palier à ouvrir est **6,4 : 13 communes, dont 8 sans guide**
 (Annemasse, Belfort, Cambrai, Épernay, Neuilly-sur-Seine, Nevers, Oyonnax, Troyes).
 
+### F61 — miroir EN de la série monoparentale, batch 6 : `single-parent-holidays-[city]-2026` (2026-10-10)
+
+Item 5 du plan agent « vacances monoparentales ». Série à 45 FR / 38 EN (diff des deux listes de slugs),
+donc la main revenait à l'EN. **+7 jumelles** écrites en anglais natif depuis les guides FR du batch 6
+(Châtellerault, Annemasse, Caen, Saint-Quentin, Dreux, Beauvais, Cambrai) ; **compteur mesuré 45 FR / 45 EN,
+parité rétablie** (`grep -c 'slug: "single-parent-holidays-'` = 45). 6 sections par guide (le FR en compte 7,
+l'EN fusionne la section aides avec « quand y aller »), 0 em-dash, aucun montant d'aide, aucun chiffre qui ne
+soit dans la jumelle FR. Prudences reprises : Annemasse = Suisse hors UE et hors union douanière, chèques-vacances
+non valables en Suisse, aucune normale climatique citée (station à 112 km) ; plages du Débarquement et
+Futuroscope **hors commune** ; station Paris-Montsouris partagée par Dreux et Beauvais (une mesure lue deux
+fois) ; Saint-Quentin = Aisne, pas le mont Saint-Quentin. Ajouts angle anglophone sans chiffre neuf : Sword/Gold
+britanniques et Juno canadienne (Caen), Beauvais = « Paris Beauvais » des vols low-cost, Cambrai/chars de 1917.
+`tsc`, `integrity`, `search-index` (EN 1 042 guides, 117 tags inchangé), `sitemap:check` (EN 30 753), `parity`
+code 0, `hreflang:check` verts. `npm run build` non lancé. **Prochain run : batch FR 7** (écart nul) — ou item 3/4
+si la série FR est jugée suffisante.
+
 ### F61 — série monoparentale, batch 6 : `vacances-monoparentales-[ville]-2026` (2026-09-30)
 
 Item 2 du plan agent « vacances monoparentales ». La série était à parité 38 FR / 38 EN, **mesurée

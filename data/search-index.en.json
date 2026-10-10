@@ -8514,6 +8514,41 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-holidays-chatellerault-2026",
+      "title": "Single-parent holidays in Châtellerault: the cheapest flat in the series, and a direct TGV",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-annemasse-2026",
+      "title": "Single-parent holidays in Annemasse: a tram into Switzerland, and the most expensive town in the series",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-caen-2026",
+      "title": "Single-parent holidays in Caen: three tram lines, and the D-Day beaches are not in town",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-saint-quentin-2026",
+      "title": "Single-parent holidays in Saint-Quentin: the best cost score of the series, and a free Art Deco centre",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-dreux-2026",
+      "title": "Single-parent holidays in Dreux: under an hour from Paris, and a royal burial chapel",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-beauvais-2026",
+      "title": "Single-parent holidays in Beauvais: the airport that calls itself Paris, and the tallest Gothic vault",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-cambrai-2026",
+      "title": "Single-parent holidays in Cambrai: the lowest rent in the series, and no direct train from Paris",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "things-to-do-in-selestat-2026",
       "title": "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
       "emoji": "📚"
@@ -8678,7 +8713,7 @@
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 163
+      "count": 170
     },
     {
       "slug": "expat-single-parent",
@@ -8693,12 +8728,12 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 65
+      "count": 66
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 65
+      "count": 66
     },
     {
       "slug": "grand-est",
@@ -8736,19 +8771,24 @@
       "count": 54
     },
     {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 54
+    },
+    {
       "slug": "real-estate",
       "label": "real estate",
       "count": 53
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 51
-    },
-    {
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 47
+    },
+    {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 45
     },
     {
       "slug": "pays-de-la-loire",
@@ -8761,19 +8801,14 @@
       "count": 38
     },
     {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
-      "count": 38
+      "slug": "normandy",
+      "label": "normandy",
+      "count": 34
     },
     {
       "slug": "working-in-france",
       "label": "working in france",
       "count": 34
-    },
-    {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 33
     },
     {
       "slug": "provence",
@@ -8796,6 +8831,11 @@
       "count": 25
     },
     {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 24
+    },
+    {
       "slug": "international-students",
       "label": "international students",
       "count": 24
@@ -8809,11 +8849,6 @@
       "slug": "student-visa-france",
       "label": "student visa france",
       "count": 24
-    },
-    {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 23
     },
     {
       "slug": "budget",
