@@ -3408,6 +3408,30 @@
       "name": "Gradignan",
       "region": "Nouvelle-Aquitaine",
       "score": 5.4
+    },
+    {
+      "slug": "eysines",
+      "name": "Eysines",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.6
+    },
+    {
+      "slug": "montgeron",
+      "name": "Montgeron",
+      "region": "Île-de-France",
+      "score": 4.5
+    },
+    {
+      "slug": "longjumeau",
+      "name": "Longjumeau",
+      "region": "Île-de-France",
+      "score": 4.9
+    },
+    {
+      "slug": "acheres",
+      "name": "Achères",
+      "region": "Île-de-France",
+      "score": 4.6
     }
   ],
   "guides": [

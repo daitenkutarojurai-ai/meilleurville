@@ -15640,6 +15640,58 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Quartier familial doté de plusieurs espaces verts et équipements." },
     ],
   },
+  {
+    citySlug: "eysines",
+    neighborhoods: [
+      { slug: "bourg", name: "Le Bourg", type: "résidentiel",
+        scores: { global: 6.6, safety: 6.4, transport: 7.5, nature: 7, cost: 5.5, nightlife: 6.3 },
+        avgRentT2: 800, tags: ["centre-bourg","commerces"],
+        summary: "Centre ancien de la commune, développé le long de l'avenue de la Libération, avec des commerces de proximité ; il a fait l'objet d'une étude urbaine de Bordeaux Métropole en 2021." },
+      { slug: "cantinolle", name: "Cantinolle", type: "résidentiel",
+        scores: { global: 6.6, safety: 6.4, transport: 7.5, nature: 7, cost: 5.5, nightlife: 6.3 },
+        avgRentT2: 800, tags: ["tram D","programmes neufs"],
+        summary: "Secteur desservi par le terminus nord-ouest de la ligne D du tram, ouvert en février 2020, où se concentrent des programmes de logements neufs." },
+    ],
+  },
+  {
+    citySlug: "montgeron",
+    neighborhoods: [
+      { slug: "centre-ville-gare", name: "Centre-ville – Gare", type: "résidentiel",
+        scores: { global: 6.2, safety: 6.1, transport: 6.6, nature: 6.9, cost: 5.6, nightlife: 5.7 },
+        avgRentT2: 960, tags: ["RER D","commerces"],
+        summary: "Secteur central organisé autour de la gare de Montgeron-Crosne, desservie par le RER D." },
+      { slug: "la-pelouse", name: "La Pelouse", type: "résidentiel",
+        scores: { global: 6.2, safety: 6.1, transport: 6.6, nature: 6.9, cost: 5.6, nightlife: 5.7 },
+        avgRentT2: 960, tags: ["forêt de Sénart","pavillons"],
+        summary: "Quartier résidentiel de maisons familiales, en bordure de la Pelouse de Montgeron et de la forêt de Sénart." },
+    ],
+  },
+  {
+    citySlug: "longjumeau",
+    neighborhoods: [
+      { slug: "centre-ville", name: "Centre-ville", type: "résidentiel",
+        scores: { global: 6.3, safety: 6.2, transport: 7, nature: 6.3, cost: 5.5, nightlife: 6 },
+        avgRentT2: 1010, tags: ["RER C","fond de vallée"],
+        summary: "Centre situé dans le creux de la vallée, près de la gare de Longjumeau (RER C) ; la RN20 le contourne désormais par l'ouest." },
+      { slug: "gravigny-balizy", name: "Gravigny – Balizy", type: "résidentiel",
+        scores: { global: 6.3, safety: 6.2, transport: 7, nature: 6.3, cost: 5.5, nightlife: 6 },
+        avgRentT2: 1010, tags: ["RER C","anciens hameaux"],
+        summary: "Anciens hameaux de l'est de la commune, desservis par la gare Gravigny-Balizy du RER C, majoritairement pavillonnaires." },
+    ],
+  },
+  {
+    citySlug: "acheres",
+    neighborhoods: [
+      { slug: "centre-ville-saint-martin", name: "Centre-Ville – Saint-Martin", type: "résidentiel",
+        scores: { global: 6.3, safety: 5.9, transport: 7.3, nature: 6.8, cost: 5.5, nightlife: 5.8 },
+        avgRentT2: 960, tags: ["commerces","services"],
+        summary: "Cœur de la commune, qui regroupe commerces, services et équipements." },
+      { slug: "la-gare", name: "La Gare", type: "résidentiel",
+        scores: { global: 6.3, safety: 5.9, transport: 7.3, nature: 6.8, cost: 5.5, nightlife: 5.8 },
+        avgRentT2: 960, tags: ["RER A","Transilien L"],
+        summary: "Quartier organisé autour de la gare d'Achères-Ville, desservie par une branche du RER A et par la ligne L du Transilien." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

@@ -214,8 +214,15 @@ Villeneuve-Saint-Georges (94078, **attend un override** : ses voisines 94 du see
 et ne lui ressemblent pas, ses vraies voisines sont en Essonne), ~~Gagny,
 Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
 Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny,
-Maisons-Laffitte, Gradignan~~ (**lot 5**) ; mesurées le 2026-10-10, règle valable, non retenues faute de place :
-Sucy-en-Brie (94, voisines 3,9-7,5 km), Eysines (33, 4,3-8,5 km) ; mesurées le 2026-10-10 et **reportées** :
+Maisons-Laffitte, Gradignan~~ (**lot 5**) ; ~~Eysines, Montgeron, Longjumeau, Achères~~ (**lot 6**) ;
+**Sucy-en-Brie** (94071, 27 764 hab.) **attend un override** : voisines Saint-Maur / Champigny / Joinville /
+Maisons-Alfort → repère 6 200 €/m² contre ~3 750-4 300 € au marché (+50 %), Saint-Maur tire tout ; mesurées
+le 2026-10-10 (lot 6), règle valable, non retenues faute de place : Juvisy-sur-Orge (voisines 2,2-2,6 km, pop. à
+confirmer ≥ 20 000), Morsang-sur-Orge, Brétigny-sur-Orge, Saint-Michel-sur-Orge, Saint-Cyr-l'École, Roissy-en-Brie,
+Bussy-Saint-Georges, Lagny-sur-Marne ; **Chilly-Mazarin** (91161, 20 443 hab.) reportée faute de 2 quartiers
+sourcés ; Deuil-la-Barre (Sarcelles dans la médiane), Montigny-lès-Cormeilles (2 voisines d'extension),
+Gif-sur-Yvette, Mantes-la-Ville, Montereau, Mitry-Mory, Ozoir, Carquefou, Bouguenais, Vallauris, Miramas (voisines
+trop éloignées ou en override) **reportées** ; mesurées le 2026-10-10 et **reportées** :
 Villeneuve-le-Roi, Limeil-Brévannes (plus proche voisine en Essonne), Cenon (rive droite, voisines rive gauche),
 Saint-Sébastien-sur-Loire (2 voisines admissibles), Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne,
 Croix, Wasquehal, Les Ulis, Villeparisis, Le Mée-sur-Seine, Dammarie-les-Lys (voisines trop éloignées ou en
@@ -650,3 +657,75 @@ recomptée sur `CITIES_SEED` : 19 / 50 / 151 / **145** / **112** / **91**, moyen
 Candidates valables : Sucy-en-Brie, Eysines. Le gisement « règle de voisinage valable » s'épuise : la suite
 demande soit d'élargir aux 15 000-20 000 hab., soit d'écrire les overrides documentés (Villeneuve-d'Ascq,
 Grigny, Chatou, Cenon, Villeneuve-Saint-Georges) — décision à prendre plutôt que de forcer la médiane.
+
+### 2026-10-10 (second run) — lot 6 (+4) : Eysines, Montgeron, Longjumeau, Achères
+
+568 → **572** villes ; Eysines en Gironde (Nouvelle-Aquitaine), trois en Île-de-France. Aucune région ni aucun
+département nouveau. Absence vérifiée par code Insee (33162, 91421, 91345, 78005).
+
+*Garde-fou runner* : `seed-coverage` avant lot → seule Gradignan attendait ses parcs (1 ville < 30) ; le runner
+GitHub Actions a servi les 7 du lot 5 sur tout le reste. `political-lean` reste à 540 (pas de pipeline cloud).
+
+*Densité mesurée avant choix* (script § 3.2, 26 candidates absentes par nom, cf. backlog) : 6 valables
+retenues pour identité ; **Sucy-en-Brie** retirée après recoupement du marché (repère médian 6 200 €/m², marché
+3 750-4 300 €, efficity / realadvisor sept. 2026 : la médiane est tirée par Saint-Maur, la ville ne ressemble pas
+à ses voisines → override documenté) ; **Chilly-Mazarin** retirée faute de deux quartiers sourcés (la recherche ne
+donne que « Centre-ville » et des noms de résidences ; la gare « Chilly-Mazarin » du RER C est comptée côté
+Longjumeau).
+
+*Identité* (recherche web ; population municipale 2023 = Banatic **et** Wikipédia pour chacune) :
+
+| Ville | Insee | Pop. seed | Source pop. | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Eysines | 33162 | 24 800 | 24 825 (Banatic ; Wikipédia EN) | 44,8853 N 0,65 W (Wikipédia ; cartesfrance 44,884/−0,65) | 3-45 → 24 m (Wikipédia ; Geneawiki) |
+| Montgeron | 91421 | 24 000 | 24 022 (Banatic ; Wikipédia, pss-archi) | 48,7054 N 2,4504 E (NGA GeoNames ; mairie 48,705/2,4589) | 31-88 → 60 m (Geneawiki) |
+| Longjumeau | 91345 | 22 000 | 21 996 (Banatic ; Wikipédia) | 48,6931 N 2,2948 E (distanceenvoiture ; 2ᵉ point 48,694/2,287) | 40-93 → 67 m (Wikipédia ; Geneawiki) |
+| Achères | 78005 | 22 200 | 22 241 (Banatic ; Wikipédia, pss-archi) | 48,9622 N 2,0686 E (annuaire-administration ; latitudelongitude 48,9612/2,0688) | 18-32 → 25 m (Wikipédia ; Geneawiki) |
+
+*Notes brutes* (§ 3.2 ; life, transport, nature, cost, safety, culture, remoteWork, schools ; global =
+`recomputeGlobal`) :
+
+| Ville | Voisines (distance) | Notes brutes | global |
+|---|---|---|---|
+| Eysines | Le Bouscat 4,4 · Mérignac 5,8 · Saint-Médard-en-Jalles 6,0 · Pessac 8,7 km (Bordeaux : override) | 7 · 7.5 · 7 · 5.5 · 6.4 · 6.3 · 7.1 · 6.9 | 6.6 |
+| Montgeron | Vigneux-sur-Seine* 2,5 · Yerres 3,0 · Athis-Mons 3,7 · Draveil 3,9 km (Brunoy 3,9 écartée au rang 5) | 6.3 · 6.6 · 6.9 · 5.6 · 6.1 · 5.7 · 6.5 · 6.3 | 6.2 |
+| Longjumeau | Massy 4,1 · Palaiseau 4,2 · Savigny-sur-Orge 4,3 · Viry-Châtillon 6,3 km | 6.4 · 7 · 6.3 · 5.5 · 6.2 · 6 · 7.2 · 6.6 | 6.3 |
+| Achères | Poissy 4,2 · Conflans 4,9 · Maisons-Laffitte* 5,5 · Sartrouville 7,4 km (Saint-Germain : override) | 6.4 · 7.3 · 6.8 · 5.5 · 5.9 · 5.8 · 6.8 · 6.4 | 6.3 |
+
+\* ville d'extension (une au plus par ville). Notes **rendues** (reprises dans `seoDescriptionEn`) : Eysines 5,6 ·
+Montgeron 4,5 · Longjumeau 4,9 · Achères 4,6 — voisines rendues : Le Bouscat 5,5, Mérignac 5,0 ; Vigneux 4,2,
+Yerres 5,5 ; Massy 5,3, Savigny 4,4 ; Poissy 4,2, Maisons-Laffitte 4,7.
+
+*Climat* : ville du seed la plus proche — Le Bouscat (2 050 h / 23 °C / 6,9 °C), Vigneux-sur-Seine (1 700 / 20,5 / 4),
+Massy (1 720 / 24 / 4,5), Poissy (1 700 / 20,5 / 4).
+
+*Logement* (médiane des 4 voisines, T1/T2/T3/m²) : Eysines 580/800/1 080/3 800 ; Montgeron 690/960/1 290/4 000 ;
+Longjumeau 730/1 010/1 360/4 100 ; Achères 710/960/1 300/4 100. Recoupement (prix moyen appartement, recherche
+web) : Eysines Cantinolle « un peu moins de 3 500 € » (SeLoger, repère ~ +10 %) ; Montgeron 3 417-3 543 € selon
+quartier (PAP 2026, ~ +15 %) ; Longjumeau 2 673-3 141 € (PAP / Square Habitat / RealAdvisor juil. 2026, **~ +30 %**,
+écart déjà présent chez ses voisines du repère essonnien) ; Achères 3 293-3 573 € (Square Habitat / PAP, ~ +15 %).
+Écarts assumés comme aux lots précédents ; la médiane DVF arrivera par le runner et s'affiche séparément.
+
+*Quartiers* (2 par ville, notes = ville) : Eysines Le Bourg (avenue de la Libération, étude urbaine Bordeaux
+Métropole 2021) + Cantinolle (terminus tram D, février 2020) ; Montgeron Centre-ville – Gare (RER D Montgeron-Crosne)
++ La Pelouse (forêt de Sénart) ; Longjumeau Centre-ville (fond de vallée, gare RER C, RN20 déviée à l'ouest) +
+Gravigny – Balizy (anciens hameaux de l'est, gare RER C) ; Achères Centre-Ville – Saint-Martin + La Gare (RER A,
+Transilien L).
+
+*Codes postaux* : 33320, 91230, 91160, 78260 (confirmés par les recherches d'identité) → 572/572.
+
+*Faits évités faute de source* : statut ZUS de la Prairie de l'Oly (périmètre administratif, pas un nom d'usage),
+Champs-de-Villars à Achères (grands ensembles, seule une liste reprise de Wikipédia), commanderie templière de
+Balizy (site d'annonces), Migron à Eysines. Tags sans `port` / `mer` / `côte`.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation candidate**. Table des couleurs de `CLAUDE.md` recomptée
+sur `CITIES_SEED` : 19 / 50 / 151 / **146** / **115** / 91, moyenne 5,38.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (572 villes) + `:check`, `sitemap:check`
+(FR 30 799 URL, EN 30 393), `hreflang:check`. `npm run build` non lancé.
+
+**Prochain lot** : `seed-coverage` d'abord. Candidates valables mesurées : Juvisy-sur-Orge (population à confirmer
+≥ 20 000), Morsang-sur-Orge, Brétigny-sur-Orge, Saint-Michel-sur-Orge, Saint-Cyr-l'École, Roissy-en-Brie,
+Bussy-Saint-Georges, Lagny-sur-Marne — vérifier chaque population (plusieurs sont proches du seuil de 20 000) et le
+recoupement de marché avant ajout. Overrides en attente : Sucy-en-Brie, Villeneuve-d'Ascq, Villeneuve-Saint-Georges,
+Grigny, Chatou, Cenon.

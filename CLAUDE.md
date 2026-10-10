@@ -1,6 +1,6 @@
 # MeilleurVille — Project briefing
 
-French city ranking & relocation guide site. 568 cities, 524 FR guides + 261 EN guides, 19 ranking
+French city ranking & relocation guide site. 572 cities, 524 FR guides + 261 EN guides, 19 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 (Counts derived at build — see `lib/site-stats.ts`; figures here are indicative.)
 
@@ -115,17 +115,17 @@ normalisation), pas en lisant le seed source. La table d'avant portait les compt
 n'est plus « très rare », il tient 3,5 % du corpus. Recompter après tout ajout de villes —
 recompté le 2026-10-06 à 544 villes (extension du seed, lot 1 : +2 orange, +2 rouge), puis le
 2026-10-07 à 551 (lot 2 : +1 ambre, +4 orange, +2 rouge), puis le 2026-10-08 à 556 (lot 3 : +1 orange,
-+4 rouge), puis le 2026-10-09 à 561 (lot 4 : +2 ambre, +1 orange, +2 rouge), puis le 2026-10-10 à 568 (lot 5 : +1 ambre, +4 orange, +2 rouge) ; les 540 d'origine n'ont pas bougé,
++4 rouge), puis le 2026-10-09 à 561 (lot 4 : +2 ambre, +1 orange, +2 rouge), puis le 2026-10-10 à 568 (lot 5 : +1 ambre, +4 orange, +2 rouge), puis le même jour à 572 (lot 6 : +1 ambre, +3 orange) ; les 540 d'origine n'ont pas bougé,
 cf. § Score pipeline, cohorte de référence.
 
-| Range  | Colour  | Count (568 cities) | Meaning        |
+| Range  | Colour  | Count (572 cities) | Meaning        |
 |--------|---------|-------------------|----------------|
 | ≥ 7.5  | Violet (`#A855F7`) | 19 (3.3%) | Exceptionnel   |
-| ≥ 7.0  | Green   | 50 (8.8%)         | Excellent      |
-| ≥ 6.0  | Lime    | 151 (26.6%)       | Bon            |
-| ≥ 5.0  | Amber   | 145 (25.5%)       | Moyen          |
-| ≥ 4.0  | Orange  | 112 (19.7%)       | En dessous     |
-| < 4.0  | Red     | 91 (16.0%)        | Mauvais        |
+| ≥ 7.0  | Green   | 50 (8.7%)         | Excellent      |
+| ≥ 6.0  | Lime    | 151 (26.4%)       | Bon            |
+| ≥ 5.0  | Amber   | 146 (25.5%)       | Moyen          |
+| ≥ 4.0  | Orange  | 115 (20.1%)       | En dessous     |
+| < 4.0  | Red     | 91 (15.9%)        | Mauvais        |
 
 Distribution mean ≈ 5.38. Penalties:
 - `worstPenalty = max(0, 4.5 − worst_axis) × 0.35` — fires when any axis < 4.5
