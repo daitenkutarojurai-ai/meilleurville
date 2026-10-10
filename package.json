@@ -11,6 +11,8 @@
     "postbuild": "find out -name '*.txt' ! -name robots.txt -delete 2>/dev/null || true",
     "lint": "eslint",
     "integrity": "node scripts/check-integrity.mjs",
+    "seed:neighbours": "npx tsx --tsconfig tsconfig.json scripts/seed-neighbours.ts",
+    "seed:neighbours:selftest": "npx tsx --tsconfig tsconfig.json scripts/seed-neighbours.ts --selftest",
     "hreflang:check": "node scripts/check-hreflang.mjs",
     "sitemap:check": "node scripts/check-sitemap.mjs",
     "parity": "node scripts/check-parity.mjs",

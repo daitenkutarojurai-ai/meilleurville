@@ -117,8 +117,16 @@ que la nouvelle ville reçoit les **mêmes biais départementaux** (`DEPT_SAFETY
 `DEPT_COST_BIAS`) que ses comparables ; la fourchette de population évite les ajustements de taille
 (< 30 000 / > 400 000) que les voisines n'auraient pas. Le `global` brut est recalculé par
 `calibrateScores` (valeur du seed ignorée) — écrire la moyenne pondérée de `recomputeGlobal` par
-cohérence. Le calcul se rejoue avec le script de scratch décrit au journal ; chaque ville y liste
-ses 4 voisines et leurs notes.
+cohérence. **Depuis le 2026-10-10 (cinquième run), la règle est un script :**
+`npm run seed:neighbours -- --lat=… --lng=… --dept="…" [--insee=…] [--pop=…]` imprime les 4 voisines,
+les notes brutes, le repère `housing.ts`, la ville de référence climatique et les raisons d'examiner
+avant d'ajouter (4ᵉ voisine au-delà de 12,6 km, agglomération coupée par une frontière départementale,
+repère m² des voisines dispersé de plus de × 1,5, moins de 4 voisines). `npm run seed:neighbours:selftest`
+rejoue la règle sur chaque ville d'extension **avec le seed d'avant son lot** (lots lus dans les
+sujets `feat(seed)` de `git log`) et la compare aux notes et au logement écrits ; une ville hors
+règle n'y passe que listée dans `KNOWN_OFF_RULE` avec sa raison. Le lancer avant chaque lot.
+
+Arrondi : celui des lots 1 à 8, `Math.round(x × 10) / 10` sur le flottant (5,35 → 5,3).
 
 **Limite connue** : la règle n'est valable que là où le seed est dense. Une ville qui ne ressemble
 pas à ses voisines (Villeneuve-d'Ascq, ville universitaire et technopole entourée de Roubaix /
@@ -210,7 +218,8 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 ### 20 000 – 50 000 hab. — candidats (absents par nom)
 
 ~~Montrouge, Meudon, Vanves, L'Haÿ-les-Roses, Thiais, Livry-Gargan, Villepinte~~ (**lot 2**),
-Villeneuve-Saint-Georges (94078, **attend un override** : ses voisines 94 du seed sont à 4,7-8 km
+**Maisons-Laffitte** (78358, déjà au seed, **hors règle, attend un override** — cf. journal du
+2026-10-10, cinquième run), Villeneuve-Saint-Georges (94078, **attend un override** : ses voisines 94 du seed sont à 4,7-8 km
 et ne lui ressemblent pas, ses vraies voisines sont en Essonne), ~~Gagny,
 Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
 Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny,
@@ -870,3 +879,56 @@ sur `CITIES_SEED` : 19 / 50 / 151 / **151** / 117 / **92**, moyenne 5,37.
 Villeneuve-d'Ascq, Le Plessis-Trévise, Villiers-sur-Marne) plutôt qu'un lot par médiane, ou l'élargissement de la
 règle à un département voisin là où la frontière départementale coupe une agglomération (à décider et documenter
 au § 3.2 avant usage, pas au fil d'un lot).
+
+### 2026-10-10 (cinquième run) — aucun lot : la règle devient un script, un écart du lot 5 trouvé
+
+`seed-coverage` au départ : 12 villes en attente du runner local (lots 6 à 8), sous le garde-fou de 30 → lot
+autorisé. **Aucune ville ajoutée**, faute de candidate qui passe la règle — décision assumée plutôt qu'un lot
+bancal. 580 villes, inchangé.
+
+*Pourquoi aucun lot.* Le vivier « même département, 4 voisines admissibles proches » est épuisé (constat du
+lot 8, confirmé) : contrôle par nom de ~250 communes de 20 000 à 50 000 hab. à travers la métropole — absentes
+du seed, il ne reste que des communes déjà mesurées et reportées (Lormont, Cenon, Lunel, Lambersart, Marcq,
+Wasquehal, Croix, Grande-Synthe, Lisieux, Cournon…) ou des villes isolées sans voisines admissibles :
+Coudekerque-Branche (1ʳᵉ voisine du Nord à 35 km, Dunkerque en override), Le Creusot et Montceau-les-Mines
+(Chalon à 32-39 km), Fougères (aucune voisine d'Ille-et-Vilaine admissible, Rennes en override). DROM :
+Le Gosier (2 voisines admissibles en Guadeloupe), Matoury (2 en Guyane), Koungou (1 à Mayotte),
+Saint-Leu 974 (4ᵉ voisine à 27,2 km) — toutes **reportées**. Populations non revérifiées ce run (aucune
+n'aurait passé la règle de toute façon). `geo.api.gouv.fr` et `insee.fr` toujours **403 CONNECT** depuis la
+routine : la liste exhaustive par population reste une passe locale.
+
+*Livré : `scripts/seed-neighbours.ts`* (`npm run seed:neighbours`, `:selftest`), § 3.2 mis à jour. La règle
+n'existait qu'en prose et en scratch réécrit à chaque run. Le script relit le seed brut comme texte (il
+échoue si le compte diffère de `CITIES_SEED.length`), détecte un override en passant une note sentinelle à
+`calibrateScores` (aucune liste recopiée), calcule le `global` par `calibrateScores` lui-même. Validation :
+**39 des 40 villes d'extension reproduites à l'identique** (notes et logement), en rejouant chacune avec le
+seed d'avant son lot — sans cette précaution, 6 villes sortaient en écart parce qu'une ville du **même** lot
+n'était pas encore une voisine possible (Villepinte / Livry-Gargan, Villemomble / Gagny, Taverny / Herblay,
+Saint-Michel / Brétigny, Bussy et Roissy / Lagny), et deux autres par l'arrondi.
+
+*L'écart : Maisons-Laffitte (lot 5) n'applique pas la règle.* Sa médiane prend **Saint-Germain-en-Laye**,
+qui porte un override dans `lib/score-calibration.ts` **depuis le 2026-09-29** (avant le lot 5) : sa note
+brute est ignorée au chargement, donc une des quatre valeurs de la médiane ne mesurait rien. La règle
+conforme (Sartrouville 2,0 · Houilles 4,5 · Conflans 6,7 · Poissy 7,7 km) donnerait
+6.4 · 7.3 · 6.5 · 5.5 · 5.9 · 5.7 · 6.8 · 6.4 et un repère 710/960/1 300/4 100 — **plus bas** que les valeurs
+publiées (dont 4 600 €/m²) pour une ville que le journal du lot 5 tenait déjà pour **sous-notée**.
+Réécrire sur la règle rapprocherait la méthode et éloignerait le chiffre du réel : **les données ne sont pas
+modifiées**, la ville est classée **hors règle, attend un override documenté** (backlog § 5), et le selftest
+la liste dans `KNOWN_OFF_RULE` avec cette raison. ⚠️ Achères (lot 6) prend Maisons-Laffitte comme voisine
+d'extension : un override futur de Maisons-Laffitte ne change pas Achères (notes figées à l'écriture), mais
+le selftest le signalera — à rejouer alors.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `sitemap:check`, `hreflang:check`. Aucune donnée de
+ville modifiée, donc pas de `seed-drift` ni de recomptage de la table des couleurs. `npm run build` non lancé.
+
+**Prochain lot** : `seed-coverage` d'abord. Le gisement « par médiane » est vide ; la suite demande une
+**décision de méthode écrite au § 3.2 avant usage**, au choix : ① règle transdépartementale là où la frontière
+coupe l'agglomération (le script signale déjà ces cas) — ⚠️ mesuré ce run : transférer la note **brute**
+d'un département voisin applique le biais du département d'arrivée par-dessus (Villeneuve-Saint-Georges,
+94, voisines Montgeron* / Yerres / Athis-Mons / Choisy-le-Roi, recevrait un coût calibré d'environ 4,6,
+sous Athis-Mons à 5,8 et Montgeron à 6,1, du seul fait du biais de coût du 94 ; marché de la commune non
+recoupé ce run) ; transférer le **niveau calibré** évite ce piège mais neutralise le biais départemental, ce qui
+doit être assumé par écrit ; ② règle « villes isolées » par **comparables de taille dans le département**
+(Le Creusot, Fougères, Coudekerque-Branche) ; ③ overrides documentés (Maisons-Laffitte, Sucy-en-Brie,
+Villeneuve-Saint-Georges, Villeneuve-d'Ascq, Le Plessis-Trévise, Villiers-sur-Marne) à condition d'une
+source chiffrée par axe — jamais au jugé.
