@@ -105,6 +105,10 @@ const HeatLayer = memo(function HeatLayer({ cities, scoreKey }: { cities: MapCit
 
 // Static dot layer — memoised: `dots` only changes on axis switch, `onHover`
 // is the stable setState, so hover re-renders skip these ~1,600 SVG nodes.
+// Radii are products like 3 × 2.6 = 7.800000000000001: one decimal is
+// sub-pixel at this viewBox and keeps 17-digit floats out of the HTML.
+const r1 = (n: number) => Math.round(n * 10) / 10;
+
 const CityDotLayer = memo(function CityDotLayer({
   dots,
   mounted,
@@ -146,10 +150,14 @@ const CityDotLayer = memo(function CityDotLayer({
             // 540 dots, i.e. ~54 KB of prerendered HTML per map page saying the
             // same thing 540 times.
             className={mounted ? "fh-dot fh-dot-in" : "fh-dot"}
+            // Colour set once here (style.fill) and inherited by the three circles; the
+            // constant per-circle attributes (opacity, glow filter, stroke) and
+            // the scale origin (transform-box: fill-box) live in .fh-dot in
+            // globals.css. Same pixels, ~170 bytes less per dot × 570 dots.
             style={{
+              fill: d.color,
               // Animation lives in .fh-dot/.fh-dot-in (globals.css) — the old
               // per-dot inline transition strings were ~120 KB of HTML ×540.
-              transformOrigin: `${d.x}px ${d.y}px`,
               "--fhd": `${d.delay}ms`,
             } as React.CSSProperties}
             // On touch there is no hover state to preview with: a tap would go
@@ -172,9 +180,9 @@ const CityDotLayer = memo(function CityDotLayer({
           >
             {/* The glow halo is decoration; leaving it hit-testable makes each
                 dot a r*2.6 target that swallows its neighbours' taps. */}
-            <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#dotGlow)" pointerEvents="none" />
-            <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" pointerEvents={coarse ? "none" : undefined} />
-            <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
+            <circle cx={d.x} cy={d.y} r={r1(d.r * 2.6)} />
+            <circle cx={d.x} cy={d.y} r={r1(d.r * 1.6)} pointerEvents={coarse ? "none" : undefined} />
+            <circle cx={d.x} cy={d.y} r={r1(d.r)} />
           </a>
         );
       })}

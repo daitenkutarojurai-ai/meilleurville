@@ -261,11 +261,20 @@ body {
 .fh-dot {
   opacity: 0;
   transform: scale(0);
-  transform-box: view-box;
+  /* Scale around the dot's own centre: the circles are concentric, so the
+     centre of their bounding box is the city. Replaces a per-dot inline
+     transform-origin. */
+  transform-box: fill-box;
+  transform-origin: center;
   transition: opacity 0.5s ease var(--fhd, 0ms), transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) var(--fhd, 0ms);
   cursor: pointer;
   outline: none;
 }
+/* Constant attributes of the three concentric circles (halo, ring, dot);
+   colour comes from the <a fill>. */
+.fh-dot > circle:nth-child(1) { opacity: 0.18; filter: url(#dotGlow); pointer-events: none; }
+.fh-dot > circle:nth-child(2) { opacity: 0.35; }
+.fh-dot > circle:nth-child(3) { stroke: white; stroke-width: 1; }
 .fh-dot:focus-visible {
   outline: 2px solid white;
   outline-offset: 2px;

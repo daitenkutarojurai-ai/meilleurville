@@ -20,28 +20,34 @@ interface QAItem {
   createdAt: string;
 }
 
+type Locale = "fr" | "en";
+
 interface QASectionProps {
   citySlug: string;
   cityName: string;
+  locale?: Locale;
 }
+
+const tr = (locale: Locale, fr: string, en: string) => (locale === "en" ? en : fr);
 
 const STORAGE_KEY = "meilleurville:commenter";
 const EMAIL_KEY = "meilleurville:email";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
-function timeAgo(iso: string): string {
+function timeAgo(iso: string, locale: Locale): string {
   const diff = Date.now() - new Date(iso).getTime();
   const m = Math.floor(diff / 60_000);
-  if (m < 1) return "à l'instant";
-  if (m < 60) return `il y a ${m} min`;
+  const en = locale === "en";
+  if (m < 1) return en ? "just now" : "à l'instant";
+  if (m < 60) return en ? `${m} min ago` : `il y a ${m} min`;
   const h = Math.floor(m / 60);
-  if (h < 24) return `il y a ${h} h`;
+  if (h < 24) return en ? `${h} h ago` : `il y a ${h} h`;
   const d = Math.floor(h / 24);
-  if (d < 7) return `il y a ${d} j`;
+  if (d < 7) return en ? `${d} d ago` : `il y a ${d} j`;
   const w = Math.floor(d / 7);
-  if (w < 5) return `il y a ${w} sem`;
-  return new Date(iso).toLocaleDateString("fr-FR", { day: "numeric", month: "short", year: "numeric" });
+  if (w < 5) return en ? `${w} wk ago` : `il y a ${w} sem`;
+  return new Date(iso).toLocaleDateString(en ? "en-GB" : "fr-FR", { day: "numeric", month: "short", year: "numeric" });
 }
 
 function avatarColor(name: string): string {
@@ -55,11 +61,14 @@ function AnswerForm({
   questionId,
   citySlug,
   onPosted,
+  locale,
 }: {
   questionId: string;
   citySlug: string;
   onPosted: (answer: QAItem) => void;
+  locale: Locale;
 }) {
+  const L = (fr: string, en: string) => tr(locale, fr, en);
   const topic = `city:${citySlug}:q:${questionId}`;
   const loggedIn = useSyncExternalStore(subscribeAuth, getAuthSnapshot, getServerAuthSnapshot);
   const [author, setAuthor] = useState(() => {
@@ -82,10 +91,10 @@ function AnswerForm({
     if (submitting) return;
     setError(null);
     if (!loggedIn) {
-      if (author.trim().length < 3) return setError("Votre prénom (3 caractères minimum).");
-      if (!EMAIL_RE.test(email.trim())) return setError("Email valide requis (ne sera pas affiché).");
+      if (author.trim().length < 3) return setError(L("Votre prénom (3 caractères minimum).", "Your first name (3 characters minimum)."));
+      if (!EMAIL_RE.test(email.trim())) return setError(L("Email valide requis (ne sera pas affiché).", "A valid email is required (never shown)."));
     }
-    if (body.trim().length < 8) return setError("Au moins 8 caractères.");
+    if (body.trim().length < 8) return setError(L("Au moins 8 caractères.", "At least 8 characters."));
 
     setSubmitting(true);
     try {
@@ -98,7 +107,7 @@ function AnswerForm({
         website,
         formStartedAt,
       });
-      if (!result.ok) throw new Error(result.error ?? "Erreur lors de l'envoi");
+      if (!result.ok) throw new Error(result.error ?? L("Erreur lors de l'envoi", "Could not send"));
       if (result.comment) onPosted(result.comment as QAItem);
       setBody("");
       setShowBadge(true);
@@ -110,7 +119,7 @@ function AnswerForm({
       }
       setTimeout(() => setShowBadge(false), 4000);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Erreur réseau");
+      setError(err instanceof Error ? err.message : L("Erreur réseau", "Network error"));
     } finally {
       setSubmitting(false);
     }
@@ -118,18 +127,18 @@ function AnswerForm({
 
   return (
     <form onSubmit={onSubmit} className="mt-3 rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)]/60 p-4">
-      <p className="text-xs font-semibold text-[var(--text-secondary)] mb-3">Votre réponse</p>
+      <p className="text-xs font-semibold text-[var(--text-secondary)] mb-3">{L("Votre réponse", "Your answer")}</p>
       {loggedIn ? (
         <div className="mb-2 flex items-center gap-2 rounded-lg border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-3 py-1.5 text-xs text-[var(--text-secondary)]">
           <CheckCircle className="h-3.5 w-3.5 text-[var(--accent)]" />
-          Publié avec votre compte
+          {L("Publié avec votre compte", "Posted with your account")}
         </div>
       ) : (
         <div className="flex flex-col sm:flex-row gap-2 mb-2">
           <input
             type="text"
-            placeholder="Votre prénom"
-            aria-label="Votre prénom"
+            placeholder={L("Votre prénom", "Your first name")}
+            aria-label={L("Votre prénom", "Your first name")}
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
             maxLength={40}
@@ -138,8 +147,8 @@ function AnswerForm({
           />
           <input
             type="email"
-            placeholder="Email (non public)"
-            aria-label="Email (non public)"
+            placeholder={L("Email (non public)", "Email (not public)")}
+            aria-label={L("Email (non public)", "Email (not public)")}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             maxLength={120}
@@ -149,8 +158,8 @@ function AnswerForm({
         </div>
       )}
       <textarea
-        placeholder="Partagez ce que vous savez…"
-        aria-label="Votre réponse"
+        placeholder={L("Partagez ce que vous savez…", "Share what you know…")}
+        aria-label={L("Votre réponse", "Your answer")}
         value={body}
         onChange={(e) => setBody(e.target.value)}
         maxLength={2000}
@@ -173,12 +182,12 @@ function AnswerForm({
           {submitting ? (
             <>
               <span className="inline-block h-3 w-3 rounded-full border-2 border-current border-r-transparent animate-spin" aria-hidden />
-              Envoi…
+              {L("Envoi…", "Sending…")}
             </>
           ) : (
             <>
               <Send className="h-3 w-3" />
-              Répondre
+              {L("Répondre", "Reply")}
             </>
           )}
         </Button>
@@ -197,10 +206,13 @@ function AnswerForm({
 function QuestionCard({
   question,
   citySlug,
+  locale,
 }: {
   question: QAItem;
   citySlug: string;
+  locale: Locale;
 }) {
+  const L = (fr: string, en: string) => tr(locale, fr, en);
   const [answers, setAnswers] = useState<QAItem[]>([]);
   const [loadingAnswers, setLoadingAnswers] = useState(false);
   const [answersLoaded, setAnswersLoaded] = useState(false);
@@ -271,7 +283,7 @@ function QuestionCard({
               Question
             </span>
           </div>
-          <div className="text-[11px] text-[var(--text-tertiary)] font-mono-data">{timeAgo(question.createdAt)}</div>
+          <div className="text-[11px] text-[var(--text-tertiary)] font-mono-data">{timeAgo(question.createdAt, locale)}</div>
         </div>
       </header>
 
@@ -293,7 +305,7 @@ function QuestionCard({
               </div>
               <div className="min-w-0">
                 <span className="text-xs font-semibold text-[var(--text-primary)]">{a.author}</span>
-                <span className="text-[10px] text-[var(--text-tertiary)] ml-2">{timeAgo(a.createdAt)}</span>
+                <span className="text-[10px] text-[var(--text-tertiary)] ml-2">{timeAgo(a.createdAt, locale)}</span>
                 <p className="text-xs text-[var(--text-secondary)] leading-relaxed mt-0.5 whitespace-pre-wrap">{a.body}</p>
               </div>
             </div>
@@ -313,7 +325,7 @@ function QuestionCard({
           ) : (
             <MessageSquare className="h-3 w-3" />
           )}
-          Répondre
+          {L("Répondre", "Reply")}
         </button>
         {answerCount !== null && answerCount > 0 && (
           <button
@@ -322,19 +334,20 @@ function QuestionCard({
             className="inline-flex items-center gap-1 text-xs text-[var(--text-tertiary)] hover:text-[var(--text-secondary)] transition-colors"
           >
             <ChevronDown className={`h-3 w-3 transition-transform ${showReplyForm ? "rotate-180" : ""}`} />
-            {answerCount} {answerCount === 1 ? "réponse" : "réponses"}
+            {answerCount} {answerCount === 1 ? L("réponse", "answer") : L("réponses", "answers")}
           </button>
         )}
       </div>
 
       {showReplyForm && (
-        <AnswerForm questionId={question.id} citySlug={citySlug} onPosted={onAnswerPosted} />
+        <AnswerForm questionId={question.id} citySlug={citySlug} onPosted={onAnswerPosted} locale={locale} />
       )}
     </article>
   );
 }
 
-export function QASection({ citySlug, cityName }: QASectionProps) {
+export function QASection({ citySlug, cityName, locale = "fr" }: QASectionProps) {
+  const L = (fr: string, en: string) => tr(locale, fr, en);
   const questionTopic = `city:${citySlug}:questions`;
   const loggedIn = useSyncExternalStore(subscribeAuth, getAuthSnapshot, getServerAuthSnapshot);
 
@@ -375,10 +388,10 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
     if (submitting) return;
     setError(null);
     if (!loggedIn) {
-      if (author.trim().length < 3) return setError("Votre prénom (3 caractères minimum).");
-      if (!EMAIL_RE.test(email.trim())) return setError("Email valide requis (ne sera pas affiché).");
+      if (author.trim().length < 3) return setError(L("Votre prénom (3 caractères minimum).", "Your first name (3 characters minimum)."));
+      if (!EMAIL_RE.test(email.trim())) return setError(L("Email valide requis (ne sera pas affiché).", "A valid email is required (never shown)."));
     }
-    if (body.trim().length < 8) return setError("Au moins 8 caractères.");
+    if (body.trim().length < 8) return setError(L("Au moins 8 caractères.", "At least 8 characters."));
 
     setSubmitting(true);
     try {
@@ -391,7 +404,7 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
         website,
         formStartedAt,
       });
-      if (!result.ok) throw new Error(result.error ?? "Erreur lors de l'envoi");
+      if (!result.ok) throw new Error(result.error ?? L("Erreur lors de l'envoi", "Could not send"));
       if (result.comment) setQuestions((prev) => [result.comment as QAItem, ...prev]);
       setBody("");
       setShowBadge(true);
@@ -403,7 +416,7 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
       }
       setTimeout(() => setShowBadge(false), 4000);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Erreur réseau");
+      setError(err instanceof Error ? err.message : L("Erreur réseau", "Network error"));
     } finally {
       setSubmitting(false);
     }
@@ -414,10 +427,10 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
       <div className="flex items-end justify-between mb-6">
         <div>
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">
-            ❓ Questions & réponses
+            {L("❓ Questions & réponses", "❓ Questions & answers")}
           </p>
           <h3 className="text-2xl font-bold text-[var(--text-primary)]">
-            Posez vos questions sur {cityName}
+            {L(`Posez vos questions sur ${cityName}`, `Ask your questions about ${cityName}`)}
           </h3>
         </div>
         <div className="flex items-center gap-1.5 text-sm text-[var(--text-secondary)]">
@@ -433,19 +446,19 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
         className="rounded-2xl glass border border-white/60 p-5 shadow-md mb-6"
       >
         <p className="text-sm font-semibold text-[var(--text-primary)] mb-3">
-          Vous avez une question sur {cityName} ?
+          {L(`Vous avez une question sur ${cityName} ?`, `Got a question about ${cityName}?`)}
         </p>
         {loggedIn ? (
           <div className="flex items-center gap-2 rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-3 py-2 text-sm text-[var(--text-secondary)]">
             <CheckCircle className="h-4 w-4 text-[var(--accent)]" />
-            Publié avec votre compte
+            {L("Publié avec votre compte", "Posted with your account")}
           </div>
         ) : (
           <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
             <input
               type="text"
-              placeholder="Votre prénom"
-              aria-label="Votre prénom"
+              placeholder={L("Votre prénom", "Your first name")}
+              aria-label={L("Votre prénom", "Your first name")}
               value={author}
               onChange={(e) => setAuthor(e.target.value)}
               maxLength={40}
@@ -455,8 +468,8 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
             />
             <input
               type="email"
-              placeholder="Email (non public)"
-              aria-label="Email (non public)"
+              placeholder={L("Email (non public)", "Email (not public)")}
+              aria-label={L("Email (non public)", "Email (not public)")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               maxLength={120}
@@ -466,8 +479,8 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
           </div>
         )}
         <textarea
-          placeholder={`Quelle est votre question sur ${cityName} ? (logement, transports, vie locale, écoles…)`}
-          aria-label="Votre question"
+          placeholder={L(`Quelle est votre question sur ${cityName} ? (logement, transports, vie locale, écoles…)`, `What would you like to know about ${cityName}? (housing, transport, local life, schools…)`)}
+          aria-label={L("Votre question", "Your question")}
           value={body}
           onChange={(e) => setBody(e.target.value)}
           maxLength={2000}
@@ -478,7 +491,7 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
         {/* Honeypot */}
         <div aria-hidden className="absolute -left-[9999px] top-0 opacity-0 pointer-events-none">
           <label>
-            Site web
+            {L("Site web", "Website")}
             <input
               type="text"
               tabIndex={-1}
@@ -491,7 +504,7 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
 
         <div className="mt-3 flex items-center justify-between gap-3">
           <div className="text-[11px] text-[var(--text-tertiary)]">
-            {body.length}/2000 · pas de liens · respect
+            {body.length}/2000 · {L("pas de liens · respect", "no links · be respectful")}
           </div>
           <Button
             type="submit"
@@ -503,12 +516,12 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
             {submitting ? (
               <>
                 <span className="inline-block h-3.5 w-3.5 rounded-full border-2 border-current border-r-transparent animate-spin" aria-hidden />
-                Envoi…
+                {L("Envoi…", "Sending…")}
               </>
             ) : (
               <>
                 <Send className="h-3.5 w-3.5" />
-                Poser ma question
+                {L("Poser ma question", "Ask my question")}
               </>
             )}
           </Button>
@@ -550,15 +563,15 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
           <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 p-8 text-center">
             <div className="text-4xl mb-2">🤔</div>
             <p className="text-sm font-medium text-[var(--text-primary)]">
-              Aucune question pour l&apos;instant.
+              {L("Aucune question pour l'instant.", "No questions yet.")}
             </p>
             <p className="text-xs text-[var(--text-tertiary)] mt-1">
-              Posez la première — la communauté vous répondra !
+              {L("Posez la première — la communauté vous répondra !", "Ask the first one: the community will answer.")}
             </p>
           </div>
         ) : (
           questions.map((q) => (
-            <QuestionCard key={q.id} question={q} citySlug={citySlug} />
+            <QuestionCard key={q.id} question={q} citySlug={citySlug} locale={locale} />
           ))
         )}
       </div>

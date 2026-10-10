@@ -75,6 +75,7 @@ export function CityDiscussionTabs({ citySlug, cityName, locale = "fr" }: CityDi
             title={L(`Témoignages sur ${cityName}`, `Firsthand accounts of ${cityName}`)}
             showRating
             subscribeContext={cityName}
+            locale={locale}
             emptyHint={L(
               `Vous avez vécu ou visité ${cityName} ? Racontez-nous : ce que vous avez aimé, ce qui vous a surpris, vos coups de cœur de quartier…`,
               `Lived in or visited ${cityName}? Tell us: what you liked, what surprised you, the neighbourhoods you loved…`
@@ -90,7 +91,7 @@ export function CityDiscussionTabs({ citySlug, cityName, locale = "fr" }: CityDi
         hidden={active !== "qa"}
       >
         {active === "qa" && (
-          <QASection citySlug={citySlug} cityName={cityName} />
+          <QASection citySlug={citySlug} cityName={cityName} locale={locale} />
         )}
       </div>
     </div>
