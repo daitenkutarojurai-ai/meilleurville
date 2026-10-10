@@ -2,6 +2,7 @@
 // it reads lib/city-air (data/city-air.json) at build time, so nothing ships
 // to the client.
 
+import Link from "@/components/AppLink";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import {
@@ -110,6 +111,11 @@ export function AirMeasuredCard({ slug, cityName, locale = "fr" }: { slug: strin
           )}
         </p>
       )}
+      <p className="mt-3 text-xs">
+        <Link href={locale === "en" ? "/air-quality" : "/qualite-de-l-air"} className="text-[var(--accent)] hover:underline">
+          {L("Comparer avec les autres villes de France →", "Compare with other French cities →")}
+        </Link>
+      </p>
       <p className="mt-3 text-[11px] text-[var(--text-tertiary)]">
         {L(
           "Sources : mesures des AASQA compilées par le LCSQA (Licence Ouverte), diffusées par l'Agence européenne pour l'environnement (CC BY 4.0). Données validées, au moins 75 % de l'année couverte.",

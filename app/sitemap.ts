@@ -266,6 +266,8 @@ function staticSection(): MetadataRoute.Sitemap {
     // F62 — hub national de la composante « zones protégées » (540 villes
     // mesurées, BD TOPO / MNHN). Jumelle EN : /protected-areas.
     { url: `${BASE_URL}/espaces-proteges`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    // F63 — qualité de l'air mesurée en station (AEE / LCSQA). Jumelle EN : /air-quality.
+    { url: `${BASE_URL}/qualite-de-l-air`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/tension-locative`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/tension-locative/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/tension-locative/arc-mediterraneen`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
@@ -896,6 +898,8 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/environment`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     // F62 — EN twin of /espaces-proteges.
     { url: `${BASE_URL}/protected-areas`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    // F63 — EN twin of /qualite-de-l-air.
+    { url: `${BASE_URL}/air-quality`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/cycling`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/sport`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/sport/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
