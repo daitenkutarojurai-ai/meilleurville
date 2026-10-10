@@ -3366,6 +3366,48 @@
       "name": "Neuilly-Plaisance",
       "region": "Île-de-France",
       "score": 3.3
+    },
+    {
+      "slug": "orly",
+      "name": "Orly",
+      "region": "Île-de-France",
+      "score": 4.1
+    },
+    {
+      "slug": "saint-gratien",
+      "name": "Saint-Gratien",
+      "region": "Île-de-France",
+      "score": 4.1
+    },
+    {
+      "slug": "vigneux-sur-seine",
+      "name": "Vigneux-sur-Seine",
+      "region": "Île-de-France",
+      "score": 4.2
+    },
+    {
+      "slug": "herblay-sur-seine",
+      "name": "Herblay-sur-Seine",
+      "region": "Île-de-France",
+      "score": 3.7
+    },
+    {
+      "slug": "taverny",
+      "name": "Taverny",
+      "region": "Île-de-France",
+      "score": 3.7
+    },
+    {
+      "slug": "maisons-laffitte",
+      "name": "Maisons-Laffitte",
+      "region": "Île-de-France",
+      "score": 4.7
+    },
+    {
+      "slug": "gradignan",
+      "name": "Gradignan",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.4
     }
   ],
   "guides": [

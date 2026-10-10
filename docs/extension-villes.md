@@ -213,9 +213,15 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 Villeneuve-Saint-Georges (94078, **attend un override** : ses voisines 94 du seed sont à 4,7-8 km
 et ne lui ressemblent pas, ses vraies voisines sont en Essonne), ~~Gagny,
 Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
-Neuilly-Plaisance~~ (**lot 4**) ; mesurées le 2026-10-09 et **reportées** : Montfermeil, Les Lilas,
+Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny,
+Maisons-Laffitte, Gradignan~~ (**lot 5**) ; mesurées le 2026-10-10, règle valable, non retenues faute de place :
+Sucy-en-Brie (94, voisines 3,9-7,5 km), Eysines (33, 4,3-8,5 km) ; mesurées le 2026-10-10 et **reportées** :
+Villeneuve-le-Roi, Limeil-Brévannes (plus proche voisine en Essonne), Cenon (rive droite, voisines rive gauche),
+Saint-Sébastien-sur-Loire (2 voisines admissibles), Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne,
+Croix, Wasquehal, Les Ulis, Villeparisis, Le Mée-sur-Seine, Dammarie-les-Lys (voisines trop éloignées ou en
+override) ; mesurées le 2026-10-09 et **reportées** : Montfermeil, Les Lilas,
 Villiers-sur-Marne, Chevilly-Larue (cf. journal) ; non retenues faute de place, règle valable : Orly
-(94054), Villeneuve-le-Roi (94077), Sucy-en-Brie (94071) ; **règle de voisinage non
+(94054), Villeneuve-le-Roi (94077, voir lot 5) ; **règle de voisinage non
 valable, mesurée le 2026-10-08** (cf. journal) : Grigny, Les Mureaux, Chatou, Lormont,
 Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Lunel, Saint-Étienne-du-Rouvray, Lambersart,
 Marcq-en-Barœul — toutes attendent un override documenté ; non mesurées : Vallauris, Miramas ;
@@ -558,3 +564,89 @@ Candidates mesurées valables : Orly (Thiais* 2,3 · Choisy 3,2 · Vitry 5,1 · 
 Villeneuve-le-Roi (voisines 3,9-7,4 km, à regarder). Si le seuil est atteint : écrire les overrides
 documentés (Villeneuve-d'Ascq, Grigny, Chatou) plutôt qu'ajouter.
 
+
+### 2026-10-10 — lot 5 (+7) : Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny, Maisons-Laffitte, Gradignan
+
+561 → **568** villes ; six en Île-de-France, **Gradignan est la première ville d'extension hors Île-de-France**
+(Gironde, Nouvelle-Aquitaine — département et région déjà au seed). Absence vérifiée par code Insee.
+
+*Garde-fou runner* : la machine locale est retirée, `scripts/local-data-runner.sh` tourne désormais sur **GitHub
+Actions** (`.github/workflows/data-runner.yml`, 02h20 / 14h20 UTC) et a servi les 21 villes des lots 1 à 4 :
+`seed-coverage` donnait **population, revenus, DVF, littoral, parcs, photos, biodiversité, actualité, zones
+protégées à 561/561** avant ce lot. Seuls manquaient `political-lean` et `postal-codes`, que le runner ne
+sert pas (aucun pipeline cloud). **Codes postaux comblés ce run** pour les 28 villes d'extension (les 21 + ce
+lot) : la recherche par code postal ne les trouvait pas. Codes du lot confirmés par les recherches d'identité ;
+les 21 autres sont les codes de distribution standard (Meudon : 92190 et 92360 pour Meudon-la-Forêt).
+`political-lean` reste à 540/568 : manque assumé, cadre vide cosmétique, pas de chiffre au jugé.
+
+*Densité mesurée avant choix* (script § 3.2, ≤ 1 voisine d'extension) : 22 candidates, 7 retenues, 2 valables
+mises de côté (Sucy-en-Brie, Eysines), 13 reportées (liste au backlog). Le seed est désormais dense autour de
+Lyon, Toulouse, Nantes, Strasbourg, Grenoble, Rouen : la plupart des communes de 20 000+ hab. de ces aires y sont
+déjà.
+
+*Identité* (recherche web ; population municipale 2023 donnée par Banatic **et** Wikipédia pour chacune) :
+
+| Ville | Insee | Pop. seed | Source pop. | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Orly | 94054 | 24 700 | 24 658 (Banatic ; Wikipédia EN) | 48,7439 N 2,3928 E (Wikipédia ; mairie 48,7467/2,4039) | 30-89 → 60 m (Geneawiki ; areq) |
+| Saint-Gratien | 95555 | 21 300 | 21 336 (Banatic ; Wikipédia EN) | 48,9703 N 2,2866 E (distanceenvoiture ; cartesfrance 48,975/2,287) | 39-59 → 49 m (areq ; Geneawiki) |
+| Vigneux-sur-Seine | 91657 | 31 500 | 31 466 (Banatic ; Wikipédia EN) | 48,7001 N 2,4170 E (latlong.net ; distanceenvoiture) | 31-84 → 58 m |
+| Herblay-sur-Seine | 95306 | 31 800 | 31 779 (Banatic ; Wikipédia EN) | 48,9908 N 2,1664 E (Wikipédia ; latlong.net) | 20-91 → 56 m |
+| Taverny | 95607 | 27 600 | 27 593 (Banatic ; Wikipédia EN) | 49,0264 N 2,2275 E (Wikipédia ; GeoNames 49,0254/2,2169) | 55-188 → 122 m |
+| Maisons-Laffitte | 78358 | 23 100 | 23 093 (Banatic ; Wikipédia EN) | 48,948 N 2,141 E (cartesfrance ; mairie 48,9481/2,1414) | 22-57 → 40 m (areq) |
+| Gradignan | 33192 | 27 000 | 26 952 (Banatic ; Wikipédia EN) | 44,773 N 0,612 W (gazetteer ; 2ᵉ source 44,764/−0,6173) | 10-51 → 31 m |
+
+Milieux d'altitude en x,5 arrondis au mètre supérieur. Saint-Gratien : une page homonyme (Saint-Gratien,
+Somme) donne 48-113 m, écartée.
+
+*Notes brutes* (§ 3.2 ; life, transport, nature, cost, safety, culture, remoteWork, schools ; global =
+`recomputeGlobal`) :
+
+| Ville | Voisines (distance) | Notes brutes | global |
+|---|---|---|---|
+| Orly | Thiais* 2,3 · Choisy-le-Roi 3,2 · Vitry 5,1 · Fresnes 5,4 km | 6.1 · 7.7 · 5.8 · 5.5 · 5.7 · 5.9 · 6.7 · 6.1 | 6.1 |
+| Saint-Gratien | Sannois 1,9 · Eaubonne 2,5 · Ermont 2,8 · Montmorency 3,4 km | 6.3 · 6.7 · 6.3 · 5.5 · 6.2 · 5.4 · 6.3 · 6.4 | 6.1 |
+| Vigneux-sur-Seine | Athis-Mons 1,4 · Draveil 1,8 · Viry-Châtillon 4,6 · Ris-Orangis* 5,2 km | 6.1 · 6.7 · 6.3 · 5.7 · 5.7 · 5.6 · 6.5 · 6.1 | 6.0 |
+| Herblay-sur-Seine | Cormeilles 2,6 · Franconville 4,9 · Ermont 6,8 · Sannois 7,3 km | 6 · 7.1 · 6.3 · 5.7 · 5.8 · 5 · 6.7 · 6.1 | 6.0 |
+| Taverny | Franconville 2,5 · Ermont 4,9 · Eaubonne 5,4 · Cormeilles 6,3 km (Saint-Leu-la-Forêt, 2,0 km, sous 20 000 hab.) | 6 · 7.1 · 6.5 · 5.5 · 5.8 · 5.1 · 6.7 · 6.2 | 6.0 |
+| Maisons-Laffitte | Sartrouville 2,0 · Houilles 4,5 · Saint-Germain-en-Laye 6,5 · Conflans 6,7 km | 6.5 · 7.5 · 7 · 5.2 · 6.1 · 5.8 · 6.9 · 6.5 | 6.3 |
+| Gradignan | Villenave-d'Ornon 3,8 · Talence 4,1 · Pessac 4,2 · Bègles 6,4 km (Bordeaux : override) | 6.9 · 7.5 · 6.7 · 5.5 · 6.1 · 6.3 · 7 · 6.8 | 6.5 |
+
+\* ville d'extension. Notes **rendues** (`CITIES_SEED`, reprises dans `seoDescriptionEn`) : Orly 4,1 ·
+Saint-Gratien 4,1 · Vigneux 4,2 · Herblay 3,7 · Taverny 3,7 · Maisons-Laffitte 4,7 · Gradignan 5,4 — à comparer
+aux voisines rendues (Thiais 4,2, Sannois 3,2, Athis-Mons 3,7, Cormeilles 3,7, Sartrouville 4,0, Talence 5,5,
+Pessac 5,4). ⚠️ Maisons-Laffitte est vraisemblablement **sous-notée** par la médiane (Sartrouville et Houilles
+tirent le coût et la nature) : candidate à un override documenté si une source le justifie, pas au jugé.
+
+*Climat* : ville du seed la plus proche — Thiais, Sannois, Athis-Mons, Cormeilles, Sartrouville
+(1 700 h / 20,5 °C / 4 °C), Saint-Leu-la-Forêt pour Taverny (1 750 h / 21 °C / 4 °C), Villenave-d'Ornon pour
+Gradignan (2 050 h / 23 °C / 6,9 °C).
+
+*Logement* (médiane des 4 voisines, T1/T2/T3/m²) : Orly 700/980/1 310/4 500 ; Saint-Gratien 630/880/1 180/3 900 ;
+Vigneux 680/940/1 270/3 900 ; Herblay 670/910/1 220/3 700 ; Taverny 670/910/1 220/3 900 ; Maisons-Laffitte
+740/1 040/1 400/4 600 ; Gradignan 580/800/1 080/3 800. Pas de recoupement de marché ce run ; la médiane DVF
+arrivera par le runner.
+
+*Quartiers* (2 par ville, réels, recoupés par recherche web, notes = ville ; limites non officielles,
+souvent issues d'annonces, donc résumés sans verdict) : Orly Vieil Orly (gare Orly-Ville) + Les Navigateurs
+(grand ensemble) ; Saint-Gratien Gare (RER C) + Mairie – Petit Lac ; Vigneux Croix-Blanche (en rénovation) +
+Gare (RER D) ; Herblay Centre-ville (≈ 600 m de la gare, ligne J) + Val d'Herblay ; Taverny Centre-Ville – Les
+Coteaux (gares Taverny et Vaucelles) + Sarments – Vaucelles ; Maisons-Laffitte Centre (RER A, ligne L) + Le Parc
+(château, hippodrome avenue de la Pelouse) ; Gradignan Centre-ville (cours du Général-de-Gaulle) + Malartic.
+
+*Faits retirés ou évités faute de source* : la part de l'aéroport d'Orly sur la commune (« borders it ») ; la
+rive de la Seine pour Maisons-Laffitte et Vigneux ; la position de Saint-Gratien sur le lac (« close to ») ; la
+superficie du Parc de Maisons-Laffitte et de l'hippodrome (chiffres d'annonces) ; le statut ZFU des
+Navigateurs ; les lignes de bus TBM de Gradignan (réseau changé en 2023). Tags sans `port` / `mer` / `côte` :
+« aéroport » écarté pour cette raison (sous-chaîne `port`).
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation candidate**. Table des couleurs de `CLAUDE.md`
+recomptée sur `CITIES_SEED` : 19 / 50 / 151 / **145** / **112** / **91**, moyenne 5,38.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (568 villes) + `:check`, `sitemap:check`
+(FR 30 603 URL, EN 30 204), `hreflang:check`. `npm run build` non lancé.
+
+**Prochain lot** : `seed-coverage` d'abord (le runner GitHub Actions doit servir les 7 à sa prochaine passe).
+Candidates valables : Sucy-en-Brie, Eysines. Le gisement « règle de voisinage valable » s'épuise : la suite
+demande soit d'élargir aux 15 000-20 000 hab., soit d'écrire les overrides documentés (Villeneuve-d'Ascq,
+Grigny, Chatou, Cenon, Villeneuve-Saint-Georges) — décision à prendre plutôt que de forcer la médiane.

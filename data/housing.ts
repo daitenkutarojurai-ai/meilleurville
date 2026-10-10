@@ -571,6 +571,13 @@ export const HOUSING: Record<string, HousingData> = {
   "joinville-le-pont": { avgRentT1: 950, avgRentT2: 1290, avgRentT3: 1740, avgBuyPriceM2: 6800 },
   "les-pavillons-sous-bois": { avgRentT1: 600, avgRentT2: 820, avgRentT3: 1100, avgBuyPriceM2: 3000 },
   "neuilly-plaisance": { avgRentT1: 720, avgRentT2: 990, avgRentT3: 1340, avgBuyPriceM2: 4300 },
+  "orly": { avgRentT1: 700, avgRentT2: 980, avgRentT3: 1310, avgBuyPriceM2: 4500 },
+  "saint-gratien": { avgRentT1: 630, avgRentT2: 880, avgRentT3: 1180, avgBuyPriceM2: 3900 },
+  "vigneux-sur-seine": { avgRentT1: 680, avgRentT2: 940, avgRentT3: 1270, avgBuyPriceM2: 3900 },
+  "herblay-sur-seine": { avgRentT1: 670, avgRentT2: 910, avgRentT3: 1220, avgBuyPriceM2: 3700 },
+  "taverny": { avgRentT1: 670, avgRentT2: 910, avgRentT3: 1220, avgBuyPriceM2: 3900 },
+  "maisons-laffitte": { avgRentT1: 740, avgRentT2: 1040, avgRentT3: 1400, avgBuyPriceM2: 4600 },
+  "gradignan": { avgRentT1: 580, avgRentT2: 800, avgRentT3: 1080, avgBuyPriceM2: 3800 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
