@@ -11,9 +11,9 @@ name: data-runner
 
 on:
   schedule:
-    # Mêmes horaires que l'ancien cron local (02h20 / 14h20 UTC). La passe de
-    # 02h20 suit l'extension du seed (01h30 UTC) et sert ses nouvelles villes.
-    - cron: "20 2,14 * * *"
+    # 40 min après chaque lot d'extension du seed (01h40, 07h40, 13h40, 19h40 UTC) :
+    # les nouvelles villes ont leurs données avant le déploiement suivant.
+    - cron: "20 2,8,14,20 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

@@ -19,8 +19,9 @@ name: deploy
 
 on:
   schedule:
-    # 05h30 UTC : après l'extension du seed (01h30) et la collecte (02h20).
-    - cron: "30 5 * * *"
+    # 05h30 et 17h30 UTC : chacune suit un lot d'extension du seed (01h40 / 13h40)
+    # et la collecte qui le complète (02h20 / 14h20). Rien ne part si main n'a pas bougé.
+    - cron: "30 5,17 * * *"
   workflow_dispatch:
 
 concurrency:
