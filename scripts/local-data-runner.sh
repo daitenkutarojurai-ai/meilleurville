@@ -493,8 +493,16 @@ git commit -q -m "data(pipelines): passe locale — ${summary[*]} [local-runner]
   -m "Collecte lancée depuis la machine locale : l'environnement des routines cloud répond 403 CONNECT sur GBIF, INPN, BODACC et data.gouv.fr." \
   -m "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>" >>"$LOG" 2>&1
 
+# A stage that touches a file outside OWNED leaves the tree dirty, and
+# `pull --rebase` then refuses outright ("You have unstaged changes"): the
+# collected data never reached main (run 38056918121, 2026-10-10). Name the
+# culprit in the log, and let --autostash set it aside — it is not ours to
+# commit, but it must not block the push either.
+stray="$(git status --porcelain --untracked-files=no)"
+[[ -n "$stray" ]] && say "files changed outside OWNED (not committed): $(echo "$stray" | tr '\n' ' ')"
+
 for attempt in 1 2 3; do
-  git pull --rebase origin main >>"$LOG" 2>&1
+  git pull --rebase --autostash origin main >>"$LOG" 2>&1
   # HEAD:main, pas main : dans le worktree la branche s'appelle
   # local-data-runner, et `git push origin main` y pousserait le main du dépôt.
   if git push origin HEAD:main >>"$LOG" 2>&1; then
