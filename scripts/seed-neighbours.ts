@@ -23,6 +23,10 @@
  * médiane des mêmes 4, arrondie à 10 € (loyers) et 100 € (m²). Climat = ville du seed la plus
  * proche, tous départements confondus.
  *
+ * `--cross-dept` (règle ①, § 3.2, 2026-10-10) : voisines tous départements confondus ; sur les axes à
+ * biais départemental (sécurité, coût), on transfère le niveau calibré des voisines et on retire le
+ * biais du département d'arrivée. Refusé quand l'écart de biais avec une voisine dépasse 1,0.
+ *
  * Le seed brut n'est pas exporté (`RAW_CITIES_SEED`) : il est relu comme texte, et le script
  * échoue si le nombre de fiches relues diffère de `CITIES_SEED.length`.
  */
@@ -90,7 +94,16 @@ function median(xs: number[]): number {
 const round = (x: number, step: number) => Math.round(x / step) * step;
 const r1 = (x: number) => Math.round(x * 10) / 10;
 
-interface Candidate { lat: number; lng: number; dept: string; exclude?: string; order?: Set<string> }
+interface Candidate { lat: number; lng: number; dept: string; exclude?: string; order?: Set<string>; crossDept?: boolean }
+
+/**
+ * Biais départemental d'un axe, mesuré par `calibrateScores` (aucune table recopiée) : note
+ * sentinelle 5, 50 000 hab. (aucun ajustement de taille), slug sans override.
+ */
+function deptBias(dept: string, axis: Axis): number {
+  const scores = { global: 5, life: 5, transport: 5, nature: 5, cost: 5, safety: 5, culture: 5, remoteWork: 5, schools: 5 };
+  return r1(calibrateScores({ slug: "__seed_neighbours__", department: dept, population: 50_000, scores }).scores[axis] - 5);
+}
 
 export function applyRule(c: Candidate, raws: Map<string, Raw>) {
   const pool = CITIES_SEED
@@ -102,7 +115,7 @@ export function applyRule(c: Candidate, raws: Map<string, Raw>) {
   let extensions = 0;
   for (const p of pool) {
     const v = p.v;
-    if (v.department !== c.dept || (v.population ?? 0) < POP_MIN || (v.population ?? 0) > POP_MAX) continue;
+    if ((!c.crossDept && v.department !== c.dept) || (v.population ?? 0) < POP_MIN || (v.population ?? 0) > POP_MAX) continue;
     if (hasOverride(v.slug)) continue;
     const isExt = (v as { scoreCohort?: string }).scoreCohort === "extension";
     if (isExt && extensions >= 1) continue;
@@ -111,7 +124,14 @@ export function applyRule(c: Candidate, raws: Map<string, Raw>) {
     if (neighbours.length === 4) break;
   }
 
-  const raw = Object.fromEntries(AXES.map((a) => [a, r1(median(neighbours.map((n) => raws.get(n.v.slug)![a])))])) as Raw;
+  // Mode transdépartemental (§ 3.2, règle ①) : sur les axes portant un biais départemental, on
+  // transfère le NIVEAU CALIBRÉ des voisines (brut + biais de leur département), puis on retire le
+  // biais du département d'arrivée — sinon il s'appliquerait une seconde fois par-dessus.
+  const level = (slug: string, dept: string, a: Axis) =>
+    raws.get(slug)![a] + (c.crossDept ? deptBias(dept, a) : 0);
+  const raw = Object.fromEntries(AXES.map((a) => [a,
+    r1(median(neighbours.map((n) => level(n.v.slug, n.v.department ?? "", a))) - (c.crossDept ? deptBias(c.dept, a) : 0)),
+  ])) as Raw;
   const housing = neighbours.every((n) => HOUSING[n.v.slug])
     ? {
         avgRentT1: round(median(neighbours.map((n) => HOUSING[n.v.slug].avgRentT1)), 10),
@@ -123,10 +143,18 @@ export function applyRule(c: Candidate, raws: Map<string, Raw>) {
   const nearestAny = pool[0];
 
   const warnings: string[] = [];
-  if (neighbours.length < 4) warnings.push(`seulement ${neighbours.length} voisine(s) admissible(s) dans le département — règle non applicable`);
+  if (neighbours.length < 4) warnings.push(`seulement ${neighbours.length} voisine(s) admissible(s)${c.crossDept ? "" : " dans le département"} — règle non applicable`);
+  if (c.crossDept) {
+    const own = neighbours.filter((n) => n.v.department === c.dept).length;
+    for (const a of ["safety", "cost"] as const) {
+      const gaps = neighbours.filter((n) => Math.abs(deptBias(n.v.department ?? "", a) - deptBias(c.dept, a)) > 1.0);
+      if (gaps.length) warnings.push(`${a} : écart de biais départemental > 1,0 avec ${gaps.map((n) => n.v.slug).join(", ")} — le niveau transféré importerait la mesure d'un autre département, règle non applicable`);
+    }
+    warnings.push(`mode transdépartemental : ${own}/4 voisines dans le département ; biais d'arrivée retiré (safety ${deptBias(c.dept, "safety")}, cost ${deptBias(c.dept, "cost")}) — justifier au journal`);
+  }
   const fourth = neighbours[3]?.d ?? Infinity;
   if (neighbours.length === 4 && fourth > FAR_KM) warnings.push(`4ᵉ voisine à ${fourth.toFixed(1)} km (> ${FAR_KM} km, limite haute du lot 7) — à justifier au journal`);
-  const closerElsewhere = neighbours.length < 4 ? [] : pool.filter((p) => p.d < fourth && p.v.department !== c.dept && (p.v.population ?? 0) >= POP_MIN);
+  const closerElsewhere = neighbours.length < 4 || c.crossDept ? [] : pool.filter((p) => p.d < fourth && p.v.department !== c.dept && (p.v.population ?? 0) >= POP_MIN);
   if (closerElsewhere.length >= 2) {
     warnings.push(`${closerElsewhere.length} villes d'un autre département plus proches que la 4ᵉ voisine (${closerElsewhere.slice(0, 3).map((p) => `${p.v.name} ${p.d.toFixed(1)} km`).join(", ")}) — la frontière départementale coupe peut-être l'agglomération`);
   }
@@ -227,11 +255,11 @@ function main(): number {
   // après elle sont écartées du vivier).
   const excluded = new Set((arg("exclude") ?? "").split(",").filter(Boolean));
   const order = excluded.size ? new Set(CITIES_SEED.map((c) => c.slug).filter((s) => !excluded.has(s))) : undefined;
-  const r = applyRule({ lat, lng, dept, order }, raws);
+  const r = applyRule({ lat, lng, dept, order, crossDept: process.argv.includes("--cross-dept") }, raws);
   console.log("\nVoisines (§ 3.2) :");
   for (const n of r.neighbours) {
     const ext = (n.v as { scoreCohort?: string }).scoreCohort === "extension" ? " *extension" : "";
-    console.log(`  ${n.d.toFixed(1).padStart(5)} km  ${n.v.slug}${ext}  ${AXES.map((a) => raws.get(n.v.slug)![a]).join(" · ")}`);
+    console.log(`  ${n.d.toFixed(1).padStart(5)} km  ${n.v.slug} [${n.v.department}]${ext}  ${AXES.map((a) => raws.get(n.v.slug)![a]).join(" · ")}`);
   }
   console.log(`\nNotes brutes : scores: { global: ${r.global}, ${AXES.map((a) => `${a}: ${r.raw[a]}`).join(", ")} }`);
   console.log(`Logement     : ${r.housing ? JSON.stringify(r.housing) : "non disponible (une voisine sans entrée housing.ts)"}`);
@@ -241,7 +269,7 @@ function main(): number {
     console.log("\nÀ examiner avant d'ajouter :");
     for (const w of r.warnings) console.log(`  ⚠ ${w}`);
   }
-  return r.neighbours.length < 4 ? 1 : 0;
+  return r.neighbours.length < 4 || r.warnings.some((w) => w.includes("règle non applicable")) ? 1 : 0;
 }
 
 process.exit(main());

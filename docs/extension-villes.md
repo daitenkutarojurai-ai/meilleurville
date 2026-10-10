@@ -126,6 +126,20 @@ rejoue la règle sur chaque ville d'extension **avec le seed d'avant son lot** (
 sujets `feat(seed)` de `git log`) et la compare aux notes et au logement écrits ; une ville hors
 règle n'y passe que listée dans `KNOWN_OFF_RULE` avec sa raison. Le lancer avant chaque lot.
 
+**Règle ① transdépartementale (décidée le 2026-10-10, sixième run)** — `npm run seed:neighbours -- … --cross-dept`.
+Seulement quand la frontière départementale coupe l'agglomération (le mode standard le signale) et que le
+mode standard échoue. Voisines prises tous départements confondus (mêmes filtres de taille, d'override et
+d'extension). Sur les deux axes qui portent un biais départemental (sécurité, coût), on transfère le
+**niveau calibré** des voisines (brut + biais de leur département) et on **retire** le biais du
+département d'arrivée : la ville rend le niveau de ses voisines réelles, et le biais de son propre
+département est **neutralisé** — assumé, parce qu'un biais départemental est une moyenne de département
+et que les voisines immédiates décrivent mieux une commune de lisière. Garde : refusé (code 1) dès qu'une
+voisine porte un biais qui diffère de plus de **1,0** de celui du département d'arrivée sur l'un des deux
+axes — au-delà, le transfert importerait la statistique de délinquance ou de cherté d'un autre
+département (Mitry-Mory, 77, recevait la sécurité de la Seine-Saint-Denis, écart 2,0). Le recoupement du
+marché (§ 3.3) reste obligatoire et s'applique **avant** l'ajout : au-delà d'environ ± 30 % entre le
+repère et les prix publiés, la ville attend.
+
 Arrondi : celui des lots 1 à 8, `Math.round(x × 10) / 10` sur le flottant (5,35 → 5,3).
 
 **Limite connue** : la règle n'est valable que là où le seed est dense. Une ville qui ne ressemble
@@ -932,3 +946,37 @@ doit être assumé par écrit ; ② règle « villes isolées » par **comparabl
 (Le Creusot, Fougères, Coudekerque-Branche) ; ③ overrides documentés (Maisons-Laffitte, Sucy-en-Brie,
 Villeneuve-Saint-Georges, Villeneuve-d'Ascq, Le Plessis-Trévise, Villiers-sur-Marne) à condition d'une
 source chiffrée par axe — jamais au jugé.
+
+### 2026-10-10 (sixième run) — aucun lot : règle ① outillée, trois candidates frontalières mesurées et reportées
+
+`seed-coverage` au départ : **0 ville en attente** — le runner local a tourné (commit `324c252`,
+biodiversité / actualité / zones protégées 580/580 ; population 578, revenus 573, photos 578 = manques
+permanents connus). Garde-fou levé, mais **aucune ville ajoutée** : 580, inchangé.
+
+*Livré : la règle ① (§ 3.2) devient le mode `--cross-dept` de `scripts/seed-neighbours.ts`.* Biais
+départemental lu par `calibrateScores` (aucune table recopiée), niveau calibré transféré sur sécurité et
+coût, biais d'arrivée retiré, refus au-delà d'un écart de biais de 1,0, département imprimé à côté de
+chaque voisine. Le mode standard est inchangé : `seed:neighbours:selftest` → **39/40**, Maisons-Laffitte
+toujours seule hors règle documentée.
+
+*Mesuré et reporté* (coordonnées approchées, à recouper avant tout lot) :
+
+| Commune | Insee | Voisines (`--cross-dept`) | Résultat | Raison du report |
+|---|---|---|---|---|
+| Villeneuve-Saint-Georges | 94078 | Montgeron* 3,0 · Yerres 3,5 · Athis-Mons 4,6 · Choisy-le-Roi 4,7 | règle applicable (écart de biais coût 1,0) | repère **4 200 €/m²** contre **2 641 €/m²** appartements (PAP, DVF au 1ᵉʳ juillet 2026 ; efficity 2 850, RealAdvisor 2 580-3 320 par rue) : **+45 à +60 %**. Les voisines essonniennes sont plus chères qu'elle. |
+| Limeil-Brévannes | 94044 | Yerres 3,5 · Montgeron* 5,2 · Choisy-le-Roi 5,5 · Brunoy 5,6 | règle applicable | repère **4 600 €/m²** contre **3 365 €/m²** (PAP, DVF) ; efficity 3 220, RealAdvisor 3 536 : **+30 à +43 %**, au-delà de l'écart accepté (Halluin −25-30 %). |
+| Mitry-Mory | 77294 | Tremblay 3,4 · Villepinte* 6,4 · Sevran 7,9 · Aulnay 10,4 (toutes 93) | **refusée par la garde** | écart de biais sécurité 2,0 (93 −2,0, 77 0) : la sécurité transférée (2,4) serait celle de la Seine-Saint-Denis. |
+
+Constat : dans la couronne sud-est, le repère `housing.ts` des voisines ne décrit pas les communes les
+plus populaires de la lisière (Villeneuve-Saint-Georges, Limeil). Elles demandent un repère logement
+**propre** sourcé (DVF du runner local, une fois la ville au seed — œuf et poule), pas une médiane.
+Piste pour un prochain run : autoriser, pour le **seul logement**, un repère pris sur deux sources de
+marché concordantes quand la médiane des voisines s'en écarte de plus de 30 % — décision à écrire au
+§ 3.3 avant usage, pas au fil d'un lot.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `sitemap:check`, `hreflang:check`. Aucune donnée de ville
+modifiée : pas de `seed-drift` ni de recomptage des couleurs. `npm run build` non lancé.
+
+**Prochain lot** : `seed-coverage` d'abord ; puis soit la décision « repère logement sourcé » (§ 3.3)
+qui débloquerait Villeneuve-Saint-Georges et Limeil-Brévannes, soit la règle ② (villes isolées), soit un
+override documenté.
