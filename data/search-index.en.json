@@ -3468,6 +3468,18 @@
       "name": "Roissy-en-Brie",
       "region": "Île-de-France",
       "score": 5.1
+    },
+    {
+      "slug": "coueron",
+      "name": "Couëron",
+      "region": "Pays de la Loire",
+      "score": 5.4
+    },
+    {
+      "slug": "halluin",
+      "name": "Halluin",
+      "region": "Hauts-de-France",
+      "score": 2.8
     }
   ],
   "guides": [

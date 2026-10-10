@@ -16997,6 +16997,50 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "Roissy-en-Brie (Seine-et-Marne, Île-de-France): quality-of-life score 5.1/10. Seine-et-Marne suburb on RER E, next to Pontault-Combault (not the airport town of Roissy-en-France).",
     scores: { global: 6.4, life: 6.5, transport: 7.3, nature: 6.8, cost: 5.5, safety: 6.2, culture: 5.9, remoteWork: 6.9, schools: 6.5 },
+  },
+  {
+    slug: "coueron",
+    name: "Couëron",
+    scoreCohort: "extension",
+    region: "Pays de la Loire",
+    department: "Loire-Atlantique",
+    inseeCode: "44047",
+    population: 24100,
+    latitude: 47.2122,
+    longitude: -1.7281,
+    elevation: 37,
+    sunshinedays: 1900,
+    avgTempJuly: 21.5,
+    avgTempJanuary: 5.5,
+    characterTags: ["Loire-Atlantique","Nantes Métropole","bords de Loire","tour à plomb","gare TER"],
+    descriptionEn:
+      "Couëron is a Loire-Atlantique commune of the Nantes Métropole area, on the right bank of the Loire west of Nantes. It is split between the old town centre by the river and La Chabossière, a newer district closer to Nantes. Its landmark is the 19th-century shot tower, listed as a historic monument in 1993 and now home to a cultural venue and the Victor-Jara media library; a TER station serves the commune. Best fit: households who want a riverside suburb of Nantes at a lower price than the inner ring.",
+    seoTitleEn: "Couëron — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Couëron (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.4/10. Nantes Métropole suburb on the Loire, known for its listed 19th-century shot tower.",
+    scores: { global: 6.7, life: 7, transport: 7.3, nature: 7.4, cost: 5.7, safety: 6.6, culture: 6, remoteWork: 6.9, schools: 6.8 },
+  },
+  {
+    slug: "halluin",
+    name: "Halluin",
+    scoreCohort: "extension",
+    region: "Hauts-de-France",
+    department: "Nord",
+    inseeCode: "59279",
+    population: 20700,
+    latitude: 50.7863,
+    longitude: 3.1261,
+    elevation: 36,
+    sunshinedays: 1700,
+    avgTempJuly: 19.5,
+    avgTempJanuary: 3.5,
+    characterTags: ["Nord","Métropole européenne de Lille","frontière belge","vallée de la Lys"],
+    descriptionEn:
+      "Halluin is a Nord commune of the Lille European Metropolis, north of Tourcoing, on the Lys river that marks the border with Belgium; the Belgian town of Menen (Menin) lies directly across it. Walking routes follow the Lys and its locks towards Menen and Comines, and the Colbras natural area sits on the town's edge. Best fit: households working on either side of the Franco-Belgian border who want low Nord housing costs.",
+    seoTitleEn: "Halluin — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Halluin (Nord, Hauts-de-France): quality-of-life score 2.8/10. Border town of the Lille metropolis on the Lys, facing the Belgian town of Menen.",
+    scores: { global: 5.7, life: 5, transport: 7, nature: 4.9, cost: 7.5, safety: 4.8, culture: 5.8, remoteWork: 5.9, schools: 5.1 },
   }
 ];
 

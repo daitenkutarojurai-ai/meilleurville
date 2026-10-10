@@ -588,6 +588,8 @@ export const HOUSING: Record<string, HousingData> = {
   "bussy-saint-georges": { avgRentT1: 680, avgRentT2: 930, avgRentT3: 1260, avgBuyPriceM2: 3900 },
   "saint-cyr-l-ecole": { avgRentT1: 720, avgRentT2: 990, avgRentT3: 1330, avgBuyPriceM2: 4200 },
   "roissy-en-brie": { avgRentT1: 680, avgRentT2: 930, avgRentT3: 1260, avgBuyPriceM2: 3900 },
+  "coueron": { avgRentT1: 500, avgRentT2: 700, avgRentT3: 940, avgBuyPriceM2: 3400 },
+  "halluin": { avgRentT1: 400, avgRentT2: 550, avgRentT3: 740, avgBuyPriceM2: 1700 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

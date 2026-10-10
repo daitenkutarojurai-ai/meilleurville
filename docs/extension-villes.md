@@ -215,7 +215,7 @@ et ne lui ressemblent pas, ses vraies voisines sont en Essonne), ~~Gagny,
 Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
 Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny,
 Maisons-Laffitte, Gradignan~~ (**lot 5**) ; ~~Eysines, Montgeron, Longjumeau, Achères~~ (**lot 6**) ; ~~Brétigny-sur-Orge, Saint-Michel-sur-Orge, Lagny-sur-Marne,
-Bussy-Saint-Georges, Saint-Cyr-l'École, Roissy-en-Brie~~ (**lot 7**) ; **Juvisy-sur-Orge** (91326) **sortie du backlog** :
+Bussy-Saint-Georges, Saint-Cyr-l'École, Roissy-en-Brie~~ (**lot 7**) ; ~~Couëron, Halluin~~ (**lot 8**) ; mesurées le 2026-10-10 (lot 8) et **reportées** : **Brie-Comte-Robert** (77053, 19 003 hab. en 2023, Banatic + Wikipédia : sous le seuil), Saint-Ouen-l'Aumône et Ozoir-la-Ferrière (2 voisines d'extension), Le Plessis-Trévise et Villiers-sur-Marne (médiane tirée par Saint-Maur / Nogent / Le Perreux, repère 6 800 €/m², même cas que Sucy), Mitry-Mory (voisines 77 à 11-15 km, vraies voisines en 93), Loos et Mons-en-Barœul (Lille en override, voisines à 7-17 km et repère 1 700 €/m² face à un marché bien plus cher), Les Pennes-Mirabeau (3ᵉ et 4ᵉ voisines de l'autre côté de Marseille, 16-25 km), Saint-Jean-de-Braye (2 voisines admissibles, Orléans en override), La Garde, Frontignan, La Teste-de-Buch, Lisieux, Grande-Synthe, Nogent-sur-Oise (voisines admissibles trop rares ou trop lointaines), Le Port et Sainte-Marie (974, voisines à 13-45 km), Morsang-sur-Orge (quartiers toujours pas sourcés) ; **Juvisy-sur-Orge** (91326) **sortie du backlog** :
 19 292 hab. en 2023 (Banatic + Wikipédia EN), sous le seuil de 20 000 ; **Morsang-sur-Orge** (91434, 21 667 hab.) reportée
 faute de 2 quartiers sourcés hors d'un seul site d'annonces ;
 **Sucy-en-Brie** (94071, 27 764 hab.) **attend un override** : voisines Saint-Maur / Champigny / Joinville /
@@ -806,3 +806,67 @@ Le Plessis-Trévise, Villiers-sur-Marne (reportée le 2026-10-09, à remesurer),
 (reportées, voisines à remesurer depuis l'arrivée de Lagny / Bussy / Roissy) ; hors IdF, chercher des communes 20-50 k à
 voisinage dense (métropoles lyonnaise, lilloise, toulousaine). Morsang-sur-Orge si 2 quartiers se sourcent.
 Overrides en attente : Sucy-en-Brie, Villeneuve-d'Ascq, Villeneuve-Saint-Georges, Grigny, Chatou, Cenon.
+
+### 2026-10-10 (quatrième run) — lot 8 (+2) : Couëron, Halluin
+
+`seed-coverage` au départ : 10 villes en attente du runner local (lots 6 et 7), sous le garde-fou de 30 → lot
+autorisé. 578 → **580** villes. Lot volontairement réduit à 2 : sur ~25 candidates mesurées (cf. backlog), seules
+ces deux passent la règle de voisinage **et** le recoupement de population / quartiers. Le seed couvre désormais
+presque toutes les communes de 20 000 à 50 000 hab. à voisinage dense ; les restantes demandent un override
+documenté (§ 3.2, limite connue). Aucun département ni région nouveaux.
+
+*Identité* (recherche web ; population municipale 2023) :
+
+| Ville | Insee | Pop. seed | Source pop. | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Couëron | 44047 | 24 100 | 24 103 (Wikipédia EN citant l'Insee ; Banatic) | 47,2122 N 1,7281 W (cartesfrance, communes.com) | 0-74 → 37 m (Wikipédia ; Geneawiki) |
+| Halluin | 59279 | 20 700 | 20 715 (Banatic ; notre-planete.info) | 50,7863 N 3,1261 E (latitudelongitude ; cartesfrance 50,785/3,124) | 9-62 → 36 m (Geneawiki ; Wikipédia EN donne 20 m) |
+
+*Notes brutes* (§ 3.2) :
+
+| Ville | Voisines (distance) | Notes brutes (life, transport, nature, cost, safety, culture, remoteWork, schools) | global |
+|---|---|---|---|
+| Couëron | Saint-Herblain 5,9 · Orvault 10,2 · Rezé 13,8 · Vertou 20,1 km (Nantes : override) | 7 · 7.3 · 7.4 · 5.7 · 6.6 · 6 · 6.9 · 6.8 | 6.7 |
+| Halluin | Tourcoing 7,4 · Roubaix 11,1 · Wattrelos 11,6 · Armentières 20,5 km | 5 · 7 · 4.9 · 7.5 · 4.8 · 5.8 · 5.9 · 5.1 | 5.7 |
+
+La 4ᵉ voisine des deux villes est à ~20 km, au-delà de Lagny (12,6 km, lot 7) : limite haute de la règle,
+assumée parce que les quatre voisines sont du même type de commune (couronne nantaise ; anciennes villes textiles
+de la vallée de la Lys et du versant nord-est lillois). Notes **rendues** : Couëron 5,4 (ambre) · Halluin 2,8
+(rouge) — voisines rendues : Saint-Herblain 5,0, Orvault 5,8 ; Tourcoing et Roubaix 2,8.
+
+*Climat* : ville du seed la plus proche — Saint-Herblain (1 900 h / 21,5 °C / 5,5 °C), Tourcoing (1 700 / 19,5 / 3,5).
+
+*Logement* (médiane des 4 voisines, T1/T2/T3/m²) : Couëron 500/700/940/3 400 ; Halluin 400/550/740/1 700.
+Recoupement (prix moyen appartement 2026, recherche web) : Couëron 3 183 € (PAP, DVF au 1ᵉʳ juillet 2026) — repère
+**~ +7 %** ; Halluin 2 240-2 449 € (efficity, PAP 2 303 €, RealAdvisor) — repère **~ −25-30 %**, même ordre que
+l'écart accepté à Longjumeau / Saint-Michel (en sens inverse) ; il vient de Roubaix et Tourcoing dans la médiane.
+La médiane DVF arrivera par le runner et s'affiche séparément.
+
+*Quartiers* (2 par ville, notes = ville) : Couëron Bourg (tour à plomb, médiathèque Victor-Jara, coteau de la
+Loire) + La Chabossière (secteur plus récent côté Nantes — découpage donné par la ville et par Wikipédia) ;
+Halluin Centre (rue de Lille, rue de la Lys) + Molinel – Colbras (nom de quartier repris par trois sites
+immobiliers distincts, et espace naturel du Colbras). Halluin : quartiers faiblement sourcés mais pas un seul
+site d'annonces ; les avis de quartier (note sécurité) ne sont **pas** repris.
+
+*Faits sourcés* : tour à plomb de Couëron construite 1875-1878, classée MH le 11 février 1993, rachetée par la
+commune en 1988, Espace de la Tour à Plomb (2009) et médiathèque Victor-Jara (2014) — inventaire Pays de la Loire,
+Monumentum, ville ; gare TER de Couëron (ter.sncf.com). Halluin : frontière sur la Lys face à Menin, circuits des
+écluses Halluin-Menin-Comines, espace naturel du Colbras (fiches de randonnée). **Évités** : hauteur de la tour
+(69,40 m ou ~60 m selon la source), Port-Launay (un seul site), « Mont d'Halluin » (aucune source). Tags sans
+`port` (le « port fluvial d'Halluin » n'est **pas** tagué) / `mer` / `côte`.
+
+*Codes postaux* : 44220, 59250 → 580/580.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation candidate**. Table des couleurs de `CLAUDE.md` recomptée
+sur `CITIES_SEED` : 19 / 50 / 151 / **151** / 117 / **92**, moyenne 5,37.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (580 villes) + `:check`, `sitemap:check`
+(FR 31 152 URL, EN 30 746), `hreflang:check`. `npm run build` non lancé.
+
+*En attente du runner local* : 12 villes (lots 6, 7, 8).
+
+**Prochain lot** : `seed-coverage` d'abord (garde-fou 30). Le vivier « règle de voisinage valable » est presque
+épuisé ; le prochain run utile est probablement un **override documenté** (Sucy-en-Brie, Villeneuve-Saint-Georges,
+Villeneuve-d'Ascq, Le Plessis-Trévise, Villiers-sur-Marne) plutôt qu'un lot par médiane, ou l'élargissement de la
+règle à un département voisin là où la frontière départementale coupe une agglomération (à décider et documenter
+au § 3.2 avant usage, pas au fil d'un lot).

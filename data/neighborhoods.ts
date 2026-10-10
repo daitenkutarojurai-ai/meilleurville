@@ -15770,6 +15770,32 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Quartier résidentiel compris entre l'avenue Paul-Cézanne, la rue Charles-Vaillant et le cours du Morbras à l'ouest." },
     ],
   },
+  {
+    citySlug: "coueron",
+    neighborhoods: [
+      { slug: "bourg", name: "Couëron Bourg", type: "résidentiel",
+        scores: { global: 6.7, safety: 6.6, transport: 7.3, nature: 7.4, cost: 5.7, nightlife: 6 },
+        avgRentT2: 700, tags: ["centre historique","bords de Loire"],
+        summary: "Centre historique de la commune, sur le coteau de la rive droite de la Loire, autour de la tour à plomb et de la médiathèque Victor-Jara." },
+      { slug: "la-chabossiere", name: "La Chabossière", type: "résidentiel",
+        scores: { global: 6.7, safety: 6.6, transport: 7.3, nature: 7.4, cost: 5.7, nightlife: 6 },
+        avgRentT2: 700, tags: ["quartier récent","vers Nantes"],
+        summary: "Secteur plus récent de la commune, situé du côté de Nantes, l'un des deux grands pôles de population de Couëron avec le bourg." },
+    ],
+  },
+  {
+    citySlug: "halluin",
+    neighborhoods: [
+      { slug: "centre", name: "Centre", type: "résidentiel",
+        scores: { global: 5.7, safety: 4.8, transport: 7, nature: 4.9, cost: 7.5, nightlife: 5.8 },
+        avgRentT2: 550, tags: ["commerces","rue de Lille"],
+        summary: "Cœur de la commune, autour de la rue de Lille et de la rue de la Lys, à proximité de la frontière avec Menin." },
+      { slug: "molinel-colbras", name: "Molinel – Colbras", type: "résidentiel",
+        scores: { global: 5.7, safety: 4.8, transport: 7, nature: 4.9, cost: 7.5, nightlife: 5.8 },
+        avgRentT2: 550, tags: ["résidentiel","espace naturel"],
+        summary: "Quartier résidentiel au contact de l'espace naturel du Colbras." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {
