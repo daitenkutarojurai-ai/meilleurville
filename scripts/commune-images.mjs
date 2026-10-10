@@ -164,9 +164,14 @@ async function stepWikidata(communes) {
 
 /* ── 3. commons ─────────────────────────────────────────────────────────── */
 
+// Commons returns Artist as HTML: entities must be decoded once the tags are
+// stripped, or "Neuf &amp; 9" is shown as-is and author links carry "&amp;".
+const decodeEntities = (s) =>
+  s?.replace(/&(amp|lt|gt|quot|#39|#039|apos);/g, (_, e) =>
+    ({ amp: "&", lt: "<", gt: ">", quot: '"', "#39": "'", "#039": "'", apos: "'" })[e]);
 const stripHtml = (s) =>
-  s?.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim() || null;
-const firstHref = (s) => s?.match(/href="([^"]+)"/)?.[1]?.replace(/^\/\//, "https://") ?? null;
+  decodeEntities(s?.replace(/<[^>]+>/g, ""))?.replace(/\s+/g, " ").trim() || null;
+const firstHref = (s) => decodeEntities(s?.match(/href="([^"]+)"/)?.[1])?.replace(/^\/\//, "https://") ?? null;
 
 async function loadCommons() {
   const map = new Map();

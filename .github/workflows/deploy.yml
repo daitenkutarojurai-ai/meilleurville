@@ -50,6 +50,20 @@ jobs:
             exit 1
           fi
 
+      # Un secret posé depuis PowerShell (`... | gh secret set`) arrive préfixé
+      # d'un BOM U+FEFF : wrangler le refuse dans l'en-tête Authorization, et
+      # c'est ce qui a fait échouer la première publication (09/10). On retire
+      # BOM, retours chariot et espaces des deux secrets avant tout usage.
+      - name: Sanitize Cloudflare secrets
+        run: |
+          clean() { printf '%s' "$1" | sed 's/^\xEF\xBB\xBF//' | tr -d '\r\n\t '; }
+          tok="$(clean "$CLOUDFLARE_API_TOKEN")"
+          acc="$(clean "$CLOUDFLARE_ACCOUNT_ID")"
+          echo "::add-mask::$tok"
+          echo "CLOUDFLARE_API_TOKEN=$tok" >> "$GITHUB_ENV"
+          [ -n "$acc" ] && echo "CLOUDFLARE_ACCOUNT_ID=$acc" >> "$GITHUB_ENV"
+          [ "$tok" = "$CLOUDFLARE_API_TOKEN" ] || echo "::warning::CLOUDFLARE_API_TOKEN nettoyé (BOM/espaces) — reposer le secret proprement"
+
       - uses: actions/checkout@v4
         with:
           ref: main

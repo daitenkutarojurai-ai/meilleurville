@@ -125,6 +125,7 @@ export default async function GuidePage({ params }: Props) {
       "@type": "Organization",
       name: "MaVilleIdéale",
       url: baseUrl,
+      logo: { "@type": "ImageObject", url: `${baseUrl}/icon-512.png`, width: 512, height: 512 },
     },
     breadcrumb: {
       "@type": "BreadcrumbList",

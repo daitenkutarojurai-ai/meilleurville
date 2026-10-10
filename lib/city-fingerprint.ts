@@ -100,6 +100,8 @@ const CENTER = SIZE / 2;
 const BASE_RADIUS = 56;
 const SCORE_SPAN = 116;
 
+const r2 = (n: number) => Math.round(n * 100) / 100;
+
 export function buildFingerprint(input: { slug: string; scores: ScoreAxes }): FingerprintGeometry {
   const rng = mulberry32(hashSlug(input.slug));
   const rotation = Math.floor(rng() * 360);
@@ -114,8 +116,9 @@ export function buildFingerprint(input: { slug: string; scores: ScoreAxes }): Fi
     const tipX = CENTER + Math.cos(angle) * length;
     const tipY = CENTER + Math.sin(angle) * length;
     const labelOffset = length + 18;
-    const labelX = CENTER + Math.cos(angle) * labelOffset;
-    const labelY = CENTER + Math.sin(angle) * labelOffset;
+    // Rounded for the same hydration reason as the orbital dots below.
+    const labelX = r2(CENTER + Math.cos(angle) * labelOffset);
+    const labelY = r2(CENTER + Math.sin(angle) * labelOffset);
     const cosA = Math.cos(angle);
     const textAnchor: Petal["textAnchor"] = cosA > 0.3 ? "start" : cosA < -0.3 ? "end" : "middle";
     return {
@@ -143,7 +146,6 @@ export function buildFingerprint(input: { slug: string; scores: ScoreAxes }): Fi
     // the browser disagree on the last digits of Math.sin/cos, so unrounded
     // coordinates logged a hydration mismatch on every city page (audit
     // 2026-10-09) — and 17-digit floats were dead weight in the HTML.
-    const r2 = (n: number) => Math.round(n * 100) / 100;
     return {
       x: r2(CENTER + Math.cos(angle) * radius),
       y: r2(CENTER + Math.sin(angle) * radius),

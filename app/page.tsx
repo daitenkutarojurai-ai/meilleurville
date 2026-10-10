@@ -136,9 +136,11 @@ export default function HomePage() {
                 <Link
                   key={`${slugA}-${slugB}`}
                   href={`/comparer/${slugA}-vs-${slugB}`}
-                  className="group flex min-w-0 items-center justify-between rounded-xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
+                  className="group flex min-w-0 flex-col gap-1.5 rounded-xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
                 >
-                  <div className="flex items-center gap-3 min-w-0">
+                  {/* Verdict on its own line: sharing one row with both names
+                      truncated "Nice" to "N…" and "Montpellier" to "Montpell…". */}
+                  <div className="flex items-center gap-2.5 min-w-0">
                     <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                       {a.name}
                     </span>
@@ -149,7 +151,7 @@ export default function HomePage() {
                     </span>
                     <span className={`text-xs font-mono font-bold shrink-0 ${scoreColor(b.scores.global)}`}>{b.scores.global.toFixed(1)}</span>
                   </div>
-                  <span className="text-xs text-[var(--accent)] font-medium shrink-0 ml-2">
+                  <span className="text-xs text-[var(--accent)] font-medium">
                     {winner.name} gagne →
                   </span>
                 </Link>

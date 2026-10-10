@@ -119,11 +119,11 @@ const SIGNAL_LINE =
 const BRAND_DISPLAY =
   DEFAULT_LOCALE === "en" ? (
     <>
-      Best<span className="text-[var(--accent)]">CitiesInFrance</span>
+      Best<span className="text-[#4ADE80]">CitiesInFrance</span>
     </>
   ) : (
     <>
-      MaVille<span className="text-[var(--accent)]">Idéale</span>
+      MaVille<span className="text-[#4ADE80]">Idéale</span>
     </>
   );
 
@@ -151,7 +151,7 @@ export function Footer() {
         {/* Big wordmark */}
         <div className="mb-12 text-center">
           <div className="text-[20vw] sm:text-[14rem] font-display italic leading-none gradient-text-anim opacity-25 select-none pointer-events-none">
-            {DEFAULT_LOCALE === "en" ? "bestcitiesinfrance" : "meilleurville"}
+            {DEFAULT_LOCALE === "en" ? "bestcitiesinfrance" : "mavilleidéale"}
           </div>
         </div>
 

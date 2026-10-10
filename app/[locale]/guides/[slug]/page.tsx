@@ -67,7 +67,9 @@ export default async function EnGuidePage({ params }: Props) {
       "@type": "Organization",
       name: "BestCitiesInFrance",
       url: EN_BASE,
-      logo: { "@type": "ImageObject", url: `${EN_BASE}/icon.png` },
+      // /icon.png never existed (404 on both domains), so Google had no
+      // publisher logo for any EN guide. Same file as the root Organization.
+      logo: { "@type": "ImageObject", url: `${EN_BASE}/icon-512.png`, width: 512, height: 512 },
     },
   };
   const breadcrumbJsonLd = {

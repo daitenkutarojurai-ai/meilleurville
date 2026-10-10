@@ -147,8 +147,8 @@ export function OwnerScoresCard({
         </h2>
         <p className="text-xs text-[var(--text-tertiary)]">
           {t(
-            "10 scores 0–10 sur des dimensions concrètes (canicule, solitude, bruit, sécurité nocturne, mobilité sans voiture, qualité d'air, etc.). Cliquez sur un score pour voir la source exacte. v0 = dérivé du seed actuel ; les feeds réels (Météo-France, Insee, Bruitparif, SSMSI, ATMO, SIRENE) seront branchés itération par itération.",
-            "10 scores from 0 to 10 on concrete dimensions (heatwaves, isolation, noise, safety at night, car-free mobility, air quality, etc.). Click a score to see its exact source. v0 = derived from the current dataset; real feeds (Météo-France, Insee, Bruitparif, SSMSI, ATMO, SIRENE) will be wired in iteration by iteration.",
+            "10 scores 0–10 sur des dimensions concrètes (canicule, solitude, bruit, sécurité nocturne, mobilité sans voiture, qualité d'air, etc.). Cliquez sur un score pour voir sa source. Ce sont pour l'instant des estimations tirées de nos données ; les mesures officielles (Météo-France, Insee, Bruitparif, SSMSI, ATMO, SIRENE) les remplaceront au fil des mises à jour.",
+            "10 scores from 0 to 10 on concrete dimensions (heatwaves, isolation, noise, safety at night, car-free mobility, air quality, etc.). Click a score to see its source. For now these are estimates drawn from our dataset; official measurements (Météo-France, Insee, Bruitparif, SSMSI, ATMO, SIRENE) will replace them as updates land.",
           )}
         </p>
       </div>

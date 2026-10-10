@@ -110,12 +110,14 @@ export function QuizTeaser({ citiesCount, locale = "fr" }: { citiesCount: number
                 {/* Steps */}
                 <div className="mt-10 grid grid-cols-3 gap-2 sm:gap-3">
                   {steps.map(({ icon: Icon, label }, i) => (
-                    <div key={label} className="flex items-center gap-2 rounded-xl glass px-3 py-2">
+                    <div key={label} className="flex flex-col items-start gap-1.5 rounded-xl glass px-3 py-2 sm:flex-row sm:items-center sm:gap-2">
                       <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-lg bg-[var(--accent)]/15">
                         <Icon className="h-3.5 w-3.5 text-[var(--accent)]" />
                       </div>
                       <div className="min-w-0">
-                        <div className="text-[11px] font-bold text-[var(--text-primary)] truncate">{label}</div>
+                        {/* Stacked under the icon on phones: three columns at 390px
+                            left ~40px per label, so "Match en 3s" truncated to "Ma…". */}
+                        <div className="text-[11px] font-bold leading-tight text-[var(--text-primary)] sm:truncate">{label}</div>
                         <div className="text-[9px] text-[var(--text-tertiary)] font-mono-data">{L("étape", "step")} {i + 1}</div>
                       </div>
                     </div>
