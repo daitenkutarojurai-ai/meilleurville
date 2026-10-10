@@ -115,6 +115,7 @@ OWNED=(
   data/city-images.json
   data/city-cards.json
   data/political-lean.json
+  data/city-air.json
   public/photos/villes
 )
 
@@ -370,6 +371,10 @@ needs photos          && run_stage "extension — photos (Wikidata/Commons)" 360
 # Présidentielle 2022, 1er tour (Ministère de l'Intérieur) : n'ajoute que les villes
 # absentes du fichier, les entrées existantes ne bougent pas.
 needs political-lean  && run_stage "extension — orientation politique (présidentielle 2022)" 1800 npm run political-lean
+# Qualité de l'air mesurée (F63) : une ville sans station proche est absente de
+# `cities`, donc on compare le seed à `meta.evaluated` plutôt qu'aux clés.
+air_needs() { node -e 'const fs=require("fs");const e=new Set(JSON.parse(fs.readFileSync("data/city-air.json","utf8")).meta.evaluated);const s=[...fs.readFileSync("data/cities-seed.ts","utf8").matchAll(/^    slug: "([^"]+)"/gm)].map(m=>m[1]);const p=JSON.parse(fs.readFileSync("data/city-air.json","utf8")).meta.pollutants||[];process.exit(s.some(x=>!e.has(x))||p.length<4?0:1)'; }
+air_needs             && run_stage "extension — qualité de l'air mesurée (AEE/LCSQA)" 7200 npm run air-quality
 
 # GBIF: ~45 s a city, so 60 cities is about 45 min. 540 cities = 9 nights.
 # Now that the 540 are covered this stage prints "nothing to do" and returns in

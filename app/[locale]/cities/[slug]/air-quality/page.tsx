@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
+import { AirMeasuredCard } from "@/components/AirMeasuredCard";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -99,7 +100,10 @@ export default async function EnCityAir({ params }: Props) {
           10 = cleanest air. Modelled at commune level from population, urban
           status, terrain and regional pollen basins — calibrated against ATMO
           France, Citepa and RNSA published patterns, not measured at a station.
+          Where a background station sits within 25 km, its measured annual
+          averages are shown below.
         </p>
+        <AirMeasuredCard slug={slug} cityName={c.name} locale="en" />
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">

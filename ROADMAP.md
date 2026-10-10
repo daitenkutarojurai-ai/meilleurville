@@ -4791,6 +4791,20 @@ Search Console : ils décideront de l'ordre des villes, pas la population.
   nationale des stations à jour (seulement des listes régionales, ex. Atmo BFC via Dijon métropole).
   Piste suivante : le flux de rapportage « D » (stations) de la France sur le CDR Eionet
   (`cdr.eionet.europa.eu/fr/eu/aqd/d/`), ou Geod'Air.
+- ✅ **Bloqueur levé le même jour : le flux « D » du CDR Eionet porte tout** (dernière enveloppe
+  `envap6n9g`, `FR_2025_D_07092026_1.xml`, 41 Mo : 880 stations avec `gml:pos`, `areaClassification`,
+  5 890 points de prélèvement avec `ef:broader` → station et `stationClassification`). Phase 1 livrée :
+  `scripts/city-air-quality.mjs` (`npm run air-quality`) → `data/city-air.json` → `lib/city-air.ts` →
+  `components/AirMeasuredCard.tsx`, monté sur `/villes/[slug]/air` et EN `/cities/[slug]/air-quality`.
+  Règle : station **de fond** la plus proche à ≤ 25 km, ≥ 75 % de l'année valide, moyenne annuelle 2025
+  (NO₂, PM2.5, PM10) et jours > 120 µg/m³ sur 8 h (ozone). Une ville sans station l'écrit, jamais le
+  chiffre d'une station lointaine. **Premier passage local : NO₂ seul, 447 villes sur 580** (médiane
+  13,5 µg/m³, Paris Les Halles 18,2, Rennes Thabor 8,3 ; distance médiane 3,4 km) — le passage a été
+  arrêté faute de mémoire sur la machine du propriétaire (8 Go). `meta.pollutants` dit ce qui a été
+  traité et la carte n'affiche que ça ; `meta.evaluated` liste les villes vues. Le data-runner GitHub
+  Actions relance le script tant qu'un polluant manque ou qu'une ville du seed n'a pas été évaluée.
+  ⚠️ Le nom du polluant se passe en **notation** (`PM2.5`), pas en code (`6001`) : un code rend une
+  liste vide, et le script refuse désormais d'écrire si une liste est vide.
 
 ### F64 — Actualité locale par ville
 

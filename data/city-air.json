@@ -1,0 +1,5075 @@
+{
+ "meta": {
+  "year": 2025,
+  "metric": {
+   "no2": "annual mean µg/m³",
+   "pm10": "annual mean µg/m³",
+   "pm25": "annual mean µg/m³",
+   "o3": "days with max daily 8-h mean > 120 µg/m³"
+  },
+  "stationRule": "nearest background station within 25 km, ≥ 75 % valid data",
+  "sources": [
+   "https://cdr.eionet.europa.eu/fr/eu/aqd/d/envap6n9g/FR_2025_D_07092026_1.xml",
+   "https://eeadmz1-downloads-api-appservice.azurewebsites.net/ParquetFile/urls"
+  ],
+  "licence": "EEA re-use policy (CC BY 4.0); measurements by the AASQA, compiled by LCSQA (Licence Ouverte)",
+  "generatedAt": "2026-10-10",
+  "evaluated": [
+   "annecy",
+   "nantes",
+   "rennes",
+   "bordeaux",
+   "montpellier",
+   "strasbourg",
+   "toulouse",
+   "grenoble",
+   "nice",
+   "lyon",
+   "brest",
+   "aix-en-provence",
+   "clermont-ferrand",
+   "dijon",
+   "tours",
+   "reims",
+   "metz",
+   "le-mans",
+   "poitiers",
+   "limoges",
+   "caen",
+   "pau",
+   "biarritz",
+   "la-rochelle",
+   "rochefort",
+   "marseille",
+   "perpignan",
+   "rouen",
+   "toulon",
+   "amiens",
+   "besancon",
+   "angers",
+   "le-havre",
+   "saint-etienne",
+   "orleans",
+   "lille",
+   "quimper",
+   "valence",
+   "bayonne",
+   "montauban",
+   "troyes",
+   "angouleme",
+   "lorient",
+   "arles",
+   "colmar",
+   "saint-malo",
+   "avignon",
+   "chambery",
+   "frejus",
+   "libourne",
+   "nimes",
+   "gap",
+   "vannes",
+   "cherbourg",
+   "tarbes",
+   "nancy",
+   "montlucon",
+   "charleville-mezieres",
+   "boulogne-sur-mer",
+   "niort",
+   "albi",
+   "ajaccio",
+   "mulhouse",
+   "dunkerque",
+   "cannes",
+   "perigueux",
+   "ales",
+   "chartres",
+   "blois",
+   "beziers",
+   "laval",
+   "sete",
+   "rodez",
+   "cahors",
+   "agen",
+   "macon",
+   "chalon-sur-saone",
+   "bourg-en-bresse",
+   "evreux",
+   "antibes",
+   "thionville",
+   "arras",
+   "carcassonne",
+   "bayeux",
+   "saint-brieuc",
+   "saint-nazaire",
+   "clermont-herault",
+   "chalons-en-champagne",
+   "auxerre",
+   "belfort",
+   "vichy",
+   "alencon",
+   "millau",
+   "cognac",
+   "epinal",
+   "montelimar",
+   "figeac",
+   "romans-sur-isere",
+   "cholet",
+   "draguignan",
+   "saintes",
+   "aix-les-bains",
+   "bergerac",
+   "arcachon",
+   "thonon-les-bains",
+   "salon-de-provence",
+   "martigues",
+   "calais",
+   "lens",
+   "valenciennes",
+   "castres",
+   "hyeres",
+   "haguenau",
+   "roanne",
+   "douai",
+   "cambrai",
+   "montbeliard",
+   "aurillac",
+   "chatellerault",
+   "annemasse",
+   "compiegne",
+   "beauvais",
+   "narbonne",
+   "saint-quentin",
+   "selestat",
+   "bourges",
+   "chateauroux",
+   "brive-la-gaillarde",
+   "auch",
+   "dole",
+   "lannion",
+   "paris",
+   "versailles",
+   "boulogne-billancourt",
+   "montreuil",
+   "vincennes",
+   "cergy",
+   "saint-denis",
+   "levallois-perret",
+   "issy-les-moulineaux",
+   "neuilly-sur-seine",
+   "fontainebleau",
+   "saint-germain-en-laye",
+   "bastia",
+   "pantin",
+   "ivry-sur-seine",
+   "creteil",
+   "rueil-malmaison",
+   "colombes",
+   "argenteuil",
+   "nanterre",
+   "vitry-sur-seine",
+   "courbevoie",
+   "noisy-le-grand",
+   "evry-courcouronnes",
+   "menton",
+   "la-roche-sur-yon",
+   "les-sables-d-olonne",
+   "dax",
+   "mont-de-marsan",
+   "le-puy-en-velay",
+   "villeurbanne",
+   "manosque",
+   "nevers",
+   "verdun",
+   "aubenas",
+   "pamiers",
+   "saumur",
+   "briancon",
+   "epernay",
+   "la-ciotat",
+   "saint-raphael",
+   "anglet",
+   "honfleur",
+   "cassis",
+   "foix",
+   "royan",
+   "grasse",
+   "concarneau",
+   "saint-jean-de-luz",
+   "sanary-sur-mer",
+   "dinan",
+   "hendaye",
+   "vitre",
+   "la-baule",
+   "mende",
+   "amboise",
+   "orange",
+   "vienne",
+   "granville",
+   "dinard",
+   "collioure",
+   "senlis",
+   "morlaix",
+   "provins",
+   "gex",
+   "saint-tropez",
+   "hossegor",
+   "obernai",
+   "cagnes-sur-mer",
+   "noirmoutier",
+   "carnac",
+   "ile-de-re",
+   "quiberon",
+   "pezenas",
+   "agde",
+   "douarnenez",
+   "biscarrosse",
+   "saint-remy-de-provence",
+   "gordes",
+   "sisteron",
+   "saint-paul-de-vence",
+   "valbonne",
+   "ceret",
+   "carpentras",
+   "apt",
+   "aubagne",
+   "sainte-maxime",
+   "digne-les-bains",
+   "vaison-la-romaine",
+   "albertville",
+   "evian-les-bains",
+   "issoire",
+   "moulins",
+   "tulle",
+   "pontarlier",
+   "challans",
+   "fontenay-le-comte",
+   "vendome",
+   "vierzon",
+   "montargis",
+   "gien",
+   "lourdes",
+   "sarlat-la-caneda",
+   "marmande",
+   "limoux",
+   "gueret",
+   "saint-gaudens",
+   "dieppe",
+   "saint-lo",
+   "parthenay",
+   "beaune",
+   "autun",
+   "saverne",
+   "laon",
+   "vesoul",
+   "chaumont",
+   "chinon",
+   "saint-die-des-vosges",
+   "villefranche-de-rouergue",
+   "riom",
+   "thiers",
+   "oyonnax",
+   "cluses",
+   "rumilly",
+   "annonay",
+   "lons-le-saunier",
+   "saint-flour",
+   "bar-le-duc",
+   "aubusson",
+   "langres",
+   "guingamp",
+   "flers",
+   "la-fleche",
+   "cosne-cours-sur-loire",
+   "sens",
+   "condom",
+   "moissac",
+   "brioude",
+   "issoudun",
+   "abbeville",
+   "les-andelys",
+   "dreux",
+   "florac-trois-rivieres",
+   "sedan",
+   "bar-sur-aube",
+   "gray",
+   "saint-yrieix-la-perche",
+   "mayenne",
+   "pont-a-mousson",
+   "etampes",
+   "soissons",
+   "villefranche-sur-saone",
+   "montbard",
+   "paray-le-monial",
+   "semur-en-auxois",
+   "villeneuve-sur-lot",
+   "gourdon",
+   "castelsarrasin",
+   "sarrebourg",
+   "longwy",
+   "saint-amand-montrond",
+   "bressuire",
+   "ussel",
+   "montbrison",
+   "pontoise",
+   "romorantin-lanthenay",
+   "joigny",
+   "privas",
+   "bagnols-sur-ceze",
+   "muret",
+   "meaux",
+   "bourgoin-jallieu",
+   "gaillac",
+   "romilly-sur-seine",
+   "saint-dizier",
+   "chateaudun",
+   "venissieux",
+   "chateau-gontier-sur-mayenne",
+   "rambouillet",
+   "massy",
+   "argentan",
+   "gerardmer",
+   "guebwiller",
+   "saint-claude",
+   "sable-sur-sarthe",
+   "louviers",
+   "bagneres-de-bigorre",
+   "lure",
+   "peronne",
+   "le-blanc",
+   "montmorillon",
+   "monistrol-sur-loire",
+   "embrun",
+   "saint-girons",
+   "rethel",
+   "commercy",
+   "la-souterraine",
+   "fleurance",
+   "bellac",
+   "saint-chely-d-apcher",
+   "clamecy",
+   "porto-vecchio",
+   "corte",
+   "sartene",
+   "calvi",
+   "jarnac",
+   "mauriac",
+   "delle",
+   "riberac",
+   "saint-denis-reunion",
+   "saint-paul-reunion",
+   "saint-pierre-reunion",
+   "le-tampon",
+   "fort-de-france",
+   "le-lamentin",
+   "les-abymes",
+   "pointe-a-pitre",
+   "baie-mahault",
+   "cayenne",
+   "saint-laurent-du-maroni",
+   "mamoudzou",
+   "cormeilles-en-parisis",
+   "sarcelles",
+   "ermont",
+   "franconville",
+   "sannois",
+   "bezons",
+   "garges-les-gonesse",
+   "gonesse",
+   "villiers-le-bel",
+   "pierrefitte-sur-seine",
+   "aulnay-sous-bois",
+   "drancy",
+   "bondy",
+   "saint-ouen-sur-seine",
+   "aubervilliers",
+   "stains",
+   "sevran",
+   "la-courneuve",
+   "bagnolet",
+   "asnieres-sur-seine",
+   "antony",
+   "suresnes",
+   "saint-cloud",
+   "champigny-sur-marne",
+   "saint-maur-des-fosses",
+   "maisons-alfort",
+   "fontenay-sous-bois",
+   "clichy",
+   "poissy",
+   "mantes-la-jolie",
+   "trappes",
+   "sartrouville",
+   "cernay",
+   "roubaix",
+   "tourcoing",
+   "wattrelos",
+   "vitrolles",
+   "marignane",
+   "istres",
+   "la-seyne-sur-mer",
+   "six-fours-les-plages",
+   "le-cannet",
+   "mandelieu-la-napoule",
+   "vaulx-en-velin",
+   "bron",
+   "saint-priest",
+   "caluire-et-cuire",
+   "decines-charpieu",
+   "meyzieu",
+   "merignac",
+   "pessac",
+   "talence",
+   "begles",
+   "le-bouscat",
+   "villenave-d-ornon",
+   "bethune",
+   "lievin",
+   "bruay-la-buissiere",
+   "colomiers",
+   "tournefeuille",
+   "blagnac",
+   "cugnaux",
+   "saint-herblain",
+   "reze",
+   "orvault",
+   "vertou",
+   "schiltigheim",
+   "illkirch-graffenstaden",
+   "lingolsheim",
+   "bischheim",
+   "joue-les-tours",
+   "saint-martin-d-heres",
+   "echirolles",
+   "fontaine",
+   "voiron",
+   "vandoeuvre-les-nancy",
+   "laxou",
+   "saint-chamond",
+   "firminy",
+   "chenove",
+   "saint-louis-haut-rhin",
+   "wittenheim",
+   "puteaux",
+   "gennevilliers",
+   "villeneuve-la-garenne",
+   "alfortville",
+   "le-perreux-sur-marne",
+   "nogent-sur-marne",
+   "choisy-le-roi",
+   "rosny-sous-bois",
+   "neuilly-sur-marne",
+   "le-blanc-mesnil",
+   "tremblay-en-france",
+   "noisy-le-sec",
+   "plaisir",
+   "houilles",
+   "conflans-sainte-honorine",
+   "montigny-le-bretonneux",
+   "guyancourt",
+   "forbach",
+   "sarreguemines",
+   "saint-avold",
+   "lanester",
+   "herouville-saint-clair",
+   "olivet",
+   "fleury-les-aubrais",
+   "creil",
+   "cavaillon",
+   "pertuis",
+   "allauch",
+   "trelaze",
+   "corbeil-essonnes",
+   "savigny-sur-orge",
+   "athis-mons",
+   "yerres",
+   "brunoy",
+   "sainte-genevieve-des-bois",
+   "palaiseau",
+   "draveil",
+   "viry-chatillon",
+   "le-plessis-robinson",
+   "sevres",
+   "chelles",
+   "melun",
+   "pontault-combault",
+   "savigny-le-temple",
+   "torcy",
+   "combs-la-ville",
+   "champs-sur-marne",
+   "noisiel",
+   "saint-andre-reunion",
+   "saint-louis-reunion-974",
+   "saint-joseph-reunion",
+   "saint-benoit-reunion",
+   "le-robert",
+   "le-francois",
+   "saint-medard-en-jalles",
+   "tassin-la-demi-lune",
+   "saint-mande",
+   "charenton-le-pont",
+   "sceaux",
+   "bourg-la-reine",
+   "chatillon-92",
+   "malakoff",
+   "bagneux",
+   "chatenay-malabry",
+   "fresnes",
+   "cachan",
+   "arcueil",
+   "gentilly",
+   "le-kremlin-bicetre",
+   "bois-colombes",
+   "la-garenne-colombes",
+   "eaubonne",
+   "goussainville",
+   "saint-leu-la-foret",
+   "soisy-sous-montmorency",
+   "montmorency",
+   "domont",
+   "velizy-villacoublay",
+   "le-chesnay-rocquencourt",
+   "elancourt",
+   "maurepas",
+   "saint-omer",
+   "hazebrouck",
+   "armentieres",
+   "maubeuge",
+   "denain",
+   "henin-beaumont",
+   "berck",
+   "montigny-les-metz",
+   "hayange",
+   "riedisheim",
+   "kingersheim",
+   "saint-genis-laval",
+   "givors",
+   "rillieux-la-pape",
+   "sainte-foy-les-lyon",
+   "oullins-pierre-benite",
+   "sallanches",
+   "amberieu-en-bugey",
+   "vernon",
+   "sotteville-les-rouen",
+   "le-grand-quevilly",
+   "mont-saint-aignan",
+   "chantilly",
+   "crepy-en-valois",
+   "meru",
+   "villejuif",
+   "clamart",
+   "bobigny",
+   "epinay-sur-seine",
+   "montrouge",
+   "meudon",
+   "vanves",
+   "l-hay-les-roses",
+   "thiais",
+   "livry-gargan",
+   "villepinte",
+   "gagny",
+   "clichy-sous-bois",
+   "romainville",
+   "villemomble",
+   "ris-orangis",
+   "fontenay-aux-roses",
+   "chaville",
+   "joinville-le-pont",
+   "les-pavillons-sous-bois",
+   "neuilly-plaisance",
+   "orly",
+   "saint-gratien",
+   "vigneux-sur-seine",
+   "herblay-sur-seine",
+   "taverny",
+   "maisons-laffitte",
+   "gradignan",
+   "eysines",
+   "montgeron",
+   "longjumeau",
+   "acheres",
+   "bretigny-sur-orge",
+   "saint-michel-sur-orge",
+   "lagny-sur-marne",
+   "bussy-saint-georges",
+   "saint-cyr-l-ecole",
+   "roissy-en-brie",
+   "coueron",
+   "halluin"
+  ],
+  "pollutants": [
+   "no2"
+  ]
+ },
+ "cities": {
+  "annecy": {
+   "no2": {
+    "value": 15.4,
+    "station": "LOVERCHY",
+    "stationCode": "FR33201",
+    "area": "urban",
+    "distanceKm": 1,
+    "coverage": 0.98
+   }
+  },
+  "nantes": {
+   "no2": {
+    "value": 8.5,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 1.3,
+    "coverage": 0.99
+   }
+  },
+  "rennes": {
+   "no2": {
+    "value": 8.3,
+    "station": "Rennes Thabor",
+    "stationCode": "FR19039",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 0.99
+   }
+  },
+  "bordeaux": {
+   "no2": {
+    "value": 10,
+    "station": "GRAND PARC",
+    "stationCode": "FR31001",
+    "area": "urban",
+    "distanceKm": 2.6,
+    "coverage": 0.95
+   }
+  },
+  "montpellier": {
+   "no2": {
+    "value": 13,
+    "station": "Montpellier Chaptal",
+    "stationCode": "FR08003",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.85
+   }
+  },
+  "strasbourg": {
+   "no2": {
+    "value": 19.9,
+    "station": "Strasbourg Neudorf Ecoquartier Danube",
+    "stationCode": "FR42010",
+    "area": "urban",
+    "distanceKm": 1.2,
+    "coverage": 0.98
+   }
+  },
+  "toulouse": {
+   "no2": {
+    "value": 11.7,
+    "station": "Toulouse Berthelot",
+    "stationCode": "FR12030",
+    "area": "urban",
+    "distanceKm": 1.9,
+    "coverage": 0.98
+   }
+  },
+  "grenoble": {
+   "no2": {
+    "value": 12.2,
+    "station": "Grenoble Les Frenes",
+    "stationCode": "FR15043",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 0.95
+   }
+  },
+  "nice": {
+   "no2": {
+    "value": 20,
+    "station": "NICE ARSON",
+    "stationCode": "FR24036",
+    "area": "urban",
+    "distanceKm": 2.1,
+    "coverage": 0.99
+   }
+  },
+  "lyon": {
+   "no2": {
+    "value": 16.3,
+    "station": "LYON Centre",
+    "stationCode": "FR20062",
+    "area": "urban",
+    "distanceKm": 1.2,
+    "coverage": 0.95
+   }
+  },
+  "brest": {
+   "no2": {
+    "value": 9.9,
+    "station": "Brest Mace",
+    "stationCode": "FR19012",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.95
+   }
+  },
+  "aix-en-provence": {
+   "no2": {
+    "value": 13.5,
+    "station": "AIX CENTRE ECOLE ART",
+    "stationCode": "FR03029",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 1
+   }
+  },
+  "clermont-ferrand": {
+   "no2": {
+    "value": 14,
+    "station": "Montferrand",
+    "stationCode": "FR07004",
+    "area": "urban",
+    "distanceKm": 2.9,
+    "coverage": 0.99
+   }
+  },
+  "dijon": {
+   "no2": {
+    "value": 15.1,
+    "station": "Dijon Trémouille",
+    "stationCode": "FR26014",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 0.96
+   }
+  },
+  "tours": {
+   "no2": {
+    "value": 9.4,
+    "station": "La Bruyère",
+    "stationCode": "FR34025",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 0.99
+   }
+  },
+  "reims": {
+   "no2": {
+    "value": 9.8,
+    "station": "BETHENY",
+    "stationCode": "FR14010",
+    "area": "suburban",
+    "distanceKm": 2.5,
+    "coverage": 0.95
+   }
+  },
+  "metz": {
+   "no2": {
+    "value": 12.8,
+    "station": "Metz-Centre",
+    "stationCode": "FR01011",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 0.98
+   }
+  },
+  "le-mans": {
+   "no2": {
+    "value": 9.7,
+    "station": "GUEDOU",
+    "stationCode": "FR23174",
+    "area": "urban",
+    "distanceKm": 0.9,
+    "coverage": 1
+   }
+  },
+  "poitiers": {
+   "no2": {
+    "value": 11.8,
+    "station": "Poitiers Centre  Augouard",
+    "stationCode": "FR09404",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.99
+   }
+  },
+  "limoges": {
+   "no2": {
+    "value": 11.7,
+    "station": "LIMOGES - BERLAND",
+    "stationCode": "FR35027",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.98
+   }
+  },
+  "caen": {
+   "no2": {
+    "value": 10.5,
+    "station": "Caen Chemin-Vert",
+    "stationCode": "FR21001",
+    "area": "urban",
+    "distanceKm": 1.8,
+    "coverage": 0.99
+   }
+  },
+  "pau": {
+   "no2": {
+    "value": 9.7,
+    "station": "BILLERE",
+    "stationCode": "FR31013",
+    "area": "urban",
+    "distanceKm": 2.4,
+    "coverage": 0.84
+   }
+  },
+  "biarritz": {
+   "no2": {
+    "value": 7.3,
+    "station": "Biarritz-hippodrome",
+    "stationCode": "FR31043",
+    "area": "suburban",
+    "distanceKm": 1.5,
+    "coverage": 0.94
+   }
+  },
+  "la-rochelle": {
+   "no2": {
+    "value": 11.8,
+    "station": "place de VERDUN",
+    "stationCode": "FR09003",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 0.99
+   }
+  },
+  "rochefort": {
+   "no2": {
+    "value": 6.2,
+    "station": "Aytré",
+    "stationCode": "FR09008",
+    "area": "suburban",
+    "distanceKm": 25,
+    "coverage": 0.99
+   }
+  },
+  "marseille": {
+   "no2": {
+    "value": 18,
+    "station": "MARSEILLE 5 AVENUES",
+    "stationCode": "FR03043",
+    "area": "urban",
+    "distanceKm": 2.2,
+    "coverage": 0.98
+   }
+  },
+  "perpignan": {
+   "no2": {
+    "value": 13.1,
+    "station": "Perpignan Les Carmes",
+    "stationCode": "FR08714",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 1
+   }
+  },
+  "rouen": {
+   "no2": {
+    "value": 15.9,
+    "station": "Rouen Justice",
+    "stationCode": "FR25036",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.95
+   }
+  },
+  "toulon": {
+   "no2": {
+    "value": 14.5,
+    "station": "TOULON CLARET",
+    "stationCode": "FR03071",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.99
+   }
+  },
+  "amiens": {
+   "no2": {
+    "value": 12.2,
+    "station": "St Pierre Amiens",
+    "stationCode": "FR18053",
+    "area": "urban",
+    "distanceKm": 1.1,
+    "coverage": 0.98
+   }
+  },
+  "besancon": {
+   "no2": {
+    "value": 15.4,
+    "station": "Besançon Prévoyance",
+    "stationCode": "FR82006",
+    "area": "urban",
+    "distanceKm": 1.3,
+    "coverage": 0.76
+   }
+  },
+  "angers": {
+   "no2": {
+    "value": 9.5,
+    "station": "BEAUX ARTS",
+    "stationCode": "FR23120",
+    "area": "urban",
+    "distanceKm": 1.2,
+    "coverage": 1
+   }
+  },
+  "le-havre": {
+   "no2": {
+    "value": 12.4,
+    "station": "Le Havre Ec. Herriot",
+    "stationCode": "FR05074",
+    "area": "urban",
+    "distanceKm": 0.7,
+    "coverage": 0.97
+   }
+  },
+  "saint-etienne": {
+   "no2": {
+    "value": 12.7,
+    "station": "SAINT ETIENNE SUD",
+    "stationCode": "FR29424",
+    "area": "urban",
+    "distanceKm": 1.7,
+    "coverage": 0.98
+   }
+  },
+  "orleans": {
+   "no2": {
+    "value": 10.5,
+    "station": "St Jean de la Ruelle",
+    "stationCode": "FR34067",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 0.99
+   }
+  },
+  "lille": {
+   "no2": {
+    "value": 10.6,
+    "station": "Wattignies",
+    "stationCode": "FR11114",
+    "area": "suburban",
+    "distanceKm": 3.5,
+    "coverage": 0.97
+   }
+  },
+  "quimper": {
+   "no2": {
+    "value": 6.8,
+    "station": "Quimper Zola",
+    "stationCode": "FR19053",
+    "area": "urban",
+    "distanceKm": 1.1,
+    "coverage": 0.99
+   }
+  },
+  "valence": {
+   "no2": {
+    "value": 12.5,
+    "station": "Valence Urb. Centre",
+    "stationCode": "FR36002",
+    "area": "urban",
+    "distanceKm": 0.1,
+    "coverage": 0.99
+   }
+  },
+  "bayonne": {
+   "no2": {
+    "value": 9.8,
+    "station": "SAINT-CROUTS",
+    "stationCode": "FR31016",
+    "area": "urban",
+    "distanceKm": 1.9,
+    "coverage": 0.96
+   }
+  },
+  "montauban": {
+   "no2": {
+    "value": 11.6,
+    "station": "Montauban - Ramierou",
+    "stationCode": "FR50060",
+    "area": "urban",
+    "distanceKm": 1.9,
+    "coverage": 0.99
+   }
+  },
+  "troyes": {
+   "no2": {
+    "value": 11.7,
+    "station": "Troyes La Tour",
+    "stationCode": "FR14031",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.85
+   }
+  },
+  "angouleme": {
+   "no2": {
+    "value": 10.4,
+    "station": "Square Pablo Casals",
+    "stationCode": "FR09103",
+    "area": "urban",
+    "distanceKm": 0.9,
+    "coverage": 0.99
+   }
+  },
+  "lorient": {
+   "no2": {
+    "value": 7.6,
+    "station": "Lorient B. Bissonnet",
+    "stationCode": "FR19032",
+    "area": "urban",
+    "distanceKm": 2.2,
+    "coverage": 0.99
+   }
+  },
+  "arles": {
+   "no2": {
+    "value": 13.1,
+    "station": "Arles",
+    "stationCode": "FR02022",
+    "area": "urban",
+    "distanceKm": 0.2,
+    "coverage": 0.99
+   }
+  },
+  "saint-malo": {
+   "no2": {
+    "value": 7.5,
+    "station": "StMalo Rocabey",
+    "stationCode": "FR19082",
+    "area": "suburban",
+    "distanceKm": 1.8,
+    "coverage": 0.98
+   }
+  },
+  "avignon": {
+   "no2": {
+    "value": 11.8,
+    "station": "AVIGNON   MAIRIE",
+    "stationCode": "FR03080",
+    "area": "urban",
+    "distanceKm": 0.1,
+    "coverage": 1
+   }
+  },
+  "chambery": {
+   "no2": {
+    "value": 13.3,
+    "station": "PASTEUR",
+    "stationCode": "FR33101",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.97
+   }
+  },
+  "frejus": {
+   "no2": {
+    "value": 7.2,
+    "station": "ESTEREL",
+    "stationCode": "FR03070",
+    "area": "suburban",
+    "distanceKm": 2.6,
+    "coverage": 0.99
+   }
+  },
+  "libourne": {
+   "no2": {
+    "value": 9.8,
+    "station": "BASSENS",
+    "stationCode": "FR31007",
+    "area": "urban",
+    "distanceKm": 21.5,
+    "coverage": 0.99
+   }
+  },
+  "nimes": {
+   "no2": {
+    "value": 10.5,
+    "station": "Nimes Gauzy",
+    "stationCode": "FR08614",
+    "area": "urban",
+    "distanceKm": 1.2,
+    "coverage": 0.99
+   }
+  },
+  "gap": {
+   "no2": {
+    "value": 14.5,
+    "station": "GAP COMMANDERIE",
+    "stationCode": "FR24033",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.98
+   }
+  },
+  "vannes": {
+   "no2": {
+    "value": 7.2,
+    "station": "Vannes UTA",
+    "stationCode": "FR19033",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.96
+   }
+  },
+  "cherbourg": {
+   "no2": {
+    "value": 11.4,
+    "station": "Cherbourg Hotel de Ville",
+    "stationCode": "FR21038",
+    "area": "urban",
+    "distanceKm": 1.1,
+    "coverage": 0.97
+   }
+  },
+  "tarbes": {
+   "no2": {
+    "value": 11.6,
+    "station": "Tarbes lycée Dupuy",
+    "stationCode": "FR12052",
+    "area": "urban",
+    "distanceKm": 1.3,
+    "coverage": 0.99
+   }
+  },
+  "nancy": {
+   "no2": {
+    "value": 13.2,
+    "station": "Nancy-Charles III",
+    "stationCode": "FR30034",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.98
+   }
+  },
+  "montlucon": {
+   "no2": {
+    "value": 12.2,
+    "station": "Montluçon",
+    "stationCode": "FR07058",
+    "area": "urban",
+    "distanceKm": 0.7,
+    "coverage": 0.99
+   }
+  },
+  "charleville-mezieres": {
+   "no2": {
+    "value": 11.4,
+    "station": "CHARLEVILLE",
+    "stationCode": "FR14051",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 0.92
+   }
+  },
+  "niort": {
+   "no2": {
+    "value": 6.3,
+    "station": "Niort Venise",
+    "stationCode": "FR09303",
+    "area": "urban",
+    "distanceKm": 1.6,
+    "coverage": 0.99
+   }
+  },
+  "albi": {
+   "no2": {
+    "value": 9.8,
+    "station": "Albi Delmas",
+    "stationCode": "FR12026",
+    "area": "urban",
+    "distanceKm": 0.2,
+    "coverage": 1
+   }
+  },
+  "ajaccio": {
+   "no2": {
+    "value": 11.5,
+    "station": "AJACCIO CANETTO",
+    "stationCode": "FR41001",
+    "area": "urban",
+    "distanceKm": 0.7,
+    "coverage": 0.99
+   }
+  },
+  "mulhouse": {
+   "no2": {
+    "value": 11.7,
+    "station": "Mulhouse Sud 2",
+    "stationCode": "FR16066",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 0.98
+   }
+  },
+  "dunkerque": {
+   "no2": {
+    "value": 11.5,
+    "station": "St Pol mer - cheminots",
+    "stationCode": "FR10017",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 0.94
+   }
+  },
+  "cannes": {
+   "no2": {
+    "value": 13.5,
+    "station": "CANNES BROUSSAILLES",
+    "stationCode": "FR24009",
+    "area": "urban",
+    "distanceKm": 1.1,
+    "coverage": 0.99
+   }
+  },
+  "perigueux": {
+   "no2": {
+    "value": 7.6,
+    "station": "PERIGUEUX",
+    "stationCode": "FR31033",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.99
+   }
+  },
+  "blois": {
+   "no2": {
+    "value": 7,
+    "station": "Blois nord",
+    "stationCode": "FR34061",
+    "area": "urban",
+    "distanceKm": 2.6,
+    "coverage": 1
+   }
+  },
+  "beziers": {
+   "no2": {
+    "value": 7.4,
+    "station": "Agathois-piscénois",
+    "stationCode": "FR08022",
+    "area": "suburban",
+    "distanceKm": 24.3,
+    "coverage": 1
+   }
+  },
+  "laval": {
+   "no2": {
+    "value": 9,
+    "station": "MAZAGRAN",
+    "stationCode": "FR23123",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 1
+   }
+  },
+  "sete": {
+   "no2": {
+    "value": 7.4,
+    "station": "Agathois-piscénois",
+    "stationCode": "FR08022",
+    "area": "suburban",
+    "distanceKm": 20.2,
+    "coverage": 1
+   }
+  },
+  "rodez": {
+   "no2": {
+    "value": 9.5,
+    "station": "Rodez Camonil",
+    "stationCode": "FR12095",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 1
+   }
+  },
+  "macon": {
+   "no2": {
+    "value": 11.1,
+    "station": "Mâcon Paul Bert",
+    "stationCode": "FR32006",
+    "area": "suburban",
+    "distanceKm": 1.2,
+    "coverage": 0.99
+   }
+  },
+  "chalon-sur-saone": {
+   "no2": {
+    "value": 11.5,
+    "station": "Champforgueil",
+    "stationCode": "FR32002",
+    "area": "suburban",
+    "distanceKm": 4.7,
+    "coverage": 0.99
+   }
+  },
+  "bourg-en-bresse": {
+   "no2": {
+    "value": 9.9,
+    "station": "Bourg-en-Bresse",
+    "stationCode": "FR33305",
+    "area": "urban",
+    "distanceKm": 0.7,
+    "coverage": 0.93
+   }
+  },
+  "evreux": {
+   "no2": {
+    "value": 9.5,
+    "station": "Evreux Centre",
+    "stationCode": "FR25039",
+    "area": "urban",
+    "distanceKm": 0.3,
+    "coverage": 0.99
+   }
+  },
+  "antibes": {
+   "no2": {
+    "value": 18.5,
+    "station": "ANTIBES JEAN MOULIN",
+    "stationCode": "FR24007",
+    "area": "suburban",
+    "distanceKm": 3.3,
+    "coverage": 0.98
+   }
+  },
+  "thionville": {
+   "no2": {
+    "value": 14.8,
+    "station": "Thionville-Centre",
+    "stationCode": "FR01020",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.99
+   }
+  },
+  "arras": {
+   "no2": {
+    "value": 10.5,
+    "station": "St-Laurent-Blangy",
+    "stationCode": "FR28022",
+    "area": "suburban",
+    "distanceKm": 2.8,
+    "coverage": 0.96
+   }
+  },
+  "bayeux": {
+   "no2": {
+    "value": 10.5,
+    "station": "Caen Chemin-Vert",
+    "stationCode": "FR21001",
+    "area": "urban",
+    "distanceKm": 24.5,
+    "coverage": 0.99
+   }
+  },
+  "saint-nazaire": {
+   "no2": {
+    "value": 7.3,
+    "station": "PARC PAYSAGER",
+    "stationCode": "FR23181",
+    "area": "urban",
+    "distanceKm": 0.9,
+    "coverage": 0.99
+   }
+  },
+  "chalons-en-champagne": {
+   "no2": {
+    "value": 8.9,
+    "station": "CHALONS",
+    "stationCode": "FR14022",
+    "area": "urban",
+    "distanceKm": 0.7,
+    "coverage": 0.95
+   }
+  },
+  "belfort": {
+   "no2": {
+    "value": 14.1,
+    "station": "Belfort Centre",
+    "stationCode": "FR82021",
+    "area": "urban",
+    "distanceKm": 0.9,
+    "coverage": 0.99
+   }
+  },
+  "vichy": {
+   "no2": {
+    "value": 9,
+    "station": "Vichy",
+    "stationCode": "FR07059",
+    "area": "urban",
+    "distanceKm": 0.7,
+    "coverage": 0.92
+   }
+  },
+  "alencon": {
+   "no2": {
+    "value": 7.9,
+    "station": "Alençon Météo-France",
+    "stationCode": "FR21031",
+    "area": "suburban",
+    "distanceKm": 2.2,
+    "coverage": 1
+   }
+  },
+  "epinal": {
+   "no2": {
+    "value": 10.2,
+    "station": "Epinal",
+    "stationCode": "FR30019",
+    "area": "urban",
+    "distanceKm": 0.3,
+    "coverage": 0.99
+   }
+  },
+  "romans-sur-isere": {
+   "no2": {
+    "value": 12.5,
+    "station": "Valence Urb. Centre",
+    "stationCode": "FR36002",
+    "area": "urban",
+    "distanceKm": 17.8,
+    "coverage": 0.99
+   }
+  },
+  "cholet": {
+   "no2": {
+    "value": 7.9,
+    "station": "SAINT EXUPERY",
+    "stationCode": "FR23078",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 1
+   }
+  },
+  "aix-les-bains": {
+   "no2": {
+    "value": 13.3,
+    "station": "PASTEUR",
+    "stationCode": "FR33101",
+    "area": "urban",
+    "distanceKm": 13.8,
+    "coverage": 0.97
+   }
+  },
+  "salon-de-provence": {
+   "no2": {
+    "value": 9.5,
+    "station": "SALON",
+    "stationCode": "FR02041",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 0.99
+   }
+  },
+  "martigues": {
+   "no2": {
+    "value": 15.8,
+    "station": "Marignane",
+    "stationCode": "FR02043",
+    "area": "urban",
+    "distanceKm": 14.2,
+    "coverage": 0.99
+   }
+  },
+  "calais": {
+   "no2": {
+    "value": 18.4,
+    "station": "Calais Berthelot",
+    "stationCode": "FR10016",
+    "area": "urban",
+    "distanceKm": 1.2,
+    "coverage": 0.97
+   }
+  },
+  "lens": {
+   "no2": {
+    "value": 12,
+    "station": "Harnes Serres",
+    "stationCode": "FR28010",
+    "area": "suburban",
+    "distanceKm": 5.3,
+    "coverage": 1
+   }
+  },
+  "valenciennes": {
+   "no2": {
+    "value": 12,
+    "station": "Denain Villars",
+    "stationCode": "FR06011",
+    "area": "suburban",
+    "distanceKm": 9.9,
+    "coverage": 0.98
+   }
+  },
+  "castres": {
+   "no2": {
+    "value": 5.3,
+    "station": "Castres stadeTravet",
+    "stationCode": "FR12053",
+    "area": "urban",
+    "distanceKm": 1.4,
+    "coverage": 0.98
+   }
+  },
+  "hyeres": {
+   "no2": {
+    "value": 14.5,
+    "station": "TOULON CLARET",
+    "stationCode": "FR03071",
+    "area": "urban",
+    "distanceKm": 16.6,
+    "coverage": 0.99
+   }
+  },
+  "haguenau": {
+   "no2": {
+    "value": 13.7,
+    "station": "Haguenau-Place marché aux bestiaux",
+    "stationCode": "FR42011",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.99
+   }
+  },
+  "roanne": {
+   "no2": {
+    "value": 12.4,
+    "station": "ROANNE",
+    "stationCode": "FR29423",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.95
+   }
+  },
+  "douai": {
+   "no2": {
+    "value": 11.4,
+    "station": "Douai Theuriet",
+    "stationCode": "FR06003",
+    "area": "urban",
+    "distanceKm": 1.5,
+    "coverage": 0.98
+   }
+  },
+  "cambrai": {
+   "no2": {
+    "value": 12,
+    "station": "Denain Villars",
+    "stationCode": "FR06011",
+    "area": "suburban",
+    "distanceKm": 19.9,
+    "coverage": 0.98
+   }
+  },
+  "montbeliard": {
+   "no2": {
+    "value": 16.4,
+    "station": "Montbéliard Centre",
+    "stationCode": "FR82010",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.98
+   }
+  },
+  "aurillac": {
+   "no2": {
+    "value": 7.6,
+    "station": "Aurillac-Lagarde",
+    "stationCode": "FR07052",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.99
+   }
+  },
+  "annemasse": {
+   "no2": {
+    "value": 14.5,
+    "station": "ANNEMASSE",
+    "stationCode": "FR33211",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.96
+   }
+  },
+  "beauvais": {
+   "no2": {
+    "value": 6.5,
+    "station": "Gaudechart",
+    "stationCode": "FR18058",
+    "area": "rural-regional",
+    "distanceKm": 21.7,
+    "coverage": 0.94
+   }
+  },
+  "saint-quentin": {
+   "no2": {
+    "value": 12.7,
+    "station": "P. Roth St Quentin",
+    "stationCode": "FR18042",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.99
+   }
+  },
+  "bourges": {
+   "no2": {
+    "value": 7,
+    "station": "Leblanc",
+    "stationCode": "FR34032",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 1
+   }
+  },
+  "chateauroux": {
+   "no2": {
+    "value": 6.7,
+    "station": "Chateauroux Sud",
+    "stationCode": "FR34051",
+    "area": "urban",
+    "distanceKm": 1.5,
+    "coverage": 0.99
+   }
+  },
+  "brive-la-gaillarde": {
+   "no2": {
+    "value": 10.3,
+    "station": "BRIVE - Dalton",
+    "stationCode": "FR35004",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 0.98
+   }
+  },
+  "dole": {
+   "no2": {
+    "value": 9.6,
+    "station": "Dole Centre",
+    "stationCode": "FR82040",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 0.98
+   }
+  },
+  "paris": {
+   "no2": {
+    "value": 18.2,
+    "station": "PARIS 1er Les Halles",
+    "stationCode": "FR04055",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.99
+   }
+  },
+  "versailles": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 1,
+    "coverage": 0.99
+   }
+  },
+  "boulogne-billancourt": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 2.3,
+    "coverage": 0.97
+   }
+  },
+  "montreuil": {
+   "no2": {
+    "value": 20.7,
+    "station": "BOBIGNY",
+    "stationCode": "FR04156",
+    "area": "urban",
+    "distanceKm": 4.4,
+    "coverage": 0.99
+   }
+  },
+  "vincennes": {
+   "no2": {
+    "value": 20.5,
+    "station": "PARIS 12eme",
+    "stationCode": "FR04014",
+    "area": "urban",
+    "distanceKm": 3.5,
+    "coverage": 0.99
+   }
+  },
+  "cergy": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 15.1,
+    "coverage": 0.99
+   }
+  },
+  "saint-denis": {
+   "no2": {
+    "value": 22.2,
+    "station": "SAINT-DENIS",
+    "stationCode": "FR04059",
+    "area": "urban",
+    "distanceKm": 0.3,
+    "coverage": 1
+   }
+  },
+  "levallois-perret": {
+   "no2": {
+    "value": 21.6,
+    "station": "NEUILLY-SUR-SEINE",
+    "stationCode": "FR04017",
+    "area": "urban",
+    "distanceKm": 1.7,
+    "coverage": 0.99
+   }
+  },
+  "issy-les-moulineaux": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.97
+   }
+  },
+  "neuilly-sur-seine": {
+   "no2": {
+    "value": 21.6,
+    "station": "NEUILLY-SUR-SEINE",
+    "stationCode": "FR04017",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.99
+   }
+  },
+  "fontainebleau": {
+   "no2": {
+    "value": 5.3,
+    "station": "Zone Rurale SE",
+    "stationCode": "FR04328",
+    "area": "rural-regional",
+    "distanceKm": 6.9,
+    "coverage": 0.96
+   }
+  },
+  "saint-germain-en-laye": {
+   "no2": {
+    "value": 19.8,
+    "station": "LA DEFENSE",
+    "stationCode": "FR04150",
+    "area": "urban",
+    "distanceKm": 10.7,
+    "coverage": 1
+   }
+  },
+  "bastia": {
+   "no2": {
+    "value": 8.9,
+    "station": "BASTIA GIRAUD",
+    "stationCode": "FR41002",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 0.97
+   }
+  },
+  "pantin": {
+   "no2": {
+    "value": 23.4,
+    "station": "AUBERVILLIERS",
+    "stationCode": "FR04018",
+    "area": "urban",
+    "distanceKm": 1.4,
+    "coverage": 0.97
+   }
+  },
+  "ivry-sur-seine": {
+   "no2": {
+    "value": 17.2,
+    "station": "PARIS 13eme",
+    "stationCode": "FR04037",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 1
+   }
+  },
+  "creteil": {
+   "no2": {
+    "value": 17.2,
+    "station": "CHAMPIGNY-SUR-MARNE",
+    "stationCode": "FR04101",
+    "area": "urban",
+    "distanceKm": 5.4,
+    "coverage": 0.97
+   }
+  },
+  "rueil-malmaison": {
+   "no2": {
+    "value": 19.8,
+    "station": "LA DEFENSE",
+    "stationCode": "FR04150",
+    "area": "urban",
+    "distanceKm": 4.1,
+    "coverage": 1
+   }
+  },
+  "colombes": {
+   "no2": {
+    "value": 19.8,
+    "station": "GENNEVILLIERS",
+    "stationCode": "FR04002",
+    "area": "urban",
+    "distanceKm": 3.2,
+    "coverage": 0.87
+   }
+  },
+  "argenteuil": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 1.7,
+    "coverage": 0.99
+   }
+  },
+  "nanterre": {
+   "no2": {
+    "value": 19.8,
+    "station": "LA DEFENSE",
+    "stationCode": "FR04150",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 1
+   }
+  },
+  "vitry-sur-seine": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 2.1,
+    "coverage": 1
+   }
+  },
+  "courbevoie": {
+   "no2": {
+    "value": 19.8,
+    "station": "LA DEFENSE",
+    "stationCode": "FR04150",
+    "area": "urban",
+    "distanceKm": 1.1,
+    "coverage": 1
+   }
+  },
+  "noisy-le-grand": {
+   "no2": {
+    "value": 17.2,
+    "station": "CHAMPIGNY-SUR-MARNE",
+    "stationCode": "FR04101",
+    "area": "urban",
+    "distanceKm": 4,
+    "coverage": 0.97
+   }
+  },
+  "evry-courcouronnes": {
+   "no2": {
+    "value": 16.8,
+    "station": "EVRY",
+    "stationCode": "FR04323",
+    "area": "urban",
+    "distanceKm": 0.9,
+    "coverage": 0.97
+   }
+  },
+  "menton": {
+   "no2": {
+    "value": 20,
+    "station": "NICE ARSON",
+    "stationCode": "FR24036",
+    "area": "urban",
+    "distanceKm": 19.1,
+    "coverage": 0.99
+   }
+  },
+  "la-roche-sur-yon": {
+   "no2": {
+    "value": 6.5,
+    "station": "DELACROIX",
+    "stationCode": "FR23152",
+    "area": "urban",
+    "distanceKm": 1.3,
+    "coverage": 0.95
+   }
+  },
+  "mont-de-marsan": {
+   "no2": {
+    "value": 7.9,
+    "station": "MONT-DE-MARSAN - MIDOUZE",
+    "stationCode": "FR31055",
+    "area": "urban",
+    "distanceKm": 0.2,
+    "coverage": 0.97
+   }
+  },
+  "le-puy-en-velay": {
+   "no2": {
+    "value": 10.4,
+    "station": "Le Puy-Causans",
+    "stationCode": "FR07054",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.97
+   }
+  },
+  "villeurbanne": {
+   "no2": {
+    "value": 16.3,
+    "station": "LYON Centre",
+    "stationCode": "FR20062",
+    "area": "urban",
+    "distanceKm": 2.9,
+    "coverage": 0.95
+   }
+  },
+  "nevers": {
+   "no2": {
+    "value": 6.9,
+    "station": "Nevers",
+    "stationCode": "FR26017",
+    "area": "urban",
+    "distanceKm": 1.2,
+    "coverage": 1
+   }
+  },
+  "epernay": {
+   "no2": {
+    "value": 12,
+    "station": "Jean d Aulan",
+    "stationCode": "FR14012",
+    "area": "urban",
+    "distanceKm": 20.5,
+    "coverage": 0.99
+   }
+  },
+  "la-ciotat": {
+   "no2": {
+    "value": 18,
+    "station": "MARSEILLE 5 AVENUES",
+    "stationCode": "FR03043",
+    "area": "urban",
+    "distanceKm": 22.4,
+    "coverage": 0.98
+   }
+  },
+  "saint-raphael": {
+   "no2": {
+    "value": 7.2,
+    "station": "ESTEREL",
+    "stationCode": "FR03070",
+    "area": "suburban",
+    "distanceKm": 1.4,
+    "coverage": 0.99
+   }
+  },
+  "anglet": {
+   "no2": {
+    "value": 9.8,
+    "station": "SAINT-CROUTS",
+    "stationCode": "FR31016",
+    "area": "urban",
+    "distanceKm": 2.7,
+    "coverage": 0.96
+   }
+  },
+  "honfleur": {
+   "no2": {
+    "value": 12.4,
+    "station": "Le Havre Ec. Herriot",
+    "stationCode": "FR05074",
+    "area": "urban",
+    "distanceKm": 12.4,
+    "coverage": 0.97
+   }
+  },
+  "cassis": {
+   "no2": {
+    "value": 18,
+    "station": "MARSEILLE 5 AVENUES",
+    "stationCode": "FR03043",
+    "area": "urban",
+    "distanceKm": 15.4,
+    "coverage": 0.98
+   }
+  },
+  "grasse": {
+   "no2": {
+    "value": 13.5,
+    "station": "CANNES BROUSSAILLES",
+    "stationCode": "FR24009",
+    "area": "urban",
+    "distanceKm": 13.2,
+    "coverage": 0.99
+   }
+  },
+  "concarneau": {
+   "no2": {
+    "value": 6.8,
+    "station": "Quimper Zola",
+    "stationCode": "FR19053",
+    "area": "urban",
+    "distanceKm": 18.7,
+    "coverage": 0.99
+   }
+  },
+  "saint-jean-de-luz": {
+   "no2": {
+    "value": 7.3,
+    "station": "Biarritz-hippodrome",
+    "stationCode": "FR31043",
+    "area": "suburban",
+    "distanceKm": 12.5,
+    "coverage": 0.94
+   }
+  },
+  "sanary-sur-mer": {
+   "no2": {
+    "value": 14.5,
+    "station": "TOULON CLARET",
+    "stationCode": "FR03071",
+    "area": "urban",
+    "distanceKm": 10.1,
+    "coverage": 0.99
+   }
+  },
+  "dinan": {
+   "no2": {
+    "value": 7.5,
+    "station": "StMalo Rocabey",
+    "stationCode": "FR19082",
+    "area": "suburban",
+    "distanceKm": 22.2,
+    "coverage": 0.98
+   }
+  },
+  "hendaye": {
+   "no2": {
+    "value": 7.3,
+    "station": "Biarritz-hippodrome",
+    "stationCode": "FR31043",
+    "area": "suburban",
+    "distanceKm": 21.2,
+    "coverage": 0.94
+   }
+  },
+  "la-baule": {
+   "no2": {
+    "value": 7.4,
+    "station": "LEON BLUM",
+    "stationCode": "FR23110",
+    "area": "urban",
+    "distanceKm": 11.3,
+    "coverage": 1
+   }
+  },
+  "amboise": {
+   "no2": {
+    "value": 9.4,
+    "station": "La Bruyère",
+    "stationCode": "FR34025",
+    "area": "urban",
+    "distanceKm": 22.7,
+    "coverage": 0.99
+   }
+  },
+  "orange": {
+   "no2": {
+    "value": 13.7,
+    "station": "LE PONTET",
+    "stationCode": "FR03084",
+    "area": "suburban",
+    "distanceKm": 20.1,
+    "coverage": 0.84
+   }
+  },
+  "vienne": {
+   "no2": {
+    "value": 12.5,
+    "station": "TERNAY",
+    "stationCode": "FR20037",
+    "area": "suburban",
+    "distanceKm": 10.4,
+    "coverage": 0.98
+   }
+  },
+  "dinard": {
+   "no2": {
+    "value": 7.5,
+    "station": "StMalo Rocabey",
+    "stationCode": "FR19082",
+    "area": "suburban",
+    "distanceKm": 4.6,
+    "coverage": 0.98
+   }
+  },
+  "collioure": {
+   "no2": {
+    "value": 13.1,
+    "station": "Perpignan Les Carmes",
+    "stationCode": "FR08714",
+    "area": "urban",
+    "distanceKm": 24.1,
+    "coverage": 1
+   }
+  },
+  "senlis": {
+   "no2": {
+    "value": 15.1,
+    "station": "Faiencerie Creil",
+    "stationCode": "FR18043",
+    "area": "urban",
+    "distanceKm": 10.1,
+    "coverage": 0.97
+   }
+  },
+  "gex": {
+   "no2": {
+    "value": 14.5,
+    "station": "ANNEMASSE",
+    "stationCode": "FR33211",
+    "area": "urban",
+    "distanceKm": 21,
+    "coverage": 0.96
+   }
+  },
+  "saint-tropez": {
+   "no2": {
+    "value": 7.2,
+    "station": "ESTEREL",
+    "stationCode": "FR03070",
+    "area": "suburban",
+    "distanceKm": 21.6,
+    "coverage": 0.99
+   }
+  },
+  "hossegor": {
+   "no2": {
+    "value": 9.8,
+    "station": "SAINT-CROUTS",
+    "stationCode": "FR31016",
+    "area": "urban",
+    "distanceKm": 21.4,
+    "coverage": 0.96
+   }
+  },
+  "obernai": {
+   "no2": {
+    "value": 19.9,
+    "station": "Strasbourg Neudorf Ecoquartier Danube",
+    "stationCode": "FR42010",
+    "area": "urban",
+    "distanceKm": 24.2,
+    "coverage": 0.98
+   }
+  },
+  "cagnes-sur-mer": {
+   "no2": {
+    "value": 18.5,
+    "station": "ANTIBES JEAN MOULIN",
+    "stationCode": "FR24007",
+    "area": "suburban",
+    "distanceKm": 8.5,
+    "coverage": 0.98
+   }
+  },
+  "carnac": {
+   "no2": {
+    "value": 7.2,
+    "station": "Vannes UTA",
+    "stationCode": "FR19033",
+    "area": "urban",
+    "distanceKm": 24,
+    "coverage": 0.96
+   }
+  },
+  "ile-de-re": {
+   "no2": {
+    "value": 11.8,
+    "station": "place de VERDUN",
+    "stationCode": "FR09003",
+    "area": "urban",
+    "distanceKm": 19.4,
+    "coverage": 0.99
+   }
+  },
+  "pezenas": {
+   "no2": {
+    "value": 7.4,
+    "station": "Agathois-piscénois",
+    "stationCode": "FR08022",
+    "area": "suburban",
+    "distanceKm": 20.4,
+    "coverage": 1
+   }
+  },
+  "agde": {
+   "no2": {
+    "value": 7.4,
+    "station": "Agathois-piscénois",
+    "stationCode": "FR08022",
+    "area": "suburban",
+    "distanceKm": 3.4,
+    "coverage": 1
+   }
+  },
+  "douarnenez": {
+   "no2": {
+    "value": 6.8,
+    "station": "Quimper Zola",
+    "stationCode": "FR19053",
+    "area": "urban",
+    "distanceKm": 20.8,
+    "coverage": 0.99
+   }
+  },
+  "saint-remy-de-provence": {
+   "no2": {
+    "value": 11.8,
+    "station": "AVIGNON   MAIRIE",
+    "stationCode": "FR03080",
+    "area": "urban",
+    "distanceKm": 17.9,
+    "coverage": 1
+   }
+  },
+  "saint-paul-de-vence": {
+   "no2": {
+    "value": 18.5,
+    "station": "ANTIBES JEAN MOULIN",
+    "stationCode": "FR24007",
+    "area": "suburban",
+    "distanceKm": 11.2,
+    "coverage": 0.98
+   }
+  },
+  "valbonne": {
+   "no2": {
+    "value": 18.5,
+    "station": "ANTIBES JEAN MOULIN",
+    "stationCode": "FR24007",
+    "area": "suburban",
+    "distanceKm": 8.6,
+    "coverage": 0.98
+   }
+  },
+  "carpentras": {
+   "no2": {
+    "value": 13.7,
+    "station": "LE PONTET",
+    "stationCode": "FR03084",
+    "area": "suburban",
+    "distanceKm": 18.7,
+    "coverage": 0.84
+   }
+  },
+  "aubagne": {
+   "no2": {
+    "value": 18,
+    "station": "MARSEILLE 5 AVENUES",
+    "stationCode": "FR03043",
+    "area": "urban",
+    "distanceKm": 14.2,
+    "coverage": 0.98
+   }
+  },
+  "sainte-maxime": {
+   "no2": {
+    "value": 7.2,
+    "station": "ESTEREL",
+    "stationCode": "FR03070",
+    "area": "suburban",
+    "distanceKm": 17.7,
+    "coverage": 0.99
+   }
+  },
+  "albertville": {
+   "no2": {
+    "value": 13.2,
+    "station": "Albertville",
+    "stationCode": "FR33121",
+    "area": "urban",
+    "distanceKm": 0.2,
+    "coverage": 0.98
+   }
+  },
+  "moulins": {
+   "no2": {
+    "value": 9.1,
+    "station": "Moulins Centre",
+    "stationCode": "FR07057",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.96
+   }
+  },
+  "tulle": {
+   "no2": {
+    "value": 8.1,
+    "station": "TULLE - Hugo",
+    "stationCode": "FR35006",
+    "area": "urban",
+    "distanceKm": 1.1,
+    "coverage": 0.98
+   }
+  },
+  "fontenay-le-comte": {
+   "no2": {
+    "value": 2.9,
+    "station": "LA TARDIERE",
+    "stationCode": "FR23124",
+    "area": "rural-remote",
+    "distanceKm": 21.6,
+    "coverage": 0.94
+   }
+  },
+  "montargis": {
+   "no2": {
+    "value": 9.1,
+    "station": "Montargis Les Cites",
+    "stationCode": "FR34066",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 1
+   }
+  },
+  "lourdes": {
+   "no2": {
+    "value": 9,
+    "station": "Lourdes Lapaca",
+    "stationCode": "FR12042",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 1
+   }
+  },
+  "gueret": {
+   "no2": {
+    "value": 8.8,
+    "station": "GUERET - Nicolas",
+    "stationCode": "FR35005",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.94
+   }
+  },
+  "saint-lo": {
+   "no2": {
+    "value": 7.5,
+    "station": "Saint-Lô Eglise",
+    "stationCode": "FR21040",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.98
+   }
+  },
+  "parthenay": {
+   "no2": {
+    "value": 5.4,
+    "station": "AIRVAULT - Stade Laillé",
+    "stationCode": "FR09304",
+    "area": "suburban",
+    "distanceKm": 21.2,
+    "coverage": 0.96
+   }
+  },
+  "beaune": {
+   "no2": {
+    "value": 11.5,
+    "station": "Champforgueil",
+    "stationCode": "FR32002",
+    "area": "suburban",
+    "distanceKm": 22.4,
+    "coverage": 0.99
+   }
+  },
+  "vesoul": {
+   "no2": {
+    "value": 12,
+    "station": "Vesoul Près Caillet",
+    "stationCode": "FR82060",
+    "area": "urban",
+    "distanceKm": 0.2,
+    "coverage": 0.89
+   }
+  },
+  "riom": {
+   "no2": {
+    "value": 8.9,
+    "station": "Riom Périurbaine",
+    "stationCode": "FR07061",
+    "area": "suburban",
+    "distanceKm": 0.9,
+    "coverage": 0.99
+   }
+  },
+  "oyonnax": {
+   "no2": {
+    "value": 4.2,
+    "station": "St Germain/Rhône",
+    "stationCode": "FR33302",
+    "area": "rural-nearcity",
+    "distanceKm": 24,
+    "coverage": 0.94
+   }
+  },
+  "cluses": {
+   "no2": {
+    "value": 10.2,
+    "station": "PASSY",
+    "stationCode": "FR33220",
+    "area": "suburban",
+    "distanceKm": 18.7,
+    "coverage": 0.99
+   }
+  },
+  "rumilly": {
+   "no2": {
+    "value": 15.4,
+    "station": "LOVERCHY",
+    "stationCode": "FR33201",
+    "area": "urban",
+    "distanceKm": 14,
+    "coverage": 0.98
+   }
+  },
+  "annonay": {
+   "no2": {
+    "value": 8.3,
+    "station": "Sablons",
+    "stationCode": "FR27005",
+    "area": "suburban",
+    "distanceKm": 12.4,
+    "coverage": 1
+   }
+  },
+  "bar-le-duc": {
+   "no2": {
+    "value": 8.3,
+    "station": "St DIZIER L. Michel",
+    "stationCode": "FR14042",
+    "area": "urban",
+    "distanceKm": 20.2,
+    "coverage": 0.99
+   }
+  },
+  "sens": {
+   "no2": {
+    "value": 10.9,
+    "station": "Sens",
+    "stationCode": "FR26016",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.95
+   }
+  },
+  "dreux": {
+   "no2": {
+    "value": 8.2,
+    "station": "Dreux Centre",
+    "stationCode": "FR34046",
+    "area": "urban",
+    "distanceKm": 0.9,
+    "coverage": 0.98
+   }
+  },
+  "sedan": {
+   "no2": {
+    "value": 11.4,
+    "station": "CHARLEVILLE",
+    "stationCode": "FR14051",
+    "area": "urban",
+    "distanceKm": 16.7,
+    "coverage": 0.92
+   }
+  },
+  "pont-a-mousson": {
+   "no2": {
+    "value": 11.6,
+    "station": "Scy-Chazelles",
+    "stationCode": "FR01018",
+    "area": "suburban",
+    "distanceKm": 22.8,
+    "coverage": 0.99
+   }
+  },
+  "etampes": {
+   "no2": {
+    "value": 6.4,
+    "station": "Oysonville",
+    "stationCode": "FR34043",
+    "area": "rural-regional",
+    "distanceKm": 16,
+    "coverage": 0.99
+   }
+  },
+  "soissons": {
+   "no2": {
+    "value": 4.5,
+    "station": "Neuilly-Saint-Front",
+    "stationCode": "FR18057",
+    "area": "rural-regional",
+    "distanceKm": 23.4,
+    "coverage": 0.95
+   }
+  },
+  "villefranche-sur-saone": {
+   "no2": {
+    "value": 14,
+    "station": "Villefranche Centre",
+    "stationCode": "FR20077",
+    "area": "urban",
+    "distanceKm": 0.3,
+    "coverage": 1
+   }
+  },
+  "castelsarrasin": {
+   "no2": {
+    "value": 11.6,
+    "station": "Montauban - Ramierou",
+    "stationCode": "FR50060",
+    "area": "urban",
+    "distanceKm": 21.8,
+    "coverage": 0.99
+   }
+  },
+  "saint-amand-montrond": {
+   "no2": {
+    "value": 3,
+    "station": "Verneuil",
+    "stationCode": "FR34038",
+    "area": "rural-remote",
+    "distanceKm": 12.7,
+    "coverage": 0.95
+   }
+  },
+  "pontoise": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 14.2,
+    "coverage": 0.99
+   }
+  },
+  "muret": {
+   "no2": {
+    "value": 12.2,
+    "station": "Toulouse école m. Jacquier",
+    "stationCode": "FR12004",
+    "area": "urban",
+    "distanceKm": 14.6,
+    "coverage": 1
+   }
+  },
+  "meaux": {
+   "no2": {
+    "value": 18.2,
+    "station": "TREMBLAY-EN-FRANCE",
+    "stationCode": "FR04319",
+    "area": "suburban",
+    "distanceKm": 22.5,
+    "coverage": 0.98
+   }
+  },
+  "bourgoin-jallieu": {
+   "no2": {
+    "value": 9.9,
+    "station": "Bourgoin-Jallieu",
+    "stationCode": "FR27007",
+    "area": "urban",
+    "distanceKm": 2.6,
+    "coverage": 0.86
+   }
+  },
+  "gaillac": {
+   "no2": {
+    "value": 9.8,
+    "station": "Albi Delmas",
+    "stationCode": "FR12026",
+    "area": "urban",
+    "distanceKm": 20,
+    "coverage": 1
+   }
+  },
+  "saint-dizier": {
+   "no2": {
+    "value": 8.3,
+    "station": "St DIZIER L. Michel",
+    "stationCode": "FR14042",
+    "area": "urban",
+    "distanceKm": 1.4,
+    "coverage": 0.99
+   }
+  },
+  "venissieux": {
+   "no2": {
+    "value": 15,
+    "station": "GERLAND",
+    "stationCode": "FR20017",
+    "area": "urban",
+    "distanceKm": 6.1,
+    "coverage": 1
+   }
+  },
+  "chateau-gontier-sur-mayenne": {
+   "no2": {
+    "value": 4.5,
+    "station": "SAINT-DENIS D'ANJOU",
+    "stationCode": "FR23177",
+    "area": "rural-regional",
+    "distanceKm": 19.9,
+    "coverage": 0.98
+   }
+  },
+  "rambouillet": {
+   "no2": {
+    "value": 6.7,
+    "station": "Zone Rurale SO",
+    "stationCode": "FR04038",
+    "area": "rural-regional",
+    "distanceKm": 8,
+    "coverage": 0.99
+   }
+  },
+  "massy": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 9.4,
+    "coverage": 1
+   }
+  },
+  "gerardmer": {
+   "no2": {
+    "value": 1.6,
+    "station": "Schlucht",
+    "stationCode": "FR30028",
+    "area": "rural-nearcity",
+    "distanceKm": 10.3,
+    "coverage": 0.99
+   }
+  },
+  "guebwiller": {
+   "no2": {
+    "value": 11.7,
+    "station": "Mulhouse Sud 2",
+    "stationCode": "FR16066",
+    "area": "urban",
+    "distanceKm": 20.4,
+    "coverage": 0.98
+   }
+  },
+  "sable-sur-sarthe": {
+   "no2": {
+    "value": 4.5,
+    "station": "SAINT-DENIS D'ANJOU",
+    "stationCode": "FR23177",
+    "area": "rural-regional",
+    "distanceKm": 9.9,
+    "coverage": 0.98
+   }
+  },
+  "louviers": {
+   "no2": {
+    "value": 11.6,
+    "station": "Centre Hospitalier",
+    "stationCode": "FR25043",
+    "area": "urban",
+    "distanceKm": 20.9,
+    "coverage": 0.94
+   }
+  },
+  "bagneres-de-bigorre": {
+   "no2": {
+    "value": 9,
+    "station": "Lourdes Lapaca",
+    "stationCode": "FR12042",
+    "area": "urban",
+    "distanceKm": 15.8,
+    "coverage": 1
+   }
+  },
+  "monistrol-sur-loire": {
+   "no2": {
+    "value": 12.7,
+    "station": "SAINT ETIENNE SUD",
+    "stationCode": "FR29424",
+    "area": "urban",
+    "distanceKm": 22.3,
+    "coverage": 0.98
+   }
+  },
+  "delle": {
+   "no2": {
+    "value": 16.4,
+    "station": "Montbéliard Centre",
+    "stationCode": "FR82010",
+    "area": "urban",
+    "distanceKm": 14.8,
+    "coverage": 0.98
+   }
+  },
+  "saint-denis-reunion": {
+   "no2": {
+    "value": 6.7,
+    "station": "Plateau Caillou",
+    "stationCode": "FR38020",
+    "area": "urban",
+    "distanceKm": 24.7,
+    "coverage": 0.96
+   }
+  },
+  "saint-paul-reunion": {
+   "no2": {
+    "value": 6.7,
+    "station": "Plateau Caillou",
+    "stationCode": "FR38020",
+    "area": "urban",
+    "distanceKm": 1.5,
+    "coverage": 0.96
+   }
+  },
+  "saint-pierre-reunion": {
+   "no2": {
+    "value": 10.8,
+    "station": "Ligne Paradis",
+    "stationCode": "FR38014",
+    "area": "suburban",
+    "distanceKm": 3,
+    "coverage": 0.92
+   }
+  },
+  "le-tampon": {
+   "no2": {
+    "value": 10.8,
+    "station": "Ligne Paradis",
+    "stationCode": "FR38014",
+    "area": "suburban",
+    "distanceKm": 5.8,
+    "coverage": 0.92
+   }
+  },
+  "fort-de-france": {
+   "no2": {
+    "value": 4.2,
+    "station": "Bellevue",
+    "stationCode": "FR39017",
+    "area": "suburban",
+    "distanceKm": 2.8,
+    "coverage": 0.89
+   }
+  },
+  "le-lamentin": {
+   "no2": {
+    "value": 7.7,
+    "station": "Lamentin",
+    "stationCode": "FR39009",
+    "area": "urban",
+    "distanceKm": 0.4,
+    "coverage": 0.88
+   }
+  },
+  "les-abymes": {
+   "no2": {
+    "value": 11.8,
+    "station": "PTP-VICTOIRE",
+    "stationCode": "FR37006",
+    "area": "urban",
+    "distanceKm": 3.4,
+    "coverage": 0.96
+   }
+  },
+  "pointe-a-pitre": {
+   "no2": {
+    "value": 11.8,
+    "station": "PTP-VICTOIRE",
+    "stationCode": "FR37006",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.96
+   }
+  },
+  "baie-mahault": {
+   "no2": {
+    "value": 5.8,
+    "station": "ST de Baie mahault",
+    "stationCode": "FR37001",
+    "area": "suburban",
+    "distanceKm": 1.2,
+    "coverage": 0.91
+   }
+  },
+  "cayenne": {
+   "no2": {
+    "value": 3.1,
+    "station": "Kalou",
+    "stationCode": "FR40007",
+    "area": "suburban",
+    "distanceKm": 9.5,
+    "coverage": 0.92
+   }
+  },
+  "cormeilles-en-parisis": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 3.5,
+    "coverage": 0.99
+   }
+  },
+  "sarcelles": {
+   "no2": {
+    "value": 17.3,
+    "station": "GONESSE",
+    "stationCode": "FR04024",
+    "area": "suburban",
+    "distanceKm": 4.8,
+    "coverage": 0.95
+   }
+  },
+  "ermont": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 4.9,
+    "coverage": 0.99
+   }
+  },
+  "franconville": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 5.8,
+    "coverage": 0.99
+   }
+  },
+  "sannois": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 3.3,
+    "coverage": 0.99
+   }
+  },
+  "bezons": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 0.99
+   }
+  },
+  "garges-les-gonesse": {
+   "no2": {
+    "value": 17.3,
+    "station": "GONESSE",
+    "stationCode": "FR04024",
+    "area": "suburban",
+    "distanceKm": 3.6,
+    "coverage": 0.95
+   }
+  },
+  "gonesse": {
+   "no2": {
+    "value": 17.3,
+    "station": "GONESSE",
+    "stationCode": "FR04024",
+    "area": "suburban",
+    "distanceKm": 1.6,
+    "coverage": 0.95
+   }
+  },
+  "villiers-le-bel": {
+   "no2": {
+    "value": 17.3,
+    "station": "GONESSE",
+    "stationCode": "FR04024",
+    "area": "suburban",
+    "distanceKm": 3.9,
+    "coverage": 0.95
+   }
+  },
+  "pierrefitte-sur-seine": {
+   "no2": {
+    "value": 22.2,
+    "station": "SAINT-DENIS",
+    "stationCode": "FR04059",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 1
+   }
+  },
+  "aulnay-sous-bois": {
+   "no2": {
+    "value": 20.7,
+    "station": "BOBIGNY",
+    "stationCode": "FR04156",
+    "area": "urban",
+    "distanceKm": 4.8,
+    "coverage": 0.99
+   }
+  },
+  "drancy": {
+   "no2": {
+    "value": 20.7,
+    "station": "BOBIGNY",
+    "stationCode": "FR04156",
+    "area": "urban",
+    "distanceKm": 2.3,
+    "coverage": 0.99
+   }
+  },
+  "bondy": {
+   "no2": {
+    "value": 20.7,
+    "station": "BOBIGNY",
+    "stationCode": "FR04156",
+    "area": "urban",
+    "distanceKm": 2.1,
+    "coverage": 0.99
+   }
+  },
+  "saint-ouen-sur-seine": {
+   "no2": {
+    "value": 21.6,
+    "station": "PARIS 18eme",
+    "stationCode": "FR04004",
+    "area": "urban",
+    "distanceKm": 2.4,
+    "coverage": 1
+   }
+  },
+  "aubervilliers": {
+   "no2": {
+    "value": 23.4,
+    "station": "AUBERVILLIERS",
+    "stationCode": "FR04018",
+    "area": "urban",
+    "distanceKm": 1.2,
+    "coverage": 0.97
+   }
+  },
+  "stains": {
+   "no2": {
+    "value": 22.2,
+    "station": "SAINT-DENIS",
+    "stationCode": "FR04059",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 1
+   }
+  },
+  "sevran": {
+   "no2": {
+    "value": 18.2,
+    "station": "TREMBLAY-EN-FRANCE",
+    "stationCode": "FR04319",
+    "area": "suburban",
+    "distanceKm": 3.6,
+    "coverage": 0.98
+   }
+  },
+  "la-courneuve": {
+   "no2": {
+    "value": 22.2,
+    "station": "SAINT-DENIS",
+    "stationCode": "FR04059",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 1
+   }
+  },
+  "bagnolet": {
+   "no2": {
+    "value": 20.5,
+    "station": "PARIS 12eme",
+    "stationCode": "FR04014",
+    "area": "urban",
+    "distanceKm": 4,
+    "coverage": 0.99
+   }
+  },
+  "asnieres-sur-seine": {
+   "no2": {
+    "value": 19.8,
+    "station": "GENNEVILLIERS",
+    "stationCode": "FR04002",
+    "area": "urban",
+    "distanceKm": 2.2,
+    "coverage": 0.87
+   }
+  },
+  "antony": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 6.2,
+    "coverage": 1
+   }
+  },
+  "suresnes": {
+   "no2": {
+    "value": 19.8,
+    "station": "LA DEFENSE",
+    "stationCode": "FR04150",
+    "area": "urban",
+    "distanceKm": 2.4,
+    "coverage": 1
+   }
+  },
+  "saint-cloud": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 4.6,
+    "coverage": 0.97
+   }
+  },
+  "champigny-sur-marne": {
+   "no2": {
+    "value": 17.2,
+    "station": "CHAMPIGNY-SUR-MARNE",
+    "stationCode": "FR04101",
+    "area": "urban",
+    "distanceKm": 0,
+    "coverage": 0.97
+   }
+  },
+  "saint-maur-des-fosses": {
+   "no2": {
+    "value": 17.2,
+    "station": "CHAMPIGNY-SUR-MARNE",
+    "stationCode": "FR04101",
+    "area": "urban",
+    "distanceKm": 2.7,
+    "coverage": 0.97
+   }
+  },
+  "maisons-alfort": {
+   "no2": {
+    "value": 20.5,
+    "station": "PARIS 12eme",
+    "stationCode": "FR04014",
+    "area": "urban",
+    "distanceKm": 4.7,
+    "coverage": 0.99
+   }
+  },
+  "fontenay-sous-bois": {
+   "no2": {
+    "value": 19,
+    "station": "VILLEMOMBLE",
+    "stationCode": "FR04100",
+    "area": "urban",
+    "distanceKm": 4.1,
+    "coverage": 0.98
+   }
+  },
+  "clichy": {
+   "no2": {
+    "value": 19.8,
+    "station": "GENNEVILLIERS",
+    "stationCode": "FR04002",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 0.87
+   }
+  },
+  "poissy": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 13.7,
+    "coverage": 0.99
+   }
+  },
+  "mantes-la-jolie": {
+   "no2": {
+    "value": 13.9,
+    "station": "MANTES-LA-JOLIE",
+    "stationCode": "FR04063",
+    "area": "suburban",
+    "distanceKm": 1.2,
+    "coverage": 0.94
+   }
+  },
+  "trappes": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 9,
+    "coverage": 0.99
+   }
+  },
+  "sartrouville": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 4.7,
+    "coverage": 0.99
+   }
+  },
+  "cernay": {
+   "no2": {
+    "value": 11.7,
+    "station": "Mulhouse Sud 2",
+    "stationCode": "FR16066",
+    "area": "urban",
+    "distanceKm": 12.7,
+    "coverage": 0.98
+   }
+  },
+  "roubaix": {
+   "no2": {
+    "value": 13,
+    "station": "Tourcoing Houpline",
+    "stationCode": "FR11038",
+    "area": "urban",
+    "distanceKm": 4.6,
+    "coverage": 0.93
+   }
+  },
+  "tourcoing": {
+   "no2": {
+    "value": 13,
+    "station": "Tourcoing Houpline",
+    "stationCode": "FR11038",
+    "area": "urban",
+    "distanceKm": 1.4,
+    "coverage": 0.93
+   }
+  },
+  "wattrelos": {
+   "no2": {
+    "value": 13,
+    "station": "Tourcoing Houpline",
+    "stationCode": "FR11038",
+    "area": "urban",
+    "distanceKm": 4.9,
+    "coverage": 0.93
+   }
+  },
+  "vitrolles": {
+   "no2": {
+    "value": 15.8,
+    "station": "Marignane",
+    "stationCode": "FR02043",
+    "area": "urban",
+    "distanceKm": 4.8,
+    "coverage": 0.99
+   }
+  },
+  "marignane": {
+   "no2": {
+    "value": 15.8,
+    "station": "Marignane",
+    "stationCode": "FR02043",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.99
+   }
+  },
+  "istres": {
+   "no2": {
+    "value": 9.5,
+    "station": "SALON",
+    "stationCode": "FR02041",
+    "area": "urban",
+    "distanceKm": 16.7,
+    "coverage": 0.99
+   }
+  },
+  "la-seyne-sur-mer": {
+   "no2": {
+    "value": 14.5,
+    "station": "TOULON CLARET",
+    "stationCode": "FR03071",
+    "area": "urban",
+    "distanceKm": 5.1,
+    "coverage": 0.99
+   }
+  },
+  "six-fours-les-plages": {
+   "no2": {
+    "value": 14.5,
+    "station": "TOULON CLARET",
+    "stationCode": "FR03071",
+    "area": "urban",
+    "distanceKm": 8.4,
+    "coverage": 0.99
+   }
+  },
+  "le-cannet": {
+   "no2": {
+    "value": 13.5,
+    "station": "CANNES BROUSSAILLES",
+    "stationCode": "FR24009",
+    "area": "urban",
+    "distanceKm": 2,
+    "coverage": 0.99
+   }
+  },
+  "mandelieu-la-napoule": {
+   "no2": {
+    "value": 13.5,
+    "station": "CANNES BROUSSAILLES",
+    "stationCode": "FR24009",
+    "area": "urban",
+    "distanceKm": 5.5,
+    "coverage": 0.99
+   }
+  },
+  "vaulx-en-velin": {
+   "no2": {
+    "value": 13.6,
+    "station": "VAULX EN VELIN",
+    "stationCode": "FR20046",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.9
+   }
+  },
+  "bron": {
+   "no2": {
+    "value": 13.6,
+    "station": "VAULX EN VELIN",
+    "stationCode": "FR20046",
+    "area": "urban",
+    "distanceKm": 5.1,
+    "coverage": 0.9
+   }
+  },
+  "saint-priest": {
+   "no2": {
+    "value": 13.6,
+    "station": "VAULX EN VELIN",
+    "stationCode": "FR20046",
+    "area": "urban",
+    "distanceKm": 9.4,
+    "coverage": 0.9
+   }
+  },
+  "caluire-et-cuire": {
+   "no2": {
+    "value": 16.3,
+    "station": "LYON Centre",
+    "stationCode": "FR20062",
+    "area": "urban",
+    "distanceKm": 4.2,
+    "coverage": 0.95
+   }
+  },
+  "decines-charpieu": {
+   "no2": {
+    "value": 13.6,
+    "station": "VAULX EN VELIN",
+    "stationCode": "FR20046",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 0.9
+   }
+  },
+  "meyzieu": {
+   "no2": {
+    "value": 8.1,
+    "station": "SAINT EXUPERY",
+    "stationCode": "FR20048",
+    "area": "suburban",
+    "distanceKm": 5.6,
+    "coverage": 0.99
+   }
+  },
+  "merignac": {
+   "no2": {
+    "value": 11.2,
+    "station": "TALENCE",
+    "stationCode": "FR31002",
+    "area": "urban",
+    "distanceKm": 6,
+    "coverage": 0.97
+   }
+  },
+  "pessac": {
+   "no2": {
+    "value": 11.2,
+    "station": "TALENCE",
+    "stationCode": "FR31002",
+    "area": "urban",
+    "distanceKm": 3.4,
+    "coverage": 0.97
+   }
+  },
+  "talence": {
+   "no2": {
+    "value": 11.2,
+    "station": "TALENCE",
+    "stationCode": "FR31002",
+    "area": "urban",
+    "distanceKm": 0.7,
+    "coverage": 0.97
+   }
+  },
+  "begles": {
+   "no2": {
+    "value": 11.2,
+    "station": "TALENCE",
+    "stationCode": "FR31002",
+    "area": "urban",
+    "distanceKm": 3.4,
+    "coverage": 0.97
+   }
+  },
+  "le-bouscat": {
+   "no2": {
+    "value": 10,
+    "station": "GRAND PARC",
+    "stationCode": "FR31001",
+    "area": "urban",
+    "distanceKm": 1.8,
+    "coverage": 0.95
+   }
+  },
+  "villenave-d-ornon": {
+   "no2": {
+    "value": 11.2,
+    "station": "TALENCE",
+    "stationCode": "FR31002",
+    "area": "urban",
+    "distanceKm": 2.6,
+    "coverage": 0.97
+   }
+  },
+  "bethune": {
+   "no2": {
+    "value": 11,
+    "station": "Bethune Stade",
+    "stationCode": "FR28028",
+    "area": "urban",
+    "distanceKm": 0.6,
+    "coverage": 0.93
+   }
+  },
+  "lievin": {
+   "no2": {
+    "value": 12,
+    "station": "Harnes Serres",
+    "stationCode": "FR28010",
+    "area": "suburban",
+    "distanceKm": 8.8,
+    "coverage": 1
+   }
+  },
+  "bruay-la-buissiere": {
+   "no2": {
+    "value": 11,
+    "station": "Bethune Stade",
+    "stationCode": "FR28028",
+    "area": "urban",
+    "distanceKm": 8.4,
+    "coverage": 0.93
+   }
+  },
+  "colomiers": {
+   "no2": {
+    "value": 12.2,
+    "station": "Toulouse école m. Jacquier",
+    "stationCode": "FR12004",
+    "area": "urban",
+    "distanceKm": 8,
+    "coverage": 1
+   }
+  },
+  "tournefeuille": {
+   "no2": {
+    "value": 12.2,
+    "station": "Toulouse école m. Jacquier",
+    "stationCode": "FR12004",
+    "area": "urban",
+    "distanceKm": 6.1,
+    "coverage": 1
+   }
+  },
+  "blagnac": {
+   "no2": {
+    "value": 13.1,
+    "station": "Toulouse Mazades",
+    "stationCode": "FR12021",
+    "area": "urban",
+    "distanceKm": 4,
+    "coverage": 0.97
+   }
+  },
+  "cugnaux": {
+   "no2": {
+    "value": 12.2,
+    "station": "Toulouse école m. Jacquier",
+    "stationCode": "FR12004",
+    "area": "urban",
+    "distanceKm": 7.1,
+    "coverage": 1
+   }
+  },
+  "saint-herblain": {
+   "no2": {
+    "value": 10.3,
+    "station": "LA CHABOSSIERE",
+    "stationCode": "FR23239",
+    "area": "urban",
+    "distanceKm": 5.6,
+    "coverage": 0.99
+   }
+  },
+  "reze": {
+   "no2": {
+    "value": 10.3,
+    "station": "LA CHABOSSIERE",
+    "stationCode": "FR23239",
+    "area": "urban",
+    "distanceKm": 3.2,
+    "coverage": 0.99
+   }
+  },
+  "orvault": {
+   "no2": {
+    "value": 8.5,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 8.4,
+    "coverage": 0.99
+   }
+  },
+  "vertou": {
+   "no2": {
+    "value": 8.5,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 7.7,
+    "coverage": 0.99
+   }
+  },
+  "schiltigheim": {
+   "no2": {
+    "value": 15.7,
+    "station": "Strasbourg Nord",
+    "stationCode": "FR16029",
+    "area": "urban",
+    "distanceKm": 2.3,
+    "coverage": 0.9
+   }
+  },
+  "illkirch-graffenstaden": {
+   "no2": {
+    "value": 19.9,
+    "station": "Strasbourg Neudorf Ecoquartier Danube",
+    "stationCode": "FR42010",
+    "area": "urban",
+    "distanceKm": 6.3,
+    "coverage": 0.98
+   }
+  },
+  "lingolsheim": {
+   "no2": {
+    "value": 19.9,
+    "station": "Strasbourg Neudorf Ecoquartier Danube",
+    "stationCode": "FR42010",
+    "area": "urban",
+    "distanceKm": 6.3,
+    "coverage": 0.98
+   }
+  },
+  "bischheim": {
+   "no2": {
+    "value": 15.7,
+    "station": "Strasbourg Nord",
+    "stationCode": "FR16029",
+    "area": "urban",
+    "distanceKm": 2.4,
+    "coverage": 0.9
+   }
+  },
+  "joue-les-tours": {
+   "no2": {
+    "value": 8.9,
+    "station": "Joué lès Tours",
+    "stationCode": "FR34024",
+    "area": "urban",
+    "distanceKm": 1.2,
+    "coverage": 1
+   }
+  },
+  "saint-martin-d-heres": {
+   "no2": {
+    "value": 12.2,
+    "station": "Grenoble Les Frenes",
+    "stationCode": "FR15043",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 0.95
+   }
+  },
+  "echirolles": {
+   "no2": {
+    "value": 12.2,
+    "station": "Grenoble Les Frenes",
+    "stationCode": "FR15043",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 0.95
+   }
+  },
+  "fontaine": {
+   "no2": {
+    "value": 12.2,
+    "station": "Grenoble Les Frenes",
+    "stationCode": "FR15043",
+    "area": "urban",
+    "distanceKm": 5.4,
+    "coverage": 0.95
+   }
+  },
+  "voiron": {
+   "no2": {
+    "value": 10.3,
+    "station": "Voiron Urbain",
+    "stationCode": "FR15018",
+    "area": "urban",
+    "distanceKm": 0.9,
+    "coverage": 0.97
+   }
+  },
+  "vandoeuvre-les-nancy": {
+   "no2": {
+    "value": 7.6,
+    "station": "Nancy-Brabois 2",
+    "stationCode": "FR30037",
+    "area": "suburban",
+    "distanceKm": 2.4,
+    "coverage": 0.97
+   }
+  },
+  "laxou": {
+   "no2": {
+    "value": 13.2,
+    "station": "Nancy-Charles III",
+    "stationCode": "FR30034",
+    "area": "urban",
+    "distanceKm": 3,
+    "coverage": 0.98
+   }
+  },
+  "saint-chamond": {
+   "no2": {
+    "value": 10.7,
+    "station": "LA TALAUDIERE",
+    "stationCode": "FR29439",
+    "area": "suburban",
+    "distanceKm": 6.8,
+    "coverage": 0.99
+   }
+  },
+  "firminy": {
+   "no2": {
+    "value": 12.7,
+    "station": "SAINT ETIENNE SUD",
+    "stationCode": "FR29424",
+    "area": "urban",
+    "distanceKm": 9.7,
+    "coverage": 0.98
+   }
+  },
+  "chenove": {
+   "no2": {
+    "value": 11.3,
+    "station": "Dijon Péjoces",
+    "stationCode": "FR26005",
+    "area": "suburban",
+    "distanceKm": 4.6,
+    "coverage": 0.92
+   }
+  },
+  "saint-louis-haut-rhin": {
+   "no2": {
+    "value": 16.1,
+    "station": "C.C.3 Frontières",
+    "stationCode": "FR16060",
+    "area": "suburban",
+    "distanceKm": 1.3,
+    "coverage": 1
+   }
+  },
+  "wittenheim": {
+   "no2": {
+    "value": 11.7,
+    "station": "Mulhouse Sud 2",
+    "stationCode": "FR16066",
+    "area": "urban",
+    "distanceKm": 9,
+    "coverage": 0.98
+   }
+  },
+  "puteaux": {
+   "no2": {
+    "value": 19.8,
+    "station": "LA DEFENSE",
+    "stationCode": "FR04150",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 1
+   }
+  },
+  "gennevilliers": {
+   "no2": {
+    "value": 19.8,
+    "station": "GENNEVILLIERS",
+    "stationCode": "FR04002",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.87
+   }
+  },
+  "villeneuve-la-garenne": {
+   "no2": {
+    "value": 19.8,
+    "station": "GENNEVILLIERS",
+    "stationCode": "FR04002",
+    "area": "urban",
+    "distanceKm": 2.1,
+    "coverage": 0.87
+   }
+  },
+  "alfortville": {
+   "no2": {
+    "value": 20.5,
+    "station": "PARIS 12eme",
+    "stationCode": "FR04014",
+    "area": "urban",
+    "distanceKm": 4,
+    "coverage": 0.99
+   }
+  },
+  "le-perreux-sur-marne": {
+   "no2": {
+    "value": 17.2,
+    "station": "CHAMPIGNY-SUR-MARNE",
+    "stationCode": "FR04101",
+    "area": "urban",
+    "distanceKm": 2.9,
+    "coverage": 0.97
+   }
+  },
+  "nogent-sur-marne": {
+   "no2": {
+    "value": 17.2,
+    "station": "CHAMPIGNY-SUR-MARNE",
+    "stationCode": "FR04101",
+    "area": "urban",
+    "distanceKm": 3,
+    "coverage": 0.97
+   }
+  },
+  "choisy-le-roi": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 3,
+    "coverage": 1
+   }
+  },
+  "rosny-sous-bois": {
+   "no2": {
+    "value": 19,
+    "station": "VILLEMOMBLE",
+    "stationCode": "FR04100",
+    "area": "urban",
+    "distanceKm": 1.8,
+    "coverage": 0.98
+   }
+  },
+  "neuilly-sur-marne": {
+   "no2": {
+    "value": 19,
+    "station": "VILLEMOMBLE",
+    "stationCode": "FR04100",
+    "area": "urban",
+    "distanceKm": 3.9,
+    "coverage": 0.98
+   }
+  },
+  "le-blanc-mesnil": {
+   "no2": {
+    "value": 20.7,
+    "station": "BOBIGNY",
+    "stationCode": "FR04156",
+    "area": "urban",
+    "distanceKm": 3.9,
+    "coverage": 0.99
+   }
+  },
+  "tremblay-en-france": {
+   "no2": {
+    "value": 18.2,
+    "station": "TREMBLAY-EN-FRANCE",
+    "stationCode": "FR04319",
+    "area": "suburban",
+    "distanceKm": 1.3,
+    "coverage": 0.98
+   }
+  },
+  "noisy-le-sec": {
+   "no2": {
+    "value": 20.7,
+    "station": "BOBIGNY",
+    "stationCode": "FR04156",
+    "area": "urban",
+    "distanceKm": 1.3,
+    "coverage": 0.99
+   }
+  },
+  "plaisir": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 13.2,
+    "coverage": 0.99
+   }
+  },
+  "houilles": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 4,
+    "coverage": 0.99
+   }
+  },
+  "conflans-sainte-honorine": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 10.7,
+    "coverage": 0.99
+   }
+  },
+  "montigny-le-bretonneux": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 7.7,
+    "coverage": 0.99
+   }
+  },
+  "guyancourt": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 5.5,
+    "coverage": 0.99
+   }
+  },
+  "forbach": {
+   "no2": {
+    "value": 14.2,
+    "station": "Station de FORBACH",
+    "stationCode": "FR22054",
+    "area": "urban",
+    "distanceKm": 0.8,
+    "coverage": 0.97
+   }
+  },
+  "sarreguemines": {
+   "no2": {
+    "value": 14.2,
+    "station": "Station de FORBACH",
+    "stationCode": "FR22054",
+    "area": "urban",
+    "distanceKm": 14.4,
+    "coverage": 0.97
+   }
+  },
+  "saint-avold": {
+   "no2": {
+    "value": 14.2,
+    "station": "Station de FORBACH",
+    "stationCode": "FR22054",
+    "area": "urban",
+    "distanceKm": 17.3,
+    "coverage": 0.97
+   }
+  },
+  "lanester": {
+   "no2": {
+    "value": 7.6,
+    "station": "Lorient B. Bissonnet",
+    "stationCode": "FR19032",
+    "area": "urban",
+    "distanceKm": 4.5,
+    "coverage": 0.99
+   }
+  },
+  "herouville-saint-clair": {
+   "no2": {
+    "value": 10.5,
+    "station": "Caen Chemin-Vert",
+    "stationCode": "FR21001",
+    "area": "urban",
+    "distanceKm": 4.9,
+    "coverage": 0.99
+   }
+  },
+  "olivet": {
+   "no2": {
+    "value": 6.2,
+    "station": "La_Source-CNRS",
+    "stationCode": "FR34029",
+    "area": "urban",
+    "distanceKm": 4.2,
+    "coverage": 0.96
+   }
+  },
+  "fleury-les-aubrais": {
+   "no2": {
+    "value": 10.5,
+    "station": "St Jean de la Ruelle",
+    "stationCode": "FR34067",
+    "area": "urban",
+    "distanceKm": 4.1,
+    "coverage": 0.99
+   }
+  },
+  "creil": {
+   "no2": {
+    "value": 15.1,
+    "station": "Faiencerie Creil",
+    "stationCode": "FR18043",
+    "area": "urban",
+    "distanceKm": 0.3,
+    "coverage": 0.97
+   }
+  },
+  "cavaillon": {
+   "no2": {
+    "value": 13.7,
+    "station": "LE PONTET",
+    "stationCode": "FR03084",
+    "area": "suburban",
+    "distanceKm": 19.9,
+    "coverage": 0.84
+   }
+  },
+  "pertuis": {
+   "no2": {
+    "value": 13.5,
+    "station": "AIX CENTRE ECOLE ART",
+    "stationCode": "FR03029",
+    "area": "urban",
+    "distanceKm": 18.9,
+    "coverage": 1
+   }
+  },
+  "allauch": {
+   "no2": {
+    "value": 18,
+    "station": "MARSEILLE 5 AVENUES",
+    "stationCode": "FR03043",
+    "area": "urban",
+    "distanceKm": 7.6,
+    "coverage": 0.98
+   }
+  },
+  "trelaze": {
+   "no2": {
+    "value": 7.8,
+    "station": "APPENTIS",
+    "stationCode": "FR23150",
+    "area": "urban",
+    "distanceKm": 6,
+    "coverage": 1
+   }
+  },
+  "corbeil-essonnes": {
+   "no2": {
+    "value": 16.8,
+    "station": "EVRY",
+    "stationCode": "FR04323",
+    "area": "urban",
+    "distanceKm": 4.4,
+    "coverage": 0.97
+   }
+  },
+  "savigny-sur-orge": {
+   "no2": {
+    "value": 16.8,
+    "station": "EVRY",
+    "stationCode": "FR04323",
+    "area": "urban",
+    "distanceKm": 8.3,
+    "coverage": 0.97
+   }
+  },
+  "athis-mons": {
+   "no2": {
+    "value": 15.1,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 4.2,
+    "coverage": 0.99
+   }
+  },
+  "yerres": {
+   "no2": {
+    "value": 15.1,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 0.99
+   }
+  },
+  "brunoy": {
+   "no2": {
+    "value": 15.1,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 3.5,
+    "coverage": 0.99
+   }
+  },
+  "sainte-genevieve-des-bois": {
+   "no2": {
+    "value": 16.8,
+    "station": "EVRY",
+    "stationCode": "FR04323",
+    "area": "urban",
+    "distanceKm": 6.6,
+    "coverage": 0.97
+   }
+  },
+  "palaiseau": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 11.3,
+    "coverage": 1
+   }
+  },
+  "draveil": {
+   "no2": {
+    "value": 15.1,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 4.4,
+    "coverage": 0.99
+   }
+  },
+  "viry-chatillon": {
+   "no2": {
+    "value": 16.8,
+    "station": "EVRY",
+    "stationCode": "FR04323",
+    "area": "urban",
+    "distanceKm": 6.3,
+    "coverage": 0.97
+   }
+  },
+  "le-plessis-robinson": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 5.2,
+    "coverage": 0.97
+   }
+  },
+  "sevres": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 4.3,
+    "coverage": 0.97
+   }
+  },
+  "chelles": {
+   "no2": {
+    "value": 16.2,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 5.3,
+    "coverage": 1
+   }
+  },
+  "melun": {
+   "no2": {
+    "value": 13,
+    "station": "MELUN",
+    "stationCode": "FR04069",
+    "area": "suburban",
+    "distanceKm": 0.2,
+    "coverage": 0.99
+   }
+  },
+  "pontault-combault": {
+   "no2": {
+    "value": 16.2,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 6.3,
+    "coverage": 1
+   }
+  },
+  "savigny-le-temple": {
+   "no2": {
+    "value": 13,
+    "station": "MELUN",
+    "stationCode": "FR04069",
+    "area": "suburban",
+    "distanceKm": 7.7,
+    "coverage": 0.99
+   }
+  },
+  "torcy": {
+   "no2": {
+    "value": 16.2,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 1.5,
+    "coverage": 1
+   }
+  },
+  "combs-la-ville": {
+   "no2": {
+    "value": 15.1,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 9,
+    "coverage": 0.99
+   }
+  },
+  "champs-sur-marne": {
+   "no2": {
+    "value": 16.2,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 1
+   }
+  },
+  "noisiel": {
+   "no2": {
+    "value": 16.2,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 2.1,
+    "coverage": 1
+   }
+  },
+  "saint-louis-reunion-974": {
+   "no2": {
+    "value": 10.8,
+    "station": "Ligne Paradis",
+    "stationCode": "FR38014",
+    "area": "suburban",
+    "distanceKm": 7.3,
+    "coverage": 0.92
+   }
+  },
+  "saint-joseph-reunion": {
+   "no2": {
+    "value": 10.8,
+    "station": "Ligne Paradis",
+    "stationCode": "FR38014",
+    "area": "suburban",
+    "distanceKm": 16.7,
+    "coverage": 0.92
+   }
+  },
+  "le-robert": {
+   "no2": {
+    "value": 7.7,
+    "station": "Lamentin",
+    "stationCode": "FR39009",
+    "area": "urban",
+    "distanceKm": 10,
+    "coverage": 0.88
+   }
+  },
+  "le-francois": {
+   "no2": {
+    "value": 7.7,
+    "station": "Lamentin",
+    "stationCode": "FR39009",
+    "area": "urban",
+    "distanceKm": 11.2,
+    "coverage": 0.88
+   }
+  },
+  "saint-medard-en-jalles": {
+   "no2": {
+    "value": 10,
+    "station": "GRAND PARC",
+    "stationCode": "FR31001",
+    "area": "urban",
+    "distanceKm": 12,
+    "coverage": 0.95
+   }
+  },
+  "tassin-la-demi-lune": {
+   "no2": {
+    "value": 15,
+    "station": "GERLAND",
+    "stationCode": "FR20017",
+    "area": "urban",
+    "distanceKm": 4.7,
+    "coverage": 1
+   }
+  },
+  "saint-mande": {
+   "no2": {
+    "value": 20.5,
+    "station": "PARIS 12eme",
+    "stationCode": "FR04014",
+    "area": "urban",
+    "distanceKm": 1.8,
+    "coverage": 0.99
+   }
+  },
+  "charenton-le-pont": {
+   "no2": {
+    "value": 20.5,
+    "station": "PARIS 12eme",
+    "stationCode": "FR04014",
+    "area": "urban",
+    "distanceKm": 2.1,
+    "coverage": 0.99
+   }
+  },
+  "sceaux": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 6.2,
+    "coverage": 1
+   }
+  },
+  "bourg-la-reine": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 4.5,
+    "coverage": 1
+   }
+  },
+  "chatillon-92": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 3.7,
+    "coverage": 0.97
+   }
+  },
+  "malakoff": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 0.97
+   }
+  },
+  "bagneux": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 4.4,
+    "coverage": 0.97
+   }
+  },
+  "chatenay-malabry": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 7.3,
+    "coverage": 0.97
+   }
+  },
+  "fresnes": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 4.6,
+    "coverage": 1
+   }
+  },
+  "cachan": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 3.9,
+    "coverage": 1
+   }
+  },
+  "arcueil": {
+   "no2": {
+    "value": 17.2,
+    "station": "PARIS 13eme",
+    "stationCode": "FR04037",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 1
+   }
+  },
+  "gentilly": {
+   "no2": {
+    "value": 17.2,
+    "station": "PARIS 13eme",
+    "stationCode": "FR04037",
+    "area": "urban",
+    "distanceKm": 1.8,
+    "coverage": 1
+   }
+  },
+  "le-kremlin-bicetre": {
+   "no2": {
+    "value": 17.2,
+    "station": "PARIS 13eme",
+    "stationCode": "FR04037",
+    "area": "urban",
+    "distanceKm": 1.7,
+    "coverage": 1
+   }
+  },
+  "bois-colombes": {
+   "no2": {
+    "value": 19.8,
+    "station": "GENNEVILLIERS",
+    "stationCode": "FR04002",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 0.87
+   }
+  },
+  "la-garenne-colombes": {
+   "no2": {
+    "value": 19.8,
+    "station": "LA DEFENSE",
+    "stationCode": "FR04150",
+    "area": "urban",
+    "distanceKm": 1.7,
+    "coverage": 1
+   }
+  },
+  "eaubonne": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 6.2,
+    "coverage": 0.99
+   }
+  },
+  "goussainville": {
+   "no2": {
+    "value": 17.3,
+    "station": "GONESSE",
+    "stationCode": "FR04024",
+    "area": "suburban",
+    "distanceKm": 4.3,
+    "coverage": 0.95
+   }
+  },
+  "saint-leu-la-foret": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 7.4,
+    "coverage": 0.99
+   }
+  },
+  "soisy-sous-montmorency": {
+   "no2": {
+    "value": 19.8,
+    "station": "GENNEVILLIERS",
+    "stationCode": "FR04002",
+    "area": "urban",
+    "distanceKm": 8,
+    "coverage": 0.87
+   }
+  },
+  "montmorency": {
+   "no2": {
+    "value": 22.2,
+    "station": "SAINT-DENIS",
+    "stationCode": "FR04059",
+    "area": "urban",
+    "distanceKm": 6.8,
+    "coverage": 1
+   }
+  },
+  "domont": {
+   "no2": {
+    "value": 17.3,
+    "station": "GONESSE",
+    "stationCode": "FR04024",
+    "area": "suburban",
+    "distanceKm": 9.9,
+    "coverage": 0.95
+   }
+  },
+  "velizy-villacoublay": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 4.5,
+    "coverage": 0.99
+   }
+  },
+  "le-chesnay-rocquencourt": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 2.5,
+    "coverage": 0.99
+   }
+  },
+  "elancourt": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 12.7,
+    "coverage": 0.99
+   }
+  },
+  "maurepas": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 14.1,
+    "coverage": 0.99
+   }
+  },
+  "saint-omer": {
+   "no2": {
+    "value": 5.4,
+    "station": "Campagne les B.",
+    "stationCode": "FR10132",
+    "area": "rural-regional",
+    "distanceKm": 24.1,
+    "coverage": 0.98
+   }
+  },
+  "hazebrouck": {
+   "no2": {
+    "value": 11,
+    "station": "Bethune Stade",
+    "stationCode": "FR28028",
+    "area": "urban",
+    "distanceKm": 22.1,
+    "coverage": 0.93
+   }
+  },
+  "armentieres": {
+   "no2": {
+    "value": 10.6,
+    "station": "Wattignies",
+    "stationCode": "FR11114",
+    "area": "suburban",
+    "distanceKm": 15.5,
+    "coverage": 0.97
+   }
+  },
+  "maubeuge": {
+   "no2": {
+    "value": 4.2,
+    "station": "Cartignies",
+    "stationCode": "FR06133",
+    "area": "rural-nearcity",
+    "distanceKm": 22.5,
+    "coverage": 0.89
+   }
+  },
+  "denain": {
+   "no2": {
+    "value": 12,
+    "station": "Denain Villars",
+    "stationCode": "FR06011",
+    "area": "suburban",
+    "distanceKm": 0.5,
+    "coverage": 0.98
+   }
+  },
+  "henin-beaumont": {
+   "no2": {
+    "value": 12,
+    "station": "Harnes Serres",
+    "stationCode": "FR28010",
+    "area": "suburban",
+    "distanceKm": 4.9,
+    "coverage": 1
+   }
+  },
+  "montigny-les-metz": {
+   "no2": {
+    "value": 11.6,
+    "station": "Scy-Chazelles",
+    "stationCode": "FR01018",
+    "area": "suburban",
+    "distanceKm": 2.3,
+    "coverage": 0.99
+   }
+  },
+  "hayange": {
+   "no2": {
+    "value": 14.8,
+    "station": "Thionville-Centre",
+    "stationCode": "FR01020",
+    "area": "urban",
+    "distanceKm": 7.3,
+    "coverage": 0.99
+   }
+  },
+  "riedisheim": {
+   "no2": {
+    "value": 11.7,
+    "station": "Mulhouse Sud 2",
+    "stationCode": "FR16066",
+    "area": "urban",
+    "distanceKm": 4.6,
+    "coverage": 0.98
+   }
+  },
+  "kingersheim": {
+   "no2": {
+    "value": 11.7,
+    "station": "Mulhouse Sud 2",
+    "stationCode": "FR16066",
+    "area": "urban",
+    "distanceKm": 6.5,
+    "coverage": 0.98
+   }
+  },
+  "saint-genis-laval": {
+   "no2": {
+    "value": 15,
+    "station": "GERLAND",
+    "stationCode": "FR20017",
+    "area": "urban",
+    "distanceKm": 5.2,
+    "coverage": 1
+   }
+  },
+  "givors": {
+   "no2": {
+    "value": 12.5,
+    "station": "TERNAY",
+    "stationCode": "FR20037",
+    "area": "suburban",
+    "distanceKm": 2.9,
+    "coverage": 0.98
+   }
+  },
+  "rillieux-la-pape": {
+   "no2": {
+    "value": 8.8,
+    "station": "COTIERE AIN",
+    "stationCode": "FR20047",
+    "area": "suburban",
+    "distanceKm": 4.1,
+    "coverage": 0.99
+   }
+  },
+  "sainte-foy-les-lyon": {
+   "no2": {
+    "value": 15,
+    "station": "GERLAND",
+    "stationCode": "FR20017",
+    "area": "urban",
+    "distanceKm": 2.6,
+    "coverage": 1
+   }
+  },
+  "oullins-pierre-benite": {
+   "no2": {
+    "value": 15,
+    "station": "GERLAND",
+    "stationCode": "FR20017",
+    "area": "urban",
+    "distanceKm": 2.7,
+    "coverage": 1
+   }
+  },
+  "sallanches": {
+   "no2": {
+    "value": 10.2,
+    "station": "PASSY",
+    "stationCode": "FR33220",
+    "area": "suburban",
+    "distanceKm": 6.6,
+    "coverage": 0.99
+   }
+  },
+  "vernon": {
+   "no2": {
+    "value": 13.9,
+    "station": "MANTES-LA-JOLIE",
+    "stationCode": "FR04063",
+    "area": "suburban",
+    "distanceKm": 19.4,
+    "coverage": 0.94
+   }
+  },
+  "sotteville-les-rouen": {
+   "no2": {
+    "value": 11.6,
+    "station": "Centre Hospitalier",
+    "stationCode": "FR25043",
+    "area": "urban",
+    "distanceKm": 1.4,
+    "coverage": 0.94
+   }
+  },
+  "le-grand-quevilly": {
+   "no2": {
+    "value": 14.1,
+    "station": "Petit Quevilly",
+    "stationCode": "FR25048",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 0.98
+   }
+  },
+  "mont-saint-aignan": {
+   "no2": {
+    "value": 15.9,
+    "station": "Rouen Justice",
+    "stationCode": "FR25036",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 0.95
+   }
+  },
+  "chantilly": {
+   "no2": {
+    "value": 15.1,
+    "station": "Faiencerie Creil",
+    "stationCode": "FR18043",
+    "area": "urban",
+    "distanceKm": 7.3,
+    "coverage": 0.97
+   }
+  },
+  "meru": {
+   "no2": {
+    "value": 15.1,
+    "station": "Faiencerie Creil",
+    "stationCode": "FR18043",
+    "area": "urban",
+    "distanceKm": 24.5,
+    "coverage": 0.97
+   }
+  },
+  "villejuif": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 2,
+    "coverage": 1
+   }
+  },
+  "clamart": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 3.3,
+    "coverage": 0.97
+   }
+  },
+  "bobigny": {
+   "no2": {
+    "value": 20.7,
+    "station": "BOBIGNY",
+    "stationCode": "FR04156",
+    "area": "urban",
+    "distanceKm": 1.3,
+    "coverage": 0.99
+   }
+  },
+  "epinay-sur-seine": {
+   "no2": {
+    "value": 19.8,
+    "station": "GENNEVILLIERS",
+    "stationCode": "FR04002",
+    "area": "urban",
+    "distanceKm": 3,
+    "coverage": 0.87
+   }
+  },
+  "montrouge": {
+   "no2": {
+    "value": 17.2,
+    "station": "PARIS 13eme",
+    "stationCode": "FR04037",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 1
+   }
+  },
+  "meudon": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 3,
+    "coverage": 0.97
+   }
+  },
+  "vanves": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 1.8,
+    "coverage": 0.97
+   }
+  },
+  "l-hay-les-roses": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 1
+   }
+  },
+  "thiais": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 1.7,
+    "coverage": 1
+   }
+  },
+  "livry-gargan": {
+   "no2": {
+    "value": 19,
+    "station": "VILLEMOMBLE",
+    "stationCode": "FR04100",
+    "area": "urban",
+    "distanceKm": 4.6,
+    "coverage": 0.98
+   }
+  },
+  "villepinte": {
+   "no2": {
+    "value": 18.2,
+    "station": "TREMBLAY-EN-FRANCE",
+    "stationCode": "FR04319",
+    "area": "suburban",
+    "distanceKm": 2.5,
+    "coverage": 0.98
+   }
+  },
+  "gagny": {
+   "no2": {
+    "value": 19,
+    "station": "VILLEMOMBLE",
+    "stationCode": "FR04100",
+    "area": "urban",
+    "distanceKm": 1.9,
+    "coverage": 0.98
+   }
+  },
+  "clichy-sous-bois": {
+   "no2": {
+    "value": 19,
+    "station": "VILLEMOMBLE",
+    "stationCode": "FR04100",
+    "area": "urban",
+    "distanceKm": 3.7,
+    "coverage": 0.98
+   }
+  },
+  "romainville": {
+   "no2": {
+    "value": 20.7,
+    "station": "BOBIGNY",
+    "stationCode": "FR04156",
+    "area": "urban",
+    "distanceKm": 2.4,
+    "coverage": 0.99
+   }
+  },
+  "villemomble": {
+   "no2": {
+    "value": 19,
+    "station": "VILLEMOMBLE",
+    "stationCode": "FR04100",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.98
+   }
+  },
+  "ris-orangis": {
+   "no2": {
+    "value": 16.8,
+    "station": "EVRY",
+    "stationCode": "FR04323",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 0.97
+   }
+  },
+  "fontenay-aux-roses": {
+   "no2": {
+    "value": 16.7,
+    "station": "PARIS Stade Lenglen",
+    "stationCode": "FR04179",
+    "area": "urban",
+    "distanceKm": 4.8,
+    "coverage": 0.97
+   }
+  },
+  "chaville": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 4.3,
+    "coverage": 0.99
+   }
+  },
+  "joinville-le-pont": {
+   "no2": {
+    "value": 17.2,
+    "station": "CHAMPIGNY-SUR-MARNE",
+    "stationCode": "FR04101",
+    "area": "urban",
+    "distanceKm": 3.3,
+    "coverage": 0.97
+   }
+  },
+  "les-pavillons-sous-bois": {
+   "no2": {
+    "value": 19,
+    "station": "VILLEMOMBLE",
+    "stationCode": "FR04100",
+    "area": "urban",
+    "distanceKm": 2.8,
+    "coverage": 0.98
+   }
+  },
+  "neuilly-plaisance": {
+   "no2": {
+    "value": 19,
+    "station": "VILLEMOMBLE",
+    "stationCode": "FR04100",
+    "area": "urban",
+    "distanceKm": 2.2,
+    "coverage": 0.98
+   }
+  },
+  "orly": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 3.8,
+    "coverage": 1
+   }
+  },
+  "saint-gratien": {
+   "no2": {
+    "value": 19.8,
+    "station": "GENNEVILLIERS",
+    "stationCode": "FR04002",
+    "area": "urban",
+    "distanceKm": 4.5,
+    "coverage": 0.87
+   }
+  },
+  "vigneux-sur-seine": {
+   "no2": {
+    "value": 15.1,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 3,
+    "coverage": 0.99
+   }
+  },
+  "herblay-sur-seine": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 6.1,
+    "coverage": 0.99
+   }
+  },
+  "taverny": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 8.3,
+    "coverage": 0.99
+   }
+  },
+  "maisons-laffitte": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 6,
+    "coverage": 0.99
+   }
+  },
+  "gradignan": {
+   "no2": {
+    "value": 11.2,
+    "station": "TALENCE",
+    "stationCode": "FR31002",
+    "area": "urban",
+    "distanceKm": 3.5,
+    "coverage": 0.97
+   }
+  },
+  "eysines": {
+   "no2": {
+    "value": 10,
+    "station": "GRAND PARC",
+    "stationCode": "FR31001",
+    "area": "urban",
+    "distanceKm": 6.1,
+    "coverage": 0.95
+   }
+  },
+  "montgeron": {
+   "no2": {
+    "value": 15.1,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 0.5,
+    "coverage": 0.99
+   }
+  },
+  "longjumeau": {
+   "no2": {
+    "value": 19,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 11,
+    "coverage": 1
+   }
+  },
+  "acheres": {
+   "no2": {
+    "value": 19.6,
+    "station": "ARGENTEUIL",
+    "stationCode": "FR04051",
+    "area": "urban",
+    "distanceKm": 11.4,
+    "coverage": 0.99
+   }
+  },
+  "bretigny-sur-orge": {
+   "no2": {
+    "value": 16.8,
+    "station": "EVRY",
+    "stationCode": "FR04323",
+    "area": "urban",
+    "distanceKm": 9.2,
+    "coverage": 0.97
+   }
+  },
+  "saint-michel-sur-orge": {
+   "no2": {
+    "value": 16.8,
+    "station": "EVRY",
+    "stationCode": "FR04323",
+    "area": "urban",
+    "distanceKm": 8.6,
+    "coverage": 0.97
+   }
+  },
+  "lagny-sur-marne": {
+   "no2": {
+    "value": 16.2,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 6.9,
+    "coverage": 1
+   }
+  },
+  "bussy-saint-georges": {
+   "no2": {
+    "value": 16.2,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 4.6,
+    "coverage": 1
+   }
+  },
+  "saint-cyr-l-ecole": {
+   "no2": {
+    "value": 14.2,
+    "station": "VERSAILLES",
+    "stationCode": "FR04029",
+    "area": "suburban",
+    "distanceKm": 4.9,
+    "coverage": 0.99
+   }
+  },
+  "roissy-en-brie": {
+   "no2": {
+    "value": 16.2,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 5.7,
+    "coverage": 1
+   }
+  },
+  "coueron": {
+   "no2": {
+    "value": 4.1,
+    "station": "S ETIENNE DE MONTLUC",
+    "stationCode": "FR23070",
+    "area": "suburban",
+    "distanceKm": 8.9,
+    "coverage": 0.99
+   }
+  },
+  "halluin": {
+   "no2": {
+    "value": 12.8,
+    "station": "Halluin stade",
+    "stationCode": "FR11026",
+    "area": "suburban",
+    "distanceKm": 1.2,
+    "coverage": 0.97
+   }
+  }
+ }
+}

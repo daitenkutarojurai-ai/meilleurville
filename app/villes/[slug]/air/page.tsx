@@ -6,6 +6,7 @@ import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
+import { AirMeasuredCard } from "@/components/AirMeasuredCard";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
   computeAirQuality,
@@ -134,10 +135,11 @@ export default async function AirPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)]">
           Profil <strong>structurel</strong> des quatre polluants suivis par l&apos;indice ATMO :
           ce que la géographie, le trafic, le chauffage et le climat de {city.name} impliquent
-          en exposition moyenne. Les niveaux ci-dessous sont <strong>estimés</strong>, pas
-          mesurés — ils suivent le découpage de l&apos;indice ATMO, l&apos;inventaire
+          en exposition moyenne. Le score et les quatre profils plus bas sont <strong>estimés</strong>,
+          pas mesurés : ils suivent le découpage de l&apos;indice ATMO, l&apos;inventaire
           d&apos;émissions du CITEPA et le bulletin pollinique du RNSA, sans reprendre leurs
-          relevés. Pour la mesure horaire à la station la plus proche, consultez{" "}
+          relevés. Quand une station de fond existe à moins de 25 km, ses moyennes
+          annuelles mesurées sont affichées juste en dessous. Pour la mesure horaire, consultez{" "}
           <a
             href="https://www.atmo-france.org/article/lindice-atmo"
             target="_blank"
@@ -152,6 +154,8 @@ export default async function AirPage({ params }: Props) {
           <Badge>Estimation structurelle</Badge>
           <Badge>Cadres de référence : ATMO · CITEPA · RNSA</Badge>
         </div>
+
+        <AirMeasuredCard slug={city.slug} cityName={city.name} />
 
         {/* Composite hero */}
         <Card className={`mt-6 border-l-4 ${AIR_LEVEL_BG[a.level].replace('bg-', 'border-l-').replace('-50', '-500').split(' ')[0]}`}>
