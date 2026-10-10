@@ -4769,6 +4769,29 @@ plan Ahrefs refuse le keyword explorer et l'accès Search Console (`Insufficient
 plan`). Avant d'industrialiser la série de guides, sortir les volumes réels de la
 Search Console : ils décideront de l'ordre des villes, pas la population.
 
+**Point d'étape 2026-10-10 — sources testées en local, rien n'est encore collecté.**
+- **Indice ATMO par commune** (Atmo France, data.gouv `indice-de-la-qualite-de-lair-quotidien-par-commune-indice-atmo`) :
+  le flux WFS ouvert (`data.atmo-france.org/geoserver/ind/ows`) est **cassé** — toute requête répond
+  301 vers `/geoserver`, qui se redirige vers lui-même. La seule voie restante est l'**API v2**
+  (`admindata.atmo-france.org/api/v2/...`) : **jeton JWT de 24 h, compte gratuit à créer par le
+  propriétaire** sur `admindata.atmo-france.org/inscription-api`. Sans compte : 401. C'est la source
+  visée en premier par la phase 1, et elle attend ce compte (identifiants à poser en secret GitHub
+  pour que le data-runner l'interroge).
+- **AEE (Agence européenne de l'environnement), API de téléchargement** — publique, sans compte,
+  joignable : `POST https://eeadmz1-downloads-api-appservice.azurewebsites.net/ParquetFile/urls`
+  avec `{"countries":["FR"],"cities":[],"pollutants":["NO2"],"dataset":2,"source":"API"}`.
+  ⚠️ **Ajouter `dateTimeStart`/`dateTimeEnd` ou `aggregationType` rend une liste vide** — les omettre.
+  Dataset 2 = vérifié (E1a) : 1 965 fichiers parquet pour NO2/PM10/PM2.5/O3, 1,9 Go, **horaire,
+  jusqu'au 31/12/2025** (2025 vérifiée est donc disponible) ; dataset 1 = provisoire (E2a), 134 Mo.
+  Colonnes : `Samplingpoint` (`FR/SPO-FR23178_8`), `Start`, `Value`, `Unit`, `Validity` (−1 = invalide,
+  valeur −999), `Verification`. Lisible en JS pur avec `hyparquet`.
+  ⚠️ **Bloqueur** : les fichiers ne portent **pas de coordonnées**. Il faut la table des points de
+  prélèvement (code station `FR23178` → lat/lon) ; les URL d'export de métadonnées de l'AEE testées
+  (`AQViewer/download?fqn=...SamplingPoints|Stations`) répondent 500, et data.gouv n'a pas de liste
+  nationale des stations à jour (seulement des listes régionales, ex. Atmo BFC via Dijon métropole).
+  Piste suivante : le flux de rapportage « D » (stations) de la France sur le CDR Eionet
+  (`cdr.eionet.europa.eu/fr/eu/aqd/d/`), ou Geod'Air.
+
 ### F64 — Actualité locale par ville
 
 **Demande utilisateur (2026-08-03)** : une section « actu » sur chaque ville.

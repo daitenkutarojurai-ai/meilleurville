@@ -135,14 +135,13 @@ jobs:
           rm -rf .next out
           df -h /
 
-      # Les IDs GA4/GTM du site anglais sont inlinés au build (export statique) ;
-      # les [vars] de wrangler.en.toml ne sont lues qu'à l'exécution du Worker,
-      # donc sans ces deux lignes layout.tsx retombe sur les IDs FR.
+      # L'ID GA4 du site anglais est inliné au build (export statique) ; les
+      # [vars] de wrangler.en.toml ne sont lues qu'à l'exécution du Worker, donc
+      # sans cette ligne layout.tsx retombe sur l'ID FR. (GTM retiré le 10/10.)
       - name: Build EN
         if: steps.changed.outputs.go == 'true'
         env:
           NEXT_PUBLIC_GA4_ID: G-KX52P5TMN7
-          NEXT_PUBLIC_GTM_ID: GTM-NF5TVK9R
         run: npm run build:en
 
       - name: Deploy EN (bestcitiesinfrance.com)

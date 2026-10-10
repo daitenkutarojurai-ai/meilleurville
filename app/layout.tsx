@@ -5,13 +5,13 @@ import { CookieConsent } from "@/components/CookieConsent";
 import "./globals.css";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
-// Locale-specific containers: bestcitiesinfrance.com used to send its hits to
-// the FR GA4 property/GTM container (both hardcoded, no locale branch), so EN
-// traffic was invisible in any report scoped to the FR property — the config
-// itself made "EN analytics" unmeasurable, independent of actual visits.
-// Overridable per Worker via wrangler*.toml [vars]; falls back to the
-// long-standing FR IDs so nothing breaks until distinct EN IDs are created.
-const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID ?? "GTM-MXMF7XFJ";
+// Locale-specific GA4 property: bestcitiesinfrance.com used to send its hits
+// to the FR property (hardcoded, no locale branch), so EN traffic was invisible
+// in any report scoped to it. The EN build sets NEXT_PUBLIC_GA4_ID (inlined at
+// build, see deploy.yml); FR falls back to the long-standing ID.
+// Google Tag Manager was removed on 2026-10-10 at the owner's request: it ran
+// alongside gtag.js on the same dataLayer, so a GA4 tag inside the container
+// would have counted every visit twice. GA4 alone remains.
 const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID ?? "G-4X0HKD8LC7";
 
 const inter = Inter({
@@ -173,8 +173,8 @@ export default function RootLayout({
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
         {/* Consent Mode v2 default — denied until the user accepts. Plain inline
             script (not next/script) so it ships in the static HTML and runs
-            synchronously, in document order, before GTM and the Google tag
-            queue any commands. */}
+            synchronously, in document order, before the Google tag
+            queues any commands. */}
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
@@ -198,27 +198,8 @@ gtag('consent', 'default', {
 gtag('config', '${GA4_ID}');`,
           }}
         />
-        {/* Google Tag Manager — shares the same dataLayer/gtag and consent state. */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${GTM_ID}');`,
-          }}
-        />
       </head>
       <body className="min-h-full flex flex-col antialiased pb-[calc(3.75rem+env(safe-area-inset-bottom))] lg:pb-0">
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:rounded-xl focus:bg-[var(--accent)] focus:px-4 focus:py-2 focus:text-white focus:shadow-lg focus:ring-2 focus:ring-[var(--bg-canvas)]"
