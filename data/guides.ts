@@ -61015,6 +61015,381 @@ export const GUIDES: Guide[] = [
       "10-choses-a-faire-a-issy-les-moulineaux-2026"
     ],
     tags: ["10 choses à faire à Sceaux", "activités Sceaux 2026", "que faire dans les Hauts-de-Seine", "sorties Île-de-France parc Le Nôtre", "domaine de Sceaux Colbert pavillon Aurore Orangerie"]
+  },
+  {
+    slug: "10-choses-a-faire-a-chateaudun-2026",
+    title: "10 choses à faire à Châteaudun",
+    metaTitle: "10 choses à faire à Châteaudun en 2026",
+    metaDesc:
+      "Le donjon du XIIᵉ siècle, la Sainte-Chapelle et l'aile de Dunois : 10 activités à Châteaudun, sur son éperon au-dessus du Loir.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    intro:
+      "Châteaudun comptait 12 898 habitants au recensement de 2022, contre 13 216 en 2011. C'est une sous-préfecture d'Eure-et-Loir, et tout son intérêt tient à un château posé sur un éperon au-dessus du Loir. Un premier ouvrage fortifié existait sur le site dès le début du Xᵉ siècle selon les sources consultées, le donjon actuel date de la fin du XIIᵉ siècle, et Jean de Dunois, compagnon de Jeanne d'Arc, a fait bâtir la chapelle et l'aile qui portent son nom. Ce guide dit ce qui se voit, ce qui reste à vérifier avant le déplacement, et ce qui relève d'autres villes.",
+    sections: [
+      {
+        heading: "1. Le château au-dessus du Loir",
+        body: "Le château de Châteaudun occupe un promontoire qui domine la rivière et la vieille ville. C'est l'étape qui justifie le déplacement et elle se visite en suivant l'ordre de la construction : d'abord le donjon médiéval, puis la chapelle et l'aile du XVᵉ siècle. Horaires, tarifs et jours de fermeture changent selon la saison et se vérifient auprès du monument avant de venir."
+      },
+      {
+        heading: "2. Le donjon",
+        body: "Le donjon est une tour cylindrique massive, de l'ordre de 17 mètres de diamètre pour une trentaine de mètres de haut selon les sources consultées. Sa construction est située dans les années 1170-1180, sous l'autorité des comtes de Blois, les chroniques n'étant pas d'accord entre elles sur l'année précise : le guide s'en tient donc au dernier tiers du XIIᵉ siècle."
+      },
+      {
+        heading: "3. La Sainte-Chapelle",
+        body: "La chapelle castrale a été bâtie entre 1451 et 1493. Elle conserve un ensemble de statues de saints polychromes et une peinture murale du Jugement dernier. Le terme de Sainte-Chapelle désigne ici une chapelle de château de type royal, sans lien avec celle de Paris."
+      },
+      {
+        heading: "4. L'aile de Dunois et l'aile de Longueville",
+        body: "Jean de Dunois, fils naturel de Louis d'Orléans et compagnon d'armes de Jeanne d'Arc, reçoit le château en 1439. Il y fait élever la Sainte-Chapelle et l'aile qui porte son nom, l'aile de Longueville étant plus tardive. La visite des salles meublées de l'aile permet de lire l'évolution d'une forteresse en résidence."
+      },
+      {
+        heading: "5. La vieille ville sous le château",
+        body: "Les ruelles qui descendent du château vers le Loir se parcourent à pied en une heure ou deux. Il n'y a pas de programme, seulement des façades, des escaliers et des vues sur le promontoire. Le plaisir est celui d'une petite ville qui n'a pas été muséifiée."
+      },
+      {
+        heading: "6. Le musée des Beaux-Arts et d'histoire naturelle",
+        body: "Le musée de la ville n'est pas dans le château, il se trouve en ville. Il est connu pour une galerie d'ornithologie riche, qui côtoie des collections de peinture et d'archéologie. Sa programmation et ses jours d'ouverture changent, et se vérifient avant de s'y rendre."
+      },
+      {
+        heading: "7. Le Loir et ses berges",
+        body: "Le Loir longe la ville basse, et les berges se prêtent à une promenade tranquille quand il fait beau. C'est un bon complément après la visite du château, surtout avec des enfants à qui la montée a suffi. Les règles de pêche et de baignade sont affichées sur place et font foi."
+      },
+      {
+        heading: "8. Chartres et Vendôme dans la même journée",
+        body: "Châteaudun est à portée de deux autres villes d'Eure-et-Loir et du Loir-et-Cher qui ont leur propre guide : Chartres pour sa cathédrale, Vendôme pour son abbaye et son cadre fluvial. Ce sont des communes à part entière et chacune demande plus qu'un détour : choisir une seule autre étape donne une meilleure journée que de tout enchaîner."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "La visite du château se fait de préférence par beau temps, la montée et la cour étant à l'air libre. Le printemps et le début de l'automne évitent à la fois la chaleur et les journées écourtées de l'hiver. Les fermetures hivernales et les jours fériés sont à vérifier."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Châteaudun est desservie par la route et par une gare, les horaires et correspondances se vérifiant avant de partir. Une demi-journée suffit pour le château et la vieille ville, une journée pour ajouter le musée et les berges."
+      }
+    ],
+    relatedCities: ["chateaudun","chartres","vendome","orleans"],
+    relatedGuides: [
+      "10-choses-a-faire-a-chartres-2026",
+      "10-choses-a-faire-a-vendome-2026",
+      "10-choses-a-faire-a-orleans-2026"
+    ],
+    tags: ["10 choses à faire à Châteaudun","activités Châteaudun 2026","que faire dans l'Eure-et-Loir","sorties Centre-Val de Loire château médiéval","donjon Sainte-Chapelle Dunois Loir"]
+  },
+  {
+    slug: "10-choses-a-faire-a-peronne-2026",
+    title: "10 choses à faire à Péronne",
+    metaTitle: "10 choses à faire à Péronne en 2026",
+    metaDesc:
+      "L'Historial de la Grande Guerre dans le château, le jardin de la paix et l'histoire de Louis XI : 10 activités à Péronne, dans la Somme.",
+    category: "tourisme",
+    emoji: "🕊️",
+    readMinutes: 5,
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    intro:
+      "Péronne comptait 7 139 habitants au recensement de 2022, contre 7 796 en 2011, soit un recul d'environ 8 %. C'est une petite sous-préfecture de la Somme dont le visiteur retient d'abord un musée : l'Historial de la Grande Guerre, installé dans le château depuis 1992 et présenté comme le plus grand musée d'Europe consacré à la Première Guerre mondiale. Ce guide dit ce que le musée montre, ce qu'il ne montre pas, et ce qui relève des communes voisines du champ de bataille.",
+    sections: [
+      {
+        heading: "1. L'Historial de la Grande Guerre",
+        body: "Le musée est installé dans le château de Péronne et s'est ouvert en 1992. Il est consacré aux sociétés en guerre et non à la seule histoire militaire. C'est la raison de la visite et elle prend plusieurs heures si on la fait sérieusement. Horaires et conditions d'accès changent et se vérifient auprès du musée avant de venir."
+      },
+      {
+        heading: "2. Trois nations, un seul parcours",
+        body: "Le propos du musée est comparatif : il présente côte à côte l'Allemagne, la France et la Grande-Bretagne, les trois principaux belligérants du front occidental. Ce choix en fait un lieu différent des mémoriaux nationaux : on y voit comment trois sociétés ont vécu la même guerre, avec des objets du quotidien autant que des armes."
+      },
+      {
+        heading: "3. L'architecture de Henri Ciriani",
+        body: "L'extension moderne du château est l'œuvre de l'architecte Henri Ciriani. La lumière y est canalisée par de grandes ouvertures censées évoquer les tranchées. C'est un bâtiment qui se regarde pour lui-même, et qui explique pourquoi la visite se fait dans un décor contemporain accolé à une forteresse ancienne."
+      },
+      {
+        heading: "4. Le jardin de la paix dans les douves",
+        body: "Un jardin de la paix a été aménagé dans les douves du château en 2018. Il prolonge la visite à l'air libre et donne une pause appréciable après plusieurs salles d'exposition. Il est ouvert selon des conditions propres au musée, à vérifier."
+      },
+      {
+        heading: "5. Le château, plus ancien que la guerre",
+        body: "Le château lui-même est antérieur de plusieurs siècles au conflit qu'il raconte. Les sources consultées divergent : l'une le date de la fin du XIIᵉ siècle sous Philippe Auguste, l'autre du XIIIᵉ siècle. Le guide s'en tient à cette fourchette plutôt que de trancher. C'est aussi dans ce château que Louis XI a été retenu par Charles le Téméraire en 1468."
+      },
+      {
+        heading: "6. Se promener dans la ville",
+        body: "Péronne est une petite ville qui se parcourt en une heure ou deux : remparts, rues du centre, bords de la Somme. Elle a beaucoup souffert pendant la Première Guerre mondiale et son centre a été reconstruit : il ne faut pas s'y attendre à un décor médiéval homogène."
+      },
+      {
+        heading: "7. La Somme et ses étangs",
+        body: "La rivière traverse la ville et l'entoure d'étangs et de marais. C'est un cadre de promenade simple, qui complète bien un après-midi de musée. Les règles de pêche, de baignade et de navigation sont affichées sur place et font foi."
+      },
+      {
+        heading: "8. Le champ de bataille de la Somme",
+        body: "Les sites de la bataille de la Somme ne sont pas à Péronne : mémoriaux, cimetières et villages détruits relèvent de communes voisines, comme Thiepval, Longueval ou Albert. Ils sont accessibles depuis Péronne en voiture, et il vaut mieux préparer l'itinéraire à l'avance plutôt que de se fier à un calculateur de trajet sur des routes secondaires."
+      },
+      {
+        heading: "9. Respect et prudence sur les terrains de guerre",
+        body: "Les anciens champs de bataille sont des lieux de mémoire et des cimetières. Les terres agricoles alentour peuvent encore rejeter des munitions : ne jamais ramasser ni toucher un objet métallique suspect, et prévenir la mairie ou la gendarmerie."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Péronne se rejoint par la route et par les gares de la région, les horaires se vérifiant avant de partir. Une demi-journée suffit pour le musée seul, une journée complète pour le musée et une sortie sur les sites alentour."
+      }
+    ],
+    relatedCities: ["peronne","amiens","cambrai"],
+    relatedGuides: [
+      "10-choses-a-faire-a-amiens-2026",
+      "10-choses-a-faire-a-cambrai-2026"
+    ],
+    tags: ["10 choses à faire à Péronne","activités Péronne 2026","que faire dans la Somme","sorties Hauts-de-France mémoire 14-18","Historial Grande Guerre château Ciriani"]
+  },
+  {
+    slug: "10-choses-a-faire-a-sarreguemines-2026",
+    title: "10 choses à faire à Sarreguemines",
+    metaTitle: "10 choses à faire à Sarreguemines en 2026",
+    metaDesc:
+      "Le musée de la faïence, le jardin d'hiver carrelé de faïence et la frontière allemande : 10 activités à Sarreguemines, en Moselle.",
+    category: "tourisme",
+    emoji: "🏺",
+    readMinutes: 5,
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    intro:
+      "Sarreguemines comptait 20 324 habitants au recensement de 2022, contre 21 604 en 2011. C'est une sous-préfecture de Moselle, posée au confluent de la Sarre et de la Blies, sur la frontière allemande. Sa singularité est une industrie : la faïence, dont le musée local conserve l'histoire. Ce guide dit ce que le musée montre, ce qui se trouve dans les communes voisines, et ce que la proximité de la frontière change en pratique.",
+    sections: [
+      {
+        heading: "1. Le musée de la faïence",
+        body: "Le musée de la faïence et son jardin d'hiver se trouvent rue Poincaré. Les collections couvrent les grandes familles de matériaux céramiques : terre cuite, faïence fine, grès fin et porcelaine, présentés en plusieurs salles. C'est l'étape principale d'une visite de Sarreguemines. Horaires, jours de gratuité et expositions changent et se vérifient auprès du musée."
+      },
+      {
+        heading: "2. Le jardin d'hiver",
+        body: "Le jardin d'hiver a été construit entre 1880 et 1882, près des anciens appartements de Paul de Geiger, alors directeur des manufactures. Ses murs sont couverts de carreaux de faïence dessinés par les artistes de la manufacture, avec une fontaine monumentale en faïence au centre du mur d'entrée. Le lieu est protégé au titre des monuments historiques."
+      },
+      {
+        heading: "3. Une ville née de la faïence",
+        body: "La faïence a fait la ville et son histoire industrielle se lit dans le musée plus que dans la rue. Le guide ne détaille pas ici l'histoire des manufactures, dont les dates varient selon les sources : le musée et l'office de tourisme en donnent la version à jour."
+      },
+      {
+        heading: "4. Le confluent de la Sarre et de la Blies",
+        body: "La ville s'est développée au confluent de deux rivières, et les berges se prêtent à la promenade. C'est un cadre simple, sans programme, qui complète une visite de musée. Les règles de baignade et de pêche sont affichées sur place et font foi."
+      },
+      {
+        heading: "5. Le centre-ville",
+        body: "Le centre se parcourt à pied en une heure ou deux : place, rues commerçantes, églises et bâtiments du XIXᵉ siècle liés à l'essor industriel. Les marchés ont leurs jours, à vérifier auprès de la mairie."
+      },
+      {
+        heading: "6. La frontière allemande",
+        body: "Sarreguemines est une ville-frontière : l'Allemagne, du côté de la Sarre, est à quelques kilomètres. La frontière est un passage intérieur de l'espace Schengen, sans formalité, mais avec une pièce d'identité à porter sur soi. Un lecteur qui traverse en voiture doit vérifier la réglementation locale de stationnement et de circulation."
+      },
+      {
+        heading: "7. Le parc archéologique européen de Bliesbruck-Reinheim",
+        body: "Un grand site gallo-romain se trouve de part et d'autre de la frontière, à Bliesbruck côté français et à Reinheim côté allemand. Il est accessible depuis Sarreguemines : c'est une commune à part entière, et la visite demande une demi-journée. Horaires et programmes sont à vérifier avant de partir."
+      },
+      {
+        heading: "8. Le marché de Noël",
+        body: "La ville accueille un marché de Noël à la fin de l'année, pendant lequel l'entrée au musée peut être gratuite selon la programmation. Les dates et conditions varient d'une édition à l'autre : le guide ne les donne pas et renvoie à l'office de tourisme."
+      },
+      {
+        heading: "9. Où manger",
+        body: "La cuisine locale est celle de la Moselle de l'Est, avec des influences lorraines et sarroises. Sans prétendre à une adresse de référence, le plus sûr est de regarder ce qui est ouvert à midi près du centre et de réserver pour le week-end."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Sarreguemines est desservie par la route et par le train, les correspondances se vérifiant avant de partir. Une demi-journée suffit pour le musée et le centre, une journée pour ajouter Bliesbruck-Reinheim."
+      }
+    ],
+    relatedCities: ["sarreguemines","thionville"],
+    relatedGuides: [
+      "10-choses-a-faire-a-thionville-2026",
+      "10-choses-a-faire-a-saverne-2026"
+    ],
+    tags: ["10 choses à faire à Sarreguemines","activités Sarreguemines 2026","que faire en Moselle","sorties Grand Est faïence","musée de la faïence jardin d'hiver"]
+  },
+  {
+    slug: "10-choses-a-faire-a-montargis-2026",
+    title: "10 choses à faire à Montargis",
+    metaTitle: "10 choses à faire à Montargis en 2026",
+    metaDesc:
+      "Les ponts et les canaux de la « Venise du Gâtinais », le musée Girodet et la prasline : 10 activités à Montargis, dans le Loiret.",
+    category: "tourisme",
+    emoji: "🌉",
+    readMinutes: 5,
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    intro:
+      "Montargis comptait 14 819 habitants au recensement de 2022, contre 14 616 en 2011, soit une légère hausse. C'est une sous-préfecture du Loiret, surnommée la « Venise du Gâtinais » parce que le canal de Briare, le Loing et plusieurs canaux de liaison traversent son centre sous une multitude de ponts. Ce guide dit ce qui se voit, ce qui se goûte, et ce que le surnom promet ou non.",
+    sections: [
+      {
+        heading: "1. La Venise du Gâtinais",
+        body: "Le surnom vient du fait que le canal de Briare et le Loing entourent la vieille ville, que le canal de Puiseaux et plusieurs canaux de liaison la traversent, et que les ponts s'y succèdent. Il ne faut pas y chercher Venise, mais une petite ville d'eau qui se parcourt à pied le long des quais."
+      },
+      {
+        heading: "2. Le circuit des ponts",
+        body: "L'office de tourisme propose un circuit des ponts, qui est la manière la plus simple de découvrir la ville. Un chiffre de 131 ponts et passerelles circule, sans que nous ayons pu le recouper : le guide ne le reprend pas à son compte. Le circuit se fait en une heure ou deux."
+      },
+      {
+        heading: "3. Le pont du Québec",
+        body: "Parmi les ouvrages, le pont du Québec franchit le canal de Briare en une seule travée de 36,5 mètres et a été ouvert à la circulation le 10 mars 1977. C'est un exemple d'ouvrage moderne dans une ville dont les ponts sont d'ordinaire plus anciens."
+      },
+      {
+        heading: "4. Le pont Girodet et le musée Girodet",
+        body: "Le musée Girodet est consacré à l'enfant du pays, le peintre Anne-Louis Girodet. Il se trouve rue du Faubourg de la Chaussée. Ses collections de peinture sont l'un des attraits culturels de la ville. Horaires et accrochages changent et se vérifient avant la visite."
+      },
+      {
+        heading: "5. La prasline Mazet",
+        body: "La prasline (amande enrobée de sucre caramélisé) est attribuée à Clément Jaluzot, cuisinier du duc de Praslin sous Louis XIII. La maison Mazet, fondée à Montargis, a repris la recette à la fin du XIXᵉ siècle et la fabrique toujours. Une Maison de la Prasline permet de découvrir les confiseries artisanales : c'est l'étape gourmande de la ville. L'attribution à Jaluzot relève de la tradition."
+      },
+      {
+        heading: "6. Les crottes du Chien",
+        body: "Autre spécialité locale, les crottes du Chien sont une praline à la noisette dans une coque de nougatine, enrobée de chocolat noir. Le nom surprend, la confiserie est sérieuse. À acheter en boutique plutôt qu'à chercher dans un menu."
+      },
+      {
+        heading: "7. Se promener le long des canaux",
+        body: "Les quais sont le meilleur de la ville : on marche d'un pont à l'autre, on s'arrête sur un banc, on regarde les péniches de plaisance en saison. La navigation de plaisance et les règles de circulation sur les berges sont affichées sur place."
+      },
+      {
+        heading: "8. Une petite ville qui ne recule pas",
+        body: "Contrairement à beaucoup de sous-préfectures de taille comparable, Montargis a gagné des habitants entre 2011 et 2022 (14 616 puis 14 819), après un creux à 14 222 en 2016. C'est une mesure, pas une explication : le recensement compte des résidents et ne dit pas pourquoi ils s'installent."
+      },
+      {
+        heading: "9. Orléans, la grande voisine",
+        body: "Montargis est une ville à part entière du Loiret, et Orléans, préfecture du département, a son propre guide. Les deux villes se complètent mal en une seule journée : mieux vaut choisir l'une ou l'autre."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Montargis est desservie par la route et par le train, les horaires se vérifiant avant de partir. Une demi-journée suffit pour le circuit des ponts et une dégustation, une journée avec le musée."
+      }
+    ],
+    relatedCities: ["montargis","orleans"],
+    relatedGuides: [
+      "10-choses-a-faire-a-orleans-2026",
+      "10-choses-a-faire-a-blois-2026"
+    ],
+    tags: ["10 choses à faire à Montargis","activités Montargis 2026","que faire dans le Loiret","sorties Centre-Val de Loire canaux","Venise du Gâtinais prasline Mazet"]
+  },
+  {
+    slug: "10-choses-a-faire-a-guebwiller-2026",
+    title: "10 choses à faire à Guebwiller",
+    metaTitle: "10 choses à faire à Guebwiller en 2026",
+    metaDesc:
+      "Trois églises, le musée Théodore Deck, le Florival et le Grand Ballon : 10 activités à Guebwiller, en Alsace.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    intro:
+      "Guebwiller comptait 11 090 habitants au recensement de 2022, contre 11 517 en 2011. C'est la capitale historique du Florival, vallée de la Lauch, dans le Haut-Rhin, au pied du Grand Ballon, point culminant du massif vosgien. Sa spécificité est de réunir trois églises de styles très différents, un musée de céramique et un accès direct à la montagne. Ce guide dit ce qui se voit en ville et ce qui relève des communes voisines.",
+    sections: [
+      {
+        heading: "1. L'église Saint-Léger",
+        body: "Saint-Léger est entièrement bâtie en grès rose et rappelle le style roman tardif ; elle date du XIIᵉ siècle selon les sources consultées. Elle se trouve au cœur de la ville, autour de laquelle les habitations se sont resserrées. Les horaires d'ouverture varient, et il vaut mieux vérifier avant de se déplacer."
+      },
+      {
+        heading: "2. L'église Notre-Dame",
+        body: "Notre-Dame est une église néoclassique, élevée après 1759, quand l'abbaye de Murbach a obtenu son transfert à Guebwiller. Elle est présentée comme la plus grande église néoclassique d'Alsace. C'est un contraste franc avec Saint-Léger, à quelques pas."
+      },
+      {
+        heading: "3. Les Dominicains",
+        body: "L'ancien couvent des Dominicains, gothique, a été transformé en centre culturel. On y vient pour sa programmation autant que pour le bâtiment : expositions et concerts changent, et se consultent avant de venir."
+      },
+      {
+        heading: "4. Le musée Théodore Deck et des pays du Florival",
+        body: "Le musée porte le nom du céramiste Théodore Deck, né à Guebwiller. Il est présenté comme le plus grand musée du Haut-Rhin hors Colmar et Mulhouse. Collections, horaires et expositions changent, et se vérifient auprès du musée."
+      },
+      {
+        heading: "5. Le Florival",
+        body: "Guebwiller est la capitale historique du Florival, la vallée de la Lauch. La vallée se parcourt en voiture ou à vélo, avec ses villages et ses vignes en haut des pentes. Ce n'est pas une destination en soi mais le cadre naturel de la ville."
+      },
+      {
+        heading: "6. Le Grand Ballon",
+        body: "Le Grand Ballon, point culminant du massif des Vosges, se trouve à environ 8 kilomètres à vol d'oiseau à l'ouest de Guebwiller. Il est accessible depuis la ville, par des routes de montagne qui peuvent être fermées l'hiver : vérifier l'état des routes avant de partir. En haute montagne, la météo change vite."
+      },
+      {
+        heading: "7. La route des vins",
+        body: "Guebwiller est située sur la route des vins d'Alsace, et ses coteaux produisent du vin. Les dégustations se font chez des vignerons qui ouvrent selon des horaires variables : réserver par téléphone est la règle. Conduire après une dégustation est interdit au-delà des limites légales."
+      },
+      {
+        heading: "8. L'abbaye de Murbach",
+        body: "L'abbaye de Murbach, qui est à l'origine du transfert de chanoines évoqué plus haut, se trouve dans la commune voisine de Murbach. Elle est accessible depuis Guebwiller en quelques minutes en voiture. C'est un édifice roman de grès rose, à visiter comme une sortie à part."
+      },
+      {
+        heading: "9. Le marché de Noël",
+        body: "La ville organise un marché de Noël. Les dates changent d'une année à l'autre et se vérifient auprès de l'office de tourisme, la fréquentation étant forte les week-ends."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Guebwiller est desservie par la route, les liaisons ferroviaires étant limitées dans la vallée : vérifier avant de partir. Une demi-journée suffit pour les églises et le musée, une journée avec le Grand Ballon ou Murbach."
+      }
+    ],
+    relatedCities: ["guebwiller","colmar","mulhouse"],
+    relatedGuides: [
+      "10-choses-a-faire-a-colmar-2026",
+      "10-choses-a-faire-a-mulhouse-2026",
+      "10-choses-a-faire-a-selestat-2026"
+    ],
+    tags: ["10 choses à faire à Guebwiller","activités Guebwiller 2026","que faire dans le Haut-Rhin","sorties Alsace Florival Vosges","Guebwiller Grand Ballon Murbach"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-claude-2026",
+    title: "10 choses à faire à Saint-Claude",
+    metaTitle: "10 choses à faire à Saint-Claude en 2026",
+    metaDesc:
+      "Le musée de la pipe et du diamant, la cathédrale et ses stalles du XVᵉ siècle : 10 activités à Saint-Claude, dans le Haut-Jura.",
+    category: "tourisme",
+    emoji: "🪈",
+    readMinutes: 5,
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    intro:
+      "Saint-Claude comptait 8 556 habitants au recensement de 2022, contre 10 690 en 2011 : la commune a perdu environ un cinquième de sa population en onze ans. C'est une petite ville du Haut-Jura, au confluent de la Bienne et du Tacon, dans le parc naturel régional du Haut-Jura, connue pour la pipe et la taille du diamant. Ce guide dit ce qui se visite et ce que la démographie dit de la ville.",
+    sections: [
+      {
+        heading: "1. Le musée de la pipe et du diamant",
+        body: "Le musée se trouve place Jacques Faizant. Il présente des pipes et des pierres précieuses, avec une salle qui reconstitue un atelier de lapidaire peuplé d'automates. La visite donne accès à la salle capitulaire où l'on intronise les nouveaux pipiers. Horaires et tarifs changent et se vérifient auprès du musée."
+      },
+      {
+        heading: "2. La cathédrale Saint-Pierre",
+        body: "La cathédrale est un édifice gothique construit entre le XIVᵉ et le XVIIIᵉ siècle et classé monument historique. Elle est le monument principal de la ville. Les horaires d'ouverture varient, et la visite doit tenir compte des offices."
+      },
+      {
+        heading: "3. Les stalles de Jehan de Vitry",
+        body: "La cathédrale abrite des stalles en noyer du XVᵉ siècle, sculptées par Jehan de Vitry, qui figurent parmi les plus remarquables de France selon les sources consultées. C'est la raison de s'arrêter plus longtemps dans le chœur."
+      },
+      {
+        heading: "4. Une ville au confluent",
+        body: "La ville s'étire au confluent de la Bienne et du Tacon, entre pentes et gorges. La topographie explique la forme de la ville, haute et étroite, plus que son architecture. Se promener y demande de monter et de descendre."
+      },
+      {
+        heading: "5. La pipe et le diamant, deux métiers d'art",
+        body: "Saint-Claude est labellisée Ville et Métiers d'Art. La pipe et la taille de pierres précieuses y ont longtemps fait vivre des ateliers. Le musée en raconte l'histoire, et quelques artisans travaillent encore : leurs horaires de visite sont à vérifier."
+      },
+      {
+        heading: "6. Le parc naturel régional du Haut-Jura",
+        body: "La ville se trouve dans le parc naturel régional du Haut-Jura. Les sorties de nature, à pied ou en raquettes l'hiver, partent de communes voisines. En montagne, la météo change vite et la neige ferme certaines routes : vérifier avant de partir."
+      },
+      {
+        heading: "7. Une ville qui se vide",
+        body: "Le recensement donne 10 690 habitants en 2011, 9 526 en 2016, 8 556 en 2022 : un recul continu, sur toute la période. C'est une mesure, pas un verdict sur la ville, et le recensement ne dit pas pourquoi. Le guide n'en tire aucune conclusion sur la vie de la ville."
+      },
+      {
+        heading: "8. Lons-le-Saunier et Pontarlier à proximité",
+        body: "Les villes voisines les plus connues, Lons-le-Saunier et Pontarlier, ont leur propre guide. Ce sont des communes à part entière à plusieurs dizaines de minutes de route : mieux vaut les traiter comme des sorties séparées."
+      },
+      {
+        heading: "9. Les routes de montagne en hiver",
+        body: "Les accès au Haut-Jura passent par des routes de montagne exposées à la neige et au verglas. Équipements et conditions se vérifient avant de partir, et il est prudent de prévoir une marge de temps."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Saint-Claude se rejoint surtout par la route, les liaisons ferroviaires étant limitées : vérifier avant de partir. Une demi-journée suffit pour le musée et la cathédrale, une journée en ajoutant une sortie dans le parc."
+      }
+    ],
+    relatedCities: ["saint-claude","lons-le-saunier","pontarlier"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lons-le-saunier-2026",
+      "10-choses-a-faire-a-pontarlier-2026",
+      "10-choses-a-faire-a-besancon-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Claude","activités Saint-Claude 2026","que faire dans le Jura","sorties Bourgogne-Franche-Comté pipe diamant","Saint-Claude cathédrale stalles Haut-Jura"]
   }
 ];
 

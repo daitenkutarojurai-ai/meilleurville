@@ -2558,6 +2558,26 @@ maubeuge, sartene, sceaux). Vigilance : Maubeuge/UNESCO, Lannion↔Telstar (angl
 Gisements FR restants (non couverts, mesurés) : Montbard, Sainte-Maxime, Mandelieu-la-Napoule, Berck,
 Florac, Sarreguemines, Saint-Claude, Péronne, Châteaudun, Montargis, Guebwiller, Sallanches.
 
+**Batch 56 — FR, shipped 2026-10-10 : Châteaudun, Péronne, Sarreguemines, Montargis, Guebwiller,
+Saint-Claude.** Parité FR/EN à l'arrivée (289/289 après diff avec table des articles), donc batch FR,
+six villes prises dans les trous listés au batch 54 (aucune n'avait de guide). **Compteurs mesurés :
+FR 295 (`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'`), EN 289 ; `GUIDES` 1 213 → 1 219.**
+Guides courts (8 à 10 sections), **uniquement des faits recoupés par recherche web ce run** (la
+recherche fonctionne, `WebFetch` non essayé) : ni horaire, ni tarif, ni hauteur non sourcée ; les
+divergences sont publiées (âge du château de Péronne fin XIIᵉ ou XIIIᵉ, donjon de Châteaudun
+« dernier tiers du XIIᵉ », 131 ponts de Montargis **non repris** faute de recoupement, attribution
+de la prasline à Jaluzot donnée comme tradition). Populations = Insee 2022 de
+`data/city-population.json` (Saint-Claude 10 690 → 8 556 sur 2011-2022, dit sans verdict).
+Prudences : « accessible depuis » pour Bliesbruck-Reinheim, Murbach, Thiepval/Longueval/Albert, Grand
+Ballon ; munitions non explosées sur les terres de la Somme ; routes de montagne en hiver.
+`tsc`, `integrity`, `search-index` (276 tags, 2 de plus) et `sitemap:check` (FR 30 609, EN 30 204)
+verts ; `npm run build` non lancé. Contrôle lookup/photo exhaustif **non refait** ce run.
+**Prochain run : batch EN** (écart FR→EN = 6 villes : chateaudun, peronne, sarreguemines, montargis,
+guebwiller, saint-claude). Vigilance EN : Péronne (Historial, Louis XI 1468, front de la Somme vu de
+Grande-Bretagne), Guebwiller (Grand Ballon), Montargis (désambiguïser des homonymes). Gisements FR
+restants : Montbard, Sainte-Maxime, Mandelieu-la-Napoule, Berck, Florac-Trois-Rivières, Sallanches,
+Saint-Herblain.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique
