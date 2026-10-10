@@ -61391,6 +61391,58 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Saint-Claude","activités Saint-Claude 2026","que faire dans le Jura","sorties Bourgogne-Franche-Comté pipe diamant","Saint-Claude cathédrale stalles Haut-Jura"]
   }
+  ,{
+    slug: "rendement-locatif-brut-villes-pas-cheres-piege-2026",
+    title: "Rendement locatif brut : pourquoi le haut du classement est un piège",
+    metaTitle: "Rendement locatif brut : le piège des villes pas chères",
+    metaDesc:
+      "Rendement brut calculé sur 362 villes (DVF 2024-2025 et loyers T2) : les 30 premières perdent des habitants, 19 sur 30. Ce que le chiffre cache.",
+    category: "budget",
+    emoji: "📉",
+    readMinutes: 7,
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    intro:
+      "Classez les villes françaises par rendement locatif brut et Montluçon sort en tête à 19,2 %, devant Montbéliard, Vierzon, Maubeuge et Nevers. Un tel chiffre ressemble à une aubaine. C'est surtout un signal : il dit où le prix d'achat est tombé, et le prix tombe là où la demande part. Nous avons fait le calcul sur 362 communes et recoupé le résultat avec l'évolution de leur population. Voici ce qu'il montre, et ce qu'il ne prouve pas.",
+    sections: [
+      {
+        heading: "Le calcul, et ses limites",
+        body: "Le rendement brut est ici le loyer annuel d'un T2 divisé par le prix d'un appartement de 45 m² vendu au prix médian de la commune. Le loyer vient du repère éditorial de notre base de loyers : c'est une référence par ville, pas un relevé d'annonces. Le prix vient des ventes réellement enregistrées en 2024 et 2025 (DVF, DGFiP). Nous retenons les communes de plus de 20 000 habitants au recensement 2022 qui comptent au moins 100 ventes d'appartement, soit 362 villes. La surface de 45 m² est une constante : la changer déplace le niveau affiché, jamais l'ordre du classement. Les communes d'Alsace-Moselle, absentes de DVF, ne figurent pas dans l'échantillon. Le résultat est un ordre de grandeur brut, avant taxe foncière, charges, vacance et travaux.",
+      },
+      {
+        heading: "Ce que dit le classement",
+        body: "La médiane des 362 villes est de 7,4 %. 132 villes dépassent 8 % et 45 dépassent 10 %. En bas de tableau, Paris tombe à 5,0 % (335e rang), et le plancher est à 3,5 % à Saint-Paul de La Réunion. En haut, les cinq premiers sont Montluçon (19,2 %), Montbéliard (15,4 %), Vierzon (14,0 %), Maubeuge (13,9 %) et Nevers (13,5 %). Les prix médians y sont de 680 à 1 050 € le mètre carré. À Montluçon, 45 m² coûtent 30 600 € au prix médian pour un loyer de référence de 5 880 € par an : personne ne devrait lire ce 19 % comme une rente à encaisser.",
+      },
+      {
+        heading: "Le haut du classement se vide",
+        body: "Nous avons croisé le rang de rendement avec l'évolution de la population municipale entre 2011 et 2022 (Insee). Le gradient est net. Sur les 30 premières villes, la variation médiane est de -1,8 % et 19 perdent des habitants. Du 31e au 90e rang, elle est de +2,2 %. Du 91e au 180e, +4,1 %. Du 181e au 270e, +5,1 %. Sur les 92 dernières villes, +6,0 %. La médiane de l'ensemble est de +3,9 %. Depuis 2016, 17 des 30 premières perdent encore des habitants. La corrélation de rang entre rendement et croissance est de -0,29 : modérée, bien réelle, loin d'une loi.",
+      },
+      {
+        heading: "Pourquoi un prix bas n'est pas une décote",
+        body: "Un prix au mètre carré à 700 ou 1 000 € signale souvent un marché où les acheteurs manquent. Le loyer de référence, lui, ne baisse pas dans les mêmes proportions : c'est ce qui gonfle le ratio. Le calcul ne voit pas ce que le chiffre cache. La vacance entre deux locataires est plus longue quand la demande est faible, et nous n'avons pas de mesure de vacance par commune. La taxe foncière et les charges de copropriété pèsent plus lourd rapportées à un petit prix. Le parc à ce prix demande plus souvent des travaux. Enfin, la revente se fait à l'échelle du même marché étroit. Aucun de ces points n'est mesuré ici : ce sont des raisons de lire le brut avec méfiance, pas des pertes chiffrées.",
+      },
+      {
+        heading: "Les grandes villes, à l'inverse",
+        body: "Parmi les 20 communes de plus de 150 000 habitants de l'échantillon, seule Saint-Étienne figure dans les dix premières du classement général (12,9 %, 7e rang, +1,5 % d'habitants depuis 2011). Perpignan, à 11,6 % (14e rang), est la seule autre ville de plus de 100 000 habitants dans les 30 premières. Les métropoles qui gagnent du monde rendent peu : Toulouse 7,0 % pour +14,4 % d'habitants, Montpellier 6,8 % pour +16,1 %, Nantes 6,6 % pour +12,9 %, Bordeaux 5,8 %, Lyon 6,0 %. Le marché paie la croissance en prix d'achat, et le rendement brut en est la contrepartie arithmétique.",
+      },
+      {
+        heading: "Les villes qui cumulent les deux mesures",
+        body: "Le croisement existe. 35 communes affichent au moins 8 % de rendement brut, au moins +5 % d'habitants entre 2011 et 2022 et un solde non négatif depuis 2016. En tête par rendement : Sens (10,9 %, +8,5 %), Muret (10,6 %, +6,5 %), Carpentras (10,6 %, +7,1 %), Givors (10,1 %, +6,2 %), puis Alès (9,6 %, +10,2 %), Vénissieux (9,6 %, +10,9 %), Draguignan (9,2 %, +8,8 %) et Bourg-en-Bresse (9,0 %, +5,5 %). Dans les 30 premières du rendement, seules deux villes dépassent +5 % : Sens et une commune de l'Essonne. Ce croisement est un tri de départ, pas une recommandation : il ne dit rien du quartier, de l'immeuble ni de la demande locative réelle.",
+      },
+      {
+        heading: "Comment lire un rendement brut",
+        body: "Trois réflexes. Comparez toujours le rendement à la trajectoire de la population de la commune : un 12 % sur une ville qui perd 8 % de ses habitants n'a pas le même sens qu'un 9 % sur une ville qui en gagne 10 %. Demandez-vous qui loue : sans étudiants, salariés d'un gros employeur ou ménages en transit, un loyer de référence reste théorique. Enfin, refaites le calcul avec des loyers d'annonces actuels pour le quartier précis, plutôt qu'avec une médiane communale. Sur l'angle fiscal et la gestion, les guides liés ci-dessous prennent le relais.",
+      },
+    ],
+    relatedCities: ["montlucon", "saint-etienne", "perpignan", "nevers", "sens", "toulouse"],
+    relatedGuides: [
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "investir-lmnp-par-ville-france-2026",
+      "villes-françaises-qui-perdent-habitants-2026",
+      "palmares-octobre-2026-taux-effort-logement",
+    ],
+    tags: ["rendement locatif", "investissement locatif", "DVF", "prix au m²", "villes qui perdent des habitants", "rendement brut"],
+  }
 ];
 
 // --- Build-time integrity check -------------------------------------------

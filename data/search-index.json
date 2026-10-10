@@ -9505,6 +9505,11 @@
       "slug": "10-choses-a-faire-a-saint-claude-2026",
       "title": "10 choses à faire à Saint-Claude",
       "emoji": "🪈"
+    },
+    {
+      "slug": "rendement-locatif-brut-villes-pas-cheres-piege-2026",
+      "title": "Rendement locatif brut : pourquoi le haut du classement est un piège",
+      "emoji": "📉"
     }
   ],
   "tags": [
@@ -9689,6 +9694,11 @@
       "count": 11
     },
     {
+      "slug": "investissement-locatif",
+      "label": "investissement locatif",
+      "count": 11
+    },
+    {
       "slug": "limoges",
       "label": "Limoges",
       "count": 11
@@ -9721,11 +9731,6 @@
     {
       "slug": "gastronomie",
       "label": "gastronomie",
-      "count": 10
-    },
-    {
-      "slug": "investissement-locatif",
-      "label": "investissement locatif",
       "count": 10
     },
     {
@@ -10364,6 +10369,11 @@
       "count": 4
     },
     {
+      "slug": "rendement-locatif",
+      "label": "rendement locatif",
+      "count": 4
+    },
+    {
       "slug": "saint-etienne",
       "label": "Saint-Étienne",
       "count": 4
@@ -10776,11 +10786,6 @@
     {
       "slug": "remote",
       "label": "remote",
-      "count": 3
-    },
-    {
-      "slug": "rendement-locatif",
-      "label": "rendement locatif",
       "count": 3
     },
     {

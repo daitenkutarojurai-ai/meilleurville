@@ -2578,6 +2578,8 @@ Grande-Bretagne), Guebwiller (Grand Ballon), Montargis (désambiguïser des homo
 restants : Montbard, Sainte-Maxime, Mandelieu-la-Napoule, Berck, Florac-Trois-Rivières, Sallanches,
 Saint-Herblain.
 
+**Guide data-led `rendement-locatif-brut-villes-pas-cheres-piege-2026` (budget), shipped 2026-10-10 — `GUIDES` 1 219 → 1 220 (compte `search-index`).** Rendement brut = loyer T2 annuel (`data/housing.ts`) ÷ (médiane DVF appartement 2024-2025 × 45 m²), 362 communes (pop 2022 > 20 000, ≥ 100 ventes, Alsace-Moselle hors DVF), croisé avec la variation de population Insee 2011→2022. Résultat publié : médiane 7,4 %, Montluçon 19,2 % en tête, et un gradient net (variation médiane −1,8 % sur les 30 premières, 19/30 perdent des habitants, +6,0 % sur les 92 dernières ; corrélation de rang −0,29, avec le score global +0,04). La surface de 45 m² est une constante qui ne change pas l'ordre ; vacance, taxe foncière et travaux sont dits non mesurés. Pas de série : ne pas décliner par ville avec des chiffres non sourcés (la série `investir-locatif-[ville]` héritée en contient).
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique
