@@ -641,7 +641,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
               <SectionRule emoji="🛡️" label={L("Sécurité & société", "Safety & society")} first />
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3 [&>*]:min-w-0">
                 <SafetyDeepCard city={city} locale={locale} />
-                <DemographyCard city={city} locale={locale} />
+                <DemographyCard city={city} demography={data.demography} locale={locale} />
                 <HealthcareCard city={city} locale={locale} />
                 <PublicServicesCard city={city} locale={locale} />
               </div>

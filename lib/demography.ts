@@ -27,7 +27,8 @@ import {
 
 const fmt = (n: number) => n.toLocaleString("fr-FR");
 
-export type DemoLevel = "dynamique" | "equilibre" | "vieillissant" | "critique";
+import type { DemoLevel } from "@/lib/demography-labels";
+export { DEMO_LEVEL_LABEL, DEMO_LEVEL_COLOR, DEMO_LEVEL_BG, type DemoLevel } from "@/lib/demography-labels";
 
 export interface DemoDimension {
   /** 0-10, 10 = tension maximale */
@@ -367,24 +368,3 @@ export function computeDemography(city: CityLight): Demography {
   out.signature = composeSignature(out, city.name);
   return out;
 }
-
-export const DEMO_LEVEL_LABEL: Record<DemoLevel, string> = {
-  dynamique: "Dynamique",
-  equilibre: "Équilibré",
-  vieillissant: "Vieillissant",
-  critique: "Critique",
-};
-
-export const DEMO_LEVEL_COLOR: Record<DemoLevel, string> = {
-  dynamique: "text-emerald-600",
-  equilibre: "text-amber-600",
-  vieillissant: "text-orange-600",
-  critique: "text-red-600",
-};
-
-export const DEMO_LEVEL_BG: Record<DemoLevel, string> = {
-  dynamique: "bg-emerald-50 border-emerald-200",
-  equilibre: "bg-amber-50 border-amber-200",
-  vieillissant: "bg-orange-50 border-orange-200",
-  critique: "bg-red-50 border-red-200",
-};

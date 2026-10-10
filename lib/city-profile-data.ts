@@ -16,6 +16,7 @@ import type { RentVsBuyData } from "@/lib/rent-vs-buy";
 import { cityParks, nearbyCityParks } from "@/lib/city-parks";
 import { biodiversityProfile, BIODIVERSITY_PAGES_LIVE } from "@/lib/biodiversity";
 import { comparePairSlug } from "@/lib/comparer-pairs";
+import { computeDemography, type Demography } from "@/lib/demography";
 
 export interface CityRankingPosition {
   slug: string;
@@ -53,6 +54,9 @@ export interface HonestReviewLite {
 }
 
 export interface CityProfileData {
+  /** F44 demography, computed here: lib/demography reads the 140 KB
+   *  city-population JSON, which must not reach the client bundle. */
+  demography: Demography;
   neighborhoods: ReturnType<typeof getNeighborhoods>;
   housing: ReturnType<typeof getHousing>;
   rankingPositions: CityRankingPosition[];
@@ -196,6 +200,7 @@ export function buildCityProfileData(city: CitySeed): CityProfileData {
   };
 
   return {
+    demography: computeDemography(city),
     neighborhoods: getNeighborhoods(city.slug),
     housing: getHousing(city.slug),
     rankingPositions,

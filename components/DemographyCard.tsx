@@ -1,15 +1,15 @@
 import Link from "@/components/AppLink";
 import { Users, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
-import {
-  computeDemography,
-  DEMO_LEVEL_LABEL,
-  DEMO_LEVEL_COLOR,
-} from "@/lib/demography";
+import { DEMO_LEVEL_LABEL, DEMO_LEVEL_COLOR } from "@/lib/demography-labels";
+import type { Demography } from "@/lib/demography";
 import type { CitySeed } from "@/data/cities-seed";
 
 interface Props {
-  city: CitySeed;
+  city: Pick<CitySeed, "slug" | "name">;
+  /** Computed server-side (lib/city-profile-data): importing computeDemography
+   *  here would ship data/city-population.json in the city-page bundle. */
+  demography: Demography;
   locale?: "fr" | "en";
 }
 
@@ -22,9 +22,9 @@ const DEMO_LEVEL_LABEL_EN: Record<keyof typeof DEMO_LEVEL_LABEL, string> = {
   critique: "Critical",
 };
 
-export function DemographyCard({ city, locale = "fr" }: Props) {
+export function DemographyCard({ city, demography, locale = "fr" }: Props) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
-  const d = computeDemography(city);
+  const d = demography;
   const dims: Array<[string, typeof d.ageing]> = [
     [L("Vieillis.", "Ageing"), d.ageing],
     [L("Jeunes", "Young"), d.youngActives],
