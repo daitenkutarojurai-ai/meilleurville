@@ -20,6 +20,27 @@
       "height": 300
     }
   },
+  "acheres": {
+    "insee": "78005",
+    "qid": "Q245504",
+    "file": "Chambourcy Vue d'Achères.jpg",
+    "author": "ℍenry Salomé",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Henrysalome",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Chambourcy_Vue_d%27Ach%C3%A8res.jpg",
+    "color": "#98b8d8",
+    "hero": {
+      "src": "/photos/villes/acheres-1024.348d1ddb.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/acheres-480.832541d1.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "agde": {
     "insee": "34003",
     "qid": "Q191396",
@@ -1700,6 +1721,27 @@
       "height": 300
     }
   },
+  "bretigny-sur-orge": {
+    "insee": "91103",
+    "qid": "Q837748",
+    "file": "Mairie Bretigny.JPG",
+    "author": "Erdrokan",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Erdrokan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_Bretigny.JPG",
+    "color": "#285898",
+    "hero": {
+      "src": "/photos/villes/bretigny-sur-orge-1024.7fa7d772.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/bretigny-sur-orge-480.c2451455.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "briancon": {
     "insee": "05023",
     "qid": "Q203298",
@@ -1824,6 +1866,27 @@
       "src": "/photos/villes/brunoy-480.15922544.webp",
       "width": 480,
       "height": 300
+    }
+  },
+  "bussy-saint-georges": {
+    "insee": "77058",
+    "qid": "Q259382",
+    "file": "Panoramiquenouvelleplace2.jpg",
+    "author": "Francois.Bezaux",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Francois.Bezaux&amp;action=edit&amp;redlink=1",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Panoramiquenouvelleplace2.jpg",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/bussy-saint-georges-1024.236ee007.webp",
+      "width": 780,
+      "height": 198
+    },
+    "card": {
+      "src": "/photos/villes/bussy-saint-georges-480.cb201662.webp",
+      "width": 480,
+      "height": 198
     }
   },
   "cachan": {
@@ -3212,6 +3275,27 @@
       "height": 300
     }
   },
+  "coueron": {
+    "insee": "44047",
+    "qid": "Q631274",
+    "file": "Couëron port.jpg",
+    "author": "Pymouss44",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Pymouss44",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Cou%C3%ABron_port.jpg",
+    "color": "#a8a8b8",
+    "hero": {
+      "src": "/photos/villes/coueron-1024.f8063773.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/coueron-480.a576772e.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "courbevoie": {
     "insee": "92026",
     "qid": "Q189715",
@@ -3943,6 +4027,27 @@
     },
     "card": {
       "src": "/photos/villes/evry-courcouronnes-480.4aacb72e.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "eysines": {
+    "insee": "33162",
+    "qid": "Q467370",
+    "file": "Mairie Eysines 33.JPG",
+    "author": "Mspecht",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Mspecht",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_Eysines_33.JPG",
+    "color": "#080808",
+    "hero": {
+      "src": "/photos/villes/eysines-1024.37e8e0ab.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/eysines-480.3d276fe4.webp",
       "width": 480,
       "height": 300
     }
@@ -4808,6 +4913,27 @@
       "height": 285
     }
   },
+  "halluin": {
+    "insee": "59279",
+    "qid": "Q631265",
+    "file": "France-mont-d-halluin.jpg",
+    "author": "Jean-Christophe Destailleur",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Destailleur",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:France-mont-d-halluin.jpg",
+    "color": "#a8c8d8",
+    "hero": {
+      "src": "/photos/villes/halluin-1024.47a06831.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/halluin-480.e5511a22.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "hayange": {
     "insee": "57306",
     "qid": "Q21872",
@@ -5476,6 +5602,27 @@
     },
     "card": {
       "src": "/photos/villes/la-souterraine-480.39bece8f.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "lagny-sur-marne": {
+    "insee": "77243",
+    "qid": "Q9155",
+    "file": "L136 - Lagny-sur-Marne - Abbatiale et Hotel de ville.JPG",
+    "author": "Lomita",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Lomita",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:L136_-_Lagny-sur-Marne_-_Abbatiale_et_Hotel_de_ville.JPG",
+    "color": "#6898c8",
+    "hero": {
+      "src": "/photos/villes/lagny-sur-marne-1024.6d8547ee.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/lagny-sur-marne-480.f6a61702.webp",
       "width": 480,
       "height": 300
     }
@@ -6211,6 +6358,27 @@
     },
     "card": {
       "src": "/photos/villes/livry-gargan-480.6612c044.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "longjumeau": {
+    "insee": "91345",
+    "qid": "Q219045",
+    "file": "Parc Nativelle de Longjumeau 2.jpg",
+    "author": "Ville de Longjumeau",
+    "authorUrl": null,
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Parc_Nativelle_de_Longjumeau_2.jpg",
+    "color": "#e8f8f8",
+    "hero": {
+      "src": "/photos/villes/longjumeau-1024.68be709a.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/longjumeau-480.d8d3831d.webp",
       "width": 480,
       "height": 300
     }
@@ -7135,6 +7303,27 @@
     },
     "card": {
       "src": "/photos/villes/montelimar-480.a02b9e03.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "montgeron": {
+    "insee": "91421",
+    "qid": "Q242569",
+    "file": "Hôtel de Ville de Montgeron.jpg",
+    "author": "Ville de Montgeron",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Montgeron&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Ville_de_Montgeron.jpg",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/montgeron-1024.73080ffd.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/montgeron-480.4b8db7da.webp",
       "width": 480,
       "height": 300
     }
@@ -8735,6 +8924,27 @@
       "height": 300
     }
   },
+  "roissy-en-brie": {
+    "insee": "77390",
+    "qid": "Q1058168",
+    "file": "Hôtel de Ville Roissy-en-Brie.jpg",
+    "author": "Service Communication",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Com77680&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Ville_Roissy-en-Brie.jpg",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/roissy-en-brie-1024.f0a862fc.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/roissy-en-brie-480.032ab7d0.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "romainville": {
     "insee": "93063",
     "qid": "Q372111",
@@ -9151,6 +9361,27 @@
     },
     "card": {
       "src": "/photos/villes/saint-cloud-480.ee7841e7.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "saint-cyr-l-ecole": {
+    "insee": "78545",
+    "qid": "Q112683",
+    "file": "Saint-Cyr-l'École Mairie.JPG",
+    "author": null,
+    "authorUrl": null,
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Saint-Cyr-l%27%C3%89cole_Mairie.JPG",
+    "color": "#080808",
+    "hero": {
+      "src": "/photos/villes/saint-cyr-l-ecole-1024.10d03c5a.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/saint-cyr-l-ecole-480.a6c198b6.webp",
       "width": 480,
       "height": 300
     }
@@ -9655,6 +9886,27 @@
     },
     "card": {
       "src": "/photos/villes/saint-medard-en-jalles-480.28f93018.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "saint-michel-sur-orge": {
+    "insee": "91570",
+    "qid": "Q275562",
+    "file": "Mairie St Michel.JPG",
+    "author": "Véronique PAGNIER",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:V%C3%A9ronique_PAGNIER",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_St_Michel.JPG",
+    "color": "#78b8d8",
+    "hero": {
+      "src": "/photos/villes/saint-michel-sur-orge-1024.3b7af828.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/saint-michel-sur-orge-480.73c445d2.webp",
       "width": 480,
       "height": 300
     }

@@ -3,6 +3,10 @@
     "povertyRate": 24,
     "medianIncome": 19000
   },
+  "acheres": {
+    "medianIncome": 23420,
+    "povertyRate": 14
+  },
   "agde": {
     "medianIncome": 20410,
     "povertyRate": 22
@@ -319,6 +323,10 @@
     "povertyRate": 19,
     "medianIncome": 21420
   },
+  "bretigny-sur-orge": {
+    "povertyRate": 14,
+    "medianIncome": 23680
+  },
   "briancon": {
     "povertyRate": 15,
     "medianIncome": 21630
@@ -342,6 +350,10 @@
   "brunoy": {
     "medianIncome": 27460,
     "povertyRate": 11
+  },
+  "bussy-saint-georges": {
+    "povertyRate": 12,
+    "medianIncome": 26270
   },
   "cachan": {
     "medianIncome": 25800,
@@ -603,6 +615,10 @@
     "povertyRate": 18,
     "medianIncome": 21140
   },
+  "coueron": {
+    "povertyRate": 9,
+    "medianIncome": 24290
+  },
   "courbevoie": {
     "povertyRate": 11,
     "medianIncome": 32080
@@ -742,6 +758,10 @@
   "evry-courcouronnes": {
     "medianIncome": 19160,
     "povertyRate": 25
+  },
+  "eysines": {
+    "povertyRate": 12,
+    "medianIncome": 23980
   },
   "figeac": {
     "medianIncome": 22150,
@@ -905,6 +925,10 @@
     "medianIncome": 23110,
     "povertyRate": 14
   },
+  "halluin": {
+    "povertyRate": 17,
+    "medianIncome": 21590
+  },
   "hayange": {
     "povertyRate": 21,
     "medianIncome": 21480
@@ -1031,6 +1055,10 @@
   "la-souterraine": {
     "medianIncome": 20300,
     "povertyRate": 22
+  },
+  "lagny-sur-marne": {
+    "medianIncome": 25220,
+    "povertyRate": 13
   },
   "lanester": {
     "medianIncome": 21330,
@@ -1167,6 +1195,10 @@
   "livry-gargan": {
     "medianIncome": 21750,
     "povertyRate": 20
+  },
+  "longjumeau": {
+    "povertyRate": 16,
+    "medianIncome": 23320
   },
   "longwy": {
     "povertyRate": 31,
@@ -1339,6 +1371,10 @@
   "montelimar": {
     "povertyRate": 20,
     "medianIncome": 21350
+  },
+  "montgeron": {
+    "medianIncome": 25500,
+    "povertyRate": 16
   },
   "montigny-le-bretonneux": {
     "medianIncome": 30360,
@@ -1640,6 +1676,10 @@
     "medianIncome": 22210,
     "povertyRate": 16
   },
+  "roissy-en-brie": {
+    "medianIncome": 24320,
+    "povertyRate": 13
+  },
   "romainville": {
     "povertyRate": 24,
     "medianIncome": 21110
@@ -1719,6 +1759,10 @@
   "saint-cloud": {
     "povertyRate": 7,
     "medianIncome": 39760
+  },
+  "saint-cyr-l-ecole": {
+    "medianIncome": 26750,
+    "povertyRate": 12
   },
   "saint-denis": {
     "povertyRate": 37,
@@ -1811,6 +1855,10 @@
   "saint-medard-en-jalles": {
     "povertyRate": 7,
     "medianIncome": 26740
+  },
+  "saint-michel-sur-orge": {
+    "medianIncome": 23160,
+    "povertyRate": 16
   },
   "saint-nazaire": {
     "medianIncome": 21900,

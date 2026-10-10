@@ -5,6 +5,12 @@
     "a": "Emmanuelhammel",
     "l": "CC BY-SA 3.0"
   },
+  "acheres": {
+    "h": "832541d1",
+    "c": "#98b8d8",
+    "a": "ℍenry Salomé",
+    "l": "CC BY-SA 3.0"
+  },
   "agde": {
     "h": "db5163f2",
     "c": "#c8b898",
@@ -485,6 +491,12 @@
     "a": "Thesupermat",
     "l": "CC BY-SA 3.0"
   },
+  "bretigny-sur-orge": {
+    "h": "c2451455",
+    "c": "#285898",
+    "a": "Erdrokan",
+    "l": "CC BY-SA 3.0"
+  },
   "briancon": {
     "h": "7b156e62",
     "c": "#081828",
@@ -520,6 +532,12 @@
     "c": "#78b8f8",
     "a": "Vinbaron",
     "l": "CC BY-SA 3.0"
+  },
+  "bussy-saint-georges": {
+    "h": "cb201662",
+    "c": "#f8f8f8",
+    "a": "Francois.Bezaux",
+    "l": "CC BY 3.0"
   },
   "cachan": {
     "h": "79917b45",
@@ -917,6 +935,12 @@
     "a": "Cjp24",
     "l": "CC BY-SA 4.0"
   },
+  "coueron": {
+    "h": "a576772e",
+    "c": "#a8a8b8",
+    "a": "Pymouss44",
+    "l": "CC BY-SA 3.0"
+  },
   "courbevoie": {
     "h": "2a4cd6fd",
     "c": "#e8e8e8",
@@ -1125,6 +1149,12 @@
     "h": "4aacb72e",
     "c": "#284878",
     "a": "ArchiModerne",
+    "l": "CC BY-SA 3.0"
+  },
+  "eysines": {
+    "h": "3d276fe4",
+    "c": "#080808",
+    "a": "Mspecht",
     "l": "CC BY-SA 3.0"
   },
   "figeac": {
@@ -1373,6 +1403,12 @@
     "a": "EU-FR-AL-67@Haguenau_Maison_de_la_Chancellerie_-_Horloge.jpg: Richieman FR-67-Haguenau10.JPG: Szeder László FR-67-Haguenau11.JPG: Szeder László EU-FR-AL-67@Haguenau_Église_Saint-Georges_02.jpg: Richieman Casemate_Esch_2006-1.jpg: Denis.helfer derivative work: Monsieur Fou (talk)",
     "l": "CC BY-SA 3.0"
   },
+  "halluin": {
+    "h": "e5511a22",
+    "c": "#a8c8d8",
+    "a": "Jean-Christophe Destailleur",
+    "l": "CC BY-SA 3.0"
+  },
   "hayange": {
     "h": "41c0b163",
     "c": "#e8e8f8",
@@ -1564,6 +1600,12 @@
     "c": "#f8f8f8",
     "a": "Sheriff Of Nothing",
     "l": "CC BY 2.0"
+  },
+  "lagny-sur-marne": {
+    "h": "f6a61702",
+    "c": "#6898c8",
+    "a": "Lomita",
+    "l": "CC BY-SA 3.0"
   },
   "lanester": {
     "h": "f37a2cff",
@@ -1774,6 +1816,12 @@
     "c": "#c8c8c8",
     "a": "Chabe01",
     "l": "CC BY-SA 4.0"
+  },
+  "longjumeau": {
+    "h": "d8d3831d",
+    "c": "#e8f8f8",
+    "a": "Ville de Longjumeau",
+    "l": "CC BY-SA 2.5"
   },
   "longwy": {
     "h": "13fbc2a0",
@@ -2037,6 +2085,12 @@
     "h": "a02b9e03",
     "c": "#2888f8",
     "a": "W. Bulach",
+    "l": "CC BY-SA 4.0"
+  },
+  "montgeron": {
+    "h": "4b8db7da",
+    "c": "#f8f8f8",
+    "a": "Ville de Montgeron",
     "l": "CC BY-SA 4.0"
   },
   "montigny-le-bretonneux": {
@@ -2495,6 +2549,12 @@
     "a": "kallerna",
     "l": "CC BY-SA 4.0"
   },
+  "roissy-en-brie": {
+    "h": "032ab7d0",
+    "c": "#f8f8f8",
+    "a": "Service Communication",
+    "l": "CC BY-SA 4.0"
+  },
   "romainville": {
     "h": "73e41cb6",
     "c": "#d8d8e8",
@@ -2614,6 +2674,12 @@
     "c": "#3878c8",
     "a": "Rémih",
     "l": "CC BY-SA 4.0"
+  },
+  "saint-cyr-l-ecole": {
+    "h": "a6c198b6",
+    "c": "#080808",
+    "a": null,
+    "l": "CC BY-SA 3.0"
   },
   "saint-denis": {
     "h": "6f7b9b5e",
@@ -2758,6 +2824,12 @@
     "c": "#1858a8",
     "a": "PA",
     "l": "CC BY-SA 4.0"
+  },
+  "saint-michel-sur-orge": {
+    "h": "73c445d2",
+    "c": "#78b8d8",
+    "a": "Véronique PAGNIER",
+    "l": "Public domain"
   },
   "saint-nazaire": {
     "h": "41fb7c75",

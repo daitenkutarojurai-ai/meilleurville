@@ -84,6 +84,49 @@
       }
     ]
   },
+  "acheres": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 5.4,
+    "rawCoverage": 10.7,
+    "areasTotal": 3,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000003750882",
+        "name": "Parc Naturel Régional du Vexin Français",
+        "kind": "parc-naturel-regional",
+        "areaHa": 7550,
+        "distanceKm": 7
+      },
+      {
+        "id": "SURFPARC0000000003750269",
+        "name": "Parc Naturel Régional Oise-Pays de France",
+        "kind": "parc-naturel-regional",
+        "areaHa": 12.5,
+        "distanceKm": 14.7
+      },
+      {
+        "id": "SURFPARC0000002340081399",
+        "name": "Domaine de Grignon à Thiverval-Grignon",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 14.9
+      }
+    ]
+  },
   "agde": {
     "crawledAt": "2026-10-10",
     "source": "bdtopo",
@@ -6896,6 +6939,98 @@
       }
     ]
   },
+  "bretigny-sur-orge": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 7.9,
+    "rawCoverage": 15.4,
+    "areasTotal": 10,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000003087723",
+        "name": "Parc Naturel Régional du Gâtinais Français",
+        "kind": "parc-naturel-regional",
+        "areaHa": 6762.5,
+        "distanceKm": 9.6
+      },
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 3518.8,
+        "distanceKm": 7.9
+      },
+      {
+        "id": "SURFPARC0000002333272478",
+        "name": "Marais d'Itteville et de Fontenay-le-Vicomte",
+        "kind": "natura-2000",
+        "areaHa": 518.8,
+        "distanceKm": 7.9
+      },
+      {
+        "id": "SURFPARC0000002333273276",
+        "name": "Marais des Basses Vallées de la Juine et de l'Essonne",
+        "kind": "natura-2000",
+        "areaHa": 387.5,
+        "distanceKm": 8
+      },
+      {
+        "id": "SURFPARC0000002333271459",
+        "name": "Marais de Fontenay-le-Vicomte",
+        "kind": "arrete-biotope",
+        "areaHa": 293.8,
+        "distanceKm": 8
+      },
+      {
+        "id": "SURFPARC0000002333271386",
+        "name": "le Grand Marais",
+        "kind": "arrete-biotope",
+        "areaHa": 93.8,
+        "distanceKm": 9.8
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 9.6
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 12.5,
+        "distanceKm": 14.5
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 13.4
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 8.5
+      }
+    ]
+  },
   "briancon": {
     "crawledAt": "2026-10-10",
     "source": "bdtopo",
@@ -7298,6 +7433,119 @@
         "kind": "natura-2000",
         "areaHa": 6.3,
         "distanceKm": 14.3
+      }
+    ]
+  },
+  "bussy-saint-georges": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 2.6,
+    "rawCoverage": 4,
+    "areasTotal": 13,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272314",
+        "name": "Boucles de la Marne",
+        "kind": "natura-2000",
+        "areaHa": 1625,
+        "distanceKm": 6.2
+      },
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 512.5,
+        "distanceKm": 9.7
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 481.3,
+        "distanceKm": 6.2
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 481.3,
+        "distanceKm": 6.2
+      },
+      {
+        "id": "SURFPARC0000002333271667",
+        "name": "Plan d'Eau des Olivettes",
+        "kind": "arrete-biotope",
+        "areaHa": 125,
+        "distanceKm": 12.2
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 100,
+        "distanceKm": 4.8
+      },
+      {
+        "id": "SURFPARC0000002333271491",
+        "name": "Marais de Lesches",
+        "kind": "arrete-biotope",
+        "areaHa": 87.5,
+        "distanceKm": 8.8
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 56.3,
+        "distanceKm": 3.8
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 31.3,
+        "distanceKm": 12.2
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 13.5
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 12.5,
+        "distanceKm": 7.2
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 13.2
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 13.9
       }
     ]
   },
@@ -12582,6 +12830,119 @@
       }
     ]
   },
+  "coueron": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 14.8,
+    "rawCoverage": 22.2,
+    "areasTotal": 13,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272092",
+        "name": "Estuaire de la Loire",
+        "kind": "natura-2000",
+        "areaHa": 11475,
+        "distanceKm": 0.4
+      },
+      {
+        "id": "SURFPARC0000002333270130",
+        "name": "Estuaire de la Loire",
+        "kind": "natura-2000",
+        "areaHa": 11412.5,
+        "distanceKm": 0.4
+      },
+      {
+        "id": "SURFPARC0000002333273164",
+        "name": "Lac de Grand-Lieu",
+        "kind": "natura-2000",
+        "areaHa": 4031.3,
+        "distanceKm": 8.3
+      },
+      {
+        "id": "SURFPARC0000002333272466",
+        "name": "Lac de Grand Lieu",
+        "kind": "natura-2000",
+        "areaHa": 3856.3,
+        "distanceKm": 8.7
+      },
+      {
+        "id": "SURFPARC0000000114555672",
+        "name": "Réserve Naturelle Nationale du Lac de Grand-Lieu",
+        "kind": "reserve-naturelle",
+        "areaHa": 2193.8,
+        "distanceKm": 9.1
+      },
+      {
+        "id": "SURFPARC0000000323725152",
+        "name": "Réserve Naturelle Régionale du Lac de Grand-Lieu",
+        "kind": "reserve-naturelle",
+        "areaHa": 387.5,
+        "distanceKm": 9.8
+      },
+      {
+        "id": "SURFPARC0000002340081220",
+        "name": "la Pierre-Aigüe",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 11.1
+      },
+      {
+        "id": "SURFPARC0000002333270945",
+        "name": "Combles des Ecuries du Chateau de la Tour a Orvault",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 11.4
+      },
+      {
+        "id": "SURFPARC0000002333271052",
+        "name": "Combles et Clocher de l'Eglise Saint-Jean-Baptiste a Cordemais",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 14.3
+      },
+      {
+        "id": "SURFPARC0000002333271810",
+        "name": "Stations d'Angelique des Estuaires des Berges de la Loire",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 0.5
+      },
+      {
+        "id": "SURFPARC0000002340081163",
+        "name": "la Carrière de Misery",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 11.2
+      },
+      {
+        "id": "SURFPARC0000002333273771",
+        "name": "Vallée de la Loire de Nantes aux Ponts-de-Cé et ses Annexes",
+        "kind": "natura-2000",
+        "areaHa": 0,
+        "distanceKm": 14.9
+      },
+      {
+        "id": "SURFPARC0000002333273831",
+        "name": "Vallée de la Loire de Nantes aux Ponts-de-Cé et ses Annexes",
+        "kind": "natura-2000",
+        "areaHa": 0,
+        "distanceKm": 14.9
+      }
+    ]
+  },
   "courbevoie": {
     "crawledAt": "2026-10-10",
     "source": "bdtopo",
@@ -15288,6 +15649,105 @@
         "kind": "natura-2000",
         "areaHa": 6.3,
         "distanceKm": 13.2
+      }
+    ]
+  },
+  "eysines": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 13.3,
+    "rawCoverage": 24.5,
+    "areasTotal": 11,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002206895290",
+        "name": "Parc Naturel Régional Médoc",
+        "kind": "parc-naturel-regional",
+        "areaHa": 12987.5,
+        "distanceKm": 5.2
+      },
+      {
+        "id": "SURFPARC0000002333269913",
+        "name": "la Garonne",
+        "kind": "natura-2000",
+        "areaHa": 2068.8,
+        "distanceKm": 7.5
+      },
+      {
+        "id": "SURFPARC0000002333270163",
+        "name": "Marais du Bec d'Ambes",
+        "kind": "natura-2000",
+        "areaHa": 1125,
+        "distanceKm": 9.3
+      },
+      {
+        "id": "SURFPARC0000002333272947",
+        "name": "Réseau Hydrographique des Jalles de Saint-Médard et d'Eysines",
+        "kind": "natura-2000",
+        "areaHa": 1018.8,
+        "distanceKm": 0.6
+      },
+      {
+        "id": "SURFPARC0000002333270412",
+        "name": "Marais du Haut Médoc",
+        "kind": "natura-2000",
+        "areaHa": 312.5,
+        "distanceKm": 12.7
+      },
+      {
+        "id": "SURFPARC0000002333273253",
+        "name": "Marais de Bruges, Blanquefort et Parampuyre",
+        "kind": "natura-2000",
+        "areaHa": 281.3,
+        "distanceKm": 3.3
+      },
+      {
+        "id": "SURFPARC0000002333272468",
+        "name": "Marais de Bruges",
+        "kind": "natura-2000",
+        "areaHa": 268.8,
+        "distanceKm": 3.3
+      },
+      {
+        "id": "SURFPARC0000000207276160",
+        "name": "Réserve Naturelle Nationale des Marais de Bruges",
+        "kind": "reserve-naturelle",
+        "areaHa": 262.5,
+        "distanceKm": 3.3
+      },
+      {
+        "id": "SURFPARC0000002333269676",
+        "name": "Périmètre de Protection de la Réserve Naturelle des Marais de Bruges",
+        "kind": "reserve-naturelle",
+        "areaHa": 206.3,
+        "distanceKm": 3.1
+      },
+      {
+        "id": "SURFPARC0000002333270304",
+        "name": "Site d'Azuré de la Sanguisorbe de Lesqueblanque",
+        "kind": "arrete-biotope",
+        "areaHa": 31.3,
+        "distanceKm": 8.8
+      },
+      {
+        "id": "SURFPARC0000002333272657",
+        "name": "Bocage Humide de Cadaujac et Saint-Médard-d'Eyrans",
+        "kind": "natura-2000",
+        "areaHa": 31.3,
+        "distanceKm": 13.7
       }
     ]
   },
@@ -18796,6 +19256,35 @@
       }
     ]
   },
+  "halluin": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 0,
+    "rawCoverage": 0,
+    "areasTotal": 1,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333271460",
+        "name": "Prairie des Willemots",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 14.6
+      }
+    ]
+  },
   "hayange": {
     "crawledAt": "2026-10-10",
     "source": "bdtopo",
@@ -21261,6 +21750,112 @@
         "kind": "natura-2000",
         "areaHa": 150,
         "distanceKm": 8.5
+      }
+    ]
+  },
+  "lagny-sur-marne": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 2.6,
+    "rawCoverage": 4,
+    "areasTotal": 12,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272314",
+        "name": "Boucles de la Marne",
+        "kind": "natura-2000",
+        "areaHa": 1631.3,
+        "distanceKm": 2.2
+      },
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 562.5,
+        "distanceKm": 10.2
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 468.8,
+        "distanceKm": 8.8
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 468.8,
+        "distanceKm": 8.8
+      },
+      {
+        "id": "SURFPARC0000002333271667",
+        "name": "Plan d'Eau des Olivettes",
+        "kind": "arrete-biotope",
+        "areaHa": 137.5,
+        "distanceKm": 8.5
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 100,
+        "distanceKm": 3.9
+      },
+      {
+        "id": "SURFPARC0000002333271491",
+        "name": "Marais de Lesches",
+        "kind": "arrete-biotope",
+        "areaHa": 87.5,
+        "distanceKm": 5.4
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 56.3,
+        "distanceKm": 7.3
+      },
+      {
+        "id": "SURFPARC0000002333270561",
+        "name": "Bois de Bernouille",
+        "kind": "arrete-biotope",
+        "areaHa": 43.8,
+        "distanceKm": 10.6
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 14.5
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 7.8
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 13.8
       }
     ]
   },
@@ -24061,6 +24656,77 @@
         "kind": "arrete-biotope",
         "areaHa": 0,
         "distanceKm": 5.7
+      }
+    ]
+  },
+  "longjumeau": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 3.1,
+    "rawCoverage": 6.1,
+    "areasTotal": 7,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 4237.5,
+        "distanceKm": 8
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 31.3,
+        "distanceKm": 6.9
+      },
+      {
+        "id": "SURFPARC0000002333272453",
+        "name": "Massif de Rambouillet et Zones Humides Proches",
+        "kind": "natura-2000",
+        "areaHa": 31.3,
+        "distanceKm": 13.9
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 5.4
+      },
+      {
+        "id": "SURFPARC0000000319871516",
+        "name": "Réserve Naturelle Régionale du Val et Coteau de Saint-Rémy",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 14.7
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 5.1
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 3.9
       }
     ]
   },
@@ -27618,6 +28284,77 @@
         "kind": "natura-2000",
         "areaHa": 68.8,
         "distanceKm": 13.5
+      }
+    ]
+  },
+  "montgeron": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 0.1,
+    "rawCoverage": 0.2,
+    "areasTotal": 7,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272478",
+        "name": "Marais d'Itteville et de Fontenay-le-Vicomte",
+        "kind": "natura-2000",
+        "areaHa": 62.5,
+        "distanceKm": 14.1
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 4.7
+      },
+      {
+        "id": "SURFPARC0000002333273276",
+        "name": "Marais des Basses Vallées de la Juine et de l'Essonne",
+        "kind": "natura-2000",
+        "areaHa": 18.8,
+        "distanceKm": 14.3
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 9.4
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 15
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 15
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 12.9
       }
     ]
   },
@@ -33844,6 +34581,98 @@
       }
     ]
   },
+  "roissy-en-brie": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.5,
+    "rawCoverage": 2.2,
+    "areasTotal": 10,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333272314",
+        "name": "Boucles de la Marne",
+        "kind": "natura-2000",
+        "areaHa": 587.5,
+        "distanceKm": 12.8
+      },
+      {
+        "id": "SURFPARC0000002333272230",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 512.5,
+        "distanceKm": 3.9
+      },
+      {
+        "id": "SURFPARC0000002333272232",
+        "name": "Bois Saint-Martin",
+        "kind": "arrete-biotope",
+        "areaHa": 512.5,
+        "distanceKm": 3.9
+      },
+      {
+        "id": "SURFPARC0000002333272900",
+        "name": "Sites de Seine-Saint-Denis",
+        "kind": "natura-2000",
+        "areaHa": 312.5,
+        "distanceKm": 9.5
+      },
+      {
+        "id": "SURFPARC0000002333272669",
+        "name": "Bois de Vaires-sur-Marne",
+        "kind": "natura-2000",
+        "areaHa": 93.8,
+        "distanceKm": 9.4
+      },
+      {
+        "id": "SURFPARC0000002333270260",
+        "name": "Étang de Beaubourg",
+        "kind": "arrete-biotope",
+        "areaHa": 31.3,
+        "distanceKm": 2.7
+      },
+      {
+        "id": "SURFPARC0000002274868278",
+        "name": "Réserve Naturelle Régionale des Îles de Chelles",
+        "kind": "reserve-naturelle",
+        "areaHa": 18.8,
+        "distanceKm": 8.9
+      },
+      {
+        "id": "SURFPARC0000002333272007",
+        "name": "Îles de la Marne de la Boucle de Saint-Maur",
+        "kind": "arrete-biotope",
+        "areaHa": 12.5,
+        "distanceKm": 9.4
+      },
+      {
+        "id": "SURFPARC0000002333269743",
+        "name": "Alisiers du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 13
+      },
+      {
+        "id": "SURFPARC0000002333270285",
+        "name": "Mares du Plateau d'Avron",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 13.4
+      }
+    ]
+  },
   "romainville": {
     "crawledAt": "2026-10-10",
     "source": "bdtopo",
@@ -35219,6 +36048,77 @@
         "kind": "arrete-biotope",
         "areaHa": 0,
         "distanceKm": 12.8
+      }
+    ]
+  },
+  "saint-cyr-l-ecole": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 11.5,
+    "rawCoverage": 22.2,
+    "areasTotal": 7,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 15262.5,
+        "distanceKm": 4.9
+      },
+      {
+        "id": "SURFPARC0000002333272453",
+        "name": "Massif de Rambouillet et Zones Humides Proches",
+        "kind": "natura-2000",
+        "areaHa": 1681.3,
+        "distanceKm": 5.2
+      },
+      {
+        "id": "SURFPARC0000000319871723",
+        "name": "Réserve Naturelle Nationale des Étangs et Rigoles d'Yveline",
+        "kind": "reserve-naturelle",
+        "areaHa": 131.3,
+        "distanceKm": 3.7
+      },
+      {
+        "id": "SURFPARC0000002333273501",
+        "name": "Tourbières et Prairies Tourbeuses de la Forêt d'Yveline",
+        "kind": "natura-2000",
+        "areaHa": 118.8,
+        "distanceKm": 7.3
+      },
+      {
+        "id": "SURFPARC0000002333273184",
+        "name": "Etang de Saint Quentin",
+        "kind": "natura-2000",
+        "areaHa": 93.8,
+        "distanceKm": 3.7
+      },
+      {
+        "id": "SURFPARC0000000319871516",
+        "name": "Réserve Naturelle Régionale du Val et Coteau de Saint-Rémy",
+        "kind": "reserve-naturelle",
+        "areaHa": 81.3,
+        "distanceKm": 10.5
+      },
+      {
+        "id": "SURFPARC0000002340081399",
+        "name": "Domaine de Grignon à Thiverval-Grignon",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 10.4
       }
     ]
   },
@@ -37098,6 +37998,98 @@
         "kind": "arrete-biotope",
         "areaHa": 25,
         "distanceKm": 5.7
+      }
+    ]
+  },
+  "saint-michel-sur-orge": {
+    "crawledAt": "2026-10-10",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 4.8,
+    "rawCoverage": 9.3,
+    "areasTotal": 10,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 3375,
+        "distanceKm": 8.2
+      },
+      {
+        "id": "SURFPARC0000000003087723",
+        "name": "Parc Naturel Régional du Gâtinais Français",
+        "kind": "parc-naturel-regional",
+        "areaHa": 2637.5,
+        "distanceKm": 12
+      },
+      {
+        "id": "SURFPARC0000002333272478",
+        "name": "Marais d'Itteville et de Fontenay-le-Vicomte",
+        "kind": "natura-2000",
+        "areaHa": 512.5,
+        "distanceKm": 9.4
+      },
+      {
+        "id": "SURFPARC0000002333273276",
+        "name": "Marais des Basses Vallées de la Juine et de l'Essonne",
+        "kind": "natura-2000",
+        "areaHa": 381.3,
+        "distanceKm": 9.4
+      },
+      {
+        "id": "SURFPARC0000002333271459",
+        "name": "Marais de Fontenay-le-Vicomte",
+        "kind": "arrete-biotope",
+        "areaHa": 287.5,
+        "distanceKm": 9.5
+      },
+      {
+        "id": "SURFPARC0000002333271386",
+        "name": "le Grand Marais",
+        "kind": "arrete-biotope",
+        "areaHa": 75,
+        "distanceKm": 11.9
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 7.5
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 11.4
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 12.3
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 6.9
       }
     ]
   },

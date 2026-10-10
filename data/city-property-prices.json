@@ -19,6 +19,26 @@
     ],
     "queryVersion": 1
   },
+  "acheres": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 189,
+      "medianM2": 3597,
+      "p25M2": 2974,
+      "p75M2": 4015
+    },
+    "house": {
+      "sales": 139,
+      "medianM2": 3731,
+      "p25M2": 3305,
+      "p75M2": 4310
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "agde": {
     "coverage": "dvf",
     "apartment": {
@@ -1603,6 +1623,26 @@
     ],
     "queryVersion": 1
   },
+  "bretigny-sur-orge": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 286,
+      "medianM2": 3254,
+      "p25M2": 2601,
+      "p75M2": 3702
+    },
+    "house": {
+      "sales": 212,
+      "medianM2": 3071,
+      "p25M2": 2759,
+      "p75M2": 3626
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "briancon": {
     "coverage": "dvf",
     "apartment": {
@@ -1716,6 +1756,26 @@
       "medianM2": 3866,
       "p25M2": 3257,
       "p75M2": 4558
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "bussy-saint-georges": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 473,
+      "medianM2": 4306,
+      "p25M2": 3925,
+      "p75M2": 4769
+    },
+    "house": {
+      "sales": 146,
+      "medianM2": 4220,
+      "p25M2": 3717,
+      "p75M2": 4552
     },
     "years": [
       2024,
@@ -3009,6 +3069,26 @@
     ],
     "queryVersion": 1
   },
+  "coueron": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 162,
+      "medianM2": 3083,
+      "p25M2": 2781,
+      "p75M2": 3394
+    },
+    "house": {
+      "sales": 392,
+      "medianM2": 3117,
+      "p25M2": 2662,
+      "p75M2": 3535
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "courbevoie": {
     "coverage": "dvf",
     "apartment": {
@@ -3702,6 +3782,26 @@
       "medianM2": 2840,
       "p25M2": 2481,
       "p75M2": 3145
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "eysines": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 346,
+      "medianM2": 3431,
+      "p25M2": 3101,
+      "p75M2": 3699
+    },
+    "house": {
+      "sales": 305,
+      "medianM2": 3570,
+      "p25M2": 3032,
+      "p75M2": 3974
     },
     "years": [
       2024,
@@ -4489,6 +4589,26 @@
     ],
     "queryVersion": 1
   },
+  "halluin": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 53,
+      "medianM2": 2184,
+      "p25M2": 1717,
+      "p75M2": 2550
+    },
+    "house": {
+      "sales": 385,
+      "medianM2": 2156,
+      "p25M2": 1575,
+      "p75M2": 2625
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "hayange": {
     "coverage": "livre-foncier",
     "years": [
@@ -5084,6 +5204,26 @@
       "medianM2": 1223,
       "p25M2": 906,
       "p75M2": 1558
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "lagny-sur-marne": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 320,
+      "medianM2": 3817,
+      "p25M2": 3180,
+      "p75M2": 4379
+    },
+    "house": {
+      "sales": 191,
+      "medianM2": 3879,
+      "p25M2": 3272,
+      "p75M2": 4561
     },
     "years": [
       2024,
@@ -5764,6 +5904,26 @@
       "medianM2": 3606,
       "p25M2": 2976,
       "p75M2": 4248
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "longjumeau": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 299,
+      "medianM2": 2628,
+      "p25M2": 2240,
+      "p75M2": 3128
+    },
+    "house": {
+      "sales": 128,
+      "medianM2": 3489,
+      "p25M2": 2961,
+      "p75M2": 3912
     },
     "years": [
       2024,
@@ -6620,6 +6780,26 @@
       "medianM2": 2438,
       "p25M2": 1999,
       "p75M2": 2833
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "montgeron": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 192,
+      "medianM2": 3622,
+      "p25M2": 3076,
+      "p75M2": 4410
+    },
+    "house": {
+      "sales": 256,
+      "medianM2": 3810,
+      "p25M2": 3218,
+      "p75M2": 4635
     },
     "years": [
       2024,
@@ -8113,6 +8293,26 @@
     ],
     "queryVersion": 1
   },
+  "roissy-en-brie": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 121,
+      "medianM2": 3321,
+      "p25M2": 2578,
+      "p75M2": 3953
+    },
+    "house": {
+      "sales": 209,
+      "medianM2": 3374,
+      "p25M2": 2987,
+      "p75M2": 3863
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "romainville": {
     "coverage": "dvf",
     "apartment": {
@@ -8492,6 +8692,26 @@
       "medianM2": 9580,
       "p25M2": 8065,
       "p75M2": 11449
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "saint-cyr-l-ecole": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 320,
+      "medianM2": 4245,
+      "p25M2": 2900,
+      "p75M2": 4801
+    },
+    "house": {
+      "sales": 79,
+      "medianM2": 4840,
+      "p25M2": 4322,
+      "p75M2": 5358
     },
     "years": [
       2024,
@@ -8956,6 +9176,26 @@
       "medianM2": 3626,
       "p25M2": 3018,
       "p75M2": 4106
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "saint-michel-sur-orge": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 200,
+      "medianM2": 2440,
+      "p25M2": 2149,
+      "p75M2": 2925
+    },
+    "house": {
+      "sales": 144,
+      "medianM2": 3227,
+      "p25M2": 2785,
+      "p75M2": 3673
     },
     "years": [
       2024,
