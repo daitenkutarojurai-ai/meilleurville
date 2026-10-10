@@ -1716,37 +1716,37 @@
 },
 "libourne": {
 "lean": "gauche",
-"topPct": 33.0,
+"topPct": 34.5,
 "blocs": {
-"gauche": 33.0,
-"centre": 27.0,
-"droite": 8.9,
-"extreme_droite": 31.1
+"gauche": 34.5,
+"centre": 27.4,
+"droite": 7.8,
+"extreme_droite": 30.3
 },
-"leanScore": 7.0,
-"insee": "33227",
+"leanScore": 3.6,
+"insee": "33243",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.8,
-"roussel": 2.6,
-"melenchon": 21.5,
-"hidalgo": 3.5,
-"jadot": 3.6,
-"poutou": 1.0,
-"macron": 27.0,
-"pecresse": 3.9,
-"lassalle": 5.0,
-"lepen": 22.7,
-"zemmour": 6.5,
-"dupont-aignan": 1.9
+"arthaud": 0.6,
+"roussel": 2.5,
+"melenchon": 23.3,
+"hidalgo": 2.3,
+"jadot": 4.8,
+"poutou": 0.9,
+"macron": 27.4,
+"pecresse": 4.4,
+"lassalle": 3.4,
+"lepen": 21.2,
+"zemmour": 7.4,
+"dupont-aignan": 1.7
 },
 "topCand": "macron",
-"topCandPct": 27.0,
+"topCandPct": 27.4,
 "turnout": {
-"inscrits": 4805,
-"exprimes": 3652,
-"abstentionPct": 22.4,
-"blancsNulsPct": 2.1
+"inscrits": 16431,
+"exprimes": 12019,
+"abstentionPct": 25.4,
+"blancsNulsPct": 2.0
 }
 },
 "nimes": {
@@ -2311,36 +2311,36 @@
 },
 "ales": {
 "lean": "extreme_droite",
-"topPct": 51.8,
+"topPct": 36.1,
 "blocs": {
-"gauche": 24.2,
-"centre": 17.6,
-"droite": 6.5,
-"extreme_droite": 51.8
+"gauche": 35.2,
+"centre": 21.4,
+"droite": 7.3,
+"extreme_droite": 36.1
 },
-"leanScore": 34.1,
-"insee": "30006",
+"leanScore": 8.2,
+"insee": "30007",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.5,
-"roussel": 2.2,
-"melenchon": 18.0,
-"hidalgo": 0.7,
-"jadot": 2.2,
-"poutou": 0.6,
-"macron": 17.6,
-"pecresse": 2.7,
-"lassalle": 3.7,
-"lepen": 40.8,
-"zemmour": 8.8,
-"dupont-aignan": 2.2
+"arthaud": 0.4,
+"roussel": 3.7,
+"melenchon": 26.1,
+"hidalgo": 1.6,
+"jadot": 2.7,
+"poutou": 0.7,
+"macron": 21.4,
+"pecresse": 4.4,
+"lassalle": 2.9,
+"lepen": 26.4,
+"zemmour": 8.1,
+"dupont-aignan": 1.6
 },
 "topCand": "lepen",
-"topCandPct": 40.8,
+"topCandPct": 26.4,
 "turnout": {
-"inscrits": 4107,
-"exprimes": 3106,
-"abstentionPct": 22.8,
+"inscrits": 26668,
+"exprimes": 17826,
+"abstentionPct": 31.8,
 "blancsNulsPct": 2.0
 }
 },
@@ -2485,37 +2485,37 @@
 }
 },
 "sete": {
-"lean": "gauche",
-"topPct": 34.8,
+"lean": "extreme_droite",
+"topPct": 37.0,
 "blocs": {
-"gauche": 34.8,
-"centre": 24.7,
-"droite": 7.2,
-"extreme_droite": 33.4
+"gauche": 34.5,
+"centre": 22.5,
+"droite": 6.1,
+"extreme_droite": 37.0
 },
-"leanScore": 5.8,
-"insee": "34295",
+"leanScore": 8.6,
+"insee": "34301",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.6,
-"roussel": 1.9,
-"melenchon": 22.5,
-"hidalgo": 2.0,
-"jadot": 7.0,
-"poutou": 0.8,
-"macron": 24.7,
-"pecresse": 3.7,
-"lassalle": 3.5,
-"lepen": 24.8,
-"zemmour": 6.9,
-"dupont-aignan": 1.7
+"arthaud": 0.4,
+"roussel": 3.6,
+"melenchon": 24.7,
+"hidalgo": 1.5,
+"jadot": 3.5,
+"poutou": 0.7,
+"macron": 22.5,
+"pecresse": 3.6,
+"lassalle": 2.4,
+"lepen": 24.7,
+"zemmour": 10.7,
+"dupont-aignan": 1.5
 },
 "topCand": "lepen",
-"topCandPct": 24.8,
+"topCandPct": 24.7,
 "turnout": {
-"inscrits": 1369,
-"exprimes": 1090,
-"abstentionPct": 18.9,
+"inscrits": 33466,
+"exprimes": 23964,
+"abstentionPct": 27.0,
 "blancsNulsPct": 1.8
 }
 },
@@ -3011,37 +3011,37 @@
 },
 "clermont-herault": {
 "lean": "extreme_droite",
-"topPct": 44.2,
+"topPct": 37.7,
 "blocs": {
-"gauche": 25.2,
-"centre": 22.5,
-"droite": 8.1,
-"extreme_droite": 44.2
+"gauche": 36.0,
+"centre": 19.3,
+"droite": 7.0,
+"extreme_droite": 37.7
 },
-"leanScore": 27.1,
-"insee": "34065",
+"leanScore": 8.7,
+"insee": "34079",
 "matchedBy": "insee",
 "cands": {
 "arthaud": 0.5,
-"roussel": 1.4,
-"melenchon": 17.1,
-"hidalgo": 1.6,
-"jadot": 4.1,
-"poutou": 0.5,
-"macron": 22.5,
-"pecresse": 1.9,
-"lassalle": 6.2,
-"lepen": 33.9,
-"zemmour": 8.4,
-"dupont-aignan": 1.9
+"roussel": 2.9,
+"melenchon": 25.4,
+"hidalgo": 1.9,
+"jadot": 4.5,
+"poutou": 0.9,
+"macron": 19.3,
+"pecresse": 3.1,
+"lassalle": 3.9,
+"lepen": 28.2,
+"zemmour": 7.8,
+"dupont-aignan": 1.7
 },
 "topCand": "lepen",
-"topCandPct": 33.9,
+"topCandPct": 28.2,
 "turnout": {
-"inscrits": 468,
-"exprimes": 369,
-"abstentionPct": 19.7,
-"blancsNulsPct": 1.9
+"inscrits": 6564,
+"exprimes": 4692,
+"abstentionPct": 27.4,
+"blancsNulsPct": 1.5
 }
 },
 "chalons-en-champagne": {
@@ -5356,37 +5356,37 @@
 },
 "noisy-le-grand": {
 "lean": "gauche",
-"topPct": 47.0,
+"topPct": 45.2,
 "blocs": {
-"gauche": 47.0,
-"centre": 19.5,
-"droite": 5.6,
-"extreme_droite": 27.9
+"gauche": 45.2,
+"centre": 28.8,
+"droite": 6.3,
+"extreme_droite": 19.7
 },
-"leanScore": -13.5,
-"insee": "93047",
+"leanScore": -19.2,
+"insee": "93051",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.3,
-"roussel": 2.0,
-"melenchon": 41.1,
-"hidalgo": 0.6,
-"jadot": 2.3,
+"arthaud": 0.4,
+"roussel": 1.9,
+"melenchon": 36.0,
+"hidalgo": 1.4,
+"jadot": 4.7,
 "poutou": 0.6,
-"macron": 19.5,
-"pecresse": 4.0,
+"macron": 28.8,
+"pecresse": 4.7,
 "lassalle": 1.6,
-"lepen": 20.1,
-"zemmour": 6.5,
-"dupont-aignan": 1.3
+"lepen": 12.6,
+"zemmour": 5.3,
+"dupont-aignan": 1.8
 },
 "topCand": "melenchon",
-"topCandPct": 41.1,
+"topCandPct": 36.0,
 "turnout": {
-"inscrits": 13482,
-"exprimes": 9182,
-"abstentionPct": 30.7,
-"blancsNulsPct": 1.7
+"inscrits": 38303,
+"exprimes": 28330,
+"abstentionPct": 24.5,
+"blancsNulsPct": 2.1
 }
 },
 "evry-courcouronnes": {
@@ -5810,36 +5810,38 @@
 }
 },
 "pamiers": {
-"lean": "gauche",
-"topPct": 39.5,
+"lean": "extreme_droite",
+"topPct": 35.9,
 "blocs": {
-"gauche": 39.5,
-"centre": 21.1,
-"droite": 14.0,
-"extreme_droite": 25.4
+"gauche": 33.1,
+"centre": 21.2,
+"droite": 9.8,
+"extreme_droite": 35.9
 },
-"leanScore": -0.1,
-"insee": "09220",
+"leanScore": 12.6,
+"insee": "09225",
 "matchedBy": "insee",
 "cands": {
-"roussel": 0.9,
-"melenchon": 15.8,
-"hidalgo": 17.5,
-"jadot": 5.3,
-"macron": 21.1,
-"pecresse": 4.4,
-"lassalle": 9.6,
-"lepen": 14.9,
-"zemmour": 9.6,
-"dupont-aignan": 0.9
+"arthaud": 0.4,
+"roussel": 2.4,
+"melenchon": 24.4,
+"hidalgo": 2.4,
+"jadot": 2.8,
+"poutou": 0.7,
+"macron": 21.2,
+"pecresse": 3.7,
+"lassalle": 6.1,
+"lepen": 26.6,
+"zemmour": 7.4,
+"dupont-aignan": 1.8
 },
-"topCand": "macron",
-"topCandPct": 21.1,
+"topCand": "lepen",
+"topCandPct": 26.6,
 "turnout": {
-"inscrits": 141,
-"exprimes": 114,
-"abstentionPct": 15.6,
-"blancsNulsPct": 4.2
+"inscrits": 9170,
+"exprimes": 6721,
+"abstentionPct": 25.0,
+"blancsNulsPct": 2.3
 }
 },
 "saumur": {
@@ -6299,72 +6301,72 @@
 },
 "sanary-sur-mer": {
 "lean": "extreme_droite",
-"topPct": 42.3,
+"topPct": 46.4,
 "blocs": {
-"gauche": 29.4,
-"centre": 19.6,
-"droite": 8.6,
-"extreme_droite": 42.3
+"gauche": 15.3,
+"centre": 29.0,
+"droite": 9.2,
+"extreme_droite": 46.4
 },
-"leanScore": 21.5,
-"insee": "83122",
+"leanScore": 40.3,
+"insee": "83123",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.6,
-"roussel": 3.1,
-"melenchon": 20.9,
-"hidalgo": 1.2,
-"jadot": 1.8,
-"poutou": 1.8,
-"macron": 19.6,
-"pecresse": 4.3,
-"lassalle": 4.3,
-"lepen": 34.4,
-"zemmour": 6.7,
-"dupont-aignan": 1.2
+"arthaud": 0.2,
+"roussel": 1.6,
+"melenchon": 9.1,
+"hidalgo": 0.8,
+"jadot": 3.2,
+"poutou": 0.4,
+"macron": 29.0,
+"pecresse": 6.9,
+"lassalle": 2.3,
+"lepen": 27.7,
+"zemmour": 16.0,
+"dupont-aignan": 2.7
 },
-"topCand": "lepen",
-"topCandPct": 34.4,
+"topCand": "macron",
+"topCandPct": 29.0,
 "turnout": {
-"inscrits": 208,
-"exprimes": 163,
-"abstentionPct": 20.7,
-"blancsNulsPct": 1.2
+"inscrits": 15799,
+"exprimes": 11268,
+"abstentionPct": 27.5,
+"blancsNulsPct": 1.7
 }
 },
 "dinan": {
 "lean": "gauche",
-"topPct": 40.1,
+"topPct": 34.9,
 "blocs": {
-"gauche": 40.1,
-"centre": 23.9,
-"droite": 13.0,
-"extreme_droite": 23.1
+"gauche": 34.9,
+"centre": 34.8,
+"droite": 7.6,
+"extreme_droite": 22.7
 },
-"leanScore": -4.0,
-"insee": "22023",
+"leanScore": -4.6,
+"insee": "22050",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 2.0,
-"roussel": 7.7,
-"melenchon": 21.5,
-"hidalgo": 3.6,
-"jadot": 4.0,
-"poutou": 1.2,
-"macron": 23.9,
-"pecresse": 2.4,
-"lassalle": 10.5,
-"lepen": 16.2,
-"zemmour": 5.3,
+"arthaud": 0.7,
+"roussel": 2.3,
+"melenchon": 22.3,
+"hidalgo": 2.3,
+"jadot": 6.5,
+"poutou": 0.9,
+"macron": 34.8,
+"pecresse": 5.3,
+"lassalle": 2.3,
+"lepen": 15.5,
+"zemmour": 5.7,
 "dupont-aignan": 1.6
 },
 "topCand": "macron",
-"topCandPct": 23.9,
+"topCandPct": 34.8,
 "turnout": {
-"inscrits": 317,
-"exprimes": 247,
-"abstentionPct": 18.9,
-"blancsNulsPct": 3.9
+"inscrits": 10683,
+"exprimes": 7936,
+"abstentionPct": 24.2,
+"blancsNulsPct": 2.0
 }
 },
 "hendaye": {
@@ -6684,31 +6686,37 @@
 },
 "collioure": {
 "lean": "extreme_droite",
-"topPct": 37.5,
+"topPct": 32.3,
 "blocs": {
-"gauche": 29.2,
-"centre": 29.2,
-"droite": 4.2,
-"extreme_droite": 37.5
+"gauche": 25.6,
+"centre": 29.7,
+"droite": 12.4,
+"extreme_droite": 32.3
 },
-"leanScore": 12.5,
-"insee": "66047",
+"leanScore": 19.1,
+"insee": "66053",
 "matchedBy": "insee",
 "cands": {
-"roussel": 4.2,
-"melenchon": 12.5,
-"jadot": 12.5,
-"macron": 29.2,
-"lassalle": 4.2,
-"lepen": 37.5
+"arthaud": 0.5,
+"roussel": 1.9,
+"melenchon": 16.9,
+"hidalgo": 2.1,
+"jadot": 3.8,
+"poutou": 0.4,
+"macron": 29.7,
+"pecresse": 6.3,
+"lassalle": 6.1,
+"lepen": 20.7,
+"zemmour": 9.6,
+"dupont-aignan": 2.0
 },
-"topCand": "lepen",
-"topCandPct": 37.5,
+"topCand": "macron",
+"topCandPct": 29.7,
 "turnout": {
-"inscrits": 29,
-"exprimes": 24,
-"abstentionPct": 17.2,
-"blancsNulsPct": 0.0
+"inscrits": 2408,
+"exprimes": 1734,
+"abstentionPct": 26.5,
+"blancsNulsPct": 2.1
 }
 },
 "senlis": {
@@ -6853,107 +6861,107 @@
 },
 "saint-tropez": {
 "lean": "extreme_droite",
-"topPct": 45.4,
+"topPct": 48.8,
 "blocs": {
-"gauche": 16.2,
-"centre": 28.0,
-"droite": 10.4,
-"extreme_droite": 45.4
+"gauche": 11.0,
+"centre": 31.1,
+"droite": 9.1,
+"extreme_droite": 48.8
 },
-"leanScore": 39.6,
-"insee": "83118",
+"leanScore": 46.9,
+"insee": "83119",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.3,
-"roussel": 1.4,
-"melenchon": 10.3,
+"arthaud": 0.1,
+"roussel": 0.8,
+"melenchon": 6.6,
 "hidalgo": 0.7,
-"jadot": 3.0,
-"poutou": 0.5,
-"macron": 28.0,
-"pecresse": 8.3,
-"lassalle": 2.1,
-"lepen": 27.7,
-"zemmour": 15.4,
+"jadot": 2.6,
+"poutou": 0.2,
+"macron": 31.1,
+"pecresse": 6.8,
+"lassalle": 2.3,
+"lepen": 24.1,
+"zemmour": 22.4,
 "dupont-aignan": 2.3
 },
 "topCand": "macron",
-"topCandPct": 28.0,
+"topCandPct": 31.1,
 "turnout": {
-"inscrits": 31336,
-"exprimes": 23280,
-"abstentionPct": 24.4,
-"blancsNulsPct": 1.7
+"inscrits": 4147,
+"exprimes": 2913,
+"abstentionPct": 28.4,
+"blancsNulsPct": 2.0
 }
 },
 "hossegor": {
-"lean": "extreme_droite",
-"topPct": 33.4,
+"lean": "centre",
+"topPct": 40.2,
 "blocs": {
-"gauche": 24.8,
-"centre": 24.0,
-"droite": 17.8,
-"extreme_droite": 33.4
+"gauche": 21.4,
+"centre": 40.2,
+"droite": 15.0,
+"extreme_droite": 23.3
 },
-"leanScore": 26.4,
-"insee": "40271",
+"leanScore": 16.9,
+"insee": "40304",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.7,
-"roussel": 3.4,
-"melenchon": 14.2,
-"hidalgo": 2.6,
-"jadot": 3.0,
-"poutou": 0.9,
-"macron": 24.0,
-"pecresse": 3.3,
-"lassalle": 14.5,
-"lepen": 24.3,
-"zemmour": 7.4,
-"dupont-aignan": 1.7
+"arthaud": 0.2,
+"roussel": 1.0,
+"melenchon": 13.4,
+"hidalgo": 1.2,
+"jadot": 5.1,
+"poutou": 0.3,
+"macron": 40.2,
+"pecresse": 9.7,
+"lassalle": 5.4,
+"lepen": 12.3,
+"zemmour": 9.8,
+"dupont-aignan": 1.2
 },
-"topCand": "lepen",
-"topCandPct": 24.3,
+"topCand": "macron",
+"topCandPct": 40.2,
 "turnout": {
-"inscrits": 913,
-"exprimes": 766,
-"abstentionPct": 14.5,
-"blancsNulsPct": 1.9
+"inscrits": 4052,
+"exprimes": 3210,
+"abstentionPct": 19.7,
+"blancsNulsPct": 1.4
 }
 },
 "obernai": {
 "lean": "extreme_droite",
-"topPct": 50.1,
+"topPct": 34.5,
 "blocs": {
-"gauche": 14.8,
-"centre": 27.7,
-"droite": 7.3,
-"extreme_droite": 50.1
+"gauche": 24.2,
+"centre": 34.3,
+"droite": 6.9,
+"extreme_droite": 34.5
 },
-"leanScore": 42.6,
-"insee": "67360",
+"leanScore": 17.2,
+"insee": "67348",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.1,
-"roussel": 1.2,
-"melenchon": 8.1,
-"hidalgo": 0.9,
-"jadot": 3.8,
-"poutou": 0.7,
-"macron": 27.7,
-"pecresse": 2.9,
-"lassalle": 4.4,
-"lepen": 40.2,
-"zemmour": 6.0,
-"dupont-aignan": 4.0
+"arthaud": 0.6,
+"roussel": 1.3,
+"melenchon": 15.0,
+"hidalgo": 1.2,
+"jadot": 5.4,
+"poutou": 0.8,
+"macron": 34.3,
+"pecresse": 4.5,
+"lassalle": 2.4,
+"lepen": 24.1,
+"zemmour": 7.7,
+"dupont-aignan": 2.7
 },
-"topCand": "lepen",
-"topCandPct": 40.2,
+"topCand": "macron",
+"topCandPct": 34.3,
 "turnout": {
-"inscrits": 877,
-"exprimes": 682,
-"abstentionPct": 20.8,
-"blancsNulsPct": 1.9
+"inscrits": 9300,
+"exprimes": 6307,
+"abstentionPct": 30.8,
+"blancsNulsPct": 2.1
 }
 },
 "cagnes-sur-mer": {
@@ -7062,38 +7070,38 @@
 }
 },
 "ile-de-re": {
-"lean": "gauche",
-"topPct": 41.0,
+"lean": "centre",
+"topPct": 39.1,
 "blocs": {
-"gauche": 41.0,
-"centre": 31.7,
-"droite": 6.7,
-"extreme_droite": 20.6
+"gauche": 20.8,
+"centre": 39.1,
+"droite": 9.9,
+"extreme_droite": 30.2
 },
-"leanScore": -13.7,
-"insee": "17300",
+"leanScore": 19.3,
+"insee": "17369",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.5,
-"roussel": 2.5,
-"melenchon": 27.0,
-"hidalgo": 2.1,
-"jadot": 8.0,
-"poutou": 0.8,
-"macron": 31.7,
-"pecresse": 4.6,
-"lassalle": 2.2,
-"lepen": 13.9,
-"zemmour": 5.2,
-"dupont-aignan": 1.5
+"arthaud": 0.4,
+"roussel": 1.7,
+"melenchon": 12.5,
+"hidalgo": 1.2,
+"jadot": 4.2,
+"poutou": 0.9,
+"macron": 39.1,
+"pecresse": 6.2,
+"lassalle": 3.8,
+"lepen": 19.2,
+"zemmour": 8.7,
+"dupont-aignan": 2.2
 },
 "topCand": "macron",
-"topCandPct": 31.7,
+"topCandPct": 39.1,
 "turnout": {
-"inscrits": 55101,
-"exprimes": 39525,
-"abstentionPct": 27.0,
-"blancsNulsPct": 1.8
+"inscrits": 1552,
+"exprimes": 1200,
+"abstentionPct": 20.9,
+"blancsNulsPct": 2.2
 }
 },
 "quiberon": {
@@ -7133,37 +7141,37 @@
 },
 "pezenas": {
 "lean": "gauche",
-"topPct": 36.4,
+"topPct": 38.4,
 "blocs": {
-"gauche": 36.4,
-"centre": 21.8,
-"droite": 8.3,
-"extreme_droite": 33.4
+"gauche": 38.4,
+"centre": 20.4,
+"droite": 7.3,
+"extreme_droite": 33.9
 },
-"leanScore": 5.3,
-"insee": "34197",
+"leanScore": 2.8,
+"insee": "34199",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.3,
-"roussel": 3.3,
+"arthaud": 0.5,
+"roussel": 2.7,
 "melenchon": 27.3,
-"hidalgo": 1.7,
-"jadot": 3.2,
-"poutou": 0.8,
-"macron": 21.8,
-"pecresse": 3.0,
-"lassalle": 5.3,
-"lepen": 25.8,
-"zemmour": 6.6,
-"dupont-aignan": 1.1
+"hidalgo": 3.2,
+"jadot": 3.7,
+"poutou": 0.9,
+"macron": 20.4,
+"pecresse": 3.2,
+"lassalle": 4.1,
+"lepen": 23.0,
+"zemmour": 8.8,
+"dupont-aignan": 2.1
 },
 "topCand": "melenchon",
 "topCandPct": 27.3,
 "turnout": {
-"inscrits": 834,
-"exprimes": 664,
-"abstentionPct": 18.2,
-"blancsNulsPct": 2.6
+"inscrits": 6248,
+"exprimes": 4547,
+"abstentionPct": 25.7,
+"blancsNulsPct": 2.1
 }
 },
 "agde": {
@@ -7308,36 +7316,37 @@
 },
 "gordes": {
 "lean": "extreme_droite",
-"topPct": 35.8,
+"topPct": 37.7,
 "blocs": {
-"gauche": 22.7,
-"centre": 30.1,
-"droite": 11.4,
-"extreme_droite": 35.8
+"gauche": 18.2,
+"centre": 32.8,
+"droite": 11.2,
+"extreme_droite": 37.7
 },
-"leanScore": 24.5,
-"insee": "84049",
+"leanScore": 30.7,
+"insee": "84050",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.3,
-"roussel": 1.1,
-"melenchon": 14.2,
-"hidalgo": 2.3,
-"jadot": 4.8,
-"macron": 30.1,
-"pecresse": 7.7,
-"lassalle": 3.7,
-"lepen": 19.9,
-"zemmour": 12.5,
-"dupont-aignan": 3.4
+"arthaud": 0.2,
+"roussel": 0.9,
+"melenchon": 11.7,
+"hidalgo": 0.9,
+"jadot": 4.3,
+"poutou": 0.3,
+"macron": 32.8,
+"pecresse": 6.5,
+"lassalle": 4.7,
+"lepen": 21.7,
+"zemmour": 13.8,
+"dupont-aignan": 2.2
 },
 "topCand": "macron",
-"topCandPct": 30.1,
+"topCandPct": 32.8,
 "turnout": {
-"inscrits": 436,
-"exprimes": 352,
-"abstentionPct": 15.4,
-"blancsNulsPct": 4.6
+"inscrits": 1767,
+"exprimes": 1381,
+"abstentionPct": 19.7,
+"blancsNulsPct": 2.7
 }
 },
 "sisteron": {
@@ -7377,35 +7386,37 @@
 },
 "saint-paul-de-vence": {
 "lean": "extreme_droite",
-"topPct": 39.0,
+"topPct": 44.2,
 "blocs": {
-"gauche": 22.0,
-"centre": 28.8,
-"droite": 10.2,
-"extreme_droite": 39.0
+"gauche": 14.6,
+"centre": 31.2,
+"droite": 10.0,
+"extreme_droite": 44.2
 },
-"leanScore": 27.2,
-"insee": "06111",
+"leanScore": 39.6,
+"insee": "06128",
 "matchedBy": "insee",
 "cands": {
+"arthaud": 0.1,
 "roussel": 0.8,
-"melenchon": 15.3,
-"hidalgo": 0.8,
-"jadot": 5.1,
-"macron": 28.8,
-"pecresse": 6.8,
-"lassalle": 3.4,
-"lepen": 28.8,
-"zemmour": 8.5,
-"dupont-aignan": 1.7
+"melenchon": 8.3,
+"hidalgo": 0.6,
+"jadot": 4.4,
+"poutou": 0.4,
+"macron": 31.2,
+"pecresse": 8.1,
+"lassalle": 1.9,
+"lepen": 24.1,
+"zemmour": 17.6,
+"dupont-aignan": 2.6
 },
 "topCand": "macron",
-"topCandPct": 28.8,
+"topCandPct": 31.2,
 "turnout": {
-"inscrits": 174,
-"exprimes": 118,
-"abstentionPct": 32.2,
-"blancsNulsPct": 0.0
+"inscrits": 2826,
+"exprimes": 2165,
+"abstentionPct": 22.5,
+"blancsNulsPct": 1.1
 }
 },
 "valbonne": {
@@ -7444,38 +7455,38 @@
 }
 },
 "ceret": {
-"lean": "extreme_droite",
-"topPct": 38.2,
+"lean": "gauche",
+"topPct": 34.7,
 "blocs": {
-"gauche": 29.9,
-"centre": 20.7,
-"droite": 11.2,
-"extreme_droite": 38.2
+"gauche": 34.7,
+"centre": 21.1,
+"droite": 9.6,
+"extreme_droite": 34.6
 },
-"leanScore": 19.5,
-"insee": "66044",
+"leanScore": 9.5,
+"insee": "66049",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 1.7,
-"roussel": 1.7,
-"melenchon": 16.6,
-"hidalgo": 2.1,
-"jadot": 7.1,
-"poutou": 0.8,
-"macron": 20.7,
-"pecresse": 3.3,
-"lassalle": 7.9,
-"lepen": 27.4,
-"zemmour": 8.7,
-"dupont-aignan": 2.1
+"arthaud": 0.6,
+"roussel": 2.8,
+"melenchon": 23.3,
+"hidalgo": 2.7,
+"jadot": 4.2,
+"poutou": 1.1,
+"macron": 21.1,
+"pecresse": 3.9,
+"lassalle": 5.6,
+"lepen": 23.3,
+"zemmour": 9.4,
+"dupont-aignan": 1.9
 },
-"topCand": "lepen",
-"topCandPct": 27.4,
+"topCand": "melenchon",
+"topCandPct": 23.3,
 "turnout": {
-"inscrits": 304,
-"exprimes": 241,
-"abstentionPct": 19.1,
-"blancsNulsPct": 2.0
+"inscrits": 6620,
+"exprimes": 4770,
+"abstentionPct": 26.2,
+"blancsNulsPct": 2.4
 }
 },
 "carpentras": {
@@ -7724,38 +7735,38 @@
 }
 },
 "evian-les-bains": {
-"lean": "extreme_droite",
-"topPct": 34.5,
+"lean": "centre",
+"topPct": 32.7,
 "blocs": {
-"gauche": 26.6,
-"centre": 28.1,
-"droite": 10.9,
-"extreme_droite": 34.5
+"gauche": 31.2,
+"centre": 32.7,
+"droite": 6.8,
+"extreme_droite": 29.3
 },
-"leanScore": 18.8,
-"insee": "74114",
+"leanScore": 4.9,
+"insee": "74119",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.7,
-"roussel": 1.9,
-"melenchon": 14.6,
-"hidalgo": 1.9,
-"jadot": 6.4,
-"poutou": 1.1,
-"macron": 28.1,
-"pecresse": 7.1,
-"lassalle": 3.7,
-"lepen": 19.5,
-"zemmour": 10.5,
-"dupont-aignan": 4.5
+"arthaud": 0.6,
+"roussel": 1.6,
+"melenchon": 20.1,
+"hidalgo": 1.7,
+"jadot": 6.6,
+"poutou": 0.6,
+"macron": 32.7,
+"pecresse": 4.4,
+"lassalle": 2.4,
+"lepen": 17.2,
+"zemmour": 8.6,
+"dupont-aignan": 3.5
 },
 "topCand": "macron",
-"topCandPct": 28.1,
+"topCandPct": 32.7,
 "turnout": {
-"inscrits": 339,
-"exprimes": 267,
-"abstentionPct": 20.4,
-"blancsNulsPct": 1.1
+"inscrits": 6289,
+"exprimes": 4344,
+"abstentionPct": 29.6,
+"blancsNulsPct": 1.9
 }
 },
 "issoire": {
@@ -7794,38 +7805,38 @@
 }
 },
 "moulins": {
-"lean": "gauche",
-"topPct": 33.1,
+"lean": "extreme_droite",
+"topPct": 30.7,
 "blocs": {
-"gauche": 33.1,
-"centre": 25.8,
-"droite": 8.5,
-"extreme_droite": 32.6
+"gauche": 30.3,
+"centre": 29.9,
+"droite": 9.1,
+"extreme_droite": 30.7
 },
-"leanScore": 8.0,
-"insee": "03185",
+"leanScore": 9.5,
+"insee": "03190",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.8,
-"roussel": 3.7,
-"melenchon": 22.6,
-"hidalgo": 2.0,
-"jadot": 3.1,
+"arthaud": 0.7,
+"roussel": 3.6,
+"melenchon": 19.4,
+"hidalgo": 1.8,
+"jadot": 4.0,
 "poutou": 0.8,
-"macron": 25.8,
-"pecresse": 5.6,
+"macron": 29.9,
+"pecresse": 6.2,
 "lassalle": 2.9,
-"lepen": 24.1,
-"zemmour": 6.5,
-"dupont-aignan": 2.0
+"lepen": 21.9,
+"zemmour": 7.2,
+"dupont-aignan": 1.6
 },
 "topCand": "macron",
-"topCandPct": 25.8,
+"topCandPct": 29.9,
 "turnout": {
-"inscrits": 21448,
-"exprimes": 14841,
-"abstentionPct": 28.9,
-"blancsNulsPct": 2.7
+"inscrits": 12875,
+"exprimes": 8344,
+"abstentionPct": 33.7,
+"blancsNulsPct": 2.3
 }
 },
 "tulle": {
@@ -8075,37 +8086,37 @@
 },
 "gien": {
 "lean": "extreme_droite",
-"topPct": 38.4,
+"topPct": 36.7,
 "blocs": {
-"gauche": 23.8,
-"centre": 29.4,
-"droite": 8.4,
-"extreme_droite": 38.4
+"gauche": 29.6,
+"centre": 26.5,
+"droite": 7.1,
+"extreme_droite": 36.7
 },
-"leanScore": 23.0,
-"insee": "45154",
+"leanScore": 14.2,
+"insee": "45155",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.6,
-"roussel": 2.7,
-"melenchon": 13.4,
-"hidalgo": 2.1,
-"jadot": 4.1,
-"poutou": 0.9,
-"macron": 29.4,
-"pecresse": 6.3,
-"lassalle": 2.1,
-"lepen": 30.1,
-"zemmour": 5.3,
-"dupont-aignan": 3.1
+"arthaud": 0.5,
+"roussel": 2.3,
+"melenchon": 22.3,
+"hidalgo": 1.4,
+"jadot": 2.4,
+"poutou": 0.8,
+"macron": 26.5,
+"pecresse": 4.2,
+"lassalle": 2.9,
+"lepen": 27.2,
+"zemmour": 7.0,
+"dupont-aignan": 2.5
 },
 "topCand": "lepen",
-"topCandPct": 30.1,
+"topCandPct": 27.2,
 "turnout": {
-"inscrits": 1422,
-"exprimes": 1134,
-"abstentionPct": 17.9,
-"blancsNulsPct": 2.8
+"inscrits": 8172,
+"exprimes": 5474,
+"abstentionPct": 31.2,
+"blancsNulsPct": 2.6
 }
 },
 "lourdes": {
@@ -8354,37 +8365,37 @@
 }
 },
 "saint-lo": {
-"lean": "extreme_droite",
-"topPct": 33.2,
+"lean": "centre",
+"topPct": 35.1,
 "blocs": {
-"gauche": 25.6,
-"centre": 31.5,
-"droite": 9.7,
-"extreme_droite": 33.2
+"gauche": 32.7,
+"centre": 35.1,
+"droite": 6.2,
+"extreme_droite": 26.0
 },
-"leanScore": 17.3,
-"insee": "50592",
+"leanScore": -0.5,
+"insee": "50502",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 1.3,
-"roussel": 1.8,
-"melenchon": 14.6,
-"hidalgo": 1.8,
-"jadot": 5.2,
-"poutou": 0.9,
-"macron": 31.5,
-"pecresse": 6.7,
-"lassalle": 2.9,
-"lepen": 28.0,
-"zemmour": 3.1,
-"dupont-aignan": 2.1
+"arthaud": 0.6,
+"roussel": 2.6,
+"melenchon": 19.9,
+"hidalgo": 2.6,
+"jadot": 5.9,
+"poutou": 1.1,
+"macron": 35.1,
+"pecresse": 4.2,
+"lassalle": 2.0,
+"lepen": 19.3,
+"zemmour": 4.9,
+"dupont-aignan": 1.7
 },
 "topCand": "macron",
-"topCandPct": 31.5,
+"topCandPct": 35.1,
 "turnout": {
-"inscrits": 1701,
-"exprimes": 1262,
-"abstentionPct": 24.3,
+"inscrits": 13243,
+"exprimes": 9093,
+"abstentionPct": 30.0,
 "blancsNulsPct": 1.9
 }
 },
@@ -8494,38 +8505,38 @@
 }
 },
 "saverne": {
-"lean": "extreme_droite",
-"topPct": 40.5,
+"lean": "centre",
+"topPct": 32.0,
 "blocs": {
-"gauche": 16.6,
-"centre": 30.6,
-"droite": 12.3,
-"extreme_droite": 40.5
+"gauche": 30.1,
+"centre": 32.0,
+"droite": 8.3,
+"extreme_droite": 29.6
 },
-"leanScore": 36.2,
-"insee": "67440",
+"leanScore": 7.8,
+"insee": "67437",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 1.3,
-"roussel": 1.3,
-"melenchon": 7.3,
-"hidalgo": 2.0,
-"jadot": 4.3,
-"poutou": 0.3,
-"macron": 30.6,
-"pecresse": 8.3,
-"lassalle": 4.0,
-"lepen": 26.9,
-"zemmour": 9.0,
-"dupont-aignan": 4.7
+"arthaud": 0.7,
+"roussel": 1.1,
+"melenchon": 19.2,
+"hidalgo": 1.9,
+"jadot": 6.3,
+"poutou": 0.8,
+"macron": 32.0,
+"pecresse": 5.8,
+"lassalle": 2.5,
+"lepen": 19.8,
+"zemmour": 6.9,
+"dupont-aignan": 2.9
 },
 "topCand": "macron",
-"topCandPct": 30.6,
+"topCandPct": 32.0,
 "turnout": {
-"inscrits": 419,
-"exprimes": 301,
-"abstentionPct": 25.3,
-"blancsNulsPct": 3.8
+"inscrits": 7842,
+"exprimes": 5472,
+"abstentionPct": 28.8,
+"blancsNulsPct": 2.0
 }
 },
 "laon": {
@@ -8634,38 +8645,38 @@
 }
 },
 "chinon": {
-"lean": "extreme_droite",
-"topPct": 39.4,
+"lean": "gauche",
+"topPct": 34.1,
 "blocs": {
-"gauche": 30.3,
-"centre": 23.3,
-"droite": 7.0,
-"extreme_droite": 39.4
+"gauche": 34.1,
+"centre": 29.9,
+"droite": 8.2,
+"extreme_droite": 27.8
 },
-"leanScore": 16.1,
-"insee": "37063",
+"leanScore": 1.9,
+"insee": "37072",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 1.1,
-"roussel": 2.6,
-"melenchon": 20.9,
-"hidalgo": 1.7,
-"jadot": 3.0,
+"arthaud": 0.9,
+"roussel": 3.7,
+"melenchon": 21.9,
+"hidalgo": 2.1,
+"jadot": 4.5,
 "poutou": 1.0,
-"macron": 23.3,
-"pecresse": 4.7,
-"lassalle": 2.3,
-"lepen": 31.2,
-"zemmour": 5.8,
+"macron": 29.9,
+"pecresse": 5.0,
+"lassalle": 3.1,
+"lepen": 19.5,
+"zemmour": 5.9,
 "dupont-aignan": 2.5
 },
-"topCand": "lepen",
-"topCandPct": 31.2,
+"topCand": "macron",
+"topCandPct": 29.9,
 "turnout": {
-"inscrits": 3587,
-"exprimes": 2272,
-"abstentionPct": 35.1,
-"blancsNulsPct": 2.4
+"inscrits": 6331,
+"exprimes": 4431,
+"abstentionPct": 28.2,
+"blancsNulsPct": 2.5
 }
 },
 "saint-die-des-vosges": {
@@ -8844,72 +8855,73 @@
 }
 },
 "cluses": {
-"lean": "gauche",
-"topPct": 33.7,
+"lean": "extreme_droite",
+"topPct": 36.4,
 "blocs": {
-"gauche": 33.7,
-"centre": 28.3,
-"droite": 9.5,
-"extreme_droite": 28.6
+"gauche": 30.5,
+"centre": 26.3,
+"droite": 6.7,
+"extreme_droite": 36.4
 },
-"leanScore": 4.4,
-"insee": "74065",
+"leanScore": 12.6,
+"insee": "74081",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.3,
-"roussel": 3.5,
-"melenchon": 17.8,
-"hidalgo": 1.6,
-"jadot": 9.5,
-"poutou": 1.0,
-"macron": 28.3,
-"pecresse": 5.1,
-"lassalle": 4.4,
-"lepen": 17.8,
-"zemmour": 7.0,
-"dupont-aignan": 3.8
+"arthaud": 0.5,
+"roussel": 1.6,
+"melenchon": 22.4,
+"hidalgo": 1.4,
+"jadot": 3.9,
+"poutou": 0.6,
+"macron": 26.3,
+"pecresse": 4.0,
+"lassalle": 2.7,
+"lepen": 24.8,
+"zemmour": 9.0,
+"dupont-aignan": 2.7
 },
 "topCand": "macron",
-"topCandPct": 28.3,
+"topCandPct": 26.3,
 "turnout": {
-"inscrits": 399,
-"exprimes": 315,
-"abstentionPct": 20.1,
-"blancsNulsPct": 1.3
+"inscrits": 9724,
+"exprimes": 6413,
+"abstentionPct": 32.8,
+"blancsNulsPct": 1.8
 }
 },
 "rumilly": {
 "lean": "extreme_droite",
-"topPct": 37.4,
+"topPct": 36.6,
 "blocs": {
-"gauche": 20.1,
-"centre": 35.2,
-"droite": 7.3,
-"extreme_droite": 37.4
+"gauche": 30.8,
+"centre": 25.6,
+"droite": 7.1,
+"extreme_droite": 36.6
 },
-"leanScore": 24.6,
-"insee": "74228",
+"leanScore": 12.9,
+"insee": "74225",
 "matchedBy": "insee",
 "cands": {
-"roussel": 0.9,
-"melenchon": 11.0,
+"arthaud": 0.7,
+"roussel": 1.6,
+"melenchon": 21.3,
 "hidalgo": 1.4,
-"jadot": 5.9,
-"poutou": 0.9,
-"macron": 35.2,
-"pecresse": 5.9,
-"lassalle": 1.4,
-"lepen": 21.0,
-"zemmour": 8.7,
-"dupont-aignan": 7.8
+"jadot": 4.9,
+"poutou": 0.8,
+"macron": 25.6,
+"pecresse": 4.0,
+"lassalle": 3.1,
+"lepen": 26.1,
+"zemmour": 7.2,
+"dupont-aignan": 3.3
 },
-"topCand": "macron",
-"topCandPct": 35.2,
+"topCand": "lepen",
+"topCandPct": 26.1,
 "turnout": {
-"inscrits": 272,
-"exprimes": 219,
-"abstentionPct": 16.5,
-"blancsNulsPct": 3.5
+"inscrits": 9979,
+"exprimes": 7033,
+"abstentionPct": 27.7,
+"blancsNulsPct": 2.5
 }
 },
 "annonay": {
@@ -9229,37 +9241,37 @@
 },
 "cosne-cours-sur-loire": {
 "lean": "extreme_droite",
-"topPct": 34.2,
+"topPct": 38.0,
 "blocs": {
-"gauche": 26.4,
-"centre": 30.9,
-"droite": 8.5,
-"extreme_droite": 34.2
+"gauche": 25.7,
+"centre": 27.5,
+"droite": 8.9,
+"extreme_droite": 38.0
 },
-"leanScore": 16.3,
-"insee": "58083",
+"leanScore": 21.2,
+"insee": "58086",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 1.5,
-"roussel": 3.2,
-"melenchon": 16.0,
-"hidalgo": 2.5,
-"jadot": 2.1,
-"poutou": 1.1,
-"macron": 30.9,
-"pecresse": 4.4,
-"lassalle": 4.1,
-"lepen": 27.2,
-"zemmour": 5.2,
+"arthaud": 0.6,
+"roussel": 3.4,
+"melenchon": 16.5,
+"hidalgo": 1.8,
+"jadot": 2.7,
+"poutou": 0.7,
+"macron": 27.5,
+"pecresse": 5.9,
+"lassalle": 3.0,
+"lepen": 28.8,
+"zemmour": 7.2,
 "dupont-aignan": 1.9
 },
-"topCand": "macron",
-"topCandPct": 30.9,
+"topCand": "lepen",
+"topCandPct": 28.8,
 "turnout": {
-"inscrits": 1073,
-"exprimes": 751,
-"abstentionPct": 28.1,
-"blancsNulsPct": 2.7
+"inscrits": 7233,
+"exprimes": 5176,
+"abstentionPct": 27.2,
+"blancsNulsPct": 1.7
 }
 },
 "sens": {
@@ -9368,32 +9380,38 @@
 }
 },
 "brioude": {
-"lean": "centre",
-"topPct": 29.8,
+"lean": "gauche",
+"topPct": 33.6,
 "blocs": {
-"gauche": 27.7,
-"centre": 29.8,
-"droite": 14.9,
-"extreme_droite": 27.7
+"gauche": 33.6,
+"centre": 28.2,
+"droite": 9.8,
+"extreme_droite": 28.4
 },
-"leanScore": 14.9,
-"insee": "43035",
+"leanScore": 4.6,
+"insee": "43040",
 "matchedBy": "insee",
 "cands": {
-"roussel": 4.3,
-"melenchon": 23.4,
-"macron": 29.8,
-"pecresse": 14.9,
-"lepen": 23.4,
-"zemmour": 4.3
+"arthaud": 0.6,
+"roussel": 2.7,
+"melenchon": 22.5,
+"hidalgo": 2.6,
+"jadot": 4.3,
+"poutou": 0.9,
+"macron": 28.2,
+"pecresse": 5.9,
+"lassalle": 3.9,
+"lepen": 20.6,
+"zemmour": 5.8,
+"dupont-aignan": 2.0
 },
 "topCand": "macron",
-"topCandPct": 29.8,
+"topCandPct": 28.2,
 "turnout": {
-"inscrits": 76,
-"exprimes": 47,
-"abstentionPct": 34.2,
-"blancsNulsPct": 6.0
+"inscrits": 4856,
+"exprimes": 3482,
+"abstentionPct": 26.3,
+"blancsNulsPct": 2.7
 }
 },
 "issoudun": {
@@ -9468,37 +9486,37 @@
 },
 "les-andelys": {
 "lean": "extreme_droite",
-"topPct": 41.2,
+"topPct": 42.4,
 "blocs": {
-"gauche": 23.8,
-"centre": 27.9,
-"droite": 7.1,
-"extreme_droite": 41.2
+"gauche": 28.6,
+"centre": 22.9,
+"droite": 6.0,
+"extreme_droite": 42.4
 },
-"leanScore": 24.5,
-"insee": "27003",
+"leanScore": 19.8,
+"insee": "27016",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.5,
-"roussel": 1.3,
-"melenchon": 15.3,
-"hidalgo": 0.4,
-"jadot": 5.4,
+"arthaud": 0.9,
+"roussel": 2.1,
+"melenchon": 20.7,
+"hidalgo": 1.3,
+"jadot": 2.9,
 "poutou": 0.8,
-"macron": 27.9,
-"pecresse": 5.9,
-"lassalle": 1.2,
-"lepen": 30.8,
-"zemmour": 7.9,
-"dupont-aignan": 2.5
+"macron": 22.9,
+"pecresse": 4.3,
+"lassalle": 1.7,
+"lepen": 33.9,
+"zemmour": 6.0,
+"dupont-aignan": 2.6
 },
 "topCand": "lepen",
-"topCandPct": 30.8,
+"topCandPct": 33.9,
 "turnout": {
-"inscrits": 1306,
-"exprimes": 973,
-"abstentionPct": 23.7,
-"blancsNulsPct": 2.3
+"inscrits": 5528,
+"exprimes": 3840,
+"abstentionPct": 29.1,
+"blancsNulsPct": 2.1
 }
 },
 "dreux": {
@@ -9677,73 +9695,73 @@
 }
 },
 "saint-yrieix-la-perche": {
-"lean": "gauche",
-"topPct": 34.5,
+"lean": "extreme_droite",
+"topPct": 31.1,
 "blocs": {
-"gauche": 34.5,
-"centre": 26.7,
-"droite": 9.0,
-"extreme_droite": 29.9
+"gauche": 28.5,
+"centre": 28.7,
+"droite": 11.6,
+"extreme_droite": 31.1
 },
-"leanScore": 4.4,
-"insee": "87154",
+"leanScore": 14.2,
+"insee": "87187",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.9,
-"roussel": 6.0,
-"melenchon": 20.2,
-"hidalgo": 2.5,
-"jadot": 3.9,
+"arthaud": 0.6,
+"roussel": 4.0,
+"melenchon": 16.5,
+"hidalgo": 3.9,
+"jadot": 2.6,
 "poutou": 1.0,
-"macron": 26.7,
-"pecresse": 4.1,
-"lassalle": 4.8,
-"lepen": 23.3,
-"zemmour": 4.8,
-"dupont-aignan": 1.8
+"macron": 28.7,
+"pecresse": 5.5,
+"lassalle": 6.2,
+"lepen": 23.8,
+"zemmour": 4.9,
+"dupont-aignan": 2.3
 },
 "topCand": "macron",
-"topCandPct": 26.7,
+"topCandPct": 28.7,
 "turnout": {
-"inscrits": 8352,
-"exprimes": 6194,
-"abstentionPct": 23.4,
-"blancsNulsPct": 3.2
+"inscrits": 5485,
+"exprimes": 4047,
+"abstentionPct": 23.9,
+"blancsNulsPct": 3.1
 }
 },
 "mayenne": {
 "lean": "centre",
-"topPct": 40.0,
+"topPct": 35.7,
 "blocs": {
-"gauche": 20.6,
-"centre": 40.0,
-"droite": 9.5,
-"extreme_droite": 29.8
+"gauche": 29.3,
+"centre": 35.7,
+"droite": 7.8,
+"extreme_droite": 27.2
 },
-"leanScore": 18.7,
-"insee": "53145",
+"leanScore": 5.7,
+"insee": "53147",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.3,
-"roussel": 1.9,
-"melenchon": 13.7,
-"hidalgo": 1.3,
-"jadot": 2.9,
-"poutou": 0.6,
-"macron": 40.0,
-"pecresse": 7.3,
-"lassalle": 2.2,
-"lepen": 24.1,
-"zemmour": 5.1,
-"dupont-aignan": 0.6
+"arthaud": 1.0,
+"roussel": 2.1,
+"melenchon": 17.3,
+"hidalgo": 3.1,
+"jadot": 5.0,
+"poutou": 0.9,
+"macron": 35.7,
+"pecresse": 5.4,
+"lassalle": 2.5,
+"lepen": 20.7,
+"zemmour": 4.4,
+"dupont-aignan": 2.0
 },
 "topCand": "macron",
-"topCandPct": 40.0,
+"topCandPct": 35.7,
 "turnout": {
-"inscrits": 423,
-"exprimes": 315,
-"abstentionPct": 24.3,
-"blancsNulsPct": 1.6
+"inscrits": 9627,
+"exprimes": 6803,
+"abstentionPct": 27.4,
+"blancsNulsPct": 2.7
 }
 },
 "pont-a-mousson": {
@@ -10063,104 +10081,107 @@
 },
 "castelsarrasin": {
 "lean": "extreme_droite",
-"topPct": 35.7,
+"topPct": 45.8,
 "blocs": {
-"gauche": 19.0,
-"centre": 19.0,
-"droite": 26.2,
-"extreme_droite": 35.7
+"gauche": 23.6,
+"centre": 21.4,
+"droite": 9.2,
+"extreme_droite": 45.8
 },
-"leanScore": 42.9,
-"insee": "82034",
+"leanScore": 31.4,
+"insee": "82033",
 "matchedBy": "insee",
 "cands": {
-"melenchon": 14.3,
-"hidalgo": 2.4,
-"jadot": 2.4,
-"macron": 19.0,
-"pecresse": 1.2,
-"lassalle": 25.0,
-"lepen": 23.8,
-"zemmour": 6.0,
-"dupont-aignan": 6.0
+"arthaud": 0.5,
+"roussel": 3.0,
+"melenchon": 15.7,
+"hidalgo": 1.6,
+"jadot": 2.2,
+"poutou": 0.6,
+"macron": 21.4,
+"pecresse": 3.5,
+"lassalle": 5.7,
+"lepen": 35.8,
+"zemmour": 7.7,
+"dupont-aignan": 2.3
 },
-"topCand": "lassalle",
-"topCandPct": 25.0,
+"topCand": "lepen",
+"topCandPct": 35.8,
 "turnout": {
-"inscrits": 108,
-"exprimes": 84,
-"abstentionPct": 21.3,
-"blancsNulsPct": 1.2
+"inscrits": 9757,
+"exprimes": 6803,
+"abstentionPct": 28.9,
+"blancsNulsPct": 2.0
 }
 },
 "sarrebourg": {
 "lean": "extreme_droite",
-"topPct": 40.8,
+"topPct": 37.2,
 "blocs": {
-"gauche": 26.5,
-"centre": 26.0,
-"droite": 6.7,
-"extreme_droite": 40.8
+"gauche": 26.6,
+"centre": 26.8,
+"droite": 9.4,
+"extreme_droite": 37.2
 },
-"leanScore": 21.0,
-"insee": "57631",
-"matchedBy": "insee",
-"cands": {
-"arthaud": 0.8,
-"roussel": 1.2,
-"melenchon": 19.2,
-"hidalgo": 1.5,
-"jadot": 3.1,
-"poutou": 0.8,
-"macron": 26.0,
-"pecresse": 4.0,
-"lassalle": 2.8,
-"lepen": 30.1,
-"zemmour": 8.0,
-"dupont-aignan": 2.6
-},
-"topCand": "lepen",
-"topCandPct": 30.1,
-"turnout": {
-"inscrits": 14158,
-"exprimes": 8986,
-"abstentionPct": 35.2,
-"blancsNulsPct": 2.0
-}
-},
-"longwy": {
-"lean": "extreme_droite",
-"topPct": 39.1,
-"blocs": {
-"gauche": 29.6,
-"centre": 23.7,
-"droite": 7.6,
-"extreme_droite": 39.1
-},
-"leanScore": 17.1,
-"insee": "54329",
+"leanScore": 20.0,
+"insee": "57630",
 "matchedBy": "insee",
 "cands": {
 "arthaud": 0.7,
-"roussel": 2.2,
-"melenchon": 20.4,
-"hidalgo": 1.6,
-"jadot": 3.5,
-"poutou": 1.1,
-"macron": 23.7,
-"pecresse": 5.1,
-"lassalle": 2.5,
-"lepen": 30.6,
-"zemmour": 6.7,
-"dupont-aignan": 1.8
+"roussel": 1.5,
+"melenchon": 18.7,
+"hidalgo": 1.1,
+"jadot": 4.0,
+"poutou": 0.7,
+"macron": 26.8,
+"pecresse": 6.7,
+"lassalle": 2.8,
+"lepen": 26.1,
+"zemmour": 8.1,
+"dupont-aignan": 3.0
 },
-"topCand": "lepen",
-"topCandPct": 30.6,
+"topCand": "macron",
+"topCandPct": 26.8,
 "turnout": {
-"inscrits": 12626,
-"exprimes": 7880,
-"abstentionPct": 36.2,
-"blancsNulsPct": 2.2
+"inscrits": 7966,
+"exprimes": 5222,
+"abstentionPct": 32.9,
+"blancsNulsPct": 2.3
+}
+},
+"longwy": {
+"lean": "gauche",
+"topPct": 39.1,
+"blocs": {
+"gauche": 39.1,
+"centre": 26.6,
+"droite": 4.0,
+"extreme_droite": 30.4
+},
+"leanScore": -4.7,
+"insee": "54323",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.7,
+"roussel": 3.1,
+"melenchon": 29.0,
+"hidalgo": 2.2,
+"jadot": 2.9,
+"poutou": 1.2,
+"macron": 26.6,
+"pecresse": 2.2,
+"lassalle": 1.7,
+"lepen": 22.3,
+"zemmour": 6.3,
+"dupont-aignan": 1.7
+},
+"topCand": "melenchon",
+"topCandPct": 29.0,
+"turnout": {
+"inscrits": 7188,
+"exprimes": 4456,
+"abstentionPct": 37.0,
+"blancsNulsPct": 1.7
 }
 },
 "saint-amand-montrond": {
@@ -12264,38 +12285,38 @@
 }
 },
 "mamoudzou": {
-"lean": "extreme_droite",
-"topPct": 33.3,
+"lean": "gauche",
+"topPct": 37.6,
 "blocs": {
-"gauche": 32.4,
-"centre": 31.0,
-"droite": 3.4,
-"extreme_droite": 33.3
+"gauche": 37.6,
+"centre": 21.7,
+"droite": 8.2,
+"extreme_droite": 32.5
 },
-"leanScore": 4.3,
-"insee": "97608",
+"leanScore": 3.1,
+"insee": "97611",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 1.0,
-"roussel": 0.8,
-"melenchon": 28.3,
-"hidalgo": 0.7,
+"arthaud": 1.6,
+"roussel": 0.5,
+"melenchon": 32.1,
+"hidalgo": 1.2,
 "jadot": 0.9,
-"poutou": 0.6,
-"macron": 31.0,
-"pecresse": 2.5,
-"lassalle": 0.9,
-"lepen": 29.5,
-"zemmour": 2.3,
-"dupont-aignan": 1.5
+"poutou": 1.1,
+"macron": 21.7,
+"pecresse": 7.1,
+"lassalle": 1.0,
+"lepen": 28.6,
+"zemmour": 2.0,
+"dupont-aignan": 1.9
 },
-"topCand": "macron",
-"topCandPct": 31.0,
+"topCand": "melenchon",
+"topCandPct": 32.1,
 "turnout": {
-"inscrits": 6252,
-"exprimes": 2646,
-"abstentionPct": 54.7,
-"blancsNulsPct": 6.7
+"inscrits": 16515,
+"exprimes": 5846,
+"abstentionPct": 62.2,
+"blancsNulsPct": 6.3
 }
 },
 "cormeilles-en-parisis": {
@@ -15450,37 +15471,37 @@
 },
 "neuilly-sur-marne": {
 "lean": "gauche",
-"topPct": 38.4,
+"topPct": 48.9,
 "blocs": {
-"gauche": 38.4,
-"centre": 30.9,
-"droite": 7.1,
-"extreme_droite": 23.5
+"gauche": 48.9,
+"centre": 24.0,
+"droite": 5.4,
+"extreme_droite": 21.7
 },
-"leanScore": -7.8,
-"insee": "93049",
+"leanScore": -21.8,
+"insee": "93050",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.4,
-"roussel": 2.2,
-"melenchon": 28.1,
+"arthaud": 0.5,
+"roussel": 2.0,
+"melenchon": 41.3,
 "hidalgo": 1.2,
-"jadot": 5.8,
-"poutou": 0.7,
-"macron": 30.9,
-"pecresse": 5.5,
-"lassalle": 1.6,
-"lepen": 13.9,
-"zemmour": 7.8,
-"dupont-aignan": 1.8
+"jadot": 3.0,
+"poutou": 0.8,
+"macron": 24.0,
+"pecresse": 3.7,
+"lassalle": 1.7,
+"lepen": 15.3,
+"zemmour": 5.0,
+"dupont-aignan": 1.4
 },
-"topCand": "macron",
-"topCandPct": 30.9,
+"topCand": "melenchon",
+"topCandPct": 41.3,
 "turnout": {
-"inscrits": 12648,
-"exprimes": 9413,
-"abstentionPct": 24.3,
-"blancsNulsPct": 1.7
+"inscrits": 19355,
+"exprimes": 13617,
+"abstentionPct": 28.0,
+"blancsNulsPct": 2.2
 }
 },
 "le-blanc-mesnil": {
@@ -15905,37 +15926,37 @@
 },
 "herouville-saint-clair": {
 "lean": "gauche",
-"topPct": 38.8,
+"topPct": 49.6,
 "blocs": {
-"gauche": 38.8,
-"centre": 32.0,
-"droite": 5.4,
-"extreme_droite": 23.8
+"gauche": 49.6,
+"centre": 25.5,
+"droite": 4.1,
+"extreme_droite": 20.8
 },
-"leanScore": -9.6,
-"insee": "14341",
+"leanScore": -24.7,
+"insee": "14327",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.8,
-"roussel": 2.7,
-"melenchon": 26.1,
-"hidalgo": 2.4,
-"jadot": 5.7,
-"poutou": 1.1,
-"macron": 32.0,
-"pecresse": 3.1,
-"lassalle": 2.3,
-"lepen": 18.5,
-"zemmour": 3.8,
-"dupont-aignan": 1.5
+"arthaud": 0.9,
+"roussel": 2.6,
+"melenchon": 36.9,
+"hidalgo": 2.1,
+"jadot": 5.9,
+"poutou": 1.2,
+"macron": 25.5,
+"pecresse": 2.4,
+"lassalle": 1.8,
+"lepen": 16.0,
+"zemmour": 3.4,
+"dupont-aignan": 1.4
 },
-"topCand": "macron",
-"topCandPct": 32.0,
+"topCand": "melenchon",
+"topCandPct": 36.9,
 "turnout": {
-"inscrits": 7782,
-"exprimes": 5633,
-"abstentionPct": 25.8,
-"blancsNulsPct": 2.5
+"inscrits": 12299,
+"exprimes": 9065,
+"abstentionPct": 24.9,
+"blancsNulsPct": 1.9
 }
 },
 "olivet": {
@@ -16850,37 +16871,37 @@
 },
 "saint-andre-reunion": {
 "lean": "gauche",
-"topPct": 42.4,
+"topPct": 45.3,
 "blocs": {
-"gauche": 42.4,
-"centre": 19.5,
+"gauche": 45.3,
+"centre": 16.9,
 "droite": 3.2,
-"extreme_droite": 34.9
+"extreme_droite": 34.5
 },
-"leanScore": -4.3,
-"insee": "97410",
+"leanScore": -7.6,
+"insee": "97409",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 1.5,
-"roussel": 0.6,
-"melenchon": 37.0,
-"hidalgo": 1.4,
-"jadot": 1.2,
-"poutou": 0.6,
-"macron": 19.5,
-"pecresse": 2.0,
-"lassalle": 1.2,
-"lepen": 29.8,
-"zemmour": 3.1,
-"dupont-aignan": 2.1
+"arthaud": 1.0,
+"roussel": 0.7,
+"melenchon": 40.5,
+"hidalgo": 1.2,
+"jadot": 1.3,
+"poutou": 0.7,
+"macron": 16.9,
+"pecresse": 2.2,
+"lassalle": 1.0,
+"lepen": 29.7,
+"zemmour": 2.9,
+"dupont-aignan": 2.0
 },
 "topCand": "melenchon",
-"topCandPct": 37.0,
+"topCandPct": 40.5,
 "turnout": {
-"inscrits": 29074,
-"exprimes": 13896,
-"abstentionPct": 50.1,
-"blancsNulsPct": 4.3
+"inscrits": 40298,
+"exprimes": 17904,
+"abstentionPct": 54.0,
+"blancsNulsPct": 3.5
 }
 },
 "saint-louis-reunion-974": {
@@ -16955,37 +16976,37 @@
 },
 "saint-benoit-reunion": {
 "lean": "gauche",
-"topPct": 45.1,
+"topPct": 42.4,
 "blocs": {
-"gauche": 45.1,
-"centre": 21.1,
-"droite": 4.6,
-"extreme_droite": 29.2
+"gauche": 42.4,
+"centre": 19.5,
+"droite": 3.2,
+"extreme_droite": 34.9
 },
-"leanScore": -11.3,
-"insee": "97411",
+"leanScore": -4.3,
+"insee": "97410",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.9,
-"roussel": 0.8,
-"melenchon": 37.5,
-"hidalgo": 2.2,
-"jadot": 3.0,
-"poutou": 0.7,
-"macron": 21.1,
-"pecresse": 3.2,
-"lassalle": 1.4,
-"lepen": 22.3,
-"zemmour": 4.7,
-"dupont-aignan": 2.2
+"arthaud": 1.5,
+"roussel": 0.6,
+"melenchon": 37.0,
+"hidalgo": 1.4,
+"jadot": 1.2,
+"poutou": 0.6,
+"macron": 19.5,
+"pecresse": 2.0,
+"lassalle": 1.2,
+"lepen": 29.8,
+"zemmour": 3.1,
+"dupont-aignan": 2.1
 },
 "topCand": "melenchon",
-"topCandPct": 37.5,
+"topCandPct": 37.0,
 "turnout": {
-"inscrits": 107461,
-"exprimes": 57464,
-"abstentionPct": 44.5,
-"blancsNulsPct": 3.6
+"inscrits": 29074,
+"exprimes": 13896,
+"abstentionPct": 50.1,
+"blancsNulsPct": 4.3
 }
 },
 "le-robert": {
@@ -17025,37 +17046,37 @@
 },
 "le-francois": {
 "lean": "gauche",
-"topPct": 54.1,
+"topPct": 58.1,
 "blocs": {
-"gauche": 54.1,
-"centre": 18.0,
-"droite": 5.0,
-"extreme_droite": 22.8
+"gauche": 58.1,
+"centre": 14.1,
+"droite": 5.2,
+"extreme_droite": 22.6
 },
-"leanScore": -26.3,
-"insee": "97214",
+"leanScore": -30.3,
+"insee": "97210",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 1.8,
-"roussel": 0.4,
-"melenchon": 46.8,
-"hidalgo": 3.4,
-"jadot": 0.9,
+"arthaud": 1.4,
+"roussel": 0.5,
+"melenchon": 52.1,
+"hidalgo": 2.2,
+"jadot": 1.0,
 "poutou": 0.9,
-"macron": 18.0,
-"pecresse": 3.9,
-"lassalle": 1.1,
-"lepen": 19.2,
-"zemmour": 1.2,
-"dupont-aignan": 2.4
+"macron": 14.1,
+"pecresse": 4.3,
+"lassalle": 1.0,
+"lepen": 14.1,
+"zemmour": 6.7,
+"dupont-aignan": 1.8
 },
 "topCand": "melenchon",
-"topCandPct": 46.8,
+"topCandPct": 52.1,
 "turnout": {
-"inscrits": 6559,
-"exprimes": 2440,
-"abstentionPct": 59.3,
-"blancsNulsPct": 8.7
+"inscrits": 16212,
+"exprimes": 6398,
+"abstentionPct": 58.1,
+"blancsNulsPct": 5.8
 }
 },
 "saint-medard-en-jalles": {
@@ -18319,38 +18340,38 @@
 }
 },
 "riedisheim": {
-"lean": "extreme_droite",
-"topPct": 43.0,
+"lean": "centre",
+"topPct": 35.0,
 "blocs": {
-"gauche": 21.3,
-"centre": 27.9,
-"droite": 7.7,
-"extreme_droite": 43.0
+"gauche": 27.0,
+"centre": 35.0,
+"droite": 7.5,
+"extreme_droite": 30.5
 },
-"leanScore": 29.4,
-"insee": "68267",
+"leanScore": 11.0,
+"insee": "68271",
 "matchedBy": "insee",
 "cands": {
-"arthaud": 0.6,
-"roussel": 1.6,
-"melenchon": 10.4,
-"hidalgo": 1.8,
-"jadot": 6.2,
-"poutou": 0.8,
-"macron": 27.9,
-"pecresse": 4.1,
-"lassalle": 3.7,
-"lepen": 30.2,
-"zemmour": 8.8,
-"dupont-aignan": 4.0
+"arthaud": 0.5,
+"roussel": 1.3,
+"melenchon": 16.3,
+"hidalgo": 1.4,
+"jadot": 7.0,
+"poutou": 0.6,
+"macron": 35.0,
+"pecresse": 5.2,
+"lassalle": 2.3,
+"lepen": 18.8,
+"zemmour": 8.4,
+"dupont-aignan": 3.4
 },
-"topCand": "lepen",
-"topCandPct": 30.2,
+"topCand": "macron",
+"topCandPct": 35.0,
 "turnout": {
-"inscrits": 1579,
-"exprimes": 1149,
-"abstentionPct": 25.6,
-"blancsNulsPct": 2.2
+"inscrits": 8706,
+"exprimes": 6327,
+"abstentionPct": 25.9,
+"blancsNulsPct": 1.9
 }
 },
 "kingersheim": {
@@ -18390,35 +18411,36 @@
 },
 "saint-genis-laval": {
 "lean": "centre",
-"topPct": 36.5,
+"topPct": 35.3,
 "blocs": {
-"gauche": 29.0,
-"centre": 36.5,
-"droite": 8.5,
-"extreme_droite": 26.1
+"gauche": 29.8,
+"centre": 35.3,
+"droite": 8.3,
+"extreme_droite": 26.6
 },
-"leanScore": 5.6,
-"insee": "69233",
+"leanScore": 5.1,
+"insee": "69204",
 "matchedBy": "insee",
 "cands": {
-"roussel": 1.2,
-"melenchon": 18.2,
-"hidalgo": 1.1,
-"jadot": 7.9,
+"arthaud": 0.4,
+"roussel": 2.0,
+"melenchon": 19.3,
+"hidalgo": 1.7,
+"jadot": 5.9,
 "poutou": 0.5,
-"macron": 36.5,
-"pecresse": 7.5,
-"lassalle": 1.0,
-"lepen": 15.2,
-"zemmour": 10.2,
-"dupont-aignan": 0.6
+"macron": 35.3,
+"pecresse": 6.6,
+"lassalle": 1.7,
+"lepen": 16.4,
+"zemmour": 8.1,
+"dupont-aignan": 2.1
 },
 "topCand": "macron",
-"topCandPct": 36.5,
+"topCandPct": 35.3,
 "turnout": {
-"inscrits": 962,
-"exprimes": 801,
-"abstentionPct": 15.5,
+"inscrits": 14744,
+"exprimes": 11705,
+"abstentionPct": 19.4,
 "blancsNulsPct": 1.5
 }
 },
@@ -18875,6 +18897,986 @@
 "exprimes": 5481,
 "abstentionPct": 30.1,
 "blancsNulsPct": 2.2
+}
+},
+"villejuif": {
+"lean": "gauche",
+"topPct": 55.1,
+"blocs": {
+"gauche": 55.1,
+"centre": 23.6,
+"droite": 4.6,
+"extreme_droite": 16.7
+},
+"leanScore": -33.8,
+"insee": "94076",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.5,
+"roussel": 4.2,
+"melenchon": 42.8,
+"hidalgo": 1.4,
+"jadot": 5.3,
+"poutou": 0.8,
+"macron": 23.6,
+"pecresse": 3.4,
+"lassalle": 1.2,
+"lepen": 10.2,
+"zemmour": 5.4,
+"dupont-aignan": 1.2
+},
+"topCand": "melenchon",
+"topCandPct": 42.8,
+"turnout": {
+"inscrits": 30738,
+"exprimes": 21706,
+"abstentionPct": 28.1,
+"blancsNulsPct": 1.7
+}
+},
+"clamart": {
+"lean": "gauche",
+"topPct": 36.5,
+"blocs": {
+"gauche": 36.5,
+"centre": 34.8,
+"droite": 10.3,
+"extreme_droite": 18.4
+},
+"leanScore": -7.8,
+"insee": "92023",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.3,
+"roussel": 1.8,
+"melenchon": 25.1,
+"hidalgo": 1.4,
+"jadot": 7.4,
+"poutou": 0.5,
+"macron": 34.8,
+"pecresse": 8.5,
+"lassalle": 1.7,
+"lepen": 10.2,
+"zemmour": 6.6,
+"dupont-aignan": 1.5
+},
+"topCand": "macron",
+"topCandPct": 34.8,
+"turnout": {
+"inscrits": 36492,
+"exprimes": 28214,
+"abstentionPct": 21.4,
+"blancsNulsPct": 1.7
+}
+},
+"bobigny": {
+"lean": "gauche",
+"topPct": 65.6,
+"blocs": {
+"gauche": 65.6,
+"centre": 17.3,
+"droite": 2.6,
+"extreme_droite": 14.5
+},
+"leanScore": -48.5,
+"insee": "93008",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.6,
+"roussel": 2.3,
+"melenchon": 60.1,
+"hidalgo": 0.6,
+"jadot": 1.5,
+"poutou": 0.5,
+"macron": 17.3,
+"pecresse": 1.8,
+"lassalle": 0.8,
+"lepen": 10.3,
+"zemmour": 3.3,
+"dupont-aignan": 0.9
+},
+"topCand": "melenchon",
+"topCandPct": 60.1,
+"turnout": {
+"inscrits": 23366,
+"exprimes": 14121,
+"abstentionPct": 38.3,
+"blancsNulsPct": 2.1
+}
+},
+"epinay-sur-seine": {
+"lean": "gauche",
+"topPct": 61.7,
+"blocs": {
+"gauche": 61.7,
+"centre": 19.0,
+"droite": 3.8,
+"extreme_droite": 15.5
+},
+"leanScore": -42.4,
+"insee": "93031",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 1.4,
+"melenchon": 56.4,
+"hidalgo": 0.9,
+"jadot": 2.0,
+"poutou": 0.6,
+"macron": 19.0,
+"pecresse": 2.9,
+"lassalle": 0.9,
+"lepen": 9.6,
+"zemmour": 4.7,
+"dupont-aignan": 1.2
+},
+"topCand": "melenchon",
+"topCandPct": 56.4,
+"turnout": {
+"inscrits": 26080,
+"exprimes": 16460,
+"abstentionPct": 35.5,
+"blancsNulsPct": 2.2
+}
+},
+"montrouge": {
+"lean": "gauche",
+"topPct": 42.0,
+"blocs": {
+"gauche": 42.0,
+"centre": 35.2,
+"droite": 7.7,
+"extreme_droite": 15.1
+},
+"leanScore": -19.2,
+"insee": "92049",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 2.1,
+"melenchon": 28.4,
+"hidalgo": 2.2,
+"jadot": 8.3,
+"poutou": 0.6,
+"macron": 35.2,
+"pecresse": 6.2,
+"lassalle": 1.5,
+"lepen": 7.5,
+"zemmour": 6.2,
+"dupont-aignan": 1.3
+},
+"topCand": "macron",
+"topCandPct": 35.2,
+"turnout": {
+"inscrits": 29101,
+"exprimes": 23539,
+"abstentionPct": 17.7,
+"blancsNulsPct": 1.7
+}
+},
+"meudon": {
+"lean": "centre",
+"topPct": 37.9,
+"blocs": {
+"gauche": 34.0,
+"centre": 37.9,
+"droite": 9.7,
+"extreme_droite": 18.3
+},
+"leanScore": -6.0,
+"insee": "92048",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.3,
+"roussel": 1.5,
+"melenchon": 23.1,
+"hidalgo": 1.5,
+"jadot": 7.1,
+"poutou": 0.5,
+"macron": 37.9,
+"pecresse": 7.9,
+"lassalle": 1.8,
+"lepen": 8.7,
+"zemmour": 8.1,
+"dupont-aignan": 1.6
+},
+"topCand": "macron",
+"topCandPct": 37.9,
+"turnout": {
+"inscrits": 30127,
+"exprimes": 23923,
+"abstentionPct": 19.5,
+"blancsNulsPct": 1.4
+}
+},
+"vanves": {
+"lean": "gauche",
+"topPct": 40.0,
+"blocs": {
+"gauche": 40.0,
+"centre": 35.6,
+"droite": 9.0,
+"extreme_droite": 15.3
+},
+"leanScore": -15.7,
+"insee": "92075",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.3,
+"roussel": 2.2,
+"melenchon": 27.0,
+"hidalgo": 2.0,
+"jadot": 7.8,
+"poutou": 0.7,
+"macron": 35.6,
+"pecresse": 7.3,
+"lassalle": 1.7,
+"lepen": 7.4,
+"zemmour": 6.6,
+"dupont-aignan": 1.4
+},
+"topCand": "macron",
+"topCandPct": 35.6,
+"turnout": {
+"inscrits": 18237,
+"exprimes": 14640,
+"abstentionPct": 18.3,
+"blancsNulsPct": 1.7
+}
+},
+"l-hay-les-roses": {
+"lean": "gauche",
+"topPct": 43.4,
+"blocs": {
+"gauche": 43.4,
+"centre": 30.2,
+"droite": 8.3,
+"extreme_droite": 18.1
+},
+"leanScore": -17.0,
+"insee": "94038",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 2.3,
+"melenchon": 32.5,
+"hidalgo": 1.7,
+"jadot": 6.0,
+"poutou": 0.6,
+"macron": 30.2,
+"pecresse": 6.6,
+"lassalle": 1.7,
+"lepen": 10.8,
+"zemmour": 5.8,
+"dupont-aignan": 1.5
+},
+"topCand": "melenchon",
+"topCandPct": 32.5,
+"turnout": {
+"inscrits": 18648,
+"exprimes": 13636,
+"abstentionPct": 25.4,
+"blancsNulsPct": 2.0
+}
+},
+"thiais": {
+"lean": "gauche",
+"topPct": 40.4,
+"blocs": {
+"gauche": 40.4,
+"centre": 29.4,
+"droite": 7.4,
+"extreme_droite": 22.8
+},
+"leanScore": -10.2,
+"insee": "94073",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.5,
+"roussel": 2.4,
+"melenchon": 31.6,
+"hidalgo": 1.4,
+"jadot": 3.8,
+"poutou": 0.7,
+"macron": 29.4,
+"pecresse": 5.9,
+"lassalle": 1.5,
+"lepen": 14.6,
+"zemmour": 6.6,
+"dupont-aignan": 1.6
+},
+"topCand": "melenchon",
+"topCandPct": 31.6,
+"turnout": {
+"inscrits": 17376,
+"exprimes": 12703,
+"abstentionPct": 25.2,
+"blancsNulsPct": 2.2
+}
+},
+"livry-gargan": {
+"lean": "gauche",
+"topPct": 42.7,
+"blocs": {
+"gauche": 42.7,
+"centre": 22.7,
+"droite": 5.7,
+"extreme_droite": 28.9
+},
+"leanScore": -8.1,
+"insee": "93046",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.5,
+"roussel": 2.0,
+"melenchon": 35.3,
+"hidalgo": 1.1,
+"jadot": 3.1,
+"poutou": 0.7,
+"macron": 22.7,
+"pecresse": 3.9,
+"lassalle": 1.7,
+"lepen": 19.5,
+"zemmour": 7.6,
+"dupont-aignan": 1.8
+},
+"topCand": "melenchon",
+"topCandPct": 35.3,
+"turnout": {
+"inscrits": 22252,
+"exprimes": 15880,
+"abstentionPct": 27.2,
+"blancsNulsPct": 2.0
+}
+},
+"villepinte": {
+"lean": "gauche",
+"topPct": 58.5,
+"blocs": {
+"gauche": 58.5,
+"centre": 19.1,
+"droite": 4.3,
+"extreme_droite": 18.1
+},
+"leanScore": -36.1,
+"insee": "93078",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 1.3,
+"melenchon": 54.2,
+"hidalgo": 0.6,
+"jadot": 1.4,
+"poutou": 0.6,
+"macron": 19.1,
+"pecresse": 3.3,
+"lassalle": 1.0,
+"lepen": 13.1,
+"zemmour": 4.0,
+"dupont-aignan": 1.0
+},
+"topCand": "melenchon",
+"topCandPct": 54.2,
+"turnout": {
+"inscrits": 19394,
+"exprimes": 12783,
+"abstentionPct": 32.5,
+"blancsNulsPct": 2.3
+}
+},
+"gagny": {
+"lean": "gauche",
+"topPct": 42.0,
+"blocs": {
+"gauche": 42.0,
+"centre": 25.8,
+"droite": 6.8,
+"extreme_droite": 25.4
+},
+"leanScore": -9.8,
+"insee": "93032",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.5,
+"roussel": 2.2,
+"melenchon": 33.4,
+"hidalgo": 1.1,
+"jadot": 4.2,
+"poutou": 0.6,
+"macron": 25.8,
+"pecresse": 5.1,
+"lassalle": 1.8,
+"lepen": 16.6,
+"zemmour": 7.2,
+"dupont-aignan": 1.6
+},
+"topCand": "melenchon",
+"topCandPct": 33.4,
+"turnout": {
+"inscrits": 21870,
+"exprimes": 15684,
+"abstentionPct": 26.6,
+"blancsNulsPct": 2.3
+}
+},
+"clichy-sous-bois": {
+"lean": "gauche",
+"topPct": 64.6,
+"blocs": {
+"gauche": 64.6,
+"centre": 16.5,
+"droite": 2.8,
+"extreme_droite": 16.1
+},
+"leanScore": -45.7,
+"insee": "93014",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.3,
+"roussel": 1.0,
+"melenchon": 60.5,
+"hidalgo": 0.8,
+"jadot": 1.4,
+"poutou": 0.7,
+"macron": 16.5,
+"pecresse": 1.8,
+"lassalle": 1.0,
+"lepen": 11.8,
+"zemmour": 3.6,
+"dupont-aignan": 0.8
+},
+"topCand": "melenchon",
+"topCandPct": 60.5,
+"turnout": {
+"inscrits": 11832,
+"exprimes": 6730,
+"abstentionPct": 41.8,
+"blancsNulsPct": 2.3
+}
+},
+"romainville": {
+"lean": "gauche",
+"topPct": 59.2,
+"blocs": {
+"gauche": 59.2,
+"centre": 19.5,
+"droite": 3.5,
+"extreme_droite": 17.9
+},
+"leanScore": -37.8,
+"insee": "93063",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.6,
+"roussel": 3.0,
+"melenchon": 48.4,
+"hidalgo": 1.2,
+"jadot": 5.3,
+"poutou": 0.7,
+"macron": 19.5,
+"pecresse": 2.4,
+"lassalle": 1.1,
+"lepen": 10.5,
+"zemmour": 6.4,
+"dupont-aignan": 1.0
+},
+"topCand": "melenchon",
+"topCandPct": 48.4,
+"turnout": {
+"inscrits": 16451,
+"exprimes": 11347,
+"abstentionPct": 30.0,
+"blancsNulsPct": 1.4
+}
+},
+"villemomble": {
+"lean": "gauche",
+"topPct": 40.4,
+"blocs": {
+"gauche": 40.4,
+"centre": 27.0,
+"droite": 7.7,
+"extreme_droite": 24.9
+},
+"leanScore": -7.8,
+"insee": "93077",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.3,
+"roussel": 1.7,
+"melenchon": 31.4,
+"hidalgo": 1.5,
+"jadot": 4.7,
+"poutou": 0.8,
+"macron": 27.0,
+"pecresse": 5.9,
+"lassalle": 1.8,
+"lepen": 15.0,
+"zemmour": 8.1,
+"dupont-aignan": 1.8
+},
+"topCand": "melenchon",
+"topCandPct": 31.4,
+"turnout": {
+"inscrits": 15573,
+"exprimes": 11779,
+"abstentionPct": 22.8,
+"blancsNulsPct": 2.0
+}
+},
+"ris-orangis": {
+"lean": "gauche",
+"topPct": 47.8,
+"blocs": {
+"gauche": 47.8,
+"centre": 22.7,
+"droite": 5.5,
+"extreme_droite": 24.0
+},
+"leanScore": -18.3,
+"insee": "91521",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 2.2,
+"melenchon": 40.1,
+"hidalgo": 1.4,
+"jadot": 3.0,
+"poutou": 0.8,
+"macron": 22.7,
+"pecresse": 3.9,
+"lassalle": 1.6,
+"lepen": 16.2,
+"zemmour": 5.8,
+"dupont-aignan": 2.0
+},
+"topCand": "melenchon",
+"topCandPct": 40.1,
+"turnout": {
+"inscrits": 14592,
+"exprimes": 10219,
+"abstentionPct": 28.5,
+"blancsNulsPct": 2.1
+}
+},
+"fontenay-aux-roses": {
+"lean": "gauche",
+"topPct": 42.1,
+"blocs": {
+"gauche": 42.1,
+"centre": 32.9,
+"droite": 8.0,
+"extreme_droite": 17.1
+},
+"leanScore": -17.0,
+"insee": "92032",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 2.2,
+"melenchon": 29.5,
+"hidalgo": 2.2,
+"jadot": 7.0,
+"poutou": 0.7,
+"macron": 32.9,
+"pecresse": 6.3,
+"lassalle": 1.7,
+"lepen": 9.3,
+"zemmour": 6.2,
+"dupont-aignan": 1.5
+},
+"topCand": "macron",
+"topCandPct": 32.9,
+"turnout": {
+"inscrits": 14764,
+"exprimes": 11302,
+"abstentionPct": 22.1,
+"blancsNulsPct": 1.7
+}
+},
+"chaville": {
+"lean": "centre",
+"topPct": 38.8,
+"blocs": {
+"gauche": 33.9,
+"centre": 38.8,
+"droite": 10.5,
+"extreme_droite": 16.8
+},
+"leanScore": -6.6,
+"insee": "92022",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.3,
+"roussel": 1.8,
+"melenchon": 21.8,
+"hidalgo": 1.6,
+"jadot": 7.7,
+"poutou": 0.6,
+"macron": 38.8,
+"pecresse": 8.8,
+"lassalle": 1.6,
+"lepen": 7.9,
+"zemmour": 7.5,
+"dupont-aignan": 1.4
+},
+"topCand": "macron",
+"topCandPct": 38.8,
+"turnout": {
+"inscrits": 13646,
+"exprimes": 11014,
+"abstentionPct": 17.9,
+"blancsNulsPct": 1.6
+}
+},
+"joinville-le-pont": {
+"lean": "gauche",
+"topPct": 37.6,
+"blocs": {
+"gauche": 37.6,
+"centre": 33.5,
+"droite": 7.6,
+"extreme_droite": 21.3
+},
+"leanScore": -8.7,
+"insee": "94042",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 1.9,
+"melenchon": 26.1,
+"hidalgo": 1.4,
+"jadot": 7.1,
+"poutou": 0.7,
+"macron": 33.5,
+"pecresse": 5.9,
+"lassalle": 1.8,
+"lepen": 10.0,
+"zemmour": 9.6,
+"dupont-aignan": 1.7
+},
+"topCand": "macron",
+"topCandPct": 33.5,
+"turnout": {
+"inscrits": 12967,
+"exprimes": 10109,
+"abstentionPct": 20.7,
+"blancsNulsPct": 1.7
+}
+},
+"les-pavillons-sous-bois": {
+"lean": "gauche",
+"topPct": 42.8,
+"blocs": {
+"gauche": 42.8,
+"centre": 22.6,
+"droite": 7.2,
+"extreme_droite": 27.3
+},
+"leanScore": -8.3,
+"insee": "93057",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.6,
+"roussel": 1.7,
+"melenchon": 35.5,
+"hidalgo": 1.0,
+"jadot": 3.4,
+"poutou": 0.7,
+"macron": 22.6,
+"pecresse": 5.4,
+"lassalle": 1.9,
+"lepen": 15.7,
+"zemmour": 9.9,
+"dupont-aignan": 1.7
+},
+"topCand": "melenchon",
+"topCandPct": 35.5,
+"turnout": {
+"inscrits": 11695,
+"exprimes": 7914,
+"abstentionPct": 30.9,
+"blancsNulsPct": 2.1
+}
+},
+"neuilly-plaisance": {
+"lean": "gauche",
+"topPct": 38.4,
+"blocs": {
+"gauche": 38.4,
+"centre": 30.9,
+"droite": 7.1,
+"extreme_droite": 23.5
+},
+"leanScore": -7.8,
+"insee": "93049",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 2.2,
+"melenchon": 28.1,
+"hidalgo": 1.2,
+"jadot": 5.8,
+"poutou": 0.7,
+"macron": 30.9,
+"pecresse": 5.5,
+"lassalle": 1.6,
+"lepen": 13.9,
+"zemmour": 7.8,
+"dupont-aignan": 1.8
+},
+"topCand": "macron",
+"topCandPct": 30.9,
+"turnout": {
+"inscrits": 12648,
+"exprimes": 9413,
+"abstentionPct": 24.3,
+"blancsNulsPct": 1.7
+}
+},
+"orly": {
+"lean": "gauche",
+"topPct": 55.3,
+"blocs": {
+"gauche": 55.3,
+"centre": 20.4,
+"droite": 3.7,
+"extreme_droite": 20.6
+},
+"leanScore": -31.0,
+"insee": "94054",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.7,
+"roussel": 3.1,
+"melenchon": 47.5,
+"hidalgo": 0.9,
+"jadot": 2.4,
+"poutou": 0.8,
+"macron": 20.4,
+"pecresse": 2.7,
+"lassalle": 1.1,
+"lepen": 15.0,
+"zemmour": 4.0,
+"dupont-aignan": 1.6
+},
+"topCand": "melenchon",
+"topCandPct": 47.5,
+"turnout": {
+"inscrits": 11793,
+"exprimes": 8175,
+"abstentionPct": 29.4,
+"blancsNulsPct": 1.8
+}
+},
+"saint-gratien": {
+"lean": "gauche",
+"topPct": 40.4,
+"blocs": {
+"gauche": 40.4,
+"centre": 29.4,
+"droite": 7.7,
+"extreme_droite": 22.4
+},
+"leanScore": -10.3,
+"insee": "95555",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.3,
+"roussel": 1.9,
+"melenchon": 33.1,
+"hidalgo": 1.0,
+"jadot": 3.5,
+"poutou": 0.5,
+"macron": 29.4,
+"pecresse": 6.3,
+"lassalle": 1.4,
+"lepen": 13.3,
+"zemmour": 7.5,
+"dupont-aignan": 1.6
+},
+"topCand": "melenchon",
+"topCandPct": 33.1,
+"turnout": {
+"inscrits": 13323,
+"exprimes": 9406,
+"abstentionPct": 27.9,
+"blancsNulsPct": 2.1
+}
+},
+"vigneux-sur-seine": {
+"lean": "gauche",
+"topPct": 48.1,
+"blocs": {
+"gauche": 48.1,
+"centre": 20.3,
+"droite": 4.6,
+"extreme_droite": 27.0
+},
+"leanScore": -16.5,
+"insee": "91657",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.6,
+"roussel": 2.0,
+"melenchon": 41.1,
+"hidalgo": 1.1,
+"jadot": 2.5,
+"poutou": 0.7,
+"macron": 20.3,
+"pecresse": 3.0,
+"lassalle": 1.6,
+"lepen": 17.9,
+"zemmour": 5.2,
+"dupont-aignan": 4.0
+},
+"topCand": "melenchon",
+"topCandPct": 41.1,
+"turnout": {
+"inscrits": 17520,
+"exprimes": 11865,
+"abstentionPct": 30.8,
+"blancsNulsPct": 2.1
+}
+},
+"herblay-sur-seine": {
+"lean": "gauche",
+"topPct": 35.8,
+"blocs": {
+"gauche": 35.8,
+"centre": 29.0,
+"droite": 8.5,
+"extreme_droite": 26.7
+},
+"leanScore": -0.6,
+"insee": "95306",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 1.8,
+"melenchon": 26.7,
+"hidalgo": 1.2,
+"jadot": 5.1,
+"poutou": 0.6,
+"macron": 29.0,
+"pecresse": 6.7,
+"lassalle": 1.8,
+"lepen": 18.1,
+"zemmour": 6.7,
+"dupont-aignan": 1.9
+},
+"topCand": "macron",
+"topCandPct": 29.0,
+"turnout": {
+"inscrits": 19670,
+"exprimes": 14680,
+"abstentionPct": 24.0,
+"blancsNulsPct": 1.8
+}
+},
+"taverny": {
+"lean": "gauche",
+"topPct": 38.5,
+"blocs": {
+"gauche": 38.5,
+"centre": 27.1,
+"droite": 8.9,
+"extreme_droite": 25.5
+},
+"leanScore": -4.1,
+"insee": "95607",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 2.0,
+"melenchon": 29.5,
+"hidalgo": 1.3,
+"jadot": 4.5,
+"poutou": 0.7,
+"macron": 27.1,
+"pecresse": 6.9,
+"lassalle": 2.0,
+"lepen": 17.0,
+"zemmour": 6.8,
+"dupont-aignan": 1.7
+},
+"topCand": "melenchon",
+"topCandPct": 29.5,
+"turnout": {
+"inscrits": 17313,
+"exprimes": 13070,
+"abstentionPct": 23.0,
+"blancsNulsPct": 2.0
+}
+},
+"maisons-laffitte": {
+"lean": "centre",
+"topPct": 42.2,
+"blocs": {
+"gauche": 24.9,
+"centre": 42.2,
+"droite": 11.6,
+"extreme_droite": 21.3
+},
+"leanScore": 8.0,
+"insee": "78358",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.2,
+"roussel": 1.1,
+"melenchon": 14.8,
+"hidalgo": 1.3,
+"jadot": 7.1,
+"poutou": 0.3,
+"macron": 42.2,
+"pecresse": 10.1,
+"lassalle": 1.5,
+"lepen": 8.8,
+"zemmour": 10.6,
+"dupont-aignan": 1.9
+},
+"topCand": "macron",
+"topCandPct": 42.2,
+"turnout": {
+"inscrits": 17058,
+"exprimes": 13571,
+"abstentionPct": 19.4,
+"blancsNulsPct": 1.2
+}
+},
+"gradignan": {
+"lean": "gauche",
+"topPct": 37.2,
+"blocs": {
+"gauche": 37.2,
+"centre": 33.3,
+"droite": 8.7,
+"extreme_droite": 20.7
+},
+"leanScore": -7.8,
+"insee": "33192",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 2.4,
+"melenchon": 23.7,
+"hidalgo": 2.6,
+"jadot": 7.3,
+"poutou": 0.9,
+"macron": 33.3,
+"pecresse": 5.0,
+"lassalle": 3.7,
+"lepen": 13.2,
+"zemmour": 6.0,
+"dupont-aignan": 1.5
+},
+"topCand": "macron",
+"topCandPct": 33.3,
+"turnout": {
+"inscrits": 17488,
+"exprimes": 13622,
+"abstentionPct": 20.8,
+"blancsNulsPct": 1.6
 }
 }
 }

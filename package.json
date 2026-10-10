@@ -21,6 +21,7 @@
     "photos": "node scripts/commune-images.mjs all",
     "photos:update": "node scripts/commune-images.mjs all --update",
     "parks": "node scripts/city-parks.mjs",
+    "political-lean": "node scripts/build-political-lean.mjs",
     "property-prices": "node scripts/city-property-prices.mjs",
     "property-prices:selftest": "node scripts/city-property-prices.mjs --selftest",
     "property-prices:stats": "node scripts/city-property-prices.mjs --stats",

@@ -114,6 +114,7 @@ OWNED=(
   data/city-parks.json
   data/city-images.json
   data/city-cards.json
+  data/political-lean.json
   public/photos/villes
 )
 
@@ -366,6 +367,9 @@ needs property-prices && run_stage "extension — prix DVF" 3600 npm run propert
 needs coast           && run_stage "extension — distance à la mer" 1800 npm run coast
 needs parks           && run_stage "extension — parcs (Overpass)" 3600 npm run parks -- --limit=60
 needs photos          && run_stage "extension — photos (Wikidata/Commons)" 3600 npm run photos
+# Présidentielle 2022, 1er tour (Ministère de l'Intérieur) : n'ajoute que les villes
+# absentes du fichier, les entrées existantes ne bougent pas.
+needs political-lean  && run_stage "extension — orientation politique (présidentielle 2022)" 1800 npm run political-lean
 
 # GBIF: ~45 s a city, so 60 cities is about 45 min. 540 cities = 9 nights.
 # Now that the 540 are covered this stage prints "nothing to do" and returns in

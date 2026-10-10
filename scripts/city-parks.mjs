@@ -100,7 +100,7 @@ const log = (...a) => console.log(...a);
 async function loadSeed() {
   const src = await fs.readFile(SEED_TS, "utf8");
   const out = [];
-  const blocks = src.split(/\n {2}\{\n/).slice(1);
+  const blocks = src.split(/\r?\n {2}\{\r?\n/).slice(1);
   for (const b of blocks) {
     const s = (k) => b.match(new RegExp(`${k}:\\s*"([^"]+)"`))?.[1] ?? null;
     const n = (k) => {
