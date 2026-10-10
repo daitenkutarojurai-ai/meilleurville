@@ -4313,6 +4313,26 @@
     ],
     "queryVersion": 1
   },
+  "gradignan": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 365,
+      "medianM2": 3451,
+      "p25M2": 2797,
+      "p75M2": 3966
+    },
+    "house": {
+      "sales": 250,
+      "medianM2": 3786,
+      "p25M2": 3277,
+      "p75M2": 4505
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "granville": {
     "coverage": "dvf",
     "apartment": {
@@ -4530,6 +4550,26 @@
       "medianM2": 1385,
       "p25M2": 1031,
       "p75M2": 1777
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "herblay-sur-seine": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 255,
+      "medianM2": 3636,
+      "p25M2": 3183,
+      "p75M2": 4163
+    },
+    "house": {
+      "sales": 342,
+      "medianM2": 3878,
+      "p25M2": 3334,
+      "p75M2": 4455
     },
     "years": [
       2024,
@@ -5911,6 +5951,26 @@
     ],
     "queryVersion": 1
   },
+  "maisons-laffitte": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 433,
+      "medianM2": 5456,
+      "p25M2": 4813,
+      "p75M2": 6406
+    },
+    "house": {
+      "sales": 151,
+      "medianM2": 7913,
+      "p25M2": 6680,
+      "p75M2": 9040
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "malakoff": {
     "coverage": "dvf",
     "apartment": {
@@ -7162,6 +7222,26 @@
       "medianM2": 2572,
       "p25M2": 2093,
       "p75M2": 3167
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "orly": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 127,
+      "medianM2": 3238,
+      "p25M2": 2731,
+      "p75M2": 3802
+    },
+    "house": {
+      "sales": 108,
+      "medianM2": 4248,
+      "p25M2": 3479,
+      "p75M2": 5428
     },
     "years": [
       2024,
@@ -8619,6 +8699,26 @@
     ],
     "queryVersion": 1
   },
+  "saint-gratien": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 262,
+      "medianM2": 3329,
+      "p25M2": 2689,
+      "p75M2": 4269
+    },
+    "house": {
+      "sales": 115,
+      "medianM2": 4750,
+      "p25M2": 3941,
+      "p75M2": 5810
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "saint-herblain": {
     "coverage": "dvf",
     "apartment": {
@@ -9807,6 +9907,26 @@
     ],
     "queryVersion": 1
   },
+  "taverny": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 267,
+      "medianM2": 2759,
+      "p25M2": 2438,
+      "p75M2": 3261
+    },
+    "house": {
+      "sales": 249,
+      "medianM2": 3866,
+      "p25M2": 3369,
+      "p75M2": 4409
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "thiais": {
     "coverage": "dvf",
     "apartment": {
@@ -10488,6 +10608,26 @@
       "medianM2": 1024,
       "p25M2": 772,
       "p75M2": 1323
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "vigneux-sur-seine": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 205,
+      "medianM2": 3016,
+      "p25M2": 2610,
+      "p75M2": 3426
+    },
+    "house": {
+      "sales": 266,
+      "medianM2": 3430,
+      "p25M2": 2849,
+      "p75M2": 4090
     },
     "years": [
       2024,

@@ -865,6 +865,10 @@
     "povertyRate": 29,
     "medianIncome": 18160
   },
+  "gradignan": {
+    "povertyRate": 11,
+    "medianIncome": 25980
+  },
   "granville": {
     "povertyRate": 14,
     "medianIncome": 22430
@@ -916,6 +920,10 @@
   "henin-beaumont": {
     "medianIncome": 19170,
     "povertyRate": 24
+  },
+  "herblay-sur-seine": {
+    "povertyRate": 11,
+    "medianIncome": 27080
   },
   "herouville-saint-clair": {
     "medianIncome": 18840,
@@ -1196,6 +1204,10 @@
     "medianIncome": 28010,
     "povertyRate": 10
   },
+  "maisons-laffitte": {
+    "povertyRate": 6,
+    "medianIncome": 36990
+  },
   "malakoff": {
     "povertyRate": 14,
     "medianIncome": 25810
@@ -1455,6 +1467,10 @@
   "orleans": {
     "povertyRate": 22,
     "medianIncome": 21370
+  },
+  "orly": {
+    "povertyRate": 24,
+    "medianIncome": 19610
   },
   "orvault": {
     "povertyRate": 10,
@@ -1744,6 +1760,10 @@
     "medianIncome": 20320,
     "povertyRate": 21
   },
+  "saint-gratien": {
+    "medianIncome": 23910,
+    "povertyRate": 16
+  },
   "saint-herblain": {
     "povertyRate": 16,
     "medianIncome": 23000
@@ -1996,6 +2016,10 @@
     "povertyRate": 8,
     "medianIncome": 29010
   },
+  "taverny": {
+    "povertyRate": 12,
+    "medianIncome": 25570
+  },
   "thiais": {
     "medianIncome": 24670,
     "povertyRate": 16
@@ -2135,6 +2159,10 @@
   "vierzon": {
     "medianIncome": 19130,
     "povertyRate": 24
+  },
+  "vigneux-sur-seine": {
+    "povertyRate": 20,
+    "medianIncome": 21390
   },
   "villefranche-de-rouergue": {
     "povertyRate": 19,

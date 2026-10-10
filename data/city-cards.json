@@ -1313,6 +1313,12 @@
     "a": "P.poschadel",
     "l": "CC BY-SA 2.0 fr"
   },
+  "gradignan": {
+    "h": "4277fcc3",
+    "c": "#d8e8f8",
+    "a": "BlueGinkgo",
+    "l": "CC BY-SA 3.0"
+  },
   "granville": {
     "h": "fa6a5c56",
     "c": "#a8c8f8",
@@ -1390,6 +1396,12 @@
     "c": "#d8e8f8",
     "a": "HeninBeaumont",
     "l": "CC BY-SA 4.0"
+  },
+  "herblay-sur-seine": {
+    "h": "96ff964f",
+    "c": "#c8d8e8",
+    "a": "Benchaum",
+    "l": "CC BY-SA 3.0"
   },
   "herouville-saint-clair": {
     "h": "c965669f",
@@ -1817,6 +1829,12 @@
     "a": "Chabe01",
     "l": "CC BY-SA 4.0"
   },
+  "maisons-laffitte": {
+    "h": "a63a9683",
+    "c": "#88a8c8",
+    "a": "Moonik",
+    "l": "CC BY-SA 3.0"
+  },
   "malakoff": {
     "h": "cf0f4145",
     "c": "#a8c8e8",
@@ -2211,6 +2229,12 @@
     "h": "cf97144a",
     "c": "#7898a8",
     "a": "Anthony Bourgouin",
+    "l": "CC BY-SA 4.0"
+  },
+  "orly": {
+    "h": "4a44a3ac",
+    "c": "#484848",
+    "a": "Suaudeau",
     "l": "CC BY-SA 4.0"
   },
   "orvault": {
@@ -2651,6 +2675,12 @@
     "a": "Olybrius",
     "l": "CC BY-SA 3.0"
   },
+  "saint-gratien": {
+    "h": "4a26f41e",
+    "c": "#c8d8e8",
+    "a": "Clicsouris",
+    "l": "CC BY-SA 3.0"
+  },
   "saint-herblain": {
     "h": "f41b7346",
     "c": "#080808",
@@ -3035,6 +3065,12 @@
     "a": "User:Otourly",
     "l": "CC BY-SA 3.0"
   },
+  "taverny": {
+    "h": "327ee167",
+    "c": "#686868",
+    "a": "Pymouss",
+    "l": "CC BY-SA 4.0"
+  },
   "thiais": {
     "h": "1cea91b6",
     "c": "#f8f8f8",
@@ -3238,6 +3274,12 @@
     "c": "#f8f8f8",
     "a": "Croquant",
     "l": "CC BY-SA 4.0"
+  },
+  "vigneux-sur-seine": {
+    "h": "f586446f",
+    "c": "#88a8e8",
+    "a": "Cyrilb1881",
+    "l": "CC BY-SA 3.0"
   },
   "villefranche-de-rouergue": {
     "h": "1a1fed71",

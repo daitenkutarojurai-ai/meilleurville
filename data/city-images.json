@@ -4598,6 +4598,27 @@
       "height": 300
     }
   },
+  "gradignan": {
+    "insee": "33192",
+    "qid": "Q234769",
+    "file": "Gradignan-ermitage01.JPG",
+    "author": "BlueGinkgo",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:BlueGinkgo&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Gradignan-ermitage01.JPG",
+    "color": "#d8e8f8",
+    "hero": {
+      "src": "/photos/villes/gradignan-1024.2e904b66.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/gradignan-480.4277fcc3.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "granville": {
     "insee": "50218",
     "qid": "Q333559",
@@ -4867,6 +4888,27 @@
     },
     "card": {
       "src": "/photos/villes/henin-beaumont-480.3cd39167.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "herblay-sur-seine": {
+    "insee": "95306",
+    "qid": "Q318078",
+    "file": "HerblaySeineEglise.JPG",
+    "author": "Benchaum",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Benchaum",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:HerblaySeineEglise.JPG",
+    "color": "#c8d8e8",
+    "hero": {
+      "src": "/photos/villes/herblay-sur-seine-1024.0a6cbec8.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/herblay-sur-seine-480.96ff964f.webp",
       "width": 480,
       "height": 300
     }
@@ -6362,6 +6404,27 @@
       "height": 300
     }
   },
+  "maisons-laffitte": {
+    "insee": "78358",
+    "qid": "Q463951",
+    "file": "Château de Maisons-Laffitte 001.jpg",
+    "author": "Moonik",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Moonik",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Maisons-Laffitte_001.jpg",
+    "color": "#88a8c8",
+    "hero": {
+      "src": "/photos/villes/maisons-laffitte-1024.b3fb9f41.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/maisons-laffitte-480.a63a9683.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "malakoff": {
     "insee": "92046",
     "qid": "Q253721",
@@ -7744,6 +7807,27 @@
     },
     "card": {
       "src": "/photos/villes/orleans-480.cf97144a.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "orly": {
+    "insee": "94054",
+    "qid": "Q236058",
+    "file": "Vue-aerienne-Orly-Grand-godet-Choisy-le-Roi-au-fond.jpg",
+    "author": "Suaudeau",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Suaudeau",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Vue-aerienne-Orly-Grand-godet-Choisy-le-Roi-au-fond.jpg",
+    "color": "#484848",
+    "hero": {
+      "src": "/photos/villes/orly-1024.1e855c82.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/orly-480.4a44a3ac.webp",
       "width": 480,
       "height": 300
     }
@@ -9281,6 +9365,27 @@
       "height": 300
     }
   },
+  "saint-gratien": {
+    "insee": "95555",
+    "qid": "Q275384",
+    "file": "Saint-Gratien - Vue generale 01.jpg",
+    "author": "Clicsouris",
+    "authorUrl": "https://en.wikipedia.org/wiki/fr:Utilisateur:Clicsouris",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Saint-Gratien_-_Vue_generale_01.jpg",
+    "color": "#c8d8e8",
+    "hero": {
+      "src": "/photos/villes/saint-gratien-1024.7c188f8c.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/saint-gratien-480.4a26f41e.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "saint-herblain": {
     "insee": "44162",
     "qid": "Q273922",
@@ -10625,6 +10730,27 @@
       "height": 300
     }
   },
+  "taverny": {
+    "insee": "95607",
+    "qid": "Q275589",
+    "file": "Taverny - vue aérienne 20190824.jpg",
+    "author": "Pymouss",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Pymouss",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Taverny_-_vue_a%C3%A9rienne_20190824.jpg",
+    "color": "#686868",
+    "hero": {
+      "src": "/photos/villes/taverny-1024.e465f435.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/taverny-480.327ee167.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "thiais": {
     "insee": "94073",
     "qid": "Q316452",
@@ -11335,6 +11461,27 @@
     },
     "card": {
       "src": "/photos/villes/vierzon-480.aaad8328.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "vigneux-sur-seine": {
+    "insee": "91657",
+    "qid": "Q842037",
+    "file": "Vigneux-sur-Seine Mairie.JPG",
+    "author": "Cyrilb1881",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Cyrilb1881",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Vigneux-sur-Seine_Mairie.JPG",
+    "color": "#88a8e8",
+    "hero": {
+      "src": "/photos/villes/vigneux-sur-seine-1024.55bd4b97.webp",
+      "width": 640,
+      "height": 480
+    },
+    "card": {
+      "src": "/photos/villes/vigneux-sur-seine-480.f586446f.webp",
       "width": 480,
       "height": 300
     }
