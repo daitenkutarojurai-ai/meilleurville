@@ -201,6 +201,12 @@ function arg(name: string): string | undefined {
  * même lot n'était pas encore une voisine possible.
  */
 function lotsFromGit(): Map<string, number> {
+  // Le conteneur de routine clone en profondeur réduite : l'historique des premiers lots manque et
+  // une dizaine de villes sortent « lot introuvable » ou rejouées contre le mauvais seed (constaté le
+  // 2026-10-11). On refuse plutôt que de publier 25/43 pour une raison d'environnement.
+  if (execSync("git rev-parse --is-shallow-repository", { encoding: "utf8" }).trim() === "true") {
+    throw new Error("clone superficiel : lancer `git fetch --unshallow origin main` avant le selftest");
+  }
   const byName = new Map(CITIES_SEED.map((c) => [c.name, c.slug]));
   const subjects = execSync("git log --reverse --format=%s -- data/cities-seed.ts", { encoding: "utf8" })
     .split("\n").filter((s) => /^feat\(seed\): \+\d+ villes? \(/.test(s));

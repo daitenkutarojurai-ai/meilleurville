@@ -124,7 +124,7 @@ avant d'ajouter (4ᵉ voisine au-delà de 12,6 km, agglomération coupée par un
 repère m² des voisines dispersé de plus de × 1,5, moins de 4 voisines). `npm run seed:neighbours:selftest`
 rejoue la règle sur chaque ville d'extension **avec le seed d'avant son lot** (lots lus dans les
 sujets `feat(seed)` de `git log`) et la compare aux notes et au logement écrits ; une ville hors
-règle n'y passe que listée dans `KNOWN_OFF_RULE` avec sa raison. Le lancer avant chaque lot.
+règle n'y passe que listée dans `KNOWN_OFF_RULE` avec sa raison. Le lancer avant chaque lot, **sur un clone complet** (`git fetch --unshallow origin main` en routine).
 
 **Règle ① transdépartementale (décidée le 2026-10-10, sixième run)** — `npm run seed:neighbours -- … --cross-dept`.
 Seulement quand la frontière départementale coupe l'agglomération (le mode standard le signale) et que le
@@ -139,6 +139,19 @@ axes — au-delà, le transfert importerait la statistique de délinquance ou de
 département (Mitry-Mory, 77, recevait la sécurité de la Seine-Saint-Denis, écart 2,0). Le recoupement du
 marché (§ 3.3) reste obligatoire et s'applique **avant** l'ajout : au-delà d'environ ± 30 % entre le
 repère et les prix publiés, la ville attend.
+
+**Exactitude mesurée de la règle, et règle ② (2026-10-11, troisième run)** — `npm run seed:neighbours:backtest`
+rejoue chaque règle « une ville retirée » sur les villes d'origine admissibles et compare la note prédite à la
+note brute écrite. Règle standard : **écart absolu moyen 0,57 point par axe, 90ᵉ centile 1,2** (161 villes) ;
+**0,68** quand la 4ᵉ voisine est au-delà de 25 km. C'est l'incertitude assumée de toute note d'extension, à
+garder en tête avant de citer une note d'extension au dixième. Règle ② : les **comparables de taille dans la
+région** (4 villes les plus proches en population) sont **écartés** — 0,84 sur les mêmes 41 villes isolées,
+pire que la médiane naïve de toute la région (0,76). Seule variante sans perte : abaisser le plancher à
+**10 000 hab. dans le département** (0,674 sur les mêmes 41 villes, 0,656 sur les 19 qui n'ont pas 4 voisines à
+20 000+) ; **décidée comme règle ②, non outillée** tant qu'aucune candidate n'en a besoin — mesurée le
+2026-10-11, elle ne débloque ni Le Creusot, Montceau-les-Mines (3 voisines : Autun, Chalon, Mâcon), ni
+Fougères (2), ni Lisieux (1), ni Frontignan (1). La variante régionale avec transfert de niveau (logique ①)
+tient l'erreur globale (0,67) mais monte à **1,0 sur le coût et la sécurité** : écartée.
 
 Arrondi : celui des lots 1 à 8, `Math.round(x × 10) / 10` sur le flottant (5,35 → 5,3).
 
@@ -1093,3 +1106,45 @@ biodiversité, actualité, zones protégées.
 **Prochain lot** : `seed-coverage` d'abord. Le Nord et la petite couronne sont épuisés pour la médiane ; la
 suite utile est la **règle ②** (villes isolées par comparables de taille dans le département : Le Creusot,
 Fougères, Coudekerque-Branche) à écrire au § 3.2 avant usage, ou des overrides documentés.
+
+### 2026-10-11 (troisième run) — aucun lot : la règle ② mesurée avant d'être écrite
+
+`seed-coverage` au départ : **0 ville en attente** — le runner a servi les lots 9 et 10 (population 581/583,
+revenus 576/583, photos 581/583 = manques permanents connus ; tout le reste 583/583). Garde-fou levé, mais
+**aucune ville ajoutée** : 583, inchangé.
+
+*Pourquoi aucun lot.* Le run précédent renvoyait à la règle ② « villes isolées par comparables de taille » à
+écrire avant usage. Plutôt que de l'écrire à l'intuition, elle a été **mesurée** : `scripts/seed-neighbours-backtest.ts`
+(`npm run seed:neighbours:backtest`) rejoue cinq règles sur les villes d'origine, une ville retirée à la fois.
+Résultat (§ 3.2) : les comparables de taille sont la **pire** des règles testées (MAE 0,84 sur les 41 villes
+isolées, contre 0,68 pour la règle standard et 0,76 pour la médiane de toute la région) ; ils sont écartés.
+La seule variante qui ne dégrade pas l'exactitude — plancher 10 000 hab. dans le département — est décidée
+comme règle ② mais ne débloque aucune des candidates nommées :
+
+| Commune | Voisines admissibles à 10 000+ (dép.) | Résultat |
+|---|---|---|
+| Le Creusot (71) | Autun 19,5 · Chalon 32,7 · Mâcon 63,1 km | 3 voisines, reportée |
+| Montceau-les-Mines (71) | Autun 32,2 · Chalon 39,1 · Mâcon 53,5 km | 3 voisines, reportée |
+| Fougères (35) | Vitré 25,5 · Dinard 70,4 km | 2 voisines, reportée |
+| Lisieux (14) | Hérouville-Saint-Clair 41,1 km | 1 voisine, reportée |
+| Frontignan (34) | Agde 27,4 km | 1 voisine, reportée |
+| Coudekerque-Branche (59) | `--cross-dept` : Hazebrouck 34,7 · Armentières 50,7 · Béthune 57,4 · Halluin* 57,7 km | applicable mais 4ᵉ voisine à 58 km, Dunkerque (son agglomération) en override : **reportée**, les voisines ne décrivent pas le littoral dunkerquois |
+| Grande-Synthe (59) | mêmes voisines, 4ᵉ à 68 km | reportée, même raison |
+| La Teste-de-Buch (33) | 4 voisines de la métropole bordelaise à 44-45 km | reportée : le bassin d'Arcachon n'est pas la banlieue de Bordeaux |
+| La Garde (83) | La Seyne 11,1 · Six-Fours 14,8 · Sanary 17,0 · Sainte-Maxime 54,9 km | reportée : 4ᵉ voisine hors aire toulonnaise, repère m² dispersé × 1,57, Toulon en override |
+
+Coordonnées approchées (centres de commune), à recouper avant tout lot ; populations non revérifiées (aucune
+n'aurait passé la règle).
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `sitemap:check`, `hreflang:check`, `seed:neighbours:selftest`
+(**42/43**, Maisons-Laffitte documentée). ⚠️ Le conteneur clone en **profondeur réduite** : le selftest
+sortait d'abord **25/43**, onze villes « lot introuvable » et six rejouées contre le mauvais seed. Ce n'est pas
+une régression de la règle mais de l'historique git absent ; `git fetch --unshallow origin main` rétablit
+42/43, et le selftest **refuse désormais** de tourner sur un clone superficiel. Aucune donnée de ville
+modifiée : pas de `seed-drift` ni de recomptage des couleurs. `npm run build` non lancé.
+
+**Prochain lot** : `seed-coverage` d'abord. Le gisement « règle valable » est vide pour la métropole dense, la
+couronne et le Nord ; la règle ② n'ouvre pas les villes isolées nommées. Ce qui reste : ③ overrides documentés
+(Maisons-Laffitte, Sucy-en-Brie, Villeneuve-d'Ascq, Le Plessis-Trévise, Villiers-sur-Marne, Limeil-Brévannes)
+avec une source chiffrée par axe ; ou une liste exhaustive des communes de 20 000+ hab. absentes (base Insee,
+passe locale ou runner GitHub Actions) pour trouver les communes que le contrôle par nom a manquées.
