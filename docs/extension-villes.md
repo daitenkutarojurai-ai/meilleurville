@@ -263,15 +263,13 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
 Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny,
 Maisons-Laffitte, Gradignan~~ (**lot 5**) ; ~~Eysines, Montgeron, Longjumeau, Achères~~ (**lot 6**) ; ~~Brétigny-sur-Orge, Saint-Michel-sur-Orge, Lagny-sur-Marne,
-Bussy-Saint-Georges, Saint-Cyr-l'École, Roissy-en-Brie~~ (**lot 7**) ; ~~Couëron, Halluin~~ (**lot 8**) ; mesurées le 2026-10-10 (lot 8) et **reportées** : **Brie-Comte-Robert** (77053, 19 003 hab. en 2023, Banatic + Wikipédia : sous le seuil), Saint-Ouen-l'Aumône et Ozoir-la-Ferrière (2 voisines d'extension), Le Plessis-Trévise et Villiers-sur-Marne (médiane tirée par Saint-Maur / Nogent / Le Perreux, repère 6 800 €/m², même cas que Sucy), Mitry-Mory (voisines 77 à 11-15 km, vraies voisines en 93), Loos et Mons-en-Barœul (Lille en override, voisines à 7-17 km et repère 1 700 €/m² face à un marché bien plus cher), Les Pennes-Mirabeau (3ᵉ et 4ᵉ voisines de l'autre côté de Marseille, 16-25 km), Saint-Jean-de-Braye (2 voisines admissibles, Orléans en override), La Garde, Frontignan, La Teste-de-Buch, Lisieux, Grande-Synthe, Nogent-sur-Oise (voisines admissibles trop rares ou trop lointaines), Le Port et Sainte-Marie (974, voisines à 13-45 km), Morsang-sur-Orge (quartiers toujours pas sourcés) ; **Juvisy-sur-Orge** (91326) **sortie du backlog** :
-19 292 hab. en 2023 (Banatic + Wikipédia EN), sous le seuil de 20 000 ; **Morsang-sur-Orge** (91434, 21 667 hab.) reportée
-faute de 2 quartiers sourcés hors d'un seul site d'annonces ;
+Bussy-Saint-Georges, Saint-Cyr-l'École, Roissy-en-Brie~~ (**lot 7**) ; ~~Couëron, Halluin~~ (**lot 8**) ; mesurées le 2026-10-10 (lot 8) et **reportées** : **Brie-Comte-Robert** (77053, 19 003 hab. en 2023, Banatic + Wikipédia : sous le seuil), Saint-Ouen-l'Aumône et Ozoir-la-Ferrière (2 voisines d'extension), Le Plessis-Trévise et Villiers-sur-Marne (médiane tirée par Saint-Maur / Nogent / Le Perreux, repère 6 800 €/m², même cas que Sucy), Mitry-Mory (voisines 77 à 11-15 km, vraies voisines en 93), Loos et Mons-en-Barœul (Lille en override, voisines à 7-17 km et repère 1 700 €/m² face à un marché bien plus cher), Les Pennes-Mirabeau (3ᵉ et 4ᵉ voisines de l'autre côté de Marseille, 16-25 km), Saint-Jean-de-Braye (2 voisines admissibles, Orléans en override), La Garde, Frontignan, La Teste-de-Buch, Lisieux, Grande-Synthe, Nogent-sur-Oise (voisines admissibles trop rares ou trop lointaines), Le Port et Sainte-Marie (974, voisines à 13-45 km), ~~Morsang-sur-Orge~~ (**lot 11**) ; **Juvisy-sur-Orge** (91326) **sortie du backlog** :
+19 292 hab. en 2023 (Banatic + Wikipédia EN), sous le seuil de 20 000 ; ~~Morsang-sur-Orge~~ (91434, **lot 11**) ;
 **Sucy-en-Brie** (94071, 27 764 hab.) **attend un override** : voisines Saint-Maur / Champigny / Joinville /
 Maisons-Alfort → repère 6 200 €/m² contre ~3 750-4 300 € au marché (+50 %), Saint-Maur tire tout ; mesurées
 le 2026-10-10 (lot 6), règle valable, non retenues faute de place : Juvisy-sur-Orge (voisines 2,2-2,6 km, pop. à
 confirmer ≥ 20 000), Morsang-sur-Orge, Brétigny-sur-Orge, Saint-Michel-sur-Orge, Saint-Cyr-l'École, Roissy-en-Brie,
-Bussy-Saint-Georges, Lagny-sur-Marne ; **Chilly-Mazarin** (91161, 20 443 hab.) reportée faute de 2 quartiers
-sourcés ; Deuil-la-Barre (Sarcelles dans la médiane), Montigny-lès-Cormeilles (2 voisines d'extension),
+Bussy-Saint-Georges, Lagny-sur-Marne ; ~~Chilly-Mazarin~~ (91161, **lot 11**) ; Deuil-la-Barre (Sarcelles dans la médiane), Montigny-lès-Cormeilles (2 voisines d'extension),
 Gif-sur-Yvette, Mantes-la-Ville, Montereau, Mitry-Mory, Ozoir, Carquefou, Bouguenais, Vallauris, Miramas (voisines
 trop éloignées ou en override) **reportées** ; mesurées le 2026-10-10 et **reportées** :
 Villeneuve-le-Roi, Limeil-Brévannes (plus proche voisine en Essonne), Cenon (rive droite, voisines rive gauche),
@@ -1148,3 +1146,69 @@ couronne et le Nord ; la règle ② n'ouvre pas les villes isolées nommées. Ce
 (Maisons-Laffitte, Sucy-en-Brie, Villeneuve-d'Ascq, Le Plessis-Trévise, Villiers-sur-Marne, Limeil-Brévannes)
 avec une source chiffrée par axe ; ou une liste exhaustive des communes de 20 000+ hab. absentes (base Insee,
 passe locale ou runner GitHub Actions) pour trouver les communes que le contrôle par nom a manquées.
+
+### 2026-10-11 (quatrième run) — lot 11 (+2) : Morsang-sur-Orge, Chilly-Mazarin
+
+`seed-coverage` au départ : **0 ville en attente** → lot autorisé. 583 → **585**, Essonne, aucun département ni
+région nouveaux. Les deux villes étaient au backlog « règle valable », reportées les 2026-10-10 **faute de deux
+quartiers sourcés** ; cette fois chaque quartier est recoupé par au moins deux sites indépendants.
+
+*Identité* (absence vérifiée par code Insee via `seed:neighbours --insee`) :
+
+| Ville | Insee | Pop. seed | Source pop. (municipale en vigueur) | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Morsang-sur-Orge | 91434 | 21 700 | 21 667 (Banatic ; Wikipédia EN, 2023) | 48,6618 N 2,3461 E (latlong.net ; distanceenvoiture 48,6618/2,3457) | 36-81 → 59 m (une source ; mairie ~70 m, nonsurtaxe) |
+| Chilly-Mazarin | 91161 | 20 400 | 20 443 (Banatic ; Wikipédia EN, 2023) | 48,7025 N 2,3125 E (Wikipédia ; point IGN 48,703/2,320) | 42-101 → 72 m (geneawiki/cartesfrance) |
+
+⚠️ Chilly-Mazarin est **juste au-dessus du seuil** : des sites tiers citent 19 938 (2021) ou 19 981 ; le chiffre
+retenu est la population municipale en vigueur de Banatic, concordante avec Wikipédia. Si la population Insee
+2022 du runner tombe sous 20 000, la ville reste au seed (le seuil est un critère d'entrée du backlog, pas de
+présence), mais le noter.
+
+*Notes brutes* (§ 3.2, règle standard, aucune alerte du script) :
+
+| Ville | Voisines (distance) | Notes brutes | global | Rendu |
+|---|---|---|---|---|
+| Morsang-sur-Orge | Savigny-sur-Orge 2,0 · Viry-Châtillon 2,2 · Sainte-Geneviève-des-Bois 2,9 · Saint-Michel-sur-Orge* 4,1 km | 6.3 · 7 · 6.5 · 5.5 · 5.9 · 5.6 · 6.8 · 6.3 | 6.2 | **4,4** (orange) |
+| Chilly-Mazarin | Longjumeau* 1,7 · Savigny-sur-Orge 3,7 · Massy 4,0 · Palaiseau 4,9 km | 6.5 · 7 · 6.4 · 5.5 · 6.4 · 6.3 · 7.4 · 6.8 | 6.4 | **5,2** (ambre) |
+
+\* ville d'extension. Voisines rendues : Savigny 4,4 ; Longjumeau 4,9 ; Massy 5,3. Climat : Savigny-sur-Orge
+(1 700 h / 20,5 °C / 4 °C) et Longjumeau (1 720 h / 24 °C / 4,5 °C), villes du seed les plus proches.
+
+*Logement* (§ 3.3 bis) :
+- **Morsang** : DVF appartements ~**2 502 €/m²** (PAP 2 504 au 1ᵉʳ juillet 2026 ; efficity 2 500) contre
+  **2 828 €/m²**, médiane DVF des 4 voisines (`city-property-prices.json` : Viry 2 686, Savigny 2 969,
+  Sainte-Geneviève 2 981, Saint-Michel 2 440) → ratio **0,885** ; intra-source PAP (Savigny 3 001,
+  Sainte-Geneviève 3 030) 0,83, à 6 % près. Ratio appliqué : repère 690/950/1 280, **3 500 €/m²** (au lieu de 4 000).
+- **Chilly** : DVF appartements ~**2 499 €/m²** (PAP 2 507 ; efficity 2 490) contre **3 376 €/m²** (Longjumeau 2 628,
+  Savigny 2 969, Massy 4 021, Palaiseau 3 783) → ratio **0,74** ; intra-source PAP (Massy 4 071, Savigny 3 001) 0,71.
+  Repère 750/1 030/1 390, **3 000 €/m²** (au lieu de 4 100). L'axe coût hérite de voisines plus chères (Massy,
+  Palaiseau) : biais conservateur assumé (§ 3.3 bis).
+- RealAdvisor encore divergent (Morsang 3 325, Chilly 3 110), écarté face à deux publications DVF concordantes.
+  **Aucun loyer au m² d'un même portail trouvé pour les voisines** : pas de ratio loyer, loyers = médiane.
+  Ratios inscrits dans `DOCUMENTED_MODES` ; `seed:neighbours:selftest` **44/45** (Maisons-Laffitte documentée).
+
+*Quartiers* (notes = ville) : Morsang **Le Vieux Bourg** (efficity, page quartier) et **La Gribelette** (efficity,
+Foncia « quartier Gribelette », unemplacement ; boulevard de la Gribelette) ; Chilly **Centre-ville** (Orpi,
+unemplacement) et **Chilly bas – Gravigny** (Orpi ; IRIS « Rue de Gravigny » 911610107 repris par
+lapporteurdimmo ; rue de Gravigny rue commerçante). Densité et part HLM de Gravigny / du centre : chiffres Orpi,
+résumés sans chiffre dans la copie.
+
+*Faits évités faute de source* : la gare « Chilly-Mazarin » / Gravigny-Balizy du RER C (déjà notée côté
+Longjumeau au lot 6, rattachement communal non tranché) ; parcs d'activités ; origine du nom « Mazarin ».
+`descriptionEn` de Morsang : gare la plus proche **Savigny-sur-Orge** (Wikipédia EN). Tags sans `port`/`mer`/`côte`.
+
+*Codes postaux* : 91390, 91380 → 585/585.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation**. Table des couleurs recomptée sur `CITIES_SEED` (585) :
+19 / 50 / 151 / **152** / **119** / 94, moyenne 5,36.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (585 villes) + `:check`, `sitemap:check`,
+`hreflang:check`, `seed:neighbours:selftest` 44/45. `npm run build` non lancé.
+
+*En attente du runner* : 2 villes — population, revenus, DVF, littoral, parcs, photos, air, biodiversité,
+actualité, zones protégées, orientation politique.
+
+**Prochain lot** : `seed-coverage` d'abord. Le backlog « règle valable » est maintenant vide en Essonne ; restent les
+overrides documentés (§ 3.2 ③) et la liste exhaustive des communes de 20 000+ absentes (base Insee, passe
+locale/runner) pour trouver les communes manquées par le contrôle par nom.
