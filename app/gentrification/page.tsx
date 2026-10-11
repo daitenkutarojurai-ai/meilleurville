@@ -71,7 +71,7 @@ export default function GentrificationIndex() {
           </h2>
           <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-3">
             Une ville en haut du classement ne veut pas dire « bon investissement immobilier » —
-            ça veut dire que <strong>les signaux de marché et démographiques convergent</strong>
+            ça veut dire que <strong>les signaux de marché et démographiques convergent</strong>{" "}
             vers une intensification dans les 5 ans. À chacun d&apos;en tirer la lecture qui lui parle :
             opportunité, vigilance, ou simple curiosité sociologique. Le signal démographique
             se vérifie d&apos;ailleurs à part, sur les chiffres bruts du recensement :{" "}

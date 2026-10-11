@@ -241,7 +241,7 @@ export default function EnDemographicsHubPage() {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Trajectory (30%)</strong> —
-              change in municipal population between 2016 and 2022, <strong>measured</strong>
+              change in municipal population between 2016 and 2022, <strong>measured</strong>{" "}
               in the Insee census — not the department's trend. Atlantic coast, southern
               France and major metropolitan areas: consistently positive. Rural central/eastern
               France and former industrial basins: structural decline.

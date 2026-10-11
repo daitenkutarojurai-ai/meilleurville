@@ -92,7 +92,7 @@ export default function ClassementsPage() {
             🏆 Édition 2026
           </p>
           <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
-            Les <span className="font-display gradient-text-anim italic">classements</span><br className="hidden sm:block" />
+            Les <span className="font-display gradient-text-anim italic">classements</span>{" "}<br className="hidden sm:block" />
             des villes françaises
           </h1>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">

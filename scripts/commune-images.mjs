@@ -169,8 +169,13 @@ async function stepWikidata(communes) {
 const decodeEntities = (s) =>
   s?.replace(/&(amp|lt|gt|quot|#39|#039|apos);/g, (_, e) =>
     ({ amp: "&", lt: "<", gt: ">", quot: '"', "#39": "'", "#039": "'", apos: "'" })[e]);
+// Commons' fallback when a file has no Artist field reads "No machine-readable
+// author provided. X assumed (based on copyright claims)." — the credit is X.
+const assumedAuthor = (s) =>
+  s?.replace(/^No machine-readable author provided\. (.+?) assumed \(based on copyright claims\)\.?$/, "$1")
+    .replace(/~commonswiki$/, "");
 const stripHtml = (s) =>
-  decodeEntities(s?.replace(/<[^>]+>/g, ""))?.replace(/\s+/g, " ").trim() || null;
+  assumedAuthor(decodeEntities(s?.replace(/<[^>]+>/g, ""))?.replace(/\s+/g, " ").trim()) || null;
 const firstHref = (s) => decodeEntities(s?.match(/href="([^"]+)"/)?.[1])?.replace(/^\/\//, "https://") ?? null;
 
 async function loadCommons() {

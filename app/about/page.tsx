@@ -106,7 +106,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6">Pourquoi MaVilleIdéale existe</h2>
           <div className="space-y-4 text-[var(--text-secondary)] leading-relaxed">
             <p>
-              Tout a commencé avec une question simple : <em className="text-[var(--text-primary)]">&quot;Où vivre en France pour être heureux ?&quot;</em>
+              Tout a commencé avec une question simple : <em className="text-[var(--text-primary)]">&quot;Où vivre en France pour être heureux ?&quot;</em>{" "}
               Les réponses disponibles étaient soit des classements trop génériques (coût moyen de l&apos;immobilier, soleil),
               soit des forums où des inconnus vous donnent leur opinion sans aucune donnée.
             </p>

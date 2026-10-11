@@ -126,7 +126,7 @@ export default async function EmploiPage({ params }: Props) {
           médian. Les quatre niveaux sont <strong>estimés</strong> à partir du département,
           de la taille de la commune et de ses tags d&apos;activité — ils rangent le
           département dans des paliers calés sur les ordres de grandeur du chômage
-          trimestriel INSEE, des flux SIRENE, des séries DARES et des salaires DADS,
+          trimestriel INSEE, des flux SIRENE, des séries DARES et des salaires DADS,{" "}
           <strong>sans reprendre aucune de ces séries</strong>. Ce n&apos;est donc ni le taux
           de chômage publié pour {city.name}, ni un salaire médian relevé sur place.
         </p>

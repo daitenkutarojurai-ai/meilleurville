@@ -119,7 +119,7 @@ export default function RegionsPage() {
                   <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
                     {cities.length} ville{cities.length > 1 ? "s" : ""} ·
                     <span className="ml-1 inline-flex items-center gap-1">
-                      score moyen
+                      score moyen{" "}
                       <span className="font-mono-data font-bold text-[var(--accent)]">{avgScore.toFixed(1)}</span>
                       / 10
                     </span>

@@ -311,7 +311,7 @@ export default async function DemographiePage({ params }: Props) {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Vieillissement (30 %) :</strong>{" "}
-              part des 60 ans et plus dans la population totale, <strong>mesurée</strong>
+              part des 60 ans et plus dans la population totale, <strong>mesurée</strong>{" "}
               au recensement Insee {INSEE_POP_YEAR} pour 538 des 540 villes du site. Médiane
               nationale ~28 %. Très âgé : Creuse, Lot, Cantal, Limousin entier ;
               très jeune : DROM hors Antilles.

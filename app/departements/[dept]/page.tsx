@@ -104,6 +104,14 @@ export default async function DeptPage({ params }: Props) {
     culture: cities.reduce((s, c) => s + c.scores.culture, 0) / cities.length,
   };
 
+  const AXIS_CHIP_LABEL: Record<string, string> = {
+    nature: "Nature",
+    cost: "Coût",
+    safety: "Sécurité",
+    transport: "Transports",
+    culture: "Culture",
+  };
+
   const topCity = cities[0];
   const bestCriteria = Object.entries(avgCriteria).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([k]) => k);
   const criteriaLabels: Record<string, string> = {
@@ -219,11 +227,11 @@ export default async function DeptPage({ params }: Props) {
               ? ` Les ${cities.length} villes analysées offrent un éventail de choix pour tous les profils.`
               : " C'est la principale ville analysée dans ce département."}
           </p>
-          <div className="mt-5 flex flex-wrap gap-3">
+          <div className="mt-5 grid grid-cols-5 gap-2 sm:flex sm:flex-wrap sm:gap-3">
             {Object.entries(avgCriteria).map(([key, val]) => (
-              <div key={key} className="rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-4 py-2 text-center">
+              <div key={key} className="rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-1 py-2 text-center sm:px-4">
                 <div className="text-sm font-bold font-mono-data text-[var(--accent)]">{val.toFixed(1)}</div>
-                <div className="text-[10px] text-[var(--text-tertiary)] capitalize">{key}</div>
+                <div className="text-[10px] text-[var(--text-tertiary)]">{AXIS_CHIP_LABEL[key]}</div>
               </div>
             ))}
           </div>
@@ -286,7 +294,7 @@ export default async function DeptPage({ params }: Props) {
         {rest.length > 0 && (
           <section>
             <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">
-              Toutes les villes ({cities.length})
+              {rest.length === 1 ? "L'autre ville analysée" : `Les ${rest.length} autres villes`}
             </h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {rest.map((city, i) => (

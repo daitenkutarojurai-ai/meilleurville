@@ -126,7 +126,7 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite safety index for {cities.length} cities in the {label} macro-region
           with over 10,000 inhabitants. Four dimensions: property crime, personal crime,
-          night-time incidents, domestic violence. All four are <strong>estimated</strong>
+          night-time incidents, domestic violence. All four are <strong>estimated</strong>{" "}
           from each city's safety score and profile, not read off recorded crime.
         </p>
 
