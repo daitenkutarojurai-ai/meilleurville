@@ -111,7 +111,7 @@ export default async function SingleParentPage({ params }: Props) {
     {
       q: `What monthly budget covers a 3-bedroom flat as a single parent in ${city.name}?`,
       a: housing && minIncome
-        ? `Average T3 (3-room = 2 bedrooms + living room) rent in ${city.name}: €${housing.avgRentT3}/month (source: data/housing.ts). On the classic one-third-of-net-income rule (33%${s.cost < 5 ? ", stretched to 35% in this tight market" : ""}), you need at least €${minIncome} net/month to hold the T3 without a housing lever. Below that, look at social housing (HLM), intermediate housing (LLI) or a T2 with a shared bedroom.`
+        ? `Average T3 (3-room = 2 bedrooms + living room) rent in ${city.name}: €${housing.avgRentT3}/month (BestCitiesInFrance estimate). On the classic one-third-of-net-income rule (33%${s.cost < 5 ? ", stretched to 35% in this tight market" : ""}), you need at least €${minIncome} net/month to hold the T3 without a housing lever. Below that, look at social housing (HLM), intermediate housing (LLI) or a T2 with a shared bedroom.`
         : `${city.name} rents aren't individually recorded in our dataset. Check regional observatories (Clameur, DGALN) for a realistic T3 rent, then apply the one-third rule to get your minimum viable net income.`,
     },
     {
@@ -158,8 +158,8 @@ export default async function SingleParentPage({ params }: Props) {
             </div>
             <p className="text-[var(--text-secondary)] leading-relaxed max-w-2xl">
               One income, one driver, one adult morning and evening. What that actually changes
-              in {city.name} — no clichés, no condescending praise. Figures traced back to the
-              seed and <code className="text-xs">data/housing.ts</code>.
+              in {city.name} — no clichés, no condescending praise. Figures come from the city
+              profile scores and our rent estimate (<a href="/methodology" className="underline">methodology</a>).
             </p>
           </div>
         </section>

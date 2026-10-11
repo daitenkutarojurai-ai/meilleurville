@@ -107,6 +107,14 @@ not a substitute for reading. Niche scores have the same trap: `Score retraite` 
 `Score étudiant` come from `computeNicheScores()` (`lib/niche-scores.ts`), not
 from any seed field.
 
+⚠️ **Cite a source the reader can open, never a repo path** (2026-10-11). Guide copy carried
+2 389 « (source : data/cities-seed.ts) » / « per data/housing.ts » shown verbatim to readers.
+Write « (source : notre fiche ville) », « notre estimation des loyers », « Insee, recensements »,
+« notre fiche quartiers », « OpenStreetMap » (EN: « our city profile », « our rent estimate »,
+« INSEE census », « our district data »). Full table in `scripts/humanize-guide-sources.mjs`,
+which also rewrites a batch in place; `npm run integrity` (garde `sources`) fails on any
+`data/…`, `lib/…` path left in a guide string. Paths stay fine in ROADMAP/CLAUDE.md and comments.
+
 ## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar, all opengraph-image.tsx)
 
 Effectifs mesurés le 2026-08-30 en exécutant `CITIES_SEED` (donc après calibrage et

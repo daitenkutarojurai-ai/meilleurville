@@ -15,6 +15,7 @@ import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { clampMeta } from "@/lib/brand";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { renderRich, stripMd } from "@/lib/link-cities";
+import { splitParagraphs } from "@/lib/paragraphs";
 import { comparePairSlug } from "@/lib/comparer-pairs";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { suggestNextGuides } from "@/lib/guide-suggestions";
@@ -259,7 +260,7 @@ export default async function GuidePage({ params }: Props) {
                   <section
                     key={i}
                     id={`section-${i}`}
-                    className="scroll-mt-24 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 shadow-sm transition-shadow hover:shadow-md sm:p-7"
+                    className="scroll-mt-24 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 shadow-sm transition-shadow hover:shadow-md sm:p-7"
                   >
                     <h2 className="mb-4 flex items-baseline gap-3 text-lg font-bold text-[var(--text-primary)]">
                       <span
@@ -273,9 +274,16 @@ export default async function GuidePage({ params }: Props) {
                       </span>
                       <span>{section.heading}</span>
                     </h2>
-                    <p className="text-base leading-[1.75] text-[var(--text-secondary)]">
-                      {renderRich(section.body, { linkify: true, excludeSlug: guide.relatedCities[0] })}
-                    </p>
+                    <div className="space-y-4">
+                      {(() => {
+                        const used = new Set<string>();
+                        return splitParagraphs(section.body).map((para, j) => (
+                          <p key={j} className="text-base leading-[1.75] text-[var(--text-secondary)]">
+                            {renderRich(para, { linkify: true, excludeSlug: guide.relatedCities[0], used })}
+                          </p>
+                        ));
+                      })()}
+                    </div>
                     {poi && heroCityName && <GuidePoiCard poi={poi} cityName={heroCityName} />}
                   </section>
                 );

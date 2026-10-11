@@ -109,7 +109,7 @@ export default async function ParentSoloPage({ params }: Props) {
     {
       q: `Quel budget mensuel minimum pour tenir un T3 à ${city.name} en parent solo ?`,
       a: housing && minIncome
-        ? `Loyer T3 moyen à ${city.name} : ${housing.avgRentT3} €/mois (source : data/housing.ts). Sur la règle du tiers du revenu net (33 %${s.cost < 5 ? ", relâchée à 35 % sur ce marché tendu" : ""}), il faut au minimum ${minIncome} € net/mois pour tenir sans levier logement. Sous ce seuil, il faut regarder logement social, intermédiaire, ou un T2 avec chambre partagée.`
+        ? `Loyer T3 moyen à ${city.name} : ${housing.avgRentT3} €/mois (estimation MaVilleIdéale). Sur la règle du tiers du revenu net (33 %${s.cost < 5 ? ", relâchée à 35 % sur ce marché tendu" : ""}), il faut au minimum ${minIncome} € net/mois pour tenir sans levier logement. Sous ce seuil, il faut regarder logement social, intermédiaire, ou un T2 avec chambre partagée.`
         : `Les loyers ${city.name} ne sont pas individualisés dans notre base ; référez-vous aux observatoires locaux (Clameur, DGALN) pour un T3 réaliste, puis appliquez la règle du tiers du revenu net.`,
     },
     {
@@ -156,7 +156,7 @@ export default async function ParentSoloPage({ params }: Props) {
             <p className="text-[var(--text-secondary)] leading-relaxed max-w-2xl">
               Un seul revenu, un seul conducteur, un seul parent le matin comme le soir. Ce que ça
               change concrètement à {city.name} — sans misérabilisme, sans « courage » condescendant.
-              Chiffres tirés du seed et de <code className="text-xs">data/housing.ts</code>.
+              Chiffres tirés des scores de la fiche ville et de notre estimation des loyers (<a href="/methode" className="underline">méthode</a>).
             </p>
           </div>
         </section>

@@ -34,10 +34,12 @@ const NAME_TO_SLUG = new Map(CITY_ENTRIES.map((e) => [e.name, e.slug]));
  */
 export function linkifyCities(
   text: string,
-  opts: { excludeSlug?: string } = {}
+  opts: { excludeSlug?: string; used?: Set<string> } = {}
 ): React.ReactNode[] {
   const out: React.ReactNode[] = [];
-  const used = new Set<string>();
+  // Callers that render one body as several paragraphs share `used`, so a city
+  // is still linked once per section rather than once per paragraph.
+  const used = opts.used ?? new Set<string>();
   let lastIndex = 0;
   let key = 0;
 
@@ -80,7 +82,7 @@ export function stripMd(text: string): string {
 // literally). When `linkify` is set, non-bold text segments also get city links.
 export function renderRich(
   text: string,
-  opts: { linkify?: boolean; excludeSlug?: string } = {}
+  opts: { linkify?: boolean; excludeSlug?: string; used?: Set<string> } = {}
 ): React.ReactNode[] {
   const out: React.ReactNode[] = [];
   let last = 0;
@@ -89,7 +91,7 @@ export function renderRich(
     if (!s) return;
     // Wrap each linkified segment in a keyed Fragment so the per-call city keys
     // (which restart at 0) can't collide across segments.
-    if (opts.linkify) out.push(<Fragment key={`seg-${key++}`}>{linkifyCities(s, { excludeSlug: opts.excludeSlug })}</Fragment>);
+    if (opts.linkify) out.push(<Fragment key={`seg-${key++}`}>{linkifyCities(s, { excludeSlug: opts.excludeSlug, used: opts.used })}</Fragment>);
     else out.push(s);
   };
   for (const m of text.matchAll(BOLD_RE)) {

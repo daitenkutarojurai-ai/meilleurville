@@ -13,6 +13,7 @@ import { scoreColor } from "@/lib/utils";
 import { slugifyTagEn, TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 import { suggestNextEnGuides } from "@/lib/guide-suggestions-en";
 import { renderRich, stripMd } from "@/lib/link-cities";
+import { splitParagraphs } from "@/lib/paragraphs";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
@@ -130,7 +131,11 @@ export default async function EnGuidePage({ params }: Props) {
         {g.sections.map((s) => (
           <section key={s.heading} className="mb-8">
             <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">{s.heading}</h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed">{renderRich(s.body)}</p>
+            <div className="space-y-4">
+              {splitParagraphs(s.body).map((para, j) => (
+                <p key={j} className="text-[var(--text-secondary)] leading-relaxed">{renderRich(para)}</p>
+              ))}
+            </div>
           </section>
         ))}
 

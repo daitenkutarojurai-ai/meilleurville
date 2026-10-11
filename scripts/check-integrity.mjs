@@ -1467,6 +1467,35 @@ if (!failed) {
   }
 }
 
+// Chemins de fichiers dans le texte des guides (2026-10-11). 2 389 « (source :
+// data/cities-seed.ts) » et voisins s'affichaient tels quels aux lecteurs, FR et
+// EN. Une source se cite par ce que le lecteur peut ouvrir (« notre fiche ville »,
+// « Insee », « OpenStreetMap »), pas par un chemin du dépôt.
+// `scripts/humanize-guide-sources.mjs` porte la table de correspondance.
+{
+  const PATH_RE = /\b(?:data|lib|scripts|app|components)\/[\w.-]+\.(?:ts|tsx|json|mjs)\b/;
+  const offences = [];
+  const walk = (value, where) => {
+    if (typeof value === "string") {
+      const m = value.match(PATH_RE);
+      if (m) offences.push(`${where} — « ${m[0]} »`);
+    } else if (Array.isArray(value)) value.forEach((v, i) => walk(v, `${where}[${i}]`));
+    else if (value && typeof value === "object") for (const [k, v] of Object.entries(value)) walk(v, `${where}.${k}`);
+  };
+  const { GUIDES } = load("data/guides.ts");
+  const { EN_GUIDES } = load("data/guides-en.ts");
+  for (const g of GUIDES) walk(g, g.slug);
+  for (const g of EN_GUIDES) walk(g, `en:${g.slug}`);
+  if (offences.length === 0) {
+    console.log(`  ok  sources     aucun chemin de fichier dans le texte de ${GUIDES.length + EN_GUIDES.length} guides`);
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  sources : ${offences.length} chemin(s) de fichier dans le texte des guides\n`);
+    for (const o of offences.slice(0, 20)) console.error(`    ${o}`);
+    console.error("\n    Citer la source lisible (« notre fiche ville », « Insee »…) : `node scripts/humanize-guide-sources.mjs`.\n");
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");
