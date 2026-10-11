@@ -451,6 +451,38 @@ identique) est **la matière propre du lot** et doit passer en EN sans être dil
 Pour le batch FR **suivant**, le palier à ouvrir est **6,4 : 13 communes, dont 8 sans guide**
 (Annemasse, Belfort, Cambrai, Épernay, Neuilly-sur-Seine, Nevers, Oyonnax, Troyes).
 
+### F61 — série monoparentale, batch 7 : `vacances-monoparentales-[ville]-2026` (2026-10-11)
+
+Item 2 du plan agent « vacances monoparentales ». Série à parité 45 FR / 45 EN (compteurs `grep -c`), donc la main
+revenait au FR. **+8 guides : Obernai, Laon, Dole, Hendaye, Albertville, Montargis, Lourdes, Annecy ; compteur
+mesuré 53 ; `GUIDES` 1 220 → 1 228.** `tsc`, `integrity`, `search-index` (+ `:check`) et `sitemap:check` verts
+(FR 31 324 URL) ; `npm run build` non lancé. 7 sections, 1 108-1 328 mots, 0 em-dash, `metaDesc` 141-157.
+
+**Règle de sélection modifiée, comme le batch 6 l'annonçait** : la règle `transport >= 6,8` est épuisée (batch 6 :
+« sur le point de l'être »). Nouvelle règle recalculée : axe `transport >= 6,4`, hors Île-de-France, à **15 km au moins**
+d'une commune de 100 000 habitants ou d'une destination déjà publiée (critère de distance demandé par le batch 6),
+classement par fit décroissant, paliers pris entiers. Elle retient Obernai 8,0, Albertville 7,1, Laon 7,0, le palier
+6,9 (Dole, Lourdes), le palier 6,8 (Annecy, Hendaye) et Montargis 6,7. **Écartées après vérification** : Senlis
+(sans gare voyageurs depuis 1950, vérifié en ligne, la note transport est trompeuse), Gex et Valbonne (pas de gare, non
+vérifié en ligne). Sens (6,6) est le palier suivant, non écrit.
+
+⚠️ **Thèse du lot** : il porte à la fois le meilleur composite de la série (Obernai 8,0, sécurité 8,6 aussi) et la
+destination la plus chère (Annecy : T3 1 450 €, 5 500 €/m², coût 3,1/10, dernière des 53), ainsi que le plancher du
+mètre carré partagé par Laon et Lourdes (1 400 €). Lourdes est présentée comme ville sanctuaire (lieu de culte en
+activité).
+
+⚠️ **Erreur trouvée en route et corrigée : `10-choses-a-faire-a-laon-2026` affirmait que le POMA était « encore en
+activité »**. Il a été arrêté le 27 août 2016 et remplacé par une navette en midibus (ouvert le 4 février 1989). Section 8
+réécrite ; la jumelle EN disait déjà « once ». Le nouveau guide Laon en fait un point logistique (gare au pied de la ville
+haute).
+
+Lacunes publiées : station météo à 185 km pour Hendaye (écart de 3,4 °C en janvier avec l'ancre du seed), 90-129 km
+pour Albertville, Lourdes, Annecy, Montargis ; l'indicateur d'affluence est un régime générique qui sous-estime
+Annecy l'été et ne connaît pas le calendrier des pèlerinages. Durées et fréquences de trains issues de comparateurs,
+dites « à vérifier sur SNCF Connect ». Aucun montant d'aide. **Prochain run : batch EN** (écart 8 villes : obernai, laon,
+dole, hendaye, albertville, montargis, lourdes, annecy). Vigilance EN : Hendaye = frontière Schengen, pièce d'identité ;
+Obernai = Strasbourg ; Dole désambiguïsé ; Lourdes sanctuaire.
+
 ### F61 — miroir EN de la série monoparentale, batch 6 : `single-parent-holidays-[city]-2026` (2026-10-10)
 
 Item 5 du plan agent « vacances monoparentales ». Série à 45 FR / 38 EN (diff des deux listes de slugs),

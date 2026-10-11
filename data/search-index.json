@@ -9532,6 +9532,46 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "vacances-monoparentales-obernai-2026",
+      "title": "Vacances monoparentales à Obernai en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-laon-2026",
+      "title": "Vacances monoparentales à Laon en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-dole-2026",
+      "title": "Vacances monoparentales à Dole en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-hendaye-2026",
+      "title": "Vacances monoparentales à Hendaye en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-albertville-2026",
+      "title": "Vacances monoparentales à Albertville en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-montargis-2026",
+      "title": "Vacances monoparentales à Montargis en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-lourdes-2026",
+      "title": "Vacances monoparentales à Lourdes en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-annecy-2026",
+      "title": "Vacances monoparentales à Annecy en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-gerardmer-2026",
       "title": "10 choses à faire à Gérardmer",
       "emoji": "🏞️"
@@ -9714,6 +9754,11 @@
       "count": 15
     },
     {
+      "slug": "vacances-pas-cheres-en-famille",
+      "label": "vacances pas chères en famille",
+      "count": 15
+    },
+    {
       "slug": "annecy",
       "label": "Annecy",
       "count": 14
@@ -9751,11 +9796,6 @@
     {
       "slug": "mobilite",
       "label": "mobilité",
-      "count": 13
-    },
-    {
-      "slug": "vacances-pas-cheres-en-famille",
-      "label": "vacances pas chères en famille",
       "count": 13
     },
     {
@@ -10181,6 +10221,11 @@
     {
       "slug": "toulon",
       "label": "Toulon",
+      "count": 6
+    },
+    {
+      "slug": "vacances-en-train-avec-enfants",
+      "label": "vacances en train avec enfants",
       "count": 6
     },
     {

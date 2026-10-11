@@ -29140,8 +29140,8 @@ export const GUIDES: Guide[] = [
         body: "La compagnie des arbalétriers de Laon, créée en 1431, est l'une des plus anciennes compagnies d'arbalétriers de France encore en activité. Elle organise des démonstrations de tir à l'arbalète médiévale en saison estivale. On peut aussi visiter le musée du Tir (4 rue Sérurier), avec sa collection d'arbalètes des XVIIe-XIXe siècles. Une activité originale pour qui veut comprendre cette arme médiévale, longtemps plus efficace que l'arquebuse.",
       },
       {
-        heading: "8. Le POMA — le funiculaire automatique",
-        body: "Le POMA 2000 de Laon (1989) fut le premier transport public urbain automatique français et il est encore en activité. Il relie la Ville Basse à la Ville Haute en 6 min, sans conducteur, en desservant 5 stations (Ville Basse SNCF, Carmes, Vaux, Hôtel-de-Ville, Place de la Mairie). Le tarif est celui d'un bus normal, soit 1,40 €. Unique en France, le système POMA permet de gravir 100 m de dénivelé en pleine ville, avec une vue spectaculaire sur la plaine pendant l'ascension.",
+        heading: "8. Le POMA, le funiculaire qui n'existe plus",
+        body: "Le POMA 2000 de Laon, ouvert le 4 février 1989 et premier transport urbain automatique de ce type en France, reliait la gare à l'hôtel de ville de la ville haute. Il a été arrêté définitivement le 27 août 2016 : la communauté d'agglomération a invoqué le coût de maintenance et l'obsolescence de la technologie, et une navette en midibus l'a remplacé. Il n'est donc plus possible de monter en quelques minutes sans effort : la gare est au pied de la ville haute et la montée se fait en navette, en bus ou à pied, tracé et horaires à vérifier auprès de l'opérateur de transport local avant de partir avec de jeunes enfants ou une poussette.",
       },
       {
         heading: "9. La forêt de Saint-Gobain et le Familistère de Guise",
@@ -29156,7 +29156,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "vivre-en-hauts-de-france-guide-2026",
     ],
-    tags: ["10 choses à faire à Laon", "activités Laon 2026", "sorties Laon", "que faire à Laon", "cathédrale gothique remparts Chemin Dames Reims Champagne POMA"],
+    tags: ["10 choses à faire à Laon", "activités Laon 2026", "sorties Laon", "que faire à Laon", "cathédrale gothique remparts Chemin Dames Reims Champagne"],
   },
   {
     slug: "10-choses-a-faire-a-charleville-mezieres-2026",
@@ -60567,6 +60567,420 @@ export const GUIDES: Guide[] = [
       "vacances-monoparentales-chatellerault-2026"
     ],
     tags: ["vacances monoparentales Cambrai", "parent solo Nord", "vacances pas chères en famille", "beffroi UNESCO Cambrai", "bêtise de Cambrai"]
+  },
+  {
+    slug: "vacances-monoparentales-obernai-2026",
+    title: "Vacances monoparentales à Obernai en 2026",
+    metaTitle: "Vacances monoparentales à Obernai 2026",
+    metaDesc:
+      "Obernai a le meilleur composite des 53 destinations de la série (8,0/10), la sécurité la plus haute et un TER vers Strasbourg. Mais T3 à 1 040 €.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Obernai sort à 8,0/10 au composite « famille monoparentale », première des cinquante-trois destinations de la série, sans aucune égalité (source : notre indice de séjour). Le détail : sécurité 8,6/10, transports 6,4/10, coût de la vie 6,3/10 et qualité de vie 9,0/10 (source : notre fiche ville). C'est le meilleur composite de la série et le meilleur score de sécurité, deux axes que ce profil pèse plus que les autres. Le prix est la contrepartie : 1 040 € le T3 de référence et 2 800 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €, et le moteur classe la destination en €€€. La commune compte 12 303 habitants au recensement 2022, contre 10 689 en 2011, soit une hausse de 15,1 % (source : Insee, recensements). Un point de méthode à poser d'emblée : les transports ne sont pas ce qui porte Obernai, ils sont à 6,4/10, sous la médiane de série (7,0). Ce guide dit pourquoi la ville reste jouable sans voiture malgré ce chiffre, et où il faudra tout de même un véhicule.",
+    sections: [
+      {
+        heading: "Une gare et un TER vers Strasbourg, pas de TGV",
+        body: "Obernai a une gare, sur la ligne qui rejoint Strasbourg et Sélestat par le piémont des Vosges. Selon les comparateurs consultés en ligne avant écriture, le trajet vers Strasbourg dure entre une trentaine et une quarantaine de minutes, avec une desserte de type régional dont le nombre exact de circulations quotidiennes varie d'une source à l'autre : à confirmer sur SNCF Connect ou sur le site du TER Grand Est avant de bâtir une journée dessus. Il n'y a pas de train à grande vitesse à Obernai : depuis Paris, le trajet passe par Strasbourg puis par ce TER. C'est la raison pour laquelle l'axe transports est sous la médiane de série. Pour un adulte seul avec des enfants, la conséquence est simple : le plus dur est la correspondance de Strasbourg, une fois, dans chaque sens. Le centre d'Obernai, lui, est un ovale compact qui se fait à pied, et le tour des remparts est plat, donc praticable avec une poussette."
+      },
+      {
+        heading: "Le prix : cher pour la série, raisonnable pour l'Alsace",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Obernai sort à 6,3/10, vingt-quatrième des cinquante-trois destinations à égalité avec une autre, pour une médiane de série à 6,2 (source : notre fiche ville). Le marché est plus sévère que l'axe : 1 040 € le T3 de référence, trente-sixième rang du moins cher au plus cher, et 2 800 € le mètre carré (source : notre estimation des loyers). Ce sont des repères de marché résidentiel et non des tarifs de vacances. Ce qu'ils disent est que la commune est installée dans la zone de prix de l'agglomération strasbourgeoise, à une vingtaine de kilomètres, et non dans celle d'une ville moyenne isolée comme Laon ou Dole. En contrepartie, la population a progressé plus vite que celle de bien des communes de la série : 10 689 habitants en 2011, 12 303 en 2022 (source : Insee, recensements). Le recensement compte les résidents, il ne dit pas pourquoi ils s'installent."
+      },
+      {
+        heading: "La place du Marché, le puits et le beffroi : un décor qui se fait en poussette",
+        body: "Tout se concentre sur la place du Marché : le beffroi, l'hôtel de ville, l'ancienne halle aux blés. Le puits aux six seaux, daté de 1579, a trois colonnes à chapiteaux corinthiens et un baldaquin octogonal, et chacune des trois roues porte deux seaux : c'est un objet que les enfants regardent deux fois avant de comprendre. Le Kapellturm, la tour de soixante mètres, est tout ce qui reste d'une chapelle de la fin du XIIIᵉ siècle démolie en 1873. Le marché hebdomadaire du jeudi matin est mentionné dès 1301 : un jeudi on voit une ville qui fonctionne, un mardi un décor. Le circuit des remparts fait le tour du centre en moins d'une heure, sur du plat. Deux sorties relèvent d'une autre commune et se font en voiture : le Mont Sainte-Odile, à Ottrott, et le Haut-Koenigsbourg, à Orschwiller. Sans véhicule, il faut les compter hors du programme, ou acheter une excursion organisée."
+      },
+      {
+        heading: "Trois aires de jeux, et un centre piéton",
+        body: "Le relevé cartographique retient 3 espaces verts sur la commune, dont les 3 portent une aire de jeux : le parc municipal de Hell, le parc des Roselières et le jardin du Selhof (source : OpenStreetMap). Le chiffre est modeste : la ville est petite et son centre se fait à pied. Le relevé est contributif, pas un registre, donc un parc non cartographié n'y figure pas. L'autre atout est la Léonardsau, domaine paysager de huit hectares à l'écart du centre : un contrepoint calme à la place du Marché saturée en août. À l'inverse, une brasserie de grande taille est implantée sur la commune : c'est une emprise industrielle en activité et non une visite pour enfants."
+      },
+      {
+        heading: "Sécurité 8,6/10 : le meilleur de la série, avec ses limites de lecture",
+        body: "Obernai affiche 8,6/10 sur l'axe sécurité (source : notre fiche ville), première des cinquante-trois destinations, sans égalité, pour une médiane de série à 5,7. Sur le profil monoparental c'est l'axe le plus lourdement pondéré, et c'est donc lui qui porte le composite à 8,0. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et une note haute ne dispense pas des réflexes de tout séjour : à l'échelle d'un marché de Noël ou d'un week-end d'août, la foule est le sujet, pas la délinquance."
+      },
+      {
+        heading: "Quand y aller : la fenêtre est étroite en plein été et en décembre",
+        body: "La station climatique de référence est celle de Strasbourg-Entzheim, à 15 kilomètres (source : normales Météo-France 1991-2020), un rattachement court. Elle donne 2,5 °C de moyenne en janvier et 20,6 °C en juillet. Notre indicateur d'affluence donne 2 sur 5 d'octobre à mai, 3 en juin et en septembre, 4 en juillet et en août (source : notre calendrier des saisons). Le moteur place juin en tête, puis septembre, puis août. Le marché de Noël dépasse ce calendrier : ce que notre indicateur ne mesure pas, c'est la fréquentation de décembre dans une ville de cette taille. Avril, mai, septembre et octobre donnent la même ville sans la file d'attente, et les vendanges tombent à l'automne. Une journée suffit pour la place, le puits et les remparts, deux avec la Léonardsau."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse du Bas-Rhin est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : le poste dominant n'est pas l'hébergement mais le transport jusqu'à Strasbourg puis jusqu'à Obernai, et la ville la mieux notée de la série est aussi une des plus chères. Les tarifs jeunes et famille de la SNCF valent donc ici davantage que n'importe quelle aide au logement. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["obernai","selestat","saverne","strasbourg"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-obernai-2026",
+      "vacances-monoparentales-strasbourg-2026",
+      "vacances-monoparentales-mulhouse-2026"
+    ],
+    tags: ["vacances monoparentales Obernai", "parent solo Alsace", "vacances en train avec enfants", "route des vins Alsace"]
+  },
+  {
+    slug: "vacances-monoparentales-laon-2026",
+    title: "Vacances monoparentales à Laon en 2026",
+    metaTitle: "Vacances monoparentales à Laon 2026",
+    metaDesc:
+      "Laon partage le mètre carré le plus bas de la série (1 400 €), coût de la vie 8,3/10, TER direct vers Paris. Mais le funiculaire a fermé en 2016.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Laon sort à 7,0/10 au composite « famille monoparentale », septième des cinquante-trois destinations de la série à égalité avec une autre (source : notre indice de séjour). Le détail : sécurité 6,5/10, transports 6,4/10, coût de la vie 8,3/10 et qualité de vie 6,2/10 (source : notre fiche ville). L'axe coût la place première de la série, à égalité avec Saint-Quentin : 740 € le T3 de référence, sixième du moins cher au plus cher, et 1 400 € le mètre carré, valeur la plus basse de la série à égalité exacte avec Lourdes (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 24 066 habitants au recensement 2022, contre 25 745 en 2011, soit une baisse de 6,5 % (source : Insee, recensements). Un fait d'actualité à poser avant tout le reste : le funiculaire automatique qui reliait la gare à la ville haute a cessé de fonctionner à la fin d'août 2016, et c'est la première chose qu'un parent seul avec des bagages doit savoir.",
+    sections: [
+      {
+        heading: "Un TER direct vers Paris, et une gare au pied de la colline",
+        body: "Les comparateurs consultés en ligne avant écriture donnent des TER directs entre Paris-Nord et Laon, d'une durée de l'ordre d'une heure et demie à une heure trente-cinq, par Soissons et Villers-Cotterêts, avec la majorité des circulations quotidiennes directes. Le nombre exact varie d'une source à l'autre et se vérifie sur SNCF Connect. Les itinéraires avec correspondance, notamment via Reims, sont nettement plus longs. La gare est au nord de la ville, au pied de la ville haute, et c'est là que le sujet se joue : la cité médiévale est sur un éperon calcaire. Le Poma, l'automate qui montait en quelques minutes de la gare à l'hôtel de ville, a été arrêté le 27 août 2016 et remplacé par une navette en midibus. Son tracé et ses horaires actuels n'ont pas pu être vérifiés : à demander à l'opérateur de transport local avant de partir avec une poussette. C'est la seule destination de ce lot où la montée est le sujet logistique."
+      },
+      {
+        heading: "Le mètre carré le plus bas de la série, à égalité avec Lourdes",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Laon sort à 8,3/10 (source : notre fiche ville), première des cinquante-trois destinations, à égalité avec Saint-Quentin, pour une médiane de série à 6,2. Le marché suit : 740 € le T3 de référence et 1 400 € le mètre carré, valeur la plus basse de la série à égalité exacte avec Lourdes (source : notre estimation des loyers). Le moteur la classe en €, le palier le moins cher. Une égalité n'est pas un classement : Laon et Lourdes partagent le plancher, aucune ne précède l'autre. Ce sont des repères de marché local et non des tarifs de vacances. Ce qui se transporte de l'un à l'autre, c'est le niveau général des prix d'une préfecture de 24 000 habitants sans pression touristique de masse."
+      },
+      {
+        heading: "Une cathédrale gothique primitive, et ce qu'il vaut mieux vérifier",
+        body: "Laon est la préfecture de l'Aisne et elle a gardé un ensemble médiéval : la cathédrale Notre-Dame, l'une des grandes cathédrales du gothique primitif, dont les tours sont ornées de bœufs sculptés, et un tour des remparts qui donne une vue sur la plaine. La visite de la ville haute se fait à pied, et c'est une promenade plate une fois sur l'éperon. Pour des enfants, l'histoire des bœufs sculptés est une porte d'entrée plus efficace que n'importe quelle date. Le Chemin des Dames, lieu de mémoire de 1917, est à une vingtaine de kilomètres et relève d'autres communes : c'est une sortie à part entière, en voiture ou en excursion, et pas un programme pour une matinée avec de jeunes enfants. Les horaires et les accès se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "Dix espaces verts, dont trois avec aire de jeux",
+        body: "Le relevé cartographique retient 10 espaces verts sur la commune, dont 3 portent une aire de jeux (source : OpenStreetMap), parmi lesquels le square des Docteurs Émile et Marcel Macon. C'est un maillage moyen pour une préfecture de cette taille, et il ne compense pas la montée vers la ville haute. Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc le chiffre est un plancher. Ce que la ville a de plus utile pour un parent seul n'est pas dans ce tableau : c'est qu'elle est calme. Notre indicateur d'affluence donne 1 sur 5 pendant cinq mois et jamais plus de 3, en juillet et en août."
+      },
+      {
+        heading: "Sécurité 6,5/10 : au-dessus de la médiane, loin du haut de série",
+        body: "Laon affiche 6,5/10 sur l'axe sécurité (source : notre fiche ville), treizième des cinquante-trois destinations à égalité avec deux autres, pour une médiane de série à 5,7. C'est correct et pas plus. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés, et il ne porte aucun jugement sur les habitants. Et la tendance démographique va dans le même sens que le prix : 25 745 habitants en 2011, 24 066 en 2022, soit une baisse de 6,5 % (source : Insee, recensements). Conséquence pratique : l'offre du soir et du dimanche se vérifie avant de compter dessus."
+      },
+      {
+        heading: "Quand y aller",
+        body: "La station climatique de référence est celle de Reims-Chambrecy, à 45 kilomètres (source : normales Météo-France 1991-2020), un rattachement cohérent : même plaine, pas de relief marqué entre les deux. Elle donne 3,4 °C de moyenne en janvier et 18,7 °C en juillet. Les ancres propres à la commune viennent du seed : 3,5 °C en janvier, 21,5 °C en juillet et 1 750 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne 1 sur 5 de janvier à mai et d'octobre à décembre, 2 en juin et en septembre, 3 en juillet et en août (source : notre calendrier des saisons). Le moteur place juillet en tête, puis août, puis juin. Deux jours suffisent pour la cathédrale, les remparts et un détour par le Chemin des Dames."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de l'Aisne est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : sur la ville qui partage le mètre carré le plus bas de la série, le poste dominant n'est pas l'hébergement mais le trajet. Les tarifs famille de la SNCF et la vérification de la navette de la ville haute valent ici davantage que n'importe quelle aide au logement. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["laon","soissons","saint-quentin","reims"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-laon-2026",
+      "parent-solo-a-laon-2026",
+      "vacances-monoparentales-saint-quentin-2026",
+      "vacances-monoparentales-reims-2026"
+    ],
+    tags: ["vacances monoparentales Laon", "parent solo Aisne", "vacances pas chères en famille", "cathédrale de Laon"]
+  },
+  {
+    slug: "vacances-monoparentales-dole-2026",
+    title: "Vacances monoparentales à Dole en 2026",
+    metaTitle: "Vacances monoparentales à Dole 2026",
+    metaDesc:
+      "Dole : T3 à 780 €, sécurité 7,0/10, une gare en centre-ville avec TGV direct vers Paris et TER vers Dijon. Un canal, la maison de Pasteur, des berges plates.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Dole sort à 6,9/10 au composite « famille monoparentale », neuvième des cinquante-trois destinations de la série à égalité avec trois autres (source : notre indice de séjour). Le détail : sécurité 7,0/10, transports 6,4/10, coût de la vie 7,6/10 et qualité de vie 6,8/10 (source : notre fiche ville). C'est une destination d'équilibre : aucun axe n'y est un record, aucun n'y est un trou. Le coût est la meilleure carte : 780 € le T3 de référence, huitième du moins cher au plus cher à égalité avec deux autres, et 1 800 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 23 784 habitants au recensement 2022, contre 24 009 en 2011, soit une baisse de 0,9 % (source : Insee, recensements) : une stabilité plus qu'un déclin. Elle a été capitale de la Franche-Comté jusqu'en 1678, ce qui explique l'échelle de ses monuments.",
+    sections: [
+      {
+        heading: "Une gare en centre-ville, un TGV direct, un TER vers Dijon",
+        body: "Dole est sur la ligne de Dijon à Besançon et sa gare est en centre-ville : le centre ancien se fait à pied depuis le train. Selon les comparateurs consultés en ligne avant écriture, un TGV relie Dole à Paris-Gare de Lyon en deux heures et dix minutes environ, avec un nombre limité de circulations par jour, et un TER rejoint Dijon en une trentaine de minutes. Les horaires et le nombre de directs varient d'une source à l'autre et se vérifient sur SNCF Connect. L'axe transports est à 6,4/10, sous la médiane de série (7,0) : il décrit une desserte régionale correcte, pas un réseau urbain. Pour un adulte seul, l'intérêt est que la destination est jouable sans voiture pour l'essentiel de son programme."
+      },
+      {
+        heading: "Le coût : huitième du moins cher de la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Dole sort à 7,6/10 (source : notre fiche ville), quatrième des cinquante-trois destinations à égalité avec deux autres, pour une médiane de série à 6,2. Le marché suit : 780 € le T3 de référence et 1 800 € le mètre carré, dixième valeur du moins cher au plus cher à égalité avec deux autres (source : notre estimation des loyers). Le moteur la classe en €€, deuxième palier le moins cher (source : notre indice de séjour). Ce sont des repères de marché local et non des tarifs de vacances. Ce qui se transporte de l'un à l'autre, c'est le niveau général des prix d'une ville de 24 000 habitants sans pression touristique de masse."
+      },
+      {
+        heading: "Le canal des Tanneurs et la maison de Pasteur",
+        body: "Louis Pasteur est né à Dole le 27 décembre 1822, dans une maison de tanneur au bord du canal des Tanneurs. La maison est devenue un musée en 1923 et elle se visite : horaires et accrochages se vérifient avant la visite. Le canal traverse le bas de la vieille ville et lui donne son surnom de petite Venise, avec ses maisons pieds dans l'eau, ses lavoirs et ses passerelles. La promenade se fait en vingt minutes, ce qui est un format adapté à de jeunes enfants. Le clocher de la collégiale Notre-Dame, de soixante-treize mètres, domine la ville : il a été reconstruit neuf mètres plus bas que sa hauteur d'origine après le siège de 1636 et une tempête. La montée de la ville basse à la ville haute se fait par des rues étroites et des escaliers : prévoir une écharpe plutôt qu'une poussette."
+      },
+      {
+        heading: "Quatre aires de jeux, et des berges plates",
+        body: "Le relevé cartographique retient 12 espaces verts sur la commune, dont 4 portent une aire de jeux (source : OpenStreetMap) : l'espace Carrel, le cours Saint-Mauris, le jardin Philippe et Les Bains, auxquels s'ajoute le parc animalier de la Sauline. Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas. L'autre atout est que Dole est sur le Doubs, doublé par le canal du Rhône au Rhin : les berges et les chemins de halage offrent des kilomètres de plat, ce qui est rare dans une région qui monte vite. La forêt de Chaux, à l'est, relève des communes voisines dont La Vieille-Loye : on y accède depuis Dole, on n'y est pas, et il faut un véhicule."
+      },
+      {
+        heading: "Sécurité 7,0/10 : dans le haut de la série",
+        body: "Dole affiche 7,0/10 sur l'axe sécurité (source : notre fiche ville), neuvième des cinquante-trois destinations, pour une médiane de série à 5,7. Sur le profil monoparental c'est l'axe le plus lourdement pondéré. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La stabilité démographique (24 009 habitants en 2011, 23 784 en 2022) va dans le sens d'une ville où l'offre du soir tient, mais cela se vérifie avant de compter dessus."
+      },
+      {
+        heading: "Quand y aller",
+        body: "La station climatique de référence est celle de Dijon-Longvic, à 36 kilomètres (source : normales Météo-France 1991-2020), un rattachement cohérent. Elle donne 2,7 °C de moyenne en janvier et 20,8 °C en juillet. Les ancres propres à la commune viennent du seed : 2 °C en janvier, 22 °C en juillet et 1 800 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne 1 sur 5 de janvier à mai et d'octobre à décembre, 2 en juin et en septembre, 3 en juillet et en août (source : notre calendrier des saisons) : l'une des destinations les plus calmes de ce lot. Le moteur place juin en tête, puis août, puis juillet. Une journée suffit pour la maison de Pasteur, la collégiale et la vieille ville, une seconde pour les berges."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse du Jura est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : avec un T3 à 780 €, le poste dominant n'est pas l'hébergement mais le trajet depuis Paris, et l'achat anticipé d'un TGV vaut ici davantage que n'importe quelle aide au logement. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["dole","dijon","besancon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-dole-2026",
+      "parent-solo-a-dole-2026",
+      "vacances-monoparentales-dijon-2026",
+      "vacances-monoparentales-besancon-2026"
+    ],
+    tags: ["vacances monoparentales Dole", "parent solo Jura", "vacances en train avec enfants", "Pasteur Dole"]
+  },
+  {
+    slug: "vacances-monoparentales-hendaye-2026",
+    title: "Vacances monoparentales à Hendaye en 2026",
+    metaTitle: "Vacances monoparentales à Hendaye 2026",
+    metaDesc:
+      "Hendaye : TGV direct depuis Paris, trois kilomètres de plage, sécurité 7,5/10 et Espagne à 40 minutes en train. Mais T3 à 1 130 € et station météo à 185 km.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Hendaye sort à 6,8/10 au composite « famille monoparentale », treizième des cinquante-trois destinations de la série à égalité avec trois autres (source : notre indice de séjour). Le détail : sécurité 7,5/10, transports 6,4/10, coût de la vie 5,3/10 et qualité de vie 7,8/10 (source : notre fiche ville). C'est une destination de bord de mer, donc chère : 1 130 € le T3 de référence, quarante-deuxième du moins cher au plus cher, et 3 700 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 18 074 habitants au recensement 2022, contre 15 976 en 2011, soit une hausse de 13,1 % (source : Insee, recensements). Elle est la seule destination de ce lot qui offre à la fois une plage de trois kilomètres, un TGV direct depuis Paris et une frontière à franchir à pied ou en train.",
+    sections: [
+      {
+        heading: "Un TGV direct, et l'Espagne en train local",
+        body: "Selon les comparateurs consultés en ligne avant écriture, un TGV relie Paris-Montparnasse à Hendaye en direct en quatre heures quarante environ, avec quelques départs quotidiens. Hendaye est le terminus français : la gare est à deux pas de celle du réseau basque espagnol Euskotren, dont un train toutes les trente minutes environ rejoint Donostia-San Sebastián en une quarantaine de minutes. Le billet n'est pas intégré : il faut acheter le trajet français puis le trajet espagnol séparément, et prévoir de la marge pour la correspondance. La frontière est un passage Schengen intérieur, sans contrôle systématique, mais une pièce d'identité reste obligatoire pour chaque personne, enfants compris : un parent seul qui oublie la carte d'un enfant n'ira pas à Saint-Sébastien."
+      },
+      {
+        heading: "Le coût : la contrepartie de la mer",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Hendaye sort à 5,3/10 (source : notre fiche ville), quarante-deuxième des cinquante-trois destinations à égalité avec deux autres, pour une médiane de série à 6,2. Le marché confirme : 1 130 € le T3 de référence et 3 700 € le mètre carré, trente-neuvième valeur du moins cher au plus cher (source : notre estimation des loyers). Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances, mais le sens est clair : on paie la plage. L'écart avec les destinations du nord et de l'est de la série (Laon, Cambrai, Châtellerault) est de 400 à 500 € sur le T3."
+      },
+      {
+        heading: "Trois kilomètres de plage, et un domaine de 65 hectares",
+        body: "La plage d'Hendaye est décrite par les guides comme la plus longue de la côte basque, avec environ trois kilomètres de sable fin, surveillée en été et protégée des courants les plus forts par la baie, ce qui en fait une plage adaptée aux familles et à l'initiation nautique. La surveillance saisonnière se vérifie sur place : les drapeaux de baignade font foi, et la baignade hors zone surveillée relève de la responsabilité de l'adulte. Le domaine d'Abbadia, un parc d'une soixantaine d'hectares autour d'un château néo-gothique du XIXᵉ siècle bâti à l'initiative d'Antoine d'Abbadie, est la balade de côte : le sentier du littoral y passe, avec des falaises, donc des abords à tenir à distance avec de jeunes enfants."
+      },
+      {
+        heading: "Deux aires de jeux sur sept espaces verts",
+        body: "Le relevé cartographique retient 7 espaces verts sur la commune, dont 2 portent une aire de jeux : le rond-point de Flore et le parc d'Irandatz (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas. À Hendaye le terrain de jeu est la plage, ce qui rend le chiffre moins déterminant qu'ailleurs dans la série. Notre indicateur d'affluence donne 2 sur 5 d'octobre à mai, 3 en juin et en septembre, 4 en juillet et en août (source : notre calendrier des saisons) : l'été est la saison où la plage et la frontière sont les plus chargées."
+      },
+      {
+        heading: "Sécurité 7,5/10 : quatrième de la série",
+        body: "Hendaye affiche 7,5/10 sur l'axe sécurité (source : notre fiche ville), quatrième des cinquante-trois destinations à égalité avec deux autres, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie, à 7,8/10, est cinquième de la série à égalité avec trois autres : ce sont ces deux axes qui portent le composite malgré le prix."
+      },
+      {
+        heading: "Quand y aller, et une station météo trop loin",
+        body: "Il faut signaler une lacune plutôt que la combler : la station climatique la plus proche dans notre jeu de données est celle de Bordeaux-Mérignac, à 185 kilomètres (source : normales Météo-France 1991-2020), un rattachement trop lointain pour un climat océanique de piémont pyrénéen. Elle donne 7,1 °C de moyenne en janvier et 21,7 °C en juillet, alors que les ancres propres à la commune donnent 10,5 °C en janvier, 22,5 °C en juillet et 2 000 heures de soleil annuelles (source : notre fiche ville). L'écart de 3,4 °C en janvier dit à lui seul que la station ne décrit pas Hendaye : on retient les ancres de la commune. Le moteur place septembre en tête, puis juin, puis mai. Trois jours suffisent pour la plage, le domaine d'Abbadia et une journée à Saint-Sébastien."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse des Pyrénées-Atlantiques est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : la partie du séjour passée en Espagne se budgète à part, comme le billet Euskotren qui s'achète séparément, et la validité d'une aide hors de France se vérifie auprès de l'organisme avant de réserver. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["hendaye","anglet","bayonne","biarritz"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "vacances-monoparentales-anglet-2026",
+      "vacances-monoparentales-pau-2026"
+    ],
+    tags: ["vacances monoparentales Hendaye", "parent solo Pays basque", "vacances en train avec enfants", "plage Hendaye"]
+  },
+  {
+    slug: "vacances-monoparentales-albertville-2026",
+    title: "Vacances monoparentales à Albertville en 2026",
+    metaTitle: "Vacances monoparentales à Albertville 2026",
+    metaDesc:
+      "Albertville : sécurité 8,0/10 (2e de la série), TGV direct depuis Paris, cité médiévale de Conflans. Station météo à 90 km, l'hiver pèse 5 sur 5.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Albertville sort à 7,1/10 au composite « famille monoparentale », cinquième des cinquante-trois destinations de la série à égalité avec une autre (source : notre indice de séjour). Le détail : sécurité 8,0/10, transports 6,4/10, coût de la vie 6,3/10 et qualité de vie 6,8/10 (source : notre fiche ville). La sécurité est la carte forte : deuxième de la série à égalité avec une autre, et l'axe que le profil pèse le plus. Le marché est dans la moyenne haute de la série : 1 000 € le T3 de référence, trente-deuxième du moins cher au plus cher à égalité avec deux autres, et 2 800 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 19 706 habitants au recensement 2022, contre 18 832 en 2011, soit une hausse de 4,6 % (source : Insee, recensements). Un point à poser avant le reste : à Albertville le calendrier de la montagne commande les prix, et l'hiver est la haute saison.",
+    sections: [
+      {
+        heading: "Un TGV direct, un TER par Chambéry",
+        body: "Selon les comparateurs consultés en ligne avant écriture, des TGV directs relient Paris à Albertville en trois heures cinquante à quatre heures et demie environ, et des itinéraires avec correspondance en TER à Chambéry existent, de durée comparable. Les chiffres divergent d'une source à l'autre, y compris sur le nombre de directs quotidiens, et se vérifient sur SNCF Connect. L'axe transports est à 6,4/10, sous la médiane de série (7,0) : il décrit une desserte régionale correcte, pas un réseau urbain. Pour un adulte seul, la logistique du premier jour est la même qu'ailleurs : bagages, enfants, un seul changement au pire. Le centre se fait à pied, mais la vallée de l'Arly et les stations sont des sorties de bus ou de voiture."
+      },
+      {
+        heading: "Le coût : moyen pour la série, et saisonnier",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Albertville sort à 6,3/10 (source : notre fiche ville), vingt-quatrième des cinquante-trois destinations à égalité avec une autre, pour une médiane de série à 6,2. Le marché est plus sévère que l'axe : 1 000 € le T3 de référence et 2 800 € le mètre carré, trente-troisième valeur du moins cher au plus cher à égalité avec une autre (source : notre estimation des loyers). Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances, et ils ne disent rien du tarif d'un hébergement en février : en montagne, la période prime sur la ville."
+      },
+      {
+        heading: "Conflans, la Maison Rouge et les Jeux de 1992",
+        body: "Conflans est la cité médiévale, devenue quartier d'Albertville, avec ses rues pavées, ses échoppes et ses terrasses ; la place de la Grande Roche domine la confluence de l'Arly et de l'Isère. La Maison Rouge, monument historique classé du XIVᵉ siècle, abrite depuis 1936 le musée d'art et d'histoire. La Maison des Jeux olympiques propose un parcours consacré aux Jeux d'hiver de 1992, dont Albertville fut la ville hôte. Les horaires de ces équipements se vérifient auprès de l'office de tourisme avant la venue. La montée à Conflans est en pente : avec une poussette, prévoir l'itinéraire plutôt que le raccourci."
+      },
+      {
+        heading: "Deux aires de jeux sur sept espaces verts",
+        body: "Le relevé cartographique retient 7 espaces verts sur la commune, dont 2 portent une aire de jeux : le parc du Val des Roses et le square d'Indochine (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas. À Albertville les enfants sont dehors grâce à la montagne autour plus qu'à ses parcs urbains. En contrepartie, la prudence de montagne s'applique : météo changeante, conditions de randonnée qui se vérifient la veille, et pas de sortie en altitude avec de jeunes enfants sans avoir consulté le prévisionniste local."
+      },
+      {
+        heading: "Sécurité 8,0/10 : deuxième de la série",
+        body: "Albertville affiche 8,0/10 sur l'axe sécurité (source : notre fiche ville), deuxième des cinquante-trois destinations à égalité avec une autre, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. Cette note haute est ce qui hisse la ville au cinquième rang du composite malgré des transports sous la médiane."
+      },
+      {
+        heading: "Quand y aller, et une station météo à 90 km",
+        body: "Il faut signaler une lacune plutôt que la combler : la station climatique de référence est celle de Grenoble-Saint-Geoirs, à 90 kilomètres (source : normales Météo-France 1991-2020), dans un autre massif et à une autre altitude. Elle donne 2,8 °C de moyenne en janvier et 20,6 °C en juillet. Les ancres propres à la commune viennent du seed : 1,5 °C en janvier, 23,5 °C en juillet et 1 900 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence est le plus contrasté du lot : 5 sur 5 en janvier, en février, en juillet, en août et en décembre, 4 en juin et en septembre, 3 en mars, en avril, en mai, en octobre et en novembre (source : notre calendrier des saisons). Le moteur place août en tête, puis juin, puis juillet. Pour un parent seul qui cherche du calme et un budget tenu, mai et octobre sont les fenêtres creuses, au risque de tout fermer."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de la Savoie est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : la haute saison d'hiver fait monter les tarifs d'hébergement bien au-delà des repères de marché ci-dessus, et c'est précisément là que VACAF et les chèques-vacances changent l'équation, à condition de réserver tôt. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["albertville","chambery","annecy"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "vacances-monoparentales-grenoble-2026",
+      "vacances-monoparentales-annemasse-2026"
+    ],
+    tags: ["vacances monoparentales Albertville", "parent solo Savoie", "vacances en train avec enfants", "Jeux olympiques 1992 Albertville"]
+  },
+  {
+    slug: "vacances-monoparentales-montargis-2026",
+    title: "Vacances monoparentales à Montargis en 2026",
+    metaTitle: "Vacances monoparentales à Montargis 2026",
+    metaDesc:
+      "Montargis : T3 à 790 €, coût de la vie 8,0/10 (3e de la série), un TER direct vers Paris-Bercy en environ une heure. Canaux, ponts, prasline.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Montargis sort à 6,7/10 au composite « famille monoparentale », dix-septième des cinquante-trois destinations de la série à égalité avec une autre (source : notre indice de séjour). Le détail : sécurité 6,5/10, transports 6,4/10, coût de la vie 8,0/10 et qualité de vie 5,9/10 (source : notre fiche ville). L'axe coût la place troisième de la série, sans égalité : 790 € le T3 de référence, onzième du moins cher au plus cher, et 1 600 € le mètre carré, septième valeur à égalité avec une autre (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 14 819 habitants au recensement 2022, contre 14 616 en 2011 (source : Insee, recensements), avec un creux à 14 222 en 2016 : une stabilité. Elle est surnommée la « Venise du Gâtinais » parce que le canal de Briare, le Loing et des canaux de liaison traversent son centre sous une multitude de ponts.",
+    sections: [
+      {
+        heading: "Un TER direct vers Paris-Bercy, et pas Gare de Lyon",
+        body: "Selon les comparateurs consultés en ligne avant écriture, des TER directs relient Paris-Bercy à Montargis en une heure environ, avec quelques circulations par jour dont le nombre exact varie d'une source à l'autre. Le point de détail qui piège : la gare parisienne est Bercy Bourgogne-Pays d'Auvergne et non la gare de Lyon, à quelques centaines de mètres mais sur une autre ligne de métro. Les horaires se vérifient sur le site du TER Centre-Val de Loire ou sur SNCF Connect. L'axe transports est à 6,4/10, sous la médiane de série (7,0). Une heure de train sans correspondance est le meilleur ratio durée/simplicité de ce lot pour un adulte seul avec des enfants."
+      },
+      {
+        heading: "Le coût : troisième de la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Montargis sort à 8,0/10 (source : notre fiche ville), troisième des cinquante-trois destinations, sans égalité, derrière Laon et Saint-Quentin à 8,3, pour une médiane de série à 6,2. Le marché suit : 790 € le T3 de référence et 1 600 € le mètre carré (source : notre estimation des loyers). Le moteur la classe en €, le palier le moins cher (source : notre indice de séjour). Ce sont des repères de marché local et non des tarifs de vacances. Ce qui se transporte de l'un à l'autre, c'est le niveau général des prix d'une sous-préfecture de 15 000 habitants sans pression touristique."
+      },
+      {
+        heading: "Les canaux, les ponts et la prasline",
+        body: "Le surnom vient du fait que le canal de Briare et le Loing entourent la vieille ville, que le canal de Puiseaux et plusieurs canaux de liaison la traversent, et que les ponts s'y succèdent. Il ne faut pas y chercher Venise, mais une petite ville d'eau qui se parcourt à pied le long des quais, sur du plat. L'office de tourisme propose un circuit des ponts, d'une à deux heures : un chiffre de 131 ponts et passerelles circule, sans recoupement possible, et ce guide ne le reprend pas. La prasline, une amande enrobée de sucre caramélisé, est attribuée par la tradition à Clément Jaluzot, cuisinier du duc de Praslin : une Maison de la Prasline permet de découvrir les confiseries, et c'est l'étape qui accroche les enfants. Les crottes du Chien, praline à la noisette dans une coque de nougatine enrobée de chocolat noir, sont l'autre spécialité."
+      },
+      {
+        heading: "Trois espaces verts, deux avec aire de jeux",
+        body: "Le relevé cartographique retient 3 espaces verts sur la commune, dont 2 portent une aire de jeux : le parc Durzy et la place du 18 Juin 1940 (source : OpenStreetMap). Le chiffre est le plus bas de ce lot avec Obernai et Lourdes, et il faut le lire avec prudence : le relevé est contributif, pas un registre, donc il est un plancher. Les quais des canaux, où l'on regarde passer les bateaux de plaisance en saison, sont l'équivalent d'un parc linéaire. Les règles de circulation sur les berges sont affichées sur place."
+      },
+      {
+        heading: "Sécurité 6,5/10 : au-dessus de la médiane",
+        body: "Montargis affiche 6,5/10 sur l'axe sécurité (source : notre fiche ville), treizième des cinquante-trois destinations à égalité avec deux autres, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie, à 5,9/10, est sous la médiane de série : c'est l'axe qui retient le composite, et il décrit une offre de loisirs limitée à l'échelle d'une petite ville."
+      },
+      {
+        heading: "Quand y aller",
+        body: "La station climatique de référence est celle de Paris-Montsouris, à 96 kilomètres (source : normales Météo-France 1991-2020), un rattachement qui décrit mal une ville du Gâtinais : elle donne 5,4 °C de moyenne en janvier et 20,9 °C en juillet. Les ancres propres à la commune viennent du seed : 4 °C en janvier, 22,5 °C en juillet et 1 900 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne 1 sur 5 de janvier à mai et d'octobre à décembre, 2 en juin et en septembre, 3 en juillet et en août (source : notre calendrier des saisons). Le moteur place juin en tête, puis juillet, puis août. Une demi-journée suffit pour le circuit des ponts et une dégustation, une journée avec le musée Girodet, dont les horaires et accrochages se vérifient."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse du Loiret est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : à une heure de Paris en TER direct, la formule la plus économique est le week-end court, et le budget se joue sur le billet de train bien plus que sur l'hébergement. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["montargis","orleans","fontainebleau"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-montargis-2026",
+      "vacances-monoparentales-vendome-2026"
+    ],
+    tags: ["vacances monoparentales Montargis", "parent solo Loiret", "vacances pas chères en famille", "Venise du Gâtinais"]
+  },
+  {
+    slug: "vacances-monoparentales-lourdes-2026",
+    title: "Vacances monoparentales à Lourdes en 2026",
+    metaTitle: "Vacances monoparentales à Lourdes 2026",
+    metaDesc:
+      "Lourdes partage le mètre carré le plus bas de la série (1 400 €), sécurité 7,5/10 et un TGV direct depuis Paris. Séjour calé sur le calendrier du sanctuaire.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Lourdes sort à 6,9/10 au composite « famille monoparentale », neuvième des cinquante-trois destinations de la série à égalité avec trois autres (source : notre indice de séjour). Le détail : sécurité 7,5/10, transports 6,4/10, coût de la vie 7,6/10 et qualité de vie 5,9/10 (source : notre fiche ville). Le marché est parmi les moins chers de la série : 720 € le T3 de référence, quatrième du moins cher au plus cher à égalité avec une autre, et 1 400 € le mètre carré, valeur la plus basse de la série à égalité exacte avec Laon (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 13 266 habitants au recensement 2022, contre 14 282 en 2011, soit une baisse de 7,1 % (source : Insee, recensements). Un cadrage avant le reste : Lourdes est une ville sanctuaire, un lieu de culte en activité, et un séjour s'y organise autour du calendrier du sanctuaire plutôt que d'une saison balnéaire.",
+    sections: [
+      {
+        heading: "Un TGV direct, mais pas à toute heure",
+        body: "Selon les comparateurs consultés en ligne avant écriture, des TGV directs relient Paris-Montparnasse à Lourdes en quatre heures quarante à cinq heures environ, et d'autres circulations avec changement allongent le trajet jusqu'à six heures. Le nombre de directs quotidiens diverge d'une source à l'autre, de un ou deux à plusieurs, et se vérifie sur SNCF Connect. Pour un adulte seul avec des enfants, un trajet de cinq heures sans correspondance est la condition de la faisabilité : la correspondance, elle, double la fatigue. L'axe transports est à 6,4/10, sous la médiane de série (7,0)."
+      },
+      {
+        heading: "Le coût : le plancher de la série, à égalité avec Laon",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Lourdes sort à 7,6/10 (source : notre fiche ville), quatrième des cinquante-trois destinations à égalité avec deux autres, pour une médiane de série à 6,2. Le marché va plus loin : 720 € le T3 de référence et 1 400 € le mètre carré, valeur la plus basse de la série à égalité exacte avec Laon (source : notre estimation des loyers). Le moteur la classe en €€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : dans une ville dont l'hébergement est calibré sur les pèlerinages, le tarif d'une chambre varie avec le calendrier du sanctuaire, pas avec le loyer d'un T3."
+      },
+      {
+        heading: "Le sanctuaire : un lieu de culte, pas un parc",
+        body: "Lourdes est née des dix-huit apparitions de la Vierge à Bernadette Soubirous en 1858. Le sanctuaire est un lieu de culte en activité, et le site rappelle le silence demandé à la grotte. Il faut le dire comme tel avant toute phrase attrayante : on y vient avec des enfants à condition de les préparer à un lieu de recueillement, où des personnes malades et leurs accompagnants sont nombreuses. Le château fort et le musée pyrénéen sont une alternative laïque et calme. La montée au pic du Jer par funiculaire et les cirques pyrénéens (Gavarnie, à une cinquantaine de kilomètres) sont des sorties de montagne : horaires, ouverture saisonnière et météo se vérifient avant de réserver, et la haute montagne n'est pas un terrain pour de jeunes enfants sans préparation."
+      },
+      {
+        heading: "Un parc avec aire de jeux sur trois espaces verts",
+        body: "Le relevé cartographique retient 3 espaces verts sur la commune, dont 1 porte une aire de jeux : le parc de l'You (source : OpenStreetMap). C'est le maillage le plus faible de ce lot. Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc c'est un plancher. Le pic du Jer et les berges du Gave de Pau sont les terrains de jeu de plein air les plus évidents."
+      },
+      {
+        heading: "Sécurité 7,5/10, qualité de vie 5,9/10",
+        body: "Lourdes affiche 7,5/10 sur l'axe sécurité (source : notre fiche ville), quatrième des cinquante-trois destinations à égalité avec deux autres, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 5,9/10, trente-septième de la série à égalité avec huit autres : c'est la contrepartie du reste. La population baisse de 7,1 % en onze ans (14 282 habitants en 2011, 13 266 en 2022)."
+      },
+      {
+        heading: "Quand y aller, et ce que notre indicateur ne sait pas",
+        body: "La station climatique de référence est celle de Toulouse-Blagnac, à 129 kilomètres (source : normales Météo-France 1991-2020), un rattachement lointain pour une ville de piémont : elle donne 6,3 °C de moyenne en janvier et 22,6 °C en juillet. Les ancres propres à la commune viennent du seed : 6 °C en janvier, 24,5 °C en juillet et 1 950 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence applique ici un régime de montagne, avec 5 sur 5 en janvier, février, juillet, août et décembre : il ne modélise pas le calendrier des pèlerinages, qui rythme l'hébergement de la ville, et il faut le lire comme un plancher sur cet axe (source : notre calendrier des saisons). Le moteur place septembre en tête, puis juin, puis mai. Vérifier le calendrier du sanctuaire avant de réserver : c'est lui qui décide de la tension sur les chambres."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse des Hautes-Pyrénées est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : réserver tôt vaut plus que n'importe quelle aide, parce que le tarif d'une chambre suit le calendrier des pèlerinages. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["lourdes","pau","tarbes"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-lourdes-2026",
+      "vacances-monoparentales-pau-2026"
+    ],
+    tags: ["vacances monoparentales Lourdes", "parent solo Pyrénées", "vacances en train avec enfants", "sanctuaire de Lourdes"]
+  },
+  {
+    slug: "vacances-monoparentales-annecy-2026",
+    title: "Vacances monoparentales à Annecy en 2026",
+    metaTitle: "Vacances monoparentales à Annecy 2026",
+    metaDesc:
+      "Annecy est la plus chère des 53 destinations (T3 1 450 €, 5 500 €/m²) mais première sur la qualité de vie (9,0/10) et 40 espaces verts. Gare et lac.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Annecy sort à 6,8/10 au composite « famille monoparentale », treizième des cinquante-trois destinations de la série à égalité avec trois autres (source : notre indice de séjour). Le détail : sécurité 7,3/10, transports 6,4/10, coût de la vie 3,1/10 et qualité de vie 9,0/10 (source : notre fiche ville). C'est le lot le plus contrasté : la qualité de vie est première de la série à égalité avec Obernai, le coût de la vie est dernier des cinquante-trois sans égalité. Le marché suit : 1 450 € le T3 de référence et 5 500 € le mètre carré, plus du double de la médiane de série, valeur la plus haute des cinquante-trois (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 131 272 habitants au recensement 2022, contre 119 426 en 2011, soit une hausse de 9,9 % (source : Insee, recensements). Le moteur la classe en €€€€. Ce guide ne la présente pas comme une destination accessible : il dit à quel prix elle l'est.",
+    sections: [
+      {
+        heading: "Une gare, un TGV, et le lac à proximité",
+        body: "Selon les comparateurs consultés en ligne avant écriture, des TGV relient Paris-Gare de Lyon à Annecy en trois heures quarante-cinq à quatre heures environ, avec un nombre de directs quotidiens qui diverge selon les sources (de deux à cinq) et que SNCF Connect tranche à la date voulue. L'axe transports est à 6,4/10, sous la médiane de série (7,0). La distance à pied entre la gare et le lac n'a pas pu être vérifiée dans les sources consultées : à mesurer sur une carte avant de choisir un hébergement. Le tour du lac se fait à vélo, sur une piste cyclable presque continue d'après les guides, et la location de vélos se trouve à la gare."
+      },
+      {
+        heading: "Le coût : dernière de la série, par une marge",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Annecy sort à 3,1/10 (source : notre fiche ville), dernière des cinquante-trois destinations, sans égalité, pour une médiane de série à 6,2. Le marché confirme : 1 450 € le T3 de référence, dernier de la série, et 5 500 € le mètre carré, dernier également (source : notre estimation des loyers). Le moteur la classe en €€€€, le palier le plus cher. Sur le profil monoparental, où un seul budget finance tout, c'est le fait central, et il est pondéré à 25 % du composite. Annecy n'arrive à 6,8 que portée par une qualité de vie à 9,0 et une sécurité à 7,3. Laon et Lourdes, à 1 400 € le mètre carré, sont à un facteur proche de quatre sur le mètre carré."
+      },
+      {
+        heading: "Le lac, la vieille ville, et ce qui ne coûte rien",
+        body: "Le lac d'Annecy est le sujet. Les plages publiques du lac sont gratuites, avec baignade surveillée en été selon les guides consultés : la surveillance saisonnière et les horaires se vérifient sur place, et les drapeaux font foi. La vieille ville est traversée par les bras du Thiou, avec ses ruelles, ses arcades et ses canaux, et le Palais de l'Isle, ancienne prison sur un îlot, en est l'image. Le tour du lac à vélo et la baignade sont les deux sorties qui ne se facturent pas, et ce sont elles qui rendent le séjour tenable dans une ville de ce prix. Les activités tarifées (parapente en tandem, bateaux) se réservent et leur tarif se vérifie auprès de l'opérateur."
+      },
+      {
+        heading: "Quarante espaces verts, vingt-quatre aires de jeux : des planchers",
+        body: "Le relevé cartographique retient 40 espaces verts sur la commune, dont 24 portent une aire de jeux (source : OpenStreetMap), parmi lesquels Le Pâquier, le parc du Val Vert et les jardins de l'Europe. Le relevé plafonne à 40 par commune et Annecy atteint ce plafond : les deux nombres sont donc des planchers, et le maillage réel est au moins égal. C'est de loin le plus dense de ce lot. Le relevé est contributif, pas un registre. C'est l'atout concret d'une ville où l'hébergement coûte cher : on y trouve une aire de jeux là où l'on se trouve."
+      },
+      {
+        heading: "Sécurité 7,3/10 : septième de la série",
+        body: "Annecy affiche 7,3/10 sur l'axe sécurité (source : notre fiche ville), septième des cinquante-trois destinations, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. Une ville de 131 000 habitants ne se lit pas comme une bourgade : l'été, la fréquentation du lac et de la vieille ville est le sujet pratique."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Grenoble-Saint-Geoirs, à 86 kilomètres (source : normales Météo-France 1991-2020), dans un autre massif. Elle donne 2,8 °C de moyenne en janvier et 20,6 °C en juillet. Les ancres propres à la commune viennent du seed : 2,3 °C en janvier, 22,1 °C en juillet et 2 100 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne 1 sur 5 de janvier à mai et d'octobre à décembre, 2 en juin et en septembre, 3 en juillet et en août (source : notre calendrier des saisons). Il faut le lire comme un plancher : le modèle applique ici un régime régional générique et ne capte pas la saturation estivale d'un lac alpin, que le prix de l'hébergement en juillet et août reflète en revanche. Le moteur place août en tête, puis juin, puis juillet. Juin et septembre sont les fenêtres où le lac est baignable et le tarif plus doux."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de la Haute-Savoie est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Une remarque propre à cette destination : sur la ville la plus chère de la série, l'hébergement est le poste dominant, et c'est le seul de ce lot où VACAF, en choisissant une structure agréée en périphérie, peut changer le coût du séjour de façon décisive. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["annecy","annemasse","chambery","albertville"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-annecy-2026",
+      "parent-solo-a-annecy-2026",
+      "vacances-monoparentales-annemasse-2026"
+    ],
+    tags: ["vacances monoparentales Annecy", "parent solo Haute-Savoie", "vacances en train avec enfants", "lac d'Annecy"]
   },
   {
     slug: "10-choses-a-faire-a-gerardmer-2026",
