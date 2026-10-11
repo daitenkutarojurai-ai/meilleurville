@@ -246,7 +246,7 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 
 ~~Montrouge, Meudon, Vanves, L'Haÿ-les-Roses, Thiais, Livry-Gargan, Villepinte~~ (**lot 2**),
 **Maisons-Laffitte** (78358, déjà au seed, **hors règle, attend un override** — cf. journal du
-2026-10-10, cinquième run), ~~Villeneuve-Saint-Georges~~ (94078, **lot 9**, règle ① + § 3.3 bis), ~~Villeneuve-le-Roi~~ (94077, **lot 9**), ~~Gagny,
+2026-10-10, cinquième run), ~~Villeneuve-Saint-Georges~~ (94078, **lot 9**, règle ① + § 3.3 bis), ~~Villeneuve-le-Roi~~ (94077, **lot 9**), ~~Mons-en-Barœul~~ (59410, **lot 10**), **Loos** (59360) **reportée** (DVF appart. ~2 735 €/m² contre 1 904 € chez ses voisines, +44 %), **Croix** (59163, +32 %) et **Wasquehal** (59646, +68 %) **reportées** au § 3.3 bis (mesures du 2026-10-11), ~~Gagny,
 Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
 Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny,
 Maisons-Laffitte, Gradignan~~ (**lot 5**) ; ~~Eysines, Montgeron, Longjumeau, Achères~~ (**lot 6**) ; ~~Brétigny-sur-Orge, Saint-Michel-sur-Orge, Lagny-sur-Marne,
@@ -1043,3 +1043,53 @@ au runner local (`seed-coverage` liste les deux slugs à traiter) ; pages dégra
 Loos et Mons-en-Barœul (repère 1 700 €/m² face à un marché plus cher), en vérifiant d'abord que la règle de
 voisinage elle-même tient (Lille en override).
 
+### 2026-10-11 (second run) — lot 10 (+1) : Mons-en-Barœul
+
+`seed-coverage` au départ : 2 villes en attente du runner local (lot 9), sous le garde-fou de 30 → lot
+autorisé. 582 → **583**. Lot volontairement réduit à une ville : des cinq candidates du Nord mesurées
+(gisement rouvert par § 3.3 bis), une seule passe la règle **et** le recoupement mesure contre mesure.
+
+*Identité* : Insee 59410 (absent du seed, vérifié par code), Nord, Hauts-de-France ; population municipale
+2023 **21 105** (Banatic + Habity, populations de référence 2023) → seed 21 100 ; coordonnées 50,6419 N
+3,1078 E (Geneawiki ; latlong.net 50,6369 / 3,1103) ; altitude 22-47 m (Wikipédia, areq.net) → 35 m.
+
+*Notes brutes* (§ 3.2, mode standard, sortie du script sans retouche) : voisines Roubaix 7,2 · Tourcoing
+9,8 · Wattrelos 9,9 · Halluin* 16,1 km (Lille : override) → 5 · 7.3 · 4.9 · 7.5 · 4.7 · 5.9 · 6 · 5.1,
+global 5.7. 4ᵉ voisine au-delà de 12,6 km : même limite haute que Halluin (20,5 km, lot 8), assumée parce que
+le marché mesuré confirme la ressemblance (ci-dessous). Rendu : **2,8** (rouge), comme Roubaix et Halluin.
+Climat : ville du seed la plus proche = Lille (3,8 km) : 1 480 h / 19,8 °C / 3,4 °C.
+
+*Logement* (§ 3.3 bis) : DVF appartements de la commune ~**1 780 €/m²** (PAP 1 747, DVF au 1ᵉʳ juillet
+2026 ; Qoridor, DVF par quartier 1 731-2 022 ; efficity 1 810) contre **1 904 €/m²**, médiane des DVF
+appartements des 4 voisines dans `data/city-property-prices.json` (Roubaix 1 931, Wattrelos 1 877,
+Tourcoing 1 739, Halluin 2 184) → ratio **0,93**, dans le bruit : repère médian conservé
+(400/550/740, 1 700 €/m²). Intra-source PAP (Mons 1 747 / Roubaix 2 005) : 0,87, à 7 % du ratio DVF.
+⚠️ **RealAdvisor diverge** (Mons 2 639-2 697 €/m², soit 1,45 × son propre chiffre de Roubaix 1 820) : écarté,
+seul contre trois publications DVF concordantes ; noté ici pour qu'un run suivant ne le prenne pas pour une
+mesure. Loyer RealAdvisor (€/m²/an) : Mons 237 contre Roubaix 242 → 0,98 (une seule voisine trouvée sur ce
+portail, aucun ratio appliqué).
+
+*Quartiers* (notes = ville) : **Haut de Mons** (centre historique, maisons de brique — site de la ville,
+SeLoger) et **Nouveau Mons** (quartier prioritaire, renouvellement urbain depuis 2004 — site de la ville,
+document MEL). Faits du `descriptionEn` : métro 2, trois stations Mons Sarts / Mairie de Mons / Fort de Mons
+(monsenbaroeul.fr), fort devenu centre socioculturel (guide-tourisme-france). Tags sans `port`/`mer`/`côte`.
+
+*Codes postaux* : 59370 (Mons), plus **94190** et **94290** pour les deux villes du lot 9 qui n'en avaient pas.
+
+*Reportées* (§ 3.3 bis, ratio > ± 30 %, mêmes voisines Roubaix/Tourcoing/Wattrelos) : **Loos** (DVF ~2 735 €/m²,
+PAP 2 759 et RealAdvisor 2 711, ratio 1,44 ; voisines à 12,6-17 km, de l'autre côté de Lille), **Croix**
+(PAP 2 521, 1,32), **Wasquehal** (PAP 3 234, Square Habitat 3 367, efficity 3 170 → 1,68). Elles ne ressemblent
+pas au versant roubaisien : override ou règle ② nécessaires.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation**. Table des couleurs recomptée sur `CITIES_SEED` :
+19 / 50 / 151 / 151 / 118 / **94**, moyenne 5,36.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (583 villes) + `:check`, `sitemap:check`
+(FR 31 309 URL, EN 30 917), `hreflang:check`. `npm run build` non lancé.
+
+*En attente du runner* : 3 villes (lots 9-10) — population, revenus, DVF, littoral, parcs, photos, air,
+biodiversité, actualité, zones protégées.
+
+**Prochain lot** : `seed-coverage` d'abord. Le Nord et la petite couronne sont épuisés pour la médiane ; la
+suite utile est la **règle ②** (villes isolées par comparables de taille dans le département : Le Creusot,
+Fougères, Coudekerque-Branche) à écrire au § 3.2 avant usage, ou des overrides documentés.

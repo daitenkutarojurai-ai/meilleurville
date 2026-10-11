@@ -3492,6 +3492,12 @@
       "name": "Villeneuve-le-Roi",
       "region": "Île-de-France",
       "score": 3.9
+    },
+    {
+      "slug": "mons-en-baroeul",
+      "name": "Mons-en-Barœul",
+      "region": "Hauts-de-France",
+      "score": 2.8
     }
   ],
   "guides": [

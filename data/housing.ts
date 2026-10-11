@@ -592,6 +592,7 @@ export const HOUSING: Record<string, HousingData> = {
   "halluin": { avgRentT1: 400, avgRentT2: 550, avgRentT3: 740, avgBuyPriceM2: 1700 },
   "villeneuve-saint-georges": { avgRentT1: 700, avgRentT2: 970, avgRentT3: 1300, avgBuyPriceM2: 3300 },
   "villeneuve-le-roi": { avgRentT1: 700, avgRentT2: 980, avgRentT3: 1310, avgBuyPriceM2: 4500 },
+  "mons-en-baroeul": { avgRentT1: 400, avgRentT2: 550, avgRentT3: 740, avgBuyPriceM2: 1700 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

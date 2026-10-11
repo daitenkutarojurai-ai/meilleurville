@@ -17085,6 +17085,28 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "Villeneuve-le-Roi (Val-de-Marne, Île-de-France): quality-of-life score 3.9/10. RER C commune on the Seine, next to Paris-Orly airport.",
     scores: { global: 6, life: 5.9, transport: 7.6, nature: 5.8, cost: 5.5, safety: 5.6, culture: 5.7, remoteWork: 6.6, schools: 5.9 },
+  },
+  {
+    slug: "mons-en-baroeul",
+    name: "Mons-en-Barœul",
+    scoreCohort: "extension",
+    region: "Hauts-de-France",
+    department: "Nord",
+    inseeCode: "59410",
+    population: 21100,
+    latitude: 50.6419,
+    longitude: 3.1078,
+    elevation: 35,
+    sunshinedays: 1480,
+    avgTempJuly: 19.8,
+    avgTempJanuary: 3.4,
+    characterTags: ["Nord","Métropole européenne de Lille","métro ligne 2","Fort de Mons"],
+    descriptionEn:
+      "Mons-en-Barœul is a Nord commune of the Lille European Metropolis, directly east of Lille. Metro line 2 crosses it from east to west, with three stations (Mons Sarts, Mairie de Mons and Fort de Mons) serving the Bas and Haut de Mons, Centre Europe and Nouveau Mons areas. Nouveau Mons, a large post-war housing district, has been the subject of urban renewal programmes since 2004, and the former military fort is now a socio-cultural centre. Best fit: households who want metro access to Lille at Roubaix-level housing costs.",
+    seoTitleEn: "Mons-en-Barœul — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mons-en-Barœul (Nord, Hauts-de-France): quality-of-life score 2.8/10. Lille suburb on metro line 2, east of the city centre.",
+    scores: { global: 5.7, life: 5, transport: 7.3, nature: 4.9, cost: 7.5, safety: 4.7, culture: 5.9, remoteWork: 6, schools: 5.1 },
   }
 ];
 

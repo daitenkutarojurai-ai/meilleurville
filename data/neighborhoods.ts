@@ -15826,6 +15826,19 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Quartier de la Faisanderie et des abords de la gare RER C, avec son marché." },
     ],
   },
+  {
+    citySlug: "mons-en-baroeul",
+    neighborhoods: [
+      { slug: "haut-de-mons", name: "Haut de Mons", type: "résidentiel",
+        scores: { global: 5.7, safety: 4.7, transport: 7.3, nature: 4.9, cost: 7.5, nightlife: 5.9 },
+        avgRentT2: 550, tags: ["centre historique","maisons de brique"],
+        summary: "Partie de la commune autour du centre historique, où dominent les maisons traditionnelles en brique ; desservie par la ligne 2 du métro." },
+      { slug: "nouveau-mons", name: "Nouveau Mons", type: "résidentiel",
+        scores: { global: 5.7, safety: 4.7, transport: 7.3, nature: 4.9, cost: 7.5, nightlife: 5.9 },
+        avgRentT2: 550, tags: ["renouvellement urbain","station Fort de Mons (métro 2)"],
+        summary: "Quartier d'habitat collectif de la politique de la ville, objet de programmes de renouvellement urbain depuis 2004, à proximité de l'ancien fort devenu centre socioculturel." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {
