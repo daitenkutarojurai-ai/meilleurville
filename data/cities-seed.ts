@@ -17107,6 +17107,50 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "Mons-en-Barœul (Nord, Hauts-de-France): quality-of-life score 2.8/10. Lille suburb on metro line 2, east of the city centre.",
     scores: { global: 5.7, life: 5, transport: 7.3, nature: 4.9, cost: 7.5, safety: 4.7, culture: 5.9, remoteWork: 6, schools: 5.1 },
+  },
+  {
+    slug: "morsang-sur-orge",
+    name: "Morsang-sur-Orge",
+    scoreCohort: "extension",
+    region: "Île-de-France",
+    department: "Essonne",
+    inseeCode: "91434",
+    population: 21700,
+    latitude: 48.6618,
+    longitude: 2.3461,
+    elevation: 59,
+    sunshinedays: 1700,
+    avgTempJuly: 20.5,
+    avgTempJanuary: 4,
+    characterTags: ["Essonne","vallée de l'Orge"],
+    descriptionEn:
+      "Morsang-sur-Orge is a residential Essonne commune south of Paris, surrounded by Savigny-sur-Orge, Viry-Châtillon and Sainte-Geneviève-des-Bois. It has no station of its own: the nearest rail access is at Savigny-sur-Orge on RER line C. Apartments sell for less here than in its immediate neighbours. Best fit: households looking for a quiet Essonne suburb within reach of the RER C.",
+    seoTitleEn: "Morsang-sur-Orge — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Morsang-sur-Orge (Essonne, Île-de-France): quality-of-life score 4.4/10. Residential Essonne suburb next to Savigny-sur-Orge and Viry-Châtillon.",
+    scores: { global: 6.2, life: 6.3, transport: 7, nature: 6.5, cost: 5.5, safety: 5.9, culture: 5.6, remoteWork: 6.8, schools: 6.3 },
+  },
+  {
+    slug: "chilly-mazarin",
+    name: "Chilly-Mazarin",
+    scoreCohort: "extension",
+    region: "Île-de-France",
+    department: "Essonne",
+    inseeCode: "91161",
+    population: 20400,
+    latitude: 48.7025,
+    longitude: 2.3125,
+    elevation: 72,
+    sunshinedays: 1720,
+    avgTempJuly: 24,
+    avgTempJanuary: 4.5,
+    characterTags: ["Essonne"],
+    descriptionEn:
+      "Chilly-Mazarin is an Essonne commune south of Paris, between Longjumeau, Savigny-sur-Orge and Massy. Its centre and the denser Chilly bas – Gravigny area, along the rue de Gravigny shopping street, are mostly residential. Apartments sell for noticeably less than in Massy or Palaiseau next door. Best fit: households who want to live near the Massy employment area at Essonne suburban prices.",
+    seoTitleEn: "Chilly-Mazarin — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Chilly-Mazarin (Essonne, Île-de-France): quality-of-life score 5.2/10. Essonne suburb between Longjumeau, Savigny-sur-Orge and Massy.",
+    scores: { global: 6.4, life: 6.5, transport: 7, nature: 6.4, cost: 5.5, safety: 6.4, culture: 6.3, remoteWork: 7.4, schools: 6.8 },
   }
 ];
 

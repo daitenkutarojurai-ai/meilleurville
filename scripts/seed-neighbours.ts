@@ -241,6 +241,13 @@ const DOCUMENTED_MODES: Record<string, Pick<Candidate, "crossDept" | "priceRatio
   // (médiane DVF appartements des 4 voisines, data/city-property-prices.json) ; loyers RealAdvisor
   // 284 ÷ 278,5 €/m²/an.
   "villeneuve-saint-georges": { crossDept: true, priceRatio: 0.788, rentRatio: 1.02 },
+  // lot 11 (2026-10-11) : DVF appartements ~2 502 €/m² (PAP 2 504, efficity 2 500) ÷ 2 828 €/m²
+  // (médiane DVF appartements des 4 voisines) ; intra-source PAP 2 504 ÷ 3 015 (Savigny, Sainte-Geneviève)
+  // = 0,83. Aucun loyer au m² du même portail trouvé pour les voisines : pas de ratio loyer.
+  "morsang-sur-orge": { priceRatio: 0.885 },
+  // lot 11 : DVF appartements ~2 499 €/m² (PAP 2 507, efficity 2 490) ÷ 3 376 €/m² (médiane des 4 voisines,
+  // Massy et Palaiseau tirent la médiane) ; intra-source PAP 2 507 ÷ 3 536 (Massy, Savigny) = 0,71.
+  "chilly-mazarin": { priceRatio: 0.74 },
 };
 
 function selftest(raws: Map<string, Raw>): number {

@@ -15839,6 +15839,32 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Quartier d'habitat collectif de la politique de la ville, objet de programmes de renouvellement urbain depuis 2004, à proximité de l'ancien fort devenu centre socioculturel." },
     ],
   },
+  {
+    citySlug: "morsang-sur-orge",
+    neighborhoods: [
+      { slug: "le-vieux-bourg", name: "Le Vieux Bourg", type: "résidentiel",
+        scores: { global: 6.2, safety: 5.9, transport: 7, nature: 6.5, cost: 5.5, nightlife: 5.6 },
+        avgRentT2: 950, tags: ["centre ancien"],
+        summary: "Secteur du centre ancien de la commune, autour du bourg historique ; quartier essentiellement résidentiel." },
+      { slug: "la-gribelette", name: "La Gribelette", type: "résidentiel",
+        scores: { global: 6.2, safety: 5.9, transport: 7, nature: 6.5, cost: 5.5, nightlife: 5.6 },
+        avgRentT2: 950, tags: ["boulevard de la Gribelette","pavillons"],
+        summary: "Quartier résidentiel organisé autour du boulevard de la Gribelette, où alternent pavillons et petits commerces." },
+    ],
+  },
+  {
+    citySlug: "chilly-mazarin",
+    neighborhoods: [
+      { slug: "centre-ville", name: "Centre-ville", type: "résidentiel",
+        scores: { global: 6.4, safety: 6.4, transport: 7, nature: 6.4, cost: 5.5, nightlife: 6.3 },
+        avgRentT2: 1030, tags: ["centre-ville"],
+        summary: "Centre de la commune, plus dense que la moyenne communale, avec une part de logement social supérieure à celle de la ville." },
+      { slug: "chilly-bas-gravigny", name: "Chilly bas – Gravigny", type: "résidentiel",
+        scores: { global: 6.4, safety: 6.4, transport: 7, nature: 6.4, cost: 5.5, nightlife: 6.3 },
+        avgRentT2: 1030, tags: ["rue de Gravigny","habitat collectif"],
+        summary: "Partie basse de la commune autour de la rue de Gravigny, l'une des rues commerçantes de Chilly-Mazarin ; densité de logements nettement supérieure à la moyenne communale." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

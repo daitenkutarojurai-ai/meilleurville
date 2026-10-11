@@ -3498,6 +3498,18 @@
       "name": "Mons-en-Barœul",
       "region": "Hauts-de-France",
       "score": 2.8
+    },
+    {
+      "slug": "morsang-sur-orge",
+      "name": "Morsang-sur-Orge",
+      "region": "Île-de-France",
+      "score": 4.4
+    },
+    {
+      "slug": "chilly-mazarin",
+      "name": "Chilly-Mazarin",
+      "region": "Île-de-France",
+      "score": 5.2
     }
   ],
   "guides": [
