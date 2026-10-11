@@ -180,7 +180,7 @@ export function Footer() {
               <h2 className="mb-4 text-xs font-semibold uppercase tracking-wider text-[#84CC16]">
                 {group}
               </h2>
-              <ul className="space-y-2.5">
+              <ul className="grid grid-cols-2 gap-x-4 gap-y-2.5 sm:block sm:space-y-2.5">
                 {links.map(({ label, href }) => (
                   <li key={href}>
                     <Link

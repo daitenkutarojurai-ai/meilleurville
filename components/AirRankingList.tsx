@@ -45,7 +45,7 @@ export function AirRankingList({
                 {(() => {
                   const stations = [...new Set(t.entries.map((e) => e.measure.station))];
                   if (stations.length === 1) {
-                    return `${L("station", "station")} ${stations[0]}${t.entries.length > 1 ? L(" (station commune)", " (shared station)") : ""}`;
+                    return `${L("station", "station")} ${stations[0]}${t.entries.length > 1 ? L(`, la même pour les ${t.entries.length}`, `, shared by all ${t.entries.length}`) : ""}`;
                   }
                   return `${L("stations", "stations")} ${stations.join(" · ")}`;
                 })()}
