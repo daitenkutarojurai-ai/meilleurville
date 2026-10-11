@@ -249,6 +249,14 @@ export default async function VeloPage({ params }: Props) {
             croise les deux, et écarte les communes trop petites pour porter autre chose
             qu&apos;une offre TER intermittente.
           </p>
+          <p className="text-[var(--text-secondary)]">
+            Si le vélo est votre mode de déplacement principal, comparez cette ville au profil
+            des{" "}
+            <Link href="/pour-qui/cyclistes-urbains" className="text-[var(--accent)] hover:underline">
+              cyclistes urbains et aux villes où ils se sentent le mieux
+            </Link>
+            .
+          </p>
           <Link href="/cadre-de-vie" className="block text-[var(--accent)] hover:underline">
             → Index Cadre de Vie national (env + santé + emploi)
           </Link>

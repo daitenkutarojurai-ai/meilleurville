@@ -271,6 +271,14 @@ export default async function MacroRegionCyclingPage({ params }: Props) {
           <Link href="/velo" className="text-[var(--accent)] hover:underline">
             → Voir le classement national vélo complet
           </Link>
+          <p className="mt-3 text-[var(--text-secondary)]">
+            Pour choisir une ville où rouler au quotidien, relief et sécurité comptent autant que
+            les pistes : voyez les{" "}
+            <Link href="/pour-qui/cyclistes-urbains" className="text-[var(--accent)] hover:underline">
+              meilleures villes pour les cyclistes urbains
+            </Link>
+            .
+          </p>
         </div>
       </section>
 

@@ -292,6 +292,13 @@ export default function CyclingHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Les villes où tram, métro et RER rendent le permis facultatif — pas seulement les pistes cyclables</div>
             </Card>
           </Link>
+          <Link href="/pour-qui/cyclistes-urbains" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🚴</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes pour cyclistes urbains</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Le classement qui pondère aussi le relief, la sécurité et le climat, pas seulement le réseau</div>
+            </Card>
+          </Link>
           <Link href="/red-flags/villes-embouteillages-quotidiens" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🚥</div>
