@@ -15796,6 +15796,36 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Quartier résidentiel au contact de l'espace naturel du Colbras." },
     ],
   },
+  {
+    citySlug: "villeneuve-saint-georges",
+    neighborhoods: [
+      { slug: "centre-ville", name: "Centre-ville", type: "résidentiel",
+        scores: { global: 6.2, safety: 5.9, transport: 6.8, nature: 6.4, cost: 6.2, nightlife: 5.6 },
+        avgRentT2: 970, tags: ["gare de Villeneuve-Saint-Georges (RER D)","centre ancien"],
+        summary: "Cœur historique de la commune, dans la vallée près de la confluence de l'Yerres et de la Seine, avec ses commerces et services de proximité." },
+      { slug: "villeneuve-triage", name: "Villeneuve-Triage", type: "résidentiel",
+        scores: { global: 6.2, safety: 5.9, transport: 6.8, nature: 6.4, cost: 6.2, nightlife: 5.6 },
+        avgRentT2: 970, tags: ["gare de Villeneuve-Triage (RER D)","ancienne gare de triage"],
+        summary: "Secteur sud desservi par la gare de Villeneuve-Triage, au contact de l'ancienne emprise ferroviaire de triage, dont l'activité marchandises a cessé en 2006." },
+      { slug: "plateau", name: "Plateau", type: "résidentiel",
+        scores: { global: 6.2, safety: 5.9, transport: 6.8, nature: 6.4, cost: 6.2, nightlife: 5.6 },
+        avgRentT2: 970, tags: ["fort de Villeneuve","église Saint-Georges"],
+        summary: "Partie haute de la commune, où se trouvent le fort et l'église Saint-Georges." },
+    ],
+  },
+  {
+    citySlug: "villeneuve-le-roi",
+    neighborhoods: [
+      { slug: "centre-ville", name: "Centre-ville", type: "résidentiel",
+        scores: { global: 6, safety: 5.6, transport: 7.6, nature: 5.8, cost: 5.5, nightlife: 5.7 },
+        avgRentT2: 980, tags: ["avenue de la République","rue du Général de Gaulle"],
+        summary: "Centre commerçant de la commune, organisé autour de l'avenue de la République et de la rue du Général de Gaulle." },
+      { slug: "faisanderie-gare", name: "Faisanderie – Gare", type: "résidentiel",
+        scores: { global: 6, safety: 5.6, transport: 7.6, nature: 5.8, cost: 5.5, nightlife: 5.7 },
+        avgRentT2: 980, tags: ["gare de Villeneuve-le-Roi (RER C)","marché de la Faisanderie"],
+        summary: "Quartier de la Faisanderie et des abords de la gare RER C, avec son marché." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

@@ -156,6 +156,19 @@ Tourcoing / Wattrelos) en hériterait des notes : elle **attend** un override do
   corpus est un repère éditorial cohérent entre voisines, et c'est cette cohérence qu'on reproduit.
   Un ordre de grandeur de marché est recoupé par recherche web et l'écart noté au journal ; la
   médiane DVF réellement enregistrée arrive avec `npm run property-prices` et s'affiche séparément.
+- **§ 3.3 bis — repère logement corrigé par un ratio de marché (décidé le 2026-10-11).** Le recoupement
+  du marché compare **une mesure à la même mesure**, jamais le repère `housing.ts` (éditorial, tous biens,
+  en moyenne ~1,2 × la médiane DVF appartements du corpus) à un prix publié. Ratio prix = DVF appartements
+  de la commune (médiane d'au moins **deux** sites qui publient du DVF : PAP, Immovrai, Habity…) ÷ médiane
+  des DVF appartements des 4 voisines dans `data/city-property-prices.json` ; un second ratio intra-source
+  (un même portail pour la commune et ses voisines) doit le confirmer à ± 10 % près. Ratio loyer = loyer
+  au m² d'**un même portail** (RealAdvisor publie un loyer annuel au m² par commune) pour la commune et ses
+  voisines. Sous ± 10 % : bruit de source, repère médian conservé. Entre ± 10 et ± 30 % : le ratio est
+  appliqué au repère médian (`--price-ratio=… --rent-ratio=…`, arrondis inchangés). Au-delà de ± 30 % : la
+  commune ne ressemble pas à ses voisines, elle attend. Les notes des 8 axes ne sont **pas** touchées
+  (la règle ne corrige que le repère logement) : un axe coût hérité de voisines plus chères est un biais
+  conservateur assumé, noté au journal. Le selftest rejoue ces villes avec leurs ratios
+  (`DOCUMENTED_MODES` de `scripts/seed-neighbours.ts`, sources en commentaire).
 - `neighborhoods.ts` : 2 quartiers **réels**, résumé factuel sans verdict. **Aucune donnée
   infra-communale au dépôt** : leurs notes recopient les notes brutes de la ville (global, sécurité,
   transports, nature, coût ; `nightlife` = culture) et leur loyer T2 celui de la ville. Pas de
@@ -233,8 +246,7 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 
 ~~Montrouge, Meudon, Vanves, L'Haÿ-les-Roses, Thiais, Livry-Gargan, Villepinte~~ (**lot 2**),
 **Maisons-Laffitte** (78358, déjà au seed, **hors règle, attend un override** — cf. journal du
-2026-10-10, cinquième run), Villeneuve-Saint-Georges (94078, **attend un override** : ses voisines 94 du seed sont à 4,7-8 km
-et ne lui ressemblent pas, ses vraies voisines sont en Essonne), ~~Gagny,
+2026-10-10, cinquième run), ~~Villeneuve-Saint-Georges~~ (94078, **lot 9**, règle ① + § 3.3 bis), ~~Villeneuve-le-Roi~~ (94077, **lot 9**), ~~Gagny,
 Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
 Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny,
 Maisons-Laffitte, Gradignan~~ (**lot 5**) ; ~~Eysines, Montgeron, Longjumeau, Achères~~ (**lot 6**) ; ~~Brétigny-sur-Orge, Saint-Michel-sur-Orge, Lagny-sur-Marne,
@@ -980,3 +992,54 @@ modifiée : pas de `seed-drift` ni de recomptage des couleurs. `npm run build` n
 **Prochain lot** : `seed-coverage` d'abord ; puis soit la décision « repère logement sourcé » (§ 3.3)
 qui débloquerait Villeneuve-Saint-Georges et Limeil-Brévannes, soit la règle ② (villes isolées), soit un
 override documenté.
+
+### 2026-10-11 — lot 9 (+2) : Villeneuve-Saint-Georges, Villeneuve-le-Roi
+
+`seed-coverage` au départ : 0 ville en attente (580/580 hors manques permanents) — garde-fou levé.
+
+*Décision écrite avant usage : § 3.3 bis (ratio de marché).* Le report de Villeneuve-Saint-Georges au run
+précédent reposait sur une comparaison fausse : le repère `housing.ts` des voisines (4 200 €/m², éditorial,
+tous biens) face à un prix DVF **appartements** (2 641 €/m²), soit « +45 à +60 % ». Mesure contre mesure, l'écart
+est de **−21 %** : DVF appartements de la commune 2 641 €/m² (médiane de PAP 2 641, Immovrai 2 573, Habity
+2 681 ; DVF 2025-2026) contre **3 353 €/m²**, médiane des DVF appartements des 4 voisines dans
+`data/city-property-prices.json` (Montgeron 3 622, Yerres 2 975, Athis-Mons 3 238, Choisy-le-Roi 3 468).
+Confirmation intra-source SeLoger (appartements : VSG 2 669, Choisy 3 681, Athis 3 277) : 0,767, à 3 % du
+ratio DVF. Loyers RealAdvisor (€/m²/an, même portail pour les cinq) : VSG 284 contre médiane 278,5 (Yerres
+255, Athis 272, Montgeron 285, Choisy 307) → 1,02, dans le bruit. D'où la règle § 3.3 bis, outillée dans
+`scripts/seed-neighbours.ts` (`--price-ratio`, `--rent-ratio`, refus au-delà de ± 30 %, rejeu au selftest).
+
+| Ville | Insee | Pop. (2023) | Règle | Voisines | Logement |
+|---|---|---|---|---|---|
+| Villeneuve-Saint-Georges | 94078 | 36 221 (Banatic + Habity « populations de référence 2023 ») | ① transdépartementale (écart de biais coût 1,0 = limite incluse) + § 3.3 bis | Montgeron* 3,0 · Yerres 3,5 · Athis-Mons 4,6 · Choisy-le-Roi 4,7 km | 700/970/1 300, **3 300 €/m²** (4 200 × 0,788) |
+| Villeneuve-le-Roi | 94077 | 21 000 (Banatic + Wikidata) | standard (4ᵉ voisine à 7,1 km) | Orly* 1,9 · Choisy-le-Roi 3,8 · Vitry 6,3 · Fresnes 7,1 km | 700/980/1 310, 4 500 €/m² (médiane, ratio DVF 1,01 : PAP 3 386, Habity 3 394 contre 3 353) |
+
+Notes brutes = sortie du script, sans retouche (VSG 6.1 · 6.8 · 6.4 · 6.2 · 5.9 · 5.6 · 6.5 · 6.1 ; VLR
+5.9 · 7.6 · 5.8 · 5.5 · 5.6 · 5.7 · 6.6 · 5.9). Les deux villes sont du même lot et ne se servent donc pas
+mutuellement de voisine. Rendu : VSG **4,3** (orange), VLR **3,9** (rouge). Biais conservateur assumé sur VSG :
+son axe coût vient de voisines plus chères (biais coût du 94 retiré par la règle ①), il sous-estime donc sans
+doute l'accessibilité qu'affiche son repère logement corrigé. Identité : coordonnées et altitudes Geneawiki
+(VSG 30-93 m → 62, VLR 30-91 m → 61). Quartiers : VSG centre-ville / Villeneuve-Triage / Plateau (areq.net,
+fiche projet Grand-Orly Seine Bièvre — fin du triage marchandises en 2006, 200 ha —, SeLoger) ; VLR
+centre-ville (avenue de la République, rue du Général de Gaulle) / Faisanderie – Gare (efficity, IRIS
+« Faisanderie Bas et Gare », marché de la Faisanderie). Nuisance Orly citée dans les deux `descriptionEn`
+(questions parlementaires listant Villeneuve-le-Roi et Villeneuve-Saint-Georges parmi les communes riveraines
+touchées par le bruit). Climat : ville du seed la plus proche (Montgeron, Orly).
+
+*Dérive mesurée* (`seed-drift.ts`) : **0** ville existante changée, 0 citation de guide. Table des couleurs de
+`CLAUDE.md` recomptée sur `CITIES_SEED` à 582 (+1 orange, +1 rouge, moyenne 5,36).
+
+*Reportée* : **Limeil-Brévannes** — en mode ①, Saint-Maur-des-Fossés entre dans les 4 voisines (5,8 km) et
+tire les **notes** autant que le logement ; § 3.3 bis ne corrige que le logement, elle attend donc un
+override ou une règle ②. Sucy-en-Brie, Le Plessis-Trévise, Villiers-sur-Marne : même cas (Saint-Maur,
+Nogent, Le Perreux dans la médiane).
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` + `:check` (582 villes), `sitemap:check`,
+`hreflang:check`, `seed:neighbours:selftest` (après commit, le lot étant lu dans `git log`). `npm run build`
+non lancé. Population Insee, revenus, DVF, littoral, parcs, photos, biodiversité, actualité, zones protégées :
+au runner local (`seed-coverage` liste les deux slugs à traiter) ; pages dégradées proprement d'ici là.
+
+**Prochain lot** : `seed-coverage` d'abord. Gisement rouvert par § 3.3 bis : relire les villes reportées pour
+« repère logement » seul (Halluin-type) et mesurer leur ratio mesure contre mesure — candidates à remesurer :
+Loos et Mons-en-Barœul (repère 1 700 €/m² face à un marché plus cher), en vérifiant d'abord que la règle de
+voisinage elle-même tient (Lille en override).
+

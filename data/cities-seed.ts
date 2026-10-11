@@ -17041,6 +17041,50 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "Halluin (Nord, Hauts-de-France): quality-of-life score 2.8/10. Border town of the Lille metropolis on the Lys, facing the Belgian town of Menen.",
     scores: { global: 5.7, life: 5, transport: 7, nature: 4.9, cost: 7.5, safety: 4.8, culture: 5.8, remoteWork: 5.9, schools: 5.1 },
+  },
+  {
+    slug: "villeneuve-saint-georges",
+    name: "Villeneuve-Saint-Georges",
+    scoreCohort: "extension",
+    region: "Île-de-France",
+    department: "Val-de-Marne",
+    inseeCode: "94078",
+    population: 36200,
+    latitude: 48.7325,
+    longitude: 2.4497,
+    elevation: 62,
+    sunshinedays: 1700,
+    avgTempJuly: 20.5,
+    avgTempJanuary: 4,
+    characterTags: ["Val-de-Marne","RER D","confluence de l'Yerres et de la Seine"],
+    descriptionEn:
+      "Villeneuve-Saint-Georges is a Val-de-Marne commune south-east of Paris, where the Yerres river joins the Seine. RER D serves it at Villeneuve-Saint-Georges and Villeneuve-Triage stations; the former SNCF marshalling yard, where freight sorting stopped in 2006, covers about 200 hectares between the RN6 and the Seine. The town divides between the historic centre in the valley and the plateau, where the fort and the Saint-Georges church stand, and it is one of the neighbouring communes affected by Paris-Orly aircraft noise. Best fit: households on a tight Île-de-France budget who work along the RER D.",
+    seoTitleEn: "Villeneuve-Saint-Georges — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villeneuve-Saint-Georges (Val-de-Marne, Île-de-France): quality-of-life score 4.3/10. RER D commune where the Yerres meets the Seine.",
+    scores: { global: 6.2, life: 6.1, transport: 6.8, nature: 6.4, cost: 6.2, safety: 5.9, culture: 5.6, remoteWork: 6.5, schools: 6.1 },
+  },
+  {
+    slug: "villeneuve-le-roi",
+    name: "Villeneuve-le-Roi",
+    scoreCohort: "extension",
+    region: "Île-de-France",
+    department: "Val-de-Marne",
+    inseeCode: "94077",
+    population: 21000,
+    latitude: 48.7344,
+    longitude: 2.4136,
+    elevation: 61,
+    sunshinedays: 1700,
+    avgTempJuly: 20.5,
+    avgTempJanuary: 4,
+    characterTags: ["Val-de-Marne","RER C","bords de Seine"],
+    descriptionEn:
+      "Villeneuve-le-Roi is a Val-de-Marne commune on the Seine south of Paris, next to Orly and the Paris-Orly airport platform. RER C stops at Villeneuve-le-Roi station on the Paris-Orléans line. The town is largely residential, with its shops along the avenue de la République and the rue du Général de Gaulle, and it is among the communes most affected by Orly aircraft noise. Best fit: households working at or around the airport or along the RER C who accept the noise in exchange for a moderate budget.",
+    seoTitleEn: "Villeneuve-le-Roi — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villeneuve-le-Roi (Val-de-Marne, Île-de-France): quality-of-life score 3.9/10. RER C commune on the Seine, next to Paris-Orly airport.",
+    scores: { global: 6, life: 5.9, transport: 7.6, nature: 5.8, cost: 5.5, safety: 5.6, culture: 5.7, remoteWork: 6.6, schools: 5.9 },
   }
 ];
 

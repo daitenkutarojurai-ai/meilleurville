@@ -27,6 +27,10 @@
  * biais départemental (sécurité, coût), on transfère le niveau calibré des voisines et on retire le
  * biais du département d'arrivée. Refusé quand l'écart de biais avec une voisine dépasse 1,0.
  *
+ * `--price-ratio=0.79 --rent-ratio=1.02` (§ 3.3 bis, 2026-10-11) : marché de la commune ÷ marché
+ * médian des voisines, mesurés dans une même source ; appliqué au repère médian au-delà de ± 10 %,
+ * refus au-delà de ± 30 %.
+ *
  * Le seed brut n'est pas exporté (`RAW_CITIES_SEED`) : il est relu comme texte, et le script
  * échoue si le nombre de fiches relues diffère de `CITIES_SEED.length`.
  */
@@ -94,7 +98,20 @@ function median(xs: number[]): number {
 const round = (x: number, step: number) => Math.round(x / step) * step;
 const r1 = (x: number) => Math.round(x * 10) / 10;
 
-interface Candidate { lat: number; lng: number; dept: string; exclude?: string; order?: Set<string>; crossDept?: boolean }
+interface Candidate {
+  lat: number; lng: number; dept: string; exclude?: string; order?: Set<string>; crossDept?: boolean;
+  /** § 3.3 bis : marché de la commune ÷ marché médian des voisines, mesurés dans UNE même source. */
+  priceRatio?: number; rentRatio?: number;
+}
+
+/**
+ * § 3.3 bis (2026-10-11) : sous ± 10 %, un ratio de marché est du bruit de source et le repère reste
+ * la médiane des voisines ; au-delà, il est appliqué au repère médian. Au-delà de ± 30 %, la commune
+ * ne ressemble plus à ses voisines et le script refuse (la ville attend).
+ */
+export const MARKET_RATIO_NOISE = 0.10;
+export const MARKET_RATIO_MAX = 0.30;
+const marketScale = (r: number | undefined) => (r != null && Math.abs(r - 1) > MARKET_RATIO_NOISE ? r : 1);
 
 /**
  * Biais départemental d'un axe, mesuré par `calibrateScores` (aucune table recopiée) : note
@@ -132,17 +149,24 @@ export function applyRule(c: Candidate, raws: Map<string, Raw>) {
   const raw = Object.fromEntries(AXES.map((a) => [a,
     r1(median(neighbours.map((n) => level(n.v.slug, n.v.department ?? "", a))) - (c.crossDept ? deptBias(c.dept, a) : 0)),
   ])) as Raw;
+  const pk = marketScale(c.priceRatio);
+  const rk = marketScale(c.rentRatio);
   const housing = neighbours.every((n) => HOUSING[n.v.slug])
     ? {
-        avgRentT1: round(median(neighbours.map((n) => HOUSING[n.v.slug].avgRentT1)), 10),
-        avgRentT2: round(median(neighbours.map((n) => HOUSING[n.v.slug].avgRentT2)), 10),
-        avgRentT3: round(median(neighbours.map((n) => HOUSING[n.v.slug].avgRentT3)), 10),
-        avgBuyPriceM2: round(median(neighbours.map((n) => HOUSING[n.v.slug].avgBuyPriceM2)), 100),
+        avgRentT1: round(rk * median(neighbours.map((n) => HOUSING[n.v.slug].avgRentT1)), 10),
+        avgRentT2: round(rk * median(neighbours.map((n) => HOUSING[n.v.slug].avgRentT2)), 10),
+        avgRentT3: round(rk * median(neighbours.map((n) => HOUSING[n.v.slug].avgRentT3)), 10),
+        avgBuyPriceM2: round(pk * median(neighbours.map((n) => HOUSING[n.v.slug].avgBuyPriceM2)), 100),
       }
     : null;
   const nearestAny = pool[0];
 
   const warnings: string[] = [];
+  for (const [name, r] of [["prix", c.priceRatio], ["loyer", c.rentRatio]] as const) {
+    if (r == null) continue;
+    if (Math.abs(r - 1) > MARKET_RATIO_MAX) warnings.push(`ratio de marché ${name} ${r} hors de ± ${MARKET_RATIO_MAX * 100} % — la commune ne ressemble pas à ses voisines, règle non applicable`);
+    else warnings.push(`§ 3.3 bis : ratio ${name} ${r} ${marketScale(r) === 1 ? `dans le bruit (± ${MARKET_RATIO_NOISE * 100} %), repère médian conservé` : "appliqué au repère médian"} — sources à citer au journal`);
+  }
   if (neighbours.length < 4) warnings.push(`seulement ${neighbours.length} voisine(s) admissible(s)${c.crossDept ? "" : " dans le département"} — règle non applicable`);
   if (c.crossDept) {
     const own = neighbours.filter((n) => n.v.department === c.dept).length;
@@ -202,6 +226,17 @@ const KNOWN_OFF_RULE: Record<string, string> = {
     "pour une ville que le journal tenait déjà pour sous-notée — attend un override (journal 2026-10-10, cinquième run)",
 };
 
+/**
+ * Villes ajoutées par une règle documentée autre que la règle standard : le selftest les rejoue
+ * dans ce mode (transdépartemental, ratio de marché § 3.3 bis) au lieu de les déclarer hors règle.
+ */
+const DOCUMENTED_MODES: Record<string, Pick<Candidate, "crossDept" | "priceRatio" | "rentRatio">> = {
+  // lot 9 (2026-10-11) : DVF appartements 2 641 €/m² (médiane PAP / Immovrai / Habity) ÷ 3 353 €/m²
+  // (médiane DVF appartements des 4 voisines, data/city-property-prices.json) ; loyers RealAdvisor
+  // 284 ÷ 278,5 €/m²/an.
+  "villeneuve-saint-georges": { crossDept: true, priceRatio: 0.788, rentRatio: 1.02 },
+};
+
 function selftest(raws: Map<string, Raw>): number {
   const lots = lotsFromGit();
   let same = 0;
@@ -216,7 +251,7 @@ function selftest(raws: Map<string, Raw>): number {
       const l = lots.get(v.slug);
       return l != null && l < myLot;
     }).map((v) => v.slug));
-    const r = applyRule({ lat: c.latitude, lng: c.longitude, dept: c.department ?? "", order: before }, raws);
+    const r = applyRule({ lat: c.latitude, lng: c.longitude, dept: c.department ?? "", order: before, ...DOCUMENTED_MODES[c.slug] }, raws);
     const written = raws.get(c.slug)!;
     const bad = AXES.filter((a) => Math.abs(written[a] - r.raw[a]) > 0.051);
     const h = HOUSING[c.slug];
@@ -255,7 +290,8 @@ function main(): number {
   // après elle sont écartées du vivier).
   const excluded = new Set((arg("exclude") ?? "").split(",").filter(Boolean));
   const order = excluded.size ? new Set(CITIES_SEED.map((c) => c.slug).filter((s) => !excluded.has(s))) : undefined;
-  const r = applyRule({ lat, lng, dept, order, crossDept: process.argv.includes("--cross-dept") }, raws);
+  const ratio = (n: string) => (arg(n) == null ? undefined : Number(arg(n)));
+  const r = applyRule({ lat, lng, dept, order, crossDept: process.argv.includes("--cross-dept"), priceRatio: ratio("price-ratio"), rentRatio: ratio("rent-ratio") }, raws);
   console.log("\nVoisines (§ 3.2) :");
   for (const n of r.neighbours) {
     const ext = (n.v as { scoreCohort?: string }).scoreCohort === "extension" ? " *extension" : "";
