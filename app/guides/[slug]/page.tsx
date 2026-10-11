@@ -393,7 +393,7 @@ export default async function GuidePage({ params }: Props) {
                 Trouvez votre ville en 3 minutes
               </p>
               <p className="text-sm text-[var(--text-secondary)] mb-4">
-                Notre quiz IA analyse vos priorités et vous recommande les villes faites pour vous.
+                Quelques questions sur votre budget, le climat et votre rythme de vie, et une liste de villes classée pour vous.
               </p>
               <Link
                 href="/city-match"
@@ -467,23 +467,6 @@ export default async function GuidePage({ params }: Props) {
                 </div>
               </div>
             )}
-
-            {/* Pro CTA */}
-            <div className="rounded-xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-5">
-              <p className="text-xs font-bold text-[var(--accent)] uppercase tracking-wider mb-2">Pro</p>
-              <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">
-                Rapport IA personnalisé
-              </p>
-              <p className="text-xs text-[var(--text-secondary)] mb-3">
-                Obtenez un PDF sur mesure avec analyse de compatibilité, budget, Red Flags et checklist déménagement.
-              </p>
-              <Link
-                href="/city-match"
-                className="block text-center text-xs font-semibold bg-[var(--accent)] text-white rounded-xl py-2 hover:bg-[var(--accent-hover)] transition-colors"
-              >
-                Essai 7j gratuit →
-              </Link>
-            </div>
 
             {/* All guides link */}
             <Link
