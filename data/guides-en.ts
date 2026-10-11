@@ -45725,6 +45725,306 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["noirmoutier", "les-sables-d-olonne", "la-roche-sur-yon", "nantes"],
     tags: ["things to do in noirmoutier", "noirmoutier", "travel", "city guide", "pays-de-la-loire"],
   },
+  {
+    slug: "things-to-do-in-chateaudun-2026",
+    title: "Things to do in Châteaudun: a Loir fortress and a town that burned in 1870",
+    metaTitle: "Things to Do in Châteaudun: Keep and Chapel 2026",
+    metaDesc:
+      "A twelfth-century keep on a spur above the Loir, a royal-style chapel, the wing of Joan of Arc's companion Dunois, and a small town with no theme-park polish.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Châteaudun is a sub-prefecture of Eure-et-Loir with 12,898 residents at the 2022 census, down from 13,216 in 2011. It sits on a rocky spur above the river Loir, about two hours south-west of Paris by road and not far from Chartres, and what the visitor comes for is one castle. A fortified site is attested here from the early tenth century in the sources consulted, the great keep dates from the end of the twelfth, and the chapel and the residential wing were added in the fifteenth by Jean de Dunois, the companion of Joan of Arc. Readers who know Shakespeare's Henry VI, Part 1 will have met him as the Bastard of Orléans. This guide says what is worth the trip, what to check before you go, and what belongs to other towns.",
+    sections: [
+      {
+        heading: "The castle on the spur",
+        body: "The château stands on a promontory above the Loir and the old town, and it is the reason to come. The visit follows the order of construction: the medieval keep first, then the chapel and the wing of the fifteenth century. Opening hours, prices and closing days vary by season and are set by the monument, so check them before you travel rather than trusting a printed guide, this one included.",
+      },
+      {
+        heading: "The keep",
+        body: "The keep is a massive cylindrical tower, in the order of seventeen metres across and about thirty high according to the sources consulted. It is placed in the 1170s and 1180s, under the counts of Blois, though the chronicles do not agree on the exact year, so this guide settles for the last third of the twelfth century. A round keep is a different animal from the square Norman towers an English visitor may know: no corners for a battering ram or a sapper to work on.",
+      },
+      {
+        heading: "The Sainte-Chapelle",
+        body: "The castle chapel was built between 1451 and 1493. It keeps a set of painted stone saints and a wall painting of the Last Judgement. The name needs a word of warning: Sainte-Chapelle here means a chapel of the royal type attached to a lord's castle, and it has no connection with the one in Paris.",
+      },
+      {
+        heading: "Dunois and the residential wing",
+        body: "Jean de Dunois, the natural son of Louis d'Orléans and a fellow commander of Joan of Arc, received the castle in 1439. In English-language history he is the Bastard of Orléans, a title that was a recognised rank rather than an insult. He had the chapel and the wing that bears his name built, and the later Longueville wing was added after him. Walking through the furnished rooms of the wing shows a fortress turning into a house, which is the real subject of the visit.",
+      },
+      {
+        heading: "The old town below",
+        body: "The lanes that drop from the castle towards the Loir take an hour or two on foot. There is no programme, only façades, stairs and views back up at the spur. The pleasure is that of a small working town which has not been turned into a museum of itself.",
+      },
+      {
+        heading: "A town that burned in October 1870",
+        body: "This is the part the French guide leaves out and a foreign visitor will not guess. On 18 October 1870, during the Franco-Prussian War, a German force attacked Châteaudun, where francs-tireurs, national guardsmen and local volunteers had resisted. The town was bombarded and burned in retaliation, many houses were destroyed, and civilians died. The commander, General Wittich, was nicknamed the Butcher of Châteaudun, and the French retook the town on 6 November. In 1884 the Place Royale was renamed Place du 18 Octobre in memory of the defence. Sources differ on the numbers on both sides and on the scale of the destruction, so none are quoted here. It explains why the centre is not a medieval ensemble: much of what you see below the castle was rebuilt.",
+      },
+      {
+        heading: "The museum, the river, and Chartres or Vendôme",
+        body: "The town museum is in the town, not in the castle. It is known for a rich ornithology gallery alongside paintings and archaeology, and its opening days change, so check before walking over. The Loir runs along the lower town and its banks suit an easy stroll after the climb; fishing and swimming rules are posted on site and are the ones that count. Chartres, with its cathedral, and Vendôme, with its abbey and river setting, both have their own guides. They are towns in their own right and each deserves more than a detour, so pick one extra stop rather than chaining them.",
+      },
+      {
+        heading: "Getting here, when to come, how long to stay",
+        body: "Châteaudun has a station and is easy by road; check timetables and connections before leaving. The castle is best in dry weather, since the climb and the courtyard are open-air, and spring or early autumn avoids both midsummer heat and the short days of winter. Winter closures and public holidays need checking. Half a day covers the castle and the old town; a full day adds the museum and the riverbank.",
+      },
+    ],
+    relatedCities: ["chateaudun", "chartres", "vendome", "orleans"],
+    tags: ["things to do in chateaudun", "chateaudun", "travel", "city guide", "centre-val-de-loire"],
+  },
+  {
+    slug: "things-to-do-in-peronne-2026",
+    title: "Things to do in Péronne: the Somme museum and the town the war rebuilt",
+    metaTitle: "Things to Do in Péronne: Historial and Somme 2026",
+    metaDesc:
+      "The Historial of the Great War in a medieval castle, a peace garden in the moat, and the base for the Somme battlefields. What to see and what lies elsewhere.",
+    category: "city-guide",
+    emoji: "🕊️",
+    readMinutes: 7,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Péronne is a small sub-prefecture of the Somme with 7,139 residents at the 2022 census, down from 7,796 in 2011, a fall of about 8 per cent. For most English-speaking visitors the name comes from the First World War, and the town does not disappoint on that front: its castle houses the Historial de la Grande Guerre, opened in 1992 and presented as the largest museum in Europe devoted to the First World War. The point to grasp before you plan is that the Historial is in Péronne and the battlefields are not. This guide covers what the museum shows, what it does not, and what belongs to the villages around.",
+    sections: [
+      {
+        heading: "The Historial de la Grande Guerre",
+        body: "The museum occupies the castle of Péronne and has been open since 1992. It is about societies at war rather than military history alone, which is why a serious visit takes several hours. Opening times and access conditions change, so check them with the museum before you come.",
+      },
+      {
+        heading: "Three nations, one route",
+        body: "The approach is comparative. The museum sets Germany, France and Britain side by side, the three main combatants on the Western Front, so a British visitor sees the war of the Somme as it was lived on all three sides, through everyday objects as much as weapons. It is a different thing from the national memorials: nobody here is telling you whose war it was.",
+      },
+      {
+        heading: "The architecture",
+        body: "The modern extension to the castle is by the architect Henri Ciriani, with light brought in through large openings meant to recall trenches. It is worth looking at for its own sake, and it explains why the visit takes place in a contemporary building attached to an ancient fortress.",
+      },
+      {
+        heading: "The peace garden in the moat",
+        body: "A peace garden was laid out in the castle moat in 2018. It extends the visit into the open air and gives a welcome pause after several rooms of exhibition. It opens under the museum's own conditions, which need checking.",
+      },
+      {
+        heading: "A castle older than the war",
+        body: "The castle predates the conflict it now tells by centuries. The sources consulted disagree on its age, one placing it at the end of the twelfth century under Philip Augustus and another in the thirteenth, and this guide keeps the range rather than choosing. It was here in 1468 that Louis XI was held by Charles the Bold, Duke of Burgundy. English readers may know the episode from Walter Scott's novel Quentin Durward, which stages that meeting at Péronne.",
+      },
+      {
+        heading: "The town, and the Somme in 1918",
+        body: "Péronne takes an hour or two to walk: ramparts, the centre, the banks of the Somme. It suffered heavily in the First World War and the centre was rebuilt, so do not expect a uniformly medieval setting. The town also has a place in Australian memory. Troops of the Australian Corps took Mont Saint-Quentin, the hill overlooking it, at the end of August 1918 and entered Péronne in the first days of September; sources differ by a day or so on the exact dates, which is why none are given in full here. The river and its ponds are a simple setting for a walk after the museum, and the fishing, swimming and boating rules posted on site are the ones that count.",
+      },
+      {
+        heading: "The battlefields are not in Péronne",
+        body: "The sites of the Battle of the Somme lie in neighbouring communes: memorials, cemeteries and ruined villages such as Thiepval, Longueval or Albert. Thiepval carries the British memorial to the missing of the Somme, designed by Sir Edwin Lutyens. All of these are reachable from Péronne by car, and the route should be planned in advance rather than left to a satnav on minor roads. Allow a separate day if you want more than the museum.",
+      },
+      {
+        heading: "Respect, caution, and getting here",
+        body: "These are places of memory and burial. Farmland around them can still throw up unexploded munitions: never pick up or touch a suspicious metal object, and report it to the town hall or the gendarmerie. Péronne is reached by road and by stations in the region, so check timetables before you leave. Half a day is enough for the museum alone; a full day covers the museum and one outing to the sites around.",
+      },
+    ],
+    relatedCities: ["peronne", "amiens", "cambrai"],
+    tags: ["things to do in peronne", "peronne", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-sarreguemines-2026",
+    title: "Things to do in Sarreguemines: faience, a winter garden, and the German border",
+    metaTitle: "Things to Do in Sarreguemines: Faience Museum 2026",
+    metaDesc:
+      "A museum of faience, a winter garden tiled with ceramic, a Roman site split between two countries, and a frontier town where Saarland begins.",
+    category: "city-guide",
+    emoji: "🏺",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Sarreguemines is a sub-prefecture of the Moselle with 20,324 residents at the 2022 census, down from 21,604 in 2011. It lies where the Saar and the Blies meet, on the border with Germany, and its trademark is an industry: faience, the glazed earthenware whose history the local museum keeps. If you know Staffordshire or Delft, you already have the right frame of reference for what the town made. This guide covers what the museum shows, what lies in neighbouring communes, and what the frontier changes in practice.",
+    sections: [
+      {
+        heading: "The faience museum",
+        body: "The museum of faience and its winter garden are on rue Poincaré. The collections run through the main families of ceramic material, terracotta, fine earthenware, fine stoneware and porcelain, across several rooms. It is the main stop of any visit. Opening hours, free-entry days and exhibitions change, so check with the museum.",
+      },
+      {
+        heading: "The winter garden",
+        body: "The winter garden was built between 1880 and 1882 beside the former apartments of Paul de Geiger, then manager of the manufactories. Its walls are covered with faience tiles designed by the factory's artists, and a monumental faience fountain stands at the centre of the entrance wall. The place is protected as a historic monument. It is a good example of an industry decorating itself with its own product.",
+      },
+      {
+        heading: "A town made by faience",
+        body: "Faience made the town, and its industrial history reads better in the museum than in the street. This guide does not go into the history of the manufactories, whose dates vary between sources; the museum and the tourist office give the current version.",
+      },
+      {
+        heading: "The confluence",
+        body: "The town grew where two rivers meet, and the banks are pleasant for a walk. It is a simple setting without a programme, which pairs well with a museum visit. Swimming and fishing rules are posted on site and are the ones that count.",
+      },
+      {
+        heading: "The border",
+        body: "Sarreguemines is a frontier town: Germany, on the Saarland side, is a few kilometres away. The border is an internal Schengen crossing with no formalities, but carry photo identification all the same. Drivers should check local parking and traffic rules on either side. A German town across the line is therefore the nearest big shopping or restaurant trip, which is why plenty of local life crosses it.",
+      },
+      {
+        heading: "Bliesbruck-Reinheim, a Roman site in two countries",
+        body: "A large Gallo-Roman site straddles the frontier, at Bliesbruck on the French side and Reinheim on the German one. It is reachable from Sarreguemines but lies in a separate commune, and a visit takes half a day. Opening times and programmes need checking before you leave. It is not a site you can see in passing.",
+      },
+      {
+        heading: "Christmas market and food",
+        body: "The town holds a Christmas market at the end of the year, during which entry to the museum may be free depending on the programme. Dates and conditions vary from year to year, so none are given here; the tourist office has them. Local cooking is that of eastern Moselle, with Lorraine and Saarland influences. There is no single address to recommend: look at what is open at lunchtime near the centre, and book for weekends.",
+      },
+      {
+        heading: "Getting here and how long to stay",
+        body: "Sarreguemines is served by road and by train; check connections before leaving. Half a day is enough for the museum and the centre, a full day if you add Bliesbruck-Reinheim.",
+      },
+    ],
+    relatedCities: ["sarreguemines", "thionville"],
+    tags: ["things to do in sarreguemines", "sarreguemines", "travel", "city guide", "grand-est"],
+  },
+  {
+    slug: "things-to-do-in-montargis-2026",
+    title: "Things to do in Montargis: the Venice of the Gâtinais, minus the gondolas",
+    metaTitle: "Things to Do in Montargis: Canals and Praslines 2026",
+    metaDesc:
+      "Bridges and canals in a small Loiret town, a museum for the painter Girodet, and the praline named after a duke. What the nickname promises and what it does not.",
+    category: "city-guide",
+    emoji: "🌉",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Montargis is a sub-prefecture of the Loiret with 14,819 residents at the 2022 census, against 14,616 in 2011, a slight rise. It is nicknamed the Venice of the Gâtinais because the Briare canal, the Loing and several linking canals run through the centre under a great many bridges. Expect a small water town you can walk at your own pace, not Venice. Boaters who have chugged along French canals will recognise the setting at once. This guide covers what is worth seeing, what is worth eating, and what the nickname promises.",
+    sections: [
+      {
+        heading: "The Venice of the Gâtinais",
+        body: "The nickname comes from the fact that the Briare canal and the Loing wrap around the old town, that the Puiseaux canal and several linking canals cross it, and that bridges follow one another down every waterway. There is no need to look for Venice. What you find is a small town of water, best on foot along the quays.",
+      },
+      {
+        heading: "Why a canal town here at all",
+        body: "The Briare canal was completed in 1642 and is described in the sources consulted as the first summit-level canal in Europe built with pound locks. It joined the Loire valley to the Seine valley, so that boats could go from the Loire at Briare to the Loing near Montargis, and then down the Loing to the Seine and Paris. Lengths and lock counts vary from source to source, so no figures are given. Montargis is a stop on that waterway, which is why the water is in the middle of town. The famous Briare aqueduct is at Briare, not here.",
+      },
+      {
+        heading: "The bridge circuit",
+        body: "The tourist office offers a circuit of the bridges, the simplest way to get to know the town, and it takes an hour or two. A figure of 131 bridges and footbridges circulates, which we could not cross-check, so this guide does not adopt it. One structure with a documented date is the pont du Québec, a single 36.5-metre span over the Briare canal, opened to traffic on 10 March 1977. It is a modern work in a town whose bridges are usually older.",
+      },
+      {
+        heading: "The Girodet museum",
+        body: "The museum is dedicated to the local painter Anne-Louis Girodet, a pupil of Jacques-Louis David. It stands on rue du Faubourg de la Chaussée, and its painting collection is one of the town's cultural attractions. Manage expectations: Girodet's best-known canvas, The Sleep of Endymion, is in the Louvre, not here. Opening hours and displays change, so check before you visit.",
+      },
+      {
+        heading: "The praline, which is not what you think",
+        body: "A praline in France is an almond coated in caramelised sugar, not a chocolate filled with cream. Tradition credits Clément Jaluzot, cook to the Duke of Praslin under Louis XIII, with the recipe, which is how the sweet got its name; the attribution is tradition. The Mazet house, founded in Montargis, took up the recipe at the end of the nineteenth century and still makes it. A Maison de la Prasline lets you see the craft side. It is the greedy stop of the town.",
+      },
+      {
+        heading: "The crottes du Chien",
+        body: "Another local speciality is the crottes du Chien: a hazelnut praline in a nougatine shell, coated in dark chocolate. The name will make an English speaker blink, and the sweet is perfectly serious. Buy it in a shop rather than hunting for it on a menu.",
+      },
+      {
+        heading: "A town that has not shrunk",
+        body: "Unlike many sub-prefectures of similar size, Montargis gained residents between 2011 and 2022, from 14,616 to 14,819, after a dip to 14,222 in 2016. That is a measurement and not an explanation: the census counts residents and does not say why people move.",
+      },
+      {
+        heading: "Orléans, and how long to stay",
+        body: "Montargis is a town in its own right within the Loiret, and Orléans, the prefecture, has its own guide. The two do not combine well in one day, so pick one. Montargis is reached by road and by train; check timetables before leaving. Half a day covers the bridge circuit and a tasting, and a full day adds the museum. Along the quays, the rules for pleasure boats and for walking on the banks are posted on site.",
+      },
+    ],
+    relatedCities: ["montargis", "orleans"],
+    tags: ["things to do in montargis", "montargis", "travel", "city guide", "centre-val-de-loire"],
+  },
+  {
+    slug: "things-to-do-in-guebwiller-2026",
+    title: "Things to do in Guebwiller: three churches, grand cru vines and the Vosges' top summit",
+    metaTitle: "Things to Do in Guebwiller: Florival and Wine 2026",
+    metaDesc:
+      "Three very different churches, a ceramics museum, four grand cru vineyards and the Grand Ballon, the highest peak in the Vosges, on the Alsace wine route.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Guebwiller is the historic capital of the Florival, the valley of the Lauch, in the Haut-Rhin, with 11,090 residents at the 2022 census against 11,517 in 2011. It sits at the foot of the Grand Ballon, the highest peak of the Vosges, and it is on the Alsace wine route yet far quieter than Colmar or Riquewihr, which is the best reason to come. It packs three churches of very different styles, a ceramics museum and direct access to the mountain into a small town. This guide says what is in town and what belongs to neighbouring communes.",
+    sections: [
+      {
+        heading: "Saint-Léger",
+        body: "Saint-Léger is built entirely of pink sandstone in a late Romanesque manner, dated to the twelfth century in the sources consulted. It stands in the heart of the town, and the houses have closed in around it. Opening times vary, so check before walking over.",
+      },
+      {
+        heading: "Notre-Dame",
+        body: "Notre-Dame is a neoclassical church built after 1759, when the abbey of Murbach obtained its transfer to Guebwiller. It is presented as the largest neoclassical church in Alsace. It is a sharp contrast with Saint-Léger a few steps away, and that contrast is part of the charm of the place.",
+      },
+      {
+        heading: "The Dominicans",
+        body: "The former Dominican convent, Gothic in style, has become a cultural centre. People come for the programme as much as the building: exhibitions and concerts change, so look them up before you come.",
+      },
+      {
+        heading: "The Théodore Deck museum",
+        body: "The museum bears the name of the ceramist Théodore Deck, born in Guebwiller, and is presented as the largest museum in the Haut-Rhin outside Colmar and Mulhouse. Collections, hours and exhibitions change and should be checked with the museum.",
+      },
+      {
+        heading: "Wine: four grand crus on the doorstep",
+        body: "Guebwiller sits on the Alsace wine route, and its slopes carry four grand cru vineyards: Kitterlé, Saering, Kessler and Spiegel. For readers used to Burgundy, a grand cru in Alsace is a named vineyard site with its own rules, not a producer's label. Tastings are held at growers' cellars with varying hours, so booking by phone is the norm. Do not drive after tasting beyond the legal limit.",
+      },
+      {
+        heading: "The Florival and the Grand Ballon",
+        body: "The Florival is the valley of the Lauch, best taken by car or bike, with villages and vines high on the slopes. It is the setting of the town rather than a destination in itself. The Grand Ballon, the highest peak in the Vosges at about 1,424 metres by one source, lies some 8 kilometres west of Guebwiller as the crow flies. It is reachable from the town on mountain roads that can be closed in winter, so check road conditions before setting out. In high country the weather changes fast.",
+      },
+      {
+        heading: "Murbach abbey",
+        body: "The abbey of Murbach, whose transfer of canons explains the neoclassical church above, lies in the neighbouring commune of Murbach. It is a few minutes by car from Guebwiller and is a Romanesque building in pink sandstone, to be treated as an outing in its own right.",
+      },
+      {
+        heading: "Christmas market, getting here, how long to stay",
+        body: "The town holds a Christmas market, with dates that change every year and are best checked with the tourist office, crowds being heavy at weekends. Guebwiller is reached by road, rail links in the valley being limited, so check before you leave. Half a day covers the churches and the museum; a full day adds the Grand Ballon or Murbach.",
+      },
+    ],
+    relatedCities: ["guebwiller", "colmar", "mulhouse"],
+    tags: ["things to do in guebwiller", "guebwiller", "travel", "city guide", "alsace"],
+  },
+  {
+    slug: "things-to-do-in-saint-claude-2026",
+    title: "Things to do in Saint-Claude: the pipe capital of France, high in the Jura",
+    metaTitle: "Things to Do in Saint-Claude: Pipe Museum 2026",
+    metaDesc:
+      "A museum of the pipe and the diamond, a cathedral with fifteenth-century choir stalls, and a Haut-Jura town that has lost a fifth of its people in eleven years.",
+    category: "city-guide",
+    emoji: "🪈",
+    readMinutes: 6,
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    intro:
+      "Saint-Claude is a small town of the Haut-Jura, where the Bienne and the Tacon meet, inside the Haut-Jura regional nature park. It had 8,556 residents at the 2022 census against 10,690 in 2011, a loss of about a fifth in eleven years. It is known for the pipe and for gem cutting, and the museum devoted to both is the main reason for a visit. This guide says what can be visited and what the census does and does not tell you about the town.",
+    sections: [
+      {
+        heading: "The pipe and diamond museum",
+        body: "The museum is on place Jacques Faizant. It shows pipes and precious stones, with a room that recreates a lapidary's workshop peopled with automata. The visit gives access to the chapter room where new pipe makers are initiated. Hours and prices change, so check with the museum.",
+      },
+      {
+        heading: "The cathedral of Saint-Pierre",
+        body: "The cathedral is a Gothic building put up between the fourteenth and eighteenth centuries and listed as a historic monument. It is the town's main monument. Opening times vary and a visit has to take account of services.",
+      },
+      {
+        heading: "The stalls of Jehan de Vitry",
+        body: "The cathedral holds walnut choir stalls of the fifteenth century carved by Jehan de Vitry, counted among the most remarkable in France according to the sources consulted. They are the reason to linger in the choir.",
+      },
+      {
+        heading: "A town at a confluence",
+        body: "The town stretches along the meeting of the Bienne and the Tacon, between slopes and gorges. The terrain explains the shape of the town, tall and narrow, more than its architecture does. Walking here means going up and down.",
+      },
+      {
+        heading: "Two crafts: the pipe and the cut stone",
+        body: "Saint-Claude carries the label Ville et Métiers d'Art. Pipe making and the cutting of precious stones long kept its workshops alive. The museum tells that story, and a few craftsmen still work; their visiting hours should be checked. A French pipe is typically a briar pipe, and the town's name is the first one a pipe smoker's catalogue will turn up.",
+      },
+      {
+        heading: "The Haut-Jura nature park",
+        body: "The town lies inside the Haut-Jura regional nature park. Outdoor outings, on foot or by snowshoe in winter, start from neighbouring communes. In the mountains the weather changes quickly and snow closes some roads, so check before setting out.",
+      },
+      {
+        heading: "A town that is emptying",
+        body: "The census gives 10,690 residents in 2011, 9,526 in 2016 and 8,556 in 2022, a continuous fall across the whole period. That is a measurement and not a verdict on the town; the census does not say why. This guide draws no conclusion about daily life there.",
+      },
+      {
+        heading: "Winter roads, neighbours, and getting here",
+        body: "Access to the Haut-Jura is by mountain roads exposed to snow and ice. Check equipment and conditions before leaving and leave a margin of time. The better-known towns nearby, Lons-le-Saunier and Pontarlier, have their own guides; they are separate communes tens of minutes away by road and are best treated as separate outings. Saint-Claude is reached mainly by road, rail links being limited, so check before travelling. Half a day covers the museum and the cathedral, and a full day adds an outing in the park.",
+      },
+    ],
+    relatedCities: ["saint-claude", "lons-le-saunier", "pontarlier"],
+    tags: ["things to do in saint-claude", "saint-claude", "travel", "city guide", "jura"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

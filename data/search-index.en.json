@@ -8704,18 +8704,48 @@
       "slug": "things-to-do-in-noirmoutier-2026",
       "title": "Things to do in Noirmoutier: a road the sea covers twice a day",
       "emoji": "🧂"
+    },
+    {
+      "slug": "things-to-do-in-chateaudun-2026",
+      "title": "Things to do in Châteaudun: a Loir fortress and a town that burned in 1870",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-peronne-2026",
+      "title": "Things to do in Péronne: the Somme museum and the town the war rebuilt",
+      "emoji": "🕊️"
+    },
+    {
+      "slug": "things-to-do-in-sarreguemines-2026",
+      "title": "Things to do in Sarreguemines: faience, a winter garden, and the German border",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "things-to-do-in-montargis-2026",
+      "title": "Things to do in Montargis: the Venice of the Gâtinais, minus the gondolas",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "things-to-do-in-guebwiller-2026",
+      "title": "Things to do in Guebwiller: three churches, grand cru vines and the Vosges' top summit",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-saint-claude-2026",
+      "title": "Things to do in Saint-Claude: the pipe capital of France, high in the Jura",
+      "emoji": "🪈"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 295
+      "count": 301
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 289
+      "count": 295
     },
     {
       "slug": "moving-to-france",
@@ -8750,7 +8780,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 64
+      "count": 65
     },
     {
       "slug": "relocation",
@@ -8778,13 +8808,13 @@
       "count": 56
     },
     {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 54
-    },
-    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
+      "count": 55
+    },
+    {
+      "slug": "buying-property-france",
+      "label": "buying property france",
       "count": 54
     },
     {
@@ -8838,14 +8868,14 @@
       "count": 28
     },
     {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 26
+    },
+    {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
       "count": 25
-    },
-    {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 24
     },
     {
       "slug": "international-students",
@@ -8915,7 +8945,7 @@
     {
       "slug": "alsace",
       "label": "alsace",
-      "count": 13
+      "count": 14
     },
     {
       "slug": "french-riviera",
@@ -9260,6 +9290,11 @@
     {
       "slug": "french-guiana",
       "label": "french guiana",
+      "count": 3
+    },
+    {
+      "slug": "jura",
+      "label": "jura",
       "count": 3
     },
     {
