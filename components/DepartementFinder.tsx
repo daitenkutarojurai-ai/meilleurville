@@ -16,11 +16,14 @@ export interface DeptEntry {
 export function DepartementFinder({
   depts,
   cityIndex,
+  locale = "fr",
 }: {
   depts: DeptEntry[];
   /** [nom de ville, n° de département] — permet de trouver son département en tapant sa ville. */
   cityIndex: Array<[string, string]>;
+  locale?: "fr" | "en";
 }) {
+  const en = locale === "en";
   // Historical callers key the city index by dept NUMBER; AreaFinder keys by
   // slug (so régions can share it), so we translate here.
   const numToSlug = new Map(depts.map((d) => [d.num, d.slug]));
@@ -40,10 +43,17 @@ export function DepartementFinder({
     <AreaFinder
       areas={areas}
       cityIndex={slugCityIndex}
-      hrefPrefix="/departements"
+      hrefPrefix={en ? "/departments" : "/departements"}
+      locale={locale}
       sorts={["num", "az", "score"]}
       initialSort="num"
-      copy={{
+      copy={en ? {
+        placeholder: "33, Gironde, or your city…",
+        searchAria: "Search a department by number, name or city",
+        singular: "department",
+        plural: "departments",
+        emptyHint: "No department for « {q} ». Try a number (33), a name (Gironde) or a city (Bordeaux).",
+      } : {
         placeholder: "33, Gironde, ou votre ville…",
         searchAria: "Chercher un département par numéro, par nom ou par ville",
         singular: "département",

@@ -48,6 +48,12 @@ const SORT_LABELS: Record<AreaSort, string> = {
   score: "Score",
 };
 
+const SORT_LABELS_EN: Record<AreaSort, string> = {
+  num: "No.",
+  az: "A-Z",
+  score: "Score",
+};
+
 export interface AreaFinderCopy {
   /** Search input placeholder. */
   placeholder: string;
@@ -72,6 +78,8 @@ export interface AreaFinderProps {
   /** Initial sort. Defaults to the first entry of `sorts`. */
   initialSort?: AreaSort;
   copy: AreaFinderCopy;
+  /** UI language of the chrome (sort chips, counts, clear button). Default "fr" — FR output unchanged. */
+  locale?: "fr" | "en";
 }
 
 export function AreaFinder({
@@ -81,7 +89,9 @@ export function AreaFinder({
   sorts = ["num", "az", "score"],
   initialSort,
   copy,
+  locale = "fr",
 }: AreaFinderProps) {
+  const en = locale === "en";
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<AreaSort>(initialSort ?? sorts[0]);
 
@@ -104,12 +114,12 @@ export function AreaFinder({
     return [...list].sort((a, b) => {
       if (sort === "num") {
         // Areas without a num fall to the end so the ordering stays stable.
-        if (!a.num && !b.num) return a.label.localeCompare(b.label, "fr");
+        if (!a.num && !b.num) return a.label.localeCompare(b.label, locale);
         if (!a.num) return 1;
         if (!b.num) return -1;
         return numRank(a.num) - numRank(b.num);
       }
-      if (sort === "az") return a.label.localeCompare(b.label, "fr");
+      if (sort === "az") return a.label.localeCompare(b.label, locale);
       return b.avg - a.avg;
     });
   }, [areas, cityIndex, query, sort]);
@@ -133,7 +143,7 @@ export function AreaFinder({
           {query && (
             <button
               onClick={() => setQuery("")}
-              aria-label="Effacer"
+              aria-label={en ? "Clear" : "Effacer"}
               className="flex-shrink-0 text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
             >
               <X className="h-4 w-4" />
@@ -152,7 +162,7 @@ export function AreaFinder({
                   : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
               }`}
             >
-              {SORT_LABELS[id]}
+              {en ? SORT_LABELS_EN[id] : SORT_LABELS[id]}
             </button>
           ))}
         </div>
@@ -180,7 +190,7 @@ export function AreaFinder({
                   {a.label}
                 </span>
                 <span className="block text-[11px] text-[var(--text-tertiary)]">
-                  {a.count} ville{a.count > 1 ? "s" : ""}
+                  {en ? `${a.count} ${a.count > 1 ? "cities" : "city"}` : `${a.count} ville${a.count > 1 ? "s" : ""}`}
                 </span>
               </span>
               <span

@@ -41,6 +41,7 @@ export function RegionFinder({
       areas={areas}
       cityIndex={cityIndex}
       hrefPrefix={en ? "/regions" : "/regions"}
+      locale={locale}
       sorts={["az", "score"]}
       initialSort="az"
       copy={
