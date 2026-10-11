@@ -31,8 +31,8 @@ const LABEL: Record<AirPollutant, string> = {
 
 const ABOUT: Record<AirPollutant, string> = {
   no2: "Émis surtout par le trafic routier, en particulier les moteurs diesel. C'est le marqueur le plus net de la pollution urbaine : il chute vite dès qu'on s'éloigne des grands axes.",
-  pm25: "Particules de moins de 2,5 micromètres, issues du chauffage au bois, du trafic, de l'industrie et de l'agriculture. Ce sont celles qui pénètrent le plus profondément dans les poumons.",
-  pm10: "Particules de moins de 10 micromètres : les mêmes sources que les PM2.5, plus l'usure des routes et les chantiers.",
+  pm25: "Particules de moins de 2,5 micromètres, issues du chauffage au bois, du trafic, de l'industrie et de l'agriculture. Ce sont celles qui pénètrent le plus profondément dans les poumons. Les vallées alpines encaissées, où l'air froid stagne l'hiver au-dessus des cheminées, y sont particulièrement exposées.",
+  pm10: "Particules de moins de 10 micromètres : les mêmes sources que les PM2.5, plus l'usure des routes et les chantiers. Aux Antilles, les valeurs élevées viennent surtout des épisodes de brume de sable venue du Sahara, pas d'une pollution locale.",
   o3: "Polluant secondaire formé au soleil à partir d'autres polluants. Il culmine l'été, souvent loin des villes qui l'ont produit : les communes périurbaines et rurales du Sud y sont les plus exposées.",
 };
 

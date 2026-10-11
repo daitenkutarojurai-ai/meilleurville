@@ -35,8 +35,8 @@ const LABEL: Record<AirPollutant, string> = {
 
 const ABOUT: Record<AirPollutant, string> = {
   no2: "Mostly from road traffic, diesel engines above all. It is the clearest marker of urban pollution and falls off quickly away from main roads.",
-  pm25: "Particles under 2.5 micrometres, from wood heating, traffic, industry and farming. They reach deepest into the lungs.",
-  pm10: "Particles under 10 micrometres: the same sources as PM2.5, plus road wear and building sites.",
+  pm25: "Particles under 2.5 micrometres, from wood heating, traffic, industry and farming. They reach deepest into the lungs. Steep Alpine valleys, where cold air sits over chimney smoke in winter, are especially exposed.",
+  pm10: "Particles under 10 micrometres: the same sources as PM2.5, plus road wear and building sites. In the French Caribbean, high readings come mostly from Saharan dust episodes rather than local pollution.",
   o3: "A secondary pollutant formed in sunlight from other pollutants. It peaks in summer, often well away from the cities that produced it: suburban and rural areas in the south are the most exposed.",
 };
 
