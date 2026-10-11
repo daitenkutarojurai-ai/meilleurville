@@ -20298,5 +20298,110 @@
 "abstentionPct": 31.1,
 "blancsNulsPct": 1.9
 }
+},
+"villeneuve-saint-georges": {
+"lean": "gauche",
+"topPct": 52.5,
+"blocs": {
+"gauche": 52.5,
+"centre": 20.5,
+"droite": 4.3,
+"extreme_droite": 22.6
+},
+"leanScore": -25.6,
+"insee": "94078",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.6,
+"roussel": 2.0,
+"melenchon": 46.2,
+"hidalgo": 0.9,
+"jadot": 2.1,
+"poutou": 0.6,
+"macron": 20.5,
+"pecresse": 3.1,
+"lassalle": 1.3,
+"lepen": 16.2,
+"zemmour": 4.2,
+"dupont-aignan": 2.1
+},
+"topCand": "melenchon",
+"topCandPct": 46.2,
+"turnout": {
+"inscrits": 11557,
+"exprimes": 8050,
+"abstentionPct": 29.1,
+"blancsNulsPct": 1.8
+}
+},
+"villeneuve-le-roi": {
+"lean": "gauche",
+"topPct": 43.3,
+"blocs": {
+"gauche": 43.3,
+"centre": 22.1,
+"droite": 7.0,
+"extreme_droite": 27.6
+},
+"leanScore": -8.7,
+"insee": "94077",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.3,
+"roussel": 2.2,
+"melenchon": 36.3,
+"hidalgo": 1.0,
+"jadot": 2.9,
+"poutou": 0.6,
+"macron": 22.1,
+"pecresse": 5.3,
+"lassalle": 1.7,
+"lepen": 20.0,
+"zemmour": 5.7,
+"dupont-aignan": 1.9
+},
+"topCand": "melenchon",
+"topCandPct": 36.3,
+"turnout": {
+"inscrits": 11218,
+"exprimes": 7758,
+"abstentionPct": 29.0,
+"blancsNulsPct": 2.7
+}
+},
+"mons-en-baroeul": {
+"lean": "gauche",
+"topPct": 49.0,
+"blocs": {
+"gauche": 49.0,
+"centre": 24.7,
+"droite": 3.6,
+"extreme_droite": 22.7
+},
+"leanScore": -22.7,
+"insee": "59410",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.6,
+"roussel": 2.2,
+"melenchon": 38.6,
+"hidalgo": 1.8,
+"jadot": 5.2,
+"poutou": 0.7,
+"macron": 24.7,
+"pecresse": 2.5,
+"lassalle": 1.1,
+"lepen": 17.2,
+"zemmour": 4.2,
+"dupont-aignan": 1.4
+},
+"topCand": "melenchon",
+"topCandPct": 38.6,
+"turnout": {
+"inscrits": 12718,
+"exprimes": 8843,
+"abstentionPct": 29.2,
+"blancsNulsPct": 1.8
+}
 }
 }

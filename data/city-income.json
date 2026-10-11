@@ -1340,6 +1340,10 @@
     "medianIncome": 24070,
     "povertyRate": 9
   },
+  "mons-en-baroeul": {
+    "medianIncome": 19570,
+    "povertyRate": 25
+  },
   "mont-de-marsan": {
     "medianIncome": 22030,
     "povertyRate": 16
@@ -2235,6 +2239,14 @@
   "villeneuve-la-garenne": {
     "medianIncome": 18570,
     "povertyRate": 26
+  },
+  "villeneuve-le-roi": {
+    "medianIncome": 22380,
+    "povertyRate": 17
+  },
+  "villeneuve-saint-georges": {
+    "medianIncome": 16960,
+    "povertyRate": 34
   },
   "villeneuve-sur-lot": {
     "povertyRate": 23,

@@ -2039,6 +2039,12 @@
     "a": "Eponimm",
     "l": "CC BY-SA 4.0"
   },
+  "mons-en-baroeul": {
+    "h": "9a92cb97",
+    "c": "#e8e8e8",
+    "a": "Tadeo59370",
+    "l": "CC BY-SA 3.0"
+  },
   "mont-de-marsan": {
     "h": "69cf4dab",
     "c": "#78a8f8",
@@ -3387,6 +3393,18 @@
     "h": "8af1906f",
     "c": "#282828",
     "a": "Akiry",
+    "l": "CC BY-SA 3.0"
+  },
+  "villeneuve-le-roi": {
+    "h": "064af60b",
+    "c": "#080808",
+    "a": "besopha",
+    "l": "CC BY-SA 2.0"
+  },
+  "villeneuve-saint-georges": {
+    "h": "471cce5f",
+    "c": "#282828",
+    "a": "Indif",
     "l": "CC BY-SA 3.0"
   },
   "villeneuve-sur-lot": {

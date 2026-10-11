@@ -6627,6 +6627,26 @@
     ],
     "queryVersion": 1
   },
+  "mons-en-baroeul": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 205,
+      "medianM2": 1695,
+      "p25M2": 1418,
+      "p75M2": 2097
+    },
+    "house": {
+      "sales": 243,
+      "medianM2": 2854,
+      "p25M2": 2259,
+      "p75M2": 3613
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "mont-de-marsan": {
     "coverage": "dvf",
     "apartment": {
@@ -10988,6 +11008,46 @@
       "medianM2": 3942,
       "p25M2": 3497,
       "p75M2": 4368
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "villeneuve-le-roi": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 145,
+      "medianM2": 3474,
+      "p25M2": 2958,
+      "p75M2": 4017
+    },
+    "house": {
+      "sales": 184,
+      "medianM2": 3750,
+      "p25M2": 3088,
+      "p75M2": 4594
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "villeneuve-saint-georges": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 194,
+      "medianM2": 2606,
+      "p25M2": 2078,
+      "p75M2": 3280
+    },
+    "house": {
+      "sales": 142,
+      "medianM2": 3289,
+      "p25M2": 2790,
+      "p75M2": 4107
     },
     "years": [
       2024,

@@ -13,7 +13,7 @@
    "https://eeadmz1-downloads-api-appservice.azurewebsites.net/ParquetFile/urls"
   ],
   "licence": "EEA re-use policy (CC BY 4.0); measurements by the AASQA, compiled by LCSQA (Licence Ouverte)",
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-10-11",
   "evaluated": [
    "annecy",
    "nantes",
@@ -594,7 +594,10 @@
    "saint-cyr-l-ecole",
    "roissy-en-brie",
    "coueron",
-   "halluin"
+   "halluin",
+   "villeneuve-saint-georges",
+   "villeneuve-le-roi",
+   "mons-en-baroeul"
   ],
   "pollutants": [
    "no2",
@@ -15875,6 +15878,108 @@
     "stationCode": "FR11026",
     "area": "suburban",
     "distanceKm": 1.2,
+    "coverage": 0.96
+   }
+  },
+  "villeneuve-saint-georges": {
+   "no2": {
+    "value": 15.1,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 2.9,
+    "coverage": 0.99
+   },
+   "pm10": {
+    "value": 15.7,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 7.3,
+    "coverage": 0.99
+   },
+   "pm25": {
+    "value": 10.2,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 7.3,
+    "coverage": 0.99
+   },
+   "o3": {
+    "value": 6,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 2.9,
+    "coverage": 0.99
+   }
+  },
+  "villeneuve-le-roi": {
+   "no2": {
+    "value": 15.1,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 4.4,
+    "coverage": 0.99
+   },
+   "pm10": {
+    "value": 15.7,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 5.4,
+    "coverage": 0.99
+   },
+   "pm25": {
+    "value": 10.2,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 5.4,
+    "coverage": 0.99
+   },
+   "o3": {
+    "value": 6,
+    "station": "MONTGERON",
+    "stationCode": "FR04149",
+    "area": "urban",
+    "distanceKm": 4.4,
+    "coverage": 0.99
+   }
+  },
+  "mons-en-baroeul": {
+   "no2": {
+    "value": 10.6,
+    "station": "Wattignies",
+    "stationCode": "FR11114",
+    "area": "suburban",
+    "distanceKm": 6.4,
+    "coverage": 0.97
+   },
+   "pm10": {
+    "value": 16.1,
+    "station": "Wattignies",
+    "stationCode": "FR11114",
+    "area": "suburban",
+    "distanceKm": 6.4,
+    "coverage": 0.98
+   },
+   "pm25": {
+    "value": 11.1,
+    "station": "Wattignies",
+    "stationCode": "FR11114",
+    "area": "suburban",
+    "distanceKm": 6.4,
+    "coverage": 0.98
+   },
+   "o3": {
+    "value": 20,
+    "station": "Tourcoing Houpline",
+    "stationCode": "FR11038",
+    "area": "urban",
+    "distanceKm": 11.2,
     "coverage": 0.96
    }
   }

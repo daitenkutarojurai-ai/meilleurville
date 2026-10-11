@@ -7139,6 +7139,27 @@
       "height": 300
     }
   },
+  "mons-en-baroeul": {
+    "insee": "59410",
+    "qid": "Q841686",
+    "file": "Eglise Saint-Pierre à Mons-en-Baroeul.JPG",
+    "author": "Tadeo59370",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Tadeo59370",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Eglise_Saint-Pierre_%C3%A0_Mons-en-Baroeul.JPG",
+    "color": "#e8e8e8",
+    "hero": {
+      "src": "/photos/villes/mons-en-baroeul-1024.38da5370.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/mons-en-baroeul-480.9a92cb97.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "mont-de-marsan": {
     "insee": "40192",
     "qid": "Q188033",
@@ -11860,6 +11881,48 @@
     },
     "card": {
       "src": "/photos/villes/villeneuve-la-garenne-480.8af1906f.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "villeneuve-le-roi": {
+    "insee": "94077",
+    "qid": "Q669715",
+    "file": "Léglise (4688470014).jpg",
+    "author": "besopha",
+    "authorUrl": "https://www.flickr.com/people/26700188@N05",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:L%C3%A9glise_(4688470014).jpg",
+    "color": "#080808",
+    "hero": {
+      "src": "/photos/villes/villeneuve-le-roi-1024.9df06902.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/villeneuve-le-roi-480.064af60b.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "villeneuve-saint-georges": {
+    "insee": "94078",
+    "qid": "Q244241",
+    "file": "Mairie de Villeneuve-Saint-Georges (Val-de-Marne).jpg",
+    "author": "Indif",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Indif",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_de_Villeneuve-Saint-Georges_(Val-de-Marne).jpg",
+    "color": "#282828",
+    "hero": {
+      "src": "/photos/villes/villeneuve-saint-georges-1024.faf3ef62.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/villeneuve-saint-georges-480.471cce5f.webp",
       "width": 480,
       "height": 300
     }
