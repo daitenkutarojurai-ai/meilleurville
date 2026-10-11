@@ -2750,6 +2750,27 @@
       "height": 300
     }
   },
+  "chilly-mazarin": {
+    "insee": "91161",
+    "qid": "Q247241",
+    "file": "Hotel de ville de Chilly-Mazarin.jpg",
+    "author": "Aslak Raanes",
+    "authorUrl": "https://www.flickr.com/photos/38839434@N00",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Hotel_de_ville_de_Chilly-Mazarin.jpg",
+    "color": "#083858",
+    "hero": {
+      "src": "/photos/villes/chilly-mazarin-1024.4c01d9e6.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/chilly-mazarin-480.0e168343.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "chinon": {
     "insee": "37072",
     "qid": "Q194138",
@@ -7534,6 +7555,27 @@
     },
     "card": {
       "src": "/photos/villes/morlaix-480.411eee11.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "morsang-sur-orge": {
+    "insee": "91434",
+    "qid": "Q990453",
+    "file": "Morsang-sur-Orge - La mairie.jpg",
+    "author": "Lejyb",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Lejyb&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Morsang-sur-Orge_-_La_mairie.jpg",
+    "color": "#78b8e8",
+    "hero": {
+      "src": "/photos/villes/morsang-sur-orge-1024.8b204fb9.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/morsang-sur-orge-480.50ba9245.webp",
       "width": 480,
       "height": 300
     }

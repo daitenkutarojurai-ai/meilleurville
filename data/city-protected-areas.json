@@ -10719,6 +10719,70 @@
       }
     ]
   },
+  "chilly-mazarin": {
+    "crawledAt": "2026-10-11",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.9,
+    "rawCoverage": 3.7,
+    "areasTotal": 6,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 2612.5,
+        "distanceKm": 9.6
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 5.9
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 5
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 5.4
+      },
+      {
+        "id": "SURFPARC0000002333272453",
+        "name": "Massif de Rambouillet et Zones Humides Proches",
+        "kind": "natura-2000",
+        "areaHa": 0,
+        "distanceKm": 15
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 5.6
+      }
+    ]
+  },
   "chinon": {
     "crawledAt": "2026-10-11",
     "source": "bdtopo",
@@ -29191,6 +29255,98 @@
         "kind": "arrete-biotope",
         "areaHa": 0,
         "distanceKm": 13.6
+      }
+    ]
+  },
+  "morsang-sur-orge": {
+    "crawledAt": "2026-10-11",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 1.8,
+    "rawCoverage": 3.3,
+    "areasTotal": 10,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000000004791218",
+        "name": "Parc Naturel Régional de la Haute Vallée de Chevreuse",
+        "kind": "parc-naturel-regional",
+        "areaHa": 1662.5,
+        "distanceKm": 11.2
+      },
+      {
+        "id": "SURFPARC0000002333272478",
+        "name": "Marais d'Itteville et de Fontenay-le-Vicomte",
+        "kind": "natura-2000",
+        "areaHa": 418.8,
+        "distanceKm": 10.9
+      },
+      {
+        "id": "SURFPARC0000002333273276",
+        "name": "Marais des Basses Vallées de la Juine et de l'Essonne",
+        "kind": "natura-2000",
+        "areaHa": 306.3,
+        "distanceKm": 11.3
+      },
+      {
+        "id": "SURFPARC0000002333271459",
+        "name": "Marais de Fontenay-le-Vicomte",
+        "kind": "arrete-biotope",
+        "areaHa": 287.5,
+        "distanceKm": 11.4
+      },
+      {
+        "id": "SURFPARC0000000003087723",
+        "name": "Parc Naturel Régional du Gâtinais Français",
+        "kind": "parc-naturel-regional",
+        "areaHa": 168.8,
+        "distanceKm": 14.2
+      },
+      {
+        "id": "SURFPARC0000002333271331",
+        "name": "la Fosse aux Carpes",
+        "kind": "arrete-biotope",
+        "areaHa": 25,
+        "distanceKm": 3.6
+      },
+      {
+        "id": "SURFPARC0000000319871218",
+        "name": "Réserve Naturelle Régionale du Bassin de la Bièvre",
+        "kind": "reserve-naturelle",
+        "areaHa": 6.3,
+        "distanceKm": 10.1
+      },
+      {
+        "id": "SURFPARC0000002333271386",
+        "name": "le Grand Marais",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 14.9
+      },
+      {
+        "id": "SURFPARC0000002333271627",
+        "name": "Orobanche Pourprée",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 10.2
+      },
+      {
+        "id": "SURFPARC0000000319871445",
+        "name": "Réserve Naturelle Nationale des Sites Géologiques de l'Essonne",
+        "kind": "reserve-naturelle",
+        "areaHa": 0,
+        "distanceKm": 7.5
       }
     ]
   },

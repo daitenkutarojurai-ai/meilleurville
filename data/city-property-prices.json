@@ -2589,6 +2589,26 @@
     ],
     "queryVersion": 1
   },
+  "chilly-mazarin": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 365,
+      "medianM2": 2463,
+      "p25M2": 2172,
+      "p75M2": 3120
+    },
+    "house": {
+      "sales": 68,
+      "medianM2": 3918,
+      "p25M2": 3348,
+      "p75M2": 4154
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "chinon": {
     "coverage": "dvf",
     "apartment": {
@@ -6986,6 +7006,26 @@
       "medianM2": 1735,
       "p25M2": 1328,
       "p75M2": 2265
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "morsang-sur-orge": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 162,
+      "medianM2": 2540,
+      "p25M2": 2114,
+      "p75M2": 3402
+    },
+    "house": {
+      "sales": 270,
+      "medianM2": 3555,
+      "p25M2": 2955,
+      "p75M2": 4240
     },
     "years": [
       2024,

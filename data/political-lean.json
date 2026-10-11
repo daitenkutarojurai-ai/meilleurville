@@ -20403,5 +20403,75 @@
 "abstentionPct": 29.2,
 "blancsNulsPct": 1.8
 }
+},
+"morsang-sur-orge": {
+"lean": "gauche",
+"topPct": 39.9,
+"blocs": {
+"gauche": 39.9,
+"centre": 23.9,
+"droite": 7.2,
+"extreme_droite": 29.1
+},
+"leanScore": -3.6,
+"insee": "91434",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 3.2,
+"melenchon": 29.9,
+"hidalgo": 1.3,
+"jadot": 4.2,
+"poutou": 0.9,
+"macron": 23.9,
+"pecresse": 5.5,
+"lassalle": 1.7,
+"lepen": 20.1,
+"zemmour": 6.9,
+"dupont-aignan": 2.1
+},
+"topCand": "melenchon",
+"topCandPct": 29.9,
+"turnout": {
+"inscrits": 13660,
+"exprimes": 9658,
+"abstentionPct": 27.5,
+"blancsNulsPct": 2.5
+}
+},
+"chilly-mazarin": {
+"lean": "gauche",
+"topPct": 36.3,
+"blocs": {
+"gauche": 36.3,
+"centre": 27.9,
+"droite": 6.9,
+"extreme_droite": 28.9
+},
+"leanScore": -0.5,
+"insee": "91161",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 1.9,
+"melenchon": 28.1,
+"hidalgo": 1.1,
+"jadot": 3.9,
+"poutou": 0.8,
+"macron": 27.9,
+"pecresse": 4.9,
+"lassalle": 2.0,
+"lepen": 19.7,
+"zemmour": 7.5,
+"dupont-aignan": 1.8
+},
+"topCand": "melenchon",
+"topCandPct": 28.1,
+"turnout": {
+"inscrits": 10244,
+"exprimes": 7589,
+"abstentionPct": 24.3,
+"blancsNulsPct": 2.1
+}
 }
 }

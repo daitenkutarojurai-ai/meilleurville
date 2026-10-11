@@ -27215,6 +27215,41 @@
       }
     ]
   },
+  "chilly-mazarin": {
+    "crawledAt": "2026-10-11",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w73299105",
+        "name": "Parc de l'Hôtel de Ville",
+        "kind": "park",
+        "lat": 48.70283,
+        "lng": 2.31227,
+        "areaM2": 39221,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w44447521",
+        "name": "Parc des Champs Foux",
+        "kind": "park",
+        "lat": 48.70572,
+        "lng": 2.32187,
+        "areaM2": 26304,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "chinon": {
     "crawledAt": "2026-07-28",
     "source": "openstreetmap",
@@ -65582,6 +65617,69 @@
         "lat": 48.57559,
         "lng": -3.821,
         "areaM2": 1157,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "morsang-sur-orge": {
+    "crawledAt": "2026-10-11",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w179315336",
+        "name": "Parc de la Greffière",
+        "kind": "park",
+        "lat": 48.64558,
+        "lng": 2.36166,
+        "areaM2": 67835,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w43759500",
+        "name": "Parc Pablo Picasso",
+        "kind": "park",
+        "lat": 48.64813,
+        "lng": 2.3474,
+        "areaM2": 21880,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w375649835",
+        "name": "Parc de la Source",
+        "kind": "park",
+        "lat": 48.66434,
+        "lng": 2.34769,
+        "areaM2": 19894,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w926021119",
+        "name": "Parc Toussaint Louverture",
+        "kind": "park",
+        "lat": 48.65481,
+        "lng": 2.3456,
+        "areaM2": 9020,
         "playground": false,
         "wheelchair": null,
         "dog": null,

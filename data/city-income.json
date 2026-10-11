@@ -515,6 +515,10 @@
     "medianIncome": 22650,
     "povertyRate": 14
   },
+  "chilly-mazarin": {
+    "medianIncome": 23140,
+    "povertyRate": 17
+  },
   "chinon": {
     "povertyRate": 18,
     "medianIncome": 21860
@@ -1415,6 +1419,10 @@
   "morlaix": {
     "medianIncome": 20930,
     "povertyRate": 19
+  },
+  "morsang-sur-orge": {
+    "medianIncome": 24900,
+    "povertyRate": 14
   },
   "moulins": {
     "povertyRate": 24,
