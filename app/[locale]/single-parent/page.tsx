@@ -113,7 +113,7 @@ export default function SingleParentHubPage() {
     },
     {
       q: "How is the single-parent fit score calculated?",
-      a: "Explicit editorial weighting: cost of living 0.30 · transit 0.20 · schools 0.25 · safety 0.25 (total 1.00). The 4 axes come from the seed (data/cities-seed.ts), calibrated against public sources (Insee, SSMSI, rental observatories). The result stays on a 0-10 scale with the same convention as the individual axes (10 = excellent). Formula identical to the 'single-parent' profile in lib/city-match.ts.",
+      a: "Explicit editorial weighting: cost of living 0.30 · transit 0.20 · schools 0.25 · safety 0.25 (total 1.00). The 4 axes are estimated per commune, calibrated against public sources (Insee, SSMSI, rental observatories). The result stays on a 0-10 scale with the same convention as the individual axes (10 = excellent). Formula identical to the single-parent profile in City Match.",
     },
     {
       q: "Why does this ranking differ from the overall ranking?",
@@ -290,8 +290,7 @@ export default function SingleParentHubPage() {
           </div>
           <p className="text-xs text-[var(--text-tertiary)] mt-2">
             Reading: composite = cost × 0.30 + transit × 0.20 + schools × 0.25 + safety × 0.25.
-            Min income = T3 rent ÷ 33% (35% if cost &lt; 5). T3 rent from{" "}
-            <code className="text-[11px]">data/housing.ts</code>. Cities without an individual rent
+            Min income = T3 rent ÷ 33% (35% if cost &lt; 5). T3 rent: our rent estimate. Cities without an individual rent
             show "—" and are linked out to the regional observatories.
           </p>
         </div>
@@ -377,10 +376,8 @@ export default function SingleParentHubPage() {
               <strong className="text-[var(--text-primary)]">Formula.</strong>{" "}
               fit = cost × 0.30 + transit × 0.20 + schools × 0.25 + safety × 0.25.
               Weights sum to 1.00, so the result stays on 0-10 like the individual axes.
-              Identical to the{" "}
-              <code className="text-xs px-1 rounded bg-[var(--bg-elevated)]">single-parent</code>{" "}
-              profile in{" "}
-              <code className="text-xs px-1 rounded bg-[var(--bg-elevated)]">lib/city-match.ts</code>.
+              Identical to the single-parent profile in{" "}
+              <Link href="/city-match" className="underline">City Match</Link>.
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">Why these 4 axes.</strong>{" "}
@@ -402,14 +399,14 @@ export default function SingleParentHubPage() {
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">Minimum T3 income.</strong>{" "}
-              Real T3 rent (data/housing.ts) ÷ 33% of net income, stretched to 35% when the city's
+              Reference T3 rent (our estimate) ÷ 33% of net income, stretched to 35% when the city's
               cost score is below 5 (very tight markets where landlords often accept 40% with a
               Visale guarantee or a family guarantor). Rounded to the nearest €50.
             </p>
             <p className="text-xs text-[var(--text-tertiary)]">
               Sources: Insee (population, salaries), SSMSI (safety), regional observatories
-              (rents), and editorial calibration documented in{" "}
-              <code className="text-xs">lib/score-calibration.ts</code>. Deterministic and
+              (rents), and editorial calibration documented in our{" "}
+              <Link href="/methodology" className="underline">methodology</Link>. Deterministic and
               reproducible calculation. No invented figures.
             </p>
           </div>

@@ -182,7 +182,7 @@ export default function ParentSoloHubPage() {
     },
     {
       q: "Comment le score parent solo est-il calculé ?",
-      a: "Pondération éditoriale explicite : coût de la vie 0,30 · transports 0,20 · écoles 0,25 · sécurité 0,25 (total 1,00). Les 4 axes sont des notes estimées à l'échelle de la commune, issues du seed (data/cities-seed.ts) et calibrées à partir de cadres de référence publics (Insee, SSMSI, observatoires des loyers) ; ce ne sont pas des taux publiés. Aucune donnée de revenu n'entre dans le classement. Le résultat reste sur une échelle 0-10 avec la même convention que les axes individuels (10 = excellent). Formule identique à celle du profil « single-parent » dans lib/city-match.ts.",
+      a: "Pondération éditoriale explicite : coût de la vie 0,30 · transports 0,20 · écoles 0,25 · sécurité 0,25 (total 1,00). Les 4 axes sont des notes estimées à l'échelle de la commune, calibrées à partir de cadres de référence publics (Insee, SSMSI, observatoires des loyers) ; ce ne sont pas des taux publiés. Aucune donnée de revenu n'entre dans le classement. Le résultat reste sur une échelle 0-10 avec la même convention que les axes individuels (10 = excellent). Formule identique à celle du profil « parent solo » de City Match.",
     },
     {
       q: "Pourquoi ce classement diffère-t-il du palmarès général ?",
@@ -386,8 +386,7 @@ export default function ParentSoloHubPage() {
           </div>
           <p className="text-xs text-[var(--text-tertiary)] mt-2">
             Lecture : score composite = coût × 0,30 + transports × 0,20 + écoles × 0,25 + sécurité × 0,25.
-            Revenu minimum = loyer T3 ÷ 33 % (35 % si coût &lt; 5). Loyer T3 tiré de{" "}
-            <code className="text-[11px]">data/housing.ts</code>. Les villes sans loyer individualisé
+            Revenu minimum = loyer T3 ÷ 33 % (35 % si coût &lt; 5). Loyer T3 : notre estimation des loyers. Les villes sans loyer individualisé
             affichent « — » et renvoient vers les observatoires régionaux.
           </p>
         </div>
@@ -532,8 +531,7 @@ export default function ParentSoloHubPage() {
               <strong className="text-[var(--text-primary)]">Formule.</strong>{" "}
               fit = coût × 0,30 + transports × 0,20 + écoles × 0,25 + sécurité × 0,25.
               Total des poids = 1,00 → le résultat reste sur 0-10 comme les axes. Identique
-              à la formule du profil <code className="text-xs px-1 rounded bg-[var(--bg-elevated)]">single-parent</code>{" "}
-              de <code className="text-xs px-1 rounded bg-[var(--bg-elevated)]">lib/city-match.ts</code>.
+              à la formule du profil « parent solo » de <Link href="/city-match" className="underline">City Match</Link>.
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">Pourquoi ces 4 axes.</strong>{" "}
@@ -555,17 +553,16 @@ export default function ParentSoloHubPage() {
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">Revenu minimum T3.</strong>{" "}
-              Loyer T3 réel (data/housing.ts) ÷ 33 % du revenu net, relâché à 35 % quand la ville
+              Loyer T3 de référence (notre estimation) ÷ 33 % du revenu net, relâché à 35 % quand la ville
               a un score coût &lt; 5 (marchés très chers où les bailleurs acceptent souvent 40 %
               avec caution Visale ou garant familial). Arrondi à 50 € près.
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">Ce que ce score est, et ce qu&apos;il n&apos;est pas.</strong>{" "}
-              Le composite est une moyenne pondérée des quatre axes éditoriaux du seed
-              (<code className="text-xs px-1 rounded bg-[var(--bg-elevated)]">data/cities-seed.ts</code>),
+              Le composite est une moyenne pondérée des quatre axes éditoriaux de la fiche ville,
               calibrés à partir de cadres de référence publics (Insee pour la démographie, SSMSI
-              pour la délinquance enregistrée, observatoires des loyers) et documentés dans{" "}
-              <code className="text-xs px-1 rounded bg-[var(--bg-elevated)]">lib/score-calibration.ts</code>.
+              pour la délinquance enregistrée, observatoires des loyers) et documentés dans notre{" "}
+              <Link href="/methode" className="underline">méthode</Link>.
               Ce n&apos;est donc <strong className="text-[var(--text-primary)]">ni un taux de
               délinquance publié, ni un indice de loyer mesuré, ni un salaire local</strong> : aucune
               donnée de revenu n&apos;entre dans ce classement, et le seuil de la colonne « revenu

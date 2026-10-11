@@ -83,16 +83,15 @@ export default function PalmaresHubPage() {
           Palmarès national — meilleur cadre de vie toutes dimensions
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Classement universel agrégeant les 8 composites data du site
-          (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie,
-          services publics) en un score unifié 0-10, 10 = excellent. Filtre 15 000
-          habitants minimum.
+          Un seul classement qui réunit les 8 thèmes du site (environnement, santé,
+          emploi, cadre de vie, vélo, sécurité, démographie, services publics) en une
+          note sur 10, 10 = excellent. Villes de 15 000 habitants et plus.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>8 axes unifiés</Badge>
           <Badge>{CITIES_COUNT} villes synthétisées</Badge>
-          <Badge>Moyenne arithmétique normalisée</Badge>
+          <Badge>Moyenne simple des 8 thèmes</Badge>
         </div>
 
         {/* F64 — Quiz personnalisé cross-link */}
@@ -103,10 +102,10 @@ export default function PalmaresHubPage() {
           <div className="flex items-center justify-between gap-3">
             <div className="min-w-0">
               <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                ✨ Personnalise ton palmarès — pondère les 8 axes
+                ✨ Composez votre palmarès : pondérez les 8 thèmes
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                8 sliders 1-5 · recompute en direct · top 10 perso · lien partageable
+                8 curseurs de 1 à 5 · classement recalculé en direct · top 10 personnel · lien à partager
               </div>
             </div>
             <span className="shrink-0 text-[var(--accent)] text-sm font-semibold">→</span>
