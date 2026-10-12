@@ -17217,6 +17217,28 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "Bouguenais (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.4/10. Nantes Métropole suburb south of the Loire, home to Nantes Atlantique airport.",
     scores: { global: 6.6, life: 6.9, transport: 7.4, nature: 7.2, cost: 5.8, safety: 6.4, culture: 6, remoteWork: 7, schools: 6.7 },
+  },
+  {
+    slug: "carquefou",
+    name: "Carquefou",
+    scoreCohort: "extension",
+    region: "Pays de la Loire",
+    department: "Loire-Atlantique",
+    inseeCode: "44026",
+    population: 20900,
+    latitude: 47.2975,
+    longitude: -1.4914,
+    elevation: 39,
+    sunshinedays: 1900,
+    avgTempJuly: 21.5,
+    avgTempJanuary: 5.5,
+    characterTags: ["Loire-Atlantique","Nantes Métropole","quartier de la Fleuriaye","ZAC du Moulin Boisseau"],
+    descriptionEn:
+      "Carquefou is a Nantes Métropole commune north-east of Nantes, next to La Chapelle-sur-Erdre. Much of its recent growth sits in two planned districts: La Fleuriaye, built from 1995 around a landscaped park, and Moulin Boisseau, a former logistics site being turned into housing. Best fit: households who want a green suburb within the Nantes area.",
+    seoTitleEn: "Carquefou — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Carquefou (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.6/10. Nantes Métropole suburb north-east of Nantes, home to La Fleuriaye.",
+    scores: { global: 6.7, life: 7.1, transport: 7.2, nature: 7.6, cost: 5.6, safety: 6.8, culture: 6, remoteWork: 7, schools: 6.9 },
   }
 ];
 

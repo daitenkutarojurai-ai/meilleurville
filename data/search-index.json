@@ -3528,6 +3528,12 @@
       "name": "Bouguenais",
       "region": "Pays de la Loire",
       "score": 5.4
+    },
+    {
+      "slug": "carquefou",
+      "name": "Carquefou",
+      "region": "Pays de la Loire",
+      "score": 5.6
     }
   ],
   "guides": [

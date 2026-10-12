@@ -258,6 +258,13 @@ const DOCUMENTED_MODES: Record<string, Pick<Candidate, "crossDept" | "priceRatio
   // Rezé 2 660-2 800) ≈ 1,20, à 6 % près. Pas de loyer au m² du même portail.
   "saint-sebastien-sur-loire": { priceRatio: 1.27 },
 };
+// Relecture du 2026-10-12 (troisième run) : le runner a depuis servi La Chapelle-sur-Erdre (3 410 €/m²) et
+// Saint-Sébastien-sur-Loire elle-même (3 273 €/m²) ; à mesure égale, 3 273 ÷ 3 009,5 (Rezé, Vertou, La Chapelle,
+// Saint-Herblain) = 1,088, sous le seuil de ± 10 % : le repère médian (3 400 €/m²) est rétabli. Le ratio du lot 13
+// reste rejoué ci-dessus parce que le selftest compare à l'état écrit lors du lot ; voir RELU_APRES_LOT.
+const RELU_APRES_LOT: Record<string, Partial<Record<"avgBuyPriceM2", number>>> = {
+  "saint-sebastien-sur-loire": { avgBuyPriceM2: 3400 },
+};
 
 function selftest(raws: Map<string, Raw>): number {
   const lots = lotsFromGit();
@@ -277,10 +284,12 @@ function selftest(raws: Map<string, Raw>): number {
     const written = raws.get(c.slug)!;
     const bad = AXES.filter((a) => Math.abs(written[a] - r.raw[a]) > 0.051);
     const h = HOUSING[c.slug];
-    const hBad = r.housing && h && (r.housing.avgRentT2 !== h.avgRentT2 || r.housing.avgBuyPriceM2 !== h.avgBuyPriceM2);
+    // Un repère relu après le lot doit valoir la relecture, et le reste rester celui de la règle.
+    const expectedM2 = RELU_APRES_LOT[c.slug]?.avgBuyPriceM2 ?? r.housing?.avgBuyPriceM2;
+    const hBad = r.housing && h && (r.housing.avgRentT2 !== h.avgRentT2 || expectedM2 !== h.avgBuyPriceM2);
     if (!bad.length && !hBad) { same++; continue; }
     if (KNOWN_OFF_RULE[c.slug]) { known.push(`  ${c.slug}: ${KNOWN_OFF_RULE[c.slug]}`); continue; }
-    diffs.push(`  ${c.slug} (lot ${myLot}): ${bad.map((a) => `${a} écrit ${written[a]} / règle ${r.raw[a]}`).join(", ")}${hBad ? ` · logement écrit ${h.avgRentT2}/${h.avgBuyPriceM2} / règle ${r.housing!.avgRentT2}/${r.housing!.avgBuyPriceM2}` : ""} [${r.neighbours.map((n) => n.v.slug).join(", ")}]`);
+    diffs.push(`  ${c.slug} (lot ${myLot}): ${bad.map((a) => `${a} écrit ${written[a]} / règle ${r.raw[a]}`).join(", ")}${hBad ? ` · logement écrit ${h.avgRentT2}/${h.avgBuyPriceM2} / règle ${r.housing!.avgRentT2}/${expectedM2}` : ""} [${r.neighbours.map((n) => n.v.slug).join(", ")}]`);
   }
   console.log(`selftest : ${same}/${same + diffs.length + known.length} villes d'extension reproduites par la règle`);
   if (known.length) console.log(`hors règle, documentées (${known.length}) :\n${known.join("\n")}`);

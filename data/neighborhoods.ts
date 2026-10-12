@@ -15904,6 +15904,19 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Second centre de la commune, lui aussi sur le coteau, assez éloigné du Bourg pour être habituellement considéré comme une entité distincte." },
     ],
   },
+  {
+    citySlug: "carquefou",
+    neighborhoods: [
+      { slug: "la-fleuriaye", name: "La Fleuriaye", type: "résidentiel",
+        scores: { global: 6.7, safety: 6.8, transport: 7.2, nature: 7.6, cost: 5.6, nightlife: 6 },
+        avgRentT2: 710, tags: ["quartier planifié","parc"],
+        summary: "Quartier aménagé en deux temps : la partie est, bâtie de 1995 à 2010 autour du parc du château, puis une extension ouest en chantier depuis 2013, qui mêle logements, bureaux et parc public." },
+      { slug: "moulin-boisseau", name: "Moulin Boisseau", type: "résidentiel",
+        scores: { global: 6.7, safety: 6.8, transport: 7.2, nature: 7.6, cost: 5.6, nightlife: 6 },
+        avgRentT2: 710, tags: ["ZAC","reconversion de friche"],
+        summary: "Ancien site logistique du sud de la commune, reconverti en ZAC par Nantes Métropole : logements, commerces et bureaux, livrés par tranches jusqu'à l'horizon 2030." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

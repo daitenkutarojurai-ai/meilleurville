@@ -270,7 +270,7 @@ Maisons-Alfort → repère 6 200 €/m² contre ~3 750-4 300 € au marché (+50
 le 2026-10-10 (lot 6), règle valable, non retenues faute de place : Juvisy-sur-Orge (voisines 2,2-2,6 km, pop. à
 confirmer ≥ 20 000), Morsang-sur-Orge, Brétigny-sur-Orge, Saint-Michel-sur-Orge, Saint-Cyr-l'École, Roissy-en-Brie,
 Bussy-Saint-Georges, Lagny-sur-Marne ; ~~Chilly-Mazarin~~ (91161, **lot 11**) ; Deuil-la-Barre (Sarcelles dans la médiane), Montigny-lès-Cormeilles (2 voisines d'extension),
-Gif-sur-Yvette, Mantes-la-Ville, Montereau, Mitry-Mory, Ozoir, Carquefou (remesurée lot 13, reportée), ~~Bouguenais~~ (**lot 13**), Vallauris, Miramas (voisines
+Gif-sur-Yvette, Mantes-la-Ville, Montereau, Mitry-Mory, Ozoir, ~~Carquefou~~ (**lot 14**), ~~Bouguenais~~ (**lot 13**), Vallauris, Miramas (voisines
 trop éloignées ou en override) **reportées** ; mesurées le 2026-10-10 et **reportées** :
 Villeneuve-le-Roi, Limeil-Brévannes (plus proche voisine en Essonne), Cenon (rive droite, voisines rive gauche),
 ~~Saint-Sébastien-sur-Loire~~ (**lot 13**), Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne,
@@ -1338,3 +1338,57 @@ Saint-Sébastien. L'aéroport Nantes Atlantique est cité dans `descriptionEn` d
 d'extension comble un trou de voisinage (cas de ce lot) : remesurer les reportées des agglomérations où un lot vient
 d'arriver. Restent Carquefou (seconde source intra-source), Montigny-lès-Cormeilles, les overrides documentés (§ 3.2
 ③) et la liste exhaustive Insee.
+
+### 2026-10-12 (troisième run) — lot 14 (+1) : Carquefou ; repère de Saint-Sébastien-sur-Loire relu
+
+`seed-coverage` au départ : **0 ville en attente** (le runner a servi le lot 13 : DVF, revenus, population, photos,
+biodiversité, actualité, zones protégées à 588/588 hors manques permanents) → lot autorisé. 588 → **589**,
+Loire-Atlantique, aucun département ni région nouveaux.
+
+*Pourquoi Carquefou passe maintenant.* Reportée au lot 13 parce que le ratio intra-source ne confirmait pas le ratio
+externe (1,16 contre 1,00). Ce run, la médiane DVF appartements de La Chapelle-sur-Erdre est **mesurée au dépôt**
+(3 410 €/m², 123 ventes) : la médiane des 4 voisines passe à **3 158,5 €/m²** (Orvault 2 907, Rezé 2 609, Vertou
+3 477, La Chapelle 3 410), et Carquefou (PAP 3 344, relevé du lot 13 ; RealAdvisor 3 427) donne **1,06 / 1,085**,
+sous ± 10 % des deux côtés : **repère médian conservé**, plus de ratio à confirmer. ⚠️ Le relevé PAP n'a pas été
+refait ce run (valeur du 2026-10-12, second run).
+
+*Identité* : Insee **44026** (absence vérifiée par code via `seed:neighbours --insee`), population **20 921**
+(populations de référence 2023 : Wikipédia EN, déjà Banatic au lot 13) → 20 900 au seed. Coordonnées **47,2975 N
+−1,4914** (Wikipédia ; areq.net, même valeur ; mairie 47,2969/−1,4928, annuaire-administration). Altitude 1-76 m
+(Wikipédia) → **39 m** (cartesfrance donne aussi 39 m de moyenne).
+
+*Notes brutes* (règle standard) : La Chapelle-sur-Erdre* 4,5 · Orvault 10,4 · Rezé 13,4 · Vertou 14,3 km →
+7,1 · 7,2 · 7,6 · 5,6 · 6,8 · 6 · 7 · 6,9, global 6,7 ; rendu **5,6** (ambre). ⚠️ 4ᵉ voisine à 14,3 km (> 12,6 km) :
+assumé comme au lot 12, quatre communes de Nantes Métropole, Nantes en override, backtest 0,57 sous 25 km.
+Climat : La Chapelle-sur-Erdre (1 900 h / 21,5 °C / 5,5 °C). Logement : médiane des voisines 510/710/950, 3 600 €/m².
+
+*Quartiers* (notes = ville) : **La Fleuriaye** (Construction21 : Fleuriaye Est 65 ha bâtie 1995-2010, Ouest 37 ha en
+chantier depuis 2013, aménageur LAD-SELA ; zone statistique « Fleuriaye-Souchais » de citypopulation.de) et
+**Moulin Boisseau** (Nantes Métropole, deux pages : ancienne friche logistique au sud de la commune, ZAC à l'horizon
+2030 ; brochure promoteur CIF). Chiffres d'habitants et de logements de la Fleuriaye divergents entre sources :
+**non cités**. Arrêt de tram dans la commune **non confirmé** : aucun fait transport en copie. Tags sans
+`port`/`mer`/`côte`. Code postal 44470 → postal-codes 589/589.
+
+*Relecture du lot 13 (prescrite par son entrée).* Le runner a servi La Chapelle-sur-Erdre et Saint-Sébastien-sur-Loire
+elle-même (DVF 3 273 €/m², 393 ventes). À mesure égale, 3 273 ÷ 3 009,5 (médiane Rezé, Vertou, La Chapelle,
+Saint-Herblain) = **1,088**, sous le seuil : le ratio 1,27 du lot 13, calculé sur 3 voisines faute de mieux, n'a plus
+lieu d'être et le repère revient à la **médiane, 3 400 €/m²** (au lieu de 4 300). `scripts/seed-neighbours.ts` porte
+la relecture dans `RELU_APRES_LOT`, que le selftest lit (le ratio du lot reste dans `DOCUMENTED_MODES` pour l'histoire).
+Mesures relevées sans correction, **à trancher par une règle générale avant d'y toucher** : Bouguenais DVF 3 160 ÷
+2 758 = **1,146** (repère médian conservé au lot 13 sur un ratio PAP de 1,10) ; La Chapelle-sur-Erdre 3 410 ÷ 2 758 =
+**1,236** (ratio écrit 1,26, écart d'arrondi : 4 100 contre 4 200). Proposition : une fois la DVF de la commune au
+dépôt, le ratio se relit à mesure égale (DVF dépôt ÷ DVF dépôt) pour **toutes** les villes d'extension en une passe,
+pas ville par ville.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation**. Couleurs recomptées sur `CITIES_SEED` (589) :
+19 / 50 / 151 / **156** / 119 / 94, moyenne 5,36.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (589 villes) + `:check`, `sitemap:check`
+(FR 31 605, EN 31 197), `hreflang:check`, `seed:neighbours:selftest` (après commit). `npm run build` non lancé.
+
+*En attente du runner* : 1 ville (Carquefou).
+
+**Prochain lot** : `seed-coverage` d'abord. Le balayage par nom de ce run (~130 communes de grandes agglomérations)
+ne trouve plus d'absente au-dessus de 20 000 hab. qui passe la règle, hors reportées connues. Pistes : la relecture
+générale des ratios ci-dessus ; Montigny-lès-Cormeilles ; les overrides documentés (§ 3.2 ③) ; la liste exhaustive
+Insee (passe locale).
