@@ -12,6 +12,9 @@
  *
  *   … --exclude=maisons-laffitte,acheres   # rejouer pour une ville déjà au seed
  *
+ *   npx tsx --tsconfig tsconfig.json scripts/seed-neighbours.ts --relire
+ *        # repère m² de chaque ville d'extension relu à mesure égale (DVF dépôt ÷ DVF dépôt des voisines)
+ *
  *   npx tsx --tsconfig tsconfig.json scripts/seed-neighbours.ts --selftest
  *        # rejoue la règle sur chaque ville d'extension, avec le seed tel qu'il était avant son
  *        # lot (lu dans git log), et compare aux notes et au logement écrits
@@ -38,6 +41,7 @@ import { execSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
+import { cityPropertyPrices } from "@/lib/property-prices";
 import { calibrateScores } from "@/lib/score-calibration";
 import type { CityScore } from "@/lib/types";
 
@@ -262,8 +266,42 @@ const DOCUMENTED_MODES: Record<string, Pick<Candidate, "crossDept" | "priceRatio
 // Saint-Sébastien-sur-Loire elle-même (3 273 €/m²) ; à mesure égale, 3 273 ÷ 3 009,5 (Rezé, Vertou, La Chapelle,
 // Saint-Herblain) = 1,088, sous le seuil de ± 10 % : le repère médian (3 400 €/m²) est rétabli. Le ratio du lot 13
 // reste rejoué ci-dessus parce que le selftest compare à l'état écrit lors du lot ; voir RELU_APRES_LOT.
+//
+// Relecture générale du 2026-10-12 (quatrième run), `--relire` : même grandeur des deux côtés (DVF appartements
+// de la commune ÷ médiane DVF appartements de ses 4 voisines de lot, tout au dépôt), seuils de § 3.3 bis. 23
+// repères changent et sont reportés ici. Une ville d'extension peut être voisine d'une autre, donc la
+// relecture se rejoue jusqu'à 0 changement (3 passes, le graphe suit l'ordre des lots). Morsang-sur-Orge revient à
+// sa valeur écrite (3 500) mais figure ici : la règle de son lot, rejouée avec le repère relu de Saint-Michel-sur-Orge,
+// donnerait 3 400. Trois villes sortent de ± 30 % (Clichy-sous-Bois 0,643,
+// Romainville 1,531, Ris-Orangis 0,696) : leur repère prend le ratio mesuré, plus juste que la médiane, mais
+// § 3.3 bis dit qu'elles ne ressemblent pas à leurs voisines — leurs notes héritées (axe coût en tête) sont
+// suspectes et attendent un override documenté (docs/extension-villes.md, journal du jour).
 const RELU_APRES_LOT: Record<string, Partial<Record<"avgBuyPriceM2", number>>> = {
   "saint-sebastien-sur-loire": { avgBuyPriceM2: 3400 },
+  "montrouge": { avgBuyPriceM2: 7100 },
+  "l-hay-les-roses": { avgBuyPriceM2: 4500 },
+  "thiais": { avgBuyPriceM2: 4000 },
+  "villepinte": { avgBuyPriceM2: 2800 },
+  "clichy-sous-bois": { avgBuyPriceM2: 1800 },
+  "romainville": { avgBuyPriceM2: 5500 },
+  "ris-orangis": { avgBuyPriceM2: 2800 },
+  "fontenay-aux-roses": { avgBuyPriceM2: 4700 },
+  "vigneux-sur-seine": { avgBuyPriceM2: 4100 },
+  "taverny": { avgBuyPriceM2: 3100 },
+  "montgeron": { avgBuyPriceM2: 5000 },
+  "longjumeau": { avgBuyPriceM2: 3200 },
+  "bretigny-sur-orge": { avgBuyPriceM2: 4400 },
+  "saint-michel-sur-orge": { avgBuyPriceM2: 3300 },
+  "lagny-sur-marne": { avgBuyPriceM2: 4400 },
+  "bussy-saint-georges": { avgBuyPriceM2: 5000 },
+  "saint-cyr-l-ecole": { avgBuyPriceM2: 4900 },
+  "coueron": { avgBuyPriceM2: 3700 },
+  "halluin": { avgBuyPriceM2: 1900 },
+  "villeneuve-saint-georges": { avgBuyPriceM2: 3700 },
+  "mons-en-baroeul": { avgBuyPriceM2: 1500 },
+  "morsang-sur-orge": { avgBuyPriceM2: 3500 },
+  "la-chapelle-sur-erdre": { avgBuyPriceM2: 4100 },
+  "bouguenais": { avgBuyPriceM2: 4000 },
 };
 
 function selftest(raws: Map<string, Raw>): number {
@@ -297,9 +335,55 @@ function selftest(raws: Map<string, Raw>): number {
   return diffs.length ? 1 : 0;
 }
 
+
+/**
+ * Relecture à mesure égale (§ 3.3 bis, 2026-10-12, quatrième run). Au moment d'un lot, le ratio de marché
+ * se mesure avec des prix publiés par des portails (la DVF de la commune n'est pas encore au dépôt). Une fois
+ * le runner passé, la même grandeur existe des deux côtés dans `data/city-property-prices.json` : médiane DVF
+ * appartements de la commune ÷ médiane DVF appartements de ses 4 voisines de lot. Ce mode rejoue la règle pour
+ * chaque ville d'extension, applique les seuils de § 3.3 bis à ce ratio et imprime le repère m² qui en sort,
+ * à côté du repère écrit. Il n'écrit rien : la relecture se reporte à la main dans `housing.ts` et dans
+ * `RELU_APRES_LOT`, que le selftest vérifie ensuite.
+ */
+function relire(raws: Map<string, Raw>): number {
+  const lots = lotsFromGit();
+  const rows: string[] = [];
+  let changes = 0;
+  for (const c of CITIES_SEED) {
+    if ((c as { scoreCohort?: string }).scoreCohort !== "extension") continue;
+    if (KNOWN_OFF_RULE[c.slug]) { rows.push(`  ${c.slug}: hors règle, non relue`); continue; }
+    const myLot = lots.get(c.slug);
+    if (myLot == null) { rows.push(`  ${c.slug}: lot introuvable`); continue; }
+    const before = new Set(CITIES_SEED.filter((v) => {
+      if ((v as { scoreCohort?: string }).scoreCohort !== "extension") return true;
+      const l = lots.get(v.slug);
+      return l != null && l < myLot;
+    }).map((v) => v.slug));
+    const mode = DOCUMENTED_MODES[c.slug] ?? {};
+    const base = applyRule({ lat: c.latitude, lng: c.longitude, dept: c.department ?? "", order: before, crossDept: mode.crossDept }, raws);
+    const own = cityPropertyPrices(c.slug)?.apartment?.medianM2 ?? null;
+    const nb = base.neighbours.map((n) => cityPropertyPrices(n.v.slug)?.apartment?.medianM2 ?? null);
+    const written = HOUSING[c.slug]?.avgBuyPriceM2;
+    if (own == null || nb.some((x) => x == null) || !base.housing) {
+      rows.push(`  ${c.slug}: mesure incomplète (commune ${own ?? "—"}, voisines ${nb.map((x) => x ?? "—").join("/")}) — non relue`);
+      continue;
+    }
+    const ratio = Math.round((own / median(nb as number[])) * 1000) / 1000;
+    const out = Math.abs(ratio - 1) > MARKET_RATIO_MAX;
+    const relu = applyRule({ lat: c.latitude, lng: c.longitude, dept: c.department ?? "", order: before, crossDept: mode.crossDept, priceRatio: ratio, rentRatio: mode.rentRatio }, raws).housing!.avgBuyPriceM2;
+    const flag = out ? "  ⚠ hors ± 30 %" : relu !== written ? "  ← à relire" : "";
+    if (!out && relu !== written) changes++;
+    rows.push(`  ${c.slug.padEnd(28)} DVF ${own} ÷ ${median(nb as number[])} = ${ratio.toFixed(3)}  écrit ${written}  relu ${relu}${flag}`);
+  }
+  console.log(`relecture à mesure égale (DVF appartements dépôt ÷ DVF appartements dépôt des 4 voisines de lot) :\n${rows.join("\n")}`);
+  console.log(`\n${changes} repère(s) à relire`);
+  return 0;
+}
+
 function main(): number {
   const raws = readRawScores();
   if (process.argv.includes("--selftest")) return selftest(raws);
+  if (process.argv.includes("--relire")) return relire(raws);
 
   const lat = Number(arg("lat"));
   const lng = Number(arg("lng"));

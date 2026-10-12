@@ -182,6 +182,13 @@ Tourcoing / Wattrelos) en hériterait des notes : elle **attend** un override do
   (la règle ne corrige que le repère logement) : un axe coût hérité de voisines plus chères est un biais
   conservateur assumé, noté au journal. Le selftest rejoue ces villes avec leurs ratios
   (`DOCUMENTED_MODES` de `scripts/seed-neighbours.ts`, sources en commentaire).
+- **Relecture à mesure égale (décidée le 2026-10-12, quatrième run)** — `npm run seed:neighbours:relire`.
+  Dès que le runner a servi la DVF de la commune et de ses 4 voisines de lot, le ratio prix se relit **dans
+  une seule source** (`data/city-property-prices.json`, médiane appartements commune ÷ médiane des voisines),
+  seuils inchangés. Le script n'écrit rien : reporter dans `housing.ts` **et** dans `RELU_APRES_LOT`, puis
+  rejouer jusqu'à « 0 repère(s) à relire » (une ville d'extension peut être voisine d'une autre, donc la
+  relecture d'une ville peut en déplacer une autre ; le graphe suit l'ordre des lots et converge). À lancer
+  à chaque run, après `seed-coverage`, quand de nouvelles villes viennent d'être servies.
 - `neighborhoods.ts` : 2 quartiers **réels**, résumé factuel sans verdict. **Aucune donnée
   infra-communale au dépôt** : leurs notes recopient les notes brutes de la ville (global, sécurité,
   transports, nature, coût ; `nightlife` = culture) et leur loyer T2 celui de la ville. Pas de
@@ -1392,3 +1399,38 @@ pas ville par ville.
 ne trouve plus d'absente au-dessus de 20 000 hab. qui passe la règle, hors reportées connues. Pistes : la relecture
 générale des ratios ci-dessus ; Montigny-lès-Cormeilles ; les overrides documentés (§ 3.2 ③) ; la liste exhaustive
 Insee (passe locale).
+
+### 2026-10-12 (quatrième run) — aucun lot : 24 repères m² relus à mesure égale, 3 villes hors ± 30 %
+
+`seed-coverage` au départ : 1 ville en attente (Carquefou) → lot autorisé, mais **aucune candidate ne passe la
+règle**. Balayage par code Insee de ~110 communes d'Île-de-France de 20 000 hab. et plus : les seules absentes du
+seed sont déjà au backlog comme reportées (Villiers-sur-Marne, Saint-Ouen-l'Aumône, Les Mureaux, Mantes-la-Ville,
+Chatou, Grigny, Les Ulis) ou sous le seuil (Le Pré-Saint-Gervais, Dugny, Le Raincy, Bry-sur-Marne, Bonneuil, Osny).
+En province, **Coudekerque-Branche** (59155, absente vérifiée par code) mesurée : Dunkerque en override, voisines
+admissibles à 35-63 km (Hazebrouck, Armentières, Halluin, Tourcoing) — règle non valable, reportée. ⚠️ Un contrôle
+« absent par nom » donne des faux positifs (`Le Grand-Quevilly` est au seed sous ce nom, 76322) : toujours par code.
+
+*Livrable : la relecture proposée au run précédent, outillée et appliquée.* Nouveau mode `--relire` de
+`scripts/seed-neighbours.ts` (§ 3.3 bis) : pour chaque ville d'extension, DVF appartements de la commune ÷ médiane
+DVF appartements de ses 4 voisines **de lot**, tout lu au dépôt, seuils ± 10 % / ± 30 %. Sur 47 villes mesurables
+(Carquefou pas encore servie, Maisons-Laffitte hors règle) : **23 repères changent** au-delà de ± 10 %, rejoués en
+3 passes jusqu'au point fixe (cascade de voisinage entre villes d'extension). Les plus gros écarts corrigés :
+L'Haÿ-les-Roses 5 700 → 4 500, Fontenay-aux-Roses 6 200 → 4 700, Bussy-Saint-Georges 3 900 → 5 000,
+Montgeron 4 000 → 5 000, Montrouge 6 000 → 7 100, Taverny 3 900 → 3 100, Longjumeau 4 100 → 3 200. Liste complète
+dans `RELU_APRES_LOT` ; le selftest vérifie chaque valeur (48/49, Maisons-Laffitte documentée). Les loyers ne sont
+pas relus : aucune mesure de loyer au dépôt.
+
+⚠️ **Trois villes déjà publiées sortent de ± 30 %**, ce qui veut dire que la règle n'aurait pas dû les admettre :
+**Clichy-sous-Bois** (DVF 1 835 ÷ 2 852,5 = 0,643 ; repère 2 900 → 1 800), **Romainville** (5 240 ÷ 3 423 = 1,531 ;
+3 600 → 5 500), **Ris-Orangis** (2 008 ÷ 2 884 = 0,696 ; 4 000 → 2 800). Leur repère prend le ratio mesuré (plus
+proche du réel que la médiane), mais leurs **notes héritées** — l'axe coût en premier — décrivent leurs voisines,
+pas elles. Elles **attendent un override documenté** dans `lib/score-calibration.ts` ; ne pas les citer au dixième.
+Toucher leurs notes déplacerait leur note rendue (cohorte « extension » : aucune autre ville ne bouge).
+
+*Dérive* : aucune note touchée (seul `avgBuyPriceM2` change). `integrity`, `tsc`, `sitemap:check`,
+`hreflang:check` verts. `npm run build` non lancé.
+
+**Prochain lot** : `seed-coverage`, puis `npm run seed:neighbours:relire` dès que Carquefou est servie. Candidates :
+les overrides des trois villes ci-dessus, de Maisons-Laffitte et de Sucy-en-Brie (§ 3.2 limite connue) ; la liste
+exhaustive Insee (passe locale) ; outiller la règle ② si une candidate en a besoin.
+
