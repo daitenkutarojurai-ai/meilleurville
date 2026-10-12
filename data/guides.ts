@@ -61431,6 +61431,381 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Sceaux", "activités Sceaux 2026", "que faire dans les Hauts-de-Seine", "sorties Île-de-France parc Le Nôtre", "domaine de Sceaux Colbert pavillon Aurore Orangerie"]
   },
   {
+    slug: "10-choses-a-faire-a-montbard-2026",
+    title: "10 choses à faire à Montbard",
+    metaTitle: "10 choses à faire à Montbard en 2026",
+    metaDesc:
+      "Le parc de Buffon, la tour de l'Aubespin et le canal de Bourgogne : 10 choses à faire à Montbard, ville natale du naturaliste.",
+    category: "tourisme",
+    emoji: "🦉",
+    readMinutes: 5,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    intro:
+      "Montbard comptait 4 751 habitants au recensement de 2022, contre 5 476 en 2011. C'est la ville où est né Buffon en 1707 et où il a écrit l'essentiel de son Histoire naturelle, dans un parc en terrasses qu'il a lui-même dessiné sur l'emplacement du château des ducs de Bourgogne. Le canal de Bourgogne passe en contrebas. Ce guide dit ce qui se visite à Montbard même et ce qui relève de communes voisines, qu'on atteint en voiture.",
+    sections: [
+      {
+        heading: "1. Le parc Buffon et ses terrasses",
+        body: "Le parc occupe la colline du château disparu des ducs de Bourgogne. Buffon l'a aménagé en terrasses au XVIIIᵉ siècle, et c'est le premier objectif de la ville : on y monte à pied, on y redescend en regardant la vallée de la Brenne. Les terrasses se parcourent librement, les monuments du parc se visitent avec les modalités affichées par le site, à vérifier avant de venir."
+      },
+      {
+        heading: "2. La tour Saint-Louis et le cabinet de travail",
+        body: "C'est là que Buffon écrivait, dans un cabinet de travail qu'il a fait remanier au XVIIIᵉ siècle et où il recevait ses visiteurs, Diderot compris selon les sources locales. La visite est le meilleur moyen de comprendre comment un naturaliste du siècle des Lumières organisait sa journée. Le cabinet n'est accessible que dans le cadre des visites proposées, dont les jours changent."
+      },
+      {
+        heading: "3. La tour de l'Aubespin",
+        body: "Reste du château médiéval, la tour de l'Aubespin offre une vue sur Montbard et sur la vallée de la Brenne, où passe le canal de Bourgogne. La montée demande de la tenue et l'accès dépend de l'ouverture du site : le guide ne promet donc pas le panorama, il le signale."
+      },
+      {
+        heading: "4. Le musée Buffon et le musée des Beaux-Arts",
+        body: "Montbard garde le souvenir de Buffon dans ses musées, avec des collections d'histoire naturelle et de peinture. Pour un lecteur qui a peu de temps, le parc et le cabinet de travail passent avant. Horaires et salles ouvertes se vérifient auprès de la ville."
+      },
+      {
+        heading: "5. Le canal de Bourgogne à pied ou à vélo",
+        body: "Le canal traverse la vallée de la Brenne et Montbard se trouve sur son parcours. Le chemin de halage se prête à une promenade tranquille ou à un tronçon à vélo, sans dénivelé notable. C'est la sortie la plus simple quand la visite du parc a suffi."
+      },
+      {
+        heading: "6. La Grande Forge de Buffon",
+        body: "Buffon a fait bâtir au XVIIIᵉ siècle une forge, aujourd'hui classée patrimoine industriel, dans le hameau de Buffon, qui est une commune voisine de Montbard et non un quartier. Elle se visite par des sorties organisées : renseignement préalable obligatoire, les créneaux étant limités."
+      },
+      {
+        heading: "7. L'abbaye de Fontenay, accessible depuis Montbard",
+        body: "L'abbaye cistercienne de Fontenay, inscrite à l'UNESCO, est à Marmagne, à quelques kilomètres : ce n'est pas Montbard. Elle demande une visite entière et se combine très bien avec le parc Buffon en une journée. Tarifs et horaires se vérifient auprès de l'abbaye."
+      },
+      {
+        heading: "8. Alésia et Bussy-Rabutin, deux sorties d'une demi-journée",
+        body: "Alésia, site du siège de César, est à Alise-Sainte-Reine, et le château de Bussy-Rabutin à Bussy-le-Grand : deux communes voisines, qui ne se visitent pas dans la même matinée que Montbard. Choisir une seule des deux donne une meilleure journée que de tout enchaîner."
+      },
+      {
+        heading: "9. Une ville industrielle autant que savante",
+        body: "Montbard est aussi une ville de sidérurgie et de tubes, et l'usine voisine du centre est un site en activité, pas une attraction. Le guide le dit pour éviter qu'un visiteur ne la cherche comme un monument : on regarde la ville telle qu'elle travaille, avec ses quartiers de gare et de commerces."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Montbard se trouve sur la ligne ferroviaire Paris-Dijon et sur l'axe routier de l'Auxois ; les dessertes se vérifient avant de partir. Une demi-journée suffit pour le parc et le cabinet de Buffon, une journée complète en ajoutant Fontenay ou le canal."
+      }
+    ],
+    relatedCities: ["montbard","semur-en-auxois","dijon","beaune"],
+    relatedGuides: [
+      "10-choses-a-faire-a-semur-en-auxois-2026",
+      "10-choses-a-faire-a-dijon-2026",
+      "10-choses-a-faire-a-beaune-2026"
+    ],
+    tags: ["10 choses à faire à Montbard","activités Montbard 2026","que faire en Côte-d'Or","sorties Bourgogne Buffon","parc Buffon tour Saint-Louis canal de Bourgogne"]
+  },
+  {
+    slug: "10-choses-a-faire-a-sainte-maxime-2026",
+    title: "10 choses à faire à Sainte-Maxime",
+    metaTitle: "10 choses à faire à Sainte-Maxime en 2026",
+    metaDesc:
+      "La plage de la Nartelle, la tour Carrée et la traversée vers Saint-Tropez : 10 activités à Sainte-Maxime, face au golfe.",
+    category: "tourisme",
+    emoji: "⛵",
+    readMinutes: 5,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    intro:
+      "Sainte-Maxime comptait 14 394 habitants au recensement de 2022, contre 13 337 en 2011. Elle fait face à Saint-Tropez de l'autre côté du golfe, et c'est ce face-à-face qui organise la visite : on y vient pour la mer, pour le front de plage, et pour une traversée en bateau qui est souvent plus simple que la route saturée de l'été. Ce guide dit ce qui se fait sur place et ce qui relève du massif des Maures ou des communes voisines.",
+    sections: [
+      {
+        heading: "1. Le front de mer et le port",
+        body: "La promenade longe le port et la plage, et la ville s'étage derrière. C'est un cadre de station balnéaire, et le meilleur moment de la journée est la fin d'après-midi, quand la lumière tombe sur le golfe en face. Rien n'est à réserver : on marche."
+      },
+      {
+        heading: "2. La plage de la Nartelle",
+        body: "La Nartelle est la grande plage de sable de la commune. En saison elle est très fréquentée et le stationnement se remplit tôt. Les plages surveillées sont signalées par drapeaux réglementaires, et c'est ce balisage, pas un conseil de guide, qui fait foi pour se baigner."
+      },
+      {
+        heading: "3. La tour Carrée et son musée",
+        body: "La tour Carrée, face au port, a été fortification, prison et mairie avant de devenir un musée des traditions locales. C'est la visite culturelle de la ville et elle se fait en une heure. Horaires et jours d'ouverture se vérifient auprès de la mairie, car ils changent avec la saison."
+      },
+      {
+        heading: "4. La traversée en bateau vers Saint-Tropez",
+        body: "Une liaison maritime relie Sainte-Maxime à Saint-Tropez de l'autre côté du golfe. Elle est saisonnière, les horaires et les tarifs se consultent avant de partir, et le dernier retour du soir se vérifie. Saint-Tropez est une commune à part entière, avec son propre guide."
+      },
+      {
+        heading: "5. Le sentier du littoral",
+        body: "Le bord de mer se prolonge par des sentiers qui longent des criques et des propriétés privées. Il faut rester sur les parties balisées : certains accès traversent des terrains privés, et les passages fermés par la commune ne se contournent pas."
+      },
+      {
+        heading: "6. Le marché et la vieille ville",
+        body: "La vieille ville se parcourt en une heure, entre l'église et les ruelles qui montent du port. Le marché provençal se tient dans le centre, jours et horaires à vérifier. C'est la meilleure manière de manger local sans passer par une terrasse du front de mer."
+      },
+      {
+        heading: "7. Les Maures et leur arrière-pays, accessible depuis Sainte-Maxime",
+        body: "Au nord, le massif des Maures commence presque aux portes de la ville. Mais l'accès aux massifs forestiers du Var est réglementé par arrêté préfectoral en été en raison du risque d'incendie : il se consulte le matin même, et passer outre une fermeture est une infraction, pas une imprudence."
+      },
+      {
+        heading: "8. Grimaud et Port-Grimaud, communes voisines",
+        body: "Grimaud, son château en ruine et Port-Grimaud, cité lacustre contemporaine, sont des communes voisines, qui ne sont pas à Sainte-Maxime. Elles se visitent en demi-journée, de préférence hors des heures de pointe de la route côtière."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "Juillet et août concentrent la foule, les prix et les embouteillages sur la route du golfe. Juin et septembre donnent la mer sans la saturation, et le printemps convient à la marche sur le littoral. L'hiver est calme et une partie des commerces ferme."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "La ville n'a pas de gare, et la voiture ou le car restent le moyen habituel ; Fréjus-Saint-Raphaël est la gare la plus proche. Une journée suffit pour la plage, la tour Carrée et la traversée, deux jours si l'on ajoute Grimaud et les Maures."
+      }
+    ],
+    relatedCities: ["sainte-maxime","saint-tropez","frejus","saint-raphael"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-tropez-2026",
+      "10-choses-a-faire-a-frejus-2026",
+      "10-choses-a-faire-a-saint-raphael-2026"
+    ],
+    tags: ["10 choses à faire à Sainte-Maxime","activités Sainte-Maxime 2026","que faire dans le Var","sorties Provence golfe de Saint-Tropez","Sainte-Maxime Nartelle tour Carrée"]
+  },
+  {
+    slug: "10-choses-a-faire-a-mandelieu-la-napoule-2026",
+    title: "10 choses à faire à Mandelieu-la-Napoule",
+    metaTitle: "10 choses à faire à Mandelieu-la-Napoule en 2026",
+    metaDesc:
+      "Le château de la Napoule, le mimosa et l'Estérel : 10 choses à faire à Mandelieu-la-Napoule, à côté de Cannes.",
+    category: "tourisme",
+    emoji: "🌼",
+    readMinutes: 5,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    intro:
+      "Mandelieu-la-Napoule comptait 21 201 habitants au recensement de 2022, contre 22 004 en 2011. Voisine de Cannes, elle réunit un port de plaisance, l'embouchure de la Siagne, le premier massif rouge de l'Estérel et un château acheté par un sculpteur américain. Ce guide dit ce qui se voit à Mandelieu même et ce qui relève de Cannes ou du Tanneron voisin.",
+    sections: [
+      {
+        heading: "1. Le château de la Napoule",
+        body: "Le château au bord de la mer a été acheté en ruine en 1918 par le sculpteur américain Henry Clews et sa femme Marie, qui l'ont restauré et en ont fait leur résidence. Il abrite aujourd'hui une fondation d'art, et ses jardins sont dessinés par Marie Clews. La visite est guidée ou encadrée selon la saison : horaires et réservations se vérifient."
+      },
+      {
+        heading: "2. Le port de la Napoule",
+        body: "Le port et le front de mer se parcourent facilement à pied, avec vue sur le château et sur le massif rouge de l'Estérel. C'est un cadre de plaisance plus que de vieille ville, et la promenade se fait mieux en fin de journée."
+      },
+      {
+        heading: "3. Les plages",
+        body: "Les plages de Mandelieu sont de sable et de galets, souvent aménagées en plages privées avec une partie publique. Les drapeaux de baignade des plages surveillées sont réglementaires et font foi, comme sur toute la côte."
+      },
+      {
+        heading: "4. Le massif de l'Estérel",
+        body: "Le massif de roches rouges commence presque au port. Il offre des sentiers de randonnée, mais son accès est réglementé en été par arrêté préfectoral à cause du risque d'incendie : l'information se consulte le matin même, et un massif fermé est interdit, pas déconseillé."
+      },
+      {
+        heading: "5. Le mimosa",
+        body: "Mandelieu se présente comme une capitale du mimosa et fête la floraison en hiver, généralement en février. Les dates et le programme de la fête varient chaque année, et le tour se fait à la belle saison de floraison, pas toute l'année. Le massif du Tanneron voisin est le grand site de floraison."
+      },
+      {
+        heading: "6. Le Tanneron, accessible depuis Mandelieu",
+        body: "Le massif du Tanneron, couvert de mimosas, est sur des communes voisines, pas à Mandelieu : on y va en voiture ou à pied depuis la ville haute, en vérifiant l'accès avec l'office de tourisme. Il n'y a pas de visite à faire en dehors de la période de floraison, sinon la marche."
+      },
+      {
+        heading: "7. Le golf",
+        body: "Le golf Old Course Cannes-Mandelieu, ouvert à la fin du XIXᵉ siècle, compte parmi les plus anciens du continent, selon les sources consultées. Il se visite comme un parcours de jeu : l'accès est réservé aux joueurs, avec les conditions du club."
+      },
+      {
+        heading: "8. La Siagne et ses berges",
+        body: "La Siagne se jette en mer à Mandelieu et ses berges se prêtent à des promenades à pied ou à vélo. C'est une sortie calme à côté d'une côte très fréquentée."
+      },
+      {
+        heading: "9. Cannes, Grasse et Fréjus à portée",
+        body: "Cannes est la commune voisine, Grasse l'arrière-pays des parfumeurs et Fréjus la ville romaine : trois communes à part entière, avec chacune son guide. Mandelieu fait une bonne base si l'on cherche un hébergement moins cher que Cannes."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Mandelieu est desservie par la route et par des gares du littoral, horaires à vérifier. Une demi-journée suffit pour le château, une journée pour y ajouter l'Estérel ou le port."
+      }
+    ],
+    relatedCities: ["mandelieu-la-napoule","cannes","antibes","frejus","grasse"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cannes-2026",
+      "10-choses-a-faire-a-grasse-2026",
+      "10-choses-a-faire-a-frejus-2026"
+    ],
+    tags: ["10 choses à faire à Mandelieu-la-Napoule","activités Mandelieu-la-Napoule 2026","que faire dans les Alpes-Maritimes","sorties Côte d'Azur château de la Napoule","mimosa Estérel Mandelieu"]
+  },
+  {
+    slug: "10-choses-a-faire-a-berck-2026",
+    title: "10 choses à faire à Berck",
+    metaTitle: "10 choses à faire à Berck en 2026",
+    metaDesc:
+      "La grande plage, la baie d'Authie et l'histoire de la ville-hôpital : 10 choses à faire à Berck, sur la Côte d'Opale.",
+    category: "tourisme",
+    emoji: "🪁",
+    readMinutes: 5,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    intro:
+      "Berck comptait 12 967 habitants au recensement de 2022, contre 15 171 en 2011. C'est une station balnéaire à la plage immense, mais aussi une ville dont l'identité tient à la médecine : dès 1861, l'Assistance publique de Paris y a ouvert un hôpital marin pour soigner des enfants au bord de la mer. Ce guide dit ce qui se voit sur la plage et en ville, et ce qui relève de communes voisines.",
+    sections: [
+      {
+        heading: "1. La plage de Berck",
+        body: "La plage de sable est très large à marée basse et sert de terrain à tout : promenade, char à voile, pêche à pied. C'est la raison de venir. La marée monte vite sur ces grandes étendues plates, et l'horaire des marées se consulte avant de partir loin du bord."
+      },
+      {
+        heading: "2. Les cerfs-volants",
+        body: "Berck est célèbre pour ses rencontres internationales de cerfs-volants, organisées sur la plage. Les dates changent d'une édition à l'autre et se vérifient auprès de l'organisation avant de réserver un séjour pour cette raison, comme pour tout festival."
+      },
+      {
+        heading: "3. Le char à voile et les sports de plage",
+        body: "Les clubs de la plage proposent char à voile et autres sports de vent, avec des baptêmes. Les conditions dépendent du vent et de la marée, et la pratique encadrée vaut mieux que le matériel loué sans initiation."
+      },
+      {
+        heading: "4. L'histoire de la ville-hôpital",
+        body: "À partir de 1857, le médecin Paul Perrochaud y a fait les premières expériences de cure marine sur des enfants, et l'Assistance publique de Paris a bâti un hôpital provisoire en 1861, remplacé par un bâtiment plus grand inauguré en 1869. L'hôpital maritime existe toujours et fait partie de l'AP-HP : c'est un établissement en activité, pas un monument ouvert."
+      },
+      {
+        heading: "5. Le musée de Berck",
+        body: "Le musée municipal conserve des peintures de la mer, impressionnistes et naturalistes, et raconte la ville. Horaires et expositions se vérifient auprès de la ville avant de se déplacer."
+      },
+      {
+        heading: "6. La baie d'Authie, accessible depuis Berck",
+        body: "Au sud, la baie d'Authie est un estuaire de dunes et de vasières, connu pour ses colonies de phoques. Elle demande de la prudence : marée rapide, vasières, et les phoques s'observent à distance, sans approche, avec un guide ou depuis les points signalés. Renseignement auprès de l'office de tourisme."
+      },
+      {
+        heading: "7. Les dunes et le front de mer",
+        body: "Le massif dunaire derrière la plage se parcourt par des sentiers balisés. Il faut rester sur ces sentiers : la dune est fragile et certains secteurs sont protégés."
+      },
+      {
+        heading: "8. Le Touquet et Montreuil-sur-Mer, accessibles depuis Berck",
+        body: "Le Touquet-Paris-Plage, station plus chic, et Montreuil-sur-Mer, ville fortifiée, sont des communes à part entière, à quelques kilomètres : chacune demande une demi-journée, pas un détour d'une heure."
+      },
+      {
+        heading: "9. Une ville qui perd des habitants",
+        body: "Berck a perdu environ 2 200 habitants entre 2011 et 2022, un recul que le recensement mesure sans l'expliquer. Le guide le dit sans verdict : la ville vit de sa plage et de ses établissements de soins, et il n'y a pas de saison qui masque ce chiffre."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Berck est reliée au réseau régional par la route et par une gare, horaires à vérifier. Une journée suffit pour la plage et l'histoire hospitalière, un week-end avec la baie d'Authie."
+      }
+    ],
+    relatedCities: ["berck","boulogne-sur-mer"],
+    relatedGuides: [
+      "10-choses-a-faire-a-boulogne-sur-mer-2026",
+      "10-choses-a-faire-a-calais-2026"
+    ],
+    tags: ["10 choses à faire à Berck","activités Berck 2026","que faire dans le Pas-de-Calais","sorties Hauts-de-France baie d'Authie","Berck plage cerf-volant hôpital maritime"]
+  },
+  {
+    slug: "10-choses-a-faire-a-florac-trois-rivieres-2026",
+    title: "10 choses à faire à Florac-Trois-Rivières",
+    metaTitle: "10 choses à faire à Florac-Trois-Rivières en 2026",
+    metaDesc:
+      "Le parc national des Cévennes, la source du Pêcher et les gorges du Tarn : 10 choses à faire à Florac-Trois-Rivières.",
+    category: "tourisme",
+    emoji: "🏞️",
+    readMinutes: 5,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    intro:
+      "Florac-Trois-Rivières comptait 2 111 habitants au recensement de 2022. La commune est née en 2016 de la fusion de Florac et de La Salle-Prunet. C'est la porte du parc national des Cévennes et un point de départ vers les gorges du Tarn, les causses et le mont Lozère. Ce guide dit ce que la ville offre et ce qui relève des communes voisines, en insistant sur la montagne, où la météo commande.",
+    sections: [
+      {
+        heading: "1. Le château et la maison du Parc national des Cévennes",
+        body: "Le château de Florac abrite la maison du parc national des Cévennes, qui sert de porte d'entrée : cartes, expositions et renseignements sur les sentiers. Pour tout projet de randonnée, c'est la première étape, avant de partir marcher."
+      },
+      {
+        heading: "2. La source du Pêcher",
+        body: "La source du Pêcher jaillit au pied de la falaise à l'entrée de la ville et alimente le Tarnon. C'est une promenade courte et une halte facile, qui donne le ton de la région des eaux vives."
+      },
+      {
+        heading: "3. La falaise et le rocher de Rochefort",
+        body: "Au-dessus de la ville, la falaise marque le bord du causse Méjean. Les sentiers qui y montent dénivellent fortement et la chaleur d'été se fait sentir : eau, chaussures de marche et départ matinal sont la règle."
+      },
+      {
+        heading: "4. Les rivières de Florac",
+        body: "Plusieurs cours d'eau traversent la ville, dont le Tarnon. Les baignades en rivière suivent les règles affichées, les crues cévenoles étant soudaines. La baignade se décide sur place, pas sur un guide."
+      },
+      {
+        heading: "5. Le chemin de Stevenson",
+        body: "Le GR 70, dit chemin de Stevenson, suit l'itinéraire de l'écrivain écossais à travers les Cévennes avec son âne, et passe par Florac. Il se parcourt en étapes, avec hébergement à réserver à l'avance en saison."
+      },
+      {
+        heading: "6. Les gorges du Tarn, accessibles depuis Florac",
+        body: "Les gorges du Tarn commencent en aval, sur les communes de Sainte-Enimie et alentour : ce n'est pas Florac. On y accède en voiture par une route étroite et sinueuse, et la descente en canoë se fait avec un prestataire. Les crues et les orages se consultent avant de partir."
+      },
+      {
+        heading: "7. Le mont Lozère, l'Aigoual et le causse Méjean",
+        body: "Ces sites sont de la haute montagne cévenole, à plusieurs dizaines de minutes de route. La météo y change vite, les orages d'été sont la règle et les routes d'altitude peuvent fermer en hiver."
+      },
+      {
+        heading: "8. Le paysage inscrit à l'UNESCO",
+        body: "Les causses et les Cévennes sont inscrits à l'UNESCO depuis 2011 comme paysage culturel de l'agropastoralisme méditerranéen. Ce qui se voit est un système de fermes et de pâturages, plus qu'un monument."
+      },
+      {
+        heading: "9. Les épisodes cévenols",
+        body: "Les épisodes pluvieux cévenols peuvent provoquer des crues soudaines. En cas d'alerte, les routes et les gués ferment, et l'information officielle fait foi. Il vaut mieux repousser une sortie que la maintenir."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Florac n'a pas de gare, la route est le moyen habituel, avec des routes de montagne à parcourir lentement. Une journée suffit pour la ville et la source, un séjour de plusieurs jours pour les gorges et les causses."
+      }
+    ],
+    relatedCities: ["florac-trois-rivieres","mende","millau","ales"],
+    relatedGuides: [
+      "10-choses-a-faire-a-mende-2026",
+      "10-choses-a-faire-a-millau-2026",
+      "10-choses-a-faire-a-ales-2026"
+    ],
+    tags: ["10 choses à faire à Florac-Trois-Rivières","activités Florac-Trois-Rivières 2026","que faire en Lozère","sorties Occitanie Cévennes","parc national des Cévennes gorges du Tarn Florac"]
+  },
+  {
+    slug: "10-choses-a-faire-a-sallanches-2026",
+    title: "10 choses à faire à Sallanches",
+    metaTitle: "10 choses à faire à Sallanches en 2026",
+    metaDesc:
+      "Une ville reconstruite en style sarde face au Mont-Blanc : 10 choses à faire à Sallanches, porte de la vallée de l'Arve.",
+    category: "tourisme",
+    emoji: "🏔️",
+    readMinutes: 5,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    intro:
+      "Sallanches comptait 17 041 habitants au recensement de 2022, contre 15 683 en 2011. La ville a été détruite par un incendie en 1840 et reconstruite sur un plan neuf dans le style néoclassique sarde, la Savoie dépendant alors du royaume de Sardaigne. Elle est aujourd'hui un point de passage entre la vallée de l'Arve, Chamonix et Megève, avec le Mont-Blanc en toile de fond. Ce guide dit ce qui se visite à Sallanches même et ce qui relève de communes voisines.",
+    sections: [
+      {
+        heading: "1. La ville reconstruite",
+        body: "Après l'incendie de 1840, Sallanches a été rebâtie selon un plan en damier, dans le style néoclassique sarde. La promenade dans le centre est celle d'une ville de rues droites et d'arcades, très différente d'un village savoyard ancien."
+      },
+      {
+        heading: "2. L'hôtel de ville et ses arcades",
+        body: "L'hôtel de ville, construit au milieu des années 1840, est un exemple du style sarde avec ses arcades. À l'intérieur, une peinture représente la ville avant l'incendie. L'accès aux salles dépend des horaires de la mairie."
+      },
+      {
+        heading: "3. Le pont Saint-Martin et la vue sur le Mont-Blanc",
+        body: "Le vieux pont Saint-Martin sur l'Arve est un point de vue très reproduit sur le massif. Le Mont-Blanc n'est visible que par ciel dégagé : un jour couvert ne montre rien, et le guide ne promet pas le panorama."
+      },
+      {
+        heading: "4. La place Charles-Albert",
+        body: "La place porte le nom du roi de Sardaigne qui a engagé des fonds pour la reconstruction. Elle sert de cœur à la ville reconstruite et se parcourt en quelques minutes."
+      },
+      {
+        heading: "5. Le Mont-Blanc depuis la plaine",
+        body: "Sallanches offre l'un des points de vue les plus dégagés sur le Mont-Blanc depuis une vallée, sans montée en altitude. La lumière du matin et du soir est la meilleure, et la météo décide."
+      },
+      {
+        heading: "6. La randonnée en moyenne montagne",
+        body: "Les sentiers au-dessus de la ville mènent vers les alpages et les balcons. La montagne se prépare : orages d'été fréquents l'après-midi, météo changeante et neige tardive dans les hauteurs."
+      },
+      {
+        heading: "7. Chamonix, Megève et Saint-Gervais, accessibles depuis Sallanches",
+        body: "Chamonix, Megève et Saint-Gervais sont des communes à part entière et chacune a ses sites : le tramway du Mont-Blanc part de Saint-Gervais, pas de Sallanches. Sallanches sert de base moins chère pour rayonner dans la vallée."
+      },
+      {
+        heading: "8. Le parapente et les sports de plein air",
+        body: "La vallée est connue pour le vol libre, en particulier le parapente. La pratique se fait avec un moniteur diplômé, et les conditions de vol dépendent du vent : un vol annulé pour la météo est un vol bien géré."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "L'été offre la randonnée et les longues journées, l'hiver le ski dans les stations voisines, et l'automne des journées claires. Le printemps est une saison de transition, entre neige et boue."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Sallanches a une gare sur la ligne de la vallée de l'Arve et une sortie d'autoroute, horaires à vérifier. Une demi-journée suffit pour le centre et la vue, une journée avec une sortie en montagne."
+      }
+    ],
+    relatedCities: ["sallanches","annecy"],
+    relatedGuides: [
+      "10-choses-a-faire-a-annecy-2026"
+    ],
+    tags: ["10 choses à faire à Sallanches","activités Sallanches 2026","que faire en Haute-Savoie","sorties Auvergne-Rhône-Alpes Mont-Blanc","Sallanches architecture sarde vue Mont-Blanc"]
+  },
+  {
     slug: "10-choses-a-faire-a-chateaudun-2026",
     title: "10 choses à faire à Châteaudun",
     metaTitle: "10 choses à faire à Châteaudun en 2026",

@@ -9625,6 +9625,36 @@
       "emoji": "🌳"
     },
     {
+      "slug": "10-choses-a-faire-a-montbard-2026",
+      "title": "10 choses à faire à Montbard",
+      "emoji": "🦉"
+    },
+    {
+      "slug": "10-choses-a-faire-a-sainte-maxime-2026",
+      "title": "10 choses à faire à Sainte-Maxime",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "10-choses-a-faire-a-mandelieu-la-napoule-2026",
+      "title": "10 choses à faire à Mandelieu-la-Napoule",
+      "emoji": "🌼"
+    },
+    {
+      "slug": "10-choses-a-faire-a-berck-2026",
+      "title": "10 choses à faire à Berck",
+      "emoji": "🪁"
+    },
+    {
+      "slug": "10-choses-a-faire-a-florac-trois-rivieres-2026",
+      "title": "10 choses à faire à Florac-Trois-Rivières",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-sallanches-2026",
+      "title": "10 choses à faire à Sallanches",
+      "emoji": "🏔️"
+    },
+    {
       "slug": "10-choses-a-faire-a-chateaudun-2026",
       "title": "10 choses à faire à Châteaudun",
       "emoji": "🏰"
@@ -10919,6 +10949,11 @@
     {
       "slug": "que-faire-dans-la-metropole-de-lyon",
       "label": "que faire dans la Métropole de Lyon",
+      "count": 3
+    },
+    {
+      "slug": "que-faire-dans-le-var",
+      "label": "que faire dans le Var",
       "count": 3
     },
     {
