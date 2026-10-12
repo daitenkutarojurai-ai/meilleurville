@@ -10,6 +10,10 @@
 //      by name, never split (convention of lib/owner-rankings.ts). A ranking
 //      stops before a tier that would overflow its length and says what came
 //      next.
+//
+// **Convention** — ranks raw measurements (higher = more polluted, see
+// lib/city-air.ts); "cleanest" sorts ascending, "worst" descending. Never a
+// /10 score, never the scoreColor palette.
 
 import { CITIES_SEED } from "@/data/cities-seed";
 import { AIR_POLLUTANTS, cityAirMeasures, type AirMeasure, type AirPollutant } from "@/lib/city-air";

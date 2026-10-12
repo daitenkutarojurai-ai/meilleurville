@@ -8,6 +8,15 @@
 // Distinct from lib/air-quality.ts, which MODELS exposure from seed fields
 // (10 = worst). These are measurements: µg/m³ annual means, and for ozone a
 // count of days. Higher is worse for all four; there is no score here.
+//
+// **Convention** — raw measurements, never a /10 score: higher = more polluted
+// for all four pollutants, in their own unit (µg/m³, or days for ozone). No
+// surface may convert them to "10 = clean" or feed them to scoreColor /
+// scoreHex (the global 10 = green palette); colour them against the reference
+// thresholds below (WHO guideline / EU limit), as AirMeasuredCard does. FR
+// and EN surfaces read the same value and must print it at the same precision.
+// The modelled score of lib/air-quality.ts (10 = worst, inverted at display to
+// "10 = air le plus pur") is a different number and may disagree with these.
 
 import raw from "@/data/city-air.json";
 
