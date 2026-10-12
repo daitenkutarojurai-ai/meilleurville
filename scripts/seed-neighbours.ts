@@ -252,6 +252,11 @@ const DOCUMENTED_MODES: Record<string, Pick<Candidate, "crossDept" | "priceRatio
   // appartements des 4 voisines) = 1,26 ; intra-source PAP 3 477 ÷ 2 903 (Orvault 3 193, Saint-Herblain
   // 2 613) = 1,20, à 5 % près ; efficity par quartier 3 120-3 350. Pas de loyer au m² du même portail.
   "la-chapelle-sur-erdre": { priceRatio: 1.26 },
+  // lot 13 (2026-10-12) : DVF appartements PAP 3 319 €/m² (1er juin 2026) ÷ 2 609 €/m² (médiane DVF
+  // appartements des 3 voisines mesurées : Rezé 2 609, Vertou 3 477, Saint-Herblain 2 567 ; La Chapelle-sur-Erdre
+  // pas encore servie par le runner) = 1,27 ; intra-source efficity (quartiers Centre 3 280, Baugerie 3 260 ÷
+  // Rezé 2 660-2 800) ≈ 1,20, à 6 % près. Pas de loyer au m² du même portail.
+  "saint-sebastien-sur-loire": { priceRatio: 1.27 },
 };
 
 function selftest(raws: Map<string, Raw>): number {

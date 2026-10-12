@@ -15878,6 +15878,32 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Grand ensemble pavillonnaire bâti dans les années 1970, presque exclusivement composé de maisons, avec équipements sportifs, centre commercial et le plus ancien parc d'activités de la commune." },
     ],
   },
+  {
+    citySlug: "saint-sebastien-sur-loire",
+    neighborhoods: [
+      { slug: "centre-ville", name: "Centre-ville", type: "résidentiel",
+        scores: { global: 6.6, safety: 6.4, transport: 7.4, nature: 7.2, cost: 5.8, nightlife: 6 },
+        avgRentT2: 690, tags: ["centre-ville","commerces"],
+        summary: "Cœur historique de la commune, où se concentrent les commerces et les services municipaux." },
+      { slug: "la-profondine", name: "La Profondine", type: "résidentiel",
+        scores: { global: 6.6, safety: 6.4, transport: 7.4, nature: 7.2, cost: 5.8, nightlife: 6 },
+        avgRentT2: 690, tags: ["maisons individuelles","habitat des Castors"],
+        summary: "Quartier pavillonnaire né dans les années 1950, quand des terrains furent vendus à des ouvriers qui bâtirent eux-mêmes leurs maisons ; les noms de rues (rue de l'Union, rue de la Solidarité) en gardent la trace." },
+    ],
+  },
+  {
+    citySlug: "bouguenais",
+    neighborhoods: [
+      { slug: "le-bourg", name: "Le Bourg", type: "résidentiel",
+        scores: { global: 6.6, safety: 6.4, transport: 7.4, nature: 7.2, cost: 5.8, nightlife: 6 },
+        avgRentT2: 690, tags: ["mairie","centre-ville"],
+        summary: "Centre principal de la commune, sur le coteau, où se trouvent la mairie et la plupart des services." },
+      { slug: "les-couets", name: "Les Couëts", type: "résidentiel",
+        scores: { global: 6.6, safety: 6.4, transport: 7.4, nature: 7.2, cost: 5.8, nightlife: 6 },
+        avgRentT2: 690, tags: ["second centre","coteau"],
+        summary: "Second centre de la commune, lui aussi sur le coteau, assez éloigné du Bourg pour être habituellement considéré comme une entité distincte." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

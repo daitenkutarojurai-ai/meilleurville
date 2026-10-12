@@ -1,6 +1,6 @@
 # MeilleurVille — Project briefing
 
-French city ranking & relocation guide site. 586 cities, 524 FR guides + 261 EN guides, 19 ranking
+French city ranking & relocation guide site. 588 cities, 524 FR guides + 261 EN guides, 19 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 (Counts derived at build — see `lib/site-stats.ts`; figures here are indicative.)
 
@@ -123,16 +123,16 @@ normalisation), pas en lisant le seed source. La table d'avant portait les compt
 n'est plus « très rare », il tient 3,5 % du corpus. Recompter après tout ajout de villes —
 recompté le 2026-10-06 à 544 villes (extension du seed, lot 1 : +2 orange, +2 rouge), puis le
 2026-10-07 à 551 (lot 2 : +1 ambre, +4 orange, +2 rouge), puis le 2026-10-08 à 556 (lot 3 : +1 orange,
-+4 rouge), puis le 2026-10-09 à 561 (lot 4 : +2 ambre, +1 orange, +2 rouge), puis le 2026-10-10 à 568 (lot 5 : +1 ambre, +4 orange, +2 rouge), puis le même jour à 572 (lot 6 : +1 ambre, +3 orange), puis le même jour à 578 (lot 7 : +4 ambre, +2 orange), puis le même jour à 580 (lot 8 : +1 ambre, +1 rouge), puis le 2026-10-11 à 582 (lot 9 : +1 orange, +1 rouge), puis le même jour à 583 (lot 10 : +1 rouge), puis le même jour à 585 (lot 11 : +1 ambre, +1 orange), puis le 2026-10-12 à 586 (lot 12 : +1 ambre) ; les 540 d'origine n'ont pas bougé,
++4 rouge), puis le 2026-10-09 à 561 (lot 4 : +2 ambre, +1 orange, +2 rouge), puis le 2026-10-10 à 568 (lot 5 : +1 ambre, +4 orange, +2 rouge), puis le même jour à 572 (lot 6 : +1 ambre, +3 orange), puis le même jour à 578 (lot 7 : +4 ambre, +2 orange), puis le même jour à 580 (lot 8 : +1 ambre, +1 rouge), puis le 2026-10-11 à 582 (lot 9 : +1 orange, +1 rouge), puis le même jour à 583 (lot 10 : +1 rouge), puis le même jour à 585 (lot 11 : +1 ambre, +1 orange), puis le 2026-10-12 à 586 (lot 12 : +1 ambre), puis le même jour à 588 (lot 13 : +2 ambre) ; les 540 d'origine n'ont pas bougé,
 cf. § Score pipeline, cohorte de référence.
 
-| Range  | Colour  | Count (586 cities) | Meaning        |
+| Range  | Colour  | Count (588 cities) | Meaning        |
 |--------|---------|-------------------|----------------|
 | ≥ 7.5  | Violet (`#A855F7`) | 19 (3.2%) | Exceptionnel   |
 | ≥ 7.0  | Green   | 50 (8.5%)         | Excellent      |
-| ≥ 6.0  | Lime    | 151 (25.8%)       | Bon            |
-| ≥ 5.0  | Amber   | 153 (26.1%)       | Moyen          |
-| ≥ 4.0  | Orange  | 119 (20.3%)       | En dessous     |
+| ≥ 6.0  | Lime    | 151 (25.7%)       | Bon            |
+| ≥ 5.0  | Amber   | 155 (26.4%)       | Moyen          |
+| ≥ 4.0  | Orange  | 119 (20.2%)       | En dessous     |
 | < 4.0  | Red     | 94 (16.0%)        | Mauvais        |
 
 Distribution mean ≈ 5.36. Penalties:

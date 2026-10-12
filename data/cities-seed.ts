@@ -17173,6 +17173,50 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "La Chapelle-sur-Erdre (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.4/10. Nantes Métropole suburb on the Erdre, served by the tram-train.",
     scores: { global: 6.7, life: 7, transport: 7.3, nature: 7.4, cost: 5.7, safety: 6.6, culture: 6, remoteWork: 6.9, schools: 6.8 },
+  },
+  {
+    slug: "saint-sebastien-sur-loire",
+    name: "Saint-Sébastien-sur-Loire",
+    scoreCohort: "extension",
+    region: "Pays de la Loire",
+    department: "Loire-Atlantique",
+    inseeCode: "44190",
+    population: 28600,
+    latitude: 47.2079,
+    longitude: -1.5023,
+    elevation: 18,
+    sunshinedays: 1940,
+    avgTempJuly: 21.4,
+    avgTempJanuary: 5.4,
+    characterTags: ["Loire-Atlantique","Nantes Métropole","rive sud de la Loire","cité-jardin"],
+    descriptionEn:
+      "Saint-Sébastien-sur-Loire is a Nantes Métropole commune on the south bank of the Loire, facing Nantes and between Rezé and Vertou. It is largely residential, built up in garden-suburb districts such as La Profondine, where workers built their own houses in the 1950s. Apartments sell for more here than in most of its neighbours. Best fit: households who want a quiet suburb a short hop from Nantes.",
+    seoTitleEn: "Saint-Sébastien-sur-Loire — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Sébastien-sur-Loire (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.4/10. Residential Nantes Métropole suburb on the south bank of the Loire.",
+    scores: { global: 6.6, life: 6.9, transport: 7.4, nature: 7.2, cost: 5.8, safety: 6.4, culture: 6, remoteWork: 6.9, schools: 6.7 },
+  },
+  {
+    slug: "bouguenais",
+    name: "Bouguenais",
+    scoreCohort: "extension",
+    region: "Pays de la Loire",
+    department: "Loire-Atlantique",
+    inseeCode: "44020",
+    population: 20500,
+    latitude: 47.18,
+    longitude: -1.6236,
+    elevation: 21,
+    sunshinedays: 1900,
+    avgTempJuly: 21.5,
+    avgTempJanuary: 5.5,
+    characterTags: ["Loire-Atlantique","Nantes Métropole","rive sud de la Loire","deux centres : Le Bourg et Les Couëts"],
+    descriptionEn:
+      "Bouguenais is a Nantes Métropole commune on the south bank of the Loire, west of Rezé, and home to Nantes Atlantique airport. It has two centres on the hillside, Le Bourg, where the town hall is, and Les Couëts, far enough apart to be treated as separate places. Best fit: households working in the southern half of the Nantes area who want a suburban budget.",
+    seoTitleEn: "Bouguenais — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bouguenais (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.4/10. Nantes Métropole suburb south of the Loire, home to Nantes Atlantique airport.",
+    scores: { global: 6.6, life: 6.9, transport: 7.4, nature: 7.2, cost: 5.8, safety: 6.4, culture: 6, remoteWork: 7, schools: 6.7 },
   }
 ];
 

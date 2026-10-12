@@ -3516,6 +3516,18 @@
       "name": "La Chapelle-sur-Erdre",
       "region": "Pays de la Loire",
       "score": 5.4
+    },
+    {
+      "slug": "saint-sebastien-sur-loire",
+      "name": "Saint-Sébastien-sur-Loire",
+      "region": "Pays de la Loire",
+      "score": 5.4
+    },
+    {
+      "slug": "bouguenais",
+      "name": "Bouguenais",
+      "region": "Pays de la Loire",
+      "score": 5.4
     }
   ],
   "guides": [

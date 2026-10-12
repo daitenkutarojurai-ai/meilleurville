@@ -270,10 +270,10 @@ Maisons-Alfort → repère 6 200 €/m² contre ~3 750-4 300 € au marché (+50
 le 2026-10-10 (lot 6), règle valable, non retenues faute de place : Juvisy-sur-Orge (voisines 2,2-2,6 km, pop. à
 confirmer ≥ 20 000), Morsang-sur-Orge, Brétigny-sur-Orge, Saint-Michel-sur-Orge, Saint-Cyr-l'École, Roissy-en-Brie,
 Bussy-Saint-Georges, Lagny-sur-Marne ; ~~Chilly-Mazarin~~ (91161, **lot 11**) ; Deuil-la-Barre (Sarcelles dans la médiane), Montigny-lès-Cormeilles (2 voisines d'extension),
-Gif-sur-Yvette, Mantes-la-Ville, Montereau, Mitry-Mory, Ozoir, Carquefou, Bouguenais, Vallauris, Miramas (voisines
+Gif-sur-Yvette, Mantes-la-Ville, Montereau, Mitry-Mory, Ozoir, Carquefou (remesurée lot 13, reportée), ~~Bouguenais~~ (**lot 13**), Vallauris, Miramas (voisines
 trop éloignées ou en override) **reportées** ; mesurées le 2026-10-10 et **reportées** :
 Villeneuve-le-Roi, Limeil-Brévannes (plus proche voisine en Essonne), Cenon (rive droite, voisines rive gauche),
-Saint-Sébastien-sur-Loire (2 voisines admissibles), Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne,
+~~Saint-Sébastien-sur-Loire~~ (**lot 13**), Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne,
 Croix, Wasquehal, Les Ulis, Villeparisis, Le Mée-sur-Seine, Dammarie-les-Lys (voisines trop éloignées ou en
 override) ; mesurées le 2026-10-09 et **reportées** : Montfermeil, Les Lilas,
 Villiers-sur-Marne, Chevilly-Larue (cf. journal) ; non retenues faute de place, règle valable : Orly
@@ -1270,3 +1270,71 @@ zones protégées, orientation politique.
 absente qui passe la règle. Restent : ③ overrides documentés (Maisons-Laffitte, Sucy-en-Brie, Villeneuve-d'Ascq,
 Le Plessis-Trévise, Villiers-sur-Marne, Limeil-Brévannes) ; Montigny-lès-Cormeilles si une seconde source
 communale DVF (Immovrai, Habity) confirme le −28 % ; et la liste exhaustive Insee (passe locale / runner).
+
+### 2026-10-12 (second run) — lot 13 (+2) : Saint-Sébastien-sur-Loire, Bouguenais
+
+`seed-coverage` au départ : **1 ville en attente** (La Chapelle-sur-Erdre, lot 12 du matin) → lot autorisé. 586 →
+**588**, Loire-Atlantique, aucun département ni région nouveaux.
+
+*Comment ces deux villes ont été trouvées.* Un balayage par nom de ~200 communes de 20 000+ hab. a confirmé que
+presque toutes sont au seed. Les absentes ont été **remesurées** avec le seed actuel : l'arrivée de La
+Chapelle-sur-Erdre (lot 12) et de Couëron (lot 8) donne désormais **4 voisines admissibles** à deux communes de
+Nantes Métropole reportées le 2026-10-10 pour en manquer.
+
+| Commune | Règle § 3.2 | Marché § 3.3 bis | Décision |
+|---|---|---|---|
+| Saint-Sébastien-sur-Loire (44190) | Rezé 4,5 · Vertou 4,9 · La Chapelle-sur-Erdre* 10,9 · Saint-Herblain 11,2 km, aucune alerte | ratio 1,27 (voir ci-dessous) | **lot 13** |
+| Bouguenais (44020) | Saint-Herblain 4,5 · Rezé 5,6 · Couëron* 8,7 · Orvault 10,0 km, aucune alerte | ratio 1,10, au seuil : repère médian conservé | **lot 13** |
+| Carquefou (44026, 20 921 hab. en 2023, Banatic + Wikipédia EN) | La Chapelle* 4,6 · Orvault 10,4 · Rezé 13,4 · Vertou 14,3 km | PAP 3 344 / RealAdvisor 3 427 ÷ 2 907 (3 voisines mesurées) = 1,16 ; intra-source PAP (Orvault 3 193, La Chapelle 3 477) = 1,00 | **reportée** : le ratio intra-source ne confirme pas (écart > 10 %), même motif que Montigny-lès-Cormeilles |
+| Chatou (78146, 30 598 hab. en 2023, Wikipédia EN + notre-planete) | `--cross-dept` : selon le centre retenu (latlong 48,8897/2,1573 ou distanceenvoiture 48,8964/2,1601), la 4ᵉ voisine est Suresnes ou **Bezons** ; avec Bezons la garde **refuse** (écart de biais coût > 1,0) | PAP 4 682 / RealAdvisor 5 717 | **reportée** : la règle ne tient pas sur toutes les coordonnées plausibles |
+| Montigny-lès-Cormeilles (95424) | valable | seconde source communale cherchée : seule RealAdvisor (3 584) publie un chiffre communal, efficity par quartier (2 120-2 690) | **reportée**, inchangé |
+| Villeparisis (77) | 4ᵉ voisine à 10,5 km, 8 villes du 93 plus proches | — | reportée, inchangé |
+| Miramas (13), Lunel (34) | 4ᵉ voisine à 47 km / 1 voisine | — | reportées, inchangé |
+
+*Identité* (absence vérifiée par code Insee via `seed:neighbours --insee`) :
+
+| Ville | Insee | Pop. seed | Source pop. (municipale en vigueur) | Coordonnées | Altitude (min-max → milieu) |
+|---|---|---|---|---|---|
+| Saint-Sébastien-sur-Loire | 44190 | 28 600 | 28 596 (Banatic ; Wikipédia ; habity, 2023) | 47,2079 N −1,5023 (latlong 47,2081/−1,5014 ; distancecalculator 47,2077/−1,5033) | 2-33 → 18 m (geneawiki) |
+| Bouguenais | 44020 | 20 500 | 20 530 (Banatic ; Wikipédia, populations de référence 2023 ; bien-dans-ma-ville) | 47,1800 N −1,6236 (Wikipédia 47°10′48″N 1°37′25″W) | 1-41 → 21 m (Wikipédia ; areq.net) |
+
+*Notes brutes* (règle standard, aucune alerte) : Saint-Sébastien 6,9 · 7,4 · 7,2 · 5,8 · 6,4 · 6 · 6,9 · 6,7 (global
+6,6), Bouguenais 6,9 · 7,4 · 7,2 · 5,8 · 6,4 · 6 · 7 · 6,7 (global 6,6) ; rendus **5,4** (ambre) tous les deux. Les
+deux médianes sont presque identiques parce que les deux villes partagent Rezé et Saint-Herblain ; c'est ce que la
+règle produit, pas une recopie. Climat : Nantes (4,0 km) pour Saint-Sébastien, Saint-Herblain (4,5 km) pour
+Bouguenais.
+
+*Logement* (§ 3.3 bis) :
+- **Saint-Sébastien** : DVF appartements PAP **3 319 €/m²** (1ᵉʳ juin 2026) ÷ **2 609 €/m²**, médiane DVF des
+  voisines **mesurées** (`city-property-prices.json` : Rezé 2 609, Vertou 3 477, Saint-Herblain 2 567 ; La
+  Chapelle-sur-Erdre pas encore servie par le runner) → **1,27** ; intra-source efficity (quartiers Centre 3 280,
+  Baugerie 3 260 contre Rezé 2 660-2 800) ≈ 1,20, à 6 % près. Repère 500/690/930, **4 300 €/m²** (3 400 × 1,27).
+  ⚠️ Avec La Chapelle comptée à son prix PAP (3 477), la médiane passerait à 3 043 et le ratio à 1,09 — sous le
+  seuil. Le ratio retenu est celui des seules mesures DVF au dépôt, comme la règle le prescrit ; le relire quand le
+  runner aura servi La Chapelle. Ratio inscrit dans `DOCUMENTED_MODES`.
+- **Bouguenais** : DVF appartements ~**3 040 €/m²** (PAP 3 151 ; efficity 2 930) ÷ **2 758 €/m²** (Saint-Herblain
+  2 567, Rezé 2 609, Orvault 2 907, Couëron 3 083) → **1,10** ; intra-source PAP (3 151 ÷ médiane Saint-Herblain
+  2 613 / Orvault 3 193 = 2 903) 1,085. Au seuil de ± 10 % : repère médian **conservé**, 500/690/930, 3 400 €/m².
+- Pas de loyer au m² d'un même portail pour les voisines : loyers = médiane.
+
+*Quartiers* (notes = ville) : Saint-Sébastien **Centre-ville** (efficity « centre » ; annonce « cœur historique ») et
+**La Profondine** (plaquette municipale de février 2022 : terrains vendus dans les années 1950 à des ouvriers
+bâtissant eux-mêmes, rues de l'Union et de la Solidarité ; efficity « Jaunaie-Profondine » ; SeLoger « cité-jardin ») ;
+Bouguenais **Le Bourg** et **Les Couëts** (Wikipédia et areq.net : deux centres sur le coteau, le Bourg porte la
+mairie ; efficity, quartiers Le Bourg et Couëts est/ouest/sud).
+*Faits évités faute de source vérifiée ce run* : numéros et terminus des lignes de tram (Neustrie), haltes TER de
+Saint-Sébastien. L'aéroport Nantes Atlantique est cité dans `descriptionEn` de Bouguenais (Wikipédia EN) mais
+**pas en tag** : « aéroport » contient la sous-chaîne `port` (§ 3.3). Codes postaux 44230, 44340 → 588/588.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation**. Couleurs recomptées sur `CITIES_SEED` (588) :
+19 / 50 / 151 / **155** / 119 / 94, moyenne 5,36.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` + `:check`, `sitemap:check`, `hreflang:check`,
+`seed:neighbours:selftest` (après commit). `npm run build` non lancé.
+
+*En attente du runner* : 3 villes (La Chapelle-sur-Erdre, Saint-Sébastien-sur-Loire, Bouguenais).
+
+**Prochain lot** : `seed-coverage` d'abord. Le gisement « règle valable » se renouvelle surtout quand une ville
+d'extension comble un trou de voisinage (cas de ce lot) : remesurer les reportées des agglomérations où un lot vient
+d'arriver. Restent Carquefou (seconde source intra-source), Montigny-lès-Cormeilles, les overrides documentés (§ 3.2
+③) et la liste exhaustive Insee.
