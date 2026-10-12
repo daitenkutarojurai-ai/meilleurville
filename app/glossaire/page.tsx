@@ -925,6 +925,48 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Études supérieures, bourses et logement étudiant",
+    emoji: "🎓",
+    terms: [
+      {
+        term: "Dossier social étudiant (DSE)",
+        def: "Une seule démarche en ligne ouvre deux droits, la bourse sur critères sociaux et une place en résidence universitaire, et elle se fait avant d'avoir la réponse de Parcoursup. Le dossier se dépose sur le portail messervices.etudiant.gouv.fr et s'appuie sur l'avis d'imposition des parents de l'année N-2 : pour la rentrée 2026, les revenus de 2024. La date qui compte est la fin mai, autour du 31 : un dossier terminé avant cette échéance est prioritaire pour la demande de logement Crous. La notification est d'abord conditionnelle, elle devient définitive à l'inscription. L'erreur classique est d'attendre de savoir dans quelle ville on étudie pour commencer : le DSE se remplit avant, et la ville s'indique ensuite.",
+      },
+      {
+        term: "Bourse sur critères sociaux et échelons",
+        def: "La bourse de l'État se calcule sur les revenus et les charges de la famille, pas sur le dossier scolaire, et se range en huit échelons, de 0 bis à 7. Selon les barèmes publiés pour 2026-2027, elle va d'environ 1 450 € à environ 6 300 € par an, versée sur dix mois ; les sources divergent sur une éventuelle revalorisation par rapport à l'an dernier, donc le montant exact de votre échelon se lit sur le simulateur du Crous, pas sur une page de presse. L'échelon 0 bis dispense des droits d'inscription mais ne verse presque rien. Le point utile à une famille qui compare deux villes : la bourse est la même partout, alors que le loyer d'une chambre ne l'est pas. Dans une ville chère, elle ne couvre qu'une fraction du logement ; dans une ville moyenne, elle peut en couvrir l'essentiel.",
+      },
+      {
+        term: "CVEC (contribution vie étudiante et de campus)",
+        def: "Contribution annuelle obligatoire à régler avant de pouvoir s'inscrire dans un établissement d'enseignement supérieur, dont l'attestation est demandée à l'inscription. Elle est de 105 € pour l'année 2026-2027, indexée chaque année sur les prix, et se règle en ligne auprès du Crous, quel que soit l'établissement. Les boursiers sur critères sociaux en sont exonérés, de même que certaines situations particulières comme celle des réfugiés. Elle finance l'accompagnement, la santé, la culture et le sport sur le campus, et sert de repère pour distinguer les frais d'inscription, fixés au plan national dans le public, de ce qui est réclamé en plus.",
+      },
+      {
+        term: "Résidence Crous et chambre universitaire",
+        def: "Le parc des résidences du Crous loue des chambres et des studios à loyer réglementé, nettement sous le marché privé dans les grandes villes, mais il ne suffit pas à loger tous les demandeurs. L'attribution suit des critères sociaux et la date du dossier, donc le même étudiant a une probabilité très différente d'obtenir une chambre selon la ville, et il n'existe pas de loyer national à citer : le tarif dépend de la résidence et de la rénovation du bâtiment. Les chambres non attribuées au printemps sont proposées au fil de l'eau sur le portail du Crous, y compris après la rentrée. Il faut aussi prévoir un garant : un parent ou la garantie Visale, définie plus haut.",
+      },
+      {
+        term: "Visale pour un étudiant",
+        def: "La garantie Visale d'Action Logement, déjà définie dans la section des aides au logement, est gratuite pour les étudiants de 18 à 30 ans sans condition de ressources, quel que soit le type de logement. C'est le garant le plus simple pour une famille qui n'a pas de parent solvable à proposer, ou qui ne souhaite pas engager sa propre signature. La demande de visa se fait en ligne avant la signature du bail. Elle couvre les loyers et charges impayés, pas les dégradations du logement.",
+      },
+      {
+        term: "Bail étudiant de neuf mois",
+        def: "En location meublée, un étudiant peut signer un bail de neuf mois qui s'achève à son terme, sans reconduction tacite, au lieu du bail d'un an. Le dépôt de garantie d'un meublé est plafonné à deux mois de loyer hors charges. Ce bail convient à qui part en stage ou rentre chez ses parents l'été, mais il implique de retrouver un logement à chaque rentrée, ce qui est précisément le moment où l'offre est la plus rare dans les villes universitaires. Le bail de mobilité, défini plus haut, est une autre formule, de un à dix mois, qui n'admet aucun dépôt de garantie. Les deux ne se confondent pas, et un propriétaire qui propose l'un en l'appelant l'autre se trompe de texte.",
+      },
+      {
+        term: "Aide à la mobilité Parcoursup",
+        def: "Aide de 500 € versée une seule fois aux lycéens boursiers qui acceptent définitivement un vœu dans une formation située hors de leur académie de résidence. Il faut avoir été boursier du lycée dans l'année, et la demande se fait en ligne à partir de juin, par le portail des services étudiants ; le versement est assuré par le Crous d'accueil en début d'année universitaire. Un complément de 1 500 € existe pour certains boursiers titulaires d'un bac professionnel qui quittent l'Île-de-France. L'aide est modeste devant le coût d'une installation (dépôt, premier loyer, assurance, billets) mais elle est automatique dans son principe, et elle fait partie des droits qu'un déménagement fait gagner ou perdre selon l'académie choisie.",
+      },
+      {
+        term: "Alternance et logement",
+        def: "Un alternant est à la fois étudiant et salarié, ce qui lui ouvre des guichets que le simple étudiant n'a pas, mais aussi des pièges. Il peut solliciter les aides d'Action Logement pour les jeunes en formation professionnelle, comme Mobili-Jeune et l'avance Loca-Pass, déjà définies dans la section des aides au logement. Son rythme (semaines en entreprise, semaines en cours) oblige souvent à deux points de chute, l'un près du centre de formation, l'autre près de l'employeur, et un bail à l'année dans une seule des deux villes laisse l'autre à la charge de l'alternant. La question du logement se pose donc dès la signature du contrat, avant le bail, et le bail de mobilité de un à dix mois est parfois plus adapté que l'étudiant de neuf mois.",
+      },
+      {
+        term: "Colocation, APL et statut d'étudiant",
+        def: "En colocation, le bail est soit unique et solidaire pour tous les colocataires, soit individuel pour chacun ; l'aide au logement se calcule alors par personne, selon le loyer qu'elle supporte réellement. Un étudiant peut y prétendre comme tout locataire, avec les conditions de ressources et de logement des aides détaillées plus haut, et la bourse ne l'exclut pas. Le piège est la solidarité : dans un bail unique, un colocataire qui part ne libère pas les autres de ses loyers pendant la période prévue par la loi, ce qui doit se lire avant de signer, surtout quand l'un des colocataires est un inconnu trouvé sur une annonce.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -971,7 +1013,7 @@ export default function GlossairePage() {
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
             locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants,
             l&apos;accès aux soins, les transports, le marché du travail, les factures d&apos;eau et
-            de déchets et la dépendance du grand âge en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
+            de déchets et la dépendance du grand âge, les études supérieures et le logement étudiant en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
             connaître avant de signer.
           </p>
         </div>

@@ -2740,7 +2740,7 @@ Vaulx-en-Velin, Saint-Priest, Bron) et les trous listés aux batches 34 et 36 ci
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré
 depuis le tableau — ajouter un terme suffit, rien d'autre à câbler. **Compteur mesuré
-(`grep -c 'term: "'`) : 200 termes, 18 sections** (2026-09-28). ⚠️ Un terme ajouté oblige à
+(`grep -c 'term: "'`) : 209 termes, 19 sections** (2026-10-12). Dernière section ajoutée le 2026-10-12 : « Études supérieures, bourses et logement étudiant » 🎓 (9 termes : DSE, bourse sur critères sociaux en 8 échelons, CVEC 105 € en 2026-2027, résidence Crous, Visale étudiant, bail meublé de 9 mois, aide à la mobilité Parcoursup 500 €, alternance et logement, colocation). Faits recoupés par recherche web ; ⚠️ le montant exact des échelons de bourse 2026-2027 n'est pas publié en chiffres précis (sources divergentes sur une revalorisation) : fourchette ~1 450–6 300 €/an seulement, renvoi au simulateur Crous. Date limite du DSE donnée « autour du 31 mai » (millésime 2026), à revérifier chaque année. Pas de jumelle EN (le glossaire EN est une sélection). ⚠️ Un terme ajouté oblige à
 remonter `GLOSSARY_TERMS_COUNT` (`lib/site-stats.ts`, 183 → 200 ce run) : `npm run integrity`
 recompte la page et **échoue** sinon — le nombre est affiché sur `/outils`, `/recherche`, la carte
 OG et `StaticPageCrossLink`. Dernière section ajoutée : « Grand âge, dépendance et aide à domicile »
