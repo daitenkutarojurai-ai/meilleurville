@@ -13,7 +13,7 @@
    "https://eeadmz1-downloads-api-appservice.azurewebsites.net/ParquetFile/urls"
   ],
   "licence": "EEA re-use policy (CC BY 4.0); measurements by the AASQA, compiled by LCSQA (Licence Ouverte)",
-  "generatedAt": "2026-10-11",
+  "generatedAt": "2026-10-12",
   "evaluated": [
    "annecy",
    "nantes",
@@ -599,7 +599,10 @@
    "villeneuve-le-roi",
    "mons-en-baroeul",
    "morsang-sur-orge",
-   "chilly-mazarin"
+   "chilly-mazarin",
+   "la-chapelle-sur-erdre",
+   "saint-sebastien-sur-loire",
+   "bouguenais"
   ],
   "pollutants": [
    "no2",
@@ -16051,6 +16054,108 @@
     "area": "urban",
     "distanceKm": 9.4,
     "coverage": 0.99
+   }
+  },
+  "la-chapelle-sur-erdre": {
+   "no2": {
+    "value": 8.5,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 8.7,
+    "coverage": 0.99
+   },
+   "pm10": {
+    "value": 13,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 8.7,
+    "coverage": 0.98
+   },
+   "pm25": {
+    "value": 8.4,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 8.7,
+    "coverage": 0.98
+   },
+   "o3": {
+    "value": 8,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 8.7,
+    "coverage": 0.99
+   }
+  },
+  "saint-sebastien-sur-loire": {
+   "no2": {
+    "value": 8.5,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 0.99
+   },
+   "pm10": {
+    "value": 13,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 0.98
+   },
+   "pm25": {
+    "value": 8.4,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 0.98
+   },
+   "o3": {
+    "value": 8,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 3.1,
+    "coverage": 0.99
+   }
+  },
+  "bouguenais": {
+   "no2": {
+    "value": 10.3,
+    "station": "LA CHABOSSIERE",
+    "stationCode": "FR23239",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 0.99
+   },
+   "pm10": {
+    "value": 14.2,
+    "station": "LA CHABOSSIERE",
+    "stationCode": "FR23239",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 0.99
+   },
+   "pm25": {
+    "value": 9.6,
+    "station": "LA CHABOSSIERE",
+    "stationCode": "FR23239",
+    "area": "urban",
+    "distanceKm": 2.5,
+    "coverage": 0.99
+   },
+   "o3": {
+    "value": 7,
+    "station": "EPINETTES",
+    "stationCode": "FR23157",
+    "area": "suburban",
+    "distanceKm": 6.3,
+    "coverage": 0.98
    }
   }
  }

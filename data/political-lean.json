@@ -20473,5 +20473,110 @@
 "abstentionPct": 24.3,
 "blancsNulsPct": 2.1
 }
+},
+"la-chapelle-sur-erdre": {
+"lean": "gauche",
+"topPct": 38.4,
+"blocs": {
+"gauche": 38.4,
+"centre": 35.9,
+"droite": 6.9,
+"extreme_droite": 18.9
+},
+"leanScore": -12.6,
+"insee": "44035",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.4,
+"roussel": 2.4,
+"melenchon": 22.0,
+"hidalgo": 2.7,
+"jadot": 10.1,
+"poutou": 0.7,
+"macron": 35.9,
+"pecresse": 4.9,
+"lassalle": 1.9,
+"lepen": 11.8,
+"zemmour": 5.2,
+"dupont-aignan": 1.8
+},
+"topCand": "macron",
+"topCandPct": 35.9,
+"turnout": {
+"inscrits": 15917,
+"exprimes": 12498,
+"abstentionPct": 20.0,
+"blancsNulsPct": 1.8
+}
+},
+"saint-sebastien-sur-loire": {
+"lean": "gauche",
+"topPct": 41.7,
+"blocs": {
+"gauche": 41.7,
+"centre": 34.6,
+"droite": 6.2,
+"extreme_droite": 17.5
+},
+"leanScore": -18.0,
+"insee": "44190",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.5,
+"roussel": 2.6,
+"melenchon": 25.3,
+"hidalgo": 3.1,
+"jadot": 9.4,
+"poutou": 0.9,
+"macron": 34.6,
+"pecresse": 4.3,
+"lassalle": 1.9,
+"lepen": 11.8,
+"zemmour": 4.3,
+"dupont-aignan": 1.4
+},
+"topCand": "macron",
+"topCandPct": 34.6,
+"turnout": {
+"inscrits": 20881,
+"exprimes": 16048,
+"abstentionPct": 21.7,
+"blancsNulsPct": 1.9
+}
+},
+"bouguenais": {
+"lean": "gauche",
+"topPct": 45.1,
+"blocs": {
+"gauche": 45.1,
+"centre": 28.3,
+"droite": 4.7,
+"extreme_droite": 22.0
+},
+"leanScore": -18.4,
+"insee": "44020",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.7,
+"roussel": 2.8,
+"melenchon": 30.2,
+"hidalgo": 3.0,
+"jadot": 7.4,
+"poutou": 0.9,
+"macron": 28.3,
+"pecresse": 2.9,
+"lassalle": 1.8,
+"lepen": 15.9,
+"zemmour": 4.2,
+"dupont-aignan": 1.8
+},
+"topCand": "melenchon",
+"topCandPct": 30.2,
+"turnout": {
+"inscrits": 14754,
+"exprimes": 10879,
+"abstentionPct": 24.5,
+"blancsNulsPct": 2.4
+}
 }
 }

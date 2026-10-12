@@ -443,6 +443,12 @@
     "a": "Patrick Despoix",
     "l": "CC BY-SA 4.0"
   },
+  "bouguenais": {
+    "h": "f16fd408",
+    "c": "#181818",
+    "a": "Bouguenaiscom",
+    "l": "CC BY-SA 4.0"
+  },
   "boulogne-billancourt": {
     "h": "bb9d5b1e",
     "c": "#98b8e8",
@@ -1558,6 +1564,12 @@
     "c": "#b89868",
     "a": "Wikineptune",
     "l": "CC BY-SA 3.0"
+  },
+  "la-chapelle-sur-erdre": {
+    "h": "38eed994",
+    "c": "#080808",
+    "a": "Pepie34",
+    "l": "CC BY-SA 2.0 fr"
   },
   "la-ciotat": {
     "h": "85e68285",
@@ -2908,6 +2920,12 @@
     "c": "#787878",
     "a": "Eponimm",
     "l": "CC BY-SA 3.0"
+  },
+  "saint-sebastien-sur-loire": {
+    "h": "ff5b3de9",
+    "c": "#181818",
+    "a": "Ville de Saint-Sébastien-sur-Loire",
+    "l": "CC BY-SA 4.0"
   },
   "saint-tropez": {
     "h": "15f478af",

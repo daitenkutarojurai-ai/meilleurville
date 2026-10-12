@@ -1553,6 +1553,27 @@
       "height": 300
     }
   },
+  "bouguenais": {
+    "insee": "44020",
+    "qid": "Q291197",
+    "file": "Drone église (7).jpg",
+    "author": "Bouguenaiscom",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Bouguenaiscom&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Drone_%C3%A9glise_(7).jpg",
+    "color": "#181818",
+    "hero": {
+      "src": "/photos/villes/bouguenais-1024.3b932343.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/bouguenais-480.f16fd408.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "boulogne-billancourt": {
     "insee": "92012",
     "qid": "Q172455",
@@ -5455,6 +5476,27 @@
     },
     "card": {
       "src": "/photos/villes/la-baule-480.cda0bebd.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "la-chapelle-sur-erdre": {
+    "insee": "44035",
+    "qid": "Q681819",
+    "file": "Mairie - La Chapelle-sur-Erdre.jpg",
+    "author": "Pepie34",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Pepie34",
+    "license": "CC BY-SA 2.0 fr",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mairie_-_La_Chapelle-sur-Erdre.jpg",
+    "color": "#080808",
+    "hero": {
+      "src": "/photos/villes/la-chapelle-sur-erdre-1024.8af6ae7a.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/la-chapelle-sur-erdre-480.38eed994.webp",
       "width": 480,
       "height": 300
     }
@@ -10180,6 +10222,27 @@
     },
     "card": {
       "src": "/photos/villes/saint-remy-de-provence-480.5254aa28.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "saint-sebastien-sur-loire": {
+    "insee": "44190",
+    "qid": "Q337636",
+    "file": "Vue aérienne de Saint-Sébastien-sur-Loire.jpg",
+    "author": "Ville de Saint-Sébastien-sur-Loire",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:SaintSeb&amp;action=edit&amp;redlink=1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_de_Saint-S%C3%A9bastien-sur-Loire.jpg",
+    "color": "#181818",
+    "hero": {
+      "src": "/photos/villes/saint-sebastien-sur-loire-1024.e44ca418.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/saint-sebastien-sur-loire-480.ff5b3de9.webp",
       "width": 480,
       "height": 300
     }

@@ -291,6 +291,10 @@
     "medianIncome": 24870,
     "povertyRate": 17
   },
+  "bouguenais": {
+    "povertyRate": 11,
+    "medianIncome": 23740
+  },
   "boulogne-billancourt": {
     "medianIncome": 35040,
     "povertyRate": 9
@@ -1027,6 +1031,10 @@
   "la-baule": {
     "medianIncome": 28490,
     "povertyRate": 8
+  },
+  "la-chapelle-sur-erdre": {
+    "medianIncome": 28210,
+    "povertyRate": 7
   },
   "la-ciotat": {
     "medianIncome": 23580,
@@ -1911,6 +1919,10 @@
   "saint-remy-de-provence": {
     "medianIncome": 23250,
     "povertyRate": 17
+  },
+  "saint-sebastien-sur-loire": {
+    "medianIncome": 25500,
+    "povertyRate": 9
   },
   "saint-tropez": {
     "medianIncome": 25990,

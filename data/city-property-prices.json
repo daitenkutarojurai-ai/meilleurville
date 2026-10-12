@@ -1463,6 +1463,26 @@
     ],
     "queryVersion": 1
   },
+  "bouguenais": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 87,
+      "medianM2": 3160,
+      "p25M2": 2798,
+      "p75M2": 3468
+    },
+    "house": {
+      "sales": 337,
+      "medianM2": 2875,
+      "p25M2": 2492,
+      "p75M2": 3284
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "boulogne-billancourt": {
     "coverage": "dvf",
     "apartment": {
@@ -5064,6 +5084,26 @@
       "medianM2": 5654,
       "p25M2": 4297,
       "p75M2": 7351
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "la-chapelle-sur-erdre": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 123,
+      "medianM2": 3410,
+      "p25M2": 3170,
+      "p75M2": 3661
+    },
+    "house": {
+      "sales": 265,
+      "medianM2": 3382,
+      "p25M2": 2936,
+      "p75M2": 3769
     },
     "years": [
       2024,
@@ -9456,6 +9496,26 @@
       "medianM2": 5842,
       "p25M2": 4326,
       "p75M2": 8000
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "saint-sebastien-sur-loire": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 393,
+      "medianM2": 3273,
+      "p25M2": 2772,
+      "p75M2": 3591
+    },
+    "house": {
+      "sales": 416,
+      "medianM2": 3406,
+      "p25M2": 2953,
+      "p75M2": 3820
     },
     "years": [
       2024,
