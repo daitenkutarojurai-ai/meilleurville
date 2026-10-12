@@ -17151,6 +17151,28 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "Chilly-Mazarin (Essonne, Île-de-France): quality-of-life score 5.2/10. Essonne suburb between Longjumeau, Savigny-sur-Orge and Massy.",
     scores: { global: 6.4, life: 6.5, transport: 7, nature: 6.4, cost: 5.5, safety: 6.4, culture: 6.3, remoteWork: 7.4, schools: 6.8 },
+  },
+  {
+    slug: "la-chapelle-sur-erdre",
+    name: "La Chapelle-sur-Erdre",
+    scoreCohort: "extension",
+    region: "Pays de la Loire",
+    department: "Loire-Atlantique",
+    inseeCode: "44035",
+    population: 20700,
+    latitude: 47.2997,
+    longitude: -1.5517,
+    elevation: 29,
+    sunshinedays: 1900,
+    avgTempJuly: 21.5,
+    avgTempJanuary: 5.5,
+    characterTags: ["Loire-Atlantique","Nantes Métropole","Erdre","tram-train Nantes–Châteaubriant"],
+    descriptionEn:
+      "La Chapelle-sur-Erdre is a Nantes Métropole commune on the Erdre river, north of Nantes and next to Orvault. The Nantes–Châteaubriant tram-train, reopened in 2014, stops at La Chapelle-Centre and La Chapelle-Aulnay. Apartments sell for more here than in most of its neighbours. Best fit: households who want a green suburb with a direct rail link into Nantes.",
+    seoTitleEn: "La Chapelle-sur-Erdre — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Chapelle-sur-Erdre (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.4/10. Nantes Métropole suburb on the Erdre, served by the tram-train.",
+    scores: { global: 6.7, life: 7, transport: 7.3, nature: 7.4, cost: 5.7, safety: 6.6, culture: 6, remoteWork: 6.9, schools: 6.8 },
   }
 ];
 

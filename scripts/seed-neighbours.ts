@@ -248,6 +248,10 @@ const DOCUMENTED_MODES: Record<string, Pick<Candidate, "crossDept" | "priceRatio
   // lot 11 : DVF appartements ~2 499 €/m² (PAP 2 507, efficity 2 490) ÷ 3 376 €/m² (médiane des 4 voisines,
   // Massy et Palaiseau tirent la médiane) ; intra-source PAP 2 507 ÷ 3 536 (Massy, Savigny) = 0,71.
   "chilly-mazarin": { priceRatio: 0.74 },
+  // lot 12 (2026-10-12) : DVF appartements PAP 3 477 €/m² (1er juin 2026) ÷ 2 758 €/m² (médiane DVF
+  // appartements des 4 voisines) = 1,26 ; intra-source PAP 3 477 ÷ 2 903 (Orvault 3 193, Saint-Herblain
+  // 2 613) = 1,20, à 5 % près ; efficity par quartier 3 120-3 350. Pas de loyer au m² du même portail.
+  "la-chapelle-sur-erdre": { priceRatio: 1.26 },
 };
 
 function selftest(raws: Map<string, Raw>): number {

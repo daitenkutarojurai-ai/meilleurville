@@ -15865,6 +15865,19 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Partie basse de la commune autour de la rue de Gravigny, l'une des rues commerçantes de Chilly-Mazarin ; densité de logements nettement supérieure à la moyenne communale." },
     ],
   },
+  {
+    citySlug: "la-chapelle-sur-erdre",
+    neighborhoods: [
+      { slug: "centre-ville-gare-chene-vert", name: "Centre-ville – Gare – Chêne Vert", type: "résidentiel",
+        scores: { global: 6.7, safety: 6.6, transport: 7.3, nature: 7.4, cost: 5.7, nightlife: 6 },
+        avgRentT2: 700, tags: ["halte La Chapelle-Centre (tram-train)","centre-ville"],
+        summary: "Centre de la commune, autour de la place de l'Église et de la halte La Chapelle-Centre du tram-train ; il concentre l'essentiel des commerces de la ville." },
+      { slug: "gesvrine", name: "Gesvrine", type: "résidentiel",
+        scores: { global: 6.7, safety: 6.6, transport: 7.3, nature: 7.4, cost: 5.7, nightlife: 6 },
+        avgRentT2: 700, tags: ["lotissement des années 1970","maisons individuelles"],
+        summary: "Grand ensemble pavillonnaire bâti dans les années 1970, presque exclusivement composé de maisons, avec équipements sportifs, centre commercial et le plus ancien parc d'activités de la commune." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

@@ -3510,6 +3510,12 @@
       "name": "Chilly-Mazarin",
       "region": "Île-de-France",
       "score": 5.2
+    },
+    {
+      "slug": "la-chapelle-sur-erdre",
+      "name": "La Chapelle-sur-Erdre",
+      "region": "Pays de la Loire",
+      "score": 5.4
     }
   ],
   "guides": [

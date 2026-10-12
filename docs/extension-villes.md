@@ -1212,3 +1212,61 @@ actualité, zones protégées, orientation politique.
 **Prochain lot** : `seed-coverage` d'abord. Le backlog « règle valable » est maintenant vide en Essonne ; restent les
 overrides documentés (§ 3.2 ③) et la liste exhaustive des communes de 20 000+ absentes (base Insee, passe
 locale/runner) pour trouver les communes manquées par le contrôle par nom.
+
+### 2026-10-12 — lot 12 (+1) : La Chapelle-sur-Erdre
+
+`seed-coverage` au départ : **0 ville en attente** (le runner a servi le lot 11 : population 583/585, revenus
+578/585, photos 583/585 = manques permanents connus ; tout le reste 585/585) → lot autorisé. 585 → **586**,
+Loire-Atlantique, aucun département ni région nouveaux.
+
+*Pourquoi une seule ville.* Un balayage par nom de ~250 communes de 20 000+ hab. connues a confirmé que le seed les
+porte presque toutes ; les absentes au-dessus du seuil sont celles déjà reportées (Cenon, Lormont, Gardanne,
+Cournon, Les Ulis, Montigny-lès-Cormeilles, DROM). Deux ont été remesurées ce run :
+
+| Commune | Règle § 3.2 | Marché § 3.3 bis | Décision |
+|---|---|---|---|
+| La Chapelle-sur-Erdre (44035) | Orvault 6,3 · Saint-Herblain 11,8 · Rezé 12,9 · Vertou 15,7 km | +26 %, confirmé intra-source | **lot 12** |
+| Montigny-lès-Cormeilles (95424, 22 457 hab. en 2023, Banatic + habity) | **désormais valable**, aucune alerte (Cormeilles 1,7 · Herblay* 2,1 · Franconville 3,0 · Ermont 4,7 km) | PAP 2 618 €/m² ÷ 3 635 (médiane DVF voisines) = 0,72 ; intra-source PAP Cormeilles 4 203 → 0,62 (écart > 10 %) ; RealAdvisor 3 584 (≈ 0,99) | **reportée** : ratio à −28 %, au bord du seuil, et non confirmé par une seconde source communale |
+| Les Ulis (91692) | 4ᵉ voisine à 13,2 km, villes des Yvelines/Hauts-de-Seine plus proches | PAP 2 390 / efficity 2 400 ÷ 3 376 = 0,71 (−29 %) | **reportée** : grand ensemble entouré de Palaiseau / Massy, au bord du seuil |
+| Saint-Leu, La Possession, Sainte-Marie (974), Le Gosier (971) | 4ᵉ voisine à 27-42 km ; Le Gosier 2 voisines | — | reportées (même motif que Le Port / Sainte-Marie le 2026-10-10) |
+| Floirac (33) | valable, voisines rive gauche | — | non retenue : rive droite comme Cenon, et ~18 000 hab. (non recoupé) |
+
+*Identité* : Insee **44035** (absence vérifiée par code), population municipale en vigueur **20 690** (Banatic ;
+Wikipédia EN citant les populations de référence 2023 publiées le 18/12/2025 ; bien-dans-ma-ville) → 20 700 au
+seed. Coordonnées 47,2997 N −1,5517 (Wikipédia ; distanceenvoiture 47,2996/−1,5506). Altitude 1-57 m (Wikipédia,
+mairie.net) → milieu **29 m**.
+
+*Notes brutes* (règle standard) : médiane d'Orvault, Saint-Herblain, Rezé, Vertou → 7 · 7,3 · 7,4 · 5,7 · 6,6 · 6 ·
+6,9 · 6,8, global 6,7 ; rendu **5,4** (ambre ; voisines rendues 5,8 / 5,0 / 5,4 / 5,5). ⚠️ 4ᵉ voisine à 15,7 km
+(au-delà des 12,6 km du lot 7) : assumé, les quatre sont des communes de Nantes Métropole, Nantes elle-même en
+override, et le backtest donne l'erreur standard (0,57) sous 25 km. Climat : Orvault (1 900 h / 21,5 °C / 5,5 °C).
+
+*Logement* (§ 3.3 bis) : DVF appartements PAP **3 477 €/m²** (1ᵉʳ juin 2026) ÷ **2 758 €/m²**, médiane DVF des 4
+voisines (`city-property-prices.json` : Saint-Herblain 2 567, Rezé 2 609, Orvault 2 907, Vertou 3 477) → **1,26** ;
+intra-source PAP (Orvault 3 193, Saint-Herblain 2 613) → 1,20, à 5 % près ; efficity par quartier 3 120-3 350,
+RealAdvisor 3 648. Repère : loyers médiane des voisines 500/700/940, **4 200 €/m²** (3 300 × 1,26). Pas de loyer au
+m² d'un même portail pour les voisines : pas de ratio loyer. L'axe coût hérite de voisines moins chères : biais
+**favorable** à la ville, noté (inverse du lot 11). Ratio inscrit dans `DOCUMENTED_MODES`.
+
+*Quartiers* (notes = ville) : **Centre-ville – Gare – Chêne Vert** (lesclefsdechezmoi ; efficity « centre-ville » ;
+halte TER La Chapelle-Centre ; rues commerçantes place de l'Église / rue Martin-Luther-King, unemplacement) et
+**Gesvrine** (guide municipal 2009 : grand ensemble des années 1970, équipements sportifs, centre commercial, plus
+ancien parc d'activités ; efficity Gesvrine Est/Ouest ; IRIS 440350108 repris par lapporteurdimmo ;
+lesclefsdechezmoi : 99 % de maisons).
+*Faits retenus* : tram-train Nantes–Châteaubriant rouvert en 2014, haltes La Chapelle-Centre et La Chapelle-Aulnay
+(guide municipal, TER). Tags sans `port`/`mer`/`côte`. Code postal 44240 → postal-codes 586/586.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation**. Couleurs recomptées sur `CITIES_SEED` (586) :
+19 / 50 / 151 / **153** / 119 / 94, moyenne 5,36.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (586 villes) + `:check`, `sitemap:check`
+(FR 31 460, EN 31 059), `hreflang:check`, `seed:neighbours:selftest` (la ville se rejoue une fois le commit
+`feat(seed)` présent). `npm run build` non lancé.
+
+*En attente du runner* : 1 ville — population, revenus, DVF, littoral, parcs, photos, biodiversité, actualité,
+zones protégées, orientation politique.
+
+**Prochain lot** : `seed-coverage` d'abord. Le contrôle par nom ne trouve presque plus de commune de 20 000+ hab.
+absente qui passe la règle. Restent : ③ overrides documentés (Maisons-Laffitte, Sucy-en-Brie, Villeneuve-d'Ascq,
+Le Plessis-Trévise, Villiers-sur-Marne, Limeil-Brévannes) ; Montigny-lès-Cormeilles si une seconde source
+communale DVF (Immovrai, Habity) confirme le −28 % ; et la liste exhaustive Insee (passe locale / runner).

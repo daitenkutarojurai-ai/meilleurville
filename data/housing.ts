@@ -595,6 +595,7 @@ export const HOUSING: Record<string, HousingData> = {
   "mons-en-baroeul": { avgRentT1: 400, avgRentT2: 550, avgRentT3: 740, avgBuyPriceM2: 1700 },
   "morsang-sur-orge": { avgRentT1: 690, avgRentT2: 950, avgRentT3: 1280, avgBuyPriceM2: 3500 },
   "chilly-mazarin": { avgRentT1: 750, avgRentT2: 1030, avgRentT3: 1390, avgBuyPriceM2: 3000 },
+  "la-chapelle-sur-erdre": { avgRentT1: 500, avgRentT2: 700, avgRentT3: 940, avgBuyPriceM2: 4200 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
