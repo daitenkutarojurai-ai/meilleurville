@@ -32255,47 +32255,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Vienne est une commune de l'Isère, 30 000 habitants au bord du Rhône — l'une des plus anciennes cités françaises (capitale des Allobroges celtiques au -IVe siècle av. J.-C., puis cité romaine majeure — Vienna Allobrogum, l'une des trois capitales de la Gaule romaine avec Lyon et Narbonne). La ville garde des vestiges antiques exceptionnels (Temple d'Auguste et de Livie, théâtre romain de 13 000 places). Aujourd'hui célèbre dans le monde entier pour Jazz à Vienne — l'un des plus grands festivals de jazz au monde.",
+    intro: "Vienne est une commune de l'Isère, 30 000 habitants au bord du Rhône, et l'une des plus anciennes cités françaises. Capitale des Allobroges celtiques au -IVe siècle av. J.-C., elle devient ensuite une cité romaine majeure : Vienna Allobrogum, l'une des trois capitales de la Gaule romaine avec Lyon et Narbonne. Elle en garde des vestiges antiques exceptionnels, dont le Temple d'Auguste et de Livie et un théâtre romain de 13 000 places. Aujourd'hui, le monde entier la connaît surtout pour Jazz à Vienne, l'un des plus grands festivals de jazz au monde.",
     sections: [
       {
         heading: "1. Le Temple d'Auguste et de Livie — Ier siècle av. J.-C.",
-        body: "Le Temple d'Auguste et de Livie (Ier siècle av. J.-C., dédié à l'empereur Auguste et son épouse Livie — l'un des deux seuls temples romains complets de France encore debout avec la Maison Carrée de Nîmes) est l'icône antique de Vienne. 18 m de hauteur, 24 m de long, façade à 6 colonnes corinthiennes. Réutilisé comme église au Moyen Âge (ce qui l'a sauvé de la démolition). À voir absolument.",
+        body: "Le Temple d'Auguste et de Livie, élevé au Ier siècle av. J.-C. pour l'empereur Auguste et son épouse Livie, est l'icône antique de Vienne. Avec la Maison Carrée de Nîmes, c'est l'un des deux seuls temples romains complets de France encore debout. Il mesure 18 m de hauteur et 24 m de long, et sa façade compte 6 colonnes corinthiennes. Réutilisé comme église au Moyen Âge, il a ainsi échappé à la démolition. À voir absolument.",
       },
       {
         heading: "2. Le théâtre romain — 13 000 places",
-        body: "Le Théâtre romain de Vienne (Ier siècle ap. J.-C., adossé à la colline du Mont Pipet — 13 000 places, l'un des plus grands théâtres romains de la Gaule, comparable à celui d'Orange à 100 km au sud) est le site emblématique de Jazz à Vienne. Restauré au XXe siècle, il accueille chaque été les concerts du festival. Visite libre hors période de concert.",
+        body: "Le théâtre romain de Vienne date du Ier siècle ap. J.-C. et s'adosse à la colline du Mont Pipet. Avec ses 13 000 places, c'est l'un des plus grands théâtres romains de la Gaule, comparable à celui d'Orange à 100 km au sud. C'est aussi le site emblématique de Jazz à Vienne. Restauré au XXe siècle, il accueille chaque été les concerts du festival. Hors période de concert, la visite est libre.",
       },
       {
         heading: "3. Le festival Jazz à Vienne — fin juin-mi-juillet",
-        body: "Jazz à Vienne (créé en 1981, 15 jours fin juin-mi-juillet — l'un des plus grands festivals de jazz au monde, 200 000 spectateurs/an) accueille les plus grands : Herbie Hancock, Marcus Miller, Diana Krall, Tony Bennett, Stevie Wonder. Concerts du soir dans le théâtre antique romain (5 000 places — atmosphère magique sous les étoiles), concerts gratuits du midi au Jardin de Cybèle. Réservation des places très à l'avance pour les concerts de tête d'affiche.",
+        body: "Jazz à Vienne, créé en 1981, dure 15 jours, de fin juin à mi-juillet. C'est l'un des plus grands festivals de jazz au monde, avec 200 000 spectateurs/an, et il accueille les plus grands : Herbie Hancock, Marcus Miller, Diana Krall, Tony Bennett, Stevie Wonder. Le soir, les concerts se tiennent dans le théâtre antique romain (5 000 places), dans une atmosphère magique sous les étoiles. À midi, ils sont gratuits, au Jardin de Cybèle. Pour les têtes d'affiche, réservez très à l'avance.",
       },
       {
         heading: "4. Les vignobles AOC Côte-Rôtie et Condrieu",
-        body: "L'AOC Côte-Rôtie (à 5 km au sud de Vienne, sur la rive droite du Rhône — 240 ha de vignobles en terrasses, cépage syrah dominant) est l'une des plus prestigieuses AOC de la vallée du Rhône. Producteurs de premier ordre : Domaine Guigal (les iconiques « La Mouline », « La Landonne », « La Turque » — vendus 200-500€/bouteille), Domaine Jamet, Domaine Rostaing. AOC Condrieu (à 10 km — l'une des plus rares AOC blanches de France, cépage viognier exclusivement).",
+        body: "L'AOC Côte-Rôtie s'étend à 5 km au sud de Vienne, sur la rive droite du Rhône : 240 ha de vignobles en terrasses, avec la syrah pour cépage dominant. C'est l'une des plus prestigieuses AOC de la vallée du Rhône. Les producteurs de premier ordre s'appellent Domaine Guigal (les iconiques « La Mouline », « La Landonne », « La Turque », vendus 200-500€/bouteille), Domaine Jamet et Domaine Rostaing. À 10 km, l'AOC Condrieu est l'une des plus rares AOC blanches de France, au viognier exclusivement.",
       },
       {
         heading: "5. La cathédrale Saint-Maurice — gothique rayonnant",
-        body: "La Cathédrale Saint-Maurice de Vienne (XIIe-XVIe siècles, gothique rayonnant) est l'une des plus belles cathédrales du Rhône-Alpes. Façade à trois portails sculptés (XIVe siècle), nef gothique à 20 travées (l'une des plus longues nef gothique de France à 90 m), vitraux du XIVe au XVIIe siècle. Visite gratuite.",
+        body: "La cathédrale Saint-Maurice de Vienne, bâtie du XIIe au XVIe siècle en gothique rayonnant, est l'une des plus belles cathédrales du Rhône-Alpes. Sa façade s'ouvre sur trois portails sculptés (XIVe siècle). Sa nef gothique compte 20 travées et atteint 90 m, ce qui en fait l'une des plus longues nefs gothiques de France. Les vitraux vont du XIVe au XVIIe siècle. La visite est gratuite.",
       },
       {
         heading: "6. Lyon et la Croix-Rousse — à 30 km",
-        body: "Lyon (à 30 km au nord de Vienne) est la grande métropole du sud-est. Vieux Lyon (cité Renaissance UNESCO — l'une des plus grandes zones Renaissance d'Europe avec Florence), Croix-Rousse (quartier des soyeux et des canuts — révoltes ouvrières du XIXe siècle), Fourvière (basilique néo-byzantine), Confluence (quartier moderne au confluent Rhône-Saône — Musée des Confluences). Bouchons lyonnais (les restaurants traditionnels — quenelles, tablier de sapeur). Accessible en 20 min en train ou en voiture.",
+        body: "Lyon, à 30 km au nord de Vienne, est la grande métropole du sud-est. Le Vieux Lyon, cité Renaissance classée à l'UNESCO, forme l'une des plus grandes zones Renaissance d'Europe avec Florence. La Croix-Rousse, quartier des soyeux et des canuts, a été marquée par les révoltes ouvrières du XIXe siècle. Fourvière porte sa basilique néo-byzantine. Confluence, au confluent du Rhône et de la Saône, est un quartier moderne qui abrite le Musée des Confluences. À table, les bouchons lyonnais, restaurants traditionnels, servent quenelles et tablier de sapeur. Lyon est accessible en 20 min en train ou en voiture.",
       },
       {
         heading: "7. Le Pilat — le parc naturel régional",
-        body: "Le Parc naturel régional du Pilat (créé en 1974 — 70 000 ha entre Loire et Rhône, à 20 km au sud-ouest de Vienne) est l'un des plus beaux parcs régionaux français. Crêts du Pilat (point culminant : Crêt de la Perdrix à 1 432 m — vue panoramique sur les Alpes), forêts, prairies. À pied (sentiers balisés), à VTT, en raquettes l'hiver. Spécialité : la rigotte de Condrieu AOP (chèvre fermier).",
+        body: "Le Parc naturel régional du Pilat, créé en 1974, couvre 70 000 ha entre Loire et Rhône, à 20 km au sud-ouest de Vienne. C'est l'un des plus beaux parcs régionaux français. Les crêts du Pilat culminent au Crêt de la Perdrix, à 1 432 m, avec une vue panoramique sur les Alpes ; on y trouve aussi forêts et prairies. On le parcourt à pied (sentiers balisés), à VTT et, l'hiver, en raquettes. Sa spécialité : la rigotte de Condrieu AOP, un chèvre fermier.",
       },
       {
         heading: "8. Le musée gallo-romain de Saint-Romain-en-Gal",
-        body: "Le Musée gallo-romain de Saint-Romain-en-Gal (sur la rive droite du Rhône, juste en face de Vienne — site archéologique de 7 ha) abrite l'une des plus importantes collections françaises sur la vie quotidienne gallo-romaine. Mosaïques en place (la plus belle : « Mosaïque des Atours », IIe siècle ap. J.-C. — 95 m²), maisons romaines avec hypocaustes, ateliers, thermes. Gratuit le premier dimanche.",
+        body: "Le Musée gallo-romain de Saint-Romain-en-Gal se trouve sur la rive droite du Rhône, juste en face de Vienne, sur un site archéologique de 7 ha. Il abrite l'une des plus importantes collections françaises sur la vie quotidienne gallo-romaine. On y voit des mosaïques en place, la plus belle étant la « Mosaïque des Atours » (IIe siècle ap. J.-C., 95 m²), des maisons romaines avec hypocaustes, des ateliers et des thermes. L'entrée est gratuite le premier dimanche.",
       },
       {
         heading: "9. La ViaRhôna — vélo le long du Rhône",
-        body: "La ViaRhôna (EuroVélo 17, voie verte de 815 km du lac Léman à la Méditerranée) traverse Vienne. Étape Lyon-Vienne (30 km, plate, ombragée, le long du Rhône — l'une des plus belles étapes urbaines). Étape Vienne-Tournon-sur-Rhône (60 km, à travers les vignobles de Côte-Rôtie et Condrieu — l'une des plus belles étapes œnologiques). Loueurs de vélos électriques à Vienne et Tournon.",
+        body: "La ViaRhôna (EuroVélo 17), voie verte de 815 km du lac Léman à la Méditerranée, traverse Vienne. L'étape Lyon-Vienne fait 30 km, plate et ombragée le long du Rhône : l'une des plus belles étapes urbaines. L'étape Vienne-Tournon-sur-Rhône, 60 km à travers les vignobles de Côte-Rôtie et Condrieu, est l'une des plus belles étapes œnologiques. Des loueurs de vélos électriques sont installés à Vienne et à Tournon.",
       },
       {
         heading: "10. Gastronomie rhodanienne — quenelles et Côte-Rôtie",
-        body: "La cuisine de Vienne est lyonnaise et rhodanienne : quenelles de brochet à la lyonnaise (à la sauce Nantua à la crème d'écrevisses), tablier de sapeur (gras-double pané et grillé), poularde de Bresse à la crème (à 50 km à l'ouest — l'une des seules volailles AOC au monde), poisson du Rhône (sandre, brochet, anguille). Fromages : Saint-Marcellin (à 50 km à l'est, AOP), Picodon (à 80 km au sud), rigotte de Condrieu AOP. Vins : Côte-Rôtie (rouge syrah, le grand), Condrieu (blanc viognier, le grand), Saint-Joseph (rouge), Côtes-du-Rhône.",
+        body: "La cuisine de Vienne est lyonnaise et rhodanienne. On y mange des quenelles de brochet à la lyonnaise, à la sauce Nantua à la crème d'écrevisses, du tablier de sapeur (gras-double pané et grillé), de la poularde de Bresse à la crème (à 50 km à l'ouest, l'une des seules volailles AOC au monde) et du poisson du Rhône : sandre, brochet, anguille. Côté fromages : le Saint-Marcellin (à 50 km à l'est, AOP), le Picodon (à 80 km au sud) et la rigotte de Condrieu AOP. Côté vins : Côte-Rôtie (rouge syrah, le grand), Condrieu (blanc viognier, le grand), Saint-Joseph (rouge) et Côtes-du-Rhône.",
       },
     ],
     relatedCities: ["vienne"],
