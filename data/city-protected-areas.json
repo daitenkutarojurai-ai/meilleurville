@@ -8682,6 +8682,126 @@
       }
     ]
   },
+  "carquefou": {
+    "crawledAt": "2026-10-12",
+    "source": "bdtopo",
+    "ingestVersion": 3,
+    "radiusKm": 15,
+    "gridStepM": 250,
+    "territory": "metropole",
+    "outOfScope": false,
+    "kinds": [
+      "arrete-biotope",
+      "natura-2000",
+      "parc-national",
+      "parc-naturel-regional",
+      "reserve-naturelle"
+    ],
+    "weightedCoverage": 6,
+    "rawCoverage": 9.9,
+    "areasTotal": 14,
+    "areasTruncated": false,
+    "areas": [
+      {
+        "id": "SURFPARC0000002333270059",
+        "name": "Marais de l'Erdre",
+        "kind": "natura-2000",
+        "areaHa": 2675,
+        "distanceKm": 1.8
+      },
+      {
+        "id": "SURFPARC0000002333273831",
+        "name": "Vallée de la Loire de Nantes aux Ponts-de-Cé et ses Annexes",
+        "kind": "natura-2000",
+        "areaHa": 2581.3,
+        "distanceKm": 5.4
+      },
+      {
+        "id": "SURFPARC0000002333269905",
+        "name": "Marais de l'Erdre",
+        "kind": "natura-2000",
+        "areaHa": 2525,
+        "distanceKm": 1.8
+      },
+      {
+        "id": "SURFPARC0000002333273771",
+        "name": "Vallée de la Loire de Nantes aux Ponts-de-Cé et ses Annexes",
+        "kind": "natura-2000",
+        "areaHa": 2393.8,
+        "distanceKm": 5.4
+      },
+      {
+        "id": "SURFPARC0000002333272659",
+        "name": "Marais de Goulaine",
+        "kind": "natura-2000",
+        "areaHa": 1256.3,
+        "distanceKm": 8.8
+      },
+      {
+        "id": "SURFPARC0000002333272760",
+        "name": "Marais de Goulaine",
+        "kind": "natura-2000",
+        "areaHa": 1256.3,
+        "distanceKm": 8.8
+      },
+      {
+        "id": "SURFPARC0000002333270130",
+        "name": "Estuaire de la Loire",
+        "kind": "natura-2000",
+        "areaHa": 375,
+        "distanceKm": 9.2
+      },
+      {
+        "id": "SURFPARC0000002333272092",
+        "name": "Estuaire de la Loire",
+        "kind": "natura-2000",
+        "areaHa": 356.3,
+        "distanceKm": 9.2
+      },
+      {
+        "id": "SURFPARC0000002333270318",
+        "name": "Tourbiere de Logne",
+        "kind": "arrete-biotope",
+        "areaHa": 118.8,
+        "distanceKm": 2.7
+      },
+      {
+        "id": "SURFPARC0000000323725144",
+        "name": "Réserve Naturelle Régionale de la Tourbière de Logné",
+        "kind": "reserve-naturelle",
+        "areaHa": 62.5,
+        "distanceKm": 2.7
+      },
+      {
+        "id": "SURFPARC0000002340081163",
+        "name": "la Carrière de Misery",
+        "kind": "arrete-biotope",
+        "areaHa": 6.3,
+        "distanceKm": 12.5
+      },
+      {
+        "id": "SURFPARC0000002333270945",
+        "name": "Combles des Ecuries du Chateau de la Tour a Orvault",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 10.2
+      },
+      {
+        "id": "SURFPARC0000002333271053",
+        "name": "Combles et Clocher de l'Eglise Saint-Louis a Casson",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 11.1
+      },
+      {
+        "id": "SURFPARC0000002333271054",
+        "name": "Combles et Clocher de l'Eglise Saint-Martin, le Cellier",
+        "kind": "arrete-biotope",
+        "areaHa": 0,
+        "distanceKm": 11.1
+      }
+    ]
+  },
   "cassis": {
     "crawledAt": "2026-10-12",
     "source": "bdtopo",

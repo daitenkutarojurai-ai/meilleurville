@@ -602,7 +602,8 @@
    "chilly-mazarin",
    "la-chapelle-sur-erdre",
    "saint-sebastien-sur-loire",
-   "bouguenais"
+   "bouguenais",
+   "carquefou"
   ],
   "pollutants": [
    "no2",
@@ -16156,6 +16157,40 @@
     "area": "suburban",
     "distanceKm": 6.3,
     "coverage": 0.98
+   }
+  },
+  "carquefou": {
+   "no2": {
+    "value": 8.5,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 9.1,
+    "coverage": 0.99
+   },
+   "pm10": {
+    "value": 13,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 9.1,
+    "coverage": 0.98
+   },
+   "pm25": {
+    "value": 8.4,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 9.1,
+    "coverage": 0.98
+   },
+   "o3": {
+    "value": 8,
+    "station": "CIM BOUTEILLERIE",
+    "stationCode": "FR23188",
+    "area": "urban",
+    "distanceKm": 9.1,
+    "coverage": 0.99
    }
   }
  }

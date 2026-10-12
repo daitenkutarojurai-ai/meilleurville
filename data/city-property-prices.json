@@ -2043,6 +2043,26 @@
     ],
     "queryVersion": 1
   },
+  "carquefou": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 175,
+      "medianM2": 3438,
+      "p25M2": 2721,
+      "p75M2": 3863
+    },
+    "house": {
+      "sales": 261,
+      "medianM2": 3313,
+      "p25M2": 2866,
+      "p75M2": 3692
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "cassis": {
     "coverage": "dvf",
     "apartment": {

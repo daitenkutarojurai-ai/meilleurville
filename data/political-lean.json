@@ -20578,5 +20578,40 @@
 "abstentionPct": 24.5,
 "blancsNulsPct": 2.4
 }
+},
+"carquefou": {
+"lean": "centre",
+"topPct": 40.2,
+"blocs": {
+"gauche": 32.2,
+"centre": 40.2,
+"droite": 7.8,
+"extreme_droite": 19.8
+},
+"leanScore": -4.6,
+"insee": "44026",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.3,
+"roussel": 1.9,
+"melenchon": 18.7,
+"hidalgo": 2.5,
+"jadot": 8.2,
+"poutou": 0.6,
+"macron": 40.2,
+"pecresse": 5.4,
+"lassalle": 2.4,
+"lepen": 12.6,
+"zemmour": 5.5,
+"dupont-aignan": 1.7
+},
+"topCand": "macron",
+"topCandPct": 40.2,
+"turnout": {
+"inscrits": 15513,
+"exprimes": 12030,
+"abstentionPct": 20.7,
+"blancsNulsPct": 2.2
+}
 }
 }

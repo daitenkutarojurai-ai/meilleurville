@@ -16174,6 +16174,163 @@
     ],
     "accessedAt": "2026-09-11T02:30:34.897Z"
   },
+  "carquefou": {
+    "crawledAt": "2026-10-12",
+    "source": "gbif",
+    "queryVersion": 3,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 102506,
+    "observers": 1158,
+    "observersTruncated": false,
+    "datasets": 131,
+    "datasetsTruncated": false,
+    "species": 2704,
+    "speciesTruncated": false,
+    "rarefiedN": 500,
+    "rarefied": 223.5,
+    "rarefiedExact": true,
+    "rarefiedUpper": 223.5,
+    "groups": {
+      "birds": 212,
+      "mammals": 53,
+      "insects": 734,
+      "amphibians": 13,
+      "reptiles": 14,
+      "plants": 1373
+    },
+    "groupsTruncated": [],
+    "groupsUnresolved": [],
+    "threatenedSpecies": 32,
+    "threatenedSpeciesTruncated": false,
+    "topSpecies": [
+      {
+        "key": 9705453,
+        "infoVersion": 3,
+        "scientificName": "Parus major",
+        "vernacularFr": "Mésange charbonnière",
+        "vernacularEn": "Great Tit",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3840
+      },
+      {
+        "key": 2492462,
+        "infoVersion": 3,
+        "scientificName": "Erithacus rubecula",
+        "vernacularFr": "Rouge-gorge familier",
+        "vernacularEn": "Continental Robin",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3678
+      },
+      {
+        "key": 2490719,
+        "infoVersion": 3,
+        "scientificName": "Turdus merula",
+        "vernacularFr": "Merle noir",
+        "vernacularEn": "Blackbird",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3580
+      },
+      {
+        "key": 2494422,
+        "infoVersion": 3,
+        "scientificName": "Fringilla coelebs",
+        "vernacularFr": "Pinson des arbres",
+        "vernacularEn": "Chaffinch",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3368
+      },
+      {
+        "key": 2487879,
+        "infoVersion": 3,
+        "scientificName": "Cyanistes caeruleus",
+        "vernacularFr": "Mésange bleue",
+        "vernacularEn": "Blue Tit",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3272
+      },
+      {
+        "key": 2495455,
+        "infoVersion": 3,
+        "scientificName": "Columba palumbus",
+        "vernacularFr": "Palombe",
+        "vernacularEn": "Common Wood Pigeon",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3015
+      },
+      {
+        "key": 5229490,
+        "infoVersion": 3,
+        "scientificName": "Pica pica",
+        "vernacularFr": "Pie bavarde",
+        "vernacularEn": "Black-billed Magpie",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2666
+      },
+      {
+        "key": 5231190,
+        "infoVersion": 3,
+        "scientificName": "Passer domesticus",
+        "vernacularFr": null,
+        "vernacularEn": "Common House Sparrow",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2601
+      },
+      {
+        "key": 9409796,
+        "infoVersion": 3,
+        "scientificName": "Corvus corone",
+        "vernacularFr": "Corneille noire",
+        "vernacularEn": "Carrion Crow",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2150
+      },
+      {
+        "key": 9809229,
+        "infoVersion": 3,
+        "scientificName": "Sturnus vulgaris",
+        "vernacularFr": "Etourneau sansonnet",
+        "vernacularEn": "Common Starling",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2061
+      },
+      {
+        "key": 2495696,
+        "infoVersion": 3,
+        "scientificName": "Streptopelia decaocto",
+        "vernacularFr": "Tourterelle turque",
+        "vernacularEn": "Collared Dove",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 1919
+      },
+      {
+        "key": 5231763,
+        "infoVersion": 3,
+        "scientificName": "Prunella modularis",
+        "vernacularFr": "Accenteur mouchet",
+        "vernacularEn": "Billy",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 1625
+      }
+    ],
+    "accessedAt": "2026-10-12T22:14:17.304Z"
+  },
   "cassis": {
     "crawledAt": "2026-09-13",
     "source": "gbif",

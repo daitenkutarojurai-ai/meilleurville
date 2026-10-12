@@ -407,6 +407,10 @@
     "povertyRate": 28,
     "medianIncome": 18780
   },
+  "carquefou": {
+    "medianIncome": 27830,
+    "povertyRate": 6
+  },
   "cassis": {
     "povertyRate": 10,
     "medianIncome": 28740
