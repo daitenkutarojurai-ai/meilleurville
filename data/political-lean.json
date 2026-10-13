@@ -20613,5 +20613,40 @@
 "abstentionPct": 20.7,
 "blancsNulsPct": 2.2
 }
+},
+"vallauris": {
+"lean": "extreme_droite",
+"topPct": 43.1,
+"blocs": {
+"gauche": 25.9,
+"centre": 23.7,
+"droite": 7.3,
+"extreme_droite": 43.1
+},
+"leanScore": 24.5,
+"insee": "06155",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.2,
+"roussel": 1.3,
+"melenchon": 19.0,
+"hidalgo": 0.9,
+"jadot": 3.9,
+"poutou": 0.5,
+"macron": 23.7,
+"pecresse": 5.2,
+"lassalle": 2.1,
+"lepen": 27.8,
+"zemmour": 12.9,
+"dupont-aignan": 2.4
+},
+"topCand": "lepen",
+"topCandPct": 27.8,
+"turnout": {
+"inscrits": 18674,
+"exprimes": 13137,
+"abstentionPct": 28.4,
+"blancsNulsPct": 1.8
+}
 }
 }

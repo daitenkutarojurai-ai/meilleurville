@@ -13,7 +13,7 @@
    "https://eeadmz1-downloads-api-appservice.azurewebsites.net/ParquetFile/urls"
   ],
   "licence": "EEA re-use policy (CC BY 4.0); measurements by the AASQA, compiled by LCSQA (Licence Ouverte)",
-  "generatedAt": "2026-10-12",
+  "generatedAt": "2026-10-13",
   "evaluated": [
    "annecy",
    "nantes",
@@ -603,7 +603,8 @@
    "la-chapelle-sur-erdre",
    "saint-sebastien-sur-loire",
    "bouguenais",
-   "carquefou"
+   "carquefou",
+   "vallauris"
   ],
   "pollutants": [
    "no2",
@@ -16190,6 +16191,40 @@
     "stationCode": "FR23188",
     "area": "urban",
     "distanceKm": 9.1,
+    "coverage": 0.99
+   }
+  },
+  "vallauris": {
+   "no2": {
+    "value": 18.5,
+    "station": "ANTIBES JEAN MOULIN",
+    "stationCode": "FR24007",
+    "area": "suburban",
+    "distanceKm": 3.9,
+    "coverage": 0.98
+   },
+   "pm10": {
+    "value": 13.1,
+    "station": "CANNES BROUSSAILLES",
+    "stationCode": "FR24009",
+    "area": "urban",
+    "distanceKm": 4.5,
+    "coverage": 1
+   },
+   "pm25": {
+    "value": 8.3,
+    "station": "CANNES BROUSSAILLES",
+    "stationCode": "FR24009",
+    "area": "urban",
+    "distanceKm": 4.5,
+    "coverage": 1
+   },
+   "o3": {
+    "value": 37,
+    "station": "ANTIBES JEAN MOULIN",
+    "stationCode": "FR24007",
+    "area": "suburban",
+    "distanceKm": 3.9,
     "coverage": 0.99
    }
   }

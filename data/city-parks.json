@@ -102179,6 +102179,69 @@
       }
     ]
   },
+  "vallauris": {
+    "crawledAt": "2026-10-13",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w160397516",
+        "name": "Square Gilbert Nabonnand",
+        "kind": "garden",
+        "lat": 43.56818,
+        "lng": 7.07208,
+        "areaM2": 3040,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1381366117",
+        "name": "Parc Vallis Aurea",
+        "kind": "playground",
+        "lat": 43.57465,
+        "lng": 7.05309,
+        "areaM2": 2279,
+        "playground": true,
+        "wheelchair": true,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "yes"
+      },
+      {
+        "osmId": "w818024848",
+        "name": "Jardin Saint Christophe",
+        "kind": "park",
+        "lat": 43.57331,
+        "lng": 7.08592,
+        "areaM2": 1425,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1191885194",
+        "name": "Square Loucé",
+        "kind": "playground",
+        "lat": 43.56968,
+        "lng": 7.0736,
+        "areaM2": 410,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      }
+    ]
+  },
   "vandoeuvre-les-nancy": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",

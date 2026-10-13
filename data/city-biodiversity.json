@@ -86697,6 +86697,163 @@
     ],
     "accessedAt": "2026-09-10T02:33:23.895Z"
   },
+  "vallauris": {
+    "crawledAt": "2026-10-13",
+    "source": "gbif",
+    "queryVersion": 3,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 195849,
+    "observers": 1622,
+    "observersTruncated": false,
+    "datasets": 199,
+    "datasetsTruncated": false,
+    "species": 4312,
+    "speciesTruncated": false,
+    "rarefiedN": 500,
+    "rarefied": 265,
+    "rarefiedExact": true,
+    "rarefiedUpper": 265,
+    "groups": {
+      "birds": 289,
+      "mammals": 46,
+      "insects": 1110,
+      "amphibians": 8,
+      "reptiles": 22,
+      "plants": 1596
+    },
+    "groupsTruncated": [],
+    "groupsUnresolved": [],
+    "threatenedSpecies": 62,
+    "threatenedSpeciesTruncated": false,
+    "topSpecies": [
+      {
+        "key": 2492462,
+        "infoVersion": 3,
+        "scientificName": "Erithacus rubecula",
+        "vernacularFr": "Rouge-gorge familier",
+        "vernacularEn": "Continental Robin",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 6382
+      },
+      {
+        "key": 5229490,
+        "infoVersion": 3,
+        "scientificName": "Pica pica",
+        "vernacularFr": "Pie bavarde",
+        "vernacularEn": "Black-billed Magpie",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4593
+      },
+      {
+        "key": 2492956,
+        "infoVersion": 3,
+        "scientificName": "Sylvia atricapilla",
+        "vernacularFr": "Fauvette à tête noire",
+        "vernacularEn": "Blackcap",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4279
+      },
+      {
+        "key": 9413670,
+        "infoVersion": 3,
+        "scientificName": "Larus michahellis",
+        "vernacularFr": "Gabian",
+        "vernacularEn": "Yellow-legged Gull",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3476
+      },
+      {
+        "key": 2490719,
+        "infoVersion": 3,
+        "scientificName": "Turdus merula",
+        "vernacularFr": "Merle noir",
+        "vernacularEn": "Blackbird",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3437
+      },
+      {
+        "key": 2487879,
+        "infoVersion": 3,
+        "scientificName": "Cyanistes caeruleus",
+        "vernacularFr": "Mésange bleue",
+        "vernacularEn": "Blue Tit",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3100
+      },
+      {
+        "key": 2495455,
+        "infoVersion": 3,
+        "scientificName": "Columba palumbus",
+        "vernacularFr": "Palombe",
+        "vernacularEn": "Common Wood Pigeon",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2976
+      },
+      {
+        "key": 2495696,
+        "infoVersion": 3,
+        "scientificName": "Streptopelia decaocto",
+        "vernacularFr": "Tourterelle turque",
+        "vernacularEn": "Collared Dove",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2909
+      },
+      {
+        "key": 2479226,
+        "infoVersion": 3,
+        "scientificName": "Psittacula krameri",
+        "vernacularFr": "Perruche à collier",
+        "vernacularEn": "Indian Ringneck",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2765
+      },
+      {
+        "key": 9705453,
+        "infoVersion": 3,
+        "scientificName": "Parus major",
+        "vernacularFr": "Mésange charbonnière",
+        "vernacularEn": "Great Tit",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2648
+      },
+      {
+        "key": 2494422,
+        "infoVersion": 3,
+        "scientificName": "Fringilla coelebs",
+        "vernacularFr": "Pinson des arbres",
+        "vernacularEn": "Chaffinch",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2492
+      },
+      {
+        "key": 2493091,
+        "infoVersion": 3,
+        "scientificName": "Phylloscopus collybita",
+        "vernacularFr": "Pouillot véloce",
+        "vernacularEn": "Chiffchaff",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2427
+      }
+    ],
+    "accessedAt": "2026-10-13T09:32:12.247Z"
+  },
   "vandoeuvre-les-nancy": {
     "crawledAt": "2026-09-11",
     "source": "gbif",

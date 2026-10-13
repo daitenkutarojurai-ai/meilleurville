@@ -2176,6 +2176,10 @@
     "povertyRate": 25,
     "medianIncome": 20250
   },
+  "vallauris": {
+    "medianIncome": 22180,
+    "povertyRate": 18
+  },
   "vandoeuvre-les-nancy": {
     "povertyRate": 30,
     "medianIncome": 18680

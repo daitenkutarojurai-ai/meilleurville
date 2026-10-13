@@ -11549,6 +11549,27 @@
       "height": 300
     }
   },
+  "vallauris": {
+    "insee": "06155",
+    "qid": "Q234205",
+    "file": "Picasso Vallauris.JPG",
+    "author": "Dacoucou",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Dacoucou",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Picasso_Vallauris.JPG",
+    "color": "#181818",
+    "hero": {
+      "src": "/photos/villes/vallauris-1024.6e61472d.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/vallauris-480.3fd18c7f.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "vandoeuvre-les-nancy": {
     "insee": "54547",
     "qid": "Q320308",

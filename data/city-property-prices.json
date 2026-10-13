@@ -10695,6 +10695,26 @@
     ],
     "queryVersion": 1
   },
+  "vallauris": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 1052,
+      "medianM2": 4225,
+      "p25M2": 3230,
+      "p75M2": 5302
+    },
+    "house": {
+      "sales": 220,
+      "medianM2": 6049,
+      "p25M2": 4890,
+      "p75M2": 7920
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "vandoeuvre-les-nancy": {
     "coverage": "dvf",
     "apartment": {
