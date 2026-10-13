@@ -3534,6 +3534,12 @@
       "name": "Carquefou",
       "region": "Pays de la Loire",
       "score": 5.6
+    },
+    {
+      "slug": "vallauris",
+      "name": "Vallauris",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.4
     }
   ],
   "guides": [

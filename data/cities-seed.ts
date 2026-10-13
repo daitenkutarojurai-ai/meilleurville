@@ -17239,6 +17239,28 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "Carquefou (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.6/10. Nantes Métropole suburb north-east of Nantes, home to La Fleuriaye.",
     scores: { global: 6.7, life: 7.1, transport: 7.2, nature: 7.6, cost: 5.6, safety: 6.8, culture: 6, remoteWork: 7, schools: 6.9 },
+  },
+  {
+    slug: "vallauris",
+    name: "Vallauris",
+    scoreCohort: "extension",
+    region: "Provence-Alpes-Côte d'Azur",
+    department: "Alpes-Maritimes",
+    inseeCode: "06155",
+    population: 29300,
+    latitude: 43.5766,
+    longitude: 7.0561,
+    elevation: 143,
+    sunshinedays: 2800,
+    avgTempJuly: 26,
+    avgTempJanuary: 9,
+    characterTags: ["Alpes-Maritimes","céramique","musée national Picasso","Golfe-Juan","agglomération Sophia Antipolis"],
+    descriptionEn:
+      "Vallauris sits between Antibes and Cannes, with the old pottery town on the hillside and Golfe-Juan on the bay below, where Napoleon landed on 1 March 1815 on his return from Elba. Picasso lived here from 1948 to 1955; the château now houses the national Picasso museum La Guerre et la Paix. Best fit: households who want the Antibes-Cannes area at a slightly lower entry price.",
+    seoTitleEn: "Vallauris — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vallauris (Alpes-Maritimes, Provence-Alpes-Côte d'Azur): quality-of-life score 5.4/10. Pottery town between Antibes and Cannes, with Golfe-Juan on the bay.",
+    scores: { global: 6.9, life: 7.5, transport: 6.4, nature: 8, cost: 5.5, safety: 7, culture: 7, remoteWork: 6.9, schools: 6.8 },
   }
 ];
 

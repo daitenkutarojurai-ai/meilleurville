@@ -148,7 +148,7 @@ garder en tête avant de citer une note d'extension au dixième. Règle ② : le
 région** (4 villes les plus proches en population) sont **écartés** — 0,84 sur les mêmes 41 villes isolées,
 pire que la médiane naïve de toute la région (0,76). Seule variante sans perte : abaisser le plancher à
 **10 000 hab. dans le département** (0,674 sur les mêmes 41 villes, 0,656 sur les 19 qui n'ont pas 4 voisines à
-20 000+) ; **décidée comme règle ②, non outillée** tant qu'aucune candidate n'en a besoin — mesurée le
+20 000+) ; **décidée comme règle ②**, **outillée le 2026-10-13** (`npm run seed:neighbours -- … --regle2`, ne se combine pas avec `--cross-dept`) — mesurée le
 2026-10-11, elle ne débloque ni Le Creusot, Montceau-les-Mines (3 voisines : Autun, Chalon, Mâcon), ni
 Fougères (2), ni Lisieux (1), ni Frontignan (1). La variante régionale avec transfert de niveau (logique ①)
 tient l'erreur globale (0,67) mais monte à **1,0 sur le coût et la sécurité** : écartée.
@@ -278,7 +278,7 @@ Maisons-Alfort → repère 6 200 €/m² contre ~3 750-4 300 € au marché (+50
 le 2026-10-10 (lot 6), règle valable, non retenues faute de place : Juvisy-sur-Orge (voisines 2,2-2,6 km, pop. à
 confirmer ≥ 20 000), Morsang-sur-Orge, Brétigny-sur-Orge, Saint-Michel-sur-Orge, Saint-Cyr-l'École, Roissy-en-Brie,
 Bussy-Saint-Georges, Lagny-sur-Marne ; ~~Chilly-Mazarin~~ (91161, **lot 11**) ; Deuil-la-Barre (Sarcelles dans la médiane), Montigny-lès-Cormeilles (2 voisines d'extension),
-Gif-sur-Yvette, Mantes-la-Ville, Montereau, Mitry-Mory, Ozoir, ~~Carquefou~~ (**lot 14**), ~~Bouguenais~~ (**lot 13**), Vallauris, Miramas (voisines
+Gif-sur-Yvette, Mantes-la-Ville, Montereau, Mitry-Mory, Ozoir, ~~Carquefou~~ (**lot 14**), ~~Bouguenais~~ (**lot 13**), ~~Vallauris~~ (**lot 15**), Miramas (voisines
 trop éloignées ou en override) **reportées** ; mesurées le 2026-10-10 et **reportées** :
 Villeneuve-le-Roi, Limeil-Brévannes (plus proche voisine en Essonne), Cenon (rive droite, voisines rive gauche),
 ~~Saint-Sébastien-sur-Loire~~ (**lot 13**), Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne,
@@ -288,7 +288,7 @@ Villiers-sur-Marne, Chevilly-Larue (cf. journal) ; non retenues faute de place, 
 (94054), Villeneuve-le-Roi (94077, voir lot 5) ; **règle de voisinage non
 valable, mesurée le 2026-10-08** (cf. journal) : Grigny, Les Mureaux, Chatou, Lormont,
 Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Lunel, Saint-Étienne-du-Rouvray, Lambersart,
-Marcq-en-Barœul — toutes attendent un override documenté ; non mesurées : Vallauris, Miramas ;
+Marcq-en-Barœul — toutes attendent un override documenté ; ~~Vallauris~~ (06155, **lot 15**) ; Miramas reportée (2026-10-13) ;
 Villefontaine (Oullins est déjà au seed, fusionnée : `oullins-pierre-benite`) ; Marcq-en-Barœul, Lambersart ; Saint-Étienne-du-Rouvray ; DROM : Le Port,
 Sainte-Marie, ~~Saint-Leu (974)~~, ~~Le Gosier (971), Matoury (973)~~, Koungou (976) (Saint-Leu, Le Gosier, Matoury,
 Rémire-Montjoly, La Possession **mesurées et reportées le 2026-10-13**, cf. journal) — homonymes
@@ -1467,4 +1467,70 @@ Saint-Pierre** : ne pas confondre les deux au prochain relevé.
 Romainville, Ris-Orangis, Maisons-Laffitte, Sucy-en-Brie, La Madeleine, Villeneuve-d'Ascq) ; ② outiller la règle ②
 (plancher 10 000 dans le département) ; ③ décider si le seuil descend sous 20 000 hab. — Bourg-lès-Valence, Cesson-
 Sévigné, Bruz, Lunéville seraient alors les premières à mesurer. Aucune des trois ne se tranche sans le propriétaire.
+
+### 2026-10-13 (second run) — lot 15 (+1) : Vallauris ; règle ② outillée et passée sur 13 reportées
+
+`seed-coverage` au départ : **1 ville en attente** (Carquefou, photo seule ; tout le reste servi à 589/589 hors
+manques permanents) → lot autorisé. 589 → **590**, Alpes-Maritimes, aucun département ni région nouveaux.
+
+*Règle ② outillée.* `scripts/seed-neighbours.ts --regle2` : même département, plancher 10 000 hab. (§ 3.2) ;
+avertissement systématique rappelant le backtest (0,67 contre 0,57) et le nombre de voisines sous 20 000 ;
+refus si combinée à `--cross-dept`. Passée sur les reportées « voisines trop rares » :
+
+| Commune | Résultat règle ② | Décision |
+|---|---|---|
+| Le Gosier (971) | 3 voisines (Pointe-à-Pitre, Les Abymes, Baie-Mahault) | reportée : la Guadeloupe n'a que 3 villes au seed |
+| Lunel, Frontignan (34) | 1 voisine (Agde, 27-67 km) | reportées |
+| Lisieux (14) | 1 voisine (Hérouville, 41 km) | reportée |
+| Fougères (35) | 2 voisines (Vitré, Dinard 70 km) | reportée |
+| Le Creusot, Montceau-les-Mines (71) | 3 voisines (Autun, Chalon, Mâcon) | reportées |
+| Miramas (13) | 4 voisines, 4ᵉ (Saint-Rémy) à 26,8 km, repère m² × 1,78 | reportée : Saint-Rémy ne ressemble pas à Miramas |
+| La Teste-de-Buch (33) | 4 voisines à 44-45 km (métropole bordelaise) | reportée |
+| Nogent-sur-Oise (60) | Creil 1,3 · Chantilly · Senlis · Méru 24 km, repère m² × 2,74 | reportée : Chantilly/Senlis ne décrivent pas Nogent |
+| Saint-Jean-de-Braye (45) | 3ᵉ et 4ᵉ voisines à 55-57 km | reportée |
+| La Garde (83) | 4ᵉ voisine à 55 km, Toulon en override | reportée |
+| **Vallauris (06)** | **passe la règle standard** (règle ② inutile) | **lot 15** |
+
+Aucune candidate n'a donc encore besoin de la règle ② : elle est prête, elle n'a rien débloqué.
+
+*Pourquoi Vallauris passe maintenant.* Notée « non mesurée » au backlog ; mesurée ce run, la règle standard
+trouve 4 voisines admissibles (Antibes et Cannes en override, écartées) : **Le Cannet 3,2 · Mandelieu-la-Napoule
+10,0 · Cagnes-sur-Mer 12,2 · Grasse 14,4 km**. ⚠️ 4ᵉ voisine au-delà de 12,6 km, assumé comme aux lots 12 et 14
+(même agglomération azuréenne, backtest 0,57 sous 25 km). ⚠️ Les vraies voisines immédiates (Antibes, Cannes) sont
+en override : la note héritée décrit la couronne Le Cannet / Mandelieu / Cagnes / Grasse, pas les deux villes-centres.
+
+*Identité* : Insee **06155** (absence vérifiée par code), population municipale **29 259** (populations de
+référence 2023 : Banatic ; notre-planete.info ; villesavivre) → 29 300 au seed. Coordonnées **43,5766 N 7,0561 E**
+(fiche touristique, N 43°34′35,8″ E 7°03′21,9″). Altitude 0-285 m (fiche touristique ; le guide pratique de l'office
+de tourisme donne 0-281 m) → milieu **143 m**.
+
+*Notes brutes* (règle standard) : 7,5 · 6,4 · 8 · 5,5 · 7 · 7 · 6,9 · 6,8, global 6,9 ; rendu **5,4** (ambre ;
+voisines rendues 4,2 / 4,5 / 6,2 / 5,8). Climat : Le Cannet (2 800 h / 26 °C / 9 °C).
+
+*Logement* (§ 3.3 bis) : DVF appartements de la commune — PAP **4 222 €/m²** (1ᵉʳ juillet 2026), efficity 4 430
+(juillet 2026), L'Apporteur d'Immo 3 976 (31 juillet 2026) → médiane **4 222** ; médiane DVF des 4 voisines au dépôt
+(`city-property-prices.json` : Grasse 2 999, Le Cannet 3 893, Cagnes 4 727, Mandelieu 4 783) **4 310** → ratio
+**0,98**. Intra-source PAP : Le Cannet 3 990 → 1,06 ; efficity Mandelieu 5 240 (dépôt 4 783, efficity ≈ × 1,1) →
+Vallauris corrigée ≈ 4 030, ratio ≈ 0,93. Tout sous ± 10 % : **repère médian conservé**, 700/990/1 330, **4 500 €/m²**.
+L'alerte « repère m² des voisines × 1,81 » (Grasse 3 200 contre Mandelieu 5 800) est levée par ce recoupement : la
+commune tombe au milieu de ses voisines. Pas de loyer au m² d'un même portail : loyers = médiane.
+
+*Quartiers* (notes = ville) : **Vallauris centre** (château reconstruit au XVIᵉ siècle : musée national Picasso
+« La Guerre et la Paix », musée Magnelli, musée de la Céramique — provence7, office de tourisme) et **Golfe-Juan**
+(débarquement de Napoléon le 1ᵉʳ mars 1815, départ de la route Napoléon — guide pratique de l'office de tourisme).
+Picasso à Vallauris de 1948 à 1955 (mêmes sources). Tags sans `port`/`mer`/`côte`/`plage` (Golfe-Juan a un port :
+non tagué). Code postal 06220 → postal-codes 590/590.
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation**. Couleurs recomptées sur `CITIES_SEED` (590) :
+19 / 50 / 151 / **157** / 119 / 94, moyenne 5,36.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (590 villes) + `:check`, `sitemap:check`
+(FR 31 651, EN 31 243), `hreflang:check`, `seed:neighbours:selftest` (après commit). `npm run build` non lancé.
+
+*En attente du runner* : Vallauris (tous pipelines sauf codes postaux), Carquefou (photo).
+
+**Prochain lot** : `seed-coverage`, puis `seed:neighbours:relire` quand Vallauris est servie (DVF de la commune au
+dépôt : ratio attendu ~0,98). Gisement : mesurer les communes de 20 000+ hab. dont le backlog dit « non mesurées » ou
+dont les voisines en override sont la seule raison de report, comme Vallauris ; sinon les trois décisions de méthode
+du run précédent (overrides documentés, seuil sous 20 000 hab.).
 

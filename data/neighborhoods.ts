@@ -15917,6 +15917,19 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Ancien site logistique du sud de la commune, reconverti en ZAC par Nantes Métropole : logements, commerces et bureaux, livrés par tranches jusqu'à l'horizon 2030." },
     ],
   },
+  {
+    citySlug: "vallauris",
+    neighborhoods: [
+      { slug: "vallauris-centre", name: "Vallauris centre", type: "centre-ville",
+        scores: { global: 6.9, safety: 7, transport: 6.4, nature: 8, cost: 5.5, nightlife: 7 },
+        avgRentT2: 990, tags: ["vieux village","céramique"],
+        summary: "Bourg historique sur le coteau, autour du château reconstruit au XVIe siècle qui abrite le musée national Picasso La Guerre et la Paix, le musée Magnelli et le musée de la Céramique." },
+      { slug: "golfe-juan", name: "Golfe-Juan", type: "résidentiel",
+        scores: { global: 6.9, safety: 7, transport: 6.4, nature: 8, cost: 5.5, nightlife: 7 },
+        avgRentT2: 990, tags: ["baie","débarquement de 1815"],
+        summary: "Partie basse de la commune, sur la baie, où Napoléon a débarqué le 1er mars 1815 à son retour de l'île d'Elbe ; la route Napoléon part d'ici." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

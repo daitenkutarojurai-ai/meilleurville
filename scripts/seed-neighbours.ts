@@ -30,6 +30,10 @@
  * biais départemental (sécurité, coût), on transfère le niveau calibré des voisines et on retire le
  * biais du département d'arrivée. Refusé quand l'écart de biais avec une voisine dépasse 1,0.
  *
+ * `--regle2` (règle ②, § 3.2, décidée 2026-10-11, outillée 2026-10-13) : même département, plancher de
+ * population abaissé à 10 000 hab. Seulement quand le mode standard manque de voisines. Ne se combine
+ * pas avec `--cross-dept`.
+ *
  * `--price-ratio=0.79 --rent-ratio=1.02` (§ 3.3 bis, 2026-10-11) : marché de la commune ÷ marché
  * médian des voisines, mesurés dans une même source ; appliqué au repère médian au-delà de ± 10 %,
  * refus au-delà de ± 30 %.
@@ -51,6 +55,8 @@ type Raw = Record<Axis, number>;
 
 const POP_MIN = 20_000;
 const POP_MAX = 150_000;
+/** Règle ② : plancher abaissé à 10 000 hab. dans le département (backtest 0,674 contre 0,57 standard). */
+export const POP_MIN_RULE2 = 10_000;
 /** Au-delà, la 4ᵉ voisine est signalée : Lagny (12,6 km) est la limite haute acceptée sans réserve. */
 const FAR_KM = 12.6;
 
@@ -104,6 +110,8 @@ const r1 = (x: number) => Math.round(x * 10) / 10;
 
 interface Candidate {
   lat: number; lng: number; dept: string; exclude?: string; order?: Set<string>; crossDept?: boolean;
+  /** Règle ② (§ 3.2, décidée 2026-10-11) : plancher de population abaissé, même département seulement. */
+  popMin?: number;
   /** § 3.3 bis : marché de la commune ÷ marché médian des voisines, mesurés dans UNE même source. */
   priceRatio?: number; rentRatio?: number;
 }
@@ -136,7 +144,7 @@ export function applyRule(c: Candidate, raws: Map<string, Raw>) {
   let extensions = 0;
   for (const p of pool) {
     const v = p.v;
-    if ((!c.crossDept && v.department !== c.dept) || (v.population ?? 0) < POP_MIN || (v.population ?? 0) > POP_MAX) continue;
+    if ((!c.crossDept && v.department !== c.dept) || (v.population ?? 0) < (c.popMin ?? POP_MIN) || (v.population ?? 0) > POP_MAX) continue;
     if (hasOverride(v.slug)) continue;
     const isExt = (v as { scoreCohort?: string }).scoreCohort === "extension";
     if (isExt && extensions >= 1) continue;
@@ -172,6 +180,11 @@ export function applyRule(c: Candidate, raws: Map<string, Raw>) {
     else warnings.push(`§ 3.3 bis : ratio ${name} ${r} ${marketScale(r) === 1 ? `dans le bruit (± ${MARKET_RATIO_NOISE * 100} %), repère médian conservé` : "appliqué au repère médian"} — sources à citer au journal`);
   }
   if (neighbours.length < 4) warnings.push(`seulement ${neighbours.length} voisine(s) admissible(s)${c.crossDept ? "" : " dans le département"} — règle non applicable`);
+  if (c.popMin != null && c.popMin < POP_MIN) {
+    if (c.crossDept) warnings.push("règle ② et règle ① ne se combinent pas — règle non applicable");
+    const small = neighbours.filter((n) => (n.v.population ?? 0) < POP_MIN).length;
+    warnings.push(`règle ② : plancher ${c.popMin} hab. dans le département, ${small}/4 voisine(s) sous ${POP_MIN} ; erreur de backtest 0,67 point par axe (contre 0,57) — justifier au journal`);
+  }
   if (c.crossDept) {
     const own = neighbours.filter((n) => n.v.department === c.dept).length;
     for (const a of ["safety", "cost"] as const) {
@@ -406,7 +419,7 @@ function main(): number {
   const excluded = new Set((arg("exclude") ?? "").split(",").filter(Boolean));
   const order = excluded.size ? new Set(CITIES_SEED.map((c) => c.slug).filter((s) => !excluded.has(s))) : undefined;
   const ratio = (n: string) => (arg(n) == null ? undefined : Number(arg(n)));
-  const r = applyRule({ lat, lng, dept, order, crossDept: process.argv.includes("--cross-dept"), priceRatio: ratio("price-ratio"), rentRatio: ratio("rent-ratio") }, raws);
+  const r = applyRule({ lat, lng, dept, order, crossDept: process.argv.includes("--cross-dept"), popMin: process.argv.includes("--regle2") ? POP_MIN_RULE2 : undefined, priceRatio: ratio("price-ratio"), rentRatio: ratio("rent-ratio") }, raws);
   console.log("\nVoisines (§ 3.2) :");
   for (const n of r.neighbours) {
     const ext = (n.v as { scoreCohort?: string }).scoreCohort === "extension" ? " *extension" : "";

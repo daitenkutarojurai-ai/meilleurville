@@ -599,6 +599,7 @@ export const HOUSING: Record<string, HousingData> = {
   "saint-sebastien-sur-loire": { avgRentT1: 500, avgRentT2: 690, avgRentT3: 930, avgBuyPriceM2: 3400 },
   "bouguenais": { avgRentT1: 500, avgRentT2: 690, avgRentT3: 930, avgBuyPriceM2: 4000 },
   "carquefou": { avgRentT1: 510, avgRentT2: 710, avgRentT3: 950, avgBuyPriceM2: 3600 },
+  "vallauris": { avgRentT1: 700, avgRentT2: 990, avgRentT3: 1330, avgBuyPriceM2: 4500 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
