@@ -304,6 +304,9 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | Le Port (974) | 97407 (absente vérifiée) | 8,3 · 37,3 · 40,7 · 44,5 km — mesuré le 2026-10-13 |
 | Sainte-Suzanne (974) | 97420 (absente vérifiée) | 7,6 · 18,0 · 36,8 · 42,5 km — mesuré le 2026-10-13 ; population à recouper |
 | La Possession (974) | 97408 (absente vérifiée) | 4ᵉ voisine à 41 km |
+| L'Isle-sur-la-Sorgue (84) | 84054 (absente vérifiée) | 20 244 hab. (pop. de référence 2023 : Banatic + Wikipédia + Habity — **passée au-dessus du seuil**, sortie du tableau D). Standard : Cavaillon 9,3 · Carpentras 15,2 · Orange 31,1 · Pertuis 44,1 km (Avignon en override) ; règle ② : 4ᵉ Orange à 31,1 km — mesuré le 2026-10-13 |
+| Sainte-Anne, Le Moule, Petit-Bourg (971) | à confirmer | Guadeloupe : 3 villes au seed, même cas que Le Gosier ; populations à recouper |
+| Kourou (973) | à confirmer | Guyane : 2 villes au seed (Cayenne, Saint-Laurent) ; population à recouper |
 | Le Gosier (971) | à confirmer | 3 voisines (la Guadeloupe n'a que 3 villes au seed) |
 | Matoury, Rémire-Montjoly (973) | à confirmer | 2 voisines (Cayenne, Saint-Laurent à 200 km) |
 | Koungou (976) | à confirmer | 1 seule ville au seed à Mayotte |
@@ -330,8 +333,13 @@ ressemble pas à ses voisines, une médiane serait fausse :
 (77053, 19 003), Juvisy-sur-Orge (91326, 19 292), Bourg-lès-Valence (26058, 19 992), Chevilly-Larue (94021,
 19 826) ; et, relevées par nom sans recoupement de population : Le Vésinet, Viroflay, Garches, Chennevières,
 Boissy-Saint-Léger, Valenton, Le Bourget, Villetaneuse, Saint-Brice, Mennecy, Nemours, Vaires, Canteleu,
-Bois-Guillaume, Ifs, Guipavas, Ploemeur, Pornic, Beaucaire, L'Isle-sur-la-Sorgue, Rive-de-Gier, Yutz,
+Bois-Guillaume, Ifs, Guipavas, Ploemeur, Pornic, Beaucaire, Rive-de-Gier, Yutz,
 Brignoles, Lunéville, Cesson-Sévigné, Bruz, Ramonville-Saint-Agne, Saint-Égrève, Plan-de-Cuques.
+Recoupées sur les populations de référence 2023 (publiées en décembre 2025, en vigueur au 1ᵉʳ janvier 2026) le
+2026-10-13 : Bourg-lès-Valence **19 992** (Banatic + Wikipédia), Bruz (35047) **19 683** (Banatic + Wikipédia),
+Schœlcher (97229) **19 478** (fichier Insee Martinique + Banatic), Mauguio (34154) **16 522**, Brignoles (83023)
+**17 850** — toutes sous le seuil. ⚠️ Le seuil se relit **sur le millésime en vigueur** : une commune à 19 900 peut le
+franchir à la publication suivante (cas de L'Isle-sur-la-Sorgue, 20 244 en 2023).
 
 ---
 
@@ -1600,3 +1608,30 @@ vérifiés.
 le seuil sous 20 000 hab. (tableau D) ; ③ une règle pour les DROM où la ville-centre dépasse 150 000 hab.
 (Réunion : Sainte-Marie, Le Port, Sainte-Suzanne, La Possession attendent ; populations à recouper). Sans décision, les runs suivants ne peuvent que
 vérifier la couverture et relire les repères.
+
+
+### 2026-10-13 (quatrième run) — aucun lot : une commune franchit le seuil, mesurée et reportée
+
+`seed-coverage` au départ : **1 ville en attente** (Carquefou, photo seule) → lot autorisé. Nouveau balayage par
+nom, cette fois **par slug et par nom normalisé** contre `CITIES_SEED` (~650 noms, banlieues de province et DROM
+compris) : aucune commune de 20 000 hab. et plus absente qui ne soit déjà au backlog, à une exception près —
+**L'Isle-sur-la-Sorgue (84054)**, rangée au tableau D « sous le seuil » mais à **20 244 hab.** dans les populations de
+référence 2023 (Banatic + Wikipédia + Habity, publication Insee de décembre 2025 ; 20 315 en 2022). Absence vérifiée
+par code Insee.
+
+*Mesure* (`seed:neighbours`, 43,919 N 5,051 E) : standard → Cavaillon 9,3 · Carpentras 15,2 · Orange 31,1 ·
+**Pertuis 44,1 km** (Avignon en override) ; deux villes des Bouches-du-Rhône plus proches que la 4ᵉ (Salon 31,2,
+Arles 43,4). Règle ② → Apt remplace Pertuis, **4ᵉ voisine Orange à 31,1 km**. Dans les deux cas la 4ᵉ voisine est
+au-delà de 25 km (backtest 0,68), le cas qui a fait reporter Saint-Leu et les trois communes de La Réunion le même
+jour : **reportée**, par cohérence, au tableau C. Règle ① non tentée : Avignon, la vraie ville-centre, est en
+override, et Salon / Arles ne décrivent pas mieux la vallée de la Sorgue.
+
+*Livrable* : backlog fiabilisé — L'Isle-sur-la-Sorgue sortie du tableau D ; cinq communes proches du seuil
+recoupées sur le millésime 2023 (toutes sous 20 000) ; Sainte-Anne, Le Moule, Petit-Bourg (971) et Kourou (973),
+absentes du backlog, ajoutées au tableau C (même blocage que Le Gosier et Matoury). Aucune modification du seed :
+dérive nulle, table des couleurs inchangée (590).
+
+**Prochain lot** : inchangé — rien ne passe la règle actuelle. Les décisions du propriétaire listées au run précédent
+(overrides documentés, seuil sous 20 000, règle DROM, et désormais : accepter ou non une 4ᵉ voisine au-delà de 25 km
+quand la ville-centre est en override) sont le seul déblocage. Relire chaque année le tableau D sur le nouveau
+millésime de populations de référence.
