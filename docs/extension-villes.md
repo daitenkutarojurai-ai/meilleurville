@@ -262,38 +262,76 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 | Épinay-sur-Seine | 93031 | Seine-Saint-Denis | Île-de-France | 52 833 (2023, Wikipédia FR ; 52 606 ville-data) | **lot 1** |
 | Villeneuve-d'Ascq | 59009 (à confirmer) | Nord | Hauts-de-France | à mesurer | **attend un override** (§ 3.2) |
 
-### 20 000 – 50 000 hab. — candidats (absents par nom)
+### 20 000 – 50 000 hab. — état au 2026-10-13 (troisième run)
 
-~~Montrouge, Meudon, Vanves, L'Haÿ-les-Roses, Thiais, Livry-Gargan, Villepinte~~ (**lot 2**),
-**Maisons-Laffitte** (78358, déjà au seed, **hors règle, attend un override** — cf. journal du
-2026-10-10, cinquième run), ~~Villeneuve-Saint-Georges~~ (94078, **lot 9**, règle ① + § 3.3 bis), ~~Villeneuve-le-Roi~~ (94077, **lot 9**), ~~Mons-en-Barœul~~ (59410, **lot 10**), **Loos** (59360) **reportée** (DVF appart. ~2 735 €/m² contre 1 904 € chez ses voisines, +44 %), **Croix** (59163, +32 %) et **Wasquehal** (59646, +68 %) **reportées** au § 3.3 bis (mesures du 2026-10-11), ~~Gagny,
-Clichy-sous-Bois, Romainville, Villemomble, Ris-Orangis~~ (**lot 3**) ; ~~Fontenay-aux-Roses, Chaville, Joinville-le-Pont, Les Pavillons-sous-Bois,
-Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herblay-sur-Seine, Taverny,
-Maisons-Laffitte, Gradignan~~ (**lot 5**) ; ~~Eysines, Montgeron, Longjumeau, Achères~~ (**lot 6**) ; ~~Brétigny-sur-Orge, Saint-Michel-sur-Orge, Lagny-sur-Marne,
-Bussy-Saint-Georges, Saint-Cyr-l'École, Roissy-en-Brie~~ (**lot 7**) ; ~~Couëron, Halluin~~ (**lot 8**) ; mesurées le 2026-10-10 (lot 8) et **reportées** : **Brie-Comte-Robert** (77053, 19 003 hab. en 2023, Banatic + Wikipédia : sous le seuil), Saint-Ouen-l'Aumône et Ozoir-la-Ferrière (2 voisines d'extension), Le Plessis-Trévise et Villiers-sur-Marne (médiane tirée par Saint-Maur / Nogent / Le Perreux, repère 6 800 €/m², même cas que Sucy), Mitry-Mory (voisines 77 à 11-15 km, vraies voisines en 93), Loos et Mons-en-Barœul (Lille en override, voisines à 7-17 km et repère 1 700 €/m² face à un marché bien plus cher), Les Pennes-Mirabeau (3ᵉ et 4ᵉ voisines de l'autre côté de Marseille, 16-25 km), Saint-Jean-de-Braye (2 voisines admissibles, Orléans en override), La Garde, Frontignan, La Teste-de-Buch, Lisieux, Grande-Synthe, Nogent-sur-Oise (voisines admissibles trop rares ou trop lointaines), Le Port et Sainte-Marie (974, voisines à 13-45 km), ~~Morsang-sur-Orge~~ (**lot 11**) ; **Juvisy-sur-Orge** (91326) **sortie du backlog** :
-19 292 hab. en 2023 (Banatic + Wikipédia EN), sous le seuil de 20 000 ; ~~Morsang-sur-Orge~~ (91434, **lot 11**) ;
-**La Madeleine** (59368) et **Bourg-lès-Valence** (26058, 19 992 hab. en 2023, sous le seuil) **reportées le 2026-10-13** ;
-**Sucy-en-Brie** (94071, 27 764 hab.) **attend un override** : voisines Saint-Maur / Champigny / Joinville /
-Maisons-Alfort → repère 6 200 €/m² contre ~3 750-4 300 € au marché (+50 %), Saint-Maur tire tout ; mesurées
-le 2026-10-10 (lot 6), règle valable, non retenues faute de place : Juvisy-sur-Orge (voisines 2,2-2,6 km, pop. à
-confirmer ≥ 20 000), Morsang-sur-Orge, Brétigny-sur-Orge, Saint-Michel-sur-Orge, Saint-Cyr-l'École, Roissy-en-Brie,
-Bussy-Saint-Georges, Lagny-sur-Marne ; ~~Chilly-Mazarin~~ (91161, **lot 11**) ; Deuil-la-Barre (Sarcelles dans la médiane), Montigny-lès-Cormeilles (2 voisines d'extension),
-Gif-sur-Yvette, Mantes-la-Ville, Montereau, Mitry-Mory, Ozoir, ~~Carquefou~~ (**lot 14**), ~~Bouguenais~~ (**lot 13**), ~~Vallauris~~ (**lot 15**), Miramas (voisines
-trop éloignées ou en override) **reportées** ; mesurées le 2026-10-10 et **reportées** :
-Villeneuve-le-Roi, Limeil-Brévannes (plus proche voisine en Essonne), Cenon (rive droite, voisines rive gauche),
-~~Saint-Sébastien-sur-Loire~~ (**lot 13**), Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne,
-Croix, Wasquehal, Les Ulis, Villeparisis, Le Mée-sur-Seine, Dammarie-les-Lys (voisines trop éloignées ou en
-override) ; mesurées le 2026-10-09 et **reportées** : Montfermeil, Les Lilas,
-Villiers-sur-Marne, Chevilly-Larue (cf. journal) ; non retenues faute de place, règle valable : Orly
-(94054), Villeneuve-le-Roi (94077, voir lot 5) ; **règle de voisinage non
-valable, mesurée le 2026-10-08** (cf. journal) : Grigny, Les Mureaux, Chatou, Lormont,
-Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Lunel, Saint-Étienne-du-Rouvray, Lambersart,
-Marcq-en-Barœul — toutes attendent un override documenté ; ~~Vallauris~~ (06155, **lot 15**) ; Miramas reportée (2026-10-13) ;
-Villefontaine (Oullins est déjà au seed, fusionnée : `oullins-pierre-benite`) ; Marcq-en-Barœul, Lambersart ; Saint-Étienne-du-Rouvray ; DROM : Le Port,
-Sainte-Marie, ~~Saint-Leu (974)~~, ~~Le Gosier (971), Matoury (973)~~, Koungou (976) (Saint-Leu, Le Gosier, Matoury,
-Rémire-Montjoly, La Possession **mesurées et reportées le 2026-10-13**, cf. journal) — homonymes
-métropolitains possibles, **vérifier par code Insee**. Liste non exhaustive : la liste complète par
-population vient de la base Insee, qui ne se télécharge que depuis la machine locale.
+**Le gisement « règle valable » est épuisé.** Balayage par nom de ~400 communes de 20 000 hab. et plus
+(toutes régions, DROM compris) au 2026-10-13 : les seules absentes du seed sont déjà ci-dessous, ou sous le
+seuil. Ce qui reste n'avance que par **décision de méthode** (override documenté, seuil abaissé, règle de
+marché revue) ou par la **liste exhaustive Insee** (passe locale ; `geo.api.gouv.fr` refuse le CONNECT depuis
+une routine, revérifié ce jour). Codes Insee donnés seulement quand un run les a vérifiés ; sinon « à
+confirmer », et l'absence se revérifie **par code** avant d'entrer dans un lot.
+
+Ajoutées : lots 1 à 15, voir le journal (§ 6) — ne plus les lister ici.
+
+**A. Attendent un override documenté** (`lib/score-calibration.ts`, § 3.2 limite connue) — la ville ne
+ressemble pas à ses voisines, une médiane serait fausse :
+
+| Commune | Insee | Raison |
+|---|---|---|
+| Villeneuve-d'Ascq | 59009 (à confirmer) | ville universitaire et technopole entourée de Roubaix / Tourcoing / Wattrelos |
+| Sucy-en-Brie | 94071 | médiane tirée par Saint-Maur : repère 6 200 €/m² contre ~3 750-4 300 au marché (+50 %) |
+| La Madeleine | 59368 | voisines Roubaix / Tourcoing / Wattrelos, marché nettement plus cher |
+| Marcq-en-Barœul, Lambersart | à confirmer | même cas que La Madeleine (Lille en override) |
+| Grigny, Les Mureaux, Chatou, Lormont, Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Saint-Étienne-du-Rouvray | à confirmer | règle non valable, mesurée le 2026-10-08 |
+| Montfermeil | 93047 | 3 voisines d'extension ; grands ensembles des Bosquets, médiane non représentative |
+| *Déjà au seed* : Maisons-Laffitte (78358), Clichy-sous-Bois, Romainville, Ris-Orangis | — | notes héritées hors ± 30 % du marché (§ 6, 2026-10-12 quatrième run) : ne pas citer au dixième |
+
+**B. Marché hors ± 30 % de ses voisines** (§ 3.3 bis) :
+
+| Commune | Insee | Mesure |
+|---|---|---|
+| Loos | 59360 | DVF appart. ~2 735 €/m² contre 1 904 chez ses voisines (+44 %) |
+| Croix | 59163 | +32 % |
+| Wasquehal | 59646 | +68 % |
+| Saint-Leu (974) | 97413 | 4 710 ÷ 2 858 = 1,65 ; 4ᵉ voisine à 27 km |
+| Le Plessis-Trévise, Villiers-sur-Marne (94079) | à confirmer / 94079 | médiane tirée par Saint-Maur / Nogent / Le Perreux (repère ~6 800 €/m²) |
+
+**C. Voisines trop rares, trop lointaines ou du mauvais côté** (règle standard **et** règle ② échouent) :
+
+| Commune | Insee | Mesure |
+|---|---|---|
+| Sainte-Marie (974) | 97418 (absente vérifiée) | voisines 12,7 · 22,8 · 31,6 · 42,6 km (Saint-Denis > 150 000 hab., hors filtre) — mesuré le 2026-10-13 |
+| Le Port (974) | 97407 (absente vérifiée) | 8,3 · 37,3 · 40,7 · 44,5 km — mesuré le 2026-10-13 |
+| Sainte-Suzanne (974) | 97420 (absente vérifiée) | 7,6 · 18,0 · 36,8 · 42,5 km — mesuré le 2026-10-13 ; population à recouper |
+| La Possession (974) | 97408 (absente vérifiée) | 4ᵉ voisine à 41 km |
+| Le Gosier (971) | à confirmer | 3 voisines (la Guadeloupe n'a que 3 villes au seed) |
+| Matoury, Rémire-Montjoly (973) | à confirmer | 2 voisines (Cayenne, Saint-Laurent à 200 km) |
+| Koungou (976) | à confirmer | 1 seule ville au seed à Mayotte |
+| Lunel, Frontignan (34) | à confirmer | 1 voisine (Agde, 27-67 km) |
+| Lisieux (14) | à confirmer | 1 voisine (Hérouville, 41 km) |
+| Fougères (35) | à confirmer | 2 voisines |
+| Le Creusot, Montceau-les-Mines (71) | à confirmer | 3 voisines |
+| Miramas (13) | à confirmer | 4ᵉ voisine Saint-Rémy à 26,8 km, repère m² × 1,78 |
+| La Teste-de-Buch (33) | à confirmer | voisines à 44-45 km |
+| Nogent-sur-Oise (60) | à confirmer | Chantilly / Senlis ne la décrivent pas (repère m² × 2,74) |
+| Saint-Jean-de-Braye (45) | à confirmer | Orléans en override, 3ᵉ-4ᵉ voisines à 55-57 km |
+| La Garde (83) | à confirmer | Toulon en override, 4ᵉ voisine à 55 km |
+| Grande-Synthe, Coudekerque-Branche (59155) | à confirmer / 59155 | Dunkerque en override, voisines à 35-63 km |
+| Les Pennes-Mirabeau (13) | à confirmer | 3ᵉ-4ᵉ voisines de l'autre côté de Marseille |
+| Cenon (33) | à confirmer | rive droite, voisines rive gauche |
+| Mitry-Mory (77) | à confirmer | vraies voisines en 93 ; règle ① refusée (écart de biais sécurité 2,0) |
+| Limeil-Brévannes (94) | à confirmer | plus proche voisine en Essonne |
+| Les Lilas | 93045 | Pantin et Montreuil en override |
+| Saint-Ouen-l'Aumône, Ozoir-la-Ferrière, Montigny-lès-Cormeilles | à confirmer | 2 voisines d'extension |
+| Deuil-la-Barre | à confirmer | Sarcelles dans la médiane |
+| Gif-sur-Yvette, Mantes-la-Ville, Montereau, Villeparisis, Le Mée-sur-Seine, Dammarie-les-Lys, Les Ulis, Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne, Villefontaine | à confirmer | voisines trop éloignées ou en override |
+
+**D. Sous le seuil de 20 000 hab.** (sorties, à reconsidérer seulement si le seuil descend) : Brie-Comte-Robert
+(77053, 19 003), Juvisy-sur-Orge (91326, 19 292), Bourg-lès-Valence (26058, 19 992), Chevilly-Larue (94021,
+19 826) ; et, relevées par nom sans recoupement de population : Le Vésinet, Viroflay, Garches, Chennevières,
+Boissy-Saint-Léger, Valenton, Le Bourget, Villetaneuse, Saint-Brice, Mennecy, Nemours, Vaires, Canteleu,
+Bois-Guillaume, Ifs, Guipavas, Ploemeur, Pornic, Beaucaire, L'Isle-sur-la-Sorgue, Rive-de-Gier, Yutz,
+Brignoles, Lunéville, Cesson-Sévigné, Bruz, Ramonville-Saint-Agne, Saint-Égrève, Plan-de-Cuques.
 
 ---
 
@@ -1534,3 +1572,31 @@ dépôt : ratio attendu ~0,98). Gisement : mesurer les communes de 20 000+ hab. 
 dont les voisines en override sont la seule raison de report, comme Vallauris ; sinon les trois décisions de méthode
 du run précédent (overrides documentés, seuil sous 20 000 hab.).
 
+
+### 2026-10-13 (troisième run) — aucun lot : gisement épuisé, backlog restructuré, trois 974 mesurées
+
+`seed-coverage` au départ : **1 ville en attente** (Carquefou, photo seule) → lot autorisé, runner local vivant
+(commit `[local-runner]` du jour, biodiversité / actualité / zones protégées à 590/590). `seed:neighbours:relire` :
+**0 repère à relire** ; **Vallauris servie**, DVF 4 225 ÷ 4 310 = **0,980**, conforme au ratio attendu au lot 15
+(repère médian 4 500 €/m² conservé).
+
+*Balayage* : ~400 noms de communes de 20 000 hab. et plus testés contre le seed (Île-de-France, métropoles,
+préfectures et sous-préfectures, DROM). Les absentes sont toutes déjà reportées ou sous le seuil. Trois communes
+de La Réunion jamais passées au script, **absentes vérifiées par code Insee**, mesurées avec `seed:neighbours` :
+Sainte-Marie (97418 ; 4ᵉ voisine à 42,6 km), Le Port (97407 ; 44,5 km), Sainte-Suzanne (97420 ; 42,5 km).
+Saint-Denis (La Réunion) dépasse 150 000 hab. et sort du filtre, donc les voisines sont l'est et le sud de l'île :
+au-delà de 25 km le backtest monte à 0,68, et Saint-Leu, même cas, a été reportée le 2026-10-13. **Reportées.**
+`geo.api.gouv.fr` refuse toujours le CONNECT depuis la routine : la liste exhaustive reste une passe locale.
+
+*Livrable* : le backlog (§ 5) est réécrit en quatre tableaux — override à écrire, marché hors ± 30 %, voisines
+trop rares ou lointaines, sous le seuil — à la place d'un paragraphe de 35 lignes où ajoutées et reportées se
+mêlaient. Chaque reportée garde sa raison mesurée ; les codes Insee ne sont donnés que là où un run les a
+vérifiés.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (590).
+
+**Prochain lot** : rien ne passe la règle actuelle. Trois décisions du propriétaire débloqueraient l'extension :
+① overrides documentés (tableau A, dont Villeneuve-d'Ascq, la plus grosse absente connue) ; ② abaisser
+le seuil sous 20 000 hab. (tableau D) ; ③ une règle pour les DROM où la ville-centre dépasse 150 000 hab.
+(Réunion : Sainte-Marie, Le Port, Sainte-Suzanne, La Possession attendent ; populations à recouper). Sans décision, les runs suivants ne peuvent que
+vérifier la couverture et relire les repères.
