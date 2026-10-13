@@ -272,6 +272,7 @@ Neuilly-Plaisance~~ (**lot 4**) ; ~~Orly, Saint-Gratien, Vigneux-sur-Seine, Herb
 Maisons-Laffitte, Gradignan~~ (**lot 5**) ; ~~Eysines, Montgeron, Longjumeau, Achères~~ (**lot 6**) ; ~~Brétigny-sur-Orge, Saint-Michel-sur-Orge, Lagny-sur-Marne,
 Bussy-Saint-Georges, Saint-Cyr-l'École, Roissy-en-Brie~~ (**lot 7**) ; ~~Couëron, Halluin~~ (**lot 8**) ; mesurées le 2026-10-10 (lot 8) et **reportées** : **Brie-Comte-Robert** (77053, 19 003 hab. en 2023, Banatic + Wikipédia : sous le seuil), Saint-Ouen-l'Aumône et Ozoir-la-Ferrière (2 voisines d'extension), Le Plessis-Trévise et Villiers-sur-Marne (médiane tirée par Saint-Maur / Nogent / Le Perreux, repère 6 800 €/m², même cas que Sucy), Mitry-Mory (voisines 77 à 11-15 km, vraies voisines en 93), Loos et Mons-en-Barœul (Lille en override, voisines à 7-17 km et repère 1 700 €/m² face à un marché bien plus cher), Les Pennes-Mirabeau (3ᵉ et 4ᵉ voisines de l'autre côté de Marseille, 16-25 km), Saint-Jean-de-Braye (2 voisines admissibles, Orléans en override), La Garde, Frontignan, La Teste-de-Buch, Lisieux, Grande-Synthe, Nogent-sur-Oise (voisines admissibles trop rares ou trop lointaines), Le Port et Sainte-Marie (974, voisines à 13-45 km), ~~Morsang-sur-Orge~~ (**lot 11**) ; **Juvisy-sur-Orge** (91326) **sortie du backlog** :
 19 292 hab. en 2023 (Banatic + Wikipédia EN), sous le seuil de 20 000 ; ~~Morsang-sur-Orge~~ (91434, **lot 11**) ;
+**La Madeleine** (59368) et **Bourg-lès-Valence** (26058, 19 992 hab. en 2023, sous le seuil) **reportées le 2026-10-13** ;
 **Sucy-en-Brie** (94071, 27 764 hab.) **attend un override** : voisines Saint-Maur / Champigny / Joinville /
 Maisons-Alfort → repère 6 200 €/m² contre ~3 750-4 300 € au marché (+50 %), Saint-Maur tire tout ; mesurées
 le 2026-10-10 (lot 6), règle valable, non retenues faute de place : Juvisy-sur-Orge (voisines 2,2-2,6 km, pop. à
@@ -289,7 +290,8 @@ valable, mesurée le 2026-10-08** (cf. journal) : Grigny, Les Mureaux, Chatou, L
 Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Lunel, Saint-Étienne-du-Rouvray, Lambersart,
 Marcq-en-Barœul — toutes attendent un override documenté ; non mesurées : Vallauris, Miramas ;
 Villefontaine (Oullins est déjà au seed, fusionnée : `oullins-pierre-benite`) ; Marcq-en-Barœul, Lambersart ; Saint-Étienne-du-Rouvray ; DROM : Le Port,
-Sainte-Marie, Saint-Leu (974), Le Gosier (971), Matoury (973), Koungou (976) — homonymes
+Sainte-Marie, ~~Saint-Leu (974)~~, ~~Le Gosier (971), Matoury (973)~~, Koungou (976) (Saint-Leu, Le Gosier, Matoury,
+Rémire-Montjoly, La Possession **mesurées et reportées le 2026-10-13**, cf. journal) — homonymes
 métropolitains possibles, **vérifier par code Insee**. Liste non exhaustive : la liste complète par
 population vient de la base Insee, qui ne se télécharge que depuis la machine locale.
 
@@ -1433,4 +1435,36 @@ Toucher leurs notes déplacerait leur note rendue (cohorte « extension » : auc
 **Prochain lot** : `seed-coverage`, puis `npm run seed:neighbours:relire` dès que Carquefou est servie. Candidates :
 les overrides des trois villes ci-dessus, de Maisons-Laffitte et de Sucy-en-Brie (§ 3.2 limite connue) ; la liste
 exhaustive Insee (passe locale) ; outiller la règle ② si une candidate en a besoin.
+
+### 2026-10-13 — aucun lot : sept candidates mesurées, aucune ne passe ; relecture des repères à point fixe
+
+`seed-coverage` au départ : **1 ville en attente** (Carquefou, photo seule ; DVF, revenus, population,
+biodiversité, actualité, zones protégées servis à 589/589 hors manques permanents) → lot autorisé, runner local
+vivant (commit `[local-runner]` du jour). `npm run seed:neighbours:relire` : **0 repère à relire**, Carquefou
+servie converge (DVF 3 438 ÷ 3 158,5 = 1,088, repère médian 3 600 €/m² conservé).
+
+*Balayage* : ~230 communes de grandes agglomérations et de villes moyennes testées par nom ; les absentes sont
+presque toutes sous 20 000 hab. (Lunéville, Chamalières, Bruz, Cesson-Sévigné, Montivilliers, Avrillé, Lattes, Hem,
+Woippy, Saint-Cyr-sur-Loire, Saint-Pierre-des-Corps, Fécamp, Elbeuf, Auray, Pontivy…) ou déjà au backlog. Mesurées
+avec `seed:neighbours` :
+
+| Commune | Règle § 3.2 | Marché | Décision |
+|---|---|---|---|
+| La Madeleine (59, ~22 000) | Mons-en-Barœul* 3,0 · Roubaix 8,3 · Tourcoing 9,9 · Wattrelos 11,3 km → repère 1 600 €/m² | marché nettement plus cher que Roubaix/Tourcoing (même cas que Marcq, Lambersart) | **reportée**, attend un override |
+| Bourg-lès-Valence (26058) | 3 voisines (Valence 1,7 · Romans 16,7 · Montélimar 45 km) | — | **sortie** : **19 992 hab.** en 2023 (Wikipédia EN, bien-dans-ma-ville, villesavivre), sous le seuil |
+| Saint-Leu (974, Insee 97413, absente par code) | Saint-Louis 18,0 · Saint-Paul 18,0 · Le Tampon 26,4 · Saint-Pierre 27,2 km | DVF appart. PAP **4 710 €/m²** (juillet 2026) ÷ médiane DVF des voisines au dépôt **2 858** (2 294 / 5 304 / 2 387 / 3 329) = **1,65** | **reportée** : hors ± 30 % (§ 3.3 bis), 4ᵉ voisine > 25 km |
+| La Possession (974) | 4ᵉ voisine à 41 km | — | reportée, règle non valable |
+| Le Gosier (971) | 2 voisines admissibles | — | reportée, règle ② non outillée (Pointe-à-Pitre sous 20 000) |
+| Matoury, Rémire-Montjoly (973) | 2 voisines (Cayenne, Saint-Laurent à 200 km) | — | reportées, règle non valable en Guyane |
+
+⚠️ Square Habitat indexe Saint-Leu sous « 97416 », qui est son **code postal** et le **code Insee de
+Saint-Pierre** : ne pas confondre les deux au prochain relevé.
+
+*Aucune modification du seed* : pas de dérive à mesurer, table des couleurs inchangée (589).
+
+**Prochain lot** : le gisement « règle valable au-dessus de 20 000 hab. » est **épuisé** hors liste exhaustive Insee
+(passe locale). Ce qui reste n'avance que par décision de méthode : ① les overrides documentés (Clichy-sous-Bois,
+Romainville, Ris-Orangis, Maisons-Laffitte, Sucy-en-Brie, La Madeleine, Villeneuve-d'Ascq) ; ② outiller la règle ②
+(plancher 10 000 dans le département) ; ③ décider si le seuil descend sous 20 000 hab. — Bourg-lès-Valence, Cesson-
+Sévigné, Bruz, Lunéville seraient alors les premières à mesurer. Aucune des trois ne se tranche sans le propriétaire.
 
