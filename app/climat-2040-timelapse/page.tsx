@@ -70,6 +70,18 @@ export default function Climat2040TimelapsePage() {
                 </p>
               </Card>
             </Link>
+            <Link href="/pour-qui/anti-canicule" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors h-full">
+                <div className="text-2xl mb-1">🧊</div>
+                <p className="font-semibold text-[var(--text-primary)]">
+                  Villes pour les personnes sensibles à la chaleur
+                </p>
+                <p className="text-xs text-[var(--text-secondary)] mt-1">
+                  Le profil qui garde les étés frais et l&apos;air correct comme critères d&apos;un
+                  choix de ville.
+                </p>
+              </Card>
+            </Link>
             <Link href="/red-flags/villes-manque-de-verdure" className="block">
               <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors h-full">
                 <div className="text-2xl mb-1">🌵</div>

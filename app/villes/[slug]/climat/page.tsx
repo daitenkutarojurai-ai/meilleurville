@@ -346,6 +346,13 @@ export default async function ClimatPage({ params }: Props) {
                 </div>
               </div>
             </Link>
+            <p className="mt-3 text-sm text-[var(--text-secondary)]">
+              Si la chaleur est ce qui vous fait hésiter, la page{" "}
+              <Link href="/pour-qui/anti-canicule" className="text-[var(--accent)] hover:underline">
+                villes où l&apos;été reste vivable
+              </Link>{" "}
+              classe les communes sur la fraîcheur d&apos;été et l&apos;air respirable.
+            </p>
           </div>
         </section>
       )}

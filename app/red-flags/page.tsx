@@ -237,7 +237,12 @@ export default function RedFlagsPage() {
               <Link href="/pour-qui/professionnels-de-sante" className="text-[var(--accent)] hover:underline">
                 s&apos;installer là où l&apos;on manque de soignants
               </Link>{" "}
-              classe les villes sur la pénurie plutôt que sur l&apos;accès.
+              classe les villes sur la pénurie plutôt que sur l&apos;accès. Et pour
+              qui supporte mal les étés qui s&apos;allongent, la page{" "}
+              <Link href="/pour-qui/anti-canicule" className="text-[var(--accent)] hover:underline">
+                villes anti-canicule
+              </Link>{" "}
+              retient la fraîcheur estivale comme critère de départ.
             </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">

@@ -188,6 +188,12 @@ export default async function Climat2040Page({ params }: Props) {
               <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Villes les plus résistantes à la canicule</div>
             </Card>
           </Link>
+          <Link href="/pour-qui/anti-canicule" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-xs uppercase text-[var(--text-tertiary)]">Profil</div>
+              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Villes pour fuir les étés trop chauds</div>
+            </Card>
+          </Link>
           <Link href={`/villes/${city.slug}/avis-honnete`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-xs uppercase text-[var(--text-tertiary)]">Synthèse</div>
