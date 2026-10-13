@@ -34,7 +34,7 @@ import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeNaturalRisks } from "@/lib/natural-risks";
 import { computeWaterStress } from "@/lib/water-stress";
 import { computeNoiseExposure } from "@/lib/noise-exposure";
-import { computeHealthcareAccess } from "@/lib/healthcare-access";
+import { computeHealthcareAccess, HEALTH_LEVEL_LABEL } from "@/lib/healthcare-access";
 import { computeEmploymentMarket } from "@/lib/employment-market";
 import { climateZoneFor } from "@/lib/cost-living";
 import { computeQualityOfLife } from "@/lib/quality-of-life-index";
@@ -2454,6 +2454,64 @@ function rankJeunesStudioCher(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity);
 }
 
+// « Villes où l'on vieillit loin des soins ».
+//
+// Deux lectures croisées. La première est **mesurée** : la part des 75 ans et
+// plus (tranches 75-89 et 90+ du recensement Insee 2022, `lib/city-population.ts`).
+// La seconde est **estimée** : le composite de difficulté d'accès aux soins de
+// `lib/healthcare-access.ts` (10 = désert, département + taille de commune +
+// distance à un CHU), pas un relevé de cabinets. Le thème le dit.
+// Villes comparées : population Insee 2022 ≥ 10 000 habitants.
+// Seuils d'entrée : 12 % de 75 ans et plus (médiane des villes comparées ≈ 9,5 %)
+// et un composite d'au moins 6/10 (niveau « tendu » ou pire).
+// ⚠️ La part des 75 ans et plus compte des **résidents**, EHPAD compris : une
+// commune qui héberge un établissement voit sa part montée sans que ses
+// habitants à domicile soient plus nombreux. Le thème n'affirme aucune
+// causalité et ne mesure ni la dépendance ni l'isolement.
+const MIN_OLD_SHARE = 12;
+const MIN_HEALTH_COMPOSITE = 6;
+const MIN_POP_FOR_OLD_SHARE = 10_000;
+
+function oldShareOf(slug: string): { share: number; old: number; pop: number } | null {
+  const p = cityPopulation(slug);
+  if (!p?.ages || p.pop2022 < MIN_POP_FOR_OLD_SHARE) return null;
+  const a = p.ages;
+  const total = a.a0014 + a.a1529 + a.a3044 + a.a4559 + a.a6074 + a.a7589 + a.a90p;
+  if (total <= 0) return null;
+  const old = a.a7589 + a.a90p;
+  return { share: (old / total) * 100, old, pop: p.pop2022 };
+}
+
+function rankVieillirLoinDesSoins(): RedFlagRow[] {
+  const shares: number[] = [];
+  for (const city of CITIES_SEED) {
+    const m = oldShareOf(city.slug);
+    if (m) shares.push(m.share);
+  }
+  shares.sort((a, b) => a - b);
+  const medianShare = shares[Math.floor(shares.length / 2)];
+
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const m = oldShareOf(city.slug);
+    if (!m || m.share < MIN_OLD_SHARE) continue;
+    const h = computeHealthcareAccess(city);
+    if (h.composite < MIN_HEALTH_COMPOSITE) continue;
+    // Le seuil d'entrée EST le plancher de gravité (6) ; la pente porte ensuite
+    // jusqu'à 10/10. Tri sur la valeur non arrondie.
+    const severity = Math.min(
+      10,
+      6 + 0.12 * (m.share - MIN_OLD_SHARE) + 0.5 * (h.composite - MIN_HEALTH_COMPOSITE),
+    );
+    const one = (v: number) =>
+      v.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const n = (v: number) => Math.round(v).toLocaleString("fr-FR");
+    const reason = `${one(m.share)} % d'habitants de 75 ans et plus (${n(m.old)} sur ${n(m.pop)} habitants, médiane des villes comparées : ${one(medianShare)} %) · accès aux soins estimé à ${one(h.composite)}/10 de difficulté (10 = désert), niveau « ${HEALTH_LEVEL_LABEL[h.level].toLowerCase()} »`;
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -3069,6 +3127,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Indicateur : part des 15-29 ans (tranche Insee 15-29 ans ÷ somme des sept tranches d'âge, commune par commune) ≥ 24 %, croisée avec le rapport entre le loyer T1 de référence et la médiane des villes comparées ≥ 1,10. Severity = 6 + 0,3 × (part en points au-dessus de 24) + 3 × (rapport − 1,10), plafonnée à 10/10 : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, loyer connu, soit 361 villes. Sources : Insee, recensement de la population, base « Évolution et structure de la population en 2022 », exploitée via `lib/city-population.ts` (538 des 540 villes ; manquent Mamoudzou et Pierrefitte-sur-Seine) ; `data/housing.ts` pour le loyer T1, un repère éditorial. Aucune causalité n'est affirmée entre la part de jeunes et le niveau du loyer, et aucune donnée de stock de logements n'est mobilisée. Distinct de `villes-logement-introuvable` (score de tension locative) et de `villes-fuite-jeunes-actifs` (score de départ des jeunes actifs) : ici deux mesures publiées, sans score.",
     rank: rankJeunesStudioCher,
+  },
+  {
+    slug: "villes-vieillir-loin-des-soins",
+    title: "Villes où l'on vieillit loin des soins",
+    metaTitle: "Vieillir loin des soins — 57 villes classées 2026",
+    metaDescription:
+      "Classement 2026 des villes où les 75 ans et plus pèsent 12 % des habitants (Insee 2022) et où l'accès aux soins estimé est tendu : Arcachon, Royan, Granville.",
+    emoji: "🩺",
+    intro:
+      "Une ville pour la retraite, c'est le soleil, la mer, un centre piéton, un marché. Personne ne la choisit pour ses délais de rendez-vous. Le problème arrive vingt ans plus tard : à 80 ans, on ne consulte plus un médecin par an mais plusieurs spécialistes, et la voiture, qui masquait tout, n'est plus toujours là. Une ville peut être excellente pour fêter ses 65 ans et mal armée pour ses 85. Ce classement ne juge pas le charme des villes où l'on vieillit : il regarde où les très âgés sont déjà nombreux, et où, en même temps, l'accès aux soins que nous estimons est tendu ou pire.",
+    reality:
+      "Deux lectures sont croisées, et elles n'ont pas le même statut. La première est mesurée : la part des habitants de 75 ans et plus (tranches 75-89 ans et 90 ans et plus du recensement Insee 2022), sur les 521 villes de 10 000 habitants et plus. Sa médiane est de 9,5 % ; 139 villes atteignent 12 %. La seconde est estimée : le composite de difficulté d'accès aux soins de ce site (10 = désert), construit à partir du département, de la taille de la commune et de la distance à un CHU, et non d'un relevé de cabinets. Quatre-vingt-dix-sept villes l'ont à 6/10 ou plus. Cinquante-sept cumulent les deux : 49 au niveau « tendu », 8 au niveau « désert ». Arcachon ouvre avec 30,0 % d'habitants de 75 ans et plus, soit 3 266 personnes, devant Royan, Granville, Autun, Issoudun, Dinard, Vichy, Lourdes et La Baule. On y trouve deux familles : des stations balnéaires et thermales (Arcachon, Royan, Dinard, La Baule, Vichy, Lourdes), où la part des très âgés est la plus forte, et des sous-préfectures de l'intérieur (Autun, Issoudun, Flers, Argentan, Vierzon) où elle est moindre mais où l'accès estimé est le plus mal noté. La liste ne se limite pas aux petites communes : Vichy est la première ville de plus de 20 000 habitants, au 7e rang, devant Vierzon, Aurillac, Montluçon, Challans et Alençon. Les 57 villes se répartissent sur 43 départements, ont un loyer T3 de référence médian de 720 € contre 950 € pour l'ensemble du corpus, et 36 sur 57 perdent des habitants entre 2016 et 2022. Trois réserves de lecture. L'indicateur de soins est une estimation : il situe un territoire, il ne compte pas les médecins qui prennent de nouveaux patients. La tranche des 75 ans et plus compte des résidents, établissements d'hébergement compris : une commune qui accueille un EHPAD voit sa part monter sans que le nombre de personnes âgées à domicile augmente d'autant. Enfin, une part élevée ne dit ni dépendance ni isolement, et ce classement n'affirme aucune causalité entre l'âge des habitants et l'offre de soins.",
+    methodology:
+      "Indicateur : part des 75 ans et plus (tranches 75-89 et 90+ ÷ somme des sept tranches d'âge, commune par commune) ≥ 12 %, croisée avec le composite de difficulté d'accès aux soins ≥ 6/10 (10 = désert, convention du quartet environnement : l'inversion se fait à l'affichage, jamais dans le moteur). Severity = 6 + 0,12 × (part en points au-dessus de 12) + 0,5 × (composite − 6), le seuil d'entrée étant le plancher de gravité ; le tri porte sur la valeur non arrondie et aucune ville n'atteint le plafond de 10/10. Villes comparées : population Insee 2022 ≥ 10 000 habitants, soit 521 villes. Sources : Insee, recensement de la population, base « Évolution et structure de la population en 2022 », via `lib/city-population.ts` (538 des 540 villes ; manquent Mamoudzou et Pierrefitte-sur-Seine) ; `lib/healthcare-access.ts` pour le composite, une estimation calibrée sur des cadres de référence (DREES, CNOM, zonage ARS), qui n'est pas un relevé de cabinets. Le zonage ARS, seul document opposable pour les aides à l'installation, travaille par bassin de vie et non par commune : vérifier le sien avant toute décision. Distinct de `villes-desert-medical` (score d'accès aux soins seul, toutes populations), de `villes-vieillissement-critique` (score composite de tension démographique) et de `villes-sans-enfants` (rapport entre seniors et enfants, sans lecture des soins) : ici une mesure publiée croisée avec une estimation, et la part des très âgés seule.",
+    rank: rankVieillirLoinDesSoins,
   },
 ];
 
