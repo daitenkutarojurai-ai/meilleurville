@@ -46651,6 +46651,252 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire Amiens", "voyage solo Amiens", "Saint-Leu Amiens", "Lune des Pirates", "week-end célibataire Hauts-de-France"],
   },
   {
+    slug: "vacances-celibataire-vienne-2026",
+    title: "Vacances célibataire à Vienne en 2026 : 37,1 % de 15-29 ans, sur la ligne de Lyon",
+    metaTitle: "Vacances célibataire Vienne 2026 : sortir, loger, budget",
+    metaDesc: "Vienne en séjour célibataire : 37,1 % de 15-29 ans, culture notée 9/10, un deux-pièces à 700 € et Lyon sur la même ligne. Où loger, quand venir, le budget.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro: "Vienne est une ville romaine de 31 555 habitants posée sur le Rhône, et sa structure par âge est très jeune : 37,1 % de ses résidents ont entre 15 et 29 ans au recensement 2022, contre 25,5 % de 60 ans et plus. Elle a gagné 2 101 habitants depuis 2016, soit 7,1 %. Notre score de culture est de 9/10, la note maximale que le corpus attribue, et le score de coût de 6,7/10. Le piège à écarter d'emblée : Vienne n'est pas un « Lyon en petit » pour sortir tous les soirs, c'est une ville où l'on loge à prix modéré et où l'on a Lyon sur la même ligne ferroviaire. Ce guide dit ce que cela change.",
+    sections: [
+      {
+        heading: "Pourquoi Vienne : un patrimoine romain et un public qui y habite",
+        body: "Le centre historique réunit temple d'Auguste et de Livie, théâtre antique et cathédrale, ce que notre fiche quartiers résume comme l'un des ensembles d'antiquités romaines les plus riches de France. Pour un séjour de soirées, l'intérêt est que ce décor n'est pas un musée à ciel ouvert : la part des 15-29 ans, 37,1 %, est très au-dessus de ce qu'on attend d'une ville de cette taille, et la population progresse de 1,15 % par an sur la période 2016-2022. Les scores se lisent sans enjolivement : 6,8/10 de vie quotidienne, 7,7/10 de transport, 9/10 de culture, mais 5,7/10 de sécurité, ce qui n'est pas un score de ville dangereuse et reste le point le plus bas de la fiche. La vie du soir de Vienne est celle d'une sous-préfecture vivante, pas celle d'une métropole : elle se joue dans le centre, et elle s'arrête plus tôt qu'à Lyon.",
+      },
+      {
+        heading: "Où poser ses valises : le centre historique, pour 40 € de plus qu'ailleurs",
+        body: "Trois quartiers dans notre fiche. Le Centre historique note 7,5/10 de vie du soir et 7,5/10 au global, pour un deux-pièces moyen à 700 €. Saint-Just, résidentiel sur les hauteurs avec vue sur le Rhône, tombe à 5,5/10 de vie du soir pour 660 €. Estressin, populaire, qui accueille la gare et les zones commerciales selon notre fiche, descend à 4,5/10 pour 560 €. L'écart de 40 € entre le centre et Saint-Just ne justifie pas de s'éloigner pour un séjour de soirées, et Estressin ne se choisit que pour le prix. Les références communales sont 500 € le studio, 700 € le deux-pièces et 940 € le trois-pièces. Aucun tarif d'hôtel n'est donné ici : ils bougent trop vite pour tenir un an, et ce site ne chiffre que ce qu'il peut tracer.",
+      },
+      {
+        heading: "Sortir un mardi soir : la saison commence en juillet, pas le mardi",
+        body: "Vienne a un rendez-vous dont le nom est dans nos étiquettes de ville, Jazz à Vienne, qui occupe le théâtre antique l'été : c'est la raison de réserver tôt, et la contrepartie est que la ville est alors à son niveau de fréquentation maximal, donc à son prix le plus élevé. Hors festival, la sortie du soir tient au centre historique et à sa note de 7,5/10. Aucun lieu de concert précis n'est cité dans ce guide : la programmation d'une petite scène change chaque saison et nous préférons renvoyer à l'office de tourisme que citer une salle fermée. Ce qu'on peut affirmer, c'est la structure : un public étudiant et jeune actif de 37,1 % de la population, donc des bars ouverts en semaine, et une seconde ville sur la même ligne ferroviaire pour les soirs où l'envie dépasse l'offre locale.",
+      },
+      {
+        heading: "Se déplacer sans voiture : la ligne du Rhône fait le travail",
+        body: "Notre table de desserte ne porte aucune entrée pour Vienne, ce qui signifie non documenté, pas absence de desserte. La ville est sur la ligne ferroviaire de la vallée du Rhône, entre Lyon et le sud, et c'est ce qui rend le séjour faisable sans voiture : le score de transport est de 7,7/10. La gare, selon notre fiche quartiers, est dans Estressin, à l'entrée de ville : c'est l'argument pour y loger si l'on prévoit des allers-retours à Lyon, et l'argument contre si l'on veut sortir à pied dans le centre historique. Les horaires du dernier train se vérifient avant de partir le soir, comme partout dans cette série, parce que c'est cette heure qui décide si Lyon est une option ou un aller simple.",
+      },
+      {
+        heading: "Le supplément single : un coût modéré",
+        body: "Avec 6,7/10 de score de coût, Vienne est nettement plus abordable qu'Anglet (4,5/10) dans ce même lot. Le supplément chambre individuelle vaut mécaniquement une fraction du prix de la chambre, donc il pèse d'autant moins que la chambre est bon marché, et les références locatives de la commune, 500 € le studio et 940 € le trois-pièces, sont inférieures à celles d'Anglet, l'autre destination atlantique de ce lot. La réserve habituelle s'applique : un score de coût mesure la vie sur place, jamais le prix d'une nuit d'hôtel. Le score de télétravail de 7,5/10 franchit en revanche le seuil que notre page de profil retient comme indice indirect d'un marché du studio meublé : on peut donc raisonnablement chercher un meublé à la semaine plutôt qu'une chambre d'hôtel.",
+      },
+      {
+        heading: "Quand y aller : juillet pour le festival, septembre pour la ville",
+        body: "Notre fiche porte 2 100 heures d'ensoleillement annuel, un chiffre qui place Vienne dans le haut du corpus sans en faire une station de bord de mer. Aucune normale mensuelle n'est publiée ici : la station de référence de la ville n'est pas assez proche pour qu'un tableau soit honnête. Le choix des dates tient à un arbitrage simple. Juillet donne le festival, les foules et les prix les plus hauts ; septembre et octobre donnent une ville qui reprend son rythme étudiant, des terrasses encore utilisables et des tarifs de basse saison. Février n'est pas un mois mort pour autant : le public jeune de la ville reste, ce qui est la différence entre Vienne et une station.",
+      },
+    ],
+    relatedCities: ["vienne"],
+    relatedGuides: ["10-choses-a-faire-a-vienne-2026", "vacances-celibataire-lyon-2026", "partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Vienne", "voyage solo Vienne", "Jazz à Vienne", "week-end célibataire Rhône", "Vienne Isère séjour"],
+  },
+  {
+    slug: "vacances-celibataire-anglet-2026",
+    title: "Vacances célibataire à Anglet en 2026 : le surf, 9 % de population en plus et un coût à 4,5/10",
+    metaTitle: "Vacances célibataire Anglet 2026 : sortir, loger, budget",
+    metaDesc: "Anglet en séjour célibataire : vie quotidienne 8,7/10, quartier des Plages à 8/10 de vie du soir, mais coût 4,5/10 et 37,3 % de 60 ans et plus.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro: "Anglet est la destination de ce lot qui a le plus à se faire pardonner, et le dit mal en carte postale. Son score de vie quotidienne est de 8,7/10, la note maximale du lot, et son quartier des Plages monte à 8/10 de vie du soir. Mais 37,3 % de ses 42 288 habitants ont 60 ans et plus, et son score de coût de 4,5/10 en fait la destination la plus chère du lot. Ce guide ne la vend pas : il dit à qui elle convient, c'est-à-dire à qui vient pour la glisse et l'ambiance de plage et accepte de payer le supplément.",
+    sections: [
+      {
+        heading: "Pourquoi Anglet : la vie quotidienne la mieux notée, et le public qui va avec",
+        body: "La commune a gagné 3 625 habitants entre 2016 et 2022, soit 9,4 %, et affiche 8,7/10 de vie quotidienne, 7,7/10 de transport, 7,8/10 de nature et 7,2/10 de sécurité. La culture, à 6,6/10, est le point le plus faible de la fiche : Anglet n'est pas une ville de scènes et de théâtres, c'est une ville de plages, de pinède et de surf. La part des 15-29 ans est de 26,8 %, correcte mais nettement sous Vienne, et celle des 60 ans et plus de 37,3 % : il faut le dire, parce qu'un séjour de soirées y croise un public plus âgé que dans les villes universitaires de ce lot. Le critère de ce guide reste « chercher du monde », et la réponse d'Anglet est : du monde, oui, mais d'abord dehors, au bord de l'eau.",
+      },
+      {
+        heading: "Où poser ses valises : Les Plages ou les 5 Cantons, 70 € d'écart",
+        body: "Notre fiche quartiers distingue trois secteurs. Les Plages, classé branché, note 8/10 de vie du soir et 8,5/10 au global pour un deux-pièces à 970 €, avec 4,5 km de plages et la pinède de Chiberta. Les 5 Cantons, centre-ville administratif et commerçant, tombent à 7/10 de vie du soir pour 900 €, avec 6,5/10 de coût contre 5,5/10 aux Plages. Chiberta, résidentiel, est le plus calme (5,5/10) pour 950 €. Pour un séjour de sorties, Les Plages est le choix évident ; les 5 Cantons économisent 70 € de loyer de référence et un point de vie du soir, et sont mieux desservis par le réseau de bus du Pays Basque que nous citons dans la fiche. Les références communales sont 620 € le studio, 890 € le deux-pièces et 1 200 € le trois-pièces.",
+      },
+      {
+        heading: "Sortir un mardi soir : un front de mer plus qu'un centre",
+        body: "Les chiffres de vie du soir (8/10 aux Plages, 7/10 aux 5 Cantons) sont corrects sans être ceux d'une métropole, et ils sont tirés par le surf et le front de mer plutôt que par une vie de bars de centre-ville. En pratique, la soirée se prolonge souvent à Biarritz ou à Bayonne, toutes deux voisines : pour Bayonne, un guide complet de cette série existe, avec ses bars à pintxos. Aucun établissement n'est cité ici faute de vérification récente. Le conseil de méthode : choisir ses dates selon la houle et la saison de surf plutôt que selon un calendrier de concerts, et traiter les soirées comme un complément.",
+      },
+      {
+        heading: "Se déplacer sans voiture : descendre à Bayonne, pas à Anglet",
+        body: "Anglet n'a pas de gare de voyageurs : la gare utile est celle de Bayonne, voisine, que les TGV desservent. Notre table de desserte ne porte pas d'entrée pour Anglet, ce qui signifie non documenté. Le score de transport est de 7,7/10, ce qui reflète le réseau de bus plus qu'une desserte ferroviaire. Sur place, le séjour sans voiture est possible entre Les Plages et les 5 Cantons mais suppose de vérifier la dernière ligne du soir : c'est ce qui décide si l'on rentre en bus ou à pied, et la distance entre le front de mer et le centre n'est pas négligeable.",
+      },
+      {
+        heading: "Le supplément single : la plus lourde du lot, et c'est le sujet",
+        body: "Avec 4,5/10, Anglet est la ville la plus chère de ce lot de six et le coût y est la principale raison de réfléchir avant de partir seul·e. Le supplément chambre individuelle y pèse davantage parce que la chambre y est plus chère : la différence se voit dans les références locatives, 890 € le deux-pièces contre 700 € à Vienne. Trois réflexes limitent la facture : viser la basse saison, loger aux 5 Cantons plutôt qu'aux Plages, et regarder les meublés à la semaine plutôt que l'hôtel, le score de télétravail de 7,5/10 indiquant un marché du meublé. Aucun montant d'hôtel n'est avancé.",
+      },
+      {
+        heading: "Quand y aller : septembre, et jamais le mois de la foule",
+        body: "Notre fiche porte 2 000 heures d'ensoleillement annuel. Aucune normale mensuelle n'est publiée : la station de référence est trop lointaine pour être honnête. L'arbitrage est celui de toute côte atlantique : juillet et août concentrent les foules et les prix, tandis que septembre et octobre gardent la mer praticable pour les surfeurs, une fréquentation raisonnable et des tarifs en recul. Le risque station fantôme existe moins qu'ailleurs, parce que la ville est habitée à l'année (42 288 habitants), mais le public vacancier part en octobre. C'est un séjour de fin d'été, pas d'hiver.",
+      },
+    ],
+    relatedCities: ["anglet"],
+    relatedGuides: ["10-choses-a-faire-a-anglet-2026", "vacances-celibataire-bayonne-2026", "partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Anglet", "voyage solo Anglet", "Anglet Les Plages", "surf célibataire Pays Basque", "week-end célibataire Côte basque"],
+  },
+  {
+    slug: "vacances-celibataire-limoges-2026",
+    title: "Vacances célibataire à Limoges en 2026 : 39,5 % de 15-29 ans et un deux-pièces à 600 €",
+    metaTitle: "Vacances célibataire Limoges 2026 : sortir, loger, budget",
+    metaDesc: "Limoges en séjour célibataire : 39,5 % de 15-29 ans, un deux-pièces à 600 €, une ville de 129 754 habitants qui vit toute l'année. Loger et sortir.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro: "Limoges est une ville que personne ne cite pour des vacances, et c'est son avantage. 129 754 habitants, 39,5 % de résidents de 15 à 29 ans au recensement 2022, un deux-pièces de référence à 600 € : c'est l'inverse d'une station. Sa note globale est de 6,1/10, ses scores de vie quotidienne et de culture sont à 5,9/10, et ce guide les donne tels quels. La ville a perdu 2 906 habitants depuis 2016, soit 2,2 %, ce qui se dit aussi. Pour qui cherche du monde plutôt qu'un décor, la question n'est pas « est-ce joli » mais « est-ce que ça vit un mardi de novembre ». Ici, oui.",
+    sections: [
+      {
+        heading: "Pourquoi Limoges : l'anti-station-fantôme par excellence",
+        body: "La part des 15-29 ans, 39,5 %, est la deuxième du lot, et celle des 60 ans et plus de 28 % : la ville tient à l'année par son université et ses emplois, pas par ses visiteurs. Nos étiquettes la décrivent comme universitaire, calme, abordable, avec la porcelaine pour signature. Les scores ne cherchent pas à flatter : 6,1/10 au global, 5,9/10 de vie quotidienne et de culture, 6,1/10 de transport, 7,1/10 de coût, 6,1/10 de sécurité. Le recul démographique de 0,37 % par an est réel et la page l'affiche. Limoges n'est pas une destination qui éblouit ; c'est une destination qui ne dépend pas de la saison, et pour un séjour ciblé sur l'ambiance hors saison, c'est un bon critère.",
+      },
+      {
+        heading: "Où poser ses valises : le centre historique, sans hésiter",
+        body: "Notre fiche quartiers en distingue trois. Le centre historique, cœur de la capitale de la porcelaine selon la fiche, note 7,5/10 de vie du soir pour un deux-pièces à 620 €. Aurence, résidentiel et verdoyant au nord, tombe à 4,5/10 pour 640 €, donc plus cher et moins animé. Beaubreuil, populaire, descend à 5/10 pour 520 € : c'est le plus économique mais le plus éloigné du centre. Le choix est donc le centre historique, desservi par le trolleybus que mentionne la fiche. Les références communales sont 440 € le studio, 600 € le deux-pièces et 800 € le trois-pièces, soit parmi les plus basses de la série.",
+      },
+      {
+        heading: "Sortir un mardi soir : un public étudiant, donc des soirées en semaine",
+        body: "Le chiffre qui compte est 39,5 %. Une ville où près de quatre résidents sur dix ont entre 15 et 29 ans a des bars ouverts en semaine et une demande pour des soirées bon marché, indépendamment de tout calendrier touristique. Notre fiche note la vie du soir du centre à 7,5/10. Nous ne citons aucune salle ni aucun bar : la programmation et les adresses changent, et rien dans nos données ne les établit. Le conseil est de commencer par le centre historique, de repérer sur place où va le public étudiant et d'éviter le week-end des vacances universitaires, quand la ville se vide de sa clientèle principale.",
+      },
+      {
+        heading: "Se déplacer sans voiture : un trolleybus et un train vers Paris",
+        body: "Notre table de desserte ne porte aucune entrée pour Limoges, ce qui signifie non documenté. Le score de transport est de 6,1/10. La fiche quartiers mentionne le trolleybus, qui relie le centre à Beaubreuil, et la gare de la ville est desservie par des trains vers Paris et vers Toulouse. Les horaires et les durées se vérifient auprès de l'exploitant. Le séjour sans voiture est faisable parce que tout ce qui intéresse ce guide se concentre dans le centre historique, à pied.",
+      },
+      {
+        heading: "Le supplément single : l'argument numéro un de Limoges",
+        body: "Avec 7,1/10 de coût, Limoges partage avec Saint-Étienne le meilleur score de coût du lot de six. Un supplément chambre individuelle qui vaut une fraction du prix de la chambre pèse peu quand la chambre est bon marché, et les références locatives comptent parmi les plus basses du lot. La réserve du score de télétravail, 5,3/10, s'applique : il ne franchit pas le seuil de 6,5 qui indiquerait un marché du studio meublé, donc il vaut mieux compter sur l'hôtel ou la chambre d'hôte que sur le meublé à la semaine. Aucun tarif d'hôtel n'est donné.",
+      },
+      {
+        heading: "Quand y aller : toute l'année, avec une réserve en juillet-août",
+        body: "Notre fiche porte 1 871 heures d'ensoleillement annuel, un chiffre moyen. Pas de normales mensuelles ici, la station de référence est trop loin. Ce qu'on peut dire sans données : Limoges est une ville de climat océanique dégradé, donc des hivers frais et des étés tempérés. Le creux n'est pas l'hiver mais l'été, quand les étudiants partent. Pour un séjour d'ambiance, la période utile va de septembre à juin.",
+      },
+    ],
+    relatedCities: ["limoges"],
+    relatedGuides: ["10-choses-a-faire-a-limoges-2026", "etudiant-a-limoges-2026", "partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Limoges", "voyage solo Limoges", "week-end célibataire Nouvelle-Aquitaine", "ville étudiante Limoges", "Limoges hors saison"],
+  },
+  {
+    slug: "vacances-celibataire-saint-etienne-2026",
+    title: "Vacances célibataire à Saint-Étienne en 2026 : 40,9 % de 15-29 ans, la ville du design qui ne cherche pas à plaire",
+    metaTitle: "Célibataire à Saint-Étienne 2026 : sortir, loger",
+    metaDesc: "Saint-Étienne en séjour célibataire : 40,9 % de 15-29 ans, un deux-pièces à 580 €, tram et TGV. Sécurité 4,3/10 : ce que cela change.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro: "Saint-Étienne est la ville de ce lot où la part des 15-29 ans est la plus haute : 40,9 % de ses 172 569 habitants ont entre 15 et 29 ans au recensement 2022, et sa population est stable (+0,4 % depuis 2016). Le deux-pièces de référence y est à 580 €. Sa note globale est de 5,5/10 et son score de sécurité de 4,3/10, ce qui est un fait et pas une raison d'écarter la ville : il s'agit de savoir où loger. Le guide dit où.",
+    sections: [
+      {
+        heading: "Pourquoi Saint-Étienne : une ville de travail et d'étudiants",
+        body: "Nos étiquettes la décrivent : abordable, design, sport, montagne, industrie. Les scores sont sans fard : 4,9/10 de vie quotidienne, 5,9/10 de culture, 6,7/10 de transport, 7,1/10 de coût et 4,3/10 de sécurité. La ville ne séduit pas par une carte postale et n'essaie pas ; elle vit parce que 40,9 % de ses résidents sont jeunes et parce que ses habitants y travaillent. La part des 60 ans et plus est de 25,7 %, donc la ville est loin d'une station de retraités. C'est une destination pour qui préfère une ville réelle à un décor : on y croise des habitants, pas des vacanciers.",
+      },
+      {
+        heading: "Où poser ses valises : le centre-ville, et pas ailleurs pour ce séjour",
+        body: "Notre fiche distingue trois quartiers. Le centre-ville, piéton, avec la Cité du design et le musée d'Art moderne selon la fiche, note 7,5/10 de vie du soir pour 620 €. Le Crozet, résidentiel au pied du Pilat, tombe à 5,5/10 pour 650 €. Montreynaud, populaire, accessible par la télécabine urbaine selon la fiche, note 5/10 pour 490 € et 5,5/10 de sécurité. Le centre-ville a la meilleure vie du soir, le meilleur score de transport et la sécurité de 6,8/10, nettement supérieure au 4,3/10 de la commune : c'est le seul choix cohérent. Les références communales sont 420 € le studio, 580 € le deux-pièces et 770 € le trois-pièces.",
+      },
+      {
+        heading: "Sortir un mardi soir : le design, le sport, et un public jeune",
+        body: "La ville est à la fois une ville de design, avec une Cité du design et une biennale internationale, et une ville de football, avec un stade célèbre dans toute la France. Ce sont deux calendriers : celui de la biennale, qui structure certaines saisons, et celui du championnat. La vie du soir du centre, notée 7,5/10, s'appuie sur le public étudiant. Aucun établissement n'est cité ici. Comme à chaque fois dans cette série, nous préférons un conseil de méthode : consulter la programmation de la Cité du design et le calendrier du stade avant de choisir ses dates, les deux pouvant remplir les hôtels.",
+      },
+      {
+        heading: "Se déplacer sans voiture : tram, TGV, télécabine",
+        body: "C'est la seule ville de ce lot dont notre table de desserte est renseignée : tramway, TGV et bus à haut niveau de service. Le score de transport est de 6,7/10. Le tramway traverse la ville, la gare principale est desservie par des trains à grande vitesse, et la télécabine urbaine relie Montreynaud au reste de la ville. Le séjour sans voiture y est donc bien documenté. Les horaires du dernier tram se vérifient avant de sortir.",
+      },
+      {
+        heading: "Le supplément single : la plus économique du lot",
+        body: "Avec 7,1/10 de coût et les références locatives les plus basses du lot, Saint-Étienne est l'une des villes de ce lot où le supplément chambre individuelle compte le moins en valeur absolue. La réserve est celle du score de télétravail, 4,8/10, qui ne franchit pas le seuil de 6,5 : le meublé à la semaine n'est pas garanti, l'hôtel reste le réflexe. Et la sécurité de 4,3/10 est un critère de choix du quartier, pas de renoncement : loger en centre-ville suffit à ramener la note à 6,8/10 dans notre fiche.",
+      },
+      {
+        heading: "Quand y aller : de septembre à juin, hors août",
+        body: "Notre fiche porte 1 820 heures d'ensoleillement annuel, parmi les plus basses de ce lot. Pas de normales mensuelles ici. La ville est au pied du Pilat, donc plus fraîche que Lyon, et les hivers peuvent y être rudes. Le creux est l'été, quand les étudiants quittent la ville : un séjour de fin septembre à mai est le plus représentatif de ce que la ville offre. Le calendrier du stade et la biennale décident du reste.",
+      },
+    ],
+    relatedCities: ["saint-etienne"],
+    relatedGuides: ["10-choses-a-faire-a-saint-etienne-2026", "vacances-celibataire-lyon-2026", "partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Saint-Étienne", "voyage solo Saint-Étienne", "Cité du design", "week-end célibataire Loire", "Saint-Étienne hors saison"],
+  },
+  {
+    slug: "vacances-celibataire-dunkerque-2026",
+    title: "Vacances célibataire à Dunkerque en 2026 : un carnaval en hiver, une plage à Malo et un deux-pièces à 560 €",
+    metaTitle: "Vacances célibataire Dunkerque 2026 : sortir, loger, budget",
+    metaDesc: "Dunkerque en séjour célibataire : 34,6 % de 15-29 ans, un deux-pièces à 560 €, le carnaval en hiver et Malo-les-Bains. Loger, sortir, budget.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro: "Dunkerque est la ville la moins chère de ce lot sur le deux-pièces, 560 €, et la moins ensoleillée, 1 620 heures par an. 87 013 habitants, 34,6 % de 15-29 ans, une population en léger recul de 1,2 % depuis 2016. Son argument pour un séjour de monde plutôt que de décor tient à un fait culturel que notre fiche porte en étiquette : le carnaval, qui se déroule en hiver, c'est-à-dire à la saison où les stations balnéaires sont vides. C'est l'anti-station-fantôme au sens littéral : une ville de mer qui est vivante en février.",
+    sections: [
+      {
+        heading: "Pourquoi Dunkerque : une ville de mer qui n'attend pas l'été",
+        body: "Les étiquettes de notre fiche : port industriel, mer du Nord, abordable, carnaval, mobilité douce. Les scores sont modestes : 5,4/10 au global, 5,3/10 de vie quotidienne, 5,9/10 de culture, 6,1/10 de transport, 6,4/10 de coût et 4,5/10 de sécurité. La ville tient à l'année par son port, son industrie et ses jeunes (34,6 % de 15-29 ans, 28,7 % de 60 ans et plus). Ce n'est pas une destination de carte postale : c'est une ville qui assume ce qu'elle est, et dont la fête principale tombe en hiver.",
+      },
+      {
+        heading: "Où poser ses valises : Malo-les-Bains ou le centre, 40 € d'écart",
+        body: "Trois secteurs dans notre fiche. Le centre-ville, reconstruit après la guerre et animé par la culture du carnaval selon la fiche, note 7/10 de vie du soir pour 540 €, avec 8,5/10 de coût. Malo-les-Bains, station balnéaire intégrée à la ville avec sa longue plage de sable, note 6/10 pour 580 € et 7,8/10 au global. Fort-Mardyck, pavillonnaire, tombe à 4/10 pour 500 €. Pour un séjour de soirées, le centre-ville est le choix ; Malo convient à qui veut la plage et accepte 40 € de plus et un point de vie du soir en moins. Les références communales sont 400 € le studio, 560 € le deux-pièces et 750 € le trois-pièces.",
+      },
+      {
+        heading: "Sortir un mardi soir : le carnaval est un calendrier, pas une soirée",
+        body: "Le carnaval de Dunkerque est une institution locale qui se déroule en hiver, sur plusieurs semaines, et qui structure la vie sociale de la ville. C'est aussi un calendrier à surveiller : hôtels pleins, ambiance très marquée, bruit. Il convient à qui cherche du monde et pas du calme. Hors carnaval, la vie du soir du centre est notée 7/10. Nous ne donnons ni dates ni lieux précis, la programmation changeant chaque année : l'office de tourisme tient le calendrier. Si le carnaval ne vous attire pas, évitez ces semaines.",
+      },
+      {
+        heading: "Se déplacer sans voiture : un réseau de bus que la ville met en avant",
+        body: "Notre table de desserte ne porte aucune entrée pour Dunkerque, ce qui signifie non documenté. Le score de transport est de 6,1/10, et l'étiquette « mobilité douce » de la fiche renvoie au réseau de bus, que la ville est connue pour avoir rendu gratuit : à vérifier avant le départ. Le séjour sans voiture est faisable entre le centre et Malo-les-Bains. La gare est desservie par des trains vers Lille ; les durées se vérifient auprès de l'exploitant.",
+      },
+      {
+        heading: "Le supplément single : le deux-pièces le moins cher du lot",
+        body: "Avec 6,4/10 de coût et un deux-pièces à 560 €, Dunkerque est la destination la moins chère du lot sur le deux-pièces. Le supplément chambre individuelle vaut une fraction du prix de la chambre : plus la chambre est bon marché, moins il pèse. Le score de télétravail de 4,8/10 ne franchit pas le seuil de 6,5, donc il faut compter sur l'hôtel ou la chambre d'hôte plutôt que sur le meublé à la semaine. Et la sécurité de 4,5/10 se gère par le choix du quartier : le centre-ville note 6,5/10, Malo 7,5/10.",
+      },
+      {
+        heading: "Quand y aller : février pour le carnaval, septembre pour la plage",
+        body: "Notre fiche porte 1 620 heures d'ensoleillement annuel, la plus basse de ce lot de six : il faut le dire. Aucune normale mensuelle n'est publiée, la station de référence étant trop lointaine. Mer du Nord oblige, les étés sont frais et les hivers froids et venteux. Le choix est donc entre un séjour d'hiver, centré sur le carnaval et l'ambiance, et un séjour d'été, centré sur la plage de Malo. Les deux fonctionnent, pour des publics différents, et la ville est habitée dans les deux cas.",
+      },
+    ],
+    relatedCities: ["dunkerque"],
+    relatedGuides: ["10-choses-a-faire-a-dunkerque-2026", "vacances-celibataire-lille-2026", "partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Dunkerque", "voyage solo Dunkerque", "carnaval de Dunkerque", "Malo-les-Bains", "week-end célibataire Hauts-de-France"],
+  },
+  {
+    slug: "vacances-celibataire-brive-la-gaillarde-2026",
+    title: "Vacances célibataire à Brive-la-Gaillarde en 2026 : un marché, un stade de rugby et un deux-pièces à 580 €",
+    metaTitle: "Vacances célibataire Brive 2026 : sortir, loger, budget",
+    metaDesc: "Brive en séjour célibataire : culture 7,5/10, 32,1 % de 15-29 ans, marché couvert, rugby, deux-pièces à 580 €. Une ville de Corrèze qui vit toute l'année.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro: "Brive-la-Gaillarde compte 46 769 habitants et la plus gastronomique de ses étiquettes : rugby, Périgord noir, gastronomie, Corrèze, authenticité, marché. Son score de culture est de 7,5/10, son coût de 6,7/10 et son deux-pièces de référence de 580 €. Les chiffres qui tempèrent : 34,4 % de ses résidents ont 60 ans et plus, et la part des 15-29 ans est de 32,1 %. C'est une ville moyenne qui vit à l'année, pas une destination de fête : on y vient pour une ambiance de marché et de stade, avec des gens du coin.",
+    sections: [
+      {
+        heading: "Pourquoi Brive : une ville qui n'a pas besoin de visiteurs",
+        body: "Brive stagne démographiquement, -0,5 % depuis 2016, et cela se dit. Ses scores sont solides sans être brillants : 6,8/10 au global, 6,8/10 de vie quotidienne, 7/10 de transport, 7,5/10 de culture, 6,7/10 de sécurité. La structure par âge, 32,1 % de 15-29 ans et 34,4 % de 60 ans et plus, décrit une ville de province équilibrée mais plus âgée que les villes universitaires de ce lot. C'est le point à connaître avant de réserver : l'ambiance est celle d'une ville moyenne, conviviale, avec des habitués.",
+      },
+      {
+        heading: "Où poser ses valises : le centre, autour des halles",
+        body: "Trois secteurs dans notre fiche. Le centre-ville, animé autour du marché couvert et des halles selon la fiche, note 7,5/10 de vie du soir pour 590 € et 8/10 de sécurité. Malemort, résidentiel en bord de Corrèze, tombe à 5,5/10 pour 560 €. Le secteur des collines, pavillonnaire, note 3,5/10 pour 510 €. Le choix est le centre : 30 € d'écart avec Malemort pour deux points de vie du soir. Les références communales sont 420 € le studio, 580 € le deux-pièces et 780 € le trois-pièces.",
+      },
+      {
+        heading: "Sortir un mardi soir : le marché et le rugby comme calendrier",
+        body: "La vie du soir du centre est notée 7,5/10. Les deux repères de la ville sont ses halles, qui structurent la vie du centre, et son club de rugby, dont les matchs remplissent les bars. Les dates exactes de la saison et des événements changent chaque année et nous ne les citons pas. La ville accueille aussi, début novembre, une foire du livre connue : c'est un exemple du genre de rendez-vous qui donne à la ville une raison d'être vivante hors saison, à confirmer auprès de l'office de tourisme. Brive convient à qui aime les ambiances de comptoir et de stade.",
+      },
+      {
+        heading: "Se déplacer sans voiture : une gare sur la ligne Paris-Toulouse",
+        body: "Notre table de desserte ne porte aucune entrée pour Brive, ce qui signifie non documenté. Le score de transport est de 7/10. La ville est desservie par des trains de grande ligne entre Paris et Toulouse, ce qui en fait une destination accessible sans voiture ; les durées se vérifient auprès de l'exploitant. Sur place, le centre se parcourt à pied, et les sorties vers le Périgord noir demandent une voiture ou un car.",
+      },
+      {
+        heading: "Le supplément single : un coût de ville moyenne",
+        body: "Avec 6,7/10 de coût et un deux-pièces à 580 €, Brive est dans la moitié abordable de ce lot. Le supplément chambre individuelle pèse une fraction du prix de la chambre, donc peu quand la chambre est à ce niveau. Le score de télétravail de 6,3/10 est juste sous le seuil de 6,5 qui indique un marché du studio meublé : il faut donc privilégier l'hôtel ou la chambre d'hôte. Aucun tarif n'est avancé, ce site ne chiffre pas les nuits d'hôtel.",
+      },
+      {
+        heading: "Quand y aller : à l'automne, pour le marché et la ville qui reprend",
+        body: "Notre fiche porte 2 000 heures d'ensoleillement annuel. Aucune normale mensuelle n'est publiée ici. L'automne est la saison la plus cohérente avec l'identité de la ville, de la gastronomie et du rugby, et le moment où la ville est à son rythme normal. Brive n'a pas de haute saison à fuir : c'est une destination de basse intensité, utile précisément parce qu'elle ne change pas avec le calendrier des vacances.",
+      },
+    ],
+    relatedCities: ["brive-la-gaillarde"],
+    relatedGuides: ["10-choses-a-faire-a-brive-la-gaillarde-2026", "partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Brive", "voyage solo Corrèze", "Brive-la-Gaillarde halles", "week-end célibataire Nouvelle-Aquitaine", "rugby Brive séjour"],
+  },
+  {
     slug: "partir-en-vacances-seul-2026",
     title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
     metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",

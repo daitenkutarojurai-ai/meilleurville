@@ -8311,6 +8311,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "vacances-celibataire-vienne-2026",
+      "title": "Vacances célibataire à Vienne en 2026 : 37,1 % de 15-29 ans, sur la ligne de Lyon",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-anglet-2026",
+      "title": "Vacances célibataire à Anglet en 2026 : le surf, 9 % de population en plus et un coût à 4,5/10",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-limoges-2026",
+      "title": "Vacances célibataire à Limoges en 2026 : 39,5 % de 15-29 ans et un deux-pièces à 600 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-saint-etienne-2026",
+      "title": "Vacances célibataire à Saint-Étienne en 2026 : 40,9 % de 15-29 ans, la ville du design qui ne cherche pas à plaire",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-dunkerque-2026",
+      "title": "Vacances célibataire à Dunkerque en 2026 : un carnaval en hiver, une plage à Malo et un deux-pièces à 560 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-brive-la-gaillarde-2026",
+      "title": "Vacances célibataire à Brive-la-Gaillarde en 2026 : un marché, un stade de rugby et un deux-pièces à 580 €",
+      "emoji": "🍸"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -10383,6 +10413,11 @@
       "count": 6
     },
     {
+      "slug": "week-end-celibataire-nouvelle-aquitaine",
+      "label": "week-end célibataire Nouvelle-Aquitaine",
+      "count": 6
+    },
+    {
       "slug": "accessibilite",
       "label": "accessibilité",
       "count": 5
@@ -10715,11 +10750,6 @@
     {
       "slug": "week-end-celibataire-grand-est",
       "label": "week-end célibataire Grand Est",
-      "count": 4
-    },
-    {
-      "slug": "week-end-celibataire-nouvelle-aquitaine",
-      "label": "week-end célibataire Nouvelle-Aquitaine",
       "count": 4
     },
     {
