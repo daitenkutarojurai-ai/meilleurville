@@ -344,7 +344,14 @@ Brignoles, Lunéville, Cesson-Sévigné, Bruz, Ramonville-Saint-Agne, Saint-Égr
 Recoupées sur les populations de référence 2023 (publiées en décembre 2025, en vigueur au 1ᵉʳ janvier 2026) le
 2026-10-13 : Bourg-lès-Valence **19 992** (Banatic + Wikipédia), Bruz (35047) **19 683** (Banatic + Wikipédia),
 Schœlcher (97229) **19 478** (fichier Insee Martinique + Banatic), Mauguio (34154) **16 522**, Brignoles (83023)
-**17 850** — toutes sous le seuil. ⚠️ Le seuil se relit **sur le millésime en vigueur** : une commune à 19 900 peut le
+**17 850** — toutes sous le seuil.
+Recoupées le 2026-10-14 (quatrième run) sur le même millésime 2023, deux sources concordantes chacune (Banatic +
+Wikipédia EN citant l'Insee, sauf mention) : Chevilly-Larue (94021) **19 826** (2022 : 19 813 ; le 20 326 de 2021
+qui circule est périmé), Juvisy-sur-Orge (91326) **19 292**, Brie-Comte-Robert (77053) **19 003** (+ citypopulation.de),
+Ploemeur (56162) **18 872**, Cesson-Sévigné (35051) **18 761**, Chennevières-sur-Marne (94019) **18 710**, Yutz
+(57757) **17 391** (+ citypopulation.de) — toutes sous le seuil. Lunéville (54329) : **18 262** sur plusieurs sites
+mais millésime discordant (2019, 2022, 2023 selon la source) — sous le seuil quel que soit le millésime, non
+recoupé au sens strict. ⚠️ Le seuil se relit **sur le millésime en vigueur** : une commune à 19 900 peut le
 franchir à la publication suivante (cas de L'Isle-sur-la-Sorgue, 20 244 en 2023).
 
 ---
@@ -1747,3 +1754,27 @@ Contrôles : `tsc`, `integrity`, `sitemap:check`, `hreflang:check`. `npm run bui
 **Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés, Villeneuve-d'Ascq en tête ;
 seuil sous 20 000 hab. ; règle Antilles-Guyane ; validation de la levée « 4ᵉ voisine > 25 km » à La Réunion) ou à
 une passe DVF locale sur 97407 pour Le Port.
+
+
+### 2026-10-14 (quatrième run) — aucun lot : backlog D recoupé, aucune commune ne franchit le seuil
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents —
+lot autorisé, mais le gisement « règle valable » reste épuisé (§ 5) et aucune candidate des tableaux A à C n'a
+changé de statut depuis le troisième run. Egress retesté : `files.data.gouv.fr`, `geo.api.gouv.fr`,
+`app.dvf.etalab.gouv.fr`, `www.data.gouv.fr` injoignables (connexion refusée) — Le Port (97407) ne peut toujours
+pas être tranché sur sa DVF depuis une routine.
+
+*Livrable* : fiabilisation du tableau D. Les communes les plus proches du seuil, jusqu'ici « relevées par nom » ou
+recoupées sur un millésime ancien, sont relues sur les **populations de référence 2023** (en vigueur au
+1ᵉʳ janvier 2026) : Chevilly-Larue 19 826, Juvisy-sur-Orge 19 292, Brie-Comte-Robert 19 003, Ploemeur 18 872,
+Cesson-Sévigné 18 761, Chennevières-sur-Marne 18 710, Yutz 17 391, Lunéville ~18 262. **Aucune ne franchit
+20 000** ; ⚠️ Chevilly-Larue est affichée à 20 326 par des copies anciennes de Wikipédia EN (millésime 2021) — c'est
+la valeur 2023 qui fait foi. Les autres noms du tableau D (Le Vésinet, Viroflay, Garches…) n'ont pas été relus.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (592). Contrôles : `integrity`
+(doc seul). `npm run build` non lancé.
+
+**Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés, Villeneuve-d'Ascq en tête ;
+seuil sous 20 000 hab. ; règle Antilles-Guyane ; validation de la levée « 4ᵉ voisine > 25 km » à La Réunion) ou à
+une passe DVF locale sur 97407 pour Le Port. Prochaine relecture utile du seuil : à la publication des populations
+de référence 2024 (attendue fin décembre 2026) — Chevilly-Larue et Bourg-lès-Valence sont à moins de 200 hab.
