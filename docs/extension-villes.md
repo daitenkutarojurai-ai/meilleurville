@@ -1698,3 +1698,28 @@ par le guide tourisme. Tags sans `port`/`mer`/`côte`/`plage`.
 **Prochain lot** : `seed-coverage`, puis `seed:neighbours:relire` quand les deux villes sont servies (ratio attendu
 ~1,15-1,19). Le Port se tranche à la DVF de la commune. Gisement restant inchangé hors La Réunion : overrides
 documentés, seuil sous 20 000 hab., règle Antilles-Guyane — décisions du propriétaire.
+
+
+### 2026-10-14 (second run) — aucun lot : Le Port cherche sa seconde source DVF, sans succès
+
+`seed-coverage` au départ : **2 villes en attente** (Sainte-Marie et Sainte-Suzanne, lot 16, tous pipelines sauf
+codes postaux) + Carquefou (photo seule) → lot autorisé (seuil 30). `seed:neighbours:relire` : **0 repère à relire** ;
+les deux villes du lot 16 sont « mesure incomplète » (pas encore servies par le runner). `seed:neighbours:selftest`
+(clone complet) : **51/52** reproduites, l'écart étant Maisons-Laffitte, déjà documentée.
+
+*Seule candidate à portée : Le Port (97407)*, reportée au lot 16 pour des ratios de marché divergents à la frontière
+± 10 % (PAP 0,90 / intra-source PAP 0,88 / efficity 1,09). Deux recherches web pour un **second site publiant du DVF** :
+aucun (Habity et Immovrai ne remontent que l'homonyme de l'Ariège, 09320). Trouvés, mais **pas des médianes DVF** et
+donc non retenus au sens du § 3.3 bis : Orpi « prix moyen » appartement **2 037 €/m²** (sans année ni méthode),
+netvendeur moyenne d'annonces tous biens 2 641 €/m² (28/08/2026), efficity 2 550 €/m² (moyenne de biens sur le
+marché). À titre indicatif seulement, Orpi ÷ 2 340,5 = 0,87 rejoindrait le côté PAP (≈ −10 à −13 %), ce qui
+suggérerait un ratio appliqué plutôt qu'un repère médian — mais une source non DVF ne tranche pas. **Reportée.**
+Le Port n'étant pas au seed, la DVF du dépôt ne viendra pas d'elle-même : la trancher demande soit une passe locale
+DVF sur 97407 (`scripts/city-property-prices.mjs` lit les fichiers par code commune), soit une décision du
+propriétaire de retenir Orpi.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (592).
+
+**Prochain lot** : relire Sainte-Marie / Sainte-Suzanne quand le runner les aura servies. Le gisement hors Le Port
+reste suspendu aux décisions du propriétaire (overrides documentés — Villeneuve-d'Ascq en tête —, seuil sous
+20 000 hab., règle Antilles-Guyane, validation de la levée « 4ᵉ voisine > 25 km » à La Réunion prise au lot 16).
