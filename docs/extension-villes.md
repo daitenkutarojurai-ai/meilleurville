@@ -1771,8 +1771,8 @@ Cesson-Sévigné 18 761, Chennevières-sur-Marne 18 710, Yutz 17 391, Lunéville
 20 000** ; ⚠️ Chevilly-Larue est affichée à 20 326 par des copies anciennes de Wikipédia EN (millésime 2021) — c'est
 la valeur 2023 qui fait foi. Les autres noms du tableau D (Le Vésinet, Viroflay, Garches…) n'ont pas été relus.
 
-*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (592). Contrôles : `integrity`
-(doc seul). `npm run build` non lancé.
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (592). Contrôles : aucun lancé
+(modification de ce seul fichier de doc, aucun code ni donnée touchés). `npm run build` non lancé.
 
 **Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés, Villeneuve-d'Ascq en tête ;
 seuil sous 20 000 hab. ; règle Antilles-Guyane ; validation de la levée « 4ᵉ voisine > 25 km » à La Réunion) ou à
