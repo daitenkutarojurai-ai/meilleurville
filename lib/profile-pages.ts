@@ -1298,6 +1298,66 @@ export const PROFILE_PAGES: ProfileDef[] = [
       return `Manque de soignants estimé ${h.toFixed(1)}/10 · coût ${c.scores.cost.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
     },
   },
+  {
+    slug: "artistes-et-createurs",
+    emoji: "🎨",
+    label: "Artistes et créatifs",
+    metaTitle: "Villes pour artistes et créatifs 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 des villes françaises où vivre de la création : patrimoine et vie culturelle réels, atelier et loyer abordables, sécurité. Paris sort 315e.",
+    intro:
+      "Artistes et créatifs : peintres, plasticiens, céramistes, photographes, auteurs, musiciens, artisans d'art. " +
+      "Leur arbitrage n'est pas celui de « amateurs de culture », qui veulent consommer une programmation dense et " +
+      "acceptent une ville chère pour l'avoir à pied. Ici on produit, et produire demande de la surface, du temps et " +
+      "un loyer qui laisse respirer le mois sans commande. Le critère cardinal est donc double, à peu près à parts " +
+      "égales : l'axe culture du seed, qui mesure ce qui entoure l'atelier (patrimoine, équipements, festivals, tissu " +
+      "associatif), et l'axe coût, qui mesure ce que l'atelier coûte. Le coût pèse un peu plus que la culture, " +
+      "et c'est le choix qui fait la page. La culture seule donnerait Paris et les capitales régionales, qui sont " +
+      "exactement les villes où un indépendant sans revenus réguliers se fait éjecter. Vient ensuite la qualité de " +
+      "vie, avec un poids d'appoint, puis une demi-part de sécurité : on travaille souvent tard dans un local isolé, et " +
+      "le retour à pied compte. Rien de plus, volontairement. Les scores de calme sonore et de lien social du site " +
+      "reposent aujourd'hui sur des proxys de population et de département qui ne départagent presque rien dans les " +
+      "petites villes, et un classement construit dessus afficherait une précision qu'il n'a pas. " +
+      "Le résultat le plus net est que l'axe culture sature. Dix-huit villes du corpus affichent 9,0, Paris comme " +
+      "Autun, et seules cinq d'entre elles entrent dans le top 20 : Autun, Chinon, Moissac, Vaison-la-Romaine et " +
+      "Amboise. Les treize autres sortent sur le coût. Paris, à 9,0 de culture et 2,2 de coût, avec un T3 à " +
+      "2 800 €, finit 315e, Nice 310e, et Lyon, Nantes, Toulouse, Marseille et Bordeaux se suivent entre le 164e et le 186e rang. " +
+      "Strasbourg est la première grande ville, 61e. Le classement est donc dominé par des sous-préfectures et " +
+      "des bourgs patrimoniaux : Autun en tête, puis Semur-en-Auxois, Aubusson, Paray-le-Monial et Chinon. Les vingt " +
+      "villes se répartissent sur 17 départements et 9 régions. La plus petite est Florac-Trois-Rivières (2 111 " +
+      "habitants au recensement 2022), suivie d'Aubusson (3 036), et Albi, vingtième, " +
+      "est la seule à dépasser 25 000 habitants avec 50 605. Le T3 médian du top 20 est à 715 € contre 950 € pour " +
+      "le corpus, et le mètre carré à 1 350 € contre 2 700 € : on loue un local, ou on en achète un, à moitié prix. " +
+      "Aubusson mérite un mot. C'est la ville dont la tapisserie est inscrite au patrimoine culturel immatériel, " +
+      "et le mètre carré y est à 800 €, le moins cher des vingt, pour un T3 à 590 €. Elle n'est pourtant " +
+      "que troisième : sa qualité de vie à 6,4 la place derrière Autun et Semur-en-Auxois. Trois lectures à ne pas faire. " +
+      "La première : ce n'est pas un classement des meilleures scènes artistiques. Notre axe culture compte des " +
+      "équipements et du patrimoine, pas des galeries qui vendent, des collectionneurs ni des résidences qui " +
+      "paient, et un artiste dont le marché est parisien ou bâlois ne le remplacera pas par un loyer de 590 €. " +
+      "La seconde : le coût bas décrit la ville, pas votre atelier. Un local commercial, un bail professionnel " +
+      "ou un logement-atelier ne se louent pas au prix d'un T3, et notre repère de loyer n'en dit rien. La " +
+      "troisième : ces villes sont petites, parfois en recul démographique, et la vie d'un indépendant y dépend " +
+      "d'un réseau (collectivité, centre d'art, autres créateurs) qu'aucun de nos axes ne mesure. Visitez avant de " +
+      "signer, et demandez à la mairie ce qu'elle propose aux créateurs : plusieurs villes de ce classement " +
+      "disposent d'ateliers municipaux ou de locaux vacants à loyer réduit, mais nous n'avons pas de relevé fiable " +
+      "pour l'affirmer ville par ville. Sur la lecture du tableau lui-même : cinq villes sortent exactement à 7,7, " +
+      "Albi vingtième, puis Obernai, Fontenay-le-Comte, Saint-Flour et Gourdon, qui n'apparaissent pas dans le " +
+      "tableau. L'ordre entre elles est un ordre stable et non un départage. Enfin, le recouvrement maximal avec " +
+      "les 37 profils existants est de 13 villes sur 20, avec « jeunes actifs », soit la médiane relevée entre les " +
+      "profils existants : ce classement partage beaucoup avec les profils qui cherchent de la culture à bas prix, et " +
+      "s'en distingue surtout par l'absence de toute pondération carrière ou transport.",
+    weights: {
+      culture: 3.0,
+      cost: 3.5,
+      life: 1.0,
+      safety: 0.5,
+    },
+    reasonHint: (c) => {
+      const h = HOUSING[c.slug];
+      const rent = h ? ` · T3 ${h.avgRentT3} €` : "";
+      return `Culture ${c.scores.culture.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}${rent}`;
+    },
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
