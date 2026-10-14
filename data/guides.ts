@@ -57315,6 +57315,581 @@ export const GUIDES: Guide[] = [
     tags: ["parent solo Libourne 2026", "monoparental Gironde", "T3 Libourne budget", "famille monoparentale Nouvelle-Aquitaine", "seuil 2 900 € parent seul"],
   },
   {
+    slug: "parent-solo-a-quimper-2026",
+    title: "Parent solo à Quimper en 2026 : un seuil à 2 850 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Quimper 2026 : seuil 2 850 €",
+    metaDesc:
+      "Fit 6,1/10, T3 940 €, seuil 2 850 € par mois, 391 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Quimper sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 6,2/10, transports 5,5/10, écoles 6,6/10, sécurité 6,1/10 (source : notre fiche ville). Le T3 est à 940 € et le mètre carré à l'achat à 2 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 850 € par mois. La commune compte 64 530 habitants au recensement 2022 contre 63 405 en 2016 et 63 235 en 2011 (source : Insee, recensements). Le dossier Quimper tient en une phrase : 3 axes sur 4 au-dessus des médianes du classement, et transports en dessous. Quimper partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 2 850 € : 3 axes au-dessus de la médiane, 1 en dessous",
+        body: "Le revenu net minimum de 2 850 € par mois vient de la règle des 33 % appliquée au T3 de 940 € : le coût de la vie étant à 5 ou au-dessus, le moteur garde la règle des 33 %. Ce seuil est le 8e plus bas du palier de treize communes (5 sont plus hautes), et 350 € en dessous de la médiane des 415 communes classées (3 200 €). Le coût de la vie Quimper est noté 6,2/10, contre une médiane à 5,2, soit 1 point de plus. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite perdrait environ 0,3 point : c'est le poste qui porte la note. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Dans le palier, les T3 vont de 650 € (Montluçon) à 2 000 € (Boulogne-Billancourt) ; Quimper est à 940 €.",
+      },
+      {
+        heading: "391 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 22 700 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 1 040 € de plus, soit 5 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 13 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 459 € par mois, contre un seuil de 2 850 € : il manque 391 €. Le ménage médian local couvre ainsi 86 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 6,1/10, écoles 6,6/10, transports 5,5/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 6,1/10, contre une médiane à 5 (1,1 points de plus). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 points de plus). Transports : 5,5/10, contre une médiane à 6,4 (0,9 point de moins). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : coût de la vie, écoles et sécurité. En dessous : transports.",
+      },
+      {
+        heading: "1,1 points d'amplitude : un profil plat, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 6,6) et le pire (transports, 5,5) vaut 1,1 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Quimper est 10e sur ce critère, devant Lorient à 1,1, Niort à 1,1, Sélestat à 1,1, derrière Boulogne-Billancourt à 6,8, Montluçon à 3,8, Tassin-la-Demi-Lune à 3,6 et 6 autres. Une même note de 6,1 recouvre donc des profils très différents : ici, quatre axes proches les uns des autres, sans point d'appui ni point d'alerte marqué. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5 (le plus bas est transports à 5,5), donc cette limite ne joue pas pour Quimper.",
+      },
+      {
+        heading: "Quimper face à ses voisines du Finistère",
+        body: "Le classement retient 3 communes du Finistère, dont Quimper. Parmi les 2 autres, 1 a un fit plus élevé que 6,1/10, 0 est au même fit et 1 a un fit plus bas. Les voisines les mieux notées : Brest (fit 6,5, T3 850 €) ; Concarneau (fit 5,5, T3 900 €). Le T3 à 940 € est le moins cher de ces 3 communes. La médiane des T3 de ces communes, Quimper comprise, est de 900 €. Sur la région Bretagne, 10 communes sont classées ; 6 ont un T3 moins cher que Quimper. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 28,7 % de 60 ans et plus",
+        body: "Quimper comptait 63 235 habitants en 2011, 63 405 en 2016 et 64 530 en 2022 (source : Insee, recensements), soit +2 % sur onze ans. Depuis 2016, la variation est de +1,8 % (+1 125 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 28,7 %, contre une médiane à 23,3 % sur les communes classées (5,4 points de plus), et les moins de 30 ans pèsent 34 %, contre 37,7 % (3,7 points de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 182 000 € représentent environ 6,2 années du revenu disponible d'un ménage monoparental médian local (29 510 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Quimper fonctionne",
+        body: "Quimper fonctionne à partir de 2 850 € net par mois, un seuil qui est le 8e plus bas du palier de treize communes et 350 € en dessous de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est modeste et qui cherche un loyer bas, qui privilégie coût de la vie (6,2/10) et écoles (6,6/10). Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 391 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche transports : transports à 5,5/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Quimper se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/quimper/parent-solo.",
+      },
+    ],
+    relatedCities: ["quimper","brest","concarneau","lannion","rennes"],
+    relatedGuides: [
+      "parent-solo-a-brest-2026",
+      "parent-solo-a-lannion-2026",
+      "parent-solo-a-rennes-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Quimper 2026","monoparental Finistère","T3 Quimper budget","sécurité et écoles parent seul","famille monoparentale Bretagne"],
+  },
+  {
+    slug: "parent-solo-a-lorient-2026",
+    title: "Parent solo à Lorient en 2026 : un seuil à 2 750 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Lorient 2026 : seuil 2 750 €",
+    metaDesc:
+      "Fit 6,1/10, T3 900 €, seuil 2 750 € par mois, 490 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Lorient sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 6,2/10, transports 6,1/10, écoles 6,6/10, sécurité 5,5/10 (source : notre fiche ville). Le T3 est à 900 € et le mètre carré à l'achat à 2 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 58 202 habitants au recensement 2022 contre 57 274 en 2016 et 57 408 en 2011 (source : Insee, recensements). Le dossier Lorient tient en une phrase : 3 axes sur 4 au-dessus des médianes du classement, et transports en dessous. Lorient partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 2 750 € : 3 axes au-dessus de la médiane, 1 en dessous",
+        body: "Le revenu net minimum de 2 750 € par mois vient de la règle des 33 % appliquée au T3 de 900 € : le coût de la vie étant à 5 ou au-dessus, le moteur garde la règle des 33 %. Ce seuil est le 5e plus bas du palier de treize communes (8 sont plus hautes), et 450 € en dessous de la médiane des 415 communes classées (3 200 €). Le coût de la vie Lorient est noté 6,2/10, contre une médiane à 5,2, soit 1 point de plus. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite perdrait environ 0,3 point : c'est le poste qui porte la note. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Dans le palier, les T3 vont de 650 € (Montluçon) à 2 000 € (Boulogne-Billancourt) ; Lorient est à 900 €.",
+      },
+      {
+        heading: "490 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 20 860 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 800 € de moins, soit 4 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 21 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 260 € par mois, contre un seuil de 2 750 € : il manque 490 €. Le ménage médian local couvre ainsi 82 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 5,5/10, écoles 6,6/10, transports 6,1/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 5,5/10, contre une médiane à 5 (0,5 point de plus). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 points de plus). Transports : 6,1/10, contre une médiane à 6,4 (0,3 point de moins). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : coût de la vie, écoles et sécurité. En dessous : transports.",
+      },
+      {
+        heading: "1,1 points d'amplitude : un profil plat, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 6,6) et le pire (sécurité, 5,5) vaut 1,1 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Lorient est 11e sur ce critère, devant Niort à 1,1, Sélestat à 1,1, derrière Boulogne-Billancourt à 6,8, Montluçon à 3,8, Tassin-la-Demi-Lune à 3,6 et 7 autres. Une même note de 6,1 recouvre donc des profils très différents : ici, quatre axes proches les uns des autres, sans point d'appui ni point d'alerte marqué. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5 (le plus bas est sécurité à 5,5), donc cette limite ne joue pas pour Lorient.",
+      },
+      {
+        heading: "Lorient face à ses voisines du Morbihan",
+        body: "Le classement retient 3 communes du Morbihan, dont Lorient. Parmi les 2 autres, 1 a un fit plus élevé que 6,1/10, 0 est au même fit et 1 a un fit plus bas. Les voisines les mieux notées : Vannes (fit 6,3, T3 1 150 €) ; Lanester (fit 5,4, T3 770 €). 1 des 2 autres communes ont un T3 moins cher que 900 €. La médiane des T3 de ces communes, Lorient comprise, est de 900 €. Sur la région Bretagne, 10 communes sont classées ; 4 ont un T3 moins cher que Lorient. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 28,9 % de 60 ans et plus",
+        body: "Lorient comptait 57 408 habitants en 2011, 57 274 en 2016 et 58 202 en 2022 (source : Insee, recensements), soit +1,4 % sur onze ans. Depuis 2016, la variation est de +1,6 % (+928 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 28,9 %, contre une médiane à 23,3 % sur les communes classées (5,6 points de plus), et les moins de 30 ans pèsent 35,7 %, contre 37,7 % (2 points de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 182 000 € représentent environ 6,7 années du revenu disponible d'un ménage monoparental médian local (27 118 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Lorient fonctionne",
+        body: "Lorient fonctionne à partir de 2 750 € net par mois, un seuil qui est le 5e plus bas du palier de treize communes et 450 € en dessous de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est modeste et qui cherche un loyer bas, qui privilégie coût de la vie (6,2/10) et écoles (6,6/10), avec un T3 à 900 € contre une médiane de palier à 930 €. Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 490 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche transports : transports à 6,1/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Lorient se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/lorient/parent-solo.",
+      },
+    ],
+    relatedCities: ["lorient","vannes","lanester","lannion","rennes"],
+    relatedGuides: [
+      "parent-solo-a-vannes-2026",
+      "parent-solo-a-lannion-2026",
+      "parent-solo-a-rennes-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Lorient 2026","monoparental Morbihan","T3 Lorient budget","sécurité et écoles parent seul","famille monoparentale Bretagne"],
+  },
+  {
+    slug: "parent-solo-a-montlucon-2026",
+    title: "Parent solo à Montluçon en 2026 : un seuil à 1 950 €, 2 axes sur 4 au-dessus de la médiane et 3,8 points d'amplitude",
+    metaTitle: "Parent solo à Montluçon 2026 : seuil 1 950 €",
+    metaDesc:
+      "Fit 6,1/10, T3 650 €, seuil 1 950 € par mois, 154 € de marge au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Montluçon sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 8,5/10, transports 4,7/10, écoles 4,9/10, sécurité 5,7/10 (source : notre fiche ville). Le T3 est à 650 € et le mètre carré à l'achat à 1 100 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 1 950 € par mois. La commune compte 33 317 habitants au recensement 2022 contre 36 147 en 2016 et 38 166 en 2011 (source : Insee, recensements). Le dossier Montluçon tient en une phrase : coût de la vie comme point fort (8,5/10), transports comme point faible (4,7/10). Montluçon partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 1 950 € : 2 axes au-dessus de la médiane, 2 en dessous",
+        body: "Le revenu net minimum de 1 950 € par mois vient de la règle des 33 % appliquée au T3 de 650 € : le coût de la vie étant à 5 ou au-dessus, le moteur garde la règle des 33 %. Ce seuil est le plus bas du palier de treize communes, et 1 250 € en dessous de la médiane des 415 communes classées (3 200 €). Le coût de la vie Montluçon est noté 8,5/10, contre une médiane à 5,2, soit 3,3 points de plus. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite perdrait environ 1 point : c'est le poste qui porte la note. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Le T3 à 650 € est le moins cher du palier.",
+      },
+      {
+        heading: "Un ménage médian local qui franchit le seuil, avec 154 € de marge",
+        body: "Le niveau de vie médian de la commune est de 19 420 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 2 240 € de moins, soit 10 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 25 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 104 € par mois, contre un seuil de 1 950 € : il reste 154 € de marge. Le ménage médian local couvre ainsi 108 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 5,7/10, écoles 4,9/10, transports 4,7/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 5,7/10, contre une médiane à 5 (0,7 point de plus). Écoles : 4,9/10, contre une médiane à 5,5 (0,6 point de moins). Transports : 4,7/10, contre une médiane à 6,4 (1,7 points de moins). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : coût de la vie et sécurité. En dessous : transports et écoles.",
+      },
+      {
+        heading: "3,8 points d'amplitude : un profil de contrastes, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (coût de la vie, 8,5) et le pire (transports, 4,7) vaut 3,8 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Montluçon est 2e sur ce critère, devant 11 communes du palier (de 3,6 à 1,1), derrière Boulogne-Billancourt à 6,8. Une même note de 6,1 recouvre donc des profils très différents : ici, un contraste net entre ce qui fonctionne et ce qui coince. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5 (le plus bas est transports à 4,7), donc cette limite ne joue pas pour Montluçon.",
+      },
+      {
+        heading: "Montluçon face à ses voisines de l'Allier",
+        body: "Le classement retient 2 communes de l'Allier, dont Montluçon. L'autre, Vichy, a un fit plus élevé (6,7/10). Le relevé : Vichy (fit 6,7, T3 640 €). Le T3 à 650 € est le moins cher de ces 2 communes. La médiane des T3 de ces communes, Montluçon comprise, est de 645 €. Sur la région Auvergne-Rhône-Alpes, 39 communes sont classées ; 2 ont un T3 moins cher que Montluçon. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui perd des habitants, 34,7 % de 60 ans et plus",
+        body: "Montluçon comptait 38 166 habitants en 2011, 36 147 en 2016 et 33 317 en 2022 (source : Insee, recensements), soit -12,7 % sur onze ans. Depuis 2016, la variation est de -7,8 % (-2 830 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 34,7 %, contre une médiane à 23,3 % sur les communes classées (11,4 points de plus), et les moins de 30 ans pèsent 33,2 %, contre 37,7 % (4,5 points de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un loyer bas et un recul de population se lisent ensemble ; nous n'affirmons pas lequel entraîne l'autre. Un parent solo qui prévoit de rester plusieurs années gagne à demander à la mairie l'évolution récente des effectifs scolaires, parce que c'est la donnée locale qui répond à la question et que nous ne l'avons pas. Pour un achat, 65 m² au repère de 71 500 € représentent environ 2,8 années du revenu disponible d'un ménage monoparental médian local (25 246 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Montluçon fonctionne",
+        body: "Montluçon fonctionne à partir de 1 950 € net par mois, un seuil qui est le plus bas du palier de treize communes et 1 250 € en dessous de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est modeste et qui cherche un loyer bas, qui privilégie coût de la vie (8,5/10) et sécurité (5,7/10), avec un T3 à 650 € contre une médiane de palier à 930 €. Le ménage médian local franchit le seuil, avec 154 € de marge : c'est un des éléments qui plaident pour la commune. Elle fonctionne mal pour qui cherche transports et écoles : transports à 4,7/10, écoles à 4,9/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Montluçon se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/montlucon/parent-solo.",
+      },
+    ],
+    relatedCities: ["montlucon","vichy","vienne","villefranche-sur-saone","villeurbanne"],
+    relatedGuides: [
+      "parent-solo-a-vichy-2026",
+      "parent-solo-a-vienne-2026",
+      "parent-solo-a-villefranche-sur-saone-2026",
+      "parent-solo-a-villeurbanne-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Montluçon 2026","monoparental Allier","T3 Montluçon budget","sécurité et écoles parent seul","famille monoparentale Auvergne-Rhône-Alpes"],
+  },
+  {
+    slug: "parent-solo-a-niort-2026",
+    title: "Parent solo à Niort en 2026 : un seuil à 2 600 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Niort 2026 : seuil 2 600 €",
+    metaDesc:
+      "Fit 6,1/10, T3 860 €, seuil 2 600 € par mois, 95 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Niort sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 6,4/10, transports 5,5/10, écoles 6,6/10, sécurité 5,9/10 (source : notre fiche ville). Le T3 est à 860 € et le mètre carré à l'achat à 2 100 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 600 € par mois. La commune compte 60 074 habitants au recensement 2022 contre 59 005 en 2016 et 57 813 en 2011 (source : Insee, recensements). Le dossier Niort tient en une phrase : 3 axes sur 4 au-dessus des médianes du classement, et transports en dessous. Niort partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 2 600 € : 3 axes au-dessus de la médiane, 1 en dessous",
+        body: "Le revenu net minimum de 2 600 € par mois vient de la règle des 33 % appliquée au T3 de 860 € : le coût de la vie étant à 5 ou au-dessus, le moteur garde la règle des 33 %. Ce seuil est le 4e plus bas du palier de treize communes (9 sont plus hautes), et 600 € en dessous de la médiane des 415 communes classées (3 200 €). Le coût de la vie Niort est noté 6,4/10, contre une médiane à 5,2, soit 1,2 points de plus. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite perdrait environ 0,4 point : c'est le poste qui porte la note. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Dans le palier, les T3 vont de 650 € (Montluçon) à 2 000 € (Boulogne-Billancourt) ; Niort est à 860 €.",
+      },
+      {
+        heading: "95 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 23 120 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 1 460 € de plus, soit 7 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 16 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 505 € par mois, contre un seuil de 2 600 € : il manque 95 €. Le ménage médian local couvre ainsi 96 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 5,9/10, écoles 6,6/10, transports 5,5/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 5,9/10, contre une médiane à 5 (0,9 point de plus). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 points de plus). Transports : 5,5/10, contre une médiane à 6,4 (0,9 point de moins). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : coût de la vie, écoles et sécurité. En dessous : transports.",
+      },
+      {
+        heading: "1,1 points d'amplitude : un profil plat, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 6,6) et le pire (transports, 5,5) vaut 1,1 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Niort est 12e sur ce critère, devant Sélestat à 1,1, derrière Boulogne-Billancourt à 6,8, Montluçon à 3,8, Tassin-la-Demi-Lune à 3,6 et 8 autres. Une même note de 6,1 recouvre donc des profils très différents : ici, quatre axes proches les uns des autres, sans point d'appui ni point d'alerte marqué. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5 (le plus bas est transports à 5,5), donc cette limite ne joue pas pour Niort.",
+      },
+      {
+        heading: "Niort face à ses voisines des Deux-Sèvres",
+        body: "Niort est la seule commune des Deux-Sèvres du classement (population de plus de 20 000 habitants), donc la comparaison départementale n'a pas d'objet. À l'échelle de la région Nouvelle-Aquitaine, le classement retient 30 communes. Les mieux notées après Niort : Anglet (fit 6,9, T3 1 200 €) ; Brive-la-Gaillarde (fit 6,7, T3 780 €) ; Châtellerault (fit 6,5, T3 640 €) ; Poitiers (fit 6,5, T3 880 €). Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 28,3 % de 60 ans et plus",
+        body: "Niort comptait 57 813 habitants en 2011, 59 005 en 2016 et 60 074 en 2022 (source : Insee, recensements), soit +3,9 % sur onze ans. Depuis 2016, la variation est de +1,8 % (+1 069 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 28,3 %, contre une médiane à 23,3 % sur les communes classées (5 points de plus), et les moins de 30 ans pèsent 34 %, contre 37,7 % (3,7 points de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 136 500 € représentent environ 4,5 années du revenu disponible d'un ménage monoparental médian local (30 056 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Niort fonctionne",
+        body: "Niort fonctionne à partir de 2 600 € net par mois, un seuil qui est le 4e plus bas du palier de treize communes et 600 € en dessous de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est modeste et qui cherche un loyer bas, qui privilégie coût de la vie (6,4/10) et écoles (6,6/10), avec un T3 à 860 € contre une médiane de palier à 930 €. Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 95 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche transports : transports à 5,5/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Niort se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/niort/parent-solo.",
+      },
+    ],
+    relatedCities: ["niort","anglet","brive-la-gaillarde","poitiers","chatellerault"],
+    relatedGuides: [
+      "parent-solo-a-anglet-2026",
+      "parent-solo-a-brive-la-gaillarde-2026",
+      "parent-solo-a-poitiers-2026",
+      "parent-solo-a-chatellerault-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Niort 2026","monoparental Deux-Sèvres","T3 Niort budget","sécurité et écoles parent seul","famille monoparentale Nouvelle-Aquitaine"],
+  },
+  {
+    slug: "parent-solo-a-bourg-en-bresse-2026",
+    title: "Parent solo à Bourg-en-Bresse en 2026 : un seuil à 2 550 €, quatre axes au-dessus de la médiane",
+    metaTitle: "Parent solo à Bourg-en-Bresse 2026 : seuil 2 550 €",
+    metaDesc:
+      "Fit 6,1/10, T3 840 €, seuil 2 550 € par mois, 361 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Bourg-en-Bresse sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 5,9/10, transports 6,7/10, écoles 6,6/10, sécurité 5,5/10 (source : notre fiche ville). Le T3 est à 840 € et le mètre carré à l'achat à 2 300 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 550 € par mois. La commune compte 42 065 habitants au recensement 2022 contre 41 365 en 2016 et 39 882 en 2011 (source : Insee, recensements). Le dossier Bourg-en-Bresse tient en une phrase : 4 axes sur 4 au-dessus des médianes du classement, . Bourg-en-Bresse partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 2 550 € : 4 axes au-dessus de la médiane, 0 en dessous",
+        body: "Le revenu net minimum de 2 550 € par mois vient de la règle des 33 % appliquée au T3 de 840 € : le coût de la vie étant à 5 ou au-dessus, le moteur garde la règle des 33 %. Ce seuil est le 3e plus bas du palier de treize communes (10 sont plus hautes), et 650 € en dessous de la médiane des 415 communes classées (3 200 €). Le coût de la vie Bourg-en-Bresse est noté 5,9/10, contre une médiane à 5,2, soit 0,7 point de plus. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite perdrait environ 0,2 point : c'est le poste qui porte la note. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Dans le palier, les T3 vont de 650 € (Montluçon) à 2 000 € (Boulogne-Billancourt) ; Bourg-en-Bresse est à 840 €.",
+      },
+      {
+        heading: "361 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 20 210 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 1 450 € de moins, soit 7 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 24 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 189 € par mois, contre un seuil de 2 550 € : il manque 361 €. Le ménage médian local couvre ainsi 86 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 5,5/10, écoles 6,6/10, transports 6,7/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 5,5/10, contre une médiane à 5 (0,5 point de plus). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 points de plus). Transports : 6,7/10, contre une médiane à 6,4 (0,3 point de plus). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : coût de la vie, transports, écoles et sécurité.",
+      },
+      {
+        heading: "1,2 points d'amplitude : un profil plat, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (transports, 6,7) et le pire (sécurité, 5,5) vaut 1,2 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Bourg-en-Bresse est 9e sur ce critère, devant 4 communes du palier (de 1,1 à 1,1), derrière Boulogne-Billancourt à 6,8, Montluçon à 3,8, Tassin-la-Demi-Lune à 3,6 et 5 autres. Une même note de 6,1 recouvre donc des profils très différents : ici, quatre axes proches les uns des autres, sans point d'appui ni point d'alerte marqué. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5 (le plus bas est sécurité à 5,5), donc cette limite ne joue pas pour Bourg-en-Bresse.",
+      },
+      {
+        heading: "Bourg-en-Bresse face à ses voisines de l'Ain",
+        body: "Le classement retient 2 communes de l'Ain, dont Bourg-en-Bresse. L'autre, Oyonnax, a un fit plus élevé (6,4/10). Le relevé : Oyonnax (fit 6,4, T3 800 €). Le T3 à 840 € est le moins cher de ces 2 communes. La médiane des T3 de ces communes, Bourg-en-Bresse comprise, est de 820 €. Sur la région Auvergne-Rhône-Alpes, 39 communes sont classées ; 9 ont un T3 moins cher que Bourg-en-Bresse. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 28,3 % de 60 ans et plus",
+        body: "Bourg-en-Bresse comptait 39 882 habitants en 2011, 41 365 en 2016 et 42 065 en 2022 (source : Insee, recensements), soit +5,5 % sur onze ans. Depuis 2016, la variation est de +1,7 % (+700 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 28,3 %, contre une médiane à 23,3 % sur les communes classées (5 points de plus), et les moins de 30 ans pèsent 36,8 %, contre 37,7 % (0,9 point de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 149 500 € représentent environ 5,7 années du revenu disponible d'un ménage monoparental médian local (26 273 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Bourg-en-Bresse fonctionne",
+        body: "Bourg-en-Bresse fonctionne à partir de 2 550 € net par mois, un seuil qui est le 3e plus bas du palier de treize communes et 650 € en dessous de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est modeste et qui cherche un loyer bas, qui privilégie coût de la vie (5,9/10) et transports (6,7/10), avec un T3 à 840 € contre une médiane de palier à 930 €. Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 361 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche une marge sur chaque axe : aucun axe ne dépasse nettement les médianes. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Bourg-en-Bresse se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/bourg-en-bresse/parent-solo.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse","oyonnax","vienne","villefranche-sur-saone","villeurbanne"],
+    relatedGuides: [
+      "parent-solo-a-oyonnax-2026",
+      "parent-solo-a-vienne-2026",
+      "parent-solo-a-villefranche-sur-saone-2026",
+      "parent-solo-a-villeurbanne-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Bourg-en-Bresse 2026","monoparental Ain","T3 Bourg-en-Bresse budget","sécurité et écoles parent seul","famille monoparentale Auvergne-Rhône-Alpes"],
+  },
+  {
+    slug: "parent-solo-a-arras-2026",
+    title: "Parent solo à Arras en 2026 : un seuil à 2 200 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Arras 2026 : seuil 2 200 €",
+    metaDesc:
+      "Fit 6,1/10, T3 720 €, seuil 2 200 € par mois, 8 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Arras sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 6,2/10, transports 6,1/10, écoles 6,6/10, sécurité 5,3/10 (source : notre fiche ville). Le T3 est à 720 € et le mètre carré à l'achat à 1 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 200 € par mois. La commune compte 42 621 habitants au recensement 2022 contre 40 883 en 2016 et 41 322 en 2011 (source : Insee, recensements). Le dossier Arras tient en une phrase : 3 axes sur 4 au-dessus des médianes du classement, et transports en dessous. Arras partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 2 200 € : 3 axes au-dessus de la médiane, 1 en dessous",
+        body: "Le revenu net minimum de 2 200 € par mois vient de la règle des 33 % appliquée au T3 de 720 € : le coût de la vie étant à 5 ou au-dessus, le moteur garde la règle des 33 %. Ce seuil est le 2e plus bas du palier de treize communes (11 sont plus hautes), et 1 000 € en dessous de la médiane des 415 communes classées (3 200 €). Le coût de la vie Arras est noté 6,2/10, contre une médiane à 5,2, soit 1 point de plus. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite perdrait environ 0,3 point : c'est le poste qui porte la note. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Dans le palier, les T3 vont de 650 € (Montluçon) à 2 000 € (Boulogne-Billancourt) ; Arras est à 720 €.",
+      },
+      {
+        heading: "8 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 20 230 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 1 430 € de moins, soit 7 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 25 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 192 € par mois, contre un seuil de 2 200 € : il manque 8 €. Le ménage médian local couvre ainsi 100 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 5,3/10, écoles 6,6/10, transports 6,1/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 5,3/10, contre une médiane à 5 (0,3 point de plus). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 points de plus). Transports : 6,1/10, contre une médiane à 6,4 (0,3 point de moins). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : coût de la vie, écoles et sécurité. En dessous : transports.",
+      },
+      {
+        heading: "1,3 points d'amplitude : un profil plat, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 6,6) et le pire (sécurité, 5,3) vaut 1,3 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Arras est 8e sur ce critère, devant 5 communes du palier (de 1,2 à 1,1), derrière Boulogne-Billancourt à 6,8, Montluçon à 3,8, Tassin-la-Demi-Lune à 3,6 et 4 autres. Une même note de 6,1 recouvre donc des profils très différents : ici, quatre axes proches les uns des autres, sans point d'appui ni point d'alerte marqué. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5 (le plus bas est sécurité à 5,3), donc cette limite ne joue pas pour Arras.",
+      },
+      {
+        heading: "Arras face à ses voisines du Pas-de-Calais",
+        body: "Le classement retient 8 communes du Pas-de-Calais, dont Arras. Parmi les 7 autres, 0 a un fit plus élevé que 6,1/10, 0 est au même fit et 7 ont un fit plus bas. Les voisines les mieux notées : Lens (fit 6, T3 590 €) ; Boulogne-sur-Mer (fit 5,4, T3 780 €) ; Calais (fit 5,2, T3 640 €) ; Béthune (fit 4,9, T3 740 €). 4 des 7 autres communes ont un T3 moins cher que 720 €. La médiane des T3 de ces communes, Arras comprise, est de 695 €. Sur la région Hauts-de-France, 29 communes sont classées ; 10 ont un T3 moins cher que Arras. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 22,4 % de 60 ans et plus",
+        body: "Arras comptait 41 322 habitants en 2011, 40 883 en 2016 et 42 621 en 2022 (source : Insee, recensements), soit +3,1 % sur onze ans. Depuis 2016, la variation est de +4,3 % (+1 738 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 22,4 %, contre une médiane à 23,3 % sur les communes classées (0,9 point de moins), et les moins de 30 ans pèsent 41,6 %, contre 37,7 % (3,9 points de plus). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 117 000 € représentent environ 4,4 années du revenu disponible d'un ménage monoparental médian local (26 299 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Arras fonctionne",
+        body: "Arras fonctionne à partir de 2 200 € net par mois, un seuil qui est le 2e plus bas du palier de treize communes et 1 000 € en dessous de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est modeste et qui cherche un loyer bas, qui privilégie coût de la vie (6,2/10) et écoles (6,6/10), avec un T3 à 720 € contre une médiane de palier à 930 €. Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 8 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche transports : transports à 6,1/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Arras se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/arras/parent-solo.",
+      },
+    ],
+    relatedCities: ["arras","lens","boulogne-sur-mer","calais","bethune"],
+    relatedGuides: [
+      "parent-solo-a-calais-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Arras 2026","monoparental Pas-de-Calais","T3 Arras budget","sécurité et écoles parent seul","famille monoparentale Hauts-de-France"],
+  },
+  {
+    slug: "parent-solo-a-selestat-2026",
+    title: "Parent solo à Sélestat en 2026 : un seuil à 3 050 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Sélestat 2026 : seuil 3 050 €",
+    metaDesc:
+      "Fit 6,1/10, T3 1 000 €, seuil 3 050 € par mois, 596 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Sélestat sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 6,2/10, transports 5,5/10, écoles 6,6/10, sécurité 6,1/10 (source : notre fiche ville). Le T3 est à 1 000 € et le mètre carré à l'achat à 3 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 050 € par mois. La commune compte 19 523 habitants au recensement 2022 contre 19 124 en 2016 et 19 181 en 2011 (source : Insee, recensements). Le dossier Sélestat tient en une phrase : 3 axes sur 4 au-dessus des médianes du classement, et transports en dessous. Sélestat partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 3 050 € : 3 axes au-dessus de la médiane, 1 en dessous",
+        body: "Le revenu net minimum de 3 050 € par mois vient de la règle des 33 % appliquée au T3 de 1 000 € : le coût de la vie étant à 5 ou au-dessus, le moteur garde la règle des 33 %. Ce seuil est le 9e plus bas du palier de treize communes (4 sont plus hautes), et 150 € en dessous de la médiane des 415 communes classées (3 200 €). Le coût de la vie Sélestat est noté 6,2/10, contre une médiane à 5,2, soit 1 point de plus. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite perdrait environ 0,3 point : c'est le poste qui porte la note. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Dans le palier, les T3 vont de 650 € (Montluçon) à 2 000 € (Boulogne-Billancourt) ; Sélestat est à 1 000 €.",
+      },
+      {
+        heading: "596 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 22 650 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 990 € de plus, soit 5 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 15 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 454 € par mois, contre un seuil de 3 050 € : il manque 596 €. Le ménage médian local couvre ainsi 80 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 6,1/10, écoles 6,6/10, transports 5,5/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 6,1/10, contre une médiane à 5 (1,1 points de plus). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 points de plus). Transports : 5,5/10, contre une médiane à 6,4 (0,9 point de moins). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : coût de la vie, écoles et sécurité. En dessous : transports.",
+      },
+      {
+        heading: "1,1 points d'amplitude : un profil plat, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 6,6) et le pire (transports, 5,5) vaut 1,1 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Sélestat est 13e sur ce critère, derrière Boulogne-Billancourt à 6,8, Montluçon à 3,8, Tassin-la-Demi-Lune à 3,6 et 9 autres. Une même note de 6,1 recouvre donc des profils très différents : ici, quatre axes proches les uns des autres, sans point d'appui ni point d'alerte marqué. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5 (le plus bas est transports à 5,5), donc cette limite ne joue pas pour Sélestat.",
+      },
+      {
+        heading: "Sélestat face à ses voisines du Bas-Rhin",
+        body: "Le classement retient 5 communes du Bas-Rhin, dont Sélestat. Parmi les 4 autres, 2 ont un fit plus élevé que 6,1/10, 0 est au même fit et 2 ont un fit plus bas. Les voisines les mieux notées : Strasbourg (fit 7, T3 1 080 €) ; Haguenau (fit 6,2, T3 940 €) ; Illkirch-Graffenstaden (fit 5,9, T3 970 €) ; Schiltigheim (fit 5,4, T3 950 €). 3 des 4 autres communes ont un T3 moins cher que 1 000 €. La médiane des T3 de ces communes, Sélestat comprise, est de 970 €. Sur la région Grand Est, 24 communes sont classées ; 20 ont un T3 moins cher que Sélestat. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 26,8 % de 60 ans et plus",
+        body: "Sélestat comptait 19 181 habitants en 2011, 19 124 en 2016 et 19 523 en 2022 (source : Insee, recensements), soit +1,8 % sur onze ans. Depuis 2016, la variation est de +2,1 % (+399 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 26,8 %, contre une médiane à 23,3 % sur les communes classées (3,5 points de plus), et les moins de 30 ans pèsent 34,8 %, contre 37,7 % (2,9 points de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 208 000 € représentent environ 7,1 années du revenu disponible d'un ménage monoparental médian local (29 445 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions. Précision de rang : Sélestat est classée sur la population du seed, arrondie à 20 000, alors que le recensement 2022 en donne 19 523 : elle est donc au plancher du classement, sous le seuil si l'on prend la mesure de l'Insee.",
+      },
+      {
+        heading: "Le verdict : pour qui Sélestat fonctionne",
+        body: "Sélestat fonctionne à partir de 3 050 € net par mois, un seuil qui est le 9e plus bas du palier de treize communes et 150 € en dessous de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est modeste et qui cherche un loyer bas, qui privilégie coût de la vie (6,2/10) et écoles (6,6/10). Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 596 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche transports : transports à 5,5/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Sélestat se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/selestat/parent-solo.",
+      },
+    ],
+    relatedCities: ["selestat","strasbourg","haguenau","illkirch-graffenstaden","schiltigheim"],
+    relatedGuides: [
+      "parent-solo-a-strasbourg-2026",
+      "parent-solo-a-haguenau-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Sélestat 2026","monoparental Bas-Rhin","T3 Sélestat budget","sécurité et écoles parent seul","famille monoparentale Grand Est"],
+  },
+  {
+    slug: "parent-solo-a-boulogne-billancourt-2026",
+    title: "Parent solo à Boulogne-Billancourt en 2026 : un seuil à 5 700 €, 3 axes sur 4 au-dessus de la médiane et 6,8 points d'amplitude",
+    metaTitle: "Parent solo à Boulogne-Billancourt 2026 : seuil 5 700 €",
+    metaDesc:
+      "Fit 6,1/10, T3 2 000 €, seuil 5 700 € par mois, 1 904 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Boulogne-Billancourt sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 2,2/10, transports 9/10, écoles 8,7/10, sécurité 5,7/10 (source : notre fiche ville). Le T3 est à 2 000 € et le mètre carré à l'achat à 7 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 5 700 € par mois. La commune compte 120 205 habitants au recensement 2022 contre 119 645 en 2016 et 116 220 en 2011 (source : Insee, recensements). Le dossier Boulogne-Billancourt tient en une phrase : 3 axes sur 4 au-dessus des médianes du classement, et coût de la vie en dessous. Boulogne-Billancourt partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 5 700 € : 3 axes au-dessus de la médiane, 1 en dessous",
+        body: "Le revenu net minimum de 5 700 € par mois vient de la règle des 35 % appliquée au T3 de 2 000 € : le coût de la vie étant sous 5, le moteur n'utilise pas la règle des 33 % mais la version relâchée, réservée aux marchés tendus. Ce seuil est le plus élevé du palier de treize communes, et 2 500 € au-dessus de la médiane des 415 communes classées (3 200 €). Le coût de la vie Boulogne-Billancourt est noté 2,2/10, contre une médiane à 5,2, soit 3 points de moins. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite gagnerait environ 0,9 point : la note de 6,1 est un résultat obtenu avec un handicap sur le poste qui compte le plus. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Le T3 à 2 000 € est le plus cher du palier.",
+      },
+      {
+        heading: "1 904 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 35 040 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 13 380 € de plus, soit 62 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 9 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 3 796 € par mois, contre un seuil de 5 700 € : il manque 1 904 €. Le ménage médian local couvre ainsi 67 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 5,7/10, écoles 8,7/10, transports 9/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 5,7/10, contre une médiane à 5 (0,7 point de plus). Écoles : 8,7/10, contre une médiane à 5,5 (3,2 points de plus). Transports : 9/10, contre une médiane à 6,4 (2,6 points de plus). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : transports, écoles et sécurité. En dessous : coût de la vie.",
+      },
+      {
+        heading: "6,8 points d'amplitude : un profil de contrastes, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (transports, 9) et le pire (coût de la vie, 2,2) vaut 6,8 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Boulogne-Billancourt est première sur ce critère, devant 12 communes du palier (de 3,8 à 1,1). Une même note de 6,1 recouvre donc des profils très différents : ici, un contraste net entre ce qui fonctionne et ce qui coince. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, l'axe coût de la vie est à 2,2, sous ce seuil : le composite lisse un point que le score global du site pénaliserait. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Boulogne-Billancourt face à ses voisines des Hauts-de-Seine",
+        body: "Le classement retient 32 communes des Hauts-de-Seine, dont Boulogne-Billancourt. Parmi les 31 autres, 5 ont un fit plus élevé que 6,1/10, 0 est au même fit et 26 ont un fit plus bas. Les voisines les mieux notées : Issy-les-Moulineaux (fit 6,5, T3 1 800 €) ; Levallois-Perret (fit 6,5, T3 2 000 €) ; Neuilly-sur-Seine (fit 6,4, T3 2 500 €) ; Courbevoie (fit 6,3, T3 1 750 €). 29 des 31 autres communes ont un T3 moins cher que 2 000 €. La médiane des T3 de ces communes, Boulogne-Billancourt comprise, est de 1 550 €. Sur la région Île-de-France, 155 communes sont classées ; 151 ont un T3 moins cher que Boulogne-Billancourt. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une population stable, 22,4 % de 60 ans et plus",
+        body: "Boulogne-Billancourt comptait 116 220 habitants en 2011, 119 645 en 2016 et 120 205 en 2022 (source : Insee, recensements), soit +3,4 % sur onze ans. Depuis 2016, la variation est de +0,5 % (+560 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 22,4 %, contre une médiane à 23,3 % sur les communes classées (0,9 point de moins), et les moins de 30 ans pèsent 36 %, contre 37,7 % (1,7 points de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 468 000 € représentent environ 10,3 années du revenu disponible d'un ménage monoparental médian local (45 552 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Boulogne-Billancourt fonctionne",
+        body: "Boulogne-Billancourt fonctionne à partir de 5 700 € net par mois, un seuil qui est le plus élevé du palier de treize communes et 2 500 € au-dessus de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est déjà assis, qui privilégie transports (9/10) et écoles (8,7/10). Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 1 904 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche coût de la vie : coût de la vie à 2,2/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Boulogne-Billancourt se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/boulogne-billancourt/parent-solo.",
+      },
+    ],
+    relatedCities: ["boulogne-billancourt","levallois-perret","issy-les-moulineaux","neuilly-sur-seine","rueil-malmaison"],
+    relatedGuides: [
+      "parent-solo-a-levallois-perret-2026",
+      "parent-solo-a-issy-les-moulineaux-2026",
+      "parent-solo-a-neuilly-sur-seine-2026",
+      "parent-solo-a-rueil-malmaison-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Boulogne-Billancourt 2026","monoparental Hauts-de-Seine","T3 Boulogne-Billancourt budget","sécurité et écoles parent seul","famille monoparentale Île-de-France"],
+  },
+  {
+    slug: "parent-solo-a-orange-2026",
+    title: "Parent solo à Orange en 2026 : un seuil à 2 800 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Orange 2026 : seuil 2 800 €",
+    metaDesc:
+      "Fit 6,1/10, T3 920 €, seuil 2 800 € par mois, 594 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Orange sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 6,3/10, transports 6,2/10, écoles 6,6/10, sécurité 5,1/10 (source : notre fiche ville). Le T3 est à 920 € et le mètre carré à l'achat à 2 400 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 800 € par mois. La commune compte 29 357 habitants au recensement 2022 contre 29 212 en 2016 et 29 302 en 2011 (source : Insee, recensements). Le dossier Orange tient en une phrase : 3 axes sur 4 au-dessus des médianes du classement, et transports en dessous. Orange partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 2 800 € : 3 axes au-dessus de la médiane, 1 en dessous",
+        body: "Le revenu net minimum de 2 800 € par mois vient de la règle des 33 % appliquée au T3 de 920 € : le coût de la vie étant à 5 ou au-dessus, le moteur garde la règle des 33 %. Ce seuil est le 7e plus bas du palier de treize communes (6 sont plus hautes), et 400 € en dessous de la médiane des 415 communes classées (3 200 €). Le coût de la vie Orange est noté 6,3/10, contre une médiane à 5,2, soit 1,1 points de plus. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite perdrait environ 0,3 point : c'est le poste qui porte la note. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Dans le palier, les T3 vont de 650 € (Montluçon) à 2 000 € (Boulogne-Billancourt) ; Orange est à 920 €.",
+      },
+      {
+        heading: "594 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 20 360 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 1 300 € de moins, soit 6 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 23 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 206 € par mois, contre un seuil de 2 800 € : il manque 594 €. Le ménage médian local couvre ainsi 79 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 5,1/10, écoles 6,6/10, transports 6,2/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 5,1/10, contre une médiane à 5 (0,1 point de plus). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 points de plus). Transports : 6,2/10, contre une médiane à 6,4 (0,2 point de moins). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : coût de la vie, écoles et sécurité. En dessous : transports.",
+      },
+      {
+        heading: "1,5 points d'amplitude : un profil plat, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 6,6) et le pire (sécurité, 5,1) vaut 1,5 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Orange est 7e sur ce critère, devant 6 communes du palier (de 1,3 à 1,1), derrière Boulogne-Billancourt à 6,8, Montluçon à 3,8, Tassin-la-Demi-Lune à 3,6 et 3 autres. Une même note de 6,1 recouvre donc des profils très différents : ici, quatre axes proches les uns des autres, sans point d'appui ni point d'alerte marqué. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5 (le plus bas est sécurité à 5,1), donc cette limite ne joue pas pour Orange.",
+      },
+      {
+        heading: "Orange face à ses voisines du Vaucluse",
+        body: "Le classement retient 5 communes du Vaucluse, dont Orange. Parmi les 4 autres, 0 a un fit plus élevé que 6,1/10, 0 est au même fit et 4 ont un fit plus bas. Les voisines les mieux notées : Carpentras (fit 6, T3 920 €) ; Avignon (fit 5,3, T3 1 000 €) ; Pertuis (fit 4,8, T3 1 010 €) ; Cavaillon (fit 4,4, T3 860 €). 1 des 4 autres communes ont un T3 moins cher que 920 €. La médiane des T3 de ces communes, Orange comprise, est de 920 €. Sur la région Provence-Alpes-Côte d'Azur, 34 communes sont classées ; 3 ont un T3 moins cher que Orange. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une population stable, 30,5 % de 60 ans et plus",
+        body: "Orange comptait 29 302 habitants en 2011, 29 212 en 2016 et 29 357 en 2022 (source : Insee, recensements), soit +0,2 % sur onze ans. Depuis 2016, la variation est de +0,5 % (+145 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 30,5 %, contre une médiane à 23,3 % sur les communes classées (7,2 points de plus), et les moins de 30 ans pèsent 32,9 %, contre 37,7 % (4,8 points de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 156 000 € représentent environ 5,9 années du revenu disponible d'un ménage monoparental médian local (26 468 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Orange fonctionne",
+        body: "Orange fonctionne à partir de 2 800 € net par mois, un seuil qui est le 7e plus bas du palier de treize communes et 400 € en dessous de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est modeste et qui cherche un loyer bas, qui privilégie coût de la vie (6,3/10) et écoles (6,6/10), avec un T3 à 920 € contre une médiane de palier à 930 €. Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 594 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche transports : transports à 6,2/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Orange se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/orange/parent-solo.",
+      },
+    ],
+    relatedCities: ["orange","carpentras","avignon","pertuis","cavaillon"],
+    relatedGuides: [
+      "parent-solo-a-avignon-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Orange 2026","monoparental Vaucluse","T3 Orange budget","sécurité et écoles parent seul","famille monoparentale Provence-Alpes-Côte d'Azur"],
+  },
+  {
+    slug: "parent-solo-a-aubagne-2026",
+    title: "Parent solo à Aubagne en 2026 : un seuil à 3 350 €, 3 axes sur 4 au-dessus de la médiane et 3,4 points d'amplitude",
+    metaTitle: "Parent solo à Aubagne 2026 : seuil 3 350 €",
+    metaDesc:
+      "Fit 6,1/10, T3 1 100 €, seuil 3 350 € par mois, 907 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Aubagne sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 5,6/10, transports 7/10, écoles 7,7/10, sécurité 4,3/10 (source : notre fiche ville). Le T3 est à 1 100 € et le mètre carré à l'achat à 2 900 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 350 € par mois. La commune compte 47 724 habitants au recensement 2022 contre 45 290 en 2016 et 45 800 en 2011 (source : Insee, recensements). Le dossier Aubagne tient en une phrase : 3 axes sur 4 au-dessus des médianes du classement, et sécurité en dessous. Aubagne partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 3 350 € : 3 axes au-dessus de la médiane, 1 en dessous",
+        body: "Le revenu net minimum de 3 350 € par mois vient de la règle des 33 % appliquée au T3 de 1 100 € : le coût de la vie étant à 5 ou au-dessus, le moteur garde la règle des 33 %. Ce seuil est le 11e plus bas du palier de treize communes (2 sont plus hautes), et 150 € au-dessus de la médiane des 415 communes classées (3 200 €). Le coût de la vie Aubagne est noté 5,6/10, contre une médiane à 5,2, soit 0,4 point de plus. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite perdrait environ 0,1 point : c'est le poste qui porte la note. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Dans le palier, les T3 vont de 650 € (Montluçon) à 2 000 € (Boulogne-Billancourt) ; Aubagne est à 1 100 €.",
+      },
+      {
+        heading: "907 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 22 550 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 890 € de plus, soit 4 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 16 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 443 € par mois, contre un seuil de 3 350 € : il manque 907 €. Le ménage médian local couvre ainsi 73 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 4,3/10, écoles 7,7/10, transports 7/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 4,3/10, contre une médiane à 5 (0,7 point de moins). Écoles : 7,7/10, contre une médiane à 5,5 (2,2 points de plus). Transports : 7/10, contre une médiane à 6,4 (0,6 point de plus). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. La sécurité est l'axe qui décroche ici (4,3/10 pour une médiane à 5), et il pèse un quart du composite.Au-dessus de la médiane des 415 communes classées : coût de la vie, transports et écoles. En dessous : sécurité.",
+      },
+      {
+        heading: "3,4 points d'amplitude : un profil de contrastes, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 7,7) et le pire (sécurité, 4,3) vaut 3,4 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Aubagne est 4e sur ce critère, devant 9 communes du palier (de 2,4 à 1,1), derrière Boulogne-Billancourt à 6,8, Montluçon à 3,8, Tassin-la-Demi-Lune à 3,6. Une même note de 6,1 recouvre donc des profils très différents : ici, un contraste net entre ce qui fonctionne et ce qui coince. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, l'axe sécurité est à 4,3, sous ce seuil : le composite lisse un point que le score global du site pénaliserait. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Aubagne face à ses voisines des Bouches-du-Rhône",
+        body: "Le classement retient 11 communes des Bouches-du-Rhône, dont Aubagne. Parmi les 10 autres, 0 a un fit plus élevé que 6,1/10, 0 est au même fit et 10 ont un fit plus bas. Les voisines les mieux notées : Aix-en-Provence (fit 5,9, T3 1 400 €) ; La Ciotat (fit 5,7, T3 1 250 €) ; Martigues (fit 5,2, T3 1 080 €) ; Salon-de-Provence (fit 5,2, T3 1 050 €). 7 des 10 autres communes ont un T3 moins cher que 1 100 €. La médiane des T3 de ces communes, Aubagne comprise, est de 1 080 €. Sur la région Provence-Alpes-Côte d'Azur, 34 communes sont classées ; 17 ont un T3 moins cher que Aubagne. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 28,8 % de 60 ans et plus",
+        body: "Aubagne comptait 45 800 habitants en 2011, 45 290 en 2016 et 47 724 en 2022 (source : Insee, recensements), soit +4,2 % sur onze ans. Depuis 2016, la variation est de +5,4 % (+2 434 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 28,8 %, contre une médiane à 23,3 % sur les communes classées (5,5 points de plus), et les moins de 30 ans pèsent 34 %, contre 37,7 % (3,7 points de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 188 500 € représentent environ 6,4 années du revenu disponible d'un ménage monoparental médian local (29 315 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Aubagne fonctionne",
+        body: "Aubagne fonctionne à partir de 3 350 € net par mois, un seuil qui est le 11e plus bas du palier de treize communes et 150 € au-dessus de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est déjà assis, qui privilégie coût de la vie (5,6/10) et transports (7/10). Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 907 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche sécurité : sécurité à 4,3/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Aubagne se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/aubagne/parent-solo.",
+      },
+    ],
+    relatedCities: ["aubagne","aix-en-provence","la-ciotat","salon-de-provence","martigues"],
+    relatedGuides: [
+      "parent-solo-a-aix-en-provence-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Aubagne 2026","monoparental Bouches-du-Rhône","T3 Aubagne budget","sécurité et écoles parent seul","famille monoparentale Provence-Alpes-Côte d'Azur"],
+  },
+  {
+    slug: "parent-solo-a-tassin-la-demi-lune-2026",
+    title: "Parent solo à Tassin-la-Demi-Lune en 2026 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
+    metaTitle: "Parent solo à Tassin-la-Demi-Lune 2026 : seuil 4 050 €",
+    metaDesc:
+      "Fit 6,1/10, T3 1 410 €, seuil 4 050 € par mois, 907 € qui manquent au ménage médian local : le détail par axe.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Tassin-la-Demi-Lune sort à 6,1/10 au composite parent solo, dans un palier de treize communes à 6,1/10 que rien dans notre barème ne départage (Orléans et Chambéry ont déjà leur guide, les autres sont traitées dans le même lot). Le détail : coût de la vie 4,1/10, transports 6,4/10, écoles 7,7/10, sécurité 6,5/10 (source : notre fiche ville). Le T3 est à 1 410 € et le mètre carré à l'achat à 5 000 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 4 050 € par mois. La commune compte 22 819 habitants au recensement 2022 contre 22 356 en 2016 et 19 868 en 2011 (source : Insee, recensements). Le dossier Tassin-la-Demi-Lune tient en une phrase : écoles comme point fort (7,7/10), coût de la vie comme point faible (4,1/10). Tassin-la-Demi-Lune partage sa note avec des communes dont le T3 va de 650 € à 2 000 € : ce guide dit ce que cette égalité de note cache, et ce que cela change pour un parent solo.",
+    sections: [
+      {
+        heading: "Un seuil à 4 050 € : 2 axes au-dessus de la médiane, 1 en dessous",
+        body: "Le revenu net minimum de 4 050 € par mois vient de la règle des 35 % appliquée au T3 de 1 410 € : le coût de la vie étant sous 5, le moteur n'utilise pas la règle des 33 % mais la version relâchée, réservée aux marchés tendus. Ce seuil est le 12e plus bas du palier de treize communes (1 sont plus hautes), et 850 € au-dessus de la médiane des 415 communes classées (3 200 €). Le coût de la vie Tassin-la-Demi-Lune est noté 4,1/10, contre une médiane à 5,2, soit 1,1 points de moins. C'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Si cet axe se trouvait à la médiane, le composite gagnerait environ 0,3 point : la note de 6,1 est un résultat obtenu avec un handicap sur le poste qui compte le plus. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un loyer rapporté à un revenu, pas un budget complet. Dans le palier, les T3 vont de 650 € (Montluçon) à 2 000 € (Boulogne-Billancourt) ; Tassin-la-Demi-Lune est à 1 410 €.",
+      },
+      {
+        heading: "907 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 29 010 € par an et par unité de consommation, contre 21 660 € pour la médiane des communes classées : 7 350 € de plus, soit 34 % (source : Insee, Filosofi 2021). Le taux de pauvreté est de 8 %, contre 19 % pour la médiane. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 3 143 € par mois, contre un seuil de 4 050 € : il manque 907 €. Le ménage médian local couvre ainsi 78 % du seuil. Dans le palier, la couverture va de 67 % (Boulogne-Billancourt) à 108 % (Montluçon). Deux précisions de méthode. Le niveau de vie est un revenu disponible, prestations comprises, calculé par unité de consommation : ce n'est pas un salaire, et un parent solo qui gagne la médiane locale n'a pas forcément un revenu égal à celle-ci. Et le millésime est 2021, alors que les loyers sont de 2026 : le chiffre de couverture est surestimé en valeur absolue, et seule la comparaison entre communes tient. Ce calcul ne dit rien de l'aide au logement ni du soutien familial, qui peuvent changer le résultat d'un dossier individuel.",
+      },
+      {
+        heading: "Sécurité 6,5/10, écoles 7,7/10, transports 6,4/10 : ce que chaque chiffre mesure",
+        body: "Sécurité : 6,5/10, contre une médiane à 5 (1,5 points de plus). Écoles : 7,7/10, contre une médiane à 5,5 (2,2 points de plus). Transports : 6,4/10, contre une médiane à 6,4 (à la médiane). Il faut dire ce que chaque chiffre mesure, parce que ce sont les axes les plus faciles à surinterpréter. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni la qualité du travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue, et il ne prédit rien sur un parcours individuel. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane des 415 communes classées : écoles et sécurité. En dessous : coût de la vie.",
+      },
+      {
+        heading: "3,6 points d'amplitude : un profil de contrastes, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 7,7) et le pire (coût de la vie, 4,1) vaut 3,6 points, contre une médiane à 2,7 sur les 415 communes classées. Dans le palier de treize communes, Tassin-la-Demi-Lune est 3e sur ce critère, devant 10 communes du palier (de 3,4 à 1,1), derrière Boulogne-Billancourt à 6,8, Montluçon à 3,8. Une même note de 6,1 recouvre donc des profils très différents : ici, un contraste net entre ce qui fonctionne et ce qui coince. Il faut dire la limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, l'axe coût de la vie est à 4,1, sous ce seuil : le composite lisse un point que le score global du site pénaliserait. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Tassin-la-Demi-Lune face à ses voisines de la Métropole de Lyon",
+        body: "Le classement retient 14 communes de la Métropole de Lyon, dont Tassin-la-Demi-Lune. Parmi les 13 autres, 2 ont un fit plus élevé que 6,1/10, 0 est au même fit et 11 ont un fit plus bas. Les voisines les mieux notées : Villeurbanne (fit 6,8, T3 1 150 €) ; Lyon (fit 6,6, T3 1 380 €) ; Sainte-Foy-lès-Lyon (fit 5,9, T3 1 310 €) ; Caluire-et-Cuire (fit 5,8, T3 1 450 €). 12 des 13 autres communes ont un T3 moins cher que 1 410 €. La médiane des T3 de ces communes, Tassin-la-Demi-Lune comprise, est de 1 210 €. Sur la région Auvergne-Rhône-Alpes, 39 communes sont classées ; 36 ont un T3 moins cher que Tassin-la-Demi-Lune. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 24,2 % de 60 ans et plus",
+        body: "Tassin-la-Demi-Lune comptait 19 868 habitants en 2011, 22 356 en 2016 et 22 819 en 2022 (source : Insee, recensements), soit +14,9 % sur onze ans. Depuis 2016, la variation est de +2,1 % (+463 habitants). Le recensement compte des résidents, et une commune peut perdre des habitants dans ses limites tout en restant attractive dans son agglomération, ou l'inverse : ce chiffre ne dit rien de l'attrait de la ville. La part des 60 ans et plus est de 24,2 %, contre une médiane à 23,3 % sur les communes classées (0,9 point de plus), et les moins de 30 ans pèsent 37,3 %, contre 37,7 % (0,4 point de moins). Ces mesures ne figurent dans aucun des quatre axes du composite. Nous ne tirons aucune causalité de ces chiffres : ils indiquent un point à vérifier, pas une trajectoire, et nos données ne mesurent ni les ouvertures ni les fermetures de classes. Un parent solo qui prévoit de rester plusieurs années gagne tout de même à demander à la mairie l'évolution récente des effectifs scolaires : c'est la donnée locale qui répond à la question, et nous ne l'avons pas. Pour un achat, 65 m² au repère de 325 000 € représentent environ 8,6 années du revenu disponible d'un ménage monoparental médian local (37 713 € par an), avec la réserve que ce repère est un repère éditorial et non une médiane de transactions.",
+      },
+      {
+        heading: "Le verdict : pour qui Tassin-la-Demi-Lune fonctionne",
+        body: "Tassin-la-Demi-Lune fonctionne à partir de 4 050 € net par mois, un seuil qui est le 12e plus bas du palier de treize communes et 850 € au-dessus de la médiane du classement. Elle fonctionne pour un parent solo dont le revenu est déjà assis, qui privilégie écoles (7,7/10) et sécurité (6,5/10). Elle fonctionne moins bien pour un parent solo au niveau de vie médian local, à qui il manque 907 € : le seuil suppose un revenu au-dessus de celui du ménage médian du lieu. Elle fonctionne mal pour qui cherche coût de la vie : coût de la vie à 4,1/10, sous la médiane. Deux points à garder en tête. Le premier tient à la mesure : le fit de 6,1 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement. Le second est la concurrence du palier : à note égale, Tassin-la-Demi-Lune se compare à des communes dont le T3 va de 650 € à 2 000 €, et le détail axe par axe est sur /villes/tassin-la-demi-lune/parent-solo.",
+      },
+    ],
+    relatedCities: ["tassin-la-demi-lune","villeurbanne","lyon","sainte-foy-les-lyon","caluire-et-cuire"],
+    relatedGuides: [
+      "parent-solo-a-villeurbanne-2026",
+      "parent-solo-a-lyon-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Tassin-la-Demi-Lune 2026","monoparental Métropole de Lyon","T3 Tassin-la-Demi-Lune budget","sécurité et écoles parent seul","famille monoparentale Auvergne-Rhône-Alpes"],
+  },
+  {
     slug: "parent-solo-a-rambouillet-2026",
     title: "Parent solo à Rambouillet en 2026 : des axes forts partout sauf le coût de la vie, un seuil à 4 050 € et 27,6 % de seniors",
     metaTitle: "Parent solo à Rambouillet 2026 : seuil 4 050 €",

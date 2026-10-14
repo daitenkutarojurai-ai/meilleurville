@@ -9321,6 +9321,61 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-quimper-2026",
+      "title": "Parent solo à Quimper en 2026 : un seuil à 2 850 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-lorient-2026",
+      "title": "Parent solo à Lorient en 2026 : un seuil à 2 750 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-montlucon-2026",
+      "title": "Parent solo à Montluçon en 2026 : un seuil à 1 950 €, 2 axes sur 4 au-dessus de la médiane et 3,8 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-niort-2026",
+      "title": "Parent solo à Niort en 2026 : un seuil à 2 600 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-bourg-en-bresse-2026",
+      "title": "Parent solo à Bourg-en-Bresse en 2026 : un seuil à 2 550 €, quatre axes au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-arras-2026",
+      "title": "Parent solo à Arras en 2026 : un seuil à 2 200 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-selestat-2026",
+      "title": "Parent solo à Sélestat en 2026 : un seuil à 3 050 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-boulogne-billancourt-2026",
+      "title": "Parent solo à Boulogne-Billancourt en 2026 : un seuil à 5 700 €, 3 axes sur 4 au-dessus de la médiane et 6,8 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-orange-2026",
+      "title": "Parent solo à Orange en 2026 : un seuil à 2 800 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-aubagne-2026",
+      "title": "Parent solo à Aubagne en 2026 : un seuil à 3 350 €, 3 axes sur 4 au-dessus de la médiane et 3,4 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-tassin-la-demi-lune-2026",
+      "title": "Parent solo à Tassin-la-Demi-Lune en 2026 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "parent-solo-a-rambouillet-2026",
       "title": "Parent solo à Rambouillet en 2026 : des axes forts partout sauf le coût de la vie, un seuil à 4 050 € et 27,6 % de seniors",
       "emoji": "🧑‍🍼"
@@ -9868,6 +9923,11 @@
       "count": 14
     },
     {
+      "slug": "famille-monoparentale-ile-de-france",
+      "label": "famille monoparentale Île-de-France",
+      "count": 13
+    },
+    {
       "slug": "grenoble",
       "label": "Grenoble",
       "count": 13
@@ -9883,8 +9943,13 @@
       "count": 13
     },
     {
-      "slug": "famille-monoparentale-ile-de-france",
-      "label": "famille monoparentale Île-de-France",
+      "slug": "securite-et-ecoles-parent-seul",
+      "label": "sécurité et écoles parent seul",
+      "count": 13
+    },
+    {
+      "slug": "famille-monoparentale-auvergne-rhone-alpes",
+      "label": "famille monoparentale Auvergne-Rhône-Alpes",
       "count": 12
     },
     {
@@ -9905,6 +9970,11 @@
     {
       "slug": "budget",
       "label": "budget",
+      "count": 11
+    },
+    {
+      "slug": "famille-monoparentale-hauts-de-france",
+      "label": "famille monoparentale Hauts-de-France",
       "count": 11
     },
     {
@@ -9938,8 +10008,13 @@
       "count": 10
     },
     {
-      "slug": "famille-monoparentale-hauts-de-france",
-      "label": "famille monoparentale Hauts-de-France",
+      "slug": "famille-monoparentale-grand-est",
+      "label": "famille monoparentale Grand Est",
+      "count": 10
+    },
+    {
+      "slug": "famille-monoparentale-nouvelle-aquitaine",
+      "label": "famille monoparentale Nouvelle-Aquitaine",
       "count": 10
     },
     {
@@ -10008,23 +10083,8 @@
       "count": 9
     },
     {
-      "slug": "famille-monoparentale-auvergne-rhone-alpes",
-      "label": "famille monoparentale Auvergne-Rhône-Alpes",
-      "count": 9
-    },
-    {
       "slug": "famille-monoparentale-bourgogne-franche-comte",
       "label": "famille monoparentale Bourgogne-Franche-Comté",
-      "count": 9
-    },
-    {
-      "slug": "famille-monoparentale-grand-est",
-      "label": "famille monoparentale Grand Est",
-      "count": 9
-    },
-    {
-      "slug": "famille-monoparentale-nouvelle-aquitaine",
-      "label": "famille monoparentale Nouvelle-Aquitaine",
       "count": 9
     },
     {
@@ -10278,6 +10338,11 @@
       "count": 6
     },
     {
+      "slug": "monoparental-hauts-de-seine",
+      "label": "monoparental Hauts-de-Seine",
+      "count": 6
+    },
+    {
       "slug": "mulhouse",
       "label": "Mulhouse",
       "count": 6
@@ -10365,11 +10430,6 @@
     {
       "slug": "loyer-bas-parent-seul",
       "label": "loyer bas parent seul",
-      "count": 5
-    },
-    {
-      "slug": "monoparental-hauts-de-seine",
-      "label": "monoparental Hauts-de-Seine",
       "count": 5
     },
     {
@@ -10485,6 +10545,11 @@
     {
       "slug": "espaces-verts",
       "label": "espaces verts",
+      "count": 4
+    },
+    {
+      "slug": "famille-monoparentale-bretagne",
+      "label": "famille monoparentale Bretagne",
       "count": 4
     },
     {
