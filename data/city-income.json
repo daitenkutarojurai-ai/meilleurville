@@ -1944,9 +1944,17 @@
     "medianIncome": 24370,
     "povertyRate": 16
   },
+  "sainte-marie-reunion": {
+    "povertyRate": 30,
+    "medianIncome": 19110
+  },
   "sainte-maxime": {
     "medianIncome": 23540,
     "povertyRate": 15
+  },
+  "sainte-suzanne-reunion": {
+    "povertyRate": 34,
+    "medianIncome": 17720
   },
   "saintes": {
     "povertyRate": 17,

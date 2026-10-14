@@ -10331,6 +10331,27 @@
       "height": 300
     }
   },
+  "sainte-marie-reunion": {
+    "insee": "97418",
+    "qid": "Q662942",
+    "file": "Hôtel-de-ville-de-Sainte-Marie.JPG",
+    "author": "Thierry Caro",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Thierry_Caro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel-de-ville-de-Sainte-Marie.JPG",
+    "color": "#f8f8f8",
+    "hero": {
+      "src": "/photos/villes/sainte-marie-reunion-1024.690f10d4.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/sainte-marie-reunion-480.e8eb8c3e.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "sainte-maxime": {
     "insee": "83115",
     "qid": "Q693017",
@@ -10348,6 +10369,27 @@
     },
     "card": {
       "src": "/photos/villes/sainte-maxime-480.fa770199.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
+  "sainte-suzanne-reunion": {
+    "insee": "97420",
+    "qid": "Q1757048",
+    "file": "Domaine du Grand Hazier.jpg",
+    "author": "Pierreangy",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Pierreangy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Domaine_du_Grand_Hazier.jpg",
+    "color": "#181818",
+    "hero": {
+      "src": "/photos/villes/sainte-suzanne-reunion-1024.8fef0c70.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/sainte-suzanne-reunion-480.31a556b9.webp",
       "width": 480,
       "height": 300
     }

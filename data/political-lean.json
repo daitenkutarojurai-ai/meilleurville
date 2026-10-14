@@ -20648,5 +20648,75 @@
 "abstentionPct": 28.4,
 "blancsNulsPct": 1.8
 }
+},
+"sainte-marie-reunion": {
+"lean": "gauche",
+"topPct": 43.3,
+"blocs": {
+"gauche": 43.3,
+"centre": 19.3,
+"droite": 4.5,
+"extreme_droite": 32.9
+},
+"leanScore": -5.9,
+"insee": "97418",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.9,
+"roussel": 0.8,
+"melenchon": 36.6,
+"hidalgo": 1.7,
+"jadot": 2.5,
+"poutou": 0.7,
+"macron": 19.3,
+"pecresse": 3.3,
+"lassalle": 1.3,
+"lepen": 26.8,
+"zemmour": 3.8,
+"dupont-aignan": 2.3
+},
+"topCand": "melenchon",
+"topCandPct": 36.6,
+"turnout": {
+"inscrits": 26539,
+"exprimes": 13258,
+"abstentionPct": 48.2,
+"blancsNulsPct": 3.6
+}
+},
+"sainte-suzanne-reunion": {
+"lean": "gauche",
+"topPct": 47.7,
+"blocs": {
+"gauche": 47.7,
+"centre": 16.2,
+"droite": 4.0,
+"extreme_droite": 32.1
+},
+"leanScore": -11.6,
+"insee": "97420",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 1.2,
+"roussel": 5.2,
+"melenchon": 37.3,
+"hidalgo": 1.4,
+"jadot": 1.7,
+"poutou": 0.9,
+"macron": 16.2,
+"pecresse": 2.6,
+"lassalle": 1.4,
+"lepen": 26.8,
+"zemmour": 3.0,
+"dupont-aignan": 2.2
+},
+"topCand": "melenchon",
+"topCandPct": 37.3,
+"turnout": {
+"inscrits": 18846,
+"exprimes": 9117,
+"abstentionPct": 49.8,
+"blancsNulsPct": 3.7
+}
 }
 }

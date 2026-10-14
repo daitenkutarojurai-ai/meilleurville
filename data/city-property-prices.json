@@ -9621,6 +9621,26 @@
     ],
     "queryVersion": 1
   },
+  "sainte-marie-reunion": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 137,
+      "medianM2": 2306,
+      "p25M2": 1903,
+      "p75M2": 2814
+    },
+    "house": {
+      "sales": 170,
+      "medianM2": 2775,
+      "p25M2": 2002,
+      "p75M2": 3576
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "sainte-maxime": {
     "coverage": "dvf",
     "apartment": {
@@ -9634,6 +9654,26 @@
       "medianM2": 7500,
       "p25M2": 5933,
       "p75M2": 9934
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
+  "sainte-suzanne-reunion": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 27,
+      "medianM2": 2400,
+      "p25M2": 2090,
+      "p75M2": 2639
+    },
+    "house": {
+      "sales": 89,
+      "medianM2": 2230,
+      "p25M2": 1520,
+      "p75M2": 3056
     },
     "years": [
       2024,

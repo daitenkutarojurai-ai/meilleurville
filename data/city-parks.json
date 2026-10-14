@@ -91850,6 +91850,27 @@
       }
     ]
   },
+  "sainte-marie-reunion": {
+    "crawledAt": "2026-10-14",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1366531140",
+        "name": "Parc de Bois Madame",
+        "kind": "park",
+        "lat": -20.89539,
+        "lng": 55.54013,
+        "areaM2": 55927,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      }
+    ]
+  },
   "sainte-maxime": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -91890,6 +91911,27 @@
         "lng": 6.6795,
         "areaM2": 10678,
         "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "sainte-suzanne-reunion": {
+    "crawledAt": "2026-10-14",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w452067879",
+        "name": "Parc du Bocage",
+        "kind": "park",
+        "lat": -20.90849,
+        "lng": 55.61018,
+        "areaM2": 23551,
+        "playground": true,
         "wheelchair": null,
         "dog": null,
         "drinkingWater": false,

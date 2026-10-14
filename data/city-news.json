@@ -1,6 +1,6 @@
 {
   "meta": {
-    "refreshedAt": "2026-10-13",
+    "refreshedAt": "2026-10-14",
     "queryVersion": 3,
     "windowMonths": 12,
     "maxEntriesPerCity": 8
@@ -40323,6 +40323,88 @@
         }
       ]
     },
+    "sainte-marie-reunion": {
+      "refreshedAt": "2026-10-14",
+      "queryVersion": 3,
+      "sources": [
+        "bodacc",
+        "georisques"
+      ],
+      "entries": [
+        {
+          "date": "2026-10-01",
+          "kind": "entreprises",
+          "title": "4 créations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "4 business registrations published in the BODACC in October 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-10-01",
+          "kind": "procedures",
+          "title": "11 procédures collectives publiées au BODACC en octobre 2026",
+          "titleEn": "11 insolvency proceedings published in the BODACC in October 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "entreprises",
+          "title": "31 créations d'entreprises publiées au BODACC en septembre 2026",
+          "titleEn": "31 business registrations published in the BODACC in September 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "procedures",
+          "title": "11 procédures collectives publiées au BODACC en septembre 2026",
+          "titleEn": "11 insolvency proceedings published in the BODACC in September 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "radiations",
+          "title": "12 radiations d'entreprises publiées au BODACC en septembre 2026",
+          "titleEn": "12 business deregistrations published in the BODACC in September 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-08-01",
+          "kind": "entreprises",
+          "title": "49 créations d'entreprises publiées au BODACC en août 2026",
+          "titleEn": "49 business registrations published in the BODACC in August 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-08-01",
+          "kind": "procedures",
+          "title": "3 procédures collectives publiées au BODACC en août 2026",
+          "titleEn": "3 insolvency proceedings published in the BODACC in August 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-08-01",
+          "kind": "radiations",
+          "title": "9 radiations d'entreprises publiées au BODACC en août 2026",
+          "titleEn": "9 business deregistrations published in the BODACC in August 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        }
+      ]
+    },
     "sainte-maxime": {
       "refreshedAt": "2026-10-10",
       "queryVersion": 3,
@@ -40399,6 +40481,88 @@
           "kind": "procedures",
           "title": "2 procédures collectives publiées au BODACC en août 2026",
           "titleEn": "2 insolvency proceedings published in the BODACC in August 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        }
+      ]
+    },
+    "sainte-suzanne-reunion": {
+      "refreshedAt": "2026-10-14",
+      "queryVersion": 3,
+      "sources": [
+        "bodacc",
+        "georisques"
+      ],
+      "entries": [
+        {
+          "date": "2026-10-01",
+          "kind": "entreprises",
+          "title": "3 créations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "3 business registrations published in the BODACC in October 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-10-01",
+          "kind": "procedures",
+          "title": "5 procédures collectives publiées au BODACC en octobre 2026",
+          "titleEn": "5 insolvency proceedings published in the BODACC in October 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "entreprises",
+          "title": "19 créations d'entreprises publiées au BODACC en septembre 2026",
+          "titleEn": "19 business registrations published in the BODACC in September 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "procedures",
+          "title": "12 procédures collectives publiées au BODACC en septembre 2026",
+          "titleEn": "12 insolvency proceedings published in the BODACC in September 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "radiations",
+          "title": "9 radiations d'entreprises publiées au BODACC en septembre 2026",
+          "titleEn": "9 business deregistrations published in the BODACC in September 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-08-01",
+          "kind": "entreprises",
+          "title": "15 créations d'entreprises publiées au BODACC en août 2026",
+          "titleEn": "15 business registrations published in the BODACC in August 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-08-01",
+          "kind": "procedures",
+          "title": "3 procédures collectives publiées au BODACC en août 2026",
+          "titleEn": "3 insolvency proceedings published in the BODACC in August 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-08-01",
+          "kind": "radiations",
+          "title": "8 radiations d'entreprises publiées au BODACC en août 2026",
+          "titleEn": "8 business deregistrations published in the BODACC in August 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"

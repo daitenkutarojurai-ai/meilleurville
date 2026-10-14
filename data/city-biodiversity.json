@@ -77591,6 +77591,163 @@
     ],
     "accessedAt": "2026-09-10T14:27:25.302Z"
   },
+  "sainte-marie-reunion": {
+    "crawledAt": "2026-10-14",
+    "source": "gbif",
+    "queryVersion": 3,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 19230,
+    "observers": 334,
+    "observersTruncated": false,
+    "datasets": 109,
+    "datasetsTruncated": false,
+    "species": 1303,
+    "speciesTruncated": false,
+    "rarefiedN": 500,
+    "rarefied": 190.2,
+    "rarefiedExact": true,
+    "rarefiedUpper": 190.2,
+    "groups": {
+      "birds": 69,
+      "mammals": 11,
+      "insects": 208,
+      "amphibians": 2,
+      "reptiles": 15,
+      "plants": 762
+    },
+    "groupsTruncated": [],
+    "groupsUnresolved": [],
+    "threatenedSpecies": 38,
+    "threatenedSpeciesTruncated": false,
+    "topSpecies": [
+      {
+        "key": 1651430,
+        "infoVersion": 3,
+        "scientificName": "Aedes albopictus",
+        "vernacularFr": "Moustique tigre",
+        "vernacularEn": "Aedes mosquito",
+        "kingdom": "Animalia",
+        "class": "Insecta",
+        "count": 3838
+      },
+      {
+        "key": 7440669,
+        "infoVersion": 3,
+        "scientificName": "Mormopterus francoismoutoui",
+        "vernacularFr": "Molosse de La Réunion",
+        "vernacularEn": "Reunion Free-tailed Bat",
+        "kingdom": "Animalia",
+        "class": "Mammalia",
+        "count": 798
+      },
+      {
+        "key": 5843953,
+        "infoVersion": 3,
+        "scientificName": "Puffinus bailloni",
+        "vernacularFr": "Puffin de Baillon",
+        "vernacularEn": "Tropical Shearwater",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 669
+      },
+      {
+        "key": 5229177,
+        "infoVersion": 3,
+        "scientificName": "Circus maillardi",
+        "vernacularFr": "Busard de Maillard",
+        "vernacularEn": "Reunion Marsh-harrier",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 526
+      },
+      {
+        "key": 2486151,
+        "infoVersion": 3,
+        "scientificName": "Pycnonotus jocosus",
+        "vernacularFr": "Bulbul orphée",
+        "vernacularEn": "Red whiskered bulbul",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 437
+      },
+      {
+        "key": 2494077,
+        "infoVersion": 3,
+        "scientificName": "Foudia madagascariensis",
+        "vernacularFr": "Foudi malgache",
+        "vernacularEn": "Red Fody",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 422
+      },
+      {
+        "key": 2481475,
+        "infoVersion": 3,
+        "scientificName": "Pterodroma baraui",
+        "vernacularFr": "Diablotin de Barau",
+        "vernacularEn": "Barau's Petrel",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 403
+      },
+      {
+        "key": 2489005,
+        "infoVersion": 3,
+        "scientificName": "Acridotheres tristis",
+        "vernacularFr": "Martin triste",
+        "vernacularEn": "Bhat shalik",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 402
+      },
+      {
+        "key": 2489364,
+        "infoVersion": 3,
+        "scientificName": "Zosterops borbonicus",
+        "vernacularFr": "Oiseau lunettes gris, Oiseau blanc, Zosterops de Bourbon, Oiseau-lunettes de Bourbon",
+        "vernacularEn": "Reunion Grey White-eye",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 332
+      },
+      {
+        "key": 5231190,
+        "infoVersion": 3,
+        "scientificName": "Passer domesticus",
+        "vernacularFr": null,
+        "vernacularEn": "Common House Sparrow",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 272
+      },
+      {
+        "key": 2477205,
+        "infoVersion": 3,
+        "scientificName": "Aerodramus francicus",
+        "vernacularFr": "Salangane des Mascareignes",
+        "vernacularEn": "Mascarene Swiftlet",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 265
+      },
+      {
+        "key": 2480824,
+        "infoVersion": 3,
+        "scientificName": "Butorides striata",
+        "vernacularFr": "Héron strié",
+        "vernacularEn": "Green-backed Heron",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 221
+      }
+    ],
+    "accessedAt": "2026-10-14T07:46:39.257Z"
+  },
   "sainte-maxime": {
     "crawledAt": "2026-09-12",
     "source": "gbif",
@@ -77747,6 +77904,163 @@
       }
     ],
     "accessedAt": "2026-09-12T14:44:23.480Z"
+  },
+  "sainte-suzanne-reunion": {
+    "crawledAt": "2026-10-14",
+    "source": "gbif",
+    "queryVersion": 3,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 19186,
+    "observers": 276,
+    "observersTruncated": false,
+    "datasets": 100,
+    "datasetsTruncated": false,
+    "species": 1264,
+    "speciesTruncated": false,
+    "rarefiedN": 500,
+    "rarefied": 190.4,
+    "rarefiedExact": true,
+    "rarefiedUpper": 190.4,
+    "groups": {
+      "birds": 65,
+      "mammals": 11,
+      "insects": 164,
+      "amphibians": 2,
+      "reptiles": 16,
+      "plants": 717
+    },
+    "groupsTruncated": [],
+    "groupsUnresolved": [],
+    "threatenedSpecies": 33,
+    "threatenedSpeciesTruncated": false,
+    "topSpecies": [
+      {
+        "key": 1651430,
+        "infoVersion": 3,
+        "scientificName": "Aedes albopictus",
+        "vernacularFr": "Moustique tigre",
+        "vernacularEn": "Aedes mosquito",
+        "kingdom": "Animalia",
+        "class": "Insecta",
+        "count": 3836
+      },
+      {
+        "key": 7440669,
+        "infoVersion": 3,
+        "scientificName": "Mormopterus francoismoutoui",
+        "vernacularFr": "Molosse de La Réunion",
+        "vernacularEn": "Reunion Free-tailed Bat",
+        "kingdom": "Animalia",
+        "class": "Mammalia",
+        "count": 698
+      },
+      {
+        "key": 5843953,
+        "infoVersion": 3,
+        "scientificName": "Puffinus bailloni",
+        "vernacularFr": "Puffin de Baillon",
+        "vernacularEn": "Tropical Shearwater",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 651
+      },
+      {
+        "key": 2486151,
+        "infoVersion": 3,
+        "scientificName": "Pycnonotus jocosus",
+        "vernacularFr": "Bulbul orphée",
+        "vernacularEn": "Red whiskered bulbul",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 575
+      },
+      {
+        "key": 2494077,
+        "infoVersion": 3,
+        "scientificName": "Foudia madagascariensis",
+        "vernacularFr": "Foudi malgache",
+        "vernacularEn": "Red Fody",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 559
+      },
+      {
+        "key": 2489005,
+        "infoVersion": 3,
+        "scientificName": "Acridotheres tristis",
+        "vernacularFr": "Martin triste",
+        "vernacularEn": "Bhat shalik",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 458
+      },
+      {
+        "key": 2489364,
+        "infoVersion": 3,
+        "scientificName": "Zosterops borbonicus",
+        "vernacularFr": "Oiseau lunettes gris, Oiseau blanc, Zosterops de Bourbon, Oiseau-lunettes de Bourbon",
+        "vernacularEn": "Reunion Grey White-eye",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 353
+      },
+      {
+        "key": 5229177,
+        "infoVersion": 3,
+        "scientificName": "Circus maillardi",
+        "vernacularFr": "Busard de Maillard",
+        "vernacularEn": "Reunion Marsh-harrier",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 319
+      },
+      {
+        "key": 5231190,
+        "infoVersion": 3,
+        "scientificName": "Passer domesticus",
+        "vernacularFr": null,
+        "vernacularEn": "Common House Sparrow",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 297
+      },
+      {
+        "key": 5788470,
+        "infoVersion": 3,
+        "scientificName": "Nesoenas picturatus",
+        "vernacularFr": "Pigeon de Madagascar",
+        "vernacularEn": "Madagascar Turtle-dove",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 264
+      },
+      {
+        "key": 2495486,
+        "infoVersion": 3,
+        "scientificName": "Geopelia striata",
+        "vernacularFr": "Columbine zébrée",
+        "vernacularEn": "Zebra Dove",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 258
+      },
+      {
+        "key": 2494058,
+        "infoVersion": 3,
+        "scientificName": "Ploceus cucullatus",
+        "vernacularFr": "Malimbe gendarme",
+        "vernacularEn": "Village Weaver",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 207
+      }
+    ],
+    "accessedAt": "2026-10-14T07:47:01.429Z"
   },
   "saintes": {
     "crawledAt": "2026-09-11",

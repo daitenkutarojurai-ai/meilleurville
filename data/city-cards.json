@@ -2951,11 +2951,23 @@
     "a": "Jcognard",
     "l": "Public domain"
   },
+  "sainte-marie-reunion": {
+    "h": "e8eb8c3e",
+    "c": "#f8f8f8",
+    "a": "Thierry Caro",
+    "l": "CC BY-SA 4.0"
+  },
   "sainte-maxime": {
     "h": "fa770199",
     "c": "#080808",
     "a": "Patricia.fidi",
     "l": "Public domain"
+  },
+  "sainte-suzanne-reunion": {
+    "h": "31a556b9",
+    "c": "#181818",
+    "a": "Pierreangy",
+    "l": "CC BY-SA 3.0"
   },
   "saintes": {
     "h": "96d26563",
