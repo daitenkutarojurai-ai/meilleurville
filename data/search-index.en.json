@@ -8794,18 +8794,48 @@
       "slug": "things-to-do-in-saint-claude-2026",
       "title": "Things to do in Saint-Claude: the pipe capital of France, high in the Jura",
       "emoji": "🪈"
+    },
+    {
+      "slug": "things-to-do-in-montbard-2026",
+      "title": "Things to do in Montbard: Buffon's hill above the Burgundy canal",
+      "emoji": "🦉"
+    },
+    {
+      "slug": "things-to-do-in-sainte-maxime-2026",
+      "title": "Things to do in Sainte-Maxime: the quiet shore facing Saint-Tropez",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "things-to-do-in-mandelieu-la-napoule-2026",
+      "title": "Things to do in Mandelieu-la-Napoule: an American sculptor's castle next to Cannes",
+      "emoji": "🌼"
+    },
+    {
+      "slug": "things-to-do-in-berck-2026",
+      "title": "Things to do in Berck: a vast beach and a town built around a seaside hospital",
+      "emoji": "🪁"
+    },
+    {
+      "slug": "things-to-do-in-florac-trois-rivieres-2026",
+      "title": "Things to do in Florac-Trois-Rivières: the gateway to the Cévennes national park",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "things-to-do-in-sallanches-2026",
+      "title": "Things to do in Sallanches: a Sardinian-style town facing Mont Blanc",
+      "emoji": "🏔️"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 301
+      "count": 307
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 295
+      "count": 301
     },
     {
       "slug": "moving-to-france",
@@ -8825,12 +8855,12 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 68
+      "count": 69
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 66
+      "count": 67
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -8853,6 +8883,11 @@
       "count": 57
     },
     {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 56
+    },
+    {
       "slug": "single-supplement",
       "label": "single supplement",
       "count": 56
@@ -8866,11 +8901,6 @@
       "slug": "travelling-alone-in-france",
       "label": "travelling alone in france",
       "count": 56
-    },
-    {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 55
     },
     {
       "slug": "buying-property-france",
@@ -8903,6 +8933,11 @@
       "count": 38
     },
     {
+      "slug": "provence",
+      "label": "provence",
+      "count": 35
+    },
+    {
       "slug": "normandy",
       "label": "normandy",
       "count": 34
@@ -8911,11 +8946,6 @@
       "slug": "working-in-france",
       "label": "working in france",
       "count": 34
-    },
-    {
-      "slug": "provence",
-      "label": "provence",
-      "count": 33
     },
     {
       "slug": "job-market-france",
@@ -8973,14 +9003,14 @@
       "count": 21
     },
     {
-      "slug": "reunion",
-      "label": "reunion",
+      "slug": "burgundy",
+      "label": "burgundy",
       "count": 16
     },
     {
-      "slug": "burgundy",
-      "label": "burgundy",
-      "count": 15
+      "slug": "reunion",
+      "label": "reunion",
+      "count": 16
     },
     {
       "slug": "cycling",

@@ -46025,6 +46025,306 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["saint-claude", "lons-le-saunier", "pontarlier"],
     tags: ["things to do in saint-claude", "saint-claude", "travel", "city guide", "jura"],
   },
+  {
+    slug: "things-to-do-in-montbard-2026",
+    title: "Things to do in Montbard: Buffon's hill above the Burgundy canal",
+    metaTitle: "Things to Do in Montbard: Buffon's Park 2026",
+    metaDesc:
+      "Buffon's terraced park, his study in the Saint-Louis tower, the Burgundy canal towpath and Fontenay abbey a few kilometres away: what Montbard offers.",
+    category: "city-guide",
+    emoji: "🦉",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Montbard had 4,751 residents at the 2022 census, down from 5,476 in 2011. It is the town where the naturalist Buffon was born in 1707 and where he wrote most of his Natural History, in a terraced park he laid out himself on the site of the dukes of Burgundy's castle. The Burgundy canal runs below the hill. This guide says what can be visited in Montbard itself and what belongs to neighbouring communes, which you reach by car.",
+    sections: [
+      {
+        heading: "Buffon's park and its terraces",
+        body: "The park covers the hill of the vanished ducal castle. Buffon shaped it into terraces in the eighteenth century, and it is the first thing to see: you walk up, then walk back down looking across the valley of the Brenne. The terraces can be walked freely. The buildings inside the park are visited on the terms posted by the site, so check before you come.",
+      },
+      {
+        heading: "The Saint-Louis tower and the study",
+        body: "This is where Buffon wrote, in a study he had remodelled and where he received visitors, Diderot among them according to local sources. A visit is the best way to see how an Enlightenment naturalist organised his day. The study can only be seen on the guided visits offered, and the days they run change.",
+      },
+      {
+        heading: "The Aubespin tower",
+        body: "A remnant of the medieval castle, the Aubespin tower looks over Montbard and the Brenne valley, where the canal runs. The climb needs proper footwear and access depends on whether the site is open that day. This guide does not promise the view, it flags it.",
+      },
+      {
+        heading: "The museums",
+        body: "Montbard keeps Buffon's memory in its museums, with natural history and painting collections. If you are short of time, the park and the study come first. Opening hours and rooms open should be checked with the town.",
+      },
+      {
+        heading: "The Burgundy canal on foot or by bike",
+        body: "The canal crosses the Brenne valley and Montbard sits on its course. The towpath suits an easy walk or a stretch by bike with no notable climb. It is the simplest outing once the park has been enough.",
+      },
+      {
+        heading: "Buffon's Great Forge, and Fontenay abbey: both in neighbouring communes",
+        body: "The forge Buffon had built in the eighteenth century is now listed as industrial heritage. It stands in the hamlet of Buffon, which is a neighbouring commune and not a district of Montbard, and it is visited on organised outings with limited slots, so enquire first. The Cistercian abbey of Fontenay, a UNESCO World Heritage site, is at Marmagne, a few kilometres away, not in Montbard. It deserves a full visit and combines well with Buffon's park in one day. Prices and hours are for the abbey to confirm.",
+      },
+      {
+        heading: "Alesia and Bussy-Rabutin: half-day trips from Montbard",
+        body: "Alesia, where Caesar besieged Vercingetorix, is at Alise-Sainte-Reine, and the Bussy-Rabutin chateau is at Bussy-le-Grand. Both are neighbouring communes, and neither fits into the same morning as Montbard. Picking one of the two gives a better day than trying to link everything. The nearby town of Semur-en-Auxois has its own guide.",
+      },
+      {
+        heading: "A working town, and how to get here",
+        body: "Montbard is as much a town of steel and tubes as of science, and the plant beside the centre is a working site, not an attraction. Do not go looking for it as a monument: you see the town as it works, with its station and shopping streets. Montbard lies on the Paris to Dijon rail line and on the road axis of the Auxois, and services should be checked before you leave. Half a day covers the park and the study, a full day adds Fontenay or the canal.",
+      },
+    ],
+    relatedCities: ["montbard", "semur-en-auxois", "dijon", "beaune"],
+    tags: ["things to do in montbard", "montbard", "travel", "city guide", "burgundy"],
+  },
+  {
+    slug: "things-to-do-in-sainte-maxime-2026",
+    title: "Things to do in Sainte-Maxime: the quiet shore facing Saint-Tropez",
+    metaTitle: "Things to Do in Sainte-Maxime 2026",
+    metaDesc:
+      "A sand beach, the Square Tower museum and a seasonal boat across the gulf to Saint-Tropez, plus the fire-season rules for the Maures hills behind.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Sainte-Maxime had 14,394 residents at the 2022 census, up from 13,337 in 2011. It sits across the gulf from Saint-Tropez, and that view organises a visit: people come for the sea, the seafront, and a boat crossing that is often easier than the road, which clogs in summer. This guide says what you do in town and what belongs to the Maures hills or to neighbouring communes. Saint-Tropez itself is a separate commune with its own guide.",
+    sections: [
+      {
+        heading: "The seafront and the harbour",
+        body: "The promenade runs along the harbour and the beach, with the town rising behind. It is a seaside resort setting, and the best hour is late afternoon, when the light falls on the gulf opposite. Nothing needs booking: you walk.",
+      },
+      {
+        heading: "La Nartelle beach",
+        body: "La Nartelle is the town's big sand beach. In season it is very busy and the car parks fill early. Supervised beaches are marked with the regulation flags, and those flags, not a guidebook, are what count for swimming.",
+      },
+      {
+        heading: "The Square Tower and its museum",
+        body: "The Square Tower, facing the harbour, has been a fortification, a prison and a town hall before becoming a museum of local traditions. It is the town's cultural visit and takes about an hour. Opening days and hours change with the season, so check with the town hall.",
+      },
+      {
+        heading: "The boat to Saint-Tropez",
+        body: "A sea link joins Sainte-Maxime to Saint-Tropez across the gulf. It is seasonal, so check the timetable and fares before you go, and check the last return of the evening. For many visitors it beats sitting in traffic on the coast road.",
+      },
+      {
+        heading: "The coastal path and the old town",
+        body: "The shore continues as paths along coves and private properties. Stay on the marked sections: some access routes cross private land, and passages closed by the town are not to be bypassed. The old town takes an hour, between the church and the lanes climbing from the harbour, and the Provencal market is held in the centre, with days and hours to check.",
+      },
+      {
+        heading: "The Maures hills: a fire-season rule",
+        body: "To the north the Maures massif begins almost at the edge of town. Access to forest massifs in the Var is restricted by prefectural order in summer because of the fire risk. Check it the same morning: ignoring a closure is an offence, not a lapse of judgement.",
+      },
+      {
+        heading: "Grimaud and Port-Grimaud: neighbouring communes",
+        body: "Grimaud, with its ruined castle, and Port-Grimaud, a modern lagoon-style town, are neighbouring communes, not parts of Sainte-Maxime. They make a half-day, best taken outside the rush hours of the coast road.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "July and August bring the crowds, the prices and the traffic on the gulf road. June and September give you the sea without the crush, and spring suits walking on the coast. Winter is quiet and part of the shops close. The town has no railway station, so a car or a coach is the usual way, and Fréjus-Saint-Raphaël is the nearest station. One day covers the beach, the tower and the crossing, two days if you add Grimaud and the Maures.",
+      },
+    ],
+    relatedCities: ["sainte-maxime", "saint-tropez", "frejus", "saint-raphael"],
+    tags: ["things to do in sainte-maxime", "sainte-maxime", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-mandelieu-la-napoule-2026",
+    title: "Things to do in Mandelieu-la-Napoule: an American sculptor's castle next to Cannes",
+    metaTitle: "Things to Do in Mandelieu-la-Napoule 2026",
+    metaDesc:
+      "The Clews castle on the sea, the red Esterel hills, a mimosa festival and a cheaper base than Cannes: what Mandelieu-la-Napoule offers.",
+    category: "city-guide",
+    emoji: "🌼",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Mandelieu-la-Napoule had 21,201 residents at the 2022 census, down from 22,004 in 2011. It is Cannes's neighbour and combines a marina, the mouth of the Siagne river, the first slopes of the red Esterel hills and a castle bought by an American sculptor. This guide says what you see in Mandelieu itself and what belongs to Cannes or to the Tanneron hills nearby.",
+    sections: [
+      {
+        heading: "The castle of La Napoule",
+        body: "The seafront castle was bought as a ruin in 1918 by the American sculptor Henry Clews and his wife Marie, who restored it and made it their home. It now houses an art foundation, and its gardens were designed by Marie Clews. Visits are guided or supervised depending on the season, so check hours and bookings.",
+      },
+      {
+        heading: "The harbour",
+        body: "The harbour and seafront are easy to walk, with views of the castle and the red Esterel. The setting is more marina than old town, and the walk is best in the evening.",
+      },
+      {
+        heading: "The beaches",
+        body: "Mandelieu's beaches are sand and pebble, often laid out as private beaches with a public section. The bathing flags on supervised beaches are regulatory and are what count, as along the whole coast.",
+      },
+      {
+        heading: "The Esterel, with a fire-season rule",
+        body: "The massif of red rock begins almost at the harbour. It has hiking trails, but access is restricted in summer by prefectural order because of the fire risk. Check it the same morning, and treat a closed massif as forbidden, not merely discouraged.",
+      },
+      {
+        heading: "Mimosa: the tree, not the cocktail",
+        body: "Mandelieu presents itself as a mimosa capital and celebrates the winter bloom, usually in February. Dates and programme change every year, and the tour belongs to the flowering season, not the whole year. The Tanneron hills nearby are the big bloom site.",
+      },
+      {
+        heading: "The Tanneron: reached from Mandelieu",
+        body: "The Tanneron massif, covered in mimosa, lies in neighbouring communes, not in Mandelieu. You go by car or on foot from the upper town, checking access with the tourist office. Outside the flowering period there is nothing to visit, only walking.",
+      },
+      {
+        heading: "The golf and the Siagne",
+        body: "The Old Course Cannes-Mandelieu golf club, opened in the late nineteenth century, counts among the oldest on the continent according to the sources consulted. It is a playing course: access is for players, on the club's conditions. The Siagne meets the sea at Mandelieu and its banks suit walks or rides, a calm outing beside a very busy coast.",
+      },
+      {
+        heading: "Cannes, Grasse and Fréjus, and how to get here",
+        body: "Cannes is the neighbouring commune, Grasse the perfumers' hinterland and Fréjus the Roman town: three separate communes, each with its own guide. Mandelieu makes a reasonable base if you want lodging cheaper than Cannes. It is served by road and by coastal stations, and timetables should be checked. Half a day covers the castle, a day adds the Esterel or the harbour.",
+      },
+    ],
+    relatedCities: ["mandelieu-la-napoule", "cannes", "antibes", "frejus", "grasse"],
+    tags: ["things to do in mandelieu-la-napoule", "mandelieu-la-napoule", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-berck-2026",
+    title: "Things to do in Berck: a vast beach and a town built around a seaside hospital",
+    metaTitle: "Things to Do in Berck: Beach and Seals 2026",
+    metaDesc:
+      "A huge tidal beach, sand yachting, the Authie bay seals and the story of the hospital town that began in 1861, on the Opal Coast.",
+    category: "city-guide",
+    emoji: "🪁",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Berck had 12,967 residents at the 2022 census, down from 15,171 in 2011. It is a seaside resort with an immense beach, but its identity is medical: from 1861 the Paris public hospital authority opened a marine hospital here to treat children by the sea. This guide says what you see on the beach and in town, and what belongs to neighbouring communes.",
+    sections: [
+      {
+        heading: "The beach",
+        body: "The sand is very wide at low tide and is used for everything: walking, sand yachting, shore fishing. That is the reason to come. The tide comes in fast over such flat ground, so check the tide table before you walk far from the edge.",
+      },
+      {
+        heading: "Kites and sand yachting",
+        body: "Berck is known for its international kite meetings, held on the beach. Dates change from one edition to the next, so check with the organisers before booking a trip for them, as for any festival. The beach clubs offer sand yachting and other wind sports with introductory sessions. Conditions depend on wind and tide, and supervised tuition beats rented kit with no instruction.",
+      },
+      {
+        heading: "The hospital town",
+        body: "From 1857 the physician Paul Perrochaud ran the first sea-cure experiments on children here, and the Paris public hospital authority built a provisional hospital in 1861, replaced by a larger building opened in 1869. The marine hospital still exists and belongs to the AP-HP: it is a working medical establishment, not a monument open to visitors.",
+      },
+      {
+        heading: "The town museum",
+        body: "The municipal museum holds seascape paintings, Impressionist and naturalist, and tells the story of the town. Hours and exhibitions should be checked with the town before you travel.",
+      },
+      {
+        heading: "The Authie bay, reached from Berck",
+        body: "To the south the Authie bay is an estuary of dunes and mudflats, known for its seal colonies. It calls for care: the tide is quick, the flats are soft, and seals are watched from a distance, never approached, with a guide or from the marked points. Ask the tourist office. The dune belt behind the beach is walked on marked paths, and you should stay on them because the dunes are fragile and some sectors are protected.",
+      },
+      {
+        heading: "Le Touquet and Montreuil: neighbouring towns",
+        body: "Le Touquet-Paris-Plage, a smarter resort, and the walled town of Montreuil are separate communes a few kilometres away. Each takes half a day, not an hour's detour. Neither is a district of Berck.",
+      },
+      {
+        heading: "A town that is losing residents",
+        body: "Berck lost about 2,200 residents between 2011 and 2022, a decline the census measures without explaining. This guide states it without a verdict: the town lives from its beach and its care facilities, and no season hides that figure.",
+      },
+      {
+        heading: "Getting here, and how long to stay",
+        body: "Berck is linked to the regional network by road and by a station, so check timetables. Boulogne-sur-Mer and Calais have their own guides. One day covers the beach and the hospital story, a weekend adds the Authie bay.",
+      },
+    ],
+    relatedCities: ["berck", "boulogne-sur-mer"],
+    tags: ["things to do in berck", "berck", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-florac-trois-rivieres-2026",
+    title: "Things to do in Florac-Trois-Rivières: the gateway to the Cévennes national park",
+    metaTitle: "Things to Do in Florac-Trois-Rivières 2026",
+    metaDesc:
+      "The Cévennes national park headquarters, the Pêcher spring, the Stevenson trail and the Tarn gorges nearby, with the flash-flood rules that matter.",
+    category: "city-guide",
+    emoji: "🏞️",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Florac-Trois-Rivières had 2,111 residents at the 2022 census. The commune was created in 2016 by merging Florac and La Salle-Prunet. It is the gateway to the Cévennes national park and a starting point for the Tarn gorges, the causses and Mont Lozère. This guide says what the town offers and what belongs to neighbouring communes, with emphasis on the mountains, where the weather decides.",
+    sections: [
+      {
+        heading: "The castle and the national park centre",
+        body: "Florac castle houses the headquarters of the Cévennes national park, which works as the entry point: maps, exhibitions and advice on trails. For any hiking plan it is the first stop, before you set out.",
+      },
+      {
+        heading: "The Pêcher spring",
+        body: "The Pêcher spring rises at the foot of the cliff at the edge of town and feeds the Tarnon river. It is a short walk and an easy stop that sets the tone for a region of fast water.",
+      },
+      {
+        heading: "The cliff above town",
+        body: "Above the town the cliff marks the edge of the Causse Méjean. The paths that climb it gain height steeply and the summer heat is felt: water, walking shoes and an early start are the rule.",
+      },
+      {
+        heading: "The rivers",
+        body: "Several streams run through town, the Tarnon among them. River swimming follows the rules posted on site, because Cévennes floods are sudden. The decision to swim is made on the spot, not from a guidebook.",
+      },
+      {
+        heading: "Stevenson's trail",
+        body: "The GR 70, known as the Stevenson trail, follows the route of the Scottish writer Robert Louis Stevenson through the Cévennes with his donkey, and it passes through Florac. It is walked in stages, with lodging to be booked in advance in season.",
+      },
+      {
+        heading: "The Tarn gorges: reached from Florac",
+        body: "The Tarn gorges begin downstream, around the commune of Sainte-Enimie: they are not Florac. You get there by car on a narrow, winding road, and canoeing is done with an outfitter. Check floods and storms before leaving.",
+      },
+      {
+        heading: "Mont Lozère, Aigoual and the Causse Méjean",
+        body: "These are high Cévennes mountains, tens of minutes away by road. The weather changes fast, summer storms are the norm and high roads can close in winter. The causses and the Cévennes have been on the UNESCO list since 2011 as a cultural landscape of Mediterranean agro-pastoralism. What you see is a system of farms and pastures more than a monument.",
+      },
+      {
+        heading: "Cévennes downpours, and how to get here",
+        body: "Cévennes rain episodes can cause sudden floods. When an alert is issued, roads and fords close, and the official information is what counts. It is better to postpone an outing than to keep it. Florac has no railway station, so the road is the usual way, with mountain roads to drive slowly. A day covers the town and the spring, several days the gorges and the causses.",
+      },
+    ],
+    relatedCities: ["florac-trois-rivieres", "mende", "millau", "ales"],
+    tags: ["things to do in florac-trois-rivieres", "florac-trois-rivieres", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-sallanches-2026",
+    title: "Things to do in Sallanches: a Sardinian-style town facing Mont Blanc",
+    metaTitle: "Things to Do in Sallanches 2026",
+    metaDesc:
+      "A town rebuilt on a grid after an 1840 fire, a Mont Blanc view from the valley floor, and a cheaper base than Chamonix or Megève.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 5,
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    intro:
+      "Sallanches had 17,041 residents at the 2022 census, up from 15,683 in 2011. A fire destroyed the town in 1840 and it was rebuilt on a new plan in the Sardinian neoclassical style, Savoy then belonging to the kingdom of Sardinia. It is now a crossing point between the Arve valley, Chamonix and Megève, with Mont Blanc as the backdrop. This guide says what you visit in Sallanches itself and what belongs to neighbouring communes.",
+    sections: [
+      {
+        heading: "The rebuilt town",
+        body: "After the 1840 fire Sallanches was rebuilt on a grid plan in the Sardinian neoclassical style. A walk through the centre is a walk through straight streets and arcades, very different from an old Savoyard village.",
+      },
+      {
+        heading: "The town hall and its arcades",
+        body: "The town hall, built in the mid-1840s, is an example of the Sardinian style with its arcades. Inside, a painting shows the town before the fire. Access to the rooms depends on the town hall's hours.",
+      },
+      {
+        heading: "Saint-Martin bridge and Charles-Albert square",
+        body: "The old Saint-Martin bridge over the Arve is a much-photographed viewpoint onto the massif. Mont Blanc is only visible in clear skies: a cloudy day shows nothing, and this guide does not promise the view. Charles-Albert square is named for the king of Sardinia who put money into the reconstruction. It is the heart of the rebuilt town and takes a few minutes to walk.",
+      },
+      {
+        heading: "Mont Blanc from the valley floor",
+        body: "Sallanches offers one of the clearest views of Mont Blanc from a valley, with no climb in altitude. Morning and evening light are best, and the weather decides.",
+      },
+      {
+        heading: "Mid-mountain walking",
+        body: "Paths above the town lead to the alpine pastures and the balconies. Mountains need preparation: afternoon summer storms are frequent, the weather changes quickly and snow lingers late on the heights.",
+      },
+      {
+        heading: "Chamonix, Megève and Saint-Gervais: reached from Sallanches",
+        body: "Chamonix, Megève and Saint-Gervais are separate communes, each with its own sights: the Mont Blanc tramway starts from Saint-Gervais, not Sallanches. Sallanches serves as a cheaper base for ranging across the valley.",
+      },
+      {
+        heading: "Paragliding and outdoor sports",
+        body: "The valley is known for free flight, paragliding in particular. Flights are taken with a qualified instructor, and flying conditions depend on wind: a flight cancelled for weather is a flight well managed.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Summer gives walking and long days, winter gives skiing in the neighbouring resorts, and autumn brings clear days. Spring is a transition season, between snow and mud. Sallanches has a station on the Arve valley line and a motorway exit, so check timetables. Half a day covers the centre and the view, a day adds an outing in the mountains. Annecy has its own guide.",
+      },
+    ],
+    relatedCities: ["sallanches", "annecy"],
+    tags: ["things to do in sallanches", "sallanches", "travel", "city guide", "auvergne-rhone-alpes"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
