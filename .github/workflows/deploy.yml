@@ -125,9 +125,18 @@ jobs:
         if: steps.changed.outputs.go == 'true'
         run: npm run build
 
+      # L'API d'upload d'assets de Cloudflare lâche parfois en cours de route
+      # (« unknown error, code -1 » à 24k/63k assets le 12/10). L'upload est
+      # indexé par hash : une reprise ne renvoie que ce qui manque. 3 essais.
       - name: Deploy FR (www.mavilleideale.fr)
         if: steps.changed.outputs.go == 'true'
-        run: npm run cf:deploy
+        run: |
+          for i in 1 2 3; do
+            npm run cf:deploy && exit 0
+            echo "::warning::cf:deploy : essai $i en échec"
+            [ "$i" = 3 ] || sleep 60
+          done
+          exit 1
 
       - name: Reclaim build space
         if: steps.changed.outputs.go == 'true'
@@ -146,7 +155,13 @@ jobs:
 
       - name: Deploy EN (bestcitiesinfrance.com)
         if: steps.changed.outputs.go == 'true'
-        run: npm run cf:deploy:en
+        run: |
+          for i in 1 2 3; do
+            npm run cf:deploy:en && exit 0
+            echo "::warning::cf:deploy:en : essai $i en échec"
+            [ "$i" = 3 ] || sleep 60
+          done
+          exit 1
 
       # wrangler qui répond « ok » et la page réellement servie sont deux
       # affirmations différentes : on vérifie en prod, après propagation.
