@@ -1723,3 +1723,27 @@ propriétaire de retenir Orpi.
 **Prochain lot** : relire Sainte-Marie / Sainte-Suzanne quand le runner les aura servies. Le gisement hors Le Port
 reste suspendu aux décisions du propriétaire (overrides documentés — Villeneuve-d'Ascq en tête —, seuil sous
 20 000 hab., règle Antilles-Guyane, validation de la levée « 4ᵉ voisine > 25 km » à La Réunion prise au lot 16).
+
+
+### 2026-10-14 (troisième run) — aucun lot : repères m² de Sainte-Marie et Sainte-Suzanne relus
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(population : Mamoudzou, Pierrefitte ; revenus : 7 villes hors Filosofi) — le runner a servi le lot 16 (DVF, revenus,
+population, biodiversité, actualité, zones protégées à 592/592). Lot autorisé, mais aucune candidate ne passe la règle.
+
+*Relecture à mesure égale* (`seed:neighbours:relire`, après `git fetch --unshallow`) : les deux villes du lot 16 ont
+désormais leur DVF au dépôt. **Sainte-Marie** 2 306 ÷ 2 113 = **1,091** (le ratio PAP du lot donnait 1,15) → sous
+± 10 %, repère médian, **2 600 → 2 300 €/m²**. **Sainte-Suzanne** 2 400 ÷ 2 113 = **1,136** (lot : 1,19) →
+**2 700 → 2 600 €/m²**. Reportés dans `data/housing.ts` et `RELU_APRES_LOT`. Les portails surestimaient ces deux
+marchés de 5 à 6 points, même sens que la plupart des relectures du 2026-10-12. `relire` → 0 repère à relire ;
+`selftest` 51/52 (écart Maisons-Laffitte, documenté). Loyers inchangés (aucune mesure de loyer au dépôt).
+
+*Le Port (97407)* : egress `files.data.gouv.fr` refusé depuis la routine (403 CONNECT, retesté), donc sa DVF ne
+peut pas être lue en cloud ; reste reportée (journal précédent).
+
+*Dérive* : aucune note modifiée (le repère m² n'entre pas dans les axes) — table des couleurs inchangée (592).
+Contrôles : `tsc`, `integrity`, `sitemap:check`, `hreflang:check`. `npm run build` non lancé.
+
+**Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés, Villeneuve-d'Ascq en tête ;
+seuil sous 20 000 hab. ; règle Antilles-Guyane ; validation de la levée « 4ᵉ voisine > 25 km » à La Réunion) ou à
+une passe DVF locale sur 97407 pour Le Port.
