@@ -3540,6 +3540,18 @@
       "name": "Vallauris",
       "region": "Provence-Alpes-Côte d'Azur",
       "score": 5.4
+    },
+    {
+      "slug": "sainte-marie-reunion",
+      "name": "Sainte-Marie (Réunion)",
+      "region": "La Réunion",
+      "score": 4.5
+    },
+    {
+      "slug": "sainte-suzanne-reunion",
+      "name": "Sainte-Suzanne (Réunion)",
+      "region": "La Réunion",
+      "score": 4.5
     }
   ],
   "guides": [

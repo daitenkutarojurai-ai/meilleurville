@@ -274,6 +274,14 @@ const DOCUMENTED_MODES: Record<string, Pick<Candidate, "crossDept" | "priceRatio
   // pas encore servie par le runner) = 1,27 ; intra-source efficity (quartiers Centre 3 280, Baugerie 3 260 ÷
   // Rezé 2 660-2 800) ≈ 1,20, à 6 % près. Pas de loyer au m² du même portail.
   "saint-sebastien-sur-loire": { priceRatio: 1.27 },
+  // lot 16 (2026-10-14) : DVF appartements PAP 2 435 €/m² (1er juil. 2026) ÷ 2 113 €/m² (médiane DVF appartements
+  // des 4 voisines : Saint-Benoît 1 491, Saint-André 1 839, Le Tampon 2 387, Saint-Paul 5 304) = 1,15 ; intra-source
+  // PAP 2 435 ÷ 2 213,5 (Saint-André 1 954, Le Tampon 2 473 ; Saint-Benoît 1 660 et Saint-Paul au-dessus encadrent)
+  // = 1,10. efficity 2 810 écarté (type de bien non précisé). Pas de loyer au m² du même portail.
+  "sainte-marie-reunion": { priceRatio: 1.15 },
+  // lot 16 : DVF appartements ~2 511 €/m² (PAP 2 542, efficity 2 480) ÷ 2 113 (mêmes voisines) = 1,19 ; intra-source
+  // PAP 2 542 ÷ 2 213,5 = 1,15, à 4 % près.
+  "sainte-suzanne-reunion": { priceRatio: 1.19 },
 };
 // Relecture du 2026-10-12 (troisième run) : le runner a depuis servi La Chapelle-sur-Erdre (3 410 €/m²) et
 // Saint-Sébastien-sur-Loire elle-même (3 273 €/m²) ; à mesure égale, 3 273 ÷ 3 009,5 (Rezé, Vertou, La Chapelle,

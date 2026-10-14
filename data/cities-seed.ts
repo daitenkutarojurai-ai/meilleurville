@@ -17261,6 +17261,50 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "Vallauris (Alpes-Maritimes, Provence-Alpes-Côte d'Azur): quality-of-life score 5.4/10. Pottery town between Antibes and Cannes, with Golfe-Juan on the bay.",
     scores: { global: 6.9, life: 7.5, transport: 6.4, nature: 8, cost: 5.5, safety: 7, culture: 7, remoteWork: 6.9, schools: 6.8 },
+  },
+  {
+    slug: "sainte-marie-reunion",
+    name: "Sainte-Marie (Réunion)",
+    scoreCohort: "extension",
+    region: "La Réunion",
+    department: "La Réunion",
+    inseeCode: "97418",
+    population: 37100,
+    latitude: -20.8969,
+    longitude: 55.5492,
+    elevation: 5,
+    sunshinedays: 2150,
+    avgTempJuly: 21,
+    avgTempJanuary: 27,
+    characterTags: ["océan Indien","côte nord","DROM","aéroport Roland-Garros","agglomération de Saint-Denis"],
+    descriptionEn:
+      "Sainte-Marie lies on Réunion's north coast, directly east of Saint-Denis across the Rivière des Pluies, and hosts Roland-Garros airport, the island's main international gateway. The commune climbs from the coastal plain to about 1,800 m in the uplands. Best fit: households working in Saint-Denis who want a neighbouring commune close to the airport.",
+    seoTitleEn: "Sainte-Marie (Réunion) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sainte-Marie (La Réunion): quality-of-life score 4.5/10. North-coast commune east of Saint-Denis, home to Roland-Garros airport.",
+    scores: { global: 6.3, life: 6.5, transport: 4.9, nature: 9.2, cost: 5.5, safety: 5.9, culture: 6.3, remoteWork: 5.8, schools: 5.9 },
+  },
+  {
+    slug: "sainte-suzanne-reunion",
+    name: "Sainte-Suzanne (Réunion)",
+    scoreCohort: "extension",
+    region: "La Réunion",
+    department: "La Réunion",
+    inseeCode: "97420",
+    population: 25600,
+    latitude: -20.9056,
+    longitude: 55.6072,
+    elevation: 5,
+    sunshinedays: 2800,
+    avgTempJuly: 19.5,
+    avgTempJanuary: 26.5,
+    characterTags: ["océan Indien","côte nord-est","DROM","phare de Bel-Air","cascade Niagara"],
+    descriptionEn:
+      "Sainte-Suzanne sits on Réunion's north-east coast between Sainte-Marie and Saint-André. It has the Bel-Air lighthouse, in service since 1846 and listed as a historic monument in 2012, and the Niagara waterfall on the Sainte-Suzanne river. Best fit: households who want the east side of the island within reach of Saint-Denis.",
+    seoTitleEn: "Sainte-Suzanne (Réunion) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sainte-Suzanne (La Réunion): quality-of-life score 4.5/10. North-east coast commune with the Bel-Air lighthouse and Niagara falls.",
+    scores: { global: 6.3, life: 6.5, transport: 4.9, nature: 9.2, cost: 5.5, safety: 5.9, culture: 6.3, remoteWork: 5.8, schools: 5.9 },
   }
 ];
 

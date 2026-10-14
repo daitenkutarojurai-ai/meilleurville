@@ -99,7 +99,11 @@ const RULES: Record<string, Rule> = {
   "mediane-region": (c) => { const n = ORIGIN.filter((v) => v.slug !== c.slug && v.region === c.region && admissible(v, 10_000)); return n.length < 4 ? null : medianOf(n, c); },
 };
 
-const targets = ORIGIN.filter((c) => admissible(c, 20_000));
+// --dept="La Réunion" : restreint les villes testées à un département et imprime le détail ville par
+// ville de la règle standard (4ᵉ voisine, écart moyen). Le vivier de voisines reste tout le seed d'origine.
+const deptArg = process.argv.find((a) => a.startsWith("--dept="))?.slice(7);
+const targets = ORIGIN.filter((c) => admissible(c, 20_000) && (!deptArg || c.department === deptArg));
+if (deptArg && !targets.length) throw new Error(`aucune ville testable dans le département « ${deptArg} »`);
 const fourthKm = new Map(targets.map((c) => {
   const n = nearest(c, ORIGIN.filter((v) => v.department === c.department && admissible(v, 20_000)));
   return [c.slug, n.length < 4 ? Infinity : n[3].d];
@@ -123,5 +127,16 @@ for (const [name, rule] of Object.entries(RULES)) {
     const mean = (xs: number[]) => xs.reduce((s, x) => s + x, 0) / xs.length;
     const p90 = [...errs].sort((a, b) => a - b)[Math.floor(errs.length * 0.9)];
     console.log(`${name.padEnd(18)} ${label.padEnd(13)} ${String(n).padStart(4)}  ${mean(errs).toFixed(3)}  ${p90.toFixed(2)}  ` + AXES.map((a) => mean(per[a]).toFixed(2).padStart(5)).join(" "));
+  }
+}
+
+if (deptArg) {
+  console.log(`\ndétail règle standard — ${deptArg} (4 plus proches du même département, 20 000+ hab.)`);
+  for (const c of targets) {
+    const n = nearest(c, ORIGIN.filter((v) => v.department === c.department && admissible(v, 20_000)));
+    if (n.length < 4) { console.log(`  ${c.slug.padEnd(28)} moins de 4 voisines`); continue; }
+    const p = medianOf(n.map((x) => x.v), c);
+    const mae = AXES.reduce((s, a) => s + Math.abs(p[a] - raws.get(c.slug)![a]), 0) / AXES.length;
+    console.log(`  ${c.slug.padEnd(28)} 4ᵉ voisine ${n[3].d.toFixed(1).padStart(5)} km  MAE ${mae.toFixed(2)}`);
   }
 }

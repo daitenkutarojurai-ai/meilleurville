@@ -153,6 +153,14 @@ pire que la médiane naïve de toute la région (0,76). Seule variante sans pert
 Fougères (2), ni Lisieux (1), ni Frontignan (1). La variante régionale avec transfert de niveau (logique ①)
 tient l'erreur globale (0,67) mais monte à **1,0 sur le coût et la sécurité** : écartée.
 
+**La Réunion : la 4ᵉ voisine au-delà de 25 km n'est plus une raison de report (décidé le 2026-10-14).**
+`npm run seed:neighbours:backtest -- --dept="La Réunion"` rejoue la règle standard sur les 7 villes d'origine
+testables de l'île : **toutes** ont leur 4ᵉ voisine entre 34 et 44 km (le relief et Saint-Denis > 150 000 hab.
+l'imposent) et l'écart moyen est **0,62** (de 0,39 à 0,97 par ville), contre 0,57 pour la règle sur tout le corpus
+et 0,68 pour les villes isolées > 25 km de métropole. Sur l'île, la distance n'est donc pas le signal d'erreur
+qu'elle est ailleurs. Le marché (§ 3.3 bis) reste le filtre : Saint-Leu et La Possession y échouent. Ne vaut pas
+pour la Guadeloupe, la Martinique ni la Guyane, qui n'ont pas 4 voisines admissibles (`--dept=` le montre).
+
 Arrondi : celui des lots 1 à 8, `Math.round(x × 10) / 10` sur le flottant (5,35 → 5,3).
 
 **Limite connue** : la règle n'est valable que là où le seed est dense. Une ville qui ne ressemble
@@ -300,10 +308,8 @@ ressemble pas à ses voisines, une médiane serait fausse :
 
 | Commune | Insee | Mesure |
 |---|---|---|
-| Sainte-Marie (974) | 97418 (absente vérifiée) | voisines 12,7 · 22,8 · 31,6 · 42,6 km (Saint-Denis > 150 000 hab., hors filtre) — mesuré le 2026-10-13 |
-| Le Port (974) | 97407 (absente vérifiée) | 8,3 · 37,3 · 40,7 · 44,5 km — mesuré le 2026-10-13 |
-| Sainte-Suzanne (974) | 97420 (absente vérifiée) | 7,6 · 18,0 · 36,8 · 42,5 km — mesuré le 2026-10-13 ; population à recouper |
-| La Possession (974) | 97408 (absente vérifiée) | 4ᵉ voisine à 41 km |
+| Le Port (974) | 97407 (absente vérifiée) | distance levée à La Réunion (2026-10-14) ; marché : PAP 2 118 ÷ 2 340,5 = 0,90, efficity 2 550 → médiane 1,00, intra-source PAP 0,88 — les deux ratios divergent de 12 % à la frontière ± 10 % ; **attend la DVF du dépôt** ou un 2ᵉ site DVF |
+| La Possession (974) | 97408 (absente vérifiée) | distance levée (2026-10-14) ; **marché hors ± 30 %** : PAP 2 917 ÷ 2 066,5 = 1,41 (efficity 2 940) → relève du tableau B |
 | L'Isle-sur-la-Sorgue (84) | 84054 (absente vérifiée) | 20 244 hab. (pop. de référence 2023 : Banatic + Wikipédia + Habity — **passée au-dessus du seuil**, sortie du tableau D). Standard : Cavaillon 9,3 · Carpentras 15,2 · Orange 31,1 · Pertuis 44,1 km (Avignon en override) ; règle ② : 4ᵉ Orange à 31,1 km — mesuré le 2026-10-13 |
 | Sainte-Anne, Le Moule, Petit-Bourg (971) | à confirmer | Guadeloupe : 3 villes au seed, même cas que Le Gosier ; populations à recouper |
 | Kourou (973) | à confirmer | Guyane : 2 villes au seed (Cayenne, Saint-Laurent) ; population à recouper |
@@ -1635,3 +1641,60 @@ dérive nulle, table des couleurs inchangée (590).
 (overrides documentés, seuil sous 20 000, règle DROM, et désormais : accepter ou non une 4ᵉ voisine au-delà de 25 km
 quand la ville-centre est en override) sont le seul déblocage. Relire chaque année le tableau D sur le nouveau
 millésime de populations de référence.
+
+
+### 2026-10-14 — lot 16 (+2) : Sainte-Marie (Réunion), Sainte-Suzanne (Réunion)
+
+`seed-coverage` au départ : **1 ville en attente** (Carquefou, photo seule) → lot autorisé, runner local vivant.
+590 → **592**, La Réunion, aucun département ni région nouveaux.
+
+*Déblocage, mesuré plutôt que décidé au jugé.* Les quatre communes du nord de l'île étaient reportées le
+2026-10-13 pour une 4ᵉ voisine au-delà de 25 km, par analogie avec le backtest national (0,68). Le backtest gagne
+un filtre `--dept=` qui détaille la règle ville par ville : sur les 7 villes d'origine testables de La Réunion, la
+4ᵉ voisine est **toujours** à 34-44 km et l'écart moyen vaut **0,62** — la règle est aussi juste sur l'île qu'en
+métropole dense. La raison de report ne tient pas à La Réunion ; § 3.2 le consigne. Vaucluse (L'Isle-sur-la-Sorgue)
+et Martinique : aucune ville testable par la règle standard, rien à conclure, L'Isle-sur-la-Sorgue reste reportée.
+⚠️ **Décision de méthode prise par la routine** : à valider par le propriétaire (retrait = 2 entrées seed, housing,
+quartiers, codes postaux, 2 lignes `DOCUMENTED_MODES`).
+
+*Identité.* **Sainte-Marie** : Insee 97418 (absente vérifiée par code), population municipale 2023 **37 093**
+(Banatic, Wikipédia, Insee PopRef 2023) → 37 100 ; coordonnées −20,8969 / 55,5492 (latlong.net) ; altitude
+**5 m** (moyenne de l'infobox Wikipédia EN, commune de 0 à ~1 800 m ; bourg et aéroport sur la plaine côtière,
+AIP FMEE 20 m) — ⚠️ pas le milieu de fourchette, qui donnerait ~900 m et classerait la ville « montagne », à
+l'inverse des 8 autres villes de l'île notées au bourg (5 à 70 m, Le Tampon 530). **Sainte-Suzanne** : Insee 97420
+(absente vérifiée), **25 551** en 2023 (Wikipédia EN citant l'Insee, citypopulation.de, villesavivre) → 25 600 ;
+−20,9056 / 55,6072 ; altitude 5 m (même infobox, commune 0-1 449 m). Slugs suffixés `-reunion` (homonyme
+Sainte-Marie en Martinique, Sainte-Suzanne en Mayenne / Doubs / Ariège). Codes postaux 97438 et 97441.
+
+*Notes brutes* (règle standard, mêmes 4 voisines pour les deux : Saint-André 12,7 / 7,6 · Saint-Benoît 22,8 / 18,0
+· Saint-Paul 31,5 / 36,7 · Le Tampon 42,6 / 42,4 km) : 6,5 · 4,9 · 9,2 · 5,5 · 5,9 · 6,3 · 5,8 · 5,9, global 6,3 ;
+rendu **4,5** chacune (orange ; voisines rendues 3,6 / 3,7 / 5,3 / 5,2). Climat : Saint-Denis (10,7 km) pour
+Sainte-Marie, Saint-André (7,7 km) pour Sainte-Suzanne — ville du seed la plus proche, § 3.3.
+
+*Logement* (§ 3.3 bis). Médiane DVF appartements des 4 voisines au dépôt **2 113 €/m²** (1 491 / 1 839 / 2 387 /
+5 304). Sainte-Marie : PAP **2 435** (1ᵉʳ juil. 2026) → **1,15** ; intra-source PAP (Saint-André 1 954,
+Saint-Benoît 1 660, Le Tampon 2 473, Saint-Paul au-dessus) 2 213,5 → 1,10 ; efficity 2 810 écarté (type de bien
+non précisé) → ratio **1,15**, repère **2 600 €/m²**. Sainte-Suzanne : PAP 2 542, efficity 2 480 → 2 511 → **1,19**,
+intra-source 1,15 → repère **2 700 €/m²**. Loyers = médiane (450 / 640 / 830), aucun loyer au m² du même portail.
+Axe coût hérité : biais conservateur assumé (§ 3.3 bis).
+
+*Quartiers* (notes = ville) : Gillot (aéroport Roland-Garros, ex-aéroport de Gillot, ~7 km à l'est de Saint-Denis)
+et Rivière des Pluies (limite avec Saint-Denis) ; Bel-Air (phare construit en 1845, en service le 15 octobre 1846,
+classé MH le 5 septembre 2012 — notice Mérimée PA97400019) et Quartier-Français (village à ~3 km au sud-est de
+La Vigne). Cascade Niagara (rivière Sainte-Suzanne, ~25 m) en tag, déjà citée « accessible depuis » Saint-André
+par le guide tourisme. Tags sans `port`/`mer`/`côte`/`plage`.
+
+*Reportées ce run* : **Le Port** (ratios de marché divergents à la frontière ± 10 %, voir tableau C) ;
+**La Possession** (PAP 2 917 ÷ 2 066,5 = **1,41**, hors ± 30 %).
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation**. Couleurs recomptées sur `CITIES_SEED` (592) :
+19 / 50 / 151 / 157 / **121** / 94, moyenne 5,35.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (592 villes) + `:check`, `sitemap:check`
+(FR 31 742, EN 31 333), `hreflang:check`, `seed:neighbours:selftest` (après commit). `npm run build` non lancé.
+
+*En attente du runner* : les deux nouvelles (tous pipelines sauf codes postaux), Carquefou (photo).
+
+**Prochain lot** : `seed-coverage`, puis `seed:neighbours:relire` quand les deux villes sont servies (ratio attendu
+~1,15-1,19). Le Port se tranche à la DVF de la commune. Gisement restant inchangé hors La Réunion : overrides
+documentés, seuil sous 20 000 hab., règle Antilles-Guyane — décisions du propriétaire.

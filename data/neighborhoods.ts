@@ -15930,6 +15930,32 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Partie basse de la commune, sur la baie, où Napoléon a débarqué le 1er mars 1815 à son retour de l'île d'Elbe ; la route Napoléon part d'ici." },
     ],
   },
+  {
+    citySlug: "sainte-marie-reunion",
+    neighborhoods: [
+      { slug: "sainte-marie-reunion-gillot", name: "Gillot", type: "résidentiel",
+        scores: { global: 6.3, safety: 5.9, transport: 4.9, nature: 9.2, cost: 5.5, nightlife: 6.3 },
+        avgRentT2: 640, tags: ["aéroport","plaine côtière"],
+        summary: "Secteur de la plaine côtière où se trouve l'aéroport Roland-Garros, longtemps appelé aéroport de Gillot, à environ 7 km à l'est de Saint-Denis." },
+      { slug: "sainte-marie-reunion-riviere-des-pluies", name: "Rivière des Pluies", type: "résidentiel",
+        scores: { global: 6.3, safety: 5.9, transport: 4.9, nature: 9.2, cost: 5.5, nightlife: 6.3 },
+        avgRentT2: 640, tags: ["rivière","limite avec Saint-Denis"],
+        summary: "Quartier de l'ouest de la commune, qui domine la rivière des Pluies ; la rivière sépare Sainte-Marie de Saint-Denis jusqu'à la mer." },
+    ],
+  },
+  {
+    citySlug: "sainte-suzanne-reunion",
+    neighborhoods: [
+      { slug: "sainte-suzanne-reunion-bel-air", name: "Bel-Air", type: "résidentiel",
+        scores: { global: 6.3, safety: 5.9, transport: 4.9, nature: 9.2, cost: 5.5, nightlife: 6.3 },
+        avgRentT2: 640, tags: ["phare","monument historique"],
+        summary: "Pointe du littoral où se dresse le phare de Bel-Air, construit en 1845, mis en service en 1846 et classé monument historique par arrêté du 5 septembre 2012." },
+      { slug: "sainte-suzanne-reunion-quartier-francais", name: "Quartier-Français", type: "résidentiel",
+        scores: { global: 6.3, safety: 5.9, transport: 4.9, nature: 9.2, cost: 5.5, nightlife: 6.3 },
+        avgRentT2: 640, tags: ["village","côte nord-est"],
+        summary: "Village de la côte nord-est rattaché à la commune, à environ 3 km au sud-est de La Vigne." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {
