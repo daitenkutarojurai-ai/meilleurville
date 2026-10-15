@@ -9,7 +9,7 @@ import { pathAlternates } from "@/lib/i18n";
 export const metadata: Metadata = {
   title: "Glossaire immobilier, école, santé, emploi & mobilité",
   description:
-    "DPE, TAEG, APL, carte scolaire, cat-nat, médecin traitant, ARE, clause de mobilité, TEOM, prix de l'eau : les termes utiles pour s'installer en France.",
+    "DPE, TAEG, APL, carte scolaire, cat-nat, ARE, TEOM, Enedis, tarif réglementé, propane : les termes utiles pour s'installer en France.",
   alternates: pathAlternates("/glossaire", "/glossary"),
 };
 
@@ -967,6 +967,44 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Électricité, gaz et fournisseurs d'énergie",
+    emoji: "⚡",
+    terms: [
+      {
+        term: "Distributeur d'électricité : Enedis ou entreprise locale (ELD)",
+        def: "Le câble qui arrive chez vous appartient à un gestionnaire de réseau, et ce n'est pas le même partout. Enedis dessert environ 95 % du territoire ; les 5 % restants relèvent d'entreprises locales de distribution, héritières de la nationalisation de 1946, comme ÉS à Strasbourg ou GEG à Grenoble. Le nombre exact de ces entreprises varie selon les sources (entre 130 et 150 environ), donc la page n'en publie pas. Pourquoi cela compte : le distributeur gère le raccordement, le compteur, les pannes et les coupures, quel que soit le fournisseur choisi pour la facture. Changer de fournisseur ne change jamais de distributeur, et le distributeur se lit sur l'adresse, pas sur le contrat.",
+      },
+      {
+        term: "Fournisseur et distributeur : qui appeler",
+        def: "Le fournisseur vend l'énergie et envoie la facture ; le distributeur l'achemine et intervient sur le réseau. En cas de panne ou de compteur défaillant, c'est le distributeur qu'il faut joindre, pas son fournisseur, qui ne peut rien réparer. Confondre les deux est la source la plus courante de temps perdu à l'emménagement, quand une mise en service est demandée au mauvais interlocuteur. Un changement de fournisseur se fait sans coupure ni intervention technique, puisque le réseau et le compteur restent les mêmes.",
+      },
+      {
+        term: "Tarif réglementé de vente d'électricité (Tarif Bleu)",
+        def: "Le tarif réglementé est un prix fixé par les pouvoirs publics, que seul le fournisseur historique peut proposer : EDF sur la majeure partie du territoire, l'entreprise locale dans les zones qu'elle dessert. Il reste ouvert aux particuliers pour l'électricité, contrairement au gaz. Deux ménages voisins séparés par une limite de concession n'ont donc pas le même fournisseur historique. Le niveau du tarif change au fil des arrêtés et des évolutions du coût du réseau : la page ne le chiffre pas, et il se lit sur le site de la Commission de régulation de l'énergie.",
+      },
+      {
+        term: "Puissance souscrite et option tarifaire (base, heures creuses)",
+        def: "La puissance souscrite, exprimée en kVA, plafonne ce qu'on peut appeler à la fois : trop basse, le disjoncteur saute quand plusieurs appareils tournent ensemble ; trop haute, l'abonnement mensuel est payé pour rien. À l'emménagement, elle est reprise de l'ancien occupant, qui avait un autre mode de vie. L'option tarifaire, base ou heures creuses, décide si le kilowattheure coûte moins cher à certaines heures : elle ne vaut le coup qu'avec un ballon d'eau chaude ou un chauffage programmés pour ces plages. Les deux se modifient auprès du fournisseur, sans changer de compteur.",
+      },
+      {
+        term: "Part acheminement (TURPE)",
+        def: "Une facture d'électricité contient une part énergie, que le fournisseur fixe, et une part acheminement, le tarif d'utilisation des réseaux publics d'électricité, que fixe la Commission de régulation de l'énergie. Cette seconde part est la même sur tout le territoire, y compris chez les entreprises locales de distribution : c'est une péréquation nationale. Elle explique que les offres de marché ne puissent différer que sur la part énergie et les services, et que la facture ne dépende pas, à consommation égale, de la distance au poste de transformation. L'ajustement annuel du barème se vérifie auprès de la CRE, certaines sources commerciales divergeant sur sa date et son niveau.",
+      },
+      {
+        term: "Fin du tarif réglementé du gaz (30 juin 2023)",
+        def: "Le tarif réglementé de vente du gaz naturel a pris fin le 30 juin 2023 pour les particuliers et les copropriétés. Les foyers qui n'avaient pas choisi d'offre ont été basculés le 1ᵉʳ juillet 2023, sans démarche, sur une offre de marché de leur fournisseur historique, Engie dans l'immense majorité des cas. Conséquence pratique : il n'existe plus de prix du gaz que tous les foyers raccordés auraient en commun, et le comparer d'un contrat à l'autre suppose de comparer le prix du kilowattheure et l'abonnement, pas un seul chiffre. Les chiffres de ménages concernés varient selon les sources et ne sont pas repris ici.",
+      },
+      {
+        term: "Gaz de ville, propane et fioul : être desservi ou non",
+        def: "Le gaz naturel de réseau n'existe que dans une minorité de communes : environ 9 500 à 9 700 selon les rapports d'activité et les comparateurs, soit à peu près 27 % des communes, et le reste du pays, de l'ordre de 25 000 communes, n'a aucun réseau. Là, le chauffage au gaz passe par une citerne ou des bouteilles de propane, ou par le fioul, avec des prix libres, une livraison à commander et aucun raccordement à demander. GRDF distribue dans la grande majorité des communes desservies, des entreprises locales dans le reste. Avant de retenir un logement annoncé « chauffage gaz », il faut donc demander s'il s'agit du réseau ou d'une cuve, et à qui appartient la cuve.",
+      },
+      {
+        term: "Résilier et déménager : quel contrat suit ?",
+        def: "Un contrat d'énergie suit le logement et le titulaire, pas l'adresse. À un déménagement, le contrat de l'ancien logement se résilie, en principe sans pénalité pour un particulier, et un nouveau se souscrit pour le suivant, avec une mise en service que le distributeur réalise. Dans un logement déjà équipé, le compteur existe et la mise en service peut se faire à distance ; dans un logement coupé ou neuf, il faut attendre une intervention. Relever les index à la remise des clés et les consigner dans l'état des lieux évite de payer la consommation du précédent occupant. En cas de litige que le fournisseur ne règle pas, le médiateur national de l'énergie peut être saisi gratuitement après une réclamation écrite.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -1013,7 +1051,7 @@ export default function GlossairePage() {
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
             locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants,
             l&apos;accès aux soins, les transports, le marché du travail, les factures d&apos;eau et
-            de déchets et la dépendance du grand âge, les études supérieures et le logement étudiant en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
+            de déchets et la dépendance du grand âge, les études supérieures, le logement étudiant, l&apos;électricité et le gaz en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
             connaître avant de signer.
           </p>
         </div>
