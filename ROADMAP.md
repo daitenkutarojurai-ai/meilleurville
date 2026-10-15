@@ -5774,6 +5774,12 @@ n'est faux, mais un champ dérivé que personne ne lit est un champ qu'on finit 
 - **Corrigé** : les meta descriptions des hubs `/espaces-proteges` et `/protected-areas` écrivaient « 540 villes » en dur ; elles lisent maintenant `PROTECTION_RANKED_COUNT` (valeur identique aujourd'hui, ne dérive plus quand le périmètre bouge).
 - **Non couvert, inchangé** : `overall` reste `null` (2 composantes sur 3), `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`, casier « Animalia spec » encore compté dans la raréfaction de Cayenne et Saint-Laurent-du-Maroni (`biodiversity:stats` le signale), pas de couverture pour les 16 villes d'extension tant que le runner ne les a pas servies.
 
+### F62 — point d'étape 2026-10-15 (routine biodiversité)
+
+- **Collecte** : le runner local a servi les 53 villes d'extension : biodiversité, signaux et zones protégées sont à **593/593** (593 mesurables, 0 sous le seuil d'effort). `biodiversity:stats` : `species` tronquée sur 36 villes, `observers` sur 131, insectes sur 19 (planchers déjà gérés par `countWithFloor`).
+- **Corrigé** : les trois barèmes centiles de `lib/biodiversity.ts` (richesse, espaces verts, zones protégées) incluaient les villes d'extension, contrairement à la règle de cohorte de référence (CLAUDE.md § Score pipeline). Dès que le JSON a couvert les 53, le /10 de zones protégées (seule note publiée) a bougé pour **452 villes d'origine** (mesuré avant/après sur les trois composantes + `overall`). Les barèmes se calent désormais sur les 540 d'origine ; une ville d'extension est notée sur la même échelle sans y entrer. `tsc` et `integrity` verts.
+- **Non couvert, inchangé** : `overall` reste `null`, `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`. Le **classement** `/espaces-proteges` (rangs) trie les 593 villes, donc un rang d'origine peut glisser d'une place à l'insertion d'une extension : c'est un rang de liste, pas une note, non modifié. Casier « Animalia spec » toujours compté pour Cayenne et Saint-Laurent-du-Maroni. `GREEN_SPACE_UNMAPPED_COUNT` passe à 13 (calculé, 11 + 2 extensions).
+
 ---
 
 ## Flotte de routines — état 2026-08-03

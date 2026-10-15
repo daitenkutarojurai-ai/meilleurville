@@ -1223,15 +1223,25 @@ export const GREEN_SPACE_RANKING_PUBLISHED = false;
 
 const MEASURABLE_SLUGS = BIODIVERSITY_CRAWLED_SLUGS.filter((s) => isMeasurable(DATA[s]));
 
+/** Cohorte de référence (CLAUDE.md § Score pipeline, 2026-10-06) : les barèmes
+ *  centiles se calent sur les villes d'origine seulement. Une ville d'extension
+ *  est notée sur la même échelle mais n'y entre pas, donc en ajouter une ne
+ *  déplace la note rendue d'aucune autre. Sans ça, les 53 villes d'extension
+ *  collectées le 2026-10-15 auraient décalé le rang centile des 540 autres. */
+const EXTENSION_SLUGS = new Set(
+  CITIES_SEED.filter((c) => c.scoreCohort === "extension").map((c) => c.slug),
+);
+const inReferenceCohort = (slug: string) => !EXTENSION_SLUGS.has(slug);
+
 const richnessScale = percentileScale(
-  MEASURABLE_SLUGS.map((s) => DATA[s].rarefied as number),
+  MEASURABLE_SLUGS.filter(inReferenceCohort).map((s) => DATA[s].rarefied as number),
 );
 
 /** Le `filter` écarte les communes sans parc nommé dans OSM. C'est délibéré :
  *  les faire entrer comme des zéros tasserait le bas du barème avec des villes
  *  dont on ignore la surface réelle, et décalerait le rang de toutes les autres. */
 const greenScale = percentileScale(
-  CITIES_SEED.map((c) => greenSpacePerCapita(c.slug)).filter(
+  CITIES_SEED.filter((c) => inReferenceCohort(c.slug)).map((c) => greenSpacePerCapita(c.slug)).filter(
     (v): v is number => v != null,
   ),
 );
@@ -1248,7 +1258,7 @@ export const GREEN_SPACE_TRUNCATED_COUNT = CITIES_SEED.filter((c) =>
 ).length;
 
 const protectionScale = percentileScale(
-  CITIES_SEED.map((c) => protectionCoverage(c.slug)).filter(
+  CITIES_SEED.filter((c) => inReferenceCohort(c.slug)).map((c) => protectionCoverage(c.slug)).filter(
     (v): v is number => v != null,
   ),
 );
