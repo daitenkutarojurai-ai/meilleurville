@@ -42045,6 +42045,246 @@ export const EN_GUIDES: EnGuide[] = [
     ],
   },
   {
+    slug: "solo-travel-in-vienne-2026",
+    title: "Solo travel in Vienne, France (2026): 37.1% aged 15 to 29, on the Lyon line",
+    metaTitle: "Solo Travel in Vienne 2026: Stay, Go Out, Budget",
+    metaDesc: "Vienne (Isère) alone: 37.1% aged 15 to 29, culture 9/10, a two-room flat reference of 700 €, and Lyon on the same railway line. Where to stay, when to come.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 6,
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    intro: "Vienne here is the Roman town of 31,555 people on the Rhône south of Lyon, not the Austrian capital, and it is one of the youngest-looking towns in this series: 37.1% of residents were aged 15 to 29 at the 2022 census, against 25.5% aged 60 or over. It has gained 2,101 residents since 2016, a rise of 7.1%. Our culture score is 9/10, the highest value the corpus awards, and the cost score is 6.7/10. The trap to set aside at once: Vienne is not a small Lyon for going out every night. It is a town where you sleep at a moderate price and have Lyon on the same railway line. This guide says what that changes.",
+    sections: [
+      {
+        heading: "Why Vienne: Roman remains and a crowd that lives here",
+        body: "The historic centre holds the Temple of Augustus and Livia, the ancient theatre and the cathedral, which our district notes sum up as one of the richest groups of Roman antiquities in France. For a trip built on evenings, the point is that this setting is not an open-air museum: the 15 to 29 share, 37.1%, is far above what you would expect from a town this size, and the population has grown 1.15% a year over 2016 to 2022. The scores are best read without decoration: 6.8/10 for daily life, 7.7/10 for transport, 9/10 for culture, but 5.7/10 for safety, which is not the score of a dangerous town and is still the lowest line on the page. Evenings in Vienne are those of a lively sub-prefecture, not a metropolis: they happen in the centre, and they stop earlier than in Lyon.",
+      },
+      {
+        heading: "Where to stay: the historic centre, for 40 € more than elsewhere",
+        body: "Our district notes list three areas. The historic centre scores 7.5/10 for evenings and 7.5/10 overall, for an average two-room flat at 700 €. Saint-Just, residential on the heights with a view over the Rhône, drops to 5.5/10 for evenings at 660 €. Estressin, working class, which holds the station and the retail parks according to our notes, falls to 4.5/10 at 560 €. A gap of 40 € between the centre and Saint-Just is not worth moving out for on an evenings trip, and Estressin only makes sense on price. The town-wide references are 500 € for a studio, 700 € for a two-room flat and 940 € for a three-room flat. No hotel rate is given here: they move too fast to stay true for a year, and this site only quotes what it can trace.",
+      },
+      {
+        heading: "Going out on a Tuesday: the season starts in July, not on Tuesday",
+        body: "Vienne has one date that appears in our city tags by name, Jazz à Vienne, a summer jazz festival held in the ancient theatre. It is the reason to book early, and the price of it is that the town is then at peak attendance, so at its highest prices. Outside the festival, an evening out comes down to the historic centre and its 7.5/10. No specific venue is named in this guide: a small town's programme changes every season and we would rather point you to the tourist office than name a room that has closed. What can be said is the structure: a student and young-worker population of 37.1%, so bars open on weekdays, and a second city on the same railway line for the nights when the appetite is bigger than the local offer.",
+      },
+      {
+        heading: "Getting around without a car: the Rhône line does the work",
+        body: "Our service table carries no entry for Vienne, which means undocumented rather than unserved. The town sits on the Rhône valley railway line between Lyon and the south, and that is what makes the trip workable without a car: the transport score is 7.7/10. According to our district notes the station is in Estressin, at the edge of town. That is the argument for staying there if you plan return trips to Lyon, and the argument against it if you want to walk to the historic centre in the evening. Check the last train before you leave for the evening, as everywhere in this series, because that hour decides whether Lyon is an option or a one-way ticket.",
+      },
+      {
+        heading: "The single supplement: a moderate cost",
+        body: "At 6.7/10 for cost, Vienne is clearly cheaper than Anglet (4.5/10) in this same batch. The single-room supplement mechanically comes to a fraction of the room price, so it weighs less the cheaper the room is, and the local rent references, 500 € for a studio and 940 € for a three-room flat, are below Anglet's, the other Atlantic-side destination here. The usual reservation applies: a cost score measures living costs on the spot, never the price of a hotel night. The remote-work score of 7.5/10, on the other hand, clears the threshold our profile page uses as an indirect sign of a furnished-flat market, so a weekly furnished let is a reasonable thing to look for instead of a hotel room.",
+      },
+      {
+        heading: "When to go: July for the festival, September for the town",
+        body: "Our records give 2,100 hours of sunshine a year, which puts Vienne in the upper part of the corpus without making it a seaside resort. No monthly normals are published here: the town's reference weather station is not close enough for a table to be honest. The choice of dates is a simple trade. July gives the festival, the crowds and the highest prices; September and October give a town returning to its student rhythm, terraces still usable and low-season rates. February is not a dead month either: the young population stays, which is the difference between Vienne and a resort.",
+      },
+    ],
+    relatedCities: ["vienne"],
+    tags: ["solo travel","solo travel vienne","travelling alone in france","jazz à vienne","auvergne-rhone-alpes","single supplement"],
+  },
+  {
+    slug: "solo-travel-in-anglet-2026",
+    title: "Solo travel in Anglet (2026): surf, 9% more residents and a cost score of 4.5/10",
+    metaTitle: "Solo Travel in Anglet 2026: Stay, Go Out, Budget",
+    metaDesc: "Anglet alone: daily life 8.7/10, the Plages district at 8/10 for evenings, but cost 4.5/10 and 37.3% aged 60 or over. Who it suits, where to stay, when to go.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 6,
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    intro: "Anglet is the destination in this batch with the most to be forgiven, and it sells itself badly as a postcard. Its daily-life score is 8.7/10, the top of the batch, and its Plages district reaches 8/10 for evenings. But 37.3% of its 42,288 residents are aged 60 or over, and its cost score of 4.5/10 makes it the most expensive destination of the batch. This guide does not sell it: it says who it suits, which is anyone who comes for the surf and the beach atmosphere and accepts paying the supplement. Anglet is the French Basque coast, next to Biarritz and Bayonne.",
+    sections: [
+      {
+        heading: "Why Anglet: the best daily-life score, and the crowd that comes with it",
+        body: "The town gained 3,625 residents between 2016 and 2022, a rise of 9.4%, and scores 8.7/10 for daily life, 7.7/10 for transport, 7.8/10 for nature and 7.2/10 for safety. Culture, at 6.6/10, is the weakest line on the page: Anglet is not a town of stages and theatres, it is a town of beaches, pine woods and surf. The 15 to 29 share is 26.8%, decent but well under Vienne, and the 60 or over share is 37.3%. That has to be said, because an evenings trip here meets an older crowd than in the university towns of this batch. The criterion of this guide stays \"looking for company\", and Anglet's answer is: company, yes, but outdoors first, by the water.",
+      },
+      {
+        heading: "Where to stay: Les Plages or the 5 Cantons, 70 € apart",
+        body: "Our district notes distinguish three areas. Les Plages, classed as trendy, scores 8/10 for evenings and 8.5/10 overall for a two-room flat at 970 €, with 4.5 km of beaches and the Chiberta pine wood. The 5 Cantons, the administrative and shopping town centre, drops to 7/10 for evenings at 900 €, with a cost score of 6.5/10 against 5.5/10 at Les Plages. Chiberta, residential, is the quietest (5.5/10) at 950 €. For a trip built on going out, Les Plages is the obvious choice; the 5 Cantons saves 70 € on the reference rent and one point of evening life, and is better served by the Basque Country bus network our notes mention. The town-wide references are 620 € for a studio, 890 € for a two-room flat and 1,200 € for a three-room flat.",
+      },
+      {
+        heading: "Going out on a Tuesday: a seafront more than a centre",
+        body: "The evening figures (8/10 at Les Plages, 7/10 at the 5 Cantons) are decent without being those of a metropolis, and they are driven by surf and the seafront rather than by a town-centre bar scene. In practice the evening often continues in Biarritz or Bayonne, both next door: for Bayonne a full guide exists in this series, with its pintxos bars (small bar snacks served on a slice of bread, the Basque cousin of tapas). No venue is named here for lack of recent checking. The method tip: choose your dates by swell and surf season rather than by a concert calendar, and treat the evenings as a complement.",
+      },
+      {
+        heading: "Getting around without a car: get off at Bayonne, not at Anglet",
+        body: "Anglet has no passenger station: the useful one is next-door Bayonne, which TGV (high-speed) trains serve. Our service table carries no entry for Anglet, which means undocumented. The transport score is 7.7/10, which reflects the bus network more than any rail service. On the ground a car-free stay is possible between Les Plages and the 5 Cantons but means checking the last evening line: it decides whether you ride the bus home or walk, and the distance between the seafront and the centre is not negligible.",
+      },
+      {
+        heading: "The single supplement: the heaviest of the batch, and that is the point",
+        body: "At 4.5/10, Anglet is the most expensive town of this batch of six, and cost is the main reason to think before going alone. The single-room supplement weighs more here because the room costs more: the difference shows in the rent references, 890 € for a two-room flat against 700 € in Vienne. Three habits limit the bill: aim for the low season, stay in the 5 Cantons rather than Les Plages, and look at weekly furnished lets rather than hotels, the remote-work score of 7.5/10 pointing to a furnished-let market. No hotel amount is put forward.",
+      },
+      {
+        heading: "When to go: September, and never the crowd month",
+        body: "Our records give 2,000 hours of sunshine a year. No monthly normals are published: the reference station is too far away to be honest. The trade is that of any Atlantic coast: July and August concentrate the crowds and the prices, while September and October keep the sea usable for surfers, with reasonable attendance and falling rates. The ghost-resort risk is smaller than elsewhere because the town is lived in all year (42,288 residents), but the holiday crowd leaves in October. This is a late-summer trip, not a winter one.",
+      },
+    ],
+    relatedCities: ["anglet"],
+    tags: ["solo travel","solo travel anglet","travelling alone in france","basque coast","surf","nouvelle-aquitaine"],
+  },
+  {
+    slug: "solo-travel-in-limoges-2026",
+    title: "Solo travel in Limoges (2026): 39.5% aged 15 to 29 and a two-room flat at 600 €",
+    metaTitle: "Solo Travel in Limoges 2026: Stay, Go Out, Budget",
+    metaDesc: "Limoges alone: 39.5% aged 15 to 29, a 600 € two-room flat reference, a town of 129,754 that lives all year. Where to stay and how to go out.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 6,
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    intro: "Limoges is a town nobody names for a holiday, and that is its advantage. It has 129,754 residents, 39.5% of them aged 15 to 29 at the 2022 census, and a two-room flat reference of 600 €: the opposite of a resort. Its overall score is 6.1/10, its daily-life and culture scores are 5.9/10, and this guide gives them as they are. The town has lost 2,906 residents since 2016, a fall of 2.2%, and that is stated too. For someone looking for company rather than scenery, the question is not \"is it pretty\" but \"is anything happening on a Tuesday in November\". Here, yes.",
+    sections: [
+      {
+        heading: "Why Limoges: the anti-ghost-resort",
+        body: "The 15 to 29 share, 39.5%, is second in the batch, and the 60 or over share is 28%: the town holds up all year through its university and its jobs, not through visitors. Our tags describe it as university, quiet, affordable, with porcelain as its signature. The scores make no attempt to flatter: 6.1/10 overall, 5.9/10 for daily life and culture, 6.1/10 for transport, 7.1/10 for cost, 6.1/10 for safety. The population decline of 0.37% a year is real and the page shows it. Limoges is not a destination that dazzles; it is one that does not depend on the season, and for a trip aimed at off-season atmosphere that is a good criterion.",
+      },
+      {
+        heading: "Where to stay: the historic centre, without hesitating",
+        body: "Our district notes list three areas. The historic centre, the heart of the porcelain capital according to the notes, scores 7.5/10 for evenings for a two-room flat at 620 €. Aurence, residential and leafy to the north, drops to 4.5/10 at 640 €, so dearer and less lively. Beaubreuil, working class, falls to 5/10 at 520 €: the cheapest but the furthest from the centre. The choice is therefore the historic centre, served by the trolleybus (an electric bus on overhead wires) the notes mention. The town-wide references are 440 € for a studio, 600 € for a two-room flat and 800 € for a three-room flat, among the lowest in the series.",
+      },
+      {
+        heading: "Going out on a Tuesday: a student crowd, so weeknight evenings",
+        body: "The figure that matters is 39.5%. A town where nearly four residents in ten are aged 15 to 29 has bars open on weekdays and a demand for cheap evenings, whatever the tourist calendar says. Our notes score the centre's evenings at 7.5/10. We name no venue and no bar: programmes and addresses change, and nothing in our data establishes them. The advice is to start in the historic centre, see on the spot where the student crowd goes, and avoid university holiday weekends, when the town empties of its main clientele.",
+      },
+      {
+        heading: "Getting around without a car: a trolleybus and a train to Paris",
+        body: "Our service table carries no entry for Limoges, which means undocumented. The transport score is 6.1/10. The district notes mention the trolleybus linking the centre to Beaubreuil, and the town's station is served by trains to Paris and to Toulouse. Timetables and journey times should be checked with the operator. A car-free stay is workable because everything this guide cares about is concentrated in the historic centre, on foot.",
+      },
+      {
+        heading: "The single supplement: Limoges's number-one argument",
+        body: "At 7.1/10 for cost, Limoges shares the best cost score of the batch of six with Saint-Étienne. A single-room supplement that comes to a fraction of the room price weighs little when the room is cheap, and the rent references are among the lowest of the batch. The reservation on the remote-work score, 5.3/10, applies: it does not clear the 6.5 threshold that would indicate a furnished-flat market, so count on a hotel or a guesthouse rather than a weekly let. No hotel rate is given.",
+      },
+      {
+        heading: "When to go: all year, with a reservation for July and August",
+        body: "Our records give 1,871 hours of sunshine a year, an average figure. No monthly normals here, the reference station is too far away. What can be said without data: Limoges has a degraded oceanic climate, so cool winters and temperate summers. The low point is not winter but summer, when the students leave. For a trip about atmosphere, the useful period runs from September to June.",
+      },
+    ],
+    relatedCities: ["limoges"],
+    tags: ["solo travel","solo travel limoges","travelling alone in france","student city","off-season","nouvelle-aquitaine"],
+  },
+  {
+    slug: "solo-travel-in-saint-etienne-2026",
+    title: "Solo travel in Saint-Étienne (2026): 40.9% aged 15 to 29, the design city that does not try to please",
+    metaTitle: "Solo Travel in Saint-Étienne 2026: Go Out, Stay",
+    metaDesc: "Saint-Étienne alone: 40.9% aged 15 to 29, a 580 € two-room flat reference, tram and TGV. Safety 4.3/10: what that changes and where to stay.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 6,
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    intro: "Saint-Étienne is the town in this batch with the highest share of 15 to 29 year olds: 40.9% of its 172,569 residents were in that bracket at the 2022 census, and its population is stable (+0.4% since 2016). The two-room flat reference is 580 €. Its overall score is 5.5/10 and its safety score 4.3/10, which is a fact and not a reason to rule the town out: the question is where to stay. The guide says where. Saint-Étienne is an industrial town south-west of Lyon, well known in France for its football club and for design.",
+    sections: [
+      {
+        heading: "Why Saint-Étienne: a working town and a student town",
+        body: "Our tags describe it: affordable, design, sport, mountain, industry. The scores are plain: 4.9/10 for daily life, 5.9/10 for culture, 6.7/10 for transport, 7.1/10 for cost and 4.3/10 for safety. The town does not seduce with a postcard and does not try to; it lives because 40.9% of its residents are young and because its people work there. The 60 or over share is 25.7%, so the town is far from a retirees' resort. It is a destination for those who prefer a real town to a setting: you meet residents, not holidaymakers.",
+      },
+      {
+        heading: "Where to stay: the town centre, and nowhere else for this trip",
+        body: "Our notes distinguish three districts. The town centre, pedestrianised, with the Cité du design and the modern art museum according to the notes, scores 7.5/10 for evenings at 620 €. Le Crozet, residential at the foot of the Pilat hills, drops to 5.5/10 at 650 €. Montreynaud, working class, reached by the urban cable car according to the notes, scores 5/10 at 490 € and 5.5/10 for safety. The town centre has the best evening life, the best transport score and a safety score of 6.8/10, clearly above the commune's 4.3/10: it is the only coherent choice. The town-wide references are 420 € for a studio, 580 € for a two-room flat and 770 € for a three-room flat.",
+      },
+      {
+        heading: "Going out on a Tuesday: design, football and a young crowd",
+        body: "The town is at once a design city, with a Cité du design and an international biennial, and a football city, with a stadium famous across France. Those are two calendars: the biennial, which shapes some seasons, and the league fixtures. The centre's evening life, scored 7.5/10, leans on the student crowd. No venue is named here. As each time in this series we prefer a method tip: check the Cité du design programme and the stadium calendar before choosing dates, since either can fill the hotels.",
+      },
+      {
+        heading: "Getting around without a car: tram, TGV, cable car",
+        body: "This is the only town in the batch whose service table is filled in: tramway, TGV and high-level bus service. The transport score is 6.7/10. The tram crosses the town, the main station is served by high-speed trains, and the urban cable car links Montreynaud to the rest of the town. A car-free stay is therefore well documented. Check the last tram before going out.",
+      },
+      {
+        heading: "The single supplement: the cheapest of the batch",
+        body: "With 7.1/10 for cost and the lowest rent references of the batch, Saint-Étienne is one of the towns where the single-room supplement matters least in absolute terms. The reservation is the remote-work score, 4.8/10, which does not clear the 6.5 threshold: a weekly furnished let is not guaranteed, and the hotel remains the reflex. And the safety score of 4.3/10 is a criterion for choosing the district, not for giving up: staying in the town centre is enough to bring the figure back to 6.8/10 in our notes.",
+      },
+      {
+        heading: "When to go: September to June, not August",
+        body: "Our records give 1,820 hours of sunshine a year, among the lowest of this batch. No monthly normals here. The town sits at the foot of the Pilat hills, so it is cooler than Lyon, and winters can be harsh. The low point is summer, when students leave the town: a stay from late September to May is the most representative of what the town offers. The stadium calendar and the biennial decide the rest.",
+      },
+    ],
+    relatedCities: ["saint-etienne"],
+    tags: ["solo travel","solo travel saint-etienne","travelling alone in france","design city","auvergne-rhone-alpes","off-season"],
+  },
+  {
+    slug: "solo-travel-in-dunkerque-2026",
+    title: "Solo travel in Dunkirk (2026): a winter carnival, a beach at Malo and a two-room flat at 560 €",
+    metaTitle: "Solo Travel in Dunkirk 2026: Stay, Go Out, Budget",
+    metaDesc: "Dunkirk alone: 34.6% aged 15 to 29, a 560 € two-room flat reference, the winter carnival and Malo-les-Bains. Where to stay, when to go, the budget.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 6,
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    intro: "Dunkerque, which English speakers call Dunkirk, is the cheapest town of this batch on the two-room flat, at 560 €, and the least sunny, at 1,620 hours a year. It has 87,013 residents, 34.6% of them aged 15 to 29, and a population down slightly, by 1.2% since 2016. Its argument for a trip about company rather than scenery rests on a cultural fact our records carry as a tag: the carnival, held in winter, at the season when seaside resorts are empty. It is the anti-ghost-resort in the literal sense: a seaside town that is alive in February.",
+    sections: [
+      {
+        heading: "Why Dunkirk: a seaside town that does not wait for summer",
+        body: "The tags in our records: industrial port, North Sea, affordable, carnival, gentle mobility. The scores are modest: 5.4/10 overall, 5.3/10 for daily life, 5.9/10 for culture, 6.1/10 for transport, 6.4/10 for cost and 4.5/10 for safety. The town holds up all year through its port, its industry and its young people (34.6% aged 15 to 29, 28.7% aged 60 or over). It is not a postcard destination: it is a town that accepts what it is, and whose main festival falls in winter.",
+      },
+      {
+        heading: "Where to stay: Malo-les-Bains or the centre, 40 € apart",
+        body: "Three areas in our notes. The town centre, rebuilt after the war and enlivened by the carnival culture according to the notes, scores 7/10 for evenings at 540 €, with 8.5/10 for cost. Malo-les-Bains, a seaside resort built into the town with its long sand beach, scores 6/10 at 580 € and 7.8/10 overall. Fort-Mardyck, suburban houses, drops to 4/10 at 500 €. For an evenings trip the centre is the choice; Malo suits anyone who wants the beach and accepts 40 € more and one point less of evening life. The town-wide references are 400 € for a studio, 560 € for a two-room flat and 750 € for a three-room flat.",
+      },
+      {
+        heading: "Going out on a Tuesday: the carnival is a calendar, not an evening",
+        body: "The Dunkirk carnival is a local institution held in winter over several weeks, and it structures the town's social life. It is also a calendar to watch: full hotels, a very marked atmosphere, noise. It suits anyone looking for company and not for calm. Outside the carnival, the centre's evening life is scored 7/10. We give no dates and no precise venues, since the programme changes every year: the tourist office keeps the calendar. If the carnival does not appeal, avoid those weeks.",
+      },
+      {
+        heading: "Getting around without a car: a bus network the town puts forward",
+        body: "Our service table carries no entry for Dunkirk, which means undocumented. The transport score is 6.1/10, and the \"gentle mobility\" tag in our records points to the bus network, which the town is known for having made free: check before you leave. A car-free stay is workable between the centre and Malo-les-Bains. The station is served by trains to Lille; journey times should be checked with the operator.",
+      },
+      {
+        heading: "The single supplement: the cheapest two-room flat of the batch",
+        body: "With 6.4/10 for cost and a two-room flat at 560 €, Dunkirk is the cheapest destination of the batch on the two-room flat. The single-room supplement comes to a fraction of the room price: the cheaper the room, the less it weighs. The remote-work score of 4.8/10 does not clear the 6.5 threshold, so count on a hotel or a guesthouse rather than a weekly let. And safety at 4.5/10 is managed by choice of district: the centre scores 6.5/10, Malo 7.5/10.",
+      },
+      {
+        heading: "When to go: February for the carnival, September for the beach",
+        body: "Our records give 1,620 hours of sunshine a year, the lowest of this batch of six, and that has to be said. No monthly normals are published, the reference station being too far away. As the North Sea dictates, summers are cool and winters cold and windy. The choice is therefore between a winter stay built around the carnival and its atmosphere, and a summer stay built around the beach at Malo. Both work, for different audiences, and the town is lived in either way. The name will also be familiar to English speakers from the 1940 evacuation; this guide is about the town as it is lived in today.",
+      },
+    ],
+    relatedCities: ["dunkerque"],
+    tags: ["solo travel","solo travel dunkirk","travelling alone in france","dunkirk carnival","malo-les-bains","hauts-de-france"],
+  },
+  {
+    slug: "solo-travel-in-brive-la-gaillarde-2026",
+    title: "Solo travel in Brive-la-Gaillarde (2026): a market, a rugby ground and a two-room flat at 580 €",
+    metaTitle: "Solo Travel in Brive 2026: Stay, Go Out, Budget",
+    metaDesc: "Brive alone: culture 7.5/10, 32.1% aged 15 to 29, covered market, rugby, a 580 € two-room flat reference. A Corrèze town that lives all year.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 6,
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    intro: "Brive-la-Gaillarde has 46,769 residents and the most gastronomic set of tags in this batch: rugby, black Périgord, gastronomy, Corrèze, authenticity, market. Its culture score is 7.5/10, its cost score 6.7/10 and its two-room flat reference 580 €. The figures that temper this: 34.4% of residents are aged 60 or over, and the 15 to 29 share is 32.1%. This is a mid-sized town that lives all year, not a party destination: you come for a market and rugby-ground atmosphere, among locals.",
+    sections: [
+      {
+        heading: "Why Brive: a town that does not need visitors",
+        body: "Brive is stagnating demographically, -0.5% since 2016, and that is stated. Its scores are solid without being brilliant: 6.8/10 overall, 6.8/10 for daily life, 7/10 for transport, 7.5/10 for culture, 6.7/10 for safety. The age structure, 32.1% aged 15 to 29 and 34.4% aged 60 or over, describes a balanced provincial town but an older one than the university towns of this batch. That is the point to know before booking: the atmosphere is that of a mid-sized, friendly town, with regulars.",
+      },
+      {
+        heading: "Where to stay: the centre, around the market halls",
+        body: "Three areas in our notes. The town centre, lively around the covered market and the halles (market halls) according to the notes, scores 7.5/10 for evenings at 590 € and 8/10 for safety. Malemort, residential on the Corrèze river, drops to 5.5/10 at 560 €. The hillside area, suburban houses, scores 3.5/10 at 510 €. The choice is the centre: 30 € apart from Malemort for two points of evening life. The town-wide references are 420 € for a studio, 580 € for a two-room flat and 780 € for a three-room flat.",
+      },
+      {
+        heading: "Going out on a Tuesday: the market and rugby as a calendar",
+        body: "The centre's evening life is scored 7.5/10. The town's two landmarks are its market halls, which structure life in the centre, and its rugby club, whose matches fill the bars. The exact dates of the season and of events change every year and we do not give them. The town also hosts a well-known book fair in early November: an example of the kind of date that gives a town a reason to be alive out of season, to be confirmed with the tourist office. Brive suits anyone who likes counter and terrace atmospheres and a stadium crowd.",
+      },
+      {
+        heading: "Getting around without a car: a station on the Paris-Toulouse line",
+        body: "Our service table carries no entry for Brive, which means undocumented. The transport score is 7/10. The town is served by long-distance trains between Paris and Toulouse, which makes it reachable without a car; journey times should be checked with the operator. On the spot the centre is walkable, and trips out to the black Périgord need a car or a coach.",
+      },
+      {
+        heading: "The single supplement: the cost of a mid-sized town",
+        body: "At 6.7/10 for cost and a two-room flat at 580 €, Brive is in the affordable half of this batch. The single-room supplement is a fraction of the room price, so little when the room is at this level. The remote-work score of 6.3/10 is just under the 6.5 threshold that indicates a furnished-flat market: favour a hotel or a guesthouse. No rate is put forward, this site does not quote hotel nights.",
+      },
+      {
+        heading: "When to go: autumn, for the market and the town resuming",
+        body: "Our records give 2,000 hours of sunshine a year. No monthly normals are published here. Autumn is the season most consistent with the town's identity, its food and its rugby, and the moment when the town runs at its normal pace. Brive has no high season to flee: it is a low-intensity destination, useful precisely because it does not change with the holiday calendar.",
+      },
+    ],
+    relatedCities: ["brive-la-gaillarde"],
+    tags: ["solo travel","solo travel brive","travelling alone in france","rugby","covered market","nouvelle-aquitaine"],
+  },
+  {
     slug: "single-parent-in-annemasse-2026",
     title:
       "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",

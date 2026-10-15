@@ -8401,6 +8401,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "solo-travel-in-vienne-2026",
+      "title": "Solo travel in Vienne, France (2026): 37.1% aged 15 to 29, on the Lyon line",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-anglet-2026",
+      "title": "Solo travel in Anglet (2026): surf, 9% more residents and a cost score of 4.5/10",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-limoges-2026",
+      "title": "Solo travel in Limoges (2026): 39.5% aged 15 to 29 and a two-room flat at 600 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-saint-etienne-2026",
+      "title": "Solo travel in Saint-Étienne (2026): 40.9% aged 15 to 29, the design city that does not try to please",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-dunkerque-2026",
+      "title": "Solo travel in Dunkirk (2026): a winter carnival, a beach at Malo and a two-room flat at 560 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-brive-la-gaillarde-2026",
+      "title": "Solo travel in Brive-la-Gaillarde (2026): a market, a rugby ground and a two-room flat at 580 €",
+      "emoji": "🍸"
+    },
+    {
       "slug": "single-parent-in-annemasse-2026",
       "title": "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
       "emoji": "🧑‍🍼"
@@ -8853,19 +8883,19 @@
       "count": 125
     },
     {
-      "slug": "occitanie",
-      "label": "occitanie",
-      "count": 69
-    },
-    {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 67
+      "count": 69
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 66
+      "count": 69
+    },
+    {
+      "slug": "occitanie",
+      "label": "occitanie",
+      "count": 69
     },
     {
       "slug": "grand-est",
@@ -8873,9 +8903,24 @@
       "count": 65
     },
     {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 62
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
+      "count": 62
+    },
+    {
       "slug": "relocation",
       "label": "relocation",
       "count": 59
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 57
     },
     {
       "slug": "ile-de-france",
@@ -8883,24 +8928,9 @@
       "count": 57
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 56
-    },
-    {
       "slug": "single-supplement",
       "label": "single supplement",
-      "count": 56
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 56
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
-      "count": 56
+      "count": 57
     },
     {
       "slug": "buying-property-france",
