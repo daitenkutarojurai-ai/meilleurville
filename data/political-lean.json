@@ -20718,5 +20718,40 @@
 "abstentionPct": 49.8,
 "blancsNulsPct": 3.7
 }
+},
+"ozoir-la-ferriere": {
+"lean": "extreme_droite",
+"topPct": 32.0,
+"blocs": {
+"gauche": 30.7,
+"centre": 29.6,
+"droite": 7.8,
+"extreme_droite": 32.0
+},
+"leanScore": 9.1,
+"insee": "77350",
+"matchedBy": "insee",
+"cands": {
+"arthaud": 0.5,
+"roussel": 2.1,
+"melenchon": 21.8,
+"hidalgo": 1.1,
+"jadot": 4.7,
+"poutou": 0.6,
+"macron": 29.6,
+"pecresse": 5.8,
+"lassalle": 2.0,
+"lepen": 21.9,
+"zemmour": 7.6,
+"dupont-aignan": 2.5
+},
+"topCand": "macron",
+"topCandPct": 29.6,
+"turnout": {
+"inscrits": 14099,
+"exprimes": 10190,
+"abstentionPct": 26.0,
+"blancsNulsPct": 2.3
+}
 }
 }

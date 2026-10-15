@@ -13,7 +13,7 @@
    "https://eeadmz1-downloads-api-appservice.azurewebsites.net/ParquetFile/urls"
   ],
   "licence": "EEA re-use policy (CC BY 4.0); measurements by the AASQA, compiled by LCSQA (Licence Ouverte)",
-  "generatedAt": "2026-10-14",
+  "generatedAt": "2026-10-15",
   "evaluated": [
    "annecy",
    "nantes",
@@ -606,7 +606,8 @@
    "carquefou",
    "vallauris",
    "sainte-marie-reunion",
-   "sainte-suzanne-reunion"
+   "sainte-suzanne-reunion",
+   "ozoir-la-ferriere"
   ],
   "pollutants": [
    "no2",
@@ -16280,6 +16281,40 @@
     "area": "suburban",
     "distanceKm": 14.4,
     "coverage": 0.87
+   }
+  },
+  "ozoir-la-ferriere": {
+   "no2": {
+    "value": 16.2,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 8.9,
+    "coverage": 1
+   },
+   "pm10": {
+    "value": 15.4,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 8.9,
+    "coverage": 0.98
+   },
+   "pm25": {
+    "value": 10.2,
+    "station": "VITRY-SUR-SEINE",
+    "stationCode": "FR04034",
+    "area": "urban",
+    "distanceKm": 21.7,
+    "coverage": 0.99
+   },
+   "o3": {
+    "value": 13,
+    "station": "LOGNES",
+    "stationCode": "FR04098",
+    "area": "urban",
+    "distanceKm": 8.9,
+    "coverage": 1
    }
   }
  }

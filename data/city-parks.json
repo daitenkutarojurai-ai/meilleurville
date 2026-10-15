@@ -72839,6 +72839,111 @@
       }
     ]
   },
+  "ozoir-la-ferriere": {
+    "crawledAt": "2026-10-15",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w220365204",
+        "name": "Parc Belle-croix",
+        "kind": "park",
+        "lat": 48.76073,
+        "lng": 2.68995,
+        "areaM2": 21853,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w364662563",
+        "name": "Parc de La Brêche-aux-Loups",
+        "kind": "park",
+        "lat": 48.7664,
+        "lng": 2.67555,
+        "areaM2": 19099,
+        "playground": true,
+        "wheelchair": true,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w220366968",
+        "name": "Parc de la Doutre",
+        "kind": "park",
+        "lat": 48.7634,
+        "lng": 2.6687,
+        "areaM2": 17447,
+        "playground": true,
+        "wheelchair": true,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w219654066",
+        "name": "Parc de la Charmeraie",
+        "kind": "park",
+        "lat": 48.75949,
+        "lng": 2.67323,
+        "areaM2": 6860,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w219691798",
+        "name": "Parc Oudry",
+        "kind": "park",
+        "lat": 48.76133,
+        "lng": 2.67948,
+        "areaM2": 6468,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w368512365",
+        "name": "Parc de la Mairie",
+        "kind": "park",
+        "lat": 48.76158,
+        "lng": 2.67315,
+        "areaM2": 5429,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w1161790278",
+        "name": "Aire de Jeux",
+        "kind": "playground",
+        "lat": 48.76293,
+        "lng": 2.66743,
+        "areaM2": 24,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "palaiseau": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",

@@ -8189,6 +8189,27 @@
       "height": 300
     }
   },
+  "ozoir-la-ferriere": {
+    "insee": "77350",
+    "qid": "Q274588",
+    "file": "Entrée d'Ozoir-la-Ferrière (1).jpg",
+    "author": "Romain D C",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Romain_D_C",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_d%27Ozoir-la-Ferri%C3%A8re_(1).jpg",
+    "color": "#d8f8f8",
+    "hero": {
+      "src": "/photos/villes/ozoir-la-ferriere-1024.12f6fa04.webp",
+      "width": 1024,
+      "height": 640
+    },
+    "card": {
+      "src": "/photos/villes/ozoir-la-ferriere-480.dc5168ed.webp",
+      "width": 480,
+      "height": 300
+    }
+  },
   "palaiseau": {
     "insee": "91477",
     "qid": "Q205580",

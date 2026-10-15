@@ -61416,6 +61416,163 @@
     ],
     "accessedAt": "2026-09-11T14:29:18.824Z"
   },
+  "ozoir-la-ferriere": {
+    "crawledAt": "2026-10-15",
+    "source": "gbif",
+    "queryVersion": 3,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 183655,
+    "observers": 1223,
+    "observersTruncated": false,
+    "datasets": 440,
+    "datasetsTruncated": false,
+    "species": 4000,
+    "speciesTruncated": false,
+    "rarefiedN": 500,
+    "rarefied": 240.2,
+    "rarefiedExact": true,
+    "rarefiedUpper": 240.2,
+    "groups": {
+      "birds": 233,
+      "mammals": 56,
+      "insects": 1947,
+      "amphibians": 17,
+      "reptiles": 11,
+      "plants": 1222
+    },
+    "groupsTruncated": [],
+    "groupsUnresolved": [],
+    "threatenedSpecies": 27,
+    "threatenedSpeciesTruncated": false,
+    "topSpecies": [
+      {
+        "key": 9705453,
+        "infoVersion": 3,
+        "scientificName": "Parus major",
+        "vernacularFr": "Mésange charbonnière",
+        "vernacularEn": "Great Tit",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 5549
+      },
+      {
+        "key": 2487879,
+        "infoVersion": 3,
+        "scientificName": "Cyanistes caeruleus",
+        "vernacularFr": "Mésange bleue",
+        "vernacularEn": "Blue Tit",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4821
+      },
+      {
+        "key": 2494422,
+        "infoVersion": 3,
+        "scientificName": "Fringilla coelebs",
+        "vernacularFr": "Pinson des arbres",
+        "vernacularEn": "Chaffinch",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4215
+      },
+      {
+        "key": 2490719,
+        "infoVersion": 3,
+        "scientificName": "Turdus merula",
+        "vernacularFr": "Merle noir",
+        "vernacularEn": "Blackbird",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4105
+      },
+      {
+        "key": 2492462,
+        "infoVersion": 3,
+        "scientificName": "Erithacus rubecula",
+        "vernacularFr": "Rouge-gorge familier",
+        "vernacularEn": "Continental Robin",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3968
+      },
+      {
+        "key": 5217160,
+        "infoVersion": 3,
+        "scientificName": "Bufo bufo",
+        "vernacularFr": "Crapaud commun",
+        "vernacularEn": "Common European Toad",
+        "kingdom": "Animalia",
+        "class": "Amphibia",
+        "count": 3852
+      },
+      {
+        "key": 5229490,
+        "infoVersion": 3,
+        "scientificName": "Pica pica",
+        "vernacularFr": "Pie bavarde",
+        "vernacularEn": "Black-billed Magpie",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3719
+      },
+      {
+        "key": 2495455,
+        "infoVersion": 3,
+        "scientificName": "Columba palumbus",
+        "vernacularFr": "Palombe",
+        "vernacularEn": "Common Wood Pigeon",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3550
+      },
+      {
+        "key": 9409796,
+        "infoVersion": 3,
+        "scientificName": "Corvus corone",
+        "vernacularFr": "Corneille noire",
+        "vernacularEn": "Carrion Crow",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3319
+      },
+      {
+        "key": 9809229,
+        "infoVersion": 3,
+        "scientificName": "Sturnus vulgaris",
+        "vernacularFr": "Etourneau sansonnet",
+        "vernacularEn": "Common Starling",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3041
+      },
+      {
+        "key": 5231190,
+        "infoVersion": 3,
+        "scientificName": "Passer domesticus",
+        "vernacularFr": null,
+        "vernacularEn": "Common House Sparrow",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2875
+      },
+      {
+        "key": 5845582,
+        "infoVersion": 3,
+        "scientificName": "Chloris chloris",
+        "vernacularFr": "Verdier",
+        "vernacularEn": "Common Greenfinch",
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2472
+      }
+    ],
+    "accessedAt": "2026-10-15T18:25:08.139Z"
+  },
   "palaiseau": {
     "crawledAt": "2026-09-10",
     "source": "gbif",

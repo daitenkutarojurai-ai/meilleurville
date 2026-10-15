@@ -7609,6 +7609,26 @@
     ],
     "queryVersion": 1
   },
+  "ozoir-la-ferriere": {
+    "coverage": "dvf",
+    "apartment": {
+      "sales": 149,
+      "medianM2": 4200,
+      "p25M2": 3723,
+      "p75M2": 4529
+    },
+    "house": {
+      "sales": 279,
+      "medianM2": 3500,
+      "p25M2": 3094,
+      "p75M2": 3931
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "queryVersion": 1
+  },
   "palaiseau": {
     "coverage": "dvf",
     "apartment": {

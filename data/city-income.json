@@ -1544,6 +1544,10 @@
     "medianIncome": 18340,
     "povertyRate": 28
   },
+  "ozoir-la-ferriere": {
+    "povertyRate": 9,
+    "medianIncome": 27270
+  },
   "palaiseau": {
     "medianIncome": 28570,
     "povertyRate": 11
