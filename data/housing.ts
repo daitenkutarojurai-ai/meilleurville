@@ -602,7 +602,7 @@ export const HOUSING: Record<string, HousingData> = {
   "vallauris": { avgRentT1: 700, avgRentT2: 990, avgRentT3: 1330, avgBuyPriceM2: 4500 },
   "sainte-marie-reunion": { avgRentT1: 450, avgRentT2: 640, avgRentT3: 830, avgBuyPriceM2: 2300 },
   "sainte-suzanne-reunion": { avgRentT1: 450, avgRentT2: 640, avgRentT3: 830, avgBuyPriceM2: 2600 },
-  "ozoir-la-ferriere": { avgRentT1: 680, avgRentT2: 930, avgRentT3: 1250, avgBuyPriceM2: 5000 },
+  "ozoir-la-ferriere": { avgRentT1: 680, avgRentT2: 930, avgRentT3: 1250, avgBuyPriceM2: 4900 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

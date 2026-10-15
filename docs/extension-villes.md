@@ -302,6 +302,7 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | Croix | 59163 | +32 % |
 | Wasquehal | 59646 | +68 % |
 | Saint-Leu (974) | 97413 | 4 710 ÷ 2 858 = 1,65 ; 4ᵉ voisine à 27 km |
+| Les Lilas | 93045 | remesurée 2026-10-15 : voisines Romainville* · Bagnolet · Noisy-le-Sec · Aubervilliers (1,2-4,6 km), DVF appart. ~6 600 €/m² (PAP 6 621, Immovrai 6 571, Square Habitat 6 640) ÷ 4 590,5 au dépôt = **1,44** ; Vincennes / Saint-Mandé (94) plus proches que la 4ᵉ |
 | Le Plessis-Trévise, Villiers-sur-Marne (94079) | à confirmer / 94079 | médiane tirée par Saint-Maur / Nogent / Le Perreux (repère ~6 800 €/m²) |
 
 **C. Voisines trop rares, trop lointaines ou du mauvais côté** (règle standard **et** règle ② échouent) :
@@ -329,7 +330,6 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | Cenon (33) | à confirmer | rive droite, voisines rive gauche |
 | Mitry-Mory (77) | à confirmer | vraies voisines en 93 ; règle ① refusée (écart de biais sécurité 2,0) |
 | Limeil-Brévannes (94) | à confirmer | plus proche voisine en Essonne |
-| Les Lilas | 93045 | Pantin et Montreuil en override |
 | Saint-Ouen-l'Aumône | à confirmer | remesurée le 2026-10-15 : Cergy 3,6 · Herblay* 7,2 · Cormeilles 9,7 · Franconville 9,8 km, mais Conflans (78) à 4,8 km — même alerte de frontière que Villeparisis |
 | Montigny-lès-Cormeilles | 95424 | seconde source DVF communale manquante (lot 13) |
 | Deuil-la-Barre | à confirmer | Sarcelles dans la médiane |
@@ -1885,3 +1885,30 @@ d'Armainvilliers et de Ferrières », ~5 683 ha sur 12 communes).
 inchangé : overrides documentés (Villeneuve-d'Ascq en tête), seuil sous 20 000 hab., règle Antilles-Guyane,
 validation de la levée « 4ᵉ voisine > 25 km » à La Réunion, et une décision sur l'alerte de frontière quand la
 règle standard tient (Villeparisis, Saint-Ouen-l'Aumône).
+
+
+### 2026-10-15 (quatrième run) — aucun lot : repère d'Ozoir-la-Ferrière relu, Les Lilas et Limeil-Brévannes remesurées
+
+`seed-coverage` au départ : Ozoir-la-Ferrière **servie par le runner** (`a04e7e9`), seul Carquefou attend encore sa
+photo → lot autorisé.
+
+*Relecture à mesure égale* (`seed:neighbours:relire`) : Ozoir DVF appartements au dépôt **4 200** ÷ 3 333,5 = **1,260**
+(la recherche web du lot donnait 1,29), sous le plafond de ± 30 % → repère **4 900 €/m²** (au lieu de 5 000), reporté
+dans `housing.ts` et `RELU_APRES_LOT`. La ville reste dans la règle, ses notes ne bougent pas. Selftest 52/53
+(Maisons-Laffitte documentée), « 0 repère(s) à relire ».
+
+*Candidates remesurées avec le seed actuel* (extensions de 93/94 proches) :
+
+| Commune | Règle § 3.2 | Décision |
+|---|---|---|
+| Les Lilas (93) | Romainville* 1,2 · Bagnolet 1,2 · Noisy-le-Sec 2,5 · Aubervilliers 4,6 km ; marché 6 600 ÷ 4 590,5 = **1,44** | reportée, tableau B (marché) |
+| Limeil-Brévannes (94) | Villeneuve-Saint-Georges* · Saint-Maur · Choisy · Maisons-Alfort ; Yerres / Montgeron / Brunoy (91) plus proches, repère m² des voisines × 1,76 | reportée (alerte de frontière, Saint-Maur tire la médiane) |
+| Villiers-sur-Marne (94) | Champigny · Le Perreux · Saint-Maur · Nogent (repère médian 6 800) ; 5 villes 77/93 plus proches | inchangée (tableau B) |
+| Bonneuil-sur-Marne (94) | — | sous 20 000 hab., non retenue |
+
+*Dérive* : `seed-drift` → 0 ville changée, 0 citation (le repère m² n'entre pas dans les notes). Table des couleurs
+inchangée (593). Contrôles : `tsc` propre, `npm run integrity` vert. `npm run build` non lancé.
+
+**Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés, Villeneuve-d'Ascq en tête ;
+seuil sous 20 000 hab. ; règle Antilles-Guyane ; La Réunion ; alerte de frontière quand la règle standard tient :
+Villeparisis, Saint-Ouen-l'Aumône) ou à une passe DVF locale sur 97407 pour Le Port.

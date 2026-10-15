@@ -331,6 +331,8 @@ const RELU_APRES_LOT: Record<string, Partial<Record<"avgBuyPriceM2", number>>> =
   // Relecture du 2026-10-14 (troisième run) : DVF au dépôt, 2 306 ÷ 2 113 = 1,091 et 2 400 ÷ 2 113 = 1,136.
   "sainte-marie-reunion": { avgBuyPriceM2: 2300 },
   "sainte-suzanne-reunion": { avgBuyPriceM2: 2600 },
+  // Relecture du 2026-10-15 (quatrième run) : DVF au dépôt, 4 200 ÷ 3 333,5 = 1,260 (recherche web au lot : 1,29).
+  "ozoir-la-ferriere": { avgBuyPriceM2: 4900 },
 };
 
 function selftest(raws: Map<string, Raw>): number {
