@@ -268,7 +268,7 @@ Populations : seulement quand recoupées, sinon « à mesurer ».
 | Clamart | 92023 | Hauts-de-Seine | Île-de-France | 58 576 (2023, Wikipédia FR + 2ᵉ résultat) | **lot 1** |
 | Bobigny | 93008 | Seine-Saint-Denis | Île-de-France | 56 927 (2023, Wikipédia + bien-dans-ma-ville) | **lot 1** |
 | Épinay-sur-Seine | 93031 | Seine-Saint-Denis | Île-de-France | 52 833 (2023, Wikipédia FR ; 52 606 ville-data) | **lot 1** |
-| Villeneuve-d'Ascq | 59009 (à confirmer) | Nord | Hauts-de-France | à mesurer | **attend un override** (§ 3.2) |
+| Villeneuve-d'Ascq | 59009 (confirmé 2026-10-15) | Nord | Hauts-de-France | 62 868 (2023, Banatic + 2ᵉ résultat) | **attend un override** (§ 3.2) |
 
 ### 20 000 – 50 000 hab. — état au 2026-10-13 (troisième run)
 
@@ -286,10 +286,10 @@ ressemble pas à ses voisines, une médiane serait fausse :
 
 | Commune | Insee | Raison |
 |---|---|---|
-| Villeneuve-d'Ascq | 59009 (à confirmer) | ville universitaire et technopole entourée de Roubaix / Tourcoing / Wattrelos |
+| Villeneuve-d'Ascq | 59009 (62 868 en 2023) | ville universitaire et technopole entourée de Roubaix / Tourcoing / Wattrelos |
 | Sucy-en-Brie | 94071 | médiane tirée par Saint-Maur : repère 6 200 €/m² contre ~3 750-4 300 au marché (+50 %) |
 | La Madeleine | 59368 | voisines Roubaix / Tourcoing / Wattrelos, marché nettement plus cher |
-| Marcq-en-Barœul, Lambersart | à confirmer | même cas que La Madeleine (Lille en override) |
+| Marcq-en-Barœul, Lambersart | 59378 (40 184), 59328 (27 090) — pop. 2023, Banatic / Wikipédia + citypopulation | même cas que La Madeleine (Lille en override) |
 | Grigny, Les Mureaux, Chatou, Lormont, Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Saint-Étienne-du-Rouvray | à confirmer | règle non valable, mesurée le 2026-10-08 |
 | Montfermeil | 93047 | 3 voisines d'extension ; grands ensembles des Bosquets, médiane non représentative |
 | *Déjà au seed* : Maisons-Laffitte (78358), Clichy-sous-Bois, Romainville, Ris-Orangis | — | notes héritées hors ± 30 % du marché (§ 6, 2026-10-12 quatrième run) : ne pas citer au dixième |
@@ -311,12 +311,12 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | Le Port (974) | 97407 (absente vérifiée) | distance levée à La Réunion (2026-10-14) ; marché : PAP 2 118 ÷ 2 340,5 = 0,90, efficity 2 550 → médiane 1,00, intra-source PAP 0,88 — les deux ratios divergent de 12 % à la frontière ± 10 % ; **attend la DVF du dépôt** ou un 2ᵉ site DVF |
 | La Possession (974) | 97408 (absente vérifiée) | distance levée (2026-10-14) ; **marché hors ± 30 %** : PAP 2 917 ÷ 2 066,5 = 1,41 (efficity 2 940) → relève du tableau B |
 | L'Isle-sur-la-Sorgue (84) | 84054 (absente vérifiée) | 20 244 hab. (pop. de référence 2023 : Banatic + Wikipédia + Habity — **passée au-dessus du seuil**, sortie du tableau D). Standard : Cavaillon 9,3 · Carpentras 15,2 · Orange 31,1 · Pertuis 44,1 km (Avignon en override) ; règle ② : 4ᵉ Orange à 31,1 km — mesuré le 2026-10-13 |
-| Sainte-Anne, Le Moule, Petit-Bourg (971) | à confirmer | Guadeloupe : 3 villes au seed, même cas que Le Gosier ; populations à recouper |
-| Kourou (973) | à confirmer | Guyane : 2 villes au seed (Cayenne, Saint-Laurent) ; population à recouper |
-| Le Gosier (971) | à confirmer | 3 voisines (la Guadeloupe n'a que 3 villes au seed) |
-| Matoury, Rémire-Montjoly (973) | à confirmer | 2 voisines (Cayenne, Saint-Laurent à 200 km) |
-| Koungou (976) | à confirmer | 1 seule ville au seed à Mayotte |
-| Lunel, Frontignan (34) | à confirmer | 1 voisine (Agde, 27-67 km) |
+| Sainte-Anne, Le Moule, Petit-Bourg (971) | 97128 (23 973), 97117 (23 014), 97118 (24 665) — PopRef 2023 Insee dép. 971 | Guadeloupe : 3 villes au seed, même cas que Le Gosier |
+| Kourou (973) | 97304 (24 824 en 2023, Banatic + Wikipédia) | Guyane : 2 villes au seed (Cayenne, Saint-Laurent) |
+| Le Gosier (971) | 97113 (27 757, PopRef 2023 Insee) | 3 voisines (la Guadeloupe n'a que 3 villes au seed) |
+| Matoury, Rémire-Montjoly (973) | 97307 (36 512), 97309 (27 723) — 2023, une seule source (Wikipédia citant l'Insee) | 2 voisines (Cayenne, Saint-Laurent à 200 km) |
+| Koungou (976) | 97610 (32 156 au recensement 2017, Banatic ; pas de millésime plus récent trouvé) | 1 seule ville au seed à Mayotte |
+| Lunel, Frontignan (34) | 34145 (~26 623), 34108 (~24 136) — 2023, une seule source secondaire, à recouper | 1 voisine (Agde, 27-67 km) |
 | Lisieux (14) | à confirmer | 1 voisine (Hérouville, 41 km) |
 | Fougères (35) | à confirmer | 2 voisines |
 | Le Creusot, Montceau-les-Mines (71) | à confirmer | 3 voisines |
@@ -1778,3 +1778,29 @@ la valeur 2023 qui fait foi. Les autres noms du tableau D (Le Vésinet, Viroflay
 seuil sous 20 000 hab. ; règle Antilles-Guyane ; validation de la levée « 4ᵉ voisine > 25 km » à La Réunion) ou à
 une passe DVF locale sur 97407 pour Le Port. Prochaine relecture utile du seuil : à la publication des populations
 de référence 2024 (attendue fin décembre 2026) — Chevilly-Larue et Bourg-lès-Valence sont à moins de 200 hab.
+
+
+### 2026-10-15 — aucun lot : codes Insee et populations 2023 du backlog recoupés
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(population : Mamoudzou, Pierrefitte ; revenus : 7 villes hors Filosofi) — lot autorisé, mais aucune candidate des
+tableaux A à C n'a changé de statut : le gisement « règle valable » reste épuisé. Egress retesté :
+`geo.api.gouv.fr`, `www.insee.fr`, `files.data.gouv.fr` injoignables (connexion refusée), donc ni liste exhaustive
+Insee ni DVF de Le Port (97407).
+
+*Livrable* : fiabilisation des tableaux A et C par recherche web, les lignes « à confirmer » ou « à recouper » prenant
+leur code Insee et leur population de référence 2023. Deux sources concordantes : Villeneuve-d'Ascq **59009 / 62 868**,
+Marcq-en-Barœul **59378 / 40 184**, Lambersart **59328 / 27 090**, Kourou **97304 / 24 824**. Table PopRef 2023
+de l'Insee (dép. 971, une source mais primaire) : Le Gosier **97113 / 27 757**, Sainte-Anne **97128 / 23 973**,
+Le Moule **97117 / 23 014**, Petit-Bourg **97118 / 24 665**. **Une seule source, à recouper avant tout lot** :
+Matoury 97307 / 36 512 et Rémire-Montjoly 97309 / 27 723 (Wikipédia citant l'Insee), Lunel 34145 / ~26 623 et
+Frontignan 34108 / ~24 136 (site de classement secondaire). Koungou 97610 : seul le recensement **2017** a été trouvé
+(32 156, Banatic). Toutes restent au-dessus de 20 000 hab. : aucune ne change de tableau, leur blocage étant la règle
+de voisinage, pas le seuil. ⚠️ L'absence du seed reste à revérifier par code au moment d'entrer dans un lot.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (592). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés, Villeneuve-d'Ascq en tête ;
+seuil sous 20 000 hab. ; règle Antilles-Guyane ; validation de la levée « 4ᵉ voisine > 25 km » à La Réunion) ou à
+une passe DVF locale sur 97407 pour Le Port.
