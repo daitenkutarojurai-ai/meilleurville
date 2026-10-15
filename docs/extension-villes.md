@@ -330,7 +330,8 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | Mitry-Mory (77) | à confirmer | vraies voisines en 93 ; règle ① refusée (écart de biais sécurité 2,0) |
 | Limeil-Brévannes (94) | à confirmer | plus proche voisine en Essonne |
 | Les Lilas | 93045 | Pantin et Montreuil en override |
-| Saint-Ouen-l'Aumône, Ozoir-la-Ferrière, Montigny-lès-Cormeilles | à confirmer | 2 voisines d'extension |
+| Saint-Ouen-l'Aumône | à confirmer | remesurée le 2026-10-15 : Cergy 3,6 · Herblay* 7,2 · Cormeilles 9,7 · Franconville 9,8 km, mais Conflans (78) à 4,8 km — même alerte de frontière que Villeparisis |
+| Montigny-lès-Cormeilles | 95424 | seconde source DVF communale manquante (lot 13) |
 | Deuil-la-Barre | à confirmer | Sarcelles dans la médiane |
 | Gif-sur-Yvette, Mantes-la-Ville, Montereau, Villeparisis, Le Mée-sur-Seine, Dammarie-les-Lys, Les Ulis, Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne, Villefontaine | à confirmer | voisines trop éloignées ou en override |
 
@@ -1830,3 +1831,57 @@ ne change (Le Creusot garde ses 3 voisines Autun / Chalon / Mâcon).
 seuil sous 20 000 hab. ; règle Antilles-Guyane ; validation de la levée « 4ᵉ voisine > 25 km » à La Réunion) ou à
 une passe DVF locale sur 97407 pour Le Port. Lignes encore « à confirmer » : Saint-Jean-de-Braye, La Garde,
 Grande-Synthe, Les Pennes-Mirabeau, Cenon, Mitry-Mory, Limeil-Brévannes et la dernière ligne groupée du tableau C.
+
+
+### 2026-10-15 (troisième run) — lot 17 (+1) : Ozoir-la-Ferrière
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo) et les manques permanents → lot
+autorisé. 592 → **593**, Seine-et-Marne, aucun département ni région nouveaux.
+
+*Comment elle a été trouvée.* Les lignes « à confirmer » du tableau C ont été **remesurées avec le seed actuel**
+(coordonnées approchées, centre de commune) plutôt que relues : les extensions des lots 6-7 (Roissy-en-Brie, Lagny,
+Herblay, Saint-Gratien) ont changé le voisinage de plusieurs d'entre elles.
+
+| Commune | Règle § 3.2 (seed actuel) | Décision |
+|---|---|---|
+| **Ozoir-la-Ferrière** (77350) | Roissy-en-Brie* 3,3 · Pontault-Combault 5,3 · Torcy 9,7 · Champs-sur-Marne 10,9 km, **aucune alerte** | **lot 17** |
+| Villeparisis (77) | Chelles 7,0 · Lagny* 10,1 · Champs 10,3 · Torcy 10,6 km, mais Tremblay / Villepinte / Sevran (93) à 3,8-5,8 km | reportée (même motif que Mitry-Mory : la frontière coupe l'agglomération, règle ① refusée par l'écart de biais 93/77) |
+| Saint-Ouen-l'Aumône (95) | 4ᵉ voisine 9,8 km, Conflans (78) à 4,8 km | reportée (alerte de frontière) |
+| Deuil-la-Barre (95) | Montmorency · Saint-Gratien* · Eaubonne · Sarcelles (1,7-4,3 km) ; Épinay et Pierrefitte (93) plus proches | reportée (Sarcelles dans la médiane, alerte de frontière) |
+| Les Ulis, Gif-sur-Yvette (91) | 4ᵉ voisine 13,2 / 16,0 km ; `--cross-dept` refusé (biais coût Vélizy > 1,0) | reportées |
+| Le Mée-sur-Seine, Dammarie-les-Lys, Montereau (77), Mantes-la-Ville (78) | 4ᵉ voisine 28-42 km | reportées |
+
+*Identité.* Insee **77350** (absente vérifiée par code, `seed:neighbours --insee`), population de référence 2023
+**21 238** (Wikipédia EN citant l'Insee PopRef 2023 ; bien-dans-ma-ville ; villesavivre) → 21 200 ; coordonnées
+48,7638 N 2,6717 E (distanceenvoiture 48,76383/2,67174 ; cartesfrance 48,762/2,673) ; altitude 94-122 m → **108 m**
+(cartesfrance). Code postal 77330 (≠ code Insee).
+
+*Notes brutes* (règle standard) : 6,5 · 7,4 · 6,9 · 5,5 · 6,2 · 6 · 7 · 6,5, global 6,4 ; rendu **5,2** (ambre ;
+voisines rendues Roissy 5,1). Climat : Roissy-en-Brie (3,3 km).
+
+*Logement* (§ 3.3 bis). DVF appartements ~**4 294 €/m²** (PAP 4 262 au 1ᵉʳ juil. 2026 ; Immovrai 4 326 en 2025 ;
+Habity 4 199) ÷ médiane DVF appartements des 4 voisines au dépôt **3 333,5** (Torcy 3 303, Roissy 3 321, Champs
+3 346, Pontault 3 772) = **1,29** ; intra-source PAP (Torcy 3 397, Roissy 3 462, Champs ~3 563 lu dans le tableau de
+la page Pontault, Pontault 3 889) 4 262 ÷ 3 512,5 = **1,21**, à 6 % près (sans Champs : 1,23). Ratio 1,29 appliqué →
+repère **5 000 €/m²** (médiane 3 900). Loyers = médiane (680 / 930 / 1 250), aucun loyer au m² du même portail.
+⚠️ Ratio proche du plafond de ± 30 % : à relire avec `seed:neighbours:relire` dès que le runner aura servi la DVF de
+la commune ; si la mesure du dépôt sort au-delà de 1,30, la ville rejoint Romainville parmi les notes héritées à
+ne pas citer au dixième. Axe coût hérité de voisines moins chères : biais conservateur assumé (§ 3.3 bis).
+
+*Quartiers* (notes = ville) : L'Archevêché (lotissements de l'Archevêché et de la Doutre lancés en 1927) et
+Brèche-aux-Loups (urbanisé à partir de 1968, traversé par le RER E, branche E4) — brochure « nouveaux arrivants »
+de la mairie et fiche Wikipédia. Tags : Seine-et-Marne, RER E, forêt d'Armainvilliers (massif « forêts
+d'Armainvilliers et de Ferrières », ~5 683 ha sur 12 communes).
+
+*Dérive* : `seed-drift` → **0 ville changée, 0 citation**. Couleurs recomptées sur `CITIES_SEED` (593) :
+19 / 50 / 151 / **158** / 121 / 94, moyenne 5,35.
+
+*Contrôles* : `tsc` propre, `npm run integrity`, `search-index` (593 villes) + `:check`, `sitemap:check`
+(FR 31 810, EN 31 393), `hreflang:check`, `seed:neighbours:selftest` (après commit). `npm run build` non lancé.
+
+*En attente du runner* : Ozoir-la-Ferrière (tous pipelines sauf codes postaux), Carquefou (photo).
+
+**Prochain lot** : `seed-coverage`, puis `seed:neighbours:relire` quand Ozoir est servie. Le reste du gisement
+inchangé : overrides documentés (Villeneuve-d'Ascq en tête), seuil sous 20 000 hab., règle Antilles-Guyane,
+validation de la levée « 4ᵉ voisine > 25 km » à La Réunion, et une décision sur l'alerte de frontière quand la
+règle standard tient (Villeparisis, Saint-Ouen-l'Aumône).

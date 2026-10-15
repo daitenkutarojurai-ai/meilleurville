@@ -282,6 +282,11 @@ const DOCUMENTED_MODES: Record<string, Pick<Candidate, "crossDept" | "priceRatio
   // lot 16 : DVF appartements ~2 511 €/m² (PAP 2 542, efficity 2 480) ÷ 2 113 (mêmes voisines) = 1,19 ; intra-source
   // PAP 2 542 ÷ 2 213,5 = 1,15, à 4 % près.
   "sainte-suzanne-reunion": { priceRatio: 1.19 },
+  // lot 17 (2026-10-15) : DVF appartements ~4 294 €/m² (PAP 4 262 au 1er juil. 2026, Immovrai 4 326 en 2025 ;
+  // Habity 4 199) ÷ 3 333,5 €/m² (médiane DVF appartements des 4 voisines : Torcy 3 303, Roissy-en-Brie 3 321,
+  // Champs-sur-Marne 3 346, Pontault-Combault 3 772) = 1,29 ; intra-source PAP 4 262 ÷ 3 512,5 (Torcy 3 397,
+  // Roissy 3 462, Champs ~3 563, Pontault 3 889) = 1,21, à 6 % près. Pas de loyer au m² du même portail.
+  "ozoir-la-ferriere": { priceRatio: 1.29 },
 };
 // Relecture du 2026-10-12 (troisième run) : le runner a depuis servi La Chapelle-sur-Erdre (3 410 €/m²) et
 // Saint-Sébastien-sur-Loire elle-même (3 273 €/m²) ; à mesure égale, 3 273 ÷ 3 009,5 (Rezé, Vertou, La Chapelle,

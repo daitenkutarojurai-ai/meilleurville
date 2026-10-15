@@ -17305,6 +17305,28 @@ const RAW_CITIES_SEED = [
     seoDescriptionEn:
       "Sainte-Suzanne (La Réunion): quality-of-life score 4.5/10. North-east coast commune with the Bel-Air lighthouse and Niagara falls.",
     scores: { global: 6.3, life: 6.5, transport: 4.9, nature: 9.2, cost: 5.5, safety: 5.9, culture: 6.3, remoteWork: 5.8, schools: 5.9 },
+  },
+  {
+    slug: "ozoir-la-ferriere",
+    name: "Ozoir-la-Ferrière",
+    scoreCohort: "extension",
+    region: "Île-de-France",
+    department: "Seine-et-Marne",
+    inseeCode: "77350",
+    population: 21200,
+    latitude: 48.7638,
+    longitude: 2.6717,
+    elevation: 108,
+    sunshinedays: 1700,
+    avgTempJuly: 20.5,
+    avgTempJanuary: 4,
+    characterTags: ["Seine-et-Marne","RER E","forêt d'Armainvilliers"],
+    descriptionEn:
+      "Ozoir-la-Ferrière is a Seine-et-Marne commune south-east of Paris, between Roissy-en-Brie and the Armainvilliers forest. Its station is on branch E4 of RER line E. The town grew from the Archevêché and Doutre housing estates laid out from 1927, and the Brèche-aux-Loups district was built up from 1968. Best fit: households who want a leafy RER E suburb on the edge of a large state forest.",
+    seoTitleEn: "Ozoir-la-Ferrière — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Ozoir-la-Ferrière (Seine-et-Marne, Île-de-France): quality-of-life score 5.2/10. Seine-et-Marne suburb on RER E, on the edge of the Armainvilliers forest.",
+    scores: { global: 6.4, life: 6.5, transport: 7.4, nature: 6.9, cost: 5.5, safety: 6.2, culture: 6, remoteWork: 7, schools: 6.5 },
   }
 ];
 

@@ -15956,6 +15956,19 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         summary: "Village de la côte nord-est rattaché à la commune, à environ 3 km au sud-est de La Vigne." },
     ],
   },
+  {
+    citySlug: "ozoir-la-ferriere",
+    neighborhoods: [
+      { slug: "ozoir-la-ferriere-archeveche", name: "L'Archevêché", type: "résidentiel",
+        scores: { global: 6.4, safety: 6.2, transport: 7.4, nature: 6.9, cost: 5.5, nightlife: 6 },
+        avgRentT2: 930, tags: ["pavillonnaire","lotissement de 1927"],
+        summary: "Quartier pavillonnaire issu des lotissements de l'Archevêché et de la Doutre, lancés en 1927, qui marquent le vrai départ de l'urbanisation de la commune." },
+      { slug: "ozoir-la-ferriere-breche-aux-loups", name: "Brèche-aux-Loups", type: "résidentiel",
+        scores: { global: 6.4, safety: 6.2, transport: 7.4, nature: 6.9, cost: 5.5, nightlife: 6 },
+        avgRentT2: 930, tags: ["RER E","urbanisé en 1968"],
+        summary: "Quartier urbanisé à partir de 1968, traversé avec la Gare et Belle-Croix par la ligne E du RER (branche E4)." },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

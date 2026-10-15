@@ -3552,6 +3552,12 @@
       "name": "Sainte-Suzanne (Réunion)",
       "region": "La Réunion",
       "score": 4.5
+    },
+    {
+      "slug": "ozoir-la-ferriere",
+      "name": "Ozoir-la-Ferrière",
+      "region": "Île-de-France",
+      "score": 5.2
     }
   ],
   "guides": [
