@@ -314,14 +314,13 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | Sainte-Anne, Le Moule, Petit-Bourg (971) | 97128 (23 973), 97117 (23 014), 97118 (24 665) — PopRef 2023 Insee dép. 971 | Guadeloupe : 3 villes au seed, même cas que Le Gosier |
 | Kourou (973) | 97304 (24 824 en 2023, Banatic + Wikipédia) | Guyane : 2 villes au seed (Cayenne, Saint-Laurent) |
 | Le Gosier (971) | 97113 (27 757, PopRef 2023 Insee) | 3 voisines (la Guadeloupe n'a que 3 villes au seed) |
-| Matoury, Rémire-Montjoly (973) | 97307 (36 512), 97309 (27 723) — 2023, une seule source (Wikipédia citant l'Insee) | 2 voisines (Cayenne, Saint-Laurent à 200 km) |
+| Matoury, Rémire-Montjoly (973) | 97307 (36 512 : Banatic + PopRef 2023 Insee Guyane + Wikipédia), 97309 (27 723 : Banatic + Wikipédia) — recoupées 2026-10-15 | 2 voisines (Cayenne, Saint-Laurent à 200 km) |
 | Koungou (976) | 97610 (32 156 au recensement 2017, Banatic ; pas de millésime plus récent trouvé) | 1 seule ville au seed à Mayotte |
-| Lunel, Frontignan (34) | 34145 (~26 623), 34108 (~24 136) — 2023, une seule source secondaire, à recouper | 1 voisine (Agde, 27-67 km) |
-| Lisieux (14) | à confirmer | 1 voisine (Hérouville, 41 km) |
-| Fougères (35) | à confirmer | 2 voisines |
-| Le Creusot, Montceau-les-Mines (71) | à confirmer | 3 voisines |
-| Miramas (13) | à confirmer | 4ᵉ voisine Saint-Rémy à 26,8 km, repère m² × 1,78 |
-| La Teste-de-Buch (33) | à confirmer | voisines à 44-45 km |
+| Lunel, Frontignan (34) | 34145 (26 623), 34108 (24 136) — 2023, Banatic + Wikipédia (+ pss-archi pour Lunel), recoupées 2026-10-15 | 1 voisine (Agde, 27-67 km) |
+| Fougères (35) | 35115 (20 307, Banatic + pss-archi, 2023) | 2 voisines |
+| Le Creusot (71) | 71153 (20 509, Banatic + Wikipédia, 2023) | 3 voisines |
+| Miramas (13) | 13063 (26 203, Banatic + Wikipédia, 2023) | 4ᵉ voisine Saint-Rémy à 26,8 km, repère m² × 1,78 |
+| La Teste-de-Buch (33) | 33529 (27 566, Banatic + Wikipédia, 2023) | voisines à 44-45 km |
 | Nogent-sur-Oise (60) | à confirmer | Chantilly / Senlis ne la décrivent pas (repère m² × 2,74) |
 | Saint-Jean-de-Braye (45) | à confirmer | Orléans en override, 3ᵉ-4ᵉ voisines à 55-57 km |
 | La Garde (83) | à confirmer | Toulon en override, 4ᵉ voisine à 55 km |
@@ -335,7 +334,9 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | Deuil-la-Barre | à confirmer | Sarcelles dans la médiane |
 | Gif-sur-Yvette, Mantes-la-Ville, Montereau, Villeparisis, Le Mée-sur-Seine, Dammarie-les-Lys, Les Ulis, Castelnau-le-Lez, Le Petit-Quevilly, Cournon-d'Auvergne, Villefontaine | à confirmer | voisines trop éloignées ou en override |
 
-**D. Sous le seuil de 20 000 hab.** (sorties, à reconsidérer seulement si le seuil descend) : Brie-Comte-Robert
+**D. Sous le seuil de 20 000 hab.** (sorties, à reconsidérer seulement si le seuil descend) : Lisieux (14366,
+**19 645** en 2023, Banatic + Wikipédia + citypopulation — sortie du tableau C le 2026-10-15), Montceau-les-Mines
+(71306, **17 064** en 2023, Banatic + Wikipédia — sortie du tableau C le 2026-10-15), Brie-Comte-Robert
 (77053, 19 003), Juvisy-sur-Orge (91326, 19 292), Bourg-lès-Valence (26058, 19 992), Chevilly-Larue (94021,
 19 826) ; et, relevées par nom sans recoupement de population : Le Vésinet, Viroflay, Garches, Chennevières,
 Boissy-Saint-Léger, Valenton, Le Bourget, Villetaneuse, Saint-Brice, Mennecy, Nemours, Vaires, Canteleu,
@@ -1804,3 +1805,28 @@ de voisinage, pas le seuil. ⚠️ L'absence du seed reste à revérifier par co
 **Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés, Villeneuve-d'Ascq en tête ;
 seuil sous 20 000 hab. ; règle Antilles-Guyane ; validation de la levée « 4ᵉ voisine > 25 km » à La Réunion) ou à
 une passe DVF locale sur 97407 pour Le Port.
+
+
+### 2026-10-15 (second run) — aucun lot : tableau C recoupé, Lisieux et Montceau-les-Mines sortent sous le seuil
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(population : Mamoudzou, Pierrefitte ; revenus : 7 villes hors Filosofi) — lot autorisé, mais aucune candidate des
+tableaux A à C ne passe la règle : le gisement « règle valable » reste épuisé, et aucune décision du propriétaire
+n'est arrivée (ROADMAP, `git log` hors `[scheduled-agent]` relus).
+
+*Livrable* : recoupement par recherche web (populations de référence 2023, deux sources dont Banatic à chaque fois)
+des lignes du tableau C restées à une source ou « à confirmer ». Recoupées : Matoury **97307 / 36 512** (+ PopRef 2023
+Insee Guyane), Rémire-Montjoly **97309 / 27 723**, Lunel **34145 / 26 623**, Frontignan **34108 / 24 136**, Fougères
+**35115 / 20 307**, Le Creusot **71153 / 20 509**, Miramas **13063 / 26 203**, La Teste-de-Buch **33529 / 27 566**.
+⚠️ **Deux communes sortent sous le seuil** et passent au tableau D : **Lisieux (14366) 19 645** et
+**Montceau-les-Mines (71306) 17 064** — le tableau C les portait sur un ordre de grandeur ancien (Montceau était
+au-dessus de 20 000 il y a vingt ans). Absence du seed vérifiée **par code** pour les dix. Aucun blocage de voisinage
+ne change (Le Creusot garde ses 3 voisines Autun / Chalon / Mâcon).
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (592). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés, Villeneuve-d'Ascq en tête ;
+seuil sous 20 000 hab. ; règle Antilles-Guyane ; validation de la levée « 4ᵉ voisine > 25 km » à La Réunion) ou à
+une passe DVF locale sur 97407 pour Le Port. Lignes encore « à confirmer » : Saint-Jean-de-Braye, La Garde,
+Grande-Synthe, Les Pennes-Mirabeau, Cenon, Mitry-Mory, Limeil-Brévannes et la dernière ligne groupée du tableau C.
