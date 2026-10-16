@@ -156,15 +156,13 @@ export function HeroSection({
                 animationDelay: `${i * 0.4}s`,
               }}
             >
-              <div className="relative">
-                <div className="absolute inset-0 rounded-full bg-[var(--accent)]/40 blur-md scale-150" />
-                <div className="relative flex items-center gap-1.5 rounded-full glass px-3 py-1.5 text-xs">
-                  <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)] animate-pulse" />
-                  <span className="font-medium text-[var(--text-primary)]">{d.name}</span>
-                  <span className="font-mono-data text-[10px] text-[var(--accent)]">
-                    {score.toFixed(1)}
-                  </span>
-                </div>
+              {/* Enamel street plaque: score on the small top line, like the
+                  arrondissement number on a Paris plaque. */}
+              <div className="plaque flex-col !gap-0 px-3.5 py-1.5 leading-tight" style={{ transform: `rotate(${i % 2 ? 1.5 : -1.5}deg)` }}>
+                <span className="font-mono-data text-[9px] uppercase tracking-[0.18em] text-white/75">
+                  {L("note", "score")} {score.toFixed(1)}
+                </span>
+                <span className="text-sm">{d.name}</span>
               </div>
             </div>
           );
@@ -177,11 +175,9 @@ export function HeroSection({
         style={{ transformStyle: "preserve-3d", transition: "transform 0.4s cubic-bezier(0.2,0.7,0.2,1)" }}
       >
         <FadeBlurIn delay={0}>
-          <div className="mb-8 inline-flex items-center gap-2 rounded-full glass px-4 py-2 text-sm shadow-sm">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--accent)] opacity-60" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--accent)]" />
-            </span>
+          <div className="mb-8 inline-flex items-center gap-2.5 rounded-md border border-[var(--border)] bg-[var(--bg-surface)]/85 px-4 py-2 text-sm shadow-sm">
+            {/* map-legend key: a tiny plaque swatch */}
+            <span className="inline-block h-3 w-4 flex-shrink-0 rounded-[2px] bg-[var(--accent)] ring-1 ring-white ring-offset-1 ring-offset-[var(--plaque-frame)]" />
             <span className="font-medium text-[var(--text-secondary)]">
               {locale === "en"
                 ? `${citiesCount} cities · 8 scoring axes · ${rankingsCount} rankings`

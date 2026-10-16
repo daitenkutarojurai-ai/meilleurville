@@ -34,9 +34,9 @@ export default function Image() {
         {/* Branding */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <svg width="36" height="36" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#0D9488" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#0D9488" /></svg>
+            <svg width="36" height="36" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#1E3A6E" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#1E3A6E" /></svg>
             <span style={{ color: "#0F172A", fontSize: "22px", fontWeight: 700 }}>
-              Meilleur<span style={{ color: "#0D9488" }}>Ville</span>
+              Meilleur<span style={{ color: "#1E3A6E" }}>Ville</span>
             </span>
           </div>
           <div
@@ -45,7 +45,7 @@ export default function Image() {
               border: "1px solid rgba(13,148,136,0.30)",
               borderRadius: "999px",
               padding: "8px 18px",
-              color: "#0D9488",
+              color: "#1E3A6E",
               fontSize: "14px",
               fontWeight: 600,
             }}
@@ -56,7 +56,7 @@ export default function Image() {
 
         {/* Title */}
         <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-          <div style={{ color: "#0D9488", fontSize: "16px", letterSpacing: "2px", textTransform: "uppercase", fontWeight: 700 }}>
+          <div style={{ color: "#1E3A6E", fontSize: "16px", letterSpacing: "2px", textTransform: "uppercase", fontWeight: 700 }}>
             Le bon mois · La bonne destination
           </div>
           <div style={{ color: "#0F172A", fontSize: "72px", fontWeight: 900, lineHeight: 1.0 }}>

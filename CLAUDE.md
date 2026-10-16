@@ -115,6 +115,31 @@ Write « (source : notre fiche ville) », « notre estimation des loyers », « 
 which also rewrites a batch in place; `npm run integrity` (garde `sources`) fails on any
 `data/…`, `lib/…` path left in a guide string. Paths stay fine in ROADMAP/CLAUDE.md and comments.
 
+## Design identity — « Carte & plaque » (2026-10-16)
+
+The site used to look like a generic SaaS template (WebGL pastel blobs, green→amber gradient
+headline, rose/fuchsia CTA). It now has one identity, taken from two French objects: the
+**survey map** (paper, ink, contour lines) and the **enamel Paris street plaque** (navy field,
+white keyline, green rim). Tokens live in `app/globals.css`; keep to them.
+
+- **Palette**: paper `--bg-canvas #F6F2E9`, card stock `--bg-surface #FFFDF8`, ink
+  `--text-primary #18212F`, single accent **plaque navy `--accent #1E3A6E`**, one warm pop
+  **brick `--accent-pink #C2410C`** (the variable kept its old name), `--plaque-frame #2E7D4F`.
+  Green / lime / amber / orange / red / violet are **reserved for the 6 score tiers** — never use
+  them as decoration, or a reader takes a colour for a score.
+- **Primitives**: `.plaque` / `.plaque-small` (place names, icon tiles, the City Match CTA —
+  never to encode a score), `.topo-bg` (contour texture, `public/textures/topo.svg`, generated
+  by a seeded script so it is byte-stable), `.ink-underline` (brick marker stroke, one phrase per
+  page at most), `.gradient-text` (navy sweep).
+- **Brand mark**: navy plaque with white keyline + white pin — `app/icon.svg`,
+  `components/BrandMark.tsx`, `app/apple-icon.png`, `theme-color` and every
+  `opengraph-image.tsx` share `#1E3A6E`; change all of them together or none.
+- `components/AmbientBackground.tsx` is a **server component** with no JS (it replaced a WebGL
+  mesh gradient). Don't reintroduce a canvas/WebGL background.
+- Still template-flavoured and fair game for the daily design routine: rainbow gradient icon
+  tiles on hubs (`app/classements/page.tsx` category gradients, sub-page cards), emoji-heavy
+  nav, the cookie banner's rainbow top stripe.
+
 ## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar, all opengraph-image.tsx)
 
 Effectifs mesurés le 2026-08-30 en exécutant `CITIES_SEED` (donc après calibrage et

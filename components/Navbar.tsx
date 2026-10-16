@@ -378,7 +378,7 @@ export function Navbar() {
             <SearchTrigger variant="desktop" />
             <AccountButton />
             <Link href="/city-match">
-              <Button size="md" className="gap-1.5 rounded-full px-3 lg:px-4 border-0 bg-gradient-to-r from-rose-500 to-fuchsia-500 text-white shadow-md shadow-rose-500/30 hover:from-rose-600 hover:to-fuchsia-600">
+              <Button size="md" className="plaque gap-1.5 !rounded-md px-3 lg:px-4 border-0 hover:!bg-[var(--accent-hover)]">
                 <Heart className="h-4 w-4 fill-current" />
                 <span>City Match</span>
               </Button>
