@@ -290,7 +290,9 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | Sucy-en-Brie | 94071 | médiane tirée par Saint-Maur : repère 6 200 €/m² contre ~3 750-4 300 au marché (+50 %) |
 | La Madeleine | 59368 | voisines Roubaix / Tourcoing / Wattrelos, marché nettement plus cher |
 | Marcq-en-Barœul, Lambersart | 59378 (40 184), 59328 (27 090) — pop. 2023, Banatic / Wikipédia + citypopulation | même cas que La Madeleine (Lille en override) |
-| Grigny, Les Mureaux, Chatou, Lormont, Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Saint-Étienne-du-Rouvray | à confirmer | règle non valable, mesurée le 2026-10-08 |
+| Grigny, Lormont, La Valette-du-Var, Saint-Étienne-du-Rouvray | à confirmer | règle non valable, mesurée le 2026-10-08 |
+| Chatou (78) | 78146 (30 598 en 2023 : Banatic + Wikipédia EN + bien-dans-ma-ville) | remesurée 2026-10-16 : standard = Houilles · Sartrouville · Maisons-Laffitte* · Le Chesnay, 9 villes 92/95 plus proches ; règle ① **instable selon les coordonnées** — centre 48,8897/2,1573 : Rueil · Houilles · Sartrouville · Suresnes, acceptée ; centre 48,8962/2,1559 (moyenne Vikidia / distanceenvoiture) : Bezons (95) remplace Suresnes et la règle est **refusée** (biais coût > 1,0). Marché dans la bande (DVF appart. ~4 680 — PAP 4 682, Immovrai 4 676 — ÷ 4 915 = 0,95), niveau de vie ~33 670 € (habity, une source) contre 31 100 de médiane des voisines |
+| Les Mureaux (78), Saint-Laurent-du-Var (06), Gardanne (13) | à confirmer | remesurées 2026-10-16 : 4ᵉ voisine à 18,9 / 21,8 / 21,0 km ; Les Mureaux a Cergy (95) à 11,8 km, Saint-Laurent un repère m² des voisines × 1,63 |
 | Cenon (33) | 33119 (26 834 en 2023, Wikipédia EN citant PopRef 2023 + notre-planete) | règle standard **sans alerte** (Bègles 5,6 · Le Bouscat 5,7 · Talence 7,4 · Villenave-d'Ornon 8,7 km, toutes rive gauche) et marché dans la bande (DVF appart. ~2 958 €/m² — immovrai 2 975, efficity 2 940 — ÷ 3 494 au dépôt = **0,85**) ; mais niveau de vie médian **~18 920 €** (habity, Filosofi 2021, **une seule source**) contre 23 360-27 570 € chez les 4 voisines au dépôt : la médiane importerait la sécurité et les écoles de la rive gauche — mesuré 2026-10-16 |
 | Montfermeil | 93047 | 3 voisines d'extension ; grands ensembles des Bosquets, médiane non représentative |
 | *Déjà au seed* : Maisons-Laffitte (78358), Clichy-sous-Bois, Romainville, Ris-Orangis | — | notes héritées hors ± 30 % du marché (§ 6, 2026-10-12 quatrième run) : ne pas citer au dixième |
@@ -1951,3 +1953,40 @@ connue » du § 3.2. Elle attend un override documenté, comme La Madeleine. Ide
 Cenon, La Madeleine… ; seuil sous 20 000 hab. ; règle Antilles-Guyane ; La Réunion ; alerte de frontière quand la
 règle standard tient : Villeparisis, Saint-Ouen-l'Aumône) ou à une passe DVF locale sur 97407 pour Le Port.
 
+
+### 2026-10-16 (second run) — aucun lot : quatre lignes du tableau A remesurées, Chatou dépend de ses coordonnées
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents →
+lot autorisé. Aucune décision du propriétaire depuis le 15/10. Les lignes du tableau A « règle non valable, mesurée le
+2026-10-08 » n'avaient pas été revues depuis l'arrivée des lots 4 à 17 ; quatre d'entre elles ont des extensions
+dans leur voisinage (Achères, Maisons-Laffitte, Vallauris).
+
+| Commune | Mesure (seed actuel) | Décision |
+|---|---|---|
+| Les Mureaux (78) | Poissy 11,3 · Achères* 11,5 · Conflans 13,3 · Sartrouville 18,9 km ; Cergy et Pontoise (95) plus proches que la 4ᵉ | reportée |
+| Saint-Laurent-du-Var (06) | Cagnes 3,5 · Vallauris* 15,2 · Le Cannet 17,7 · Grasse 21,8 km ; repère m² × 1,63 (Nice en override) | reportée |
+| Gardanne (13) | Allauch 13,2 · Vitrolles 18,0 · Aubagne 19,5 · Marignane 21,0 km (Aix en override) | reportée |
+| **Chatou (78)** | voir ci-dessous | reportée |
+
+*Chatou* : la plus proche d'un ajout. Identité recoupée : Insee **78146** (absente vérifiée par code), **30 598** hab.
+(PopRef 2023 : Wikipédia EN + Banatic + bien-dans-ma-ville), altitude 22-58 m → 40 m (Vikidia, cartesfrance). La
+règle standard donne Houilles · Sartrouville · Maisons-Laffitte* · Le Chesnay-Rocquencourt avec 9 villes 92/95 plus
+proches que la 4ᵉ (Rueil à 2,7 km) : la frontière coupe l'agglomération, donc règle ①. **Son résultat bascule avec le
+point retenu pour le centre de la commune** : à 48,8897 / 2,1573, voisines Rueil · Houilles · Sartrouville · Suresnes,
+écart de biais 78/92 = 0,4, règle acceptée ; à 48,8962 / 2,1559 (moyenne de Vikidia 48°53′46″ N 2°09′06″ E et de
+distanceenvoiture 48,8964 / 2,1601, les deux sources trouvées, qui divergent de ~600 m), **Bezons (95) passe devant
+Suresnes** et la règle est **refusée** (écart de biais coût > 1,0). Une note qui dépend de quelques centaines de
+mètres sur un centroïde non officiel ne passe pas. Le reste tenait : marché DVF appartements ~4 680 €/m² (PAP 4 682
+au 1ᵉʳ juil. 2026, Immovrai 4 676 en 2025) ÷ 4 915 (médiane des 4 voisines ① au dépôt) = **0,95**, sous ± 10 % ;
+intra-source PAP sur Houilles seule (4 387 contre 4 352 au dépôt) ; niveau de vie ~33 670 € (habity, une seule
+source) contre 25 680-32 980 € chez les voisines. **Condition de réouverture** : les coordonnées officielles du
+chef-lieu (geo.api.gouv.fr, refusé en CONNECT depuis la routine, revérifié ce run avec files.data.gouv.fr et
+Cerema), puis rejouer `seed:neighbours -- --lat=… --lng=… --dept=Yvelines --cross-dept --insee=78146`.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : Chatou dès que les coordonnées officielles sont connues (passe locale ou egress geo.api) ; sinon
+inchangé — suspendu aux décisions du propriétaire (overrides documentés : Villeneuve-d'Ascq, Cenon, La Madeleine… ;
+seuil sous 20 000 hab. ; règle Antilles-Guyane ; alerte de frontière quand la règle standard tient : Villeparisis,
+Saint-Ouen-l'Aumône) ou à une passe DVF locale sur 97407 pour Le Port.
