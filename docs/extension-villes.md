@@ -291,6 +291,7 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | La Madeleine | 59368 | voisines Roubaix / Tourcoing / Wattrelos, marché nettement plus cher |
 | Marcq-en-Barœul, Lambersart | 59378 (40 184), 59328 (27 090) — pop. 2023, Banatic / Wikipédia + citypopulation | même cas que La Madeleine (Lille en override) |
 | Grigny, Les Mureaux, Chatou, Lormont, Saint-Laurent-du-Var, La Valette-du-Var, Gardanne, Saint-Étienne-du-Rouvray | à confirmer | règle non valable, mesurée le 2026-10-08 |
+| Cenon (33) | 33119 (26 834 en 2023, Wikipédia EN citant PopRef 2023 + notre-planete) | règle standard **sans alerte** (Bègles 5,6 · Le Bouscat 5,7 · Talence 7,4 · Villenave-d'Ornon 8,7 km, toutes rive gauche) et marché dans la bande (DVF appart. ~2 958 €/m² — immovrai 2 975, efficity 2 940 — ÷ 3 494 au dépôt = **0,85**) ; mais niveau de vie médian **~18 920 €** (habity, Filosofi 2021, **une seule source**) contre 23 360-27 570 € chez les 4 voisines au dépôt : la médiane importerait la sécurité et les écoles de la rive gauche — mesuré 2026-10-16 |
 | Montfermeil | 93047 | 3 voisines d'extension ; grands ensembles des Bosquets, médiane non représentative |
 | *Déjà au seed* : Maisons-Laffitte (78358), Clichy-sous-Bois, Romainville, Ris-Orangis | — | notes héritées hors ± 30 % du marché (§ 6, 2026-10-12 quatrième run) : ne pas citer au dixième |
 
@@ -327,7 +328,6 @@ ressemble pas à ses voisines, une médiane serait fausse :
 | La Garde (83) | à confirmer | Toulon en override, 4ᵉ voisine à 55 km |
 | Grande-Synthe, Coudekerque-Branche (59155) | à confirmer / 59155 | Dunkerque en override, voisines à 35-63 km |
 | Les Pennes-Mirabeau (13) | à confirmer | 3ᵉ-4ᵉ voisines de l'autre côté de Marseille |
-| Cenon (33) | à confirmer | rive droite, voisines rive gauche |
 | Mitry-Mory (77) | à confirmer | vraies voisines en 93 ; règle ① refusée (écart de biais sécurité 2,0) |
 | Limeil-Brévannes (94) | à confirmer | plus proche voisine en Essonne |
 | Saint-Ouen-l'Aumône | à confirmer | remesurée le 2026-10-15 : Cergy 3,6 · Herblay* 7,2 · Cormeilles 9,7 · Franconville 9,8 km, mais Conflans (78) à 4,8 km — même alerte de frontière que Villeparisis |
@@ -1912,3 +1912,42 @@ inchangée (593). Contrôles : `tsc` propre, `npm run integrity` vert. `npm run 
 **Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés, Villeneuve-d'Ascq en tête ;
 seuil sous 20 000 hab. ; règle Antilles-Guyane ; La Réunion ; alerte de frontière quand la règle standard tient :
 Villeparisis, Saint-Ouen-l'Aumône) ou à une passe DVF locale sur 97407 pour Le Port.
+
+
+### 2026-10-16 — aucun lot : les lignes « à confirmer » du tableau C remesurées, Cenon passe au tableau A
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents →
+lot autorisé. Aucune décision du propriétaire depuis le 15/10 (`git log` hors `[scheduled-agent]` : seul le commit
+`[local-runner]` du 15).
+
+*Remesure avec le seed actuel* (`seed:neighbours`, coordonnées approchées de centre de commune) :
+
+| Commune | Standard | Règle ② | Décision |
+|---|---|---|---|
+| Saint-Jean-de-Braye (45) | 2 voisines (Fleury, Olivet) | 3ᵉ-4ᵉ Gien / Montargis à 55-58 km | reste C |
+| La Garde (83) | 3 voisines (4ᵉ Saint-Raphaël 70 km) | 4ᵉ Sainte-Maxime 55 km, Bouches-du-Rhône plus proches | reste C |
+| Le Petit-Quevilly (76) | 3 voisines | 4ᵉ Dieppe 56 km, repère × 1,61 | reste C |
+| Castelnau-le-Lez (34) | 1 voisine (Agde 50 km) | — | reste C |
+| Cournon-d'Auvergne (63) | 0 voisine (Clermont en override) | — | reste C |
+| Villefontaine (38) | 4ᵉ Fontaine 63 km ; 19 villes du Rhône plus proches | — | reste C |
+| Nogent-sur-Oise (60) | 3 voisines (Creil 1,2 km puis 31-33 km) | — | reste C |
+| Grande-Synthe, Coudekerque-Branche (59) | 4ᵉ voisine 63-68 km, Calais plus proche | — | restent C |
+| Les Pennes-Mirabeau (13) | 4ᵉ Aubagne 24,5 km, Allauch / Aubagne de l'autre côté de Marseille | — | reste C |
+| **Cenon (33)** | **aucune alerte** | — | **tableau A** (voir ci-dessous) |
+
+*Cenon* : la ligne C ne portait qu'un jugement (« rive droite, voisines rive gauche »). Remesurée, elle **passe la
+règle standard et le marché** (§ 3.3 bis : ~2 958 ÷ 3 494 = 0,85, ratio appliqué possible ; ⚠️ efficity est une
+estimation, une seconde source DVF au sens strict manque encore). Ce qui la retient est désormais une **mesure** :
+niveau de vie médian ~18 920 € (habity citant Filosofi 2021, une seule source, à recouper) contre 23 360 (Bègles),
+23 780 (Villenave), 24 260 (Talence) et 27 570 € (Le Bouscat) au dépôt, soit −19 à −31 %. La médiane des quatre
+voisines donnerait à Cenon les notes de sécurité et d'écoles de communes plus aisées : cas exact de la « limite
+connue » du § 3.2. Elle attend un override documenté, comme La Madeleine. Identité recoupée : Insee **33119**,
+**26 834** hab. (PopRef 2023 : Wikipédia EN + notre-planete), code postal 33150.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : inchangé — suspendu aux décisions du propriétaire (overrides documentés : Villeneuve-d'Ascq,
+Cenon, La Madeleine… ; seuil sous 20 000 hab. ; règle Antilles-Guyane ; La Réunion ; alerte de frontière quand la
+règle standard tient : Villeparisis, Saint-Ouen-l'Aumône) ou à une passe DVF locale sur 97407 pour Le Port.
+
