@@ -6,6 +6,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { cityAgenda } from "@/lib/city-agenda";
+import { upcomingCityEvents, cityEventsJsonLd } from "@/lib/city-events";
+import { CityEvents } from "@/components/CityEvents";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CalendarDays, ArrowLeft } from "lucide-react";
 import Link from "@/components/AppLink";
@@ -58,6 +60,7 @@ export default async function AgendaPage({ params }: Props) {
   if (!city) notFound();
 
   const agenda = cityAgenda(city);
+  const events = upcomingCityEvents(city.slug);
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
     { name: "Villes", path: "/villes" },
@@ -68,6 +71,12 @@ export default async function AgendaPage({ params }: Props) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
+      {events.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={jsonLdScript(cityEventsJsonLd(events, city.name, "fr"))}
+        />
+      )}
       <main id="main-content" className="min-h-screen bg-[var(--bg-canvas)]">
         <Navbar />
         <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
@@ -97,6 +106,11 @@ export default async function AgendaPage({ params }: Props) {
 
         <section className="py-10">
           <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <CityEvents events={events} cityName={city.name} locale="fr" contactHref="/contact" />
+
+            <h2 className="mb-4 text-2xl font-bold text-[var(--text-primary)]">
+              Au fil de l&apos;année
+            </h2>
             <ol className="space-y-4">
               {agenda.map((item, i) => (
                 <li
@@ -113,9 +127,9 @@ export default async function AgendaPage({ params }: Props) {
                       {CATEGORY_LABEL[item.category]}
                     </span>
                   </div>
-                  <h2 className="text-lg font-semibold text-[var(--text-primary)]">
+                  <h3 className="text-lg font-semibold text-[var(--text-primary)]">
                     {item.title}
-                  </h2>
+                  </h3>
                   <p className="mt-2 text-[var(--text-secondary)] leading-relaxed">
                     {item.body}
                   </p>

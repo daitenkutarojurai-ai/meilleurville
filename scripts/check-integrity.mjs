@@ -90,6 +90,7 @@ const MODULES = [
   ["data/cities-seed.ts", "CITIES_SEED", "villes"],
   ["data/guides.ts", "GUIDES", "guides FR"],
   ["data/guides-en.ts", "EN_GUIDES", "guides EN"],
+  ["data/city-events.ts", "CITY_EVENTS", "agenda daté"],
 ];
 
 let failed = false;

@@ -8,6 +8,8 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAgenda } from "@/lib/city-agenda";
+import { upcomingCityEvents, cityEventsJsonLd } from "@/lib/city-events";
+import { CityEvents } from "@/components/CityEvents";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -51,6 +53,7 @@ export default async function EnCalendarPage({ params }: Props) {
   if (!city) notFound();
 
   const agenda = cityAgenda(city);
+  const events = upcomingCityEvents(city.slug);
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
     { name: "Cities", path: "/cities" },
@@ -61,6 +64,12 @@ export default async function EnCalendarPage({ params }: Props) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
+      {events.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={jsonLdScript(cityEventsJsonLd(events, city.name, "en"))}
+        />
+      )}
       <main id="main-content" className="min-h-screen bg-[var(--bg-canvas)]">
         <Navbar />
         <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
@@ -83,6 +92,11 @@ export default async function EnCalendarPage({ params }: Props) {
 
         <section className="py-10">
           <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <CityEvents events={events} cityName={city.name} locale="en" contactHref="/contact" />
+
+            <h2 className="mb-4 text-2xl font-bold text-[var(--text-primary)]">
+              Through the year
+            </h2>
             <ol className="space-y-4">
               {agenda.map((item, i) => (
                 <li
@@ -99,9 +113,9 @@ export default async function EnCalendarPage({ params }: Props) {
                       {CATEGORY_LABEL[item.category]}
                     </span>
                   </div>
-                  <h2 className="text-lg font-semibold text-[var(--text-primary)]">
+                  <h3 className="text-lg font-semibold text-[var(--text-primary)]">
                     {item.titleEn}
-                  </h2>
+                  </h3>
                   <p className="mt-2 text-[var(--text-secondary)] leading-relaxed">
                     {item.bodyEn}
                   </p>

@@ -307,6 +307,17 @@ Distribution mean ≈ 5.35. Penalties:
 3. Build (`npm run build`) — region/department/city/climat/quartiers pages
    regenerate via `generateStaticParams`.
 
+## Agenda daté par ville (`data/city-events.ts`, 2026-10-16)
+
+`/villes/[slug]/agenda` (EN `/cities/[slug]/calendar`) opens with an « À venir » block
+(`components/CityEvents.tsx`, schema.org `Event` JSON-LD) fed by `data/city-events.ts`: REAL
+dated events only, each with a readable `source` — either sent by the organiser through the
+contact form, or published by the city / organiser on an official site. Never invent or
+estimate a date. Each event's `id` is its anchor (`/villes/orleans/agenda#<id>`) and is the link
+we send back to organisers, so never rename one. Past events drop off at the next build.
+`npm run integrity` checks city slugs, unique ids and dates. The month-by-month block below it is
+still the derived, indicative `lib/city-agenda.ts`.
+
 ## Adding a new content sub-page (per city)
 
 Pattern to follow: `app/villes/[slug]/climat/page.tsx`.
