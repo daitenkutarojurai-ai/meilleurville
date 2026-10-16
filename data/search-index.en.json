@@ -8582,6 +8582,61 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-in-arras-2026",
+      "title": "Single parent in Arras (2026): a €2,200 floor, three axes out of four above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-aubagne-2026",
+      "title": "Single parent in Aubagne (2026): a €3,350 floor, safety at 4.3/10 and a 3.4-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-boulogne-billancourt-2026",
+      "title": "Single parent in Boulogne-Billancourt (2026): a €5,700 floor, transport at 9.0/10 and a 6.8-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-bourg-en-bresse-2026",
+      "title": "Single parent in Bourg-en-Bresse (2026): a €2,550 floor, four axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-lorient-2026",
+      "title": "Single parent in Lorient (2026): a €2,750 floor, three axes out of four above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-montlucon-2026",
+      "title": "Single parent in Montluçon (2026): a €1,950 floor, two axes out of four above the median and a spread of 3.8 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-niort-2026",
+      "title": "Single parent in Niort (2026): a €2,600 floor, three axes out of four above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-orange-2026",
+      "title": "Single parent in Orange (2026): a €2,800 floor, three axes out of four above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-quimper-2026",
+      "title": "Single parent in Quimper (2026): a €2,850 floor, three axes out of four above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-selestat-2026",
+      "title": "Single parent in Sélestat (2026): a €3,050 floor, three axes out of four above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-tassin-la-demi-lune-2026",
+      "title": "Single parent in Tassin-la-Demi-Lune (2026): a €4,050 floor, two axes out of four above the median and a 3.6-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "single-parent-holidays-anglet-2026",
       "title": "Single-parent holidays in Anglet: no railway station, but the airport is here",
       "emoji": "🧑‍🍼"
@@ -8876,27 +8931,27 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 232
+      "count": 243
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 170
+      "count": 181
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 125
+      "count": 136
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 69
+      "count": 72
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 69
+      "count": 70
     },
     {
       "slug": "occitanie",
@@ -8906,7 +8961,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 65
+      "count": 66
     },
     {
       "slug": "solo-travel",
@@ -8926,12 +8981,12 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 57
+      "count": 58
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 57
+      "count": 58
     },
     {
       "slug": "single-supplement",
@@ -8966,7 +9021,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 38
+      "count": 40
     },
     {
       "slug": "provence",
@@ -8991,7 +9046,7 @@
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
-      "count": 28
+      "count": 30
     },
     {
       "slug": "centre-val-de-loire",

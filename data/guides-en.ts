@@ -43755,6 +43755,576 @@ export const EN_GUIDES: EnGuide[] = [
       "ile-de-france",
     ],
   },
+{
+    slug: "single-parent-in-arras-2026",
+    title: "Single parent in Arras (2026): a €2,200 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Arras 2026: €2,200 Floor",
+    metaDesc:
+      "Fit 6.1/10, T3 at €720, a €2,200 monthly floor and €8 short for the median local household: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro:
+      "Arras returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide, the others are covered in the same series). The detail: cost of living 6.2/10, transport 6.1/10, schools 6.6/10, safety 5.3/10 (source: our city profile). The average T3 is €720 and a square metre to buy €1,800 (source: our rent estimate), for an estimated minimum net income of €2,200 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 42,621 inhabitants at the 2022 census against 40,883 in 2016 and 41,322 in 2011 (source: INSEE census). The Arras file fits in one sentence: three axes out of four above the ranking medians, and transport below. Arras shares its mark with communes whose T3 runs from €650 to €2,000. This guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €2,200 floor: three axes above the median, one below",
+        body: "The minimum net income of €2,200 a month comes from the 33% rule applied to the €720 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the 33% rule. This floor is the 2nd lowest of the thirteen communes in the tier (11 are higher), and €1,000 below the median of the 415 ranked communes (€3,200). Cost of living in Arras is marked 6.2/10 against a median of 5.2, which is 1 point higher. It is the heaviest axis in the composite, weighted 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would lose about 0.3 points: it is the line that carries the mark. The floor includes no transport, childcare or utilities: it is a rent set against an income, not a full budget. Within the tier, T3s run from €650 (Montluçon) to €2,000 (Boulogne-Billancourt); Arras is at €720.",
+      },
+      {
+        heading: "€8 short for the median local household",
+        body: "The commune's median standard of living is €20,230 a year per consumption unit, against €21,660 for the median of ranked communes: €1,430 less, or 7% (source: INSEE, Filosofi 2021). The poverty rate is 25%, against 19% for the median. For a single parent with one child under fourteen, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,192 a month, against a floor of €2,200: €8 short. The median local household therefore covers 100% of the floor. Within the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two methodological points. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or family support, which can change an individual file.",
+      },
+      {
+        heading: "Safety 5.3/10, schools 6.6/10, transport 6.1/10: what each number measures",
+        body: "Safety: 5.3/10 against a median of 5 (0.3 points higher). Schools: 6.6/10 against a median of 5.5 (1.1 points higher). Transport: 6.1/10 against a median of 6.4 (0.3 points lower). It is worth saying what each number measures, because these are the easiest axes to over-read. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety mark is a communal indicator: it says nothing about a neighbourhood or a street, and predicts nothing about an individual case. The transport mark describes access to networks and stations in the commune, not the frequency of a given line or the time of the last train. Above the median of the 415 ranked communes: cost of living, schools and safety. Below: transport.",
+      },
+      {
+        heading: "A 1.3-point spread: a flat profile, and the limit of the composite",
+        body: "The spread between the best axis (schools, 6.6) and the worst (safety, 5.3) is 1.3 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Arras is 8th on this criterion, ahead of 5 communes (from 1.2 to 1.1), behind Boulogne-Billancourt at 6.8, Montluçon at 3.8, Tassin-la-Demi-Lune at 3.6 and 4 others. The same 6.1 therefore covers very different profiles: here, four axes close to one another, with no strong support and no marked warning sign. The limit of the method has to be stated: this composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis drops below 4.5. Here no axis is under 4.5 (the lowest is safety at 5.3), so that limit does not apply to Arras.",
+      },
+      {
+        heading: "Arras against its Pas-de-Calais neighbours",
+        body: "The ranking includes 8 communes of the Pas-de-Calais, Arras among them. Of the 7 others, 0 has a fit above 6.1/10, 0 is level and 7 are lower. The best-marked neighbours: Lens (fit 6.0, T3 €590); Boulogne-sur-Mer (fit 5.4, T3 €780); Calais (fit 5.2, T3 €640); Béthune (fit 4.9, T3 €740). 4 of the 7 others have a T3 cheaper than €720. The median T3 across these communes, Arras included, is €695. In the Hauts-de-France region, 29 communes are ranked; 10 have a T3 cheaper than Arras. On neighbourhoods, the site publishes no verdict by sector: our district data documents a small number of neighbourhoods on a scale of their own that does not compare with the communal mark.",
+      },
+      {
+        heading: "A commune gaining residents, 22.4% aged 60 and over",
+        body: "Arras counted 41,322 inhabitants in 2011, 40,883 in 2016 and 42,621 in 2022 (source: INSEE census), that is +3.1% over eleven years. Since 2016 the change is +4.3% (+1,738 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while staying attractive across its urban area, or the reverse: the figure says nothing about the town's appeal. The share aged 60 and over is 22.4%, against a median of 23.3% across ranked communes (0.9 points lower), and those under thirty make up 41.6%, against 37.7% (3.9 points higher). None of these measures enters the four axes of the composite. We draw no cause from them: they flag a point to check, not a trajectory, and our data measure neither class openings nor closures. A single parent planning to stay several years should still ask the town hall how school rolls have moved recently: that is the local figure that answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €117,000 represents about 4.4 years of the disposable income of a median local single-parent household (€26,299 a year), with the reservation that this benchmark is editorial and not a median of transactions.",
+      },
+      {
+        heading: "The verdict: who Arras works for",
+        body: "Arras works from €2,200 net a month, a floor that is the 2nd lowest of the thirteen communes in the tier and €1,000 below the ranking median. It works for a single parent on a modest income looking for low rent, who puts cost of living (6.2/10) and schools (6.6/10) first, with a T3 at €720 against a tier median of €930. It works less well for a single parent at the local median standard of living, who is €8 short: the floor assumes an income at or above that of the median household of the place. It works badly for anyone who needs transport: 6.1/10, under the median. Two points to keep in mind. The first concerns the measure: the 6.1 fit is a weighted average of four axes, and says nothing about neighbourhoods, childcare or whether a home is actually available. The second is the competition within the tier: at an equal mark, Arras sits alongside communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is on /cities/arras/single-parent.",
+      },
+    ],
+    relatedCities: ["arras", "lens", "boulogne-sur-mer", "calais", "bethune"],
+    tags: [
+      "single parent arras",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "hauts-de-france",
+    ],
+  },
+  {
+    slug: "single-parent-in-aubagne-2026",
+    title: "Single parent in Aubagne (2026): a €3,350 floor, safety at 4.3/10 and a 3.4-point spread",
+    metaTitle: "Single Parent in Aubagne 2026: €3,350 Floor",
+    metaDesc:
+      "Fit 6.1/10, T3 at €1,100, a €3,350 monthly floor and €907 short for the median local household: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro:
+      "Aubagne returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide, the others are covered in the same series). The detail: cost of living 5.6/10, transport 7.0/10, schools 7.7/10, safety 4.3/10 (source: our city profile). The average T3 is €1,100 and a square metre to buy €2,900 (source: our rent estimate), for an estimated minimum net income of €3,350 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 47,724 inhabitants at the 2022 census against 45,290 in 2016 and 45,800 in 2011 (source: INSEE census). The Aubagne file fits in one sentence: three axes out of four above the ranking medians, and safety below. Aubagne shares its mark with communes whose T3 runs from €650 to €2,000. This guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €3,350 floor: three axes above the median, one below",
+        body: "The minimum net income of €3,350 a month comes from the 33% rule applied to the €1,100 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the 33% rule. This floor is the 11th lowest of the thirteen communes in the tier (2 are higher), and €150 above the median of the 415 ranked communes (€3,200). Cost of living in Aubagne is marked 5.6/10 against a median of 5.2, which is 0.4 points higher. It is the heaviest axis in the composite, weighted 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would lose about 0.1 points: it is the line that carries the mark. The floor includes no transport, childcare or utilities: it is a rent set against an income, not a full budget. Within the tier, T3s run from €650 (Montluçon) to €2,000 (Boulogne-Billancourt); Aubagne is at €1,100.",
+      },
+      {
+        heading: "€907 short for the median local household",
+        body: "The commune's median standard of living is €22,550 a year per consumption unit, against €21,660 for the median of ranked communes: €890 more, or 4% (source: INSEE, Filosofi 2021). The poverty rate is 16%, against 19% for the median. For a single parent with one child under fourteen, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,443 a month, against a floor of €3,350: €907 short. The median local household therefore covers 73% of the floor. Within the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two methodological points. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or family support, which can change an individual file.",
+      },
+      {
+        heading: "Safety 4.3/10, schools 7.7/10, transport 7.0/10: what each number measures",
+        body: "Safety: 4.3/10 against a median of 5 (0.7 points lower). Schools: 7.7/10 against a median of 5.5 (2.2 points higher). Transport: 7.0/10 against a median of 6.4 (0.6 points higher). It is worth saying what each number measures, because these are the easiest axes to over-read. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety mark is a communal indicator: it says nothing about a neighbourhood or a street, and predicts nothing about an individual case. The transport mark describes access to networks and stations in the commune, not the frequency of a given line or the time of the last train. Safety is the axis that drops here (4.3/10 for a median of 5), and it weighs a quarter of the composite. Above the median of the 415 ranked communes: cost of living, transport and schools. Below: safety.",
+      },
+      {
+        heading: "A 3.4-point spread: a profile of contrasts, and the limit of the composite",
+        body: "The spread between the best axis (schools, 7.7) and the worst (safety, 4.3) is 3.4 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Aubagne is 4th on this criterion, ahead of 9 communes (from 2.4 to 1.1), behind Boulogne-Billancourt at 6.8, Montluçon at 3.8 and Tassin-la-Demi-Lune at 3.6. The same 6.1 therefore covers very different profiles: here, a clear contrast between what works and what does not. The limit of the method has to be stated: this composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis drops below 4.5. Here the safety axis is at 4.3, under that threshold: the composite smooths over a point that the site's global score would penalise. We publish the limit and do not reweight.",
+      },
+      {
+        heading: "Aubagne against its Bouches-du-Rhône neighbours",
+        body: "The ranking includes 11 communes of the Bouches-du-Rhône, Aubagne among them. Of the 10 others, 0 has a fit above 6.1/10, 0 is level and 10 are lower. The best-marked neighbours: Aix-en-Provence (fit 5.9, T3 €1,400); La Ciotat (fit 5.7, T3 €1,250); Martigues (fit 5.2, T3 €1,080); Salon-de-Provence (fit 5.2, T3 €1,050). 7 of the 10 others have a T3 cheaper than €1,100. The median T3 across these communes, Aubagne included, is €1,080. In the Provence-Alpes-Côte d'Azur region, 34 communes are ranked; 17 have a T3 cheaper than Aubagne. On neighbourhoods, the site publishes no verdict by sector: our district data documents a small number of neighbourhoods on a scale of their own that does not compare with the communal mark.",
+      },
+      {
+        heading: "A commune gaining residents, 28.8% aged 60 and over",
+        body: "Aubagne counted 45,800 inhabitants in 2011, 45,290 in 2016 and 47,724 in 2022 (source: INSEE census), that is +4.2% over eleven years. Since 2016 the change is +5.4% (+2,434 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while staying attractive across its urban area, or the reverse: the figure says nothing about the town's appeal. The share aged 60 and over is 28.8%, against a median of 23.3% across ranked communes (5.5 points higher), and those under thirty make up 34%, against 37.7% (3.7 points lower). None of these measures enters the four axes of the composite. We draw no cause from them: they flag a point to check, not a trajectory, and our data measure neither class openings nor closures. A single parent planning to stay several years should still ask the town hall how school rolls have moved recently: that is the local figure that answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €188,500 represents about 6.4 years of the disposable income of a median local single-parent household (€29,315 a year), with the reservation that this benchmark is editorial and not a median of transactions.",
+      },
+      {
+        heading: "The verdict: who Aubagne works for",
+        body: "Aubagne works from €3,350 net a month, a floor that is the 11th lowest of the thirteen communes in the tier and €150 above the ranking median. It works for a single parent whose income is already settled, who puts cost of living (5.6/10) and transport (7.0/10) first. It works less well for a single parent at the local median standard of living, who is €907 short: the floor assumes an income above that of the median household of the place. It works badly for anyone who needs safety: 4.3/10, under the median. Two points to keep in mind. The first concerns the measure: the 6.1 fit is a weighted average of four axes, and says nothing about neighbourhoods, childcare or whether a home is actually available. The second is the competition within the tier: at an equal mark, Aubagne sits alongside communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is on /cities/aubagne/single-parent.",
+      },
+    ],
+    relatedCities: ["aubagne", "aix-en-provence", "la-ciotat", "salon-de-provence", "martigues"],
+    tags: [
+      "single parent aubagne",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "provence-alpes-cote-d-azur",
+    ],
+  },
+  {
+    slug: "single-parent-in-boulogne-billancourt-2026",
+    title: "Single parent in Boulogne-Billancourt (2026): a €5,700 floor, transport at 9.0/10 and a 6.8-point spread",
+    metaTitle: "Single Parent Boulogne-Billancourt 2026: €5,700",
+    metaDesc:
+      "Fit 6.1/10, T3 at €2,000, a €5,700 monthly floor and €1,904 short for the median local household: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro:
+      "Boulogne-Billancourt returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide, the others are covered in the same series). The detail: cost of living 2.2/10, transport 9.0/10, schools 8.7/10, safety 5.7/10 (source: our city profile). The average T3 is €2,000 and a square metre to buy €7,200 (source: our rent estimate), for an estimated minimum net income of €5,700 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 120,205 inhabitants at the 2022 census against 119,645 in 2016 and 116,220 in 2011 (source: INSEE census). The Boulogne-Billancourt file fits in one sentence: three axes out of four above the ranking medians, and cost of living below. The commune shares its mark with others whose T3 runs from €650 to €2,000. This guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €5,700 floor: three axes above the median, one below",
+        body: "The minimum net income of €5,700 a month comes from the 35% rule applied to the €2,000 T3. Because the cost-of-living score is under 5, the engine does not use the 33% rule (the usual French landlord test: rent no more than a third of income) but the relaxed version, reserved for tight markets. This floor is the highest of the thirteen communes in the tier, and €2,500 above the median of the 415 ranked communes (€3,200). Cost of living in Boulogne-Billancourt is marked 2.2/10 against a median of 5.2, which is 3 points lower. It is the heaviest axis in the composite, weighted 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would gain about 0.9 points: the 6.1 is a result obtained with a handicap on the line that counts most. The floor includes no transport, childcare or utilities: it is a rent set against an income, not a full budget. The €2,000 T3 is the most expensive in the tier.",
+      },
+      {
+        heading: "€1,904 short for the median local household",
+        body: "The commune's median standard of living is €35,040 a year per consumption unit, against €21,660 for the median of ranked communes: €13,380 more, or 62% (source: INSEE, Filosofi 2021). The poverty rate is 9%, against 19% for the median. For a single parent with one child under fourteen, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €3,796 a month, against a floor of €5,700: €1,904 short. The median local household therefore covers 67% of the floor. Within the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two methodological points. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or family support, which can change an individual file.",
+      },
+      {
+        heading: "Safety 5.7/10, schools 8.7/10, transport 9.0/10: what each number measures",
+        body: "Safety: 5.7/10 against a median of 5 (0.7 points higher). Schools: 8.7/10 against a median of 5.5 (3.2 points higher). Transport: 9.0/10 against a median of 6.4 (2.6 points higher). It is worth saying what each number measures, because these are the easiest axes to over-read. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety mark is a communal indicator: it says nothing about a neighbourhood or a street, and predicts nothing about an individual case. The transport mark describes access to networks and stations in the commune, not the frequency of a given line or the time of the last train. Above the median of the 415 ranked communes: transport, schools and safety. Below: cost of living.",
+      },
+      {
+        heading: "A 6.8-point spread: a profile of contrasts, and the limit of the composite",
+        body: "The spread between the best axis (transport, 9.0) and the worst (cost of living, 2.2) is 6.8 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Boulogne-Billancourt is first on this criterion, ahead of 12 communes (from 3.8 to 1.1). The same 6.1 therefore covers very different profiles: here, a sharp contrast between what works and what does not. The limit of the method has to be stated: this composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis drops below 4.5. Here the cost-of-living axis is at 2.2, under that threshold: the composite smooths over a point that the site's global score would penalise. We publish the limit and do not reweight.",
+      },
+      {
+        heading: "Boulogne-Billancourt against its Hauts-de-Seine neighbours",
+        body: "The ranking includes 32 communes of the Hauts-de-Seine, Boulogne-Billancourt among them. Of the 31 others, 5 have a fit above 6.1/10, 0 is level and 26 are lower. The best-marked neighbours: Issy-les-Moulineaux (fit 6.5, T3 €1,800); Levallois-Perret (fit 6.5, T3 €2,000); Neuilly-sur-Seine (fit 6.4, T3 €2,500); Courbevoie (fit 6.3, T3 €1,750). 29 of the 31 others have a T3 cheaper than €2,000. The median T3 across these communes, Boulogne-Billancourt included, is €1,550. In the Île-de-France region, 155 communes are ranked; 151 have a T3 cheaper than Boulogne-Billancourt. On neighbourhoods, the site publishes no verdict by sector: our district data documents a small number of neighbourhoods on a scale of their own that does not compare with the communal mark.",
+      },
+      {
+        heading: "A stable population, 22.4% aged 60 and over",
+        body: "Boulogne-Billancourt counted 116,220 inhabitants in 2011, 119,645 in 2016 and 120,205 in 2022 (source: INSEE census), that is +3.4% over eleven years. Since 2016 the change is +0.5% (+560 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while staying attractive across its urban area, or the reverse: the figure says nothing about the town's appeal. The share aged 60 and over is 22.4%, against a median of 23.3% across ranked communes (0.9 points lower), and those under thirty make up 36%, against 37.7% (1.7 points lower). None of these measures enters the four axes of the composite. We draw no cause from them: they flag a point to check, not a trajectory, and our data measure neither class openings nor closures. A single parent planning to stay several years should still ask the town hall how school rolls have moved recently: that is the local figure that answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €468,000 represents about 10.3 years of the disposable income of a median local single-parent household (€45,552 a year), with the reservation that this benchmark is editorial and not a median of transactions.",
+      },
+      {
+        heading: "The verdict: who Boulogne-Billancourt works for",
+        body: "Boulogne-Billancourt works from €5,700 net a month, a floor that is the highest of the thirteen communes in the tier and €2,500 above the ranking median. It works for a single parent whose income is already settled, who puts transport (9.0/10) and schools (8.7/10) first. It works less well for a single parent at the local median standard of living, who is €1,904 short: the floor assumes an income above that of the median household of the place. It works badly for anyone who needs a low cost of living: 2.2/10, under the median. Two points to keep in mind. The first concerns the measure: the 6.1 fit is a weighted average of four axes, and says nothing about neighbourhoods, childcare or whether a home is actually available. The second is the competition within the tier: at an equal mark, Boulogne-Billancourt sits alongside communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is on /cities/boulogne-billancourt/single-parent.",
+      },
+    ],
+    relatedCities: ["boulogne-billancourt", "levallois-perret", "issy-les-moulineaux", "neuilly-sur-seine", "rueil-malmaison"],
+    tags: [
+      "single parent boulogne-billancourt",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "ile-de-france",
+    ],
+  },
+  {
+    slug: "single-parent-in-bourg-en-bresse-2026",
+    title: "Single parent in Bourg-en-Bresse (2026): a €2,550 floor, four axes above the median",
+    metaTitle: "Single Parent in Bourg-en-Bresse 2026: €2,550",
+    metaDesc:
+      "Fit 6.1/10, T3 at €840, a €2,550 monthly floor and €361 short for the median local household: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro:
+      "Bourg-en-Bresse returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide, the others are covered in the same series). The detail: cost of living 5.9/10, transport 6.7/10, schools 6.6/10, safety 5.5/10 (source: our city profile). The average T3 is €840 and a square metre to buy €2,300 (source: our rent estimate), for an estimated minimum net income of €2,550 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 42,065 inhabitants at the 2022 census against 41,365 in 2016 and 39,882 in 2011 (source: INSEE census). The Bourg-en-Bresse file fits in one sentence: four axes out of four above the ranking medians. The commune shares its mark with others whose T3 runs from €650 to €2,000. This guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €2,550 floor: four axes above the median, none below",
+        body: "The minimum net income of €2,550 a month comes from the 33% rule applied to the €840 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the 33% rule. This floor is the 3rd lowest of the thirteen communes in the tier (10 are higher), and €650 below the median of the 415 ranked communes (€3,200). Cost of living in Bourg-en-Bresse is marked 5.9/10 against a median of 5.2, which is 0.7 points higher. It is the heaviest axis in the composite, weighted 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would lose about 0.2 points: it is the line that carries the mark. The floor includes no transport, childcare or utilities: it is a rent set against an income, not a full budget. Within the tier, T3s run from €650 (Montluçon) to €2,000 (Boulogne-Billancourt); Bourg-en-Bresse is at €840.",
+      },
+      {
+        heading: "€361 short for the median local household",
+        body: "The commune's median standard of living is €20,210 a year per consumption unit, against €21,660 for the median of ranked communes: €1,450 less, or 7% (source: INSEE, Filosofi 2021). The poverty rate is 24%, against 19% for the median. For a single parent with one child under fourteen, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,189 a month, against a floor of €2,550: €361 short. The median local household therefore covers 86% of the floor. Within the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two methodological points. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or family support, which can change an individual file.",
+      },
+      {
+        heading: "Safety 5.5/10, schools 6.6/10, transport 6.7/10: what each number measures",
+        body: "Safety: 5.5/10 against a median of 5 (0.5 points higher). Schools: 6.6/10 against a median of 5.5 (1.1 points higher). Transport: 6.7/10 against a median of 6.4 (0.3 points higher). It is worth saying what each number measures, because these are the easiest axes to over-read. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety mark is a communal indicator: it says nothing about a neighbourhood or a street, and predicts nothing about an individual case. The transport mark describes access to networks and stations in the commune, not the frequency of a given line or the time of the last train. Above the median of the 415 ranked communes: cost of living, transport, schools and safety.",
+      },
+      {
+        heading: "A 1.2-point spread: a flat profile, and the limit of the composite",
+        body: "The spread between the best axis (transport, 6.7) and the worst (safety, 5.5) is 1.2 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Bourg-en-Bresse is 9th on this criterion, ahead of 4 communes (all at 1.1), behind Boulogne-Billancourt at 6.8, Montluçon at 3.8, Tassin-la-Demi-Lune at 3.6 and 5 others. The same 6.1 therefore covers very different profiles: here, four axes close to one another, with no strong support and no marked warning sign. The limit of the method has to be stated: this composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis drops below 4.5. Here no axis is under 4.5 (the lowest is safety at 5.5), so that limit does not apply to Bourg-en-Bresse.",
+      },
+      {
+        heading: "Bourg-en-Bresse against its Ain neighbours",
+        body: "The ranking includes 2 communes of the Ain, Bourg-en-Bresse among them. The other, Oyonnax, has a higher fit (6.4/10). The reading: Oyonnax (fit 6.4, T3 €800). Oyonnax has the cheaper T3 (€800 against €840), and the median T3 across these communes, Bourg-en-Bresse included, is €820. In the Auvergne-Rhône-Alpes region, 39 communes are ranked; 9 have a T3 cheaper than Bourg-en-Bresse. On neighbourhoods, the site publishes no verdict by sector: our district data documents a small number of neighbourhoods on a scale of their own that does not compare with the communal mark.",
+      },
+      {
+        heading: "A commune gaining residents, 28.3% aged 60 and over",
+        body: "Bourg-en-Bresse counted 39,882 inhabitants in 2011, 41,365 in 2016 and 42,065 in 2022 (source: INSEE census), that is +5.5% over eleven years. Since 2016 the change is +1.7% (+700 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while staying attractive across its urban area, or the reverse: the figure says nothing about the town's appeal. The share aged 60 and over is 28.3%, against a median of 23.3% across ranked communes (5 points higher), and those under thirty make up 36.8%, against 37.7% (0.9 points lower). None of these measures enters the four axes of the composite. We draw no cause from them: they flag a point to check, not a trajectory, and our data measure neither class openings nor closures. A single parent planning to stay several years should still ask the town hall how school rolls have moved recently: that is the local figure that answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €149,500 represents about 5.7 years of the disposable income of a median local single-parent household (€26,273 a year), with the reservation that this benchmark is editorial and not a median of transactions.",
+      },
+      {
+        heading: "The verdict: who Bourg-en-Bresse works for",
+        body: "Bourg-en-Bresse works from €2,550 net a month, a floor that is the 3rd lowest of the thirteen communes in the tier and €650 below the ranking median. It works for a single parent on a modest income looking for low rent, who puts cost of living (5.9/10) and transport (6.7/10) first, with a T3 at €840 against a tier median of €930. It works less well for a single parent at the local median standard of living, who is €361 short: the floor assumes an income above that of the median household of the place. It works badly for anyone who wants a margin on every axis: none clearly clears the medians. Two points to keep in mind. The first concerns the measure: the 6.1 fit is a weighted average of four axes, and says nothing about neighbourhoods, childcare or whether a home is actually available. The second is the competition within the tier: at an equal mark, Bourg-en-Bresse sits alongside communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is on /cities/bourg-en-bresse/single-parent.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse", "oyonnax", "vienne", "villefranche-sur-saone", "villeurbanne"],
+    tags: [
+      "single parent bourg-en-bresse",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "auvergne-rhone-alpes",
+    ],
+  },
+{
+    slug: "single-parent-in-lorient-2026",
+    title: "Single parent in Lorient (2026): a €2,750 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Lorient 2026: Floor €2,750",
+    metaDesc: "Fit 6.1/10, T3 €900, €2,750 monthly floor, €490 short for the local median household: the axis-by-axis detail.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro: "Lorient returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide; the others are covered in the same batch). The detail: cost of living 6.2/10, transport 6.1/10, schools 6.6/10, safety 5.5/10 (source: our city profile). The average T3 is €900 and a square metre to buy €2,800 (source: our rent estimate), for an estimated minimum net income of €2,750 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 58,202 inhabitants at the 2022 census against 57,274 in 2016 and 57,408 in 2011 (source: INSEE census). The Lorient file fits in one sentence: three axes out of four above the ranking medians, and transport below. Lorient shares its mark with communes whose T3 runs from €650 to €2,000: this guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €2,750 floor: three axes above the median, one below",
+        body: "The minimum net income of €2,750 a month comes from the one-third rule applied to the €900 T3: because the cost-of-living score is 5 or above, the engine keeps the strict 33% rule. This floor is the 5th lowest of the thirteen communes in the tier (8 are higher), and €450 below the median of the 415 ranked communes (€3,200). The Lorient cost-of-living mark is 6.2/10, against a median of 5.2, 1 point higher. It is the heaviest axis in the composite, weighted at 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would lose about 0.3 points: it is the line that carries the mark. The floor includes no transport, childcare or running costs: it is a rent set against an income, not a full budget. Within the tier, T3s run from €650 (Montluçon) to €2,000 (Boulogne-Billancourt); Lorient is at €900."
+      },
+      {
+        heading: "€490 short for the local median household",
+        body: "The commune's median standard of living is €20,860 a year per consumption unit, against €21,660 for the median of the ranked communes: €800 less, or 4% (source: Insee, Filosofi 2021). The poverty rate is 21%, against 19% for the median. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,260 a month, against a floor of €2,750: €490 short. The local median household therefore covers 82% of the floor. Across the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two methodological points. Standard of living is a disposable income, benefits included, computed per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or child support, which can change the outcome of an individual file."
+      },
+      {
+        heading: "Safety 5.5/10, schools 6.6/10, transport 6.1/10: what each figure measures",
+        body: "Safety: 5.5/10, against a median of 5 (0.5 point higher). Schools: 6.6/10, against a median of 5.5 (1.1 points higher). Transport: 6.1/10, against a median of 6.4 (0.3 point lower). What each figure measures needs saying, because these are the axes easiest to over-read. The schools score describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety score is a communal indicator: it says nothing about a neighbourhood or a street, and predicts nothing about an individual's experience. The transport score describes access to the commune's networks and stations, not the frequency of a particular line or the time of the last train. Above the median of the 415 ranked communes: cost of living, schools and safety. Below: transport."
+      },
+      {
+        heading: "A spread of 1.1 points: a flat profile, and the limit of the composite",
+        body: "The spread between the best axis (schools, 6.6) and the worst (safety, 5.5) is 1.1 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Lorient ranks 11th on this criterion, ahead of Niort at 1.1 and Sélestat at 1.1, behind Boulogne-Billancourt at 6.8, Montluçon at 3.8, Tassin-la-Demi-Lune at 3.6 and 7 others. A single mark of 6.1 therefore covers very different profiles: here, four axes close to one another, with no marked strength and no marked warning sign. The limit of the method has to be stated: this composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5 (the lowest is safety at 5.5), so that limit does not apply to Lorient."
+      },
+      {
+        heading: "Lorient and its neighbours in the Morbihan",
+        body: "The ranking retains 3 communes in the Morbihan, Lorient included. Of the other 2, 1 has a higher fit than 6.1/10, 0 has the same fit and 1 has a lower one. The best-rated neighbours: Vannes (fit 6.3, T3 €1,150); Lanester (fit 5.4, T3 €770). 1 of the 2 others has a T3 cheaper than €900. The median T3 across these communes, Lorient included, is €900. In the Brittany region, 10 communes are ranked; 4 have a T3 cheaper than Lorient. On neighbourhoods, the site publishes no verdict by sector: our district data documents a small number of neighbourhoods, on a scale of their own that does not compare with the communal score."
+      },
+      {
+        heading: "A commune gaining residents, 28.9% aged 60 and over",
+        body: "Lorient counted 57,408 inhabitants in 2011, 57,274 in 2016 and 58,202 in 2022 (source: INSEE census), that is +1.4% over eleven years. Since 2016 the change is +1.6% (+928 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while remaining attractive across its wider urban area, or the reverse: the figure says nothing about how appealing the town is. The share of residents aged 60 and over is 28.9%, against a median of 23.3% across the ranked communes (5.6 points more), and under-thirties make up 35.7%, against 37.7% (2 points fewer). None of these measures is in the four axes of the composite. We draw no cause from these figures: they point to something to check, not to a trajectory, and our data measure neither class openings nor closures. A single parent planning to stay several years would still do well to ask the town hall how school rolls have moved recently: that is the local figure that answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €182,000 comes to about 6.7 years of the disposable income of a median local single-parent household (€27,118 a year), with the reservation that this benchmark is editorial and not a median of recorded transactions."
+      },
+      {
+        heading: "The verdict: who Lorient works for",
+        body: "Lorient works from €2,750 net a month, a floor that is the 5th lowest of the thirteen communes in the tier and €450 below the ranking median. It works for a single parent on a modest income who wants a low rent and puts cost of living (6.2/10) and schools (6.6/10) first, with a T3 at €900 against a tier median of €930. It works less well for a single parent at the local median standard of living, who is €490 short: the floor assumes an income above that of the median local household. It works badly for anyone who needs transport: 6.1/10, under the median. Two points to keep in mind. The first concerns the measure: the fit of 6.1 is a weighted average of four axes, and says nothing about neighbourhoods, childcare or the real availability of a home. The second is the competition within the tier: at the same mark, Lorient is compared with communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is on /cities/lorient/single-parent."
+      }
+    ],
+    relatedCities: [
+      "lorient",
+      "vannes",
+      "lanester",
+      "lannion",
+      "rennes"
+    ],
+    tags: [
+      "single parent lorient",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "brittany"
+    ]
+  },
+  {
+    slug: "single-parent-in-montlucon-2026",
+    title: "Single parent in Montluçon (2026): a €1,950 floor, two axes out of four above the median and a spread of 3.8 points",
+    metaTitle: "Single Parent in Montluçon 2026: Floor €1,950",
+    metaDesc: "Fit 6.1/10, T3 €650, €1,950 monthly floor, €154 of margin for the local median household: the axis-by-axis detail.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro: "Montluçon returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide; the others are covered in the same batch). The detail: cost of living 8.5/10, transport 4.7/10, schools 4.9/10, safety 5.7/10 (source: our city profile). The average T3 is €650 and a square metre to buy €1,100 (source: our rent estimate), for an estimated minimum net income of €1,950 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 33,317 inhabitants at the 2022 census against 36,147 in 2016 and 38,166 in 2011 (source: INSEE census). The Montluçon file fits in one sentence: cost of living as the strong point (8.5/10), transport as the weak one (4.7/10). Montluçon shares its mark with communes whose T3 runs from €650 to €2,000: this guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €1,950 floor: two axes above the median, two below",
+        body: "The minimum net income of €1,950 a month comes from the one-third rule applied to the €650 T3: because the cost-of-living score is 5 or above, the engine keeps the strict 33% rule. This floor is the lowest of the thirteen communes in the tier, and €1,250 below the median of the 415 ranked communes (€3,200). The Montluçon cost-of-living mark is 8.5/10, against a median of 5.2, 3.3 points higher. It is the heaviest axis in the composite, weighted at 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would lose about 1 point: it is the line that carries the mark. The floor includes no transport, childcare or running costs: it is a rent set against an income, not a full budget. The T3 at €650 is the cheapest in the tier."
+      },
+      {
+        heading: "A local median household that clears the floor, with €154 of margin",
+        body: "The commune's median standard of living is €19,420 a year per consumption unit, against €21,660 for the median of the ranked communes: €2,240 less, or 10% (source: Insee, Filosofi 2021). The poverty rate is 25%, against 19% for the median. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,104 a month, against a floor of €1,950: €154 of margin remains. The local median household therefore covers 108% of the floor. Across the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two methodological points. Standard of living is a disposable income, benefits included, computed per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or child support, which can change the outcome of an individual file."
+      },
+      {
+        heading: "Safety 5.7/10, schools 4.9/10, transport 4.7/10: what each figure measures",
+        body: "Safety: 5.7/10, against a median of 5 (0.7 point higher). Schools: 4.9/10, against a median of 5.5 (0.6 point lower). Transport: 4.7/10, against a median of 6.4 (1.7 points lower). What each figure measures needs saying, because these are the axes easiest to over-read. The schools score describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety score is a communal indicator: it says nothing about a neighbourhood or a street, and predicts nothing about an individual's experience. The transport score describes access to the commune's networks and stations, not the frequency of a particular line or the time of the last train. Above the median of the 415 ranked communes: cost of living and safety. Below: transport and schools."
+      },
+      {
+        heading: "A spread of 3.8 points: a profile of contrasts, and the limit of the composite",
+        body: "The spread between the best axis (cost of living, 8.5) and the worst (transport, 4.7) is 3.8 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Montluçon ranks 2nd on this criterion, ahead of 11 communes in the tier (from 3.6 to 1.1), behind Boulogne-Billancourt at 6.8. A single mark of 6.1 therefore covers very different profiles: here, a sharp contrast between what works and what pinches. The limit of the method has to be stated: this composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5 (the lowest is transport at 4.7), so that limit does not apply to Montluçon."
+      },
+      {
+        heading: "Montluçon and its neighbours in the Allier",
+        body: "The ranking retains 2 communes in the Allier, Montluçon included. The other, Vichy, has a higher fit (6.7/10). The detail: Vichy (fit 6.7, T3 €640). The T3 at €650 is the cheapest of these 2 communes. The median T3 across these communes, Montluçon included, is €645. In the Auvergne-Rhône-Alpes region, 39 communes are ranked; 2 have a T3 cheaper than Montluçon. On neighbourhoods, the site publishes no verdict by sector: our district data documents a small number of neighbourhoods, on a scale of their own that does not compare with the communal score."
+      },
+      {
+        heading: "A commune losing residents, 34.7% aged 60 and over",
+        body: "Montluçon counted 38,166 inhabitants in 2011, 36,147 in 2016 and 33,317 in 2022 (source: INSEE census), that is -12.7% over eleven years. Since 2016 the change is -7.8% (-2,830 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while remaining attractive across its wider urban area, or the reverse: the figure says nothing about how appealing the town is. The share of residents aged 60 and over is 34.7%, against a median of 23.3% across the ranked communes (11.4 points more), and under-thirties make up 33.2%, against 37.7% (4.5 points fewer). None of these measures is in the four axes of the composite. We draw no cause from these figures: they point to something to check, not to a trajectory, and our data measure neither class openings nor closures. A low rent and a falling population read together; we do not claim which drives the other. A single parent planning to stay several years would do well to ask the town hall how school rolls have moved recently, because that is the local figure that answers the question and we do not have it. For a purchase, 65 m² at the benchmark of €71,500 comes to about 2.8 years of the disposable income of a median local single-parent household (€25,246 a year), with the reservation that this benchmark is editorial and not a median of recorded transactions."
+      },
+      {
+        heading: "The verdict: who Montluçon works for",
+        body: "Montluçon works from €1,950 net a month, a floor that is the lowest of the thirteen communes in the tier and €1,250 below the ranking median. It works for a single parent on a modest income who wants a low rent and puts cost of living (8.5/10) and safety (5.7/10) first, with a T3 at €650 against a tier median of €930. The local median household clears the floor, with €154 of margin: that is one of the points in the commune's favour. It works badly for anyone who needs transport and schools: transport at 4.7/10 and schools at 4.9/10, both under the median. Two points to keep in mind. The first concerns the measure: the fit of 6.1 is a weighted average of four axes, and says nothing about neighbourhoods, childcare or the real availability of a home. The second is the competition within the tier: at the same mark, Montluçon is compared with communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is on /cities/montlucon/single-parent."
+      }
+    ],
+    relatedCities: [
+      "montlucon",
+      "vichy",
+      "vienne",
+      "villefranche-sur-saone",
+      "villeurbanne"
+    ],
+    tags: [
+      "single parent montluçon",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "auvergne-rhone-alpes"
+    ]
+  },
+  {
+    slug: "single-parent-in-niort-2026",
+    title: "Single parent in Niort (2026): a €2,600 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Niort 2026: Floor €2,600",
+    metaDesc: "Fit 6.1/10, T3 €860, €2,600 monthly floor, €95 short for the local median household: the axis-by-axis detail.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro: "Niort returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide; the others are covered in the same batch). The detail: cost of living 6.4/10, transport 5.5/10, schools 6.6/10, safety 5.9/10 (source: our city profile). The average T3 is €860 and a square metre to buy €2,100 (source: our rent estimate), for an estimated minimum net income of €2,600 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 60,074 inhabitants at the 2022 census against 59,005 in 2016 and 57,813 in 2011 (source: INSEE census). The Niort file fits in one sentence: three axes out of four above the ranking medians, and transport below. Niort shares its mark with communes whose T3 runs from €650 to €2,000: this guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €2,600 floor: three axes above the median, one below",
+        body: "The minimum net income of €2,600 a month comes from the one-third rule applied to the €860 T3: because the cost-of-living score is 5 or above, the engine keeps the strict 33% rule. This floor is the 4th lowest of the thirteen communes in the tier (9 are higher), and €600 below the median of the 415 ranked communes (€3,200). The Niort cost-of-living mark is 6.4/10, against a median of 5.2, 1.2 points higher. It is the heaviest axis in the composite, weighted at 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would lose about 0.4 points: it is the line that carries the mark. The floor includes no transport, childcare or running costs: it is a rent set against an income, not a full budget. Within the tier, T3s run from €650 (Montluçon) to €2,000 (Boulogne-Billancourt); Niort is at €860."
+      },
+      {
+        heading: "€95 short for the local median household",
+        body: "The commune's median standard of living is €23,120 a year per consumption unit, against €21,660 for the median of the ranked communes: €1,460 more, or 7% (source: Insee, Filosofi 2021). The poverty rate is 16%, against 19% for the median. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,505 a month, against a floor of €2,600: €95 short. The local median household therefore covers 96% of the floor. Across the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two methodological points. Standard of living is a disposable income, benefits included, computed per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or child support, which can change the outcome of an individual file."
+      },
+      {
+        heading: "Safety 5.9/10, schools 6.6/10, transport 5.5/10: what each figure measures",
+        body: "Safety: 5.9/10, against a median of 5 (0.9 point higher). Schools: 6.6/10, against a median of 5.5 (1.1 points higher). Transport: 5.5/10, against a median of 6.4 (0.9 point lower). What each figure measures needs saying, because these are the axes easiest to over-read. The schools score describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety score is a communal indicator: it says nothing about a neighbourhood or a street, and predicts nothing about an individual's experience. The transport score describes access to the commune's networks and stations, not the frequency of a particular line or the time of the last train. Above the median of the 415 ranked communes: cost of living, schools and safety. Below: transport."
+      },
+      {
+        heading: "A spread of 1.1 points: a flat profile, and the limit of the composite",
+        body: "The spread between the best axis (schools, 6.6) and the worst (transport, 5.5) is 1.1 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Niort ranks 12th on this criterion, ahead of Sélestat at 1.1, behind Boulogne-Billancourt at 6.8, Montluçon at 3.8, Tassin-la-Demi-Lune at 3.6 and 8 others. A single mark of 6.1 therefore covers very different profiles: here, four axes close to one another, with no marked strength and no marked warning sign. The limit of the method has to be stated: this composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5 (the lowest is transport at 5.5), so that limit does not apply to Niort."
+      },
+      {
+        heading: "Niort and its neighbours in the Deux-Sèvres",
+        body: "Niort is the only Deux-Sèvres commune in the ranking (population above 20,000), so a département comparison has no object. At the scale of the Nouvelle-Aquitaine region, the ranking retains 30 communes. The best-rated after Niort: Anglet (fit 6.9, T3 €1,200); Brive-la-Gaillarde (fit 6.7, T3 €780); Châtellerault (fit 6.5, T3 €640); Poitiers (fit 6.5, T3 €880). On neighbourhoods, the site publishes no verdict by sector: our district data documents a small number of neighbourhoods, on a scale of their own that does not compare with the communal score."
+      },
+      {
+        heading: "A commune gaining residents, 28.3% aged 60 and over",
+        body: "Niort counted 57,813 inhabitants in 2011, 59,005 in 2016 and 60,074 in 2022 (source: INSEE census), that is +3.9% over eleven years. Since 2016 the change is +1.8% (+1,069 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while remaining attractive across its wider urban area, or the reverse: the figure says nothing about how appealing the town is. The share of residents aged 60 and over is 28.3%, against a median of 23.3% across the ranked communes (5 points more), and under-thirties make up 34%, against 37.7% (3.7 points fewer). None of these measures is in the four axes of the composite. We draw no cause from these figures: they point to something to check, not to a trajectory, and our data measure neither class openings nor closures. A single parent planning to stay several years would still do well to ask the town hall how school rolls have moved recently: that is the local figure that answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €136,500 comes to about 4.5 years of the disposable income of a median local single-parent household (€30,056 a year), with the reservation that this benchmark is editorial and not a median of recorded transactions."
+      },
+      {
+        heading: "The verdict: who Niort works for",
+        body: "Niort works from €2,600 net a month, a floor that is the 4th lowest of the thirteen communes in the tier and €600 below the ranking median. It works for a single parent on a modest income who wants a low rent and puts cost of living (6.4/10) and schools (6.6/10) first, with a T3 at €860 against a tier median of €930. It works less well for a single parent at the local median standard of living, who is €95 short: the floor assumes an income above that of the median local household. It works badly for anyone who needs transport: 5.5/10, under the median. Two points to keep in mind. The first concerns the measure: the fit of 6.1 is a weighted average of four axes, and says nothing about neighbourhoods, childcare or the real availability of a home. The second is the competition within the tier: at the same mark, Niort is compared with communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is on /cities/niort/single-parent."
+      }
+    ],
+    relatedCities: [
+      "niort",
+      "anglet",
+      "brive-la-gaillarde",
+      "poitiers",
+      "chatellerault"
+    ],
+    tags: [
+      "single parent niort",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "nouvelle-aquitaine"
+    ]
+  },
+  {
+    slug: "single-parent-in-orange-2026",
+    title: "Single parent in Orange (2026): a €2,800 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Orange 2026: Floor €2,800",
+    metaDesc: "Fit 6.1/10, T3 €920, €2,800 monthly floor, €594 short for the local median household: the axis-by-axis detail.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro: "Orange returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide; the others are covered in the same batch). The detail: cost of living 6.3/10, transport 6.2/10, schools 6.6/10, safety 5.1/10 (source: our city profile). The average T3 is €920 and a square metre to buy €2,400 (source: our rent estimate), for an estimated minimum net income of €2,800 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 29,357 inhabitants at the 2022 census against 29,212 in 2016 and 29,302 in 2011 (source: INSEE census). The Orange file fits in one sentence: three axes out of four above the ranking medians, and transport below. Orange shares its mark with communes whose T3 runs from €650 to €2,000: this guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €2,800 floor: three axes above the median, one below",
+        body: "The minimum net income of €2,800 a month comes from the one-third rule applied to the €920 T3: because the cost-of-living score is 5 or above, the engine keeps the strict 33% rule. This floor is the 7th lowest of the thirteen communes in the tier (6 are higher), and €400 below the median of the 415 ranked communes (€3,200). The Orange cost-of-living mark is 6.3/10, against a median of 5.2, 1.1 points higher. It is the heaviest axis in the composite, weighted at 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would lose about 0.3 points: it is the line that carries the mark. The floor includes no transport, childcare or running costs: it is a rent set against an income, not a full budget. Within the tier, T3s run from €650 (Montluçon) to €2,000 (Boulogne-Billancourt); Orange is at €920."
+      },
+      {
+        heading: "€594 short for the local median household",
+        body: "The commune's median standard of living is €20,360 a year per consumption unit, against €21,660 for the median of the ranked communes: €1,300 less, or 6% (source: Insee, Filosofi 2021). The poverty rate is 23%, against 19% for the median. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,206 a month, against a floor of €2,800: €594 short. The local median household therefore covers 79% of the floor. Across the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two methodological points. Standard of living is a disposable income, benefits included, computed per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or child support, which can change the outcome of an individual file."
+      },
+      {
+        heading: "Safety 5.1/10, schools 6.6/10, transport 6.2/10: what each figure measures",
+        body: "Safety: 5.1/10, against a median of 5 (0.1 point higher). Schools: 6.6/10, against a median of 5.5 (1.1 points higher). Transport: 6.2/10, against a median of 6.4 (0.2 point lower). What each figure measures needs saying, because these are the axes easiest to over-read. The schools score describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety score is a communal indicator: it says nothing about a neighbourhood or a street, and predicts nothing about an individual's experience. The transport score describes access to the commune's networks and stations, not the frequency of a particular line or the time of the last train. Above the median of the 415 ranked communes: cost of living, schools and safety. Below: transport."
+      },
+      {
+        heading: "A spread of 1.5 points: a flat profile, and the limit of the composite",
+        body: "The spread between the best axis (schools, 6.6) and the worst (safety, 5.1) is 1.5 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Orange ranks 7th on this criterion, ahead of 6 communes in the tier (from 1.3 to 1.1), behind Boulogne-Billancourt at 6.8, Montluçon at 3.8, Tassin-la-Demi-Lune at 3.6 and 3 others. A single mark of 6.1 therefore covers very different profiles: here, four axes close to one another, with no marked strength and no marked warning sign. The limit of the method has to be stated: this composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5 (the lowest is safety at 5.1), so that limit does not apply to Orange."
+      },
+      {
+        heading: "Orange and its neighbours in the Vaucluse",
+        body: "The ranking retains 5 communes in the Vaucluse, Orange included. Of the other 4, 0 has a higher fit than 6.1/10, 0 has the same fit and 4 have a lower one. The best-rated neighbours: Carpentras (fit 6, T3 €920); Avignon (fit 5.3, T3 €1,000); Pertuis (fit 4.8, T3 €1,010); Cavaillon (fit 4.4, T3 €860). 1 of the 4 others has a T3 cheaper than €920. The median T3 across these communes, Orange included, is €920. In the Provence-Alpes-Côte d'Azur region, 34 communes are ranked; 3 have a T3 cheaper than Orange. On neighbourhoods, the site publishes no verdict by sector: our district data documents a small number of neighbourhoods, on a scale of their own that does not compare with the communal score."
+      },
+      {
+        heading: "A stable population, 30.5% aged 60 and over",
+        body: "Orange counted 29,302 inhabitants in 2011, 29,212 in 2016 and 29,357 in 2022 (source: INSEE census), that is +0.2% over eleven years. Since 2016 the change is +0.5% (+145 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while remaining attractive across its wider urban area, or the reverse: the figure says nothing about how appealing the town is. The share of residents aged 60 and over is 30.5%, against a median of 23.3% across the ranked communes (7.2 points more), and under-thirties make up 32.9%, against 37.7% (4.8 points fewer). None of these measures is in the four axes of the composite. We draw no cause from these figures: they point to something to check, not to a trajectory, and our data measure neither class openings nor closures. A single parent planning to stay several years would still do well to ask the town hall how school rolls have moved recently: that is the local figure that answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €156,000 comes to about 5.9 years of the disposable income of a median local single-parent household (€26,468 a year), with the reservation that this benchmark is editorial and not a median of recorded transactions."
+      },
+      {
+        heading: "The verdict: who Orange works for",
+        body: "Orange works from €2,800 net a month, a floor that is the 7th lowest of the thirteen communes in the tier and €400 below the ranking median. It works for a single parent on a modest income who wants a low rent and puts cost of living (6.3/10) and schools (6.6/10) first, with a T3 at €920 against a tier median of €930. It works less well for a single parent at the local median standard of living, who is €594 short: the floor assumes an income above that of the median local household. It works badly for anyone who needs transport: 6.2/10, under the median. Two points to keep in mind. The first concerns the measure: the fit of 6.1 is a weighted average of four axes, and says nothing about neighbourhoods, childcare or the real availability of a home. The second is the competition within the tier: at the same mark, Orange is compared with communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is on /cities/orange/single-parent."
+      }
+    ],
+    relatedCities: [
+      "orange",
+      "carpentras",
+      "avignon",
+      "pertuis",
+      "cavaillon"
+    ],
+    tags: [
+      "single parent orange",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "provence-alpes-cote-d-azur"
+    ]
+  },
+{
+    slug: "single-parent-in-quimper-2026",
+    title: "Single parent in Quimper (2026): a €2,850 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Quimper 2026: Floor €2,850",
+    metaDesc:
+      "Fit 6.1/10, €940 T3, a €2,850 monthly floor, and the median local household is €391 short: the axis-by-axis detail.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro:
+      "Quimper returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide, the others are covered in the same batch). The detail is cost of living 6.2/10, transport 5.5/10, schools 6.6/10, safety 6.1/10 (source: our city profile). The T3 is €940 and a square metre to buy €2,800 (source: our rent estimate), for an estimated minimum net income of €2,850 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 64,530 inhabitants at the 2022 census against 63,405 in 2016 and 63,235 in 2011 (source: INSEE census). The Quimper file fits in one sentence: three axes out of four above the median of the ranking, and transport below it. Quimper shares its mark with communes whose T3 runs from €650 to €2,000. This guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €2,850 floor: three axes above the median, one below",
+        body: "The minimum net income of €2,850 a month comes from the 33% rule applied to the €940 T3. Because the cost-of-living score is 5 or above, the engine keeps the strict one-third rule. This floor is the 8th lowest of the thirteen communes in the tier (5 are higher), and €350 under the median of the 415 ranked communes (€3,200). Quimper's cost of living is marked 6.2/10 against a median of 5.2, one point higher. It is the heaviest axis in the composite, with a weight of 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would lose about 0.3 points: it is the line that carries the mark. The floor includes no transport, no childcare and no running costs. It is a rent set against an income, not a full budget. Within the tier, T3s run from €650 (Montluçon) to €2,000 (Boulogne-Billancourt); Quimper sits at €940.",
+      },
+      {
+        heading: "The median local household is €391 short",
+        body: "The commune's median standard of living is €22,700 a year per consumption unit, against €21,660 for the median of ranked communes: €1,040 more, or 5% (source: Insee, Filosofi 2021). The poverty rate is 13%, against 19% for the median. For a single parent with one child under fourteen, 1.3 units of consumption on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,459 a month, against a floor of €2,850: €391 is missing. The median local household therefore covers 86% of the floor. Within the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two points of method. The standard of living is a disposable income, benefits included, computed per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or family support, which can change the outcome of an individual case.",
+      },
+      {
+        heading: "Safety 6.1/10, schools 6.6/10, transport 5.5/10: what each number measures",
+        body: "Safety: 6.1/10, against a median of 5 (1.1 points higher). Schools: 6.6/10, against a median of 5.5 (1.1 points higher). Transport: 5.5/10, against a median of 6.4 (0.9 points lower). Each number needs a word on what it measures, because these are the easiest axes to over-read. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety mark is a communal indicator: it says nothing about a neighbourhood or a street, and it predicts nothing about an individual path. The transport mark describes access to the commune's networks and stations, not the frequency of a given line or the time of the last train. Above the median of the 415 ranked communes: cost of living, schools and safety. Below: transport.",
+      },
+      {
+        heading: "A spread of 1.1 points: a flat profile, and the limit of the composite",
+        body: "The spread between the best axis (schools, 6.6) and the worst (transport, 5.5) is 1.1 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Quimper is 10th on this criterion, ahead of Lorient at 1.1, Niort at 1.1 and Sélestat at 1.1, behind Boulogne-Billancourt at 6.8, Montluçon at 3.8, Tassin-la-Demi-Lune at 3.6 and 6 others. The same mark of 6.1 therefore covers very different profiles: here, four axes close to one another, with no strong anchor and no marked warning sign. The limit of the method has to be stated. This composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis drops under 4.5. Here no axis is under 4.5 (the lowest is transport at 5.5), so the limit does not bite for Quimper.",
+      },
+      {
+        heading: "Quimper against its Finistère neighbours",
+        body: "The ranking holds 3 communes of the Finistère département, Quimper included. Among the other 2, 1 has a fit higher than 6.1/10, 0 has the same fit and 1 has a lower one. The best-marked neighbours: Brest (fit 6.5, T3 €850); Concarneau (fit 5.5, T3 €900). The €940 T3 is the most expensive of these 3 communes. The median T3 of these communes, Quimper included, is €900. Across the Brittany region, 10 communes are ranked; 6 have a cheaper T3 than Quimper. On neighbourhoods, the site publishes no verdict by sector: our district data covers a limited number of neighbourhoods, on a scale of its own that does not compare with the communal mark.",
+      },
+      {
+        heading: "A commune that is gaining residents, 28.7% aged 60 and over",
+        body: "Quimper had 63,235 inhabitants in 2011, 63,405 in 2016 and 64,530 in 2022 (source: INSEE census), which is +2% over eleven years. Since 2016 the change is +1.8% (+1,125 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while staying attractive across its urban area, or the reverse: this figure says nothing about how appealing the town is. The share of people aged 60 and over is 28.7%, against a median of 23.3% across ranked communes (5.4 points higher), and under-thirties make up 34%, against 37.7% (3.7 points lower). None of these measures sits in any of the four axes of the composite. We draw no cause from these figures: they flag a point to check, not a trajectory, and our data measure neither classroom openings nor closures. A single parent planning to stay several years is still well advised to ask the town hall how school rolls have moved recently: that local figure answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €182,000 comes to about 6.2 years of the disposable income of a median local single-parent household (€29,510 a year), with the reservation that this benchmark is an editorial figure and not a median of recorded transactions.",
+      },
+      {
+        heading: "The verdict: who Quimper works for",
+        body: "Quimper works from €2,850 net a month, a floor that is the 8th lowest in the tier of thirteen and €350 under the median of the ranking. It works for a single parent on a modest income looking for a low rent, who puts cost of living (6.2/10) and schools (6.6/10) first. It works less well for a single parent at the local median standard of living, who is €391 short: the floor assumes an income above that of the median household of the place. It works badly for anyone who needs transport: transport sits at 5.5/10, under the median. Two points to keep in mind. The first concerns the measure: the fit of 6.1 is a weighted average of four axes, and it says nothing about neighbourhoods, childcare or the real availability of a home. The second is the competition within the tier: at an equal mark, Quimper is compared with communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is at /cities/quimper/single-parent.",
+      },
+    ],
+    relatedCities: ["quimper", "brest", "concarneau", "lannion", "rennes"],
+    tags: ["single parent quimper", "single parent in france", "expat single parent", "moving to france", "brittany"],
+  },
+  {
+    slug: "single-parent-in-selestat-2026",
+    title: "Single parent in Sélestat (2026): a €3,050 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Sélestat 2026: Floor €3,050",
+    metaDesc:
+      "Fit 6.1/10, €1,000 T3, a €3,050 monthly floor, and the median local household is €596 short: the axis-by-axis detail.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro:
+      "Sélestat returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide, the others are covered in the same batch). The detail is cost of living 6.2/10, transport 5.5/10, schools 6.6/10, safety 6.1/10 (source: our city profile). The T3 is €1,000 and a square metre to buy €3,200 (source: our rent estimate), for an estimated minimum net income of €3,050 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 19,523 inhabitants at the 2022 census against 19,124 in 2016 and 19,181 in 2011 (source: INSEE census). The Sélestat file fits in one sentence: three axes out of four above the median of the ranking, and transport below it. Sélestat shares its mark with communes whose T3 runs from €650 to €2,000. This guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €3,050 floor: three axes above the median, one below",
+        body: "The minimum net income of €3,050 a month comes from the 33% rule applied to the €1,000 T3. Because the cost-of-living score is 5 or above, the engine keeps the strict one-third rule. This floor is the 9th lowest of the thirteen communes in the tier (4 are higher), and €150 under the median of the 415 ranked communes (€3,200). Sélestat's cost of living is marked 6.2/10 against a median of 5.2, one point higher. It is the heaviest axis in the composite, with a weight of 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would lose about 0.3 points: it is the line that carries the mark. The floor includes no transport, no childcare and no running costs. It is a rent set against an income, not a full budget. Within the tier, T3s run from €650 (Montluçon) to €2,000 (Boulogne-Billancourt); Sélestat sits at €1,000.",
+      },
+      {
+        heading: "The median local household is €596 short",
+        body: "The commune's median standard of living is €22,650 a year per consumption unit, against €21,660 for the median of ranked communes: €990 more, or 5% (source: Insee, Filosofi 2021). The poverty rate is 15%, against 19% for the median. For a single parent with one child under fourteen, 1.3 units of consumption on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,454 a month, against a floor of €3,050: €596 is missing. The median local household therefore covers 80% of the floor. Within the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two points of method. The standard of living is a disposable income, benefits included, computed per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or family support, which can change the outcome of an individual case.",
+      },
+      {
+        heading: "Safety 6.1/10, schools 6.6/10, transport 5.5/10: what each number measures",
+        body: "Safety: 6.1/10, against a median of 5 (1.1 points higher). Schools: 6.6/10, against a median of 5.5 (1.1 points higher). Transport: 5.5/10, against a median of 6.4 (0.9 points lower). Each number needs a word on what it measures, because these are the easiest axes to over-read. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety mark is a communal indicator: it says nothing about a neighbourhood or a street, and it predicts nothing about an individual path. The transport mark describes access to the commune's networks and stations, not the frequency of a given line or the time of the last train. Above the median of the 415 ranked communes: cost of living, schools and safety. Below: transport.",
+      },
+      {
+        heading: "A spread of 1.1 points: a flat profile, and the limit of the composite",
+        body: "The spread between the best axis (schools, 6.6) and the worst (transport, 5.5) is 1.1 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Sélestat is 13th on this criterion, behind Boulogne-Billancourt at 6.8, Montluçon at 3.8, Tassin-la-Demi-Lune at 3.6 and 9 others. The same mark of 6.1 therefore covers very different profiles: here, four axes close to one another, with no strong anchor and no marked warning sign. The limit of the method has to be stated. This composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis drops under 4.5. Here no axis is under 4.5 (the lowest is transport at 5.5), so the limit does not bite for Sélestat.",
+      },
+      {
+        heading: "Sélestat against its Bas-Rhin neighbours",
+        body: "The ranking holds 5 communes of the Bas-Rhin département, Sélestat included. Among the other 4, 2 have a fit higher than 6.1/10, 0 has the same fit and 2 have a lower one. The best-marked neighbours: Strasbourg (fit 7, T3 €1,080); Haguenau (fit 6.2, T3 €940); Illkirch-Graffenstaden (fit 5.9, T3 €970); Schiltigheim (fit 5.4, T3 €950). 3 of the 4 other communes have a T3 cheaper than €1,000. The median T3 of these communes, Sélestat included, is €970. Across the Grand Est region, 24 communes are ranked; 20 have a cheaper T3 than Sélestat. On neighbourhoods, the site publishes no verdict by sector: our district data covers a limited number of neighbourhoods, on a scale of its own that does not compare with the communal mark.",
+      },
+      {
+        heading: "A commune that is gaining residents, 26.8% aged 60 and over",
+        body: "Sélestat had 19,181 inhabitants in 2011, 19,124 in 2016 and 19,523 in 2022 (source: INSEE census), which is +1.8% over eleven years. Since 2016 the change is +2.1% (+399 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while staying attractive across its urban area, or the reverse: this figure says nothing about how appealing the town is. The share of people aged 60 and over is 26.8%, against a median of 23.3% across ranked communes (3.5 points higher), and under-thirties make up 34.8%, against 37.7% (2.9 points lower). None of these measures sits in any of the four axes of the composite. We draw no cause from these figures: they flag a point to check, not a trajectory, and our data measure neither classroom openings nor closures. A single parent planning to stay several years is still well advised to ask the town hall how school rolls have moved recently: that local figure answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €208,000 comes to about 7.1 years of the disposable income of a median local single-parent household (€29,445 a year), with the reservation that this benchmark is an editorial figure and not a median of recorded transactions. A note on rank: Sélestat is ranked on the seed population, rounded to 20,000, while the 2022 census gives 19,523. It therefore sits at the floor of the ranking, under the threshold if INSEE's measure is used.",
+      },
+      {
+        heading: "The verdict: who Sélestat works for",
+        body: "Sélestat works from €3,050 net a month, a floor that is the 9th lowest in the tier of thirteen and €150 under the median of the ranking. It works for a single parent on a modest income looking for a low rent, who puts cost of living (6.2/10) and schools (6.6/10) first. It works less well for a single parent at the local median standard of living, who is €596 short: the floor assumes an income above that of the median household of the place. It works badly for anyone who needs transport: transport sits at 5.5/10, under the median. Two points to keep in mind. The first concerns the measure: the fit of 6.1 is a weighted average of four axes, and it says nothing about neighbourhoods, childcare or the real availability of a home. The second is the competition within the tier: at an equal mark, Sélestat is compared with communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is at /cities/selestat/single-parent.",
+      },
+    ],
+    relatedCities: ["selestat", "strasbourg", "haguenau", "illkirch-graffenstaden", "schiltigheim"],
+    tags: ["single parent selestat", "single parent in france", "expat single parent", "moving to france", "grand-est"],
+  },
+  {
+    slug: "single-parent-in-tassin-la-demi-lune-2026",
+    title: "Single parent in Tassin-la-Demi-Lune (2026): a €4,050 floor, two axes out of four above the median and a 3.6-point spread",
+    metaTitle: "Single Parent in Tassin-la-Demi-Lune 2026: €4,050",
+    metaDesc:
+      "Fit 6.1/10, €1,410 T3, a €4,050 monthly floor, and the median local household is €907 short: the axis-by-axis detail.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    intro:
+      "Tassin-la-Demi-Lune returns 6.1/10 on the single-parent composite, inside a tier of thirteen communes at 6.1/10 that nothing in our scale separates (Orléans and Chambéry already have a guide, the others are covered in the same batch). The detail is cost of living 4.1/10, transport 6.4/10, schools 7.7/10, safety 6.5/10 (source: our city profile). The T3 is €1,410 and a square metre to buy €5,000 (source: our rent estimate), for an estimated minimum net income of €4,050 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 22,819 inhabitants at the 2022 census against 22,356 in 2016 and 19,868 in 2011 (source: INSEE census). The Tassin-la-Demi-Lune file fits in one sentence: schools as the strong point (7.7/10), cost of living as the weak one (4.1/10). Tassin-la-Demi-Lune shares its mark with communes whose T3 runs from €650 to €2,000. This guide says what that tie hides, and what it changes for a single parent.",
+    sections: [
+      {
+        heading: "A €4,050 floor: two axes above the median, one below",
+        body: "The minimum net income of €4,050 a month comes from the 35% rule applied to the €1,410 T3. Because the cost-of-living score is under 5, the engine does not use the 33% rule but the relaxed version, reserved for tight markets. This floor is the 12th lowest of the thirteen communes in the tier (1 is higher), and €850 above the median of the 415 ranked communes (€3,200). Tassin-la-Demi-Lune's cost of living is marked 4.1/10 against a median of 5.2, 1.1 points lower. It is the heaviest axis in the composite, with a weight of 0.30, ahead of schools and safety at 0.25 each and transport at 0.20. If that axis sat at the median, the composite would gain about 0.3 points: the mark of 6.1 is a result earned with a handicap on the line that counts most. The floor includes no transport, no childcare and no running costs. It is a rent set against an income, not a full budget. Within the tier, T3s run from €650 (Montluçon) to €2,000 (Boulogne-Billancourt); Tassin-la-Demi-Lune sits at €1,410.",
+      },
+      {
+        heading: "The median local household is €907 short",
+        body: "The commune's median standard of living is €29,010 a year per consumption unit, against €21,660 for the median of ranked communes: €7,350 more, or 34% (source: Insee, Filosofi 2021). The poverty rate is 8%, against 19% for the median. For a single parent with one child under fourteen, 1.3 units of consumption on the modified OECD scale, a disposable income at the local median standard of living comes to about €3,143 a month, against a floor of €4,050: €907 is missing. The median local household therefore covers 78% of the floor. Within the tier, coverage runs from 67% (Boulogne-Billancourt) to 108% (Montluçon). Two points of method. The standard of living is a disposable income, benefits included, computed per consumption unit: it is not a salary, and a single parent earning the local median does not necessarily have an income equal to it. And the vintage is 2021 while rents are 2026, so the coverage figure is overstated in absolute terms and only the comparison between communes holds. The calculation says nothing about housing aid or family support, which can change the outcome of an individual case.",
+      },
+      {
+        heading: "Safety 6.5/10, schools 7.7/10, transport 6.4/10: what each number measures",
+        body: "Safety: 6.5/10, against a median of 5 (1.5 points higher). Schools: 7.7/10, against a median of 5.5 (2.2 points higher). Transport: 6.4/10, against a median of 6.4 (at the median). Each number needs a word on what it measures, because these are the easiest axes to over-read. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do or how well the teams work. The safety mark is a communal indicator: it says nothing about a neighbourhood or a street, and it predicts nothing about an individual path. The transport mark describes access to the commune's networks and stations, not the frequency of a given line or the time of the last train. Above the median of the 415 ranked communes: schools and safety. Below: cost of living.",
+      },
+      {
+        heading: "A spread of 3.6 points: a profile of contrasts, and the limit of the composite",
+        body: "The spread between the best axis (schools, 7.7) and the worst (cost of living, 4.1) is 3.6 points, against a median of 2.7 across the 415 ranked communes. Within the tier of thirteen, Tassin-la-Demi-Lune is 3rd on this criterion, ahead of 10 communes of the tier (from 3.4 to 1.1), behind Boulogne-Billancourt at 6.8 and Montluçon at 3.8. The same mark of 6.1 therefore covers very different profiles: here, a clear contrast between what works and what pinches. The limit of the method has to be stated. This composite is a weighted average of four axes, without the worst-axis penalty that the site's global score applies when an axis drops under 4.5. Here the cost-of-living axis is at 4.1, under that threshold: the composite smooths over a point that the site's global score would penalise. We publish the limit, we do not reweight.",
+      },
+      {
+        heading: "Tassin-la-Demi-Lune against its Métropole de Lyon neighbours",
+        body: "The ranking holds 14 communes of the Métropole de Lyon, Tassin-la-Demi-Lune included. Among the other 13, 2 have a fit higher than 6.1/10, 0 has the same fit and 11 have a lower one. The best-marked neighbours: Villeurbanne (fit 6.8, T3 €1,150); Lyon (fit 6.6, T3 €1,380); Sainte-Foy-lès-Lyon (fit 5.9, T3 €1,310); Caluire-et-Cuire (fit 5.8, T3 €1,450). 12 of the 13 other communes have a T3 cheaper than €1,410. The median T3 of these communes, Tassin-la-Demi-Lune included, is €1,210. Across the Auvergne-Rhône-Alpes region, 39 communes are ranked; 36 have a cheaper T3 than Tassin-la-Demi-Lune. On neighbourhoods, the site publishes no verdict by sector: our district data covers a limited number of neighbourhoods, on a scale of its own that does not compare with the communal mark.",
+      },
+      {
+        heading: "A commune that is gaining residents, 24.2% aged 60 and over",
+        body: "Tassin-la-Demi-Lune had 19,868 inhabitants in 2011, 22,356 in 2016 and 22,819 in 2022 (source: INSEE census), which is +14.9% over eleven years. Since 2016 the change is +2.1% (+463 inhabitants). The census counts residents, and a commune can lose inhabitants within its limits while staying attractive across its urban area, or the reverse: this figure says nothing about how appealing the town is. The share of people aged 60 and over is 24.2%, against a median of 23.3% across ranked communes (0.9 points higher), and under-thirties make up 37.3%, against 37.7% (0.4 points lower). None of these measures sits in any of the four axes of the composite. We draw no cause from these figures: they flag a point to check, not a trajectory, and our data measure neither classroom openings nor closures. A single parent planning to stay several years is still well advised to ask the town hall how school rolls have moved recently: that local figure answers the question, and we do not have it. For a purchase, 65 m² at the benchmark of €325,000 comes to about 8.6 years of the disposable income of a median local single-parent household (€37,713 a year), with the reservation that this benchmark is an editorial figure and not a median of recorded transactions.",
+      },
+      {
+        heading: "The verdict: who Tassin-la-Demi-Lune works for",
+        body: "Tassin-la-Demi-Lune works from €4,050 net a month, a floor that is the 12th lowest in the tier of thirteen and €850 above the median of the ranking. It works for a single parent whose income is already settled, who puts schools (7.7/10) and safety (6.5/10) first. It works less well for a single parent at the local median standard of living, who is €907 short: the floor assumes an income above that of the median household of the place. It works badly for anyone watching the cost of living: it sits at 4.1/10, under the median. Two points to keep in mind. The first concerns the measure: the fit of 6.1 is a weighted average of four axes, and it says nothing about neighbourhoods, childcare or the real availability of a home. The second is the competition within the tier: at an equal mark, Tassin-la-Demi-Lune is compared with communes whose T3 runs from €650 to €2,000, and the axis-by-axis detail is at /cities/tassin-la-demi-lune/single-parent.",
+      },
+    ],
+    relatedCities: ["tassin-la-demi-lune", "villeurbanne", "lyon", "sainte-foy-les-lyon", "caluire-et-cuire"],
+    tags: ["single parent tassin-la-demi-lune", "single parent in france", "expat single parent", "moving to france", "auvergne-rhone-alpes"],
+  },
   {
     slug: "single-parent-holidays-anglet-2026",
     title: "Single-parent holidays in Anglet: no railway station, but the airport is here",
