@@ -5,7 +5,6 @@ import { cn } from "@/lib/utils";
 interface Cat {
   slug: string;
   label: string;
-  emoji: string;
 }
 
 export function ClassementsJumpNav({ categories }: { categories: ReadonlyArray<Cat> }) {
@@ -59,7 +58,7 @@ export function ClassementsJumpNav({ categories }: { categories: ReadonlyArray<C
       aria-label="Filtrer par catégorie"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="flex flex-wrap gap-2 justify-center rounded-2xl glass border border-white/50 p-3 backdrop-blur-xl shadow-md">
+        <div className="flex flex-nowrap gap-2 overflow-x-auto sm:flex-wrap sm:justify-center sm:overflow-visible rounded-xl border border-[var(--border)] bg-[var(--bg-surface)]/95 p-3 shadow-[0_6px_18px_-10px_rgba(24,33,47,0.35)]">
           {categories.map((cat) => {
             const isActive = active === cat.slug;
             return (
@@ -69,13 +68,12 @@ export function ClassementsJumpNav({ categories }: { categories: ReadonlyArray<C
                 onClick={(e) => onJump(e, cat.slug)}
                 aria-current={isActive ? "true" : undefined}
                 className={cn(
-                  "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
+                  "inline-flex shrink-0 whitespace-nowrap items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
                   isActive
                     ? "bg-[var(--accent)] text-white border-[var(--accent)] shadow-sm"
-                    : "bg-white/70 hover:bg-white border-[var(--border)] hover:border-[var(--accent)]/40 text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+                    : "bg-[var(--bg-canvas)] hover:bg-[var(--bg-elevated)] border-[var(--border)] hover:border-[var(--accent)]/40 text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                 )}
               >
-                <span aria-hidden>{cat.emoji}</span>
                 {cat.label}
               </a>
             );

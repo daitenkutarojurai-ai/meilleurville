@@ -52,25 +52,25 @@ function seedToCity(s: (typeof CITIES_SEED)[number]): City {
 }
 
 const CATEGORIES = [
-  { slug: "teletravail", label: "Télétravail", emoji: "💻", icon: Laptop, gradient: "from-blue-400 to-sky-500", color: "#3B82F6", desc: "Fibre, coworking, café culture, qualité de vie", scoreKey: "remoteWork" },
-  { slug: "famille", label: "Famille", emoji: "🏡", icon: Home, gradient: "from-emerald-400 to-lime-500", color: "#10B981", desc: "Écoles, sécurité, espaces verts, prix", scoreKey: "schools" },
-  { slug: "nature", label: "Nature & Sport", emoji: "🌲", icon: TreePine, gradient: "from-green-400 to-emerald-500", color: "#22C55E", desc: "Randonnée, vélo, montagne, mer", scoreKey: "nature" },
-  { slug: "etudiant", label: "Étudiant", emoji: "🎓", icon: GraduationCap, gradient: "from-violet-400 to-fuchsia-500", color: "#8B5CF6", desc: "Université, coût, culture, mobilité", scoreKey: "culture" },
-  { slug: "retraite", label: "Retraite", emoji: "🌴", icon: Palmtree, gradient: "from-amber-400 to-orange-500", color: "#F59E0B", desc: "Douceur de vivre, santé, calme, soleil", scoreKey: "life" },
-  { slug: "budget", label: "Moins chères", emoji: "💸", icon: Wallet, gradient: "from-yellow-400 to-amber-500", color: "#EAB308", desc: "Loyer, coût de la vie, pouvoir d'achat réel", scoreKey: "cost" },
-  { slug: "soleil", label: "Soleil & Douceur", emoji: "☀️", icon: Sun, gradient: "from-orange-400 to-rose-400", color: "#F97316", desc: "Ensoleillement, température, qualité de l'air", scoreKey: "nature" },
-  { slug: "securite", label: "Sécurité", emoji: "🛡️", icon: Shield, gradient: "from-sky-400 to-cyan-500", color: "#0EA5E9", desc: "Criminalité, sentiment de sécurité, cohésion sociale", scoreKey: "safety" },
-  { slug: "culture", label: "Vie culturelle", emoji: "🎭", icon: Music, gradient: "from-purple-400 to-pink-500", color: "#A855F7", desc: "Musées, festivals, patrimoine, théâtres", scoreKey: "culture" },
-  { slug: "mobilite", label: "Sans voiture", emoji: "🚲", icon: Bike, gradient: "from-teal-400 to-emerald-500", color: "#14B8A6", desc: "Transports, vélo, marchabilité, TGV", scoreKey: "transport" },
-  { slug: "investissement", label: "Investissement", emoji: "📈", icon: Building2, gradient: "from-rose-400 to-pink-500", color: "#F43F5E", desc: "Prix accessibles, rendement locatif, attractivité", scoreKey: "cost" },
-  { slug: "sante", label: "Santé & Soins", emoji: "❤️", icon: Heart, gradient: "from-pink-400 to-rose-500", color: "#EC4899", desc: "Densité médicale, hôpitaux, qualité de l'air, bien-être", scoreKey: "life" },
-  { slug: "ecologie", label: "Écologie & Air", emoji: "🌿", icon: Leaf, gradient: "from-lime-400 to-green-500", color: "#84CC16", desc: "Qualité de l'air, mobilité douce, espaces verts, bas-carbone", scoreKey: "nature" },
-  { slug: "climat", label: "Climat de comfort", emoji: "🌤️", icon: CloudSun, gradient: "from-amber-400 to-yellow-500", color: "#F59E0B", desc: "Données réelles : ensoleillement, douceur d'été, clémence d'hiver", scoreKey: "nature" },
-  { slug: "logement", label: "Logement abordable", emoji: "🔑", icon: KeyRound, gradient: "from-cyan-400 to-sky-500", color: "#06B6D4", desc: "Données DVF + Observatoires loyers : loyer T2, prix au m², coût de vie", scoreKey: "cost" },
-  { slug: "jeunes-actifs", label: "Jeunes actifs", emoji: "🚀", icon: Rocket, gradient: "from-fuchsia-400 to-pink-500", color: "#D946EF", desc: "Cadres 25-39 ans, TGV, fibre, culture, premier salaire compatible", scoreKey: "culture" },
-  { slug: "gastronomie", label: "Gastronomie", emoji: "🍽️", icon: ChefHat, gradient: "from-amber-500 to-red-500", color: "#DC2626", desc: "Étoilés Michelin, Bib Gourmand, AOC, marchés couverts, terroir", scoreKey: "culture" },
-  { slug: "cyclistes", label: "Vélo & cyclistes", emoji: "🚴", icon: Bike, gradient: "from-indigo-400 to-blue-500", color: "#6366F1", desc: "Note FUB, pistes cyclables sécurisées, continuité, intermodalité train+vélo", scoreKey: "transport" },
-  { slug: "bord-de-mer", label: "Bord de mer", emoji: "🌊", icon: Waves, gradient: "from-cyan-400 to-sky-500", color: "#06B6D4", desc: "Villes côtières où vivre à l'année — trait de côte SHOM, ensoleillement, patrimoine maritime", scoreKey: "nature" },
+  { slug: "teletravail", label: "Télétravail", icon: Laptop, desc: "Fibre, coworking, café culture, qualité de vie", scoreKey: "remoteWork" },
+  { slug: "famille", label: "Famille", icon: Home, desc: "Écoles, sécurité, espaces verts, prix", scoreKey: "schools" },
+  { slug: "nature", label: "Nature & Sport", icon: TreePine, desc: "Randonnée, vélo, montagne, mer", scoreKey: "nature" },
+  { slug: "etudiant", label: "Étudiant", icon: GraduationCap, desc: "Université, coût, culture, mobilité", scoreKey: "culture" },
+  { slug: "retraite", label: "Retraite", icon: Palmtree, desc: "Douceur de vivre, santé, calme, soleil", scoreKey: "life" },
+  { slug: "budget", label: "Moins chères", icon: Wallet, desc: "Loyer, coût de la vie, pouvoir d'achat réel", scoreKey: "cost" },
+  { slug: "soleil", label: "Soleil & Douceur", icon: Sun, desc: "Ensoleillement, température, qualité de l'air", scoreKey: "nature" },
+  { slug: "securite", label: "Sécurité", icon: Shield, desc: "Criminalité, sentiment de sécurité, cohésion sociale", scoreKey: "safety" },
+  { slug: "culture", label: "Vie culturelle", icon: Music, desc: "Musées, festivals, patrimoine, théâtres", scoreKey: "culture" },
+  { slug: "mobilite", label: "Sans voiture", icon: Bike, desc: "Transports, vélo, marchabilité, TGV", scoreKey: "transport" },
+  { slug: "investissement", label: "Investissement", icon: Building2, desc: "Prix accessibles, rendement locatif, attractivité", scoreKey: "cost" },
+  { slug: "sante", label: "Santé & Soins", icon: Heart, desc: "Densité médicale, hôpitaux, qualité de l'air, bien-être", scoreKey: "life" },
+  { slug: "ecologie", label: "Écologie & Air", icon: Leaf, desc: "Qualité de l'air, mobilité douce, espaces verts, bas-carbone", scoreKey: "nature" },
+  { slug: "climat", label: "Climat de comfort", icon: CloudSun, desc: "Données réelles : ensoleillement, douceur d'été, clémence d'hiver", scoreKey: "nature" },
+  { slug: "logement", label: "Logement abordable", icon: KeyRound, desc: "Données DVF + Observatoires loyers : loyer T2, prix au m², coût de vie", scoreKey: "cost" },
+  { slug: "jeunes-actifs", label: "Jeunes actifs", icon: Rocket, desc: "Cadres 25-39 ans, TGV, fibre, culture, premier salaire compatible", scoreKey: "culture" },
+  { slug: "gastronomie", label: "Gastronomie", icon: ChefHat, desc: "Étoilés Michelin, Bib Gourmand, AOC, marchés couverts, terroir", scoreKey: "culture" },
+  { slug: "cyclistes", label: "Vélo & cyclistes", icon: Bike, desc: "Note FUB, pistes cyclables sécurisées, continuité, intermodalité train+vélo", scoreKey: "transport" },
+  { slug: "bord-de-mer", label: "Bord de mer", icon: Waves, desc: "Villes côtières où vivre à l'année — trait de côte SHOM, ensoleillement, patrimoine maritime", scoreKey: "nature" },
 ] as const;
 
 export default function ClassementsPage() {
@@ -90,7 +90,7 @@ export default function ClassementsPage() {
       <section className="relative pt-20 pb-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            🏆 Édition 2026
+            Édition 2026 · {CATEGORIES.length} feuilles
           </p>
           <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
             Les <span className="font-display gradient-text-anim italic">classements</span>{" "}<br className="hidden sm:block" />
@@ -109,12 +109,12 @@ export default function ClassementsPage() {
 
       {/* Quick jump chips with scrollspy */}
       <ClassementsJumpNav
-        categories={CATEGORIES.map(({ slug, label, emoji }) => ({ slug, label, emoji }))}
+        categories={CATEGORIES.map(({ slug, label }) => ({ slug, label }))}
       />
 
       {/* Sections */}
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 pb-16 space-y-20">
-        {CATEGORIES.map((cat) => {
+        {CATEGORIES.map((cat, idx) => {
           // Custom-compute rankings (climat, logement, bord-de-mer) can't be
           // previewed by raw axis sort — fall back to the canonical ranker
           // so the homepage top-3 matches the detail page.
@@ -134,15 +134,20 @@ export default function ClassementsPage() {
           return (
             <ScrollReveal key={cat.slug}>
               <section id={`cat-${cat.slug}`} className="scroll-mt-32">
-                {/* Section header */}
-                <div className="flex flex-wrap items-center gap-4 mb-6">
-                  <div className={`flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br ${cat.gradient} shadow-lg ring-1 ring-white/40`}>
-                    <span className="text-2xl">{cat.emoji}</span>
+                {/* Section header — one survey-map sheet per category: numbered
+                    sheet label, enamel-plaque icon tile, ink title. No per-category
+                    colour: greens, amber, violet… are reserved for score tiers. */}
+                <div className="flex flex-wrap items-center gap-4 mb-6 border-b border-[var(--border)] pb-4">
+                  <div className="plaque !p-0 h-12 w-12 justify-center shrink-0" aria-hidden>
+                    <cat.icon className="h-6 w-6" strokeWidth={1.75} />
                   </div>
                   <div className="flex-1 min-w-0">
+                    <p className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+                      Feuille {String(idx + 1).padStart(2, "0")} / {String(CATEGORIES.length).padStart(2, "0")}
+                    </p>
                     <div className="flex items-center gap-2 flex-wrap">
                       <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)]">
-                        Top villes — <span style={{ color: cat.color }}>{cat.label}</span>
+                        Top villes — {cat.label}
                       </h2>
                       <span className="rounded-full bg-[var(--accent-soft)] text-[var(--accent)] text-[10px] font-bold uppercase tracking-wider px-2 py-0.5">
                         N°1 {winner.name}
@@ -152,35 +157,24 @@ export default function ClassementsPage() {
                   </div>
                   <Link
                     href={`/classements/${cat.slug}`}
-                    className="hidden sm:inline-flex items-center gap-1 text-sm font-semibold hover:underline"
-                    style={{ color: cat.color }}
+                    className="hidden sm:inline-flex items-center gap-1 text-sm font-semibold text-[var(--accent)] hover:underline"
                   >
                     Classement complet
                     <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
 
-                {/* Podium (medals) */}
+                {/* Podium — CityCard already prints the rank, so no medal overlay. */}
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
                   {top3.map((city, i) => (
-                    <div key={city.slug} className="relative">
-                      {/* Medal badge */}
-                      <div
-                        className="absolute -top-2 -left-2 z-10 flex h-9 w-9 items-center justify-center rounded-full text-lg shadow-lg ring-2 ring-white"
-                        style={{ background: ["#FCD34D", "#D1D5DB", "#F4A28A"][i] ?? "#FCD34D" }}
-                      >
-                        {["🥇", "🥈", "🥉"][i]}
-                      </div>
-                      <CityCard city={city} rank={i + 1} />
-                    </div>
+                    <CityCard key={city.slug} city={city} rank={i + 1} />
                   ))}
                 </div>
 
                 <div className="mt-3 sm:hidden text-right">
                   <Link
                     href={`/classements/${cat.slug}`}
-                    className="text-sm font-semibold hover:underline"
-                    style={{ color: cat.color }}
+                    className="text-sm font-semibold text-[var(--accent)] hover:underline"
                   >
                     Voir le classement complet →
                   </Link>
