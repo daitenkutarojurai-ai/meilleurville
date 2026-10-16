@@ -175,7 +175,7 @@ export function CompareTool({ locale = "fr", cities: allCities }: { locale?: Loc
       </div>
 
       {/* City pickers */}
-      <div className="grid gap-3 mb-10" style={{ gridTemplateColumns: `repeat(${cities.length}, 1fr)` }}>
+      <div className={cn("grid grid-cols-1 gap-3 mb-10", cities.length >= 3 ? "sm:grid-cols-3" : "sm:grid-cols-2")}>
         {cities.map((city, i) => (
           <div key={city?.slug ?? `slot-${i}`} className="relative">
             <CityPicker

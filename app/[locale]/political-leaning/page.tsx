@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import Link from "@/components/AppLink";
 import { Vote } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
@@ -17,6 +18,7 @@ import {
   type Bloc,
 } from "@/lib/political-lean";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { Projection2027Hub, type HubCityRow } from "@/components/Projection2027Hub";
 import { inMetropolitanBox, project } from "@/lib/france-map-geo";
 import { PoliticalLeanTail, type LeanTailRow } from "@/components/PoliticalLeanTail";
 import { PoliticalMap, type PoliticalDot } from "@/components/PoliticalMap";
@@ -28,7 +30,7 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Political leaning of French cities · 2026 ranking",
+  title: "2027 French presidential election: city-by-city projection · Political leaning",
   description:
     "Estimated political leaning of 540 French cities based on the 2022 presidential first round (Ministry of the Interior). Ranked city by city: left, centre, right, far right.",
   alternates: pathAlternatesEn("/orientation-politique", "/political-leaning"),
@@ -111,6 +113,10 @@ export default function EnPoliticalLeaningPage() {
   });
 
   const candShares = meanCandidateShares();
+  const hubRows: HubCityRow[] = all.flatMap((c) => {
+    const city = NAME_BY_SLUG.get(c.slug);
+    return city ? [{ slug: c.slug, name: city.name, blocs2022: c.blocs }] : [];
+  });
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -135,13 +141,18 @@ export default function EnPoliticalLeaningPage() {
             <span className="font-display gradient-text-anim italic">Political leaning of French cities</span>
           </h1>
           <p className="mx-auto max-w-2xl text-sm sm:text-base text-[var(--text-secondary)]">
-            How {all.length} French cities voted in the first round of the 2022 presidential election,
-            grouped into four political families. An estimate of how residents voted — not the colour of the town hall.
+            The 2027 presidential first-round projection for {all.length} French cities, then the actual 2022
+            vote, in four political families. How residents vote — not the colour of the town hall.
           </p>
         </div>
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 pb-16 space-y-10">
+        <Projection2027Hub rows={hubRows} locale="en" />
+
+        <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] -mb-4">
+          For reference: the 2022 vote
+        </h2>
         {/* Overview — the split has to be legible before any list starts */}
         <section aria-labelledby="overview">
           <h2 id="overview" className="sr-only">Overview</h2>
@@ -356,6 +367,12 @@ export default function EnPoliticalLeaningPage() {
             or the <Link href="/cities" className="text-[var(--accent)] hover:underline">cities</Link> by leaning.
           </p>
         </details>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+        <FeedbackWidget />
+
       </div>
 
       <Footer />

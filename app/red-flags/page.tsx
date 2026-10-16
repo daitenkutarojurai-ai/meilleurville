@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -389,6 +390,12 @@ export default function RedFlagsPage() {
             emptyHint="Vous avez vécu un truc qui ne va pas dans une ville ? Partagez-le ici (sans nommer de personnes ni d'adresses)."
           />
         </div>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+        <FeedbackWidget />
+
       </div>
 
       <Footer />

@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+/* Height of the sticky top bar once scrolled (components/Navbar.tsx), read by
+   sticky sub-navs (city tabs, /villes search). On phone/tablet the bar hides
+   while scrolling down: the sub-nav then moves up to the very top. */
+:root { --nav-h: 3.5rem; }
+@media (max-width: 1023.98px) {
+  :root { --nav-h: 3rem; }
+  :root[data-nav-hidden] { --nav-h: 0px; }
+}
+
+/* Responsive audit 2026-10-16 (154 templates × 360/768/1366 px).
+   1. A grid item's automatic minimum width is its content: one `truncate`d
+      line (nowrap) in a grid with no explicit columns on phone pushed whole
+      cards past the screen edge (/parcs +36 px, /ou-vont-les-gens +15 px).
+      Letting items shrink makes `truncate` do its job everywhere. */
+.grid > * { min-width: 0; }
+/* 2. Breadcrumb links measured 15 px tall on phone — under the 24 px minimum
+      target (WCAG 2.5.8). Vertical padding enlarges the hit area. */
+nav[aria-label="Fil d'Ariane"] a,
+nav[aria-label="Breadcrumb"] a,
+nav.text-xs > a { padding-block: 5px; }
+
 :root {
   /* « Carte & plaque » identity (2026-10-16): survey-map paper + ink, with the
      enamel navy of a French street plaque as the single accent. Greens, lime,

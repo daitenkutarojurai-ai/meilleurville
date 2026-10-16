@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MapsQuickSearch } from "@/components/MapsQuickSearch";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
@@ -448,6 +449,8 @@ export default async function SingleParentPage({ params }: Props) {
               ))}
             </div>
           </section>
+
+          <MapsQuickSearch topic="famille" cityName={city.name} department={city.department} locale="en" className="mb-8" />
 
           <DiscussionCTA citySlug={city.slug} cityName={city.name} locale="en" />
         </div>

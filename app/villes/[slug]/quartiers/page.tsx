@@ -1,4 +1,6 @@
 import { Metadata } from "next";
+import { MapPin } from "lucide-react";
+import { mapsPlaceUrl } from "@/lib/maps-link";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
@@ -166,6 +168,15 @@ export default async function QuartiersPage({ params }: Props) {
                       <span className={`text-xs font-medium border rounded-full px-2.5 py-0.5 ${TYPE_COLORS[n.type] ?? "text-[var(--text-secondary)] bg-[var(--bg-elevated)] border-[var(--border)]"}`}>
                         {TYPE_LABELS[n.type] ?? n.type}
                       </span>
+                      <a
+                        href={mapsPlaceUrl(n.name, city.name)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-auto inline-flex min-h-8 items-center gap-1 rounded-full border border-[var(--accent)]/40 px-2.5 py-1 text-xs font-semibold text-[var(--accent)] hover:bg-[var(--accent-soft)]"
+                      >
+                        <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
+                        Voir sur Google Maps
+                      </a>
                     </div>
                     <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-4">
                       {n.summary}

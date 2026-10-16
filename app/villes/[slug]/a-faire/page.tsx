@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MapsQuickSearch } from "@/components/MapsQuickSearch";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
@@ -365,6 +366,8 @@ export default async function AFairePage({ params }: Props) {
             🌳 Parcs et jardins publics
           </Link>
         </div>
+
+        <MapsQuickSearch topic="sorties" cityName={city.name} department={city.department} locale="fr" className="mb-8" />
 
         <DiscussionCTA cityName={city.name} citySlug={slug} />
       </section>

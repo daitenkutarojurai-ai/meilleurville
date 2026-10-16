@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { MapsQuickSearch } from "@/components/MapsQuickSearch";
 import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
@@ -300,6 +302,18 @@ export default async function EnCitySports({ params }: Props) {
           </Link>
         </div>
       </section>
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-10">
+
+        <MapsQuickSearch topic="sport" cityName={c.name} department={c.department} locale="en" />
+
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+        <FeedbackWidget />
+
+      </div>
 
       <Footer />
     </main>

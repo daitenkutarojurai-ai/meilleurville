@@ -1,5 +1,6 @@
 import Link from "@/components/AppLink";
 import { MessageCircle, ChevronRight } from "lucide-react";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 
 interface Props {
   citySlug: string;
@@ -21,7 +22,11 @@ export function DiscussionCTA({ citySlug, cityName, locale = "fr" }: Props) {
     locale === "en"
       ? `/cities/${citySlug}#discussions`
       : `/villes/${citySlug}#discussions`;
+  // Le 👍/👎 vit ici depuis le 2026-10-16 : les retours arrivent nombreux sur
+  // les guides et les fiches ville, ce bloc le porte sur toutes les sous-pages.
   return (
+    <div className="space-y-3">
+    <FeedbackWidget locale={locale} />
     <Link
       href={href}
       className="group flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)]/40 p-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
@@ -44,5 +49,6 @@ export function DiscussionCTA({ citySlug, cityName, locale = "fr" }: Props) {
       </div>
       <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
     </Link>
+    </div>
   );
 }

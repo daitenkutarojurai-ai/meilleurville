@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MapsQuickSearch } from "@/components/MapsQuickSearch";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
@@ -279,6 +280,7 @@ export default async function SportPage({ params }: Props) {
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
+        <MapsQuickSearch topic="sport" cityName={city.name} department={city.department} locale="fr" className="mb-8" />
         <DiscussionCTA citySlug={city.slug} cityName={city.name} />
       </section>
 

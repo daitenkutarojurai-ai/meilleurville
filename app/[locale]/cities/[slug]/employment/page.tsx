@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
@@ -134,6 +135,9 @@ export default async function EnCityEmployment({ params }: Props) {
           <Link href="/rankings/jeunes-actifs" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">Young-professionals ranking</Link>
         </div>
       </section>
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+        <FeedbackWidget />
+      </div>
       <Footer />
     </main>
   );

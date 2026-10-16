@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -166,6 +167,12 @@ export default function LeaderboardPage() {
             Comparer deux départements →
           </Link>
         </div>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+        <FeedbackWidget />
+
       </div>
 
       <Footer />

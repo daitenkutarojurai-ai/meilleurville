@@ -264,7 +264,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
       </section>
 
       {/* Tabs */}
-      <div className="sticky top-14 z-40 border-b border-[var(--border)] bg-[var(--bg-canvas)]/90 backdrop-blur-xl">
+      <div className="sticky top-[var(--nav-h)] z-40 transition-[top] duration-300 border-b border-[var(--border)] bg-[var(--bg-canvas)]/90 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div
             role="tablist"
@@ -291,7 +291,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 tabIndex={activeTab === tab.id ? 0 : -1}
                 onClick={() => setActiveTab(tab.id)}
                 className={cn(
-                  "whitespace-nowrap px-5 py-4 text-sm font-medium border-b-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--accent)]",
+                  "whitespace-nowrap px-3.5 py-2.5 sm:px-5 sm:py-4 text-[13px] sm:text-sm font-medium border-b-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--accent)]",
                   activeTab === tab.id
                     ? "border-[var(--accent)] text-[var(--accent)]"
                     : "border-transparent text-[var(--text-secondary)] hover:text-[var(--text-primary)]"

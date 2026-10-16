@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
@@ -351,6 +352,12 @@ export default async function VilleVacancesPage({ params }: Props) {
           <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] shrink-0" />
         </Link>
       </section>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+        <FeedbackWidget />
+
+      </div>
 
       <Footer />
       <StickyBookingBar cityName={city.name} />

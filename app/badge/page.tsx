@@ -98,7 +98,7 @@ export default function BadgePage() {
 
         {showcaseSvg && (
           <div className="mt-8 rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] p-8 flex justify-center">
-            <div dangerouslySetInnerHTML={{ __html: showcaseSvg }} />
+            <div className="[&>svg]:h-auto [&>svg]:max-w-full" dangerouslySetInnerHTML={{ __html: showcaseSvg }} />
           </div>
         )}
 
@@ -173,7 +173,7 @@ export default function BadgePage() {
                 href={`/badge/${slug}`}
                 className="flex items-center gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all p-3 group"
               >
-                <div className="shrink-0 scale-90 origin-left" dangerouslySetInnerHTML={{ __html: svg }} />
+                <div className="shrink-0 scale-90 origin-left [&>svg]:h-auto [&>svg]:max-w-full" dangerouslySetInnerHTML={{ __html: svg }} />
                 <ChevronRight className="h-4 w-4 ml-auto text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
                 <span className="sr-only">Voir le badge de {spec.city.name}</span>
               </Link>

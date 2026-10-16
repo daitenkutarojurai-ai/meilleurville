@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
@@ -106,6 +107,12 @@ export default async function EnQuestionsPage({ params }: Props) {
             </div>
           </div>
         </section>
+
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+          <FeedbackWidget />
+
+        </div>
 
         <Footer />
       </main>

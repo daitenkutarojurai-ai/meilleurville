@@ -47,6 +47,11 @@ function readHashWeights(): SynthesisWeights {
   const h = window.location.hash.replace(/^#/, "");
   const params = new URLSearchParams(h);
   const clamp = (v: string | null, d: number) => {
+    // Absent du hash → valeur par défaut. `Number(null)` vaut 0, que le clamp
+    // ramenait à 1 : sans lien partagé, le navigateur partait de 1 partout
+    // quand le serveur avait rendu 3 — erreur d'hydratation React #418 et
+    // mauvais poids par défaut (audit 2026-10-16).
+    if (v === null || v === "") return d;
     const n = Number(v);
     if (!Number.isFinite(n)) return d;
     return Math.max(1, Math.min(5, Math.round(n)));

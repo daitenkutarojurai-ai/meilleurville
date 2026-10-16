@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MapsQuickSearch } from "@/components/MapsQuickSearch";
 import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
@@ -339,6 +340,8 @@ export default async function EnThingsToDoPage({ params }: Props) {
             All rankings →
           </Link>
         </div>
+
+        <MapsQuickSearch topic="sorties" cityName={city.name} department={city.department} locale="en" className="mb-8" />
 
         <DiscussionCTA cityName={city.name} citySlug={slug} locale="en" />
       </section>

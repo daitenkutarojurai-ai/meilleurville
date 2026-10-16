@@ -230,7 +230,7 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
       {/* Search & filter bar. One row at every width: stacking it on mobile made
           the sticky block ~110px tall with a transparent gap the cards scrolled
           through. The opaque backdrop below sm is what keeps them behind it. */}
-      <div className="mb-6 sticky top-14 z-30 flex gap-2 sm:gap-3 max-sm:bg-[var(--bg-canvas)]/95 max-sm:backdrop-blur-sm max-sm:py-2">
+      <div className="mb-6 sticky top-[var(--nav-h)] transition-[top] duration-300 z-30 flex gap-2 sm:gap-3 max-sm:bg-[var(--bg-canvas)]/95 max-sm:backdrop-blur-sm max-sm:py-2">
         <div className="flex min-w-0 flex-1 items-center gap-2 rounded-2xl glass-strong border border-white/60 px-3 py-3 sm:px-4 shadow-md focus-within:shadow-lg focus-within:ring-2 focus-within:ring-[var(--accent)]/30 transition-all">
           <Search className="h-4 w-4 flex-shrink-0 text-[var(--accent)]" />
           <input

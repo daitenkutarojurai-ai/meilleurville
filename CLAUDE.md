@@ -307,6 +307,25 @@ Distribution mean ≈ 5.35. Penalties:
 3. Build (`npm run build`) — region/department/city/climat/quartiers pages
    regenerate via `generateStaticParams`.
 
+## Phone/desktop conventions (audit 2026-10-16)
+
+- **Top bar hides on scroll down below `lg`** (`components/Navbar.tsx` sets `html[data-nav-hidden]`).
+  Any new sticky sub-nav must use `top-[var(--nav-h)]` (defined in `app/globals.css`), never
+  `top-14`, or it will float under an empty strip / be covered by the bar.
+- Bottom tab bar (phone): Villes · Top · City Match · Red Flags · Politique · Menu (VS moved to
+  the menu at the owner's request). Menu is the highlighted control; « Se connecter » is a
+  discreet icon on purpose.
+- `.grid > * { min-width: 0 }` is global: one `truncate`d line in a grid without explicit
+  columns used to push cards off the phone screen. Don't remove it.
+- Places get Google Maps links (`lib/maps-link.ts`, `components/MapsQuickSearch.tsx`); OSM stays
+  as the source credit. The 👍/👎 `FeedbackWidget` rides inside `DiscussionCTA` (every city
+  sub-page) and sits before the footer on hubs — add it to new hub pages.
+- **Présidentielle 2027 projection** (`lib/presidential-2027.ts`, polls in
+  `data/presidential-2027-polls.ts`): shown FIRST on `/orientation-politique`, `/political-leaning`
+  and the city politics card. Proportional national swing per bloc applied to each commune's 2022
+  result — always labelled as a mechanical projection. Refresh the 6 polls monthly (latest
+  published, hypothesis with the RN candidate every institute tests) and bump `POLLS_2027_AS_OF`.
+
 ## Agenda daté par ville (`data/city-events.ts`, 2026-10-16)
 
 `/villes/[slug]/agenda` (EN `/cities/[slug]/calendar`) opens with an « À venir » block

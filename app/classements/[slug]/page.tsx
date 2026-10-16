@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
@@ -686,6 +687,12 @@ export default async function RankingPage({ params }: Props) {
           title="Vous n'êtes pas d'accord ?"
           emptyHint="Donnez votre avis sur ce classement, ajoutez une ville qui manque, ou racontez votre expérience."
         />
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+        <FeedbackWidget />
+
       </div>
 
       <Footer />

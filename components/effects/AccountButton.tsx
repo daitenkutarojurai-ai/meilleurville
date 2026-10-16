@@ -67,10 +67,12 @@ export function AccountButton() {
       href={COPY.login}
       aria-label={COPY.signIn}
       title={COPY.signIn}
-      className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] py-1.5 pl-2.5 pr-3 text-[13px] font-medium text-[var(--text-secondary)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent-soft)] hover:text-[var(--accent)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+      // Volontairement discret (demande du propriétaire, 2026-10-16) : une
+      // icône sans cadre, le libellé reste au survol et pour les lecteurs
+      // d'écran. Le bouton Menu porte l'accent à sa place.
+      className="inline-flex h-9 w-9 items-center justify-center rounded-full text-[var(--text-tertiary)] transition-colors hover:bg-[var(--bg-elevated)] hover:text-[var(--accent)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
     >
-      <User className="h-4 w-4" strokeWidth={2} />
-      <span>{COPY.signIn}</span>
+      <User className="h-[18px] w-[18px]" strokeWidth={1.75} />
     </Link>
   );
 }

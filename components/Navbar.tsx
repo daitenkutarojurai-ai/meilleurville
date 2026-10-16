@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import {
   Menu, X, Search,
-  Globe2, BarChart3, Scale, Heart, Vote,
+  Globe2, BarChart3, Heart, Vote, Flag,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/Button";
@@ -196,14 +196,14 @@ const BOTTOM_TABS_FR: BottomTab[] = [
   { label: "Villes",  href: "/villes",      icon: Globe2,    matchPrefix: "/villes" },
   { label: "Top",     href: "/classements", icon: BarChart3, matchPrefix: "/classements" },
   { label: "City Match",    href: "/city-match",        icon: Heart,  matchPrefix: "/city-match" },
-  { label: "VS",      href: "/comparer",    icon: Scale,     matchPrefix: "/comparer" },
+  { label: "Red Flags", href: "/red-flags",  icon: Flag,      matchPrefix: "/red-flags" },
   { label: "Politique", href: "/orientation-politique", icon: Vote, matchPrefix: "/orientation-politique" },
 ];
 const BOTTOM_TABS_EN: BottomTab[] = [
   { label: "Cities",   href: "/cities",   icon: Globe2,    matchPrefix: "/cities" },
   { label: "Rankings", href: "/rankings", icon: BarChart3, matchPrefix: "/rankings" },
   { label: "City Match",     href: "/city-match",     icon: Heart,  matchPrefix: "/city-match" },
-  { label: "Compare",  href: "/compare",  icon: Scale,     matchPrefix: "/compare" },
+  { label: "Red flags", href: "/red-flags", icon: Flag,     matchPrefix: "/red-flags" },
   { label: "Politics", href: "/political-leaning", icon: Vote, matchPrefix: "/political-leaning" },
 ];
 
@@ -272,15 +272,36 @@ export function Navbar() {
   const [open, setOpen] = useState(false);        // mobile drawer
   const [menuOpen, setMenuOpen] = useState(false); // desktop mega-menu
   const [scrolled, setScrolled] = useState(false);
+  // Phone / tablet: the top bar slides away while reading down and comes back
+  // on the first scroll up. With the bottom tab bar and a sticky sub-nav, a
+  // permanent top bar left too little of the screen for the content.
+  const [hidden, setHidden] = useState(false);
   const pathname = usePathname();
   const navRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 32);
+    let lastY = window.scrollY;
+    const onScroll = () => {
+      const y = window.scrollY;
+      setScrolled(y > 32);
+      if (window.innerWidth >= 1024 || y < 120) setHidden(false);
+      else if (y > lastY + 8) setHidden(true);
+      else if (y < lastY - 8) setHidden(false);
+      lastY = y;
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // Sticky sub-navs read --nav-h (app/globals.css) to sit right under the bar,
+  // or at the very top while it is hidden.
+  const navHidden = hidden && !open;
+  useEffect(() => {
+    const root = document.documentElement;
+    if (navHidden) root.dataset.navHidden = "";
+    else delete root.dataset.navHidden;
+  }, [navHidden]);
 
   // Lock body scroll while mobile drawer is open
   useEffect(() => {
@@ -320,7 +341,8 @@ export function Navbar() {
       <nav
         ref={navRef}
         className={cn(
-          "sticky top-0 z-50 transition-[background-color,box-shadow] duration-300",
+          "sticky top-0 z-50 transition-[background-color,box-shadow,transform] duration-300",
+          navHidden && "max-lg:-translate-y-full",
           scrolled
             ? "border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/75 backdrop-blur-2xl shadow-[0_8px_32px_-12px_rgba(31,58,42,0.10)]"
             : "border-b border-transparent bg-[var(--bg-canvas)]/40 backdrop-blur-md"
@@ -329,7 +351,7 @@ export function Navbar() {
         <div
           className={cn(
             "mx-auto flex max-w-7xl items-center gap-3 px-4 sm:px-6 transition-[height] duration-300",
-            scrolled ? "h-14" : "h-16"
+            scrolled ? "h-12 lg:h-14" : "h-14 lg:h-16"
           )}
         >
           {/* Logo */}
@@ -391,10 +413,10 @@ export function Navbar() {
               aria-expanded={menuOpen}
               aria-controls="desktop-mega-menu"
               className={cn(
-                "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
+                "inline-flex items-center gap-1.5 rounded-md border-2 px-3 py-1.5 text-sm font-semibold transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
                 menuOpen
-                  ? "border-[var(--accent)]/50 bg-[var(--accent)]/10 text-[var(--accent)]"
-                  : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+                  ? "border-[var(--accent)] bg-[var(--accent)] text-white"
+                  : "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--accent)] hover:bg-[var(--accent)] hover:text-white"
               )}
             >
               {menuOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
@@ -483,8 +505,8 @@ export function Navbar() {
                 href={tab.href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "flex flex-col items-center justify-center gap-0.5 px-0.5 py-2 text-[9px] leading-tight font-medium transition-colors",
-                  active ? "text-[var(--accent)]" : "text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]"
+                  "flex min-h-14 flex-col items-center justify-center gap-0.5 px-0.5 py-1.5 text-[11px] leading-tight font-medium transition-colors",
+                  active ? "text-[var(--accent)] font-semibold" : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                 )}
               >
                 <Icon className="h-5 w-5 shrink-0" strokeWidth={active ? 2.4 : 2} />
@@ -497,12 +519,11 @@ export function Navbar() {
             onClick={() => setOpen(true)}
             aria-label={IS_EN ? "Open menu" : "Ouvrir le menu"}
             aria-expanded={open}
-            className={cn(
-              "flex flex-col items-center justify-center gap-0.5 px-0.5 py-2 text-[9px] leading-tight font-medium transition-colors",
-              open ? "text-[var(--accent)]" : "text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]"
-            )}
+            className="flex min-h-14 flex-col items-center justify-center gap-0.5 px-0.5 py-1.5 text-[11px] leading-tight font-bold text-[var(--accent)]"
           >
-            <Menu className="h-5 w-5 shrink-0" />
+            <span className="flex h-7 w-9 items-center justify-center rounded-md bg-[var(--accent)] text-white shadow-sm">
+              <Menu className="h-[18px] w-[18px] shrink-0" strokeWidth={2.5} />
+            </span>
             Menu
           </button>
         </div>

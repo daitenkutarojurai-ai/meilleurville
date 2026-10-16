@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
@@ -115,7 +116,7 @@ export default async function ProfilePage({ params }: Props) {
                       <span className="font-semibold text-[var(--text-primary)] block truncate">
                         {row.city.name}
                       </span>
-                      <span className="text-xs text-[var(--text-tertiary)] truncate">
+                      <span className="block text-xs text-[var(--text-tertiary)] truncate">
                         {row.city.region} · {row.reason}
                       </span>
                     </span>
@@ -943,6 +944,12 @@ export default async function ProfilePage({ params }: Props) {
           </Link>
           .
         </p>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+        <FeedbackWidget />
+
       </div>
 
       <Footer />

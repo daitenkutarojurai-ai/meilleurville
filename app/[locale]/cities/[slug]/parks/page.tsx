@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "@/components/AppLink";
+import { MapPin, Navigation } from "lucide-react";
+import { mapsPlaceUrl, mapsDirectionsUrl } from "@/lib/maps-link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";
@@ -229,24 +231,34 @@ export default async function ParksPage({ params }: Props) {
                           {amenities}
                         </div>
                       )}
-                    </div>
-                    <div className="shrink-0 flex flex-col items-end gap-1">
-                      <a
-                        href={`https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lng}#map=16/${p.lat}/${p.lng}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs text-[var(--accent)] hover:underline"
-                      >
-                        Map ↗
-                      </a>
-                      <a
-                        href={osmUrl(p.osmId)}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-[11px] text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]"
-                      >
-                        OSM {p.osmId}
-                      </a>
+                        <div className="mt-2.5 flex flex-wrap items-center gap-2">
+                          <a
+                            href={mapsPlaceUrl(p.name, city.name)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex min-h-9 items-center gap-1.5 rounded-full bg-[var(--accent)] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[var(--accent-hover)]"
+                          >
+                            <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
+                            Google Maps
+                          </a>
+                          <a
+                            href={mapsDirectionsUrl(p.lat, p.lng)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex min-h-9 items-center gap-1.5 rounded-full border border-[var(--accent)]/40 px-3 py-1.5 text-xs font-semibold text-[var(--accent)] hover:bg-[var(--accent-soft)]"
+                          >
+                            <Navigation className="h-3.5 w-3.5" aria-hidden="true" />
+                            Directions
+                          </a>
+                          <a
+                            href={osmUrl(p.osmId)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex min-h-9 items-center px-1 text-[11px] text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]"
+                          >
+                            OpenStreetMap
+                          </a>
+                        </div>
                     </div>
                   </li>
                 );

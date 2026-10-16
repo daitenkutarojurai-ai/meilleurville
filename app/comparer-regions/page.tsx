@@ -85,7 +85,7 @@ export default function ComparerRegionsIndex() {
               className="block"
             >
               <Card className="hover:border-[var(--accent)]/40 transition-colors cursor-pointer">
-                <div className="flex items-center gap-2 mb-2">
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mb-2">
                   <Badge variant="accent">Priorité</Badge>
                   <span className="text-2xl" aria-hidden>
                     {REGION_EMOJIS[a] ?? "📍"}

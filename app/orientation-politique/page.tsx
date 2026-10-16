@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import Link from "@/components/AppLink";
 import { Vote } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
@@ -20,15 +21,16 @@ import { inMetropolitanBox, project } from "@/lib/france-map-geo";
 import { PoliticalLeanTail, type LeanTailRow } from "@/components/PoliticalLeanTail";
 import { PoliticalMap, type PoliticalDot } from "@/components/PoliticalMap";
 import { pathAlternates } from "@/lib/i18n";
+import { Projection2027Hub, type HubCityRow } from "@/components/Projection2027Hub";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Orientation politique des villes françaises · Carte et classement 2026",
+  title: "Présidentielle 2027 : projection ville par ville · Orientation politique",
   description:
-    "Carte et classement de l'orientation politique de 540 villes françaises d'après le 1er tour de la présidentielle 2022 (Ministère de l'Intérieur) : gauche, centre, extrême droite.",
+    "Qui arriverait en tête au 1er tour 2027 dans votre ville ? Projection pour 540 villes d'après les derniers sondages nationaux, et rappel du vote 2022 (Ministère de l'Intérieur).",
   alternates: pathAlternates("/orientation-politique", "/political-leaning"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -109,6 +111,10 @@ export default function OrientationPolitiquePage() {
   });
 
   const candShares = meanCandidateShares();
+  const hubRows: HubCityRow[] = all.flatMap((c) => {
+    const city = NAME_BY_SLUG.get(c.slug);
+    return city ? [{ slug: c.slug, name: city.name, blocs2022: c.blocs }] : [];
+  });
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -133,13 +139,18 @@ export default function OrientationPolitiquePage() {
             <span className="font-display gradient-text-anim italic">Orientation politique des villes</span>
           </h1>
           <p className="mx-auto max-w-2xl text-sm sm:text-base text-[var(--text-secondary)]">
-            Comment {all.length} villes françaises ont voté au 1ᵉʳ tour de la présidentielle 2022,
-            regroupé en quatre familles politiques. Estimation du vote des habitants — pas la couleur de la mairie.
+            La projection du 1ᵉʳ tour de la présidentielle 2027 pour {all.length} villes françaises, puis le
+            vote réel de 2022, en quatre familles politiques. Vote des habitants — pas la couleur de la mairie.
           </p>
         </div>
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 pb-16 space-y-10">
+        <Projection2027Hub rows={hubRows} locale="fr" />
+
+        <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] -mb-4">
+          Rappel : le vote de 2022
+        </h2>
         {/* Vue d'ensemble — le lecteur doit comprendre la répartition avant
             d'attaquer la moindre liste */}
         <section aria-labelledby="vue-ensemble">
@@ -357,6 +368,12 @@ export default function OrientationPolitiquePage() {
             ou les <Link href="/villes" className="text-[var(--accent)] hover:underline">villes</Link> par orientation.
           </p>
         </details>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+        <FeedbackWidget />
+
       </div>
 
       <Footer />

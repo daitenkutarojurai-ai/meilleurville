@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { MapsQuickSearch } from "@/components/MapsQuickSearch";
 import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
@@ -129,6 +131,12 @@ export default async function EnCityPublicServices({ params }: Props) {
           <Link href={`/cities/${slug}/schools`} className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">{c.name} schools</Link>
         </div>
       </section>
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-10">
+        <MapsQuickSearch topic="services" cityName={c.name} department={c.department} locale="en" />
+      </div>
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+        <FeedbackWidget />
+      </div>
       <Footer />
     </main>
   );

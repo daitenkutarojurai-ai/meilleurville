@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
@@ -188,6 +189,12 @@ export default function ClassementsPage() {
             </ScrollReveal>
           );
         })}
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+
+        <FeedbackWidget />
+
       </div>
 
       <Footer />
