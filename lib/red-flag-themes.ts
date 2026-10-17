@@ -2512,6 +2512,51 @@ function rankVieillirLoinDesSoins(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity);
 }
 
+// « Villes où la pauvreté est haute et le loyer déjà cher ».
+//
+// Deux mesures publiées, aucun score : le taux de pauvreté à la commune (Insee,
+// Filosofi 2021, `lib/city-income.ts`) et le loyer de référence d'un T3 de
+// `data/housing.ts`, rapporté à la médiane des villes comparées. Villes
+// comparées : population Insee 2022 ≥ 20 000 habitants, taux de pauvreté publié
+// et loyer connu. Seuils d'entrée : 22 % de pauvreté (médiane des villes
+// comparées ≈ 19 %) et un T3 au moins 10 % au-dessus de la médiane.
+// ⚠️ Le loyer est un repère de marché, pas ce que paient les locataires en
+// place, et le taux de pauvreté est un taux sur le revenu disponible par unité
+// de consommation : le thème ne dit pas que les pauvres paient ce loyer, il
+// dit que les deux faits coexistent dans la même commune.
+const MIN_POVERTY_RATE = 22;
+const MIN_T3_RATIO_POOR = 1.1;
+
+function rankPauvresLoyersHauts(): RedFlagRow[] {
+  const eligible: { city: SeedCity; pov: number; income: number; t3: number }[] = [];
+  for (const city of CITIES_SEED) {
+    const p = cityPopulation(city.slug);
+    const inc = cityIncome(city.slug);
+    const t3 = HOUSING[city.slug]?.avgRentT3;
+    if (!p || p.pop2022 < 20_000 || inc?.povertyRate == null || t3 == null) continue;
+    eligible.push({ city, pov: inc.povertyRate, income: inc.medianIncome, t3 });
+  }
+  const sorted = eligible.map((e) => e.t3).sort((a, b) => a - b);
+  const medianT3 = sorted[Math.floor(sorted.length / 2)];
+  const povs = eligible.map((e) => e.pov).sort((a, b) => a - b);
+  const medianPov = povs[Math.floor(povs.length / 2)];
+
+  const rows: RedFlagRow[] = [];
+  for (const { city, pov, income, t3 } of eligible) {
+    if (pov < MIN_POVERTY_RATE) continue;
+    const ratio = t3 / medianT3;
+    if (ratio < MIN_T3_RATIO_POOR) continue;
+    // Le seuil d'entrée EST le plancher de gravité (6) ; la pente porte ensuite
+    // jusqu'à 10/10. Tri sur la valeur non arrondie.
+    const severity = Math.min(10, 6 + 0.15 * (pov - MIN_POVERTY_RATE) + 3 * (ratio - MIN_T3_RATIO_POOR));
+    const n = (v: number) => Math.round(v).toLocaleString("fr-FR");
+    const one = (v: number) => v.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const reason = `${n(pov)} % de la population sous le seuil de pauvreté (médiane des villes comparées : ${n(medianPov)} %) · niveau de vie médian ${n(income)} €/an par unité de consommation · T3 de référence à ${n(t3)} €/mois, soit ${ratio.toLocaleString("fr-FR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} fois la médiane (${n(medianT3)} €)`;
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -3142,6 +3187,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Indicateur : part des 75 ans et plus (tranches 75-89 et 90+ ÷ somme des sept tranches d'âge, commune par commune) ≥ 12 %, croisée avec le composite de difficulté d'accès aux soins ≥ 6/10 (10 = désert, convention du quartet environnement : l'inversion se fait à l'affichage, jamais dans le moteur). Severity = 6 + 0,12 × (part en points au-dessus de 12) + 0,5 × (composite − 6), le seuil d'entrée étant le plancher de gravité ; le tri porte sur la valeur non arrondie et aucune ville n'atteint le plafond de 10/10. Villes comparées : population Insee 2022 ≥ 10 000 habitants, soit 521 villes. Sources : Insee, recensement de la population, base « Évolution et structure de la population en 2022 », via `lib/city-population.ts` (538 des 540 villes ; manquent Mamoudzou et Pierrefitte-sur-Seine) ; `lib/healthcare-access.ts` pour le composite, une estimation calibrée sur des cadres de référence (DREES, CNOM, zonage ARS), qui n'est pas un relevé de cabinets. Le zonage ARS, seul document opposable pour les aides à l'installation, travaille par bassin de vie et non par commune : vérifier le sien avant toute décision. Distinct de `villes-desert-medical` (score d'accès aux soins seul, toutes populations), de `villes-vieillissement-critique` (score composite de tension démographique) et de `villes-sans-enfants` (rapport entre seniors et enfants, sans lecture des soins) : ici une mesure publiée croisée avec une estimation, et la part des très âgés seule.",
     rank: rankVieillirLoinDesSoins,
+  },
+  {
+    slug: "villes-pauvres-loyers-hauts",
+    title: "Villes où la pauvreté est haute et le loyer déjà cher",
+    metaTitle: "Pauvreté haute, loyers chers — classement 2026",
+    metaDescription:
+      "Villes où 22 % des habitants vivent sous le seuil de pauvreté (Insee 2021) et où le T3 dépasse de 10 % la médiane : Aubervilliers, Saint-Denis.",
+    emoji: "⚖️",
+    intro:
+      "On lit « ville populaire » dans l'annonce et on entend « loyers raisonnables ». C'est souvent vrai, et c'est même la règle : les villes où la pauvreté est la plus forte sont le plus souvent des villes bon marché. Le réflexe tient presque partout, sauf à un endroit précis, la première couronne de l'agglomération parisienne et quelques communes collées à une métropole saturée. Là, un quart des habitants vit sous le seuil de pauvreté et le trois-pièces se loue pourtant plus cher que dans la ville médiane de France. Ce n'est pas un jugement sur ces communes. C'est la description d'un étau : un marché fixé par la proximité d'une capitale, face à des revenus qui, eux, ne le suivent pas.",
+    reality:
+      "Ce classement ne repose sur aucun score : il confronte deux mesures publiées. La première est le taux de pauvreté de l'Insee (Filosofi 2021), la part des habitants dont le niveau de vie est inférieur à 60 % de la médiane nationale. La seconde est le loyer de référence d'un trois-pièces de `data/housing.ts`, rapporté à la médiane des 409 villes comparées, celles de 20 000 habitants et plus dont les deux chiffres sont publiés : 1 080 € par mois, pour un taux de pauvreté médian de 19 %. Cent soixante-cinq villes atteignent 22 % de pauvreté, et c'est le premier résultat à retenir : 118 d'entre elles ont un T3 sous la médiane, le T3 médian de ces 165 villes étant de 900 €. La pauvreté élevée va donc avec un loyer bas bien plus souvent que le contraire, Roubaix (46 %, T3 à 700 €) et Denain (43 %, 610 €) en sont les cas extrêmes. Seules 26 villes cumulent 22 % de pauvreté et un T3 au moins 10 % au-dessus de la médiane, soit 1 188 € ou plus. Vingt-trois sont en Île-de-France, deux en Auvergne-Rhône-Alpes (Vénissieux, Annemasse) et une sur la Côte d'Azur (Nice) ; la Seine-Saint-Denis en compte neuf, le Val-de-Marne sept et les Hauts-de-Seine quatre. Aubervilliers ouvre la liste : 42 % de pauvreté, un niveau de vie médian de 15 330 € par an et par unité de consommation, un T3 à 1 320 €, soit 1,22 fois la médiane. Suivent Saint-Denis (37 %, 1 250 €), Villeneuve-Saint-Georges (34 %, 1 300 €), Vénissieux (34 %, 1 240 €), puis Saint-Ouen-sur-Seine, qui cumule 26 % de pauvreté et le loyer le plus haut de la liste avec Clichy, 1 580 € ou 1,46 fois la médiane. Le niveau de vie médian des 26 villes est de 20 010 € par an contre 21 650 € dans les villes comparées : l'écart est modeste, parce que ces communes mêlent des quartiers très pauvres et des quartiers qui se sont fortement valorisés. Lire une commune comme un bloc serait donc une erreur. Il faut aussi résister à l'inverse : un loyer de référence est un prix de marché, celui d'un bail signé aujourd'hui, et ne dit ni ce que paient les locataires en place, ni ce que paient les ménages du parc social, dont nous n'avons pas la part par commune.",
+    methodology:
+      "Indicateur : taux de pauvreté communal (≥ 22 %), croisé avec le rapport entre le loyer T3 de référence et la médiane des villes comparées (≥ 1,10). Severity = 6 + 0,15 × (taux en points au-dessus de 22) + 3 × (rapport − 1,10), plafonnée à 10/10 : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, taux de pauvreté publié et loyer connu, soit 409 villes. Sources : Insee, Filosofi 2021 (niveau de vie médian et taux de pauvreté au seuil de 60 % de la médiane nationale), via `lib/city-income.ts` ; Insee, recensement 2022, via `lib/city-population.ts` pour l'éligibilité ; `data/housing.ts` pour le loyer T3, un repère éditorial et non une moyenne d'annonces. Cinq limites à connaître. Le taux de pauvreté est publié en pourcentage entier, donc plusieurs villes portent le même taux sans être à égalité : le loyer les départage, et le tri porte sur la valeur non arrondie. Les revenus datent de 2021 et les loyers de 2026, de sorte que le rapprochement est un état et pas une trajectoire. Les communes ultramarines hors du champ Filosofi (Guadeloupe, Guyane, Mayotte) n'ont pas de taux et sont absentes. Aucune causalité n'est affirmée, ni dans un sens (les loyers chassent les ménages modestes) ni dans l'autre. Enfin la pauvreté se mesure sur le revenu disponible, aides comprises, et sur l'ensemble des habitants de la commune : un quartier peut être bien plus pauvre ou bien plus aisé que sa moyenne. Distinct de `villes-pauvrete-elevee` (pauvreté seule, quel que soit le loyer), de `villes-achat-hors-de-portee` (prix d'achat rapporté au niveau de vie) et de `villes-couts-explosifs` (dépenses mensuelles face à un proxy de salaire) : ici deux mesures publiées côte à côte, sans score.",
+    rank: rankPauvresLoyersHauts,
   },
 ];
 
