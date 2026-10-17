@@ -7,6 +7,28 @@ inventé**.
 
 ---
 
+## 0. Décisions attendues du propriétaire (consolidé le 2026-10-17)
+
+**L'extension est à l'arrêt depuis le lot 17 (2026-10-15)** : aucune commune de 20 000 hab. et plus absente du
+seed ne passe la règle actuelle (§ 3.2 / § 3.3 bis), gisement confirmé épuisé par deux balayages indépendants.
+Chaque run suivant ne peut que vérifier la couverture. Les décisions ci-dessous étaient éparpillées dans le
+journal ; chacune dit ce qu'elle débloque. Une réponse d'une ligne suffit (commit, ROADMAP ou CLAUDE.md) : la
+routine l'écrit au § 3.2 **avant** usage, comme toutes les règles précédentes.
+
+| # | Décision | Débloque | Ce que la routine ferait sans autre précision |
+|---|---|---|---|
+| D1 | **Overrides documentés** dans `lib/score-calibration.ts` pour les villes qui ne ressemblent pas à leurs voisines | Villeneuve-d'Ascq (62 868 hab., la plus grosse absente), Cenon, La Madeleine, Marcq-en-Barœul, Lambersart, Montfermeil, Sucy-en-Brie (tableau A) | une ville par run, chaque note d'axe adossée à une mesure publiée (Filosofi, DVF, SSMSI) citée dans le journal ; jamais une médiane de voisines |
+| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | Bourg-lès-Valence, Chevilly-Larue, Bruz, Lisieux, Juvisy, Brie-Comte-Robert, Sorgues… (tableau D, ~40 noms) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
+| D3 | **Règle Antilles-Guyane-Mayotte** (≤ 3 villes au seed par territoire : la règle des 4 voisines ne peut pas s'appliquer) | Le Gosier, Sainte-Anne, Le Moule, Petit-Bourg (971), Kourou, Matoury, Rémire-Montjoly (973), Koungou (976) | proposition : voisines = toutes les villes du territoire au seed, à condition que le backtest `--dept=` sur ces villes reste ≤ 0,7 d'écart moyen ; sinon override D1 |
+| D4 | **Valider la levée « 4ᵉ voisine > 25 km » à La Réunion**, prise par la routine le 2026-10-14 (lot 16) | confirme Sainte-Marie et Sainte-Suzanne déjà publiées ; ouvre Le Port si sa DVF passe | refus = retrait des 2 villes (2 entrées seed, housing, quartiers, codes postaux, 2 lignes `DOCUMENTED_MODES`) |
+| D5 | **Alerte de frontière quand la règle standard tient** (une commune d'un autre département plus proche que la 4ᵉ voisine) | Villeparisis, Saint-Ouen-l'Aumône, Mitry-Mory | proposition : appliquer la règle ① (voisines tous départements) et n'accepter que si standard **et** ① donnent le même global à 0,3 près |
+| D6 | **Règle d'égalité des voisines** (4ᵉ et 5ᵉ à moins de 0,5 km d'écart) | Chatou (30 598 hab.) | proposition : prendre les 5 et exiger que la règle tienne sur les deux combinaisons — ce qui **refuse** Chatou aujourd'hui |
+| D7 | **Passe DVF locale** sur 97407 (pas une décision : une commande à lancer sur la machine) | Le Port (974) | `npm run property-prices` couvre déjà la commune si elle est ajoutée au seed ; il faut la médiane avant |
+
+Sans aucune réponse, la routine continue à ne rien ajouter : c'est l'issue juste, pas une panne.
+
+---
+
 ## 1. Ce que « ville complète » veut dire (inventaire du 2026-10-06)
 
 Une ville est une ligne de `data/cities-seed.ts` **plus** une quinzaine de jeux de données par
@@ -2055,3 +2077,19 @@ Table des couleurs inchangée (593). `npm run build` non lancé.
 documentés : Villeneuve-d'Ascq, Cenon, La Madeleine, Marcq-en-Barœul, Lambersart ; seuil sous 20 000 hab., qui
 ouvrirait Sorgues, Bourg-lès-Valence, Chevilly-Larue, Lisieux… ; règle Antilles-Guyane ; alerte de frontière quand
 la règle standard tient : Villeparisis, Saint-Ouen-l'Aumône) ou à une passe DVF locale sur 97407 pour Le Port.
+
+### 2026-10-17 (second run) — aucun lot : les décisions attendues regroupées au § 0
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents →
+lot autorisé. Aucune décision du propriétaire depuis le 15/10 (`git log` hors `[scheduled-agent]` : design, agenda,
+audit mobile, aucun touchant le seed ni la méthode). Rien ne passe la règle : aucune ville ajoutée.
+
+*Livrable* : les sept décisions dont dépend l'extension, jusqu'ici dispersées dans une quinzaine d'entrées du
+journal, sont regroupées dans un tableau unique en tête de fichier (§ 0), chacune avec ce qu'elle débloque et ce
+que la routine ferait par défaut. Deux propositions y sont formulées pour la première fois (D3 Antilles-Guyane,
+D5 alerte de frontière) ; elles ne sont **pas appliquées** tant que le propriétaire ne les a pas validées.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise ; sinon aucun.
