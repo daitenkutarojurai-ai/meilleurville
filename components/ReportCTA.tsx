@@ -1,0 +1,83 @@
+// Boutons « Signaler… » semés dans les sections du site (demande du
+// propriétaire, 2026-10-17 : inciter davantage à nous écrire, ex. un bouton
+// évident pour signaler un événement depuis l'agenda). Composant serveur, zéro
+// JS : chaque bouton ouvre /contact avec le sujet et la ville pré-remplis
+// (`lib/contact-prefill.ts`).
+//
+// Deux formes :
+//  - `variant="card"` : encart pleine largeur, titre + boutons ;
+//  - `variant="inline"` : rangée de boutons compacts, pour un pied de section.
+// Identité « Carte & plaque » : papier, filet navy, aucun vert/ambre/rouge de
+// palier détourné en décoration.
+
+import { CalendarPlus, Flag, PenLine, Vote, MapPinned } from "lucide-react";
+
+export type ReportKind = "evenement" | "red-flag" | "erreur" | "politique" | "ville";
+
+const META: Record<ReportKind, { icon: typeof Flag; fr: string; en: string }> = {
+  evenement: { icon: CalendarPlus, fr: "Signaler un événement", en: "Submit an event" },
+  "red-flag": { icon: Flag, fr: "Signaler un point noir", en: "Report an issue" },
+  erreur: { icon: PenLine, fr: "Corriger une info", en: "Fix a detail" },
+  politique: { icon: Vote, fr: "Signaler une actu politique", en: "Share political news" },
+  ville: { icon: MapPinned, fr: "Proposer une ville", en: "Suggest a city" },
+};
+
+export function reportHref(kind: ReportKind, locale: "fr" | "en", cityName?: string): string {
+  const q = new URLSearchParams({ topic: kind });
+  if (cityName) q.set(locale === "fr" ? "ville" : "city", cityName);
+  return `/contact?${q.toString()}`;
+}
+
+export function ReportCTA({
+  kinds,
+  locale = "fr",
+  cityName,
+  title,
+  text,
+  variant = "card",
+  className = "",
+}: {
+  kinds: ReportKind[];
+  locale?: "fr" | "en";
+  cityName?: string;
+  title?: string;
+  text?: string;
+  variant?: "card" | "inline";
+  className?: string;
+}) {
+  const buttons = (
+    <div className="flex flex-wrap gap-2">
+      {kinds.map((k, i) => {
+        const { icon: Icon, fr, en } = META[k];
+        const primary = i === 0;
+        return (
+          <a
+            key={k}
+            href={reportHref(k, locale, cityName)}
+            className={
+              "inline-flex min-h-[40px] items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] " +
+              (primary
+                ? "bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] shadow-sm"
+                : "border border-[var(--border)] bg-[var(--bg-surface)] text-[var(--text-primary)] hover:border-[var(--accent)]/50 hover:text-[var(--accent)]")
+            }
+          >
+            <Icon className="h-4 w-4 shrink-0" aria-hidden />
+            {locale === "fr" ? fr : en}
+          </a>
+        );
+      })}
+    </div>
+  );
+
+  if (variant === "inline") return <div className={className}>{buttons}</div>;
+
+  return (
+    <aside
+      className={`rounded-2xl border border-[var(--border)] border-l-4 border-l-[var(--accent)] bg-[var(--bg-surface)] p-4 sm:p-5 ${className}`}
+    >
+      {title && <p className="text-base font-bold text-[var(--text-primary)]">{title}</p>}
+      {text && <p className="mt-1 text-sm text-[var(--text-secondary)]">{text}</p>}
+      <div className={title || text ? "mt-3" : ""}>{buttons}</div>
+    </aside>
+  );
+}

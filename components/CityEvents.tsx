@@ -8,17 +8,16 @@
 import { MapPin, Ticket, ExternalLink } from "lucide-react";
 import type { CityEvent } from "@/data/city-events";
 import { eventDateBadge, eventDateLabel } from "@/lib/city-events";
+import { ReportCTA } from "@/components/ReportCTA";
 
 export function CityEvents({
   events,
   cityName,
   locale,
-  contactHref,
 }: {
   events: CityEvent[];
   cityName: string;
   locale: "fr" | "en";
-  contactHref: string;
 }) {
   const t = (fr: string, en: string) => (locale === "fr" ? fr : en);
 
@@ -117,13 +116,17 @@ export function CityEvents({
         </ol>
       )}
 
-      <p className="mt-4 text-sm text-[var(--text-secondary)]">
-        {t(`Vous organisez un événement à ${cityName} ?`, `Organising an event in ${cityName}?`)}{" "}
-        <a href={contactHref} className="font-medium text-[var(--accent)] underline">
-          {t("Proposez-le-nous", "Send it to us")}
-        </a>
-        {t(" — on l'ajoute gratuitement.", " — listing is free.")}
-      </p>
+      <ReportCTA
+        className="mt-5"
+        kinds={["evenement", "erreur"]}
+        locale={locale}
+        cityName={cityName}
+        title={t(`Un événement à ${cityName} manque ici ?`, `An event in ${cityName} is missing?`)}
+        text={t(
+          "Concert, marché, festival, vide-grenier… Envoyez la date, le lieu et le lien : on l'ajoute gratuitement, avec un lien vers l'organisateur.",
+          "Concert, market, festival, car-boot sale… Send the date, venue and link: listing is free, with a link to the organiser.",
+        )}
+      />
     </section>
   );
 }

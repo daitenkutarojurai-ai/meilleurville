@@ -1497,6 +1497,39 @@ if (!failed) {
   }
 }
 
+// --- Fil d'actualité politique (data/political-news.ts) ---------------------
+//
+// Le fichier est importé côté client (compte à rebours), donc il ne peut pas
+// porter ses propres gardes sur `CITIES_SEED` comme `data/city-events.ts` :
+// elles vivent ici. Une entrée sans source lisible, datée dans le futur, avec
+// un id en double ou un slug de ville inconnu fait échouer — c'est le contrat
+// de la routine `meilleurville-actu-politique`.
+{
+  const offences = [];
+  const { POLITICAL_NEWS, ELECTION_CALENDAR } = load("data/political-news.ts");
+  const { CITIES_SEED } = load("data/cities-seed.ts");
+  const known = new Set(CITIES_SEED.map((c) => c.slug));
+  const ids = new Set();
+  const tomorrow = new Date(Date.now() + 86_400_000).toISOString().slice(0, 10);
+  for (const n of POLITICAL_NEWS) {
+    if (ids.has(n.id)) offences.push(`id en double « ${n.id} »`);
+    ids.add(n.id);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(n.date) || Number.isNaN(Date.parse(n.date))) offences.push(`${n.id} : date illisible « ${n.date} »`);
+    else if (n.date > tomorrow) offences.push(`${n.id} : datée dans le futur (${n.date})`);
+    if (!/^https?:\/\//.test(n.sourceUrl ?? "") || !n.source?.trim()) offences.push(`${n.id} : source manquante ou illisible`);
+    if (!n.title?.trim() || !n.summary?.trim()) offences.push(`${n.id} : titre ou résumé vide`);
+    for (const s of n.cities ?? []) if (!known.has(s)) offences.push(`${n.id} : ville inconnue « ${s} »`);
+  }
+  for (const e of ELECTION_CALENDAR) if (Number.isNaN(Date.parse(e.date))) offences.push(`calendrier : date illisible « ${e.date} »`);
+  if (offences.length === 0) {
+    console.log(`  ok  politique   ${POLITICAL_NEWS.length} actualités sourcées, ${ELECTION_CALENDAR.length} échéances`);
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  politique : ${offences.length} défaut(s) dans data/political-news.ts\n`);
+    for (const o of offences) console.error(`    ${o}`);
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

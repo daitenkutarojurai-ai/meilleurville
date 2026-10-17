@@ -10,6 +10,7 @@ import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
+import { ReportCTA } from "@/components/ReportCTA";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -379,6 +380,7 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
             with public databases (Géorisques, SSMSI, ATMO, BRGM, Insee, Météo-France).
             {city.department && <> Department: {city.department}.</>}
           </p>
+          <ReportCTA variant="inline" locale="en" className="mt-5" kinds={["red-flag", "erreur"]} cityName={city.name} />
         </div>
       </section>
 

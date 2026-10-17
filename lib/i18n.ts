@@ -252,6 +252,7 @@ export const PARITY_EXCEPTIONS: Record<string, string> = {
 // page itself, which already carries its own hreflang pair.
 export const FR_TO_EN_CITY_SUB: Record<string, string> = {
   "a-faire": "things-to-do",
+  "presidentielle-2027": "2027-election",
   agenda: "calendar",
   air: "air-quality",
   "avis-honnete": "honest-review",

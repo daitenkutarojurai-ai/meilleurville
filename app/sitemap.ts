@@ -21,6 +21,7 @@ import { MONTHS } from "@/lib/vacation-seasons";
 import { CROSSINGS } from "@/lib/vacation-crossing";
 import { OWNER_RANKING_SLUGS } from "@/lib/owner-rankings";
 import { hasParksData } from "@/lib/city-parks";
+import { getPoliticalLean } from "@/lib/political-lean";
 import { hasBiodiversityData, BIODIVERSITY_PAGES_LIVE } from "@/lib/biodiversity";
 
 /** F62 — une URL de biodiversité n'existe que si la ville est collectée ET si
@@ -178,6 +179,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/city-match`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/parent-solo`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/orientation-politique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/presidentielle-2027`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.85 },
     { url: `${BASE_URL}/projection-5ans`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/copilot`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/quitter`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
@@ -562,6 +564,16 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.65,
     },
+    ...(getPoliticalLean(city.slug)
+      ? [
+          {
+            url: `${BASE_URL}/villes/${city.slug}/presidentielle-2027`,
+            lastModified: CITY_DATA_UPDATED,
+            changeFrequency: "weekly" as const,
+            priority: 0.7,
+          },
+        ]
+      : []),
     {
       url: `${BASE_URL}/villes/${city.slug}/mentalite-locale`,
       lastModified: CITY_DATA_UPDATED,
@@ -1086,6 +1098,15 @@ function enCitySubSection(): MetadataRoute.Sitemap {
     if (hasParksData(c.slug)) {
       base.push({
         url: `${BASE_URL}/cities/${c.slug}/parks`,
+        lastModified: CITY_DATA_UPDATED,
+        changeFrequency: "monthly" as const,
+        priority: 0.55,
+      });
+    }
+    // Twin of /villes/[slug]/presidentielle-2027, same condition (a 2022 result).
+    if (getPoliticalLean(c.slug)) {
+      base.push({
+        url: `${BASE_URL}/cities/${c.slug}/2027-election`,
         lastModified: CITY_DATA_UPDATED,
         changeFrequency: "monthly" as const,
         priority: 0.55,

@@ -1,6 +1,7 @@
 import Link from "@/components/AppLink";
 import { MessageCircle, ChevronRight } from "lucide-react";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { ReportCTA } from "@/components/ReportCTA";
 
 interface Props {
   citySlug: string;
@@ -49,6 +50,19 @@ export function DiscussionCTA({ citySlug, cityName, locale = "fr" }: Props) {
       </div>
       <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
     </Link>
+    {/* Signalements en un clic, ville pré-remplie (2026-10-17) : la demande
+        du propriétaire était de rendre le contact présent dans chaque section,
+        et ce bloc est rendu sur toutes les sous-pages ville. */}
+    <ReportCTA
+      locale={locale}
+      cityName={cityName}
+      kinds={["evenement", "red-flag", "erreur"]}
+      title={L(`Vous connaissez ${cityName} ?`, `Know ${cityName}?`)}
+      text={L(
+        "Un événement à annoncer, un problème que les annonces taisent, un chiffre à corriger : écrivez-nous, on lit tout.",
+        "An event to list, an issue listings keep quiet, a figure to fix: write to us, we read everything.",
+      )}
+    />
     </div>
   );
 }

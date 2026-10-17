@@ -1,15 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Send, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { prefillBody, readCity } from "@/lib/contact-prefill";
 
 // Topic ids must match the /api/contact enum exactly — only the labels differ
 // from the French form.
 const TOPICS = [
   { id: "question", label: "General message", emoji: "👋" },
   { id: "red-flag", label: "Report a red flag", emoji: "🚩" },
-  { id: "erreur", label: "Technical bug", emoji: "🐛" },
+  { id: "evenement", label: "Submit an event", emoji: "📅" },
+  { id: "politique", label: "Local political news", emoji: "🗳️" },
+  { id: "erreur", label: "Error or bug", emoji: "🐛" },
   { id: "suggestion", label: "Suggestion", emoji: "💡" },
   { id: "ville", label: "Suggest a city", emoji: "🏙️" },
   { id: "presse", label: "Press / partnership", emoji: "🤝" },
@@ -19,10 +22,29 @@ const TOPICS = [
 type Topic = (typeof TOPICS)[number]["id"];
 
 export function ContactForm() {
-  const [topic, setTopic] = useState<Topic>("question");
+  const [topic, setTopicState] = useState<Topic>("question");
+  const [city, setCity] = useState<string | null>(null);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [body, setBody] = useState("");
+
+  // `?topic=evenement&city=Lyon` from the "Report…" buttons across the site.
+  // Read after mount: this page is prerendered without a Suspense boundary.
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    const t = TOPICS.find((x) => x.id === q.get("topic"))?.id;
+    const c = readCity(q.get("city") ?? q.get("ville"));
+    setCity(c);
+    if (t) {
+      setTopicState(t);
+      setBody((cur) => cur || prefillBody(t, c, "en"));
+    }
+  }, []);
+
+  const setTopic = (next: Topic) => {
+    setTopicState(next);
+    setBody((cur) => (cur.trim() === "" || cur === prefillBody(topic, city, "en") ? prefillBody(next, city, "en") : cur));
+  };
   const [website, setWebsite] = useState(""); // honeypot
   const [state, setState] = useState<"idle" | "loading" | "ok" | "error">("idle");
   const [error, setError] = useState<string | null>(null);
@@ -35,6 +57,7 @@ export function ContactForm() {
     if (name.trim().length < 2) return setError("Please enter your name (2 characters minimum).");
     if (!/^\S+@\S+\.\S+$/.test(email)) return setError("That email address looks invalid.");
     if (body.trim().length < 20) return setError("Your message needs at least 20 characters.");
+    if (body.trim() === prefillBody(topic, city, "en").trim()) return setError("Please fill in the lines before sending.");
 
     setState("loading");
     try {

@@ -9,6 +9,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
+import { ReportCTA } from "@/components/ReportCTA";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -402,6 +403,7 @@ export default async function CityRedFlagsPage({ params }: Props) {
             avec les bases publiques (Géorisques, SSMSI, ATMO, BRGM, Insee, Météo-France).
             {city.department && <> Département : {city.department}.</>}
           </p>
+          <ReportCTA variant="inline" className="mt-5" kinds={["red-flag", "erreur"]} cityName={city.name} />
         </div>
       </section>
 

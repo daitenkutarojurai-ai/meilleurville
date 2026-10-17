@@ -11,6 +11,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAgenda } from "@/lib/city-agenda";
 import { upcomingCityEvents, cityEventsJsonLd } from "@/lib/city-events";
 import { CityEvents } from "@/components/CityEvents";
+import { ReportCTA } from "@/components/ReportCTA";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -88,12 +89,13 @@ export default async function EnCalendarPage({ params }: Props) {
                 </p>
               </div>
             </div>
+            <ReportCTA variant="inline" locale="en" className="mt-5" kinds={["evenement"]} cityName={city.name} />
           </div>
         </section>
 
         <section className="py-10">
           <div className="mx-auto max-w-3xl px-4 sm:px-6">
-            <CityEvents events={events} cityName={city.name} locale="en" contactHref="/contact" />
+            <CityEvents events={events} cityName={city.name} locale="en" />
 
             <h2 className="mb-4 text-2xl font-bold text-[var(--text-primary)]">
               Through the year

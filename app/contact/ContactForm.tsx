@@ -5,11 +5,14 @@ import { useSearchParams } from "next/navigation";
 import { Send, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { MagneticButton } from "@/components/effects/MagneticButton";
+import { prefillBody, readCity } from "@/lib/contact-prefill";
 
 const TOPICS = [
   { id: "question", label: "Signalement général", emoji: "👋" },
   { id: "red-flag", label: "Red flag à signaler", emoji: "🚩" },
-  { id: "erreur", label: "Bug technique", emoji: "🐛" },
+  { id: "evenement", label: "Signaler un événement", emoji: "📅" },
+  { id: "politique", label: "Actu politique locale", emoji: "🗳️" },
+  { id: "erreur", label: "Erreur ou bug", emoji: "🐛" },
   { id: "suggestion", label: "Suggestion d'amélioration", emoji: "💡" },
   { id: "ville", label: "Proposer une ville", emoji: "🏙️" },
   { id: "presse", label: "Partenariat", emoji: "🤝" },
@@ -27,10 +30,16 @@ function readInitialTopic(searchParams: URLSearchParams | null): Topic {
 
 export function ContactForm() {
   const searchParams = useSearchParams();
-  const [topic, setTopic] = useState<Topic>(() => readInitialTopic(searchParams));
+  const [topic, setTopicState] = useState<Topic>(() => readInitialTopic(searchParams));
+  const city = readCity(searchParams?.get("ville"));
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [body, setBody] = useState("");
+  const [body, setBody] = useState(() => prefillBody(readInitialTopic(searchParams), city, "fr"));
+  // Changer de sujet remplace le gabarit tant que le lecteur n'y a rien écrit.
+  const setTopic = (next: Topic) => {
+    setTopicState(next);
+    setBody((cur) => (cur.trim() === "" || cur === prefillBody(topic, city, "fr") ? prefillBody(next, city, "fr") : cur));
+  };
   const [website, setWebsite] = useState(""); // honeypot
   const [state, setState] = useState<"idle" | "loading" | "ok" | "error">("idle");
   const [error, setError] = useState<string | null>(null);
@@ -44,6 +53,7 @@ export function ContactForm() {
     if (name.trim().length < 2) return setError("Votre prénom (2 caractères mini).");
     if (!/^\S+@\S+\.\S+$/.test(email)) return setError("Email invalide.");
     if (body.trim().length < 20) return setError("Au moins 20 caractères.");
+    if (body.trim() === prefillBody(topic, city, "fr").trim()) return setError("Complétez les lignes du message avant d'envoyer.");
 
     setState("loading");
     try {

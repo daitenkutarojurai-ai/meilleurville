@@ -330,6 +330,15 @@ Distribution mean ≈ 5.35. Penalties:
   result — always labelled as a mechanical projection. Refresh the 6 polls monthly (latest
   published, hypothesis with the RN candidate every institute tests) and bump `POLLS_2027_AS_OF`.
 
+## Politique, présidentielle 2027 et fil d'actualité (2026-10-17)
+
+- **Hub `/presidentielle-2027`** (FR seul) : compte à rebours + calendrier (`components/ElectionCountdown.tsx`), suivi des sondages (`components/PollTracker.tsx` : fourchette min-max + moyenne, tableau en vue accessible), candidats (badge « officialisée » seulement si une entrée sourcée du fil l'atteste), carte en relief, projection des villes de plus de 100 000 hab., fil d'actu, FAQ JSON-LD.
+- **`/villes/[slug]/presidentielle-2027`** (+ jumelle EN `/cities/[slug]/2027-election`) : une page par ville ayant un résultat 2022 — projection, vote réel 2022, écart au national, villes au vote le plus proche, partage. Liée depuis la carte politique de `CityProfile`.
+- **`components/PoliticalMap.tsx`** : vue « Relief » (projection oblique, une colonne par ville, hauteur = score au-dessus d'un plancher de 20 %, ou part d'une famille isolée), rendue **côté client seulement** après montage pour ne pas alourdir le HTML ; la vue Plan reste le rendu serveur sans JS. Bascule 2027 (projection) / 2022 (résultat).
+- **`data/political-news.ts`** : fil daté et sourcé, tenu par la routine `meilleurville-actu-politique`. Importé côté client (compte à rebours), donc **aucun import** dans ce fichier ; ses gardes vivent dans `npm run integrity` (garde `politique` : ids uniques, dates lisibles et non futures, source http, slugs de ville connus). Résumer avec nos mots, jamais recopier un article (droit voisin).
+- **`components/ReportCTA.tsx`** : boutons « Signaler un événement / un point noir / corriger une info / une actu politique », qui ouvrent `/contact?topic=…&ville=…` avec un gabarit pré-rempli (`lib/contact-prefill.ts`). Sujets `evenement` et `politique` ajoutés à l'enum du worker. Présent sur toutes les sous-pages ville (via `DiscussionCTA`), l'agenda, les Red Flags et les pages politiques.
+- `/red-flags` : vignettes d'abord, texte de lecture en fin de page (« Pour aller plus loin »), à la demande du propriétaire.
+
 ## Agenda daté par ville (`data/city-events.ts`, 2026-10-16)
 
 `/villes/[slug]/agenda` (EN `/cities/[slug]/calendar`) opens with an « À venir » block

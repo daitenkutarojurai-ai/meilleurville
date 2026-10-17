@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { ReportCTA } from "@/components/ReportCTA";
 
 export const metadata: Metadata = {
   title: "Red Flag Radar · City risks 2026 | BestCitiesInFrance",
@@ -123,24 +124,11 @@ export default function EnRedFlagsIndex() {
             categories per city — safety, flooding, heat, pollution, seismic risk, cost, transport,
             schools, tourism pressure — before you sign anything.
           </p>
+          <ReportCTA variant="inline" locale="en" className="mt-5" kinds={["red-flag", "erreur"]} />
         </div>
       </section>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 space-y-14">
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-          {[
-            { label: "Risk categories", value: "9", color: "text-red-500" },
-            { label: "Public sources", value: "6", color: "text-[var(--text-primary)]" },
-            { label: "Cities covered", value: CITIES_SEED.length.toString(), color: "text-emerald-600" },
-            { label: "Open data", value: "100%", color: "text-[var(--accent)]" },
-          ].map(({ label, value, color }) => (
-            <div key={label} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 text-center shadow-sm">
-              <div className={`text-2xl font-bold font-mono-data mb-1 ${color}`}>{value}</div>
-              <div className="text-xs text-[var(--text-secondary)]">{label}</div>
-            </div>
-          ))}
-        </div>
-
         <div>
           <div className="flex items-end justify-between gap-4 mb-6">
             <div>
@@ -193,6 +181,20 @@ export default function EnRedFlagsIndex() {
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
             All {CITIES_SEED.length} cities have a report: <code className="text-[var(--text-secondary)]">/red-flags/&lt;city-slug&gt;</code>.
           </p>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          {[
+            { label: "Risk categories", value: "9", color: "text-red-500" },
+            { label: "Public sources", value: "6", color: "text-[var(--text-primary)]" },
+            { label: "Cities covered", value: CITIES_SEED.length.toString(), color: "text-emerald-600" },
+            { label: "Open data", value: "100%", color: "text-[var(--accent)]" },
+          ].map(({ label, value, color }) => (
+            <div key={label} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 text-center shadow-sm">
+              <div className={`text-2xl font-bold font-mono-data mb-1 ${color}`}>{value}</div>
+              <div className="text-xs text-[var(--text-secondary)]">{label}</div>
+            </div>
+          ))}
         </div>
 
         <div>

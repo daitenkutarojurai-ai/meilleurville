@@ -18,10 +18,12 @@ import { POLLS_2027 } from "@/data/presidential-2027-polls";
 export function PoliticalLean({
   lean,
   cityName,
+  citySlug,
   locale = "fr",
 }: {
   lean: PoliticalLeanData | null;
   cityName: string;
+  citySlug?: string;
   locale?: "fr" | "en";
 }) {
   const p = lean;
@@ -152,6 +154,15 @@ export function PoliticalLean({
 
       <p className="mt-3 text-[11px] leading-snug text-[var(--text-tertiary)]">{t.caption}</p>
 
+      {locale === "fr" && citySlug && (
+        <Link
+          href={`/villes/${citySlug}/presidentielle-2027`}
+          className="group mt-3 flex min-h-10 items-center justify-between gap-2 rounded-xl bg-[var(--accent)] px-3 py-2 text-xs font-semibold text-white hover:bg-[var(--accent-hover)]"
+        >
+          Présidentielle 2027 à {cityName} : le détail
+          <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+        </Link>
+      )}
       <Link
         href={locale === "fr" ? "/orientation-politique" : "/political-leaning"}
         className="group mt-3 inline-flex min-h-6 items-center gap-1 text-xs font-semibold text-[var(--accent)] hover:underline"

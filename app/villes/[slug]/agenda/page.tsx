@@ -8,6 +8,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { cityAgenda } from "@/lib/city-agenda";
 import { upcomingCityEvents, cityEventsJsonLd } from "@/lib/city-events";
 import { CityEvents } from "@/components/CityEvents";
+import { ReportCTA } from "@/components/ReportCTA";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CalendarDays, ArrowLeft } from "lucide-react";
 import Link from "@/components/AppLink";
@@ -101,12 +102,13 @@ export default async function AgendaPage({ params }: Props) {
                 </p>
               </div>
             </div>
+            <ReportCTA variant="inline" className="mt-5" kinds={["evenement"]} cityName={city.name} />
           </div>
         </section>
 
         <section className="py-10">
           <div className="mx-auto max-w-3xl px-4 sm:px-6">
-            <CityEvents events={events} cityName={city.name} locale="fr" contactHref="/contact" />
+            <CityEvents events={events} cityName={city.name} locale="fr" />
 
             <h2 className="mb-4 text-2xl font-bold text-[var(--text-primary)]">
               Au fil de l&apos;année

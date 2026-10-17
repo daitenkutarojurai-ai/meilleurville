@@ -22,6 +22,9 @@ import { PoliticalLeanTail, type LeanTailRow } from "@/components/PoliticalLeanT
 import { PoliticalMap, type PoliticalDot } from "@/components/PoliticalMap";
 import { pathAlternates } from "@/lib/i18n";
 import { Projection2027Hub, type HubCityRow } from "@/components/Projection2027Hub";
+import { PollTracker } from "@/components/PollTracker";
+import { PoliticalNewsFeed } from "@/components/PoliticalNewsFeed";
+import { ReportCTA } from "@/components/ReportCTA";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
@@ -148,6 +151,30 @@ export default function OrientationPolitiquePage() {
       <div className="mx-auto max-w-5xl px-4 sm:px-6 pb-16 space-y-10">
         <Projection2027Hub rows={hubRows} locale="fr" />
 
+        {/* Carte */}
+        <section aria-labelledby="carte-politique">
+          <h2 id="carte-politique" className="mb-3 text-lg font-bold text-[var(--text-primary)]">
+            La France en relief
+          </h2>
+          <p className="mb-3 -mt-1 text-sm text-[var(--text-secondary)]">
+            Une colonne par ville, haute du score de la famille en tête. Basculez entre la projection 2027 et le vote réel de 2022.
+          </p>
+          <PoliticalMap dots={dots} />
+        </section>
+
+        <section aria-labelledby="sondages-2027">
+          <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+            <h2 id="sondages-2027" className="text-lg font-bold text-[var(--text-primary)]">Les derniers sondages</h2>
+            <Link href="/presidentielle-2027" className="text-sm font-medium text-[var(--accent)] hover:underline">
+              Dates, candidats et détail des enquêtes →
+            </Link>
+          </div>
+          <PollTracker showTable={false} />
+        </section>
+
+        <PoliticalNewsFeed limit={4} />
+
+
         <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] -mb-4">
           Rappel : le vote de 2022
         </h2>
@@ -199,14 +226,6 @@ export default function OrientationPolitiquePage() {
               Ce n&apos;est donc pas le résultat national.
             </p>
           </div>
-        </section>
-
-        {/* Carte */}
-        <section aria-labelledby="carte-politique">
-          <h2 id="carte-politique" className="mb-3 text-lg font-bold text-[var(--text-primary)]">
-            La carte
-          </h2>
-          <PoliticalMap dots={dots} />
         </section>
 
         {/* Détail par candidat — la question que tout le monde se pose avant
@@ -350,6 +369,12 @@ export default function OrientationPolitiquePage() {
             </section>
           );
         })}
+
+        <ReportCTA
+          kinds={["politique", "erreur"]}
+          title="Une élection, une candidature, une décision municipale à signaler ?"
+          text="Envoyez-nous le lien de la source : on vérifie, on date, et l'information rejoint le fil d'actualité de la ville."
+        />
 
         <details className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
           <summary className="cursor-pointer text-sm font-semibold text-[var(--text-primary)]">

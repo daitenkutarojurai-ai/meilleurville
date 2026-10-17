@@ -119,7 +119,7 @@ const BANNED_NAMES = new Set([
 ]);
 
 const ContactSchema = z.object({
-  topic: z.enum(["question", "red-flag", "erreur", "ville", "presse", "suggestion", "autre"]),
+  topic: z.enum(["question", "red-flag", "evenement", "politique", "erreur", "ville", "presse", "suggestion", "autre"]),
   name: z.string().min(2).max(80).regex(/^[\p{L}0-9 .'_-]+$/u),
   email: z.string().email(),
   body: z.string().min(20).max(4000),

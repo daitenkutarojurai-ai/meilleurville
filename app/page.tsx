@@ -31,6 +31,22 @@ export default function HomePage() {
       <Navbar />
       <HeroSection cities={HOMEPAGE_CITIES} citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} />
       <SectionNav />
+      {/* Présidentielle 2027 : le sujet le plus cherché jusqu'en mai 2027 —
+          porte d'entrée vers le hub et les 593 projections par ville. */}
+      <section className="border-y border-[var(--border)] bg-[var(--bg-surface)]">
+        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+          <p className="text-sm text-[var(--text-primary)]">
+            <span className="plaque plaque-small mr-2">🗳️ Présidentielle 2027</span>
+            Qui arriverait en tête dans votre ville ? Sondages, dates et projection pour {CITIES_COUNT} villes.
+          </p>
+          <Link
+            href="/presidentielle-2027"
+            className="inline-flex min-h-10 shrink-0 items-center justify-center rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white hover:bg-[var(--accent-hover)]"
+          >
+            Voir la projection →
+          </Link>
+        </div>
+      </section>
       <ScrollReveal><TopFiveCities /></ScrollReveal>
       <CityMarquee />
       <ScrollReveal><StatsBar citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} /></ScrollReveal>

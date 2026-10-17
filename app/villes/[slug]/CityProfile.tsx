@@ -380,7 +380,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
               {/* Featured — political orientation, surfaced prominently (full
                   main-column width + accent frame) rather than buried in the grid. */}
               <div className="rounded-3xl bg-gradient-to-br from-[var(--accent)]/[0.07] via-transparent to-[var(--accent-warm)]/[0.05] ring-1 ring-[var(--accent)]/15 p-1.5 shadow-sm">
-                <PoliticalLean lean={data.lean} cityName={city.name} locale={locale} />
+                <PoliticalLean lean={data.lean} cityName={city.name} citySlug={city.slug} locale={locale} />
               </div>
 
               {/* Niche scores — pour qui cette ville est-elle faite ? */}
