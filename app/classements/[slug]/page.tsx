@@ -9,7 +9,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { RANKING_META, getRankedCities, type RankingSlug } from "@/lib/rankings";
 import { CityCard } from "@/components/CityCard";
 import { Card } from "@/components/ui/Card";
-import { CheckCircle, Info } from "lucide-react";
+import { ArrowUpRight, BookOpen, CheckCircle, Info } from "lucide-react";
 import { HOUSING } from "@/data/housing";
 import { GUIDES } from "@/data/guides";
 import { scoreColor } from "@/lib/utils";
@@ -167,6 +167,10 @@ export default async function RankingPage({ params }: Props) {
     ],
   };
 
+  const rankingSlugs = Object.keys(RANKING_META);
+  const sheetNo = String(rankingSlugs.indexOf(slug) + 1).padStart(2, "0");
+  const sheetTotal = String(rankingSlugs.length).padStart(2, "0");
+
   return (
     <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
@@ -176,17 +180,16 @@ export default async function RankingPage({ params }: Props) {
       />
       <Navbar />
 
-      {/* Premium hero */}
-      <section className="relative overflow-hidden py-16">
-        <div className="pointer-events-none absolute inset-0" aria-hidden>
-          <div className="absolute inset-0 bg-aurora opacity-40" />
-        </div>
+      {/* Hero — one survey-map sheet: numbered enamel plaque (same « Feuille
+          NN / 19 » numbering as the /classements hub), ink title. No aurora wash,
+          no green gradient tile: greens are reserved for score tiers. */}
+      <section className="relative overflow-hidden pt-16 pb-12">
         <div className="relative mx-auto max-w-5xl px-4 sm:px-6 text-center">
-          <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--accent)] to-emerald-700 shadow-xl shadow-[var(--accent)]/30 ring-1 ring-white/40">
-            <span className="text-2xl">{meta.emoji}</span>
+          <div className="plaque mb-4 !px-3 !py-2 font-mono-data text-lg" aria-hidden>
+            N°{sheetNo}
           </div>
-          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            🏆 Classement 2026 · {ranked.length} villes
+          <p className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)] mb-2">
+            Feuille {sheetNo} / {sheetTotal} · Classement 2026 · {ranked.length} villes
           </p>
           <h1 className="mb-4 text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.05]">
             <span className="font-display gradient-text-anim italic">{meta.headline}</span>
@@ -312,7 +315,7 @@ export default async function RankingPage({ params }: Props) {
                   key={item}
                   className="flex items-start gap-2 text-xs text-[var(--text-secondary)]"
                 >
-                  <CheckCircle className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-emerald-600" />
+                  <CheckCircle className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[var(--accent)]" />
                   {item}
                 </div>
               ))}
@@ -350,9 +353,9 @@ export default async function RankingPage({ params }: Props) {
                           ×{w}
                         </span>
                       </div>
-                      <div className="h-1.5 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+                      <div className="h-1.5 rounded-full bg-[var(--border)] overflow-hidden">
                         <div
-                          className={`h-full rounded-full ${meta.color.replace("text-", "bg-")}`}
+                          className="h-full rounded-full bg-[var(--accent)]"
                           style={{ width: `${pct}%` }}
                         />
                       </div>
@@ -374,7 +377,7 @@ export default async function RankingPage({ params }: Props) {
                 href="/classements/sans-voiture"
                 className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
               >
-                <span className="text-xl flex-shrink-0">🚲</span>
+                <ArrowUpRight className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
                     Se passer de voiture au quotidien
@@ -401,7 +404,7 @@ export default async function RankingPage({ params }: Props) {
                 href="/classements/securite-femme-seule"
                 className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
               >
-                <span className="text-xl flex-shrink-0">👤</span>
+                <ArrowUpRight className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
                     Sécurité d&apos;une femme seule, transport du soir compris
@@ -429,7 +432,7 @@ export default async function RankingPage({ params }: Props) {
                 href="/classements/lien-social"
                 className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
               >
-                <span className="text-xl flex-shrink-0">🤝</span>
+                <ArrowUpRight className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
                     Les villes où l&apos;on vit le moins souvent seul
@@ -459,7 +462,7 @@ export default async function RankingPage({ params }: Props) {
                 href="/classements/famille-proprietaire"
                 className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
               >
-                <span className="text-xl flex-shrink-0">👨‍👩‍👧</span>
+                <ArrowUpRight className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
                     Élever des enfants sans que le loyer décide de tout
@@ -489,7 +492,7 @@ export default async function RankingPage({ params }: Props) {
                 href="/classements/jeune-actif"
                 className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
               >
-                <span className="text-xl flex-shrink-0">🚀</span>
+                <ArrowUpRight className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
                     Démarrer sa carrière ailleurs que dans une métropole
@@ -520,7 +523,7 @@ export default async function RankingPage({ params }: Props) {
                 href="/pour-qui/amateurs-de-montagne"
                 className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
               >
-                <span className="text-xl flex-shrink-0">🏔️</span>
+                <ArrowUpRight className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
                     Quand c&apos;est le relief que vous cherchez, pas la nature en général
@@ -555,7 +558,7 @@ export default async function RankingPage({ params }: Props) {
                 href="/pour-qui/amateurs-de-littoral"
                 className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
               >
-                <span className="text-xl flex-shrink-0">🌊</span>
+                <ArrowUpRight className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
                     Trier par distance à la mer plutôt que par caractère maritime
@@ -591,7 +594,7 @@ export default async function RankingPage({ params }: Props) {
                 href="/pour-qui/amateurs-de-culture"
                 className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
               >
-                <span className="text-xl flex-shrink-0">🎭</span>
+                <ArrowUpRight className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
                     Quand c&apos;est la programmation qui commande la semaine
@@ -623,7 +626,7 @@ export default async function RankingPage({ params }: Props) {
                 href="/pour-qui/navetteurs-hybrides"
                 className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
               >
-                <span className="text-xl flex-shrink-0">🚆</span>
+                <ArrowUpRight className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
                     Et si l&apos;on revient au bureau deux ou trois jours par semaine
@@ -653,7 +656,7 @@ export default async function RankingPage({ params }: Props) {
                     href={`/guides/${g.slug}`}
                     className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
                   >
-                    <span className="text-xl flex-shrink-0">{g.emoji}</span>
+                    <BookOpen className="mt-0.5 h-4 w-4 flex-shrink-0 text-[var(--accent)]" aria-hidden />
                     <div className="min-w-0">
                       <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors line-clamp-2 leading-snug">
                         {g.title}
@@ -667,13 +670,13 @@ export default async function RankingPage({ params }: Props) {
           )}
 
           {/* CTA */}
-          <Card className={`${meta.bgColor} border ${meta.borderColor}`}>
+          <Card className="bg-[var(--accent-soft)] border border-[var(--accent)]/20">
             <p className="text-sm text-[var(--text-secondary)] mb-3">
               Vous souhaitez une analyse personnalisée ?
             </p>
             <Link
               href="/city-match"
-              className={`inline-flex items-center gap-1.5 text-sm font-semibold ${meta.color} hover:underline`}
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent)] hover:underline"
             >
               Lancer le quiz IA →
             </Link>

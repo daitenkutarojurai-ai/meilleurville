@@ -51,6 +51,8 @@ function seedToCity(s: (typeof CITIES_SEED)[number]): City {
   };
 }
 
+// Same order as RANKING_META: the « Feuille NN / 19 » number shown here is
+// recomputed from RANKING_META on each /classements/[slug] hero.
 const CATEGORIES = [
   { slug: "teletravail", label: "Télétravail", icon: Laptop, desc: "Fibre, coworking, café culture, qualité de vie", scoreKey: "remoteWork" },
   { slug: "famille", label: "Famille", icon: Home, desc: "Écoles, sécurité, espaces verts, prix", scoreKey: "schools" },
@@ -64,11 +66,11 @@ const CATEGORIES = [
   { slug: "mobilite", label: "Sans voiture", icon: Bike, desc: "Transports, vélo, marchabilité, TGV", scoreKey: "transport" },
   { slug: "investissement", label: "Investissement", icon: Building2, desc: "Prix accessibles, rendement locatif, attractivité", scoreKey: "cost" },
   { slug: "sante", label: "Santé & Soins", icon: Heart, desc: "Densité médicale, hôpitaux, qualité de l'air, bien-être", scoreKey: "life" },
-  { slug: "ecologie", label: "Écologie & Air", icon: Leaf, desc: "Qualité de l'air, mobilité douce, espaces verts, bas-carbone", scoreKey: "nature" },
   { slug: "climat", label: "Climat de confort", icon: CloudSun, desc: "Données réelles : ensoleillement, douceur d'été, clémence d'hiver", scoreKey: "nature" },
   { slug: "logement", label: "Logement abordable", icon: KeyRound, desc: "Données DVF + Observatoires loyers : loyer T2, prix au m², coût de vie", scoreKey: "cost" },
   { slug: "jeunes-actifs", label: "Jeunes actifs", icon: Rocket, desc: "Cadres 25-39 ans, TGV, fibre, culture, premier salaire compatible", scoreKey: "culture" },
   { slug: "gastronomie", label: "Gastronomie", icon: ChefHat, desc: "Étoilés Michelin, Bib Gourmand, AOC, marchés couverts, terroir", scoreKey: "culture" },
+  { slug: "ecologie", label: "Écologie & Air", icon: Leaf, desc: "Qualité de l'air, mobilité douce, espaces verts, bas-carbone", scoreKey: "nature" },
   { slug: "cyclistes", label: "Vélo & cyclistes", icon: Bike, desc: "Note FUB, pistes cyclables sécurisées, continuité, intermodalité train+vélo", scoreKey: "transport" },
   { slug: "bord-de-mer", label: "Bord de mer", icon: Waves, desc: "Villes côtières où vivre à l'année — trait de côte SHOM, ensoleillement, patrimoine maritime", scoreKey: "nature" },
 ] as const;

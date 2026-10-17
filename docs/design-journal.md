@@ -76,3 +76,33 @@ commande que le commit : le motif tue le shell lui-même. `npm run build` non la
    rose fuchsia (barre sous le méga-menu, desktop).
 3. Hero des pages `/classements/[slug]` — tuile d'icône en dégradé vert + emoji 🏆 du sur-titre, et
    barres « Poids des critères » en vert émeraude (couleur de palier détournée).
+
+## 2026-10-17 ~11:00 UTC — gabarit `/classements/[slug]` (19 pages FR)
+
+**Surface** : hero et colonne latérale des 19 classements détaillés.
+
+**Changé**
+- **Hero** : voile `bg-aurora` retiré ; tuile d'icône en dégradé `accent → emerald-700` (un vert
+  de palier en décoration) + emoji de catégorie remplacés par une **`.plaque` « N°08 »** ; sur-titre
+  🏆 → ligne mono « Feuille 08 / 19 · Classement 2026 · N villes », la même numérotation que les
+  en-têtes du hub `/classements`. Le numéro est **calculé** depuis l'ordre de `RANKING_META`.
+- **Ordre du hub aligné** : `CATEGORIES` (`app/classements/page.tsx`) plaçait « écologie » en 13ᵉ
+  alors que `RANKING_META` la met en 17ᵉ — la feuille n'aurait pas porté le même numéro sur le hub
+  et sur sa page. Une ligne déplacée, commentaire posé.
+- **Poids des critères** : jauges teintées par `meta.color` (violet, ambre, rouge, lime… selon la
+  catégorie, donc des couleurs de palier détournées) → bleu plaque sur piste `--border`.
+- **Méthodologie** : coches `emerald-600` → accent.
+- **Classements voisins** (9 cartes) : emoji décoratif → flèche `ArrowUpRight` accent ; **guides
+  associés** : `g.emoji` → `BookOpen` accent.
+- **CTA quiz** : fond/bord/lien `meta.bgColor/borderColor/color` → lavis `--accent-soft`, lien accent.
+- Non touché : la colonne Score/Global du tableau (vraie couleur de palier), la copie.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les
+2 fichiers : 0 erreur. Captures `next dev` + Playwright sur `/classements/securite` à 1440 et 390 px,
+`scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Jumelle EN `app/[locale]/rankings/[slug]/page.tsx` — emoji 5xl en tête du hero (l. 94), à
+   aligner sur la plaque « No. 08 » (attention : ordre et compte à dériver de `RANKING_META` aussi).
+2. Navbar — emojis devant chaque lien (🌍 📊 📖 ⚖️ 🗳️ 🚩), vus en capture desktop.
+3. `components/TopFiveCities.tsx` / `FeaturedCities` de la home.
