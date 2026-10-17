@@ -132,3 +132,29 @@ Vu en passant, hors périmètre design (copie) : l'intro du hub EN (`locales/en.
 1. Navbar — emojis devant chaque lien (🌍 📊 ⚖️ 📖 vus en capture EN aussi) et méga-menu.
 2. `components/TopFiveCities.tsx` / `FeaturedCities` de la home.
 3. Bandeau cookies — vérifier s'il reste un liseré arc-en-ciel (CLAUDE.md dit converti 10-16/17).
+
+## 2026-10-17 ~23:00 UTC — Navbar (toutes les pages, FR + EN)
+
+**Surface** : `components/Navbar.tsx` — pastilles de la barre desktop, méga-menu, tiroir mobile.
+
+**Changé**
+- **Fin des emojis de navigation** : 99 champs `emoji` retirés (pastilles, méga-menu, tiroir, FR et
+  EN), champ supprimé du type `NavItem`. Les onglets du bas (icônes lucide) ne bougent pas.
+- **Pastilles desktop** : texte seul 13 px semi-gras ; actif = filet bleu plaque souligné sous le
+  libellé (au lieu d'une pilule navy pleine à ombre portée), coins `rounded-md`.
+- **Méga-menu** : chaque colonne porte une référence de carroyage **A / B / C / D** sur une
+  `.plaque.plaque-small` mono, titre en encre sur filet ; liens en texte avec filet gauche bleu
+  plaque au survol / à l'état actif (lavis `--accent-soft`). Fond rendu opaque
+  (`/97 backdrop-blur` laissait transparaître le titre de la page dessous — vu en capture).
+- **Tiroir mobile** : puces arrondies à emoji → étiquettes papier rectangulaires, active en bleu plaque.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 1 erreur
+préexistante (`set-state-in-effect` l. 335, fermeture du menu au changement de route — ligne non
+touchée), aucune ajoutée. Captures `next dev` + Playwright sur `/classements` à 1440 px (barre +
+méga-menu ouvert) et 390 px (tiroir), `scrollWidth` = viewport. `npm run build` non lancé.
+⚠️ Rappel (re-piégé ce run) : jamais `pkill -f "next dev…"` dans la même commande que le commit.
+
+**Prochaines surfaces candidates**
+1. `components/TopFiveCities.tsx` / `FeaturedCities` de la home.
+2. Bandeau cookies — tuile 🍪 en lucide sur fond lavis ; vérifier le reste.
+3. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.

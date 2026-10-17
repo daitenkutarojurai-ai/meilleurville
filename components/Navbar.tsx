@@ -19,7 +19,6 @@ const IS_EN = DEFAULT_LOCALE === "en";
 interface NavItem {
   label: string;
   href: string;
-  emoji: string;
   matchPrefix?: string;
   /** Pills are shrink-0 + nowrap, so the bar cannot absorb a 6th one at lg
    *  without pushing into the logo. The lowest-priority pill waits for xl. */
@@ -33,18 +32,18 @@ interface MenuGroup {
 
 // Desktop top bar — compact pills, short labels to save space
 const NAV_PRIMARY_FR: NavItem[] = [
-  { label: "Villes",     href: "/villes",                emoji: "🌍", matchPrefix: "/villes" },
-  { label: "Top",        href: "/classements",           emoji: "📊", matchPrefix: "/classements" },
-  { label: "Guides",     href: "/guides",                emoji: "📖", matchPrefix: "/guides" },
-  { label: "VS",         href: "/comparer",              emoji: "⚖️", matchPrefix: "/comparer" },
-  { label: "Politique",  href: "/orientation-politique", emoji: "🗳️", matchPrefix: "/orientation-politique" },
-  { label: "Red Flags",  href: "/red-flags",             emoji: "🚩", matchPrefix: "/red-flags", xlOnly: true },
+  { label: "Villes",     href: "/villes", matchPrefix: "/villes" },
+  { label: "Top",        href: "/classements", matchPrefix: "/classements" },
+  { label: "Guides",     href: "/guides", matchPrefix: "/guides" },
+  { label: "VS",         href: "/comparer", matchPrefix: "/comparer" },
+  { label: "Politique",  href: "/orientation-politique", matchPrefix: "/orientation-politique" },
+  { label: "Red Flags",  href: "/red-flags", matchPrefix: "/red-flags", xlOnly: true },
 ];
 const NAV_PRIMARY_EN: NavItem[] = [
-  { label: "Cities",  href: "/cities",   emoji: "🌍", matchPrefix: "/cities" },
-  { label: "Top",     href: "/rankings", emoji: "📊", matchPrefix: "/rankings" },
-  { label: "VS",      href: "/compare",  emoji: "⚖️", matchPrefix: "/compare" },
-  { label: "Guides",  href: "/guides",   emoji: "📖", matchPrefix: "/guides" },
+  { label: "Cities",  href: "/cities", matchPrefix: "/cities" },
+  { label: "Top",     href: "/rankings", matchPrefix: "/rankings" },
+  { label: "VS",      href: "/compare", matchPrefix: "/compare" },
+  { label: "Guides",  href: "/guides", matchPrefix: "/guides" },
 ];
 
 // Desktop burger — full mega-menu, 4 grouped columns
@@ -52,48 +51,48 @@ const MENU_GROUPS_FR: MenuGroup[] = [
   {
     title: "Explorer",
     items: [
-      { label: "Toutes les villes", href: "/villes",        emoji: "🌍" },
-      { label: "Carte interactive",  href: "/carte",         emoji: "🗺️" },
-      { label: "Par région",         href: "/regions",       emoji: "📍" },
-      { label: "Par département",    href: "/departements",  emoji: "🗂️" },
-      { label: "Leaderboard",        href: "/leaderboard",   emoji: "🏆" },
-      { label: "Parcs & espaces verts", href: "/parcs",      emoji: "🌳" },
-      { label: "Vacances",           href: "/vacances",      emoji: "🌴" },
+      { label: "Toutes les villes", href: "/villes" },
+      { label: "Carte interactive",  href: "/carte" },
+      { label: "Par région",         href: "/regions" },
+      { label: "Par département",    href: "/departements" },
+      { label: "Leaderboard",        href: "/leaderboard" },
+      { label: "Parcs & espaces verts", href: "/parcs" },
+      { label: "Vacances",           href: "/vacances" },
     ],
   },
   {
     title: "Outils",
     items: [
-      { label: "City Match",            href: "/city-match",             emoji: "💘" },
-      { label: "Pour qui ?",            href: "/pour-qui",               emoji: "👥" },
-      { label: "Parent solo",           href: "/parent-solo",            emoji: "🧑‍🍼" },
-      { label: "Classement sur-mesure", href: "/palmares/personnaliser", emoji: "🎚️" },
-      { label: "Présidentielle 2027",   href: "/presidentielle-2027",    emoji: "🗳️" },
-      { label: "Orientation politique", href: "/orientation-politique",  emoji: "🧭" },
-      { label: "Comparer villes",       href: "/comparer",               emoji: "⚖️" },
-      { label: "Classements",           href: "/classements",            emoji: "📊" },
-      { label: "Synthèse",              href: "/synthese",               emoji: "📋" },
-      { label: "Red Flag Radar",        href: "/red-flags",              emoji: "🚩" },
+      { label: "City Match",            href: "/city-match" },
+      { label: "Pour qui ?",            href: "/pour-qui" },
+      { label: "Parent solo",           href: "/parent-solo" },
+      { label: "Classement sur-mesure", href: "/palmares/personnaliser" },
+      { label: "Présidentielle 2027",   href: "/presidentielle-2027" },
+      { label: "Orientation politique", href: "/orientation-politique" },
+      { label: "Comparer villes",       href: "/comparer" },
+      { label: "Classements",           href: "/classements" },
+      { label: "Synthèse",              href: "/synthese" },
+      { label: "Red Flag Radar",        href: "/red-flags" },
     ],
   },
   {
     title: "Contenu",
     items: [
-      { label: "Guides pratiques",  href: "/guides",        emoji: "📖" },
-      { label: "Cadre de vie",      href: "/cadre-de-vie",  emoji: "🌿" },
-      { label: "Glossaire",         href: "/glossaire",     emoji: "📚" },
-      { label: "Méthodologie",      href: "/methode",       emoji: "🔬" },
-      { label: "Données & Sources", href: "/donnees",       emoji: "📈" },
+      { label: "Guides pratiques",  href: "/guides" },
+      { label: "Cadre de vie",      href: "/cadre-de-vie" },
+      { label: "Glossaire",         href: "/glossaire" },
+      { label: "Méthodologie",      href: "/methode" },
+      { label: "Données & Sources", href: "/donnees" },
     ],
   },
   {
     title: "À propos",
     items: [
-      { label: "Notre mission", href: "/about",    emoji: "ℹ️" },
-      { label: "FAQ",           href: "/faq",      emoji: "❓" },
-      { label: "Contact",       href: "/contact",  emoji: "✉️" },
-      { label: "Favoris",       href: "/favoris",  emoji: "❤️" },
-      { label: "Sommaire",      href: "/sommaire", emoji: "🗒️" },
+      { label: "Notre mission", href: "/about" },
+      { label: "FAQ",           href: "/faq" },
+      { label: "Contact",       href: "/contact" },
+      { label: "Favoris",       href: "/favoris" },
+      { label: "Sommaire",      href: "/sommaire" },
     ],
   },
 ];
@@ -101,90 +100,90 @@ const MENU_GROUPS_EN: MenuGroup[] = [
   {
     title: "Explore",
     items: [
-      { label: "All cities",  href: "/cities",      emoji: "🌍" },
-      { label: "Map",         href: "/map",         emoji: "🗺️" },
-      { label: "Regions",     href: "/regions",     emoji: "📍" },
-      { label: "Departments", href: "/departments", emoji: "🗂️" },
-      { label: "Leaderboard", href: "/leaderboard", emoji: "🏆" },
-      { label: "Parks",       href: "/parks",       emoji: "🌳" },
+      { label: "All cities",  href: "/cities" },
+      { label: "Map",         href: "/map" },
+      { label: "Regions",     href: "/regions" },
+      { label: "Departments", href: "/departments" },
+      { label: "Leaderboard", href: "/leaderboard" },
+      { label: "Parks",       href: "/parks" },
     ],
   },
   {
     title: "Tools",
     items: [
-      { label: "City Match",            href: "/city-match",            emoji: "✨" },
-      { label: "Compare",         href: "/compare",         emoji: "⚖️" },
-      { label: "Rankings",        href: "/rankings",        emoji: "📊" },
-      { label: "For who",         href: "/for-who",         emoji: "👥" },
-      { label: "Single parent",   href: "/single-parent",   emoji: "🧑‍🍼" },
-      { label: "Niche rankings",  href: "/niche-rankings",  emoji: "📊" },
-      { label: "Red flags",       href: "/red-flags",       emoji: "🚩" },
-      { label: "Vacations",       href: "/vacations",       emoji: "🌴" },
+      { label: "City Match",            href: "/city-match" },
+      { label: "Compare",         href: "/compare" },
+      { label: "Rankings",        href: "/rankings" },
+      { label: "For who",         href: "/for-who" },
+      { label: "Single parent",   href: "/single-parent" },
+      { label: "Niche rankings",  href: "/niche-rankings" },
+      { label: "Red flags",       href: "/red-flags" },
+      { label: "Vacations",       href: "/vacations" },
     ],
   },
   {
     title: "Guides",
     items: [
-      { label: "Guides",           href: "/guides",           emoji: "📖" },
-      { label: "Cheapest cities",  href: "/cheapest-cities",  emoji: "💶" },
-      { label: "Best value",       href: "/best-value-cities", emoji: "💎" },
-      { label: "Search",           href: "/search",           emoji: "🔍" },
-      { label: "Methodology",      href: "/methodology",      emoji: "🔬" },
+      { label: "Guides",           href: "/guides" },
+      { label: "Cheapest cities",  href: "/cheapest-cities" },
+      { label: "Best value",       href: "/best-value-cities" },
+      { label: "Search",           href: "/search" },
+      { label: "Methodology",      href: "/methodology" },
     ],
   },
   {
     title: "About",
     items: [
-      { label: "About",   href: "/about",   emoji: "ℹ️" },
-      { label: "FAQ",     href: "/faq",     emoji: "❓" },
-      { label: "Contact", href: "/contact", emoji: "✉️" },
+      { label: "About",   href: "/about" },
+      { label: "FAQ",     href: "/faq" },
+      { label: "Contact", href: "/contact" },
     ],
   },
 ];
 
 // Mobile slide-up drawer — all sections as pill chips
 const NAV_ALL_FR: NavItem[] = [
-  { label: "Toutes les villes", href: "/villes",        emoji: "🌍", matchPrefix: "/villes" },
-  { label: "Carte",             href: "/carte",         emoji: "🗺️", matchPrefix: "/carte" },
-  { label: "Régions",           href: "/regions",       emoji: "📍", matchPrefix: "/regions" },
-  { label: "Départements",      href: "/departements",  emoji: "🗂️", matchPrefix: "/departements" },
-  { label: "Classements",       href: "/classements",   emoji: "📊", matchPrefix: "/classements" },
-  { label: "Leaderboard",       href: "/leaderboard",   emoji: "🏆", matchPrefix: "/leaderboard" },
-  { label: "Parcs",             href: "/parcs",         emoji: "🌳", matchPrefix: "/parcs" },
-  { label: "Comparer",          href: "/comparer",      emoji: "⚖️", matchPrefix: "/comparer" },
-  { label: "City Match",            href: "/city-match",             emoji: "💘", matchPrefix: "/city-match" },
-  { label: "Pour qui ?",            href: "/pour-qui",               emoji: "👥", matchPrefix: "/pour-qui" },
-  { label: "Classement sur-mesure", href: "/palmares/personnaliser", emoji: "🎚️", matchPrefix: "/palmares" },
-  { label: "Présidentielle 2027",   href: "/presidentielle-2027",    emoji: "🗳️", matchPrefix: "/presidentielle-2027" },
-  { label: "Orientation politique", href: "/orientation-politique",  emoji: "🧭", matchPrefix: "/orientation-politique" },
-  { label: "Red Flag Radar",    href: "/red-flags",     emoji: "🚩", matchPrefix: "/red-flags" },
-  { label: "Synthèse",          href: "/synthese",      emoji: "📋", matchPrefix: "/synthese" },
-  { label: "Guides",            href: "/guides",        emoji: "📖", matchPrefix: "/guides" },
-  { label: "Vacances",          href: "/vacances",      emoji: "🌴", matchPrefix: "/vacances" },
-  { label: "Cadre de vie",      href: "/cadre-de-vie",  emoji: "🌿", matchPrefix: "/cadre-de-vie" },
-  { label: "Favoris",           href: "/favoris",       emoji: "❤️", matchPrefix: "/favoris" },
-  { label: "FAQ",               href: "/faq",           emoji: "❓", matchPrefix: "/faq" },
-  { label: "Contact",           href: "/contact",       emoji: "✉️", matchPrefix: "/contact" },
+  { label: "Toutes les villes", href: "/villes", matchPrefix: "/villes" },
+  { label: "Carte",             href: "/carte", matchPrefix: "/carte" },
+  { label: "Régions",           href: "/regions", matchPrefix: "/regions" },
+  { label: "Départements",      href: "/departements", matchPrefix: "/departements" },
+  { label: "Classements",       href: "/classements", matchPrefix: "/classements" },
+  { label: "Leaderboard",       href: "/leaderboard", matchPrefix: "/leaderboard" },
+  { label: "Parcs",             href: "/parcs", matchPrefix: "/parcs" },
+  { label: "Comparer",          href: "/comparer", matchPrefix: "/comparer" },
+  { label: "City Match",            href: "/city-match", matchPrefix: "/city-match" },
+  { label: "Pour qui ?",            href: "/pour-qui", matchPrefix: "/pour-qui" },
+  { label: "Classement sur-mesure", href: "/palmares/personnaliser", matchPrefix: "/palmares" },
+  { label: "Présidentielle 2027",   href: "/presidentielle-2027", matchPrefix: "/presidentielle-2027" },
+  { label: "Orientation politique", href: "/orientation-politique", matchPrefix: "/orientation-politique" },
+  { label: "Red Flag Radar",    href: "/red-flags", matchPrefix: "/red-flags" },
+  { label: "Synthèse",          href: "/synthese", matchPrefix: "/synthese" },
+  { label: "Guides",            href: "/guides", matchPrefix: "/guides" },
+  { label: "Vacances",          href: "/vacances", matchPrefix: "/vacances" },
+  { label: "Cadre de vie",      href: "/cadre-de-vie", matchPrefix: "/cadre-de-vie" },
+  { label: "Favoris",           href: "/favoris", matchPrefix: "/favoris" },
+  { label: "FAQ",               href: "/faq", matchPrefix: "/faq" },
+  { label: "Contact",           href: "/contact", matchPrefix: "/contact" },
 ];
 const NAV_ALL_EN: NavItem[] = [
-  { label: "Cities",          href: "/cities",           emoji: "🌍", matchPrefix: "/cities" },
-  { label: "Rankings",        href: "/rankings",         emoji: "📊", matchPrefix: "/rankings" },
-  { label: "Compare",         href: "/compare",          emoji: "⚖️", matchPrefix: "/compare" },
-  { label: "Guides",          href: "/guides",           emoji: "📖", matchPrefix: "/guides" },
-  { label: "Map",             href: "/map",              emoji: "🗺️", matchPrefix: "/map" },
-  { label: "Regions",         href: "/regions",          emoji: "📍", matchPrefix: "/regions" },
-  { label: "Departments",     href: "/departments",      emoji: "🗂️", matchPrefix: "/departments" },
-  { label: "Parks",           href: "/parks",            emoji: "🌳", matchPrefix: "/parks" },
-  { label: "City Match",            href: "/city-match",             emoji: "✨", matchPrefix: "/city-match" },
-  { label: "For who",         href: "/for-who",          emoji: "👥", matchPrefix: "/for-who" },
-  { label: "Niche rankings",  href: "/niche-rankings",   emoji: "📊", matchPrefix: "/niche-rankings" },
-  { label: "Red flags",       href: "/red-flags",        emoji: "🚩", matchPrefix: "/red-flags" },
-  { label: "Vacations",       href: "/vacations",        emoji: "🌴", matchPrefix: "/vacations" },
-  { label: "Cheapest cities", href: "/cheapest-cities",  emoji: "💶", matchPrefix: "/cheapest-cities" },
-  { label: "Search",          href: "/search",           emoji: "🔍", matchPrefix: "/search" },
-  { label: "About",           href: "/about",            emoji: "ℹ️", matchPrefix: "/about" },
-  { label: "FAQ",             href: "/faq",              emoji: "❓", matchPrefix: "/faq" },
-  { label: "Contact",         href: "/contact",          emoji: "✉️", matchPrefix: "/contact" },
+  { label: "Cities",          href: "/cities", matchPrefix: "/cities" },
+  { label: "Rankings",        href: "/rankings", matchPrefix: "/rankings" },
+  { label: "Compare",         href: "/compare", matchPrefix: "/compare" },
+  { label: "Guides",          href: "/guides", matchPrefix: "/guides" },
+  { label: "Map",             href: "/map", matchPrefix: "/map" },
+  { label: "Regions",         href: "/regions", matchPrefix: "/regions" },
+  { label: "Departments",     href: "/departments", matchPrefix: "/departments" },
+  { label: "Parks",           href: "/parks", matchPrefix: "/parks" },
+  { label: "City Match",            href: "/city-match", matchPrefix: "/city-match" },
+  { label: "For who",         href: "/for-who", matchPrefix: "/for-who" },
+  { label: "Niche rankings",  href: "/niche-rankings", matchPrefix: "/niche-rankings" },
+  { label: "Red flags",       href: "/red-flags", matchPrefix: "/red-flags" },
+  { label: "Vacations",       href: "/vacations", matchPrefix: "/vacations" },
+  { label: "Cheapest cities", href: "/cheapest-cities", matchPrefix: "/cheapest-cities" },
+  { label: "Search",          href: "/search", matchPrefix: "/search" },
+  { label: "About",           href: "/about", matchPrefix: "/about" },
+  { label: "FAQ",             href: "/faq", matchPrefix: "/faq" },
+  { label: "Contact",         href: "/contact", matchPrefix: "/contact" },
 ];
 
 // Mobile bottom tab bar — 4 highest-intent + Menu
@@ -378,14 +377,15 @@ export function Navbar() {
                   href={link.href}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
+                    // Text only, like the legend of a survey map: the emoji in front of
+                    // every pill was the most template-looking thing on every page.
+                    "relative flex shrink-0 items-center rounded-md px-3 py-1.5 text-[13px] font-semibold whitespace-nowrap transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
                     link.xlOnly && "hidden xl:flex",
                     active
-                      ? "bg-[var(--accent)] text-white shadow-sm shadow-[var(--accent)]/40"
+                      ? "text-[var(--accent)] after:absolute after:inset-x-3 after:-bottom-px after:h-[2px] after:rounded-full after:bg-[var(--accent)]"
                       : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
                   )}
                 >
-                  <span aria-hidden>{link.emoji}</span>
                   {link.label}
                 </Link>
               );
@@ -434,21 +434,25 @@ export function Navbar() {
           // opacity/pointer-events alone leave them keyboard-focusable.
           inert={!menuOpen || undefined}
           className={cn(
-            "hidden lg:block absolute left-0 right-0 top-full border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/97 backdrop-blur-2xl shadow-[0_16px_48px_-8px_rgba(31,58,42,0.20)] transition-[opacity,transform] duration-200 origin-top",
+            "hidden lg:block absolute left-0 right-0 top-full border-b border-[var(--border)]/60 bg-[var(--bg-canvas)] shadow-[0_16px_48px_-8px_rgba(31,58,42,0.20)] transition-[opacity,transform] duration-200 origin-top",
             menuOpen
               ? "opacity-100 scale-y-100 pointer-events-auto"
               : "opacity-0 scale-y-95 pointer-events-none"
           )}
         >
           <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6 grid grid-cols-4 gap-8">
-            {MENU_GROUPS.map((group) => (
+            {MENU_GROUPS.map((group, gi) => (
               <div key={group.title}>
-                {/* p, not h4 — nav group labels would otherwise precede the page h1 in the document outline */}
-                <p className="mb-3 text-[10px] font-semibold uppercase tracking-wider text-[var(--accent)]">
+                {/* p, not h4 — nav group labels would otherwise precede the page h1 in the document outline.
+                    Columns carry a map grid reference (A, B, C, D) on a small plaque. */}
+                <p className="mb-3 flex items-center gap-2 border-b border-[var(--border)] pb-2 text-[11px] font-semibold uppercase tracking-wider text-[var(--text-primary)]">
+                  <span aria-hidden className="plaque plaque-small font-mono !text-[10px] leading-none">
+                    {String.fromCharCode(65 + gi)}
+                  </span>
                   {group.title}
                 </p>
                 <ul className="space-y-0.5">
-                  {group.items.map(({ label, href, emoji }) => {
+                  {group.items.map(({ label, href }) => {
                     const active = isActivePath(href, pathname);
                     return (
                       <li key={href}>
@@ -457,13 +461,12 @@ export function Navbar() {
                           onClick={() => setMenuOpen(false)}
                           aria-current={active ? "page" : undefined}
                           className={cn(
-                            "flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-sm font-medium transition-colors",
+                            "flex items-center rounded-sm border-l-2 px-2.5 py-1.5 text-sm font-medium transition-colors",
                             active
-                              ? "bg-[var(--accent)]/10 text-[var(--accent)]"
-                              : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+                              ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--accent)]"
+                              : "border-transparent text-[var(--text-secondary)] hover:border-[var(--accent)]/50 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
                           )}
                         >
-                          <span aria-hidden className="w-5 text-center text-base">{emoji}</span>
                           {label}
                         </Link>
                       </li>
@@ -574,13 +577,12 @@ export function Navbar() {
                   onClick={() => setOpen(false)}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "flex items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-medium transition-all active:scale-[0.97]",
+                    "flex items-center rounded-md border px-3.5 py-2 text-sm font-medium transition-colors active:scale-[0.97]",
                     active
-                      ? "bg-[var(--accent)] text-white shadow-sm"
-                      : "border border-[var(--border)] text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+                      ? "border-[var(--accent)] bg-[var(--accent)] text-white"
+                      : "border-[var(--border)] bg-[var(--bg-canvas)] text-[var(--text-secondary)] hover:border-[var(--accent)]/50 hover:text-[var(--text-primary)]"
                   )}
                 >
-                  <span aria-hidden>{link.emoji}</span>
                   {link.label}
                 </Link>
               );
