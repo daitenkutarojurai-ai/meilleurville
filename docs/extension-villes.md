@@ -345,6 +345,11 @@ ressemble pas à ses voisines, une médiane serait fausse :
 Boissy-Saint-Léger, Valenton, Le Bourget, Villetaneuse, Saint-Brice, Mennecy, Nemours, Vaires, Canteleu,
 Bois-Guillaume, Ifs, Guipavas, Ploemeur, Pornic, Beaucaire, Rive-de-Gier, Yutz,
 Brignoles, Lunéville, Cesson-Sévigné, Bruz, Ramonville-Saint-Agne, Saint-Égrève, Plan-de-Cuques.
+Relevées par nom le 2026-10-17 (balayage de ~400 noms supplémentaires, toutes absentes du seed et sous le seuil) :
+Sorgues (84129, **~19 006** en 2023 : Wikipédia EN + villesavivre, à 24 près), Fécamp (76259, **~17 313** : notre-planete +
+bien-dans-ma-ville, millésime discuté), et sans recoupement de population : Elbeuf, Les Herbiers,
+Saint-Pierre-des-Corps, Héricourt, Woippy, Freyming-Merlebach, Creutzwald, Villers-lès-Nancy, Anzin, Chauny,
+Tergnier, Canet-en-Roussillon, Le Pontet, Saint-Junien, Bry-sur-Marne, Dugny, Le Pré-Saint-Gervais, Lognes, Hem.
 Recoupées sur les populations de référence 2023 (publiées en décembre 2025, en vigueur au 1ᵉʳ janvier 2026) le
 2026-10-13 : Bourg-lès-Valence **19 992** (Banatic + Wikipédia), Bruz (35047) **19 683** (Banatic + Wikipédia),
 Schœlcher (97229) **19 478** (fichier Insee Martinique + Banatic), Mauguio (34154) **16 522**, Brignoles (83023)
@@ -2023,3 +2028,30 @@ Bezons échoue au biais coût). Sans règle, Chatou reste au tableau A.
 documentés : Villeneuve-d'Ascq, Cenon, La Madeleine… ; seuil sous 20 000 hab. ; règle Antilles-Guyane ; alerte de
 frontière quand la règle standard tient : Villeparisis, Saint-Ouen-l'Aumône) ou à une passe DVF locale sur 97407
 pour Le Port.
+
+### 2026-10-17 — aucun lot : gisement 20 000+ revérifié par un second balayage, contrôles de régression verts
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(dernier commit `[local-runner]` le 15/10) → lot autorisé. Aucune décision du propriétaire depuis le 15/10 : toutes
+les candidates connues restent suspendues à une décision de méthode (tableaux A à C).
+
+*Second balayage par nom* : ~400 noms de communes de 20 000 hab. et plus (petite et grande couronne, métropoles
+de Lyon, Bordeaux, Toulouse, Nantes, Lille, Strasbourg, Grenoble, Marseille, Nice, puis préfectures,
+sous-préfectures et villes moyennes de toutes les régions) passés contre `name:` du seed. **Aucune absente
+au-dessus du seuil** hors les lignes déjà aux tableaux A-C. Les absentes trouvées sont toutes sous 20 000 hab. et
+vont au tableau D ; les deux plus proches du seuil ont été recoupées par recherche web : Sorgues ~19 006 (2023),
+Fécamp ~17 313. Le gisement « règle valable » est donc confirmé épuisé sous deux méthodes de balayage
+indépendantes ; seule la liste exhaustive Insee (passe locale) pourrait encore faire apparaître un oubli.
+
+*Contrôles de régression sur les 53 villes d'extension* (aucune modification du seed) :
+`seed:neighbours:relire` → **0 repère à relire** (DVF des 53 villes servie, ratios inchangés) ;
+`seed:neighbours:selftest` → **52/53 reproduites**, Maisons-Laffitte hors règle documentée ;
+`seed-drift` → **0 ville changée**, 0 citation de guide candidate ; `seoDescriptionEn` : **555/555** « x.y/10 »
+égaux à la note globale rendue (scratch hors dépôt).
+
+Table des couleurs inchangée (593). `npm run build` non lancé.
+
+**Prochain lot** : suspendu aux décisions du propriétaire (règle d'égalité des voisines pour Chatou ; overrides
+documentés : Villeneuve-d'Ascq, Cenon, La Madeleine, Marcq-en-Barœul, Lambersart ; seuil sous 20 000 hab., qui
+ouvrirait Sorgues, Bourg-lès-Valence, Chevilly-Larue, Lisieux… ; règle Antilles-Guyane ; alerte de frontière quand
+la règle standard tient : Villeparisis, Saint-Ouen-l'Aumône) ou à une passe DVF locale sur 97407 pour Le Port.
