@@ -232,7 +232,7 @@ export function ProjectionClient({
   // ── INTRO ───────────────────────────────────────────────────────────────────
   if (phase === "intro") {
     return (
-      <div className="rounded-3xl border border-[var(--border)] bg-gradient-to-br from-amber-50/50 to-rose-50/30 dark:from-amber-900/10 dark:to-rose-900/5 p-8 sm:p-12 text-center shadow-sm">
+      <div className="rounded-3xl border border-[var(--border)] bg-[var(--bg-surface)] topo-bg p-8 sm:p-12 text-center shadow-sm">
         <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/15 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-amber-700 dark:text-amber-400 mb-4">
           <Telescope className="h-3 w-3" /> {t("3 étapes · 2 minutes", "3 steps · 2 minutes")}
         </div>
@@ -258,7 +258,7 @@ export function ProjectionClient({
           <button
             type="button"
             onClick={() => { setPhase("wizard"); setStep(0); }}
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-500 to-rose-500 text-white px-7 py-3 text-base font-semibold shadow-lg shadow-amber-500/25 hover:shadow-xl hover:opacity-90 transition-all"
+            className="inline-flex items-center gap-2 plaque !rounded-md px-7 py-3 text-base hover:!bg-[var(--accent-hover)] transition-colors"
           >
             {t("Commencer", "Get started")}
             <ArrowRight className="h-4 w-4" />
@@ -300,7 +300,7 @@ export function ProjectionClient({
                 className="h-full rounded-full transition-all duration-500"
                 style={{
                   width: `${progress}%`,
-                  background: "linear-gradient(90deg, #F59E0B, #F43F5E)",
+                  background: "linear-gradient(90deg, #1E3A6E, #2D5AA0)",
                 }}
               />
             </div>
@@ -502,7 +502,7 @@ export function ProjectionClient({
             <button
               type="button"
               onClick={() => setStep(2)}
-              className="w-full rounded-full bg-gradient-to-r from-amber-500 to-rose-500 text-white py-3 font-semibold shadow-md hover:opacity-90 transition flex items-center justify-center gap-2"
+              className="plaque w-full !rounded-md py-3 hover:!bg-[var(--accent-hover)] transition-colors flex items-center justify-center gap-2"
             >
               {t("Suivant", "Next")} <ArrowRight className="h-4 w-4" />
             </button>
@@ -566,7 +566,7 @@ export function ProjectionClient({
               type="button"
               onClick={goResult}
               disabled={priorities.length === 0}
-              className="w-full rounded-full bg-gradient-to-r from-amber-500 to-rose-500 text-white py-3 font-semibold shadow-md hover:opacity-90 transition flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="plaque w-full !rounded-md py-3 hover:!bg-[var(--accent-hover)] transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <Sparkles className="h-4 w-4" />
               {t("Calculer ma projection", "Compute my projection")}
@@ -600,7 +600,7 @@ export function ProjectionClient({
         </div>
         <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
           {top1 ? (
-            <>{t("Dans 5 ans —", "In 5 years —")} <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-rose-500">{top1.city.name}</span> ({top1.score}/100)</>
+            <>{t("Dans 5 ans —", "In 5 years —")} <span className="ink-underline text-[var(--accent)]">{top1.city.name}</span> ({top1.score}/100)</>
           ) : (
             t("Votre projection", "Your projection")
           )}
@@ -663,7 +663,7 @@ export function ProjectionClient({
         <button
           type="button"
           onClick={share}
-          className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-500 to-rose-500 text-white px-5 py-2.5 text-sm font-semibold shadow-md hover:opacity-90 transition-all"
+          className="inline-flex items-center gap-2 plaque !rounded-md px-5 py-2.5 text-sm hover:!bg-[var(--accent-hover)] transition-colors"
         >
           {copied ? (
             <><Check className="h-4 w-4" /> {t("Lien copié", "Link copied")}</>
@@ -728,7 +728,7 @@ function ProjectionCard({
       className={
         "relative rounded-3xl border p-5 transition-all " +
         (highlight
-          ? "border-amber-400 bg-gradient-to-br from-amber-50/80 to-rose-50/40 dark:from-amber-900/20 dark:to-rose-900/10 shadow-md"
+          ? "border-[var(--accent)] bg-[var(--accent-soft)] shadow-md"
           : "border-[var(--border)] bg-[var(--bg-surface)]")
       }
     >
@@ -784,7 +784,7 @@ function ProjectionCard({
                   className="h-full rounded-full"
                   style={{
                     width: `${ax.score * 10}%`,
-                    background: "linear-gradient(90deg, #F59E0B, #F43F5E)",
+                    background: "linear-gradient(90deg, #1E3A6E, #2D5AA0)",
                   }}
                 />
               </div>

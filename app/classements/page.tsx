@@ -65,7 +65,7 @@ const CATEGORIES = [
   { slug: "investissement", label: "Investissement", icon: Building2, desc: "Prix accessibles, rendement locatif, attractivité", scoreKey: "cost" },
   { slug: "sante", label: "Santé & Soins", icon: Heart, desc: "Densité médicale, hôpitaux, qualité de l'air, bien-être", scoreKey: "life" },
   { slug: "ecologie", label: "Écologie & Air", icon: Leaf, desc: "Qualité de l'air, mobilité douce, espaces verts, bas-carbone", scoreKey: "nature" },
-  { slug: "climat", label: "Climat de comfort", icon: CloudSun, desc: "Données réelles : ensoleillement, douceur d'été, clémence d'hiver", scoreKey: "nature" },
+  { slug: "climat", label: "Climat de confort", icon: CloudSun, desc: "Données réelles : ensoleillement, douceur d'été, clémence d'hiver", scoreKey: "nature" },
   { slug: "logement", label: "Logement abordable", icon: KeyRound, desc: "Données DVF + Observatoires loyers : loyer T2, prix au m², coût de vie", scoreKey: "cost" },
   { slug: "jeunes-actifs", label: "Jeunes actifs", icon: Rocket, desc: "Cadres 25-39 ans, TGV, fibre, culture, premier salaire compatible", scoreKey: "culture" },
   { slug: "gastronomie", label: "Gastronomie", icon: ChefHat, desc: "Étoilés Michelin, Bib Gourmand, AOC, marchés couverts, terroir", scoreKey: "culture" },

@@ -201,11 +201,12 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
             </div>
           </div>
 
-          {/* Quick stats — glass tiles with gradient icons */}
+          {/* Quick stats — glass tiles with enamel-plaque icons (never tier colours: the
+              old emerald→lime elevation tile read as a « bon » score) */}
           <div className="mt-7 grid grid-cols-2 sm:grid-cols-4 gap-3">
             {city.sunshinedays && (
               <div className="group rounded-2xl glass border border-white/50 p-4 hover:shadow-lg transition-shadow">
-                <div className="mb-2 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-amber-300 to-orange-400 shadow-md ring-1 ring-white/40 group-hover:scale-110 transition-transform">
+                <div className="plaque mb-2 h-9 w-9 justify-center !p-0 group-hover:-rotate-3 transition-transform">
                   <Sun className="h-4 w-4 text-white" />
                 </div>
                 <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
@@ -221,7 +222,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
             )}
             {city.avgTempJuly && (
               <div className="group rounded-2xl glass border border-white/50 p-4 hover:shadow-lg transition-shadow">
-                <div className="mb-2 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-rose-300 to-orange-400 shadow-md ring-1 ring-white/40 group-hover:scale-110 transition-transform">
+                <div className="plaque mb-2 h-9 w-9 justify-center !p-0 group-hover:-rotate-3 transition-transform">
                   <Thermometer className="h-4 w-4 text-white" />
                 </div>
                 <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
@@ -232,7 +233,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
             )}
             {city.avgTempJanuary && (
               <div className="group rounded-2xl glass border border-white/50 p-4 hover:shadow-lg transition-shadow">
-                <div className="mb-2 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-sky-300 to-cyan-400 shadow-md ring-1 ring-white/40 group-hover:scale-110 transition-transform">
+                <div className="plaque mb-2 h-9 w-9 justify-center !p-0 group-hover:-rotate-3 transition-transform">
                   <Thermometer className="h-4 w-4 text-white" />
                 </div>
                 <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
@@ -243,7 +244,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
             )}
             {city.elevation && (
               <div className="group rounded-2xl glass border border-white/50 p-4 hover:shadow-lg transition-shadow">
-                <div className="mb-2 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-lime-400 shadow-md ring-1 ring-white/40 group-hover:scale-110 transition-transform">
+                <div className="plaque mb-2 h-9 w-9 justify-center !p-0 group-hover:-rotate-3 transition-transform">
                   <TrendingUp className="h-4 w-4 text-white" />
                 </div>
                 <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">

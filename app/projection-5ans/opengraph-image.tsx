@@ -40,7 +40,7 @@ export default function Image() {
               <circle cx="16" cy="13" r="3.5" fill="#1E3A6E" />
             </svg>
             <span style={{ color: "#0F172A", fontSize: "22px", fontWeight: 700 }}>
-              Meilleur<span style={{ color: "#1E3A6E" }}>Ville</span>
+              MaVille<span style={{ color: "#1E3A6E" }}>Idéale</span>
             </span>
           </div>
           <div

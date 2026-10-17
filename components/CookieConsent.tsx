@@ -107,13 +107,13 @@ export function CookieConsent() {
       aria-label={COPY.title}
       className="fixed bottom-3 left-3 right-3 z-[90] sm:left-5 sm:right-auto sm:bottom-5 sm:max-w-[360px] animate-cookie-in"
     >
-      <div className="relative rounded-2xl bg-white/95 backdrop-blur-md ring-1 ring-black/5 shadow-[0_18px_50px_-12px_rgba(13,148,136,0.35)] overflow-hidden">
-        {/* Brand tape strip across the top */}
+      <div className="relative rounded-2xl bg-white/95 backdrop-blur-md ring-1 ring-black/5 shadow-[0_18px_50px_-12px_rgba(24,33,47,0.35)] overflow-hidden">
+        {/* Enamel plaque band across the top: navy field over the green rim */}
         <div
           className="h-1.5 w-full"
           style={{
             background:
-              "linear-gradient(90deg, var(--accent) 0%, var(--accent-warm) 50%, var(--accent-pink) 100%)",
+              "linear-gradient(180deg, var(--accent) 0 66%, var(--plaque-frame) 66% 100%)",
           }}
           aria-hidden="true"
         />

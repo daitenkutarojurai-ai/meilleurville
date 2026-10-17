@@ -102,8 +102,8 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
       <style dangerouslySetInnerHTML={{ __html: KEYFRAMES }} />
 
       <div className="grid grid-cols-[1fr,auto,1fr] items-stretch gap-2 sm:gap-6">
-        <div className="vsb-in-l rounded-2xl border border-blue-400/30 bg-gradient-to-br from-blue-500/15 to-blue-500/0 p-3 sm:p-6 text-center">
-          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-blue-500 font-semibold mb-1">Challenger A</div>
+        <div className="vsb-in-l rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent-soft)] p-3 sm:p-6 text-center">
+          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">Challenger A</div>
           <div className="text-lg sm:text-3xl font-bold text-[var(--text-primary)] leading-tight">{a.name}</div>
           {a.region && (
             <div className="text-[10px] sm:text-xs text-[var(--text-tertiary)] mt-0.5 truncate">{a.region}</div>
@@ -120,14 +120,14 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
         </div>
 
         <div className="relative flex items-center justify-center">
-          <div className="vsb-ring absolute h-14 w-14 sm:h-20 sm:w-20 rounded-full bg-amber-400/40 pointer-events-none" aria-hidden />
-          <div className="vsb-pop relative z-10 flex h-12 w-12 sm:h-20 sm:w-20 items-center justify-center rounded-full bg-gradient-to-br from-amber-300 via-orange-400 to-rose-500 text-white shadow-2xl font-extrabold text-base sm:text-3xl ring-4 ring-[var(--bg-canvas)]">
+          <div className="vsb-ring absolute h-14 w-14 sm:h-20 sm:w-20 rounded-full bg-[var(--accent)]/25 pointer-events-none" aria-hidden />
+          <div className="vsb-pop relative z-10 plaque h-12 w-12 sm:h-20 sm:w-20 justify-center !rounded-full !p-0 font-extrabold text-base sm:text-3xl">
             VS
           </div>
         </div>
 
-        <div className="vsb-in-r rounded-2xl border border-violet-400/30 bg-gradient-to-br from-violet-500/15 to-violet-500/0 p-3 sm:p-6 text-center">
-          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-violet-500 font-semibold mb-1">Challenger B</div>
+        <div className="vsb-in-r rounded-2xl border border-[var(--accent-pink)]/30 bg-[#FBEFE7] p-3 sm:p-6 text-center">
+          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-[var(--accent-pink)] font-semibold mb-1">Challenger B</div>
           <div className="text-lg sm:text-3xl font-bold text-[var(--text-primary)] leading-tight">{b.name}</div>
           {b.region && (
             <div className="text-[10px] sm:text-xs text-[var(--text-tertiary)] mt-0.5 truncate">{b.region}</div>
@@ -217,7 +217,7 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
                     </span>
                   ) : (
                     <span
-                      className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold ${aWins ? "bg-blue-500/15 text-blue-600 dark:text-blue-400" : "bg-violet-500/15 text-violet-500 dark:text-violet-300"}`}
+                      className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold ${aWins ? "bg-[var(--accent-soft)] text-[var(--accent)]" : "bg-[#FBEFE7] text-[var(--accent-pink)]"}`}
                     >
                       ✓ {(aWins ? a : b).name}
                       <span className="opacity-70">+{Math.abs(va - vb).toFixed(1)}</span>

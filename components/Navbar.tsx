@@ -480,7 +480,7 @@ export function Navbar() {
                   : "Pas sûr(e) par où commencer ? Essayez City Match."}
               </p>
               <Link href="/city-match" onClick={() => setMenuOpen(false)}>
-                <Button size="sm" className="gap-1.5 rounded-full border-0 bg-gradient-to-r from-rose-500 to-fuchsia-500 text-white shadow-md shadow-rose-500/30 hover:from-rose-600 hover:to-fuchsia-600">
+                <Button size="sm" className="plaque gap-1.5 !rounded-md border-0 hover:!bg-[var(--accent-hover)]">
                   <Heart className="h-3.5 w-3.5 fill-current" />
                   {IS_EN ? "Find my city" : "Trouver ma ville"}
                 </Button>
@@ -586,7 +586,7 @@ export function Navbar() {
           </div>
           <div className="pt-3 border-t border-[var(--border)]">
             <Link href="/city-match" onClick={() => setOpen(false)}>
-              <Button size="md" className="w-full gap-2 rounded-full border-0 bg-gradient-to-r from-rose-500 to-fuchsia-500 text-white shadow-md shadow-rose-500/30 hover:from-rose-600 hover:to-fuchsia-600">
+              <Button size="md" className="plaque w-full justify-center gap-2 !rounded-md border-0 hover:!bg-[var(--accent-hover)]">
                 <Heart className="h-4 w-4 fill-current" />
                 {IS_EN ? "City Match — Find my city" : "City Match — Trouvez ma ville"}
               </Button>

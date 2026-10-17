@@ -136,9 +136,13 @@ white keyline, green rim). Tokens live in `app/globals.css`; keep to them.
   `opengraph-image.tsx` share `#1E3A6E`; change all of them together or none.
 - `components/AmbientBackground.tsx` is a **server component** with no JS (it replaced a WebGL
   mesh gradient). Don't reintroduce a canvas/WebGL background.
-- Still template-flavoured and fair game for the daily design routine: rainbow gradient icon
-  tiles on hubs (`app/classements/page.tsx` category gradients, sub-page cards), emoji-heavy
-  nav, the cookie banner's rainbow top stripe.
+- Converted 2026-10-17: `/classements` category tiles (numbered « N°01 » plaques, accent
+  headings instead of 19 rainbow hex colours), the 4 quick-stat tiles of every city page (the
+  emerald→lime elevation tile read as a « bon » score), the Navbar/mobile City Match CTAs, the
+  cookie banner band (navy over green rim), `/projection-5ans` buttons, VsBattle (A navy, B brick)
+  and `components/Breadcrumbs.tsx` (semantic `<ol>`, wraps on mobile, `aria-current`).
+- Still template-flavoured and fair game: emoji-heavy nav and mega-menu, the red-flags hero
+  gradients, sub-page cards elsewhere. Sweep: `grep -rnE "bg-gradient-to-[a-z]+ from-[a-z]+-[0-9]+"`.
 
 ## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar, all opengraph-image.tsx)
 
