@@ -8347,6 +8347,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "vacances-celibataire-talence-2026",
+      "title": "Vacances célibataire à Talence en 2026 : la ville étudiante au bout du tram B",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-valenciennes-2026",
+      "title": "Vacances célibataire à Valenciennes en 2026 : un musée, une université et un deux-pièces à 490 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-belfort-2026",
+      "title": "Vacances célibataire à Belfort en 2026 : une gare TGV, un faubourg animé et un deux-pièces à 520 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-douai-2026",
+      "title": "Vacances célibataire à Douai en 2026 : beffroi UNESCO, étudiants et un deux-pièces à 500 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-tarbes-2026",
+      "title": "Vacances célibataire à Tarbes en 2026 : les Pyrénées à portée de bus et un coût de 7,4/10",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-agen-2026",
+      "title": "Vacances célibataire à Agen en 2026 : marché, gare TGV et deux-pièces à 560 €",
+      "emoji": "🍸"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -10264,6 +10294,11 @@
       "count": 8
     },
     {
+      "slug": "week-end-celibataire-nouvelle-aquitaine",
+      "label": "week-end célibataire Nouvelle-Aquitaine",
+      "count": 8
+    },
+    {
       "slug": "aix-en-provence",
       "label": "Aix-en-Provence",
       "count": 7
@@ -10446,11 +10481,6 @@
     {
       "slug": "vignoble",
       "label": "vignoble",
-      "count": 6
-    },
-    {
-      "slug": "week-end-celibataire-nouvelle-aquitaine",
-      "label": "week-end célibataire Nouvelle-Aquitaine",
       "count": 6
     },
     {
@@ -10786,6 +10816,11 @@
     {
       "slug": "week-end-celibataire-grand-est",
       "label": "week-end célibataire Grand Est",
+      "count": 4
+    },
+    {
+      "slug": "week-end-celibataire-hauts-de-france",
+      "label": "week-end célibataire Hauts-de-France",
       "count": 4
     },
     {

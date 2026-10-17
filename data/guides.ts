@@ -46897,6 +46897,252 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire Brive", "voyage solo Corrèze", "Brive-la-Gaillarde halles", "week-end célibataire Nouvelle-Aquitaine", "rugby Brive séjour"],
   },
   {
+    slug: "vacances-celibataire-talence-2026",
+    title: "Vacances célibataire à Talence en 2026 : la ville étudiante au bout du tram B",
+    metaTitle: "Vacances célibataire Talence 2026 : tram, campus, budget",
+    metaDesc: "Talence en séjour célibataire : 36,5 % de 15-29 ans, tram B vers Bordeaux, transport 8,1/10. Mais coût 3,6/10 et deux-pièces à 850 €.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro: "Talence compte 45 869 habitants et une très forte part de 15-29 ans : 36,5 %, contre 17,4 % de 60 ans et plus. C'est une commune de campus, collée à Bordeaux, et elle vit toute l'année au rythme des cours plutôt que des saisons. Son score de transport est de 8,1/10 grâce au tramway B. Le revers est financier : son score de coût tombe à 3,6/10 et le deux-pièces de référence est à 850 €. Talence n'est pas une destination, c'est une base de séjour pour qui veut Bordeaux sans payer Bordeaux intra-muros.",
+    sections: [
+      {
+        heading: "Pourquoi Talence : une ville qui n'est pas en vacances",
+        body: "Notre fiche donne 5,5/10 au global, 5,9/10 de vie quotidienne, 6,6/10 de culture et 7,7/10 d'écoles, un chiffre qui reflète la présence universitaire. La population a augmenté de 7,4 % depuis 2016, soit 3 157 habitants de plus. Avec 36,5 % de 15-29 ans, la commune est très jeune : on y croise surtout des étudiants, ce qui est un fait d'ambiance et non une promesse. Hors période de cours, l'animation baisse, c'est le point à garder en tête pour un séjour en juillet-août.",
+      },
+      {
+        heading: "Où poser ses valises : le centre de Talence, pas Thouars",
+        body: "Deux secteurs dans notre fiche quartiers. Le centre de Talence, dense, avec tram B direct vers Bordeaux, commerces et vie étudiante, note 6,5/10 de vie du soir pour un deux-pièces à 900 €. Thouars, pavillonnaire et familial, tombe à 5/10 de vie du soir pour 800 €. L'écart de loyer est de 100 € pour 1,5 point de vie du soir : le centre est le bon choix pour qui cherche du monde.",
+      },
+      {
+        heading: "Sortir : dormir à Talence, sortir à Bordeaux",
+        body: "La vie du soir du centre de Talence est notée 6,5/10, correcte mais pas celle d'une capitale régionale. La logique est de dormir à Talence et de sortir à Bordeaux, à quelques arrêts de tramway. Les tags de notre fiche (université, banlieue bordelaise, tramway B) décrivent exactement cela. Les bars de la commune servent surtout les étudiants du campus ; pour une soirée qui déborde, le tram est le moyen de transport naturel, et il faut vérifier ses horaires de fin de service auprès de l'exploitant.",
+      },
+      {
+        heading: "Se déplacer sans voiture : le meilleur point du dossier",
+        body: "Le score de transport est de 8,1/10. Le tramway B relie le centre de Talence à Bordeaux sans correspondance selon notre fiche quartiers. Aucune voiture n'est nécessaire pour un séjour, ni pour Bordeaux, ni pour le campus. Les durées de trajet et les fréquences ne sont pas dans nos données et se lisent sur le site du réseau.",
+      },
+      {
+        heading: "Le supplément single : le point faible du dossier",
+        body: "Avec un score de coût de 3,6/10 et un deux-pièces à 850 €, Talence est chère pour une ville de cette taille (le T1 de référence est à 620 € et le prix d'achat à 4 200 € le m²). Le supplément chambre individuelle pèse donc plus lourd qu'à Valenciennes ou Douai, où le deux-pièces tourne autour de 500 €. Si le budget est la contrainte principale, d'autres villes de la série conviennent mieux. Aucun tarif d'hôtel n'est avancé ici.",
+      },
+      {
+        heading: "Quand y aller : en période de cours",
+        body: "Notre fiche porte 2 050 heures d'ensoleillement par an et 6,9 °C en moyenne en janvier. Aucune normale mensuelle plus fine n'est publiée pour la commune. La saison où la ville est la plus vivante est celle des cours, de l'automne au printemps, hors vacances universitaires. Un séjour en plein été verrait un campus plus calme, et l'essentiel de l'animation se déplacerait vers Bordeaux.",
+      },
+    ],
+    relatedCities: ["talence"],
+    relatedGuides: ["partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Talence","voyage solo Gironde","Talence tramway B","séjour étudiant ambiance Bordeaux","week-end célibataire Nouvelle-Aquitaine"],
+  },
+  {
+    slug: "vacances-celibataire-valenciennes-2026",
+    title: "Vacances célibataire à Valenciennes en 2026 : un musée, une université et un deux-pièces à 490 €",
+    metaTitle: "Vacances célibataire Valenciennes 2026 : sortir, budget",
+    metaDesc: "Valenciennes en séjour célibataire : culture 6,2/10, 26 % de 15-29 ans, deux-pièces à 490 €, TER vers Lille et Bruxelles.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro: "Valenciennes compte 42 979 habitants et un profil équilibré : 26 % de 15-29 ans, 23 % de 60 ans et plus, et un deux-pièces de référence à 490 €. Son score de culture est de 6,2/10, son coût de 6,4/10. Les chiffres qui tempèrent : une population en recul de 1,6 % depuis 2016 et un score de sécurité de 4,3/10 dans notre fiche. C'est une ville d'université, de musée et d'industrie, pas une destination balnéaire ou de fête, et c'est exactement ce qui la rend vivante en octobre.",
+    sections: [
+      {
+        heading: "Pourquoi Valenciennes : ni station, ni saison",
+        body: "Aucun mois ne vide la ville : ses tags (Toyota, automobile, université, Watteau, reconversion, frontalier) décrivent un territoire de travail et d'études. Notre fiche donne 5,1/10 au global, 5,1/10 de vie quotidienne, 6,1/10 de transport et 6,2/10 de culture. La population baisse de 701 habitants depuis 2016, soit -1,6 %. La structure par âge, 26 % de 15-29 ans et 23 % de 60 ans et plus, est équilibrée.",
+      },
+      {
+        heading: "Où poser ses valises : le centre historique",
+        body: "Trois secteurs dans notre fiche quartiers. Le centre historique, articulé autour du musée des Beaux-Arts et de l'université, note 7/10 de vie du soir pour un deux-pièces à 500 €. Anzin, commune ouvrière voisine, tombe à 4,5/10 pour 450 €. Aulnoy-lez-Valenciennes, pavillonnaire, note 3,5/10 pour 470 €. Le choix est le centre : 50 € d'écart avec Anzin pour 2,5 points de vie du soir.",
+      },
+      {
+        heading: "Sortir : le musée, les bars étudiants et Watteau",
+        body: "La vie du soir du centre est notée 7/10. Le musée des Beaux-Arts et l'héritage de Watteau, enfant de la ville, donnent un point de départ culturel ; la scène étudiante anime les bars et restaurants du centre selon la fiche quartiers. Les dates des événements changent chaque année et ne sont pas citées. Pour une soirée plus large, notre fiche rappelle l'accès TER vers Lille.",
+      },
+      {
+        heading: "Se déplacer sans voiture : TER vers Lille et vers Bruxelles",
+        body: "Notre fiche quartiers indique un accès TER vers Lille et Bruxelles depuis le centre, et un tramway qui relie Anzin au centre. Le score de transport est de 6,1/10. La ville se visite à pied et en tram ; les durées et correspondances vers Lille et Bruxelles se vérifient auprès de l'exploitant, elles ne sont pas dans nos données.",
+      },
+      {
+        heading: "Le supplément single : un coût très bas",
+        body: "Avec 6,4/10 de coût et un deux-pièces à 490 € selon notre estimation des loyers, Valenciennes est très abordable : le T1 est à 360 € et le m² d'achat à 1 600 €. Le supplément chambre individuelle y pèse peu. Le score de télétravail est de 4,8/10 : privilégier l'hôtel ou la chambre d'hôte plutôt qu'un meublé de longue durée. Aucun tarif d'hôtel n'est avancé.",
+      },
+      {
+        heading: "Quand y aller : au printemps ou à l'automne",
+        body: "Notre fiche porte 1 720 heures d'ensoleillement par an et 3 °C en moyenne en janvier : c'est une ville du Nord, fraîche une bonne partie de l'année. Aucune normale mensuelle n'est publiée ici. L'automne et le printemps cumulent un calendrier universitaire actif et des températures supportables. Le score de sécurité de 4,3/10 est à lire avec le détail par quartier de notre fiche.",
+      },
+    ],
+    relatedCities: ["valenciennes"],
+    relatedGuides: ["10-choses-a-faire-a-valenciennes-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Valenciennes","voyage solo Nord","Valenciennes musée des Beaux-Arts","week-end célibataire Hauts-de-France","TER Lille Valenciennes séjour"],
+  },
+  {
+    slug: "vacances-celibataire-belfort-2026",
+    title: "Vacances célibataire à Belfort en 2026 : une gare TGV, un faubourg animé et un deux-pièces à 520 €",
+    metaTitle: "Vacances célibataire Belfort 2026 : sortir, TGV, budget",
+    metaDesc: "Belfort en séjour célibataire : coût 7,2/10, gare TGV, centre à 7/10 de vie du soir, deux-pièces à 520 €. Une ville qui perd des habitants.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro: "Belfort compte 45 646 habitants et un score de coût de 7,2/10. Son deux-pièces de référence est à 520 €, sa part de 15-29 ans de 24,4 % et celle des 60 ans et plus de 23,3 %. Le chiffre qui tempère : la population recule de 6,8 % depuis 2016, soit 3 327 habitants de moins. Belfort est une ville de carrefour, selon ses tags, abordable et assez équilibrée pour vivre à l'année, mais qui se vide lentement.",
+    sections: [
+      {
+        heading: "Pourquoi Belfort : un carrefour qui vit hors saison",
+        body: "Ses tags (carrefour, industrie, abordable, nature, histoire) décrivent une ville de passage et de travail plutôt que de villégiature. Notre fiche donne 5,9/10 au global, 5,5/10 de vie quotidienne, 6,2/10 de transport, 5,7/10 de nature et 5,7/10 de culture. Le recul démographique de 6,8 % depuis 2016 est marqué : c'est le point à connaître avant de réserver, il pèse sur l'animation.",
+      },
+      {
+        heading: "Où poser ses valises : le centre et le faubourg de France",
+        body: "Trois secteurs dans notre fiche quartiers. Le Centre et Faubourg de France, autour de la place d'Armes et à proximité de la gare TGV, note 7/10 de vie du soir pour un deux-pièces à 530 €. Les Résidences, à l'est, tombent à 4,5/10 pour 490 €, et Valdoie, en périphérie, à 3/10 pour 440 €. Le choix est le centre : 40 € d'écart avec les Résidences pour 2,5 points de vie du soir.",
+      },
+      {
+        heading: "Sortir : la place d'Armes et une scène de ville moyenne",
+        body: "La vie du soir du centre est notée 7/10, restaurants, commerces et vie culturelle étant concentrés selon notre fiche dans ce secteur. C'est une scène de ville moyenne : on y trouve du monde sans la densité d'une métropole. Les festivals et événements changent chaque année et ne sont pas datés ici ; l'office de tourisme est la source à consulter.",
+      },
+      {
+        heading: "Se déplacer sans voiture : la gare TGV est le point fort",
+        body: "Notre fiche quartiers souligne l'excellente accessibilité du centre grâce à la gare TGV proche. Le score de transport est de 6,2/10. Les destinations et durées ne sont pas dans nos données : à lire auprès de l'exploitant. Sur place, le centre se parcourt à pied. Pour les collines vosgiennes de Valdoie, un véhicule ou un bus reste nécessaire.",
+      },
+      {
+        heading: "Le supplément single : un coût bas, donc un supplément léger",
+        body: "À 7,2/10 de coût, 520 € le deux-pièces, 380 € le studio et 1 550 € le m² à l'achat, Belfort est abordable. Le supplément chambre individuelle pèse peu quand la chambre est à ce niveau. Le score de télétravail est de 5,1/10 : hôtel ou chambre d'hôte à privilégier. Aucun tarif n'est avancé.",
+      },
+      {
+        heading: "Quand y aller : hors hiver rigoureux",
+        body: "Notre fiche porte 1 750 heures d'ensoleillement par an et 1,5 °C en moyenne en janvier, un hiver frais. Aucune normale mensuelle n'est publiée. Le printemps et l'automne sont plus confortables pour sortir ; en hiver, la ville continue de fonctionner, mais les terrasses ne sont plus un argument.",
+      },
+    ],
+    relatedCities: ["belfort"],
+    relatedGuides: ["partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Belfort","voyage solo Territoire de Belfort","Belfort gare TGV","week-end célibataire Bourgogne-Franche-Comté","Belfort place d'Armes séjour"],
+  },
+  {
+    slug: "vacances-celibataire-douai-2026",
+    title: "Vacances célibataire à Douai en 2026 : beffroi UNESCO, étudiants et un deux-pièces à 500 €",
+    metaTitle: "Vacances célibataire Douai 2026 : beffroi, sortir, budget",
+    metaDesc: "Douai en séjour célibataire : culture 6,2/10, beffroi UNESCO, université, deux-pièces à 500 €, desserte TGV et TER.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro: "Douai compte 39 833 habitants, un beffroi inscrit à l'UNESCO et un deux-pièces de référence à 500 €. Son score de culture est de 6,2/10, son coût de 6,4/10 et sa population stable, +0,4 % depuis 2016. La part de 15-29 ans est de 24,1 % et celle des 60 ans et plus de 23,8 %. C'est une ville moyenne du Nord, portée par son université et son patrimoine, qui n'a pas de haute saison à fuir. Son score de sécurité est de 4,7/10 dans notre fiche, à lire avec le détail par quartier.",
+    sections: [
+      {
+        heading: "Pourquoi Douai : une ville stable, sans saison",
+        body: "Ses tags (beffroi, Gayant, université, charbon, reconversion, historique) décrivent une ville d'histoire et d'études. Notre fiche donne 5,4/10 au global, 5,3/10 de vie quotidienne, 6,4/10 de transport et 6,2/10 de culture. La population gagne 176 habitants depuis 2016 : la ville est stable.",
+      },
+      {
+        heading: "Où poser ses valises : le centre historique",
+        body: "Trois secteurs dans notre fiche quartiers. Le centre historique, autour du beffroi, des maisons flamandes et du marché, note 7/10 de vie du soir pour un deux-pièces à 510 €. Le faubourg de Béthune, résidentiel, tombe à 5,5/10 pour 470 €. Lallaing, pavillonnaire, note 3,5/10 pour 440 €. Le choix est le centre : 40 € d'écart avec le faubourg pour 1,5 point de vie du soir.",
+      },
+      {
+        heading: "Sortir : le beffroi, l'université et Gayant",
+        body: "Le beffroi de Douai est inscrit à l'UNESCO depuis 2005, selon les faits que nous avons recoupés pour notre guide tourisme ; l'université apporte, selon la fiche quartiers, une énergie étudiante notable au centre. Le géant Gayant est la grande figure des fêtes d'été ; sa date change chaque année et n'est pas citée ici. La vie du soir du centre est notée 7/10.",
+      },
+      {
+        heading: "Se déplacer sans voiture : TGV et TER vers Lille et Paris",
+        body: "Notre fiche quartiers indique une bonne desserte TGV et TER vers Lille et Paris depuis le centre. Le score de transport est de 6,4/10. Les durées et fréquences ne sont pas dans nos données et se vérifient auprès de l'exploitant. Sur place, le centre se visite à pied.",
+      },
+      {
+        heading: "Le supplément single : un coût bas",
+        body: "À 6,4/10 de coût, 500 € le deux-pièces, 360 € le studio et 1 600 € le m² à l'achat, Douai est très abordable. Le supplément chambre individuelle pèse peu. Le score de télétravail est de 5,3/10 : hôtel ou chambre d'hôte plutôt que meublé. Aucun tarif d'hôtel n'est avancé.",
+      },
+      {
+        heading: "Quand y aller : à l'année, avec un pic d'été pour Gayant",
+        body: "Notre fiche porte 1 730 heures d'ensoleillement par an et 3 °C en moyenne en janvier. Aucune normale mensuelle n'est publiée. Douai n'a pas de saison creuse brutale ; la période de cours, de l'automne au printemps, et l'été des fêtes de Gayant sont les deux moments où la ville est le plus animée.",
+      },
+    ],
+    relatedCities: ["douai"],
+    relatedGuides: ["10-choses-a-faire-a-douai-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Douai","voyage solo Nord","Douai beffroi UNESCO","week-end célibataire Hauts-de-France","Gayant Douai séjour"],
+  },
+  {
+    slug: "vacances-celibataire-tarbes-2026",
+    title: "Vacances célibataire à Tarbes en 2026 : les Pyrénées à portée de bus et un coût de 7,4/10",
+    metaTitle: "Vacances célibataire Tarbes 2026 : Pyrénées, budget, sortir",
+    metaDesc: "Tarbes en séjour célibataire : coût 7,4/10, nature 6,4/10, +10,4 % d'habitants depuis 2016, deux-pièces à 580 €.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro: "Tarbes compte 44 529 habitants et un score de coût de 7,4/10, pour un deux-pièces de référence à 580 €. Elle a gagné 4 211 habitants depuis 2016, soit +10,4 %, une croissance nette. Sa nature est notée 6,4/10 et son profil est celui d'une ville-porte des Pyrénées qui vit à l'année. Les chiffres qui tempèrent : 28,7 % de 60 ans et plus, un score de culture de 4,8/10 et un transport de 5,2/10. C'est l'option nature et budget, pas l'option nuit blanche.",
+    sections: [
+      {
+        heading: "Pourquoi Tarbes : les Pyrénées sans station vide",
+        body: "Ses tags (Pyrénées, abordable, calme, sport-outdoor, sous-estimée) décrivent une ville-support : on y dort et on y vit, la montagne est à côté. Notre fiche donne 6/10 au global, 5,9/10 de vie quotidienne, 6,4/10 de nature, 6,2/10 de sécurité et 4,8/10 de culture. C'est le point faible : la scène culturelle est modeste, et la vie du soir ne rivalise pas avec une métropole.",
+      },
+      {
+        heading: "Où poser ses valises : le centre-ville et le jardin Massey",
+        body: "Trois secteurs dans notre fiche quartiers. Le centre-ville, autour du jardin Massey et des commerces, note 7/10 de vie du soir pour un deux-pièces à 590 €. Bordères-sur-l'Échez, résidentiel, tombe à 4/10 pour 560 €. Aureilhan, populaire, note 5/10 pour 510 €. Le choix est le centre : seulement 30 € d'écart avec Bordères pour trois points de vie du soir.",
+      },
+      {
+        heading: "Sortir : une scène de ville moyenne, la montagne en plus",
+        body: "La vie du soir du centre est notée 7/10. Pour qui cherche du monde, c'est une scène de préfecture, avec des terrasses et des commerces mais pas de densité nocturne métropolitaine. L'argument est ailleurs : les activités outdoor en font une base pour rencontrer du monde autour de la randonnée plutôt qu'autour des bars. Les événements changent chaque année et ne sont pas datés ici.",
+      },
+      {
+        heading: "Se déplacer sans voiture : le point à vérifier",
+        body: "Le score de transport est de 5,2/10. Notre fiche quartiers ne détaille que la bonne connexion bus de l'agglomération. Les liaisons ferroviaires et les accès à la montagne sans voiture ne sont pas dans nos données : à vérifier auprès des exploitants avant de réserver, d'autant que la plupart des sorties pyrénéennes demandent un véhicule ou un transport dédié.",
+      },
+      {
+        heading: "Le supplément single : un coût bas",
+        body: "À 7,4/10 de coût, 580 € le deux-pièces, 420 € le studio et 1 600 € le m² à l'achat, Tarbes est très abordable sur notre score. Le supplément chambre individuelle y pèse peu. Le score de télétravail est de 5,8/10 : hôtel ou chambre d'hôte à privilégier. Aucun tarif n'est avancé.",
+      },
+      {
+        heading: "Quand y aller : toute l'année, avec la montagne en hiver ou en été",
+        body: "Notre fiche porte 1 950 heures d'ensoleillement par an et 3,5 °C en moyenne en janvier. Aucune normale mensuelle n'est publiée. La ville fonctionne toute l'année, les saisons déterminant surtout ce que l'on fait dans les Pyrénées toutes proches. Le contrôle des conditions de montagne se fait auprès de sources officielles.",
+      },
+    ],
+    relatedCities: ["tarbes"],
+    relatedGuides: ["10-choses-a-faire-a-tarbes-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Tarbes","voyage solo Hautes-Pyrénées","Tarbes jardin Massey","week-end célibataire Occitanie","Pyrénées séjour budget"],
+  },
+  {
+    slug: "vacances-celibataire-agen-2026",
+    title: "Vacances célibataire à Agen en 2026 : marché, gare TGV et deux-pièces à 560 €",
+    metaTitle: "Vacances célibataire Agen 2026 : marché, gare, budget",
+    metaDesc: "Agen en séjour célibataire : coût 6,4/10, 2 100 h de soleil, marché couvert, gare TGV, deux-pièces à 560 €.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro: "Agen compte 32 193 habitants, 2 100 heures d'ensoleillement par an et un deux-pièces de référence à 560 €. Son score de coût est de 6,4/10, celui de culture de 5,5/10 et celui de transport de 4,6/10. La part de 15-29 ans est de 24,3 % et celle des 60 ans et plus de 25,5 %. La population recule de 4,1 % depuis 2016. C'est une ville moyenne du Lot-et-Garonne, entre Bordeaux et Toulouse selon ses tags, qui vit à l'année sans avoir de scène dense.",
+    sections: [
+      {
+        heading: "Pourquoi Agen : une ville entre deux métropoles",
+        body: "Ses tags (entre deux métropoles, gastronomie, marché, abordable, Garonne) décrivent une ville de passage et de produits du terroir. Notre fiche donne 5,1/10 au global, 5,1/10 de vie quotidienne, 5/10 de nature, 5,5/10 de culture et 4,7/10 de sécurité. La population perd 1 376 habitants depuis 2016, soit -4,1 % : à dire avant de réserver.",
+      },
+      {
+        heading: "Où poser ses valises : le centre-ville",
+        body: "Trois secteurs dans notre fiche quartiers. Le centre-ville, autour de la cathédrale Saint-Caprais et du marché couvert, note 6,5/10 de vie du soir pour un deux-pièces à 570 €. Artigat, résidentiel, tombe à 4,5/10 pour 540 €. Bon-Encontre, pavillonnaire, note 3,5/10 pour 510 € et exige une voiture. Le choix est le centre : 30 € d'écart avec Artigat pour deux points de vie du soir.",
+      },
+      {
+        heading: "Sortir : le marché comme rendez-vous",
+        body: "La vie du soir du centre est notée 6,5/10, modeste. Les repères de la ville sont le marché couvert et la gastronomie locale. C'est une ville de comptoir et de terrasse, pas de scène nocturne. Les événements changent chaque année et ne sont pas cités ici.",
+      },
+      {
+        heading: "Se déplacer sans voiture : la gare TGV, mais un réseau modeste",
+        body: "Notre fiche quartiers indique que le centre est bien desservi par le réseau de bus et par la gare TGV. Le score de transport de 4,6/10 est faible : il pèse sur toute sortie hors de l'agglomération. Les destinations et durées ferroviaires ne sont pas dans nos données et se vérifient auprès de l'exploitant.",
+      },
+      {
+        heading: "Le supplément single : un coût de ville moyenne",
+        body: "À 6,4/10 de coût, 560 € le deux-pièces, 400 € le studio et 1 800 € le m² à l'achat, Agen est abordable. Le supplément chambre individuelle y pèse peu. Le score de télétravail de 4,3/10 est faible : l'hôtel ou la chambre d'hôte sont la bonne formule. Aucun tarif n'est avancé.",
+      },
+      {
+        heading: "Quand y aller : à l'automne ou au printemps",
+        body: "Notre fiche porte 2 100 heures d'ensoleillement par an et 6,5 °C en moyenne en janvier, soit un hiver doux. Aucune normale mensuelle n'est publiée. Le printemps et l'automne conviennent au marché et aux terrasses ; l'hiver reste doux, mais la ville est alors plus tranquille.",
+      },
+    ],
+    relatedCities: ["agen"],
+    relatedGuides: ["10-choses-a-faire-a-agen-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Agen","voyage solo Lot-et-Garonne","Agen marché couvert","week-end célibataire Nouvelle-Aquitaine","Agen gare TGV séjour"],
+  },
+  {
     slug: "partir-en-vacances-seul-2026",
     title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
     metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",
