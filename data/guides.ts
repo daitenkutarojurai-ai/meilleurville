@@ -63052,7 +63052,381 @@ export const GUIDES: Guide[] = [
       "palmares-octobre-2026-taux-effort-logement",
     ],
     tags: ["rendement locatif", "investissement locatif", "DVF", "prix au m²", "villes qui perdent des habitants", "rendement brut"],
-  }
+  },
+  {
+    slug: "10-choses-a-faire-a-longwy-2026",
+    title: "10 choses à faire à Longwy",
+    metaTitle: "10 choses à faire à Longwy en 2026",
+    metaDesc:
+      "Ville haute de Vauban inscrite à l'UNESCO, émaux et faïences : 10 choses à faire à Longwy, à la frontière belge et luxembourgeoise.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Longwy comptait 15 492 habitants au recensement de 2022, contre 14 364 en 2011. La ville a été rattachée à la France par le traité de Nimègue en 1678, et Louis XIV a confié à Vauban et à Choisy le soin d'y bâtir une place forte. Ce plan est toujours lisible dans la ville haute, inscrite à l'UNESCO en 2008 avec d'autres fortifications de Vauban. Longwy est aussi la ville d'une faïence et d'émaux célèbres. Ce guide distingue ce qui se visite dans la ville haute de ce qui relève de la ville basse.",
+    sections: [
+      {
+        heading: "1. La ville haute de Vauban",
+        body: "La ville haute est la place forte conçue après 1678 : un plan resserré, des rues droites et des remparts. Elle se parcourt à pied en une heure ou deux. C'est un quartier habité, pas un décor : on y croise des habitants, des commerces et des voitures."
+      },
+      {
+        heading: "2. L'inscription UNESCO de 2008",
+        body: "Longwy fait partie du groupe des fortifications de Vauban inscrit en 2008. Le site a été abîmé par les bombardements de 1914 et de 1944, ce qui explique que certains bâtiments soient des reconstructions. Le guide ne détaille pas l'état de chaque bastion : l'office de tourisme donne les parcours ouverts."
+      },
+      {
+        heading: "3. Les remparts et les vues",
+        body: "Le tour des remparts donne des vues sur la ville basse et sur la région des trois frontières. Les parapets sont parfois sans garde-corps : surveiller les enfants et ne pas marcher sur les bords."
+      },
+      {
+        heading: "4. Le musée des Émaux et Faïences",
+        body: "Le musée occupe une ancienne boulangerie militaire du XVIIIe siècle. Il retrace la faïence de Longwy, produite depuis 1798, et ses émaux, décor à l'aspect de cloisonné apparu en 1872. La collection comprend aussi des sculptures et des œuvres d'artistes locaux comme Jean-Paul Aubé. Horaires et tarifs sont à vérifier avant le déplacement."
+      },
+      {
+        heading: "5. La faïencerie, un savoir-faire toujours vivant",
+        body: "La production continue avec la Société des faïenceries de Longwy et Senelle. Pour une visite d'atelier, passer par l'office de tourisme plutôt que de se présenter sans rendez-vous."
+      },
+      {
+        heading: "6. Ville haute et ville basse : ne pas confondre",
+        body: "Longwy-Bas, en contrebas, est un tissu urbain du XIXe et du XXe siècle, marqué par la sidérurgie. La ville haute est le site de Vauban. Un lecteur qui descend à la gare est en ville basse et doit monter."
+      },
+      {
+        heading: "7. Une ville de sidérurgie",
+        body: "Longwy a vécu de la sidérurgie, comme tout le bassin lorrain, et la fermeture des hauts fourneaux a marqué la ville. Elle regagne des habitants depuis 2011 (14 364 puis 15 492 en 2022), un point que le guide dit sans en tirer de verdict."
+      },
+      {
+        heading: "8. Les frontières belge et luxembourgeoise",
+        body: "Longwy est à la rencontre de la Belgique et du Luxembourg. Ces frontières sont ouvertes mais une pièce d'identité reste conseillée. Le Luxembourg, très proche, explique le va-et-vient de travailleurs frontaliers."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "La ville haute se visite toute l'année, les remparts sont plus agréables par temps sec. L'hiver lorrain est froid et humide : prévoir de vraies chaussures sur des pavés glissants."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Longwy a une gare et se rejoint par la route depuis Metz, Thionville et le Luxembourg, horaires à vérifier. Une demi-journée suffit pour la ville haute, une journée avec le musée."
+      }
+    ],
+    relatedCities: ["longwy","thionville","metz"],
+    relatedGuides: [
+      "10-choses-a-faire-a-thionville-2026",
+      "10-choses-a-faire-a-metz-2026"
+    ],
+    tags: ["10 choses à faire à Longwy","activités Longwy 2026","que faire en Meurthe-et-Moselle","sorties Grand Est Vauban UNESCO","Longwy émaux faïence ville haute"]
+  },
+  {
+    slug: "10-choses-a-faire-a-thiers-2026",
+    title: "10 choses à faire à Thiers",
+    metaTitle: "10 choses à faire à Thiers en 2026",
+    metaDesc:
+      "Capitale de la coutellerie : musée, vallée des Rouets, Creux de l'Enfer et vieille ville. 10 choses à faire à Thiers, dans le Puy-de-Dôme.",
+    category: "tourisme",
+    emoji: "🔪",
+    readMinutes: 5,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Thiers comptait 11 686 habitants au recensement de 2022, contre 11 232 en 2011. La ville est connue pour sa coutellerie, qu'elle exerce de longue date, et sa vieille ville accrochée à la pente au-dessus de la vallée de la Durolle. Trois lieux racontent ce métier : le musée de la Coutellerie, la vallée des Rouets et le Creux de l'Enfer. Ce guide dit où se trouve chacun et ce qui change selon la saison.",
+    sections: [
+      {
+        heading: "1. Le musée de la Coutellerie",
+        body: "Le musée a le label Musée de France et occupe deux sites de la vieille ville. Il raconte l'histoire sociale et économique de la coutellerie thiernoise et présente des pièces de coutelliers français et étrangers, du XVIe siècle à aujourd'hui. Des ateliers de démonstration y fabriquent des pièces haut de gamme. Les horaires changent selon la saison."
+      },
+      {
+        heading: "2. La vieille ville",
+        body: "Le centre ancien est médiéval, étroit et en pente. Il se visite à pied, avec des maisons à pans de bois et des escaliers. Les chaussures plates sont conseillées, et la pente rend la visite fatigante pour les genoux."
+      },
+      {
+        heading: "3. La place du Pirou",
+        body: "La place du Pirou est l'un des lieux les plus photographiés de la vieille ville. On y passe plus qu'on n'y reste, mais c'est un point de repère pour s'orienter."
+      },
+      {
+        heading: "4. La vallée des Rouets",
+        body: "Le long de la Durolle, la vallée des Rouets est l'endroit où l'on aiguisait les lames, dans des ateliers à roue hydraulique. Un parcours d'interprétation suit la rivière, et le rouet « Chez Lyonnet » est le dernier encore en fonctionnement. Les visites guidées du site se font en saison, de juin à septembre."
+      },
+      {
+        heading: "5. Le Creux de l'Enfer",
+        body: "Le Creux de l'Enfer est un centre d'art contemporain installé dans une ancienne coutellerie. Il montre depuis plus de trente ans des artistes français et étrangers qui produisent parfois sur place. Le lieu surprend dans un décor industriel : c'est l'intérêt."
+      },
+      {
+        heading: "6. Fabriquer son propre couteau",
+        body: "Plusieurs ateliers de la ville proposent d'assembler un couteau soi-même. C'est une activité sur réservation, à demander à l'office de tourisme."
+      },
+      {
+        heading: "7. Acheter un couteau, avec méthode",
+        body: "Thiers vend beaucoup de couteaux, et la qualité varie. Le guide ne classe aucune boutique : demander à un coutelier de montrer l'origine de la lame et de la finition. Un couteau de table et un couteau de poche s'achètent aussi en magasin d'usine."
+      },
+      {
+        heading: "8. Le Livradois-Forez autour",
+        body: "Thiers est à la lisière du parc naturel régional Livradois-Forez, dont les paysages de moyenne montagne sont accessibles depuis la ville. Le parc est un territoire à part, pas un quartier de Thiers."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "L'été ouvre la vallée des Rouets, et les journées longues aident à enchaîner les trois sites. L'hiver est froid et ferme certains accès."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Thiers a une gare et une sortie d'autoroute, horaires à vérifier, et se rejoint depuis Clermont-Ferrand et Vichy. Une journée suffit pour le musée, la vieille ville et un des deux autres sites."
+      }
+    ],
+    relatedCities: ["thiers","clermont-ferrand","vichy"],
+    relatedGuides: [
+      "10-choses-a-faire-a-clermont-ferrand-2026",
+      "10-choses-a-faire-a-vichy-2026"
+    ],
+    tags: ["10 choses à faire à Thiers","activités Thiers 2026","que faire dans le Puy-de-Dôme","sorties Auvergne-Rhône-Alpes coutellerie","Thiers coutellerie vallée des Rouets"]
+  },
+  {
+    slug: "10-choses-a-faire-a-gien-2026",
+    title: "10 choses à faire à Gien",
+    metaTitle: "10 choses à faire à Gien en 2026",
+    metaDesc:
+      "Château et musée de la chasse, faïencerie fondée en 1821, rives de la Loire : 10 choses à faire à Gien, dans le Loiret.",
+    category: "tourisme",
+    emoji: "🏺",
+    readMinutes: 5,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Gien comptait 13 431 habitants au recensement de 2022, contre 14 685 en 2011 : la ville recule. Elle reste connue pour deux adresses, un château qui abrite le Musée international de la chasse et une faïencerie fondée en 1821. Le tout se regarde depuis un pont sur la Loire. Ce guide dit ce qui se visite à Gien et comment organiser une demi-journée.",
+    sections: [
+      {
+        heading: "1. Le château et ses abords",
+        body: "Le château est bâti sur un éperon rocheux qui domine la ville et le pont sur la Loire. Il a servi de prison et de tribunal au début du XXe siècle avant de devenir musée. L'architecture mêle des éléments pré-Renaissance et Renaissance, sans que le guide tranche de date."
+      },
+      {
+        heading: "2. Le Musée international de la chasse",
+        body: "Le musée de la chasse, fondé en 1952, est devenu international en 1962 après le départ du tribunal. Le rez-de-chaussée est consacré à la chasse au vol, le premier étage à la vénerie et à la chasse à tir, avec des spécimens naturalisés et des objets ethnographiques. Le sujet est polémique pour certains visiteurs, et le musée l'assume."
+      },
+      {
+        heading: "3. La faïencerie de Gien",
+        body: "La faïencerie a été fondée en 1821 par Thomas Hall, un Anglais, qui a choisi le site pour les pierres de la Loire et la forêt voisine, source de bois pour les fours. Le site a aussi les canaux, utiles pour le transport des pièces. L'entreprise porte le label Entreprise du Patrimoine Vivant."
+      },
+      {
+        heading: "4. Le musée de la faïencerie",
+        body: "Un musée sur le site de la manufacture présente l'histoire de la fabrique, des pièces monumentales et des services armoriés. C'est la meilleure façon de comprendre pourquoi cette vaisselle est devenue une adresse de référence."
+      },
+      {
+        heading: "5. La boutique de la manufacture",
+        body: "La faïencerie vend ses collections sur place. Les prix sont ceux d'une marque établie : le guide n'en cite aucun, à comparer avec les revendeurs."
+      },
+      {
+        heading: "6. Le pont et les quais de la Loire",
+        body: "Le pont de Gien relie les deux rives, avec le château et l'église en fond. Les quais se parcourent à pied et offrent une vue sur la Loire. Le fleuve a un courant fort : pas de baignade improvisée."
+      },
+      {
+        heading: "7. L'église et la reconstruction",
+        body: "Le centre-ville a été en grande partie reconstruit après la Seconde Guerre mondiale. Le guide ne détaille pas ce chantier, mais invite à regarder les façades en connaissance de cause : Gien n'est pas une ville médiévale intacte."
+      },
+      {
+        heading: "8. La Loire à vélo",
+        body: "Gien est sur le parcours de la Loire à vélo, un itinéraire balisé. Les étapes se préparent avec la carte officielle et les distances du jour, sans compter sur une moyenne."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "Le printemps et le début de l'automne conviennent aux balades sur les quais. En hiver, certaines visites sont réduites : vérifier les ouvertures."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Gien se rejoint depuis Orléans par la route, horaires de train à vérifier. Une demi-journée suffit pour le château et la faïencerie, une journée avec la Loire à vélo."
+      }
+    ],
+    relatedCities: ["gien","orleans","montargis"],
+    relatedGuides: [
+      "10-choses-a-faire-a-orleans-2026",
+      "10-choses-a-faire-a-montargis-2026"
+    ],
+    tags: ["10 choses à faire à Gien","activités Gien 2026","que faire dans le Loiret","sorties Centre-Val de Loire Loire","Gien faïence musée de la chasse"]
+  },
+  {
+    slug: "10-choses-a-faire-a-vallauris-2026",
+    title: "10 choses à faire à Vallauris",
+    metaTitle: "10 choses à faire à Vallauris en 2026",
+    metaDesc:
+      "La Guerre et la Paix de Picasso, poterie, céramique et Golfe-Juan : 10 choses à faire à Vallauris, entre Cannes et Antibes.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 5,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Vallauris comptait 28 579 habitants au recensement de 2022, contre 27 411 en 2011. La ville est connue pour ses potiers et pour Picasso, qui y a travaillé la céramique et peint en 1952 les deux panneaux de La Guerre et la Paix, aujourd'hui dans la chapelle du château. Golfe-Juan, la station balnéaire, fait partie de la commune. Ce guide décrit ce qui se visite à Vallauris et ce qui relève de Cannes et d'Antibes, voisines.",
+    sections: [
+      {
+        heading: "1. Le musée national Picasso La Guerre et la Paix",
+        body: "Le musée occupe la chapelle romane du château. Les deux compositions monumentales, peintes en 1952 sur des panneaux d'isorel, sont fixées à la voûte. Une troisième composition sur les quatre parties du monde, ajoutée après 1957, y est aussi présentée. Le lieu est fermé le mardi selon une des sources consultées : vérifier avant de venir."
+      },
+      {
+        heading: "2. La céramique de Picasso",
+        body: "Le rez-de-chaussée du château-musée est consacré à la céramique de l'artiste, qui s'est installé à Vallauris pour ce travail. Les pièces sont des vases, des plats et des figures."
+      },
+      {
+        heading: "3. Le musée Magnelli et le musée de la céramique",
+        body: "Les étages du château abritent le musée Magnelli et le musée de la céramique. La visite d'ensemble donne une idée de l'histoire du métier de potier à Vallauris, au-delà de Picasso."
+      },
+      {
+        heading: "4. Les ateliers de potiers",
+        body: "Vallauris compte des ateliers et des boutiques de poterie. Le guide ne classe aucun atelier : demander à voir la fabrication, et vérifier que la pièce est faite sur place plutôt qu'importée."
+      },
+      {
+        heading: "5. Le centre-ville",
+        body: "Le centre-ville aligne des boutiques de poterie. C'est une promenade courte, à faire à pied."
+      },
+      {
+        heading: "6. Golfe-Juan",
+        body: "Golfe-Juan fait partie de la commune de Vallauris : c'est le port et la plage de la ville. Les plages sont soumises aux drapeaux de baignade, qui font foi."
+      },
+      {
+        heading: "7. Cannes et Antibes, accessibles depuis Vallauris",
+        body: "Cannes et Antibes sont des communes à part entière, chacune avec ses sites. Vallauris sert de base plus calme entre les deux, sans prétendre à leurs musées."
+      },
+      {
+        heading: "8. Le marché",
+        body: "Un marché se tient régulièrement dans le centre. Les jours et horaires se vérifient auprès de l'office de tourisme, le guide n'en cite aucun."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "Hors été, la côte est plus tranquille et les visites de musée plus faciles. En juillet et août, la circulation est dense sur la route littorale."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Vallauris se rejoint en bus depuis Cannes et Antibes, horaires à vérifier. Une demi-journée suffit pour le musée et le centre, une journée avec Golfe-Juan."
+      }
+    ],
+    relatedCities: ["vallauris","cannes","antibes","grasse"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cannes-2026",
+      "10-choses-a-faire-a-antibes-2026",
+      "10-choses-a-faire-a-grasse-2026"
+    ],
+    tags: ["10 choses à faire à Vallauris","activités Vallauris 2026","que faire dans les Alpes-Maritimes","sorties Provence-Alpes-Côte d'Azur Picasso","Vallauris céramique Golfe-Juan"]
+  },
+  {
+    slug: "10-choses-a-faire-a-la-fleche-2026",
+    title: "10 choses à faire à La Flèche",
+    metaTitle: "10 choses à faire à La Flèche en 2026",
+    metaDesc:
+      "Prytanée militaire, château des Carmes, zoo et bords du Loir : 10 choses à faire à La Flèche, dans la Sarthe.",
+    category: "tourisme",
+    emoji: "🎖️",
+    readMinutes: 5,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "La Flèche comptait 15 081 habitants au recensement de 2022, un chiffre stable depuis 2011 (15 108). La ville se reconnaît à son Prytanée national militaire, fondé en 1604 par Henri IV, et à un zoo parmi les plus visités de l'Ouest. Elle est posée sur le Loir. Ce guide dit ce qui se visite et ce qui reste fermé au public.",
+    sections: [
+      {
+        heading: "1. Le Prytanée national militaire",
+        body: "Le Prytanée occupe l'ancien collège des Jésuites fondé en 1604 par Henri IV. Napoléon en a fait une école militaire, et c'est toujours un lycée militaire d'État, classé monument historique. Il est en activité : l'accès intérieur est limité et dépend des journées d'ouverture, à vérifier auprès de l'office de tourisme."
+      },
+      {
+        heading: "2. Descartes, un élève du collège",
+        body: "Le philosophe René Descartes est cité parmi les élèves du collège jésuite. Le fait est connu mais ne se visite pas : la ville en fait un repère historique, pas une attraction."
+      },
+      {
+        heading: "3. Le château des Carmes",
+        body: "Le château des Carmes a des origines médiévales et a résisté à des sièges pendant la guerre de Cent Ans. Remanié au XVIIe siècle, à la Révolution et après un incendie au XXe, il abrite l'hôtel de ville et accueille des expositions temporaires."
+      },
+      {
+        heading: "4. La chapelle Notre-Dame-des-Vertus",
+        body: "La chapelle est inscrite aux monuments historiques depuis 1934 et possède un porche roman du XIe siècle. Elle appartient à une association : l'ouverture dépend des bénévoles."
+      },
+      {
+        heading: "5. Le zoo de La Flèche",
+        body: "Fondé en 1946, le zoo compte parmi les cinq plus grands de France, avec environ 160 espèces selon une des sources consultées. Il est connu du grand public par la série documentaire « Une saison au zoo ». Le chiffre varie d'une source à l'autre, et le guide ne le fige pas."
+      },
+      {
+        heading: "6. Les bords du Loir",
+        body: "Le Loir traverse la ville et ses berges se prêtent à la promenade. La rivière n'est pas surveillée pour la baignade : se renseigner avant d'y entrer."
+      },
+      {
+        heading: "7. Le centre-ville",
+        body: "Le centre se parcourt à pied en une demi-heure. Il est tranquille et sert surtout de point de départ aux autres visites."
+      },
+      {
+        heading: "8. La vallée du Loir autour",
+        body: "La Flèche est une base pour la vallée du Loir, avec des villages et des vignes. Ces sites relèvent de communes voisines et se rejoignent en voiture."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "Le zoo se visite surtout aux beaux jours, avec des horaires étendus l'été. L'hiver, la vie est plus réduite."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "La Flèche se rejoint depuis Le Mans et Angers par la route, train à vérifier. Une demi-journée suffit pour le centre, une journée complète avec le zoo."
+      }
+    ],
+    relatedCities: ["la-fleche","le-mans","angers"],
+    relatedGuides: [
+      "10-choses-a-faire-a-le-mans-2026",
+      "10-choses-a-faire-a-angers-2026"
+    ],
+    tags: ["10 choses à faire à La Flèche","activités La Flèche 2026","que faire dans la Sarthe","sorties Pays de la Loire Prytanée","La Flèche zoo Loir"]
+  },
+  {
+    slug: "10-choses-a-faire-a-villefranche-de-rouergue-2026",
+    title: "10 choses à faire à Villefranche-de-Rouergue",
+    metaTitle: "10 choses à faire à Villefranche-de-Rouergue",
+    metaDesc:
+      "Bastide de 1252, place Notre-Dame, collégiale et chartreuse Saint-Sauveur : 10 choses à faire à Villefranche-de-Rouergue.",
+    category: "tourisme",
+    emoji: "🏘️",
+    readMinutes: 5,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Villefranche-de-Rouergue comptait 11 502 habitants au recensement de 2022, contre 11 742 en 2011. La ville est une bastide fondée en 1252 par Alphonse de Poitiers, frère de Saint Louis. Elle a gardé son plan en damier, une place à arcades et une chartreuse du XVe siècle. Ce guide dit ce qu'on y voit et ce qui relève des villages voisins.",
+    sections: [
+      {
+        heading: "1. La place Notre-Dame",
+        body: "Le cœur de la bastide est la place Notre-Dame, bordée d'arcades et de maisons à pans de bois. C'est le point de départ de la visite ; les jours de marché se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "2. La collégiale Notre-Dame",
+        body: "L'église a été achevée à la fin du XVe siècle, après plus de trois cents ans de chantier. Son porche-clocher est remarquable. La tour compte 163 marches, selon l'office de tourisme : la montée dépend de l'ouverture."
+      },
+      {
+        heading: "3. La chartreuse Saint-Sauveur",
+        body: "La chartreuse date du XVe siècle, avec un chantier ouvert en 1452 selon une source. Son cloître est présenté comme l'un des plus grands de France. Les sources divergent sur le superlatif, et le guide s'en tient à « parmi les plus grands »."
+      },
+      {
+        heading: "4. La chapelle des Pénitents noirs",
+        body: "Cette chapelle baroque est un repère de la ville. Elle ne s'ouvre pas toujours : vérifier la visite guidée."
+      },
+      {
+        heading: "5. Le plan en damier d'une bastide",
+        body: "Une bastide est une ville neuve du Moyen Âge, tracée d'un seul coup, avec une place centrale. Villefranche en est un exemple net, et il suffit de marcher dans les rues parallèles pour le sentir."
+      },
+      {
+        heading: "6. L'Aveyron et les ponts",
+        body: "La rivière Aveyron borde la ville. Les berges se parcourent à pied, et la rivière est à surveiller en cas de crue."
+      },
+      {
+        heading: "7. Najac et les bastides voisines, accessibles depuis Villefranche",
+        body: "Najac et d'autres bastides du Pays des Bastides du Rouergue sont des communes à part, chacune avec son château ou son église. Villefranche sert de base, sans y trouver ces sites."
+      },
+      {
+        heading: "8. La gastronomie locale",
+        body: "L'Aveyron a une cuisine de terroir, avec des produits de montagne et de plaine. Le guide ne classe aucune table : demander les plats du jour aux locaux."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "Le printemps et l'automne sont agréables. L'été est chaud, et certaines visites se font en saison."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Villefranche se rejoint par la route depuis Rodez, Albi et Cahors, train à vérifier. Une demi-journée suffit pour la place et la collégiale, une journée avec la chartreuse."
+      }
+    ],
+    relatedCities: ["villefranche-de-rouergue","rodez","albi","cahors"],
+    relatedGuides: [
+      "10-choses-a-faire-a-rodez-2026",
+      "10-choses-a-faire-a-albi-2026",
+      "10-choses-a-faire-a-cahors-2026"
+    ],
+    tags: ["10 choses à faire à Villefranche-de-Rouergue","activités Villefranche-de-Rouergue 2026","que faire en Aveyron","sorties Occitanie bastide","Villefranche-de-Rouergue chartreuse collégiale"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

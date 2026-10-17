@@ -9815,6 +9815,36 @@
       "slug": "rendement-locatif-brut-villes-pas-cheres-piege-2026",
       "title": "Rendement locatif brut : pourquoi le haut du classement est un piège",
       "emoji": "📉"
+    },
+    {
+      "slug": "10-choses-a-faire-a-longwy-2026",
+      "title": "10 choses à faire à Longwy",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-thiers-2026",
+      "title": "10 choses à faire à Thiers",
+      "emoji": "🔪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-gien-2026",
+      "title": "10 choses à faire à Gien",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vallauris-2026",
+      "title": "10 choses à faire à Vallauris",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-la-fleche-2026",
+      "title": "10 choses à faire à La Flèche",
+      "emoji": "🎖️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-villefranche-de-rouergue-2026",
+      "title": "10 choses à faire à Villefranche-de-Rouergue",
+      "emoji": "🏘️"
     }
   ],
   "tags": [
@@ -11096,6 +11126,11 @@
     {
       "slug": "que-faire-dans-le-vaucluse",
       "label": "que faire dans le Vaucluse",
+      "count": 3
+    },
+    {
+      "slug": "que-faire-dans-les-alpes-maritimes",
+      "label": "que faire dans les Alpes-Maritimes",
       "count": 3
     },
     {
