@@ -41,3 +41,38 @@ d'hydratation en dev et fait apparaître le méga-menu caché — artefact du sc
 2. Bandeau cookies — liseré arc-en-ciel (CLAUDE.md), et tuile d'icône 🍪.
 3. Navbar — emojis devant chaque lien (🌍 📖 ⚖️ 🗳️ 🚩) et méga-menu ; CTA « Trouver ma ville » rose
    (`ScrollTo…`/barre flottante vue en capture desktop) encore dans l'ancien rose fuchsia.
+
+## 2026-10-17 ~03:00 UTC — `components/CityCard.tsx`
+
+**Surface** : la carte ville, composant le plus répandu du site (11 fichiers l'importent : hubs,
+classements, régions, départements, favoris… FR et EN via la prop `locale`).
+
+**Changé**
+- **Bande de score** : elle encodait bien le palier, mais en dégradé à trois arrêts qui mélangeait
+  deux paliers (`from-green-500 via-lime-400`, `from-lime-400 via-yellow-300 to-amber-300`) + un
+  voile `bg-aurora` : une carte « Excellent » se lisait à moitié « Bon ». Remplacée par la couleur
+  du palier **à plat** (`scoreHex`), 6 px. `gradientForScore` supprimé.
+- **Couverture sans photo** (rares villes sans image Commons) : ancien dégradé arc-en-ciel →
+  feuille de carte `.topo-bg` sur papier `--bg-canvas` avec le nom de la ville sur une **`.plaque`**
+  (nom de lieu, jamais le score — c'est la bande qui le porte). Non vu en capture (les villes
+  testées ont toutes une photo) ; plaque `truncate max-w-[85%]` dans `h-32`.
+- **Libellé de palier** : étoile jaune-ambre (ambre de palier détourné en décoration) → pastille
+  papier avec un point de la couleur du palier.
+- **Rang** : rond gris → étiquette carton à filet bleu plaque, « n°3 » (EN « #3 ») en mono. Pas de
+  `.plaque` : le rang dérive du score, et la plaque ne doit jamais encoder un score.
+- **Mini-grille d'axes** : jauges en dégradé à alpha sur piste blanche → couleur de palier pleine
+  sur piste `--border` ; tuiles papier à filet.
+- Effet `shine` (reflet glissant, gabarit SaaS) retiré.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur le
+fichier : 0 erreur (1 warning `no-img-element` préexistant). Captures `next dev` + Playwright sur
+`/classements/famille` à 1440 et 390 px, `scrollWidth` = viewport. Playwright est global :
+`/opt/node22/lib/node_modules/playwright/index.mjs`. ⚠️ Ne pas `pkill -f "next dev"` dans la même
+commande que le commit : le motif tue le shell lui-même. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Bandeau cookies — liseré arc-en-ciel en haut (vu en capture : orange→violet) et tuile 🍪.
+2. Navbar — emojis devant chaque lien et dans le méga-menu ; CTA flottant « Trouver ma ville » en
+   rose fuchsia (barre sous le méga-menu, desktop).
+3. Hero des pages `/classements/[slug]` — tuile d'icône en dégradé vert + emoji 🏆 du sur-titre, et
+   barres « Poids des critères » en vert émeraude (couleur de palier détournée).

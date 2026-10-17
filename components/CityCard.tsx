@@ -1,5 +1,5 @@
 import Link from "@/components/AppLink";
-import { MapPin, Star } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { cn, formatNumber, formatScore, scoreHex, scoreColor, scoreLabel } from "@/lib/utils";
 import type { City } from "@/lib/types";
@@ -14,15 +14,6 @@ interface CityCardProps {
   locale?: "fr" | "en";
 }
 
-function gradientForScore(score: number) {
-  if (score >= 7.5) return "from-purple-500 via-violet-400 to-purple-300";
-  if (score >= 7.0) return "from-green-500 via-lime-400 to-lime-300";
-  if (score >= 6.0) return "from-lime-400 via-yellow-300 to-amber-300";
-  if (score >= 5.0) return "from-amber-400 via-amber-300 to-yellow-200";
-  if (score >= 4.0) return "from-orange-500 via-orange-400 to-amber-300";
-  return "from-red-500 via-rose-400 to-orange-400";
-}
-
 const TIER_EN: Record<string, string> = {
   exceptionnel: "exceptional", excellent: "excellent", bon: "good",
   moyen: "average", "en dessous": "below average", mauvais: "poor",
@@ -30,7 +21,9 @@ const TIER_EN: Record<string, string> = {
 
 export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps) {
   const score = city.scores.global;
-  const cover = gradientForScore(score);
+  // One flat tier colour. The old stripe blended two tiers (green→lime,
+  // lime→amber), so a 7.0 card read as half "Bon".
+  const tierHex = scoreHex(score);
   const photo = cardPhoto(city.slug);
   const frTier = scoreLabel(score);
   const tier = locale === "en" ? TIER_EN[frTier] ?? frTier : frTier;
@@ -39,7 +32,7 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
   return (
     <div
       className={cn(
-        "group relative h-full overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--accent)]/40 hover:shadow-xl hover:shadow-[var(--accent)]/10 hover:-translate-y-0.5 cursor-pointer shine",
+        "group relative h-full overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--accent)]/40 hover:shadow-xl hover:shadow-[var(--accent)]/10 hover:-translate-y-0.5 cursor-pointer",
         className
       )}
     >
@@ -48,7 +41,7 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
         aria-label={`${city.name} — score ${formatScore(score)} ${L("sur", "out of")} 10 (${tier})`}
         className="absolute inset-0 z-[1]"
       />
-        {/* Photo cover — falls back to the score gradient so a city without a
+        {/* Photo cover — falls back to a topo sheet so a city without a
             Commons photo keeps the same card height in the grid. */}
         {photo ? (
           <div className="relative h-32 overflow-hidden">
@@ -69,23 +62,23 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
             </span>
           </div>
         ) : (
-          <div className={`relative h-32 bg-gradient-to-br ${cover}`}>
-            <div className="absolute inset-0 bg-aurora opacity-50" />
+          /* No photo: a survey-map sheet with the name on an enamel plaque —
+             a place name, never the score (the stripe below carries that). */
+          <div className="topo-bg relative flex h-32 items-center justify-center bg-[var(--bg-canvas)]">
+            <span className="plaque max-w-[85%] truncate text-sm">{city.name}</span>
           </div>
         )}
 
-        {/* Animated gradient cover stripe */}
-        <div className={`relative h-2 bg-gradient-to-r ${cover}`}>
-          <div className="absolute inset-0 bg-aurora opacity-50" />
-        </div>
+        {/* Score stripe — the tier colour, flat. */}
+        <div className="h-1.5" style={{ background: tierHex }} aria-hidden="true" />
 
         <div className="p-5">
           <div className="absolute top-2 right-2 z-[2] flex items-center gap-1.5">
             <FavoriteButton slug={city.slug} size={14} className="!px-2 !py-1.5" />
             {rank && (
-              <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[var(--bg-elevated)] border border-[var(--border)]">
-                <span className="text-xs font-bold font-mono-data text-[var(--text-secondary)]">
-                  {rank}
+              <div className="flex h-7 min-w-7 items-center justify-center rounded-md border border-[var(--accent)]/30 bg-[var(--bg-surface)] px-1.5 shadow-sm">
+                <span className="text-xs font-bold font-mono-data text-[var(--accent)]">
+                  <span className="text-[9px] font-semibold opacity-70">{L("n°", "#")}</span>{rank}
                 </span>
               </div>
             )}
@@ -111,12 +104,10 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
               <span className="sr-only"> {L("sur", "out of")} 10 — {tier}</span>
             </div>
             {/* No "{n} avis" — that count was synthesized from the score. */}
-            <div className="flex flex-col gap-0.5">
-              <div className="flex items-center gap-1">
-                <Star className="h-3 w-3 fill-yellow-400 text-amber-500" />
-                <span className="text-xs text-[var(--text-secondary)]">{tier}</span>
-              </div>
-            </div>
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] bg-[var(--bg-canvas)] px-2 py-0.5 text-xs text-[var(--text-secondary)]">
+              <span className="h-2 w-2 rounded-full" style={{ background: tierHex }} aria-hidden="true" />
+              {tier}
+            </span>
           </div>
 
           {/* Mini score grid */}
@@ -128,15 +119,15 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
             ].map(({ label, val }) => (
               <div
                 key={label}
-                className="rounded-lg bg-[var(--bg-elevated)] p-2 text-center group-hover:bg-[var(--accent-soft)] transition-colors"
+                className="rounded-lg border border-[var(--border)] bg-[var(--bg-canvas)] p-2 text-center group-hover:border-[var(--accent)]/25 transition-colors"
               >
                 <div className="text-xs font-mono-data font-semibold text-[var(--text-primary)]">
                   {formatScore(val)}
                 </div>
-                <div className="mt-1 h-1 rounded-full bg-white/70 overflow-hidden">
+                <div className="mt-1 h-1 rounded-full bg-[var(--border)] overflow-hidden">
                   <div
                     className="h-full rounded-full transition-all duration-700 ease-out"
-                    style={{ width: `${(val / 10) * 100}%`, background: `linear-gradient(90deg, ${scoreHex(val)}, ${scoreHex(val)}88)` }}
+                    style={{ width: `${(val / 10) * 100}%`, background: scoreHex(val) }}
                   />
                 </div>
                 <div className="text-[10px] text-[var(--text-secondary)] mt-1">{label}</div>
