@@ -45030,6 +45030,382 @@ export const EN_GUIDES: EnGuide[] = [
       "hauts-de-france",
     ],
   },
+  {
+    slug: "single-parent-holidays-obernai-2026",
+    title: "Single-parent holidays in Obernai: the best composite of the series, and the price of it",
+    metaTitle: "Single-Parent Holidays in Obernai 2026",
+    metaDesc:
+      "Obernai has the best composite of the 53 destinations (8.0/10), the top safety score and a regional train to Strasbourg. Three-room flat 1,040 €.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Obernai comes out at 8.0/10 on our single-parent composite, first of the fifty-three destinations in the series with no tie (source: our trip-fit index). The detail: safety 8.6/10, transport 6.4/10, cost of living 6.3/10 and quality of life 9.0/10 (source: our city profile). It is the best composite and the best safety score of the series, the two things this profile weights most. The price is the counterpart: 1,040 € for the reference three-room flat and 2,800 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €, and our engine rates it €€€. The commune counts 12,303 inhabitants at the 2022 census against 10,689 in 2011, a rise of 15.1 % (source: INSEE census). One methodological point up front: transport is not what carries Obernai. It is at 6.4/10, below the series median of 7.0. This guide says why the town stays workable without a car, and where you will still need one.",
+    sections: [
+      {
+        heading: "A station and a regional train to Strasbourg, no high-speed line",
+        body: "Obernai has a station on the line that links Strasbourg and Sélestat along the Vosges foothills. Comparison sites checked online before writing give thirty to forty minutes to Strasbourg, on a regional service whose exact number of daily trains varies from one source to the next: confirm it on SNCF Connect or the TER Grand Est site before building a day on it. There is no high-speed train to Obernai. From Paris you arrive in Strasbourg and take this regional train, which is why the transport axis sits under the median. For a lone adult with children the consequence is simple: the hard part is the Strasbourg change, once in each direction. The centre of Obernai is a compact oval that is done on foot, and the rampart walk is flat, so it works with a pushchair.",
+      },
+      {
+        heading: "Expensive for the series, reasonable for Alsace",
+        body: "On the cost-of-living axis a high score means affordable. Obernai comes out at 6.3/10 (source: our city profile), twenty-fourth of the fifty-three, tied with one other, against a series median of 6.2. The market is harsher than the axis: 1,040 € for the reference three-room flat, thirty-sixth from cheapest to dearest, and 2,800 € per square metre (source: our rent estimate). These are local residential benchmarks and not holiday prices. What they say is that the town sits in the price zone of the Strasbourg area, some twenty kilometres away, and not in that of an isolated mid-sized town such as Laon or Dole. The population has grown faster than that of many communes of the series: 10,689 in 2011, 12,303 in 2022 (source: INSEE census). The census counts residents, it does not say why they move in.",
+      },
+      {
+        heading: "Market square, well and belfry: scenery that works with a pushchair",
+        body: "Everything gathers on the place du Marché: the belfry, the town hall, the old corn hall. The six-bucket well, dated 1579, has three columns with Corinthian capitals and an octagonal canopy, and each of the three wheels carries two buckets: children look twice before they understand it. The Kapellturm, a sixty-metre tower, is all that remains of a chapel of the late thirteenth century demolished in 1873. The weekly Thursday market is mentioned as early as 1301: on a Thursday you see a working town, on a Tuesday a set. The rampart circuit takes under an hour, on the flat. Two outings belong to other communes and need a car: Mont Sainte-Odile, at Ottrott, and the Haut-Koenigsbourg castle, at Orschwiller. Without a vehicle, count them outside the programme or buy an organised excursion. A large brewery stands in the commune, but it is an industrial site in operation and not a visit for children.",
+      },
+      {
+        heading: "Three playgrounds, and a pedestrian centre",
+        body: "The mapping survey records 3 green spaces in the commune, all 3 with a playground: the Hell municipal park, the parc des Roselières and the Selhof garden (source: OpenStreetMap). The figure is modest, but the town is small and its centre is done on foot. The survey is contributory, not a register, so an unmapped park is missing. The other asset is the Léonardsau, an eight-hectare landscaped estate away from the centre, a calm counterpoint to a market square that is packed in August.",
+      },
+      {
+        heading: "Safety 8.6/10: the best of the series, with its limits",
+        body: "Obernai shows 8.6/10 on the safety axis (source: our city profile), first of the fifty-three with no tie, against a series median of 5.7. It is the axis this profile weights most heavily. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. A high score does not remove the reflexes of any stay: at a Christmas market or on an August weekend, the crowd is the issue, not crime.",
+      },
+      {
+        heading: "When to go, and how to fund it",
+        body: "The reference weather station is Strasbourg-Entzheim, 15 kilometres away (source: Météo-France 1991-2020 normals), a short link. It gives 2.5 °C in January and 20.6 °C in July. Our crowding indicator gives 2 out of 5 from October to May, 3 in June and September, 4 in July and August (source: our seasons calendar). The engine puts June first, then September, then August. The Christmas market goes beyond this calendar: what our indicator does not measure is December attendance in a town of this size. April, May, September and October give the same town without the queue, and the grape harvest falls in autumn. One day is enough for the square, the well and the ramparts, two with the Léonardsau. On funding, four routes and no amounts, because the scales are revised and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so check before booking. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. The Bas-Rhin CAF runs holiday grants through caf.fr, months ahead, and an employer's works council often negotiates ticketing. One remark specific to this destination: the dominant line is not accommodation but the journey to Strasbourg and then to Obernai, and the best-rated town of the series is also one of the dearest. SNCF youth and family fares are worth more here than any housing aid. All these schemes follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["obernai","selestat","saverne","strasbourg"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "obernai with kids",
+      "alsace",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-laon-2026",
+    title: "Single-parent holidays in Laon: the cheapest square metre in the series, and a funicular that closed in 2016",
+    metaTitle: "Single-Parent Holidays in Laon 2026",
+    metaDesc:
+      "Laon shares the lowest price per square metre of the series (1,400 €) and has a direct train to Paris. But the funicular closed in 2016.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Laon comes out at 7.0/10 on our single-parent composite, seventh of the fifty-three destinations, tied with one other (source: our trip-fit index). The detail: safety 6.5/10, transport 6.4/10, cost of living 8.3/10 and quality of life 6.2/10 (source: our city profile). The cost axis puts it first of the series, level with Saint-Quentin: 740 € for the reference three-room flat, sixth from cheapest to dearest, and 1,400 € per square metre, the lowest value of the series and exactly level with Lourdes (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 24,066 inhabitants at the 2022 census against 25,745 in 2011, a fall of 6.5 % (source: INSEE census). A fact to state before anything else: the automatic funicular that linked the station to the upper town stopped running at the end of August 2016, and it is the first thing a lone parent with luggage must know.",
+    sections: [
+      {
+        heading: "A direct regional train to Paris, and a station at the foot of the hill",
+        body: "Comparison sites checked online before writing give direct regional trains between Paris-Nord and Laon, taking roughly an hour and a half to an hour thirty-five via Soissons and Villers-Cotterêts, with most daily services direct. The exact number varies from one source to another and should be checked on SNCF Connect. Itineraries with a change, notably via Reims, are clearly longer. The station is north of the town, at the foot of the upper town, and that is where the issue lies: the medieval city sits on a limestone spur. The Poma, the automated shuttle that took a few minutes to climb from the station to the town hall, was stopped on 27 August 2016 and replaced by a midibus shuttle. Its current route and timetable could not be verified: ask the local transport operator before leaving with a pushchair. It is the only destination of this batch where the climb is the logistics question.",
+      },
+      {
+        heading: "The lowest price per square metre of the series, level with Lourdes",
+        body: "On the cost-of-living axis a high score means affordable. Laon comes out at 8.3/10 (source: our city profile), first of the fifty-three, level with Saint-Quentin, against a series median of 6.2. The market follows: 740 € for the reference three-room flat and 1,400 € per square metre, the lowest value of the series and exactly level with Lourdes (source: our rent estimate). Our engine rates it €, the cheapest band. A tie is not a ranking: Laon and Lourdes share the floor and neither precedes the other. These are local market benchmarks and not holiday prices. What carries over is the general price level of a prefecture of 24,000 people without mass-tourism pressure.",
+      },
+      {
+        heading: "An early Gothic cathedral, and what to check first",
+        body: "Laon is the prefecture of the Aisne and has kept a medieval ensemble: Notre-Dame cathedral, one of the great cathedrals of early Gothic, whose towers are decorated with sculpted oxen, and a rampart walk with a view over the plain. The upper town is done on foot, and it is a flat walk once on the spur. For children the story of the oxen is a better way in than any date. The Chemin des Dames, a place of memory of 1917, is about twenty kilometres away and belongs to other communes: it is an outing in its own right, by car or on an excursion, and not a plan for a morning with young children. Hours and access should be checked with the tourist office.",
+      },
+      {
+        heading: "Ten green spaces, three with a playground",
+        body: "The mapping survey records 10 green spaces in the commune, 3 of them with a playground (source: OpenStreetMap), among them the square des Docteurs Émile et Marcel Macon. It is an average mesh for a prefecture of this size, and it does not make up for the climb to the upper town. The survey is contributory, not a register, so the figure is a floor. What the town offers a lone parent is not in this table: it is calm. Our crowding indicator gives 1 out of 5 for five months and never more than 3, in July and August.",
+      },
+      {
+        heading: "Safety 6.5/10: above the median, far from the top",
+        body: "Laon shows 6.5/10 on the safety axis (source: our city profile), thirteenth of the fifty-three, tied with two others, against a series median of 5.7. It is the axis this profile weights most heavily. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. The demographic trend points the same way as the price: 25,745 inhabitants in 2011, 24,066 in 2022, a fall of 6.5 % (source: INSEE census). In practice, evening and Sunday opening should be checked before you count on it.",
+      },
+      {
+        heading: "When to go, and how to fund it",
+        body: "The reference weather station is Reims-Chambrecy, 45 kilometres away (source: Météo-France 1991-2020 normals), a consistent link: same plain, no marked relief between the two. It gives 3.4 °C in January and 18.7 °C in July. The commune's own anchors come from the seed: 3.5 °C in January, 21.5 °C in July and 1,750 hours of sunshine a year (source: our city profile). Our crowding indicator gives 1 out of 5 from January to May and from October to December, 2 in June and September, 3 in July and August (source: our seasons calendar). The engine puts July first, then August, then June. Two days are enough for the cathedral, the ramparts and a detour to the Chemin des Dames. On funding, four routes and no amounts, because the scales are revised and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so check before booking. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. The Aisne CAF runs holiday grants through caf.fr, months ahead, and an employer's works council often negotiates ticketing. One remark specific to this destination: in the town that shares the lowest price per square metre of the series, the dominant line is the journey, not the bed. SNCF family fares and checking the upper-town shuttle are worth more here than any housing aid. All these schemes follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["laon","soissons","saint-quentin","reims"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "laon with kids",
+      "aisne",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-dole-2026",
+    title: "Single-parent holidays in Dole: Pasteur's birthplace, a canal and a balanced profile",
+    metaTitle: "Single-Parent Holidays in Dole 2026",
+    metaDesc:
+      "Dole: three-room flat 780 €, safety 7.0/10, a town-centre station with a direct TGV to Paris. A canal, Pasteur's house and flat riverbanks.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Dole comes out at 6.9/10 on our single-parent composite, ninth of the fifty-three destinations, tied with three others (source: our trip-fit index). The detail: safety 7.0/10, transport 6.4/10, cost of living 7.6/10 and quality of life 6.8/10 (source: our city profile). It is a destination of balance: no axis is a record and none is a hole. Cost is the best card: 780 € for the reference three-room flat, eighth from cheapest to dearest, tied with two others, and 1,800 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 23,784 inhabitants at the 2022 census against 24,009 in 2011, a fall of 0.9 % (source: INSEE census), which is stability more than decline. It was the capital of Franche-Comté until 1678, which explains the scale of its monuments. This is Dole in the Jura, not any of the other places of that name.",
+    sections: [
+      {
+        heading: "A town-centre station, a direct TGV, a regional train to Dijon",
+        body: "Dole is on the Dijon to Besançon line and its station is in the town centre: the old town is reached on foot from the train. Comparison sites checked online before writing give a TGV from Dole to Paris-Gare de Lyon in about two hours ten, with a limited number of services a day, and a regional train to Dijon in about thirty minutes. Times and the number of direct trains vary between sources and should be checked on SNCF Connect. The transport axis is 6.4/10, below the series median of 7.0: it describes a correct regional service, not an urban network. For a lone adult the point is that most of the programme works without a car.",
+      },
+      {
+        heading: "Cost: eighth cheapest of the series",
+        body: "On the cost-of-living axis a high score means affordable. Dole comes out at 7.6/10 (source: our city profile), fourth of the fifty-three, tied with two others, against a series median of 6.2. The market follows: 780 € for the reference three-room flat and 1,800 € per square metre (source: our rent estimate). Our engine rates it €€, the second-cheapest band (source: our trip-fit index). These are local market benchmarks and not holiday prices. What carries over is the general price level of a town of 24,000 people without mass-tourism pressure.",
+      },
+      {
+        heading: "The Tanneurs canal and Pasteur's house",
+        body: "Louis Pasteur was born in Dole on 27 December 1822, in a tanner's house on the canal des Tanneurs. The house became a museum in 1923 and can be visited: check hours and displays first. The canal crosses the lower old town and earns it the nickname of little Venice, with houses standing in the water, wash-houses and footbridges. The walk takes twenty minutes, a format that suits young children. The bell tower of the Notre-Dame collegiate church, seventy-three metres high, dominates the town: it was rebuilt nine metres lower than its original height after the siege of 1636 and a storm. The climb from the lower town to the upper town goes by narrow streets and steps: bring a sling rather than a pushchair.",
+      },
+      {
+        heading: "Four playgrounds, and flat riverbanks",
+        body: "The mapping survey records 12 green spaces in the commune, 4 of them with a playground (source: OpenStreetMap): the espace Carrel, the cours Saint-Mauris, the jardin Philippe and Les Bains, plus the Sauline animal park. The survey is contributory, not a register, so an unmapped facility is missing. The other asset is that Dole stands on the Doubs, doubled by the Rhône–Rhine canal: the banks and towpaths offer kilometres of flat, which is rare in a region that climbs fast. The Chaux forest, to the east, belongs to neighbouring communes including La Vieille-Loye: you reach it from Dole, you are not in it, and you need a vehicle.",
+      },
+      {
+        heading: "Safety 7.0/10: in the upper part of the series",
+        body: "Dole shows 7.0/10 on the safety axis (source: our city profile), ninth of the fifty-three, against a series median of 5.7. It is the axis this profile weights most heavily. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Demographic stability (24,009 inhabitants in 2011, 23,784 in 2022) points to a town where evening services hold up, but check before relying on it.",
+      },
+      {
+        heading: "When to go, and how to fund it",
+        body: "The reference weather station is Dijon-Longvic, 36 kilometres away (source: Météo-France 1991-2020 normals), a consistent link. It gives 2.7 °C in January and 20.8 °C in July. The commune's own anchors come from the seed: 2 °C in January, 22 °C in July and 1,800 hours of sunshine a year (source: our city profile). Our crowding indicator gives 1 out of 5 from January to May and from October to December, 2 in June and September, 3 in July and August (source: our seasons calendar), one of the calmest destinations of this batch. The engine puts June first, then August, then July. One day is enough for Pasteur's house, the collegiate church and the old town, a second for the banks. On funding, four routes and no amounts, because the scales are revised and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so check before booking. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. The Jura CAF runs holiday grants through caf.fr, months ahead, and an employer's works council often negotiates ticketing. One remark specific to this destination: with a three-room flat at 780 €, the dominant line is not accommodation but the journey from Paris, and booking a TGV early is worth more here than any housing aid. All these schemes follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["dole","dijon","besancon"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "dole with kids",
+      "jura",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-hendaye-2026",
+    title: "Single-parent holidays in Hendaye: three kilometres of beach, and Spain by local train",
+    metaTitle: "Single-Parent Holidays in Hendaye 2026",
+    metaDesc:
+      "Hendaye: direct TGV from Paris, three kilometres of beach, safety 7.5/10 and Spain by train. But a three-room flat costs 1,130 €.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Hendaye comes out at 6.8/10 on our single-parent composite, thirteenth of the fifty-three destinations, tied with three others (source: our trip-fit index). The detail: safety 7.5/10, transport 6.4/10, cost of living 5.3/10 and quality of life 7.8/10 (source: our city profile). It is a seaside destination, hence a dear one: 1,130 € for the reference three-room flat, forty-second from cheapest to dearest, and 3,700 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 18,074 inhabitants at the 2022 census against 15,976 in 2011, a rise of 13.1 % (source: INSEE census). It is the only destination of this batch that offers a three-kilometre beach, a direct TGV from Paris and a border to cross on foot or by train. For anglophone readers: this is the French end of the Basque coast, on the Spanish border.",
+    sections: [
+      {
+        heading: "A direct TGV, and a border crossing by local train",
+        body: "Comparison sites checked online before writing give a direct TGV from Paris-Montparnasse to Hendaye in about four hours forty, with a few departures a day. Hendaye is the French terminus: the station is steps from that of the Spanish Basque network Euskotren, whose trains run roughly every thirty minutes to Donostia-San Sebastián in about forty minutes. The ticket is not integrated: buy the French leg and the Spanish leg separately, and leave margin for the connection. The border is an internal Schengen crossing, with no systematic check, but identity documents remain compulsory for every person, children included: a lone parent who forgets one child's card will not get to San Sebastián. Non-EU visitors should check their own visa position before relying on the crossing.",
+      },
+      {
+        heading: "Cost: you pay for the beach",
+        body: "On the cost-of-living axis a high score means affordable. Hendaye comes out at 5.3/10 (source: our city profile), forty-second of the fifty-three, tied with two others, against a series median of 6.2. The market confirms it: 1,130 € for the reference three-room flat and 3,700 € per square metre, thirty-ninth from cheapest to dearest (source: our rent estimate). Our engine rates it €€€. These are residential benchmarks and not holiday prices, but the meaning is clear. The gap with the northern and eastern destinations of the series (Laon, Cambrai, Châtellerault) is 400 to 500 € on the three-room flat.",
+      },
+      {
+        heading: "Three kilometres of sand and the Abbadia estate",
+        body: "Hendaye's beach is described by guides as the longest of the Basque coast, with about three kilometres of fine sand, supervised in summer and sheltered from the strongest currents by the bay, which makes it suited to families and to learning water sports. Seasonal supervision must be checked on the spot: the swimming flags are authoritative, and bathing outside a supervised zone is the adult's responsibility. The Abbadia estate, a park of some sixty hectares around a neo-Gothic nineteenth-century château built on the initiative of Antoine d'Abbadie, is the coastal walk: the coastal path runs through it, with cliffs, so keep young children away from the edges.",
+      },
+      {
+        heading: "Two playgrounds, because the beach is the playground",
+        body: "The mapping survey records 7 green spaces in the commune, 2 of them with a playground: the rond-point de Flore and the parc d'Irandatz (source: OpenStreetMap). The survey is contributory, not a register, so an unmapped facility is missing. In Hendaye the playground is the beach, which makes the figure less decisive than elsewhere in the series. Our crowding indicator gives 2 out of 5 from October to May, 3 in June and September, 4 in July and August (source: our seasons calendar): summer is when the beach and the border are busiest.",
+      },
+      {
+        heading: "Safety 7.5/10, and quality of life 7.8/10",
+        body: "Hendaye shows 7.5/10 on the safety axis (source: our city profile), fourth of the fifty-three, tied with two others, against a series median of 5.7. It is the axis this profile weights most heavily. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life, at 7.8/10, is fifth of the series, tied with three others: those two axes carry the composite despite the price.",
+      },
+      {
+        heading: "When to go, a weather station 185 km away, and how to fund it",
+        body: "A gap should be stated rather than filled: the nearest weather station in our dataset is Bordeaux-Mérignac, 185 kilometres away (source: Météo-France 1991-2020 normals), too distant a link for an oceanic Pyrenean-foothill climate. It gives 7.1 °C in January and 21.7 °C in July, whereas the commune's own anchors give 10.5 °C in January, 22.5 °C in July and 2,000 hours of sunshine a year (source: our city profile). The 3.4 °C gap in January says by itself that the station does not describe Hendaye: keep the commune's anchors. The engine puts September first, then June, then May. Three days are enough for the beach, the Abbadia estate and a day in San Sebastián. On funding, four routes and no amounts, because the scales are revised and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so check before booking. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. The Pyrénées-Atlantiques CAF runs holiday grants through caf.fr, months ahead, and an employer's works council often negotiates ticketing. One remark specific to this destination: the budget trap is the season, not the town. In July and August the cost axis is the one that moves, so a September stay changes the bill more than any aid. All these schemes follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["hendaye","anglet","bayonne","biarritz"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "hendaye with kids",
+      "basque country",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-albertville-2026",
+    title: "Single-parent holidays in Albertville: 1992 Olympic host, and a season that sets the price",
+    metaTitle: "Single-Parent Holidays in Albertville 2026",
+    metaDesc:
+      "Albertville: safety 8.0/10 (second of the series), direct TGV from Paris, a medieval quarter at Conflans. Weather station 90 km away, winter is 5 out of 5.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Albertville comes out at 7.1/10 on our single-parent composite, fifth of the fifty-three destinations, tied with one other (source: our trip-fit index). The detail: safety 8.0/10, transport 6.4/10, cost of living 6.3/10 and quality of life 6.8/10 (source: our city profile). Safety is the strong card: second of the series, tied with one other, and the axis this profile weights most. The market is in the upper-middle of the series: 1,000 € for the reference three-room flat, thirty-second from cheapest to dearest, tied with two others, and 2,800 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 19,706 inhabitants at the 2022 census against 18,832 in 2011, a rise of 4.6 % (source: INSEE census). A point to state first: in Albertville the mountain calendar sets the prices, and winter is the high season. It hosted the 1992 Winter Olympics, which is how most anglophone readers know the name.",
+    sections: [
+      {
+        heading: "A direct TGV, and a town centre on foot",
+        body: "Comparison sites checked online before writing give direct TGVs from Paris to Albertville in roughly three hours fifty to four and a half hours, and itineraries with a regional change at Chambéry of comparable length. Figures differ between sources, including the number of daily direct trains, and should be checked on SNCF Connect. The transport axis is 6.4/10, below the series median of 7.0: it describes a correct regional service, not an urban network. For a lone adult the first-day logistics are the same as elsewhere: luggage, children, one change at worst. The centre is done on foot, but the Arly valley and the resorts are bus or car outings.",
+      },
+      {
+        heading: "Cost: the season beats the town",
+        body: "On the cost-of-living axis a high score means affordable. Albertville comes out at 6.3/10 (source: our city profile), twenty-fourth of the fifty-three, tied with one other, against a series median of 6.2. The market is harsher than the axis: 1,000 € for the reference three-room flat and 2,800 € per square metre, thirty-third from cheapest to dearest, tied with one other (source: our rent estimate). Our engine rates it €€€. These are residential benchmarks and not holiday prices, and they say nothing about the price of accommodation in February: in the mountains the period outweighs the town.",
+      },
+      {
+        heading: "Conflans, the Maison Rouge and the Olympic museum",
+        body: "Conflans is the medieval town, now a quarter of Albertville, with cobbled streets, workshops and terraces; the place de la Grande Roche overlooks the confluence of the Arly and the Isère. The Maison Rouge, a listed fourteenth-century monument, has housed the museum of art and history since 1936. The Maison des Jeux olympiques offers a route devoted to the 1992 Winter Games, for which Albertville was the host town. Hours of these sites should be checked with the tourist office. The climb to Conflans is steep: with a pushchair, plan the route rather than the shortcut.",
+      },
+      {
+        heading: "Two playgrounds, and the mountain as a garden",
+        body: "The mapping survey records 7 green spaces in the commune, 2 of them with a playground: the parc du Val des Roses and the square d'Indochine (source: OpenStreetMap). The survey is contributory, not a register, so an unmapped facility is missing. In Albertville children are outdoors thanks to the surrounding mountains more than to the urban parks. Mountain caution applies: changeable weather, hiking conditions to check the day before, and no outing at altitude with young children without consulting the local forecast.",
+      },
+      {
+        heading: "Safety 8.0/10: second of the series",
+        body: "Albertville shows 8.0/10 on the safety axis (source: our city profile), second of the fifty-three, tied with one other, against a series median of 5.7. It is the axis this profile weights most heavily. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. This high score is what lifts the town to fifth place on the composite despite transport below the median.",
+      },
+      {
+        heading: "When to go, a weather station 90 km away, and how to fund it",
+        body: "A gap should be stated rather than filled: the reference weather station is Grenoble-Saint-Geoirs, 90 kilometres away (source: Météo-France 1991-2020 normals), in another massif and at another altitude. It gives 2.8 °C in January and 20.6 °C in July. The commune's own anchors come from the seed: 1.5 °C in January, 23.5 °C in July and 1,900 hours of sunshine a year (source: our city profile). Our crowding indicator is the most contrasted of the batch: 5 out of 5 in January, February, July, August and December, 4 in June and September, 3 in March, April, May, October and November (source: our seasons calendar). The engine puts August first, then June, then July. For a lone parent after calm and a tight budget, May and October are the hollow windows, at the risk of everything being closed. On funding, four routes and no amounts, because the scales are revised and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so check before booking. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. The Savoie CAF runs holiday grants through caf.fr, months ahead, and an employer's works council often negotiates ticketing. One remark specific to this destination: the lever is the calendar. Moving the same stay out of school-holiday weeks changes the bill far more than any aid, and school-holiday dates are set by zone on the education ministry's calendar. All these schemes follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["albertville","grenoble","annemasse"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "albertville with kids",
+      "savoie",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-montargis-2026",
+    title: "Single-parent holidays in Montargis: the Venice of the Gâtinais, an hour from Paris-Bercy",
+    metaTitle: "Single-Parent Holidays in Montargis 2026",
+    metaDesc:
+      "Montargis: three-room flat 790 €, cost of living 8.0/10 (third of the series), a direct train to Paris-Bercy in about an hour. Canals and pralines.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Montargis comes out at 6.7/10 on our single-parent composite, seventeenth of the fifty-three destinations, tied with one other (source: our trip-fit index). The detail: safety 6.5/10, transport 6.4/10, cost of living 8.0/10 and quality of life 5.9/10 (source: our city profile). The cost axis puts it third of the series with no tie: 790 € for the reference three-room flat, eleventh from cheapest to dearest, and 1,600 € per square metre, seventh, tied with one other (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 14,819 inhabitants at the 2022 census against 14,616 in 2011 (source: INSEE census), with a trough at 14,222 in 2016: stability. It is nicknamed the Venice of the Gâtinais because the Briare canal, the Loing and linking canals cross its centre under a multitude of bridges. Do not confuse it with other towns of similar name: this is Montargis in the Loiret.",
+    sections: [
+      {
+        heading: "A direct regional train to Paris-Bercy",
+        body: "Comparison sites checked online before writing give direct regional trains from Paris-Bercy to Montargis in about an hour, with a few services a day whose exact number varies by source. The detail that catches people: the Paris station is Bercy Bourgogne-Pays d'Auvergne and not the Gare de Lyon, a few hundred metres away but on another metro line. Times should be checked on the TER Centre-Val de Loire site or on SNCF Connect. The transport axis is 6.4/10, below the series median of 7.0. An hour by train with no change is the best duration-to-simplicity ratio of this batch for a lone adult with children.",
+      },
+      {
+        heading: "Cost: third of the series",
+        body: "On the cost-of-living axis a high score means affordable. Montargis comes out at 8.0/10 (source: our city profile), third of the fifty-three with no tie, behind Laon and Saint-Quentin at 8.3, against a series median of 6.2. The market follows: 790 € for the reference three-room flat and 1,600 € per square metre (source: our rent estimate). Our engine rates it €, the cheapest band (source: our trip-fit index). These are local market benchmarks and not holiday prices. What carries over is the general price level of a sub-prefecture of 15,000 people without tourism pressure.",
+      },
+      {
+        heading: "Canals, bridges and the praline",
+        body: "The nickname comes from the Briare canal and the Loing circling the old town, the Puiseaux canal and several linking canals crossing it, and bridges following one another. Do not look for Venice: it is a small water town walked along the quays, on the flat. The tourist office offers a circuit of the bridges, one to two hours. A figure of 131 bridges and footbridges circulates, with no way to cross-check it, and this guide does not repeat it. The praline, an almond coated in caramelised sugar, is attributed by tradition to Clément Jaluzot, cook to the duc de Praslin: a Maison de la Prasline lets you see the confectioners, and it is the stop that hooks children. The crottes du Chien, a hazelnut praline in a nougatine shell coated in dark chocolate, are the other speciality. The Briare canal, which links the Loire and Seine basins, is the reason a town of this size has so much water.",
+      },
+      {
+        heading: "Three green spaces, and the quays as a linear park",
+        body: "The mapping survey records 3 green spaces in the commune, 2 of them with a playground: the parc Durzy and the place du 18 Juin 1940 (source: OpenStreetMap). It is the lowest figure of the batch together with Obernai and Lourdes, and should be read with caution: the survey is contributory, not a register, so it is a floor. The canal quays, where you watch pleasure boats pass in season, are the equivalent of a linear park. Traffic rules on the banks are posted on the spot.",
+      },
+      {
+        heading: "Safety 6.5/10, and quality of life 5.9/10",
+        body: "Montargis shows 6.5/10 on the safety axis (source: our city profile), thirteenth of the fifty-three, tied with two others, against a series median of 5.7. It is the axis this profile weights most heavily. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life, at 5.9/10, is below the series median: it is the axis that holds the composite back, and it describes a limited leisure offer at the scale of a small town.",
+      },
+      {
+        heading: "When to go, a weather station 96 km away, and how to fund it",
+        body: "The reference weather station is Paris-Montsouris, 96 kilometres away (source: Météo-France 1991-2020 normals), a link that describes a Gâtinais town badly: it gives 5.4 °C in January and 20.9 °C in July. The commune's own anchors come from the seed: 4 °C in January, 22.5 °C in July and 1,900 hours of sunshine a year (source: our city profile). Our crowding indicator gives 1 out of 5 from January to May and from October to December, 2 in June and September, 3 in July and August (source: our seasons calendar). The engine puts June first, then July, then August. Half a day is enough for the bridge circuit and a tasting, a day with the Girodet museum, whose hours and displays should be checked. On funding, four routes and no amounts, because the scales are revised and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so check before booking. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. The Loiret CAF runs holiday grants through caf.fr, months ahead, and an employer's works council often negotiates ticketing. One remark specific to this destination: at 790 € for a three-room flat the cost of a stay is dominated by the train, so booking early and using family fares matters more than any aid. All these schemes follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["montargis","vendome","orleans"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "montargis with kids",
+      "loiret",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-lourdes-2026",
+    title: "Single-parent holidays in Lourdes: the cheapest square metre in the series, set to the sanctuary's calendar",
+    metaTitle: "Single-Parent Holidays in Lourdes 2026",
+    metaDesc:
+      "Lourdes shares the lowest price per square metre of the series (1,400 €), safety 7.5/10 and a direct TGV from Paris. A stay set to the sanctuary calendar.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Lourdes comes out at 6.9/10 on our single-parent composite, ninth of the fifty-three destinations, tied with three others (source: our trip-fit index). The detail: safety 7.5/10, transport 6.4/10, cost of living 7.6/10 and quality of life 5.9/10 (source: our city profile). The market is among the cheapest of the series: 720 € for the reference three-room flat, fourth from cheapest to dearest, tied with one other, and 1,400 € per square metre, the lowest value of the series and exactly level with Laon (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 13,266 inhabitants at the 2022 census against 14,282 in 2011, a fall of 7.1 % (source: INSEE census). A framing before the rest: Lourdes is a pilgrimage town, a place of worship in daily use, and a stay is organised around the sanctuary's calendar rather than a beach season.",
+    sections: [
+      {
+        heading: "A direct TGV, and why a change doubles the effort",
+        body: "Comparison sites checked online before writing give direct TGVs from Paris-Montparnasse to Lourdes in about four hours forty to five hours, and other services with a change stretch the trip to six hours. The number of daily direct trains differs between sources, from one or two to several, and should be checked on SNCF Connect. For a lone adult with children, a five-hour journey without a change is the condition of feasibility: a change doubles the fatigue. The transport axis is 6.4/10, below the series median of 7.0.",
+      },
+      {
+        heading: "Cost: the floor of the series, but rooms follow the pilgrimages",
+        body: "On the cost-of-living axis a high score means affordable. Lourdes comes out at 7.6/10 (source: our city profile), fourth of the fifty-three, tied with two others, against a series median of 6.2. The market goes further: 720 € for the reference three-room flat and 1,400 € per square metre, the lowest value of the series and exactly level with Laon (source: our rent estimate). Our engine rates it €€. These are residential benchmarks and not holiday prices: in a town whose lodging is sized for pilgrimages, the price of a room moves with the sanctuary's calendar, not with the rent of a flat.",
+      },
+      {
+        heading: "A sanctuary first, then the castle and the mountains",
+        body: "Lourdes grew out of the eighteen apparitions of the Virgin to Bernadette Soubirous in 1858. The sanctuary is a place of worship in daily use, and silence is requested at the grotto. It has to be said as such before any attractive sentence: you come with children provided you prepare them for a place of recollection, where many sick people and their companions are present. The fortress and the Pyrenean museum are a calm secular alternative. The funicular up the Pic du Jer and the Pyrenean cirques (Gavarnie, about fifty kilometres away) are mountain outings: hours, seasonal opening and weather should be checked before booking, and high mountain is not terrain for young children without preparation.",
+      },
+      {
+        heading: "One playground, and the river",
+        body: "The mapping survey records 3 green spaces in the commune, 1 of them with a playground: the parc de l'You (source: OpenStreetMap). It is the weakest mesh of the batch. The survey is contributory, not a register, so it is a floor. The Pic du Jer and the banks of the Gave de Pau are the most obvious outdoor playgrounds.",
+      },
+      {
+        heading: "Safety 7.5/10, and a shrinking town",
+        body: "Lourdes shows 7.5/10 on the safety axis (source: our city profile), fourth of the fifty-three, tied with two others, against a series median of 5.7. It is the axis this profile weights most heavily. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 5.9/10, thirty-seventh of the series, tied with eight others: that is the counterpart of the rest. The population falls by 7.1 % in eleven years (14,282 in 2011, 13,266 in 2022).",
+      },
+      {
+        heading: "When to go, a weather station 129 km away, and how to fund it",
+        body: "The reference weather station is Toulouse-Blagnac, 129 kilometres away (source: Météo-France 1991-2020 normals), a distant link for a foothill town: it gives 6.3 °C in January and 22.6 °C in July. The commune's own anchors come from the seed: 6 °C in January, 24.5 °C in July and 1,950 hours of sunshine a year (source: our city profile). Our crowding indicator applies a mountain regime here, with 5 out of 5 in January, February, July, August and December: it does not model the pilgrimage calendar that sets the town's lodging, and should be read as a floor on this axis (source: our seasons calendar). The engine puts September first, then June, then May. Check the sanctuary's calendar before booking: it decides the pressure on rooms. On funding, four routes and no amounts, because the scales are revised and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so check before booking. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. The Hautes-Pyrénées CAF runs holiday grants through caf.fr, months ahead, and an employer's works council often negotiates ticketing. One remark specific to this destination: the lever is the calendar of the sanctuary, so compare dates before comparing prices. All these schemes follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["lourdes","pau","tarbes"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "lourdes with kids",
+      "pyrenees",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-annecy-2026",
+    title: "Single-parent holidays in Annecy: the dearest of the series, and the best quality of life",
+    metaTitle: "Single-Parent Holidays in Annecy 2026",
+    metaDesc:
+      "Annecy is the dearest of the 53 destinations (flat 1,450 €, 5,500 €/m²) but first on quality of life (9.0/10), with 40 green spaces.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    intro:
+      "Annecy comes out at 6.8/10 on our single-parent composite, thirteenth of the fifty-three destinations, tied with three others (source: our trip-fit index). The detail: safety 7.3/10, transport 6.4/10, cost of living 3.1/10 and quality of life 9.0/10 (source: our city profile). It is the most contrasted batch entry: quality of life is first of the series, level with Obernai, and cost of living is last of the fifty-three with no tie. The market follows: 1,450 € for the reference three-room flat and 5,500 € per square metre, more than double the series median, the highest value of the fifty-three (source: our rent estimate), against medians of 940 € and 2,500 €. The commune counts 131,272 inhabitants at the 2022 census against 119,426 in 2011, a rise of 9.9 % (source: INSEE census). Our engine rates it €€€€. This guide does not present it as an accessible destination: it says at what price it is one.",
+    sections: [
+      {
+        heading: "A TGV from Paris, and a lake near the station",
+        body: "Comparison sites checked online before writing give TGVs from Paris-Gare de Lyon to Annecy in about three hours forty-five to four hours, with a number of daily direct trains that differs by source (two to five) and that SNCF Connect settles for the date you want. The transport axis is 6.4/10, below the series median of 7.0. The walking distance between the station and the lake could not be verified in the sources consulted: measure it on a map before choosing accommodation. The lake circuit is done by bike, on a cycle path that guides describe as almost continuous, and bikes can be hired near the station. Geneva airport, across the Swiss border, is the other gateway for flights from abroad; that leg is not covered by our data, and Swiss border and currency rules apply.",
+      },
+      {
+        heading: "Cost: last of the fifty-three",
+        body: "On the cost-of-living axis a high score means affordable. Annecy comes out at 3.1/10 (source: our city profile), last of the fifty-three with no tie, against a series median of 6.2. The market confirms it: 1,450 € for the reference three-room flat, the last of the series, and 5,500 € per square metre, also last (source: our rent estimate). Our engine rates it €€€€, the dearest band. On the single-parent profile, where one budget pays for everything, that is the central fact, and it is weighted at 25 % of the composite. Annecy reaches 6.8 only carried by a quality of life of 9.0 and safety of 7.3. Laon and Lourdes, at 1,400 € per square metre, are at a factor of nearly four on the square metre.",
+      },
+      {
+        heading: "The lake is the subject",
+        body: "The public beaches of the lake are free, with supervised bathing in summer according to the guides consulted: seasonal supervision and hours should be checked on the spot, and the flags are authoritative. The old town is crossed by the arms of the Thiou, with its lanes, arcades and canals, and the Palais de l'Isle, a former prison on an islet, is its image. The lake circuit by bike and the swim are the two outings that cost nothing, and they are what make a stay bearable in a town at this price. Paid activities (tandem paragliding, boats) must be booked and their rates checked with the operator.",
+      },
+      {
+        heading: "Forty green spaces, twenty-four playgrounds",
+        body: "The mapping survey records 40 green spaces in the commune, 24 of them with a playground (source: OpenStreetMap), among them Le Pâquier, the parc du Val Vert and the jardins de l'Europe. The survey caps at 40 per commune and Annecy reaches the cap: both numbers are therefore floors, and the real mesh is at least as large. It is by far the densest of this batch. The survey is contributory, not a register. It is the concrete asset of a town where lodging costs a lot: you find a playground wherever you are.",
+      },
+      {
+        heading: "Safety 7.3/10, in a town of 131,000",
+        body: "Annecy shows 7.3/10 on the safety axis (source: our city profile), seventh of the fifty-three, against a series median of 5.7. It is the axis this profile weights most heavily. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. A town of 131,000 inhabitants does not read like a village: in summer, crowding on the lake and in the old town is the practical issue.",
+      },
+      {
+        heading: "When to go, a weather station 86 km away, and how to fund it",
+        body: "The reference weather station is Grenoble-Saint-Geoirs, 86 kilometres away (source: Météo-France 1991-2020 normals), in another massif. It gives 2.8 °C in January and 20.6 °C in July. The commune's own anchors come from the seed: 2.3 °C in January, 22.1 °C in July and 2,100 hours of sunshine a year (source: our city profile). Our crowding indicator gives 1 out of 5 from January to May and from October to December, 2 in June and September, 3 in July and August (source: our seasons calendar). Read it as a floor: the model applies a generic regional regime here and does not capture the summer saturation of an alpine lake, which the price of lodging in July and August does reflect. The engine puts August first, then June, then July. June and September are the windows when the lake is swimmable and rates are gentler. On funding, four routes and no amounts, because the scales are revised and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so check before booking. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. The Haute-Savoie CAF runs holiday grants through caf.fr, months ahead, and an employer's works council often negotiates ticketing. One remark specific to this destination: with the dearest square metre of the series, funding matters more here than anywhere else in it, so apply early and compare the lake's free pleasures with paid activities before you cost the stay. All these schemes follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["annecy","annemasse","chambery","grenoble"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "annecy with kids",
+      "haute-savoie",
+    ],
+  },
 
   {
     slug: "things-to-do-in-selestat-2026",

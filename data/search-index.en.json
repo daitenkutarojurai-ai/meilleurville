@@ -8712,6 +8712,46 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-holidays-obernai-2026",
+      "title": "Single-parent holidays in Obernai: the best composite of the series, and the price of it",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-laon-2026",
+      "title": "Single-parent holidays in Laon: the cheapest square metre in the series, and a funicular that closed in 2016",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-dole-2026",
+      "title": "Single-parent holidays in Dole: Pasteur's birthplace, a canal and a balanced profile",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-hendaye-2026",
+      "title": "Single-parent holidays in Hendaye: three kilometres of beach, and Spain by local train",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-albertville-2026",
+      "title": "Single-parent holidays in Albertville: 1992 Olympic host, and a season that sets the price",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-montargis-2026",
+      "title": "Single-parent holidays in Montargis: the Venice of the Gâtinais, an hour from Paris-Bercy",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-lourdes-2026",
+      "title": "Single-parent holidays in Lourdes: the cheapest square metre in the series, set to the sanctuary's calendar",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-annecy-2026",
+      "title": "Single-parent holidays in Annecy: the dearest of the series, and the best quality of life",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "things-to-do-in-selestat-2026",
       "title": "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
       "emoji": "📚"
@@ -8936,7 +8976,7 @@
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 181
+      "count": 189
     },
     {
       "slug": "expat-single-parent",
@@ -9004,14 +9044,14 @@
       "count": 53
     },
     {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 53
+    },
+    {
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 47
-    },
-    {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
-      "count": 45
     },
     {
       "slug": "pays-de-la-loire",
@@ -9104,6 +9144,11 @@
       "count": 16
     },
     {
+      "slug": "alsace",
+      "label": "alsace",
+      "count": 15
+    },
+    {
       "slug": "cycling",
       "label": "cycling",
       "count": 15
@@ -9122,11 +9167,6 @@
       "slug": "public-transport",
       "label": "public transport",
       "count": 15
-    },
-    {
-      "slug": "alsace",
-      "label": "alsace",
-      "count": 14
     },
     {
       "slug": "french-riviera",
@@ -9179,6 +9219,11 @@
       "count": 9
     },
     {
+      "slug": "pyrenees",
+      "label": "pyrenees",
+      "count": 9
+    },
+    {
       "slug": "strasbourg",
       "label": "strasbourg",
       "count": 9
@@ -9211,11 +9256,6 @@
     {
       "slug": "nantes",
       "label": "nantes",
-      "count": 8
-    },
-    {
-      "slug": "pyrenees",
-      "label": "pyrenees",
       "count": 8
     },
     {
@@ -9264,6 +9304,11 @@
       "count": 7
     },
     {
+      "slug": "savoie",
+      "label": "savoie",
+      "count": 7
+    },
+    {
       "slug": "south-of-france",
       "label": "south-of-france",
       "count": 7
@@ -9281,6 +9326,11 @@
     {
       "slug": "angers",
       "label": "angers",
+      "count": 6
+    },
+    {
+      "slug": "basque-country",
+      "label": "basque country",
       "count": 6
     },
     {
@@ -9317,16 +9367,6 @@
       "slug": "paris",
       "label": "paris",
       "count": 6
-    },
-    {
-      "slug": "savoie",
-      "label": "savoie",
-      "count": 6
-    },
-    {
-      "slug": "basque-country",
-      "label": "basque country",
-      "count": 5
     },
     {
       "slug": "grenoble",
@@ -9396,6 +9436,11 @@
     {
       "slug": "heatwave",
       "label": "heatwave",
+      "count": 4
+    },
+    {
+      "slug": "jura",
+      "label": "jura",
       "count": 4
     },
     {
@@ -9471,11 +9516,6 @@
     {
       "slug": "french-guiana",
       "label": "french guiana",
-      "count": 3
-    },
-    {
-      "slug": "jura",
-      "label": "jura",
       "count": 3
     },
     {

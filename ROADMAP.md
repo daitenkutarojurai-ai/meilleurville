@@ -473,6 +473,23 @@ identique) est **la matière propre du lot** et doit passer en EN sans être dil
 Pour le batch FR **suivant**, le palier à ouvrir est **6,4 : 13 communes, dont 8 sans guide**
 (Annemasse, Belfort, Cambrai, Épernay, Neuilly-sur-Seine, Nevers, Oyonnax, Troyes).
 
+### F61 — miroir EN de la série monoparentale, batch 7 : `single-parent-holidays-[city]-2026` (2026-10-17)
+
+Item 5 du plan agent « vacances monoparentales ». Série à 53 FR / 45 EN, donc la main revenait à l'EN. **+8 jumelles**
+écrites en anglais depuis les guides FR du batch 7 (Obernai, Laon, Dole, Hendaye, Albertville, Montargis, Lourdes,
+Annecy) ; **compteur mesuré 53 FR / 53 EN, parité rétablie** (`grep -c 'slug: "single-parent-holidays-'`). 6 sections
+par guide (aides fusionnées avec « quand y aller »), 875-1 045 mots, 0 em-dash, `metaTitle` 35-42, `metaDesc` ≤ 160,
+aucun montant d'aide, aucun chiffre hors jumelle FR. Prudences reprises : funiculaire de Laon arrêté le 27/08/2016 et
+navette à vérifier ; gare de Paris-Bercy ≠ Gare de Lyon (Montargis) ; pièce d'identité obligatoire pour chaque enfant à la
+frontière d'Hendaye ; stations météo à 185 km (Hendaye), 129 km (Lourdes), 96 km (Montargis), 90 km (Albertville) dites
+non représentatives ; Lourdes = lieu de culte en activité, indicateur d'affluence plancher ; Annecy = plafond de 40
+espaces verts du relevé donc planchers. Ajouts angle anglophone sans chiffre neuf : JO de 1992 (Albertville), aéroport de
+Genève et règles suisses (Annecy), Hendaye = côte basque côté frontière. `tsc`, `integrity`, `search-index(:check)` (EN
+1 079 guides, 118 tags), `sitemap:check` (EN 32 007) verts ; `npm run build` non lancé. ⚠️ `npm run parity` sort en échec
+sur **`/presidentielle-2027`** (route FR sans entrée dans `FR_TO_EN_ROUTE`), introduite par le commit `5e41b07`, hors de ce
+lot : à mapper ou à ajouter aux `PARITY_EXCEPTIONS` par l'agent politique. **Prochain run : batch FR 8** (écart nul) — ou
+items 3/4 si la série FR est jugée suffisante.
+
 ### F61 — série monoparentale, batch 7 : `vacances-monoparentales-[ville]-2026` (2026-10-11)
 
 Item 2 du plan agent « vacances monoparentales ». Série à parité 45 FR / 45 EN (compteurs `grep -c`), donc la main
