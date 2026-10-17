@@ -106,3 +106,29 @@ commande que le commit : le motif tue le shell lui-même. `npm run build` non la
    aligner sur la plaque « No. 08 » (attention : ordre et compte à dériver de `RANKING_META` aussi).
 2. Navbar — emojis devant chaque lien (🌍 📊 📖 ⚖️ 🗳️ 🚩), vus en capture desktop.
 3. `components/TopFiveCities.tsx` / `FeaturedCities` de la home.
+
+## 2026-10-17 ~16:00 UTC — jumelles EN `/rankings` + `/rankings/[slug]` (1 hub + 19 pages)
+
+**Surface** : le hub EN des classements et le gabarit de ses 19 pages, restés sur l'ancien
+modèle (emoji 3xl/5xl de catégorie) alors que les jumelles FR étaient passées en « feuilles ».
+
+**Changé**
+- **Hub** (`app/[locale]/rankings/page.tsx`) : emoji de chaque tuile → `.plaque.plaque-small`
+  « 01 »…« 19 » + ligne mono « Sheet NN / 19 » ; ombre au survol retirée, titre à l'accent au
+  survol, `h-full` pour aligner les tuiles. Numéro dérivé de l'ordre de `RANKING_META`, donc
+  identique au hub FR et aux pages détaillées.
+- **Détail** (`app/[locale]/rankings/[slug]/page.tsx`) : emoji 5xl → `.plaque` « No. 08 » +
+  sur-titre mono « Sheet 08 / 19 · 2026 ranking · N cities », mêmes calculs que la jumelle FR.
+  Rang de la liste top 30 : chiffre gris → étiquette carton à filet bleu plaque (comme `CityCard`,
+  pas de `.plaque` car le rang dérive du score). Le score garde sa couleur de palier.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les
+2 fichiers : 0 erreur. Captures `next dev` (`NEXT_PUBLIC_DEFAULT_LOCALE=en`, chemins `/en/...`) +
+Playwright à 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+Vu en passant, hors périmètre design (copie) : l'intro du hub EN (`locales/en.ts`,
+`rankings.intro`) annonce « 13 themed rankings » pour 19 tuiles — à signaler à une routine contenu.
+
+**Prochaines surfaces candidates**
+1. Navbar — emojis devant chaque lien (🌍 📊 ⚖️ 📖 vus en capture EN aussi) et méga-menu.
+2. `components/TopFiveCities.tsx` / `FeaturedCities` de la home.
+3. Bandeau cookies — vérifier s'il reste un liseré arc-en-ciel (CLAUDE.md dit converti 10-16/17).

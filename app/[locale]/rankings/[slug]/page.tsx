@@ -43,6 +43,9 @@ export default async function EnRankingDetailPage({ params }: Props) {
   const en = rankingEn(slug, meta);
   const ranked = getRankedCities(slug as RankingSlug);
   const top30 = ranked.slice(0, 30);
+  const rankingSlugs = Object.keys(RANKING_META);
+  const sheetNo = String(rankingSlugs.indexOf(slug) + 1).padStart(2, "0");
+  const sheetTotal = String(rankingSlugs.length).padStart(2, "0");
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -90,12 +93,17 @@ export default async function EnRankingDetailPage({ params }: Props) {
           {" · "}
           <span>{en.label}</span>
         </nav>
-        <div className="flex items-center gap-3 mb-4">
-          <span className="text-5xl" aria-hidden>{meta.emoji}</span>
-          <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-tight">
-            {en.headline}
-          </h1>
+        {/* One survey-map sheet: numbered enamel plaque (same numbering as the
+            FR twin and both hubs), mono sheet label, ink title. No emoji. */}
+        <div className="plaque mb-4 !px-3 !py-2 font-mono-data text-lg" aria-hidden>
+          No. {sheetNo}
         </div>
+        <p className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)] mb-2">
+          Sheet {sheetNo} / {sheetTotal} · 2026 ranking · {ranked.length} cities
+        </p>
+        <h1 className="mb-4 text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-tight">
+          {en.headline}
+        </h1>
         <p className="text-[var(--text-secondary)] text-lg max-w-3xl">
           {en.description}
         </p>
@@ -110,13 +118,13 @@ export default async function EnRankingDetailPage({ params }: Props) {
             <li key={r.city.slug}>
               <Link
                 href={`/cities/${r.city.slug}`}
-                className="flex items-center gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-all hover:border-[var(--accent)]/40 hover:shadow-lg"
+                className="group flex items-center gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-colors hover:border-[var(--accent)]/50"
               >
-                <span className="font-mono-data text-xl font-bold w-10 text-[var(--text-tertiary)]">
+                <span className="font-mono-data text-sm font-bold w-12 shrink-0 text-center rounded-md border border-[var(--accent)]/30 bg-[var(--bg-canvas)] py-1 text-[var(--accent)]">
                   #{r.rank}
                 </span>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-[var(--text-primary)] truncate">{r.city.name}</h3>
+                  <h3 className="font-bold text-[var(--text-primary)] truncate group-hover:text-[var(--accent)] transition-colors">{r.city.name}</h3>
                   <p className="text-xs text-[var(--text-secondary)] truncate">
                     {r.city.region ?? ""}{r.city.department ? ` · ${r.city.department}` : ""}
                   </p>

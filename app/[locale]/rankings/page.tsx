@@ -17,6 +17,7 @@ export const metadata: Metadata = {
 
 export default function EnRankingsIndex() {
   const all = Object.values(RANKING_META);
+  const sheetTotal = String(all.length).padStart(2, "0");
 
   return (
     <main id="main-content" className="min-h-screen">
@@ -40,21 +41,31 @@ export default function EnRankingsIndex() {
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 py-6">
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {all.map((r) => {
+          {all.map((r, idx) => {
             const en = rankingEn(r.slug, r);
+            // Same « sheet NN / 19 » numbering as the FR hub and the detail
+            // pages, derived from RANKING_META order — never typed by hand.
+            const sheetNo = String(idx + 1).padStart(2, "0");
             return (
               <li key={r.slug}>
                 <Link
                   href={`/rankings/${r.slug}`}
-                  className="block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 transition-all hover:border-[var(--accent)]/40 hover:shadow-lg"
+                  className="group block h-full rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 transition-colors hover:border-[var(--accent)]/50"
                 >
+                  {/* One survey-map sheet per ranking: numbered enamel plaque +
+                      mono sheet label, ink title. No category emoji. */}
                   <div className="flex items-center gap-3">
-                    <span className="text-3xl" aria-hidden>
-                      {r.emoji}
+                    <span className="plaque plaque-small shrink-0 font-mono-data" aria-hidden>
+                      {sheetNo}
                     </span>
-                    <h2 className="text-lg font-bold text-[var(--text-primary)]">
-                      {en.label}
-                    </h2>
+                    <div className="min-w-0">
+                      <p className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+                        Sheet {sheetNo} / {sheetTotal}
+                      </p>
+                      <h2 className="text-lg font-bold leading-snug text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                        {en.label}
+                      </h2>
+                    </div>
                   </div>
                   <p className="mt-2 text-sm text-[var(--text-secondary)]">
                     {en.tagline}
