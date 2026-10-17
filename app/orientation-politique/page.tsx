@@ -33,7 +33,7 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "Présidentielle 2027 : projection ville par ville · Orientation politique",
   description:
-    "Qui arriverait en tête au 1er tour 2027 dans votre ville ? Projection pour 540 villes d'après les derniers sondages nationaux, et rappel du vote 2022 (Ministère de l'Intérieur).",
+    `Qui arriverait en tête au 1er tour 2027 dans votre ville ? Projection pour ${allPoliticalLeans().length} villes d'après les derniers sondages nationaux, et rappel du vote 2022 (Ministère de l'Intérieur).`,
   alternates: pathAlternates("/orientation-politique", "/political-leaning"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -84,7 +84,7 @@ export default function OrientationPolitiquePage() {
     options.map((b) => [b, all.filter((c) => c.lean === b).sort((x, y) => y.topPct - x.topPct)]),
   );
 
-  // Mean bloc share across cities — an average of the 540 communal results,
+  // Mean bloc share across cities — an average of the communal results,
   // not a national result (big cities do not weigh more here). Stated as such.
   const meanBlocs = (() => {
     const sums = {} as Record<Bloc, number>;

@@ -2093,3 +2093,28 @@ D5 alerte de frontière) ; elles ne sont **pas appliquées** tant que le propri�
 (modification de ce seul fichier de doc). `npm run build` non lancé.
 
 **Prochain lot** : dès qu'une décision du § 0 est prise ; sinon aucun.
+
+### 2026-10-17 (troisième run) — aucun lot : six « 540 » de métadonnées remplacés par le compte rendu
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents →
+lot autorisé, mais aucune décision du propriétaire au § 0 depuis le 15/10 (`git log` hors `[scheduled-agent]` :
+hub présidentielle, design, agenda, audit mobile) : rien ne passe la règle, aucune ville ajoutée.
+
+*Livrable* : relecture du point ② de l'inventaire (« 540 » écrits en dur dans le texte rendu) après les commits du
+16-17/10. Six chaînes **affirmaient la taille actuelle du corpus** et étaient fausses depuis le lot 1 :
+- `/orientation-politique` et `/political-leaning` (`description`, réécrite le 16/10 avec « 540 ») → `${allPoliticalLeans().length}`, soit **593** ;
+- `/climat-2040-timelapse` → `${CITIES_LIGHT_METRO.length}`, soit **573** (la page ne rend que la métropole, le
+  chiffre est donc celui qu'elle affiche, pas celui du seed) ;
+- profil `famille-a-l-etranger` (`metaDescription`) → « Toutes les villes du site comparées » : `lib/profile-pages.ts`
+  est importé par un composant client et ne doit pas lire `CITIES_SEED` en valeur ;
+- deux `description` EN de `/red-flags/themes/[slug]` (« 540-city dataset ») → formulation sans compte.
+
+Laissés tels quels, volontairement : les « 540 » qui décrivent **le périmètre d'une mesure faite à une date**
+(retrait du rang de richesse biodiversité sur « les 540 villes », 538/540 au recensement, 44 villes sur 540 en
+bruit, red flags qui publient des comptes datés) — les remplacer par 593 rendrait la phrase fausse dans l'autre sens.
+Ils sont à remesurer par leur propriétaire, pas à réécrire à la main.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `npm run sitemap:check`, `npm run hreflang:check` verts. `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise ; sinon aucun.

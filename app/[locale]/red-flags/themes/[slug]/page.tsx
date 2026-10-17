@@ -35,7 +35,7 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities you'll regret buying in",
     metaTitle: "Cities you'll regret buying in 2026 — Where property isn't worth the price",
     metaDescription:
-      "Top cities where the purchase price (DVF data) significantly exceeds actual quality of life. Global score, median €/m², climate. 540-city calibrated dataset.",
+      "Top cities where the purchase price (DVF data) significantly exceeds actual quality of life. Global score, median €/m², climate. Every city in our calibrated dataset.",
     intro:
       "The estate agent's brochure promises a safe investment. The reality: price per m² that would give a Parisian pause, and quality of life that turns out to be average — dragged down by heatwaves, air quality, or noise.",
     reality:
@@ -290,7 +290,7 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities that 25-35s are quietly leaving",
     metaTitle: "Young workers leaving 2026 — Cities losing their 25-35s",
     metaDescription:
-      "2026 ranking of French cities losing their 25-35s: INSEE demographic deficit, negative balance, tight jobs market, weak business dynamism. 540-city dataset.",
+      "2026 ranking of French cities losing their 25-35s: INSEE demographic deficit, negative balance, tight jobs market, weak business dynamism. Every city in our dataset.",
     intro:
       "The scenario doesn't show up in the town's attractiveness brochure. The 18-22s leave to study in Lyon, Bordeaux or Toulouse, some vaguely think they'll come back 'later, when it's time to start a family' — and never do. By 30, the whole cohort has moved to the metropolitan hubs, and the city is left with a lid-shaped demography: seniors who stayed, teens who'll leave, and a gaping hole at the top of the working-age pyramid. It's the exact opposite of the town-centre revitalisation pitch.",
     reality:

@@ -15,7 +15,7 @@ export const dynamicParams = false;
 export const metadata: Metadata = {
   title: "Climat 2040 timelapse — France année par année",
   description:
-    "Faites défiler les années 2026 → 2040 et regardez la France se réchauffer en direct. Projection ARPEGE / GIEC interpolée par macro-région, sur 540 villes.",
+    `Faites défiler les années 2026 → 2040 et regardez la France se réchauffer en direct. Projection ARPEGE / GIEC interpolée par macro-région, sur ${CITIES_LIGHT_METRO.length} villes.`,
   alternates: pathAlternates("/climat-2040-timelapse", "/climate-2040-timelapse"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
