@@ -136,8 +136,8 @@ white keyline, green rim). Tokens live in `app/globals.css`; keep to them.
   `opengraph-image.tsx` share `#1E3A6E`; change all of them together or none.
 - `components/AmbientBackground.tsx` is a **server component** with no JS (it replaced a WebGL
   mesh gradient). Don't reintroduce a canvas/WebGL background.
-- Converted 2026-10-17: `/classements` category tiles (numbered « N°01 » plaques, accent
-  headings instead of 19 rainbow hex colours), the 4 quick-stat tiles of every city page (the
+- Converted 2026-10-16/17: `/classements` category tiles (plaque + « Feuille NN / 19 », see
+  `docs/design-journal.md`), CityCard tier band, the 4 quick-stat tiles of every city page (the
   emerald→lime elevation tile read as a « bon » score), the Navbar/mobile City Match CTAs, the
   cookie banner band (navy over green rim), `/projection-5ans` buttons, VsBattle (A navy, B brick)
   and `components/Breadcrumbs.tsx` (semantic `<ol>`, wraps on mobile, `aria-current`).
