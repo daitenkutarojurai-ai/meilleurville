@@ -384,6 +384,14 @@ Ploemeur (56162) **18 872**, Cesson-Sévigné (35051) **18 761**, Chennevières-
 mais millésime discordant (2019, 2022, 2023 selon la source) — sous le seuil quel que soit le millésime, non
 recoupé au sens strict. ⚠️ Le seuil se relit **sur le millésime en vigueur** : une commune à 19 900 peut le
 franchir à la publication suivante (cas de L'Isle-sur-la-Sorgue, 20 244 en 2023).
+Recoupées le 2026-10-17 (quatrième run) sur le millésime 2023, absence vérifiée **par code Insee**, deux sources
+concordantes chacune (Wikipédia EN citant la série Insee 1968-2023 + bien-dans-ma-ville / pss-archi / notre-planete /
+citypopulation / Banatic) : Hem (59299) **18 582**, Bry-sur-Marne (94015) **18 503**, Garches (92033) **17 743**,
+Le Pré-Saint-Gervais (93061) **16 993**, Les Herbiers (85109) **16 521**, Le Bourget (93013) **15 925** (PopRef 2023
+Insee dép. 93 cité), Canet-en-Roussillon (66037) **13 227** (+ Banatic) — toutes sous le seuil. Saint-Pierre-des-Corps
+(37233) : 15 700-16 060 selon le site, **non recoupée au sens strict**, sous le seuil quelle que soit la source.
+Les deux plus proches (Hem, Bry-sur-Marne) restent à ~1 500 hab. du seuil : aucune ne peut le franchir au millésime
+suivant à rythme de croissance publié.
 
 ---
 
@@ -2118,3 +2126,24 @@ Ils sont à remesurer par leur propriétaire, pas à réécrire à la main.
 propre, `npm run integrity`, `npm run sitemap:check`, `npm run hreflang:check` verts. `npm run build` non lancé.
 
 **Prochain lot** : dès qu'une décision du § 0 est prise ; sinon aucun.
+
+### 2026-10-17 (quatrième run) — aucun lot : huit lignes du tableau D recoupées par code Insee
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents →
+lot autorisé, mais aucune décision du propriétaire au § 0 (`git log` depuis le 15/10 : aucun commit hors
+`[scheduled-agent]` ne touche le seed, `score-calibration.ts`, ROADMAP ni ce fichier) : rien ne passe la règle.
+
+*Livrable* : fiabilisation du backlog. Huit communes du tableau D n'étaient « relevées que par nom, sans recoupement
+de population » ; on ne pouvait donc pas exclure qu'une ait franchi 20 000 hab. au millésime 2023. Absence au seed
+vérifiée **par code Insee** pour les huit, puis population 2023 recoupée sur deux sources (détail au § 5 D) : Hem
+18 582, Bry-sur-Marne 18 503, Garches 17 743, Le Pré-Saint-Gervais 16 993, Les Herbiers 16 521, Le Bourget 15 925,
+Canet-en-Roussillon 13 227 ; Saint-Pierre-des-Corps ~15 900 (sources discordantes, toutes sous le seuil).
+**Aucune ne franchit le seuil** : le gisement 20 000+ reste épuisé sous la règle actuelle.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise ; sinon aucun. Reste au tableau D sans recoupement : Le Vésinet,
+Viroflay, Boissy-Saint-Léger, Valenton, Villetaneuse, Saint-Brice, Mennecy, Nemours, Vaires, Canteleu, Bois-Guillaume,
+Ifs, Guipavas, Pornic, Beaucaire, Rive-de-Gier, Ramonville, Saint-Égrève, Plan-de-Cuques, Elbeuf, Héricourt, Woippy,
+Freyming-Merlebach, Creutzwald, Villers-lès-Nancy, Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien, Dugny, Lognes.
