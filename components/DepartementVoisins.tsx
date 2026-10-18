@@ -7,7 +7,17 @@ import { scoreHex } from "@/lib/utils";
 // Départements limitrophes d'un département : maillage croisé entre pages
 // département. Rendu serveur, sans JS. Les scores viennent de CITIES_SEED
 // (calibrés et normalisés), jamais du littéral du seed.
-export function DepartementVoisins({ department }: { department: string }) {
+export function DepartementVoisins({
+  department,
+  locale = "fr",
+}: {
+  department: string;
+  locale?: "fr" | "en";
+}) {
+  const en = locale === "en";
+  const deptBase = en ? "/departments" : "/departements";
+  const compareBase = en ? "/compare-departments" : "/comparer-departements";
+  const cityPath = en ? "/cities/" : "/villes/";
   const neighbors = neighborDepartments(department);
   if (neighbors.length === 0) return null;
 
@@ -34,11 +44,12 @@ export function DepartementVoisins({ department }: { department: string }) {
   return (
     <section>
       <h2 className="text-lg font-bold text-[var(--text-primary)] mb-1">
-        Départements limitrophes de {department}
+        {en ? `Departments bordering ${department}` : `Départements limitrophes de ${department}`}
       </h2>
       <p className="text-xs text-[var(--text-tertiary)] mb-4">
-        Ceux qui partagent une frontière terrestre avec {department}. Score moyen des villes
-        analysées de chaque département, sur 10.
+        {en
+          ? `Those sharing a land border with ${department}. Average score of each department's analysed cities, out of 10.`
+          : `Ceux qui partagent une frontière terrestre avec ${department}. Score moyen des villes analysées de chaque département, sur 10.`}
       </p>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {rows.map((r) => {
@@ -50,7 +61,7 @@ export function DepartementVoisins({ department }: { department: string }) {
             >
               <div className="flex items-baseline justify-between gap-2">
                 <Link
-                  href={`/departements/${r.slug}`}
+                  href={`${deptBase}/${r.slug}`}
                   className="text-sm font-semibold text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
                 >
                   {r.name} <span className="font-mono-data text-xs text-[var(--text-tertiary)]">({r.num})</span>
@@ -63,17 +74,19 @@ export function DepartementVoisins({ department }: { department: string }) {
                 </span>
               </div>
               <p className="mt-1 text-xs text-[var(--text-secondary)]">
-                {r.count} ville{r.count > 1 ? "s" : ""} · mieux notée :{" "}
-                <Link href={`/villes/${r.best.slug}`} className="text-[var(--accent)] hover:underline">
+                {en
+                  ? `${r.count} cit${r.count > 1 ? "ies" : "y"} · top-rated: `
+                  : `${r.count} ville${r.count > 1 ? "s" : ""} · mieux notée : `}
+                <Link href={`${cityPath}${r.best.slug}`} className="text-[var(--accent)] hover:underline">
                   {r.best.name}
                 </Link>
               </p>
               {r.sameRegion && (
                 <Link
-                  href={`/comparer-departements/${deptToSlug(x)}-vs-${deptToSlug(y)}`}
+                  href={`${compareBase}/${deptToSlug(x)}-vs-${deptToSlug(y)}`}
                   className="mt-2 inline-block text-xs text-[var(--text-tertiary)] hover:text-[var(--accent)] transition-colors"
                 >
-                  Comparer les deux →
+                  {en ? "Compare the two →" : "Comparer les deux →"}
                 </Link>
               )}
             </div>

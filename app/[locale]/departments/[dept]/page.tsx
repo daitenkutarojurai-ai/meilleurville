@@ -3,6 +3,8 @@ import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { DepartementFiche } from "@/components/DepartementFiche";
+import { DepartementVoisins } from "@/components/DepartementVoisins";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug, slugToDept } from "@/lib/dept-slug";
 import { scoreColor } from "@/lib/utils";
@@ -143,6 +145,10 @@ export default async function EnDepartmentDetail({ params }: Props) {
         </Link>
       </section>
 
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-6">
+        <DepartementFiche department={name} locale="en" />
+      </section>
+
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
         <ol className="space-y-2">
           {cities.map((c, i) => (
@@ -163,6 +169,10 @@ export default async function EnDepartmentDetail({ params }: Props) {
             </li>
           ))}
         </ol>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-8">
+        <DepartementVoisins department={name} locale="en" />
       </section>
 
       {(() => {
