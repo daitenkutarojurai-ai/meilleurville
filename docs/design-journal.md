@@ -185,3 +185,30 @@ commande, il tue le shell sinon (re-piégé ce run).
 1. `components/SectionNav.tsx` — emojis 🏆 📊 🔍 ✨ 💸 📖 devant chaque ancre (vus en capture).
 2. Bandeau cookies — tuile 🍪 en lucide sur fond lavis ; vérifier le reste.
 3. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.
+
+## 2026-10-18 ~11:00 UTC — home : `components/SectionNav.tsx` (FR + EN)
+
+**Surface** : la barre d'ancres collante qui apparaît sous la Navbar une fois le hero passé (md+).
+
+**Changé**
+- **Fin des emojis** 🏆 📊 🔍 ✨ 💸 📖 (champ `emoji` supprimé du tableau `SECTIONS`).
+- Lecture « index de feuilles en marge de carte » : légende mono « Sur cette page / On this page »,
+  puis entrées numérotées « 01 Top 5 … 06 Guides » (numéro mono tabulaire).
+- Actif : pilule navy pleine à ombre → texte accent + filet bleu plaque posé sur le filet bas de la
+  barre (même grammaire que les pastilles de la Navbar depuis le 17/10 23:00).
+- Fond `--bg-canvas` opaque (le `/90 backdrop-blur-xl` laissait transparaître le contenu).
+- `<button>` → `<a href="#id">` (`aria-current="location"`) : les ancres deviennent de vrais liens,
+  le défilement doux reste en JS (`preventDefault` + `history.replaceState`).
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Capture `next dev` + Playwright à 1440 et 820 px (la barre est masquée sous md, donc rien à voir à
+390 px), `scrollWidth` = viewport. `npm run build` non lancé.
+⚠️ Capture : les sections sous `ScrollReveal` restent à opacity 0 si on saute directement à une
+ancre — faire défiler par `mouse.wheel` d'abord.
+
+**Prochaines surfaces candidates**
+1. `components/RankingPreview.tsx` (home « Classements par style de vie ») — 5 tuiles teintées
+   bleu/vert/vert clair/violet/ambre avec titres colorés : couleurs de palier détournées, à passer
+   en feuilles + plaque comme `/classements`.
+2. Bandeau cookies — tuile 🍪 sur fond lavis ; vérifier le reste.
+3. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.

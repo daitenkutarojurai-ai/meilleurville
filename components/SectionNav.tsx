@@ -10,12 +10,12 @@ function readNavbarHeight(): number {
 }
 
 const SECTIONS = [
-  { id: "top5",       label: "Top 5",       labelEn: "Top 5",      emoji: "🏆" },
-  { id: "classements",label: "Classements", labelEn: "Rankings",   emoji: "📊" },
-  { id: "explorer",   label: "Explorer",    labelEn: "Explore",    emoji: "🔍" },
-  { id: "quiz",       label: "Quiz IA",     labelEn: "AI Quiz",    emoji: "✨" },
-  { id: "simulateur", label: "Simulateur",  labelEn: "Calculator", emoji: "💸" },
-  { id: "guides",     label: "Guides",      labelEn: "Guides",     emoji: "📖" },
+  { id: "top5",       label: "Top 5",       labelEn: "Top 5" },
+  { id: "classements",label: "Classements", labelEn: "Rankings" },
+  { id: "explorer",   label: "Explorer",    labelEn: "Explore" },
+  { id: "quiz",       label: "Quiz IA",     labelEn: "AI Quiz" },
+  { id: "simulateur", label: "Simulateur",  labelEn: "Calculator" },
+  { id: "guides",     label: "Guides",      labelEn: "Guides" },
 ];
 
 export function SectionNav({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
@@ -67,10 +67,12 @@ export function SectionNav({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
     };
   }, []);
 
-  function scrollTo(id: string) {
+  function scrollTo(e: React.MouseEvent<HTMLAnchorElement>, id: string) {
     const el = document.getElementById(id);
     if (!el) return;
+    e.preventDefault();
     el.scrollIntoView({ behavior: "smooth", block: "start" });
+    history.replaceState(null, "", `#${id}`);
   }
 
   return (
@@ -84,24 +86,42 @@ export function SectionNav({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
       style={{ top: navHeight }}
       aria-label={locale === "en" ? "Section navigation" : "Navigation sections"}
     >
-      <div className="border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/90 backdrop-blur-xl">
+      <div className="border-b border-[var(--border)] bg-[var(--bg-canvas)]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="flex items-center gap-1 overflow-x-auto scrollbar-none py-2">
-            {SECTIONS.map((s) => (
-              <button
-                key={s.id}
-                onClick={() => scrollTo(s.id)}
-                className={cn(
-                  "flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium transition-all whitespace-nowrap",
-                  active === s.id
-                    ? "bg-[var(--accent)] text-white shadow-sm"
-                    : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
-                )}
-              >
-                <span aria-hidden>{s.emoji}</span>
-                {locale === "en" ? s.labelEn : s.label}
-              </button>
-            ))}
+          {/* Read like the sheet index printed in the margin of a survey map:
+              a mono legend, then numbered entries — no emoji, no filled pill. */}
+          <div className="flex items-center gap-1 overflow-x-auto scrollbar-none py-1.5">
+            <span className="mr-2 shrink-0 font-mono text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+              {locale === "en" ? "On this page" : "Sur cette page"}
+            </span>
+            {SECTIONS.map((s, i) => {
+              const isActive = active === s.id;
+              return (
+                <a
+                  key={s.id}
+                  href={`#${s.id}`}
+                  onClick={(e) => scrollTo(e, s.id)}
+                  aria-current={isActive ? "location" : undefined}
+                  className={cn(
+                    "relative flex shrink-0 items-baseline gap-1.5 rounded-md px-3 py-1.5 text-xs font-semibold whitespace-nowrap transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
+                    isActive
+                      ? "text-[var(--accent)] after:absolute after:inset-x-3 after:-bottom-[7px] after:h-[2px] after:rounded-full after:bg-[var(--accent)]"
+                      : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+                  )}
+                >
+                  <span
+                    aria-hidden
+                    className={cn(
+                      "font-mono text-[10px] tabular-nums",
+                      isActive ? "text-[var(--accent)]" : "text-[var(--text-tertiary)]"
+                    )}
+                  >
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  {locale === "en" ? s.labelEn : s.label}
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>
