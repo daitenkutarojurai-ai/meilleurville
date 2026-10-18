@@ -392,6 +392,14 @@ Insee dép. 93 cité), Canet-en-Roussillon (66037) **13 227** (+ Banatic) — to
 (37233) : 15 700-16 060 selon le site, **non recoupée au sens strict**, sous le seuil quelle que soit la source.
 Les deux plus proches (Hem, Bry-sur-Marne) restent à ~1 500 hab. du seuil : aucune ne peut le franchir au millésime
 suivant à rythme de croissance publié.
+Recoupées le 2026-10-18 (second run) sur le millésime 2023, absence vérifiée **par code Insee** (593 `inseeCode` au
+seed), deux sources concordantes chacune (Wikipédia EN citant les populations de référence 2023 + Banatic / pss-archi /
+citypopulation / villesavivre / PopRef2023 Insee départemental) : Saint-Égrève (38382) **17 986**, Boissy-Saint-Léger
+(94004) **17 325**, Viroflay (78686) **17 237**, Mennecy (91386) **16 433**, Beaucaire (30032) **15 692**, Le Vésinet
+(78650) **15 554**, Guipavas (29075) **15 538**, Ramonville-Saint-Agne (31446) **15 158**, Woippy (57751) **14 967**,
+Villers-lès-Nancy (54578) **14 718**, Valenton (94074) **14 406** — toutes sous le seuil ; sous 15 000 pour les trois
+dernières, donc hors d'atteinte même si D2 est validée. Pornic (44131) : 17 910 (2021) à 18 745 selon le site,
+**millésime 2023 non recoupé**, sous le seuil quelle que soit la source.
 
 ---
 
@@ -2178,3 +2186,26 @@ que combinée à D5 (frontière) ou D1 (overrides). Les ~30 autres noms du table
 
 **Prochain lot** : dès qu'une décision du § 0 est prise. Si D2 est validée, Juvisy-sur-Orge est le premier candidat
 (mesurer d'abord le ratio intra-source et le ratio loyer).
+
+### 2026-10-18 (second run) — aucun lot : onze lignes du tableau D recoupées par code Insee
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents →
+lot autorisé, mais aucune décision du propriétaire au § 0 (`git log` depuis le 15/10 : aucun commit hors
+`[scheduled-agent]` ne touche le seed ni `score-calibration.ts` ; le seul commit humain touchant ROADMAP concerne les
+guides vacances). Rien ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : fiabilisation du backlog pour la décision D2. Douze communes du tableau D « relevées par nom sans
+recoupement » ont été cherchées ; absence au seed vérifiée par code Insee, population 2023 recoupée sur deux sources
+pour onze (détail au § 5 D) : Saint-Égrève 17 986, Boissy-Saint-Léger 17 325, Viroflay 17 237, Mennecy 16 433,
+Beaucaire 15 692, Le Vésinet 15 554, Guipavas 15 538, Ramonville-Saint-Agne 15 158, Woippy 14 967, Villers-lès-Nancy
+14 718, Valenton 14 406. Pornic reste non recoupée (millésimes discordants). **Aucune ne franchit 20 000** ; trois
+sont même sous 15 000 et ne seraient pas ouvertes par D2. Les huit au-dessus de 15 000 restent à passer à
+`npm run seed:neighbours` si D2 est validée (aucune mesure de voisines faite ce run).
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise ; Juvisy-sur-Orge reste le premier candidat sous D2. Reste au
+tableau D sans recoupement : Saint-Brice, Villetaneuse, Nemours, Vaires, Canteleu, Bois-Guillaume, Ifs, Pornic,
+Rive-de-Gier, Elbeuf, Héricourt, Freyming-Merlebach, Creutzwald, Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien,
+Dugny, Lognes.
