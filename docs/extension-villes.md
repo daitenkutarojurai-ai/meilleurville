@@ -18,11 +18,12 @@ routine l'écrit au § 3.2 **avant** usage, comme toutes les règles précédent
 | # | Décision | Débloque | Ce que la routine ferait sans autre précision |
 |---|---|---|---|
 | D1 | **Overrides documentés** dans `lib/score-calibration.ts` pour les villes qui ne ressemblent pas à leurs voisines | Villeneuve-d'Ascq (62 868 hab., la plus grosse absente), Cenon, La Madeleine, Marcq-en-Barœul, Lambersart, Montfermeil, Sucy-en-Brie (tableau A) | une ville par run, chaque note d'axe adossée à une mesure publiée (Filosofi, DVF, SSMSI) citée dans le journal ; jamais une médiane de voisines |
-| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | pré-mesuré les 2026-10-18 sur quatorze : **deux passeraient sans autre décision, Juvisy-sur-Orge et Mennecy** (règle standard sans alerte ; ratios marché à mesurer avant ajout) ; Chevilly-Larue, Boissy-Saint-Léger, Viroflay, Le Vésinet relèvent aussi de D5 ; Saint-Égrève et Ramonville-Saint-Agne exigent de justifier une 4ᵉ voisine > 12,6 km ; Bourg-lès-Valence, Lisieux, Sorgues, Brie-Comte-Robert, Beaucaire, Guipavas échouent (tableau D, ~30 noms restants) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
+| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | pré-mesuré les 2026-10-18 sur quatorze : Juvisy-sur-Orge et Mennecy passent la règle des voisines sans alerte, **mais aucune ne passe le marché** (ratio intra-source RealAdvisor ≠ ratio multi-sources de plus de 10 %, motif Carquefou ; cf. journal 18/10 quatrième run et D8) ; Chevilly-Larue, Boissy-Saint-Léger, Viroflay, Le Vésinet relèvent aussi de D5 ; Saint-Égrève et Ramonville-Saint-Agne exigent de justifier une 4ᵉ voisine > 12,6 km ; Bourg-lès-Valence, Lisieux, Sorgues, Brie-Comte-Robert, Beaucaire, Guipavas échouent (tableau D, ~30 noms restants) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
 | D3 | **Règle Antilles-Guyane-Mayotte** (≤ 3 villes au seed par territoire : la règle des 4 voisines ne peut pas s'appliquer) | Le Gosier, Sainte-Anne, Le Moule, Petit-Bourg (971), Kourou, Matoury, Rémire-Montjoly (973), Koungou (976) | proposition : voisines = toutes les villes du territoire au seed, à condition que le backtest `--dept=` sur ces villes reste ≤ 0,7 d'écart moyen ; sinon override D1 |
 | D4 | **Valider la levée « 4ᵉ voisine > 25 km » à La Réunion**, prise par la routine le 2026-10-14 (lot 16) | confirme Sainte-Marie et Sainte-Suzanne déjà publiées ; ouvre Le Port si sa DVF passe | refus = retrait des 2 villes (2 entrées seed, housing, quartiers, codes postaux, 2 lignes `DOCUMENTED_MODES`) |
 | D5 | **Alerte de frontière quand la règle standard tient** (une commune d'un autre département plus proche que la 4ᵉ voisine) | Villeparisis, Saint-Ouen-l'Aumône, Mitry-Mory | proposition : appliquer la règle ① (voisines tous départements) et n'accepter que si standard **et** ① donnent le même global à 0,3 près |
 | D6 | **Règle d'égalité des voisines** (4ᵉ et 5ᵉ à moins de 0,5 km d'écart) | Chatou (30 598 hab.) | proposition : prendre les 5 et exiger que la règle tienne sur les deux combinaisons — ce qui **refuse** Chatou aujourd'hui |
+| D8 | **Confirmation intra-source quand la seule source commune est un modèle lissé** (RealAdvisor) | Juvisy-sur-Orge, Mennecy (sous D2), peut-être Carquefou rétrospectivement | proposition : si le ratio intra-source est un modèle et qu'aucun second portail ne publie commune + voisines, prendre le **ratio intra-source** comme repère (il est le plus conservateur) au lieu de reporter ; refusé tant que non validé |
 | D7 | **Passe DVF locale** sur 97407 (pas une décision : une commande à lancer sur la machine) | Le Port (974) | `npm run property-prices` couvre déjà la commune si elle est ajoutée au seed ; il faut la médiane avant |
 
 Sans aucune réponse, la routine continue à ne rien ajouter : c'est l'issue juste, pas une panne.
@@ -2244,3 +2245,39 @@ Conséquence pour le § 0 : sur quatorze communes de 15 000 à 20 000 hab. mesur
 les ratios DVF intra-source et loyer). Reste au tableau D sans recoupement : Saint-Brice, Villetaneuse, Nemours,
 Vaires, Canteleu, Bois-Guillaume, Ifs, Pornic, Rive-de-Gier, Elbeuf, Héricourt, Freyming-Merlebach, Creutzwald,
 Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien, Dugny, Lognes.
+
+### 2026-10-18 (quatrième run) — aucun lot : Juvisy-sur-Orge et Mennecy échouent au contrôle intra-source
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents →
+lot autorisé, mais aucune décision du propriétaire au § 0 (`git log` du jour hors `[scheduled-agent]` : guides
+étudiant/retraite, podium d'accueil, vacances, `/departments` EN ; rien sur le seed, `score-calibration.ts` ni ce
+fichier). Rien ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : les deux seules candidates que D2 ouvrirait seule ont été passées au § 3.3 bis complet, pour que D2 se
+décide sur le résultat réel et non sur la règle des voisines seule. Mesures de juillet 2026 (recherche web),
+DVF voisines lues dans `data/city-property-prices.json`. Aucune écriture dans le seed.
+
+| | Mennecy (91386) | Juvisy-sur-Orge (91326) |
+|---|---|---|
+| DVF appart. commune, ≥ 2 sites | PAP 2 977 · RealAdvisor 3 274 → **3 126** | 3 518 (run 1 du 18/10 : PAP 3 506, Immovrai 3 529, Habity 3 524) |
+| Médiane DVF des 4 voisines (dépôt) | Ris 2 008 · Corbeil 2 500 · Viry 2 686 · Ste-Geneviève 2 981 → 2 593 | Viry 2 686 · Draveil 2 799 · Savigny 2 969 · Athis 3 238 → 2 884 |
+| **Ratio prix** | **1,21** | **1,22** |
+| Intra-source RealAdvisor (commune ÷ médiane voisines) | 3 274 ÷ (Ris 2 588 · Corbeil 2 762 · Viry 3 361 · Ste-Geneviève 3 420 → 3 062) = **1,07** | 3 817 ÷ (Viry 3 361 · Draveil 3 639 · Athis 3 660 · Savigny 3 690 → 3 650) = **1,05** |
+| Écart des deux ratios | 13 % → **ne confirme pas** | 17 % → **ne confirme pas** |
+| Ratio loyer RealAdvisor (€/m²/an) | 244 ÷ (238 · 249 · 258 · 258 → 254) = 0,96, bruit | 288 ÷ (256 · 272 · 278 · 258 → 265) = 1,09, bruit |
+| **Décision sous D2** | **reportée**, motif Carquefou / Montigny | **reportée**, même motif |
+
+Constat de méthode, posé en D8 au § 0 : sur ces deux communes comme sur Carquefou, le seul portail qui publie la
+commune **et** ses voisines est RealAdvisor, un modèle qui écrase les écarts (ses neuf valeurs essonniennes tiennent
+entre 2 588 et 3 817 €/m², quand les médianes DVF du dépôt pour les mêmes villes vont de 2 008 à 3 238). Le contrôle
+intra-source refuse donc par construction toute commune nettement plus chère que ses voisines. La routine ne change
+pas la règle d'elle-même ; elle le signale. Conséquence : **D2 seule n'ouvre plus aucune commune** ; il faut D2 + D8
+(ou D2 + D5) pour un premier lot.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise. Avec D2 + D8 : Mennecy (`--price-ratio=1.07`, sous ± 10 % donc
+repère médian conservé) et Juvisy-sur-Orge (1,05, idem). Reste au tableau D sans recoupement : Saint-Brice,
+Villetaneuse, Nemours, Vaires, Canteleu, Bois-Guillaume, Ifs, Pornic, Rive-de-Gier, Elbeuf, Héricourt,
+Freyming-Merlebach, Creutzwald, Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien, Dugny, Lognes.
