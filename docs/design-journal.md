@@ -212,3 +212,28 @@ ancre — faire défiler par `mouse.wheel` d'abord.
    en feuilles + plaque comme `/classements`.
 2. Bandeau cookies — tuile 🍪 sur fond lavis ; vérifier le reste.
 3. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.
+
+## 2026-10-18 ~16:00 UTC — home : `components/RankingPreview.tsx` (FR + EN)
+
+**Surface** : section « Classements par style de vie » de la home (FR `/` et EN `/`).
+
+**Changé**
+- **Fin des teintes de catégorie** : les 5 tuiles bleu / émeraude / vert / violet / ambre (fond,
+  bordure et titre colorés — couleurs de palier détournées) deviennent des **feuilles de carte**
+  identiques : en-tête `.topo-bg` avec l'icône sur `.plaque` (même objet que les en-têtes de
+  `/classements`) et la référence mono « Feuille 01 / 19 » (« Sheet » en EN), numéro **dérivé de
+  `RANKING_META`** comme sur le hub, donc cohérent avec lui.
+- Titre en encre, N°1 + score sur filet pointillé, **bande de palier à plat** (`scoreHex`) en pied,
+  comme `TopFiveCities` ; `sr-only` « sur 10 ».
+- Retrait de `TiltCard` / `Spotlight` / `shine` / `backdrop-blur` (effets SaaS) sur cette section ;
+  badge `accent` → ligne mono « Classements 2026 · 19 feuilles », filet de tête comme le podium.
+  Lien « Tous les classements » unique (plus de doublon mobile).
+- Non touché : copie, moteur de classement, scores.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright à 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `components/QuizTeaser.tsx` (home) — utilise encore `TiltCard`/`Spotlight`, à vérifier.
+2. Bandeau cookies — tuile 🍪 sur fond lavis bleu ; vérifier le reste.
+3. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.

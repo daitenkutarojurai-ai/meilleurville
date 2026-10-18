@@ -1,20 +1,24 @@
 import Link from "@/components/AppLink";
 import { ArrowRight, Laptop, Home, TreePine, GraduationCap, Palmtree } from "lucide-react";
-import { Badge } from "@/components/ui/Badge";
-import { TiltCard } from "@/components/effects/TiltCard";
-import { Spotlight } from "@/components/effects/Spotlight";
-import { getRankedCities, type RankingSlug } from "@/lib/rankings";
-import { scoreColor } from "@/lib/utils";
+import { getRankedCities, RANKING_META, type RankingSlug } from "@/lib/rankings";
+import { scoreColor, scoreHex } from "@/lib/utils";
 
-const RANKINGS = [
+// Five lifestyle rankings previewed on the home. No per-category colour:
+// blue/green/violet/amber tiles read as score tiers (CLAUDE.md « Carte &
+// plaque »), so each card is one survey-map sheet with an enamel-plaque icon.
+const RANKINGS: {
+  slug: RankingSlug;
+  label: string;
+  labelEn: string;
+  icon: typeof Laptop;
+  description: string;
+  descriptionEn: string;
+}[] = [
   {
     slug: "teletravail",
     label: "Télétravail",
     labelEn: "Remote work",
     icon: Laptop,
-    color: "text-blue-600",
-    bg: "bg-blue-400/10",
-    border: "border-blue-400/20",
     description: "Fibre, coworking, café culture",
     descriptionEn: "Fast fibre, coworking, café culture",
   },
@@ -23,9 +27,6 @@ const RANKINGS = [
     label: "Famille",
     labelEn: "Family",
     icon: Home,
-    color: "text-emerald-600",
-    bg: "bg-emerald-500/10",
-    border: "border-emerald-400/20",
     description: "Écoles, sécurité, espaces verts",
     descriptionEn: "Schools, safety, green space",
   },
@@ -34,9 +35,6 @@ const RANKINGS = [
     label: "Nature & Sport",
     labelEn: "Nature & Sport",
     icon: TreePine,
-    color: "text-green-400",
-    bg: "bg-green-400/10",
-    border: "border-green-400/20",
     description: "Randonnée, vélo, grand air",
     descriptionEn: "Hiking, cycling, the outdoors",
   },
@@ -45,9 +43,6 @@ const RANKINGS = [
     label: "Étudiant",
     labelEn: "Students",
     icon: GraduationCap,
-    color: "text-violet-400",
-    bg: "bg-violet-400/10",
-    border: "border-violet-400/20",
     description: "Campus, coût, nightlife",
     descriptionEn: "Campus, cost, nightlife",
   },
@@ -56,13 +51,14 @@ const RANKINGS = [
     label: "Retraite",
     labelEn: "Retirement",
     icon: Palmtree,
-    color: "text-amber-400",
-    bg: "bg-amber-400/10",
-    border: "border-amber-400/20",
     description: "Douceur de vivre, santé, calme",
     descriptionEn: "Easy living, healthcare, quiet",
   },
 ];
+
+// Same sheet numbering as the /classements hub (« Feuille NN / 19 »).
+const SHEET_ORDER = Object.keys(RANKING_META) as RankingSlug[];
+const pad2 = (n: number) => String(n).padStart(2, "0");
 
 export function RankingPreview({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
@@ -70,9 +66,14 @@ export function RankingPreview({ locale = "fr" }: { locale?: "fr" | "en" } = {})
   return (
     <section id="classements" className="py-8 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="mb-10 flex items-end justify-between">
+        <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <Badge variant="accent" className="mb-3">{L("Classements 2026", "2026 Rankings")}</Badge>
+            <p className="mb-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
+              {L(
+                `Classements 2026 · ${SHEET_ORDER.length} feuilles`,
+                `2026 Rankings · ${SHEET_ORDER.length} sheets`,
+              )}
+            </p>
             <h2 className="text-3xl font-bold text-[var(--text-primary)]">
               {L("Classements par style de vie", "Rankings by lifestyle")}
             </h2>
@@ -82,60 +83,58 @@ export function RankingPreview({ locale = "fr" }: { locale?: "fr" | "en" } = {})
           </div>
           <Link
             href={rankingsHref}
-            className="hidden sm:flex items-center gap-1 text-sm text-[var(--accent)] hover:underline"
+            className="inline-flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline"
           >
             {L("Tous les classements", "All rankings")}
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {RANKINGS.map((r) => {
             const Icon = r.icon;
             // Real #1 city + score, derived from the live ranking engine —
             // no hardcoded preview numbers (those drifted above the 8.6 clamp).
-            const top = getRankedCities(r.slug as RankingSlug)[0];
+            const top = getRankedCities(r.slug)[0];
+            const sheet = SHEET_ORDER.indexOf(r.slug) + 1;
             return (
-              <TiltCard key={r.slug} max={6} scale={1.025} className="h-full">
-                <Link href={locale === "en" ? `/rankings/${r.slug}` : `/classements/${r.slug}`} className="block h-full">
-                  <Spotlight className={`group relative overflow-hidden rounded-2xl border ${r.border} ${r.bg} p-5 cursor-pointer h-full backdrop-blur-sm transition-shadow hover:shadow-xl shine`}>
-                    <div className="relative z-10" style={{ transform: "translateZ(20px)" }}>
-                      <div
-                        className={`mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-white/70 ring-1 ring-white/40 backdrop-blur shadow-sm`}
-                      >
-                        <Icon className={`h-5 w-5 ${r.color}`} />
+              <Link
+                key={r.slug}
+                href={locale === "en" ? `/rankings/${r.slug}` : `/classements/${r.slug}`}
+                className="group flex h-full flex-col overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] transition-colors hover:border-[var(--accent)]"
+              >
+                <div className="topo-bg flex items-center gap-3 border-b border-[var(--border)] bg-[var(--bg-canvas)] px-4 py-3">
+                  <span className="plaque !p-0 h-10 w-10 shrink-0 justify-center" aria-hidden="true">
+                    <Icon className="h-5 w-5" strokeWidth={1.75} />
+                  </span>
+                  <span className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+                    {L("Feuille", "Sheet")} {pad2(sheet)} / {pad2(SHEET_ORDER.length)}
+                  </span>
+                </div>
+                <div className="flex flex-1 flex-col p-4">
+                  <h3 className="font-semibold text-[var(--text-primary)]">{L(r.label, r.labelEn)}</h3>
+                  <p className="mt-1 flex-1 text-xs leading-relaxed text-[var(--text-secondary)]">
+                    {L(r.description, r.descriptionEn)}
+                  </p>
+                  <div className="mt-4 flex items-end justify-between border-t border-dashed border-[var(--border)] pt-3">
+                    <div className="min-w-0">
+                      <div className="text-[10px] font-semibold uppercase tracking-wider text-[var(--text-tertiary)]">
+                        {L("N°1", "#1")}
                       </div>
-                      <h3 className={`font-semibold ${r.color} mb-1`}>{L(r.label, r.labelEn)}</h3>
-                      <p className="text-xs text-[var(--text-secondary)] mb-4 leading-relaxed">
-                        {L(r.description, r.descriptionEn)}
-                      </p>
-                      <div className="flex items-center justify-between">
-                        <div>
-                          <div className="text-xs text-[var(--text-secondary)]">{L("N°1", "#1")}</div>
-                          <div className="text-sm font-semibold text-[var(--text-primary)]">
-                            {top.city.name}
-                          </div>
-                        </div>
-                        <div className={`text-2xl font-bold font-mono-data ${scoreColor(top.score)}`}>
-                          {top.score.toFixed(1)}
-                        </div>
+                      <div className="truncate text-sm font-semibold text-[var(--text-primary)]">
+                        {top.city.name}
                       </div>
                     </div>
-                  </Spotlight>
-                </Link>
-              </TiltCard>
+                    <div className={`text-2xl font-bold font-mono-data ${scoreColor(top.score)}`}>
+                      {top.score.toFixed(1)}
+                      <span className="sr-only"> {L("sur", "out of")} 10</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="h-1.5" style={{ background: scoreHex(top.score) }} aria-hidden="true" />
+              </Link>
             );
           })}
-        </div>
-
-        <div className="mt-4 sm:hidden text-center">
-          <Link
-            href={rankingsHref}
-            className="text-sm text-[var(--accent)] hover:underline inline-flex items-center gap-1"
-          >
-            {L("Tous les classements", "All rankings")}
-            <ArrowRight className="h-4 w-4" />
-          </Link>
         </div>
       </div>
     </section>
