@@ -255,7 +255,11 @@ export default async function VeloPage({ params }: Props) {
             <Link href="/pour-qui/cyclistes-urbains" className="text-[var(--accent)] hover:underline">
               cyclistes urbains et aux villes où ils se sentent le mieux
             </Link>
-            .
+            , ou au{" "}
+            <Link href="/pour-qui/sans-voiture" className="text-[var(--accent)] hover:underline">
+              classement des villes qui permettent de vivre sans voiture
+            </Link>
+            , où le réseau de transports pèse autant que les pistes.
           </p>
           <Link href="/cadre-de-vie" className="block text-[var(--accent)] hover:underline">
             → Index Cadre de Vie national (env + santé + emploi)

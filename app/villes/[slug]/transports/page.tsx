@@ -351,6 +351,12 @@ export default async function TransportsPage({ params }: Props) {
           >
             Villes où vivre sans voiture 🚲
           </Link>
+          <Link
+            href="/pour-qui/sans-voiture"
+            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+          >
+            Profil « vivre sans voiture » 🚋
+          </Link>
           {border && (
             <Link
               href="/pour-qui/travailleurs-frontaliers"

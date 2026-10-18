@@ -277,6 +277,10 @@ export default async function MacroRegionCyclingPage({ params }: Props) {
             <Link href="/pour-qui/cyclistes-urbains" className="text-[var(--accent)] hover:underline">
               meilleures villes pour les cyclistes urbains
             </Link>
+            , ou, si le vélo ne sert qu'à compléter le tram et le métro, le{" "}
+            <Link href="/pour-qui/sans-voiture" className="text-[var(--accent)] hover:underline">
+              profil des villes où l&apos;on se passe de voiture
+            </Link>
             .
           </p>
         </div>
