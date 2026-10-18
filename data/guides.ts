@@ -62050,6 +62050,359 @@ export const GUIDES: Guide[] = [
     tags: ["vacances monoparentales Annecy", "parent solo Haute-Savoie", "vacances en train avec enfants", "lac d'Annecy"]
   },
   {
+    "slug": "vacances-monoparentales-colmar-2026",
+    "title": "Vacances monoparentales à Colmar en 2026",
+    "metaTitle": "Vacances monoparentales à Colmar 2026",
+    "metaDesc": "Colmar : 6,3/10 au composite monoparental, T3 1 000 €, sécurité 6,1/10. Accès en train, coût, parcs et aides.",
+    "category": "famille",
+    "emoji": "🧑‍🍼",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-18",
+    "updatedAt": "2026-10-18",
+    "intro": "Colmar sort à 6,3/10 au composite « famille monoparentale », trente-cinquième des cinquante-neuf destinations à égalité avec cinq autres (source : notre indice de séjour). Le détail : sécurité 6,1/10, transports 6,1/10, coût de la vie 6,2/10 et qualité de vie 6,8/10 (source : notre fiche ville). Le marché : 1 000 € le T3 de référence et 3 000 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 67 360 habitants au recensement 2022, contre 67 409 en 2011, soit une baisse de 0,1 % (source : Insee, recensements). Le moteur la classe en €€€.",
+    "sections": [
+      {
+        "heading": "Rejoindre la ville en train, sans voiture",
+        "body": "Selon les comparateurs consultés en ligne avant écriture, le trajet en train entre Paris et Colmar dure environ deux heures vingt à deux heures trente-cinq (SNCF Connect donne 2 h 25 pour le trajet type), au départ de la gare de l'Est. Une minorité de circulations sont directes ; la plupart passent par Strasbourg avec un changement, et le nombre de directs quotidiens se vérifie sur SNCF Connect à la date voulue. Pour un adulte seul avec des enfants, le direct est la condition à chercher : une correspondance avec bagages et poussette est le moment où le trajet devient pénible. La distance à pied entre la gare et le centre historique n'a pas pu être vérifiée dans les sources consultées : à mesurer sur une carte avant de choisir un hébergement. L'axe transports est à 6,1/10, sous la médiane de série (7,0)."
+      },
+      {
+        "heading": "Le coût : où la ville se place dans la série",
+        "body": "Sur l'axe coût de la vie, un score haut signifie abordable. Colmar sort à 6,2/10 (source : notre fiche ville), vingt-huitième des cinquante-neuf destinations à égalité avec six autres, pour une médiane de série à 6,2. Le marché : 1 000 € le T3 de référence et 3 000 € le mètre carré (source : notre estimation des loyers), contre 940 € et 2 500 € de médiane de série. Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur."
+      },
+      {
+        "heading": "Unterlinden et Petite Venise : un centre qui se fait à pied",
+        "body": "Le centre historique de Colmar se parcourt à pied, ce qui évite la voiture et le stationnement. Le musée d'Unterlinden, installé dans un ancien couvent dominicain, abrite le retable d'Issenheim, une œuvre religieuse du début du XVIᵉ siècle : c'est une sortie à calibrer sur l'âge des enfants, courte et sans surenchère, plutôt qu'une visite complète. Le quartier de la Petite Venise, le long de la Lauch, est l'image de la ville et se prête à une promenade sans billet. La route des vins et ses villages sont des sorties de journée accessibles depuis Colmar, dont les liaisons en bus ou en train se vérifient avant de partir : sans voiture, elles demandent de la préparation. Les marchés de Noël font monter la fréquentation et les tarifs d'hébergement, et se réservent très en amont si l'on vise décembre."
+      },
+      {
+        "heading": "25 espaces verts relevés, dont 14 avec aire de jeux",
+        "body": "Le relevé cartographique retient 25 espaces verts sur la commune, dont 14 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        "heading": "Sécurité 6,1/10, qualité de vie 6,8/10",
+        "body": "Colmar affiche 6,1/10 sur l'axe sécurité (source : notre fiche ville), vingt-cinquième des cinquante-neuf destinations, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 6,8/10, vingtième des cinquante-neuf destinations à égalité avec 10 autres. En décembre, la densité de visiteurs dans les rues piétonnes impose de garder les enfants à portée de main."
+      },
+      {
+        "heading": "Quand y aller, et la limite de notre indicateur",
+        "body": "La station climatique de référence est celle de Strasbourg (Strasbourg-Entzheim), à 56 kilomètres (source : normales Météo-France 1991-2020). Elle donne 2,5 °C de moyenne en janvier et 20,6 °C en juillet. Les ancres propres à la commune viennent du seed : 2,8 °C en janvier, 22,5 °C en juillet et 1 680 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis septembre, puis août."
+      },
+      {
+        "heading": "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        "body": "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse du Haut-Rhin est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    "relatedCities": [
+      "colmar",
+      "selestat",
+      "mulhouse",
+      "obernai"
+    ],
+    "relatedGuides": [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-colmar-2026",
+      "parent-solo-a-colmar-2026",
+      "vacances-monoparentales-strasbourg-2026"
+    ],
+    "tags": [
+      "vacances monoparentales Colmar",
+      "parent solo Haut-Rhin",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    "slug": "vacances-monoparentales-chambery-2026",
+    "title": "Vacances monoparentales à Chambéry en 2026",
+    "metaTitle": "Vacances monoparentales à Chambéry 2026",
+    "metaDesc": "Chambéry : 6,3/10 au composite monoparental, T3 1 100 €, sécurité 6,3/10. Accès en train, coût, parcs et aides.",
+    "category": "famille",
+    "emoji": "🧑‍🍼",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-18",
+    "updatedAt": "2026-10-18",
+    "intro": "Chambéry sort à 6,3/10 au composite « famille monoparentale », trente-cinquième des cinquante-neuf destinations à égalité avec cinq autres (source : notre indice de séjour). Le détail : sécurité 6,3/10, transports 6,1/10, coût de la vie 5,0/10 et qualité de vie 7,0/10 (source : notre fiche ville). Le marché : 1 100 € le T3 de référence et 3 600 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 60 251 habitants au recensement 2022, contre 58 437 en 2011, soit une hausse de 3,1 % (source : Insee, recensements). Le moteur la classe en €€€.",
+    "sections": [
+      {
+        "heading": "Rejoindre la ville en train, sans voiture",
+        "body": "Selon les comparateurs consultés en ligne avant écriture, le trajet direct entre Paris-Gare de Lyon et Chambéry dure environ deux heures cinquante à trois heures (2 h 51 pour le plus rapide, 2 h 56 en moyenne selon un comparateur), avec des départs du matin au soir. Les sources divergent sur le nom de la gare indiquée (Chambéry ou Chambéry–Challes-les-Eaux) : à vérifier au moment de réserver, car le trajet jusqu'à l'hébergement n'est pas le même. Pour un adulte seul avec des enfants, un direct de moins de trois heures est dans la fourchette de la série. L'axe transports est à 6,1/10, sous la médiane de série (7,0)."
+      },
+      {
+        "heading": "Le coût : où la ville se place dans la série",
+        "body": "Sur l'axe coût de la vie, un score haut signifie abordable. Chambéry sort à 5,0/10 (source : notre fiche ville), quarante-huitième des cinquante-neuf destinations à égalité avec deux autres, pour une médiane de série à 6,2. Le marché : 1 100 € le T3 de référence et 3 600 € le mètre carré (source : notre estimation des loyers), contre 940 € et 2 500 € de médiane de série. Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur."
+      },
+      {
+        "heading": "Éléphants, château des ducs, lac du Bourget en excursion",
+        "body": "Chambéry est l'ancienne capitale des ducs de Savoie : son centre se parcourt à pied, avec la fontaine des Éléphants, symbole de la ville, le château des ducs de Savoie et la vieille ville. Le lac du Bourget et Aix-les-Bains sont des sorties accessibles depuis Chambéry, qui ne sont pas dans la commune ; la liaison ferroviaire et ses horaires se vérifient avant de partir. Les massifs voisins offrent des promenades faciles, mais la montagne ne se traite pas à la légère avec de jeunes enfants : météo, dénivelé et horaires de retour se préparent avant, et un seul adulte n'a personne pour relayer en cas de fatigue."
+      },
+      {
+        "heading": "40 espaces verts relevés, dont 16 avec aire de jeux",
+        "body": "Le relevé cartographique retient 40 espaces verts sur la commune, dont 16 portent une aire de jeux (source : OpenStreetMap). Le relevé plafonne à 40 par commune et Chambéry atteint ce plafond : les nombres sont donc des planchers. Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        "heading": "Sécurité 6,3/10, qualité de vie 7,0/10",
+        "body": "Chambéry affiche 6,3/10 sur l'axe sécurité (source : notre fiche ville), vingtième des cinquante-neuf destinations à égalité avec une autre, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 7,0/10, dix-huitième des cinquante-neuf destinations à égalité avec une autre."
+      },
+      {
+        "heading": "Quand y aller, et la limite de notre indicateur",
+        "body": "La station climatique de référence est celle de Grenoble (Grenoble-Saint-Geoirs), à 51 kilomètres (source : normales Météo-France 1991-2020). Elle donne 2,8 °C de moyenne en janvier et 20,6 °C en juillet. Les ancres propres à la commune viennent du seed : 1,0 °C en janvier, 24,0 °C en juillet et 1 850 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place août en tête, puis juin, puis juillet."
+      },
+      {
+        "heading": "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        "body": "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de la Savoie est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    "relatedCities": [
+      "chambery",
+      "albertville",
+      "annecy",
+      "grenoble"
+    ],
+    "relatedGuides": [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-chambery-2026",
+      "parent-solo-a-chambery-2026",
+      "vacances-monoparentales-annecy-2026"
+    ],
+    "tags": [
+      "vacances monoparentales Chambéry",
+      "parent solo Savoie",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    "slug": "vacances-monoparentales-saint-malo-2026",
+    "title": "Vacances monoparentales à Saint-Malo en 2026",
+    "metaTitle": "Vacances monoparentales à Saint-Malo 2026",
+    "metaDesc": "Saint-Malo : 6,2/10 au composite monoparental, T3 1 080 €, sécurité 6,5/10. Accès en train, coût, parcs et aides.",
+    "category": "famille",
+    "emoji": "🧑‍🍼",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-18",
+    "updatedAt": "2026-10-18",
+    "intro": "Saint-Malo sort à 6,2/10 au composite « famille monoparentale », quarante et unième des cinquante-neuf destinations à égalité avec quatre autres (source : notre indice de séjour). Le détail : sécurité 6,5/10, transports 5,2/10, coût de la vie 5,0/10 et qualité de vie 7,4/10 (source : notre fiche ville). Le marché : 1 080 € le T3 de référence et 4 000 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 47 255 habitants au recensement 2022, contre 45 201 en 2011, soit une hausse de 4,5 % (source : Insee, recensements). Le moteur la classe en €€€.",
+    "sections": [
+      {
+        "heading": "Rejoindre la ville en train, sans voiture",
+        "body": "Selon les comparateurs consultés en ligne avant écriture, des TGV directs relient Paris-Montparnasse à Saint-Malo, avec une durée qui diverge selon les sources, de l'ordre de deux heures un quart à deux heures trois quarts : l'horaire exact se vérifie sur SNCF Connect à la date voulue. Du côté de la gare, la grande plage du Sillon est à environ un quart d'heure à pied d'après les sources consultées, et les remparts sont un peu plus loin : un séjour sans voiture y est donc faisable. L'axe transports est à 5,2/10, sous la médiane de série (7,0)."
+      },
+      {
+        "heading": "Le coût : où la ville se place dans la série",
+        "body": "Sur l'axe coût de la vie, un score haut signifie abordable. Saint-Malo sort à 5,0/10 (source : notre fiche ville), quarante-huitième des cinquante-neuf destinations à égalité avec deux autres, pour une médiane de série à 6,2. Le marché : 1 080 € le T3 de référence et 4 000 € le mètre carré (source : notre estimation des loyers), contre 940 € et 2 500 € de médiane de série. Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur."
+      },
+      {
+        "heading": "Remparts, plages et marée : le sujet pratique",
+        "body": "Les remparts, bâtis à partir du XIIIᵉ siècle d'après les sources consultées, se parcourent à pied et offrent un panorama sur le port et la côte : c'est la promenade centrale du séjour, gratuite, à faire avec des enfants en les gardant du côté intérieur. Le Grand Aquarium est la sortie de repli par mauvais temps, dont les tarifs et horaires se vérifient auprès de l'établissement. Le trait distinctif de Saint-Malo est la marée : l'amplitude y dépasse parfois dix mètres d'après les sources consultées, ce qui change la plage, la baignade et l'accès à l'îlot du Grand Bé, où se trouve la tombe de Chateaubriand."
+      },
+      {
+        "heading": "21 espaces verts relevés, dont 6 avec aire de jeux",
+        "body": "Le relevé cartographique retient 21 espaces verts sur la commune, dont 6 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        "heading": "Sécurité 6,5/10, qualité de vie 7,4/10",
+        "body": "Saint-Malo affiche 6,5/10 sur l'axe sécurité (source : notre fiche ville), seizième des cinquante-neuf destinations à égalité avec trois autres, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 7,4/10, douzième des cinquante-neuf destinations à égalité avec deux autres. La marée est le risque propre à la ville : l'accès au Grand Bé n'est possible qu'à marée basse, l'horaire de la marée se consulte le matin même, et le retour doit être prévu avec une marge, jamais calé à la minute. Les drapeaux de baignade font foi sur les plages surveillées."
+      },
+      {
+        "heading": "Quand y aller, et la limite de notre indicateur",
+        "body": "La station climatique de référence est celle de Rennes (Rennes-Saint-Jacques), à 68 kilomètres (source : normales Météo-France 1991-2020). Elle donne 6,2 °C de moyenne en janvier et 19,2 °C en juillet. Les ancres propres à la commune viennent du seed : 6,0 °C en janvier, 19,8 °C en juillet et 1 860 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis juillet, puis août."
+      },
+      {
+        "heading": "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        "body": "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse d'Ille-et-Vilaine est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    "relatedCities": [
+      "saint-malo",
+      "dinan",
+      "vitre",
+      "rennes"
+    ],
+    "relatedGuides": [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-saint-malo-2026",
+      "vacances-monoparentales-rennes-2026"
+    ],
+    "tags": [
+      "vacances monoparentales Saint-Malo",
+      "parent solo Ille-et-Vilaine",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    "slug": "vacances-monoparentales-beaune-2026",
+    "title": "Vacances monoparentales à Beaune en 2026",
+    "metaTitle": "Vacances monoparentales à Beaune 2026",
+    "metaDesc": "Beaune : 7,2/10 au composite monoparental, T3 1 080 €, sécurité 8,1/10. Accès en train, coût, parcs et aides.",
+    "category": "famille",
+    "emoji": "🧑‍🍼",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-18",
+    "updatedAt": "2026-10-18",
+    "intro": "Beaune sort à 7,2/10 au composite « famille monoparentale », quatrième des cinquante-neuf destinations à égalité avec une autre (source : notre indice de séjour). Le détail : sécurité 8,1/10, transports 5,6/10, coût de la vie 5,0/10 et qualité de vie 8,7/10 (source : notre fiche ville). Le marché : 1 080 € le T3 de référence et 3 200 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 20 233 habitants au recensement 2022, contre 21 872 en 2011, soit une baisse de 7,5 % (source : Insee, recensements). Le moteur la classe en €€€.",
+    "sections": [
+      {
+        "heading": "Rejoindre la ville en train, sans voiture",
+        "body": "Selon les comparateurs consultés en ligne avant écriture, le chemin le plus rapide entre Paris et Beaune est un TGV jusqu'à Dijon puis un TER, soit deux heures dix à deux heures quarante selon les circulations, avec un changement de quinze à quarante-cinq minutes à Dijon. Des TER directs depuis Paris-Bercy existent, mais comptent environ trois heures trente à quatre heures. Pour un adulte seul avec des enfants, le choix est entre un trajet plus court avec une correspondance et un trajet long sans changement : il se tranche selon l'âge des enfants et la quantité de bagages. L'axe transports est à 5,6/10, sous la médiane de série (7,0)."
+      },
+      {
+        "heading": "Le coût : où la ville se place dans la série",
+        "body": "Sur l'axe coût de la vie, un score haut signifie abordable. Beaune sort à 5,0/10 (source : notre fiche ville), quarante-huitième des cinquante-neuf destinations à égalité avec deux autres, pour une médiane de série à 6,2. Le marché : 1 080 € le T3 de référence et 3 200 € le mètre carré (source : notre estimation des loyers), contre 940 € et 2 500 € de médiane de série. Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur."
+      },
+      {
+        "heading": "Hospices, remparts et vignoble : un centre compact",
+        "body": "Le centre de Beaune est compact et se parcourt à pied. Les Hospices de Beaune, ancien hôtel-Dieu du XVᵉ siècle, en sont l'image, avec leur toit de tuiles vernissées ; les horaires et les tarifs de visite se vérifient auprès du musée. La moutarderie Fallot propose des visites : sa disponibilité et ses conditions se vérifient avant de réserver. Le vignoble est le paysage de la ville, mais la dégustation n'est pas une activité pour les enfants : avec eux, on le regarde à vélo ou à pied plutôt qu'on ne le visite, sur les itinéraires balisés dont l'état se vérifie auprès de l'office de tourisme."
+      },
+      {
+        "heading": "8 espaces verts relevés, dont 2 avec aire de jeux",
+        "body": "Le relevé cartographique retient 8 espaces verts sur la commune, dont 2 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        "heading": "Sécurité 8,1/10, qualité de vie 8,7/10",
+        "body": "Beaune affiche 8,1/10 sur l'axe sécurité (source : notre fiche ville), deuxième des cinquante-neuf destinations, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 8,7/10, troisième des cinquante-neuf destinations à égalité avec une autre."
+      },
+      {
+        "heading": "Quand y aller, et la limite de notre indicateur",
+        "body": "La station climatique de référence est celle de Dijon (Dijon-Longvic), à 33 kilomètres (source : normales Météo-France 1991-2020). Elle donne 2,7 °C de moyenne en janvier et 20,8 °C en juillet. Les ancres propres à la commune viennent du seed : 3,5 °C en janvier, 23,5 °C en juillet et 1 900 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis septembre, puis août."
+      },
+      {
+        "heading": "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        "body": "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de la Côte-d'Or est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    "relatedCities": [
+      "beaune",
+      "dijon",
+      "autun",
+      "macon"
+    ],
+    "relatedGuides": [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-beaune-2026",
+      "parent-solo-a-beaune-2026",
+      "vacances-monoparentales-dijon-2026"
+    ],
+    "tags": [
+      "vacances monoparentales Beaune",
+      "parent solo Côte-d'Or",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    "slug": "vacances-monoparentales-albi-2026",
+    "title": "Vacances monoparentales à Albi en 2026",
+    "metaTitle": "Vacances monoparentales à Albi 2026",
+    "metaDesc": "Albi : 6,9/10 au composite monoparental, T3 840 €, sécurité 6,7/10. Accès en train, coût, parcs et aides.",
+    "category": "famille",
+    "emoji": "🧑‍🍼",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-18",
+    "updatedAt": "2026-10-18",
+    "intro": "Albi sort à 6,9/10 au composite « famille monoparentale », dixième des cinquante-neuf destinations à égalité avec cinq autres (source : notre indice de séjour). Le détail : sécurité 6,7/10, transports 5,5/10, coût de la vie 7,6/10 et qualité de vie 7,4/10 (source : notre fiche ville). Le marché : 840 € le T3 de référence et 2 200 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 50 605 habitants au recensement 2022, contre 49 179 en 2011, soit une hausse de 2,9 % (source : Insee, recensements). Le moteur la classe en €€.",
+    "sections": [
+      {
+        "heading": "Rejoindre la ville en train, sans voiture",
+        "body": "Selon les comparateurs consultés en ligne avant écriture, le chemin courant passe par Toulouse-Matabiau, puis un TER jusqu'à Albi-Ville, d'environ une heure en moyenne (de cinquante-six minutes à une heure quarante selon les arrêts desservis). Nous n'avons pas pu confirmer de liaison directe depuis Paris : le trajet complet se vérifie sur SNCF Connect, avec le changement à Toulouse. Les sources consultées indiquent que la gare d'Albi-Ville est à distance de marche des principaux sites. L'axe transports est à 5,5/10, sous la médiane de série (7,0)."
+      },
+      {
+        "heading": "Le coût : où la ville se place dans la série",
+        "body": "Sur l'axe coût de la vie, un score haut signifie abordable. Albi sort à 7,6/10 (source : notre fiche ville), quatrième des cinquante-neuf destinations à égalité avec trois autres, pour une médiane de série à 6,2. Le marché : 840 € le T3 de référence et 2 200 € le mètre carré (source : notre estimation des loyers), contre 940 € et 2 500 € de médiane de série. Le moteur la classe en €€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur."
+      },
+      {
+        "heading": "La Cité épiscopale : cathédrale et musée à pied",
+        "body": "La cathédrale Sainte-Cécile et le palais de la Berbie font partie de la Cité épiscopale, inscrite au patrimoine mondial de l'UNESCO. La cathédrale est un chef-d'œuvre du gothique méridional en brique. Le palais de la Berbie abrite le musée Toulouse-Lautrec, qui détient d'après les sources consultées la plus grande collection au monde de l'œuvre du peintre, né à Albi : c'est une sortie de pluie, à calibrer sur l'âge des enfants. Le Tarn borde la ville, et ses berges se prêtent à une promenade sans billet. La cathédrale est aussi un lieu de culte en activité."
+      },
+      {
+        "heading": "17 espaces verts relevés, dont 1 avec aire de jeux",
+        "body": "Le relevé cartographique retient 17 espaces verts sur la commune, dont 1 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        "heading": "Sécurité 6,7/10, qualité de vie 7,4/10",
+        "body": "Albi affiche 6,7/10 sur l'axe sécurité (source : notre fiche ville), quatorzième des cinquante-neuf destinations à égalité avec une autre, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 7,4/10, douzième des cinquante-neuf destinations à égalité avec deux autres."
+      },
+      {
+        "heading": "Quand y aller, et la limite de notre indicateur",
+        "body": "La station climatique de référence est celle de Toulouse (Toulouse-Blagnac), à 70 kilomètres (source : normales Météo-France 1991-2020). Elle donne 6,3 °C de moyenne en janvier et 22,6 °C en juillet. Les ancres propres à la commune viennent du seed : 5,5 °C en janvier, 25,5 °C en juillet et 2 050 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place septembre en tête, puis juin, puis mai."
+      },
+      {
+        "heading": "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        "body": "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse du Tarn est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    "relatedCities": [
+      "albi",
+      "castres",
+      "gaillac",
+      "toulouse"
+    ],
+    "relatedGuides": [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-albi-2026",
+      "parent-solo-a-albi-2026",
+      "vacances-monoparentales-toulouse-2026"
+    ],
+    "tags": [
+      "vacances monoparentales Albi",
+      "parent solo Tarn",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    "slug": "vacances-monoparentales-saumur-2026",
+    "title": "Vacances monoparentales à Saumur en 2026",
+    "metaTitle": "Vacances monoparentales à Saumur 2026",
+    "metaDesc": "Saumur : 6,9/10 au composite monoparental, T3 800 €, sécurité 7,4/10. Accès en train, coût, parcs et aides.",
+    "category": "famille",
+    "emoji": "🧑‍🍼",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-18",
+    "updatedAt": "2026-10-18",
+    "intro": "Saumur sort à 6,9/10 au composite « famille monoparentale », dixième des cinquante-neuf destinations à égalité avec cinq autres (source : notre indice de séjour). Le détail : sécurité 7,4/10, transports 4,9/10, coût de la vie 6,7/10 et qualité de vie 7,8/10 (source : notre fiche ville). Le marché : 800 € le T3 de référence et 1 900 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 940 € et 2 500 €. La commune compte 26 074 habitants au recensement 2022, contre 27 093 en 2011, soit une baisse de 3,8 % (source : Insee, recensements). Le moteur la classe en €€.",
+    "sections": [
+      {
+        "heading": "Rejoindre la ville en train, sans voiture",
+        "body": "Selon les comparateurs consultés en ligne avant écriture, le trajet entre Paris et Saumur dure environ deux heures à deux heures et demie, souvent avec une correspondance à Tours ou à Angers, et la gare de départ parisienne varie selon les circulations (Austerlitz ou Montparnasse) : à vérifier sur SNCF Connect. Depuis Angers, le TER met environ vingt minutes, ce qui permet de combiner les deux villes. L'axe transports est à 4,9/10, sous la médiane de série (7,0)."
+      },
+      {
+        "heading": "Le coût : où la ville se place dans la série",
+        "body": "Sur l'axe coût de la vie, un score haut signifie abordable. Saumur sort à 6,7/10 (source : notre fiche ville), treizième des cinquante-neuf destinations à égalité avec six autres, pour une médiane de série à 6,2. Le marché : 800 € le T3 de référence et 1 900 € le mètre carré (source : notre estimation des loyers), contre 940 € et 2 500 € de médiane de série. Le moteur la classe en €€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur."
+      },
+      {
+        "heading": "Château, Loire et Cadre noir",
+        "body": "Le château de Saumur domine la Loire et se voit depuis les quais, à pied. Le Cadre noir, l'École nationale d'équitation, est accessible depuis Saumur : il est installé sur la commune voisine de Saint-Hilaire-Saint-Florent, et ses visites et présentations se réservent auprès de l'établissement, leurs dates changeant selon la saison. Les bords de Loire se prêtent à la promenade et au vélo avec des enfants, sur des itinéraires balisés dont l'état se vérifie auprès de l'office de tourisme. Un fleuve sauvage n'est pas un lieu de baignade : l'eau ne se touche pas sans panneau l'autorisant."
+      },
+      {
+        "heading": "16 espaces verts relevés, dont 5 avec aire de jeux",
+        "body": "Le relevé cartographique retient 16 espaces verts sur la commune, dont 5 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        "heading": "Sécurité 7,4/10, qualité de vie 7,8/10",
+        "body": "Saumur affiche 7,4/10 sur l'axe sécurité (source : notre fiche ville), huitième des cinquante-neuf destinations, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 7,8/10, sixième des cinquante-neuf destinations à égalité avec quatre autres. La Loire n'est pas une baignade : courants et bancs de sable y sont imprévisibles, et un seul adulte ne peut pas surveiller plusieurs enfants au bord de l'eau."
+      },
+      {
+        "heading": "Quand y aller, et la limite de notre indicateur",
+        "body": "La station climatique de référence est celle de Tours (Tours-Saint-Symphorien), à 63 kilomètres (source : normales Météo-France 1991-2020). Elle donne 5,1 °C de moyenne en janvier et 20,2 °C en juillet. Les ancres propres à la commune viennent du seed : 5,0 °C en janvier, 22,5 °C en juillet et 2 000 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis septembre, puis juillet."
+      },
+      {
+        "heading": "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        "body": "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de Maine-et-Loire est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    "relatedCities": [
+      "saumur",
+      "angers",
+      "tours",
+      "chinon"
+    ],
+    "relatedGuides": [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-saumur-2026",
+      "parent-solo-a-saumur-2026",
+      "vacances-monoparentales-angers-2026"
+    ],
+    "tags": [
+      "vacances monoparentales Saumur",
+      "parent solo Maine-et-Loire",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
     slug: "10-choses-a-faire-a-gerardmer-2026",
     title: "10 choses à faire à Gérardmer",
     metaTitle: "10 choses à faire à Gérardmer en 2026",

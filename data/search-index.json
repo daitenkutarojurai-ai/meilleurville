@@ -9747,6 +9747,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "vacances-monoparentales-colmar-2026",
+      "title": "Vacances monoparentales à Colmar en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-chambery-2026",
+      "title": "Vacances monoparentales à Chambéry en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-saint-malo-2026",
+      "title": "Vacances monoparentales à Saint-Malo en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-beaune-2026",
+      "title": "Vacances monoparentales à Beaune en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-albi-2026",
+      "title": "Vacances monoparentales à Albi en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-saumur-2026",
+      "title": "Vacances monoparentales à Saumur en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-gerardmer-2026",
       "title": "10 choses à faire à Gérardmer",
       "emoji": "🏞️"
@@ -10056,6 +10086,11 @@
     {
       "slug": "paris",
       "label": "Paris",
+      "count": 12
+    },
+    {
+      "slug": "vacances-en-train-avec-enfants",
+      "label": "vacances en train avec enfants",
       "count": 12
     },
     {
@@ -10471,11 +10506,6 @@
     {
       "slug": "toulon",
       "label": "Toulon",
-      "count": 6
-    },
-    {
-      "slug": "vacances-en-train-avec-enfants",
-      "label": "vacances en train avec enfants",
       "count": 6
     },
     {
