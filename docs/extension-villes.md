@@ -18,7 +18,7 @@ routine l'écrit au § 3.2 **avant** usage, comme toutes les règles précédent
 | # | Décision | Débloque | Ce que la routine ferait sans autre précision |
 |---|---|---|---|
 | D1 | **Overrides documentés** dans `lib/score-calibration.ts` pour les villes qui ne ressemblent pas à leurs voisines | Villeneuve-d'Ascq (62 868 hab., la plus grosse absente), Cenon, La Madeleine, Marcq-en-Barœul, Lambersart, Montfermeil, Sucy-en-Brie (tableau A) | une ville par run, chaque note d'axe adossée à une mesure publiée (Filosofi, DVF, SSMSI) citée dans le journal ; jamais une médiane de voisines |
-| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | Bourg-lès-Valence, Chevilly-Larue, Bruz, Lisieux, Juvisy, Brie-Comte-Robert, Sorgues… (tableau D, ~40 noms) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
+| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | pré-mesuré le 2026-10-18 sur six : **seule Juvisy-sur-Orge passerait sans autre décision** (règle standard sans alerte, ratio marché +22 % à appliquer) ; Chevilly-Larue relève aussi de D5 ; Bourg-lès-Valence, Lisieux, Sorgues, Brie-Comte-Robert échouent (tableau D, ~40 noms) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
 | D3 | **Règle Antilles-Guyane-Mayotte** (≤ 3 villes au seed par territoire : la règle des 4 voisines ne peut pas s'appliquer) | Le Gosier, Sainte-Anne, Le Moule, Petit-Bourg (971), Kourou, Matoury, Rémire-Montjoly (973), Koungou (976) | proposition : voisines = toutes les villes du territoire au seed, à condition que le backtest `--dept=` sur ces villes reste ≤ 0,7 d'écart moyen ; sinon override D1 |
 | D4 | **Valider la levée « 4ᵉ voisine > 25 km » à La Réunion**, prise par la routine le 2026-10-14 (lot 16) | confirme Sainte-Marie et Sainte-Suzanne déjà publiées ; ouvre Le Port si sa DVF passe | refus = retrait des 2 villes (2 entrées seed, housing, quartiers, codes postaux, 2 lignes `DOCUMENTED_MODES`) |
 | D5 | **Alerte de frontière quand la règle standard tient** (une commune d'un autre département plus proche que la 4ᵉ voisine) | Villeparisis, Saint-Ouen-l'Aumône, Mitry-Mory | proposition : appliquer la règle ① (voisines tous départements) et n'accepter que si standard **et** ① donnent le même global à 0,3 près |
@@ -2147,3 +2147,34 @@ Canet-en-Roussillon 13 227 ; Saint-Pierre-des-Corps ~15 900 (sources discordante
 Viroflay, Boissy-Saint-Léger, Valenton, Villetaneuse, Saint-Brice, Mennecy, Nemours, Vaires, Canteleu, Bois-Guillaume,
 Ifs, Guipavas, Pornic, Beaucaire, Rive-de-Gier, Ramonville, Saint-Égrève, Plan-de-Cuques, Elbeuf, Héricourt, Woippy,
 Freyming-Merlebach, Creutzwald, Villers-lès-Nancy, Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien, Dugny, Lognes.
+
+### 2026-10-18 — aucun lot : six candidates de la décision D2 pré-mesurées, une seule passerait
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(dernier commit `[local-runner]` le 15/10) → lot autorisé, mais aucune décision du propriétaire au § 0 (`git log`
+depuis le 15/10 : aucun commit hors `[scheduled-agent]` ne touche le seed, `score-calibration.ts`, ROADMAP ni ce
+fichier). Rien ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : pour que la décision D2 (seuil à 15 000 hab.) puisse être prise sur pièces et produire un lot dès le run
+suivant, `npm run seed:neighbours` a été passé sur les six communes du tableau D dont la population 2023 est déjà
+recoupée, **chacune sur deux jeux de coordonnées** (sources discordantes de 0,5 à 1 km : latitudelongitude.org /
+GeoNames / NGA contre distanceenvoiture.fr / OpenStreetMap), pour vérifier que le résultat ne dépend pas du centroïde
+— la leçon de Chatou (2026-10-16). Aucune écriture dans le seed.
+
+| Commune | Insee | Résultat | Détail |
+|---|---|---|---|
+| **Juvisy-sur-Orge** (91) | 91326 | **passe** (règle standard, sans alerte, stable aux deux centres) | voisines Viry-Châtillon · Draveil · Savigny-sur-Orge · Athis-Mons, 1,6-2,9 km ; notes brutes identiques aux deux centres (global 6,0). Marché : DVF appart. ~3 518 €/m² (PAP 3 506, Immovrai 3 529 ; Habity 3 524) ÷ médiane des 4 voisines au dépôt 2 884 = **1,22** → bande ± 10-30 %, `--price-ratio=1.22` à appliquer ; **ratio intra-source et ratio loyer RealAdvisor encore à mesurer** avant l'ajout |
+| Chevilly-Larue (94) | 94021 | règle tient, **alerte de frontière** (relève de D5) | voisines L'Haÿ* · Fresnes · Cachan · Vitry, mêmes notes aux deux centres ; Bourg-la-Reine (3,1 km) et Antony (4,0 km, 92) plus proches que la 4ᵉ. Marché : ~3 487 (PAP 3 549, Immovrai 3 424) ÷ 3 841 = **0,91**, dans le bruit |
+| Brie-Comte-Robert (77) | 77053 | alerte de frontière **et** repère m² des voisines × 1,53 | Brunoy, Yerres (91) plus proches que la 4ᵉ ; Ozoir* dans la médiane |
+| Bourg-lès-Valence (26) | 26058 | **échoue** : 3 voisines admissibles (Valence, Romans, Montélimar à 46 km), règle ② aussi | |
+| Lisieux (14) | 14366 | **échoue** : 1 voisine (Hérouville à 41 km), règle ② aussi | |
+| Sorgues (84) | 84129 | **échoue** : 4ᵉ voisine Pertuis à 61,6 km (règle ② : Apt à 44,5 km) ; Avignon, la vraie voisine, est en override | |
+
+Conséquence pour le § 0 : D2 seule ne rouvre qu'**une** commune parmi les six recoupées ; elle n'élargit le gisement
+que combinée à D5 (frontière) ou D1 (overrides). Les ~30 autres noms du tableau D restent à recouper avant mesure.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise. Si D2 est validée, Juvisy-sur-Orge est le premier candidat
+(mesurer d'abord le ratio intra-source et le ratio loyer).
