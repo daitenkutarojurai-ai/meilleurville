@@ -18,7 +18,7 @@ routine l'écrit au § 3.2 **avant** usage, comme toutes les règles précédent
 | # | Décision | Débloque | Ce que la routine ferait sans autre précision |
 |---|---|---|---|
 | D1 | **Overrides documentés** dans `lib/score-calibration.ts` pour les villes qui ne ressemblent pas à leurs voisines | Villeneuve-d'Ascq (62 868 hab., la plus grosse absente), Cenon, La Madeleine, Marcq-en-Barœul, Lambersart, Montfermeil, Sucy-en-Brie (tableau A) | une ville par run, chaque note d'axe adossée à une mesure publiée (Filosofi, DVF, SSMSI) citée dans le journal ; jamais une médiane de voisines |
-| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | pré-mesuré le 2026-10-18 sur six : **seule Juvisy-sur-Orge passerait sans autre décision** (règle standard sans alerte, ratio marché +22 % à appliquer) ; Chevilly-Larue relève aussi de D5 ; Bourg-lès-Valence, Lisieux, Sorgues, Brie-Comte-Robert échouent (tableau D, ~40 noms) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
+| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | pré-mesuré les 2026-10-18 sur quatorze : **deux passeraient sans autre décision, Juvisy-sur-Orge et Mennecy** (règle standard sans alerte ; ratios marché à mesurer avant ajout) ; Chevilly-Larue, Boissy-Saint-Léger, Viroflay, Le Vésinet relèvent aussi de D5 ; Saint-Égrève et Ramonville-Saint-Agne exigent de justifier une 4ᵉ voisine > 12,6 km ; Bourg-lès-Valence, Lisieux, Sorgues, Brie-Comte-Robert, Beaucaire, Guipavas échouent (tableau D, ~30 noms restants) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
 | D3 | **Règle Antilles-Guyane-Mayotte** (≤ 3 villes au seed par territoire : la règle des 4 voisines ne peut pas s'appliquer) | Le Gosier, Sainte-Anne, Le Moule, Petit-Bourg (971), Kourou, Matoury, Rémire-Montjoly (973), Koungou (976) | proposition : voisines = toutes les villes du territoire au seed, à condition que le backtest `--dept=` sur ces villes reste ≤ 0,7 d'écart moyen ; sinon override D1 |
 | D4 | **Valider la levée « 4ᵉ voisine > 25 km » à La Réunion**, prise par la routine le 2026-10-14 (lot 16) | confirme Sainte-Marie et Sainte-Suzanne déjà publiées ; ouvre Le Port si sa DVF passe | refus = retrait des 2 villes (2 entrées seed, housing, quartiers, codes postaux, 2 lignes `DOCUMENTED_MODES`) |
 | D5 | **Alerte de frontière quand la règle standard tient** (une commune d'un autre département plus proche que la 4ᵉ voisine) | Villeparisis, Saint-Ouen-l'Aumône, Mitry-Mory | proposition : appliquer la règle ① (voisines tous départements) et n'accepter que si standard **et** ① donnent le même global à 0,3 près |
@@ -2209,3 +2209,38 @@ sont même sous 15 000 et ne seraient pas ouvertes par D2. Les huit au-dessus de
 tableau D sans recoupement : Saint-Brice, Villetaneuse, Nemours, Vaires, Canteleu, Bois-Guillaume, Ifs, Pornic,
 Rive-de-Gier, Elbeuf, Héricourt, Freyming-Merlebach, Creutzwald, Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien,
 Dugny, Lognes.
+
+### 2026-10-18 (troisième run) — aucun lot : les huit candidates D2 recoupées hier passées à `seed:neighbours`
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents →
+lot autorisé, mais aucune décision du propriétaire au § 0 (`git log` depuis le 15/10 : aucun commit hors
+`[scheduled-agent]` ne touche le seed ni `score-calibration.ts` ; les commits humains portent sur la politique, le
+design, l'agenda, les guides vacances et `/departments`). Rien ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : `npm run seed:neighbours` sur les huit communes du tableau D recoupées au-dessus de 15 000 hab. au run
+précédent, pour que D2 se décide sur pièces. Aucune écriture dans le seed.
+
+| Commune | Insee | Résultat | Détail |
+|---|---|---|---|
+| **Mennecy** (91) | 91386 | **passe** (règle standard, sans alerte) | voisines Corbeil-Essonnes · Ris-Orangis* · Sainte-Geneviève-des-Bois · Viry-Châtillon, 5,9-12,5 km ; 4ᵉ voisine sous la limite de 12,6 km, donc **contrôlée sur trois centres** (Wikipédia 48,566 / 2,437 ; mairie 48,5675 / 2,4342 ; point médian) : 12,2 à 12,5 km, mêmes voisines, notes identiques (global brut 6,0). Repère housing des voisines : T2 930 €, m² 3 600 €. **Ratios marché (DVF, loyer) non mesurés**, à faire avant l'ajout |
+| Boissy-Saint-Léger (94) | 94004 | règle tient, **alerte de frontière** (D5) + repère m² × 1,76 | Yerres, Brunoy, Montgeron (91) plus proches que la 4ᵉ ; Saint-Maur tire la médiane |
+| Viroflay (78) | 78686 | règle tient, **alerte de frontière** (D5) | 8 villes des Hauts-de-Seine plus proches que la 4ᵉ (Chaville 1,5 km) |
+| Le Vésinet (78) | 78650 | règle tient, **alerte de frontière** (D5) | Rueil-Malmaison, Nanterre, Bezons (92/95) plus proches que la 4ᵉ |
+| Saint-Égrève (38) | 38382 | règle tient, **4ᵉ voisine à 16,8 km** (Voiron) | à justifier ; Grenoble, la vraie voisine, a un override |
+| Ramonville-Saint-Agne (31) | 31446 | règle tient, **4ᵉ voisine à 15,2 km** (Muret) | à justifier ; Toulouse a un override, les voisines sont de l'autre côté de l'agglomération |
+| Beaucaire (30) | 30032 | **échoue** : 0 voisine admissible, règle ② : 1 seule (Bagnols-sur-Cèze, 39,5 km) | Nîmes en override |
+| Guipavas (29) | 29075 | **échoue** : 0 voisine admissible, règle ② aussi | Brest en override |
+
+Coordonnées des sept autres : centroïdes usuels non recoupés (aucun résultat ne se joue à moins de 0,5 km d'une
+limite) — à recouper sur deux sources avant tout ajout, comme pour Mennecy.
+
+Conséquence pour le § 0 : sur quatorze communes de 15 000 à 20 000 hab. mesurées, **D2 seule en ouvre deux**
+(Juvisy-sur-Orge, Mennecy) ; avec D5, quatre de plus. Ligne D2 du § 0 mise à jour.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise. Sous D2 : Juvisy-sur-Orge puis Mennecy (mesurer d'abord
+les ratios DVF intra-source et loyer). Reste au tableau D sans recoupement : Saint-Brice, Villetaneuse, Nemours,
+Vaires, Canteleu, Bois-Guillaume, Ifs, Pornic, Rive-de-Gier, Elbeuf, Héricourt, Freyming-Merlebach, Creutzwald,
+Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien, Dugny, Lognes.
