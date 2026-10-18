@@ -2,6 +2,7 @@ import Link from "@/components/AppLink";
 import { ArrowRight } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor, scoreHex } from "@/lib/utils";
+import { cardPhoto } from "@/lib/city-cards";
 
 function tagline(city: (typeof CITIES_SEED)[number], locale: "fr" | "en"): string {
   const s = city.scores;
@@ -60,28 +61,56 @@ export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {top5.map((city, i) => {
             const rank = i + 1;
+            const photo = cardPhoto(city.slug);
+            const rankBadge = (
+              <span
+                className="absolute left-2 top-2 rounded-md border border-[var(--accent)]/30 bg-[var(--bg-surface)] px-1.5 py-0.5 font-mono-data text-xs font-bold text-[var(--accent)] shadow-sm"
+                aria-label={L(`Rang ${rank}`, `Rank ${rank}`)}
+              >
+                <span className="text-[9px] font-semibold opacity-70">{L("n°", "#")}</span>{rank}
+              </span>
+            );
             return (
               <Link
                 key={city.slug}
                 href={locale === "en" ? `/cities/${city.slug}` : `/villes/${city.slug}`}
                 className="group relative flex flex-col rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)] transition-colors overflow-hidden"
               >
-                {/* Map sheet with the place name on an enamel plaque — a name,
-                    never the score (the flat stripe below carries the tier). */}
-                <div className="topo-bg relative flex h-24 items-center justify-center bg-[var(--bg-canvas)] px-3">
-                  <span
-                    className="absolute left-2 top-2 rounded-md border border-[var(--accent)]/30 bg-[var(--bg-surface)] px-1.5 py-0.5 font-mono-data text-xs font-bold text-[var(--accent)]"
-                    aria-label={L(`Rang ${rank}`, `Rank ${rank}`)}
-                  >
-                    <span className="text-[9px] font-semibold opacity-70">{L("n°", "#")}</span>{rank}
-                  </span>
-                  <h3 className="plaque plaque-small max-w-full !text-sm leading-tight text-center">
-                    {city.name}
-                  </h3>
-                </div>
+                {/* Photo cover (same as CityCard), falling back to the map sheet
+                    with the place name on an enamel plaque — a name, never the
+                    score (the flat stripe below carries the tier). */}
+                {photo ? (
+                  <div className="relative h-28 overflow-hidden">
+                    <img
+                      src={photo.src}
+                      width={photo.width}
+                      height={photo.height}
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                      style={{ backgroundColor: photo.color }}
+                      className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                    />
+                    {rankBadge}
+                    {/* No links here: the whole card is already an <a>. */}
+                    <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent px-2.5 pb-1 pt-5 text-right text-[9px] leading-tight text-white/70">
+                      {photo.author ?? "Wikimedia Commons"} · {photo.license}
+                    </span>
+                  </div>
+                ) : (
+                  <div className="topo-bg relative flex h-28 items-center justify-center bg-[var(--bg-canvas)] px-3">
+                    {rankBadge}
+                    <span className="plaque plaque-small max-w-full !text-sm leading-tight text-center" aria-hidden="true">
+                      {city.name}
+                    </span>
+                  </div>
+                )}
                 <div className="h-1.5" style={{ background: scoreHex(city.scores.global) }} aria-hidden="true" />
                 <div className="p-5 flex-1 flex flex-col">
-                  <p className="text-xs text-[var(--text-tertiary)] truncate">
+                  <h3 className="text-lg font-bold leading-tight text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                    {city.name}
+                  </h3>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
                     {city.region}
                   </p>
                   <p className="text-xs text-[var(--text-secondary)] mt-3 leading-snug line-clamp-2 sm:line-clamp-3 flex-1">
