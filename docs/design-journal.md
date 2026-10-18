@@ -237,3 +237,29 @@ Captures `next dev` + Playwright à 1440 et 390 px, `scrollWidth` = viewport. `n
 1. `components/QuizTeaser.tsx` (home) — utilise encore `TiltCard`/`Spotlight`, à vérifier.
 2. Bandeau cookies — tuile 🍪 sur fond lavis bleu ; vérifier le reste.
 3. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.
+
+## 2026-10-18 ~23:00 UTC — home : `components/QuizTeaser.tsx` (FR + EN)
+
+**Surface** : section « Quiz IA » de la home (FR `/` et EN `/`).
+
+**Changé**
+- Retrait de toute la pile SaaS : `TiltCard`, `MagneticButton`, fond aurora + blobs flous animés,
+  grain, `glass-strong`, `gradient-text-anim`, bouton `shine accent-pulse`, pastille flottante
+  dégradée ambre→brique avec `Sparkles`.
+- Une **feuille** papier carte à filet `--border`, coupée en deux : copie à gauche, démo à droite
+  posée sur `.topo-bg`. Sur-titre en ligne mono accent ; « existe. / exists. » en `.ink-underline`
+  (seule occurrence de la home).
+- CTA « Trouver ma ville » en **`.plaque`** (même objet que le CTA City Match de la Navbar, icône
+  `MapPin`) ; lien secondaire souligné, ✨ décoratif retiré.
+- Étapes : pastilles de verre → légende numérotée 01/02/03 en mono sur filets pointillés (`<ol>`).
+- Démo : emojis 🌲🎭🌊🥐 retirés des réponses, `aria-pressed`, `type="button"`, une colonne sous sm ;
+  villes matchées en **`.plaque.plaque-small`** (noms de lieux), `aria-live`.
+- Non touché : copie, liens, nombre de villes.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright à 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Bandeau cookies — tuile 🍪 sur fond lavis bleu (vue en capture ce run).
+2. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.
+3. Simulateur de la home (section 05) — à inspecter.
