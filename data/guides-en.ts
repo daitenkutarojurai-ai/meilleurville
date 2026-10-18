@@ -47511,6 +47511,286 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["sallanches", "annecy"],
     tags: ["things to do in sallanches", "sallanches", "travel", "city guide", "auvergne-rhone-alpes"],
   },
+  {
+    slug: "things-to-do-in-longwy-2026",
+    title: "Things to do in Longwy: a Vauban hilltop town at the Belgian and Luxembourg borders",
+    metaTitle: "Things to Do in Longwy 2026",
+    metaDesc:
+      "A Vauban fortress town on the UNESCO list, enamel and faience, and a tri-border position next to Belgium and Luxembourg.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    intro:
+      "Longwy had 15,492 residents at the 2022 census, up from 14,364 in 2011. It joined France through the Treaty of Nijmegen in 1678, and Louis XIV had Vauban and Choisy build a fortress here. The plan is still readable in the upper town, listed by UNESCO in 2008 with other Vauban fortifications. Longwy is also the home of a well-known faience and of enamels. This guide separates what you visit in the upper town from what belongs to the lower town.",
+    sections: [
+      {
+        heading: "The upper town, Vauban's fortress",
+        body: "The upper town is the fortress laid out after 1678: a tight plan, straight streets and ramparts. It takes an hour or two on foot. It is a lived-in district, not a stage set, so expect residents, shops and cars.",
+      },
+      {
+        heading: "The 2008 UNESCO listing",
+        body: "Longwy belongs to the group of Vauban fortifications listed in 2008. The site was damaged by the bombardments of 1914 and 1944, which is why some buildings are reconstructions. This guide does not detail the state of each bastion: the tourist office gives the routes that are open.",
+      },
+      {
+        heading: "Ramparts and views",
+        body: "A walk round the ramparts gives views over the lower town and the three-border region. Some parapets have no guard rail, so keep an eye on children and stay off the edges.",
+      },
+      {
+        heading: "The Museum of Enamels and Faience",
+        body: "The museum sits in an eighteenth-century military bakery. It traces Longwy faience, made since 1798, and its enamels, a cloisonné-looking decoration that appeared in 1872. The collection also holds sculpture and work by local artists such as Jean-Paul Aubé. Check opening hours and prices before you go.",
+      },
+      {
+        heading: "A craft that is still alive",
+        body: "Production continues with the Société des faïenceries de Longwy et Senelle. For a workshop visit, go through the tourist office rather than turning up unannounced.",
+      },
+      {
+        heading: "Upper town and lower town: do not mix them up",
+        body: "Longwy-Bas, below, is a nineteenth- and twentieth-century urban fabric shaped by steelmaking. The upper town is Vauban's site. If you step off the train at the station you are in the lower town, and you have a climb ahead of you.",
+      },
+      {
+        heading: "A steel town, and the borders",
+        body: "Longwy lived on steelmaking, like the whole Lorraine basin, and the closure of the blast furnaces left a mark. It has been gaining residents since 2011, a point this guide states without drawing a verdict. The town sits where Belgium and Luxembourg meet France. These are internal Schengen borders with no checks, but carry ID. Luxembourg is very close, which explains the daily flow of cross-border workers.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "The upper town can be visited all year, and the ramparts are nicer in dry weather. Lorraine winters are cold and damp, so wear proper shoes on slippery cobbles. Longwy has a railway station and is reached by road from Metz, Thionville and Luxembourg, so check timetables. Half a day covers the upper town, a day adds the museum. Thionville has its own guide.",
+      },
+    ],
+    relatedCities: ["longwy", "thionville", "metz"],
+    tags: ["things to do in longwy", "longwy", "travel", "city guide", "grand-est"],
+  },
+  {
+    slug: "things-to-do-in-thiers-2026",
+    title: "Things to do in Thiers: France's cutlery capital above the Durolle valley",
+    metaTitle: "Things to Do in Thiers 2026",
+    metaDesc:
+      "France's cutlery capital: the knife museum, the Vallée des Rouets, the Creux de l'Enfer art centre and a steep medieval old town.",
+    category: "city-guide",
+    emoji: "🔪",
+    readMinutes: 5,
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    intro:
+      "Thiers had 11,686 residents at the 2022 census, up from 11,232 in 2011. The town is known for cutlery, a trade it has practised for a long time, and for an old town clinging to the slope above the Durolle valley. Three places tell the story of the trade: the Cutlery Museum, the Vallée des Rouets and the Creux de l'Enfer. This guide says where each one is and what changes with the season.",
+    sections: [
+      {
+        heading: "The Cutlery Museum",
+        body: "The museum holds the Musée de France label and occupies two sites in the old town. It tells the social and economic history of Thiers cutlery and shows pieces by French and foreign cutlers from the sixteenth century to today. Demonstration workshops make high-end pieces. Opening hours change with the season.",
+      },
+      {
+        heading: "The old town and the Pirou square",
+        body: "The historic centre is medieval, narrow and steep, with half-timbered houses and stairways. Wear flat shoes: the slope is hard on the knees. The Place du Pirou is one of the most photographed spots in the old town. You pass through it more than you stay, but it is a useful landmark.",
+      },
+      {
+        heading: "The Vallée des Rouets",
+        body: "Along the Durolle, the Vallée des Rouets is where blades were ground in workshops driven by water wheels. An interpretation trail follows the river, and the rouet known as Chez Lyonnet is the last one still working. Guided visits run in season, from June to September.",
+      },
+      {
+        heading: "The Creux de l'Enfer",
+        body: "The Creux de l'Enfer is a contemporary art centre set in a former cutlery works. For more than thirty years it has shown French and foreign artists, who sometimes produce work on site. Contemporary art in an industrial setting is the point.",
+      },
+      {
+        heading: "Make or buy a knife, with care",
+        body: "Several workshops in town offer to assemble a knife yourself. This is by reservation, through the tourist office. Thiers sells a great many knives and quality varies. This guide ranks no shop: ask a cutler to show where the blade and the finish come from. Table knives and pocket knives are also sold in factory shops. If you know Sheffield, this is the French counterpart of that cutlery tradition.",
+      },
+      {
+        heading: "The Livradois-Forez around it",
+        body: "Thiers sits on the edge of the Livradois-Forez regional natural park, whose mid-mountain landscapes can be reached from town. The park is a territory of its own, not a district of Thiers.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Summer opens the Vallée des Rouets, and the long days help you string the three sites together. Winter is cold and closes some access. Thiers has a railway station and a motorway exit, so check timetables, and it is reached from Clermont-Ferrand and Vichy. A day covers the museum, the old town and one of the other two sites.",
+      },
+    ],
+    relatedCities: ["thiers", "clermont-ferrand", "vichy"],
+    tags: ["things to do in thiers", "thiers", "travel", "city guide", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "things-to-do-in-gien-2026",
+    title: "Things to do in Gien: a hunting museum, a faience works and the Loire",
+    metaTitle: "Things to Do in Gien 2026",
+    metaDesc:
+      "A château housing the International Hunting Museum, a faience works founded in 1821 by an Englishman, and the Loire from the bridge.",
+    category: "city-guide",
+    emoji: "🏺",
+    readMinutes: 5,
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    intro:
+      "Gien had 13,431 residents at the 2022 census, down from 14,685 in 2011: the town is shrinking. It remains known for two addresses, a château that houses the International Hunting Museum and a faience works founded in 1821. Both are best seen from the bridge over the Loire. This guide says what you can visit in Gien and how to organise half a day.",
+    sections: [
+      {
+        heading: "The château",
+        body: "The château stands on a rocky spur above the town and the Loire bridge. It served as a prison and a courthouse in the early twentieth century before becoming a museum. The architecture mixes pre-Renaissance and Renaissance elements, and this guide does not pin down a date.",
+      },
+      {
+        heading: "The International Hunting Museum",
+        body: "The hunting museum, founded in 1952, became international in 1962 after the courthouse left. The ground floor is devoted to falconry, the first floor to hunting with hounds and with firearms, with mounted specimens and ethnographic objects. The subject is divisive for some visitors, and the museum owns that.",
+      },
+      {
+        heading: "The faience works",
+        body: "The works were founded in 1821 by Thomas Hall, an Englishman, who chose the site for its Loire stone and the neighbouring forest, a source of wood for the kilns. The canals helped move the pieces. The company holds the Entreprise du Patrimoine Vivant label.",
+      },
+      {
+        heading: "The factory museum and shop",
+        body: "A museum on the manufacturing site presents the history of the works, monumental pieces and armorial services. It is the best way to understand why this tableware became a reference address. The works sell their collections on site at the prices of an established brand. This guide quotes none, so compare with retailers.",
+      },
+      {
+        heading: "The bridge and the quays",
+        body: "The Gien bridge links the two banks, with the château and the church as a backdrop. The quays are a walk on foot with a view of the river. The Loire has a strong current, so do not improvise a swim.",
+      },
+      {
+        heading: "A rebuilt town, and the Loire by bike",
+        body: "Much of the centre was rebuilt after the Second World War. This guide does not detail that rebuilding, but invites you to look at the façades knowing it: Gien is not an intact medieval town. Gien is also on the Loire à Vélo, a signposted cycle route. Plan stages with the official map and the day's distances rather than an average.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Spring and early autumn suit walks along the quays. In winter some visits are reduced, so check opening times. Gien is reached from Orléans by road, and train times should be checked. Half a day covers the château and the faience works, a day adds cycling on the Loire. Orléans and Montargis have their own guides.",
+      },
+    ],
+    relatedCities: ["gien", "orleans", "montargis"],
+    tags: ["things to do in gien", "gien", "travel", "city guide", "centre-val-de-loire"],
+  },
+  {
+    slug: "things-to-do-in-vallauris-2026",
+    title: "Things to do in Vallauris: Picasso's War and Peace and a town of potters",
+    metaTitle: "Things to Do in Vallauris 2026",
+    metaDesc:
+      "Picasso's War and Peace panels, ceramics and Golfe-Juan: what to see in Vallauris, between Cannes and Antibes.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 5,
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    intro:
+      "Vallauris had 28,579 residents at the 2022 census, up from 27,411 in 2011. The town is known for its potters and for Picasso, who worked in ceramics here and in 1952 painted the two panels of War and Peace, now in the château chapel. Golfe-Juan, the seaside resort, is part of the commune. This guide sets out what you visit in Vallauris and what belongs to its neighbours Cannes and Antibes.",
+    sections: [
+      {
+        heading: "The Picasso National Museum, War and Peace",
+        body: "The museum occupies the Romanesque chapel of the château. The two monumental compositions, painted in 1952 on hardboard panels, are fixed to the vault. A third composition on the four parts of the world, added after 1957, is also shown there. One of the sources consulted says it is closed on Tuesdays, so check before you come.",
+      },
+      {
+        heading: "Picasso's ceramics",
+        body: "The ground floor of the château-museum is devoted to the artist's ceramics, the work that brought him to Vallauris. The pieces are vases, dishes and figures.",
+      },
+      {
+        heading: "The Magnelli and ceramics museums",
+        body: "The upper floors of the château hold the Magnelli museum and the ceramics museum. Seen together, they give an idea of the history of the potter's trade in Vallauris beyond Picasso.",
+      },
+      {
+        heading: "Potters' workshops and the town centre",
+        body: "Vallauris has pottery workshops and shops. This guide ranks none: ask to see the making, and check that a piece is made on site rather than imported. The town centre lines up pottery shops and is a short walk on foot. A market is held regularly in the centre. Days and hours are to be checked with the tourist office.",
+      },
+      {
+        heading: "Golfe-Juan",
+        body: "Golfe-Juan is part of the commune of Vallauris: it is the town's harbour and beach. Beaches follow the bathing flags, which are binding.",
+      },
+      {
+        heading: "Cannes and Antibes: reached from Vallauris",
+        body: "Cannes and Antibes are communes in their own right, each with its own sights. Vallauris serves as a quieter base between the two, without claiming their museums.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Outside summer the coast is calmer and museum visits are easier. In July and August traffic is heavy on the coast road. Vallauris is reached by bus from Cannes and Antibes, so check timetables. Half a day covers the museum and the centre, a day adds Golfe-Juan. Cannes, Antibes and Grasse have their own guides.",
+      },
+    ],
+    relatedCities: ["vallauris", "cannes", "antibes", "grasse"],
+    tags: ["things to do in vallauris", "vallauris", "travel", "city guide", "provence-alpes-cote-d-azur"],
+  },
+  {
+    slug: "things-to-do-in-la-fleche-2026",
+    title: "Things to do in La Flèche: a military school, a zoo and the river Loir",
+    metaTitle: "Things to Do in La Flèche 2026",
+    metaDesc:
+      "A military school founded by Henri IV, the Carmes château, one of France's largest zoos and the banks of the Loir.",
+    category: "city-guide",
+    emoji: "🎖️",
+    readMinutes: 5,
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    intro:
+      "La Flèche had 15,081 residents at the 2022 census, a figure stable since 2011 (15,108). The town is recognised by its Prytanée national militaire, founded in 1604 by Henri IV, and by a zoo among the most visited in western France. It sits on the Loir, not the Loire. This guide says what you can visit and what stays closed to the public.",
+    sections: [
+      {
+        heading: "The Prytanée national militaire",
+        body: "The Prytanée occupies the former Jesuit college founded in 1604 by Henri IV. Napoleon turned it into a military school, and it is still a state military lycée, listed as a historic monument. It is in operation: access to the inside is limited and depends on open days, to be checked with the tourist office.",
+      },
+      {
+        heading: "Descartes, a pupil of the college",
+        body: "The philosopher René Descartes is named among the pupils of the Jesuit college. The fact is well known but cannot be visited: the town treats it as a historical landmark, not an attraction.",
+      },
+      {
+        heading: "The Château des Carmes",
+        body: "The château has medieval origins and withstood sieges during the Hundred Years' War. Reworked in the seventeenth century, at the Revolution and after a fire in the twentieth century, it houses the town hall and hosts temporary exhibitions.",
+      },
+      {
+        heading: "Notre-Dame-des-Vertus chapel",
+        body: "The chapel has been listed as a historic monument since 1934 and has a Romanesque porch from the eleventh century. It belongs to an association, so opening depends on volunteers.",
+      },
+      {
+        heading: "The zoo",
+        body: "Founded in 1946, the zoo counts among the five largest in France, with about 160 species according to one of the sources consulted. French viewers know it from the documentary series Une saison au zoo. The figure varies from source to source, and this guide does not fix it.",
+      },
+      {
+        heading: "The Loir and the town centre",
+        body: "The Loir runs through town and its banks suit a walk. The river is not supervised for swimming, so ask before you get in. The centre is a half-hour walk on foot, quiet, and mainly a starting point for the other visits. La Flèche is also a base for the Loir valley, with villages and vineyards. Those sites belong to neighbouring communes and are reached by car.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "The zoo is mostly visited in fine weather, with longer hours in summer. In winter life is quieter. La Flèche is reached from Le Mans and Angers by road, and the train should be checked. Half a day covers the centre, a full day adds the zoo. Le Mans and Angers have their own guides.",
+      },
+    ],
+    relatedCities: ["la-fleche", "le-mans", "angers"],
+    tags: ["things to do in la-fleche", "la-fleche", "travel", "city guide", "pays-de-la-loire"],
+  },
+  {
+    slug: "things-to-do-in-villefranche-de-rouergue-2026",
+    title: "Things to do in Villefranche-de-Rouergue: a 1252 bastide with an arcaded square",
+    metaTitle: "Things to Do in Villefranche-de-Rouergue",
+    metaDesc:
+      "A bastide founded in 1252, the arcaded Place Notre-Dame, a collegiate church and the Saint-Sauveur charterhouse.",
+    category: "city-guide",
+    emoji: "🏘️",
+    readMinutes: 5,
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    intro:
+      "Villefranche-de-Rouergue had 11,502 residents at the 2022 census, down from 11,742 in 2011. The town is a bastide founded in 1252 by Alphonse de Poitiers, brother of Saint Louis. It kept its grid plan, an arcaded square and a fifteenth-century charterhouse. A bastide is a new town of the Middle Ages, laid out in one go around a central square. This guide says what you see here and what belongs to neighbouring villages.",
+    sections: [
+      {
+        heading: "Place Notre-Dame",
+        body: "The heart of the bastide is Place Notre-Dame, lined with arcades and half-timbered houses. It is the starting point of a visit. Market days are to be checked with the tourist office.",
+      },
+      {
+        heading: "The Notre-Dame collegiate church",
+        body: "The church was completed at the end of the fifteenth century, after more than three hundred years of building. Its porch-tower is remarkable. The tower has 163 steps according to the tourist office, and whether you can climb depends on opening.",
+      },
+      {
+        heading: "The Saint-Sauveur charterhouse",
+        body: "The charterhouse dates from the fifteenth century, with building under way in 1452 according to one source. Its cloister is presented as one of the largest in France. Sources differ on the superlative, and this guide sticks to among the largest.",
+      },
+      {
+        heading: "The Black Penitents' chapel",
+        body: "This Baroque chapel is a landmark of the town. It is not always open, so check for a guided visit.",
+      },
+      {
+        heading: "Feeling the grid",
+        body: "Villefranche is a clear example of a bastide, and walking along its parallel streets is enough to feel it. Bastides were founded by both the French and the English crowns in south-west France, which is why you will meet them across the region.",
+      },
+      {
+        heading: "The Aveyron, and nearby bastides",
+        body: "The river Aveyron borders the town. The banks can be walked, and the river needs watching in a flood. Najac and other bastides of the Pays des Bastides du Rouergue are communes of their own, each with its castle or church. Villefranche serves as a base, but you will not find those sites here.",
+      },
+      {
+        heading: "Local food, when to come and how to get here",
+        body: "The Aveyron has hearty regional cooking, with mountain and plain produce. This guide ranks no restaurant: ask locals about the dishes of the day. Spring and autumn are pleasant. Summer is hot, and some visits run in season. Villefranche is reached by road from Rodez, Albi and Cahors, and the train should be checked. Half a day covers the square and the collegiate church, a day adds the charterhouse. Rodez, Albi and Cahors have their own guides.",
+      },
+    ],
+    relatedCities: ["villefranche-de-rouergue", "rodez", "albi", "cahors"],
+    tags: ["things to do in villefranche-de-rouergue", "villefranche-de-rouergue", "travel", "city guide", "occitanie"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

@@ -8955,18 +8955,48 @@
       "slug": "things-to-do-in-sallanches-2026",
       "title": "Things to do in Sallanches: a Sardinian-style town facing Mont Blanc",
       "emoji": "🏔️"
+    },
+    {
+      "slug": "things-to-do-in-longwy-2026",
+      "title": "Things to do in Longwy: a Vauban hilltop town at the Belgian and Luxembourg borders",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-thiers-2026",
+      "title": "Things to do in Thiers: France's cutlery capital above the Durolle valley",
+      "emoji": "🔪"
+    },
+    {
+      "slug": "things-to-do-in-gien-2026",
+      "title": "Things to do in Gien: a hunting museum, a faience works and the Loire",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "things-to-do-in-vallauris-2026",
+      "title": "Things to do in Vallauris: Picasso's War and Peace and a town of potters",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-la-fleche-2026",
+      "title": "Things to do in La Flèche: a military school, a zoo and the river Loir",
+      "emoji": "🎖️"
+    },
+    {
+      "slug": "things-to-do-in-villefranche-de-rouergue-2026",
+      "title": "Things to do in Villefranche-de-Rouergue: a 1252 bastide with an arcaded square",
+      "emoji": "🏘️"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 307
+      "count": 313
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 301
+      "count": 307
     },
     {
       "slug": "moving-to-france",
@@ -8986,7 +9016,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 72
+      "count": 73
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -8996,12 +9026,12 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 69
+      "count": 70
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 66
+      "count": 67
     },
     {
       "slug": "solo-travel",
@@ -9056,7 +9086,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 44
+      "count": 45
     },
     {
       "slug": "brittany",
@@ -9086,12 +9116,12 @@
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
-      "count": 30
+      "count": 31
     },
     {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "bourgogne-franche-comte",
