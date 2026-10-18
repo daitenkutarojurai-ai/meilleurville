@@ -7542,6 +7542,56 @@
       "emoji": "🌅"
     },
     {
+      "slug": "retraite-a-montpellier-2026",
+      "title": "Retraite à Montpellier en 2026 : santé, logement, budget, le guide",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "retraite-a-bordeaux-2026",
+      "title": "Retraite à Bordeaux en 2026 : santé, logement, budget, le guide",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "retraite-a-nice-2026",
+      "title": "Retraite à Nice en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "retraite-a-perpignan-2026",
+      "title": "Retraite à Perpignan en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "retraite-a-la-rochelle-2026",
+      "title": "Retraite à La Rochelle en 2026 : santé, logement, budget, le guide",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "retraite-a-pau-2026",
+      "title": "Retraite à Pau en 2026 : santé, logement, budget, le guide",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "retraite-a-toulon-2026",
+      "title": "Retraite à Toulon en 2026 : santé, logement, budget, le guide",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "retraite-a-vannes-2026",
+      "title": "Retraite à Vannes en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "retraite-a-angers-2026",
+      "title": "Retraite à Angers en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "retraite-a-hyeres-2026",
+      "title": "Retraite à Hyères en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌺"
+    },
+    {
       "slug": "demenager-a-paris-2026",
       "title": "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
       "emoji": "📦"
@@ -11321,6 +11371,11 @@
     {
       "slug": "renovation-energetique",
       "label": "rénovation énergétique",
+      "count": 3
+    },
+    {
+      "slug": "retraite-charente-maritime",
+      "label": "retraite Charente-Maritime",
       "count": 3
     },
     {
