@@ -1,7 +1,7 @@
 import Link from "@/components/AppLink";
-import { ArrowRight, Trophy } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { scoreColor } from "@/lib/utils";
+import { scoreColor, scoreHex } from "@/lib/utils";
 
 function tagline(city: (typeof CITIES_SEED)[number], locale: "fr" | "en"): string {
   const s = city.scores;
@@ -21,16 +21,8 @@ function tagline(city: (typeof CITIES_SEED)[number], locale: "fr" | "en"): strin
   return `${tag ? tag.charAt(0).toUpperCase() + tag.slice(1) : fallback} · ${top[0].label}`;
 }
 
-function medal(rank: number): string {
-  return ["🥇", "🥈", "🥉", "🏅", "🏅"][rank - 1] ?? "·";
-}
-
-function rankColor(rank: number): string {
-  if (rank === 1) return "from-amber-300 via-yellow-400 to-orange-400";
-  if (rank === 2) return "from-slate-200 via-slate-300 to-slate-400";
-  if (rank === 3) return "from-orange-200 via-amber-400 to-orange-500";
-  return "from-slate-200 via-slate-300 to-slate-400";
-}
+/* Podium rank set as a carton label (same as CityCard): the old 🥇🥈🥉 +
+   gold/bronze gradient bars borrowed amber/orange, reserved for score tiers. */
 
 export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
@@ -40,15 +32,11 @@ export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
 
   return (
     <section id="top5" className="relative py-8 sm:py-20">
-      <div className="pointer-events-none absolute inset-0" aria-hidden>
-        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--accent)]/30 to-transparent" />
-      </div>
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
+        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8 border-t border-[var(--border)] pt-6">
           <div>
-            <p className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-              <Trophy className="h-3.5 w-3.5" />
-              {L("Top 5 villes", "Top 5 cities")}
+            <p className="font-mono-data text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+              {L("Podium · Top 5 villes", "Podium · Top 5 cities")}
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
               {L("Les 5 villes les mieux notées", "The 5 best-rated cities")}
@@ -76,39 +64,40 @@ export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
               <Link
                 key={city.slug}
                 href={locale === "en" ? `/cities/${city.slug}` : `/villes/${city.slug}`}
-                className="group relative flex flex-col rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/50 hover:shadow-xl hover:-translate-y-0.5 transition-all overflow-hidden"
+                className="group relative flex flex-col rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)] transition-colors overflow-hidden"
               >
-                <div className={`h-1.5 bg-gradient-to-r ${rankColor(rank)}`} aria-hidden />
-                <div className="p-5 flex-1 flex flex-col">
-                  <div className="flex items-start justify-between mb-3">
-                    <span className="text-2xl" aria-label={L(`Rang ${rank}`, `Rank ${rank}`)}>
-                      {medal(rank)}
-                    </span>
-                    <span className="text-xs font-mono-data font-bold text-[var(--text-tertiary)]">
-                      #{rank}
-                    </span>
-                  </div>
-                  <h3 className="text-lg font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-tight">
+                {/* Map sheet with the place name on an enamel plaque — a name,
+                    never the score (the flat stripe below carries the tier). */}
+                <div className="topo-bg relative flex h-24 items-center justify-center bg-[var(--bg-canvas)] px-3">
+                  <span
+                    className="absolute left-2 top-2 rounded-md border border-[var(--accent)]/30 bg-[var(--bg-surface)] px-1.5 py-0.5 font-mono-data text-xs font-bold text-[var(--accent)]"
+                    aria-label={L(`Rang ${rank}`, `Rank ${rank}`)}
+                  >
+                    <span className="text-[9px] font-semibold opacity-70">{L("n°", "#")}</span>{rank}
+                  </span>
+                  <h3 className="plaque plaque-small max-w-full !text-sm leading-tight text-center">
                     {city.name}
                   </h3>
-                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                </div>
+                <div className="h-1.5" style={{ background: scoreHex(city.scores.global) }} aria-hidden="true" />
+                <div className="p-5 flex-1 flex flex-col">
+                  <p className="text-xs text-[var(--text-tertiary)] truncate">
                     {city.region}
                   </p>
                   <p className="text-xs text-[var(--text-secondary)] mt-3 leading-snug line-clamp-2 sm:line-clamp-3 flex-1">
                     {tagline(city, locale)}
                   </p>
-                  <div className="mt-4 flex items-end justify-between">
+                  <div className="mt-4 flex items-end justify-between border-t border-dashed border-[var(--border)] pt-3">
                     <div>
                       <div className="text-[10px] uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">
                         {L("Score global", "Overall score")}
                       </div>
                       <div className={`text-2xl font-bold font-mono-data ${scoreColor(city.scores.global)}`}>
                         {city.scores.global.toFixed(1)}
+                        <span className="sr-only"> {L("sur", "out of")} 10</span>
                       </div>
                     </div>
-                    <span className="text-xs text-[var(--accent)] font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
-                      {L("Voir →", "View →")}
-                    </span>
+                    <ArrowRight className="h-4 w-4 text-[var(--accent)] transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
                   </div>
                 </div>
               </Link>

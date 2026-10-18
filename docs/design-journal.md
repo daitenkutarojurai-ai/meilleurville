@@ -158,3 +158,30 @@ méga-menu ouvert) et 390 px (tiroir), `scrollWidth` = viewport. `npm run build`
 1. `components/TopFiveCities.tsx` / `FeaturedCities` de la home.
 2. Bandeau cookies — tuile 🍪 en lucide sur fond lavis ; vérifier le reste.
 3. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.
+
+## 2026-10-18 ~03:00 UTC — home : `TopFiveCities` + en-tête de `FeaturedCities` (FR + EN)
+
+**Surface** : les deux premières sections « villes » de la home (FR et EN, composants partagés).
+
+**Changé**
+- **TopFiveCities** : médailles 🥇🥈🥉🏅 et barres de rang en dégradé or/argent/bronze
+  (ambre/orange = couleurs de palier détournées) retirées. Chaque carte porte une **feuille topo**
+  avec le nom de la ville sur `.plaque.plaque-small` (un nom de lieu, jamais le score), le rang en
+  étiquette carton à filet bleu plaque « n°1 » (même objet que `CityCard`), puis la **bande de
+  palier à plat** (`scoreHex`, vraie couleur de score). Pied de carte sur filet pointillé, flèche
+  accent au lieu d'un « Voir → » invisible sans survol ; ombre portée et translation retirées.
+  Sur-titre 🏆/Trophy → ligne mono « Podium · Top 5 villes » ; liseré dégradé du haut → filet `--border`.
+- **FeaturedCities** : badge `success` vert « 🏆 Coup de cœur » (vert de palier en décoration) →
+  ligne mono accent « Coup de cœur · 6 villes », même filet de tête que le podium.
+- Non touché : scores, tagline, copie, `CityCard`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les
+2 fichiers : 0 erreur. Captures `next dev` + Playwright (`/opt/node22/lib/node_modules/playwright`)
+sur `/` à 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+⚠️ `tsc` après `next dev` : supprimer `.next` (types générés tronqués) — et `pkill` dans sa propre
+commande, il tue le shell sinon (re-piégé ce run).
+
+**Prochaines surfaces candidates**
+1. `components/SectionNav.tsx` — emojis 🏆 📊 🔍 ✨ 💸 📖 devant chaque ancre (vus en capture).
+2. Bandeau cookies — tuile 🍪 en lucide sur fond lavis ; vérifier le reste.
+3. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.

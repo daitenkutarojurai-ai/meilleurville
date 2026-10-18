@@ -1,6 +1,5 @@
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
-import { Badge } from "@/components/ui/Badge";
 import Link from "@/components/AppLink";
 import { ArrowRight } from "lucide-react";
 import type { City } from "@/lib/types";
@@ -35,9 +34,13 @@ export function FeaturedCities({ locale = "fr" }: { locale?: "fr" | "en" } = {})
   return (
     <section id="explorer" className="py-8 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="mb-10 flex items-end justify-between">
+        <div className="mb-10 flex items-end justify-between border-t border-[var(--border)] pt-6">
           <div>
-            <Badge variant="success" className="mb-3">{L("🏆 Coup de cœur", "🏆 Editor's picks")}</Badge>
+            {/* Kicker in ink and plaque navy: the old green "success" badge + 🏆
+                borrowed a score-tier colour as decoration. */}
+            <p className="font-mono-data text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-3">
+              {L("Coup de cœur · 6 villes", "Editor's picks · 6 cities")}
+            </p>
             <h2 className="text-3xl font-bold text-[var(--text-primary)]">
               {L("Les villes où on se sent bien", "The cities where life just feels good")}
             </h2>
