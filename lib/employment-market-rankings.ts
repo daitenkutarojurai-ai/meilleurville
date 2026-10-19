@@ -3,6 +3,11 @@
 // Séparé de lib/employment-market.ts pour que le compute mono-ville + les
 // maps LABEL/COLOR/BG restent seed-free (sinon tout import value embarque
 // CITIES_SEED dans le bundle client).
+//
+// **Convention** : ces tableaux portent le `composite` brut du moteur (`lib/employment-market.ts`,
+// 10 = pire) et trient dessus ; aucune inversion ici. Une surface qui nomme une
+// qualité affiche `10 - composite` au site d'affichage, avec sa légende — jamais
+// la valeur brute sous un nom de qualité, ni dans la palette `scoreColor`.
 
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeEmploymentMarket, type EmploymentMarket } from "@/lib/employment-market";

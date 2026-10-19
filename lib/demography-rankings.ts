@@ -3,6 +3,11 @@
 // Séparé de lib/demography.ts pour que ce dernier reste seed-free
 // (les composants client n'ont besoin que de computeDemography +
 // constantes LABEL/COLOR/BG sans bundler les 600 KB du seed).
+//
+// **Convention** : ces tableaux portent le `composite` brut du moteur (`lib/demography.ts`,
+// 10 = pire) et trient dessus ; aucune inversion ici. Une surface qui nomme une
+// qualité affiche `10 - composite` au site d'affichage, avec sa légende — jamais
+// la valeur brute sous un nom de qualité, ni dans la palette `scoreColor`.
 
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeDemography, type Demography } from "@/lib/demography";

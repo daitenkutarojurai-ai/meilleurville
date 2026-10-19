@@ -223,6 +223,7 @@ export const PARITY_EXCEPTIONS: Record<string, string> = {
   "mes-villes": "Surface de compte.",
   favoris: "Surface de compte.",
   connexion: "Surface de compte.",
+  "presidentielle-2027": "Hub électoral FR seul (CLAUDE.md § Politique) : l'audience EN a la projection par ville (/cities/[slug]/2027-election) et /political-leaning, pas de hub dédié ; canonical nu, aucun hreflang déclaré.",
   // EN-only
   "best-value-cities": "Angle expat sans équivalent FR direct (le FR passe par /classements).",
   "my-account": "Surface de compte.",

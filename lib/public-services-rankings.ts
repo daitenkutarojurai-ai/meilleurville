@@ -1,5 +1,10 @@
 // F60 — Services publics : section classement (dépend du seed complet).
 // Séparé de lib/public-services.ts pour garder le compute mono-ville seed-free.
+//
+// **Convention** : ces tableaux portent le `composite` brut du moteur (`lib/public-services.ts`,
+// 10 = pire) et trient dessus ; aucune inversion ici. Une surface qui nomme une
+// qualité affiche `10 - composite` au site d'affichage, avec sa légende — jamais
+// la valeur brute sous un nom de qualité, ni dans la palette `scoreColor`.
 
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computePublicServices, type PublicServices } from "@/lib/public-services";
