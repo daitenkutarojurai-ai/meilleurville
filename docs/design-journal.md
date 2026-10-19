@@ -342,3 +342,27 @@ Captures `next dev` + Playwright à 1440 et 390 px, `scrollWidth` = viewport. `n
 1. `components/RedFlagTeaser.tsx` (home) — aurora/blur à inspecter.
 2. `components/NewsletterSection.tsx` (home) — idem.
 3. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie + `backdrop-blur` : passer en fiche papier.
+
+## 2026-10-19 ~23:00 UTC — home : `components/RedFlagTeaser.tsx` (FR + EN)
+
+**Surface** : section « Red Flag Radar » de la home (FR `/` et EN `/`).
+
+**Changé**
+- Fin du rouge détourné (rouge = palier « Mauvais ») : lavis radial rouge, pastille `rounded-full`
+  rouge, tuiles d'icônes rouges, lien CTA rouge, bordures rouges au survol, `gradient-text-anim`.
+- Le radar devient la **légende des risques d'une carte** : cartouche encadré sur papier `.topo-bg`
+  (double cadre), en-tête mono « Légende · 4 catégories surveillées », chaque catégorie = symbole
+  carré **hachuré brique** (`--accent-pink`, la seule touche chaude) + référence mono R1–R4, filets
+  pointillés ; plus de flèches trompeuses sur des lignes qui ne sont pas des liens.
+- En-tête aligné sur les autres sections de la home (filet de tête, sur-titre mono brique, mot-clé
+  `font-display` italique brique), CTA souligné d'un trait brique. Section sur le papier de la page
+  (plus de `bg-surface` + `overflow-hidden`), largeur `max-w-5xl` comme ses voisines.
+- Non touché : copie, catégories, lien.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright à 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `components/NewsletterSection.tsx` (home) — aurora/blur à inspecter.
+2. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie : passer en fiche papier (visible sur toutes les captures).
+3. Hub `/red-flags` — dégradés de héros (cf. CLAUDE.md « fair game »), dans la continuité de ce teaser.

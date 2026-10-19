@@ -1,5 +1,15 @@
 import Link from "@/components/AppLink";
 import { AlertTriangle, ArrowRight, Volume2, Droplets, Wind, Shield } from "lucide-react";
+import type { CSSProperties } from "react";
+
+// The Red Flag Radar as the hazard legend of the survey map: a framed cartouche
+// on topo paper, each category a hatched brick symbol with a grid reference.
+// Brick is the site's one warm pop — red stays reserved for the score tiers,
+// so no red washes, pills or icons here. CLAUDE.md « Carte & plaque ».
+const HATCH: CSSProperties = {
+  backgroundImage:
+    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
+};
 
 export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
@@ -28,32 +38,29 @@ export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
   ];
 
   return (
-    <section className="relative py-8 sm:py-20 bg-[var(--bg-surface)] overflow-hidden">
-      <div className="pointer-events-none absolute inset-0" aria-hidden>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_40%_at_70%_30%,rgba(239,68,68,0.06),transparent_70%)]" />
-      </div>
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="grid gap-12 lg:grid-cols-2 items-center">
+    <section className="py-8 sm:py-16">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <div className="grid items-center gap-10 border-t border-[var(--border)] pt-6 lg:grid-cols-2">
           {/* Left: copy */}
           <div>
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-sm text-red-500">
-              <AlertTriangle className="h-3.5 w-3.5" />
+            <p className="mb-3 inline-flex items-center gap-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent-pink)]">
+              <AlertTriangle className="h-3.5 w-3.5" aria-hidden="true" />
               Red Flag Radar
-            </div>
-            <h2 className="mb-4 text-3xl lg:text-5xl font-bold text-[var(--text-primary)] leading-[1.05] tracking-tight">
+            </p>
+            <h2 className="mb-4 text-3xl font-bold leading-[1.05] tracking-tight text-[var(--text-primary)] lg:text-5xl">
               {locale === "en" ? (
                 <>
                   What the property listing{" "}
-                  <span className="font-display italic gradient-text-anim">will never tell you.</span>
+                  <span className="font-display italic text-[var(--accent-pink)]">will never tell you.</span>
                 </>
               ) : (
                 <>
                   Ce que l&apos;annonce immobilière{" "}
-                  <span className="font-display italic gradient-text-anim">ne vous dira jamais.</span>
+                  <span className="font-display italic text-[var(--accent-pink)]">ne vous dira jamais.</span>
                 </>
               )}
             </h2>
-            <p className="mb-8 text-[var(--text-secondary)] leading-relaxed text-lg">
+            <p className="mb-6 text-lg leading-relaxed text-[var(--text-secondary)]">
               {L(
                 "Bruit, inondations, pollution, insécurité — quatre catégories de points noirs qu'on liste pour chaque ville à partir des données ouvertes (Géorisques, ATMO, SSMSI). Sourcé, daté, vérifiable.",
                 "Noise, flooding, pollution, crime — four categories of red flags we list for every city, built from open data (Géorisques, ATMO, SSMSI). Sourced, dated, checkable."
@@ -61,42 +68,53 @@ export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
             </p>
             <Link
               href="/red-flags"
-              className="inline-flex items-center gap-2 text-red-500 font-semibold hover:underline"
+              className="inline-flex items-center gap-2 border-b-2 border-[var(--accent-pink)] pb-0.5 font-semibold text-[var(--text-primary)] transition-colors hover:text-[var(--accent-pink)]"
             >
               {L("Explorer le Red Flag Radar", "Explore the Red Flag Radar")}
-              <ArrowRight className="h-4 w-4" />
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>
 
-          {/* Right: flag types — honest, not fake signalements */}
-          <div className="space-y-3">
-            <p className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold mb-2">
-              {L("4 catégories surveillées", "4 categories tracked")}
-            </p>
-            {FLAG_TYPES.map(({ icon: Icon, label, desc }) => (
-              <div
-                key={label}
-                className="group flex items-center gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-red-500/40 hover:shadow-md transition-all p-4"
-              >
-                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-red-500/10 border border-red-500/20 group-hover:scale-110 transition-transform">
-                  <Icon className="h-4 w-4 text-red-500" />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <div className="text-sm font-bold text-[var(--text-primary)]">
-                    {label}
-                  </div>
-                  <div className="text-xs text-[var(--text-secondary)]">{desc}</div>
-                </div>
-                <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-red-500 transition-colors" />
+          {/* Right: the legend cartouche — honest categories, not fake signalements */}
+          <div className="topo-bg rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] p-1.5">
+            <div className="rounded-lg border border-[var(--text-primary)]/15 bg-[var(--bg-surface)]/90 p-4 sm:p-5">
+              <div className="mb-3 flex items-baseline justify-between gap-3 border-b border-[var(--text-primary)]/15 pb-2">
+                <p className="font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-primary)]">
+                  {L("Légende", "Legend")}
+                </p>
+                <p className="font-mono-data text-[10px] uppercase tracking-wider text-[var(--text-tertiary)]">
+                  {L("4 catégories surveillées", "4 categories tracked")}
+                </p>
               </div>
-            ))}
-            <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-elevated)]/40 p-4 text-center">
-              <div className="text-xs text-[var(--text-secondary)]">
+              <ul>
+                {FLAG_TYPES.map(({ icon: Icon, label, desc }, i) => (
+                  <li
+                    key={label}
+                    className="flex items-center gap-4 border-b border-dashed border-[var(--border)] py-3 last:border-b-0"
+                  >
+                    <span
+                      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
+                      style={HATCH}
+                      aria-hidden="true"
+                    >
+                      <Icon className="h-4 w-4" strokeWidth={2} />
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <div className="text-sm font-bold text-[var(--text-primary)]">{label}</div>
+                      <div className="text-xs text-[var(--text-secondary)]">{desc}</div>
+                    </div>
+                    <span className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]" aria-hidden="true">
+                      R{i + 1}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 border-t border-[var(--text-primary)]/15 pt-3 text-xs text-[var(--text-secondary)]">
                 {L(
                   "Vous voulez signaler un point noir ? Discussion ouverte sur la page Red Flags.",
                   "Spotted a red flag? Join the open discussion on the Red Flags page."
                 )}
-              </div>
+              </p>
             </div>
           </div>
         </div>
