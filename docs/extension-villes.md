@@ -18,7 +18,7 @@ routine l'écrit au § 3.2 **avant** usage, comme toutes les règles précédent
 | # | Décision | Débloque | Ce que la routine ferait sans autre précision |
 |---|---|---|---|
 | D1 | **Overrides documentés** dans `lib/score-calibration.ts` pour les villes qui ne ressemblent pas à leurs voisines | Villeneuve-d'Ascq (62 868 hab., la plus grosse absente), Cenon, La Madeleine, Marcq-en-Barœul, Lambersart, Montfermeil, Sucy-en-Brie (tableau A) | une ville par run, chaque note d'axe adossée à une mesure publiée (Filosofi, DVF, SSMSI) citée dans le journal ; jamais une médiane de voisines |
-| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | pré-mesuré les 2026-10-18 sur quatorze : Juvisy-sur-Orge et Mennecy passent la règle des voisines sans alerte, **mais aucune ne passe le marché** (ratio intra-source RealAdvisor ≠ ratio multi-sources de plus de 10 %, motif Carquefou ; cf. journal 18/10 quatrième run et D8) ; Chevilly-Larue, Boissy-Saint-Léger, Viroflay, Le Vésinet relèvent aussi de D5 ; Saint-Égrève et Ramonville-Saint-Agne exigent de justifier une 4ᵉ voisine > 12,6 km ; Bourg-lès-Valence, Lisieux, Sorgues, Brie-Comte-Robert, Beaucaire, Guipavas échouent (tableau D, ~30 noms restants) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
+| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | pré-mesuré les 2026-10-18 sur quatorze : Juvisy-sur-Orge et Mennecy passent la règle des voisines sans alerte, **mais aucune ne passe le marché** (ratio intra-source RealAdvisor ≠ ratio multi-sources de plus de 10 %, motif Carquefou ; cf. journal 18/10 quatrième run et D8) ; Chevilly-Larue, Boissy-Saint-Léger, Viroflay, Le Vésinet relèvent aussi de D5 ; Saint-Égrève et Ramonville-Saint-Agne exigent de justifier une 4ᵉ voisine > 12,6 km ; **Lognes** passe la règle des voisines sans alerte (2026-10-19, marché non mesuré), Saint-Brice-sous-Forêt sous réserve du marché (m² × 1,83) ; Pornic et Le Pontet relèvent de D1 ; Bourg-lès-Valence, Lisieux, Sorgues, Brie-Comte-Robert, Beaucaire, Guipavas, Elbeuf, Rive-de-Gier échouent (tableau D, ~30 noms restants) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
 | D3 | **Règle Antilles-Guyane-Mayotte** (≤ 3 villes au seed par territoire : la règle des 4 voisines ne peut pas s'appliquer) | Le Gosier, Sainte-Anne, Le Moule, Petit-Bourg (971), Kourou, Matoury, Rémire-Montjoly (973), Koungou (976) | proposition : voisines = toutes les villes du territoire au seed, à condition que le backtest `--dept=` sur ces villes reste ≤ 0,7 d'écart moyen ; sinon override D1 |
 | D4 | **Valider la levée « 4ᵉ voisine > 25 km » à La Réunion**, prise par la routine le 2026-10-14 (lot 16) | confirme Sainte-Marie et Sainte-Suzanne déjà publiées ; ouvre Le Port si sa DVF passe | refus = retrait des 2 villes (2 entrées seed, housing, quartiers, codes postaux, 2 lignes `DOCUMENTED_MODES`) |
 | D5 | **Alerte de frontière quand la règle standard tient** (une commune d'un autre département plus proche que la 4ᵉ voisine) | Villeparisis, Saint-Ouen-l'Aumône, Mitry-Mory | proposition : appliquer la règle ① (voisines tous départements) et n'accepter que si standard **et** ① donnent le même global à 0,3 près |
@@ -2355,3 +2355,35 @@ actuelle, le backlog est vide, et seule une décision du § 0 peut produire un l
 
 **Prochain lot** : dès qu'une décision du § 0 est prise. Sous D2 + D8 : Mennecy, Juvisy-sur-Orge ; puis
 `seed:neighbours` sur Elbeuf, Rive-de-Gier, Saint-Brice-sous-Forêt, Pornic, Le Pontet, Lognes.
+
+### 2026-10-19 (troisième run) — aucun lot : les six candidates D2 du tableau D passées à `seed:neighbours`
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le 18/10 hors `[scheduled-agent]` ne porte que des guides (étudiant, retraite, vacances) et le podium
+d'accueil ; rien sur le seed, `score-calibration.ts`, ROADMAP ou CLAUDE.md. Rien ne passe la règle actuelle : aucune
+ville ajoutée.
+
+*Livrable* : `npm run seed:neighbours` sur les six communes de 15 000-20 000 hab. que le tableau D recoupé désigne
+pour D2 (Elbeuf, Rive-de-Gier, Saint-Brice-sous-Forêt, Pornic, Le Pontet, Lognes). Coordonnées : centroïdes usuels
+**non recoupés sur deux sources** ; pour les deux qui passent, résultat contrôlé sur trois centres décalés de
+0,3 à 0,7 km. Aucune écriture dans le seed.
+
+| Commune | Insee | Résultat | Détail |
+|---|---|---|---|
+| **Lognes** (77) | 77258 | **passe** (règle standard, sans alerte) | voisines Torcy · Champs-sur-Marne · Bussy-Saint-Georges* · Chelles ou Pontault-Combault selon le centre (4ᵉ à 5,4-5,9 km) ; global brut 6,4 identique aux quatre centres, **nature 6,7 ou 6,9** selon la 4ᵉ voisine (seul axe qui bouge). Repère housing T2 940 €, m² 4 000 €. Contrairement à l'attente du run précédent, **aucune alerte de frontière**. Ratios marché (DVF, intra-source, loyer) **non mesurés** |
+| Saint-Brice-sous-Forêt (95) | 95539 | règle tient, **repère m² des voisines × 1,83** | Sarcelles · Montmorency · Villiers-le-Bel · Garges, mêmes notes aux trois centres (global 5,2) ; Montmorency (4 200 €/m²) tire le repère — § 3.3 bis obligatoire |
+| Pornic (44) | 44131 | règle tient, **4ᵉ voisine à 40,1 km** + repère m² × 1,73 | Saint-Nazaire · Couëron* · Saint-Herblain · Orvault : la côte de Retz hérite de la banlieue nantaise, voisines non comparables → relève de D1 plutôt que de la règle |
+| Le Pontet (84) | 84092 | règle tient mal : **4ᵉ voisine à 59,6 km** + alerte de frontière | Avignon (4,6 km, override) exclue ; Carpentras · Cavaillon · Orange · Pertuis. Relève de D1 |
+| Elbeuf (76) | 76231 | **échoue** : 3 voisines ; règle ② : 4ᵉ à 71,2 km (Dieppe) + frontière (Évreux) + m² × 1,61 | |
+| Rive-de-Gier (42) | 42186 | **échoue** : 2 voisines ; règle ② : 4ᵉ à 70,7 km (Roanne) + 19 villes du Rhône plus proches | Saint-Étienne en override |
+
+Conséquence pour le § 0 : sous D2 + D8, le premier lot possible compte **trois** communes à confirmer au marché
+(Mennecy, Juvisy-sur-Orge, Lognes), une quatrième sous réserve du marché (Saint-Brice-sous-Forêt). Ligne D2 du § 0
+mise à jour.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise. Sous D2 : mesurer d'abord le § 3.3 bis de Lognes (DVF
+commune sur ≥ 2 sites, ratio intra-source, loyer) et recouper ses coordonnées sur deux sources.
