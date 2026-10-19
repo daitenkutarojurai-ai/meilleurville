@@ -2318,3 +2318,40 @@ autres sortent du gisement même sous D2. Aucune mesure de voisines faite ce run
 **Prochain lot** : dès qu'une décision du § 0 est prise (D2 + D8 : Mennecy, Juvisy-sur-Orge). Reste au tableau D
 sans recoupement : Pornic, Freyming-Merlebach, Creutzwald, Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien,
 Dugny, Lognes.
+
+### 2026-10-19 (second run) — aucun lot : les dix dernières lignes du tableau D recoupées, le tableau est clos
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le 18/10 hors `[scheduled-agent]` ne porte que des guides (étudiant, retraite, vacances), le podium
+d'accueil et `/departments` EN ; rien sur le seed, `score-calibration.ts`, ROADMAP ou CLAUDE.md. Rien ne passe la
+règle actuelle : aucune ville ajoutée.
+
+*Livrable* : fin de la fiabilisation du backlog D. Les dix noms « sans recoupement » restants cherchés (recherche web ;
+Banatic, Wikipédia, citypopulation, notre-planete, villesavivre, Habity selon la commune), population municipale 2023
+recoupée sur deux sources au moins, absence au seed vérifiée par code Insee (aucun des dix parmi les 593 codes) :
+
+| Commune | Insee | Pop. municipale 2023 | Sources |
+|---|---|---|---|
+| Pornic (44) | 44131 | 18 745 | Banatic + Wikipédia + villesavivre |
+| Le Pontet (84) | 84092 | 18 386 | Wikipédia + citypopulation + bien-dans-ma-ville |
+| Lognes (77) | 77258 | 15 074 | Banatic + Wikipédia + notre-planete |
+| Freyming-Merlebach (57) | 57240 | 13 266 | Banatic + Wikipédia |
+| Anzin (59) | 59014 | 13 183 | Wikipédia + notre-planete + citypopulation |
+| Tergnier (02) | 02738 | 13 045 | Banatic + Wikipédia + villesavivre |
+| Creutzwald (57) | 57160 | 12 254 | Habity + villesavivre (secondaires seulement ; citypopulation 16 115 = unité urbaine, pas la commune) |
+| Dugny (93) | 93030 | ~11 700 | Wikipédia arrondi ; 11 723 ailleurs sans millésime sûr — **valeur exacte 2023 non établie** |
+| Chauny (02) | 02173 | 11 596 | Banatic + Wikipédia |
+| Saint-Junien (87) | 87154 | 11 415 | Banatic + Wikipédia + citypopulation |
+
+Conséquence pour le § 0 : **aucune ne franchit 20 000**. Sous D2 (seuil 15 000), trois s'ajoutent aux candidates déjà
+connues : **Pornic, Le Pontet, Lognes** (à passer à `npm run seed:neighbours` le jour où D2 est validée ; Le Pontet
+jouxte Avignon, en override, donc probable cas règle ② ; Lognes en Seine-et-Marne, probable alerte de frontière D5).
+Les sept autres sortent du gisement même sous D2. **Le tableau D n'a plus aucune ligne non recoupée** : sous la règle
+actuelle, le backlog est vide, et seule une décision du § 0 peut produire un lot.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise. Sous D2 + D8 : Mennecy, Juvisy-sur-Orge ; puis
+`seed:neighbours` sur Elbeuf, Rive-de-Gier, Saint-Brice-sous-Forêt, Pornic, Le Pontet, Lognes.
