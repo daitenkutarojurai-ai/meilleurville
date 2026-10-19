@@ -101,7 +101,7 @@ const LINKS = DEFAULT_LOCALE === "en" ? LINKS_EN : LINKS_FR;
 const TAGLINE =
   DEFAULT_LOCALE === "en"
     ? "Helping you find the right French city. Real data, resident reviews, no fluff."
-    : "On vous aide à trouver votre coin idéal en France 🌿 Données vraies, avis d'habitants, zéro bullshit.";
+    : "On vous aide à trouver votre coin idéal en France. Données vraies, avis d'habitants, zéro bullshit.";
 const PUBLISHER_LINE =
   DEFAULT_LOCALE === "en"
     ? "Edited by Thomas Fendrich · hello@bestcitiesinfrance.com"
@@ -117,67 +117,60 @@ const SIGNAL_LINE =
     ? "Open Data · Resident reviews · Independent"
     : "Open Data · Avis d'habitants · Indépendant";
 const BRAND_DISPLAY =
-  DEFAULT_LOCALE === "en" ? (
-    <>
-      Best<span className="text-[#4ADE80]">CitiesInFrance</span>
-    </>
-  ) : (
-    <>
-      MaVille<span className="text-[#4ADE80]">Idéale</span>
-    </>
-  );
+  DEFAULT_LOCALE === "en" ? "BestCitiesInFrance" : "MaVilleIdéale";
+const SCALE_LABEL = DEFAULT_LOCALE === "en" ? "Map scale" : "Échelle";
 
+// Footer as the bottom margin of a survey map: ink field with faint contour
+// lines, the enamel plaque band along the top edge, the wordmark on a plaque,
+// link columns carrying a grid reference (A, B, C) like the mega-menu, and a
+// scale bar in the legend line. No aurora, no grain, no score colours.
 export function Footer() {
   return (
-    <footer
-      className="relative overflow-hidden border-t border-[#0F2419]/30 text-[#E5EDD5]"
-      style={{
-        background:
-          "radial-gradient(ellipse 80% 60% at 50% 0%, #1F3A2A 0%, #0F2419 60%, #07140C 100%)",
-      }}
-    >
-      {/* Aurora glow */}
-      <div className="pointer-events-none absolute inset-0" aria-hidden>
-        <div className="absolute -top-32 left-1/4 h-96 w-96 rounded-full bg-[#22C55E]/15 blur-[120px]" />
-        <div className="absolute top-0 right-0 h-72 w-72 rounded-full bg-[#F59E0B]/10 blur-[100px]" />
-        <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-[#84CC16]/10 blur-[100px]" />
-      </div>
-      {/* Hairline gradient on top */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#22C55E]/60 to-transparent" />
-      {/* Grain */}
-      <div className="grain" style={{ opacity: 0.12, mixBlendMode: "overlay" }} />
+    <footer className="relative overflow-hidden bg-[#18212F] text-[#D7DCE4]">
+      {/* Enamel plaque band: navy field over the green rim */}
+      <div
+        className="h-2 w-full"
+        style={{
+          background:
+            "linear-gradient(180deg, var(--accent) 0 66%, var(--plaque-frame) 66% 100%)",
+        }}
+        aria-hidden="true"
+      />
+      {/* Contour lines (navy strokes read as faint relief on the ink field) */}
+      <div
+        className="topo-bg pointer-events-none absolute inset-0 top-2 opacity-40"
+        style={{ mixBlendMode: "screen" }}
+        aria-hidden="true"
+      />
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 pt-20 pb-10">
-        {/* Big wordmark */}
-        <div className="mb-12 text-center">
-          <div className="text-[20vw] sm:text-[14rem] font-display italic leading-none gradient-text-anim opacity-25 select-none pointer-events-none">
-            {DEFAULT_LOCALE === "en" ? "bestcitiesinfrance" : "mavilleidéale"}
-          </div>
-        </div>
-
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 mb-12 -mt-24 sm:-mt-32 relative">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 pt-14 pb-8">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 mb-12">
           {/* Brand */}
           <div>
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <BrandMark className="h-9 w-9 rounded-[22%] shadow-lg shadow-[var(--accent)]/40" />
-              <span className="font-bold text-white text-lg">
-                {BRAND_DISPLAY}
-              </span>
+            <Link
+              href="/"
+              className="plaque mb-5 !gap-2 !py-1.5 !pl-1.5 !pr-3 text-base focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+            >
+              <BrandMark className="h-7 w-7 rounded-[22%]" />
+              <span>{BRAND_DISPLAY}</span>
             </Link>
-            <p className="text-sm text-[#A8C4A8] leading-relaxed">
+            <p className="text-sm text-[#C3CAD5] leading-relaxed">
               {TAGLINE}
             </p>
-            <p className="mt-4 text-xs text-[#A8C4A8]/80 leading-relaxed">
+            <p className="mt-4 text-xs text-[#A9B2C0] leading-relaxed">
               {PUBLISHER_LINE}
             </p>
           </div>
 
           {/* Link groups */}
-          {Object.entries(LINKS).map(([group, links]) => (
+          {Object.entries(LINKS).map(([group, links], gi) => (
             <div key={group}>
               {/* h2, not h4: the footer follows the page's last h2, and a jump
                   to h4 breaks the heading outline screen readers navigate by. */}
-              <h2 className="mb-4 text-xs font-semibold uppercase tracking-wider text-[#84CC16]">
+              <h2 className="mb-4 flex items-center gap-2 border-b border-white/15 pb-2 text-xs font-semibold uppercase tracking-wider text-white">
+                <span aria-hidden className="plaque plaque-small font-mono !text-[10px] leading-none">
+                  {String.fromCharCode(65 + gi)}
+                </span>
                 {group}
               </h2>
               <ul className="grid grid-cols-2 gap-x-4 gap-y-2.5 sm:block sm:space-y-2.5">
@@ -185,10 +178,9 @@ export function Footer() {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="min-h-6 text-sm text-[#C4D5C0] transition-colors hover:text-white inline-flex items-center gap-1 group rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#84CC16]"
+                      className="min-h-6 text-sm text-[#C3CAD5] underline-offset-4 decoration-white/40 transition-colors hover:text-white hover:underline inline-flex items-center rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                     >
-                      <span>{label}</span>
-                      <span className="opacity-0 group-hover:opacity-100 transition-opacity text-[#84CC16]">→</span>
+                      {label}
                     </Link>
                   </li>
                 ))}
@@ -197,16 +189,27 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-[#A8C4A8]">
+        <div className="border-t border-white/15 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-[#A9B2C0]">
             {COPY_LINE}{" "}
-            <Heart className="inline h-3 w-3 fill-[#EC4899] text-[#EC4899]" />{" "}
+            <Heart aria-hidden className="inline h-3 w-3 fill-[var(--accent-pink)] text-[var(--accent-pink)]" />{" "}
             {COPY_SUFFIX}
           </p>
-          <p className="text-xs text-[#A8C4A8] flex items-center gap-2">
-            <span className="inline-block h-2 w-2 rounded-full bg-[#22C55E] animate-pulse" />
-            {SIGNAL_LINE}
-          </p>
+          <div className="flex items-center gap-3 text-xs text-[#A9B2C0]">
+            <span>{SIGNAL_LINE}</span>
+            {/* Survey-map scale bar, purely decorative */}
+            <span className="flex items-center gap-1.5" aria-hidden="true">
+              <span className="font-mono text-[10px] uppercase tracking-wider text-[#8F99A8]">
+                {SCALE_LABEL}
+              </span>
+              <span className="flex h-1.5 w-20 overflow-hidden rounded-[1px] ring-1 ring-white/60">
+                <span className="flex-1 bg-white/80" />
+                <span className="flex-1" />
+                <span className="flex-1 bg-white/80" />
+                <span className="flex-1" />
+              </span>
+            </span>
+          </div>
         </div>
       </div>
     </footer>

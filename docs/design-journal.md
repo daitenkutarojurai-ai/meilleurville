@@ -263,3 +263,31 @@ Captures `next dev` + Playwright à 1440 et 390 px, `scrollWidth` = viewport. `n
 1. Bandeau cookies — tuile 🍪 sur fond lavis bleu (vue en capture ce run).
 2. Pied de page (`components/Footer.tsx`) — emojis et colonnes à aligner sur le carroyage A/B/C/D.
 3. Simulateur de la home (section 05) — à inspecter.
+
+## 2026-10-19 ~03:00 UTC — pied de page : `components/Footer.tsx` (FR + EN, toutes les pages)
+
+**Surface** : le footer partagé du site (≈ 58 000 pages FR + EN).
+
+**Changé**
+- Fin de la pile SaaS : dégradé radial vert forêt, trois blobs aurora (vert, ambre, lime — couleurs
+  de palier), grain, filet dégradé vert, wordmark géant `gradient-text-anim` à 25 %, titres de
+  colonne lime, flèches lime au survol, cœur rose `#EC4899`, point vert pulsant.
+- **Marge basse d'une carte d'état-major** : champ encre `#18212F`, courbes de niveau `.topo-bg`
+  (traits navy en `screen`, opacité 0,4), bande plaque navy + liseré vert en tête (même objet que le
+  bandeau cookies).
+- Marque sur **`.plaque`** (BrandMark + « MaVilleIdéale » en blanc, plus de « Idéale » vert `#4ADE80`).
+- Titres de colonne avec **référence de carroyage A/B/C** sur `.plaque-small`, comme le méga-menu.
+- Liens `#C3CAD5` (≈ 10:1 sur l'encre), survol blanc souligné, focus blanc.
+- Ligne de légende : cœur brique (`--accent-pink`), **barre d'échelle** décorative « Échelle / Map
+  scale » (aria-hidden) à la place du point pulsant.
+- Emoji décoratif 🌿 retiré de la tagline FR (remplacé par un point). Copie et liens inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright (chromium `/opt/pw-browsers`) à 1440 et 390 px, `scrollWidth` =
+viewport. `npm run build` non lancé. ⚠️ Ne pas lancer `pkill -f "next dev"` dans la même commande
+que d'autres étapes : le motif tue le shell lui-même.
+
+**Prochaines surfaces candidates**
+1. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie + `backdrop-blur` : passer en fiche papier.
+2. Simulateur de la home (section 05) — à inspecter.
+3. Sous-pages ville : tuiles d'icônes dégradées restantes (`grep -rnE "bg-gradient-to-[a-z]+ from-[a-z]+-[0-9]+" app/villes`).
