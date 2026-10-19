@@ -65427,6 +65427,360 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Villefranche-de-Rouergue","activités Villefranche-de-Rouergue 2026","que faire en Aveyron","sorties Occitanie bastide","Villefranche-de-Rouergue chartreuse collégiale"]
   },
+  {
+    slug: "10-choses-a-faire-a-saint-cloud-2026",
+    title: "10 choses à faire à Saint-Cloud",
+    metaTitle: "10 choses à faire à Saint-Cloud en 2026",
+    metaDesc:
+      "Parc du domaine national, Grande Cascade, ruines du château incendié en 1870 : 10 choses à faire à Saint-Cloud, dans les Hauts-de-Seine.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 5,
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    intro:
+      "Saint-Cloud comptait 29 859 habitants au recensement de 2022, contre 29 194 en 2011. La ville tient son nom de saint Clodoald, petit-fils de Clovis, et son intérêt visiteur à un domaine national dont le château a disparu. Reste un grand parc dessiné au XVIIe siècle, accessible en une demi-heure depuis Paris. Ce guide dit ce qu'on y voit et ce qui relève des communes voisines.",
+    sections: [
+      {
+        heading: "1. Le parc du domaine national",
+        body: "Le parc est le vrai motif du déplacement. Il est de l'ordre de 460 hectares selon les sources consultées et il a été dessiné par Le Nôtre. Il est classé monument historique depuis 1900 et porte le label Jardin remarquable. Il est géré par le Centre des monuments nationaux, et il s'étend aussi sur des communes voisines : toute son étendue n'est pas à Saint-Cloud."
+      },
+      {
+        heading: "2. La Grande Cascade",
+        body: "C'est la pièce maîtresse des jardins : une cascade en gradins qui descend vers les bassins. Elle ne coule pas en permanence, c'est un équipement à eau mise en service à certaines dates. Le calendrier se vérifie auprès du domaine avant de se déplacer pour elle."
+      },
+      {
+        heading: "3. Les ruines du château",
+        body: "Le château a brûlé le 13 octobre 1870, pendant le siège de Paris, et il n'a jamais été reconstruit. Les ruines ont été déblayées au début des années 1890, les sources divergeant d'un an sur la date exacte. Il ne reste que des terrasses, des escaliers et des fondations : ne cherchez pas un bâtiment."
+      },
+      {
+        heading: "4. Le 18 brumaire",
+        body: "C'est à Saint-Cloud, en novembre 1799, que Bonaparte a fait voter la dissolution du Conseil des Cinq-Cents, ce qui fait basculer le Directoire. Le lieu historique n'existe plus tel quel, mais le musée de la ville raconte l'épisode."
+      },
+      {
+        heading: "5. Le musée des Avelines",
+        body: "Le musée municipal, installé dans une demeure du XIXe siècle, documente l'histoire de la commune, du domaine et des productions de céramique locales. C'est un petit musée, à compter en une heure. Les horaires d'ouverture varient : à vérifier auprès de la mairie."
+      },
+      {
+        heading: "6. La terrasse et la vue sur Paris",
+        body: "Du haut du parc, la vue porte sur la Seine, le bois de Boulogne et les tours de Paris. C'est la raison pour laquelle le site a été choisi au XVIIe siècle. Par temps clair, on distingue la Tour Eiffel, ce qui se vérifie à l'œil et non sur la foi d'une carte postale."
+      },
+      {
+        heading: "7. Le bord de Seine et le pont",
+        body: "La ville descend jusqu'à la Seine, où se trouvent des quais et un pont vers Boulogne-Billancourt. Le quartier du pont est le plus animé, avec commerces et restaurants. Le reste de la commune est résidentiel, avec des villas sur les pentes."
+      },
+      {
+        heading: "8. Le pavillon de Breteuil, côté Sèvres",
+        body: "Le Bureau international des poids et mesures, créé par la Convention du mètre de 1875, occupe le pavillon de Breteuil, dans le domaine. Il est accessible depuis Saint-Cloud mais situé côté Sèvres, et ne se visite pas librement : c'est un laboratoire de métrologie en activité."
+      },
+      {
+        heading: "9. Autour : Sèvres et Ville-d'Avray",
+        body: "La Cité de la céramique est à Sèvres, accessible depuis Saint-Cloud à pied ou en tramway, et les étangs de Ville-d'Avray, peints par Corot, sont à une courte distance. Ces sites sont dans des communes voisines, pas à Saint-Cloud."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Saint-Cloud est desservie par les trains de la banlieue ouest et par le tramway T2, avec des arrêts proches du parc : les correspondances se vérifient sur le site du transporteur. Le parc demande une demi-journée, davantage avec le musée et Sèvres."
+      }
+    ],
+    relatedCities: ["saint-cloud","sevres","boulogne-billancourt","versailles"],
+    relatedGuides: ["10-choses-a-faire-a-boulogne-billancourt-2026","10-choses-a-faire-a-versailles-2026","10-choses-a-faire-a-rueil-malmaison-2026"],
+    tags: ["10 choses à faire à Saint-Cloud","activités Saint-Cloud 2026","que faire dans les Hauts-de-Seine","sorties Île-de-France parcs","domaine national parc Grande Cascade château incendié 1870"]
+  },
+  {
+    slug: "10-choses-a-faire-a-sevres-2026",
+    title: "10 choses à faire à Sèvres",
+    metaTitle: "10 choses à faire à Sèvres en 2026",
+    metaDesc:
+      "Cité de la céramique, manufacture de porcelaine, pavillon de Breteuil : 10 choses à faire à Sèvres, dans les Hauts-de-Seine.",
+    category: "tourisme",
+    emoji: "🏺",
+    readMinutes: 5,
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    intro:
+      "Sèvres comptait 22 782 habitants au recensement de 2022, contre 23 278 en 2011 : la commune recule légèrement. Son nom est celui d'une porcelaine, et la manufacture est toujours là. Ce guide dit ce qui se visite, ce qui est fermé, et ce qui est en réalité dans le domaine voisin de Saint-Cloud.",
+    sections: [
+      {
+        heading: "1. La Cité de la céramique",
+        body: "Elle réunit depuis janvier 2010 la manufacture nationale et le musée national de céramique, place de la Manufacture. C'est l'adresse principale de la ville, et elle justifie à elle seule le déplacement. Le musée revendique l'une des plus vastes collections de céramique au monde."
+      },
+      {
+        heading: "2. Le musée national de céramique",
+        body: "La collection a été constituée par Alexandre Brongniart, administrateur de la manufacture au début du XIXe siècle. Les sources divergent sur la date de fondation du musée, que nous ne reprenons donc pas. On y voit de la porcelaine de Sèvres, mais aussi de la faïence, du grès et des pièces d'Asie et du Proche-Orient."
+      },
+      {
+        heading: "3. La manufacture au travail",
+        body: "La manufacture fabrique encore de la porcelaine, installée à Sèvres depuis le XVIIIe siècle après un début à Vincennes. Les ateliers ne sont pas toujours ouverts au public : les visites se réservent auprès de la Cité de la céramique."
+      },
+      {
+        heading: "4. Le salon de vente",
+        body: "La manufacture vend ses pièces sur place. Les prix sont ceux d'une production d'art : le guide n'en cite aucun, et recommande de comparer avec les créateurs indépendants avant d'acheter."
+      },
+      {
+        heading: "5. Le pavillon de Breteuil et le mètre étalon",
+        body: "Le Bureau international des poids et mesures, né de la Convention du mètre de 1875, est installé au pavillon de Breteuil, dans le parc de Saint-Cloud mais côté Sèvres. Il conserve les étalons internationaux. Ce n'est pas un musée, et il ne se visite pas librement."
+      },
+      {
+        heading: "6. Le parc de Saint-Cloud, accessible depuis Sèvres",
+        body: "Une partie du domaine de Saint-Cloud touche Sèvres, ce qui donne accès à de grandes allées. Les bassins et la cascade sont plus loin, à Saint-Cloud : regarder le plan du domaine avant de partir."
+      },
+      {
+        heading: "7. Les bords de Seine",
+        body: "Sèvres longe la Seine et fait face à l'île Seguin, qui relève de Boulogne-Billancourt. La promenade au bord de l'eau est calme et se fait à pied ou à vélo."
+      },
+      {
+        heading: "8. Le pont de Sèvres et l'accès par le métro",
+        body: "Le pont de Sèvres est un nœud routier connu des automobilistes. Pour le visiteur, c'est surtout la station de métro de la ligne 9 qui compte : elle met la ville à portée de Paris."
+      },
+      {
+        heading: "9. Autour : Meudon et Ville-d'Avray",
+        body: "Les forêts voisines de Meudon et de Fausses-Reposes offrent des promenades de plein air, et les étangs de Ville-d'Avray, peints par Corot, sont à une courte distance. Ces sites relèvent d'autres communes."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Sèvres se rejoint en métro et en tramway depuis Paris : les itinéraires et les horaires se vérifient chez le transporteur. Le musée demande deux à trois heures, la ville avec le parc une demi-journée."
+      }
+    ],
+    relatedCities: ["sevres","saint-cloud","boulogne-billancourt","versailles"],
+    relatedGuides: ["10-choses-a-faire-a-saint-cloud-2026","10-choses-a-faire-a-boulogne-billancourt-2026"],
+    tags: ["10 choses à faire à Sèvres","activités Sèvres 2026","que faire dans les Hauts-de-Seine","sorties Île-de-France musées","Sèvres porcelaine Cité de la céramique Brongniart"]
+  },
+  {
+    slug: "10-choses-a-faire-a-maisons-laffitte-2026",
+    title: "10 choses à faire à Maisons-Laffitte",
+    metaTitle: "10 choses à faire à Maisons-Laffitte en 2026",
+    metaDesc:
+      "Château attribué à Mansart, hippodrome, villas du parc lotis par Laffitte : 10 choses à faire à Maisons-Laffitte, dans les Yvelines.",
+    category: "tourisme",
+    emoji: "🏇",
+    readMinutes: 5,
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    intro:
+      "Maisons-Laffitte comptait 22 855 habitants au recensement de 2022, contre 23 125 en 2011. Elle est connue pour deux choses : un château du XVIIe siècle attribué à François Mansart, et les chevaux de course. Ce guide dit ce qu'on y visite et ce qu'on y regarde depuis la rue.",
+    sections: [
+      {
+        heading: "1. Le château de Maisons",
+        body: "Construit au XVIIe siècle pour René de Longueil, il est attribué à François Mansart par des témoignages d'époque, sans que la documentation comble toutes les lacunes. Il est devenu propriété de l'État et il est géré par le Centre des monuments nationaux. C'est une référence de l'architecture classique, à voir de l'extérieur comme de l'intérieur."
+      },
+      {
+        heading: "2. L'intérieur et l'escalier",
+        body: "L'escalier d'honneur et les salles de réception sont les pièces les plus citées de la visite. Les ouvertures de salles varient selon les saisons et les travaux : à vérifier avant de venir."
+      },
+      {
+        heading: "3. Voltaire à Maisons",
+        body: "Voltaire y a séjourné en 1723 chez le président de Maisons et y a contracté la petite vérole, dont il a guéri. L'épisode est bien connu, mais il n'est pas signalé partout dans la visite : on le retient comme une anecdote d'histoire littéraire."
+      },
+      {
+        heading: "4. Jacques Laffitte et le lotissement du parc",
+        body: "Le banquier Jacques Laffitte a acquis le domaine et l'a loti, ce qui explique le plan de la ville : des avenues dans un parc, des villas et de grands arbres. Il a aussi fait démolir les grandes écuries de Mansart, ce que les sources datent du début des années 1830."
+      },
+      {
+        heading: "5. Les villas à regarder depuis la rue",
+        body: "Le lotissement a laissé des villas de style variés, dont la plupart sont des propriétés privées. On les regarde depuis la rue, sans ouvrir de grille ni photographier les habitants. Ce sont les avenues du parc qui font l'intérêt de la promenade."
+      },
+      {
+        heading: "6. L'hippodrome",
+        body: "Les sources décrivent l'hippodrome comme le plus grand d'Île-de-France. Il accueille des réunions de courses : le calendrier se consulte auprès de l'exploitant, car on ne peut y assister que certains jours."
+      },
+      {
+        heading: "7. Le centre d'entraînement",
+        body: "Maisons-Laffitte est aussi l'un des principaux centres d'entraînement de chevaux de course de France. On croise les chevaux dans la ville, mais les pistes sont un outil de travail : n'y entrez pas sans autorisation."
+      },
+      {
+        heading: "8. Les bords de Seine",
+        body: "La Seine borde la commune, avec une promenade au fil de l'eau et la vue sur les îles. C'est un cadre calme, à parcourir à pied ou à vélo."
+      },
+      {
+        heading: "9. Autour : Saint-Germain-en-Laye et Poissy",
+        body: "Saint-Germain-en-Laye, avec son château et son musée d'archéologie, et Poissy, avec la villa Savoye, sont des communes voisines, couvertes par d'autres guides de cette série. Ces sites ne sont pas à Maisons-Laffitte."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Maisons-Laffitte se rejoint en RER A depuis Paris : les horaires se vérifient chez le transporteur. Une demi-journée suffit pour le château et la ville, une journée avec une réunion de courses."
+      }
+    ],
+    relatedCities: ["maisons-laffitte","saint-germain-en-laye","poissy","versailles"],
+    relatedGuides: ["10-choses-a-faire-a-saint-germain-en-laye-2026","10-choses-a-faire-a-poissy-2026","10-choses-a-faire-a-versailles-2026"],
+    tags: ["10 choses à faire à Maisons-Laffitte","activités Maisons-Laffitte 2026","que faire dans les Yvelines","sorties Île-de-France châteaux","château Mansart hippodrome chevaux Laffitte"]
+  },
+  {
+    slug: "10-choses-a-faire-a-abbeville-2026",
+    title: "10 choses à faire à Abbeville",
+    metaTitle: "10 choses à faire à Abbeville en 2026",
+    metaDesc:
+      "Collégiale Saint-Vulfran, ville reconstruite après 1940, baie de Somme à proximité : 10 choses à faire à Abbeville, dans la Somme.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    intro:
+      "Abbeville comptait 22 406 habitants au recensement de 2022, contre 24 104 en 2011 : la ville perd des habitants. Elle a été très abîmée en mai 1940, et ce qu'on voit aujourd'hui est en grande partie reconstruit. Ce guide dit ce qui se visite, ce qui a été refait, et ce qui est en réalité dans la baie de Somme voisine.",
+    sections: [
+      {
+        heading: "1. La collégiale Saint-Vulfran",
+        body: "Le chantier s'ouvre en 1488, pour un édifice de style gothique flamboyant, dont la façade orientée au nord est l'élément le plus connu. Elle est ornée d'un décor dentelé et de deux tours. Le bâtiment a été durement touché par les bombardements de mai 1940 et il a été restauré depuis, sans que le guide détaille le calendrier des travaux."
+      },
+      {
+        heading: "2. Une ville reconstruite",
+        body: "Le centre a été en grande partie détruit en mai 1940. Il faut donc regarder les façades en connaissance de cause : Abbeville n'est pas une ville médiévale intacte. Les habitations du centre sont souvent de la reconstruction d'après-guerre."
+      },
+      {
+        heading: "3. Le beffroi et le musée",
+        body: "Le beffroi d'Abbeville a été presque entièrement détruit en 1940 et la restauration ne s'est achevée que dans les années 1980, selon les sources. Ce qui s'y visite aujourd'hui est à vérifier auprès de l'office de tourisme avant de venir."
+      },
+      {
+        heading: "4. Boucher de Perthes",
+        body: "Jacques Boucher de Perthes, né en 1788 et mort en 1868, est considéré comme un précurseur de la préhistoire pour ses recherches sur les silex de la vallée de la Somme. Un musée porte son nom, et l'adresse comme les ouvertures sont à vérifier auprès de l'office de tourisme."
+      },
+      {
+        heading: "5. La manufacture des Rames et le château de Bagatelle",
+        body: "Le drapier Josse van Robais s'est installé à Abbeville au XVIIe siècle avec l'appui de Colbert et y a monté une manufacture de draps fins. Le château de Bagatelle en est l'un des témoins. Il s'agit d'une propriété dont l'accès est limité : renseignez-vous avant de venir."
+      },
+      {
+        heading: "6. Le chevalier de La Barre",
+        body: "Le chevalier de La Barre a été exécuté à Abbeville en 1766, pour impiété, à l'issue d'un procès resté célèbre dans l'histoire de la justice. L'affaire est un repère des Lumières, citée par Voltaire. La ville y fait référence, mais le lieu précis n'est pas à chercher comme un monument."
+      },
+      {
+        heading: "7. Le traité d'Abbeville",
+        body: "Un traité de 1259 y a été signé entre le roi de France Louis IX et le roi d'Angleterre Henri III. Il n'a pas de monument, mais il fait de la ville un repère de l'histoire franco-anglaise."
+      },
+      {
+        heading: "8. La Somme et ses canaux",
+        body: "Abbeville est au fond de l'estuaire de la Somme, que l'on suit sur des chemins de halage. La promenade se fait à pied ou à vélo, sans que le guide cite de distance."
+      },
+      {
+        heading: "9. La baie de Somme, accessible depuis Abbeville",
+        body: "La baie est à une courte distance d'Abbeville, mais elle relève de communes voisines comme Saint-Valery-sur-Somme et Le Crotoy. La marée y est rapide : consultez les horaires de marée avant de marcher sur la baie."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Abbeville se rejoint depuis Amiens par la route ou le train : les horaires sont à vérifier chez le transporteur. Une demi-journée suffit pour la collégiale et le centre, une journée avec la baie de Somme."
+      }
+    ],
+    relatedCities: ["abbeville","amiens","dieppe","peronne"],
+    relatedGuides: ["10-choses-a-faire-a-amiens-2026","10-choses-a-faire-a-dieppe-2026","10-choses-a-faire-a-peronne-2026"],
+    tags: ["10 choses à faire à Abbeville","activités Abbeville 2026","que faire dans la Somme","sorties Hauts-de-France baie de Somme","collégiale Saint-Vulfran Boucher de Perthes reconstruction 1940"]
+  },
+  {
+    slug: "10-choses-a-faire-a-brioude-2026",
+    title: "10 choses à faire à Brioude",
+    metaTitle: "10 choses à faire à Brioude en 2026",
+    metaDesc:
+      "Basilique Saint-Julien, plus grande église romane d'Auvergne, vitraux contemporains, gorges de l'Allier : 10 choses à faire à Brioude.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    intro:
+      "Brioude comptait 6 523 habitants au recensement de 2022, contre 6 637 en 2011. C'est une petite ville de la Haute-Loire, au bord de l'Allier, qui possède la plus grande église romane d'Auvergne. Ce guide dit ce qu'on y voit en une demi-journée et ce qui relève des communes voisines.",
+    sections: [
+      {
+        heading: "1. La basilique Saint-Julien",
+        body: "Elle est présentée comme la plus grande église romane d'Auvergne. Elle a été élevée sur le tombeau de saint Julien, un soldat romain martyrisé au IVe siècle, devenu patron de la ville. Sa construction s'étale sur plusieurs siècles, les sources donnant des dates divergentes entre le XIe et le XIVe siècle, que nous ne reprenons donc pas."
+      },
+      {
+        heading: "2. L'architecture de la basilique",
+        body: "On remarque l'alternance de pierres de couleurs différentes, grès rouge, calcaire et basalte, et un grand nombre de chapiteaux sculptés. Le chevet et le déambulatoire sont des repères de l'architecture romane. L'édifice figure sur la première liste des monuments historiques de 1840."
+      },
+      {
+        heading: "3. Les vitraux contemporains",
+        body: "La basilique a reçu des vitraux contemporains du père Kim En Joong, installés dans les années 2000. Le contraste avec la pierre romane est l'une des surprises de la visite."
+      },
+      {
+        heading: "4. Le chapitre des chanoines",
+        body: "Un chapitre noble de chanoines a marqué la ville pendant environ un millénaire. Cette histoire explique la place de la basilique au centre de la ville et le tracé des rues autour d'elle."
+      },
+      {
+        heading: "5. Sur le chemin de Compostelle",
+        body: "Brioude est une étape des chemins de Saint-Jacques-de-Compostelle vers Le Puy-en-Velay et Conques. On croise des pèlerins en saison, et l'accueil de la basilique en tient compte."
+      },
+      {
+        heading: "6. Le centre ancien",
+        body: "Les rues autour de la basilique se parcourent à pied : maisons anciennes, places et commerces. Brioude est classée parmi les Plus Beaux Détours de France, une distinction touristique et non une protection patrimoniale."
+      },
+      {
+        heading: "7. Les bords de l'Allier",
+        body: "L'Allier est une rivière libre, avec un régime irrégulier. On la longe à pied, mais on évite de s'en approcher en période de crue et la baignade n'est pas conseillée."
+      },
+      {
+        heading: "8. Les gorges de l'Allier, accessibles depuis Brioude",
+        body: "Les gorges se trouvent en amont et en aval de la ville, sur des communes voisines. On les découvre en voiture ou à pied sur des sentiers balisés, en vérifiant la météo avant de partir."
+      },
+      {
+        heading: "9. Chavaniac-Lafayette",
+        body: "Le château de Chavaniac, où est né le marquis de La Fayette, est dans la Haute-Loire mais pas à Brioude. Il s'atteint en voiture depuis la ville : c'est une sortie à part, à prévoir sur une demi-journée supplémentaire."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Brioude se rejoint par la route depuis Clermont-Ferrand ou Le Puy-en-Velay, les horaires de train étant à vérifier. Une demi-journée suffit pour la basilique et le centre, une journée avec les gorges."
+      }
+    ],
+    relatedCities: ["brioude","le-puy-en-velay","clermont-ferrand","issoire"],
+    relatedGuides: ["10-choses-a-faire-au-puy-en-velay-2026","10-choses-a-faire-a-clermont-ferrand-2026"],
+    tags: ["10 choses à faire à Brioude","activités Brioude 2026","que faire en Haute-Loire","sorties Auvergne-Rhône-Alpes art roman","basilique Saint-Julien Brioude Allier Compostelle"]
+  },
+  {
+    slug: "10-choses-a-faire-a-issoire-2026",
+    title: "10 choses à faire à Issoire",
+    metaTitle: "10 choses à faire à Issoire en 2026",
+    metaDesc:
+      "Abbatiale Saint-Austremoine, tour de l'Horloge, pays d'Issoire et vallée de l'Allier : 10 choses à faire à Issoire, dans le Puy-de-Dôme.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    intro:
+      "Issoire comptait 15 078 habitants au recensement de 2022, contre 14 170 en 2011 : la ville gagne des habitants. C'est la porte sud du Puy-de-Dôme, avec l'une des cinq grandes églises romanes d'Auvergne. Ce guide dit ce qu'on y voit et ce qui relève des communes voisines.",
+    sections: [
+      {
+        heading: "1. L'abbatiale Saint-Austremoine",
+        body: "L'église est consacrée vers 1130 selon les sources consultées. Elle fait partie des cinq grandes églises romanes d'Auvergne, avec Notre-Dame-du-Port à Clermont-Ferrand, Saint-Nectaire, Orcival et celle-ci. C'est la première visite de la ville."
+      },
+      {
+        heading: "2. Le chevet et l'extérieur",
+        body: "Le chevet, avec ses chapelles rayonnantes, est le côté le plus remarquable de l'édifice. Il se regarde de l'extérieur, en faisant le tour de l'abbatiale."
+      },
+      {
+        heading: "3. Les peintures intérieures",
+        body: "Les murs du chœur et de l'abside sont couverts de peintures. Elles datent du XIXe siècle, ce qu'il faut savoir avant d'y chercher du roman. L'effet décoratif est fort et assumé."
+      },
+      {
+        heading: "4. La crypte",
+        body: "La crypte abrite une châsse du XIIIe siècle en émail de Limoges, d'après les guides consultés. Elle n'est pas toujours ouverte : renseignez-vous auprès de l'office de tourisme."
+      },
+      {
+        heading: "5. La tour de l'Horloge",
+        body: "Élevée vers 1480 à l'initiative des consuls, elle servait de beffroi et de tour de guet. La façade actuelle vient d'une restauration du XIXe siècle. Elle accueille aujourd'hui un espace culturel, et l'accès au belvédère est à vérifier."
+      },
+      {
+        heading: "6. Le centre ancien",
+        body: "Les rues autour de l'abbatiale mêlent maisons anciennes et commerces. Le boulevard de ceinture suit le tracé des anciens remparts, ce qui se lit sur le plan de la ville."
+      },
+      {
+        heading: "7. L'industrie, à regarder de loin",
+        body: "Issoire est une ville industrielle, avec une usine d'aluminium de premier plan pour l'aéronautique. C'est un site de production, qui ne se visite pas librement : il explique le dynamisme démographique de la ville."
+      },
+      {
+        heading: "8. La vallée de l'Allier",
+        body: "La rivière passe à l'est de la ville. Les berges se parcourent à pied ou à vélo, avec la même prudence qu'ailleurs sur l'Allier : crues possibles, baignade déconseillée."
+      },
+      {
+        heading: "9. Autour : Saint-Nectaire, Parentignat et le Sancy",
+        body: "Saint-Nectaire et son église romane, le château de Parentignat et le massif du Sancy sont dans les environs. Ils relèvent de communes voisines, pas d'Issoire. Les routes de montagne se vérifient en hiver."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Issoire se rejoint depuis Clermont-Ferrand par la route et par le train, les horaires étant à vérifier. Une demi-journée suffit pour l'abbatiale et le centre, une journée avec les environs."
+      }
+    ],
+    relatedCities: ["issoire","clermont-ferrand","brioude","riom"],
+    relatedGuides: ["10-choses-a-faire-a-clermont-ferrand-2026","10-choses-a-faire-a-riom-2026"],
+    tags: ["10 choses à faire à Issoire","activités Issoire 2026","que faire dans le Puy-de-Dôme","sorties Auvergne-Rhône-Alpes art roman","abbatiale Saint-Austremoine Issoire tour de l'Horloge"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

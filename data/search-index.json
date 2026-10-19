@@ -10055,6 +10055,36 @@
       "slug": "10-choses-a-faire-a-villefranche-de-rouergue-2026",
       "title": "10 choses à faire à Villefranche-de-Rouergue",
       "emoji": "🏘️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-cloud-2026",
+      "title": "10 choses à faire à Saint-Cloud",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "10-choses-a-faire-a-sevres-2026",
+      "title": "10 choses à faire à Sèvres",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "10-choses-a-faire-a-maisons-laffitte-2026",
+      "title": "10 choses à faire à Maisons-Laffitte",
+      "emoji": "🏇"
+    },
+    {
+      "slug": "10-choses-a-faire-a-abbeville-2026",
+      "title": "10 choses à faire à Abbeville",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-brioude-2026",
+      "title": "10 choses à faire à Brioude",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-issoire-2026",
+      "title": "10 choses à faire à Issoire",
+      "emoji": "⛪"
     }
   ],
   "tags": [
@@ -10649,6 +10679,11 @@
       "count": 6
     },
     {
+      "slug": "que-faire-dans-les-yvelines",
+      "label": "que faire dans les Yvelines",
+      "count": 6
+    },
+    {
       "slug": "rouen",
       "label": "Rouen",
       "count": 6
@@ -10731,11 +10766,6 @@
     {
       "slug": "que-faire-a-la-reunion",
       "label": "que faire à La Réunion",
-      "count": 5
-    },
-    {
-      "slug": "que-faire-dans-les-yvelines",
-      "label": "que faire dans les Yvelines",
       "count": 5
     },
     {
@@ -10921,6 +10951,11 @@
     {
       "slug": "que-faire-dans-le-nord",
       "label": "que faire dans le Nord",
+      "count": 4
+    },
+    {
+      "slug": "que-faire-dans-les-hauts-de-seine",
+      "label": "que faire dans les Hauts-de-Seine",
       "count": 4
     },
     {
