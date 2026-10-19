@@ -291,3 +291,29 @@ que d'autres étapes : le motif tue le shell lui-même.
 1. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie + `backdrop-blur` : passer en fiche papier.
 2. Simulateur de la home (section 05) — à inspecter.
 3. Sous-pages ville : tuiles d'icônes dégradées restantes (`grep -rnE "bg-gradient-to-[a-z]+ from-[a-z]+-[0-9]+" app/villes`).
+
+## 2026-10-19 ~11:00 UTC — home : `components/GuidesTeaser.tsx` (FR + EN)
+
+**Surface** : section « Guides pratiques » de la home (FR `/` et EN `/`).
+
+**Changé**
+- Fin des couvertures pastel `from-emerald/lime/pink/rose/sky` (couleurs de palier détournées),
+  de l'aurora, du grain, du lavis radial vert et du `gradient-text-anim` du titre.
+- Fin des emojis décoratifs (📖 du sur-titre, emoji de guide en 7xl/5xl sur la couverture).
+- Chaque guide devient une **fiche** : couverture `.topo-bg` + tuile livre sur `.plaque`, référence
+  mono « À la une · Fiche 01 / 03 » / « 02 / 03 » (EN « Sheet »), méta mono, filet pointillé avant
+  « Lire le guide », bordure accent au survol (plus d'ombres teintées ni de pastille `backdrop-blur`).
+- En-tête aligné sur `RankingPreview` : filet de tête, sur-titre mono « Guides pratiques · 1 305
+  fiches » (compte dérivé du corpus de la locale), mot-clé en `font-display` italique accent
+  (pas d'`.ink-underline` : déjà utilisé par `QuizTeaser` sur la même page). Lien « Tous les
+  guides » unique (plus de doublon mobile).
+- Non touché : copie, sélection des 3 guides, liens.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright (`/opt/node22/lib/node_modules/playwright`, chromium
+`/opt/pw-browsers`) à 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `components/ProfileQuickAccess.tsx` (home) — utilise encore aurora/blur, à inspecter.
+2. `components/RedFlagTeaser.tsx` + `NewsletterSection.tsx` (home) — idem.
+3. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie + `backdrop-blur` : passer en fiche papier.

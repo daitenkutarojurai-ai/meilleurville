@@ -1,20 +1,20 @@
 import Link from "@/components/AppLink";
-import { ArrowUpRight, Clock } from "lucide-react";
+import { ArrowRight, BookOpen, Clock } from "lucide-react";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";
 
-const COVER_GRADIENTS = [
-  "from-emerald-400/40 via-lime-300/30 to-amber-200/20",
-  "from-pink-300/35 via-rose-200/25 to-amber-200/20",
-  "from-sky-300/35 via-emerald-200/25 to-lime-200/20",
-];
+// Guides are reading sheets of the same survey map as the rankings: a topo
+// cover with an enamel-plaque book tile and a mono sheet reference. No pastel
+// emerald/lime/rose covers (score-tier colours) and no decorative emojis —
+// CLAUDE.md « Carte & plaque ».
+const pad2 = (n: number) => String(n).padStart(2, "0");
 
 export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   // La home EN mettait en avant les trois derniers guides FR : titres français
   // et URLs qui n'existent pas sur bestcitiesinfrance.com.
   const corpus: ReadonlyArray<{
-    slug: string; title: string; intro: string; emoji: string;
+    slug: string; title: string; intro: string;
     readMinutes: number; category: string; updatedAt: string;
   }> = locale === "en" ? EN_GUIDES : GUIDES;
   const categoryLabel = (id: string) =>
@@ -29,26 +29,24 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const [hero, ...rest] = featured;
 
   return (
-    <section id="guides" className="relative border-t border-[var(--border)] py-8 sm:py-20">
-      {/* Soft gradient backdrop */}
-      <div className="pointer-events-none absolute inset-0" aria-hidden>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_30%_0%,rgba(34,197,94,0.10),transparent_70%)]" />
-      </div>
-
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="flex items-end justify-between mb-10">
+    <section id="guides" className="py-8 sm:py-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+        <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-              {L("📖 Guides pratiques", "📖 Practical guides")}
+            <p className="mb-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
+              {L(
+                `Guides pratiques · ${corpus.length.toLocaleString("fr-FR")} fiches`,
+                `Practical guides · ${corpus.length.toLocaleString("en-GB")} sheets`,
+              )}
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
               {locale === "en" ? (
                 <>
-                  Make the <span className="font-display gradient-text-anim italic">smartest</span> call
+                  Make the <span className="font-display italic text-[var(--accent)]">smartest</span> call
                 </>
               ) : (
                 <>
-                  Prenez la <span className="font-display gradient-text-anim italic">meilleure</span> décision
+                  Prenez la <span className="font-display italic text-[var(--accent)]">meilleure</span> décision
                 </>
               )}
             </h2>
@@ -61,92 +59,82 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
           </div>
           <Link
             href="/guides"
-            className="hidden sm:flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline"
+            className="inline-flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline"
           >
-            {L("Tous les guides →", "All guides →")}
+            {L("Tous les guides", "All guides")}
+            <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
 
-        {/* Bento layout: hero + two stacked */}
-        <div className="grid gap-5 lg:grid-cols-2">
-          {/* Hero card — large */}
+        {/* Hero sheet + two stacked sheets */}
+        <div className="grid gap-4 lg:grid-cols-2">
           <Link
             href={`/guides/${hero.slug}`}
-            className="group relative overflow-hidden rounded-3xl border border-[var(--border)] bg-[var(--bg-surface)] hover:shadow-2xl hover:shadow-[var(--accent)]/10 transition-all min-h-[320px] flex flex-col"
+            className="group flex min-h-[320px] flex-col overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] transition-colors hover:border-[var(--accent)]"
           >
-            {/* Animated cover */}
-            <div className={`relative h-48 bg-gradient-to-br ${COVER_GRADIENTS[0]} overflow-hidden`}>
-              <div className="absolute inset-0 bg-aurora opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
-              <div className="grain grain-soft" style={{ opacity: 0.2 }} />
-              <div className="absolute top-6 left-6 text-7xl drop-shadow-lg group-hover:scale-110 transition-transform duration-500">
-                {hero.emoji}
-              </div>
-              <div className="absolute top-4 right-4 inline-flex items-center gap-1 rounded-full glass px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[var(--accent)]">
-                {L("★ À la une", "★ Featured")}
-              </div>
-              <div className="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/90 backdrop-blur shadow-lg group-hover:bg-[var(--accent)] transition-colors">
-                <ArrowUpRight className="h-5 w-5 text-[var(--accent)] group-hover:text-white transition-colors" />
-              </div>
+            <div className="topo-bg relative flex h-44 items-end justify-between gap-3 border-b border-[var(--border)] bg-[var(--bg-canvas)] p-5">
+              <span className="plaque !p-0 h-14 w-14 shrink-0 justify-center" aria-hidden="true">
+                <BookOpen className="h-7 w-7" strokeWidth={1.75} />
+              </span>
+              <span className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+                {L("À la une · Fiche 01 / 03", "Featured · Sheet 01 / 03")}
+              </span>
             </div>
 
-            <div className="flex-1 p-6 flex flex-col">
-              <div className="flex items-center gap-2 mb-2 text-xs text-[var(--text-tertiary)] uppercase tracking-wider font-semibold">
-                <Clock className="h-3 w-3" />
+            <div className="flex flex-1 flex-col p-6">
+              <div className="mb-2 flex items-center gap-2 font-mono-data text-[11px] uppercase tracking-wider text-[var(--text-tertiary)]">
+                <Clock className="h-3 w-3" aria-hidden="true" />
                 {hero.readMinutes} min
-                <span>·</span>
+                <span aria-hidden="true">·</span>
                 <span>{categoryLabel(hero.category)}</span>
               </div>
-              <h3 className="text-2xl font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-tight mb-2">
+              <h3 className="mb-2 text-2xl font-bold leading-tight text-[var(--text-primary)] transition-colors group-hover:text-[var(--accent)]">
                 {hero.title}
               </h3>
-              <p className="text-sm text-[var(--text-secondary)] line-clamp-2 leading-relaxed">{hero.intro}</p>
+              <p className="line-clamp-2 flex-1 text-sm leading-relaxed text-[var(--text-secondary)]">{hero.intro}</p>
+              <div className="mt-4 flex items-center gap-1 border-t border-dashed border-[var(--border)] pt-3 text-sm font-semibold text-[var(--accent)]">
+                {L("Lire le guide", "Read the guide")}
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
+              </div>
             </div>
           </Link>
 
-          {/* Two smaller cards stacked */}
-          <div className="grid gap-5">
+          <div className="grid gap-4">
             {rest.map((guide, i) => (
               <Link
                 key={guide.slug}
                 href={`/guides/${guide.slug}`}
-                className="group relative overflow-hidden rounded-3xl border border-[var(--border)] bg-[var(--bg-surface)] hover:shadow-xl hover:shadow-[var(--accent)]/10 transition-all flex"
+                className="group flex overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] transition-colors hover:border-[var(--accent)]"
               >
-                <div className={`relative w-32 sm:w-40 flex-shrink-0 bg-gradient-to-br ${COVER_GRADIENTS[(i + 1) % COVER_GRADIENTS.length]} overflow-hidden`}>
-                  <div className="absolute inset-0 bg-aurora opacity-50" />
-                  <div className="grain grain-soft" style={{ opacity: 0.18 }} />
-                  <div className="absolute inset-0 flex items-center justify-center text-5xl drop-shadow group-hover:scale-110 transition-transform duration-500">
-                    {guide.emoji}
-                  </div>
+                <div className="topo-bg flex w-24 shrink-0 flex-col items-center justify-center gap-2 border-r border-[var(--border)] bg-[var(--bg-canvas)] sm:w-32">
+                  <span className="plaque !p-0 h-10 w-10 justify-center" aria-hidden="true">
+                    <BookOpen className="h-5 w-5" strokeWidth={1.75} />
+                  </span>
+                  <span className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+                    {pad2(i + 2)} / 03
+                  </span>
                 </div>
-                <div className="flex-1 p-5 flex flex-col justify-between min-w-0">
+                <div className="flex min-w-0 flex-1 flex-col justify-between p-5">
                   <div>
-                    <div className="flex items-center gap-2 mb-1.5 text-[10px] text-[var(--text-tertiary)] uppercase tracking-wider font-semibold">
-                      <Clock className="h-3 w-3" />
+                    <div className="mb-1.5 flex items-center gap-2 font-mono-data text-[10px] uppercase tracking-wider text-[var(--text-tertiary)]">
+                      <Clock className="h-3 w-3 shrink-0" aria-hidden="true" />
                       {guide.readMinutes} min
-                      <span>·</span>
+                      <span aria-hidden="true">·</span>
                       <span className="truncate">{categoryLabel(guide.category)}</span>
                     </div>
-                    <h3 className="text-base font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug mb-1.5 line-clamp-2">
+                    <h3 className="mb-1.5 line-clamp-2 text-base font-bold leading-snug text-[var(--text-primary)] transition-colors group-hover:text-[var(--accent)]">
                       {guide.title}
                     </h3>
-                    <p className="text-xs text-[var(--text-secondary)] line-clamp-2 leading-relaxed">{guide.intro}</p>
+                    <p className="line-clamp-2 text-xs leading-relaxed text-[var(--text-secondary)]">{guide.intro}</p>
                   </div>
-                  <div className="flex items-center gap-1 mt-2 text-xs font-semibold text-[var(--accent)] group-hover:gap-2 transition-all">
-                    {L("Lire", "Read")} <ArrowUpRight className="h-3 w-3" />
+                  <div className="mt-2 flex items-center gap-1 text-xs font-semibold text-[var(--accent)]">
+                    {L("Lire", "Read")}
+                    <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
                   </div>
                 </div>
               </Link>
             ))}
           </div>
-        </div>
-
-        <div className="mt-6 sm:hidden text-center">
-          <Link
-            href="/guides"
-            className="text-sm font-medium text-[var(--accent)] hover:underline"
-          >
-            {L("Voir tous les guides →", "See all guides →")}
-          </Link>
         </div>
       </div>
     </section>
