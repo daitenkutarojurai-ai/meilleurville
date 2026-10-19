@@ -317,3 +317,28 @@ Captures `next dev` + Playwright (`/opt/node22/lib/node_modules/playwright`, chr
 1. `components/ProfileQuickAccess.tsx` (home) — utilise encore aurora/blur, à inspecter.
 2. `components/RedFlagTeaser.tsx` + `NewsletterSection.tsx` (home) — idem.
 3. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie + `backdrop-blur` : passer en fiche papier.
+
+## 2026-10-19 ~16:00 UTC — home : `components/ProfileQuickAccess.tsx` (FR + EN)
+
+**Surface** : section « Votre profil » de la home (FR `/` et EN `/`).
+
+**Changé**
+- Fin des cartes `glass` + `border-white/50` + ombre/tilt au survol, du lavis radial vert (couleur de
+  palier), du `gradient-text-anim` du titre et des emojis (✨ du sur-titre, 👨‍👩‍👧 💻 🚲 💰 🎭 🌿 🏡).
+- Chaque profil devient une **fiche de légende** : tuile d'icône lucide sur `.plaque`, référence mono
+  « 01 / 07 », filet pointillé, et la **ville N°1 sur une plaque émaillée** (`.plaque.plaque-small`,
+  nom tronqué proprement à 390 px) — une plaque pour un nom de lieu, jamais pour un score.
+- « Cadre de vie — le méga-index » rentre dans la grille comme **fiche d'index sur papier topo**
+  (`.topo-bg`, `sm:col-span-2`, la grille 3 colonnes se ferme sur 3 rangées pleines).
+- En-tête aligné sur `RankingPreview` / `GuidesTeaser` : filet de tête, sur-titre mono « Votre profil ·
+  7 légendes » (compte dérivé de `PROFILES`), mot-clé `font-display` italique accent, lien unique
+  « Voir tous les classements thématiques » en haut à droite.
+- Non touché : copie, profils, liens, calcul de la ville N°1.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright à 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `components/RedFlagTeaser.tsx` (home) — aurora/blur à inspecter.
+2. `components/NewsletterSection.tsx` (home) — idem.
+3. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie + `backdrop-blur` : passer en fiche papier.
