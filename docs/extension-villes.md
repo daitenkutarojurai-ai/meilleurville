@@ -373,6 +373,7 @@ Sorgues (84129, **~19 006** en 2023 : Wikipédia EN + villesavivre, à 24 près)
 bien-dans-ma-ville, millésime discuté), et sans recoupement de population : Elbeuf, Les Herbiers,
 Saint-Pierre-des-Corps, Héricourt, Woippy, Freyming-Merlebach, Creutzwald, Villers-lès-Nancy, Anzin, Chauny,
 Tergnier, Canet-en-Roussillon, Le Pontet, Saint-Junien, Bry-sur-Marne, Dugny, Le Pré-Saint-Gervais, Lognes, Hem.
+Recoupées par code Insee le 2026-10-19 (millésime 2023, population municipale, deux sources concordantes chacune ; absence au seed vérifiée par code Insee) : Rive-de-Gier (42186) **15 242**, Saint-Brice-sous-Forêt (95539) **15 063**, Elbeuf (76231) **15 474**, Bois-Guillaume (76108) **14 539**, Canteleu (76157) **14 402**, Vaires-sur-Marne (77479) **13 931**, Nemours (77333) **12 889**, Villetaneuse (93079) **12 530**, Ifs (14341) **11 937**, Héricourt (70285) **10 621** — toutes sous 20 000, sept sous 15 000.
 Recoupées sur les populations de référence 2023 (publiées en décembre 2025, en vigueur au 1ᵉʳ janvier 2026) le
 2026-10-13 : Bourg-lès-Valence **19 992** (Banatic + Wikipédia), Bruz (35047) **19 683** (Banatic + Wikipédia),
 Schœlcher (97229) **19 478** (fichier Insee Martinique + Banatic), Mauguio (34154) **16 522**, Brignoles (83023)
@@ -2281,3 +2282,39 @@ pas la règle d'elle-même ; elle le signale. Conséquence : **D2 seule n'ouvre 
 repère médian conservé) et Juvisy-sur-Orge (1,05, idem). Reste au tableau D sans recoupement : Saint-Brice,
 Villetaneuse, Nemours, Vaires, Canteleu, Bois-Guillaume, Ifs, Pornic, Rive-de-Gier, Elbeuf, Héricourt,
 Freyming-Merlebach, Creutzwald, Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien, Dugny, Lognes.
+
+### 2026-10-19 — aucun lot : dix lignes du tableau D recoupées par code Insee, toutes sous 20 000
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le 18/10 hors `[scheduled-agent]` ne porte que des guides (étudiant, retraite, vacances) et le podium
+d'accueil ; aucun ne touche le seed, `score-calibration.ts`, ni une règle d'extension dans ROADMAP / CLAUDE.md. Rien
+ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : fiabilisation du backlog D. Dix des vingt noms « sans recoupement » cherchés (recherche web ; Banatic,
+Wikipédia, PSS-Archi, notre-planete, citypopulation selon la commune), population municipale 2023 recoupée sur deux
+sources, absence au seed vérifiée par code Insee (593 codes au seed, aucun des dix) :
+
+| Commune | Insee | Pop. municipale 2023 | Sources |
+|---|---|---|---|
+| Elbeuf (76) | 76231 | 15 474 | notre-planete + bien-dans-ma-ville (pas de page Banatic trouvée) |
+| Rive-de-Gier (42) | 42186 | 15 242 | Banatic + Wikipédia |
+| Saint-Brice-sous-Forêt (95) | 95539 | 15 063 | Banatic + Wikipédia + PSS-Archi |
+| Bois-Guillaume (76) | 76108 | 14 539 | Banatic + Wikipédia + PSS-Archi |
+| Canteleu (76) | 76157 | 14 402 | Banatic + Wikipédia |
+| Vaires-sur-Marne (77) | 77479 | 13 931 | Banatic + villesavivre |
+| Nemours (77) | 77333 | 12 889 | Banatic + Wikipédia |
+| Villetaneuse (93) | 93079 | 12 530 | Banatic + Wikipédia + fichier PopRef2023 Insee 93 |
+| Ifs (14) | 14341 | 11 937 | Wikipédia (cite PopRef 2023) + 2ᵉ résultat |
+| Héricourt (70) | 70285 | 10 621 | Wikipédia + notre-planete + fichier PopRef2023 Insee 70 |
+
+Conséquence pour le § 0 : **aucune ne franchit 20 000** ; seules Elbeuf, Rive-de-Gier et Saint-Brice-sous-Forêt
+seraient ouvertes par D2 (seuil 15 000), à passer à `npm run seed:neighbours` le jour où D2 est validée. Les sept
+autres sortent du gisement même sous D2. Aucune mesure de voisines faite ce run.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (D2 + D8 : Mennecy, Juvisy-sur-Orge). Reste au tableau D
+sans recoupement : Pornic, Freyming-Merlebach, Creutzwald, Anzin, Chauny, Tergnier, Le Pontet, Saint-Junien,
+Dugny, Lognes.
