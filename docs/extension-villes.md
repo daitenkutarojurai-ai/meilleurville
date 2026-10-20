@@ -18,7 +18,7 @@ routine l'écrit au § 3.2 **avant** usage, comme toutes les règles précédent
 | # | Décision | Débloque | Ce que la routine ferait sans autre précision |
 |---|---|---|---|
 | D1 | **Overrides documentés** dans `lib/score-calibration.ts` pour les villes qui ne ressemblent pas à leurs voisines | Villeneuve-d'Ascq (62 868 hab., la plus grosse absente), Cenon, La Madeleine, Marcq-en-Barœul, Lambersart, Montfermeil, Sucy-en-Brie (tableau A) | une ville par run, chaque note d'axe adossée à une mesure publiée (Filosofi, DVF, SSMSI) citée dans le journal ; jamais une médiane de voisines |
-| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | pré-mesuré les 2026-10-18 sur quatorze : Juvisy-sur-Orge et Mennecy passent la règle des voisines sans alerte, **mais aucune ne passe le marché** (ratio intra-source RealAdvisor ≠ ratio multi-sources de plus de 10 %, motif Carquefou ; cf. journal 18/10 quatrième run et D8) ; Chevilly-Larue, Boissy-Saint-Léger, Viroflay, Le Vésinet relèvent aussi de D5 ; Saint-Égrève et Ramonville-Saint-Agne exigent de justifier une 4ᵉ voisine > 12,6 km ; **Lognes** passe la règle des voisines sans alerte (2026-10-19) ; marché mesuré le 2026-10-19 (quatrième run) : ratio prix multi-sources 1,03 ou 1,10 selon la 4ᵉ voisine (bord de bande), **ratio intra-source incomplet** (RealAdvisor introuvable pour Bussy-Saint-Georges et Pontault-Combault, chiffres de Chelles aberrants) → relève de D6/D8, Saint-Brice-sous-Forêt sous réserve du marché (m² × 1,83) ; Pornic et Le Pontet relèvent de D1 ; Bourg-lès-Valence, Lisieux, Sorgues, Brie-Comte-Robert, Beaucaire, Guipavas, Elbeuf, Rive-de-Gier échouent (tableau D, ~30 noms restants) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
+| D2 | **Abaisser le seuil** de 20 000 à 15 000 hab. (population de référence en vigueur) | pré-mesuré les 2026-10-18 sur quatorze : Juvisy-sur-Orge et Mennecy passent la règle des voisines sans alerte, **mais aucune ne passe le marché** (ratio intra-source RealAdvisor ≠ ratio multi-sources de plus de 10 %, motif Carquefou ; cf. journal 18/10 quatrième run et D8) ; Chevilly-Larue, Boissy-Saint-Léger, Viroflay, Le Vésinet relèvent aussi de D5 ; Saint-Égrève et Ramonville-Saint-Agne exigent de justifier une 4ᵉ voisine > 12,6 km ; **Lognes** passe la règle des voisines sans alerte (2026-10-19) ; marché mesuré le 2026-10-19 (quatrième run) : ratio prix multi-sources 1,03 ou 1,10 selon la 4ᵉ voisine (bord de bande), **ratio intra-source incomplet** (RealAdvisor introuvable pour Bussy-Saint-Georges et Pontault-Combault, chiffres de Chelles aberrants) → relève de D6/D8, Saint-Brice-sous-Forêt **échoue au marché** (ratio DVF 1,41 > 1,30, mesuré le 2026-10-20) ; Pornic et Le Pontet relèvent de D1 ; Bourg-lès-Valence, Lisieux, Sorgues, Brie-Comte-Robert, Beaucaire, Guipavas, Elbeuf, Rive-de-Gier échouent (tableau D, ~30 noms restants) | mêmes règles § 3.2 / § 3.3 bis, populations recoupées sur deux sources |
 | D3 | **Règle Antilles-Guyane-Mayotte** (≤ 3 villes au seed par territoire : la règle des 4 voisines ne peut pas s'appliquer) | Le Gosier, Sainte-Anne, Le Moule, Petit-Bourg (971), Kourou, Matoury, Rémire-Montjoly (973), Koungou (976) | proposition : voisines = toutes les villes du territoire au seed, à condition que le backtest `--dept=` sur ces villes reste ≤ 0,7 d'écart moyen ; sinon override D1 |
 | D4 | **Valider la levée « 4ᵉ voisine > 25 km » à La Réunion**, prise par la routine le 2026-10-14 (lot 16) | confirme Sainte-Marie et Sainte-Suzanne déjà publiées ; ouvre Le Port si sa DVF passe | refus = retrait des 2 villes (2 entrées seed, housing, quartiers, codes postaux, 2 lignes `DOCUMENTED_MODES`) |
 | D5 | **Alerte de frontière quand la règle standard tient** (une commune d'un autre département plus proche que la 4ᵉ voisine) | Villeparisis, Saint-Ouen-l'Aumône, Mitry-Mory | proposition : appliquer la règle ① (voisines tous départements) et n'accepter que si standard **et** ① donnent le même global à 0,3 près |
@@ -2418,3 +2418,30 @@ faut D2 + D6 (ou un centre arrêté) + D8. Ligne D2 du § 0 mise à jour.
 
 **Prochain lot** : dès qu'une décision du § 0 est prise. Sous D2 + D8 : Mennecy, Juvisy-sur-Orge ; Lognes demande en
 plus D6. Saint-Brice-sous-Forêt : § 3.3 bis à mesurer (m² des voisines × 1,83).
+
+### 2026-10-20 — aucun lot : marché de Saint-Brice-sous-Forêt mesuré, la commune sort du gisement D2
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le 19/10 ne porte aucun commit hors `[scheduled-agent]`, et rien sur le seed, `score-calibration.ts`,
+ROADMAP ou CLAUDE.md. Rien ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : le § 3.3 bis de Saint-Brice-sous-Forêt (95539), laissé ouvert par le run précédent (« m² des voisines
+× 1,83 »), mesuré par recherche web.
+
+| Mesure | Saint-Brice-sous-Forêt | Voisines (`data/city-property-prices.json`) | Ratio |
+|---|---|---|---|
+| DVF appart., multi-sources | PAP 3 143 €/m² (DVF + annonces, juil. 2026), Habity 3 114 (DVF+ Cerema 2025) → **3 128** | Sarcelles 1 940 · Villiers-le-Bel 2 142 · Garges-lès-Gonesse 2 285 · Montmorency 3 760 → médiane **2 214** | **1,41** |
+| Estimateurs (notés, non utilisés) | Efficity 3 250, RealAdvisor 3 598 | — | — |
+
+Conséquence : le ratio dépasse le plafond de ± 30 % du § 3.3 bis — la commune **ne ressemble pas à ses voisines**
+de lot (trois d'entre elles sont parmi les marchés les moins chers d'Île-de-France), elle attend. Le ratio
+intra-source n'est pas mesuré : il ne pourrait que confirmer l'échec ou diverger, et l'une ou l'autre issue reporte.
+Saint-Brice-sous-Forêt **sort donc du premier lot D2** et relève de D1 (override documenté). Ligne D2 du § 0 mise à
+jour. Sous D2 + D8, le premier lot possible reste Mennecy et Juvisy-sur-Orge ; Lognes demande en plus D6.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : aucun lancé
+(modification de ce seul fichier de doc). `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise. Sans décision, il ne reste aucune mesure de gisement
+utile à faire sous la règle actuelle : le backlog est entièrement recoupé.
