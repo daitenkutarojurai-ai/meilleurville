@@ -1,9 +1,9 @@
 import { Metadata } from "next";
+import type { CSSProperties } from "react";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
 import { ContributionStats } from "@/components/ContributionStats";
 import { CommentSection } from "@/components/CommentSection";
 import { AlertTriangle, Volume2, Droplets, Wind, Shield, Flame, Zap, ArrowRight } from "lucide-react";
@@ -26,53 +26,49 @@ const redFlagsBreadcrumb = breadcrumbJsonLd([
   { name: "Red Flags", path: "/red-flags" },
 ]);
 
+// Carte & plaque (CLAUDE.md) : chaque famille de red flag est un symbole de
+// légende hachuré brique, comme sur la RedFlagTeaser de la home. Le rouge, le
+// vert, l'orange et le violet restent réservés aux paliers de score.
+const HATCH: CSSProperties = {
+  backgroundImage:
+    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
+};
+
 const FLAG_CATEGORIES = [
   {
     id: "bruit",
     label: "Bruit",
     icon: Volume2,
-    color: "text-orange-600",
-    bg: "bg-orange-400/10 border-orange-400/20",
     examples: ["Couloir aérien", "Autoroute proche", "Voie ferrée", "Bar / discothèque"],
   },
   {
     id: "inondation",
     label: "Inondation & Eau",
     icon: Droplets,
-    color: "text-blue-600",
-    bg: "bg-blue-400/10 border-blue-400/20",
     examples: ["Zone inondable PPRi", "Sous-sol humide récurrent", "Cave inondée", "Ruissellement urbain"],
   },
   {
     id: "pollution",
     label: "Pollution",
     icon: Wind,
-    color: "text-purple-600",
-    bg: "bg-purple-400/10 border-purple-400/20",
     examples: ["PM2.5 élevé", "Zone industrielle proche", "Site pollué BASIAS", "Pesticides agricoles"],
   },
   {
     id: "securite",
     label: "Sécurité",
     icon: Shield,
-    color: "text-red-500",
-    bg: "bg-red-500/10 border-red-400/20",
     examples: ["Cambriolages fréquents", "Dégradations récurrentes", "Squat identifié", "Éclairage insuffisant"],
   },
   {
     id: "construction",
     label: "Construction & Chantier",
     icon: Flame,
-    color: "text-amber-500",
-    bg: "bg-amber-400/10 border-yellow-400/20",
     examples: ["Chantier ≥ 2 ans prévu", "Démolition programmée", "PLU modification", "Promoteur actif"],
   },
   {
     id: "infrastructure",
     label: "Infrastructures",
     icon: Zap,
-    color: "text-emerald-600",
-    bg: "bg-emerald-500/10 border-emerald-400/20",
     examples: ["Fibre non disponible", "Coupures électricité", "Réseau eau dégradé", "Route défoncée"],
   },
 ];
@@ -109,14 +105,17 @@ export default function RedFlagsPage() {
       <Navbar />
 
       {/* Header */}
-      <section className="bg-gradient-to-b from-red-950/20 to-[var(--bg-canvas)] border-b border-[var(--border)] py-14">
+      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
+        {/* Voile papier : le relief reste lisible sans traverser le texte. */}
+        <div className="bg-[var(--bg-canvas)]/80 py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-sm text-red-500">
-            <AlertTriangle className="h-3.5 w-3.5" />
+          <p className="mb-4 inline-flex items-center gap-2 border-b border-[var(--accent-pink)]/40 pb-1 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent-pink)]">
+            <AlertTriangle className="h-3.5 w-3.5" aria-hidden="true" />
             Red Flag Radar
-          </div>
-          <h1 className="mb-3 text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-            Ce que l&apos;annonce immobilière ne vous dira jamais.
+          </p>
+          <h1 className="mb-4 text-3xl sm:text-5xl font-bold leading-[1.05] tracking-tight text-[var(--text-primary)]">
+            Ce que l&apos;annonce immobilière{" "}
+            <span className="font-display italic text-[var(--accent-pink)]">ne vous dira jamais.</span>
           </h1>
           <p className="max-w-2xl text-[var(--text-secondary)] text-lg">
             On agrège les données ouvertes (Géorisques, ATMO, SSMSI) et on ouvre la discussion
@@ -125,6 +124,7 @@ export default function RedFlagsPage() {
           </p>
           <ReportCTA variant="inline" className="mt-5" kinds={["red-flag", "erreur"]} />
         </div>
+      </div>
       </section>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 space-y-14">
@@ -138,25 +138,25 @@ export default function RedFlagsPage() {
               {RED_FLAG_THEMES.length} classements data-driven. Touchez une vignette pour voir les villes concernées.
             </p>
           </div>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
-            {RED_FLAG_THEMES.map((t) => (
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:auto-rows-fr">
+            {RED_FLAG_THEMES.map((t, i) => (
               <Link
                 key={t.slug}
                 href={`/red-flags/${t.slug}`}
-                className="group h-full rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-red-500/50 hover:shadow-md transition-all p-4 flex flex-col gap-2"
+                className="group h-full rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2"
               >
-                <div className="flex items-center gap-3">
-                  <span className="text-3xl" aria-hidden>
-                    {t.emoji}
-                  </span>
-                  <span className="text-sm font-bold text-[var(--text-primary)] group-hover:text-red-500 transition-colors">
-                    {t.title}
-                  </span>
-                </div>
+                <span className="border-b border-dashed border-[var(--border)] pb-2 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                  Feuille {String(i + 1).padStart(2, "0")} / {RED_FLAG_THEMES.length}
+                </span>
+                <span className="text-sm font-bold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors">
+                  {t.title}
+                </span>
                 <p className="text-xs text-[var(--text-secondary)]">
                   {t.intro.slice(0, 110)}…
                 </p>
-                <span className="text-[11px] text-[var(--accent)] mt-auto">Voir le classement →</span>
+                <span className="mt-auto inline-flex items-center gap-1 text-[11px] font-semibold text-[var(--accent)]">
+                  Voir le classement <ArrowRight className="h-3 w-3" aria-hidden="true" />
+                </span>
               </Link>
             ))}
           </div>
@@ -187,20 +187,20 @@ export default function RedFlagsPage() {
               <Link
                 key={f.slug}
                 href={`/red-flags/${f.slug}`}
-                className={`group rounded-2xl border ${f.vigilance.ring} hover:border-red-500/50 hover:shadow-md transition-all p-4 flex flex-col gap-2`}
+                className={`group rounded-md border ${f.vigilance.ring} hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2`}
               >
                 <div className="flex items-center justify-between gap-2">
                   <div className="min-w-0">
-                    <div className="text-sm font-bold text-[var(--text-primary)] group-hover:text-red-500 transition-colors truncate">
+                    <div className="text-sm font-bold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors truncate">
                       {f.name}
                     </div>
                     <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5 truncate">
                       {f.department}
                     </div>
                   </div>
-                  <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-red-500 flex-shrink-0 transition-colors" />
+                  <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent-pink)] flex-shrink-0 transition-colors" />
                 </div>
-                <div className="flex items-center justify-between gap-2 pt-2 border-t border-[var(--border)]/50">
+                <div className="flex items-center justify-between gap-2 pt-2 border-t border-dashed border-[var(--border)]">
                   <span className={`text-xs font-semibold ${f.vigilance.tone}`}>
                     {f.vigilance.label}
                   </span>
@@ -219,15 +219,18 @@ export default function RedFlagsPage() {
         </div>
 
         {/* Honest stats — derived from canonical sources, not hardcoded */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-px overflow-hidden rounded-md border border-[var(--text-primary)]/15 bg-[var(--text-primary)]/15">
           {[
-            { label: "Catégories surveillées", value: FLAG_CATEGORIES.length.toString(), color: "text-red-500" },
-            { label: "Sources publiques", value: "5", color: "text-[var(--text-primary)]" }, // Géorisques, ATMO, SSMSI, BRGM, Insee
-            { label: "Villes couvertes", value: CITIES_SEED.length.toString(), color: "text-emerald-600" },
-            { label: "Données ouvertes", value: "100%", color: "text-[var(--accent)]" },
-          ].map(({ label, value, color }) => (
-            <div key={label} className="rounded-2xl glass border border-white/50 p-5 text-center shadow-sm">
-              <div className={`text-2xl font-bold font-mono-data mb-1 ${color}`}>{value}</div>
+            { label: "Catégories surveillées", value: FLAG_CATEGORIES.length.toString() },
+            { label: "Sources publiques", value: "5" }, // Géorisques, ATMO, SSMSI, BRGM, Insee
+            { label: "Villes couvertes", value: CITIES_SEED.length.toString() },
+            { label: "Données ouvertes", value: "100%" },
+          ].map(({ label, value }, i) => (
+            <div key={label} className="bg-[var(--bg-surface)] px-4 py-5 text-center">
+              <div className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)] mb-2" aria-hidden="true">
+                N° {String(i + 1).padStart(2, "0")}
+              </div>
+              <div className="text-2xl font-bold font-mono-data mb-1 text-[var(--accent)]">{value}</div>
               <div className="text-xs text-[var(--text-secondary)]">{label}</div>
             </div>
           ))}
@@ -242,23 +245,30 @@ export default function RedFlagsPage() {
             Les six familles de red flags suivies sur chaque fiche ville.
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {FLAG_CATEGORIES.map(({ id, label, icon: Icon, color, bg, examples }) => (
-              <Card key={id} className={`border ${bg.split(" ")[1]}`}>
-                <div className="flex items-center justify-between mb-4">
-                  <div className={`flex h-10 w-10 items-center justify-center rounded-xl ${bg}`}>
-                    <Icon className={`h-5 w-5 ${color}`} />
-                  </div>
+            {FLAG_CATEGORIES.map(({ id, label, icon: Icon, examples }, i) => (
+              <div key={id} className="rounded-md border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+                <div className="flex items-center gap-4 mb-3 border-b border-[var(--text-primary)]/15 pb-3">
+                  <span
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
+                    style={HATCH}
+                    aria-hidden="true"
+                  >
+                    <Icon className="h-4 w-4" strokeWidth={2} />
+                  </span>
+                  <h3 className="min-w-0 flex-1 font-semibold text-[var(--text-primary)]">{label}</h3>
+                  <span className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]" aria-hidden="true">
+                    R{i + 1}
+                  </span>
                 </div>
-                <h3 className={`font-semibold ${color} mb-2`}>{label}</h3>
                 <ul className="space-y-1">
                   {examples.map((ex) => (
                     <li key={ex} className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5">
-                      <span className="h-1 w-1 rounded-full bg-[var(--border)] flex-shrink-0" />
+                      <span className="h-px w-2 bg-[var(--accent-pink)] flex-shrink-0" />
                       {ex}
                     </li>
                   ))}
                 </ul>
-              </Card>
+              </div>
             ))}
           </div>
         </div>
@@ -272,8 +282,11 @@ export default function RedFlagsPage() {
         </div>
 
         {/* Contribute CTA */}
-        <div className="rounded-3xl border border-red-500/20 bg-gradient-to-br from-red-950/20 via-[var(--bg-surface)] to-[var(--bg-elevated)] p-8 sm:p-10 text-center">
-          <AlertTriangle className="h-10 w-10 text-red-500 mx-auto mb-4" />
+        <div className="topo-bg rounded-md border border-[var(--border)] bg-[var(--bg-canvas)] p-1.5">
+        <div className="rounded border border-[var(--text-primary)]/15 bg-[var(--bg-surface)]/90 p-8 sm:p-10 text-center">
+          <span className="plaque plaque-small mx-auto mb-4 flex h-12 w-12 items-center justify-center" aria-hidden="true">
+            <AlertTriangle className="h-5 w-5" />
+          </span>
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">
             Vous connaissez un problème non signalé ?
           </h2>
@@ -283,11 +296,12 @@ export default function RedFlagsPage() {
           </p>
           <Link
             href="/contact?topic=red-flag"
-            className="inline-flex items-center gap-2 rounded-xl bg-red-500/10 border border-red-500/30 text-red-500 px-6 py-3 font-semibold hover:bg-red-500/20 transition-colors"
+            className="inline-flex items-center gap-2 rounded-sm border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] px-6 py-3 font-semibold text-[var(--text-primary)] transition-colors hover:bg-[var(--accent-pink)] hover:text-white"
           >
-            <AlertTriangle className="h-4 w-4" />
+            <AlertTriangle className="h-4 w-4" aria-hidden="true" />
             Signaler un point noir
           </Link>
+        </div>
         </div>
 
         {/* Texte de lecture — en fin de page depuis le 2026-10-17 (demande du

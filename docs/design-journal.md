@@ -417,3 +417,35 @@ non lancé.
 1. Hub `/red-flags` — dégradés de héros (« fair game » dans CLAUDE.md), continuité du teaser.
 2. Section commentaires des guides — erreur en `red-50`, à inspecter.
 3. Hero home — pastille « ✨ On en parle » et puces de villes arrondies (vues sur la capture) : fiche/plaque.
+
+## 2026-10-20 ~16:00 UTC — hub `/red-flags` (FR `app/red-flags/page.tsx` + EN `app/[locale]/red-flags/page.tsx`)
+
+**Surface** : le hub Red Flag Radar, dans la continuité du `RedFlagTeaser` de la home (26050cb).
+
+**Changé**
+- Héros : fin du dégradé `from-red-950/20` et de la pastille rouge arrondie. Papier `.topo-bg` sous
+  un voile `bg-canvas/80` (le relief ne traverse plus le texte), sur-titre mono brique souligné,
+  H1 plus grand avec la chute en `font-display` italique brique (même phrase que le teaser).
+- Vignettes thématiques (FR, 43) : `rounded-md`, emoji retiré au profit d'un cartouche mono brique
+  « Feuille NN / 43 » sous filet pointillé (convention des `/classements`), survol brique au lieu de
+  `red-500`, flèche lucide. `auto-rows-fr` seulement à partir de `sm` (plus de vides sur mobile).
+- Fiches par ville : angles nets, survol brique, filet pointillé. **La teinte de vigilance
+  (`ring`/`tone`) est conservée** : elle encode un niveau, pas une décoration.
+- Compteurs : fin du `glass` et des couleurs rouge/emerald détournées → cartouche à filets encre
+  (grille `gap-px`), N° 01-04 en mono, chiffres navy.
+- Catégories (6) : fin des six teintes (orange/bleu/violet/rouge/ambre/emerald) → symboles de
+  légende hachurés brique R1-R6 (même `HATCH` que le teaser), titres encre, tirets brique.
+  Champs `color`/`bg` supprimés des tableaux ; `Card` n'est plus importé côté FR.
+- CTA « Signaler un point noir » : fin du `rounded-3xl` à dégradé rouge → feuillet topo à double
+  cadre, icône sur `.plaque.plaque-small`, bouton contour brique (plein au survol).
+- Non touché : copie, liens, données, calcul de vigilance, `ContributionStats`, `CommentSection`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright `/red-flags` et `/en/red-flags` à 1440 et 390 px, `scrollWidth` =
+viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `components/ContributionStats.tsx` (vu sur /red-flags) — bouton plein `red-500`, tuiles d'emojis
+   🔊💧🚨🏗️🌊, cartes `rounded-2xl` ombrées : légende + plaque.
+2. Pages thème `RedFlagThemePage` (`/red-flags/villes-*`, 43 pages) — à inspecter dans la foulée.
+3. Section commentaires des guides — erreur en `red-50`, à inspecter.
