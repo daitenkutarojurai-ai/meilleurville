@@ -9,7 +9,7 @@ import { pathAlternates } from "@/lib/i18n";
 export const metadata: Metadata = {
   title: "Glossaire immobilier, école, santé, emploi & mobilité",
   description:
-    "DPE, TAEG, APL, carte scolaire, cat-nat, ARE, TEOM, Enedis, tarif réglementé, propane : les termes utiles pour s'installer en France.",
+    "DPE, TAEG, APL, carte scolaire, cat-nat, ARE, TEOM, Enedis, tarif réglementé, propane, listes électorales : les termes utiles pour s'installer en France.",
   alternates: pathAlternates("/glossaire", "/glossary"),
 };
 
@@ -1005,6 +1005,28 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Arrivée dans une commune : vote, adresse et courrier",
+    emoji: "📮",
+    terms: [
+      {
+        term: "Liste électorale : s'inscrire dans sa nouvelle commune",
+        def: "Déménager d'une commune à une autre ne transfère pas le droit de vote : il faut s'inscrire sur la liste électorale de la nouvelle commune, en ligne avec un compte service-public.fr, par courrier ou à la mairie, avec un justificatif de domicile numérisé. Le formulaire demande l'ancien lieu d'inscription, et c'est ce qui permet de faire le lien avec l'ancienne liste. L'outil « Interroger sa situation électorale » de service-public.fr dit où l'on est inscrit. La date limite dépend de chaque scrutin : pour le premier tour de l'élection présidentielle du 18 avril 2027, les sources officielles consultées donnent le vendredi 12 mars 2027. Un décret du 12 juin 2026, applicable au 1ᵉʳ juillet 2026, a unifié des délais qui différaient selon que la démarche était faite en mairie ou en ligne : la date se vérifie sur service-public.fr avant chaque scrutin plutôt que de se déduire d'une règle de mémoire. Les conditions de rattachement à une commune (domicile, résidence, attaches) ne sont pas détaillées ici : la mairie renseigne.",
+      },
+      {
+        term: "Radiation d'office de l'ancienne liste",
+        def: "Quitter une commune ne vous en efface pas automatiquement : les sources consultées ne décrivent pas de radiation systématique au moment de l'inscription ailleurs. La radiation d'office existe pour les électeurs qui n'ont plus de lien avec leur bureau de vote, par exemple après le retour de cartes électorales non distribuables, et le maire doit alors informer l'électeur concerné qu'une procédure est engagée. Le piège pratique est donc inverse de celui qu'on craint : qui oublie de s'inscrire dans sa nouvelle commune peut se retrouver sur une liste qu'il ne fréquente plus, ou rayé d'une liste sans être inscrit ailleurs. Une procuration reste possible jusqu'à la veille du vote, mais elle se prépare à l'avance.",
+      },
+      {
+        term: "Changement d'adresse en ligne (service-public.fr)",
+        def: "Le téléservice officiel transmet une nouvelle adresse à plusieurs administrations en une seule démarche : les impôts, France Travail, des caisses de sécurité sociale et de retraite, la Caf. Il ne prévient ni les banques, ni les assureurs, ni les écoles, ni le fournisseur d'énergie ou l'opérateur télécom, qui se contactent un par un, et la carte grise relève de l'ANTS (voir la section transports). Les fenêtres de temps pour utiliser le téléservice avant ou après le déménagement divergent selon les sources consultées, et ne sont donc pas chiffrées ici : l'écran officiel indique ce qui s'applique. Les usagers signalent aussi des cas où une mise à jour n'est jamais arrivée à destination : un contrôle une fois la démarche faite évite de découvrir le problème sur un avis d'imposition.",
+      },
+      {
+        term: "Réexpédition du courrier",
+        def: "La Poste propose aux particuliers un contrat de réexpédition définitive d'une durée de 6 ou de 12 mois, pour les lettres, les recommandés et les colis de petit format, qui se souscrit en ligne ou dans un bureau de poste. Il peut viser toutes les personnes de l'ancienne adresse ou seulement certaines d'entre elles. C'est un filet, pas une démarche administrative : il ne remplace aucun changement d'adresse auprès des organismes, et il s'éteint à l'échéance. Les tarifs ont changé et d'anciens montants circulent encore sur des sites tiers : le prix se lit sur laposte.fr au moment de la souscription.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -1051,7 +1073,7 @@ export default function GlossairePage() {
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
             locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants,
             l&apos;accès aux soins, les transports, le marché du travail, les factures d&apos;eau et
-            de déchets et la dépendance du grand âge, les études supérieures, le logement étudiant, l&apos;électricité et le gaz en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
+            de déchets et la dépendance du grand âge, les études supérieures, le logement étudiant, l&apos;électricité et le gaz, le vote et le courrier à l&apos;arrivée en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
             connaître avant de signer.
           </p>
         </div>
