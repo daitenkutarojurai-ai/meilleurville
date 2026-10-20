@@ -2466,3 +2466,25 @@ Pierrefitte-sur-Seine) restent exactes. Restent volontairement en l'état les «
 propre, `npm run integrity`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
 
 **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-20 (troisième run) — aucun lot : « 41 communes sur 540 » dérivé sur /vacances/profil/celibataire
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le second run du jour ne porte que des guides (vacances, retraite EN) et `/departments` EN ; rien sur
+le seed, `score-calibration.ts`, ROADMAP ou CLAUDE.md. Rien ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : dégradation des pages d'extension, suite du balayage des « 540 » rendus. Le reliquat de
+`git grep "\b540\b" -- app components` est fait de commentaires ou de mesures datées, sauf **une** phrase affichée :
+la légende du tableau « où la scène du soir est » de `/vacances/profil/celibataire` (`CelibataireExtras.tsx`)
+écrivait « 41 communes sur 540 l'atteignent » (plancher de vie du soir 8,0 sur le meilleur quartier documenté).
+Remesuré en exécutant `NEIGHBORHOODS` contre `CITIES_SEED` : **41 sur 593** (aucune ville d'extension n'atteint
+8,0, `data/neighborhoods.ts` couvre exactement les 593 slugs du seed) — le numérateur était juste, le dénominateur
+faux depuis le lot 1. Les deux nombres sont désormais comptés au chargement (`NIGHTLIFE_FLOOR_REACHED`,
+`NIGHTLIFE_DOCUMENTED`). Médiane 6,5 et 9ᵉ décile 7,5 laissés tels quels : ils décrivent les 495 villes que ce
+profil classe, mesure datée.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`,
+`npm run integrity`, `hreflang:check`, `sitemap:check`. `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).

@@ -274,7 +274,8 @@ function soloBudgetDestinations(): SoloBudgetPick[] {
 //   - `NIGHTLIFE_FLOOR = 8.0` sur le **meilleur** quartier documenté de la
 //     commune. Sur les 495 villes que ce profil classe, la médiane de cette
 //     valeur est 6,5 et le 9ᵉ décile 7,5 : le plancher est donc au-dessus du
-//     neuvième décile. 41 communes sur 540 l'atteignent.
+//     neuvième décile. 41 communes sur 540 l'atteignaient (593 au 2026-10-20,
+//     toujours 41) : le compte affiché est dérivé, cf. NIGHTLIFE_FLOOR_REACHED.
 //   - `SENIOR_SHARE_CEILING = 32` % de résidents de 60 ans et plus. C'est le
 //     garde anti-station-fantôme de cette section, et il remplace la part des
 //     15-29 ans parce qu'il attrape ce que l'autre rate : une station peut
@@ -301,6 +302,14 @@ const NIGHTLIFE_BY_CITY = new Map(
     },
   ]),
 );
+
+// Comptés au chargement et non écrits en dur : le corpus grandit par lots
+// (extension du seed) et « 41 communes sur 540 » est devenu faux du
+// dénominateur dès le lot 1 (2026-10-20 : 41 sur 593).
+const NIGHTLIFE_FLOOR_REACHED = [...NIGHTLIFE_BY_CITY.values()].filter(
+  (n) => n.best >= NIGHTLIFE_FLOOR,
+).length;
+const NIGHTLIFE_DOCUMENTED = NIGHTLIFE_BY_CITY.size;
 
 interface NightScenePick {
   city: CityLight;
@@ -646,8 +655,8 @@ export function CelibataireExtras() {
           {NIGHTLIFE_FLOOR.toLocaleString("fr-FR", {
             minimumFractionDigits: 1,
           })}{" "}
-          (médiane du corpus 6,5, neuvième décile 7,5 ; 41 communes sur 540
-          l'atteignent) · part des 60 ans et plus &lt;{" "}
+          (médiane du corpus 6,5, neuvième décile 7,5 ; {NIGHTLIFE_FLOOR_REACHED}{" "}
+          communes sur {NIGHTLIFE_DOCUMENTED} l'atteignent) · part des 60 ans et plus &lt;{" "}
           {SENIOR_SHARE_CEILING} % (3ᵉ quartile national 31,0 %) · population ≥{" "}
           {RESIDENT_POP_FLOOR.toLocaleString("fr-FR")} habitants.{" "}
           <strong>
