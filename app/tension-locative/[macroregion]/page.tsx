@@ -249,6 +249,11 @@ export default async function MacroRegionTensionPage({ params }: Props) {
             </Link>
           </div>
           <div>
+            <Link href="/pour-qui/investisseurs-locatifs" className="text-[var(--accent)] hover:underline">
+              → Les villes qui conviennent à un investisseur locatif
+            </Link>
+          </div>
+          <div>
             <Link href="/red-flags/villes-logement-introuvable" className="text-[var(--accent)] hover:underline">
               → Red flag : top 12 des villes où le logement locatif est carrément introuvable
             </Link>

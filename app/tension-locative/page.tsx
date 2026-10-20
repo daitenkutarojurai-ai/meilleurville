@@ -255,6 +255,13 @@ export default function RentalTensionHubPage() {
           Voir aussi
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <Link href="/pour-qui/investisseurs-locatifs" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🏘️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes pour investir en locatif</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Le classement du profil investisseur</div>
+            </Card>
+          </Link>
           <Link href="/louer-ou-acheter" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🔑</div>

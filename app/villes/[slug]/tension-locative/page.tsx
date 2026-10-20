@@ -325,6 +325,12 @@ export default async function TensionLocativePage({ params }: Props) {
             </Link>
           )}
           <Link
+            href="/pour-qui/investisseurs-locatifs"
+            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+          >
+            🏘️ Villes pour investisseurs locatifs
+          </Link>
+          <Link
             href={`/villes/${slug}/logement`}
             className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
           >

@@ -238,6 +238,12 @@ export default async function LouerOuAcheterPage({ params }: Props) {
                   <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Top villes accessibles selon budget</div>
                 </Card>
               </Link>
+              <Link href="/pour-qui/investisseurs-locatifs" className="block">
+                <Card className="hover:shadow-md transition-shadow h-full">
+                  <div className="text-xs uppercase text-[var(--text-tertiary)]">Investisseurs</div>
+                  <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Villes pour investir en locatif</div>
+                </Card>
+              </Link>
               <Link href="/louer-ou-acheter" className="block">
                 <Card className="hover:shadow-md transition-shadow h-full">
                   <div className="text-xs uppercase text-[var(--text-tertiary)]">Classement</div>
