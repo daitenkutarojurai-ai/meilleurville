@@ -2445,3 +2445,24 @@ jour. Sous D2 + D8, le premier lot possible reste Mennecy et Juvisy-sur-Orge ; L
 
 **Prochain lot** : dès qu'une décision du § 0 est prise. Sans décision, il ne reste aucune mesure de gisement
 utile à faire sous la règle actuelle : le backlog est entièrement recoupé.
+
+### 2026-10-20 (second run) — aucun lot : « 538 des 540 villes » remplacé par la couverture mesurée sur cinq surfaces
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le 19/10 hors `[scheduled-agent]` ne porte que des guides vacances et `/departments` EN ; rien sur le
+seed, `score-calibration.ts`, ROADMAP ou CLAUDE.md. Rien ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : dégradation des pages d'extension. Cinq surfaces rendues affirmaient encore que le recensement Insee
+couvre « **538 des 540** villes du site » alors que le corpus en compte 593 et que 591 sont couvertes — faux sur les
+**593 pages** `/villes/[slug]/demographie`, dans la FAQ (donc le JSON-LD) des hubs `/demographie` et EN
+`/demographics`, et dans le périmètre de `/villes-qui-grandissent`. Nouveau compte dérivé
+`POPULATION_MEASURED_COUNT` (`lib/site-stats.ts`, villes du seed avec `hasPopulationData`) affiché à côté de
+`CITIES_COUNT` ; il vaut **591 / 593** et suivra tout ajout. Les deux villes nommées comme manques (Mamoudzou,
+Pierrefitte-sur-Seine) restent exactes. Restent volontairement en l'état les « 540 » qui datent une **mesure**
+(corrélations biodiversité, parcs, vibe, bruit) : ils décrivent le corpus au moment du calcul.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).

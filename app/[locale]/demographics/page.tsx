@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { DEMO_LEVEL_LABEL, DEMO_LEVEL_COLOR } from "@/lib/demography";
 import { topMostDynamic, topMostAgeing } from "@/lib/demography-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { CITIES_COUNT } from "@/lib/site-stats";
+import { CITIES_COUNT, POPULATION_MEASURED_COUNT } from "@/lib/site-stats";
 import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 
@@ -78,7 +78,7 @@ export default function EnDemographicsHubPage() {
     },
     {
       q: "How is the demographics ranking calculated?",
-      a: "The composite aggregates four dimensions: ageing (30%, share of 60+) and population trajectory (30%, 2016-2022 change) are measured commune by commune in the Insee census for 538 of the site's 540 cities; young adults aged 25-35 (25%) and renewal (15%, calibrated on the crude birth rate) are estimated from the department and the town's profile. Score 0-10 where 10 = most dynamic. No projection is ingested.",
+      a: `The composite aggregates four dimensions: ageing (30%, share of 60+) and population trajectory (30%, 2016-2022 change) are measured commune by commune in the Insee census for ${POPULATION_MEASURED_COUNT} of the site's ${CITIES_COUNT} cities; young adults aged 25-35 (25%) and renewal (15%, calibrated on the crude birth rate) are estimated from the department and the town's profile. Score 0-10 where 10 = most dynamic. No projection is ingested.`,
     },
     {
       q: "Where can I find official population projections to 2050?",

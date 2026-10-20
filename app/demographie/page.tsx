@@ -8,7 +8,7 @@ import { DEMO_LEVEL_LABEL, DEMO_LEVEL_COLOR } from "@/lib/demography";
 import { topMostDynamic, topMostAgeing } from "@/lib/demography-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { CITIES_COUNT } from "@/lib/site-stats";
+import { CITIES_COUNT, POPULATION_MEASURED_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
@@ -56,7 +56,7 @@ export default function DemographyHubPage() {
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : vieillissement (30 %, part des 60 ans et plus) et trajectoire (30 %, évolution 2016-2022) sont mesurés au recensement Insee, commune par commune, pour 538 des 540 villes du site ; attractivité des jeunes actifs 25-35 (25 %) et renouvellement (15 %, calé sur le taux brut de natalité) sont estimés depuis le département et le profil de la commune. Score 0-10, 10 = démographie dynamique. Aucune projection n'est ingérée.",
+      a: `Composite agrégeant 4 dimensions : vieillissement (30 %, part des 60 ans et plus) et trajectoire (30 %, évolution 2016-2022) sont mesurés au recensement Insee, commune par commune, pour ${POPULATION_MEASURED_COUNT} des ${CITIES_COUNT} villes du site ; attractivité des jeunes actifs 25-35 (25 %) et renouvellement (15 %, calé sur le taux brut de natalité) sont estimés depuis le département et le profil de la commune. Score 0-10, 10 = démographie dynamique. Aucune projection n'est ingérée.`,
     },
     {
       q: "Où voir les projections officielles à 2050 ?",

@@ -29,6 +29,7 @@ import {
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
 import { cityAlternates } from "@/lib/i18n";
+import { CITIES_COUNT, POPULATION_MEASURED_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -312,7 +313,7 @@ export default async function DemographiePage({ params }: Props) {
             <li>
               <strong className="text-[var(--text-primary)]">Vieillissement (30 %) :</strong>{" "}
               part des 60 ans et plus dans la population totale, <strong>mesurée</strong>{" "}
-              au recensement Insee {INSEE_POP_YEAR} pour 538 des 540 villes du site. Médiane
+              au recensement Insee {INSEE_POP_YEAR} pour {POPULATION_MEASURED_COUNT} des {CITIES_COUNT} villes du site. Médiane
               nationale ~28 %. Très âgé : Creuse, Lot, Cantal, Limousin entier ;
               très jeune : DROM hors Antilles.
             </li>
@@ -340,7 +341,7 @@ export default async function DemographiePage({ params }: Props) {
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
             Deux dimensions sur quatre — vieillissement et trajectoire, soit 60 % du
             composite — sont <strong>mesurées</strong> au recensement Insee, commune par
-            commune, pour 538 des 540 villes du site (Mamoudzou et
+            commune, pour {POPULATION_MEASURED_COUNT} des {CITIES_COUNT} villes du site (Mamoudzou et
             Pierrefitte-sur-Seine sont hors fichier et retombent sur le département). Les deux autres sont des <strong>estimations</strong> par département
             et profil. Et rien ici n&apos;est une projection : pour un horizon 2050,
             OMPHALE (INSEE) modélise par zone d&apos;emploi, et la CNAV publie ses

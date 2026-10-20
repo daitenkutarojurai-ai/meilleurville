@@ -2,6 +2,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
 import { RANKING_META } from "@/lib/rankings";
 import { TAG_SLUGS } from "@/lib/guide-tags";
+import { hasPopulationData } from "@/lib/city-population";
 
 // Derived-once counts for every "X villes / Y guides / Z classements" claim
 // displayed across the site. Import these instead of hardcoding numbers so the
@@ -9,6 +10,13 @@ import { TAG_SLUGS } from "@/lib/guide-tags";
 // runtime cost beyond a single Set construction at module load.
 
 export const CITIES_COUNT = CITIES_SEED.length;
+
+// Villes du seed dont le recensement Insee (population + âges) est ingéré. Les
+// pages démographie l'écrivaient « 538 des 540 » en dur, resté tel quel quand
+// l'extension du seed a porté le corpus à 593 villes (591 couvertes).
+export const POPULATION_MEASURED_COUNT = CITIES_SEED.filter((c) =>
+  hasPopulationData(c.slug)
+).length;
 
 export const GUIDES_COUNT = GUIDES.length;
 

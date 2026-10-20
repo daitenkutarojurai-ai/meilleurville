@@ -13,6 +13,7 @@ import {
   INSEE_POP_YEAR,
 } from "@/lib/city-population";
 import { CITIES_LIGHT } from "@/lib/cities-light";
+import { CITIES_COUNT, POPULATION_MEASURED_COUNT } from "@/lib/site-stats";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript, SITE_URL } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -349,7 +350,7 @@ export default function CityGrowthHubPage() {
               à périmètre communal constant ; les évolutions sont directement comparables.
             </li>
             <li>
-              <strong className="text-[var(--text-primary)]">Périmètre</strong> — 538 des 540
+              <strong className="text-[var(--text-primary)]">Périmètre</strong> — {POPULATION_MEASURED_COUNT} des {CITIES_COUNT}
               villes du site couvertes. Mamoudzou (Mayotte) n&apos;est pas dans le fichier
               « France hors Mayotte » et Pierrefitte-sur-Seine a fusionné dans Saint-Denis
               au 1ᵉʳ janvier 2025, donc absente en géographie 2025.
