@@ -107,14 +107,16 @@ export function CookieConsent() {
       aria-label={COPY.title}
       className="fixed bottom-3 left-3 right-3 z-[90] sm:left-5 sm:right-auto sm:bottom-5 sm:max-w-[360px] animate-cookie-in"
     >
-      <div className="relative rounded-2xl bg-white/95 backdrop-blur-md ring-1 ring-black/5 shadow-[0_18px_50px_-12px_rgba(24,33,47,0.35)] overflow-hidden">
-        {/* Enamel plaque band across the top: navy field over the green rim */}
+      {/* A slip of map paper: card stock, ink keyline inside a pencil rule, a
+          strip of contour lines down the left edge and the enamel plaque as the
+          icon. No blur, no glass, no rounded app tile. */}
+      <div className="relative rounded-[4px] bg-[var(--bg-surface)] border border-[var(--text-primary)] shadow-[0_14px_36px_-14px_rgba(24,33,47,0.45)]">
         <div
-          className="h-1.5 w-full"
-          style={{
-            background:
-              "linear-gradient(180deg, var(--accent) 0 66%, var(--plaque-frame) 66% 100%)",
-          }}
+          className="pointer-events-none absolute inset-[3px] rounded-[2px] border border-[var(--border)]"
+          aria-hidden="true"
+        />
+        <div
+          className="topo-bg pointer-events-none absolute left-[3px] top-[3px] bottom-[3px] w-6 border-r border-dashed border-[var(--border)] opacity-80"
           aria-hidden="true"
         />
 
@@ -122,28 +124,27 @@ export function CookieConsent() {
           type="button"
           onClick={() => persist("denied")}
           aria-label={COPY.dismiss}
-          className="absolute top-2.5 right-2.5 rounded-full p-1 text-[var(--text-tertiary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors"
+          className="absolute top-2 right-2 rounded-[3px] p-1 text-[var(--text-tertiary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
         >
           <X size={14} strokeWidth={2.2} />
         </button>
 
-        <div className="px-4 pt-3.5 pb-3.5 sm:px-5 sm:pt-4 sm:pb-4">
-          <div className="flex items-start gap-3">
-            <div
-              className="shrink-0 grid place-items-center w-9 h-9 rounded-xl bg-[var(--accent-soft)] text-[var(--accent)]"
-              aria-hidden="true"
-            >
-              <Cookie size={18} strokeWidth={2} />
-            </div>
+        <div className="relative pl-10 pr-4 pt-3.5 pb-3.5 sm:pl-11 sm:pr-5 sm:pt-4 sm:pb-4">
+          <div className="flex items-start gap-3 pr-5">
+            <span className="plaque plaque-small shrink-0 mt-0.5" aria-hidden="true">
+              <Cookie size={14} strokeWidth={2.2} />
+            </span>
             <div className="min-w-0 flex-1">
-              <div className="text-[10px] uppercase tracking-[0.14em] text-[var(--text-tertiary)] font-medium">
-                {COPY.eyebrow}
+              <div className="font-mono-data text-[10px] uppercase tracking-[0.16em] text-[var(--accent-pink)]">
+                {COPY.eyebrow} · N° 01
               </div>
               <div className="mt-0.5 font-display text-[18px] leading-tight text-[var(--text-primary)]">
                 {COPY.title}
               </div>
             </div>
           </div>
+
+          <div className="mt-2.5 border-t border-dashed border-[var(--border)]" aria-hidden="true" />
 
           <p className="mt-2.5 text-[13px] leading-relaxed text-[var(--text-secondary)]">
             {COPY.body}
@@ -153,23 +154,26 @@ export function CookieConsent() {
             <button
               type="button"
               onClick={() => persist("granted")}
-              className="flex-1 rounded-xl bg-[var(--accent)] px-3.5 py-2 text-[13px] font-medium text-white shadow-sm hover:bg-[var(--accent-hover)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2"
+              className="flex-1 rounded-[4px] bg-[var(--accent)] px-3.5 py-2 text-[13px] font-medium text-white hover:bg-[var(--accent-hover)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2"
             >
               {COPY.accept}
             </button>
             <button
               type="button"
               onClick={() => persist("denied")}
-              className="flex-1 rounded-xl bg-transparent px-3.5 py-2 text-[13px] font-medium text-[var(--text-secondary)] ring-1 ring-[var(--border)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
+              className="flex-1 rounded-[4px] bg-transparent px-3.5 py-2 text-[13px] font-medium text-[var(--text-primary)] border border-[var(--text-primary)] hover:bg-[var(--bg-elevated)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
             >
               {COPY.refuse}
             </button>
           </div>
 
-          <div className="mt-2.5 text-center">
+          <div className="mt-2.5 flex items-center justify-between gap-2">
+            <span className="font-mono-data text-[10px] uppercase tracking-[0.14em] text-[var(--text-tertiary)]" aria-hidden="true">
+              GA4 · {IS_EN ? "opt-in" : "consentement"}
+            </span>
             <Link
               href={COPY.detailHref}
-              className="text-[11px] text-[var(--text-tertiary)] hover:text-[var(--accent)] underline-offset-4 hover:underline"
+              className="text-[11px] text-[var(--text-secondary)] hover:text-[var(--accent)] underline decoration-[var(--accent-pink)] decoration-1 underline-offset-4"
             >
               {COPY.detail} →
             </Link>
@@ -181,11 +185,11 @@ export function CookieConsent() {
         @keyframes cookie-in {
           from {
             opacity: 0;
-            transform: translateY(14px) rotate(-1.2deg);
+            transform: translateY(14px) rotate(-0.8deg);
           }
           to {
             opacity: 1;
-            transform: translateY(0) rotate(-0.6deg);
+            transform: translateY(0) rotate(-0.4deg);
           }
         }
         .animate-cookie-in {

@@ -394,3 +394,26 @@ Captures `next dev` + Playwright à 1440 et 390 px (home + un guide), `scrollWid
 1. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie (visible sur toutes les captures) : fiche papier.
 2. Hub `/red-flags` — dégradés de héros (« fair game » dans CLAUDE.md), continuité du teaser.
 3. Section commentaires des guides (vue sous la lettre) — erreur en `red-50`, à inspecter.
+
+## 2026-10-20 ~11:00 UTC — bandeau cookies `components/CookieConsent.tsx` (toutes pages FR + EN)
+
+**Surface** : la fiche de consentement, affichée en bas à gauche de chaque page à la première visite.
+
+**Changé**
+- Fin de la carte d'app : `rounded-2xl`, `bg-white/95` + `backdrop-blur-md`, tuile d'icône arrondie
+  sur lavis bleu, boutons `rounded-xl`, bandeau dégradé navy/vert en tête.
+- Devient un **feuillet de carte** : papier `--bg-surface`, filet encre + filet crayon intérieur
+  (double cadre), **bande de courbes de niveau** (`.topo-bg`) le long du bord gauche séparée par un
+  pointillé, icône cookie sur **`.plaque.plaque-small`**, sur-titre mono brique « Petite note · N° 01 »,
+  filet pointillé avant le texte, boutons à angles nets (navy plein / contour encre), pied mono
+  « GA4 · consentement » et lien « Voir le détail » souligné brique. Inclinaison d'entrée adoucie.
+- Non touché : copie, logique de consentement GA, clé de stockage, délai d'apparition.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright sur `/` à 1440 et 390 px, `scrollWidth` = viewport. `npm run build`
+non lancé.
+
+**Prochaines surfaces candidates**
+1. Hub `/red-flags` — dégradés de héros (« fair game » dans CLAUDE.md), continuité du teaser.
+2. Section commentaires des guides — erreur en `red-50`, à inspecter.
+3. Hero home — pastille « ✨ On en parle » et puces de villes arrondies (vues sur la capture) : fiche/plaque.
