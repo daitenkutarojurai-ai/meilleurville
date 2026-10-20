@@ -449,3 +449,27 @@ viewport. `npm run build` non lancé.
    🔊💧🚨🏗️🌊, cartes `rounded-2xl` ombrées : légende + plaque.
 2. Pages thème `RedFlagThemePage` (`/red-flags/villes-*`, 43 pages) — à inspecter dans la foulée.
 3. Section commentaires des guides — erreur en `red-50`, à inspecter.
+
+## 2026-10-20 ~23:00 UTC — `components/ContributionStats.tsx` (bloc « La communauté en action » de `/red-flags`)
+
+**Surface** : le bloc couverture + catégories surveillées du hub `/red-flags`, dernier îlot SaaS de la page.
+
+**Changé**
+- Fin du `glass`, des cartes `rounded-2xl`/`rounded-xl` translucides et du bouton plein `red-500`.
+- Couverture : fiche papier à filet pointillé sous le titre, compteurs en cartouche à filets encre
+  (`gap-px`, N° 01-04 mono, chiffres navy — même grammaire que les compteurs du hub), libellés en
+  `text-secondary` (contraste AA). CTA « Signaler un point noir » en contour brique, plein au survol,
+  flèche lucide.
+- Catégories : emojis 🔊💧🌫️🚨🏗️🌊 remplacés par des symboles de légende hachurés brique (icônes
+  lucide, même `HATCH` que les R1-R6 du hub et le teaser), repère mono C1-C6, liste `<ul>` sans
+  sous-cartes, sources sous filet pointillé.
+- Non touché : copie (libellés, descriptions, sources), compteurs, lien.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright `/red-flags` à 1440 et 390 px, `scrollWidth` = viewport.
+`npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages thème `RedFlagThemePage` (`/red-flags/villes-*`, 43 pages) — à inspecter.
+2. Section commentaires des guides — erreur en `red-50`, à inspecter.
+3. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.

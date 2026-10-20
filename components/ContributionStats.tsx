@@ -1,13 +1,23 @@
+import type { CSSProperties } from "react";
 import Link from "@/components/AppLink";
+import { ArrowRight, Construction, Droplets, ShieldAlert, Volume2, Waves, Wind } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 
+// Carte & plaque (CLAUDE.md) : symboles de légende hachurés brique, comme les
+// catégories R1-R6 du hub /red-flags et le RedFlagTeaser de la home. Aucune
+// teinte de palier de score ici : une catégorie n'est pas une note.
+const HATCH: CSSProperties = {
+  backgroundImage:
+    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
+};
+
 const FLAG_TYPES = [
-  { emoji: "🔊", label: "Bruit chronique", desc: "Couloirs autoroutiers, voies ferrées, aéroports" },
-  { emoji: "💧", label: "Risque inondation", desc: "Zones PPRI, débordements documentés" },
-  { emoji: "🌫️", label: "Qualité d'air", desc: "PM10 / PM2.5 / NO₂ chroniques (ATMO)" },
-  { emoji: "🚨", label: "Insécurité", desc: "Cambriolages et vols avec violence (SSMSI)" },
-  { emoji: "🏗️", label: "Travaux longs", desc: "Chantiers majeurs sur 12 mois et plus" },
-  { emoji: "🌊", label: "Érosion côtière", desc: "Communes en retrait du trait de côte" },
+  { icon: Volume2, label: "Bruit chronique", desc: "Couloirs autoroutiers, voies ferrées, aéroports" },
+  { icon: Droplets, label: "Risque inondation", desc: "Zones PPRI, débordements documentés" },
+  { icon: Wind, label: "Qualité d'air", desc: "PM10 / PM2.5 / NO₂ chroniques (ATMO)" },
+  { icon: ShieldAlert, label: "Insécurité", desc: "Cambriolages et vols avec violence (SSMSI)" },
+  { icon: Construction, label: "Travaux longs", desc: "Chantiers majeurs sur 12 mois et plus" },
+  { icon: Waves, label: "Érosion côtière", desc: "Communes en retrait du trait de côte" },
 ];
 
 export function ContributionStats() {
@@ -15,50 +25,66 @@ export function ContributionStats() {
 
   return (
     <div className="grid gap-6 lg:grid-cols-3">
-      {/* Honest stats */}
-      <div className="rounded-2xl glass border border-white/50 p-6">
-        <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-5">Couverture actuelle</h3>
-        <div className="grid grid-cols-2 gap-3">
+      {/* Honest stats — cartouche à filets encre */}
+      <div className="rounded-md border border-[var(--border)] bg-[var(--bg-surface)] p-6">
+        <h3 className="mb-4 border-b border-dashed border-[var(--text-primary)]/20 pb-3 text-sm font-semibold text-[var(--text-primary)]">
+          Couverture actuelle
+        </h3>
+        <div className="grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-[var(--text-primary)]/15 bg-[var(--text-primary)]/15">
           {[
             { value: `${totalCities}`, label: "Villes profilées" },
             { value: `${FLAG_TYPES.length}`, label: "Catégories de risques" },
             { value: "8", label: "Axes de notation" },
             { value: "100%", label: "Données ouvertes" },
-          ].map(({ value, label }) => (
-            <div key={label} className="rounded-xl bg-white/60 border border-[var(--border)]/60 p-3 text-center">
-              <div className="text-xl font-black font-mono-data text-[var(--accent)]">{value}</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-0.5">{label}</div>
+          ].map(({ value, label }, i) => (
+            <div key={label} className="bg-[var(--bg-surface)] p-3 text-center">
+              <div className="font-mono-data text-[9px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]" aria-hidden="true">
+                N° {String(i + 1).padStart(2, "0")}
+              </div>
+              <div className="mt-1 text-xl font-bold font-mono-data text-[var(--accent)]">{value}</div>
+              <div className="mt-0.5 text-xs text-[var(--text-secondary)]">{label}</div>
             </div>
           ))}
         </div>
         <div className="mt-5">
           <Link
             href="/contact?topic=red-flag"
-            className="block w-full text-center text-sm font-semibold text-white bg-red-500 hover:bg-red-600 transition-colors rounded-xl py-2.5"
+            className="flex w-full items-center justify-center gap-2 rounded-sm border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] py-2.5 text-center text-sm font-semibold text-[var(--text-primary)] transition-colors hover:bg-[var(--accent-pink)] hover:text-white"
           >
-            Signaler un point noir →
+            Signaler un point noir
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </Link>
         </div>
       </div>
 
-      {/* Categories tracked */}
-      <div className="rounded-2xl glass border border-white/50 p-6 lg:col-span-2">
-        <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-4">Catégories surveillées</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {FLAG_TYPES.map((f) => (
-            <div
-              key={f.label}
-              className="flex items-start gap-3 rounded-xl border border-[var(--border)]/60 bg-white/40 p-3"
-            >
-              <div className="text-2xl flex-shrink-0">{f.emoji}</div>
-              <div className="min-w-0">
-                <div className="text-sm font-bold text-[var(--text-primary)]">{f.label}</div>
-                <div className="text-[11px] text-[var(--text-secondary)] leading-relaxed">{f.desc}</div>
+      {/* Categories tracked — légende de carte */}
+      <div className="rounded-md border border-[var(--border)] bg-[var(--bg-surface)] p-6 lg:col-span-2">
+        <h3 className="mb-4 border-b border-dashed border-[var(--text-primary)]/20 pb-3 text-sm font-semibold text-[var(--text-primary)]">
+          Catégories surveillées
+        </h3>
+        <ul className="grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2">
+          {FLAG_TYPES.map(({ icon: Icon, label, desc }, i) => (
+            <li key={label} className="flex items-start gap-3">
+              <span
+                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
+                style={HATCH}
+                aria-hidden="true"
+              >
+                <Icon className="h-4 w-4" strokeWidth={2} />
+              </span>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-sm font-bold text-[var(--text-primary)]">{label}</span>
+                  <span className="font-mono-data text-[9px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]" aria-hidden="true">
+                    C{i + 1}
+                  </span>
+                </div>
+                <div className="text-[11px] leading-relaxed text-[var(--text-secondary)]">{desc}</div>
               </div>
-            </div>
+            </li>
           ))}
-        </div>
-        <p className="mt-4 text-[11px] text-[var(--text-tertiary)] leading-relaxed">
+        </ul>
+        <p className="mt-5 border-t border-dashed border-[var(--text-primary)]/20 pt-3 text-[11px] leading-relaxed text-[var(--text-tertiary)]">
           Sources : Géorisques (BRGM), ATMO France, SSMSI, observatoire des trajectoires littorales.
           Les signalements habitants sont publiés ci-dessous, après filtrage anti-spam.
         </p>
