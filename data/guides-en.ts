@@ -27764,6 +27764,486 @@ export const EN_GUIDES: EnGuide[] = [
       "expat retirement",
     ],
   },
+  {
+    slug: "retiring-in-montpellier-2026",
+    title: "Retiring in Montpellier: a teaching hospital and sun, in a young city",
+    metaTitle: "Retiring in Montpellier 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Montpellier: a university hospital on site, free public transport for residents, a one-bed at €850, summer heat. The honest guide.",
+    category: "moving",
+    emoji: "☀️",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "Montpellier draws retirees for the sun, 2,740 hours a year on our climate sheet, the sea about ten kilometres away and one of the best-reputed university hospitals in the country. It is not a retirement town, though: people aged 60 and over make up 19% of the population, against a median of 26.2% across the communes we track (INSEE census, 2022). It is a young, fast-growing city, from 281,613 inhabitants in 2016 to 307,101 in 2022. Our retirement score is harsh on it, 5.6/10, with 374 towns ahead and a tie of seventeen at the same mark. This guide explains why, and who Montpellier suits anyway.",
+    sections: [
+      {
+        heading: "Why Montpellier works for some retirees",
+        body: "Three concrete reasons. Care first: the city has one of the oldest medical faculties in the world still teaching, and a top-tier teaching hospital, which matters for specialist follow-up. Climate second: mild winters, 7.7°C on average in January on our climate sheet, and clear skies most of the year. The city itself third: a pedestrian old centre around the Écusson and the Place de la Comédie, big-city culture with the opera and the Fabre museum, and the beaches of Palavas and Carnon reachable by tram and bus. For an active retiree who wants a real city rather than a seaside resort, it ticks many boxes.",
+      },
+      {
+        heading: "Healthcare: a CHU on site, access estimated as easy",
+        body: "Our healthcare-access engine rates Montpellier 7.9/10, where 10 means excellent access, against a median of 5.5 across the communes we track, with access judged easy for GPs, specialists, emergency care and pharmacies. The CHU (the regional university hospital) is spread over several sites, including Lapeyronie, Arnaud-de-Villeneuve and Gui-de-Chauliac, backed by many private clinics. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. The limit is the same everywhere in France: finding a médecin traitant, the named GP who sets your reimbursement rate, is hard for a newcomer. Start the day you move in, before you need one.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Our estimate puts a one-bedroom at €850, a two-bedroom at €1,150 and a purchase at around €3,900/m². That is expensive for the south, driven by population growth and student demand. For a retiree three things matter more than a fashionable district: a tram line close by, a lift, and sun exposure. With 27°C on average in July and repeated heatwaves, a top-floor south-facing flat without shutters or air conditioning gets hard to live in. Residential districts near the tram, such as Beaux-Arts, Arceaux or Port-Marianne, strike a good balance. Communes around the city are calmer but usually need a car.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €850 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,540 a month. A couple renting a two-bedroom: rent €1,150, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,180 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). Montpellier has one thing few cities offer: since late 2023, public transport in the metropolitan area is free for residents on simple registration, so the transport line can fall to zero if you live near the tram.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "Montpellier lives outdoors: markets, terraces in the Écusson, the Peyrou promenade, the botanical garden, the oldest in France. The tram reaches the sea and the Lunaret park. The university of the third age and the associations are active, but in a city with many under-30s, friendships among retirees tend to form through clubs rather than on the street. The Cévennes hills, the Pic Saint-Loup and the lagoons are within an hour for walking, and the high-speed station puts Paris about three and a half hours away, which makes family visits workable.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Four honest points. The retirement score first: 5.6/10 reflects a big, dense, expensive city. It weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. Safety second: our commune-level safety indicator puts Montpellier at 3.7/10, among the lowest of the big cities. That says nothing about a given street but justifies visiting at different hours. Heat third: summers lengthen, and autumn Cévennes storms bring violent rain. Cost fourth, with a commune poverty rate of 28% (INSEE Filosofi) that reminds you the city is one of contrasts. Montpellier suits the urban, mobile retiree in good health who wants the hospital and the culture within tram reach.",
+      },
+    ],
+    relatedCities: ["montpellier","sete","nimes","beziers","perpignan"],
+    tags: [
+      "retiring in Montpellier 2026",
+      "Hérault expat retirement",
+      "Montpellier teaching hospital seniors",
+      "retire in the south of France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-bordeaux-2026",
+    title: "Retiring in Bordeaux: a World Heritage centre, tram lines and the ocean an hour away",
+    metaTitle: "Retiring in Bordeaux 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Bordeaux: a university hospital on site, a one-bed at €900, the ocean an hour away, a UNESCO-listed centre. Health, budget, limits.",
+    category: "moving",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "Bordeaux is a big city you live in on foot and by tram, with a UNESCO World Heritage centre, a university hospital on site and the Atlantic an hour away. People aged 60 and over make up 19.1% of the population, under the 26.2% median of the communes we track (INSEE census, 2022): like Montpellier, it is an active metropolis more than a retirement town. The population is growing, 252,040 in 2016 and 265,328 in 2022. Our retirement score puts it at 6.1/10, with 286 towns ahead and a tie of twenty-two at the same mark. This guide covers health, housing and budget.",
+    sections: [
+      {
+        heading: "Why Bordeaux works for some retirees",
+        body: "Three concrete reasons. The city: reworked quays along the Garonne, the water mirror, eighteenth-century stone façades and a largely pedestrian centre where you can live without a car. The climate: mild winters, 6.9°C on average in January on our climate sheet, and 2,065 hours of sun a year, without the Mediterranean furnace. The position: the ocean at Lacanau or the Arcachon basin about an hour away, vineyards at the city gates, and Paris a little over two hours by high-speed train for family visits. Bordeaux suits the retiree who wants a big city at human scale.",
+      },
+      {
+        heading: "Healthcare: a CHU on site, access estimated as easy",
+        body: "Our healthcare-access engine rates Bordeaux 7.9/10, where 10 means excellent access, against a median of 5.5, with access judged easy on all four dimensions. The CHU (university hospital) has several major sites, including Pellegrin in town and Haut-Lévêque in Pessac, and the conurbation has many clinics. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. As everywhere, finding a médecin traitant, the named GP who sets your reimbursement rate, is the hardest step for a newcomer. Begin on arrival.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Our estimate puts a one-bedroom at €900, a two-bedroom at €1,200 and a purchase at around €4,500/m², among the highest in provincial France. Échoppes, the low single-storey stone houses typical of Bordeaux, are sought after by retirees for their level access, but they are pricey in favoured districts such as Saint-Augustin or Caudéran. Central flats are often in old buildings without a lift: a third-floor stone walk-up is charming at 65 and a constraint at 80. First-ring communes well served by the tram, such as Talence, Le Bouscat or Mérignac, give more space for the same money.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €900 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,590 a month. A couple renting a two-bedroom: rent €1,200, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,230 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). The TBM network offers reduced fares to seniors depending on age and income, to check with the operator.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "Bordeaux has big-city culture: the Grand-Théâtre and opera, the Cité du Vin, the Aquitaine museum, the CAPC contemporary art museum, and many markets, including the Capucins. The quays are the daily walk, on foot or by bike, and the tram serves most districts. Clubs and universities of the third age are active. For outings, the Arcachon basin, the Dune du Pilat, the Médoc and Saint-Émilion are an hour away, and Mérignac airport opens up Europe. You can grow old here without a car if you choose your address well.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. Cost first: Bordeaux is one of the most expensive provincial cities per square metre, and its cost-of-living score is low, 4.5/10 on our city sheet. The retirement score weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. Traffic second: the ring road jams at rush hour, and a retiree in the outskirts without a tram line depends on a car in difficult conditions. Heat third, which is rising in summer, with more frequent heatwaves. Bordeaux suits the comfortably off retiree who wants a university hospital, a cultural life and the ocean an hour away.",
+      },
+    ],
+    relatedCities: ["bordeaux","arcachon","libourne","merignac","pessac"],
+    tags: [
+      "retiring in Bordeaux 2026",
+      "Gironde expat retirement",
+      "Bordeaux university hospital seniors",
+      "retire near the Atlantic",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-nice-2026",
+    title: "Retiring in Nice: the mildest winter of any big French city, at Riviera prices",
+    metaTitle: "Retiring in Nice 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Nice: 10.5°C in January, a university hospital on site, but a one-bed at €1,100. Health, monthly budget and honest limits.",
+    category: "moving",
+    emoji: "🌴",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "Nice has the mildest winter of any large French city: 10.5°C on average in January on our climate sheet. People have retired here for over a century, and the numbers show it: those aged 60 and over make up 29.3% of the population and those 75 and over 12.4%, above the medians of 26.2% and 10.2% across the communes we track (INSEE census, 2022). The price is housing, the highest in this series with a one-bedroom estimated at €1,100. Our retirement score puts it at 5.0/10, held back by cost and size. This guide weighs both.",
+    sections: [
+      {
+        heading: "Why Nice works for some retirees",
+        body: "Three concrete reasons. The climate: mild bright winters, 2,694 hours of sun a year on our climate sheet, the sea at the bottom of town. The city: the Promenade des Anglais, the old town, the cours Saleya market, the Matisse and Chagall museums, the opera, and a tramway serving the centre, east, west and the airport. The international airport, the busiest in France outside Paris by passengers, which makes family visits and travel easy. For a retiree who wants a big city in the sun with sea and mountains within reach, Nice has few equivalents.",
+      },
+      {
+        heading: "Healthcare: a CHU on site, access estimated as easy",
+        body: "Our healthcare-access engine rates Nice 7.9/10, where 10 means excellent access, against a median of 5.5, with access judged easy on all four dimensions. The Nice CHU (university hospital), including Pasteur and L'Archet, and many private clinics make a dense offer used to an older clientele. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. One thing to know: many specialists work in secteur 2, meaning they may charge above the state tariff, so the quality of your mutuelle, the top-up insurance, matters more here than elsewhere.",
+      },
+      {
+        heading: "Housing: the line that decides",
+        body: "Our estimate puts a one-bedroom at €1,100, a two-bedroom at €1,500 and a purchase at around €5,200/m². This is the line that makes or breaks a Nice retirement. The most practical districts for a retiree are flat and close to the tram: Libération, Carabacel, Gambetta, the Port. The hills, Cimiez and Mont-Boron, offer calm and views, but their slopes and stairs become an obstacle with age. Tourist rentals squeeze the supply of small flats. In summer, 26.5°C on average in July, air conditioning or at least shutters and good orientation are essential.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €1,100 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,790 a month. A couple renting a two-bedroom: rent €1,500, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,530 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). In Nice this budget is well above the average pension for a single person renting: a Nice retirement in practice means owning your home or having above-average income.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "Nice offers a very established retiree social life: clubs, associations, universities of the third age, activities on the promenade, sea swimming much of the year. The February carnival, the Menton lemon festival and the jazz festival mark the calendar. For outings, the hilltop villages of the hinterland, Èze, Saint-Paul-de-Vence, Villefranche-sur-Mer and Monaco are reachable by train or bus, and the southern Alps ski areas about an hour and a half away. You can live here without a car if you are near the tram.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. Cost first, detailed above: our cost-of-living score is 3.3/10 on our city sheet. The retirement score weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. Natural hazards second: heatwaves lengthen, forest fires threaten the hinterland, and storm Alex in 2020 showed how violent floods can be in the valleys. The tourist rhythm third, which saturates the centre and the promenade in summer. Nice suits the retiree who owns or is well off, wants a mild winter, a university hospital and an airport, and accepts the price of the Riviera.",
+      },
+    ],
+    relatedCities: ["nice","antibes","menton","cagnes-sur-mer","cannes"],
+    tags: [
+      "retiring in Nice 2026",
+      "French Riviera expat retirement",
+      "Nice university hospital seniors",
+      "mild winter France retirement",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-perpignan-2026",
+    title: "Retiring in Perpignan: the cheapest big Mediterranean city, with one gap to check",
+    metaTitle: "Retiring in Perpignan 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Perpignan: sun, the sea 15 km away, a one-bed at €650, but no university hospital on site. Health, budget and limits, stated.",
+    category: "moving",
+    emoji: "🌞",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "Perpignan is the cheapest big Mediterranean city in France for a retiree: a one-bedroom is estimated at €650 and a purchase at €2,300/m², with 2,750 hours of sun a year on our climate sheet and the sea about fifteen kilometres away. People aged 60 and over make up 28.1% of the population, above the 26.2% median of the communes we track (INSEE census, 2022). Our retirement score puts it at 5.6/10, in the same tie of seventeen towns as Montpellier. This guide says what Perpignan offers and the two points to look at closely: the hospital and the social figures.",
+    sections: [
+      {
+        heading: "Why Perpignan works for some retirees",
+        body: "Three concrete reasons. Price first: for the budget of a one-bedroom in Nice, you rent a large two-bedroom here. Climate second: mild winters, 7.5°C on average in January on our climate sheet, and clear skies most of the year. The setting third: the beach at Canet, the Côte Vermeille from Collioure to Banyuls, the Canigou massif and the Pyrenees within an hour, and Spain half an hour away for shopping, outings and Barcelona by train. For a retiree on a tight budget who wants sun and sea, Perpignan is one of the few affordable options.",
+      },
+      {
+        heading: "Healthcare: a hospital, but no university hospital",
+        body: "Our healthcare-access engine rates Perpignan 6.2/10, where 10 means excellent access, above the median of 5.5, with GPs and specialists judged adequate and emergency care easy to reach. The Perpignan general hospital and the clinics of the conurbation cover most needs, but the city has no CHU: the nearest is Montpellier, about 130 kilometres as the crow flies by our calculation. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. For highly specialised follow-up, cancer care or major surgery, that means travel. It is the first point to weigh.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Our estimate puts a one-bedroom at €650, a two-bedroom at €870 and a purchase at around €2,300/m². The market is relaxed and choice is wide. Calm residential districts, such as Moulin-à-Vent or around the Ducup park, and well-connected neighbouring communes are often preferred to the historic centre, which is uneven from street to street and sometimes run down. On the coast, Canet-en-Roussillon and Argelès cost more and are very seasonal. The DPE, the mandatory energy rating on every listing, matters: a badly insulated home is uncomfortable both in January, under the tramontane wind, and in July, at 27°C on average.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €650 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,340 a month. A couple renting a two-bedroom: rent €870, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,900 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). Perpignan is one of the few big southern cities where a single person renting can live on an average pension.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "Life in Perpignan is lived outdoors: markets, terraces on the Place de la République and the Loge, walks along the quays of the Basse. Catalan culture is very present, with sardana dances, the Saint-John festivities and Holy Week. The Visa pour l'Image photojournalism festival, every late summer, opens its exhibitions free of charge. For outings, the beach by bus, the Côte Vermeille, Romanesque abbeys such as Saint-Michel-de-Cuxa, vineyards and Spain. A car remains very useful to enjoy the region, even though departmental buses serve the coast.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. The absence of a university hospital first, detailed above. The social figures second: the commune's poverty rate is 34% (INSEE Filosofi), one of the highest among the towns we track, and our commune-level safety indicator is low, 3.7/10 on our city sheet. These say nothing about a given street, but they justify visiting at different hours before you choose. The retirement score weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. The tramontane third, the strong north-westerly wind that blows hard much of the year. Perpignan suits the independent retiree on a tight budget who wants sun and sea and will drive for specialist care.",
+      },
+    ],
+    relatedCities: ["perpignan","collioure","narbonne","beziers","montpellier"],
+    tags: [
+      "retiring in Perpignan 2026",
+      "Pyrénées-Orientales expat retirement",
+      "cheap sunny retirement France",
+      "Catalan France retirement",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-la-rochelle-2026",
+    title: "Retiring in La Rochelle: flat, sunny for the Atlantic coast, and tight on specialists",
+    metaTitle: "Retiring in La Rochelle 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in La Rochelle: a flat city by the ocean, 2,190 hours of sun, a one-bed at €820, tight specialist access. Budget and limits.",
+    category: "moving",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "La Rochelle is one of the most sought-after retirement destinations on the Atlantic coast, and our retirement score agrees: 6.9/10, with 163 towns ahead and a tie of fifteen at the same mark. People aged 60 and over make up 30% of the population, against a 26.2% median across the communes we track (INSEE census, 2022). The city is flat, sunny for the Atlantic, 2,190 hours a year on our climate sheet, and gaining inhabitants, 75,736 in 2016 and 79,961 in 2022. The price is property, and a specialist offer we judge tight. This guide details both.",
+    sections: [
+      {
+        heading: "Why La Rochelle works for some retirees",
+        body: "Three concrete reasons. The city: flat and compact, with an arcaded centre and an old harbour you walk around, and one of the most cycle-friendly cities in France, a pioneer of shared bikes. The climate: mild winters, 6.6°C on average in January on our climate sheet, and temperate summers at 22.8°C, without the Mediterranean heat. The setting: the ocean, the Île de Ré over its bridge, Oléron island, the Marais Poitevin wetlands, and a lively cultural scene for a city this size. Our commune-level safety indicator is 6.5/10 on our city sheet, above most cities in this series.",
+      },
+      {
+        heading: "Healthcare: a good hospital, tight specialists",
+        body: "Our healthcare-access engine rates La Rochelle 5.7/10, where 10 means excellent access, close to the median of 5.5: emergency care is judged easy to reach and GPs adequate, but access to specialists is judged tight. The La Rochelle general hospital handles emergencies and a large share of specialties. The nearest CHU (university hospital) is Nantes, about 120 kilometres as the crow flies by our calculation, with Poitiers at a similar distance. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. For regular specialist follow-up, plan for delays and travel, and secure a médecin traitant, the named GP who sets your reimbursement rate, as soon as you move.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Our estimate puts a one-bedroom at €820, a two-bedroom at €1,100 and a purchase at around €4,200/m², among the highest on the Atlantic coast outside the Basque Country. Demand from retirees, second-home owners and tourist rentals tightens the market. The centre and Les Minimes are the most practical and the most expensive; Lafond, Tasdon or Laleu offer single-storey houses at more accessible prices, still a bike ride from the centre. Neighbouring communes such as Aytré, Périgny or Lagord are an alternative. The Île de Ré is a separate market, clearly dearer and very quiet in winter.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €820 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,510 a month. A couple renting a two-bedroom: rent €1,100, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,130 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). The Yélo network, combining buses, bikes and boats, offers reduced fares to check with the operator. For many La Rochelle retirees an electric-assist bike replaces the car in town.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "La Rochelle runs on the rhythm of its port: central market, walks on the quays, trips to sea, sailing, fishing. The Francofolies music festival in July, the Grand Pavois boat show in September, the film festival, and the exhibitions at the Aquarium and the maritime museum fill the year. The association scene is dense, fed by decades of retiree arrivals, and the university of the third age is active. For outings, the Île de Ré by bike, Rochefort and its Royal Rope Works, Fouras and the Île d'Aix. Paris is about three hours by high-speed train, which helps with family visits.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. Property first: our cost-of-living score is low, 4.6/10 on our city sheet. The retirement score weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. Specialist access second, detailed above, with a university hospital more than an hour away. The tourist season third, which saturates the centre and the bridges to the islands in July and August. The flood risk also counts, as storm Xynthia in 2010 showed on the Charente coast: consult Géorisques, the official risk map, before buying in a low-lying area. La Rochelle suits the active, comfortably off retiree who wants a flat city, the ocean and an already established social life.",
+      },
+    ],
+    relatedCities: ["la-rochelle","rochefort","royan","ile-de-re","niort"],
+    tags: [
+      "retiring in La Rochelle 2026",
+      "Charente-Maritime expat retirement",
+      "Atlantic coast retirement France",
+      "flat walkable city France retirement",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-pau-2026",
+    title: "Retiring in Pau: Pyrenees views, mild winters and low prices, a long way from a CHU",
+    metaTitle: "Retiring in Pau 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Pau: views of the Pyrenees, a one-bed at €680, mild winters, a university hospital far away. Health, monthly budget and limits.",
+    category: "moving",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "Pau has a long history as a winter resort town: in the nineteenth century the British came here for the mildness of the climate. The tradition continues: people aged 60 and over make up 28.3% of the population and those 75 and over 12.6%, above the medians of 26.2% and 10.2% across the communes we track (INSEE census, 2022). A one-bedroom is estimated at €680, and our retirement score puts Pau at 6.7/10, with 183 towns ahead and a tie of seventeen at the same mark. This guide weighs what Pau offers, and the question of the university hospital.",
+    sections: [
+      {
+        heading: "Why Pau works for some retirees",
+        body: "Three concrete reasons. The setting: the Boulevard des Pyrénées, a kilometre-long promenade facing the mountain range, Henri IV's château, and many parks such as the Beaumont park. The climate: mild for the foot of the mountains, 6°C on average in January on our climate sheet, little wind, but rain more often than on the coast, with 1,823 hours of sun a year. The price: rents and prices per square metre among the lowest in this series. The Ossau valley, Lourdes, the Basque coast and Spain are an hour or a little more away.",
+      },
+      {
+        heading: "Healthcare: a large hospital, a CHU at a distance",
+        body: "Our healthcare-access engine rates Pau 6.6/10, where 10 means excellent access, above the median of 5.5: GPs and emergency care are judged easy to reach, specialists tight. The Pau general hospital is one of the large non-university hospitals of the south-west, complemented by private clinics. The nearest CHU (university hospital) is Toulouse, about 150 kilometres as the crow flies by our calculation, with Bordeaux slightly further. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. For very specialised follow-up, that means journeys or video consultations.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Our estimate puts a one-bedroom at €680, a two-bedroom at €900 and a purchase at around €2,400/m². The Pau market is relaxed. The large bourgeois flats of the centre and of the Trespoey district, once the English quarter, offer generous space, sometimes in period villas. For a retiree, being near the Boulevard des Pyrénées, the covered market and a bus line counts for more than a prestigious address. Neighbouring communes, Lescar, Billère or Lons, offer newer single-storey houses. Check the insulation of old properties: winters are mild but damp.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €680 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,370 a month. A couple renting a two-bedroom: rent €900, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,930 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). A car stays useful in Pau to enjoy the Pyrenees and the coast, which can add €150 to €250 a month to the transport line, an assumption on our part.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "Pau offers a well-equipped mid-sized city life: the renovated covered market, cinemas, the Saint-Louis theatre, the Zénith concert hall, and an active association scene. The Pau golf club, presented as the oldest on the European continent, recalls the British legacy. Rugby with the Section Paloise and the historic car Grand Prix through the city centre mark the year. For outings, hiking in the Ossau valley, mountain lakes, Lourdes, the villages of the Béarn and the Basque coast. A free funicular links the station to the Boulevard des Pyrénées.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. The university hospital first, more than two hours away by road. Rail isolation second: Paris is over four hours by train, and Pau airport has few destinations, which complicates visits from distant family. The rain third, more frequent than you might expect. The retirement score weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. Pau suits the retiree who loves mountains, wants a calm, well-equipped, affordable town, and whose health does not call for very specialised hospital follow-up.",
+      },
+    ],
+    relatedCities: ["pau","tarbes","lourdes","bayonne","biarritz"],
+    tags: [
+      "retiring in Pau 2026",
+      "Pyrénées-Atlantiques expat retirement",
+      "Béarn mountain retirement",
+      "affordable retirement south-west France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-toulon-2026",
+    title: "Retiring in Toulon: Nice's sun at a more reasonable price, with Marseille's CHU nearby",
+    metaTitle: "Retiring in Toulon 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Toulon: 2,750 hours of sun, a one-bed at €780, the bay and Mont Faron, a university hospital 50 km away. Budget and limits.",
+    category: "moving",
+    emoji: "⛵",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "Toulon is the affordable alternative to Nice: the same sun, 2,750 hours a year on our climate sheet, mild winters at 8.4°C on average in January, and a one-bedroom estimated at €780 against €1,100 in Nice. People aged 60 and over make up 29.4% of the population, above the 26.2% median of the communes we track (INSEE census, 2022), and the city is gaining inhabitants, 169,634 in 2016 and 180,834 in 2022. Our retirement score puts it at 5.7/10, in a tie of twenty-three towns at the same mark. This guide says who Toulon works for.",
+    sections: [
+      {
+        heading: "Why Toulon works for some retirees",
+        body: "Three concrete reasons. The climate first, among the sunniest in France. The bay second, one of the finest in Europe, with the Mourillon beaches in town, Mont Faron and its cable car, and the Îles d'Hyères within boat reach. The price third: for a city on the Var coast, rents and purchase prices, around €3,200/m², stay clearly below Nice, Cannes or Aix. The city also has a strong naval tradition, with a large community of retired French Navy people that structures part of the association scene.",
+      },
+      {
+        heading: "Healthcare: good access, the CHU in Marseille",
+        body: "Our healthcare-access engine rates Toulon 7.1/10, where 10 means excellent access, above the median of 5.5: GPs, emergency care and pharmacies are judged easy to reach, specialists adequate. Toulon has a large intercommunal hospital, with Sainte-Musse, and the Sainte-Anne military teaching hospital, open to civilians. The nearest CHU (university hospital) is in Marseille, about 50 kilometres as the crow flies by our calculation, under an hour by train or motorway. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Our estimate puts a one-bedroom at €780, a two-bedroom at €1,050 and a purchase at around €3,200/m². The Mourillon, near the beaches, is the district retirees favour most, flat and lively, but also the dearest. The old centre is more affordable, uneven from street to street. The western districts, Cap Brun to the east and neighbouring communes such as La Valette, Six-Fours or Sanary offer calmer houses and residences, often on hills: slopes and car dependence are worth anticipating for later years. In summer, 26.5°C on average in July, orientation and air conditioning count.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €780 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,470 a month. A couple renting a two-bedroom: rent €1,050, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,080 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). The Mistral network includes the bus-boats crossing the bay, a cheap way to reach La Seyne, Tamaris or Saint-Mandrier without a car.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "Toulon life revolves around the port, the cours Lafayette market, the Mourillon beaches and the coastal paths. Rugby with the RCT is an institution. Toulon opera, one of the largest in provincial France, programmes all year. For outings, Porquerolles and Port-Cros from Hyères, the calanques and Cassis, Sanary and Bandol, and the Var hinterland. Marseille is under an hour away for a big-city day, and Toulon-Hyères airport serves a few destinations.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. Safety first: our commune-level safety indicator puts Toulon at 4.1/10 on our city sheet, a figure that says nothing about a given street but justifies visiting at different hours. Traffic second, dense in a conurbation squeezed between sea and mountain, with an underground crossing often jammed. Hazards third: heatwaves and forest fires in summer in the Var. The retirement score weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. Toulon suits the retiree who wants sun and sea at a more reasonable price than the Riviera, with good access to care.",
+      },
+    ],
+    relatedCities: ["toulon","hyeres","la-seyne-sur-mer","marseille","aix-en-provence"],
+    tags: [
+      "retiring in Toulon 2026",
+      "Var expat retirement",
+      "affordable Mediterranean retirement",
+      "French Riviera alternative",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-vannes-2026",
+    title: "Retiring in Vannes: the highest retirement score in this series, on the Gulf of Morbihan",
+    metaTitle: "Retiring in Vannes 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Vannes: Gulf of Morbihan, retirement score 7/10, a one-bed at €850, tight specialist access. Health, budget and limits.",
+    category: "moving",
+    emoji: "⛵",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "Vannes has the best retirement score in this series: 7.0/10, with 154 towns ahead and a tie of nine at the same mark. People aged 60 and over make up 33.1% of the population and those 75 and over 13.8%, above the medians of 26.2% and 10.2% across the communes we track (INSEE census, 2022). The town has the Gulf of Morbihan at its feet, mild winters, 6.5°C on average in January on our climate sheet, and one of the lowest poverty rates in this series, 15% (INSEE Filosofi). The price is property. This guide details health, housing and budget.",
+    sections: [
+      {
+        heading: "Why Vannes works for some retirees",
+        body: "Three concrete reasons. The setting: the old town and its ramparts, the harbour running into the centre, and the Gulf of Morbihan, with its islands, the Île-aux-Moines and the Île d'Arz, minutes away by boat. The climate: southern Brittany is milder and sunnier than people imagine, 1,900 hours a year on our climate sheet. The calm: our commune-level safety indicator is 6.9/10 on our city sheet, the highest in this series. Vannes is a mid-sized town of around 55,000 inhabitants where you do everything on foot or by bike in the centre.",
+      },
+      {
+        heading: "Healthcare: a regional hospital, tight specialists",
+        body: "Our healthcare-access engine rates Vannes 5.7/10, where 10 means excellent access, close to the median of 5.5: emergency care judged easy to reach, GPs adequate, specialists tight. The Bretagne Atlantique hospital centre in Vannes handles emergencies and a large share of specialties. The nearest CHU (university hospital) is Rennes, about 95 kilometres as the crow flies by our calculation, with Nantes at a similar distance. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. As along the whole Breton coast in demand from retirees, finding a médecin traitant, the named GP who sets your reimbursement rate, is hard: make it your first errand.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Our estimate puts a one-bedroom at €850, a two-bedroom at €1,150 and a purchase at around €3,900/m², on a par with Montpellier, driven by demand from retirees and second-home buyers around the gulf. The centre and the harbour are the most practical, with flats often old; nearby residential districts such as Kerlann or Ménimur, and communes such as Séné, Arradon or Theix, offer single-storey houses, at the price of a car. Seafront communes on the gulf are clearly dearer and very quiet in winter.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €850 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,540 a month. A couple renting a two-bedroom: rent €1,150, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,180 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). The Kicéo network serves the town and neighbouring communes; for the gulf and the coast, a car often remains necessary.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "Vannes offers an active mid-sized town life: the Lices market, among the most renowned in Brittany, summer festivals including jazz, the Semaine du Golfe every two years with its traditional sailing boats, and a very developed association scene. For outings, the islands of the gulf, the Rhuys peninsula, Carnac and its standing stones, Quiberon and its wild coast, and walking on the coastal path. The high-speed train puts Paris about two and a half hours away, and Rennes and Nantes are about an hour away for a big-city day.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. Property first, expensive for a town this size. Specialist access second, judged tight, with a university hospital more than an hour away. Seasonality third: in summer the gulf fills up and roads and car parks saturate; in winter some seaside villages empty. The retirement score weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. Vannes suits the retiree who wants the sea, a calm and safe town, and a social life that is easy to build, provided you have the gulf's budget.",
+      },
+    ],
+    relatedCities: ["vannes","lorient","carnac","quimper","rennes"],
+    tags: [
+      "retiring in Vannes 2026",
+      "Morbihan expat retirement",
+      "Brittany coast retirement",
+      "Gulf of Morbihan retirement",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-angers-2026",
+    title: "Retiring in Angers: the quiet all-rounder of the west, with a CHU and Paris in 90 minutes",
+    metaTitle: "Retiring in Angers 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Angers: a university hospital on site, a tram, a one-bed at €750, Paris in about 1h30 by train. Health, budget and limits.",
+    category: "moving",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "Angers is the big city of the west that ticks the most boxes for a retiree without making a fuss: a university hospital on site, a tramway, a one-bedroom estimated at €750, and Paris about an hour and a half by high-speed train. People aged 60 and over make up 22.4% of the population, under the 26.2% median of the communes we track (INSEE census, 2022): it is a student and working city. The population is growing, 151,229 in 2016 and 157,555 in 2022. Our retirement score puts it at 6.2/10, in a tie of twenty-six towns. This guide says why Angers deserves a look.",
+    sections: [
+      {
+        heading: "Why Angers works for some retirees",
+        body: "Three concrete reasons. Health first: a university hospital on site, rare for a city where housing stays at this price. The city second: known for its parks and green spaces, with an old centre around the château and the cathedral, the Apocalypse Tapestry, and a three-line tramway. The position third: Paris about an hour and a half away, Nantes under an hour, the Loire châteaux, Saumur and the Anjou vineyards within reach. The climate is oceanic and temperate, without extremes: 4.6°C on average in January and 21.8°C in July on our climate sheet.",
+      },
+      {
+        heading: "Healthcare: a CHU on site, access estimated as easy",
+        body: "Our healthcare-access engine rates Angers 7.9/10, where 10 means excellent access, against a median of 5.5, with access judged easy on all four dimensions. The Angers CHU (university hospital) and the clinics of the conurbation provide a complete offer, from routine follow-up to heavy specialties, without travelling to another city. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. As everywhere, the médecin traitant, the named GP who sets your reimbursement rate, is the errand to start on arrival.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Our estimate puts a one-bedroom at €750, a two-bedroom at €1,000 and a purchase at around €3,000/m². That is markedly less than Nantes, Bordeaux or Rennes. The centre and the La Doutre district, across the Maine river, are the most prized for charm and shops nearby. Districts along the tram lines offer a good compromise between price and mobility, and first-ring communes such as Avrillé or Les Ponts-de-Cé offer single-storey houses. Old homes in the centre often have no lift, a point to anticipate.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €750 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,440 a month. A couple renting a two-bedroom: rent €1,000, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,030 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). The Irigo network offers reduced fares to seniors depending on age and income, to check with the operator.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "Angers offers big-city culture: Le Quai, the theatre, the museums, the Premiers Plans film festival in January, the Accroche-Cœurs street festival in September. The parks, the botanical garden, the Maine lake and the Loire banks by bike serve daily life. The association scene is dense, and the university of the third age active. For outings, the Terra Botanica plant park, the Loire châteaux, Saumur, the vineyards and the troglodyte villages. A city where you can grow old without a car if you live near the tram.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. The climate first: neither sea nor big sun, with 1,920 hours a year on our climate sheet and grey winters. Dynamism second: a student and working city, where social ties among retirees are built in associations rather than on the street. Property third, which rises with the city's appeal. The retirement score weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. Angers suits the retiree who puts health, services and big-city culture first, at a price still reasonable, rather than sun and sea.",
+      },
+    ],
+    relatedCities: ["angers","saumur","nantes","le-mans","tours"],
+    tags: [
+      "retiring in Angers 2026",
+      "Maine-et-Loire expat retirement",
+      "Angers university hospital seniors",
+      "Loire Valley retirement",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-hyeres-2026",
+    title: "Retiring in Hyères: one of the oldest towns we track, and the mildest winters",
+    metaTitle: "Retiring in Hyères 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Hyères: 2,900 hours of sun, 9°C in January, the Îles d'Or, a one-bed at €950. Health, monthly budget and honest limits.",
+    category: "moving",
+    emoji: "🌴",
+    readMinutes: 7,
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    intro:
+      "Hyères is one of the oldest towns we track: people aged 60 and over make up 37.7% of the population and those 75 and over 16.7%, against medians of 26.2% and 10.2% (INSEE census, 2022). It is a declared retirement town, with 2,900 hours of sun a year and 9°C on average in January on our climate sheet, among the mildest winters in France. A one-bedroom is estimated at €950. Our retirement score puts it at 5.9/10, in a tie of fourteen towns, held back by cost. The population is stable, 55,772 in 2016 and 55,384 in 2022.",
+    sections: [
+      {
+        heading: "Why Hyères works for some retirees",
+        body: "Three concrete reasons. The climate first, among the mildest and sunniest in the country, which made Hyères a winter resort as early as the nineteenth century. The setting second: the Giens peninsula, the salt pans, the beaches, and the Îles d'Or, Porquerolles, Port-Cros and Le Levant, minutes away by boat. The town third, which lives all year thanks to its retiree population: a medieval old town, palm trees, Belle Époque villas, the Villa Noailles. For a retiree who wants sun, sea and protected nature in a mid-sized town, Hyères is a benchmark.",
+      },
+      {
+        heading: "Healthcare: a hospital, Toulon next door, the CHU in Marseille",
+        body: "Our healthcare-access engine rates Hyères 6.6/10, where 10 means excellent access, above the median of 5.5: GPs, emergency care and pharmacies are judged easy to reach, specialists tight. Hyères has its own hospital centre, and the Toulon hospitals, including Sainte-Musse and the Sainte-Anne military teaching hospital, are about twenty kilometres away. The nearest CHU (university hospital) is in Marseille, about 65 kilometres as the crow flies by our calculation. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Our estimate puts a one-bedroom at €950, a two-bedroom at €1,250 and a purchase at around €4,200/m², above Toulon, driven by demand from retirees and second-home owners. The town centre and its surroundings are the most practical for living without a car. Seafront districts, L'Ayguade and Giens, are dearer and very seasonal, and the commune is sprawling: several areas need a car for shopping and care. In summer, 28°C on average in July on our climate sheet, air conditioning or good orientation is essential.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a one-bedroom: rent €950 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,640 a month. A couple renting a two-bedroom: rent €1,250, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,280 a month. An owner with no mortgage drops the rent but adds the taxe foncière, the annual property tax, and building charges. For scale, the average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service). Because the commune is sprawling, many Hyères retirees keep a car, which can add €150 to €250 a month, an assumption on our part.",
+      },
+      {
+        heading: "Daily life, and seeing family",
+        body: "Hyères life is paced by markets, beaches, hiking on the coastal paths and boat trips to the islands. The senior association scene is very developed, in proportion to an older population. The Villa Noailles hosts a design and fashion festival, and the Olbius-Riquier garden and Saint-Bernard park serve as walks. For outings, Porquerolles by bike, the Domaine du Rayol gardens, Bormes-les-Mimosas, Le Lavandou and the Maures massif. Toulon, twenty minutes away, adds the opera, and Toulon-Hyères airport is in the commune.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. Cost first: our cost-of-living score is low, 4.6/10 on our city sheet. The retirement score weighs safety, cost of living, nature, quality of life and transport, with a bonus for calm towns and mild winters and a penalty for very large cities. The season second: in summer the Giens peninsula and the road to the islands saturate, and prices climb. Hazards third: heatwaves and forest fires in the Var, and floods during Mediterranean storm episodes, which have hit the Hyères plain several times. Check Géorisques, the official risk map, before buying. Hyères suits the retiree who wants a mild winter, the sea and an already well-established retiree social life, provided you have the budget of the Var coast.",
+      },
+    ],
+    relatedCities: ["hyeres","toulon","la-seyne-sur-mer","frejus","saint-tropez"],
+    tags: [
+      "retiring in Hyères 2026",
+      "Var coast expat retirement",
+      "mild winter retirement France",
+      "Îles d'Or retirement",
+      "expat retirement",
+    ],
+  },
 
   {
     slug: "single-parent-in-nimes-2026",

@@ -6972,6 +6972,56 @@
       "emoji": "🌅"
     },
     {
+      "slug": "retiring-in-montpellier-2026",
+      "title": "Retiring in Montpellier: a teaching hospital and sun, in a young city",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "retiring-in-bordeaux-2026",
+      "title": "Retiring in Bordeaux: a World Heritage centre, tram lines and the ocean an hour away",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "retiring-in-nice-2026",
+      "title": "Retiring in Nice: the mildest winter of any big French city, at Riviera prices",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "retiring-in-perpignan-2026",
+      "title": "Retiring in Perpignan: the cheapest big Mediterranean city, with one gap to check",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "retiring-in-la-rochelle-2026",
+      "title": "Retiring in La Rochelle: flat, sunny for the Atlantic coast, and tight on specialists",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "retiring-in-pau-2026",
+      "title": "Retiring in Pau: Pyrenees views, mild winters and low prices, a long way from a CHU",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "retiring-in-toulon-2026",
+      "title": "Retiring in Toulon: Nice's sun at a more reasonable price, with Marseille's CHU nearby",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "retiring-in-vannes-2026",
+      "title": "Retiring in Vannes: the highest retirement score in this series, on the Gulf of Morbihan",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "retiring-in-angers-2026",
+      "title": "Retiring in Angers: the quiet all-rounder of the west, with a CHU and Paris in 90 minutes",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "retiring-in-hyeres-2026",
+      "title": "Retiring in Hyères: one of the oldest towns we track, and the mildest winters",
+      "emoji": "🌴"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -9109,6 +9159,11 @@
       "count": 34
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 32
+    },
+    {
       "slug": "job-market-france",
       "label": "job market france",
       "count": 32
@@ -9146,11 +9201,6 @@
     {
       "slug": "budget",
       "label": "budget",
-      "count": 22
-    },
-    {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
       "count": 22
     },
     {
