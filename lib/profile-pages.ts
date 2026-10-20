@@ -1223,8 +1223,8 @@ export const PROFILE_PAGES: ProfileDef[] = [
       "pour autant à l'intérieur d'un département, parce que les dimensions urgences, spécialistes et pharmacies " +
       "suivent la taille de la commune : dans la Sarthe, La Flèche et Sablé-sur-Sarthe sortent à 7,7 quand Le Mans, " +
       "préfecture dotée d'un centre hospitalier, tombe à 5,2. C'est ce quart de variance restant qui sépare une " +
-      "sous-préfecture d'une ville-centre, et c'est lui qui rend la page lisible. Sur les 540 villes, 22 atteignent " +
-      "le niveau « désert » de l'échelle, 205 le niveau « tendu », 166 sont correctes et 147 faciles, pour une " +
+      "sous-préfecture d'une ville-centre, et c'est lui qui rend la page lisible. Sur les 593 villes, 22 atteignent " +
+      "le niveau « désert » de l'échelle, 205 le niveau « tendu », 194 sont correctes et 172 faciles, pour une " +
       "médiane à 4,5. Le coût du logement vient juste derrière, avec un poids volontairement élevé : une " +
       "installation en libéral, c'est un local à trouver et souvent un emprunt, au moment précis où l'on renonce à " +
       "un salaire. Suivent la qualité de vie, les écoles (on s'installe rarement seul, et une installation en " +

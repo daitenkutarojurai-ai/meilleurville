@@ -2488,3 +2488,45 @@ profil classe, mesure datée.
 `npm run integrity`, `hreflang:check`, `sitemap:check`. `npm run build` non lancé.
 
 **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-20 (quatrième run) — aucun lot : sept thèmes Red Flag citaient le corpus des 540, deux contredisaient leur liste
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le troisième run du jour hors `[scheduled-agent]` est vide ; rien sur le seed, `score-calibration.ts`,
+ROADMAP ou CLAUDE.md. Rien ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : dégradation des pages d'extension, suite du balayage des « 540 » rendus, cette fois dans `lib/` (que
+les balayages `app components` des runs précédents ne voyaient pas). La prose de **sept thèmes Red Flag** décrivait
+le corpus des 540 villes d'origine alors que leur `rank()` classe les 593 — et sur **deux** d'entre eux, la médiane
+de comparaison a bougé avec les 52 communes d'extension de 20 000 hab. et plus (petite couronne surtout, loyers
+au-dessus de la médiane), donc la page se contredisait :
+
+| Thème | Prose avant | Mesuré sur 593 |
+|---|---|---|
+| `villes-jeunes-studio-cher` | 361 villes, T1 médian 540 €, 15 cumulent, « Talence ouvre » | 413 villes, **580 €**, **9** cumulent ; Talence, Toulouse, Montpellier (620 €, 1,07×) sortent sous le seuil ; **Paris ouvre** |
+| `villes-arrivees-loyers-hauts` | 361 villes, T3 médian 1 010 €, 71 / 27 / 17 IdF, Athis-Mons, Bezons, Bayonne, Meyzieu, Décines | 413, **1 080 €**, 91 / 21 / 19 IdF ; Bayonne (1,11×) sort ; Joinville-le-Pont, Saint-Cyr-l'École, Orly, Ris-Orangis (extension) entrent dans les 15 |
+| `villes-sans-enfants` | 472 villes ≥ 10 000, médiane 1,50, 16,9 %, corpus 21 410 € / T3 950 € | 525, 1,42, 17,3 %, 21 570 € / 1 000 € (les 28 publiées et la conclusion inchangées) |
+| `villes-vieillir-loin-des-soins` | 521 villes, 139 à 12 % | 525, 140 (57 publiées inchangées) |
+| `villes-qui-se-vident` | 538 couvertes, 204 / 162 / 472 / 115, loyers Paris 2,6 et KB 1,6 | 591, 217 / 167 / 525 / 120, 2,5 et 1,6 (15 publiées inchangées) |
+| `villes-achat-hors-de-portee` | 430 des 540, médiane 5,4, 109 / 74 / 16, exclusions 26 + 15 + 64 + 5, seize entre 10 et 11 | 480 des 593, 5,5, 110 / 82 / 16, 26 + 15 + 67 + 5, 18 (Romainville et Montrouge entre 10 et 11) |
+| `villes-prix-au-m2-trompeur` | 433 des 540, médiane 1,49, exclusions 25 + 1 + 15 + 66 | 483 des 593, 1,48, 25 + 1 + 15 + 69 (22 publiées inchangées) |
+
+Plus les parenthèses de couverture « 538 des 540 » (quatre thèmes) et « 533/540 » (pauvreté), qui valent 591/593
+et 586/593. **Correctif** : ces nombres sont désormais **calculés au chargement** avec les mêmes filtres que les
+classements (`CORPUS_*` exportés par `lib/red-flag-themes.ts` ; éligibilités de deux thèmes factorisées en
+`arriveesEligible()` / `jeunesEligible()` pour que prose et liste lisent le même corpus) ; ils suivront tout lot
+futur. Les villes **nommées** restent écrites à la main et ont été remesurées : nouveau
+`scripts/red-flag-corpus.ts` imprime corpus et tête de chaque thème, à relancer après chaque lot (§ 3.4).
+Hors `red-flag-themes` : l'intro du profil `professionnels-de-sante` (`lib/profile-pages.ts`, importé côté client,
+donc littéral remesuré et non dérivé) disait « sur les 540 villes, 22 / 205 / 166 / 147 » → 22 / 205 / **194 / 172**
+sur 593, médiane 4,5 inchangée. `villes-pauvres-loyers-hauts` (409 villes) avait déjà été écrit sur le corpus
+complet : tout concorde, non touché. Aucun de ces thèmes n'a de jumelle EN.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**À ajouter au § 3.4 dès le prochain lot** : `npx tsx --tsconfig tsconfig.json scripts/red-flag-corpus.ts` avant et
+après, et relire les villes nommées des thèmes dont la tête a changé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
