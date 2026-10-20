@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import { Mail, CheckCircle, ArrowRight, Sparkles } from "lucide-react";
+import { Mail, CheckCircle, ArrowRight } from "lucide-react";
+import type { CSSProperties } from "react";
 import { Button } from "@/components/ui/Button";
-import { MagneticButton } from "@/components/effects/MagneticButton";
 
 type Locale = "fr" | "en";
 
@@ -18,6 +18,8 @@ interface NewsletterCopy {
   submit: string;
   sending: string;
   fine: string;
+  kicker: string;
+  stamp: string;
 }
 
 // Locale-scoped copy. The `locale` prop is also sent to /api/newsletter, so a
@@ -36,6 +38,8 @@ const COPY: Record<Locale, NewsletterCopy> = {
     submit: "S'abonner",
     sending: "Envoi…",
     fine: "Aucun spam · Désabonnement en un clic · Données en France",
+    kicker: "Courrier · chaque dimanche",
+    stamp: "Dim.",
   },
   en: {
     titlePre: "The",
@@ -49,13 +53,21 @@ const COPY: Record<Locale, NewsletterCopy> = {
     submit: "Subscribe",
     sending: "Sending…",
     fine: "No spam · One-click unsubscribe",
+    kicker: "Post · every Sunday",
+    stamp: "Sun.",
   },
+};
+
+// Airmail envelope edge, in the two accents only.
+const AIRMAIL: CSSProperties = {
+  backgroundImage:
+    "repeating-linear-gradient(135deg, var(--accent) 0 12px, transparent 12px 18px, var(--accent-pink) 18px 30px, transparent 30px 36px)",
 };
 
 export function NewsletterSection({
   locale = "fr",
-  // `compact` drops the aurora / sparkle / grain chrome and the 3xl heading so
-  // the block can sit inside an article without hijacking it. Same form, same
+  // `compact` drops the stamp and the 4xl heading so the block can sit inside
+  // an article without hijacking it. Same form, same
   // endpoint, same honeypot — only the surrounding decoration changes.
   compact = false,
 }: {
@@ -84,111 +96,122 @@ export function NewsletterSection({
     }
   }
 
-  return (
-    <section className={compact ? "my-10" : "relative py-8 sm:py-20 border-t border-[var(--border)]"}>
-      <div className={compact ? "" : "mx-auto max-w-4xl px-4 sm:px-6"}>
-        <div
-          className={
-            compact
-              ? "relative overflow-hidden rounded-2xl border border-[var(--accent)]/25 bg-gradient-to-br from-[var(--accent)]/8 to-transparent p-6 sm:p-8"
-              : "relative overflow-hidden rounded-[2rem] border border-white/60 glass-strong p-10 sm:p-14 shadow-2xl shadow-[var(--accent)]/15"
-          }
-        >
-          {!compact && (
+  // The Sunday letter as an envelope on the survey-map paper: an airmail edge
+  // (navy and brick — the site's only two accents, never a score tier), a
+  // postage stamp on a plaque, and a plain navy submit. No aurora, sparkles,
+  // grain or magnetic button. CLAUDE.md « Carte & plaque ».
+  const form =
+    state === "success" ? (
+      <div role="status" aria-live="polite" className="inline-flex items-center gap-2 rounded-lg border border-[var(--accent)]/30 bg-[var(--accent-soft)] px-4 py-3 text-sm text-[var(--accent)]">
+        <CheckCircle className="h-5 w-5 shrink-0" aria-hidden="true" />
+        <span className="font-semibold">{copy.success}</span>
+      </div>
+    ) : (
+      <form onSubmit={handleSubmit} className="relative flex flex-col gap-2 sm:flex-row">
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder={copy.placeholder}
+          aria-label={copy.ariaLabel}
+          required
+          className="min-w-0 flex-1 rounded-lg border border-[var(--text-primary)]/25 bg-[var(--bg-surface)] px-4 py-3 font-mono-data text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none transition-colors focus:border-[var(--accent)] focus-visible:ring-2 focus-visible:ring-[var(--accent)]/30"
+        />
+        {/* Honeypot — hidden from real users, drained server-side */}
+        <div aria-hidden className="absolute -left-[9999px] top-0 opacity-0 pointer-events-none">
+          <label>
+            Site web
+            <input
+              type="text"
+              tabIndex={-1}
+              autoComplete="off"
+              value={website}
+              onChange={(e) => setWebsite(e.target.value)}
+            />
+          </label>
+        </div>
+        <Button type="submit" size="lg" disabled={state === "loading"} className="gap-2 rounded-lg shadow-none">
+          {state === "loading" ? (
+            <span className="animate-pulse">{copy.sending}</span>
+          ) : (
             <>
-              {/* Aurora */}
-              <div className="pointer-events-none absolute inset-0" aria-hidden>
-                <div className="absolute inset-0 bg-aurora opacity-60" />
-                <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-[var(--accent)]/20 blur-[100px] animate-drift" />
-                <div className="absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-[var(--accent-pink)]/15 blur-[100px] animate-drift" style={{ animationDelay: "2.5s" }} />
-              </div>
-              <div className="grain grain-soft rounded-[2rem]" style={{ opacity: 0.18 }} />
-
-              {/* Floating envelope sparkles */}
-              <div className="pointer-events-none absolute inset-0" aria-hidden>
-                <Sparkles className="absolute top-8 right-12 h-5 w-5 text-[var(--accent-warm)] animate-drift opacity-60" style={{ animationDelay: "0.5s" }} />
-                <Sparkles className="absolute bottom-12 left-10 h-4 w-4 text-[var(--accent)] animate-drift opacity-50" style={{ animationDelay: "1.5s" }} />
-                <Sparkles className="absolute top-20 left-20 h-3 w-3 text-[var(--accent-pink)] animate-drift opacity-50" style={{ animationDelay: "2.2s" }} />
-              </div>
+              {copy.submit}
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </>
           )}
+        </Button>
+      </form>
+    );
 
-          <div className={compact ? "relative" : "relative text-center"}>
-            {compact ? (
-              <h2 className="mb-2 flex items-center gap-2 text-lg font-bold text-[var(--text-primary)] tracking-tight">
-                <Mail className="h-5 w-5 text-[var(--accent)]" />
-                {copy.titlePre} {copy.titleEm} {copy.titlePost}
-              </h2>
-            ) : (
-              <>
-                <div className="mb-5 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--accent)] to-emerald-700 shadow-xl shadow-[var(--accent)]/40 animate-drift">
-                  <Mail className="h-7 w-7 text-white" />
-                </div>
-                <h2 className="mb-3 text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tracking-tight">
-                  {copy.titlePre}{" "}
-                  <span className="font-display gradient-text-anim italic">{copy.titleEm}</span>{" "}
-                  {copy.titlePost}
-                </h2>
-              </>
-            )}
-            <p className={compact ? "mb-4 text-sm text-[var(--text-secondary)]" : "mb-8 text-[var(--text-secondary)] max-w-xl mx-auto"}>
-              {copy.desc}
+  const error =
+    state === "error" ? (
+      <div role="alert" aria-live="assertive" className="mb-3 inline-flex items-center gap-2 rounded-lg border border-[var(--accent-pink)]/40 bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--accent-pink)]">
+        {copy.error}
+      </div>
+    ) : null;
+
+  const envelope = (
+    <div className="overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)]">
+      <div aria-hidden="true" className="h-1.5" style={AIRMAIL} />
+      <div className={compact ? "p-5 sm:p-6" : "grid gap-8 p-6 sm:p-10 md:grid-cols-[1fr_auto] md:items-start"}>
+        <div className="min-w-0">
+          {compact && (
+            <p className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent)]">
+              {copy.kicker}
             </p>
+          )}
+          {compact ? (
+            <h2 className="mb-2 flex items-center gap-2 text-lg font-bold tracking-tight text-[var(--text-primary)]">
+              <Mail className="h-5 w-5 text-[var(--accent)]" aria-hidden="true" />
+              {copy.titlePre} {copy.titleEm} {copy.titlePost}
+            </h2>
+          ) : (
+            <h2 className="mb-3 text-3xl font-bold leading-[1.05] tracking-tight text-[var(--text-primary)] sm:text-4xl">
+              {copy.titlePre}{" "}
+              <span className="font-display italic text-[var(--accent)]">{copy.titleEm}</span>{" "}
+              {copy.titlePost}
+            </h2>
+          )}
+          <p className={compact ? "mb-4 text-sm text-[var(--text-secondary)]" : "mb-6 max-w-xl text-[var(--text-secondary)]"}>
+            {copy.desc}
+          </p>
+          {error}
+          <div className={compact ? "" : "max-w-md"}>{form}</div>
+          <p className="mt-3 border-t border-dashed border-[var(--text-primary)]/15 pt-3 font-mono-data text-[11px] text-[var(--text-tertiary)]">
+            {copy.fine}
+          </p>
+        </div>
 
-            {state === "error" && (
-              <div role="alert" aria-live="assertive" className="mb-3 inline-flex items-center gap-2 rounded-xl bg-red-50 border border-red-200 px-4 py-2 text-sm text-red-700">
-                {copy.error}
+        {!compact && (
+          // Postage stamp: perforated paper edge around a plaque.
+          <div aria-hidden="true" className="hidden md:block">
+            <div className="rotate-3 rounded-sm border-2 border-dashed border-[var(--text-primary)]/25 bg-[var(--bg-canvas)] p-2">
+              <div className="topo-bg flex h-28 w-24 flex-col items-center justify-center gap-2 border border-[var(--text-primary)]/15 bg-[var(--bg-surface)]">
+                <span className="plaque plaque-small">
+                  <Mail className="h-4 w-4" />
+                </span>
+                <span className="font-mono-data text-[10px] font-semibold uppercase tracking-widest text-[var(--text-primary)]">
+                  {copy.stamp}
+                </span>
               </div>
-            )}
-
-            {state === "success" ? (
-              <div role="status" aria-live="polite" className="inline-flex items-center gap-2 rounded-2xl bg-[var(--accent-soft)] border border-[var(--accent)]/30 px-5 py-3 text-emerald-700 shadow-md">
-                <CheckCircle className="h-5 w-5" />
-                <span className="font-semibold">{copy.success}</span>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className={compact ? "flex flex-col sm:flex-row gap-2" : "flex flex-col sm:flex-row gap-2 max-w-md mx-auto"}>
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder={copy.placeholder}
-                  aria-label={copy.ariaLabel}
-                  required
-                  className="flex-1 rounded-xl border border-white/60 bg-white/85 backdrop-blur px-4 py-3 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all shadow-sm"
-                />
-                {/* Honeypot — hidden from real users, drained server-side */}
-                <div aria-hidden className="absolute -left-[9999px] top-0 opacity-0 pointer-events-none">
-                  <label>
-                    Site web
-                    <input
-                      type="text"
-                      tabIndex={-1}
-                      autoComplete="off"
-                      value={website}
-                      onChange={(e) => setWebsite(e.target.value)}
-                    />
-                  </label>
-                </div>
-                <MagneticButton strength={0.25}>
-                  <Button type="submit" size="lg" disabled={state === "loading"} className="gap-2 shine shadow-xl shadow-[var(--accent)]/30">
-                    {state === "loading" ? (
-                      <span className="animate-pulse">{copy.sending}</span>
-                    ) : (
-                      <>
-                        {copy.submit}
-                        <ArrowRight className="h-4 w-4" />
-                      </>
-                    )}
-                  </Button>
-                </MagneticButton>
-              </form>
-            )}
-
-            <p className={compact ? "mt-3 text-[11px] text-[var(--text-tertiary)]" : "mt-5 text-[11px] text-[var(--text-tertiary)]"}>
-              {copy.fine}
-            </p>
+            </div>
           </div>
+        )}
+      </div>
+    </div>
+  );
+
+  if (compact) return <section className="my-10">{envelope}</section>;
+
+  return (
+    <section className="py-8 sm:py-16">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <div className="border-t border-[var(--border)] pt-6">
+          <p className="mb-4 inline-flex items-center gap-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
+            <Mail className="h-3.5 w-3.5" aria-hidden="true" />
+            {copy.kicker}
+          </p>
+          {envelope}
         </div>
       </div>
     </section>

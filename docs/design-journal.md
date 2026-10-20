@@ -366,3 +366,31 @@ Captures `next dev` + Playwright à 1440 et 390 px, `scrollWidth` = viewport. `n
 1. `components/NewsletterSection.tsx` (home) — aurora/blur à inspecter.
 2. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie : passer en fiche papier (visible sur toutes les captures).
 3. Hub `/red-flags` — dégradés de héros (cf. CLAUDE.md « fair game »), dans la continuité de ce teaser.
+
+## 2026-10-20 ~03:00 UTC — `components/NewsletterSection.tsx` (home FR/EN + pied de chaque guide, mode `compact`)
+
+**Surface** : « La lettre du dimanche », en bas de la home (FR + EN) et en mode `compact` en pied de chaque guide.
+
+**Changé**
+- Fin de l'aurora (3 blobs flous), du grain, des 3 `Sparkles` flottants, du `glass-strong` + ombre
+  teintée, de la tuile dégradée accent → **emerald** (vert de palier détourné), du
+  `gradient-text-anim`, du `MagneticButton` + `shine`, et du succès en `text-emerald-700`.
+- La lettre devient une **enveloppe sur papier** : liseré « par avion » en diagonales navy/brique
+  (les deux seuls accents), fiche `bg-surface`, et à droite (≥ md) un **timbre** à bord perforé
+  (pointillé, légère rotation) sur papier `.topo-bg` avec une `.plaque-small` portant l'enveloppe
+  et la mention mono « Dim. » / « Sun. ».
+- En-tête aligné sur les autres sections de la home (filet de tête, sur-titre mono « Courrier ·
+  chaque dimanche » / « Post · every Sunday »), mot-clé `font-display` italique accent.
+- Champ e-mail en mono, bord encre ; bouton navy plat ; erreur en brique (plus de rouge de palier) ;
+  succès en navy sur `--accent-soft` ; filet pointillé avant les mentions.
+- `compact` (guides) : même enveloppe sans timbre ni grand titre.
+- Non touché : copie, endpoint, honeypot, locale envoyée à l'API.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright à 1440 et 390 px (home + un guide), `scrollWidth` = viewport.
+`npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Bandeau cookies — tuile 🍪 sur lavis bleu arrondie (visible sur toutes les captures) : fiche papier.
+2. Hub `/red-flags` — dégradés de héros (« fair game » dans CLAUDE.md), continuité du teaser.
+3. Section commentaires des guides (vue sous la lettre) — erreur en `red-50`, à inspecter.
