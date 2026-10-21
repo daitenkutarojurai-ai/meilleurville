@@ -3464,7 +3464,7 @@ page mais aucune URL déclarée. Elle est désormais dérivée de `EXPAT_COUNTRI
 Un profil = une entrée de `PROFILE_PAGES` (slug, emoji, label, meta, intro, `weights`,
 `reasonHint`). Ajouter l'entrée suffit : `/pour-qui`, `/pour-qui/[profil]`, le sitemap et le bloc
 « parfait pour » de `lib/honest-reviews.ts` en dérivent tous les quatre. **Compteur mesuré
-(`grep -c '^    slug: "'`) : 38 profils** (2026-10-14).
+(`grep -c '^    slug: "'`) : 39 profils** (2026-10-21).
 ⚠️ **Avant d'ajouter un profil, mesurer son bas de classement — `rankByProfile` trie sur le
 score *arrondi* au dixième**, donc un palier d'ex æquo est coupé en son milieu et les rangs
 qui suivent sont l'ordre d'insertion du seed, exactement le défaut que `lib/owner-rankings.ts`
@@ -3488,7 +3488,8 @@ passe sans projection est l'income ; pour les deux autres, le remède est celui 
 `EXPAT_COUNTRY_OPTIONS` et `SEARCH_CITIES` (projection maigre descendue en props), pas un import
 direct. Un cardinal **calculé** depuis des coordonnées en dur ne coûte rien, lui : c'est le parti
 pris de `EMPLOYMENT_HUBS`, `BORDER_HUBS` et maintenant `AIR_HUBS`.
-Dernier ajouté : **`artistes-et-createurs`** (2026-10-14) — poids `culture` 3,0 · `cost` 3,5 · `life` 1,0 · `safety` 0,5, **uniquement des axes continus** : `bruit` (palier de population) et `solitude` (proxy départemental) ont été essayés puis écartés, et le palier d'ex æquo en dépendait (9 villes à 7,5 au rang 20 avec eux, 5 à 7,7 sans). Mesures publiées dans l'intro : l'axe culture sature (18 villes à 9,0, Paris comme Autun, seules 5 dans le top 20), Paris 315ᵉ, T3 médian du top 20 715 € contre 950 €, recouvrement maximal 13/20 avec `jeunes-actifs`, rangs 20 à 24 ex æquo à 7,7. Le coût pèse plus que la culture, sinon le classement redonne les capitales. Aucune jumelle EN. `tsc`, `integrity`, `sitemap:check` (FR 31 747) verts ; `npm run build` non lancé.
+Dernier ajouté : **`couples-a-deux-carrieres`** (2026-10-21) — poids `metroAccess` 3,0 · `remoteWork` 2,0 · `transport`/`life`/`cost` 1,5, tous axes continus. Mesuré avant écriture : rangs 15 à 20 à 7,9 et 21e à 7,8, donc **aucun palier coupé au 20e** ; recouvrement maximal 13/20 avec `sans-voiture` ; 9 villes sur 20 en Île-de-France, 8 régions, 14 départements ; T3 médian 1 225 € contre 950 €, m² 4 200 € contre 2 700 € ; Paris 27e (7,7), Marseille 236e, Obernai seule commune sous 30 000 hab. Le profil mesure la distance à un pôle, pas le nombre d'emplois, et l'intro le dit. Aucune jumelle EN. `tsc`, `integrity` verts ; `npm run build` non lancé.
+Précédent : **`artistes-et-createurs`** (2026-10-14) — poids `culture` 3,0 · `cost` 3,5 · `life` 1,0 · `safety` 0,5, **uniquement des axes continus** : `bruit` (palier de population) et `solitude` (proxy départemental) ont été essayés puis écartés, et le palier d'ex æquo en dépendait (9 villes à 7,5 au rang 20 avec eux, 5 à 7,7 sans). Mesures publiées dans l'intro : l'axe culture sature (18 villes à 9,0, Paris comme Autun, seules 5 dans le top 20), Paris 315ᵉ, T3 médian du top 20 715 € contre 950 €, recouvrement maximal 13/20 avec `jeunes-actifs`, rangs 20 à 24 ex æquo à 7,7. Le coût pèse plus que la culture, sinon le classement redonne les capitales. Aucune jumelle EN. `tsc`, `integrity`, `sitemap:check` (FR 31 747) verts ; `npm run build` non lancé.
 Précédent : **`professionnels-de-sante`** (2026-09-30) — le premier profil du fichier dont le
 critère cardinal est une **pénurie lue à l'endroit du moteur**, et la **troisième exception** documentée en
 tête de `lib/profile-pages.ts` : nouvelle clé `healthcareScarcity`, qui lit le composite F47

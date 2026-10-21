@@ -1358,6 +1358,66 @@ export const PROFILE_PAGES: ProfileDef[] = [
       return `Culture ${c.scores.culture.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}${rent}`;
     },
   },
+  {
+    slug: "couples-a-deux-carrieres",
+    emoji: "💼",
+    label: "Couples à deux carrières",
+    metaTitle: "Villes pour couples à deux carrières 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 des villes où deux actifs trouvent chacun leur poste : pôle d'emploi à moins d'une demi-heure, télétravail, loyer tenable. Paris sort 27e.",
+    intro:
+      "Couples à deux carrières : deux cadres, deux fonctionnaires, un salarié et un indépendant, qui ne peuvent pas " +
+      "se permettre qu'un seul des deux ait un emploi là où ils vivent. C'est le profil que « télétravailleurs » ne " +
+      "traite pas (quand un seul des deux est mobile, la ville n'a pas à offrir de second emploi) et que « jeunes " +
+      "actifs » ignore (on y cherche un premier poste et une vie sociale, pas deux trajectoires qui doivent tenir " +
+      "ensemble). Le critère cardinal est l'accès à l'un des douze grands pôles d'emploi du site, mesuré en minutes de " +
+      "trajet estimé, avec le même barème que « navetteurs hybrides » : dix sur dix à moins de trente minutes. " +
+      "Il pèse trois parts, parce qu'un second poste se trouve dans un bassin et non dans une commune. Viennent ensuite " +
+      "l'axe télétravail (deux parts), qui dit si l'un des deux peut travailler à distance quand l'autre ne le peut pas, " +
+      "puis le transport, la qualité de vie et le coût, chacun à une part et demie : deux salaires paient un loyer plus " +
+      "haut qu'un seul, mais pas un loyer parisien. " +
+      "Ce que ce classement ne mesure pas est important : il ne compte pas les emplois, il mesure la distance à un pôle. " +
+      "Une ville peut sortir 10 sur cet axe sans offrir de poste dans votre métier, et rien ici ne vous dit si le second " +
+      "emploi du couple existe. Lisez-le comme un plancher de mobilité, pas comme un marché de l'emploi. " +
+      "Le résultat le plus net est que le classement est celui des métropoles et de leur couronne. Rennes ouvre à 8,4, " +
+      "devant Villeurbanne, Nantes, Strasbourg et Lyon, et quatorze villes seulement atteignent 8,0. Neuf des vingt " +
+      "sont en Île-de-France, mais la liste reste répartie sur 8 régions et 14 départements. Le T3 médian du top 20 est à " +
+      "1 225 € contre 950 € pour le corpus, et le mètre carré à 4 200 € contre 2 700 € : on paie cet accès, et c'est " +
+      "pour cela que le coût ne pèse qu'une part et demie. " +
+      "Paris, à 10 sur l'accès et 9 sur le télétravail, finit 27e (7,7) : son coût à 2,2 et son T3 à 2 800 € " +
+      "la retiennent derrière Rennes, dont le T3 est à 1 100 €, et derrière Lyon à 1 380 €. Marseille, pourtant pôle " +
+      "d'emploi à part entière, sort 236e (6,5), tirée vers le bas par un axe télétravail à 4,3 et une qualité de vie à 4,1. " +
+      "Nice est 110e. Deux villes d'un autre format viennent contredire l'idée que seules les capitales régionales " +
+      "conviennent : Obernai, 12 303 habitants au recensement 2022, entre à trente-cinq minutes de Strasbourg, " +
+      "et Vienne et Villefranche-sur-Saône (31 555 et 36 224 habitants) profitent de l'agglomération lyonnaise. " +
+      "Trois lectures à ne pas faire. La première : l'accès à un pôle ne dit rien du nombre d'emplois dans une " +
+      "spécialité étroite, et un couple de chercheurs ou de médecins hospitaliers a un marché plus étroit que ce que " +
+      "l'axe suggère. La seconde : un trajet estimé n'est pas un trajet vécu, et les heures de pointe des grandes " +
+      "agglomérations n'y figurent pas. La troisième : le télétravail est pris ici comme une soupape, non comme un " +
+      "plan, et un employeur qui le refuse ramène le couple à la seule distance. " +
+      "Sur la lecture du tableau : les rangs 15 à 20 partagent exactement la même note de 7,9 (Lille, Versailles, " +
+      "Boulogne-Billancourt, Courbevoie, Noisy-le-Grand et Vienne), mais le 21e est à 7,8, donc aucun palier n'est " +
+      "coupé au vingtième rang. L'ordre à l'intérieur de ce palier est un ordre stable et non un départage. Enfin, le " +
+      "recouvrement maximal avec les 38 profils existants est de 13 villes sur 20, avec « sans voiture », ce qui tient " +
+      "à la même géographie des grandes agglomérations bien desservies, et se lit dans l'autre sens : un couple sans " +
+      "voiture et un couple à deux carrières cherchent souvent au même endroit, pas pour la même raison.",
+    weights: {
+      metroAccess: 3.0,
+      remoteWork: 2.0,
+      transport: 1.5,
+      life: 1.5,
+      cost: 1.5,
+    },
+    reasonHint: (c) => {
+      const commute = metroAccessCommute(c);
+      const label = commute
+        ? commute.minutes === 0
+          ? "pôle sur place"
+          : `${HUB_LABEL[commute.hub]} en ${formatCommute(commute.minutes)}`
+        : "aucun pôle joignable";
+      return `${label} · télétravail ${c.scores.remoteWork.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}`;
+    },
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
