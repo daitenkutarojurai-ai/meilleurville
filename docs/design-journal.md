@@ -473,3 +473,28 @@ Captures `next dev` + Playwright `/red-flags` à 1440 et 390 px, `scrollWidth` =
 1. Pages thème `RedFlagThemePage` (`/red-flags/villes-*`, 43 pages) — à inspecter.
 2. Section commentaires des guides — erreur en `red-50`, à inspecter.
 3. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.
+
+## 2026-10-21 ~03:00 UTC — pages thème `components/RedFlagThemePage.tsx` (`/red-flags/villes-*`, 43 pages FR)
+
+**Surface** : le gabarit partagé des 43 classements thématiques Red Flag, dans la continuité du hub.
+
+**Changé**
+- En-tête : fin de l'`AmbientBackground`, du badge arrondi « ← Red Flags » et du gros emoji décoratif.
+  Papier `.topo-bg` sous voile `bg-canvas/80` (comme le hub), lien retour mono brique souligné +
+  repère « Feuille NN / 43 » (même numérotation que les vignettes du hub), H1 aligné à gauche.
+- « Ce que disent les chiffres » : encart de légende à filet brique gauche, titre en sur-titre mono.
+- Classement : fin des `Card` empilées → registre à filets pointillés dans une seule fiche papier,
+  rang « N° 01 » en mono, lien « Fiche X » souligné brique + flèche lucide. **La pastille de gravité
+  garde ses teintes rouge/orange/ambre** (elle encode un niveau), angles nets + chiffres mono.
+- Méthodologie : note de bas de carte, cadre pointillé sur papier.
+- « Autres red flags » : vignettes « Feuille NN / 43 » identiques au hub, emojis retirés, survol brique.
+- Non touché : copie, JSON-LD, légende de convention des scores, `CommentSection`, données.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright `/red-flags/villes-sans-enfants` à 1440 et 390 px, `scrollWidth` =
+viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Jumelle EN `app/[locale]/red-flags/themes/[slug]/page.tsx` — même gabarit à aligner.
+2. Fiches red-flag par ville (`/red-flags/<ville>`) — à inspecter.
+3. Section commentaires (`CommentSection`) — erreur en `red-50`, cartes arrondies : à inspecter.

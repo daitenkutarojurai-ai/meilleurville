@@ -1,9 +1,7 @@
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { CommentSection } from "@/components/CommentSection";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -26,10 +24,11 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
     { name: theme.title, path: `/red-flags/${theme.slug}` },
   ]);
 
-  const otherThemes = RED_FLAG_THEMES.filter((t) => t.slug !== theme.slug);
+  // Même numérotation « Feuille NN » que les vignettes du hub /red-flags.
+  const sheetIndex = RED_FLAG_THEMES.findIndex((t) => t.slug === theme.slug) + 1;
 
   return (
-    <main id="main-content" className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <script
         type="application/ld+json"
@@ -48,39 +47,46 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
           }),
         }}
       />
-      <AmbientBackground />
       <Navbar />
 
-      {/* Header */}
-      <section className="relative pt-20 pb-10">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 text-center">
-          <Badge variant="default" className="mb-3">
-            <Link href="/red-flags" className="hover:underline">
-              ← Red Flags
-            </Link>
-          </Badge>
-          <div className="text-5xl mb-3" aria-hidden>
-            {theme.emoji}
+      {/* Header — papier topo voilé, même grammaire que le hub /red-flags. */}
+      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
+        <div className="bg-[var(--bg-canvas)]/80 pt-20 pb-12">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6">
+            <div className="mb-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
+              <Link
+                href="/red-flags"
+                className="inline-flex items-center gap-1.5 border-b border-[var(--accent-pink)]/40 pb-1 text-[var(--accent-pink)] hover:border-[var(--accent-pink)]"
+              >
+                <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
+                Red Flags
+              </Link>
+              {sheetIndex > 0 && (
+                <span className="text-[var(--text-tertiary)]">
+                  Feuille {String(sheetIndex).padStart(2, "0")} / {RED_FLAG_THEMES.length}
+                </span>
+              )}
+            </div>
+            <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.08]">
+              {theme.title}
+            </h1>
+            <p className="text-[var(--text-secondary)] text-base sm:text-lg max-w-2xl">
+              {theme.intro}
+            </p>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.1]">
-            {theme.title}
-          </h1>
-          <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
-            {theme.intro}
-          </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8 space-y-8">
-        {/* La réalité */}
-        <Card>
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-2">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-10 space-y-10">
+        {/* La réalité — encart de légende, filet brique. */}
+        <section className="rounded-md border border-[var(--border)] border-l-4 border-l-[var(--accent-pink)] bg-[var(--bg-surface)] p-5">
+          <h2 className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
             Ce que disent les chiffres
           </h2>
           <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
             {theme.reality}
           </p>
-        </Card>
+        </section>
 
         {/* Classement */}
         <section>
@@ -102,66 +108,64 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
             </p>
           )}
           {rows.length === 0 ? (
-            <Card>
+            <div className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-surface)] p-5">
               <p className="text-sm text-[var(--text-secondary)]">
                 Aucune ville ne dépasse les seuils sur ce thème dans le dataset
                 actuel. Si vous pensez qu&apos;une ville devrait y figurer, signalez-le
                 via la page contact.
               </p>
-            </Card>
+            </div>
           ) : (
-            <ol className="space-y-3">
+            /* Registre à filets : une ligne par ville, numéro en mono. */
+            <ol className="rounded-md border border-[var(--border)] bg-[var(--bg-surface)] divide-y divide-dashed divide-[var(--border)]">
               {rows.map((row, i) => (
-                <li key={row.city.slug}>
-                  <Card>
-                    <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0 w-10 text-center">
-                        <span className="font-mono-data text-2xl font-bold text-[var(--text-tertiary)]">
-                          #{i + 1}
-                        </span>
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex flex-wrap items-baseline gap-2 mb-1">
-                          <Link
-                            href={`/villes/${row.city.slug}`}
-                            className="text-lg font-bold text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
-                          >
-                            {row.city.name}
-                          </Link>
-                          <span className="text-xs text-[var(--text-tertiary)]">
-                            {row.city.region}
-                          </span>
-                          <span
-                            className={`ml-auto inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-bold ${severityColor(row.severity)}`}
-                            aria-label={`Gravité ${row.severity} sur 10, 10 étant le plus grave`}
-                          >
-                            {row.severity.toFixed(1)}/10
-                          </span>
-                        </div>
-                        <p className="text-sm text-[var(--text-secondary)]">{row.reason}</p>
-                        <div className="mt-3 flex flex-wrap gap-2">
-                          <Link
-                            href={`/villes/${row.city.slug}`}
-                            className="text-xs underline text-[var(--accent)] hover:opacity-80"
-                          >
-                            Fiche {row.city.name} →
-                          </Link>
-                          <span className="text-xs text-[var(--text-tertiary)]">
-                            Score global : <span className={scoreColor(row.city.scores.global)}>{row.city.scores.global.toFixed(1)}/10</span>
-                          </span>
-                        </div>
-                      </div>
+                <li key={row.city.slug} className="flex items-start gap-3 sm:gap-4 p-4">
+                  <span
+                    className="flex-shrink-0 w-10 pt-1 text-right font-mono-data text-xs font-semibold tracking-wider text-[var(--text-tertiary)]"
+                    aria-label={`Rang ${i + 1}`}
+                  >
+                    N°&nbsp;{String(i + 1).padStart(2, "0")}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1 mb-1">
+                      <Link
+                        href={`/villes/${row.city.slug}`}
+                        className="text-lg font-bold text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
+                      >
+                        {row.city.name}
+                      </Link>
+                      <span className="text-xs text-[var(--text-tertiary)]">
+                        {row.city.region}
+                      </span>
+                      <span
+                        className={`ml-auto inline-flex items-center rounded-sm border px-2 py-0.5 font-mono-data text-[11px] font-bold ${severityColor(row.severity)}`}
+                        aria-label={`Gravité ${row.severity} sur 10, 10 étant le plus grave`}
+                      >
+                        {row.severity.toFixed(1)}/10
+                      </span>
                     </div>
-                  </Card>
+                    <p className="text-sm text-[var(--text-secondary)]">{row.reason}</p>
+                    <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1">
+                      <Link
+                        href={`/villes/${row.city.slug}`}
+                        className="inline-flex items-center gap-1 text-xs font-semibold text-[var(--accent)] underline decoration-[var(--accent-pink)]/50 underline-offset-2 hover:decoration-[var(--accent-pink)]"
+                      >
+                        Fiche {row.city.name} <ArrowRight className="h-3 w-3" aria-hidden="true" />
+                      </Link>
+                      <span className="text-xs text-[var(--text-tertiary)]">
+                        Score global : <span className={scoreColor(row.city.scores.global)}>{row.city.scores.global.toFixed(1)}/10</span>
+                      </span>
+                    </div>
+                  </div>
                 </li>
               ))}
             </ol>
           )}
         </section>
 
-        {/* Methodology */}
-        <Card>
-          <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-2">
+        {/* Methodology — note de bas de carte, cadre pointillé. */}
+        <section className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-canvas)] p-5">
+          <h3 className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-secondary)]">
             Méthodologie
           </h3>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
@@ -175,31 +179,33 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
             </Link>
             ).
           </p>
-        </Card>
+        </section>
 
-        {/* Other themes */}
+        {/* Other themes — vignettes « Feuille NN », comme sur le hub. */}
         <section>
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-4">
             Autres red flags thématiques
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 auto-rows-fr">
-            {otherThemes.map((t) => (
-              <Link key={t.slug} href={`/red-flags/${t.slug}`} className="block h-full">
-                <Card className="h-full hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
-                  <div className="flex items-start gap-3 h-full">
-                    <span className="text-2xl flex-shrink-0" aria-hidden>
-                      {t.emoji}
-                    </span>
-                    <div className="flex flex-col h-full">
-                      <p className="font-semibold text-[var(--text-primary)]">{t.title}</p>
-                      <p className="text-xs text-[var(--text-secondary)] mt-1">
-                        {t.intro.slice(0, 110)}…
-                      </p>
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:auto-rows-fr">
+            {RED_FLAG_THEMES.map((t, i) =>
+              t.slug === theme.slug ? null : (
+                <Link
+                  key={t.slug}
+                  href={`/red-flags/${t.slug}`}
+                  className="group h-full rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2"
+                >
+                  <span className="border-b border-dashed border-[var(--border)] pb-2 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                    Feuille {String(i + 1).padStart(2, "0")} / {RED_FLAG_THEMES.length}
+                  </span>
+                  <span className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors">
+                    {t.title}
+                  </span>
+                  <p className="text-xs text-[var(--text-secondary)]">
+                    {t.intro.slice(0, 110)}…
+                  </p>
+                </Link>
+              ),
+            )}
           </div>
         </section>
       </div>
