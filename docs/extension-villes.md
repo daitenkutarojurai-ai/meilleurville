@@ -2618,3 +2618,31 @@ propre, `npm run integrity`, `search-index:check`, `hreflang:check`, `sitemap:ch
 rang ou une médiane du corpus (`grep -nE "of (the )?5[0-9]{2} (cities|communes)|median across" data/guides-en.ts`).
 
 **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-21 (troisième run) — aucun lot : rangs de niveau de vie de la série `working-in-*` remesurés sur 586 communes
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le second run du jour hors `[scheduled-agent]` ne porte qu'un lot vacances et `/departments` EN ; rien
+sur le seed, `score-calibration.ts`, ROADMAP ou CLAUDE.md. Rien ne passe la règle actuelle : aucune ville ajoutée.
+
+*Livrable* : le reliquat « non touché » du run précédent, série `working-in-*` (30 guides EN). Chaque guide citait le
+rang du niveau de vie médian Filosofi « Nth of the 533 communes covered » — corpus des 540 d'origine. Méthode : rang =
+1 + nombre de communes au niveau de vie strictement supérieur, d'abord **retrouvé sur les 533 d'origine** (filtre
+`scoreCohort !== "extension"`) : 22 des 30 citations reproduites à l'identique, les **8 autres sont des ex æquo** que
+le texte départageait dans l'ordre d'insertion du fichier (Toulouse 201ᵉ / Grenoble 202ᵉ à 22 140 €, Rennes,
+Strasbourg, Rouen, Reims, Nancy, Metz) — un rang fabriqué, interdit par la convention de `lib/owner-rankings.ts`.
+Remesuré sur les **586** communes couvertes : Paris 31ᵉ → 37ᵉ, Lyon 86ᵉ → 105ᵉ, Nantes 114ᵉ → 139ᵉ, Nîmes 464ᵉ →
+512ᵉ… ; les ex æquo s'écrivent désormais « joint Nth » (13 villes, dont Aix-en-Provence joint 92ᵉ avec Domont et
+Malakoff). 32 occurrences corrigées sur 31 paragraphes (Reims porte aussi « rank of 368 out of 533 » → « joint 410 out
+of 586 »). Les comparaisons internes aux lots (« highest income of the ten cities », taux de pauvreté) ne dépendent
+pas du corpus et sont inchangées. Laissé en l'état : « 533 de nos 540 villes » du palmarès de septembre (édition
+datée). Aucune jumelle FR `travail-a-*` ne cite ce rang.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `search-index:check`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**Reste à reprendre** : rangs emploi « of the 363 communes above 20,000 » (`lib/employment-market`), guides
+`retiring-in-*` / `moving-*` (« among the gentlest of our 540 towns »), `best-french-cities-house-with-garden`.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
