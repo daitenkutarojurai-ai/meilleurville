@@ -9587,6 +9587,46 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-lens-2026",
+      "title": "Parent solo à Lens en 2026 : un seuil à 1 800 €, 2 axes sur 4 au-dessus de la médiane et 3,1 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-noisy-le-grand-2026",
+      "title": "Parent solo à Noisy-le-Grand en 2026 : un seuil à 3 800 €, 3 axes sur 4 au-dessus de la médiane et 5,3 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-cagnes-sur-mer-2026",
+      "title": "Parent solo à Cagnes-sur-Mer en 2026 : un seuil à 3 550 €, 3 axes sur 4 au-dessus de la médiane et 3,7 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-carpentras-2026",
+      "title": "Parent solo à Carpentras en 2026 : un seuil à 2 800 €, 3 axes sur 4 au-dessus de la médiane et 1,8 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-massy-2026",
+      "title": "Parent solo à Massy en 2026 : un seuil à 4 700 €, 2 axes sur 4 au-dessus de la médiane et 4,4 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-orvault-2026",
+      "title": "Parent solo à Orvault en 2026 : un seuil à 2 900 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-sceaux-2026",
+      "title": "Parent solo à Sceaux en 2026 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane et 6,8 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-bourg-la-reine-2026",
+      "title": "Parent solo à Bourg-la-Reine en 2026 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane et 6,5 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "parent-solo-a-tassin-la-demi-lune-2026",
       "title": "Parent solo à Tassin-la-Demi-Lune en 2026 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
       "emoji": "🧑‍🍼"
@@ -10144,6 +10184,11 @@
       "count": 21
     },
     {
+      "slug": "securite-et-ecoles-parent-seul",
+      "label": "sécurité et écoles parent seul",
+      "count": 21
+    },
+    {
       "slug": "abordable",
       "label": "abordable",
       "count": 20
@@ -10167,6 +10212,11 @@
       "slug": "montpellier",
       "label": "Montpellier",
       "count": 18
+    },
+    {
+      "slug": "famille-monoparentale-ile-de-france",
+      "label": "famille monoparentale Île-de-France",
+      "count": 17
     },
     {
       "slug": "strasbourg",
@@ -10229,11 +10279,6 @@
       "count": 14
     },
     {
-      "slug": "famille-monoparentale-ile-de-france",
-      "label": "famille monoparentale Île-de-France",
-      "count": 13
-    },
-    {
       "slug": "grenoble",
       "label": "Grenoble",
       "count": 13
@@ -10249,13 +10294,13 @@
       "count": 13
     },
     {
-      "slug": "securite-et-ecoles-parent-seul",
-      "label": "sécurité et écoles parent seul",
-      "count": 13
-    },
-    {
       "slug": "famille-monoparentale-auvergne-rhone-alpes",
       "label": "famille monoparentale Auvergne-Rhône-Alpes",
+      "count": 12
+    },
+    {
+      "slug": "famille-monoparentale-hauts-de-france",
+      "label": "famille monoparentale Hauts-de-France",
       "count": 12
     },
     {
@@ -10281,11 +10326,6 @@
     {
       "slug": "budget",
       "label": "budget",
-      "count": 11
-    },
-    {
-      "slug": "famille-monoparentale-hauts-de-france",
-      "label": "famille monoparentale Hauts-de-France",
       "count": 11
     },
     {
@@ -10479,8 +10519,18 @@
       "count": 8
     },
     {
+      "slug": "famille-monoparentale-pays-de-la-loire",
+      "label": "famille monoparentale Pays de la Loire",
+      "count": 8
+    },
+    {
       "slug": "le-mans",
       "label": "Le Mans",
+      "count": 8
+    },
+    {
+      "slug": "monoparental-hauts-de-seine",
+      "label": "monoparental Hauts-de-Seine",
       "count": 8
     },
     {
@@ -10551,11 +10601,6 @@
     {
       "slug": "dpe",
       "label": "DPE",
-      "count": 7
-    },
-    {
-      "slug": "famille-monoparentale-pays-de-la-loire",
-      "label": "famille monoparentale Pays de la Loire",
       "count": 7
     },
     {
@@ -10651,11 +10696,6 @@
     {
       "slug": "metz",
       "label": "Metz",
-      "count": 6
-    },
-    {
-      "slug": "monoparental-hauts-de-seine",
-      "label": "monoparental Hauts-de-Seine",
       "count": 6
     },
     {
@@ -10866,6 +10906,11 @@
     {
       "slug": "famille-monoparentale-centre-val-de-loire",
       "label": "famille monoparentale Centre-Val de Loire",
+      "count": 4
+    },
+    {
+      "slug": "famille-monoparentale-provence-alpes-cote-d-azur",
+      "label": "famille monoparentale Provence-Alpes-Côte d'Azur",
       "count": 4
     },
     {
@@ -11306,6 +11351,16 @@
     {
       "slug": "monoparental-la-reunion",
       "label": "monoparental La Réunion",
+      "count": 3
+    },
+    {
+      "slug": "monoparental-pas-de-calais",
+      "label": "monoparental Pas-de-Calais",
+      "count": 3
+    },
+    {
+      "slug": "monoparental-vaucluse",
+      "label": "monoparental Vaucluse",
       "count": 3
     },
     {

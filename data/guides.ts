@@ -59731,6 +59731,418 @@ export const GUIDES: Guide[] = [
     tags: ["parent solo Aubagne 2026","monoparental Bouches-du-Rhône","T3 Aubagne budget","sécurité et écoles parent seul","famille monoparentale Provence-Alpes-Côte d'Azur"],
   },
   {
+    slug: "parent-solo-a-lens-2026",
+    title: "Parent solo à Lens en 2026 : un seuil à 1 800 €, 2 axes sur 4 au-dessus de la médiane et 3,1 points d'amplitude",
+    metaTitle: "Parent solo à Lens 2026 : seuil 1 800 €",
+    metaDesc:
+      "Fit 6,0/10, T3 590 €, seuil 1 800 € par mois, le ménage médian local couvre le seuil : le détail par axe et ce que la note recouvre.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Lens sort à 6,0/10 au composite parent solo, dans un palier de 12 communes à 6,0/10 que rien dans notre barème ne départage (4 d'entre elles ont déjà leur guide : Bordeaux, Le Mans, Rouen, Saint-Étienne ; les autres sont traitées dans le même lot). Le détail : coût de la vie 7,6/10, transports 7,0/10, écoles 4,5/10, sécurité 4,7/10 (source : notre fiche ville). Le T3 est à 590 € et le mètre carré à l'achat à 1 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 1 800 € par mois. La commune compte 32 697 habitants au recensement 2022 contre 30 689 en 2016 (source : Insee, recensements). Le dossier tient en une phrase : coût de la vie comme point fort (7,6/10), écoles comme point faible (4,5/10). À note égale, les communes du palier ont un T3 qui va de 590 € à 1 650 € : ce guide dit ce que cette note recouvre ici, sans la classer face aux autres.",
+    sections: [
+      {
+        heading: "Un seuil à 1 800 € : 2 axes sur 4 au-dessus de la médiane",
+        body: "Le revenu net minimum de 1 800 € par mois vient de la règle des 33 % appliquée au T3 de 590 €. Dans le palier de 12 communes, aucune n'a un seuil plus bas et 11 un seuil plus haut ; la médiane des 416 communes classées est à 3 200 €, soit 1 400 € de moins ici. Le coût de la vie est noté 7,6/10, contre une médiane à 5,2 : c'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un ordre de grandeur pour un T3 loué sur le marché, pas un budget.",
+      },
+      {
+        heading: "Le ménage médian local couvre le seuil",
+        body: "Le niveau de vie médian de la commune est de 17 250 € par an et par unité de consommation, contre 21 675 € pour la médiane des communes classées, soit 20 % de moins (source : Insee, Filosofi 2021). Le taux de pauvreté est de 32 %. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 1 869 € par mois, contre un seuil de 1 800 € : le seuil est couvert avec 69 € de marge. Le ménage médian local couvre ainsi 104 % du seuil ; dans le palier, la couverture va de 57 % (Massy) à 104 % (Lens). Le niveau de vie est un revenu disponible, prestations comprises, rapporté à l'unité de consommation : ce n'est pas un salaire, et les chiffres de 2021 ne disent rien des loyers de 2026.",
+      },
+      {
+        heading: "Ce que mesure chaque axe : coût de la vie 7,6/10, transports 7,0/10, écoles 4,5/10, sécurité 4,7/10",
+        body: "Coût de la vie : 7,6/10, contre une médiane à 5,2 (2,4 points de plus). Transports : 7,0/10, contre une médiane à 6,4 (0,6 point de plus). Écoles : 4,5/10, contre une médiane à 5,5 (1,0 point de moins). Sécurité : 4,7/10, contre une médiane à 5,0 (0,3 point de moins). Il faut dire ce que chaque chiffre mesure. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni le travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane : coût de la vie, transports. En dessous : écoles, sécurité.",
+      },
+      {
+        heading: "3,1 points d'amplitude, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (coût de la vie, 7,6) et le pire (écoles, 4,5) vaut 3,1 points, contre une médiane à 2,7 sur les 416 communes classées. Dans le palier, l'amplitude va de 1,1 à 6,8 : une même note de 6,0 recouvre des profils très différents. Limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5, donc la limite ne joue pas. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Lens face aux autres communes classées du département (Pas-de-Calais)",
+        body: "Le classement retient 8 communes du département (Pas-de-Calais), dont Lens. Les autres : Arras (fit 6,1, T3 720 €) ; Boulogne-sur-Mer (fit 5,4, T3 780 €) ; Calais (fit 5,2, T3 640 €) ; Béthune (fit 4,9, T3 740 €) ; Bruay-la-Buissière (fit 4,5, T3 670 €), et 2 de plus. À l'échelle de la région Hauts-de-France, 29 communes sont classées ; aucune n'a un T3 moins cher que 590 €. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 26,2 % de 60 ans et plus",
+        body: "Lens compte 32 697 habitants en 2022, contre 30 689 en 2016 et 34 190 en 2011 (source : Insee, recensements), soit +6,5 % depuis 2016. Le recensement compte des résidents : ce chiffre ne dit rien de l'attrait de la ville, une commune pouvant perdre des habitants dans ses limites tout en restant attractive dans son agglomération. La part des 60 ans et plus est de 26,2 %, contre une médiane à 23,3 % sur les communes classées et les moins de 30 ans pèsent 38,5 %. Ces mesures ne figurent dans aucun des quatre axes du composite, et nous n'en tirons aucune causalité : nos données ne mesurent ni les ouvertures ni les fermetures de classes, à demander à la mairie ou à l'académie.",
+      },
+      {
+        heading: "Le verdict : pour qui Lens fonctionne",
+        body: "Lens fonctionne à partir de 1 800 € net par mois, un seuil sous la médiane du classement (3 200 €). Elle convient mieux à un parent solo qui privilégie coût de la vie (7,6/10) et accepte de composer avec écoles (4,5/10). Le ménage médian local atteint le seuil, ce qui n'est pas le cas partout dans le palier. Deux points à garder en tête : le fit de 6,0 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement ; et à note égale, Lens se compare aux autres communes du palier sur le seuil et sur l'axe qui vous importe, pas sur la note.",
+      },
+    ],
+    relatedCities: ["lens","arras","boulogne-sur-mer","calais","bethune"],
+    relatedGuides: [
+      "parent-solo-a-arras-2026",
+      "parent-solo-a-calais-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Lens 2026","monoparental Pas-de-Calais","T3 Lens budget","sécurité et écoles parent seul","famille monoparentale Hauts-de-France"],
+  },
+  {
+    slug: "parent-solo-a-noisy-le-grand-2026",
+    title: "Parent solo à Noisy-le-Grand en 2026 : un seuil à 3 800 €, 3 axes sur 4 au-dessus de la médiane et 5,3 points d'amplitude",
+    metaTitle: "Parent solo à Noisy-le-Grand 2026 : seuil 3 800 €",
+    metaDesc:
+      "Fit 6,0/10, T3 1 250 €, seuil 3 800 € par mois, 1 255 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Noisy-le-Grand sort à 6,0/10 au composite parent solo, dans un palier de 12 communes à 6,0/10 que rien dans notre barème ne départage (4 d'entre elles ont déjà leur guide : Bordeaux, Le Mans, Rouen, Saint-Étienne ; les autres sont traitées dans le même lot). Le détail : coût de la vie 5,4/10, transports 9,0/10, écoles 6,6/10, sécurité 3,7/10 (source : notre fiche ville). Le T3 est à 1 250 € et le mètre carré à l'achat à 4 000 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 800 € par mois. La commune compte 71 632 habitants au recensement 2022 contre 66 659 en 2016 (source : Insee, recensements). Le dossier tient en une phrase : transports comme point fort (9,0/10), sécurité comme point faible (3,7/10). À note égale, les communes du palier ont un T3 qui va de 590 € à 1 650 € : ce guide dit ce que cette note recouvre ici, sans la classer face aux autres.",
+    sections: [
+      {
+        heading: "Un seuil à 3 800 € : 3 axes sur 4 au-dessus de la médiane",
+        body: "Le revenu net minimum de 3 800 € par mois vient de la règle des 33 % appliquée au T3 de 1 250 €. Dans le palier de 12 communes, 8 ont un seuil plus bas et 3 un seuil plus haut ; la médiane des 416 communes classées est à 3 200 €, soit 600 € de plus ici. Le coût de la vie est noté 5,4/10, contre une médiane à 5,2 : c'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un ordre de grandeur pour un T3 loué sur le marché, pas un budget.",
+      },
+      {
+        heading: "1 255 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 23 490 € par an et par unité de consommation, contre 21 675 € pour la médiane des communes classées, soit 8 % de plus (source : Insee, Filosofi 2021). Le taux de pauvreté est de 17 %. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 545 € par mois, contre un seuil de 3 800 € : il manque 1 255 €. Le ménage médian local couvre ainsi 67 % du seuil ; dans le palier, la couverture va de 57 % (Massy) à 104 % (Lens). Le niveau de vie est un revenu disponible, prestations comprises, rapporté à l'unité de consommation : ce n'est pas un salaire, et les chiffres de 2021 ne disent rien des loyers de 2026.",
+      },
+      {
+        heading: "Ce que mesure chaque axe : coût de la vie 5,4/10, transports 9,0/10, écoles 6,6/10, sécurité 3,7/10",
+        body: "Coût de la vie : 5,4/10, contre une médiane à 5,2 (0,2 point de plus). Transports : 9,0/10, contre une médiane à 6,4 (2,6 points de plus). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 point de plus). Sécurité : 3,7/10, contre une médiane à 5,0 (1,3 point de moins). Il faut dire ce que chaque chiffre mesure. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni le travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane : coût de la vie, transports, écoles. En dessous : sécurité.",
+      },
+      {
+        heading: "5,3 points d'amplitude, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (transports, 9,0) et le pire (sécurité, 3,7) vaut 5,3 points, contre une médiane à 2,7 sur les 416 communes classées. Dans le palier, l'amplitude va de 1,1 à 6,8 : une même note de 6,0 recouvre des profils très différents. Limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, sécurité est à 3,7, sous ce seuil : le composite lisse un point que le score global pénaliserait. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Noisy-le-Grand face aux autres communes classées du département (Seine-Saint-Denis)",
+        body: "Le classement retient 29 communes du département (Seine-Saint-Denis), dont Noisy-le-Grand. Les autres : Montreuil (fit 5,2, T3 1 400 €) ; Pantin (fit 5,1, T3 1 400 €) ; Neuilly-Plaisance (fit 4,7, T3 1 340 €) ; Neuilly-sur-Marne (fit 4,5, T3 1 340 €) ; Rosny-sous-Bois (fit 4,5, T3 1 340 €), et 23 de plus. À l'échelle de la région Île-de-France, 156 communes sont classées ; 48 ont un T3 moins cher que 1 250 €. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 18,6 % de 60 ans et plus",
+        body: "Noisy-le-Grand compte 71 632 habitants en 2022, contre 66 659 en 2016 et 62 970 en 2011 (source : Insee, recensements), soit +7,5 % depuis 2016. Le recensement compte des résidents : ce chiffre ne dit rien de l'attrait de la ville, une commune pouvant perdre des habitants dans ses limites tout en restant attractive dans son agglomération. La part des 60 ans et plus est de 18,6 %, contre une médiane à 23,3 % sur les communes classées et les moins de 30 ans pèsent 41,2 %. Ces mesures ne figurent dans aucun des quatre axes du composite, et nous n'en tirons aucune causalité : nos données ne mesurent ni les ouvertures ni les fermetures de classes, à demander à la mairie ou à l'académie.",
+      },
+      {
+        heading: "Le verdict : pour qui Noisy-le-Grand fonctionne",
+        body: "Noisy-le-Grand fonctionne à partir de 3 800 € net par mois, un seuil de 600 € au-dessus de la médiane du classement (3 200 €). Elle convient mieux à un parent solo qui privilégie transports (9,0/10) et accepte de composer avec sécurité (3,7/10). Elle fonctionne moins bien pour un ménage au niveau de vie médian local, à qui il manque 1 255 € par mois pour atteindre le seuil. Deux points à garder en tête : le fit de 6,0 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement ; et à note égale, Noisy-le-Grand se compare aux autres communes du palier sur le seuil et sur l'axe qui vous importe, pas sur la note.",
+      },
+    ],
+    relatedCities: ["noisy-le-grand","montreuil","pantin","neuilly-plaisance","neuilly-sur-marne"],
+    relatedGuides: [
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Noisy-le-Grand 2026","monoparental Seine-Saint-Denis","T3 Noisy-le-Grand budget","sécurité et écoles parent seul","famille monoparentale Île-de-France"],
+  },
+  {
+    slug: "parent-solo-a-cagnes-sur-mer-2026",
+    title: "Parent solo à Cagnes-sur-Mer en 2026 : un seuil à 3 550 €, 3 axes sur 4 au-dessus de la médiane et 3,7 points d'amplitude",
+    metaTitle: "Parent solo à Cagnes-sur-Mer 2026 : seuil 3 550 €",
+    metaDesc:
+      "Fit 6,0/10, T3 1 240 €, seuil 3 550 € par mois, 956 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Cagnes-sur-Mer sort à 6,0/10 au composite parent solo, dans un palier de 12 communes à 6,0/10 que rien dans notre barème ne départage (4 d'entre elles ont déjà leur guide : Bordeaux, Le Mans, Rouen, Saint-Étienne ; les autres sont traitées dans le même lot). Le détail : coût de la vie 4,0/10, transports 7,7/10, écoles 7,7/10, sécurité 5,3/10 (source : notre fiche ville). Le T3 est à 1 240 € et le mètre carré à l'achat à 3 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 550 € par mois. La commune compte 52 852 habitants au recensement 2022 contre 49 902 en 2016 (source : Insee, recensements). Le dossier tient en une phrase : transports comme point fort (7,7/10), coût de la vie comme point faible (4,0/10). À note égale, les communes du palier ont un T3 qui va de 590 € à 1 650 € : ce guide dit ce que cette note recouvre ici, sans la classer face aux autres.",
+    sections: [
+      {
+        heading: "Un seuil à 3 550 € : 3 axes sur 4 au-dessus de la médiane",
+        body: "Le revenu net minimum de 3 550 € par mois vient de la règle des 35 % appliquée au T3 de 1 240 € : le coût de la vie étant sous 5, le moteur n'utilise pas la règle des 33 % mais la version relâchée, réservée aux marchés tendus. Dans le palier de 12 communes, 7 ont un seuil plus bas et 4 un seuil plus haut ; la médiane des 416 communes classées est à 3 200 €, soit 350 € de plus ici. Le coût de la vie est noté 4,0/10, contre une médiane à 5,2 : c'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un ordre de grandeur pour un T3 loué sur le marché, pas un budget.",
+      },
+      {
+        heading: "956 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 23 940 € par an et par unité de consommation, contre 21 675 € pour la médiane des communes classées, soit 10 % de plus (source : Insee, Filosofi 2021). Le taux de pauvreté est de 14 %. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 594 € par mois, contre un seuil de 3 550 € : il manque 956 €. Le ménage médian local couvre ainsi 73 % du seuil ; dans le palier, la couverture va de 57 % (Massy) à 104 % (Lens). Le niveau de vie est un revenu disponible, prestations comprises, rapporté à l'unité de consommation : ce n'est pas un salaire, et les chiffres de 2021 ne disent rien des loyers de 2026.",
+      },
+      {
+        heading: "Ce que mesure chaque axe : coût de la vie 4,0/10, transports 7,7/10, écoles 7,7/10, sécurité 5,3/10",
+        body: "Coût de la vie : 4,0/10, contre une médiane à 5,2 (1,2 point de moins). Transports : 7,7/10, contre une médiane à 6,4 (1,3 point de plus). Écoles : 7,7/10, contre une médiane à 5,5 (2,2 points de plus). Sécurité : 5,3/10, contre une médiane à 5,0 (0,3 point de plus). Il faut dire ce que chaque chiffre mesure. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni le travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane : transports, écoles, sécurité. En dessous : coût de la vie.",
+      },
+      {
+        heading: "3,7 points d'amplitude, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (transports, 7,7) et le pire (coût de la vie, 4,0) vaut 3,7 points, contre une médiane à 2,7 sur les 416 communes classées. Dans le palier, l'amplitude va de 1,1 à 6,8 : une même note de 6,0 recouvre des profils très différents. Limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, coût de la vie est à 4,0, sous ce seuil : le composite lisse un point que le score global pénaliserait. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Cagnes-sur-Mer face aux autres communes classées du département (Alpes-Maritimes)",
+        body: "Le classement retient 9 communes du département (Alpes-Maritimes), dont Cagnes-sur-Mer. Les autres : Menton (fit 5,8, T3 1 450 €) ; Grasse (fit 5,3, T3 1 080 €) ; Vallauris (fit 5,1, T3 1 330 €) ; Nice (fit 4,9, T3 1 500 €) ; Antibes (fit 4,6, T3 1 450 €), et 3 de plus. À l'échelle de la région Provence-Alpes-Côte d'Azur, 34 communes sont classées ; 21 ont un T3 moins cher que 1 240 €. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 34,0 % de 60 ans et plus",
+        body: "Cagnes-sur-Mer compte 52 852 habitants en 2022, contre 49 902 en 2016 et 46 632 en 2011 (source : Insee, recensements), soit +5,9 % depuis 2016. Le recensement compte des résidents : ce chiffre ne dit rien de l'attrait de la ville, une commune pouvant perdre des habitants dans ses limites tout en restant attractive dans son agglomération. La part des 60 ans et plus est de 34,0 %, contre une médiane à 23,3 % sur les communes classées et les moins de 30 ans pèsent 29,2 %. Ces mesures ne figurent dans aucun des quatre axes du composite, et nous n'en tirons aucune causalité : nos données ne mesurent ni les ouvertures ni les fermetures de classes, à demander à la mairie ou à l'académie.",
+      },
+      {
+        heading: "Le verdict : pour qui Cagnes-sur-Mer fonctionne",
+        body: "Cagnes-sur-Mer fonctionne à partir de 3 550 € net par mois, un seuil de 350 € au-dessus de la médiane du classement (3 200 €). Elle convient mieux à un parent solo qui privilégie transports (7,7/10) et accepte de composer avec coût de la vie (4,0/10). Elle fonctionne moins bien pour un ménage au niveau de vie médian local, à qui il manque 956 € par mois pour atteindre le seuil. Deux points à garder en tête : le fit de 6,0 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement ; et à note égale, Cagnes-sur-Mer se compare aux autres communes du palier sur le seuil et sur l'axe qui vous importe, pas sur la note.",
+      },
+    ],
+    relatedCities: ["cagnes-sur-mer","menton","grasse","vallauris","nice"],
+    relatedGuides: [
+      "parent-solo-a-nice-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Cagnes-sur-Mer 2026","monoparental Alpes-Maritimes","T3 Cagnes-sur-Mer budget","sécurité et écoles parent seul","famille monoparentale Provence-Alpes-Côte d'Azur"],
+  },
+  {
+    slug: "parent-solo-a-carpentras-2026",
+    title: "Parent solo à Carpentras en 2026 : un seuil à 2 800 €, 3 axes sur 4 au-dessus de la médiane et 1,8 points d'amplitude",
+    metaTitle: "Parent solo à Carpentras 2026 : seuil 2 800 €",
+    metaDesc:
+      "Fit 6,0/10, T3 920 €, seuil 2 800 € par mois, 765 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Carpentras sort à 6,0/10 au composite parent solo, dans un palier de 12 communes à 6,0/10 que rien dans notre barème ne départage (4 d'entre elles ont déjà leur guide : Bordeaux, Le Mans, Rouen, Saint-Étienne ; les autres sont traitées dans le même lot). Le détail : coût de la vie 6,7/10, transports 4,9/10, écoles 6,6/10, sécurité 5,4/10 (source : notre fiche ville). Le T3 est à 920 € et le mètre carré à l'achat à 2 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 800 € par mois. La commune compte 30 854 habitants au recensement 2022 contre 28 554 en 2016 (source : Insee, recensements). Le dossier tient en une phrase : coût de la vie comme point fort (6,7/10), transports comme point faible (4,9/10). À note égale, les communes du palier ont un T3 qui va de 590 € à 1 650 € : ce guide dit ce que cette note recouvre ici, sans la classer face aux autres.",
+    sections: [
+      {
+        heading: "Un seuil à 2 800 € : 3 axes sur 4 au-dessus de la médiane",
+        body: "Le revenu net minimum de 2 800 € par mois vient de la règle des 33 % appliquée au T3 de 920 €. Dans le palier de 12 communes, 3 ont un seuil plus bas et 8 un seuil plus haut ; la médiane des 416 communes classées est à 3 200 €, soit 400 € de moins ici. Le coût de la vie est noté 6,7/10, contre une médiane à 5,2 : c'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un ordre de grandeur pour un T3 loué sur le marché, pas un budget.",
+      },
+      {
+        heading: "765 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 18 780 € par an et par unité de consommation, contre 21 675 € pour la médiane des communes classées, soit 13 % de moins (source : Insee, Filosofi 2021). Le taux de pauvreté est de 28 %. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 035 € par mois, contre un seuil de 2 800 € : il manque 765 €. Le ménage médian local couvre ainsi 73 % du seuil ; dans le palier, la couverture va de 57 % (Massy) à 104 % (Lens). Le niveau de vie est un revenu disponible, prestations comprises, rapporté à l'unité de consommation : ce n'est pas un salaire, et les chiffres de 2021 ne disent rien des loyers de 2026.",
+      },
+      {
+        heading: "Ce que mesure chaque axe : coût de la vie 6,7/10, transports 4,9/10, écoles 6,6/10, sécurité 5,4/10",
+        body: "Coût de la vie : 6,7/10, contre une médiane à 5,2 (1,5 point de plus). Transports : 4,9/10, contre une médiane à 6,4 (1,5 point de moins). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 point de plus). Sécurité : 5,4/10, contre une médiane à 5,0 (0,4 point de plus). Il faut dire ce que chaque chiffre mesure. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni le travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane : coût de la vie, écoles, sécurité. En dessous : transports.",
+      },
+      {
+        heading: "1,8 points d'amplitude, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (coût de la vie, 6,7) et le pire (transports, 4,9) vaut 1,8 points, contre une médiane à 2,7 sur les 416 communes classées. Dans le palier, l'amplitude va de 1,1 à 6,8 : une même note de 6,0 recouvre des profils très différents. Limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5, donc la limite ne joue pas. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Carpentras face aux autres communes classées du département (Vaucluse)",
+        body: "Le classement retient 5 communes du département (Vaucluse), dont Carpentras. Les autres : Orange (fit 6,1, T3 920 €) ; Avignon (fit 5,3, T3 1 000 €) ; Pertuis (fit 4,8, T3 1 010 €) ; Cavaillon (fit 4,4, T3 860 €). À l'échelle de la région Provence-Alpes-Côte d'Azur, 34 communes sont classées ; 3 ont un T3 moins cher que 920 €. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 30,2 % de 60 ans et plus",
+        body: "Carpentras compte 30 854 habitants en 2022, contre 28 554 en 2016 et 28 815 en 2011 (source : Insee, recensements), soit +8,1 % depuis 2016. Le recensement compte des résidents : ce chiffre ne dit rien de l'attrait de la ville, une commune pouvant perdre des habitants dans ses limites tout en restant attractive dans son agglomération. La part des 60 ans et plus est de 30,2 %, contre une médiane à 23,3 % sur les communes classées et les moins de 30 ans pèsent 34,5 %. Ces mesures ne figurent dans aucun des quatre axes du composite, et nous n'en tirons aucune causalité : nos données ne mesurent ni les ouvertures ni les fermetures de classes, à demander à la mairie ou à l'académie.",
+      },
+      {
+        heading: "Le verdict : pour qui Carpentras fonctionne",
+        body: "Carpentras fonctionne à partir de 2 800 € net par mois, un seuil sous la médiane du classement (3 200 €). Elle convient mieux à un parent solo qui privilégie coût de la vie (6,7/10) et accepte de composer avec transports (4,9/10). Elle fonctionne moins bien pour un ménage au niveau de vie médian local, à qui il manque 765 € par mois pour atteindre le seuil. Deux points à garder en tête : le fit de 6,0 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement ; et à note égale, Carpentras se compare aux autres communes du palier sur le seuil et sur l'axe qui vous importe, pas sur la note.",
+      },
+    ],
+    relatedCities: ["carpentras","orange","avignon","pertuis","cavaillon"],
+    relatedGuides: [
+      "parent-solo-a-orange-2026",
+      "parent-solo-a-avignon-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Carpentras 2026","monoparental Vaucluse","T3 Carpentras budget","sécurité et écoles parent seul","famille monoparentale Provence-Alpes-Côte d'Azur"],
+  },
+  {
+    slug: "parent-solo-a-massy-2026",
+    title: "Parent solo à Massy en 2026 : un seuil à 4 700 €, 2 axes sur 4 au-dessus de la médiane et 4,4 points d'amplitude",
+    metaTitle: "Parent solo à Massy 2026 : seuil 4 700 €",
+    metaDesc:
+      "Fit 6,0/10, T3 1 650 €, seuil 4 700 € par mois, 2 039 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Massy sort à 6,0/10 au composite parent solo, dans un palier de 12 communes à 6,0/10 que rien dans notre barème ne départage (4 d'entre elles ont déjà leur guide : Bordeaux, Le Mans, Rouen, Saint-Étienne ; les autres sont traitées dans le même lot). Le détail : coût de la vie 4,6/10, transports 9,0/10, écoles 6,6/10, sécurité 4,8/10 (source : notre fiche ville). Le T3 est à 1 650 € et le mètre carré à l'achat à 4 100 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 4 700 € par mois. La commune compte 50 597 habitants au recensement 2022 contre 49 924 en 2016 (source : Insee, recensements). Le dossier tient en une phrase : transports comme point fort (9,0/10), coût de la vie comme point faible (4,6/10). À note égale, les communes du palier ont un T3 qui va de 590 € à 1 650 € : ce guide dit ce que cette note recouvre ici, sans la classer face aux autres.",
+    sections: [
+      {
+        heading: "Un seuil à 4 700 € : 2 axes sur 4 au-dessus de la médiane",
+        body: "Le revenu net minimum de 4 700 € par mois vient de la règle des 35 % appliquée au T3 de 1 650 € : le coût de la vie étant sous 5, le moteur n'utilise pas la règle des 33 % mais la version relâchée, réservée aux marchés tendus. Dans le palier de 12 communes, 11 ont un seuil plus bas et aucune un seuil plus haut ; la médiane des 416 communes classées est à 3 200 €, soit 1 500 € de plus ici. Le coût de la vie est noté 4,6/10, contre une médiane à 5,2 : c'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un ordre de grandeur pour un T3 loué sur le marché, pas un budget.",
+      },
+      {
+        heading: "2 039 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 24 560 € par an et par unité de consommation, contre 21 675 € pour la médiane des communes classées, soit 13 % de plus (source : Insee, Filosofi 2021). Le taux de pauvreté est de 16 %. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 661 € par mois, contre un seuil de 4 700 € : il manque 2 039 €. Le ménage médian local couvre ainsi 57 % du seuil ; dans le palier, la couverture va de 57 % (Massy) à 104 % (Lens). Le niveau de vie est un revenu disponible, prestations comprises, rapporté à l'unité de consommation : ce n'est pas un salaire, et les chiffres de 2021 ne disent rien des loyers de 2026.",
+      },
+      {
+        heading: "Ce que mesure chaque axe : coût de la vie 4,6/10, transports 9,0/10, écoles 6,6/10, sécurité 4,8/10",
+        body: "Coût de la vie : 4,6/10, contre une médiane à 5,2 (0,6 point de moins). Transports : 9,0/10, contre une médiane à 6,4 (2,6 points de plus). Écoles : 6,6/10, contre une médiane à 5,5 (1,1 point de plus). Sécurité : 4,8/10, contre une médiane à 5,0 (0,2 point de moins). Il faut dire ce que chaque chiffre mesure. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni le travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane : transports, écoles. En dessous : coût de la vie, sécurité.",
+      },
+      {
+        heading: "4,4 points d'amplitude, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (transports, 9,0) et le pire (coût de la vie, 4,6) vaut 4,4 points, contre une médiane à 2,7 sur les 416 communes classées. Dans le palier, l'amplitude va de 1,1 à 6,8 : une même note de 6,0 recouvre des profils très différents. Limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, aucun axe n'est sous 4,5, donc la limite ne joue pas. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Massy face aux autres communes classées du département (Essonne)",
+        body: "Le classement retient 20 communes du département (Essonne), dont Massy. Les autres : Étampes (fit 6,7, T3 1 120 €) ; Palaiseau (fit 5,8, T3 1 410 €) ; Chilly-Mazarin (fit 5,6, T3 1 390 €) ; Brunoy (fit 5,5, T3 1 410 €) ; Yerres (fit 5,5, T3 1 540 €), et 14 de plus. À l'échelle de la région Île-de-France, 156 communes sont classées ; 136 ont un T3 moins cher que 1 650 €. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 17,4 % de 60 ans et plus",
+        body: "Massy compte 50 597 habitants en 2022, contre 49 924 en 2016 et 43 006 en 2011 (source : Insee, recensements), soit +1,3 % depuis 2016. Le recensement compte des résidents : ce chiffre ne dit rien de l'attrait de la ville, une commune pouvant perdre des habitants dans ses limites tout en restant attractive dans son agglomération. La part des 60 ans et plus est de 17,4 %, contre une médiane à 23,3 % sur les communes classées et les moins de 30 ans pèsent 41,2 %. Ces mesures ne figurent dans aucun des quatre axes du composite, et nous n'en tirons aucune causalité : nos données ne mesurent ni les ouvertures ni les fermetures de classes, à demander à la mairie ou à l'académie.",
+      },
+      {
+        heading: "Le verdict : pour qui Massy fonctionne",
+        body: "Massy fonctionne à partir de 4 700 € net par mois, un seuil de 1 500 € au-dessus de la médiane du classement (3 200 €). Elle convient mieux à un parent solo qui privilégie transports (9,0/10) et accepte de composer avec coût de la vie (4,6/10). Elle fonctionne moins bien pour un ménage au niveau de vie médian local, à qui il manque 2 039 € par mois pour atteindre le seuil. Deux points à garder en tête : le fit de 6,0 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement ; et à note égale, Massy se compare aux autres communes du palier sur le seuil et sur l'axe qui vous importe, pas sur la note.",
+      },
+    ],
+    relatedCities: ["massy","etampes","palaiseau","chilly-mazarin","brunoy"],
+    relatedGuides: [
+      "parent-solo-a-etampes-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Massy 2026","monoparental Essonne","T3 Massy budget","sécurité et écoles parent seul","famille monoparentale Île-de-France"],
+  },
+  {
+    slug: "parent-solo-a-orvault-2026",
+    title: "Parent solo à Orvault en 2026 : un seuil à 2 900 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
+    metaTitle: "Parent solo à Orvault 2026 : seuil 2 900 €",
+    metaDesc:
+      "Fit 6,0/10, T3 1 010 €, seuil 2 900 € par mois, le ménage médian local couvre le seuil : le détail par axe et ce que la note recouvre.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Orvault sort à 6,0/10 au composite parent solo, dans un palier de 12 communes à 6,0/10 que rien dans notre barème ne départage (4 d'entre elles ont déjà leur guide : Bordeaux, Le Mans, Rouen, Saint-Étienne ; les autres sont traitées dans le même lot). Le détail : coût de la vie 4,1/10, transports 6,4/10, écoles 7,7/10, sécurité 6,3/10 (source : notre fiche ville). Le T3 est à 1 010 € et le mètre carré à l'achat à 3 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 900 € par mois. La commune compte 28 341 habitants au recensement 2022 contre 25 931 en 2016 (source : Insee, recensements). Le dossier tient en une phrase : écoles comme point fort (7,7/10), coût de la vie comme point faible (4,1/10). À note égale, les communes du palier ont un T3 qui va de 590 € à 1 650 € : ce guide dit ce que cette note recouvre ici, sans la classer face aux autres.",
+    sections: [
+      {
+        heading: "Un seuil à 2 900 € : 2 axes sur 4 au-dessus de la médiane",
+        body: "Le revenu net minimum de 2 900 € par mois vient de la règle des 35 % appliquée au T3 de 1 010 € : le coût de la vie étant sous 5, le moteur n'utilise pas la règle des 33 % mais la version relâchée, réservée aux marchés tendus. Dans le palier de 12 communes, 4 ont un seuil plus bas et 6 un seuil plus haut ; la médiane des 416 communes classées est à 3 200 €, soit 300 € de moins ici. Le coût de la vie est noté 4,1/10, contre une médiane à 5,2 : c'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un ordre de grandeur pour un T3 loué sur le marché, pas un budget.",
+      },
+      {
+        heading: "Le ménage médian local couvre le seuil",
+        body: "Le niveau de vie médian de la commune est de 27 140 € par an et par unité de consommation, contre 21 675 € pour la médiane des communes classées, soit 25 % de plus (source : Insee, Filosofi 2021). Le taux de pauvreté est de 10 %. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 2 940 € par mois, contre un seuil de 2 900 € : le seuil est couvert avec 40 € de marge. Le ménage médian local couvre ainsi 101 % du seuil ; dans le palier, la couverture va de 57 % (Massy) à 104 % (Lens). Le niveau de vie est un revenu disponible, prestations comprises, rapporté à l'unité de consommation : ce n'est pas un salaire, et les chiffres de 2021 ne disent rien des loyers de 2026.",
+      },
+      {
+        heading: "Ce que mesure chaque axe : coût de la vie 4,1/10, transports 6,4/10, écoles 7,7/10, sécurité 6,3/10",
+        body: "Coût de la vie : 4,1/10, contre une médiane à 5,2 (1,1 point de moins). Transports : 6,4/10, contre une médiane à 6,4 (à la médiane). Écoles : 7,7/10, contre une médiane à 5,5 (2,2 points de plus). Sécurité : 6,3/10, contre une médiane à 5,0 (1,3 point de plus). Il faut dire ce que chaque chiffre mesure. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni le travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane : écoles, sécurité. En dessous : coût de la vie.",
+      },
+      {
+        heading: "3,6 points d'amplitude, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 7,7) et le pire (coût de la vie, 4,1) vaut 3,6 points, contre une médiane à 2,7 sur les 416 communes classées. Dans le palier, l'amplitude va de 1,1 à 6,8 : une même note de 6,0 recouvre des profils très différents. Limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, coût de la vie est à 4,1, sous ce seuil : le composite lisse un point que le score global pénaliserait. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Orvault face aux autres communes classées du département (Loire-Atlantique)",
+        body: "Le classement retient 11 communes du département (Loire-Atlantique), dont Orvault. Les autres : Nantes (fit 6,3, T3 1 150 €) ; Saint-Nazaire (fit 6,2, T3 850 €) ; Carquefou (fit 5,7, T3 950 €) ; Couëron (fit 5,7, T3 940 €) ; La Chapelle-sur-Erdre (fit 5,7, T3 940 €), et 5 de plus. À l'échelle de la région Pays de la Loire, 19 communes sont classées ; 16 ont un T3 moins cher que 1 010 €. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 26,4 % de 60 ans et plus",
+        body: "Orvault compte 28 341 habitants en 2022, contre 25 931 en 2016 et 24 556 en 2011 (source : Insee, recensements), soit +9,3 % depuis 2016. Le recensement compte des résidents : ce chiffre ne dit rien de l'attrait de la ville, une commune pouvant perdre des habitants dans ses limites tout en restant attractive dans son agglomération. La part des 60 ans et plus est de 26,4 %, contre une médiane à 23,3 % sur les communes classées et les moins de 30 ans pèsent 36,9 %. Ces mesures ne figurent dans aucun des quatre axes du composite, et nous n'en tirons aucune causalité : nos données ne mesurent ni les ouvertures ni les fermetures de classes, à demander à la mairie ou à l'académie.",
+      },
+      {
+        heading: "Le verdict : pour qui Orvault fonctionne",
+        body: "Orvault fonctionne à partir de 2 900 € net par mois, un seuil sous la médiane du classement (3 200 €). Elle convient mieux à un parent solo qui privilégie écoles (7,7/10) et accepte de composer avec coût de la vie (4,1/10). Le ménage médian local atteint le seuil, ce qui n'est pas le cas partout dans le palier. Deux points à garder en tête : le fit de 6,0 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement ; et à note égale, Orvault se compare aux autres communes du palier sur le seuil et sur l'axe qui vous importe, pas sur la note.",
+      },
+    ],
+    relatedCities: ["orvault","nantes","saint-nazaire","carquefou","coueron"],
+    relatedGuides: [
+      "parent-solo-a-nantes-2026",
+      "parent-solo-a-saint-nazaire-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Orvault 2026","monoparental Loire-Atlantique","T3 Orvault budget","sécurité et écoles parent seul","famille monoparentale Pays de la Loire"],
+  },
+  {
+    slug: "parent-solo-a-sceaux-2026",
+    title: "Parent solo à Sceaux en 2026 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane et 6,8 points d'amplitude",
+    metaTitle: "Parent solo à Sceaux 2026 : seuil 4 300 €",
+    metaDesc:
+      "Fit 6,0/10, T3 1 500 €, seuil 4 300 € par mois, 399 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Sceaux sort à 6,0/10 au composite parent solo, dans un palier de 12 communes à 6,0/10 que rien dans notre barème ne départage (4 d'entre elles ont déjà leur guide : Bordeaux, Le Mans, Rouen, Saint-Étienne ; les autres sont traitées dans le même lot). Le détail : coût de la vie 2,2/10, transports 7,1/10, écoles 9,0/10, sécurité 6,5/10 (source : notre fiche ville). Le T3 est à 1 500 € et le mètre carré à l'achat à 6 500 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 4 300 € par mois. La commune compte 20 740 habitants au recensement 2022 contre 19 479 en 2016 (source : Insee, recensements). Le dossier tient en une phrase : écoles comme point fort (9,0/10), coût de la vie comme point faible (2,2/10). À note égale, les communes du palier ont un T3 qui va de 590 € à 1 650 € : ce guide dit ce que cette note recouvre ici, sans la classer face aux autres.",
+    sections: [
+      {
+        heading: "Un seuil à 4 300 € : 3 axes sur 4 au-dessus de la médiane",
+        body: "Le revenu net minimum de 4 300 € par mois vient de la règle des 35 % appliquée au T3 de 1 500 € : le coût de la vie étant sous 5, le moteur n'utilise pas la règle des 33 % mais la version relâchée, réservée aux marchés tendus. Dans le palier de 12 communes, 9 ont un seuil plus bas et une un seuil plus haut ; la médiane des 416 communes classées est à 3 200 €, soit 1 100 € de plus ici. Le coût de la vie est noté 2,2/10, contre une médiane à 5,2 : c'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un ordre de grandeur pour un T3 loué sur le marché, pas un budget.",
+      },
+      {
+        heading: "399 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 36 010 € par an et par unité de consommation, contre 21 675 € pour la médiane des communes classées, soit 66 % de plus (source : Insee, Filosofi 2021). Le taux de pauvreté est de 8 %. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 3 901 € par mois, contre un seuil de 4 300 € : il manque 399 €. Le ménage médian local couvre ainsi 91 % du seuil ; dans le palier, la couverture va de 57 % (Massy) à 104 % (Lens). Le niveau de vie est un revenu disponible, prestations comprises, rapporté à l'unité de consommation : ce n'est pas un salaire, et les chiffres de 2021 ne disent rien des loyers de 2026.",
+      },
+      {
+        heading: "Ce que mesure chaque axe : coût de la vie 2,2/10, transports 7,1/10, écoles 9,0/10, sécurité 6,5/10",
+        body: "Coût de la vie : 2,2/10, contre une médiane à 5,2 (3,0 points de moins). Transports : 7,1/10, contre une médiane à 6,4 (0,7 point de plus). Écoles : 9,0/10, contre une médiane à 5,5 (3,5 points de plus). Sécurité : 6,5/10, contre une médiane à 5,0 (1,5 point de plus). Il faut dire ce que chaque chiffre mesure. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni le travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane : transports, écoles, sécurité. En dessous : coût de la vie.",
+      },
+      {
+        heading: "6,8 points d'amplitude, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 9,0) et le pire (coût de la vie, 2,2) vaut 6,8 points, contre une médiane à 2,7 sur les 416 communes classées. Dans le palier, l'amplitude va de 1,1 à 6,8 : une même note de 6,0 recouvre des profils très différents. Limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, coût de la vie est à 2,2, sous ce seuil : le composite lisse un point que le score global pénaliserait. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Sceaux face aux autres communes classées du département (Hauts-de-Seine)",
+        body: "Le classement retient 32 communes du département (Hauts-de-Seine), dont Sceaux. Les autres : Issy-les-Moulineaux (fit 6,5, T3 1 800 €) ; Levallois-Perret (fit 6,5, T3 2 000 €) ; Neuilly-sur-Seine (fit 6,4, T3 2 500 €) ; Courbevoie (fit 6,3, T3 1 750 €) ; Rueil-Malmaison (fit 6,3, T3 1 600 €), et 26 de plus. À l'échelle de la région Île-de-France, 156 communes sont classées ; 121 ont un T3 moins cher que 1 500 €. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 26,3 % de 60 ans et plus",
+        body: "Sceaux compte 20 740 habitants en 2022, contre 19 479 en 2016 et 19 930 en 2011 (source : Insee, recensements), soit +6,5 % depuis 2016. Le recensement compte des résidents : ce chiffre ne dit rien de l'attrait de la ville, une commune pouvant perdre des habitants dans ses limites tout en restant attractive dans son agglomération. La part des 60 ans et plus est de 26,3 %, contre une médiane à 23,3 % sur les communes classées et les moins de 30 ans pèsent 37,2 %. Ces mesures ne figurent dans aucun des quatre axes du composite, et nous n'en tirons aucune causalité : nos données ne mesurent ni les ouvertures ni les fermetures de classes, à demander à la mairie ou à l'académie.",
+      },
+      {
+        heading: "Le verdict : pour qui Sceaux fonctionne",
+        body: "Sceaux fonctionne à partir de 4 300 € net par mois, un seuil de 1 100 € au-dessus de la médiane du classement (3 200 €). Elle convient mieux à un parent solo qui privilégie écoles (9,0/10) et accepte de composer avec coût de la vie (2,2/10). Elle fonctionne moins bien pour un ménage au niveau de vie médian local, à qui il manque 399 € par mois pour atteindre le seuil. Deux points à garder en tête : le fit de 6,0 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement ; et à note égale, Sceaux se compare aux autres communes du palier sur le seuil et sur l'axe qui vous importe, pas sur la note.",
+      },
+    ],
+    relatedCities: ["sceaux","issy-les-moulineaux","levallois-perret","neuilly-sur-seine","courbevoie"],
+    relatedGuides: [
+      "parent-solo-a-issy-les-moulineaux-2026",
+      "parent-solo-a-levallois-perret-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Sceaux 2026","monoparental Hauts-de-Seine","T3 Sceaux budget","sécurité et écoles parent seul","famille monoparentale Île-de-France"],
+  },
+  {
+    slug: "parent-solo-a-bourg-la-reine-2026",
+    title: "Parent solo à Bourg-la-Reine en 2026 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane et 6,5 points d'amplitude",
+    metaTitle: "Parent solo à Bourg-la-Reine 2026 : seuil 4 300 €",
+    metaDesc:
+      "Fit 6,0/10, T3 1 500 €, seuil 4 300 € par mois, 649 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Bourg-la-Reine sort à 6,0/10 au composite parent solo, dans un palier de 12 communes à 6,0/10 que rien dans notre barème ne départage (4 d'entre elles ont déjà leur guide : Bordeaux, Le Mans, Rouen, Saint-Étienne ; les autres sont traitées dans le même lot). Le détail : coût de la vie 2,2/10, transports 7,8/10, écoles 8,7/10, sécurité 6,5/10 (source : notre fiche ville). Le T3 est à 1 500 € et le mètre carré à l'achat à 6 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 4 300 € par mois. La commune compte 21 140 habitants au recensement 2022 contre 20 531 en 2016 (source : Insee, recensements). Le dossier tient en une phrase : écoles comme point fort (8,7/10), coût de la vie comme point faible (2,2/10). À note égale, les communes du palier ont un T3 qui va de 590 € à 1 650 € : ce guide dit ce que cette note recouvre ici, sans la classer face aux autres.",
+    sections: [
+      {
+        heading: "Un seuil à 4 300 € : 3 axes sur 4 au-dessus de la médiane",
+        body: "Le revenu net minimum de 4 300 € par mois vient de la règle des 35 % appliquée au T3 de 1 500 € : le coût de la vie étant sous 5, le moteur n'utilise pas la règle des 33 % mais la version relâchée, réservée aux marchés tendus. Dans le palier de 12 communes, 9 ont un seuil plus bas et une un seuil plus haut ; la médiane des 416 communes classées est à 3 200 €, soit 1 100 € de plus ici. Le coût de la vie est noté 2,2/10, contre une médiane à 5,2 : c'est l'axe le plus lourd du composite, avec un poids de 0,30, devant les écoles et la sécurité à 0,25 chacune et les transports à 0,20. Le seuil n'intègre ni transport, ni garde, ni charges : c'est un ordre de grandeur pour un T3 loué sur le marché, pas un budget.",
+      },
+      {
+        heading: "649 € qui manquent au ménage médian local",
+        body: "Le niveau de vie médian de la commune est de 33 700 € par an et par unité de consommation, contre 21 675 € pour la médiane des communes classées, soit 55 % de plus (source : Insee, Filosofi 2021). Le taux de pauvreté est de 8 %. Pour un parent solo avec un enfant de moins de 14 ans, soit 1,3 unité de consommation sur l'échelle OCDE modifiée, un revenu disponible au niveau de vie médian local représente environ 3 651 € par mois, contre un seuil de 4 300 € : il manque 649 €. Le ménage médian local couvre ainsi 85 % du seuil ; dans le palier, la couverture va de 57 % (Massy) à 104 % (Lens). Le niveau de vie est un revenu disponible, prestations comprises, rapporté à l'unité de consommation : ce n'est pas un salaire, et les chiffres de 2021 ne disent rien des loyers de 2026.",
+      },
+      {
+        heading: "Ce que mesure chaque axe : coût de la vie 2,2/10, transports 7,8/10, écoles 8,7/10, sécurité 6,5/10",
+        body: "Coût de la vie : 2,2/10, contre une médiane à 5,2 (3,0 points de moins). Transports : 7,8/10, contre une médiane à 6,4 (1,4 point de plus). Écoles : 8,7/10, contre une médiane à 5,5 (3,2 points de plus). Sécurité : 6,5/10, contre une médiane à 5,0 (1,5 point de plus). Il faut dire ce que chaque chiffre mesure. Le score d'écoles décrit une offre communale, la densité d'établissements et de services rapportée à la population, et non la réussite des élèves ni le travail des équipes. Le score de sécurité est un indicateur communal : il ne dit rien d'un quartier ni d'une rue. Le score de transports décrit l'accès aux réseaux et aux gares de la commune, pas la fréquence d'une ligne précise ni l'horaire du dernier train. Au-dessus de la médiane : transports, écoles, sécurité. En dessous : coût de la vie.",
+      },
+      {
+        heading: "6,5 points d'amplitude, et la limite du composite",
+        body: "L'amplitude entre le meilleur axe (écoles, 8,7) et le pire (coût de la vie, 2,2) vaut 6,5 points, contre une médiane à 2,7 sur les 416 communes classées. Dans le palier, l'amplitude va de 1,1 à 6,8 : une même note de 6,0 recouvre des profils très différents. Limite de la méthode : ce composite est une moyenne pondérée de quatre axes, sans la pénalité de pire axe que le score global du site applique quand un axe passe sous 4,5. Ici, coût de la vie est à 2,2, sous ce seuil : le composite lisse un point que le score global pénaliserait. On publie la limite, on ne repondère pas.",
+      },
+      {
+        heading: "Bourg-la-Reine face aux autres communes classées du département (Hauts-de-Seine)",
+        body: "Le classement retient 32 communes du département (Hauts-de-Seine), dont Bourg-la-Reine. Les autres : Issy-les-Moulineaux (fit 6,5, T3 1 800 €) ; Levallois-Perret (fit 6,5, T3 2 000 €) ; Neuilly-sur-Seine (fit 6,4, T3 2 500 €) ; Courbevoie (fit 6,3, T3 1 750 €) ; Rueil-Malmaison (fit 6,3, T3 1 600 €), et 26 de plus. À l'échelle de la région Île-de-France, 156 communes sont classées ; 121 ont un T3 moins cher que 1 500 €. Sur les quartiers, le site ne publie aucun verdict par secteur : notre fiche quartiers documente un nombre restreint de quartiers, sur une échelle propre qui ne se compare pas au score communal.",
+      },
+      {
+        heading: "Une commune qui gagne des habitants, 24,1 % de 60 ans et plus",
+        body: "Bourg-la-Reine compte 21 140 habitants en 2022, contre 20 531 en 2016 et 19 982 en 2011 (source : Insee, recensements), soit +3,0 % depuis 2016. Le recensement compte des résidents : ce chiffre ne dit rien de l'attrait de la ville, une commune pouvant perdre des habitants dans ses limites tout en restant attractive dans son agglomération. La part des 60 ans et plus est de 24,1 %, contre une médiane à 23,3 % sur les communes classées et les moins de 30 ans pèsent 37,8 %. Ces mesures ne figurent dans aucun des quatre axes du composite, et nous n'en tirons aucune causalité : nos données ne mesurent ni les ouvertures ni les fermetures de classes, à demander à la mairie ou à l'académie.",
+      },
+      {
+        heading: "Le verdict : pour qui Bourg-la-Reine fonctionne",
+        body: "Bourg-la-Reine fonctionne à partir de 4 300 € net par mois, un seuil de 1 100 € au-dessus de la médiane du classement (3 200 €). Elle convient mieux à un parent solo qui privilégie écoles (8,7/10) et accepte de composer avec coût de la vie (2,2/10). Elle fonctionne moins bien pour un ménage au niveau de vie médian local, à qui il manque 649 € par mois pour atteindre le seuil. Deux points à garder en tête : le fit de 6,0 est une moyenne pondérée de quatre axes, il ne dit rien des quartiers, de la garde d'enfants ni de la disponibilité réelle d'un logement ; et à note égale, Bourg-la-Reine se compare aux autres communes du palier sur le seuil et sur l'axe qui vous importe, pas sur la note.",
+      },
+    ],
+    relatedCities: ["bourg-la-reine","issy-les-moulineaux","levallois-perret","neuilly-sur-seine","courbevoie"],
+    relatedGuides: [
+      "parent-solo-a-issy-les-moulineaux-2026",
+      "parent-solo-a-levallois-perret-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+    ],
+    tags: ["parent solo Bourg-la-Reine 2026","monoparental Hauts-de-Seine","T3 Bourg-la-Reine budget","sécurité et écoles parent seul","famille monoparentale Île-de-France"],
+  },
+  {
     slug: "parent-solo-a-tassin-la-demi-lune-2026",
     title: "Parent solo à Tassin-la-Demi-Lune en 2026 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
     metaTitle: "Parent solo à Tassin-la-Demi-Lune 2026 : seuil 4 050 €",
