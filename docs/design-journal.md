@@ -498,3 +498,32 @@ viewport. `npm run build` non lancé.
 1. Jumelle EN `app/[locale]/red-flags/themes/[slug]/page.tsx` — même gabarit à aligner.
 2. Fiches red-flag par ville (`/red-flags/<ville>`) — à inspecter.
 3. Section commentaires (`CommentSection`) — erreur en `red-50`, cartes arrondies : à inspecter.
+
+## 2026-10-21 ~11:00 UTC — jumelle EN des pages thème `app/[locale]/red-flags/themes/[slug]/page.tsx`
+
+**Surface** : les pages thème Red Flag de bestcitiesinfrance.com (sélection `EN_THEMES`), alignées
+sur le gabarit FR `RedFlagThemePage` livré au run de 03:00.
+
+**Changé**
+- En-tête : fin du lien « ← Red Flags » gris et du gros emoji centré → papier `.topo-bg` sous voile
+  `bg-canvas/80`, lien retour mono brique souligné + flèche lucide, repère « Sheet NN / N »
+  (numérotation dans l'ordre de `EN_THEMES`), H1 aligné à gauche.
+- « What the data shows » : encart de légende à filet brique gauche, sur-titre mono.
+- Classement : fin des cartes `rounded-2xl` empilées et du « #N » → registre à filets pointillés
+  dans une fiche papier, rang « No. 01 » mono, liens « profile » souligné brique et « Red flag
+  report » pointillé avec flèches lucide. Pastille de gravité : teintes de niveau conservées, angles
+  nets, chiffres mono (identique au FR).
+- Méthodologie : note de bas de carte, cadre pointillé sur papier.
+- « Other red flag themes » : vignettes « Sheet NN » sans emoji, survol brique ; lien « All red-flag
+  reports » en mono brique (fin de l'icône `AlertTriangle` en ligne).
+- Non touché : textes `EN_THEMES` (le champ `emoji` reste dans les données, non rendu), JSON-LD,
+  légende de convention, liens.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright `/en/red-flags/themes/buyers-remorse` à 1440 et 390 px.
+`npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Fiches red-flag par ville (`/red-flags/<ville>` FR + EN) — à inspecter.
+2. Section commentaires (`CommentSection`) — erreur en `red-50`, cartes arrondies : à inspecter.
+3. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.

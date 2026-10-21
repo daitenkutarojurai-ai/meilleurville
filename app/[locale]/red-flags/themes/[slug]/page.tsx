@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
-import { AlertTriangle } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { RED_FLAG_THEMES } from "@/lib/red-flag-themes";
@@ -511,39 +511,51 @@ export default async function EnRedFlagThemePage({ params }: Props) {
     })),
   };
 
+  // Same "Sheet NN" numbering as the theme tiles below (EN selection order).
+  const sheetIndex = EN_THEMES.findIndex((t) => t.enSlug === slug) + 1;
+  const sheetLabel = (n: number) => `Sheet ${String(n).padStart(2, "0")} / ${EN_THEMES.length}`;
+
   return (
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navbar />
 
-      <section className="pt-20 pb-10">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 text-center">
-          <div className="mb-3 text-sm">
-            <Link href="/red-flags" className="text-[var(--text-secondary)] hover:text-[var(--accent)]">
-              ← Red Flags
-            </Link>
+      {/* Header — veiled topo paper, same grammar as the FR twin and the hub. */}
+      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
+        <div className="bg-[var(--bg-canvas)]/80 pt-20 pb-12">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6">
+            <div className="mb-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
+              <Link
+                href="/red-flags"
+                className="inline-flex items-center gap-1.5 border-b border-[var(--accent-pink)]/40 pb-1 text-[var(--accent-pink)] hover:border-[var(--accent-pink)]"
+              >
+                <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
+                Red Flags
+              </Link>
+              {sheetIndex > 0 && (
+                <span className="text-[var(--text-tertiary)]">{sheetLabel(sheetIndex)}</span>
+              )}
+            </div>
+            <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.08]">
+              {theme.title}
+            </h1>
+            <p className="text-[var(--text-secondary)] text-base sm:text-lg max-w-2xl">
+              {theme.intro}
+            </p>
           </div>
-          <div className="text-5xl mb-3" aria-hidden>
-            {theme.emoji}
-          </div>
-          <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.1]">
-            {theme.title}
-          </h1>
-          <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
-            {theme.intro}
-          </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8 space-y-8">
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-2">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-10 space-y-10">
+        {/* The reality — legend inset, brick rule. */}
+        <section className="rounded-md border border-[var(--border)] border-l-4 border-l-[var(--accent-pink)] bg-[var(--bg-surface)] p-5">
+          <h2 className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
             What the data shows
           </h2>
           <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
             {theme.reality}
           </p>
-        </div>
+        </section>
 
         <section>
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-1">
@@ -562,58 +574,56 @@ export default async function EnRedFlagThemePage({ params }: Props) {
             </p>
           )}
           {rows.length === 0 ? (
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <div className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-surface)] p-5">
               <p className="text-sm text-[var(--text-secondary)]">
                 No city exceeds the thresholds for this theme in the current dataset. If you think a city should appear here, let us know via the contact page.
               </p>
             </div>
           ) : (
-            <ol className="space-y-3">
+            /* Ruled register: one line per city, rank in mono. */
+            <ol className="rounded-md border border-[var(--border)] bg-[var(--bg-surface)] divide-y divide-dashed divide-[var(--border)]">
               {rows.map((row, i) => (
-                <li key={row.city.slug}>
-                  <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
-                    <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0 w-10 text-center">
-                        <span className="font-mono-data text-2xl font-bold text-[var(--text-tertiary)]">
-                          #{i + 1}
-                        </span>
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex flex-wrap items-baseline gap-2 mb-1">
-                          <Link
-                            href={`/cities/${row.city.slug}`}
-                            className="text-lg font-bold text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
-                          >
-                            {row.city.name}
-                          </Link>
-                          <span className="text-xs text-[var(--text-tertiary)]">
-                            {row.city.region}
-                          </span>
-                          <span
-                            className={`ml-auto inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-bold ${severityColor(row.severity)}`}
-                            aria-label={`Severity ${row.severity} out of 10, 10 being the worst`}
-                          >
-                            {row.severity.toFixed(1)}/10
-                          </span>
-                        </div>
-                        <div className="mt-3 flex flex-wrap gap-2">
-                          <Link
-                            href={`/cities/${row.city.slug}`}
-                            className="text-xs underline text-[var(--accent)] hover:opacity-80"
-                          >
-                            {row.city.name} profile →
-                          </Link>
-                          <Link
-                            href={`/red-flags/${row.city.slug}`}
-                            className="text-xs underline text-[var(--text-secondary)] hover:opacity-80"
-                          >
-                            Red flag report →
-                          </Link>
-                          <span className="text-xs text-[var(--text-tertiary)]">
-                            Overall: <span className={scoreColor(row.city.scores.global)}>{row.city.scores.global.toFixed(1)}/10</span>
-                          </span>
-                        </div>
-                      </div>
+                <li key={row.city.slug} className="flex items-start gap-3 sm:gap-4 p-4">
+                  <span
+                    className="flex-shrink-0 w-10 pt-1 text-right font-mono-data text-xs font-semibold tracking-wider text-[var(--text-tertiary)]"
+                    aria-label={`Rank ${i + 1}`}
+                  >
+                    No.&nbsp;{String(i + 1).padStart(2, "0")}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1 mb-1">
+                      <Link
+                        href={`/cities/${row.city.slug}`}
+                        className="text-lg font-bold text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
+                      >
+                        {row.city.name}
+                      </Link>
+                      <span className="text-xs text-[var(--text-tertiary)]">
+                        {row.city.region}
+                      </span>
+                      <span
+                        className={`ml-auto inline-flex items-center rounded-sm border px-2 py-0.5 font-mono-data text-[11px] font-bold ${severityColor(row.severity)}`}
+                        aria-label={`Severity ${row.severity} out of 10, 10 being the worst`}
+                      >
+                        {row.severity.toFixed(1)}/10
+                      </span>
+                    </div>
+                    <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1">
+                      <Link
+                        href={`/cities/${row.city.slug}`}
+                        className="inline-flex items-center gap-1 text-xs font-semibold text-[var(--accent)] underline decoration-[var(--accent-pink)]/50 underline-offset-2 hover:decoration-[var(--accent-pink)]"
+                      >
+                        {row.city.name} profile <ArrowRight className="h-3 w-3" aria-hidden="true" />
+                      </Link>
+                      <Link
+                        href={`/red-flags/${row.city.slug}`}
+                        className="inline-flex items-center gap-1 text-xs text-[var(--text-secondary)] underline decoration-dashed underline-offset-2 hover:text-[var(--accent-pink)]"
+                      >
+                        Red flag report <ArrowRight className="h-3 w-3" aria-hidden="true" />
+                      </Link>
+                      <span className="text-xs text-[var(--text-tertiary)]">
+                        Overall: <span className={scoreColor(row.city.scores.global)}>{row.city.scores.global.toFixed(1)}/10</span>
+                      </span>
                     </div>
                   </div>
                 </li>
@@ -622,8 +632,11 @@ export default async function EnRedFlagThemePage({ params }: Props) {
           )}
         </section>
 
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-          <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-2">Methodology</h3>
+        {/* Methodology — map footnote, dashed frame. */}
+        <section className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-canvas)] p-5">
+          <h3 className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-secondary)]">
+            Methodology
+          </h3>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
             {theme.methodology}
           </p>
@@ -631,31 +644,36 @@ export default async function EnRedFlagThemePage({ params }: Props) {
             Rankings update as proprietary scores improve (currently v0, derived from the official seed — see{" "}
             <Link href="/methodology" className="underline">methodology page</Link>).
           </p>
-        </div>
+        </section>
 
+        {/* Other themes — "Sheet NN" tiles, as on the hub. */}
         <section>
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-4">
             Other red flag themes
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:auto-rows-fr">
             {otherThemes.slice(0, 8).map((t) => (
               <Link
                 key={t.enSlug}
                 href={`/red-flags/themes/${t.enSlug}`}
-                className="flex items-start gap-3 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)]/40 transition-colors"
+                className="group h-full rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2"
               >
-                <span className="text-2xl flex-shrink-0" aria-hidden>{t.emoji}</span>
-                <div>
-                  <p className="font-semibold text-[var(--text-primary)] text-sm">{t.title}</p>
-                  <p className="text-xs text-[var(--text-secondary)] mt-1 line-clamp-2">{t.intro}</p>
-                </div>
+                <span className="border-b border-dashed border-[var(--border)] pb-2 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                  {sheetLabel(EN_THEMES.indexOf(t) + 1)}
+                </span>
+                <span className="font-semibold text-sm text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors">
+                  {t.title}
+                </span>
+                <p className="text-xs text-[var(--text-secondary)] line-clamp-2">{t.intro}</p>
               </Link>
             ))}
           </div>
-          <div className="mt-3 flex items-center gap-3">
-            <Link href="/red-flags" className="text-sm text-[var(--accent)] hover:underline">
-              <AlertTriangle className="inline h-4 w-4 mr-1" />
-              All red-flag reports →
+          <div className="mt-4">
+            <Link
+              href="/red-flags"
+              className="inline-flex items-center gap-1.5 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent-pink)] border-b border-[var(--accent-pink)]/40 pb-1 hover:border-[var(--accent-pink)]"
+            >
+              All red-flag reports <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
             </Link>
           </div>
         </section>
