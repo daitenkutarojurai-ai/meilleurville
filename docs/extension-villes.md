@@ -2646,3 +2646,36 @@ propre, `npm run integrity`, `search-index:check`, `hreflang:check`, `sitemap:ch
 `retiring-in-*` / `moving-*` (« among the gentlest of our 540 towns »), `best-french-cities-house-with-garden`.
 
 **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-21 (quatrième run) — aucun lot : deux guides budget EN remesurés sur 593 villes (maison avec jardin, 20 minutes de la mer)
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents →
+lot autorisé, mais **aucune décision du propriétaire au § 0** : `git log` depuis le troisième run hors
+`[scheduled-agent]` ne porte qu'un lot vacances EN et un lot parent-solo ; rien sur le seed, `score-calibration.ts`,
+ROADMAP ou CLAUDE.md. Aucune ville ajoutée.
+
+*Livrable* : reliquat « `best-french-cities-house-with-garden` » du second run, plus sa voisine
+`best-french-cities-20-minutes-from-the-sea` qui cite elle aussi des comptes du corpus. Méthode inchangée : chaque
+chiffre **retrouvé à l'identique sur les 540** (filtre `scoreCohort !== "extension"`), puis remesuré sur les 593.
+
+| Repère cité | 540 (retrouvé) | 593 |
+|---|---|---|
+| Villes avec médiane DVF maison · médiane | 507 · €2,840 (≈ 70 m² pour 200 k€) | **560 · €3,090 (≈ 65 m²)** |
+| Villes ≤ €2,000/m² maison · shortlist (≥ 15 000 hab. Insee, ≥ 50 ventes, global ≥ 6) | 151 · 44 | 151 · 44 (aucune ville d'extension n'y entre) |
+| Appart. ≥ 50 ventes : ≤ 5 km · 5-40 km · > 40 km de la mer | 69 €3,864 · 58 €2,566 · 340 €2,357 | **71 €3,864 · 65 €2,637 · 383 €2,547** |
+| Loyer T2 médian des trois bandes | 800 · 690 · 715 € | **800 · 700 · 760 €** |
+
+Deux phrases **réécrites, pas renumérotées** : « driving another 300 km inland saves you a further 8% » → **3 %**
+(2 547 / 2 637) ; « marginally cheaper than the middle of the country … shoreline about 16% more » → **about 8%
+cheaper … about 14% more**. Le « about a third » (−32 %) tient. Inchangés car remesurés identiques : la shortlist des
+44 (tête Le Puy-en-Velay, Vendôme, Saint-Dié…), les côtes les moins chères (Pointe-à-Pitre, Boulogne, Les Abymes,
+Calais, Brest) et la shortlist 5-40 km. `updatedAt` des deux guides → 2026-10-21. Aucune jumelle FR ne cite ces
+comptes.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `search-index:check`, `sitemap:check`, `hreflang:check` verts. `npm run build` non lancé.
+
+**Reste à reprendre** : rangs emploi « of the 363 communes above 20,000 » (`lib/employment-market`), guides
+`retiring-in-*` / `moving-*` (« among the gentlest of our 540 towns »).
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
