@@ -2565,3 +2565,56 @@ zones protégées depuis le 26/08), comme aux runs précédents.
 propre, `npm run integrity`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
 
 **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-21 (second run) — aucun lot : deux séries de guides EN comparaient leurs villes au corpus des 540
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le run du matin hors `[scheduled-agent]` est vide. Rien ne passe la règle actuelle : aucune ville
+ajoutée.
+
+*Livrable* : suite du balayage, cette fois dans le **texte des guides** (`data/guides*.ts`), que les runs précédents
+n'avaient pas relu. Ajouter une ville ne déplace aucune note (cohorte de référence), mais déplace les **rangs** et
+les **médianes du corpus** que les guides citent. Méthode : chaque chiffre a d'abord été **retrouvé à l'identique**
+sur les 540 villes d'origine (filtre `scoreCohort !== "extension"`), puis remesuré sur les 593 avec la même
+définition — un chiffre non reproduit n'est pas touché.
+
+| Repère cité | 540 (retrouvé) | 593 |
+|---|---|---|
+| Médiane DVF appartement / maison | €2,533 / €2,840 | **€2,615 / €3,090** |
+| Part des 0-14 ans (médiane, 538 → 591 villes) | 16.5 % | **16.9 %** |
+| Part des 15-29 ans · 60 ans et + · 30-44 ans (médianes) | 18.44 · 27.16 · 17.61 % | **18.54 · 26.23 · 17.96 %** |
+| Loyer T3 / T2 médian | 930 / 700 € | **950 / 710 €** |
+| Niveau de vie (rang, 533 → 586 communes) | Lyon 86ᵉ, Nantes 114ᵉ… | Lyon 105ᵉ, Nantes 139ᵉ… |
+| Axe écoles : bandes d'ex æquo | 31-35 · 87-97 · 98-101 · 102-208 · 351-382 · 505-521 | **33-37 · 90-100 · 101-104 · 105-214 · 376-409 · 552-569** |
+
+Corrigé : **17 guides `family-in-*`** (rangs écoles / 0-14 ans / niveau de vie, médianes DVF, écarts en %), **29
+guides `solo-travel-in-*`** (médianes d'âge, rangs 15-29 ans : Le Mans 95ᵉ → 101ᵉ, Quimper 190ᵉ → 209ᵉ, Valence
+106ᵉ → 115ᵉ, Mulhouse 134ᵉ → 147ᵉ, Montauban 301ᵉ → 344ᵉ ; les rangs 4 à 35 ne bougent pas), `best-french-cities-
+flatsharing` (365 → 413 sur 593), `best-french-cities-cheap-rent` (166 sous 600 €, « 18 % sous la médiane »),
+Aubusson FR/EN et Reims (dénominateur seul), `partir-en-vacances-seul` FR (591 des 593, médiane 18,5 %).
+**Six phrases se contredisaient et ont été réécrites, pas seulement renumérotées** : « Nantes, Angers, Tours, Lille
+dans le top 35 » (la bande est désormais 33-37 → top 40, metaDesc Angers et Tours compris) ; Orléans « à 5 € de la
+médiane » (désormais 77 € et 518 € en dessous) ; Pau « seules Clermont et Besançon sous les deux médianes » (Orléans
+aussi désormais) ; Dijon « un peu au-dessus » → au niveau (appart.) / légèrement au-dessus (maison) ; Strasbourg
+16,7 % d'enfants « au-dessus » de la médiane → « proche de » ; Nice « médiane à la décimale près » → un dixième
+sous la médiane, ce qui rend faux le « une des deux seules destinations sous la médiane » de Montauban (déjà faux
+avant l'extension : Saint-Paul, Bastia, Anglet, Dunkerque, Brive y sont aussi) → « une des rares » ; Saint-Denis
+(La Réunion) liste désormais Valence (26,7 %) parmi les villes au-dessus de la médiane des 60 ans et +.
+Corrigé au passage, sans lien avec l'extension : Toulouse « 2ᵉ derrière Rennes » sur l'axe écoles alors qu'elles
+sont **ex æquo à 9,0 avec onze autres** (la metaDesc disait déjà « tied for first »).
+
+**Non touché, à reprendre** : série `working-in-*` (30 guides, rangs de niveau de vie « of the 533 communes » et
+rangs emploi « of the 363 communes above 20,000 » — le second demande `lib/employment-market`) ; guides `retiring-
+in-*` / `moving-*` qui écrivent « among the gentlest / close to the highest of our 540 towns » (à vérifier ville par
+ville) ; `best-french-cities-house-with-garden` (« 507 towns with a published house median », liste à rejouer) ;
+Metz : aucun rang chiffré touché. Les éditions datées du palmarès (« nos 540 villes ») restent en l'état : ce sont
+des mesures datées.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `search-index:check`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**À ajouter au § 3.4 dès le prochain lot** : après tout ajout, refaire ce contrôle sur les séries qui citent un
+rang ou une médiane du corpus (`grep -nE "of (the )?5[0-9]{2} (cities|communes)|median across" data/guides-en.ts`).
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
