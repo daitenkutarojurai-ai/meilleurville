@@ -48271,6 +48271,274 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["villefranche-de-rouergue", "rodez", "albi", "cahors"],
     tags: ["things to do in villefranche-de-rouergue", "villefranche-de-rouergue", "travel", "city guide", "occitanie"],
   },
+  {
+    slug: "things-to-do-in-saint-cloud-2026",
+    title: "Things to do in Saint-Cloud: a national estate park, a burnt château and a view of Paris",
+    metaTitle: "Things to Do in Saint-Cloud 2026",
+    metaDesc:
+      "A national estate park designed by Le Nôtre, the Grande Cascade and the ruins of a château burnt in 1870, west of Paris.",
+    category: "city-guide",
+    emoji: "🌳",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Saint-Cloud had 29,859 residents at the 2022 census, against 29,194 in 2011. The town is named after Saint Clodoald, a grandson of Clovis, and it draws visitors for one reason: a national estate whose château no longer exists. What remains is a large seventeenth-century park, half an hour from Paris. This guide says what you see and which sights belong to neighbouring towns.",
+    sections: [
+      {
+        heading: "The national estate park",
+        body: "The park is the real reason to come. It is around 460 hectares according to the sources consulted, was laid out by Le Nôtre, has been a listed historic monument since 1900 and carries the Jardin remarquable label. The Centre des monuments nationaux runs it, and it spreads over neighbouring communes, so not all of it is in Saint-Cloud.",
+      },
+      {
+        heading: "The Grande Cascade",
+        body: "The centrepiece of the gardens is a stepped cascade running down to the basins. It does not flow all the time: the water is switched on at set dates. Check the estate's calendar before making the trip for it.",
+      },
+      {
+        heading: "The ruins of the château",
+        body: "The château burnt on 13 October 1870, during the siege of Paris, and was never rebuilt. The ruins were cleared in the early 1890s, with sources differing by a year. What is left is terraces, staircases and foundations, so do not look for a building.",
+      },
+      {
+        heading: "The coup of 18 Brumaire",
+        body: "It was at Saint-Cloud, in November 1799, that Bonaparte forced the dissolution of the Council of Five Hundred, which tipped the Directory out of power. The site no longer exists as it was, but the town museum tells the story.",
+      },
+      {
+        heading: "The Avelines museum and the view",
+        body: "The municipal museum, in a nineteenth-century house, documents the history of the town, the estate and local ceramics. It is small, so allow an hour, and opening hours vary: check with the town hall. From the top of the park the view takes in the Seine, the Bois de Boulogne and the towers of Paris. In clear weather the Eiffel Tower is visible, which you check by eye rather than from a postcard.",
+      },
+      {
+        heading: "The Seine, and what lies next door",
+        body: "The town runs down to the Seine, with quays and a bridge to Boulogne-Billancourt. The bridge district is the liveliest, and the rest is residential. The Bureau international des poids et mesures, born of the 1875 Metre Convention, sits in the Pavillon de Breteuil, reached from Saint-Cloud but on the Sèvres side. It is a working metrology laboratory, not a museum, and it does not open freely. The Cité de la céramique is in Sèvres, and the Ville-d'Avray ponds that Corot painted are nearby. None of these are in Saint-Cloud.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Saint-Cloud is served by suburban trains from the west of Paris and by tram line T2, with stops close to the park. Check connections with the operator. The park takes half a day, more with the museum and Sèvres. Versailles and Boulogne-Billancourt have their own guides.",
+      },
+    ],
+    relatedCities: ["saint-cloud", "sevres", "boulogne-billancourt", "versailles"],
+    tags: ["things to do in saint-cloud", "saint-cloud", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-sevres-2026",
+    title: "Things to do in Sèvres: the porcelain town and the home of the metre",
+    metaTitle: "Things to Do in Sèvres 2026",
+    metaDesc:
+      "The Cité de la céramique, a porcelain manufacture still at work and the Pavillon de Breteuil, just southwest of Paris.",
+    category: "city-guide",
+    emoji: "🏺",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Sèvres had 22,782 residents at the 2022 census, against 23,278 in 2011: a slight decline. Its name is that of a porcelain, and the manufacture is still here. This guide says what you can visit, what is closed, and what is in fact in the neighbouring Saint-Cloud estate.",
+    sections: [
+      {
+        heading: "The Cité de la céramique",
+        body: "Since January 2010 it has brought together the national manufacture and the national ceramics museum, on Place de la Manufacture. It is the town's main address and justifies the trip by itself. The museum claims one of the largest ceramics collections in the world.",
+      },
+      {
+        heading: "The national ceramics museum",
+        body: "The collection was built by Alexandre Brongniart, who ran the manufacture in the early nineteenth century. Sources differ on the date the museum was founded, so this guide does not give one. You see Sèvres porcelain, but also earthenware, stoneware and pieces from Asia and the Near East.",
+      },
+      {
+        heading: "The manufacture at work",
+        body: "The manufacture still makes porcelain. It has been in Sèvres since the eighteenth century, after a start at Vincennes. The workshops are not always open to the public, and visits are booked through the Cité de la céramique. It also sells its pieces on site at the prices of an art production. This guide quotes none, so compare with independent makers before buying.",
+      },
+      {
+        heading: "The Pavillon de Breteuil and the metre",
+        body: "The Bureau international des poids et mesures, born of the 1875 Metre Convention, sits in the Pavillon de Breteuil, in the Saint-Cloud park but on the Sèvres side. It keeps the international standards. It is not a museum and it does not open freely. A part of the Saint-Cloud estate also touches Sèvres, giving access to wide avenues, but the basins and the cascade are further on, in Saint-Cloud, so look at the estate map before setting out.",
+      },
+      {
+        heading: "The Seine and the metro",
+        body: "Sèvres runs along the Seine and faces the Île Seguin, which belongs to Boulogne-Billancourt. The riverside walk is quiet, on foot or by bike. For a visitor the Sèvres bridge matters mostly for its station on metro line 9, which puts the town within reach of central Paris.",
+      },
+      {
+        heading: "Around: Meudon and Ville-d'Avray",
+        body: "The neighbouring forests of Meudon and Fausses-Reposes offer open-air walks, and the Ville-d'Avray ponds that Corot painted are a short distance away. These sites belong to other communes.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Sèvres is reached by metro and tram from Paris, so check routes and times with the operator. The museum takes two to three hours, the town with the park half a day. Saint-Cloud and Boulogne-Billancourt have their own guides.",
+      },
+    ],
+    relatedCities: ["sevres", "saint-cloud", "boulogne-billancourt", "versailles"],
+    tags: ["things to do in sevres", "sevres", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-maisons-laffitte-2026",
+    title: "Things to do in Maisons-Laffitte: a classical château and racehorse country",
+    metaTitle: "Things to Do in Maisons-Laffitte 2026",
+    metaDesc:
+      "A château attributed to Mansart, a racecourse and villas laid out by the banker Laffitte, a short RER ride from Paris.",
+    category: "city-guide",
+    emoji: "🏇",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Maisons-Laffitte had 22,855 residents at the 2022 census, against 23,125 in 2011. It is known for two things: a seventeenth-century château attributed to François Mansart, and racehorses. This guide says what you visit and what you look at from the street.",
+    sections: [
+      {
+        heading: "The château de Maisons",
+        body: "Built in the seventeenth century for René de Longueil, it is attributed to François Mansart on the strength of period accounts, without documentation closing every gap. It now belongs to the state and the Centre des monuments nationaux runs it. It is a reference point of French classical architecture, worth seeing from outside and in.",
+      },
+      {
+        heading: "Inside, and Voltaire",
+        body: "The grand staircase and the reception rooms are the most quoted parts of the visit. Room openings vary with seasons and works, so check before coming. Voltaire stayed here in 1723 with the président de Maisons and caught smallpox, from which he recovered. It is a well-known episode but not signposted everywhere, so take it as an anecdote of literary history.",
+      },
+      {
+        heading: "Laffitte and the park estate",
+        body: "The banker Jacques Laffitte bought the estate and divided it into plots, which explains the town plan: avenues in a park, villas and tall trees. He also had Mansart's great stables pulled down, which sources date to the early 1830s. The villas are of varied styles and most are private property, to be viewed from the street, without opening a gate or photographing residents.",
+      },
+      {
+        heading: "The racecourse and the training centre",
+        body: "Sources describe the racecourse as the largest in the Île-de-France. It holds race meetings, so check the calendar with the operator, since you can attend only on certain days. Maisons-Laffitte is also one of the main racehorse training centres in France. You meet horses in town, but the gallops are a place of work, so do not enter without permission.",
+      },
+      {
+        heading: "The Seine",
+        body: "The Seine borders the commune, with a walk along the water and a view of the islands. It is a calm setting, on foot or by bike.",
+      },
+      {
+        heading: "Around: Saint-Germain-en-Laye and Poissy",
+        body: "Saint-Germain-en-Laye, with its château and archaeology museum, and Poissy, with the Villa Savoye, are neighbouring towns covered by other guides in this series. Those sites are not in Maisons-Laffitte.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Maisons-Laffitte is reached on RER line A from Paris, so check times with the operator. RER A is the express suburban line crossing Paris from east to west. Half a day covers the château and the town, a full day adds a race meeting.",
+      },
+    ],
+    relatedCities: ["maisons-laffitte", "saint-germain-en-laye", "poissy", "versailles"],
+    tags: ["things to do in maisons-laffitte", "maisons-laffitte", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-abbeville-2026",
+    title: "Things to do in Abbeville: a rebuilt town on the Somme and the gateway to the bay",
+    metaTitle: "Things to Do in Abbeville 2026",
+    metaDesc:
+      "The Saint-Vulfran collegiate church, a town rebuilt after 1940 and the Bay of Somme close by, in northern France.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Abbeville had 22,406 residents at the 2022 census, against 24,104 in 2011: the town is losing people. It was badly hit in May 1940, and much of what you see is rebuilt. This guide says what you can visit, what has been redone, and what in fact lies in the neighbouring Bay of Somme.",
+    sections: [
+      {
+        heading: "The Saint-Vulfran collegiate church",
+        body: "Building began in 1488, in flamboyant Gothic, and the north-facing façade is the best-known part, with its lacy decoration and two towers. A collegiate church is a church served by a college of canons, which explains the scale. The building was badly hit by the bombing of May 1940 and has been restored since, though this guide does not detail the works.",
+      },
+      {
+        heading: "A rebuilt town",
+        body: "Much of the centre was destroyed in May 1940, so look at the façades with that in mind: Abbeville is not an intact medieval town, and many central buildings are postwar reconstruction. The belfry, a civic tower rather than a church tower, was almost entirely destroyed in 1940, and sources say restoration finished only in the 1980s. What you can visit there is best checked with the tourist office.",
+      },
+      {
+        heading: "Boucher de Perthes",
+        body: "Jacques Boucher de Perthes, born in 1788 and died in 1868, is regarded as a forerunner of prehistory for his work on the flint tools of the Somme valley. A museum bears his name, and its address and opening times are to be checked with the tourist office.",
+      },
+      {
+        heading: "Cloth, a chevalier and a treaty",
+        body: "The cloth maker Josse van Robais settled in Abbeville in the seventeenth century with Colbert's backing and set up a manufacture of fine cloth. The château de Bagatelle is one of its witnesses, but access is limited, so ask first. The chevalier de La Barre was executed here in 1766 for impiety, after a trial that became famous in the history of justice and that Voltaire cited. The place itself is not a monument to look for. A treaty of 1259 was also signed here between Louis IX of France and Henry III of England. It has no monument, but it makes the town a marker of Franco-English history.",
+      },
+      {
+        heading: "The Somme",
+        body: "Abbeville lies at the head of the Somme estuary, which you can follow on towpaths. The walk is on foot or by bike, and this guide quotes no distance.",
+      },
+      {
+        heading: "The Bay of Somme: reached from Abbeville",
+        body: "The bay is a short distance away, but it belongs to neighbouring communes such as Saint-Valery-sur-Somme and Le Crotoy. The tide comes in fast: check tide times before walking on the bay.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Abbeville is reached from Amiens by road or train, so check times with the operator. Half a day covers the collegiate church and the centre, a day adds the Bay of Somme. Amiens, Dieppe and Péronne have their own guides.",
+      },
+    ],
+    relatedCities: ["abbeville", "amiens", "dieppe", "peronne"],
+    tags: ["things to do in abbeville", "abbeville", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-brioude-2026",
+    title: "Things to do in Brioude: Auvergne's largest Romanesque church on the Allier",
+    metaTitle: "Things to Do in Brioude 2026",
+    metaDesc:
+      "The Saint-Julien basilica, contemporary stained glass, a Compostela stop and the Allier gorges, in Haute-Loire.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Brioude had 6,523 residents at the 2022 census, against 6,637 in 2011. It is a small town of the Haute-Loire on the river Allier, with what is presented as the largest Romanesque church in Auvergne. This guide says what you see in half a day and what belongs to neighbouring communes.",
+    sections: [
+      {
+        heading: "The Saint-Julien basilica",
+        body: "It is presented as the largest Romanesque church in Auvergne. It stands over the tomb of Saint Julian, a Roman soldier martyred in the fourth century, who became the town's patron. Building ran over several centuries, with sources giving differing dates between the eleventh and the fourteenth, so this guide gives none.",
+      },
+      {
+        heading: "Stone and glass",
+        body: "Look for the alternation of coloured stone, red sandstone, limestone and basalt, and the many carved capitals. The apse and ambulatory are landmarks of Romanesque architecture, and the building was on the first list of historic monuments in 1840. The basilica also has contemporary stained glass by Father Kim En Joong, installed in the 2000s. The contrast with Romanesque stone is one of the surprises of the visit.",
+      },
+      {
+        heading: "Canons and pilgrims",
+        body: "A chapter of noble canons shaped the town for about a thousand years, which explains why the basilica sits at the centre and how the streets run around it. Brioude is a stop on the Way of Saint James towards Le Puy-en-Velay and Conques. You meet pilgrims in season, and the basilica's welcome allows for them.",
+      },
+      {
+        heading: "The old centre and the Allier",
+        body: "The streets around the basilica are walked on foot, with old houses, squares and shops. Brioude is listed among the Plus Beaux Détours de France, a tourist distinction and not a heritage protection. The Allier is a free-flowing river with an irregular regime. You can walk along it, but keep away in flood and swimming is not advised.",
+      },
+      {
+        heading: "The Allier gorges and Chavaniac-Lafayette",
+        body: "The gorges lie upstream and downstream of the town, in neighbouring communes. You reach them by car or on signposted paths, checking the weather before setting out. The château de Chavaniac, where the Marquis de La Fayette was born, is in the Haute-Loire but not in Brioude. It is a separate outing by car, to plan as an extra half day.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Brioude is reached by road from Clermont-Ferrand or Le Puy-en-Velay, and train times are to be checked. Half a day covers the basilica and the centre, a day adds the gorges. Le Puy-en-Velay and Clermont-Ferrand have their own guides.",
+      },
+    ],
+    relatedCities: ["brioude", "le-puy-en-velay", "clermont-ferrand", "issoire"],
+    tags: ["things to do in brioude", "brioude", "travel", "city guide", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "things-to-do-in-issoire-2026",
+    title: "Things to do in Issoire: a Romanesque abbey church and the gateway to the Sancy",
+    metaTitle: "Things to Do in Issoire 2026",
+    metaDesc:
+      "The Saint-Austremoine abbey church, the Clock Tower and the Allier valley, in the Puy-de-Dôme.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro:
+      "Issoire had 15,078 residents at the 2022 census, against 14,170 in 2011: the town is growing. It is the southern gateway of the Puy-de-Dôme and has one of the five great Romanesque churches of Auvergne. This guide says what you see and what belongs to neighbouring communes.",
+    sections: [
+      {
+        heading: "The Saint-Austremoine abbey church",
+        body: "The church was consecrated around 1130 according to the sources consulted. It is one of the five great Romanesque churches of Auvergne, with Notre-Dame-du-Port in Clermont-Ferrand, Saint-Nectaire, Orcival and this one. It is the first visit in town. The chevet, with its radiating chapels, is the most remarkable side and is seen from outside by walking round the church.",
+      },
+      {
+        heading: "Painted walls and the crypt",
+        body: "The walls of the choir and apse are covered in paintings. They date from the nineteenth century, which is worth knowing before looking for Romanesque work in them. The decorative effect is strong and deliberate. The crypt holds a thirteenth-century reliquary in Limoges enamel according to the guides consulted. It is not always open, so ask the tourist office.",
+      },
+      {
+        heading: "The Clock Tower and the old centre",
+        body: "Raised around 1480 on the consuls' initiative, the tower served as a belfry and lookout. The present façade comes from a nineteenth-century restoration. It now houses a cultural space, and access to the viewpoint is to be checked. The streets around the church mix old houses and shops, and the ring boulevard follows the line of the old ramparts, which shows on the town plan.",
+      },
+      {
+        heading: "Industry, seen from a distance",
+        body: "Issoire is an industrial town, with a major aluminium plant for aerospace. It is a production site and does not open freely, but it explains the town's population growth. The Allier passes east of the town. The banks can be walked or cycled with the usual caution on the river: floods are possible and swimming is not advised.",
+      },
+      {
+        heading: "Around: Saint-Nectaire, Parentignat and the Sancy",
+        body: "Saint-Nectaire and its Romanesque church, the château de Parentignat and the Sancy massif are in the surrounding area. They belong to neighbouring communes, not to Issoire. Mountain roads should be checked in winter.",
+      },
+      {
+        heading: "When to come, and how to get here",
+        body: "Issoire is reached from Clermont-Ferrand by road and by train, so check times with the operator. Half a day covers the abbey church and the centre, a day adds the surroundings. Clermont-Ferrand and Riom have their own guides.",
+      },
+    ],
+    relatedCities: ["issoire", "clermont-ferrand", "brioude", "riom"],
+    tags: ["things to do in issoire", "issoire", "travel", "city guide", "auvergne-rhone-alpes"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

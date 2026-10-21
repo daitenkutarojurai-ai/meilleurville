@@ -9035,18 +9035,48 @@
       "slug": "things-to-do-in-villefranche-de-rouergue-2026",
       "title": "Things to do in Villefranche-de-Rouergue: a 1252 bastide with an arcaded square",
       "emoji": "🏘️"
+    },
+    {
+      "slug": "things-to-do-in-saint-cloud-2026",
+      "title": "Things to do in Saint-Cloud: a national estate park, a burnt château and a view of Paris",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "things-to-do-in-sevres-2026",
+      "title": "Things to do in Sèvres: the porcelain town and the home of the metre",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "things-to-do-in-maisons-laffitte-2026",
+      "title": "Things to do in Maisons-Laffitte: a classical château and racehorse country",
+      "emoji": "🏇"
+    },
+    {
+      "slug": "things-to-do-in-abbeville-2026",
+      "title": "Things to do in Abbeville: a rebuilt town on the Somme and the gateway to the bay",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-brioude-2026",
+      "title": "Things to do in Brioude: Auvergne's largest Romanesque church on the Allier",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-issoire-2026",
+      "title": "Things to do in Issoire: a Romanesque abbey church and the gateway to the Sancy",
+      "emoji": "⛪"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 313
+      "count": 319
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 307
+      "count": 313
     },
     {
       "slug": "moving-to-france",
@@ -9066,7 +9096,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 73
+      "count": 75
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -9094,19 +9124,19 @@
       "count": 62
     },
     {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 59
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 61
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 58
+      "count": 59
     },
     {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 58
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 59
     },
     {
       "slug": "single-supplement",
