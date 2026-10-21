@@ -2530,3 +2530,38 @@ propre, `npm run integrity`, `hreflang:check`, `sitemap:check` verts. `npm run b
 après, et relire les villes nommées des thèmes dont la tête a changé.
 
 **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-21 — aucun lot : trois classements propriétaires affichaient des comptes du corpus des 540, deux contredisaient leur liste
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le quatrième run du 20/10 hors `[scheduled-agent]` est vide. Rien ne passe la règle actuelle : aucune
+ville ajoutée.
+
+*Livrable* : suite du balayage des « 540 » rendus, cette fois dans `lib/owner-rankings.ts` et sa jumelle EN
+(`app/[locale]/niche-rankings/[slug]/page.tsx`), que les balayages précédents n'avaient pas relus. Mesuré en exécutant
+`rankByOwnerScore` sur les 593 villes :
+
+| Classement | Prose avant | Mesuré sur 593 |
+|---|---|---|
+| `qualite-air` / `air-quality` (meta + méthodologie) | 157 classées, 383 écartées | **171 / 422** — la page annonçait 157 villes au-dessus d'une liste tirée de 171 |
+| `lien-social` / `social-connection` | 226 classées, 314 écartées | **259 / 334** |
+| `calme-sonore` / `quietest` | 9 valeurs distinctes sur 540, premier palier 170 | 9 sur **593**, premier palier 170 (aucune ville d'extension dans le palier haut) |
+
+**Correctif** : nouveau `OWNER_SCORE_STATS` (`lib/owner-rankings.ts`), calculé au chargement avec le **même filtre**
+que `rankByOwnerScore` (repli `estimation-regionale` écarté) ; les six chaînes FR/EN l'interpolent et suivront tout
+lot futur. Aucun composant client n'importe ce module. Les nombres de départements couverts (19, 25) décrivent les
+tables et ne bougent pas.
+
+Remesurés à la main (littéraux, prose non dérivable) : fiche expat **Israël** (`lib/expat-return.ts`) — « T3 médian
+de 930 € sur les 540 villes », « dépasse 537 de ces 540 loyers » → **950 € sur 593**, **590 de ces 593** (les trois
+villes au-dessus de 2 115 € sont toujours Paris, Saint-Tropez, Neuilly-sur-Seine) ; commentaire de
+`/villes/[slug]/bruit` (44 sur 540 → **49 sur 593**, mesure datée) ; méthodologie du red flag de prix
+(`lib/red-flag-themes.ts`) « pour les 540 villes » → « pour toutes les villes du site ».
+Laissés en l'état : les « 540 » qui datent une mesure (corrélations biodiversité −0,77, parcs, vibe, CityProfile
+zones protégées depuis le 26/08), comme aux runs précédents.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).

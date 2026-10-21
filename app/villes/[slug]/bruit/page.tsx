@@ -170,7 +170,7 @@ export default async function BruitPage({ params }: Props) {
 
         {/* Le revers du couloir aérien, dit seulement là où il existe : la
             condition est le niveau de la dimension aérienne elle-même, pas un
-            seuil inventé — 44 villes sur 540 sortent du niveau « faible ». Le
+            seuil inventé — 49 villes sur 593 sortent du niveau « faible » (mesure du 2026-10-21). Le
             profil renvoyé porte l'avertissement symétrique : son barème ne
             pondère pas le bruit des avions et il renvoie au PEB, qui est le
             document opposable. */}

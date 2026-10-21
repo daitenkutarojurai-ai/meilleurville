@@ -5,7 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { ownerRankingHead, rankByOwnerScore } from "@/lib/owner-rankings";
+import { OWNER_SCORE_STATS, ownerRankingHead, rankByOwnerScore } from "@/lib/owner-rankings";
 import { ownerScoreColor, type OwnerScoreKey } from "@/lib/owner-scores";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
@@ -14,6 +14,11 @@ export const revalidate = false;
 export const dynamicParams = false;
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
+// Counts in the methodology prose are measured at load (same filter as the
+// ranking), so they follow any seed extension.
+const SB = OWNER_SCORE_STATS.bruit;
+const SS = OWNER_SCORE_STATS.solitude;
+const SA = OWNER_SCORE_STATS.air;
 
 interface EnNicheRanking {
   enSlug: string;
@@ -34,11 +39,11 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     label: "Best air quality",
     metaTitle: "French cities with the best air quality 2026",
     metaDescription:
-      "French cities ranked on annual average PM2.5 per department (ATMO France 2023), across the 157 cities the source covers. Atlantic and coastal cities lead.",
+      `French cities ranked on annual average PM2.5 per department (ATMO France 2023), across the ${SA.pool} cities the source covers. Atlantic and coastal cities lead.`,
     intro:
       "Air quality varies enormously across France. Atlantic and coastal cities benefit from clean westerly airflow; valley cities — particularly Grenoble and the Arve valley — suffer from winter thermal inversions that trap particulates. Score inversely correlated with PM2.5 (lower PM2.5 = higher score). The figure is departmental, not municipal: two cities in the same department carry the same number.",
     methodology:
-      "Score = 9.5 − (PM2.5 µg/m³ − 5) × 0.5. WHO 2021 threshold: >5 µg/m³ already harmful. Source: ATMO France 2023 departmental averages, covering 19 departments — 157 cities are ranked, the other 383 carry a national fallback identical for all of them and are left out rather than sorted on a constant. Future: commune-level data.",
+      `Score = 9.5 − (PM2.5 µg/m³ − 5) × 0.5. WHO 2021 threshold: >5 µg/m³ already harmful. Source: ATMO France 2023 departmental averages, covering 19 departments — ${SA.pool} cities are ranked, the other ${SA.excluded} carry a national fallback identical for all of them and are left out rather than sorted on a constant. Future: commune-level data.`,
   },
   {
     enSlug: "quietest",
@@ -51,7 +56,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     intro:
       "Noise pollution is one of the most underrated factors in quality of life. This score combines city population and a penalty for Île-de-France cities (where Bruitparif data confirms Lden ≥60 dB). Smaller provincial cities tend to win. What it is not: no acoustic measurement goes into it — city size is the only input.",
     methodology:
-      "Score = 9.6 − population penalty (0.8 pt above 60,000 residents, 1.7 above 150,000, 2.8 above 300,000; +0.2 below 20,000) − 1.2 pt in Île-de-France. With city size as its only input it produces just 9 distinct values across 540 cities: the top band alone holds 170 tied cities, and this ranking separates none of them. To be replaced by Bruitparif (IDF) + Cerema Strategic Noise Maps when available.",
+      `Score = 9.6 − population penalty (0.8 pt above 60,000 residents, 1.7 above 150,000, 2.8 above 300,000; +0.2 below 20,000) − 1.2 pt in Île-de-France. With city size as its only input it produces just ${SB.distinct} distinct values across ${SB.total} cities: the top band alone holds ${SB.topTier} tied cities, and this ranking separates none of them. To be replaced by Bruitparif (IDF) + Cerema Strategic Noise Maps when available.`,
   },
   {
     enSlug: "safest-for-women",
@@ -129,7 +134,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     intro:
       "Loneliness is a hidden cost of city life. This score inverts the % of single-person households by department — where that share is low, the social fabric tends to be denser. Small and medium cities, and university towns with active student life, tend to score best. Paris and dense inner-city areas are at the bottom.",
     methodology:
-      "Score = 8.5 − (% single-person households in the department − 30) × 0.25, + 0.8 bonus below 30,000 residents. Source: INSEE census 2020, covering 25 departments — 226 cities are ranked, the other 314 carry a national fallback identical for all of them and are left out rather than sorted at a tie.",
+      `Score = 8.5 − (% single-person households in the department − 30) × 0.25, + 0.8 bonus below 30,000 residents. Source: INSEE census 2020, covering 25 departments — ${SS.pool} cities are ranked, the other ${SS.excluded} carry a national fallback identical for all of them and are left out rather than sorted at a tie.`,
   },
   {
     enSlug: "young-professionals",

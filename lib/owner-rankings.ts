@@ -41,6 +41,55 @@ export interface OwnerRankingDef {
   methodology: string;
 }
 
+/**
+ * Comptes cités dans la prose des méthodologies, mesurés au chargement avec le
+ * même filtre que `rankByOwnerScore` : la prose suit tout ajout de villes au
+ * seed au lieu de décrire le corpus des 540 d'origine (elle annonçait 157 villes
+ * classées en qualité de l'air quand la liste en portait 171).
+ */
+export interface OwnerScoreStats {
+  /** Villes du seed. */
+  total: number;
+  /** Villes au barème (valeur propre). */
+  pool: number;
+  /** Villes à repli national constant, écartées. */
+  excluded: number;
+  /** Valeurs distinctes au barème. */
+  distinct: number;
+  /** Taille du premier palier (meilleure note). */
+  topTier: number;
+}
+
+function ownerScoreStats(scoreKey: OwnerScoreKey): OwnerScoreStats {
+  const counts = new Map<number, number>();
+  let excluded = 0;
+  for (const city of CITIES_SEED) {
+    const target = computeOwnerScores(city).find((s) => s.key === scoreKey);
+    if (!target || target.kind === "estimation-regionale") {
+      excluded += 1;
+      continue;
+    }
+    counts.set(target.value, (counts.get(target.value) ?? 0) + 1);
+  }
+  const best = Math.max(...counts.keys());
+  return {
+    total: CITIES_SEED.length,
+    pool: CITIES_SEED.length - excluded,
+    excluded,
+    distinct: counts.size,
+    topTier: counts.get(best) ?? 0,
+  };
+}
+
+export const OWNER_SCORE_STATS = {
+  bruit: ownerScoreStats("score_bruit"),
+  solitude: ownerScoreStats("score_solitude"),
+  air: ownerScoreStats("score_qualite_air"),
+};
+const SB = OWNER_SCORE_STATS.bruit;
+const SS = OWNER_SCORE_STATS.solitude;
+const SA = OWNER_SCORE_STATS.air;
+
 export const OWNER_RANKINGS: OwnerRankingDef[] = [
   {
     slug: "canicule-resistance",
@@ -60,7 +109,7 @@ export const OWNER_RANKINGS: OwnerRankingDef[] = [
     metaTitle: "Villes françaises les moins bruyantes 2026 — Classement",
     metaDescription: "Villes françaises les moins bruyantes : score calme sonore 0-10 dérivé de la taille de la commune et de la zone dense IDF (proxy Bruitparif).",
     intro: "Villes les moins bruyantes selon la combinaison taille de population + zone dense. Les communes IDF subissent une pénalité (Lden ≥ 60 dB(A) documenté). Attention à ce que ce score n'est pas : aucune mesure acoustique n'entre dedans, il ne connaît que le nombre d'habitants.",
-    methodology: "Score = 9,6 − pénalité de population (0,8 pt au-dessus de 60 000 habitants, 1,7 au-dessus de 150 000, 2,8 au-dessus de 300 000 ; +0,2 sous 20 000) − 1,2 pt en Île-de-France. N'ayant que la taille de la commune pour entrée, il ne produit que 9 valeurs distinctes sur 540 villes : le premier palier compte à lui seul 170 communes ex æquo, et ce classement n'en départage aucune. À remplacer par Bruitparif (IDF) + Cartes de Bruit Stratégiques Cerema.",
+    methodology: `Score = 9,6 − pénalité de population (0,8 pt au-dessus de 60 000 habitants, 1,7 au-dessus de 150 000, 2,8 au-dessus de 300 000 ; +0,2 sous 20 000) − 1,2 pt en Île-de-France. N'ayant que la taille de la commune pour entrée, il ne produit que ${SB.distinct} valeurs distinctes sur ${SB.total} villes : le premier palier compte à lui seul ${SB.topTier} communes ex æquo, et ce classement n'en départage aucune. À remplacer par Bruitparif (IDF) + Cartes de Bruit Stratégiques Cerema.`,
   },
   {
     slug: "lien-social",
@@ -70,7 +119,7 @@ export const OWNER_RANKINGS: OwnerRankingDef[] = [
     metaTitle: "Villes françaises où on est le moins seul 2026 — Classement",
     metaDescription: "Classement 2026 des villes françaises où la solitude est moindre. Score lien-social dérivé du % ménages 1 personne par département (Insee recensement 2020).",
     intro: "Villes où la part des ménages monoparentaux et célibataires reste basse — typiquement villes petites ou moyennes, plus communautaires. À l'inverse, Paris et les hyper-centres sont en bas.",
-    methodology: "Score = 8,5 − (% ménages 1 personne du département − 30) × 0,25, + bonus 0,8 si < 30 000 hab. Source : Insee recensement 2020. La table couvre 25 départements : 226 villes sont classées, les 314 autres portent un repli national identique pour toutes et sont écartées du barème plutôt que triées à égalité.",
+    methodology: `Score = 8,5 − (% ménages 1 personne du département − 30) × 0,25, + bonus 0,8 si < 30 000 hab. Source : Insee recensement 2020. La table couvre 25 départements : ${SS.pool} villes sont classées, les ${SS.excluded} autres portent un repli national identique pour toutes et sont écartées du barème plutôt que triées à égalité.`,
   },
   {
     slug: "securite-nocturne",
@@ -108,9 +157,9 @@ export const OWNER_RANKINGS: OwnerRankingDef[] = [
     emoji: "🍃",
     label: "Qualité de l'air",
     metaTitle: "Villes avec la meilleure qualité de l'air en France 2026",
-    metaDescription: "Villes françaises au meilleur air : score dérivé du PM2.5 moyen annuel du département (ATMO France 2023), sur les 157 villes couvertes.",
+    metaDescription: `Villes françaises au meilleur air : score dérivé du PM2.5 moyen annuel du département (ATMO France 2023), sur les ${SA.pool} villes couvertes.`,
     intro: "Score inversé vs la moyenne PM2.5 du département. Les villes côtières et atlantiques dominent — Grenoble et la vallée de l'Arve restent en bas (inversion d'hiver). La valeur est départementale, pas communale : deux villes d'un même département portent le même chiffre.",
-    methodology: "Score = 9,5 − (PM2.5 µg/m³ − 5) × 0,5. Seuil OMS 2021 : > 5 µg/m³ déjà nocif. Source : ATMO France 2023. La table de PM2.5 couvre 19 départements : 157 villes sont classées, les 383 autres portent un repli national identique pour toutes et sont écartées du barème — les trier reviendrait à trier une constante. À préciser par commune.",
+    methodology: `Score = 9,5 − (PM2.5 µg/m³ − 5) × 0,5. Seuil OMS 2021 : > 5 µg/m³ déjà nocif. Source : ATMO France 2023. La table de PM2.5 couvre 19 départements : ${SA.pool} villes sont classées, les ${SA.excluded} autres portent un repli national identique pour toutes et sont écartées du barème — les trier reviendrait à trier une constante. À préciser par commune.`,
   },
   {
     slug: "securite-femme-seule",
