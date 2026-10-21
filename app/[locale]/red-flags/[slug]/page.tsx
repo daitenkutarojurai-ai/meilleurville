@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import React from "react";
+import type { CSSProperties } from "react";
 import {
-  AlertTriangle, ShieldAlert, Flame, Droplets, Wind, Mountain, Home, Users, Bus, GraduationCap,
+  ArrowLeft, ArrowRight, ShieldAlert, Flame, Droplets, Wind, Mountain, Home, Users, Bus, GraduationCap,
 } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -26,12 +27,22 @@ export function generateStaticParams() {
 
 type Level = "critique" | "eleve" | "modere" | "mesure" | "faible";
 
-const LEVEL_META: Record<Level, { label: string; tone: string; ring: string; bg: string; weight: number }> = {
-  critique: { label: "Critical", tone: "text-red-600",     ring: "border-red-500/40",     bg: "bg-red-500/10",     weight: 4 },
-  eleve:    { label: "High",     tone: "text-orange-600",  ring: "border-orange-500/40",  bg: "bg-orange-500/10",  weight: 3 },
-  modere:   { label: "Moderate", tone: "text-amber-600",   ring: "border-amber-500/40",   bg: "bg-amber-400/10",   weight: 2 },
-  mesure:   { label: "Low-moderate", tone: "text-yellow-600", ring: "border-yellow-500/40", bg: "bg-yellow-400/10", weight: 1 },
-  faible:   { label: "Low",      tone: "text-emerald-600", ring: "border-emerald-500/40", bg: "bg-emerald-500/10", weight: 0 },
+// Hues encode a RISK LEVEL (5-step scale), never decoration — kept on the
+// « Carte & plaque » sheet. `chip` is 700 on 100 to hold AA at 10-11 px.
+// Same palette as the FR twin app/red-flags/[slug]/page.tsx.
+const LEVEL_META: Record<Level, { label: string; tone: string; chip: string; swatch: string; weight: number }> = {
+  critique: { label: "Critical",     tone: "text-red-700",     chip: "text-red-700 bg-red-100 border-red-300",            swatch: "bg-red-500 border-red-700",         weight: 4 },
+  eleve:    { label: "High",         tone: "text-orange-700",  chip: "text-orange-700 bg-orange-100 border-orange-300",   swatch: "bg-orange-500 border-orange-700",   weight: 3 },
+  modere:   { label: "Moderate",     tone: "text-amber-700",   chip: "text-amber-700 bg-amber-100 border-amber-300",      swatch: "bg-amber-400 border-amber-600",     weight: 2 },
+  mesure:   { label: "Low-moderate", tone: "text-yellow-700",  chip: "text-yellow-800 bg-yellow-100 border-yellow-300",   swatch: "bg-yellow-300 border-yellow-600",   weight: 1 },
+  faible:   { label: "Low",          tone: "text-emerald-700", chip: "text-emerald-700 bg-emerald-50 border-emerald-300", swatch: "bg-emerald-400 border-emerald-600", weight: 0 },
+};
+
+// Brick hatched legend symbol — same pattern as the R1-R6 categories of the
+// /red-flags hub and ContributionStats.
+const HATCH: CSSProperties = {
+  backgroundImage:
+    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
 };
 
 interface Flag {
@@ -281,10 +292,10 @@ function computeFlags(c: City): Flag[] {
 function vigilance(flags: Flag[]): { score: number; label: string; tone: string } {
   const sum = flags.reduce((acc, f) => acc + LEVEL_META[f.level].weight, 0);
   const ratio = sum / 36;
-  if (ratio >= 0.45) return { score: sum, label: "High vigilance", tone: "text-red-600" };
-  if (ratio >= 0.28) return { score: sum, label: "Moderate vigilance", tone: "text-orange-600" };
-  if (ratio >= 0.14) return { score: sum, label: "Low-moderate vigilance", tone: "text-amber-600" };
-  return { score: sum, label: "Low vigilance", tone: "text-emerald-600" };
+  if (ratio >= 0.45) return { score: sum, label: "High vigilance", tone: "text-red-700" };
+  if (ratio >= 0.28) return { score: sum, label: "Moderate vigilance", tone: "text-orange-700" };
+  if (ratio >= 0.14) return { score: sum, label: "Low-moderate vigilance", tone: "text-amber-700" };
+  return { score: sum, label: "Low vigilance", tone: "text-emerald-700" };
 }
 
 function similarRiskCities(city: City, flags: Flag[], all: readonly City[], n = 4): City[] {
@@ -356,98 +367,118 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
   };
 
   return (
-    <main id="main-content" className="min-h-screen">
+    <main id="main-content" className="min-h-screen relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navbar />
 
-      <section className="pt-20 pb-8">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
-            <Link href="/red-flags" className="hover:text-[var(--text-secondary)]">Red Flags</Link>
-            <span>/</span>
-            <span className="text-[var(--text-secondary)]">{city.name}</span>
-          </nav>
-          <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-sm text-red-500">
-            <AlertTriangle className="h-3.5 w-3.5" />
-            Red Flag Report — 2026 Data
-          </div>
-          <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.05]">
-            Red flags for{" "}
-            <span className="text-[var(--accent)]">{city.name}</span>
-          </h1>
-          <p className="text-[var(--text-secondary)] text-lg max-w-2xl leading-relaxed">
-            What the property listing never tells you: nine risk categories cross-referenced
-            with public databases (Géorisques, SSMSI, ATMO, BRGM, Insee, Météo-France).
-            {city.department && <> Department: {city.department}.</>}
-          </p>
-          <ReportCTA variant="inline" locale="en" className="mt-5" kinds={["red-flag", "erreur"]} cityName={city.name} />
-        </div>
-      </section>
-
-      <section className="pb-10">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <div>
-              <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">
-                Composite vigilance index
-              </div>
-              <div className={`text-3xl font-black font-mono-data ${v.tone}`}>{v.label}</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                {significant.length} significant flag{significant.length !== 1 ? "s" : ""} across 9 categories.
-              </div>
+      {/* Header — veiled topo paper, same grammar as the hub and theme sheets. */}
+      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
+        <div className="bg-[var(--bg-canvas)]/80 pt-20 pb-10">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <div className="mb-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
+              <Link
+                href="/red-flags"
+                className="inline-flex items-center gap-1.5 border-b border-[var(--accent-pink)]/40 pb-1 text-[var(--accent-pink)] hover:border-[var(--accent-pink)]"
+              >
+                <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
+                Red Flags
+              </Link>
+              <span className="text-[var(--text-tertiary)]">City report · 2026 data</span>
             </div>
-            <div className="flex items-center gap-2">
-              {ordered.map((f) => (
-                <span
-                  key={f.id}
-                  className={`h-3 w-3 rounded-sm border ${LEVEL_META[f.level].ring} ${LEVEL_META[f.level].bg}`}
-                  title={`${f.label} — ${LEVEL_META[f.level].label}`}
-                />
-              ))}
-            </div>
+            <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.15]">
+              Red flags for <span className="plaque max-w-full">{city.name}</span>
+            </h1>
+            <p className="text-[var(--text-secondary)] text-base sm:text-lg max-w-2xl leading-relaxed">
+              What the property listing never tells you: nine risk categories cross-referenced
+              with public databases (Géorisques, SSMSI, ATMO, BRGM, Insee, Météo-France).
+              {city.department && <> Department: {city.department}.</>}
+            </p>
+            <ReportCTA variant="inline" locale="en" className="mt-5" kinds={["red-flag", "erreur"]} cityName={city.name} />
           </div>
         </div>
       </section>
 
-      <section className="pb-10">
+      {/* Vigilance index — map cartouche, level strip as a legend. */}
+      <section className="relative pt-10 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-5">
+          <div className="rounded-md border border-[var(--text-primary)]/25 bg-[var(--bg-surface)] p-1">
+            <div className="flex flex-col gap-5 border border-[var(--border)] p-5 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <div className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                  Composite vigilance index
+                </div>
+                <div className={`text-3xl font-black font-mono-data ${v.tone}`}>{v.label}</div>
+                <div className="text-xs text-[var(--text-secondary)] mt-1">
+                  {significant.length} significant flag{significant.length !== 1 ? "s" : ""} across 9 categories.
+                </div>
+              </div>
+              <ol className="flex items-end gap-1.5" aria-label="Level of each category, most to least exposed">
+                {ordered.map((f, i) => (
+                  <li key={f.id} className="flex flex-col items-center gap-1" title={`${f.label} — ${LEVEL_META[f.level].label}`}>
+                    <span className={`block h-4 w-4 rounded-[2px] border ${LEVEL_META[f.level].swatch}`} aria-hidden="true" />
+                    <span className="font-mono-data text-[9px] text-[var(--text-tertiary)]" aria-hidden="true">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <span className="sr-only">{f.label}: {LEVEL_META[f.level].label}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Flags — ruled legend sheet, brick hatched symbols. */}
+      <section className="relative pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
             Flags by category
           </h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {ordered.map((f) => {
+          <p className="text-xs text-[var(--text-tertiary)] mb-4">
+            Sorted from most to least exposed. The badge gives the level; the numbers match
+            the strip above.
+          </p>
+          <div className="grid gap-px overflow-hidden rounded-md border border-[var(--border)] bg-[var(--border)] sm:grid-cols-2">
+            {ordered.map((f, i) => {
               const meta = LEVEL_META[f.level];
               const Icon = f.icon;
               return (
                 <article
                   key={f.id}
-                  className={`rounded-2xl border ${meta.ring} ${meta.bg} p-5`}
+                  className={`flex items-start gap-3 bg-[var(--bg-surface)] p-5 ${i === ordered.length - 1 && ordered.length % 2 === 1 ? "sm:col-span-2" : ""}`}
                 >
-                  <div className="flex items-start gap-3 mb-3">
-                    <div className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl border ${meta.ring} bg-[var(--bg-canvas)]/60`}>
-                      <Icon className={`h-5 w-5 ${meta.tone}`} />
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-baseline gap-2 flex-wrap">
-                        <h3 className="text-base font-bold text-[var(--text-primary)]">{f.label}</h3>
-                        <span className={`text-[11px] uppercase tracking-widest font-semibold ${meta.tone}`}>
-                          {meta.label}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-3">
-                    {f.summary}
-                  </p>
-                  <a
-                    href={f.source.url}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className="inline-flex items-center gap-1.5 text-xs text-[var(--text-tertiary)] hover:text-[var(--accent)] transition-colors"
+                  <span
+                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
+                    style={HATCH}
+                    aria-hidden="true"
                   >
-                    Source: {f.source.name}
-                    <span aria-hidden>↗</span>
-                  </a>
+                    <Icon className="h-4 w-4" strokeWidth={2} />
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <div className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-1">
+                      <span className="font-mono-data text-[10px] font-semibold tracking-wider text-[var(--text-tertiary)]">
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <h3 className="text-base font-bold text-[var(--text-primary)]">{f.label}</h3>
+                      <span
+                        className={`ml-auto inline-flex items-center rounded-sm border px-2 py-0.5 font-mono-data text-[10px] font-bold uppercase tracking-widest ${meta.chip}`}
+                      >
+                        {meta.label}
+                      </span>
+                    </div>
+                    <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-3">
+                      {f.summary}
+                    </p>
+                    <a
+                      href={f.source.url}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="block border-t border-dashed border-[var(--border)] pt-2 text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+                    >
+                      Source: {f.source.name}{" "}
+                      <span aria-hidden>↗</span>
+                    </a>
+                  </div>
                 </article>
               );
             })}
@@ -455,30 +486,34 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="pb-10">
+      {/* Method — map footnote, dashed frame. */}
+      <section className="relative pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">How to read this report</h2>
+          <div className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-canvas)] p-6">
+            <h2 className="mb-3 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-secondary)]">
+              How to read this report
+            </h2>
             <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
               <li>
-                <strong className="text-[var(--text-primary)]">Public sources only</strong> — each flag cites a reference database (Géorisques for natural hazards, SSMSI for crime, ATMO France for air, BRGM for seismics, Insee for tourism pressure, DEPP for schools, Cerema for mobility).
+                <strong className="text-[var(--text-primary)]">Public sources only</strong>{" "}— each flag cites a reference database (Géorisques for natural hazards, SSMSI for crime, ATMO France for air, BRGM for seismics, Insee for tourism pressure, DEPP for schools, Cerema for mobility).
               </li>
               <li>
-                <strong className="text-[var(--text-primary)]">Flag ≠ verdict</strong> — a &ldquo;High&rdquo; risk means the category warrants plot-level verification (flood risk plan, daily ATMO index, zoning). Not every neighbourhood is equally exposed.
+                <strong className="text-[var(--text-primary)]">Flag ≠ verdict</strong>{" "}— a &ldquo;High&rdquo; risk means the category warrants plot-level verification (flood risk plan, daily ATMO index, zoning). Not every neighbourhood is equally exposed.
               </li>
               <li>
-                <strong className="text-[var(--text-primary)]">Géorisques before signing</strong> — for any purchase, the legally mandatory Environmental Risk Statement (ERP) appended to the deed summarises known hazards for the exact address.
+                <strong className="text-[var(--text-primary)]">Géorisques before signing</strong>{" "}— for any purchase, the legally mandatory Environmental Risk Statement (ERP) appended to the deed summarises known hazards for the exact address.
               </li>
               <li>
-                <strong className="text-[var(--text-primary)]">Last updated</strong> — 2026 synthesis based on the most recent published data. For regulatory zoning (PPRI, PPRL, seismic plan), Géorisques is the authoritative source.
+                <strong className="text-[var(--text-primary)]">Last updated</strong>{" "}— 2026 synthesis based on the most recent published data. For regulatory zoning (PPRI, PPRL, seismic plan), Géorisques is the authoritative source.
               </li>
             </ul>
           </div>
         </div>
       </section>
 
+      {/* Similar profiles — sheet tiles, brick hover. */}
       {similar.length > 0 && (
-        <section className="pb-10">
+        <section className="relative pb-10">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
               Similar risk profiles in {city.region ?? "France"}
@@ -488,14 +523,14 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
                 <Link
                   key={c.slug}
                   href={`/red-flags/${c.slug}`}
-                  className="group rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-red-500/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
+                  className="group flex flex-col gap-1.5 rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors px-4 py-3"
                 >
-                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-red-500 transition-colors truncate">
-                    {c.name}
-                  </div>
-                  <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5 truncate">
+                  <span className="truncate border-b border-dashed border-[var(--border)] pb-1.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.14em] text-[var(--accent-pink)]">
                     {c.department ?? c.region}
-                  </div>
+                  </span>
+                  <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors truncate">
+                    {c.name}
+                  </span>
                 </Link>
               ))}
             </div>
@@ -503,33 +538,27 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
         </section>
       )}
 
-      <section className="pb-16">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 flex gap-3 flex-wrap">
-          <Link
-            href={`/cities/${slug}`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            ← Full profile of {city.name}
-          </Link>
-          <Link
-            href={`/cities/${slug}/climate`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            Climate & seasons
-          </Link>
-          <Link
-            href="/red-flags"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            All red-flag reports
-          </Link>
-          <Link
-            href="/rankings/securite"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            Safety ranking
-          </Link>
-        </div>
+      {/* Onward links — sheet-foot links, brick underline. */}
+      <section className="relative pb-16">
+        <nav aria-label="Further reading" className="mx-auto max-w-5xl px-4 sm:px-6">
+          <ul className="flex flex-wrap gap-x-6 gap-y-3 border-t border-dashed border-[var(--border)] pt-5 text-sm">
+            {[
+              { href: `/cities/${slug}`, label: `Full profile of ${city.name}` },
+              { href: `/cities/${slug}/climate`, label: "Climate & seasons" },
+              { href: "/red-flags", label: "All red-flag reports" },
+              { href: "/rankings/securite", label: "Safety ranking" },
+            ].map((l) => (
+              <li key={l.href}>
+                <Link
+                  href={l.href}
+                  className="inline-flex items-center gap-1 font-semibold text-[var(--accent)] underline decoration-[var(--accent-pink)]/50 underline-offset-4 hover:decoration-[var(--accent-pink)]"
+                >
+                  {l.label} <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </section>
 
       <Footer />

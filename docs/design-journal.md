@@ -559,3 +559,31 @@ Captures `next dev` + Playwright (headless_shell 1194) `/red-flags/saint-laurent
 1. Jumelle EN des fiches ville (`app/[locale]/cities/[slug]/red-flags` ou équivalent) — à localiser et aligner.
 2. Section commentaires (`CommentSection`) — erreur en `red-50`, cartes arrondies : à inspecter.
 3. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.
+
+## 2026-10-21 ~23:00 UTC — jumelle EN des fiches red-flag par ville `app/[locale]/red-flags/[slug]/page.tsx` (540 pages EN)
+
+**Surface** : « Red flags for [city] » sur bestcitiesinfrance.com, aligné sur le gabarit FR livré à 16:00.
+
+**Changé**
+- En-tête : fin du fil d'Ariane gris et du badge arrondi rouge `AlertTriangle` → papier `.topo-bg`
+  voilé, lien retour mono brique + « City report · 2026 data », **nom de ville sur `.plaque`**.
+- Indice de vigilance : cartouche à double filet, sur-titre mono brique, bande des 9 niveaux en
+  `<ol>` légendée (01-09 + libellé `sr-only`).
+- Drapeaux : fin des cartes `rounded-2xl` teintées → planche à filets `gap-px`, symboles lucide
+  hachurés brique, repère mono, pastille de niveau angles nets ; 9ᵉ case sur deux colonnes.
+- Teintes de niveau conservées (elles encodent le risque), passées en 700 sur 100 comme le FR —
+  verdict de vigilance compris (était en 600, sous l'AA).
+- Méthode en note pointillée, profils proches en vignettes (département mono brique), renvois en
+  liens soulignés brique au lieu des pilules `rounded-xl`.
+- Non touché : calcul des drapeaux, copie, JSON-LD, métadonnées.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + playwright-core (headless_shell 1194, installé dans le scratchpad — playwright
+n'est pas dans `node_modules`) `/en/red-flags/saint-laurent-du-maroni` à 1440 et 390 px,
+`scrollWidth` = viewport. `npm run build` non lancé. ⚠️ Arrêter `next dev` par `pkill -f`/`pgrep -f`
+sur un motif présent dans la commande elle-même tue le shell (exit 144) : viser le PID du port.
+
+**Prochaines surfaces candidates**
+1. Section commentaires (`CommentSection`) — erreur en `red-50`, cartes arrondies : à inspecter.
+2. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.
+3. `FeedbackWidget` (sur toutes les sous-pages ville) — à inspecter.
