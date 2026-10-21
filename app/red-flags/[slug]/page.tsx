@@ -2,14 +2,14 @@ import { Metadata } from "next";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
-import { AlertTriangle, ShieldAlert, Flame, Droplets, Wind, Mountain, Home, Users, Bus, GraduationCap } from "lucide-react";
+import { ArrowLeft, ArrowRight, ShieldAlert, Flame, Droplets, Wind, Mountain, Home, Users, Bus, GraduationCap } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
 import { ReportCTA } from "@/components/ReportCTA";
+import type { CSSProperties } from "react";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -25,12 +25,22 @@ export function generateStaticParams() {
 
 type Level = "critique" | "eleve" | "modere" | "mesure" | "faible";
 
-const LEVEL_META: Record<Level, { label: string; tone: string; ring: string; bg: string; weight: number }> = {
-  critique: { label: "Critique",  tone: "text-red-600",     ring: "border-red-500/40",     bg: "bg-red-500/10",     weight: 4 },
-  eleve:    { label: "Élevé",     tone: "text-orange-600",  ring: "border-orange-500/40",  bg: "bg-orange-500/10",  weight: 3 },
-  modere:   { label: "Modéré",    tone: "text-amber-600",   ring: "border-amber-500/40",   bg: "bg-amber-400/10",   weight: 2 },
-  mesure:   { label: "Mesuré",    tone: "text-yellow-600",  ring: "border-yellow-500/40",  bg: "bg-yellow-400/10",  weight: 1 },
-  faible:   { label: "Faible",    tone: "text-emerald-600", ring: "border-emerald-500/40", bg: "bg-emerald-500/10", weight: 0 },
+// Les teintes encodent un NIVEAU de risque (échelle à 5 crans), jamais une
+// décoration — d'où leur maintien dans la fiche « Carte & plaque ». `chip`
+// porte du 700 sur 100 pour tenir l'AA en 10-11 px.
+const LEVEL_META: Record<Level, { label: string; tone: string; chip: string; swatch: string; weight: number }> = {
+  critique: { label: "Critique", tone: "text-red-700",     chip: "text-red-700 bg-red-100 border-red-300",            swatch: "bg-red-500 border-red-700",         weight: 4 },
+  eleve:    { label: "Élevé",    tone: "text-orange-700",  chip: "text-orange-700 bg-orange-100 border-orange-300",   swatch: "bg-orange-500 border-orange-700",   weight: 3 },
+  modere:   { label: "Modéré",   tone: "text-amber-700",   chip: "text-amber-700 bg-amber-100 border-amber-300",      swatch: "bg-amber-400 border-amber-600",     weight: 2 },
+  mesure:   { label: "Mesuré",   tone: "text-yellow-700",  chip: "text-yellow-800 bg-yellow-100 border-yellow-300",   swatch: "bg-yellow-300 border-yellow-600",   weight: 1 },
+  faible:   { label: "Faible",   tone: "text-emerald-700", chip: "text-emerald-700 bg-emerald-50 border-emerald-300", swatch: "bg-emerald-400 border-emerald-600", weight: 0 },
+};
+
+// Symbole de légende hachuré brique — même trame que les catégories R1-R6 du
+// hub /red-flags et de ContributionStats.
+const HATCH: CSSProperties = {
+  backgroundImage:
+    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
 };
 
 interface Flag {
@@ -281,10 +291,10 @@ function vigilance(flags: Flag[]): { score: number; label: string; tone: string 
   const sum = flags.reduce((acc, f) => acc + LEVEL_META[f.level].weight, 0);
   // 9 flags × max 4 = 36
   const ratio = sum / 36;
-  if (ratio >= 0.45) return { score: sum, label: "Vigilance élevée", tone: "text-red-600" };
-  if (ratio >= 0.28) return { score: sum, label: "Vigilance modérée", tone: "text-orange-600" };
-  if (ratio >= 0.14) return { score: sum, label: "Vigilance mesurée", tone: "text-amber-600" };
-  return { score: sum, label: "Vigilance faible", tone: "text-emerald-600" };
+  if (ratio >= 0.45) return { score: sum, label: "Vigilance élevée", tone: "text-red-700" };
+  if (ratio >= 0.28) return { score: sum, label: "Vigilance modérée", tone: "text-orange-700" };
+  if (ratio >= 0.14) return { score: sum, label: "Vigilance mesurée", tone: "text-amber-700" };
+  return { score: sum, label: "Vigilance faible", tone: "text-emerald-700" };
 }
 
 function similarRiskCities(city: City, flags: Flag[], all: readonly City[], n = 4): City[] {
@@ -376,103 +386,119 @@ export default async function CityRedFlagsPage({ params }: Props) {
 
   return (
     <main id="main-content" className="min-h-screen relative">
-      <AmbientBackground />
       <Navbar />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(crumb)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(articleJsonLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(itemListJsonLd)} />
 
-      {/* Hero */}
-      <section className="relative pt-20 pb-8">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
-            <Link href="/red-flags" className="hover:text-[var(--text-secondary)]">Red Flags</Link>
-            <span>/</span>
-            <span className="text-[var(--text-secondary)]">{city.name}</span>
-          </nav>
-          <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-sm text-red-500">
-            <AlertTriangle className="h-3.5 w-3.5" />
-            Fiche Red Flag — Données 2026
-          </div>
-          <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.05]">
-            Red Flags de{" "}
-            <span className="font-display gradient-text-anim italic">{city.name}</span>
-          </h1>
-          <p className="text-[var(--text-secondary)] text-lg max-w-2xl leading-relaxed">
-            Ce que l&apos;annonce immobilière ne dit jamais : neuf catégories de risques croisés
-            avec les bases publiques (Géorisques, SSMSI, ATMO, BRGM, Insee, Météo-France).
-            {city.department && <> Département : {city.department}.</>}
-          </p>
-          <ReportCTA variant="inline" className="mt-5" kinds={["red-flag", "erreur"]} cityName={city.name} />
-        </div>
-      </section>
-
-      {/* Vigilance gauge */}
-      <section className="relative pb-10">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="rounded-2xl glass border border-white/50 p-6 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <div>
-              <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">
-                Indice de vigilance composite
-              </div>
-              <div className={`text-3xl font-black font-mono-data ${v.tone}`}>{v.label}</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                {significant.length} drapeau{significant.length > 1 ? "x" : ""} significatif{significant.length > 1 ? "s" : ""} sur 9 catégories.
-              </div>
+      {/* En-tête — papier topo voilé, même grammaire que le hub et les feuilles thème. */}
+      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
+        <div className="bg-[var(--bg-canvas)]/80 pt-20 pb-10">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <div className="mb-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
+              <Link
+                href="/red-flags"
+                className="inline-flex items-center gap-1.5 border-b border-[var(--accent-pink)]/40 pb-1 text-[var(--accent-pink)] hover:border-[var(--accent-pink)]"
+              >
+                <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
+                Red Flags
+              </Link>
+              <span className="text-[var(--text-tertiary)]">Fiche ville · Données 2026</span>
             </div>
-            <div className="flex items-center gap-2">
-              {ordered.map((f) => (
-                <span
-                  key={f.id}
-                  className={`h-3 w-3 rounded-sm border ${LEVEL_META[f.level].ring} ${LEVEL_META[f.level].bg}`}
-                  title={`${f.label} — ${LEVEL_META[f.level].label}`}
-                />
-              ))}
-            </div>
+            <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.15]">
+              Red Flags de <span className="plaque max-w-full">{city.name}</span>
+            </h1>
+            <p className="text-[var(--text-secondary)] text-base sm:text-lg max-w-2xl leading-relaxed">
+              Ce que l&apos;annonce immobilière ne dit jamais : neuf catégories de risques croisés
+              avec les bases publiques (Géorisques, SSMSI, ATMO, BRGM, Insee, Météo-France).
+              {city.department && <> Département : {city.department}.</>}
+            </p>
+            <ReportCTA variant="inline" className="mt-5" kinds={["red-flag", "erreur"]} cityName={city.name} />
           </div>
         </div>
       </section>
 
-      {/* Flags grid */}
+      {/* Indice de vigilance — cartouche de carte, bande de niveaux en légende. */}
+      <section className="relative pt-10 pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="rounded-md border border-[var(--text-primary)]/25 bg-[var(--bg-surface)] p-1">
+            <div className="flex flex-col gap-5 border border-[var(--border)] p-5 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <div className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                  Indice de vigilance composite
+                </div>
+                <div className={`text-3xl font-black font-mono-data ${v.tone}`}>{v.label}</div>
+                <div className="text-xs text-[var(--text-secondary)] mt-1">
+                  {significant.length} drapeau{significant.length > 1 ? "x" : ""} significatif{significant.length > 1 ? "s" : ""} sur 9 catégories.
+                </div>
+              </div>
+              <ol className="flex items-end gap-1.5" aria-label="Niveau de chaque catégorie, du plus au moins exposé">
+                {ordered.map((f, i) => (
+                  <li key={f.id} className="flex flex-col items-center gap-1" title={`${f.label} — ${LEVEL_META[f.level].label}`}>
+                    <span className={`block h-4 w-4 rounded-[2px] border ${LEVEL_META[f.level].swatch}`} aria-hidden="true" />
+                    <span className="font-mono-data text-[9px] text-[var(--text-tertiary)]" aria-hidden="true">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <span className="sr-only">{f.label} : {LEVEL_META[f.level].label}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Drapeaux — planche de légende à filets, symboles hachurés brique. */}
       <section className="relative pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-5">
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
             Drapeaux par catégorie
           </h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {ordered.map((f) => {
+          <p className="text-xs text-[var(--text-tertiary)] mb-4">
+            Classés du niveau le plus exposé au moins exposé. La pastille donne le niveau ;
+            les numéros reprennent ceux de la bande ci-dessus.
+          </p>
+          <div className="grid gap-px overflow-hidden rounded-md border border-[var(--border)] bg-[var(--border)] sm:grid-cols-2">
+            {ordered.map((f, i) => {
               const meta = LEVEL_META[f.level];
               const Icon = f.icon;
               return (
                 <article
                   key={f.id}
-                  className={`rounded-2xl border ${meta.ring} ${meta.bg} p-5 backdrop-blur-sm`}
+                  className={`flex items-start gap-3 bg-[var(--bg-surface)] p-5 ${i === ordered.length - 1 && ordered.length % 2 === 1 ? "sm:col-span-2" : ""}`}
                 >
-                  <div className="flex items-start gap-3 mb-3">
-                    <div className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl border ${meta.ring} bg-[var(--bg-canvas)]/60`}>
-                      <Icon className={`h-5 w-5 ${meta.tone}`} />
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-baseline gap-2 flex-wrap">
-                        <h3 className="text-base font-bold text-[var(--text-primary)]">{f.label}</h3>
-                        <span className={`text-[11px] uppercase tracking-widest font-semibold ${meta.tone}`}>
-                          {meta.label}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-3">
-                    {f.summary}
-                  </p>
-                  <a
-                    href={f.source.url}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className="inline-flex items-center gap-1.5 text-xs text-[var(--text-tertiary)] hover:text-[var(--accent)] transition-colors"
+                  <span
+                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
+                    style={HATCH}
+                    aria-hidden="true"
                   >
-                    Source : {f.source.name}
-                    <span aria-hidden>↗</span>
-                  </a>
+                    <Icon className="h-4 w-4" strokeWidth={2} />
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <div className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-1">
+                      <span className="font-mono-data text-[10px] font-semibold tracking-wider text-[var(--text-tertiary)]">
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <h3 className="text-base font-bold text-[var(--text-primary)]">{f.label}</h3>
+                      <span
+                        className={`ml-auto inline-flex items-center rounded-sm border px-2 py-0.5 font-mono-data text-[10px] font-bold uppercase tracking-widest ${meta.chip}`}
+                      >
+                        {meta.label}
+                      </span>
+                    </div>
+                    <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-3">
+                      {f.summary}
+                    </p>
+                    <a
+                      href={f.source.url}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="block border-t border-dashed border-[var(--border)] pt-2 text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+                    >
+                      Source : {f.source.name}{" "}
+                      <span aria-hidden>↗</span>
+                    </a>
+                  </div>
                 </article>
               );
             })}
@@ -489,55 +515,53 @@ export default async function CityRedFlagsPage({ params }: Props) {
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <Link
               href="/red-flags/villes-belles-invivables-ete"
-              className="block rounded-2xl border border-red-200/60 bg-red-50/40 p-5 hover:border-red-300 hover:bg-red-50/60 transition-colors"
+              className="group block rounded-md border border-[var(--border)] border-l-4 border-l-[var(--accent-pink)] bg-[var(--bg-surface)] p-5 hover:border-[var(--accent-pink)] transition-colors"
             >
-              <div className="flex items-start gap-3">
-                <span className="text-2xl flex-shrink-0" aria-hidden>🥵</span>
-                <div>
-                  <div className="text-xs uppercase tracking-widest text-red-700 font-semibold mb-1">
-                    Classement thématique
-                  </div>
-                  <p className="font-semibold text-[var(--text-primary)]">
-                    {city.name} figure parmi les villes belles… mais invivables l&apos;été
-                  </p>
-                  <p className="text-xs text-[var(--text-secondary)] mt-1 leading-relaxed">
-                    Le drapeau canicule ci-dessus regarde la ville seule ; le
-                    classement France croise cadre de vie annuel (≥ 6,5/10) et
-                    score canicule (≤ 5/10) pour isoler les villes séduisantes
-                    sur la plaquette mais étouffantes en juillet-août —
-                    tourisme saturé et climatisation absente en prime.
-                  </p>
-                </div>
+              <div className="mb-1 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                Classement thématique
               </div>
+              <p className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors">
+                {city.name}{" "}figure parmi les villes belles… mais invivables l&apos;été
+                <ArrowRight className="ml-1.5 inline h-4 w-4 align-[-2px]" aria-hidden="true" />
+              </p>
+              <p className="text-xs text-[var(--text-secondary)] mt-1 leading-relaxed">
+                Le drapeau canicule ci-dessus regarde la ville seule ; le
+                classement France croise cadre de vie annuel (≥ 6,5/10) et
+                score canicule (≤ 5/10) pour isoler les villes séduisantes
+                sur la plaquette mais étouffantes en juillet-août —
+                tourisme saturé et climatisation absente en prime.
+              </p>
             </Link>
           </div>
         </section>
       )}
 
-      {/* Méthode */}
+      {/* Méthode — note de bas de carte, cadre pointillé. */}
       <section className="relative pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">Comment lire cette fiche</h2>
+          <div className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-canvas)] p-6">
+            <h2 className="mb-3 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-secondary)]">
+              Comment lire cette fiche
+            </h2>
             <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
               <li>
-                <strong className="text-[var(--text-primary)]">Sources publiques uniquement</strong> — chaque drapeau cite une base de référence (Géorisques pour les risques naturels, SSMSI pour la délinquance, ATMO France pour l&apos;air, BRGM pour la sismicité, Insee pour la pression touristique, DEPP pour les écoles, Cerema pour la mobilité).
+                <strong className="text-[var(--text-primary)]">Sources publiques uniquement</strong>{" "}— chaque drapeau cite une base de référence (Géorisques pour les risques naturels, SSMSI pour la délinquance, ATMO France pour l&apos;air, BRGM pour la sismicité, Insee pour la pression touristique, DEPP pour les écoles, Cerema pour la mobilité).
               </li>
               <li>
-                <strong className="text-[var(--text-primary)]">Drapeau ≠ verdict</strong> — un risque «&nbsp;élevé&nbsp;» signifie que la catégorie mérite vérification parcelle par parcelle (PPRI, indice quotidien ATMO, zonage). Tous les quartiers ne sont pas exposés à la même intensité.
+                <strong className="text-[var(--text-primary)]">Drapeau ≠ verdict</strong>{" "}— un risque «&nbsp;élevé&nbsp;» signifie que la catégorie mérite vérification parcelle par parcelle (PPRI, indice quotidien ATMO, zonage). Tous les quartiers ne sont pas exposés à la même intensité.
               </li>
               <li>
-                <strong className="text-[var(--text-primary)]">Géorisques avant signature</strong> — pour toute acquisition, l&apos;État de Risques et Pollutions (ERP) joint à l&apos;acte est obligatoire et synthétise les aléas connus sur l&apos;adresse exacte.
+                <strong className="text-[var(--text-primary)]">Géorisques avant signature</strong>{" "}— pour toute acquisition, l&apos;État de Risques et Pollutions (ERP) joint à l&apos;acte est obligatoire et synthétise les aléas connus sur l&apos;adresse exacte.
               </li>
               <li>
-                <strong className="text-[var(--text-primary)]">Mise à jour</strong> — synthèse 2026 sur données les plus récentes publiées. Pour les zonages réglementaires (PPRI, PPRL, plan séisme), seul Géorisques fait foi.
+                <strong className="text-[var(--text-primary)]">Mise à jour</strong>{" "}— synthèse 2026 sur données les plus récentes publiées. Pour les zonages réglementaires (PPRI, PPRL, plan séisme), seul Géorisques fait foi.
               </li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* Similar profile */}
+      {/* Profils proches — vignettes de feuille, survol brique. */}
       {similar.length > 0 && (
         <section className="relative pb-10">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
@@ -549,14 +573,14 @@ export default async function CityRedFlagsPage({ params }: Props) {
                 <Link
                   key={c.slug}
                   href={`/red-flags/${c.slug}`}
-                  className="group rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-red-500/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
+                  className="group flex flex-col gap-1.5 rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors px-4 py-3"
                 >
-                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-red-500 transition-colors truncate">
-                    {c.name}
-                  </div>
-                  <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5 truncate">
+                  <span className="truncate border-b border-dashed border-[var(--border)] pb-1.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.14em] text-[var(--accent-pink)]">
                     {c.department ?? c.region}
-                  </div>
+                  </span>
+                  <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors truncate">
+                    {c.name}
+                  </span>
                 </Link>
               ))}
             </div>
@@ -564,34 +588,27 @@ export default async function CityRedFlagsPage({ params }: Props) {
         </section>
       )}
 
-      {/* Footer nav */}
+      {/* Renvois — liens de bas de feuille, soulignés brique. */}
       <section className="relative pb-16">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 flex gap-3 flex-wrap">
-          <Link
-            href={`/villes/${slug}`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            ← Profil complet de {city.name}
-          </Link>
-          <Link
-            href={`/villes/${slug}/climat`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            Climat & saisonnalité
-          </Link>
-          <Link
-            href="/red-flags"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            Toutes les fiches red-flag
-          </Link>
-          <Link
-            href="/classements/securite"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            Classement sécurité
-          </Link>
-        </div>
+        <nav aria-label="Pour aller plus loin" className="mx-auto max-w-5xl px-4 sm:px-6">
+          <ul className="flex flex-wrap gap-x-6 gap-y-3 border-t border-dashed border-[var(--border)] pt-5 text-sm">
+            {[
+              { href: `/villes/${slug}`, label: `Profil complet de ${city.name}` },
+              { href: `/villes/${slug}/climat`, label: "Climat & saisonnalité" },
+              { href: "/red-flags", label: "Toutes les fiches red-flag" },
+              { href: "/classements/securite", label: "Classement sécurité" },
+            ].map((l) => (
+              <li key={l.href}>
+                <Link
+                  href={l.href}
+                  className="inline-flex items-center gap-1 font-semibold text-[var(--accent)] underline decoration-[var(--accent-pink)]/50 underline-offset-4 hover:decoration-[var(--accent-pink)]"
+                >
+                  {l.label} <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </section>
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">

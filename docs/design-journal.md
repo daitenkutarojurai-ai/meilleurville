@@ -527,3 +527,35 @@ Captures `next dev` + Playwright `/en/red-flags/themes/buyers-remorse` à 1440 e
 1. Fiches red-flag par ville (`/red-flags/<ville>` FR + EN) — à inspecter.
 2. Section commentaires (`CommentSection`) — erreur en `red-50`, cartes arrondies : à inspecter.
 3. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.
+
+## 2026-10-21 ~16:00 UTC — fiches red-flag par ville `app/red-flags/[slug]/page.tsx` (540 pages FR)
+
+**Surface** : la fiche « Red Flags de [ville] », gabarit unique des 540 villes, dans la continuité du
+hub et des feuilles thème.
+
+**Changé**
+- En-tête : fin de l'`AmbientBackground`, du badge arrondi rouge `AlertTriangle` et du nom de ville
+  en `gradient-text-anim` italique → papier `.topo-bg` voilé, lien retour mono brique + repère
+  « Fiche ville · Données 2026 », **nom de ville sur `.plaque`** (nom de lieu, usage prévu).
+- Indice de vigilance : fin du `glass` → cartouche à double filet, sur-titre mono brique ; la bande
+  des 9 carrés de niveau devient une `<ol>` légendée (N° 01-09 + libellé `sr-only`).
+- Drapeaux : fin des 9 cartes teintées `backdrop-blur` → planche à filets `gap-px` dans une fiche,
+  symboles lucide hachurés brique (même trame que R1-R6/C1-C6), repère mono, pastille de niveau
+  angles nets ; la 9ᵉ case prend les deux colonnes (plus de trou). Sources sous filet pointillé.
+- **Les teintes rouge→émeraude encodent le niveau de risque et sont gardées**, passées en 700 sur
+  100 (`chip`) pour tenir l'AA en 10-11 px ; verdict de vigilance en 700.
+- Encart canicule : fin du `red-50` et de l'emoji 🥵 → encart à filet brique gauche + flèche.
+- Méthode en note pointillée, profils proches en vignettes (département mono brique), renvois de bas
+  de page en liens soulignés brique au lieu de pilules.
+- Correctif au passage : SWC avalait l'espace avant « figure parmi » et avant les « — » des
+  `<strong>` de la méthode (« Maronifigure », « uniquement— ») ; espaces explicites `{" "}`.
+- Non touché : calcul des drapeaux, copie, JSON-LD, métadonnées.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur.
+Captures `next dev` + Playwright (headless_shell 1194) `/red-flags/saint-laurent-du-maroni` à 1440 et
+390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Jumelle EN des fiches ville (`app/[locale]/cities/[slug]/red-flags` ou équivalent) — à localiser et aligner.
+2. Section commentaires (`CommentSection`) — erreur en `red-50`, cartes arrondies : à inspecter.
+3. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.
