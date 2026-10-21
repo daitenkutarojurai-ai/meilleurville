@@ -42765,6 +42765,246 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["solo travel","solo travel brive","travelling alone in france","rugby","covered market","nouvelle-aquitaine"],
   },
   {
+    slug: "solo-travel-in-talence-2026",
+    title: "Solo travel in Talence (2026): the student town at the end of tram line B",
+    metaTitle: "Solo Travel in Talence 2026: Tram, Campus, Budget",
+    metaDesc: "Talence alone: 36.5% aged 15 to 29, tram B into Bordeaux, transport 8.1/10. But cost 3.6/10 and a two-room flat at 850 €.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro: "Talence has 45,869 residents and a very large share of people aged 15 to 29: 36.5%, against 17.4% aged 60 or over. It is a campus town stuck to the edge of Bordeaux, and it runs on the university calendar rather than on tourist seasons. Its transport score is 8.1/10 thanks to tram line B. The catch is money: its cost score falls to 3.6/10 and the reference two-room flat is 850 €. Talence is not a destination in itself, it is a base for anyone who wants Bordeaux without paying Bordeaux city-centre prices.",
+    sections: [
+      {
+        heading: "Why Talence: a town that is not on holiday",
+        body: "Our profile gives 5.5/10 overall, 5.9/10 for daily life, 6.6/10 for culture and 7.7/10 for schools, a figure that reflects the university presence. The population has grown by 7.4% since 2016, or 3,157 more residents. With 36.5% aged 15 to 29 the town is very young: you will mostly meet students, which describes an atmosphere and promises nothing. Outside term time activity drops, which is the point to keep in mind for a July or August stay.",
+      },
+      {
+        heading: "Where to stay: central Talence, not Thouars",
+        body: "Our district notes cover two areas. Central Talence, dense, with tram B running straight into Bordeaux, shops and student life, scores 6.5/10 for evenings with a two-room flat at 900 €. Thouars, suburban and family-oriented, drops to 5/10 for evenings at 800 €. The rent gap is 100 € for 1.5 points of evening life: the centre is the right choice for anyone looking for company.",
+      },
+      {
+        heading: "Going out: sleep in Talence, go out in Bordeaux",
+        body: "Evening life in central Talence is scored 6.5/10, decent but not that of a regional capital. The logic is to sleep in Talence and go out in Bordeaux, a few tram stops away. The tags on our profile (university, Bordeaux suburb, tram B) describe exactly that. The bars in the town mostly serve campus students. For an evening that runs late, the tram is the natural way home, and you should check last-service times with the operator.",
+      },
+      {
+        heading: "Getting around without a car: the best point in the file",
+        body: "The transport score is 8.1/10. According to our district notes, tram B links central Talence to Bordeaux with no change. No car is needed for a stay, whether for Bordeaux or for the campus. Journey times and frequencies are not in our data and are best read on the network's own site.",
+      },
+      {
+        heading: "The single supplement: the weak point",
+        body: "With a cost score of 3.6/10 and a two-room flat at 850 €, Talence is expensive for a town of this size (the reference studio is 620 € and the purchase price 4,200 € per square metre). The single-room supplement therefore weighs more than in Valenciennes or Douai, where the two-room flat is around 500 €. If budget is the main constraint, other towns in this series suit better. No hotel rate is quoted here.",
+      },
+      {
+        heading: "When to go: during term time",
+        body: "Our profile records 2,050 hours of sunshine a year and an average of 6.9 °C in January. No finer monthly normals are published for the town. The liveliest season is term time, from autumn to spring, outside university holidays. A stay in midsummer would find a quieter campus, with most of the activity moving into Bordeaux.",
+      },
+    ],
+    relatedCities: ["talence"],
+    tags: ["solo travel","solo travel talence","travelling alone in france","student town","bordeaux tram","nouvelle-aquitaine"],
+  },
+  {
+    slug: "solo-travel-in-valenciennes-2026",
+    title: "Solo travel in Valenciennes (2026): a fine-arts museum, a university and a two-room flat at 490 €",
+    metaTitle: "Solo Travel in Valenciennes 2026: Go Out, Budget",
+    metaDesc: "Valenciennes alone: culture 6.2/10, 26% aged 15 to 29, a two-room flat at 490 €, regional trains to Lille and Brussels.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro: "Valenciennes has 42,979 residents and a balanced profile: 26% aged 15 to 29, 23% aged 60 or over, and a reference two-room flat at 490 €. Its culture score is 6.2/10 and its cost score 6.4/10. The figures that temper this: a population down 1.6% since 2016 and a safety score of 4.3/10 on our profile. It is a university, museum and industrial town, not a beach or party destination, and that is exactly why it is alive in October.",
+    sections: [
+      {
+        heading: "Why Valenciennes: no resort, no season",
+        body: "No month empties the town: its tags (Toyota, automotive, university, Watteau, reconversion, cross-border workers) describe a place of work and study. Our profile gives 5.1/10 overall, 5.1/10 for daily life, 6.1/10 for transport and 6.2/10 for culture. The population is down by 701 residents since 2016, or 1.6%. The age structure, 26% aged 15 to 29 and 23% aged 60 or over, is balanced.",
+      },
+      {
+        heading: "Where to stay: the historic centre",
+        body: "Our district notes cover three areas. The historic centre, built around the fine-arts museum and the university, scores 7/10 for evenings with a two-room flat at 500 €. Anzin, a working-class town next door, drops to 4.5/10 at 450 €. Aulnoy-lez-Valenciennes, suburban, scores 3.5/10 at 470 €. The choice is the centre: 50 € apart from Anzin for 2.5 points of evening life.",
+      },
+      {
+        heading: "Going out: the museum, student bars and Watteau",
+        body: "Evening life in the centre is scored 7/10. The fine-arts museum and the legacy of Watteau, a native of the town, give a cultural starting point; according to the district notes, the student scene keeps the bars and restaurants of the centre busy. Event dates change every year and are not quoted. For a bigger night out, our profile points to the regional train to Lille.",
+      },
+      {
+        heading: "Getting around without a car: regional trains to Lille and Brussels",
+        body: "Our district notes mention regional train access to Lille and Brussels from the centre, and a tram linking Anzin to the centre. The transport score is 6.1/10. The town is explored on foot and by tram; journey times and connections to Lille and Brussels should be checked with the operator, as they are not in our data. A trip to Brussels crosses an internal Schengen border with no checks, but carry photo ID.",
+      },
+      {
+        heading: "The single supplement: a very low cost",
+        body: "With a cost score of 6.4/10 and a two-room flat at 490 € according to our rent estimate, Valenciennes is very affordable: the studio is 360 € and the purchase price 1,600 € per square metre. The single-room supplement weighs little here. The remote-work score is 4.8/10: favour a hotel or guesthouse over a long-term furnished flat. No hotel rate is quoted.",
+      },
+      {
+        heading: "When to go: spring or autumn",
+        body: "Our profile records 1,720 hours of sunshine a year and an average of 3 °C in January: this is a northern town, cool for much of the year. No monthly normals are published here. Autumn and spring combine an active university calendar with bearable temperatures. The safety score of 4.3/10 is best read alongside the district-level detail on our profile.",
+      },
+    ],
+    relatedCities: ["valenciennes"],
+    tags: ["solo travel","solo travel valenciennes","travelling alone in france","fine arts museum","regional train","hauts-de-france"],
+  },
+  {
+    slug: "solo-travel-in-belfort-2026",
+    title: "Solo travel in Belfort (2026): a high-speed station, a lively old quarter and a two-room flat at 520 €",
+    metaTitle: "Solo Travel in Belfort 2026: Go Out, TGV, Budget",
+    metaDesc: "Belfort alone: cost 7.2/10, a TGV station, a centre scoring 7/10 for evenings, a two-room flat at 520 €. A town losing residents.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro: "Belfort has 45,646 residents and a cost score of 7.2/10. Its reference two-room flat is 520 €, its share of 15 to 29 year-olds 24.4% and that of people aged 60 or over 23.3%. The figure that tempers this: the population is down 6.8% since 2016, or 3,327 fewer residents. According to its tags Belfort is a crossroads town, affordable and balanced enough to live in all year, but slowly emptying.",
+    sections: [
+      {
+        heading: "Why Belfort: a crossroads that lives off-season",
+        body: "Its tags (crossroads, industry, affordable, nature, history) describe a town of transit and work rather than leisure. Our profile gives 5.9/10 overall, 5.5/10 for daily life, 6.2/10 for transport, 5.7/10 for nature and 5.7/10 for culture. The 6.8% population decline since 2016 is marked: it is the point to know before booking, and it weighs on the atmosphere.",
+      },
+      {
+        heading: "Where to stay: the centre and the Faubourg de France",
+        body: "Our district notes cover three areas. The Centre and Faubourg de France, around the place d'Armes and close to the TGV station, scores 7/10 for evenings with a two-room flat at 530 €. Les Résidences, to the east, drops to 4.5/10 at 490 €, and Valdoie, on the edge, to 3/10 at 440 €. The choice is the centre: 40 € apart from Les Résidences for 2.5 points of evening life.",
+      },
+      {
+        heading: "Going out: the place d'Armes and a mid-sized-town scene",
+        body: "Evening life in the centre is scored 7/10, with restaurants, shops and cultural life concentrated in this area according to our notes. It is a mid-sized-town scene: you find people without the density of a big city. Festivals and events change every year and are not dated here; the tourist office is the source to consult.",
+      },
+      {
+        heading: "Getting around without a car: the TGV station is the strong point",
+        body: "Our district notes stress the excellent accessibility of the centre thanks to the nearby TGV station (the French high-speed rail network). The transport score is 6.2/10. Destinations and journey times are not in our data: check them with the operator. On the spot the centre is walkable. For the hills around Valdoie, a vehicle or a bus is still needed.",
+      },
+      {
+        heading: "The single supplement: low cost, so a light supplement",
+        body: "At 7.2/10 for cost, 520 € for a two-room flat, 380 € for a studio and 1,550 € per square metre to buy, Belfort is affordable. The single-room supplement weighs little when the room is at this level. The remote-work score is 5.1/10: favour a hotel or guesthouse. No rate is quoted.",
+      },
+      {
+        heading: "When to go: outside the harsh winter",
+        body: "Our profile records 1,750 hours of sunshine a year and an average of 1.5 °C in January, a cold winter. No monthly normals are published. Spring and autumn are more comfortable for going out; in winter the town keeps running, but terraces are no longer an argument.",
+      },
+    ],
+    relatedCities: ["belfort"],
+    tags: ["solo travel","solo travel belfort","travelling alone in france","tgv station","affordable","bourgogne-franche-comte"],
+  },
+  {
+    slug: "solo-travel-in-douai-2026",
+    title: "Solo travel in Douai (2026): a UNESCO belfry, students and a two-room flat at 500 €",
+    metaTitle: "Solo Travel in Douai 2026: Belfry, Go Out, Budget",
+    metaDesc: "Douai alone: culture 6.2/10, a UNESCO belfry, a university, a two-room flat at 500 €, high-speed and regional trains.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro: "Douai has 39,833 residents, a UNESCO-listed belfry (a civic bell tower, not a church one) and a reference two-room flat at 500 €. Its culture score is 6.2/10, its cost score 6.4/10 and its population stable, up 0.4% since 2016. The share of 15 to 29 year-olds is 24.1% and that of people aged 60 or over 23.8%. This is a northern mid-sized town carried by its university and its heritage, with no high season to avoid. Its safety score is 4.7/10 on our profile, best read alongside the district-level detail.",
+    sections: [
+      {
+        heading: "Why Douai: a stable town with no season",
+        body: "Its tags (belfry, Gayant, university, coal, reconversion, historic) describe a town of history and study. Our profile gives 5.4/10 overall, 5.3/10 for daily life, 6.4/10 for transport and 6.2/10 for culture. The population has gained 176 residents since 2016: the town is stable.",
+      },
+      {
+        heading: "Where to stay: the historic centre",
+        body: "Our district notes cover three areas. The historic centre, around the belfry, the Flemish-style houses and the market, scores 7/10 for evenings with a two-room flat at 510 €. The faubourg de Béthune, residential, drops to 5.5/10 at 470 €. Lallaing, suburban, scores 3.5/10 at 440 €. The choice is the centre: 40 € apart from the faubourg for 1.5 points of evening life.",
+      },
+      {
+        heading: "Going out: the belfry, the university and Gayant",
+        body: "The belfry of Douai has been UNESCO-listed since 2005, according to the facts we cross-checked for our things-to-do guide; the university brings, according to the district notes, a notable student energy to the centre. The giant Gayant, a processional figure, is the great character of the summer festivities; its date changes every year and is not quoted here. Evening life in the centre is scored 7/10.",
+      },
+      {
+        heading: "Getting around without a car: high-speed and regional trains to Lille and Paris",
+        body: "Our district notes mention good high-speed (TGV) and regional (TER) train service to Lille and Paris from the centre. The transport score is 6.4/10. Journey times and frequencies are not in our data and should be checked with the operator. On the spot, the centre is visited on foot.",
+      },
+      {
+        heading: "The single supplement: a low cost",
+        body: "At 6.4/10 for cost, 500 € for a two-room flat, 360 € for a studio and 1,600 € per square metre to buy, Douai is very affordable. The single-room supplement weighs little. The remote-work score is 5.3/10: a hotel or guesthouse rather than a furnished flat. No hotel rate is quoted.",
+      },
+      {
+        heading: "When to go: all year, with a summer peak for Gayant",
+        body: "Our profile records 1,730 hours of sunshine a year and an average of 3 °C in January. No monthly normals are published. Douai has no brutal off-season; term time, from autumn to spring, and the summer Gayant festivities are the two moments when the town is liveliest.",
+      },
+    ],
+    relatedCities: ["douai"],
+    tags: ["solo travel","solo travel douai","travelling alone in france","belfry","unesco","hauts-de-france"],
+  },
+  {
+    slug: "solo-travel-in-tarbes-2026",
+    title: "Solo travel in Tarbes (2026): the Pyrenees within reach and a cost score of 7.4/10",
+    metaTitle: "Solo Travel in Tarbes 2026: Pyrenees, Budget",
+    metaDesc: "Tarbes alone: cost 7.4/10, nature 6.4/10, 10.4% more residents since 2016, a two-room flat at 580 €.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro: "Tarbes has 44,529 residents and a cost score of 7.4/10, for a reference two-room flat at 580 €. It has gained 4,211 residents since 2016, or 10.4%, clear growth. Its nature score is 6.4/10 and its profile is that of a gateway town to the Pyrenees that lives all year. The figures that temper this: 28.7% aged 60 or over, a culture score of 4.8/10 and a transport score of 5.2/10. This is the nature-and-budget option, not the all-night option.",
+    sections: [
+      {
+        heading: "Why Tarbes: the Pyrenees without an empty resort",
+        body: "Its tags (Pyrenees, affordable, calm, outdoor sport, underrated) describe a support town: you sleep and live here, the mountains are next door. Our profile gives 6/10 overall, 5.9/10 for daily life, 6.4/10 for nature, 6.2/10 for safety and 4.8/10 for culture. That is the weak point: the cultural scene is modest, and evening life does not rival a big city.",
+      },
+      {
+        heading: "Where to stay: the town centre and the Massey garden",
+        body: "Our district notes cover three areas. The town centre, around the Massey garden and the shops, scores 7/10 for evenings with a two-room flat at 590 €. Bordères-sur-l'Échez, residential, drops to 4/10 at 560 €. Aureilhan, working-class, scores 5/10 at 510 €. The choice is the centre: only 30 € apart from Bordères for three points of evening life.",
+      },
+      {
+        heading: "Going out: a mid-sized-town scene, with the mountains on top",
+        body: "Evening life in the centre is scored 7/10. For anyone looking for company this is a prefecture-town scene, with terraces and shops but no big-city nightlife. The argument lies elsewhere: outdoor activities make it a base for meeting people around hiking rather than around bars. Events change every year and are not dated here.",
+      },
+      {
+        heading: "Getting around without a car: the point to check",
+        body: "The transport score is 5.2/10. Our district notes only detail the good bus connections within the urban area. Rail links and car-free access to the mountains are not in our data: check them with the operators before booking, especially as most Pyrenean outings need a vehicle or dedicated transport.",
+      },
+      {
+        heading: "The single supplement: a low cost",
+        body: "At 7.4/10 for cost, 580 € for a two-room flat, 420 € for a studio and 1,600 € per square metre to buy, Tarbes is very affordable on our score. The single-room supplement weighs little here. The remote-work score is 5.8/10: favour a hotel or guesthouse. No rate is quoted.",
+      },
+      {
+        heading: "When to go: all year, with the mountains in winter or summer",
+        body: "Our profile records 1,950 hours of sunshine a year and an average of 3.5 °C in January. No monthly normals are published. The town works all year, the seasons mostly determining what you do in the nearby Pyrenees. Mountain conditions are checked with official sources.",
+      },
+    ],
+    relatedCities: ["tarbes"],
+    tags: ["solo travel","solo travel tarbes","travelling alone in france","pyrenees","budget","occitanie"],
+  },
+  {
+    slug: "solo-travel-in-agen-2026",
+    title: "Solo travel in Agen (2026): a market, a high-speed station and a two-room flat at 560 €",
+    metaTitle: "Solo Travel in Agen 2026: Market, Station, Budget",
+    metaDesc: "Agen alone: cost 6.4/10, 2,100 hours of sunshine, a covered market, a TGV station, a two-room flat at 560 €.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    intro: "Agen has 32,193 residents, 2,100 hours of sunshine a year and a reference two-room flat at 560 €. Its cost score is 6.4/10, its culture score 5.5/10 and its transport score 4.6/10. The share of 15 to 29 year-olds is 24.3% and that of people aged 60 or over 25.5%. The population is down 4.1% since 2016. It is a mid-sized town in Lot-et-Garonne, between Bordeaux and Toulouse according to its tags, that lives all year without a dense scene.",
+    sections: [
+      {
+        heading: "Why Agen: a town between two big cities",
+        body: "Its tags (between two cities, gastronomy, market, affordable, Garonne) describe a town of passage and local produce. Our profile gives 5.1/10 overall, 5.1/10 for daily life, 5/10 for nature, 5.5/10 for culture and 4.7/10 for safety. The population is down by 1,376 residents since 2016, or 4.1%: to be said before booking.",
+      },
+      {
+        heading: "Where to stay: the town centre",
+        body: "Our district notes cover three areas. The town centre, around the Saint-Caprais cathedral and the covered market, scores 6.5/10 for evenings with a two-room flat at 570 €. Artigat, residential, drops to 4.5/10 at 540 €. Bon-Encontre, suburban, scores 3.5/10 at 510 € and needs a car. The choice is the centre: 30 € apart from Artigat for two points of evening life.",
+      },
+      {
+        heading: "Going out: the market as a meeting point",
+        body: "Evening life in the centre is scored 6.5/10, modest. The town's landmarks are the covered market and the local food. It is a town of counters and terraces, not of nightlife. Events change every year and are not quoted here.",
+      },
+      {
+        heading: "Getting around without a car: the TGV station, but a modest network",
+        body: "Our district notes say the centre is well served by the bus network and by the TGV station (the French high-speed rail network). The transport score of 4.6/10 is low: it weighs on any trip outside the urban area. Rail destinations and journey times are not in our data and should be checked with the operator.",
+      },
+      {
+        heading: "The single supplement: the cost of a mid-sized town",
+        body: "At 6.4/10 for cost, 560 € for a two-room flat, 400 € for a studio and 1,800 € per square metre to buy, Agen is affordable. The single-room supplement weighs little here. The remote-work score of 4.3/10 is low: a hotel or guesthouse is the right formula. No rate is quoted.",
+      },
+      {
+        heading: "When to go: autumn or spring",
+        body: "Our profile records 2,100 hours of sunshine a year and an average of 6.5 °C in January, a mild winter. No monthly normals are published. Spring and autumn suit the market and the terraces; winter stays mild, but the town is then quieter.",
+      },
+    ],
+    relatedCities: ["agen"],
+    tags: ["solo travel","solo travel agen","travelling alone in france","covered market","tgv station","nouvelle-aquitaine"],
+  },
+  {
     slug: "single-parent-in-annemasse-2026",
     title:
       "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",

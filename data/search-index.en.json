@@ -8487,6 +8487,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "solo-travel-in-talence-2026",
+      "title": "Solo travel in Talence (2026): the student town at the end of tram line B",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-valenciennes-2026",
+      "title": "Solo travel in Valenciennes (2026): a fine-arts museum, a university and a two-room flat at 490 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-belfort-2026",
+      "title": "Solo travel in Belfort (2026): a high-speed station, a lively old quarter and a two-room flat at 520 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-douai-2026",
+      "title": "Solo travel in Douai (2026): a UNESCO belfry, students and a two-room flat at 500 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-tarbes-2026",
+      "title": "Solo travel in Tarbes (2026): the Pyrenees within reach and a cost score of 7.4/10",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-agen-2026",
+      "title": "Solo travel in Agen (2026): a market, a high-speed station and a two-room flat at 560 €",
+      "emoji": "🍸"
+    },
+    {
       "slug": "single-parent-in-annemasse-2026",
       "title": "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
       "emoji": "🧑‍🍼"
@@ -9101,12 +9131,22 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 70
+      "count": 72
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 70
+      "count": 71
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 68
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
+      "count": 68
     },
     {
       "slug": "grand-est",
@@ -9114,24 +9154,14 @@
       "count": 67
     },
     {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 62
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
-      "count": 62
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 61
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
       "count": 61
-    },
-    {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 59
     },
     {
       "slug": "relocation",
@@ -9211,7 +9241,7 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "international-students",
@@ -9231,7 +9261,7 @@
     {
       "slug": "budget",
       "label": "budget",
-      "count": 22
+      "count": 23
     },
     {
       "slug": "french-school-system",
@@ -9314,6 +9344,11 @@
       "count": 10
     },
     {
+      "slug": "pyrenees",
+      "label": "pyrenees",
+      "count": 10
+    },
+    {
       "slug": "rural-france",
       "label": "rural france",
       "count": 10
@@ -9326,11 +9361,6 @@
     {
       "slug": "nice",
       "label": "nice",
-      "count": 9
-    },
-    {
-      "slug": "pyrenees",
-      "label": "pyrenees",
       "count": 9
     },
     {
@@ -9577,6 +9607,11 @@
       "slug": "rouen",
       "label": "rouen",
       "count": 4
+    },
+    {
+      "slug": "affordable",
+      "label": "affordable",
+      "count": 3
     },
     {
       "slug": "avignon",
