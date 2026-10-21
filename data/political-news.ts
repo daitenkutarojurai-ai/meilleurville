@@ -46,7 +46,7 @@ export const POLITICAL_NEWS_KIND_LABEL: Record<PoliticalNewsKind, string> = {
   parlement: "Parlement",
 };
 
-export const POLITICAL_NEWS_AS_OF = "2026-10-17";
+export const POLITICAL_NEWS_AS_OF = "2026-10-21";
 
 export const POLITICAL_NEWS: PoliticalNews[] = [
   {
@@ -70,6 +70,17 @@ export const POLITICAL_NEWS: PoliticalNews[] = [
     source: "Public Sénat",
     sourceUrl:
       "https://www.publicsenat.fr/actualites/politique/primaire-de-la-gauche-raphael-glucksmann-plie-le-match-et-remporte-le-scrutin-des-le-premier-tour-avec-66",
+  },
+  {
+    id: "budget-2027-motion-rejet-ps-2026-10-13",
+    date: "2026-10-13",
+    kind: "budget",
+    title: "Budget 2027 : la motion de rejet préalable du groupe socialiste n'est pas adoptée",
+    summary:
+      "L'Assemblée nationale a repoussé le 13 octobre, par 236 voix contre 149, la motion de rejet préalable déposée par les socialistes contre le projet de loi de finances 2027. Les groupes de gauche ont voté pour ; le bloc central, la Droite républicaine, LIOT, le groupe Ciotti et le RN ont voté contre. L'examen de la partie recettes a commencé le soir même.",
+    source: "LCP – Assemblée nationale",
+    sourceUrl:
+      "https://lcp.fr/actualites/la-motion-de-rejet-des-socialistes-n-ayant-pas-ete-adoptee-l-examen-du-budget-2027-aura",
   },
   {
     id: "budget-2027-presente-2026-10-01",
