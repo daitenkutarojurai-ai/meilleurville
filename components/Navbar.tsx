@@ -208,6 +208,13 @@ const BOTTOM_TABS_EN: BottomTab[] = [
 
 const NAV_PRIMARY = IS_EN ? NAV_PRIMARY_EN : NAV_PRIMARY_FR;
 const MENU_GROUPS = IS_EN ? MENU_GROUPS_EN : MENU_GROUPS_FR;
+// One colour panel per mega-menu column (section bands of the « Couleurs » identity).
+const MENU_TINTS = [
+  { panel: "bg-[var(--band-indigo)]", badge: "bg-[#4F46E5]" },
+  { panel: "bg-[var(--band-pink)]", badge: "bg-[#DB2777]" },
+  { panel: "bg-[var(--band-sky)]", badge: "bg-[#2563EB]" },
+  { panel: "bg-[var(--band-aqua)]", badge: "bg-[#0E7490]" },
+] as const;
 const NAV_ALL = IS_EN ? NAV_ALL_EN : NAV_ALL_FR;
 const BOTTOM_TABS = IS_EN ? BOTTOM_TABS_EN : BOTTOM_TABS_FR;
 
@@ -340,11 +347,11 @@ export function Navbar() {
       <nav
         ref={navRef}
         className={cn(
-          "sticky top-0 z-50 transition-[background-color,box-shadow,transform] duration-300",
+          "nav-rule sticky top-0 z-50 transition-[background-color,box-shadow,transform] duration-300",
           navHidden && "max-lg:-translate-y-full",
           scrolled
-            ? "border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/75 backdrop-blur-2xl shadow-[0_8px_32px_-12px_rgba(31,58,42,0.10)]"
-            : "border-b border-transparent bg-[var(--bg-canvas)]/40 backdrop-blur-md"
+            ? "nav-couleurs-scrolled border-b border-[#C7C2F5]/70 backdrop-blur-2xl shadow-[0_8px_32px_-12px_rgba(79,70,229,0.28)]"
+            : "nav-couleurs border-b border-[#C7C2F5]/40 backdrop-blur-md"
         )}
       >
         <div
@@ -358,9 +365,9 @@ export function Navbar() {
             <BrandMark className="h-8 w-8 rounded-[22%] shadow-lg shadow-[var(--accent)]/30 group-hover:shadow-[var(--accent)]/50 transition-shadow" />
             <span className="text-lg font-bold tracking-tight text-[var(--text-primary)]">
               {IS_EN ? (
-                <>Best<span className="text-[var(--accent)]">CitiesInFrance</span></>
+                <>Best<span className="gradient-text">CitiesInFrance</span></>
               ) : (
-                <>MaVille<span className="text-[var(--accent)]">Idéale</span></>
+                <>MaVille<span className="gradient-text">Idéale</span></>
               )}
             </span>
           </Link>
@@ -380,8 +387,8 @@ export function Navbar() {
                     "relative flex shrink-0 items-center rounded-md px-3 py-1.5 text-[13px] font-semibold whitespace-nowrap transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
                     link.xlOnly && "hidden xl:flex",
                     active
-                      ? "text-[var(--accent)] after:absolute after:inset-x-3 after:-bottom-px after:h-[2px] after:rounded-full after:bg-[var(--accent)]"
-                      : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+                      ? "bg-white/70 text-[var(--accent)] shadow-sm after:absolute after:inset-x-3 after:-bottom-px after:h-[3px] after:rounded-full after:[background:linear-gradient(90deg,#4F46E5,#DB2777)]"
+                      : "text-[var(--text-secondary)] hover:bg-white/60 hover:text-[var(--accent)]"
                   )}
                 >
                   {link.label}
@@ -400,7 +407,7 @@ export function Navbar() {
             <SearchTrigger variant="desktop" />
             <AccountButton />
             <Link href="/city-match">
-              <Button size="md" className="plaque gap-1.5 !rounded-md px-3 lg:px-4 border-0 hover:!bg-[var(--accent-hover)]">
+              <Button size="md" className="btn-couleurs gap-1.5 !rounded-full px-3 lg:px-4 border-0">
                 <Heart className="h-4 w-4 fill-current" />
                 <span>City Match</span>
               </Button>
@@ -416,7 +423,7 @@ export function Navbar() {
                 "inline-flex items-center gap-1.5 rounded-md border-2 px-3 py-1.5 text-sm font-semibold transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
                 menuOpen
                   ? "border-[var(--accent)] bg-[var(--accent)] text-white"
-                  : "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--accent)] hover:bg-[var(--accent)] hover:text-white"
+                  : "border-[var(--accent)] bg-white/80 text-[var(--accent)] hover:bg-[var(--accent)] hover:text-white"
               )}
             >
               {menuOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
@@ -432,19 +439,19 @@ export function Navbar() {
           // opacity/pointer-events alone leave them keyboard-focusable.
           inert={!menuOpen || undefined}
           className={cn(
-            "hidden lg:block absolute left-0 right-0 top-full border-b border-[var(--border)]/60 bg-[var(--bg-canvas)] shadow-[0_16px_48px_-8px_rgba(31,58,42,0.20)] transition-[opacity,transform] duration-200 origin-top",
+            "hidden lg:block absolute left-0 right-0 top-full border-b border-[#C7C2F5]/70 bg-[var(--bg-canvas)] shadow-[0_16px_48px_-8px_rgba(79,70,229,0.28)] transition-[opacity,transform] duration-200 origin-top",
             menuOpen
               ? "opacity-100 scale-y-100 pointer-events-auto"
               : "opacity-0 scale-y-95 pointer-events-none"
           )}
         >
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6 grid grid-cols-4 gap-8">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6 grid grid-cols-4 gap-4">
             {MENU_GROUPS.map((group, gi) => (
-              <div key={group.title}>
+              <div key={group.title} className={cn("rounded-2xl p-4", MENU_TINTS[gi % MENU_TINTS.length].panel)}>
                 {/* p, not h4 — nav group labels would otherwise precede the page h1 in the document outline.
-                    Columns carry a map grid reference (A, B, C, D) on a small plaque. */}
-                <p className="mb-3 flex items-center gap-2 border-b border-[var(--border)] pb-2 text-[11px] font-semibold uppercase tracking-wider text-[var(--text-primary)]">
-                  <span aria-hidden className="plaque plaque-small font-mono !text-[10px] leading-none">
+                    Each column sits on its own colour panel, lettered A-D. */}
+                <p className="mb-3 flex items-center gap-2 border-b border-white/70 pb-2 text-[11px] font-semibold uppercase tracking-wider text-[var(--text-primary)]">
+                  <span aria-hidden className={cn("inline-flex h-5 w-5 items-center justify-center rounded-md font-mono text-[10px] font-bold leading-none text-white", MENU_TINTS[gi % MENU_TINTS.length].badge)}>
                     {String.fromCharCode(65 + gi)}
                   </span>
                   {group.title}
@@ -461,8 +468,8 @@ export function Navbar() {
                           className={cn(
                             "flex items-center rounded-sm border-l-2 px-2.5 py-1.5 text-sm font-medium transition-colors",
                             active
-                              ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--accent)]"
-                              : "border-transparent text-[var(--text-secondary)] hover:border-[var(--accent)]/50 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+                              ? "border-[var(--accent)] bg-white text-[var(--accent)]"
+                              : "border-transparent text-[var(--text-secondary)] hover:border-[var(--accent)]/50 hover:bg-white/70 hover:text-[var(--text-primary)]"
                           )}
                         >
                           {label}
@@ -475,15 +482,15 @@ export function Navbar() {
             ))}
           </div>
           {/* Bottom CTA strip */}
-          <div className="border-t border-[var(--border)]/40 bg-[var(--bg-elevated)]/40">
+          <div className="[background:var(--band-bold)]">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 py-3 flex items-center justify-between">
-              <p className="text-xs text-[var(--text-tertiary)]">
+              <p className="text-sm font-medium text-white">
                 {IS_EN
                   ? "Not sure where to start? Try City Match."
                   : "Pas sûr(e) par où commencer ? Essayez City Match."}
               </p>
               <Link href="/city-match" onClick={() => setMenuOpen(false)}>
-                <Button size="sm" className="plaque gap-1.5 !rounded-md border-0 hover:!bg-[var(--accent-hover)]">
+                <Button size="sm" className="gap-1.5 !rounded-full border-0 !bg-white !text-[#4338CA] shadow-md hover:!bg-[#F5F3FF]">
                   <Heart className="h-3.5 w-3.5 fill-current" />
                   {IS_EN ? "Find my city" : "Trouver ma ville"}
                 </Button>
@@ -496,7 +503,7 @@ export function Navbar() {
       {/* ── Mobile / tablet bottom tab bar ───────────────────────── */}
       <nav
         aria-label={IS_EN ? "Primary" : "Navigation principale"}
-        className="lg:hidden fixed inset-x-0 bottom-0 z-50 border-t border-[var(--border)]/70 bg-[var(--bg-canvas)]/90 backdrop-blur-xl pb-[env(safe-area-inset-bottom)]"
+        className="nav-couleurs-scrolled lg:hidden fixed inset-x-0 bottom-0 z-50 border-t border-[#C7C2F5]/70 backdrop-blur-xl pb-[env(safe-area-inset-bottom)] shadow-[0_-8px_24px_-14px_rgba(79,70,229,0.35)]"
       >
         <div className="mx-auto grid max-w-lg grid-cols-5">
           {BOTTOM_TABS.map((tab) => {
@@ -512,7 +519,9 @@ export function Navbar() {
                   active ? "text-[var(--accent)] font-semibold" : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                 )}
               >
-                <Icon className="h-5 w-5 shrink-0" strokeWidth={active ? 2.4 : 2} />
+                <span className={cn("flex h-7 w-9 items-center justify-center rounded-full transition-colors", active && "bg-white shadow-sm")}>
+                  <Icon className="h-5 w-5 shrink-0" strokeWidth={active ? 2.4 : 2} />
+                </span>
                 <span className="w-full truncate text-center">{tab.label}</span>
               </Link>
             );
@@ -524,7 +533,7 @@ export function Navbar() {
             aria-expanded={open}
             className="flex min-h-14 flex-col items-center justify-center gap-0.5 px-0.5 py-1.5 text-[11px] leading-tight font-bold text-[var(--accent)]"
           >
-            <span className="flex h-7 w-9 items-center justify-center rounded-md bg-[var(--accent)] text-white shadow-sm">
+            <span className="btn-couleurs flex h-7 w-9 items-center justify-center rounded-full text-white">
               <Menu className="h-[18px] w-[18px] shrink-0" strokeWidth={2.5} />
             </span>
             Menu
@@ -549,7 +558,7 @@ export function Navbar() {
         // inert: the closed drawer's ~20 links must not stay keyboard-focusable
         inert={!open || undefined}
         className={cn(
-          "lg:hidden fixed inset-x-0 bottom-0 z-[55] rounded-t-3xl border-t border-[var(--border)] bg-[var(--bg-surface)] transition-transform duration-300 ease-out",
+          "nav-rule lg:hidden fixed inset-x-0 bottom-0 z-[55] overflow-hidden rounded-t-3xl border-t border-[#C7C2F5] bg-[linear-gradient(180deg,#EEECFF_0%,#FFFFFF_45%)] transition-transform duration-300 ease-out",
           open ? "translate-y-0" : "translate-y-full pointer-events-none"
         )}
       >
@@ -575,10 +584,10 @@ export function Navbar() {
                   onClick={() => setOpen(false)}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "flex items-center rounded-md border px-3.5 py-2 text-sm font-medium transition-colors active:scale-[0.97]",
+                    "flex items-center rounded-full border px-3.5 py-2 text-sm font-medium transition-colors active:scale-[0.97]",
                     active
                       ? "border-[var(--accent)] bg-[var(--accent)] text-white"
-                      : "border-[var(--border)] bg-[var(--bg-canvas)] text-[var(--text-secondary)] hover:border-[var(--accent)]/50 hover:text-[var(--text-primary)]"
+                      : "border-[#D9D5FB] bg-white text-[var(--text-secondary)] hover:border-[var(--accent)]/50 hover:text-[var(--accent)]"
                   )}
                 >
                   {link.label}
@@ -588,7 +597,7 @@ export function Navbar() {
           </div>
           <div className="pt-3 border-t border-[var(--border)]">
             <Link href="/city-match" onClick={() => setOpen(false)}>
-              <Button size="md" className="plaque w-full justify-center gap-2 !rounded-md border-0 hover:!bg-[var(--accent-hover)]">
+              <Button size="md" className="btn-couleurs w-full justify-center gap-2 !rounded-full border-0">
                 <Heart className="h-4 w-4 fill-current" />
                 {IS_EN ? "City Match — Find my city" : "City Match — Trouvez ma ville"}
               </Button>

@@ -617,3 +617,33 @@ fichiers : 0 erreur (1 de moins). Captures `next dev` + playwright-core `/guides
 1. `QASection` (questions par ville) — cartes arrondies, erreur `red-50`, avatars aux teintes de score : même traitement.
 2. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.
 3. `FeedbackWidget` (sur toutes les sous-pages ville) — à inspecter.
+
+## 2026-10-22 ~16:00 UTC — Navbar `components/Navbar.tsx` (toutes les pages, FR + EN) — passage « Couleurs »
+
+**Surface** : barre du haut, méga-menu desktop, barre du bas téléphone et tiroir mobile. Première passe
+de la routine sous l'identité « Couleurs » (727f5ab / d0121c3) : les entrées précédentes de ce journal
+(brique, plaque, registre) décrivent l'identité abandonnée.
+
+**Changé**
+- Barre du haut : fin du blanc translucide → lavis indigo → rose → cyan sous le flou (`.nav-couleurs`,
+  `.nav-couleurs-scrolled`), filet vif de 3 px en tête (`.nav-rule`), ombre indigo.
+- Marque : « Idéale » / « CitiesInFrance » en `.gradient-text`.
+- Liens : actif sur pastille blanche + soulignement dégradé indigo → rose ; survol teinté.
+- City Match : fin de la `.plaque` → bouton pilule dégradé (`.btn-couleurs`, blanc sur #4338CA → #DB2777).
+- Méga-menu : chaque colonne sur sa bande (indigo, rose, ciel, aqua) avec pastille lettrée de couleur ;
+  bandeau d'appel en `--band-bold` (texte blanc) avec bouton blanc.
+- Barre du bas : même lavis, icône active dans une pastille blanche, bouton Menu dégradé.
+- Tiroir : dégradé lilas en tête + filet vif, puces arrondies, CTA dégradé.
+- `.nav-rule` ne pose pas de `position` (elle aurait écrasé `sticky`/`fixed`, couche non-utilitaire).
+- Non touché : liens, logique, copie.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 1 erreur
+préexistante (`set-state-in-effect`, ligne « Close mega-menu on route change »), aucune ajoutée. Captures
+`next dev` + playwright-core (scratchpad) `/villes/lyon` à 1440 (+ méga-menu) et 390 px (+ tiroir),
+`scrollWidth` = viewport. `npm run build` non lancé. Astuce : fermer le bandeau cookies (« Non merci »)
+avant de cliquer le Menu mobile, il intercepte le clic.
+
+**Prochaines surfaces candidates**
+1. `CityProfile.tsx` — fiche ville : découper les blocs en bandes distinctes (forte audience).
+2. Bandeau cookies (`CookieBanner`) — encore en « petite note » plaque/serif de l'ancienne identité.
+3. Cartes héritées `RankingPreview` / `ProfileQuickAccess` / `GuidesTeaser` (feuille / plaque).

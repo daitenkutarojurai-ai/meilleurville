@@ -590,3 +590,33 @@ body {
   --border: rgba(255, 255, 255, 0.28);
   --bg-surface: rgba(255, 255, 255, 0.12);
 }
+
+/* ── Navbar « Couleurs » (2026-10-22) ─────────────────────────────────────
+   The top bar was the last all-white strip on every page. It now carries a
+   tinted indigo → pink → cyan wash under the blur, a thin vivid rule on top,
+   and a gradient call-to-action. Translucent so the hero aurora shows through. */
+.nav-couleurs {
+  background: linear-gradient(90deg, rgba(233, 230, 255, 0.82) 0%, rgba(255, 228, 241, 0.78) 55%, rgba(219, 246, 250, 0.82) 100%);
+}
+.nav-couleurs-scrolled {
+  background: linear-gradient(90deg, rgba(238, 236, 255, 0.92) 0%, rgba(255, 236, 246, 0.9) 55%, rgba(228, 248, 252, 0.92) 100%);
+}
+/* Used on elements already positioned (sticky/fixed), which anchor ::before. */
+.nav-rule::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, #4F46E5 0%, #7C3AED 35%, #DB2777 70%, #0891B2 100%);
+  pointer-events: none;
+}
+/* Vivid gradient button (City Match). White on #4338CA → #DB2777 ≥ 4.9:1. */
+.btn-couleurs {
+  background: linear-gradient(120deg, #4338CA 0%, #7C3AED 50%, #DB2777 100%);
+  color: #fff;
+  box-shadow: 0 6px 18px -8px rgba(124, 58, 237, 0.7);
+  transition: filter 0.2s, box-shadow 0.2s;
+}
+.btn-couleurs:hover { filter: brightness(1.08); box-shadow: 0 8px 22px -8px rgba(219, 39, 119, 0.75); }
+/* Active underline of a primary link */
+.nav-active-bar { background: linear-gradient(90deg, #4F46E5, #DB2777); }
