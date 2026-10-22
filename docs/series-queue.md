@@ -45,6 +45,7 @@ Déjà couvertes : 30 (liste dans CLAUDE.md, table « Nouvelles séries de guide
 - Lot 5 : quimper, lorient, saint-brieuc, colmar, bayonne, menton, antibes, cannes, frejus, dax
 
 ### 3. etudiant-a — EN d'abord
+⏳ **En cours, session manuelle du 2026-10-22 : les 17 jumelles EN ci-dessous. La routine ne les prend pas.**
 Jumelles EN manquantes (17) : rouen, reims, brest, orleans, metz, saint-etienne, le-mans, perpignan, pau,
 la-rochelle, toulon, avignon, chambery, valenciennes, mulhouse, le-havre, nimes.
 FR ensuite, lot 4 : annecy, vannes, lorient, quimper, colmar, troyes, la-roche-sur-yon, niort, cergy, evry-courcouronnes.
