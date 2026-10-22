@@ -23,7 +23,7 @@ villes. Comment écrire un lot : skill `.claude/skills/guide-batch/`.
 
 | # | Série FR | Jumelle EN | FR mesuré | EN mesuré | Cible | Statut |
 |---|---|---|---|---|---|---|
-| 1 | `famille-a-[ville]-2026` (+ `famille-au-mans-2026`) | `family-in-[city]-2026` | 20 | 19 | 60 | 🟢 |
+| 1 | `famille-a-[ville]-2026` (+ `famille-au-mans-2026`) | `family-in-[city]-2026` | 27 | 19 | 60 | 🟢 |
 | 2 | `retraite-a-[ville]-2026` | `retiring-in-[city]-2026` | 30 | 31 | 50 | 🟢 |
 | 3 | `etudiant-a-[ville]-2026` | `studying-in-[city]-2026` | 40 | 23 (+1 guide national) | 60 | 🟢 EN d'abord (écart 17) |
 | 4 | `vivre-sans-voiture-[ville]-guide-2026` | `car-free-living-in-[city]-2026` | 15 (+1 guide national) | 15 | 30 | 🟢 |
@@ -33,11 +33,11 @@ villes. Comment écrire un lot : skill `.claude/skills/guide-batch/`.
 ### 1. famille-a — prochains lots
 Déjà couvertes : lyon, nantes, bordeaux, toulouse, rennes, strasbourg, angers, lille, montpellier,
 marseille, nice, caen, dijon, tours, metz, clermont-ferrand, orleans, pau, besancon, le-mans.
-- Lot 1 : paris, grenoble, reims, saint-etienne, rouen, toulon, brest, nimes, limoges, amiens
+- Lot 1 : ✅ livré 2026-10-22 pour grenoble, reims, rouen, brest, saint-etienne, limoges, amiens (7). Restent : paris, toulon, nimes (non écrites ce run, pas faute de données ; à faire au lot suivant).
 - Lot 2 : perpignan, annecy, la-rochelle, poitiers, nancy, mulhouse, le-havre, avignon, vannes, chambery
 - Lot 3 : villes moyennes à fort score Famille (compile l'axe famille depuis `lib/`, prends les 10 premières
   non couvertes, population ≥ 30 000).
-Jumelles EN : `family-in-le-mans-2026` manque déjà ; ensuite chaque lot FR.
+Jumelles EN : `family-in-le-mans-2026` manque déjà + les 7 du lot 1 (grenoble, reims, rouen, brest, saint-etienne, limoges, amiens) : écart FR→EN = 8 → **le prochain run sur cette série est le lot EN**.
 
 ### 2. retraite-a — prochains lots
 Déjà couvertes : 30 (liste dans CLAUDE.md, table « Nouvelles séries de guides per-city »).
@@ -60,3 +60,4 @@ Liste des manques : diff des slugs de ville FR/EN (`grep -o 'slug: "demenager-a-
 
 ## Journal
 - 2026-10-22 : file créée (session manuelle). Compteurs mesurés sur `main` @ 001f981.
+- 2026-10-22 (run séries) : famille-a lot 1, +7 guides FR (grenoble, reims, rouen, brest, saint-etienne, limoges, amiens). Compteur mesuré FR 27 (`famille-a*`), EN 19. Chiffres lus par module (CITIES_SEED rendu, housing, DVF, Filosofi, Insee 2022) ; faits nommés recoupés par recherche web (téléphérique de la Bastille, Océanopolis/téléphérique de Brest, hortillonnages, Cité du design, tram A/B de Reims, Jardin des plantes de Rouen). Reportées au lot suivant : paris, toulon, nimes. tsc, integrity, search-index(:check), sitemap:check verts.

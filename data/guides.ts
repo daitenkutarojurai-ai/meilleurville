@@ -38196,6 +38196,328 @@ export const GUIDES: Guide[] = [
     tags: ["famille Besançon 2026", "s'installer en famille Besançon", "quartiers famille Besançon", "écoles Besançon", "vivre en famille Besançon budget"],
   },
   {
+    slug: "famille-a-grenoble-2026",
+    title: "Famille à Grenoble en 2026 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Grenoble 2026 : loyer T3, écoles, montagne",
+    metaDesc: "Vivre en famille à Grenoble : T3 à 1 020 €, note Écoles parmi les plus hautes du corpus, sécurité plus fragile. Chiffres et verdict par profil.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Grenoble est nettement moins chère que Lyon pour une famille : un T3 s'y loue 1 020 € par mois (notre estimation des loyers), contre 1 380 € à Lyon, et sa note Écoles, 9,0 sur notre fiche ville, la place au rang 1 ex æquo avec douze autres villes. La contrepartie se lit ailleurs : sa note Sécurité (4,3) la classe 466e sur 593. Le guide suit ces chiffres pour dire à quels foyers la ville convient.",
+    sections: [
+      {
+        heading: "Quel budget logement pour une famille à Grenoble ?",
+        body: "Pour un T3, comptez 1 020 € par mois selon notre estimation des loyers, soit 360 € de moins qu'à Lyon (1 380 €) et 430 € de moins qu'à Annecy (1 450 €). À l'achat, la médiane des appartements vendus en 2024-2025 est de 2 500 € le m² (4 561 ventes, DVF) et celle des maisons de 3 436 € (120 ventes seulement : à Grenoble même, la maison est une rareté). Le revenu médian par unité de consommation est de 22 140 € par an (Insee, Filosofi 2021), au-dessus de la médiane des villes de notre corpus (21 445 €).",
+      },
+      {
+        heading: "Les écoles de Grenoble tiennent-elles leur rang ?",
+        body: "Sur notre fiche ville, l'axe Écoles de Grenoble vaut 9,0, ce qui la place au rang 1 sur 593, mais à égalité avec douze autres villes : le palier ne départage pas, il dit seulement que la ville fait partie du haut du corpus, au niveau de Lyon (8,9). C'est une note d'offre scolaire et universitaire à l'échelle de la commune, pas un classement d'établissements : pour une école précise, la carte scolaire de la mairie fait foi.",
+      },
+      {
+        heading: "Les enfants y sont-ils nombreux ?",
+        body: "Les moins de 15 ans pèsent 14,7 % de la population en 2022 (Insee), les 60 ans et plus 19,6 % : c'est une ville jeune, tirée par les étudiants, mais pas une ville de familles comme Villeurbanne (16,6 % de moins de 15 ans). La population communale a reculé de 1,1 % entre 2016 et 2022 : une part des familles s'installe dans la couronne, à Échirolles, Fontaine, Saint-Martin-d'Hères ou Voiron, où le logement familial est plus facile à trouver.",
+      },
+      {
+        heading: "Que faire avec des enfants le week-end ?",
+        body: "Le téléphérique de la Bastille, avec ses cabines sphériques surnommées « les Bulles », est le rituel de la ville : il monte du quai Stéphane-Jay au fort de la Bastille, en service depuis 1934. Le parc Paul-Mistral, hérité des Jeux olympiques d'hiver de 1968, sert de grand terrain de jeu à ciel ouvert. Notre note Nature est de 8,4 (30e sur 593, avec trois autres villes à ce niveau) : la montagne commence en bout de rue, ce qui change la vie d'un foyer sportif.",
+      },
+      {
+        heading: "Quel point faible regarder avant de s'installer ?",
+        body: "La sécurité. Notre note Sécurité est de 4,3, au rang 466 sur 593 (onze villes à égalité), très en dessous de ses notes Écoles et Nature. Elle résume des tendances communales : elle ne dit rien d'une rue précise, et le quartier choisi compte plus que la moyenne. Le sujet mérite une visite à plusieurs heures de la journée avant de signer.",
+      },
+      {
+        heading: "Grenoble convient-elle à votre famille ?",
+        body: "Oui pour les foyers qui veulent la montagne, l'emploi technologique et l'université à un loyer de T3 sous 1 100 €, avec des enfants à l'aise dans une vraie ville. Plutôt non pour qui place la sécurité de quartier en premier critère, ou veut une maison avec jardin en commune centre : à Grenoble elle se cherche en périphérie. Face à Lyon, Grenoble coûte nettement moins cher pour des notes Écoles comparables ; face à Chambéry (T3 à 1 100 €), elle offre plus de ville et moins de calme.",
+      },
+    ],
+    relatedCities: ["grenoble","lyon","chambery","voiron","annecy"],
+    relatedGuides: [
+      "vivre-a-grenoble-2026",
+      "acheter-a-grenoble-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-grenoble-2026",
+      "lyon-vs-grenoble-comparatif-2026",
+    ],
+    tags: ["famille Grenoble 2026","vivre en famille Grenoble","écoles Grenoble","loyer T3 Grenoble","Grenoble avec enfants"],
+  },
+  {
+    slug: "famille-a-reims-2026",
+    title: "Famille à Reims en 2026 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Reims 2026 : budget, écoles, maison ou appart",
+    metaDesc: "Famille à Reims : T3 à 900 €, une maison au même prix au m² qu'un appartement, 16,2 % de moins de 15 ans. Chiffres, comparaison Châlons, verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "À Reims, une famille trouve un T3 à 900 € par mois (notre estimation des loyers) et, particularité rare, une maison au même prix au m² qu'un appartement : 2 629 € contre 2 621 € en médiane 2024-2025 (DVF). Viser une maison n'y coûte pas la prime habituelle. Le revers : la population a reculé de 2,5 % entre 2016 et 2022 et la note Écoles reste moyenne (6,2).",
+    sections: [
+      {
+        heading: "Maison ou appartement : que dit le marché rémois ?",
+        body: "Sur 2024-2025, la médiane des appartements est de 2 621 € le m² (3 575 ventes) et celle des maisons de 2 629 € (978 ventes). Les deux sont quasi identiques, alors que dans beaucoup de villes de taille comparable, la maison coûte nettement plus par m². Pour une famille, cela rend la maison accessible dès que le budget dépasse celui d'un grand appartement : le m² n'est pas plus cher, c'est la surface qui fait le prix. Côté location, un T3 se loue 900 € par mois, un T2 680 €.",
+      },
+      {
+        heading: "Quels revenus pour ces prix ?",
+        body: "Le niveau de vie médian par unité de consommation est de 20 210 € par an (Insee, Filosofi 2021), sous la médiane de notre corpus (21 445 €), et le taux de pauvreté est de 24 %. Rapporté au loyer, un T3 à 900 € pèse davantage qu'à Brest (850 €) pour un revenu médian du même ordre : la ville est abordable sans être bon marché pour ses habitants, ce qui compte pour un foyer à un seul salaire.",
+      },
+      {
+        heading: "Combien d'enfants, et quelle école ?",
+        body: "Les moins de 15 ans représentent 16,2 % de la population en 2022 (Insee), les 60 ans et plus 21,9 % : le profil est plus familial que celui de Grenoble (14,7 %). Notre note Écoles est de 6,2, au rang 219 sur 593 avec vingt-sept autres villes au même niveau : correcte, sans avantage particulier. Pour les lycées et les filières, regardez la carte scolaire et les secteurs plutôt que la note de ville.",
+      },
+      {
+        heading: "Comment se déplacer sans voiture avec des enfants ?",
+        body: "Reims a deux lignes de tramway, A et B, qui partagent le tronc central entre Neuchâtel au nord et l'hôpital Debré ou la gare Champagne-Ardenne TGV au sud, ce qui structure un quotidien sans deuxième voiture dans le centre. Notre note Transports est de 6,4 (rang 200) : correcte pour la taille. Le Parc de Champagne et le parc Léo-Lagrange servent de grands espaces de jeux, le second étant desservi par le bus plutôt que par le tram.",
+      },
+      {
+        heading: "Reims face à ses voisines marnaises",
+        body: "Châlons-en-Champagne propose un T3 à 720 € et des appartements à 1 410 € le m² (nettement moins que les 2 621 € rémois), pour 16,5 % de moins de 15 ans ; Épernay, un T3 à 850 €. Réfléchissez ainsi : Reims donne l'offre d'une métropole régionale et le TGV vers Paris, Châlons le logement le moins cher, mais pour une ville bien plus petite (43 218 habitants contre 178 478).",
+      },
+      {
+        heading: "Pour quelles familles Reims fonctionne-t-elle ?",
+        body: "Pour un foyer qui veut accéder à la propriété avec enfants à un prix de province sans quitter une vraie ville, et qui a besoin d'être à Paris en train. Moins pour qui compte sur une note Nature forte : elle est de 4,2 (rang 463). Le choix se joue entre l'arbitrage maison à prix égal et l'effort de revenu : sur nos chiffres, le premier est excellent et le second modéré.",
+      },
+    ],
+    relatedCities: ["reims","chalons-en-champagne","epernay","amiens"],
+    relatedGuides: [
+      "vivre-a-reims-2026",
+      "acheter-a-reims-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-reims-2026",
+      "reims-vs-amiens-comparatif-2026",
+    ],
+    tags: ["famille Reims 2026","vivre en famille Reims","maison Reims prix","écoles Reims","Reims avec enfants"],
+  },
+  {
+    slug: "famille-a-rouen-2026",
+    title: "Famille à Rouen en 2026 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Rouen 2026 : budget, écoles, quotidien",
+    metaDesc: "Famille à Rouen : T3 à 950 €, +5,6 % d'habitants depuis 2016, note Écoles 6,6. Chiffres, comparaison Le Havre, verdict par profil.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Rouen gagne des habitants : +5,6 % entre 2016 et 2022 (Insee), pour un T3 à 950 € par mois (notre estimation des loyers). C'est la ville à choisir pour une famille qui veut le patrimoine, la Seine et l'emploi d'une métropole régionale. Sa note Écoles, 6,6, est solide sans être exceptionnelle, et sa note Nature, 4,5, appelle à compenser par les parcs.",
+    sections: [
+      {
+        heading: "Rouen attire-t-elle les familles ?",
+        body: "Oui, par le chiffre : la population municipale atteint 116 331 habitants en 2022, soit +5,6 % depuis 2016, quand Paris perd 3,5 % sur la même période. Les moins de 15 ans pèsent 14,2 % de la population et les 60 ans et plus 18,6 % : c'est une ville jeune et universitaire plus qu'une ville de familles installées, mais la dynamique est positive.",
+      },
+      {
+        heading: "Combien coûte le logement familial ?",
+        body: "Un T3 se loue 950 € par mois selon notre estimation des loyers. À l'achat, la médiane DVF 2024-2025 est de 2 692 € le m² pour les appartements (3 532 ventes) et de 2 797 € pour les maisons (697 ventes) : l'écart est mince, la maison reste dans le champ d'un budget familial. Le niveau de vie médian est de 21 330 € par unité de consommation (Insee, Filosofi 2021), à peine sous la médiane de notre corpus.",
+      },
+      {
+        heading: "Les écoles : à quel niveau ?",
+        body: "Notre note Écoles est de 6,6, au rang 105 sur 593, mais ce rang est partagé avec cent neuf autres villes : c'est un palier massif, pas un classement. Rouen est au niveau d'Amiens (6,6), au-dessus du Havre (5,8). Comme ailleurs, c'est une note d'offre à l'échelle de la commune ; les écoles et collèges se jugent par secteur.",
+      },
+      {
+        heading: "Que faire avec les enfants ?",
+        body: "Le Jardin des plantes, sur la rive gauche, offre dix hectares gratuits avec serres, roseraie, arboretum et aire de jeux. L'Aître Saint-Maclou, cour en accès libre à cinq minutes de la cathédrale, fait le bonheur des enfants qui cherchent les têtes de mort sculptées dans les poutres. L'île Lacroix, dont une boucle de promenade fait 2,8 km, ajoute un espace au bord de la Seine.",
+      },
+      {
+        heading: "Rouen face au Havre",
+        body: "Le Havre propose un T3 à 870 € et des appartements à 2 237 € le m² (contre 2 692 € à Rouen), pour 17,7 % de moins de 15 ans, mais une note Écoles de 5,8. Rouen coûte donc 80 € de loyer de plus pour un T3 et un cran de plus en note scolaire ; Le Havre garde l'avantage du bord de mer, que Rouen n'a pas.",
+      },
+      {
+        heading: "Verdict : à qui Rouen convient-elle ?",
+        body: "Aux familles qui veulent une grande ville historique en croissance, à moins de deux heures de Paris, avec un loyer de T3 sous 1 000 €. Moins aux foyers qui placent la sécurité en tête : la note Sécurité est de 4,7 (rang 399 sur 593, vingt-huit villes à égalité). Une famille qui valorise la nature trouvera mieux au-delà de la métropole que dans la commune.",
+      },
+    ],
+    relatedCities: ["rouen","le-havre","dieppe","caen"],
+    relatedGuides: [
+      "vivre-a-rouen-2026",
+      "acheter-a-rouen-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-rouen-2026",
+      "caen-vs-rouen-comparatif-2026",
+    ],
+    tags: ["famille Rouen 2026","vivre en famille Rouen","écoles Rouen","loyer T3 Rouen","Rouen avec enfants"],
+  },
+  {
+    slug: "famille-a-brest-2026",
+    title: "Famille à Brest en 2026 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Brest 2026 : T3 à 850 €, écoles, mer",
+    metaDesc: "Famille à Brest : T3 à 850 €, note Écoles 7,4, sécurité correcte (5,7), mer à portée. Chiffres, comparaison Quimper et Lorient, verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Brest offre à une famille un bon équilibre entre prix et notes : un T3 à 850 € par mois (notre estimation des loyers), une note Écoles de 7,4 (90e sur 593) et une note Sécurité de 5,7, au-dessus de celle de Rouen ou d'Amiens. Le revenu médian suit la médiane du corpus, à 21 420 €. La ville est tournée vers la mer, à condition d'aimer le vent.",
+    sections: [
+      {
+        heading: "Combien faut-il pour loger une famille à Brest ?",
+        body: "Un T3 se loue 850 € par mois selon notre estimation des loyers, un T2 650 €. À l'achat, la médiane DVF 2024-2025 est de 2 134 € le m² pour un appartement (3 620 ventes) et de 2 394 € pour une maison (1 113 ventes, un marché très actif). Le niveau de vie médian est de 21 420 € par unité de consommation, quasiment la médiane de notre corpus (21 445 €), et le taux de pauvreté de 19 %.",
+      },
+      {
+        heading: "La note Écoles de Brest est-elle bonne ?",
+        body: "Oui : 7,4 sur notre fiche ville, au rang 90 sur 593 avec dix autres villes à égalité, donc dans le haut du corpus. Elle devance Quimper (6,6) et Lorient (6,6). C'est un indicateur d'offre à l'échelle de la commune, nourri par la présence d'établissements d'enseignement supérieur ; les écoles de quartier se jugent sur place.",
+      },
+      {
+        heading: "Brest est-elle sûre pour des enfants ?",
+        body: "Notre note Sécurité est de 5,7, au rang 241 sur 593 (trente-et-une villes à égalité) : plus favorable que celles de Rouen (4,7) ou d'Amiens (4,5). C'est une moyenne de commune qui ne remplace pas une visite de quartier, mais c'est un atout rare pour une ville de 140 993 habitants.",
+      },
+      {
+        heading: "Que faire en famille ?",
+        body: "Le téléphérique urbain, ligne C du réseau Bibus, relie les Capucins à Siam au-dessus de la Penfeld en un peu moins de trois minutes : les enfants adorent. Océanopolis, avec ses pavillons tropical, polaire et breton, est l'adresse aquatique de référence. La note Nature de Brest est de 6,4 (rang 173) : mer, rade et sentiers côtiers à la sortie de la ville.",
+      },
+      {
+        heading: "Brest face à Quimper et Lorient",
+        body: "Quimper propose un T3 à 940 € et des appartements à 2 122 € le m², pour 14,3 % de moins de 15 ans ; Lorient, un T3 à 900 €. Brest est donc moins chère en loyer que ses deux voisines et mieux notée en écoles, mais plus urbaine et plus grande. Sa population gagne 1,2 % entre 2016 et 2022 : une ville stable, sans effet de mode.",
+      },
+      {
+        heading: "Verdict : pour qui ?",
+        body: "Pour les familles qui veulent la mer et une vraie ville à un loyer de T3 sous 900 €, avec un bon niveau scolaire. Moins pour qui cherche un climat doux et un grand marché de l'emploi tertiaire : la ville vit de la défense, de la recherche marine et de l'hôpital, et l'éloignement de Paris est réel. Le jeu de comparaison se fait avec Rennes, à quelques heures, plus chère et plus connectée.",
+      },
+    ],
+    relatedCities: ["brest","quimper","lorient","morlaix","rennes"],
+    relatedGuides: [
+      "vivre-a-brest-2026",
+      "acheter-a-brest-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-brest-2026",
+      "etudiant-a-brest-2026",
+    ],
+    tags: ["famille Brest 2026","vivre en famille Brest","écoles Brest","loyer T3 Brest","Brest avec enfants"],
+  },
+  {
+    slug: "famille-a-saint-etienne-2026",
+    title: "Famille à Saint-Étienne en 2026 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Saint-Étienne 2026 : T3 à 770 €, m² à 1 197 €",
+    metaDesc: "Famille à Saint-Étienne : T3 à 770 €, appartements à 1 197 € le m², 17,1 % de moins de 15 ans. Les chiffres et les réserves, honnêtement.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Saint-Étienne est une très grande ville au logement familial très bon marché : un T3 à 770 € par mois (notre estimation des loyers) et des appartements vendus 1 197 € le m² en médiane 2024-2025, contre 4 475 € à Lyon. Le prix de l'entrée a une contrepartie lisible dans les chiffres : un niveau de vie médian bas (19 010 €), un taux de pauvreté de 28 % et une note Sécurité de 4,3.",
+    sections: [
+      {
+        heading: "Combien coûte un logement familial à Saint-Étienne ?",
+        body: "Un T3 se loue 770 € par mois, un T2 580 €. À l'achat, la médiane DVF des appartements est de 1 197 € le m² (4 735 ventes) et celle des maisons de 2 164 € (472 ventes) : la maison coûte presque le double par m², signe d'un parc d'appartements très abordable. Rapporté à Lyon (apparts à 4 475 € le m²), l'achat stéphanois représente un peu plus d'un quart du prix.",
+      },
+      {
+        heading: "Y a-t-il des enfants à Saint-Étienne ?",
+        body: "Les moins de 15 ans représentent 17,1 % de la population en 2022 (Insee), les 60 ans et plus 25,7 % : c'est une structure par âge plus familiale que celle de Grenoble (14,7 %) ou de Limoges (13,9 %). La population communale est stable (+0,4 % entre 2016 et 2022) après des décennies de déclin industriel, et c'est ce retournement que les familles viennent chercher.",
+      },
+      {
+        heading: "Qu'en est-il des écoles ?",
+        body: "Notre note Écoles est de 5,8, au rang 249 sur 593, avec vingt-et-une villes au même niveau : inférieure à celle de Grenoble (9,0) ou de Lyon (8,9), elle ne dit pas grand-chose d'un établissement précis. Les familles qui privilégient la scolarité regardent le choix du secteur avant le choix du logement, ce que le coût du logement permet de faire.",
+      },
+      {
+        heading: "Que faire avec des enfants ?",
+        body: "La Cité du design, installée sur l'ancienne Manufacture d'armes, a ouvert en 2009 ; le Parc-Musée de la mine, bâti sur le dernier puits de la ville, fermé en 1973, descend dans une galerie sécurisée. Le Musée d'art moderne et contemporain est à Saint-Priest-en-Jarez, accessible depuis Saint-Étienne en quelques minutes. Notre note Nature est de 5,9 (rang 245) : le parc naturel du Pilat commence aux portes de l'agglomération.",
+      },
+      {
+        heading: "Quelles réserves avant de s'installer ?",
+        body: "Trois chiffres à lire sans les arrondir : une note Sécurité de 4,3 (466e sur 593), un taux de pauvreté de 28 % et un niveau de vie à 19 010 €, 495e sur 586 villes couvertes. Ils résument des moyennes de commune : le quartier choisi, la proximité d'une école et du tramway comptent plus que la note de ville. Notre note Coût de la vie, 7,1 (128e), dit l'autre face.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Pour une famille qui veut devenir propriétaire d'un grand appartement avec un budget d'un T3 lyonnais, Saint-Étienne est le meilleur rapport prix-surface de ce lot. Pour qui compte sur une scolarité haut de gamme ou un quartier réputé tranquille, Roanne (T3 à 700 €) ou la couronne lyonnaise sont des comparaisons à faire. Un foyer actif peut aussi viser le travail à Lyon et le logement stéphanois : le trajet est à prévoir en connaissance de cause.",
+      },
+    ],
+    relatedCities: ["saint-etienne","lyon","roanne","saint-chamond","firminy"],
+    relatedGuides: [
+      "vivre-a-saint-etienne-2026",
+      "acheter-a-saint-etienne-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-saint-etienne-2026",
+      "etudiant-a-saint-etienne-2026",
+    ],
+    tags: ["famille Saint-Étienne 2026","vivre en famille Saint-Étienne","prix immobilier Saint-Étienne","loyer T3 Saint-Étienne","Saint-Étienne avec enfants"],
+  },
+  {
+    slug: "famille-a-limoges-2026",
+    title: "Famille à Limoges en 2026 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Limoges 2026 : T3 à 800 €, sécurité, budget",
+    metaDesc: "Famille à Limoges : T3 à 800 €, sécurité à 6,1, coût de la vie à 7,1 mais peu d'enfants (13,9 %). Chiffres, Poitiers, Brive, verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Limoges est une ville calme et peu chère : un T3 à 800 € par mois (notre estimation des loyers), des appartements à 1 518 € le m² et une note Sécurité de 6,1, la plus élevée du lot (rang 198 sur 593). Mais ses chiffres démographiques sont l'inverse d'une ville de familles : 13,9 % de moins de 15 ans, 28,0 % de 60 ans et plus, et une population en recul de 2,2 % entre 2016 et 2022.",
+    sections: [
+      {
+        heading: "Quel budget logement à Limoges ?",
+        body: "Un T3 se loue 800 € par mois, un T2 600 €. À l'achat, la médiane DVF 2024-2025 est de 1 518 € le m² pour un appartement (2 575 ventes) et de 1 867 € pour une maison (1 083 ventes) : la maison reste accessible. Le niveau de vie médian est de 20 590 € par unité de consommation (Insee, Filosofi 2021) et le taux de pauvreté de 24 %. Notre note Coût de la vie est de 7,1, au rang 128 sur 593.",
+      },
+      {
+        heading: "Limoges est-elle sûre ?",
+        body: "C'est son meilleur chiffre : 6,1 sur notre fiche ville, au rang 198 sur 593 (vingt villes à égalité), très au-dessus de Grenoble (4,3), Rouen (4,7) ou Saint-Étienne (4,3). Il s'agit d'une moyenne de commune et non d'un verdict de quartier, mais pour des parents qui placent la tranquillité au premier rang, cette note compte.",
+      },
+      {
+        heading: "Les enfants et les écoles",
+        body: "La note Écoles est de 6,2 (rang 219, vingt-sept villes à égalité). Mais le point à regarder est démographique : 13,9 % de moins de 15 ans en 2022, la part la plus basse de ce lot, et une population communale en baisse de 2,2 % depuis 2016. Les effectifs scolaires y sont plus fragiles qu'ailleurs, ce qui peut jouer sur la carte des classes.",
+      },
+      {
+        heading: "Que faire en famille ?",
+        body: "Le jardin de l'Évêché, aménagé en terrasses au-dessus de la Vienne, couvre plus de cinq hectares et abrite un jardin botanique. Le musée national Adrien-Dubouché, consacré à la porcelaine et fondé en 1845, rattache la ville à son industrie. Notre note Nature est de 5,6 (rang 320) : une campagne douce, sans la montagne ni la mer.",
+      },
+      {
+        heading: "Limoges face à Poitiers et Brive",
+        body: "Poitiers propose un T3 à 880 € et une note Écoles de 7,4, avec 13,9 % de moins de 15 ans comme Limoges ; Brive-la-Gaillarde, un T3 à 780 € pour 13,8 %. Limoges se situe entre les deux en loyer, derrière Poitiers en notes d'écoles, et devant les deux en sécurité.",
+      },
+      {
+        heading: "Pour quelles familles ?",
+        body: "Pour celles qui cherchent le calme et un budget très serré, avec un seul salaire ou un télétravail déjà acquis : l'emploi local est plus étroit qu'à Poitiers ou à Bordeaux. Moins pour les familles qui veulent une dynamique d'enfants dans la rue et les écoles, ou un grand choix d'activités. Limoges est une ville de qualité de vie plus que de croissance : le chiffre qui la résume est son taux de sécurité.",
+      },
+    ],
+    relatedCities: ["limoges","poitiers","brive-la-gaillarde","saint-yrieix-la-perche"],
+    relatedGuides: [
+      "vivre-a-limoges-2026",
+      "acheter-a-limoges-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-limoges-2026",
+      "clermont-ferrand-vs-limoges-comparatif-2026",
+    ],
+    tags: ["famille Limoges 2026","vivre en famille Limoges","écoles Limoges","loyer T3 Limoges","Limoges avec enfants"],
+  },
+  {
+    slug: "famille-a-amiens-2026",
+    title: "Famille à Amiens en 2026 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Amiens 2026 : budget, écoles, maison moins chère",
+    metaDesc: "Famille à Amiens : T3 à 900 €, maison moins chère que l'appartement (2 273 € contre 2 491 €), 16,2 % de moins de 15 ans. Chiffres et verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "À Amiens, une maison coûte moins cher au m² qu'un appartement : 2 273 € contre 2 491 € en médiane 2024-2025 (DVF), ce qui renverse le calcul habituel d'une famille. Un T3 se loue 900 € par mois (notre estimation des loyers), la part des moins de 15 ans est de 16,2 %. En contrepartie, la note Sécurité est de 4,5 et le niveau de vie médian de 19 650 €.",
+    sections: [
+      {
+        heading: "Pourquoi la maison est-elle moins chère qu'un appartement ?",
+        body: "Sur 2024-2025, la médiane des appartements amiénois est de 2 491 € le m² (1 481 ventes) et celle des maisons de 2 273 € (1 631 ventes). Les maisons, plus nombreuses à se vendre que les appartements, sont donc le marché le plus accessible pour une famille ; c'est l'inverse de Rouen (2 692 € contre 2 797 €) ou de Toulon. Un T3 se loue 900 € par mois, un T2 680 €.",
+      },
+      {
+        heading: "Quelle situation économique des ménages ?",
+        body: "Le niveau de vie médian est de 19 650 € par unité de consommation (Insee, Filosofi 2021), au rang 451 sur 586 villes couvertes, sous la médiane du corpus (21 445 €), avec un taux de pauvreté de 26 %. Pour un T3 à 900 €, l'effort est plus lourd qu'à Brest, où le T3 est à 850 € et le niveau de vie médian à 21 420 €. Notre note Coût de la vie, 6,4, la place au rang 175.",
+      },
+      {
+        heading: "Quel niveau scolaire ?",
+        body: "La note Écoles est de 6,6, au rang 105 sur 593, mais le palier compte cent dix villes : c'est un niveau moyen-haut, identique à celui de Rouen, très en dessous de Lille (7,9). Comme partout, ce chiffre est communal, et la carte scolaire décide pour une famille précise.",
+      },
+      {
+        heading: "Que faire avec des enfants ?",
+        body: "Les hortillonnages, quelque 300 hectares de jardins sur l'eau découpés par des canaux appelés rieux, se visitent en barque ; la maison de Jules Verne, au 2 rue Charles-Dubois, intéresse les enfants par ses objets et son planisphère géant. Le zoo d'Amiens est installé au cœur du jardin botanique de la ville. La note Nature de la commune est de 4,2 (rang 463), mais ces sites compensent.",
+      },
+      {
+        heading: "Amiens face à Lille et à Arras",
+        body: "Lille propose un T3 à 1 080 € et des appartements à 3 705 € le m², avec une note Écoles de 7,9, pour 180 € de loyer de plus par mois. Arras est à 720 € le T3 et 17,1 % de moins de 15 ans. Amiens se situe donc entre une grande métropole chère et une petite préfecture bon marché, avec l'avantage de la taille (134 780 habitants) et d'une population qui gagne 0,8 % depuis 2016.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Pour une famille qui veut acheter une maison avec jardin dans une préfecture universitaire sans dépasser un budget de province, Amiens est l'une des meilleures options de ce lot. Pour qui compte sur la sécurité ou un climat clément, la note de 4,5 en sécurité (431e) et une position au nord de Paris incitent à comparer. L'accès aux soins est estimé correct sur notre modèle.",
+      },
+    ],
+    relatedCities: ["amiens","lille","arras","abbeville","peronne"],
+    relatedGuides: [
+      "vivre-a-amiens-2026",
+      "acheter-a-amiens-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-amiens-2026",
+      "lille-vs-amiens-comparatif-2026",
+    ],
+    tags: ["famille Amiens 2026","vivre en famille Amiens","maison Amiens prix","loyer T3 Amiens","Amiens avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
