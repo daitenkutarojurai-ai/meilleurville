@@ -5817,6 +5817,11 @@ n'est faux, mais un champ dérivé que personne ne lit est un champ qu'on finit 
 - **Corrigé** : les trois barèmes centiles de `lib/biodiversity.ts` (richesse, espaces verts, zones protégées) incluaient les villes d'extension, contrairement à la règle de cohorte de référence (CLAUDE.md § Score pipeline). Dès que le JSON a couvert les 53, le /10 de zones protégées (seule note publiée) a bougé pour **452 villes d'origine** (mesuré avant/après sur les trois composantes + `overall`). Les barèmes se calent désormais sur les 540 d'origine ; une ville d'extension est notée sur la même échelle sans y entrer. `tsc` et `integrity` verts.
 - **Non couvert, inchangé** : `overall` reste `null`, `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`. Le **classement** `/espaces-proteges` (rangs) trie les 593 villes, donc un rang d'origine peut glisser d'une place à l'insertion d'une extension : c'est un rang de liste, pas une note, non modifié. Casier « Animalia spec » toujours compté pour Cayenne et Saint-Laurent-du-Maroni. `GREEN_SPACE_UNMAPPED_COUNT` passe à 13 (calculé, 11 + 2 extensions).
 
+### F62 — point d'étape 2026-10-22 (routine biodiversité)
+
+- **Contrôle sans rien à corriger** : `git pull` ne ramène aucune donnée neuve depuis le 15/10 (biodiversité, signaux et zones protégées toujours à **593/593**, passe locale `555fa79`). `tsc` et `npm run integrity` verts (gardes `protégées`, `périmètres`, `moteurs` comprises). `biodiversityProfile()` interrogé sur les 593 slugs : 593 profils, 593 `hasBiodiversityData`, 593 `hasProtectedData`, `richnessPending: "incomparable"` partout (attendu, rang de richesse retiré le 10/08), `overall` `null` partout.
+- **Non couvert, inchangé** : `overall` `null`, `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`. Les casiers « Animalia spec » de Cayenne et Saint-Laurent-du-Maroni restent comptés dans la raréfaction (le vecteur est consommé à la collecte, il faut un recrawl). Plusieurs commentaires de `lib/biodiversity.ts` citent encore « 540 villes » : historiques, aucun affichage ne les lit.
+
 ---
 
 ## Flotte de routines — état 2026-08-03
