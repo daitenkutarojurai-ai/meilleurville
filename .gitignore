@@ -47,7 +47,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-.claude/
+.claude/*
+!.claude/skills/
 n8n/.env.n8n
 
 # Generated social-media artifacts (not versioned)

@@ -4235,6 +4235,12 @@ Accordéon `<details>` natif (réponses dans le HTML statique, no-JS/crawler-fri
 
 ### Nouvelles séries de guides per-city (FR)
 
+**Depuis le 2026-10-22, ces séries ont leur routine** (`meilleurville-series-villes`, 3 runs par jour) : la file
+`docs/series-queue.md` dit quelle série et quelles villes viennent ensuite (compteurs mesurés, villes reportées et
+pourquoi), et le skill `.claude/skills/guide-batch/` dit comment écrire un lot (filtre anti-page-mince, intro
+answer-first, contrôles). Les skills génériques `programmatic-seo` et `ai-seo` (MIT, vendorisés à côté) en sont la
+source ; en cas de conflit, ce fichier gagne. La table ci-dessous reste l'historique ; la file fait foi pour la suite.
+
 État au 2026-07-14 :
 
 | Slug pattern | Catégorie | Cible | Statut |
