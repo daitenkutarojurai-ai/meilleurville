@@ -32433,47 +32433,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Apt est une commune du Vaucluse de 11 000 habitants, posée au cœur du Luberon. C'est la capitale française des fruits confits : les célèbres « fruits d'Apt » s'exportaient déjà au XVIIe siècle dans toutes les cours royales européennes, et la Maison Aptunion fournit le Vatican depuis Pie IX. Le samedi matin, son marché provençal compte parmi les plus grands et les plus authentiques de Provence, sans rien de touristique. Le tout au beau milieu du Parc naturel régional du Luberon.",
+    intro: "Apt tient en deux mots : fruits confits et marché. Cette commune du Vaucluse de 11 000 habitants, posée au cœur du Luberon, en a fait un métier : les célèbres « fruits d'Apt » s'exportaient déjà au XVIIe siècle dans toutes les cours royales européennes, et la Maison Aptunion fournit le Vatican depuis Pie IX. Le samedi matin, le marché provençal compte parmi les plus grands de Provence, et il n'a rien d'un décor pour touristes. Le tout se déroule au beau milieu du Parc naturel régional du Luberon.",
     sections: [
       {
         heading: "1. Le marché provençal du samedi matin",
-        body: "Le Marché provençal d'Apt (samedi matin, depuis 1523 — l'un des plus grands et authentiques marchés de Provence) attire 5 000 visiteurs en haute saison sur 2 km de stalles dans toute la vieille ville. Spécificité : marché de paysans (pas un marché touristique avec revendeurs — vrais producteurs locaux qui parlent provençal). Fruits et légumes du Luberon, fromages provençaux, charcuteries, miel de Provence, huile d'olive, lavande, fruits confits. À ne pas manquer.",
+        body: "Le Marché provençal d'Apt se tient le samedi matin depuis 1523, et c'est l'un des plus grands et des plus authentiques de Provence. Il attire 5 000 visiteurs en haute saison et s'étire sur 2 km de stalles dans toute la vieille ville. Sa vraie particularité tient aux vendeurs : ce sont de vrais producteurs locaux, qui parlent provençal, et non des revendeurs. On y trouve les fruits et légumes du Luberon, des fromages provençaux, des charcuteries, du miel de Provence, de l'huile d'olive, de la lavande et des fruits confits. À ne pas manquer.",
       },
       {
         heading: "2. Les fruits confits d'Apt — Maison Aptunion",
-        body: "Apt est la capitale française des fruits confits depuis le XVIIe siècle (commande des cours royales européennes, fournisseur du Vatican depuis Pie IX). La Maison Aptunion (créée en 1933, regroupement de 3 fabriques historiques — première fabrique française de fruits confits) propose une visite gratuite (sur RDV) avec démonstration et dégustation. Boutiques de fruits confits dans toute la ville (cerises, melons, abricots, ananas — tous confits dans le sirop pendant 60 jours).",
+        body: "Apt est la capitale française des fruits confits depuis le XVIIe siècle, époque où les cours royales européennes en passaient commande et où le Vatican en était fournisseur depuis Pie IX. La Maison Aptunion, créée en 1933 par le regroupement de 3 fabriques historiques, reste la première fabrique française du genre. Elle propose une visite gratuite, sur RDV, avec démonstration et dégustation. Des boutiques de fruits confits jalonnent ensuite toute la ville : cerises, melons, abricots, ananas, tous confits dans le sirop pendant 60 jours.",
       },
       {
         heading: "3. La cathédrale Sainte-Anne",
-        body: "La Cathédrale Sainte-Anne d'Apt (XIIe-XVIIIe siècles, multi-styles) abrite le voile de Sainte Anne (relique présumée — la mère de la Vierge Marie) ramenée des Croisades au XIIIe siècle. Trésor de la cathédrale (orfèvrerie médiévale, ornements liturgiques). À l'extérieur : place ombragée, terrasses. Visite gratuite.",
+        body: "La Cathédrale Sainte-Anne d'Apt mêle les styles, du XIIe au XVIIIe siècles. Elle abrite le voile de Sainte Anne, relique présumée de la mère de la Vierge Marie, ramenée des Croisades au XIIIe siècle. Le trésor réunit de l'orfèvrerie médiévale et des ornements liturgiques. À l'extérieur, une place ombragée et des terrasses invitent à rester. La visite est gratuite.",
       },
       {
         heading: "4. Roussillon — le « village rouge »",
-        body: "Roussillon (à 10 km à l'ouest d'Apt, plus beau village de France) est l'un des plus colorés villages d'Europe — entièrement construit en pierres ocre (rouge, orange, jaune) extraites des falaises de Roussillon. Le Sentier des Ocres (1h en boucle, 3€ — sentier au cœur de l'ancienne carrière d'ocre, paysage de canyons rouges et orangés). Conservatoire des Ocres et de la Couleur (musée géologique). Vue panoramique sur les Monts de Vaucluse.",
+        body: "Roussillon, à 10 km à l'ouest d'Apt, est classé plus beau village de France, et c'est l'un des plus colorés d'Europe. Il est entièrement construit en pierres ocre, rouges, orange et jaunes, extraites des falaises voisines. Le Sentier des Ocres (1h en boucle, 3€) traverse l'ancienne carrière d'ocre, un paysage de canyons rouges et orangés. Le Conservatoire des Ocres et de la Couleur, musée géologique, complète la visite, et la vue panoramique donne sur les Monts de Vaucluse.",
       },
       {
         heading: "5. Gordes — le village perché",
-        body: "Gordes (à 20 km à l'ouest d'Apt, classé parmi les plus beaux villages de France) est l'icône du Luberon — maisons en pierre sèche calcaire blanche disposées en cercles concentriques sur un éperon rocheux à 370 m d'altitude. Belvédère à l'entrée du village (point de vue le plus photographié de Provence). L'abbaye de Sénanque (à 4 km, encadrée par un champ de lavandes — image emblématique de la Provence).",
+        body: "Gordes, à 20 km à l'ouest d'Apt, est classé parmi les plus beaux villages de France et fait figure d'icône du Luberon. Ses maisons en pierre sèche calcaire blanche s'étagent en cercles concentriques sur un éperon rocheux, à 370 m d'altitude. Le belvédère à l'entrée du village offre le point de vue le plus photographié de Provence. À 4 km, l'abbaye de Sénanque, encadrée par un champ de lavandes, compose l'image emblématique de la région.",
       },
       {
         heading: "6. Le Parc naturel régional du Luberon",
-        body: "Le PNR du Luberon (créé en 1977 — 180 000 ha sur le Luberon, Petit Luberon et Monts de Vaucluse) est l'un des plus beaux parcs régionaux français. Sentiers de randonnée (GR9 traverse le parc), villages perchés (Ménerbes, Lacoste, Bonnieux à 15 km d'Apt), forêts de cèdres (Cèdres de la Cédraie au Petit Luberon — plantés au XIXe siècle, l'une des plus belles cédraies d'Europe). Maison du Parc à Apt (centre d'interprétation gratuit).",
+        body: "Créé en 1977, le PNR du Luberon couvre 180 000 ha, entre le Luberon, le Petit Luberon et les Monts de Vaucluse. C'est l'un des plus beaux parcs régionaux français. Le GR9 le traverse, et les sentiers de randonnée mènent aux villages perchés : Ménerbes, Lacoste, Bonnieux à 15 km d'Apt. Les Cèdres de la Cédraie, au Petit Luberon, plantés au XIXe siècle, forment l'une des plus belles cédraies d'Europe. Pour préparer la sortie, la Maison du Parc, à Apt, tient un centre d'interprétation gratuit.",
       },
       {
         heading: "7. Bonnieux et le Petit Luberon",
-        body: "Bonnieux (à 15 km au sud d'Apt, plus beau village de France) est l'un des plus pittoresques villages du Luberon — perché à 425 m sur un piton calcaire, terrasses en escaliers, vieille église haute (XIIe siècle, romane) tout en haut du village. Vue panoramique sur le Petit Luberon. Marché du vendredi matin. À 5 km, le Pont Julien (pont romain du Ier siècle av. J.-C. — l'un des mieux conservés en France).",
+        body: "Bonnieux, à 15 km au sud d'Apt, est lui aussi classé plus beau village de France, et c'est l'un des plus pittoresques du Luberon. Il est perché à 425 m sur un piton calcaire, avec des terrasses en escaliers. Tout en haut, la vieille église romane date du XIIe siècle et domine une vue panoramique sur le Petit Luberon. Le marché a lieu le vendredi matin. À 5 km, le Pont Julien, pont romain du Ier siècle av. J.-C., figure parmi les mieux conservés de France.",
       },
       {
         heading: "8. Le château de Lacoste — Sade et Cardin",
-        body: "Le Château de Lacoste (à 12 km au sud-ouest d'Apt, XIe-XVIIe siècles) est le château du Marquis de Sade — qui y a vécu une grande partie de sa vie (et y a été emprisonné). Donatien Alphonse François de Sade (1740-1814). Aujourd'hui propriété du couturier Pierre Cardin (qui a restauré le château et y a installé un festival théâtral en juillet). Vieille ville médiévale en pied de château.",
+        body: "Le Château de Lacoste, à 12 km au sud-ouest d'Apt, date des XIe-XVIIe siècles. C'est le château du Marquis de Sade, qui y a vécu une grande partie de sa vie et y a aussi été emprisonné. Donatien Alphonse François de Sade (1740-1814) lui a laissé son nom dans l'histoire. Le château appartient aujourd'hui au couturier Pierre Cardin, qui l'a restauré et y a installé un festival théâtral en juillet. Au pied du château s'étend une vieille ville médiévale.",
       },
       {
         heading: "9. Les ocres de Rustrel — le « Colorado provençal »",
-        body: "Le Colorado Provençal de Rustrel (à 10 km au nord d'Apt — ancienne carrière d'ocre exploitée jusqu'aux années 1950) est un paysage spectaculaire — cheminées de fée, falaises orangées et rouges, cirques karstiques. Sentier balisé en boucle (5 km, 2h). Le site est l'un des plus colorés de France — comparable au Colorado américain en miniature. Accès à pied uniquement (parking au village).",
+        body: "Le Colorado Provençal de Rustrel, à 10 km au nord d'Apt, est une ancienne carrière d'ocre exploitée jusqu'aux années 1950. Le paysage est spectaculaire : cheminées de fée, falaises orangées et rouges, cirques karstiques. Un sentier balisé en boucle (5 km, 2h) permet d'en faire le tour. C'est l'un des sites les plus colorés de France, un Colorado américain en miniature. L'accès se fait à pied uniquement, depuis le parking du village.",
       },
       {
         heading: "10. Gastronomie provençale — truffe et fromages",
-        body: "La cuisine d'Apt est l'une des plus raffinées de Provence : agneau de Sisteron IGP (à 70 km à l'est), pieds-paquets, tian de légumes, soupe au pistou. Spécialités emblématiques : truffe noire du Vaucluse (Tuber melanosporum — l'une des plus prestigieuses, novembre-mars — marché aux truffes d'Apt le samedi matin novembre-mars), miel de Provence IGP, lavande, fruits confits d'Apt. Fromages : Banon AOP (chèvre fermier feuille de châtaignier, à 50 km à l'est). Vins : Côtes du Luberon AOC (autour d'Apt, rouge léger), Ventoux (à 30 km au nord — AOC rouge plus structuré).",
+        body: "La cuisine d'Apt compte parmi les plus raffinées de Provence : agneau de Sisteron IGP (à 70 km à l'est), pieds-paquets, tian de légumes, soupe au pistou. Côté spécialités, la truffe noire du Vaucluse (Tuber melanosporum) est l'une des plus prestigieuses, de novembre à mars, avec un marché aux truffes à Apt le samedi matin sur la même période. S'y ajoutent le miel de Provence IGP, la lavande et les fruits confits d'Apt. Pour le fromage, le Banon AOP, un chèvre fermier enveloppé de feuille de châtaignier, se produit à 50 km à l'est. Les vins suivent : Côtes du Luberon AOC autour d'Apt, un rouge léger, et Ventoux à 30 km au nord, un AOC rouge plus structuré.",
       },
     ],
     relatedCities: ["apt"],
