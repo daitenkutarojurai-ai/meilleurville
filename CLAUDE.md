@@ -148,6 +148,12 @@ section ». Tokens dans `app/globals.css` ; s'y tenir.
   photo Commons + crédit.
 - Ne réintroduis jamais le papier crème `#F6F2E9`, le marine `#1E3A6E` ni la brique `#C2410C`.
   `components/AmbientBackground.tsx` reste un composant serveur sans JS : pas de fond WebGL/canvas.
+- **Plus aucun motif à lignes** (demande du 2026-10-22 : « je n'aime pas le design à lignes, plus coloré,
+  partout ») : `.topo-bg` ne peint plus les courbes de niveau de `public/textures/topo.svg` mais un maillage
+  coloré doux (indigo, rose, cyan) ; `.plaque` n'a plus de filet ni de liseré, c'est une pastille en dégradé.
+  Les barres de tête de carte utilisent `.grad-head-0` … `.grad-head-5` (dégradés vifs, texte blanc), en
+  rotation par index. Les libellés « Feuille NN / 19 » sont devenus « Classement NN ». Ne réintroduis ni
+  hachures, ni filets doubles, ni pointillés décoratifs.
 
 ## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar, all opengraph-image.tsx)
 

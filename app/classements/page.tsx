@@ -145,7 +145,7 @@ export default function ClassementsPage() {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
-                      Feuille {String(idx + 1).padStart(2, "0")} / {String(CATEGORIES.length).padStart(2, "0")}
+                      Classement {String(idx + 1).padStart(2, "0")} / {String(CATEGORIES.length).padStart(2, "0")}
                     </p>
                     <div className="flex items-center gap-2 flex-wrap">
                       <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)]">

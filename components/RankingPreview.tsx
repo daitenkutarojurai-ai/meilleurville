@@ -93,7 +93,7 @@ export function RankingPreview({ locale = "fr" }: { locale?: "fr" | "en" } = {})
         </div>
 
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5">
-          {RANKINGS.map((r) => {
+          {RANKINGS.map((r, i) => {
             const Icon = r.icon;
             // Real #1 city + score, derived from the live ranking engine —
             // no hardcoded preview numbers (those drifted above the 8.6 clamp).
@@ -103,14 +103,14 @@ export function RankingPreview({ locale = "fr" }: { locale?: "fr" | "en" } = {})
               <Link
                 key={r.slug}
                 href={locale === "en" ? `/rankings/${r.slug}` : `/classements/${r.slug}`}
-                className="group flex h-full flex-col overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] transition-colors hover:border-[var(--accent)]"
+                className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
               >
-                <div className="topo-bg flex items-center gap-3 border-b border-[var(--border)] bg-[var(--bg-canvas)] px-4 py-3">
-                  <span className="plaque !p-0 h-10 w-10 shrink-0 justify-center" aria-hidden="true">
-                    <Icon className="h-5 w-5" strokeWidth={1.75} />
+                <div className={`grad-head-${i % 6} flex items-center gap-3 px-4 py-3`}>
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/20 ring-1 ring-white/40" aria-hidden="true">
+                    <Icon className="h-5 w-5 text-white" strokeWidth={2} />
                   </span>
-                  <span className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
-                    {L("Feuille", "Sheet")} {pad2(sheet)} / {pad2(SHEET_ORDER.length)}
+                  <span className="font-mono-data text-[11px] font-semibold uppercase tracking-[0.16em] text-white">
+                    {L("Classement", "Ranking")} {pad2(sheet)}
                   </span>
                 </div>
                 <div className="flex flex-1 flex-col p-4">

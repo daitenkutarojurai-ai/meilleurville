@@ -138,7 +138,7 @@ export function Footer() {
       />
       {/* Contour lines (navy strokes read as faint relief on the ink field) */}
       <div
-        className="topo-bg pointer-events-none absolute inset-0 top-2 opacity-40"
+        className="pointer-events-none absolute inset-0 top-2 opacity-40 bg-[radial-gradient(50%_60%_at_15%_0%,rgba(236,72,153,0.35),transparent_60%),radial-gradient(45%_60%_at_90%_10%,rgba(6,182,212,0.30),transparent_60%)]"
         style={{ mixBlendMode: "screen" }}
         aria-hidden="true"
       />

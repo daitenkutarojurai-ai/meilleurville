@@ -64,7 +64,7 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
               </Link>
               {sheetIndex > 0 && (
                 <span className="text-[var(--text-tertiary)]">
-                  Feuille {String(sheetIndex).padStart(2, "0")} / {RED_FLAG_THEMES.length}
+                  N° {String(sheetIndex).padStart(2, "0")} / {RED_FLAG_THEMES.length}
                 </span>
               )}
             </div>

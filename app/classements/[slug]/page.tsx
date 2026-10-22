@@ -189,7 +189,7 @@ export default async function RankingPage({ params }: Props) {
             N°{sheetNo}
           </div>
           <p className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)] mb-2">
-            Feuille {sheetNo} / {sheetTotal} · Classement 2026 · {ranked.length} villes
+            Classement {sheetNo} / {sheetTotal} · Édition 2026 · {ranked.length} villes
           </p>
           <h1 className="mb-4 text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.05]">
             <span className="font-display gradient-text-anim italic">{meta.headline}</span>

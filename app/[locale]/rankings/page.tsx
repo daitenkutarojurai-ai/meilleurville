@@ -60,7 +60,7 @@ export default function EnRankingsIndex() {
                     </span>
                     <div className="min-w-0">
                       <p className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
-                        Sheet {sheetNo} / {sheetTotal}
+                        Ranking {sheetNo} / {sheetTotal}
                       </p>
                       <h2 className="text-lg font-bold leading-snug text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
                         {en.label}

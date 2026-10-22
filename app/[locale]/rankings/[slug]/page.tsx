@@ -99,7 +99,7 @@ export default async function EnRankingDetailPage({ params }: Props) {
           No. {sheetNo}
         </div>
         <p className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)] mb-2">
-          Sheet {sheetNo} / {sheetTotal} · 2026 ranking · {ranked.length} cities
+          Ranking {sheetNo} / {sheetTotal} · 2026 edition · {ranked.length} cities
         </p>
         <h1 className="mb-4 text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-tight">
           {en.headline}
