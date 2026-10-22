@@ -8717,6 +8717,46 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-in-lens-2026",
+      "title": "Single parent in Lens (2026): a €1,800 floor, 2 axes out of four above the median and a 3.1-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-noisy-le-grand-2026",
+      "title": "Single parent in Noisy-le-Grand (2026): a €3,800 floor, 3 axes out of four above the median and a 5.3-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-cagnes-sur-mer-2026",
+      "title": "Single parent in Cagnes-sur-Mer (2026): a €3,550 floor, 3 axes out of four above the median and a 3.7-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-carpentras-2026",
+      "title": "Single parent in Carpentras (2026): a €2,800 floor, 3 axes out of four above the median and a 1.8-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-massy-2026",
+      "title": "Single parent in Massy (2026): a €4,700 floor, 2 axes out of four above the median and a 4.4-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-orvault-2026",
+      "title": "Single parent in Orvault (2026): a €2,900 floor, 2 axes out of four above the median and a 3.6-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-sceaux-2026",
+      "title": "Single parent in Sceaux (2026): a €4,300 floor, 3 axes out of four above the median and a 6.8-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-bourg-la-reine-2026",
+      "title": "Single parent in Bourg-la-Reine (2026): a €4,300 floor, 3 axes out of four above the median and a 6.5-point spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "single-parent-holidays-anglet-2026",
       "title": "Single-parent holidays in Anglet: no railway station, but the airport is here",
       "emoji": "🧑‍🍼"
@@ -9111,17 +9151,17 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 243
+      "count": 251
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 189
+      "count": 197
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 136
+      "count": 144
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -9154,14 +9194,14 @@
       "count": 67
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 61
-    },
-    {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 61
+      "count": 65
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 62
     },
     {
       "slug": "relocation",
@@ -9196,7 +9236,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 45
+      "count": 46
     },
     {
       "slug": "brittany",
@@ -9219,6 +9259,11 @@
       "count": 34
     },
     {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 33
+    },
+    {
       "slug": "expat-retirement",
       "label": "expat retirement",
       "count": 32
@@ -9227,11 +9272,6 @@
       "slug": "job-market-france",
       "label": "job market france",
       "count": 32
-    },
-    {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
-      "count": 31
     },
     {
       "slug": "centre-val-de-loire",
