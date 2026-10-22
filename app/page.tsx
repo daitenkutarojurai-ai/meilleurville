@@ -33,7 +33,7 @@ export default function HomePage() {
       <SectionNav />
       {/* Présidentielle 2027 : le sujet le plus cherché jusqu'en mai 2027 —
           porte d'entrée vers le hub et les 593 projections par ville. */}
-      <section className="border-y border-[var(--border)] bg-[var(--bg-surface)]">
+      <section className="band band-white border-y border-[var(--border)]">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6">
           <p className="text-sm text-[var(--text-primary)]">
             <span className="plaque plaque-small mr-2">🗳️ Présidentielle 2027</span>
@@ -67,7 +67,7 @@ export default function HomePage() {
           .sort((a, b) => (b.scores.global + b.scores.cost) - (a.scores.global + a.scores.cost))
           .slice(0, 6);
         return (
-          <section className="py-8 sm:py-16 border-t border-[var(--border)]">
+          <section className="band band-indigo py-8 sm:py-16">
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
               <div className="flex items-end justify-between mb-8">
                 <div>
@@ -117,7 +117,7 @@ export default function HomePage() {
       })()}
 
       {/* Trending comparisons */}
-      <section className="py-8 sm:py-16 border-t border-[var(--border)] bg-[var(--bg-surface)]">
+      <section className="band band-aqua py-8 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-end justify-between mb-8">
             <div>
@@ -178,7 +178,7 @@ export default function HomePage() {
       </section>
 
       {/* Cost calculator section */}
-      <section id="simulateur" className="py-8 sm:py-16 border-t border-[var(--border)]">
+      <section id="simulateur" className="band band-lilac py-8 sm:py-16">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <div className="text-center mb-8">
             <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">💸 Simulateur express</p>

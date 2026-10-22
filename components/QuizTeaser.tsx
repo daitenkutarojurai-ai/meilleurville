@@ -32,7 +32,7 @@ export function QuizTeaser({ citiesCount, locale = "fr" }: { citiesCount: number
   const matched = demoOptions.find((o) => o.id === picked)?.match ?? null;
 
   return (
-    <section id="quiz" className="py-8 sm:py-20">
+    <section id="quiz" className="band band-aqua py-8 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)]">
           <div className="grid lg:grid-cols-2">

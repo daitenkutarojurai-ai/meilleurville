@@ -25,9 +25,9 @@ export default function Image() {
       >
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <svg width="36" height="36" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#1E3A6E" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#1E3A6E" /></svg>
+            <svg width="36" height="36" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#4F46E5" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#4F46E5" /></svg>
             <span style={{ color: "#0F172A", fontSize: "22px", fontWeight: 700 }}>
-              MaVille<span style={{ color: "#1E3A6E" }}>Idéale</span>
+              MaVille<span style={{ color: "#4F46E5" }}>Idéale</span>
             </span>
           </div>
           <div
@@ -36,7 +36,7 @@ export default function Image() {
               border: "1px solid rgba(30,58,110,0.30)",
               borderRadius: "999px",
               padding: "8px 18px",
-              color: "#1E3A6E",
+              color: "#4F46E5",
               fontSize: "14px",
               fontWeight: 600,
             }}
@@ -46,7 +46,7 @@ export default function Image() {
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-          <div style={{ color: "#1E3A6E", fontSize: "16px", letterSpacing: "2px", textTransform: "uppercase", fontWeight: 700 }}>
+          <div style={{ color: "#4F46E5", fontSize: "16px", letterSpacing: "2px", textTransform: "uppercase", fontWeight: 700 }}>
             5 questions · 3 destinations
           </div>
           <div style={{ color: "#0F172A", fontSize: "80px", fontWeight: 900, lineHeight: 0.95 }}>
@@ -63,7 +63,7 @@ export default function Image() {
               key={s}
               style={{
                 background: "#ffffff",
-                border: i === 0 ? "2px solid #1E3A6E" : "1px solid rgba(15,23,42,0.12)",
+                border: i === 0 ? "2px solid #4F46E5" : "1px solid rgba(15,23,42,0.12)",
                 borderRadius: "14px",
                 padding: "14px 18px",
                 display: "flex",

@@ -22,25 +22,38 @@ nav[aria-label="Breadcrumb"] a,
 nav.text-xs > a { padding-block: 5px; }
 
 :root {
-  /* « Carte & plaque » identity (2026-10-16): survey-map paper + ink, with the
-     enamel navy of a French street plaque as the single accent. Greens, lime,
-     amber, orange, red and violet stay reserved for the 6 score tiers, so the
-     accent can never be read as a score. */
-  --bg-canvas: #F6F2E9;          /* map paper */
-  --bg-surface: #FFFDF8;         /* card stock */
-  --bg-elevated: #EFE9DC;        /* folded-paper hover surface */
-  --border: #E2D9C6;             /* pencil rule */
+  /* « Couleurs » identity (2026-10-22, owner request: "modern but colorful,
+     each section a distinct background"). Replaces « Carte & plaque » (paper +
+     navy), judged too white. Indigo is the main accent, pink the warm pop, cyan
+     the third voice. Score tiers keep green/lime/amber/orange/red/violet: the
+     accents below stay in the blue-indigo / pink / cyan families so a decorative
+     colour is never read as a score. */
+  --bg-canvas: #F5F7FF;          /* cool very light canvas */
+  --bg-surface: #FFFFFF;         /* cards */
+  --bg-elevated: #EEF1FC;        /* hover surface */
+  --border: #DFE3F2;
 
-  --text-primary: #18212F;       /* ink */
-  --text-secondary: #4D5869;     /* faded ink — 6.6:1 on paper */
-  --text-tertiary: #5B6577;      /* lighter gray for hints — 5.3:1 on white; #64748B fell to 4.2:1 on the tinted cards (#ecf3f4), audit 2026-10-09 */
+  --text-primary: #141B2D;
+  --text-secondary: #46506B;     /* 7.4:1 on white, ≥ 6:1 on every section tint */
+  --text-tertiary: #566079;      /* ≥ 5:1 on white and on the section tints */
 
-  --accent: #1E3A6E;             /* plaque navy — 11:1 on paper; was teal #0F766E */
-  --accent-hover: #142A52;       /* deeper enamel for hover */
-  --accent-soft: #EAF0FA;        /* pale navy wash */
-  --accent-warm: #F59E0B;        /* sunny amber */
-  --accent-pink: #C2410C;        /* brick — the one warm pop (was pop pink) */
-  --plaque-frame: #2E7D4F;       /* the green rim of a Paris street plaque */
+  --accent: #4F46E5;             /* indigo — 6.3:1 on white */
+  --accent-hover: #4338CA;
+  --accent-soft: #EEF0FF;
+  --accent-warm: #F59E0B;
+  --accent-pink: #DB2777;        /* pink pop — 4.9:1 on white (variable name kept) */
+  --accent-cyan: #0891B2;        /* third voice — 4.6:1 on white */
+  --plaque-frame: #EC4899;       /* rim of the place-name badge */
+
+  /* Section backgrounds — one solid colour per section, rotating (solid, not a
+     gradient: the band is painted beside narrow columns by a box-shadow, and a
+     gradient would leave a visible seam against the solid side fill). */
+  --band-indigo: #E9E6FF;
+  --band-pink: #FFE4F1;
+  --band-sky: #DFEEFF;
+  --band-aqua: #DBF6FA;
+  --band-lilac: #EFE6FF;
+  --band-bold: linear-gradient(120deg, #4338CA 0%, #7C3AED 45%, #DB2777 100%);
 
   --success: #22C55E;
   --warning: #F59E0B;
@@ -110,8 +123,8 @@ body {
 }
 
 @keyframes accentPulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(30, 58, 110, 0.30); }
-  50% { box-shadow: 0 0 0 10px rgba(30, 58, 110, 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.35); }
+  50% { box-shadow: 0 0 0 10px rgba(79, 70, 229, 0); }
 }
 
 .accent-pulse {
@@ -119,8 +132,8 @@ body {
 }
 
 .gradient-text {
-  /* ink-blue sweep; no green, so headline emphasis never mimics a score tier */
-  background: linear-gradient(100deg, #1E3A6E 0%, #2D5AA0 62%, #1E3A6E 100%);
+  /* indigo → pink → cyan sweep; no green, so emphasis never mimics a score tier */
+  background: linear-gradient(100deg, #4F46E5 0%, #DB2777 55%, #0891B2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -130,7 +143,7 @@ body {
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .card-hover:hover {
-  box-shadow: 0 0 0 1px rgba(30, 58, 110, 0.22), 0 12px 28px -6px rgba(24, 33, 47, 0.14);
+  box-shadow: 0 0 0 1px rgba(79, 70, 229, 0.25), 0 14px 32px -8px rgba(79, 70, 229, 0.28);
   transform: translateY(-2px);
 }
 
@@ -179,7 +192,7 @@ body {
 
 /* Hand-drawn marker underline for one emphasised phrase per page. */
 .ink-underline {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 14' preserveAspectRatio='none'><path d='M3 9 C 60 3, 140 12, 200 6 S 280 5, 297 8' fill='none' stroke='%23C2410C' stroke-width='3' stroke-linecap='round'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 14' preserveAspectRatio='none'><path d='M3 9 C 60 3, 140 12, 200 6 S 280 5, 297 8' fill='none' stroke='%23DB2777' stroke-width='3' stroke-linecap='round'/></svg>");
   background-repeat: no-repeat;
   background-size: 100% 0.32em;
   background-position: 0 96%;
@@ -366,16 +379,16 @@ body {
 
 /* Glass surface — translucent + blur */
 .glass {
-  background: rgba(255, 253, 248, 0.78);
+  background: rgba(255, 255, 255, 0.78);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(226, 217, 198, 0.9);
+  border: 1px solid rgba(223, 227, 242, 0.95);
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.8) inset,
     0 10px 30px -14px rgba(24, 33, 47, 0.22);
 }
 .glass-strong {
-  background: rgba(255, 253, 248, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
@@ -386,7 +399,7 @@ body {
   50% { background-position: 100% 50%; }
 }
 .gradient-text-anim {
-  background: linear-gradient(120deg, #1E3A6E 0%, #2D5AA0 45%, #C2410C 100%);
+  background: linear-gradient(120deg, #4F46E5 0%, #DB2777 50%, #0891B2 100%);
   background-size: 220% 220%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -486,9 +499,11 @@ body {
 /* Hero noise vignette */
 .bg-aurora {
   background:
-    radial-gradient(55% 45% at 50% 30%, rgba(255, 253, 248, 0.95), transparent 70%),
-    radial-gradient(40% 35% at 85% 15%, rgba(45, 90, 160, 0.08), transparent 70%),
-    radial-gradient(45% 40% at 10% 85%, rgba(194, 65, 12, 0.06), transparent 70%);
+    radial-gradient(45% 50% at 15% 20%, rgba(79, 70, 229, 0.30), transparent 70%),
+    radial-gradient(40% 45% at 85% 15%, rgba(219, 39, 119, 0.24), transparent 70%),
+    radial-gradient(50% 50% at 75% 90%, rgba(8, 145, 178, 0.22), transparent 70%),
+    radial-gradient(45% 45% at 20% 95%, rgba(124, 58, 237, 0.16), transparent 70%),
+    linear-gradient(180deg, #F3F1FF 0%, #FDF2F8 100%);
 }
 
 /* Reduced motion: disable heavy effects */
@@ -532,4 +547,46 @@ body {
     transform: none !important;
     filter: none !important;
   }
+}
+
+/* === Section backgrounds (« Couleurs », 2026-10-22) =========================
+   Every section gets its own colour band so the page reads as a sequence of
+   distinct blocks instead of one white sheet. The band is painted full-bleed
+   even when the section itself is a narrow centred column: the box-shadow
+   spreads the colour sideways and clip-path keeps it from leaking vertically.
+   html { overflow-x: clip } already prevents any horizontal scroll. */
+.band {
+  box-shadow: 0 0 0 100vmax var(--band-color, transparent);
+  clip-path: inset(0 -100vmax);
+}
+.band-indigo { background: var(--band-indigo); --band-color: #E9E6FF; }
+.band-pink   { background: var(--band-pink);   --band-color: #FFE4F1; }
+.band-sky    { background: var(--band-sky);    --band-color: #DFEEFF; }
+.band-aqua   { background: var(--band-aqua);   --band-color: #DBF6FA; }
+.band-lilac  { background: var(--band-lilac);  --band-color: #EFE6FF; }
+.band-white  { background: #FFFFFF;            --band-color: #FFFFFF; }
+
+/* Generic pages: top-level sections of <main> rotate through the bands
+   automatically. :where() keeps specificity at zero, so a section that sets its
+   own background with a utility class keeps it. */
+:where(main > section) {
+  box-shadow: 0 0 0 100vmax var(--band-color, transparent);
+  clip-path: inset(0 -100vmax);
+}
+:where(main > section:nth-of-type(5n + 1)) { background: var(--band-indigo); --band-color: #E9E6FF; }
+:where(main > section:nth-of-type(5n + 2)) { background: var(--band-sky);    --band-color: #DFEEFF; }
+:where(main > section:nth-of-type(5n + 3)) { background: var(--band-pink);   --band-color: #FFE4F1; }
+:where(main > section:nth-of-type(5n + 4)) { background: var(--band-aqua);   --band-color: #DBF6FA; }
+:where(main > section:nth-of-type(5n + 5)) { background: var(--band-lilac);  --band-color: #EFE6FF; }
+
+/* Bold band: indigo → violet → pink, white text. For one call-to-action block. */
+.band-bold {
+  background: var(--band-bold);
+  --band-color: #6D3FD8;
+  color: #fff;
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255, 255, 255, 0.88);
+  --text-tertiary: rgba(255, 255, 255, 0.78);
+  --border: rgba(255, 255, 255, 0.28);
+  --bg-surface: rgba(255, 255, 255, 0.12);
 }

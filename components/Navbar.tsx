@@ -186,7 +186,7 @@ const NAV_ALL_EN: NavItem[] = [
   { label: "Contact",         href: "/contact", matchPrefix: "/contact" },
 ];
 
-// Mobile bottom tab bar — 4 highest-intent + Menu
+// Mobile bottom tab bar — 4 highest-intent + Menu (City Match retiré à la demande du propriétaire, 2026-10-22)
 interface BottomTab {
   label: string;
   href: string;
@@ -196,14 +196,12 @@ interface BottomTab {
 const BOTTOM_TABS_FR: BottomTab[] = [
   { label: "Villes",  href: "/villes",      icon: Globe2,    matchPrefix: "/villes" },
   { label: "Top",     href: "/classements", icon: BarChart3, matchPrefix: "/classements" },
-  { label: "City Match",    href: "/city-match",        icon: Heart,  matchPrefix: "/city-match" },
   { label: "Red Flags", href: "/red-flags",  icon: Flag,      matchPrefix: "/red-flags" },
   { label: "Politique", href: "/orientation-politique", icon: Vote, matchPrefix: "/orientation-politique" },
 ];
 const BOTTOM_TABS_EN: BottomTab[] = [
   { label: "Cities",   href: "/cities",   icon: Globe2,    matchPrefix: "/cities" },
   { label: "Rankings", href: "/rankings", icon: BarChart3, matchPrefix: "/rankings" },
-  { label: "City Match",     href: "/city-match",     icon: Heart,  matchPrefix: "/city-match" },
   { label: "Red flags", href: "/red-flags", icon: Flag,     matchPrefix: "/red-flags" },
   { label: "Politics", href: "/political-leaning", icon: Vote, matchPrefix: "/political-leaning" },
 ];
@@ -500,7 +498,7 @@ export function Navbar() {
         aria-label={IS_EN ? "Primary" : "Navigation principale"}
         className="lg:hidden fixed inset-x-0 bottom-0 z-50 border-t border-[var(--border)]/70 bg-[var(--bg-canvas)]/90 backdrop-blur-xl pb-[env(safe-area-inset-bottom)]"
       >
-        <div className="mx-auto grid max-w-lg grid-cols-6">
+        <div className="mx-auto grid max-w-lg grid-cols-5">
           {BOTTOM_TABS.map((tab) => {
             const active = isActivePath(tab.matchPrefix, pathname);
             const Icon = tab.icon;

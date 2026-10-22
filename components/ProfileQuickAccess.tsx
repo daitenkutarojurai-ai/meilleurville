@@ -81,7 +81,7 @@ export function ProfileQuickAccess({ locale = "fr" }: { locale?: "fr" | "en" } =
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const total = pad2(PROFILES.length);
   return (
-    <section className="py-8 sm:py-14">
+    <section className="band band-lilac py-8 sm:py-14">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
           <div>

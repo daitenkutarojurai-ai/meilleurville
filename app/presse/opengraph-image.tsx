@@ -27,8 +27,8 @@ export default function Image() {
       >
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <svg width="32" height="32" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#1E3A6E" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#1E3A6E" /></svg>
-            <span style={{ color: "#1E3A6E", fontSize: "20px", fontWeight: 700 }}>MaVilleIdéale</span>
+            <svg width="32" height="32" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#4F46E5" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#4F46E5" /></svg>
+            <span style={{ color: "#4F46E5", fontSize: "20px", fontWeight: 700 }}>MaVilleIdéale</span>
           </div>
           <div
             style={{
@@ -72,7 +72,7 @@ export default function Image() {
                 flex: 1,
               }}
             >
-              <span style={{ color: "#1E3A6E", fontSize: "28px", fontWeight: 900 }}>#{i + 1}</span>
+              <span style={{ color: "#4F46E5", fontSize: "28px", fontWeight: 900 }}>#{i + 1}</span>
               <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                 <span style={{ color: "#f0f6fc", fontSize: "18px", fontWeight: 700 }}>{c.name}</span>
                 <span style={{ color: "#8b949e", fontSize: "13px" }}>{c.scores.global.toFixed(2)}/10 · {c.department}</span>

@@ -126,7 +126,7 @@ const SCALE_LABEL = DEFAULT_LOCALE === "en" ? "Map scale" : "Échelle";
 // scale bar in the legend line. No aurora, no grain, no score colours.
 export function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-[#18212F] text-[#D7DCE4]">
+    <footer className="relative overflow-hidden bg-gradient-to-br from-[#1E1B4B] via-[#312E81] to-[#701A75] text-[#E2E4F3]">
       {/* Enamel plaque band: navy field over the green rim */}
       <div
         className="h-2 w-full"

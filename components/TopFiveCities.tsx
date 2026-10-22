@@ -32,7 +32,7 @@ export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
     .slice(0, 5);
 
   return (
-    <section id="top5" className="relative py-8 sm:py-20">
+    <section id="top5" className="band band-indigo relative py-8 sm:py-20">
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8 border-t border-[var(--border)] pt-6">
           <div>

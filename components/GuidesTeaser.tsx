@@ -29,7 +29,7 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const [hero, ...rest] = featured;
 
   return (
-    <section id="guides" className="py-8 sm:py-20">
+    <section id="guides" className="band band-sky py-8 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
           <div>

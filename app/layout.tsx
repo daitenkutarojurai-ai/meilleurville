@@ -115,7 +115,7 @@ export const metadata: Metadata = {
     title: SITE_NAME,
   },
   other: {
-    "theme-color": "#1E3A6E",
+    "theme-color": "#4F46E5",
     "mobile-web-app-capable": "yes",
   },
 };

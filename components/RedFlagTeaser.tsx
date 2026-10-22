@@ -38,7 +38,7 @@ export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
   ];
 
   return (
-    <section className="py-8 sm:py-16">
+    <section className="band band-pink py-8 sm:py-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="grid items-center gap-10 border-t border-[var(--border)] pt-6 lg:grid-cols-2">
           {/* Left: copy */}

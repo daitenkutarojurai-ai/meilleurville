@@ -64,15 +64,15 @@ export default function Image() {
         {/* Top: branding */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-            <svg width="44" height="44" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#1E3A6E" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#1E3A6E" /></svg>
+            <svg width="44" height="44" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#4F46E5" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#4F46E5" /></svg>
             <span style={{ color: "#f0f6fc", fontSize: "26px", fontWeight: 800 }}>
               {COPY.brand}
             </span>
           </div>
           <div
             style={{
-              background: "#1E3A6E22",
-              border: "1px solid #1E3A6E44",
+              background: "#4F46E522",
+              border: "1px solid #4F46E544",
               borderRadius: "20px",
               padding: "6px 16px",
               color: "#2DD4BF",
@@ -94,7 +94,7 @@ export default function Image() {
           </div>
           <div
             style={{
-              color: "#1E3A6E",
+              color: "#4F46E5",
               fontSize: "68px",
               fontWeight: 900,
               lineHeight: 1.05,
@@ -136,8 +136,8 @@ export default function Image() {
           <div
             style={{
               flex: 1,
-              background: "#1E3A6E11",
-              border: "1px solid #1E3A6E33",
+              background: "#4F46E511",
+              border: "1px solid #4F46E533",
               borderRadius: "12px",
               padding: "14px 16px",
               display: "flex",
@@ -147,7 +147,7 @@ export default function Image() {
               justifyContent: "center",
             }}
           >
-            <span style={{ color: "#1E3A6E", fontSize: "22px", fontWeight: 900 }}>✨</span>
+            <span style={{ color: "#4F46E5", fontSize: "22px", fontWeight: 900 }}>✨</span>
             <span style={{ color: "#2DD4BF", fontSize: "12px", fontWeight: 600, textAlign: "center" }}>
               {COPY.quizA}
             </span>

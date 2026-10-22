@@ -115,39 +115,32 @@ Write « (source : notre fiche ville) », « notre estimation des loyers », « 
 which also rewrites a batch in place; `npm run integrity` (garde `sources`) fails on any
 `data/…`, `lib/…` path left in a guide string. Paths stay fine in ROADMAP/CLAUDE.md and comments.
 
-## Design identity — « Carte & plaque » (2026-10-16)
+## Design identity — « Couleurs » (2026-10-22)
 
-The site used to look like a generic SaaS template (WebGL pastel blobs, green→amber gradient
-headline, rose/fuchsia CTA). It now has one identity, taken from two French objects: the
-**survey map** (paper, ink, contour lines) and the **enamel Paris street plaque** (navy field,
-white keyline, green rim). Tokens live in `app/globals.css`; keep to them.
+Le 2026-10-22 le propriétaire a rejeté « Carte & plaque » (papier crème + bleu marine, 2026-10-16) :
+« trop blanc et moche, je veux quelque chose de moderne mais coloré, et un fond distinct pour chaque
+section ». Tokens dans `app/globals.css` ; s'y tenir.
 
-- **Palette**: paper `--bg-canvas #F6F2E9`, card stock `--bg-surface #FFFDF8`, ink
-  `--text-primary #18212F`, single accent **plaque navy `--accent #1E3A6E`**, one warm pop
-  **brick `--accent-pink #C2410C`** (the variable kept its old name), `--plaque-frame #2E7D4F`.
-  Green / lime / amber / orange / red / violet are **reserved for the 6 score tiers** — never use
-  them as decoration, or a reader takes a colour for a score.
-- **Primitives**: `.plaque` / `.plaque-small` (place names, icon tiles, the City Match CTA —
-  never to encode a score), `.topo-bg` (contour texture, `public/textures/topo.svg`, generated
-  by a seeded script so it is byte-stable), `.ink-underline` (brick marker stroke, one phrase per
-  page at most), `.gradient-text` (navy sweep).
-- **Brand mark**: navy plaque with white keyline + white pin — `app/icon.svg`,
-  `components/BrandMark.tsx`, `app/apple-icon.png`, `theme-color` and every
-  `opengraph-image.tsx` share `#1E3A6E`; change all of them together or none.
-- `components/AmbientBackground.tsx` is a **server component** with no JS (it replaced a WebGL
-  mesh gradient). Don't reintroduce a canvas/WebGL background.
-- Converted 2026-10-16/17: `/classements` category tiles (plaque + « Feuille NN / 19 », see
-  `docs/design-journal.md`), CityCard tier band, the 4 quick-stat tiles of every city page (the
-  emerald→lime elevation tile read as a « bon » score), the Navbar/mobile City Match CTAs, the
-  cookie banner band (navy over green rim), `/projection-5ans` buttons, VsBattle (A navy, B brick)
-  and `components/Breadcrumbs.tsx` (semantic `<ol>`, wraps on mobile, `aria-current`).
-- **City photos stay** (owner request 2026-10-18): a card that represents one city keeps its
-  Commons photo (`cardPhoto` / `cityPhoto` + credit) and uses `.topo-bg` + plaque **only as the
-  no-photo fallback**. The 2026-10-18 home podium redesign swapped the photo for a topo sheet and
-  the owner asked for it back (`components/TopFiveCities.tsx`, commit 7f3d846). Don't remove
-  photos when converting a surface to « Carte & plaque ».
-- Still template-flavoured and fair game: emoji-heavy nav and mega-menu, the red-flags hero
-  gradients, sub-page cards elsewhere. Sweep: `grep -rnE "bg-gradient-to-[a-z]+ from-[a-z]+-[0-9]+"`.
+- **Palette** : fond `--bg-canvas #F5F7FF`, cartes `--bg-surface #FFFFFF`, texte `--text-primary #141B2D`,
+  accent **indigo `--accent #4F46E5`**, rose `--accent-pink #DB2777` (nom de variable conservé), cyan
+  `--accent-cyan #0891B2`, `--plaque-frame #EC4899`. Vert / lime / ambre / orange / rouge / violet restent
+  **réservés aux 6 paliers de score** : les accents décoratifs restent dans les familles indigo / rose / cyan.
+- **Une bande de couleur par section** : `.band .band-indigo | -pink | -sky | -aqua | -lilac | -white` (fond
+  uni peint pleine largeur même autour d'une colonne étroite, par box-shadow + clip-path), `.band-bold`
+  (dégradé indigo → violet → rose, texte blanc, variables de texte redéfinies) pour un seul appel à l'action.
+  Les sections de premier niveau de `<main>` tournent automatiquement entre les cinq bandes
+  (`:where(main > section)`, spécificité nulle : une classe de fond posée sur la section l'emporte).
+  L'accueil pose ses bandes explicitement, deux sections voisines n'ont jamais la même.
+- Hero en aurore colorée (`.bg-aurora`), titres en `.gradient-text` (indigo → rose → cyan), pied de page
+  en dégradé indigo nuit → prune.
+- **Marque** : `#4F46E5` partout où il y avait `#1E3A6E` (icône, BrandMark, theme-color, images OG).
+  ⚠️ `app/apple-icon.png` est un PNG resté marine : à régénérer.
+- **Barre du bas sur téléphone** : Villes · Top · Red Flags · Politique · Menu. City Match en a été retiré
+  à la demande du propriétaire (2026-10-22) ; il reste dans la barre du haut et le menu.
+- **Les photos de villes restent** (demande du 2026-10-18) : une carte qui représente une ville garde sa
+  photo Commons + crédit.
+- Ne réintroduis jamais le papier crème `#F6F2E9`, le marine `#1E3A6E` ni la brique `#C2410C`.
+  `components/AmbientBackground.tsx` reste un composant serveur sans JS : pas de fond WebGL/canvas.
 
 ## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar, all opengraph-image.tsx)
 

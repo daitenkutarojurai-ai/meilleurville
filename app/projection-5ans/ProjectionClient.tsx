@@ -300,7 +300,7 @@ export function ProjectionClient({
                 className="h-full rounded-full transition-all duration-500"
                 style={{
                   width: `${progress}%`,
-                  background: "linear-gradient(90deg, #1E3A6E, #2D5AA0)",
+                  background: "linear-gradient(90deg, #4F46E5, #DB2777)",
                 }}
               />
             </div>
@@ -784,7 +784,7 @@ function ProjectionCard({
                   className="h-full rounded-full"
                   style={{
                     width: `${ax.score * 10}%`,
-                    background: "linear-gradient(90deg, #1E3A6E, #2D5AA0)",
+                    background: "linear-gradient(90deg, #4F46E5, #DB2777)",
                   }}
                 />
               </div>

@@ -204,7 +204,7 @@ export function NewsletterSection({
   if (compact) return <section className="my-10">{envelope}</section>;
 
   return (
-    <section className="py-8 sm:py-16">
+    <section className="band band-indigo py-8 sm:py-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="border-t border-[var(--border)] pt-6">
           <p className="mb-4 inline-flex items-center gap-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">

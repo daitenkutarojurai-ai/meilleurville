@@ -35,12 +35,12 @@ export default function Image() {
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <svg width="36" height="36" viewBox="0 0 32 32">
-              <rect width="32" height="32" rx="7" fill="#1E3A6E" />
+              <rect width="32" height="32" rx="7" fill="#4F46E5" />
               <path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" />
-              <circle cx="16" cy="13" r="3.5" fill="#1E3A6E" />
+              <circle cx="16" cy="13" r="3.5" fill="#4F46E5" />
             </svg>
             <span style={{ color: "#0F172A", fontSize: "22px", fontWeight: 700 }}>
-              MaVille<span style={{ color: "#1E3A6E" }}>Idéale</span>
+              MaVille<span style={{ color: "#4F46E5" }}>Idéale</span>
             </span>
           </div>
           <div
