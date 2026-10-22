@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
+import { SportSpots } from "@/components/SportSpots";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -178,6 +179,8 @@ export default async function SportPage({ params }: Props) {
           <SportBlock dim={s.clubs} label="Vie associative" />
           <SportBlock dim={s.climate} label="Climat propice" />
         </div>
+
+        <SportSpots citySlug={city.slug} cityName={city.name} locale="fr" />
 
         {/* Methodology */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Méthodologie</h2>

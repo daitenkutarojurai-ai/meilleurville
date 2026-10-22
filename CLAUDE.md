@@ -355,6 +355,25 @@ we send back to organisers, so never rename one. Past events drop off at the nex
 `npm run integrity` checks city slugs, unique ids and dates. The month-by-month block below it is
 still the derived, indicative `lib/city-agenda.ts`.
 
+## Sport : salles, street workout, CrossFit, escalade + agenda sportif (2026-10-22)
+
+Demande du propriétaire. Deux briques, rendues par `components/SportSpots.tsx` (serveur, zéro JS) sur
+`/villes/[slug]/sport` et EN `/cities/[slug]/sports-leisure` :
+- **Où s'entraîner** : `data/city-sport-spots.json`, produit par `scripts/city-sport-spots.mjs`
+  (`npm run sport-spots`, `:stats`) depuis OpenStreetMap / Overpass, lu par `lib/sport-spots.ts` (serveur
+  uniquement). Quatre catégories : salles (`leisure=fitness_centre`), street workout (`leisure=fitness_station`,
+  agrès regroupés à 80 m en un spot), CrossFit (`sport=crossfit` **ou** nom « CrossFit / cross training »,
+  car le tag est rare), escalade. Les comptes sont complets, la liste est plafonnée aux plus proches du centre.
+  C'est ce qui est **cartographié**, pas un annuaire : la surface le dit, et porte l'attribution ODbL.
+  ⚠️ Deux garde-fous à ne pas retirer : un `remark` d'expiration Overpass est une erreur (Marseille est
+  d'abord sortie à 0), et une ville de 20 000 habitants ou plus à 0 lieu n'est **pas** écrite (Lyon à 0 sur un
+  miroir saturé, 89 salles en réalité). La collecte tourne dans `scripts/local-data-runner.sh` (120 villes
+  par passe, GitHub Actions) jusqu'à couvrir le seed.
+- **Prochains rendez-vous sportifs** : `kind: "sport"` dans `data/city-events.ts` (même règles que l'agenda :
+  date réelle, source lisible, rien d'estimé), JSON-LD `SportsEvent`, badge « Sport » sur la page agenda.
+  Alimenté par la routine `meilleurville-agenda-sport`. Un horaire de coup d'envoi ne s'écrit que publié par la
+  ligue ou le club ; sinon date seule.
+
 ## Adding a new content sub-page (per city)
 
 Pattern to follow: `app/villes/[slug]/climat/page.tsx`.

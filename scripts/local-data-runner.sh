@@ -105,6 +105,7 @@ OWNED=(
   data/city-biodiversity.json
   data/city-protected-areas.json
   data/city-news.json
+  data/city-sport-spots.json
   # Extension du seed (F34/F35) : pipelines relancés seulement quand le seed
   # porte une ville absente de leur sortie — cf. scripts/seed-coverage.mjs.
   data/city-population.json
@@ -390,6 +391,11 @@ run_stage "noms d'espèces (GBIF)" 1800 npm run biodiversity:vernacular
 
 # BODACC + Géorisques: ~4 s a city, the whole seed fits in one pass.
 run_stage "signaux publics (BODACC/CatNat)" 3600 npm run news -- --limit="$NEWS_LIMIT"
+
+# Salles et spots sportifs (OpenStreetMap / Overpass), demande du 2026-10-22 :
+# ~20 s la ville, 120 villes par passe ; ne collecte que les villes absentes du
+# JSON, donc l'étape rend la main en une seconde une fois les 593 couvertes.
+run_stage "salles et spots sportifs (OSM)" 3600 npm run sport-spots -- --limit=120
 
 # INPN protected areas. Two stages: `fetch` resolves the seven national zoning
 # layers on data.gouv.fr and downloads them, the ingest rasterises them against

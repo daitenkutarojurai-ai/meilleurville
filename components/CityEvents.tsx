@@ -62,6 +62,11 @@ export function CityEvents({
                   <div className="min-w-0">
                     <p className="text-sm font-semibold text-[var(--accent)] first-letter:uppercase">
                       {eventDateLabel(e, locale)}
+                      {e.kind === "sport" && (
+                        <span className="ml-2 inline-block rounded border border-[var(--accent)] px-1.5 py-px align-middle text-[0.7rem] font-semibold uppercase tracking-wide">
+                          {t("Sport", "Sport")}
+                        </span>
+                      )}
                     </p>
                     <h3 className="mt-0.5 text-lg font-semibold text-[var(--text-primary)]">
                       {locale === "fr" ? e.title : e.titleEn}

@@ -5,6 +5,7 @@ import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { SportSpots } from "@/components/SportSpots";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
   computeSportLeisure,
@@ -212,6 +213,10 @@ export default async function EnCitySports({ params }: Props) {
             hint="Weather you can actually train in across the year"
           />
         </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 sm:px-6">
+        <SportSpots citySlug={c.slug} cityName={c.name} locale="en" />
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-8">

@@ -25,6 +25,11 @@ export function upcomingCityEvents(citySlug: string, now = new Date()): CityEven
   );
 }
 
+/** Événements sportifs à venir d'une ville (agenda et sous-page sport). */
+export function upcomingSportEvents(citySlug: string, now = new Date()): CityEvent[] {
+  return upcomingCityEvents(citySlug, now).filter((e) => e.kind === "sport");
+}
+
 function fmtDay(iso: string, locale: "fr" | "en", withYear: boolean): string {
   return new Intl.DateTimeFormat(locale === "fr" ? "fr-FR" : "en-GB", {
     timeZone: isDateOnly(iso) ? "UTC" : TZ,
@@ -71,7 +76,7 @@ export function eventDateBadge(e: CityEvent, locale: "fr" | "en"): { day: string
 export function cityEventsJsonLd(events: CityEvent[], cityName: string, locale: "fr" | "en") {
   return events.map((e) => ({
     "@context": "https://schema.org",
-    "@type": "Event",
+    "@type": e.kind === "sport" ? "SportsEvent" : "Event",
     name: locale === "fr" ? e.title : e.titleEn,
     description: locale === "fr" ? e.body : e.bodyEn,
     startDate: e.start,
