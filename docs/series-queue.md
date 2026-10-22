@@ -23,7 +23,7 @@ villes. Comment écrire un lot : skill `.claude/skills/guide-batch/`.
 
 | # | Série FR | Jumelle EN | FR mesuré | EN mesuré | Cible | Statut |
 |---|---|---|---|---|---|---|
-| 1 | `famille-a-[ville]-2026` (+ `famille-au-mans-2026`) | `family-in-[city]-2026` | 27 | 19 | 60 | 🟢 |
+| 1 | `famille-a-[ville]-2026` (+ `famille-au-mans-2026`) | `family-in-[city]-2026` | 27 | 26 | 60 | 🟢 FR lot 2 ensuite |
 | 2 | `retraite-a-[ville]-2026` | `retiring-in-[city]-2026` | 30 | 31 | 50 | 🟢 |
 | 3 | `etudiant-a-[ville]-2026` | `studying-in-[city]-2026` | 40 | 40 (+1 guide national) | 60 | 🟢 parité atteinte, FR lot 4 ensuite |
 | 4 | `vivre-sans-voiture-[ville]-guide-2026` | `car-free-living-in-[city]-2026` | 15 (+1 guide national) | 15 | 30 | 🟢 |
@@ -37,7 +37,7 @@ marseille, nice, caen, dijon, tours, metz, clermont-ferrand, orleans, pau, besan
 - Lot 2 : perpignan, annecy, la-rochelle, poitiers, nancy, mulhouse, le-havre, avignon, vannes, chambery
 - Lot 3 : villes moyennes à fort score Famille (compile l'axe famille depuis `lib/`, prends les 10 premières
   non couvertes, population ≥ 30 000).
-Jumelles EN : `family-in-le-mans-2026` manque déjà + les 7 du lot 1 (grenoble, reims, rouen, brest, saint-etienne, limoges, amiens) : écart FR→EN = 8 → **le prochain run sur cette série est le lot EN**.
+Jumelles EN : ✅ les 7 du lot 1 livrées le 2026-10-22 (run suivant). Reste `family-in-le-mans-2026`, **reportée** : le guide FR `famille-au-mans-2026` (juillet) porte des fourchettes non sourcées (maison 250 000 €, budget 1 940–2 550 €, Paris à 56 min) ; à réécrire d'abord côté FR sur chiffres lus par module, puis la jumelle. Écart FR→EN = 1 → **le prochain run sur cette série est le lot FR 2**.
 
 ### 2. retraite-a — prochains lots
 Déjà couvertes : 30 (liste dans CLAUDE.md, table « Nouvelles séries de guides per-city »).
@@ -65,3 +65,4 @@ Liste des manques : diff des slugs de ville FR/EN (`grep -o 'slug: "demenager-a-
 - 2026-10-22 : studying-in EN 23 → 40 (+17), parité etudiant-a atteinte. Corrigé au passage dans `etudiant-a-saint-etienne-2026` : « la moins chère de cette série » était faux depuis le guide Valenciennes (studio 360 € contre 420 €).
 - 2026-10-22 : file créée (session manuelle). Compteurs mesurés sur `main` @ 001f981.
 - 2026-10-22 (run séries) : famille-a lot 1, +7 guides FR (grenoble, reims, rouen, brest, saint-etienne, limoges, amiens). Compteur mesuré FR 27 (`famille-a*`), EN 19. Chiffres lus par module (CITIES_SEED rendu, housing, DVF, Filosofi, Insee 2022) ; faits nommés recoupés par recherche web (téléphérique de la Bastille, Océanopolis/téléphérique de Brest, hortillonnages, Cité du design, tram A/B de Reims, Jardin des plantes de Rouen). Reportées au lot suivant : paris, toulon, nimes. tsc, integrity, search-index(:check), sitemap:check verts.
+- 2026-10-22 (run séries, 13h40 UTC) : family-in EN +7 (grenoble, reims, rouen, brest, saint-etienne, limoges, amiens). Mêmes chiffres que les guides FR, 6 sections, incises voyageur étranger (T3, carte scolaire, DVF), pas de `relatedGuides` (champ absent du type EnGuide). Compteurs mesurés FR 27, EN 26. Reportée : le-mans (voir plus haut). tsc, integrity, search-index(:check) verts ; aucun tag neuf.

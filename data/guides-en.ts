@@ -32449,6 +32449,300 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["besancon", "moving to france with children", "french school system", "bourgogne-franche-comte"],
   },
   {
+    slug: "family-in-grenoble-2026",
+    title: "Family life in Grenoble (2026): the numbers, the schools, the catch",
+    metaTitle: "Family Life in Grenoble 2026: T3 Rent, Schools, Safety",
+    metaDesc:
+      "Raising children in Grenoble in 2026: a €1,020 T3, a top-band schools score, mountains at the end of the street, and a safety score that deserves a second look.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Grenoble costs families markedly less than Lyon: a T3 (a three-room flat, two bedrooms and a living room) rents for €1,020 a month on our rent estimate, against €1,380 in Lyon, and its schooling score of 9.0 on our city profile puts it joint 1st of 593 cities with twelve others. The trade-off sits elsewhere: its safety score of 4.3 ranks 466th of 593. This guide follows those numbers to say which households the city suits.",
+    sections: [
+      {
+        heading: "What does housing cost a family in Grenoble?",
+        body: "A T3 rents for €1,020 a month on our rent estimate, €360 less than Lyon (€1,380) and €430 less than Annecy (€1,450). To buy, the median flat sold in 2024-2025 went for €2,500 per m² (4,561 sales, from the national DVF property-transaction register) and the median house for €3,436 (only 120 sales: inside the city limits, a house is a rarity, and a house price includes its land). Median standard of living is €22,140 a year per consumption unit (Insee, Filosofi 2021), above the €21,445 median of the cities on this site.",
+      },
+      {
+        heading: "Do Grenoble's schools live up to their rank?",
+        body: "On our city profile the schooling axis scores 9.0, rank 1 of 593 but tied with twelve other cities, so the band does not separate them: it says Grenoble belongs to the top of the set, level with Lyon (8.9). It measures school and university provision across the commune and is not a league table of establishments. For a specific school, the mairie's school-catchment map (the carte scolaire, which assigns children by home address) is what counts, so check it before you sign a lease.",
+      },
+      {
+        heading: "Are there many children in Grenoble?",
+        body: "Children aged 0 to 14 make up 14.7% of residents in 2022 (Insee) and people aged 60 and over 19.6%: a young city, pulled up by students, but not a family city the way Villeurbanne is (16.6% under 15). The commune's population fell 1.1% between 2016 and 2022, and part of the family market has moved to the ring, to Échirolles, Fontaine, Saint-Martin-d'Hères or Voiron, where family housing is easier to find.",
+      },
+      {
+        heading: "What is there to do with children at the weekend?",
+        body: "The Bastille cable car, with its spherical cabins nicknamed « les Bulles », is the city's ritual: it climbs from the Quai Stéphane-Jay to the Bastille fort and has run since 1934. Parc Paul-Mistral, inherited from the 1968 Winter Olympics, is a large open-air playground. Our nature score is 8.4 (30th of 593, shared with three other cities): the mountains start at the end of the street, which changes life for a sporty household.",
+      },
+      {
+        heading: "What weakness should you check before moving?",
+        body: "Safety. Our safety score is 4.3, rank 466 of 593 (eleven cities tied), far below its schooling and nature scores. It summarises commune-level tendencies and says nothing about a given street, so the neighbourhood you pick matters more than the average. It deserves a visit at several times of day before you commit.",
+      },
+      {
+        heading: "Is Grenoble right for your family?",
+        body: "Yes for households that want mountains, technology jobs and a university city at a T3 rent under €1,100, with children comfortable in a real city. Probably not if neighbourhood safety is your first criterion, or if you want a house with a garden in the central commune: in Grenoble that means the outskirts. Against Lyon, Grenoble costs much less for comparable schooling scores; against Chambéry (T3 at €1,100), it offers more city and less calm.",
+      },
+    ],
+    relatedCities: ["grenoble", "lyon", "chambery", "voiron", "annecy"],
+    tags: ["grenoble", "moving to france with children", "french school system", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "family-in-reims-2026",
+    title: "Family life in Reims (2026): a house at flat prices, and what it costs elsewhere",
+    metaTitle: "Family Life in Reims 2026: Budget, Schools, House or Flat",
+    metaDesc:
+      "Raising children in Reims in 2026: a €900 T3, houses priced the same per m² as flats, 16.2% of residents under 15, and how Reims compares with Châlons.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "In Reims a family finds a T3 (two bedrooms and a living room) at €900 a month on our rent estimate and, unusually, a house priced the same per m² as a flat: €2,629 against €2,621 at the 2024-2025 median (national DVF property register). Aiming for a house costs none of the usual premium. The drawback: the population fell 2.5% between 2016 and 2022 and the schooling score stays middling at 6.2.",
+    sections: [
+      {
+        heading: "House or flat: what does the Reims market say?",
+        body: "Over 2024-2025 the median flat sold for €2,621 per m² (3,575 sales) and the median house for €2,629 (978 sales). The two are almost identical, whereas in many comparable cities a house costs clearly more per m². For a family that puts a house within reach as soon as the budget exceeds that of a large flat: the m² is no dearer, it is the size that sets the price (and a house price includes its land). To rent, a T3 is €900 a month and a T2 €680.",
+      },
+      {
+        heading: "What incomes sit behind those prices?",
+        body: "Median standard of living is €20,210 a year per consumption unit (Insee, Filosofi 2021), below the €21,445 median of the cities on this site, and the poverty rate is 24%. Set against rent, a €900 T3 weighs more than in Brest (€850) for a median income of the same order: the city is affordable without being cheap for the people who live there, which matters to a one-salary household.",
+      },
+      {
+        heading: "How many children, and what about school?",
+        body: "Under-15s are 16.2% of the population in 2022 (Insee) and people aged 60 and over 21.9%: a more family-shaped profile than Grenoble (14.7%). Our schooling score is 6.2, rank 219 of 593 with twenty-seven other cities at the same level: fine, with no particular advantage. For lycées and course options, look at the school-catchment map (carte scolaire) and the sectors rather than the city score.",
+      },
+      {
+        heading: "Can you get around Reims with children and no car?",
+        body: "Reims has two tram lines, A and B, sharing the central trunk between Neuchâtel in the north and the Debré hospital or the Champagne-Ardenne TGV station in the south, which makes a second car unnecessary in the centre. Our transport score is 6.4 (rank 200): decent for the size. The Parc de Champagne and the Parc Léo-Lagrange serve as large play areas, the latter reached by bus rather than tram.",
+      },
+      {
+        heading: "Reims against its neighbours in the Marne",
+        body: "Châlons-en-Champagne offers a T3 at €720 and flats at €1,410 per m² (well under Reims's €2,621), with 16.5% under-15s; Épernay a T3 at €850. The trade is simple: Reims gives the range of a regional metropolis and a TGV to Paris, Châlons the cheapest housing, but in a far smaller city (43,218 residents against 178,478).",
+      },
+      {
+        heading: "Which families does Reims suit?",
+        body: "Households that want to buy with children at a provincial price without leaving a real city, and that need to reach Paris by train. Less so if you count on a strong nature score: it is 4.2 (rank 463). The choice comes down to the house-at-flat-price arbitrage against the income effort, and on our figures the first is excellent and the second moderate.",
+      },
+    ],
+    relatedCities: ["reims", "chalons-en-champagne", "epernay", "amiens"],
+    tags: ["reims", "moving to france with children", "french school system", "grand-est"],
+  },
+  {
+    slug: "family-in-rouen-2026",
+    title: "Family life in Rouen (2026): a growing city, a €950 T3",
+    metaTitle: "Family Life in Rouen 2026: Budget, Schools, Daily Life",
+    metaDesc:
+      "Raising children in Rouen in 2026: a €950 T3, 5.6% more residents since 2016, schooling score 6.6, and how Rouen compares with Le Havre.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Rouen is gaining residents: +5.6% between 2016 and 2022 (Insee), with a T3 (two bedrooms and a living room) at €950 a month on our rent estimate. It is the city for a family that wants heritage, the Seine and the jobs of a regional capital. Its schooling score, 6.6, is solid without being outstanding, and its nature score, 4.5, means making up the difference with parks.",
+    sections: [
+      {
+        heading: "Does Rouen attract families?",
+        body: "By the numbers, yes: the municipal population reached 116,331 in 2022, up 5.6% on 2016, while Paris lost 3.5% over the same period. Under-15s are 14.2% of residents and people aged 60 and over 18.6%: a young, university-flavoured city more than a city of settled families, but the direction is positive.",
+      },
+      {
+        heading: "What does family housing cost?",
+        body: "A T3 rents for €950 a month on our rent estimate. To buy, the 2024-2025 median from the national DVF property register is €2,692 per m² for flats (3,532 sales) and €2,797 for houses (697 sales): the gap is thin, and a house stays within a family budget (the house price includes its land). Median standard of living is €21,330 per consumption unit (Insee, Filosofi 2021), just under the median of the cities on this site.",
+      },
+      {
+        heading: "What level are the schools?",
+        body: "Our schooling score is 6.6, rank 105 of 593, but that rank is shared with a hundred and nine other cities: a broad band, not a ladder. Rouen sits level with Amiens (6.6) and above Le Havre (5.8). As elsewhere it measures provision across the commune; primaries and collèges are judged by school-catchment sector (the carte scolaire assigns by home address).",
+      },
+      {
+        heading: "What is there to do with the children?",
+        body: "The Jardin des plantes, on the left bank, offers ten free hectares with greenhouses, a rose garden, an arboretum and a play area. The Aître Saint-Maclou, a free-entry courtyard five minutes from the cathedral, delights children hunting for the skulls carved into its timbers. The Île Lacroix, with a 2.8 km walking loop, adds open space on the Seine.",
+      },
+      {
+        heading: "Rouen against Le Havre",
+        body: "Le Havre has a T3 at €870 and flats at €2,237 per m² (against €2,692 in Rouen), with 17.7% under-15s but a schooling score of 5.8. Rouen therefore costs €80 more a month for a T3 and buys one notch more on schools; Le Havre keeps the seafront advantage, which Rouen lacks.",
+      },
+      {
+        heading: "Verdict: who is Rouen for?",
+        body: "Families that want a large historic city on the rise, under two hours from Paris, with a T3 rent below €1,000. Less so for households that put safety first: the safety score is 4.7 (rank 399 of 593, twenty-eight cities tied). A family that values nature will find better beyond the metropolis than inside the commune.",
+      },
+    ],
+    relatedCities: ["rouen", "le-havre", "dieppe", "caen"],
+    tags: ["rouen", "moving to france with children", "french school system", "normandy"],
+  },
+  {
+    slug: "family-in-brest-2026",
+    title: "Family life in Brest (2026): sea, schools and an €850 T3",
+    metaTitle: "Family Life in Brest 2026: T3 at €850, Schools, Sea",
+    metaDesc:
+      "Raising children in Brest in 2026: a €850 T3, schooling score 7.4, a decent 5.7 on safety, and the sea within reach. Figures, Quimper and Lorient compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Brest gives a family a good balance between price and scores: a T3 (two bedrooms and a living room) at €850 a month on our rent estimate, a schooling score of 7.4 (90th of 593) and a safety score of 5.7, above Rouen's or Amiens's. Median income tracks the median of the cities on this site, at €21,420. The city faces the sea, provided you like wind.",
+    sections: [
+      {
+        heading: "What does it take to house a family in Brest?",
+        body: "A T3 rents for €850 a month on our rent estimate, a T2 for €650. To buy, the 2024-2025 median from the national DVF property register is €2,134 per m² for a flat (3,620 sales) and €2,394 for a house (1,113 sales, a very active market; a house price includes its land). Median standard of living is €21,420 per consumption unit, almost exactly the median of our cities (€21,445), and the poverty rate is 19%.",
+      },
+      {
+        heading: "Is Brest's schooling score a good one?",
+        body: "Yes: 7.4 on our city profile, rank 90 of 593 with ten other cities tied, so in the upper part of the set. It beats Quimper (6.6) and Lorient (6.6). It is an indicator of provision across the commune, helped by the presence of higher-education institutions; neighbourhood schools have to be judged on the spot, through the carte scolaire, the catchment map tied to your address.",
+      },
+      {
+        heading: "Is Brest safe for children?",
+        body: "Our safety score is 5.7, rank 241 of 593 (thirty-one cities tied): more favourable than Rouen's (4.7) or Amiens's (4.5). It is a commune average that does not replace a neighbourhood visit, but it is a rare asset for a city of 140,993 residents.",
+      },
+      {
+        heading: "What is there to do as a family?",
+        body: "The urban cable car, line C of the Bibus network, links Les Capucins to Siam over the Penfeld in a little under three minutes, and children love it. Océanopolis, with its tropical, polar and Breton pavilions, is the reference aquatic attraction. Brest's nature score is 6.4 (rank 173): sea, the roadstead and coastal paths just outside town.",
+      },
+      {
+        heading: "Brest against Quimper and Lorient",
+        body: "Quimper has a T3 at €940 and flats at €2,122 per m², with 14.3% under-15s; Lorient a T3 at €900. Brest is thus cheaper to rent than both neighbours and better scored on schools, but larger and more urban. Its population grew 1.2% between 2016 and 2022: a stable city, with no fashion effect.",
+      },
+      {
+        heading: "Verdict: who is it for?",
+        body: "Families who want the sea and a real city at a T3 rent below €900, with good schooling. Less so for anyone after a mild climate and a large tertiary job market: the city lives on defence, marine research and the hospital, and the distance from Paris is real. The natural comparison is Rennes, a few hours away, dearer and better connected.",
+      },
+    ],
+    relatedCities: ["brest", "quimper", "lorient", "morlaix", "rennes"],
+    tags: ["brest", "moving to france with children", "french school system", "brittany"],
+  },
+  {
+    slug: "family-in-saint-etienne-2026",
+    title: "Family life in Saint-Étienne (2026): cheap, big, and honest about the catch",
+    metaTitle: "Family Life in Saint-Étienne 2026: T3 at €770, Prices",
+    metaDesc:
+      "Raising children in Saint-Étienne in 2026: a €770 T3, flats at €1,197/m², 17.1% of residents under 15. The figures, and the reservations, plainly.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Saint-Étienne is a very large city with very cheap family housing: a T3 (two bedrooms and a living room) at €770 a month on our rent estimate and flats sold at €1,197 per m² at the 2024-2025 median, against €4,475 in Lyon. The entry price has a readable counterpart in the figures: a low median standard of living (€19,010), a 28% poverty rate and a safety score of 4.3.",
+    sections: [
+      {
+        heading: "What does a family home cost in Saint-Étienne?",
+        body: "A T3 rents for €770 a month, a T2 for €580. To buy, the median flat in the national DVF property register is €1,197 per m² (4,735 sales) and the median house €2,164 (472 sales; a house price includes its land): the house costs almost double per m², the sign of a very affordable flat stock. Against Lyon (flats at €4,475 per m²), buying in Saint-Étienne costs a little over a quarter as much.",
+      },
+      {
+        heading: "Are there children in Saint-Étienne?",
+        body: "Under-15s are 17.1% of the population in 2022 (Insee) and people aged 60 and over 25.7%: an age structure more family-shaped than Grenoble's (14.7%) or Limoges's (13.9%). The communal population is stable (+0.4% between 2016 and 2022) after decades of industrial decline, and that turnaround is what families come looking for.",
+      },
+      {
+        heading: "What about the schools?",
+        body: "Our schooling score is 5.8, rank 249 of 593 with twenty-one cities at the same level: below Grenoble (9.0) or Lyon (8.9), and it says little about any one school. Families who prioritise schooling look at the catchment (the carte scolaire assigns children by home address) before choosing a home, which the low housing cost makes easier to do.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Cité du design, set in the former arms Manufacture, opened in 2009; the Parc-Musée de la mine, built on the city's last pit, closed in 1973, goes down a safe gallery. The Musée d'art moderne et contemporain is at Saint-Priest-en-Jarez, reached from Saint-Étienne in a few minutes. Our nature score is 5.9 (rank 245): the Pilat regional park begins at the edge of the urban area.",
+      },
+      {
+        heading: "What reservations should you weigh before moving?",
+        body: "Three figures to read without rounding: a safety score of 4.3 (466th of 593), a poverty rate of 28% and a standard of living of €19,010, 495th of 586 covered cities. They summarise commune averages: the neighbourhood you choose and its distance from a school and the tram matter more than the city score. Our cost-of-living score, 7.1 (128th), shows the other side.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "For a family that wants to own a large flat on the budget of a Lyon three-room rental, Saint-Étienne is the best price-to-space ratio in this batch. For anyone counting on top-tier schooling or a neighbourhood reputed to be quiet, Roanne (T3 at €700) or the Lyon suburbs are comparisons worth making. An active household can also aim for work in Lyon and housing in Saint-Étienne; the commute has to be planned with open eyes.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "roanne", "saint-chamond", "firminy"],
+    tags: ["saint-etienne", "moving to france with children", "french school system", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "family-in-limoges-2026",
+    title: "Family life in Limoges (2026): calm, cheap, and short of children",
+    metaTitle: "Family Life in Limoges 2026: T3 at €800, Safety, Costs",
+    metaDesc:
+      "Raising children in Limoges in 2026: a €800 T3, safety scored 6.1, cost of living 7.1 but few children (13.9%). Figures, Poitiers and Brive compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Limoges is a calm, inexpensive city: a T3 (two bedrooms and a living room) at €800 a month on our rent estimate, flats at €1,518 per m² and a safety score of 6.1, the highest of this batch (rank 198 of 593). But its demographic figures are the opposite of a family city: 13.9% under 15, 28.0% aged 60 and over, and a population down 2.2% between 2016 and 2022.",
+    sections: [
+      {
+        heading: "What housing budget in Limoges?",
+        body: "A T3 rents for €800 a month, a T2 for €600. To buy, the 2024-2025 median from the national DVF property register is €1,518 per m² for a flat (2,575 sales) and €1,867 for a house (1,083 sales; a house price includes its land): a house stays within reach. Median standard of living is €20,590 per consumption unit (Insee, Filosofi 2021) and the poverty rate is 24%. Our cost-of-living score is 7.1, rank 128 of 593.",
+      },
+      {
+        heading: "Is Limoges safe?",
+        body: "It is its best number: 6.1 on our city profile, rank 198 of 593 (twenty cities tied), far above Grenoble (4.3), Rouen (4.7) or Saint-Étienne (4.3). It is a commune average and not a neighbourhood verdict, but for parents who put tranquillity first, that score counts.",
+      },
+      {
+        heading: "Children and schools",
+        body: "The schooling score is 6.2 (rank 219, twenty-seven cities tied). But the point to look at is demographic: 13.9% under 15 in 2022, the lowest share in this batch, and a communal population down 2.2% since 2016. School rolls are more fragile here than elsewhere, which can affect how classes are mapped.",
+      },
+      {
+        heading: "What is there to do as a family?",
+        body: "The Jardin de l'Évêché, laid out in terraces above the Vienne, covers more than five hectares and holds a botanical garden. The Musée national Adrien-Dubouché, devoted to porcelain and founded in 1845, ties the city to its industry. Our nature score is 5.6 (rank 320): gentle countryside, with neither mountains nor sea.",
+      },
+      {
+        heading: "Limoges against Poitiers and Brive",
+        body: "Poitiers has a T3 at €880 and a schooling score of 7.4, with 13.9% under-15s like Limoges; Brive-la-Gaillarde a T3 at €780 for 13.8%. Limoges sits between the two on rent, behind Poitiers on school scores, and ahead of both on safety.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Those who seek calm and a very tight budget, on one salary or with remote work already in hand: the local job market is narrower than in Poitiers or Bordeaux. Less so for families who want a buzz of children in the street and schools, or a wide choice of activities. Limoges is a city of quality of life rather than growth: the number that sums it up is its safety score.",
+      },
+    ],
+    relatedCities: ["limoges", "poitiers", "brive-la-gaillarde", "saint-yrieix-la-perche"],
+    tags: ["limoges", "moving to france with children", "french school system", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-amiens-2026",
+    title: "Family life in Amiens (2026): where a house is cheaper than a flat",
+    metaTitle: "Family Life in Amiens 2026: Budget, Schools, Houses",
+    metaDesc:
+      "Raising children in Amiens in 2026: a €900 T3, houses cheaper than flats (€2,273 vs €2,491 per m²), 16.2% of residents under 15. Figures and verdict.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "In Amiens a house costs less per m² than a flat: €2,273 against €2,491 at the 2024-2025 median (national DVF property register), which turns a family's usual arithmetic upside down. A T3 (two bedrooms and a living room) rents for €900 a month on our rent estimate and under-15s are 16.2% of residents. The counterweights: a safety score of 4.5 and a median standard of living of €19,650.",
+    sections: [
+      {
+        heading: "Why is a house cheaper than a flat?",
+        body: "Over 2024-2025 the median flat in Amiens sold at €2,491 per m² (1,481 sales) and the median house at €2,273 (1,631 sales). Houses, which change hands more often than flats, are therefore the more accessible market for a family (a house price includes its land); it is the reverse of Rouen (€2,692 against €2,797) or Toulon. A T3 rents for €900 a month, a T2 for €680.",
+      },
+      {
+        heading: "How do household finances look?",
+        body: "Median standard of living is €19,650 per consumption unit (Insee, Filosofi 2021), 451st of 586 covered cities, below the median of the cities on this site (€21,445), with a poverty rate of 26%. For a €900 T3 the effort is heavier than in Brest, where the T3 is €850 and median standard of living €21,420. Our cost-of-living score, 6.4, ranks 175th.",
+      },
+      {
+        heading: "What is the school level?",
+        body: "The schooling score is 6.6, rank 105 of 593, but the band holds a hundred and ten cities: a middle-to-upper level, identical to Rouen's and well below Lille's (7.9). As everywhere, the figure is communal, and the carte scolaire, the catchment map tied to your home address, decides for any particular family.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The hortillonnages, some 300 hectares of gardens on the water cut by canals called rieux, are visited by boat; the Jules Verne house, at 2 rue Charles-Dubois, interests children with its objects and a giant globe. Amiens zoo sits inside the city's botanical garden. The commune's nature score is 4.2 (rank 463), but these sites make up for it.",
+      },
+      {
+        heading: "Amiens against Lille and Arras",
+        body: "Lille has a T3 at €1,080 and flats at €3,705 per m², with a schooling score of 7.9, for €180 more rent a month. Arras is at €720 for a T3 and 17.1% under-15s. Amiens therefore sits between an expensive big metropolis and a cheap small prefecture, with the advantage of size (134,780 residents) and a population up 0.8% since 2016.",
+      },
+      {
+        heading: "Family verdict",
+        body: "For a family that wants to buy a house with a garden in a university prefecture without leaving a provincial budget, Amiens is one of the best options in this batch. For anyone counting on safety or a mild climate, a safety score of 4.5 (431st) and a position north of Paris are reasons to compare. Access to care is estimated as adequate on our model.",
+      },
+    ],
+    relatedCities: ["amiens", "lille", "arras", "abbeville", "peronne"],
+    tags: ["amiens", "moving to france with children", "french school system", "hauts-de-france"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",
