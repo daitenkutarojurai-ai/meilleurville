@@ -587,3 +587,33 @@ sur un motif présent dans la commande elle-même tue le shell (exit 144) : vise
 1. Section commentaires (`CommentSection`) — erreur en `red-50`, cartes arrondies : à inspecter.
 2. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.
 3. `FeedbackWidget` (sur toutes les sous-pages ville) — à inspecter.
+
+## 2026-10-22 ~03:00 UTC — section commentaires `components/CommentSection.tsx` (+ `ContributorBadge`)
+
+**Surface** : le bloc « Discussions » partagé — fiches ville (FR/EN), guides, classements, comparateur,
+red flags, contact. Un composant, des milliers de pages.
+
+**Changé**
+- En-tête : fin du sur-titre emoji « 💬 Communauté » → mono brique « Communauté · registre », titre sur
+  filet encre, compteur en mono.
+- Formulaire : fin du `glass` arrondi → cartouche à double filet (même trame que l'indice de vigilance),
+  repère « Nouvelle entrée », champs papier angles nets, pied sous filet pointillé.
+- Notes d'état : erreur `red-50`/`red-700` → filet brique gauche sur papier ; succès et abonnement
+  `emerald` → filet navy (le vert est réservé aux paliers) ; encart abonnement sans dégradé ni 📬.
+- Étoiles de note utilisateur : `amber` (palier) → brique ; `aria-pressed` + libellé « N sur 5 ».
+- Liste : cartes arrondies → registre `<ol>` à filets, entrées numérotées « N° 02 », initiale dans un
+  repère carré navy au lieu des avatars aux 6 teintes de score ; état vide sans emoji 🙊.
+- `ContributorBadge` (aussi utilisé par `QASection`) : bandeau émeraude à confettis multicolores →
+  tampon « Reçu » encre navy ; **devient bilingue** (`locale`), il affichait du français sur l'EN ;
+  `prefers-reduced-motion` respecté ; l'effet `setState` (erreur lint préexistante) remplacé par un
+  ajustement d'état au rendu.
+- Non touché : logique d'envoi, API, honeypot, copie.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 3
+fichiers : 0 erreur (1 de moins). Captures `next dev` + playwright-core `/guides/10-choses-a-faire-a-lyon-2026`
+à 1440 et 390 px (API commentaires simulée par `page.route`), `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `QASection` (questions par ville) — cartes arrondies, erreur `red-50`, avatars aux teintes de score : même traitement.
+2. Hero home — pastille « ✨ On en parle » et puces de villes arrondies : fiche/plaque.
+3. `FeedbackWidget` (sur toutes les sous-pages ville) — à inspecter.

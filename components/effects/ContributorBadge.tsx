@@ -1,73 +1,59 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 interface ContributorBadgeProps {
   visible: boolean;
+  locale?: "fr" | "en";
 }
 
-export function ContributorBadge({ visible }: ContributorBadgeProps) {
+/**
+ * Accusé de réception d'une contribution, en registre « Carte & plaque » :
+ * un tampon encre navy posé sur une note à filet, au lieu de l'ancien bandeau
+ * émeraude à confettis — le vert et les teintes de confettis étant réservés
+ * aux paliers de score.
+ */
+export function ContributorBadge({ visible, locale = "fr" }: ContributorBadgeProps) {
   const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    if (visible) setMounted(true);
-  }, [visible]);
+  // Reste monté après la première apparition, pour que le fondu de sortie joue.
+  // Ajustement d'état pendant le rendu (motif React « derived state »), pas d'effet.
+  if (visible && !mounted) setMounted(true);
 
   if (!mounted && !visible) return null;
+
+  const en = locale === "en";
 
   return (
     <div
       aria-live="polite"
       role="status"
       className={[
-        "relative mt-3 flex items-center gap-3 rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800 overflow-hidden",
+        "mt-3 flex items-center gap-3 border-l-2 border-[var(--accent)] bg-[var(--bg-canvas)] px-4 py-3 text-sm text-[var(--text-primary)]",
         "transition-all duration-500",
         visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none",
       ].join(" ")}
     >
-      {/* Animated checkmark */}
-      <span className="contributor-check flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-emerald-500 text-white text-base font-bold shadow-md">
-        ✓
+      <span
+        aria-hidden
+        className="contributor-stamp inline-flex shrink-0 -rotate-6 items-center rounded-sm border-2 border-[var(--accent)] px-1.5 py-0.5 font-mono-data text-[10px] font-bold uppercase tracking-[0.18em] text-[var(--accent)]"
+      >
+        {en ? "Received" : "Reçu"}
       </span>
-
-      <span className="font-semibold">Merci pour votre contribution !</span>
-
-      {/* CSS confetti dots */}
-      <span aria-hidden className="confetti-container absolute inset-0 pointer-events-none">
-        {[...Array(8)].map((_, i) => (
-          <span
-            key={i}
-            className="confetti-dot"
-            style={{
-              left: `${10 + i * 11}%`,
-              animationDelay: `${i * 0.08}s`,
-              background: ["#22C55E","#84CC16","#F59E0B","#EC4899","#0EA5E9","#A855F7","#F97316","#14B8A6"][i],
-            }}
-          />
-        ))}
+      <span className="font-semibold">
+        {en ? "Thanks for your contribution!" : "Merci pour votre contribution !"}
       </span>
 
       <style>{`
-        .contributor-check {
-          animation: checkPop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        .contributor-stamp {
+          animation: stampIn 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) both;
         }
-        @keyframes checkPop {
-          from { transform: scale(0); opacity: 0; }
-          to   { transform: scale(1); opacity: 1; }
+        @keyframes stampIn {
+          from { transform: rotate(-6deg) scale(1.6); opacity: 0; }
+          to   { transform: rotate(-6deg) scale(1); opacity: 1; }
         }
-        .confetti-dot {
-          position: absolute;
-          width: 6px;
-          height: 6px;
-          border-radius: 50%;
-          top: 0;
-          animation: confettiFall 0.8s ease-out forwards;
-          opacity: 0;
-        }
-        @keyframes confettiFall {
-          0%   { transform: translateY(-4px) scale(0); opacity: 1; }
-          60%  { opacity: 1; }
-          100% { transform: translateY(40px) scale(0.6); opacity: 0; }
+        @media (prefers-reduced-motion: reduce) {
+          .contributor-stamp { animation: none; }
         }
       `}</style>
     </div>

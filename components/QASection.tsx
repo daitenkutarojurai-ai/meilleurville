@@ -198,7 +198,7 @@ function AnswerForm({
           <span>{error}</span>
         </div>
       )}
-      <ContributorBadge visible={showBadge} />
+      <ContributorBadge visible={showBadge} locale={locale} />
     </form>
   );
 }
@@ -533,7 +533,7 @@ export function QASection({ citySlug, cityName, locale = "fr" }: QASectionProps)
             <span>{error}</span>
           </div>
         )}
-        <ContributorBadge visible={showBadge} />
+        <ContributorBadge visible={showBadge} locale={locale} />
       </form>
 
       {/* Questions list */}
