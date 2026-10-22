@@ -25,7 +25,7 @@ villes. Comment écrire un lot : skill `.claude/skills/guide-batch/`.
 |---|---|---|---|---|---|---|
 | 1 | `famille-a-[ville]-2026` (+ `famille-au-mans-2026`) | `family-in-[city]-2026` | 27 | 19 | 60 | 🟢 |
 | 2 | `retraite-a-[ville]-2026` | `retiring-in-[city]-2026` | 30 | 31 | 50 | 🟢 |
-| 3 | `etudiant-a-[ville]-2026` | `studying-in-[city]-2026` | 40 | 23 (+1 guide national) | 60 | 🟢 EN d'abord (écart 17) |
+| 3 | `etudiant-a-[ville]-2026` | `studying-in-[city]-2026` | 40 | 40 (+1 guide national) | 60 | 🟢 parité atteinte, FR lot 4 ensuite |
 | 4 | `vivre-sans-voiture-[ville]-guide-2026` | `car-free-living-in-[city]-2026` | 15 (+1 guide national) | 15 | 30 | 🟢 |
 | 5 | `demenager-a-*` (close FR, 50) | `moving-to-[city]-2026` | 50 | 36 | 50 | 🟢 EN seule |
 | 6 | `vivre-a-*` (close FR, 51) | `living-in-[city]-2026` | 51 | 45 | 51 | 🟢 EN seule |
@@ -44,10 +44,12 @@ Déjà couvertes : 30 (liste dans CLAUDE.md, table « Nouvelles séries de guide
 - Lot 4 : biarritz, arcachon, saint-malo, annecy, aix-en-provence, avignon, nimes, beziers, narbonne, sete
 - Lot 5 : quimper, lorient, saint-brieuc, colmar, bayonne, menton, antibes, cannes, frejus, dax
 
-### 3. etudiant-a — EN d'abord
-⏳ **En cours, session manuelle du 2026-10-22 : les 17 jumelles EN ci-dessous. La routine ne les prend pas.**
-Jumelles EN manquantes (17) : rouen, reims, brest, orleans, metz, saint-etienne, le-mans, perpignan, pau,
-la-rochelle, toulon, avignon, chambery, valenciennes, mulhouse, le-havre, nimes.
+### 3. etudiant-a — parité EN atteinte le 2026-10-22
+✅ Les 17 jumelles EN manquantes sont livrées (session manuelle) : rouen, reims, brest, orleans, metz, saint-etienne,
+le-mans, perpignan, pau, la-rochelle, toulon, avignon, chambery, valenciennes, mulhouse, le-havre, nimes.
+Mêmes chiffres que les guides FR (contrôle mécanique des nombres passé) ; ajouts propres au lecteur étranger : droits
+différenciés hors UE « environ 2 900 € / 3 950 € » (les sources divergent à quelques euros, montant exact non cité),
+bourse Crous fermée aux non-UE, APL et Visale ouvertes, plafond de 964 h de travail par an.
 FR ensuite, lot 4 : annecy, vannes, lorient, quimper, colmar, troyes, la-roche-sur-yon, niort, cergy, evry-courcouronnes.
 
 ### 4. vivre-sans-voiture — FR puis EN
@@ -60,5 +62,6 @@ Liste des manques : diff des slugs de ville FR/EN (`grep -o 'slug: "demenager-a-
 `moving-to-`), en mappant les slugs hors gabarit documentés dans CLAUDE.md.
 
 ## Journal
+- 2026-10-22 : studying-in EN 23 → 40 (+17), parité etudiant-a atteinte. Corrigé au passage dans `etudiant-a-saint-etienne-2026` : « la moins chère de cette série » était faux depuis le guide Valenciennes (studio 360 € contre 420 €).
 - 2026-10-22 : file créée (session manuelle). Compteurs mesurés sur `main` @ 001f981.
 - 2026-10-22 (run séries) : famille-a lot 1, +7 guides FR (grenoble, reims, rouen, brest, saint-etienne, limoges, amiens). Compteur mesuré FR 27 (`famille-a*`), EN 19. Chiffres lus par module (CITIES_SEED rendu, housing, DVF, Filosofi, Insee 2022) ; faits nommés recoupés par recherche web (téléphérique de la Bastille, Océanopolis/téléphérique de Brest, hortillonnages, Cité du design, tram A/B de Reims, Jardin des plantes de Rouen). Reportées au lot suivant : paris, toulon, nimes. tsc, integrity, search-index(:check), sitemap:check verts.

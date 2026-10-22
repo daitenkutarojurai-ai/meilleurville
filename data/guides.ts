@@ -36801,13 +36801,13 @@ export const GUIDES: Guide[] = [
     slug: "etudiant-a-saint-etienne-2026",
     title: "Étudiant à Saint-Étienne en 2026 : logement, budget, campus, le guide",
     metaTitle: "Étudiant à Saint-Étienne 2026 : logement, budget",
-    metaDesc: "Étudier à Saint-Étienne en 2026 : studio à 420 €, le moins cher de notre lot, Lyon à environ 50 min, Mines et Jean-Monnet. Budget et pièges : le guide.",
+    metaDesc: "Étudier à Saint-Étienne en 2026 : studio à 420 €, parmi les plus bas de notre série, Lyon à environ 50 min, Mines et Jean-Monnet. Budget et pièges : le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
     publishedAt: "2026-10-18",
     updatedAt: "2026-10-18",
-    intro: "Saint-Étienne est la ville universitaire la moins chère de cette série : le studio y est estimé à 420 € par mois, contre 1 200 € à Paris et 760 € à Aix (source : notre estimation des loyers). Lyon est à environ cinquante minutes de TER, ce qui permet d'étudier dans une ville à loyers bas avec une grande métropole à portée. Les 15-29 ans y pèsent 23,8 % de la population, contre une médiane de 18,5 % sur les communes que nous suivons (source : Insee, recensement 2022), et la population est stable, 171 924 en 2016, 172 569 en 2022. Notre score vie étudiante la met à 6,5/10, dans un palier de onze villes à la même note (source : notre fiche profils). Ce guide dit ce que la ville donne et ce qu'il faut savoir.",
+    intro: "Saint-Étienne est l'une des villes universitaires les moins chères de cette série, derrière Valenciennes : le studio y est estimé à 420 € par mois, contre 1 200 € à Paris et 760 € à Aix (source : notre estimation des loyers). Lyon est à environ cinquante minutes de TER, ce qui permet d'étudier dans une ville à loyers bas avec une grande métropole à portée. Les 15-29 ans y pèsent 23,8 % de la population, contre une médiane de 18,5 % sur les communes que nous suivons (source : Insee, recensement 2022), et la population est stable, 171 924 en 2016, 172 569 en 2022. Notre score vie étudiante la met à 6,5/10, dans un palier de onze villes à la même note (source : notre fiche profils). Ce guide dit ce que la ville donne et ce qu'il faut savoir.",
     sections: [
       {
         heading: "Pourquoi étudier à Saint-Étienne",
@@ -36819,11 +36819,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Se loger et à quel prix",
-        body: "Notre estimation place le studio à 420 € et le deux-pièces à 580 € (source : notre estimation des loyers). Le marché stéphanois est le plus détendu de cette série : l'offre est large, et un étudiant peut choisir son logement plutôt que de prendre ce qui reste. Le centre, autour de la place Jean-Jaurès et de l'hôtel de ville, et le quartier Bellevue sont pratiques. Le parc ancien est important, avec des appartements spacieux pour le prix, mais l'isolation est parfois faible : à 3,5 °C de moyenne en janvier sur notre fiche climat, la ligne chauffage compte, et le diagnostic de performance énergétique doit être lu. Les résidences du Crous de Lyon, dont dépend Saint-Étienne, sont les moins chères, avec priorité aux boursiers. Visale remplace le garant.",
+        body: "Notre estimation place le studio à 420 € et le deux-pièces à 580 € (source : notre estimation des loyers). Le marché stéphanois est l'un des plus détendus de cette série : l'offre est large, et un étudiant peut choisir son logement plutôt que de prendre ce qui reste. Le centre, autour de la place Jean-Jaurès et de l'hôtel de ville, et le quartier Bellevue sont pratiques. Le parc ancien est important, avec des appartements spacieux pour le prix, mais l'isolation est parfois faible : à 3,5 °C de moyenne en janvier sur notre fiche climat, la ligne chauffage compte, et le diagnostic de performance énergétique doit être lu. Les résidences du Crous de Lyon, dont dépend Saint-Étienne, sont les moins chères, avec priorité aux boursiers. Visale remplace le garant.",
       },
       {
         heading: "Budget mensuel : notre ordre de grandeur",
-        body: "L'addition ligne par ligne. Studio : 420 € (source : notre estimation des loyers). Abonnement STAS : 56 € par mois au tarif tout public sur notre calculateur, un plafond, le tarif jeune est plus bas. Courses : 220 €, une hypothèse de notre part. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 805 € par mois avant aides, le budget le plus bas de cette série. Le repas Crous à 1 €, ouvert à tous les étudiants depuis le 4 mai 2026 (source : Crous), allège encore la ligne courses. En 2026-2027, l'inscription coûte 178 € en licence, 255 € en master, plus 105 € de CVEC, dont les boursiers sont exonérés (source : service-public.fr). Pour qui étudie à Lyon, se loger à Saint-Étienne n'est pas une bonne idée au quotidien : le trajet aller-retour mange le gain de loyer.",
+        body: "L'addition ligne par ligne. Studio : 420 € (source : notre estimation des loyers). Abonnement STAS : 56 € par mois au tarif tout public sur notre calculateur, un plafond, le tarif jeune est plus bas. Courses : 220 €, une hypothèse de notre part. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 805 € par mois avant aides, l'un des budgets les plus bas de cette série. Le repas Crous à 1 €, ouvert à tous les étudiants depuis le 4 mai 2026 (source : Crous), allège encore la ligne courses. En 2026-2027, l'inscription coûte 178 € en licence, 255 € en master, plus 105 € de CVEC, dont les boursiers sont exonérés (source : service-public.fr). Pour qui étudie à Lyon, se loger à Saint-Étienne n'est pas une bonne idée au quotidien : le trajet aller-retour mange le gain de loyer.",
       },
       {
         heading: "Vie étudiante : sortir, bouger, souffler",

@@ -24255,6 +24255,720 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "studying-in-rouen-2026",
+    title: "Studying in Rouen (2026): a young city, provincial rents, Paris in 75 minutes",
+    metaTitle: "Studying in Rouen 2026: Campuses, Housing, Real Cost",
+    metaDesc:
+      "A third of Rouen is aged 15-29. Studios around €520, an all-in budget near €910, a split campus map, and what a foreign student can actually claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Rouen is one of the youngest cities we track: people aged 15 to 29 make up 33.4% of residents, against a median of 18.5% across the towns in our data (INSEE, 2022 census). A studio runs about €520 a month on our rent estimate, an all-in budget about €910, and Paris is roughly an hour and a quarter away by train. The city is growing, from 110,117 residents in 2016 to 116,331 in 2022, and our student-life score puts it at 7.0/10, in a band of twelve cities on the same score that also includes Reims and Metz. The one thing to understand before you choose a flat: the university is not in the centre, and its campuses are far apart.",
+    sections: [
+      {
+        heading: "What can you study in Rouen?",
+        body: "Almost everything. The Université de Rouen Normandie covers humanities, social sciences, sciences, law, economics and health, with a teaching hospital (CHU). Around it sit two engineering schools, INSA Rouen Normandie and ESIGELEC, NEOMA Business School, and art and architecture schools. The setting is a real argument: a medieval half-timbered centre, the cathedral Monet painted again and again, and redeveloped Seine embankments. So is the location: Paris is about 75 minutes by train, Le Havre and the coast under an hour, Caen an hour and a half. For a foreign student, the practical appeal is a full university city with provincial rents, from which a Paris internship is possible without moving.",
+      },
+      {
+        heading: "Which campus are you on? It decides where you live",
+        body: "The main campus is at Mont-Saint-Aignan, on the plateau north of the centre, for humanities, social sciences and part of the sciences. The Madrillet technology campus at Saint-Étienne-du-Rouvray, to the south, holds INSA, ESIGELEC and engineering. Law, economics and management are on the left bank at the Pasteur site, and health is at Martainville near the hospital. Getting from the northern plateau to the Madrillet takes a good half hour on public transport. So pick the neighbourhood after the campus: Mont-Saint-Aignan or the north of the centre for the plateau, the left bank or Saint-Étienne-du-Rouvray for the Madrillet. Buses link the plateau to the centre, but the climb by bike is steep, which is worth knowing before you buy a bike without electric assistance.",
+      },
+      {
+        heading: "How much is a studio, and where should you look?",
+        body: "Our estimate puts a studio at €520 and a one-bedroom flat at €720. The historic centre is the most sought-after, with old studios that are sometimes badly insulated: under the roof of a half-timbered house, the Normandy winter shows up on the heating bill, so read the energy rating (the DPE, graded A to G) before signing. Flats rated G can no longer be let to new tenants, which protects you. Mont-Saint-Aignan concentrates student residences and flatshares near the campus; the left bank around Saint-Sever is often cheaper and well served. The cheapest beds are in the residences run by CROUS Normandie, the state student-welfare agency, but grant-holders get priority, and most international students end up on the private market. Visale, a free state rent guarantee for under-30s, replaces the French guarantor most landlords ask for, and it is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €520 (our rent estimate). Astuce public-transport pass: €62 a month at the standard adult fare on our calculator; that is a ceiling, youth fares are lower. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €910 a month before any aid, roughly €700 less than in Paris. Since 4 May 2026 every student, French or foreign, can eat a CROUS university-restaurant meal for €1, which cuts the grocery line further. For 2026-2027, enrolment costs €178 for a licence (bachelor's) year and €255 for a master's, plus the €105 CVEC student-life levy, for EU students. Non-EU students are charged differentiated fees of about €2,900 a year for a licence and about €3,950 for a master's, unless their university exempts them; ask the international office in writing. The CROUS means-tested grant is effectively closed to non-EU students on a student permit; the CAF housing benefit (APL) is not, and can be simulated on the CAF website once you have a lease.",
+      },
+      {
+        heading: "What is student life like?",
+        body: "The historic centre carries the nightlife, around place du Vieux-Marché, rue Saint-Jean and the cathedral quarter. The music scene holds up with Le 106, a contemporary-music venue on the left-bank quays. The metropolitan museums, including the Musée des Beaux-Arts, have free permanent collections. To breathe: the redeveloped quays, the forests that ring the city, and the Alabaster Coast an hour away. The Armada, a gathering of tall ships that returns every four to five years, takes over the quays for ten days. The weather is Normandy's: 1,680 hours of sunshine a year on our climate data, against more than 2,600 on the Mediterranean. Rain is part of the year, and a good coat is part of the budget.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are in restaurants, city-centre retail, tutoring and the logistics firms along the Seine. A student permit allows up to 964 hours of paid work a year, about 60% of full time, with no separate work permit. For internships, the Rouen basin is strong in chemicals, energy, automotive, port logistics and health, and Paris is within train reach for large-company placements. After graduation part of each cohort heads to Paris, but Rouen keeps graduates better than most cities its size thanks to its industrial and service base. Our Rouen city profile has the local job-market detail.",
+      },
+    ],
+    relatedCities: ["rouen", "sotteville-les-rouen", "le-havre", "caen", "evreux"],
+    tags: ["studying in rouen", "international students", "student housing france", "student visa france", "normandy"],
+  },
+  {
+    slug: "studying-in-reims-2026",
+    title: "Studying in Reims (2026): 45 minutes from Paris at half the price",
+    metaTitle: "Studying in Reims 2026: Sciences Po, NEOMA, Real Cost",
+    metaDesc:
+      "Paris is 45 minutes away by TGV. Studios around €490, a budget near €860, Sciences Po's Reims campus, and what a foreign student can actually claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Reims is the closest university city to Paris in travel time: about 45 minutes by TGV to the Gare de l'Est. A studio runs about €490 a month on our rent estimate and an all-in budget about €860, close to half what Paris costs. People aged 15 to 29 make up 27.5% of residents, against a median of 18.5% in our data (INSEE, 2022 census). Our student-life score gives it 7.0/10, in a band of twelve cities on the same score, and the 2026 student-cities ranking by the magazine L'Etudiant places it 17th. The one weak signal on paper: the city is losing residents, from 183,113 in 2016 to 178,478 in 2022, partly because graduates leave for Paris. This guide covers the campuses, housing, the budget and what a foreign student can claim.",
+    sections: [
+      {
+        heading: "What can you study in Reims?",
+        body: "The Université de Reims Champagne-Ardenne (URCA) covers law, economics, humanities, sciences and health, with a teaching hospital. Sciences Po has a campus here, in the former Jesuit college, for undergraduate programmes focused on North America and Africa, with a large share of international students; it awards the Sciences Po degree. NEOMA Business School has its main Reims campus, and the art and design school completes the offer. The setting counts too: the coronation cathedral, listed by UNESCO alongside the Saint-Remi basilica and the Champagne hillsides, houses and cellars, in a city rebuilt after 1918 with an Art Deco streak. The decisive argument remains Paris: provincial rent, with a Parisian internship within commuting range.",
+      },
+      {
+        heading: "Where are the campuses, and how do you get around?",
+        body: "The university is spread over several sites. The Croix-Rouge campus, south-west, holds humanities, social sciences, law and economics. The Moulin de la Housse campus, north-east, holds science and technology. Health is around the hospital. The tram, running since 2011, crosses the city north to south and serves Croix-Rouge, with the Citura bus network filling in. Reims is flat and easy to cycle. Sciences Po and NEOMA are closer to the centre. As everywhere, choosing a neighbourhood by campus saves pointless journeys, because the city is spread out.",
+      },
+      {
+        heading: "How much is a studio, and how hard is it to find?",
+        body: "Our estimate puts a studio at €490 and a one-bedroom flat at €680. The Reims market is one of the least tight among cities near Paris: a student searching in August usually finds something, which is not true in Paris or Aix. The centre, around the cathedral and place Drouet-d'Erlon, is the most sought-after. Neighbourhoods along the tram, such as Jean-Jaurès or the Croix-Rouge faculty area, give a good balance of price and commute. The cheapest beds are in CROUS residences, the state student-welfare agency, but grant-holders get priority. Visale, a free state rent guarantee for under-30s, replaces the French guarantor most landlords demand, and foreign students can use it.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €490 (our rent estimate). Citura transport pass: €38 a month at the standard adult fare on our calculator, a ceiling, since the youth fare is lower. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €860 a month before aid, almost half the Paris figure for a city 45 minutes away. If you commute to Paris, the TGV becomes a real line in the budget, and SNCF youth subscriptions change the sum considerably. Since 4 May 2026, any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless their institution exempts them. Sciences Po and NEOMA set their own, much higher, fees. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open to anyone with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like?",
+        body: "Place Drouet-d'Erlon, pedestrianised, concentrates the bars and restaurants, and Thursday night is when students gather there. La Cartonnerie, a contemporary-music venue, programmes concerts all year. The Reims Scènes d'Europe festival and the summer Flâneries musicales animate the city. To breathe: the green corridor along the canal, the Parc de Champagne, and the Montagne de Reims, a forested massif between vineyards and woods, reachable by bike. Champagne houses offer cellar tours, at prices that vary a lot from one house to the next. The climate is continental: a January average of 3.2 °C on our climate data, cool winters, and 1,664 hours of sunshine a year.",
+      },
+      {
+        heading: "Jobs, internships and the grape harvest",
+        body: "Student jobs are in restaurants, retail and tutoring, and in autumn in the Champagne grape harvest, a classic seasonal job from late August to late September, physical and paid. A student permit allows up to 964 hours of paid work a year, so a full harvest season fits comfortably. For internships, the Reims basin is strong in Champagne and wine, food processing, the bioeconomy and health, with Paris 45 minutes away for everything else. After graduation many leave for Paris, which partly explains the falling population; the reverse flow exists too, as young Parisian workers move to Reims for the rent.",
+      },
+    ],
+    relatedCities: ["reims", "epernay", "chalons-en-champagne", "laon", "paris"],
+    tags: ["studying in reims", "international students", "student housing france", "student visa france", "champagne"],
+  },
+  {
+    slug: "studying-in-brest-2026",
+    title: "Studying in Brest (2026): France's marine-science city on a student budget",
+    metaTitle: "Studying in Brest 2026: Marine Science, Housing, Cost",
+    metaDesc:
+      "Joint 6th in France's 2026 student-city ranking. Studios around €480, a budget near €850, ocean sciences, a tram and a cable car. The honest guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Brest is the student city climbing fastest in the rankings: joint 6th with Lyon in the 2026 student-cities ranking by L'Etudiant. A studio runs about €480 a month on our rent estimate, one of the lowest among the large university cities, for an all-in budget near €850. People aged 15 to 29 make up 28.8% of residents, against a median of 18.5% in our data (INSEE, 2022 census). Our own student-life score is more reserved, 6.8/10, with fifty-one cities ahead and seven on the same score, because our scale weighs cultural offer and cost of living first and measures neither the sea nor the setting. If you study oceanography, marine biology or naval engineering, Brest is not a fallback; it is often the best choice in France.",
+    sections: [
+      {
+        heading: "Why study in Brest?",
+        body: "The Université de Bretagne Occidentale (UBO) covers the full range, law, economics, humanities, sciences and health with a teaching hospital. Its specialism is the sea: the European Institute for Marine Studies (IUEM) at Plouzané and the research hub around Ifremer, the French national ocean-research institute, make Brest one of France's leading centres for marine science. The engineering schools reinforce the profile, with IMT Atlantique and ENSTA (formerly ENSTA Bretagne), the French Naval Academy across the harbour, and Brest Business School for management.",
+      },
+      {
+        heading: "Where are the campuses, and how do you get around?",
+        body: "The campuses are in or near the city. Victor-Segalen holds humanities, law and social sciences, Le Bouguen the sciences, Le Morvan health, and the Plouzané technology park, to the west, the marine institute and IMT Atlantique. The tram, running since 2012, crosses the city east to west, and an urban cable car, opened in 2016, crosses the Penfeld river between the centre and the Capucins district. Bibus buses serve Plouzané. The city is hilly and windy, which does not rule out cycling but does call for rain gear. Journeys stay short in a city of 140,993 residents.",
+      },
+      {
+        heading: "How much is a studio, and what should you check?",
+        body: "Our estimate puts a studio at €480 and a one-bedroom flat at €650. The market is reasonable but has tightened in recent years with an influx of students and workers, so last-minute searches in September are harder than they used to be. Students favour Saint-Martin, Siam and the centre, close to the faculties and bars, or Lambézellec and Bellevue near the campuses for lower rents. Damp is the thing to check: a poorly ventilated flat grows mould quickly in the Brest climate, and the viewing is the moment to look for it. The cheapest beds are in CROUS Bretagne residences, but grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €480 (our rent estimate). Bibus pass: €38 a month at the standard adult fare on our calculator, a ceiling, since the youth fare is lower. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €850 a month before aid, one of the lowest budgets in this series. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless their university exempts them, so ask before you accept an offer. The CROUS means-tested grant is effectively closed to non-EU students; CAF housing benefit is open to anyone with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like? The sea, music and rain",
+        body: "Student life happens in Saint-Martin and around rue de Siam, with bars at student prices. Music is strong: La Carène, a contemporary-music venue on the port, the Jeudis du Port summer concerts on the quays, and the Vieilles Charrues festival at Carhaix, about an hour away. The Brest maritime festival gathers boats from around the world every four years. To breathe: Océanopolis, the Capucins walk, and above all the coast, from the Pointe Saint-Mathieu to the beaches of Le Conquet, reachable by coach. The climate is the honest point: 1,600 hours of sunshine a year on our climate data and frequent rain, but mild winters, with a January average of 6.2 °C, warmer than Paris.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are in restaurants, retail and tutoring, and in summer in tourism along the Finistère coast; a student permit allows up to 964 hours a year. Brest has two strengths for internships: defence, with the naval base, Naval Group and its subcontractors, and the maritime economy, from ocean research to marine energy, with digital and health filling out the picture. After graduation, science and engineering profiles find work locally; others more often move to Rennes, Nantes or Paris, three and a half to four hours away by TGV. Note that defence placements frequently require nationality or security clearance, so check eligibility early if you are not an EU citizen.",
+      },
+    ],
+    relatedCities: ["brest", "quimper", "morlaix", "lannion", "lorient"],
+    tags: ["studying in brest", "international students", "student housing france", "student visa france", "brittany"],
+  },
+  {
+    slug: "studying-in-orleans-2026",
+    title: "Studying in Orléans (2026): an hour from Paris, with one big catch",
+    metaTitle: "Studying in Orléans 2026: La Source Campus, Real Cost",
+    metaDesc:
+      "Studios around €510, Paris an hour by train, and a main campus 25 minutes from the centre by tram. Budget, housing and what foreign students can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Orléans is an overlooked university city an hour from Paris by train, with provincial rents: a studio runs about €510 a month on our rent estimate and an all-in budget about €885. People aged 15 to 29 make up 25.6% of residents, against a median of 18.5% in our data (INSEE, 2022 census), and the city is growing slightly, from 114,782 residents in 2016 to 116,344 in 2022. Our student-life score puts it at 6.6/10, with seventy-three cities ahead and ten on the same score. The catch is geographic: the main campus is a 25-minute tram ride from the city centre, and that single fact shapes everything about student life here.",
+    sections: [
+      {
+        heading: "What can you study in Orléans?",
+        body: "The Université d'Orléans covers sciences, humanities, law, economics and management, with Polytech Orléans for engineering and several IUTs (two- and three-year technology institutes), plus branch campuses at Bourges, Chartres, Blois and Châteauroux. Health courses are growing, with a first year of medicine open in Orléans since 2022. The research cluster around the campus, with the CNRS and the BRGM, France's geological survey, is strong in earth and environmental sciences. The setting is the Loire Valley: Sainte-Croix cathedral, redeveloped Loire embankments, and the Loire à Vélo cycle route starting from town.",
+      },
+      {
+        heading: "La Source: the campus 25 minutes from the centre",
+        body: "This is the fact that structures student life. The main campus is at La Source, a district built in the 1960s south of the Loire around the Parc Floral and the source of the Loiret river, about 25 minutes by tram from the centre. Tram line A links the two directly, which makes the trip simple but forces a lifestyle choice. Living at La Source means walking to class in a quiet, green district, far from the bars. Living in the centre means having the city and taking the tram every day. Some law, economics and management courses have moved to the Madeleine site in the city centre, which changes the calculation for those programmes: check exactly where your classes are before you start searching.",
+      },
+      {
+        heading: "How much is a studio, and where should you look?",
+        body: "Our estimate puts a studio at €510 and a one-bedroom flat at €700. The Orléans market is relaxed: a student who searches in August usually finds something. La Source concentrates student residences, including those run by CROUS Orléans-Tours, the cheapest option, though grant-holders get priority. The centre, around rue de Bourgogne and the Saint-Paterne district, is dearer and livelier. Neighbourhoods along tram line A, such as Saint-Marceau, are a compromise between the two. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students; in the centre's older housing, check insulation during the viewing.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €510 (our rent estimate). TAO transport pass: €45 a month at the standard adult fare on our calculator, a ceiling, since the youth fare is lower. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €885 a month before aid. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted by their university. The CROUS means-tested grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit and can be simulated on the CAF website.",
+      },
+      {
+        heading: "What is student life like?",
+        body: "The centre has the going-out, along rue de Bourgogne, a long street of bars and restaurants, and on the Loire quays, where open-air guinguettes set up in summer. L'Astrolabe, a contemporary-music venue, runs concerts all year. The Joan of Arc festival in late April and early May and the Loire festival of traditional boats mark the calendar. To breathe: the Parc Floral next to the campus, the Loire banks by bike, and the Forêt d'Orléans, one of France's largest state forests. Nightlife is calmer than in the big university cities, which our 6.6/10 reflects: Orléans is not a city for going out every night.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are in restaurants, retail, tutoring and logistics, which is a major employer around Orléans; a student permit allows up to 964 hours a year. For internships, the area is strong in pharmaceuticals and cosmetics, logistics, insurance and public services, as the regional capital. Paris, an hour by train from Les Aubrais station, widens the field. After graduation many move to Paris or Tours, but Orléans keeps young workers thanks to its rents and its proximity to the capital.",
+      },
+    ],
+    relatedCities: ["orleans", "tours", "blois", "bourges", "chartres"],
+    tags: ["studying in orleans", "international students", "student housing france", "student visa france", "loire valley"],
+  },
+  {
+    slug: "studying-in-metz-2026",
+    title: "Studying in Metz (2026): a riverside campus and Luxembourg on the doorstep",
+    metaTitle: "Studying in Metz 2026: Campuses, Housing, Luxembourg",
+    metaDesc:
+      "Studios around €500, a campus on an island in the Moselle, Georgia Tech Europe, and Luxembourg under an hour away. Budget, housing and what you can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Metz is the Moselle half of the Université de Lorraine, and a livelier student city than its reputation. People aged 15 to 29 make up 25.6% of residents, against a median of 18.5% in our data (INSEE, 2022 census), and the city is growing, from 117,890 residents in 2016 to 121,695 in 2022. A studio runs about €500 a month on our rent estimate, an all-in budget about €875, and our student-life score gives it 7.0/10, in the same band of twelve cities as Rouen and Reims. The argument few cities can match: Luxembourg is under an hour away, with its internships and its salaries.",
+    sections: [
+      {
+        heading: "What can you study in Metz?",
+        body: "The Université de Lorraine, created in 2012 by merging the universities of Nancy and Metz, is one of the largest in France, and Metz hosts a large share of it: humanities, social sciences, law, economics, sciences and engineering. The engineering cluster stands out, with the ENIM engineering school now part of the university, an Arts et Métiers campus, a CentraleSupélec campus, and Georgia Tech Europe, the European campus of the American university, where English-taught programmes are the norm. The setting: Saint-Étienne cathedral and its stained glass, the yellow Jaumont stone that colours the centre, and the Centre Pompidou-Metz.",
+      },
+      {
+        heading: "Where are the campuses? Saulcy island and the Technopôle",
+        body: "The most central campus is on the Île du Saulcy, an island in the Moselle a few minutes' walk from the old town, home to humanities, social sciences and law. It is one of the best-placed campuses in France, between the water and the historic centre. The Technopôle campus, to the east, holds sciences and engineering with the engineering schools, and the Bridoux site completes it for biology. Mettis, a bus rapid-transit line, links the centre to the Technopôle. Choose your neighbourhood by campus: the centre or Outre-Seille for Saulcy, the eastern districts or the Mettis corridor for the Technopôle.",
+      },
+      {
+        heading: "How much is a studio, and what should you check?",
+        body: "Our estimate puts a studio at €500 and a one-bedroom flat at €680. The Metz market is relaxed for a university city, with older housing in the centre and newer stock around the Amphithéâtre district near the Centre Pompidou-Metz. Le Sablon, south of the station, has lower rents and a neighbourhood feel. The cheapest beds are in CROUS Lorraine residences, some on the Saulcy island itself, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students. The Lorraine winter, a January average of 2.7 °C on our climate data, makes insulation and the type of heating two things to check at the viewing.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €500 (our rent estimate). Le Met' transport pass: €45 a month at the standard adult fare on our calculator, a ceiling, since the youth fare is lower. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €875 a month before aid. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and Georgia Tech Europe and the grandes écoles set their own fees. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like?",
+        body: "Student life is split between the centre, around place Saint-Jacques and place Saint-Louis, and the Outre-Seille district, more studenty and cheaper. La BAM, a contemporary-music venue, and the Arsenal, a classical concert hall in a former barracks, cover both ends of the spectrum. The Mirabelle plum festival in August and the Christmas market punctuate the year. To breathe: the Moselle banks and the lake, the Jardin des Plantes, the many parks that give Metz its green reputation, and the Moselle hillsides by bike. The Centre Pompidou-Metz offers reduced prices for young people, and Nancy is forty minutes away by regional train.",
+      },
+      {
+        heading: "Jobs, internships and the Luxembourg effect",
+        body: "This is what sets Metz apart. Luxembourg City is under an hour away by regional train, and the Grand Duchy offers internships and jobs in finance, audit, European law and tech, at salaries well above French ones; its public transport has been free since 2020. Many Metz students aim for a first cross-border job while still living on the French side for the rent. Locally, student jobs are in restaurants, retail and tutoring, with a French student permit allowing up to 964 hours a year. If you are a non-EU student, be aware that working in Luxembourg is governed by Luxembourg's own rules, not your French permit, so check before accepting a placement there. Germany and the Saarland are also an hour away.",
+      },
+    ],
+    relatedCities: ["metz", "nancy", "thionville", "paris"],
+    tags: ["studying in metz", "international students", "student housing france", "student visa france", "lorraine"],
+  },
+  {
+    slug: "studying-in-saint-etienne-2026",
+    title: "Studying in Saint-Étienne (2026): low rents with Lyon 50 minutes away",
+    metaTitle: "Studying in Saint-Étienne 2026: Mines, Design, Low Cost",
+    metaDesc:
+      "Studios around €420, among the lowest in our series, Lyon about 50 minutes away, Mines Saint-Étienne and UNESCO design city status. Budget, housing, traps.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Saint-Étienne is one of the cheapest university cities in this series, second only to Valenciennes: a studio runs about €420 a month on our rent estimate, against €1,200 in Paris and €760 in Aix-en-Provence, for an all-in budget near €805. Lyon is about fifty minutes away by regional train, so you can study somewhere with low rents and still have a major city within reach. People aged 15 to 29 make up 23.8% of residents, against a median of 18.5% in our data (INSEE, 2022 census), and the population is stable, 171,924 in 2016 and 172,569 in 2022. Our student-life score gives it 6.5/10, in a band of eleven cities on the same score. It is a converted industrial city without the tourist gloss, and that is exactly why the budget works.",
+    sections: [
+      {
+        heading: "What can you study in Saint-Étienne?",
+        body: "The Université Jean-Monnet covers humanities, social sciences, law, economics, sciences and health, with a teaching hospital. Engineering is the city's strength: Mines Saint-Étienne, one of France's écoles des mines, Centrale Lyon ENISE, which grew out of the national engineering school of Saint-Étienne, and Télécom Saint-Étienne. Design is the other specialism, with the higher school of art and design and the International Design Biennale; Saint-Étienne has been a UNESCO Creative City of Design since 2010.",
+      },
+      {
+        heading: "Where are the campuses, and how do you get around?",
+        body: "University sites are spread across the city. The Tréfilerie campus, near the centre, holds humanities, law and economics. The Manufacture site, in the converted former arms factory, brings together courses and schools around the Cité du Design. The Métare campus, to the east, is for sciences, and health is to the north near the hospital. Saint-Étienne's tram, which has run without interruption since the late nineteenth century, crosses the city north to south and serves most sites. The city is long and hilly, at more than 500 metres above sea level, so cycling is harder work than in Orléans or Reims.",
+      },
+      {
+        heading: "How much is a studio, and what should you check?",
+        body: "Our estimate puts a studio at €420 and a one-bedroom flat at €580. This is one of the most relaxed markets in the series: supply is broad, and you can choose a flat rather than take whatever is left. The centre around place Jean-Jaurès and the town hall, and the Bellevue district, are practical. Older buildings dominate, with spacious flats for the price, but insulation can be weak: with a January average of 3.5 °C on our climate data, heating matters, so read the energy rating (DPE) before signing. The cheapest beds are in residences of CROUS Lyon, which covers Saint-Étienne, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €420 (our rent estimate). STAS transport pass: €56 a month at the standard adult fare on our calculator, a ceiling, since the youth fare is lower. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €805 a month before aid, one of the lowest budgets in this series. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit. One warning: if your course is in Lyon, living in Saint-Étienne is a false economy, because the daily round trip eats the rent saving.",
+      },
+      {
+        heading: "What is student life like?",
+        body: "Student life centres on place Jean-Jaurès, rue Martin-Bernard and the Saint-Jacques district. Le Fil, a contemporary-music venue, programmes concerts all year. The Geoffroy-Guichard stadium and the local football club, Les Verts, are part of the city's identity. The Design Biennale, every two years, transforms the city. The underrated asset is the outdoors: the Pilat regional nature park starts at the city's edge, with hiking and cross-country skiing in winter, and the Loire gorges are close. The metropolitan museum of modern and contemporary art, at Saint-Priest-en-Jarez, holds one of the major modern-art collections in France.",
+      },
+      {
+        heading: "Jobs, internships and the honest point",
+        body: "Student jobs are in restaurants, retail and tutoring, with a student permit allowing up to 964 hours of paid work a year. For internships, the area is strong in mechanical engineering, optics, medical technology and design, and Lyon widens the field considerably. The engineering schools have company networks well beyond the region. The honest point: the city's poverty rate is 28% (INSEE, Filosofi), the local job market is narrower than Lyon's, and a large share of graduates move to the Lyon metropolitan area.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "roanne", "saint-chamond", "le-puy-en-velay"],
+    tags: ["studying in saint-etienne", "international students", "student housing france", "student visa france", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "studying-in-le-mans-2026",
+    title: "Studying in Le Mans (2026): acoustics, a compact campus, Paris in under an hour",
+    metaTitle: "Studying in Le Mans 2026: Acoustics, Housing, Real Cost",
+    metaDesc:
+      "Studios around €470, Paris under an hour by TGV, a world-class acoustics lab and a tram to campus. Who Le Mans suits, what it costs, what you can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Le Mans is a mid-sized university city under an hour from Paris by TGV, with a studio at about €470 a month on our rent estimate and an all-in budget near €835. It is not a particularly young city: people aged 15 to 29 make up 21.7% of residents, above the 18.5% median in our data but far from Rouen or Brest (INSEE, 2022 census). The population is growing, from 142,991 in 2016 to 145,182 in 2022. Our student-life score gives it 6.4/10, in the same band of nineteen cities as Nice. Le Mans is an excellent choice for one kind of student, the one heading into acoustics, and a sensible, cheap one for most others.",
+    sections: [
+      {
+        heading: "Why study in Le Mans?",
+        body: "Le Mans Université covers humanities, languages, law, economics, management and sciences, with a second site at Laval. Its recognised specialism is acoustics: the university's acoustics laboratory is one of Europe's main research centres in the field, and the ENSIM engineering school trains notably in acoustics and vibration. For a student aiming at that sector, Le Mans is not a default choice. For other subjects the argument is cost against access: a human-scale university, low rents, and Paris under an hour away for internships and weekends.",
+      },
+      {
+        heading: "Where is the campus, and how do you get around?",
+        body: "The main campus is north of the city, served by the tram, which links it to the centre and the station in about twenty minutes. It is a single, grouped campus with a library, university restaurants and residences nearby, which keeps life simple. The centre, the Cité Plantagenêt, a medieval old town inside its Gallo-Roman walls, is a few stops away. The city is fairly flat and easy to cycle. The TGV station is central, and Paris Montparnasse is under an hour away, rare for a city this size.",
+      },
+      {
+        heading: "How much is a studio, and when is it hard to find?",
+        body: "Our estimate puts a studio at €470 and a one-bedroom flat at €650. The market is relaxed. The areas near the campus, to the north, concentrate residences and small flats; the centre, around place de la République and the station, is livelier and well connected by tram. One local quirk: during the 24 Hours of Le Mans motor race in June, the city fills up, short lets soar, and some landlords prefer a nine-month furnished student lease. The cheapest beds are in residences of CROUS Nantes, which covers Le Mans, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €470 (our rent estimate). Setram transport pass: €35 a month at the standard adult fare on our calculator, a ceiling, since the youth fare is lower. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €835 a month before aid. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit. If you plan regular trips to Paris, SNCF youth subscriptions weigh more in the decision than the rent.",
+      },
+      {
+        heading: "What is student life like?",
+        body: "Student life is calmer than in the big university cities, which our 6.4/10 reflects. Going out centres on the city centre and the Cité Plantagenêt, with bars and restaurants in its medieval lanes. La Nuit des Chimères, a monumental projection on the cathedral and the old-town walls, is free on summer evenings. The 24 Hours of Le Mans in June is the event of the year. The Europajazz festival and concerts at L'Oasis, a contemporary-music venue, round it out. To breathe: the banks of the Sarthe, the Arche de la Nature, a large natural area at the city's edge, and the Bercé forest under an hour away.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are in restaurants, retail, tutoring and event work during the big races at the circuit; a student permit allows up to 964 hours a year. For internships, the area is strong in insurance, with the historic head office of Les Mutuelles du Mans, automotive and industrial subcontracting, acoustics and food processing, and Paris under an hour away widens the field. After graduation part of each cohort leaves for Paris, Nantes or Angers, but Le Mans also draws Parisian workers for its rents.",
+      },
+    ],
+    relatedCities: ["le-mans", "angers", "laval", "tours", "alencon"],
+    tags: ["studying in le mans", "international students", "student housing france", "student visa france", "pays de la loire"],
+  },
+  {
+    slug: "studying-in-perpignan-2026",
+    title: "Studying in Perpignan (2026): sun, sea and Spain, with eyes open",
+    metaTitle: "Studying in Perpignan 2026: UPVD, Housing, Real Cost",
+    metaDesc:
+      "2,750 hours of sun, the sea 15 km away, Barcelona by train and studios around €470. The budget, the campus and the social figures you should know.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Perpignan combines what few university cities can: 2,750 hours of sunshine a year on our climate data, the sea about fifteen kilometres away, Spain half an hour away and a studio at about €470 a month on our rent estimate, for an all-in budget near €830. It is a small student city: people aged 15 to 29 make up 19.5% of residents, barely above the 18.5% median in our data (INSEE, 2022 census). Our student-life score gives it 6.2/10, in a band of sixteen cities on the same score. This guide covers what Perpignan gives a student, and the social figures that a foreign student, in particular, should look at squarely before choosing it.",
+    sections: [
+      {
+        heading: "Why study in Perpignan?",
+        body: "The Université de Perpignan Via Domitia (UPVD) is human-scale, with year groups small enough for lecturers to know their students. It covers law, economics, humanities, social sciences, sciences and sport, with specialisms tied to the region: renewable and solar energy, the Mediterranean environment, tourism, Catalan studies and cross-border relations. For a student interested in Spain the position is unique: Figueres is half an hour away, Barcelona is reachable by train, and Catalan can be learned on the spot. Daily life completes the picture: the beach at Canet, the Pyrenees and Mount Canigou an hour away, and mild winters with a January average of 7.5 °C on our climate data.",
+      },
+      {
+        heading: "Where is the campus, and how do you get around?",
+        body: "The main campus is at Moulin-à-Vent, south of the city, with a library, university restaurants and CROUS residences nearby. Some courses, notably law and economics, are in the city centre at the Mailly site, and Sankéo buses link the two. The city is flat and practical by bike, except for the tramontane, a strong north-westerly wind that blows much of the year. Cars remain dominant in the Pyrénées-Orientales, and the beaches and mountains are easier to reach with one, although regional buses serve the coast.",
+      },
+      {
+        heading: "How much is a studio, and what should you check?",
+        body: "Our estimate puts a studio at €470 and a one-bedroom flat at €650. The market is relaxed, and an August search usually succeeds. Moulin-à-Vent is the most practical district for the campus, with residences and recent small flats. The historic centre is livelier but uneven: some old buildings are run down, so the viewing should check the real condition, damp and the energy rating (DPE). Flats rated G have been barred from new lettings since 2025. The cheapest beds are in residences of CROUS Montpellier-Occitanie, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line, so you can swap out what does not apply. Studio: €470 (our rent estimate). Sankéo transport pass: €30 a month at the standard adult fare on our calculator, a ceiling. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €830 a month before aid. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS means-tested grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit and can be simulated on the CAF website.",
+      },
+      {
+        heading: "What is student life like? Sun, sea and the border",
+        body: "Student life happens in the centre, around place de la République, the Loge de Mer and the Saint-Jean district, and outdoors most of the year. Visa pour l'Image, the international photojournalism festival, opens its exhibitions free to the public every late summer. The Castillet gate, the Palace of the Kings of Majorca and the Campo Santo make up the heritage. To breathe: Canet beach by bus, the Côte Vermeille from Collioure to Banyuls, the Canigou massif for hiking, and the Pyrenean resorts for skiing. Rugby, union with USAP and league with the Catalans Dragons, who play in the English Super League, is part of local identity.",
+      },
+      {
+        heading: "Jobs, internships and the honest point",
+        body: "The honest point first: the city's poverty rate is 34% (INSEE, Filosofi), one of the highest among the cities we track, and the local job market is narrow. Student jobs exist in restaurants, retail and above all summer tourism on the coast, which hires heavily from June to September; a student permit allows up to 964 hours a year, so a full summer season fits. For internships, the area is strong in food processing and the logistics of the Saint-Charles market, one of Europe's major fruit-and-vegetable hubs, renewable energy, tourism and public services. After graduation many move to Montpellier, Toulouse or Barcelona.",
+      },
+    ],
+    relatedCities: ["perpignan", "narbonne", "beziers", "collioure", "montpellier"],
+    tags: ["studying in perpignan", "international students", "student housing france", "student visa france", "occitanie"],
+  },
+  {
+    slug: "studying-in-pau-2026",
+    title: "Studying in Pau (2026): the Pyrenees at an hour, the Atlantic just beyond",
+    metaTitle: "Studying in Pau 2026: UPPA, Mountains, Real Cost",
+    metaDesc:
+      "Studios around €490, a budget near €850, skiing an hour away and the Basque coast a little further. What studying at UPPA costs and what you can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Pau is a younger student city than its quiet reputation suggests: people aged 15 to 29 make up 24.1% of residents, against a median of 18.5% in our data (INSEE, 2022 census). A studio runs about €490 a month on our rent estimate, an all-in budget about €850, the Pyrenees are an hour away and the ocean a little more. Our student-life score is modest at 6.0/10, in a wide band of twenty-seven cities on the same score, because our scale weighs cultural offer and city size first and measures neither the mountains nor the setting. The population is growing slightly, from 77,251 in 2016 to 78,620 in 2022.",
+    sections: [
+      {
+        heading: "Why study in Pau?",
+        body: "The Université de Pau et des Pays de l'Adour (UPPA) has its headquarters and main campus in Pau, with sites in Bayonne, Anglet, Mont-de-Marsan and Tarbes. It covers law, economics, humanities, sciences and sport, with a recognised specialism in geosciences and energy, tied to the long-standing presence of TotalEnergies' scientific and technical centre in Pau. ESC Pau Business School completes the offer. The setting does the rest: the Boulevard des Pyrénées and its view of the range, the château where Henri IV was born, and mild winters with a January average of 6 °C on our climate data.",
+      },
+      {
+        heading: "Where is the campus, and how do you get around?",
+        body: "The university campus is north of the centre, grouped around avenue de l'Université, with a library, university restaurants and CROUS residences nearby. Fébus, a hydrogen-powered bus rapid-transit line, links the campus to the centre and the station. A free funicular climbs from the station to the Boulevard des Pyrénées in a few dozen seconds. The city is cyclable, with a few hills. For the mountains and the coast, a car or car-sharing remains the most practical option, although coaches and trains serve the Ossau valley, Lourdes and Bayonne.",
+      },
+      {
+        heading: "How much is a studio, and where should you look?",
+        body: "Our estimate puts a studio at €490 and a one-bedroom flat at €680. The market is relaxed. The areas near the campus, to the north, have small flats and student residences. The centre, around the château, the Hédas district and Les Halles, is livelier, about fifteen minutes by bus from campus. Older buildings in the centre offer large flats for the price, well suited to flatsharing, but check the insulation at the viewing. The cheapest beds are in residences of CROUS Bordeaux-Aquitaine, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €490 (our rent estimate). Idelis transport pass: €32 a month at the standard adult fare on our calculator, a ceiling. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €850 a month before aid. The line that can run away is the mountains: lift passes, equipment hire and travel add up fast, so ask the resorts for student rates. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like? City, mountains, ocean",
+        body: "Going out centres on the Triangle district, rue Émile-Garet and Les Halles, with mid-sized-city bar prices. Rugby with Section Paloise and the historic motor Grand Prix run through the city streets mark the calendar. The main argument is the outdoors: the Gourette and La Pierre-Saint-Martin ski resorts about an hour away, the Ossau valley for hiking, and the Basque coast, from Biarritz to Hendaye, a little over an hour away. Parc Beaumont and the banks of the Gave de Pau serve day to day. Nightlife is calmer than in a big city, which is what our score reflects.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are in restaurants, retail, tutoring and, in winter, the ski resorts; a student permit allows up to 964 hours a year. For internships, the area is strong in energy and geosciences, aerospace with Safran Helicopter Engines at Bordes, the chemical industry of the Lacq basin and food processing. After graduation, science and engineering profiles find work locally or in Toulouse and Bordeaux; others more often move on. Paris is far, more than four hours by train, so Pau is a city where you build internships locally rather than commute.",
+      },
+    ],
+    relatedCities: ["pau", "tarbes", "lourdes", "bayonne", "biarritz"],
+    tags: ["studying in pau", "international students", "student housing france", "student visa france", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "studying-in-la-rochelle-2026",
+    title: "Studying in La Rochelle (2026): a seafront campus and a holiday-town rent",
+    metaTitle: "Studying in La Rochelle 2026: Campus, Housing, Cost",
+    metaDesc:
+      "A campus facing the ocean, studios around €600 because students share the market with holidaymakers, and a budget near €960. The honest guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "La Rochelle has one of the best-placed campuses in France, at Les Minimes, next to the marina and facing the Atlantic. The price is housing: a studio runs about €600 a month on our rent estimate, on a par with Rennes or Nantes, because students share the market with holidaymakers and retirees, for an all-in budget near €960. People aged 15 to 29 make up 23.4% of residents, against a median of 18.5% in our data (INSEE, 2022 census), and the city is growing, from 75,736 residents in 2016 to 79,961 in 2022. Our student-life score gives it 6.1/10, in a band of fourteen cities, pulled down by the cost of living.",
+    sections: [
+      {
+        heading: "Why study in La Rochelle?",
+        body: "La Rochelle Université is young and compact, built around a specialism it claims openly: the coast, the sea, the environment and the ecological transition of coastal areas, with research laboratories recognised in those fields. It also covers law, economics, management, humanities, languages and digital subjects. Excelia, a business and tourism school, completes the offer. The setting is the obvious argument: the Old Port and its towers, the arcaded streets of the centre, the Île de Ré and Île d'Oléron within reach by bike or bus, and 2,190 hours of sunshine a year on our climate data, a lot for the Atlantic coast.",
+      },
+      {
+        heading: "Where is the campus, and how do you get around?",
+        body: "The Minimes campus groups most courses between the city centre and the marina, about twenty minutes' walk from the Old Port and less by bike. La Rochelle pioneered shared bikes, with free yellow bikes as early as 1976, and it remains one of the most cyclable cities of its size in France. The Yélo network combines buses, bike sharing and water buses to Les Minimes; it is not in our fare calculator, so ask the operator for the youth fare. For a student, a bike is almost always enough, and a car is only useful for trips outside the conurbation.",
+      },
+      {
+        heading: "Housing: competing with the holiday market",
+        body: "Our estimate puts a studio at €600 and a one-bedroom flat at €820. Tourist demand tightens the market: some small flats in the centre are let by the week in summer, and some landlords offer a nine-month furnished student lease, which is legal and frees the flat for summer but forces you to move every year. Les Minimes and the centre are the most practical; Villeneuve-les-Salines and Mireuil have lower rents with a bus or bike commute. The cheapest beds are in residences of CROUS Poitiers, which covers La Rochelle, though grant-holders get priority. Start searching in spring; this is serious advice here. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €600 (our rent estimate). Transport: €30 a month, our assumption, since the Yélo network is not in our calculator, and zero if you only cycle. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €960 a month before aid, above the mid-sized cities in this series because of the rent. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like? Port, ocean, Francofolies",
+        body: "Student life revolves around the Old Port and the pedestrian streets of the centre, with terraces and bars full of students out of season and tourists in summer. Les Francofolies, the July festival of French-language song, is the event of the year, at a time when students have often left. La Sirène, a contemporary-music venue, programmes concerts all year. To breathe: the Minimes beach next to campus, the Île de Ré over the bridge by bike, and sailing and kitesurfing, widely practised here. The aquarium and the maritime museum complete the picture. This is a city where you study outdoors much of the year.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are plentiful in restaurants, retail and tourism, peaking in summer, with strong demand for seasonal workers on the islands; a student permit allows up to 964 hours a year. For internships, the area is strong in boatbuilding, rail with the Alstom site at Aytré, tourism, the commercial port of La Pallice and coastal environmental work. After graduation the local market is narrow for highly qualified profiles, and housing costs push some young workers towards Rochefort, Niort or Bordeaux. Paris is about three hours away by TGV.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "rochefort", "niort", "royan", "ile-de-re"],
+    tags: ["studying in la rochelle", "international students", "student housing france", "student visa france", "atlantic coast"],
+  },
+  {
+    slug: "studying-in-toulon-2026",
+    title: "Studying in Toulon (2026): a Mediterranean harbour at a lower rent than Nice",
+    metaTitle: "Studying in Toulon 2026: La Garde Campus, Housing, Cost",
+    metaDesc:
+      "Studios around €560, well below Nice or Aix, a campus at La Garde, water buses across the harbour, and a defence and maritime job market. The honest guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Toulon does not look like a student city, and the numbers agree: people aged 15 to 29 make up 17.4% of residents, below the 18.5% median in our data (INSEE, 2022 census). Yet it has a full university, one of the finest natural harbours in Europe, 2,750 hours of sunshine a year on our climate data, and a studio at about €560 a month on our rent estimate, clearly cheaper than Nice or Aix-en-Provence, for an all-in budget near €930. The population is growing, from 169,634 in 2016 to 180,834 in 2022. Our student-life score gives it 6.0/10, in a band of twenty-seven cities. Toulon works best for a student who wants the Mediterranean without Riviera rents, and who does not need a big nightlife.",
+    sections: [
+      {
+        heading: "What can you study in Toulon?",
+        body: "The Université de Toulon covers law, economics, management, humanities, sciences, engineering and sport, with an in-house engineering school, SeaTech, focused on the sea and materials. Around it, ISEN Méditerranée trains digital engineers and KEDGE Business School has a Toulon campus. The local specialism is the sea and defence: Toulon is France's main naval port, and research and internships reflect it. The setting is strong: the harbour, Mont Faron towering over the city, the Mourillon beaches, and the Hyères islands and Porquerolles within reach by boat.",
+      },
+      {
+        heading: "Where are the campuses, and how do you get around?",
+        body: "The main campus is at La Garde, the neighbouring town to the east, with a library, university restaurants and CROUS residences. Some courses are in the city centre at the Porte d'Italie campus, which has brought students back into the heart of Toulon. Mistral buses link the two, with journeys that can exceed half an hour at rush hour in a congested conurbation. The network has one unusual feature: water buses cross the harbour to La Seyne-sur-Mer, Tamaris and Saint-Mandrier, included in the pass. Choose housing by campus: La Garde and the east for the main campus, the centre for Porte d'Italie.",
+      },
+      {
+        heading: "How much is a studio, and what should you check?",
+        body: "Our estimate puts a studio at €560 and a one-bedroom flat at €780: less than Nice or Aix, more than the mid-sized inland cities. La Garde and La Valette concentrate residences and small flats near campus. The old centre is cheaper and uneven from street to street, so the viewing should check real condition and the energy rating (DPE). Le Mourillon, near the beaches, is the most sought-after and the dearest. In summer, tourist demand tightens the market for small furnished flats. The cheapest beds are in CROUS Nice-Toulon residences, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €560 (our rent estimate). Mistral transport pass: €39 a month at the standard adult fare on our calculator, a ceiling, water buses included. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €930 a month before aid, more than €200 less than in Nice. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like? The harbour before the night",
+        body: "Toulon's nightlife is quieter than Marseille's or Montpellier's, which our score reflects. Going out centres on the old town, around place Puget and the cours Lafayette with its daily market, and on Le Mourillon in summer. Rugby with RCT is an institution, and the Stade Mayol sits in the middle of town. The outdoors is the main argument: the Mourillon beaches by bus, the Mont Faron cable car, coastal paths, diving, and the Golden Isles, Porquerolles, Port-Cros and Le Levant, from Hyères. Marseille is under an hour away by train.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are in restaurants, retail, tutoring and summer tourism; a student permit allows up to 964 hours a year. Toulon's distinctive strength for internships is defence and the sea, with the naval base, Naval Group, its subcontractors and the Mediterranean maritime competitiveness cluster, plus digital, health and tourism. Many defence roles require nationality or security clearance, so non-EU students should check eligibility early. After graduation, engineering and technical profiles find work locally; others more often move to Marseille, Aix or Nice.",
+      },
+    ],
+    relatedCities: ["toulon", "la-seyne-sur-mer", "hyeres", "marseille", "aix-en-provence"],
+    tags: ["studying in toulon", "international students", "student housing france", "student visa france", "provence"],
+  },
+  {
+    slug: "studying-in-avignon-2026",
+    title: "Studying in Avignon (2026): a campus inside the ramparts and a July like no other",
+    metaTitle: "Studying in Avignon 2026: Campus, Festival, Real Cost",
+    metaDesc:
+      "A campus inside the city walls, studios around €540, a budget near €910, and the Festival every July. Culture, housing and what a foreign student can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Avignon's university sits partly inside the city ramparts, in a fourteenth-century former hospital. People aged 15 to 29 make up 20.3% of residents, above the 18.5% median in our data (INSEE, 2022 census), and a studio runs about €540 a month on our rent estimate, for an all-in budget near €910. Our student-life score gives it 6.7/10, in a band of fifteen cities, lifted by a cultural offer that ties with Paris for the highest in our city profiles. The population is stable, 92,378 in 2016 and 91,760 in 2022. For anyone studying the performing arts, cultural management or heritage, the city of the Festival is a permanent field site.",
+    sections: [
+      {
+        heading: "What can you study in Avignon?",
+        body: "Avignon Université is human-scale and built around two areas it claims openly: culture, heritage and the creative industries on one side, agricultural and environmental sciences on the other, tied to the agronomy research centres based locally. It also covers law, economics, management, humanities, languages, computing and sciences. The setting completes the picture: the Palais des Papes, the Pont Saint-Bénezet, the Rhône, and 2,750 hours of sunshine a year on our climate data.",
+      },
+      {
+        heading: "Where are the campuses, and how do you get around?",
+        body: "The Hannah-Arendt campus is inside the walls, in the former Sainte-Marthe hospital at the heart of the historic city, within walking distance of most central housing. The Jean-Henri-Fabre campus, to the south in the Agroparc zone, holds the sciences and agricultural courses, about twenty minutes by bus. The tram, opened in 2019, and the Orizo bus network link the districts outside the walls to the centre. Inside the walls you live on foot and by bike. The TGV puts Paris under three hours away, and Marseille and Montpellier about an hour by train.",
+      },
+      {
+        heading: "Housing: July changes everything",
+        body: "Our estimate puts a studio at €540 and a one-bedroom flat at €750. Inside the walls is most practical for the Hannah-Arendt campus, with old flats, sometimes without a lift and often hot in summer: with a July average of 28 °C on our climate data, check orientation and shutters at the viewing. Districts outside the walls along the tram are cheaper. The Avignon quirk is July: during the Festival the city receives hundreds of thousands of visitors, short lets soar, and some landlords prefer a nine-month student lease so they can recover the flat for summer. The cheapest beds are in residences of CROUS Aix-Marseille-Avignon, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €540 (our rent estimate). Orizo transport pass: €39 a month at the standard adult fare on our calculator, a ceiling. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €910 a month before aid. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit. The Festival offers reduced prices for young people and students, and part of the Off is cheap.",
+      },
+      {
+        heading: "What is student life like? Living inside a festival set",
+        body: "Student life happens inside the walls, around place Pie, place des Corps-Saints and rue des Teinturiers with its terraces along the Sorgue canal. The Festival d'Avignon, the official In and the open Off, transforms the city in July: more than a thousand shows in the Off, seasonal jobs, and a cultural experience without equivalent for a student who stays for the summer. The rest of the year, permanent theatres, the Utopia cinemas and the contemporary-music scene keep things going. To breathe: the Île de la Barthelasse and its cycle paths, Mont Ventoux, the Alpilles and the Luberon under an hour away. The mistral wind is part of the year.",
+      },
+      {
+        heading: "Jobs, internships and the honest point",
+        body: "The honest point first: the city's poverty rate is 33% (INSEE, Filosofi), one of the highest among the cities we track, and the local job market is narrow out of season. Student jobs exist in restaurants and retail, and massively during the Festival, in ticketing, front of house, technical crews and catering; a student permit allows up to 964 hours a year. For internships, the area is strong in culture and the performing arts, food processing, Rhône-corridor logistics and tourism. After graduation many move to Marseille, Montpellier, Lyon or Paris.",
+      },
+    ],
+    relatedCities: ["avignon", "nimes", "arles", "orange", "carpentras"],
+    tags: ["studying in avignon", "international students", "student housing france", "student visa france", "provence"],
+  },
+  {
+    slug: "studying-in-chambery-2026",
+    title: "Studying in Chambéry (2026): a mountain campus with an Alpine rent",
+    metaTitle: "Studying in Chambéry 2026: Savoie Mont Blanc, Cost",
+    metaDesc:
+      "Université Savoie Mont Blanc, studios around €590, Lac du Bourget and the ski resorts on the doorstep. What it costs, where to live, what you can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Chambéry is a mountain student city: 22.7% of residents are aged 15 to 29, against a median of 18.5% in our data (INSEE, 2022 census), the Bauges and Chartreuse massifs start at the city's edge, and Lac du Bourget is fifteen minutes away. Our student-life score is harsh on it, 5.6/10, in a band of twenty-one cities, because our scale weighs cultural offer and cost of living first and does not measure the mountains, which are the main reason to come. A studio runs about €590 a month on our rent estimate, an all-in budget about €960, and the population is growing, from 59,183 in 2016 to 60,251 in 2022.",
+    sections: [
+      {
+        heading: "What can you study in Chambéry?",
+        body: "Université Savoie Mont Blanc has three campuses: Chambéry, Le Bourget-du-Lac and Annecy. It covers law, economics, management, humanities, languages, sciences, engineering with Polytech Annecy-Chambéry, and sport, with specialisms tied to the territory: mountains, tourism, solar energy and the environment. The national solar energy institute (INES) at the Savoie Technolac park makes the area a renewable-energy hub. The setting is the decisive argument: skiing, hiking, climbing, paragliding and water sports without travelling. For a student in sports science, tourism or energy, Chambéry is a coherent choice.",
+      },
+      {
+        heading: "Which campus are you on, and how do you get around?",
+        body: "The Jacob-Bellecombette campus, on the heights south of Chambéry, holds humanities, languages, law and economics. The Le Bourget-du-Lac campus, on the lakeshore at Savoie Technolac, holds sciences and engineering, about twenty minutes by bus. The third campus is in Annecy, about fifty minutes away, so check exactly where your course is taught before you look for a flat. Synchro buses link the campuses to the centre and the station. The valley floor is flat and cyclable, but Jacob-Bellecombette is uphill. For the mountains, a car or car-sharing is often essential, though shuttles serve some resorts in winter.",
+      },
+      {
+        heading: "How much is a studio, and why so much?",
+        body: "Our estimate puts a studio at €590 and a one-bedroom flat at €820, more than most cities this size, because Savoie is a high-rent region pulled up by Annecy and the proximity of Geneva. The centre, around place Saint-Léger and the château of the Dukes of Savoy, is the liveliest. Areas near Jacob-Bellecombette and Le Bourget-du-Lac are practical for the campuses. Winter is cold, a January average of 1 °C on our climate data, so the heating system and the energy rating (DPE) are two things to check at the viewing. The cheapest beds are in CROUS Grenoble-Alpes residences, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €590 (our rent estimate). Synchro transport pass: €40 a month at the standard adult fare on our calculator, a ceiling. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €960 a month before aid. The line that runs away is the mountains: passes, equipment and travel quickly cost several hundred euros a season, so compare the student season passes at nearby resorts in autumn. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like? The mountains as campus",
+        body: "Nightlife is that of a city of 60,000: a few streets of bars around place Saint-Léger and the Curial district, the Espace Malraux national stage, and concerts at Le Scarabée, a modest venue compared with Grenoble or Lyon. The first-novel festival and major sporting events mark the year. The outdoors is the heart of it: the Bauges and Chartreuse resorts under an hour away, the big Tarentaise resorts about an hour and a half away, Lac du Bourget for swimming, rowing and sailing, and hiking trails leaving straight from town. Grenoble, Lyon and Annecy are an hour or less away.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are in restaurants, retail, tutoring and, in winter, the resorts: ski lifts, equipment hire, mountain restaurants; a student permit allows up to 964 hours a year, so a winter season fits. For internships, the area is strong in solar energy and the cleantech firms of Savoie Technolac, mountain tourism, digital and public services. Geneva is about an hour and a half away, and its cross-border job market draws some graduates, though a non-EU graduate needs Swiss authorisation to work there. After graduation many stay in Savoie or move to Lyon, Grenoble and Annecy.",
+      },
+    ],
+    relatedCities: ["chambery", "aix-les-bains", "annecy", "grenoble", "albertville"],
+    tags: ["studying in chambery", "international students", "student housing france", "student visa france", "french alps"],
+  },
+  {
+    slug: "studying-in-valenciennes-2026",
+    title: "Studying in Valenciennes (2026): the lowest rent in our series, a top-tier score",
+    metaTitle: "Studying in Valenciennes 2026: UPHF, Rubika, Low Cost",
+    metaDesc:
+      "Studios around €360, the lowest in our series, a 7.1/10 student-life score, INSA and the Rubika animation school, Lille 40 minutes away. The honest guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Valenciennes is the surprise of this series. A studio runs about €360 a month on our rent estimate, the lowest rent of all the student cities we cover, for an all-in budget near €720. People aged 15 to 29 make up 26% of residents, against a median of 18.5% in our data (INSEE, 2022 census). And our student-life score gives it 7.1/10, the same as Paris: only twenty-eight cities do better. The town itself is small, 42,979 residents in 2022 against 43,680 in 2016, but it sits at the centre of a much larger conurbation. This guide covers what Valenciennes gives a student, and its limits.",
+    sections: [
+      {
+        heading: "What can you study in Valenciennes?",
+        body: "The Université Polytechnique Hauts-de-France (UPHF), the name of the former University of Valenciennes since 2018, leans towards sciences, engineering, transport and mobility, with law, economics, management, humanities and the arts as well. INSA Hauts-de-France, created in 2019, is its engineering school. Valenciennes is also home to Rubika, an internationally known school of animation, video games and industrial design whose graduation films circulate at festivals. The territory explains the specialism: cars and railways are the two big industries of the Valenciennes area. For a student in transport engineering or animation, Valenciennes is not a default choice.",
+      },
+      {
+        heading: "Where is the campus, and how do you get around?",
+        body: "The main campus, Mont-Houy, is south of town, straddling neighbouring communes, with a library, university restaurants and CROUS residences. The Valenciennes tram, running since 2006, links the campus to the centre and the station. Some courses are in the town centre, notably at the Tertiales site. The town is flat and easy to cycle. Lille is about forty minutes away by regional train, so you can enjoy the Lille metropolis at weekends without paying its rents, and Paris is reachable by direct TGV.",
+      },
+      {
+        heading: "How much is a studio, and what should you check?",
+        body: "Our estimate puts a studio at €360 and a one-bedroom flat at €490. The market is very relaxed: you choose a flat rather than take what is left, and flatsharing in a multi-bedroom brick house is common. The centre, around place d'Armes, is the liveliest, and districts along the tram are practical for Mont-Houy. Older housing is plentiful and insulation can be weak: with a January average of 3 °C on our climate data, heating matters, so read the energy rating (DPE). The cheapest beds are in CROUS Lille-Nord-Pas-de-Calais residences, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €360 (our rent estimate). Transvilles transport pass: €33 a month at the standard adult fare on our calculator, a ceiling. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €720 a month before aid, the lowest budget in the whole series and nearly €900 less than Paris. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and Rubika, as a private school, sets its own fees. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit, and on a €360 rent it covers a large share of the bill.",
+      },
+      {
+        heading: "What is student life like? A small town that goes out",
+        body: "Our high score comes from a mix few cities have: low living costs, good public transport and a real cultural offer for the size. Going out centres on place d'Armes and rue de Famars. Le Phénix, a national stage, programmes theatre, dance and circus, and the Musée des Beaux-Arts holds a notable collection of Flemish painting and works by Carpeaux, born in the town. To breathe: the Rhônelle park, the slag heaps and former mining sites of the coal basin, listed by UNESCO, the Raismes-Saint-Amand forest, and nearby Belgium. Lille, forty minutes away, widens the options.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are in restaurants, retail, tutoring and logistics; a student permit allows up to 964 hours a year. For internships, the Valenciennes area is an active industrial basin: the Toyota plant at Onnaing, Stellantis at Hordain, the Alstom rail site at Petite-Forêt, and a network of transport subcontractors and laboratories. The town's poverty rate is 25% (INSEE, Filosofi), above the median, and the local market remains narrow for non-technical profiles. After graduation engineers find work locally; others more often move to Lille or Paris.",
+      },
+    ],
+    relatedCities: ["valenciennes", "lille", "maubeuge", "cambrai", "douai"],
+    tags: ["studying in valenciennes", "international students", "student housing france", "student visa france", "hauts-de-france"],
+  },
+  {
+    slug: "studying-in-mulhouse-2026",
+    title: "Studying in Mulhouse (2026): three countries, low rents and a tri-national university network",
+    metaTitle: "Studying in Mulhouse 2026: UHA, Basel, Real Cost",
+    metaDesc:
+      "Studios around €420, Basel 20 minutes away, chemistry and textile engineering, and the Eucor network. The budget, the border and the figures to know.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Mulhouse is a student city on three borders: Switzerland and Basel about twenty minutes away by train, Germany and Freiburg under an hour. A studio runs about €420 a month on our rent estimate, an all-in budget about €800, and our student-life score gives it 6.9/10, with forty-five cities ahead and six on the same score. People aged 15 to 29 make up 20.8% of residents, above the 18.5% median in our data (INSEE, 2022 census). The city is losing residents, 108,999 in 2016 against 104,924 in 2022, and its poverty rate is high: this guide says so, and also says what the city offers.",
+    sections: [
+      {
+        heading: "What can you study in Mulhouse?",
+        body: "The Université de Haute-Alsace (UHA), split between Mulhouse and Colmar, covers law, economics, management, humanities, languages, sciences and engineering. Its two in-house engineering schools carry the city's industrial heritage: the Mulhouse national school of chemistry, one of the oldest in France, and ENSISA, which grew out of the textile school. UHA belongs to Eucor, the network linking the universities of Basel, Freiburg, Strasbourg, Karlsruhe and Haute-Alsace, which lets students take courses at partner institutions. For a student aiming at a French-German-Swiss career, Mulhouse is one of the most interesting positions in France.",
+      },
+      {
+        heading: "Where are the campuses, and how do you get around?",
+        body: "The main campus, Illberg, is on a hill west of the centre, with a library, restaurants and CROUS residences. The Fonderie campus, in a converted industrial foundry, holds law, economics and management near the centre. The tram, running since 2006, and Soléa buses link the sites, and a tram-train extends the network into the Thur valley. The station puts Basel about twenty minutes away and Strasbourg an hour away, and EuroAirport is half an hour by shuttle. The city is cyclable, except for the climb to Illberg.",
+      },
+      {
+        heading: "How much is a studio, and what should you check?",
+        body: "Our estimate puts a studio at €420 and a one-bedroom flat at €580. The market is very relaxed, and the falling population shows in the supply: you choose your flat. Areas near Illberg and the centre, around place de la Réunion and the Fonderie district, are the most practical. Older housing is plentiful and uneven from street to street: check real condition, insulation and the energy rating (DPE), with a January average of 2.5 °C on our climate data. The cheapest beds are in residences of CROUS Strasbourg, which covers Mulhouse, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €420 (our rent estimate). Soléa transport pass: €49 a month at the standard adult fare on our calculator, a ceiling. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €800 a month before aid. The trap is Basel: life on the Swiss side costs far more, and nights out there quickly unbalance a budget. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like? Museums, Basel and the Vosges",
+        body: "Mulhouse has a strong cultural offer for its size. The Cité de l'Automobile, with the Schlumpf collection, and the Cité du Train are among the largest museums of their kind in Europe. La Filature, a national stage, programmes theatre, dance and music, and Le Noumatrouff contemporary music. Going out centres on place de la Réunion and rue des Franciscains. Basel, twenty minutes away, adds its museums, the Fondation Beyeler and the Art Basel fair. To breathe: the zoological and botanical park, the Rhône-Rhine canal by bike, and the Vosges, the Grand Ballon and its resorts, under an hour away.",
+      },
+      {
+        heading: "Jobs, internships and the border effect",
+        body: "The honest point first: the city's poverty rate is 36% (INSEE, Filosofi), the highest of the cities in this series, and the population is falling. The local job market, shaped by the Stellantis plant at Sausheim and the chemical industry, stays narrow for some profiles. The asset is the border: the Basel region concentrates pharmaceuticals and chemicals at much higher salaries, and many Mulhouse graduates become cross-border workers while living on the French side. For a non-EU graduate, working in Switzerland requires Swiss authorisation that a French permit does not give, so plan it before counting on it. Student jobs are in restaurants, retail and tutoring, within the 964 hours a year a French student permit allows.",
+      },
+    ],
+    relatedCities: ["mulhouse", "colmar", "strasbourg", "belfort", "montbeliard"],
+    tags: ["studying in mulhouse", "international students", "student housing france", "student visa france", "alsace"],
+  },
+  {
+    slug: "studying-in-le-havre-2026",
+    title: "Studying in Le Havre (2026): a city-centre campus with the beach down the road",
+    metaTitle: "Studying in Le Havre 2026: Sciences Po, Housing, Cost",
+    metaDesc:
+      "Studios around €470, a campus in the centre, Sciences Po's Asia campus, the merchant-navy school and a beach in town. Budget, housing, what you can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Le Havre is an overlooked student city with a rare asset: the university, Sciences Po and the merchant-navy school are all in town, a few minutes from the beach. A studio runs about €470 a month on our rent estimate, an all-in budget about €850. People aged 15 to 29 make up 20% of residents, slightly above the 18.5% median in our data (INSEE, 2022 census), and the city is losing residents, 170,352 in 2016 against 166,462 in 2022. Our student-life score gives it 6.4/10, in a band of nineteen cities. This guide covers what Auguste Perret's rebuilt city, a UNESCO World Heritage site, gives a student.",
+    sections: [
+      {
+        heading: "What can you study in Le Havre?",
+        body: "The Université Le Havre Normandie covers law, economics, management, humanities, languages, sciences and logistics, with a specialism tied to the port: transport, logistics, international trade and the sea. Sciences Po runs its Asia-Pacific campus here, with a large share of international students, and awards the Sciences Po degree. The national maritime school (ENSM) trains merchant-navy officers in a recent building on the quays, and EM Normandie has a Le Havre campus. The setting is singular: a centre rebuilt by Auguste Perret and listed by UNESCO, a beach in the middle of town, and the Seine estuary.",
+      },
+      {
+        heading: "Where are the campuses, and how do you get around?",
+        body: "The university's main campus, the Lebon site, is in the city centre near the Bassin du Commerce and the station. Some courses are in the Docks district and at the Mont-Gaillard site on the plateau. The tram, running since 2012, links the beach, the centre, the station and the plateau, and a funicular connects the lower and upper town. The centre is walkable and cyclable; the plateau calls for the tram. Rouen is about fifty minutes away by train, Paris a little over two hours, and Étretat and the Alabaster Coast half an hour by coach.",
+      },
+      {
+        heading: "How much is a studio, and what should you check?",
+        body: "Our estimate puts a studio at €470 and a one-bedroom flat at €650. The market is relaxed, with plenty of stock in Perret's buildings in the centre: bright flats designed with generous floor areas, but sometimes with shared building heating whose service charges you should check. The Saint-Vincent district, between the centre and the beach, is sought-after; districts in the upper town along the tram are cheaper. Read the energy rating (DPE) before signing, since G-rated flats can no longer be let to new tenants. The cheapest beds are in CROUS Normandie residences, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €470 (our rent estimate). LiA transport pass: €53 a month at the standard adult fare on our calculator, a ceiling, since the youth fare is lower. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €850 a month before aid. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and Sciences Po and EM Normandie set their own fees. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like? The sea at the end of the street",
+        body: "Student life is split between the centre, the Saint-François district near the port, and the beach, where huts and bars open with the first fine days. The MuMa, the André Malraux modern art museum, holds one of the largest Impressionist collections in France outside Paris, facing the sea. Le Volcan, a national stage designed by Oscar Niemeyer, programmes theatre and dance, and in summer Un Été au Havre places artworks across the city. To breathe: the beach and promenade, the hanging gardens in a former fort, the Alabaster Coast and Étretat. The climate is Normandy's, 1,590 hours of sunshine a year on our climate data, with mild winters.",
+      },
+      {
+        heading: "Jobs, internships and staying on",
+        body: "Student jobs are in restaurants, retail, tutoring and logistics; a student permit allows up to 964 hours a year. Le Havre's strength for internships is clear: it is France's leading container port, with the whole ecosystem of shipping, logistics, international trade and customs, plus estuary industry and energy, including offshore wind. After graduation, logistics and maritime profiles find work locally; others more often move to Rouen or Paris.",
+      },
+    ],
+    relatedCities: ["le-havre", "rouen", "caen", "honfleur"],
+    tags: ["studying in le havre", "international students", "student housing france", "student visa france", "normandy"],
+  },
+  {
+    slug: "studying-in-nimes-2026",
+    title: "Studying in Nîmes (2026): Roman monuments, a small university, Montpellier at 30 minutes",
+    metaTitle: "Studying in Nîmes 2026: Campus, Housing, Real Cost",
+    metaDesc:
+      "Studios around €520, campuses in the town centre including a Vauban citadel, Montpellier 30 minutes away. The budget, the flood risk and what you can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro:
+      "Nîmes is a discreet student city in Montpellier's shadow, half an hour away by train. Its small university has put its campuses in the centre, one of them inside Vauban's former citadel. A studio runs about €520 a month on our rent estimate, an all-in budget about €880, clearly less than Montpellier. People aged 15 to 29 make up 21.1% of residents, above the 18.5% median in our data (INSEE, 2022 census), and the population is stable, 151,001 in 2016 and 150,444 in 2022. Our student-life score gives it 6.7/10, in the same band of fifteen cities as Avignon.",
+    sections: [
+      {
+        heading: "What can you study in Nîmes?",
+        body: "The Université de Nîmes is one of the smallest universities in France, with human-scale year groups. It covers law, economics, management, humanities, languages, psychology, sciences and a recognised specialism in design, from licence to master's level. Health is present with a site of the Montpellier-Nîmes medical faculty near the teaching hospital, and IMT Mines Alès is about forty-five minutes away for engineering. The setting is a strong argument: the Roman arena, the Maison Carrée, listed as a UNESCO World Heritage site in 2023, the Jardins de la Fontaine, and 2,700 hours of sunshine a year on our climate data.",
+      },
+      {
+        heading: "Where are the campuses, and how do you get around?",
+        body: "The university's sites are in town. The Vauban site, north of the historic centre, occupies the former citadel and its converted prison. The Hoche site, a restored historic complex, hosts other courses, and the Carmes site completes the set. Tango buses, including bus rapid-transit lines, link the sites, and the centre is walkable. The station puts Montpellier about thirty minutes away and Avignon and Arles under half an hour, and the Camargue and the Cévennes are reached by car. The Tango network is not in our fare calculator, so ask the operator for the youth fare.",
+      },
+      {
+        heading: "How much is a studio, and what should you check?",
+        body: "Our estimate puts a studio at €520 and a one-bedroom flat at €720. The market is relaxed. The Écusson, the historic centre, is the most practical and liveliest, with old flats that can be dark and hot in summer: with a July average of 27.5 °C on our climate data, check orientation, shutters and insulation at the viewing. Areas near Vauban and Hoche are practical. Nîmes has had violent floods, notably in 1988, so a ground-floor flat near a cadereau, the old streams that cross the city, deserves a question about flood risk. The cheapest beds are in CROUS Montpellier-Occitanie residences, though grant-holders get priority. Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €520 (our rent estimate). Transport: €30 a month, our assumption, since the Tango network is not in our calculator, and zero if you live and study in the centre. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €880 a month before aid, clearly less than Montpellier for a city thirty minutes away. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, for EU students; non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted. The CROUS grant is effectively closed to non-EU students; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like? Ferias, heritage and Montpellier",
+        body: "Student life happens in the Écusson, around place du Marché, place aux Herbes and boulevard Victor-Hugo, with terraces open much of the year. The Pentecost and harvest ferias transform the city, and the big summer concerts are held in the arena. Paloma, a contemporary-music venue, programmes all year, and the Musée de la Romanité, facing the arena, presents the city's ancient past. The ferias include bullfighting, a regulated and contested tradition in the region. To breathe: the Jardins de la Fontaine and the Tour Magne, the Pont du Gard half an hour away, the Camargue and the Mediterranean beaches under an hour away. Montpellier, thirty minutes away, widens the options considerably.",
+      },
+      {
+        heading: "Jobs, internships and the honest point",
+        body: "The honest point first: the city's poverty rate is 31% (INSEE, Filosofi), well above the median, and the local job market is narrower than Montpellier's. Student jobs exist in restaurants, retail, tutoring and event work around the ferias and concerts; a student permit allows up to 964 hours a year. For internships, the area is strong in health, public services, logistics, design and cultural tourism. After graduation many move to Montpellier, Marseille or Lyon.",
+      },
+    ],
+    relatedCities: ["nimes", "montpellier", "avignon", "arles", "ales"],
+    tags: ["studying in nimes", "international students", "student housing france", "student visa france", "occitanie"],
+  },
+  {
     slug: "solo-travel-in-paris-2026",
     title: "Solo travel in Paris: where to stay, where to drink, when to go",
     metaTitle: "Solo Travel in Paris 2026: Where to Stay, Going Out Alone",

@@ -6627,6 +6627,91 @@
       "emoji": "🎓"
     },
     {
+      "slug": "studying-in-rouen-2026",
+      "title": "Studying in Rouen (2026): a young city, provincial rents, Paris in 75 minutes",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-reims-2026",
+      "title": "Studying in Reims (2026): 45 minutes from Paris at half the price",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-brest-2026",
+      "title": "Studying in Brest (2026): France's marine-science city on a student budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-orleans-2026",
+      "title": "Studying in Orléans (2026): an hour from Paris, with one big catch",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-metz-2026",
+      "title": "Studying in Metz (2026): a riverside campus and Luxembourg on the doorstep",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-saint-etienne-2026",
+      "title": "Studying in Saint-Étienne (2026): low rents with Lyon 50 minutes away",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-le-mans-2026",
+      "title": "Studying in Le Mans (2026): acoustics, a compact campus, Paris in under an hour",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-perpignan-2026",
+      "title": "Studying in Perpignan (2026): sun, sea and Spain, with eyes open",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-pau-2026",
+      "title": "Studying in Pau (2026): the Pyrenees at an hour, the Atlantic just beyond",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-la-rochelle-2026",
+      "title": "Studying in La Rochelle (2026): a seafront campus and a holiday-town rent",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-toulon-2026",
+      "title": "Studying in Toulon (2026): a Mediterranean harbour at a lower rent than Nice",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-avignon-2026",
+      "title": "Studying in Avignon (2026): a campus inside the ramparts and a July like no other",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-chambery-2026",
+      "title": "Studying in Chambéry (2026): a mountain campus with an Alpine rent",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-valenciennes-2026",
+      "title": "Studying in Valenciennes (2026): the lowest rent in our series, a top-tier score",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-mulhouse-2026",
+      "title": "Studying in Mulhouse (2026): three countries, low rents and a tri-national university network",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-le-havre-2026",
+      "title": "Studying in Le Havre (2026): a city-centre campus with the beach down the road",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-nimes-2026",
+      "title": "Studying in Nîmes (2026): Roman monuments, a small university, Montpellier at 30 minutes",
+      "emoji": "🎓"
+    },
+    {
       "slug": "solo-travel-in-paris-2026",
       "title": "Solo travel in Paris: where to stay, where to drink, when to go",
       "emoji": "🍸"
@@ -9166,17 +9251,17 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 75
+      "count": 76
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 72
+      "count": 73
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 71
+      "count": 73
     },
     {
       "slug": "solo-travel",
@@ -9201,7 +9286,7 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 62
+      "count": 63
     },
     {
       "slug": "relocation",
@@ -9236,22 +9321,37 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 46
+      "count": 47
     },
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 40
+      "count": 41
+    },
+    {
+      "slug": "international-students",
+      "label": "international students",
+      "count": 41
+    },
+    {
+      "slug": "student-housing-france",
+      "label": "student housing france",
+      "count": 41
+    },
+    {
+      "slug": "student-visa-france",
+      "label": "student visa france",
+      "count": 41
     },
     {
       "slug": "provence",
       "label": "provence",
-      "count": 35
+      "count": 37
     },
     {
       "slug": "normandy",
       "label": "normandy",
-      "count": 34
+      "count": 36
     },
     {
       "slug": "working-in-france",
@@ -9284,21 +9384,6 @@
       "count": 26
     },
     {
-      "slug": "international-students",
-      "label": "international students",
-      "count": 24
-    },
-    {
-      "slug": "student-housing-france",
-      "label": "student housing france",
-      "count": 24
-    },
-    {
-      "slug": "student-visa-france",
-      "label": "student visa france",
-      "count": 24
-    },
-    {
       "slug": "budget",
       "label": "budget",
       "count": 23
@@ -9314,19 +9399,24 @@
       "count": 21
     },
     {
+      "slug": "alsace",
+      "label": "alsace",
+      "count": 16
+    },
+    {
       "slug": "burgundy",
       "label": "burgundy",
+      "count": 16
+    },
+    {
+      "slug": "loire-valley",
+      "label": "loire valley",
       "count": 16
     },
     {
       "slug": "reunion",
       "label": "reunion",
       "count": 16
-    },
-    {
-      "slug": "alsace",
-      "label": "alsace",
-      "count": 15
     },
     {
       "slug": "cycling",
@@ -9336,11 +9426,6 @@
     {
       "slug": "expat",
       "label": "expat",
-      "count": 15
-    },
-    {
-      "slug": "loire-valley",
-      "label": "loire valley",
       "count": 15
     },
     {
@@ -9354,6 +9439,11 @@
       "count": 13
     },
     {
+      "slug": "atlantic-coast",
+      "label": "atlantic coast",
+      "count": 12
+    },
+    {
       "slug": "bretagne",
       "label": "bretagne",
       "count": 12
@@ -9361,11 +9451,6 @@
     {
       "slug": "affordable-retirement-france",
       "label": "affordable retirement France",
-      "count": 11
-    },
-    {
-      "slug": "atlantic-coast",
-      "label": "atlantic coast",
       "count": 11
     },
     {
@@ -9407,6 +9492,11 @@
       "slug": "strasbourg",
       "label": "strasbourg",
       "count": 9
+    },
+    {
+      "slug": "champagne",
+      "label": "champagne",
+      "count": 8
     },
     {
       "slug": "corsica",
@@ -9456,11 +9546,6 @@
     {
       "slug": "car-free-holidays-france",
       "label": "car-free holidays france",
-      "count": 7
-    },
-    {
-      "slug": "champagne",
-      "label": "champagne",
       "count": 7
     },
     {
@@ -9609,6 +9694,11 @@
       "count": 4
     },
     {
+      "slug": "french-alps",
+      "label": "french alps",
+      "count": 4
+    },
+    {
       "slug": "guadeloupe",
       "label": "guadeloupe",
       "count": 4
@@ -9691,11 +9781,6 @@
     {
       "slug": "fatca",
       "label": "fatca",
-      "count": 3
-    },
-    {
-      "slug": "french-alps",
-      "label": "french alps",
       "count": 3
     },
     {
