@@ -26838,7 +26838,7 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🌅",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-22",
     intro:
       "The Île de Ré is the most expensive retirement in this series and the most demanding: €7,500/m² on average, a two-bed at €1,200 a month, no hospital on the island, and a summer when the population multiplies. Against that: ten villages of whitewashed walls and hollyhocks, more than 100 kilometres of flat cycle paths, salt marshes, a famous quality of light, and a safety score of 8.6/10. This guide does not decide for you. It sets out the figures and the constraints so that, if you do it, you do it with your eyes open.",
     sections: [
@@ -26856,7 +26856,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Renting or buying",
-        body: "The figures are close to the highest of our 540 towns: €1,200 for a two-bed, €1,650 for a three-bed, €7,500/m² to buy, with Saint-Martin and Les Portes above that and village houses routinely crossing a million. Our cost score of 3.7/10 is the lowest in this series. Renting long-term is hard: owners arbitrate heavily towards the holiday season, and finding a conventional twelve-month lease takes contacts and patience. Three realistic paths. The southern villages (La Flotte, Sainte-Marie, Rivedoux) sit nearer the bridge and the hospital and cost a little less than the mythologised north. Buying something modest in a back lane rather than the photographed house of character. Or the clear-eyed alternative of La Rochelle itself, which gives you the island as a neighbour at roughly half the price. A lot of happy retirees chose the third option, and no one who did has told us they regret it.",
+        body: "The figures are among the highest of the towns we cover: €1,200 for a two-bed, €1,650 for a three-bed, €7,500/m² to buy, with Saint-Martin and Les Portes above that and village houses routinely crossing a million. Our cost score of 3.7/10 is the lowest in this series. Renting long-term is hard: owners arbitrate heavily towards the holiday season, and finding a conventional twelve-month lease takes contacts and patience. Three realistic paths. The southern villages (La Flotte, Sainte-Marie, Rivedoux) sit nearer the bridge and the hospital and cost a little less than the mythologised north. Buying something modest in a back lane rather than the photographed house of character. Or the clear-eyed alternative of La Rochelle itself, which gives you the island as a neighbour at roughly half the price. A lot of happy retirees chose the third option, and no one who did has told us they regret it.",
       },
       {
         heading: "What a month actually costs",
@@ -26994,9 +26994,9 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🌅",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-22",
     intro:
-      "Vitré is the sensible choice of this series: an intact medieval town with a castle and half-timbered streets, one of the best safety scores among our 540 towns at 8.5/10, a two-bed at €600, and above all a rail connection that pretty Breton towns almost never have. Rennes is 35 minutes away by frequent regional train and Paris about two hours by direct TGV. For a retiree who wants heritage and quiet without cutting themselves off from family or from teaching hospitals, the gateway to Brittany combines things that rarely go together. Here is the full picture, limits included.",
+      "Vitré is the sensible choice of this series: an intact medieval town with a castle and half-timbered streets, one of the best safety scores among the towns we cover at 8.5/10, a two-bed at €600, and above all a rail connection that pretty Breton towns almost never have. Rennes is 35 minutes away by frequent regional train and Paris about two hours by direct TGV. For a retiree who wants heritage and quiet without cutting themselves off from family or from teaching hospitals, the gateway to Brittany combines things that rarely go together. Here is the full picture, limits included.",
     sections: [
       {
         heading: "Why Vitré works, and who it works for",
@@ -27150,9 +27150,9 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🌅",
     readMinutes: 8,
     publishedAt: "2026-08-18",
-    updatedAt: "2026-08-18",
+    updatedAt: "2026-10-22",
     intro:
-      "Le Puy-en-Velay is the opposite of a seaside retirement: no coast, mountain winters at 629 metres, and one of the best overall scores among our 540 towns at 7.7/10 for housing that costs almost nothing by French standards, €530 for a two-bed and €1,600/m² to buy. It is a UNESCO-listed town built on volcanic plugs, the historic starting point of the Via Podiensis route to Santiago de Compostela, and it has a serious hospital on site. For a foreign retiree the appeal is specific: heritage and landscape at a price that leaves a pension intact. This guide sets out what that actually buys, winters included.",
+      "Le Puy-en-Velay is the opposite of a seaside retirement: no coast, mountain winters at 629 metres, and one of the best overall scores among the towns we cover at 7.7/10 for housing that costs almost nothing by French standards, €530 for a two-bed and €1,600/m² to buy. It is a UNESCO-listed town built on volcanic plugs, the historic starting point of the Via Podiensis route to Santiago de Compostela, and it has a serious hospital on site. For a foreign retiree the appeal is specific: heritage and landscape at a price that leaves a pension intact. This guide sets out what that actually buys, winters included.",
     sections: [
       {
         heading: "Why Le Puy works, and who it works for",
@@ -27298,7 +27298,7 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "retiring-in-tulle-2026",
-    title: "Retiring in Tulle: the cheapest prefecture in France, and its trade-offs",
+    title: "Retiring in Tulle: one of France's cheapest prefectures, and its trade-offs",
     metaTitle: "Retiring in Tulle 2026 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Tulle: cost 8/10, a two-bed at €530, €1,400/m² to buy, gorges on the doorstep and a hospital in town. The rural limits, stated.",
@@ -27306,9 +27306,9 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🌅",
     readMinutes: 8,
     publishedAt: "2026-08-18",
-    updatedAt: "2026-08-18",
+    updatedAt: "2026-10-22",
     intro:
-      "Tulle is probably the most affordable prefecture town in France: €1,400/m² to buy, a two-bed at €530, and a spectacular setting wedged into the gorges of the Corrèze river. Off the main routes, it still lives off an administrative and industrial fabric, the Maugein accordion works and the state arms factory, which sets it apart from the dying villages of the plateau. For a retirement built on nature, quiet and a wide budget margin, few French towns compete. This guide separates the postcard from the daily reality: care, housing, budget and the real limits of the inland Corrèze.",
+      "Tulle is one of the most affordable prefecture towns in France (Chaumont, Guéret and Vesoul are cheaper still per square metre): €1,400/m² to buy, a two-bed at €530, and a spectacular setting wedged into the gorges of the Corrèze river. Off the main routes, it still lives off an administrative and industrial fabric, the Maugein accordion works and the state arms factory, which sets it apart from the dying villages of the plateau. For a retirement built on nature, quiet and a wide budget margin, few French towns compete. This guide separates the postcard from the daily reality: care, housing, budget and the real limits of the inland Corrèze.",
     sections: [
       {
         heading: "Why Tulle works, and who it works for",
@@ -27324,11 +27324,11 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Renting or buying",
-        body: "The figures are among the gentlest of our 540 towns: €370 for a one-bed, €530 for a two-bed, €700 for a three-bed, €1,400/m² to buy on average. A town house with a garden in the upper districts often trades under €130,000, a renovated flat in the centre for well under €150,000. Two things to weigh. The topography is brutal, the streets climb hard, and some charming properties become unusable the day the knees object, so think ten years ahead rather than two and favour the lower town or the residential plateaux to the south. Then insulation: much of the old stock kept its slate and stone character at the cost of poor energy performance, so the DPE, the mandatory energy rating on every listing, and the winter bills should weigh as heavily in the decision as the charm. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+        body: "The figures are among the gentlest of the towns we cover: €370 for a one-bed, €530 for a two-bed, €700 for a three-bed, €1,400/m² to buy on average. A town house with a garden in the upper districts often trades under €130,000, a renovated flat in the centre for well under €150,000. Two things to weigh. The topography is brutal, the streets climb hard, and some charming properties become unusable the day the knees object, so think ten years ahead rather than two and favour the lower town or the residential plateaux to the south. Then insulation: much of the old stock kept its slate and stone character at the cost of poor energy performance, so the DPE, the mandatory energy rating on every listing, and the winter bills should weigh as heavily in the decision as the charm. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
       },
       {
         heading: "What a month actually costs",
-        body: "For a couple renting a two- or three-bed: rent €530 to €700, charges and energy €180 to €250, since Corrèze winters are real and the heating line is not decorative, groceries €320 to €400 held down by the Saturday market and local producers, car €200 to €260, which is unavoidable because rural Corrèze does not work without one, health cover €150 to €250 for two, leisure €150. Total €1,530 to €2,010 a month, among the lowest in this series; owners with no mortgage, €950 to €1,250, before taxe foncière, the annual property tax. That is the Tulle argument in one line: two modest pensions live well here, and a couple with a combined net income around €1,500 to €1,700 gets through the month without painful choices, which most coastal towns make impossible.",
+        body: "For a couple renting a two- or three-bed: rent €530 to €700, charges and energy €180 to €250, since Corrèze winters are real and the heating line is not decorative, groceries €320 to €400 held down by the Saturday market and local producers, car €200 to €260, which is unavoidable because rural Corrèze does not work without one, health cover €150 to €250 for two, leisure €150. Total €1,530 to €2,010 a month, among the lowest in this series; owners with no mortgage, €950 to €1,250, before taxe foncière, the annual property tax. That is the Tulle argument in one line: two modest pensions live well here and get through the month without painful choices, which most coastal towns make impossible.",
       },
       {
         heading: "Daily life, and getting back to see family",
@@ -27410,7 +27410,7 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🌅",
     readMinutes: 8,
     publishedAt: "2026-08-18",
-    updatedAt: "2026-08-18",
+    updatedAt: "2026-10-22",
     intro:
       "Saint-Dié-des-Vosges belongs to that discreet category of mid-sized French towns whose quality of life is routinely underrated: 20,000 inhabitants, the Vosges forest at the end of the street, an average purchase price of €1,100/m² among the softest in eastern France, and a cultural programme that includes, every October, an international geography festival, which is a rare thing at this scale. This is also the town where the word America was first printed, in 1507. For a retirement built on nature, budget margin and a genuine cultural fabric, it deserves a serious look. Care, housing, the real budget and a Vosges winter that cannot be talked away.",
     sections: [
@@ -27428,7 +27428,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Renting or buying",
-        body: "The figures are among the gentlest of our 540 towns: €350 for a one-bed, €500 for a two-bed, €670 for a three-bed, and €1,100/m² to buy on average. A 1960s or 1970s house with a garden in the residential districts often trades under €130,000; a renovated flat in the centre well under €150,000. Two points of attention. Thermal insulation is a central criterion at this altitude and in this climate rather than an option: the DPE, the mandatory energy rating on every listing, and the winter bills should weigh as heavily as the charm of the building. And favour the central districts so everything stays walkable, because some outlying estates make a car compulsory for the smallest errand, a handicap the day driving becomes difficult. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+        body: "The figures are among the gentlest of the towns we cover: €350 for a one-bed, €500 for a two-bed, €670 for a three-bed, and €1,100/m² to buy on average. A 1960s or 1970s house with a garden in the residential districts often trades under €130,000; a renovated flat in the centre well under €150,000. Two points of attention. Thermal insulation is a central criterion at this altitude and in this climate rather than an option: the DPE, the mandatory energy rating on every listing, and the winter bills should weigh as heavily as the charm of the building. And favour the central districts so everything stays walkable, because some outlying estates make a car compulsory for the smallest errand, a handicap the day driving becomes difficult. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
       },
       {
         heading: "What a month actually costs",

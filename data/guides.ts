@@ -38588,8 +38588,8 @@ export const GUIDES: Guide[] = [
     emoji: "🌅",
     readMinutes: 7,
     publishedAt: "2026-07-14",
-    updatedAt: "2026-07-14",
-    intro: "Le Puy-en-Velay est l'anti-station balnéaire : pas de mer, des hivers montagnards, et pourtant l'un des meilleurs scores globaux de nos 540 villes (7,7/10) pour un coût de logement dérisoire, 530 € le T2 et 1 600 €/m² à l'achat. Point de départ du chemin de Saint-Jacques, cité UNESCO posée sur ses volcans, la ville offre une retraite de patrimoine, de nature et de budget léger, avec un centre hospitalier sérieux sur place. Ce guide détaille ce que vaut vraiment la promesse ponote, hivers compris.",
+    updatedAt: "2026-10-22",
+    intro: "Le Puy-en-Velay est l'anti-station balnéaire : pas de mer, des hivers montagnards, et pourtant l'un des meilleurs scores globaux des villes que nous couvrons (7,7/10) pour un coût de logement dérisoire, 530 € le T2 et 1 600 €/m² à l'achat. Point de départ du chemin de Saint-Jacques, cité UNESCO posée sur ses volcans, la ville offre une retraite de patrimoine, de nature et de budget léger, avec un centre hospitalier sérieux sur place. Ce guide détaille ce que vaut vraiment la promesse ponote, hivers compris.",
     sections: [
       {
         heading: "Pourquoi choisir Le Puy-en-Velay pour sa retraite",
@@ -38726,8 +38726,8 @@ export const GUIDES: Guide[] = [
     emoji: "🌅",
     readMinutes: 7,
     publishedAt: "2026-07-14",
-    updatedAt: "2026-07-14",
-    intro: "Vitré est le choix de raison par excellence : une cité médiévale intacte avec château et rues à pans de bois, l'une des meilleures sécurités de nos 540 villes (8,5/10), un T2 à 600 €, et surtout une desserte que les jolies villes bretonnes n'ont presque jamais : Rennes en 35 minutes de TER cadencé et Paris en TGV direct. Pour un retraité qui veut du patrimoine et du calme sans s'isoler de sa famille ni des CHU, la porte de Bretagne coche une combinaison rare. Le guide complet, limites comprises.",
+    updatedAt: "2026-10-22",
+    intro: "Vitré est le choix de raison par excellence : une cité médiévale intacte avec château et rues à pans de bois, l'une des meilleures sécurités des villes que nous couvrons (8,5/10), un T2 à 600 €, et surtout une desserte que les jolies villes bretonnes n'ont presque jamais : Rennes en 35 minutes de TER cadencé et Paris en TGV direct. Pour un retraité qui veut du patrimoine et du calme sans s'isoler de sa famille ni des CHU, la porte de Bretagne coche une combinaison rare. Le guide complet, limites comprises.",
     sections: [
       {
         heading: "Pourquoi choisir Vitré pour sa retraite",
@@ -38818,7 +38818,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌅",
     readMinutes: 7,
     publishedAt: "2026-07-14",
-    updatedAt: "2026-07-14",
+    updatedAt: "2026-10-22",
     intro: "L'île de Ré est le rêve de retraite le plus cher de ce guide, et le plus exigeant : 7 500 €/m² en moyenne, un T2 à 1 200 €, pas d'hôpital sur l'île, et un été où la population est démultipliée. En face : dix villages de murs blancs et de roses trémières, plus de 100 kilomètres de pistes cyclables plates, les marais salants, une lumière fameuse et une sécurité de 8,6/10. Ce guide ne tranche pas à votre place ; il pose les chiffres et les contraintes pour que le rêve, si vous le réalisez, soit un choix informé.",
     sections: [
       {
@@ -38831,7 +38831,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Se loger : louer ou acheter",
-        body: "Les chiffres sont les plus élevés de nos 540 villes ou presque : T2 à 1 200 €, T3 à 1 650 €, achat moyen à 7 500 €/m², avec Saint-Martin et Les Portes au-delà et des maisons de village qui franchissent couramment le million. Notre score coût de 3,7/10 est le plus bas de ce guide. À la location, le marché à l'année est étroit : les propriétaires arbitrent massivement vers la saison, et trouver un bail classique demande du réseau et de la patience. Trois pistes réalistes : les bourgs du sud (La Flotte, Sainte-Marie, Rivedoux, plus proches du pont et des soins, un peu moins chers que le nord mythique) ; l'achat d'un bien modeste dans une venelle plutôt que la maison de charme photographiée ; ou l'arbitrage lucide vers La Rochelle, qui offre l'île en voisine pour moitié prix. Beaucoup de retraités heureux ont choisi la troisième option.",
+        body: "Les chiffres sont parmi les plus élevés des villes que nous couvrons : T2 à 1 200 €, T3 à 1 650 €, achat moyen à 7 500 €/m², avec Saint-Martin et Les Portes au-delà et des maisons de village qui franchissent couramment le million. Notre score coût de 3,7/10 est le plus bas de ce guide. À la location, le marché à l'année est étroit : les propriétaires arbitrent massivement vers la saison, et trouver un bail classique demande du réseau et de la patience. Trois pistes réalistes : les bourgs du sud (La Flotte, Sainte-Marie, Rivedoux, plus proches du pont et des soins, un peu moins chers que le nord mythique) ; l'achat d'un bien modeste dans une venelle plutôt que la maison de charme photographiée ; ou l'arbitrage lucide vers La Rochelle, qui offre l'île en voisine pour moitié prix. Beaucoup de retraités heureux ont choisi la troisième option.",
       },
       {
         heading: "Budget mensuel retraité réaliste",
@@ -38905,13 +38905,13 @@ export const GUIDES: Guide[] = [
     slug: "retraite-a-tulle-2026",
     title: "Retraite à Tulle en 2026 : santé, logement, budget, le guide",
     metaTitle: "Retraite à Tulle 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Tulle en 2026 : la Corrèze abordable au bord des gorges, un T2 à 460 € et l'achat à 1 100 €/m². Soins, budget mensuel, limites du choix rural.",
+    metaDesc: "Prendre sa retraite à Tulle en 2026 : la Corrèze abordable au bord des gorges, un T2 à 530 € et l'achat à 1 400 €/m². Soins, budget mensuel, limites du choix rural.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
-    intro: "Tulle est probablement la préfecture la plus abordable de France : un prix d'achat autour de 1 100 €/m², un T2 à 460 €, et un cadre spectaculaire enchâssé dans les gorges de la Corrèze. À l'écart des grands axes, elle vit encore d'un tissu administratif et industriel (accordéons Maugein, manufacture d'armes) qui la distingue des villages du plateau. Pour une retraite qui privilégie la nature, le calme et une marge budgétaire large, peu de villes françaises rivalisent. Ce guide fait le tri entre la carte postale et le quotidien : santé, logement, budget et les vraies limites de la Corrèze intérieure.",
+    updatedAt: "2026-10-22",
+    intro: "Tulle est l'une des préfectures les plus abordables de France (Chaumont, Guéret et Vesoul font encore moins cher au m²) : un prix d'achat autour de 1 400 €/m², un T2 à 530 €, et un cadre spectaculaire enchâssé dans les gorges de la Corrèze. À l'écart des grands axes, elle vit encore d'un tissu administratif et industriel (accordéons Maugein, manufacture d'armes) qui la distingue des villages du plateau. Pour une retraite qui privilégie la nature, le calme et une marge budgétaire large, peu de villes françaises rivalisent. Ce guide fait le tri entre la carte postale et le quotidien : santé, logement, budget et les vraies limites de la Corrèze intérieure.",
     sections: [
       {
         heading: "Pourquoi choisir Tulle pour sa retraite",
@@ -38923,11 +38923,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Se loger : louer ou acheter",
-        body: "Les chiffres sont parmi les plus doux de nos 540 villes : T1 autour de 330 €, T2 vers 460 €, T3 autour de 600 €, et un prix d'achat moyen à 1 100 €/m². Une maison de bourg avec jardin dans les quartiers hauts se négocie souvent sous 130 000 € ; un appartement rénové en centre-ville sous 100 000 €. Deux points d'attention : la topographie tulliste est brutale, les rues montent sec, et certains logements de charme deviennent inadaptés le jour où les genoux protestent — pensez à dix ans, pas à deux, et privilégiez les quartiers de la ville basse ou les plateaux résidentiels du sud. L'isolation ensuite : beaucoup de biens anciens ont conservé leur cachet en ardoise et pierre au prix d'une performance énergétique médiocre ; le DPE et les factures d'hiver doivent peser dans la décision autant que le charme.",
+        body: "Les chiffres sont parmi les plus doux des villes que nous couvrons : T1 autour de 370 €, T2 vers 530 €, T3 autour de 700 €, et un prix d'achat moyen à 1 400 €/m². Une maison de bourg avec jardin dans les quartiers hauts se négocie souvent sous 130 000 € ; un appartement rénové en centre-ville bien en dessous de 150 000 €. Deux points d'attention : la topographie tulliste est brutale, les rues montent sec, et certains logements de charme deviennent inadaptés le jour où les genoux protestent — pensez à dix ans, pas à deux, et privilégiez les quartiers de la ville basse ou les plateaux résidentiels du sud. L'isolation ensuite : beaucoup de biens anciens ont conservé leur cachet en ardoise et pierre au prix d'une performance énergétique médiocre ; le DPE et les factures d'hiver doivent peser dans la décision autant que le charme.",
       },
       {
         heading: "Budget mensuel retraité réaliste",
-        body: "Pour un couple locataire d'un T2-T3 : loyer 460 à 600 €, charges et énergie 180 à 250 € (les hivers corréziens sont vrais, comptez la ligne chauffage), courses 320 à 400 € (le marché du samedi et les producteurs locaux permettent de tenir bas), voiture 200 à 260 € (indispensable, la Corrèze rurale ne se fait pas sans voiture), complémentaire santé 150 à 250 € pour deux, loisirs 150 €. Total : 1 460 à 1 910 € par mois — parmi les plus bas de ce guide. Propriétaires sans crédit : 950 à 1 250 €. C'est le principal argument tulliste : deux pensions modestes vivent bien ici, un couple qui touche 1 500-1 700 € net à deux passe le mois sans arbitrage douloureux, ce que la plupart des villes littorales rendent impossible.",
+        body: "Pour un couple locataire d'un T2-T3 : loyer 530 à 700 €, charges et énergie 180 à 250 € (les hivers corréziens sont vrais, comptez la ligne chauffage), courses 320 à 400 € (le marché du samedi et les producteurs locaux permettent de tenir bas), voiture 200 à 260 € (indispensable, la Corrèze rurale ne se fait pas sans voiture), complémentaire santé 150 à 250 € pour deux, loisirs 150 €. Total : 1 530 à 2 010 € par mois — parmi les plus bas de ce guide. Propriétaires sans crédit : 950 à 1 250 €. C'est le principal argument tulliste : deux pensions modestes vivent bien ici et passent le mois sans arbitrage douloureux, ce que la plupart des villes littorales rendent impossible.",
       },
       {
         heading: "Vie quotidienne, lien social et loisirs",
@@ -39002,7 +39002,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌅",
     readMinutes: 7,
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-10-22",
     intro: "Saint-Dié-des-Vosges appartient à cette catégorie discrète de villes moyennes françaises dont on sous-estime la qualité de vie : 20 000 habitants, la forêt vosgienne à la porte, un prix d'achat moyen à 1 100 €/m² parmi les plus doux du grand Est, et une programmation culturelle qui inclut chaque année le Festival international de géographie, événement rare à cette échelle. Pour une retraite qui privilégie la nature, la marge budgétaire et un vrai tissu culturel, Saint-Dié mérite qu'on l'étudie sérieusement. Ce guide fait le point : soins, logement, budget réel et limites d'un hiver vosgien qui ne s'invente pas.",
     sections: [
       {
@@ -39015,7 +39015,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Se loger : louer ou acheter",
-        body: "Les chiffres sont parmi les plus doux de nos 540 villes : T1 autour de 350 €, T2 vers 500 €, T3 autour de 670 €, et un prix d'achat moyen à 1 100 €/m² selon les données du marché déodatien 2026. Une maison des années 60-70 avec jardin dans les quartiers résidentiels se négocie souvent sous 130 000 € ; un appartement rénové en centre-ville sous 90 000 €. Deux points d'attention : l'isolation thermique est un critère central à cette altitude et sous ce climat, pas une option — le DPE et les factures d'hiver doivent peser dans la décision autant que le charme du bâti. Et privilégiez les quartiers du centre pour tout faire à pied ; certains lotissements excentrés obligent la voiture pour le moindre trajet, un handicap le jour où conduire deviendra difficile.",
+        body: "Les chiffres sont parmi les plus doux des villes que nous couvrons : T1 autour de 350 €, T2 vers 500 €, T3 autour de 670 €, et un prix d'achat moyen à 1 100 €/m² selon les données du marché déodatien 2026. Une maison des années 60-70 avec jardin dans les quartiers résidentiels se négocie souvent sous 130 000 € ; un appartement rénové en centre-ville sous 90 000 €. Deux points d'attention : l'isolation thermique est un critère central à cette altitude et sous ce climat, pas une option — le DPE et les factures d'hiver doivent peser dans la décision autant que le charme du bâti. Et privilégiez les quartiers du centre pour tout faire à pied ; certains lotissements excentrés obligent la voiture pour le moindre trajet, un handicap le jour où conduire deviendra difficile.",
       },
       {
         heading: "Budget mensuel retraité réaliste",

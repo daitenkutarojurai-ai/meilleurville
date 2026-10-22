@@ -2679,3 +2679,44 @@ propre, `npm run integrity`, `search-index:check`, `sitemap:check`, `hreflang:ch
 `retiring-in-*` / `moving-*` (« among the gentlest of our 540 towns »).
 
 **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-22 — aucun lot : série retraite FR/EN remesurée sur 593 villes, guide FR Tulle réaligné sur ses propres chiffres
+
+`seed-coverage` au départ : **0 ville en attente du runner** hors Carquefou (photo seule) et les manques permanents
+(Mamoudzou, Pierrefitte-sur-Seine, Filosofi DROM) → lot autorisé, mais **aucune décision du propriétaire au § 0** :
+`git log` depuis le quatrième run du 21/10 hors `[scheduled-agent]` ne porte qu'un lot vacances EN et un lot
+parent-solo ; rien sur le seed, `score-calibration.ts`, ROADMAP ou CLAUDE.md. Aucune ville ajoutée.
+
+*Livrable* : reliquat « guides `retiring-in-*` (« among the gentlest of our 540 towns ») » des runs précédents, et
+leurs jumelles FR `retraite-a-*`. Cinq villes, chaque affirmation retrouvée sur les 540 puis remesurée sur les 593 :
+
+| Affirmation | 540 | 593 |
+|---|---|---|
+| Île de Ré « parmi les plus élevés » (T2 1 200 · T3 1 650 · 7 500 €/m²) | rangs 20 · 20 · 7 | 23 · 23 · 8 |
+| Tulle « parmi les plus doux » (T2 530 · m² 1 400) | 87ᵉ · 71ᵉ moins cher | inchangé (aucune extension sous ces seuils) |
+| Saint-Dié « parmi les plus doux » (T2 500 · m² 1 100) | 56ᵉ · 24ᵉ moins cher | inchangé |
+| Vitré, sécurité 8,5 (rendu) | 36ᵉ, ex æquo ×2 | 36ᵉ |
+| Le Puy-en-Velay, global 7,7 (rendu) | 5ᵉ, ex æquo ×5 | 5ᵉ |
+
+Toutes tiennent ; le dénominateur s'écrit désormais « des villes que nous couvrons » / « the towns we cover » (10
+occurrences), pour ne plus dériver à chaque lot. FR Île de Ré « les plus élevés … ou presque » → « parmi les plus
+élevés » (23ᵉ, pas presque premier).
+
+**Deux défauts trouvés au passage, sans lien avec l'extension.** ① `retraite-a-tulle-2026` (FR) citait T1 330 / T2
+460 / T3 600 / 1 100 €/m² — dans la metaDesc, l'intro, la section logement et le budget — alors que `data/housing.ts`
+(donc `/villes/tulle`) et la jumelle EN portent **370 / 530 / 700 / 1 400**. Réaligné, budget recalculé ligne à ligne
+(1 460-1 910 € → **1 530-2 010 €**, comme l'EN). L'historique du dépôt ayant été écrasé, la date de la divergence n'est
+pas établie. ② Les deux locales écrivaient « probablement la préfecture la plus abordable de France » (et le titre EN
+« the cheapest prefecture in France »), démenti par notre table : **Chaumont 950, Guéret 1 000, Vesoul 1 000 €/m²**,
+Aurillac 1 200 avec un T2 à 420 €. Réécrit « l'une des préfectures les plus abordables » avec les trois moins chères
+nommées. La phrase « un couple à 1 500-1 700 € net à deux » ne couvrait plus le bas de la fourchette de budget de la
+même section : chiffre retiré dans les deux locales. `updatedAt` des 10 guides → 2026-10-22.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `search-index` + `:check`, `hreflang:check`, `sitemap:check` verts. `npm run build` non
+lancé.
+
+**Reste à reprendre** : rangs emploi « of the 363 communes above 20,000 » (`lib/employment-market`) ; titre EN
+Pontarlier « comparable deep-rural prefecture such as Tulle or Saint-Dié » (Saint-Dié est une sous-préfecture).
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
