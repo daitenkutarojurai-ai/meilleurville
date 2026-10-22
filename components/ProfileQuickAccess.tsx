@@ -1,3 +1,4 @@
+import { EmojiBadge } from "@/components/EmojiBadge";
 import Link from "@/components/AppLink";
 import { ArrowRight, Armchair, Bike, Drama, Laptop, Layers, TreePine, Users, Wallet, type LucideIcon } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -85,6 +86,7 @@ export function ProfileQuickAccess({ locale = "fr" }: { locale?: "fr" | "en" } =
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
+            <EmojiBadge emoji="👥" tone="lilac" size="lg" className="mb-3" />
             <p className="mb-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
               {L(`Votre profil · ${PROFILES.length} légendes`, `Your profile · ${PROFILES.length} legends`)}
             </p>

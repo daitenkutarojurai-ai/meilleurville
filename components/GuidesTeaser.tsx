@@ -1,20 +1,19 @@
 import Link from "@/components/AppLink";
-import { ArrowRight, BookOpen, Clock } from "lucide-react";
+import { ArrowRight, Clock } from "lucide-react";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";
 
-// Guides are reading sheets of the same survey map as the rankings: a topo
-// cover with an enamel-plaque book tile and a mono sheet reference. No pastel
-// emerald/lime/rose covers (score-tier colours) and no decorative emojis —
-// CLAUDE.md « Carte & plaque ».
-const pad2 = (n: number) => String(n).padStart(2, "0");
+// Identité « Couleurs » (2026-10-22) : chaque guide est illustré par son emoji
+// (champ `emoji` du corpus) dans une couverture colorée, à la demande du
+// propriétaire qui trouvait les sections trop nues.
 
 export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   // La home EN mettait en avant les trois derniers guides FR : titres français
   // et URLs qui n'existent pas sur bestcitiesinfrance.com.
   const corpus: ReadonlyArray<{
-    slug: string; title: string; intro: string;
+    slug: string; title: string; intro: string; emoji: string;
     readMinutes: number; category: string; updatedAt: string;
   }> = locale === "en" ? EN_GUIDES : GUIDES;
   const categoryLabel = (id: string) =>
@@ -33,6 +32,7 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
+            <EmojiBadge emoji="📚" tone="sky" size="lg" className="mb-3" />
             <p className="mb-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
               {L(
                 `Guides pratiques · ${corpus.length.toLocaleString("fr-FR")} fiches`,
@@ -70,14 +70,12 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
         <div className="grid gap-4 lg:grid-cols-2">
           <Link
             href={`/guides/${hero.slug}`}
-            className="group flex min-h-[320px] flex-col overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] transition-colors hover:border-[var(--accent)]"
+            className="group flex min-h-[320px] flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-[var(--accent)]"
           >
-            <div className="topo-bg relative flex h-44 items-end justify-between gap-3 border-b border-[var(--border)] bg-[var(--bg-canvas)] p-5">
-              <span className="plaque !p-0 h-14 w-14 shrink-0 justify-center" aria-hidden="true">
-                <BookOpen className="h-7 w-7" strokeWidth={1.75} />
-              </span>
-              <span className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
-                {L("À la une · Fiche 01 / 03", "Featured · Sheet 01 / 03")}
+            <div className="bg-aurora relative flex h-44 items-end justify-between gap-3 border-b border-[var(--border)] p-5">
+              <EmojiBadge emoji={hero.emoji} tone="pink" size="xl" />
+              <span className="rounded-full bg-white/80 px-3 py-1 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent)]">
+                {L("À la une", "Featured")}
               </span>
             </div>
 
@@ -104,15 +102,10 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
               <Link
                 key={guide.slug}
                 href={`/guides/${guide.slug}`}
-                className="group flex overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] transition-colors hover:border-[var(--accent)]"
+                className="group flex overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-[var(--accent)]"
               >
-                <div className="topo-bg flex w-24 shrink-0 flex-col items-center justify-center gap-2 border-r border-[var(--border)] bg-[var(--bg-canvas)] sm:w-32">
-                  <span className="plaque !p-0 h-10 w-10 justify-center" aria-hidden="true">
-                    <BookOpen className="h-5 w-5" strokeWidth={1.75} />
-                  </span>
-                  <span className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
-                    {pad2(i + 2)} / 03
-                  </span>
+                <div className="flex w-24 shrink-0 items-center justify-center border-r border-[var(--border)] bg-[var(--accent-soft)] sm:w-32">
+                  <EmojiBadge emoji={guide.emoji} tone={toneFor(i + 2)} size="lg" />
                 </div>
                 <div className="flex min-w-0 flex-1 flex-col justify-between p-5">
                   <div>

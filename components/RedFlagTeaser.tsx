@@ -1,15 +1,9 @@
 import Link from "@/components/AppLink";
 import { AlertTriangle, ArrowRight, Volume2, Droplets, Wind, Shield } from "lucide-react";
-import type { CSSProperties } from "react";
+import { EmojiBadge, type EmojiTone } from "@/components/EmojiBadge";
 
-// The Red Flag Radar as the hazard legend of the survey map: a framed cartouche
-// on topo paper, each category a hatched brick symbol with a grid reference.
-// Brick is the site's one warm pop — red stays reserved for the score tiers,
-// so no red washes, pills or icons here. CLAUDE.md « Carte & plaque ».
-const HATCH: CSSProperties = {
-  backgroundImage:
-    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
-};
+// Red Flag Radar teaser. Identité « Couleurs » (2026-10-22) : chaque catégorie
+// porte un emoji dans une pastille colorée, la légende est une carte blanche.
 
 export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
@@ -17,21 +11,29 @@ export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
   const FLAG_TYPES = [
     {
       icon: Volume2,
+      emoji: "🔊",
+      tone: "lilac" as EmojiTone,
       label: L("Couloirs de bruit", "Noise corridors"),
       desc: L("Autoroutes, voies ferrées, aéroports", "Motorways, rail lines, airports"),
     },
     {
       icon: Droplets,
+      emoji: "🌊",
+      tone: "sky" as EmojiTone,
       label: L("Zones inondables", "Flood zones"),
       desc: L("PPRI, débordements récents", "Flood-risk plans, recent overflows"),
     },
     {
       icon: Wind,
+      emoji: "🌫️",
+      tone: "aqua" as EmojiTone,
       label: L("Qualité d'air", "Air quality"),
       desc: L("PM10 / PM2.5 / NO₂ chroniques", "Chronic PM10 / PM2.5 / NO₂"),
     },
     {
       icon: Shield,
+      emoji: "🛡️",
+      tone: "indigo" as EmojiTone,
       label: L("Insécurité", "Crime"),
       desc: L("Cambriolages, vols avec violence", "Burglaries, violent thefts"),
     },
@@ -43,6 +45,7 @@ export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
         <div className="grid items-center gap-10 border-t border-[var(--border)] pt-6 lg:grid-cols-2">
           {/* Left: copy */}
           <div>
+            <EmojiBadge emoji="🚩" tone="pink" size="lg" className="mb-3" />
             <p className="mb-3 inline-flex items-center gap-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent-pink)]">
               <AlertTriangle className="h-3.5 w-3.5" aria-hidden="true" />
               Red Flag Radar
@@ -76,8 +79,8 @@ export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
           </div>
 
           {/* Right: the legend cartouche — honest categories, not fake signalements */}
-          <div className="topo-bg rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] p-1.5">
-            <div className="rounded-lg border border-[var(--text-primary)]/15 bg-[var(--bg-surface)]/90 p-4 sm:p-5">
+          <div className="rounded-3xl bg-gradient-to-br from-[#4F46E5] via-[#7C3AED] to-[#DB2777] p-[3px] shadow-lg">
+            <div className="rounded-[22px] bg-white p-4 sm:p-5">
               <div className="mb-3 flex items-baseline justify-between gap-3 border-b border-[var(--text-primary)]/15 pb-2">
                 <p className="font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-primary)]">
                   {L("Légende", "Legend")}
@@ -87,18 +90,12 @@ export function RedFlagTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
                 </p>
               </div>
               <ul>
-                {FLAG_TYPES.map(({ icon: Icon, label, desc }, i) => (
+                {FLAG_TYPES.map(({ emoji, tone, label, desc }, i) => (
                   <li
                     key={label}
                     className="flex items-center gap-4 border-b border-dashed border-[var(--border)] py-3 last:border-b-0"
                   >
-                    <span
-                      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
-                      style={HATCH}
-                      aria-hidden="true"
-                    >
-                      <Icon className="h-4 w-4" strokeWidth={2} />
-                    </span>
+                    <EmojiBadge emoji={emoji} tone={tone} size="md" />
                     <div className="min-w-0 flex-1">
                       <div className="text-sm font-bold text-[var(--text-primary)]">{label}</div>
                       <div className="text-xs text-[var(--text-secondary)]">{desc}</div>

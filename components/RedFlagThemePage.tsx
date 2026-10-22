@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { CommentSection } from "@/components/CommentSection";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import type { RedFlagTheme } from "@/lib/red-flag-themes";
@@ -50,8 +51,8 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
       <Navbar />
 
       {/* Header — papier topo voilé, même grammaire que le hub /red-flags. */}
-      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
-        <div className="bg-[var(--bg-canvas)]/80 pt-20 pb-12">
+      <section className="band band-pink border-b border-[var(--border)]">
+        <div className="pt-20 pb-12">
           <div className="mx-auto max-w-4xl px-4 sm:px-6">
             <div className="mb-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
               <Link
@@ -67,6 +68,7 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
                 </span>
               )}
             </div>
+            <EmojiBadge emoji={theme.emoji} tone={toneFor(Math.max(sheetIndex - 1, 0))} size="xl" className="mb-5" />
             <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.08]">
               {theme.title}
             </h1>
@@ -192,10 +194,13 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
                 <Link
                   key={t.slug}
                   href={`/red-flags/${t.slug}`}
-                  className="group h-full rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2"
+                  className="group h-full rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] shadow-sm hover:-translate-y-0.5 hover:shadow-md hover:border-[var(--accent-pink)] transition-all p-4 flex flex-col gap-2"
                 >
-                  <span className="border-b border-dashed border-[var(--border)] pb-2 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
-                    Feuille {String(i + 1).padStart(2, "0")} / {RED_FLAG_THEMES.length}
+                  <span className="flex items-center gap-3">
+                    <EmojiBadge emoji={t.emoji} tone={toneFor(i)} size="sm" />
+                    <span className="font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                      N° {String(i + 1).padStart(2, "0")}
+                    </span>
                   </span>
                   <span className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors">
                     {t.title}

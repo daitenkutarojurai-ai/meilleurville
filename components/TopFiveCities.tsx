@@ -1,3 +1,4 @@
+import { EmojiBadge } from "@/components/EmojiBadge";
 import Link from "@/components/AppLink";
 import { ArrowRight } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -36,6 +37,7 @@ export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8 border-t border-[var(--border)] pt-6">
           <div>
+            <EmojiBadge emoji="🏆" tone="indigo" size="lg" className="mb-3" />
             <p className="font-mono-data text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
               {L("Podium · Top 5 villes", "Podium · Top 5 cities")}
             </p>

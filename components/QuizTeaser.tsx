@@ -1,4 +1,5 @@
 "use client";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import Link from "@/components/AppLink";
 import { useState } from "react";
 import { ArrowRight, Brain, Target, Zap, Check, MapPin } from "lucide-react";
@@ -38,6 +39,7 @@ export function QuizTeaser({ citiesCount, locale = "fr" }: { citiesCount: number
           <div className="grid lg:grid-cols-2">
             {/* Left: copy */}
             <div className="p-6 sm:p-10 lg:p-12">
+              <EmojiBadge emoji="🧭" tone="aqua" size="lg" className="mb-3" />
               <p className="mb-4 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
                 {L("Quiz IA · 3 minutes", "AI quiz · 3 minutes")}
               </p>

@@ -1,3 +1,4 @@
+import { EmojiBadge } from "@/components/EmojiBadge";
 import Link from "@/components/AppLink";
 import { ArrowRight, Laptop, Home, TreePine, GraduationCap, Palmtree } from "lucide-react";
 import { getRankedCities, RANKING_META, type RankingSlug } from "@/lib/rankings";
@@ -68,6 +69,7 @@ export function RankingPreview({ locale = "fr" }: { locale?: "fr" | "en" } = {})
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
+            <EmojiBadge emoji="📊" tone="pink" size="lg" className="mb-3" />
             <p className="mb-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
               {L(
                 `Classements 2026 · ${SHEET_ORDER.length} feuilles`,

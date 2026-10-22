@@ -133,8 +133,15 @@ section ». Tokens dans `app/globals.css` ; s'y tenir.
   L'accueil pose ses bandes explicitement, deux sections voisines n'ont jamais la même.
 - Hero en aurore colorée (`.bg-aurora`), titres en `.gradient-text` (indigo → rose → cyan), pied de page
   en dégradé indigo nuit → prune.
-- **Marque** : `#4F46E5` partout où il y avait `#1E3A6E` (icône, BrandMark, theme-color, images OG).
-  ⚠️ `app/apple-icon.png` est un PNG resté marine : à régénérer.
+- **Logo** (2026-10-22) : carré dégradé indigo → violet → rose, épingle blanche avec une maison, sans filet fin
+  (illisible à 16 px, la taille du logo dans les résultats Google). Source unique `app/icon.svg` ; `app/favicon.ico`
+  (16/32/48), `app/apple-icon.png` (180), `public/icon-192.png` et `public/icon-512.png` (logo du JSON-LD
+  Organization) en sont rendus par sharp ; `components/BrandMark.tsx` recopie la même géométrie. Changer l'un =
+  regénérer tous les autres. `#4F46E5` remplace `#1E3A6E` partout (images OG, theme-color).
+- **Illustrations** : `components/EmojiBadge.tsx` (emoji dans une pastille dégradée, 6 teintes pastel, `toneFor()`
+  pour une rotation stable). En tête des sections de l'accueil, sur les 43 vignettes et l'en-tête des pages Red
+  Flags (champ `emoji` de `lib/red-flag-themes.ts`), sur le teaser guides (champ `emoji` des guides). Le
+  propriétaire veut des sections illustrées : ne retire plus les emojis au nom de la sobriété.
 - **Barre du bas sur téléphone** : Villes · Top · Red Flags · Politique · Menu. City Match en a été retiré
   à la demande du propriétaire (2026-10-22) ; il reste dans la barre du haut et le menu.
 - **Les photos de villes restent** (demande du 2026-10-18) : une carte qui représente une ville garde sa

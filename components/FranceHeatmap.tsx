@@ -1,4 +1,5 @@
 "use client";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { memo, useMemo, useRef, useState, useEffect } from "react";
 import Link from "@/components/AppLink";
 import type { MapCity } from "@/lib/cities-light";
@@ -341,8 +342,9 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
         {/* Header */}
         <div className="text-center mb-10">
+          <EmojiBadge emoji="🗺️" tone="sky" size="lg" className="mb-3" />
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            {L("🗺️ Carte de France", "🗺️ Map of France")}
+            {L("Carte de France", "Map of France")}
           </p>
           <h2 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3">
             {locale === "en" ? (

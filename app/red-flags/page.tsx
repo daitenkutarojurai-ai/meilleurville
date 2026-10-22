@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import type { CSSProperties } from "react";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -143,10 +144,13 @@ export default function RedFlagsPage() {
               <Link
                 key={t.slug}
                 href={`/red-flags/${t.slug}`}
-                className="group h-full rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2"
+                className="group h-full rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] shadow-sm hover:-translate-y-0.5 hover:shadow-md hover:border-[var(--accent-pink)] transition-all p-4 flex flex-col gap-2"
               >
-                <span className="border-b border-dashed border-[var(--border)] pb-2 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
-                  Feuille {String(i + 1).padStart(2, "0")} / {RED_FLAG_THEMES.length}
+                <span className="flex items-center justify-between gap-2">
+                  <EmojiBadge emoji={t.emoji} tone={toneFor(i)} size="md" />
+                  <span className="font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                    N° {String(i + 1).padStart(2, "0")}
+                  </span>
                 </span>
                 <span className="text-sm font-bold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors">
                   {t.title}

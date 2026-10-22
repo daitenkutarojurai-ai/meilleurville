@@ -1,23 +1,30 @@
 // The brand pin — single source of truth for the in-page logo.
 //
-// Geometry and colours are copied verbatim from app/icon.svg (the browser-tab
-// favicon and PWA icons), so the header/footer logo and the favicon can never
-// drift apart. The teal #4F46E5 is hardcoded rather than var(--accent) on
-// purpose: the favicon file can't read CSS variables, so the in-page mark
-// stays pinned to the same hex to guarantee a visual match.
+// Geometry and colours are copied verbatim from app/icon.svg (favicon, PWA and
+// Apple icons are rendered from that file), so the header/footer logo and the
+// favicon can never drift apart. Colours are hardcoded rather than CSS variables
+// on purpose: the favicon file can't read them.
+//
+// 2026-10-22 (« Couleurs »): indigo → violet → pink gradient, white pin with a
+// house. The old thin white keyline is gone: it turned to mush at 16 px, which
+// is the size Google shows next to a search result.
+
+import { useId } from "react";
 
 export function BrandMark({ className = "h-8 w-8" }: { className?: string }) {
+  const id = `bm-${useId().replace(/:/g, "")}`;
   return (
-    <svg
-      viewBox="0 0 32 32"
-      className={className}
-      aria-hidden="true"
-      focusable="false"
-    >
-      <rect width="32" height="32" rx="7" fill="#4F46E5" />
-      <rect x="2.25" y="2.25" width="27.5" height="27.5" rx="5" fill="none" stroke="white" strokeOpacity="0.85" strokeWidth="0.9" />
-      <path d="M16 6C11.68 6 8 9.68 8 14c0 7.1 8 13.2 8 13.2s8-6.1 8-13.2c0-4.32-3.68-8-8-8z" fill="white" />
-      <circle cx="16" cy="14" r="3.1" fill="#4F46E5" />
+    <svg viewBox="0 0 48 48" className={className} aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id={id} x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stopColor="#4F46E5" />
+          <stop offset="0.55" stopColor="#7C3AED" />
+          <stop offset="1" stopColor="#DB2777" />
+        </linearGradient>
+      </defs>
+      <rect width="48" height="48" rx="11" fill={`url(#${id})`} />
+      <path d="M24 7.5c-7.2 0-13 5.6-13 12.6C11 30 24 41 24 41s13-11 13-20.9C37 13.1 31.2 7.5 24 7.5z" fill="#fff" />
+      <path d="M17.6 21.6 24 16l6.4 5.6V28h-4.3v-4.2h-4.2V28h-4.3z" fill="#5B3FE0" />
     </svg>
   );
 }
