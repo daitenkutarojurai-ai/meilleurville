@@ -38518,6 +38518,327 @@ export const GUIDES: Guide[] = [
     tags: ["famille Amiens 2026","vivre en famille Amiens","maison Amiens prix","loyer T3 Amiens","Amiens avec enfants"],
   },
   {
+    slug: "famille-a-perpignan-2026",
+    title: "Famille à Perpignan en 2026 : loyers bas, maison chère, les chiffres",
+    metaTitle: "Famille à Perpignan 2026 : T3 à 870 €, écoles, budget",
+    metaDesc: "Famille à Perpignan : T3 à 870 €, maison à 2 181 €/m² contre 1 500 € pour un appartement, 17,5 % de moins de 15 ans. Chiffres et verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "À Perpignan, un T3 se loue 870 € par mois (notre estimation des loyers), soit moins qu'à Narbonne (920 €), mais le choix du logement pèse plus qu'ailleurs : la maison coûte 2 181 € le m² en médiane 2024-2025 contre 1 500 € pour un appartement, soit 45 % de plus. Les moins de 15 ans forment 17,5 % de la population, et le niveau de vie médian, 17 380 €, la place au rang 556 sur 586 villes couvertes.",
+    sections: [
+      {
+        heading: "Combien coûte un logement familial à Perpignan ?",
+        body: "Un T3 se loue 870 € par mois et un T2 650 €. À l'achat, le marché est coupé en deux : 1 500 € le m² pour les appartements (3 096 ventes retenues en 2024-2025, DVF) et 2 181 € pour les maisons (1 040 ventes). Une famille qui veut un jardin paie donc le mètre carré presque une moitié de plus, et c'est ce qui rend l'appartement familial, plus que la maison, le point d'entrée réaliste.",
+      },
+      {
+        heading: "Quel poids du loyer dans le budget des ménages ?",
+        body: "Le niveau de vie médian est de 17 380 € par unité de consommation (Insee, Filosofi 2021) et le taux de pauvreté de 34 %. À Narbonne, les chiffres sont de 19 850 € et 25 %, pour un T3 à 920 €. Le loyer perpignanais est bas parce que les revenus le sont : l'effort relatif reste lourd pour les ménages modestes, même si le montant absolu est l'un des plus faibles des grandes villes du Sud.",
+      },
+      {
+        heading: "Les écoles et la sécurité, point par point",
+        body: "La note Écoles est de 4,5, au rang 442 sur 593, dans un palier de 45 villes à égalité : c'est un niveau en dessous de la médiane, comme Narbonne, quand Poitiers ou Nancy sont à 7,4. La note Sécurité est de 3,7 (rang 525, 15 villes à égalité). Ces notes sont communales ; pour une famille précise, c'est l'établissement de secteur qui compte.",
+      },
+      {
+        heading: "Que faire avec des enfants ?",
+        body: "Le centre se parcourt à pied : le Castillet, ancienne porte de la ville devenue musée des arts et traditions populaires catalans, le Palais des rois de Majorque, forteresse gothique achevée en 1309, et le Campo Santo, seul cloître-cimetière de France selon les guides locaux. La mer est accessible depuis la ville, à Canet-en-Roussillon, une commune distincte du littoral. La note Nature de la commune est de 6,1 (rang 235).",
+      },
+      {
+        heading: "Perpignan face à Narbonne et à Béziers",
+        body: "Narbonne coûte 50 € de plus en T3 mais gagne 5,8 % d'habitants depuis 2016, quand Perpignan en perd 0,7 %. Béziers est la moins chère des trois (T3 à 720 €, appartements à 1 667 € le m²) mais obtient 3,6 en Écoles et 3,5 en Sécurité. Perpignan offre l'échelle d'une grande ville (120 996 habitants) avec des loyers de ville moyenne.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Perpignan convient à une famille au budget serré qui accepte l'appartement et un niveau d'écoles et de sécurité sous la médiane, ou à un ménage dont les revenus ne dépendent pas du bassin local. Elle convient moins à celle qui vise maison et jardin dans un cadre scolaire plus sûr : il faut alors comparer avec Narbonne, plus petite et plus dynamique.",
+      },
+    ],
+    relatedCities: ["perpignan","narbonne","beziers","montpellier","carcassonne"],
+    relatedGuides: [
+      "vivre-a-perpignan-2026",
+      "acheter-a-perpignan-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-perpignan-2026",
+      "perpignan-vs-montpellier-comparatif-2026",
+    ],
+    tags: ["famille Perpignan 2026","vivre en famille Perpignan","loyer T3 Perpignan","écoles Perpignan","Perpignan avec enfants"],
+  },
+  {
+    slug: "famille-a-annecy-2026",
+    title: "Famille à Annecy en 2026 : un cadre exceptionnel, un budget à prévoir",
+    metaTitle: "Famille à Annecy 2026 : T3 à 1 450 €, écoles 8,7, budget",
+    metaDesc: "Famille à Annecy : T3 à 1 450 €, appartements à 5 092 €/m², note Écoles 8,7 et Vie quotidienne 9,0, mais Coût de la vie à 3,1. Chiffres et verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Annecy réunit ce qu'une famille cherche rarement au même endroit : 8,7 en Écoles (rang 15 sur 593), 9,0 en Vie quotidienne (rang 1, douze villes à égalité) et 8,9 en Nature. La contrepartie est écrite dans le loyer, 1 450 € pour un T3 (notre estimation des loyers), et dans la note Coût de la vie, 3,1, au rang 541. Les appartements se vendent 5 092 € le m² en médiane 2024-2025.",
+    sections: [
+      {
+        heading: "Quel budget logement pour une famille à Annecy ?",
+        body: "Un T3 se loue 1 450 €, un T2 1 100 €. À l'achat, le m² médian est de 5 092 € pour un appartement (2 992 ventes) et de 6 237 € pour une maison (349 ventes, donc un marché étroit). Une maison coûte 22 % de plus que l'appartement au m², et les ventes de maisons sont près de neuf fois moins nombreuses : la famille qui veut un jardin cherche souvent hors de la commune.",
+      },
+      {
+        heading: "Les revenus locaux absorbent-ils ces prix ?",
+        body: "Le niveau de vie médian est de 26 250 € par unité de consommation (Insee, Filosofi 2021), au rang 83 sur 586, avec 10 % de pauvreté. C'est nettement mieux que la plupart des villes de ce lot, mais le T3 annécien reste 350 € au-dessus de celui de Chambéry (1 100 €), dont le niveau de vie médian est de 21 950 €.",
+      },
+      {
+        heading: "Écoles, sécurité : que disent nos notes ?",
+        body: "La note Écoles est de 8,7 (rang 15, quinze villes à égalité), la Sécurité de 7,3 (rang 114). Ce sont des notes communales, calculées sur le seed rendu de notre fiche ville : elles situent la commune, pas un établissement. La part des moins de 15 ans est de 15,8 %, et la population a progressé de 3,8 % depuis 2016.",
+      },
+      {
+        heading: "Quelles sorties avec des enfants ?",
+        body: "Le Palais de l'Isle, ancienne prison de la ville jusqu'en 1864, se visite et sa silhouette de proue de navire plaît aux enfants. Le tour du lac se fait à vélo sur une piste quasi plate, de l'ordre de 40 kilomètres selon les sources (35 pour d'autres) ; un tronçon entre Annecy et Sévrier suffit pour des petits. Sur les hauteurs, le Semnoz propose une luge d'été dès 3 ans, de mai à septembre, et la plage des Marquisats est surveillée l'été.",
+      },
+      {
+        heading: "Annecy ou Chambéry pour une famille ?",
+        body: "Chambéry offre 7,4 en Écoles et 8,1 en Nature pour un T3 à 1 100 € et des appartements à 2 895 € le m², soit 43 % de moins qu'à Annecy. En échange, la Vie quotidienne y est à 7,0 contre 9,0, et la population ne gagne que 1,8 %. Annecy se paie comme une destination, Chambéry comme une préfecture de montagne.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Annecy est la ville de ce lot qui coche le plus de cases pour les enfants, à condition d'un budget logement de métropole. Si les revenus du foyer sont modestes ou s'il faut acheter une maison, mieux vaut regarder Chambéry avant de se fixer, ou accepter de loger dans une commune voisine.",
+      },
+    ],
+    relatedCities: ["annecy","chambery","grenoble","thonon-les-bains","annemasse"],
+    relatedGuides: [
+      "vivre-a-annecy-2026",
+      "acheter-a-annecy-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-annecy-2026",
+      "annecy-vs-chambery-comparatif-2026",
+    ],
+    tags: ["famille Annecy 2026","vivre en famille Annecy","loyer T3 Annecy","écoles Annecy","Annecy avec enfants"],
+  },
+  {
+    slug: "famille-a-la-rochelle-2026",
+    title: "Famille à La Rochelle en 2026 : la mer, le vélo et un prix de la pierre élevé",
+    metaTitle: "Famille à La Rochelle 2026 : T3 à 1 100 €, vélo, budget",
+    metaDesc: "Famille à La Rochelle : T3 à 1 100 €, appartements à 4 844 €/m² (plus chers que les maisons), 12,9 % de moins de 15 ans, +5,6 % depuis 2016.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "À La Rochelle, un appartement se vend plus cher au m² qu'une maison : 4 844 € contre 4 347 € en médiane 2024-2025 (DVF), ce qui inverse la logique habituelle de l'accès à la propriété. Un T3 se loue 1 100 € par mois (notre estimation des loyers). Les moins de 15 ans ne forment que 12,9 % de la population, mais la ville a gagné 5,6 % d'habitants depuis 2016.",
+    sections: [
+      {
+        heading: "Pourquoi l'appartement est-il plus cher que la maison ?",
+        body: "Les appartements rochelais atteignent 4 844 € le m² (1 714 ventes retenues), les maisons 4 347 € (944 ventes). Le centre, le port et la proximité de la mer tirent l'appartement vers le haut, quand les maisons se vendent plus souvent à distance de la côte. Une famille y gagne un peu de surface en cherchant une maison, mais le ticket d'entrée reste élevé .",
+      },
+      {
+        heading: "Quel niveau de vie, quel effort de loyer ?",
+        body: "Le niveau de vie médian est de 22 200 € par unité de consommation (Insee, Filosofi 2021), au rang 233 sur 586, avec 18 % de pauvreté. À Rochefort, à une trentaine de kilomètres, le T3 est à 660 € pour un niveau de vie de 20 380 € : l'écart de loyer, 440 €, est bien plus grand que l'écart de revenu.",
+      },
+      {
+        heading: "Écoles et sécurité : les notes",
+        body: "La note Écoles est de 7,4 (rang 90 sur 593, onze villes à égalité), la Sécurité de 6,5 (rang 151, 26 villes à égalité). La Vie quotidienne obtient 8,1 (rang 31) mais le Coût de la vie 4,6 (rang 421) : la ville se paie. Les notes sont communales ; la carte scolaire départage une famille précise.",
+      },
+      {
+        heading: "Que faire avec des enfants ?",
+        body: "L'Aquarium de La Rochelle, l'un des plus grands aquariums privés d'Europe avec 12 000 animaux sur 70 bassins selon ses guides, demande une demi-journée avec des enfants. La plage de la Concurrence, proche du Vieux-Port, est familiale. Les trajets du quotidien se font à vélo, et l'île de Ré, accessible par un pont payant, est une sortie à la journée depuis la ville et non une adresse rochelaise.",
+      },
+      {
+        heading: "La Rochelle face à Rochefort et à Niort",
+        body: "Niort offre un T3 à 860 € et des appartements à 2 000 € le m², pour 6,6 en Écoles et 60 074 habitants. Rochefort, plus petite (23 188 habitants), perd 3,6 % de sa population. La Rochelle est la seule des trois à combiner croissance et mer, au prix d'un loyer supérieur de 240 € à celui de Niort.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "La Rochelle convient aux familles à revenus confortables ou à celles qui font du vélo et de la mer un critère central. Un budget serré ou un besoin de grand jardin pousse plutôt vers Niort, deux fois moins chère à l'achat, ou vers la périphérie.",
+      },
+    ],
+    relatedCities: ["la-rochelle","rochefort","niort","saintes","royan"],
+    relatedGuides: [
+      "vivre-a-la-rochelle-2026",
+      "acheter-a-la-rochelle-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-la-rochelle-2026",
+      "la-rochelle-vs-bayonne-comparatif-2026",
+    ],
+    tags: ["famille La Rochelle 2026","vivre en famille La Rochelle","loyer T3 La Rochelle","écoles La Rochelle","La Rochelle avec enfants"],
+  },
+  {
+    slug: "famille-a-poitiers-2026",
+    title: "Famille à Poitiers en 2026 : budget maîtrisé, écoles dans la moyenne haute",
+    metaTitle: "Famille à Poitiers 2026 : T3 à 880 €, écoles 7,4, budget",
+    metaDesc: "Famille à Poitiers : T3 à 880 €, appartements à 2 200 €/m², note Écoles 7,4 mais Sécurité 5,7, 13,9 % de moins de 15 ans. Chiffres et verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Poitiers coche une case que peu de villes à loyer modeste cochent : une note Écoles de 7,4 (rang 90 sur 593) pour un T3 à 880 € par mois (notre estimation des loyers). Le revers est un niveau de vie médian de 20 150 €, au rang 415 sur 586, et 26 % de pauvreté. Les moins de 15 ans représentent 13,9 % des 89 472 habitants.",
+    sections: [
+      {
+        heading: "Combien coûte un logement à Poitiers ?",
+        body: "Un T3 se loue 880 €, un T2 660 €. À l'achat, les appartements sont à 2 200 € le m² (1 655 ventes, DVF 2024-2025) et les maisons à 2 038 € (865 ventes). La maison coûte 7 % de moins que l'appartement au m², ce qui ouvre l'accès au jardin pour un budget familial de ville moyenne.",
+      },
+      {
+        heading: "Comment lire les revenus locaux ?",
+        body: "Le niveau de vie médian de 20 150 € (Insee, Filosofi 2021) est inférieur à celui de Tours (21 250 €) et de Niort (23 120 €). C'est un niveau de vie par unité de consommation, pas un salaire : une famille à deux revenus se situe au-dessus de cette médiane communale.",
+      },
+      {
+        heading: "Écoles, sécurité, nature : les notes",
+        body: "Écoles 7,4 (onze villes à égalité au rang 90), Sécurité 5,7 (rang 241, 31 villes à égalité), Nature 5,0 (rang 346, 51 villes à égalité). Poitiers est une ville de services avant d'être une ville de paysage ; ces notes sont communales et ne remplacent pas la carte scolaire.",
+      },
+      {
+        heading: "Que faire avec des enfants ?",
+        body: "Le parc de Blossac, jardin du XVIIIe siècle en terrasses au-dessus du Clain, abrite un espace animalier gratuit (chèvres, poules, cerfs) et une grande pelouse. Le baptistère Saint-Jean, d'origine paléochrétienne, se visite en une demi-heure. Le Futuroscope est à vingt minutes environ, à Chasseneuil-du-Poitou, commune distincte : on y va pour une journée, on n'y habite pas à Poitiers.",
+      },
+      {
+        heading: "Poitiers face à Niort et à Tours",
+        body: "Niort est à 860 € le T3 et 6,6 en Écoles, sans le poids étudiant. Tours est plus chère (940 € le T3, appartements à 2 827 € le m²) et un peu mieux notée en Écoles (7,9). Poitiers se place entre les deux à l'achat d'appartement (2 200 € le m² contre 2 000 € à Niort) et devance Niort sur les écoles (7,4 contre 6,6).",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Poitiers convient à un ménage qui veut de bonnes écoles à budget de ville moyenne et des services complets, avec le Futuroscope comme sortie. Elle déçoit si l'on attend nature et sécurité au niveau des plus hautes notes : mieux vaut alors regarder les communes voisines ou Vannes et Annecy, beaucoup plus chères.",
+      },
+    ],
+    relatedCities: ["poitiers","niort","tours","chatellerault","limoges"],
+    relatedGuides: [
+      "vivre-a-poitiers-2026",
+      "acheter-a-poitiers-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-poitiers-2026",
+      "etudiant-a-poitiers-2026",
+    ],
+    tags: ["famille Poitiers 2026","vivre en famille Poitiers","loyer T3 Poitiers","écoles Poitiers","Poitiers avec enfants"],
+  },
+  {
+    slug: "famille-a-nancy-2026",
+    title: "Famille à Nancy en 2026 : écoles solides, parcs au centre, prix abordables",
+    metaTitle: "Famille à Nancy 2026 : T3 à 950 €, écoles 7,4, parcs",
+    metaDesc: "Famille à Nancy : T3 à 950 €, appartements à 2 282 €/m² (maisons à 2 610 €), 12,2 % de moins de 15 ans, note Écoles 7,4. Chiffres et verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Nancy se loue 950 € le T3 (notre estimation des loyers) et se vend 2 282 € le m² en appartement, avec 3 304 ventes retenues sur 2024-2025 : c'est un marché profond. Elle obtient 7,4 en Écoles (rang 90 sur 593), mais seulement 12,2 % de moins de 15 ans, l'une des parts les plus basses de ce lot, parce que la ville est étudiante.",
+    sections: [
+      {
+        heading: "Quel loyer et quel prix d'achat pour une famille ?",
+        body: "Le T3 est à 950 €, le T2 à 710 €. Les appartements se vendent 2 282 € le m² et les maisons 2 610 € (365 ventes seulement), soit 14 % de plus. Le marché de la maison est étroit : une famille qui y tient doit être prête à chercher dans l'agglomération plutôt qu'intra-muros.",
+      },
+      {
+        heading: "Un niveau de vie dans la moyenne",
+        body: "Le niveau de vie médian est de 22 360 € par unité de consommation (Insee, Filosofi 2021), au rang 221 sur 586, avec 22 % de pauvreté. À Épinal, le T3 est à 660 € pour 20 140 € de niveau de vie : Nancy coûte 290 € de plus par mois, avec une métropole d'étudiants et d'emplois derrière.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 7,4 (rang 90, onze villes à égalité), Sécurité 5,1 (rang 350, 16 villes à égalité), Nature 4,8 (rang 399). La population de 104 387 habitants est stable (−0,2 % depuis 2016). Notes communales ; la carte scolaire décide pour une famille donnée.",
+      },
+      {
+        heading: "Que faire avec des enfants ?",
+        body: "Le parc de la Pépinière, près de la place Stanislas, a un espace animalier gratuit et des jeux. Le Muséum-Aquarium, rue Sainte-Catherine, est conseillé dès 3 ans. Le jardin botanique Jean-Marie-Pelt, de 27 hectares, est à Villers-lès-Nancy, commune voisine, avec une entrée libre dans le jardin et des serres payantes. La place Stanislas est classée à l'UNESCO.",
+      },
+      {
+        heading: "Nancy face à Metz et à Épinal",
+        body: "Metz (T3 à 910 €, 121 695 habitants, +3,2 % depuis 2016) est plus dynamique démographiquement, avec les mêmes 6,6 en Écoles que Rouen mais moins que Nancy. Épinal, plus petite et moins chère, est à 6,2 en Écoles. Nancy est la mieux notée des trois sur l'axe scolaire.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Nancy convient aux familles qui veulent de bonnes écoles, une vie culturelle riche et un budget de ville moyenne, sans besoin de grande nature. Pour un foyer qui rêve de jardin et d'espace, la périphérie nancéienne ou Épinal ont plus à offrir.",
+      },
+    ],
+    relatedCities: ["nancy","metz","epinal"],
+    relatedGuides: [
+      "vivre-a-nancy-2026",
+      "acheter-a-nancy-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-nancy-2026",
+      "metz-vs-nancy-comparatif-2026",
+    ],
+    tags: ["famille Nancy 2026","vivre en famille Nancy","loyer T3 Nancy","écoles Nancy","Nancy avec enfants"],
+  },
+  {
+    slug: "famille-a-vannes-2026",
+    title: "Famille à Vannes en 2026 : golfe, sécurité haute et prix à l'avenant",
+    metaTitle: "Famille à Vannes 2026 : T3 à 1 150 €, sécurité 6,9, budget",
+    metaDesc: "Famille à Vannes : T3 à 1 150 €, appartements à 3 864 €/m² (maisons à 4 112 €), Sécurité 6,9, Écoles 7,4, 12,7 % de moins de 15 ans. Verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Vannes cumule 7,8 en Vie quotidienne (rang 32 sur 593), 6,9 en Sécurité (rang 136, seulement deux villes à égalité) et 7,4 en Écoles, pour un T3 à 1 150 € (notre estimation des loyers). Le revers est un Coût de la vie à 5,5 et des appartements à 3 864 € le m² en médiane 2024-2025. La ville compte 54 955 habitants et en a gagné 3,3 % depuis 2016.",
+    sections: [
+      {
+        heading: "Quel budget logement à Vannes ?",
+        body: "Le T3 est à 1 150 €, le T2 à 850 €. À l'achat, l'appartement coûte 3 864 € le m² (1 287 ventes) et la maison 4 112 € (573 ventes), soit 6 % de plus. L'écart est faible : la maison reste accessible comme premier achat familial, au prix d'un budget de métropole régionale.",
+      },
+      {
+        heading: "Les revenus suivent-ils ?",
+        body: "Le niveau de vie médian est de 24 070 € par unité de consommation (Insee, Filosofi 2021), au rang 145 sur 586, avec 15 % de pauvreté. C'est plus que Lorient (20 860 €), dont le T3 est à 900 €. À Vannes, le revenu local permet d'absorber le loyer, ce qui n'est pas le cas dans toutes les villes de ce lot.",
+      },
+      {
+        heading: "Sécurité, écoles, nature",
+        body: "Sécurité 6,9, Écoles 7,4 (onze villes à égalité au rang 90), Nature 7,2 (rang 90, douze villes à égalité). Ce sont des notes communales ; à Lorient, les mêmes axes sont à 5,5, 6,6 et 6,4. La part des moins de 15 ans, 12,7 %, est l'une des plus basses de ce lot.",
+      },
+      {
+        heading: "Que faire avec des enfants ?",
+        body: "L'aquarium de Vannes, près de la presqu'île de Conleau, présente notamment les hippocampes du golfe du Morbihan et des espèces tropicales. La plage de Conleau est à proximité. Les îles du golfe, comme l'île aux Moines, se rejoignent en bateau depuis des embarcadères voisins : ce sont des excursions et non des adresses vannetaises.",
+      },
+      {
+        heading: "Vannes face à Lorient et à Rennes",
+        body: "Lorient est 250 € moins chère en T3 mais obtient 6,2 en Vie quotidienne contre 7,8. Rennes monte à 9,0 en Écoles (rang 1, treize villes à égalité) mais avec un T3 à 1 100 € et 227 830 habitants. Vannes tient donc le milieu : la sécurité d'une ville moyenne, un loyer proche de Rennes.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Vannes convient aux familles qui placent sécurité, mer et cadre de vie au-dessus du prix, avec des revenus stables. Un budget plus serré orientera vers Lorient, ou vers une commune de l'agglomération en acceptant la voiture.",
+      },
+    ],
+    relatedCities: ["vannes","lorient","rennes","saint-brieuc"],
+    relatedGuides: [
+      "vivre-a-vannes-2026",
+      "acheter-a-vannes-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-vannes-2026",
+      "retraite-a-vannes-2026",
+    ],
+    tags: ["famille Vannes 2026","vivre en famille Vannes","loyer T3 Vannes","écoles Vannes","Vannes avec enfants"],
+  },
+  {
+    slug: "famille-au-havre-2026",
+    title: "Famille au Havre en 2026 : loyers bas, mer proche, points de vigilance",
+    metaTitle: "Famille au Havre 2026 : T3 à 870 €, 17,7 % de moins de 15 ans",
+    metaDesc: "Famille au Havre : T3 à 870 €, appartements à 2 237 €/m², 17,7 % de moins de 15 ans, mais −2,3 % d'habitants depuis 2016 et Sécurité 4,5.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    intro: "Le Havre est l'une des villes les plus jeunes de ce lot : 17,7 % de moins de 15 ans, pour 166 462 habitants. Un T3 se loue 870 € (notre estimation des loyers) et un appartement se vend 2 237 € le m² en médiane 2024-2025. La ville a toutefois perdu 2,3 % de sa population depuis 2016, et la note Sécurité est de 4,5 (rang 431).",
+    sections: [
+      {
+        heading: "Combien coûte un logement familial au Havre ?",
+        body: "Le T3 est à 870 €, le T2 à 650 €. À l'achat, l'appartement vaut 2 237 € le m² (3 087 ventes) et la maison 2 375 € (1 449 ventes), 6 % de plus. Le marché de la maison est actif, avec presque 1 500 ventes en deux ans : c'est un des rares grands ports où une famille peut sérieusement viser une maison.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 20 180 € par unité de consommation (Insee, Filosofi 2021), au rang 413 sur 586, avec 23 % de pauvreté. À Rouen, le T3 est à 950 € pour 21 330 €. Le Havre est moins chère de 80 € par mois à la location, pour un écart de revenu bien plus faible.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 5,8 (rang 249, 22 villes à égalité), Sécurité 4,5 (rang 431, 31 villes à égalité), Nature 5,0 (rang 346). Ce sont des notes communales. Rouen est à 6,6 en Écoles et Caen à 7,4 : sur l'axe scolaire, Le Havre est derrière ses deux voisines.",
+      },
+      {
+        heading: "Que faire avec des enfants ?",
+        body: "Les Jardins suspendus, 17 hectares aménagés sur un fort du XIXe siècle avec vue sur la baie et le port, sont accessibles en tram. Le centre reconstruit par Auguste Perret est inscrit à l'UNESCO, et la plage borde la ville. Étretat se trouve à moins de 30 kilomètres : une sortie à la journée.",
+      },
+      {
+        heading: "Le Havre face à Rouen et à Caen",
+        body: "Caen (T3 à 930 €, 7,4 en Écoles, 11,8 % de moins de 15 ans) est mieux notée mais plus âgée. Rouen gagne 5,6 % d'habitants contre −2,3 % au Havre. Le Havre garde l'avantage du loyer, de la mer et de la jeunesse, au prix d'une dynamique démographique moins favorable.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Le Havre convient à une famille qui cherche un loyer bas, de l'espace et la mer, avec l'envie de se loger en maison. La note Écoles et la tendance démographique invitent à bien choisir le quartier et l'établissement ; pour le niveau scolaire, Caen est le meilleur repère voisin.",
+      },
+    ],
+    relatedCities: ["le-havre","rouen","caen","dieppe","honfleur"],
+    relatedGuides: [
+      "acheter-a-le-havre-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-le-havre-2026",
+      "etudiant-a-le-havre-2026",
+    ],
+    tags: ["famille Le Havre 2026","vivre en famille Le Havre","loyer T3 Le Havre","écoles Le Havre","Le Havre avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
