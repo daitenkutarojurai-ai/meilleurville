@@ -7517,6 +7517,41 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-perpignan-2026",
+      "title": "Family life in Perpignan (2026): low rents, a pricey house market",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-annecy-2026",
+      "title": "Family life in Annecy (2026): an exceptional setting, a budget to plan",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-la-rochelle-2026",
+      "title": "Family life in La Rochelle (2026): sea, bikes and a high price per m²",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-poitiers-2026",
+      "title": "Family life in Poitiers (2026): a controlled budget, upper-middle schools",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-nancy-2026",
+      "title": "Family life in Nancy (2026): solid schools, city-centre parks, fair prices",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-vannes-2026",
+      "title": "Family life in Vannes (2026): the gulf, high safety and prices to match",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-le-havre-2026",
+      "title": "Family life in Le Havre (2026): low rents, the sea close, points to watch",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -9286,22 +9321,22 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 78
+      "count": 79
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 74
+      "count": 76
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 73
+      "count": 74
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 68
+      "count": 69
     },
     {
       "slug": "solo-travel",
@@ -9361,7 +9396,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 42
+      "count": 43
     },
     {
       "slug": "international-students",
@@ -9381,12 +9416,22 @@
     {
       "slug": "normandy",
       "label": "normandy",
-      "count": 37
+      "count": 38
     },
     {
       "slug": "provence",
       "label": "provence",
       "count": 37
+    },
+    {
+      "slug": "french-school-system",
+      "label": "french school system",
+      "count": 36
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 35
     },
     {
       "slug": "working-in-france",
@@ -9407,16 +9452,6 @@
       "slug": "job-market-france",
       "label": "job market france",
       "count": 32
-    },
-    {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 29
-    },
-    {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 28
     },
     {
       "slug": "centre-val-de-loire",
@@ -9654,6 +9689,11 @@
       "count": 6
     },
     {
+      "slug": "le-havre",
+      "label": "le havre",
+      "count": 6
+    },
+    {
       "slug": "lille",
       "label": "lille",
       "count": 6
@@ -9679,18 +9719,23 @@
       "count": 6
     },
     {
+      "slug": "annecy",
+      "label": "annecy",
+      "count": 5
+    },
+    {
       "slug": "brest",
       "label": "brest",
       "count": 5
     },
     {
-      "slug": "le-havre",
-      "label": "le havre",
+      "slug": "metz",
+      "label": "metz",
       "count": 5
     },
     {
-      "slug": "metz",
-      "label": "metz",
+      "slug": "nancy",
+      "label": "nancy",
       "count": 5
     },
     {
@@ -9724,11 +9769,6 @@
       "count": 4
     },
     {
-      "slug": "annecy",
-      "label": "annecy",
-      "count": 4
-    },
-    {
       "slug": "franche-comte",
       "label": "franche-comte",
       "count": 4
@@ -9756,11 +9796,6 @@
     {
       "slug": "le-mans",
       "label": "le mans",
-      "count": 4
-    },
-    {
-      "slug": "nancy",
-      "label": "nancy",
       "count": 4
     },
     {
@@ -9834,6 +9869,11 @@
       "count": 3
     },
     {
+      "slug": "la-rochelle",
+      "label": "la rochelle",
+      "count": 3
+    },
+    {
       "slug": "limoges",
       "label": "limoges",
       "count": 3
@@ -9846,6 +9886,16 @@
     {
       "slug": "notaire",
       "label": "notaire",
+      "count": 3
+    },
+    {
+      "slug": "perpignan",
+      "label": "perpignan",
+      "count": 3
+    },
+    {
+      "slug": "poitiers",
+      "label": "poitiers",
       "count": 3
     },
     {

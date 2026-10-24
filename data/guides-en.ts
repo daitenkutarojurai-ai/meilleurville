@@ -32743,6 +32743,300 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["amiens", "moving to france with children", "french school system", "hauts-de-france"],
   },
   {
+    slug: "family-in-perpignan-2026",
+    title: "Family life in Perpignan (2026): low rents, a pricey house market",
+    metaTitle: "Family Life in Perpignan 2026: €870 T3, Schools, Budget",
+    metaDesc:
+      "Raising children in Perpignan in 2026: a €870 T3, houses at €2,181 per m² against €1,500 for flats, 17.5% under 15. Figures and verdict.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro:
+      "In Perpignan a T3 (two bedrooms and a living room) rents for €870 a month on our rent estimate, less than in Narbonne (€920), but the choice of home matters more than elsewhere: a house costs €2,181 per m² at the 2024-2025 median against €1,500 for a flat, 45% more. Under-15s are 17.5% of residents, and median standard of living, €17,380, ranks 556th of 586 covered cities.",
+    sections: [
+      {
+        heading: "What does a family home cost in Perpignan?",
+        body: "A T3 rents for €870 a month and a T2 for €650. To buy, the market splits in two: €1,500 per m² for flats (3,096 sales kept for 2024-2025, from the national DVF property register) and €2,181 for houses (1,040 sales; a house price includes its land). A family that wants a garden pays almost half as much again per square metre, which makes a flat, rather than a house, the realistic way in.",
+      },
+      {
+        heading: "How heavy is rent against local incomes?",
+        body: "Median standard of living is €17,380 per consumption unit (Insee, Filosofi 2021), a measure of disposable income per household member, and the poverty rate is 34%. In Narbonne the figures are €19,850 and 25%, for a T3 at €920. Rents are low in Perpignan because incomes are: the relative effort stays heavy for modest households even if the absolute amount is among the lowest of the big southern cities.",
+      },
+      {
+        heading: "Schools and safety, point by point",
+        body: "The schooling score is 4.5, rank 442 of 593, inside a band of 45 tied cities: below the median, like Narbonne, while Poitiers or Nancy sit at 7.4. Safety is 3.7 (rank 525, 15 cities tied). These are commune-wide scores; for a given family, the school you are assigned by the carte scolaire, the catchment map tied to your address, is what counts.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The centre is walkable: the Castillet, the old city gate turned into a museum of Catalan popular arts and traditions; the Palace of the Kings of Majorca, a Gothic fortress finished in 1309; and the Campo Santo, described by local guides as the only cemetery cloister in France. The sea is reachable from the city at Canet-en-Roussillon, a separate coastal commune. The commune's nature score is 6.1 (rank 235).",
+      },
+      {
+        heading: "Perpignan against Narbonne and Béziers",
+        body: "Narbonne costs €50 more for a T3 but has gained 5.8% in population since 2016, while Perpignan has lost 0.7%. Béziers is the cheapest of the three (T3 at €720, flats at €1,667 per m²) but scores 3.6 on schools and 3.5 on safety. Perpignan offers the scale of a big city (120,996 residents) with mid-sized-town rents.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "A family on a tight budget that accepts a flat and school and safety scores below the median, or a household whose income does not depend on the local job market. Less so for anyone aiming at a house and garden in a safer school setting: compare with Narbonne, smaller and more dynamic.",
+      },
+    ],
+    relatedCities: ["perpignan", "narbonne", "beziers", "montpellier", "carcassonne"],
+    tags: ["perpignan", "moving to france with children", "french school system", "occitanie"],
+  },
+  {
+    slug: "family-in-annecy-2026",
+    title: "Family life in Annecy (2026): an exceptional setting, a budget to plan",
+    metaTitle: "Family Life in Annecy 2026: €1,450 T3, Schools, Costs",
+    metaDesc:
+      "Raising children in Annecy in 2026: a €1,450 T3, flats at €5,092 per m², schools scored 8.7 and daily life 9.0, but cost of living 3.1. Figures and verdict.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro:
+      "Annecy gathers what a family rarely finds in one place: 8.7 on schools (rank 15 of 593), 9.0 on daily life (rank 1, twelve cities tied) and 8.9 on nature. The counterpart is written into the rent, €1,450 for a T3 (two bedrooms and a living room) on our rent estimate, and into a cost-of-living score of 3.1, rank 541. Flats sell at €5,092 per m² at the 2024-2025 median.",
+    sections: [
+      {
+        heading: "What housing budget for a family in Annecy?",
+        body: "A T3 rents for €1,450 and a T2 for €1,100. To buy, the median is €5,092 per m² for a flat (2,992 sales, national DVF property register) and €6,237 for a house (349 sales, so a narrow market; a house price includes its land). A house costs 22% more than a flat per m², and house sales are nearly nine times fewer: families after a garden often look outside the commune.",
+      },
+      {
+        heading: "Do local incomes absorb these prices?",
+        body: "Median standard of living is €26,250 per consumption unit (Insee, Filosofi 2021), rank 83 of 586, with 10% poverty. That is well above most cities in this series, but the Annecy T3 is still €350 above Chambéry's (€1,100), where median standard of living is €21,950.",
+      },
+      {
+        heading: "Schools and safety: what our scores say",
+        body: "Schooling scores 8.7 (rank 15, fifteen cities tied) and safety 7.3 (rank 114). They are commune-wide scores taken from our city profile: they place the town, not a particular school. Under-15s are 15.8% of residents, and the population has grown 3.8% since 2016.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Palais de l'Isle, the town's prison until 1864, can be visited and its ship's-prow outline appeals to children. The lake loop is cycled on a nearly flat path, around 40 kilometres by some sources (35 by others); a stretch between Annecy and Sévrier is enough for little ones. Above the town, the Semnoz offers a summer toboggan run from age 3, May to September, and the Marquisats beach is supervised in summer.",
+      },
+      {
+        heading: "Annecy or Chambéry for a family?",
+        body: "Chambéry offers 7.4 on schools and 8.1 on nature for a T3 at €1,100 and flats at €2,895 per m², 43% less than Annecy. In return, daily life scores 7.0 against 9.0 and the population has grown only 1.8%. Annecy is priced like a destination, Chambéry like a mountain prefecture.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Annecy ticks the most boxes for children of any city in this series, provided the household can afford big-city housing. On a modest income, or if buying a house is the goal, look at Chambéry first, or accept living in a neighbouring commune.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "thonon-les-bains", "annemasse"],
+    tags: ["annecy", "moving to france with children", "french school system", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "family-in-la-rochelle-2026",
+    title: "Family life in La Rochelle (2026): sea, bikes and a high price per m²",
+    metaTitle: "Family Life in La Rochelle 2026: €1,100 T3, Bikes, Costs",
+    metaDesc:
+      "Raising children in La Rochelle in 2026: a €1,100 T3, flats at €4,844 per m² (dearer than houses), 12.9% under 15, population up 5.6% since 2016.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro:
+      "In La Rochelle a flat sells for more per m² than a house, €4,844 against €4,347 at the 2024-2025 median (national DVF property register), which reverses the usual logic of getting onto the ladder. A T3 (two bedrooms and a living room) rents for €1,100 a month on our rent estimate. Under-15s are only 12.9% of residents, yet the city has gained 5.6% in population since 2016.",
+    sections: [
+      {
+        heading: "Why is a flat dearer than a house?",
+        body: "Flats in La Rochelle reach €4,844 per m² (1,714 sales kept) and houses €4,347 (944 sales; a house price includes its land). The centre, the harbour and the nearby sea pull flats up, while houses more often sell away from the coast. A family gains a little space by looking at houses, but the entry ticket stays high.",
+      },
+      {
+        heading: "What standard of living, what rent effort?",
+        body: "Median standard of living is €22,200 per consumption unit (Insee, Filosofi 2021), rank 233 of 586, with 18% poverty. In Rochefort, some thirty kilometres away, the T3 is €660 for a standard of living of €20,380: the €440 rent gap is far wider than the income gap.",
+      },
+      {
+        heading: "Schools and safety: the scores",
+        body: "Schooling scores 7.4 (rank 90 of 593, eleven cities tied) and safety 6.5 (rank 151, 26 cities tied). Daily life gets 8.1 (rank 31) but cost of living only 4.6 (rank 421): the city has to be paid for. Scores are commune-wide; the carte scolaire, the catchment map tied to your address, settles it for a given family.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "La Rochelle's aquarium, one of Europe's biggest private aquariums with 12,000 animals in 70 tanks by its own account, takes half a day with children. The Concurrence beach, near the Old Port, is family-friendly. Everyday trips are made by bike, and the Île de Ré, reached by a toll bridge, is a day out from the city rather than a La Rochelle address.",
+      },
+      {
+        heading: "La Rochelle against Rochefort and Niort",
+        body: "Niort offers a T3 at €860 and flats at €2,000 per m², with 6.6 on schools and 60,074 residents. Rochefort, smaller (23,188 residents), has lost 3.6% of its population. La Rochelle is the only one of the three to combine growth and sea, at a rent €240 above Niort's.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families with comfortable incomes, or those for whom cycling and the sea come first. A tight budget or a need for a large garden points instead to Niort, half the price to buy, or to the outskirts.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "rochefort", "niort", "saintes", "royan"],
+    tags: ["la-rochelle", "moving to france with children", "french school system", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-poitiers-2026",
+    title: "Family life in Poitiers (2026): a controlled budget, upper-middle schools",
+    metaTitle: "Family Life in Poitiers 2026: €880 T3, Schools, Budget",
+    metaDesc:
+      "Raising children in Poitiers in 2026: a €880 T3, flats at €2,200 per m², schools scored 7.4 but safety 5.7, 13.9% under 15. Figures and verdict.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro:
+      "Poitiers ticks a box that few modest-rent cities do: a schooling score of 7.4 (rank 90 of 593) for a T3 (two bedrooms and a living room) at €880 a month on our rent estimate. The flip side is a median standard of living of €20,150, rank 415 of 586, and 26% poverty. Under-15s make up 13.9% of its 89,472 residents.",
+    sections: [
+      {
+        heading: "What does housing cost in Poitiers?",
+        body: "A T3 rents for €880 and a T2 for €660. To buy, flats are at €2,200 per m² (1,655 sales, 2024-2025, national DVF property register) and houses at €2,038 (865 sales; a house price includes its land). A house costs 7% less than a flat per m², which puts a garden within a mid-sized-town family budget.",
+      },
+      {
+        heading: "How should local incomes be read?",
+        body: "Median standard of living of €20,150 (Insee, Filosofi 2021) is below Tours (€21,250) and Niort (€23,120). It is disposable income per consumption unit, not a salary: a two-income family sits above this communal median.",
+      },
+      {
+        heading: "Schools, safety, nature: the scores",
+        body: "Schools 7.4 (eleven cities tied at rank 90), safety 5.7 (rank 241, 31 cities tied), nature 5.0 (rank 346, 51 cities tied). Poitiers is a city of services before it is a city of landscapes; these are commune-wide scores and do not replace the carte scolaire, the catchment map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Blossac park, an 18th-century garden laid out in terraces above the Clain, has a free animal area (goats, hens, deer) and a big lawn. The Saint-Jean baptistery, of early Christian origin, takes half an hour. Futuroscope is about twenty minutes away at Chasseneuil-du-Poitou, a separate commune: a day out, not a Poitiers address.",
+      },
+      {
+        heading: "Poitiers against Niort and Tours",
+        body: "Niort has a T3 at €860 and 6.6 on schools, without Poitiers's student weight. Tours is dearer (T3 at €940, flats at €2,827 per m²) and a little better on schools (7.9). Poitiers sits between them on flat prices (€2,200 per m² against €2,000 in Niort) and beats Niort on schools (7.4 against 6.6).",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "A household that wants good schools on a mid-sized-town budget and a full range of services, with Futuroscope as an outing. It disappoints anyone expecting nature and safety at the top scores: look then at neighbouring communes, or at Vannes and Annecy, much dearer.",
+      },
+    ],
+    relatedCities: ["poitiers", "niort", "tours", "chatellerault", "limoges"],
+    tags: ["poitiers", "moving to france with children", "french school system", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-nancy-2026",
+    title: "Family life in Nancy (2026): solid schools, city-centre parks, fair prices",
+    metaTitle: "Family Life in Nancy 2026: €950 T3, Schools, Parks",
+    metaDesc:
+      "Raising children in Nancy in 2026: a €950 T3, flats at €2,282 per m² (houses €2,610), 12.2% under 15, schools scored 7.4. Figures and verdict.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro:
+      "A T3 (two bedrooms and a living room) in Nancy rents for €950 on our rent estimate and a flat sells for €2,282 per m², with 3,304 sales kept over 2024-2025: a deep market. Schools score 7.4 (rank 90 of 593), but under-15s are only 12.2% of residents, one of the lowest shares in this series, because Nancy is a student city.",
+    sections: [
+      {
+        heading: "What rent and purchase price for a family?",
+        body: "The T3 is €950 and the T2 €710. Flats sell at €2,282 per m² and houses at €2,610 (only 365 sales; a house price includes its land), 14% more. The house market is narrow: a family set on one should be ready to search the wider conurbation rather than inside the city.",
+      },
+      {
+        heading: "An average standard of living",
+        body: "Median standard of living is €22,360 per consumption unit (Insee, Filosofi 2021), rank 221 of 586, with 22% poverty. In Épinal the T3 is €660 for a standard of living of €20,140: Nancy costs €290 more a month, with a metropolis of students and jobs behind it.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 7.4 (rank 90, eleven cities tied), safety 5.1 (rank 350, 16 cities tied), nature 4.8 (rank 399). The population of 104,387 is stable (−0.2% since 2016). Scores are commune-wide; the carte scolaire, the catchment map tied to your address, decides for a given family.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Pépinière park, near Place Stanislas, has a free animal area and play equipment. The Muséum-Aquarium, rue Sainte-Catherine, is recommended from age 3. The 27-hectare Jean-Marie-Pelt botanical garden is at Villers-lès-Nancy, a neighbouring commune, with free entry to the garden and paid greenhouses. Place Stanislas is a UNESCO World Heritage site.",
+      },
+      {
+        heading: "Nancy against Metz and Épinal",
+        body: "Metz (T3 at €910, 121,695 residents, +3.2% since 2016) is demographically livelier, with the same 6.6 on schools as Rouen but less than Nancy. Épinal, smaller and cheaper, scores 6.2 on schools. Nancy is the best-scored of the three on the school axis.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want good schools, a rich cultural life and a mid-sized-city budget, without needing wild nature. For a household dreaming of a garden and space, Nancy's outskirts or Épinal have more to offer.",
+      },
+    ],
+    relatedCities: ["nancy", "metz", "epinal"],
+    tags: ["nancy", "moving to france with children", "french school system", "grand-est"],
+  },
+  {
+    slug: "family-in-vannes-2026",
+    title: "Family life in Vannes (2026): the gulf, high safety and prices to match",
+    metaTitle: "Family Life in Vannes 2026: €1,150 T3, Safety 6.9, Costs",
+    metaDesc:
+      "Raising children in Vannes in 2026: a €1,150 T3, flats at €3,864 per m² (houses €4,112), safety 6.9, schools 7.4, 12.7% under 15. Figures, verdict.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro:
+      "Vannes combines 7.8 on daily life (rank 32 of 593), 6.9 on safety (rank 136, only two cities tied) and 7.4 on schools, for a T3 (two bedrooms and a living room) at €1,150 on our rent estimate. The flip side is a cost-of-living score of 5.5 and flats at €3,864 per m² at the 2024-2025 median. The town has 54,955 residents and has gained 3.3% since 2016.",
+    sections: [
+      {
+        heading: "What housing budget in Vannes?",
+        body: "The T3 is €1,150 and the T2 €850. To buy, a flat costs €3,864 per m² (1,287 sales, national DVF property register) and a house €4,112 (573 sales; a house price includes its land), 6% more. The gap is small: a house stays within reach as a first family purchase, at a regional-capital budget.",
+      },
+      {
+        heading: "Do incomes keep up?",
+        body: "Median standard of living is €24,070 per consumption unit (Insee, Filosofi 2021), rank 145 of 586, with 15% poverty. That is above Lorient (€20,860), where the T3 is €900. In Vannes local income can absorb the rent, which is not true of every city in this series.",
+      },
+      {
+        heading: "Safety, schools, nature",
+        body: "Safety 6.9, schools 7.4 (eleven cities tied at rank 90), nature 7.2 (rank 90, twelve cities tied). These are commune-wide scores; Lorient's same axes are 5.5, 6.6 and 6.4. Under-15s, 12.7%, are among the lowest shares in this series.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Vannes aquarium, near the Conleau peninsula, shows among other things the seahorses of the Gulf of Morbihan and tropical species. The Conleau beach is close. The gulf's islands, such as the Île-aux-Moines, are reached by boat from nearby landing stages: they are excursions, not Vannes addresses.",
+      },
+      {
+        heading: "Vannes against Lorient and Rennes",
+        body: "Lorient is €250 cheaper for a T3 but scores 6.2 on daily life against 7.8. Rennes rises to 9.0 on schools (rank 1, thirteen cities tied) but with a T3 at €1,100 and 227,830 residents. Vannes holds the middle: the safety of a mid-sized town, a rent close to Rennes.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who put safety, the sea and quality of life above price, with stable incomes. A tighter budget points to Lorient, or to a commune in the wider area, accepting a car.",
+      },
+    ],
+    relatedCities: ["vannes", "lorient", "rennes", "saint-brieuc"],
+    tags: ["vannes", "moving to france with children", "french school system", "brittany"],
+  },
+  {
+    slug: "family-in-le-havre-2026",
+    title: "Family life in Le Havre (2026): low rents, the sea close, points to watch",
+    metaTitle: "Family Life in Le Havre 2026: €870 T3, 17.7% Under 15",
+    metaDesc:
+      "Raising children in Le Havre in 2026: a €870 T3, flats at €2,237 per m², 17.7% under 15, but population down 2.3% since 2016 and safety 4.5.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro:
+      "Le Havre is one of the youngest cities in this series: 17.7% under 15, among 166,462 residents. A T3 (two bedrooms and a living room) rents for €870 on our rent estimate and a flat sells for €2,237 per m² at the 2024-2025 median. The city has nonetheless lost 2.3% of its population since 2016, and its safety score is 4.5 (rank 431).",
+    sections: [
+      {
+        heading: "What does a family home cost in Le Havre?",
+        body: "The T3 is €870 and the T2 €650. To buy, a flat is €2,237 per m² (3,087 sales, national DVF property register) and a house €2,375 (1,449 sales; a house price includes its land), 6% more. The house market is active, with almost 1,500 sales in two years: one of the few big ports where a family can seriously aim at a house.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €20,180 per consumption unit (Insee, Filosofi 2021), rank 413 of 586, with 23% poverty. In Rouen the T3 is €950 for €21,330. Le Havre is €80 a month cheaper to rent, for a much smaller income gap.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 5.8 (rank 249, 22 cities tied), safety 4.5 (rank 431, 31 cities tied), nature 5.0 (rank 346). These are commune-wide scores. Rouen scores 6.6 on schools and Caen 7.4: on the school axis Le Havre trails both neighbours.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Jardins suspendus, 17 hectares laid out on a 19th-century fort with views over the bay and port, are reachable by tram. The city centre rebuilt by Auguste Perret is UNESCO-listed, and the beach runs along the town. Étretat lies less than 30 kilometres away: a day trip.",
+      },
+      {
+        heading: "Le Havre against Rouen and Caen",
+        body: "Caen (T3 at €930, 7.4 on schools, 11.8% under 15) is better scored but older. Rouen has gained 5.6% in population against −2.3% in Le Havre. Le Havre keeps the advantage of rent, sea and youth, at the price of weaker demographic momentum.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "A family looking for low rent, space and the sea, keen on a house. The schools score and the demographic trend call for choosing the neighbourhood and school carefully, using the carte scolaire, the catchment map tied to your address; for school level, Caen is the best neighbouring benchmark.",
+      },
+    ],
+    relatedCities: ["le-havre", "rouen", "caen", "dieppe", "honfleur"],
+    tags: ["le-havre", "moving to france with children", "french school system", "normandy"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",
