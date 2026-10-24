@@ -8597,6 +8597,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "vacances-celibataire-le-havre-2026",
+      "title": "Vacances célibataire au Havre en 2026 : centre Perret, tram et deux-pièces à 650 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-toulon-2026",
+      "title": "Vacances célibataire à Toulon en 2026 : marché, Mourillon et deux-pièces à 780 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-perpignan-2026",
+      "title": "Vacances célibataire à Perpignan en 2026 : Castillet, marchés et deux-pièces à 650 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-montelimar-2026",
+      "title": "Vacances célibataire à Montélimar en 2026 : centre animé, gare et deux-pièces à 580 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-arles-2026",
+      "title": "Vacances célibataire à Arles en 2026 : culture 9/10, hors saison calme et deux-pièces à 700 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-cergy-2026",
+      "title": "Vacances célibataire à Cergy en 2026 : ville jeune, RER A et deux-pièces à 880 €",
+      "emoji": "🍸"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -11626,6 +11656,16 @@
     {
       "slug": "voyage-solo-la-reunion",
       "label": "voyage solo La Réunion",
+      "count": 3
+    },
+    {
+      "slug": "week-end-celibataire-normandie",
+      "label": "week-end célibataire Normandie",
+      "count": 3
+    },
+    {
+      "slug": "week-end-celibataire-occitanie",
+      "label": "week-end célibataire Occitanie",
       "count": 3
     },
     {

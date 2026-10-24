@@ -49187,6 +49187,252 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire Agen","voyage solo Lot-et-Garonne","Agen marché couvert","week-end célibataire Nouvelle-Aquitaine","Agen gare TGV séjour"],
   },
   {
+    slug: "vacances-celibataire-le-havre-2026",
+    title: "Vacances célibataire au Havre en 2026 : centre Perret, tram et deux-pièces à 650 €",
+    metaTitle: "Vacances célibataire Le Havre 2026 : centre, tram, budget",
+    metaDesc: "Le Havre en séjour célibataire : centre reconstruit classé UNESCO, tram, deux-pièces à 650 €, 1 590 h de soleil. Ce que la ville tient hors saison.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro: "Le Havre compte 166 462 habitants (Insee 2022), un deux-pièces de référence à 650 € et 1 590 heures d'ensoleillement par an, le chiffre le plus bas de ce lot. Notre fiche donne 6,3/10 au coût, 6,2/10 à la culture et 6,2/10 aux transports. La part de 15-29 ans est de 20,0 % et celle des 60 ans et plus de 26,6 %. C'est une grande ville portuaire qui vit toute l'année, sans l'éclat d'une station : elle convient à qui cherche une base abordable et une architecture singulière, pas à qui cherche du soleil garanti.",
+    sections: [
+      {
+        heading: "Pourquoi Le Havre : une ville de port qui ne dépend pas de l'été",
+        body: "Ses tags (port, mer, architecture, UNESCO, abordable) décrivent une ville de travail avant d'être une destination de week-end. Notre fiche donne 5,5/10 au global, 5,1/10 de vie quotidienne et 5/10 de nature. Autre donnée à connaître avant de réserver : la population recule de 2,3 % depuis 2016, soit 3 890 habitants de moins.",
+      },
+      {
+        heading: "Où poser ses valises : le centre reconstruit",
+        body: "Trois secteurs dans notre fiche quartiers. Le centre reconstruit par Auguste Perret, classé à l'UNESCO, note 7,5/10 de vie du soir pour un deux-pièces à 680 €. Sainte-Marie, résidentiel et proche des plages, tombe à 5,5/10 pour 660 €. Le Quartier Nord, populaire, note 5/10 pour 560 € et affiche les loyers les plus bas de la ville. Pour sortir le soir à pied, le centre est le choix ; Sainte-Marie convient si la plage compte plus que les terrasses.",
+      },
+      {
+        heading: "Sortir : une scène correcte, sous le plancher de notre profil",
+        body: "Avec 7,5/10, la vie du soir du centre est correcte mais sous les 8,0/10 que notre page de profil retient pour une scène dense. Les repères de la ville sont son architecture en béton armé et son front de mer. Nos données ne listent ni salles ni programmation, et aucun événement n'est cité ici.",
+      },
+      {
+        heading: "Se déplacer sans voiture : tram et bus à haut niveau de service",
+        body: "Notre fiche signale un tramway et un réseau de bus à haut niveau de service. Le score de transport est de 6,2/10, ce qui suffit pour rejoindre le centre depuis Sainte-Marie. Les liaisons ferroviaires vers Paris et Rouen ne sont pas dans nos données : les horaires se vérifient auprès de l'exploitant.",
+      },
+      {
+        heading: "Le supplément single : un coût de grande ville de province",
+        body: "À 6,3/10 de coût, un studio à 470 € et un deux-pièces à 650 €, Le Havre reste abordable pour une ville de plus de 160 000 habitants. Le prix d'achat de référence est de 2 000 € le m². Aucun tarif d'hôtel n'est avancé ici.",
+      },
+      {
+        heading: "Quand y aller : au printemps ou à l'automne, avec un coupe-vent",
+        body: "Notre fiche porte 1 590 heures d'ensoleillement par an, 19,5 °C en moyenne en juillet et 4,8 °C en janvier. Aucune normale mensuelle n'est publiée. La ville est ouverte toute l'année ; le climat océanique rend le soleil moins fiable que sur la côte méditerranéenne, ce qui plaide pour un séjour pensé autour des musées et de l'architecture.",
+      },
+    ],
+    relatedCities: ["le-havre"],
+    relatedGuides: ["10-choses-a-faire-a-le-havre-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Le Havre","voyage solo Seine-Maritime","Le Havre centre Perret","week-end célibataire Normandie","Le Havre tram séjour"],
+  },
+  {
+    slug: "vacances-celibataire-toulon-2026",
+    title: "Vacances célibataire à Toulon en 2026 : marché, Mourillon et deux-pièces à 780 €",
+    metaTitle: "Vacances célibataire Toulon 2026 : marché, plages, budget",
+    metaDesc: "Toulon en séjour célibataire : 2 750 h de soleil, marché du cours Lafayette, plages du Mourillon, gare TGV, deux-pièces à 780 €.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro: "Toulon compte 180 834 habitants (Insee 2022), 2 750 heures d'ensoleillement par an et un deux-pièces de référence à 780 €. Notre fiche donne 7/10 à la nature, 5,5/10 au coût, 6,2/10 à la culture et 5,5/10 aux transports. La part de 15-29 ans est de 17,4 % et celle des 60 ans et plus de 29,4 %. La population gagne 6,6 % depuis 2016. C'est une grande ville de port militaire dotée de plages urbaines, qui vit à l'année : un séjour y est moins saisonnier que dans les stations voisines.",
+    sections: [
+      {
+        heading: "Pourquoi Toulon : la mer en ville, sans station fantôme",
+        body: "Ses tags (mer, soleil, marine, méditerranéen, sport nautique) décrivent une ville tournée vers l'eau. Notre fiche donne 5/10 au global et 5,1/10 de vie quotidienne. À dire sans détour : la sécurité est notée 4,1/10 dans notre fiche.",
+      },
+      {
+        heading: "Où poser ses valises : Haute-Ville ou Mourillon",
+        body: "Trois secteurs dans notre fiche quartiers. La Haute-Ville, autour du cours Lafayette et du marché provençal, note 7,5/10 de vie du soir pour un deux-pièces à 750 €. Le Mourillon, avec ses plages urbaines et sa pinède, tombe à 6,5/10 pour 900 €. Saint-Jean-du-Var, résidentiel sur les collines, note 5/10 pour 820 €. Choix simple : la Haute-Ville pour la scène, le Mourillon pour la mer, au prix de 150 € de plus.",
+      },
+      {
+        heading: "Sortir : le marché, le port et les terrasses",
+        body: "La vie du soir de la Haute-Ville est notée 7,5/10 : correcte, sous le plancher de 8,0/10 que retient notre page de profil. Les repères de la ville sont le marché et le port. Nos données ne listent ni salles ni programmation, et aucun événement n'est cité.",
+      },
+      {
+        heading: "Se déplacer sans voiture : la gare TGV, un réseau de bus renforcé",
+        body: "Notre fiche indique une gare TGV et des bus à haut niveau de service. Le score de transport de 5,5/10 est moyen. Les durées des trajets ne sont pas dans nos données et se vérifient auprès de l'exploitant.",
+      },
+      {
+        heading: "Le supplément single : un coût de grande ville de la côte",
+        body: "À 5,5/10 de coût, un studio à 560 € et un deux-pièces à 780 €, Toulon est plus chère que Perpignan ou Le Havre. Le prix d'achat de référence est de 3 200 € le m². Aucun tarif d'hôtel n'est avancé ici.",
+      },
+      {
+        heading: "Quand y aller : de mai à octobre pour la mer, toute l'année pour la ville",
+        body: "Notre fiche porte 2 750 heures d'ensoleillement par an, 26,5 °C en moyenne en juillet et 8,4 °C en janvier, soit un hiver doux. Aucune normale mensuelle n'est publiée. L'été reste la saison de la plage ; hors de ces mois, le marché et le port suffisent à occuper un week-end.",
+      },
+    ],
+    relatedCities: ["toulon"],
+    relatedGuides: ["10-choses-a-faire-a-toulon-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Toulon","voyage solo Var","Toulon Mourillon plages","week-end célibataire Provence-Alpes-Côte d'Azur","Toulon marché cours Lafayette"],
+  },
+  {
+    slug: "vacances-celibataire-perpignan-2026",
+    title: "Vacances célibataire à Perpignan en 2026 : Castillet, marchés et deux-pièces à 650 €",
+    metaTitle: "Vacances célibataire Perpignan 2026 : Castillet, budget",
+    metaDesc: "Perpignan en séjour célibataire : 2 750 h de soleil, centre catalan autour du Castillet, gare TGV, deux-pièces à 650 €. Les réserves à connaître.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro: "Perpignan compte 120 996 habitants (Insee 2022), 2 750 heures d'ensoleillement par an et un deux-pièces de référence à 650 €. Notre fiche donne 6,2/10 au coût et à la culture, 5,5/10 aux transports et 3,7/10 à la sécurité. La part de 15-29 ans est de 19,5 % et celle des 60 ans et plus de 28,1 %. La population est stable, à -0,7 % depuis 2016. C'est une grande ville catalane abordable et ensoleillée, qui vit à l'année ; sa sécurité faible est le point à regarder avant de réserver.",
+    sections: [
+      {
+        heading: "Pourquoi Perpignan : le soleil et le budget d'une grande ville",
+        body: "Ses tags (soleil, méditerranéen, abordable, Catalogne, nature) décrivent une ville bon marché du Sud. Notre fiche donne 4,7/10 au global et 4,9/10 de vie quotidienne : ce n'est pas la ville la mieux notée du site, et la page le dit. L'intérêt tient au rapport entre l'ensoleillement et le coût.",
+      },
+      {
+        heading: "Où poser ses valises : Saint-Jean, le cœur catalan",
+        body: "Trois secteurs dans notre fiche quartiers. Saint-Jean, autour du Castillet et des marchés, note 7,5/10 de vie du soir pour un deux-pièces à 650 €. Moulin-à-Vent, résidentiel et calme, tombe à 5,5/10 pour 700 €. Bas-Vernet, populaire, note 5,5/10 pour 560 €. Pour sortir à pied, Saint-Jean est le choix ; notre fiche y signale des problèmes de sécurité.",
+      },
+      {
+        heading: "Sortir : l'ambiance catalane, entre marchés et terrasses",
+        body: "La vie du soir de Saint-Jean est notée 7,5/10 : correcte, sous le plancher de 8,0/10 de notre page de profil. Les repères de la ville sont le Castillet et ses marchés. Nos données ne listent ni salles ni programmation, et aucun événement n'est cité.",
+      },
+      {
+        heading: "Se déplacer sans voiture : la gare TGV, des bus à haut niveau de service",
+        body: "Notre fiche indique une gare TGV et des bus à haut niveau de service. Le score de transport de 5,5/10 est moyen. Les durées de trajet ne sont pas dans nos données et se vérifient auprès de l'exploitant.",
+      },
+      {
+        heading: "Le supplément single : un budget de grande ville du Sud",
+        body: "À 6,2/10 de coût, un studio à 470 € et un deux-pièces à 650 €, Perpignan est abordable. Le prix d'achat de référence est de 2 300 € le m². Le supplément chambre individuelle y pèse peu ; aucun tarif d'hôtel n'est avancé ici.",
+      },
+      {
+        heading: "Quand y aller : toute l'année, avec la mer en été",
+        body: "Notre fiche porte 2 750 heures d'ensoleillement par an, 27,2 °C en moyenne en juillet et 7,5 °C en janvier. Aucune normale mensuelle n'est publiée. La ville fonctionne hors saison ; l'été est chaud, le printemps et l'automne conviennent au centre à pied.",
+      },
+    ],
+    relatedCities: ["perpignan"],
+    relatedGuides: ["10-choses-a-faire-a-perpignan-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Perpignan","voyage solo Pyrénées-Orientales","Perpignan Castillet","week-end célibataire Occitanie","Perpignan gare TGV séjour"],
+  },
+  {
+    slug: "vacances-celibataire-montelimar-2026",
+    title: "Vacances célibataire à Montélimar en 2026 : centre animé, gare et deux-pièces à 580 €",
+    metaTitle: "Vacances célibataire Montélimar 2026 : centre, budget",
+    metaDesc: "Montélimar en séjour célibataire : 2 600 h de soleil, centre historique, deux-pièces à 580 €, une ville plus petite qui tient hors saison.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro: "Montélimar compte 40 356 habitants (Insee 2022), 2 600 heures d'ensoleillement par an et un deux-pièces de référence à 580 €, le plus bas de ce lot. Notre fiche donne 6,7/10 au coût, 6,8/10 à la vie quotidienne, 6,6/10 à la culture et 6,2/10 aux transports. La part de 15-29 ans est de 17,6 % et celle des 60 ans et plus de 28,1 %. La population gagne 4,3 % depuis 2016. C'est la plus petite ville de ce lot, et la mieux notée du lot en vie quotidienne.",
+    sections: [
+      {
+        heading: "Pourquoi Montélimar : une ville moyenne qui vit à l'année",
+        body: "Ses tags (nougat, soleil, Rhône, gastronomie, patrimoine) décrivent une ville d'étape et de terroir. Notre fiche donne 6,3/10 au global et 5,7/10 de sécurité, ce qui la place nettement au-dessus de Perpignan ou Toulon sur ce point. La scène est celle d'une ville de 40 000 habitants, pas d'une métropole.",
+      },
+      {
+        heading: "Où poser ses valises : le centre historique",
+        body: "Trois secteurs dans notre fiche quartiers. Le centre historique, entre ruelles médiévales, boutiques de nougat et marché, note 7,5/10 de vie du soir pour un deux-pièces à 590 €. Le Quartier Provence, résidentiel, tombe à 5/10 pour 570 €. Le secteur de la gare TGV note 6/10 pour 550 €. Choix évident : le centre, pour 40 € de plus que le secteur gare.",
+      },
+      {
+        heading: "Sortir : terrasses, marché et château des Adhémar",
+        body: "La vie du soir du centre est notée 7,5/10, correcte mais sous le plancher de 8,0/10 de notre page de profil. Les repères de la ville sont le marché provençal et le château des Adhémar. C'est une ville de comptoir et de terrasse ; nos données ne listent ni salles ni programmation.",
+      },
+      {
+        heading: "Se déplacer sans voiture : un secteur gare qui compte",
+        body: "Notre fiche quartiers décrit Montélimar comme située sur l'axe Paris-Marseille, avec un secteur gare noté 9/10 en transport. Le score de transport de la ville est de 6,2/10. Les destinations et durées ferroviaires ne sont pas dans nos données et se vérifient auprès de l'exploitant.",
+      },
+      {
+        heading: "Le supplément single : le plus bas budget du lot",
+        body: "À 6,7/10 de coût, un studio à 420 € et un deux-pièces à 580 €, Montélimar est la moins chère des six villes de ce lot sur le loyer. Le prix d'achat de référence est de 2 200 € le m². Aucun tarif d'hôtel n'est avancé ici.",
+      },
+      {
+        heading: "Quand y aller : au printemps ou à l'automne",
+        body: "Notre fiche porte 2 600 heures d'ensoleillement par an, 26,5 °C en moyenne en juillet et 4,5 °C en janvier. Aucune normale mensuelle n'est publiée. L'été est chaud ; le printemps et l'automne conviennent à un séjour fait de marchés et de terrasses, l'hiver est plus frais que sur la côte.",
+      },
+    ],
+    relatedCities: ["montelimar"],
+    relatedGuides: ["10-choses-a-faire-a-montelimar-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Montélimar","voyage solo Drôme","Montélimar nougat centre","week-end célibataire Auvergne-Rhône-Alpes","Montélimar axe Rhône séjour"],
+  },
+  {
+    slug: "vacances-celibataire-arles-2026",
+    title: "Vacances célibataire à Arles en 2026 : culture 9/10, hors saison calme et deux-pièces à 700 €",
+    metaTitle: "Vacances célibataire Arles 2026 : culture, budget, saison",
+    metaDesc: "Arles en séjour célibataire : culture 9/10, 2 700 h de soleil, deux-pièces à 700 €, mais seulement 15,3 % de 15-29 ans hors saison.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro: "Arles compte 51 156 habitants (Insee 2022), 2 700 heures d'ensoleillement par an et un deux-pièces de référence à 700 €. Elle porte le meilleur score de culture de ce lot, 9/10, et la plus faible part de 15-29 ans, 15,3 %. Les 60 ans et plus pèsent 30,9 %. La population recule de 3,2 % depuis 2016. C'est la destination du lot où l'écart entre l'offre culturelle et le monde qui vit sur place l'hiver est le plus grand : à connaître avant de réserver un séjour d'automne.",
+    sections: [
+      {
+        heading: "Pourquoi Arles : la culture avant l'ambiance",
+        body: "Ses tags (UNESCO, art, Camargue, soleil, flamants roses) décrivent une ville de patrimoine. Notre fiche donne 5,2/10 au global, 5,5/10 de vie quotidienne et 4,9/10 aux transports. La culture à 9/10 est l'argument ; la sécurité à 4,1/10 et le recul de population sont les réserves.",
+      },
+      {
+        heading: "Où poser ses valises : le centre historique ou Trinquetaille",
+        body: "Trois secteurs dans notre fiche quartiers. Le centre historique, autour des arènes, du théâtre antique, du musée Van Gogh et des Rencontres de la photographie, note 7,5/10 de vie du soir pour un deux-pièces à 750 €. Trinquetaille, rive droite du Rhône, en gentrification, tombe à 6,5/10 pour 700 €. Barriol, résidentiel, note 5/10 pour 660 €. Pour un séjour à pied, le centre.",
+      },
+      {
+        heading: "Sortir : les musées et festivals plutôt que la nuit",
+        body: "La vie du soir du centre est notée 7,5/10, correcte mais sous le plancher de 8,0/10 de notre page de profil. Ce qui fait venir à Arles est le patrimoine romain et la photographie ; les dates des festivals changent chaque année et ne sont pas citées ici.",
+      },
+      {
+        heading: "Se déplacer sans voiture : un score de transport faible",
+        body: "Le score de transport est de 4,9/10 et notre fiche ne documente ni réseau structurant ni gare. Les liaisons ferroviaires et les bus se vérifient auprès des exploitants avant de réserver.",
+      },
+      {
+        heading: "Le supplément single : un deux-pièces à 700 €",
+        body: "À 5,7/10 de coût, un studio à 510 € et un deux-pièces à 700 €, Arles est moins chère que Toulon et plus chère que Perpignan ou Montélimar. Le prix d'achat de référence est de 3 200 € le m². Aucun tarif d'hôtel n'est avancé ici.",
+      },
+      {
+        heading: "Quand y aller : au printemps, avant la chaleur",
+        body: "Notre fiche porte 2 700 heures d'ensoleillement par an, 27 °C en moyenne en juillet et 5,5 °C en janvier. Aucune normale mensuelle n'est publiée. Avec 15,3 % de 15-29 ans et 30,9 % de 60 ans et plus, la population qui y vit à l'année est peu tournée vers la sortie, et le printemps est la saison la plus cohérente avec le profil.",
+      },
+    ],
+    relatedCities: ["arles"],
+    relatedGuides: ["10-choses-a-faire-a-arles-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Arles","voyage solo Bouches-du-Rhône","Arles arènes musée","week-end célibataire Provence-Alpes-Côte d'Azur","Arles culture séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-cergy-2026",
+    title: "Vacances célibataire à Cergy en 2026 : ville jeune, RER A et deux-pièces à 880 €",
+    metaTitle: "Vacances célibataire Cergy 2026 : RER A, ville jeune",
+    metaDesc: "Cergy en séjour célibataire : 26,3 % de 15-29 ans, RER A, université, Axe majeur, deux-pièces à 880 €. Une base, pas une station.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 4,
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    intro: "Cergy compte 69 578 habitants (Insee 2022) et la part de 15-29 ans la plus élevée de ce lot, 26,3 %, pour seulement 12,8 % de 60 ans et plus. Notre fiche donne 8,4/10 aux transports et 7,5/10 au télétravail, mais 4,9/10 à la vie quotidienne et 1 650 heures d'ensoleillement par an. Le deux-pièces de référence est à 880 €, le plus élevé du lot. La population gagne 9 % depuis 2016. C'est une ville nouvelle jeune et bien reliée, pensée comme une base pour rejoindre Paris, pas comme une destination de vacances.",
+    sections: [
+      {
+        heading: "Pourquoi Cergy : la ville la plus jeune du lot, par la mesure",
+        body: "Ses tags (ville nouvelle, jeune, étudiant, dynamique) se vérifient au recensement : 26,3 % de 15-29 ans, contre 20,0 % au Havre et 15,3 % à Arles. Notre fiche donne 5,7/10 au global et 5/10 de nature. Le contrepoint est la sécurité, à 4,4/10.",
+      },
+      {
+        heading: "Où poser ses valises : Préfecture ou Saint-Christophe",
+        body: "Trois secteurs dans notre fiche quartiers. Saint-Christophe, quartier étudiant autour de l'université et de l'ESSEC, note 7,5/10 de vie du soir pour un deux-pièces à 820 €. Préfecture, centre névralgique autour de la gare RER A, note 7/10 pour 900 €. Les Linandes, populaire, note 5,5/10 pour 720 €. Pour l'ambiance jeune, Saint-Christophe ; pour la gare, Préfecture.",
+      },
+      {
+        heading: "Sortir : une vie jeune, mais une scène sans cachet touristique",
+        body: "La vie du soir de Saint-Christophe est notée 7,5/10, sous le plancher de 8,0/10 de notre page de profil. Les repères de la ville sont l'Axe majeur de Dani Karavan et son esprit campus. Nos données ne listent ni salles ni programmation, et aucun événement n'est cité.",
+      },
+      {
+        heading: "Se déplacer sans voiture : le RER A, atout central",
+        body: "Le score de transport de 8,4/10 est le plus élevé du lot, et notre fiche signale le RER A comme lien direct avec Paris. C'est l'argument central de Cergy : on y dort et on sort ailleurs sans voiture. Les durées et la fréquence de nuit ne sont pas dans nos données et se vérifient auprès de l'exploitant.",
+      },
+      {
+        heading: "Le supplément single : le deux-pièces le plus cher du lot",
+        body: "À 5,9/10 de coût, un studio à 600 € et un deux-pièces à 880 €, Cergy est la plus chère des six villes de ce lot sur le loyer. Le prix d'achat de référence est de 3 500 € le m². Aucun tarif d'hôtel n'est avancé ici.",
+      },
+      {
+        heading: "Quand y aller : toute l'année, avec un climat francilien",
+        body: "Notre fiche porte 1 650 heures d'ensoleillement par an, 20 °C en moyenne en juillet et 4,5 °C en janvier. Aucune normale mensuelle n'est publiée. La population jeune et le campus font vivre la ville en semaine ; les périodes de vacances universitaires la rendent plus calme.",
+      },
+    ],
+    relatedCities: ["cergy"],
+    relatedGuides: ["10-choses-a-faire-a-cergy-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Cergy","voyage solo Val-d'Oise","Cergy Axe majeur","week-end célibataire Île-de-France","Cergy RER A séjour"],
+  },
+  {
     slug: "partir-en-vacances-seul-2026",
     title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
     metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",
