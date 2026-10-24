@@ -647,3 +647,34 @@ avant de cliquer le Menu mobile, il intercepte le clic.
 1. `CityProfile.tsx` — fiche ville : découper les blocs en bandes distinctes (forte audience).
 2. Bandeau cookies (`CookieBanner`) — encore en « petite note » plaque/serif de l'ancienne identité.
 3. Cartes héritées `RankingPreview` / `ProfileQuickAccess` / `GuidesTeaser` (feuille / plaque).
+
+## 2026-10-24 ~11:00 UTC — fiche ville `app/villes/[slug]/CityProfile.tsx` (540 FR + 540 EN) — bandes « Couleurs »
+
+**Surface** : la fiche ville, page la plus visitée. Avant : un seul grand bloc canvas sous le hero, puis
+discussions / FAQ / actu / guides tous sur blanc avec filets gris.
+
+**Changé**
+- Barre d'onglets collante : blanc translucide + ombre indigo ; onglet actif sur pastille `--band-indigo`
+  soulignée rose, survol lilas.
+- Zone de contenu (panneaux) : `band band-indigo`.
+- « Données & analyse » : sa propre bande ciel (`band-sky`), pleine largeur dans la grille.
+- « Explorer [ville] en détail » : bande rose (`band-pink`), titre passé en `font-display` ; colle au bloc
+  suivant (`-mb-10`) seulement une fois hydraté sur l'onglet vue d'ensemble — sans JS tous les panneaux
+  sont visibles et la marge négative aurait recouvert le suivant.
+- Discussions : `band-aqua` ; FAQ : `band-lilac`, accordéons en cartes blanches à ombre indigo, filet
+  indigo à gauche quand ouvert, survol indigo pâle, titre `font-display`.
+- Barre « Comparer avec » : `band-white`, puces indigo pâle → pleines au survol.
+- `CityNewsSection` (`band-indigo`) et `CityGuidesList` (`band-sky`) : fin du blanc forcé (seules ces deux
+  pages ville les utilisent).
+- Séquence : aurore → indigo → ciel → rose → aqua → lilas → blanc → indigo → ciel ; jamais deux voisines
+  identiques. Non touché : données, logique, copie.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 3
+fichiers : 1 erreur préexistante (`set-state-in-effect`, l. ~97), aucune ajoutée. Captures dev server +
+playwright `/villes/lyon` à 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+Astuce : ne pas tuer le serveur avec `pkill -f` sur un motif contenu dans la commande elle-même (tue le shell).
+
+**Prochaines surfaces candidates**
+1. Cartes internes de la fiche (`Card` « card-sheen », cartes de sous-pages) : en-têtes `.grad-head-*` ?
+2. Bandeau cookies `components/CookieConsent.tsx` — encore en « petite note » plaque/topo/filets.
+3. Cartes héritées `RankingPreview` / `ProfileQuickAccess` / `GuidesTeaser` (feuille / plaque).

@@ -265,7 +265,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
       </section>
 
       {/* Tabs */}
-      <div className="sticky top-[var(--nav-h)] z-40 transition-[top] duration-300 border-b border-[var(--border)] bg-[var(--bg-canvas)]/90 backdrop-blur-xl">
+      <div className="sticky top-[var(--nav-h)] z-40 transition-[top] duration-300 border-b border-[var(--accent)]/15 bg-white/90 backdrop-blur-xl shadow-[0_8px_20px_-16px_rgba(79,70,229,0.55)]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div
             role="tablist"
@@ -294,8 +294,8 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 className={cn(
                   "whitespace-nowrap px-3.5 py-2.5 sm:px-5 sm:py-4 text-[13px] sm:text-sm font-medium border-b-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--accent)]",
                   activeTab === tab.id
-                    ? "border-[var(--accent)] text-[var(--accent)]"
-                    : "border-transparent text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+                    ? "border-[var(--accent-pink)] bg-[var(--band-indigo)] text-[var(--accent)]"
+                    : "border-transparent text-[var(--text-secondary)] hover:bg-[var(--band-lilac)] hover:text-[var(--text-primary)]"
                 )}
               >
                 {tab.label}
@@ -305,8 +305,10 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
         </div>
       </div>
 
-      {/* Content */}
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
+      {/* Content — painted as its own colour band (« Couleurs »). The two
+          full-width blocks of the overview panel below carry their own bands
+          (sky, pink), so the page reads as a sequence of distinct sections. */}
+      <div className="band band-indigo mx-auto max-w-7xl px-4 sm:px-6 py-10">
         
           <div
             id="city-panel-overview"
@@ -631,7 +633,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 an empty middle band on scroll. Now displayed as a balanced grid
                 so the page reads as one block on desktop and stacks cleanly
                 on mobile. */}
-            <div className="lg:col-span-3 min-w-0">
+            <div className="band band-sky lg:col-span-3 min-w-0 mt-4 py-10">
               <h2 className="font-display text-2xl text-[var(--text-primary)] mb-1">
                 {L("Données", "Data")} &amp; {L("analyse", "analysis")}
               </h2>
@@ -707,8 +709,16 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 right rail but inflated it past main column height, leaving an
                 empty middle band on scroll. Now displayed prominently for
                 discovery + better balance. */}
-            <div className="lg:col-span-3 min-w-0">
-              <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
+            <div
+              className={cn(
+                "band band-pink lg:col-span-3 min-w-0 -mt-6 py-10",
+                // Eat the content band's bottom padding so pink meets the next
+                // band — only once hydrated with the overview showing: without
+                // JS every panel is visible and the overlap would cover the next.
+                hydrated && activeTab === "overview" && "-mb-10",
+              )}
+            >
+              <h2 className="font-display text-2xl text-[var(--text-primary)] mb-4">
                 {L(`Explorer ${city.name} en détail`, `Explore ${city.name} in detail`)}
               </h2>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -1505,7 +1515,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
 
       {/* Discussions — moved up so the testimonial CTAs (#discussions anchor)
           land somewhere meaningful instead of scrolling to the very bottom. */}
-      <section className="border-t border-[var(--border)] py-10">
+      <section className="band band-aqua py-12">
         <div id="discussions" className="mx-auto max-w-5xl px-4 sm:px-6 scroll-mt-24">
           <CityDiscussionTabs citySlug={city.slug} cityName={city.name} locale={locale} />
           <div className="mt-4 max-w-sm">
@@ -1515,17 +1525,17 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
       </section>
 
       {/* FAQ accordion */}
-      <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-10">
+      <section className="band band-lilac py-12">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-6">
+          <h2 className="font-display text-2xl text-[var(--text-primary)] mb-6">
             {L("Questions fréquentes", "Frequently asked questions")} — {city.name}
           </h2>
           <div className="space-y-2">
             {faq.map((item, i) => (
               // Native <details>: every answer is in the static HTML, so
               // crawlers and no-JS readers see the prose, not just JSON-LD.
-              <details key={i} className="group rounded-xl border border-[var(--border)] overflow-hidden">
-                <summary className="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden bg-[var(--bg-canvas)] hover:bg-[var(--bg-elevated)] transition-colors">
+              <details key={i} className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] overflow-hidden shadow-[0_6px_18px_-12px_rgba(79,70,229,0.35)]">
+                <summary className="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden bg-[var(--bg-surface)] hover:bg-[var(--band-indigo)] group-open:border-l-[3px] group-open:border-[var(--accent)] transition-colors">
                   <span className="text-sm font-medium text-[var(--text-primary)]">{item.q}</span>
                   <ChevronDown className="h-4 w-4 flex-shrink-0 text-[var(--text-tertiary)] transition-transform group-open:rotate-180" />
                 </summary>
@@ -1540,7 +1550,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
 
       {/* Compare bar */}
       {data.compareSuggestions.length > 0 && (
-        <div className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-4">
+        <div className="band band-white py-5">
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
             <div className="flex flex-wrap items-center gap-3">
               <span className="text-xs text-[var(--text-secondary)] flex-shrink-0">{L(`Comparer ${city.name} avec :`, `Compare ${city.name} with:`)}</span>
@@ -1548,7 +1558,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 <a
                   key={c.slug}
                   href={`/${locale === "en" ? "compare" : "comparer"}/${c.comparePair}`}
-                  className="rounded-full border border-[var(--border)] px-3 py-1 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
+                  className="rounded-full border border-[var(--accent)]/25 bg-[var(--band-indigo)] px-3 py-1 text-xs font-medium text-[var(--accent)] hover:bg-[var(--accent)] hover:text-white transition-colors"
                 >
                   {c.name}
                 </a>

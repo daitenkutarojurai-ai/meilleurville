@@ -150,7 +150,7 @@ export function CityNewsSection({
   const cols = newsColumnDepth(entries);
 
   return (
-    <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-12">
+    <section className="band band-indigo py-12">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-1">
           {L("Données publiques", "Public records")}

@@ -51,7 +51,7 @@ export function CityGuidesList({
   };
 
   return (
-    <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-12">
+    <section className="band band-sky py-12">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="flex items-baseline justify-between mb-6">
           <div>
