@@ -23,7 +23,8 @@ export default function EnRankingsIndex() {
     <main id="main-content" className="min-h-screen">
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-20 pb-10 text-center">
+      <section className="bg-aurora px-4 sm:px-6 pt-20 pb-12 text-center">
+        <div className="mx-auto max-w-5xl">
         <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
           {t("rankings.title", "en")}
         </h1>
@@ -37,9 +38,11 @@ export default function EnRankingsIndex() {
           </Link>
           , best and worst side by side.
         </p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 sm:px-6 py-6">
+      <section className="band band-indigo px-4 sm:px-6 py-12">
+        <div className="mx-auto max-w-6xl">
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {all.map((r, idx) => {
             const en = rankingEn(r.slug, r);
@@ -50,16 +53,16 @@ export default function EnRankingsIndex() {
               <li key={r.slug}>
                 <Link
                   href={`/rankings/${r.slug}`}
-                  className="group block h-full rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 transition-colors hover:border-[var(--accent)]/50"
+                  className="group block h-full rounded-2xl bg-white p-5 ring-1 ring-[var(--accent)]/12 shadow-[0_10px_24px_-16px_rgba(79,70,229,0.55)] transition-all hover:-translate-y-0.5 hover:shadow-[0_16px_30px_-16px_rgba(219,39,119,0.55)]"
                 >
-                  {/* One survey-map sheet per ranking: numbered enamel plaque +
-                      mono sheet label, ink title. No category emoji. */}
+                  {/* « Couleurs »: numbered gradient tile rotated by index,
+                      mono label, title. No category emoji. */}
                   <div className="flex items-center gap-3">
-                    <span className="plaque plaque-small shrink-0 font-mono-data" aria-hidden>
+                    <span className={`grad-head-${idx % 6} flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-mono-data text-sm font-bold`} aria-hidden>
                       {sheetNo}
                     </span>
                     <div className="min-w-0">
-                      <p className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+                      <p className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--accent-hover)]">
                         Ranking {sheetNo} / {sheetTotal}
                       </p>
                       <h2 className="text-lg font-bold leading-snug text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -75,6 +78,7 @@ export default function EnRankingsIndex() {
             );
           })}
         </ul>
+        </div>
       </section>
 
       <Footer />

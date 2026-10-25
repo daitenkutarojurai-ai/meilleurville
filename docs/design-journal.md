@@ -730,3 +730,32 @@ rose #DB2777 sur blanc 4,6:1, indigo #4338CA sur `--band-indigo` 6,5:1. `npm run
 1. Cartes internes de la fiche ville (`Card` « card-sheen ») : en-têtes `.grad-head-*` ?
 2. Gabarits de sous-pages ville (ex. `climat`) : découper le gros bloc en bandes.
 3. Hub `/classements` : cartes de classement, vestiges plaque / pointillés (`grep -rn "border-dashed\|plaque\|topo-bg" app components`).
+
+## 2026-10-25 ~23:00 UTC — hub `/classements` (FR) + `/rankings` (EN) + `ClassementsJumpNav` — « Couleurs »
+
+**Surface** : l'index des 19 classements, un des hubs les plus visités. Avant : 19 sections posées sur le fond
+de page sans bande, tuiles d'icône `.plaque`, filet gris de « feuille », sur-titre « 19 feuilles » ; EN en
+cartes à plaque numérotée.
+
+**Changé**
+- FR : hero en `.bg-aurora` + pastille « Édition 2026 · 19 classements » ; chaque catégorie devient une
+  bande pleine largeur en rotation `band-indigo → pink → sky → aqua → lilac` (jamais deux voisines
+  identiques), tuile d'icône dégradée `.grad-head-N` (rotation par index), libellé « Classement NN / 19 » en
+  pastille blanche, « N°1 ville » en pilule rose, « Classement complet » en pilule `.btn-couleurs`
+  (desktop et mobile). Filet de feuille retiré.
+- Barre de raccourcis sticky : verre teinté `nav-couleurs-scrolled`, chip active en `.btn-couleurs`,
+  chips blanches. ⚠️ Fond et box-shadow neutralisés **en style inline** : la règle `:where(main > section)`
+  est hors `@layer`, donc elle bat les utilitaires Tailwind (`bg-transparent`, `shadow-none`) malgré sa
+  spécificité nulle — sans ça la section sticky peignait une bande ciel pleine largeur par-dessus le contenu.
+- EN : hero aurora, grille sur `band-indigo`, cartes blanches à ombre indigo (survol rose), numéro en tuile
+  `.grad-head-N` au lieu de la plaque. Copie et données inchangées.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` 0 erreur sur les
+3 fichiers. Captures `next dev` + playwright `/classements` 1440 et 390 px, `scrollWidth` = viewport.
+EN non capturé (route `[locale]` en dev). L'avertissement d'hydratation vu en dev vient du script de capture
+qui force l'opacité des `ScrollReveal`, pas du code. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages de détail `app/classements/[slug]` + `app/[locale]/rankings/[slug]` (plaques encore présentes).
+2. Hubs Red Flags `app/red-flags/page.tsx` + `[locale]/red-flags` (plaque / topo-bg).
+3. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes.

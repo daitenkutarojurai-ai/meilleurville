@@ -51,7 +51,11 @@ function seedToCity(s: (typeof CITIES_SEED)[number]): City {
   };
 }
 
-// Same order as RANKING_META: the « Feuille NN / 19 » number shown here is
+// « Couleurs » (2026-10-25): one colour band per category, rotated so two
+// neighbours never share a band; icon tiles use the vivid .grad-head-N headers.
+const BANDS = ["band-indigo", "band-pink", "band-sky", "band-aqua", "band-lilac"] as const;
+
+// Same order as RANKING_META: the « Classement NN » number shown here is
 // recomputed from RANKING_META on each /classements/[slug] hero.
 const CATEGORIES = [
   { slug: "teletravail", label: "Télétravail", icon: Laptop, desc: "Fibre, coworking, café culture, qualité de vie", scoreKey: "remoteWork" },
@@ -89,10 +93,10 @@ export default function ClassementsPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative pt-20 pb-12">
+      <section className="relative pt-20 pb-12 bg-aurora">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
-          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            Édition 2026 · {CATEGORIES.length} feuilles
+          <p className="inline-flex items-center gap-2 rounded-full bg-white/80 ring-1 ring-[var(--accent)]/20 px-3 py-1 text-xs uppercase tracking-widest text-[var(--accent-hover)] font-semibold mb-4 shadow-sm">
+            Édition 2026 · {CATEGORIES.length} classements
           </p>
           <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
             Les <span className="font-display gradient-text-anim italic">classements</span>{" "}<br className="hidden sm:block" />
@@ -115,7 +119,7 @@ export default function ClassementsPage() {
       />
 
       {/* Sections */}
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 pb-16 space-y-20">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
         {CATEGORIES.map((cat, idx) => {
           // Custom-compute rankings (climat, logement, bord-de-mer) can't be
           // previewed by raw axis sort — fall back to the canonical ranker
@@ -135,23 +139,29 @@ export default function ClassementsPage() {
 
           return (
             <ScrollReveal key={cat.slug}>
-              <section id={`cat-${cat.slug}`} className="scroll-mt-32">
-                {/* Section header — one survey-map sheet per category: numbered
-                    sheet label, enamel-plaque icon tile, ink title. No per-category
-                    colour: greens, amber, violet… are reserved for score tiers. */}
-                <div className="flex flex-wrap items-center gap-4 mb-6 border-b border-[var(--border)] pb-4">
-                  <div className="plaque !p-0 h-12 w-12 justify-center shrink-0" aria-hidden>
+              <section
+                id={`cat-${cat.slug}`}
+                className={`band ${BANDS[idx % BANDS.length]} scroll-mt-32 py-12 sm:py-14`}
+              >
+                {/* Section header — vivid gradient icon tile (rotated by index),
+                    numbered pill, title. The band carries the category colour;
+                    greens, amber, violet… stay reserved for score tiers. */}
+                <div className="flex flex-wrap items-center gap-4 mb-6">
+                  <div
+                    className={`grad-head-${idx % 6} flex h-12 w-12 items-center justify-center shrink-0 rounded-2xl shadow-[0_8px_20px_-10px_rgba(79,70,229,0.8)]`}
+                    aria-hidden
+                  >
                     <cat.icon className="h-6 w-6" strokeWidth={1.75} />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+                    <p className="mb-1 inline-block rounded-full bg-white/80 px-2 py-0.5 font-mono-data text-[11px] uppercase tracking-[0.14em] text-[var(--accent-hover)] ring-1 ring-[var(--accent)]/15">
                       Classement {String(idx + 1).padStart(2, "0")} / {String(CATEGORIES.length).padStart(2, "0")}
                     </p>
                     <div className="flex items-center gap-2 flex-wrap">
                       <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)]">
                         Top villes — {cat.label}
                       </h2>
-                      <span className="rounded-full bg-[var(--accent-soft)] text-[var(--accent)] text-[10px] font-bold uppercase tracking-wider px-2 py-0.5">
+                      <span className="rounded-full bg-white text-[var(--accent-pink)] ring-1 ring-[var(--accent-pink)]/25 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5">
                         N°1 {winner.name}
                       </span>
                     </div>
@@ -159,7 +169,7 @@ export default function ClassementsPage() {
                   </div>
                   <Link
                     href={`/classements/${cat.slug}`}
-                    className="hidden sm:inline-flex items-center gap-1 text-sm font-semibold text-[var(--accent)] hover:underline"
+                    className="hidden sm:inline-flex items-center gap-1 rounded-full btn-couleurs px-4 py-2 text-sm font-semibold"
                   >
                     Classement complet
                     <ArrowRight className="h-4 w-4" />
@@ -176,7 +186,7 @@ export default function ClassementsPage() {
                 <div className="mt-3 sm:hidden text-right">
                   <Link
                     href={`/classements/${cat.slug}`}
-                    className="text-sm font-semibold text-[var(--accent)] hover:underline"
+                    className="inline-flex rounded-full btn-couleurs px-4 py-2 text-sm font-semibold"
                   >
                     Voir le classement complet →
                   </Link>
@@ -187,7 +197,7 @@ export default function ClassementsPage() {
         })}
       </div>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-10">
 
         <FeedbackWidget />
 

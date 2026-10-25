@@ -53,12 +53,12 @@ export function ClassementsJumpNav({ categories }: { categories: ReadonlyArray<C
 
   return (
     <section
-      className="relative pb-8 sticky z-30"
-      style={{ top: navHeight }}
+      className="relative py-4 sticky z-30"
+      style={{ top: navHeight, background: "transparent", boxShadow: "none" }}
       aria-label="Filtrer par catégorie"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="flex flex-nowrap gap-2 overflow-x-auto sm:flex-wrap sm:justify-center sm:overflow-visible rounded-xl border border-[var(--border)] bg-[var(--bg-surface)]/95 p-3 shadow-[0_6px_18px_-10px_rgba(24,33,47,0.35)]">
+        <div className="flex flex-nowrap gap-2 overflow-x-auto sm:flex-wrap sm:justify-center sm:overflow-visible rounded-2xl nav-couleurs-scrolled backdrop-blur ring-1 ring-[var(--accent)]/15 p-3 shadow-[0_10px_24px_-14px_rgba(79,70,229,0.55)]">
           {categories.map((cat) => {
             const isActive = active === cat.slug;
             return (
@@ -70,8 +70,8 @@ export function ClassementsJumpNav({ categories }: { categories: ReadonlyArray<C
                 className={cn(
                   "inline-flex shrink-0 whitespace-nowrap items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
                   isActive
-                    ? "bg-[var(--accent)] text-white border-[var(--accent)] shadow-sm"
-                    : "bg-[var(--bg-canvas)] hover:bg-[var(--bg-elevated)] border-[var(--border)] hover:border-[var(--accent)]/40 text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+                    ? "btn-couleurs border-transparent"
+                    : "bg-white/85 hover:bg-white border-[var(--accent)]/15 hover:border-[var(--accent)]/40 text-[var(--text-secondary)] hover:text-[var(--accent-hover)]"
                 )}
               >
                 {cat.label}
