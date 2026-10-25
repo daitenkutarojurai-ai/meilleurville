@@ -295,6 +295,13 @@ export default async function VilleTeletravailPage({ params }: Props) {
               </Badge>
             </Link>
           )}
+          {metroHub && (
+            <Link href="/pour-qui/couples-a-deux-carrieres">
+              <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+                💼 Si le conjoint doit aussi trouver un poste sur place
+              </Badge>
+            </Link>
+          )}
           {border && (
             <Link href="/pour-qui/travailleurs-frontaliers">
               <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">

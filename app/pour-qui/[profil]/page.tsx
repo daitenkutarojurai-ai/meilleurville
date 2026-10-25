@@ -867,6 +867,34 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {["navetteurs-hybrides", "teletravailleurs", "jeunes-actifs"].includes(
+          profile.slug,
+        ) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le profil voisin — quand les deux doivent trouver un emploi
+            </h3>
+            <Link href="/pour-qui/couples-a-deux-carrieres" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>💼</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes où deux actifs trouvent chacun leur poste
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Ce classement-ci suppose qu&apos;un seul emploi est à trouver sur
+                      place. Quand le conjoint doit lui aussi travailler, le bassin
+                      d&apos;emploi redevient le critère principal, croisé avec le
+                      télétravail et le loyer.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Air-access counterpart — visible on the three profiles that the
             target's own intro names to say where it stops : « retour
             d'expatriation » traite du retour définitif et de ses démarches,
