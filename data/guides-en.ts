@@ -22776,8 +22776,8 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 9,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-08-15",
-    intro: "Villeurbanne scores 6.8/10 on the site's single-parent composite, 21st of the 363 French communes above 20,000 inhabitants that we rank. The breakdown is deliberately lopsided: transport 9.0/10, the top of the scale, schools 7.7/10, safety 5.7/10, but cost of living only 5.4/10 (source: our city profile). The city solves the mobility problem brilliantly when there is nobody else to collect the child, and it charges for it. A T3 (living room plus two bedrooms, the standard French family flat) averages €1,150/month (source: our rent estimate), which puts the estimated minimum net income at €3,500/month under the one-third rule applied by our single-parent calculator. That is the highest entry threshold of the nine cities in this batch, and it is the first number to look at.",
+    updatedAt: "2026-10-25",
+    intro: "Villeurbanne scores 6.8/10 on the site's single-parent composite, joint 16th of the 416 French communes above 20,000 inhabitants that we rank. The breakdown is deliberately lopsided: transport 9.0/10, the top of the scale, schools 7.7/10, safety 5.7/10, but cost of living only 5.4/10 (source: our city profile). The city solves the mobility problem brilliantly when there is nobody else to collect the child, and it charges for it. A T3 (living room plus two bedrooms, the standard French family flat) averages €1,150/month (source: our rent estimate), which puts the estimated minimum net income at €3,500/month under the one-third rule applied by our single-parent calculator. That is the highest entry threshold of the nine cities in this batch, and it is the first number to look at.",
     sections: [
       {
         heading: "What the composite measures, and where Villeurbanne breaks",
@@ -22816,8 +22816,8 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-08-15",
-    intro: "Besançon scores 6.6/10 on the single-parent composite, 28th of the 363 communes above 20,000 inhabitants. It is a rare profile because it has no hole in it: cost 6.4/10, transport 7.0/10, schools 7.4/10, safety 5.7/10 (source: our city profile). None of the four drops below 5.7, which is exactly what you want when you are the only one carrying everything and a single weak point is enough to derail a week. The average T3 is €900 and the purchase price €2,300 per square metre (source: our rent estimate), setting the estimated minimum net income at €2,750/month. That is €750 less than Villeurbanne, in exchange for three points of transport.",
+    updatedAt: "2026-10-25",
+    intro: "Besançon scores 6.6/10 on the single-parent composite, joint 27th of the 416 communes above 20,000 inhabitants. It is a rare profile because it has no hole in it: cost 6.4/10, transport 7.0/10, schools 7.4/10, safety 5.7/10 (source: our city profile). None of the four drops below 5.7, which is exactly what you want when you are the only one carrying everything and a single weak point is enough to derail a week. The average T3 is €900 and the purchase price €2,300 per square metre (source: our rent estimate), setting the estimated minimum net income at €2,750/month. That is €750 less than Villeurbanne, in exchange for three points of transport.",
     sections: [
       {
         heading: "A profile with no hole, which is rarer than it sounds",
@@ -22856,8 +22856,8 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-08-15",
-    intro: "Caen scores 6.6/10 on the single-parent composite, 29th of 363 ranked communes. Its main argument is one figure: 5.9/10 on safety, the best of the nine cities in this batch after Limoges, and the best among those above 100,000 inhabitants (source: our city profile). The rest follows without a weak spot: schools 7.4/10, transport 7.0/10, cost of living 6.2/10. The average T3 is €930 and the purchase price €2,500 per square metre (source: our rent estimate), putting the estimated minimum net income at €2,800/month. Fifteen kilometres from the sea, with a steel-rail tram since 2019 and a teaching hospital anchoring local employment, it is one of the best-balanced files in the ranking.",
+    updatedAt: "2026-10-25",
+    intro: "Caen scores 6.6/10 on the single-parent composite, joint 27th of 416 ranked communes. Its main argument is one figure: 5.9/10 on safety, the best of the nine cities in this batch after Limoges, and the best among those above 100,000 inhabitants (source: our city profile). The rest follows without a weak spot: schools 7.4/10, transport 7.0/10, cost of living 6.2/10. The average T3 is €930 and the purchase price €2,500 per square metre (source: our rent estimate), putting the estimated minimum net income at €2,800/month. Fifteen kilometres from the sea, with a steel-rail tram since 2019 and a teaching hospital anchoring local employment, it is one of the best-balanced files in the ranking.",
     sections: [
       {
         heading: "Why safety weighs so heavily in this calculation",
@@ -22936,8 +22936,8 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-08-15",
-    intro: "Tours scores 6.5/10 on the single-parent composite, 49th of the 363 communes above 20,000 inhabitants ranked. Its strength is unambiguous: 7.9/10 on schools, the best of the nine cities here and one of the highest in France (source: our city profile). The rest holds, with transport 7.0/10 and safety 5.5/10, but cost of living slips to 5.9/10. The average T3 is €940 and the purchase price €2,700 per square metre (source: our rent estimate), setting the estimated minimum net income at €2,850/month. One hour from Paris by high-speed train, with a tram since 2013, Tours is the most complete « well-equipped mid-size city that is not cut off from the capital » in the batch.",
+    updatedAt: "2026-10-25",
+    intro: "Tours scores 6.5/10 on the single-parent composite, joint 37th of the 416 communes above 20,000 inhabitants ranked. Its strength is unambiguous: 7.9/10 on schools, the best of the nine cities here and one of the highest in France (source: our city profile). The rest holds, with transport 7.0/10 and safety 5.5/10, but cost of living slips to 5.9/10. The average T3 is €940 and the purchase price €2,700 per square metre (source: our rent estimate), setting the estimated minimum net income at €2,850/month. One hour from Paris by high-speed train, with a tram since 2013, Tours is the most complete « well-equipped mid-size city that is not cut off from the capital » in the batch.",
     sections: [
       {
         heading: "7.9/10 on schools: what it is worth in practice",
@@ -22976,8 +22976,8 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-08-15",
-    intro: "Limoges scores 6.4/10 on the single-parent composite, 55th of the 363 ranked communes. Its distinguishing feature is a crossing that most affordable cities fail: cost of living 7.1/10 and safety 6.1/10 (source: our city profile). It is the only one of the nine cities in this batch where both clear 6, and its safety is the best of the nine. The average T3 is €800 and the purchase price €1,600 per square metre, the second-lowest in the batch (source: our rent estimate); the estimated minimum net income falls to €2,400/month. What Limoges does not supply is transport (6.1/10) and schools (6.2/10), and that is where the trade-off sits.",
+    updatedAt: "2026-10-25",
+    intro: "Limoges scores 6.4/10 on the single-parent composite, joint 51st of the 416 ranked communes. Its distinguishing feature is a crossing that most affordable cities fail: cost of living 7.1/10 and safety 6.1/10 (source: our city profile). It is the only one of the nine cities in this batch where both clear 6, and its safety is the best of the nine. The average T3 is €800 and the purchase price €1,600 per square metre, the second-lowest in the batch (source: our rent estimate); the estimated minimum net income falls to €2,400/month. What Limoges does not supply is transport (6.1/10) and schools (6.2/10), and that is where the trade-off sits.",
     sections: [
       {
         heading: "The cost-safety crossing, and why it is rare",
@@ -23056,8 +23056,8 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-08-15",
-    intro: "Saint-Étienne scores 6.0/10 on the single-parent composite, 116th of the 363 communes above 20,000 inhabitants ranked. The file is frontally asymmetric: cost of living 7.1/10, the best of the batch level with Limoges, and safety 4.3/10, the lowest of the nine (source: our city profile). Between them, transport 6.7/10 and schools 5.8/10. The average T3 is €770 and a square metre to buy €1,500, both the lowest prices in the batch (source: our rent estimate); the estimated minimum net income drops to €2,350/month. This is a real choice, not an obvious one, and it deserves to be set out in figures rather than impressions.",
+    updatedAt: "2026-10-25",
+    intro: "Saint-Étienne scores 6.0/10 on the single-parent composite, joint 106th of the 416 communes above 20,000 inhabitants ranked. The file is frontally asymmetric: cost of living 7.1/10, the best of the batch level with Limoges, and safety 4.3/10, the lowest of the nine (source: our city profile). Between them, transport 6.7/10 and schools 5.8/10. The average T3 is €770 and a square metre to buy €1,500, both the lowest prices in the batch (source: our rent estimate); the estimated minimum net income drops to €2,350/month. This is a real choice, not an obvious one, and it deserves to be set out in figures rather than impressions.",
     sections: [
       {
         heading: "The rent gap, in euros and over a year",
@@ -29093,14 +29093,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single Parent in Amiens (2026): Good Schools, Low Rent, Safety at 4.5",
     metaTitle: "Single Parent in Amiens 2026: T3 €900, Schools 6.6/10",
     metaDesc:
-      "Fit 5.9/10, 119th of 363. T3 at €900 and schools 6.6/10, so €136 per point. But safety 4.5/10: the trade-off on a single income.",
+      "Fit 5.9/10, joint 118th of 416. T3 at €900 and schools 6.6/10, so €136 per point. But safety 4.5/10: the trade-off on a single income.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-17",
-    updatedAt: "2026-08-17",
+    updatedAt: "2026-10-25",
     intro:
-      "Amiens has 134,057 inhabitants and comes out at 5.9/10 on the single-parent composite, 119th of the 363 communes above 20,000 inhabitants, above the ranking's median of 5.5/10. The detail is more contrasted than the result suggests: cost of living 6.4/10 and schools 6.6/10 pull upward, transport 6.1/10 follows, and safety 4.5/10 weighs heavily since that axis alone carries a quarter of the composite (source: our city profile). The average T3 is €900 and a square metre to buy €2,200 (source: our rent estimate), for an estimated minimum net income of €2,750/month. The Amiens file has a useful particularity: it is the best school score in this batch after Annecy and Poitiers, obtained at a mid-size-city housing price. What remains is what the other side of the balance costs.",
+      "Amiens has 134,057 inhabitants and comes out at 5.9/10 on the single-parent composite, joint 118th of the 416 communes above 20,000 inhabitants, above the ranking's median of 5.4/10. The detail is more contrasted than the result suggests: cost of living 6.4/10 and schools 6.6/10 pull upward, transport 6.1/10 follows, and safety 4.5/10 weighs heavily since that axis alone carries a quarter of the composite (source: our city profile). The average T3 is €900 and a square metre to buy €2,200 (source: our rent estimate), for an estimated minimum net income of €2,750/month. The Amiens file has a useful particularity: it is the best school score in this batch after Annecy and Poitiers, obtained at a mid-size-city housing price. What remains is what the other side of the balance costs.",
     sections: [
       {
         heading: "Two axes carrying, one costing",
@@ -29136,14 +29136,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single Parent in Annecy (2026): the Best File Here, and the Least Reachable",
     metaTitle: "Single Parent in Annecy 2026: €4,150 Net for a T3",
     metaDesc:
-      "Fit 6.2/10, 80th of 363. Schools 8.7/10 and safety 7.3/10, the best here. But a T3 at €1,450: the entry floor is €4,150 net a month.",
+      "Fit 6.2/10, joint 80th of 416. Schools 8.7/10 and safety 7.3/10, the best here. But a T3 at €1,450: the entry floor is €4,150 net a month.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-17",
-    updatedAt: "2026-08-17",
+    updatedAt: "2026-10-25",
     intro:
-      "Annecy has 131,282 inhabitants and comes out at 6.2/10 on the single-parent composite, 80th of the 363 communes above 20,000 inhabitants, well above the ranking's median of 5.5/10. The detail is the most lopsided in this batch: schools 8.7/10 and safety 7.3/10, the two best values of the ten cities here, transport 6.4/10, and cost of living 3.1/10, the worst (source: our city profile). The average T3 is €1,450 and a square metre to buy €5,500 (source: our rent estimate), for an estimated minimum net income of €4,150/month. This guide exists mainly to put that figure on the table. Annecy is the demonstration that a good composite score and a file you can finance on one salary are two different questions, and it is better to know that before crossing a border for a viewing.",
+      "Annecy has 131,282 inhabitants and comes out at 6.2/10 on the single-parent composite, joint 80th of the 416 communes above 20,000 inhabitants, well above the ranking's median of 5.4/10. The detail is the most lopsided in this batch: schools 8.7/10 and safety 7.3/10, the two best values of the ten cities here, transport 6.4/10, and cost of living 3.1/10, the worst (source: our city profile). The average T3 is €1,450 and a square metre to buy €5,500 (source: our rent estimate), for an estimated minimum net income of €4,150/month. This guide exists mainly to put that figure on the table. Annecy is the demonstration that a good composite score and a file you can finance on one salary are two different questions, and it is better to know that before crossing a border for a viewing.",
     sections: [
       {
         heading: "A composite that is right and not enough",
@@ -29265,14 +29265,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single Parent in Mulhouse (2026): the Cheapest Housing Here, and Why",
     metaTitle: "Single Parent in Mulhouse 2026: T3 €780, Buy €1,700/m²",
     metaDesc:
-      "Fit 5.9/10, 126th of 363. T3 at €780 and buying at €1,700 per square metre, the lowest here. Transport 7.0/10, safety 4.5/10.",
+      "Fit 5.9/10, joint 118th of 416. T3 at €780 and buying at €1,700 per square metre, the lowest here. Transport 7.0/10, safety 4.5/10.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-17",
-    updatedAt: "2026-08-17",
+    updatedAt: "2026-10-25",
     intro:
-      "Mulhouse has 108,000 inhabitants and scores 5.9/10 on the single-parent composite, 126th of the 363 communes above 20,000 inhabitants, above the ranking's median of 5.5/10. The breakdown: transport 7.0/10, the best value of the ten cities in this batch, cost of living 6.4/10, schools 5.8/10, safety 4.5/10 (source: our city profile). The average T3 is €780 and a square metre to buy €1,700 (source: our rent estimate), the two lowest amounts in this whole batch, for an estimated minimum net income of €2,350/month. A T3 under €800 in a city of more than 100,000 people with a tram is a rare combination, and it deserves an explanation of both what it allows and what it covers.",
+      "Mulhouse has 108,000 inhabitants and scores 5.9/10 on the single-parent composite, joint 118th of the 416 communes above 20,000 inhabitants, above the ranking's median of 5.4/10. The breakdown: transport 7.0/10, the best value of the ten cities in this batch, cost of living 6.4/10, schools 5.8/10, safety 4.5/10 (source: our city profile). The average T3 is €780 and a square metre to buy €1,700 (source: our rent estimate), the two lowest amounts in this whole batch, for an estimated minimum net income of €2,350/month. A T3 under €800 in a city of more than 100,000 people with a tram is a rare combination, and it deserves an explanation of both what it allows and what it covers.",
     sections: [
       {
         heading: "The best transport score in the batch",
@@ -29351,14 +29351,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single Parent in Dunkirk (2026): Free Buses and the Lowest Rent Here",
     metaTitle: "Single Parent in Dunkirk 2026: T3 €750, Free Buses",
     metaDesc:
-      "Fit 5.7/10, 158th of 363. T3 at €750 and a €2,250 entry floor, the lowest here. Buses free since 2018, safety 4.5/10.",
+      "Fit 5.7/10, joint 156th of 416. T3 at €750 and a €2,250 entry floor, the lowest here. Buses free since 2018, safety 4.5/10.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-17",
-    updatedAt: "2026-08-17",
+    updatedAt: "2026-10-25",
     intro:
-      "Dunkerque, which English speakers usually call Dunkirk, has 90,000 inhabitants and scores 5.7/10 on the single-parent composite, 158th of the 363 communes above 20,000 inhabitants, just above the ranking's median of 5.5/10. The breakdown: cost of living 6.4/10, transport 6.1/10, schools 5.8/10, safety 4.5/10 (source: our city profile). The average T3 is €750 and a square metre to buy €1,800 (source: our rent estimate), for an estimated minimum net income of €2,250/month, the lowest entry floor of the ten cities in this batch. To that figure add something that appears in none of our axes and yet weighs heavily on a one-income budget: the buses across the urban area have been free for everyone since 2018. Here is what the whole adds up to.",
+      "Dunkerque, which English speakers usually call Dunkirk, has 90,000 inhabitants and scores 5.7/10 on the single-parent composite, joint 156th of the 416 communes above 20,000 inhabitants, just above the ranking's median of 5.4/10. The breakdown: cost of living 6.4/10, transport 6.1/10, schools 5.8/10, safety 4.5/10 (source: our city profile). The average T3 is €750 and a square metre to buy €1,800 (source: our rent estimate), for an estimated minimum net income of €2,250/month, the lowest entry floor of the ten cities in this batch. To that figure add something that appears in none of our axes and yet weighs heavily on a one-income budget: the buses across the urban area have been free for everyone since 2018. Here is what the whole adds up to.",
     sections: [
       {
         heading: "€2,250 net: the lowest entry floor in the batch",
@@ -29603,14 +29603,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Béziers (2026): €2,200 is enough, and that is the only good news",
     metaTitle: "Single Parent in Béziers 2026: €2,200, Last in Region",
     metaDesc:
-      "Fit 4.7/10, 294th of 363 and 22nd of 22 in Occitanie. Entry floor €2,200, the lowest here. Schools 3.6/10, safety 3.5/10.",
+      "Fit 4.7/10, joint 333rd of 416 and 22nd of 22 in Occitanie. Entry floor €2,200, the lowest here. Schools 3.6/10, safety 3.5/10.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-25",
-    updatedAt: "2026-08-25",
+    updatedAt: "2026-10-25",
     intro:
-      "Béziers is the cheapest city in this batch and the worst-ranked in its region: 4.7/10 on the single-parent composite, 294th of the 363 communes above 20,000 inhabitants, and 22nd of 22 in Occitanie. The two facts are connected and there is no reason to separate them. The breakdown: cost of living 6.4/10, transport 4.9/10, schools 3.6/10, safety 3.5/10 (source: our city profile). The two weakest axes are exactly the two the composite weights most heavily together — schools and safety are worth 0.25 each, half the calculation. The average T3 is €720 and a square metre to buy €1,500 (source: our rent estimate), for an estimated minimum net income of €2,200 a month: the lowest entry floor of the nine cities in this batch. The commune counted 80,815 inhabitants at the 2022 census, more than 9,000 up on 2011 (source: INSEE census), the second-fastest growth here. Both halves of that picture are real, and this guide will not pretend otherwise.",
+      "Béziers is the cheapest city in this batch and the worst-ranked in its region: 4.7/10 on the single-parent composite, joint 333rd of the 416 communes above 20,000 inhabitants, and 22nd of 22 in Occitanie. The two facts are connected and there is no reason to separate them. The breakdown: cost of living 6.4/10, transport 4.9/10, schools 3.6/10, safety 3.5/10 (source: our city profile). The two weakest axes are exactly the two the composite weights most heavily together — schools and safety are worth 0.25 each, half the calculation. The average T3 is €720 and a square metre to buy €1,500 (source: our rent estimate), for an estimated minimum net income of €2,200 a month: the lowest entry floor of the nine cities in this batch. The commune counted 80,815 inhabitants at the 2022 census, more than 9,000 up on 2011 (source: INSEE census), the second-fastest growth here. Both halves of that picture are real, and this guide will not pretend otherwise.",
     sections: [
       {
         heading: "€2,200 net: the lowest entry price in this batch",

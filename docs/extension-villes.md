@@ -2720,3 +2720,55 @@ lancé.
 Pontarlier « comparable deep-rural prefecture such as Tulle or Saint-Dié » (Saint-Dié est une sous-préfecture).
 
 **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-25 — aucun lot : rangs parent solo « sur les 363 » remesurés sur 416 communes (11 paires FR/EN)
+
+`seed-coverage` au départ : 593 villes, rien en attente du runner hors Carquefou (photo) et les manques permanents →
+lot autorisé, mais **aucune décision du propriétaire au § 0** (`git log` depuis le 22/10 hors `[scheduled-agent]` :
+passes `[local-runner]`, design « Couleurs », sport, studying-in ; rien sur le seed ni `score-calibration.ts`). Aucune
+ville ajoutée.
+
+*Livrable* : la série parent solo (143 guides FR `parent-solo-a-*`, 143 EN `single-parent-in-*`) cite **599 fois** un
+corpus de « 363 communes de plus de 20 000 habitants ». Le classement que rend `/parent-solo` (et les sous-pages
+ville) filtre `population ≥ 20 000` sur le seed courant : **416 communes** depuis l'extension. Trois mesures cadrent
+l'ampleur : ① les villes d'extension notent **toutes 5,9 ou moins** au composite (Meudon 5,9 en tête), donc les rangs
+des villes à 6,0 et plus ne bougent pas, seul leur dénominateur change ; ② la **médiane du composite passe de 5,5 à
+5,4** ; ③ les médianes par axe bougent aussi (coût 5,4 → 5,2, écoles 5,8 → 5,5, sécurité 5,1 → 5,0, transports 6,4
+inchangé), donc toute phrase « au-dessus de la médiane de l'axe » est à revoir.
+
+**Défaut trouvé au passage, plus grave que le dénominateur** : les intros EN publiaient une **position à l'intérieur
+d'un palier d'ex æquo** comme un rang — Villeurbanne « 21st » alors que six communes partagent 6,8 (palier qui commence
+au rang 16), Tours « 49th » dans un palier 37-50, Saint-Étienne « 116th » dans un palier 106-117. C'est l'ordre
+d'insertion du seed, ce que la convention de `lib/owner-rankings.ts` interdit ; les jumelles FR écrivaient déjà
+« dans un palier de N communes ». Réécrit « joint 16th », etc., rang = nombre de communes strictement devant + 1, comme
+`/parent-solo`.
+
+**Méthode** (`scripts/parent-solo-remeasure/`, en-tête du fichier) : projection des valeurs rendues (`rows.ts`), puis
+pour chaque occurrence de 363 : valeur la plus proche (« X,Y/10 » ou loyer), rang ou palier énoncé (chiffres, ordinaux
+et cardinaux FR/EN en toutes lettres), **vérification sur la cohorte d'origine** (rang ou taille de palier, sens
+croissant pour « la plus basse » / « lowest ») ; un chiffre qui ne se vérifie pas n'est pas touché. Un guide n'est
+réécrit que si **toutes** ses occurrences se résolvent et que ses mentions de médiane du classement sont qualitatives
+(« au-dessus », « sous », « nettement ») — celles-ci passent à 5,4 ; une médiane avec un écart chiffré (« un demi-point
+sous », « sept dixièmes au-dessus », « plus d'un point sous ») exclut le guide, l'écart changeant d'un dixième. Enfin
+**seules les paires dont les deux jumelles passent** sont écrites (règle hreflang : mêmes chiffres des deux côtés).
+
+**Réécrits (11 paires, 22 guides, `updatedAt` 2026-10-25)** : Amiens, Annecy, Besançon, Béziers, Caen, Dunkerque,
+Limoges, Mulhouse, Saint-Étienne, Tours, Villeurbanne. Paliers recalculés là où des villes d'extension les rejoignent
+(Amiens et Mulhouse 5,9 : 19 → 20 ; Dunkerque 5,7 : 13 → 18 ; Béziers 4,7 : 4 → 6, rang EN 294th → joint 333rd).
+
+**Reste** : **82 guides FR et 83 EN** citent encore 363 (301 + 271 occurrences). Motifs non résolus par le script,
+dans l'ordre de fréquence : écarts chiffrés à la médiane (115 guides), rangs par axe dont la valeur citée n'est pas
+celle de la ville du guide ou sans valeur dans la proposition (« Set against the 363 ranked communes… »), décomptes
+(« vingt communes seulement des 363 font moins bien », « only sixteen of the 363 are cheaper »), rapports loyer/écoles,
+titres (« 1re sur 363 », La Roche-sur-Yon — toujours 1re), comparaisons à deux villes (Pessac/Mérignac, Anglet/Bayonne).
+Les 14 guides entièrement résolubles dont la jumelle ne l'est pas attendent leur jumelle (Brest, Clermont-Ferrand,
+Orléans, La Rochelle, Colmar, Dole, Lannion, Saint-Dié, Albi, Cholet, Laon, Compiègne côté FR ; Mérignac, Muret côté EN).
+Deux affirmations fausses **antérieures à l'extension** relevées, non corrigées : section FR Tours « le meilleur score
+écoles du classement » (7,9 ; 22 communes d'origine au-dessus — sans doute « du batch ») ; Saint-Étienne « revenu minimum
+2 350 €, le plus bas du classement » (à remesurer).
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `search-index:check`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge). Sans décision :
+poursuivre la série parent solo, en commençant par les écarts chiffrés à la médiane (recalcul à la main, paire par paire).

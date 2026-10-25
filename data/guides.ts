@@ -51113,8 +51113,8 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 9,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-08-14",
-    intro: "Villeurbanne obtient 6,8/10 au composite parent solo du site, ce qui la place dans un palier de 6 communes sur les 363 de plus de 20 000 habitants que classe /parent-solo. Le détail est très déséquilibré : transports 9,0/10, le maximum de l'échelle, écoles 7,7/10, sécurité 5,7/10, mais coût de la vie 5,4/10 seulement (source : notre fiche ville). Autrement dit, la ville résout brillamment le problème de la mobilité quand personne d'autre ne peut aller chercher l'enfant, et le fait payer. Le T3 moyen est à 1 150 € (source : notre estimation des loyers), ce qui porte le revenu net minimum estimé à 3 500 € par mois selon la règle des 33 % appliquée par notre calculateur parent solo. C'est le seuil d'entrée le plus élevé de ce lot de neuf villes, et c'est le premier chiffre à regarder avant tout le reste.",
+    updatedAt: "2026-10-25",
+    intro: "Villeurbanne obtient 6,8/10 au composite parent solo du site, ce qui la place dans un palier de 6 communes sur les 416 de plus de 20 000 habitants que classe /parent-solo. Le détail est très déséquilibré : transports 9,0/10, le maximum de l'échelle, écoles 7,7/10, sécurité 5,7/10, mais coût de la vie 5,4/10 seulement (source : notre fiche ville). Autrement dit, la ville résout brillamment le problème de la mobilité quand personne d'autre ne peut aller chercher l'enfant, et le fait payer. Le T3 moyen est à 1 150 € (source : notre estimation des loyers), ce qui porte le revenu net minimum estimé à 3 500 € par mois selon la règle des 33 % appliquée par notre calculateur parent solo. C'est le seuil d'entrée le plus élevé de ce lot de neuf villes, et c'est le premier chiffre à regarder avant tout le reste.",
     sections: [
       {
         heading: "Ce que dit le calcul, et où il coince",
@@ -51160,8 +51160,8 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-08-14",
-    intro: "Besançon obtient 6,6/10 au composite parent solo et se classe dans un palier de 10 communes sur les 363 de plus de 20 000 habitants. C'est un profil rare parce qu'il n'a pas de trou : coût 6,4/10, transports 7,0/10, écoles 7,4/10, sécurité 5,7/10 (source : notre fiche ville). Aucun de ces quatre axes ne descend sous 5,7, ce qui est exactement ce qu'on cherche quand on est seul à tout porter, où un seul point faible suffit à faire dérailler une semaine. Le T3 moyen est à 900 € et l'achat à 2 300 € le mètre carré (source : notre estimation des loyers), ce qui fixe le revenu net minimum estimé à 2 750 € par mois. Soit 750 € de moins qu'à Villeurbanne pour trois points de transports en moins.",
+    updatedAt: "2026-10-25",
+    intro: "Besançon obtient 6,6/10 au composite parent solo et se classe dans un palier de 10 communes sur les 416 de plus de 20 000 habitants. C'est un profil rare parce qu'il n'a pas de trou : coût 6,4/10, transports 7,0/10, écoles 7,4/10, sécurité 5,7/10 (source : notre fiche ville). Aucun de ces quatre axes ne descend sous 5,7, ce qui est exactement ce qu'on cherche quand on est seul à tout porter, où un seul point faible suffit à faire dérailler une semaine. Le T3 moyen est à 900 € et l'achat à 2 300 € le mètre carré (source : notre estimation des loyers), ce qui fixe le revenu net minimum estimé à 2 750 € par mois. Soit 750 € de moins qu'à Villeurbanne pour trois points de transports en moins.",
     sections: [
       {
         heading: "Un profil sans trou, ce qui est plus rare qu'il n'y paraît",
@@ -51207,8 +51207,8 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-08-14",
-    intro: "Caen obtient 6,6/10 au composite parent solo, dans un palier de 10 communes sur 363 classées. Son argument principal tient en un chiffre : 5,9/10 en sécurité, le meilleur score des neuf villes de ce batch après Limoges, et le meilleur parmi celles qui dépassent 100 000 habitants (source : notre fiche ville). Le reste suit sans faiblesse : écoles 7,4/10, transports 7,0/10, coût de la vie 6,2/10. Le T3 moyen est à 930 € et l'achat à 2 500 € le mètre carré (source : notre estimation des loyers), ce qui place le revenu net minimum estimé à 2 800 € par mois. À quinze kilomètres de la mer, avec un tramway sur rail depuis 2019 et un CHU qui structure l'emploi, c'est un des dossiers les plus équilibrés du classement.",
+    updatedAt: "2026-10-25",
+    intro: "Caen obtient 6,6/10 au composite parent solo, dans un palier de 10 communes sur 416 classées. Son argument principal tient en un chiffre : 5,9/10 en sécurité, le meilleur score des neuf villes de ce batch après Limoges, et le meilleur parmi celles qui dépassent 100 000 habitants (source : notre fiche ville). Le reste suit sans faiblesse : écoles 7,4/10, transports 7,0/10, coût de la vie 6,2/10. Le T3 moyen est à 930 € et l'achat à 2 500 € le mètre carré (source : notre estimation des loyers), ce qui place le revenu net minimum estimé à 2 800 € par mois. À quinze kilomètres de la mer, avec un tramway sur rail depuis 2019 et un CHU qui structure l'emploi, c'est un des dossiers les plus équilibrés du classement.",
     sections: [
       {
         heading: "Pourquoi la sécurité pèse autant dans ce calcul",
@@ -51301,8 +51301,8 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-08-14",
-    intro: "Tours obtient 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 classées de plus de 20 000 habitants. Son point fort est net : 7,9/10 en écoles, le meilleur score des neuf villes de ce batch et un des plus élevés de France (source : notre fiche ville). Le reste se tient, avec transports 7,0/10 et sécurité 5,5/10, mais le coût de la vie décroche un peu à 5,9/10. Le T3 moyen est à 940 € et l'achat à 2 700 € le mètre carré (source : notre estimation des loyers), ce qui fixe le revenu net minimum estimé à 2 850 € par mois. À une heure de Paris en TGV, avec un tramway depuis 2013, Tours est le compromis « ville moyenne bien équipée sans être coupée de la capitale » le plus abouti du lot.",
+    updatedAt: "2026-10-25",
+    intro: "Tours obtient 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 416 classées de plus de 20 000 habitants. Son point fort est net : 7,9/10 en écoles, le meilleur score des neuf villes de ce batch et un des plus élevés de France (source : notre fiche ville). Le reste se tient, avec transports 7,0/10 et sécurité 5,5/10, mais le coût de la vie décroche un peu à 5,9/10. Le T3 moyen est à 940 € et l'achat à 2 700 € le mètre carré (source : notre estimation des loyers), ce qui fixe le revenu net minimum estimé à 2 850 € par mois. À une heure de Paris en TGV, avec un tramway depuis 2013, Tours est le compromis « ville moyenne bien équipée sans être coupée de la capitale » le plus abouti du lot.",
     sections: [
       {
         heading: "7,9/10 en écoles : ce que ça vaut concrètement",
@@ -51348,8 +51348,8 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-08-14",
-    intro: "Limoges obtient 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 classées. Sa particularité est le croisement de deux axes que la plupart des villes abordables ne réussissent pas ensemble : coût de la vie 7,1/10 et sécurité 6,1/10 (source : notre fiche ville). C'est la seule des neuf villes de ce batch où les deux dépassent 6, et la sécurité y est la meilleure des neuf. Le T3 moyen est à 800 € et l'achat à 1 600 € le mètre carré, le deuxième prix le plus bas du lot (source : notre estimation des loyers) ; le revenu net minimum estimé tombe à 2 400 € par mois. Ce que Limoges ne fournit pas, ce sont les transports (6,1/10) et les écoles (6,2/10), et c'est là que se joue l'arbitrage.",
+    updatedAt: "2026-10-25",
+    intro: "Limoges obtient 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 416 classées. Sa particularité est le croisement de deux axes que la plupart des villes abordables ne réussissent pas ensemble : coût de la vie 7,1/10 et sécurité 6,1/10 (source : notre fiche ville). C'est la seule des neuf villes de ce batch où les deux dépassent 6, et la sécurité y est la meilleure des neuf. Le T3 moyen est à 800 € et l'achat à 1 600 € le mètre carré, le deuxième prix le plus bas du lot (source : notre estimation des loyers) ; le revenu net minimum estimé tombe à 2 400 € par mois. Ce que Limoges ne fournit pas, ce sont les transports (6,1/10) et les écoles (6,2/10), et c'est là que se joue l'arbitrage.",
     sections: [
       {
         heading: "Le croisement coût-sécurité, et pourquoi il est rare",
@@ -51442,8 +51442,8 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-08-14",
-    intro: "Saint-Étienne obtient 6,0/10 au composite parent solo, dans un palier de 12 communes sur les 363 classées de plus de 20 000 habitants. Le dossier est frontalement asymétrique : coût de la vie 7,1/10, le meilleur du batch à égalité avec Limoges, et sécurité 4,3/10, le plus bas des neuf (source : notre fiche ville). Entre les deux, transports 6,7/10 et écoles 5,8/10. Le T3 moyen est à 770 € et le mètre carré à l'achat à 1 500 €, les deux prix les plus bas du lot (source : notre estimation des loyers) ; le revenu net minimum estimé descend à 2 350 € par mois. C'est un vrai choix, pas une évidence, et il mérite d'être posé en chiffres plutôt qu'en impressions.",
+    updatedAt: "2026-10-25",
+    intro: "Saint-Étienne obtient 6,0/10 au composite parent solo, dans un palier de 12 communes sur les 416 classées de plus de 20 000 habitants. Le dossier est frontalement asymétrique : coût de la vie 7,1/10, le meilleur du batch à égalité avec Limoges, et sécurité 4,3/10, le plus bas des neuf (source : notre fiche ville). Entre les deux, transports 6,7/10 et écoles 5,8/10. Le T3 moyen est à 770 € et le mètre carré à l'achat à 1 500 €, les deux prix les plus bas du lot (source : notre estimation des loyers) ; le revenu net minimum estimé descend à 2 350 € par mois. C'est un vrai choix, pas une évidence, et il mérite d'être posé en chiffres plutôt qu'en impressions.",
     sections: [
       {
         heading: "L'écart de loyer, en euros et sur une année",
@@ -52020,9 +52020,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-25",
     intro:
-      "Annecy compte 131 282 habitants et sort 6,2/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, largement au-dessus de la médiane du classement à 5,5/10. Le détail est le plus déséquilibré de ce batch : écoles 8,7/10 et sécurité 7,3/10, les deux meilleures valeurs des dix villes traitées ici, transports 6,4/10, et coût de la vie 3,1/10, la plus mauvaise (source : notre fiche ville). Le T3 moyen est à 1 450 € et le mètre carré à l'achat à 5 500 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 4 150 € par mois. Ce guide existe surtout pour poser ce chiffre. Annecy est la démonstration qu'un bon score composite et un dossier finançable sur un seul salaire sont deux questions différentes, et qu'il vaut mieux le savoir avant de faire trois cents kilomètres pour une visite.",
+      "Annecy compte 131 282 habitants et sort 6,2/10 au composite parent solo, dans un palier de 13 communes sur les 416 de plus de 20 000 habitants, largement au-dessus de la médiane du classement à 5,4/10. Le détail est le plus déséquilibré de ce batch : écoles 8,7/10 et sécurité 7,3/10, les deux meilleures valeurs des dix villes traitées ici, transports 6,4/10, et coût de la vie 3,1/10, la plus mauvaise (source : notre fiche ville). Le T3 moyen est à 1 450 € et le mètre carré à l'achat à 5 500 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 4 150 € par mois. Ce guide existe surtout pour poser ce chiffre. Annecy est la démonstration qu'un bon score composite et un dossier finançable sur un seul salaire sont deux questions différentes, et qu'il vaut mieux le savoir avant de faire trois cents kilomètres pour une visite.",
     sections: [
       {
         heading: "Un composite qui a raison et qui ne suffit pas",
@@ -52167,9 +52167,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-25",
     intro:
-      "Amiens compte 134 057 habitants et sort 5,9/10 au composite parent solo, dans un palier de 19 communes sur les 363 de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,5/10. Le détail est plus contrasté que le résultat ne le suggère : coût de la vie 6,4/10 et écoles 6,6/10 tirent vers le haut, transports 6,1/10 suit, et sécurité 4,5/10 pèse lourd puisque cet axe compte pour un quart du composite (source : notre fiche ville). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 750 € par mois. Le dossier amiénois a une particularité utile : c'est le meilleur score d'écoles du batch après Annecy et Poitiers, obtenu à un prix de logement de ville moyenne. Reste à savoir ce que coûte l'autre côté du bilan.",
+      "Amiens compte 134 057 habitants et sort 5,9/10 au composite parent solo, dans un palier de 20 communes sur les 416 de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,4/10. Le détail est plus contrasté que le résultat ne le suggère : coût de la vie 6,4/10 et écoles 6,6/10 tirent vers le haut, transports 6,1/10 suit, et sécurité 4,5/10 pèse lourd puisque cet axe compte pour un quart du composite (source : notre fiche ville). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 750 € par mois. Le dossier amiénois a une particularité utile : c'est le meilleur score d'écoles du batch après Annecy et Poitiers, obtenu à un prix de logement de ville moyenne. Reste à savoir ce que coûte l'autre côté du bilan.",
     sections: [
       {
         heading: "Deux axes qui portent, un qui coûte",
@@ -52216,9 +52216,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-25",
     intro:
-      "Mulhouse compte 108 000 habitants et obtient 5,9/10 au composite parent solo, dans un palier de 19 communes sur les 363 de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,5/10. Le détail : transports 7,0/10, la meilleure valeur des dix villes de ce batch, coût de la vie 6,4/10, écoles 5,8/10, sécurité 4,5/10 (source : notre fiche ville). Le T3 moyen est à 780 € et le mètre carré à l'achat à 1 700 € (source : notre estimation des loyers), soit les deux montants les plus bas de tout ce batch, pour un revenu net minimum estimé à 2 350 € par mois. Un T3 sous 800 € dans une ville de plus de 100 000 habitants équipée d'un tramway est une combinaison rare, et elle mérite qu'on explique à la fois ce qu'elle permet et ce qu'elle recouvre.",
+      "Mulhouse compte 108 000 habitants et obtient 5,9/10 au composite parent solo, dans un palier de 20 communes sur les 416 de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,4/10. Le détail : transports 7,0/10, la meilleure valeur des dix villes de ce batch, coût de la vie 6,4/10, écoles 5,8/10, sécurité 4,5/10 (source : notre fiche ville). Le T3 moyen est à 780 € et le mètre carré à l'achat à 1 700 € (source : notre estimation des loyers), soit les deux montants les plus bas de tout ce batch, pour un revenu net minimum estimé à 2 350 € par mois. Un T3 sous 800 € dans une ville de plus de 100 000 habitants équipée d'un tramway est une combinaison rare, et elle mérite qu'on explique à la fois ce qu'elle permet et ce qu'elle recouvre.",
     sections: [
       {
         heading: "Le meilleur score de transports du batch",
@@ -52265,9 +52265,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-25",
     intro:
-      "Dunkerque compte 90 000 habitants et obtient 5,7/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, juste au-dessus de la médiane du classement établie à 5,5/10. Le détail : coût de la vie 6,4/10, transports 6,1/10, écoles 5,8/10, sécurité 4,5/10 (source : notre fiche ville). Le T3 moyen est à 750 € et le mètre carré à l'achat à 1 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 250 € par mois, le seuil d'entrée le plus bas des dix villes de ce batch. À ce chiffre s'ajoute une donnée qui n'apparaît dans aucun de nos axes et qui pèse pourtant lourd sur un budget à un seul revenu : le réseau de bus de l'agglomération est gratuit pour tous depuis 2018. Voici ce que l'ensemble donne.",
+      "Dunkerque compte 90 000 habitants et obtient 5,7/10 au composite parent solo, dans un palier de 18 communes sur les 416 de plus de 20 000 habitants, juste au-dessus de la médiane du classement établie à 5,4/10. Le détail : coût de la vie 6,4/10, transports 6,1/10, écoles 5,8/10, sécurité 4,5/10 (source : notre fiche ville). Le T3 moyen est à 750 € et le mètre carré à l'achat à 1 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 250 € par mois, le seuil d'entrée le plus bas des dix villes de ce batch. À ce chiffre s'ajoute une donnée qui n'apparaît dans aucun de nos axes et qui pèse pourtant lourd sur un budget à un seul revenu : le réseau de bus de l'agglomération est gratuit pour tous depuis 2018. Voici ce que l'ensemble donne.",
     sections: [
       {
         heading: "2 250 € net : le seuil d'entrée le plus bas du batch",
@@ -52608,9 +52608,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
-    updatedAt: "2026-08-23",
+    updatedAt: "2026-10-25",
     intro:
-      "Béziers est la ville la moins chère de ce batch et la moins bien classée de sa région : 4,7/10 au composite parent solo, dans un palier de 4 communes sur les 363 de plus de 20 000 habitants, et 22e sur 22 en Occitanie. Les deux faits sont liés et il n'y a aucune raison de les séparer. Le détail : coût de la vie 6,4/10, transports 4,9/10, écoles 3,6/10, sécurité 3,5/10 (source : notre fiche ville). Les deux axes les plus faibles sont exactement ceux que le composite pondère le plus lourd ensemble — écoles et sécurité valent 0,25 chacun, soit la moitié du calcul. Le T3 moyen est à 720 € et le mètre carré à l'achat à 1 500 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 200 € par mois : le seuil d'entrée le plus bas des neuf villes de ce batch. La commune compte 80 815 habitants au recensement 2022 et en a gagné plus de 9 000 depuis 2011 (source : Insee, recensements), la deuxième plus forte croissance du lot. Voici ce que ces chiffres impliquent, sans les arrondir.",
+      "Béziers est la ville la moins chère de ce batch et la moins bien classée de sa région : 4,7/10 au composite parent solo, dans un palier de 6 communes sur les 416 de plus de 20 000 habitants, et 22e sur 22 en Occitanie. Les deux faits sont liés et il n'y a aucune raison de les séparer. Le détail : coût de la vie 6,4/10, transports 4,9/10, écoles 3,6/10, sécurité 3,5/10 (source : notre fiche ville). Les deux axes les plus faibles sont exactement ceux que le composite pondère le plus lourd ensemble — écoles et sécurité valent 0,25 chacun, soit la moitié du calcul. Le T3 moyen est à 720 € et le mètre carré à l'achat à 1 500 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 200 € par mois : le seuil d'entrée le plus bas des neuf villes de ce batch. La commune compte 80 815 habitants au recensement 2022 et en a gagné plus de 9 000 depuis 2011 (source : Insee, recensements), la deuxième plus forte croissance du lot. Voici ce que ces chiffres impliquent, sans les arrondir.",
     sections: [
       {
         heading: "2 200 € net : le prix d'entrée le plus bas du batch",
