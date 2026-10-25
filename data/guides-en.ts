@@ -48089,7 +48089,331 @@ export const EN_GUIDES: EnGuide[] = [
       "annecy with kids",
       "haute-savoie",
     ],
+  },  {
+    slug: "single-parent-holidays-colmar-2026",
+    title: "Single-parent holidays in Colmar: a walkable Alsace town, with a train change in Strasbourg",
+    metaTitle: "Single-Parent Holidays in Colmar 2026",
+    metaDesc: "Colmar scores 6.3/10 on our single-parent index: three-room flat 1,000 €, safety 6.1/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Colmar comes out at 6.3/10 on our single-parent composite, joint thirty-fifth of the fifty-nine destinations, tied with five others (source: our trip-fit index). The detail: safety 6.1/10, transport 6.1/10, cost of living 6.2/10 and quality of life 6.8/10 (source: our city profile). The market: 1,000 € for the reference three-room flat and 3,000 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 67,360 inhabitants at the 2022 census against 67,409 in 2011, a fall of 0.1 % (source: INSEE census). Our engine rates it €€€. The practical question for a parent travelling alone is the change at Strasbourg, and the answer is in the first section.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing give Paris to Colmar at about two hours twenty to two hours thirty-five (SNCF Connect gives 2 h 25 for the typical trip), from Paris-Gare de l'Est. A minority of services are direct; most change at Strasbourg, and the number of direct trains a day is settled on SNCF Connect for your date. For one adult with children the direct train is the thing to look for: a connection with luggage and a pushchair is where the journey turns hard. The walking distance between the station and the old centre could not be verified in the sources consulted: measure it on a map before choosing accommodation. The transport axis is 6.1/10, below the series median of 7.0."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Colmar comes out at 6.2/10 (source: our city profile), joint twenty-eighth of the fifty-nine, tied with six others, against a series median of 6.2. The market: 1,000 € for the reference three-room flat and 3,000 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. Our engine rates it €€€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host."
+      },
+      {
+        heading: "Unterlinden and Little Venice: a centre done on foot",
+        body: "The historic centre of Colmar is covered on foot, which spares you the car and the parking. The Unterlinden museum, in a former Dominican convent, holds the Issenheim Altarpiece, a religious work of the early sixteenth century: calibrate that visit to your children's ages, short and without ambition, rather than attempting the full tour. The Little Venice quarter, along the Lauch, is the image of the town and suits a walk without a ticket. The Alsace wine route and its villages are day outings reached from Colmar, whose bus or train links should be checked before you leave: without a car they need preparation. The Christmas markets push up crowds and accommodation rates, and must be booked very early if you aim for December."
+      },
+      {
+        heading: "25 green spaces mapped, 14 with a playground",
+        body: "The mapping survey records 25 green spaces in the commune, 14 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 6.1/10, quality of life 6.8/10",
+        body: "Colmar shows 6.1/10 on the safety axis (source: our city profile), against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 6.8/10, joint twentieth of the fifty-nine, tied with ten others. In December, the density of visitors in the pedestrian streets means keeping children within arm's reach. Colmar is twenty-fifth of the fifty-nine on safety."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Strasbourg (Strasbourg-Entzheim), 56 kilometres away (source: Météo-France 1991-2020 normals). It gives 2.5 °C in January and 20.6 °C in July. The commune's own anchors come from the seed: 2.8 °C in January, 22.5 °C in July and 1,680 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then September, then August."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Haut-Rhin one is worth asking; runs holiday grants through caf.fr; existence and conditions must be checked months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "colmar",
+      "selestat",
+      "mulhouse",
+      "obernai"
+    ],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "colmar with kids",
+      "alsace"
+    ]
   },
+  {
+    slug: "single-parent-holidays-chambery-2026",
+    title: "Single-parent holidays in Chambéry: under three hours by direct TGV, the Alps on the doorstep",
+    metaTitle: "Single-Parent Holidays in Chambéry 2026",
+    metaDesc: "Chambéry scores 6.3/10 on our single-parent index: three-room flat 1,100 €, safety 6.3/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Chambéry comes out at 6.3/10 on our single-parent composite, joint thirty-fifth of the fifty-nine destinations, tied with five others (source: our trip-fit index). The detail: safety 6.3/10, transport 6.1/10, cost of living 5.0/10 and quality of life 7.0/10 (source: our city profile). The market: 1,100 € for the reference three-room flat and 3,600 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 60,251 inhabitants at the 2022 census against 58,437 in 2011, a rise of 3.1 % (source: INSEE census). Our engine rates it €€€. The case for Chambéry is a direct train and a compact centre in front of the mountains; the price is that it is not cheap.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing give a direct train between Paris-Gare de Lyon and Chambéry in about two hours fifty to three hours (2 h 51 for the fastest, 2 h 56 on average according to one comparison site), with departures from morning to evening. Sources differ on the station named (Chambéry, or Chambéry–Challes-les-Eaux): check it when you book, because the leg to your accommodation is not the same. For one adult with children, a direct under three hours is within the range of the series. The transport axis is 6.1/10, below the series median of 7.0."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Chambéry comes out at 5.0/10 (source: our city profile), joint forty-eighth of the fifty-nine, tied with two others, against a series median of 6.2. The market: 1,100 € for the reference three-room flat and 3,600 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. Our engine rates it €€€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host."
+      },
+      {
+        heading: "Elephants, the dukes' castle, Lake Bourget as an outing",
+        body: "Chambéry is the former capital of the Dukes of Savoy: its centre is covered on foot, with the Elephants fountain, the symbol of the town, the castle of the Dukes of Savoy and the old town. Lake Bourget and Aix-les-Bains are outings reached from Chambéry and are not in the commune; check the rail link and its times before leaving. The surrounding mountains offer easy walks, but mountains are not to be treated lightly with young children: weather, climb and return times are prepared beforehand, and one adult has nobody to relieve them if a child tires."
+      },
+      {
+        heading: "40 green spaces mapped, 16 with a playground",
+        body: "The mapping survey records 40 green spaces in the commune, 16 of them with a playground (source: OpenStreetMap). The survey caps at 40 per commune and Chambéry reaches the cap, so both numbers are floors. The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 6.3/10, quality of life 7.0/10",
+        body: "Chambéry shows 6.3/10 on the safety axis (source: our city profile), against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 7.0/10, joint eighteenth of the fifty-nine, tied with one other. Chambéry is joint twentieth of the fifty-nine on safety, tied with one other."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Grenoble (Grenoble-Saint-Geoirs), 51 kilometres away (source: Météo-France 1991-2020 normals). It gives 2.8 °C in January and 20.6 °C in July. The commune's own anchors come from the seed: 1.0 °C in January, 24.0 °C in July and 1,850 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts August first, then June, then July."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Savoie one is worth asking; runs holiday grants through caf.fr; existence and conditions must be checked months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "chambery",
+      "albertville",
+      "annecy",
+      "grenoble"
+    ],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "chambery with kids",
+      "savoie"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-saint-malo-2026",
+    title: "Single-parent holidays in Saint-Malo: walls, beaches and a tide you plan around",
+    metaTitle: "Single-Parent Holidays in Saint-Malo 2026",
+    metaDesc: "Saint-Malo scores 6.2/10 on our single-parent index: three-room flat 1,080 €, safety 6.5/10. Train access, tides, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Saint-Malo comes out at 6.2/10 on our single-parent composite, joint forty-first of the fifty-nine destinations, tied with four others (source: our trip-fit index). The detail: safety 6.5/10, transport 5.2/10, cost of living 5.0/10 and quality of life 7.4/10 (source: our city profile). The market: 1,080 € for the reference three-room flat and 4,000 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 47,255 inhabitants at the 2022 census against 45,201 in 2011, a rise of 4.5 % (source: INSEE census). Our engine rates it €€€. For a reader already in Britain or the Channel Islands the sea crossing is another way in, which this guide does not price: check operators and dates yourself.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing show direct TGVs from Paris-Montparnasse to Saint-Malo, with a duration that differs by source, of the order of two hours a quarter to two hours three quarters: the exact time is checked on SNCF Connect for your date. From the station, the long Sillon beach is about a quarter of an hour on foot according to the sources consulted, and the walls are a little further: a stay without a car is therefore workable. The transport axis is 5.2/10, below the series median of 7.0."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Saint-Malo comes out at 5.0/10 (source: our city profile), joint forty-eighth of the fifty-nine, tied with two others, against a series median of 6.2. The market: 1,080 € for the reference three-room flat and 4,000 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. Our engine rates it €€€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host."
+      },
+      {
+        heading: "Walls, beaches and the tide: the practical subject",
+        body: "The ramparts, begun in the thirteenth century according to the sources consulted, are walked on foot and give a panorama over the harbour and the coast: this is the central walk of the stay, free, to be done with children kept on the inner side. The Grand Aquarium is the fallback outing in bad weather; its rates and hours are checked with the venue. What marks Saint-Malo is the tide: the range sometimes exceeds ten metres according to the sources consulted, which changes the beach, the bathing and the access to the islet of Grand Bé, where Chateaubriand's tomb stands."
+      },
+      {
+        heading: "21 green spaces mapped, 6 with a playground",
+        body: "The mapping survey records 21 green spaces in the commune, 6 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 6.5/10, quality of life 7.4/10",
+        body: "Saint-Malo shows 6.5/10 on the safety axis (source: our city profile), against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 7.4/10, joint twelfth of the fifty-nine, tied with two others. The tide is the risk specific to the town: Grand Bé can only be reached at low tide, tide times are checked the same morning, and the return is planned with a margin, never cut to the minute. Bathing flags are authoritative on supervised beaches. Saint-Malo is joint sixteenth of the fifty-nine on safety, tied with three others."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Rennes (Rennes-Saint-Jacques), 68 kilometres away (source: Météo-France 1991-2020 normals). It gives 6.2 °C in January and 19.2 °C in July. The commune's own anchors come from the seed: 6.0 °C in January, 19.8 °C in July and 1,860 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then July, then August."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Ille-et-Vilaine one is worth asking; runs holiday grants through caf.fr; existence and conditions must be checked months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "saint-malo",
+      "dinan",
+      "vitre",
+      "rennes"
+    ],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "saint-malo with kids",
+      "brittany"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-beaune-2026",
+    title: "Single-parent holidays in Beaune: fourth of the fifty-nine on our index, with a train change in Dijon",
+    metaTitle: "Single-Parent Holidays in Beaune 2026",
+    metaDesc: "Beaune scores 7.2/10 on our single-parent index: three-room flat 1,080 €, safety 8.1/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Beaune comes out at 7.2/10 on our single-parent composite, joint fourth of the fifty-nine destinations, tied with one other (source: our trip-fit index). The detail: safety 8.1/10, transport 5.6/10, cost of living 5.0/10 and quality of life 8.7/10 (source: our city profile). The market: 1,080 € for the reference three-room flat and 3,200 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 20,233 inhabitants at the 2022 census against 21,872 in 2011, a fall of 7.5 % (source: INSEE census). Our engine rates it €€€. The score is carried by safety and quality of life; the weak axis is transport, because the quickest train changes at Dijon.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing give the quickest route between Paris and Beaune as a TGV to Dijon then a regional train, two hours ten to two hours forty depending on the services, with a change of fifteen to forty-five minutes at Dijon. Direct regional trains from Paris-Bercy exist but take about three and a half to four hours. For one adult with children the choice is between a shorter trip with a connection and a long trip with none: it is settled by the children's ages and the amount of luggage. The transport axis is 5.6/10, below the series median of 7.0."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Beaune comes out at 5.0/10 (source: our city profile), joint forty-eighth of the fifty-nine, tied with two others, against a series median of 6.2. The market: 1,080 € for the reference three-room flat and 3,200 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. Our engine rates it €€€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host."
+      },
+      {
+        heading: "Hospices, ramparts and vineyards: a compact centre",
+        body: "The centre of Beaune is compact and covered on foot. The Hospices de Beaune, a former fifteenth-century charitable hospital (an hôtel-Dieu), are its image, with their glazed tile roof; opening times and rates are checked with the museum. The Fallot mustard mill offers visits: availability and conditions are checked before booking. The vineyards are the landscape of the town, but tasting is not an activity for children: with them you look at the vines by bike or on foot rather than visit them, on marked routes whose condition is checked with the tourist office."
+      },
+      {
+        heading: "8 green spaces mapped, 2 with a playground",
+        body: "The mapping survey records 8 green spaces in the commune, 2 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 8.1/10, quality of life 8.7/10",
+        body: "Beaune shows 8.1/10 on the safety axis (source: our city profile), against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 8.7/10, joint third of the fifty-nine, tied with one other. Beaune is second of the fifty-nine on safety."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Dijon (Dijon-Longvic), 33 kilometres away (source: Météo-France 1991-2020 normals). It gives 2.7 °C in January and 20.8 °C in July. The commune's own anchors come from the seed: 3.5 °C in January, 23.5 °C in July and 1,900 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then September, then August."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Côte-d'Or one is worth asking; runs holiday grants through caf.fr; existence and conditions must be checked months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "beaune",
+      "dijon",
+      "autun",
+      "macon"
+    ],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "beaune with kids",
+      "burgundy"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-albi-2026",
+    title: "Single-parent holidays in Albi: cheap, 7.6/10 on cost, via Toulouse by train",
+    metaTitle: "Single-Parent Holidays in Albi 2026",
+    metaDesc: "Albi scores 6.9/10 on our single-parent index: three-room flat 840 €, safety 6.7/10. Train access via Toulouse, costs, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Albi comes out at 6.9/10 on our single-parent composite, joint tenth of the fifty-nine destinations, tied with five others (source: our trip-fit index). The detail: safety 6.7/10, transport 5.5/10, cost of living 7.6/10 and quality of life 7.4/10 (source: our city profile). The market: 840 € for the reference three-room flat and 2,200 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 50,605 inhabitants at the 2022 census against 49,179 in 2011, a rise of 2.9 % (source: INSEE census). Our engine rates it €€. This is one of the cheaper destinations of the series; the cost is the connection through Toulouse.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing show the usual route running through Toulouse-Matabiau, then a regional train to Albi-Ville, about an hour on average (from fifty-six minutes to an hour forty depending on the stops served). We could not confirm a direct service from Paris: the full journey is checked on SNCF Connect, with the change at Toulouse. The sources consulted say that Albi-Ville station is within walking distance of the main sites. The transport axis is 5.5/10, below the series median of 7.0."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Albi comes out at 7.6/10 (source: our city profile), joint fourth of the fifty-nine, tied with three others, against a series median of 6.2. The market: 840 € for the reference three-room flat and 2,200 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. Our engine rates it €€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host."
+      },
+      {
+        heading: "The episcopal city: cathedral and museum on foot",
+        body: "Sainte-Cécile cathedral and the Berbie palace belong to the Episcopal City, a UNESCO World Heritage site. The cathedral is a masterpiece of southern Gothic in brick. The Berbie palace houses the Toulouse-Lautrec museum, which holds, according to the sources consulted, the largest collection in the world of the work of the painter, who was born in Albi: it is a rainy-day outing, to be calibrated to your children's ages. The Tarn runs beside the town and its banks suit a walk without a ticket. The cathedral is also a place of worship in use."
+      },
+      {
+        heading: "17 green spaces mapped, 1 with a playground",
+        body: "The mapping survey records 17 green spaces in the commune, 1 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 6.7/10, quality of life 7.4/10",
+        body: "Albi shows 6.7/10 on the safety axis (source: our city profile), against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 7.4/10, joint twelfth of the fifty-nine, tied with two others. Albi is joint fourteenth of the fifty-nine on safety, tied with one other."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Toulouse (Toulouse-Blagnac), 70 kilometres away (source: Météo-France 1991-2020 normals). It gives 6.3 °C in January and 22.6 °C in July. The commune's own anchors come from the seed: 5.5 °C in January, 25.5 °C in July and 2,050 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts September first, then June, then May."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Tarn one is worth asking; runs holiday grants through caf.fr; existence and conditions must be checked months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "albi",
+      "castres",
+      "gaillac",
+      "toulouse"
+    ],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "albi with kids",
+      "tarn"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-saumur-2026",
+    title: "Single-parent holidays in Saumur: the Loire, the Cadre Noir and an 800 € three-room flat",
+    metaTitle: "Single-Parent Holidays in Saumur 2026",
+    metaDesc: "Saumur scores 6.9/10 on our single-parent index: three-room flat 800 €, safety 7.4/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Saumur comes out at 6.9/10 on our single-parent composite, joint tenth of the fifty-nine destinations, tied with five others (source: our trip-fit index). The detail: safety 7.4/10, transport 4.9/10, cost of living 6.7/10 and quality of life 7.8/10 (source: our city profile). The market: 800 € for the reference three-room flat and 1,900 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. The commune counts 26,074 inhabitants at the 2022 census against 27,093 in 2011, a fall of 3.8 % (source: INSEE census). Our engine rates it €€. The weak axis is transport, and the Loire is a landscape, not a swimming place.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing give Paris to Saumur at about two hours to two and a half, often with a change at Tours or Angers, and the Paris departure station varies with the service (Austerlitz or Montparnasse): check it on SNCF Connect. From Angers the regional train takes about twenty minutes, which lets you combine the two towns. The transport axis is 4.9/10, below the series median of 7.0."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Saumur comes out at 6.7/10 (source: our city profile), joint thirteenth of the fifty-nine, tied with six others, against a series median of 6.2. The market: 800 € for the reference three-room flat and 1,900 € per square metre (source: our rent estimate), against series medians of 940 € and 2,500 €. Our engine rates it €€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host."
+      },
+      {
+        heading: "Castle, Loire and the Cadre Noir",
+        body: "Saumur castle overlooks the Loire and is seen on foot from the quays. The Cadre Noir, the national riding school, is reached from Saumur: it stands in the neighbouring commune of Saint-Hilaire-Saint-Florent, and its visits and displays are booked with the institution, their dates changing with the season. The Loire banks suit walking and cycling with children, on marked routes whose condition is checked with the tourist office. A wild river is not a bathing place: do not touch the water without a sign authorising it."
+      },
+      {
+        heading: "16 green spaces mapped, 5 with a playground",
+        body: "The mapping survey records 16 green spaces in the commune, 5 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 7.4/10, quality of life 7.8/10",
+        body: "Saumur shows 7.4/10 on the safety axis (source: our city profile), against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 7.8/10, joint sixth of the fifty-nine, tied with four others. The Loire is not a swimming place: currents and sandbanks are unpredictable, and one adult cannot watch several children at the water's edge. Saumur is eighth of the fifty-nine on safety."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Tours (Tours-Saint-Symphorien), 63 kilometres away (source: Météo-France 1991-2020 normals). It gives 5.1 °C in January and 20.2 °C in July. The commune's own anchors come from the seed: 5.0 °C in January, 22.5 °C in July and 2,000 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then September, then July."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Maine-et-Loire one is worth asking; runs holiday grants through caf.fr; existence and conditions must be checked months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "saumur",
+      "angers",
+      "tours",
+      "chinon"
+    ],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "saumur with kids",
+      "loire valley"
+    ]
+  },
+
 
   {
     slug: "things-to-do-in-selestat-2026",

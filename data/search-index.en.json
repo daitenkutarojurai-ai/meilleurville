@@ -9062,6 +9062,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-holidays-colmar-2026",
+      "title": "Single-parent holidays in Colmar: a walkable Alsace town, with a train change in Strasbourg",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-chambery-2026",
+      "title": "Single-parent holidays in Chambéry: under three hours by direct TGV, the Alps on the doorstep",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-saint-malo-2026",
+      "title": "Single-parent holidays in Saint-Malo: walls, beaches and a tide you plan around",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-beaune-2026",
+      "title": "Single-parent holidays in Beaune: fourth of the fifty-nine on our index, with a train change in Dijon",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-albi-2026",
+      "title": "Single-parent holidays in Albi: cheap, 7.6/10 on cost, via Toulouse by train",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-saumur-2026",
+      "title": "Single-parent holidays in Saumur: the Loire, the Cadre Noir and an 800 € three-room flat",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "things-to-do-in-selestat-2026",
       "title": "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
       "emoji": "📚"
@@ -9346,7 +9376,7 @@
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 197
+      "count": 203
     },
     {
       "slug": "expat-single-parent",
@@ -9399,6 +9429,11 @@
       "count": 59
     },
     {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 59
+    },
+    {
       "slug": "single-supplement",
       "label": "single supplement",
       "count": 57
@@ -9414,11 +9449,6 @@
       "count": 53
     },
     {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
-      "count": 53
-    },
-    {
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 47
@@ -9431,7 +9461,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 44
+      "count": 45
     },
     {
       "slug": "french-school-system",
@@ -9506,17 +9536,17 @@
     {
       "slug": "alsace",
       "label": "alsace",
-      "count": 16
+      "count": 17
     },
     {
       "slug": "burgundy",
       "label": "burgundy",
-      "count": 16
+      "count": 17
     },
     {
       "slug": "loire-valley",
       "label": "loire valley",
-      "count": 16
+      "count": 17
     },
     {
       "slug": "reunion",
@@ -9594,6 +9624,11 @@
       "count": 9
     },
     {
+      "slug": "savoie",
+      "label": "savoie",
+      "count": 9
+    },
+    {
       "slug": "strasbourg",
       "label": "strasbourg",
       "count": 9
@@ -9631,11 +9666,6 @@
     {
       "slug": "nantes",
       "label": "nantes",
-      "count": 8
-    },
-    {
-      "slug": "savoie",
-      "label": "savoie",
       "count": 8
     },
     {
