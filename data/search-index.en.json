@@ -7552,6 +7552,41 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-quimper-2026",
+      "title": "Family life in Quimper (2026): a Breton préfecture at child scale",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-valence-2026",
+      "title": "Family life in Valence (2026): gentle rents, middling safety, Rhône valley",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-bayonne-2026",
+      "title": "Family life in Bayonne (2026): the Basque coast without Anglet's prices",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-chambery-2026",
+      "title": "Family life in Chambéry (2026): the Alps at hand, the bill included",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-avignon-2026",
+      "title": "Family life in Avignon (2026): a fair rent, scores to read closely",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-nimes-2026",
+      "title": "Family life in Nîmes (2026): Roman, young and demanding on the choice of neighbourhood",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-toulon-2026",
+      "title": "Family life in Toulon (2026): the roadstead, Mont Faron and a balance to check",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -9331,7 +9366,7 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 74
+      "count": 75
     },
     {
       "slug": "grand-est",
@@ -9396,7 +9431,17 @@
     {
       "slug": "brittany",
       "label": "brittany",
+      "count": 44
+    },
+    {
+      "slug": "french-school-system",
+      "label": "french school system",
       "count": 43
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 42
     },
     {
       "slug": "international-students",
@@ -9414,24 +9459,14 @@
       "count": 41
     },
     {
+      "slug": "provence",
+      "label": "provence",
+      "count": 39
+    },
+    {
       "slug": "normandy",
       "label": "normandy",
       "count": 38
-    },
-    {
-      "slug": "provence",
-      "label": "provence",
-      "count": 37
-    },
-    {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 36
-    },
-    {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 35
     },
     {
       "slug": "working-in-france",
@@ -9599,6 +9634,11 @@
       "count": 8
     },
     {
+      "slug": "savoie",
+      "label": "savoie",
+      "count": 8
+    },
+    {
       "slug": "visa",
       "label": "visa",
       "count": 8
@@ -9611,6 +9651,11 @@
     {
       "slug": "alps",
       "label": "alps",
+      "count": 7
+    },
+    {
+      "slug": "basque-country",
+      "label": "basque country",
       "count": 7
     },
     {
@@ -9639,11 +9684,6 @@
       "count": 7
     },
     {
-      "slug": "savoie",
-      "label": "savoie",
-      "count": 7
-    },
-    {
       "slug": "south-of-france",
       "label": "south-of-france",
       "count": 7
@@ -9661,11 +9701,6 @@
     {
       "slug": "angers",
       "label": "angers",
-      "count": 6
-    },
-    {
-      "slug": "basque-country",
-      "label": "basque country",
       "count": 6
     },
     {
@@ -9704,6 +9739,11 @@
       "count": 6
     },
     {
+      "slug": "nimes",
+      "label": "nimes",
+      "count": 6
+    },
+    {
       "slug": "normandie",
       "label": "normandie",
       "count": 6
@@ -9716,6 +9756,11 @@
     {
       "slug": "reims",
       "label": "reims",
+      "count": 6
+    },
+    {
+      "slug": "toulon",
+      "label": "toulon",
       "count": 6
     },
     {
@@ -9739,11 +9784,6 @@
       "count": 5
     },
     {
-      "slug": "nimes",
-      "label": "nimes",
-      "count": 5
-    },
-    {
       "slug": "quality-of-life",
       "label": "quality-of-life",
       "count": 5
@@ -9759,13 +9799,13 @@
       "count": 5
     },
     {
-      "slug": "toulon",
-      "label": "toulon",
-      "count": 5
-    },
-    {
       "slug": "aix-en-provence",
       "label": "aix-en-provence",
+      "count": 4
+    },
+    {
+      "slug": "avignon",
+      "label": "avignon",
       "count": 4
     },
     {
@@ -9824,8 +9864,8 @@
       "count": 3
     },
     {
-      "slug": "avignon",
-      "label": "avignon",
+      "slug": "bayonne",
+      "label": "bayonne",
       "count": 3
     },
     {
@@ -9906,6 +9946,11 @@
     {
       "slug": "sea-level-rise",
       "label": "sea level rise",
+      "count": 3
+    },
+    {
+      "slug": "valence",
+      "label": "valence",
       "count": 3
     },
     {

@@ -33037,6 +33037,300 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["le-havre", "moving to france with children", "french school system", "normandy"],
   },
   {
+    slug: "family-in-quimper-2026",
+    title: "Family life in Quimper (2026): a Breton préfecture at child scale",
+    metaTitle: "Family Life in Quimper 2026: €940 T3, Houses €2,259/m²",
+    metaDesc:
+      "Raising children in Quimper in 2026: a €940 T3, flats at €2,122 per m², houses at €2,259, 14.3% under 15, schools 6.6 and safety 6.1.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "A family aiming at Quimper rents a T3 (two bedrooms and a living room) for €940 on our rent estimate and can buy a house at €2,259 per m² at the 2024-2025 median, barely 6% above a flat. The city has 64,530 residents, up 1.8% since 2016, and 14.3% are under 15. Scores are solid without being exceptional: safety 6.1, schools 6.6, daily life 6.6.",
+    sections: [
+      {
+        heading: "What does a family home cost in Quimper?",
+        body: "The T3 is €940 and the T2 €700. To buy, a flat is €2,122 per m² (1,238 sales, national DVF property register) and a house €2,259 (927 sales; a house price includes its land). The gap is small: in Quimper a house is not reserved for big-city budgets, and nearly a thousand house sales in two years show a real market.",
+      },
+      {
+        heading: "Do local incomes match the rent?",
+        body: "Median standard of living is €22,700 per consumption unit (Insee, Filosofi 2021), rank 203 of 586, with 13% poverty. That is more than Lorient (€20,860, 21% poverty) for a T3 at €900. A €940 rent therefore weighs less here than in most cities of this series.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.6 (rank 105, 110 cities tied), safety 6.1 (rank 198, 20 tied), nature 6.4 (rank 173, 61 tied). These are commune-wide scores. Brest, the other big Finistère city, climbs to 7.4 on schools but drops to 5.7 on safety: Quimper trades a little schooling for a little calm.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Jardin de la Retraite and the banks of the Odet serve as playgrounds in the centre. The Musée départemental breton, in the former bishops' palace, offers a route through Breton heritage. The Lanniron estate on the Odet runs children's activities; check its opening periods before you go.",
+      },
+      {
+        heading: "Quimper against Lorient and Brest",
+        body: "Lorient is €40 cheaper for a T3 but scores 5.5 on safety against 6.1. Brest is the cheapest of the three (€850) and best on schools (7.4), at the cost of a city of 140,993 people. Quimper is the smallest, with the highest median standard of living of the three (€22,700, against €21,420 in Brest).",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a reasonably priced house in a human-sized city on ordinary Breton incomes. A family putting school results first will look at Rennes or Brest; one after the lowest rent, at Brest again. Check the carte scolaire, the catchment map tied to your address, before you sign a lease.",
+      },
+    ],
+    relatedCities: ["quimper","lorient","brest","rennes"],
+    tags: ["quimper","moving to france with children","french school system","brittany"],
+  },
+  {
+    slug: "family-in-valence-2026",
+    title: "Family life in Valence (2026): gentle rents, middling safety, Rhône valley",
+    metaTitle: "Family Life in Valence 2026: €900 T3, 16.3% Under 15",
+    metaDesc:
+      "Raising children in Valence in 2026: a €900 T3, flats at €1,989 per m², houses at €2,510, 16.3% under 15, safety 5.2, cost of living 6.7.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Valence rents a T3 (two bedrooms and a living room) for €900 on our rent estimate and sells flats at €1,989 per m² at the 2024-2025 median. Its best argument is cost of living, scored 6.7 (rank 135), and a young population: 16.3% under 15 among 64,288 residents, up 2.9% since 2016. The weak point is safety, at 5.2 (rank 317).",
+    sections: [
+      {
+        heading: "What does a family home cost in Valence?",
+        body: "The T3 is €900 and the T2 €680. A flat is €1,989 per m² (1,535 sales, national DVF property register). A house is €2,510 (422 sales; a house price includes its land), 26% more: in Valence the gap justifies comparing a large flat and a house seriously before deciding.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €20,610 per consumption unit (Insee, Filosofi 2021), rank 374 of 586, with 22% poverty. Local income is modest; the city makes up for it with rents below most préfectures in this series. Vienne, to the north, shows €21,320 for a T3 at €940.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.6 (rank 105, 110 cities tied), safety 5.2 (rank 317, 33 tied), nature 6.3 (rank 234, no tie). These are commune-wide scores. Grenoble reaches 9.0 on schools but 4.3 on safety: Valence is less brilliant at school and calmer.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "Parc Jouvet covers more than seven hectares with play areas, ponds and tall trees. The neighbouring Champ de Mars also has children's equipment and a view over the Rhône. The Vercors is a day trip, reachable from Valence rather than inside the commune.",
+      },
+      {
+        heading: "Valence against Grenoble and Vienne",
+        body: "Grenoble rents a T3 at €1,020 against €900 in Valence and sells flats at €2,500 per m² against €1,989. Vienne is more dynamic (+7.1% in population since 2016 against +2.9%), with safety at 5.7. Valence remains the cheapest of the three.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families looking for a low rent and space along the Rhône axis on a fairly tight budget. Those who make safety or school level decisive will look at Vienne, or at Chambéry further north. Check the carte scolaire, the catchment map tied to your address, before signing.",
+      },
+    ],
+    relatedCities: ["valence","grenoble","vienne","avignon"],
+    tags: ["valence","moving to france with children","french school system","drome"],
+  },
+  {
+    slug: "family-in-bayonne-2026",
+    title: "Family life in Bayonne (2026): the Basque coast without Anglet's prices",
+    metaTitle: "Family Life in Bayonne 2026: €1,200 T3, Flats €4,039/m²",
+    metaDesc:
+      "Raising children in Bayonne in 2026: a €1,200 T3, flats at €4,039 per m², schools 7.0, daily life 7.0, but cost of living 3.8 and 13.0% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "In Bayonne a T3 (two bedrooms and a living room) rents for €1,200 on our rent estimate and a flat sells for €4,039 per m² at the 2024-2025 median. The scores are good: daily life 7.0 (rank 76) and schools 7.0 (rank 101), but cost of living falls to 3.8 (rank 498). The city has 53,312 residents, up 5.4% since 2016, and only 13.0% are under 15.",
+    sections: [
+      {
+        heading: "What does a family home cost in Bayonne?",
+        body: "The T3 is €1,200 and the T2 €900. A flat is €4,039 per m² (1,419 sales, national DVF property register) and a house €4,621 (159 sales; a house price includes its land), 14% more. With only 159 house sales in two years the supply is narrow: a family aiming at a house in Bayonne itself will search for a long time.",
+      },
+      {
+        heading: "Do incomes justify these prices?",
+        body: "Median standard of living is €21,780 per consumption unit (Insee, Filosofi 2021), rank 265 of 586, with 17% poverty. Pau, €300 cheaper for a T3, stands at €20,970. The income gap between the two cities is €810, far below the annual rent gap: in Bayonne, housing weighs heavier.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 7.0 (rank 101, 4 cities tied), safety 5.9 (rank 230, 8 tied), nature 7.0 (rank 161, 11 tied). These are commune-wide scores. Anglet, next door, scores 8.7 on schools and 7.2 on safety, but its flats sell for €5,188 per m².",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Musée basque et de l'histoire de Bayonne, devoted to Basque traditions, is cited as suitable for young visitors. Vauban's ramparts still surround part of the old town and can be walked. The beaches of Anglet are a few minutes from Bayonne: they are not in the commune.",
+      },
+      {
+        heading: "Bayonne against Anglet and Pau",
+        body: "Anglet scores better (schools 8.7, safety 7.2) for the same €1,200 T3 but a flat that costs €1,149 more per m². Pau rents a T3 at €900 and sells at €2,135 per m², with 7.4 on schools. Bayonne costs almost as much as Anglet without its scores.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want the Basque coast, a lively old town and decent schools, with a high housing budget. Those mainly after space and a low rent will look at Pau, about 100 km away. Check the carte scolaire, the catchment map tied to your address, before signing.",
+      },
+    ],
+    relatedCities: ["bayonne","anglet","pau","biarritz"],
+    tags: ["bayonne","moving to france with children","french school system","basque country"],
+  },
+  {
+    slug: "family-in-chambery-2026",
+    title: "Family life in Chambéry (2026): the Alps at hand, the bill included",
+    metaTitle: "Family Life in Chambéry 2026: €1,100 T3, Nature 8.1",
+    metaDesc:
+      "Raising children in Chambéry in 2026: a €1,100 T3, flats at €2,895 per m², houses at €3,817, nature 8.1, schools 7.4, 17.0% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Chambéry is one of the few cities in this series to combine nature at 8.1 (rank 35) and schools at 7.4 (rank 90) with a T3 (two bedrooms and a living room) under €1,200: €1,100 on our rent estimate. The city has 60,251 residents, 17.0% under 15 and +1.8% since 2016. The trap is the house: €3,817 per m², 32% above a flat.",
+    sections: [
+      {
+        heading: "What does a family home cost in Chambéry?",
+        body: "The T3 is €1,100 and the T2 €820. A flat is €2,895 per m² (1,441 sales, national DVF property register) and a house €3,817 (185 sales; a house price includes its land). The 32% gap pushes many families to buy a flat in town or a house in a neighbouring commune, accepting the car.",
+      },
+      {
+        heading: "Do incomes keep up?",
+        body: "Median standard of living is €21,950 per consumption unit (Insee, Filosofi 2021), rank 251 of 586, with 19% poverty. Grenoble stands at €22,140 for a T3 at €1,020, Annecy at €26,250 for €1,450. Chambéry sits between the two, closer to Grenoble.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 7.4 (rank 90, 11 cities tied), safety 6.3 (rank 177, 12 tied), nature 8.1 (rank 35, 5 tied). These are commune-wide scores. Cost of living is 5.0 (rank 360): the daily bill stays average even if housing costs more than in the west.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Fontaine des Éléphants, built in 1838, is nicknamed \"les quatre sans cul\" by children, and a marked trail of elephant plaques links the main sights of the centre. The château of the Dukes of Savoy can only be visited in part, mostly on weekdays. Lac du Bourget is reachable from Chambéry: it is not in the commune.",
+      },
+      {
+        heading: "Chambéry against Grenoble and Annecy",
+        body: "Grenoble offers 9.0 on schools but only 4.3 on safety. Annecy reaches 7.3 on safety, with a T3 at €1,450 and cost of living at 3.1. Chambéry holds the middle: Grenoble's safety score is not an issue here, nor is Annecy's rent.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want mountains, good schools and a controlled rent, accepting that buying a house needs an Annecy-style budget. Those who put the best schooling first will look at Grenoble, at the price of safety. Check the carte scolaire, the catchment map tied to your address, before signing.",
+      },
+    ],
+    relatedCities: ["chambery","grenoble","annecy","aix-les-bains"],
+    tags: ["chambery","moving to france with children","french school system","savoie"],
+  },
+  {
+    slug: "family-in-avignon-2026",
+    title: "Family life in Avignon (2026): a fair rent, scores to read closely",
+    metaTitle: "Family Life in Avignon 2026: €1,000 T3, 19.3% Under 15",
+    metaDesc:
+      "Raising children in Avignon in 2026: a €1,000 T3, flats at €2,321 per m², 19.3% under 15, but schools 5.3, safety 4.3 and 33% poverty.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Avignon is among the youngest cities of this series: 19.3% under 15 among 91,760 residents. A T3 (two bedrooms and a living room) rents for €1,000 on our rent estimate and a flat sells for €2,321 per m². The scores call for caution: schools 5.3 (rank 376), safety 4.3 (rank 466), and a poverty rate of 33%. Population is down 0.7% since 2016.",
+    sections: [
+      {
+        heading: "What does a family home cost in Avignon?",
+        body: "The T3 is €1,000 and the T2 €750. A flat is €2,321 per m² (1,967 sales, national DVF property register) and a house €2,457 (784 sales; a house price includes its land), 6% more. The gap is small. Nearly 2,000 flat sales in two years show an active market, in a city whose population has nonetheless fallen 0.7% since 2016.",
+      },
+      {
+        heading: "Incomes and poverty: the context",
+        body: "Median standard of living is €17,690 per consumption unit (Insee, Filosofi 2021), rank 551 of 586, with 33% poverty. It is one of the lowest in this series. For a family on ordinary incomes, a €1,000 rent stays heavy in Avignon relative to local living standards.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 5.3 (rank 376, 34 cities tied), safety 4.3 (rank 466, 11 tied), nature 5.6 (rank 320, 20 tied). These are commune-wide scores: a given neighbourhood or school can differ from the average, which is a reason to visit before signing a lease.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Pont Saint-Bénézet can be visited with an audio guide designed for 8-16 year-olds, and a combined ticket with the Palais des Papes exists. The île de la Barthelasse, across the river, suits picnics and cycling. The gardens of the Rocher des Doms give a green break in the centre.",
+      },
+      {
+        heading: "Avignon against Nîmes and Aix-en-Provence",
+        body: "Nîmes is €40 cheaper for a T3 (€960) with the same 5.3 on schools but 3.9 on safety. Aix-en-Provence climbs to 8.3 on schools, for a T3 at €1,400 and a median living standard of €25,810. Avignon is the compromise: more affordable than Aix, less well scored.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families drawn to a lively, young city who accept average school and safety scores and check neighbourhood and school one by one, using the carte scolaire, the catchment map tied to your address. A budget that allows Aix, or a move out to Valence, changes the picture.",
+      },
+    ],
+    relatedCities: ["avignon","nimes","aix-en-provence","arles"],
+    tags: ["avignon","moving to france with children","french school system","provence"],
+  },
+  {
+    slug: "family-in-nimes-2026",
+    title: "Family life in Nîmes (2026): Roman, young and demanding on the choice of neighbourhood",
+    metaTitle: "Family Life in Nîmes 2026: €960 T3, Houses €2,852/m²",
+    metaDesc:
+      "Raising children in Nîmes in 2026: a €960 T3, flats at €2,106 per m², houses at €2,852, 16.9% under 15, schools 5.3, safety 3.9.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Nîmes rents a T3 (two bedrooms and a living room) for €960 on our rent estimate and sells a flat at €2,106 per m² at the 2024-2025 median, across 3,203 sales: a broad market for a city of 150,444 people. Scores are low on two axes that matter to a family, schools 5.3 (rank 376) and safety 3.9 (rank 515). The city has 16.9% under 15 but has lost 0.4% since 2016.",
+    sections: [
+      {
+        heading: "What does a family home cost in Nîmes?",
+        body: "The T3 is €960 and the T2 €720. A flat is €2,106 per m² (3,203 sales, national DVF property register) and a house €2,852 (1,127 sales; a house price includes its land), 35% more. It is the sharpest gap for a city this size in the series: a house climbs fast in budget, while a large flat stays within reach.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €18,760 per consumption unit (Insee, Filosofi 2021), rank 512 of 586, with 31% poverty. Montpellier, dearer (T3 at €1,150), stands at €19,670 with 28% poverty. Local living standards stay low relative to rent.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 5.3 (rank 376, 34 cities tied), safety 3.9 (rank 515, 8 tied), nature 5.6 (rank 320, 20 tied). These are commune-wide scores that flatten differences between neighbourhoods: a family should visit the catchment schools before choosing an address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Jardins de la Fontaine, free, are the family park most often cited: carp in the basins and the Temple of Diana to one side. The Musée de la Romanité, facing the arena, offers a games booklet to younger visitors. The Pont du Gard is an excursion of about 25 kilometres: it is reachable from Nîmes, not in the commune.",
+      },
+      {
+        heading: "Nîmes against Montpellier and Avignon",
+        body: "Montpellier scores better on schools (7.0) but lower still on safety (3.7) and is dearer (flats at €3,354 per m²). Avignon rents €40 higher but offers safety at 4.3. Nîmes is the cheapest of the three to buy (€2,106 against €2,321 in Avignon).",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families seeking an affordable large flat, a city rich in parks and heritage, and ready to study the choice of neighbourhood and school closely through the carte scolaire, the catchment map tied to your address. Those putting school and safety first will look at Aix-en-Provence or Valence.",
+      },
+    ],
+    relatedCities: ["nimes","montpellier","avignon","arles"],
+    tags: ["nimes","moving to france with children","french school system","occitanie"],
+  },
+  {
+    slug: "family-in-toulon-2026",
+    title: "Family life in Toulon (2026): the roadstead, Mont Faron and a balance to check",
+    metaTitle: "Family Life in Toulon 2026: €1,050 T3, Nature 7.0",
+    metaDesc:
+      "Raising children in Toulon in 2026: a €1,050 T3, flats at €2,667 per m², houses at €4,518, nature 7.0 but schools 4.5 and safety 4.1.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Toulon pairs nature at 7.0 (rank 161), a natural harbour and a T3 (two bedrooms and a living room) at €1,050 on our rent estimate with weak scores for a family: schools 4.5 (rank 442) and safety 4.1 (rank 488). The city has 180,834 residents, up 6.6% since 2016, and 15.9% are under 15. A flat costs €2,667 per m², a house €4,518.",
+    sections: [
+      {
+        heading: "What does a family home cost in Toulon?",
+        body: "The T3 is €1,050 and the T2 €780. A flat is €2,667 per m² (4,856 sales, national DVF property register) and a house €4,518 (844 sales; a house price includes its land), 69% more, the widest gap in this series. A house in Toulon costs nearly twice a flat per m², so most families live in flats.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €20,960 per consumption unit (Insee, Filosofi 2021), rank 346 of 586, with 22% poverty. Marseille, lower, stands at €20,600 for a T3 at €1,100. Toulon is slightly better off than its big neighbour.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 4.5 (rank 442, 45 cities tied), safety 4.1 (rank 488, 14 tied), nature 7.0 (rank 161, 11 tied). These are commune-wide scores. Aix-en-Provence reaches 8.3 on schools and Marseille drops to 2.4: Toulon sits between the two.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Mont Faron cable car climbs to the summit, where there is a big-cat zoo; it stops in strong wind or fire risk, so keep an alternative in mind. The Mourillon beaches, close to the centre, have supervised swimming and play areas. The Hyères islands, Porquerolles among them, are reached from the area: they are not in Toulon.",
+      },
+      {
+        heading: "Toulon against Aix-en-Provence and Marseille",
+        body: "Aix-en-Provence rents €350 more (€1,400) for 8.3 on schools and a median living standard of €25,810. Marseille rents a T3 at €1,100, with 2.4 on schools and 2.7 on safety. Toulon is the less badly scored of the Toulon-Marseille pair, at a rent €50 lower.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want the sea, the Faron and a dynamic big city at an average price, choosing the catchment school with care through the carte scolaire, the map tied to your address. Those for whom schooling comes first and who can pay €350 more will look at Aix-en-Provence.",
+      },
+    ],
+    relatedCities: ["toulon","aix-en-provence","marseille","hyeres"],
+    tags: ["toulon","moving to france with children","french school system","provence"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",
