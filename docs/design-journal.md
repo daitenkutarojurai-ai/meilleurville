@@ -678,3 +678,30 @@ Astuce : ne pas tuer le serveur avec `pkill -f` sur un motif contenu dans la com
 1. Cartes internes de la fiche (`Card` « card-sheen », cartes de sous-pages) : en-têtes `.grad-head-*` ?
 2. Bandeau cookies `components/CookieConsent.tsx` — encore en « petite note » plaque/topo/filets.
 3. Cartes héritées `RankingPreview` / `ProfileQuickAccess` / `GuidesTeaser` (feuille / plaque).
+
+## 2026-10-25 ~11:00 UTC — bandeau cookies `components/CookieConsent.tsx` (toutes les pages, FR + EN) — « Couleurs »
+
+**Surface** : le bandeau de consentement, première chose vue par chaque nouveau visiteur. Avant : « bout de
+carte » de l'identité rejetée (papier, double filet encre, bande `.topo-bg`, pointillés, `.plaque`, mono
+« N° 01 », légère rotation).
+
+**Changé**
+- Carte blanche arrondie (2xl), anneau indigo pâle, ombre indigo.
+- En-tête en `--band-bold` (indigo → violet → rose, texte blanc) : sur-titre, titre `font-display`,
+  médaillon blanc 🍪, bouton fermer blanc.
+- « Ça me va » en `.btn-couleurs` pilule ; « Non merci » en pilule indigo pâle (`--accent-soft`, texte
+  `--accent-hover`) : refus toujours aussi visible que l'acceptation.
+- Pastille aqua « GA4 · consentement » (#0E7490 sur `--band-aqua`), lien détail indigo souligné rose.
+- Animation d'entrée sans rotation (translate + scale), `prefers-reduced-motion` respecté.
+- Retirés : `.topo-bg`, `.plaque`, pointillés, mention « N° 01 » (décor). Copie, logique, gtag inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` 0 erreur.
+Captures `next dev` + playwright `/villes/lyon` 1440 et 390 px, `scrollWidth` = viewport. `npm run build`
+non lancé. ⚠️ Environnement : `npm ci` n'installe que `@next/swc-linux-x64-musl` (inutilisable) →
+`npm i --no-save @next/swc-linux-x64-gnu@16.2.9` avant `next dev`. `/a-propos` plante en dev
+(route `[locale]`), prendre `/villes/lyon`. Et toujours pas de `pkill -f` (il a encore tué le shell).
+
+**Prochaines surfaces candidates**
+1. Cartes héritées `RankingPreview` / `ProfileQuickAccess` / `GuidesTeaser` (feuille / plaque).
+2. Cartes internes de la fiche ville (`Card` « card-sheen ») : en-têtes `.grad-head-*` ?
+3. Gabarits de sous-pages ville (ex. `climat`) : découper le gros bloc en bandes.

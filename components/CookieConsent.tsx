@@ -107,46 +107,40 @@ export function CookieConsent() {
       aria-label={COPY.title}
       className="fixed bottom-3 left-3 right-3 z-[90] sm:left-5 sm:right-auto sm:bottom-5 sm:max-w-[360px] animate-cookie-in"
     >
-      {/* A slip of map paper: card stock, ink keyline inside a pencil rule, a
-          strip of contour lines down the left edge and the enamel plaque as the
-          icon. No blur, no glass, no rounded app tile. */}
-      <div className="relative rounded-[4px] bg-[var(--bg-surface)] border border-[var(--text-primary)] shadow-[0_14px_36px_-14px_rgba(24,33,47,0.45)]">
-        <div
-          className="pointer-events-none absolute inset-[3px] rounded-[2px] border border-[var(--border)]"
-          aria-hidden="true"
-        />
-        <div
-          className="topo-bg pointer-events-none absolute left-[3px] top-[3px] bottom-[3px] w-6 border-r border-dashed border-[var(--border)] opacity-80"
-          aria-hidden="true"
-        />
-
-        <button
-          type="button"
-          onClick={() => persist("denied")}
-          aria-label={COPY.dismiss}
-          className="absolute top-2 right-2 rounded-[3px] p-1 text-[var(--text-tertiary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
-        >
-          <X size={14} strokeWidth={2.2} />
-        </button>
-
-        <div className="relative pl-10 pr-4 pt-3.5 pb-3.5 sm:pl-11 sm:pr-5 sm:pt-4 sm:pb-4">
-          <div className="flex items-start gap-3 pr-5">
-            <span className="plaque plaque-small shrink-0 mt-0.5" aria-hidden="true">
-              <Cookie size={14} strokeWidth={2.2} />
+      {/* « Couleurs » (2026-10-25): white card with a vivid indigo → violet →
+          pink header strip carrying the eyebrow and the title, a pastel cookie
+          medallion, gradient primary button. No paper, no contour strip, no
+          dashed rules — the old « Carte & plaque » slip is gone. */}
+      <div className="relative overflow-hidden rounded-2xl bg-[var(--bg-surface)] ring-1 ring-[#C7D2FE] shadow-[0_18px_44px_-16px_rgba(79,70,229,0.55)]">
+        <div className="relative px-4 pt-3.5 pb-3 pr-11 sm:px-5" style={{ background: "var(--band-bold)" }}>
+          <div className="flex items-center gap-3">
+            <span
+              className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-white/95 text-xl shadow-[0_4px_12px_-4px_rgba(30,27,75,0.5)]"
+              aria-hidden="true"
+            >
+              🍪
             </span>
             <div className="min-w-0 flex-1">
-              <div className="font-mono-data text-[10px] uppercase tracking-[0.16em] text-[var(--accent-pink)]">
-                {COPY.eyebrow} · N° 01
+              <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-white">
+                {COPY.eyebrow}
               </div>
-              <div className="mt-0.5 font-display text-[18px] leading-tight text-[var(--text-primary)]">
+              <div className="mt-0.5 font-display text-[18px] leading-tight text-white">
                 {COPY.title}
               </div>
             </div>
           </div>
+          <button
+            type="button"
+            onClick={() => persist("denied")}
+            aria-label={COPY.dismiss}
+            className="absolute top-2.5 right-2.5 rounded-full p-1.5 text-white/85 hover:bg-white/20 hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+          >
+            <X size={14} strokeWidth={2.4} />
+          </button>
+        </div>
 
-          <div className="mt-2.5 border-t border-dashed border-[var(--border)]" aria-hidden="true" />
-
-          <p className="mt-2.5 text-[13px] leading-relaxed text-[var(--text-secondary)]">
+        <div className="px-4 pt-3 pb-3.5 sm:px-5 sm:pb-4">
+          <p className="text-[13px] leading-relaxed text-[var(--text-secondary)]">
             {COPY.body}
           </p>
 
@@ -154,26 +148,30 @@ export function CookieConsent() {
             <button
               type="button"
               onClick={() => persist("granted")}
-              className="flex-1 rounded-[4px] bg-[var(--accent)] px-3.5 py-2 text-[13px] font-medium text-white hover:bg-[var(--accent-hover)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2"
+              className="btn-couleurs flex-1 rounded-full px-3.5 py-2 text-[13px] font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2"
             >
               {COPY.accept}
             </button>
             <button
               type="button"
               onClick={() => persist("denied")}
-              className="flex-1 rounded-[4px] bg-transparent px-3.5 py-2 text-[13px] font-medium text-[var(--text-primary)] border border-[var(--text-primary)] hover:bg-[var(--bg-elevated)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
+              className="flex-1 rounded-full bg-[var(--accent-soft)] px-3.5 py-2 text-[13px] font-semibold text-[var(--accent-hover)] ring-1 ring-[#C7D2FE] hover:bg-[var(--band-indigo)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
             >
               {COPY.refuse}
             </button>
           </div>
 
-          <div className="mt-2.5 flex items-center justify-between gap-2">
-            <span className="font-mono-data text-[10px] uppercase tracking-[0.14em] text-[var(--text-tertiary)]" aria-hidden="true">
+          <div className="mt-3 flex items-center justify-between gap-2">
+            <span
+              className="inline-flex items-center gap-1 rounded-full bg-[var(--band-aqua)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[#0E7490]"
+              aria-hidden="true"
+            >
+              <Cookie size={11} strokeWidth={2.4} />
               GA4 · {IS_EN ? "opt-in" : "consentement"}
             </span>
             <Link
               href={COPY.detailHref}
-              className="text-[11px] text-[var(--text-secondary)] hover:text-[var(--accent)] underline decoration-[var(--accent-pink)] decoration-1 underline-offset-4"
+              className="text-[12px] font-medium text-[var(--accent)] hover:text-[var(--accent-pink)] underline decoration-[var(--accent-pink)] decoration-1 underline-offset-4"
             >
               {COPY.detail} →
             </Link>
@@ -185,11 +183,11 @@ export function CookieConsent() {
         @keyframes cookie-in {
           from {
             opacity: 0;
-            transform: translateY(14px) rotate(-0.8deg);
+            transform: translateY(14px) scale(0.98);
           }
           to {
             opacity: 1;
-            transform: translateY(0) rotate(-0.4deg);
+            transform: translateY(0) scale(1);
           }
         }
         .animate-cookie-in {
