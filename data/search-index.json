@@ -10225,6 +10225,36 @@
       "slug": "10-choses-a-faire-a-issoire-2026",
       "title": "10 choses à faire à Issoire",
       "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-meudon-2026",
+      "title": "10 choses à faire à Meudon",
+      "emoji": "🔭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-romans-sur-isere-2026",
+      "title": "10 choses à faire à Romans-sur-Isère",
+      "emoji": "👞"
+    },
+    {
+      "slug": "10-choses-a-faire-a-etampes-2026",
+      "title": "10 choses à faire à Étampes",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-dreux-2026",
+      "title": "10 choses à faire à Dreux",
+      "emoji": "👑"
+    },
+    {
+      "slug": "10-choses-a-faire-a-oyonnax-2026",
+      "title": "10 choses à faire à Oyonnax",
+      "emoji": "🪮"
+    },
+    {
+      "slug": "10-choses-a-faire-a-nogent-sur-marne-2026",
+      "title": "10 choses à faire à Nogent-sur-Marne",
+      "emoji": "🎻"
     }
   ],
   "tags": [
@@ -10909,6 +10939,11 @@
       "count": 5
     },
     {
+      "slug": "que-faire-dans-les-hauts-de-seine",
+      "label": "que faire dans les Hauts-de-Seine",
+      "count": 5
+    },
+    {
       "slug": "ski",
       "label": "ski",
       "count": 5
@@ -11096,11 +11131,6 @@
     {
       "slug": "que-faire-dans-le-nord",
       "label": "que faire dans le Nord",
-      "count": 4
-    },
-    {
-      "slug": "que-faire-dans-les-hauts-de-seine",
-      "label": "que faire dans les Hauts-de-Seine",
       "count": 4
     },
     {

@@ -67082,6 +67082,360 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["10-choses-a-faire-a-clermont-ferrand-2026","10-choses-a-faire-a-riom-2026"],
     tags: ["10 choses à faire à Issoire","activités Issoire 2026","que faire dans le Puy-de-Dôme","sorties Auvergne-Rhône-Alpes art roman","abbatiale Saint-Austremoine Issoire tour de l'Horloge"]
   },
+  {
+    slug: "10-choses-a-faire-a-meudon-2026",
+    title: "10 choses à faire à Meudon",
+    metaTitle: "10 choses à faire à Meudon en 2026",
+    metaDesc:
+      "Villa des Brillants et tombe de Rodin, observatoire, musée d'art et d'histoire, terrasse et forêt : 10 choses à faire à Meudon, dans les Hauts-de-Seine.",
+    category: "tourisme",
+    emoji: "🔭",
+    readMinutes: 5,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Meudon comptait 46 722 habitants au recensement de 2022, contre 45 010 en 2011. C'est une ville de coteau au-dessus de la Seine, où Rodin a vécu et où l'on observe le ciel depuis longtemps. Ce guide dit ce qui se visite à Meudon et ce qui relève des communes voisines.",
+    sections: [
+      {
+        heading: "1. La villa des Brillants et la tombe de Rodin",
+        body: "Rodin a passé les vingt dernières années de sa vie dans cette villa, devenue un site du musée Rodin. Le parc abrite sa tombe, surmontée du Penseur, avec une vue sur la vallée de la Seine. C'est la première visite de la ville, et elle relève bien de Meudon."
+      },
+      {
+        heading: "2. La galerie des plâtres",
+        body: "Sur le site de la villa, la galerie présente des œuvres à différents stades de leur création. On y comprend comment un bronze naît d'un plâtre. L'ouverture du site est limitée à certains jours : vérifiez avant de venir."
+      },
+      {
+        heading: "3. Le musée d'art et d'histoire",
+        body: "Il occupe une résidence du XVIIe siècle et retrace l'histoire locale, des origines rurales de Meudon à l'arrivée des scientifiques et des artistes au XXe siècle. Les expositions permanentes sont présentées comme gratuites, ce qui se confirme auprès de la ville."
+      },
+      {
+        heading: "4. L'observatoire",
+        body: "Meudon abrite un site de l'observatoire de Paris, tourné vers l'astrophysique et l'observation du Soleil. C'est d'abord un lieu de recherche : les visites se font à dates précises, à vérifier auprès de l'observatoire."
+      },
+      {
+        heading: "5. La grande terrasse",
+        body: "La terrasse du domaine domine la Seine et offre une vue sur Paris. Elle se regarde en promenade, sans équipement particulier, par temps dégagé."
+      },
+      {
+        heading: "6. La forêt de Meudon",
+        body: "La forêt couvre les hauteurs de la ville et sert de terrain de promenade et de course à pied pour les habitants. Les sentiers sont à choisir sur place, selon la météo et la saison."
+      },
+      {
+        heading: "7. Meudon-la-Forêt, un quartier à part",
+        body: "Le quartier de Meudon-la-Forêt est un ensemble résidentiel adossé au bois. C'est un quartier habité, non touristique : on y passe en allant vers la forêt."
+      },
+      {
+        heading: "8. Les bords de Seine",
+        body: "Au pied du coteau, les berges de la Seine se parcourent à pied ou à vélo. Le contraste avec les hauteurs de la ville se lit sur le plan."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 860 € par mois dans notre estimation des loyers, contre 1 700 € à Versailles et 1 800 € à Issy-les-Moulineaux. Meudon convient à qui cherche une ville résidentielle avec de la verdure, pas à qui veut des sorties nocturnes."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Meudon se rejoint depuis Paris par les transports en commun, les itinéraires étant à vérifier. Une demi-journée suffit pour la villa des Brillants et la terrasse ; comptez une journée avec le musée et la forêt."
+      }
+    ],
+    relatedCities: ["meudon", "issy-les-moulineaux", "versailles", "boulogne-billancourt"],
+    relatedGuides: ["10-choses-a-faire-a-issy-les-moulineaux-2026", "10-choses-a-faire-a-versailles-2026"],
+    tags: ["10 choses à faire à Meudon", "activités Meudon 2026", "que faire dans les Hauts-de-Seine", "villa des Brillants Rodin Meudon observatoire"]
+  },
+  {
+    slug: "10-choses-a-faire-a-romans-sur-isere-2026",
+    title: "10 choses à faire à Romans-sur-Isère",
+    metaTitle: "10 choses à faire à Romans-sur-Isère",
+    metaDesc:
+      "Musée international de la chaussure, collégiale Saint-Barnard, Pont-Vieux et rives de l'Isère : 10 choses à faire à Romans-sur-Isère, dans la Drôme.",
+    category: "tourisme",
+    emoji: "👞",
+    readMinutes: 5,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Romans-sur-Isère comptait 33 139 habitants en 2022, contre 33 613 en 2011 : la ville perd un peu de population. C'est la capitale française de la chaussure, avec un musée qui ne ressemble à aucun autre. Ce guide dit ce qu'on y voit, et ce qui se trouve de l'autre côté de l'Isère.",
+    sections: [
+      {
+        heading: "1. Le musée international de la Chaussure",
+        body: "Installé dans un couvent de la Visitation du XVIIe siècle, le musée retrace plusieurs millénaires d'histoire de la chaussure. Les sources consultées le présentent comme la principale collection publique française du genre. C'est la visite qui fait la réputation de la ville."
+      },
+      {
+        heading: "2. L'histoire industrielle de la chaussure",
+        body: "La chaussure s'est développée à Romans au milieu du XIXe siècle. Le musée explique cette histoire, dont la ville reste marquée."
+      },
+      {
+        heading: "3. La collégiale Saint-Barnard",
+        body: "Classée monument historique depuis 1840, elle domine les rives de l'Isère. La ville date sa fondation de 838, mais l'édifice actuel mêle des styles étalés sur plusieurs siècles, du roman au gothique. L'entrée y est libre aux heures d'ouverture."
+      },
+      {
+        heading: "4. Le Pont-Vieux",
+        body: "Le pont sur l'Isère a fait de Romans un lieu d'échanges dès le Moyen Âge. C'est le point de passage entre le centre et l'autre rive, et la meilleure position pour voir l'ensemble de la collégiale."
+      },
+      {
+        heading: "5. La vue depuis l'autre rive",
+        body: "De l'autre côté du pont se trouve Bourg-de-Péage, une commune distincte, accessible à pied depuis Romans. C'est de là qu'on embrasse le profil de la collégiale au-dessus de l'eau."
+      },
+      {
+        heading: "6. Le centre ancien",
+        body: "Les rues autour de la collégiale et de la place de la ville gardent des maisons anciennes. Elles se parcourent en moins d'une heure, en suivant les rues qui mènent à la rivière."
+      },
+      {
+        heading: "7. Les berges de l'Isère",
+        body: "Les rives aménagées permettent de longer l'Isère à pied ou à vélo. Comme sur toute rivière alpine, les crues sont possibles : les consignes affichées sur place font foi."
+      },
+      {
+        heading: "8. Le Vercors, à regarder de loin",
+        body: "Les contreforts du Vercors se voient à l'est de la ville. Ils relèvent d'autres communes ; les routes de montagne se vérifient en hiver."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 740 € par mois dans notre estimation, contre 900 € à Valence. Romans convient à qui cherche un budget logement bas dans la Drôme, avec la gare de Valence à portée."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Romans se rejoint par la route et par le train depuis Valence, les horaires étant à vérifier. Une demi-journée suffit pour le musée et la collégiale ; une journée en ajoutant l'autre rive."
+      }
+    ],
+    relatedCities: ["romans-sur-isere", "valence", "montelimar"],
+    relatedGuides: ["10-choses-a-faire-a-valence-2026", "10-choses-a-faire-a-montelimar-2026"],
+    tags: ["10 choses à faire à Romans-sur-Isère", "activités Romans-sur-Isère 2026", "que faire dans la Drôme", "musée de la chaussure Romans collégiale Saint-Barnard"]
+  },
+  {
+    slug: "10-choses-a-faire-a-etampes-2026",
+    title: "10 choses à faire à Étampes",
+    metaTitle: "10 choses à faire à Étampes en 2026",
+    metaDesc:
+      "Tour de Guinette, collégiale Notre-Dame-du-Fort, hôtel d'Anne de Pisseleu et clocher penché de Saint-Martin : 10 choses à faire à Étampes, dans l'Essonne.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Étampes comptait 26 601 habitants en 2022, contre 24 013 en 2011 : la ville gagne près de onze pour cent. Cité royale au sud de l'Essonne, elle garde une tour de château du XIIe siècle et plusieurs hôtels de la Renaissance. Ce guide dit ce qui se visite et ce qui reste à vérifier.",
+    sections: [
+      {
+        heading: "1. La tour de Guinette",
+        body: "Elle est le principal vestige du château royal, élevée au XIIe siècle sous Louis VI le Gros. Les conditions d'accès ont évolué après des travaux : renseignez-vous auprès de l'office de tourisme."
+      },
+      {
+        heading: "2. La collégiale Notre-Dame-du-Fort",
+        body: "Fondée en 1025 par le roi Robert le Pieux, elle conserve un portail royal du XIIe siècle. C'est l'édifice religieux le plus ancien de la ville."
+      },
+      {
+        heading: "3. L'église Saint-Martin et son clocher penché",
+        body: "Le clocher de 1537 se tient à l'écart du reste de l'édifice et penche. C'est la silhouette qu'on retient d'Étampes."
+      },
+      {
+        heading: "4. L'hôtel d'Anne de Pisseleu",
+        body: "Cet hôtel de la Renaissance est lié à la favorite de François Ier. Il abrite aujourd'hui l'office de tourisme, ce qui en fait le point de départ naturel d'une visite."
+      },
+      {
+        heading: "5. L'hôtel Diane de Poitiers",
+        body: "Un autre hôtel Renaissance porte le nom de Diane de Poitiers. Sa façade se regarde depuis la rue ; l'ouverture intérieure est à vérifier."
+      },
+      {
+        heading: "6. L'hôtel de ville néogothique",
+        body: "Le bâtiment municipal, de style néogothique, tranche avec les hôtels de la Renaissance. Il témoigne d'un autre moment de l'histoire de la ville."
+      },
+      {
+        heading: "7. L'église Saint-Gilles",
+        body: "Dans le quartier qui porte son nom, elle complète le parcours des églises d'Étampes. Elle est à voir pour qui prend le temps de traverser la ville entière."
+      },
+      {
+        heading: "8. Les rues du centre ancien",
+        body: "Le parcours entre les églises et les hôtels se fait à pied. L'office de tourisme, installé dans l'hôtel d'Anne de Pisseleu, fournit le plan."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 120 € par mois dans notre estimation, contre 1 150 € à Évry-Courcouronnes et 1 010 € à Melun. Étampes convient à qui veut du patrimoine à distance de Paris, avec le RER C."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Étampes se rejoint depuis Paris par le RER C et par la route, les horaires étant à vérifier. Une demi-journée suffit pour les monuments du centre."
+      }
+    ],
+    relatedCities: ["etampes", "evry-courcouronnes", "melun", "rambouillet"],
+    relatedGuides: ["10-choses-a-faire-a-melun-2026", "10-choses-a-faire-a-rambouillet-2026"],
+    tags: ["10 choses à faire à Étampes", "activités Étampes 2026", "que faire dans l'Essonne", "tour de Guinette Étampes Notre-Dame-du-Fort"]
+  },
+  {
+    slug: "10-choses-a-faire-a-dreux-2026",
+    title: "10 choses à faire à Dreux",
+    metaTitle: "10 choses à faire à Dreux en 2026",
+    metaDesc:
+      "Chapelle royale Saint-Louis, beffroi, église Saint-Pierre et musée d'art et d'histoire : 10 choses à faire à Dreux, en Eure-et-Loir.",
+    category: "tourisme",
+    emoji: "👑",
+    readMinutes: 5,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Dreux comptait 31 205 habitants en 2022, contre 30 536 en 2011. La ville abrite la nécropole de la maison d'Orléans et un beffroi de la Renaissance. Ce guide dit ce qui se visite à Dreux, et ce qu'il ne faut pas confondre.",
+    sections: [
+      {
+        heading: "1. La chapelle royale Saint-Louis",
+        body: "Nécropole de la maison d'Orléans, elle fut entreprise à partir de 1816. Malgré son dôme, elle compte parmi les premiers édifices français de style néogothique. C'est le monument majeur de la ville."
+      },
+      {
+        heading: "2. Le beffroi",
+        body: "Ancien hôtel de ville construit entre 1512 et 1537, il associe un rez-de-chaussée gothique à des étages de la Renaissance. Classé monument historique en 1840, il serait le seul beffroi de ce type en Eure-et-Loir selon le musée local."
+      },
+      {
+        heading: "3. L'église Saint-Pierre",
+        body: "Bâtie du XIIIe au XVIIe siècle, avec l'essentiel au XVe, elle a été agrandie au XVIe siècle. La tour sud, dite Sainte-Anne, n'a jamais été achevée. Les sources divergent sur certaines dates."
+      },
+      {
+        heading: "4. La place Métézeau",
+        body: "Elle porte le nom d'une famille d'architectes installée à Dreux pendant près d'un siècle. Elle s'ouvre devant l'église Saint-Pierre."
+      },
+      {
+        heading: "5. Le musée d'art et d'histoire",
+        body: "Il occupe une chapelle néoromane construite en 1895. Ce n'est pas la chapelle royale, que l'on confond souvent avec lui dans les listes de sites."
+      },
+      {
+        heading: "6. L'ancien Hôtel-Dieu",
+        body: "Cet édifice est protégé au titre des monuments historiques. Il se regarde depuis la rue ; l'accès intérieur est à vérifier."
+      },
+      {
+        heading: "7. Le centre ancien à pied",
+        body: "Le beffroi, l'église et la place se rejoignent en quelques minutes. Le parcours se fait en une heure, en s'arrêtant devant chaque monument."
+      },
+      {
+        heading: "8. La vallée de l'Eure",
+        body: "Le cours d'eau traverse la région. Les abords se parcourent à pied, avec la prudence habituelle près d'une rivière."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 930 € par mois dans notre estimation, contre 890 € à Chartres. Dreux convient à qui cherche un budget logement raisonnable avec un patrimoine de premier plan."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Dreux se rejoint depuis Paris par le train et par la route, les horaires étant à vérifier. Une demi-journée suffit pour la chapelle et le beffroi."
+      }
+    ],
+    relatedCities: ["dreux", "chartres", "rambouillet"],
+    relatedGuides: ["10-choses-a-faire-a-chartres-2026", "10-choses-a-faire-a-rambouillet-2026"],
+    tags: ["10 choses à faire à Dreux", "activités Dreux 2026", "que faire en Eure-et-Loir", "chapelle royale Saint-Louis Dreux beffroi"]
+  },
+  {
+    slug: "10-choses-a-faire-a-oyonnax-2026",
+    title: "10 choses à faire à Oyonnax",
+    metaTitle: "10 choses à faire à Oyonnax en 2026",
+    metaDesc:
+      "Musée du peigne et de la plasturgie, Plastics Vallée, défilé du 11 novembre 1943 et lacs du Haut-Bugey : 10 choses à faire à Oyonnax, dans l'Ain.",
+    category: "tourisme",
+    emoji: "🪮",
+    readMinutes: 5,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Oyonnax comptait 22 378 habitants en 2022, contre 22 459 en 2011 : la population est stable. La ville s'est bâtie sur le peigne en buis, devenu plastique, et porte le nom de Plastics Vallée. Ce guide dit ce qu'on y voit, entre industrie et mémoire de la Résistance.",
+    sections: [
+      {
+        heading: "1. Le musée du peigne et de la plasturgie",
+        body: "Il occupe l'ancienne usine de la Grande Vapeur, un bâtiment industriel protégé. Créé en 1977, il retrace l'histoire de la ville, du peigne en buis aux matières plastiques, et son réaménagement a été rouvert en 2011. Le tourisme régional le présente comme unique en Europe."
+      },
+      {
+        heading: "2. Les collections",
+        body: "On y trouve des peignes et des parures, des jouets, du mobilier de design, des lunettes et des machines. Elles montrent comment un savoir-faire local s'est étendu à tout un secteur."
+      },
+      {
+        heading: "3. La Plastics Vallée",
+        body: "Le nom désigne le bassin industriel de la plasturgie autour d'Oyonnax. Les usines ne se visitent pas librement : le musée est la porte d'entrée du sujet."
+      },
+      {
+        heading: "4. Le défilé du 11 novembre 1943",
+        body: "Ce jour-là, les maquisards de l'Ain défilent dans les rues d'Oyonnax, en pleine Occupation. Le fait est une date majeure de la Résistance, rappelée dans la ville."
+      },
+      {
+        heading: "5. Le centre culturel Aragon",
+        body: "Le musée est rattaché à ce pôle culturel du cours de Verdun."
+      },
+      {
+        heading: "6. Le Haut-Bugey",
+        body: "La ville est la porte d'un pays de moyenne montagne au pied du Jura. Les paysages relèvent des communes voisines et se parcourent en voiture."
+      },
+      {
+        heading: "7. Le lac de Nantua et le lac Genin",
+        body: "Ces deux lacs, à quelques kilomètres, sont des excursions à part, accessibles depuis Oyonnax. Les routes de montagne se vérifient en hiver, la baignade restant soumise aux consignes locales."
+      },
+      {
+        heading: "8. Le centre-ville",
+        body: "Le centre se parcourt à pied en moins d'une heure, avant ou après le musée."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 800 € par mois dans notre estimation, contre 840 € à Bourg-en-Bresse. Oyonnax convient à qui travaille dans la plasturgie ou cherche un budget logement bas près du Jura."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Oyonnax se rejoint surtout par la route depuis Bourg-en-Bresse ou Lyon. Une demi-journée suffit pour le musée ; une journée avec les lacs."
+      }
+    ],
+    relatedCities: ["oyonnax", "bourg-en-bresse", "saint-claude"],
+    relatedGuides: ["10-choses-a-faire-a-bourg-en-bresse-2026"],
+    tags: ["10 choses à faire à Oyonnax", "activités Oyonnax 2026", "que faire dans l'Ain", "musée du peigne et de la plasturgie Oyonnax"]
+  },
+  {
+    slug: "10-choses-a-faire-a-nogent-sur-marne-2026",
+    title: "10 choses à faire à Nogent-sur-Marne",
+    metaTitle: "10 choses à faire à Nogent-sur-Marne",
+    metaDesc:
+      "Pavillon Baltard, bords de Marne, île des Loups et parc Watteau : 10 choses à faire à Nogent-sur-Marne, dans le Val-de-Marne.",
+    category: "tourisme",
+    emoji: "🎻",
+    readMinutes: 5,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro:
+      "Nogent-sur-Marne comptait 32 998 habitants en 2022, contre 31 795 en 2011. C'est une ville de bord de rivière à l'est de Paris, où les Parisiens venaient danser en guinguette. Ce guide dit ce qu'on y voit, de la halle Baltard aux berges de la Marne.",
+    sections: [
+      {
+        heading: "1. Le pavillon Baltard",
+        body: "C'est le dernier pavillon des anciennes Halles de Paris à avoir été conservé, remonté à Nogent dans les années 1970. Classé monument historique, il accueille aujourd'hui des événements culturels. Les sources divergent sur son numéro d'origine."
+      },
+      {
+        heading: "2. L'orgue du Gaumont-Palace",
+        body: "Le pavillon abrite un orgue de cinéma de 1931 venu du Gaumont-Palace, selon la fiche du patrimoine. Il est à entendre lors des séances publiques annoncées par la ville."
+      },
+      {
+        heading: "3. Les bords de Marne",
+        body: "Les berges portent encore des villas et des pavillons qui rappellent l'âge d'or de la navigation de plaisance. La balade s'y fait à pied ou à vélo."
+      },
+      {
+        heading: "4. Les guinguettes, entre histoire et mémoire",
+        body: "La rive de la Marne a longtemps attiré les Parisiens le dimanche. Il reste surtout la trace de ce passé : vérifiez ce qui est ouvert avant de venir."
+      },
+      {
+        heading: "5. L'île des Loups",
+        body: "Cette petite île de la Marne se rejoint à pied ou en bateau. C'est une escale pour qui aime les berges et les arbres."
+      },
+      {
+        heading: "6. Le parc Watteau",
+        body: "Il porte le nom du peintre Antoine Watteau, mort à Nogent en 1721. C'est un espace vert pour la promenade et le pique-nique."
+      },
+      {
+        heading: "7. Le centre-ville",
+        body: "Le centre se tient à quelques minutes de la Marne. Il se parcourt à pied en moins d'une heure."
+      },
+      {
+        heading: "8. Vincennes et son bois, accessibles depuis Nogent",
+        body: "Le château de Vincennes et le bois sont des communes et des territoires voisins, qu'on rejoint en transports en commun depuis Nogent. Ils sont à traiter comme une sortie à part."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 860 € par mois dans notre estimation, contre 1 800 € à Vincennes. Nogent convient à qui veut des berges de rivière près de Paris, avec le RER A."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Nogent se rejoint depuis Paris par le RER A, les horaires étant à vérifier. Une demi-journée suffit pour le pavillon et les berges."
+      }
+    ],
+    relatedCities: ["nogent-sur-marne", "vincennes", "saint-maur-des-fosses"],
+    relatedGuides: ["10-choses-a-faire-a-vincennes-2026"],
+    tags: ["10 choses à faire à Nogent-sur-Marne", "activités Nogent-sur-Marne 2026", "que faire dans le Val-de-Marne", "pavillon Baltard Nogent bords de Marne"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
