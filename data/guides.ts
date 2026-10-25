@@ -38839,6 +38839,325 @@ export const GUIDES: Guide[] = [
     tags: ["famille Le Havre 2026","vivre en famille Le Havre","loyer T3 Le Havre","écoles Le Havre","Le Havre avec enfants"],
   },
   {
+    slug: "famille-a-quimper-2026",
+    title: "Famille à Quimper en 2026 : une préfecture bretonne à taille d'enfant",
+    metaTitle: "Famille à Quimper 2026 : T3 à 940 €, maison à 2 259 €/m²",
+    metaDesc: "Famille à Quimper : T3 à 940 €, appartements à 2 122 €/m² (maisons à 2 259 €), 14,3 % de moins de 15 ans, Écoles 6,6, Sécurité 6,1. Verdict par profil.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Une famille qui vise Quimper loue un T3 940 € (notre estimation des loyers) et peut acheter une maison à 2 259 € le m² en médiane 2024-2025, à peine 6 % au-dessus de l'appartement. La ville compte 64 530 habitants, en a gagné 1,8 % depuis 2016, et 14,3 % ont moins de 15 ans. Les notes sont solides sans être exceptionnelles : Sécurité 6,1, Écoles 6,6, Vie quotidienne 6,6.",
+    sections: [
+      {
+        heading: "Quel budget logement pour une famille à Quimper ?",
+        body: "Le T3 est à 940 €, le T2 à 700 €. À l'achat, l'appartement vaut 2 122 € le m² (1 238 ventes) et la maison 2 259 € (927 ventes). L'écart entre les deux est faible : à Quimper, la maison n'est pas réservée aux budgets de métropole, et près d'un millier de ventes en deux ans montrent un marché réel.",
+      },
+      {
+        heading: "Le revenu local suit-il le loyer ?",
+        body: "Le niveau de vie médian est de 22 700 € par unité de consommation (Insee, Filosofi 2021), au rang 203 sur 586, avec 13 % de pauvreté. C'est plus que Lorient (20 860 €, 21 % de pauvreté) pour un T3 de 900 €. Un loyer de 940 € pèse donc moins lourd ici que dans la plupart des villes du lot.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 6,6 (rang 105, 110 villes à égalité), Sécurité 6,1 (rang 198, 20 villes à égalité), Nature 6,4 (rang 173, 61 villes à égalité). Ce sont des notes communales. Brest, autre grande ville du Finistère, monte à 7,4 en Écoles mais descend à 5,7 en Sécurité : Quimper échange un peu de scolaire contre un peu de tranquillité.",
+      },
+      {
+        heading: "Que faire avec des enfants à Quimper ?",
+        body: "Le jardin de la Retraite et les berges de l'Odet servent de terrain de jeu en centre-ville. Le musée départemental breton, installé dans l'ancien palais des évêques, propose un parcours sur le patrimoine breton. Le domaine de Lanniron, au bord de l'Odet, organise des jeux pour enfants ; vérifiez ses périodes d'ouverture avant de venir.",
+      },
+      {
+        heading: "Quimper face à Lorient et à Brest",
+        body: "Lorient est 40 € moins chère en T3 mais à 5,5 en Sécurité contre 6,1. Brest est la moins chère des trois (850 €) et la mieux notée en Écoles (7,4), au prix d'une ville de 140 993 habitants. Quimper est la plus petite, avec le plus haut niveau de vie médian des trois (22 700 €, contre 21 420 € à Brest).",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Quimper convient aux familles qui veulent une maison à prix raisonnable dans une ville à taille humaine, avec des revenus bretons ordinaires. Une famille qui place l'excellence scolaire en premier regardera Rennes ou Brest ; celle qui veut un loyer minimal, Brest également.",
+      },
+    ],
+    relatedCities: ["quimper","lorient","brest","rennes"],
+    relatedGuides: [
+      "vivre-a-quimper-2026",
+      "10-choses-a-faire-a-quimper-2026",
+    ],
+    tags: ["famille Quimper 2026","vivre en famille Quimper","loyer T3 Quimper","écoles Quimper","Quimper avec enfants"],
+  },
+  {
+    slug: "famille-a-valence-2026",
+    title: "Famille à Valence en 2026 : loyers doux, sécurité moyenne, vallée du Rhône",
+    metaTitle: "Famille à Valence 2026 : T3 à 900 €, 16,3 % de moins de 15 ans",
+    metaDesc: "Famille à Valence : T3 à 900 €, appartements à 1 989 €/m², maisons à 2 510 €, 16,3 % de moins de 15 ans, Sécurité 5,2, Coût de la vie 6,7.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Valence se loue 900 € le T3 (notre estimation des loyers) et se vend 1 989 € le m² en appartement, médiane 2024-2025. Son meilleur argument est le Coût de la vie, noté 6,7 (rang 135), et sa population jeune : 16,3 % de moins de 15 ans pour 64 288 habitants, en hausse de 2,9 % depuis 2016. Le point faible est la Sécurité, à 5,2 (rang 317).",
+    sections: [
+      {
+        heading: "Combien coûte un logement familial à Valence ?",
+        body: "Le T3 est à 900 €, le T2 à 680 €. L'appartement vaut 1 989 € le m² (1 535 ventes). La maison coûte 2 510 € (422 ventes), soit 26 % de plus : à Valence, l'écart justifie de comparer sérieusement un grand appartement et une maison avant de se décider.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 20 610 € par unité de consommation (Insee, Filosofi 2021), au rang 374 sur 586, avec 22 % de pauvreté. Le revenu local est donc modeste ; la ville compense par des loyers sous la moyenne des préfectures de ce lot. Vienne, plus au nord, affiche 21 320 € pour un T3 de 940 €.",
+      },
+      {
+        heading: "Écoles, sécurité, nature : quelles notes ?",
+        body: "Écoles 6,6 (rang 105, 110 villes à égalité), Sécurité 5,2 (rang 317, 33 villes à égalité), Nature 6,3 (rang 234, sans égalité). Ce sont des notes communales. Grenoble, plus au sud-est, atteint 9,0 en Écoles mais 4,3 en Sécurité : Valence est moins brillante à l'école et plus calme.",
+      },
+      {
+        heading: "Que faire avec des enfants à Valence ?",
+        body: "Le parc Jouvet couvre plus de sept hectares avec des aires de jeux, des pièces d'eau et de grands arbres. Le Champ de Mars, voisin, offre aussi des équipements pour enfants et une vue sur le Rhône. Le Vercors se prend comme une excursion à la journée : il est accessible depuis Valence, pas dans la commune.",
+      },
+      {
+        heading: "Valence face à Grenoble et à Vienne",
+        body: "Grenoble loue un T3 1 020 € contre 900 € à Valence et vend l'appartement 2 500 € le m² contre 1 989 €. Vienne est dans une dynamique plus vive (+7,1 % d'habitants depuis 2016 contre +2,9 %), avec une Sécurité de 5,7. Valence reste la moins chère des trois.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Valence convient aux familles qui cherchent un loyer bas et de l'espace sur l'axe rhodanien, avec un budget plutôt serré. Celles qui font de la sécurité ou du niveau scolaire un critère décisif iront voir Vienne, ou Chambéry plus au nord.",
+      },
+    ],
+    relatedCities: ["valence","grenoble","vienne","avignon"],
+    relatedGuides: [
+      "vivre-a-valence-2026",
+      "acheter-a-valence-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-valence-2026",
+    ],
+    tags: ["famille Valence 2026","vivre en famille Valence","loyer T3 Valence","écoles Valence","Valence avec enfants"],
+  },
+  {
+    slug: "famille-a-bayonne-2026",
+    title: "Famille à Bayonne en 2026 : la côte basque sans le prix d'Anglet",
+    metaTitle: "Famille à Bayonne 2026 : T3 à 1 200 €, appartements 4 039 €/m²",
+    metaDesc: "Famille à Bayonne : T3 à 1 200 €, appartements à 4 039 €/m², Écoles 7,0, Vie quotidienne 7,0, mais Coût de la vie 3,8 et 13,0 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "À Bayonne, un T3 se loue 1 200 € (notre estimation des loyers) et un appartement se vend 4 039 € le m² en médiane 2024-2025. En face, les notes sont bonnes : Vie quotidienne 7,0 (rang 76) et Écoles 7,0 (rang 101), mais le Coût de la vie tombe à 3,8 (rang 498). La ville compte 53 312 habitants, +5,4 % depuis 2016, et seulement 13,0 % de moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Bayonne ?",
+        body: "Le T3 est à 1 200 €, le T2 à 900 €. L'appartement vaut 4 039 € le m² (1 419 ventes) et la maison 4 621 € (159 ventes), soit 14 % de plus. Avec seulement 159 ventes de maisons en deux ans, l'offre est étroite : une famille qui vise une maison à Bayonne même cherchera longtemps.",
+      },
+      {
+        heading: "Les revenus justifient-ils ces prix ?",
+        body: "Le niveau de vie médian est de 21 780 € par unité de consommation (Insee, Filosofi 2021), au rang 265 sur 586, avec 17 % de pauvreté. Pau, moins chère de 300 € en T3, est à 20 970 €. L'écart de revenu entre les deux villes est de 810 €, bien inférieur à l'écart de loyer annuel : à Bayonne, le logement pèse plus lourd.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 7,0 (rang 101, 4 villes à égalité), Sécurité 5,9 (rang 230, 8 villes à égalité), Nature 7,0 (rang 161, 11 villes à égalité). Ce sont des notes communales. Anglet, collée à Bayonne, obtient 8,7 en Écoles et 7,2 en Sécurité, mais son appartement se vend 5 188 € le m².",
+      },
+      {
+        heading: "Que faire avec des enfants à Bayonne ?",
+        body: "Le musée basque et de l'histoire de Bayonne, tourné vers les traditions du Pays basque, est cité comme adapté aux jeunes visiteurs. Les remparts de Vauban entourent encore une partie de la vieille ville et se parcourent à pied. Les plages d'Anglet sont accessibles en quelques minutes depuis Bayonne : elles ne sont pas dans la commune.",
+      },
+      {
+        heading: "Bayonne face à Anglet et à Pau",
+        body: "Anglet est mieux notée (Écoles 8,7, Sécurité 7,2) pour un T3 identique à 1 200 € mais un mètre carré plus cher de 1 149 €. Pau loue le T3 900 € et vend 2 135 € le m², avec 7,4 en Écoles. Bayonne coûte presque autant qu'Anglet sans en avoir les notes.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Bayonne convient aux familles qui veulent la côte basque, une vieille ville vivante et des écoles correctes, avec un budget logement élevé. Celles qui cherchent surtout de l'espace et un loyer bas regarderont Pau, à environ 100 km.",
+      },
+    ],
+    relatedCities: ["bayonne","anglet","pau","biarritz"],
+    relatedGuides: [
+      "vivre-a-bayonne-2026",
+      "acheter-a-bayonne-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-bayonne-2026",
+    ],
+    tags: ["famille Bayonne 2026","vivre en famille Bayonne","loyer T3 Bayonne","écoles Bayonne","Bayonne avec enfants"],
+  },
+  {
+    slug: "famille-a-chambery-2026",
+    title: "Famille à Chambéry en 2026 : les Alpes à portée, la facture en prime",
+    metaTitle: "Famille à Chambéry 2026 : T3 à 1 100 €, Nature 8,1, Écoles 7,4",
+    metaDesc: "Famille à Chambéry : T3 à 1 100 €, appartements à 2 895 €/m² (maisons à 3 817 €), Nature 8,1, Écoles 7,4, Sécurité 6,3, 17,0 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Chambéry est l'une des rares villes de ce lot à cumuler une Nature à 8,1 (rang 35) et des Écoles à 7,4 (rang 90) avec un T3 sous les 1 200 € : 1 100 € (notre estimation des loyers). La ville compte 60 251 habitants, 17,0 % de moins de 15 ans et +1,8 % depuis 2016. Le piège est la maison : 3 817 € le m², 32 % au-dessus de l'appartement.",
+    sections: [
+      {
+        heading: "Combien coûte un logement familial à Chambéry ?",
+        body: "Le T3 est à 1 100 €, le T2 à 820 €. L'appartement vaut 2 895 € le m² (1 441 ventes), la maison 3 817 € (185 ventes). L'écart de 32 % pousse beaucoup de familles à acheter un appartement en ville ou une maison dans une commune voisine, en acceptant la voiture.",
+      },
+      {
+        heading: "Les revenus suivent-ils ?",
+        body: "Le niveau de vie médian est de 21 950 € par unité de consommation (Insee, Filosofi 2021), au rang 251 sur 586, avec 19 % de pauvreté. Grenoble est à 22 140 € pour un T3 de 1 020 €, Annecy à 26 250 € pour 1 450 €. Chambéry se place entre les deux, plus près de Grenoble.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 7,4 (rang 90, 11 villes à égalité), Sécurité 6,3 (rang 177, 12 villes à égalité), Nature 8,1 (rang 35, 5 villes à égalité). Ce sont des notes communales. Le Coût de la vie, lui, est à 5,0 (rang 360) : la facture quotidienne reste dans la moyenne même si le logement coûte plus que dans l'Ouest.",
+      },
+      {
+        heading: "Que faire avec des enfants à Chambéry ?",
+        body: "La fontaine des Éléphants, érigée en 1838, est surnommée « les quatre sans cul » par les enfants, et un parcours balisé d'écussons en forme d'éléphants relie les lieux phares du centre. Le château des ducs de Savoie ne se visite que partiellement, surtout en semaine. Le lac du Bourget se rejoint depuis Chambéry : il est accessible depuis, pas dans la commune.",
+      },
+      {
+        heading: "Chambéry face à Grenoble et à Annecy",
+        body: "Grenoble offre 9,0 en Écoles mais seulement 4,3 en Sécurité. Annecy atteint 7,3 en Sécurité, avec un T3 à 1 450 € et un Coût de la vie à 3,1. Chambéry tient le milieu : la Sécurité de Grenoble n'y est pas un souci, le loyer d'Annecy non plus.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Chambéry convient aux familles qui veulent la montagne, de bonnes écoles et un loyer maîtrisé, en acceptant que l'achat d'une maison demande un budget annécien. Celles qui visent d'abord le meilleur scolaire iront voir Grenoble, au prix de la sécurité.",
+      },
+    ],
+    relatedCities: ["chambery","grenoble","annecy","aix-les-bains"],
+    relatedGuides: [
+      "vivre-a-chambery-2026",
+      "acheter-a-chambery-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-chambery-2026",
+      "etudiant-a-chambery-2026",
+    ],
+    tags: ["famille Chambéry 2026","vivre en famille Chambéry","loyer T3 Chambéry","écoles Chambéry","Chambéry avec enfants"],
+  },
+  {
+    slug: "famille-a-avignon-2026",
+    title: "Famille à Avignon en 2026 : un loyer correct, des notes à lire de près",
+    metaTitle: "Famille à Avignon 2026 : T3 à 1 000 €, 19,3 % de moins de 15 ans",
+    metaDesc: "Famille à Avignon : T3 à 1 000 €, appartements à 2 321 €/m², 19,3 % de moins de 15 ans, mais Écoles 5,3, Sécurité 4,3 et 33 % de pauvreté. Verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Avignon fait partie des villes les plus jeunes de ce lot : 19,3 % de moins de 15 ans pour 91 760 habitants. Un T3 s'y loue 1 000 € (notre estimation des loyers) et un appartement se vend 2 321 € le m². Les notes obligent à la prudence : Écoles 5,3 (rang 376), Sécurité 4,3 (rang 466), et un taux de pauvreté de 33 %. La population recule de 0,7 % depuis 2016.",
+    sections: [
+      {
+        heading: "Quel budget logement à Avignon ?",
+        body: "Le T3 est à 1 000 €, le T2 à 750 €. L'appartement vaut 2 321 € le m² (1 967 ventes) et la maison 2 457 € (784 ventes), 6 % de plus. L'écart est faible. Près de 2 000 ventes d'appartements en deux ans montrent un marché actif, dans une ville dont la population recule pourtant de 0,7 % depuis 2016.",
+      },
+      {
+        heading: "Revenus et pauvreté : le contexte",
+        body: "Le niveau de vie médian est de 17 690 € par unité de consommation (Insee, Filosofi 2021), au rang 551 sur 586, avec 33 % de pauvreté. C'est l'un des plus bas du lot. Pour une famille aux revenus ordinaires, un loyer de 1 000 € reste lourd à Avignon par rapport au niveau de vie des voisins.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 5,3 (rang 376, 34 villes à égalité), Sécurité 4,3 (rang 466, 11 villes à égalité), Nature 5,6 (rang 320, 20 villes à égalité). Ce sont des notes communales : un quartier ou un établissement précis peut s'écarter de la moyenne, ce qui justifie une visite avant de signer un bail.",
+      },
+      {
+        heading: "Que faire avec des enfants à Avignon ?",
+        body: "Le pont Saint-Bénézet se parcourt avec un audioguide pensé pour les 8-16 ans, et un billet couplé avec le palais des Papes existe. L'île de la Barthelasse, face à la ville, se prête au pique-nique et au vélo. Les jardins du rocher des Doms offrent une pause verte en centre-ville.",
+      },
+      {
+        heading: "Avignon face à Nîmes et à Aix-en-Provence",
+        body: "Nîmes est 40 € moins chère en T3 (960 €) avec les mêmes 5,3 en Écoles mais 3,9 en Sécurité. Aix-en-Provence monte à 8,3 en Écoles, pour un T3 à 1 400 € et un niveau de vie de 25 810 €. Avignon est donc le compromis : plus abordable qu'Aix, moins bien notée.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Avignon convient aux familles attirées par une ville vivante et jeune qui acceptent des notes moyennes en Écoles et en Sécurité et vérifient quartier et établissement un par un. Un budget qui permet Aix, ou l'éloignement vers Valence, change la donne.",
+      },
+    ],
+    relatedCities: ["avignon","nimes","aix-en-provence","arles"],
+    relatedGuides: [
+      "vivre-a-avignon-2026",
+      "acheter-a-avignon-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-avignon-2026",
+      "etudiant-a-avignon-2026",
+    ],
+    tags: ["famille Avignon 2026","vivre en famille Avignon","loyer T3 Avignon","écoles Avignon","Avignon avec enfants"],
+  },
+  {
+    slug: "famille-a-nimes-2026",
+    title: "Famille à Nîmes en 2026 : romaine, jeune et exigeante sur le choix du quartier",
+    metaTitle: "Famille à Nîmes 2026 : T3 à 960 €, maisons à 2 852 €/m²",
+    metaDesc: "Famille à Nîmes : T3 à 960 €, appartements à 2 106 €/m² (maisons à 2 852 €), 16,9 % de moins de 15 ans, Écoles 5,3, Sécurité 3,9. Verdict par profil.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Nîmes loue un T3 960 € (notre estimation des loyers) et vend un appartement 2 106 € le m² en médiane 2024-2025, sur 3 203 ventes : un marché large pour une ville de 150 444 habitants. Les notes sont basses sur deux axes qui comptent pour une famille, Écoles 5,3 (rang 376) et Sécurité 3,9 (rang 515). La ville compte 16,9 % de moins de 15 ans mais recule de 0,4 % depuis 2016.",
+    sections: [
+      {
+        heading: "Combien coûte un logement familial à Nîmes ?",
+        body: "Le T3 est à 960 €, le T2 à 720 €. L'appartement vaut 2 106 € le m² (3 203 ventes) et la maison 2 852 € (1 127 ventes), 35 % de plus. L'écart est le plus net d'une ville de cette taille dans ce lot : pour une maison, le budget grimpe vite, alors qu'un grand appartement reste à portée.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 18 760 € par unité de consommation (Insee, Filosofi 2021), au rang 512 sur 586, avec 31 % de pauvreté. Montpellier, plus chère (T3 à 1 150 €), est à 19 670 € avec 28 % de pauvreté. Le niveau de vie local reste bas par rapport au loyer.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 5,3 (rang 376, 34 villes à égalité), Sécurité 3,9 (rang 515, 8 villes à égalité), Nature 5,6 (rang 320, 20 villes à égalité). Ce sont des notes communales, qui écrasent la différence entre quartiers : une famille a intérêt à visiter les écoles de secteur avant de choisir son adresse.",
+      },
+      {
+        heading: "Que faire avec des enfants à Nîmes ?",
+        body: "Les jardins de la Fontaine, gratuits, sont le parc familial le plus souvent cité : carpes dans les bassins et temple de Diane sur le côté. Le Musée de la Romanité, face aux arènes, propose un livret-jeux aux plus jeunes. Le pont du Gard est une excursion d'environ 25 kilomètres : il est accessible depuis Nîmes, pas dans la commune.",
+      },
+      {
+        heading: "Nîmes face à Montpellier et à Avignon",
+        body: "Montpellier est mieux notée en Écoles (7,0) mais encore plus basse en Sécurité (3,7) et plus chère (apparts à 3 354 € le m²). Avignon loue 40 € plus cher mais offre une Sécurité de 4,3. Nîmes est la moins chère à l'achat des trois (2 106 € contre 2 321 € à Avignon).",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Nîmes convient aux familles qui cherchent un grand appartement abordable, une ville riche en parcs et en patrimoine, et qui sont prêtes à étudier de près le choix du quartier et de l'établissement. Celles qui placent école et sécurité en tête iront voir Aix-en-Provence ou Valence.",
+      },
+    ],
+    relatedCities: ["nimes","montpellier","avignon","arles"],
+    relatedGuides: [
+      "vivre-a-nimes-2026",
+      "acheter-a-nimes-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-nimes-2026",
+      "etudiant-a-nimes-2026",
+    ],
+    tags: ["famille Nîmes 2026","vivre en famille Nîmes","loyer T3 Nîmes","écoles Nîmes","Nîmes avec enfants"],
+  },
+  {
+    slug: "famille-a-toulon-2026",
+    title: "Famille à Toulon en 2026 : la rade, le Faron et un équilibre à vérifier",
+    metaTitle: "Famille à Toulon 2026 : T3 à 1 050 €, Nature 7,0, Écoles 4,5",
+    metaDesc: "Famille à Toulon : T3 à 1 050 €, appartements à 2 667 €/m², maisons à 4 518 €, Nature 7,0 mais Écoles 4,5 et Sécurité 4,1. +6,6 % d'habitants depuis 2016.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Toulon associe une Nature à 7,0 (rang 161), une rade et un T3 à 1 050 € (notre estimation des loyers), à des notes faibles pour une famille : Écoles 4,5 (rang 442) et Sécurité 4,1 (rang 488). La ville compte 180 834 habitants, en a gagné 6,6 % depuis 2016, et 15,9 % ont moins de 15 ans. L'appartement coûte 2 667 € le m², la maison 4 518 €.",
+    sections: [
+      {
+        heading: "Quel budget logement à Toulon ?",
+        body: "Le T3 est à 1 050 €, le T2 à 780 €. L'appartement vaut 2 667 € le m² (4 856 ventes), la maison 4 518 € (844 ventes), soit 69 % de plus, l'écart le plus large du lot. Une maison à Toulon coûte presque deux fois le prix d'un appartement au mètre carré : la plupart des familles se logent donc en appartement.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 20 960 € par unité de consommation (Insee, Filosofi 2021), au rang 346 sur 586, avec 22 % de pauvreté. Marseille, plus bas, est à 20 600 € pour un T3 à 1 100 €. Toulon est légèrement plus aisée que sa grande voisine.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 4,5 (rang 442, 45 villes à égalité), Sécurité 4,1 (rang 488, 14 villes à égalité), Nature 7,0 (rang 161, 11 villes à égalité). Ce sont des notes communales. Aix-en-Provence atteint 8,3 en Écoles et Marseille tombe à 2,4 : Toulon se place entre les deux.",
+      },
+      {
+        heading: "Que faire avec des enfants à Toulon ?",
+        body: "Le téléphérique du mont Faron monte au sommet, où se trouve une fauverie ; il s'interrompt en cas de vent fort ou de risque d'incendie, donc prévoyez une alternative. Les plages du Mourillon, proches du centre, ont une baignade surveillée et des aires de jeux. Les îles d'Hyères, dont Porquerolles, se rejoignent depuis la région : elles sont accessibles depuis, pas à Toulon.",
+      },
+      {
+        heading: "Toulon face à Aix-en-Provence et à Marseille",
+        body: "Aix-en-Provence loue 350 € de plus (1 400 €) pour 8,3 en Écoles et un niveau de vie de 25 810 €. Marseille loue un T3 à 1 100 €, avec 2,4 en Écoles et 2,7 en Sécurité. Toulon est la moins mal notée du couple Toulon-Marseille, à un loyer inférieur de 50 €.",
+      },
+      {
+        heading: "Verdict familial",
+        body: "Toulon convient aux familles qui veulent la mer, la montagne du Faron et une grande ville dynamique à prix moyen, en choisissant l'école de secteur avec soin. Celles pour qui le scolaire prime et qui peuvent payer 350 € de plus iront regarder Aix-en-Provence.",
+      },
+    ],
+    relatedCities: ["toulon","aix-en-provence","marseille","hyeres"],
+    relatedGuides: [
+      "vivre-a-toulon-2026",
+      "acheter-a-toulon-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-toulon-2026",
+      "etudiant-a-toulon-2026",
+      "retraite-a-toulon-2026",
+    ],
+    tags: ["famille Toulon 2026","vivre en famille Toulon","loyer T3 Toulon","écoles Toulon","Toulon avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",

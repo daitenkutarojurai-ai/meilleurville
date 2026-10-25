@@ -23,7 +23,7 @@ villes. Comment écrire un lot : skill `.claude/skills/guide-batch/`.
 
 | # | Série FR | Jumelle EN | FR mesuré | EN mesuré | Cible | Statut |
 |---|---|---|---|---|---|---|
-| 1 | `famille-a-[ville]-2026` (+ `famille-au-mans-2026`, `famille-au-havre-2026`) | `family-in-[city]-2026` | 34 | 33 | 60 | 🟢 FR lot 3 ensuite (écart 1 : le-mans reportée) |
+| 1 | `famille-a-[ville]-2026` (+ `famille-au-mans-2026`, `famille-au-havre-2026`) | `family-in-[city]-2026` | 41 | 33 | 60 | 🟢 lot EN 3 ensuite (écart 8 : 7 jumelles du lot 3 + le-mans reportée) |
 | 2 | `retraite-a-[ville]-2026` | `retiring-in-[city]-2026` | 30 | 31 | 50 | 🟢 |
 | 3 | `etudiant-a-[ville]-2026` | `studying-in-[city]-2026` | 40 | 40 (+1 guide national) | 60 | 🟢 parité atteinte, FR lot 4 ensuite |
 | 4 | `vivre-sans-voiture-[ville]-guide-2026` | `car-free-living-in-[city]-2026` | 15 (+1 guide national) | 15 | 30 | 🟢 |
@@ -35,7 +35,8 @@ Déjà couvertes : lyon, nantes, bordeaux, toulouse, rennes, strasbourg, angers,
 marseille, nice, caen, dijon, tours, metz, clermont-ferrand, orleans, pau, besancon, le-mans.
 - Lot 1 : ✅ livré 2026-10-22 pour grenoble, reims, rouen, brest, saint-etienne, limoges, amiens (7). Restent : paris, toulon, nimes (non écrites ce run, pas faute de données ; à faire au lot suivant).
 - Lot 2 : ✅ livré 2026-10-22 pour perpignan, annecy, la-rochelle, poitiers, nancy, vannes, le-havre (7, slug `famille-au-havre-2026`). Reportées : mulhouse (pas de prix DVF, Alsace), avignon, chambery (non écrites ce run, données suffisantes).
-- Lot 3 : villes moyennes à fort score Famille (compile l'axe famille depuis `lib/`, prends les 10 premières
+- Lot 3 : ✅ livré 2026-10-25 pour quimper, valence, bayonne, chambery, avignon, nimes, toulon (7). Reportées : colmar et mulhouse (Alsace, pas de prix DVF). Lot 4 : aix-en-provence, montauban, troyes, angouleme, lorient, arles, cherbourg, paris (à mesurer).
+- (ancien libellé) Lot 3 : villes moyennes à fort score Famille (compile l'axe famille depuis `lib/`, prends les 10 premières
   non couvertes, population ≥ 30 000).
 Jumelles EN : ✅ les 7 du lot 1 livrées le 2026-10-22 (run suivant). Reste `family-in-le-mans-2026`, **reportée** : le guide FR `famille-au-mans-2026` (juillet) porte des fourchettes non sourcées (maison 250 000 €, budget 1 940–2 550 €, Paris à 56 min) ; à réécrire d'abord côté FR sur chiffres lus par module, puis la jumelle. Écart FR→EN = 1 → **le prochain run sur cette série est le lot FR 2**.
 
@@ -68,3 +69,4 @@ Liste des manques : diff des slugs de ville FR/EN (`grep -o 'slug: "demenager-a-
 - 2026-10-22 (run séries, 13h40 UTC) : family-in EN +7 (grenoble, reims, rouen, brest, saint-etienne, limoges, amiens). Mêmes chiffres que les guides FR, 6 sections, incises voyageur étranger (T3, carte scolaire, DVF), pas de `relatedGuides` (champ absent du type EnGuide). Compteurs mesurés FR 27, EN 26. Reportée : le-mans (voir plus haut). tsc, integrity, search-index(:check) verts ; aucun tag neuf.
 - 2026-10-22 (run séries, 3e) : famille-a lot 2, +7 guides FR (perpignan, annecy, la-rochelle, poitiers, nancy, vannes, le-havre). Compteur mesuré FR 34 (`famille-a*`, + famille-au-havre), EN 26 → le prochain run est le lot EN (7 jumelles). Chiffres lus par module ; faits nommés recoupés par recherche web ; pas de tarif ni d'horaire ; « accessible depuis » pour Canet, Futuroscope, Villers-lès-Nancy, île de Ré, îles du golfe, Étretat. tsc, integrity, search-index(:check) verts.
 - 2026-10-24 (run séries) : family-in-* EN lot 2, +7 jumelles (perpignan, annecy, la-rochelle, poitiers, nancy, vannes, le-havre). Compteurs mesurés FR 34, EN 33 (reste family-in-le-mans-2026, reportée, voir plus haut) → le prochain run est le lot FR 3 (villes moyennes à fort score Famille, ≥ 30 000 hab. ; paris, toulon, nimes, avignon, chambery restent candidates). Mêmes chiffres que les guides FR, 6 sections, pas de `relatedGuides` (absent du type EnGuide). tsc, integrity, search-index(:check), sitemap:check verts (EN 32 080 URL) ; aucun tag neuf.
+- 2026-10-25 (run séries) : famille-a lot 3, +7 guides FR (quimper, valence, bayonne, chambery, avignon, nimes, toulon). Compteur mesuré FR 41 (`famille-a*`), EN 33 → le prochain run est le lot EN (7 jumelles). Chiffres lus par module (rangs et ex æquo sur 593) ; faits nommés recoupés par recherche web ; pas d'horaire ni de tarif ; « accessible depuis » pour Vercors, plages d'Anglet, lac du Bourget, pont du Gard, îles d'Hyères. tsc, integrity, search-index(:check) verts ; aucun tag neuf.
