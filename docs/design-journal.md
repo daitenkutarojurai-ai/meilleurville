@@ -705,3 +705,28 @@ non lancé. ⚠️ Environnement : `npm ci` n'installe que `@next/swc-linux-x64-
 1. Cartes héritées `RankingPreview` / `ProfileQuickAccess` / `GuidesTeaser` (feuille / plaque).
 2. Cartes internes de la fiche ville (`Card` « card-sheen ») : en-têtes `.grad-head-*` ?
 3. Gabarits de sous-pages ville (ex. `climat`) : découper le gros bloc en bandes.
+
+## 2026-10-25 ~16:00 UTC — cartes héritées de l'accueil : `ProfileQuickAccess`, `RankingPreview`, `GuidesTeaser` (FR + EN)
+
+**Surface** : les trois blocs « feuille / plaque » de la page d'accueil (FR `/` et EN `/`).
+
+**Changé**
+- `ProfileQuickAccess` (le plus daté) : cartes blanches arrondies (2xl), anneau indigo pâle, ombre indigo,
+  survol levé à ombre rose ; tuile d'icône en dégradé `.grad-head-N` (rotation par index, icône blanche) au
+  lieu de la `.plaque` ; compteur « 01 / 07 » en pastille indigo ; N°1 en libellé rose + ville en pilule
+  indigo (fin de la `plaque-small`). Carte « Cadre de vie — méga-index » : fin du `.topo-bg` papier,
+  passée en tuile vive `grad-head-5` (texte blanc), la seule de la grille. Libellé « légendes » → « profils ».
+- `RankingPreview` : sur-titre « Classements 2026 · 19 feuilles » → « 2026 · 19 classements » ; filets
+  pointillés → pleins ; commentaires « Carte & plaque » réécrits.
+- `GuidesTeaser` : pointillés → filet plein. Les trois en-têtes de section perdent le filet gris de tête
+  (`border-t pt-6`, vestige de feuille de carte).
+- Non touché : liens, données, copie éditoriale.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` 0 erreur sur les
+3 fichiers. Captures `next dev` + playwright `/` à 1440 et 390 px, `scrollWidth` = viewport. Contrastes :
+rose #DB2777 sur blanc 4,6:1, indigo #4338CA sur `--band-indigo` 6,5:1. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Cartes internes de la fiche ville (`Card` « card-sheen ») : en-têtes `.grad-head-*` ?
+2. Gabarits de sous-pages ville (ex. `climat`) : découper le gros bloc en bandes.
+3. Hub `/classements` : cartes de classement, vestiges plaque / pointillés (`grep -rn "border-dashed\|plaque\|topo-bg" app components`).

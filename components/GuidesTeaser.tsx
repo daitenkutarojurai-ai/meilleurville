@@ -30,7 +30,7 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   return (
     <section id="guides" className="band band-sky py-8 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
+        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <EmojiBadge emoji="📚" tone="sky" size="lg" className="mb-3" />
             <p className="mb-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
@@ -90,7 +90,7 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
                 {hero.title}
               </h3>
               <p className="line-clamp-2 flex-1 text-sm leading-relaxed text-[var(--text-secondary)]">{hero.intro}</p>
-              <div className="mt-4 flex items-center gap-1 border-t border-dashed border-[var(--border)] pt-3 text-sm font-semibold text-[var(--accent)]">
+              <div className="mt-4 flex items-center gap-1 border-t border-[var(--border)] pt-3 text-sm font-semibold text-[var(--accent)]">
                 {L("Lire le guide", "Read the guide")}
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
               </div>

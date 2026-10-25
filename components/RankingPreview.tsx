@@ -4,9 +4,9 @@ import { ArrowRight, Laptop, Home, TreePine, GraduationCap, Palmtree } from "luc
 import { getRankedCities, RANKING_META, type RankingSlug } from "@/lib/rankings";
 import { scoreColor, scoreHex } from "@/lib/utils";
 
-// Five lifestyle rankings previewed on the home. No per-category colour:
-// blue/green/violet/amber tiles read as score tiers (CLAUDE.md « Carte &
-// plaque »), so each card is one survey-map sheet with an enamel-plaque icon.
+// Five lifestyle rankings previewed on the home. Card headers rotate through the
+// decorative grad-head-N gradients (indigo / pink / cyan families only — green,
+// amber… stay reserved to score tiers, CLAUDE.md « Couleurs »).
 const RANKINGS: {
   slug: RankingSlug;
   label: string;
@@ -57,7 +57,7 @@ const RANKINGS: {
   },
 ];
 
-// Same sheet numbering as the /classements hub (« Feuille NN / 19 »).
+// Same numbering as the /classements hub (« Classement NN »).
 const SHEET_ORDER = Object.keys(RANKING_META) as RankingSlug[];
 const pad2 = (n: number) => String(n).padStart(2, "0");
 
@@ -67,13 +67,13 @@ export function RankingPreview({ locale = "fr" }: { locale?: "fr" | "en" } = {})
   return (
     <section id="classements" className="band band-pink py-8 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
+        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <EmojiBadge emoji="📊" tone="pink" size="lg" className="mb-3" />
             <p className="mb-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
               {L(
-                `Classements 2026 · ${SHEET_ORDER.length} feuilles`,
-                `2026 Rankings · ${SHEET_ORDER.length} sheets`,
+                `2026 · ${SHEET_ORDER.length} classements`,
+                `2026 · ${SHEET_ORDER.length} rankings`,
               )}
             </p>
             <h2 className="text-3xl font-bold text-[var(--text-primary)]">
@@ -118,7 +118,7 @@ export function RankingPreview({ locale = "fr" }: { locale?: "fr" | "en" } = {})
                   <p className="mt-1 flex-1 text-xs leading-relaxed text-[var(--text-secondary)]">
                     {L(r.description, r.descriptionEn)}
                   </p>
-                  <div className="mt-4 flex items-end justify-between border-t border-dashed border-[var(--border)] pt-3">
+                  <div className="mt-4 flex items-end justify-between border-t border-[var(--border)] pt-3">
                     <div className="min-w-0">
                       <div className="text-[10px] font-semibold uppercase tracking-wider text-[var(--text-tertiary)]">
                         {L("N°1", "#1")}

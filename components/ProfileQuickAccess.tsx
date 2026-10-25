@@ -3,9 +3,9 @@ import Link from "@/components/AppLink";
 import { ArrowRight, Armchair, Bike, Drama, Laptop, Layers, TreePine, Users, Wallet, type LucideIcon } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 
-// Profiles are the legend of the survey map: each one a numbered sheet with an
-// enamel-plaque icon tile and its N°1 city on a street plaque. No glass cards,
-// no emerald wash, no decorative emojis — CLAUDE.md « Carte & plaque ».
+// « Couleurs » (CLAUDE.md § Design identity): white cards on the lilac band,
+// each with a vivid gradient icon tile (grad-head-N, rotated by index) and its
+// N°1 city on an indigo pill. The mega-index card is the one vivid tile.
 const pad2 = (n: number) => String(n).padStart(2, "0");
 
 const PROFILES = [
@@ -84,11 +84,11 @@ export function ProfileQuickAccess({ locale = "fr" }: { locale?: "fr" | "en" } =
   return (
     <section className="band band-lilac py-8 sm:py-14">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
-        <div className="mb-8 flex flex-col gap-4 border-t border-[var(--border)] pt-6 sm:flex-row sm:items-end sm:justify-between">
+        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <EmojiBadge emoji="👥" tone="lilac" size="lg" className="mb-3" />
             <p className="mb-2 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent)]">
-              {L(`Votre profil · ${PROFILES.length} légendes`, `Your profile · ${PROFILES.length} legends`)}
+              {L(`Votre profil · ${PROFILES.length} profils`, `Your profile · ${PROFILES.length} profiles`)}
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
               {locale === "en" ? (
@@ -124,13 +124,13 @@ export function ProfileQuickAccess({ locale = "fr" }: { locale?: "fr" | "en" } =
               <Link
                 key={profile.slug}
                 href={locale === "en" ? `/rankings/${profile.slug}` : `/classements/${profile.slug}`}
-                className="group flex flex-col rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-colors hover:border-[var(--accent)] hover:bg-[var(--bg-elevated)]"
+                className="group flex flex-col rounded-2xl bg-[var(--bg-surface)] p-4 shadow-[0_6px_20px_-12px_rgba(79,70,229,0.45)] ring-1 ring-[#4F46E5]/15 transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_28px_-12px_rgba(219,39,119,0.45)] hover:ring-[#4F46E5]/40"
               >
                 <div className="mb-3 flex items-start justify-between gap-2">
-                  <span className="plaque !p-0 h-10 w-10 shrink-0 justify-center" aria-hidden="true">
-                    <Icon className="h-5 w-5" strokeWidth={1.75} />
+                  <span className={`grad-head-${i % 6} flex h-10 w-10 shrink-0 items-center justify-center rounded-xl shadow-sm`} aria-hidden="true">
+                    <Icon className="h-5 w-5 text-white" strokeWidth={2} />
                   </span>
-                  <span className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+                  <span className="rounded-full bg-[var(--band-indigo)] px-2 py-0.5 font-mono-data text-[10px] font-semibold tracking-[0.12em] text-[var(--accent-hover)]">
                     {pad2(i + 1)} / {total}
                   </span>
                 </div>
@@ -140,39 +140,39 @@ export function ProfileQuickAccess({ locale = "fr" }: { locale?: "fr" | "en" } =
                 <div className="flex-1 text-[11px] leading-snug text-[var(--text-tertiary)]">
                   {L(profile.desc, profile.descEn)}
                 </div>
-                <div className="mt-3 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 border-t border-dashed border-[var(--border)] pt-2.5">
-                  <span className="font-mono-data text-[10px] uppercase tracking-wider text-[var(--text-tertiary)]">
+                <div className="mt-3 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 border-t border-[var(--border)] pt-2.5">
+                  <span className="font-mono-data text-[10px] font-semibold uppercase tracking-wider text-[var(--accent-pink)]">
                     {L("N°1", "No.1")}
                   </span>
-                  <span className="plaque plaque-small min-w-0 max-w-full"><span className="truncate">{topCity.name}</span></span>
+                  <span className="inline-flex min-w-0 max-w-full rounded-full bg-[var(--band-indigo)] px-2.5 py-0.5 text-xs font-semibold text-[var(--accent-hover)]"><span className="truncate">{topCity.name}</span></span>
                 </div>
               </Link>
             );
           })}
           {/* Cadre de vie — the cross-cutting mega-index, no longer in the top
-              bar (R7.1). Surfaced as the legend's index sheet, on topo paper. */}
+              bar (R7.1). The one vivid tile of the grid: gradient, white text. */}
           <Link
             href={locale === "en" ? "/rankings" : "/cadre-de-vie"}
-            className="topo-bg group flex flex-col rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] p-4 transition-colors hover:border-[var(--accent)] sm:col-span-2"
+            className="grad-head-5 group flex flex-col rounded-2xl p-4 shadow-[0_10px_28px_-12px_rgba(124,58,237,0.6)] transition-all hover:-translate-y-0.5 hover:brightness-105 sm:col-span-2"
           >
             <div className="mb-3 flex items-start justify-between gap-2">
-              <span className="plaque !p-0 h-10 w-10 shrink-0 justify-center" aria-hidden="true">
-                <Layers className="h-5 w-5" strokeWidth={1.75} />
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/20 ring-1 ring-white/40" aria-hidden="true">
+                <Layers className="h-5 w-5 text-white" strokeWidth={2} />
               </span>
-              <span className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]">
+              <span className="rounded-full bg-white/20 px-2 py-0.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.16em] text-white">
                 {L("Index", "Index")}
               </span>
             </div>
-            <div className="text-sm font-bold text-[var(--text-primary)] transition-colors group-hover:text-[var(--accent)]">
+            <div className="text-sm font-bold text-white">
               {L("Cadre de vie — le méga-index", "Living environment — the mega-index")}
             </div>
-            <div className="flex-1 text-[11px] leading-snug text-[var(--text-secondary)]">
+            <div className="flex-1 text-[11px] leading-snug text-white">
               {L(
                 "Environnement, santé, services publics et emploi agrégés, ville par ville",
                 "Environment, health, public services and jobs, combined city by city",
               )}
             </div>
-            <div className="mt-3 flex items-center gap-1 border-t border-dashed border-[var(--border)] pt-2.5 text-xs font-semibold text-[var(--accent)]">
+            <div className="mt-3 flex items-center gap-1 border-t border-white/30 pt-2.5 text-xs font-semibold text-white">
               {L("Ouvrir l'index", "Open the index")}
               <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
             </div>
