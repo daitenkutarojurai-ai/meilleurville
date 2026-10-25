@@ -759,3 +759,30 @@ qui force l'opacité des `ScrollReveal`, pas du code. `npm run build` non lancé
 1. Pages de détail `app/classements/[slug]` + `app/[locale]/rankings/[slug]` (plaques encore présentes).
 2. Hubs Red Flags `app/red-flags/page.tsx` + `[locale]/red-flags` (plaque / topo-bg).
 3. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes.
+
+## 2026-10-25 ~23:00 UTC (run suivant) — pages de détail `/classements/[slug]` (FR) + `/rankings/[slug]` (EN)
+
+**Surface** : les 19 pages de classement × 2 locales (gabarit unique). Avant : hero sans fond propre avec
+plaque émaillée « N°02 », tout le corps (podium, tableau, barre latérale) posé sur le fond de page,
+tableau gris, CTA en carte pâle, commentaires et feedback sans bande.
+
+**Changé**
+- FR : hero `.bg-aurora`, tuile numérotée dégradée `.grad-head-N` (rotation par n° de classement, même
+  logique que le hub) au lieu de la plaque, pastille blanche « Classement NN / 19 · Édition 2026 ». Corps
+  dans une bande `band-indigo` ; titres Top 3 / Classement complet précédés d'une pastille rose / indigo ;
+  tableau en carte blanche à ombre indigo, ligne d'en-tête en dégradé `grad-head-0` (libellés blancs), rangs
+  1-3 en pastille indigo, lignes du top 3 légèrement teintées, lignes repliées (`RankingTableTail`) en blanc.
+  CTA quiz devenu le seul bloc `band-bold` de la page (bouton pilule blanc). Commentaires en `band-pink`,
+  feedback en `band-white`. Couleurs de score inchangées.
+- EN : hero aurora pleine largeur + même tuile et pastille ; top 30 sur `band-indigo` en cartes blanches à
+  ombre indigo (survol rose), rang en pilule indigo ; méthodologie sur `band-pink` en cartes blanches.
+- Copie, données, liens : inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` 0 erreur sur les
+3 fichiers. Captures `next dev` + playwright `/classements/famille` à 1440 et 390 px, `scrollWidth` =
+viewport. EN non capturé (route `[locale]` en dev). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hubs Red Flags `app/red-flags/page.tsx` + `[locale]/red-flags` (plaque / topo-bg).
+2. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
+3. `app/guides/[slug]` (gabarit guide : en-tête, sommaire, encadrés).

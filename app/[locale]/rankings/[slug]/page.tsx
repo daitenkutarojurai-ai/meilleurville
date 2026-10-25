@@ -85,7 +85,10 @@ export default async function EnRankingDetailPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(itemListJsonLd)} />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-16 pb-8">
+      {/* Hero « Couleurs » — aurora wash, vivid numbered tile (grad-head-N,
+          same rotation as the FR twin and both hubs). */}
+      <section className="bg-aurora">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 pt-16 pb-10">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -93,12 +96,13 @@ export default async function EnRankingDetailPage({ params }: Props) {
           {" · "}
           <span>{en.label}</span>
         </nav>
-        {/* One survey-map sheet: numbered enamel plaque (same numbering as the
-            FR twin and both hubs), mono sheet label, ink title. No emoji. */}
-        <div className="plaque mb-4 !px-3 !py-2 font-mono-data text-lg" aria-hidden>
-          No. {sheetNo}
+        <div
+          className={`grad-head-${(Number(sheetNo) - 1) % 6} mb-4 flex h-14 w-14 items-center justify-center rounded-2xl font-mono-data text-lg font-bold shadow-[0_10px_24px_-10px_rgba(79,70,229,0.8)]`}
+          aria-hidden
+        >
+          {sheetNo}
         </div>
-        <p className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)] mb-2">
+        <p className="mb-3 inline-flex items-center rounded-full bg-white/80 px-3 py-1 font-mono-data text-[11px] uppercase tracking-[0.14em] text-[var(--accent-hover)] font-semibold ring-1 ring-[var(--accent)]/20 shadow-sm">
           Ranking {sheetNo} / {sheetTotal} · 2026 edition · {ranked.length} cities
         </p>
         <h1 className="mb-4 text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-tight">
@@ -107,9 +111,11 @@ export default async function EnRankingDetailPage({ params }: Props) {
         <p className="text-[var(--text-secondary)] text-lg max-w-3xl">
           {en.description}
         </p>
+      </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
+      <section className="band band-indigo">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
         <h2 className="text-xl font-bold mb-4 text-[var(--text-primary)]">
           Top {top30.length} · {en.label}
         </h2>
@@ -118,9 +124,9 @@ export default async function EnRankingDetailPage({ params }: Props) {
             <li key={r.city.slug}>
               <Link
                 href={`/cities/${r.city.slug}`}
-                className="group flex items-center gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-colors hover:border-[var(--accent)]/50"
+                className="group flex items-center gap-4 rounded-2xl bg-white p-4 ring-1 ring-[var(--accent)]/12 shadow-[0_8px_22px_-16px_rgba(79,70,229,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_12px_26px_-14px_rgba(219,39,119,0.5)]"
               >
-                <span className="font-mono-data text-sm font-bold w-12 shrink-0 text-center rounded-md border border-[var(--accent)]/30 bg-[var(--bg-canvas)] py-1 text-[var(--accent)]">
+                <span className="font-mono-data text-sm font-bold w-12 shrink-0 text-center rounded-full bg-[var(--accent-soft)] py-1 text-[var(--accent-hover)] ring-1 ring-[var(--accent)]/20">
                   #{r.rank}
                 </span>
                 <div className="flex-1 min-w-0">
@@ -139,14 +145,16 @@ export default async function EnRankingDetailPage({ params }: Props) {
             </li>
           ))}
         </ol>
+      </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
+      <section className="band band-pink">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10 grid gap-6 md:grid-cols-2">
+        <div className="rounded-2xl bg-white p-6 ring-1 ring-[var(--accent-pink)]/15 shadow-[0_10px_26px_-18px_rgba(219,39,119,0.5)]">
           <h2 className="text-lg font-bold mb-3 text-[var(--text-primary)]">Methodology</h2>
           <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{en.methodology}</p>
         </div>
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
+        <div className="rounded-2xl bg-white p-6 ring-1 ring-[var(--accent-pink)]/15 shadow-[0_10px_26px_-18px_rgba(219,39,119,0.5)]">
           <h2 className="text-lg font-bold mb-3 text-[var(--text-primary)]">What we look at</h2>
           <ul className="space-y-2 text-sm text-[var(--text-secondary)]">
             {en.why.map((line) => (
@@ -157,6 +165,7 @@ export default async function EnRankingDetailPage({ params }: Props) {
             ))}
           </ul>
         </div>
+      </div>
       </section>
 
       <Footer />

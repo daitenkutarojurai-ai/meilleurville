@@ -23,7 +23,7 @@ export function RankingTableTail({ rows }: { rows: RankingTailRow[] }) {
         rows.map((r) => (
           <tr
             key={r.slug}
-            className="border-b border-[var(--border)] bg-[var(--bg-canvas)] transition-colors hover:bg-[var(--bg-elevated)]"
+            className="border-b border-[var(--border)] bg-white transition-colors hover:bg-[var(--bg-elevated)]"
           >
             <td className="px-4 py-3">
               <span className="font-bold font-mono-data text-[var(--text-secondary)]">

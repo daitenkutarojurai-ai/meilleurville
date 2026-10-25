@@ -180,15 +180,19 @@ export default async function RankingPage({ params }: Props) {
       />
       <Navbar />
 
-      {/* Hero — one survey-map sheet: numbered enamel plaque (same « Feuille
-          NN / 19 » numbering as the /classements hub), ink title. No aurora wash,
-          no green gradient tile: greens are reserved for score tiers. */}
-      <section className="relative overflow-hidden pt-16 pb-12">
+      {/* Hero « Couleurs » — aurora wash, vivid numbered tile (same rotation
+          as the /classements hub: grad-head-N by index), pill with the sheet
+          number. The tile gradients stay in the indigo / violet / pink / cyan
+          families: greens are reserved for score tiers. */}
+      <section className="relative overflow-hidden pt-16 pb-12 bg-aurora">
         <div className="relative mx-auto max-w-5xl px-4 sm:px-6 text-center">
-          <div className="plaque mb-4 !px-3 !py-2 font-mono-data text-lg" aria-hidden>
-            N°{sheetNo}
+          <div
+            className={`grad-head-${(Number(sheetNo) - 1) % 6} mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl font-mono-data text-lg font-bold shadow-[0_10px_24px_-10px_rgba(79,70,229,0.8)]`}
+            aria-hidden
+          >
+            {sheetNo}
           </div>
-          <p className="font-mono-data text-[11px] uppercase tracking-[0.18em] text-[var(--text-tertiary)] mb-2">
+          <p className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 font-mono-data text-[11px] uppercase tracking-[0.14em] text-[var(--accent-hover)] font-semibold ring-1 ring-[var(--accent)]/20 shadow-sm">
             Classement {sheetNo} / {sheetTotal} · Édition 2026 · {ranked.length} villes
           </p>
           <h1 className="mb-4 text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.05]">
@@ -200,12 +204,16 @@ export default async function RankingPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Ranking body — its own indigo band; the table and the sidebar cards
+          sit on it in white. */}
+      <section className="band band-indigo">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 grid gap-10 lg:grid-cols-3">
         {/* Main list */}
         <div className="lg:col-span-2 space-y-8">
           {/* Podium */}
           <div>
-            <h2 className="mb-4 text-lg font-semibold text-[var(--text-primary)]">
+            <h2 className="mb-4 inline-flex items-center gap-2 text-lg font-semibold text-[var(--text-primary)]">
+              <span className="h-2.5 w-2.5 rounded-full bg-[var(--accent-pink)]" aria-hidden />
               Top 3
             </h2>
             <div className="grid gap-4 sm:grid-cols-3 auto-rows-fr">
@@ -222,13 +230,16 @@ export default async function RankingPage({ params }: Props) {
 
           {/* Full table */}
           <div>
-            <h2 className="mb-4 text-lg font-semibold text-[var(--text-primary)]">
+            <h2 className="mb-4 inline-flex items-center gap-2 text-lg font-semibold text-[var(--text-primary)]">
+              <span className="h-2.5 w-2.5 rounded-full bg-[var(--accent)]" aria-hidden />
               Classement complet
             </h2>
-            <div className="overflow-hidden rounded-2xl border border-[var(--border)]">
+            <div className="overflow-hidden rounded-2xl bg-white ring-1 ring-[var(--accent)]/15 shadow-[0_14px_36px_-20px_rgba(79,70,229,0.55)]">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-[var(--border)] bg-[var(--bg-surface)]">
+                  {/* Vivid header row: white on the indigo → violet gradient
+                      (grad-head-0), the column labels redefined to white. */}
+                  <tr className="grad-head-0 [--text-secondary:rgba(255,255,255,0.92)]">
                     <th className="px-4 py-3 text-left text-xs font-semibold text-[var(--text-secondary)]">
                       #
                     </th>
@@ -251,13 +262,19 @@ export default async function RankingPage({ params }: Props) {
                     <tr
                       key={entry.city.slug}
                       className={`border-b border-[var(--border)] last:border-0 transition-colors hover:bg-[var(--bg-elevated)] ${
-                        i < 3 ? "bg-[var(--bg-surface)]" : "bg-[var(--bg-canvas)]"
+                        i < 3 ? "bg-[var(--band-indigo)]/40" : "bg-white"
                       }`}
                     >
                       <td className="px-4 py-3">
-                        <span className="font-bold font-mono-data text-[var(--text-secondary)]">
-                          {entry.rank}
-                        </span>
+                        {entry.rank <= 3 ? (
+                          <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[var(--accent-soft)] font-bold font-mono-data text-[var(--accent-hover)] ring-1 ring-[var(--accent)]/20">
+                            {entry.rank}
+                          </span>
+                        ) : (
+                          <span className="font-bold font-mono-data text-[var(--text-secondary)]">
+                            {entry.rank}
+                          </span>
+                        )}
                       </td>
                       <td className="px-4 py-3">
                         <a
@@ -669,34 +686,38 @@ export default async function RankingPage({ params }: Props) {
             </div>
           )}
 
-          {/* CTA */}
-          <Card className="bg-[var(--accent-soft)] border border-[var(--accent)]/20">
+          {/* CTA — the page's single bold block (band-bold redefines the text
+              variables to white). */}
+          <div className="band-bold rounded-2xl p-5 shadow-[0_14px_32px_-16px_rgba(109,63,216,0.8)]">
             <p className="text-sm text-[var(--text-secondary)] mb-3">
               Vous souhaitez une analyse personnalisée ?
             </p>
             <Link
               href="/city-match"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent)] hover:underline"
+              className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-semibold text-[var(--accent-hover)] hover:bg-white/90 transition-colors"
             >
               Lancer le quiz IA →
             </Link>
-          </Card>
+          </div>
         </div>
       </div>
+      </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16">
+      <section className="band band-pink">
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-12">
         <CommentSection
           topic={`ranking:${slug}`}
           title="Vous n'êtes pas d'accord ?"
           emptyHint="Donnez votre avis sur ce classement, ajoutez une ville qui manque, ou racontez votre expérience."
         />
       </div>
+      </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-
+      <section className="band band-white">
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-10">
         <FeedbackWidget />
-
       </div>
+      </section>
 
       <Footer />
     </main>
