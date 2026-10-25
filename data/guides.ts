@@ -39158,6 +39158,323 @@ export const GUIDES: Guide[] = [
     tags: ["famille Toulon 2026","vivre en famille Toulon","loyer T3 Toulon","écoles Toulon","Toulon avec enfants"],
   },
   {
+    slug: "famille-a-aix-en-provence-2026",
+    title: "Famille à Aix-en-Provence en 2026 : les meilleures écoles du lot, au prix fort",
+    metaTitle: "Famille à Aix-en-Provence 2026 : T3 à 1 400 €, Écoles 8,3",
+    metaDesc: "Famille à Aix-en-Provence : T3 à 1 400 €, appartements à 4 819 €/m², Écoles 8,3 (rang 30), 15 % de pauvreté. Ce que coûte la meilleure note du Sud-Est.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Aix-en-Provence décroche 8,3 en Écoles (rang 30 sur 593), mais un T3 y coûte 1 400 € (notre estimation des loyers) et un appartement 4 819 € le m². La ville compte 147 933 habitants, en a gagné 3,4 % depuis 2016, et seuls 13,2 % ont moins de 15 ans : c'est une ville chère et étudiante plus qu'une ville d'enfants.",
+    sections: [
+      {
+        heading: "Quel budget logement pour une famille à Aix ?",
+        body: "Le T3 est à 1 400 €, le T2 à 1 050 €. L'appartement se vend 4 819 € le m² (3 319 ventes en 2024-2025) et la maison 6 171 € (630 ventes), soit 28 % de plus. Les maisons sont rares dans la commune : 630 ventes contre plus de 3 300 pour les appartements.",
+      },
+      {
+        heading: "Quel niveau de vie autour de soi ?",
+        body: "Le niveau de vie médian est de 25 810 € par unité de consommation (Insee, Filosofi 2021), au rang 92 sur 586, avec 15 % de pauvreté. Le loyer est lourd, mais il s'appuie sur des revenus bien plus élevés qu'à Avignon (17 690 €) ou à Nîmes (18 760 €).",
+      },
+      {
+        heading: "Écoles, sécurité, nature : que disent nos notes ?",
+        body: "Écoles 8,3 (rang 30, 2 villes à égalité), Sécurité 5,9 (rang 230, 8 à égalité), Nature 6,4 (rang 173, 61 à égalité). Ce sont des notes communales : elles ne disent rien d'une école de secteur précise, qu'il faut regarder adresse par adresse.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "Le parc Jourdan, en centre-ville, est gratuit et accessible en fauteuil. Le parc Saint-Mitre offre de grandes pelouses traversées par un ruisseau, et le parc Rambot une aire de jeux avec pataugeoire aux beaux jours. Le cours Mirabeau, avec ses fontaines, se parcourt avec de jeunes enfants. Les horaires des parcs varient selon la saison.",
+      },
+      {
+        heading: "Aix face à Marseille et à Avignon",
+        body: "Marseille loue un T3 à 1 100 €, 300 € de moins, avec 2,4 en Écoles. Avignon est à 1 000 € et 5,3 en Écoles. Aix coûte donc 400 € de plus qu'Avignon par mois pour trois points de note scolaire, et un m² d'appartement plus de deux fois plus cher (4 819 € contre 2 321 €).",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Aix convient aux familles dont le budget absorbe 1 400 € de loyer et pour qui l'école prime. Un couple à revenus moyens qui vise trois pièces regardera plutôt des villes moins chères, Avignon par exemple. Pour une maison avec jardin, le budget d'achat devient celui d'une grande ville, pas celui d'une préfecture.",
+      },
+    ],
+    relatedCities: ["aix-en-provence","marseille","avignon","toulon"],
+    relatedGuides: [
+      "vivre-a-aix-en-provence-2026",
+      "acheter-a-aix-en-provence-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-aix-en-provence-2026",
+      "etudiant-a-aix-en-provence-2026",
+      "aix-en-provence-vs-marseille-comparatif-2026",
+    ],
+    tags: ["famille Aix-en-Provence 2026","vivre en famille Aix-en-Provence","loyer T3 Aix-en-Provence","écoles Aix-en-Provence","Aix-en-Provence avec enfants"],
+  },
+  {
+    slug: "famille-a-montauban-2026",
+    title: "Famille à Montauban en 2026 : un T3 à 860 € et une ville qui regarde Toulouse",
+    metaTitle: "Famille à Montauban 2026 : T3 à 860 €, 1 983 €/m²",
+    metaDesc: "Famille à Montauban : T3 à 860 €, appartements à 1 983 €/m², maisons à 2 233 €, 17 % de moins de 15 ans, Écoles 6,2, Sécurité 5,5. Verdict par profil.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Un T3 se loue 860 € à Montauban (notre estimation des loyers), 290 € de moins qu'à Toulouse, et un appartement s'y vend 1 983 € le m². La ville compte 62 487 habitants, en a gagné 3,4 % depuis 2016, et 17,0 % ont moins de 15 ans. Les notes sont moyennes mais sans point noir : Écoles 6,2, Sécurité 5,5, Nature 5,7.",
+    sections: [
+      {
+        heading: "Combien coûte un logement familial à Montauban ?",
+        body: "Le T3 est à 860 €, le T2 à 650 €. L'appartement vaut 1 983 € le m² (857 ventes en 2024-2025) et la maison 2 233 € (882 ventes), 13 % de plus. Les deux types se vendent en nombre à peu près égal, ce qui est rare : une famille trouve aussi bien une maison qu'un appartement.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 21 630 € par unité de consommation (Insee, Filosofi 2021), au rang 279 sur 586, avec 19 % de pauvreté. C'est un peu moins que Toulouse (22 140 € avec 22 % de pauvreté), pour un loyer inférieur d'un quart.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 6,2 (rang 219, 28 villes à égalité), Sécurité 5,5 (rang 275, 25 à égalité), Nature 5,7 (rang 262, 58 à égalité). Des notes communales : elles ne remplacent pas la visite de l'école de secteur.",
+      },
+      {
+        heading: "Que faire avec des enfants à Montauban ?",
+        body: "Le musée Ingres Bourdelle, installé dans l'ancien palais épiscopal, propose aux enfants une visite avec la mascotte Jadi, un hippogriffe, et des énigmes ; l'entrée est gratuite pour les moins de 18 ans. Le Muséum d'histoire naturelle est juste en face, avec un billet combiné. Le Pont Vieux sur le Tarn et la place Nationale, aux arcades doubles, se parcourent à pied ou à vélo.",
+      },
+      {
+        heading: "Montauban face à Toulouse et à Albi",
+        body: "Toulouse loue un T3 à 1 150 € et obtient 9,0 en Écoles (rang 1), mais 4,3 en Sécurité. Albi loue à 840 €, 20 € de moins, et affiche 7,7 en Écoles et 6,7 en Sécurité : Albi est mieux notée sur les deux axes pour un loyer quasi identique, quand Montauban garde un marché de maisons plus fourni.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Montauban convient aux familles qui veulent un loyer sous 900 €, un choix réel entre maison et appartement, et la proximité de Toulouse. Celles qui placent l'école au premier rang compareront d'abord avec Albi.",
+      },
+    ],
+    relatedCities: ["montauban","toulouse","albi","agen"],
+    relatedGuides: [
+      "10-choses-a-faire-a-montauban-2026",
+      "parent-solo-a-montauban-2026",
+    ],
+    tags: ["famille Montauban 2026","vivre en famille Montauban","loyer T3 Montauban","écoles Montauban","Montauban avec enfants"],
+  },
+  {
+    slug: "famille-a-troyes-2026",
+    title: "Famille à Troyes en 2026 : des prix bas pour une ville de 62 000 habitants, des revenus aussi",
+    metaTitle: "Famille à Troyes 2026 : T3 à 860 €, 1 586 €/m²",
+    metaDesc: "Famille à Troyes : T3 à 860 €, appartements à 1 586 €/m², 17,4 % de moins de 15 ans, Écoles 6,4 (rang 215), mais 30 % de pauvreté. Verdict.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Troyes est parmi les villes les moins chères à l'achat de cette série : un appartement y vaut 1 586 € le m² et un T3 se loue 860 € (notre estimation des loyers). La ville compte 62 443 habitants, en a gagné 3,0 % depuis 2016, et 17,4 % ont moins de 15 ans. Contrepartie : un niveau de vie médian de 18 260 € et un taux de pauvreté de 30 %.",
+    sections: [
+      {
+        heading: "Quel budget logement à Troyes ?",
+        body: "Le T3 est à 860 €, le T2 à 650 €. L'appartement vaut 1 586 € le m² (1 619 ventes) et la maison 1 878 € (383 ventes), 18 % de plus. Les appartements dominent largement les ventes : la maison existe, mais en petit nombre.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 18 260 € par unité de consommation (Insee, Filosofi 2021), au rang 537 sur 586, avec 30 % de pauvreté. Le loyer est bas, mais il pèse sur des revenus locaux bas : le rapport loyer-revenu est moins confortable que le prix affiché.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 6,4 (rang 215, 4 villes à égalité), Sécurité 5,4 (rang 300, 6 à égalité), Nature 5,6 (rang 320, 20 à égalité). La note Écoles est la plus favorable des trois.",
+      },
+      {
+        heading: "Que faire avec des enfants à Troyes ?",
+        body: "Le lac d'Orient, accessible depuis Troyes, est dédié à la voile et aux activités non motorisées, avec location de kayaks et de paddles et des voies vertes sécurisées. En ville, la ruelle des Chats, très étroite, amuse les enfants ; des livrets de jeu pour les 8-12 ans sont vendus à l'office de tourisme. La Maison de l'Outil compte plus de 12 000 outils mais n'affiche pas d'offre dédiée aux enfants. Le parc Pierre Pitois n'est pas ouvert tous les jours : vérifiez.",
+      },
+      {
+        heading: "Troyes face à Reims et à Dijon",
+        body: "Reims loue un T3 900 €, 40 € de plus, et un appartement 2 621 € le m². Dijon, à 950 €, atteint 7,4 en Écoles contre 6,4 à Troyes. Troyes est la moins chère des trois à l'achat, la moins bien notée sur l'école que Dijon, et la plus pauvre.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Troyes convient aux familles qui veulent acheter à 1 600 € le m² avec 17 % d'enfants autour d'elles et un lac à proximité. Celles dont les revenus dépendent d'un emploi local regarderont le niveau de vie de la ville avec prudence.",
+      },
+    ],
+    relatedCities: ["troyes","reims","dijon","nancy"],
+    relatedGuides: [
+      "vivre-a-troyes-2026",
+      "acheter-a-troyes-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-troyes-2026",
+      "parent-solo-a-troyes-2026",
+    ],
+    tags: ["famille Troyes 2026","vivre en famille Troyes","loyer T3 Troyes","écoles Troyes","Troyes avec enfants"],
+  },
+  {
+    slug: "famille-a-angouleme-2026",
+    title: "Famille à Angoulême en 2026 : la bande dessinée, des loyers bas et une population qui recule",
+    metaTitle: "Famille à Angoulême 2026 : T3 à 820 €, 1 597 €/m²",
+    metaDesc: "Famille à Angoulême : T3 à 820 €, appartements à 1 597 €/m², Écoles 6,2, Sécurité 5,1, 26 % de pauvreté, population en recul de 1,2 % depuis 2016.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Angoulême loue un T3 820 € (notre estimation des loyers) et vend un appartement 1 597 € le m² : c'est la ville la moins chère de ce lot après Troyes. La commune compte 41 423 habitants et en a perdu 1,2 % depuis 2016 ; 14,1 % ont moins de 15 ans. Les notes sont moyennes à faibles : Écoles 6,2, Sécurité 5,1, Nature 5,0.",
+    sections: [
+      {
+        heading: "Quel budget logement à Angoulême ?",
+        body: "Le T3 est à 820 €, le T2 à 620 €. L'appartement vaut 1 597 € le m² (493 ventes en 2024-2025) et la maison 1 707 € (754 ventes), 7 % de plus seulement. L'écart est faible, et les maisons se vendent davantage que les appartements : la ville est davantage un marché de maisons.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 19 830 € par unité de consommation (Insee, Filosofi 2021), au rang 440 sur 586, avec 26 % de pauvreté. Un loyer de 820 € est bas, mais les revenus le sont aussi.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 6,2 (rang 219, 28 villes à égalité), Sécurité 5,1 (rang 350, 16 à égalité), Nature 5,0 (rang 346, 51 à égalité). La Sécurité est la note la plus fragile pour une famille qui compare avec Limoges (6,1) ou Poitiers (5,7).",
+      },
+      {
+        heading: "Que faire avec des enfants à Angoulême ?",
+        body: "La ville de la bande dessinée se prête à un circuit de murs peints, dont la carte est disponible à l'office de tourisme. Le musée de la bande dessinée, dans les anciens chais de la Cité internationale, a un espace de lecture adapté aux enfants. Le musée du Papier occupe d'anciennes papeteries fermées en 1972. Les remparts se longent à pied.",
+      },
+      {
+        heading: "Angoulême face à Poitiers et à Limoges",
+        body: "Poitiers loue un T3 880 € (60 € de plus) avec 7,4 en Écoles et un appartement à 2 200 € le m². Limoges est à 800 €, 20 € de moins, avec 6,2 en Écoles et 6,1 en Sécurité, sur 1 518 € le m². Angoulême se glisse entre les deux sur le prix, mais perd sur la Sécurité.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Angoulême convient aux familles qui achètent bas, aiment le dessin et la culture BD, et acceptent une ville qui se vide un peu. Celles qui visent une forte offre scolaire iront à Poitiers.",
+      },
+    ],
+    relatedCities: ["angouleme","poitiers","limoges","la-rochelle"],
+    relatedGuides: [
+      "10-choses-a-faire-a-angouleme-2026",
+    ],
+    tags: ["famille Angoulême 2026","vivre en famille Angoulême","loyer T3 Angoulême","écoles Angoulême","Angoulême avec enfants"],
+  },
+  {
+    slug: "famille-a-lorient-2026",
+    title: "Famille à Lorient en 2026 : la voile pour les enfants, un T3 à 900 €",
+    metaTitle: "Famille à Lorient 2026 : T3 à 900 €, appartements 2 574 €/m²",
+    metaDesc: "Famille à Lorient : T3 à 900 €, appartements à 2 574 €/m², maisons à 3 016 €, Écoles 6,6, Nature 6,4, 21 % de pauvreté. La Cité de la Voile et le Flore.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Lorient loue un T3 900 € (notre estimation des loyers) et vend un appartement 2 574 € le m², 1 290 € de moins que Vannes pour le même bassin morbihannais. La ville compte 58 202 habitants, en a gagné 1,6 % depuis 2016, et 13,9 % ont moins de 15 ans. Les notes sont correctes : Écoles 6,6, Nature 6,4, Sécurité 5,5.",
+    sections: [
+      {
+        heading: "Quel budget logement à Lorient ?",
+        body: "Le T3 est à 900 €, le T2 à 680 €. L'appartement vaut 2 574 € le m² (1 231 ventes en 2024-2025) et la maison 3 016 € (529 ventes), 17 % de plus. Les appartements sont plus de deux fois plus nombreux que les maisons dans les ventes.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 20 860 € par unité de consommation (Insee, Filosofi 2021), au rang 357 sur 586, avec 21 % de pauvreté. Vannes, plus chère, est à 24 070 € avec 15 % de pauvreté.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 6,6 (rang 105, 110 villes à égalité), Sécurité 5,5 (rang 275, 25 à égalité), Nature 6,4 (rang 173, 61 à égalité). Le palier Écoles de 110 villes est large : le rang ne départage pas Lorient de ses voisines.",
+      },
+      {
+        heading: "Que faire avec des enfants à Lorient ?",
+        body: "À Lorient La Base, la Cité de la Voile Éric Tabarly abrite la Cité des Moussaillons, un espace pour les enfants de la maternelle au CM2, et permet de monter à bord du Pen Duick VI. Des baptêmes en Optimist sont proposés à partir de 5 ans. À côté, le sous-marin Flore, en service de 1964 à 1989, se visite de l'intérieur, mais ses couloirs sont étroits. L'île de Groix est accessible depuis Lorient par bateau.",
+      },
+      {
+        heading: "Lorient face à Vannes et à Quimper",
+        body: "Vannes loue un T3 1 150 €, 250 € de plus, et vend 3 864 € le m². Quimper est à 940 € et 2 122 € le m², avec un niveau de vie de 22 700 € et 13 % de pauvreté. Lorient est donc entre les deux sur le prix, mais moins aisée que Vannes et Quimper.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Lorient convient aux familles qui veulent la mer, la voile pour des enfants dès 5 ans et un budget inférieur à celui de Vannes. Celles qui cherchent un niveau de vie plus élevé regarderont Quimper.",
+      },
+    ],
+    relatedCities: ["lorient","vannes","quimper","brest"],
+    relatedGuides: [
+      "vivre-a-lorient-2026",
+      "acheter-a-lorient-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-lorient-2026",
+      "brest-vs-lorient-comparatif-2026",
+      "parent-solo-a-lorient-2026",
+    ],
+    tags: ["famille Lorient 2026","vivre en famille Lorient","loyer T3 Lorient","écoles Lorient","Lorient avec enfants"],
+  },
+  {
+    slug: "famille-a-arles-2026",
+    title: "Famille à Arles en 2026 : monuments romains et Camargue, mais des notes basses",
+    metaTitle: "Famille à Arles 2026 : T3 à 930 €, Écoles 4,5, Sécurité 4,1",
+    metaDesc: "Famille à Arles : T3 à 930 €, appartements à 2 586 €/m², maisons à 2 903 €, Écoles 4,5 (rang 442), Sécurité 4,1, population en recul de 3,2 % depuis 2016.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Arles loue un T3 930 € (notre estimation des loyers) et vend un appartement 2 586 € le m², mais ses notes pour une famille sont basses : Écoles 4,5 (rang 442) et Sécurité 4,1 (rang 488). La commune compte 51 156 habitants et en a perdu 3,2 % depuis 2016, tandis que 16,3 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Arles ?",
+        body: "Le T3 est à 930 €, le T2 à 700 €. L'appartement vaut 2 586 € le m² (470 ventes en 2024-2025) et la maison 2 903 € (714 ventes), 12 % de plus. Les maisons se vendent davantage que les appartements, ce qui est cohérent avec une commune très étendue.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 20 060 € par unité de consommation (Insee, Filosofi 2021), au rang 424 sur 586, avec 24 % de pauvreté. Le loyer est proche de celui de Nîmes (960 €) pour un niveau de vie supérieur à celui d'Avignon (17 690 €).",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 4,5 (rang 442, 45 villes à égalité), Sécurité 4,1 (rang 488, 14 à égalité), Nature 5,9 (rang 245, 17 à égalité). Ce sont des notes communales ; la commune est très vaste et mêle centre ancien, villages et Camargue.",
+      },
+      {
+        heading: "Que faire avec des enfants à Arles ?",
+        body: "Les Arènes, le théâtre antique et les Alyscamps se parcourent à pied, le Musée départemental Arles antique propose aux familles un kit de jeux gratuit et le jardin Hortus, reconstitué devant, a une partie jeux. LUMA Arles a un toboggan géant dans la tour de Frank Gehry. Le Museon Arlaten a connu des fermetures pour travaux : vérifiez. Le marais du Vigueirat et son sentier de cabanes sur pilotis sont accessibles depuis Arles, en Camargue.",
+      },
+      {
+        heading: "Arles face à Avignon et à Nîmes",
+        body: "Avignon loue un T3 1 000 € et affiche 5,3 en Écoles ; Nîmes, 960 € et 5,3 aussi. Arles est la moins bien notée des trois sur l'école (4,5), pour un loyer inférieur de 30 à 70 €.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Arles convient aux familles que le patrimoine et la nature attirent, qui achètent à 2 600 € le m² et vérifient l'école de secteur avant de s'engager. Celles pour qui l'école est prioritaire regarderont Aix-en-Provence ou Avignon.",
+      },
+    ],
+    relatedCities: ["arles","avignon","nimes","aix-en-provence"],
+    relatedGuides: [
+      "acheter-a-arles-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-arles-2026",
+      "quitter-arles-guide-2026",
+    ],
+    tags: ["famille Arles 2026","vivre en famille Arles","loyer T3 Arles","écoles Arles","Arles avec enfants"],
+  },
+  {
+    slug: "famille-a-cherbourg-2026",
+    title: "Famille à Cherbourg en 2026 : un T3 à 820 € et une ville qui perd des habitants",
+    metaTitle: "Famille à Cherbourg 2026 : T3 à 820 €, 14 % de pauvreté",
+    metaDesc: "Famille à Cherbourg-en-Cotentin : T3 à 820 €, appartements à 2 264 €/m², 14 % de pauvreté, 15,4 % de moins de 15 ans, mais 2,6 % d'habitants en moins.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    intro: "Cherbourg-en-Cotentin loue un T3 820 € (notre estimation des loyers) et vend un appartement 2 264 € le m², pour un niveau de vie médian de 22 650 € et seulement 14 % de pauvreté. La commune compte 78 028 habitants, en a perdu 2,6 % depuis 2016, et 15,4 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Cherbourg ?",
+        body: "Le T3 est à 820 €, le T2 à 620 €. L'appartement vaut 2 264 € le m² (606 ventes en 2024-2025) et la maison 2 317 € (1 257 ventes), 2 % de plus. L'écart est quasi nul, et les maisons se vendent deux fois plus que les appartements.",
+      },
+      {
+        heading: "Revenus et pauvreté",
+        body: "Le niveau de vie médian est de 22 650 € par unité de consommation (Insee, Filosofi 2021), au rang 204 sur 586, avec 14 % de pauvreté. C'est plus que Caen (21 600 €, 21 % de pauvreté) pour un loyer inférieur de 110 €.",
+      },
+      {
+        heading: "Écoles, sécurité, nature",
+        body: "Écoles 5,8 (rang 249, 22 villes à égalité), Sécurité 5,3 (rang 306, 11 à égalité), Nature 5,9 (rang 245, 17 à égalité). Des notes moyennes, sans point noir ni point fort.",
+      },
+      {
+        heading: "Que faire avec des enfants à Cherbourg ?",
+        body: "La Cité de la Mer occupe l'ancienne gare maritime transatlantique : aquariums géants, expositions interactives et le Redoutable, le plus grand sous-marin nucléaire ouvert au public, plus un espace sur le Titanic. Le parc Emmanuel Liais, près du port, a des serres et des arbres exotiques. La montagne du Roule, à 117 m, offre un point de vue et le musée de la Libération.",
+      },
+      {
+        heading: "Cherbourg face à Caen et à Saint-Lô",
+        body: "Caen loue un T3 930 € avec 7,4 en Écoles et un appartement à 2 893 € le m². Saint-Lô, à 760 €, affiche 8,2 en Sécurité et 6,6 en Écoles. Cherbourg est moins bien notée sur l'école que Caen, mais plus accessible et plus aisée.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Cherbourg convient aux familles qui privilégient un loyer bas, un niveau de vie correct et la mer, et qui acceptent une ville en léger recul démographique. Celles qui placent l'école au premier rang regarderont Caen.",
+      },
+    ],
+    relatedCities: ["cherbourg","caen","saint-lo","rouen"],
+    relatedGuides: [
+      "vivre-a-cherbourg-2026",
+      "10-choses-a-faire-a-cherbourg-2026",
+      "parent-solo-a-cherbourg-2026",
+    ],
+    tags: ["famille Cherbourg 2026","vivre en famille Cherbourg","loyer T3 Cherbourg","écoles Cherbourg","Cherbourg avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
