@@ -51067,6 +51067,354 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["issoire", "clermont-ferrand", "brioude", "riom"],
     tags: ["things to do in issoire", "issoire", "travel", "city guide", "auvergne-rhone-alpes"],
   },
+  {
+    slug: "things-to-do-in-meudon-2026",
+    title: "Things to do in Meudon: Rodin's grave, an observatory and a hilltop terrace",
+    metaTitle: "Things to Do in Meudon 2026",
+    metaDesc:
+      "Rodin's villa and grave, the observatory, the local museum and the forest, in the Hauts-de-Seine.",
+    category: "city-guide",
+    emoji: "🔭",
+    readMinutes: 5,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Meudon had 46,722 residents at the 2022 census, against 45,010 in 2011. It is a hillside town above the Seine just south-west of Paris, where Rodin lived and where people have watched the sky for a long time. This guide says what is in Meudon and what belongs to neighbouring communes.",
+    sections: [
+      {
+        heading: "Rodin's villa and grave",
+        body: "Rodin spent the last twenty years of his life in the Villa des Brillants, now a site of the Musée Rodin. The garden holds his grave, topped by The Thinker, with a view over the Seine valley. It is the first visit in town, and it really is in Meudon.",
+      },
+      {
+        heading: "The plaster gallery",
+        body: "On the villa grounds, the gallery shows works at different stages of making, so you can see how a bronze starts as a plaster. The site opens only on certain days: check before you come.",
+      },
+      {
+        heading: "The local museum",
+        body: "The art and history museum sits in a seventeenth-century residence and traces local history, from Meudon's rural past to the arrival of scientists and artists in the twentieth century. Permanent displays are described as free; confirm with the town.",
+      },
+      {
+        heading: "The observatory",
+        body: "Meudon hosts a site of the Paris Observatory, working on astrophysics and observation of the Sun. It is first of all a research site: visits happen on set dates, to be checked with the observatory.",
+      },
+      {
+        heading: "The grand terrace",
+        body: "The terrace of the estate looks over the Seine towards Paris. It is a walk with no equipment needed, best on a clear day.",
+      },
+      {
+        heading: "The forest",
+        body: "The forest covers the heights of the town and is where residents walk and run. Choose paths on the spot, according to weather and season.",
+      },
+      {
+        heading: "Meudon-la-Forêt, a district apart",
+        body: "Meudon-la-Forêt is a residential estate against the woods. It is a lived-in district, not a tourist one: you pass through it on the way to the forest.",
+      },
+      {
+        heading: "The Seine embankments",
+        body: "At the foot of the slope, the riverbanks can be walked or cycled. The contrast with the heights of the town shows clearly on the map.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average three-room flat (T3) rents at €1,860 a month in our rent estimate, against €1,700 in Versailles and €1,800 in Issy-les-Moulineaux. Meudon suits people who want a leafy residential town, not those who want nightlife.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Meudon is reached from Paris by public transport, so check routes with the operator. Half a day covers the Villa des Brillants and the terrace; allow a day with the museum and the forest.",
+      },
+    ],
+    relatedCities: ["meudon","issy-les-moulineaux","versailles","boulogne-billancourt"],
+    tags: ["things to do in meudon","meudon","travel","city guide","ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-romans-sur-isere-2026",
+    title: "Things to do in Romans-sur-Isère: France's shoe capital",
+    metaTitle: "Things to Do in Romans-sur-Isère",
+    metaDesc:
+      "The international shoe museum, Saint-Barnard collegiate church and the old bridge, in the Drôme.",
+    category: "city-guide",
+    emoji: "👞",
+    readMinutes: 5,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Romans-sur-Isère had 33,139 residents in 2022, against 33,613 in 2011: the town is losing a little population. It is the French capital of shoemaking, with a museum like no other. This guide says what you see, and what lies across the river.",
+    sections: [
+      {
+        heading: "The International Shoe Museum",
+        body: "Housed in a seventeenth-century convent of the Visitation, the museum follows several thousand years of footwear. The sources consulted describe it as the main public collection of its kind in France. It is the visit that made the town's name.",
+      },
+      {
+        heading: "The industrial story of the shoe",
+        body: "Shoemaking grew in Romans in the mid-nineteenth century. The museum explains that history, which still marks the town.",
+      },
+      {
+        heading: "Saint-Barnard collegiate church",
+        body: "A collegiate church is a church run by a college of canons rather than a bishop. Listed as a historic monument since 1840, it overlooks the Isère. The town dates its foundation to 838, but the present building mixes styles spread over several centuries, from Romanesque to Gothic. Entry is free during opening hours.",
+      },
+      {
+        heading: "The old bridge",
+        body: "The bridge over the Isère made Romans a place of exchange from the Middle Ages. It links the centre to the other bank and is the best spot to see the whole church.",
+      },
+      {
+        heading: "The view from the other bank",
+        body: "Across the bridge is Bourg-de-Péage, a separate commune reachable on foot from Romans. It is from there that you take in the profile of the church above the water.",
+      },
+      {
+        heading: "The old centre",
+        body: "The streets around the church and the town square keep old houses. You can walk them in under an hour, following the streets that lead to the river.",
+      },
+      {
+        heading: "The Isère banks",
+        body: "The landscaped banks let you walk or cycle along the Isère. As on any Alpine river, floods are possible: signs posted on site take precedence.",
+      },
+      {
+        heading: "The Vercors, from a distance",
+        body: "The foothills of the Vercors can be seen to the east. They belong to other communes; mountain roads should be checked in winter.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €740 a month in our estimate, against €900 in Valence. Romans suits people who want a low housing budget in the Drôme, with Valence station within reach.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Romans is reached by road and by train from Valence, so check times with the operator. Half a day covers the museum and the church; a day if you add the other bank.",
+      },
+    ],
+    relatedCities: ["romans-sur-isere","valence","montelimar"],
+    tags: ["things to do in romans-sur-isere","romans-sur-isere","travel","city guide","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "things-to-do-in-etampes-2026",
+    title: "Things to do in Étampes: a royal town with a leaning bell tower",
+    metaTitle: "Things to Do in Étampes 2026",
+    metaDesc:
+      "Guinette Tower, Notre-Dame-du-Fort, Renaissance mansions and Saint-Martin's leaning tower, in the Essonne.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Étampes had 26,601 residents in 2022, against 24,013 in 2011: the town has grown by nearly eleven percent. A royal town in the south of the Essonne, it keeps a twelfth-century castle tower and several Renaissance mansions. This guide says what can be visited and what is still to be checked.",
+    sections: [
+      {
+        heading: "Guinette Tower",
+        body: "It is the main surviving part of the royal castle, raised in the twelfth century under Louis VI the Fat. Access conditions changed after works: ask the tourist office.",
+      },
+      {
+        heading: "Notre-Dame-du-Fort",
+        body: "Founded in 1025 by King Robert the Pious, the collegiate church keeps a twelfth-century royal portal. It is the oldest religious building in town.",
+      },
+      {
+        heading: "Saint-Martin and its leaning tower",
+        body: "The bell tower of 1537 stands apart from the rest of the church and leans. It is the silhouette people remember from Étampes.",
+      },
+      {
+        heading: "The mansion of Anne de Pisseleu",
+        body: "This Renaissance mansion is tied to the favourite of Francis I, whom he made Duchess of Étampes. It now houses the tourist office, which makes it the natural starting point.",
+      },
+      {
+        heading: "The Diane de Poitiers mansion",
+        body: "Another Renaissance mansion carries the name of Diane de Poitiers, the mistress of Henry II. Its façade is seen from the street; interior opening is to be checked.",
+      },
+      {
+        heading: "The neo-Gothic town hall",
+        body: "The municipal building, in neo-Gothic style, contrasts with the Renaissance mansions. It reflects another moment in the town's history.",
+      },
+      {
+        heading: "Saint-Gilles church",
+        body: "In the district that bears its name, it completes the circuit of Étampes churches. It is for those who take time to cross the whole town.",
+      },
+      {
+        heading: "The streets of the old centre",
+        body: "The route between churches and mansions is done on foot. The tourist office, in the Anne de Pisseleu mansion, supplies a map.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €1,120 a month in our estimate, against €1,150 in Évry-Courcouronnes and €1,010 in Melun. Étampes suits people who want heritage at a distance from Paris, with the RER C commuter line.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Étampes is reached from Paris by the RER C and by road, so check times with the operator. Half a day covers the monuments of the centre.",
+      },
+    ],
+    relatedCities: ["etampes","evry-courcouronnes","melun","rambouillet"],
+    tags: ["things to do in etampes","etampes","travel","city guide","ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-dreux-2026",
+    title: "Things to do in Dreux: the Orléans family tombs and a Renaissance belfry",
+    metaTitle: "Things to Do in Dreux 2026",
+    metaDesc:
+      "The royal chapel of Saint-Louis, the belfry, Saint-Pierre church and the museum, in Eure-et-Loir.",
+    category: "city-guide",
+    emoji: "👑",
+    readMinutes: 5,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Dreux had 31,205 residents in 2022, against 30,536 in 2011. The town holds the burial place of the House of Orléans, the cadet branch of the French royal family, and a Renaissance belfry. This guide says what can be visited in Dreux, and what not to confuse.",
+    sections: [
+      {
+        heading: "The royal chapel of Saint-Louis",
+        body: "The burial place of the House of Orléans, begun from 1816. Despite its dome, it counts among the first French buildings in neo-Gothic style. It is the town's major monument.",
+      },
+      {
+        heading: "The belfry",
+        body: "A belfry here means a civic tower, not a church bell tower. The former town hall, built between 1512 and 1537, combines a Gothic ground floor with Renaissance upper floors. Listed as a historic monument in 1840, it is said by the local museum to be the only belfry of its type in Eure-et-Loir.",
+      },
+      {
+        heading: "Saint-Pierre church",
+        body: "Built from the thirteenth to the seventeenth century, mostly in the fifteenth, and extended in the sixteenth, it never got its south tower, known as Sainte-Anne, finished. Sources differ on some dates.",
+      },
+      {
+        heading: "Place Métézeau",
+        body: "It is named for a family of architects settled in Dreux for nearly a century. It opens in front of Saint-Pierre.",
+      },
+      {
+        heading: "The art and history museum",
+        body: "It occupies a neo-Romanesque chapel built in 1895. It is not the royal chapel, which lists of sites often confuse with it.",
+      },
+      {
+        heading: "The former Hôtel-Dieu",
+        body: "This building, a hospital in the old sense of a charitable foundation, is protected as a historic monument. It is seen from the street; interior access is to be checked.",
+      },
+      {
+        heading: "The old centre on foot",
+        body: "Belfry, church and square are minutes apart. The walk takes an hour, stopping at each monument.",
+      },
+      {
+        heading: "The Eure valley",
+        body: "The river crosses the region. The banks can be walked, with the usual caution near a river.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €930 a month in our estimate, against €890 in Chartres. Dreux suits people who want a reasonable housing budget alongside first-rate heritage.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Dreux is reached from Paris by train and by road, so check times with the operator. Half a day covers the chapel and the belfry.",
+      },
+    ],
+    relatedCities: ["dreux","chartres","rambouillet"],
+    tags: ["things to do in dreux","dreux","travel","city guide","centre-val-de-loire"],
+  },
+  {
+    slug: "things-to-do-in-oyonnax-2026",
+    title: "Things to do in Oyonnax: from boxwood combs to plastics",
+    metaTitle: "Things to Do in Oyonnax 2026",
+    metaDesc:
+      "The comb and plastics museum, Plastics Vallée, the 1943 march and the lakes of Haut-Bugey, in the Ain.",
+    category: "city-guide",
+    emoji: "🪮",
+    readMinutes: 5,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Oyonnax had 22,378 residents in 2022, against 22,459 in 2011: the population is stable. The town was built on the boxwood comb, later made in plastic, and calls its industrial basin Plastics Vallée. This guide says what you see, between industry and memory of the Resistance.",
+    sections: [
+      {
+        heading: "The comb and plastics museum",
+        body: "It occupies the former Grande Vapeur factory, a protected industrial building. Created in 1977, it traces the town's story from the boxwood comb to plastic materials, and its redesigned galleries reopened in 2011. Regional tourism presents it as unique in Europe.",
+      },
+      {
+        heading: "The collections",
+        body: "You find combs and hair ornaments, toys, design furniture, glasses and machines. They show how a local skill spread across a whole sector.",
+      },
+      {
+        heading: "Plastics Vallée",
+        body: "The name covers the industrial basin of plastics processing around Oyonnax. The factories are not open to visitors: the museum is the way into the subject.",
+      },
+      {
+        heading: "The march of 11 November 1943",
+        body: "That day, resistance fighters of the Ain marched through Oyonnax, under the Occupation. It is a key date of the Resistance, remembered in town.",
+      },
+      {
+        heading: "The Aragon cultural centre",
+        body: "The museum belongs to this cultural hub on the Cours de Verdun.",
+      },
+      {
+        heading: "The Haut-Bugey",
+        body: "The town is the gate to a mid-mountain country at the foot of the Jura. The landscapes belong to neighbouring communes and are covered by car.",
+      },
+      {
+        heading: "Lake Nantua and Lake Genin",
+        body: "These two lakes, a few kilometres away, are separate excursions reached from Oyonnax. Mountain roads should be checked in winter, and swimming remains subject to local rules.",
+      },
+      {
+        heading: "The town centre",
+        body: "The centre is walked in under an hour, before or after the museum.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €800 a month in our estimate, against €840 in Bourg-en-Bresse. Oyonnax suits people who work in plastics or want a low housing budget near the Jura.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Oyonnax is reached mostly by road from Bourg-en-Bresse or Lyon. Half a day covers the museum; a day with the lakes.",
+      },
+    ],
+    relatedCities: ["oyonnax","bourg-en-bresse","saint-claude"],
+    tags: ["things to do in oyonnax","oyonnax","travel","city guide","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "things-to-do-in-nogent-sur-marne-2026",
+    title: "Things to do in Nogent-sur-Marne: the Baltard pavilion and the Marne banks",
+    metaTitle: "Things to Do in Nogent-sur-Marne",
+    metaDesc:
+      "The Baltard pavilion, the Marne banks, Île des Loups and Watteau park, in the Val-de-Marne.",
+    category: "city-guide",
+    emoji: "🎻",
+    readMinutes: 5,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Nogent-sur-Marne had 32,998 residents in 2022, against 31,795 in 2011. It is a riverside town east of Paris, where Parisians once came to dance at open-air riverside cafés called guinguettes. This guide says what you see, from the Baltard hall to the banks of the Marne.",
+    sections: [
+      {
+        heading: "The Baltard pavilion",
+        body: "It is the last pavilion of the old Paris central market, Les Halles, to have been kept, rebuilt at Nogent in the 1970s. Listed as a historic monument, it now hosts cultural events. Sources differ on its original number.",
+      },
+      {
+        heading: "The Gaumont-Palace organ",
+        body: "The pavilion holds a cinema organ of 1931 from the Gaumont-Palace, according to the heritage record. It is heard at public sessions announced by the town.",
+      },
+      {
+        heading: "The Marne banks",
+        body: "The banks still carry villas and cottages that recall the golden age of pleasure boating. The walk is done on foot or by bike.",
+      },
+      {
+        heading: "The guinguettes, between history and memory",
+        body: "The Marne bank long drew Parisians on Sundays. What remains is mostly the trace of that past: check what is open before you come.",
+      },
+      {
+        heading: "Île des Loups",
+        body: "This small island in the Marne is reached on foot or by boat. It is a stop for those who like riverbanks and trees.",
+      },
+      {
+        heading: "Watteau park",
+        body: "It is named for the painter Antoine Watteau, who died in Nogent in 1721. It is a green space for walks and picnics.",
+      },
+      {
+        heading: "The town centre",
+        body: "The centre sits a few minutes from the Marne. It is walked in under an hour.",
+      },
+      {
+        heading: "Vincennes and its wood, reached from Nogent",
+        body: "The château of Vincennes and the wood belong to neighbouring communes and territory, reached by public transport from Nogent. Treat them as a separate outing.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €1,860 a month in our estimate, against €1,800 in Vincennes. Nogent suits people who want river banks near Paris, with the RER A.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Nogent is reached from Paris by the RER A, so check times with the operator. Half a day covers the pavilion and the banks.",
+      },
+    ],
+    relatedCities: ["nogent-sur-marne","vincennes","saint-maur-des-fosses"],
+    tags: ["things to do in nogent-sur-marne","nogent-sur-marne","travel","city guide","ile-de-france"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

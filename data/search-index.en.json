@@ -9355,18 +9355,48 @@
       "slug": "things-to-do-in-issoire-2026",
       "title": "Things to do in Issoire: a Romanesque abbey church and the gateway to the Sancy",
       "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-meudon-2026",
+      "title": "Things to do in Meudon: Rodin's grave, an observatory and a hilltop terrace",
+      "emoji": "🔭"
+    },
+    {
+      "slug": "things-to-do-in-romans-sur-isere-2026",
+      "title": "Things to do in Romans-sur-Isère: France's shoe capital",
+      "emoji": "👞"
+    },
+    {
+      "slug": "things-to-do-in-etampes-2026",
+      "title": "Things to do in Étampes: a royal town with a leaning bell tower",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-dreux-2026",
+      "title": "Things to do in Dreux: the Orléans family tombs and a Renaissance belfry",
+      "emoji": "👑"
+    },
+    {
+      "slug": "things-to-do-in-oyonnax-2026",
+      "title": "Things to do in Oyonnax: from boxwood combs to plastics",
+      "emoji": "🪮"
+    },
+    {
+      "slug": "things-to-do-in-nogent-sur-marne-2026",
+      "title": "Things to do in Nogent-sur-Marne: the Baltard pavilion and the Marne banks",
+      "emoji": "🎻"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 319
+      "count": 325
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 313
+      "count": 319
     },
     {
       "slug": "moving-to-france",
@@ -9386,7 +9416,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 79
+      "count": 81
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -9404,6 +9434,11 @@
       "count": 69
     },
     {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 68
+    },
+    {
       "slug": "solo-travel",
       "label": "solo travel",
       "count": 68
@@ -9412,11 +9447,6 @@
       "slug": "travelling-alone-in-france",
       "label": "travelling alone in france",
       "count": 68
-    },
-    {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 65
     },
     {
       "slug": "hauts-de-france",
@@ -9521,7 +9551,7 @@
     {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 27
+      "count": 28
     },
     {
       "slug": "bourgogne-franche-comte",
