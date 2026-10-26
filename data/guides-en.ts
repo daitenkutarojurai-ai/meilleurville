@@ -33625,6 +33625,300 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["cherbourg","moving to france with children","french school system","normandy"],
   },
   {
+    slug: "family-in-bourges-2026",
+    title: "Family life in Bourges (2026): a €760 T3 in a city shrinking by 2%",
+    metaTitle: "Family Life in Bourges 2026: €760 T3, Schools 5.8",
+    metaDesc:
+      "Raising children in Bourges in 2026: a €760 T3, flats at €1,570 per m², houses at €1,738, schools 5.8, safety 5.3, but 2% fewer residents since 2016.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Bourges rents a T3 (two bedrooms and a living room) at €760 on our rent estimate and sells a flat at €1,570 per m². For a family the scores are middling: schools 5.8 (rank 249) and safety 5.3 (rank 306). The commune has 64,238 residents, down 2% since 2016, and 15.4% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Bourges?",
+        body: "The T3 is €760 and the T2 €570. A flat is €1,570 per m² (947 sales in 2024-2025, national DVF property register) and a house €1,738 (988 sales; a house price includes its land), 11% more. The cheapest quarter of flats sells under €1,200 per m² and the dearest quarter around €1,895: the spread is modest, so a family purchase turns on the choice of neighbourhood more than on the budget.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €21,730 per consumption unit (Insee, Filosofi 2021), rank 271 of 586, with 20% poverty. That is a little above Orléans (€21,370, where the T3 costs €170 more) and above Châteauroux (€20,300, T3 at €640).",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 5.8 (rank 249, 22 cities tied), safety 5.3 (rank 306, 11 tied), nature 5.0 (rank 346, 51 tied), cost 6.7 (rank 135). No score stands out: Bourges is a low-rent city, not a city with remarkable schools. Your catchment school comes from the carte scolaire, the map tied to your address, and has to be checked address by address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Palais Jacques-Cœur is free under 18, but the Centre des monuments nationaux announces it will close to the public from 4 January 2027 until early 2028: check before you plan. The Mystères de Bourges treasure hunt, the ice rink, the Raymond-Boisdé swimming centre and the Archbishop's garden fill a weekend; Lac du Val d'Auron suits picnics and water activities. The marshes are walked on foot, since boats depend on the water level.",
+      },
+      {
+        heading: "Bourges against Orléans and Châteauroux",
+        body: "Orléans rents a T3 at €930 and scores 6.6 on schools; Châteauroux, €640 and 5.3. Bourges (€760; 5.8) sits in the middle on both counts. Orléans offers more schools to choose from, Châteauroux is the cheapest, Bourges is the balance between them.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want to buy a house at around €1,740 per m², live on foot near the centre and accept a city that is losing residents. Those who put school first, or want a growing city, will look at Tours or Orléans.",
+      },
+    ],
+    relatedCities: ["bourges","orleans","chateauroux","tours"],
+    tags: ["bourges","moving to france with children","french school system","centre-val-de-loire"],
+  },
+  {
+    slug: "family-in-la-roche-sur-yon-2026",
+    title: "Family life in La Roche-sur-Yon (2026): schools 7.7 and safety 8.0 for an €800 T3",
+    metaTitle: "Family Life in La Roche-sur-Yon 2026: €800 T3, Schools 7.7",
+    metaDesc:
+      "Raising children in La Roche-sur-Yon in 2026: an €800 T3, flats at €2,404 per m², schools 7.7 (rank 38), safety 8.0 (rank 72), 15% poverty, population +1.8%.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "La Roche-sur-Yon rents a T3 (two bedrooms and a living room) at €800 on our rent estimate and scores schools 7.7 (rank 38 of 593) and safety 8.0 (rank 72): a rare pairing, with 52 cities sharing the schools score and only 5 the safety one. The commune has 54,699 residents, up 1.8% since 2016, 14.8% are under 15, and poverty is 15%.",
+    sections: [
+      {
+        heading: "What is the housing budget in La Roche-sur-Yon?",
+        body: "The T3 is €800 and the T2 €600. A flat is €2,404 per m² (713 sales in 2024-2025, national DVF property register) and a house €2,369 (882 sales): the house is 1% cheaper per square metre, a rare case since it includes the land. For a family a house therefore stays within the same budget as a flat per m².",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €22,310 per consumption unit (Insee, Filosofi 2021), rank 225 of 586, with 15% poverty. That is comparable to La Rochelle (€22,200) for a rent €300 lower (€1,100 against €800).",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 7.7 (rank 38, 52 cities tied), safety 8.0 (rank 72, 5 tied), transport 7.0 (rank 131), nature 6.4 (rank 173). The schools-and-safety pair is the strength. These scores are communal: they do not replace checking the catchment school, which the carte scolaire ties to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Haras de la Vendée covers 4.5 ha of parkland in the middle of town; the landscaped park is free to enter outside public opening periods, and the site runs workshops and horse-riding tales for children depending on the season. The Vallée Verte and the Yon valley give walks within the city; the chocolate museum is a wet-weather outing. The Puy du Fou can be reached from La Roche-sur-Yon, but it is not in the commune.",
+      },
+      {
+        heading: "La Roche-sur-Yon against Nantes and La Rochelle",
+        body: "Nantes rents a T3 at €1,150 with 7.9 on schools but 4.6 on safety; La Rochelle, €1,100 with 7.4 and 6.5. La Roche-sur-Yon (€800; 7.7; 8.0) is €300 to €350 a month cheaper and better rated on safety than both.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a good school, a quiet neighbourhood and a rent under €850, without the sea on the doorstep. Those who want a big city's buzz or the beach every day will go to Nantes or La Rochelle.",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon","nantes","la-rochelle","niort"],
+    tags: ["la-roche-sur-yon","moving to france with children","french school system","pays-de-la-loire"],
+  },
+  {
+    slug: "family-in-niort-2026",
+    title: "Family life in Niort (2026): an €860 T3, 16% poverty and a city regaining residents",
+    metaTitle: "Family Life in Niort 2026: €860 T3, Schools 6.6, 16% Poverty",
+    metaDesc:
+      "Raising children in Niort in 2026: an €860 T3, flats at €2,000 per m², houses at €2,021, schools 6.6, safety 5.9, living standard €23,120, population up 1.8%.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Niort rents a T3 (two bedrooms and a living room) at €860 on our rent estimate and sells a flat at €2,000 per m², for a median standard of living of €23,120 (rank 186 of 586) and 16% poverty. The commune has 60,074 residents, up 1.8% since 2016, and 15% are under 15. Family scores are decent: schools 6.6 (rank 105), safety 5.9 (rank 230).",
+    sections: [
+      {
+        heading: "What is the housing budget in Niort?",
+        body: "The T3 is €860 and the T2 €640. A flat is €2,000 per m² (689 sales in 2024-2025, national DVF property register) and a house €2,021 (1,322 sales; a house price includes its land), 1% more. Houses sell almost twice as often as flats: this is a city of houses, which matters for a family wanting a garden.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €23,120 per consumption unit (Insee, Filosofi 2021), rank 186 of 586, with 16% poverty. That is more than Poitiers (€20,150) and more than Dijon (€22,720) for a comparable or lower rent.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.6 (rank 105, 110 cities tied), safety 5.9 (rank 230, 8 tied), nature 5.3 (rank 341), cost 6.4 (rank 175). A 110-city tie on schools says 6.6 is a very common score: it does not set Niort apart. Nature is the weak link, but the Marais poitevin wetlands are close. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Bernard-d'Agesci museum offers a playful route designed at child height, and the Donjon, with its terrace over the town and an exhibition on a thousand years of history, suits a family visit. Mediation programmes change from season to season: check them before you come. The Marais poitevin can be reached from Niort; the Maison du Poitevin is in Coulon, not in Niort.",
+      },
+      {
+        heading: "Niort against Poitiers and La Rochelle",
+        body: "Poitiers rents a T3 at €880 with 7.4 on schools; La Rochelle, €1,100 with 7.4 as well. Niort (€860; 6.6) has a schools score 0.8 points lower, but a living standard above Poitiers' and a rent €240 below La Rochelle's.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a mid-sized city with slight growth, houses at €2,000 per m² and a solid local income. Those who put schools at 7.5 or more, or want the sea, will look at Poitiers or La Rochelle.",
+      },
+    ],
+    relatedCities: ["niort","poitiers","la-rochelle","la-roche-sur-yon"],
+    tags: ["niort","moving to france with children","french school system","nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-chartres-2026",
+    title: "Family life in Chartres (2026): a €22,770 living standard, an €890 T3, but 2% fewer residents",
+    metaTitle: "Family Life in Chartres 2026: €890 T3, Schools 6.6",
+    metaDesc:
+      "Raising children in Chartres in 2026: an €890 T3, flats at €2,438 per m², schools 6.6, safety 5.5, living standard €22,770, 16% poverty, population down 2%.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Chartres rents a T3 (two bedrooms and a living room) at €890 on our rent estimate and sells a flat at €2,438 per m², for a median standard of living of €22,770 (rank 199 of 586) and 16% poverty. Schools 6.6 (rank 105) and safety 5.5 (rank 275): middling scores. The commune has 37,990 residents, down 2% since 2016, and 15.3% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Chartres?",
+        body: "The T3 is €890 and the T2 €680. A flat is €2,438 per m² (821 sales in 2024-2025, national DVF property register) and a house €2,500 (359 sales; a house price includes its land), 3% more. Flats sell more than twice as often as houses: this is the market of a dense centre.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €22,770 per consumption unit (Insee, Filosofi 2021), rank 199 of 586, with 16% poverty. Dreux, in the same département, is at €18,250 for a T3 at €930: Chartres is both better off and cheaper to rent.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.6 (rank 105, 110 cities tied), safety 5.5 (rank 275, 25 tied), transport 6.4 (rank 200), nature 5.0 (rank 346, 51 tied). The relative strength is access (transport 6.4); the weak point is nature, in a city of the Beauce surrounded by plain. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "Children can climb the cathedral towers, with a view over the whole Beauce, and go down to the crypt. The COMPA, a museum of agriculture, shows farm machinery from 1860 to 1960. The Maison Picassiette, covered in mosaics of broken crockery, is a few minutes from town. The park along the Eure has mini-golf, pedal boats and an open-air café in season; the Chartres en lumières light show changes its calendar every year.",
+      },
+      {
+        heading: "Chartres against Dreux and Le Mans",
+        body: "Dreux rents a T3 at €930 with 6.6 on schools and 5.7 on safety; Le Mans, €870 with 6.2 and 5.3. Chartres (€890; 6.6; 5.5) has the same scores as Dreux at a slightly lower rent and a living standard €4,500 higher.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a human-sized heritage city, a decent local income and a link to Paris, and who accept a population decline. Those aiming for a very highly rated school or a growing city will go elsewhere.",
+      },
+    ],
+    relatedCities: ["chartres","dreux","le-mans","orleans"],
+    tags: ["chartres","moving to france with children","french school system","centre-val-de-loire"],
+  },
+  {
+    slug: "family-in-blois-2026",
+    title: "Family life in Blois (2026): young and growing, but 27% poverty",
+    metaTitle: "Family Life in Blois 2026: €820 T3, 18.5% Under 15",
+    metaDesc:
+      "Raising children in Blois in 2026: an €820 T3, flats at €1,814 per m², schools 6.2, safety 5.3, 18.5% under 15, 27% poverty, population up 3.1%.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Blois is the youngest city of this batch: 18.5% of its 47,092 residents are under 15, and the commune has gained 3.1% since 2016. The T3 (two bedrooms and a living room) is €820 on our rent estimate and a flat €1,814 per m², but the median standard of living is only €19,360 (rank 469 of 586) and poverty reaches 27%. Schools 6.2 (rank 219), safety 5.3 (rank 306).",
+    sections: [
+      {
+        heading: "What is the housing budget in Blois?",
+        body: "The T3 is €820 and the T2 €610. A flat is €1,814 per m² (783 sales in 2024-2025, national DVF property register) and a house €1,920 (417 sales; a house price includes its land), 6% more. The cheapest quarter of flats sells under €1,376 per m², the dearest quarter above €2,183: the gap between neighbourhoods is the real subject.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €19,360 per consumption unit (Insee, Filosofi 2021), rank 469 of 586, with 27% poverty. Tours is at €21,250 and Orléans at €21,370: the rent is lower (€940 and €930 for those cities' T3s) but the income gap is nearly €2,000. The high share of children and the poverty rate go together.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.2 (rank 219, 28 cities tied), safety 5.3 (rank 306, 11 tied), nature 5.6 (rank 320), cost 6.4 (rank 175). Middling scores: Blois is neither the city of schools nor the city of quiet, it is the city of a contained rent on the Loire. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Maison de la Magie faces the royal château: its façade comes alive every half hour, with a mechanical dragon, and the venue runs initiations and shows. The Château de Blois is in the town centre, on foot from the station. Chambord, about fifteen kilometres away, can be reached from Blois but is not in the commune; shuttles leave from the station.",
+      },
+      {
+        heading: "Blois against Tours and Orléans",
+        body: "Tours rents a T3 at €940 with 7.9 on schools, Orléans at €930 with 6.6. Blois (€820; 6.2) is €110 to €120 cheaper than both.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a lower rent than Tours, a lively city for children and the Loire heritage within reach, knowing the local income. Those expecting a very highly rated school will look at Tours.",
+      },
+    ],
+    relatedCities: ["blois","tours","orleans","chartres"],
+    tags: ["blois","moving to france with children","french school system","centre-val-de-loire"],
+  },
+  {
+    slug: "family-in-auxerre-2026",
+    title: "Family life in Auxerre (2026): a €660 T3, among the lowest of the batch, and schools 6.6",
+    metaTitle: "Family Life in Auxerre 2026: €660 T3, Schools 6.6, Cost 7.2",
+    metaDesc:
+      "Raising children in Auxerre in 2026: a €660 T3, flats at €1,568 per m², houses at €1,831, schools 6.6, safety 5.7, 22% poverty, population up 1.1%.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Auxerre rents a T3 (two bedrooms and a living room) at €660 on our rent estimate and sells a flat at €1,568 per m², the lowest rent of the seven cities in this batch. Schools 6.6 (rank 105), safety 5.7 (rank 241) and cost 7.2 (rank 110). The commune has 35,236 residents, up 1.1% since 2016, and 15.8% are under 15, with 22% poverty.",
+    sections: [
+      {
+        heading: "What is the housing budget in Auxerre?",
+        body: "The T3 is €660 and the T2 €490. A flat is €1,568 per m² (604 sales in 2024-2025, national DVF property register) and a house €1,831 (398 sales; a house price includes its land), 17% more: the widest gap of the batch, because the house includes a plot in a more open area. A family flat can be negotiated under €1,600 per m².",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €20,340 per consumption unit (Insee, Filosofi 2021), rank 395 of 586, with 22% poverty. Troyes is at €18,260 for a T3 at €860; Dijon at €22,720 for €950. Auxerre houses you €200 below Troyes with a higher income.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.6 (rank 105, 110 cities tied), safety 5.7 (rank 241, 31 tied), nature 5.7 (rank 262), transport 5.5 (rank 332). Middling scores; Auxerre's argument is price, not any single criterion. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The parc de l'Arbre-Sec, laid out on a former marsh, runs along the Yonne and suits cycling. The Saint-Germain abbey houses an archaeology museum with free entry, the crypt being paid. Guédelon, the building site of a thirteenth-century castle raised with medieval techniques, is in Treigny, about 45 minutes by car: reached from Auxerre, open from April to early November, to be checked before you leave.",
+      },
+      {
+        heading: "Auxerre against Troyes and Dijon",
+        body: "Troyes rents a T3 at €860 with 6.4 on schools; Dijon, €950 with 7.4. Auxerre (€660; 6.6) has a better schools score than Troyes for €200 less. Dijon beats it on schools by 0.8 points for €290 more.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want to rent or buy very cheaply, in a slightly growing city with heritage within walking distance. Those aiming for a very highly rated school or a high local income will look at Dijon.",
+      },
+    ],
+    relatedCities: ["auxerre","troyes","dijon","nevers"],
+    tags: ["auxerre","moving to france with children","french school system","burgundy"],
+  },
+  {
+    slug: "family-in-saint-brieuc-2026",
+    title: "Family life in Saint-Brieuc (2026): the bay and a €780 T3, but weak transport",
+    metaTitle: "Family Life in Saint-Brieuc 2026: €780 T3, Schools 6.2",
+    metaDesc:
+      "Raising children in Saint-Brieuc in 2026: a €780 T3, flats at €1,760 per m², houses at €1,988, schools 6.2, nature 6.4, transport 4.9, 15.7% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Saint-Brieuc rents a T3 (two bedrooms and a living room) at €780 on our rent estimate and sells a flat at €1,760 per m², with the bay on its doorstep: nature 6.4 (rank 173). The weak points are transport (4.9, rank 369) and a living standard of €20,910 (rank 353). The commune has 44,607 residents, down 0.9% since 2016, and 15.7% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Saint-Brieuc?",
+        body: "The T3 is €780 and the T2 €580. A flat is €1,760 per m² (1,070 sales in 2024-2025, national DVF property register) and a house €1,988 (643 sales; a house price includes its land), 13% more. Flats sell more often than houses.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €20,910 per consumption unit (Insee, Filosofi 2021), rank 353 of 586, with 21% poverty. Lorient is at €20,860 for a T3 at €900; Vannes at €24,070 for €1,150. Saint-Brieuc is €120 below Lorient for an identical living standard.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.2 (rank 219, 28 cities tied), safety 5.7 (rank 241, 31 tied), nature 6.4 (rank 173, 61 tied), transport 4.9 (rank 369, 58 tied). Without a car, daily life is more constrained than elsewhere; with one, the coast is minutes away. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The bay holds a national nature reserve created in 1998, with a Maison de la Baie at Hillion explaining migratory birds and the tides. The Rosaires beach, in Plérin, is a fine-sand beach reached from Saint-Brieuc. The port of Le Légué, on the Gouët estuary, is walked on foot; the Valais strand is not supervised and partly protected. Tides are strong: check the tide table before going down onto the foreshore.",
+      },
+      {
+        heading: "Saint-Brieuc against Lorient and Vannes",
+        body: "Lorient rents a T3 at €900 with 6.6 on schools; Vannes, €1,150 with 7.4 on schools and 6.9 on safety. Saint-Brieuc (€780; 6.2) is the cheapest of the three, €120 to €370 below the others, and the lowest rated on schools.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Breton-minded families who want the sea, a rent under €800 and a car. Those counting on public transport or a very highly rated school will go to Rennes or Vannes.",
+      },
+    ],
+    relatedCities: ["saint-brieuc","lorient","vannes","quimper"],
+    tags: ["saint-brieuc","moving to france with children","french school system","brittany"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",

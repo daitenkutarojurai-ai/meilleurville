@@ -7622,6 +7622,41 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-bourges-2026",
+      "title": "Family life in Bourges (2026): a €760 T3 in a city shrinking by 2%",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-la-roche-sur-yon-2026",
+      "title": "Family life in La Roche-sur-Yon (2026): schools 7.7 and safety 8.0 for an €800 T3",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-niort-2026",
+      "title": "Family life in Niort (2026): an €860 T3, 16% poverty and a city regaining residents",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-chartres-2026",
+      "title": "Family life in Chartres (2026): a €22,770 living standard, an €890 T3, but 2% fewer residents",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-blois-2026",
+      "title": "Family life in Blois (2026): young and growing, but 27% poverty",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-auxerre-2026",
+      "title": "Family life in Auxerre (2026): a €660 T3, among the lowest of the batch, and schools 6.6",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-saint-brieuc-2026",
+      "title": "Family life in Saint-Brieuc (2026): the bay and a €780 T3, but weak transport",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -9461,7 +9496,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 77
+      "count": 78
     },
     {
       "slug": "occitanie",
@@ -9504,9 +9539,19 @@
       "count": 59
     },
     {
+      "slug": "french-school-system",
+      "label": "french school system",
+      "count": 57
+    },
+    {
       "slug": "single-supplement",
       "label": "single supplement",
       "count": 57
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 56
     },
     {
       "slug": "buying-property-france",
@@ -9519,29 +9564,19 @@
       "count": 53
     },
     {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 50
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 48
     },
     {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 49
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 47
     },
     {
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 47
-    },
-    {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
-      "count": 47
-    },
-    {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 46
     },
     {
       "slug": "international-students",
@@ -9591,7 +9626,7 @@
     {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 28
+      "count": 31
     },
     {
       "slug": "bourgogne-franche-comte",
@@ -9604,13 +9639,13 @@
       "count": 23
     },
     {
-      "slug": "alsace",
-      "label": "alsace",
-      "count": 17
-    },
-    {
       "slug": "burgundy",
       "label": "burgundy",
+      "count": 18
+    },
+    {
+      "slug": "alsace",
+      "label": "alsace",
       "count": 17
     },
     {
