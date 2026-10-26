@@ -845,3 +845,29 @@ viewport. EN non capturé (route `[locale]` en dev). `npm run build` non lancé.
 1. Fiches ville `/red-flags/[slug]` (FR + EN `red-flags/[slug]`).
 2. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
 3. `app/guides/[slug]` (gabarit guide : en-tête, sommaire, encadrés).
+
+## 2026-10-26 ~16:00 UTC — fiches ville Red Flags `/red-flags/[slug]` (FR ×540) + EN `red-flags/[slug]`
+
+**Surface** : les deux gabarits de fiche ville Red Flags (`app/red-flags/[slug]/page.tsx`,
+`app/[locale]/red-flags/[slug]/page.tsx`). Avant : hero `topo-bg` voilé, nom de ville en `.plaque`, cartouche à
+double filet, planche à filets `gap-px`, symboles hachurés (`HATCH`), méthode en cadre pointillé, vignettes
+à filet pointillé, liens soulignés brique, tout sur le fond de page.
+
+**Changé**
+- Hero `.bg-aurora`, retour et sur-titre en pastilles blanches, nom de ville en `.gradient-text`.
+- Bandes : vigilance `band-sky` → drapeaux `band-indigo` → (FR, si canicule) renvoi classement `band-pink`
+  → méthode `band-aqua` → profils proches `band-lilac` → renvois + feedback `band-white`.
+- Cartes blanches à ombre indigo partout ; icônes en tuiles `.grad-head-N` (fin du `HATCH`, constante et
+  import `CSSProperties` supprimés) ; numéros en pilules ; badges de niveau en pilules (couleurs de niveau
+  inchangées, réservées) ; pastilles de la bande de niveaux rondes ; méthode en carte à en-tête
+  `grad-head-3` ; département en pilule rose ; renvois en pilules indigo.
+- Copie, données, liens : inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` 0 erreur sur les
+2 fichiers. Captures `next dev` + playwright `/red-flags/marseille` 1440 et 390 px, `scrollWidth` =
+viewport. EN non capturé (route `[locale]` en dev). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
+2. `app/guides/[slug]` (gabarit guide : en-tête, sommaire, encadrés).
+3. Page agenda `/villes/[slug]/agenda` + `components/CityEvents.tsx`.

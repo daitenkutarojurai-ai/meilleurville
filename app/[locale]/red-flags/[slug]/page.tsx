@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import React from "react";
-import type { CSSProperties } from "react";
 import {
   ArrowLeft, ArrowRight, ShieldAlert, Flame, Droplets, Wind, Mountain, Home, Users, Bus, GraduationCap,
 } from "lucide-react";
@@ -28,7 +27,7 @@ export function generateStaticParams() {
 type Level = "critique" | "eleve" | "modere" | "mesure" | "faible";
 
 // Hues encode a RISK LEVEL (5-step scale), never decoration — kept on the
-// « Carte & plaque » sheet. `chip` is 700 on 100 to hold AA at 10-11 px.
+// « Couleurs » sheet. `chip` is 700 on 100 to hold AA at 10-11 px.
 // Same palette as the FR twin app/red-flags/[slug]/page.tsx.
 const LEVEL_META: Record<Level, { label: string; tone: string; chip: string; swatch: string; weight: number }> = {
   critique: { label: "Critical",     tone: "text-red-700",     chip: "text-red-700 bg-red-100 border-red-300",            swatch: "bg-red-500 border-red-700",         weight: 4 },
@@ -40,10 +39,6 @@ const LEVEL_META: Record<Level, { label: string; tone: string; chip: string; swa
 
 // Brick hatched legend symbol — same pattern as the R1-R6 categories of the
 // /red-flags hub and ContributionStats.
-const HATCH: CSSProperties = {
-  backgroundImage:
-    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
-};
 
 interface Flag {
   id: string;
@@ -371,22 +366,22 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navbar />
 
-      {/* Header — veiled topo paper, same grammar as the hub and theme sheets. */}
-      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
-        <div className="bg-[var(--bg-canvas)]/80 pt-20 pb-10">
+      {/* Header — aurore colorée. */}
+      <section className="bg-aurora">
+        <div className="pt-20 pb-12">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
-            <div className="mb-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
+            <div className="mb-5 flex flex-wrap items-center gap-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
               <Link
                 href="/red-flags"
-                className="inline-flex items-center gap-1.5 border-b border-[var(--accent-pink)]/40 pb-1 text-[var(--accent-pink)] hover:border-[var(--accent-pink)]"
+                className="inline-flex items-center gap-1.5 rounded-full bg-white/85 px-3 py-1 text-[#BE185D] shadow-sm ring-1 ring-[var(--accent-pink)]/20 transition-colors hover:bg-white"
               >
                 <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
                 Red Flags
               </Link>
-              <span className="text-[var(--text-tertiary)]">City report · 2026 data</span>
+              <span className="rounded-full bg-white/70 px-3 py-1 text-[#4338CA] ring-1 ring-[var(--accent)]/15">City report · 2026 data</span>
             </div>
-            <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.15]">
-              Red flags for <span className="plaque max-w-full">{city.name}</span>
+            <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.08]">
+              Red flags for <span className="gradient-text">{city.name}</span>
             </h1>
             <p className="text-[var(--text-secondary)] text-base sm:text-lg max-w-2xl leading-relaxed">
               What the property listing never tells you: nine risk categories cross-referenced
@@ -398,13 +393,13 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Vigilance index — map cartouche, level strip as a legend. */}
-      <section className="relative pt-10 pb-10">
+      {/* Vigilance — carte blanche sur bande ciel, bande de niveaux en légende. */}
+      <section className="band band-sky py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="rounded-md border border-[var(--text-primary)]/25 bg-[var(--bg-surface)] p-1">
-            <div className="flex flex-col gap-5 border border-[var(--border)] p-5 sm:flex-row sm:items-end sm:justify-between">
+          <div className="rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10 overflow-hidden">
+            <div className="flex flex-col gap-5 p-5 sm:flex-row sm:items-end sm:justify-between">
               <div>
-                <div className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                <div className="mb-2 inline-block rounded-full grad-head-5 px-3 py-1 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em]">
                   Composite vigilance index
                 </div>
                 <div className={`text-3xl font-black font-mono-data ${v.tone}`}>{v.label}</div>
@@ -415,7 +410,7 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
               <ol className="flex items-end gap-1.5" aria-label="Level of each category, most to least exposed">
                 {ordered.map((f, i) => (
                   <li key={f.id} className="flex flex-col items-center gap-1" title={`${f.label} — ${LEVEL_META[f.level].label}`}>
-                    <span className={`block h-4 w-4 rounded-[2px] border ${LEVEL_META[f.level].swatch}`} aria-hidden="true" />
+                    <span className={`block h-4 w-4 rounded-full border ${LEVEL_META[f.level].swatch}`} aria-hidden="true" />
                     <span className="font-mono-data text-[9px] text-[var(--text-tertiary)]" aria-hidden="true">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -428,8 +423,8 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Flags — ruled legend sheet, brick hatched symbols. */}
-      <section className="relative pb-10">
+      {/* Flags — cartes blanches sur bande indigo, tuiles d'icône dégradées. */}
+      <section className="band band-indigo py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
             Flags by category
@@ -438,30 +433,29 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
             Sorted from most to least exposed. The badge gives the level; the numbers match
             the strip above.
           </p>
-          <div className="grid gap-px overflow-hidden rounded-md border border-[var(--border)] bg-[var(--border)] sm:grid-cols-2">
+          <div className="grid gap-3 sm:grid-cols-2">
             {ordered.map((f, i) => {
               const meta = LEVEL_META[f.level];
               const Icon = f.icon;
               return (
                 <article
                   key={f.id}
-                  className={`flex items-start gap-3 bg-[var(--bg-surface)] p-5 ${i === ordered.length - 1 && ordered.length % 2 === 1 ? "sm:col-span-2" : ""}`}
+                  className={`rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10 flex items-start gap-3 p-5 ${i === ordered.length - 1 && ordered.length % 2 === 1 ? "sm:col-span-2" : ""}`}
                 >
                   <span
-                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
-                    style={HATCH}
+                    className={`grad-head-${i % 6} flex h-9 w-9 shrink-0 items-center justify-center rounded-xl shadow-sm`}
                     aria-hidden="true"
                   >
                     <Icon className="h-4 w-4" strokeWidth={2} />
                   </span>
                   <div className="min-w-0 flex-1">
                     <div className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-1">
-                      <span className="font-mono-data text-[10px] font-semibold tracking-wider text-[var(--text-tertiary)]">
+                      <span className="rounded-full bg-[var(--band-indigo)] px-2 py-0.5 font-mono-data text-[10px] font-bold tracking-wider text-[#4338CA]">
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       <h3 className="text-base font-bold text-[var(--text-primary)]">{f.label}</h3>
                       <span
-                        className={`ml-auto inline-flex items-center rounded-sm border px-2 py-0.5 font-mono-data text-[10px] font-bold uppercase tracking-widest ${meta.chip}`}
+                        className={`ml-auto inline-flex items-center rounded-full border px-2.5 py-0.5 font-mono-data text-[10px] font-bold uppercase tracking-widest ${meta.chip}`}
                       >
                         {meta.label}
                       </span>
@@ -473,7 +467,7 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
                       href={f.source.url}
                       target="_blank"
                       rel="noopener noreferrer nofollow"
-                      className="block border-t border-dashed border-[var(--border)] pt-2 text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+                      className="block border-t border-[var(--accent)]/10 pt-2 text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
                     >
                       Source: {f.source.name}{" "}
                       <span aria-hidden>↗</span>
@@ -486,14 +480,14 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Method — map footnote, dashed frame. */}
-      <section className="relative pb-10">
+      {/* Method — carte blanche à en-tête dégradé sur bande aqua. */}
+      <section className="band band-aqua py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-canvas)] p-6">
-            <h2 className="mb-3 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-secondary)]">
+          <div className="rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10 overflow-hidden">
+            <h2 className="grad-head-3 px-5 py-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em]">
               How to read this report
             </h2>
-            <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
+            <ul className="space-y-2 p-6 text-sm text-[var(--text-secondary)] leading-relaxed">
               <li>
                 <strong className="text-[var(--text-primary)]">Public sources only</strong>{" "}— each flag cites a reference database (Géorisques for natural hazards, SSMSI for crime, ATMO France for air, BRGM for seismics, Insee for tourism pressure, DEPP for schools, Cerema for mobility).
               </li>
@@ -511,9 +505,9 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Similar profiles — sheet tiles, brick hover. */}
+      {/* Similar profiles — vignettes blanches sur bande lilas. */}
       {similar.length > 0 && (
-        <section className="relative pb-10">
+        <section className="band band-lilac py-10">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
               Similar risk profiles in {city.region ?? "France"}
@@ -523,12 +517,12 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
                 <Link
                   key={c.slug}
                   href={`/red-flags/${c.slug}`}
-                  className="group flex flex-col gap-1.5 rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors px-4 py-3"
+                  className="group flex flex-col gap-1.5 rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10 px-4 py-3 transition-shadow hover:shadow-[0_14px_34px_-16px_rgba(219,39,119,0.45)]"
                 >
-                  <span className="truncate border-b border-dashed border-[var(--border)] pb-1.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.14em] text-[var(--accent-pink)]">
+                  <span className="truncate self-start max-w-full rounded-full bg-[var(--band-pink)] px-2 py-0.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.14em] text-[#BE185D]">
                     {c.department ?? c.region}
                   </span>
-                  <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors truncate">
+                  <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#BE185D] transition-colors truncate">
                     {c.name}
                   </span>
                 </Link>
@@ -538,10 +532,10 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
         </section>
       )}
 
-      {/* Onward links — sheet-foot links, brick underline. */}
-      <section className="relative pb-16">
+      {/* Onward links — liens pilules sur bande blanche. */}
+      <section className="band band-white py-10">
         <nav aria-label="Further reading" className="mx-auto max-w-5xl px-4 sm:px-6">
-          <ul className="flex flex-wrap gap-x-6 gap-y-3 border-t border-dashed border-[var(--border)] pt-5 text-sm">
+          <ul className="flex flex-wrap gap-3 text-sm">
             {[
               { href: `/cities/${slug}`, label: `Full profile of ${city.name}` },
               { href: `/cities/${slug}/climate`, label: "Climate & seasons" },
@@ -551,7 +545,7 @@ export default async function EnCityRedFlagsPage({ params }: Props) {
               <li key={l.href}>
                 <Link
                   href={l.href}
-                  className="inline-flex items-center gap-1 font-semibold text-[var(--accent)] underline decoration-[var(--accent-pink)]/50 underline-offset-4 hover:decoration-[var(--accent-pink)]"
+                  className="inline-flex items-center gap-1.5 rounded-full bg-[var(--band-indigo)] px-4 py-2 font-semibold text-[#4338CA] ring-1 ring-[var(--accent)]/15 transition-colors hover:bg-[var(--accent)] hover:text-white"
                 >
                   {l.label} <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                 </Link>

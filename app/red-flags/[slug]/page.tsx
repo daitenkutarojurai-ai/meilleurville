@@ -9,7 +9,6 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
 import { ReportCTA } from "@/components/ReportCTA";
-import type { CSSProperties } from "react";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -26,7 +25,7 @@ export function generateStaticParams() {
 type Level = "critique" | "eleve" | "modere" | "mesure" | "faible";
 
 // Les teintes encodent un NIVEAU de risque (échelle à 5 crans), jamais une
-// décoration — d'où leur maintien dans la fiche « Carte & plaque ». `chip`
+// décoration — d'où leur maintien dans la fiche « Couleurs ». `chip`
 // porte du 700 sur 100 pour tenir l'AA en 10-11 px.
 const LEVEL_META: Record<Level, { label: string; tone: string; chip: string; swatch: string; weight: number }> = {
   critique: { label: "Critique", tone: "text-red-700",     chip: "text-red-700 bg-red-100 border-red-300",            swatch: "bg-red-500 border-red-700",         weight: 4 },
@@ -36,12 +35,6 @@ const LEVEL_META: Record<Level, { label: string; tone: string; chip: string; swa
   faible:   { label: "Faible",   tone: "text-emerald-700", chip: "text-emerald-700 bg-emerald-50 border-emerald-300", swatch: "bg-emerald-400 border-emerald-600", weight: 0 },
 };
 
-// Symbole de légende hachuré brique — même trame que les catégories R1-R6 du
-// hub /red-flags et de ContributionStats.
-const HATCH: CSSProperties = {
-  backgroundImage:
-    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
-};
 
 interface Flag {
   id: string;
@@ -391,22 +384,22 @@ export default async function CityRedFlagsPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(articleJsonLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(itemListJsonLd)} />
 
-      {/* En-tête — papier topo voilé, même grammaire que le hub et les feuilles thème. */}
-      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
-        <div className="bg-[var(--bg-canvas)]/80 pt-20 pb-10">
+      {/* En-tête — aurore colorée. */}
+      <section className="bg-aurora">
+        <div className="pt-20 pb-12">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
-            <div className="mb-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
+            <div className="mb-5 flex flex-wrap items-center gap-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
               <Link
                 href="/red-flags"
-                className="inline-flex items-center gap-1.5 border-b border-[var(--accent-pink)]/40 pb-1 text-[var(--accent-pink)] hover:border-[var(--accent-pink)]"
+                className="inline-flex items-center gap-1.5 rounded-full bg-white/85 px-3 py-1 text-[#BE185D] shadow-sm ring-1 ring-[var(--accent-pink)]/20 transition-colors hover:bg-white"
               >
                 <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
                 Red Flags
               </Link>
-              <span className="text-[var(--text-tertiary)]">Fiche ville · Données 2026</span>
+              <span className="rounded-full bg-white/70 px-3 py-1 text-[#4338CA] ring-1 ring-[var(--accent)]/15">Fiche ville · Données 2026</span>
             </div>
-            <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.15]">
-              Red Flags de <span className="plaque max-w-full">{city.name}</span>
+            <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.08]">
+              Red Flags de <span className="gradient-text">{city.name}</span>
             </h1>
             <p className="text-[var(--text-secondary)] text-base sm:text-lg max-w-2xl leading-relaxed">
               Ce que l&apos;annonce immobilière ne dit jamais : neuf catégories de risques croisés
@@ -418,13 +411,13 @@ export default async function CityRedFlagsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Indice de vigilance — cartouche de carte, bande de niveaux en légende. */}
-      <section className="relative pt-10 pb-10">
+      {/* Indice — carte blanche sur bande ciel, bande de niveaux en légende. */}
+      <section className="band band-sky py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="rounded-md border border-[var(--text-primary)]/25 bg-[var(--bg-surface)] p-1">
-            <div className="flex flex-col gap-5 border border-[var(--border)] p-5 sm:flex-row sm:items-end sm:justify-between">
+          <div className="rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10 overflow-hidden">
+            <div className="flex flex-col gap-5 p-5 sm:flex-row sm:items-end sm:justify-between">
               <div>
-                <div className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                <div className="mb-2 inline-block rounded-full grad-head-5 px-3 py-1 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em]">
                   Indice de vigilance composite
                 </div>
                 <div className={`text-3xl font-black font-mono-data ${v.tone}`}>{v.label}</div>
@@ -435,7 +428,7 @@ export default async function CityRedFlagsPage({ params }: Props) {
               <ol className="flex items-end gap-1.5" aria-label="Niveau de chaque catégorie, du plus au moins exposé">
                 {ordered.map((f, i) => (
                   <li key={f.id} className="flex flex-col items-center gap-1" title={`${f.label} — ${LEVEL_META[f.level].label}`}>
-                    <span className={`block h-4 w-4 rounded-[2px] border ${LEVEL_META[f.level].swatch}`} aria-hidden="true" />
+                    <span className={`block h-4 w-4 rounded-full border ${LEVEL_META[f.level].swatch}`} aria-hidden="true" />
                     <span className="font-mono-data text-[9px] text-[var(--text-tertiary)]" aria-hidden="true">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -448,8 +441,8 @@ export default async function CityRedFlagsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Drapeaux — planche de légende à filets, symboles hachurés brique. */}
-      <section className="relative pb-10">
+      {/* Drapeaux — cartes blanches sur bande indigo, tuiles d'icône dégradées. */}
+      <section className="band band-indigo py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
             Drapeaux par catégorie
@@ -458,30 +451,29 @@ export default async function CityRedFlagsPage({ params }: Props) {
             Classés du niveau le plus exposé au moins exposé. La pastille donne le niveau ;
             les numéros reprennent ceux de la bande ci-dessus.
           </p>
-          <div className="grid gap-px overflow-hidden rounded-md border border-[var(--border)] bg-[var(--border)] sm:grid-cols-2">
+          <div className="grid gap-3 sm:grid-cols-2">
             {ordered.map((f, i) => {
               const meta = LEVEL_META[f.level];
               const Icon = f.icon;
               return (
                 <article
                   key={f.id}
-                  className={`flex items-start gap-3 bg-[var(--bg-surface)] p-5 ${i === ordered.length - 1 && ordered.length % 2 === 1 ? "sm:col-span-2" : ""}`}
+                  className={`rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10 flex items-start gap-3 p-5 ${i === ordered.length - 1 && ordered.length % 2 === 1 ? "sm:col-span-2" : ""}`}
                 >
                   <span
-                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
-                    style={HATCH}
+                    className={`grad-head-${i % 6} flex h-9 w-9 shrink-0 items-center justify-center rounded-xl shadow-sm`}
                     aria-hidden="true"
                   >
                     <Icon className="h-4 w-4" strokeWidth={2} />
                   </span>
                   <div className="min-w-0 flex-1">
                     <div className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-1">
-                      <span className="font-mono-data text-[10px] font-semibold tracking-wider text-[var(--text-tertiary)]">
+                      <span className="rounded-full bg-[var(--band-indigo)] px-2 py-0.5 font-mono-data text-[10px] font-bold tracking-wider text-[#4338CA]">
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       <h3 className="text-base font-bold text-[var(--text-primary)]">{f.label}</h3>
                       <span
-                        className={`ml-auto inline-flex items-center rounded-sm border px-2 py-0.5 font-mono-data text-[10px] font-bold uppercase tracking-widest ${meta.chip}`}
+                        className={`ml-auto inline-flex items-center rounded-full border px-2.5 py-0.5 font-mono-data text-[10px] font-bold uppercase tracking-widest ${meta.chip}`}
                       >
                         {meta.label}
                       </span>
@@ -493,7 +485,7 @@ export default async function CityRedFlagsPage({ params }: Props) {
                       href={f.source.url}
                       target="_blank"
                       rel="noopener noreferrer nofollow"
-                      className="block border-t border-dashed border-[var(--border)] pt-2 text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+                      className="block border-t border-[var(--accent)]/10 pt-2 text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
                     >
                       Source : {f.source.name}{" "}
                       <span aria-hidden>↗</span>
@@ -511,16 +503,16 @@ export default async function CityRedFlagsPage({ params }: Props) {
           juillet) ; ce lien contextualise la ville dans le palmarès France
           des villes séduisantes qui basculent en juillet-août. */}
       {showInvivablesEteLink && (
-        <section className="relative pb-10">
+        <section className="band band-pink py-10">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <Link
               href="/red-flags/villes-belles-invivables-ete"
-              className="group block rounded-md border border-[var(--border)] border-l-4 border-l-[var(--accent-pink)] bg-[var(--bg-surface)] p-5 hover:border-[var(--accent-pink)] transition-colors"
+              className="group block rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10 p-5 transition-shadow hover:shadow-[0_14px_34px_-16px_rgba(219,39,119,0.45)]"
             >
-              <div className="mb-1 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+              <div className="mb-2 inline-block rounded-full grad-head-1 px-3 py-1 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em]">
                 Classement thématique
               </div>
-              <p className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors">
+              <p className="font-semibold text-[var(--text-primary)] group-hover:text-[#BE185D] transition-colors">
                 {city.name}{" "}figure parmi les villes belles… mais invivables l&apos;été
                 <ArrowRight className="ml-1.5 inline h-4 w-4 align-[-2px]" aria-hidden="true" />
               </p>
@@ -536,14 +528,14 @@ export default async function CityRedFlagsPage({ params }: Props) {
         </section>
       )}
 
-      {/* Méthode — note de bas de carte, cadre pointillé. */}
-      <section className="relative pb-10">
+      {/* Méthode — carte blanche à en-tête dégradé sur bande aqua. */}
+      <section className="band band-aqua py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-canvas)] p-6">
-            <h2 className="mb-3 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-secondary)]">
+          <div className="rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10 overflow-hidden">
+            <h2 className="grad-head-3 px-5 py-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em]">
               Comment lire cette fiche
             </h2>
-            <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
+            <ul className="space-y-2 p-6 text-sm text-[var(--text-secondary)] leading-relaxed">
               <li>
                 <strong className="text-[var(--text-primary)]">Sources publiques uniquement</strong>{" "}— chaque drapeau cite une base de référence (Géorisques pour les risques naturels, SSMSI pour la délinquance, ATMO France pour l&apos;air, BRGM pour la sismicité, Insee pour la pression touristique, DEPP pour les écoles, Cerema pour la mobilité).
               </li>
@@ -561,9 +553,9 @@ export default async function CityRedFlagsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Profils proches — vignettes de feuille, survol brique. */}
+      {/* Profils proches — vignettes blanches sur bande lilas. */}
       {similar.length > 0 && (
-        <section className="relative pb-10">
+        <section className="band band-lilac py-10">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
               Profils de risque proches en {city.region ?? "France"}
@@ -573,12 +565,12 @@ export default async function CityRedFlagsPage({ params }: Props) {
                 <Link
                   key={c.slug}
                   href={`/red-flags/${c.slug}`}
-                  className="group flex flex-col gap-1.5 rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors px-4 py-3"
+                  className="group flex flex-col gap-1.5 rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10 px-4 py-3 transition-shadow hover:shadow-[0_14px_34px_-16px_rgba(219,39,119,0.45)]"
                 >
-                  <span className="truncate border-b border-dashed border-[var(--border)] pb-1.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.14em] text-[var(--accent-pink)]">
+                  <span className="truncate self-start max-w-full rounded-full bg-[var(--band-pink)] px-2 py-0.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.14em] text-[#BE185D]">
                     {c.department ?? c.region}
                   </span>
-                  <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors truncate">
+                  <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#BE185D] transition-colors truncate">
                     {c.name}
                   </span>
                 </Link>
@@ -588,10 +580,10 @@ export default async function CityRedFlagsPage({ params }: Props) {
         </section>
       )}
 
-      {/* Renvois — liens de bas de feuille, soulignés brique. */}
-      <section className="relative pb-16">
+      {/* Renvois — liens pilules sur bande blanche. */}
+      <section className="band band-white py-10">
         <nav aria-label="Pour aller plus loin" className="mx-auto max-w-5xl px-4 sm:px-6">
-          <ul className="flex flex-wrap gap-x-6 gap-y-3 border-t border-dashed border-[var(--border)] pt-5 text-sm">
+          <ul className="flex flex-wrap gap-3 text-sm">
             {[
               { href: `/villes/${slug}`, label: `Profil complet de ${city.name}` },
               { href: `/villes/${slug}/climat`, label: "Climat & saisonnalité" },
@@ -601,7 +593,7 @@ export default async function CityRedFlagsPage({ params }: Props) {
               <li key={l.href}>
                 <Link
                   href={l.href}
-                  className="inline-flex items-center gap-1 font-semibold text-[var(--accent)] underline decoration-[var(--accent-pink)]/50 underline-offset-4 hover:decoration-[var(--accent-pink)]"
+                  className="inline-flex items-center gap-1.5 rounded-full bg-[var(--band-indigo)] px-4 py-2 font-semibold text-[#4338CA] ring-1 ring-[var(--accent)]/15 transition-colors hover:bg-[var(--accent)] hover:text-white"
                 >
                   {l.label} <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                 </Link>
@@ -611,10 +603,10 @@ export default async function CityRedFlagsPage({ params }: Props) {
         </nav>
       </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-
-        <FeedbackWidget />
-
+      <div className="band band-white pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
       </div>
 
       <Footer />
