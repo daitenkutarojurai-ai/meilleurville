@@ -786,3 +786,34 @@ viewport. EN non capturé (route `[locale]` en dev). `npm run build` non lancé.
 1. Hubs Red Flags `app/red-flags/page.tsx` + `[locale]/red-flags` (plaque / topo-bg).
 2. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
 3. `app/guides/[slug]` (gabarit guide : en-tête, sommaire, encadrés).
+
+## 2026-10-26 ~03:00 UTC — hubs Red Flags `/red-flags` (FR) + `/red-flags` (EN) + `ContributionStats`
+
+**Surface** : le hub Red Flags des deux locales et le composant partagé `ContributionStats` (aussi monté sur
+les fiches `/red-flags/[slug]` des deux locales). Avant : hero `topo-bg` à voile papier, tout le corps sur le
+fond de page dans un seul conteneur, symboles hachurés brique, plaque émaillée, filets pointillés, CTA en
+cadre topo.
+
+**Changé**
+- Hero `.bg-aurora`, sur-titre en pastille blanche, chute du titre en `.gradient-text`.
+- Une bande par section, jamais deux voisines identiques — FR : thèmes `band-indigo` → fiches `band-pink` →
+  chiffres + catégories `band-sky` → communauté `band-aqua` → CTA `band-bold` (seul bloc vif, bouton pilule
+  blanc) → « Pour aller plus loin » `band-lilac` → commentaires + feedback `band-white`. EN : fiches
+  `band-pink` → chiffres + catégories `band-sky` → CTA `band-bold`.
+- Cartes blanches à ombre indigo ; numéros en pilules ; chiffres clés à en-tête `.grad-head-N` ; icônes de
+  catégorie en tuiles dégradées `.grad-head-N` (fin du `HATCH`) ; puces rondes roses ; « Toutes les villes »
+  en `.btn-couleurs`.
+- Fiches par ville : carte blanche sous la teinte de vigilance (couleurs de palier inchangées, réservées).
+- `ContributionStats` : cartes blanches, compteurs sur fond `--band-indigo`, tuiles d'icône dégradées,
+  bouton `.btn-couleurs`, filets pleins.
+- Copie, données, liens : inchangés.
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` 0 erreur sur les 3
+fichiers. Captures `next dev` + playwright `/red-flags` 1440 et 390 px, `scrollWidth` = viewport. EN non
+capturé (route `[locale]` en dev). Note outillage : tuer le serveur de dev avec un motif `-f` qui apparaît
+dans la ligne de commande du shell tue le shell lui-même. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages thème `components/RedFlagThemePage.tsx` (43 en FR + la sélection EN) et fiches `/red-flags/[slug]`.
+2. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
+3. `app/guides/[slug]` (gabarit guide : en-tête, sommaire, encadrés).

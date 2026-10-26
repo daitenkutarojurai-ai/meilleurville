@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import type { CSSProperties } from "react";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import Link from "@/components/AppLink";
@@ -27,13 +26,11 @@ const redFlagsBreadcrumb = breadcrumbJsonLd([
   { name: "Red Flags", path: "/red-flags" },
 ]);
 
-// Carte & plaque (CLAUDE.md) : chaque famille de red flag est un symbole de
-// légende hachuré brique, comme sur la RedFlagTeaser de la home. Le rouge, le
-// vert, l'orange et le violet restent réservés aux paliers de score.
-const HATCH: CSSProperties = {
-  backgroundImage:
-    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
-};
+// « Couleurs » (2026-10-26) : une bande par section, tuiles d'icône en dégradé
+// vif (.grad-head-N) par catégorie. Le rouge, le vert, l'orange et le violet
+// restent réservés aux paliers de score (vigilance des fiches).
+const CARD =
+  "rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10";
 
 const FLAG_CATEGORIES = [
   {
@@ -106,17 +103,15 @@ export default function RedFlagsPage() {
       <Navbar />
 
       {/* Header */}
-      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
-        {/* Voile papier : le relief reste lisible sans traverser le texte. */}
-        <div className="bg-[var(--bg-canvas)]/80 py-14">
+      <section className="bg-aurora py-14 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <p className="mb-4 inline-flex items-center gap-2 border-b border-[var(--accent-pink)]/40 pb-1 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent-pink)]">
+          <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent-pink)] shadow-sm ring-1 ring-[var(--accent-pink)]/20">
             <AlertTriangle className="h-3.5 w-3.5" aria-hidden="true" />
             Red Flag Radar
           </p>
           <h1 className="mb-4 text-3xl sm:text-5xl font-bold leading-[1.05] tracking-tight text-[var(--text-primary)]">
             Ce que l&apos;annonce immobilière{" "}
-            <span className="font-display italic text-[var(--accent-pink)]">ne vous dira jamais.</span>
+            <span className="font-display italic gradient-text">ne vous dira jamais.</span>
           </h1>
           <p className="max-w-2xl text-[var(--text-secondary)] text-lg">
             On agrège les données ouvertes (Géorisques, ATMO, SSMSI) et on ouvre la discussion
@@ -125,12 +120,11 @@ export default function RedFlagsPage() {
           </p>
           <ReportCTA variant="inline" className="mt-5" kinds={["red-flag", "erreur"]} />
         </div>
-      </div>
       </section>
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 space-y-14">
-        {/* F4 — Thematic red-flag pages (data-driven rankings) */}
-        <div>
+      {/* F4 — Thematic red-flag pages (data-driven rankings) */}
+      <section className="band band-indigo py-12 sm:py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-1">
               Red Flags thématiques
@@ -144,11 +138,11 @@ export default function RedFlagsPage() {
               <Link
                 key={t.slug}
                 href={`/red-flags/${t.slug}`}
-                className="group h-full rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] shadow-sm hover:-translate-y-0.5 hover:shadow-md hover:border-[var(--accent-pink)] transition-all p-4 flex flex-col gap-2"
+                className={`group h-full ${CARD} hover:-translate-y-0.5 hover:ring-[var(--accent-pink)]/50 transition-all p-4 flex flex-col gap-2`}
               >
                 <span className="flex items-center justify-between gap-2">
                   <EmojiBadge emoji={t.emoji} tone={toneFor(i)} size="md" />
-                  <span className="font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                  <span className="rounded-full bg-[var(--band-pink)] px-2 py-0.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
                     N° {String(i + 1).padStart(2, "0")}
                   </span>
                 </span>
@@ -158,17 +152,19 @@ export default function RedFlagsPage() {
                 <p className="text-xs text-[var(--text-secondary)]">
                   {t.intro.slice(0, 110)}…
                 </p>
-                <span className="mt-auto inline-flex items-center gap-1 text-[11px] font-semibold text-[var(--accent)]">
+                <span className="mt-auto inline-flex items-center gap-1 text-[11px] font-semibold text-[#4338CA]">
                   Voir le classement <ArrowRight className="h-3 w-3" aria-hidden="true" />
                 </span>
               </Link>
             ))}
           </div>
         </div>
+      </section>
 
-        {/* Per-city fiches — surfaced first: that's what users actually want when
-            landing on /red-flags. Sorted worst-first to highlight what to read. */}
-        <div>
+      {/* Per-city fiches — surfaced first: that's what users actually want when
+          landing on /red-flags. Sorted worst-first to highlight what to read. */}
+      <section className="band band-pink py-12 sm:py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-end justify-between gap-4 mb-6">
             <div>
               <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-1">
@@ -181,17 +177,17 @@ export default function RedFlagsPage() {
             </div>
             <Link
               href="/villes"
-              className="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-[var(--accent)] hover:underline shrink-0"
+              className="btn-couleurs hidden sm:inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold shrink-0"
             >
               Toutes les villes <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {fiches.map((f) => (
+              <div key={f.slug} className={CARD}>
               <Link
-                key={f.slug}
                 href={`/red-flags/${f.slug}`}
-                className={`group rounded-md border ${f.vigilance.ring} hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2`}
+                className={`group h-full rounded-2xl border ${f.vigilance.ring} hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2`}
               >
                 <div className="flex items-center justify-between gap-2">
                   <div className="min-w-0">
@@ -204,7 +200,7 @@ export default function RedFlagsPage() {
                   </div>
                   <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent-pink)] flex-shrink-0 transition-colors" />
                 </div>
-                <div className="flex items-center justify-between gap-2 pt-2 border-t border-dashed border-[var(--border)]">
+                <div className="flex items-center justify-between gap-2 pt-2 border-t border-[var(--border)]">
                   <span className={`text-xs font-semibold ${f.vigilance.tone}`}>
                     {f.vigilance.label}
                   </span>
@@ -215,27 +211,33 @@ export default function RedFlagsPage() {
                   )}
                 </div>
               </Link>
+              </div>
             ))}
           </div>
-          <p className="text-xs text-[var(--text-tertiary)] mt-4">
+          <p className="text-xs text-[var(--text-secondary)] mt-4">
             Toutes les {CITIES_SEED.length} villes ont leur fiche : <code className="text-[var(--text-secondary)]">/red-flags/&lt;slug-de-la-ville&gt;</code>.
           </p>
         </div>
+      </section>
 
+      <section className="band band-sky py-12 sm:py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 space-y-12">
         {/* Honest stats — derived from canonical sources, not hardcoded */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-px overflow-hidden rounded-md border border-[var(--text-primary)]/15 bg-[var(--text-primary)]/15">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           {[
             { label: "Catégories surveillées", value: FLAG_CATEGORIES.length.toString() },
             { label: "Sources publiques", value: "5" }, // Géorisques, ATMO, SSMSI, BRGM, Insee
             { label: "Villes couvertes", value: CITIES_SEED.length.toString() },
             { label: "Données ouvertes", value: "100%" },
           ].map(({ label, value }, i) => (
-            <div key={label} className="bg-[var(--bg-surface)] px-4 py-5 text-center">
-              <div className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)] mb-2" aria-hidden="true">
+            <div key={label} className={`${CARD} overflow-hidden text-center`}>
+              <div className={`grad-head-${i % 6} px-4 py-1.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em]`} aria-hidden="true">
                 N° {String(i + 1).padStart(2, "0")}
               </div>
+              <div className="px-4 pb-5 pt-4">
               <div className="text-2xl font-bold font-mono-data mb-1 text-[var(--accent)]">{value}</div>
               <div className="text-xs text-[var(--text-secondary)]">{label}</div>
+              </div>
             </div>
           ))}
         </div>
@@ -250,24 +252,23 @@ export default function RedFlagsPage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {FLAG_CATEGORIES.map(({ id, label, icon: Icon, examples }, i) => (
-              <div key={id} className="rounded-md border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-                <div className="flex items-center gap-4 mb-3 border-b border-[var(--text-primary)]/15 pb-3">
+              <div key={id} className={`${CARD} p-5`}>
+                <div className="flex items-center gap-4 mb-3 border-b border-[var(--border)] pb-3">
                   <span
-                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
-                    style={HATCH}
+                    className={`grad-head-${i % 6} flex h-10 w-10 shrink-0 items-center justify-center rounded-xl shadow-sm`}
                     aria-hidden="true"
                   >
                     <Icon className="h-4 w-4" strokeWidth={2} />
                   </span>
                   <h3 className="min-w-0 flex-1 font-semibold text-[var(--text-primary)]">{label}</h3>
-                  <span className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]" aria-hidden="true">
+                  <span className="rounded-full bg-[var(--band-sky)] px-2 py-0.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[#0369A1]" aria-hidden="true">
                     R{i + 1}
                   </span>
                 </div>
                 <ul className="space-y-1">
                   {examples.map((ex) => (
                     <li key={ex} className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5">
-                      <span className="h-px w-2 bg-[var(--accent-pink)] flex-shrink-0" />
+                      <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent-pink)] flex-shrink-0" />
                       {ex}
                     </li>
                   ))}
@@ -276,19 +277,23 @@ export default function RedFlagsPage() {
             ))}
           </div>
         </div>
+        </div>
+      </section>
 
-        {/* Community stats */}
-        <div>
+      {/* Community stats */}
+      <section className="band band-aqua py-12 sm:py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <h2 className="text-xl font-bold text-[var(--text-primary)] mb-6">
             La communauté en action
           </h2>
           <ContributionStats />
         </div>
+      </section>
 
-        {/* Contribute CTA */}
-        <div className="topo-bg rounded-md border border-[var(--border)] bg-[var(--bg-canvas)] p-1.5">
-        <div className="rounded border border-[var(--text-primary)]/15 bg-[var(--bg-surface)]/90 p-8 sm:p-10 text-center">
-          <span className="plaque plaque-small mx-auto mb-4 flex h-12 w-12 items-center justify-center" aria-hidden="true">
+      {/* Contribute CTA — le seul bloc band-bold de la page */}
+      <section className="band band-bold py-12 sm:py-16">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-center">
+          <span className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-white/20 ring-1 ring-white/40" aria-hidden="true">
             <AlertTriangle className="h-5 w-5" />
           </span>
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">
@@ -300,17 +305,18 @@ export default function RedFlagsPage() {
           </p>
           <Link
             href="/contact?topic=red-flag"
-            className="inline-flex items-center gap-2 rounded-sm border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] px-6 py-3 font-semibold text-[var(--text-primary)] transition-colors hover:bg-[var(--accent-pink)] hover:text-white"
+            className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 font-semibold text-[#4338CA] shadow-lg transition-colors hover:bg-[var(--band-pink)] hover:text-[#BE185D]"
           >
             <AlertTriangle className="h-4 w-4" aria-hidden="true" />
             Signaler un point noir
           </Link>
         </div>
-        </div>
+      </section>
 
-        {/* Texte de lecture — en fin de page depuis le 2026-10-17 (demande du
-            propriétaire : les vignettes d'abord, le texte ensuite). */}
-        <section aria-labelledby="pour-aller-plus-loin" className="max-w-3xl">
+      {/* Texte de lecture — en fin de page depuis le 2026-10-17 (demande du
+          propriétaire : les vignettes d'abord, le texte ensuite). */}
+      <section aria-labelledby="pour-aller-plus-loin" className="band band-lilac py-12 sm:py-14">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <h2 id="pour-aller-plus-loin" className="text-xl font-bold text-[var(--text-primary)] mb-3">
             Pour aller plus loin
           </h2>
@@ -412,22 +418,21 @@ export default function RedFlagsPage() {
               </Link>{" "}
               retient la fraîcheur estivale comme critère de départ.
             </p>
-        </section>
+        </div>
+      </section>
 
-        <div className="mt-16">
+      <section className="band band-white py-12 sm:py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <CommentSection
             topic="red-flags:public"
             title="Témoignages et signalements"
             emptyHint="Vous avez vécu un truc qui ne va pas dans une ville ? Partagez-le ici (sans nommer de personnes ni d'adresses)."
           />
         </div>
-      </div>
-
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-
-        <FeedbackWidget />
-
-      </div>
+        <div className="mx-auto mt-10 max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
 
       <Footer />
     </main>

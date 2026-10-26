@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import type { CSSProperties } from "react";
 import Link from "@/components/AppLink";
 import { AlertTriangle, Volume2, Droplets, Wind, Shield, Flame, Zap, ArrowRight } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
@@ -42,13 +41,11 @@ function enVigilance(c: City) {
   return { score, label: "Low vigilance", tone: "text-emerald-600", ring: "border-emerald-500/30 bg-emerald-500/5", criticalCount };
 }
 
-// Carte & plaque (CLAUDE.md) : chaque famille de red flag est un symbole de
-// légende hachuré brique, comme sur la RedFlagTeaser de la home. Le rouge, le
-// vert, l'orange et le violet restent réservés aux paliers de score.
-const HATCH: CSSProperties = {
-  backgroundImage:
-    "repeating-linear-gradient(135deg, color-mix(in srgb, var(--accent-pink) 16%, transparent) 0 2px, transparent 2px 6px)",
-};
+// « Couleurs » (2026-10-26) : une bande par section, tuiles d'icône en dégradé
+// vif (.grad-head-N) par catégorie, comme le hub FR. Le rouge, le vert, l'orange
+// et le violet restent réservés aux paliers de score (vigilance des fiches).
+const CARD =
+  "rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10";
 
 const FLAG_CATEGORIES = [
   {
@@ -107,17 +104,15 @@ export default function EnRedFlagsIndex() {
     <main id="main-content" className="min-h-screen">
       <Navbar />
 
-      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
-        {/* Voile papier : le relief reste lisible sans traverser le texte. */}
-        <div className="bg-[var(--bg-canvas)]/80 py-14">
+      <section className="bg-aurora py-14 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <p className="mb-4 inline-flex items-center gap-2 border-b border-[var(--accent-pink)]/40 pb-1 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent-pink)]">
+          <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent-pink)] shadow-sm ring-1 ring-[var(--accent-pink)]/20">
             <AlertTriangle className="h-3.5 w-3.5" aria-hidden="true" />
             Red Flag Radar
           </p>
           <h1 className="mb-4 text-3xl sm:text-5xl font-bold leading-[1.05] tracking-tight text-[var(--text-primary)]">
             What the property listing{" "}
-            <span className="font-display italic text-[var(--accent-pink)]">never tells you.</span>
+            <span className="font-display italic gradient-text">never tells you.</span>
           </h1>
           <p className="max-w-2xl text-[var(--text-secondary)] text-lg">
             We cross-reference open data (Géorisques, ATMO, SSMSI, BRGM) with nine risk
@@ -126,11 +121,10 @@ export default function EnRedFlagsIndex() {
           </p>
           <ReportCTA variant="inline" locale="en" className="mt-5" kinds={["red-flag", "erreur"]} />
         </div>
-      </div>
       </section>
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 space-y-14">
-        <div>
+      <section className="band band-pink py-12 sm:py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-end justify-between gap-4 mb-6">
             <div>
               <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-1">
@@ -143,17 +137,17 @@ export default function EnRedFlagsIndex() {
             </div>
             <Link
               href="/cities"
-              className="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-[var(--accent)] hover:underline shrink-0"
+              className="btn-couleurs hidden sm:inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold shrink-0"
             >
               All cities <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {fiches.map((f) => (
+              <div key={f.slug} className={CARD}>
               <Link
-                key={f.slug}
                 href={`/red-flags/${f.slug}`}
-                className={`group rounded-md border ${f.vigilance.ring} hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2`}
+                className={`group h-full rounded-2xl border ${f.vigilance.ring} hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2`}
               >
                 <div className="flex items-center justify-between gap-2">
                   <div className="min-w-0">
@@ -166,7 +160,7 @@ export default function EnRedFlagsIndex() {
                   </div>
                   <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent-pink)] flex-shrink-0 transition-colors" />
                 </div>
-                <div className="flex items-center justify-between gap-2 pt-2 border-t border-dashed border-[var(--border)]">
+                <div className="flex items-center justify-between gap-2 pt-2 border-t border-[var(--border)]">
                   <span className={`text-xs font-semibold ${f.vigilance.tone}`}>
                     {f.vigilance.label}
                   </span>
@@ -177,26 +171,32 @@ export default function EnRedFlagsIndex() {
                   )}
                 </div>
               </Link>
+              </div>
             ))}
           </div>
-          <p className="text-xs text-[var(--text-tertiary)] mt-4">
+          <p className="text-xs text-[var(--text-secondary)] mt-4">
             All {CITIES_SEED.length} cities have a report: <code className="text-[var(--text-secondary)]">/red-flags/&lt;city-slug&gt;</code>.
           </p>
         </div>
+      </section>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-px overflow-hidden rounded-md border border-[var(--text-primary)]/15 bg-[var(--text-primary)]/15">
+      <section className="band band-sky py-12 sm:py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 space-y-12">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           {[
             { label: "Risk categories", value: "9" },
             { label: "Public sources", value: "6" },
             { label: "Cities covered", value: CITIES_SEED.length.toString() },
             { label: "Open data", value: "100%" },
           ].map(({ label, value }, i) => (
-            <div key={label} className="bg-[var(--bg-surface)] px-4 py-5 text-center">
-              <div className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)] mb-2" aria-hidden="true">
+            <div key={label} className={`${CARD} overflow-hidden text-center`}>
+              <div className={`grad-head-${i % 6} px-4 py-1.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em]`} aria-hidden="true">
                 N° {String(i + 1).padStart(2, "0")}
               </div>
-              <div className="text-2xl font-bold font-mono-data mb-1 text-[var(--accent)]">{value}</div>
-              <div className="text-xs text-[var(--text-secondary)]">{label}</div>
+              <div className="px-4 pb-5 pt-4">
+                <div className="text-2xl font-bold font-mono-data mb-1 text-[var(--accent)]">{value}</div>
+                <div className="text-xs text-[var(--text-secondary)]">{label}</div>
+              </div>
             </div>
           ))}
         </div>
@@ -210,24 +210,23 @@ export default function EnRedFlagsIndex() {
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {FLAG_CATEGORIES.map(({ id, label, icon: Icon, examples }, i) => (
-              <div key={id} className="rounded-md border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-                <div className="flex items-center gap-4 mb-3 border-b border-[var(--text-primary)]/15 pb-3">
+              <div key={id} className={`${CARD} p-5`}>
+                <div className="flex items-center gap-4 mb-3 border-b border-[var(--border)] pb-3">
                   <span
-                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] text-[var(--accent-pink)]"
-                    style={HATCH}
+                    className={`grad-head-${i % 6} flex h-10 w-10 shrink-0 items-center justify-center rounded-xl shadow-sm`}
                     aria-hidden="true"
                   >
                     <Icon className="h-4 w-4" strokeWidth={2} />
                   </span>
                   <h3 className="min-w-0 flex-1 font-semibold text-[var(--text-primary)]">{label}</h3>
-                  <span className="font-mono-data text-[10px] uppercase tracking-[0.18em] text-[var(--text-tertiary)]" aria-hidden="true">
+                  <span className="rounded-full bg-[var(--band-sky)] px-2 py-0.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[#0369A1]" aria-hidden="true">
                     R{i + 1}
                   </span>
                 </div>
                 <ul className="space-y-1">
                   {examples.map((ex) => (
                     <li key={ex} className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5">
-                      <span className="h-px w-2 bg-[var(--accent-pink)] flex-shrink-0" />
+                      <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent-pink)] flex-shrink-0" />
                       {ex}
                     </li>
                   ))}
@@ -236,10 +235,13 @@ export default function EnRedFlagsIndex() {
             ))}
           </div>
         </div>
+        </div>
+      </section>
 
-        <div className="topo-bg rounded-md border border-[var(--border)] bg-[var(--bg-canvas)] p-1.5">
-        <div className="rounded border border-[var(--text-primary)]/15 bg-[var(--bg-surface)]/90 p-8 sm:p-10 text-center">
-          <span className="plaque plaque-small mx-auto mb-4 flex h-12 w-12 items-center justify-center" aria-hidden="true">
+      {/* Report CTA — the page's single band-bold block */}
+      <section className="band band-bold py-12 sm:py-16">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-center">
+          <span className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-white/20 ring-1 ring-white/40" aria-hidden="true">
             <AlertTriangle className="h-5 w-5" />
           </span>
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">
@@ -251,14 +253,13 @@ export default function EnRedFlagsIndex() {
           </p>
           <Link
             href="/contact?topic=red-flag"
-            className="inline-flex items-center gap-2 rounded-sm border-2 border-[var(--accent-pink)] bg-[var(--bg-surface)] px-6 py-3 font-semibold text-[var(--text-primary)] transition-colors hover:bg-[var(--accent-pink)] hover:text-white"
+            className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 font-semibold text-[#4338CA] shadow-lg transition-colors hover:bg-[var(--band-pink)] hover:text-[#BE185D]"
           >
             <AlertTriangle className="h-4 w-4" aria-hidden="true" />
             Report an issue
           </Link>
         </div>
-        </div>
-      </div>
+      </section>
 
       <Footer />
     </main>
