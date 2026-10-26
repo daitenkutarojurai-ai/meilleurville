@@ -33331,6 +33331,300 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["toulon","moving to france with children","french school system","provence"],
   },
   {
+    slug: "family-in-aix-en-provence-2026",
+    title: "Family life in Aix-en-Provence (2026): the best schools in the lot, at a premium",
+    metaTitle: "Family Life in Aix-en-Provence 2026: €1,400 T3, Schools 8.3",
+    metaDesc:
+      "Raising children in Aix-en-Provence in 2026: a €1,400 T3, flats at €4,819 per m², schools 8.3 (rank 30), 15% poverty. The price of the top score.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Aix-en-Provence scores 8.3 on schools (rank 30 of 593), but a T3 (two bedrooms and a living room) costs €1,400 on our rent estimate and a flat €4,819 per m². The city has 147,933 residents, up 3.4% since 2016, and only 13.2% are under 15: it is a pricey student city more than a city of children.",
+    sections: [
+      {
+        heading: "What does a family home cost in Aix-en-Provence?",
+        body: "The T3 is €1,400 and the T2 €1,050. A flat sells for €4,819 per m² (3,319 sales in 2024-2025, national DVF property register) and a house for €6,171 (630 sales; a house price includes its land), 28% more. Houses are rare in the commune: 630 sales against more than 3,300 for flats.",
+      },
+      {
+        heading: "Do incomes keep up?",
+        body: "Median standard of living is €25,810 per consumption unit (Insee, Filosofi 2021), rank 92 of 586, with 15% poverty. The rent is heavy but rests on incomes well above Avignon (€17,690) or Nîmes (€18,760).",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 8.3 (rank 30, 2 cities tied), safety 5.9 (rank 230, 8 tied), nature 6.4 (rank 173, 61 tied). These are commune-wide scores: they say nothing about a specific catchment school, which you check address by address through the carte scolaire, the catchment map tied to your home.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "Parc Jourdan, in the centre, is free and wheelchair accessible. Parc Saint-Mitre has wide lawns crossed by a stream, and Parc Rambot a play area with a paddling pool in fine weather. The Cours Mirabeau, with its fountains, is an easy walk with small children. Park hours change with the season.",
+      },
+      {
+        heading: "Aix-en-Provence against Marseille and Avignon",
+        body: "Marseille rents a T3 at €1,100, €300 less, with 2.4 on schools. Avignon is at €1,000 and 5.3 on schools. Aix therefore costs €400 a month more than Avignon for three points of school score, and a flat per m² more than twice as dear (€4,819 against €2,321).",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families whose budget absorbs €1,400 of rent and for whom school comes first. A couple on average incomes looking for three rooms will look at cheaper cities, Avignon for example. For a house with a garden, the purchase budget is that of a big city, not of a prefecture.",
+      },
+    ],
+    relatedCities: ["aix-en-provence","marseille","avignon","toulon"],
+    tags: ["aix-en-provence","moving to france with children","french school system","provence"],
+  },
+  {
+    slug: "family-in-montauban-2026",
+    title: "Family life in Montauban (2026): a €860 T3 and a city that looks to Toulouse",
+    metaTitle: "Family Life in Montauban 2026: €860 T3, €1,983 per m²",
+    metaDesc:
+      "Raising children in Montauban in 2026: a €860 T3, flats at €1,983 per m², houses at €2,233, 17% under 15, schools 6.2 and safety 5.5.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "A T3 (two bedrooms and a living room) rents for €860 in Montauban on our rent estimate, €290 less than in Toulouse, and a flat sells for €1,983 per m². The city has 62,487 residents, up 3.4% since 2016, and 17.0% are under 15. Scores are average but without a weak spot: schools 6.2, safety 5.5, nature 5.7.",
+    sections: [
+      {
+        heading: "What does a family home cost in Montauban?",
+        body: "The T3 is €860 and the T2 €650. A flat is €1,983 per m² (857 sales in 2024-2025, national DVF property register) and a house €2,233 (882 sales; a house price includes its land), 13% more. The two types sell in about equal numbers, which is rare: a family can find a house as easily as a flat.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €21,630 per consumption unit (Insee, Filosofi 2021), rank 279 of 586, with 19% poverty. That is a little below Toulouse (€22,140, 22% poverty), for a rent a quarter lower.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.2 (rank 219, 28 cities tied), safety 5.5 (rank 275, 25 tied), nature 5.7 (rank 262, 58 tied). Commune-wide scores: they do not replace a visit to your catchment school, found through the carte scolaire, the catchment map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Ingres Bourdelle museum, in the former episcopal palace, offers children a visit with its mascot Jadi, a hippogriff, and riddles; entry is free under 18. The natural history museum is just opposite, with a combined ticket. The Pont Vieux over the Tarn and the Place Nationale, with its double arcades, are easy on foot or by bike.",
+      },
+      {
+        heading: "Montauban against Toulouse and Albi",
+        body: "Toulouse rents a T3 at €1,150 and scores 9.0 on schools (rank 1), but 4.3 on safety. Albi rents at €840, €20 less, and shows 7.7 on schools and 6.7 on safety: Albi scores better on both axes for almost the same rent, while Montauban keeps a deeper market of houses.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want rent under €900, a real choice between house and flat, and Toulouse within reach. Those who put school first will compare with Albi before anything else.",
+      },
+    ],
+    relatedCities: ["montauban","toulouse","albi","agen"],
+    tags: ["montauban","moving to france with children","french school system","occitanie"],
+  },
+  {
+    slug: "family-in-troyes-2026",
+    title: "Family life in Troyes (2026): low prices for a city of 62,000, low incomes too",
+    metaTitle: "Family Life in Troyes 2026: €860 T3, €1,586 per m²",
+    metaDesc:
+      "Raising children in Troyes in 2026: a €860 T3, flats at €1,586 per m², 17.4% under 15, schools 6.4 (rank 215) but 30% poverty. Verdict by profile.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Troyes is among the cheapest cities to buy in this series: a flat costs €1,586 per m² and a T3 (two bedrooms and a living room) rents for €860 on our rent estimate. The city has 62,443 residents, up 3.0% since 2016, and 17.4% are under 15. The counterpart: a median standard of living of €18,260 and a poverty rate of 30%.",
+    sections: [
+      {
+        heading: "What is the housing budget in Troyes?",
+        body: "The T3 is €860 and the T2 €650. A flat is €1,586 per m² (1,619 sales, national DVF property register) and a house €1,878 (383 sales; a house price includes its land), 18% more. Flats dominate sales by a wide margin: houses exist, but in small numbers.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €18,260 per consumption unit (Insee, Filosofi 2021), rank 537 of 586, with 30% poverty. The rent is low but it weighs on low local incomes, so the rent-to-income ratio is less comfortable than the sticker price suggests.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.4 (rank 215, 4 cities tied), safety 5.4 (rank 300, 6 tied), nature 5.6 (rank 320, 20 tied). Schools is the most favourable of the three. Check the catchment school through the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "Lac d'Orient, reachable from Troyes, is given over to sailing and non-motorised activities, with kayak and paddleboard hire and safe greenways. In town, the very narrow Ruelle des Chats amuses children; game booklets for ages 8-12 are sold at the tourist office. The Maison de l'Outil holds more than 12,000 tools but has no offer aimed at children. Parc Pierre Pitois is not open every day: check first.",
+      },
+      {
+        heading: "Troyes against Reims and Dijon",
+        body: "Reims rents a T3 at €900, €40 more, and a flat at €2,621 per m². Dijon, at €950, reaches 7.4 on schools against 6.4 in Troyes. Troyes is the cheapest of the three to buy in, scores below Dijon on schools, and is the poorest.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want to buy at about €1,600 per m² with 17% of the population under 15 around them and a lake nearby. Those whose income depends on a local job should read the city's living standard with care.",
+      },
+    ],
+    relatedCities: ["troyes","reims","dijon","nancy"],
+    tags: ["troyes","moving to france with children","french school system","grand-est"],
+  },
+  {
+    slug: "family-in-angouleme-2026",
+    title: "Family life in Angoulême (2026): comics, low rents and a shrinking population",
+    metaTitle: "Family Life in Angoulême 2026: €820 T3, €1,597 per m²",
+    metaDesc:
+      "Raising children in Angoulême in 2026: a €820 T3, flats at €1,597 per m², schools 6.2, safety 5.1, 26% poverty and a population down 1.2% since 2016.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Angoulême rents a T3 (two bedrooms and a living room) at €820 on our rent estimate and sells a flat at €1,597 per m²: it is the cheapest city of this lot after Troyes. The commune has 41,423 residents and has lost 1.2% since 2016; 14.1% are under 15. Scores are average to weak: schools 6.2, safety 5.1, nature 5.0.",
+    sections: [
+      {
+        heading: "What is the housing budget in Angoulême?",
+        body: "The T3 is €820 and the T2 €620. A flat is €1,597 per m² (493 sales in 2024-2025, national DVF property register) and a house €1,707 (754 sales; a house price includes its land), only 7% more. The gap is small, and houses sell more than flats: it is more a house market.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €19,830 per consumption unit (Insee, Filosofi 2021), rank 440 of 586, with 26% poverty. A rent of €820 is low, but so are incomes.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.2 (rank 219, 28 cities tied), safety 5.1 (rank 350, 16 tied), nature 5.0 (rank 346, 51 tied). Safety is the weakest score for a family comparing with Limoges (6.1) or Poitiers (5.7). School catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The comics capital lends itself to a trail of painted walls, with a map from the tourist office. The comics museum, in the former wine warehouses of the international comics centre, has a reading area suited to children. The paper museum occupies former paper mills closed in 1972. The ramparts can be walked.",
+      },
+      {
+        heading: "Angoulême against Poitiers and Limoges",
+        body: "Poitiers rents a T3 at €880 (€60 more) with 7.4 on schools and flats at €2,200 per m². Limoges is at €800, €20 less, with 6.2 on schools and 6.1 on safety, at €1,518 per m². Angoulême sits between the two on price but loses on safety.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who buy low, like drawing and comics culture, and accept a city that is emptying a little. Those wanting a stronger school offer will go to Poitiers.",
+      },
+    ],
+    relatedCities: ["angouleme","poitiers","limoges","la-rochelle"],
+    tags: ["angouleme","moving to france with children","french school system","nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-lorient-2026",
+    title: "Family life in Lorient (2026): sailing for children and a €900 T3",
+    metaTitle: "Family Life in Lorient 2026: €900 T3, €2,574 per m²",
+    metaDesc:
+      "Raising children in Lorient in 2026: a €900 T3, flats at €2,574 per m², houses at €3,016, schools 6.6, nature 6.4 and 21% poverty.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Lorient rents a T3 (two bedrooms and a living room) at €900 on our rent estimate and sells a flat at €2,574 per m², €1,290 less than Vannes in the same Morbihan area. The city has 58,202 residents, up 1.6% since 2016, and 13.9% are under 15. Scores are decent: schools 6.6, nature 6.4, safety 5.5.",
+    sections: [
+      {
+        heading: "What is the housing budget in Lorient?",
+        body: "The T3 is €900 and the T2 €680. A flat is €2,574 per m² (1,231 sales in 2024-2025, national DVF property register) and a house €3,016 (529 sales; a house price includes its land), 17% more. Flats sell more than twice as often as houses.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €20,860 per consumption unit (Insee, Filosofi 2021), rank 357 of 586, with 21% poverty. Vannes, dearer, stands at €24,070 with 15% poverty.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.6 (rank 105, 110 cities tied), safety 5.5 (rank 275, 25 tied), nature 6.4 (rank 173, 61 tied). A tie of 110 cities on schools is wide: the rank does not separate Lorient from its neighbours. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "At Lorient La Base, the Cité de la Voile Éric Tabarly houses the Cité des Moussaillons, a space for children from nursery to age 10, and lets you board the Pen Duick VI. Optimist dinghy taster sessions start at age 5. Next door, the submarine Flore, in service from 1964 to 1989, can be visited inside, though its corridors are narrow. The island of Groix is reached from Lorient by boat; it is not in the commune.",
+      },
+      {
+        heading: "Lorient against Vannes and Quimper",
+        body: "Vannes rents a T3 at €1,150, €250 more, and sells flats at €3,864 per m². Quimper is at €940 and €2,122 per m², with a living standard of €22,700 and 13% poverty. Lorient sits between the two on price, but is less well-off than Vannes and Quimper.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want the sea, sailing for children from age 5 and a budget below Vannes. Those looking for a higher living standard will look at Quimper.",
+      },
+    ],
+    relatedCities: ["lorient","vannes","quimper","brest"],
+    tags: ["lorient","moving to france with children","french school system","brittany"],
+  },
+  {
+    slug: "family-in-arles-2026",
+    title: "Family life in Arles (2026): Roman monuments and the Camargue, but low scores",
+    metaTitle: "Family Life in Arles 2026: €930 T3, Schools 4.5, Safety 4.1",
+    metaDesc:
+      "Raising children in Arles in 2026: a €930 T3, flats at €2,586 per m², houses at €2,903, schools 4.5 (rank 442), safety 4.1, population down 3.2% since 2016.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Arles rents a T3 (two bedrooms and a living room) at €930 on our rent estimate and sells a flat at €2,586 per m², but its scores for a family are low: schools 4.5 (rank 442) and safety 4.1 (rank 488). The commune has 51,156 residents and has lost 3.2% since 2016, while 16.3% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Arles?",
+        body: "The T3 is €930 and the T2 €700. A flat is €2,586 per m² (470 sales in 2024-2025, national DVF property register) and a house €2,903 (714 sales; a house price includes its land), 12% more. Houses sell more than flats, which fits a very large commune.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €20,060 per consumption unit (Insee, Filosofi 2021), rank 424 of 586, with 24% poverty. The rent is close to Nîmes (€960) for a living standard above Avignon (€17,690).",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 4.5 (rank 442, 45 cities tied), safety 4.1 (rank 488, 14 tied), nature 5.9 (rank 245, 17 tied). These are commune-wide scores; the commune is huge and mixes old centre, villages and Camargue, so check the catchment school through the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The amphitheatre, the Roman theatre and the Alyscamps can be done on foot. The Arles antiquity museum offers families a free game kit, and the Hortus garden reconstructed in front has a play section. LUMA Arles has a giant slide in Frank Gehry's tower. The Museon Arlaten has had closures for works: check first. The Marais du Vigueirat and its trail of cabins on stilts are reached from Arles, in the Camargue.",
+      },
+      {
+        heading: "Arles against Avignon and Nîmes",
+        body: "Avignon rents a T3 at €1,000 and scores 5.3 on schools; Nîmes is at €960 and also 5.3. Arles is the lowest of the three on schools (4.5), for a rent €30 to €70 lower.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families drawn by heritage and nature, who buy at about €2,600 per m² and check the catchment school before committing. Those for whom school is the priority will look at Aix-en-Provence or Avignon.",
+      },
+    ],
+    relatedCities: ["arles","avignon","nimes","aix-en-provence"],
+    tags: ["arles","moving to france with children","french school system","provence"],
+  },
+  {
+    slug: "family-in-cherbourg-2026",
+    title: "Family life in Cherbourg (2026): an €820 T3 and a city losing residents",
+    metaTitle: "Family Life in Cherbourg 2026: €820 T3, 14% Poverty",
+    metaDesc:
+      "Raising children in Cherbourg-en-Cotentin in 2026: an €820 T3, flats at €2,264 per m², 14% poverty, 15.4% under 15, but 2.6% fewer residents.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro:
+      "Cherbourg-en-Cotentin rents a T3 (two bedrooms and a living room) at €820 on our rent estimate and sells a flat at €2,264 per m², with a median standard of living of €22,650 and only 14% poverty. The commune has 78,028 residents, down 2.6% since 2016, and 15.4% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Cherbourg?",
+        body: "The T3 is €820 and the T2 €620. A flat is €2,264 per m² (606 sales in 2024-2025, national DVF property register) and a house €2,317 (1,257 sales; a house price includes its land), 2% more. The gap is almost nil, and houses sell twice as often as flats.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €22,650 per consumption unit (Insee, Filosofi 2021), rank 204 of 586, with 14% poverty. That is more than Caen (€21,600, 21% poverty) for a rent €110 lower.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 5.8 (rank 249, 22 cities tied), safety 5.3 (rank 306, 11 tied), nature 5.9 (rank 245, 17 tied). Average scores, with neither a weak point nor a strong one. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Cité de la Mer occupies the former transatlantic liner terminal: giant aquariums, interactive exhibits and the Redoutable, the largest nuclear submarine open to the public, plus a space on the Titanic. Parc Emmanuel Liais, near the port, has greenhouses and exotic trees. The Montagne du Roule, at 117 m, gives a viewpoint and the Liberation museum.",
+      },
+      {
+        heading: "Cherbourg against Caen and Saint-Lô",
+        body: "Caen rents a T3 at €930 with 7.4 on schools and flats at €2,893 per m². Saint-Lô, at €760, shows 8.2 on safety and 6.6 on schools. Cherbourg scores below Caen on schools, but is cheaper and better off.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who put a low rent, a decent living standard and the sea first, and accept a city in slight decline. Those who put school first will look at Caen.",
+      },
+    ],
+    relatedCities: ["cherbourg","caen","saint-lo","rouen"],
+    tags: ["cherbourg","moving to france with children","french school system","normandy"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",

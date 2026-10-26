@@ -7587,6 +7587,41 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-aix-en-provence-2026",
+      "title": "Family life in Aix-en-Provence (2026): the best schools in the lot, at a premium",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-montauban-2026",
+      "title": "Family life in Montauban (2026): a €860 T3 and a city that looks to Toulouse",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-troyes-2026",
+      "title": "Family life in Troyes (2026): low prices for a city of 62,000, low incomes too",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-angouleme-2026",
+      "title": "Family life in Angoulême (2026): comics, low rents and a shrinking population",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-lorient-2026",
+      "title": "Family life in Lorient (2026): sailing for children and a €900 T3",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-arles-2026",
+      "title": "Family life in Arles (2026): Roman monuments and the Camargue, but low scores",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-cherbourg-2026",
+      "title": "Family life in Cherbourg (2026): an €820 T3 and a city losing residents",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -9421,17 +9456,17 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 76
+      "count": 77
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 75
+      "count": 76
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 69
+      "count": 70
     },
     {
       "slug": "ile-de-france",
@@ -9479,6 +9514,16 @@
       "count": 53
     },
     {
+      "slug": "french-school-system",
+      "label": "french school system",
+      "count": 50
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 49
+    },
+    {
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 47
@@ -9491,21 +9536,16 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 45
-    },
-    {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 43
-    },
-    {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 42
+      "count": 46
     },
     {
       "slug": "international-students",
       "label": "international students",
+      "count": 41
+    },
+    {
+      "slug": "provence",
+      "label": "provence",
       "count": 41
     },
     {
@@ -9519,14 +9559,9 @@
       "count": 41
     },
     {
-      "slug": "provence",
-      "label": "provence",
-      "count": 39
-    },
-    {
       "slug": "normandy",
       "label": "normandy",
-      "count": 38
+      "count": 39
     },
     {
       "slug": "working-in-france",
@@ -9824,6 +9859,11 @@
       "count": 6
     },
     {
+      "slug": "aix-en-provence",
+      "label": "aix-en-provence",
+      "count": 5
+    },
+    {
       "slug": "annecy",
       "label": "annecy",
       "count": 5
@@ -9857,11 +9897,6 @@
       "slug": "rouen",
       "label": "rouen",
       "count": 5
-    },
-    {
-      "slug": "aix-en-provence",
-      "label": "aix-en-provence",
-      "count": 4
     },
     {
       "slug": "avignon",
