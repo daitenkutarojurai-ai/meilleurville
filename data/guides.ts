@@ -68072,6 +68072,55 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["10-choses-a-faire-a-vincennes-2026"],
     tags: ["10 choses à faire à Nogent-sur-Marne", "activités Nogent-sur-Marne 2026", "que faire dans le Val-de-Marne", "pavillon Baltard Nogent bords de Marne"]
   },
+  {
+    slug: "acheter-appartement-moins-100000-euros-villes-2026",
+    title: "Acheter un appartement à moins de 100 000 € pour y habiter : 108 villes, et ce que le prix cache",
+    metaTitle: "Appartement à moins de 100 000 € : 108 villes en 2026",
+    metaDesc: "108 villes de 20 000 habitants et plus où 45 m² au prix médian DVF coûtent moins de 100 000 € : lesquelles, où, et ce que ce prix cache.",
+    category: "budget",
+    emoji: "🔑",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro: "Dans 108 des 383 villes de 20 000 habitants et plus que nous comparons, un appartement de 45 m² au prix médian des ventes de 2024 et 2025 coûte moins de 100 000 €. Dans 20 d'entre elles, il coûte moins de 60 000 €, et Montluçon ferme la marche à 30 600 €. Ces villes réunissent environ 5 millions d'habitants : le logement à bas prix n'est donc pas une curiosité de petite commune, il concerne Saint-Étienne, Limoges, Perpignan ou Brest. Ce guide est écrit pour qui achète afin d'y habiter, pas pour investir. Il dit où sont ces villes, lesquelles perdent des habitants, lesquelles en gagnent, et quelles précautions le prix médian ne dispense pas de prendre.",
+    sections: [
+      {
+        heading: "Comment avons-nous compté, et que vaut 45 m² au prix médian ?",
+        body: "Le prix vient des ventes d'appartements réellement enregistrées en 2024 et 2025 (DVF, DGFiP), prises à la médiane communale du prix au mètre carré. Nous avons gardé les communes de 20 000 habitants et plus (Insee, recensement 2022) qui comptent au moins 100 ventes d'appartements sur la fenêtre, soit 383 villes. Le seuil de 100 000 € est appliqué à une surface unique de 45 m², celle d'un deux-pièces confortable. C'est une convention : changer la surface déplace le nombre de villes sous la barre, jamais l'ordre entre elles. Le prix médian est celui de toutes les ventes de la commune, des studios aux grands logements, donc il n'est pas le prix d'un bien précis. Les communes d'Alsace-Moselle, qui relèvent du livre foncier, sont absentes de cette source et ne figurent pas ici."
+      },
+      {
+        heading: "Où se trouvent les 108 villes ?",
+        body: "Presque partout, sauf sur les littoraux chers et dans l'ouest parisien. Les Hauts-de-France en comptent 18, l'Auvergne-Rhône-Alpes 16, la Nouvelle-Aquitaine 13, l'Occitanie 12, la Bourgogne-Franche-Comté 9, le Grand Est 8, le Centre-Val de Loire 7, la Normandie 6, l'Île-de-France 6, la Provence-Alpes-Côte d'Azur 5, les Pays de la Loire 4 et la Bretagne 3, plus Les Abymes en Guadeloupe. Les six franciliennes sont des communes de banlieue de Seine-Saint-Denis, du Val-d'Oise et de l'Essonne : Clichy-sous-Bois, Sarcelles, Villiers-le-Bel, Sevran, Ris-Orangis et Évry-Courcouronnes. Les dix plus abordables au mètre carré sont Montluçon (680 €), Vierzon (917 €), Montbéliard (934 €), Maubeuge (961 €), Nevers (1 050 €), Saint-Dizier (1 053 €), Saint-Quentin (1 129 €), Alençon (1 133 €), Laon (1 136 €) et Châtellerault (1 163 €). Au prix médian, 45 m² y valent entre 30 600 € et 52 335 €."
+      },
+      {
+        heading: "Peut-on acheter sous 100 000 € dans une grande ville ?",
+        body: "Oui, dans huit des 39 villes de 100 000 habitants et plus de notre échantillon. Saint-Étienne est la moins chère (1 197 €/m², soit 53 865 € pour 45 m²), devant Perpignan (67 500 €), Limoges (68 310 €), Le Mans (86 985 €), Clermont-Ferrand (94 725 €), Nîmes (94 770 €), Brest (96 030 €) et Besançon (98 010 €). Ces huit villes ont l'avantage de la liquidité : Saint-Étienne compte 4 735 ventes d'appartements sur la fenêtre, Brest 3 620, Clermont-Ferrand 3 430. Un marché actif est plus facile à lire et, le jour venu, à revendre qu'un marché de quelques dizaines de ventes par an. Sur 108 villes, 20 dépassent 1 000 ventes ; à l'inverse 16 reposent sur moins de 200, et leur prix médian est donc plus fragile."
+      },
+      {
+        heading: "Un prix bas signale-t-il une ville qui se vide ?",
+        body: "Souvent, pas toujours. Entre 2016 et 2022, la variation médiane de population des 108 villes est de +0,7 %, contre +2,4 % pour l'ensemble des villes comparées. 46 d'entre elles perdent des habitants, 61 en gagnent, une est stable. Quinze reculent de 3 % ou plus : Calais (-9,9 %), Saint-Dizier (-8,5 %), Montluçon (-7,8 %), Belfort (-6,8 %), Épernay, Les Abymes, Laon, Vierzon, Chaumont, Agen, Châlons-en-Champagne, Saumur, Abbeville, Cambrai et Châtellerault. Le niveau de vie suit : le taux de pauvreté dépasse 25 % dans 52 des 107 villes pour lesquelles il est publié (Insee, Filosofi 2021), soit près de la moitié, contre 99 villes sur 381 dans l'ensemble des villes comparées, soit un peu plus d'un quart. Un prix bas décrit un marché où l'offre dépasse la demande ; il ne dit rien de la vie quotidienne dans la commune, qui se vérifie sur place."
+      },
+      {
+        heading: "Quelles villes cumulent prix bas, croissance et pauvreté contenue ?",
+        body: "Huit villes passent trois filtres à la fois : un appartement de 45 m² sous 100 000 €, une population qui progresse d'au moins 3 % depuis 2016 et un taux de pauvreté de 22 % au plus. Par ordre de croissance : Mont-Saint-Aignan (+6,6 %, 2 000 €/m², pauvreté 10 %), Auch (+5,6 %, 1 689 €/m²), Mont-de-Marsan (+5,3 %, 2 101 €/m²), Montélimar (+4,3 %, 1 760 €/m²), Manosque (+4,3 %, 1 759 €/m²), Montauban (+3,4 %, 1 983 €/m²), Castres (+3,3 %, 1 695 €/m²) et Fleury-les-Aubrais (+3,3 %, 1 638 €/m²). Deux réserves. Mont-Saint-Aignan, dans l'agglomération de Rouen, a un niveau de vie médian de 28 790 € par an et par unité de consommation, très au-dessus des sept autres. Et Fleury-les-Aubrais, Castres et Mont-Saint-Aignan reposent sur des échantillons de 186 à 391 ventes, à lire avec prudence. Cette liste n'est pas un palmarès : c'est le résultat d'un filtre, pas une recommandation."
+      },
+      {
+        heading: "Et si on regarde plus finement que la médiane ?",
+        body: "La médiane cache l'étalement des prix. Dans 170 des 383 villes, le quart des ventes les moins chères reste sous 100 000 € pour 45 m² : c'est dire que la barre des 100 000 € est accessible bien plus largement que ce que la médiane laisse penser, mais sur des biens plus petits, plus anciens ou moins bien placés. À l'inverse, dans 60 villes, même le quart des ventes les plus chères reste sous cette barre : là, le marché entier est sous 100 000 € pour 45 m². Montluçon illustre l'écart : le quart le moins cher des ventes s'y fait à 500 €/m², soit 22 500 € pour 45 m², pour une médiane à 680 €/m²."
+      },
+      {
+        heading: "Et le loyer, dans ces villes ?",
+        body: "Le T3 de référence y est à 800 € par mois en médiane, contre 1 090 € pour l'ensemble des 383 villes (notre estimation des loyers). Acheter y est donc moins coûteux que partout ailleurs en valeur absolue, et aussi moins coûteux rapporté au loyer : à Montluçon, 65 m² au prix médian valent moins de six années de loyer, contre 14,7 années pour la ville médiane. Le raisonnement inverse existe, côté villes où l'achat dépasse vingt ans de loyer, détaillé dans notre classement Red Flags sur ce sujet. Un ratio bas fait de l'achat un bon calcul de coût d'usage seulement si vous restez : la revente d'un bien dans une ville qui perd des habitants demande du temps."
+      },
+      {
+        heading: "Que vérifier avant de signer, quel que soit le prix ?",
+        body: "Quatre contrôles pèsent plus que le prix au mètre carré. Les charges de copropriété et la taxe foncière : à prix égal, un immeuble mal entretenu coûte plus cher chaque année que le loyer qu'il remplace. Le diagnostic de performance énergétique : les logements classés G sont interdits à la location depuis 2025 et les F le seront à leur tour, ce qui pèse sur la revente. L'état de la copropriété, dont les procès-verbaux d'assemblée générale disent les travaux votés ou ajournés. Enfin le quartier : l'échelle d'une rue change tout dans une commune de 30 000 habitants, et une visite à deux moments de la semaine vaut mieux que n'importe quelle médiane. Pour la négociation et le financement, voir nos guides sur la négociation du prix et sur l'achat avec un seul salaire."
+      }
+    ],
+    relatedCities: ["montlucon", "nevers", "saint-etienne", "montauban", "mont-de-marsan", "auch", "montelimar", "castres"],
+    relatedGuides: ["investissement-locatif-moins-100000-euros-france-2026", "rendement-locatif-brut-villes-pas-cheres-piege-2026", "negocier-prix-immobilier-france-guide-2026", "acheter-avec-un-seul-salaire-france-2026"],
+    tags: ["appartement moins de 100 000 euros", "acheter pas cher en France", "prix immobilier DVF", "villes pas chères pour acheter", "prix au m²", "premier achat"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

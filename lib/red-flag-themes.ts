@@ -2725,6 +2725,35 @@ export const CORPUS_VIEILLIR = (() => {
   };
 })();
 
+const MIN_YEARS_OF_RENT = 20;
+const PTR_SURFACE_M2 = 65;
+const PTR_MIN_SALES = 100;
+
+function rankAcheterPlusCherQueLouer(): RedFlagRow[] {
+  const eligible: { city: SeedCity; m2: number; t3: number; years: number }[] = [];
+  for (const city of CITIES_SEED) {
+    const p = cityPopulation(city.slug);
+    const apt = cityPropertyPrices(city.slug)?.apartment;
+    const t3 = HOUSING[city.slug]?.avgRentT3;
+    if (!p || p.pop2022 < 20_000 || !apt?.medianM2 || apt.sales < PTR_MIN_SALES || t3 == null) continue;
+    eligible.push({ city, m2: apt.medianM2, t3, years: (apt.medianM2 * PTR_SURFACE_M2) / (t3 * 12) });
+  }
+  const sorted = eligible.map((e) => e.years).sort((a, b) => a - b);
+  const medianYears = sorted[Math.floor(sorted.length / 2)];
+
+  const rows: RedFlagRow[] = [];
+  for (const { city, m2, t3, years } of eligible) {
+    if (years < MIN_YEARS_OF_RENT) continue;
+    // Le seuil d'entrée EST le plancher de gravité (6) ; 10/10 à trente ans de loyer.
+    const severity = Math.min(10, 6 + 0.4 * (years - MIN_YEARS_OF_RENT));
+    const n = (v: number) => Math.round(v).toLocaleString("fr-FR");
+    const one = (v: number) => v.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const reason = `${PTR_SURFACE_M2} m² au prix médian DVF (${n(m2)} €/m²) = ${one(years)} ans de loyer, contre ${one(medianYears)} ans pour la ville médiane des ${eligible.length} comparées · T3 de référence à ${n(t3)} €/mois`;
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -3370,6 +3399,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Indicateur : taux de pauvreté communal (≥ 22 %), croisé avec le rapport entre le loyer T3 de référence et la médiane des villes comparées (≥ 1,10). Severity = 6 + 0,15 × (taux en points au-dessus de 22) + 3 × (rapport − 1,10), plafonnée à 10/10 : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, taux de pauvreté publié et loyer connu, soit 409 villes. Sources : Insee, Filosofi 2021 (niveau de vie médian et taux de pauvreté au seuil de 60 % de la médiane nationale), via `lib/city-income.ts` ; Insee, recensement 2022, via `lib/city-population.ts` pour l'éligibilité ; `data/housing.ts` pour le loyer T3, un repère éditorial et non une moyenne d'annonces. Cinq limites à connaître. Le taux de pauvreté est publié en pourcentage entier, donc plusieurs villes portent le même taux sans être à égalité : le loyer les départage, et le tri porte sur la valeur non arrondie. Les revenus datent de 2021 et les loyers de 2026, de sorte que le rapprochement est un état et pas une trajectoire. Les communes ultramarines hors du champ Filosofi (Guadeloupe, Guyane, Mayotte) n'ont pas de taux et sont absentes. Aucune causalité n'est affirmée, ni dans un sens (les loyers chassent les ménages modestes) ni dans l'autre. Enfin la pauvreté se mesure sur le revenu disponible, aides comprises, et sur l'ensemble des habitants de la commune : un quartier peut être bien plus pauvre ou bien plus aisé que sa moyenne. Distinct de `villes-pauvrete-elevee` (pauvreté seule, quel que soit le loyer), de `villes-achat-hors-de-portee` (prix d'achat rapporté au niveau de vie) et de `villes-couts-explosifs` (dépenses mensuelles face à un proxy de salaire) : ici deux mesures publiées côte à côte, sans score.",
     rank: rankPauvresLoyersHauts,
+  },
+  {
+    slug: "villes-acheter-plus-cher-que-louer",
+    title: "Villes où acheter coûte plus de vingt ans de loyer",
+    metaTitle: "Acheter ou louer : 43 villes à plus de 20 ans de loyer",
+    metaDescription:
+      "43 villes où un 65 m² au prix DVF vaut plus de 20 ans de loyer, contre 14,7 ans pour la ville médiane : Saint-Mandé, Biarritz, Montrouge, Vincennes.",
+    emoji: "🔑",
+    intro:
+      "On ne demande pas la même chose à une ville quand on y loue et quand on y achète. Presque partout en France, la question se tranche vite : un appartement de la taille d'un trois-pièces s'achète pour une douzaine à seize années de loyer, et le calcul de l'acheteur reste défendable. Il y a une quarantaine de villes où ce rapport dépasse vingt ans. Là, le prix d'achat a pris tellement d'avance sur le loyer que la location rapporte moins de 5 % brut par an au propriétaire, et que le locataire paie, chaque mois, une fraction faible de la valeur du bien. Ce n'est pas un verdict sur ces villes. C'est un signal à connaître avant de signer un compromis : dans ces communes, acheter est une décision patrimoniale, pas une économie de loyer.",
+    reality:
+      "Ce classement ne repose sur aucun score : il rapproche deux mesures. La première est le prix médian au mètre carré des appartements réellement vendus en 2024 et 2025 (DVF, DGFiP), multiplié par 65 m², la surface d'un trois-pièces. La seconde est le loyer de référence d'un T3 de `data/housing.ts`, multiplié par douze. Le quotient est le nombre d'années de loyer qu'il faut pour payer le bien. Sur les 383 villes de 20 000 habitants et plus qui comptent au moins 100 ventes d'appartements sur la fenêtre, la médiane est de 14,7 ans. Quarante-trois villes dépassent 20 ans. Le résultat dessine deux géographies, pas une. La première est la proche banlieue ouest et sud de Paris : 29 des 43 villes sont en Île-de-France, dont 18 dans les Hauts-de-Seine, 4 dans le Val-de-Marne, 4 en Seine-Saint-Denis et 3 dans les Yvelines. Saint-Mandé ouvre la liste métropolitaine à 29,0 ans (8 552 €/m² pour un T3 à 1 600 €), devant Montrouge (27,5 ans), Charenton-le-Pont (26,7), Vincennes (25,7), Malakoff (25,1) et Levallois-Perret (24,2). La seconde est le littoral : Biarritz (27,7 ans), Les Sables-d'Olonne (24,0), La Rochelle (23,9), Anglet (23,4), Saint-Malo (22,7), La Ciotat, Agde, Six-Fours-les-Plages, Cagnes-sur-Mer, Saint-Raphaël, Concarneau et Sète, soit 12 villes côtières de métropole, plus deux de La Réunion. À l'autre bout, Montluçon tombe à 5,7 ans, Montbéliard à 7,0 et Vierzon à 7,6 : dans ces villes, le même appartement s'achète pour moins de huit ans de loyer. Deux contrôles empêchent de confondre ce classement avec ses voisins. Il ne mesure pas l'accessibilité au regard des revenus : le niveau de vie médian des 43 villes est de 25 640 € par an et par unité de consommation, contre 21 800 € pour l'ensemble des villes comparées, et seules 7 d'entre elles figurent aussi dans `villes-achat-hors-de-portee`. Il ne mesure pas non plus la qualité de vie : 8 apparaissent dans `villes-regrets-achat`, ce qui laisse 35 villes que ce classement-là ne signale pas. Une ville peut être chère à l'achat sans être mal notée, et le classement ne tranche pas entre les deux.",
+    methodology:
+      "Indicateur : prix médian DVF d'un appartement (ventes 2024-2025, `lib/property-prices.ts`) × 65 m², divisé par douze fois le loyer T3 de référence de `data/housing.ts`. Entrée à 20 ans de loyer au moins. Severity = 6 + 0,4 × (années − 20), plafonnée à 10/10 (atteinte à 30 ans) : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, au moins 100 ventes d'appartements sur la fenêtre (cinq fois le seuil de publication DVF) et loyer connu, soit 383 villes. Six limites à connaître. Le prix médian est celui de toutes les ventes d'appartements de la commune, de la petite surface au grand logement, rapporté à une surface type de 65 m² : c'est un ordre de grandeur, pas le prix d'un bien précis, et changer la surface déplace le nombre d'années, jamais l'ordre. Le loyer de référence est un repère éditorial de marché, non une moyenne d'annonces, et il ne dit pas ce que paient les locataires en place ni ceux du parc social. Le calcul ignore le crédit, la taxe foncière, les charges de copropriété, les frais d'agence et de notaire, et la valorisation future : un ratio élevé n'établit pas que louer est « plus rentable », seulement que l'achat s'est éloigné du loyer. Les prix couvrent 2024-2025 et les loyers sont de 2026, donc le ratio décrit un état et pas une trajectoire. Les communes d'Alsace-Moselle (livre foncier) et Mayotte sont absentes de DVF et ne sont pas classées. Saint-Paul (La Réunion) sort en tête à 31,9 ans, mais son prix appartement (5 304 €/m²) est plus élevé que celui de la maison et très éloigné du repère éditorial de la ville : lisez ce chiffre avec prudence. Distinct de `villes-achat-hors-de-portee` (prix d'achat rapporté au niveau de vie), de `villes-regrets-achat` (prix face à la qualité de vie) et de `villes-couts-explosifs` : ici, deux marchés côte à côte, celui de la vente et celui de la location, sans score.",
+    rank: rankAcheterPlusCherQueLouer,
   },
 ];
 

@@ -51709,6 +51709,54 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["nogent-sur-marne","vincennes","saint-maur-des-fosses"],
     tags: ["things to do in nogent-sur-marne","nogent-sur-marne","travel","city guide","ile-de-france"],
   },
+  {
+    slug: "buying-an-apartment-under-100000-euros-france-2026",
+    title: "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
+    metaTitle: "Apartment under €100,000 in France: 108 cities (2026)",
+    metaDesc: "108 French cities of 20,000+ people where 45 m² at the median sale price costs under €100,000: which ones, where, and what the low price hides.",
+    category: "budget",
+    emoji: "🔑",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro: "In 108 of the 383 French cities of 20,000 people or more that we compare, a 45 m² apartment at the median price of 2024 and 2025 sales costs less than €100,000. In 20 of them it costs less than €60,000, and Montluçon sits at the bottom at €30,600. Together these cities hold about 5 million people, so cheap housing is not a small-village curiosity: it covers Saint-Étienne, Limoges, Perpignan and Brest. This guide is written for someone buying a home to live in, not an investor. It shows where these cities are, which ones are losing residents, which ones are growing, and which checks the median price does not spare you.",
+    sections: [
+      {
+        heading: "How did we count, and what does 45 m² at the median price mean?",
+        body: "Prices come from apartment sales actually recorded in 2024 and 2025 (the national DVF register of property transactions), taken at each town's median price per square metre. We kept towns of 20,000 people or more (INSEE 2022 census) with at least 100 apartment sales in the window, which gives 383 cities. The €100,000 line is applied to a single surface of 45 m², a comfortable two-room flat. That is a convention: changing the surface moves how many cities fall under the line, never the order between them. The median covers every apartment sale in the town, from studios to large flats, so it is not the price of any particular property. Alsace and Moselle, which run on a separate land register, are missing from this source and are not covered here."
+      },
+      {
+        heading: "Where are the 108 cities?",
+        body: "Almost everywhere except the expensive coasts and the western Paris suburbs. Hauts-de-France has 18, Auvergne-Rhône-Alpes 16, Nouvelle-Aquitaine 13, Occitanie 12, Bourgogne-Franche-Comté 9, Grand Est 8, Centre-Val de Loire 7, Normandy 6, Île-de-France 6, Provence-Alpes-Côte d'Azur 5, Pays de la Loire 4 and Brittany 3, plus Les Abymes in Guadeloupe. The six Paris-region towns are suburbs in Seine-Saint-Denis, Val-d'Oise and Essonne: Clichy-sous-Bois, Sarcelles, Villiers-le-Bel, Sevran, Ris-Orangis and Évry-Courcouronnes. The ten cheapest per square metre are Montluçon (€680), Vierzon (€917), Montbéliard (€934), Maubeuge (€961), Nevers (€1,050), Saint-Dizier (€1,053), Saint-Quentin (€1,129), Alençon (€1,133), Laon (€1,136) and Châtellerault (€1,163). At the median price, 45 m² there costs between €30,600 and €52,335."
+      },
+      {
+        heading: "Can you buy under €100,000 in a big city?",
+        body: "Yes, in eight of the 39 cities of 100,000 people or more in our sample. Saint-Étienne is the cheapest (€1,197 per m², or €53,865 for 45 m²), ahead of Perpignan (€67,500), Limoges (€68,310), Le Mans (€86,985), Clermont-Ferrand (€94,725), Nîmes (€94,770), Brest (€96,030) and Besançon (€98,010). These eight cities have the advantage of liquidity: Saint-Étienne recorded 4,735 apartment sales in the window, Brest 3,620 and Clermont-Ferrand 3,430. An active market is easier to read and, one day, easier to sell into than one with a few dozen sales a year. Across the 108 cities, 20 have more than 1,000 sales; at the other end, 16 rest on fewer than 200, so their median price is shakier."
+      },
+      {
+        heading: "Does a low price mean a city is emptying out?",
+        body: "Often, not always. Between 2016 and 2022 the median population change across the 108 cities is +0.7%, against +2.4% for all the cities we compare. 46 of them lose residents, 61 gain and one is flat. Fifteen shrink by 3% or more: Calais (-9.9%), Saint-Dizier (-8.5%), Montluçon (-7.8%), Belfort (-6.8%), Épernay, Les Abymes, Laon, Vierzon, Chaumont, Agen, Châlons-en-Champagne, Saumur, Abbeville, Cambrai and Châtellerault. Incomes follow: the poverty rate exceeds 25% in 52 of the 107 cities for which it is published (INSEE, Filosofi 2021), nearly half, against 99 of 381 across all compared cities, a little over a quarter. A low price describes a market where supply exceeds demand; it says nothing about daily life in the town, which you have to check on the ground."
+      },
+      {
+        heading: "Which cities combine a low price, growth and contained poverty?",
+        body: "Eight cities pass three filters at once: a 45 m² apartment under €100,000, population up at least 3% since 2016, and a poverty rate of 22% or less. In order of growth: Mont-Saint-Aignan (+6.6%, €2,000 per m², poverty 10%), Auch (+5.6%, €1,689), Mont-de-Marsan (+5.3%, €2,101), Montélimar (+4.3%, €1,760), Manosque (+4.3%, €1,759), Montauban (+3.4%, €1,983), Castres (+3.3%, €1,695) and Fleury-les-Aubrais (+3.3%, €1,638). Two caveats. Mont-Saint-Aignan, in the Rouen area, has a median standard of living of €28,790 a year per consumption unit, far above the other seven. And Fleury-les-Aubrais, Castres and Mont-Saint-Aignan rest on samples of 186 to 391 sales, so read them with care. This is not a ranking: it is the output of a filter, not a recommendation."
+      },
+      {
+        heading: "What does the median hide?",
+        body: "The median hides the spread of prices. In 170 of the 383 cities, the cheapest quarter of sales stays under €100,000 for 45 m²: the €100,000 line is reachable far more widely than the median suggests, but on smaller, older or less well-placed properties. Conversely, in 60 cities even the dearest quarter of sales stays under that line, so the whole market is under €100,000 for 45 m². Montluçon shows the gap: the cheapest quarter of sales there happens at €500 per m², or €22,500 for 45 m², against a median of €680."
+      },
+      {
+        heading: "And what about rent in these cities?",
+        body: "The reference rent for a three-room flat is €800 a month at the median across these cities, against €1,090 for all 383 (our rent estimate). Buying there costs less in absolute terms and also relative to rent: in Montluçon, 65 m² at the median price is worth less than six years of rent, against 14.7 years for the median city. The mirror image exists in some 43 cities where buying costs more than twenty years of rent, mostly the inner Paris suburbs and the Atlantic and Mediterranean coasts. A low ratio makes buying a good cost-of-use calculation only if you stay: reselling in a city that is losing residents takes time."
+      },
+      {
+        heading: "What to check before signing, whatever the price?",
+        body: "Five checks matter more than the price per square metre. First, co-ownership charges and the annual property tax: at equal price, a poorly maintained building costs more each year than the rent it replaces. Second, the energy performance diagnostic: homes rated G have been barred from new lettings since 2025 and F-rated ones will follow, which weighs on resale. Third, the state of the co-ownership, whose general-assembly minutes show which works were voted or postponed. Fourth, the street itself: in a town of 30,000 people one street changes everything, and a visit at two different times of the week beats any median. Fifth, the buying costs on top of the price: notary fees on older property typically run 7 to 8 percent, and after you sign the preliminary contract (compromis de vente) you have a ten-day cooling-off period. For negotiating and financing, see our guides on buying property in France and on buying vs renting."
+      }
+    ],
+    relatedCities: ["montlucon", "nevers", "saint-etienne", "montauban", "mont-de-marsan", "auch", "montelimar", "castres"],
+    tags: ["apartment under 100000 euros", "cheap property france", "DVF property prices", "affordable french cities", "price per square metre", "first home france"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
