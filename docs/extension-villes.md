@@ -2772,3 +2772,28 @@ propre, `npm run integrity`, `search-index:check`, `hreflang:check`, `sitemap:ch
 
 **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge). Sans décision :
 poursuivre la série parent solo, en commençant par les écarts chiffrés à la médiane (recalcul à la main, paire par paire).
+
+### 2026-10-26 — aucun lot : deux superlatifs « du classement » de la série parent solo ramenés à leur lot (Tours, Saint-Étienne)
+
+`seed-coverage` au départ : 593 villes, rien en attente du runner hors Carquefou (photo) et les manques permanents →
+lot autorisé, mais **aucune décision du propriétaire au § 0** (`git log` depuis le 25/10 hors `[scheduled-agent]` : deux
+passes `[local-runner]` ; rien sur le seed, `score-calibration.ts`, ROADMAP ni CLAUDE.md). Aucune ville ajoutée.
+
+*Livrable* : les deux affirmations fausses **antérieures à l'extension** relevées le 25/10, mesurées sur `CITIES_SEED`
+(notes rendues) + `minIncomeForT3` (`lib/parent-solo.ts`), communes ≥ 20 000 hab., cohorte d'origine puis corpus courant :
+
+| Affirmation | 363 (origine) | 416 (courant) | Dans les 9 villes du lot |
+|---|---|---|---|
+| Tours « le meilleur score écoles du classement » (titre FR + EN) | 22 communes au-dessus de 7,9 (Rennes, Toulouse, Grenoble à 9,0) | 24 au-dessus | 1ʳᵉ (Villeurbanne 7,7) |
+| Saint-Étienne « revenu minimum 2 350 €, le plus bas du classement » (metaDesc FR + EN) | 59 communes plus bas (Aurillac 1 700 €) | 61 plus bas | 1ʳᵉ (Limoges 2 400 €) |
+
+Les deux étaient fausses dès l'origine et vraies du lot (les corps de texte disaient déjà « du lot » / « of the nine ») :
+réécrites « des neuf villes comparées » / « of the nine cities compared », dans les deux locales (mêmes chiffres des deux
+côtés, règle hreflang). `updatedAt` des 4 guides → 2026-10-26.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `search-index` + `:check`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**Reste** (inchangé depuis le 25/10) : 82 guides FR et 83 EN de la série parent solo citent encore « 363 », d'abord les
+écarts chiffrés à la médiane. **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy,
+Juvisy-sur-Orge).

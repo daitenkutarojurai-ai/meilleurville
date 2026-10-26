@@ -22929,14 +22929,14 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-tours-2026",
-    title: "Single Parent in Tours (2026): the Best School Score in the Ranking",
+    title: "Single Parent in Tours (2026): the Best School Score of the Nine Cities Compared",
     metaTitle: "Single Parent in Tours 2026: Schools 7.9/10, Rent, Tram",
     metaDesc: "Raising a child alone in Tours in 2026: schools 7.9/10, the best of the batch, T3 at €940, €2,850 net floor and Paris one hour away by TGV.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-26",
     intro: "Tours scores 6.5/10 on the single-parent composite, joint 37th of the 416 communes above 20,000 inhabitants ranked. Its strength is unambiguous: 7.9/10 on schools, the best of the nine cities here and one of the highest in France (source: our city profile). The rest holds, with transport 7.0/10 and safety 5.5/10, but cost of living slips to 5.9/10. The average T3 is €940 and the purchase price €2,700 per square metre (source: our rent estimate), setting the estimated minimum net income at €2,850/month. One hour from Paris by high-speed train, with a tram since 2013, Tours is the most complete « well-equipped mid-size city that is not cut off from the capital » in the batch.",
     sections: [
       {
@@ -23051,12 +23051,12 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-saint-etienne-2026",
     title: "Single Parent in Saint-Étienne (2026): the Lowest Rent, and What It Costs Elsewhere",
     metaTitle: "Single Parent in Saint-Étienne 2026: T3 €770, the Trade",
-    metaDesc: "T3 at €770 and a €2,350 net floor, the lowest in the ranking. But safety 4.3/10 and schools 5.8/10. The trade-off in figures, without softening.",
+    metaDesc: "T3 at €770 and a €2,350 net floor, the lowest of the nine cities compared. But safety 4.3/10 and schools 5.8/10. The trade-off in figures, without softening.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-26",
     intro: "Saint-Étienne scores 6.0/10 on the single-parent composite, joint 106th of the 416 communes above 20,000 inhabitants ranked. The file is frontally asymmetric: cost of living 7.1/10, the best of the batch level with Limoges, and safety 4.3/10, the lowest of the nine (source: our city profile). Between them, transport 6.7/10 and schools 5.8/10. The average T3 is €770 and a square metre to buy €1,500, both the lowest prices in the batch (source: our rent estimate); the estimated minimum net income drops to €2,350/month. This is a real choice, not an obvious one, and it deserves to be set out in figures rather than impressions.",
     sections: [
       {

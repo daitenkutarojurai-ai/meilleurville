@@ -51930,14 +51930,14 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-tours-2026",
-    title: "Parent solo à Tours en 2026 : le meilleur score écoles du classement",
+    title: "Parent solo à Tours en 2026 : le meilleur score écoles des neuf villes comparées",
     metaTitle: "Parent solo à Tours 2026 — écoles 7,9/10, T3, tram, budget",
     metaDesc: "Écoles 7,9/10, le meilleur du lot. Fit 6,5/10, T3 à 940 €, revenu minimum 2 850 €, Paris à 1 h. L'arbitrage réel pour un parent seul à Tours.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-26",
     intro: "Tours obtient 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 416 classées de plus de 20 000 habitants. Son point fort est net : 7,9/10 en écoles, le meilleur score des neuf villes de ce batch et un des plus élevés de France (source : notre fiche ville). Le reste se tient, avec transports 7,0/10 et sécurité 5,5/10, mais le coût de la vie décroche un peu à 5,9/10. Le T3 moyen est à 940 € et l'achat à 2 700 € le mètre carré (source : notre estimation des loyers), ce qui fixe le revenu net minimum estimé à 2 850 € par mois. À une heure de Paris en TGV, avec un tramway depuis 2013, Tours est le compromis « ville moyenne bien équipée sans être coupée de la capitale » le plus abouti du lot.",
     sections: [
       {
@@ -52073,12 +52073,12 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-saint-etienne-2026",
     title: "Parent solo à Saint-Étienne en 2026 : le loyer le plus bas, et ce qu'il coûte ailleurs",
     metaTitle: "Parent solo à Saint-Étienne 2026 — T3 770 €, le vrai calcul",
-    metaDesc: "T3 à 770 €, revenu minimum 2 350 €, le plus bas du classement. Mais sécurité 4,3/10 et écoles 5,8/10. L'arbitrage chiffré, sans détour.",
+    metaDesc: "T3 à 770 €, revenu minimum 2 350 €, le plus bas des neuf villes comparées. Mais sécurité 4,3/10 et écoles 5,8/10. L'arbitrage chiffré, sans détour.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-26",
     intro: "Saint-Étienne obtient 6,0/10 au composite parent solo, dans un palier de 12 communes sur les 416 classées de plus de 20 000 habitants. Le dossier est frontalement asymétrique : coût de la vie 7,1/10, le meilleur du batch à égalité avec Limoges, et sécurité 4,3/10, le plus bas des neuf (source : notre fiche ville). Entre les deux, transports 6,7/10 et écoles 5,8/10. Le T3 moyen est à 770 € et le mètre carré à l'achat à 1 500 €, les deux prix les plus bas du lot (source : notre estimation des loyers) ; le revenu net minimum estimé descend à 2 350 € par mois. C'est un vrai choix, pas une évidence, et il mérite d'être posé en chiffres plutôt qu'en impressions.",
     sections: [
       {
