@@ -817,3 +817,31 @@ dans la ligne de commande du shell tue le shell lui-même. `npm run build` non l
 1. Pages thème `components/RedFlagThemePage.tsx` (43 en FR + la sélection EN) et fiches `/red-flags/[slug]`.
 2. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
 3. `app/guides/[slug]` (gabarit guide : en-tête, sommaire, encadrés).
+
+## 2026-10-26 ~11:00 UTC — pages thème Red Flags `RedFlagThemePage` (FR ×44) + `/red-flags/themes/[slug]` (EN)
+
+**Surface** : le gabarit des pages thème Red Flags. FR : `components/RedFlagThemePage.tsx` (44 pages
+`/red-flags/villes-*`). EN : `app/[locale]/red-flags/themes/[slug]/page.tsx`. Avant : en-tête en bande
+rose unie (FR) ou papier topo voilé (EN), tout le corps dans un seul conteneur sur le fond de page, registre
+à filets pointillés, encarts en cadre pointillé, numéros « Sheet NN » côté EN.
+
+**Changé**
+- Hero `.bg-aurora` ; lien retour et numéro « N° NN / 44 » en pastilles blanches.
+- Bandes : réalité + classement `band-indigo` → méthodologie `band-sky` → autres thèmes `band-lilac` →
+  commentaires `band-white` (FR). Pas de `band-bold` (aucun appel à l'action sur ce gabarit).
+- « Ce que disent les chiffres » et « Méthodologie » en cartes blanches à en-tête dégradé (`grad-head-5`,
+  `grad-head-0` : extrémités à ≥ 4,5:1 sur le blanc ; `grad-head-1/2` écartés pour contraste).
+- Classement : une carte blanche à ombre indigo par ville, rang en pilule (indigo plein top 3, lavande
+  ensuite), badge de gravité en pilule (couleurs de gravité inchangées). Fin des `divide-dashed`.
+- Vignettes « autres thèmes » : cartes blanches, numéro en pilule rose. EN : « Sheet NN » → « No. NN »,
+  lien « All red-flag reports » en `.btn-couleurs`, soulignement pointillé remplacé.
+- h3 → h2 pour Méthodologie / Autres thèmes (sections de premier niveau). Copie et données inchangées.
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` 0 erreur sur les 2
+fichiers. Captures `next dev` + playwright `/red-flags/villes-sans-enfants` 1440 et 390 px, `scrollWidth` =
+viewport. EN non capturé (route `[locale]` en dev). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Fiches ville `/red-flags/[slug]` (FR + EN `red-flags/[slug]`).
+2. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
+3. `app/guides/[slug]` (gabarit guide : en-tête, sommaire, encadrés).

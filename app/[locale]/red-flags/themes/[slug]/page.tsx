@@ -487,6 +487,10 @@ function severityColor(severity: number): string {
   return "text-yellow-700 bg-yellow-100 border-yellow-300";
 }
 
+// « Couleurs » (2026-10-26): white card with an indigo shadow, as on the hub.
+const CARD =
+  "rounded-2xl bg-[var(--bg-surface)] shadow-[0_10px_30px_-18px_rgba(79,70,229,0.45)] ring-1 ring-[var(--accent)]/10";
+
 export default async function EnRedFlagThemePage({ params }: Props) {
   const { slug } = await params;
   const theme = getEnTheme(slug);
@@ -511,29 +515,29 @@ export default async function EnRedFlagThemePage({ params }: Props) {
     })),
   };
 
-  // Same "Sheet NN" numbering as the theme tiles below (EN selection order).
+  // Same "No. NN" numbering as the theme tiles below (EN selection order).
   const sheetIndex = EN_THEMES.findIndex((t) => t.enSlug === slug) + 1;
-  const sheetLabel = (n: number) => `Sheet ${String(n).padStart(2, "0")} / ${EN_THEMES.length}`;
+  const sheetLabel = (n: number) => `No. ${String(n).padStart(2, "0")} / ${EN_THEMES.length}`;
 
   return (
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navbar />
 
-      {/* Header — veiled topo paper, same grammar as the FR twin and the hub. */}
-      <section className="topo-bg border-b border-[var(--border)] bg-[var(--bg-canvas)]">
-        <div className="bg-[var(--bg-canvas)]/80 pt-20 pb-12">
+      {/* Header — colour aurora, same grammar as the FR twin and the hub (« Couleurs »). */}
+      <section className="bg-aurora">
+        <div className="pt-20 pb-12">
           <div className="mx-auto max-w-4xl px-4 sm:px-6">
-            <div className="mb-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
+            <div className="mb-5 flex flex-wrap items-center gap-2 font-mono-data text-xs font-semibold uppercase tracking-widest">
               <Link
                 href="/red-flags"
-                className="inline-flex items-center gap-1.5 border-b border-[var(--accent-pink)]/40 pb-1 text-[var(--accent-pink)] hover:border-[var(--accent-pink)]"
+                className="inline-flex items-center gap-1.5 rounded-full bg-white/85 px-3 py-1 text-[#BE185D] shadow-sm ring-1 ring-[var(--accent-pink)]/20 transition-colors hover:bg-white"
               >
                 <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
                 Red Flags
               </Link>
               {sheetIndex > 0 && (
-                <span className="text-[var(--text-tertiary)]">{sheetLabel(sheetIndex)}</span>
+                <span className="rounded-full bg-white/70 px-3 py-1 text-[#4338CA] ring-1 ring-[var(--accent)]/15">{sheetLabel(sheetIndex)}</span>
               )}
             </div>
             <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.08]">
@@ -546,19 +550,21 @@ export default async function EnRedFlagThemePage({ params }: Props) {
         </div>
       </section>
 
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-10 space-y-10">
-        {/* The reality — legend inset, brick rule. */}
-        <section className="rounded-md border border-[var(--border)] border-l-4 border-l-[var(--accent-pink)] bg-[var(--bg-surface)] p-5">
-          <h2 className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+      {/* Reality + ranking — indigo band, white cards. */}
+      <section className="band band-indigo py-10 sm:py-12">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 space-y-10">
+        <div className={`${CARD} overflow-hidden`}>
+          <h2 className="grad-head-5 px-5 py-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em]">
             What the data shows
           </h2>
-          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+          <p className="p-5 text-sm text-[var(--text-secondary)] leading-relaxed">
             {theme.reality}
           </p>
-        </section>
+        </div>
 
-        <section>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-1">
+        <div>
+          <h2 className="mb-1 flex items-center gap-3 text-2xl font-bold text-[var(--text-primary)]">
+            <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-[var(--accent-pink)]" aria-hidden="true" />
             {rows.length === 0
               ? "The most affected cities"
               : `The ${rows.length} most affected cities`}
@@ -567,25 +573,25 @@ export default async function EnRedFlagThemePage({ params }: Props) {
               the opposite of the site-wide score convention. Say so, or the
               number is unreadable. Cf. CLAUDE.md § Score convention, rule 3. */}
           {rows.length > 0 && (
-            <p className="text-xs text-[var(--text-tertiary)] mb-4">
+            <p className="text-xs text-[var(--text-secondary)] mb-4">
               Severity on this theme: <strong>10 = worst</strong>, 0 = not
               affected. Note this is the reverse of the site-wide score
               convention, where 10 is the best a city can score.
             </p>
           )}
           {rows.length === 0 ? (
-            <div className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <div className={`${CARD} p-5`}>
               <p className="text-sm text-[var(--text-secondary)]">
                 No city exceeds the thresholds for this theme in the current dataset. If you think a city should appear here, let us know via the contact page.
               </p>
             </div>
           ) : (
-            /* Ruled register: one line per city, rank in mono. */
-            <ol className="rounded-md border border-[var(--border)] bg-[var(--bg-surface)] divide-y divide-dashed divide-[var(--border)]">
+            /* One card per city, rank in an indigo pill. */
+            <ol className="space-y-3">
               {rows.map((row, i) => (
-                <li key={row.city.slug} className="flex items-start gap-3 sm:gap-4 p-4">
+                <li key={row.city.slug} className={`${CARD} flex items-start gap-3 sm:gap-4 p-4 transition-shadow hover:shadow-[0_14px_34px_-16px_rgba(219,39,119,0.45)]`}>
                   <span
-                    className="flex-shrink-0 w-10 pt-1 text-right font-mono-data text-xs font-semibold tracking-wider text-[var(--text-tertiary)]"
+                    className={`flex-shrink-0 mt-0.5 inline-flex min-w-[2.75rem] justify-center rounded-full px-2 py-1 font-mono-data text-xs font-bold tracking-wider ${i < 3 ? "bg-[var(--accent)] text-white" : "bg-[var(--band-indigo)] text-[#4338CA]"}`}
                     aria-label={`Rank ${i + 1}`}
                   >
                     No.&nbsp;{String(i + 1).padStart(2, "0")}
@@ -602,7 +608,7 @@ export default async function EnRedFlagThemePage({ params }: Props) {
                         {row.city.region}
                       </span>
                       <span
-                        className={`ml-auto inline-flex items-center rounded-sm border px-2 py-0.5 font-mono-data text-[11px] font-bold ${severityColor(row.severity)}`}
+                        className={`ml-auto inline-flex items-center rounded-full border px-2 py-0.5 font-mono-data text-[11px] font-bold ${severityColor(row.severity)}`}
                         aria-label={`Severity ${row.severity} out of 10, 10 being the worst`}
                       >
                         {row.severity.toFixed(1)}/10
@@ -617,7 +623,7 @@ export default async function EnRedFlagThemePage({ params }: Props) {
                       </Link>
                       <Link
                         href={`/red-flags/${row.city.slug}`}
-                        className="inline-flex items-center gap-1 text-xs text-[var(--text-secondary)] underline decoration-dashed underline-offset-2 hover:text-[var(--accent-pink)]"
+                        className="inline-flex items-center gap-1 text-xs text-[var(--text-secondary)] underline decoration-[var(--accent-pink)]/40 underline-offset-2 hover:text-[var(--accent-pink)]"
                       >
                         Red flag report <ArrowRight className="h-3 w-3" aria-hidden="true" />
                       </Link>
@@ -630,13 +636,18 @@ export default async function EnRedFlagThemePage({ params }: Props) {
               ))}
             </ol>
           )}
-        </section>
+        </div>
+        </div>
+      </section>
 
-        {/* Methodology — map footnote, dashed frame. */}
-        <section className="rounded-md border border-dashed border-[var(--border)] bg-[var(--bg-canvas)] p-5">
-          <h3 className="mb-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-secondary)]">
+      {/* Methodology — sky band, white card with gradient head. */}
+      <section className="band band-sky py-10 sm:py-12">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <div className={`${CARD} overflow-hidden`}>
+          <h2 className="grad-head-0 px-5 py-2 font-mono-data text-[11px] font-semibold uppercase tracking-[0.18em]">
             Methodology
-          </h3>
+          </h2>
+          <div className="p-5">
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
             {theme.methodology}
           </p>
@@ -644,21 +655,26 @@ export default async function EnRedFlagThemePage({ params }: Props) {
             Rankings update as proprietary scores improve (currently v0, derived from the official seed — see{" "}
             <Link href="/methodology" className="underline">methodology page</Link>).
           </p>
-        </section>
+          </div>
+        </div>
+        </div>
+      </section>
 
-        {/* Other themes — "Sheet NN" tiles, as on the hub. */}
-        <section>
-          <h3 className="text-lg font-bold text-[var(--text-primary)] mb-4">
+      {/* Other themes — lilac band, tiles as on the hub. */}
+      <section className="band band-lilac py-10 sm:py-12">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <h2 className="mb-4 flex items-center gap-3 text-lg font-bold text-[var(--text-primary)]">
+            <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-[var(--accent)]" aria-hidden="true" />
             Other red flag themes
-          </h3>
+          </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:auto-rows-fr">
             {otherThemes.slice(0, 8).map((t) => (
               <Link
                 key={t.enSlug}
                 href={`/red-flags/themes/${t.enSlug}`}
-                className="group h-full rounded-md border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent-pink)] transition-colors p-4 flex flex-col gap-2"
+                className={`${CARD} group h-full hover:-translate-y-0.5 hover:ring-[var(--accent-pink)]/40 transition-all p-4 flex flex-col gap-2`}
               >
-                <span className="border-b border-dashed border-[var(--border)] pb-2 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--accent-pink)]">
+                <span className="self-start rounded-full bg-[var(--band-pink)] px-2 py-0.5 font-mono-data text-[10px] font-semibold uppercase tracking-[0.18em] text-[#BE185D]">
                   {sheetLabel(EN_THEMES.indexOf(t) + 1)}
                 </span>
                 <span className="font-semibold text-sm text-[var(--text-primary)] group-hover:text-[var(--accent-pink)] transition-colors">
@@ -671,13 +687,13 @@ export default async function EnRedFlagThemePage({ params }: Props) {
           <div className="mt-4">
             <Link
               href="/red-flags"
-              className="inline-flex items-center gap-1.5 font-mono-data text-xs font-semibold uppercase tracking-widest text-[var(--accent-pink)] border-b border-[var(--accent-pink)]/40 pb-1 hover:border-[var(--accent-pink)]"
+              className="btn-couleurs inline-flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-semibold"
             >
               All red-flag reports <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
             </Link>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <Footer />
     </main>
