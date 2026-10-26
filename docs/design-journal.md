@@ -871,3 +871,32 @@ viewport. EN non capturé (route `[locale]` en dev). `npm run build` non lancé.
 1. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
 2. `app/guides/[slug]` (gabarit guide : en-tête, sommaire, encadrés).
 3. Page agenda `/villes/[slug]/agenda` + `components/CityEvents.tsx`.
+
+## 2026-10-26 ~23:00 UTC — gabarit guide `app/guides/[slug]` (FR ×1 354) + EN `app/[locale]/guides/[slug]` (×1 173)
+
+**Surface** : les deux gabarits de guide. Avant : hero blanc avec aurore à 40 %, tout le corps (sommaire,
+sections, tags, suggestions, CTA, sidebar) sur le fond de page, cartes à filet gris, CTA en encart indigo pâle,
+newsletter et commentaires sans fond propre.
+
+**Changé**
+- Hero `.bg-aurora` pleine ; fil d'Ariane en pastille blanche ; emoji en tuile `grad-head-5` ; titre en
+  `.gradient-text` ; chiffres clés en cartes blanches avec icône en tuile dégradée (rotation `grad-head-N`).
+- Bandes : corps (sommaire + sections + sidebar) `band-indigo` → suite de lecture (tags, « Lire ensuite »,
+  précédent/suivant, CTA) `band-sky` → newsletter `band-aqua` → commentaires `band-pink` (FR ; l'EN n'a ni
+  newsletter ni commentaires).
+- Sommaire et cartes de sidebar (« Villes mentionnées », « Comparer ces villes ») à en-tête dégradé ; numéros
+  de sommaire en pilules lavande ; numéros de section en pilules `grad-head-0/5` alternées ; sections en cartes
+  blanches à ombre indigo ; « Lire ensuite » en h2 `.gradient-text`, cartes blanches à emoji en tuile dégradée ;
+  tags en pilules blanches ; CTA City Match en `band-bold` (le seul de la page), bouton blanc ; « Tous les
+  guides » en pilule blanche. Score EN de la sidebar garde sa couleur de palier.
+- Tags / suggestions / précédent-suivant / CTA sortis de la colonne `<article>` vers leur propre bande (la
+  sidebar sticky ne longe plus que les sections). Copie, données, liens, JSON-LD : inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` 0 erreur sur les 2
+fichiers. Captures `next dev` + playwright `/guides/10-choses-a-faire-a-lyon-2026` 1440 et 390 px,
+`scrollWidth` = viewport. EN non capturé (route `[locale]` en dev). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
+2. Page agenda `/villes/[slug]/agenda` + `components/CityEvents.tsx`.
+3. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx` (encore à filet gris dans la sidebar).

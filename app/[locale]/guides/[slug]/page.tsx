@@ -123,16 +123,15 @@ export default async function EnGuidePage({ params }: Props) {
 
       {/* Header — same treatment as the FR guide page: ambient wash tinted by the
           category, glass facts strip. The EN page was a bare column of text. */}
-      <section className="relative overflow-hidden border-b border-[var(--border)] bg-[var(--bg-surface)] py-12">
+      <section className="relative overflow-hidden bg-aurora py-12">
         <div className="pointer-events-none absolute inset-0" aria-hidden>
-          <div className="absolute inset-0 bg-aurora opacity-40" />
           <div className={cn("absolute -top-28 -right-24 h-80 w-80 rounded-full blur-[110px] opacity-30 animate-drift", catMeta?.glow ?? "bg-[var(--accent)]")} />
           <div className="absolute -bottom-28 -left-24 h-72 w-72 rounded-full bg-[var(--accent)]/12 blur-[100px] animate-drift" style={{ animationDelay: "2s" }} />
         </div>
         <GrainOverlay opacity={0.14} blend="overlay" />
 
         <div className="relative mx-auto max-w-3xl px-4 sm:px-6">
-          <nav className="mb-5 flex items-center gap-2 text-xs text-[var(--text-tertiary)]">
+          <nav className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full bg-white/80 px-3 py-1 text-xs text-[var(--text-tertiary)] shadow-sm">
             <Link href="/" className="transition-colors hover:text-[var(--text-secondary)]">Home</Link>
             <span>/</span>
             <Link href="/guides" className="transition-colors hover:text-[var(--text-secondary)]">Guides</Link>
@@ -141,7 +140,7 @@ export default async function EnGuidePage({ params }: Props) {
           </nav>
 
           <div className="mb-5 flex items-center gap-3">
-            <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl border border-white/50 glass text-3xl shadow-lg">
+            <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl grad-head-5 text-3xl shadow-[0_10px_24px_-10px_rgba(79,70,229,0.7)]">
               {g.emoji}
             </div>
             <Link
@@ -152,7 +151,7 @@ export default async function EnGuidePage({ params }: Props) {
             </Link>
           </div>
 
-          <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-[var(--text-primary)] sm:text-4xl">
+          <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight gradient-text sm:text-4xl">
             {g.title}
           </h1>
           <p className="text-lg leading-relaxed text-[var(--text-secondary)]">{renderRich(g.intro)}</p>
@@ -169,9 +168,11 @@ export default async function EnGuidePage({ params }: Props) {
                 value: new Date(g.updatedAt).toLocaleDateString("en-GB", { day: "numeric", month: "short" }),
                 label: `updated ${new Date(g.updatedAt).getFullYear()}`,
               },
-            ].map(({ icon: Icon, value, label }) => (
-              <div key={label} className="rounded-2xl border border-white/50 glass p-4">
-                <Icon className={cn("mb-2 h-4 w-4", catMeta?.color ?? "text-[var(--accent)]")} aria-hidden />
+            ].map(({ icon: Icon, value, label }, i) => (
+              <div key={label} className="rounded-2xl bg-white/85 p-4 shadow-[0_8px_22px_-14px_rgba(79,70,229,0.6)]">
+                <span className={cn("mb-2 inline-flex h-7 w-7 items-center justify-center rounded-lg", `grad-head-${i % 6}`)}>
+                  <Icon className="h-4 w-4" aria-hidden />
+                </span>
                 <div className="font-mono-data text-xl font-bold text-[var(--text-primary)]">{value}</div>
                 <div className="text-xs text-[var(--text-secondary)]">{label}</div>
               </div>
@@ -189,18 +190,21 @@ export default async function EnGuidePage({ params }: Props) {
         </div>
       </section>
 
+      {/* Body — indigo band; TOC, sections and sidebar cards are white. */}
+      <section className="band band-indigo">
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
         <div className="flex flex-col gap-10 lg:flex-row">
           <article className="min-w-0 flex-1">
-            <div className="mb-8 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 shadow-sm">
-              <p className={cn("mb-3 text-xs font-semibold uppercase tracking-widest", catMeta?.color ?? "text-[var(--text-tertiary)]")}>
+            <div className="mb-8 overflow-hidden rounded-2xl bg-white shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)]">
+              <p className="grad-head-0 px-5 py-2.5 text-xs font-semibold uppercase tracking-widest">
                 Contents
               </p>
+              <div className="p-5">
               <ol className="space-y-2">
                 {g.sections.map((s, i) => (
                   <li key={i}>
                     <a href={`#section-${i}`} className="flex items-start gap-2 text-sm text-[var(--text-secondary)] transition-colors hover:text-[var(--accent)]">
-                      <span className={cn("mt-0.5 flex-shrink-0 font-mono text-xs", catMeta?.color ?? "text-[var(--text-tertiary)]")}>
+                      <span className="mt-0.5 flex-shrink-0 rounded-full bg-[var(--band-indigo)] px-1.5 font-mono text-xs font-semibold text-[var(--accent)]">
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       {s.heading}
@@ -208,6 +212,7 @@ export default async function EnGuidePage({ params }: Props) {
                   </li>
                 ))}
               </ol>
+              </div>
             </div>
 
             <div className="space-y-6">
@@ -215,14 +220,13 @@ export default async function EnGuidePage({ params }: Props) {
                 <section
                   key={i}
                   id={`section-${i}`}
-                  className="scroll-mt-24 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 shadow-sm transition-shadow hover:shadow-md sm:p-7"
+                  className="scroll-mt-24 rounded-2xl bg-white p-5 shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)] transition-shadow hover:shadow-[0_16px_36px_-16px_rgba(79,70,229,0.6)] sm:p-7"
                 >
                   <h2 className="mb-4 flex items-baseline gap-3 text-lg font-bold text-[var(--text-primary)]">
                     <span
                       className={cn(
-                        "flex-shrink-0 rounded-lg border px-2 py-0.5 font-mono-data text-xs",
-                        catMeta?.bg ?? "border-[var(--border)] bg-[var(--bg-elevated)]",
-                        catMeta?.color ?? "text-[var(--text-tertiary)]",
+                        "flex-shrink-0 rounded-full px-2.5 py-0.5 font-mono-data text-xs font-semibold",
+                        i % 2 === 0 ? "grad-head-0" : "grad-head-5",
                       )}
                     >
                       {String(i + 1).padStart(2, "0")}
@@ -242,78 +246,18 @@ export default async function EnGuidePage({ params }: Props) {
               <FeedbackWidget locale="en" />
             </div>
 
-            {g.tags.length > 0 && (
-              <div className="mt-10 flex flex-wrap gap-2 border-t border-[var(--border)] pt-8">
-                {g.tags.map((tag) => {
-                  const tagSlug = slugifyTagEn(tag);
-                  const hasPage = TAG_SLUGS_EN.includes(tagSlug);
-                  return hasPage ? (
-                    <Link
-                      key={tag}
-                      href={`/tags/${tagSlug}`}
-                      className="rounded-full border border-[var(--border)] bg-[var(--bg-elevated)] px-3 py-1 text-xs text-[var(--text-secondary)] transition-colors hover:border-[var(--accent)]/40 hover:text-[var(--accent)]"
-                    >
-                      {tag}
-                    </Link>
-                  ) : (
-                    <span key={tag} className="rounded-full border border-[var(--border)] bg-[var(--bg-elevated)] px-3 py-1 text-xs text-[var(--text-secondary)]">
-                      {tag}
-                    </span>
-                  );
-                })}
-              </div>
-            )}
-
-            {otherGuides.length > 0 && (
-              <div className="mt-10">
-                <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-[var(--text-tertiary)]">Read next</p>
-                <div className="grid gap-4 sm:grid-cols-3">
-                  {otherGuides.map((o) => (
-                    <Link
-                      key={o.slug}
-                      href={`/guides/${o.slug}`}
-                      className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-colors hover:border-[var(--accent)]"
-                    >
-                      <div className="mb-2 flex items-center gap-2">
-                        <span className="text-2xl" aria-hidden>{o.emoji}</span>
-                        <span className={cn("text-[10px] font-semibold uppercase tracking-wide", EN_CATEGORY_STYLE[o.category]?.color)}>
-                          {EN_GUIDE_CATEGORIES[o.category]}
-                        </span>
-                      </div>
-                      <p className="text-sm font-semibold leading-snug text-[var(--text-primary)] transition-colors group-hover:text-[var(--accent)]">
-                        {o.title}
-                      </p>
-                      <p className="mt-2 text-xs text-[var(--text-tertiary)]">{o.readMinutes} min</p>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            <div className="mt-10 rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-6">
-              <p className="mb-1 font-semibold text-[var(--text-primary)]">Find your city in 3 minutes</p>
-              <p className="mb-4 text-sm text-[var(--text-secondary)]">
-                Answer a few questions on budget, climate and pace of life and get a ranked shortlist of French cities.
-              </p>
-              <Link
-                href="/city-match"
-                className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-              >
-                Take the quiz
-              </Link>
-            </div>
           </article>
 
           <aside className="w-full flex-shrink-0 space-y-6 lg:sticky lg:top-20 lg:w-72 lg:self-start">
             {relatedCities.length > 0 && (
-              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-                <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[var(--text-tertiary)]">Cities mentioned</p>
-                <div className="space-y-2">
+              <div className="overflow-hidden rounded-2xl bg-white shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)]">
+                <p className="grad-head-5 px-5 py-2.5 text-xs font-semibold uppercase tracking-widest">Cities mentioned</p>
+                <div className="space-y-1 p-3">
                   {relatedCities.map((c) => (
                     <Link
                       key={c.slug}
                       href={`/cities/${c.slug}`}
-                      className="group flex items-center justify-between rounded-lg px-2 py-1.5 transition-colors hover:bg-[var(--bg-elevated)]"
+                      className="group flex items-center justify-between rounded-lg px-2 py-1.5 transition-colors hover:bg-[var(--band-indigo)]"
                     >
                       <span className="text-sm text-[var(--text-secondary)] transition-colors group-hover:text-[var(--text-primary)]">{c.name}</span>
                       <span className={cn("font-mono-data text-xs font-bold", scoreColor(c.scores.global))}>
@@ -326,13 +270,81 @@ export default async function EnGuidePage({ params }: Props) {
             )}
             <Link
               href="/guides"
-              className="flex items-center justify-center gap-2 rounded-xl border border-[var(--border)] py-3 text-sm text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)]"
+              className="flex items-center justify-center gap-2 rounded-full bg-white py-3 text-sm font-semibold text-[var(--accent)] shadow-sm transition-colors hover:bg-white/80"
             >
               ← All guides
             </Link>
           </aside>
         </div>
       </div>
+      </section>
+
+      {/* Keep reading — tags and suggestions in a sky band, closed by the page's
+          single bold call-to-action. */}
+      <section className="band band-sky">
+      <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
+        {g.tags.length > 0 && (
+          <div className="flex flex-wrap gap-2">
+            {g.tags.map((tag) => {
+              const tagSlug = slugifyTagEn(tag);
+              const hasPage = TAG_SLUGS_EN.includes(tagSlug);
+              return hasPage ? (
+                <Link
+                  key={tag}
+                  href={`/tags/${tagSlug}`}
+                  className="rounded-full bg-white px-3 py-1 text-xs font-medium text-[var(--accent)] shadow-sm transition-colors hover:bg-[var(--accent)] hover:text-white"
+                >
+                  {tag}
+                </Link>
+              ) : (
+                <span key={tag} className="rounded-full bg-white/70 px-3 py-1 text-xs text-[var(--text-secondary)]">
+                  {tag}
+                </span>
+              );
+            })}
+          </div>
+        )}
+
+        {otherGuides.length > 0 && (
+          <div className="mt-10">
+            <h2 className="mb-4 text-xl font-bold tracking-tight gradient-text">Read next</h2>
+            <div className="grid gap-4 sm:grid-cols-3">
+              {otherGuides.map((o, j) => (
+                <Link
+                  key={o.slug}
+                  href={`/guides/${o.slug}`}
+                  className="group rounded-2xl bg-white p-4 shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)] transition-shadow hover:shadow-[0_16px_36px_-16px_rgba(79,70,229,0.65)]"
+                >
+                  <div className="mb-2 flex items-center gap-2">
+                    <span className={cn("flex h-9 w-9 items-center justify-center rounded-xl text-xl", `grad-head-${j % 6}`)} aria-hidden>{o.emoji}</span>
+                    <span className={cn("text-[10px] font-semibold uppercase tracking-wide", EN_CATEGORY_STYLE[o.category]?.color)}>
+                      {EN_GUIDE_CATEGORIES[o.category]}
+                    </span>
+                  </div>
+                  <p className="text-sm font-semibold leading-snug text-[var(--text-primary)] transition-colors group-hover:text-[var(--accent)]">
+                    {o.title}
+                  </p>
+                  <p className="mt-2 text-xs text-[var(--text-tertiary)]">{o.readMinutes} min</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="band-bold mt-10 rounded-2xl p-6 shadow-[0_14px_32px_-16px_rgba(109,63,216,0.8)]">
+          <p className="mb-1 font-semibold text-[var(--text-primary)]">Find your city in 3 minutes</p>
+          <p className="mb-4 text-sm text-[var(--text-secondary)]">
+            Answer a few questions on budget, climate and pace of life and get a ranked shortlist of French cities.
+          </p>
+          <Link
+            href="/city-match"
+            className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[var(--accent-hover)] transition-colors hover:bg-white/90"
+          >
+            Take the quiz
+          </Link>
+        </div>
+      </div>
+      </section>
       <Footer />
     </main>
   );

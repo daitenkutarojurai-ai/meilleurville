@@ -156,11 +156,10 @@ export default async function GuidePage({ params }: Props) {
       <Navbar />
 
       {/* Article header */}
-      <section className="relative overflow-hidden border-b border-[var(--border)] bg-[var(--bg-surface)] py-12">
-        {/* Ambient wash, tinted by the guide's category — the page was a flat
-            white slab before, with nothing to anchor the eye above the fold. */}
+      <section className="relative overflow-hidden bg-aurora py-12">
+        {/* « Couleurs » hero: full aurora, plus a glow tinted by the guide's
+            category so two categories don't open on the same colour. */}
         <div className="pointer-events-none absolute inset-0" aria-hidden>
-          <div className="absolute inset-0 bg-aurora opacity-40" />
           <div className={cn("absolute -top-28 -right-24 h-80 w-80 rounded-full blur-[110px] opacity-30 animate-drift", catMeta?.glow ?? "bg-[var(--accent)]")} />
           <div className="absolute -bottom-28 -left-24 h-72 w-72 rounded-full bg-[var(--accent)]/12 blur-[100px] animate-drift" style={{ animationDelay: "2s" }} />
         </div>
@@ -168,7 +167,7 @@ export default async function GuidePage({ params }: Props) {
 
         <div className="relative mx-auto max-w-3xl px-4 sm:px-6">
           {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
+          <nav className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full bg-white/80 px-3 py-1 text-xs text-[var(--text-tertiary)] shadow-sm">
             <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Accueil</Link>
             <span>/</span>
             <Link href="/guides" className="hover:text-[var(--text-secondary)] transition-colors">Guides</Link>
@@ -177,7 +176,7 @@ export default async function GuidePage({ params }: Props) {
           </nav>
 
           <div className="flex items-center gap-3 mb-5">
-            <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl border border-white/50 glass text-3xl shadow-lg">
+            <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl grad-head-5 text-3xl shadow-[0_10px_24px_-10px_rgba(79,70,229,0.7)]">
               {guide.emoji}
             </div>
             {catMeta && (
@@ -190,7 +189,7 @@ export default async function GuidePage({ params }: Props) {
             )}
           </div>
 
-          <h1 className="mb-4 text-3xl sm:text-4xl font-bold leading-tight tracking-tight text-[var(--text-primary)]">
+          <h1 className="mb-4 text-3xl sm:text-4xl font-bold leading-tight tracking-tight gradient-text">
             {guide.title}
           </h1>
           <p className="text-lg leading-relaxed text-[var(--text-secondary)]">
@@ -210,9 +209,11 @@ export default async function GuidePage({ params }: Props) {
                 value: new Date(guide.updatedAt).toLocaleDateString("fr-FR", { day: "numeric", month: "short" }),
                 label: `mis à jour ${new Date(guide.updatedAt).getFullYear()}`,
               },
-            ].map(({ icon: Icon, value, label }) => (
-              <div key={label} className="rounded-2xl border border-white/50 glass p-4">
-                <Icon className={cn("mb-2 h-4 w-4", catMeta?.color ?? "text-[var(--accent)]")} aria-hidden />
+            ].map(({ icon: Icon, value, label }, i) => (
+              <div key={label} className="rounded-2xl bg-white/85 p-4 shadow-[0_8px_22px_-14px_rgba(79,70,229,0.6)]">
+                <span className={cn("mb-2 inline-flex h-7 w-7 items-center justify-center rounded-lg", `grad-head-${i % 6}`)}>
+                  <Icon className="h-4 w-4" aria-hidden />
+                </span>
                 <div className="font-mono-data text-xl font-bold text-[var(--text-primary)]">{value}</div>
                 <div className="text-xs text-[var(--text-secondary)]">{label}</div>
               </div>
@@ -225,15 +226,19 @@ export default async function GuidePage({ params }: Props) {
         </div>
       </section>
 
+      {/* Body — its own indigo band; the TOC, the section cards and the sidebar
+          cards are white so they lift off it. */}
+      <section className="band band-indigo">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12">
         <div className="flex flex-col lg:flex-row gap-10">
           {/* Main article */}
           <article className="flex-1 min-w-0">
             {/* Table of contents */}
-            <div className="mb-8 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 shadow-sm">
-              <p className={cn("mb-3 text-xs font-semibold uppercase tracking-widest", catMeta?.color ?? "text-[var(--text-tertiary)]")}>
+            <div className="mb-8 overflow-hidden rounded-2xl bg-white shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)]">
+              <p className="grad-head-0 px-5 py-2.5 text-xs font-semibold uppercase tracking-widest">
                 Table des matières
               </p>
+              <div className="p-5">
               <ol className="space-y-2">
                 {guide.sections.map((s, i) => (
                   <li key={i}>
@@ -241,7 +246,7 @@ export default async function GuidePage({ params }: Props) {
                       href={`#section-${i}`}
                       className="text-sm text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors flex items-start gap-2"
                     >
-                      <span className={`font-mono text-xs mt-0.5 flex-shrink-0 ${catMeta?.color ?? "text-[var(--text-tertiary)]"}`}>
+                      <span className="mt-0.5 flex-shrink-0 rounded-full bg-[var(--band-indigo)] px-1.5 font-mono text-xs font-semibold text-[var(--accent)]">
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       {s.heading}
@@ -249,6 +254,7 @@ export default async function GuidePage({ params }: Props) {
                   </li>
                 ))}
               </ol>
+              </div>
             </div>
 
             {/* Sections — each on its own raised card. As flat paragraphs on a
@@ -260,14 +266,13 @@ export default async function GuidePage({ params }: Props) {
                   <section
                     key={i}
                     id={`section-${i}`}
-                    className="scroll-mt-24 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 shadow-sm transition-shadow hover:shadow-md sm:p-7"
+                    className="scroll-mt-24 rounded-2xl bg-white p-5 shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)] transition-shadow hover:shadow-[0_16px_36px_-16px_rgba(79,70,229,0.6)] sm:p-7"
                   >
                     <h2 className="mb-4 flex items-baseline gap-3 text-lg font-bold text-[var(--text-primary)]">
                       <span
                         className={cn(
-                          "flex-shrink-0 rounded-lg border px-2 py-0.5 font-mono-data text-xs",
-                          catMeta?.bg ?? "border-[var(--border)] bg-[var(--bg-elevated)]",
-                          catMeta?.color ?? "text-[var(--text-tertiary)]",
+                          "flex-shrink-0 rounded-full px-2.5 py-0.5 font-mono-data text-xs font-semibold",
+                          i % 2 === 0 ? "grad-head-0" : "grad-head-5",
                         )}
                       >
                         {String(i + 1).padStart(2, "0")}
@@ -294,135 +299,27 @@ export default async function GuidePage({ params }: Props) {
               <FeedbackWidget />
             </div>
 
-            {/* Tags — linked when the tag has a /tags/[slug] aggregate page */}
-            <div className="flex flex-wrap gap-2 mt-10 pt-8 border-t border-[var(--border)]">
-              {guide.tags.map((tag) => {
-                const tagSlug = slugifyTag(tag);
-                const hasPage = TAG_SLUGS.includes(tagSlug);
-                return hasPage ? (
-                  <Link
-                    key={tag}
-                    href={`/tags/${tagSlug}`}
-                    className="text-xs px-3 py-1 rounded-full bg-[var(--bg-elevated)] border border-[var(--border)] text-[var(--text-secondary)] hover:text-[var(--accent)] hover:border-[var(--accent)]/40 transition-colors"
-                  >
-                    {tag}
-                  </Link>
-                ) : (
-                  <span key={tag} className="text-xs px-3 py-1 rounded-full bg-[var(--bg-elevated)] border border-[var(--border)] text-[var(--text-secondary)]">
-                    {tag}
-                  </span>
-                );
-              })}
-            </div>
-
-            {/* Lire ensuite — auto-suggested by category + city + tag overlap */}
-            {nextGuides.length > 0 && (
-              <div className="mt-10">
-                <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-4">
-                  Lire ensuite
-                </p>
-                <div className="grid sm:grid-cols-3 gap-4">
-                  {nextGuides.map((g) => {
-                    const cat = GUIDE_CATEGORIES.find((c) => c.id === g.category);
-                    return (
-                      <Link
-                        key={g.slug}
-                        href={`/guides/${g.slug}`}
-                        className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
-                      >
-                        <div className="flex items-center gap-2 mb-2">
-                          <span className="text-2xl">{g.emoji}</span>
-                          {cat && (
-                            <span className={`text-[10px] font-semibold uppercase tracking-wide ${cat.color}`}>
-                              {cat.label}
-                            </span>
-                          )}
-                        </div>
-                        <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors">
-                          {g.title}
-                        </p>
-                        <p className="text-xs text-[var(--text-tertiary)] mt-2">
-                          {g.readMinutes} min
-                        </p>
-                      </Link>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {/* Prev / next within category */}
-            {(prevGuide || nextSibling) && (
-              <nav aria-label="Navigation guides" className="mt-10 grid sm:grid-cols-2 gap-3">
-                {prevGuide ? (
-                  <Link
-                    href={`/guides/${prevGuide.slug}`}
-                    rel="prev"
-                    className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
-                  >
-                    <p className="text-[10px] uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-1">
-                      ← Guide précédent
-                    </p>
-                    <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
-                      {prevGuide.emoji} {prevGuide.title}
-                    </p>
-                  </Link>
-                ) : (
-                  <div />
-                )}
-                {nextSibling && (
-                  <Link
-                    href={`/guides/${nextSibling.slug}`}
-                    rel="next"
-                    className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors sm:text-right"
-                  >
-                    <p className="text-[10px] uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-1">
-                      Guide suivant →
-                    </p>
-                    <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
-                      {nextSibling.emoji} {nextSibling.title}
-                    </p>
-                  </Link>
-                )}
-              </nav>
-            )}
-
-            {/* CTA after article */}
-            <div className="mt-10 rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-6">
-              <p className="font-semibold text-[var(--text-primary)] mb-1">
-                Trouvez votre ville en 3 minutes
-              </p>
-              <p className="text-sm text-[var(--text-secondary)] mb-4">
-                Quelques questions sur votre budget, le climat et votre rythme de vie, et une liste de villes classée pour vous.
-              </p>
-              <Link
-                href="/city-match"
-                className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
-              >
-                ✨ Faire le quiz
-              </Link>
-            </div>
           </article>
 
           {/* Sidebar */}
           <aside className="w-full lg:w-72 flex-shrink-0 space-y-6 lg:sticky lg:top-20 lg:self-start">
             {/* Related cities */}
             {relatedCities.length > 0 && (
-              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-                <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+              <div className="overflow-hidden rounded-2xl bg-white shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)]">
+                <p className="grad-head-5 px-5 py-2.5 text-xs uppercase tracking-widest font-semibold">
                   Villes mentionnées
                 </p>
-                <div className="space-y-2">
+                <div className="space-y-1 p-3">
                   {relatedCities.map((city) => (
                     <Link
                       key={city.slug}
                       href={`/villes/${city.slug}`}
-                      className="flex items-center justify-between group rounded-lg hover:bg-[var(--bg-elevated)] px-2 py-1.5 transition-colors"
+                      className="flex items-center justify-between group rounded-lg hover:bg-[var(--band-indigo)] px-2 py-1.5 transition-colors"
                     >
                       <span className="text-sm text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors">
                         {city.name}
                       </span>
-                      <span className="text-xs font-bold font-mono-data text-[var(--accent)]">
+                      <span className="rounded-full bg-[var(--band-indigo)] px-2 py-0.5 text-xs font-bold font-mono-data text-[var(--accent)]">
                         {city.scores.global.toFixed(1)}
                       </span>
                     </Link>
@@ -433,16 +330,16 @@ export default async function GuidePage({ params }: Props) {
 
             {/* Compare pairs between related cities */}
             {comparablePairs.length > 0 && (
-              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-                <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+              <div className="overflow-hidden rounded-2xl bg-white shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)]">
+                <p className="grad-head-0 px-5 py-2.5 text-xs uppercase tracking-widest font-semibold">
                   Comparer ces villes
                 </p>
-                <div className="space-y-2">
+                <div className="space-y-1 p-3">
                   {comparablePairs.map(({ slug, cityA, cityB }) => (
                     <Link
                       key={slug}
                       href={`/comparer/${slug}`}
-                      className="flex items-center justify-between group rounded-lg hover:bg-[var(--bg-elevated)] px-2 py-1.5 transition-colors"
+                      className="flex items-center justify-between group rounded-lg hover:bg-[var(--band-indigo)] px-2 py-1.5 transition-colors"
                     >
                       <span className="text-xs text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors">
                         {cityA.name} vs {cityB.name}
@@ -457,7 +354,7 @@ export default async function GuidePage({ params }: Props) {
             {/* Related guides */}
             {relatedGuides.length > 0 && (
               <div>
-                <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-3">
                   Guides associés
                 </p>
                 <div className="space-y-3">
@@ -471,28 +368,148 @@ export default async function GuidePage({ params }: Props) {
             {/* All guides link */}
             <Link
               href="/guides"
-              className="flex items-center justify-center gap-2 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] border border-[var(--border)] rounded-xl py-3 transition-colors"
+              className="flex items-center justify-center gap-2 rounded-full bg-white py-3 text-sm font-semibold text-[var(--accent)] shadow-sm transition-colors hover:bg-white/80"
             >
               ← Tous les guides
             </Link>
           </aside>
         </div>
       </div>
+      </section>
+
+      {/* Keep reading — tags, suggestions and prev/next in a sky band, closed by
+          the page's single bold call-to-action. */}
+      <section className="band band-sky">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12">
+        {/* Tags — linked when the tag has a /tags/[slug] aggregate page */}
+        <div className="flex flex-wrap gap-2">
+          {guide.tags.map((tag) => {
+            const tagSlug = slugifyTag(tag);
+            const hasPage = TAG_SLUGS.includes(tagSlug);
+            return hasPage ? (
+              <Link
+                key={tag}
+                href={`/tags/${tagSlug}`}
+                className="text-xs px-3 py-1 rounded-full bg-white font-medium text-[var(--accent)] shadow-sm hover:bg-[var(--accent)] hover:text-white transition-colors"
+              >
+                {tag}
+              </Link>
+            ) : (
+              <span key={tag} className="text-xs px-3 py-1 rounded-full bg-white/70 text-[var(--text-secondary)]">
+                {tag}
+              </span>
+            );
+          })}
+        </div>
+
+        {/* Lire ensuite — auto-suggested by category + city + tag overlap */}
+        {nextGuides.length > 0 && (
+          <div className="mt-10">
+            <h2 className="mb-4 text-xl font-bold tracking-tight gradient-text">
+              Lire ensuite
+            </h2>
+            <div className="grid sm:grid-cols-3 gap-4">
+              {nextGuides.map((g, j) => {
+                const cat = GUIDE_CATEGORIES.find((c) => c.id === g.category);
+                return (
+                  <Link
+                    key={g.slug}
+                    href={`/guides/${g.slug}`}
+                    className="group rounded-2xl bg-white p-4 shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)] transition-shadow hover:shadow-[0_16px_36px_-16px_rgba(79,70,229,0.65)]"
+                  >
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className={cn("flex h-9 w-9 items-center justify-center rounded-xl text-xl", `grad-head-${j % 6}`)}>{g.emoji}</span>
+                      {cat && (
+                        <span className={`text-[10px] font-semibold uppercase tracking-wide ${cat.color}`}>
+                          {cat.label}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors">
+                      {g.title}
+                    </p>
+                    <p className="text-xs text-[var(--text-tertiary)] mt-2">
+                      {g.readMinutes} min
+                    </p>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Prev / next within category */}
+        {(prevGuide || nextSibling) && (
+          <nav aria-label="Navigation guides" className="mt-10 grid sm:grid-cols-2 gap-3">
+            {prevGuide ? (
+              <Link
+                href={`/guides/${prevGuide.slug}`}
+                rel="prev"
+                className="group rounded-2xl bg-white p-4 shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)] transition-shadow hover:shadow-[0_16px_36px_-16px_rgba(79,70,229,0.65)]"
+              >
+                <p className="text-[10px] uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">
+                  ← Guide précédent
+                </p>
+                <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                  {prevGuide.emoji} {prevGuide.title}
+                </p>
+              </Link>
+            ) : (
+              <div />
+            )}
+            {nextSibling && (
+              <Link
+                href={`/guides/${nextSibling.slug}`}
+                rel="next"
+                className="group rounded-2xl bg-white p-4 shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)] transition-shadow hover:shadow-[0_16px_36px_-16px_rgba(79,70,229,0.65)] sm:text-right"
+              >
+                <p className="text-[10px] uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">
+                  Guide suivant →
+                </p>
+                <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                  {nextSibling.emoji} {nextSibling.title}
+                </p>
+              </Link>
+            )}
+          </nav>
+        )}
+
+        {/* CTA after article */}
+        <div className="band-bold mt-10 rounded-2xl p-6 shadow-[0_14px_32px_-16px_rgba(109,63,216,0.8)]">
+          <p className="font-semibold text-[var(--text-primary)] mb-1">
+            Trouvez votre ville en 3 minutes
+          </p>
+          <p className="text-sm text-[var(--text-secondary)] mb-4">
+            Quelques questions sur votre budget, le climat et votre rythme de vie, et une liste de villes classée pour vous.
+          </p>
+          <Link
+            href="/city-match"
+            className="inline-flex items-center gap-2 rounded-full bg-white text-[var(--accent-hover)] font-semibold px-5 py-2.5 text-sm hover:bg-white/90 transition-colors"
+          >
+            ✨ Faire le quiz
+          </Link>
+        </div>
+      </div>
+      </section>
 
       {/* The guides are the site's biggest organic entry surface and had no
           email capture at all — the newsletter block lived only on the two
           homepages, which almost nobody lands on first. */}
-      <div className="mx-auto max-w-3xl px-4 sm:px-6">
+      <section className="band band-aqua">
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-2">
         <NewsletterSection compact />
       </div>
+      </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16">
+      <section className="band band-pink">
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-12">
         <CommentSection
           topic={`guide:${guide.slug}`}
           title="Vos retours sur ce guide"
           emptyHint="Une remarque, une question, un point que vous voulez ajouter ? Lancez la discussion."
         />
       </div>
+      </section>
 
       <Footer />
     </main>
