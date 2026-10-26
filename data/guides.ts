@@ -39475,6 +39475,314 @@ export const GUIDES: Guide[] = [
     tags: ["famille Cherbourg 2026","vivre en famille Cherbourg","loyer T3 Cherbourg","écoles Cherbourg","Cherbourg avec enfants"],
   },
   {
+    slug: "famille-a-bourges-2026",
+    title: "Famille à Bourges en 2026 : un T3 à 760 € dans une ville qui recule de 2 %",
+    metaTitle: "Famille à Bourges 2026 : T3 760 €, Écoles 5,8, Sécurité 5,3",
+    metaDesc: "Famille à Bourges : T3 à 760 €, appartements à 1 570 €/m², maisons à 1 738 €, Écoles 5,8, Sécurité 5,3, mais 2 % d'habitants en moins depuis 2016.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro: "Bourges loue un T3 760 € (notre estimation des loyers) et vend un appartement 1 570 € le m². Pour une famille, les notes sont moyennes : Écoles 5,8 (rang 249) et Sécurité 5,3 (rang 306). La commune compte 64 238 habitants, en a perdu 2 % depuis 2016, et 15,4 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Bourges ?",
+        body: "Le T3 est à 760 €, le T2 à 570 €. L'appartement vaut 1 570 € le m² (947 ventes en 2024-2025) et la maison 1 738 € (988 ventes), 11 % de plus. À ces prix, le quart le moins cher des appartements part sous 1 200 € le m² et le quart le plus cher vers 1 895 € : l'écart reste modeste, l'achat familial se joue sur le choix du quartier plus que sur le budget.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 21 730 € par unité de consommation (Insee, Filosofi 2021), au rang 271 sur 586, avec 20 % de pauvreté. C'est un peu plus qu'à Orléans (21 370 €, où le T3 coûte 170 € de plus) et plus qu'à Châteauroux (20 300 €, T3 à 640 €).",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 5,8 (rang 249, 22 villes à égalité), Sécurité 5,3 (rang 306, 11 à égalité), Nature 5,0 (rang 346, 51 à égalité), Coût 6,7 (rang 135). Aucune note ne ressort : Bourges est une ville à loyer bas, pas une ville à école remarquable. L'école de secteur se vérifie adresse par adresse.",
+      },
+      {
+        heading: "Que faire avec des enfants à Bourges ?",
+        body: "Le palais Jacques-Cœur est gratuit avant 18 ans, mais le Centre des monuments nationaux annonce sa fermeture au public à partir du 4 janvier 2027 jusqu'au début de 2028 : vérifiez avant de planifier. Le jeu de piste des Mystères de Bourges, la patinoire, le centre nautique Raymond-Boisdé et le jardin de l'Archevêché occupent un week-end ; le lac du Val d'Auron convient au pique-nique et aux activités nautiques. Les promenades dans les marais se font à pied, les barques dépendant du niveau d'eau.",
+      },
+      {
+        heading: "Bourges face à Orléans et à Châteauroux",
+        body: "Orléans loue un T3 930 € et affiche 6,6 en Écoles ; Châteauroux, 640 € et 5,3. Bourges (760 € ; 5,8) se place au milieu sur les deux critères. Orléans offre davantage d'établissements, Châteauroux est la moins chère, Bourges l'équilibre entre les deux.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Bourges convient aux familles qui veulent acheter une maison autour de 1 740 € le m², vivre à pied près du centre et accepter une ville qui perd des habitants. Celles qui placent l'école en tête, ou qui cherchent une ville en croissance, regarderont Tours ou Orléans.",
+      },
+    ],
+    relatedCities: ["bourges","orleans","chateauroux","tours"],
+    relatedGuides: [
+      "vivre-a-bourges-2026",
+      "10-choses-a-faire-a-bourges-2026",
+      "parent-solo-a-bourges-2026",
+    ],
+    tags: ["famille Bourges 2026","vivre en famille Bourges","loyer T3 Bourges","écoles Bourges","Bourges avec enfants"],
+  },
+  {
+    slug: "famille-a-la-roche-sur-yon-2026",
+    title: "Famille à La Roche-sur-Yon en 2026 : Écoles 7,7 et Sécurité 8,0 pour un T3 à 800 €",
+    metaTitle: "Famille à La Roche-sur-Yon 2026 : T3 800 €, Écoles 7,7",
+    metaDesc: "Famille à La Roche-sur-Yon : T3 à 800 €, appartements à 2 404 €/m², Écoles 7,7 (rang 38), Sécurité 8,0 (rang 72), 15 % de pauvreté, population +1,8 %.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro: "La Roche-sur-Yon loue un T3 800 € (notre estimation des loyers) et affiche Écoles 7,7 (rang 38 sur 593) et Sécurité 8,0 (rang 72) : c'est une combinaison rare, 52 villes partageant la note d'école et 5 seulement celle de sécurité. La commune compte 54 699 habitants, en a gagné 1,8 % depuis 2016, 14,8 % ont moins de 15 ans, et le taux de pauvreté est de 15 %.",
+    sections: [
+      {
+        heading: "Quel budget logement à La Roche-sur-Yon ?",
+        body: "Le T3 est à 800 €, le T2 à 600 €. L'appartement vaut 2 404 € le m² (713 ventes en 2024-2025) et la maison 2 369 € (882 ventes) : la maison est 1 % moins chère au mètre carré, un cas rare, puisqu'elle inclut le terrain. Pour une famille, la maison reste donc dans le même budget que l'appartement au m².",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 22 310 € par unité de consommation (Insee, Filosofi 2021), au rang 225 sur 586, avec 15 % de pauvreté. C'est comparable à La Rochelle (22 200 €) pour un loyer inférieur de 300 € (1 100 € contre 800 €).",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 7,7 (rang 38, 52 villes à égalité), Sécurité 8,0 (rang 72, 5 à égalité), Transports 7,0 (rang 131), Nature 6,4 (rang 173). Le couple écoles-sécurité est le point fort. Ces notes sont communales : elles ne dispensent pas de vérifier l'école de secteur.",
+      },
+      {
+        heading: "Que faire avec des enfants à La Roche-sur-Yon ?",
+        body: "Le Haras de la Vendée occupe 4,5 ha de parc en plein centre ; le parc paysager est en accès libre hors périodes d'ouverture au public, et le site propose des ateliers et des contes équestres pour les enfants selon la saison. La Vallée Verte et la vallée de l'Yon offrent des balades en ville ; le musée du Chocolat est une sortie de mauvais temps. Le Puy du Fou est accessible depuis La Roche-sur-Yon, mais il ne se trouve pas dans la commune.",
+      },
+      {
+        heading: "La Roche-sur-Yon face à Nantes et à La Rochelle",
+        body: "Nantes loue un T3 1 150 € avec 7,9 en Écoles mais 4,6 en Sécurité ; La Rochelle, 1 100 € avec 7,4 et 6,5. La Roche-sur-Yon (800 € ; 7,7 ; 8,0) est moins chère de 300 à 350 € par mois et mieux notée en sécurité que les deux.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "La Roche-sur-Yon convient aux familles qui veulent une bonne école, un quartier tranquille et un loyer sous 850 €, sans la mer à la porte. Celles qui cherchent l'animation d'une métropole ou la plage au quotidien iront vers Nantes ou La Rochelle.",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon","nantes","la-rochelle","niort"],
+    relatedGuides: [
+      "10-choses-a-faire-a-la-roche-sur-yon-2026",
+      "parent-solo-a-la-roche-sur-yon-2026",
+    ],
+    tags: ["famille La Roche-sur-Yon 2026","vivre en famille La Roche-sur-Yon","loyer T3 La Roche-sur-Yon","écoles La Roche-sur-Yon","La Roche-sur-Yon avec enfants"],
+  },
+  {
+    slug: "famille-a-niort-2026",
+    title: "Famille à Niort en 2026 : un T3 à 860 €, 16 % de pauvreté et une ville qui regagne des habitants",
+    metaTitle: "Famille à Niort 2026 : T3 860 €, Écoles 6,6, pauvreté 16 %",
+    metaDesc: "Famille à Niort : T3 à 860 €, appartements à 2 000 €/m², maisons à 2 021 €, Écoles 6,6, Sécurité 5,9, niveau de vie 23 120 €, population en hausse de 1,8 %.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro: "Niort loue un T3 860 € (notre estimation des loyers) et vend un appartement 2 000 € le m², pour un niveau de vie médian de 23 120 € (rang 186 sur 586) et 16 % de pauvreté. La commune compte 60 074 habitants, en a gagné 1,8 % depuis 2016, et 15 % ont moins de 15 ans. Les notes de famille sont correctes : Écoles 6,6 (rang 105), Sécurité 5,9 (rang 230).",
+    sections: [
+      {
+        heading: "Quel budget logement à Niort ?",
+        body: "Le T3 est à 860 €, le T2 à 640 €. L'appartement vaut 2 000 € le m² (689 ventes en 2024-2025) et la maison 2 021 € (1 322 ventes), 1 % de plus. Les maisons se vendent presque deux fois plus que les appartements : le marché est celui d'une ville de maisons, ce qui compte pour une famille qui veut un jardin.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 23 120 € par unité de consommation (Insee, Filosofi 2021), au rang 186 sur 586, avec 16 % de pauvreté. C'est plus que Poitiers (20 150 €) et plus que Dijon (22 720 €) pour un loyer comparable ou inférieur.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 6,6 (rang 105, 110 villes à égalité), Sécurité 5,9 (rang 230, 8 à égalité), Nature 5,3 (rang 341), Coût 6,4 (rang 175). L'égalité de 110 villes sur l'école dit que 6,6 est une note très répandue : elle ne distingue pas Niort. La Nature est son maillon faible, mais le Marais poitevin est tout proche.",
+      },
+      {
+        heading: "Que faire avec des enfants à Niort ?",
+        body: "Le musée Bernard-d'Agesci propose un parcours ludique pensé à hauteur d'enfants, et le Donjon, avec sa terrasse sur la ville et son exposition sur mille ans d'histoire, se visite en famille. Les programmes de médiation changent d'une saison à l'autre : consultez-les avant de venir. Le Marais poitevin est accessible depuis Niort ; la Maison du Poitevin est à Coulon, pas à Niort.",
+      },
+      {
+        heading: "Niort face à Poitiers et à La Rochelle",
+        body: "Poitiers loue un T3 880 € avec 7,4 en Écoles ; La Rochelle, 1 100 € avec 7,4 également. Niort (860 € ; 6,6) a une note d'école plus basse de 0,8 point, mais un niveau de vie supérieur à celui de Poitiers et un loyer inférieur de 240 € à celui de La Rochelle.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Niort convient aux familles qui veulent une ville moyenne en légère croissance, des maisons à 2 000 € le m² et un revenu local solide. Celles qui placent l'école à 7,5 ou plus, ou veulent la mer, regarderont Poitiers ou La Rochelle.",
+      },
+    ],
+    relatedCities: ["niort","poitiers","la-rochelle","la-roche-sur-yon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-niort-2026",
+      "parent-solo-a-niort-2026",
+    ],
+    tags: ["famille Niort 2026","vivre en famille Niort","loyer T3 Niort","écoles Niort","Niort avec enfants"],
+  },
+  {
+    slug: "famille-a-chartres-2026",
+    title: "Famille à Chartres en 2026 : niveau de vie de 22 770 €, T3 à 890 €, mais 2 % d'habitants en moins",
+    metaTitle: "Famille à Chartres 2026 : T3 890 €, Écoles 6,6, Sécurité 5,5",
+    metaDesc: "Famille à Chartres : T3 à 890 €, appartements à 2 438 €/m², Écoles 6,6, Sécurité 5,5, niveau de vie 22 770 €, 16 % de pauvreté, population en recul de 2 %.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro: "Chartres loue un T3 890 € (notre estimation des loyers) et vend un appartement 2 438 € le m², pour un niveau de vie médian de 22 770 € (rang 199 sur 586) et 16 % de pauvreté. Écoles 6,6 (rang 105) et Sécurité 5,5 (rang 275) : des notes moyennes. La commune compte 37 990 habitants, en a perdu 2 % depuis 2016, et 15,3 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Chartres ?",
+        body: "Le T3 est à 890 €, le T2 à 680 €. L'appartement vaut 2 438 € le m² (821 ventes en 2024-2025) et la maison 2 500 € (359 ventes), 3 % de plus. Les appartements se vendent plus de deux fois plus que les maisons : le marché est celui d'un centre dense.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 22 770 € par unité de consommation (Insee, Filosofi 2021), au rang 199 sur 586, avec 16 % de pauvreté. Dreux, dans le même département, est à 18 250 € pour un T3 à 930 € : Chartres est à la fois plus aisée et moins chère à la location.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 6,6 (rang 105, 110 villes à égalité), Sécurité 5,5 (rang 275, 25 à égalité), Transports 6,4 (rang 200), Nature 5,0 (rang 346, 51 à égalité). Le point fort relatif est l'accès (Transports 6,4) ; le point faible, la nature, dans une ville de Beauce entourée de plaine.",
+      },
+      {
+        heading: "Que faire avec des enfants à Chartres ?",
+        body: "Les enfants peuvent monter dans les tours de la cathédrale, avec une vue sur toute la Beauce, et descendre à la crypte. Le COMPA, conservatoire de l'agriculture, montre les machines agricoles de 1860 à 1960. La Maison Picassiette, couverte de mosaïques de vaisselle brisée, est à quelques minutes de la ville. Le parc des bords de l'Eure propose en saison minigolf, pédalos et guinguette ; le parcours Chartres en lumières change de calendrier chaque année.",
+      },
+      {
+        heading: "Chartres face à Dreux et au Mans",
+        body: "Dreux loue un T3 930 € avec 6,6 en Écoles et 5,7 en Sécurité ; Le Mans, 870 € avec 6,2 et 5,3. Chartres (890 € ; 6,6 ; 5,5) a les mêmes notes que Dreux à un loyer légèrement inférieur et un niveau de vie de 4 500 € supérieur.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Chartres convient aux familles qui veulent une ville patrimoniale à taille humaine, un revenu local correct et une liaison avec Paris, et qui acceptent un recul démographique. Celles qui visent une école très bien notée ou une ville qui grandit iront ailleurs.",
+      },
+    ],
+    relatedCities: ["chartres","dreux","le-mans","orleans"],
+    relatedGuides: [
+      "acheter-a-chartres-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-chartres-2026",
+      "parent-solo-a-chartres-2026",
+    ],
+    tags: ["famille Chartres 2026","vivre en famille Chartres","loyer T3 Chartres","écoles Chartres","Chartres avec enfants"],
+  },
+  {
+    slug: "famille-a-blois-2026",
+    title: "Famille à Blois en 2026 : jeune et en croissance, mais 27 % de pauvreté",
+    metaTitle: "Famille à Blois 2026 : T3 à 820 €, 18,5 % de moins de 15 ans",
+    metaDesc: "Famille à Blois : T3 à 820 €, appartements à 1 814 €/m², Écoles 6,2, Sécurité 5,3, 18,5 % de moins de 15 ans, 27 % de pauvreté, population en hausse de 3,1 %.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro: "Blois est la plus jeune des villes de ce lot : 18,5 % des 47 092 habitants ont moins de 15 ans, et la commune en a gagné 3,1 % depuis 2016. Le T3 y est à 820 € (notre estimation des loyers) et l'appartement à 1 814 € le m², mais le niveau de vie médian n'est que de 19 360 € (rang 469 sur 586) et la pauvreté atteint 27 %. Écoles 6,2 (rang 219), Sécurité 5,3 (rang 306).",
+    sections: [
+      {
+        heading: "Quel budget logement à Blois ?",
+        body: "Le T3 est à 820 €, le T2 à 610 €. L'appartement vaut 1 814 € le m² (783 ventes en 2024-2025) et la maison 1 920 € (417 ventes), 6 % de plus. Le quart des appartements le moins cher part sous 1 376 € le m², le quart le plus cher au-dessus de 2 183 € : l'écart entre quartiers est le vrai sujet.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 19 360 € par unité de consommation (Insee, Filosofi 2021), au rang 469 sur 586, avec 27 % de pauvreté. Tours est à 21 250 € et Orléans à 21 370 € : le loyer est inférieur (940 € et 930 €), mais l'écart de revenus est de près de 2 000 €. La part élevée d'enfants et le taux de pauvreté vont ensemble.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 6,2 (rang 219, 28 villes à égalité), Sécurité 5,3 (rang 306, 11 à égalité), Nature 5,6 (rang 320), Coût 6,4 (rang 175). Des notes moyennes : Blois n'est ni la ville des écoles ni celle de la tranquillité, c'est celle d'un loyer contenu au bord de la Loire.",
+      },
+      {
+        heading: "Que faire avec des enfants à Blois ?",
+        body: "La Maison de la Magie fait face au château royal : sa façade s'anime toutes les demi-heures, avec une hydre mécanique, et le lieu propose initiations et spectacles. Le château de Blois est en centre-ville, à pied depuis la gare. Chambord, à une quinzaine de kilomètres, est accessible depuis Blois mais ne se trouve pas dans la commune ; des navettes y partent de la gare.",
+      },
+      {
+        heading: "Blois face à Tours et à Orléans",
+        body: "Tours loue un T3 940 € avec 7,9 en Écoles, Orléans 930 € avec 6,6. Blois (820 ; 6,2) est moins chère de 110 à 120 € que les deux.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Blois convient aux familles qui veulent un loyer plus bas que Tours, une ville vivante pour les enfants et le patrimoine de la Loire à portée de main, en connaissant le revenu local. Celles qui attendent une école très bien notée regarderont Tours.",
+      },
+    ],
+    relatedCities: ["blois","tours","orleans","chartres"],
+    relatedGuides: [
+      "10-choses-a-faire-a-blois-2026",
+    ],
+    tags: ["famille Blois 2026","vivre en famille Blois","loyer T3 Blois","écoles Blois","Blois avec enfants"],
+  },
+  {
+    slug: "famille-a-auxerre-2026",
+    title: "Famille à Auxerre en 2026 : un T3 à 660 €, l'un des plus bas du lot, et Écoles 6,6",
+    metaTitle: "Famille à Auxerre 2026 : T3 à 660 €, Écoles 6,6, Coût 7,2",
+    metaDesc: "Famille à Auxerre : T3 à 660 €, appartements à 1 568 €/m², maisons à 1 831 €, Écoles 6,6, Sécurité 5,7, 22 % de pauvreté, population en hausse de 1,1 %.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro: "Auxerre loue un T3 660 € (notre estimation des loyers) et vend un appartement 1 568 € le m², le loyer le plus bas des sept villes de ce lot. Écoles 6,6 (rang 105), Sécurité 5,7 (rang 241) et Coût 7,2 (rang 110). La commune compte 35 236 habitants, en a gagné 1,1 % depuis 2016, et 15,8 % ont moins de 15 ans, pour 22 % de pauvreté.",
+    sections: [
+      {
+        heading: "Quel budget logement à Auxerre ?",
+        body: "Le T3 est à 660 €, le T2 à 490 €. L'appartement vaut 1 568 € le m² (604 ventes en 2024-2025) et la maison 1 831 € (398 ventes), 17 % de plus : l'écart le plus fort du lot, parce que la maison inclut un terrain en zone plus aérée. Un appartement familial se négocie sous 1 600 € le m².",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 20 340 € par unité de consommation (Insee, Filosofi 2021), au rang 395 sur 586, avec 22 % de pauvreté. Troyes est à 18 260 € pour un T3 à 860 € ; Dijon à 22 720 € pour 950 €. Auxerre se loge 200 € sous Troyes avec un revenu supérieur.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 6,6 (rang 105, 110 villes à égalité), Sécurité 5,7 (rang 241, 31 à égalité), Nature 5,7 (rang 262), Transports 5,5 (rang 332). Des notes moyennes ; l'argument d'Auxerre est le prix, pas un critère isolé.",
+      },
+      {
+        heading: "Que faire avec des enfants à Auxerre ?",
+        body: "Le parc de l'Arbre-Sec, aménagé sur un ancien marais, longe l'Yonne et se prête au vélo. L'abbaye Saint-Germain abrite un musée d'archéologie dont l'entrée est gratuite, la crypte étant payante. Guédelon, chantier d'un château du XIIIe siècle bâti avec des techniques médiévales, est à Treigny, à environ 45 minutes en voiture : accessible depuis Auxerre, ouvert d'avril à début novembre, à vérifier avant le départ.",
+      },
+      {
+        heading: "Auxerre face à Troyes et à Dijon",
+        body: "Troyes loue un T3 860 € avec 6,4 en Écoles ; Dijon, 950 € avec 7,4. Auxerre (660 € ; 6,6) a une meilleure note d'école que Troyes pour 200 € de moins. Dijon l'emporte à l'école de 0,8 point pour 290 € de plus.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Auxerre convient aux familles qui veulent acheter ou louer très bas, avec une ville en légère hausse et un patrimoine à portée de pied. Celles qui visent une école très bien notée ou un revenu local élevé regarderont Dijon.",
+      },
+    ],
+    relatedCities: ["auxerre","troyes","dijon","nevers"],
+    relatedGuides: [
+      "10-choses-a-faire-a-auxerre-2026",
+      "parent-solo-a-auxerre-2026",
+    ],
+    tags: ["famille Auxerre 2026","vivre en famille Auxerre","loyer T3 Auxerre","écoles Auxerre","Auxerre avec enfants"],
+  },
+  {
+    slug: "famille-a-saint-brieuc-2026",
+    title: "Famille à Saint-Brieuc en 2026 : la baie et un T3 à 780 €, mais des transports faibles",
+    metaTitle: "Famille à Saint-Brieuc 2026 : T3 780 €, Écoles 6,2, Nature 6,4",
+    metaDesc: "Famille à Saint-Brieuc : T3 à 780 €, appartements à 1 760 €/m², maisons à 1 988 €, Écoles 6,2, Nature 6,4, Transports 4,9, 15,7 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    intro: "Saint-Brieuc loue un T3 780 € (notre estimation des loyers) et vend un appartement 1 760 € le m², avec la baie à sa porte : Nature 6,4 (rang 173). Les points faibles sont les transports (4,9, rang 369) et un niveau de vie de 20 910 € (rang 353). La commune compte 44 607 habitants, en a perdu 0,9 % depuis 2016, et 15,7 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Saint-Brieuc ?",
+        body: "Le T3 est à 780 €, le T2 à 580 €. L'appartement vaut 1 760 € le m² (1 070 ventes en 2024-2025) et la maison 1 988 € (643 ventes), 13 % de plus. Les appartements se vendent davantage que les maisons.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 20 910 € par unité de consommation (Insee, Filosofi 2021), au rang 353 sur 586, avec 21 % de pauvreté. Lorient est à 20 860 € pour un T3 à 900 € ; Vannes à 24 070 € pour 1 150 €. Saint-Brieuc est 120 € sous Lorient pour un niveau de vie identique.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 6,2 (rang 219, 28 villes à égalité), Sécurité 5,7 (rang 241, 31 à égalité), Nature 6,4 (rang 173, 61 à égalité), Transports 4,9 (rang 369, 58 à égalité). Sans voiture, la vie quotidienne est plus contrainte qu'ailleurs ; avec une voiture, la côte est à quelques minutes.",
+      },
+      {
+        heading: "Que faire avec des enfants à Saint-Brieuc ?",
+        body: "La baie abrite une réserve naturelle nationale créée en 1998, avec une Maison de la Baie à Hillion qui explique les oiseaux migrateurs et les marées. La plage des Rosaires, à Plérin, est une plage de sable fin accessible depuis Saint-Brieuc. Le port du Légué, sur l'estuaire du Gouët, se parcourt à pied ; la grève du Valais n'est pas surveillée et en partie protégée. Les marées sont fortes : consultez l'horaire avant de descendre sur l'estran.",
+      },
+      {
+        heading: "Saint-Brieuc face à Lorient et à Vannes",
+        body: "Lorient loue un T3 900 € avec 6,6 en Écoles ; Vannes, 1 150 € avec 7,4 en Écoles et 6,9 en Sécurité. Saint-Brieuc (780 € ; 6,2) est la moins chère des trois, 120 à 370 € sous les deux, et la moins bien notée sur l'école.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Saint-Brieuc convient aux familles bretonnes qui veulent la mer, un loyer sous 800 € et une voiture. Celles qui comptent sur les transports ou sur une école très bien notée iront vers Rennes ou Vannes.",
+      },
+    ],
+    relatedCities: ["saint-brieuc","lorient","vannes","quimper"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-brieuc-2026",
+    ],
+    tags: ["famille Saint-Brieuc 2026","vivre en famille Saint-Brieuc","loyer T3 Saint-Brieuc","écoles Saint-Brieuc","Saint-Brieuc avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
