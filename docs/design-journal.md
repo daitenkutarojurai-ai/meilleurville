@@ -956,3 +956,31 @@ EN non capturé (mêmes composants, prop `locale`). `npm run build` non lancé.
    encore des pastilles grises à filet, et les cartes « Villes au climat comparable » sont ternes.
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Cartes internes de la fiche ville (`Card` « card-sheen »).
+
+## 2026-10-27 ~16:10 UTC — sous-page climat `/villes/[slug]/climat` (FR) + EN `/cities/[slug]/climate`
+
+**Surface** : le gabarit climat. Avant : onze `<section>` à `pb-8` seul en rotation automatique (bandes collées
+au contenu), cartes `glass` à filet, « Idéal / À éviter » en émeraude / orange, red flags en rouge / orange,
+écarts à la moyenne en vert / orange (couleurs réservées aux paliers), villes comparables et renvois en pastilles
+grises à filet. EN : cartes à filet sur fond de page, hero blanc.
+
+**Changé**
+- Hero `.bg-aurora` (FR et EN).
+- FR en 4 bandes explicites : repères + diagramme + Idéal/À éviter en `band-indigo` ; red flags + rang soleil en
+  `band-sky` ; villes comparables en `band-pink` (h2 `.gradient-text`, cartes blanches à ombre rose) ; renvois +
+  DiscussionCTA en `band-white`.
+- Cartes blanches à ombre indigo ; Idéal / À éviter à liseré haut indigo / rose ; red flags à tuile d'icône
+  `grad-head-1` / `grad-head-2` ; écarts « vs moyenne FR » en indigo / rose ; renvois en pilules lavande.
+- EN : stats + diagramme en `band-indigo`, « What it feels like » en `band-sky` (h2 dégradé, bouton `grad-head-0`,
+  renvois en pilules), FeedbackWidget en `band-white`. La note nature garde sa couleur de palier. Copie, données,
+  JSON-LD, liens : inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers :
+1 erreur `no-unescaped-entities` préexistante côté EN, 0 ajoutée. Captures `next dev` + playwright
+`/villes/nice/climat` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (route `[locale]` en dev).
+`npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Autres sous-pages ville au même schéma `glass` + sections `pb-8` (`quartiers`, `transports`, `ecoles`).
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Cartes internes de la fiche ville (`Card` « card-sheen »).

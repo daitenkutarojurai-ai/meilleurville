@@ -85,7 +85,8 @@ export default async function EnCityClimate({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
+      <section className="relative overflow-hidden bg-aurora pt-16 pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -108,48 +109,55 @@ export default async function EnCityClimate({ params }: Props) {
         {photo && (
           <CityPhotoBand photo={photo} cityName={c.name} locale="en" className="mt-6" />
         )}
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-3 gap-3">
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-4">
+        <div className="grid sm:grid-cols-3 gap-3">
+        <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-4">
           <p className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">Annual sunshine</p>
           <p className="font-mono-data text-2xl font-bold text-[var(--text-primary)]">{sunDays} days</p>
           {c.sunshinedays && <p className="text-xs text-[var(--text-tertiary)] mt-1">≈ {c.sunshinedays} hours</p>}
         </div>
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
+        <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-4">
           <p className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">July avg</p>
           <p className="font-mono-data text-2xl font-bold text-[var(--text-primary)]">{c.avgTempJuly ? `${c.avgTempJuly} °C` : "—"}</p>
         </div>
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
+        <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-4">
           <p className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">January avg</p>
           <p className="font-mono-data text-2xl font-bold text-[var(--text-primary)]">{c.avgTempJanuary ? `${c.avgTempJanuary} °C` : "—"}</p>
         </div>
-      </section>
+        </div>
 
-      {monthlyNormals && (
-        <section className="mx-auto max-w-3xl px-4 sm:px-6 py-4">
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+        {monthlyNormals && (
+          <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-5">
             <ClimateChart months={monthlyNormals} source={CLIMATE_SOURCE} stationDist={stationDist} locale="en" />
           </div>
-        </section>
-      )}
+        )}
+        </div>
+      </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">What it feels like</h2>
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-2xl font-bold mb-3"><span className="gradient-text">What it feels like</span></h2>
         <p className="text-[var(--text-secondary)] leading-relaxed">
           {c.name}'s nature axis scores{" "}
           <span className={`font-mono-data font-bold ${scoreColor(c.scores.nature)}`}>{c.scores.nature.toFixed(1)}/10</span>{" "}
           — this captures green-space access, air quality (ATMO), and the overall outdoor setting, not just temperatures.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {c.name}</Link>
-          <Link href="/rankings/climat" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">Comfort climate ranking</Link>
-          <Link href="/rankings/soleil" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">Sunniest cities</Link>
+          <Link href={`/cities/${slug}`} className="grad-head-0 rounded-full px-5 py-2.5 font-semibold shadow-[0_10px_22px_-12px_rgba(79,70,229,0.7)] transition-opacity hover:opacity-90">Back to {c.name}</Link>
+          <Link href="/rankings/climat" className="rounded-full bg-[var(--band-indigo)] px-5 py-2.5 font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]">Comfort climate ranking</Link>
+          <Link href="/rankings/soleil" className="rounded-full bg-[var(--band-indigo)] px-5 py-2.5 font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]">Sunniest cities</Link>
+        </div>
         </div>
       </section>
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-        <FeedbackWidget />
-      </div>
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
       <Footer />
     </main>
   );

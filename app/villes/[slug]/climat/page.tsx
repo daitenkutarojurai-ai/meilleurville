@@ -161,7 +161,7 @@ function Diff({ value, baseline, suffix }: { value: number | null; baseline: num
   if (Math.abs(d) < 0.5) return <span className="text-[var(--text-tertiary)]">≈ moyenne</span>;
   const positive = d > 0;
   return (
-    <span className={positive ? "text-green-500" : "text-orange-500"}>
+    <span className={positive ? "font-semibold text-[#4338CA]" : "font-semibold text-[#BE185D]"}>
       {positive ? "+" : ""}{d}{suffix} vs moyenne FR
     </span>
   );
@@ -222,7 +222,7 @@ export default async function ClimatPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
 
-      <section className="relative pt-20 pb-8">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/villes" className="hover:text-[var(--text-secondary)]">Villes</Link>
@@ -248,11 +248,11 @@ export default async function ClimatPage({ params }: Props) {
         )}
       </section>
 
-      {/* Stat strip */}
-      <section className="relative pb-8">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+      {/* Repères + courbe mensuelle — bande indigo */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-4">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-4">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">☀️ Ensoleillement</div>
               <div className="text-2xl font-black font-mono-data text-[var(--text-primary)]">
                 {sunshineDays(city.sunshinedays) ?? "—"}
@@ -260,7 +260,7 @@ export default async function ClimatPage({ params }: Props) {
               </div>
               <div className="text-[11px] mt-1"><Diff value={sunshineDays(city.sunshinedays)} baseline={sunshineDays(NATIONAL_AVG.sun) ?? 0} suffix=" j" /></div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-4">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">🌡️ Été (juillet)</div>
               <div className="text-2xl font-black font-mono-data text-[var(--text-primary)]">
                 {city.avgTempJuly ?? "—"}
@@ -268,7 +268,7 @@ export default async function ClimatPage({ params }: Props) {
               </div>
               <div className="text-[11px] mt-1"><Diff value={city.avgTempJuly} baseline={NATIONAL_AVG.tj} suffix=" °C" /></div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-4">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">❄️ Hiver (janvier)</div>
               <div className="text-2xl font-black font-mono-data text-[var(--text-primary)]">
                 {city.avgTempJanuary ?? "—"}
@@ -276,7 +276,7 @@ export default async function ClimatPage({ params }: Props) {
               </div>
               <div className="text-[11px] mt-1"><Diff value={city.avgTempJanuary} baseline={NATIONAL_AVG.ta} suffix=" °C" /></div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-4">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">⛰️ Altitude</div>
               <div className="text-2xl font-black font-mono-data text-[var(--text-primary)]">
                 {city.elevation ?? "—"}
@@ -287,93 +287,82 @@ export default async function ClimatPage({ params }: Props) {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Monthly climate chart */}
-      {monthlyNormals && (
-        <section className="relative pb-8">
-          <div className="mx-auto max-w-5xl px-4 sm:px-6">
-            <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
+          {monthlyNormals && (
+            <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-5">
               <ClimateChart months={monthlyNormals} source={CLIMATE_SOURCE} stationDist={stationDist} locale="fr" />
             </div>
-          </div>
-        </section>
-      )}
-
-      {/* When to go */}
-      <section className="relative pb-8">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="rounded-2xl glass border border-emerald-200/60 bg-emerald-50/40 p-5 shadow-sm">
-            <div className="text-xs uppercase tracking-widest text-emerald-700 font-semibold mb-2">✅ Idéal</div>
-            <div className="text-base font-semibold text-[var(--text-primary)] leading-snug">{best}</div>
-          </div>
-          <div className="rounded-2xl glass border border-orange-200/60 bg-orange-50/40 p-5 shadow-sm">
-            <div className="text-xs uppercase tracking-widest text-orange-700 font-semibold mb-2">⚠️ À éviter</div>
-            <div className="text-base font-semibold text-[var(--text-primary)] leading-snug">{avoid}</div>
+          )}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-5 border-t-4 border-[#4F46E5]">
+              <div className="text-xs uppercase tracking-widest text-[#4338CA] font-semibold mb-2">✅ Idéal</div>
+              <div className="text-base font-semibold text-[var(--text-primary)] leading-snug">{best}</div>
+            </div>
+            <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-5 border-t-4 border-[#DB2777]">
+              <div className="text-xs uppercase tracking-widest text-[#BE185D] font-semibold mb-2">⚠️ À éviter</div>
+              <div className="text-base font-semibold text-[var(--text-primary)] leading-snug">{avoid}</div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Summer heat red-flag — pendant symétrique du chauffage hivernal :
-          climat méditerranéen ou avgTempJuly ≥ 26 → la ville entre dans le
-          couloir des étés difficiles à vivre. Renvoie vers le classement
-          des villes belles mais invivables l'été (canicule ≤ 5/10). */}
-      {(climate.id === "mediterranean" ||
-        (city.avgTempJuly != null && city.avgTempJuly >= 26)) && (
-        <section className="relative pb-8">
-          <div className="mx-auto max-w-5xl px-4 sm:px-6">
-            <Link
-              href="/red-flags/villes-belles-invivables-ete"
-              className="block rounded-2xl border border-red-200/60 bg-red-50/40 p-5 hover:border-red-300 hover:bg-red-50/60 transition-colors"
-            >
-              <div className="flex items-start gap-3">
-                <span className="text-2xl flex-shrink-0" aria-hidden>🥵</span>
-                <div>
-                  <div className="text-xs uppercase tracking-widest text-red-700 font-semibold mb-1">
-                    Red flag associé
+      {/* Saisonnalité, red flags et rang soleil — bande ciel */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-4">
+          {/* Summer heat red-flag — pendant symétrique du chauffage hivernal :
+              climat méditerranéen ou avgTempJuly ≥ 26 → la ville entre dans le
+              couloir des étés difficiles à vivre. Renvoie vers le classement
+              des villes belles mais invivables l'été (canicule ≤ 5/10). */}
+          {(climate.id === "mediterranean" ||
+            (city.avgTempJuly != null && city.avgTempJuly >= 26)) && (
+            <div>
+              <Link
+                href="/red-flags/villes-belles-invivables-ete"
+                className="block rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-5 transition-transform hover:-translate-y-0.5"
+              >
+                <div className="flex items-start gap-3">
+                  <span className="grad-head-1 flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl text-2xl" aria-hidden>🥵</span>
+                  <div>
+                    <div className="text-xs uppercase tracking-widest text-[#BE185D] font-semibold mb-1">
+                      Red flag associé
+                    </div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Villes belles… mais invivables l&apos;été
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1 leading-relaxed">
+                      Avec {city.avgTempJuly ?? "un"} °C de moyenne en juillet{climate.id === "mediterranean" ? " et un régime méditerranéen" : ""},
+                      {" "}{city.name} entre dans la zone où l&apos;été bascule vite du charme
+                      (photos de mai) au calvaire (canicule, climatisation absente en
+                      location, tourisme saturé) — voir le classement des villes
+                      séduisantes en moyenne annuelle mais étouffantes en juillet-août.
+                    </p>
                   </div>
-                  <p className="font-semibold text-[var(--text-primary)]">
-                    Villes belles… mais invivables l&apos;été
-                  </p>
-                  <p className="text-xs text-[var(--text-secondary)] mt-1 leading-relaxed">
-                    Avec {city.avgTempJuly ?? "un"} °C de moyenne en juillet{climate.id === "mediterranean" ? " et un régime méditerranéen" : ""},
-                    {" "}{city.name} entre dans la zone où l&apos;été bascule vite du charme
-                    (photos de mai) au calvaire (canicule, climatisation absente en
-                    location, tourisme saturé) — voir le classement des villes
-                    séduisantes en moyenne annuelle mais étouffantes en juillet-août.
-                  </p>
                 </div>
-              </div>
-            </Link>
-            <p className="mt-3 text-sm text-[var(--text-secondary)]">
-              Si la chaleur est ce qui vous fait hésiter, la page{" "}
-              <Link href="/pour-qui/anti-canicule" className="text-[var(--accent)] hover:underline">
-                villes où l&apos;été reste vivable
-              </Link>{" "}
-              classe les communes sur la fraîcheur d&apos;été et l&apos;air respirable.
-            </p>
-          </div>
-        </section>
-      )}
+              </Link>
+              <p className="mt-3 text-sm text-[var(--text-secondary)]">
+                Si la chaleur est ce qui vous fait hésiter, la page{" "}
+                <Link href="/pour-qui/anti-canicule" className="text-[var(--accent)] hover:underline">
+                  villes où l&apos;été reste vivable
+                </Link>{" "}
+                classe les communes sur la fraîcheur d&apos;été et l&apos;air respirable.
+              </p>
+            </div>
+          )}
 
-      {/* Heating cost red-flag — only for cities where winter actually bites:
-          mountain, semi-continental (Grand Est, Bourgogne), or plaine where
-          the January mean falls to 3 °C or below. The link contextualises
-          "climat froid" with the concrete facture ADEME/salaire dept. */}
-      {(climate.id === "mountain" ||
-        climate.id === "semi-continental" ||
-        (city.avgTempJanuary != null && city.avgTempJanuary <= 3)) && (
-        <section className="relative pb-8">
-          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          {/* Heating cost red-flag — only for cities where winter actually bites:
+              mountain, semi-continental (Grand Est, Bourgogne), or plaine where
+              the January mean falls to 3 °C or below. The link contextualises
+              "climat froid" with the concrete facture ADEME/salaire dept. */}
+          {(climate.id === "mountain" ||
+            climate.id === "semi-continental" ||
+            (city.avgTempJanuary != null && city.avgTempJanuary <= 3)) && (
             <Link
               href="/red-flags/villes-chauffage-hivernal-couteux"
-              className="block rounded-2xl border border-orange-200/60 bg-orange-50/40 p-5 hover:border-orange-300 hover:bg-orange-50/60 transition-colors"
+              className="block rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-5 transition-transform hover:-translate-y-0.5"
             >
               <div className="flex items-start gap-3">
-                <span className="text-2xl flex-shrink-0" aria-hidden>🥶</span>
+                <span className="grad-head-2 flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl text-2xl" aria-hidden>🥶</span>
                 <div>
-                  <div className="text-xs uppercase tracking-widest text-orange-700 font-semibold mb-1">
+                  <div className="text-xs uppercase tracking-widest text-[#BE185D] font-semibold mb-1">
                     Red flag associé
                   </div>
                   <p className="font-semibold text-[var(--text-primary)]">
@@ -388,15 +377,10 @@ export default async function ClimatPage({ params }: Props) {
                 </div>
               </div>
             </Link>
-          </div>
-        </section>
-      )}
+          )}
 
-      {/* Sunshine ranking */}
-      {sunRank && (
-        <section className="relative pb-8">
-          <div className="mx-auto max-w-5xl px-4 sm:px-6">
-            <div className="rounded-2xl glass border border-white/50 p-6 shadow-sm">
+          {sunRank && (
+            <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-6">
               <div className="flex items-baseline gap-3 flex-wrap">
                 <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold">Classement ensoleillement</div>
                 <div className="text-2xl font-black font-mono-data text-[var(--text-primary)]">
@@ -411,22 +395,22 @@ export default async function ClimatPage({ params }: Props) {
                  " dans la moyenne nationale."}
               </p>
             </div>
-          </div>
-        </section>
-      )}
+          )}
+        </div>
+      </section>
 
-      {/* Similar cities */}
-      <section className="relative pb-12">
+      {/* Villes au climat comparable — bande rose */}
+      <section className="band band-pink py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
-            Villes au climat comparable
+          <h2 className="text-2xl font-bold mb-4"><span className="gradient-text">
+            Villes au climat comparable</span>
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {similar.map((c) => (
               <Link
                 key={c.slug}
                 href={`/villes/${c.slug}/climat`}
-                className="group rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
+                className="group rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(219,39,119,0.55)] transition-transform hover:-translate-y-0.5 px-4 py-3"
               >
                 <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                   {c.name}
@@ -440,32 +424,31 @@ export default async function ClimatPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Footer nav */}
-      <section className="relative pb-16">
+      {/* Renvois + discussion — bande blanche */}
+      <section className="band band-white py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 flex gap-3 flex-wrap">
           <Link
             href={`/villes/${slug}`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             ← Profil complet de {city.name}
           </Link>
           <Link
             href="/classements/soleil"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             Classement soleil ☀️
           </Link>
           <Link
             href="/villes"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             Toutes les villes
           </Link>
         </div>
-      </section>
-
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        <div className="mx-auto mt-8 max-w-3xl px-4 sm:px-6">
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        </div>
       </section>
 
       <Footer />
