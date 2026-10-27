@@ -68687,6 +68687,96 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["investissement-locatif-moins-100000-euros-france-2026", "rendement-locatif-brut-villes-pas-cheres-piege-2026", "negocier-prix-immobilier-france-guide-2026", "acheter-avec-un-seul-salaire-france-2026"],
     tags: ["appartement moins de 100 000 euros", "acheter pas cher en France", "prix immobilier DVF", "villes pas chères pour acheter", "prix au m²", "premier achat"],
   },
+  {
+    slug: "loyer-studio-t3-ecart-villes-2026",
+    title: "Du studio au trois-pièces : ce que coûte la pièce en plus, ville par ville",
+    metaTitle: "Studio ou T3 : l'écart de loyer dans 413 villes",
+    metaDesc: "Dans 413 villes de 20 000 habitants et plus, passer d'un studio à un T3 coûte 500 € de plus par mois en médiane, de 250 € à 1 600 €.",
+    category: "budget",
+    emoji: "🧮",
+    readMinutes: 6,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Dans les 413 villes de 20 000 habitants et plus pour lesquelles nous publions un loyer, passer d'un studio à un trois-pièces coûte 500 € de plus par mois en médiane : 580 € pour le T1, 1 080 € pour le T3, soit 6 000 € de plus par an. L'écart va de 250 € à Aurillac à 1 600 € à Paris. Pour un couple qui attend un enfant ou une personne qui se met au télétravail, c'est la vraie question du déménagement : non pas combien coûte la ville, mais combien coûte d'y avoir de la place. Ce guide chiffre cet écart, dit où il s'écrase et où il explose, et explique pourquoi le rapport entre les deux loyers varie à peine alors que l'écart en euros varie de un à six.",
+    sections: [
+      {
+        heading: "Comment avons-nous mesuré l'écart studio / T3 ?",
+        body: "Nous avons pris les 413 communes de 20 000 habitants et plus (Insee, recensement 2022) qui disposent d'un loyer de référence dans notre estimation des loyers, et soustrait le loyer mensuel d'un studio de celui d'un trois-pièces. Il s'agit de notre estimation et non d'annonces relevées : elle donne un ordre de grandeur comparable d'une ville à l'autre, pas le prix d'un logement précis que vous visiterez. L'écart est un montant en euros par mois, hors charges. Nous le rapportons aussi sous forme de rapport (loyer du T3 divisé par celui du T1) pour voir si la structure des prix change d'une ville à l'autre."
+      },
+      {
+        heading: "Combien coûte la pièce en plus dans la ville médiane ?",
+        body: "500 € par mois. La ville médiane a un studio à 580 € et un T3 à 1 080 €, et 27 villes affichent exactement 500 € d'écart. Dans 189 villes l'écart dépasse 500 €, dans 117 il est de 400 € ou moins, dont 60 à 350 € ou moins. À 6 000 € par an pour la ville médiane, la question « studio ou T3 » mérite d'être posée avant de choisir la ville, pas après."
+      },
+      {
+        heading: "Pourquoi le rapport varie-t-il si peu ?",
+        body: "Parce que dans nos données, le T3 coûte partout à peu près le double du studio : le rapport médian est de 1,86 et il ne va que de 1,77 (Brest) à 2,33 (Paris). Cette quasi-constance vient en partie de la manière dont une estimation de loyers est construite, et nous ne la présentons pas comme une loi du marché. Ce qui change vraiment d'une ville à l'autre, c'est le niveau du loyer de départ, donc le nombre d'euros que représente ce même facteur deux. À Aurillac, doubler le logement coûte 250 € de plus ; à Paris, 1 600 €."
+      },
+      {
+        heading: "Où l'écart explose-t-il ?",
+        body: "Dans l'ouest parisien et sur la Côte d'Azur. Quatre villes dépassent 1 000 € d'écart : Paris (1 600 €), Neuilly-sur-Seine (1 400 €), Boulogne-Billancourt et Levallois-Perret (1 100 € chacune). Viennent ensuite Vincennes et Issy-les-Moulineaux (950 €), Courbevoie (930 €), Meudon (910 €), Versailles (900 €) et Chaville (890 €). Au total 44 villes dépassent 700 €. Hors Île-de-France, l'écart le plus élevé est celui de Cannes (850 €), devant Menton (750 €), Nice (720 €), Annecy, Antibes et Mandelieu-la-Napoule (700 €). La médiane francilienne est de 610 € pour 153 villes, contre 420 € pour les 260 autres : un Francilien paie sa pièce en plus près d'une fois et demie plus cher que le reste du pays."
+      },
+      {
+        heading: "Où la pièce en plus ne coûte-t-elle presque rien ?",
+        body: "Dans les villes moyennes du Centre, du Nord et du Massif central. Les écarts les plus faibles sont ceux d'Aurillac (250 €), Lens et Millau (270 €), Alençon (280 €), puis Denain, Auch, Châteauroux et Châtellerault (290 €). Parmi les villes de plus de 50 000 habitants, huit restent à 350 € ou moins : Calais et Saint-Quentin (300 €), Roubaix (320 €), Tourcoing et Béziers (340 €), Saint-Étienne, Dunkerque et Bourges (350 €). Un loyer d'entrée bas ne dit rien de la qualité du parc ni du marché de l'emploi : l'écart est un coût, pas un verdict sur la ville."
+      },
+      {
+        heading: "Et dans les grandes villes ?",
+        body: "Parmi les 42 villes de 100 000 habitants et plus de l'échantillon, l'écart va de 350 € à Saint-Étienne à 1 600 € à Paris. Les grandes villes de province sont groupées : Lyon et Nice à 660 € et 720 €, Annecy à 700 €, Rennes, Strasbourg, Lille et Marseille entre 500 € et 510 €, Nantes et Bordeaux à 550 €, Toulouse et Montpellier à 530 €, Brest à 370 €, Limoges à 360 €. Pour un foyer qui s'agrandit, le choix de la ville pèse donc plus que celui du quartier."
+      },
+      {
+        heading: "Que faire de ce chiffre avant de choisir un quartier ?",
+        body: "Trois usages concrets. Le premier est de comparer deux villes sur l'écart plutôt que sur le loyer du studio : une ville qui paraît chère pour un célibataire peut devenir raisonnable pour un couple, si le niveau de départ est plus bas. Le deuxième est de se demander si une chambre supplémentaire vaut son prix en télétravail : nos fiches ville donnent le reste du budget. Le troisième est de vérifier le taux d'effort : un écart de 500 € ne pèse pas pareil à 1 800 € de revenu qu'à 4 000 €, et notre palmarès d'octobre sur le taux d'effort détaille cette lecture ville par ville. Pour sécuriser la location, voir aussi nos guides sur la garantie Visale et sur le loyer réel avec charges."
+      }
+    ],
+    relatedCities: ["paris", "boulogne-billancourt", "nice", "saint-etienne", "calais", "roubaix", "dunkerque", "cannes"],
+    relatedGuides: ["loyer-reel-france-charges-estimees-villes-2026", "garantie-loyers-impayes-gli-visale-france-2026", "acheter-appartement-moins-100000-euros-villes-2026"],
+    tags: ["loyer studio T3", "écart de loyer", "coût d'un logement plus grand", "loyer par ville 2026", "budget logement", "déménager en famille"],
+  },
+  {
+    slug: "se-loger-pas-cher-pres-d-un-chu-villes-2026",
+    title: "Se loger pas cher près d'un CHU : 151 villes à moins de 10 km d'un site hospitalo-universitaire, et leurs loyers",
+    metaTitle: "Loyer près d'un CHU : 151 villes à moins de 10 km",
+    metaDesc: "151 villes de 20 000 habitants et plus sont à moins de 10 km d'un CHU : T2 médian à 900 €, contre 620 € à plus de 30 km. Les moins chères.",
+    category: "budget",
+    emoji: "🏥",
+    readMinutes: 6,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Habiter à moins de 10 km d'un CHU coûte cher : dans les 151 villes de 20 000 habitants et plus qui s'en trouvent là, le loyer médian d'un deux-pièces est de 900 € par mois dans notre estimation, contre 620 € pour les 140 villes situées à plus de 30 km d'un site hospitalo-universitaire, soit 280 € de plus. Pour qui suit une maladie chronique, accompagne un proche ou exerce à l'hôpital, la question est de savoir où la proximité coûte le moins. Ce guide répond : 23 villes proches d'un CHU affichent un T2 à 680 € ou moins, de Mons-en-Barœul (550 €) à Fontaine, et la première grande ville est Saint-Étienne (580 €), qui héberge le CHU lui-même.",
+    sections: [
+      {
+        heading: "Qu'avons-nous mesuré, exactement ?",
+        body: "Nous avons pris les 413 villes de 20 000 habitants et plus (Insee, recensement 2022) qui ont un loyer dans notre estimation des loyers, et calculé pour chacune la distance à vol d'oiseau jusqu'au site de CHU le plus proche, parmi les 37 communes d'implantation que nous suivons en France métropolitaine et outre-mer. Cette distance est un ordre de grandeur, pas un temps de trajet, et un CHU peut avoir plusieurs sites. Le loyer est notre estimation pour un deux-pièces, hors charges : ce n'est pas un relevé d'annonces. Nous ne mesurons ici ni la qualité des soins ni les délais d'attente, mais seulement la distance et le loyer."
+      },
+      {
+        heading: "Quelle prime de loyer la proximité d'un CHU représente-t-elle ?",
+        body: "Les 151 villes à 10 km ou moins d'un site de CHU ont un T2 médian de 900 €. Les 122 villes entre 10 et 30 km sont au même niveau (900 €), et les 140 villes à plus de 30 km tombent à 620 €. La médiane des 413 villes est de 800 €. Le CHU ne fabrique pas ce loyer : les sites hospitalo-universitaires sont dans les grandes agglomérations, où le loyer est plus élevé pour mille autres raisons (emploi, université, transports). La proximité d'un CHU et un loyer élevé vont ensemble, mais l'un ne cause pas l'autre."
+      },
+      {
+        heading: "Où la proximité d'un CHU coûte-t-elle le moins ?",
+        body: "Les 23 villes à 10 km ou moins d'un CHU dont le T2 est à 680 € ou moins sont, par loyer croissant : Mons-en-Barœul (550 €, à 3,8 km du CHU de Lille), Saint-Étienne (580 €), Limoges et Le Tampon (600 €), Vandœuvre-lès-Nancy et Saint-Louis à La Réunion (620 €), Joué-lès-Tours et Hérouville-Saint-Clair (640 €), Brest, Saint-Pierre à La Réunion et Fleury-les-Aubrais (650 €), Poitiers et Le Grand-Quevilly (660 €), Saint-Herblain, Saint-Martin-d'Hères, Échirolles et Sotteville-lès-Rouen (670 €), puis Clermont-Ferrand, Reims, Amiens, Besançon, Rezé, Lingolsheim et Fontaine (680 €). Deux villes à 690 € suivent juste derrière ; la liste s'arrête à 680 € pour ne pas couper ce palier."
+      },
+      {
+        heading: "Quelles grandes villes restent abordables ?",
+        body: "Saint-Étienne est la moins chère des villes de plus de 100 000 habitants à héberger un CHU, avec un T2 à 580 €, devant Limoges (600 €), Brest (650 €), Clermont-Ferrand, Reims, Amiens et Besançon (680 € chacune). Poitiers, qui compte 89 472 habitants, est à 660 €. Ces villes ont un CHU dans leurs murs, donc une distance de zéro kilomètre dans notre mesure : pour un patient, c'est le cas le plus simple. Pour un calcul complet, le loyer du T3 de ces mêmes villes est à lire dans nos fiches ville, de 770 € à Saint-Étienne à 900 € à Reims."
+      },
+      {
+        heading: "Les banlieues de CHU : la bonne affaire ou le piège ?",
+        body: "Beaucoup de communes de la liste sont des banlieues d'une métropole à CHU : Mons-en-Barœul près de Lille, Joué-lès-Tours, Hérouville-Saint-Clair près de Caen, Saint-Martin-d'Hères, Échirolles et Fontaine près de Grenoble, Rezé et Saint-Herblain près de Nantes. Leur loyer est inférieur à celui de la ville-centre, et le CHU est à trois à sept kilomètres à vol d'oiseau. Mais cette distance se parcourt en tramway, en voiture ou en bus selon les cas, et un trajet de quinze kilomètres à vol d'oiseau n'est pas un trajet de quinze minutes. Avant de signer, il vaut mieux faire le trajet réel à l'heure d'un rendez-vous."
+      },
+      {
+        heading: "Et si l'on s'éloigne du CHU ?",
+        body: "Le loyer baisse nettement, mais la distance aussi se paie. Parmi les villes à plus de 30 km d'un site de CHU, les moins chères sont Aurillac (T2 à 420 €, à 108 km), Millau et Denain (450 €), Alençon (460 €) et Chaumont (470 €), puis Vichy (480 €). Trois villes seulement sont à 450 € ou moins. Pour un suivi médical régulier, s'éloigner d'un CHU est un arbitrage à faire avec son médecin : notre indicateur d'accès aux soins estime l'offre de généralistes, de spécialistes, d'urgences et de pharmacies, et sa lecture est détaillée dans chaque fiche santé. Ce n'est pas un relevé de cabinets : à vérifier sur place."
+      },
+      {
+        heading: "Que vérifier avant de choisir ?",
+        body: "Trois points pèsent plus que le loyer. D'abord la spécialité : un CHU n'offre pas toutes les spécialités sur tous ses sites, et le service qui vous suit peut être dans un autre établissement. Ensuite le médecin traitant : s'inscrire dans une commune où l'offre de généralistes est tendue prend du temps, ce que notre glossaire explique à l'entrée consacrée au parcours de soins. Enfin les transports : un abonnement et un trajet régulier ajoutent un coût que le loyer ne dit pas. Notre guide sur les professions de santé et nos fiches ville donnent le reste du contexte."
+      }
+    ],
+    relatedCities: ["saint-etienne", "limoges", "brest", "poitiers", "clermont-ferrand", "reims", "amiens", "besancon"],
+    relatedGuides: ["meilleures-villes-sante-hopital-medecins-france-2025", "loyer-reel-france-charges-estimees-villes-2026"],
+    tags: ["loyer près d'un CHU", "se loger près d'un hôpital", "CHU et loyer", "suivi médical et déménagement", "loyer T2 par ville 2026", "accès aux soins"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

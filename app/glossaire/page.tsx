@@ -1027,6 +1027,28 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Animaux de compagnie, logement et déménagement",
+    emoji: "🐕",
+    terms: [
+      {
+        term: "Clause « animaux interdits » dans un bail",
+        def: "Une clause d'un bail d'habitation qui interdit de détenir un animal est réputée non écrite dès lors qu'elle vise un animal familier : c'est l'article 10 de la loi n° 70-598 du 9 juillet 1970, qui pose deux réserves, l'animal ne doit causer ni dégât à l'immeuble ni trouble de jouissance pour les autres occupants. La clause n'est pas annulée en bloc, elle est sans effet, et un locataire peut s'y opposer. Les chiens dits dangereux sont traités à part : le propriétaire peut en principe refuser un chien de première catégorie, selon les sources consultées. Deux points ne sont pas tranchés ici faute de source concordante : la portée de la règle sur un règlement de copropriété, et son application à une location saisonnière meublée, où des sites immobiliers indiquent que les animaux peuvent être exclus. Le texte de la loi de 1970 et la jurisprudence se vérifient sur Légifrance avant de répondre à un propriétaire.",
+      },
+      {
+        term: "Chien de 1ʳᵉ ou 2ᵉ catégorie et permis de détention",
+        def: "Les chiens dits d'attaque (première catégorie) et de garde et de défense (deuxième catégorie) exigent un permis de détention délivré par le maire de la commune de résidence du propriétaire. Il se constitue, selon les préfectures, avec la preuve d'identification du chien, une vaccination antirabique en cours de validité, une assurance de responsabilité civile, et pour certaines pièces une attestation d'aptitude et une évaluation comportementale. L'acquisition et la cession de chiens de première catégorie sont interdites. Le piège du déménagement est géographique : le permis est lié à la mairie de résidence, donc un changement de commune se traduit par une présentation à la mairie du nouveau domicile. Les pièces exactes et les délais ne sont pas précisés par les sources consultées, certaines fiches préfectorales étant anciennes : la mairie du nouveau domicile renseigne, et la démarche se prépare avant de signer le bail.",
+      },
+      {
+        term: "Identification et fichier I-CAD au déménagement",
+        def: "Un chien ou un chat doit être identifié par puce électronique ou tatouage, et ses données (propriétaire, adresse, téléphone) sont enregistrées dans le fichier national géré par I-CAD. Un changement d'adresse, même temporaire, ou de téléphone ou d'adresse électronique doit être signalé à ce fichier : c'est une démarche séparée de celle de la mairie, et séparée du téléservice de changement d'adresse de service-public.fr, qui ne la transmet pas. Un animal perdu après un déménagement dont l'adresse n'a pas été mise à jour est un animal dont le propriétaire ne peut pas être joint. La mise à jour se fait en ligne ou par le vétérinaire qui a posé la puce ; les procédures détaillées se lisent sur le site d'I-CAD.",
+      },
+      {
+        term: "Assurance habitation et responsabilité civile de l'animal",
+        def: "Le contrat d'assurance habitation d'un particulier comprend le plus souvent une garantie de responsabilité civile « vie privée », qui couvre aussi les dommages causés par un animal domestique, mais ses exclusions et ses plafonds varient d'un contrat à l'autre et sont à lire à la souscription. Pour un chien de première ou de deuxième catégorie, une assurance de responsabilité civile est une pièce obligatoire du permis de détention, et le contrat d'habitation courant ne la fournit pas toujours. À l'arrivée dans une commune, deux contrôles s'enchaînent donc : signaler l'animal à l'assureur du nouveau logement, puis vérifier que l'attestation produite à la mairie est valide à la nouvelle adresse. Aucun tarif n'est donné ici : les primes se comparent sur devis.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -1037,7 +1059,7 @@ export default function GlossairePage() {
     "@type": "DefinedTermSet",
     name: "Glossaire immobilier et relocation",
     description:
-      "Termes clés pour acheter, louer, investir, assurer, déménager, scolariser ses enfants, se faire soigner, se déplacer ou chercher du travail en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat, médecin traitant, ALD, zonage ZIP, Crit'Air, forfait mobilités durables, FPS, zone d'emploi, ARE, clause de mobilité, zone FRR, GIR, APA, ASH, domicile de secours et plus.",
+      "Termes clés pour acheter, louer, investir, assurer, déménager, scolariser ses enfants, se faire soigner, se déplacer ou chercher du travail en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat, médecin traitant, ALD, zonage ZIP, Crit'Air, forfait mobilités durables, FPS, zone d'emploi, ARE, clause de mobilité, zone FRR, GIR, APA, ASH, domicile de secours, permis de détention d'un chien, I-CAD et plus.",
     hasDefinedTerm: SECTIONS.flatMap((s) =>
       s.terms.map((t) => ({
         "@type": "DefinedTerm",
@@ -1073,7 +1095,7 @@ export default function GlossairePage() {
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
             locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants,
             l&apos;accès aux soins, les transports, le marché du travail, les factures d&apos;eau et
-            de déchets et la dépendance du grand âge, les études supérieures, le logement étudiant, l&apos;électricité et le gaz, le vote et le courrier à l&apos;arrivée en France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
+            de déchets et la dépendance du grand âge, les études supérieures, le logement étudiant, l&apos;électricité et le gaz, le vote et le courrier à l&apos;arrivée en France, les animaux de compagnie en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
             connaître avant de signer.
           </p>
         </div>
