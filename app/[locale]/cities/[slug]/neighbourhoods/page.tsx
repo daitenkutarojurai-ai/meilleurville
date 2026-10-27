@@ -8,7 +8,6 @@ import { CityPhotoBand } from "@/components/CityPhoto";
 import { cityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
-import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getNeighborhoods, type Neighborhood } from "@/data/neighborhoods";
@@ -53,12 +52,14 @@ const EN_TYPE_LABELS: Record<Neighborhood["type"], string> = {
 };
 
 const EN_TYPE_COLORS: Record<Neighborhood["type"], string> = {
-  "centre-ville": "text-blue-600 bg-blue-400/10 border-blue-400/20",
-  résidentiel: "text-emerald-700 bg-emerald-500/10 border-emerald-400/20",
-  étudiant: "text-violet-700 bg-violet-400/10 border-violet-400/20",
-  branché: "text-pink-700 bg-pink-400/10 border-pink-400/20",
-  populaire: "text-orange-600 bg-orange-400/10 border-orange-400/20",
-  pavillonnaire: "text-amber-700 bg-amber-400/10 border-amber-400/20",
+  // Indigo / pink / cyan families only: green, lime, amber, orange, red and
+  // violet are reserved for the score tiers (« Couleurs » identity).
+  "centre-ville": "text-[#3730A3] bg-[#E0E7FF]",
+  résidentiel: "text-[#155E75] bg-[#CFFAFE]",
+  étudiant: "text-[#9D174D] bg-[#FCE7F3]",
+  branché: "text-[#86198F] bg-[#FAE8FF]",
+  populaire: "text-[#075985] bg-[#E0F2FE]",
+  pavillonnaire: "text-[#1E40AF] bg-[#DBEAFE]",
 };
 
 const SCORE_AXES: Array<{ key: keyof Neighborhood["scores"]; label: string }> = [
@@ -133,7 +134,7 @@ export default async function EnCityNeighbourhoodsPage({ params }: Props) {
       )}
       <Navbar />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <Badge variant="accent" className="mb-3">
             <Link href={`/cities/${slug}`} className="hover:underline">
@@ -145,19 +146,20 @@ export default async function EnCityNeighbourhoodsPage({ params }: Props) {
           </h1>
           <p className="text-[var(--text-secondary)]">
             {neighborhoods.length > 0
-              ? `${neighborhoods.length} districts scored on safety, transport, nature, cost
-        {photo && (
-          <CityPhotoBand photo={photo} cityName={city.name} locale="en" className="mt-6" />
-        )}
- and nightlife.`
+              ? `${neighborhoods.length} districts scored on safety, transport, nature, cost and nightlife.`
               : "Neighbourhood data is being compiled for this city."}
           </p>
         </div>
+        {photo && (
+          <CityPhotoBand photo={photo} cityName={city.name} locale="en" className="mt-8" />
+        )}
       </section>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10 space-y-6">
+      {/* District cards — indigo band */}
+      <section className="band band-indigo py-10">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-6">
         {neighborhoods.length === 0 ? (
-          <Card>
+          <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-5">
             <div className="text-center py-8">
               <div className="text-4xl mb-3">🏗️</div>
               <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
@@ -168,28 +170,28 @@ export default async function EnCityNeighbourhoodsPage({ params }: Props) {
               </p>
               <Link
                 href={`/cities/${slug}`}
-                className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
+                className="grad-head-0 inline-flex items-center gap-2 rounded-full font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
               >
                 ← Back to {city.name}
               </Link>
             </div>
-          </Card>
+          </div>
         ) : (
           <>
             {neighborhoods.map((n) => (
-              <Card key={n.slug}>
+              <article key={n.slug} className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-5 sm:p-6">
                 <div className="flex flex-col sm:flex-row gap-5">
                   <div className="flex-1">
                     <div className="flex flex-wrap items-center gap-2 mb-3">
                       <h2 className="text-lg font-bold text-[var(--text-primary)]">{n.name}</h2>
-                      <span className={`text-xs font-medium border rounded-full px-2.5 py-0.5 ${EN_TYPE_COLORS[n.type] ?? "text-[var(--text-secondary)] bg-[var(--bg-elevated)] border-[var(--border)]"}`}>
+                      <span className={`text-xs font-semibold rounded-full px-2.5 py-0.5 ${EN_TYPE_COLORS[n.type] ?? "text-[#3730A3] bg-[#E0E7FF]"}`}>
                         {EN_TYPE_LABELS[n.type] ?? n.type}
                       </span>
                       <a
                         href={mapsPlaceUrl(n.name, city.name)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="ml-auto inline-flex min-h-8 items-center gap-1 rounded-full border border-[var(--accent)]/40 px-2.5 py-1 text-xs font-semibold text-[var(--accent)] hover:bg-[var(--accent-soft)]"
+                        className="ml-auto inline-flex min-h-8 items-center gap-1 rounded-full bg-[var(--band-indigo)] px-3 py-1 text-xs font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
                       >
                         <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
                         See on Google Maps
@@ -200,14 +202,14 @@ export default async function EnCityNeighbourhoodsPage({ params }: Props) {
                     </p>
                     <div className="flex flex-wrap gap-1.5">
                       {n.tags.map((tag) => (
-                        <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-[var(--bg-elevated)] text-[var(--text-tertiary)]">
+                        <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-[var(--band-sky)] text-[#1E3A8A]">
                           {tag}
                         </span>
                       ))}
                     </div>
                   </div>
 
-                  <div className="shrink-0 sm:w-52">
+                  <div className="shrink-0 sm:w-52 rounded-xl bg-[var(--band-indigo)] p-4">
                     <p className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] mb-2">Avg T2 rent</p>
                     <p className="text-2xl font-bold text-[var(--text-primary)] mb-4">€{n.avgRentT2}/mo</p>
                     <div className="space-y-1.5">
@@ -222,23 +224,33 @@ export default async function EnCityNeighbourhoodsPage({ params }: Props) {
                     </div>
                   </div>
                 </div>
-              </Card>
+              </article>
             ))}
+          </>
+        )}
+      </div>
+      </section>
 
-            <Card>
-              <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-2">Methodology</h3>
+      {/* Methodology + discussion — white band */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-6">
+          {neighborhoods.length > 0 && (
+            <div className="overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <h2 className="grad-head-2 px-5 py-3 text-sm font-semibold">Methodology</h2>
+              <div className="p-5">
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
                 Neighbourhood scores are derived from local rental data, safety indices, public
                 transport access, green-space coverage and nightlife density. Rents are median T2
                 (one-bedroom) estimates from observatoire des loyers and real-estate listings,
                 refreshed annually. Scores are on a 0–10 scale. These are estimates, not real-time data.
               </p>
-            </Card>
-          </>
-        )}
+              </div>
+            </div>
+          )}
 
-        <DiscussionCTA cityName={city.name} citySlug={city.slug} locale="en" />
-      </div>
+          <DiscussionCTA cityName={city.name} citySlug={city.slug} locale="en" />
+        </div>
+      </section>
 
       <Footer />
     </main>

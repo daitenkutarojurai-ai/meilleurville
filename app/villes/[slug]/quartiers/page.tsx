@@ -9,7 +9,6 @@ import { cityPhoto } from "@/lib/city-images";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
-import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -46,13 +45,15 @@ const TYPE_LABELS: Record<string, string> = {
   pavillonnaire: "Pavillonnaire",
 };
 
+// Familles indigo / rose / cyan seulement : vert, lime, ambre, orange, rouge et
+// violet sont réservés aux paliers de score (identité « Couleurs »).
 const TYPE_COLORS: Record<string, string> = {
-  "centre-ville": "text-blue-600 bg-blue-400/10 border-blue-400/20",
-  résidentiel: "text-emerald-700 bg-emerald-500/10 border-emerald-400/20",
-  étudiant: "text-violet-700 bg-violet-400/10 border-violet-400/20",
-  branché: "text-pink-700 bg-pink-400/10 border-pink-400/20",
-  populaire: "text-orange-600 bg-orange-400/10 border-orange-400/20",
-  pavillonnaire: "text-amber-700 bg-amber-400/10 border-amber-400/20",
+  "centre-ville": "text-[#3730A3] bg-[#E0E7FF]",
+  résidentiel: "text-[#155E75] bg-[#CFFAFE]",
+  étudiant: "text-[#9D174D] bg-[#FCE7F3]",
+  branché: "text-[#86198F] bg-[#FAE8FF]",
+  populaire: "text-[#075985] bg-[#E0F2FE]",
+  pavillonnaire: "text-[#1E40AF] bg-[#DBEAFE]",
 };
 
 function scoreColor(s: number) {
@@ -110,7 +111,7 @@ export default async function QuartiersPage({ params }: Props) {
       )}
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
 
-      <section className="relative pt-20 pb-10">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/villes" className="hover:text-[var(--text-secondary)]">Villes</Link>
@@ -138,9 +139,11 @@ export default async function QuartiersPage({ params }: Props) {
         )}
       </section>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-8">
+      {/* Fiches quartier — bande indigo */}
+      <section className="band band-indigo py-10">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-6">
         {neighborhoods.length === 0 ? (
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-12 text-center">
+          <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-12 text-center">
             <div className="text-4xl mb-4">🏗️</div>
             <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
               Données en cours de collecte
@@ -151,7 +154,7 @@ export default async function QuartiersPage({ params }: Props) {
             </p>
             <Link
               href={`/villes/${slug}`}
-              className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
+              className="grad-head-0 inline-flex items-center gap-2 rounded-full font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
             >
               ← Profil de {city.name}
             </Link>
@@ -159,20 +162,20 @@ export default async function QuartiersPage({ params }: Props) {
         ) : (
           <>
             {neighborhoods.map((n) => (
-              <Card key={n.slug}>
+              <article key={n.slug} className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] p-5 sm:p-6">
                 <div className="flex flex-col sm:flex-row gap-5">
                   {/* Left: info */}
                   <div className="flex-1">
                     <div className="flex flex-wrap items-center gap-2 mb-3">
                       <h2 className="text-lg font-bold text-[var(--text-primary)]">{n.name}</h2>
-                      <span className={`text-xs font-medium border rounded-full px-2.5 py-0.5 ${TYPE_COLORS[n.type] ?? "text-[var(--text-secondary)] bg-[var(--bg-elevated)] border-[var(--border)]"}`}>
+                      <span className={`text-xs font-semibold rounded-full px-2.5 py-0.5 ${TYPE_COLORS[n.type] ?? "text-[#3730A3] bg-[#E0E7FF]"}`}>
                         {TYPE_LABELS[n.type] ?? n.type}
                       </span>
                       <a
                         href={mapsPlaceUrl(n.name, city.name)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="ml-auto inline-flex min-h-8 items-center gap-1 rounded-full border border-[var(--accent)]/40 px-2.5 py-1 text-xs font-semibold text-[var(--accent)] hover:bg-[var(--accent-soft)]"
+                        className="ml-auto inline-flex min-h-8 items-center gap-1 rounded-full bg-[var(--band-indigo)] px-3 py-1 text-xs font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
                       >
                         <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
                         Voir sur Google Maps
@@ -183,7 +186,7 @@ export default async function QuartiersPage({ params }: Props) {
                     </p>
                     <div className="flex flex-wrap gap-1.5">
                       {n.tags.map((tag) => (
-                        <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-[var(--bg-elevated)] text-[var(--text-tertiary)]">
+                        <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-[var(--band-sky)] text-[#1E3A8A]">
                           {tag}
                         </span>
                       ))}
@@ -192,7 +195,7 @@ export default async function QuartiersPage({ params }: Props) {
 
                   {/* Right: scores + rent */}
                   <div className="w-full sm:w-52 flex-shrink-0">
-                    <div className="rounded-xl bg-[var(--bg-elevated)] p-4 mb-3 text-center">
+                    <div className="rounded-xl bg-[var(--band-indigo)] p-4 mb-3 text-center">
                       <div className={`text-3xl font-black font-mono-data ${scoreColor(n.scores.global)}`}>
                         {n.scores.global.toFixed(1)}
                       </div>
@@ -207,27 +210,33 @@ export default async function QuartiersPage({ params }: Props) {
                           </span>
                         </div>
                       ))}
-                      <div className="flex items-center justify-between text-xs pt-2 border-t border-[var(--border)] mt-2">
+                      <div className="flex items-center justify-between text-xs pt-2 border-t border-[#E0E7FF] mt-2">
                         <span className="text-[var(--text-tertiary)]">Loyer T2 moy.</span>
                         <span className="font-bold text-[var(--text-primary)]">{n.avgRentT2}€/mois</span>
                       </div>
                     </div>
                   </div>
                 </div>
-              </Card>
+              </article>
             ))}
+          </>
+        )}
+      </div>
+      </section>
 
-            {/* Comparison table */}
-            {neighborhoods.length > 1 && (
-              <div className="overflow-hidden rounded-2xl border border-[var(--border)]">
-                <div className="bg-[var(--bg-surface)] px-5 py-4 border-b border-[var(--border)]">
-                  <h3 className="text-sm font-semibold text-[var(--text-primary)]">Tableau comparatif</h3>
+      {/* Tableau comparatif — bande ciel */}
+      {neighborhoods.length > 1 && (
+        <section className="band band-sky py-10">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+              <div className="overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                <div className="grad-head-2 px-5 py-4">
+                  <h2 className="text-sm font-semibold">Tableau comparatif</h2>
                 </div>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
-                      <tr className="border-b border-[var(--border)] bg-[var(--bg-elevated)]">
-                        <th className="text-left px-5 py-3 text-xs font-medium text-[var(--text-tertiary)]">Critère</th>
+                      <tr className="border-b border-[#E0E7FF] bg-[var(--band-indigo)]">
+                        <th className="text-left px-5 py-3 text-xs font-semibold text-[#3730A3]">Critère</th>
                         {neighborhoods.map((n) => (
                           <th key={n.slug} className="px-4 py-3 text-center text-xs font-semibold text-[var(--text-primary)]">{n.name}</th>
                         ))}
@@ -238,23 +247,23 @@ export default async function QuartiersPage({ params }: Props) {
                         const vals = neighborhoods.map((n) => key === "global" ? n.scores.global : n.scores[key as keyof typeof n.scores]);
                         const best = Math.max(...vals);
                         return (
-                          <tr key={key} className="border-b border-[var(--border)] last:border-0">
+                          <tr key={key} className="border-b border-[#EEF0FB] last:border-0">
                             <td className="px-5 py-3 text-xs text-[var(--text-secondary)]">{label}</td>
                             {vals.map((v, i) => (
                               <td key={i} className="px-4 py-3 text-center">
-                                <span className={`font-bold font-mono-data text-xs ${v === best ? "text-emerald-700" : scoreColor(v)}`}>{v.toFixed(1)}</span>
+                                <span className={`font-bold font-mono-data text-xs ${scoreColor(v)} ${v === best ? "rounded-full bg-[var(--band-indigo)] px-2 py-0.5 ring-1 ring-[#4F46E5]/40" : ""}`}>{v.toFixed(1)}</span>
                               </td>
                             ))}
                           </tr>
                         );
                       })}
-                      <tr className="border-b border-[var(--border)] bg-[var(--bg-surface)]">
+                      <tr className="bg-white">
                         <td className="px-5 py-3 text-xs text-[var(--text-secondary)]">Loyer T2</td>
                         {neighborhoods.map((n) => {
                           const cheapest = Math.min(...neighborhoods.map((x) => x.avgRentT2));
                           return (
                             <td key={n.slug} className="px-4 py-3 text-center">
-                              <span className={`font-bold text-xs ${n.avgRentT2 === cheapest ? "text-emerald-700" : "text-[var(--text-primary)]"}`}>{n.avgRentT2}€</span>
+                              <span className={`font-bold text-xs ${n.avgRentT2 === cheapest ? "rounded-full bg-[var(--band-indigo)] px-2 py-0.5 text-[#3730A3] ring-1 ring-[#4F46E5]/40" : "text-[var(--text-primary)]"}`}>{n.avgRentT2}€</span>
                             </td>
                           );
                         })}
@@ -263,46 +272,31 @@ export default async function QuartiersPage({ params }: Props) {
                   </table>
                 </div>
               </div>
-            )}
+          </div>
+        </section>
+      )}
 
-            {/* Premium lock teaser */}
-            <div className="rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-8 text-center">
-              <div className="text-2xl mb-3">🔒</div>
-              <h3 className="font-bold text-[var(--text-primary)] mb-2">
-                Profils de quartiers complets
-              </h3>
-              <p className="text-sm text-[var(--text-secondary)] mb-5 max-w-md mx-auto">
-                Les abonnés Pro accèdent aux données détaillées : prix au m², qualité des écoles par quartier,
-                densité médicale, criminalité par type d&apos;acte.
-              </p>
-              <Link
-                href="/city-match"
-                className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-6 py-3 text-sm hover:opacity-90 transition-opacity"
-              >
-                ✨ Passer Pro — 9,90€/mois
-              </Link>
-            </div>
-          </>
-        )}
-
-        <div className="flex gap-3 flex-wrap">
-          <Link
-            href={`/villes/${slug}`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            ← Profil complet de {city.name}
-          </Link>
-          <Link
-            href="/villes"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            Toutes les villes
-          </Link>
+      {/* Renvois + discussion — bande blanche */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-8">
+          <div className="flex gap-3 flex-wrap">
+            <Link
+              href={`/villes/${slug}`}
+              className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
+            >
+              ← Profil complet de {city.name}
+            </Link>
+            <Link
+              href="/villes"
+              className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
+            >
+              Toutes les villes
+            </Link>
+          </div>
+          <div className="mx-auto max-w-3xl">
+            <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+          </div>
         </div>
-      </div>
-
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
       </section>
 
       <Footer />

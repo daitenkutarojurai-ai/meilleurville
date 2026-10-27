@@ -984,3 +984,30 @@ grises à filet. EN : cartes à filet sur fond de page, hero blanc.
 1. Autres sous-pages ville au même schéma `glass` + sections `pb-8` (`quartiers`, `transports`, `ecoles`).
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Cartes internes de la fiche ville (`Card` « card-sheen »).
+
+## 2026-10-27 ~23:00 UTC — sous-page quartiers `/villes/[slug]/quartiers` (FR) + EN `/cities/[slug]/neighbourhoods`
+
+**Surface** : le gabarit quartiers (540 villes × 2 locales). Avant : hero sur fond de page, fiches `Card` à filet,
+puces de type en vert / violet / orange / ambre (couleurs de palier détournées), meilleure valeur du tableau en
+émeraude, renvois en pastilles grises, encart « Passer Pro — 9,90 €/mois » (offre inexistante). EN : hero blanc
+à filet, et **bug** : le JSX `<CityPhotoBand>` était collé à l'intérieur d'une chaîne gabarit, donc la page EN
+affichait « {photo && ( <CityPhotoBand … /> )} » en texte brut dans le chapeau, sans photo.
+
+**Changé**
+- Hero `.bg-aurora` (FR et EN) ; EN : photo remise hors de la chaîne, sous le chapeau.
+- Fiches quartier en `band-indigo`, cartes blanches à ombre indigo, tuile de score lavande, tags en pastilles
+  ciel, lien Google Maps en pilule lavande, puces de type dans les familles indigo / bleu / cyan / rose / fuchsia.
+- FR : tableau comparatif en `band-sky`, carte blanche à en-tête `grad-head-2`, meilleure note et loyer le plus bas
+  marqués par une pastille lavande cerclée d'indigo (la couleur de palier du chiffre est conservée).
+- FR : encart Pro supprimé (CLAUDE.md : retirer les teasers Premium) ; renvois en pilules + DiscussionCTA en
+  `band-white`. EN : méthodologie à en-tête dégradé + DiscussionCTA en `band-white`.
+- Données, copie, JSON-LD, liens : inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers :
+0 problème (2 avertissements `Card` inutilisé en moins). Captures `next dev` + playwright `/villes/lyon/quartiers`
+1440 et 390 px, `scrollWidth` = viewport. EN non capturé (route `[locale]` en dev). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Autres sous-pages ville au schéma `Card`/`glass` + sections `pb-8` (`transports`, `ecoles`, `logement`).
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Cartes internes de la fiche ville (`Card` « card-sheen »).
