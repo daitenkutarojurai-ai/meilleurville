@@ -78,6 +78,12 @@ export default function SimulateurAchatPage() {
               </Link>
               .
             </li>
+            <li>• Pour voir où le prix d&apos;achat s&apos;est le plus éloigné du loyer, voir le classement des{" "}
+              <Link href="/red-flags/villes-acheter-plus-cher-que-louer" className="underline">
+                villes où acheter coûte des décennies de loyer
+              </Link>
+              .
+            </li>
             <li>• Pour repérer les villes en gentrification (anticiper la hausse), voir{" "}
               <Link href="/gentrification" className="underline">
                 l&apos;index de gentrification

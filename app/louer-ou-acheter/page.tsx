@@ -181,6 +181,15 @@ export default function LouerOuAcheterIndexPage() {
         </p>
 
         <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
+          À l&apos;autre extrémité du tableau, le marché où l&apos;achat s&apos;est le plus éloigné du loyer
+          est détaillé dans le classement des{" "}
+          <Link href="/red-flags/villes-acheter-plus-cher-que-louer" className="text-[var(--accent)] underline hover:no-underline">
+            villes où il faut des décennies de loyer pour payer le bien
+          </Link>
+          , bâti sur les prix de vente réellement enregistrés plutôt que sur notre repère éditorial.
+        </p>
+
+        <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
           Le ratio arbitre entre deux façons de se loger, pas entre deux villes : il ignore les
           courses, les transports et les charges, qui pèsent souvent plus lourd que l&apos;écart
           loyer-mensualité. Nos{" "}
