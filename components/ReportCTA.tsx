@@ -7,10 +7,12 @@
 // Deux formes :
 //  - `variant="card"` : encart pleine largeur, titre + boutons ;
 //  - `variant="inline"` : rangée de boutons compacts, pour un pied de section.
-// Identité « Carte & plaque » : papier, filet navy, aucun vert/ambre/rouge de
+// Identité « Couleurs » (2026-10-27) : carte blanche à ombre indigo posée sur
+// la bande de la section, tuile d'icône dégradée, bouton principal en dégradé
+// indigo → violet, secondaires en pilules lavande ; aucun vert/ambre/rouge de
 // palier détourné en décoration.
 
-import { CalendarPlus, Flag, PenLine, Vote, MapPinned } from "lucide-react";
+import { CalendarPlus, Flag, PenLine, Vote, MapPinned, Megaphone } from "lucide-react";
 
 export type ReportKind = "evenement" | "red-flag" | "erreur" | "politique" | "ville";
 
@@ -55,10 +57,10 @@ export function ReportCTA({
             key={k}
             href={reportHref(k, locale, cityName)}
             className={
-              "inline-flex min-h-[40px] items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] " +
+              "inline-flex min-h-[40px] items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] " +
               (primary
-                ? "bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] shadow-sm"
-                : "border border-[var(--border)] bg-[var(--bg-surface)] text-[var(--text-primary)] hover:border-[var(--accent)]/50 hover:text-[var(--accent)]")
+                ? "grad-head-0 shadow-[0_10px_22px_-12px_rgba(79,70,229,0.8)] hover:brightness-110"
+                : "bg-[var(--band-indigo)] text-[#3730A3] hover:bg-[var(--band-lilac)] hover:text-[var(--accent)]")
             }
           >
             <Icon className="h-4 w-4 shrink-0" aria-hidden />
@@ -73,11 +75,20 @@ export function ReportCTA({
 
   return (
     <aside
-      className={`rounded-2xl border border-[var(--border)] border-l-4 border-l-[var(--accent)] bg-[var(--bg-surface)] p-4 sm:p-5 ${className}`}
+      className={`rounded-2xl bg-white p-4 sm:p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] ${className}`}
     >
-      {title && <p className="text-base font-bold text-[var(--text-primary)]">{title}</p>}
-      {text && <p className="mt-1 text-sm text-[var(--text-secondary)]">{text}</p>}
-      <div className={title || text ? "mt-3" : ""}>{buttons}</div>
+      {(title || text) && (
+        <div className="flex items-start gap-3">
+          <span className="grad-head-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl shadow-[0_10px_22px_-12px_rgba(219,39,119,0.7)]">
+            <Megaphone className="h-5 w-5" aria-hidden />
+          </span>
+          <div className="min-w-0">
+            {title && <p className="text-base font-bold text-[var(--text-primary)]">{title}</p>}
+            {text && <p className="mt-1 text-sm text-[var(--text-secondary)]">{text}</p>}
+          </div>
+        </div>
+      )}
+      <div className={title || text ? "mt-3 sm:pl-[3.25rem]" : ""}>{buttons}</div>
     </aside>
   );
 }

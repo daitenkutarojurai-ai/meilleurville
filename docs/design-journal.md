@@ -928,3 +928,31 @@ capturé (route `[locale]` en dev). `npm run build` non lancé.
 1. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. `components/ReportCTA.tsx` (carte à filet gauche, utilisée partout) et `DiscussionCTA` / `FeedbackWidget`.
+
+## 2026-10-27 ~11:00 UTC — blocs de fin de sous-page : `DiscussionCTA`, `ReportCTA`, `FeedbackWidget`
+
+**Surface** : les trois composants partagés qui ferment toutes les sous-pages ville (via `DiscussionCTA`),
+les hubs (FeedbackWidget) et l'agenda / Red Flags / pages politiques (ReportCTA) — 112 fichiers les rendent.
+Avant : cartes à filet gris sur fond de page, encart ReportCTA à filet gauche « Carte & plaque » (commentaire
+d'en-tête inclus), boutons à bordure grise, 👎 actif en rouge `--danger` (couleur de palier détournée).
+
+**Changé**
+- Les trois en cartes blanches à ombre indigo (même ombre que `CityEvents`), sans filet.
+- `DiscussionCTA` : tuile d'icône `grad-head-0`, chevron dans une pastille lavande qui vire à l'indigo au survol,
+  léger soulèvement au survol.
+- `ReportCTA` (variante carte) : tuile `grad-head-1` (mégaphone) devant titre + texte ; bouton principal en
+  pilule dégradée `grad-head-0`, secondaires en pilules lavande (`--band-indigo`, texte #3730A3) ; la variante
+  `inline` hérite des mêmes boutons. Commentaire d'identité mis à jour.
+- `FeedbackWidget` : question et boutons sur une ligne en desktop (retour à la ligne sur mobile), « Utile » en
+  pilule lavande → `grad-head-0` actif, « À améliorer » en pilule rose → `grad-head-1` actif (fin du rouge),
+  « Envoyer » en pilule dégradée, textarea à anneau indigo. Logique, honeypot, copie : inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` 0 erreur sur les 3
+fichiers. Captures `next dev` + playwright `/villes/orleans/climat` 1440 et 390 px, `scrollWidth` = viewport.
+EN non capturé (mêmes composants, prop `locale`). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Gabarit de sous-page ville `climat` : les renvois de pied (« Profil complet », « Classement soleil ») sont
+   encore des pastilles grises à filet, et les cartes « Villes au climat comparable » sont ternes.
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Cartes internes de la fiche ville (`Card` « card-sheen »).

@@ -38,16 +38,17 @@ export function FeedbackWidget({ locale }: { locale?: "fr" | "en" }) {
 
   if (status === "done") {
     return (
-      <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 flex items-center gap-2 text-sm text-[var(--text-secondary)]">
-        <CheckCircle2 className="h-4 w-4 text-[var(--accent)]" />
+      <div className="flex items-center gap-2 rounded-2xl bg-white p-5 text-sm text-[var(--text-secondary)] shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+        <CheckCircle2 className="h-4 w-4 text-[var(--accent)]" aria-hidden />
         {t("Merci pour votre retour !", "Thanks for your feedback!")}
       </div>
     );
   }
 
   return (
-    <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-      <p className="text-sm font-medium text-[var(--text-primary)] mb-3">
+    <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+      <p className="text-sm font-semibold text-[var(--text-primary)]">
         {t("Cette page vous a-t-elle aidé ?", "Was this page helpful?")}
       </p>
       <div className="flex items-center gap-2">
@@ -55,10 +56,10 @@ export function FeedbackWidget({ locale }: { locale?: "fr" | "en" }) {
           type="button"
           onClick={() => { setSentiment("up"); if (sentiment === null) void submit("up", false); }}
           aria-pressed={sentiment === "up"}
-          className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-2 text-sm font-medium transition-colors ${
+          className={`inline-flex min-h-[40px] items-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold transition-all ${
             sentiment === "up"
-              ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--accent)]"
-              : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)]"
+              ? "grad-head-0 shadow-[0_10px_22px_-12px_rgba(79,70,229,0.8)]"
+              : "bg-[var(--band-indigo)] text-[#3730A3] hover:bg-[var(--band-lilac)] hover:text-[var(--accent)]"
           }`}
         >
           <ThumbsUp className="h-4 w-4" />
@@ -68,15 +69,16 @@ export function FeedbackWidget({ locale }: { locale?: "fr" | "en" }) {
           type="button"
           onClick={() => { setSentiment("down"); if (sentiment === null) void submit("down", false); }}
           aria-pressed={sentiment === "down"}
-          className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-2 text-sm font-medium transition-colors ${
+          className={`inline-flex min-h-[40px] items-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold transition-all ${
             sentiment === "down"
-              ? "border-[var(--danger)] bg-[var(--danger)]/10 text-[var(--danger)]"
-              : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)]"
+              ? "grad-head-1 shadow-[0_10px_22px_-12px_rgba(219,39,119,0.8)]"
+              : "bg-[var(--band-pink)] text-[#9D174D] hover:text-[#BE185D]"
           }`}
         >
           <ThumbsDown className="h-4 w-4" />
           {t("À améliorer", "Needs work")}
         </button>
+      </div>
       </div>
 
       {sentiment && (
@@ -87,7 +89,7 @@ export function FeedbackWidget({ locale }: { locale?: "fr" | "en" }) {
             maxLength={280}
             rows={2}
             placeholder={t("Un commentaire ? (optionnel)", "Anything to add? (optional)")}
-            className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/60"
+            className="w-full rounded-xl border border-[var(--band-indigo)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/60 focus:ring-2 focus:ring-[var(--accent)]/20"
           />
           {/* Honeypot */}
           <input
@@ -104,7 +106,7 @@ export function FeedbackWidget({ locale }: { locale?: "fr" | "en" }) {
               type="button"
               onClick={() => void submit(sentiment, true)}
               disabled={status === "sending"}
-              className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--accent-hover)] disabled:opacity-60"
+              className="grad-head-0 inline-flex min-h-[40px] items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold shadow-[0_10px_22px_-12px_rgba(79,70,229,0.8)] transition-all hover:brightness-110 disabled:opacity-60"
             >
               {status === "sending" ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
               {t("Envoyer", "Send")}

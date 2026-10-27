@@ -30,11 +30,11 @@ export function DiscussionCTA({ citySlug, cityName, locale = "fr" }: Props) {
     <FeedbackWidget locale={locale} />
     <Link
       href={href}
-      className="group flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)]/40 p-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
+      className="group flex items-center justify-between gap-3 rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] transition-all hover:-translate-y-0.5 hover:shadow-[0_16px_34px_-18px_rgba(79,70,229,0.7)]"
     >
       <div className="flex items-start gap-3 min-w-0">
-        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--accent)]/10 text-[var(--accent)]">
-          <MessageCircle className="h-5 w-5" />
+        <div className="grad-head-0 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl shadow-[0_10px_22px_-12px_rgba(79,70,229,0.7)]">
+          <MessageCircle className="h-5 w-5" aria-hidden />
         </div>
         <div className="min-w-0">
           <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -48,7 +48,9 @@ export function DiscussionCTA({ citySlug, cityName, locale = "fr" }: Props) {
           </div>
         </div>
       </div>
-      <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--band-indigo)] text-[var(--accent)] transition-colors group-hover:bg-[var(--accent)] group-hover:text-white">
+        <ChevronRight className="h-4 w-4" aria-hidden />
+      </span>
     </Link>
     {/* Signalements en un clic, ville pré-remplie (2026-10-17) : la demande
         du propriétaire était de rendre le contact présent dans chaque section,
