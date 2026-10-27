@@ -41630,6 +41630,326 @@ export const GUIDES: Guide[] = [
     tags: ["retraite Hyères 2026", "prendre sa retraite à Hyères", "retraite Var bord de mer", "retraite soleil hiver doux", "budget retraité Hyères"],
   },
   {
+    slug: "retraite-a-biarritz-2026",
+    title: "Retraite à Biarritz en 2026 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Biarritz 2026 : budget, santé, vie sociale",
+    metaDesc: "Retraite à Biarritz en 2026 : 44,6 % de 60 ans et plus, T2 à 1 000 €, m² à 6 500 €, CHU à 165 km. Santé, budget mensuel et limites, sans fard.",
+    category: "lifestyle",
+    emoji: "🏄",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Biarritz est chère et l'assume : le deux-pièces y est estimé à 1 000 € et le mètre carré à 6 500 € (source : notre estimation des loyers), l'un des prix les plus élevés des villes de retraite que nous suivons. En échange, 44,6 % des habitants ont 60 ans ou plus (source : Insee, recensement 2022, contre une médiane de 26,2 % des villes suivies), un hiver à 9,5 °C de moyenne en janvier et l'océan au bout de la rue. Notre score retraite est de 6,7/10, dans un palier de dix-sept villes à égalité, derrière 183 autres. La population progresse de 4,2 % entre 2016 et 2022, à 25 810 habitants : la ville ne se vide pas, elle se renchérit.",
+    sections: [
+      {
+        heading: "Pourquoi Biarritz attire autant les retraités",
+        body: "Le premier argument est l'hiver : 9,5 °C en janvier sur notre fiche climat, loin des 2,3 °C d'Annecy, avec 1 880 heures de soleil par an, moins que la Méditerranée mais avec un été tempéré (22,5 °C de moyenne en juillet). Le second est le cadre : Grande Plage, Port-Vieux, Rocher de la Vierge, les Halles, et une ville assez compacte pour qu'un retraité sans voiture fasse l'essentiel à pied. Le troisième est le tissu social : avec près d'un habitant sur deux au-delà de 60 ans, les associations, la gym douce, le golf et les cercles culturels sont pensés pour cette tranche d'âge. Notre axe nature atteint 7,5/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Quel accès aux soins à Biarritz ?",
+        body: "Notre moteur d'accès aux soins estime Biarritz à 5,3/10, où 10 signifie un excellent accès, juste sous la médiane de 5,5 des communes suivies : niveau « correct » (source : notre fiche santé). C'est une estimation construite sur les densités médicales départementales et la présence d'hôpitaux, pas une mesure de l'attente chez un spécialiste. L'hôpital de référence du Pays basque est le centre hospitalier de la Côte Basque, dont le site principal est à Bayonne, tout proche. Le CHU le plus proche est à Bordeaux (Pessac), à environ 165 kilomètres à vol d'oiseau selon notre calcul : pour une pathologie lourde suivie en CHU, c'est un vrai trajet, à anticiper.",
+      },
+      {
+        heading: "Louer ou acheter à Biarritz ?",
+        body: "Pour un retraité qui arrive, la location est la porte d'entrée raisonnable : T1 à 730 €, T2 à 1 000 €, T3 à 1 400 € (source : notre estimation des loyers). L'achat à 6 500 € le mètre carré place un 60 m² à environ 390 000 € avant frais, soit très au-dessus de Saint-Malo (4 000 €/m²) ou de Pau (2 400 €/m²). Le centre et la proximité des Halles sont les plus pratiques à pied ; les quartiers en hauteur demandent la voiture ou un bon rapport aux pentes. Un meublé touristique voisin peut aussi nuire au calme l'été : visiter en juillet avant de signer.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Biarritz",
+        body: "Voici l'addition ligne par ligne, à adapter. Personne seule locataire d'un deux-pièces : loyer 1 000 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 690 € par mois. Couple locataire d'un trois-pièces : loyer 1 400 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 430 € par mois. La pension moyenne de droit direct tourne autour de 1 500 € nets par mois en France (source : DREES) : à Biarritz, une personne seule avec cette pension ne boucle pas en location sans autre revenu. Notre score de coût de la vie est de 2,9/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Vie quotidienne : océan, marchés, culture",
+        body: "La vie biarrote se rythme sur la côte : promenade du front de mer, marché des Halles, bains de mer en saison, surf regardé depuis la Côte des Basques plutôt que pratiqué. La Cité de l'Océan et les musées, les concerts et les festivals garnissent l'agenda. Bayonne, Anglet et Saint-Jean-de-Luz sont accessibles depuis Biarritz pour les marchés et les restaurants, et la frontière espagnole n'est pas loin pour les journées à Saint-Sébastien. L'aéroport Biarritz Pays Basque et la gare facilitent les visites des enfants et petits-enfants.",
+      },
+      {
+        heading: "Les limites avant de vous installer",
+        body: "Trois limites honnêtes. Le prix d'abord, qui exclut la plupart des pensions moyennes sans patrimoine : au mètre carré, elle fait partie des plus chères de nos villes de retraite. La saison ensuite : l'été, la circulation et le stationnement saturent, et une ville de 25 810 habitants en accueille beaucoup plus. Le climat enfin : l'océan apporte des hivers doux mais humides et venteux, et la pluie est fréquente. Biarritz convient au retraité qui dispose d'un capital ou d'une double pension, veut vivre à pied près de l'océan et accepte un CHU à plusieurs heures de route ; elle convient mal à une pension moyenne seule, pour qui Pau ou une ville moins côtière est plus réaliste.",
+      },
+    ],
+    relatedCities: ["biarritz", "bayonne", "anglet", "pau", "saint-jean-de-luz"],
+    relatedGuides: [
+      "10-choses-a-faire-a-biarritz-2026",
+      "acheter-a-biarritz-quel-quartier-budget-2026",
+      "quitter-biarritz-guide-2026",
+      "retraite-a-pau-2026",
+    ],
+    tags: ["retraite Biarritz 2026", "prendre sa retraite à Biarritz", "retraite Pays basque", "budget retraité Biarritz", "retraite Pyrénées-Atlantiques"],
+  },
+  {
+    slug: "retraite-a-arcachon-2026",
+    title: "Retraite à Arcachon en 2026 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Arcachon 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Arcachon en 2026 : 60,4 % de 60 ans et plus, T2 à 1 100 €, m² à 6 800 €, hôpital à La Teste. Santé, budget mensuel et limites du bassin.",
+    category: "lifestyle",
+    emoji: "🌲",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Arcachon est la ville la plus âgée de ce lot : 60,4 % de ses 10 895 habitants ont 60 ans ou plus, et 30,0 % ont 75 ans ou plus, contre des médianes de 26,2 % et 10,2 % (source : Insee, recensement 2022). C'est aussi l'une des plus chères : un T2 estimé à 1 100 € et un mètre carré à 6 800 € (source : notre estimation des loyers). Notre score retraite est de 6,7/10, dans un palier de dix-sept villes à égalité, derrière 183 autres. L'hiver est doux (8 °C en janvier, 2 150 heures de soleil), mais l'accès aux soins est notre point faible : 3,5/10.",
+    sections: [
+      {
+        heading: "Que vaut Arcachon pour une retraite au bord du bassin ?",
+        body: "Arcachon est une station balnéaire née au XIXe siècle autour de la Ville d'Hiver, quartier de villas en bois et en brique bâties pour les curistes : la ville a été pensée pour séjourner longtemps. Aujourd'hui on y vit à pied : front de mer, jetée, marché, port, forêt de pins au-dessus. Notre axe nature atteint 7,8/10 et la sécurité 6,3/10 sur notre fiche ville. La contrepartie est la taille : 10 895 habitants, et une population qui baisse de 2,0 % entre 2016 et 2022, signe que les prix chassent les actifs plutôt que les retraités.",
+      },
+      {
+        heading: "Quel accès aux soins à Arcachon ?",
+        body: "C'est la vraie question. Notre moteur d'accès aux soins estime Arcachon à 3,5/10, où 10 signifie un excellent accès, nettement sous la médiane de 5,5 des communes suivies : niveau « tendu » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales départementales et la présence d'hôpitaux, pas une mesure des délais. Le centre hospitalier d'Arcachon, avenue Jean Hameau, est situé à La Teste-de-Buch, commune voisine, et non à Arcachon même. Le CHU le plus proche est à Bordeaux (Pessac), à environ 46 kilomètres à vol d'oiseau selon notre calcul : le trajet est court sur la carte, plus long en été sur les routes du bassin.",
+      },
+      {
+        heading: "Se loger à Arcachon : le prix de l'exception",
+        body: "T1 à 780 €, T2 à 1 100 €, T3 à 1 500 € et 6 800 € le mètre carré à l'achat (source : notre estimation des loyers) : Arcachon dépasse Biarritz (6 500 €/m²) et pèse plus de deux fois Narbonne (2 400 €/m²). Un 50 m² coûte environ 340 000 € avant frais. Le centre et la Ville d'Hiver sont plats et vivables sans voiture ; le sud de la commune, vers le Moulleau, est plus résidentiel et plus calme. Les copropriétés anciennes en bord de mer demandent de regarder les charges et les travaux de façade, le sel et l'humidité usant vite le bâti.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Arcachon",
+        body: "Addition ligne par ligne, à adapter. Personne seule locataire d'un deux-pièces : loyer 1 100 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 790 € par mois. Couple locataire d'un trois-pièces : loyer 1 500 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 530 € par mois. Avec une pension moyenne de droit direct d'environ 1 500 € nets (source : DREES), la location arcachonnaise n'est accessible qu'avec un second revenu ou un patrimoine. Notre score de coût de la vie est de 3,1/10.",
+      },
+      {
+        heading: "Vie quotidienne et sorties",
+        body: "Le quotidien arcachonnais, c'est la jetée au lever du soleil, le marché, les huîtres, les balades en bateau sur le bassin, la forêt de la Teste. La dune du Pilat est accessible depuis Arcachon : elle se trouve sur la commune de La Teste-de-Buch, tout comme le Cap Ferret, sur Lège-Cap-Ferret. Avec 60,4 % de seniors, l'offre associative, les clubs de marche et les activités culturelles sont abondants, et l'on ne s'y sent jamais seul parmi les plus de 60 ans.",
+      },
+      {
+        heading: "Les limites avant de signer",
+        body: "Trois points. Le soin d'abord : l'accès aux spécialistes passe par Bordeaux, et les 30 % d'habitants de plus de 75 ans pèsent sur une offre médicale déjà tendue. Le prix ensuite, très au-dessus des pensions moyennes. Le risque enfin : le bassin est exposé aux feux de forêt et à la submersion marine, et l'été, la route d'accès sature. Arcachon convient au retraité qui a un capital, aime la vie de station et ne vise pas une pathologie lourde ; pour un budget plus serré, une ville moyenne mieux dotée en santé est plus sûre.",
+      },
+    ],
+    relatedCities: ["arcachon", "biarritz", "bordeaux"],
+    relatedGuides: [
+      "10-choses-a-faire-a-arcachon-2026",
+      "retraite-a-bordeaux-2026",
+      "retraite-bord-de-mer-france-villes-guide-2026",
+    ],
+    tags: ["retraite Arcachon 2026", "prendre sa retraite à Arcachon", "retraite bassin d'Arcachon", "budget retraité Arcachon", "retraite Gironde"],
+  },
+  {
+    slug: "retraite-a-saint-malo-2026",
+    title: "Retraite à Saint-Malo en 2026 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Saint-Malo 2026 : budget, santé, vie",
+    metaDesc: "Retraite à Saint-Malo en 2026 : score retraite 7,3/10, T2 à 800 €, m² à 4 000 €, 41,2 % de 60 ans et plus, hôpital Broussais. Budget et limites.",
+    category: "lifestyle",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Saint-Malo est la ville de ce lot où le score retraite est le plus haut : 7,3/10, dans un palier de sept villes à égalité, derrière 124 autres (médiane de 6,1 sur les 593 villes suivies). Le deux-pièces y est estimé à 800 € et le mètre carré à 4 000 € (source : notre estimation des loyers), nettement moins que Biarritz ou Arcachon. 41,2 % des 47 255 habitants ont 60 ans ou plus (source : Insee, recensement 2022) et la population croît de 2,7 % entre 2016 et 2022. L'hiver est moins doux (6 °C en janvier, 1 860 heures de soleil) : ce n'est pas le Sud.",
+    sections: [
+      {
+        heading: "Pourquoi Saint-Malo se classe si haut pour la retraite",
+        body: "Notre score retraite pèse la sécurité, le coût de la vie, la nature, le cadre de vie et les transports. Saint-Malo les combine mieux que ses voisines : sécurité 6,5/10, coût 5,0/10, nature 7,2/10 et transports 5,2/10 sur notre fiche ville. Le résultat est une ville de bord de mer à échelle humaine, qui ne subit ni la facture de Biarritz ni l'isolement des petites stations. Elle reste calme hors saison, avec un tissu associatif et culturel dense.",
+      },
+      {
+        heading: "Quel accès aux soins à Saint-Malo ?",
+        body: "Notre moteur d'accès aux soins estime Saint-Malo à 5,0/10, où 10 signifie un excellent accès, un peu sous la médiane de 5,5 des communes suivies : niveau « correct » (source : notre fiche santé). C'est une estimation, pas une mesure des délais. La ville dispose du centre hospitalier de Saint-Malo, site Broussais, rue de la Marne, qui fait partie du groupement hospitalier Rance-Émeraude. Le CHU le plus proche est à Rennes, à environ 65 kilomètres à vol d'oiseau selon notre calcul : c'est la distance la plus raisonnable des villes côtières de ce lot.",
+      },
+      {
+        heading: "Se loger à Saint-Malo : intra-muros ou ailleurs ?",
+        body: "T1 à 580 €, T2 à 800 €, T3 à 1 080 € et 4 000 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² représente environ 240 000 € avant frais, contre 390 000 € à Biarritz pour la même surface. Trois ambiances : l'intra-muros, magnifique mais pavé et touristique ; Saint-Servan, résidentiel et animé ; Paramé, plat et balnéaire, proche des plages et des commerces. Pour un retraité sans voiture, Paramé et Saint-Servan sont plus pratiques que l'intra-muros. À vérifier avant d'acheter : le risque de submersion marine à certaines grandes marées, sur Géorisques.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Saint-Malo",
+        body: "Addition ligne par ligne. Personne seule locataire d'un deux-pièces : loyer 800 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 490 € par mois. Couple locataire d'un trois-pièces : loyer 1 080 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 110 € par mois. Avec la pension moyenne de droit direct d'environ 1 500 € nets (source : DREES), une personne seule peut presque boucler un deux-pièces malouin : le résultat est plus soutenable que sur la côte basque ou le bassin d'Arcachon.",
+      },
+      {
+        heading: "Vie quotidienne : marées, remparts, mer",
+        body: "Le rythme malouin est celui des marées : promenade sur les remparts, accès à pied au Grand Bé à marée basse depuis la plage de Bon-Secours, après avoir vérifié l'horaire auprès de l'office de tourisme. Les plages, le marché, le port de pêche et les départs de ferries vers Jersey et l'Angleterre ouvrent des escapades faciles. La gare est desservie par des TGV directs vers Paris et par Rennes en correspondance. Le festival et les associations de la ville gardent un agenda dense toute l'année.",
+      },
+      {
+        heading: "Les limites à connaître",
+        body: "Trois points. Le climat d'abord : 6 °C en janvier, soit entre deux et trois degrés et demi de moins que la Méditerranée ou la côte basque, avec du vent et de la pluie. La saison ensuite : l'été, l'intra-muros est saturé et les prix des petites surfaces montent. La santé enfin : pour un suivi en CHU, Rennes est à une heure de route, pas à côté. Saint-Malo convient au retraité qui veut la mer sans le prix de Biarritz, aime les marées et le caractère breton, et accepte un hiver frais ; elle convient moins à celui qui cherche avant tout le soleil.",
+      },
+    ],
+    relatedCities: ["saint-malo", "dinan", "rennes", "dinard", "vannes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-malo-2026",
+      "vivre-a-saint-malo-2026",
+      "famille-a-saint-malo-2026",
+      "retraite-a-dinan-2026",
+    ],
+    tags: ["retraite Saint-Malo 2026", "prendre sa retraite à Saint-Malo", "retraite Ille-et-Vilaine", "budget retraité Saint-Malo", "retraite bord de mer Bretagne"],
+  },
+  {
+    slug: "retraite-a-annecy-2026",
+    title: "Retraite à Annecy en 2026 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Annecy 2026 : budget, santé, hiver",
+    metaDesc: "Retraite à Annecy en 2026 : 25,7 % de 60 ans et plus, T2 à 1 100 €, m² à 5 500 €, hiver à 2,3 °C, CHU à Grenoble. Budget, santé, limites.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Annecy est belle, active et chère, mais ce n'est pas une ville de retraite typique : seulement 25,7 % de ses 131 272 habitants ont 60 ans ou plus, sous la médiane de 26,2 % des villes suivies, et 10,7 % ont 75 ans ou plus (source : Insee, recensement 2022). Le deux-pièces y est estimé à 1 100 € et le mètre carré à 5 500 € (source : notre estimation des loyers). Notre score retraite est de 6,7/10, dans un palier de dix-sept villes à égalité, derrière 183 autres. Le point fort est la sécurité (7,3/10) et la nature (8,9/10) ; le point dur est l'hiver : 2,3 °C de moyenne en janvier.",
+    sections: [
+      {
+        heading: "Pour qui Annecy fonctionne-t-elle à la retraite ?",
+        body: "Annecy convient à un retraité actif, qui marche, pédale, nage dans le lac l'été et ne craint pas l'hiver. Notre axe nature atteint 8,9/10, le plus haut du lot, et la ville profite d'un cadre unique : lac, vieille ville, canaux, Semnoz au-dessus. Mais ce n'est pas la ville de retraite « tranquille » : la population augmente de 3,8 % entre 2016 et 2022, la ville est jeune et dynamique, avec un marché de l'emploi qui attire des actifs et pousse les prix.",
+      },
+      {
+        heading: "Quel accès aux soins à Annecy ?",
+        body: "Notre moteur d'accès aux soins estime Annecy à 6,2/10, où 10 signifie un excellent accès, au-dessus de la médiane de 5,5 : niveau « correct » (source : notre fiche santé). C'est une estimation, pas une mesure des délais. L'hôpital est le centre hospitalier Annecy Genevois, dont le site principal est à Épagny Metz-Tessy, commune voisine, au 1 avenue de l'Hôpital. Le CHU le plus proche est à Grenoble, à environ 85 kilomètres à vol d'oiseau selon notre calcul, mais la route de montagne allonge le trajet : à prendre en compte pour un suivi spécialisé hors centre hospitalier.",
+      },
+      {
+        heading: "Se loger à Annecy : budget et choix",
+        body: "T1 à 750 €, T2 à 1 100 €, T3 à 1 450 € et 5 500 € le mètre carré à l'achat (source : notre estimation des loyers) : c'est plus cher que Saint-Malo (4 000 €/m²) et moins cher qu'Arcachon (6 800 €/m²). Un 60 m² vaut environ 330 000 € avant frais. Le centre, Annecy-le-Vieux et les abords du lac sont les plus agréables ; certains secteurs en pente demandent la voiture l'hiver. Annecy est une ville de montagne : le verglas et la neige existent en vallée, et un parking en sous-sol pèse sur le choix.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Annecy",
+        body: "Addition ligne par ligne. Personne seule locataire d'un deux-pièces : loyer 1 100 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 790 € par mois. Couple locataire d'un trois-pièces : loyer 1 450 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 480 € par mois. Le chauffage hivernal est le poste que le climat tire à la hausse, une hypothèse que nous ne chiffrons pas plus finement. Avec la pension moyenne (environ 1 500 € nets, source : DREES), Annecy suppose un second revenu ou un patrimoine. Notre score coût de la vie est de 3,1/10.",
+      },
+      {
+        heading: "Vie quotidienne : lac, montagne, culture",
+        body: "La vie annécienne se vit dehors : tour du lac à pied ou à vélo, baignade en été, voile, randonnées sur le Semnoz, marchés de la vieille ville. Le Palais de l'Île, le Pâquier et les festivals rythment l'année. Les stations de ski et la Suisse voisine sont accessibles depuis Annecy pour les sorties. Les transports existent (réseau de bus, gare) mais la voiture reste utile pour les sorties en montagne. Pour un guide complet sans voiture, voir notre guide vivre sans voiture à Annecy.",
+      },
+      {
+        heading: "Les limites avant de s'installer",
+        body: "Trois points. Le froid d'abord : 2,3 °C en janvier, soit sept degrés de moins qu'à Biarritz et près de six de moins qu'à Sète. Le prix ensuite, élevé pour des pensions moyennes. L'affluence enfin : l'été, le centre et les rives du lac sont saturés, la circulation dense. Annecy convient au retraité en bonne forme qui aime la montagne et dispose d'un budget confortable ; elle convient moins à celui qui cherche le soleil d'hiver, la fraîcheur d'une petite ville ou un coût de vie modéré.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "aix-les-bains", "thonon-les-bains"],
+    relatedGuides: [
+      "10-choses-a-faire-a-annecy-2026",
+      "vivre-a-annecy-2026",
+      "acheter-a-annecy-quel-quartier-budget-2026",
+      "vivre-sans-voiture-annecy-guide-2026",
+    ],
+    tags: ["retraite Annecy 2026", "prendre sa retraite à Annecy", "retraite Haute-Savoie", "budget retraité Annecy", "retraite montagne lac"],
+  },
+  {
+    slug: "retraite-a-sete-2026",
+    title: "Retraite à Sète en 2026 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Sète 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Sète en 2026 : 41 % de 60 ans et plus, T2 à 680 €, m² à 2 600 €, 2 800 h de soleil, CHU à Montpellier. Santé, budget et limites.",
+    category: "lifestyle",
+    emoji: "🛥️",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Sète est l'une des villes de retraite méditerranéennes les plus abordables : le deux-pièces y est estimé à 680 € et le mètre carré à 2 600 € (source : notre estimation des loyers), contre 1 000 € et 6 500 € à Biarritz. 41,0 % des 45 090 habitants ont 60 ans ou plus et 16,6 % ont 75 ans ou plus, contre des médianes de 26,2 % et 10,2 % (source : Insee, recensement 2022). L'hiver est doux (8 °C en janvier), le soleil abondant (2 800 heures par an). Notre score retraite est de 6,3/10, dans un palier de seize villes à égalité, derrière 244 autres.",
+    sections: [
+      {
+        heading: "Pourquoi choisir Sète pour sa retraite",
+        body: "Sète offre trois choses rares ensemble : la mer, un étang (le bassin de Thau) et un vrai port de pêche, dans une ville de 45 090 habitants qui vit à l'année. Le mont Saint-Clair domine, les canaux traversent le centre, les plages sont à pied du centre. Le caractère de la ville, populaire et culturelle, est moins aseptisé que celui des stations plus chères. La population progresse de 3,4 % entre 2016 et 2022, signe d'une ville qui attire sans se renchérir autant que Montpellier.",
+      },
+      {
+        heading: "Quel accès aux soins à Sète ?",
+        body: "Notre moteur d'accès aux soins estime Sète à 6,3/10, où 10 signifie un excellent accès, au-dessus de la médiane de 5,5 : niveau « correct » (source : notre fiche santé). C'est une estimation, pas une mesure de l'attente chez un spécialiste. Le CHU le plus proche est à Montpellier, à environ 27 kilomètres à vol d'oiseau selon notre calcul : c'est la plus courte du lot après Nîmes, qui héberge un CHU. Pour une pathologie suivie en CHU, Sète est donc bien placée parmi les villes côtières.",
+      },
+      {
+        heading: "Se loger à Sète : la mer à prix modéré",
+        body: "T1 à 490 €, T2 à 680 €, T3 à 920 € et 2 600 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 156 000 € avant frais, soit deux fois et demie moins qu'à Biarritz. Le centre, autour des canaux et des Halles, est vivant mais bruyant ; le mont Saint-Clair offre des vues et du calme mais des pentes ; le Lido et la corniche sont plus balnéaires. Pour un retraité sans voiture, le centre et ses abords sont les plus pratiques. À vérifier avant d'acheter : le risque de submersion marine sur Géorisques.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Sète",
+        body: "Addition ligne par ligne. Personne seule locataire d'un deux-pièces : loyer 680 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 370 € par mois. Couple locataire d'un trois-pièces : loyer 920 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 950 € par mois. Avec la pension moyenne de droit direct d'environ 1 500 € nets (source : DREES), une personne seule boucle ce budget. Notre score coût de la vie est de 5,3/10, contre 2,9/10 à Biarritz.",
+      },
+      {
+        heading: "Vie quotidienne : canaux, culture, étang",
+        body: "Le quotidien sétois passe par les Halles, les quais, les plages et les huîtres du bassin de Thau. Le musée Paul Valéry, sur les pentes du mont Saint-Clair, domine le cimetière marin où le poète est enterré, et le cimetière lui-même est une promenade. Les joutes nautiques et les festivals rythment l'été. Montpellier est accessible depuis Sète pour l'opéra et les spécialistes, et Narbonne ou Béziers pour les marchés.",
+      },
+      {
+        heading: "Les limites avant de signer",
+        body: "Trois points. La sécurité d'abord : 4,5/10 sur notre fiche ville, parmi les plus basses du lot avec Narbonne (4,1) et Nîmes (3,9), avec des quartiers contrastés. La saison ensuite : l'été, la ville est dense, chaude (25,5 °C de moyenne en juillet) et animée. Le vent enfin et la submersion. Sète convient au retraité qui veut la Méditerranée et une ville vivante avec une pension moyenne ; elle convient moins à celui qui recherche le calme d'une station résidentielle ou un haut niveau de sécurité.",
+      },
+    ],
+    relatedCities: ["sete", "montpellier", "beziers", "narbonne", "agde"],
+    relatedGuides: [
+      "10-choses-a-faire-a-sete-2026",
+      "retraite-a-montpellier-2026",
+      "retraite-a-hyeres-2026",
+      "retraite-bord-de-mer-france-villes-guide-2026",
+    ],
+    tags: ["retraite Sète 2026", "prendre sa retraite à Sète", "retraite Hérault bord de mer", "budget retraité Sète", "retraite Méditerranée petit budget"],
+  },
+  {
+    slug: "retraite-a-narbonne-2026",
+    title: "Retraite à Narbonne en 2026 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Narbonne 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Narbonne en 2026 : T2 à 680 €, m² à 2 400 €, 2 900 h de soleil, 32,6 % de 60 ans et plus, CHU à Montpellier. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Narbonne est l'une des villes de retraite les moins chères du bord de la Méditerranée : le deux-pièces y est estimé à 680 € et le mètre carré à 2 400 € (source : notre estimation des loyers). Elle offre 2 900 heures de soleil par an et 8 °C de moyenne en janvier, avec 32,6 % de 60 ans et plus et 13,2 % de 75 ans et plus (source : Insee, recensement 2022, contre des médianes de 26,2 % et 10,2 %). Notre score retraite est de 5,5/10, dans un palier de vingt villes à égalité, derrière 391 autres : un score moyen, porté par le coût et le soleil, tiré vers le bas par la sécurité (4,1/10).",
+    sections: [
+      {
+        heading: "Pourquoi Narbonne séduit à petit budget",
+        body: "Narbonne combine une vraie ville de 56 692 habitants, un patrimoine romain, un canal et la mer à quelques kilomètres, sans les prix de la côte varoise ou basque. La population augmente de 5,8 % entre 2016 et 2022, l'un des meilleurs rythmes de ce lot. Le climat est lumineux, avec 29 °C en juillet sur notre fiche climat et un vent, la tramontane, à connaître. C'est une ville de retraite pour qui veut une vie urbaine ordinaire plutôt qu'une station.",
+      },
+      {
+        heading: "Quel accès aux soins à Narbonne ?",
+        body: "Notre moteur d'accès aux soins estime Narbonne à 5,7/10, où 10 signifie un excellent accès, au niveau de la médiane de 5,5 : niveau « correct » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales départementales et la présence d'hôpitaux, pas une mesure de l'attente. Le CHU le plus proche est à Montpellier, à environ 85 kilomètres à vol d'oiseau selon notre calcul, soit trois fois la distance de Sète (27 km) : pour un suivi lourd, le déplacement est régulier. Vérifier auprès de l'ARS ou de la caisse l'offre de spécialistes avant de choisir un quartier.",
+      },
+      {
+        heading: "Se loger à Narbonne : un budget mesuré",
+        body: "T1 à 490 €, T2 à 680 €, T3 à 920 € et 2 400 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 144 000 € avant frais, soit moins de la moitié de Biarritz, et un peu moins que Sète (2 600 €/m²). Béziers, plus au nord, est plus abordable encore (530 € pour un T2) mais moins bien classée sur notre score de retraite. Le centre, autour des Halles et du canal, est plat et pratique sans voiture ; les lotissements périphériques supposent la voiture au quotidien.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Narbonne",
+        body: "Addition ligne par ligne. Personne seule locataire d'un deux-pièces : loyer 680 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 370 € par mois. Couple locataire d'un trois-pièces : loyer 920 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 950 € par mois. La pension moyenne de droit direct tourne autour de 1 500 € nets (source : DREES) : elle couvre ce budget pour une personne seule. Notre score de coût de la vie est de 5,9/10, parmi les meilleurs du lot.",
+      },
+      {
+        heading: "Vie quotidienne et patrimoine",
+        body: "Les Halles, ouvertes tous les jours et plus animées les jeudis et dimanches matins, sont le cœur de la vie sociale. Le canal de la Robine traverse la ville, relié au canal du Midi par le canal de jonction. Le musée Narbo Via, ouvert en 2021, présente les collections romaines, et l'Horreum conserve des galeries souterraines gallo-romaines. Une portion de la voie Domitia est visible place de l'Hôtel de Ville. Les plages sont à Narbonne-Plage, et Gruissan est accessible depuis Narbonne pour les marais salants. La cathédrale Saint-Just-et-Saint-Pasteur domine le centre.",
+      },
+      {
+        heading: "Les limites avant de s'engager",
+        body: "Trois points. La sécurité d'abord : 4,1/10 sur notre fiche ville, avec un niveau de vie médian de 19 850 € et un taux de pauvreté de 25 % (source : Insee, Filosofi 2021), donc une ville contrastée. Le vent ensuite : la tramontane souffle fort, et l'été est chaud. La santé enfin : le CHU est à Montpellier. Narbonne convient au retraité à pension moyenne qui veut du soleil, un centre vivant et la mer à proximité ; elle convient moins à celui qui veut une ville calme et très sûre ou un CHU à portée immédiate.",
+      },
+    ],
+    relatedCities: ["narbonne", "beziers", "sete", "perpignan", "carcassonne"],
+    relatedGuides: [
+      "10-choses-a-faire-a-narbonne-2026",
+      "retraite-a-perpignan-2026",
+      "retraite-bord-de-mer-france-villes-guide-2026",
+    ],
+    tags: ["retraite Narbonne 2026", "prendre sa retraite à Narbonne", "retraite Aude", "budget retraité Narbonne", "retraite soleil petit budget"],
+  },
+  {
+    slug: "retraite-a-nimes-2026",
+    title: "Retraite à Nîmes en 2026 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Nîmes 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Nîmes en 2026 : CHU sur place, T2 à 720 €, m² à 2 800 €, 27,4 % de 60 ans et plus, 2 700 h de soleil. Budget, santé, limites.",
+    category: "lifestyle",
+    emoji: "🏟️",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Nîmes est la seule ville de ce lot à abriter un CHU : notre moteur d'accès aux soins la place à 7,9/10, où 10 signifie un excellent accès, contre une médiane de 5,5. Le deux-pièces y est estimé à 720 € et le mètre carré à 2 800 € (source : notre estimation des loyers). Avec 27,4 % de 60 ans et plus et 10,7 % de 75 ans et plus (source : Insee, recensement 2022), c'est une grande ville de 150 444 habitants, pas une station de retraités. Notre score retraite est de 5,5/10, dans un palier de vingt villes à égalité, derrière 391 autres : la sécurité (3,9/10) et le taux de pauvreté de 31 % pèsent.",
+    sections: [
+      {
+        heading: "Pourquoi Nîmes pour un retraité malade ou prévoyant",
+        body: "C'est l'argument central : un retraité qui anticipe des soins réguliers cherche d'abord un CHU, et Nîmes en a un sur place. À 0 kilomètre dans notre calcul, la proximité du CHU est la meilleure du lot (Sète est à 27 km de Montpellier, Narbonne à 85 km). Le reste suit : le climat méditerranéen avec 6,5 °C en janvier et 2 700 heures de soleil, les 27,5 °C de moyenne en juillet, un coût de la vie moyen (5,9/10) et une vie culturelle de grande ville.",
+      },
+      {
+        heading: "Quel accès aux soins à Nîmes ?",
+        body: "Notre moteur d'accès aux soins estime Nîmes à 7,9/10, parmi les meilleurs de ce lot (Sète 6,3, Narbonne 5,7, Biarritz 5,3, Arcachon 3,5), niveau « facile » (source : notre fiche santé). Comme pour toutes les villes, c'est une estimation fondée sur les densités médicales départementales, la taille de la commune et la présence d'un CHU, pas une mesure de l'attente chez un spécialiste. L'avantage est structurel : urgences, spécialités et pharmacies sont à portée de tramway ou de voiture, sans trajet de plusieurs dizaines de kilomètres.",
+      },
+      {
+        heading: "Se loger à Nîmes : des prix mesurés",
+        body: "T1 à 520 €, T2 à 720 €, T3 à 960 € et 2 800 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 168 000 € avant frais. Avignon, voisine, est plus chère à l'achat (3 000 €/m²) et plus fragile sur notre score retraite (5,3/10). Le centre historique, entre les Arènes et la Maison Carrée, est pratique à pied ; les quartiers proches du Jardin de la Fontaine sont plus verts. Nîmes a connu des crues cévenoles : consulter Géorisques avant d'acheter ou de louer en rez-de-chaussée.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Nîmes",
+        body: "Addition ligne par ligne. Personne seule locataire d'un deux-pièces : loyer 720 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 410 € par mois. Couple locataire d'un trois-pièces : loyer 960 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 990 € par mois. La pension moyenne de droit direct (environ 1 500 € nets, source : DREES) couvre le budget d'une personne seule. Le niveau de vie médian de la commune est de 18 760 € par an (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Vie quotidienne : antique, jardins, vie culturelle",
+        body: "Les Arènes, la Maison Carrée, la tour Magne et les Jardins de la Fontaine font de Nîmes une ville de promenades. Le Carré d'Art, les concerts aux Arènes et les festivals animent l'année. Le Pont du Gard est accessible depuis Nîmes (à environ 26 kilomètres, selon l'office de tourisme), de même que la Camargue et les Cévennes pour les sorties. Le quotidien est celui d'une grande ville : marchés, commerces, tramway, vie associative, loin de l'entre-soi d'une station.",
+      },
+      {
+        heading: "Les limites avant de signer",
+        body: "Trois points. La sécurité d'abord : 3,9/10 sur notre fiche ville, la plus basse de ce lot, avec un taux de pauvreté de 31 % (source : Insee, Filosofi 2021). Le climat ensuite : étés chauds et épisodes cévenols intenses à l'automne. La mer enfin : Nîmes n'est pas une ville de bord de mer, et l'on n'y vit pas à pied de la plage. Nîmes convient au retraité pour qui la santé passe en premier, à budget modéré, qui apprécie une vraie ville ; elle convient moins à celui qui veut le calme ou la plage à pied.",
+      },
+    ],
+    relatedCities: ["nimes", "avignon", "montpellier", "arles"],
+    relatedGuides: [
+      "10-choses-a-faire-a-nimes-2026",
+      "vivre-a-nimes-2026",
+      "acheter-a-nimes-quel-quartier-budget-2026",
+      "famille-a-nimes-2026",
+    ],
+    tags: ["retraite Nîmes 2026", "prendre sa retraite à Nîmes", "retraite Gard", "budget retraité Nîmes", "retraite proximité CHU"],
+  },
+  {
     slug: "demenager-a-paris-2026",
     title: "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
     metaTitle: "Déménager à Paris 2026 — Logistique, budget, démarches",
