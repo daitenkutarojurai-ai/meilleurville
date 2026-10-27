@@ -2797,3 +2797,46 @@ propre, `npm run integrity`, `search-index` + `:check`, `hreflang:check`, `sitem
 **Reste** (inchangé depuis le 25/10) : 82 guides FR et 83 EN de la série parent solo citent encore « 363 », d'abord les
 écarts chiffrés à la médiane. **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy,
 Juvisy-sur-Orge).
+
+### 2026-10-27 — aucun lot : quatre paires parent solo remesurées à la main, médianes d'axe comprises (Belfort, Auxerre, Abbeville, Beaune)
+
+`seed-coverage` au départ : 593 villes, rien en attente du runner hors Carquefou (photo) et les manques permanents →
+lot autorisé, mais **aucune décision du propriétaire au § 0** (`git log` depuis le 26/10 hors `[scheduled-agent]` : deux
+passes `[local-runner]` ; rien sur le seed, `score-calibration.ts`, ROADMAP ni CLAUDE.md). Aucune ville ajoutée.
+
+*Livrable* : le motif qui bloquait le script du 25/10 sur 115 guides (« MEDIAN-SKIP ») n'est pas seulement l'écart
+chiffré à la médiane du composite : ce sont **les médianes de chaque mesure citée**, qui bougent toutes avec l'extension.
+Mesurées sur les communes ≥ 20 000 hab. (cohorte d'origine → corpus courant, `scripts/parent-solo-remeasure/ext.ts`) :
+
+| Mesure | 363 (origine) | 416 (courant) |
+|---|---|---|
+| composite parent solo | 5,5 | 5,4 |
+| coût / écoles / sécurité | 5,4 / 5,8 / 5,1 | 5,2 / 5,5 / 5,0 |
+| transports, amplitude des 4 axes | 6,4 ; 2,7 | inchangées |
+| T3 / m² / seuil d'entrée | 1 020 € / 2 900 € / 3 100 € | 1 080 € / 3 200 € / 3 200 € |
+| niveau de vie (Filosofi) | 21 420 € sur 357 | 21 675 € sur 410 |
+| taux de pauvreté | 20 % | 19 % |
+| part des 60 ans et plus / des moins de 30 ans | 24,2 % / 37,5 % sur 361 | 23,3 % / 37,7 % sur 414 |
+| franchissement du seuil par le ménage monoparental médian | 36 sur 357 | 41 sur 410 |
+| communes en recul 2011 → 2022 | 100 sur 361 | 105 sur 414 |
+
+Chaque chiffre d'origine des quatre paires a été **retrouvé sur la cohorte de 363 avant d'être remplacé**
+(`calc.mjs <slug>` donne rang, palier et taille de corpus des deux côtés), puis réécrit dans les deux locales (règle
+hreflang). Trois cas qui ne se réduisent pas à « 363 → 416 » : ① Belfort a **exactement** la part de seniors médiane
+du corpus courant (23,3 %) — « sous la médiane » est devenu « exactement la médiane du corpus » ; ② Abbeville partage
+désormais son T3 à 830 € avec **Sainte-Marie et Sainte-Suzanne** (La Réunion, villes d'extension), 89ᵉ et non 87ᵉ,
+metaDesc FR comprise (« 87e rang », chiffre qu'un contrôle sur « 363 » ne voit pas) ; et 29 communes des
+Hauts-de-France au lieu de 27 ; ③ Auxerre publiait une **position dans un palier** (« sixième valeur la plus basse… derrière
+Laval à 100 € ») alors que Laval est à égalité : réécrit « cinquième, à égalité avec Laval », comme le disait déjà sa
+metaDesc ; Beaune EN « 27th » → « joint 27th » (palier de 10).
+
+**Réécrits (4 paires, 8 guides, `updatedAt` 2026-10-27)** : Belfort, Auxerre, Abbeville, Beaune. Outils ajoutés au
+dossier `scripts/parent-solo-remeasure/` : `ext.ts` (projection étendue + médianes), `calc.mjs` (rangs d'une ville),
+`apply.mjs` (remplacements exacts, une occurrence exigée).
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `search-index` + `:check`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**Reste** : **78 guides FR et 79 EN** citent encore « 363 » (274 + 254 occurrences). Méthode à reprendre telle quelle,
+paire par paire : `calc.mjs`, puis relire **aussi les rangs écrits en chiffres** (« 87e », « 27th ») et les comptes de
+région. **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
