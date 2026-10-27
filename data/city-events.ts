@@ -497,6 +497,21 @@ export const CITY_EVENTS: CityEvent[] = [
     sourceUrl: "https://www.finishers.com/course/corrida-de-la-beaujoire",
     kind: "sport",
   },
+  {
+    id: "20-km-de-montpellier-2026-11-29",
+    citySlug: "montpellier",
+    title: "20 km de Montpellier",
+    titleEn: "Montpellier 20 km road race",
+    start: "2026-11-29",
+    venue: "Domaine d'O",
+    address: "Domaine d'O, 178 rue de la Carriérasse, 34090 Montpellier",
+    body: "Course sur route organisée par le Lions Club Montpellier Languedoc, avec un 20 km individuel, un relais 2 x 10 km et un 10 km. Le dossard se retire la veille en ville ou le matin même au Domaine d'O. Les parcours et les points de départ sont à confirmer sur la page d'inscription avant de venir.",
+    bodyEn: "A road race run by the Lions Club Montpellier Languedoc, with an individual 20 km, a 2 x 10 km relay and a 10 km. Bibs can be collected the day before in town or on the morning at the Domaine d'O. Check the registration page for courses and start points before you come.",
+    organizer: "Lions Club Montpellier Languedoc",
+    source: "Fiches de la course sur Finishers (validée par l'organisateur), Kerrun et TrainerDay",
+    sourceUrl: "https://finishers.com/course/20km-de-montpellier",
+    kind: "sport",
+  },
 ];
 
 assertKnownSlugs({
