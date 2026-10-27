@@ -41,12 +41,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// Familles indigo / rose / cyan / ciel uniquement : vert, ambre et violet sont
+// réservés aux paliers de score (identité « Couleurs »).
 const CATEGORY_COLOR: Record<string, string> = {
-  national: "bg-blue-500/10 text-blue-700 border-blue-500/20",
-  regional: "bg-amber-500/10 text-amber-700 border-amber-500/20",
-  saisonnier: "bg-emerald-500/10 text-emerald-700 border-emerald-500/20",
-  local: "bg-violet-500/10 text-violet-700 border-violet-500/20",
+  national: "bg-[var(--band-indigo)] text-[#4338CA]",
+  regional: "bg-[var(--band-pink)] text-[#BE185D]",
+  saisonnier: "bg-[var(--band-aqua)] text-[#0E7490]",
+  local: "bg-[var(--band-sky)] text-[#0369A1]",
 };
+
+// Tuiles de mois en rotation (extrémités ≥ 4,5:1 sur texte blanc).
+const MONTH_TILES = ["grad-head-0", "grad-head-5", "grad-head-4"] as const;
 
 const CATEGORY_LABEL: Record<string, string> = {
   national: "National",
@@ -80,7 +85,7 @@ export default async function AgendaPage({ params }: Props) {
       )}
       <main id="main-content" className="min-h-screen bg-[var(--bg-canvas)]">
         <Navbar />
-        <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+        <section className="relative overflow-hidden bg-aurora py-12">
           <div className="mx-auto max-w-3xl px-4 sm:px-6">
             <Breadcrumbs
               items={[
@@ -90,14 +95,14 @@ export default async function AgendaPage({ params }: Props) {
               ]}
             />
             <div className="mt-6 flex items-center gap-3">
-              <div className="rounded-xl bg-[var(--accent-soft)] text-[var(--accent)] p-2.5">
-                <CalendarDays className="h-6 w-6" />
+              <div className="grad-head-5 flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl shadow-[0_10px_24px_-10px_rgba(79,70,229,0.7)]">
+                <CalendarDays className="h-7 w-7" aria-hidden />
               </div>
               <div>
-                <h1 className="text-3xl font-bold text-[var(--text-primary)]">
+                <h1 className="text-3xl font-bold tracking-tight gradient-text">
                   Agenda culturel & saisonnier — {city.name}
                 </h1>
-                <p className="text-sm text-[var(--text-tertiary)] mt-1">
+                <p className="text-sm text-[var(--text-secondary)] mt-1">
                   Calendrier 2026 indicatif. Toujours vérifier les dates exactes sur le site de la mairie ou de l'office de tourisme.
                 </p>
               </div>
@@ -106,25 +111,31 @@ export default async function AgendaPage({ params }: Props) {
           </div>
         </section>
 
-        <section className="py-10">
+        {/* « À venir » (datés, sourcés) en bande ciel */}
+        <section className="band band-sky py-10">
           <div className="mx-auto max-w-3xl px-4 sm:px-6">
             <CityEvents events={events} cityName={city.name} locale="fr" />
+          </div>
+        </section>
 
-            <h2 className="mb-4 text-2xl font-bold text-[var(--text-primary)]">
+        {/* Mois par mois (indicatif) en bande indigo */}
+        <section className="band band-indigo py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <h2 className="mb-4 text-2xl font-bold tracking-tight gradient-text">
               Au fil de l&apos;année
             </h2>
             <ol className="space-y-4">
               {agenda.map((item, i) => (
                 <li
                   key={i}
-                  className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5"
+                  className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]"
                 >
-                  <div className="flex items-center gap-3 mb-2">
-                    <div className="text-xs font-semibold uppercase tracking-wide text-[var(--text-tertiary)] w-20 shrink-0">
+                  <div className="flex flex-wrap items-center gap-2 mb-2">
+                    <div className={`${MONTH_TILES[i % MONTH_TILES.length]} shrink-0 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide`}>
                       {item.monthLabel}
                     </div>
                     <span
-                      className={`text-xs font-medium px-2 py-0.5 rounded-full border ${CATEGORY_COLOR[item.category]}`}
+                      className={`text-xs font-semibold px-2.5 py-0.5 rounded-full ${CATEGORY_COLOR[item.category]}`}
                     >
                       {CATEGORY_LABEL[item.category]}
                     </span>
@@ -141,8 +152,13 @@ export default async function AgendaPage({ params }: Props) {
                 </li>
               ))}
             </ol>
+          </div>
+        </section>
 
-            <p className="mt-8 text-xs text-[var(--text-tertiary)] leading-relaxed">
+        {/* Méthode, renvois et discussion en bande blanche */}
+        <section className="band band-white py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <p className="text-xs text-[var(--text-tertiary)] leading-relaxed">
               Cet agenda combine événements nationaux confirmés (loi française pour le 14 juillet, Journées du patrimoine), événements régionaux structurels (Cannes, Avignon, Lorient, marchés de Noël alsaciens) et indicateurs saisonniers dérivés du climat moyen de la ville. Aucune date précise n'est garantie sans vérification auprès des organisateurs.
             </p>
 
@@ -168,7 +184,7 @@ export default async function AgendaPage({ params }: Props) {
             <div className="mt-8">
               <Link
                 href={`/villes/${city.slug}`}
-                className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent)] hover:underline"
+                className="inline-flex items-center gap-2 rounded-full bg-[var(--band-indigo)] px-4 py-2 text-sm font-semibold text-[#4338CA] transition-colors hover:bg-[#DCD7FF]"
               >
                 <ArrowLeft className="h-4 w-4" /> Retour à la fiche {city.name}
               </Link>

@@ -900,3 +900,31 @@ fichiers. Captures `next dev` + playwright `/guides/10-choses-a-faire-a-lyon-202
 1. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
 2. Page agenda `/villes/[slug]/agenda` + `components/CityEvents.tsx`.
 3. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx` (encore à filet gris dans la sidebar).
+
+## 2026-10-27 ~03:00 UTC — page agenda `/villes/[slug]/agenda` (FR ×540) + EN `/cities/[slug]/calendar` + `components/CityEvents.tsx`
+
+**Surface** : les deux gabarits d'agenda ville et le bloc « À venir » partagé. Avant : hero blanc à filet,
+tout le corps sur le fond de page, date d'événement en `.plaque` navy héritée, état vide en cadre pointillé,
+badge Sport à filet, cartes à filet gris, et surtout des **pastilles de catégorie en ambre / émeraude /
+violet**, couleurs réservées aux paliers de score.
+
+**Changé**
+- Hero `.bg-aurora`, icône en tuile `grad-head-5`, titre en `.gradient-text`.
+- Bandes : « À venir » `band-sky` → « Au fil de l'année » `band-indigo` → méthode, renvois et discussion
+  `band-white` (EN : le FeedbackWidget entre dans cette bande au lieu de flotter sur le fond de page).
+- `CityEvents` : cartes blanches à ombre indigo, tuile de date dégradée en rotation (`grad-head-0/5/4`, fin
+  de la plaque), état vide en carte blanche pleine (fin du pointillé), badge Sport en pilule rose, h2 en
+  `.gradient-text`, `mb-12` retiré (la bande porte l'espacement).
+- Mois en pilule dégradée en rotation ; catégories en pilules indigo / rose / aqua / ciel (fin de
+  l'ambre, de l'émeraude et du violet) ; « Retour à la fiche » en pilule indigo. Copie, données, JSON-LD,
+  ancres `#<id>` : inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 3
+fichiers : 3 erreurs `no-unescaped-entities` préexistantes (identiques avant le changement), 0 ajoutée.
+Captures `next dev` + playwright `/villes/orleans/agenda` 1440 et 390 px, `scrollWidth` = viewport. EN non
+capturé (route `[locale]` en dev). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Cartes internes de la fiche ville (`Card` « card-sheen ») / gabarits de sous-pages ville en bandes (ex. `climat`).
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. `components/ReportCTA.tsx` (carte à filet gauche, utilisée partout) et `DiscussionCTA` / `FeedbackWidget`.

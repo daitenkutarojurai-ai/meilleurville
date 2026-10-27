@@ -2,13 +2,18 @@
 // /cities/[slug]/calendar). Composant serveur, zéro JS : chaque événement porte
 // une ancre `#<id>` stable, c'est le lien qu'on renvoie à l'organisateur.
 //
-// Identité « Carte & plaque » : la date est une plaque émaillée (navy), aucune
-// couleur de palier de score (vert/ambre/rouge…) n'est utilisée en décoration.
+// Identité « Couleurs » : la date est une tuile dégradée (indigo / violet / rose,
+// en rotation), cartes blanches à ombre indigo. Aucune couleur de palier de score
+// (vert/lime/ambre/orange/rouge/violet) n'est utilisée en décoration.
 
 import { MapPin, Ticket, ExternalLink } from "lucide-react";
 import type { CityEvent } from "@/data/city-events";
 import { eventDateBadge, eventDateLabel } from "@/lib/city-events";
 import { ReportCTA } from "@/components/ReportCTA";
+
+// Tuiles de date en rotation. Seuls les dégradés dont les deux extrémités
+// tiennent le contraste sur du texte blanc (≥ 4,5:1) entrent ici.
+const DATE_TILES = ["grad-head-0", "grad-head-5", "grad-head-4"] as const;
 
 export function CityEvents({
   events,
@@ -22,8 +27,8 @@ export function CityEvents({
   const t = (fr: string, en: string) => (locale === "fr" ? fr : en);
 
   return (
-    <section aria-labelledby="a-venir" className="mb-12">
-      <h2 id="a-venir" className="text-2xl font-bold text-[var(--text-primary)]">
+    <section aria-labelledby="a-venir">
+      <h2 id="a-venir" className="text-2xl font-bold tracking-tight gradient-text">
         {t(`À venir à ${cityName}`, `Coming up in ${cityName}`)}
       </h2>
       <p className="mt-1 text-sm text-[var(--text-tertiary)]">
@@ -34,7 +39,7 @@ export function CityEvents({
       </p>
 
       {events.length === 0 ? (
-        <p className="mt-5 rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)] p-5 text-[var(--text-secondary)]">
+        <p className="mt-5 rounded-2xl bg-white p-5 text-[var(--text-secondary)] shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
           {t(
             `Aucun événement daté pour ${cityName} pour l'instant.`,
             `No dated event listed for ${cityName} yet.`,
@@ -42,18 +47,18 @@ export function CityEvents({
         </p>
       ) : (
         <ol className="mt-5 space-y-4">
-          {events.map((e) => {
+          {events.map((e, i) => {
             const badge = eventDateBadge(e, locale);
             const price = locale === "fr" ? e.price : e.priceEn;
             return (
               <li
                 key={e.id}
                 id={e.id}
-                className="scroll-mt-24 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 target:border-[var(--accent)] target:ring-2 target:ring-[var(--accent)]"
+                className="scroll-mt-24 rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] target:ring-2 target:ring-[var(--accent)]"
               >
                 <div className="flex gap-4">
                   <div
-                    className="plaque flex-col !gap-0 shrink-0 w-16 h-16 justify-center text-center leading-none"
+                    className={`${DATE_TILES[i % DATE_TILES.length]} flex shrink-0 flex-col items-center justify-center w-16 h-16 rounded-2xl text-center leading-none shadow-[0_10px_22px_-12px_rgba(79,70,229,0.7)]`}
                     aria-hidden="true"
                   >
                     <span className="text-2xl font-bold">{badge.day}</span>
@@ -63,7 +68,7 @@ export function CityEvents({
                     <p className="text-sm font-semibold text-[var(--accent)] first-letter:uppercase">
                       {eventDateLabel(e, locale)}
                       {e.kind === "sport" && (
-                        <span className="ml-2 inline-block rounded border border-[var(--accent)] px-1.5 py-px align-middle text-[0.7rem] font-semibold uppercase tracking-wide">
+                        <span className="ml-2 inline-block rounded-full bg-[var(--band-pink)] px-2 py-px align-middle text-[0.7rem] font-semibold uppercase tracking-wide text-[#BE185D]">
                           {t("Sport", "Sport")}
                         </span>
                       )}
