@@ -39783,6 +39783,264 @@ export const GUIDES: Guide[] = [
     tags: ["famille Saint-Brieuc 2026","vivre en famille Saint-Brieuc","loyer T3 Saint-Brieuc","écoles Saint-Brieuc","Saint-Brieuc avec enfants"],
   },
   {
+    slug: "famille-a-nevers-2026",
+    title: "Famille à Nevers en 2026 : un T3 à 710 €, Coût 8,2 au 41e rang, mais 23 % de pauvreté",
+    metaTitle: "Famille à Nevers 2026 : T3 710 €, Coût 8,2, Écoles 5,5",
+    metaDesc: "Famille à Nevers : T3 à 710 €, appartements à 1 050 €/m², maisons à 1 362 €, Coût 8,2, Écoles 5,5, 23 % de pauvreté, population stable (-0,2 %).",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Nevers loue un T3 710 € (notre estimation des loyers) et vend un appartement 1 050 € le m² : Coût 8,2, au rang 41 sur 593. Le revers est un niveau de vie médian de 20 050 € (rang 425 sur 586) et 23 % de pauvreté. La commune compte 33 172 habitants, en a perdu 0,2 % depuis 2016, et 14,4 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Nevers ?",
+        body: "Le T3 est à 710 €, le T2 à 530 €. L'appartement vaut 1 050 € le m² (658 ventes en 2024-2025) et la maison 1 362 € (373 ventes), soit 30 % de plus : l'écart tient au terrain, que le prix d'une maison inclut. Avec ces prix, un appartement familial de 80 m² se situe autour de 84 000 € au prix médian, hors frais de notaire.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 20 050 € par unité de consommation (Insee, Filosofi 2021), au rang 425 sur 586, avec 23 % de pauvreté. Auxerre est à 20 340 € et 22 % ; Bourges à 21 730 € et 20 %. Nevers cumule un loyer bas et un revenu local faible : pour une famille salariée ailleurs ou en télétravail, l'écart joue en sa faveur ; pour une famille qui cherche l'emploi sur place, il joue contre.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 5,5 (rang 271, 105 villes à égalité), Sécurité 5,7 (rang 241, 31 à égalité), Nature 5,7 (rang 262, 58 à égalité), Transports 5,5 (rang 332, 25 à égalité). Aucun axe ne décroche franchement, aucun ne porte le dossier : le prix est l'argument, et les écoles demandent à être regardées de près, établissement par établissement.",
+      },
+      {
+        heading: "Que faire avec des enfants à Nevers ?",
+        body: "Le parc Roger-Salengro, au cœur de la ville, sert de pelouse de pique-nique. Le palais ducal, de la fin du XVe siècle, accueille un aquarium consacré aux poissons de la Loire, à vérifier avant la visite. Les berges de la Loire sont aménagées pour la marche et le vélo, et un itinéraire de la Loire à vélo relie Nevers à La Charité-sur-Loire sur une quarantaine de kilomètres. Le musée de la faïence Frédéric-Blandin montre les productions locales du XVIe au XXe siècle.",
+      },
+      {
+        heading: "Nevers face à Bourges et à Montluçon",
+        body: "Bourges loue un T3 760 € avec 5,8 en Écoles et vend 1 570 € le m². Montluçon loue 650 € avec 4,9 en Écoles, pour un appartement à 680 €. Nevers (710 € ; 5,5 ; 1 050 €) se place au milieu : 50 € sous Bourges, 60 € au-dessus de Montluçon, avec une école mieux notée que cette dernière. Sur l'achat, l'écart avec Bourges atteint un tiers.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Nevers convient aux familles qui achètent ou louent au plus bas de la Bourgogne-Franche-Comté et du Centre, qui travaillent à distance ou ont un emploi sur place assuré, et qui acceptent une ville stable sans élan démographique. Celles qui misent sur une école très bien notée ou sur un marché de l'emploi large regarderont Dijon ou Tours.",
+      },
+    ],
+    relatedCities: ["nevers","bourges","montlucon","auxerre"],
+    relatedGuides: [
+      "10-choses-a-faire-a-nevers-2026",
+    ],
+    tags: ["famille Nevers 2026","vivre en famille Nevers","loyer T3 Nevers","écoles Nevers","Nevers avec enfants"],
+  },
+  {
+    slug: "famille-a-cholet-2026",
+    title: "Famille à Cholet en 2026 : Écoles 7,7, Sécurité 7,1 et un T3 à 800 €, 200 € sous Angers",
+    metaTitle: "Famille à Cholet 2026 : T3 800 €, Écoles 7,7, Sécurité 7,1",
+    metaDesc: "Famille à Cholet : T3 à 800 €, appartements à 2 007 €/m², maisons à 2 106 €, Écoles 7,7, Sécurité 7,1, 14 % de pauvreté, 16,9 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Cholet cumule deux bonnes notes pour une famille : Écoles 7,7 (rang 38 sur 593) et Sécurité 7,1 (rang 121), avec un T3 à 800 € (notre estimation des loyers). L'appartement vaut 2 007 € le m². La commune compte 54 074 habitants, en a gagné 0,7 % depuis 2016, 16,9 % ont moins de 15 ans et la pauvreté est de 14 %.",
+    sections: [
+      {
+        heading: "Quel budget logement à Cholet ?",
+        body: "Le T3 est à 800 €, le T2 à 600 €. L'appartement vaut 2 007 € le m² (474 ventes en 2024-2025) et la maison 2 106 € (915 ventes), 5 % de plus seulement : l'un des plus petits écarts du lot, ce qui rend la maison accessible là où elle est ailleurs un saut de budget. La maison pèse deux ventes sur trois, ce qui dit où va le marché.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 21 960 € par unité de consommation (Insee, Filosofi 2021), au rang 248 sur 586, avec 14 % de pauvreté. Angers est à 21 450 € avec 21 % de pauvreté : Cholet y gagne sur les deux colonnes, pour un T3 200 € moins cher.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 7,7 (rang 38, 52 villes à égalité), Sécurité 7,1 (rang 121, 3 à égalité), Transports 6,2 (rang 248, 33 à égalité), Nature 5,7 (rang 262, 58 à égalité). C'est la sécurité, rare à ce niveau, qui distingue la ville : seules deux autres communes partagent sa note. La nature est la case faible, mais le lac est à portée.",
+      },
+      {
+        heading: "Que faire avec des enfants à Cholet ?",
+        body: "Le lac de Ribou, de 85 hectares, accueille un centre d'activités de plein air (canoë, voile, aviron pour les enfants qui savent nager) ; la baignade y est interdite, et il faut une voiture pour s'y rendre depuis le centre. Le musée du Textile et de la Mode propose un livret-jeu pour les enfants, avec une gratuité le samedi hors été à vérifier. Le Puy du Fou est accessible depuis Cholet, mais relève d'autres communes : la durée du trajet se vérifie sur un calculateur d'itinéraire.",
+      },
+      {
+        heading: "Cholet face à Angers et à Saint-Sébastien-sur-Loire",
+        body: "Angers loue un T3 1 000 € avec 7,9 en Écoles mais 5,7 en Sécurité ; Saint-Sébastien-sur-Loire, 930 € avec 6,0 en Écoles. Cholet (800 € ; 7,7 ; 7,1) est 130 à 200 € plus abordable, avec la meilleure sécurité des trois et une école à 0,2 point d'Angers. À l'achat, l'appartement cholétais est à 2 007 € le m² contre 3 143 € à Angers.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Cholet convient aux familles qui veulent une école bien notée, une sécurité dans le haut du tableau et un loyer sous 850 €, avec une voiture pour le lac et les environs. Celles qui travaillent à Nantes ou à Angers au quotidien compteront le trajet avant de signer.",
+      },
+    ],
+    relatedCities: ["cholet","angers","saint-sebastien-sur-loire","nantes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cholet-2026",
+    ],
+    tags: ["famille Cholet 2026","vivre en famille Cholet","loyer T3 Cholet","écoles Cholet","Cholet avec enfants"],
+  },
+  {
+    slug: "famille-a-albi-2026",
+    title: "Famille à Albi en 2026 : Écoles 7,7, un T3 à 840 € et une maison moins chère que l'appartement",
+    metaTitle: "Famille à Albi 2026 : T3 840 €, Écoles 7,7, Sécurité 6,7",
+    metaDesc: "Famille à Albi : T3 à 840 €, appartements à 2 392 €/m², maisons à 2 018 €, Écoles 7,7, Sécurité 6,7, population en hausse de 3,2 %, 20 % de pauvreté.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Albi loue un T3 840 € (notre estimation des loyers) et affiche Écoles 7,7 (rang 38 sur 593) avec Sécurité 6,7 (rang 145). Particularité : le m² d'appartement, 2 392 €, dépasse celui de la maison, 2 018 €. La commune compte 50 605 habitants, en a gagné 3,2 % depuis 2016, et seulement 12,7 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Albi ?",
+        body: "Le T3 est à 840 €, le T2 à 620 €. L'appartement vaut 2 392 € le m² (618 ventes en 2024-2025) et la maison 2 018 € (697 ventes) : la maison est 16 % moins chère au m², un renversement rare, qui tient sans doute à la localisation des biens, que nos données ne détaillent pas. À budget égal, la maison offre donc plus de mètres carrés.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 21 650 € par unité de consommation (Insee, Filosofi 2021), au rang 277 sur 586, avec 20 % de pauvreté. Castres est à 20 940 € et 21 % de pauvreté pour un T3 à 700 €. La part des moins de 15 ans (12,7 %) est basse : c'est une part basse, à vérifier dans la carte scolaire du quartier visé.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 7,7 (rang 38, 52 villes à égalité), Sécurité 6,7 (rang 145, 5 à égalité), Nature 6,4 (rang 173, 61 à égalité), Transports 5,5 (rang 332, 25 à égalité), Coût 7,6 (rang 66). Le profil est équilibré, avec les transports pour seule note moyenne : à Albi, la voiture reste utile.",
+      },
+      {
+        heading: "Que faire avec des enfants à Albi ?",
+        body: "La cité épiscopale est inscrite à l'UNESCO depuis 2010 ; elle couvre environ 20 hectares, avec la cathédrale Sainte-Cécile, l'église Saint-Salvi, le Vieux Pont et les berges du Tarn. Le musée Toulouse-Lautrec occupe l'ancien palais des évêques, dont les jardins en terrasses dominent le Tarn. Les berges se prêtent à la balade à pied ou à vélo ; les horaires et les animations jeunesse se vérifient auprès de l'office de tourisme.",
+      },
+      {
+        heading: "Albi face à Castres et à Toulouse",
+        body: "Castres loue un T3 700 € avec 6,6 en Écoles ; Toulouse, 1 150 € avec 9,0 en Écoles (rang 1) mais 4,3 en Sécurité. Albi (840 € ; 7,7 ; 6,7) est 310 € sous Toulouse avec une meilleure sécurité de 2,4 points, et 140 € au-dessus de Castres pour 1,1 point d'école en plus. À l'achat, l'appartement albigeois est à 2 392 € le m² contre 3 222 € à Toulouse.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Albi convient aux familles qui veulent une bonne école, une ville en hausse et un centre patrimonial, qui visent de préférence la maison hors du centre, et qui travaillent à Albi ou peuvent faire le trajet vers Toulouse. Celles qui exigent un réseau de transport dense ou une grande ville au quotidien resteront à Toulouse.",
+      },
+    ],
+    relatedCities: ["albi","castres","toulouse","montauban"],
+    relatedGuides: [
+      "10-choses-a-faire-a-albi-2026",
+    ],
+    tags: ["famille Albi 2026","vivre en famille Albi","loyer T3 Albi","écoles Albi","Albi avec enfants"],
+  },
+  {
+    slug: "famille-a-laval-2026",
+    title: "Famille à Laval en 2026 : T3 à 660 €, Sécurité 6,8 au 138e rang et une ville au repos démographique",
+    metaTitle: "Famille à Laval 2026 : T3 660 €, Sécurité 6,8, Écoles 6,6",
+    metaDesc: "Famille à Laval : T3 à 660 €, appartements à 2 035 €/m², maisons à 2 164 €, Sécurité 6,8, Écoles 6,6, 18 % de pauvreté, 16 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Laval loue un T3 660 € (notre estimation des loyers), le même loyer qu'Auxerre ou Épinal, et obtient Sécurité 6,8 (rang 138 sur 593) avec Écoles 6,6 (rang 105). L'appartement vaut 2 035 € le m². La commune compte 49 474 habitants, stable depuis 2016 (0,0 %), et 16 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Laval ?",
+        body: "Le T3 est à 660 €, le T2 à 490 €. L'appartement vaut 2 035 € le m² (754 ventes en 2024-2025) et la maison 2 164 € (701 ventes), 6 % de plus : un écart mince, donc une maison abordable pour qui a un apport. Le loyer est bas, mais le prix d'achat ne l'est pas autant : il dépasse celui du Mans pour l'appartement.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 21 660 € par unité de consommation (Insee, Filosofi 2021), au rang 276 sur 586, avec 18 % de pauvreté. Le Mans est à 21 180 € avec 22 % de pauvreté. Laval a un revenu médian plus élevé et une pauvreté plus basse que sa voisine sarthoise.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Sécurité 6,8 (rang 138, 7 à égalité), Écoles 6,6 (rang 105, 110 à égalité), Coût 7,2 (rang 110), Nature 5,7 (rang 262), Transports 5,5 (rang 332). La sécurité est la note qui se détache ; l'école est dans la moyenne haute, partagée avec 109 autres villes, donc sans rang distinctif.",
+      },
+      {
+        heading: "Que faire avec des enfants à Laval ?",
+        body: "Le jardin de la Perrine, au centre et gratuit, réunit une ferme pour enfants, des aires de jeux et un manège. À côté, le musée des sciences (CCSTI) propose des expositions interactives, à vérifier pour les horaires. Le Vieux-Château abrite le musée d'art naïf, créé en 1967 en mémoire du Douanier Rousseau, né à Laval en 1844 : trois de ses toiles seulement y sont exposées. Le chemin de halage de la Mayenne fait partie de la Vélo Francette.",
+      },
+      {
+        heading: "Laval face au Mans et à Rennes",
+        body: "Le Mans loue un T3 870 € avec 6,2 en Écoles et 5,3 en Sécurité ; Rennes, 1 100 € avec 9,0 en Écoles. Laval (660 € ; 6,6 ; 6,8) est 210 € sous Le Mans avec de meilleures notes d'école et de sécurité, mais 100 € de plus au m² à l'achat (2 035 € contre 1 933 €). Rennes offre une école au rang 1, pour 440 € de loyer en plus.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Laval convient aux familles qui louent, qui veulent une sécurité haute, un loyer sous 700 € et une ville à taille humaine reliée à Rennes et à Angers. Celles qui veulent acheter au prix le plus bas de l'Ouest regarderont Le Mans, moins cher au m².",
+      },
+    ],
+    relatedCities: ["laval","le-mans","rennes","angers"],
+    relatedGuides: [
+      "10-choses-a-faire-a-laval-2026",
+    ],
+    tags: ["famille Laval 2026","vivre en famille Laval","loyer T3 Laval","écoles Laval","Laval avec enfants"],
+  },
+  {
+    slug: "famille-a-saint-malo-2026",
+    title: "Famille à Saint-Malo en 2026 : la mer, Nature 7,2, mais un appartement à 4 531 € le m²",
+    metaTitle: "Famille à Saint-Malo 2026 : T3 1 080 €, Nature 7,2, 4 531 €/m²",
+    metaDesc: "Famille à Saint-Malo : T3 à 1 080 €, appartements à 4 531 €/m², Nature 7,2, Écoles 6,2, Coût 5,0, 13 % de pauvreté, 11,9 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Saint-Malo loue un T3 1 080 € (notre estimation des loyers), à peine sous Rennes, et vend un appartement 4 531 € le m², 24 % de plus qu'à Rennes. Elle compense par Nature 7,2 (rang 90 sur 593). La commune compte 47 255 habitants, en a gagné 2,7 % depuis 2016, et seulement 11,9 % ont moins de 15 ans : la part la plus basse du lot.",
+    sections: [
+      {
+        heading: "Quel budget logement à Saint-Malo ?",
+        body: "Le T3 est à 1 080 €, le T2 à 800 €. L'appartement vaut 4 531 € le m² (1 041 ventes en 2024-2025) et la maison 4 517 € (588 ventes) : les deux prix sont identiques, le type de bien compte peu dans ce marché. Un appartement familial de 80 m² dépasse ainsi 360 000 € au prix médian, hors frais.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 23 490 € par unité de consommation (Insee, Filosofi 2021), au rang 169 sur 586, avec 13 % de pauvreté. Saint-Brieuc est à 20 910 € avec 21 % de pauvreté. Le revenu est élevé pour la Bretagne, et il ne couvre pas pour autant l'écart de prix à l'achat avec les villes voisines.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Nature 7,2 (rang 90, 12 à égalité), Sécurité 6,5 (rang 151, 26 à égalité), Écoles 6,2 (rang 219, 28 à égalité), Transports 5,2 (rang 358, 11 à égalité), Coût 5,0 (rang 360, 43 à égalité). La nature et la sécurité portent la ville ; le coût et les transports sont les points à budgéter, en particulier pour une famille sans voiture.",
+      },
+      {
+        heading: "Que faire avec des enfants à Saint-Malo ?",
+        body: "À marée basse, le Fort National se rejoint à pied depuis la plage du Sillon, longue de 3 km ; le Grand Bé, où se trouve la tombe de Chateaubriand, et le Petit Bé s'atteignent par le passage des Bés. La plage de Bon-Secours a une piscine naturelle où les enfants se baignent même à marée basse. Le Grand Aquarium propose un bassin tactile et le Nautibus. Les marées dépassent parfois dix mètres : l'horaire se consulte avant chaque sortie sur l'estran. Les remparts se parcourent tôt le matin.",
+      },
+      {
+        heading: "Saint-Malo face à Rennes et à Saint-Brieuc",
+        body: "Rennes loue un T3 1 100 € avec 9,0 en Écoles et vend 3 667 € le m² ; Saint-Brieuc, 780 € avec 6,2 en Écoles et 1 760 € le m². Saint-Malo (1 080 € ; 6,2 ; 4 531 €) a la même note d'école que Saint-Brieuc pour 300 € de loyer en plus, et un m² 2,6 fois plus cher. Elle vend la mer ; Rennes vend l'école.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Saint-Malo convient aux familles à bon revenu qui veulent la mer au quotidien, une nature notée 7,2 et un revenu local élevé, au prix d'un achat cher. Celles qui visent un budget logement bas, ou une école très bien notée, regarderont Saint-Brieuc ou Rennes.",
+      },
+    ],
+    relatedCities: ["saint-malo","rennes","saint-brieuc","dinan"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-malo-2026",
+    ],
+    tags: ["famille Saint-Malo 2026","vivre en famille Saint-Malo","loyer T3 Saint-Malo","écoles Saint-Malo","Saint-Malo avec enfants"],
+  },
+  {
+    slug: "famille-a-belfort-2026",
+    title: "Famille à Belfort en 2026 : un T3 à 690 €, un appartement à 1 275 € le m² et 6,8 % d'habitants en moins",
+    metaTitle: "Famille à Belfort 2026 : T3 690 €, Écoles 6,6, 29 % de pauvreté",
+    metaDesc: "Famille à Belfort : T3 à 690 €, appartements à 1 275 €/m², maisons à 1 655 €, Écoles 6,6, Transports 6,2, 29 % de pauvreté, population en baisse de 6,8 %.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro: "Belfort loue un T3 690 € (notre estimation des loyers) et vend un appartement 1 275 € le m², avec Écoles 6,6 (rang 105 sur 593) et Transports 6,2 (rang 248). Le prix du bas de marché a une contrepartie : un niveau de vie de 18 850 € (rang 503 sur 586), 29 % de pauvreté et une commune de 45 646 habitants qui en a perdu 6,8 % depuis 2016. 17,2 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Belfort ?",
+        body: "Le T3 est à 690 €, le T2 à 520 €. L'appartement vaut 1 275 € le m² (1 060 ventes en 2024-2025) et la maison 1 655 €, soit 30 % de plus ; ce dernier prix repose sur 172 ventes seulement, un échantillon plus mince à lire avec prudence. L'appartement, lui, s'appuie sur plus d'un millier de transactions.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 18 850 € par unité de consommation (Insee, Filosofi 2021), au rang 503 sur 586, avec 29 % de pauvreté. Montbéliard est à 18 600 € et 28 % ; Épinal à 20 140 € et 25 %. Les trois villes ont le même profil de bassin industriel, et Belfort ne s'en distingue pas favorablement sur le revenu.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 6,6 (rang 105, 110 villes à égalité), Transports 6,2 (rang 248, 33 à égalité), Coût 7,2 (rang 110), Sécurité 5,5 (rang 275, 25 à égalité), Nature 5,7 (rang 262). Des notes de milieu de tableau : l'argument de Belfort est le rapport entre un loyer bas et des transports corrects, pas un critère isolé.",
+      },
+      {
+        heading: "Que faire avec des enfants à Belfort ?",
+        body: "Le Lion de Bartholdi, sculpté de 1875 à 1880, mesure 22 m de long pour 11 m de haut et rappelle la résistance de la ville au siège de 1870-1871. La citadelle se monte à pied ou, en saison, par un train touristique, et sa terrasse offre une vue sur la ville et les Vosges. L'étang des Forges, en lisière de la ville, se contourne à pied ; le lac du Malsaucy, qui accueille les Eurockéennes en juillet, est accessible depuis Belfort sans se trouver dans la commune.",
+      },
+      {
+        heading: "Belfort face à Montbéliard et à Épinal",
+        body: "Montbéliard loue un T3 720 € avec 6,6 en Écoles et 19,8 % de moins de 15 ans ; Épinal, 660 € avec 6,2 en Écoles. Belfort (690 € ; 6,6) est à 30 € sous Montbéliard pour la même note d'école, et vend l'appartement 1 275 € le m² contre 934 € à Montbéliard et 1 352 € à Épinal. Épinal compte 2,3 % d'habitants de plus depuis 2016 quand Belfort en perd 6,8 %.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Belfort convient aux familles qui veulent un loyer sous 700 €, une école au niveau médian, et qui ont leur emploi assuré : la ville n'a ni la croissance ni le revenu pour compenser sur place. Celles qui hésitent sur la tendance démographique regarderont d'abord Épinal, en hausse.",
+      },
+    ],
+    relatedCities: ["belfort","montbeliard","epinal","mulhouse"],
+    relatedGuides: [
+      "10-choses-a-faire-a-belfort-2026",
+    ],
+    tags: ["famille Belfort 2026","vivre en famille Belfort","loyer T3 Belfort","écoles Belfort","Belfort avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
