@@ -7657,6 +7657,36 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-nevers-2026",
+      "title": "Family life in Nevers (2026): a €710 T3 and cost 8.2, but 23% poverty",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-cholet-2026",
+      "title": "Family life in Cholet (2026): schools 7.7, safety 7.1 and a €800 T3, €200 under Angers",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-albi-2026",
+      "title": "Family life in Albi (2026): schools 7.7, a €840 T3 and houses cheaper than flats",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-laval-2026",
+      "title": "Family life in Laval (2026): a €660 T3, safety 6.8 and a town at demographic rest",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-saint-malo-2026",
+      "title": "Family life in Saint-Malo (2026): the sea, nature 7.2, but flats at €4,531 per m²",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-belfort-2026",
+      "title": "Family life in Belfort (2026): a €690 T3, flats at €1,275 per m² and 6.8% fewer residents",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -9546,7 +9576,7 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 76
+      "count": 77
     },
     {
       "slug": "grand-est",
@@ -9574,6 +9604,16 @@
       "count": 64
     },
     {
+      "slug": "french-school-system",
+      "label": "french school system",
+      "count": 63
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 62
+    },
+    {
       "slug": "relocation",
       "label": "relocation",
       "count": 59
@@ -9589,19 +9629,9 @@
       "count": 58
     },
     {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 57
-    },
-    {
       "slug": "single-supplement",
       "label": "single supplement",
       "count": 57
-    },
-    {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 56
     },
     {
       "slug": "real-estate",
@@ -9611,12 +9641,12 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 48
+      "count": 50
     },
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 47
+      "count": 48
     },
     {
       "slug": "cost-of-living",
@@ -9676,7 +9706,7 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "budget",
@@ -9686,7 +9716,7 @@
     {
       "slug": "burgundy",
       "label": "burgundy",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "alsace",

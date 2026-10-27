@@ -33919,6 +33919,258 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["saint-brieuc","moving to france with children","french school system","brittany"],
   },
   {
+    slug: "family-in-nevers-2026",
+    title: "Family life in Nevers (2026): a €710 T3 and cost 8.2, but 23% poverty",
+    metaTitle: "Family Life in Nevers 2026: €710 T3, Cost 8.2, Schools 5.5",
+    metaDesc:
+      "Raising children in Nevers in 2026: a €710 T3, flats at €1,050 per m², houses at €1,362, cost 8.2, schools 5.5, 23% poverty, population steady (-0.2%).",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro:
+      "Nevers rents a T3 (two bedrooms and a living room) at €710 on our rent estimate and sells a flat at €1,050 per m²: cost 8.2, rank 41 of 593. The flip side is a median living standard of €20,050 (rank 425 of 586) and 23% poverty. The commune has 33,172 residents, down 0.2% since 2016, and 14.4% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Nevers?",
+        body: "The T3 is €710 and the T2 €530. A flat is €1,050 per m² (658 sales in 2024-2025, national DVF property register) and a house €1,362 (373 sales), 30% more; a house price includes its land. At the median flat price, a 80 m² family apartment comes to about €84,000, before notary fees.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €20,050 per consumption unit (Insee, Filosofi 2021), rank 425 of 586, with 23% poverty. Auxerre is at €20,340 and 22%; Bourges at €21,730 and 20%. Nevers combines low rents with a weak local income: for a family whose pay comes from elsewhere or from remote work, the gap works in its favour; for one looking for local jobs, it works against.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 5.5 (rank 271, 105 cities tied), safety 5.7 (rank 241, 31 tied), nature 5.7 (rank 262, 58 tied), transport 5.5 (rank 332, 25 tied). No axis falls off a cliff and none carries the case: price is the argument, and schools need to be checked school by school, through the carte scolaire (the catchment map tied to your address).",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Roger-Salengro park, in the centre, doubles as a picnic lawn. The ducal palace, from the late 15th century, houses an aquarium of Loire fish; check before visiting. The Loire riverbanks are laid out for walking and cycling, and a Loire à Vélo stretch links Nevers to La Charité-sur-Loire over about forty kilometres. The Frédéric-Blandin faience museum shows local pottery from the 16th to the 20th century.",
+      },
+      {
+        heading: "Nevers against Bourges and Montluçon",
+        body: "Bourges rents a T3 at €760 with 5.8 on schools and sells at €1,570 per m². Montluçon rents at €650 with 4.9 on schools, for a flat at €680. Nevers (€710; 5.5; €1,050) sits in the middle: €50 under Bourges, €60 over Montluçon, with a better school score than the latter. On purchase, the gap with Bourges is a third.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who rent or buy at the low end of Bourgogne-Franche-Comté and Centre, work remotely or have a secured local job, and accept a steady town with no demographic momentum. Those betting on a highly rated school or a wide job market will look at Dijon or Tours.",
+      },
+    ],
+    relatedCities: ["nevers","bourges","montlucon","auxerre"],
+    tags: ["nevers","moving to france with children","french school system","burgundy"],
+  },
+  {
+    slug: "family-in-cholet-2026",
+    title: "Family life in Cholet (2026): schools 7.7, safety 7.1 and a €800 T3, €200 under Angers",
+    metaTitle: "Family Life in Cholet 2026: €800 T3, Schools 7.7, Safety 7.1",
+    metaDesc:
+      "Raising children in Cholet in 2026: a €800 T3, flats at €2,007 per m², houses at €2,106, schools 7.7, safety 7.1, 14% poverty, 16.9% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro:
+      "Cholet pairs two good marks for a family: schools 7.7 (rank 38 of 593) and safety 7.1 (rank 121), with a T3 (two bedrooms and a living room) at €800 on our rent estimate. A flat sells at €2,007 per m². The commune has 54,074 residents, up 0.7% since 2016; 16.9% are under 15 and poverty is 14%.",
+    sections: [
+      {
+        heading: "What is the housing budget in Cholet?",
+        body: "The T3 is €800 and the T2 €600. A flat is €2,007 per m² (474 sales in 2024-2025, national DVF property register) and a house €2,106 (915 sales), only 5% more: one of the smallest gaps of the batch, which puts a house within reach where elsewhere it is a leap in budget. Houses account for two sales in three, which shows where the market goes.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €21,960 per consumption unit (Insee, Filosofi 2021), rank 248 of 586, with 14% poverty. Angers is at €21,450 with 21% poverty: Cholet comes out ahead on both columns, for a T3 €200 cheaper.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 7.7 (rank 38, 52 cities tied), safety 7.1 (rank 121, 3 tied), transport 6.2 (rank 248, 33 tied), nature 5.7 (rank 262, 58 tied). Safety, rare at this level, is what sets the town apart: only two other communes share its mark. Nature is the weak box, but the lake is within reach. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "Lac de Ribou, 85 hectares, has an outdoor activity centre (canoe, sailing, rowing for children who can swim); swimming in the lake is banned, and you need a car to reach it from the centre. The Textile and Fashion Museum offers a game booklet for children, with free entry on Saturdays outside summer to be checked. Puy du Fou can be reached from Cholet but lies in other communes: check the journey time on a route planner.",
+      },
+      {
+        heading: "Cholet against Angers and Saint-Sébastien-sur-Loire",
+        body: "Angers rents a T3 at €1,000 with 7.9 on schools but 5.7 on safety; Saint-Sébastien-sur-Loire at €930 with 6.0 on schools. Cholet (€800; 7.7; 7.1) is €130 to €200 cheaper, with the best safety of the three and a school mark 0.2 points from Angers. On purchase, a flat in Cholet is €2,007 per m² against €3,143 in Angers.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a well-rated school, safety in the upper part of the table and a rent under €850, with a car for the lake and the surroundings. Those commuting daily to Nantes or Angers should count the journey before signing.",
+      },
+    ],
+    relatedCities: ["cholet","angers","saint-sebastien-sur-loire","nantes"],
+    tags: ["cholet","moving to france with children","french school system","pays de la loire"],
+  },
+  {
+    slug: "family-in-albi-2026",
+    title: "Family life in Albi (2026): schools 7.7, a €840 T3 and houses cheaper than flats",
+    metaTitle: "Family Life in Albi 2026: €840 T3, Schools 7.7, Safety 6.7",
+    metaDesc:
+      "Raising children in Albi in 2026: a €840 T3, flats at €2,392 per m², houses at €2,018, schools 7.7, safety 6.7, population up 3.2%, 20% poverty.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro:
+      "Albi rents a T3 (two bedrooms and a living room) at €840 on our rent estimate, with schools 7.7 (rank 38 of 593) and safety 6.7 (rank 145). One oddity: flats, at €2,392 per m², cost more than houses at €2,018. The commune has 50,605 residents, up 3.2% since 2016, and only 12.7% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Albi?",
+        body: "The T3 is €840 and the T2 €620. A flat is €2,392 per m² (618 sales in 2024-2025, national DVF property register) and a house €2,018 (697 sales): the house is 16% cheaper per m², a rare reversal that probably comes from where the properties sit, which our data does not break down. For the same budget, a house therefore buys more square metres.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €21,650 per consumption unit (Insee, Filosofi 2021), rank 277 of 586, with 20% poverty. Castres is at €20,940 and 21% poverty, for a T3 at €700. The share of under-15s (12.7%) is low; check it against the school catchment of the neighbourhood you have in mind.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 7.7 (rank 38, 52 cities tied), safety 6.7 (rank 145, 5 tied), nature 6.4 (rank 173, 61 tied), transport 5.5 (rank 332, 25 tied), cost 7.6 (rank 66). The profile is balanced, with transport the only middling mark: in Albi, a car remains useful. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The episcopal city has been a UNESCO site since 2010, covering about 20 hectares, with Sainte-Cécile cathedral, Saint-Salvi church, the Old Bridge and the banks of the Tarn. The Toulouse-Lautrec museum occupies the former bishops' palace, whose terraced gardens overlook the Tarn. The riverbanks suit a walk or a bike ride; opening hours and children's activities are best checked with the tourist office.",
+      },
+      {
+        heading: "Albi against Castres and Toulouse",
+        body: "Castres rents a T3 at €700 with 6.6 on schools; Toulouse at €1,150 with 9.0 on schools (rank 1) but 4.3 on safety. Albi (€840; 7.7; 6.7) is €310 under Toulouse with safety 2.4 points higher, and €140 above Castres for 1.1 more points on schools. On purchase, a flat in Albi is €2,392 per m² against €3,222 in Toulouse.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a good school, a growing town and a heritage centre, who would rather aim at a house outside the centre, and who work in Albi or can manage the trip to Toulouse. Those who need a dense transport network or a big city every day will stay in Toulouse.",
+      },
+    ],
+    relatedCities: ["albi","castres","toulouse","montauban"],
+    tags: ["albi","moving to france with children","french school system","occitanie"],
+  },
+  {
+    slug: "family-in-laval-2026",
+    title: "Family life in Laval (2026): a €660 T3, safety 6.8 and a town at demographic rest",
+    metaTitle: "Family Life in Laval 2026: €660 T3, Safety 6.8, Schools 6.6",
+    metaDesc:
+      "Raising children in Laval in 2026: a €660 T3, flats at €2,035 per m², houses at €2,164, safety 6.8, schools 6.6, 18% poverty, 16% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro:
+      "Laval rents a T3 (two bedrooms and a living room) at €660 on our rent estimate, the same as Auxerre or Épinal, and scores safety 6.8 (rank 138 of 593) with schools 6.6 (rank 105). A flat sells at €2,035 per m². The commune has 49,474 residents, steady since 2016 (0.0%), and 16% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Laval?",
+        body: "The T3 is €660 and the T2 €490. A flat is €2,035 per m² (754 sales in 2024-2025, national DVF property register) and a house €2,164 (701 sales), 6% more: a thin gap, so a house is within reach for anyone with a deposit. Rents are low but the purchase price is not as low: a flat costs more than in Le Mans.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €21,660 per consumption unit (Insee, Filosofi 2021), rank 276 of 586, with 18% poverty. Le Mans is at €21,180 with 22% poverty. Laval has a higher median income and lower poverty than its neighbour in the Sarthe.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Safety 6.8 (rank 138, 7 tied), schools 6.6 (rank 105, 110 tied), cost 7.2 (rank 110), nature 5.7 (rank 262), transport 5.5 (rank 332). Safety is the mark that stands out; schools sit in the upper-middle band, shared with 109 other cities, so without a distinctive rank. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Jardin de la Perrine, central and free, has a children's farm, playgrounds and a carousel. Next to it, the science museum (CCSTI) runs interactive exhibitions; check opening hours. The Old Castle houses the naive art museum, created in 1967 in memory of Henri Rousseau, the Douanier, born in Laval in 1844: only three of his paintings are shown there. The Mayenne towpath is part of the Vélo Francette cycle route.",
+      },
+      {
+        heading: "Laval against Le Mans and Rennes",
+        body: "Le Mans rents a T3 at €870 with 6.2 on schools and 5.3 on safety; Rennes at €1,100 with 9.0 on schools. Laval (€660; 6.6; 6.8) is €210 under Le Mans with better school and safety marks, but €100 more per m² to buy (€2,035 against €1,933). Rennes offers a top-ranked school for €440 more in rent.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who rent, want high safety, a rent under €700 and a human-sized town linked to Rennes and Angers. Those who want to buy at the lowest price in the west will look at Le Mans, cheaper per m².",
+      },
+    ],
+    relatedCities: ["laval","le-mans","rennes","angers"],
+    tags: ["laval","moving to france with children","french school system","pays de la loire"],
+  },
+  {
+    slug: "family-in-saint-malo-2026",
+    title: "Family life in Saint-Malo (2026): the sea, nature 7.2, but flats at €4,531 per m²",
+    metaTitle: "Family Life in Saint-Malo 2026: €1,080 T3, Nature 7.2",
+    metaDesc:
+      "Raising children in Saint-Malo in 2026: a €1,080 T3, flats at €4,531 per m², nature 7.2, schools 6.2, cost 5.0, 13% poverty, 11.9% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro:
+      "Saint-Malo rents a T3 (two bedrooms and a living room) at €1,080 on our rent estimate, barely under Rennes, and sells a flat at €4,531 per m², 24% more than Rennes. It pays back with nature 7.2 (rank 90 of 593). The commune has 47,255 residents, up 2.7% since 2016, and only 11.9% are under 15: the lowest share of the batch.",
+    sections: [
+      {
+        heading: "What is the housing budget in Saint-Malo?",
+        body: "The T3 is €1,080 and the T2 €800. A flat is €4,531 per m² (1,041 sales in 2024-2025, national DVF property register) and a house €4,517 (588 sales): the two prices are the same, so the type of home matters little in this market. A 80 m² family apartment therefore passes €360,000 at the median price, before fees.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €23,490 per consumption unit (Insee, Filosofi 2021), rank 169 of 586, with 13% poverty. Saint-Brieuc is at €20,910 with 21% poverty. Income is high for Brittany, and it still does not cover the purchase-price gap with neighbouring towns.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Nature 7.2 (rank 90, 12 tied), safety 6.5 (rank 151, 26 tied), schools 6.2 (rank 219, 28 tied), transport 5.2 (rank 358, 11 tied), cost 5.0 (rank 360, 43 tied). Nature and safety carry the town; cost and transport are the points to budget for, especially for a family without a car. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "At low tide, Fort National can be reached on foot from the Sillon beach, 3 km long; the Grand Bé, with Chateaubriand's tomb, and the Petit Bé are reached over the Bés causeway. Bon-Secours beach has a natural pool where children can swim even at low tide. The Grand Aquarium has a touch pool and the Nautibus. Tides sometimes exceed ten metres: check the tide table before every outing on the foreshore. The ramparts are best walked early in the morning.",
+      },
+      {
+        heading: "Saint-Malo against Rennes and Saint-Brieuc",
+        body: "Rennes rents a T3 at €1,100 with 9.0 on schools and sells at €3,667 per m²; Saint-Brieuc at €780 with 6.2 on schools and €1,760 per m². Saint-Malo (€1,080; 6.2; €4,531) has the same school mark as Saint-Brieuc for €300 more in rent, and a m² 2.6 times dearer. It sells the sea; Rennes sells the school.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families on a good income who want the sea every day and a nature mark of 7.2, at the price of an expensive purchase. Those aiming at a low housing budget, or a top-rated school, will look at Saint-Brieuc or Rennes.",
+      },
+    ],
+    relatedCities: ["saint-malo","rennes","saint-brieuc","dinan"],
+    tags: ["saint-malo","moving to france with children","french school system","brittany"],
+  },
+  {
+    slug: "family-in-belfort-2026",
+    title: "Family life in Belfort (2026): a €690 T3, flats at €1,275 per m² and 6.8% fewer residents",
+    metaTitle: "Family Life in Belfort 2026: €690 T3, Schools 6.6",
+    metaDesc:
+      "Raising children in Belfort in 2026: a €690 T3, flats at €1,275 per m², houses at €1,655, schools 6.6, transport 6.2, 29% poverty, population down 6.8%.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    intro:
+      "Belfort rents a T3 (two bedrooms and a living room) at €690 on our rent estimate and sells a flat at €1,275 per m², with schools 6.6 (rank 105 of 593) and transport 6.2 (rank 248). Low prices come with a cost: a living standard of €18,850 (rank 503 of 586), 29% poverty and a commune of 45,646 residents that has lost 6.8% since 2016. 17.2% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Belfort?",
+        body: "The T3 is €690 and the T2 €520. A flat is €1,275 per m² (1,060 sales in 2024-2025, national DVF property register) and a house €1,655, 30% more; that last price rests on only 172 sales, a thinner sample to read with care. The flat price rests on more than a thousand transactions.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €18,850 per consumption unit (Insee, Filosofi 2021), rank 503 of 586, with 29% poverty. Montbéliard is at €18,600 and 28%; Épinal at €20,140 and 25%. The three towns share the profile of an industrial basin, and Belfort does not stand out favourably on income.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 6.6 (rank 105, 110 cities tied), transport 6.2 (rank 248, 33 tied), cost 7.2 (rank 110), safety 5.5 (rank 275, 25 tied), nature 5.7 (rank 262). Mid-table marks: Belfort's case is the ratio of a low rent to decent transport, not any single criterion. Catchments come from the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "Bartholdi's Lion, carved between 1875 and 1880, is 22 m long and 11 m high and recalls the town's resistance in the siege of 1870-1871. The citadel can be climbed on foot or, in season, by a tourist train, and its terrace overlooks the town and the Vosges. The Étang des Forges, on the edge of town, can be walked around; Lac du Malsaucy, which hosts the Eurockéennes festival in July, can be reached from Belfort without lying in the commune.",
+      },
+      {
+        heading: "Belfort against Montbéliard and Épinal",
+        body: "Montbéliard rents a T3 at €720 with 6.6 on schools and 19.8% under 15; Épinal at €660 with 6.2 on schools. Belfort (€690; 6.6) is €30 under Montbéliard for the same school mark, and sells a flat at €1,275 per m² against €934 in Montbéliard and €1,352 in Épinal. Épinal has 2.3% more residents than in 2016 while Belfort has lost 6.8%.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a rent under €700 and a median school, and who have secured work: the town has neither the growth nor the income to make up for it locally. Those unsure about the population trend should look at Épinal first, which is growing.",
+      },
+    ],
+    relatedCities: ["belfort","montbeliard","epinal","mulhouse"],
+    tags: ["belfort","moving to france with children","french school system","bourgogne-franche-comte"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",
