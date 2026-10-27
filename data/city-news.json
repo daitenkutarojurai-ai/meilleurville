@@ -1,6 +1,6 @@
 {
   "meta": {
-    "refreshedAt": "2026-10-26",
+    "refreshedAt": "2026-10-27",
     "queryVersion": 3,
     "windowMonths": 12,
     "maxEntriesPerCity": 8
@@ -6024,7 +6024,7 @@
       ]
     },
     "bouguenais": {
-      "refreshedAt": "2026-10-12",
+      "refreshedAt": "2026-10-27",
       "queryVersion": 3,
       "sources": [
         "bodacc",
@@ -6034,8 +6034,8 @@
         {
           "date": "2026-10-01",
           "kind": "entreprises",
-          "title": "1 création d'entreprise publiée au BODACC en octobre 2026",
-          "titleEn": "1 business registration published in the BODACC in October 2026",
+          "title": "7 créations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "7 business registrations published in the BODACC in October 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -8383,7 +8383,7 @@
       ]
     },
     "carquefou": {
-      "refreshedAt": "2026-10-12",
+      "refreshedAt": "2026-10-27",
       "queryVersion": 3,
       "sources": [
         "bodacc",
@@ -8393,8 +8393,8 @@
         {
           "date": "2026-10-01",
           "kind": "entreprises",
-          "title": "5 créations d'entreprises publiées au BODACC en octobre 2026",
-          "titleEn": "5 business registrations published in the BODACC in October 2026",
+          "title": "13 créations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "13 business registrations published in the BODACC in October 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -21163,7 +21163,7 @@
       ]
     },
     "la-chapelle-sur-erdre": {
-      "refreshedAt": "2026-10-12",
+      "refreshedAt": "2026-10-27",
       "queryVersion": 3,
       "sources": [
         "bodacc",
@@ -21173,8 +21173,17 @@
         {
           "date": "2026-10-01",
           "kind": "entreprises",
-          "title": "3 créations d'entreprises publiées au BODACC en octobre 2026",
-          "titleEn": "3 business registrations published in the BODACC in October 2026",
+          "title": "12 créations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "12 business registrations published in the BODACC in October 2026",
+          "source": "BODACC",
+          "sourceUrl": "https://www.bodacc.fr/",
+          "licence": "Licence Ouverte / Etalab"
+        },
+        {
+          "date": "2026-10-01",
+          "kind": "procedures",
+          "title": "1 procédure collective publiée au BODACC en octobre 2026",
+          "titleEn": "1 insolvency proceeding published in the BODACC in October 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -21182,8 +21191,8 @@
         {
           "date": "2026-10-01",
           "kind": "radiations",
-          "title": "2 radiations d'entreprises publiées au BODACC en octobre 2026",
-          "titleEn": "2 business deregistrations published in the BODACC in October 2026",
+          "title": "6 radiations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "6 business deregistrations published in the BODACC in October 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -21220,15 +21229,6 @@
           "kind": "procedures",
           "title": "2 procédures collectives publiées au BODACC en août 2026",
           "titleEn": "2 insolvency proceedings published in the BODACC in August 2026",
-          "source": "BODACC",
-          "sourceUrl": "https://www.bodacc.fr/",
-          "licence": "Licence Ouverte / Etalab"
-        },
-        {
-          "date": "2026-08-01",
-          "kind": "radiations",
-          "title": "2 radiations d'entreprises publiées au BODACC en août 2026",
-          "titleEn": "2 business deregistrations published in the BODACC in August 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -39645,7 +39645,7 @@
       ]
     },
     "saint-sebastien-sur-loire": {
-      "refreshedAt": "2026-10-12",
+      "refreshedAt": "2026-10-27",
       "queryVersion": 3,
       "sources": [
         "bodacc",
@@ -39655,8 +39655,8 @@
         {
           "date": "2026-10-01",
           "kind": "entreprises",
-          "title": "4 créations d'entreprises publiées au BODACC en octobre 2026",
-          "titleEn": "4 business registrations published in the BODACC in October 2026",
+          "title": "11 créations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "11 business registrations published in the BODACC in October 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -39673,8 +39673,8 @@
         {
           "date": "2026-10-01",
           "kind": "radiations",
-          "title": "2 radiations d'entreprises publiées au BODACC en octobre 2026",
-          "titleEn": "2 business deregistrations published in the BODACC in October 2026",
+          "title": "3 radiations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "3 business deregistrations published in the BODACC in October 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
