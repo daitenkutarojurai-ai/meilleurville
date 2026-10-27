@@ -52051,6 +52051,495 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["montlucon", "nevers", "saint-etienne", "montauban", "mont-de-marsan", "auch", "montelimar", "castres"],
     tags: ["apartment under 100000 euros", "cheap property france", "DVF property prices", "affordable french cities", "price per square metre", "first home france"],
   },
+  {
+    "slug": "ptz-zero-interest-loan-france-first-time-buyers-2026",
+    "title": "The PTZ in France: the interest-free loan for first-time buyers (2026)",
+    "metaTitle": "PTZ 2026: France's Interest-Free Loan Explained",
+    "metaDesc": "How the prêt à taux zéro works in 2026: who qualifies, how zones and income caps apply, new build vs older homes with works, and how to get your bank to include it.",
+    "category": "budget",
+    "emoji": "🏦",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "intro": "The PTZ (prêt à taux zéro) is a state-backed loan with no interest that first-time buyers can add to a normal mortgage in France. It is not a grant: you repay it, but you pay nothing on top, and for lower and middle incomes you usually do not start repaying it for years. It only applies if you buy a home you will live in as your main residence, and it only works if you ask for it, because banks do not always raise it unprompted.",
+    "sections": [
+      {
+        "heading": "What the PTZ is, in one paragraph",
+        "body": "A PTZ is a loan financed by the State and handed out by approved banks as one block of your overall financing plan. It sits next to your main mortgage rather than replacing it, and it covers only a share of the purchase price, capped by the zone where the property sits. The second benefit is the deferral: for a period that depends on your income, you repay only the main loan and the PTZ stays untouched. That lowers your monthly payment in the early years, when budgets are tightest."
+      },
+      {
+        "heading": "Who qualifies",
+        "body": "Two tests matter. First, you must be a first-time buyer in the French sense: you must not have owned your main residence during the two years before the application. The usual exceptions are people with a disability and people who lost a home in a natural disaster. Second, your reference tax income (revenu fiscal de référence, the figure printed on your tax notice) must stay under a ceiling that depends on the property zone and on the number of people in the household. The ceilings rise with household size and are highest in the Paris area. The income used is from two years back, so a PTZ requested in 2026 is tested against the tax notice issued in 2024 for 2023 income. If you have just moved to France, ask your bank how it will treat a tax history that is short or partly foreign."
+      },
+      {
+        "heading": "New build and older homes with works",
+        "body": "Since the 2024 overhaul the PTZ covers new builds and, under conditions, older homes that need renovation. For an older home, the works generally have to represent at least a quarter of the total cost of the operation, which is why buyers are asked for builders' quotes at the application stage. The share of the price the PTZ can finance differs by zone and by type of property, and the State adjusts those parameters from time to time. Check the current table on service-public.fr or with your lender before you build a budget around a percentage you read in a blog post, including this one. The practical point is that a house to renovate in a smaller town is no longer automatically outside the scheme."
+      },
+      {
+        "heading": "A sense of scale",
+        "body": "The saving depends on the size of the PTZ and on current mortgage rates, so nobody can give a universal number. As a rough order of magnitude, a household that finances a meaningful slice of the price with a PTZ and defers it for ten years can see its early monthly payment fall by a few hundred euros compared with borrowing the same total at market rates. Ask for two simulations from the bank or broker: one with the PTZ and one without. Compare the monthly payment in year one, year eleven and the total cost of credit. That comparison is the only figure that counts for your case."
+      },
+      {
+        "heading": "How to apply",
+        "body": "You do not apply for the PTZ separately. The bank builds it into the global financing plan it prepares for your purchase, and the notary then handles the paperwork around the deed of sale (acte de vente). Almost all large banks offer it. Not all are equally keen to model it, since an interest-free loan earns them less than a standard one. An independent mortgage broker will usually run the PTZ by default. Brokers are paid by commission, so ask how, and compare the final offer."
+      },
+      {
+        "heading": "Where it matters most",
+        "body": "The PTZ makes the biggest difference in mid-sized cities where prices are moderate and the zone gives a decent share, such as Nantes, Rennes or Dijon. For the cost of buying in those cities, see our guide to where to buy in France for foreign buyers and the one on buying vs renting."
+      }
+    ],
+    "relatedCities": [
+      "nantes",
+      "rennes",
+      "bordeaux",
+      "lyon",
+      "grenoble",
+      "dijon"
+    ],
+    "tags": [
+      "PTZ",
+      "interest-free loan france",
+      "first-time buyer france",
+      "mortgage france",
+      "buying property france"
+    ]
+  },
+  {
+    "slug": "negotiating-property-price-france-2026",
+    "title": "How to negotiate the price of a property in France",
+    "metaTitle": "Negotiating Property Prices in France (2026)",
+    "metaDesc": "How much discount is realistic in France, which arguments work (energy rating, works, time on market) and how to write an offer that holds up legally.",
+    "category": "budget",
+    "emoji": "🤝",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "intro": "French sellers do negotiate, but less theatrically than in the US or UK, and how much room you have depends on the local market. In the FR guide we draw on, the realistic range runs from 1 to 3 percent in the tightest markets to 8 to 15 percent on properties that have sat unsold for months. A written offer that is accepted binds you, so do not make one you would not honour.",
+    "sections": [
+      {
+        "heading": "Read the market first",
+        "body": "In very tight markets (central Paris, Lyon's Presqu'île, central Bordeaux, Annecy, Biarritz) well-priced homes sell in two to four weeks and 1 to 3 percent is the most you can reasonably ask for. In a middle market such as a dynamic mid-sized city or the inner ring of a big metro area, 3 to 7 percent is common on properties without major flaws. In slack markets, meaning declining towns and remote rural areas, 8 to 15 percent is possible on homes that have been listed for three months or more. The best indicator is the average time to sell, which an agent will tell you if you ask. Under 30 days locally means almost no margin. Over 90 days means the seller is exposed."
+      },
+      {
+        "heading": "Arguments that move the price",
+        "body": "A poor energy rating (DPE) is the cleanest argument because it is legal and measurable. Since 2025 homes rated G cannot be put on the rental market, and F-rated homes follow in 2028. If you hold a quote for works that would bring the home to a better rating, deduct the quote and attach it. Visible defects (an old roof, damp, an old boiler) work the same way: price them and subtract. Time on the market matters too. A property listed for more than three months without an offer makes the seller more ready to talk, and a firm offer 8 to 10 percent below asking can restart the conversation. Finally, a strong file counts: confirmed financing, or cash with no loan condition, is worth a discount compared with an uncertain buyer at full price."
+      },
+      {
+        "heading": "Arguments that do not",
+        "body": "Pointing at a cheaper flat on the same street rarely works, since floor, exposure, condition and the cellar all change the value. Saying your budget is limited is your constraint, not the seller's. Disliking the decoration costs the seller nothing, because homes are sold empty. And 'the market is about to fall' is something sellers have heard for years. Without recent local data it signals that you cannot afford the property."
+      },
+      {
+        "heading": "Writing the offer",
+        "body": "An offer (offre d'achat) is written, and if the seller accepts it, it commits you. A good one states a firm price rather than a range, lists the conditions precedent (typically obtaining a loan, with the maximum amount, duration and rate you will accept), sets a deadline for the answer (ten to fifteen days is typical) and says when you expect to sign the final deed. For a home that needs work, attach the quotes and spell out how they relate to the price you propose. An argued offer is usually better received than a bare figure, even when it is 10 percent under asking. After acceptance you sign the compromis de vente and have a ten-day cooling-off period."
+      },
+      {
+        "heading": "When a buyer's agent is worth the fee",
+        "body": "A property hunter (chasseur immobilier) works only for the buyer, handling search, visits and negotiation, and is usually paid 2 to 3 percent of the price by the buyer. In a tight market they can reach off-market homes sold before they are advertised and may save you two to four months. On a 300,000 euro flat, a fee of 7,000 to 9,000 euros pays for itself if the hunter negotiates 5 percent off. Before signing the mandate, ask for their average negotiated discount over the last twelve months, and walk away if there is no figure."
+      },
+      {
+        "heading": "Do not forget the extras",
+        "body": "Remember the buying costs on top of the price: notary fees on older property typically run 7 to 8 percent. Check the co-ownership minutes (procès-verbaux d'assemblée générale) to see what works have been voted, and factor the annual property tax into your comparison. For a city-by-city picture of price levels, see our cheap-property guide and the rankings."
+      }
+    ],
+    "relatedCities": [
+      "paris",
+      "lyon",
+      "bordeaux",
+      "nantes",
+      "dijon",
+      "grenoble"
+    ],
+    "tags": [
+      "negotiating property price france",
+      "offre d'achat",
+      "buying property france",
+      "DPE",
+      "property hunter france"
+    ]
+  },
+  {
+    "slug": "buying-low-energy-rated-home-france-dpe-2026",
+    "title": "Buying a home rated F or G in France: renovate or walk away?",
+    "metaTitle": "Buying a DPE F or G Home in France (2026)",
+    "metaDesc": "What the DPE energy rating means for buyers in France in 2026: rental bans, typical discounts, renovation costs, MaPrimeRénov' aid and when it pays.",
+    "category": "budget",
+    "emoji": "🌡️",
+    "readMinutes": 7,
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "intro": "A home rated F or G on the French energy performance diagnostic (DPE) usually sells at a discount, and for a buyer who plans to live there and renovate within two years the discount can cover the works. For an investor who wants to rent it, the calendar is tighter: G-rated homes can no longer be let, and F-rated ones follow in 2028. The only way to know whether a given home is worth it is to price the works, subtract the aid, and compare with the discount.",
+    "sections": [
+      {
+        "heading": "What changed with the DPE",
+        "body": "The DPE grades a home from A to G. It has been required for sales and lettings since 2006, but since July 2021 it is legally enforceable, meaning a wrong rating can make the seller or landlord liable. The rental ban rolls out in steps: homes with extremely high energy use stopped being allowed new leases in 2022, all G-rated homes are barred from the rental market from 2025, F-rated homes from 2028, and E-rated homes from 2034. That calendar is voted law, and it presses owners to renovate or sell. It does not affect an owner who lives in their home."
+      },
+      {
+        "heading": "How big is the discount?",
+        "body": "Estimates cited in the FR source put the average discount for F or G against an equivalent D-rated home at roughly 5 to 20 percent, depending on the study. It is larger where rental demand is strong and smaller where owner-occupiers dominate. For a G-rated flat in Paris the FR guide reports about 13 to 17 percent against a C-rated one, around 8 to 12 percent in Lyon, Bordeaux and Nantes, and 3 to 8 percent in mid-sized towns and rural areas. Treat these as ranges, not a rule. Also check whether the asking price already includes a discount, since many sellers list at full price and hope you will not raise the DPE."
+      },
+      {
+        "heading": "What renovation costs",
+        "body": "Rough ranges from the FR guide, before aid: insulating the attic, 2,000 to 5,000 euros for a standard flat; internal wall insulation, 8,000 to 20,000 euros; replacing a fuel or gas boiler with an air-to-water heat pump, 8,000 to 16,000 euros; replacing single glazing, 3,000 to 9,000 euros. Before you decide, commission an energy audit. For houses rated F or G, the seller must provide one, and a full audit costs around 500 to 1,000 euros. It ranks the works in order and gives a cost for each package."
+      },
+      {
+        "heading": "Aid you can use",
+        "body": "MaPrimeRénov' is a state grant for owner-occupiers renovating a main residence, and the share it covers falls as income rises. For the lowest incomes it can cover most of a heat-pump bill, while for higher incomes it covers a smaller share. The eco-PTZ is an interest-free loan for energy works, available without income conditions. The two can be combined. Rules, amounts and budgets for these schemes change often, and work must usually be done by certified contractors (RGE) to qualify. Before signing a deed, confirm the current rules on the official France Rénov' service. Applying after the work has started is generally too late."
+      },
+      {
+        "heading": "The decision if you will live there",
+        "body": "If you want to live in the home and can do the works in the first two years, a rated F or G home is often a sensible buy when the discount exceeds the cost of the works net of aid. A buyer who gets 15 percent off and funds a large share of the works through aid and an interest-free loan can end up in a renovated home at a lower total cost than an equivalent D-rated one bought at market price. Do this arithmetic on the actual quote, not on an average."
+      },
+      {
+        "heading": "The decision if you want to rent it out",
+        "body": "The window is narrow. A G-rated home cannot be let at all, so you need the works done before the first tenant. Count the months of vacancy during the works, as well as the cost net of aid. Do not buy in the hope that the calendar will be softened: it has been confirmed several times since 2022. For other costs in the first years, see our guides on buy-to-let and on renovating an old French house."
+      }
+    ],
+    "relatedCities": [
+      "paris",
+      "bordeaux",
+      "lyon",
+      "nantes",
+      "dijon",
+      "grenoble"
+    ],
+    "tags": [
+      "DPE",
+      "energy performance diagnostic france",
+      "renovation france",
+      "MaPrimeRénov",
+      "passoire thermique"
+    ]
+  },
+  {
+    "slug": "buying-off-plan-vefa-france-2026",
+    "title": "Buying a new-build off plan (VEFA) in France: where it makes sense, where it does not",
+    "metaTitle": "Buying Off Plan (VEFA) in France: 2026 Guide",
+    "metaDesc": "How VEFA works: lower notary fees, energy rating and builder guarantees, the real risks of delays and defects, and which cities still make sense.",
+    "category": "budget",
+    "emoji": "🏗️",
+    "readMinutes": 7,
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "intro": "VEFA (vente en l'état futur d'achèvement) is the French name for buying a new-build home before it is finished. You pay in stages as the building rises. It comes with lower notary fees (2 to 3 percent instead of 7 to 8 percent on older property) and a stack of legal guarantees. It is also the part of the market that suffered most after 2022, with developers in trouble and delivery delays. It still suits some buyers, but it asks for more care than before.",
+    "sections": [
+      {
+        "heading": "The state of the market",
+        "body": "According to the developers' federation FPI, off-plan sales fell by about 45 percent between 2022 and 2024. Several developers failed or went into restructuring, and unsold stock built up in some areas, which now allows discounts of roughly 5 to 15 percent. New schemes are more cautious and delivery times have stretched. The prime paid for new builds is also eroding."
+      },
+      {
+        "heading": "What you get",
+        "body": "Notary fees fall to 2 to 3 percent, which saves 12,000 to 18,000 euros on a 300,000 euro home. New builds are built to the current RE2020 standard, which in practice means an A or B energy rating and heating bills far below those of an older E or F home. The legal guarantees apply in full: one year of perfect completion, two years of good working order and ten years of structural cover (décennale). The PTZ interest-free loan can apply under conditions, and buyers can often choose finishes if they reserve early."
+      },
+      {
+        "heading": "The traps",
+        "body": "Delays of 6 to 18 months over the promised date were common in 2024 and 2025, so check the late-delivery penalty clause, typically 1/3000th of the price per day and capped at around 5 percent. Defects are common: the FR source says most programmes were handed over with reservations, so hire an independent inspector for the pre-delivery check (roughly 350 to 600 euros, quickly paid back). Young co-ownerships often have service charges that are underestimated for the first years, so ask for the detailed forecast budget. The price per square metre of a new build is frequently 15 to 25 percent above comparable older property. And developer bankruptcy is covered by a mandatory completion guarantee (GFA), but you should check that it exists and who issued it."
+      },
+      {
+        "heading": "Where it still makes sense",
+        "body": "The FR guide points to tight metro markets where older housing is scarce: the outskirts of Bordeaux, the Toulouse and Montpellier new districts, and Nantes' Île de Nantes. It also cites cities with industrial investment such as Dunkerque, Valenciennes and Belfort, and saturated resorts such as Annecy, Saint-Malo and La Rochelle, where a new build may be the only way in. It cautions against stagnating mid-sized towns where resale is uncertain, and against very small schemes of under 30 units, where managing the co-ownership is fragile."
+      },
+      {
+        "heading": "How to protect yourself",
+        "body": "Check the developer's finances, filed accounts and delivered projects over five years. Insist on a guarantee issued by a recognised bank or insurer. Read the co-ownership rules before you sign. Work out the full cost, including purchase taxes, bank fees, insurance and the interest you pay while the building goes up. Visit other programmes by the same developer to judge finishes. And refuse a credit from the developer in return for defects: ask for the repair."
+      },
+      {
+        "heading": "Who it suits",
+        "body": "A first-time buyer eligible for the PTZ, buying a main residence in a tight metro market, planning to hold for ten years or more and willing to wait 18 to 24 months, is the good profile. An investor chasing immediate yield is not: gross yields on new builds are often under 4 percent. For an older home with works funded by state aid, see our guide to DPE-rated homes."
+      }
+    ],
+    "relatedCities": [
+      "bordeaux",
+      "toulouse",
+      "montpellier",
+      "nantes",
+      "annecy"
+    ],
+    "tags": [
+      "VEFA",
+      "off-plan france",
+      "new build france",
+      "buying property france",
+      "developer guarantee"
+    ]
+  },
+  {
+    "slug": "visale-vs-rental-guarantee-insurance-france-2026",
+    "title": "Visale vs rent guarantee insurance (GLI): what tenants and landlords in France need to know",
+    "metaTitle": "Visale vs GLI: Rental Guarantees in France (2026)",
+    "metaDesc": "Visale is a free state guarantee for some tenants; GLI is paid landlord insurance. Who qualifies, what each covers, rent caps, and why not both.",
+    "category": "moving",
+    "emoji": "🔑",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "intro": "Most French landlords want a guarantor, and a newcomer without a French family usually cannot provide one. There are two ways around it. Visale is a free guarantee run by Action Logement for tenants who fit its profiles, mainly people up to age 30 and employees moving for work. GLI (garantie loyers impayés) is an insurance a landlord pays for and which accepts a wider range of tenants. If you qualify for Visale, ask for it first.",
+    "sections": [
+      {
+        "heading": "What Visale is",
+        "body": "Visale is a guarantee provided by Action Logement, the body financed by employers' housing contributions. It is free for both tenant and landlord. If the tenant stops paying, it covers up to 36 monthly payments of unpaid rent and charges, plus 2,000 euros for damage. It replaces the family guarantor, which is a big help for anyone who has no one in France to stand surety. The landlord does not pay anything and signs up through the Action Logement platform."
+      },
+      {
+        "heading": "Who can use Visale",
+        "body": "In the FR guide the main profiles are people aged 18 to 30 (students, apprentices, young employees), employees under 30 recently hired, and employees moving for work, such as a transfer or a change of employer. The guide gives rent ceilings, charges included, of 1,500 euros a month in Île-de-France and 1,300 euros elsewhere. Eligibility rules and ceilings are revised from time to time, so check the official Visale site, where you apply first and receive a visa certificate that you attach to your rental application. If you are relocating from abroad for a job, ask whether your situation counts as work mobility."
+      },
+      {
+        "heading": "What GLI is",
+        "body": "GLI is private insurance bought by the landlord that covers unpaid rent and charges and the cost of recovery. According to the FR guide, a typical policy pays out up to 70,000 to 90,000 euros for unpaid rent, a few thousand euros for legal costs and some damage, and costs about 2 to 3.5 percent of annual rent, which is 14 to 25 euros a month on a 700 euro rent. Insurers set conditions on the tenant, usually a rent of no more than about a third of income and a stable contract such as a permanent job, civil service status or a scholarship student. A self-employed tenant is often accepted on presentation of accounts."
+      },
+      {
+        "heading": "Side by side",
+        "body": "Visale costs nothing, pays faster according to the FR source (30 to 60 days against 60 to 90), and replaces the guarantor, but it has rent ceilings and tenant criteria. GLI accepts more profiles, has no rent ceiling and covers larger sums and more damage, but the landlord pays. If the rent is above the Visale ceiling, or the tenant is over 30 and not in a mobility situation, GLI is the realistic option."
+      },
+      {
+        "heading": "No stacking",
+        "body": "Since the ELAN law of 2018, a landlord who takes out GLI cannot also demand a personal guarantor from the tenant. Students and apprentices are one of the exceptions, and Visale can be combined with a family guarantor, as the FR guide notes. A landlord who demands both GLI and a guarantor is breaking the rules. If you run into this, you are entitled to push back."
+      },
+      {
+        "heading": "If rent stops",
+        "body": "The process is slow. The landlord serves a formal notice, and if the tenant still does not pay the court is asked to end the lease, which usually takes months. The FR guide estimates 12 to 18 months from the first missed payment to a vacant home, with eviction itself restricted during the winter break (trêve hivernale). Insurance or Visale pays during the process, so a landlord without cover carries the loss, which the FR source puts at 12,000 to 25,000 euros on average. As a tenant, the practical rule is to keep records, pay on time, and tell the landlord early if you have a problem."
+      },
+      {
+        "heading": "A simple plan",
+        "body": "If you might qualify, apply for Visale before house-hunting and put the certificate in your file. If you do not, ask the landlord whether they have GLI and offer documents they can show an insurer: employment contract, recent payslips, tax notices. Our guide to renting an apartment in France lists the documents agencies ask for."
+      }
+    ],
+    "relatedCities": [
+      "lille",
+      "rennes",
+      "tours",
+      "montpellier",
+      "strasbourg"
+    ],
+    "tags": [
+      "Visale",
+      "rent guarantee france",
+      "GLI",
+      "renting in france",
+      "guarantor france"
+    ]
+  },
+  {
+    "slug": "doctor-access-medical-deserts-france-choose-city-2026",
+    "title": "Medical deserts in France: how to check doctor access before you choose a town",
+    "metaTitle": "Medical Deserts in France: Check Before You Move",
+    "metaDesc": "Finding a GP is a real problem in much of rural France. How the official access indicator works, which areas are hit, and three checks to run before you sign.",
+    "category": "lifestyle",
+    "emoji": "🩺",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "intro": "In France you need a registered family doctor (médecin traitant) to be reimbursed at the full rate, and in a growing share of the country finding one is hard. The FR source we draw on says about six million people have no médecin traitant. If you have a chronic condition, check access before you sign a lease or a purchase agreement. The checks take an hour and are listed below.",
+    "sections": [
+      {
+        "heading": "The official indicator",
+        "body": "The measure used by the public health statistics office (DREES) is the APL, accessibilité potentielle localisée. It estimates how many GP consultations are available per year per inhabitant within a short drive. The FR guide gives a rough scale: a figure above 3 is considered normal, below 2.5 signals an under-served area and below 1.5 a genuine medical desert. The same guide reports that around 30 percent of the population lives in an under-served commune. Note the other APL in France, the housing allowance (aide personnalisée au logement), is unrelated."
+      },
+      {
+        "heading": "Where it is worst",
+        "body": "The FR guide names rural départements such as the Creuse, the Nièvre, the Cher and the Ardennes, and Haute-Vienne outside Limoges. It also points out that some mid-sized towns, whose doctors retire without successors, are in worse shape than the countryside around them. Examples cited are Guéret, Châteauroux, Vierzon and Maubeuge. Our own access estimate for each city is on every city profile, and it is an estimate built from department-level density, town size and hospital status, not a count of surgeries."
+      },
+      {
+        "heading": "University cities are not all equal",
+        "body": "A big city with a medical school does not guarantee easy access. In Paris, Bordeaux, Lyon and Nantes, waits for specialists such as ophthalmologists, dermatologists and gynaecologists can reach four to six months, even with a registered doctor. Smaller university hospital cities such as Poitiers, Limoges and Reims often do better on density. The key variable is the teaching hospital (CHU): where it is, specialties exist, even if waits remain."
+      },
+      {
+        "heading": "Three checks before you sign",
+        "body": "First, search Doctolib, the main booking platform, for general practitioners accepting new patients within about 5 km. Zero results is a strong warning. Second, look at the health ministry's map of multi-professional health centres (maisons de santé pluridisciplinaires, MSP). One within a couple of kilometres is a good sign. Third, check the APL on the government's mapping portal. A value under 2 is a concrete risk if you need regular follow-up."
+      },
+      {
+        "heading": "What exists in under-served areas",
+        "body": "Regional networks of health professionals called CPTS coordinate care in rural areas, and the local health insurance office (CPAM) can tell you whether one covers your address. Some municipalities employ salaried doctors in municipal health centres. Teleconsultation platforms help with non-urgent matters. For emergencies, the number is 15 (SAMU) or 112, which is not a substitute for ongoing care. If you have a condition requiring regular treatment, ask your current doctor for a summary letter in French."
+      },
+      {
+        "heading": "Why it matters for property",
+        "body": "The FR source argues that good medical access supports prices by attracting retirees and families, and that deserts push those groups away. For a buyer thinking in a ten or fifteen-year horizon, the doctor map is part of the market picture."
+      }
+    ],
+    "relatedCities": [
+      "limoges",
+      "poitiers",
+      "reims",
+      "gueret",
+      "clermont-ferrand"
+    ],
+    "tags": [
+      "medical deserts france",
+      "doctor access france",
+      "médecin traitant",
+      "healthcare france",
+      "choose a town france"
+    ]
+  },
+  {
+    "slug": "internet-fibre-coverage-france-remote-workers-2026",
+    "title": "Internet in France for remote workers: fibre coverage and how to check an address",
+    "metaTitle": "Fibre Internet in France: Check Before You Rent",
+    "metaDesc": "Most French cities have fibre in 2026, but rural valleys and old buildings can be weak. How to check an address, real speeds and the 4G fallback.",
+    "category": "remote-work",
+    "emoji": "📶",
+    "readMinutes": 5,
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "intro": "If your income depends on a video call, check the connection at the exact address, not the town. France's regulator ARCEP says about 89 percent of homes are eligible for fibre, but eligible is not connected, and the gap between a new city flat and an old farmhouse in a mountain valley is large. Test before you sign.",
+    "sections": [
+      {
+        "heading": "Where things stand",
+        "body": "The FR source, citing ARCEP, puts fibre eligibility at roughly 89 percent of homes in 2026, with about 72 percent of households actually subscribed. Large cities such as Paris, Lyon, Marseille, Bordeaux, Nantes, Toulouse and Rennes are above 95 percent. Mid-sized cities such as Limoges, Poitiers, Angers, Tours and Clermont-Ferrand sit between 90 and 95. The weak spots are rural and mountain areas, where roughly 3 to 5 percent of the territory and around 600,000 homes lack decent fixed access."
+      },
+      {
+        "heading": "What speeds to expect",
+        "body": "An 'up to 1 Gb/s' plan does not give you 1 Gb/s at the sofa. The result depends on whether the fibre reaches your flat (FTTH) or stops at the building and continues on coaxial cable (FTTB), the wiring inside the building, your router and peak-time congestion. In big cities, median FTTH speeds quoted in the FR guide are 400 to 700 Mb/s down and 100 to 300 Mb/s up, plenty for 4K video calls and large uploads. Trouble comes mostly from older buildings whose internal wiring has not been updated."
+      },
+      {
+        "heading": "Cities that get good marks",
+        "body": "Remote workers report good experiences in Paris, Lyon, Rennes, Strasbourg, Grenoble and Bordeaux. Areas covered by a public initiative network (RIP), built by local authorities in less dense zones, are sometimes better than privately served ones, because the network is newer."
+      },
+      {
+        "heading": "Where to be careful",
+        "body": "Alpine valleys away from the main resorts, the rural Massif Central (Cantal, inland Haute-Loire, deep Corrèze), parts of the Pyrenees such as the Ariège and the Hautes-Pyrénées outside Tarbes, and sparsely built coastal areas in inland Brittany are the risk zones named in the FR guide. A fixed 4G box from Bouygues, SFR or Orange is a workable fallback there: 20 to 80 Mb/s is enough for video calls but not for big transfers or real-time gaming."
+      },
+      {
+        "heading": "How to check an address",
+        "body": "Look the exact address up on each operator's site (Orange, SFR, Free, Bouygues) rather than on comparison portals, since estimates differ between operators, and use the ARCEP eligibility map. In a flat, ask the landlord which operator is in the building and whether the vertical wiring is fibre or coaxial. Run a speed test (nperf or speedtest) on the existing connection during a viewing. If the home is empty, ask a neighbour. Put the answer in writing before you sign anything for a rural property."
+      },
+      {
+        "heading": "Setting up",
+        "body": "Installation can take weeks in a building new to fibre, so request it as soon as the lease is signed. Our guide to utilities, internet and mobile setup covers the contracts and the paperwork a foreigner is asked for."
+      }
+    ],
+    "relatedCities": [
+      "paris",
+      "lyon",
+      "rennes",
+      "grenoble",
+      "strasbourg"
+    ],
+    "tags": [
+      "fibre internet france",
+      "remote work france",
+      "ARCEP",
+      "internet speed france",
+      "working from france"
+    ]
+  },
+  {
+    "slug": "buying-a-viager-france-life-annuity-property-2026",
+    "title": "Buying a viager in France: how a life-annuity property purchase works",
+    "metaTitle": "Buying a Viager in France: Risks and Maths (2026)",
+    "metaDesc": "A viager lets you buy a home at a discount in exchange for a lump sum and monthly payments for life. How the sums work, who it suits and the risks to price in.",
+    "category": "budget",
+    "emoji": "⏳",
+    "readMinutes": 7,
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "intro": "A viager is a French way of buying property in which the seller, usually elderly, gets a lump sum (the bouquet) and a monthly payment for life (the rente). The buyer gets the home at a discount, but only receives the keys when the seller dies, in the commonest form. The FR source counts around 12,000 deals a year. The central risk is simple: nobody knows how long the seller will live, and the sums are a bet on it.",
+    "sections": [
+      {
+        "heading": "The mechanics",
+        "body": "The seller (crédirentier) is typically 70 to 90 or older. The buyer (débirentier) is typically 50 to 65 with capital and stable income. The lump sum is usually 10 to 40 percent of the value, and the monthly payment is indexed each year, normally to the rent reference index (IRL). In an occupied viager, the most common form at around 90 percent of cases in the FR source, the seller stays in the home for life and the price is discounted by 30 to 50 percent compared with the vacant value. In a free viager the buyer can use or let the home immediately, and the discount is smaller, around 10 to 25 percent."
+      },
+      {
+        "heading": "A worked example",
+        "body": "The FR guide takes a house worth 350,000 euros vacant, sold by a 78-year-old whose statistical life expectancy is 12 years. With a 40 percent discount the occupied value is 210,000. Split 30/70, that is a bouquet of 63,000 euros and about 147,000 euros of payments, around 1,020 euros a month over 12 years. If the seller lives 12 years, the buyer pays 210,000 for a 350,000 home. If they die after 5 years, the buyer has paid 124,000. If they live 20, the total reaches about 308,000 and the discount mostly disappears. Life expectancy tables are averages, so the FR guide recommends adding 5 years of safety margin when you run the numbers."
+      },
+      {
+        "heading": "The famous case",
+        "body": "Jeanne Calment, from Arles, sold her flat in a viager in 1965 at age 90 and lived to 122. The buyer, a notary, died before her, and his family kept paying. It is the classic illustration of longevity risk."
+      },
+      {
+        "heading": "Who it suits",
+        "body": "The FR source describes an ideal buyer aged 50 to 65 with a capital sum for the bouquet and the ability to carry a monthly payment for 10 to 20 years, who does not need the home now. It is an investment and a form of advance inheritance planning, not a way to get a first home. It is a poor fit for someone who needs a main residence soon or for an investor wanting immediate yield, since the buyer in an occupied viager cannot live in or let the property until the seller dies."
+      },
+      {
+        "heading": "Costs people forget",
+        "body": "The buyer usually pays for major structural upkeep, such as roof and façade, even though the seller lives there. The FR guide estimates that at 20,000 to 40,000 euros over 10 to 15 years. Indexation raises the payment every year, which weighs on long contracts. Property transfer taxes are charged on the vacant value rather than the occupied one, according to the FR guide, so the notary can give you a precise figure. Reselling a viager is difficult, so plan to hold the property until the seller dies. Ask a notary for the tax treatment of your case, which differs for residents and non-residents."
+      },
+      {
+        "heading": "Legal protections",
+        "body": "A viager is signed before a notary, who computes the annuity. If the buyer stops paying, the contract can be cancelled and the seller keeps the lump sum and the payments received. The contract needs a real element of chance, so a seller known to be terminally ill invalidates it, and a seller who dies within 20 days of signing, from the illness they had at the time, voids the sale. The seller must sign in person."
+      },
+      {
+        "heading": "Where the market is active",
+        "body": "The FR source names the Côte d'Azur from Nice to Menton as the biggest viager market, followed by inland Provence around Aix and Avignon, Paris, large cities with many older owners such as Bordeaux, Lyon and Toulouse, and the Basque coast around Bayonne and Biarritz. Weak demographics and rural declining areas are best avoided."
+      },
+      {
+        "heading": "Our view",
+        "body": "Viager is a niche for a patient buyer with spare capital. Get the figures from a specialist notary, keep a cash reserve, and do not make it your only investment."
+      }
+    ],
+    "relatedCities": [
+      "nice",
+      "aix-en-provence",
+      "paris",
+      "bordeaux",
+      "biarritz"
+    ],
+    "tags": [
+      "viager",
+      "life annuity property france",
+      "buying property france",
+      "property investment france"
+    ]
+  },
+  {
+    "slug": "low-emission-zones-zfe-crit-air-france-cities-2026",
+    "title": "Low-emission zones (ZFE) in France: what the Crit'Air sticker means for your car and your city choice",
+    "metaTitle": "Low-Emission Zones (ZFE) in France: Crit'Air Guide",
+    "metaDesc": "Which French cities have a low-emission zone, how Crit'Air stickers work, why the exact perimeter matters and what to check before buying a used car.",
+    "category": "lifestyle",
+    "emoji": "🚗",
+    "readMinutes": 6,
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "intro": "A ZFE (zone à faibles émissions) is a defined urban area where older, more polluting vehicles are barred or restricted, with the rule keyed to the Crit'Air sticker on the windscreen. If you drive a recent petrol car, an electric car or a recent hybrid, it will rarely affect you. If you are about to buy an older used diesel, it can decide whether you can drive into the city at all. The rules are changing, so check the metropolitan authority's own map and calendar before you commit.",
+    "sections": [
+      {
+        "heading": "What a ZFE is, and is not",
+        "body": "A ZFE is a perimeter, usually inside a metropolitan area, within which access depends on the Crit'Air category of your vehicle. The older and dirtier the engine, the higher the number: category 5 for the oldest diesels, category 1 for recent hybrids and efficient petrol cars, and a green sticker for electric vehicles. It is not a ban on cars in city centres. A permitted vehicle drives normally, hours are often limited to working days, and checks use plate-reading cameras in some cities and police checks elsewhere."
+      },
+      {
+        "heading": "Which cities",
+        "body": "The FR guide lists zones concentrated in the large metropolitan areas: Greater Paris, Lyon, Grenoble, Marseille, Toulouse, Montpellier, Strasbourg, Nice, Reims, Rouen and Saint-Étienne. Each has its own timetable, and some already restrict categories 3 and 4 while others have started with 5 and unclassified vehicles. National law has required zones in agglomerations above 150,000 people. Legal status is in flux: a parliamentary vote to abolish ZFEs in spring 2026 was struck down by the Constitutional Court on a procedural ground, so the framework stands while individual calendars and penalty regimes are decided city by city and keep moving. Read the current rules on the website of the metropolitan authority, not a third-party summary."
+      },
+      {
+        "heading": "The perimeter matters more than the city name",
+        "body": "Zones are almost always smaller than the municipality they are named after. The Greater Paris zone follows the A86 ring road, so living in Versailles, Mantes-la-Jolie or Meaux is outside it even though they are in the Paris region. Lyon's zone covers several communes but stops well before the outer suburbs, and Grenoble's covers part of the valley floor. Get the official map and check whether your address is inside, on the edge or well outside. An address just outside can still be awkward if your daily trips (school, doctor, station) cross the zone."
+      },
+      {
+        "heading": "Which sticker, where",
+        "body": "According to the FR guide, unclassified vehicles are excluded from every active ZFE, category 5 from nearly all, and category 4 from several metropolitan areas including Lyon, Grenoble and Greater Paris. Category 3 is the contested band, with some zones already excluding it. Category 2 (recent diesels and petrol cars from the mid-2000s) is allowed everywhere in 2026 but is the logical next target. Category 1 and electric vehicles are allowed without condition. Look up your car's year and fuel, find the sticker it corresponds to, and test whether it will still work in three to five years, which is a typical holding period for a used car."
+      },
+      {
+        "heading": "Buying or importing a car",
+        "body": "If you are buying used in a metropolitan area, an older diesel has lost part of its potential market and sells for less, while Crit'Air 1 and 2 cars sell quickly with little haggling. Check the vehicle's sticker category before you buy, and request the sticker online from the official government service: it is a legal requirement inside zones and you need the registration certificate (carte grise) to order it, so an imported car must be registered first. Resale to a buyer outside the big cities is easier for older cars."
+      },
+      {
+        "heading": "Who is really affected",
+        "body": "Tradespeople with old vans, households relying on an old diesel they own outright, and commuters from outlying towns without public transport feel it most. People living in towns with no zone and no credible plan, in rural areas and most cities under 100,000 inhabitants, keep full use of their car. Households already driving a Crit'Air 1 or 2, a hybrid or an electric car can drive anywhere. For anyone who already cycles or takes the tram, it is a small matter."
+      },
+      {
+        "heading": "Before you sign",
+        "body": "Check whether the commune is in an active zone, a planned zone or none, using the official map. Find your car's sticker and think about the next five years. List the trips you actually make and how many cross the zone. If the city has a good cycling network and tram or park-and-ride, selling the car may be the cheaper move. National and local conversion bonuses exist, but the rules change often, so ask the metropolitan authority. Do not make the ZFE the only criterion: a city that is strong on cost and services does not become a bad choice because it has one. See also our guide to living in France without a car."
+      }
+    ],
+    "relatedCities": [
+      "lyon",
+      "grenoble",
+      "paris",
+      "strasbourg",
+      "marseille",
+      "toulouse",
+      "montpellier",
+      "nice"
+    ],
+    "tags": [
+      "ZFE",
+      "low emission zone france",
+      "Crit'Air",
+      "driving in france",
+      "moving to france"
+    ]
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

@@ -9460,6 +9460,51 @@
       "slug": "buying-an-apartment-under-100000-euros-france-2026",
       "title": "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
       "emoji": "🔑"
+    },
+    {
+      "slug": "ptz-zero-interest-loan-france-first-time-buyers-2026",
+      "title": "The PTZ in France: the interest-free loan for first-time buyers (2026)",
+      "emoji": "🏦"
+    },
+    {
+      "slug": "negotiating-property-price-france-2026",
+      "title": "How to negotiate the price of a property in France",
+      "emoji": "🤝"
+    },
+    {
+      "slug": "buying-low-energy-rated-home-france-dpe-2026",
+      "title": "Buying a home rated F or G in France: renovate or walk away?",
+      "emoji": "🌡️"
+    },
+    {
+      "slug": "buying-off-plan-vefa-france-2026",
+      "title": "Buying a new-build off plan (VEFA) in France: where it makes sense, where it does not",
+      "emoji": "🏗️"
+    },
+    {
+      "slug": "visale-vs-rental-guarantee-insurance-france-2026",
+      "title": "Visale vs rent guarantee insurance (GLI): what tenants and landlords in France need to know",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "doctor-access-medical-deserts-france-choose-city-2026",
+      "title": "Medical deserts in France: how to check doctor access before you choose a town",
+      "emoji": "🩺"
+    },
+    {
+      "slug": "internet-fibre-coverage-france-remote-workers-2026",
+      "title": "Internet in France for remote workers: fibre coverage and how to check an address",
+      "emoji": "📶"
+    },
+    {
+      "slug": "buying-a-viager-france-life-annuity-property-2026",
+      "title": "Buying a viager in France: how a life-annuity property purchase works",
+      "emoji": "⏳"
+    },
+    {
+      "slug": "low-emission-zones-zfe-crit-air-france-cities-2026",
+      "title": "Low-emission zones (ZFE) in France: what the Crit'Air sticker means for your car and your city choice",
+      "emoji": "🚗"
     }
   ],
   "tags": [
@@ -9476,7 +9521,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 251
+      "count": 252
     },
     {
       "slug": "single-parent-in-france",
@@ -9539,6 +9584,11 @@
       "count": 59
     },
     {
+      "slug": "buying-property-france",
+      "label": "buying property france",
+      "count": 58
+    },
+    {
       "slug": "french-school-system",
       "label": "french school system",
       "count": 57
@@ -9552,11 +9602,6 @@
       "slug": "moving-to-france-with-children",
       "label": "moving to france with children",
       "count": 56
-    },
-    {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 54
     },
     {
       "slug": "real-estate",
@@ -10024,6 +10069,11 @@
       "count": 3
     },
     {
+      "slug": "dpe",
+      "label": "dpe",
+      "count": 3
+    },
+    {
       "slug": "drought",
       "label": "drought",
       "count": 3
@@ -10041,6 +10091,11 @@
     {
       "slug": "french-guiana",
       "label": "french guiana",
+      "count": 3
+    },
+    {
+      "slug": "healthcare-france",
+      "label": "healthcare france",
       "count": 3
     },
     {
