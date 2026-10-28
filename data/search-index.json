@@ -9927,6 +9927,86 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-angouleme-2026",
+      "title": "Parent solo à Angoulême en 2026 : un seuil à 2 500 €, 3 axes sur 4 au-dessus de la médiane et 1,6 point d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-blois-2026",
+      "title": "Parent solo à Blois en 2026 : un seuil à 2 500 €, 3 axes sur 4 au-dessus de la médiane et 1,1 point d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-thionville-2026",
+      "title": "Parent solo à Thionville en 2026 : un seuil à 2 650 €, 3 axes sur 4 au-dessus de la médiane et 1,1 point d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-brieuc-2026",
+      "title": "Parent solo à Saint-Brieuc en 2026 : un seuil à 2 350 €, 3 axes sur 4 au-dessus de la médiane et 1,5 point d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-epinal-2026",
+      "title": "Parent solo à Épinal en 2026 : un seuil à 2 000 €, 3 axes sur 4 au-dessus de la médiane et 1,2 point d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saintes-2026",
+      "title": "Parent solo à Saintes en 2026 : un seuil à 2 100 €, 3 axes sur 4 au-dessus de la médiane et 1,3 point d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-ivry-sur-seine-2026",
+      "title": "Parent solo à Ivry-sur-Seine en 2026 : un seuil à 3 850 €, 2 axes sur 4 au-dessus de la médiane et 4,4 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-vitry-sur-seine-2026",
+      "title": "Parent solo à Vitry-sur-Seine en 2026 : un seuil à 3 950 €, 1 axe sur 4 au-dessus de la médiane et 4,3 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-cloud-2026",
+      "title": "Parent solo à Saint-Cloud en 2026 : un seuil à 5 650 €, 3 axes sur 4 au-dessus de la médiane et 6,5 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-talence-2026",
+      "title": "Parent solo à Talence en 2026 : un seuil à 3 300 €, 3 axes sur 4 au-dessus de la médiane et 4,5 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-illkirch-graffenstaden-2026",
+      "title": "Parent solo à Illkirch-Graffenstaden en 2026 : un seuil à 2 950 €, 3 axes sur 4 au-dessus de la médiane et 2,1 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-olivet-2026",
+      "title": "Parent solo à Olivet en 2026 : un seuil à 3 050 €, 2 axes sur 4 au-dessus de la médiane et 1,6 point d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-champs-sur-marne-2026",
+      "title": "Parent solo à Champs-sur-Marne en 2026 : un seuil à 3 850 €, 3 axes sur 4 au-dessus de la médiane et 2,1 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-mande-2026",
+      "title": "Parent solo à Saint-Mandé en 2026 : un seuil à 4 550 €, 3 axes sur 4 au-dessus de la médiane et 6,2 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-sainte-foy-les-lyon-2026",
+      "title": "Parent solo à Sainte-Foy-lès-Lyon en 2026 : un seuil à 3 750 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-meudon-2026",
+      "title": "Parent solo à Meudon en 2026 : un seuil à 5 300 €, 3 axes sur 4 au-dessus de la médiane et 6,1 points d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "parent-solo-a-tassin-la-demi-lune-2026",
       "title": "Parent solo à Tassin-la-Demi-Lune en 2026 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
       "emoji": "🧑‍🍼"
@@ -10539,6 +10619,11 @@
       "count": 37
     },
     {
+      "slug": "securite-et-ecoles-parent-seul",
+      "label": "sécurité et écoles parent seul",
+      "count": 37
+    },
+    {
       "slug": "bordeaux",
       "label": "Bordeaux",
       "count": 31
@@ -10547,6 +10632,11 @@
       "slug": "lyon",
       "label": "Lyon",
       "count": 25
+    },
+    {
+      "slug": "famille-monoparentale-ile-de-france",
+      "label": "famille monoparentale Île-de-France",
+      "count": 23
     },
     {
       "slug": "bretagne",
@@ -10566,11 +10656,6 @@
     {
       "slug": "rennes",
       "label": "Rennes",
-      "count": 21
-    },
-    {
-      "slug": "securite-et-ecoles-parent-seul",
-      "label": "sécurité et écoles parent seul",
       "count": 21
     },
     {
@@ -10597,11 +10682,6 @@
       "slug": "montpellier",
       "label": "Montpellier",
       "count": 18
-    },
-    {
-      "slug": "famille-monoparentale-ile-de-france",
-      "label": "famille monoparentale Île-de-France",
-      "count": 17
     },
     {
       "slug": "strasbourg",
@@ -10664,6 +10744,21 @@
       "count": 14
     },
     {
+      "slug": "famille-monoparentale-auvergne-rhone-alpes",
+      "label": "famille monoparentale Auvergne-Rhône-Alpes",
+      "count": 13
+    },
+    {
+      "slug": "famille-monoparentale-grand-est",
+      "label": "famille monoparentale Grand Est",
+      "count": 13
+    },
+    {
+      "slug": "famille-monoparentale-nouvelle-aquitaine",
+      "label": "famille monoparentale Nouvelle-Aquitaine",
+      "count": 13
+    },
+    {
       "slug": "grenoble",
       "label": "Grenoble",
       "count": 13
@@ -10677,11 +10772,6 @@
       "slug": "mobilite",
       "label": "mobilité",
       "count": 13
-    },
-    {
-      "slug": "famille-monoparentale-auvergne-rhone-alpes",
-      "label": "famille monoparentale Auvergne-Rhône-Alpes",
-      "count": 12
     },
     {
       "slug": "famille-monoparentale-hauts-de-france",
@@ -10744,16 +10834,6 @@
       "count": 10
     },
     {
-      "slug": "famille-monoparentale-grand-est",
-      "label": "famille monoparentale Grand Est",
-      "count": 10
-    },
-    {
-      "slug": "famille-monoparentale-nouvelle-aquitaine",
-      "label": "famille monoparentale Nouvelle-Aquitaine",
-      "count": 10
-    },
-    {
       "slug": "gastronomie",
       "label": "gastronomie",
       "count": 10
@@ -10766,6 +10846,11 @@
     {
       "slug": "lmnp",
       "label": "LMNP",
+      "count": 10
+    },
+    {
+      "slug": "monoparental-hauts-de-seine",
+      "label": "monoparental Hauts-de-Seine",
       "count": 10
     },
     {
@@ -10914,11 +10999,6 @@
       "count": 8
     },
     {
-      "slug": "monoparental-hauts-de-seine",
-      "label": "monoparental Hauts-de-Seine",
-      "count": 8
-    },
-    {
       "slug": "pyrenees",
       "label": "Pyrénées",
       "count": 8
@@ -11049,6 +11129,11 @@
       "count": 6
     },
     {
+      "slug": "famille-monoparentale-centre-val-de-loire",
+      "label": "famille monoparentale Centre-Val de Loire",
+      "count": 6
+    },
+    {
       "slug": "freelance",
       "label": "freelance",
       "count": 6
@@ -11136,6 +11221,11 @@
     {
       "slug": "expatries",
       "label": "expatriés",
+      "count": 5
+    },
+    {
+      "slug": "famille-monoparentale-bretagne",
+      "label": "famille monoparentale Bretagne",
       "count": 5
     },
     {
@@ -11294,16 +11384,6 @@
       "count": 4
     },
     {
-      "slug": "famille-monoparentale-bretagne",
-      "label": "famille monoparentale Bretagne",
-      "count": 4
-    },
-    {
-      "slug": "famille-monoparentale-centre-val-de-loire",
-      "label": "famille monoparentale Centre-Val de Loire",
-      "count": 4
-    },
-    {
       "slug": "famille-monoparentale-provence-alpes-cote-d-azur",
       "label": "famille monoparentale Provence-Alpes-Côte d'Azur",
       "count": 4
@@ -11356,6 +11436,16 @@
     {
       "slug": "loyer",
       "label": "loyer",
+      "count": 4
+    },
+    {
+      "slug": "monoparental-gironde",
+      "label": "monoparental Gironde",
+      "count": 4
+    },
+    {
+      "slug": "monoparental-val-de-marne",
+      "label": "monoparental Val-de-Marne",
       "count": 4
     },
     {
@@ -11729,13 +11819,18 @@
       "count": 3
     },
     {
-      "slug": "monoparental-gironde",
-      "label": "monoparental Gironde",
+      "slug": "monoparental-bas-rhin",
+      "label": "monoparental Bas-Rhin",
       "count": 3
     },
     {
       "slug": "monoparental-la-reunion",
       "label": "monoparental La Réunion",
+      "count": 3
+    },
+    {
+      "slug": "monoparental-metropole-de-lyon",
+      "label": "monoparental métropole de Lyon",
       "count": 3
     },
     {
