@@ -156,7 +156,7 @@ export default async function TransportsPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
 
-      <section className="relative pt-20 pb-8">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/villes" className="hover:text-[var(--text-secondary)]">Villes</Link>
@@ -178,11 +178,11 @@ export default async function TransportsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Score strip */}
-      <section className="relative pb-8">
+      {/* Repères + réseaux — bande indigo */}
+      <section className="band band-indigo py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Score transports</div>
               <div className="text-3xl font-black font-mono-data text-[var(--text-primary)]">
                 {score.toFixed(1)}<span className="text-base font-normal text-[var(--text-tertiary)]"> / 10</span>
@@ -191,13 +191,13 @@ export default async function TransportsPage({ params }: Props) {
                 {Math.abs(vsAvg) < 0.3 ? (
                   <span className="text-[var(--text-tertiary)]">≈ moyenne FR</span>
                 ) : vsAvg > 0 ? (
-                  <span className="text-emerald-600">+{vsAvg} vs moyenne FR</span>
+                  <span className="font-semibold text-[#4338CA]">+{vsAvg} vs moyenne FR</span>
                 ) : (
-                  <span className="text-orange-600">{vsAvg} vs moyenne FR</span>
+                  <span className="font-semibold text-[#BE185D]">{vsAvg} vs moyenne FR</span>
                 )}
               </div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Classement national</div>
               <div className="text-3xl font-black font-mono-data text-[var(--text-primary)]">
                 #{rank}<span className="text-base font-normal text-[var(--text-tertiary)]"> / {sorted.length}</span>
@@ -206,90 +206,85 @@ export default async function TransportsPage({ params }: Props) {
                 {rank <= 20 ? "Top 20" : rank <= 50 ? "Top 50" : rank <= 100 ? "Top 100" : "Hors top 100"}
               </div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Réseaux confirmés</div>
               <div className="text-base font-semibold text-[var(--text-primary)] leading-snug pt-1">
                 {tags.length > 0 ? tags.join(" · ") : <span className="text-[var(--text-tertiary)] font-normal">Bus + voiture</span>}
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Feature grid */}
-      <section className="relative pb-8">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Réseaux disponibles</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mt-10 mb-4">Réseaux disponibles</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
             {FEATURES.map((f) => {
               const present = !!t[f.key];
               return (
                 <div
                   key={f.key}
-                  className={`rounded-2xl border p-4 shadow-sm ${
+                  className={`rounded-2xl p-4 ${
                     present
-                      ? "border-emerald-200/60 bg-emerald-50/40"
-                      : "border-[var(--border)] bg-[var(--bg-canvas)] opacity-60"
+                      ? "bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] ring-1 ring-[#4F46E5]/25"
+                      : "bg-white/55 text-[var(--text-tertiary)]"
                   }`}
                 >
                   <div className="text-2xl mb-1">{f.emoji}</div>
                   <div className="text-sm font-semibold text-[var(--text-primary)]">{f.label}</div>
-                  <div className={`text-[11px] mt-1 ${present ? "text-emerald-700" : "text-[var(--text-tertiary)]"}`}>
+                  <div className={`mt-2 inline-flex rounded-full px-2 py-0.5 text-[11px] font-semibold ${present ? "bg-[var(--band-indigo)] text-[#3730A3]" : "bg-white/70 text-[var(--text-tertiary)]"}`}>
                     {present ? "Présent" : "Absent"}
                   </div>
                 </div>
               );
             })}
             <div
-              className={`rounded-2xl border p-4 shadow-sm ${
+              className={`rounded-2xl p-4 ${
                 t.velo
-                  ? "border-emerald-200/60 bg-emerald-50/40"
-                  : "border-[var(--border)] bg-[var(--bg-canvas)] opacity-60"
+                  ? "bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] ring-1 ring-[#4F46E5]/25"
+                  : "bg-white/55 text-[var(--text-tertiary)]"
               }`}
             >
               <div className="text-2xl mb-1">🚲</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">Vélo</div>
-              <div className={`text-[11px] mt-1 ${t.velo ? "text-emerald-700" : "text-[var(--text-tertiary)]"}`}>
+              <div className={`mt-2 inline-flex rounded-full px-2 py-0.5 text-[11px] font-semibold ${t.velo ? "bg-[var(--band-indigo)] text-[#3730A3]" : "bg-white/70 text-[var(--text-tertiary)]"}`}>
                 {t.velo === "fort" ? "Réseau fort" : t.velo === "moyen" ? "Réseau correct" : "Limité"}
               </div>
             </div>
           </div>
-          <p className="text-xs text-[var(--text-tertiary)] mt-3">
+          <p className="text-xs text-[var(--text-secondary)] mt-3">
             Données réseau hand-curées à partir des cartes publiques RATP / SNCF / GART. Une absence indique que nous n&apos;avons pas confirmé la présence du réseau, pas nécessairement qu&apos;il n&apos;existe pas.
           </p>
         </div>
       </section>
 
-      {/* Commute estimate */}
-      <section className="relative pb-8">
+      {/* Trajet domicile-travail — bande ciel */}
+      <section className="band band-sky py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="flex items-baseline gap-3 mb-4">
             <h2 className="text-xl font-bold text-[var(--text-primary)]">Trajet domicile-travail estimé</h2>
-            <span className="text-[10px] uppercase tracking-wide font-semibold text-amber-700 bg-amber-100/70 rounded-full px-2 py-0.5">Estimation</span>
+            <span className="text-[10px] uppercase tracking-wide font-semibold text-[#9D174D] bg-[#FCE7F3] rounded-full px-2 py-0.5">Estimation</span>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-3">
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Aller simple</div>
               <div className="text-2xl font-bold text-[var(--text-primary)]">{ce.oneWayMinutes}<span className="text-sm font-normal text-[var(--text-tertiary)]"> min</span></div>
               <div className="text-[11px] mt-1 text-[var(--text-tertiary)] capitalize">{ce.label}</div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Aller-retour</div>
               <div className="text-2xl font-bold text-[var(--text-primary)]">{ce.roundTripMinutes}<span className="text-sm font-normal text-[var(--text-tertiary)]"> min/j</span></div>
               <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">≈ {Math.round(ce.roundTripMinutes * 5 / 60)} h/sem.</div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Voiture</div>
               <div className="text-2xl font-bold text-[var(--text-primary)]">{Math.round(ce.carShare * 100)}<span className="text-sm font-normal text-[var(--text-tertiary)]"> %</span></div>
               <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">part des trajets</div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Transports / vélo / pied</div>
               <div className="text-2xl font-bold text-[var(--text-primary)]">{Math.round((ce.publicShare + ce.activeShare) * 100)}<span className="text-sm font-normal text-[var(--text-tertiary)]"> %</span></div>
               <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">{Math.round(ce.publicShare * 100)} % transports · {Math.round(ce.activeShare * 100)} % actif</div>
             </div>
           </div>
-          <p className="text-xs text-[var(--text-tertiary)]">
+          <p className="text-xs text-[var(--text-secondary)]">
             Estimation dérivée de la population, du score transports et de la géographie. Moyenne nationale Insee 2022 : ~22 min aller. À recouper avec ses propres trajets — le quartier choisi pèse autant que la ville.
             {metroHub && metroHub.hub !== city.slug && (
               <>
@@ -307,16 +302,16 @@ export default async function TransportsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Similar */}
-      <section className="relative pb-12">
+      {/* Villes comparables — bande rose */}
+      <section className="band band-pink py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Villes au profil transports comparable</h2>
+          <h2 className="text-xl font-bold mb-4"><span className="gradient-text">Villes au profil transports comparable</span></h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {similar.map((c) => (
               <Link
                 key={c.slug}
                 href={`/villes/${c.slug}/transports`}
-                className="group rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
+                className="group rounded-xl bg-white shadow-[0_10px_28px_-18px_rgba(219,39,119,0.55)] hover:shadow-[0_14px_30px_-16px_rgba(219,39,119,0.7)] transition-shadow px-4 py-3"
               >
                 <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                   {c.name}
@@ -330,37 +325,37 @@ export default async function TransportsPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Footer nav */}
-      <section className="relative pb-16">
+      {/* Renvois + discussion — bande blanche */}
+      <section className="band band-white py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 flex gap-3 flex-wrap">
           <Link
             href={`/villes/${slug}`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             ← Profil complet de {city.name}
           </Link>
           <Link
             href="/classements/mobilite"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             Classement mobilité 🚊
           </Link>
           <Link
             href="/classements/sans-voiture"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             Villes où vivre sans voiture 🚲
           </Link>
           <Link
             href="/pour-qui/sans-voiture"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             Profil « vivre sans voiture » 🚋
           </Link>
           {border && (
             <Link
               href="/pour-qui/travailleurs-frontaliers"
-              className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+              className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
             >
               Habiter ici et travailler à {border.hub} 🛂
             </Link>
@@ -368,22 +363,21 @@ export default async function TransportsPage({ params }: Props) {
           {airHub && (
             <Link
               href="/pour-qui/famille-a-l-etranger"
-              className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+              className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
             >
               Famille à l&apos;étranger : partir via {airHub.hub} ✈️
             </Link>
           )}
           <Link
             href="/villes"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             Toutes les villes
           </Link>
         </div>
-      </section>
-
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        <div className="mx-auto mt-8 max-w-3xl px-4 sm:px-6">
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        </div>
       </section>
 
       <Footer />

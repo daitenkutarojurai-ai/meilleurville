@@ -1011,3 +1011,29 @@ affichait « {photo && ( <CityPhotoBand … /> )} » en texte brut dans le chape
 1. Autres sous-pages ville au schéma `Card`/`glass` + sections `pb-8` (`transports`, `ecoles`, `logement`).
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Cartes internes de la fiche ville (`Card` « card-sheen »).
+
+## 2026-10-28 ~03:00 UTC — sous-page transports `/villes/[slug]/transports` (FR) + EN `/cities/[slug]/transport`
+
+**Surface** : le gabarit transports (540 villes × 2 locales). Avant : hero sur fond de page, cartes `glass`, réseaux
+« présents » en vert émeraude et écart à la moyenne en vert / orange (couleurs de palier détournées), badge
+« Estimation » ambre, 6 cartes réseaux dans une grille à 5 colonnes (Vélo orphelin sur une 2e ligne), renvois en
+pastilles grises à filet. EN : un seul bloc blanc.
+
+**Changé**
+- Hero `.bg-aurora` (FR et EN ; EN : nom de ville en `.gradient-text`).
+- FR en 4 bandes : repères + réseaux en `band-indigo` (cartes blanches à ombre indigo, réseau présent cerclé
+  d'indigo avec pastille lavande, absent en carte translucide, grille `sm:3 / lg:6` sans orphelin) ; trajet
+  domicile-travail en `band-sky` (badge « Estimation » rose) ; villes comparables en `band-pink` (h2 dégradé,
+  cartes blanches à ombre rose) ; renvois en pilules lavande + DiscussionCTA en `band-white`.
+- Écart « vs moyenne FR » en indigo / rose.
+- EN : « What the score includes » en carte blanche sur `band-indigo`, « Getting around » en `band-sky` (h2 dégradé,
+  bouton `grad-head-0`, renvois en pilules), FeedbackWidget en `band-white`. Copie, données, JSON-LD, liens inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers :
+1 erreur `no-unescaped-entities` préexistante côté EN (`{c.name}'s`), 0 ajoutée. Captures `next dev` + playwright
+`/villes/lyon/transports` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-pages `ecoles` et `logement` (même schéma `glass` + sections `pb-8`).
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Cartes internes de la fiche ville (`Card` « card-sheen »).
