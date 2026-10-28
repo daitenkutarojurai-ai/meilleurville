@@ -1086,3 +1086,26 @@ renvois en cartes grises.
 1. Sous-pages `emploi` / `sante` (même schéma).
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Sous-page `louer-ou-acheter` (liée depuis logement).
+
+## 2026-10-28 ~23:00 UTC — sous-page emploi `/villes/[slug]/emploi` (FR) + EN `/cities/[slug]/employment`
+
+**Surface** : le gabarit emploi (540 villes × 2 locales). Avant : un seul bloc sur fond de page, carte composite à
+filet gauche coloré, méthodologie et renvois en `Card` grises, lien classement en texte. EN : trois blocs blancs à filet.
+
+**Changé**
+- Hero `.bg-aurora`, emoji 💼 dans une tuile `grad-head-0` (FR) ; EN : nom de ville en `.gradient-text`.
+- FR en 3 bandes : score composite (carte blanche à ombre indigo, plus de filet gauche) + quatre dimensions en
+  `band-indigo` ; méthodologie en `band-sky` (h2 dégradé, carte à ombre cyan) ; renvois en tuiles lavande, lien
+  classement national en pilule, DiscussionCTA en `band-white`.
+- Les fonds/couleurs de niveau des `JobBlock` (vert/ambre/orange/rouge) sont conservés : ils encodent un niveau.
+- EN : dimensions en cartes blanches sur `band-indigo`, « How to read this » en `band-sky` (h2 dégradé, bouton
+  `grad-head-0`, bouton secondaire en pilule blanche), FeedbackWidget en `band-white`. Copie, données, JSON-LD, liens inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers :
+0 problème. Captures `next dev` + playwright `/villes/lyon/emploi` 1440 et 390 px, `scrollWidth` = viewport.
+EN non capturé (404 en dev, la réécriture EN n'existe que dans le Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-page `sante` (même schéma), puis `teletravail`.
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Sous-page `louer-ou-acheter`.

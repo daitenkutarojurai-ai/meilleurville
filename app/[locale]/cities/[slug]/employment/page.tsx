@@ -71,7 +71,8 @@ export default async function EnCityEmployment({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
+      <section className="relative overflow-hidden bg-aurora">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-10">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -84,7 +85,7 @@ export default async function EnCityEmployment({ params }: Props) {
         <div className="flex items-center gap-3 mb-3">
           <span className="text-5xl" aria-hidden>💼</span>
           <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight">
-            Job market in {c.name}
+            Job market in <span className="gradient-text">{c.name}</span>
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
@@ -96,14 +97,16 @@ export default async function EnCityEmployment({ params }: Props) {
           local activity — calibrated against INSEE, DARES, SIRENE and DADS reference
           bands, not the unemployment rate published for this town.
         </p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 grid sm:grid-cols-2 gap-3">
         {DIMS.map((d) => {
           const dim = job[d.key];
           const dimScore = Math.round((10 - dim.score) * 10) / 10;
           return (
-            <div key={d.key} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
+            <div key={d.key} className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-baseline justify-between">
                 <p className="font-semibold text-[var(--text-primary)]">{d.label}</p>
                 <span className={`font-mono-data font-bold ${scoreColor(dimScore)}`}>{dimScore.toFixed(1)}</span>
@@ -114,10 +117,12 @@ export default async function EnCityEmployment({ params }: Props) {
             </div>
           );
         })}
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">How to read this</h2>
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold mb-3"><span className="gradient-text">How to read this</span></h2>
         <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
           These four scores are a <strong>departmental estimate</strong>, not a
           measurement. Each department is placed in bands calibrated against the orders of
@@ -131,13 +136,16 @@ export default async function EnCityEmployment({ params }: Props) {
           <li>· If your income is remote or portable, the local job market matters far less. Weight it accordingly.</li>
         </ul>
         <div className="mt-2 flex flex-wrap gap-3">
-          <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {c.name}</Link>
-          <Link href="/rankings/jeunes-actifs" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">Young-professionals ranking</Link>
+          <Link href={`/cities/${slug}`} className="grad-head-0 rounded-full px-5 py-2.5 font-semibold hover:opacity-90">Back to {c.name}</Link>
+          <Link href="/rankings/jeunes-actifs" className="rounded-full bg-white px-5 py-2.5 font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">Young-professionals ranking</Link>
+        </div>
         </div>
       </section>
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-        <FeedbackWidget />
-      </div>
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
       <Footer />
     </main>
   );
