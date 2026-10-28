@@ -54,6 +54,7 @@ import { projectClimate2040 } from "@/lib/climate-2040";
 import { cityIncome } from "@/lib/city-income";
 import { cityPopulation } from "@/lib/city-population";
 import { cityPropertyPrices } from "@/lib/property-prices";
+import { coastDistanceKm } from "@/lib/city-coast";
 
 // Tag patterns that signal a strong seasonal/touristic vocation. Matched on
 // the joined character-tags string (lowercased) of each city seed entry.
@@ -2754,6 +2755,54 @@ function rankAcheterPlusCherQueLouer(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity);
 }
 
+const LITTORAL_MAX_KM = 10;
+const LITTORAL_MIN_EFFORT = 35;
+const LITTORAL_UC = 1.8;
+const LITTORAL_DROM = ["La Réunion", "Martinique", "Guadeloupe", "Guyane", "Mayotte"];
+
+function littoralEligible() {
+  const out: { city: SeedCity; t3: number; income: number; effort: number; km: number | null }[] = [];
+  for (const city of CITIES_SEED) {
+    const p = cityPopulation(city.slug);
+    const inc = cityIncome(city.slug)?.medianIncome;
+    const t3 = HOUSING[city.slug]?.avgRentT3;
+    if (!p || p.pop2022 < 20_000 || inc == null || t3 == null || LITTORAL_DROM.includes(city.region)) continue;
+    out.push({ city, t3, income: inc, effort: ((t3 * 12) / (inc * LITTORAL_UC)) * 100, km: coastDistanceKm(city.slug) });
+  }
+  return out;
+}
+
+const isLittoral = (km: number | null) => km != null && km <= LITTORAL_MAX_KM;
+
+export const CORPUS_LITTORAL = (() => {
+  const e = littoralEligible();
+  const sea = e.filter((x) => isLittoral(x.km));
+  const inland = e.filter((x) => !isLittoral(x.km));
+  return {
+    n: e.length,
+    sea: sea.length,
+    medianEffort: medianOf(e.map((x) => x.effort)),
+    seaMedianEffort: medianOf(sea.map((x) => x.effort)),
+    seaHigh: sea.filter((x) => x.effort >= LITTORAL_MIN_EFFORT).length,
+    inlandHigh: inland.filter((x) => x.effort >= LITTORAL_MIN_EFFORT).length,
+    inland: inland.length,
+  };
+})();
+
+function rankLittoralTauxEffort(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  const n = (v: number) => Math.round(v).toLocaleString("fr-FR");
+  const one = (v: number) => v.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  for (const { city, t3, income, effort, km } of littoralEligible()) {
+    if (!isLittoral(km) || effort < LITTORAL_MIN_EFFORT) continue;
+    // Le seuil d'entrée EST le plancher de gravité (6) ; 10/10 à 51 % de taux d'effort.
+    const severity = Math.min(10, 6 + 0.25 * (effort - LITTORAL_MIN_EFFORT));
+    const reason = `T3 de référence à ${n(t3)} €/mois pour un niveau de vie médian de ${n(income)} €/an : taux d'effort de ${one(effort)} % pour un ménage de ${one(LITTORAL_UC)} UC, contre ${one(CORPUS_LITTORAL.medianEffort)} % pour la ville médiane · mer ouverte à ${one(km as number)} km`;
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -3414,6 +3463,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Indicateur : prix médian DVF d'un appartement (ventes 2024-2025, `lib/property-prices.ts`) × 65 m², divisé par douze fois le loyer T3 de référence de `data/housing.ts`. Entrée à 20 ans de loyer au moins. Severity = 6 + 0,4 × (années − 20), plafonnée à 10/10 (atteinte à 30 ans) : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, au moins 100 ventes d'appartements sur la fenêtre (cinq fois le seuil de publication DVF) et loyer connu, soit 383 villes. Six limites à connaître. Le prix médian est celui de toutes les ventes d'appartements de la commune, de la petite surface au grand logement, rapporté à une surface type de 65 m² : c'est un ordre de grandeur, pas le prix d'un bien précis, et changer la surface déplace le nombre d'années, jamais l'ordre. Le loyer de référence est un repère éditorial de marché, non une moyenne d'annonces, et il ne dit pas ce que paient les locataires en place ni ceux du parc social. Le calcul ignore le crédit, la taxe foncière, les charges de copropriété, les frais d'agence et de notaire, et la valorisation future : un ratio élevé n'établit pas que louer est « plus rentable », seulement que l'achat s'est éloigné du loyer. Les prix couvrent 2024-2025 et les loyers sont de 2026, donc le ratio décrit un état et pas une trajectoire. Les communes d'Alsace-Moselle (livre foncier) et Mayotte sont absentes de DVF et ne sont pas classées. Saint-Paul (La Réunion) sort en tête à 31,9 ans, mais son prix appartement (5 304 €/m²) est plus élevé que celui de la maison et très éloigné du repère éditorial de la ville : lisez ce chiffre avec prudence. Distinct de `villes-achat-hors-de-portee` (prix d'achat rapporté au niveau de vie), de `villes-regrets-achat` (prix face à la qualité de vie) et de `villes-couts-explosifs` : ici, deux marchés côte à côte, celui de la vente et celui de la location, sans score.",
     rank: rankAcheterPlusCherQueLouer,
+  },
+  {
+    slug: "villes-littoral-taux-d-effort-eleve",
+    title: "Villes de bord de mer où le loyer pèse plus d'un tiers du niveau de vie",
+    metaTitle: "Bord de mer : 16 villes où le loyer dépasse 35 % du revenu",
+    metaDescription:
+      "16 villes de métropole à moins de 10 km de la mer où un T3 absorbe plus de 35 % du niveau de vie médian : Cannes 53 %, Nice 46 %, Menton, Le Cannet.",
+    emoji: "🏖️",
+    intro:
+      "On associe la mer à un loyer qui monte. En France, la réalité est plus contrastée : le loyer médian d'un deux-pièces dans les villes de bord de mer de plus de 20 000 habitants est le même que dans l'ensemble du pays, 800 €, et certaines, du Nord à la Bretagne, sont franchement bon marché. Le piège est ailleurs, concentré sur une portion de côte. Là, le trois-pièces se loue au prix d'une métropole alors que les habitants gagnent comme dans une ville moyenne. Ce n'est pas un verdict sur la qualité de ces villes. C'est ce qu'il faut savoir avant de se dire que l'on s'installera « au bord de la mer » avec le budget d'une ville de province.",
+    reality:
+      "Ce classement ne repose sur aucun score : il rapproche deux mesures publiées. La première est le loyer de référence d'un T3 de `data/housing.ts`, multiplié par douze. La seconde est le niveau de vie médian communal (Insee, Filosofi 2021), multiplié par 1,8 unité de consommation, soit un couple avec un enfant de moins de 14 ans, le ménage qui occupe un trois-pièces. Le quotient est un taux d'effort. Sur les " + CORPUS_LITTORAL.n + " villes de métropole de 20 000 habitants et plus dont les deux chiffres sont publiés, la médiane est de " + fmtOne(CORPUS_LITTORAL.medianEffort) + " %. Sont retenues les villes dont la mer ouverte est à 10 km ou moins (distance mesurée dans `lib/city-coast.ts`, qui ne compte ni un fleuve ni un estuaire) : " + CORPUS_LITTORAL.sea + " villes, dont la médiane est de " + fmtOne(CORPUS_LITTORAL.seaMedianEffort) + " %, donc presque la même que celle du pays. Seize dépassent 35 %, soit " + CORPUS_LITTORAL.seaHigh + " sur " + CORPUS_LITTORAL.sea + ", contre " + CORPUS_LITTORAL.inlandHigh + " sur " + CORPUS_LITTORAL.inland + " à l'intérieur des terres : le bord de mer n'est pas, en soi, un facteur d'effort. La concentration est géographique. Douze des seize sont en Provence-Alpes-Côte d'Azur, dont sept dans les Alpes-Maritimes, trois dans le Var (La Seyne-sur-Mer, Hyères, Six-Fours-les-Plages) et deux dans les Bouches-du-Rhône (Marseille, La Ciotat). Les quatre autres sont Bayonne et Biarritz au Pays basque, Montpellier et Bastia. Cannes ouvre la liste à 53,4 % : un T3 à 1 700 € par mois pour un niveau de vie médian de 21 210 € par an. Nice suit à 46,4 % (1 500 € et 21 570 €), puis Menton (42,8 %), Le Cannet (42,5 %), Mandelieu-la-Napoule (41,4 %), Vallauris (40,0 %) et Antibes (39,6 %). Montpellier, huitième, est la seule à ne pas être sur le rivage : elle est à 9,9 km de la mer, et son taux tient au bas niveau de vie plus qu'au loyer. À l'inverse, la mer n'a rien de cher dans le nord et à l'ouest : le T2 est à 560 € à Dunkerque, 640 € à Saint-Nazaire, 650 € à Brest et au Havre, 680 € à Lorient, contre 800 € pour la ville médiane. Deux lectures sont à ne pas confondre. Un taux d'effort élevé dit qu'un ménage au niveau de vie local aurait du mal à payer un loyer de marché ; il ne dit pas que les habitants en place le paient, beaucoup étant propriétaires ou logés dans le parc social, dont nous n'avons pas la part par commune. Et un niveau de vie médian cache des quartiers très différents, surtout dans une commune comme Nice ou Marseille.",
+    methodology:
+      "Indicateur : loyer T3 de référence × 12, divisé par le niveau de vie médian communal × 1,8 UC. Entrée à 35 % au moins. Severity = 6 + 0,25 × (taux en points au-dessus de 35), plafonnée à 10/10 (atteinte à 51 %) : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : métropole uniquement, population Insee 2022 ≥ 20 000 habitants, loyer et niveau de vie connus, soit " + CORPUS_LITTORAL.n + " villes ; le littoral ultramarin est exclu parce que Filosofi ne couvre ni la Guadeloupe, ni la Guyane, ni Mayotte, et que la comparaison serait inégale. Filtre littoral : mer ouverte à 10 km ou moins, `data/city-coast.json` (Natural Earth), avec un filtre de largeur d'eau. Sources : Insee, Filosofi 2021 via `lib/city-income.ts` (niveau de vie par unité de consommation, pas un salaire) ; Insee, recensement 2022 via `lib/city-population.ts` pour l'éligibilité ; `data/housing.ts` pour le loyer T3, un repère éditorial de marché et non une moyenne d'annonces. Cinq limites. Les revenus datent de 2021 et les loyers de 2026, donc les taux absolus sont surestimés et seul le classement tient. Le taux d'effort ne mesure ni la part de propriétaires, ni le parc social, ni l'effet des résidences secondaires, nombreuses sur le littoral et absentes du niveau de vie des résidents. La tranche de 1,8 UC est une hypothèse de ménage : la changer déplace le niveau du taux, pas l'ordre. Le seuil de 10 km est un choix, une ville à 11 km n'est pas moins littorale. Aucune causalité n'est affirmée. Distinct de `villes-pauvres-loyers-hauts` (pauvreté et loyer, sans notion de mer), de `villes-couts-explosifs` (dépenses mensuelles face à un proxy de salaire) et de `villes-achat-hors-de-portee` (prix d'achat rapporté au niveau de vie) : ici le loyer face au revenu local, restreint à la façade maritime.",
+    rank: rankLittoralTauxEffort,
   },
 ];
 

@@ -69505,6 +69505,97 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["meilleures-villes-sante-hopital-medecins-france-2025", "loyer-reel-france-charges-estimees-villes-2026"],
     tags: ["loyer près d'un CHU", "se loger près d'un hôpital", "CHU et loyer", "suivi médical et déménagement", "loyer T2 par ville 2026", "accès aux soins"],
   },
+  {
+    slug: "trois-fois-le-loyer-revenu-requis-t2-villes-2026",
+    title: "La règle des trois fois le loyer : quel revenu faut-il pour louer un deux-pièces, ville par ville ?",
+    metaTitle: "Trois fois le loyer : revenu requis pour un T2 en 2026",
+    metaDesc: "Dans 409 villes de 20 000 habitants et plus, trois fois le loyer d'un T2 dépasse le niveau de vie médian local dans 348 d'entre elles. Le détail ville par ville.",
+    category: "budget",
+    emoji: "🧾",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Dans 348 des 409 villes de 20 000 habitants et plus pour lesquelles nous publions un loyer et un niveau de vie, trois fois le loyer d'un deux-pièces dépasse le niveau de vie médian mensuel des habitants. Le revenu qu'un propriétaire attend d'un candidat, soit trois fois le loyer, est de 2 400 € par mois pour la ville médiane (T2 à 800 €), alors que le niveau de vie médian y est de 1 804 € par mois. Ce guide chiffre ce décalage ville par ville, dit où la règle est atteignable sans effort et où elle exclut de fait la moitié des habitants, et explique ce que ce rapprochement mesure et ce qu'il ne mesure pas.",
+    sections: [
+      {
+        heading: "Que mesure la règle des trois fois le loyer ?",
+        body: "C'est un usage de bailleurs et d'agences, pas une obligation : aucune loi ne fixe de ratio entre revenu et loyer, et chaque propriétaire apprécie son dossier. L'usage veut que les ressources mensuelles du ménage atteignent trois fois le loyer, charges comprises, ou qu'un garant les atteigne à sa place. Nous l'appliquons ici au loyer de référence d'un deux-pièces de notre estimation des loyers, multiplié par trois, et nous le comparons au niveau de vie médian mensuel de la commune (Insee, Filosofi 2021, divisé par douze). Le résultat est un rapport : au-dessus de 1, la ville demande plus que ce que gagne son habitant médian ; en dessous de 1, un habitant médian passe le test."
+      },
+      {
+        heading: "Combien faut-il gagner dans la ville médiane ?",
+        body: "2 400 € par mois, soit trois fois le T2 médian de 800 €. Pour 115 des 409 villes, la barre est à 2 000 € ou moins ; pour 211, elle est à 2 400 € ou plus, et pour 78 elle atteint 3 000 € ou plus. Le rapport médian entre cette barre et le niveau de vie médian est de 1,27 : dans la ville médiane, il faut gagner plus d'un quart de plus que l'habitant médian pour franchir le seuil. Dans 348 villes sur 409, soit 85 %, ce rapport dépasse 1. Il dépasse 1,5 dans 82 villes et 2 dans six seulement."
+      },
+      {
+        heading: "Où la règle devient-elle presque inatteignable ?",
+        body: "En Île-de-France d'abord. Les 153 villes franciliennes de l'échantillon dépassent toutes 1, avec un rapport médian de 1,48 et une barre médiane de 2 940 € par mois, contre 2 040 € dans les 256 autres villes. Aubervilliers est la plus tendue (T2 à 980 €, barre à 2 940 € pour un niveau de vie médian de 1 278 € par mois, rapport 2,30), devant Paris (1 800 €, barre à 5 400 €, 2,18), Cannes (2,12), Saint-Ouen-sur-Seine et Saint-Denis (2,08), Villeneuve-Saint-Georges (2,06), Bagnolet (1,98), Gennevilliers (1,94), Vénissieux et Pantin (1,93 et 1,91). Hors Île-de-France, la règle est aussi très exigeante à Annecy, Montpellier, Nice, Avignon, Antibes, Annemasse, Menton, Vénissieux, Le Cannet, Mandelieu-la-Napoule, Vaulx-en-Velin et Vallauris, qui dépassent 1,5. Ce n'est pas la même situation partout : à Paris le loyer est très haut, à Aubervilliers ou Saint-Denis c'est le niveau de vie qui est bas."
+      },
+      {
+        heading: "Où un habitant médian passe-t-il le test sans effort ?",
+        body: "Dans 61 villes, un habitant médian gagne au moins trois fois le loyer d'un T2. Les rapports les plus bas sont ceux d'Aurillac (0,69, T2 à 420 €), Millau (0,76), Chaumont et Auch (0,79), Laval (0,81), Rodez (0,83), Châteauroux (0,85) et Vichy (0,86). On y retrouve des préfectures et sous-préfectures de l'intérieur, comme Alençon, Auxerre, Épinal, Castres, Mont-de-Marsan ou Valenciennes, et des villes du nord comme Cambrai ou Lens. La barre la plus basse est celle d'Aurillac (1 260 €), puis Lens (1 320 €), Millau et Denain (1 350 €), Alençon (1 380 €) et Chaumont (1 410 €). Un loyer bas ne dit pas pour autant que la ville offre de l'emploi : c'est un coût d'entrée, pas un verdict sur le marché du travail."
+      },
+      {
+        heading: "Qu'en est-il des grandes villes ?",
+        body: "Aucune des 42 villes de 100 000 habitants et plus ne passe le test pour son habitant médian. Les plus accessibles sont Limoges (1,05, T2 à 600 €), Brest (1,09), Saint-Étienne et Le Mans (1,10), Dijon (1,14) et Grenoble (1,22). Les métropoles se groupent entre 1,27 et 1,56 : Nantes 1,27, Bordeaux et Rennes 1,30, Toulouse 1,38, Lille 1,40, Lyon et Strasbourg 1,42, Marseille 1,43, Montpellier 1,56. Nice monte à 1,84 (T2 à 1 100 €, barre à 3 300 €) et Paris à 2,18. Pour une personne seule au niveau de vie médian, louer seule dans une grande ville passe donc presque toujours par un garant, une garantie publique ou une colocation."
+      },
+      {
+        heading: "Ce chiffre dit-il ce que gagne un locataire ?",
+        body: "Non, et trois limites s'imposent. D'abord, le niveau de vie est un revenu disponible par unité de consommation, prestations comprises, calculé pour tous les ménages de la commune, propriétaires inclus : ce n'est ni un salaire, ni le revenu d'un locataire, et les locataires sont en moyenne plus modestes. Ensuite, les revenus datent de 2021 et les loyers de 2026, ce qui surestime les rapports en valeur absolue : seul le classement des villes tient. Enfin, le loyer de référence est un ordre de grandeur de marché, pas le prix d'un logement précis, et beaucoup de locataires paient moins que lui. Le chiffre sert à comparer des villes entre elles, pas à prédire l'issue d'un dossier."
+      },
+      {
+        heading: "Que faire si le seuil est hors de portée ?",
+        body: "Trois pistes, dans l'ordre. La garantie publique : notre guide sur Visale et la GLI détaille qui y a droit et comment elle remplace un garant. La colocation, qui divise la barre par le nombre de colocataires : dans une ville à 1,5, deux personnes au niveau de vie médian passent largement le test. Enfin le choix de la ville, quand il est ouvert : un déménagement de Lyon vers Saint-Étienne ou Limoges fait passer la barre d'un T2 de 3 000 € à 1 740 € ou 1 800 € par mois, d'après nos loyers de référence. Notre guide sur le loyer réel avec charges estimées complète ce calcul."
+      }
+    ],
+    relatedCities: ["paris", "aubervilliers", "nice", "montpellier", "aurillac", "millau", "limoges", "brest", "saint-etienne", "lyon"],
+    relatedGuides: ["garantie-loyers-impayes-gli-visale-france-2026", "loyer-reel-france-charges-estimees-villes-2026", "loyer-studio-t3-ecart-villes-2026"],
+    tags: ["règle des trois fois le loyer", "revenu pour louer", "dossier de location", "loyer et revenu par ville", "salaire pour louer un T2", "garant location"],
+  },
+  {
+    slug: "louer-au-bord-de-la-mer-47-villes-loyers-facade-2026",
+    title: "Louer au bord de la mer : 47 villes, et une façade qui compte plus que la mer",
+    metaTitle: "Louer au bord de la mer : 47 villes, de 480 à 1 250 €",
+    metaDesc: "Les 47 villes de métropole de 20 000 habitants et plus à moins de 10 km de la mer ont le même T2 médian que le pays, 800 €. La façade décide : 610 € au nord, 950 € en PACA.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 6,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Louer au bord de la mer ne coûte pas plus cher que louer ailleurs en France, en médiane. Dans les 47 villes de métropole de 20 000 habitants et plus situées à moins de 10 km de la mer ouverte, le deux-pièces de référence est à 800 €, comme dans les 396 villes comparées. Ce qui change est la façade : 610 € sur la Manche et la mer du Nord, 670 € en Bretagne, 820 € sur la côte atlantique, en Occitanie et en Corse, 950 € en Provence-Alpes-Côte d'Azur. Ce guide mesure l'écart, nomme les villes de bord de mer les moins chères et les plus chères, et dit ce que la mer change réellement à la population.",
+    sections: [
+      {
+        heading: "Comment avons-nous défini une ville de bord de mer ?",
+        body: "Par la distance à la mer ouverte, mesurée dans nos données côtières à partir de Natural Earth : un fleuve ou un estuaire ne compte pas, d'où Bordeaux à 19 km et Nantes à 25 km. Nous retenons les villes de métropole de 20 000 habitants et plus (Insee, recensement 2022) à 10 km ou moins de la mer, soit 47 sur 396. L'outre-mer est exclu de la comparaison, ses loyers et sa géographie ne se superposant pas à ceux de la métropole. Le loyer est celui de notre estimation des loyers, un ordre de grandeur de marché et non une moyenne d'annonces."
+      },
+      {
+        heading: "Louer à la mer est-il plus cher qu'ailleurs ?",
+        body: "Non, pas en médiane. Le T2 médian des 47 villes de bord de mer est de 800 €, exactement celui des 396 villes comparées, et le T3 médian de 1 080 € est identique lui aussi. Parmi elles, 24 ont un T2 à 800 € ou moins et 18 à 700 € ou moins. Sept villes atteignent 1 000 € pour un deux-pièces (toutes en Provence-Alpes-Côte d'Azur sauf Biarritz), soit 15 % des villes de bord de mer, contre 71 villes sur 349 à l'intérieur, soit 20 %. L'idée que la mer fait monter le loyer est vraie sur une portion de côte, pas sur toutes."
+      },
+      {
+        heading: "Quelle différence selon la façade maritime ?",
+        body: "Elle est considérable. En Provence-Alpes-Côte d'Azur, 20 villes ont un T2 médian de 950 €, de 700 € à Istres à 1 250 € à Cannes. L'Occitanie et la Corse, cinq villes (Montpellier, Sète, Agde, Ajaccio, Bastia), sont à 820 €, comme l'Atlantique de la Nouvelle-Aquitaine et des Pays de la Loire (sept villes, de 490 € à Rochefort à 1 000 € à Biarritz). La Bretagne descend à 670 € pour huit villes, de 570 € à Lanester à 850 € à Vannes. La Manche et la mer du Nord, sept villes de Normandie et des Hauts-de-France, sont à 610 €, de 480 € à Calais à 650 €. Entre le nord et la Méditerranée provençale, l'écart de médiane est de 340 € par mois."
+      },
+      {
+        heading: "Quelles sont les villes de bord de mer les moins chères ?",
+        body: "Calais (T2 à 480 €), Rochefort (490 €), Dunkerque (560 €), Lanester (570 €), Boulogne-sur-Mer, Saint-Brieuc (580 €), Lannion (600 €), Dieppe (610 €) et Cherbourg-en-Cotentin (620 €). Parmi les villes de plus de 100 000 habitants, Brest et Le Havre sont à 650 €, Toulon à 780 € et Marseille à 820 €. Un loyer bas n'est pas un jugement : ces villes ont des économies portuaires et industrielles, un climat plus frais, et leur niveau de vie médian est plus bas dans le Nord (18 850 € par an en médiane sur la Manche et la mer du Nord, contre 22 570 € en Provence-Alpes-Côte d'Azur)."
+      },
+      {
+        heading: "Quelles sont les plus chères, et que paie-t-on ?",
+        body: "Cannes (1 250 €), Mandelieu-la-Napoule (1 120 €), Nice (1 100 €), Antibes, Menton et Le Cannet (1 050 €), Biarritz (1 000 €) et Vallauris (990 €). Six des sept villes à 1 000 € ou plus sont dans les Alpes-Maritimes, Biarritz étant la seule hors Provence-Alpes-Côte d'Azur. Le niveau de vie médian n'y suit pas autant, ce que détaille notre classement de red flags sur les villes littorales où le loyer dépasse 35 % du niveau de vie."
+      },
+      {
+        heading: "La mer change-t-elle la population ?",
+        body: "Oui, nettement, sur l'âge. La part des 60 ans et plus est de 31,3 % en médiane dans les villes de bord de mer, contre 23,4 % dans l'ensemble des villes comparées, d'après le recensement 2022. Le rythme de croissance, lui, est le même : +3,9 % entre 2011 et 2022 contre +4,0 %, avec des écarts forts, Agde gagnant 23,4 %, Bayonne 20,3 % et Les Sables-d'Olonne 17,5 %. Une ville de bord de mer est donc, en médiane, plus âgée sans être plus dynamique, un point qui pèse sur l'offre de services et d'emplois toute l'année. Le recensement compte les résidents : les résidences secondaires, nombreuses sur la côte, n'y figurent pas."
+      },
+      {
+        heading: "Et si l'on veut la mer sans être dessus ?",
+        body: "La distance compte moins que la façade. Les 24 villes à 2 km ou moins de la mer ont un T2 médian de 820 €, les 23 entre 2 et 10 km de 720 €, un écart de 100 € qui tient autant à la composition par façade qu'à la distance. Pour un budget serré, le levier le plus efficace reste de choisir la façade avant la commune : le T2 de Lorient, Saint-Nazaire ou Dunkerque coûte 240 à 390 € de moins que celui de La Ciotat (920 €) ou d'Hyères (950 €). Notre guide sur les villes côtières accessibles reste le bon point de départ qualitatif ; celui-ci donne les chiffres."
+      }
+    ],
+    relatedCities: ["cannes", "nice", "calais", "dunkerque", "brest", "lorient", "saint-nazaire", "sete", "agde", "biarritz", "la-rochelle", "vannes"],
+    relatedGuides: ["villes-france-bord-de-mer-budget-accessible-2025", "vivre-a-la-mer-toute-annee-france-2026-fantasme-realite", "loyer-studio-t3-ecart-villes-2026"],
+    tags: ["louer au bord de la mer", "loyer ville côtière", "façade maritime", "ville de bord de mer pas chère", "loyer par façade", "vivre sur la côte"],
+  },
+
 ];
 
 // --- Build-time integrity check -------------------------------------------
