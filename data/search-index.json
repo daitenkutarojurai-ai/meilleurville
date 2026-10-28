@@ -10427,6 +10427,36 @@
       "emoji": "🎻"
     },
     {
+      "slug": "10-choses-a-faire-a-parthenay-2026",
+      "title": "10 choses à faire à Parthenay",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-limoux-2026",
+      "title": "10 choses à faire à Limoux",
+      "emoji": "🥂"
+    },
+    {
+      "slug": "10-choses-a-faire-a-hazebrouck-2026",
+      "title": "10 choses à faire à Hazebrouck",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-pamiers-2026",
+      "title": "10 choses à faire à Pamiers",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-biscarrosse-2026",
+      "title": "10 choses à faire à Biscarrosse",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cluses-2026",
+      "title": "10 choses à faire à Cluses",
+      "emoji": "⌚"
+    },
+    {
       "slug": "acheter-appartement-moins-100000-euros-villes-2026",
       "title": "Acheter un appartement à moins de 100 000 € pour y habiter : 108 villes, et ce que le prix cache",
       "emoji": "🔑"
@@ -11124,6 +11154,11 @@
       "count": 5
     },
     {
+      "slug": "que-faire-dans-le-nord",
+      "label": "que faire dans le Nord",
+      "count": 5
+    },
+    {
       "slug": "que-faire-dans-les-hauts-de-seine",
       "label": "que faire dans les Hauts-de-Seine",
       "count": 5
@@ -11311,11 +11346,6 @@
     {
       "slug": "que-faire-dans-le-bas-rhin",
       "label": "que faire dans le Bas-Rhin",
-      "count": 4
-    },
-    {
-      "slug": "que-faire-dans-le-nord",
-      "label": "que faire dans le Nord",
       "count": 4
     },
     {
@@ -11756,6 +11786,11 @@
     {
       "slug": "que-faire-en-guadeloupe",
       "label": "que faire en Guadeloupe",
+      "count": 3
+    },
+    {
+      "slug": "que-faire-en-haute-savoie",
+      "label": "que faire en Haute-Savoie",
       "count": 3
     },
     {

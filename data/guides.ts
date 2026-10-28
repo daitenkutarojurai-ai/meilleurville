@@ -68959,6 +68959,414 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Nogent-sur-Marne", "activités Nogent-sur-Marne 2026", "que faire dans le Val-de-Marne", "pavillon Baltard Nogent bords de Marne"]
   },
   {
+    slug: "10-choses-a-faire-a-parthenay-2026",
+    title: "10 choses à faire à Parthenay",
+    metaTitle: "10 choses à faire à Parthenay",
+    metaDesc: "Porte Saint-Jacques, rue de la Vau-Saint-Jacques, remparts et jardin Férolle : 10 choses à faire à Parthenay, dans les Deux-Sèvres.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Parthenay comptait 10 121 habitants en 2022, contre 10 390 en 2011. Cette sous-préfecture des Deux-Sèvres garde un quartier médiéval au-dessus du Thouet. Ce guide dit ce qu'on y voit, de la porte Saint-Jacques aux remparts du château.",
+    sections: [
+      {
+        heading: "1. La porte Saint-Jacques",
+        body: "Élevée au début du XIIIe siècle à l'entrée nord de l'ancienne cité fortifiée, elle marque le départ de la rue de la Vau-Saint-Jacques. Le pont et la porte sont classés monuments historiques, et l'accès est libre."
+      },
+      {
+        heading: "2. La rue de la Vau-Saint-Jacques",
+        body: "Ses maisons à pans de bois, bâties au XIVe siècle par des tisserands prospères, comptent parmi les images de la ville. On la descend à pied, en levant les yeux."
+      },
+      {
+        heading: "3. Les remparts et les vestiges du château",
+        body: "Les remparts dominent le Thouet, et il reste des vestiges du château. C'est le point de vue pour comprendre pourquoi la cité s'est installée sur cet éperon."
+      },
+      {
+        heading: "4. La porte de la Citadelle",
+        body: "Ses deux tours en amande ferment l'entrée du quartier médiéval. Elle se visite de l'extérieur, au fil de la balade dans la cité."
+      },
+      {
+        heading: "5. L'église Saint-Laurent",
+        body: "Elle fait partie des étapes que les guides locaux associent à la balade dans le quartier Saint-Jacques. Vérifiez les conditions d'ouverture auprès de l'office de tourisme."
+      },
+      {
+        heading: "6. Le jardin Férolle",
+        body: "Aménagé sur les hauteurs du quartier Saint-Jacques et inauguré en 2011, ce jardin s'inspire des jardins médiévaux. C'est une pause calme entre deux rues pavées."
+      },
+      {
+        heading: "7. Les parcours-jeux en famille",
+        body: "L'office de tourisme propose des brochures et des parcours-jeux sur la cité médiévale. Ils servent à faire visiter le quartier à des enfants sans les lasser."
+      },
+      {
+        heading: "8. Les Journées européennes du patrimoine",
+        body: "Les animations de la communauté de communes y ont déjà inclus un vidéo-mapping sur la porte Saint-Jacques. Les programmes changent chaque année : consultez celui de l'édition en cours."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 670 € par mois dans notre estimation, contre 860 € à Niort. Parthenay convient à qui veut un patrimoine médiéval à échelle humaine, loin des grandes métropoles."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le quartier Saint-Jacques. La ville n'a pas de grand réseau de transports : prévoyez la voiture, et vérifiez les liaisons avant de venir."
+      }
+    ],
+    relatedCities: [
+      "parthenay",
+      "niort",
+      "bressuire"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-niort-2026"
+    ],
+    tags: [
+      "10 choses à faire à Parthenay",
+      "activités Parthenay 2026",
+      "que faire dans les Deux-Sèvres",
+      "porte Saint-Jacques Parthenay cité médiévale"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-limoux-2026",
+    title: "10 choses à faire à Limoux",
+    metaTitle: "10 choses à faire à Limoux",
+    metaDesc: "Carnaval, blanquette, place de la République et Pont-Neuf : 10 choses à faire à Limoux, dans l'Aude.",
+    category: "tourisme",
+    emoji: "🥂",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Limoux comptait 10 339 habitants en 2022, contre 10 155 en 2011. Cette sous-préfecture de l'Aude est connue pour la blanquette et pour un carnaval qui s'étire sur plusieurs semaines. Ce guide dit ce qu'on y fait, de la place de la République aux caves.",
+    sections: [
+      {
+        heading: "1. La place de la République",
+        body: "Le cœur de Limoux s'organise autour de cette place à arcades médiévales. Elle accueille une grande partie des festivités, carnaval compris, et sert de point de départ à la visite."
+      },
+      {
+        heading: "2. Le carnaval",
+        body: "Il se déroule de janvier à mars, les week-ends, et se termine par la Nuit de la Blanquette et le jugement de Carnaval. Les sources locales le présentent comme le plus long du monde et vieux de quatre siècles ; l'édition 2026 allait du 10 janvier au 22 mars, et celle de 2027 est annoncée."
+      },
+      {
+        heading: "3. La blanquette",
+        body: "Limoux est présentée comme le berceau de la blanquette et du crémant. Les caves se visitent et certains domaines proposent des initiations à la dégustation : réservez, et prévoyez qui conduit."
+      },
+      {
+        heading: "4. Le Pont-Neuf sur l'Aude",
+        body: "Il enjambe l'Aude et sert de repère pour une promenade au fil de l'eau. C'est un coin que les habitants apprécient."
+      },
+      {
+        heading: "5. Le musée Petiet",
+        body: "Il figure dans les listes de sites à voir à Limoux. Les conditions d'ouverture n'étant pas figées, renseignez-vous auprès de l'office de tourisme."
+      },
+      {
+        heading: "6. Une journée carnavalesque",
+        body: "L'office de tourisme d'Occitanie propose un parcours en une journée autour du carnaval. Il convient à qui ne vient que pour la fête, en hiver."
+      },
+      {
+        heading: "7. Les alentours viticoles",
+        body: "Les vignes de l'appellation entourent la ville. Les domaines relèvent d'autres communes : traitez-les comme une sortie à part."
+      },
+      {
+        heading: "8. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 720 € par mois dans notre estimation, contre 710 € à Carcassonne. Limoux convient à qui veut une petite ville viticole et festive, avec des prix de l'Aude."
+      },
+      {
+        heading: "9. Quand venir",
+        body: "Pour le carnaval, l'hiver et le début du printemps, week-ends compris. Hors fête, la ville est calme et se visite en peu de temps."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit hors carnaval. Carcassonne, la plus grande ville voisine, sert de base pour qui vient en train ou en avion : vérifiez les liaisons."
+      }
+    ],
+    relatedCities: [
+      "limoux",
+      "carcassonne"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-carcassonne-2026"
+    ],
+    tags: [
+      "10 choses à faire à Limoux",
+      "activités Limoux 2026",
+      "que faire dans l'Aude",
+      "carnaval de Limoux blanquette"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-hazebrouck-2026",
+    title: "10 choses à faire à Hazebrouck",
+    metaTitle: "10 choses à faire à Hazebrouck",
+    metaDesc: "Musée des Augustins, géants du Nord, mi-carême et église Saint-Éloi : 10 choses à faire à Hazebrouck, dans le Nord.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Hazebrouck comptait 21 785 habitants en 2022, contre 21 741 en 2011. C'est une ville flamande du Nord, connue pour ses géants et sa mi-carême. Ce guide dit ce qu'on y visite, du musée des Augustins à l'église Saint-Éloi.",
+    sections: [
+      {
+        heading: "1. Le musée des Augustins",
+        body: "Installé dans un ancien couvent, il présente de l'ethnologie régionale et de la peinture des anciens Pays-Bas. Les horaires indiqués par les fiches varient : vérifiez avant de venir."
+      },
+      {
+        heading: "2. Les géants du Nord",
+        body: "Ceux d'Hazebrouck, dont Roland, Tisje Tasje, Toria et Babe Tisje, sont conservés au musée. Ces grandes effigies de cortège relèvent d'une tradition qui remonte au Moyen Âge."
+      },
+      {
+        heading: "3. La mi-carême",
+        body: "La fête s'étend sur un week-end, avec bals et défilé. Les géants y sont reçus par d'autres géants : c'est le meilleur moment pour les voir sortir."
+      },
+      {
+        heading: "4. L'église Saint-Éloi",
+        body: "Une source la date de 1432. C'est l'un des monuments du centre, à voir de l'extérieur et, si elle est ouverte, de l'intérieur."
+      },
+      {
+        heading: "5. L'église Notre-Dame-de-Lourdes",
+        body: "L'inventaire du patrimoine des Hauts-de-France l'identifie comme l'église paroissiale du quartier du Nouveau Monde. Elle complète la visite des églises du centre."
+      },
+      {
+        heading: "6. La maison-musée de l'abbé Lemire",
+        body: "Elle est consacrée au prêtre-député Jules Lemire. Elle intéresse qui veut comprendre l'histoire locale ; renseignez-vous sur ses jours d'ouverture."
+      },
+      {
+        heading: "7. Le centre-ville et ses commerces",
+        body: "La ville se parcourt à pied. Elle sert de petite capitale à la Flandre intérieure."
+      },
+      {
+        heading: "8. Les villes flamandes voisines",
+        body: "Bailleul et Saint-Omer sont des communes voisines qu'on rejoint en voiture ou en train. Elles se traitent comme des sorties à part."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 760 € par mois dans notre estimation, contre 750 € à Dunkerque et 1 080 € à Lille. Hazebrouck convient à qui veut la Flandre à petit budget, à portée de Lille."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le musée et le centre. Pour la mi-carême, prévoyez le week-end : vérifiez les dates de l'année."
+      }
+    ],
+    relatedCities: [
+      "hazebrouck",
+      "dunkerque",
+      "lille",
+      "saint-omer"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-dunkerque-2026",
+      "10-choses-a-faire-a-saint-omer-2026"
+    ],
+    tags: [
+      "10 choses à faire à Hazebrouck",
+      "activités Hazebrouck 2026",
+      "que faire dans le Nord",
+      "géants du Nord mi-carême Hazebrouck"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-pamiers-2026",
+    title: "10 choses à faire à Pamiers",
+    metaTitle: "10 choses à faire à Pamiers",
+    metaDesc: "Cathédrale Saint-Antonin, tour de la Monnaie, Carmel et canaux du centre : 10 choses à faire à Pamiers, en Ariège.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Pamiers comptait 16 512 habitants en 2022, contre 15 448 en 2011, soit environ 7 % de plus. C'est la plus grande ville d'Ariège après le chef-lieu. Ce guide dit ce qu'on y visite, de la cathédrale aux canaux du centre.",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Antonin",
+        body: "Classée monument historique depuis le 9 août 1906, elle mêle un portail roman, avec des chapiteaux historiés du XIIe siècle, et des parties gothiques. Les travaux sur le clocher et la toiture ont eu lieu entre 1833 et 1875."
+      },
+      {
+        heading: "2. L'ouverture de la cathédrale",
+        body: "Elle n'est pas ouverte en continu : les fiches la disent fermée hors visites de groupe, avec des ouvertures le week-end à partir du 19 septembre 2026 et lors des Journées du patrimoine. Vérifiez avant de venir."
+      },
+      {
+        heading: "3. La tour de la Monnaie",
+        body: "Les guides locaux la citent avec le Carmel et la cathédrale parmi les repères du centre. Elle se découvre à pied dans la balade en ville."
+      },
+      {
+        heading: "4. Le Carmel",
+        body: "C'est le troisième repère architectural cité par les guides du centre. Ses conditions de visite sont à confirmer à l'office de tourisme."
+      },
+      {
+        heading: "5. Les canaux du centre-ville",
+        body: "Une balade longe les canaux de la ville. Elle se fait en moins d'une heure."
+      },
+      {
+        heading: "6. L'abbaye de Cailloup",
+        body: "Les guides locaux la signalent parmi les sites à voir autour du centre. Vérifiez comment s'y rendre et quand elle ouvre."
+      },
+      {
+        heading: "7. L'église Notre-Dame-du-Camp",
+        body: "Elle est citée comme l'un des monuments notables de la ville. Elle complète un circuit des édifices religieux."
+      },
+      {
+        heading: "8. Foix, la préfecture voisine",
+        body: "Foix est une commune voisine : on la traite comme une sortie à part, avec son château, plutôt que comme une extension d'une matinée à Pamiers."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 760 € par mois dans notre estimation, contre 710 € à Foix. Pamiers convient à qui veut un pied-à-terre ariégeois, à portée de Toulouse."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le centre. Si la cathédrale est votre but, calez la visite sur ses jours d'ouverture."
+      }
+    ],
+    relatedCities: [
+      "pamiers",
+      "foix"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-foix-2026"
+    ],
+    tags: [
+      "10 choses à faire à Pamiers",
+      "activités Pamiers 2026",
+      "que faire en Ariège",
+      "cathédrale Saint-Antonin Pamiers"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-biscarrosse-2026",
+    title: "10 choses à faire à Biscarrosse",
+    metaTitle: "10 choses à faire à Biscarrosse",
+    metaDesc: "Musée de l'hydraviation, lac, plages et dune : 10 choses à faire à Biscarrosse, dans les Landes.",
+    category: "tourisme",
+    emoji: "✈️",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Biscarrosse comptait 15 412 habitants en 2022, contre 12 631 en 2011, soit environ 22 % de plus. Cette commune des Landes se divise en trois secteurs : la ville, la plage et le lac. Ce guide dit ce qu'on y fait, du musée de l'hydraviation à l'océan.",
+    sections: [
+      {
+        heading: "1. Le musée de l'hydraviation",
+        body: "Installé sur l'ancienne base Latécoère, il porte le label Musée de France. Il est présenté comme le seul musée d'Europe consacré aux hydravions, avec maquettes, documents d'époque et souvenirs de pilotes comme Saint-Exupéry et Mermoz."
+      },
+      {
+        heading: "2. Les horaires du musée",
+        body: "Les sources divergent : ouverture du mardi au dimanche l'hiver, tous les jours l'été selon l'une, fermeture le lundi selon une autre. Vérifiez avant de venir."
+      },
+      {
+        heading: "3. Le lac de Biscarrosse-Parentis",
+        body: "Il couvre environ 3 600 hectares. C'était la principale base française pour l'hydraviation de 1930 à 1955, les dunes protégeant les lacs du vent. Il est aujourd'hui prisé des pêcheurs et des sports nautiques."
+      },
+      {
+        heading: "4. Biscarrosse-Plage",
+        body: "Plus de 4 km de plage, appréciée pour le surf. C'est le secteur à choisir pour l'ambiance, selon le guide des Landes."
+      },
+      {
+        heading: "5. La baignade en mer",
+        body: "Respectez les drapeaux et les zones surveillées : l'océan y est puissant. Hors saison, la plupart des postes de secours sont fermés."
+      },
+      {
+        heading: "6. La dune",
+        body: "La dune de sable offre une vue sur l'océan quand on la gravit. Restez sur les cheminements balisés pour ne pas l'abîmer."
+      },
+      {
+        heading: "7. Biscarrosse-Lac",
+        body: "C'est le secteur du calme, au bord du lac. Il convient à qui veut l'eau sans la houle."
+      },
+      {
+        heading: "8. Le port de plaisance",
+        body: "Il borde le lac et permet de naviguer à la voile ou en bateau. Les activités varient selon la saison."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 050 € par mois dans notre estimation, contre 740 € à Mont-de-Marsan et 1 200 € à Bayonne. Biscarrosse convient à qui veut l'océan et un lac, avec des prix de station."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Comptez une journée pour le musée et le lac, davantage pour la plage. La voiture est utile : les trois secteurs sont distants les uns des autres."
+      }
+    ],
+    relatedCities: [
+      "biscarrosse",
+      "mont-de-marsan",
+      "bayonne"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-mont-de-marsan-2026"
+    ],
+    tags: [
+      "10 choses à faire à Biscarrosse",
+      "activités Biscarrosse 2026",
+      "que faire dans les Landes",
+      "musée de l'hydraviation Biscarrosse"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-cluses-2026",
+    title: "10 choses à faire à Cluses",
+    metaTitle: "10 choses à faire à Cluses",
+    metaDesc: "Musée de l'horlogerie et du décolletage, Arve et vallée de l'Arve : 10 choses à faire à Cluses, en Haute-Savoie.",
+    category: "tourisme",
+    emoji: "⌚",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Cluses comptait 17 366 habitants en 2022, soit autant qu'en 2011 (17 416). Cette ville de la vallée de l'Arve fut la capitale de l'horlogerie savoyarde. Ce guide dit ce qu'on y voit, du musée de l'Horlogerie et du Décolletage à l'Arve.",
+    sections: [
+      {
+        heading: "1. Le musée de l'Horlogerie et du Décolletage",
+        body: "Il occupe l'espace Carpano et Pons, une ancienne fabrique d'horlogerie du XIXe siècle au bord de l'Arve. Le parcours va de l'histoire de la mesure du temps aux horlogers paysans du XVIIIe siècle, puis au décolletage né de la révolution industrielle."
+      },
+      {
+        heading: "2. Les échappements de Cluses",
+        body: "Le musée présente un ensemble de modèles d'échappements fabriqués à Cluses. C'est la partie qui intéresse les amateurs de mécanique."
+      },
+      {
+        heading: "3. L'École nationale d'horlogerie",
+        body: "Fondée en 1848 comme école royale, elle a formé des horlogers à Cluses jusqu'en 1989. Des visites théâtralisées sur son histoire sont programmées certains étés."
+      },
+      {
+        heading: "4. Les visites guidées",
+        body: "Une visite « Mécanique et roues dentées » est proposée le vendredi à 15 h en période scolaire, selon l'office de tourisme. Un atelier permet de monter une pièce décolletée. Vérifiez les horaires de l'année."
+      },
+      {
+        heading: "5. Les horaires et les tarifs",
+        body: "Le musée est fermé le dimanche et gratuit le premier dimanche du mois, d'après l'office de tourisme. Les tarifs 2026 sont à confirmer sur le site du musée."
+      },
+      {
+        heading: "6. Les Journées européennes du patrimoine",
+        body: "Les 19 et 20 septembre 2026, le musée propose visite libre, visite guidée et une visite hors les murs de Cluses. Le programme change d'une année à l'autre."
+      },
+      {
+        heading: "7. Les bords de l'Arve",
+        body: "Le musée est au bord de la rivière. La promenade sur les berges complète la visite en moins d'une heure."
+      },
+      {
+        heading: "8. Une base pour la vallée",
+        body: "Cluses se rejoint par l'autoroute A40, sortie 18. Les stations voisines sont d'autres communes : traitez-les comme des sorties à part."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 050 € par mois dans notre estimation, contre 1 450 € à Annecy et 1 200 € à Thonon-les-Bains. Cluses convient à qui cherche la montagne à un prix inférieur à celui du bord du lac."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Deux heures suffisent pour le musée. Ajoutez une demi-journée si vous visitez la ville ou prenez un atelier."
+      }
+    ],
+    relatedCities: [
+      "cluses",
+      "annecy",
+      "thonon-les-bains"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-annecy-2026"
+    ],
+    tags: [
+      "10 choses à faire à Cluses",
+      "activités Cluses 2026",
+      "que faire en Haute-Savoie",
+      "musée de l'horlogerie et du décolletage Cluses"
+    ]
+  },
+  {
     slug: "acheter-appartement-moins-100000-euros-villes-2026",
     title: "Acheter un appartement à moins de 100 000 € pour y habiter : 108 villes, et ce que le prix cache",
     metaTitle: "Appartement à moins de 100 000 € : 108 villes en 2026",
