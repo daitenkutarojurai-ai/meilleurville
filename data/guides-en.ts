@@ -28960,6 +28960,349 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "retiring-in-biarritz-2026",
+    title: "Retiring in Biarritz: pricey, mild and proud of it, with a CHU 165 km away",
+    metaTitle: "Retiring in Biarritz 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Biarritz: 44.6% aged 60+, a two-bed at €1,000, €6,500/m², nearest CHU 165 km away. Health, monthly budget and honest limits.",
+    category: "moving",
+    emoji: "🏄",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Biarritz is expensive and does not hide it: a two-bedroom is estimated at €1,000 a month and a purchase at €6,500/m² on our rent estimate, among the highest prices of the retirement towns we track. In return, 44.6% of residents are aged 60 or over (INSEE census, 2022, against a median of 26.2% across the towns we follow), January averages 9.5°C and the Atlantic is at the end of the street. Our retirement score is 6.7/10, in a seventeen-way tie, behind 183 towns. The population grew 4.2% between 2016 and 2022, to 25,810: the town is not emptying, it is getting dearer.",
+    sections: [
+      {
+        heading: "Why so many retirees choose Biarritz",
+        body: "The first reason is winter: 9.5°C on average in January on our climate sheet, far from Annecy's 2.3°C, with 1,880 hours of sun a year, less than the Mediterranean but with a tempered summer (22.5°C in July). The second is the setting: the Grande Plage, the Port-Vieux, the Rocher de la Vierge, the covered market, and a town compact enough for a retiree without a car to do most things on foot. The third is the social fabric: with nearly one resident in two over 60, clubs, gentle gymnastics, golf and cultural circles are built around that age group. Our nature axis reaches 7.5/10 on the city sheet.",
+      },
+      {
+        heading: "What is healthcare access like in Biarritz?",
+        body: "Our healthcare-access engine rates Biarritz 5.3/10, where 10 means excellent access, just under the 5.5 median of the towns we track: a \"fair\" level. It is an estimate built from county-level doctor density and the presence of hospitals, not a measured waiting time. The reference hospital for the Basque Country is the Côte Basque hospital centre, whose main site is in neighbouring Bayonne. The nearest CHU (university hospital) is in Bordeaux (Pessac), about 165 kilometres as the crow flies by our calculation. For a serious condition followed at a CHU, that is a real journey to plan for.",
+      },
+      {
+        heading: "Renting or buying in Biarritz",
+        body: "For a newcomer, renting is the sensible way in: one-bedroom €730, two-bedroom €1,000, three-bedroom €1,400 (our rent estimate). Buying at €6,500/m² puts a 60 m² flat at about €390,000 before fees, far above Saint-Malo (€4,000/m²) or Pau (€2,400/m²). The centre near the covered market is the easiest on foot; the hillside districts need a car or a good relationship with slopes. A holiday let next door can also spoil summer calm, so visit in July before signing.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, so you can swap in your own figures. A single person renting a two-bedroom: rent €1,000 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,690 a month. A couple renting a three-bedroom: rent €1,400, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,430 a month. The average direct-right pension is around €1,500 net a month in France (DREES, the official statistics service): in Biarritz a single person on that pension cannot make a rental work without other income. Our cost-of-living score is 2.9/10.",
+      },
+      {
+        heading: "Daily life: ocean, markets, culture",
+        body: "Life in Biarritz keeps the rhythm of the coast: the seafront promenade, the covered market, sea bathing in season, surf watched from the Côte des Basques rather than practised. The Cité de l'Océan and the museums, concerts and festivals fill the diary. Bayonne, Anglet and Saint-Jean-de-Luz can be reached from Biarritz for markets and restaurants, and the Spanish border is close enough for days out in San Sebastián. The Biarritz Pays Basque airport and the station make visits from children and grandchildren easy.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest points. Price first, which rules out most average pensions without capital: per square metre it is among the dearest of our retirement towns. The season second: in summer traffic and parking saturate, and a town of 25,810 hosts far more. The weather third: the ocean brings mild but damp, windy winters, and rain is frequent. Biarritz suits the retiree with capital or two pensions who wants to live on foot near the ocean and accepts a CHU hours away by road. It suits an average single pension badly, for whom Pau or a less coastal town is more realistic.",
+      },
+    ],
+    relatedCities: ["biarritz", "bayonne", "anglet", "pau", "saint-jean-de-luz"],
+    tags: [
+      "retiring in Biarritz 2026",
+      "Basque coast expat retirement",
+      "retire in Pyrénées-Atlantiques",
+      "Biarritz retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-arcachon-2026",
+    title: "Retiring in Arcachon: the oldest town in this series, and the thinnest healthcare",
+    metaTitle: "Retiring in Arcachon 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Arcachon: 60.4% aged 60+, a two-bed at €1,100, €6,800/m², hospital in La Teste. Health, monthly budget and the limits of the bay.",
+    category: "moving",
+    emoji: "🌲",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Arcachon is the oldest town in this series: 60.4% of its 10,895 residents are aged 60 or over, and 30.0% are 75 or over, against medians of 26.2% and 10.2% (INSEE census, 2022). It is also one of the dearest: a two-bedroom estimated at €1,100 and a purchase at €6,800/m² on our rent estimate. Our retirement score is 6.7/10, in a seventeen-way tie, behind 183 towns. Winters are mild (8°C in January, 2,150 hours of sun), but healthcare access is our weak point: 3.5/10.",
+    sections: [
+      {
+        heading: "What is Arcachon worth for a retirement on the bay?",
+        body: "Arcachon is a seaside resort born in the nineteenth century around the Ville d'Hiver, a district of timber and brick villas built for people taking the sea air for months: the town was designed for long stays. Today you live on foot: seafront, pier, market, harbour, pine forest above. Our nature axis reaches 7.8/10 and safety 6.3/10 on the city sheet. The flip side is size: 10,895 residents, and a population that fell 2.0% between 2016 and 2022, a sign that prices push out working-age people rather than retirees.",
+      },
+      {
+        heading: "What is healthcare access like in Arcachon?",
+        body: "This is the real question. Our healthcare-access engine rates Arcachon 3.5/10, where 10 means excellent access, well under the 5.5 median of the towns we track: a \"tight\" level. It is an estimate built from county-level doctor density and the presence of hospitals, not a measured waiting time. The Arcachon hospital centre, on avenue Jean Hameau, is in neighbouring La Teste-de-Buch, not in Arcachon itself. The nearest CHU (university hospital) is in Bordeaux (Pessac), about 46 kilometres as the crow flies by our calculation: short on the map, longer in summer on the roads around the bay.",
+      },
+      {
+        heading: "Housing in Arcachon: the price of the exception",
+        body: "One-bedroom €780, two-bedroom €1,100, three-bedroom €1,500 and €6,800/m² to buy (our rent estimate): Arcachon tops Biarritz (€6,500/m²) and costs more than twice Narbonne (€2,400/m²). A 50 m² flat is about €340,000 before fees. The centre and the Ville d'Hiver are flat and workable without a car; the south of the commune, towards Le Moulleau, is more residential and quieter. Older seafront blocks deserve a look at charges and façade works, since salt and damp wear buildings quickly.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line, to adapt. A single person renting a two-bedroom: rent €1,100 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,790 a month. A couple renting a three-bedroom: rent €1,500, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,530 a month. With the average direct-right pension of about €1,500 net (DREES, the official statistics service), renting in Arcachon works only with a second income or capital. Our cost-of-living score is 3.1/10.",
+      },
+      {
+        heading: "Daily life and outings",
+        body: "Daily life in Arcachon is the pier at sunrise, the market, oysters, boat trips on the bay, the La Teste forest. The Dune du Pilat can be reached from Arcachon: it sits in the commune of La Teste-de-Buch, while Cap Ferret belongs to Lège-Cap-Ferret. With 60.4% seniors, clubs, walking groups and cultural activities are plentiful, and nobody over 60 feels alone here.",
+      },
+      {
+        heading: "The limits, before you sign",
+        body: "Three points. Care first: access to specialists runs through Bordeaux, and the 30% of residents over 75 weigh on a medical offer that is already stretched. Price second, far above average pensions. Risk third: the bay is exposed to forest fires and marine flooding, and in summer the access road saturates. Arcachon suits the retiree with capital who likes resort life and is not aiming at a serious condition; on a tighter budget, a mid-sized town better supplied with healthcare is the safer bet.",
+      },
+    ],
+    relatedCities: ["arcachon", "biarritz", "bordeaux"],
+    tags: [
+      "retiring in Arcachon 2026",
+      "Arcachon Bay expat retirement",
+      "retire in Gironde",
+      "oldest retirement towns France",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-saint-malo-2026",
+    title: "Retiring in Saint-Malo: the highest retirement score of this lot, at half Biarritz's price",
+    metaTitle: "Retiring in Saint-Malo 2026: Budget, Health, Life",
+    metaDesc:
+      "Retiring in Saint-Malo: retirement score 7.3/10, a two-bed at €800, €4,000/m², 41.2% aged 60+, Broussais hospital. Budget and limits.",
+    category: "moving",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Saint-Malo has the highest retirement score of this lot: 7.3/10, in a seven-way tie, behind 124 towns (median 6.1 across the 593 towns we track). A two-bedroom is estimated at €800 and a purchase at €4,000/m² on our rent estimate, well under Biarritz or Arcachon. 41.2% of its 47,255 residents are aged 60 or over (INSEE census, 2022) and the population grew 2.7% between 2016 and 2022. Winters are less kind (6°C in January, 1,860 hours of sun): this is not the South.",
+    sections: [
+      {
+        heading: "Why Saint-Malo scores so high for retirement",
+        body: "Our retirement score weighs safety, cost of living, nature, quality of life and transport. Saint-Malo combines them better than its neighbours: safety 6.5/10, cost 5.0/10, nature 7.2/10 and transport 5.2/10 on the city sheet. The result is a human-scale seaside town that suffers neither Biarritz's bill nor the isolation of small resorts. It stays calm out of season, with a dense network of clubs and cultural life.",
+      },
+      {
+        heading: "What is healthcare access like in Saint-Malo?",
+        body: "Our healthcare-access engine rates Saint-Malo 5.0/10, where 10 means excellent access, a little under the 5.5 median of the towns we track: a \"fair\" level. It is an estimate, not a measured waiting time. The town has the Saint-Malo hospital centre, Broussais site, rue de la Marne, part of the Rance-Émeraude hospital group. The nearest CHU (university hospital) is in Rennes, about 65 kilometres as the crow flies by our calculation: the most reasonable distance among the coastal towns of this lot.",
+      },
+      {
+        heading: "Housing in Saint-Malo: inside the walls or elsewhere?",
+        body: "One-bedroom €580, two-bedroom €800, three-bedroom €1,080 and €4,000/m² to buy (our rent estimate). A 60 m² flat is about €240,000 before fees, against €390,000 in Biarritz for the same surface. Three moods: the walled town (intra-muros), magnificent but cobbled and touristy; Saint-Servan, residential and lively; Paramé, flat and seaside, close to beaches and shops. For a retiree without a car, Paramé and Saint-Servan are easier than the walled town. Before buying, check the risk of marine flooding at some spring tides on Géorisques, the official risk map.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line. A single person renting a two-bedroom: rent €800 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,490 a month. A couple renting a three-bedroom: rent €1,080, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,110 a month. With the average direct-right pension of about €1,500 net (DREES, the official statistics service), a single person can almost close a Saint-Malo two-bedroom: more sustainable than on the Basque coast or the Arcachon bay.",
+      },
+      {
+        heading: "Daily life: tides, ramparts, sea",
+        body: "Life here runs on the tides: walks along the ramparts, and on foot to the Grand Bé islet at low tide from Bon-Secours beach, after checking the tide times with the tourist office. The beaches, the market, the fishing port and the ferries to Jersey and England make escapes easy. The station has direct TGV trains to Paris and connections via Rennes. The town's festivals and clubs keep a full diary all year.",
+      },
+      {
+        heading: "The limits to know",
+        body: "Three points. Climate first: 6°C in January, two to three and a half degrees colder than the Mediterranean or the Basque coast, with wind and rain. The season second: in summer the walled town is saturated and small-flat prices rise. Health third: for CHU follow-up, Rennes is an hour's drive away, not next door. Saint-Malo suits the retiree who wants the sea without Biarritz's price, likes tides and Breton character, and accepts a cool winter. It suits less someone whose first priority is sun.",
+      },
+    ],
+    relatedCities: ["saint-malo", "dinan", "rennes", "dinard", "vannes"],
+    tags: [
+      "retiring in Saint-Malo 2026",
+      "Brittany coast expat retirement",
+      "retire in Ille-et-Vilaine",
+      "Saint-Malo retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-annecy-2026",
+    title: "Retiring in Annecy: lake, mountains and a January at 2.3°C",
+    metaTitle: "Retiring in Annecy 2026: Budget, Health, Winters",
+    metaDesc:
+      "Retiring in Annecy: 25.7% aged 60+, a two-bed at €1,100, €5,500/m², January at 2.3°C, CHU in Grenoble. Budget, health and limits.",
+    category: "moving",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Annecy is beautiful, active and dear, but it is not a typical retirement town: only 25.7% of its 131,272 residents are aged 60 or over, under the 26.2% median of the towns we track, and 10.7% are 75 or over (INSEE census, 2022). A two-bedroom is estimated at €1,100 and a purchase at €5,500/m² on our rent estimate. Our retirement score is 6.7/10, in a seventeen-way tie, behind 183 towns. The strengths are safety (7.3/10) and nature (8.9/10); the hard part is winter: 2.3°C on average in January.",
+    sections: [
+      {
+        heading: "Who does Annecy suit in retirement?",
+        body: "Annecy suits an active retiree who walks, cycles, swims in the lake in summer and does not fear winter. Our nature axis reaches 8.9/10, the highest of the lot, and the town enjoys a unique setting: lake, old town, canals, the Semnoz mountain above. But it is not the \"quiet\" retirement town: the population rose 3.8% between 2016 and 2022, the town is young and busy, and a job market that draws working-age people pushes prices up.",
+      },
+      {
+        heading: "What is healthcare access like in Annecy?",
+        body: "Our healthcare-access engine rates Annecy 6.2/10, where 10 means excellent access, above the 5.5 median: a \"fair\" level. It is an estimate, not a measured waiting time. The hospital is the Annecy Genevois hospital centre, whose main site is in neighbouring Épagny Metz-Tessy, at 1 avenue de l'Hôpital. The nearest CHU (university hospital) is in Grenoble, about 85 kilometres as the crow flies by our calculation, though the mountain road lengthens the trip: worth weighing for specialist follow-up outside the hospital centre.",
+      },
+      {
+        heading: "Housing in Annecy: budget and choices",
+        body: "One-bedroom €750, two-bedroom €1,100, three-bedroom €1,450 and €5,500/m² to buy (our rent estimate): dearer than Saint-Malo (€4,000/m²) and cheaper than Arcachon (€6,800/m²). A 60 m² flat is about €330,000 before fees. The centre, Annecy-le-Vieux and the lakeside are the most pleasant; some sloping districts need a car in winter. Annecy is a mountain town: ice and snow occur in the valley, and an underground parking space weighs on the choice.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line. A single person renting a two-bedroom: rent €1,100 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,790 a month. A couple renting a three-bedroom: rent €1,450, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,480 a month. Winter heating is the line the climate pushes up, an assumption we do not price more finely. With the average pension (about €1,500 net, DREES, the official statistics service), Annecy needs a second income or capital. Our cost-of-living score is 3.1/10.",
+      },
+      {
+        heading: "Daily life: lake, mountains, culture",
+        body: "Life in Annecy happens outdoors: the lake circuit on foot or by bike, summer swimming, sailing, hikes on the Semnoz, old-town markets. The Palais de l'Île, the Pâquier lawn and the festivals mark the year. Ski resorts and nearby Switzerland can be reached from Annecy for outings. Public transport exists (buses, a station) but a car remains useful for mountain trips. For the full car-free picture, see our guide to car-free living in Annecy.",
+      },
+      {
+        heading: "The limits, before you move",
+        body: "Three points. Cold first: 2.3°C in January, seven degrees under Biarritz and nearly six under Sète. Price second, high for average pensions. Crowds third: in summer the centre and the lake shores are saturated and traffic is heavy. Annecy suits the retiree in good shape who loves mountains and has a comfortable budget. It suits less someone looking for winter sun, the calm of a small town or a modest cost of living.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "aix-les-bains", "thonon-les-bains"],
+    tags: [
+      "retiring in Annecy 2026",
+      "Alps lake expat retirement",
+      "retire in Haute-Savoie",
+      "Annecy retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-sete-2026",
+    title: "Retiring in Sète: the Mediterranean at €680 a two-bed, with a CHU 27 km away",
+    metaTitle: "Retiring in Sète 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Sète: 41% aged 60+, a two-bed at €680, €2,600/m², 2,800 hours of sun, CHU in Montpellier. Health, budget and limits.",
+    category: "moving",
+    emoji: "🛥️",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Sète is one of the most affordable Mediterranean retirement towns: a two-bedroom is estimated at €680 and a purchase at €2,600/m² on our rent estimate, against €1,000 and €6,500 in Biarritz. 41.0% of its 45,090 residents are aged 60 or over and 16.6% are 75 or over, against medians of 26.2% and 10.2% (INSEE census, 2022). Winters are mild (8°C in January) and the sun plentiful (2,800 hours a year). Our retirement score is 6.3/10, in a sixteen-way tie, behind 244 towns.",
+    sections: [
+      {
+        heading: "Why choose Sète for retirement",
+        body: "Sète offers three rare things together: the sea, a lagoon (the Étang de Thau) and a real fishing port, in a town of 45,090 that lives all year. Mont Saint-Clair looms above, canals cross the centre, beaches are a walk from downtown. The town's character, working-class and cultural, is less polished than that of dearer resorts. The population grew 3.4% between 2016 and 2022, the sign of a town that attracts without getting as expensive as Montpellier.",
+      },
+      {
+        heading: "What is healthcare access like in Sète?",
+        body: "Our healthcare-access engine rates Sète 6.3/10, where 10 means excellent access, above the 5.5 median: a \"fair\" level. It is an estimate, not a measured wait for a specialist. The nearest CHU (university hospital) is in Montpellier, about 27 kilometres as the crow flies by our calculation: the shortest of the lot after Nîmes, which hosts a CHU itself. For a condition followed at a CHU, Sète is well placed among the coastal towns.",
+      },
+      {
+        heading: "Housing in Sète: the sea at a moderate price",
+        body: "One-bedroom €490, two-bedroom €680, three-bedroom €920 and €2,600/m² to buy (our rent estimate). A 60 m² flat is about €156,000 before fees, two and a half times less than in Biarritz. The centre, around the canals and the covered market, is lively but noisy; Mont Saint-Clair offers views and quiet but slopes; the Lido and the corniche are more seaside. For a retiree without a car, the centre and its surroundings are the easiest. Before buying, check the marine flooding risk on Géorisques, the official risk map.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line. A single person renting a two-bedroom: rent €680 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,370 a month. A couple renting a three-bedroom: rent €920, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,950 a month. With the average direct-right pension of about €1,500 net (DREES, the official statistics service), a single person closes this budget. Our cost-of-living score is 5.3/10, against 2.9/10 in Biarritz.",
+      },
+      {
+        heading: "Daily life: canals, culture, lagoon",
+        body: "Daily life in Sète runs through the covered market, the quays, the beaches and the oysters of the Étang de Thau. The Paul Valéry museum, on the slopes of Mont Saint-Clair, overlooks the Marine Cemetery where the poet is buried, and the cemetery is itself a walk. Water jousting tournaments and festivals fill the summer. Montpellier can be reached from Sète for the opera and specialists, and Narbonne or Béziers for markets.",
+      },
+      {
+        heading: "The limits, before you sign",
+        body: "Three points. Safety first: 4.5/10 on the city sheet, among the lowest of the lot with Narbonne (4.1) and Nîmes (3.9), with contrasting districts. The season second: in summer the town is dense, hot (25.5°C on average in July) and busy. Wind and flooding third. Sète suits the retiree who wants the Mediterranean and a lively town on an average pension. It suits less someone after the calm of a residential resort or a high level of safety.",
+      },
+    ],
+    relatedCities: ["sete", "montpellier", "beziers", "narbonne", "agde"],
+    tags: [
+      "retiring in Sète 2026",
+      "Mediterranean expat retirement",
+      "retire in Hérault",
+      "cheap Mediterranean retirement France",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-narbonne-2026",
+    title: "Retiring in Narbonne: sun, Roman heritage and one of the cheapest Mediterranean rents",
+    metaTitle: "Retiring in Narbonne 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Narbonne: a two-bed at €680, €2,400/m², 2,900 hours of sun, 32.6% aged 60+, CHU in Montpellier. Budget and limits.",
+    category: "moving",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Narbonne is one of the cheapest Mediterranean retirement towns: a two-bedroom is estimated at €680 and a purchase at €2,400/m² on our rent estimate. It offers 2,900 hours of sun a year and 8°C on average in January, with 32.6% aged 60 or over and 13.2% aged 75 or over (INSEE census, 2022, against medians of 26.2% and 10.2%). Our retirement score is 5.5/10, in a twenty-way tie, behind 391 towns: an average score, carried by cost and sun, pulled down by safety (4.1/10).",
+    sections: [
+      {
+        heading: "Why Narbonne appeals on a small budget",
+        body: "Narbonne combines a real town of 56,692 residents, Roman heritage, a canal and the sea a few kilometres away, without the prices of the Var or Basque coasts. The population rose 5.8% between 2016 and 2022, one of the best rates of this lot. The climate is bright, with 29°C in July on our climate sheet and a wind, the tramontane, worth knowing about. It is a retirement town for those who want an ordinary urban life rather than a resort.",
+      },
+      {
+        heading: "What is healthcare access like in Narbonne?",
+        body: "Our healthcare-access engine rates Narbonne 5.7/10, where 10 means excellent access, around the 5.5 median: a \"fair\" level. It is an estimate built from county-level doctor density and the presence of hospitals, not a measured wait. The nearest CHU (university hospital) is in Montpellier, about 85 kilometres as the crow flies by our calculation, three times Sète's distance (27 km): for heavy follow-up, the trip is regular. Check the specialist offer with the regional health agency or your insurer before choosing a district.",
+      },
+      {
+        heading: "Housing in Narbonne: a measured budget",
+        body: "One-bedroom €490, two-bedroom €680, three-bedroom €920 and €2,400/m² to buy (our rent estimate). A 60 m² flat is about €144,000 before fees, under half of Biarritz and a little under Sète (€2,600/m²). Béziers, further north, is cheaper still (€530 for a two-bedroom) but ranks lower on our retirement score. The centre, around the covered market and the canal, is flat and workable without a car; outlying housing estates assume a car every day.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line. A single person renting a two-bedroom: rent €680 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,370 a month. A couple renting a three-bedroom: rent €920, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,950 a month. The average direct-right pension is around €1,500 net (DREES, the official statistics service): it covers this budget for a single person. Our cost-of-living score is 5.9/10, among the best of the lot.",
+      },
+      {
+        heading: "Daily life and heritage",
+        body: "The covered market, open every day and busiest on Thursday and Sunday mornings, is the heart of social life. The Robine canal crosses the town, linked to the Canal du Midi by the junction canal. The Narbo Via museum, opened in 2021, shows the Roman collections, and the Horreum keeps underground Gallo-Roman galleries. A stretch of the Via Domitia, the Roman road, is visible on the town hall square. The beaches are at Narbonne-Plage, and Gruissan can be reached from Narbonne for the salt marshes. The Saint-Just-et-Saint-Pasteur cathedral dominates the centre.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. Safety first: 4.1/10 on the city sheet, with a median standard of living of €19,850 and a poverty rate of 25% (INSEE, Filosofi 2021), so a town of contrasts. Wind second: the tramontane blows hard, and summer is hot. Health third: the CHU is in Montpellier. Narbonne suits the retiree on an average pension who wants sun, a lively centre and the sea nearby. It suits less someone who wants a calm, very safe town or a CHU within immediate reach.",
+      },
+    ],
+    relatedCities: ["narbonne", "beziers", "sete", "perpignan", "carcassonne"],
+    tags: [
+      "retiring in Narbonne 2026",
+      "Languedoc expat retirement",
+      "retire in Aude",
+      "cheap sunny retirement France",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-nimes-2026",
+    title: "Retiring in Nîmes: the only town in this series with a CHU on site",
+    metaTitle: "Retiring in Nîmes 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Nîmes: CHU in town, a two-bed at €720, €2,800/m², 27.4% aged 60+, 2,700 hours of sun. Budget, health and limits.",
+    category: "moving",
+    emoji: "🏟️",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Nîmes is the only town in this lot to host a CHU (university hospital): our healthcare-access engine rates it 7.9/10, where 10 means excellent access, against a median of 5.5. A two-bedroom is estimated at €720 and a purchase at €2,800/m² on our rent estimate. With 27.4% aged 60 or over and 10.7% aged 75 or over (INSEE census, 2022), it is a big city of 150,444 residents, not a retirees' resort. Our retirement score is 5.5/10, in a twenty-way tie, behind 391 towns: safety (3.9/10) and a 31% poverty rate weigh on it.",
+    sections: [
+      {
+        heading: "Why Nîmes for a retiree who is ill or planning ahead",
+        body: "This is the central argument: a retiree who expects regular care looks first for a CHU, and Nîmes has one on site. At 0 kilometres in our calculation, proximity to a CHU is the best of the lot (Sète is 27 km from Montpellier, Narbonne 85 km). The rest follows: a Mediterranean climate with 6.5°C in January and 2,700 hours of sun, 27.5°C on average in July, an average cost of living (5.9/10) and the cultural life of a big city.",
+      },
+      {
+        heading: "What is healthcare access like in Nîmes?",
+        body: "Our healthcare-access engine rates Nîmes 7.9/10, among the best of this lot (Sète 6.3, Narbonne 5.7, Biarritz 5.3, Arcachon 3.5), an \"easy\" level. As for every town, it is an estimate built from county-level doctor density, the size of the commune and the presence of a CHU, not a measured wait for a specialist. The advantage is structural: emergency care, specialities and pharmacies are within reach by tram or car, without a trip of several dozen kilometres.",
+      },
+      {
+        heading: "Housing in Nîmes: measured prices",
+        body: "One-bedroom €520, two-bedroom €720, three-bedroom €960 and €2,800/m² to buy (our rent estimate). A 60 m² flat is about €168,000 before fees. Neighbouring Avignon is dearer to buy (€3,000/m²) and weaker on our retirement score (5.3/10). The historic centre, between the Arena and the Maison Carrée, is easy on foot; the districts near the Jardins de la Fontaine are greener. Nîmes has seen flash floods from the Cévennes: check Géorisques, the official risk map, before buying or renting a ground-floor flat.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "Line by line. A single person renting a two-bedroom: rent €720 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,410 a month. A couple renting a three-bedroom: rent €960, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,990 a month. The average direct-right pension (about €1,500 net, DREES, the official statistics service) covers a single person's budget. The commune's median standard of living is €18,760 a year (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Daily life: Roman heritage, gardens, culture",
+        body: "The Arena, the Maison Carrée, the Tour Magne and the Jardins de la Fontaine make Nîmes a town for walks. The Carré d'Art, concerts at the Arena and festivals fill the year. The Pont du Gard can be reached from Nîmes (about 26 kilometres, per the tourist office), as can the Camargue and the Cévennes for outings. Daily life is that of a big city: markets, shops, tram, a busy club scene, far from the insularity of a resort.",
+      },
+      {
+        heading: "The limits, before you sign",
+        body: "Three points. Safety first: 3.9/10 on the city sheet, the lowest of this lot, with a poverty rate of 31% (INSEE, Filosofi 2021). Climate second: hot summers and intense Cévennes storms in autumn. The sea third: Nîmes is not a seaside town, and you do not live a walk from the beach. Nîmes suits the retiree for whom health comes first, on a moderate budget, who enjoys a real city. It suits less someone who wants calm or the beach on foot.",
+      },
+    ],
+    relatedCities: ["nimes", "avignon", "montpellier", "arles"],
+    tags: [
+      "retiring in Nîmes 2026",
+      "Gard expat retirement",
+      "retire near a CHU France",
+      "Nîmes retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
     slug: "single-parent-in-nimes-2026",
     title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
     metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",

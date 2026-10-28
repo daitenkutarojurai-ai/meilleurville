@@ -7107,6 +7107,41 @@
       "emoji": "🌴"
     },
     {
+      "slug": "retiring-in-biarritz-2026",
+      "title": "Retiring in Biarritz: pricey, mild and proud of it, with a CHU 165 km away",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "retiring-in-arcachon-2026",
+      "title": "Retiring in Arcachon: the oldest town in this series, and the thinnest healthcare",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "retiring-in-saint-malo-2026",
+      "title": "Retiring in Saint-Malo: the highest retirement score of this lot, at half Biarritz's price",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "retiring-in-annecy-2026",
+      "title": "Retiring in Annecy: lake, mountains and a January at 2.3°C",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "retiring-in-sete-2026",
+      "title": "Retiring in Sète: the Mediterranean at €680 a two-bed, with a CHU 27 km away",
+      "emoji": "🛥️"
+    },
+    {
+      "slug": "retiring-in-narbonne-2026",
+      "title": "Retiring in Narbonne: sun, Roman heritage and one of the cheapest Mediterranean rents",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "retiring-in-nimes-2026",
+      "title": "Retiring in Nîmes: the only town in this series with a CHU on site",
+      "emoji": "🏟️"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -9674,6 +9709,11 @@
       "count": 41
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 39
+    },
+    {
       "slug": "normandy",
       "label": "normandy",
       "count": 39
@@ -9687,11 +9727,6 @@
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
       "count": 33
-    },
-    {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 32
     },
     {
       "slug": "job-market-france",
