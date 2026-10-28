@@ -29303,6 +29303,300 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "retiring-in-quimper-2026",
+    title: "Retiring in Quimper (2026): Brittany at human scale, a CHU 52 km away",
+    metaTitle: "Retiring in Quimper 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Quimper: two-bed at €700, €2,800/m², 28.7% aged 60+, Brest CHU 52 km away, safety 6.1/10. Budget and limits.",
+    category: "moving",
+    emoji: "🥞",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Quimper is a Breton retirement at human scale: a two-bedroom is estimated at €700 and a purchase at €2,800/m² on our rent estimate, for 64,530 residents, 28.7% of them aged 60 or over (INSEE census, 2022; median across our towns: 26.2%). Our retirement score is 6.6/10, in a seventeen-way tie, behind 200 towns. The weak points are the sun (1,710 hours a year) and the CHU (university hospital), in Brest, about 52 kilometres away as the crow flies.",
+    sections: [
+      {
+        heading: "Why Quimper suits a retiree who wants a real town",
+        body: "Quimper combines a pedestrian old town, a fine-arts museum open on Place Saint-Corentin since 1872 and a cultural calendar that peaks with the Festival de Cornouaille every year in late July. Its safety (6.1/10), nature (6.4/10) and quality of life (6.6/10) on our city sheet are all above average, and the population grew by 1.8% between 2016 and 2022. It is not a resort: winters are mild (6.2°C in January) but grey, and summers are cool (19.6°C in July).",
+      },
+      {
+        heading: "What is healthcare access like in Quimper?",
+        body: "Our healthcare-access engine rates Quimper 5.7/10, where 10 means excellent access, an \"adequate\" level and above the median of 5.5 (our health sheet). It is an estimate built from county-level doctor density and the size of the commune, not a measured waiting time. The reference hospital for the area is the Cornouaille intercommunal hospital, split between Quimper and Concarneau. The nearest CHU is in Brest, about 52 kilometres away: fine for occasional follow-up, heavier for weekly sessions.",
+      },
+      {
+        heading: "How much does housing cost in Quimper?",
+        body: "One-bedroom €510, two-bedroom €700, three-bedroom €940 and €2,800/m² to buy (our rent estimate). A 60 m² flat is about €168,000 before fees. Brest, the other big town of Finistère, is a little cheaper to buy (€2,500/m²) and better served for care (7.1/10), but less quiet. The centre and its immediate surroundings can be done without a car; beyond that, you will need one.",
+      },
+      {
+        heading: "A retiree's monthly budget in Quimper",
+        body: "A single person renting a two-bedroom: rent €700 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,390 a month. A couple renting a three-bedroom: rent €940, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,970 a month. The average direct-right pension is around €1,500 net (DREES, the official statistics service): it covers a single person's budget, not a couple living on one pension. The commune's median standard of living is €22,700 a year with a 13% poverty rate, one of the most favourable in this lot (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "What do you do with your days in Quimper?",
+        body: "You walk along the Odet and through the medieval centre, go to the fine-arts museum and the market, and follow the festivals, the Cornouaille one above all. The sea can be reached from Quimper, but the town itself is inland. Breton associative life offers dance classes, choirs and walking clubs.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. The sky first: 1,710 hours of sun, well short of the 2,700 to 2,900 hours of the Mediterranean. Distance second: Brest at 52 km for the CHU, Rennes further still for the rest. Growth third is modest: the town is not filling up like Vannes (+3.3%). Quimper suits the retiree on an average pension who loves Brittany, a lively cultural scene and reasonable housing costs; it suits less someone who wants warmth or a CHU close at hand.",
+      },
+    ],
+    relatedCities: ["quimper", "brest", "lorient", "vannes"],
+    tags: [
+      "retiring in Quimper 2026",
+      "Finistère expat retirement",
+      "retire in Brittany France",
+      "Quimper retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-lorient-2026",
+    title: "Retiring in Lorient (2026): a working port, a CHU 110 km away",
+    metaTitle: "Retiring in Lorient 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Lorient: two-bed at €680, €2,800/m², 28.9% aged 60+, Brest CHU 110 km away, 21% poverty rate. Budget and limits.",
+    category: "moving",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Lorient is a port town where you live beside the harbour for €680 a two-bedroom and €2,800/m² to buy on our rent estimate. It has 58,202 residents, 28.9% of them aged 60 or over and 12.0% aged 75 or over (INSEE census, 2022; medians across our towns: 26.2% and 10.2%). Our retirement score is 6.4/10, in a seventeen-way tie, behind 227 towns, with a CHU (university hospital) 110 kilometres away and a poverty rate of 21%.",
+    sections: [
+      {
+        heading: "Why choose Lorient rather than a Breton resort",
+        body: "Lorient is a working town, rebuilt after the war, with a port, markets and a full range of services, not a holiday resort. Its cost of living scores well (6.2/10 on our city sheet) and the population grew by 1.6% between 2016 and 2022. The beaches and the island of Groix can be reached from Lorient by boat or by road, and winters stay mild (6.8°C in January). The Festival Interceltique enlivens the town every summer.",
+      },
+      {
+        heading: "What is healthcare access like in Lorient?",
+        body: "Our healthcare-access engine rates Lorient 5.7/10, where 10 means excellent access, an \"adequate\" level (our health sheet). The reference hospital is the Bretagne Sud hospital centre, known as the Scorff hospital, on avenue de Choiseul. But the nearest CHU is in Brest, about 110 kilometres away as the crow flies in our calculation, twice the distance from Quimper (52 km): for heavy specialist follow-up, this is the main brake in the lot.",
+      },
+      {
+        heading: "Housing in Lorient: measured prices",
+        body: "One-bedroom €500, two-bedroom €680, three-bedroom €900 and €2,800/m² to buy (our rent estimate). A 60 m² flat is about €168,000 before fees, as in Quimper, but rents are a little lower. Vannes, further east, is far dearer (€3,900/m²). Part of the centre was rebuilt after 1945: concrete blocks, well served, often with a lift, which matters to a retiree.",
+      },
+      {
+        heading: "A retiree's monthly budget in Lorient",
+        body: "A single person renting a two-bedroom: rent €680 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,370 a month. A couple renting a three-bedroom: rent €900, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,930 a month. With an average pension of about €1,500 net (DREES, the official statistics service), a single person is covered. The commune's median standard of living is €20,860 a year (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Life in Lorient: harbour, markets, islands",
+        body: "The Halles market sells Breton sardines, and Groix, Port-Louis and its citadel can be reached from Lorient. The Keroman submarine base, a legacy of the occupation, marks the skyline of the fishing port. Sailing, yacht clubs and coastal walks keep many retirees busy.",
+      },
+      {
+        heading: "The limits, before you sign",
+        body: "Three points. Health first: Brest at 110 km. Safety second: 5.5/10 on our city sheet, average, with a 21% poverty rate in the commune. The weather third: 1,750 hours of sun, a cool summer (19.5°C in July) and wind. Lorient suits the active, sea-minded retiree on an average budget who wants a lively town at Breton prices; it suits less someone who expects frequent hospital care.",
+      },
+    ],
+    relatedCities: ["lorient", "vannes", "quimper", "brest"],
+    tags: [
+      "retiring in Lorient 2026",
+      "Morbihan expat retirement",
+      "retire in southern Brittany",
+      "Lorient retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-saint-brieuc-2026",
+    title: "Retiring in Saint-Brieuc (2026): the lowest budget in Brittany?",
+    metaTitle: "Retiring in Saint-Brieuc 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Saint-Brieuc: two-bed at €580, €1,800/m², 28.8% aged 60+, Rennes CHU 92 km away, 2,000 hours of sun. Budget and limits.",
+    category: "moving",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Saint-Brieuc is the most affordable Breton town in this lot: €580 a two-bedroom and €1,800/m² to buy on our rent estimate, so a 60 m² flat sits around €108,000 before fees. The town has 44,607 residents, 28.8% of them aged 60 or over and 12.3% aged 75 or over (INSEE census, 2022). Our retirement score is 6.6/10, in a seventeen-way tie, behind 200 towns; the flip side is an estimated healthcare access of 5.0/10 and a population falling by 0.9%.",
+    sections: [
+      {
+        heading: "Why Saint-Brieuc costs less than its neighbours",
+        body: "At €580 for a two-bedroom, the town is €120 below Quimper and €100 below Lorient, and the €1,800/m² purchase price is a third under the €2,800 of those two towns. Cost of living reaches 6.4/10 on our city sheet, the best of the lot. The counterpart is demographic: 44,607 residents in 2022, down 0.9% since 2016, against +1.8% in Quimper. The market is slack, which helps the buyer and worries the future seller.",
+      },
+      {
+        heading: "What is healthcare access like in Saint-Brieuc?",
+        body: "Our healthcare-access engine rates Saint-Brieuc 5.0/10, where 10 means excellent access, an \"adequate\" level but below the median of 5.5 (our health sheet). It is an estimate built from doctor density and the size of the commune. The nearest CHU (university hospital) is in Rennes, about 92 kilometres away as the crow flies, nearly twice the distance from Quimper (52 km). Before moving, check that a family doctor (médecin traitant) is available: that is the real friction point.",
+      },
+      {
+        heading: "Sun and sea in Saint-Brieuc",
+        body: "Saint-Brieuc gets 2,000 hours of sun, more than Quimper (1,710) or Lorient (1,750), with 5°C in January and 19.5°C in July. The bay is a national nature reserve created in 1998, run by the local authority and the Vivarmor Nature association, and one of the wintering grounds of the brent goose. The Légué harbour, at the bottom of a valley, links the town to the sea.",
+      },
+      {
+        heading: "A retiree's monthly budget in Saint-Brieuc",
+        body: "A single person renting a two-bedroom: rent €580 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,270 a month. A couple renting a three-bedroom: rent €780, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,810 a month. An average pension of about €1,500 net (DREES, the official statistics service) leaves a single person roughly €230 of margin. The commune's median standard of living is €20,910 a year, with a 21% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Daily life in Saint-Brieuc",
+        body: "The fortified Saint-Étienne cathedral dominates the centre. The Pink Granite Coast, Cap Fréhel, Paimpol and the customs officers' coastal path can all be reached from Saint-Brieuc by road or rail. The town is on the Rennes-Brest railway line, which helps in reaching a university hospital or family.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. Population decline first, with a less buoyant resale market. Distance second: 92 km from the CHU. Safety third, at 5.7/10 on our city sheet, fair without more. Saint-Brieuc suits the retiree on a small pension, an owner or future owner, who puts budget first; it suits less someone who wants a growing town or immediate hospital access.",
+      },
+    ],
+    relatedCities: ["saint-brieuc", "lorient", "quimper", "rennes"],
+    tags: [
+      "retiring in Saint-Brieuc 2026",
+      "Côtes-d'Armor expat retirement",
+      "cheap retirement Brittany",
+      "Saint-Brieuc retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-menton-2026",
+    title: "Retiring in Menton (2026): the sun, but at what price?",
+    metaTitle: "Retiring in Menton 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Menton: 2,950 hours of sun, 12°C in January, two-bed at €1,050, €5,200/m², 32.1% aged 60+, Nice CHU 20 km away.",
+    category: "moving",
+    emoji: "🍋",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "On paper, Menton is the best retirement in this lot: a retirement score of 7.4/10, in a twelve-way tie, behind 112 towns, with 2,950 hours of sun a year and an average of 12°C in January. The price is high: €1,050 a two-bedroom and €5,200/m² to buy on our rent estimate. The town has 30,326 residents, 32.1% of them aged 60 or over and 14.1% aged 75 or over (INSEE census, 2022).",
+    sections: [
+      {
+        heading: "Why Menton comes out on top of our score",
+        body: "Menton stacks up quality-of-life strengths: 8.7/10 on our city sheet, nature at 7.8/10, safety at 7.1/10 and a mild climate (12°C in January, 26.5°C in July). The population grew by 6.5% between 2016 and 2022. The one axis that collapses is cost of living (3.2/10), which is the central subject of this guide.",
+      },
+      {
+        heading: "What is healthcare access like in Menton?",
+        body: "Our healthcare-access engine rates Menton 6.3/10, where 10 means excellent access, an \"adequate\" level (our health sheet). It is an estimate built from doctor density and the size of the commune, not a count of surgeries. The nearest CHU (university hospital) is in Nice, about 20 kilometres away as the crow flies, the shortest distance in this lot; the coast road is busy, though, so allow more time than the distance suggests.",
+      },
+      {
+        heading: "How much does housing cost in Menton?",
+        body: "One-bedroom €700, two-bedroom €1,050, three-bedroom €1,450 and €5,200/m² to buy (our rent estimate). A 60 m² flat is about €312,000 before fees, against €108,000 in Saint-Brieuc. Menton matches Antibes and Nice on price, but is twice as dear as Nîmes (€2,800/m²). Many buildings are old and steep: ask about the lift and accessibility before you visit.",
+      },
+      {
+        heading: "A retiree's monthly budget in Menton",
+        body: "A single person renting a two-bedroom: rent €1,050 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,740 a month. A couple renting a three-bedroom: rent €1,450, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,480 a month. The average direct-right pension, about €1,500 net (DREES, the official statistics service), does not cover these budgets: Menton assumes savings, a higher pension or a home already owned. The commune's median standard of living is €22,590 a year, with a 17% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Daily life: lemons, gardens, the border",
+        body: "The Lemon Festival, created in 1934, takes place every February. The Val Rahmeh gardens and the Serre de la Madone, created by Lawrence Johnston in 1924, can be reached on foot or by bus. The Jean Cocteau museum and the Baroque old town animate the centre. Monaco and Italy are a few kilometres away, which opens up markets and shops, but also traffic.",
+      },
+      {
+        heading: "The limits, before you settle",
+        body: "Three points. Cost first, which rules Menton out on an average pension. The slope second: the town is squeezed between sea and mountain, which makes walking with a frame difficult. Age third: with 14.1% aged 75 or over, local services are adapted, but affordable housing is scarce. Menton suits the well-off retiree who wants the mildest climate in this lot; it does not suit someone who relies on a single pension.",
+      },
+    ],
+    relatedCities: ["menton", "nice", "antibes", "cannes"],
+    tags: [
+      "retiring in Menton 2026",
+      "French Riviera expat retirement",
+      "retire on the Côte d'Azur",
+      "Menton retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-dax-2026",
+    title: "Retiring in Dax (2026): thermal baths, the Landes and a tight budget",
+    metaTitle: "Retiring in Dax 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Dax: two-bed at €580, €2,200/m², 36.1% aged 60+, a spa town in the Landes, Bordeaux CHU 127 km away. Budget and limits.",
+    category: "moving",
+    emoji: "♨️",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Dax is the oldest town in this lot: 36.1% of its 21,716 residents are aged 60 or over and 15.6% are 75 or over (INSEE census, 2022; medians across our towns: 26.2% and 10.2%). A two-bedroom is estimated at €580 and a purchase at €2,200/m² on our rent estimate. Our retirement score is 6.7/10, in a seventeen-way tie, behind 183 towns, but estimated healthcare access is only 4.5/10, a \"strained\" level.",
+    sections: [
+      {
+        heading: "Why Dax attracts retirees",
+        body: "Dax is a spa town (une cure thermale is a prescribed course of thermal treatment, not a day at a hotel spa): the hot fountain, the thermal quarter and the péloïde, the local thermal mud, set the rhythm of the town, and each cure season brings visitors, mostly older. The town is flat, which makes walking easy, and it gets 2,050 hours of sun, 8.5°C in January and 23.5°C in July. The Landes forest and the Atlantic coast can be reached from Dax by car.",
+      },
+      {
+        heading: "What is healthcare access like in Dax?",
+        body: "Our healthcare-access engine rates Dax 4.5/10, where 10 means excellent access, a \"strained\" level below the median of 5.5 (our health sheet). Despite the spa-town image, this is the weak point of the file: it is an estimate built from county-level doctor density and the size of the commune, and the baths belong to the cure, not to routine medical follow-up. The nearest CHU (university hospital) is in Pessac, near Bordeaux, about 127 kilometres away as the crow flies. Check that a family doctor (médecin traitant) is available before you sign.",
+      },
+      {
+        heading: "Housing in Dax: among the most affordable",
+        body: "One-bedroom €420, two-bedroom €580, three-bedroom €780 and €2,200/m² to buy (our rent estimate). A 60 m² flat is about €132,000 before fees, half the price in Bayonne (€4,500/m²), its neighbour in the Pyrénées-Atlantiques. Mont-de-Marsan, the neighbouring prefecture, is comparable (€550 for a two-bedroom, €1,900/m²). Dax's population grew by 3.9% between 2016 and 2022.",
+      },
+      {
+        heading: "A retiree's monthly budget in Dax",
+        body: "A single person renting a two-bedroom: rent €580 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,270 a month. A couple renting a three-bedroom: rent €780, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,810 a month. The average pension of about €1,500 net (DREES, the official statistics service) leaves a single person some margin. The commune's median standard of living is €20,570 a year, with a 20% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Life in Dax outside the cure season",
+        body: "The Gallo-Roman ramparts, the former cathedral and its Apostles' portal, the arena and the feria punctuate the year. The Adour offers riverside walks. Outside the cure season the thermal quarter is quieter; in season, hotels and restaurants are busier. The Landes coast can be reached from Dax for a day out.",
+      },
+      {
+        heading: "The limits, before you sign",
+        body: "Three points. Health first, with \"strained\" access and a CHU 127 km away. Age second: with more than a third of residents aged 60 or over, the town is calm and not young. Size third: 21,716 residents, so fewer facilities than Bayonne. Dax suits the retiree on an average pension who enjoys cures and the calm of the Landes; it suits less someone with heavy medical follow-up or who wants a lively town.",
+      },
+    ],
+    relatedCities: ["dax", "bayonne", "mont-de-marsan", "biarritz"],
+    tags: [
+      "retiring in Dax 2026",
+      "Landes expat retirement",
+      "French spa town retirement",
+      "Dax retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-bayonne-2026",
+    title: "Retiring in Bayonne (2026): the Basque Country, budget and limits",
+    metaTitle: "Retiring in Bayonne 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Bayonne: two-bed at €900, €4,500/m², 26.7% aged 60+, healthcare access 6.6/10, hospital in town. Budget and limits.",
+    category: "moving",
+    emoji: "🐟",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro:
+      "Bayonne is a Basque retirement dearer than its neighbours in the Landes: €900 a two-bedroom and €4,500/m² to buy on our rent estimate. It has 53,312 residents, 26.7% of them aged 60 or over, close to the median of 26.2% (INSEE census, 2022). Our retirement score is 6.1/10, in a twenty-two-way tie, behind 286 towns: estimated healthcare access is good (6.6/10) and cost of living is weak (3.8/10).",
+    sections: [
+      {
+        heading: "Why Bayonne rather than Biarritz",
+        body: "Bayonne offers what Biarritz no longer gives: a real town, with a hospital, shops and a lower price per square metre (€4,500 against €6,500 in Biarritz). It is at once a historic town and an ordinary one: the medieval Grand Bayonne and, across the Nive, the livelier Petit Bayonne, home since 1924 to the Basque Museum in the Maison Dagourette. Its nature (7.0/10) and quality of life (7.0/10) are high on our city sheet, and the population grew by 5.4% between 2016 and 2022.",
+      },
+      {
+        heading: "What is healthcare access like in Bayonne?",
+        body: "Our healthcare-access engine rates Bayonne 6.6/10, where 10 means excellent access, an \"easy\" level, against a median of 5.5 (our health sheet). It is an estimate built from county-level doctor density, the size of the commune and the presence of a hospital: the Côte Basque hospital centre is in Bayonne itself. The nearest CHU (university hospital), however, is in Pessac, about 161 kilometres away as the crow flies, the furthest in this lot: for highly specialised care, the journey is long.",
+      },
+      {
+        heading: "How much does housing cost in Bayonne?",
+        body: "One-bedroom €660, two-bedroom €900, three-bedroom €1,200 and €4,500/m² to buy (our rent estimate). A 60 m² flat is about €270,000 before fees, twice the price in Dax (€132,000). Anglet (€4,300/m²) and Biarritz (€6,500/m²) are neighbours and comparable; Pau (€2,400/m², €680 for a two-bedroom) is far cheaper. The centre can be covered on foot, and the station links the town to Bordeaux.",
+      },
+      {
+        heading: "A retiree's monthly budget in Bayonne",
+        body: "A single person renting a two-bedroom: rent €900 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,590 a month. A couple renting a three-bedroom: rent €1,200, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,230 a month. The average pension of about €1,500 net (DREES, the official statistics service) does not cover a single tenant's budget. The commune's median standard of living is €21,780 a year, with a 17% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Daily life: festivals, ham, rivers",
+        body: "The Fêtes de Bayonne last five days in late July and draw a huge crowd: for a retiree living in the centre, it is a moment to plan around, somewhere between entertainment and noise. The rest of the year the town lives to the rhythm of the Nive and the Adour, the cathedral, chocolate and ham. The Basque coast is a few kilometres away, and you can get there by bus.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. Budget first: cost of living is the weak point, at 3.8/10. Distance to the CHU second, 161 km. The festivals third, which saturate the centre. Bayonne suits the retiree whose pension is topped up by savings, who wants a hospital in town and the Basque Country without Biarritz prices; it suits less someone on the average pension alone, for whom Dax or Pau offer a lighter budget.",
+      },
+    ],
+    relatedCities: ["bayonne", "biarritz", "anglet", "dax", "pau"],
+    tags: [
+      "retiring in Bayonne 2026",
+      "Basque Country expat retirement",
+      "retire in southwest France",
+      "Bayonne retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
     slug: "single-parent-in-nimes-2026",
     title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
     metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",

@@ -7142,6 +7142,36 @@
       "emoji": "🏟️"
     },
     {
+      "slug": "retiring-in-quimper-2026",
+      "title": "Retiring in Quimper (2026): Brittany at human scale, a CHU 52 km away",
+      "emoji": "🥞"
+    },
+    {
+      "slug": "retiring-in-lorient-2026",
+      "title": "Retiring in Lorient (2026): a working port, a CHU 110 km away",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "retiring-in-saint-brieuc-2026",
+      "title": "Retiring in Saint-Brieuc (2026): the lowest budget in Brittany?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "retiring-in-menton-2026",
+      "title": "Retiring in Menton (2026): the sun, but at what price?",
+      "emoji": "🍋"
+    },
+    {
+      "slug": "retiring-in-dax-2026",
+      "title": "Retiring in Dax (2026): thermal baths, the Landes and a tight budget",
+      "emoji": "♨️"
+    },
+    {
+      "slug": "retiring-in-bayonne-2026",
+      "title": "Retiring in Bayonne (2026): the Basque Country, budget and limits",
+      "emoji": "🐟"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -9719,6 +9749,11 @@
       "count": 47
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 45
+    },
+    {
       "slug": "provence",
       "label": "provence",
       "count": 43
@@ -9742,11 +9777,6 @@
       "slug": "normandy",
       "label": "normandy",
       "count": 40
-    },
-    {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 39
     },
     {
       "slug": "working-in-france",
