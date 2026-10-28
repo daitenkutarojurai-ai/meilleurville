@@ -41950,6 +41950,281 @@ export const GUIDES: Guide[] = [
     tags: ["retraite Nîmes 2026", "prendre sa retraite à Nîmes", "retraite Gard", "budget retraité Nîmes", "retraite proximité CHU"],
   },
   {
+    slug: "retraite-a-quimper-2026",
+    title: "Retraite à Quimper en 2026 : budget, santé, vie locale, le guide",
+    metaTitle: "Retraite à Quimper 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Quimper en 2026 : T2 à 700 €, m² à 2 800 €, 28,7 % de 60 ans et plus, CHU de Brest à 52 km, sécurité 6,1/10. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🥞",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Quimper est une retraite bretonne à taille humaine : le deux-pièces y est estimé à 700 € et le mètre carré à 2 800 € (source : notre estimation des loyers), pour 64 530 habitants et 28,7 % de 60 ans et plus (source : Insee, recensement 2022, médiane de nos villes : 26,2 %). Notre score retraite est de 6,6/10, dans un palier de dix-sept villes à égalité, derrière 200 autres. Le point faible est le soleil (1 710 heures par an) et le CHU, à Brest, à environ 52 kilomètres à vol d'oiseau.",
+    sections: [
+      {
+        heading: "Pourquoi Quimper convient à un retraité qui veut une vraie ville",
+        body: "Quimper réunit un centre ancien piéton, un musée des beaux-arts ouvert sur la place Saint-Corentin depuis 1872 et une vie culturelle qui culmine avec le Festival de Cornouaille, chaque année fin juillet. Sa sécurité (6,1/10), sa nature (6,4/10) et sa qualité de vie (6,6/10) sur notre fiche ville sont toutes au-dessus de la moyenne, et la population progresse de 1,8 % entre 2016 et 2022. Ce n'est pas une station : l'hiver est doux (6,2 °C en janvier) mais gris, et l'été frais (19,6 °C en juillet).",
+      },
+      {
+        heading: "Quel accès aux soins à Quimper ?",
+        body: "Notre moteur estime l'accès aux soins à 5,7/10, où 10 signifie un excellent accès, soit niveau « correct » et au-dessus de la médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales départementales et la taille de la commune, pas une mesure de l'attente. L'hôpital de référence du territoire est le centre hospitalier intercommunal de Cornouaille, réparti entre Quimper et Concarneau. Le CHU le plus proche est à Brest, à environ 52 kilomètres : acceptable pour un suivi occasionnel, plus lourd pour des séances hebdomadaires.",
+      },
+      {
+        heading: "Combien coûte un logement à Quimper ?",
+        body: "T1 à 510 €, T2 à 700 €, T3 à 940 € et 2 800 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 168 000 € avant frais. Brest, l'autre grande ville du Finistère, est un peu moins chère à l'achat (2 500 €/m²) et mieux dotée en soins (7,1/10), mais moins tranquille. Le centre et ses abords immédiats évitent la voiture ; au-delà, elle devient nécessaire.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Quimper",
+        body: "Personne seule locataire d'un deux-pièces : loyer 700 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 390 € par mois. Couple locataire d'un trois-pièces : loyer 940 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 970 € par mois. La pension moyenne de droit direct tourne autour de 1 500 € nets (source : DREES) : elle couvre le budget d'une personne seule, pas celui d'un couple à une seule pension. Le niveau de vie médian de la commune, 22 700 € par an avec 13 % de pauvreté, est l'un des plus favorables de ce lot (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Que fait-on de ses journées à Quimper ?",
+        body: "On marche le long de l'Odet et dans le centre médiéval, on fréquente le musée des beaux-arts et le marché, et l'on suit les festivals, dont celui de Cornouaille. La mer est accessible depuis Quimper, mais la ville est dans les terres. La vie associative, très bretonne, offre cours de danse, chorales et clubs de marche.",
+      },
+      {
+        heading: "Les limites avant de s'engager",
+        body: "Trois points. Le ciel d'abord : 1 710 heures de soleil, nettement moins que les 2 700 à 2 900 heures de la Méditerranée. L'éloignement ensuite : Brest à 52 km pour le CHU, Rennes plus loin encore pour le reste. La croissance, enfin, est modeste : la ville ne se remplit pas comme Vannes (+3,3 %). Quimper convient au retraité à pension moyenne qui aime la Bretagne, la vie culturelle et un coût du logement raisonnable ; elle convient moins à celui qui cherche la chaleur ou un CHU à portée immédiate.",
+      },
+    ],
+    relatedCities: ["quimper", "brest", "lorient", "vannes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-quimper-2026",
+      "vivre-a-quimper-2026",
+      "famille-a-quimper-2026",
+      "retraite-a-saint-malo-2026",
+    ],
+    tags: ["retraite Quimper 2026", "prendre sa retraite à Quimper", "retraite Finistère", "budget retraité Quimper", "retraite Bretagne"],
+  },
+  {
+    slug: "retraite-a-lorient-2026",
+    title: "Retraite à Lorient en 2026 : budget, santé, port, le guide",
+    metaTitle: "Retraite à Lorient 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Lorient en 2026 : T2 à 680 €, m² à 2 800 €, 28,9 % de 60 ans et plus, CHU de Brest à 110 km, 21 % de pauvreté. Budget et limites.",
+    category: "lifestyle",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Lorient est une ville portuaire où l'on vit au bord de la rade pour 680 € le deux-pièces et 2 800 € le mètre carré (source : notre estimation des loyers). Elle compte 58 202 habitants, dont 28,9 % de 60 ans et plus et 12,0 % de 75 ans et plus (source : Insee, recensement 2022, médianes : 26,2 % et 10,2 %). Notre score retraite est de 6,4/10, dans un palier de dix-sept villes à égalité, derrière 227 autres, avec un CHU à 110 kilomètres et un taux de pauvreté de 21 %.",
+    sections: [
+      {
+        heading: "Pourquoi choisir Lorient plutôt qu'une station bretonne",
+        body: "Lorient est une ville qui travaille, reconstruite après la guerre, avec un port, des marchés et des services complets, et non une ville de villégiature. Son coût de la vie est bon (6,2/10 sur notre fiche ville) et la population progresse de 1,6 % entre 2016 et 2022. Les plages et l'île de Groix sont accessibles depuis Lorient par bateau ou par la route, et l'hiver reste doux (6,8 °C en janvier). Le festival interceltique anime la ville chaque été.",
+      },
+      {
+        heading: "Quel accès aux soins à Lorient ?",
+        body: "Notre moteur estime l'accès aux soins à 5,7/10, où 10 signifie un excellent accès, soit niveau « correct » (source : notre fiche santé). L'établissement de référence est le centre hospitalier Bretagne Sud, ou hôpital du Scorff, avenue de Choiseul. Mais le CHU le plus proche est à Brest, à environ 110 kilomètres à vol d'oiseau selon notre calcul, deux fois la distance de Quimper (52 km) : pour un suivi spécialisé lourd, c'est le principal frein du lot.",
+      },
+      {
+        heading: "Se loger à Lorient : des prix mesurés",
+        body: "T1 à 500 €, T2 à 680 €, T3 à 900 € et 2 800 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 168 000 € avant frais, comme à Quimper, mais le loyer est un peu plus bas. Vannes, plus à l'est, est nettement plus chère (3 900 €/m²). Une partie du centre a été reconstruite après 1945 : immeubles de béton, bien desservis, souvent avec ascenseur, ce qui compte pour un retraité.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Lorient",
+        body: "Personne seule locataire d'un deux-pièces : loyer 680 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 370 € par mois. Couple locataire d'un trois-pièces : loyer 900 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 930 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule est couverte. Le niveau de vie médian de la commune est de 20 860 € par an (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "La vie à Lorient : rade, marchés, îles",
+        body: "Le marché des Halles propose la sardine bretonne, et Groix, Port-Louis et la citadelle sont accessibles depuis Lorient. La base de sous-marins de Keroman, héritage de l'occupation, marque le paysage du port de pêche. La navigation de plaisance, les clubs de voile et les randonnées sur la côte occupent bien des retraités.",
+      },
+      {
+        heading: "Les limites avant de signer",
+        body: "Trois points. La santé d'abord : Brest à 110 km. La sécurité ensuite : 5,5/10 sur notre fiche ville, moyenne, avec 21 % de pauvreté dans la commune. La météo enfin : 1 750 heures de soleil, un été frais (19,5 °C en juillet) et du vent. Lorient convient au retraité actif, plutôt marin, à budget moyen, qui veut une ville vivante au prix de la Bretagne ; elle convient moins à celui qui anticipe des soins hospitaliers fréquents.",
+      },
+    ],
+    relatedCities: ["lorient", "vannes", "quimper", "brest"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lorient-2026",
+      "vivre-a-lorient-2026",
+      "acheter-a-lorient-quel-quartier-budget-2026",
+      "retraite-a-quimper-2026",
+    ],
+    tags: ["retraite Lorient 2026", "prendre sa retraite à Lorient", "retraite Morbihan", "budget retraité Lorient", "retraite port Bretagne Sud"],
+  },
+  {
+    slug: "retraite-a-saint-brieuc-2026",
+    title: "Retraite à Saint-Brieuc en 2026 : le budget le plus bas de Bretagne ?",
+    metaTitle: "Retraite à Saint-Brieuc 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Saint-Brieuc en 2026 : T2 à 580 €, m² à 1 800 €, 28,8 % de 60 ans et plus, CHU de Rennes à 92 km, 2 000 h de soleil. Budget, limites.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Saint-Brieuc est la plus abordable des villes bretonnes de ce lot : 580 € le deux-pièces et 1 800 € le mètre carré (source : notre estimation des loyers), soit un 60 m² autour de 108 000 € avant frais. La ville compte 44 607 habitants, 28,8 % de 60 ans et plus et 12,3 % de 75 ans et plus (source : Insee, recensement 2022). Notre score retraite est de 6,6/10, dans un palier de dix-sept villes à égalité, derrière 200 autres ; le revers est un accès aux soins estimé à 5,0/10 et une population qui recule de 0,9 %.",
+    sections: [
+      {
+        heading: "Pourquoi Saint-Brieuc coûte moins cher que ses voisines",
+        body: "Avec 580 € pour un T2, la ville est 120 € sous Quimper et 100 € sous Lorient, et le mètre carré à 1 800 € est inférieur d'un tiers aux 2 800 € de ces deux villes. Le coût de la vie atteint 6,4/10 sur notre fiche ville, le meilleur du lot. La contrepartie est démographique : 44 607 habitants en 2022, en baisse de 0,9 % depuis 2016, contre +1,8 % à Quimper. Le marché est détendu, ce qui aide l'acheteur et inquiète pour la revente.",
+      },
+      {
+        heading: "Quel accès aux soins à Saint-Brieuc ?",
+        body: "Notre moteur estime l'accès aux soins à 5,0/10, où 10 signifie un excellent accès, soit niveau « correct » mais sous la médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune. Le CHU le plus proche est à Rennes, à environ 92 kilomètres à vol d'oiseau, presque deux fois la distance de Quimper (52 km). Avant de s'installer, vérifier la disponibilité d'un médecin traitant, c'est le vrai point de friction.",
+      },
+      {
+        heading: "Le soleil et la mer à Saint-Brieuc",
+        body: "Saint-Brieuc compte 2 000 heures de soleil, plus que Quimper (1 710) ou Lorient (1 750), pour 5 °C en janvier et 19,5 °C en juillet. La baie est une réserve naturelle nationale créée en 1998, gérée par l'agglomération et l'association Vivarmor Nature, et l'un des sites d'hivernage de la bernache cravant. Le port du Légué, au fond d'une vallée, relie la ville à la mer.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Saint-Brieuc",
+        body: "Personne seule locataire d'un deux-pièces : loyer 580 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 270 € par mois. Couple locataire d'un trois-pièces : loyer 780 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 810 € par mois. Une pension moyenne d'environ 1 500 € nets (source : DREES) laisse environ 230 € de marge à une personne seule. Le niveau de vie médian de la commune est de 20 910 € par an, avec 21 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Vie quotidienne à Saint-Brieuc",
+        body: "La cathédrale Saint-Étienne, fortifiée, domine le centre. La côte de Granit rose, le cap Fréhel, Paimpol et le sentier des douaniers sont accessibles depuis Saint-Brieuc par la route ou le train. La ville est desservie par la ligne ferroviaire Rennes-Brest, ce qui compte pour joindre un hôpital universitaire ou une famille.",
+      },
+      {
+        heading: "Les limites avant de s'engager",
+        body: "Trois points. Le déclin démographique d'abord, avec un marché de revente moins porteur. L'éloignement ensuite : 92 km du CHU. La sécurité enfin, à 5,7/10 sur notre fiche ville, correcte sans plus. Saint-Brieuc convient au retraité à petite pension, propriétaire ou futur propriétaire, qui privilégie le budget ; elle convient moins à celui qui veut une ville en croissance ou un accès hospitalier immédiat.",
+      },
+    ],
+    relatedCities: ["saint-brieuc", "lorient", "quimper", "rennes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-brieuc-2026",
+      "famille-a-saint-brieuc-2026",
+      "retraite-a-quimper-2026",
+      "retraite-a-lorient-2026",
+    ],
+    tags: ["retraite Saint-Brieuc 2026", "prendre sa retraite à Saint-Brieuc", "retraite Côtes-d'Armor", "budget retraité Saint-Brieuc", "retraite petit budget Bretagne"],
+  },
+  {
+    slug: "retraite-a-menton-2026",
+    title: "Retraite à Menton en 2026 : le soleil, mais à quel prix ?",
+    metaTitle: "Retraite à Menton 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Menton en 2026 : 2 950 h de soleil, 12 °C en janvier, T2 à 1 050 €, m² à 5 200 €, 32,1 % de 60 ans et plus, CHU de Nice à 20 km.",
+    category: "lifestyle",
+    emoji: "🍋",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Menton est la meilleure retraite du lot sur le papier : score retraite de 7,4/10, dans un palier de douze villes à égalité, derrière 112 autres, avec 2 950 heures de soleil par an et 12 °C en moyenne en janvier. Le prix est élevé : 1 050 € le deux-pièces et 5 200 € le mètre carré (source : notre estimation des loyers). La ville compte 30 326 habitants, dont 32,1 % de 60 ans et plus et 14,1 % de 75 ans et plus (source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Pourquoi Menton arrive en tête sur notre score",
+        body: "Menton cumule les atouts de qualité de vie : 8,7/10 sur notre fiche ville, une nature à 7,8/10, une sécurité de 7,1/10 et un climat doux (12 °C en janvier, 26,5 °C en juillet). La population augmente de 6,5 % entre 2016 et 2022. Le seul axe qui s'effondre est le coût de la vie (3,2/10), ce qui est le sujet central de ce guide.",
+      },
+      {
+        heading: "Quel accès aux soins à Menton ?",
+        body: "Notre moteur estime l'accès aux soins à 6,3/10, où 10 signifie un excellent accès, soit niveau « correct » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune, pas un relevé de cabinets. Le CHU le plus proche est à Nice, à environ 20 kilomètres à vol d'oiseau, la plus courte distance de ce lot : la route côtière est cependant chargée, et il faut prévoir plus de temps que la distance ne le suggère.",
+      },
+      {
+        heading: "Combien coûte de se loger à Menton ?",
+        body: "T1 à 700 €, T2 à 1 050 €, T3 à 1 450 € et 5 200 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 312 000 € avant frais, contre 108 000 € à Saint-Brieuc. Menton est au niveau d'Antibes et de Nice sur le prix, mais deux fois plus chère que Nîmes (2 800 €/m²). Beaucoup d'immeubles sont anciens et escarpés : demander l'ascenseur et l'accessibilité avant de visiter.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Menton",
+        body: "Personne seule locataire d'un deux-pièces : loyer 1 050 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 740 € par mois. Couple locataire d'un trois-pièces : loyer 1 450 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 480 € par mois. La pension moyenne de droit direct, environ 1 500 € nets (source : DREES), ne couvre pas ces budgets : Menton suppose un patrimoine, une pension supérieure ou un logement déjà acquis. Le niveau de vie médian de la commune est de 22 590 € par an, avec 17 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Vie quotidienne : citrons, jardins, frontière",
+        body: "La Fête du Citron, créée en 1934, a lieu chaque année en février. Les jardins de Val Rahmeh et de la Serre de la Madone, créée par Lawrence Johnston en 1924, sont accessibles à pied ou en bus. Le musée Jean Cocteau et la vieille ville baroque animent le centre. Monaco et l'Italie sont à quelques kilomètres, ce qui ouvre marchés et commerces, mais aussi le trafic.",
+      },
+      {
+        heading: "Les limites avant de s'installer",
+        body: "Trois points. Le coût d'abord, qui interdit Menton à une pension moyenne. La pente ensuite : la ville est étroite entre mer et montagne, ce qui complique la marche avec un déambulateur. L'âge enfin : avec 14,1 % de 75 ans et plus, les services de proximité sont adaptés, mais l'offre de logement abordable est rare. Menton convient au retraité aisé qui veut le climat le plus doux de ce lot ; elle ne convient pas à celui qui compte sur sa seule pension.",
+      },
+    ],
+    relatedCities: ["menton", "nice", "antibes", "cannes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-menton-2026",
+      "retraite-bord-de-mer-france-villes-guide-2026",
+      "retraite-a-nimes-2026",
+    ],
+    tags: ["retraite Menton 2026", "prendre sa retraite à Menton", "retraite Alpes-Maritimes", "budget retraité Menton", "retraite soleil Côte d'Azur"],
+  },
+  {
+    slug: "retraite-a-dax-2026",
+    title: "Retraite à Dax en 2026 : thermes, Landes et budget serré",
+    metaTitle: "Retraite à Dax 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Dax en 2026 : T2 à 580 €, m² à 2 200 €, 36,1 % de 60 ans et plus, ville thermale des Landes, CHU de Bordeaux à 127 km. Budget, limites.",
+    category: "lifestyle",
+    emoji: "♨️",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Dax est la ville la plus âgée de ce lot : 36,1 % de 60 ans et plus et 15,6 % de 75 ans et plus (source : Insee, recensement 2022, médianes : 26,2 % et 10,2 %), pour 21 716 habitants. Le deux-pièces y est estimé à 580 € et le mètre carré à 2 200 € (source : notre estimation des loyers). Notre score retraite est de 6,7/10, dans un palier de dix-sept villes à égalité, derrière 183 autres, mais l'accès aux soins estimé n'est que de 4,5/10, niveau « tendu ».",
+    sections: [
+      {
+        heading: "Pourquoi Dax attire les retraités",
+        body: "Dax est une ville thermale : la fontaine chaude, le quartier des thermes et le péloïde, la boue thermale locale, rythment la ville, et chaque saison de cure y amène des curistes, pour la plupart âgés. La ville est plate, ce qui simplifie la marche, et elle offre 2 050 heures de soleil, 8,5 °C en janvier et 23,5 °C en juillet. La forêt des Landes et la côte atlantique sont accessibles depuis Dax en voiture.",
+      },
+      {
+        heading: "Quel accès aux soins à Dax ?",
+        body: "Notre moteur estime l'accès aux soins à 4,5/10, où 10 signifie un excellent accès, soit niveau « tendu » sous la médiane de 5,5 (source : notre fiche santé). C'est le point faible du dossier malgré l'image de ville thermale : il s'agit d'une estimation fondée sur les densités médicales départementales et la taille de la commune, et les thermes relèvent de la cure, pas du suivi médical courant. Le CHU le plus proche est à Pessac, près de Bordeaux, à environ 127 kilomètres à vol d'oiseau. Il faut vérifier la disponibilité d'un médecin traitant avant de signer.",
+      },
+      {
+        heading: "Le logement à Dax : parmi les plus abordables",
+        body: "T1 à 420 €, T2 à 580 €, T3 à 780 € et 2 200 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 132 000 € avant frais, soit moitié moins que Bayonne (4 500 €/m²), voisine dans les Pyrénées-Atlantiques. Mont-de-Marsan, la préfecture voisine, est comparable (550 € pour un T2, 1 900 €/m²). La population de Dax augmente de 3,9 % entre 2016 et 2022.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Dax",
+        body: "Personne seule locataire d'un deux-pièces : loyer 580 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 270 € par mois. Couple locataire d'un trois-pièces : loyer 780 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 810 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) laisse une marge à une personne seule. Le niveau de vie médian de la commune est de 20 570 € par an, avec 20 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "La vie à Dax hors saison de cure",
+        body: "Les remparts gallo-romains, l'ancienne cathédrale et son portail des Apôtres, les arènes et la feria rythment l'année. L'Adour offre des berges de promenade. Hors saison de cure, le quartier thermal est plus calme ; en saison, hébergements et restaurants sont plus sollicités. La côte landaise est accessible depuis Dax pour la journée.",
+      },
+      {
+        heading: "Les limites avant de signer",
+        body: "Trois points. La santé d'abord, avec un accès « tendu » et un CHU à 127 km. L'âge ensuite : avec plus d'un tiers de 60 ans et plus, la ville est calme et peu jeune. La taille enfin : 21 716 habitants, donc moins d'équipements qu'à Bayonne. Dax convient au retraité à pension moyenne qui aime les cures et le calme des Landes ; elle convient moins à celui qui a un suivi médical lourd ou veut une ville animée.",
+      },
+    ],
+    relatedCities: ["dax", "bayonne", "mont-de-marsan", "biarritz"],
+    relatedGuides: [
+      "10-choses-a-faire-a-dax-2026",
+      "retraite-a-biarritz-2026",
+      "retraite-a-arcachon-2026",
+    ],
+    tags: ["retraite Dax 2026", "prendre sa retraite à Dax", "retraite Landes", "budget retraité Dax", "retraite ville thermale"],
+  },
+  {
+    slug: "retraite-a-bayonne-2026",
+    title: "Retraite à Bayonne en 2026 : Pays basque, budget et limites",
+    metaTitle: "Retraite à Bayonne 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Bayonne en 2026 : T2 à 900 €, m² à 4 500 €, 26,7 % de 60 ans et plus, accès aux soins 6,6/10, hôpital sur place. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🐟",
+    readMinutes: 7,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Bayonne est une retraite basque plus chère que ses voisines landaises : 900 € le deux-pièces et 4 500 € le mètre carré (source : notre estimation des loyers). Elle compte 53 312 habitants dont 26,7 % de 60 ans et plus, proche de la médiane de 26,2 % (source : Insee, recensement 2022). Notre score retraite est de 6,1/10, dans un palier de vingt-deux villes à égalité, derrière 286 autres : l'accès aux soins estimé est bon (6,6/10) et le coût de la vie faible (3,8/10).",
+    sections: [
+      {
+        heading: "Pourquoi Bayonne plutôt que Biarritz",
+        body: "Bayonne propose ce que Biarritz ne donne plus : une vraie ville, avec un hôpital, des commerces et un prix du mètre carré inférieur (4 500 € contre 6 500 € à Biarritz). Elle est à la fois ville historique et ville ordinaire : le Grand Bayonne, médiéval, et le Petit Bayonne, au-delà de la Nive, plus vivant, avec le Musée Basque, installé depuis 1924 dans la Maison Dagourette. Sa nature (7,0/10) et sa qualité de vie (7,0/10) sont élevées sur notre fiche ville, et la population progresse de 5,4 % entre 2016 et 2022.",
+      },
+      {
+        heading: "Quel accès aux soins à Bayonne ?",
+        body: "Notre moteur estime l'accès aux soins à 6,6/10, où 10 signifie un excellent accès, soit niveau « facile », contre une médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales départementales, la taille de la commune et la présence d'un hôpital : le centre hospitalier de la Côte basque est à Bayonne même. En revanche le CHU le plus proche est à Pessac, à environ 161 kilomètres à vol d'oiseau, le plus éloigné de ce lot : pour les soins très spécialisés, le déplacement est long.",
+      },
+      {
+        heading: "Combien coûte un logement à Bayonne ?",
+        body: "T1 à 660 €, T2 à 900 €, T3 à 1 200 € et 4 500 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 270 000 € avant frais, soit deux fois Dax (132 000 €). Anglet (4 300 €/m²) et Biarritz (6 500 €/m²) sont voisines et comparables ; Pau (2 400 €/m², 680 € pour un T2) est nettement moins chère. Le centre se parcourt à pied, et la gare relie la ville à Bordeaux.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Bayonne",
+        body: "Personne seule locataire d'un deux-pièces : loyer 900 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 590 € par mois. Couple locataire d'un trois-pièces : loyer 1 200 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 230 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) ne couvre pas le budget d'une personne seule locataire. Le niveau de vie médian de la commune est de 21 780 € par an, avec 17 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Vie quotidienne : fêtes, jambon, rivières",
+        body: "Les Fêtes de Bayonne durent cinq jours fin juillet et attirent une foule considérable : pour un retraité qui habite le centre, c'est un moment à anticiper, entre animation et bruit. Le reste de l'année, la ville vit au rythme de la Nive et de l'Adour, de la cathédrale, du chocolat et du jambon. La côte basque est à quelques kilomètres, et l'on y accède en bus.",
+      },
+      {
+        heading: "Les limites avant de s'engager",
+        body: "Trois points. Le budget d'abord : le coût de la vie est le point faible, à 3,8/10. La distance au CHU ensuite, 161 km. Les fêtes enfin, qui saturent le centre. Bayonne convient au retraité dont la pension est complétée par un patrimoine, qui veut un hôpital sur place et un Pays basque sans le prix de Biarritz ; elle convient moins à celui qui n'a que la pension moyenne, auquel Dax ou Pau offrent un budget plus léger.",
+      },
+    ],
+    relatedCities: ["bayonne", "biarritz", "anglet", "dax", "pau"],
+    relatedGuides: [
+      "10-choses-a-faire-a-bayonne-2026",
+      "vivre-a-bayonne-2026",
+      "acheter-a-bayonne-quel-quartier-budget-2026",
+      "retraite-a-biarritz-2026",
+      "retraite-a-dax-2026",
+    ],
+    tags: ["retraite Bayonne 2026", "prendre sa retraite à Bayonne", "retraite Pays basque", "budget retraité Bayonne", "retraite hôpital sur place"],
+  },
+  {
     slug: "demenager-a-paris-2026",
     title: "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
     metaTitle: "Déménager à Paris 2026 — Logistique, budget, démarches",
