@@ -2840,3 +2840,33 @@ propre, `npm run integrity`, `search-index` + `:check`, `hreflang:check`, `sitem
 **Reste** : **78 guides FR et 79 EN** citent encore « 363 » (274 + 254 occurrences). Méthode à reprendre telle quelle,
 paire par paire : `calc.mjs`, puis relire **aussi les rangs écrits en chiffres** (« 87e », « 27th ») et les comptes de
 région. **Prochain lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-28 — aucun lot : sept paires parent solo remesurées (Clermont-Ferrand, Le Havre, Brest, Le Mans, Nîmes, Perpignan, Orléans)
+
+`seed-coverage` au départ : 593 villes, rien en attente du runner hors Carquefou (photo) et les manques permanents →
+lot autorisé, mais **aucune décision du propriétaire au § 0** (`git log` depuis le 27/10 hors `[scheduled-agent]` :
+rien sur le seed, `score-calibration.ts`, ROADMAP ni CLAUDE.md). Aucune ville ajoutée.
+
+*Livrable* : suite de la remesure « 363 → 416 » de la série parent solo, méthode du 27/10 (`ext.ts` → `calc.mjs` →
+`apply.mjs`), chaque chiffre d'origine retrouvé sur la cohorte de 363 avant remplacement, deux locales à chaque fois.
+Ce que le dénominateur ne disait pas :
+
+| Ville | Composite | Corrigé au passage |
+|---|---|---|
+| Clermont-Ferrand | 6,3, palier 64-79 | EN « 67th » était une position dans le palier → joint 64th |
+| Le Havre | 5,7 | palier 13 → **18** (Chaville, Eysines, Couëron, La Chapelle-sur-Erdre, Carquefou) ; « tout juste au-dessus » de 5,5 → trois dixièmes au-dessus de 5,4 ; EN 162nd → joint 156th |
+| Brest | 6,5, palier 37-50 | EN « 38th… inside the top forty » faux dès l'origine → joint 37th, top cinquante (comme le FR) |
+| Le Mans | 6,0 | un demi-point → six dixièmes au-dessus de 5,4 ; région **10ᵉ sur 14 → 10ᵉ sur 19, ex æquo avec Orvault** (5 villes d'extension de Loire-Atlantique) ; EN 110th → joint 106th |
+| Nîmes | 5,3 | palier 16 → 18 ; « dix-septième d'Occitanie » était une position dans un palier → 16ᵉ ex æquo avec Carcassonne ; EN 224th → joint 228th |
+| Perpignan | 5,0 | palier 11 → 14 ; un demi-point → quatre dixièmes sous 5,4 ; EN 263rd → joint 289th |
+| Orléans | 6,1 | médiane 5,4 ; EN 102nd → joint 93rd |
+
+**Réécrits : 7 paires, 14 guides, `updatedAt` 2026-10-28.** Les metaDesc FR gardent leur longueur (chiffres de même
+taille) ; trois metaDesc EN s'allongent de 6 caractères, toutes sous 160.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `search-index` + `:check`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**Reste** : **71 guides FR et 72 EN** citent encore « 363 ». Prochaines paires à faible nombre d'occurrences :
+Poitiers, Saint-Denis / Saint-Paul / Saint-Pierre (Réunion), La Rochelle, Pau, Cherbourg, Fort-de-France. **Prochain
+lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).

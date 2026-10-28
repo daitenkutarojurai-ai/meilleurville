@@ -22896,12 +22896,12 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-08-15",
-    intro: "Brest scores 6.5/10 on the single-parent composite and ranks 38th of the 363 communes above 20,000 inhabitants. The figure that sets it apart is not in the composite: it is the relation between its school score, 7.4/10, and its average T3 rent, €850 (sources: our city profile and our rent estimate). That is €115 of rent per point of school score, the best ratio of the nine cities here, ahead of Tours at €119 and Besançon at €122. The estimated minimum net income drops to €2,600/month, €900 below Villeurbanne. The catch is not in the scores, it is geographic: Brest is at the tip of Finistère, and that is not a detail when you organise a child's life alone.",
+    updatedAt: "2026-10-28",
+    intro: "Brest scores 6.5/10 on the single-parent composite and ranks joint 37th of the 416 communes above 20,000 inhabitants, in a tier of fourteen. The figure that sets it apart is not in the composite: it is the relation between its school score, 7.4/10, and its average T3 rent, €850 (sources: our city profile and our rent estimate). That is €115 of rent per point of school score, the best ratio of the nine cities here, ahead of Tours at €119 and Besançon at €122. The estimated minimum net income drops to €2,600/month, €900 below Villeurbanne. The catch is not in the scores, it is geographic: Brest is at the tip of Finistère, and that is not a detail when you organise a child's life alone.",
     sections: [
       {
         heading: "The calculation: four axes, no black spot",
-        body: "Brest shows cost 6.4/10, transport 6.4/10, schools 7.4/10 and safety 5.7/10 (source: our city profile). Like Besançon it has no hole: its lowest axis stays at 5.7, and the spread between best and worst is 1.7 points. Its all-axis overall score is 6.4/10, nature 6.4/10 and quality of life 6.2/10. For a lone parent that regularity is worth more than a peak on one axis offset by a trough on another, because the daily routine always breaks at the weak link. The position, 38th of 363, puts it inside the top forty ranked communes, consistent with a 6.5/10 composite in the « Bien » band.",
+        body: "Brest shows cost 6.4/10, transport 6.4/10, schools 7.4/10 and safety 5.7/10 (source: our city profile). Like Besançon it has no hole: its lowest axis stays at 5.7, and the spread between best and worst is 1.7 points. Its all-axis overall score is 6.4/10, nature 6.4/10 and quality of life 6.2/10. For a lone parent that regularity is worth more than a peak on one axis offset by a trough on another, because the daily routine always breaks at the weak link. The position, joint 37th of 416 in a tier of fourteen communes at 6.5/10, puts it inside the top fifty ranked communes, consistent with a 6.5/10 composite in the « Bien » band.",
       },
       {
         heading: "A T3 at €850: the lowest rent among the well-scored cities",
@@ -23016,8 +23016,8 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-08-15",
-    intro: "Clermont-Ferrand scores 6.3/10 on the single-parent composite, 67th of the 363 communes above 20,000 inhabitants ranked, in the « Correct » band. The breakdown is balanced without excelling: cost 6.4/10, transport 6.4/10, schools 7.0/10, safety 5.5/10 (source: our city profile). What sets it apart in this batch shows on an axis that does not count in the composite but counts in real life, nature at 7.2/10, the best of the nine cities. The average T3 is €900 and the purchase price €2,400 per square metre (source: our rent estimate), for an estimated minimum net income of €2,750/month, identical to Besançon.",
+    updatedAt: "2026-10-28",
+    intro: "Clermont-Ferrand scores 6.3/10 on the single-parent composite, joint 64th of the 416 communes above 20,000 inhabitants ranked, in the « Correct » band. The breakdown is balanced without excelling: cost 6.4/10, transport 6.4/10, schools 7.0/10, safety 5.5/10 (source: our city profile). What sets it apart in this batch shows on an axis that does not count in the composite but counts in real life, nature at 7.2/10, the best of the nine cities. The average T3 is €900 and the purchase price €2,400 per square metre (source: our rent estimate), for an estimated minimum net income of €2,750/month, identical to Besançon.",
     sections: [
       {
         heading: "The calculation: decent everywhere, remarkable nowhere",
@@ -23096,8 +23096,8 @@ export const EN_GUIDES: EnGuide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-15",
-    updatedAt: "2026-08-15",
-    intro: "Le Havre is the most populous city in this batch at 172,000 inhabitants, and the lowest ranked: 5.7/10 on the single-parent composite, 162nd of the 363 communes above 20,000 inhabitants, just above the ranking's median of 5.5/10. The breakdown explains why: cost of living 6.3/10 and transport 6.2/10 are decent, but schools 5.8/10 and safety 4.5/10 weigh heavily, since those two axes together carry half the composite (source: our city profile). The average T3 is €870 and a square metre to buy €2,000 (source: our rent estimate), for an estimated minimum net income of €2,650/month. Here is what those figures imply, without rounding the corners.",
+    updatedAt: "2026-10-28",
+    intro: "Le Havre is the most populous city in this batch at 172,000 inhabitants, and the lowest ranked: 5.7/10 on the single-parent composite, joint 156th of the 416 communes above 20,000 inhabitants, three tenths above the ranking's median of 5.4/10. The breakdown explains why: cost of living 6.3/10 and transport 6.2/10 are decent, but schools 5.8/10 and safety 4.5/10 weigh heavily, since those two axes together carry half the composite (source: our city profile). The average T3 is €870 and a square metre to buy €2,000 (source: our rent estimate), for an estimated minimum net income of €2,650/month. Here is what those figures imply, without rounding the corners.",
     sections: [
       {
         heading: "Where the composite drops, and by how much",
@@ -28964,18 +28964,18 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
     metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",
     metaDesc:
-      "Fit 5.3/10, 224th of 363, below the median. T3 at €960, schools 5.3/10, safety 3.9/10: €181 of rent per point. The trade-off, unrounded.",
+      "Fit 5.3/10, joint 228th of 416, below the median. T3 at €960, schools 5.3/10, safety 3.9/10: €181 of rent per point. The trade-off, unrounded.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-17",
-    updatedAt: "2026-08-17",
+    updatedAt: "2026-10-28",
     intro:
-      "Nîmes has 153,005 inhabitants and scores 5.3/10 on the single-parent composite, 224th of the 363 communes above 20,000 inhabitants, below the ranking's median of 5.5/10. The breakdown: cost of living 5.9/10, transport 6.1/10, schools 5.3/10, safety 3.9/10 (source: our city profile). The average T3, meaning a flat with a living room and two bedrooms since French flats are counted in rooms excluding kitchen and bathroom, rents at €960, and a square metre to buy costs €2,800 (source: our rent estimate), for an estimated minimum net income of €2,900/month. That is the second-highest rent in this batch behind Annecy, paired with the third-worst school score, which produces the second-worst ratio of the ten. This guide says why the Nîmes case is hard for a lone parent, which is not the same as saying Nîmes is a bad city.",
+      "Nîmes has 153,005 inhabitants and scores 5.3/10 on the single-parent composite, joint 228th of the 416 communes above 20,000 inhabitants, below the ranking's median of 5.4/10. The breakdown: cost of living 5.9/10, transport 6.1/10, schools 5.3/10, safety 3.9/10 (source: our city profile). The average T3, meaning a flat with a living room and two bedrooms since French flats are counted in rooms excluding kitchen and bathroom, rents at €960, and a square metre to buy costs €2,800 (source: our rent estimate), for an estimated minimum net income of €2,900/month. That is the second-highest rent in this batch behind Annecy, paired with the third-worst school score, which produces the second-worst ratio of the ten. This guide says why the Nîmes case is hard for a lone parent, which is not the same as saying Nîmes is a bad city.",
     sections: [
       {
         heading: "Where the composite drops, and by how much",
-        body: "The composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Nîmes is decent on the two axes carrying 0.50 in total, cost and transport, and weak on the two carrying the other 0.50: schools at 5.3 and safety at 3.9. The 5.3/10 result is therefore an exact average of a genuinely lopsided file, and the average hides the nature of the problem. Safety at 3.9/10 is the second-lowest in this batch behind Perpignan at 3.7, and it carries a quarter of the total on its own. Nîmes is 17th in Occitanie out of 22 eligible communes, well behind Albi at 7.0, Auch at 6.8 and Castres at 6.5, which lead the region on this profile. Inside the Gard it edges out Alès, 5.3 against 5.0. Outside the composite: culture 7.3/10, the best value in this batch, overall score 5.1/10, nature 5.6/10, quality of life 5.1/10, remote-work capacity 5.3/10.",
+        body: "The composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Nîmes is decent on the two axes carrying 0.50 in total, cost and transport, and weak on the two carrying the other 0.50: schools at 5.3 and safety at 3.9. The 5.3/10 result is therefore an exact average of a genuinely lopsided file, and the average hides the nature of the problem. Safety at 3.9/10 is the second-lowest in this batch behind Perpignan at 3.7, and it carries a quarter of the total on its own. Nîmes is joint 16th in Occitanie, level with Carcassonne, out of 22 eligible communes, well behind Albi at 7.0, Auch at 6.8 and Castres at 6.5, which lead the region on this profile. Inside the Gard it edges out Alès, 5.3 against 5.0. Outside the composite: culture 7.3/10, the best value in this batch, overall score 5.1/10, nature 5.6/10, quality of life 5.1/10, remote-work capacity 5.3/10.",
       },
       {
         heading: "€181 per point of schools: what the rent does not buy",
@@ -29050,18 +29050,18 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single Parent in Le Mans (2026): €1,900 a Square Metre, a Tram, One Income",
     metaTitle: "Single Parent in Le Mans 2026: T3 €870, Buy €1,900/m²",
     metaDesc:
-      "Fit 6.0/10, 110th of 363. T3 at €870, buying at €1,900 per square metre, tram and high-speed rail. Schools 6.2/10, safety 5.3/10.",
+      "Fit 6.0/10, joint 106th of 416. T3 at €870, buying at €1,900 per square metre, tram and high-speed rail. Schools 6.2/10, safety 5.3/10.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-17",
-    updatedAt: "2026-08-17",
+    updatedAt: "2026-10-28",
     intro:
-      "Le Mans has 148,141 inhabitants and scores 6.0/10 on the single-parent composite, 110th of the 363 communes above 20,000 inhabitants, half a point above the ranking's median of 5.5/10. The breakdown: cost of living 6.4/10, schools 6.2/10, transport 6.1/10, safety 5.3/10 (source: our city profile). No axis shines, none collapses, and that regularity is what the composite rewards. The average T3 is €870 and a square metre to buy €1,900 (source: our rent estimate), for an estimated minimum net income of €2,650/month. That purchase price is the second-lowest in this batch behind Mulhouse, and most of what makes Le Mans interesting to a lone parent turns around it.",
+      "Le Mans has 148,141 inhabitants and scores 6.0/10 on the single-parent composite, joint 106th of the 416 communes above 20,000 inhabitants, six tenths above the ranking's median of 5.4/10. The breakdown: cost of living 6.4/10, schools 6.2/10, transport 6.1/10, safety 5.3/10 (source: our city profile). No axis shines, none collapses, and that regularity is what the composite rewards. The average T3 is €870 and a square metre to buy €1,900 (source: our rent estimate), for an estimated minimum net income of €2,650/month. That purchase price is the second-lowest in this batch behind Mulhouse, and most of what makes Le Mans interesting to a lone parent turns around it.",
     sections: [
       {
         heading: "A file with no hole, which is rarer than it sounds",
-        body: "The composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20, and it applies an implicit penalty to cities that drop somewhere: one very weak axis costs more than one very strong axis earns. Le Mans sits between 5.3 and 6.4 on all four, which produces an above-median result with no individual performance at all. It is the same mechanism as Poitiers in this batch, one level down. Le Mans is the only commune above 20,000 inhabitants in the Sarthe department in this ranking, so there is no local alternative to compare: the choice is between Le Mans and another region. Across the Pays de la Loire it is 10th of 14, well behind La Roche-sur-Yon, which is first in the entire national ranking at 7.5, Challans at 7.1 and Cholet at 7.0. The other axes: overall score 5.7/10, quality of life 5.5/10, culture 6.2/10, remote-work capacity 5.3/10, nature 4.8/10.",
+        body: "The composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20, and it applies an implicit penalty to cities that drop somewhere: one very weak axis costs more than one very strong axis earns. Le Mans sits between 5.3 and 6.4 on all four, which produces an above-median result with no individual performance at all. It is the same mechanism as Poitiers in this batch, one level down. Le Mans is the only commune above 20,000 inhabitants in the Sarthe department in this ranking, so there is no local alternative to compare: the choice is between Le Mans and another region. Across the Pays de la Loire it is joint 10th of 19 with Orvault, well behind La Roche-sur-Yon, which is first in the entire national ranking at 7.5, Challans at 7.1 and Cholet at 7.0. The other axes: overall score 5.7/10, quality of life 5.5/10, culture 6.2/10, remote-work capacity 5.3/10, nature 4.8/10.",
       },
       {
         heading: "€1,900 a square metre: the central argument",
@@ -29179,14 +29179,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single Parent in Perpignan (2026): the Hardest Mainland File Here",
     metaTitle: "Single Parent in Perpignan 2026: T3 €870, Schools 4.5",
     metaDesc:
-      "Fit 5.0/10, 263rd of 363. Schools 4.5/10 and safety 3.7/10, the lowest here, on a T3 at €870. What the cheap rent does not offset.",
+      "Fit 5.0/10, joint 289th of 416. Schools 4.5/10 and safety 3.7/10, the lowest here, on a T3 at €870. What the cheap rent does not offset.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-17",
-    updatedAt: "2026-08-17",
+    updatedAt: "2026-10-28",
     intro:
-      "Perpignan has 121,875 inhabitants and scores 5.0/10 on the single-parent composite, 263rd of the 363 communes above 20,000 inhabitants, half a point below the ranking's median of 5.5/10. The breakdown: cost of living 6.2/10, transport 5.5/10, schools 4.5/10, safety 3.7/10 (source: our city profile). Those last two are the lowest of the ten cities in this batch, and together they carry half the composite. The average T3 is €870 and a square metre to buy €2,300 (source: our rent estimate), for an estimated minimum net income of €2,650/month. The rent is low, and this guide explains why that is not enough to make a good single-parent file, with the figures that show it.",
+      "Perpignan has 121,875 inhabitants and scores 5.0/10 on the single-parent composite, joint 289th of the 416 communes above 20,000 inhabitants, four tenths below the ranking's median of 5.4/10. The breakdown: cost of living 6.2/10, transport 5.5/10, schools 4.5/10, safety 3.7/10 (source: our city profile). Those last two are the lowest of the ten cities in this batch, and together they carry half the composite. The average T3 is €870 and a square metre to buy €2,300 (source: our rent estimate), for an estimated minimum net income of €2,650/month. The rent is low, and this guide explains why that is not enough to make a good single-parent file, with the figures that show it.",
     sections: [
       {
         heading: "€193 per point of schools: the worst ratio here",
@@ -29222,14 +29222,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single Parent in Orléans (2026): the Tram, Paris Close By, €2,800 Net",
     metaTitle: "Single Parent in Orléans 2026: T3 €930, Tram, Schools",
     metaDesc:
-      "Fit 6.1/10, 102nd of 363. T3 at €930, schools 6.6/10, transport 6.4/10 and two tram lines. On one income and one driver.",
+      "Fit 6.1/10, joint 93rd of 416. T3 at €930, schools 6.6/10, transport 6.4/10 and two tram lines. On one income and one driver.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-17",
-    updatedAt: "2026-08-17",
+    updatedAt: "2026-10-28",
     intro:
-      "Orléans has 115,754 inhabitants and scores 6.1/10 on the single-parent composite, 102nd of the 363 communes above 20,000 inhabitants, well above the ranking's median of 5.5/10. The four axes hold together: cost of living 6.2/10, schools 6.6/10, transport 6.4/10, safety 5.1/10 (source: our city profile). The average T3 is €930 and a square metre to buy €2,400 (source: our rent estimate), for an estimated minimum net income of €2,800/month. Orléans is the typical city nobody names spontaneously in a conversation about where to raise a child alone, and which nonetheless lands in the top third of the ranking. Here is what the figures say, including where they are not flattering.",
+      "Orléans has 115,754 inhabitants and scores 6.1/10 on the single-parent composite, joint 93rd of the 416 communes above 20,000 inhabitants, well above the ranking's median of 5.4/10. The four axes hold together: cost of living 6.2/10, schools 6.6/10, transport 6.4/10, safety 5.1/10 (source: our city profile). The average T3 is €930 and a square metre to buy €2,400 (source: our rent estimate), for an estimated minimum net income of €2,800/month. Orléans is the typical city nobody names spontaneously in a conversation about where to raise a child alone, and which nonetheless lands in the top third of the ranking. Here is what the figures say, including where they are not flattering.",
     sections: [
       {
         heading: "Where the composite holds, and where it bends",

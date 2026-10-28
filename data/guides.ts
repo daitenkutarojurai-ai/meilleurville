@@ -52776,8 +52776,8 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-08-14",
-    intro: "Brest obtient 6,5/10 au composite parent solo et se classe dans un palier de 14 communes sur les 363 de plus de 20 000 habitants. Le chiffre qui la distingue n'est pas dans le composite : c'est le rapport entre son score écoles, 7,4/10, et son loyer T3 moyen, 850 € (sources : notre fiche ville et notre estimation des loyers). Cela fait 115 € de loyer par point d'écoles, le meilleur ratio des neuf villes de ce batch, devant Tours à 119 € et Besançon à 122 €. Le revenu net minimum estimé tombe à 2 600 € par mois, soit 900 € de moins qu'à Villeurbanne. La contrepartie n'est pas dans les scores, elle est géographique : Brest est à la pointe du Finistère, et ce n'est pas un détail quand on organise seul la vie d'un enfant.",
+    updatedAt: "2026-10-28",
+    intro: "Brest obtient 6,5/10 au composite parent solo et se classe dans un palier de 14 communes sur les 416 de plus de 20 000 habitants. Le chiffre qui la distingue n'est pas dans le composite : c'est le rapport entre son score écoles, 7,4/10, et son loyer T3 moyen, 850 € (sources : notre fiche ville et notre estimation des loyers). Cela fait 115 € de loyer par point d'écoles, le meilleur ratio des neuf villes de ce batch, devant Tours à 119 € et Besançon à 122 €. Le revenu net minimum estimé tombe à 2 600 € par mois, soit 900 € de moins qu'à Villeurbanne. La contrepartie n'est pas dans les scores, elle est géographique : Brest est à la pointe du Finistère, et ce n'est pas un détail quand on organise seul la vie d'un enfant.",
     sections: [
       {
         heading: "Le calcul : quatre axes sans point noir",
@@ -52917,8 +52917,8 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-08-14",
-    intro: "Clermont-Ferrand obtient 6,3/10 au composite parent solo, dans un palier de 16 communes sur les 363 classées de plus de 20 000 habitants, dans la catégorie « Correct ». Le détail est équilibré sans excellence : coût 6,4/10, transports 6,4/10, écoles 7,0/10, sécurité 5,5/10 (source : notre fiche ville). Ce qui la distingue dans ce batch se lit sur un axe qui ne compte pas dans le composite mais compte dans la vie, la nature à 7,2/10, le meilleur score des neuf villes. Le T3 moyen est à 900 € et l'achat à 2 400 € le mètre carré (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 750 € par mois, identique à celui de Besançon.",
+    updatedAt: "2026-10-28",
+    intro: "Clermont-Ferrand obtient 6,3/10 au composite parent solo, dans un palier de 16 communes sur les 416 classées de plus de 20 000 habitants, dans la catégorie « Correct ». Le détail est équilibré sans excellence : coût 6,4/10, transports 6,4/10, écoles 7,0/10, sécurité 5,5/10 (source : notre fiche ville). Ce qui la distingue dans ce batch se lit sur un axe qui ne compte pas dans le composite mais compte dans la vie, la nature à 7,2/10, le meilleur score des neuf villes. Le T3 moyen est à 900 € et l'achat à 2 400 € le mètre carré (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 750 € par mois, identique à celui de Besançon.",
     sections: [
       {
         heading: "Le calcul : correct partout, remarquable nulle part",
@@ -53006,13 +53006,13 @@ export const GUIDES: Guide[] = [
     slug: "parent-solo-a-le-havre-2026",
     title: "Parent solo au Havre en 2026 : la mer, l'achat à 2 000 € le m², et deux axes qui coincent",
     metaTitle: "Parent solo au Havre 2026 — T3 870 €, achat, écoles, tram",
-    metaDesc: "Fit 5,7/10, palier de 13 communes. T3 à 870 €, achat à 2 000 €/m², mais sécurité 4,5/10 et écoles 5,8/10. Le calcul honnête pour un parent seul.",
+    metaDesc: "Fit 5,7/10, palier de 18 communes. T3 à 870 €, achat à 2 000 €/m², mais sécurité 4,5/10 et écoles 5,8/10. Le calcul honnête pour un parent seul.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-14",
-    updatedAt: "2026-08-14",
-    intro: "Le Havre est la plus peuplée des villes de ce batch avec 172 000 habitants, et la moins bien classée : 5,7/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, tout juste au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail explique pourquoi : coût de la vie 6,3/10 et transports 6,2/10 sont corrects, mais écoles 5,8/10 et sécurité 4,5/10 pèsent lourd puisque ces deux axes cumulent la moitié du poids du composite (source : notre fiche ville). Le T3 moyen est à 870 € et le mètre carré à l'achat à 2 000 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 650 € par mois. Voici ce que ces chiffres impliquent, sans arrondir les angles.",
+    updatedAt: "2026-10-28",
+    intro: "Le Havre est la plus peuplée des villes de ce batch avec 172 000 habitants, et la moins bien classée : 5,7/10 au composite parent solo, dans un palier de 18 communes sur les 416 de plus de 20 000 habitants, trois dixièmes au-dessus de la médiane du classement qui s'établit à 5,4/10. Le détail explique pourquoi : coût de la vie 6,3/10 et transports 6,2/10 sont corrects, mais écoles 5,8/10 et sécurité 4,5/10 pèsent lourd puisque ces deux axes cumulent la moitié du poids du composite (source : notre fiche ville). Le T3 moyen est à 870 € et le mètre carré à l'achat à 2 000 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 650 € par mois. Voici ce que ces chiffres impliquent, sans arrondir les angles.",
     sections: [
       {
         heading: "Où le composite décroche, et de combien",
@@ -53591,9 +53591,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-28",
     intro:
-      "Orléans compte 115 754 habitants et obtient 6,1/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, nettement au-dessus de la médiane du classement fixée à 5,5/10. Les quatre axes se tiennent : coût de la vie 6,2/10, écoles 6,6/10, transports 6,4/10, sécurité 5,1/10 (source : notre fiche ville). Le T3 moyen est à 930 € et le mètre carré à l'achat à 2 400 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 800 € par mois. Orléans est le cas typique de la ville que personne ne cite spontanément dans une conversation sur les villes où élever un enfant seul, et qui sort pourtant dans le premier tiers du classement. Voici ce que les chiffres disent, y compris là où ils ne sont pas flatteurs.",
+      "Orléans compte 115 754 habitants et obtient 6,1/10 au composite parent solo, dans un palier de 13 communes sur les 416 de plus de 20 000 habitants, nettement au-dessus de la médiane du classement fixée à 5,4/10. Les quatre axes se tiennent : coût de la vie 6,2/10, écoles 6,6/10, transports 6,4/10, sécurité 5,1/10 (source : notre fiche ville). Le T3 moyen est à 930 € et le mètre carré à l'achat à 2 400 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 800 € par mois. Orléans est le cas typique de la ville que personne ne cite spontanément dans une conversation sur les villes où élever un enfant seul, et qui sort pourtant dans le premier tiers du classement. Voici ce que les chiffres disent, y compris là où ils ne sont pas flatteurs.",
     sections: [
       {
         heading: "Où le composite se tient, et où il plie",
@@ -53640,13 +53640,13 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-28",
     intro:
-      "Le Mans compte 148 141 habitants et obtient 6,0/10 au composite parent solo, dans un palier de 12 communes sur les 363 de plus de 20 000 habitants, un demi-point au-dessus de la médiane du classement établie à 5,5/10. Le détail : coût de la vie 6,4/10, écoles 6,2/10, transports 6,1/10, sécurité 5,3/10 (source : notre fiche ville). Aucun axe ne brille, aucun ne s'effondre, et c'est ce profil régulier que le composite récompense. Le T3 moyen est à 870 € et le mètre carré à l'achat à 1 900 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 650 € par mois. Ce prix d'achat est le deuxième plus bas de ce batch après Mulhouse, et c'est autour de lui que tourne l'essentiel de l'intérêt du dossier manceau pour un parent seul.",
+      "Le Mans compte 148 141 habitants et obtient 6,0/10 au composite parent solo, dans un palier de 12 communes sur les 416 de plus de 20 000 habitants, six dixièmes au-dessus de la médiane du classement établie à 5,4/10. Le détail : coût de la vie 6,4/10, écoles 6,2/10, transports 6,1/10, sécurité 5,3/10 (source : notre fiche ville). Aucun axe ne brille, aucun ne s'effondre, et c'est ce profil régulier que le composite récompense. Le T3 moyen est à 870 € et le mètre carré à l'achat à 1 900 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 650 € par mois. Ce prix d'achat est le deuxième plus bas de ce batch après Mulhouse, et c'est autour de lui que tourne l'essentiel de l'intérêt du dossier manceau pour un parent seul.",
     sections: [
       {
         heading: "Un dossier sans trou, ce qui est plus rare qu'il n'y paraît",
-        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20, et il applique une pénalité implicite aux villes qui décrochent quelque part : un axe très faible pèse plus lourd qu'un axe très fort ne rapporte. Le Mans se situe entre 5,3 et 6,4 sur les quatre, ce qui produit un résultat au-dessus de la médiane sans aucune performance individuelle. C'est le même mécanisme que pour Poitiers dans ce batch, à un niveau inférieur. Le Mans est la seule commune de plus de 20 000 habitants de la Sarthe dans ce classement, donc il n'existe pas d'alternative départementale à comparer : le choix se fait entre Le Mans et une autre région. À l'échelle des Pays de la Loire, elle est dixième sur 14, loin derrière La Roche-sur-Yon qui est première de tout le classement national à 7,5, Challans à 7,1 et Cholet à 7,0. Les autres axes du dossier : score global 5,7/10, qualité de vie 5,5/10, culture 6,2/10, télétravail 5,3/10, nature 4,8/10.",
+        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20, et il applique une pénalité implicite aux villes qui décrochent quelque part : un axe très faible pèse plus lourd qu'un axe très fort ne rapporte. Le Mans se situe entre 5,3 et 6,4 sur les quatre, ce qui produit un résultat au-dessus de la médiane sans aucune performance individuelle. C'est le même mécanisme que pour Poitiers dans ce batch, à un niveau inférieur. Le Mans est la seule commune de plus de 20 000 habitants de la Sarthe dans ce classement, donc il n'existe pas d'alternative départementale à comparer : le choix se fait entre Le Mans et une autre région. À l'échelle des Pays de la Loire, elle est dixième sur 19, à égalité avec Orvault, loin derrière La Roche-sur-Yon qui est première de tout le classement national à 7,5, Challans à 7,1 et Cholet à 7,0. Les autres axes du dossier : score global 5,7/10, qualité de vie 5,5/10, culture 6,2/10, télétravail 5,3/10, nature 4,8/10.",
       },
       {
         heading: "1 900 € le mètre carré : l'argument central",
@@ -53831,18 +53831,18 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Nîmes en 2026 : le soleil ne compense pas le classement",
     metaTitle: "Parent solo à Nîmes 2026 — T3 960 €, sécurité 3,9/10",
     metaDesc:
-      "Fit 5,3/10, palier de 16 communes, sous la médiane. T3 à 960 €, écoles 5,3/10, sécurité 3,9/10 : 181 € de loyer par point. L'arbitrage posé sans arrondir.",
+      "Fit 5,3/10, palier de 18 communes, sous la médiane. T3 à 960 €, écoles 5,3/10, sécurité 3,9/10 : 181 € de loyer par point. L'arbitrage posé sans arrondir.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-28",
     intro:
-      "Nîmes compte 153 005 habitants et obtient 5,3/10 au composite parent solo, dans un palier de 16 communes sur les 363 de plus de 20 000 habitants, sous la médiane du classement qui se situe à 5,5/10. Le détail : coût de la vie 5,9/10, transports 6,1/10, écoles 5,3/10, sécurité 3,9/10 (source : notre fiche ville). Le T3 moyen est à 960 € et le mètre carré à l'achat à 2 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 900 € par mois. C'est le deuxième loyer le plus élevé de ce batch après Annecy, associé au troisième plus mauvais score d'écoles, ce qui produit le ratio le moins favorable du lot après Perpignan. Ce guide dit pourquoi le dossier nîmois est difficile pour un parent seul, ce qui n'est pas la même chose que dire que Nîmes est une mauvaise ville.",
+      "Nîmes compte 153 005 habitants et obtient 5,3/10 au composite parent solo, dans un palier de 18 communes sur les 416 de plus de 20 000 habitants, sous la médiane du classement qui se situe à 5,4/10. Le détail : coût de la vie 5,9/10, transports 6,1/10, écoles 5,3/10, sécurité 3,9/10 (source : notre fiche ville). Le T3 moyen est à 960 € et le mètre carré à l'achat à 2 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 900 € par mois. C'est le deuxième loyer le plus élevé de ce batch après Annecy, associé au troisième plus mauvais score d'écoles, ce qui produit le ratio le moins favorable du lot après Perpignan. Ce guide dit pourquoi le dossier nîmois est difficile pour un parent seul, ce qui n'est pas la même chose que dire que Nîmes est une mauvaise ville.",
     sections: [
       {
         heading: "Où le composite décroche, et de combien",
-        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Nîmes est correcte sur les deux axes qui pèsent 0,50 au total, coût et transports, et faible sur les deux autres, qui pèsent également 0,50 : écoles à 5,3 et sécurité à 3,9. Le résultat de 5,3/10 est donc une moyenne exacte d'un dossier réellement déséquilibré, et la moyenne masque ici la nature du problème. La sécurité à 3,9/10 est la deuxième plus basse de ce batch après Perpignan à 3,7, et elle pèse un quart du total à elle seule. Nîmes est dix-septième d'Occitanie sur 22 communes éligibles, très loin d'Albi à 7,0, d'Auch à 6,8 et de Castres à 6,5, qui occupent le haut de leur région sur ce profil. Dans le Gard, elle devance Alès de peu, 5,3 contre 5,0. Les autres axes, hors composite : culture 7,3/10, la meilleure valeur du batch, score global 5,1/10, nature 5,6/10, qualité de vie 5,1/10, télétravail 5,3/10.",
+        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Nîmes est correcte sur les deux axes qui pèsent 0,50 au total, coût et transports, et faible sur les deux autres, qui pèsent également 0,50 : écoles à 5,3 et sécurité à 3,9. Le résultat de 5,3/10 est donc une moyenne exacte d'un dossier réellement déséquilibré, et la moyenne masque ici la nature du problème. La sécurité à 3,9/10 est la deuxième plus basse de ce batch après Perpignan à 3,7, et elle pèse un quart du total à elle seule. Nîmes est seizième d'Occitanie, à égalité avec Carcassonne, sur 22 communes éligibles, très loin d'Albi à 7,0, d'Auch à 6,8 et de Castres à 6,5, qui occupent le haut de leur région sur ce profil. Dans le Gard, elle devance Alès de peu, 5,3 contre 5,0. Les autres axes, hors composite : culture 7,3/10, la meilleure valeur du batch, score global 5,1/10, nature 5,6/10, qualité de vie 5,1/10, télétravail 5,3/10.",
       },
       {
         heading: "181 € par point d'écoles : ce que le loyer n'achète pas",
@@ -53880,14 +53880,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Perpignan en 2026 : le dossier métropolitain le plus difficile du batch",
     metaTitle: "Parent solo à Perpignan 2026 — T3 870 €, écoles 4,5/10",
     metaDesc:
-      "Fit 5,0/10, palier de 11 communes. Écoles 4,5/10 et sécurité 3,7/10, les plus basses du batch, pour un T3 à 870 €. Ce que le loyer bas ne compense pas.",
+      "Fit 5,0/10, palier de 14 communes. Écoles 4,5/10 et sécurité 3,7/10, les plus basses du batch, pour un T3 à 870 €. Ce que le loyer bas ne compense pas.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-10-28",
     intro:
-      "Perpignan compte 121 875 habitants et obtient 5,0/10 au composite parent solo, dans un palier de 11 communes sur les 363 de plus de 20 000 habitants, un demi-point sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,2/10, transports 5,5/10, écoles 4,5/10, sécurité 3,7/10 (source : notre fiche ville). Ces deux dernières valeurs sont les plus basses des dix villes de ce batch, et elles pèsent ensemble la moitié du composite. Le T3 moyen est à 870 € et le mètre carré à l'achat à 2 300 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 650 € par mois. Le loyer est bas, et ce guide explique pourquoi cela ne suffit pas à faire un bon dossier de parent solo, avec les chiffres qui le montrent.",
+      "Perpignan compte 121 875 habitants et obtient 5,0/10 au composite parent solo, dans un palier de 14 communes sur les 416 de plus de 20 000 habitants, quatre dixièmes sous la médiane du classement fixée à 5,4/10. Le détail : coût de la vie 6,2/10, transports 5,5/10, écoles 4,5/10, sécurité 3,7/10 (source : notre fiche ville). Ces deux dernières valeurs sont les plus basses des dix villes de ce batch, et elles pèsent ensemble la moitié du composite. Le T3 moyen est à 870 € et le mètre carré à l'achat à 2 300 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 650 € par mois. Le loyer est bas, et ce guide explique pourquoi cela ne suffit pas à faire un bon dossier de parent solo, avec les chiffres qui le montrent.",
     sections: [
       {
         heading: "193 € par point d'écoles : le pire ratio du batch",
