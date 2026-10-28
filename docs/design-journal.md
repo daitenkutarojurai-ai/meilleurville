@@ -1037,3 +1037,28 @@ pastilles grises à filet. EN : un seul bloc blanc.
 1. Sous-pages `ecoles` et `logement` (même schéma `glass` + sections `pb-8`).
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Cartes internes de la fiche ville (`Card` « card-sheen »).
+
+## 2026-10-28 ~11:00 UTC — sous-page écoles `/villes/[slug]/ecoles` (FR) + EN `/cities/[slug]/schools`
+
+**Surface** : le gabarit écoles (540 villes × 2 locales). Avant : hero sur fond de page, cartes `glass`, écart à la
+moyenne en vert / orange (couleurs de palier détournées), fiches établissements en bloc séparé, renvois en pastilles
+grises à filet. EN : un seul bloc blanc.
+
+**Changé**
+- Hero `.bg-aurora` (FR et EN ; EN : nom de ville en `.gradient-text`).
+- FR en 3 bandes : repères + « Établissements recensés » (nouveau h2) en `band-indigo`, cartes blanches à ombre
+  indigo, sur-titres en indigo foncé ; villes comparables en `band-pink` (h2 dégradé, cartes à ombre rose) ;
+  renvois en pilules lavande + MapsQuickSearch + DiscussionCTA en `band-white`.
+- Écart « vs moyenne FR » en indigo / rose.
+- EN : « How French schools work » en carte blanche sur `band-indigo`, « What the score reflects » en `band-sky`
+  (h2 dégradé, bouton `grad-head-0`, renvois en pilules), Maps + FeedbackWidget en `band-white`. Copie, données,
+  JSON-LD, liens inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers :
+0 problème. Captures `next dev` + playwright `/villes/lyon/ecoles` 1440 et 390 px, `scrollWidth` = viewport.
+EN non capturé. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-page `logement` (même schéma `glass` + sections `pb-8`), puis `emploi` / `sante`.
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Cartes internes de la fiche ville (`Card` « card-sheen »).

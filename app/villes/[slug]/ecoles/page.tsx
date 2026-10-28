@@ -106,7 +106,7 @@ export default async function EcolesPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
 
-      <section className="relative pt-20 pb-8">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/villes" className="hover:text-[var(--text-secondary)]">Villes</Link>
@@ -115,7 +115,7 @@ export default async function EcolesPage({ params }: Props) {
             <span>/</span>
             <span className="text-[var(--text-secondary)]">Écoles</span>
           </nav>
-          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+          <p className="text-xs uppercase tracking-widest text-[#4338CA] font-semibold mb-2">
             🎓 Écoles &amp; études supérieures
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.05]">
@@ -128,11 +128,11 @@ export default async function EcolesPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Score strip */}
-      <section className="relative pb-8">
+      {/* Repères + filières — bande indigo */}
+      <section className="band band-indigo py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Score écoles</div>
               <div className="text-3xl font-black font-mono-data text-[var(--text-primary)]">
                 {score.toFixed(1)}<span className="text-base font-normal text-[var(--text-tertiary)]"> / 10</span>
@@ -141,13 +141,13 @@ export default async function EcolesPage({ params }: Props) {
                 {Math.abs(vsAvg) < 0.3 ? (
                   <span className="text-[var(--text-tertiary)]">≈ moyenne FR</span>
                 ) : vsAvg > 0 ? (
-                  <span className="text-emerald-600">+{vsAvg} vs moyenne FR</span>
+                  <span className="font-semibold text-[#4338CA]">+{vsAvg} vs moyenne FR</span>
                 ) : (
-                  <span className="text-orange-600">{vsAvg} vs moyenne FR</span>
+                  <span className="font-semibold text-[#BE185D]">{vsAvg} vs moyenne FR</span>
                 )}
               </div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Classement national</div>
               <div className="text-3xl font-black font-mono-data text-[var(--text-primary)]">
                 #{rank}<span className="text-base font-normal text-[var(--text-tertiary)]"> / {sorted.length}</span>
@@ -156,88 +156,86 @@ export default async function EcolesPage({ params }: Props) {
                 {rank <= 20 ? "Top 20" : rank <= 50 ? "Top 50" : rank <= 100 ? "Top 100" : "Hors top 100"}
               </div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">Filières confirmées</div>
               <div className="text-base font-semibold text-[var(--text-primary)] leading-snug pt-1">
                 {tags.length > 0 ? tags.join(" · ") : <span className="text-[var(--text-tertiary)] font-normal">Lycées seulement</span>}
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Established schools */}
-      <section className="relative pb-8">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-4">
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mt-10 mb-4">Établissements recensés</h2>
+          <div className="space-y-4">
           {e.university && (
-            <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
-              <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">🏛️ Université</div>
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="text-xs uppercase tracking-widest text-[#4338CA] font-semibold mb-1">🏛️ Université</div>
               <div className="text-lg font-semibold text-[var(--text-primary)]">{e.university}</div>
             </div>
           )}
           {e.cpge && (
-            <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
-              <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">📚 Classes préparatoires (CPGE)</div>
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="text-xs uppercase tracking-widest text-[#4338CA] font-semibold mb-1">📚 Classes préparatoires (CPGE)</div>
               <div className="text-sm text-[var(--text-secondary)]">
                 Au moins un lycée propose des classes préparatoires aux grandes écoles (scientifique, commerciale, ou littéraire).
               </div>
             </div>
           )}
           {e.iep && (
-            <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
-              <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">🏛️ Sciences Po</div>
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="text-xs uppercase tracking-widest text-[#4338CA] font-semibold mb-1">🏛️ Sciences Po</div>
               <div className="text-sm text-[var(--text-secondary)]">
                 Campus IEP / Sciences Po présent en ville.
               </div>
             </div>
           )}
           {e.ingenieur && e.ingenieur.length > 0 && (
-            <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
-              <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">⚙️ Écoles d&apos;ingénieurs</div>
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="text-xs uppercase tracking-widest text-[#4338CA] font-semibold mb-2">⚙️ Écoles d&apos;ingénieurs</div>
               <ul className="text-sm text-[var(--text-primary)] space-y-1">
                 {e.ingenieur.map((s) => <li key={s}>• {s}</li>)}
               </ul>
             </div>
           )}
           {e.commerce && e.commerce.length > 0 && (
-            <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
-              <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">💼 Écoles de commerce</div>
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="text-xs uppercase tracking-widest text-[#4338CA] font-semibold mb-2">💼 Écoles de commerce</div>
               <ul className="text-sm text-[var(--text-primary)] space-y-1">
                 {e.commerce.map((s) => <li key={s}>• {s}</li>)}
               </ul>
             </div>
           )}
           {e.artsDesign && e.artsDesign.length > 0 && (
-            <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
-              <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">🎨 Beaux-Arts &amp; design</div>
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="text-xs uppercase tracking-widest text-[#4338CA] font-semibold mb-2">🎨 Beaux-Arts &amp; design</div>
               <ul className="text-sm text-[var(--text-primary)] space-y-1">
                 {e.artsDesign.map((s) => <li key={s}>• {s}</li>)}
               </ul>
             </div>
           )}
           {tags.length === 0 && (
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] p-5">
+            <div className="rounded-2xl bg-white/60 p-5">
               <div className="text-sm text-[var(--text-secondary)]">
                 Pas de filière post-bac sélective recensée à {city.name} dans notre base. Les lycéens orientés CPGE / écoles s&apos;orientent vers la métropole régionale la plus proche.
               </div>
             </div>
           )}
-          <p className="text-xs text-[var(--text-tertiary)]">
+          </div>
+          <p className="text-xs text-[var(--text-secondary)] mt-3">
             Liste basée sur les données MESR / Conférence des grandes écoles. Une absence indique que nous n&apos;avons pas confirmé la présence du cursus, pas nécessairement qu&apos;il n&apos;existe pas.
           </p>
         </div>
       </section>
 
-      {/* Similar */}
-      <section className="relative pb-12">
+      {/* Villes comparables — bande rose */}
+      <section className="band band-pink py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Villes au profil scolaire comparable</h2>
+          <h2 className="text-xl font-bold mb-4"><span className="gradient-text">Villes au profil scolaire comparable</span></h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {similar.map((c) => (
               <Link
                 key={c.slug}
                 href={`/villes/${c.slug}/ecoles`}
-                className="group rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
+                className="group rounded-xl bg-white shadow-[0_10px_28px_-18px_rgba(219,39,119,0.55)] hover:shadow-[0_14px_30px_-16px_rgba(219,39,119,0.7)] transition-shadow px-4 py-3"
               >
                 <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                   {c.name}
@@ -251,24 +249,24 @@ export default async function EcolesPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Footer nav */}
-      <section className="relative pb-16">
+      {/* Renvois + discussion — bande blanche */}
+      <section className="band band-white py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 flex gap-3 flex-wrap">
           <Link
             href={`/villes/${slug}`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             ← Profil complet de {city.name}
           </Link>
           <Link
             href="/classements/famille"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             Classement famille 🏡
           </Link>
           <Link
             href="/classements/etudiant"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             Classement étudiant 🎓
           </Link>
@@ -277,16 +275,15 @@ export default async function EcolesPage({ params }: Props) {
               villes les plus chères. */}
           <Link
             href="/classements/famille-proprietaire"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
           >
             Écoles et sécurité à prix tenable 👨‍👩‍👧
           </Link>
         </div>
-      </section>
-
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <MapsQuickSearch topic="ecoles" cityName={city.name} department={city.department} locale="fr" className="mb-8" />
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        <div className="mx-auto mt-8 max-w-3xl px-4 sm:px-6">
+          <MapsQuickSearch topic="ecoles" cityName={city.name} department={city.department} locale="fr" className="mb-8" />
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        </div>
       </section>
 
       <Footer />

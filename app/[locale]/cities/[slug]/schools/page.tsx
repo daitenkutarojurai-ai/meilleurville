@@ -56,7 +56,8 @@ export default async function EnCitySchools({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -69,26 +70,36 @@ export default async function EnCitySchools({ params }: Props) {
         <div className="flex items-center gap-3 mb-3">
           <span className="text-5xl" aria-hidden>🎓</span>
           <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight">
-            Schools in {c.name}
+            Schools in <span className="gradient-text">{c.name}</span>
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
           Schools score: <span className={`font-mono-data font-bold ${scoreColor(score)}`}>{score.toFixed(1)}/10</span>. {schoolsVerdict(score)}
         </p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
+      {/* How French schools work — indigo band */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">How French schools work (quick refresher for newcomers)</h2>
-        <ul className="text-[var(--text-secondary)] leading-relaxed space-y-2 mb-8">
+        <ul className="text-[var(--text-secondary)] leading-relaxed space-y-2">
           <li>· <strong className="text-[var(--text-primary)]">Maternelle</strong> (kindergarten) — ages 3–6, near-universal.</li>
           <li>· <strong className="text-[var(--text-primary)]">École élémentaire</strong> — ages 6–10, five years.</li>
           <li>· <strong className="text-[var(--text-primary)]">Collège</strong> — ages 11–14, ends with the Brevet.</li>
           <li>· <strong className="text-[var(--text-primary)]">Lycée</strong> — ages 15–17, ends with the Baccalauréat. General, technological, or vocational tracks.</li>
           <li>· <strong className="text-[var(--text-primary)]">Higher education</strong> — university, classes préparatoires, grandes écoles.</li>
         </ul>
+        </div>
+        </div>
+      </section>
 
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">What the score reflects</h2>
-        <ul className="text-[var(--text-secondary)] leading-relaxed space-y-2 mb-8">
+      {/* What the score reflects — sky band */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold mb-3"><span className="gradient-text">What the score reflects</span></h2>
+        <ul className="text-[var(--text-secondary)] leading-relaxed space-y-2">
           <li>· Density of public and private schools per capita</li>
           <li>· Outcomes: Brevet and Baccalauréat pass rates vs national average</li>
           <li>· Presence of bilingual / international sections (where relevant)</li>
@@ -97,17 +108,20 @@ export default async function EnCitySchools({ params }: Props) {
         </ul>
 
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {c.name}</Link>
-          <Link href="/rankings/famille" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">Best for families</Link>
-          <Link href="/rankings/etudiant" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">Best for students</Link>
+          <Link href={`/cities/${slug}`} className="grad-head-0 rounded-full px-5 py-2.5 font-semibold hover:opacity-90">Back to {c.name}</Link>
+          <Link href="/rankings/famille" className="rounded-full bg-[var(--band-indigo)] px-5 py-2.5 font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]">Best for families</Link>
+          <Link href="/rankings/etudiant" className="rounded-full bg-[var(--band-indigo)] px-5 py-2.5 font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]">Best for students</Link>
+        </div>
         </div>
       </section>
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-10">
-        <MapsQuickSearch topic="ecoles" cityName={c.name} department={c.department} locale="en" />
-      </div>
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-        <FeedbackWidget />
-      </div>
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <MapsQuickSearch topic="ecoles" cityName={c.name} department={c.department} locale="en" />
+        </div>
+        <div className="mx-auto mt-8 max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
       <Footer />
     </main>
   );
