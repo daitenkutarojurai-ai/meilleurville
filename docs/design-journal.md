@@ -1062,3 +1062,27 @@ EN non capturé. `npm run build` non lancé.
 1. Sous-page `logement` (même schéma `glass` + sections `pb-8`), puis `emploi` / `sante`.
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Cartes internes de la fiche ville (`Card` « card-sheen »).
+
+## 2026-10-28 ~16:00 UTC — sous-page logement `/villes/[slug]/logement` (FR) + EN `/cities/[slug]/housing`
+
+**Surface** : le gabarit logement (540 villes × 2 locales) + le composant partagé `PropertyPriceTable`. Avant : hero
+blanc à filet, un seul conteneur de cartes à filet gris sur fond de page, icône d'alerte ambre (couleur de palier),
+renvois en cartes grises.
+
+**Changé**
+- Hero `.bg-aurora`, icône dans une tuile `grad-head-0` (FR et EN).
+- 4 bandes : marché locatif + prix DVF en `band-indigo` (cartes blanches à ombre indigo, `PropertyPriceTable` aligné) ;
+  louer/acheter + loyers par quartier en `band-sky` (h2 dégradés, liens en pilules ; bande omise si aucun des deux
+  blocs) ; conseils en `band-pink` (carte à ombre rose) ; « Aller plus loin » en tuiles lavande + DiscussionCTA /
+  FeedbackWidget en `band-white`. EN : bouton retour en `grad-head-0`.
+- Alerte « données non individualisées » en rose au lieu de l'ambre. Couleurs de palier de la tension et du score
+  coût conservées (elles encodent une note). Copie, données, JSON-LD, liens inchangés.
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 3 fichiers : 0 erreur
+(1 avertissement préexistant `TENSION_LABEL` inutilisé). Captures `next dev` + playwright `/villes/lyon/logement`
+1440 et 390 px, `scrollWidth` = viewport. EN non capturé. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-pages `emploi` / `sante` (même schéma).
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Sous-page `louer-ou-acheter` (liée depuis logement).

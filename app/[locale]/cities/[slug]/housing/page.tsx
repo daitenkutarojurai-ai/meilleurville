@@ -113,7 +113,7 @@ export default async function EnCityHousing({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <nav className="mb-4 text-sm text-[var(--text-secondary)]">
             <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
@@ -125,7 +125,9 @@ export default async function EnCityHousing({ params }: Props) {
             <span>Housing</span>
           </nav>
           <div className="flex items-center gap-3 mb-2">
-            <Home className="h-6 w-6 text-[var(--accent)] shrink-0" />
+            <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl grad-head-0 text-white shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)]">
+              <Home className="h-5 w-5" />
+            </span>
             <h1 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)]">
               Housing in {city.name}
             </h1>
@@ -136,12 +138,13 @@ export default async function EnCityHousing({ params }: Props) {
         </div>
       </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-10 space-y-10">
-
-        <section>
+      {/* Rental market + measured prices — indigo band */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-10">
+        <div>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">Rental market</h2>
 
-          <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] overflow-hidden">
+          <div className="rounded-2xl bg-white overflow-hidden shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
             <div className="flex items-center justify-between px-5 py-4 border-b border-[var(--border)]">
               <div>
                 <div className="text-sm font-semibold text-[var(--text-primary)]">Market tension</div>
@@ -183,7 +186,7 @@ export default async function EnCityHousing({ params }: Props) {
               </>
             ) : (
               <div className="flex items-start gap-3 px-5 py-4 text-sm text-[var(--text-secondary)]">
-                <AlertCircle className="h-4 w-4 shrink-0 mt-0.5 text-amber-400" />
+                <AlertCircle className="h-4 w-4 shrink-0 mt-0.5 text-[#DB2777]" />
                 <span>
                   No individualised rent data for {city.name}. Check PAP.fr, SeLoger or Leboncoin for current listings.
                 </span>
@@ -191,22 +194,28 @@ export default async function EnCityHousing({ params }: Props) {
             )}
           </div>
 
-          <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          <p className="mt-2 text-xs text-[var(--text-secondary)]">
             Estimates from local rent observatories (Clameur 2024, ANIL).
             Actual rents vary by exact size, condition and neighbourhood.
           </p>
-        </section>
+        </div>
 
         <PropertyPriceTable slug={city.slug} name={city.name} locale="en" />
+        </div>
+      </section>
 
+      {/* Buy vs rent + neighbourhood rents — sky band */}
+      {(buyRatioYears || neighborhoods.length > 0) && (
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-10">
         {buyRatioYears && (
-          <section>
+          <div>
             <div className="flex items-center gap-2 mb-4">
-              <TrendingUp className="h-5 w-5 text-[var(--accent)]" />
-              <h2 className="text-lg font-bold text-[var(--text-primary)]">Buy vs rent</h2>
+              <TrendingUp className="h-5 w-5 text-[#4338CA]" />
+              <h2 className="text-lg font-bold"><span className="gradient-text">Buy vs rent</span></h2>
             </div>
 
-            <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-5 py-5">
+            <div className="rounded-2xl bg-white px-5 py-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-center justify-between mb-3">
                 <span className="text-sm text-[var(--text-secondary)]">Break-even (45 m² 2-bed flat)</span>
                 <span className="text-lg font-bold text-[var(--text-primary)]">{buyRatioYears} years</span>
@@ -220,22 +229,22 @@ export default async function EnCityHousing({ params }: Props) {
               </p>
               <Link
                 href={`/cities/${slug}/own-vs-rent`}
-                className="inline-flex items-center gap-1 mt-3 text-xs text-[var(--accent)] hover:underline"
+                className="inline-flex items-center gap-1 mt-4 rounded-full bg-[var(--band-indigo)] px-3 py-1.5 text-xs font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
               >
                 Detailed buy vs rent analysis <ChevronRight className="h-3 w-3" />
               </Link>
             </div>
-          </section>
+          </div>
         )}
 
         {neighborhoods.length > 0 && (
-          <section>
+          <div>
             <div className="flex items-center gap-2 mb-4">
-              <MapPin className="h-5 w-5 text-[var(--accent)]" />
-              <h2 className="text-lg font-bold text-[var(--text-primary)]">Rents by neighbourhood</h2>
+              <MapPin className="h-5 w-5 text-[#4338CA]" />
+              <h2 className="text-lg font-bold"><span className="gradient-text">Rents by neighbourhood</span></h2>
             </div>
 
-            <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] overflow-hidden">
+            <div className="rounded-2xl bg-white overflow-hidden shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               {neighborhoods
                 .slice()
                 .sort((a, b) => a.avgRentT2 - b.avgRentT2)
@@ -257,14 +266,19 @@ export default async function EnCityHousing({ params }: Props) {
                   </div>
                 ))}
             </div>
-          </section>
+          </div>
         )}
+        </div>
+      </section>
+      )}
 
-        <section>
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
-            Tips for finding a flat in {city.name}
+      {/* Tips — pink band */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <h2 className="text-lg font-bold mb-3">
+            <span className="gradient-text">Tips for finding a flat in {city.name}</span>
           </h2>
-          <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-5 py-5 space-y-3 text-sm text-[var(--text-secondary)] leading-relaxed">
+          <div className="rounded-2xl bg-white px-5 py-5 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.55)] space-y-3 text-sm text-[var(--text-secondary)] leading-relaxed">
             {tension >= 7 ? (
               <>
                 <p>
@@ -305,10 +319,14 @@ export default async function EnCityHousing({ params }: Props) {
               </>
             )}
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section>
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">Go further</h2>
+      {/* Go further + feedback — white band */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-8">
+        <div>
+          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">Go further</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
               { href: `/cities/${slug}/cost-of-living`, label: "Cost of living", sub: "Full budget breakdown" },
@@ -319,35 +337,32 @@ export default async function EnCityHousing({ params }: Props) {
               <Link
                 key={p.href}
                 href={p.href}
-                className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-5 py-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all group"
+                className="flex items-center justify-between rounded-2xl bg-[var(--band-indigo)] px-5 py-4 hover:bg-[#DCD7FF] transition-colors group"
               >
                 <div>
                   <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
                     {p.label}
                   </div>
-                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">{p.sub}</div>
+                  <div className="text-xs text-[var(--text-secondary)] mt-0.5">{p.sub}</div>
                 </div>
-                <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                <ChevronRight className="h-4 w-4 text-[#4338CA] shrink-0" />
               </Link>
             ))}
           </div>
-        </section>
+        </div>
 
-        <div className="flex flex-wrap gap-3 pt-2">
+        <div className="flex flex-wrap gap-3">
           <Link
             href={`/cities/${slug}`}
-            className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90"
+            className="rounded-full grad-head-0 px-5 py-2.5 text-white font-semibold hover:opacity-90"
           >
             Back to {city.name}
           </Link>
         </div>
-      </div>
-
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
 
         <FeedbackWidget />
-
-      </div>
+        </div>
+      </section>
 
       <Footer />
     </main>

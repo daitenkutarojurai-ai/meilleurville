@@ -144,7 +144,7 @@ export function PropertyPriceTable({
     return (
       <section>
         <div className="mb-4">{heading}</div>
-        <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-5 py-4 text-sm text-[var(--text-secondary)]">
+        <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] px-5 py-4 text-sm text-[var(--text-secondary)]">
           {data.coverage === "livre-foncier"
             ? L(
                 `Aucun prix mesuré pour ${name} : le Bas-Rhin, le Haut-Rhin et la Moselle relèvent du livre foncier, un régime de publicité foncière distinct du reste de la France, et leurs ventes ne sont pas publiées dans la base DVF. Ce n'est pas un trou de collecte de notre côté — la donnée n'existe pas dans cette source, et n'y viendra pas.`,
@@ -169,7 +169,7 @@ export function PropertyPriceTable({
     <section>
       <div className="mb-4">{heading}</div>
 
-      <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] overflow-hidden">
+      <div className="rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] overflow-hidden">
         <Row
           stat={data.apartment}
           label={L("Appartement", "Flat")}

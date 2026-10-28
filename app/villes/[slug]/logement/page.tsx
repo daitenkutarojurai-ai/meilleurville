@@ -121,7 +121,7 @@ export default async function LogementPage({ params }: Props) {
         <Navbar />
 
         {/* Hero */}
-        <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+        <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
           <div className="mx-auto max-w-3xl px-4 sm:px-6">
             <Breadcrumbs
               items={[
@@ -132,7 +132,9 @@ export default async function LogementPage({ params }: Props) {
               ]}
             />
             <div className="flex items-center gap-3 mt-4 mb-2">
-              <Home className="h-6 w-6 text-[var(--accent)] shrink-0" />
+              <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl grad-head-0 text-white shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)]">
+                <Home className="h-5 w-5" />
+              </span>
               <h1 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)]">
                 Logement à {city.name}
               </h1>
@@ -147,13 +149,13 @@ export default async function LogementPage({ params }: Props) {
           </div>
         </section>
 
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 py-10 space-y-10">
-
-          {/* Market overview */}
-          <section>
+        {/* Marché locatif + prix mesurés — bande indigo */}
+        <section className="band band-indigo py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-10">
+          <div>
             <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">Marché locatif</h2>
 
-            <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] overflow-hidden">
+            <div className="rounded-2xl bg-white overflow-hidden shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               {/* Tension */}
               <div className="flex items-center justify-between px-5 py-4 border-b border-[var(--border)]">
                 <div>
@@ -198,7 +200,7 @@ export default async function LogementPage({ params }: Props) {
                 </>
               ) : (
                 <div className="flex items-start gap-3 px-5 py-4 text-sm text-[var(--text-secondary)]">
-                  <AlertCircle className="h-4 w-4 shrink-0 mt-0.5 text-amber-400" />
+                  <AlertCircle className="h-4 w-4 shrink-0 mt-0.5 text-[#DB2777]" />
                   <span>
                     Données de loyers non individualisées pour {city.name}. Consultez PAP.fr,
                     Se Loger ou Leboncoin pour les offres actuelles.
@@ -207,24 +209,30 @@ export default async function LogementPage({ params }: Props) {
               )}
             </div>
 
-            <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+            <p className="mt-2 text-xs text-[var(--text-secondary)]">
               Estimation d&apos;après les observatoires locaux des loyers (Clameur 2024, ANIL).
               Les loyers réels varient selon la surface exacte, l&apos;état du bien et le quartier.
             </p>
-          </section>
+          </div>
 
           {/* Prix mesurés, par type de bien */}
           <PropertyPriceTable slug={city.slug} name={city.name} />
+          </div>
+        </section>
 
+        {/* Louer ou acheter + loyers par quartier — bande ciel */}
+        {(buyRatioYears || neighborhoods.length > 0) && (
+        <section className="band band-sky py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-10">
           {/* Buy vs rent */}
           {buyRatioYears && (
-            <section>
+            <div>
               <div className="flex items-center gap-2 mb-4">
-                <TrendingUp className="h-5 w-5 text-[var(--accent)]" />
-                <h2 className="text-lg font-bold text-[var(--text-primary)]">Louer ou acheter ?</h2>
+                <TrendingUp className="h-5 w-5 text-[#4338CA]" />
+                <h2 className="text-lg font-bold"><span className="gradient-text">Louer ou acheter ?</span></h2>
               </div>
 
-              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-5 py-5">
+              <div className="rounded-2xl bg-white px-5 py-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-sm text-[var(--text-secondary)]">Seuil de rentabilité (T2 de 45 m²)</span>
                   <span className="text-lg font-bold text-[var(--text-primary)]">{buyRatioYears} ans</span>
@@ -238,23 +246,23 @@ export default async function LogementPage({ params }: Props) {
                 </p>
                 <Link
                   href={`/villes/${city.slug}/louer-ou-acheter`}
-                  className="inline-flex items-center gap-1 mt-3 text-xs text-[var(--accent)] hover:underline"
+                  className="inline-flex items-center gap-1 mt-4 rounded-full bg-[var(--band-indigo)] px-3 py-1.5 text-xs font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
                 >
                   Analyse détaillée louer / acheter <ChevronRight className="h-3 w-3" />
                 </Link>
               </div>
-            </section>
+            </div>
           )}
 
           {/* Neighborhoods housing */}
           {neighborhoods.length > 0 && (
-            <section>
+            <div>
               <div className="flex items-center gap-2 mb-4">
-                <MapPin className="h-5 w-5 text-[var(--accent)]" />
-                <h2 className="text-lg font-bold text-[var(--text-primary)]">Loyers par quartier</h2>
+                <MapPin className="h-5 w-5 text-[#4338CA]" />
+                <h2 className="text-lg font-bold"><span className="gradient-text">Loyers par quartier</span></h2>
               </div>
 
-              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] overflow-hidden">
+              <div className="rounded-2xl bg-white overflow-hidden shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
                 {neighborhoods
                   .slice()
                   .sort((a, b) => a.avgRentT2 - b.avgRentT2)
@@ -276,19 +284,24 @@ export default async function LogementPage({ params }: Props) {
               </div>
               <Link
                 href={`/villes/${city.slug}/quartiers`}
-                className="inline-flex items-center gap-1 mt-2 text-xs text-[var(--accent)] hover:underline"
+                className="inline-flex items-center gap-1 mt-3 rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]"
               >
                 Voir tous les quartiers de {city.name} <ChevronRight className="h-3 w-3" />
               </Link>
-            </section>
+            </div>
           )}
+          </div>
+        </section>
+        )}
 
-          {/* Tips by tension level */}
-          <section>
-            <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
-              Conseils pour trouver un logement à {city.name}
+        {/* Conseils — bande rose */}
+        <section className="band band-pink py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <h2 className="text-lg font-bold mb-3">
+              <span className="gradient-text">
+              Conseils pour trouver un logement à {city.name}</span>
             </h2>
-            <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-5 py-5 space-y-3 text-sm text-[var(--text-secondary)] leading-relaxed">
+            <div className="rounded-2xl bg-white px-5 py-5 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.55)] space-y-3 text-sm text-[var(--text-secondary)] leading-relaxed">
               {tension >= 7 ? (
                 <>
                   <p>
@@ -330,11 +343,14 @@ export default async function LogementPage({ params }: Props) {
                 </>
               )}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Related sub-pages */}
-          <section>
-            <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
+        {/* Renvois + discussion — bande blanche */}
+        <section className="band band-white py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-10">
+          <div>
+            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
               Aller plus loin
             </h2>
             <div className="grid sm:grid-cols-2 gap-3">
@@ -347,22 +363,23 @@ export default async function LogementPage({ params }: Props) {
                 <Link
                   key={p.href}
                   href={p.href}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-5 py-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all group"
+                  className="flex items-center justify-between rounded-2xl bg-[var(--band-indigo)] px-5 py-4 hover:bg-[#DCD7FF] transition-colors group"
                 >
                   <div>
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
                       {p.emoji} {p.label}
                     </div>
-                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5">{p.sub}</div>
+                    <div className="text-xs text-[var(--text-secondary)] mt-0.5">{p.sub}</div>
                   </div>
-                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                  <ChevronRight className="h-4 w-4 text-[#4338CA] shrink-0" />
                 </Link>
               ))}
             </div>
-          </section>
+          </div>
 
           <DiscussionCTA citySlug={city.slug} cityName={city.name} />
-        </div>
+          </div>
+        </section>
 
         <Footer />
       </main>
