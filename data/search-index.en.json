@@ -8842,6 +8842,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "solo-travel-in-le-havre-2026",
+      "title": "Solo travel in Le Havre (2026): Perret's rebuilt centre, a tram and a two-room flat at 650 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-toulon-2026",
+      "title": "Solo travel in Toulon (2026): a market, the Mourillon beaches and a two-room flat at 780 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-perpignan-2026",
+      "title": "Solo travel in Perpignan (2026): the Castillet, markets and a two-room flat at 650 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-montelimar-2026",
+      "title": "Solo travel in Montélimar (2026): a lively centre, a station and a two-room flat at 580 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-arles-2026",
+      "title": "Solo travel in Arles (2026): culture 9/10, a quiet off-season and a two-room flat at 700 €",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-cergy-2026",
+      "title": "Solo travel in Cergy (2026): a young town, the RER A and a two-room flat at 880 €",
+      "emoji": "🍸"
+    },
+    {
       "slug": "single-parent-in-annemasse-2026",
       "title": "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
       "emoji": "🧑‍🍼"
@@ -9601,7 +9631,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 81
+      "count": 82
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -9611,7 +9641,17 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 77
+      "count": 78
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 74
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
+      "count": 74
     },
     {
       "slug": "grand-est",
@@ -9621,17 +9661,7 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 68
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 68
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
-      "count": 68
+      "count": 69
     },
     {
       "slug": "hauts-de-france",
@@ -9689,13 +9719,13 @@
       "count": 47
     },
     {
-      "slug": "international-students",
-      "label": "international students",
-      "count": 41
-    },
-    {
       "slug": "provence",
       "label": "provence",
+      "count": 43
+    },
+    {
+      "slug": "international-students",
+      "label": "international students",
       "count": 41
     },
     {
@@ -9709,13 +9739,13 @@
       "count": 41
     },
     {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 39
-    },
-    {
       "slug": "normandy",
       "label": "normandy",
+      "count": 40
+    },
+    {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
       "count": 39
     },
     {

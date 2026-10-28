@@ -45784,6 +45784,246 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["solo travel","solo travel agen","travelling alone in france","covered market","tgv station","nouvelle-aquitaine"],
   },
   {
+    slug: "solo-travel-in-le-havre-2026",
+    title: "Solo travel in Le Havre (2026): Perret's rebuilt centre, a tram and a two-room flat at 650 €",
+    metaTitle: "Solo Travel in Le Havre 2026: Centre, Tram, Budget",
+    metaDesc: "Le Havre alone: a rebuilt UNESCO centre, a tram, a two-room flat at 650 €, 1,590 hours of sun. What the town holds off-season.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Le Havre has 166,462 residents (INSEE 2022), a reference two-room flat at 650 € and 1,590 hours of sunshine a year. Our profile gives 6.3/10 for cost, 6.2/10 for culture and 6.2/10 for transport. People aged 15 to 29 make up 20.0% of the population and those aged 60 or over 26.6%. It is a big port city that lives all year without the glow of a resort: it suits anyone after an affordable base and distinctive architecture, not anyone after guaranteed sun.",
+    sections: [
+      {
+        heading: "Why Le Havre: a port city that does not depend on summer",
+        body: "Its tags (port, sea, architecture, UNESCO, affordable) describe a working city before a weekend destination. Our profile gives 5.5/10 overall, 5.1/10 for daily life and 5/10 for nature. One more figure to know before booking: the population is down 2.3% since 2016, or 3,890 fewer residents.",
+      },
+      {
+        heading: "Where to stay: the rebuilt centre",
+        body: "Our district notes cover three areas. The centre, rebuilt by Auguste Perret and listed by UNESCO, scores 7.5/10 for evenings with a two-room flat at 680 €. Sainte-Marie, residential and close to the beaches, drops to 5.5/10 at 660 €. The North quarter, working-class, scores 5/10 at 560 € and has the lowest rents in town. To go out on foot, the centre is the choice; Sainte-Marie makes sense if the beach matters more than the terraces.",
+      },
+      {
+        heading: "Going out: a decent scene, below our profile's threshold",
+        body: "At 7.5/10, evening life in the centre is decent but under the 8.0/10 our profile page uses for a dense scene. The town's landmarks are its reinforced-concrete architecture and its seafront. Our data lists no venues or programme, and no event is quoted here.",
+      },
+      {
+        heading: "Getting around without a car: tram and high-level-of-service buses",
+        body: "Our profile notes a tramway and a high-level-of-service bus network. The transport score of 6.2/10 is enough to reach the centre from Sainte-Marie. Rail links to Paris and Rouen are not in our data: check timetables with the operator.",
+      },
+      {
+        heading: "The single supplement: a big provincial city's cost",
+        body: "At 6.3/10 for cost, a studio at 470 € and a two-room flat at 650 €, Le Havre stays affordable for a city of more than 160,000 residents. The reference purchase price is 2,000 € per square metre. No hotel rate is quoted here.",
+      },
+      {
+        heading: "When to go: spring or autumn, with a windbreaker",
+        body: "Our profile records 1,590 hours of sunshine a year, an average of 19.5 °C in July and 4.8 °C in January. No monthly normals are published. The town is open all year; the oceanic climate makes sun less reliable than on the Mediterranean coast, which argues for a stay built around museums and architecture.",
+      },
+    ],
+    relatedCities: ["le-havre"],
+    tags: ["solo travel","solo travel le havre","travelling alone in france","port city","normandy"],
+  },
+  {
+    slug: "solo-travel-in-toulon-2026",
+    title: "Solo travel in Toulon (2026): a market, the Mourillon beaches and a two-room flat at 780 €",
+    metaTitle: "Solo Travel in Toulon 2026: Market, Beaches, Budget",
+    metaDesc: "Toulon alone: 2,750 hours of sun, the cours Lafayette market, Mourillon beaches, a TGV station, a two-room flat at 780 €.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Toulon has 180,834 residents (INSEE 2022), 2,750 hours of sunshine a year and a reference two-room flat at 780 €. Our profile gives 7/10 for nature, 5.5/10 for cost, 6.2/10 for culture and 5.5/10 for transport. People aged 15 to 29 make up 17.4% of the population and those aged 60 or over 29.4%. The population is up 6.6% since 2016. It is a large naval port with urban beaches that lives all year: a stay here is less seasonal than in the neighbouring resorts.",
+    sections: [
+      {
+        heading: "Why Toulon: the sea in town, no ghost resort",
+        body: "Its tags (sea, sun, navy, Mediterranean, water sports) describe a city turned toward the water. Our profile gives 5/10 overall and 5.1/10 for daily life. To say it plainly: safety is scored 4.1/10 in our profile.",
+      },
+      {
+        heading: "Where to stay: the Haute-Ville or Le Mourillon",
+        body: "Our district notes cover three areas. The Haute-Ville, around the cours Lafayette and its Provençal market, scores 7.5/10 for evenings with a two-room flat at 750 €. Le Mourillon, with its urban beaches and pine grove, drops to 6.5/10 at 900 €. Saint-Jean-du-Var, residential on the hills, scores 5/10 at 820 €. A simple choice: the Haute-Ville for the scene, Le Mourillon for the sea, at 150 € more.",
+      },
+      {
+        heading: "Going out: the market, the harbour and the terraces",
+        body: "Evening life in the Haute-Ville is scored 7.5/10: decent, under the 8.0/10 our profile page uses as its threshold. The town's landmarks are the market and the harbour. Our data lists no venues or programme, and no event is quoted.",
+      },
+      {
+        heading: "Getting around without a car: the TGV station and boosted buses",
+        body: "Our profile notes a TGV station (the French high-speed rail network) and high-level-of-service buses. The transport score of 5.5/10 is middling. Journey times are not in our data and should be checked with the operator.",
+      },
+      {
+        heading: "The single supplement: a big coastal city's cost",
+        body: "At 5.5/10 for cost, a studio at 560 € and a two-room flat at 780 €, Toulon is pricier than Perpignan or Le Havre. The reference purchase price is 3,200 € per square metre. No hotel rate is quoted here.",
+      },
+      {
+        heading: "When to go: May to October for the sea, all year for the city",
+        body: "Our profile records 2,750 hours of sunshine a year, an average of 26.5 °C in July and 8.4 °C in January, a mild winter. No monthly normals are published. Summer remains the beach season; outside those months the market and the harbour are enough to fill a weekend.",
+      },
+    ],
+    relatedCities: ["toulon"],
+    tags: ["solo travel","solo travel toulon","travelling alone in france","naval port","provence"],
+  },
+  {
+    slug: "solo-travel-in-perpignan-2026",
+    title: "Solo travel in Perpignan (2026): the Castillet, markets and a two-room flat at 650 €",
+    metaTitle: "Solo Travel in Perpignan 2026: Castillet, Budget",
+    metaDesc: "Perpignan alone: 2,750 hours of sun, a Catalan centre around the Castillet, a TGV station, a two-room flat at 650 €. The caveats.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Perpignan has 120,996 residents (INSEE 2022), 2,750 hours of sunshine a year and a reference two-room flat at 650 €. Our profile gives 6.2/10 for cost and for culture, 5.5/10 for transport and 3.7/10 for safety. People aged 15 to 29 make up 19.5% of the population and those aged 60 or over 28.1%. The population is stable, down 0.7% since 2016. It is an affordable, sunny Catalan city that lives all year; its low safety score is the figure to look at before booking.",
+    sections: [
+      {
+        heading: "Why Perpignan: the sun and the budget of a big city",
+        body: "Its tags (sun, Mediterranean, affordable, Catalonia, nature) describe a cheap town of the South. Our profile gives 4.7/10 overall and 4.9/10 for daily life: it is not the best-rated city on the site, and this page says so. The interest lies in the ratio between sunshine and cost.",
+      },
+      {
+        heading: "Where to stay: Saint-Jean, the Catalan heart",
+        body: "Our district notes cover three areas. Saint-Jean, around the Castillet and the markets, scores 7.5/10 for evenings with a two-room flat at 650 €. Moulin-à-Vent, residential and quiet, drops to 5.5/10 at 700 €. Bas-Vernet, working-class, scores 5.5/10 at 560 €. To go out on foot, Saint-Jean is the choice; our notes flag safety problems there.",
+      },
+      {
+        heading: "Going out: a Catalan atmosphere, between markets and terraces",
+        body: "Evening life in Saint-Jean is scored 7.5/10: decent, under the 8.0/10 on our profile page. The town's landmarks are the Castillet and its markets. Our data lists no venues or programme, and no event is quoted.",
+      },
+      {
+        heading: "Getting around without a car: the TGV station and boosted buses",
+        body: "Our profile notes a TGV station (the French high-speed rail network) and high-level-of-service buses. The transport score of 5.5/10 is middling. Journey times are not in our data and should be checked with the operator.",
+      },
+      {
+        heading: "The single supplement: the budget of a big Southern city",
+        body: "At 6.2/10 for cost, a studio at 470 € and a two-room flat at 650 €, Perpignan is affordable. The reference purchase price is 2,300 € per square metre. The single-room supplement weighs little here; no hotel rate is quoted.",
+      },
+      {
+        heading: "When to go: all year, with the sea in summer",
+        body: "Our profile records 2,750 hours of sunshine a year, an average of 27.2 °C in July and 7.5 °C in January. No monthly normals are published. The town works off-season; summer is hot, and spring and autumn suit the centre on foot.",
+      },
+    ],
+    relatedCities: ["perpignan"],
+    tags: ["solo travel","solo travel perpignan","travelling alone in france","catalonia","occitanie"],
+  },
+  {
+    slug: "solo-travel-in-montelimar-2026",
+    title: "Solo travel in Montélimar (2026): a lively centre, a station and a two-room flat at 580 €",
+    metaTitle: "Solo Travel in Montélimar 2026: Centre, Budget",
+    metaDesc: "Montélimar alone: 2,600 hours of sun, a historic centre, a two-room flat at 580 €, a smaller town that holds up off-season.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Montélimar has 40,356 residents (INSEE 2022), 2,600 hours of sunshine a year and a reference two-room flat at 580 €. Our profile gives 6.7/10 for cost, 6.8/10 for daily life, 6.6/10 for culture and 6.2/10 for transport. People aged 15 to 29 make up 17.6% of the population and those aged 60 or over 28.1%. The population is up 4.3% since 2016. It is a mid-sized town, not a big city, and it scores well on daily life.",
+    sections: [
+      {
+        heading: "Why Montélimar: a mid-sized town that lives all year",
+        body: "Its tags (nougat, sun, Rhône, gastronomy, heritage) describe a stopover town built on local produce. Our profile gives 6.3/10 overall and 5.7/10 for safety, clearly above Perpignan or Toulon on that point. The scene is that of a town of 40,000, not of a metropolis.",
+      },
+      {
+        heading: "Where to stay: the historic centre",
+        body: "Our district notes cover three areas. The historic centre, with medieval lanes, nougat shops and a market, scores 7.5/10 for evenings with a two-room flat at 590 €. The Provence quarter, residential, drops to 5/10 at 570 €. The TGV station area scores 6/10 at 550 €. The obvious choice is the centre, for 40 € more than the station area.",
+      },
+      {
+        heading: "Going out: terraces, the market and the Adhémar castle",
+        body: "Evening life in the centre is scored 7.5/10, decent but under the 8.0/10 on our profile page. The town's landmarks are the Provençal market and the château des Adhémar. It is a town of counters and terraces; our data lists no venues or programme.",
+      },
+      {
+        heading: "Getting around without a car: a station area that counts",
+        body: "Our district notes place Montélimar on the Paris–Marseille line, with a station area scored 9/10 for transport. The town's own transport score is 6.2/10. Rail destinations and journey times are not in our data and should be checked with the operator.",
+      },
+      {
+        heading: "The single supplement: a low budget",
+        body: "At 6.7/10 for cost, a studio at 420 € and a two-room flat at 580 €, Montélimar is the cheapest of the towns in this series on rent. The reference purchase price is 2,200 € per square metre. No hotel rate is quoted here.",
+      },
+      {
+        heading: "When to go: spring or autumn",
+        body: "Our profile records 2,600 hours of sunshine a year, an average of 26.5 °C in July and 4.5 °C in January. No monthly normals are published. Summer is hot; spring and autumn suit a stay of markets and terraces, and winter is cooler than on the coast.",
+      },
+    ],
+    relatedCities: ["montelimar"],
+    tags: ["solo travel","solo travel montelimar","travelling alone in france","nougat","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "solo-travel-in-arles-2026",
+    title: "Solo travel in Arles (2026): culture 9/10, a quiet off-season and a two-room flat at 700 €",
+    metaTitle: "Solo Travel in Arles 2026: Culture, Budget, Season",
+    metaDesc: "Arles alone: culture 9/10, 2,700 hours of sun, a two-room flat at 700 €, but only 15.3% aged 15 to 29 off-season.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Arles has 51,156 residents (INSEE 2022), 2,700 hours of sunshine a year and a reference two-room flat at 700 €. Its culture score is 9/10, and people aged 15 to 29 make up only 15.3% of the population, against 30.9% aged 60 or over. The population is down 3.2% since 2016. This is where the gap between what there is to see and who lives here in winter is widest: worth knowing before booking an autumn stay.",
+    sections: [
+      {
+        heading: "Why Arles: culture before atmosphere",
+        body: "Its tags (UNESCO, art, Camargue, sun, flamingos) describe a heritage city. Our profile gives 5.2/10 overall, 5.5/10 for daily life and 4.9/10 for transport. Culture at 9/10 is the argument; safety at 4.1/10 and the falling population are the caveats.",
+      },
+      {
+        heading: "Where to stay: the historic centre or Trinquetaille",
+        body: "Our district notes cover three areas. The historic centre, around the arena, the Roman theatre, the Van Gogh museum and the photography festival, scores 7.5/10 for evenings with a two-room flat at 750 €. Trinquetaille, on the right bank of the Rhône and gentrifying, drops to 6.5/10 at 700 €. Barriol, residential, scores 5/10 at 660 €. For a stay on foot, the centre.",
+      },
+      {
+        heading: "Going out: museums and festivals rather than nightlife",
+        body: "Evening life in the centre is scored 7.5/10, decent but under the 8.0/10 on our profile page. What brings people to Arles is Roman heritage and photography; festival dates change every year and are not quoted here.",
+      },
+      {
+        heading: "Getting around without a car: a weak transport score",
+        body: "The transport score is 4.9/10 and our profile documents neither a main network nor a station. Rail links and buses should be checked with the operators before booking.",
+      },
+      {
+        heading: "The single supplement: a two-room flat at 700 €",
+        body: "At 5.7/10 for cost, a studio at 510 € and a two-room flat at 700 €, Arles is cheaper than Toulon and dearer than Perpignan or Montélimar. The reference purchase price is 3,200 € per square metre. No hotel rate is quoted here.",
+      },
+      {
+        heading: "When to go: spring, before the heat",
+        body: "Our profile records 2,700 hours of sunshine a year, an average of 27 °C in July and 5.5 °C in January. No monthly normals are published. With 15.3% aged 15 to 29 and 30.9% aged 60 or over, the year-round population is not geared to going out, and spring is the season most consistent with this profile.",
+      },
+    ],
+    relatedCities: ["arles"],
+    tags: ["solo travel","solo travel arles","travelling alone in france","roman heritage","provence"],
+  },
+  {
+    slug: "solo-travel-in-cergy-2026",
+    title: "Solo travel in Cergy (2026): a young town, the RER A and a two-room flat at 880 €",
+    metaTitle: "Solo Travel in Cergy 2026: RER A, Young Town",
+    metaDesc: "Cergy alone: 26.3% aged 15 to 29, the RER A, a university, the Axe majeur, a two-room flat at 880 €. A base, not a resort.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 5,
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    intro: "Cergy has 69,578 residents (INSEE 2022). People aged 15 to 29 make up 26.3% of the population, against only 12.8% aged 60 or over. Our profile gives 8.4/10 for transport and 7.5/10 for remote work, but 4.9/10 for daily life and 1,650 hours of sunshine a year. The reference two-room flat is 880 €. The population is up 9% since 2016. It is a young new town with good connections, built as a base for reaching Paris, not as a holiday destination.",
+    sections: [
+      {
+        heading: "Why Cergy: a young town, as measured",
+        body: "Its tags (new town, young, student, dynamic) hold up against the census: 26.3% aged 15 to 29, against 20.0% in Le Havre and 15.3% in Arles. Our profile gives 5.7/10 overall and 5/10 for nature. The counterpoint is safety, at 4.4/10.",
+      },
+      {
+        heading: "Where to stay: Préfecture or Saint-Christophe",
+        body: "Our district notes cover three areas. Saint-Christophe, a student quarter around the university and ESSEC, scores 7.5/10 for evenings with a two-room flat at 820 €. Préfecture, the hub around the RER A station, scores 7/10 at 900 €. Les Linandes, working-class, scores 5.5/10 at 720 €. For a young atmosphere, Saint-Christophe; for the station, Préfecture.",
+      },
+      {
+        heading: "Going out: a young crowd, but a scene with no tourist cachet",
+        body: "Evening life in Saint-Christophe is scored 7.5/10, under the 8.0/10 on our profile page. The town's landmarks are Dani Karavan's Axe majeur and its campus spirit. Our data lists no venues or programme, and no event is quoted.",
+      },
+      {
+        heading: "Getting around without a car: the RER A, the central asset",
+        body: "The transport score of 8.4/10 is the highest of the towns in this series, and our profile points to the RER A (Paris's regional express line) as the direct link to Paris. That is Cergy's central argument: you sleep here and go out elsewhere without a car. Journey times and night frequency are not in our data and should be checked with the operator.",
+      },
+      {
+        heading: "The single supplement: the dearest two-room flat of the series",
+        body: "At 5.9/10 for cost, a studio at 600 € and a two-room flat at 880 €, Cergy is the dearest of the towns in this series on rent. The reference purchase price is 3,500 € per square metre. No hotel rate is quoted here.",
+      },
+      {
+        heading: "When to go: all year, with a Paris-region climate",
+        body: "Our profile records 1,650 hours of sunshine a year, an average of 20 °C in July and 4.5 °C in January. No monthly normals are published. The young population and the campus keep the town alive on weekdays; university holidays make it quieter.",
+      },
+    ],
+    relatedCities: ["cergy"],
+    tags: ["solo travel","solo travel cergy","travelling alone in france","new town","ile-de-france"],
+  },
+  {
     slug: "single-parent-in-annemasse-2026",
     title:
       "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
