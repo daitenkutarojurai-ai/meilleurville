@@ -542,3 +542,43 @@ de section marche toujours, sur `docs/claude/` au lieu de `CLAUDE.md`).
 - Ton journal de run va dans le fichier `docs/claude/*.md` de ton sujet (ou `docs/…-log.md`), en
   **5 lignes maximum** : date, ce qui est livré, compteurs mesurés, prochain lot. Pas de récit.
 - Ne lis pas tout `docs/claude/guides.md` (240 Ko) : `grep` la section ou le dernier batch.
+
+## Index des titres déplacés
+
+Chaque titre ci-dessous existe mot pour mot dans le fichier indiqué : un `grep` qui cherchait la section dans `CLAUDE.md` tombe ici, puis va lire ce fichier.
+
+- Déploiement — automatique la nuit, manuel si tu es pressé → `docs/claude/deploiement.md`
+- Vague 7 (2026-07-29) — Score Biodiversité → `docs/claude/donnees-vague7.md`
+- Expat retour (`lib/expat-return.ts`) → `docs/claude/expat-retour.md`
+- Glossaire (`app/glossaire/page.tsx`) → `docs/claude/glossaire.md`
+- Content roadmap — guides (`data/guides.ts`) → `docs/claude/guides.md`
+- Pending guide work → `docs/claude/guides.md`
+- Politique, présidentielle 2027 et fil d'actualité (2026-10-17) → `docs/claude/politique-agenda-sport.md`
+- Agenda daté par ville (`data/city-events.ts`, 2026-10-16) → `docs/claude/politique-agenda-sport.md`
+- Sport : salles, street workout, CrossFit, escalade + agenda sportif (2026-10-22) → `docs/claude/politique-agenda-sport.md`
+- Pour qui (`lib/profile-pages.ts`) → `docs/claude/pour-qui.md`
+- Red Flag Radar (`lib/red-flag-themes.ts`) → `docs/claude/red-flags.md`
+- Technical roadmap — pending → `docs/claude/roadmap.md`
+- Audit-derived roadmap (2026-06-02) → `docs/claude/roadmap.md`
+- Photo pipeline (Wikidata P18 → Wikimedia Commons) → `docs/claude/roadmap.md`
+- Guide landmarks (`scripts/guide-pois.mjs`) → `docs/claude/roadmap.md`
+- Pending work → `docs/claude/roadmap.md`
+- UX polish → `docs/claude/roadmap.md`
+- Product — City Match + vraie vie → `docs/claude/roadmap.md`
+- Plateforme communautaire (R9) → `docs/claude/roadmap.md`
+- Data-visualisation (R10) → `docs/claude/roadmap.md`
+- Features IA (R11) → `docs/claude/roadmap.md`
+- Tourisme & activités (R12) → `docs/claude/roadmap.md`
+- Distribution & backlinks (R13) → `docs/claude/roadmap.md`
+- Vacances `/vacances` — architecture (shipped, monétisation pending) → `docs/claude/roadmap.md`
+- EN routes shipped (as of 2026-05-21) → `docs/claude/roadmap.md`
+- EN translation roadmap — pending → `docs/claude/roadmap.md`
+- Roadmap v11 — Data depth, guide series & per-city enrichissement → `docs/claude/roadmap.md`
+- Doublons filtrés (déjà livré — ne pas re-créer) → `docs/claude/roadmap.md`
+- Nouvelles sous-pages ville — ✅ toutes livrées → `docs/claude/roadmap.md`
+- Enrichissement seed — champs à ajouter (toujours ouvert) → `docs/claude/roadmap.md`
+- Bloc FAQ structuré sur CityProfile — ✅ livré → `docs/claude/roadmap.md`
+- Nouvelles séries de guides per-city (FR) → `docs/claude/roadmap.md`
+- Pages comparatives éditoriales → `docs/claude/roadmap.md`
+- Hors périmètre (nécessitent des assets ou APIs externes) → `docs/claude/roadmap.md`
+- Vague 6 (2026-07-22) — parents solo, parcs, navigation départements → `docs/claude/roadmap.md`
