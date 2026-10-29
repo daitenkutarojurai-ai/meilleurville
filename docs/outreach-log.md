@@ -26,6 +26,28 @@ Le gisement presse par email public est épuisé — les rédactions restantes n
 publient que des adresses de service abonnés ou des formulaires. La suite passe
 par téléphone (action utilisateur).
 
+## Vague 11 (2026-10-29) — nouveaux publics, 59 envois
+
+Changement de cible après 90 envois mairies pour 0 réponse : on écrit à ceux dont
+le métier est d'**amener ou d'accueillir des nouveaux habitants**, plus des médias
+« quitter Paris » / immobilier / expat. Envoi Brevo transactionnel (tags
+`outreach-2026-10` + groupe), FR depuis `bonjour@mavilleideale.fr`, EN depuis
+`hello@bestcitiesinfrance.com`, reply-to Gmail. Chaque adresse vient du site de
+l'organisme lui-même (aucun annuaire tiers), chaque lien vérifié en 200 avant envoi,
+chaque chiffre lu dans `CITIES_SEED` rendu ou dans un guide publié.
+
+| Groupe | Envois | Accroche |
+|---|---|---|
+| AVF (accueil des villes françaises), 37 antennes | 37 | page `/villes/[slug]/s-installer` + fiche ville, à relayer aux adhérents |
+| Agences d'attractivité (Manche, Calvados, Eure, Aube, Ariège, Aveyron, Creuse, Lozère, Normandie, Nantes-Saint-Nazaire, Hello Lille, Aldev) | 12 | page département/région + **offre de lien vers leur service d'accueil sur nos fiches villes** |
+| Médias / relocation FR (Paris je te quitte, Le Bonbon, monimmeuble, Pretto, Habity, Mobilitee) | 6 | taux d'effort T3 (Paris 62,8 %), règle des 3 × le loyer, années de loyer pour acheter, 108 villes < 100 000 € |
+| Médias expat EN (Connexion, The Local, The Good Life France, Anglophone Direct) | 4 | « 108 French towns where a flat still sells for under €100,000 » |
+
+⚠️ **Engagement pris** : si une agence d'attractivité accepte, ajouter un lien vers
+son service d'accueil sur les fiches des villes de son territoire.
+Message unique annoncé dans chaque mail : **pas de relance sans réponse**.
+À mesurer à J+7 (2026-11-05) via `GET /v3/smtp/statistics/events?tags=outreach-2026-10`.
+
 ## Vagues
 
 - **v1-v4 (2026-07-05 → 07-08)** — presse nationale et PQR, 29 envois, angle
