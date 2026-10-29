@@ -5841,6 +5841,12 @@ n'est faux, mais un champ dérivé que personne ne lit est un champ qu'on finit 
 - **Contrôle sans rien à corriger** : `git pull` ne ramène aucune donnée neuve depuis le 15/10 (biodiversité, signaux et zones protégées toujours à **593/593**, passe locale `555fa79`). `tsc` et `npm run integrity` verts (gardes `protégées`, `périmètres`, `moteurs` comprises). `biodiversityProfile()` interrogé sur les 593 slugs : 593 profils, 593 `hasBiodiversityData`, 593 `hasProtectedData`, `richnessPending: "incomparable"` partout (attendu, rang de richesse retiré le 10/08), `overall` `null` partout.
 - **Non couvert, inchangé** : `overall` `null`, `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`. Les casiers « Animalia spec » de Cayenne et Saint-Laurent-du-Maroni restent comptés dans la raréfaction (le vecteur est consommé à la collecte, il faut un recrawl). Plusieurs commentaires de `lib/biodiversity.ts` citent encore « 540 villes » : historiques, aucun affichage ne les lit.
 
+### F62 — point d'étape 2026-10-29 (routine biodiversité)
+
+- **Contrôle sans rien à corriger** : aucun commit touchant `city-biodiversity.json`, `city-protected-areas.json`, `city-parks.json` ni `lib/biodiversity.ts` depuis le 22/10 ; couverture toujours **593/593** (593 mesurables, 0 sous le seuil). `tsc` et `npm run integrity` verts.
+- **Vérifié** : `biodiversityProfile()` sur les 593 slugs : 593 profils, aucun `NaN`/`undefined`/`Infinity` sérialisé, `richnessPending: "incomparable"` partout, `overall` `null` partout.
+- **Non couvert, inchangé** : `overall` `null`, `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`, casiers « Animalia spec » (Cayenne, Saint-Laurent-du-Maroni) à corriger par recrawl.
+
 ---
 
 ## Flotte de routines — état 2026-08-03
