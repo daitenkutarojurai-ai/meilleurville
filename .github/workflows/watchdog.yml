@@ -1,0 +1,86 @@
+# Chien de garde quotidien, sans aucun quota Claude.
+#
+# Les routines cloud s'arrêtent toutes ensemble quand le quota hebdomadaire du
+# compte est atteint (constaté le 2026-10-23 : 36 h sans un commit), et la veille
+# quotidienne, elle-même une routine, se tait au même moment. Ce workflow tourne
+# sur GitHub Actions : quand quelque chose cloche il ÉCHOUE, et GitHub envoie
+# alors son courriel « Run failed » au propriétaire (expéditeur GitHub, donc
+# une vraie notification, contrairement à un mail qu'on s'envoie à soi-même).
+#
+# Il échoue si :
+#   - aucun commit de routine ([scheduled-agent]) sur main depuis 24 h ;
+#   - main porte des commits que la prod n'a pas, et aucune publication réussie depuis 30 h ;
+#   - la collecte (data-runner) n'a pas réussi depuis 3 jours ;
+#   - www.mavilleideale.fr ou bestcitiesinfrance.com ne répondent pas 200.
+# Le site meilleurville.lu a son propre chien de garde dans son dépôt.
+name: watchdog
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+    steps:
+      - name: Check routines, deploy, data and production
+        run: |
+          set -u
+          problems=()
+          now=$(date -u +%s)
+          age_h() { echo $(( (now - $(date -u -d "$1" +%s)) / 3600 )); }
+
+          # 1. Routines : au moins un commit [scheduled-agent] sur 24 h.
+          since=$(date -u -d '24 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          n=$(gh api "repos/$REPO/commits?sha=main&since=$since&per_page=100" \
+                --jq '[.[] | select(.commit.message | test("scheduled-agent"))] | length')
+          echo "Commits de routines sur 24 h : $n"
+          [ "$n" -gt 0 ] || problems+=("Aucun commit de routine depuis 24 h (quota hebdo atteint ? routines en pause ?) : https://claude.ai/code/routines")
+
+          # 2. Publication : la prod suit-elle main ?
+          head=$(gh api "repos/$REPO/commits/main" --jq .sha)
+          read -r dsha dts < <(gh run list -R "$REPO" --workflow deploy.yml --status success -L 1 \
+                                 --json headSha,updatedAt --jq '.[0] | "\(.headSha) \(.updatedAt)"')
+          dage=$(age_h "$dts")
+          echo "Dernière publication réussie : il y a ${dage} h (${dsha:0:7}), main = ${head:0:7}"
+          if [ "$dsha" != "$head" ] && [ "$dage" -gt 30 ]; then
+            problems+=("Prod en retard : dernière publication réussie il y a ${dage} h alors que main a bougé. https://github.com/$REPO/actions/workflows/deploy.yml")
+          fi
+          last=$(gh run list -R "$REPO" --workflow deploy.yml -L 1 --json conclusion,url --jq '.[0] | "\(.conclusion) \(.url)"')
+          case "$last" in failure*) problems+=("Dernière publication en échec : ${last#* }");; esac
+
+          # 3. Collecte de données.
+          rts=$(gh run list -R "$REPO" --workflow data-runner.yml --status success -L 1 --json updatedAt --jq '.[0].updatedAt // ""')
+          if [ -n "$rts" ]; then
+            rage=$(age_h "$rts"); echo "Dernière collecte réussie : il y a ${rage} h"
+            [ "$rage" -le 72 ] || problems+=("Collecte de données sans succès depuis ${rage} h : https://github.com/$REPO/actions/workflows/data-runner.yml")
+          fi
+
+          # 4. Production en ligne.
+          for url in https://www.mavilleideale.fr/ https://bestcitiesinfrance.com/ https://www.mavilleideale.fr/guides https://bestcitiesinfrance.com/guides; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' -L --max-time 30 "$url" || echo 000)
+            echo "$url -> $code"
+            [ "$code" = 200 ] || problems+=("$url répond $code")
+          done
+
+          {
+            echo "## Chien de garde mavilleideale.fr + bestcitiesinfrance.com"
+            echo "- Commits de routines sur 24 h : $n"
+            echo "- Dernière publication réussie : il y a ${dage} h"
+            if [ ${#problems[@]} -eq 0 ]; then echo "- ✅ Tout va bien"; else printf -- '- ❌ %s\n' "${problems[@]}"; fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ ${#problems[@]} -gt 0 ]; then
+            printf '::error::%s\n' "${problems[@]}"
+            exit 1
+          fi
+          echo "OK"
