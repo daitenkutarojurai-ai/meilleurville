@@ -1530,6 +1530,23 @@ if (!failed) {
   }
 }
 
+// --- Taille de CLAUDE.md -------------------------------------------------------
+//
+// Chaque routine relit CLAUDE.md ; les journaux de batches y avaient été ajoutés
+// run après run jusqu'à 535 Ko (2026-10-29). Il est redevenu un index de règles,
+// et les journaux vont dans docs/claude/. Ce plafond empêche la rechute.
+{
+  const CLAUDE_MD_MAX = 60_000;
+  const size = statSync(path.join(ROOT, "CLAUDE.md")).size;
+  if (size <= CLAUDE_MD_MAX) {
+    console.log(`  ok  claude-md   ${Math.round(size / 1000)} Ko (plafond ${CLAUDE_MD_MAX / 1000} Ko)`);
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  claude-md : CLAUDE.md fait ${Math.round(size / 1000)} Ko (plafond ${CLAUDE_MD_MAX / 1000} Ko)`);
+    console.error("    Les journaux de run vont dans docs/claude/<sujet>.md, pas dans CLAUDE.md.\n");
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");
