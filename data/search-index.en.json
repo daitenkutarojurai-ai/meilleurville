@@ -7172,6 +7172,36 @@
       "emoji": "🐟"
     },
     {
+      "slug": "retiring-in-antibes-2026",
+      "title": "Retiring in Antibes (2026): ramparts, Picasso and Riviera prices",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "retiring-in-cannes-2026",
+      "title": "Retiring in Cannes (2026): the Croisette, healthcare and a budget to hold",
+      "emoji": "🎬"
+    },
+    {
+      "slug": "retiring-in-frejus-2026",
+      "title": "Retiring in Fréjus (2026): Roman, sunny and 10% bigger",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "retiring-in-aix-en-provence-2026",
+      "title": "Retiring in Aix-en-Provence (2026): culture, prices and a young town",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "retiring-in-avignon-2026",
+      "title": "Retiring in Avignon (2026): popes, a festival and a tight budget",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "retiring-in-beziers-2026",
+      "title": "Retiring in Béziers (2026): the cheapest of the batch, with reservations",
+      "emoji": "🚢"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -9779,6 +9809,11 @@
       "count": 53
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 51
+    },
+    {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
       "count": 50
@@ -9792,11 +9827,6 @@
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 47
-    },
-    {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 45
     },
     {
       "slug": "provence",
@@ -10174,6 +10204,11 @@
       "count": 4
     },
     {
+      "slug": "french-riviera-expat-retirement",
+      "label": "French Riviera expat retirement",
+      "count": 4
+    },
+    {
       "slug": "guadeloupe",
       "label": "guadeloupe",
       "count": 4
@@ -10316,6 +10351,11 @@
     {
       "slug": "provence-alpes-cote-dazur",
       "label": "provence-alpes-cote-dazur",
+      "count": 3
+    },
+    {
+      "slug": "retire-on-the-cote-d-azur",
+      "label": "retire on the Côte d'Azur",
       "count": 3
     },
     {

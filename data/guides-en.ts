@@ -29597,6 +29597,300 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "retiring-in-antibes-2026",
+    title: "Retiring in Antibes (2026): ramparts, Picasso and Riviera prices",
+    metaTitle: "Retiring in Antibes 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Antibes: two-bed at €1,050, €5,200/m², 33.8% aged 60+, healthcare access 7.1/10, Nice university hospital 18 km away. Budget and limits.",
+    category: "moving",
+    emoji: "⛵",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro:
+      "Antibes is a Riviera retirement with good healthcare access (7.1/10 on our estimate, median 5.5) but heavy housing costs: €1,050 a two-bedroom and €5,200/m² to buy (our rent estimate). It has 76,612 residents, 33.8% of them aged 60 or over, against a median of 26.2% (INSEE census, 2022). Our retirement score is 5.6/10, in a seventeen-way tie, behind 374 other towns: climate and health pull it up, cost of living (3.3/10) pulls it down.",
+    sections: [
+      {
+        heading: "Why Antibes appeals to retirees, and why the score stays middling",
+        body: "Antibes has 2,700 hours of sun a year, an average of 9.5 °C in January and 26 °C in July, with nature at 7.0/10 and culture at 6.6/10 on our city sheet. But safety tops out at 5.1/10 and cost of living at 3.3/10, which brings the retirement score down to 5.6/10, below Menton or Saint-Raphaël. The population grew by 3.8% between 2016 and 2022: the town still attracts people, including beyond retirement age.",
+      },
+      {
+        heading: "What is healthcare access like in Antibes?",
+        body: "Our healthcare-access engine rates Antibes 7.1/10, where 10 means excellent access, an \"easy\" level (our health sheet). It is an estimate built from doctor density and the size of the commune, not a count of surgeries. The nearest CHU (university hospital) is in Nice, about 18 kilometres away as the crow flies, a shorter distance than for the other towns in this batch. People aged 75 and over make up 15.1% of residents (median 10.2%), which says local provision is sized for them.",
+      },
+      {
+        heading: "How much does housing cost in Antibes?",
+        body: "One-bedroom €750, two-bedroom €1,050, three-bedroom €1,450 and €5,200/m² to buy (our rent estimate). A 60 m² flat is about €312,000 before fees. Antibes is level with Nice (two-bed €1,100, €5,200/m²), but dearer than Cagnes-sur-Mer (€920 and €3,800/m²) and cheaper than Cannes (€1,250 and €6,500/m²). For a retiree selling a home elsewhere, the comparison with Var or Gard is stark: Nîmes is at €2,800/m².",
+      },
+      {
+        heading: "A retiree's monthly budget in Antibes",
+        body: "A single person renting a two-bedroom: rent €1,050 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,740 a month. A couple renting a three-bedroom: rent €1,450, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,480 a month. The average direct-right pension of about €1,500 net (DREES, the official statistics service) covers neither budget for a tenant. The commune's median standard of living is €24,410 a year, with a 15% poverty rate (INSEE, Filosofi 2021): the town is better off than our sample as a whole, and its prices show it.",
+      },
+      {
+        heading: "Daily life: old town, market and sea",
+        body: "The old town behind the ramparts can be covered on foot. The Picasso Museum sits in the Château Grimaldi, where the painter worked in 1946, and the old town's Provençal market fills a covered hall. Juan-les-Pins, to the west, is livelier in summer. Fort Carré is visited as a group and by reservation: a site to plan ahead, not a casual stroll. The Cap d'Antibes coastal walks are reachable from town.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. Price first: at €1,740 a month for a single tenant, Antibes assumes capital or a pension well above average. The season second: summer saturates roads and beaches, and parking becomes an issue for anyone still driving. Safety third, at 5.1/10 on our sheet, acceptable but no selling point. Antibes suits the comfortably-off retiree who wants the Nice hospital within reach and a proper town all year round; it suits less someone relying on a state pension alone.",
+      },
+    ],
+    relatedCities: ["antibes", "nice", "cannes", "cagnes-sur-mer"],
+    tags: [
+      "retiring in Antibes 2026",
+      "French Riviera expat retirement",
+      "retire on the Côte d'Azur",
+      "Antibes retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-cannes-2026",
+    title: "Retiring in Cannes (2026): the Croisette, healthcare and a budget to hold",
+    metaTitle: "Retiring in Cannes 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Cannes: two-bed at €1,250, €6,500/m², 36.6% aged 60+, 21% poverty, healthcare access 7.1/10, hospital in town. Budget and limits.",
+    category: "moving",
+    emoji: "🎬",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro:
+      "Cannes is the dearest town in this batch of six: €1,250 a two-bedroom and €6,500/m² to buy (our rent estimate). It is also one of the oldest, with 36.6% of residents aged 60 or over and 17.3% aged 75 or over out of 74,040 (INSEE census, 2022; medians 26.2% and 10.2%). Our retirement score is 5.4/10, in a thirty-five-way tie, behind 411 other towns: sunshine and healthcare access (7.1/10) do not offset a cost of living of 3.1/10.",
+    sections: [
+      {
+        heading: "Is Cannes a good place to retire?",
+        body: "For one particular profile, yes. Cannes has 2,727 hours of sun, 9.5 °C in January, nature at 7.0/10 and the highest culture score of the Riviera towns here (7.3/10). In return, safety is 4.5/10 on our city sheet and quality of life 5.9/10: the town lives off its conferences and tourism, and you can feel it out of season in some districts. The population is steady, down 0.2% between 2016 and 2022.",
+      },
+      {
+        heading: "What is healthcare access like in Cannes?",
+        body: "Our healthcare-access engine rates Cannes 7.1/10, where 10 means excellent access, an \"easy\" level (our health sheet). It is an estimate, not a count of surgeries. The Simone Veil hospital centre is in Cannes itself, and the nearest CHU (university hospital) is in Nice, about 26 kilometres away as the crow flies. With 17.3% aged 75 and over, this is a town where geriatric and home-care provision is worth asking about before you sign.",
+      },
+      {
+        heading: "How much does housing cost in Cannes?",
+        body: "One-bedroom €850, two-bedroom €1,250, three-bedroom €1,700 and €6,500/m² to buy (our rent estimate). A 60 m² flat is about €390,000 before fees. Neighbouring Antibes is at €1,050 and €5,200/m², Grasse at €800 and €3,200/m²: Grasse, inland, cuts the rent by more than a third for a retiree who can live without a sea view.",
+      },
+      {
+        heading: "A retiree's monthly budget in Cannes",
+        body: "A single person renting a two-bedroom: rent €1,250 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,940 a month. A couple renting a three-bedroom: rent €1,700, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,730 a month. The average pension of about €1,500 net (DREES, the official statistics service) is far below both. The commune's median standard of living is €21,210 a year, with a 21% poverty rate (INSEE, Filosofi 2021): the town is more unequal than its prices suggest, and a modest retiree gets into difficulty quickly.",
+      },
+      {
+        heading: "Daily life: Le Suquet, the Croisette, the islands",
+        body: "Le Suquet, the old quarter on the hill above the port, overlooks the town but is climbed on foot by sloping streets. The Croisette suits a flat promenade, which matters with age. The Lérins islands are reached by boat from the Old Port, in roughly twenty minutes: boarding has to be planned, not improvised. In May and during conference season, prices and crowds rise.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. Cost first, €1,940 a month for a single tenant, above the other five towns in this batch. Inequality second, with 21% poverty in the commune. Seasonality third: festivals and conferences upend the centre. Cannes suits the comfortably-off retiree who wants Riviera healthcare and a dense cultural life; on an average pension, Grasse or Var cost clearly less.",
+      },
+    ],
+    relatedCities: ["cannes", "antibes", "grasse", "nice"],
+    tags: [
+      "retiring in Cannes 2026",
+      "French Riviera expat retirement",
+      "retire on the Côte d'Azur",
+      "Cannes retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-frejus-2026",
+    title: "Retiring in Fréjus (2026): Roman, sunny and 10% bigger",
+    metaTitle: "Retiring in Fréjus 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Fréjus: two-bed at €850, €3,800/m², 36% aged 60+, 2,900 hours of sun, healthcare access 6.6/10, Nice CHU 52 km away. Budget and limits.",
+    category: "moving",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro:
+      "Fréjus is the Var retirement in this batch that has grown most: 58,499 residents in 2022, 10% more than in 2016 (INSEE census). A two-bedroom is €850 and a square metre €3,800, more than 40% less than in Cannes (our rent estimate). Our retirement score is 5.5/10, in a twenty-way tie, behind 391 other towns, with 36% aged 60 or over and healthcare access estimated at 6.6/10.",
+    sections: [
+      {
+        heading: "Why Fréjus rather than the Riviera?",
+        body: "Fréjus has among the longest sunshine totals in this batch, 2,900 hours a year, summers at 28.5 °C in July and winters averaging 8 °C, with cost of living at 4.5/10 on our city sheet, better than Antibes (3.3) or Cannes (3.1). Safety is 4.7/10 and nature 6.4/10. Fréjus-Plage gives you the sea, the historic town the interior: it is a stretched-out commune, which matters if you plan to give up the car.",
+      },
+      {
+        heading: "What is healthcare access like in Fréjus?",
+        body: "Our healthcare-access engine rates Fréjus 6.6/10, where 10 means excellent access, an \"easy\" level, above the median of 5.5 (our health sheet). It is an estimate built from doctor density and the size of the commune. The nearest CHU (university hospital) is in Nice, about 52 kilometres away as the crow flies: for highly specialised care, the journey is long. People aged 75 and over are 15.1% of residents, the same share as in Antibes.",
+      },
+      {
+        heading: "How much does housing cost in Fréjus?",
+        body: "One-bedroom €620, two-bedroom €850, three-bedroom €1,150 and €3,800/m² to buy (our rent estimate). A 60 m² flat is about €228,000 before fees. Saint-Raphaël, next door, is dearer (€970 and €4,500/m²) and older still, at 48.5% aged 60 and over; Draguignan, inland, drops to €720 and €2,800/m².",
+      },
+      {
+        heading: "A retiree's monthly budget in Fréjus",
+        body: "A single person renting a two-bedroom: rent €850 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,540 a month. A couple renting a three-bedroom: rent €1,150, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,180 a month. The average pension of about €1,500 net (DREES, the official statistics service) barely covers a single tenant's budget. The commune's median standard of living is €21,960 a year, with an 18% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Daily life: a Roman town and a beach",
+        body: "The cathedral of Saint-Léonce and its cloister, on the site of the ancient town, are visited with an entry ticket; the nave is free to enter. The Roman arena hosts concerts and events. Fréjus-Plage has the seafront promenade. Saint-Raphaël is reachable on foot or by bus to round out shops and leisure.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. The distance to the CHU, 52 km. Safety, at 4.7/10, acceptable and no more. The summer season, which saturates the coast. Fréjus suits the middle-budget retiree who wants the Var without Riviera prices and accepts a distant hospital for serious cases; it suits less someone with regular specialist follow-up.",
+      },
+    ],
+    relatedCities: ["frejus", "saint-raphael", "draguignan", "cannes"],
+    tags: [
+      "retiring in Fréjus 2026",
+      "Var expat retirement",
+      "retire in the south of France",
+      "Fréjus retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-aix-en-provence-2026",
+    title: "Retiring in Aix-en-Provence (2026): culture, prices and a young town",
+    metaTitle: "Retiring in Aix-en-Provence 2026: Budget, Limits",
+    metaDesc:
+      "Retiring in Aix-en-Provence: two-bed at €1,050, €5,000/m², 24.9% aged 60+, culture 8.4/10, healthcare access 7.1/10. Budget and limits.",
+    category: "moving",
+    emoji: "🌳",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro:
+      "Aix-en-Provence is a very cultural retirement (8.4/10), though not the cheapest: €1,050 a two-bedroom and €5,000/m² to buy (our rent estimate). It is also the youngest in this batch: 24.9% aged 60 or over out of 147,933 residents, below the median of 26.2% (INSEE census, 2022), because of its students. Our retirement score is 6.1/10, in a twenty-two-way tie, behind 286 other towns, with healthcare access estimated at 7.1/10.",
+    sections: [
+      {
+        heading: "Is Aix a retirement town or a student town?",
+        body: "Both. The 15-29 age group is very large: 39,151 people out of 147,933 residents, more than a quarter (INSEE census, 2022). People aged 75 and over are only 10.2%, exactly the median. For a retiree that means a lively town in term time and a quieter one in summer, with culture at 8.4/10 and quality of life at 7.8/10 on our city sheet, well above the median.",
+      },
+      {
+        heading: "What is healthcare access like in Aix-en-Provence?",
+        body: "Our healthcare-access engine rates Aix 7.1/10, where 10 means excellent access, an \"easy\" level (our health sheet). It is an estimate built from doctor density and the size of the commune. The Pays d'Aix hospital centre is in town, and the nearest CHU (university hospital) is in Marseille, about 27 kilometres away as the crow flies, with the motorway to get there.",
+      },
+      {
+        heading: "How much does housing cost in Aix-en-Provence?",
+        body: "One-bedroom €760, two-bedroom €1,050, three-bedroom €1,400 and €5,000/m² to buy (our rent estimate). A 60 m² flat is about €300,000 before fees. Neighbouring Marseille is clearly cheaper (€820 and €3,500/m²), as is Salon-de-Provence (€780 and €2,900/m²). Aix's population grew by 3.4% between 2016 and 2022.",
+      },
+      {
+        heading: "A retiree's monthly budget in Aix-en-Provence",
+        body: "A single person renting a two-bedroom: rent €1,050 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,740 a month. A couple renting a three-bedroom: rent €1,400, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,430 a month. The average pension of about €1,500 net (DREES, the official statistics service) does not cover these budgets. The commune's median standard of living is €25,810 a year, with a 15% poverty rate (INSEE, Filosofi 2021), the highest in this batch: the market is pitched at well-off households.",
+      },
+      {
+        heading: "Daily life: Cours Mirabeau and Sainte-Victoire",
+        body: "The Cours Mirabeau anchors the centre, flat and pedestrian for much of its length. Cézanne's studio, north of the centre, is about twenty minutes' walk uphill. The Sextius baths stand on the site of the old Roman springs. Mont Sainte-Victoire is reachable from town for walks. The summer opera festival makes the centre dense in July.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. Price first: of the six towns in this batch, Aix is the third most expensive to buy in, after Cannes and Antibes. Safety, at 5.9/10, acceptable. Cost of living last, at 3.6/10. Aix suits the well-off, cultured retiree who wants Marseille and its CHU 27 km away without living there; for the same Provence on a gentler budget, Avignon or Salon-de-Provence cost less.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "salon-de-provence", "avignon"],
+    tags: [
+      "retiring in Aix-en-Provence 2026",
+      "Provence expat retirement",
+      "retire in southern France",
+      "Aix-en-Provence retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-avignon-2026",
+    title: "Retiring in Avignon (2026): popes, a festival and a tight budget",
+    metaTitle: "Retiring in Avignon 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Avignon: two-bed at €750, €3,000/m², culture 9.0/10, 33% poverty, healthcare access 5.7/10, Nîmes CHU 38 km away. Budget and limits.",
+    category: "moving",
+    emoji: "🌉",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro:
+      "Avignon has the highest culture score in this batch (9.0/10 on our city sheet) and is among the cheaper Provence options: €750 a two-bedroom and €3,000/m² to buy (our rent estimate). It has 91,760 residents, 24.6% of them aged 60 or over, below the median of 26.2% (INSEE census, 2022). Our retirement score is 5.3/10, in an eleven-way tie, behind 446 other towns: estimated healthcare access is only \"fair\", at 5.7/10.",
+    sections: [
+      {
+        heading: "Avignon, a retirement for whom?",
+        body: "For a retiree who wants culture before calm. The walled centre, with the Palais des Papes listed as a historic monument as early as 1840, can be covered on foot. Cost of living is the second best in this batch (5.7/10), but safety falls to 4.3/10 and 33% of residents live below the poverty line (INSEE, Filosofi 2021), the median standard of living being €17,690. The population is steady, down 0.7% between 2016 and 2022.",
+      },
+      {
+        heading: "What is healthcare access like in Avignon?",
+        body: "Our healthcare-access engine rates Avignon 5.7/10, where 10 means excellent access, a \"fair\" level, barely above the median of 5.5 (our health sheet). The Henri-Duffaut hospital centre is in the town, with adult and paediatric emergency departments. The nearest CHU (university hospital) is in Nîmes, about 38 kilometres away as the crow flies. People aged 75 and over are 9.5% of residents, below the median: the town is younger than the others in this batch.",
+      },
+      {
+        heading: "How much does housing cost in Avignon?",
+        body: "One-bedroom €540, two-bedroom €750, three-bedroom €1,000 and €3,000/m² to buy (our rent estimate). A 60 m² flat is about €180,000 before fees, nearly half the price in Aix-en-Provence (€300,000). Nîmes (€720 and €2,800/m²) and Orange (€690 and €2,400/m²) are nearby and slightly cheaper; Carpentras is at €680 and €2,200/m².",
+      },
+      {
+        heading: "A retiree's monthly budget in Avignon",
+        body: "A single person renting a two-bedroom: rent €750 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,440 a month. A couple renting a three-bedroom: rent €1,000, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,030 a month. The average pension of about €1,500 net (DREES, the official statistics service) covers a single tenant's budget, with little margin.",
+      },
+      {
+        heading: "Daily life: ramparts, covered market and festival",
+        body: "The ramparts ring the centre for about 4 kilometres, and Les Halles houses the food market. The Rhône runs alongside the town; the Pont Saint-Bénézet is its best-known monument. In July the festival transforms the centre: for a retiree who lives there, it is a month to plan around, somewhere between entertainment and noise. The mistral wind, frequent here, is easier to live with in a well-oriented flat.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. Healthcare access, merely fair, with a CHU 38 km away. Safety, at 4.3/10, the second lowest in this batch after Béziers. The social context last, with a third of residents below the poverty line. Avignon suits the middle-budget retiree who puts culture and affordable housing in Provence first; it suits less someone wanting a very quiet district or heavy medical follow-up.",
+      },
+    ],
+    relatedCities: ["avignon", "nimes", "orange", "carpentras"],
+    tags: [
+      "retiring in Avignon 2026",
+      "Provence expat retirement",
+      "retire in southern France",
+      "Avignon retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-beziers-2026",
+    title: "Retiring in Béziers (2026): the cheapest of the batch, with reservations",
+    metaTitle: "Retiring in Béziers 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Béziers: two-bed at €530, €1,500/m², 29.6% aged 60+, healthcare access 6.6/10, Montpellier CHU 61 km away. Budget and limits.",
+    category: "moving",
+    emoji: "🚢",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro:
+      "Béziers is the cheapest retirement in this batch, and among the cheapest in the series: €530 a two-bedroom and €1,500/m² to buy (our rent estimate), so about €90,000 for 60 m². It has 80,815 residents, 29.6% of them aged 60 or over, above the median of 26.2% (INSEE census, 2022), and gained 5.7% in population between 2016 and 2022. Our retirement score is 5.4/10, in a thirty-five-way tie, behind 411 other towns: healthcare access is good (6.6/10), safety weak (3.5/10).",
+    sections: [
+      {
+        heading: "Why Béziers costs so little",
+        body: "Cost of living is 6.4/10 on our city sheet, the best in this batch, for 2,850 hours of sun, 7.5 °C in January and 25.8 °C in July. The flip side is readable in the numbers: a median standard of living of €16,830 a year and a 36% poverty rate (INSEE, Filosofi 2021), safety at 3.5/10, quality of life at 4.7/10. The low price describes a working-class market, not a bargain without reservations.",
+      },
+      {
+        heading: "What is healthcare access like in Béziers?",
+        body: "Our healthcare-access engine rates Béziers 6.6/10, where 10 means excellent access, an \"easy\" level, above the median of 5.5 (our health sheet). It is an estimate built from doctor density and the size of the commune, not a count of surgeries. The nearest CHU (university hospital) is in Montpellier, about 61 kilometres away as the crow flies, the greatest distance in this batch: for highly specialised care, allow for the journey.",
+      },
+      {
+        heading: "How much does housing cost in Béziers?",
+        body: "One-bedroom €380, two-bedroom €530, three-bedroom €720 and €1,500/m² to buy (our rent estimate). A 60 m² flat is about €90,000 before fees. Narbonne is dearer (€680 and €2,400/m²), as is Sète (€680 and €2,600/m²), and Montpellier is at €850 and €3,900/m². Agde, on the coast, is at €690 and €2,500/m².",
+      },
+      {
+        heading: "A retiree's monthly budget in Béziers",
+        body: "A single person renting a two-bedroom: rent €530 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,220 a month. A couple renting a three-bedroom: rent €720, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,750 a month. The average pension of about €1,500 net (DREES, the official statistics service) covers a single tenant's budget with around €280 to spare, the best margin in this batch.",
+      },
+      {
+        heading: "Daily life: canal, cathedral, plateau",
+        body: "The Saint-Nazaire cathedral dominates the town from the old quarter, which climbs: sloping streets are worth checking before you choose a district. The Plateau des Poètes, a five-hectare garden, offers a flat walk near the station. The Fonséranes locks on the Canal du Midi make a day out; the August féria fills the centre. Valras beach is reachable from town by car.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three points. The social context first, with 36% poverty and safety at 3.5/10: choosing a district and visiting at different times of day matters more here than elsewhere. The distance to the CHU, 61 km. The féria last, which saturates the centre. Béziers suits the retiree on an average pension who wants sun and a light budget and who visits before buying; it suits less someone seeking the serenity of an established retirement town.",
+      },
+    ],
+    relatedCities: ["beziers", "narbonne", "sete", "montpellier"],
+    tags: [
+      "retiring in Béziers 2026",
+      "Occitanie expat retirement",
+      "cheap retirement south of France",
+      "Béziers retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
     slug: "single-parent-in-nimes-2026",
     title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
     metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",
