@@ -1134,3 +1134,23 @@ Captures `next dev` + playwright `/villes/lyon/sante` 1440 et 390 px, `scrollWid
 1. Sous-page `teletravail` (même schéma), puis `air` / `bruit`.
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Sous-page `louer-ou-acheter`.
+
+## 2026-10-29 ~16:00 UTC — sous-page télétravail `/villes/[slug]/teletravail` (FR) + EN `/cities/[slug]/remote-work`
+
+**Surface** : le gabarit télétravail (593 villes × 2 locales). Le run de 11:00 n'a laissé ni commit ni journal.
+Avant : hero blanc à filet, puis un seul bloc de `Card` grises (verdict, signaux, coworking, budget), renvois en `Badge` gris.
+
+**Changé**
+- Hero `.bg-aurora`, emoji 💻 en tuile `grad-head-0` (FR) ; EN : nom de ville en `.gradient-text`.
+- Verdict + six signaux en `band-indigo` (cartes blanches à ombre indigo, jauge dégradé indigo → rose sur piste lavande ;
+  les chiffres gardent `scoreColor`). Coworking + budget en `band-sky` (h2 dégradé, total dans un encart ciel).
+  Renvois en `band-pink` : « Fiche complète » en `grad-head-0`, le reste en pilules blanches. DiscussionCTA / FeedbackWidget en `band-white`.
+- Pastille de densité coworking (vert → orange) conservée : elle encode un niveau. Import `Card` retiré. Copie, données, JSON-LD, liens inchangés.
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème.
+Captures `next dev` + playwright `/villes/lyon/teletravail` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-pages `air` / `bruit` (même schéma).
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Sous-page `louer-ou-acheter`.

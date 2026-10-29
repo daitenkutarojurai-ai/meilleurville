@@ -141,7 +141,7 @@ export default async function EnCityRemoteWork({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
           <nav className="mb-3 text-sm text-[var(--text-secondary)]">
             <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
@@ -153,7 +153,7 @@ export default async function EnCityRemoteWork({ params }: Props) {
             <span>Remote work</span>
           </nav>
           <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
-            Working remotely from {city.name}
+            Working remotely from <span className="gradient-text">{city.name}</span>
           </h1>
           <p className="text-[var(--text-secondary)]">
             Remote-work score:{" "}
@@ -168,39 +168,43 @@ export default async function EnCityRemoteWork({ params }: Props) {
         </div>
       </section>
 
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-10 space-y-8">
-        {/* Verdict */}
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+      {/* Verdict + signals — indigo band */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
           <p className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] mb-1">Verdict</p>
           <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">{profile.match}</h2>
           <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{profile.explanation}</p>
         </div>
 
-        {/* Signals */}
-        <section>
+        <div className="mt-10">
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-4">The remote-work signals</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {SIGNALS.map((row) => (
-              <div key={row.label} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
+              <div key={row.label} className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
                 <div className="flex items-baseline justify-between mb-1">
                   <p className="text-sm font-medium text-[var(--text-primary)]">{row.label}</p>
                   <p className={`font-mono-data font-bold ${scoreColor(row.value)}`}>
                     {row.value.toFixed(1)}<span className="text-xs text-[var(--text-tertiary)]">/10</span>
                   </p>
                 </div>
-                <div className="h-1 bg-[var(--border)] rounded-full overflow-hidden mb-2">
-                  <div className="h-full bg-[var(--accent)]" style={{ width: `${row.value * 10}%` }} />
+                <div className="h-1.5 bg-[var(--band-indigo)] rounded-full overflow-hidden mb-2">
+                  <div className="h-full rounded-full bg-gradient-to-r from-[#4F46E5] to-[#DB2777]" style={{ width: `${row.value * 10}%` }} />
                 </div>
                 <p className="text-[11px] text-[var(--text-tertiary)] leading-relaxed">{row.ctx}</p>
               </div>
             ))}
           </div>
-        </section>
+        </div>
+        </div>
+      </section>
 
-        {/* Coworking density */}
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+      {/* Coworking + budget — sky band */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 space-y-6">
+        <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <div className="flex flex-wrap items-baseline gap-3 mb-2">
-            <h2 className="text-base font-semibold text-[var(--text-primary)]">Coworking density</h2>
+            <h2 className="text-lg font-bold"><span className="gradient-text">Coworking density</span></h2>
             <span className={`inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold ${cowork.tone}`}>
               {cowork.label}
             </span>
@@ -213,9 +217,9 @@ export default async function EnCityRemoteWork({ params }: Props) {
         </div>
 
         {/* Cost block */}
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
-            Remote-worker budget — single person in a 1-bed
+        <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+          <h2 className="text-lg font-bold mb-3">
+            <span className="gradient-text">Remote-worker budget — single person in a 1-bed</span>
           </h2>
           <ul className="space-y-2 text-sm">
             <li className="flex justify-between border-b border-[var(--border)]/40 py-1.5">
@@ -231,7 +235,7 @@ export default async function EnCityRemoteWork({ params }: Props) {
               <span className="font-mono-data font-bold">€{transitPass ?? 80}/mo</span>
             </li>
           </ul>
-          <div className="mt-3 flex items-baseline justify-between border-t border-[var(--border)] pt-3">
+          <div className="mt-3 flex items-baseline justify-between gap-3 rounded-xl bg-[var(--band-sky)] px-4 py-3">
             <span className="text-sm font-semibold text-[var(--text-primary)]">Housing + mobility cost</span>
             <span className="font-mono-data font-bold text-xl text-[var(--accent)]">
               €{housingBudget.toLocaleString("en-GB")}/mo
@@ -244,25 +248,32 @@ export default async function EnCityRemoteWork({ params }: Props) {
           </p>
         </div>
 
-        {/* Cross-links */}
+        </div>
+      </section>
+
+      {/* Cross-links — pink band */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold mb-4"><span className="gradient-text">Keep exploring</span></h2>
         <div className="flex flex-wrap gap-3">
-          <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">
+          <Link href={`/cities/${slug}`} className="grad-head-0 rounded-full px-5 py-2.5 font-semibold hover:opacity-90">
             Back to {city.name}
           </Link>
-          <Link href={`/cities/${slug}/cost-of-living`} className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">
+          <Link href={`/cities/${slug}/cost-of-living`} className="rounded-full bg-white px-5 py-2.5 font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">
             Cost of living
           </Link>
-          <Link href="/rankings/teletravail" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">
+          <Link href="/rankings/teletravail" className="rounded-full bg-white px-5 py-2.5 font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">
             Remote-work ranking
           </Link>
         </div>
-      </div>
+        </div>
+      </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-
-        <FeedbackWidget />
-
-      </div>
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
 
       <Footer />
     </main>

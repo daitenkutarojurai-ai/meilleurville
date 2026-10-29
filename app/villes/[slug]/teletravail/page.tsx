@@ -4,7 +4,6 @@ import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -153,16 +152,20 @@ export default async function VilleTeletravailPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
           <Badge variant="accent" className="mb-3">
             <Link href={`/villes/${slug}`} className="hover:underline">
               ← {city.name}
             </Link>
           </Badge>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
-            Télétravailler à {city.name}
-          </h1>
+          <div className="flex items-center gap-3 mb-2">
+            <span aria-hidden className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl grad-head-0 text-xl shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)]">💻</span>
+            <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
+              Télétravailler à {city.name}
+            </h1>
+          </div>
           <p className="text-[var(--text-secondary)]">
             Score remote-work site :{" "}
             <strong className={scoreColor(city.scores.remoteWork)}>
@@ -176,17 +179,16 @@ export default async function VilleTeletravailPage({ params }: Props) {
         </div>
       </section>
 
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-10 space-y-8">
-        {/* Verdict */}
-        <Card>
-          <p className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] mb-1">Verdict</p>
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">{profil.match}</h2>
-          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{profil.explanation}</p>
-        </Card>
+      {/* Verdict + signaux — bande indigo */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+            <p className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] mb-1">Verdict</p>
+            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">{profil.match}</h2>
+            <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{profil.explanation}</p>
+          </div>
 
-        {/* Scores breakdown */}
-        <section>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-4">
+          <h2 className="mt-10 text-2xl font-bold text-[var(--text-primary)] mb-4">
             Les signaux télétravail
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -198,122 +200,119 @@ export default async function VilleTeletravailPage({ params }: Props) {
               { label: "Lien social", value: ownerLienSocial.value, ctx: "Moins de risques de solitude pour les solo" },
               { label: "Qualité de vie", value: city.scores.life, ctx: "L'air, l'eau, le quotidien" },
             ].map((row) => (
-              <div key={row.label} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
+              <div key={row.label} className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
                 <div className="flex items-baseline justify-between mb-1">
                   <p className="text-sm font-medium text-[var(--text-primary)]">{row.label}</p>
                   <p className={`font-mono-data font-bold ${scoreColor(row.value)}`}>{row.value.toFixed(1)}<span className="text-xs text-[var(--text-tertiary)]">/10</span></p>
                 </div>
-                <div className="h-1 bg-[var(--border)] rounded-full overflow-hidden mb-2">
-                  <div className="h-full bg-[var(--accent)]" style={{ width: `${row.value * 10}%` }} />
+                <div className="h-1.5 bg-[var(--band-indigo)] rounded-full overflow-hidden mb-2">
+                  <div className="h-full rounded-full bg-gradient-to-r from-[#4F46E5] to-[#DB2777]" style={{ width: `${row.value * 10}%` }} />
                 </div>
                 <p className="text-[11px] text-[var(--text-tertiary)] leading-relaxed">{row.ctx}</p>
               </div>
             ))}
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Coworking density */}
-        <Card>
-          <div className="flex flex-wrap items-baseline gap-3 mb-2">
-            <h2 className="text-base font-semibold text-[var(--text-primary)]">Densité coworking</h2>
-            <span
-              className={`inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold ${cowork.tone}`}
-            >
-              {cowork.label}
-            </span>
-            <span className="text-xs text-[var(--text-tertiary)]">{cowork.count}</span>
-          </div>
-          <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-            Estimation basée sur la population et les tags ville. À enrichir avec un import SIRENE
-            spécifique (NAF 70.22Z et 68.20A pour les espaces dédiés télétravail).
-          </p>
-        </Card>
-
-        {/* Cost block */}
-        <Card>
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
-            Budget télétravailleur — solo en T2
-          </h2>
-          <ul className="space-y-2 text-sm">
-            <li className="flex justify-between border-b border-[var(--border)]/40 py-1.5">
-              <span>Loyer T2 médian</span>
-              <span className="font-mono-data font-bold">{(housing?.avgRentT2 ?? 800).toLocaleString("fr-FR")} €/mois</span>
-            </li>
-            <li className="flex justify-between border-b border-[var(--border)]/40 py-1.5">
-              <span>Chauffage (zone {zone ?? "moyenne"})</span>
-              <span className="font-mono-data font-bold">{heating} €/mois</span>
-            </li>
-            <li className="flex justify-between py-1.5">
-              <span>
-                {transitPass != null ? "Abonnement transports" : "Voiture (estimation, sans tram)"}
+      {/* Coworking + budget — bande ciel */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 space-y-6">
+          <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+            <div className="flex flex-wrap items-baseline gap-3 mb-2">
+              <h2 className="text-lg font-bold"><span className="gradient-text">Densité coworking</span></h2>
+              <span
+                className={`inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold ${cowork.tone}`}
+              >
+                {cowork.label}
               </span>
-              <span className="font-mono-data font-bold">{transitPass ?? 80} €/mois</span>
-            </li>
-          </ul>
-          <div className="mt-3 flex items-baseline justify-between border-t border-[var(--border)] pt-3">
-            <span className="text-sm font-semibold text-[var(--text-primary)]">Coût mobilité + logement</span>
-            <span className="font-mono-data font-bold text-xl text-[var(--accent)]">
-              {housingBudget.toLocaleString("fr-FR")} €/mois
-            </span>
+              <span className="text-xs text-[var(--text-tertiary)]">{cowork.count}</span>
+            </div>
+            <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+              Estimation basée sur la population et les tags ville. À enrichir avec un import SIRENE
+              spécifique (NAF 70.22Z et 68.20A pour les espaces dédiés télétravail).
+            </p>
           </div>
-          <p className="text-xs text-[var(--text-tertiary)] mt-3">
-            <Link href={`/calculateur-cout-reel/${city.slug}`} className="underline">
-              Calcul complet (incluant taxes, mutuelle, garde) →
-            </Link>
-          </p>
-        </Card>
 
-        {/* Cross-links */}
-        <div className="flex flex-wrap gap-3 justify-center">
-          <Link href={`/villes/${city.slug}`}>
-            <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+          <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+            <h2 className="text-lg font-bold mb-3">
+              <span className="gradient-text">Budget télétravailleur — solo en T2</span>
+            </h2>
+            <ul className="space-y-2 text-sm">
+              <li className="flex justify-between border-b border-[var(--border)]/40 py-1.5">
+                <span>Loyer T2 médian</span>
+                <span className="font-mono-data font-bold">{(housing?.avgRentT2 ?? 800).toLocaleString("fr-FR")} €/mois</span>
+              </li>
+              <li className="flex justify-between border-b border-[var(--border)]/40 py-1.5">
+                <span>Chauffage (zone {zone ?? "moyenne"})</span>
+                <span className="font-mono-data font-bold">{heating} €/mois</span>
+              </li>
+              <li className="flex justify-between py-1.5">
+                <span>
+                  {transitPass != null ? "Abonnement transports" : "Voiture (estimation, sans tram)"}
+                </span>
+                <span className="font-mono-data font-bold">{transitPass ?? 80} €/mois</span>
+              </li>
+            </ul>
+            <div className="mt-3 flex items-baseline justify-between gap-3 rounded-xl bg-[var(--band-sky)] px-4 py-3">
+              <span className="text-sm font-semibold text-[var(--text-primary)]">Coût mobilité + logement</span>
+              <span className="font-mono-data font-bold text-xl text-[var(--accent)]">
+                {housingBudget.toLocaleString("fr-FR")} €/mois
+              </span>
+            </div>
+            <p className="text-xs text-[var(--text-tertiary)] mt-3">
+              <Link href={`/calculateur-cout-reel/${city.slug}`} className="underline">
+                Calcul complet (incluant taxes, mutuelle, garde) →
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Renvois — bande rose */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <h2 className="text-xl font-bold mb-4"><span className="gradient-text">Aller plus loin</span></h2>
+          <div className="flex flex-wrap gap-3">
+            <Link href={`/villes/${city.slug}`} className="grad-head-0 rounded-full px-4 py-2.5 text-sm font-semibold hover:opacity-90">
               Fiche complète {city.name}
-            </Badge>
-          </Link>
-          <Link href={`/calculateur-cout-reel/${city.slug}`}>
-            <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+            </Link>
+            <Link href={`/calculateur-cout-reel/${city.slug}`} className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">
               💰 Coût réel
-            </Badge>
-          </Link>
-          <Link href="/classements/teletravail-proprietaire">
-            <Badge variant="accent" className="px-4 py-2 text-sm cursor-pointer">
+            </Link>
+            <Link href="/classements/teletravail-proprietaire" className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">
               💻 Classement national
-            </Badge>
-          </Link>
-          <Link href="/classements/jeune-actif">
-            <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+            </Link>
+            <Link href="/classements/jeune-actif" className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">
               🚀 Télétravail + culture + coût
-            </Badge>
-          </Link>
-          {metroHub && (
-            <Link href="/pour-qui/navetteurs-hybrides">
-              <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+            </Link>
+            {metroHub && (
+              <Link href="/pour-qui/navetteurs-hybrides" className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">
                 🚆{" "}
                 {metroHub.hub === city.slug
                   ? "Et si le bureau reste à rejoindre deux ou trois jours par semaine"
                   : `Rentrer à ${HUB_LABEL[metroHub.hub]} deux ou trois jours par semaine`}
-              </Badge>
-            </Link>
-          )}
-          {metroHub && (
-            <Link href="/pour-qui/couples-a-deux-carrieres">
-              <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+              </Link>
+            )}
+            {metroHub && (
+              <Link href="/pour-qui/couples-a-deux-carrieres" className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">
                 💼 Si le conjoint doit aussi trouver un poste sur place
-              </Badge>
-            </Link>
-          )}
-          {border && (
-            <Link href="/pour-qui/travailleurs-frontaliers">
-              <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+              </Link>
+            )}
+            {border && (
+              <Link href="/pour-qui/travailleurs-frontaliers" className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">
                 🛂 Employeur à {border.hub} : les jours à la maison se comptent
-              </Badge>
-            </Link>
-          )}
+              </Link>
+            )}
+          </div>
         </div>
-      </div>
+      </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+      {/* Discussion — bande blanche */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        </div>
       </section>
 
       <Footer />
