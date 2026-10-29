@@ -48,6 +48,12 @@ son service d'accueil sur les fiches des villes de son territoire.
 Message unique annoncé dans chaque mail : **pas de relance sans réponse**.
 À mesurer à J+7 (2026-11-05) via `GET /v3/smtp/statistics/events?tags=outreach-2026-10`.
 
+**Retours J0** : 51 délivrés, 4 ouvertures, 2 clics, 1 soft bounce (`contact@avf02100.fr`,
+relais refusé). **1 réponse** (AVF Nancy, M. Masson) : biais signalé sur la carte
+« Orientation politique » (extrême droite isolée, extrême gauche fondue dans la gauche).
+Fondé : corrigé le jour même (commit 73454d0, grille symétrique du ministère de
+l'Intérieur, 5 familles), réponse envoyée depuis Gmail.
+
 ## Vagues
 
 - **v1-v4 (2026-07-05 → 07-08)** — presse nationale et PQR, 29 envois, angle
