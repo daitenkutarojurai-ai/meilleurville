@@ -42225,6 +42225,280 @@ export const GUIDES: Guide[] = [
     tags: ["retraite Bayonne 2026", "prendre sa retraite à Bayonne", "retraite Pays basque", "budget retraité Bayonne", "retraite hôpital sur place"],
   },
   {
+    slug: "retraite-a-antibes-2026",
+    title: "Retraite à Antibes en 2026 : remparts, Picasso et prix azuréens",
+    metaTitle: "Retraite à Antibes 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Antibes en 2026 : T2 à 1 050 €, m² à 5 200 €, 33,8 % de 60 ans et plus, accès aux soins 7,1/10, CHU de Nice à 18 km. Budget et limites.",
+    category: "lifestyle",
+    emoji: "⛵",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Antibes est une retraite azuréenne où l'accès aux soins est bon (7,1/10 sur notre estimation, médiane 5,5) mais où le logement pèse lourd : 1 050 € le deux-pièces et 5 200 € le mètre carré (source : notre estimation des loyers). La ville compte 76 612 habitants, dont 33,8 % de 60 ans et plus, contre une médiane de 26,2 % (source : Insee, recensement 2022). Notre score retraite est de 5,6/10, dans un palier de dix-sept villes à égalité, derrière 374 autres : le climat et la santé tirent vers le haut, le coût de la vie (3,3/10) vers le bas.",
+    sections: [
+      {
+        heading: "Pourquoi Antibes séduit les retraités, et pourquoi le score reste moyen",
+        body: "Antibes cumule 2 700 heures de soleil par an, 9,5 °C en moyenne en janvier et 26 °C en juillet, avec une nature à 7,0/10 et une culture à 6,6/10 sur notre fiche ville. Mais la sécurité plafonne à 5,1/10 et le coût de la vie à 3,3/10, ce qui ramène le score retraite à 5,6/10, sous Menton ou Saint-Raphaël. La population progresse de 3,8 % entre 2016 et 2022 : la ville attire encore, y compris au-delà de l'âge de la retraite.",
+      },
+      {
+        heading: "Quel accès aux soins à Antibes ?",
+        body: "Notre moteur estime l'accès aux soins à 7,1/10, où 10 signifie un excellent accès, soit niveau « facile » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune, pas un relevé de cabinets. Le CHU le plus proche est à Nice, à environ 18 kilomètres à vol d'oiseau, une distance plus courte que pour les autres villes de ce lot. Les 75 ans et plus pèsent 15,1 % de la population (médiane 10,2 %), ce qui dit que l'offre de proximité est dimensionnée pour eux.",
+      },
+      {
+        heading: "Combien coûte un logement à Antibes ?",
+        body: "T1 à 750 €, T2 à 1 050 €, T3 à 1 450 € et 5 200 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 312 000 € avant frais. Antibes est au niveau de Nice (T2 à 1 100 €, 5 200 €/m²), mais plus chère que Cagnes-sur-Mer (920 € et 3 800 €/m²) et moins que Cannes (1 250 € et 6 500 €/m²). Pour un retraité qui vend un bien ailleurs, la comparaison avec le Var ou le Gard est sévère : Nîmes est à 2 800 €/m².",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Antibes",
+        body: "Personne seule locataire d'un deux-pièces : loyer 1050 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 740 € par mois. Couple locataire d'un trois-pièces : loyer 1450 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 480 € par mois. La pension moyenne de droit direct, environ 1 500 € nets (source : DREES), ne couvre aucun de ces deux budgets en location. Le niveau de vie médian de la commune est de 24 410 € par an, avec 15 % de pauvreté (source : Insee, Filosofi 2021) : la ville est plus aisée que le corpus, et ses prix le reflètent.",
+      },
+      {
+        heading: "Vie quotidienne : vieille ville, marché et mer",
+        body: "Le centre ancien, derrière les remparts, se parcourt à pied. Le musée Picasso est installé dans le château Grimaldi, où le peintre a travaillé en 1946, et le marché provençal de la vieille ville occupe une halle couverte. Juan-les-Pins, côté ouest, est plus festive en été. Le Fort Carré se visite en groupe et sur réservation : c'est un site à anticiper, pas une promenade d'impromptu. Le cap d'Antibes est accessible depuis la ville pour les marches du littoral.",
+      },
+      {
+        heading: "Les limites avant de s'installer",
+        body: "Trois points. Le prix d'abord : à 1 740 € par mois pour une personne seule locataire, Antibes suppose un patrimoine ou une pension nettement supérieure à la moyenne. La saison ensuite : l'été sature routes et plages, et le stationnement devient un sujet pour qui conduit encore. La sécurité enfin, à 5,1/10 sur notre fiche, correcte sans être un argument. Antibes convient au retraité aisé qui veut l'hôpital de Nice à portée et une vraie ville toute l'année ; elle convient moins à celui qui compte sur sa seule pension.",
+      },
+    ],
+    relatedCities: ["antibes","nice","cannes","cagnes-sur-mer"],
+    relatedGuides: [
+      "10-choses-a-faire-a-antibes-2026",
+      "demenager-a-antibes-2026",
+      "retraite-a-menton-2026",
+      "retraite-a-nimes-2026",
+    ],
+    tags: ["retraite Antibes 2026","prendre sa retraite à Antibes","retraite Alpes-Maritimes","budget retraité Antibes","retraite Côte d'Azur"],
+  },
+  {
+    slug: "retraite-a-cannes-2026",
+    title: "Retraite à Cannes en 2026 : Croisette, soins et budget à tenir",
+    metaTitle: "Retraite à Cannes 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Cannes en 2026 : T2 à 1 250 €, m² à 6 500 €, 36,6 % de 60 ans et plus, 21 % de pauvreté, accès aux soins 7,1/10, hôpital sur place.",
+    category: "lifestyle",
+    emoji: "🎬",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Cannes est la plus chère de ce lot : 1 250 € le deux-pièces et 6 500 € le mètre carré (source : notre estimation des loyers). Elle est aussi l'une des plus âgées, avec 36,6 % de 60 ans et plus et 17,3 % de 75 ans et plus sur 74 040 habitants (source : Insee, recensement 2022, médianes : 26,2 % et 10,2 %). Notre score retraite est de 5,4/10, dans un palier de trente-cinq villes à égalité, derrière 411 autres : le soleil et l'accès aux soins (7,1/10) ne compensent pas un coût de la vie à 3,1/10.",
+    sections: [
+      {
+        heading: "Cannes est-elle une bonne ville pour la retraite ?",
+        body: "Elle l'est pour un profil précis. Cannes offre 2 727 heures de soleil, 9,5 °C en janvier, une nature à 7,0/10 et la culture la plus haute du lot azuréen (7,3/10). En contrepartie, la sécurité est à 4,5/10 sur notre fiche ville et la qualité de vie à 5,9/10 : la ville vit de ses congrès et de son tourisme, et cela se sent hors saison dans certains quartiers. La population est stable, à moins 0,2 % entre 2016 et 2022.",
+      },
+      {
+        heading: "Quel accès aux soins à Cannes ?",
+        body: "Notre moteur estime l'accès aux soins à 7,1/10, où 10 signifie un excellent accès, soit niveau « facile » (source : notre fiche santé). C'est une estimation, pas un relevé de cabinets. Le centre hospitalier Simone Veil est à Cannes même, et le CHU le plus proche est à Nice, à environ 26 kilomètres à vol d'oiseau. Avec 17,3 % de 75 ans et plus, la ville est l'une de celles où l'offre de gériatrie et de soins à domicile se demande avant de signer.",
+      },
+      {
+        heading: "Combien coûte un logement à Cannes ?",
+        body: "T1 à 850 €, T2 à 1 250 €, T3 à 1 700 € et 6 500 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 390 000 € avant frais. Antibes voisine est à 1 050 € et 5 200 €/m², Grasse à 800 € et 3 200 €/m² : Grasse, dans l'arrière-pays, divise le loyer par plus d'un tiers pour un retraité qui accepte de ne pas voir la mer.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Cannes",
+        body: "Personne seule locataire d'un deux-pièces : loyer 1250 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 940 € par mois. Couple locataire d'un trois-pièces : loyer 1700 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 730 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) est très en dessous de ces budgets. Le niveau de vie médian de la commune est de 21 210 € par an, avec 21 % de pauvreté (source : Insee, Filosofi 2021) : la ville est plus inégale que ses prix ne le laissent croire, et un retraité modeste y est vite en difficulté.",
+      },
+      {
+        heading: "Vie quotidienne : Suquet, Croisette, îles",
+        body: "Le Suquet, quartier ancien sur la colline au-dessus du port, domine la ville mais se grimpe à pied par des rues en pente. La Croisette se prête à la promenade plate, ce qui compte avec l'âge. Les îles de Lérins sont accessibles depuis le Vieux-Port par bateau, en une vingtaine de minutes environ : l'embarquement est à prévoir, pas à improviser. En mai et en saison de congrès, les prix et la fréquentation montent.",
+      },
+      {
+        heading: "Les limites avant de s'installer",
+        body: "Trois points. Le coût d'abord, 1 940 € par mois pour une personne seule locataire, au-dessus des cinq autres villes de ce lot. L'inégalité ensuite, avec 21 % de pauvreté dans la commune. La saisonnalité enfin : festivals et congrès bouleversent le centre. Cannes convient au retraité aisé qui veut les soins de la Riviera et une vie culturelle dense ; pour une pension moyenne, Grasse ou le Var coûtent nettement moins.",
+      },
+    ],
+    relatedCities: ["cannes","antibes","grasse","nice"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cannes-2026",
+      "retraite-a-antibes-2026",
+      "retraite-a-menton-2026",
+    ],
+    tags: ["retraite Cannes 2026","prendre sa retraite à Cannes","retraite Alpes-Maritimes","budget retraité Cannes","retraite Riviera"],
+  },
+  {
+    slug: "retraite-a-frejus-2026",
+    title: "Retraite à Fréjus en 2026 : antique, ensoleillée, 10 % plus peuplée",
+    metaTitle: "Retraite à Fréjus 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Fréjus en 2026 : T2 à 850 €, m² à 3 800 €, 36 % de 60 ans et plus, 2 900 h de soleil, accès aux soins 6,6/10, CHU de Nice à 52 km.",
+    category: "lifestyle",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Fréjus est la retraite varoise du lot qui a le plus grossi : 58 499 habitants en 2022, soit 10 % de plus qu'en 2016 (source : Insee, recensement). Le deux-pièces y est à 850 € et le mètre carré à 3 800 €, plus de 40 % de moins qu'à Cannes (source : notre estimation des loyers). Notre score retraite est de 5,5/10, dans un palier de vingt villes à égalité, derrière 391 autres, avec 36 % de 60 ans et plus et un accès aux soins estimé à 6,6/10.",
+    sections: [
+      {
+        heading: "Pourquoi Fréjus plutôt que la Riviera ?",
+        body: "Fréjus offre parmi les soleils les plus longs de ce lot, 2 900 heures par an, des étés à 28,5 °C en juillet et un hiver à 8 °C en moyenne, pour un coût de la vie de 4,5/10 sur notre fiche ville, meilleur que celui d'Antibes (3,3) ou de Cannes (3,1). La sécurité est à 4,7/10 et la nature à 6,4/10. Fréjus-Plage donne la mer, la ville historique l'intérieur : c'est une commune étirée, ce qui compte pour qui renonce à la voiture.",
+      },
+      {
+        heading: "Quel accès aux soins à Fréjus ?",
+        body: "Notre moteur estime l'accès aux soins à 6,6/10, où 10 signifie un excellent accès, soit niveau « facile », au-dessus de la médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune. Le CHU le plus proche est à Nice, à environ 52 kilomètres à vol d'oiseau : pour les soins très spécialisés, le déplacement est long. Les 75 ans et plus représentent 15,1 % de la population, soit la même part qu'à Antibes.",
+      },
+      {
+        heading: "Combien coûte un logement à Fréjus ?",
+        body: "T1 à 620 €, T2 à 850 €, T3 à 1 150 € et 3 800 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 228 000 € avant frais. Saint-Raphaël, qui touche Fréjus, est plus chère (970 € et 4 500 €/m²) et plus âgée encore, à 48,5 % de 60 ans et plus ; Draguignan, dans les terres, tombe à 720 € et 2 800 €/m².",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Fréjus",
+        body: "Personne seule locataire d'un deux-pièces : loyer 850 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 540 € par mois. Couple locataire d'un trois-pièces : loyer 1150 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 180 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) couvre à peine le budget d'une personne seule locataire. Le niveau de vie médian de la commune est de 21 960 € par an, avec 18 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Vie quotidienne : cité romaine et plage",
+        body: "La cathédrale Saint-Léonce et son cloître, sur le site de la ville antique, se visitent contre un billet d'entrée ; la nef est libre d'accès. Les arènes romaines accueillent concerts et événements. Fréjus-Plage offre la promenade de bord de mer. Saint-Raphaël est accessible à pied ou en bus pour compléter l'offre de commerces et de loisirs.",
+      },
+      {
+        heading: "Les limites avant de s'installer",
+        body: "Trois points. La distance au CHU, 52 km. La sécurité, à 4,7/10, correcte sans plus. La saison estivale enfin, qui sature la côte. Fréjus convient au retraité à budget moyen qui veut le Var sans le prix de la Riviera et accepte un hôpital éloigné pour les cas lourds ; elle convient moins à celui qui a un suivi spécialisé régulier.",
+      },
+    ],
+    relatedCities: ["frejus","saint-raphael","draguignan","cannes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-frejus-2026",
+      "retraite-a-cannes-2026",
+      "retraite-a-menton-2026",
+    ],
+    tags: ["retraite Fréjus 2026","prendre sa retraite à Fréjus","retraite Var","budget retraité Fréjus","retraite soleil Var"],
+  },
+  {
+    slug: "retraite-a-aix-en-provence-2026",
+    title: "Retraite à Aix-en-Provence en 2026 : culture, prix et ville jeune",
+    metaTitle: "Retraite à Aix-en-Provence 2026 : budget, limites",
+    metaDesc: "Retraite à Aix-en-Provence en 2026 : T2 à 1 050 €, m² à 5 000 €, 24,9 % de 60 ans et plus, culture 8,4/10, accès aux soins 7,1/10. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🌳",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Aix-en-Provence est une retraite très culturelle (8,4/10), mais pas la moins chère : 1 050 € le deux-pièces et 5 000 € le mètre carré (source : notre estimation des loyers). C'est aussi la plus jeune du lot : 24,9 % de 60 ans et plus sur 147 933 habitants, sous la médiane de 26,2 % (source : Insee, recensement 2022), à cause des étudiants. Notre score retraite est de 6,1/10, dans un palier de vingt-deux villes à égalité, derrière 286 autres, avec un accès aux soins estimé à 7,1/10.",
+    sections: [
+      {
+        heading: "Aix est-elle une retraite ou une ville d'étudiants ?",
+        body: "Les deux. La part des 15-29 ans y est très forte : 39 151 personnes sur 147 933 habitants, soit plus d'un quart (source : Insee, recensement 2022). Les 75 ans et plus ne pèsent que 10,2 %, exactement la médiane. Pour un retraité, cela veut dire une ville animée en semaine et plus calme l'été, avec une culture à 8,4/10 et une qualité de vie à 7,8/10 sur notre fiche ville, bien au-dessus de la médiane.",
+      },
+      {
+        heading: "Quel accès aux soins à Aix-en-Provence ?",
+        body: "Notre moteur estime l'accès aux soins à 7,1/10, où 10 signifie un excellent accès, soit niveau « facile » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune. Le centre hospitalier du Pays d'Aix est sur place, et le CHU le plus proche est à Marseille, à environ 27 kilomètres à vol d'oiseau, avec l'autoroute pour s'y rendre.",
+      },
+      {
+        heading: "Combien coûte un logement à Aix-en-Provence ?",
+        body: "T1 à 760 €, T2 à 1 050 €, T3 à 1 400 € et 5 000 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 300 000 € avant frais. Marseille voisine est nettement moins chère (820 € et 3 500 €/m²), Salon-de-Provence aussi (780 € et 2 900 €/m²). La population d'Aix progresse de 3,4 % entre 2016 et 2022.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Aix-en-Provence",
+        body: "Personne seule locataire d'un deux-pièces : loyer 1050 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 740 € par mois. Couple locataire d'un trois-pièces : loyer 1400 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 430 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) ne couvre pas ces budgets. Le niveau de vie médian de la commune est de 25 810 € par an, avec 15 % de pauvreté (source : Insee, Filosofi 2021), le plus élevé de ce lot : le marché est calibré sur des ménages aisés.",
+      },
+      {
+        heading: "Vie quotidienne : cours Mirabeau et Sainte-Victoire",
+        body: "Le cours Mirabeau structure le centre, plat et piéton sur une grande part de son parcours. L'atelier de Cézanne, au nord du centre, est à une vingtaine de minutes de marche en montée. Les thermes Sextius sont sur le site des anciens bains romains. La montagne Sainte-Victoire est accessible depuis la ville pour les promenades. Le festival d'art lyrique de l'été rend le centre dense en juillet.",
+      },
+      {
+        heading: "Les limites avant de s'installer",
+        body: "Trois points. Le prix, d'abord : Aix est, des six villes de ce lot, la troisième plus chère à l'achat, après Cannes et Antibes. La sécurité, à 5,9/10, correcte. Le coût de la vie enfin, à 3,6/10. Aix convient au retraité aisé et cultivé, qui veut Marseille et son CHU à 27 km sans y vivre ; pour la même Provence à budget plus doux, Avignon ou Salon-de-Provence coûtent moins.",
+      },
+    ],
+    relatedCities: ["aix-en-provence","marseille","salon-de-provence","avignon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-aix-en-provence-2026",
+      "vivre-a-aix-en-provence-2026",
+      "acheter-a-aix-en-provence-quel-quartier-budget-2026",
+      "famille-a-aix-en-provence-2026",
+    ],
+    tags: ["retraite Aix-en-Provence 2026","prendre sa retraite à Aix-en-Provence","retraite Bouches-du-Rhône","budget retraité Aix","retraite Provence culture"],
+  },
+  {
+    slug: "retraite-a-avignon-2026",
+    title: "Retraite à Avignon en 2026 : papes, festival et budget serré",
+    metaTitle: "Retraite à Avignon 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Avignon en 2026 : T2 à 750 €, m² à 3 000 €, culture 9,0/10, 33 % de pauvreté, accès aux soins 5,7/10, CHU de Nîmes à 38 km. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🌉",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Avignon a la culture la plus haute de ce lot (9,0/10 sur notre fiche ville) et l'une des moins chères de Provence : 750 € le deux-pièces et 3 000 € le mètre carré (source : notre estimation des loyers). Elle compte 91 760 habitants, dont 24,6 % de 60 ans et plus, sous la médiane de 26,2 % (source : Insee, recensement 2022). Notre score retraite est de 5,3/10, dans un palier de onze villes à égalité, derrière 446 autres : l'accès aux soins estimé n'est que « correct », à 5,7/10.",
+    sections: [
+      {
+        heading: "Avignon, une retraite pour qui ?",
+        body: "Pour un retraité qui cherche la culture avant le calme. Le centre intra-muros, avec le palais des Papes classé monument historique dès 1840, se parcourt à pied. Le coût de la vie est le deuxième meilleur de ce lot (5,7/10), mais la sécurité tombe à 4,3/10 et 33 % des habitants vivent sous le seuil de pauvreté (source : Insee, Filosofi 2021), le niveau de vie médian étant de 17 690 €. La population est stable, à moins 0,7 % entre 2016 et 2022.",
+      },
+      {
+        heading: "Quel accès aux soins à Avignon ?",
+        body: "Notre moteur estime l'accès aux soins à 5,7/10, où 10 signifie un excellent accès, soit niveau « correct », à peine au-dessus de la médiane de 5,5 (source : notre fiche santé). Le centre hospitalier Henri-Duffaut est dans la ville, avec urgences adultes et pédiatriques. Le CHU le plus proche est à Nîmes, à environ 38 kilomètres à vol d'oiseau. Les 75 ans et plus pèsent 9,5 %, sous la médiane : la ville est plus jeune que les autres du lot.",
+      },
+      {
+        heading: "Combien coûte un logement à Avignon ?",
+        body: "T1 à 540 €, T2 à 750 €, T3 à 1 000 € et 3 000 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 180 000 € avant frais, soit près de moitié moins qu'à Aix-en-Provence (300 000 €). Nîmes (720 € et 2 800 €/m²) et Orange (690 € et 2 400 €/m²) sont voisines et un peu moins chères ; Carpentras est à 680 € et 2 200 €/m².",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Avignon",
+        body: "Personne seule locataire d'un deux-pièces : loyer 750 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 440 € par mois. Couple locataire d'un trois-pièces : loyer 1000 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 030 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) couvre le budget d'une personne seule locataire, avec peu de marge.",
+      },
+      {
+        heading: "Vie quotidienne : remparts, halles et festival",
+        body: "Les remparts entourent le centre sur environ 4 kilomètres, et les Halles abritent le marché alimentaire. Le Rhône longe la ville ; le pont Saint-Bénézet est le monument le plus connu. En juillet, le festival transforme le centre : pour un retraité qui y habite, c'est un mois à anticiper, entre animation et bruit. Le mistral, fréquent, se supporte mieux avec un logement bien orienté.",
+      },
+      {
+        heading: "Les limites avant de s'installer",
+        body: "Trois points. L'accès aux soins, simplement correct, avec un CHU à 38 km. La sécurité, à 4,3/10, la deuxième plus basse de ce lot, après Béziers. Le contexte social enfin, avec un tiers d'habitants sous le seuil de pauvreté. Avignon convient au retraité à budget moyen qui privilégie la culture et un logement abordable en Provence ; il convient moins à celui qui veut un quartier très calme ou un suivi médical lourd.",
+      },
+    ],
+    relatedCities: ["avignon","nimes","orange","carpentras"],
+    relatedGuides: [
+      "10-choses-a-faire-a-avignon-2026",
+      "vivre-a-avignon-2026",
+      "acheter-a-avignon-quel-quartier-budget-2026",
+      "retraite-a-nimes-2026",
+    ],
+    tags: ["retraite Avignon 2026","prendre sa retraite à Avignon","retraite Vaucluse","budget retraité Avignon","retraite petit budget Provence"],
+  },
+  {
+    slug: "retraite-a-beziers-2026",
+    title: "Retraite à Béziers en 2026 : la moins chère du lot, avec ses réserves",
+    metaTitle: "Retraite à Béziers 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Béziers en 2026 : T2 à 530 €, m² à 1 500 €, 29,6 % de 60 ans et plus, accès aux soins 6,6/10, CHU de Montpellier à 61 km. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🚢",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Béziers est la retraite la moins chère de ce lot, et parmi les moins chères de la série : 530 € le deux-pièces et 1 500 € le mètre carré (source : notre estimation des loyers), soit un 60 m² à environ 90 000 €. La ville compte 80 815 habitants, dont 29,6 % de 60 ans et plus, au-dessus de la médiane de 26,2 % (source : Insee, recensement 2022), et gagne 5,7 % d'habitants entre 2016 et 2022. Notre score retraite est de 5,4/10, dans un palier de trente-cinq villes à égalité, derrière 411 autres : l'accès aux soins est bon (6,6/10), la sécurité faible (3,5/10).",
+    sections: [
+      {
+        heading: "Pourquoi Béziers coûte si peu",
+        body: "Le coût de la vie y est à 6,4/10 sur notre fiche ville, le meilleur de ce lot, pour 2 850 heures de soleil, 7,5 °C en janvier et 25,8 °C en juillet. La contrepartie est lisible dans les chiffres : niveau de vie médian de 16 830 € par an et 36 % de pauvreté (source : Insee, Filosofi 2021), sécurité à 3,5/10, vie à 4,7/10. Le prix bas décrit un marché populaire, pas une bonne affaire sans réserve.",
+      },
+      {
+        heading: "Quel accès aux soins à Béziers ?",
+        body: "Notre moteur estime l'accès aux soins à 6,6/10, où 10 signifie un excellent accès, soit niveau « facile », au-dessus de la médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune, pas un relevé de cabinets. Le CHU le plus proche est à Montpellier, à environ 61 kilomètres à vol d'oiseau, la plus grande distance de ce lot : pour les soins très spécialisés, il faut compter le trajet.",
+      },
+      {
+        heading: "Combien coûte un logement à Béziers ?",
+        body: "T1 à 380 €, T2 à 530 €, T3 à 720 € et 1 500 € le mètre carré à l'achat (source : notre estimation des loyers). Un 60 m² vaut environ 90 000 € avant frais. Narbonne est plus chère (680 € et 2 400 €/m²), Sète aussi (680 € et 2 600 €/m²) et Montpellier à 850 € et 3 900 €/m². Agde, sur le littoral, est à 690 € et 2 500 €/m².",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Béziers",
+        body: "Personne seule locataire d'un deux-pièces : loyer 530 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 220 € par mois. Couple locataire d'un trois-pièces : loyer 720 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 750 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) couvre le budget d'une personne seule locataire avec environ 280 € de marge, la meilleure de ce lot.",
+      },
+      {
+        heading: "Vie quotidienne : canal, cathédrale, plateau",
+        body: "La cathédrale Saint-Nazaire domine la ville depuis la vieille ville, qui monte : les rues en pente sont un point à regarder avant de choisir un quartier. Le Plateau des poètes, jardin de cinq hectares, offre une promenade plate à proximité de la gare. Les écluses de Fonséranes, sur le canal du Midi, sont une sortie à la journée ; la féria d'août remplit le centre. La plage de Valras est accessible depuis la ville en voiture.",
+      },
+      {
+        heading: "Les limites avant de s'installer",
+        body: "Trois points. Le contexte social d'abord, avec 36 % de pauvreté et une sécurité à 3,5/10 : le choix du quartier et la visite à différentes heures comptent plus qu'ailleurs. La distance au CHU, 61 km. La féria enfin, qui sature le centre. Béziers convient au retraité à pension moyenne qui veut le soleil et un budget léger et qui visite avant d'acheter ; elle convient moins à celui qui cherche la sérénité d'une ville de retraite établie.",
+      },
+    ],
+    relatedCities: ["beziers","narbonne","sete","montpellier"],
+    relatedGuides: [
+      "10-choses-a-faire-a-beziers-2026",
+      "vivre-a-beziers-2026",
+      "retraite-a-narbonne-2026",
+      "retraite-a-sete-2026",
+    ],
+    tags: ["retraite Béziers 2026","prendre sa retraite à Béziers","retraite Hérault","budget retraité Béziers","retraite petit budget Occitanie"],
+  },
+  {
     slug: "demenager-a-paris-2026",
     title: "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
     metaTitle: "Déménager à Paris 2026 — Logistique, budget, démarches",

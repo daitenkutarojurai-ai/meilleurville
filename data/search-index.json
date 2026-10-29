@@ -7862,6 +7862,36 @@
       "emoji": "🐟"
     },
     {
+      "slug": "retraite-a-antibes-2026",
+      "title": "Retraite à Antibes en 2026 : remparts, Picasso et prix azuréens",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "retraite-a-cannes-2026",
+      "title": "Retraite à Cannes en 2026 : Croisette, soins et budget à tenir",
+      "emoji": "🎬"
+    },
+    {
+      "slug": "retraite-a-frejus-2026",
+      "title": "Retraite à Fréjus en 2026 : antique, ensoleillée, 10 % plus peuplée",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "retraite-a-aix-en-provence-2026",
+      "title": "Retraite à Aix-en-Provence en 2026 : culture, prix et ville jeune",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "retraite-a-avignon-2026",
+      "title": "Retraite à Avignon en 2026 : papes, festival et budget serré",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "retraite-a-beziers-2026",
+      "title": "Retraite à Béziers en 2026 : la moins chère du lot, avec ses réserves",
+      "emoji": "🚢"
+    },
+    {
       "slug": "demenager-a-paris-2026",
       "title": "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
       "emoji": "📦"
@@ -11946,6 +11976,11 @@
     {
       "slug": "renovation-energetique",
       "label": "rénovation énergétique",
+      "count": 3
+    },
+    {
+      "slug": "retraite-alpes-maritimes",
+      "label": "retraite Alpes-Maritimes",
       "count": 3
     },
     {
