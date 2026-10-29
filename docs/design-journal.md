@@ -1109,3 +1109,28 @@ EN non capturé (404 en dev, la réécriture EN n'existe que dans le Worker). `n
 1. Sous-page `sante` (même schéma), puis `teletravail`.
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Sous-page `louer-ou-acheter`.
+
+## 2026-10-29 ~03:00 UTC — sous-page santé `/villes/[slug]/sante` (FR) + EN `/cities/[slug]/healthcare`
+
+**Surface** : le gabarit accès aux soins (540 villes × 2 locales). Avant : un seul bloc sur fond de page, carte
+composite à filet gauche coloré dérivé par `replace()` de la classe de fond, méthodologie et renvois en `Card` grises,
+lien classement en texte, Maps + DiscussionCTA dans une section nue. EN : trois blocs blancs à filet.
+
+**Changé** (même schéma que emploi, 28/10 23:00)
+- Hero `.bg-aurora`, emoji 🩺 dans une tuile `grad-head-0` (FR) ; EN : nom de ville en `.gradient-text`.
+- FR en 3 bandes : composite (carte blanche à ombre indigo, fin du filet gauche) + quatre dimensions en `band-indigo` ;
+  méthodologie en `band-sky` (h2 dégradé, carte à ombre cyan) ; renvois en tuiles lavande, classement national en
+  pilule, Maps + DiscussionCTA en `band-white`. Import `Card` retiré.
+- Fonds de niveau des `HealthBlock` conservés (ils encodent un niveau).
+- EN : dimensions en cartes blanches sur `band-indigo`, « What this covers » en `band-sky` (h2 dégradé, bouton
+  `grad-head-0`, bouton secondaire en pilule blanche), Maps + FeedbackWidget en `band-white`. Copie, données, JSON-LD,
+  liens inchangés.
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème.
+Captures `next dev` + playwright `/villes/lyon/sante` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé
+(réécriture EN Worker uniquement). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-page `teletravail` (même schéma), puis `air` / `bruit`.
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Sous-page `louer-ou-acheter`.

@@ -5,7 +5,6 @@ import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
@@ -106,16 +105,21 @@ export default async function SantePage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-10">
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <nav className="text-xs text-[var(--text-tertiary)] mb-3">
           <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
           <Link href="/villes" className="hover:underline">Villes</Link> ·{" "}
           <Link href={`/villes/${city.slug}`} className="hover:underline">{city.name}</Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          Accès aux soins à {city.name}
-        </h1>
+        <div className="flex items-center gap-3">
+          <span aria-hidden className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl grad-head-0 text-xl shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)]">🩺</span>
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+            Accès aux soins à {city.name}
+          </h1>
+        </div>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
           Profil <strong>structurel</strong> des quatre dimensions clés de l&apos;accès aux
           soins : médecins généralistes (porte d&apos;entrée du système), spécialistes,
@@ -141,9 +145,13 @@ export default async function SantePage({ params }: Props) {
           <Badge>Estimation structurelle</Badge>
           <Badge>Cadres de référence : DREES · CNOM · ARS</Badge>
         </div>
+        </div>
+      </section>
 
-        {/* Composite hero */}
-        <Card className={`mt-6 border-l-4 ${HEALTH_LEVEL_BG[h.level].replace('bg-', 'border-l-').replace('-50', '-500').split(' ')[0]}`}>
+      {/* Score composite + quatre dimensions — bande indigo */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
           <div className="flex items-baseline justify-between mb-3">
             <h2 className="text-sm uppercase tracking-wide text-[var(--text-tertiary)] font-semibold">Score composite</h2>
             <span className={`text-xs font-bold uppercase ${HEALTH_LEVEL_COLOR[h.level]}`}>
@@ -156,20 +164,24 @@ export default async function SantePage({ params }: Props) {
           </div>
           <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = excellent accès aux soins · 0 = désert médical avéré — seule la distance au site de CHU le plus proche est mesurée, le reste est une estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{h.signature}</p>
-        </Card>
+        </div>
 
         {/* 4 dimensions */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Les quatre dimensions</h2>
+        <h2 className="mt-10 text-xl font-bold text-[var(--text-primary)]">Les quatre dimensions</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <HealthBlock dim={h.generalistes} label="Médecins généralistes" />
           <HealthBlock dim={h.specialistes} label="Spécialistes (cardio, ophtalmo…)" />
           <HealthBlock dim={h.urgences} label="Urgences / SAU" />
           <HealthBlock dim={h.pharmacies} label="Pharmacies" />
         </div>
+        </div>
+      </section>
 
-        {/* Methodology */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Méthodologie</h2>
-        <Card className="mt-3">
+      {/* Méthodologie — bande ciel */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold"><span className="gradient-text">Méthodologie</span></h2>
+        <div className="mt-3 rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Médecins généralistes (35 %) :</strong>{" "}
@@ -206,40 +218,44 @@ export default async function SantePage({ params }: Props) {
             (ZIP/ZAC) et les aides à l&apos;installation sont publiés par l&apos;ARS, et la
             situation évolue vite avec les départs en retraite.
           </p>
-        </Card>
+        </div>
+        </div>
+      </section>
 
-        {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
+      {/* Renvois + discussion — bande blanche */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold text-[var(--text-primary)]">Aller plus loin</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link href={`/villes/${city.slug}/air`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
               <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🌬️</span><span>Qualité de l&apos;air</span></div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">NO2, particules, ozone, pollens</div>
-            </Card>
+              <div className="text-xs text-[var(--text-secondary)] mt-1">NO2, particules, ozone, pollens</div>
+            </div>
           </Link>
           <Link href={`/villes/${city.slug}/bruit`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
               <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🔊</span><span>Bruit</span></div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Routier, aérien, ferré, nocturne</div>
-            </Card>
+              <div className="text-xs text-[var(--text-secondary)] mt-1">Routier, aérien, ferré, nocturne</div>
+            </div>
           </Link>
           <Link href={`/villes/${city.slug}/ecoles`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
               <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🎓</span><span>Écoles</span></div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Maternelles, primaires, collèges, lycées</div>
-            </Card>
+              <div className="text-xs text-[var(--text-secondary)] mt-1">Maternelles, primaires, collèges, lycées</div>
+            </div>
           </Link>
           <Link href={`/villes/${city.slug}/quartiers`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
               <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🏘️</span><span>Quartiers</span></div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Sécurité, ambiance, loyers</div>
-            </Card>
+              <div className="text-xs text-[var(--text-secondary)] mt-1">Sécurité, ambiance, loyers</div>
+            </div>
           </Link>
         </div>
 
         <div className="mt-8 space-y-2 text-sm">
           <p>
-            <Link href="/sante" className="text-[var(--accent)] hover:underline">
+            <Link href="/sante" className="inline-flex items-center rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-[#3730A3] shadow-sm ring-1 ring-[var(--band-indigo)] transition-colors hover:bg-[var(--band-indigo)]">
               → Classement national de l&apos;accès aux soins
             </Link>
           </p>
@@ -262,11 +278,12 @@ export default async function SantePage({ params }: Props) {
             </Link>
           </p>
         </div>
-      </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <MapsQuickSearch topic="sante" cityName={city.name} department={city.department} locale="fr" className="mb-8" />
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        <div className="mt-10">
+          <MapsQuickSearch topic="sante" cityName={city.name} department={city.department} locale="fr" className="mb-8" />
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        </div>
+        </div>
       </section>
 
       <Footer />
