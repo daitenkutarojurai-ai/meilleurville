@@ -2337,3 +2337,5 @@ Vaulx-en-Velin, Saint-Priest, Bron) et les trous listés aux batches 34 et 36 ci
 
 Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading list (via `lib/guide-suggestions.ts` + auto-block on each guide page) are shipped.
 
+
+- 2026-10-29 agent contenu : +3 guides thématiques data-led (FR `annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026`, FR `villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026`, EN `income-needed-to-rent-a-studio-in-france-409-cities-2026`). Corpus mesuré : FR 1408 guides, EN 1214 guides (`grep -c "^    slug:"`). Prochain lot : angles Insee × loyers déjà calculables (part des 60+ vs santé, densité vs prix).

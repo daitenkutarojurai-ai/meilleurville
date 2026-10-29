@@ -54001,6 +54001,54 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["aurillac", "guingamp", "auxerre", "rodez", "le-puy-en-velay"],
     tags: ["country house", "rural france", "fibre broadband", "renovation", "rural life", "2026"],
   },
+  {
+    slug: "income-needed-to-rent-a-studio-in-france-409-cities-2026",
+    title: "How much do you need to earn to rent a studio in France? 409 cities compared",
+    metaTitle: "Income needed to rent a studio in France, by city",
+    metaDesc: "Landlords ask for three times the rent: €1,740 a month for a studio in the median French city, €3,600 in Paris, €930 in Aurillac. 409 cities ranked.",
+    category: "budget",
+    emoji: "🧾",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "In the median French city, a landlord who asks for three times the rent wants €1,740 a month for a studio, which is about what the local median resident lives on (€1,804 a month). The gap between cities is wide: €930 a month in Aurillac, €3,600 in Paris. This guide applies the three-times-rent rule to the benchmark studio rent of 409 cities of 20,000 people or more and sets it against the median standard of living (INSEE, Filosofi 2021) of each. In 132 of them the studio test sits above what the median resident lives on; in 277 it does not. Where you land decides whether you can pass a rental file alone, with a guarantor, or only with a flatmate.",
+    sections: [
+      {
+        heading: "What is the three-times-rent rule, and is it a law?",
+        body: "It is a custom, not a law. French landlords and agencies commonly ask that a tenant's monthly resources reach three times the rent, charges included, or that a guarantor's do. No statute sets a ratio, and each landlord judges a file as they like, but in a tight market the habit acts as a filter. We apply it to the benchmark studio rent from our own rent estimate, multiplied by three, and compare the result with each city's median monthly standard of living: INSEE's Filosofi 2021 figure, divided by twelve. A ratio above 1 means the bar is higher than the standard of living of the median resident of that city."
+      },
+      {
+        heading: "What income does a studio require in the median city?",
+        body: "About €1,740 a month, three times a €580 studio. The median resident's monthly standard of living across the 409 cities is €1,804, so the median ratio is 0.91: a typical resident clears the bar, narrowly. The split is lopsided. In 154 cities the bar is €1,500 or less, and in 131 it is €2,000 or more. Forty cities have a ratio below 0.7, where the rule is a non-event, and 95 sit between 1 and 1.2, where a single median income does not quite pass. Only two cities, Aubervilliers and Saint-Ouen-sur-Seine, go above 1.5."
+      },
+      {
+        heading: "Where is the bar lowest?",
+        body: "In small and mid-sized cities of the interior and the north. The lowest bars are Aurillac (€930 a month, from a €310 studio), Lens and Denain (€960), Millau and Chaumont (€990), then Alençon, Calais and Vierzon (€1,020) and Laval and Vichy (€1,050). Relative to local incomes the lowest ratios are Aurillac (0.51), Chaumont (0.55), Millau (0.56), Auch and Laval (0.58), Rodez (0.60), and Châteauroux and Vichy (0.62). In those cities a single median income clears the test by a wide margin, which is why the guarantor question rarely comes up there."
+      },
+      {
+        heading: "Where is the test hardest to pass?",
+        body: "In the inner suburbs of Paris and on the Riviera, once rents and local incomes are set side by side. Aubervilliers is highest at 1.69: a €720 studio means a €2,160 bar against a median standard of living of €1,278 a month. Then Saint-Ouen-sur-Seine (1.55), Villeneuve-Saint-Georges (1.49), Bagnolet (1.47), Paris (1.45, a €1,200 studio, a €3,600 bar against €2,478), Cannes (1.44), Saint-Denis (1.42), Clichy and Gennevilliers (1.41) and Clichy-sous-Bois (1.39). The highest absolute bars are in wealthy suburbs: Neuilly-sur-Seine and Saint-Cloud (€3,300), Sèvres (€3,150). There, residents' incomes are high enough that the ratio is around 1 or below. A high bar is not the same as a hard test for locals; for an arrival from elsewhere, it is."
+      },
+      {
+        heading: "How do the big cities compare?",
+        body: "Fourteen of the 42 cities of 100,000 people or more have a ratio above 1. The most tense are Paris (1.45), Saint-Denis (1.42), Nice (1.30, a €2,340 bar), Montreuil (1.19), Argenteuil (1.15) and Montpellier (1.13, €1,860). Just above or at the line: Aix-en-Provence (1.06), Strasbourg, Marseille and Annecy (1.03), Lyon, Lille and Toulouse (1.01 to 1.02). Below it: Bordeaux (0.94), Rennes (0.93), Grenoble (0.91), Nantes (0.89), Brest (0.81), Le Mans and Saint-Étienne (0.80) and Limoges (0.77). Among the 42 largest cities the lowest bars are Mulhouse and Saint-Étienne (€1,260), then Limoges (€1,320)."
+      },
+      {
+        heading: "Is it really a Paris-region problem?",
+        body: "Largely, though not only. The 153 Île-de-France cities in our sample have a median ratio of 1.07 and a median bar of €2,100, against €1,470 elsewhere. 95 of the 153 are above 1. Outside the region, 37 of the other 256 cities are above 1, and the most tense are Cannes (1.44), Vénissieux (1.37), Nice (1.30), Le Cannet (1.21), Mandelieu-la-Napoule (1.19) and Annemasse (1.14). Inside the region there are comfortable exceptions, such as Maisons-Laffitte (0.72), Montmorency, Sceaux and Eaubonne (0.79 to 0.80)."
+      },
+      {
+        heading: "What does this figure not tell you?",
+        body: "Three things. Standard of living is disposable income per consumption unit, benefits included, for every household in the city, owners as well as tenants. It is not a salary, and tenants earn less than owners on average. The incomes are from 2021 and the rents from 2026, which overstates the ratios in absolute terms; only the ranking of cities is reliable. And the studio rent is a market benchmark, not the price of a particular flat, so a good listing in a tense city can sit well above it. For a couple, resources are about 1.5 times the standard of living of one median adult, which lowers every ratio by a third."
+      },
+      {
+        heading: "What to do if you do not pass the test",
+        body: "Three options, in order. Ask whether the state-backed Visale guarantee fits your situation: it is free and mainly aimed at people under 30 and some employees, and it replaces a personal guarantor. Share: a two-person flatshare divides the bar by two, which brings every city in this list below 0.85. Or move the search: the same studio test is €1,260 to €1,320 in Saint-Étienne or Limoges and €2,160 in Lyon. Our other guides cover the deposit, the lease and the renting process for newcomers, and the city profiles give neighbourhood-level rents."
+      }
+    ],
+    relatedCities: ["paris", "aubervilliers", "nice", "montpellier", "aurillac", "millau", "limoges", "saint-etienne", "lyon", "cannes"],
+    tags: ["three times the rent", "income to rent a studio", "rental application france", "rent versus income by city", "renting as a newcomer", "visale guarantee"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

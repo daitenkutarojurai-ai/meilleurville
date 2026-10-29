@@ -70967,6 +70967,100 @@ export const GUIDES: Guide[] = [
     tags: ["louer au bord de la mer", "loyer ville côtière", "façade maritime", "ville de bord de mer pas chère", "loyer par façade", "vivre sur la côte"],
   },
 
+  {
+    slug: "annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026",
+    title: "Combien d'années de niveau de vie pour acheter 50 m² ? Le classement de 409 villes",
+    metaTitle: "Acheter 50 m² : combien d'années de revenu, par ville",
+    metaDesc: "50 m² coûtent 7,2 années de niveau de vie médian dans la ville médiane : 2,2 ans à Chaumont, 17,7 à Paris. Le classement de 409 villes de 20 000 habitants et plus.",
+    category: "budget",
+    emoji: "🏠",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Dans la ville médiane, acheter 50 m² revient à 7,2 années de niveau de vie médian. L'écart entre villes est de un à huit : 2,2 années à Chaumont, 17,7 années à Paris. Ce guide divise le prix d'un 50 m² (prix au m² de notre estimation des prix d'achat, multiplié par 50) par le niveau de vie médian annuel des habitants (Insee, Filosofi 2021) dans les 409 villes de 20 000 habitants et plus pour lesquelles nous publions les deux chiffres. Le résultat se lit comme un nombre d'années : celles qu'un habitant médian devrait mettre de côté, sans rien dépenser d'autre, pour payer le logement comptant. C'est un thermomètre, pas un plan de financement, mais il range les villes dans un ordre que le prix au mètre carré seul ne donne pas.",
+    sections: [
+      {
+        heading: "Que mesure ce classement, et que ne mesure-t-il pas ?",
+        body: "Il mesure le rapport entre le prix d'un logement de 50 m², soit un deux-pièces spacieux ou un petit trois-pièces, et le niveau de vie médian annuel de la commune. Le niveau de vie est le revenu disponible du ménage (salaires, prestations, moins impôts) rapporté à ses unités de consommation : ce n'est pas un salaire, et il inclut les propriétaires comme les locataires. Il ne dit rien du crédit : ni apport, ni taux, ni durée n'entrent dans le calcul, et nous n'en inventons aucun. Les prix au mètre carré sont ceux de notre estimation des prix d'achat, un ordre de grandeur de marché et non une moyenne d'actes notariés ; les niveaux de vie datent de 2021. Seul l'ordre des villes est solide, pas la décimale."
+      },
+      {
+        heading: "Combien d'années faut-il dans la ville médiane ?",
+        body: "7,2 années. Le prix au mètre carré médian des 409 villes est de 3 200 €, soit 160 000 € pour 50 m², et le niveau de vie médian de 21 650 € par an. Le classement se répartit ainsi : 81 villes sont à 5 années ou moins, 112 entre 5 et 7, 156 entre 7 et 10, et 60 à 10 années ou plus. Deux villes seulement dépassent 15 années, Paris et Cannes. Dans les 42 villes de 100 000 habitants et plus, la médiane est de 7,1 années, presque la même que pour l'ensemble : les grandes villes ne sont pas, en bloc, plus chères que les autres, c'est leur dispersion qui est forte, de 3,9 années à Limoges à 17,7 à Paris."
+      },
+      {
+        heading: "Où acheter est-il le plus accessible ?",
+        body: "Dans 14 villes de l'intérieur et du nord, 50 m² coûtent moins de 3,5 années de niveau de vie. Chaumont est en tête avec 2,2 années (950 € le mètre carré, 47 500 € pour 50 m², pour un niveau de vie de 21 490 € par an), devant Saint-Dizier et Aurillac (2,7), Montluçon (2,8), Vierzon (2,9), Denain (3,0), Sarreguemines (3,2), puis Maubeuge, Hénin-Beaumont, Millau, Forbach, Auch et Châteauroux (3,4), puis Lens (3,5). Un prix aussi bas n'est pas une aubaine garantie : ce sont des marchés étroits, où la revente demande du temps et où l'emploi local conditionne tout. Notre guide sur l'immobilier sous-coté en détaille les risques."
+      },
+      {
+        heading: "Où est-ce hors de portée ?",
+        body: "À Paris d'abord : 10 500 € le mètre carré, 525 000 € pour 50 m², pour un niveau de vie médian de 29 730 € par an, soit 17,7 années. Cannes suit à 15,3 (6 500 € le mètre carré, niveau de vie de 21 210 €), puis une série de communes de la petite couronne où le prix a rejoint Paris sans que les revenus suivent : Aubervilliers (13,7), Saint-Ouen-sur-Seine (13,5), Villejuif (13,4), Pantin et Arcueil (13,2), Romainville, Montreuil et Le Kremlin-Bicêtre (13,0), Clichy (12,9), Ivry-sur-Seine et Biarritz (12,7). Aubervilliers illustre l'écart : 4 200 € le mètre carré pour un niveau de vie médian de 15 330 € par an, le plus faible de cette liste."
+      },
+      {
+        heading: "Et dans les grandes villes de province ?",
+        body: "Les plus accessibles sont Limoges et Saint-Étienne (3,9), Le Mans (4,5), Le Havre (5,0), Mulhouse (5,1), Nancy (5,4), Metz (5,5), Besançon, Amiens et Orléans (5,6), Reims (5,7) et Dijon (5,7). Au milieu : Rouen (6,1), Tours (6,4), Perpignan (6,6), Angers (7,0), Grenoble (7,2), Nîmes (7,5) et Toulon (7,6). Les métropoles dynamiques sont plus haut : Rennes (8,3), Marseille et Lille (8,5), Nantes (8,7), Bordeaux et Toulouse (9,0), Strasbourg (9,4), Aix-en-Provence (9,7), Lyon (9,8), Montpellier (9,9) et Annecy (10,5). Nice, à 12,1 années, est la seule grande ville de province au-dessus de 11."
+      },
+      {
+        heading: "La géographie explique-t-elle tout ?",
+        body: "Beaucoup. Les 153 villes d'Île-de-France de l'échantillon ont une médiane de 9,0 années, contre 5,9 pour les 256 autres, et 49 des 60 villes à 10 années ou plus s'y trouvent. Les 11 autres sont sur la Côte d'Azur, au Pays basque ou en Haute-Savoie : Cannes, Antibes, Menton, Le Cannet, Mandelieu-la-Napoule, Vallauris, Nice, Biarritz, Bayonne, Annecy et Annemasse. Par région, la médiane va de 4,2 années dans les Hauts-de-France (30 villes) et 4,6 en Bourgogne-Franche-Comté à 8,0 en Provence-Alpes-Côte d'Azur (33 villes) et 9,0 en Île-de-France. La Bretagne, l'Occitanie et la Nouvelle-Aquitaine se tiennent entre 6,0 et 6,1."
+      },
+      {
+        heading: "Comment lire ce chiffre pour un couple, pour un achat à crédit ?",
+        body: "Avec prudence. Un couple de deux adultes compte 1,5 unité de consommation dans le calcul de l'Insee : ses ressources sont donc environ 1,5 fois le niveau de vie médian, ce qui ramène la ville médiane à environ 4,8 années et Paris à environ 11,8. À l'inverse, une personne seule au niveau de vie médian retrouve les chiffres du classement. Le crédit change la lecture : on n'achète pas en épargnant sept ans, on emprunte, et c'est la mensualité rapportée au revenu qui compte, que notre palmarès sur le taux d'effort du logement traite séparément. Ce classement répond à une autre question : dans quelle ville le prix d'entrée est-il, pour les habitants du cru, le plus lourd ?"
+      },
+      {
+        heading: "Que faire de ce classement ?",
+        body: "Trois usages. Comparer deux villes à budget d'achat fixe : à 160 000 €, vous achetez 50 m² dans la ville médiane, mais plus de 160 m² à Chaumont et moins de 16 m² à Paris. Repérer les marchés où un primo-accédant local peut espérer acheter sans aide familiale, ceux sous 5 années, et ceux où il ne le peut qu'avec un apport ou un second revenu, au-dessus de 10. Enfin, croiser avec le loyer : là où l'achat pèse beaucoup d'années mais où le loyer reste doux, louer est un choix rationnel, ce que détaillent nos guides sur le rendement locatif et sur le prix d'un achat à moins de 100 000 €."
+      }
+    ],
+    relatedCities: ["paris", "cannes", "aubervilliers", "chaumont", "aurillac", "limoges", "saint-etienne", "lyon", "nice", "annecy", "lille", "toulouse"],
+    relatedGuides: ["immobilier-sous-cote-france-2026-villes", "acheter-appartement-moins-100000-euros-villes-2026", "palmares-octobre-2026-taux-effort-logement", "palmares-aout-2026-rapport-qualite-vie-prix-achat", "rendement-locatif-brut-villes-pas-cheres-piege-2026"],
+    tags: ["années de revenu pour acheter", "prix 50 m² par ville", "acheter un appartement", "prix immobilier et niveau de vie", "villes où acheter est accessible", "accession à la propriété"],
+  },
+  {
+    slug: "villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026",
+    title: "Les villes les plus jeunes de France : la part des 15-29 ans dans 413 villes",
+    metaTitle: "Villes les plus jeunes de France : part des 15-29 ans",
+    metaDesc: "Lille 36,8 %, Talence 36,5 %, Nancy 36,4 % : classement des 413 villes de 20 000 habitants et plus par part des 15-29 ans (Insee 2022), et loyer d'un studio.",
+    category: "lifestyle",
+    emoji: "🎒",
+    readMinutes: 6,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Lille est la ville la plus jeune de France parmi les 413 communes de 20 000 habitants et plus : 36,8 % de ses habitants ont entre 15 et 29 ans, contre 19,4 % dans la ville médiane. Talence (36,5 %), Nancy (36,4 %), Poitiers (36,0 %) et Saint-Martin-d'Hères (35,2 %) complètent le haut du classement ; Saint-Raphaël ferme la marche à 9,8 %. Ce guide mesure la jeunesse d'une ville par un seul chiffre vérifiable, la part des 15-29 ans au recensement 2022 de l'Insee, nomme les villes où l'on croisera des gens de son âge et celles où ce sera plus rare, et regarde ce que cela change pour un loyer de studio.",
+    sections: [
+      {
+        heading: "Comment mesure-t-on qu'une ville est jeune ?",
+        body: "Par la part de la population âgée de 15 à 29 ans, d'après le recensement de la population 2022 de l'Insee, dans les 413 communes de 20 000 habitants et plus pour lesquelles nous disposons de la structure par âge. C'est une mesure de composition, pas de dynamisme : elle ne dit pas si une ville est animée, seulement combien de jeunes y habitent. La tranche inclut des lycéens, des étudiants et de jeunes actifs, et le recensement compte chacun dans sa commune de résidence principale : un étudiant logé chez ses parents compte là-bas, pas dans la ville où il étudie. La part médiane est de 19,4 % ; elle dépasse 20 % dans 171 villes et 25 % dans 40 d'entre elles."
+      },
+      {
+        heading: "Quelles sont les villes les plus jeunes de France ?",
+        body: "Lille (36,8 %), Talence (36,5 %), Nancy (36,4 %), Poitiers (36,0 %), Saint-Martin-d'Hères (35,2 %), Rennes (34,1 %), Rouen (33,4 %), Caen (33,3 %), Vandœuvre-lès-Nancy (32,7 %), Toulouse (32,6 %), puis Montpellier et Clermont-Ferrand (31,5 % chacune). Quinze villes atteignent 30 % ou plus. Le point commun est limpide : un grand pôle universitaire, au centre ou à sa porte. Talence et Saint-Martin-d'Hères accueillent le campus de Bordeaux et celui de Grenoble ; Vandœuvre-lès-Nancy celui de Nancy. Ce sont des communes de 30 000 à 46 000 habitants dont un habitant sur trois a la vingtaine."
+      },
+      {
+        heading: "Qu'en est-il des grandes villes ?",
+        body: "Dans les 42 villes de 100 000 habitants et plus, la part médiane des 15-29 ans est de 27,0 %, soit plus de sept points au-dessus de l'ensemble. Les plus jeunes sont Lille, Nancy, Rennes, Rouen, Caen, Toulouse, Montpellier, Clermont-Ferrand, Angers (31,4 %), Grenoble (31,3 %) et Dijon (30,8 %). Bordeaux est à 29,8 %, Lyon à 29,2 %, Nantes à 28,7 % et Strasbourg à 28,5 %. Paris est plus âgée qu'on ne le croit : 24,3 %, au 46e rang des 413 villes. À l'autre bout des grandes villes : Argenteuil et Perpignan (19,5 %), Annecy et Marseille (19,4 %), Nice (18,4 %), Toulon (17,4 %) et Saint-Paul de La Réunion (17,2 %)."
+      },
+      {
+        heading: "Où les jeunes sont-ils rares ?",
+        body: "Sur le littoral, presque sans exception. Saint-Raphaël est à 9,8 %, Les Sables-d'Olonne à 11,3 %, Six-Fours-les-Plages à 11,6 %, Agde à 12,1 %, Mandelieu-la-Napoule à 12,2 %, Concarneau à 12,3 %, Vallauris à 12,6 % et Biarritz à 12,7 %. Vingt-sept villes sont à 15 % ou moins, huit à 13 % ou moins. Par région, la médiane la plus basse est celle de la Corse, 14,8 % (deux villes), suivie de Provence-Alpes-Côte d'Azur, 15,3 % (33 villes). Ce n'est pas un défaut en soi : ces villes attirent les retraités et les résidents de longue date, avec des écoles et des commerces à l'avenant, mais un jeune actif y trouve moins de monde de son âge et moins d'emplois d'entrée de carrière."
+      },
+      {
+        heading: "Les petites villes sont-elles toujours vieilles ?",
+        body: "Non, c'est la moyenne qui trompe. Parmi les 282 villes de moins de 50 000 habitants, la part médiane est de 18,7 %, mais les communes de campus font exception : Talence, Saint-Martin-d'Hères, Vandœuvre-lès-Nancy, Mont-Saint-Aignan (29,6 %), Hérouville-Saint-Clair (27,4 %) ou Palaiseau (26,7 %) rivalisent avec les métropoles. Valenciennes (26,0 %) et Rodez (25,2 %) sont elles aussi plus jeunes que Paris. Pour un jeune diplômé, la leçon est qu'une ville moyenne bien équipée en enseignement supérieur offre autant de pairs qu'une métropole."
+      },
+      {
+        heading: "Et le loyer d'un studio, dans les villes jeunes ?",
+        body: "Plus bas que ce qu'on imagine. Dans les 40 villes où les 15-29 ans pèsent 25 % ou plus, le studio de référence de notre estimation des loyers est à 530 € en médiane, contre 580 € pour l'ensemble des villes comparées et 620 € dans les 27 villes à 15 % ou moins. Les villes jeunes les moins chères sont Vandœuvre-lès-Nancy (450 €), Poitiers, Saint-Martin-d'Hères et Clermont-Ferrand (480 €), puis Nancy et Caen (510 €) ; les plus chères parmi les douze premières, Toulouse, Montpellier et Talence (620 €). Lille est à 580 € et Rennes à 590 €. Une forte demande étudiante ne fait donc pas mécaniquement monter les loyers : l'offre de petits logements suit."
+      },
+      {
+        heading: "Pour qui ce classement est-il utile ?",
+        body: "Pour un jeune actif qui veut s'installer sans réseau local : mieux vaut une ville où un quart de la population a son âge qu'une ville de 10 %. Pour un étudiant, il complète nos guides sur les villes universitaires. Pour un parent ou un retraité, c'est l'inverse : le bruit du jeudi soir et la pression sur les petits logements sont plus forts dans le haut du classement. Et pour un investisseur en location, la part des 15-29 ans est un indice de demande de petites surfaces, à croiser avec le rendement et la vacance, que ce chiffre ne mesure pas."
+      }
+    ],
+    relatedCities: ["lille", "talence", "nancy", "poitiers", "saint-martin-d-heres", "rennes", "toulouse", "montpellier", "saint-raphael", "les-sables-d-olonne", "biarritz", "paris"],
+    relatedGuides: ["meilleures-villes-jeunes-professionnels-france-2026", "villes-universitaires-cout-vie-raisonnable-france-2026", "villes-france-accessibles-budget-etudiant-hors-paris-2026", "meilleures-villes-colocation-jeunes-actifs-2026"],
+    tags: ["villes jeunes", "part des 15-29 ans", "ville étudiante", "démographie par ville", "où habitent les jeunes", "vie étudiante et loyer"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
