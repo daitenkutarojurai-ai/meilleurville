@@ -53669,6 +53669,338 @@ export const EN_GUIDES: EnGuide[] = [
       "moving to france"
     ]
   },
+  {
+    slug: "buying-property-in-france-as-a-non-resident-2026",
+    title: "Buying property in France as a non-resident in 2026: process, tax, traps",
+    metaTitle: "Buying property in France as a non-resident (2026)",
+    metaDesc: "Foreigners can buy freely in France. What non-resident mortgages, notary fees, property tax, capital gains and the classic traps look like in 2026.",
+    category: "budget",
+    emoji: "🌐",
+    readMinutes: 9,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Nothing stops a foreigner buying property in France, whatever the passport. What trips people up is everything around the purchase: a mortgage priced for non-residents, a notary process that runs on its own clock, and a tax position that depends on where you live, not where the house is. Owning a house also gives you no right to live in it for more than the usual visitor stay. This guide walks through the sequence, the costs, and the mistakes that cost foreign buyers the most.",
+    sections: [
+      {
+        heading: "Buying is free; living there is a separate question",
+        body: "France places no nationality restriction on buying a main home, a holiday home or a rental. You do not need a visa to view properties or to sign. The catch is residence: owning a flat in Nice does not entitle you to stay beyond the normal limits for your passport (90 days in any 180 for visa-free visitors, with a long-stay visa needed for anything more). The notary, a public officer who must handle every property sale in France, can act for you at a distance if you sign a power of attorney before a notary in your own country, usually with an apostille. A French bank account is not compulsory, but paying the notary, the annual property tax and the building charges is far easier with one."
+      },
+      {
+        heading: "The sequence, from offer to keys",
+        body: "A purchase runs in four steps. First comes a written offer, normally conditional on your financing and on the survey reports. Then the preliminary contract (compromis de vente) is signed at the notary, with a deposit held in escrow, usually somewhere between 5 and 10 percent of the price. From the day you receive it you have a 10-day cooling-off period. The gap between that contract and the final deed is typically two to three months, which is when your mortgage, the technical surveys and the planning checks are completed. The final deed (acte authentique) is signed at the notary, in person or by proxy, and the full price plus fees are paid that day. Count three to five months from accepted offer to completion."
+      },
+      {
+        heading: "Mortgages for non-residents",
+        body: "Many French banks will lend to non-residents, but not all, and on tighter terms than for residents. Expect to be asked for a larger deposit, a shorter term, a rate that sits above the resident rate, and proof of income in the form of tax returns, payslips or accounts, with sworn translations into French. Lenders are most comfortable with applicants from neighbouring EU countries and the UK and Switzerland; applicants from further afield find it harder. The alternative is to borrow in your home country against the French property, which works but adds currency risk and paperwork. The simplest route for most buyers is a larger cash deposit and a smaller French loan, in euros. Ask several banks, and ask a broker who handles non-resident files."
+      },
+      {
+        heading: "What a French property costs on top of the price",
+        body: "Notary fees are the big one: roughly 7 to 8 percent of the price on an older property, and 2 to 3 percent on a new-build. Agency commission is often paid by the seller, but check the sale advertisement to see who bears it. Add bank and guarantee fees on any loan, plus sworn translations, proxy costs and travel. As a working rule, budget 10 to 15 percent above the headline price before you have bought a single curtain. Then add the annual costs: property tax (taxe foncière), building charges if it is a flat, insurance, and utilities that run even when you are away."
+      },
+      {
+        heading: "Tax for an owner who lives abroad",
+        body: "As a non-resident you are taxed in France only on your French property, and a tax treaty between France and your country normally prevents double taxation, usually through a credit in your home country. There are four taxes to know. The taxe foncière is an annual bill on the owner, whatever the owner's country. On a second home there is also a residence tax (taxe d'habitation sur les résidences secondaires), which towns in high-demand areas may surcharge. Rental income from French property is taxed in France, at a minimum rate for non-residents rather than the progressive scale. The wealth tax on property (IFI) only bites above 1.3 million euros of net French property. On resale, the capital gain is taxed in France, with allowances that grow with the years you hold: income-tax exemption after 22 years, social-charge exemption after 30. Rates and social-charge treatment depend on your country of residence and your social-security affiliation, so get this checked for your own case before buying."
+      },
+      {
+        heading: "Traps that catch foreign buyers",
+        body: "Underestimating total cost is the first. The second is currency: a purchase in euros funded in sterling or dollars exposes you to exchange moves between offer and completion. The third is paying a foreigner's premium, because buyers who do not know the local market overpay more often than residents do; commission an independent valuation or compare recent sales. Energy rating is a fourth: homes rated G on the energy performance certificate (DPE) can no longer be put on a new lease, so a thermal sieve bought as a future rental may be unlettable. Fifth are building charges, which are higher and more variable in flats than many expect. Sixth is remote management: a rental you cannot oversee needs a local agent, who takes a share of the rent. Finally, inheritance. French succession rules can differ sharply from your own country's, so see a notary who handles cross-border estates before you sign. If you are a US citizen, add US tax reporting and the fact that some French banks are reluctant to take US persons."
+      },
+      {
+        heading: "Who this works for, and a sensible order of play",
+        body: "Buying makes most sense for someone who will actually use the place for several months a year, or who plans to retire to it, rather than someone chasing a quick yield. Before buying: rent for a season in the area you like, ideally in winter as well as summer; speak to an accountant who knows both your country's and France's tax systems; choose a notary with an international clientele; and put down a bigger deposit rather than relying on a complicated non-resident loan. Avoid the impulse purchase made on a holiday, the property priced well above local sales, and the flat with heavy building charges you have not read the accounts for."
+      }
+    ],
+    relatedCities: ["paris", "nice", "bordeaux", "aix-en-provence", "annecy"],
+    tags: ["non-resident", "buying property", "mortgage", "notary", "tax", "2026"],
+  },
+  {
+    slug: "lmnp-furnished-rental-france-which-cities-2026",
+    title: "LMNP furnished rental in France: how it works and which cities suit it (2026)",
+    metaTitle: "LMNP furnished rental in France: how it works (2026)",
+    metaDesc: "LMNP is France's favoured tax regime for furnished lets. Micro-BIC versus real regime, student, professional and tourist rentals, and the traps in 2026.",
+    category: "budget",
+    emoji: "📊",
+    readMinutes: 9,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "LMNP (loueur en meublé non professionnel) is the tax status most small landlords in France use for furnished rentals. Done well it can keep taxable rental profit close to zero for years. Done badly, or sold on a promotional brochure, it produces yields on paper that never reach your bank account. This guide explains the two tax regimes, which kind of tenant suits which type of city, and the points that changed recently.",
+    sections: [
+      {
+        heading: "Two regimes, one choice",
+        body: "Under the micro-BIC regime you declare your rent and the tax office automatically applies a flat allowance for costs: 50 percent for a standard long-term furnished let, within an annual rent ceiling of 77,700 euros. It is simple and suits modest, uncomplicated lets. Under the real regime (régime réel) you deduct actual costs: loan interest, property tax, building charges, repairs, insurance, an accountant, and also depreciation of the building and the furniture. Depreciation is a book entry, not cash out, which is why the real regime can reduce taxable profit to nothing for a decade or more. It requires proper accounts, usually prepared by an accountant who specialises in LMNP, at a cost of a few hundred euros a year. The real regime generally wins once the property is financed."
+      },
+      {
+        heading: "Student lets",
+        body: "Small flats near a university or a school, rented at a modest monthly rent. Demand is strong from September to June and there is often a gap in summer. Cities with large student populations and moderate prices, such as Rennes, Montpellier, Toulouse and Lille, are the usual targets; Bordeaux has a big student population but higher purchase prices, which squeezes the yield. The risks are tenant turnover every year, more active management, and fragile buildings with weak co-ownership finances. Check the building's charges and works plan before you buy, not just the rent."
+      },
+      {
+        heading: "Professional and family lets",
+        body: "A one- or two-bedroom flat in the centre of a regional capital, rented to a working tenant on a longer stay. The rent is higher and vacancy lower, and management is easier. Large metropolitan areas such as Lyon, Nantes and Bordeaux have the most stable demand but low gross yields because the purchase price is high. Mid-sized cities such as Reims, Tours, Angers, Caen and Rouen usually offer better gross yields, with a calmer market. Very small prefecture towns can show high gross yields on paper, but resale and vacancy risk is higher, so a headline yield there needs more scepticism, not less."
+      },
+      {
+        heading: "Tourist lets: the rules keep tightening",
+        body: "Short lets by the night can earn much more per month than a long-term tenant, and also cost more to run: cleaning, linen, platform fees, a concierge. They are also where the rules have moved most. Many towns require you to register the property and display a registration number, caps on nights apply to a main home, local rules in tourist hot spots such as Paris and the Riviera are strict, and the tax allowance for tourist lets was cut in 2024 and has been adjusted since. Your co-ownership rules may also ban short lets outright. Treat any yield quoted for a tourist let as provisional until you have read the current local and tax rules."
+      },
+      {
+        heading: "How to work out the real return",
+        body: "Start with the purchase price plus notary fees. Divide the annual rent by that figure to get the gross yield. Then subtract what you actually pay each year: property tax, building charges, insurance, management or accountancy, and an allowance for empty months. That is your net yield before tax. Only then add the tax effect of the regime you will use. If the property is financed, look at cash flow after loan payments as well, because a yield that looks fine can leave you paying the bank out of your own pocket each month. Developers' brochures often quote gross figures of 6 or 7 percent; the net result after all costs is regularly several points lower."
+      },
+      {
+        heading: "Traps to avoid in 2026",
+        body: "Be wary of managed residences (student, senior or care-home flats) sold with a guaranteed rent: the guarantee sits in a commercial lease that can be renegotiated, and rent cuts have been imposed on owners in the past. On resale, a 2025 change means that depreciation you have claimed is now generally added back when calculating the taxable gain, with exceptions for some serviced residences, so the apparent tax-free years are partly a deferral. Furnished landlords whose rent exceeds 23,000 euros a year and more than half their income can slip from LMNP to the professional status (LMP), which has different social contributions. Rent control now applies in a growing list of towns, so check the zoning before you buy. And thresholds and allowances change from year to year, so confirm the current figures with an accountant."
+      },
+      {
+        heading: "Who it suits",
+        body: "The profile that works best is a patient investor with a deposit, a stable income, and a 15 to 25 year horizon, buying a professional-tenant flat in a mid-sized regional city rather than chasing the highest advertised yield. Use the real regime from the start if you are borrowing, and do the sums on net figures. Avoid student flats in a town without a real university, tourist lets without local knowledge, and the centres of the most expensive cities, where the price per square metre leaves little yield."
+      }
+    ],
+    relatedCities: ["lille", "rennes", "montpellier", "toulouse", "nantes"],
+    tags: ["lmnp", "furnished rental", "rental investment", "tax", "student housing", "2026"],
+  },
+  {
+    slug: "second-home-in-france-tax-traps-where-it-makes-sense-2026",
+    title: "Second home in France in 2026: tax traps and where it makes sense",
+    metaTitle: "Second home in France: tax traps and best places (2026)",
+    metaDesc: "Second-home tax in France: the resident surcharge, wealth tax on property, capital gains, short-let limits, and where buying a holiday home is sensible.",
+    category: "budget",
+    emoji: "🏖️",
+    readMinutes: 9,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "A holiday home in France is a long-held dream for many foreigners. In 2026 it also comes with a tax and regulation environment that has tightened: a surcharge on second-home occupancy tax in many towns, the property wealth tax still in place, tougher rules on short lets, and capital gains that are taxed on resale. This guide sets out what you pay, what you cannot do, and where a second home still makes sense.",
+    sections: [
+      {
+        heading: "Residence tax on second homes",
+        body: "The occupancy tax (taxe d'habitation) was abolished for main homes but remains in force for second homes. It is based on the property's cadastral rental value times the local rate. In towns the government designates as high-demand zones, the town council may add a surcharge of between 5 and 60 percent. The list of surcharging towns is published on the official public-service website, and it includes a number of big cities and coastal and mountain resorts. Exemptions exist in narrow cases, such as a home you must keep for work. The bill depends heavily on the town, so ask the seller for the latest tax notice before you offer."
+      },
+      {
+        heading: "Wealth tax on property (IFI)",
+        body: "France replaced its general wealth tax with a tax on property wealth (impôt sur la fortune immobilière). It applies if your net taxable French and foreign property assets are above 1.3 million euros, and non-residents are taxed on French property. Your main home gets a 30 percent allowance; second homes, rentals and property company shares count in full, less outstanding loans. Rates are progressive from 0.5 percent upwards. Couples with a Paris home and a country house can reach the threshold without feeling wealthy. Legal planning tools exist, including splitting ownership into usufruct and bare ownership and family property companies, but they need a notary or tax adviser."
+      },
+      {
+        heading: "Selling: capital gains",
+        body: "Selling a main home is tax-free, selling a second home is not. The gain is the sale price minus the purchase price, minus acquisition costs and documented improvement works. The longer you hold, the bigger the allowances: income tax on the gain disappears after 22 years, social charges after 30. Because the allowances build slowly, holding for a long time is the best tax planning. Keep every invoice for works. If you plan to sell, speak to a notary about timing and any restructuring before signing."
+      },
+      {
+        heading: "Short lets and holiday rentals",
+        body: "Many owners cover part of their costs by renting to holiday guests. The regime has hardened. A main home can only be rented short-term for a limited number of nights a year, set by law and lowered by some towns. Many towns require a registration number to be displayed on the listing, and fines for breaches are heavy. Co-ownership rules can forbid short lets altogether. Tax treatment of short-let income has also changed and now depends on whether the property is officially classed as a tourist furnished rental. VAT can apply if you provide hotel-style services such as breakfast and daily cleaning. Check all of this at the town hall before you count on rental income."
+      },
+      {
+        heading: "Where it makes sense, and where it does not",
+        body: "The sensible places are those where the property price is reasonable against what you would use it for: the quieter stretches of the Brittany and Normandy coasts away from the best-known harbour towns, the rural Landes behind the surf coast, inland Provence and the Drôme, the Pyrenean valleys, the Massif Central, and the Alsace wine villages. The places where the sums work against you are those where prices are already inflated and the surcharge and short-let limits bite hardest: central Paris, the Île de Ré, the Annecy lake shore, the Côte d'Azur centres, the Biarritz–Bayonne core, La Rochelle and Saint-Malo inside the walls, and the big mountain resorts."
+      },
+      {
+        heading: "The honest calculation",
+        body: "Count the purchase price, notary fees of around 7 to 8 percent on older homes, works to bring it up to standard, the occupancy tax, maintenance (a common rule of thumb is 1 to 2 percent of the price a year), insurance, energy and travel. Over 15 years these can add up to a third or more of the purchase price. Compare this to renting a holiday home for your weeks of use. A second home makes sense if you will use it about eight weeks a year or more, it is a long-term project such as a retirement base or family inheritance, and the cost is a comfortable fraction of your wealth. It makes much less sense as a spur-of-the-moment purchase in a tense, overpriced market. Rent in the area for a few seasons first."
+      }
+    ],
+    relatedCities: ["nice", "saint-malo", "biarritz", "annecy", "la-rochelle"],
+    tags: ["second home", "holiday home", "property tax", "wealth tax", "short-term rental", "2026"],
+  },
+  {
+    slug: "solar-panels-self-consumption-france-worth-it-2026",
+    title: "Solar panels in France: when self-consumption pays off in 2026",
+    metaTitle: "Solar panels in France: is it worth it in 2026?",
+    metaDesc: "How to work out whether rooftop solar pays in France: sunshine by region, cost, self-consumption, feed-in tariff and the door-to-door sales traps.",
+    category: "budget",
+    emoji: "☀️",
+    readMinutes: 8,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Rooftop solar is sold hard in France, often by door-to-door sellers promising near-guaranteed returns. The truth is more mixed. How well a system pays depends on three things: how much sun your roof gets, how much of the power you use at home as it is produced, and the price per installed watt you negotiate. This guide shows how to do the sum yourself, with the typical ranges that matter.",
+    sections: [
+      {
+        heading: "Three ways to sell or use the power",
+        body: "In France you can use all of your production on site, use what you can and sell the surplus to the grid, or sell everything. The middle option is the common one for houses. The rest of the surplus is bought at a regulated feed-in price set by order every quarter, in the order of 10 to 13 cents per kilowatt-hour for small systems, which you should confirm at the time you sign. The key question is what share of your production you will actually use: a couple who are out all day with no electric heating or car may struggle to pass a quarter to a third, while a home with remote working, a programmable water heater and a car charged at midday can reach well above half."
+      },
+      {
+        heading: "What an installation costs",
+        body: "Typical turnkey prices in early 2026 are roughly 6,500 to 9,500 euros for a 3 kWp system, 11,000 to 15,000 euros for 6 kWp, and 15,000 to 20,000 euros for 9 kWp, including panels, inverter, fitting and paperwork. A reduced VAT rate applies up to 3 kWp on a main home. The installer should hold the RGE QualiPV certification, which is needed for the self-consumption premium, and the quote should state power, brand, orientation, and expected yearly production in kilowatt-hours. Check manufacturer guarantees of at least 10 years on equipment, with a performance guarantee on the panels."
+      },
+      {
+        heading: "Premium and feed-in price",
+        body: "A one-off self-consumption premium is paid on small installations, set by quarterly order and falling over recent years; at the time of writing it is in the low hundreds of euros per kWp, so confirm the figure for the quarter in which your connection certificate is filed. The feed-in price for surplus is guaranteed for 20 years from the date of connection. The system must be installed by a certified professional, connected via the grid operator Enedis, and pass the electrical conformity check (Consuel)."
+      },
+      {
+        heading: "Sun by region",
+        body: "French sunshine does vary, though less than the sales pitch suggests. Using the European Commission's PVGIS tool, a kilowatt of panels produces something like 1,350 to 1,500 kWh a year around Marseille, 1,150 to 1,250 near Lyon, 1,050 to 1,150 near Nantes and 950 to 1,050 around Lille. That is around a 40 percent gap between south and north. Orientation and tilt matter nearly as much: a south-facing roof at 30 to 35 degrees yields 15 to 20 percent more than east or west, and shade from a chimney or tree can cost 10 to 30 percent of annual output. A well-placed system in Lille can beat a poorly placed one in Marseille."
+      },
+      {
+        heading: "The calculation to do at home",
+        body: "Take a 6 kWp system at 12,500 euros in the south: roughly 8,400 kWh a year. If you use 40 percent yourself at about 25 cents a kWh, you save around 840 euros; selling the other 5,000 kWh at the feed-in price brings in several hundred more, for a gross return of around 1,400 euros a year and a payback of 8 to 10 years. The same system in the north produces nearly a third less and pays back in 12 to 14 years. Run your own figures with your regional output, a realistic self-consumption share and your negotiated price, and get at least two quotes from local certified installers."
+      },
+      {
+        heading: "What kills the return",
+        body: "Four things do. First, oversizing: a salesperson paid by power sold pushes 9 kWp when 3 to 4 kWp would match your use, and surplus power earns far less than power you use yourself. Second, a roof in poor shape, north facing or shaded, where you must reroof first. Third, financing through a high-rate consumer loan offered at the door, which can swallow much of the saving; compare it with your own bank. Fourth, inflated pricing: identical panels from a door-to-door company can cost twice as much as from a local installer. If a quote is more than 15 to 20 percent above others, ask why."
+      },
+      {
+        heading: "Ways to raise the return, and a verdict",
+        body: "Shift your use into the daytime: a water heater controlled by a solar switch, a washing machine run at noon, a car charged midday. These steps can lift self-consumption from around 30 percent to 45 to 55 percent. A heat pump or electric car can push it higher. A home battery is rarely worth it today at several thousand euros, though it may become so if feed-in prices fall; you can usually add one later. In short, solar pays in most French homes with a decent roof and a fair quote, somewhat better south of the Loire. It is an infrastructure asset over 25 years, not a quick financial product."
+      }
+    ],
+    relatedCities: ["marseille", "montpellier", "perpignan", "avignon", "toulouse", "nice"],
+    tags: ["solar panels", "photovoltaic", "self-consumption", "energy", "home costs", "2026"],
+  },
+  {
+    slug: "raising-bilingual-english-french-children-france-which-cities-2026",
+    title: "Raising bilingual English-French children in France: which cities work",
+    metaTitle: "Bilingual English-French family: best French cities",
+    metaDesc: "Where raising bilingual children in France is realistic: international sections, bilingual schools, English-speaking communities and what they cost.",
+    category: "family",
+    emoji: "🌐",
+    readMinutes: 8,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Children do not become bilingual in France through a weekly English class. They need a setting where English is heard, spoken and read as a matter of course. This guide looks at the French cities where that is realistic, using three tests: the schools, the English-speaking community, and the cultural infrastructure around it. One or two out of three is not enough.",
+    sections: [
+      {
+        heading: "What we look at",
+        body: "Schools come first. In France you can choose public international sections (free, but selective and usually requiring the child to have a real level in the language), private international schools, or bilingual private schools. Next is the community: how many English-speaking families live nearby, what associations run, and what local media exist in English. Last is culture: English-language bookshops, original-version cinemas, festivals and clubs. Bilingualism needs all three. The rest of this guide is a list of places that have them."
+      },
+      {
+        heading: "Paris and the west",
+        body: "Paris is the first choice by a distance. The Lycée International in Saint-Germain-en-Laye offers public British and American sections; private options include École Active Bilingue Jeannine Manuel and several others. The English-speaking community in the Paris region is large, with English bookshops, original-version cinemas and an American library. The cost is the main drawback, in school fees and in housing. The 7th, 15th, 16th and 17th arrondissements and the western suburbs have the densest school choice."
+      },
+      {
+        heading: "Lyon and Strasbourg",
+        body: "Lyon has the Cité Scolaire Internationale in Gerland, with a public British section chosen on file, plus private bilingual options and an international community linked to the city's pharmaceutical and banking employers. Housing is more manageable than Paris. English bookshops are thin. Strasbourg is the European option, with the European School and an international section at a public lycée; the community is drawn from EU institutions and the Council of Europe, and children also hear German, which makes trilingualism an easy step."
+      },
+      {
+        heading: "Toulouse, Aix-Marseille, the Riviera and Bordeaux",
+        body: "Toulouse has an international school and a public international section; the Airbus community there works largely in English. Aix-en-Provence and Marseille have private international schools and a sizeable foreign community. The Riviera has several international schools, notably around the Sophia Antipolis technology park, which is English-speaking by nature, though housing is expensive. Bordeaux has an international school and a smaller but lively English-speaking community. Nantes, Rennes and Lille have public international sections but a more scattered community."
+      },
+      {
+        heading: "What it costs",
+        body: "Private international schools charge roughly 7,000 to 18,000 euros a year at primary level. Public international sections are free but competitive, and some are only open to children who already read and write the language. Families who are not native English speakers can supplement with summer camps and exchange stays between ages 13 and 17."
+      },
+      {
+        heading: "A realistic target",
+        body: "To end up with a teenager who speaks English naturally, aim for a school that teaches at least around 30 percent of the time in English and an English-speaking home or neighbourhood. Public international sections are the best value but the hardest to enter. If you are choosing a city for this, rank Paris, Lyon, Strasbourg and Aix first, then Nice and Toulouse, and keep Bordeaux, Nantes and Lille as cheaper second-tier options. Visit the schools, ask about waiting lists, and check admission rules before you rent a flat."
+      }
+    ],
+    relatedCities: ["paris", "lyon", "strasbourg", "aix-en-provence", "toulouse"],
+    tags: ["bilingual", "international school", "expat family", "english speaking", "schools", "2026"],
+  },
+  {
+    slug: "freelancing-in-france-choosing-a-city-micro-entrepreneur-2026",
+    title: "Freelancing in France: choosing a city as a micro-entrepreneur",
+    metaTitle: "Freelancing in France: best cities for micro-entrepreneurs",
+    metaDesc: "As a micro-entrepreneur in France your rent is the cost you control. Business-rates, coworking, freelance networks and cities compared for 2026.",
+    category: "remote-work",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "As a French micro-entrepreneur (auto-entrepreneur) your turnover is gross: what you keep depends on your fixed costs, and the biggest one you control is rent. A freelancer who moves from Paris to Nantes, Rennes or Mulhouse can often cut housing costs by several hundred euros a month without changing clients. This guide covers what is the same everywhere, what varies by town, and which cities offer a good mix of cost, network and quality of life. If you are a foreigner, first check that your residence permit lets you work for yourself.",
+    sections: [
+      {
+        heading: "What does not change by city",
+        body: "The micro-entrepreneur regime is national. Social contribution rates are fixed by activity type and published by the URSSAF, the social-security collection agency; they have been changing, so check the current rates. The optional flat income-tax payment is national too. What does vary is the CFE (cotisation foncière des entreprises), a local business property tax based on the rental value of where you work. If you work from home, your home is the basis. Towns set their own rate, so the bill is higher in some big cities than in many smaller ones. Your first year of business is exempt, so use it to get settled in the city you plan to stay in."
+      },
+      {
+        heading: "Cities with strong freelance networks",
+        body: "Isolation is a leading reason freelancers give up, so look for an active local network of coworking spaces and meetups. Paris is irreplaceable in sectors such as finance, fashion and premium communications agencies, but the cost eats much of your income. Lyon has a very active freelance scene and rents well below Paris. Bordeaux, Nantes and Rennes each have a dense digital and creative sector with more reasonable prices away from the very centre. Toulouse suits consultants in aerospace and health. Montpellier has an established digital-nomad community and a lower cost of living than Bordeaux. Less obvious choices include Angers, Caen and Perpignan."
+      },
+      {
+        heading: "The sums: Paris against a regional city",
+        body: "Take a consultant with 60,000 euros of annual turnover. Social contributions and the flat income tax come to the same in every city. Rent on a central two-room flat, however, can be around 1,500 euros a month in Paris against about 780 in Nantes. That is a difference of roughly 700 euros a month, or 8,600 a year, with no change of client or activity. Most clients are national or international and do not care where you are. Paris wins mainly when you need to be on site for meetings, and even then a fast train from Nantes or Rennes makes the maths favourable up to a few trips a month."
+      },
+      {
+        heading: "Coworking",
+        body: "Working from home suits some people and not others. A flexible desk in a coworking space is much cheaper than renting an office: it costs more in Paris and Lyon, less in Bordeaux, Nantes, Rennes and Montpellier, and much less in smaller cities. Quality varies: some spaces are silent rooms, others run events and become your professional network. Take a trial day pass and test the actual upload speed of the connection, not the advertised one."
+      },
+      {
+        heading: "Local support",
+        body: "Some regions and cities offer support for new businesses: relief on the business property tax, subsidised desks in shared work spaces, networking programmes, equipment grants in sparsely populated areas. These change often and are rarely decisive. Ask the local chamber of commerce, the chamber of trades, or the microfinance charity ADIE before you choose."
+      }
+    ],
+    relatedCities: ["lyon", "nantes", "rennes", "bordeaux", "montpellier", "toulouse"],
+    tags: ["freelance", "micro-entrepreneur", "auto-entrepreneur", "coworking", "business tax", "2026"],
+  },
+  {
+    slug: "test-a-french-city-before-you-move-recce-weekend-2026",
+    title: "How to test a French city before moving: the recce weekend",
+    metaTitle: "Test a French city before you move: recce weekend",
+    metaDesc: "A sunny Saturday tells you nothing. How to plan a recce weekend in a French city that checks commute, noise, services and the Sunday-evening test.",
+    category: "lifestyle",
+    emoji: "🧭",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "People pick a city the way they fall in love: on an impression, a sunny Saturday, a good terrace. Six months later they discover the ring road noise, the dead Sunday evening and the school run that takes forty minutes. A recce weekend is meant to turn that impression into a decision, provided you run it properly. Here is how.",
+    sections: [
+      {
+        heading: "Why one visit is not enough",
+        body: "A spontaneous visit usually takes place in the worst conditions for deciding: a Saturday, in good weather, wandering the historic centre. You never see the commute on a Tuesday at 8 a.m., the town on a Sunday night, or a residential street at 11 p.m. Confirmation bias does the rest. Do your homework before you set off: read the city's profile, compare scores for safety, transport, climate and cost, and shortlist two or three candidates. The weekend is for checking specific hypotheses on the ground."
+      },
+      {
+        heading: "Choose the weekend carefully",
+        body: "A city has different faces in different seasons. A May visit to Montpellier says nothing about August heat. A mountain town in summer hides winter ice roads and a sun that sets at 5 p.m. A seaside town like La Rochelle out of season shows real local life without the July crowds. The day matters too. Saturday shows the market and the buzz but is misleading. Friday at about 5 p.m. shows rush-hour traffic. Sunday evening is the cruellest and most useful test: a town that is dead on a Sunday night will be dead every Sunday. Ideally arrive Friday afternoon and leave Sunday after dinner."
+      },
+      {
+        heading: "Live like a resident for 48 hours",
+        body: "Friday evening: drive in at rush hour and park where you would actually live, not in the central car park. Saturday morning: walk the neighbourhood you can afford, and time the walk to the bakery, the stop and the school. Saturday lunch: eat in an ordinary neighbourhood cafe, not a tourist address. Saturday afternoon: do a real resident's errands, at the pharmacy, supermarket and library. Sunday morning: see whether people are out, whether shops open and whether the town breathes."
+      },
+      {
+        heading: "Reading a neighbourhood",
+        body: "Almost every French town centre is pretty. The real question is whether the neighbourhood you can afford is liveable. Look at secondary streets, not only the shopping street, and walk them twice, around 8 a.m. and 7 p.m., to see who lives there. A telling sign is empty shop fronts: a street with several closed shops and yellowing to-let signs is losing life whatever the estate agent says. Independent food shops that are busy, a school that overflows at pick-up and well-kept public spaces are good signs."
+      },
+      {
+        heading: "Weak signals that tell the truth",
+        body: "Noise at night: stand outside the address at 11 p.m., or sleep a night with the window ajar. Cleanliness: a little litter is normal, graffiti that is never cleaned is not. Mobile and broadband: check the precise address on the regulator's coverage map, since fibre sometimes stops at the end of the street. And talk to two or three people who have lived there more than five years, never the estate agent. Ask: what surprised you badly after you arrived? Every town has a flaw. The aim is to find it before you sign and decide whether you can live with it."
+      },
+      {
+        heading: "Fill in a checklist before you drive home",
+        body: "Do not trust your memory. Record the commute you actually measured, your monthly fixed costs there (rent or mortgage, transport, parking, energy), the one flaw you cannot accept, and a score for the specific neighbourhood. If you are comparing cities, give each the same grid. Above all, do not decide in the car on the way home, buoyed by the weekend. Wait a week. If you still want it once the tiredness has gone and the numbers are rechecked, it is probably the right city."
+      }
+    ],
+    relatedCities: ["rennes", "nantes", "angers", "tours", "la-rochelle"],
+    tags: ["moving", "city visit", "checklist", "quality of life", "neighbourhoods", "2026"],
+  },
+  {
+    slug: "buying-a-country-house-in-france-where-rural-life-works-2026",
+    title: "Buying a country house in France: where rural life really works",
+    metaTitle: "Buying a country house in France: where it works",
+    metaDesc: "Pretty countryside is not the same as liveable countryside. Five tests (fibre, doctor, school, shop, market town) and the traps of rural buying in France.",
+    category: "lifestyle",
+    emoji: "🏡",
+    readMinutes: 8,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "A house in the country, with a garden and quiet, is a recurring French dream. In 2026 the countryside splits in two: areas with fibre broadband, doctors and schools, and areas where services keep shrinking. This guide gives five tests to tell liveable countryside from picturesque countryside, the regions that usually pass or fail them, and the traps in buying an old rural house.",
+    sections: [
+      {
+        heading: "Five tests for liveable countryside",
+        body: "First, fibre broadband (FTTH) at 300 Mbit/s or better, which you can check on the regulator's map; without it remote work and online services suffer. Second, a hospital or health centre within about 30 minutes by car. Third, a primary school in the village or a neighbouring one within about 15 minutes, otherwise the school run takes over the day. Fourth, a supermarket or collection point within about 20 minutes. Fifth, a market town or sub-prefecture within about 40 minutes for administration and social life. If a place fails more than one of these, treat it as a lifestyle project, not a home."
+      },
+      {
+        heading: "Where it usually works",
+        body: "Outer commuter belt around Paris (west Yvelines, south Essonne, Seine-et-Marne) keeps Paris within reach. Rural Centre-Val de Loire around Tours, Orléans and Blois has quick broadband, a mild climate and affordable houses. Inland Brittany, rural Pays de la Loire, and the Charente, Vienne and Deux-Sèvres in Nouvelle-Aquitaine have solid services. The Drôme and southern Ardèche combine climate with services, and the Alsace plain has dense services at reasonable prices."
+      },
+      {
+        heading: "Where it is harder, but possible",
+        body: "The deep Massif Central (Creuse, Lozère, rural Cantal) is cheap and increasingly connected, but services are thin, so it suits people who accept real isolation for a few years. The Pyrenean valleys offer great scenery with limited services. The rural Lot, Aveyron and Tarn have heritage and climate but strained medical services. Inland Provence has beauty and heat but crowded summers and a worsening drought risk."
+      },
+      {
+        heading: "Where to be careful",
+        body: "Areas such as the Lorraine plateaux, the Champagne chalk plains, deep Picardy and parts of the Sologne and Berry have falling populations, harsher winters or very low density, and confirmed medical shortages. That does not make them unlivable for everyone, but they suit only a specific profile with eyes open."
+      },
+      {
+        heading: "The traps of buying an old rural house",
+        body: "Renovation is the big one: an old country house often has a poor energy rating (F or G), and insulation, roof, wiring and plumbing can add up quickly. Properties without mains drainage have a septic tank that must be brought up to standard, often at a cost of several thousand euros, before sale. Check flood risk on the official hazards website before you offer. Farming neighbours spray, run machinery early and may have livestock; ask the neighbours. Hunting runs for months of the year, so find out who holds the local hunting rights. The school may be ten kilometres away in practice. Two adults in the country usually need two cars, which adds heavily to monthly costs."
+      },
+      {
+        heading: "A sensible way to buy",
+        body: "Rent for six to twelve months, through winter as well as summer, before buying. Run the five tests before you make an offer. Aim for an energy rating of C or D. Pay an independent craftsman or surveyor for an energy and structural audit before the offer; it costs hundreds of euros and can save tens of thousands. Check hazard plans (flood, subsidence, clay shrink-swell). Hold a renovation reserve of around 30 percent of the price. Visit at different times of day and talk to the immediate neighbours."
+      },
+      {
+        heading: "Who this suits",
+        body: "Country life works well for a remote worker with stable income, a couple or retiree in their fifties or sixties who can still drive and are not tied to young children, a family with teenagers who accept the school run, and anyone handy or with a comfortable renovation budget. It works badly for couples with very young children facing medical or school isolation, for older people with frequent health needs, for people who depend on city services every day, and for anyone with no renovation margin. The sweet spot is a small commune within about 20 minutes of a larger market town, with fibre, a decent energy rating, and a checked flood map."
+      }
+    ],
+    relatedCities: ["aurillac", "guingamp", "auxerre", "rodez", "le-puy-en-velay"],
+    tags: ["country house", "rural france", "fibre broadband", "renovation", "rural life", "2026"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

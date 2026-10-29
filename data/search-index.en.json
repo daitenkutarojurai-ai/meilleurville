@@ -9630,6 +9630,46 @@
       "slug": "low-emission-zones-zfe-crit-air-france-cities-2026",
       "title": "Low-emission zones (ZFE) in France: what the Crit'Air sticker means for your car and your city choice",
       "emoji": "🚗"
+    },
+    {
+      "slug": "buying-property-in-france-as-a-non-resident-2026",
+      "title": "Buying property in France as a non-resident in 2026: process, tax, traps",
+      "emoji": "🌐"
+    },
+    {
+      "slug": "lmnp-furnished-rental-france-which-cities-2026",
+      "title": "LMNP furnished rental in France: how it works and which cities suit it (2026)",
+      "emoji": "📊"
+    },
+    {
+      "slug": "second-home-in-france-tax-traps-where-it-makes-sense-2026",
+      "title": "Second home in France in 2026: tax traps and where it makes sense",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "solar-panels-self-consumption-france-worth-it-2026",
+      "title": "Solar panels in France: when self-consumption pays off in 2026",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "raising-bilingual-english-french-children-france-which-cities-2026",
+      "title": "Raising bilingual English-French children in France: which cities work",
+      "emoji": "🌐"
+    },
+    {
+      "slug": "freelancing-in-france-choosing-a-city-micro-entrepreneur-2026",
+      "title": "Freelancing in France: choosing a city as a micro-entrepreneur",
+      "emoji": "💼"
+    },
+    {
+      "slug": "test-a-french-city-before-you-move-recce-weekend-2026",
+      "title": "How to test a French city before moving: the recce weekend",
+      "emoji": "🧭"
+    },
+    {
+      "slug": "buying-a-country-house-in-france-where-rural-life-works-2026",
+      "title": "Buying a country house in France: where rural life really works",
+      "emoji": "🏡"
     }
   ],
   "tags": [
@@ -9864,6 +9904,11 @@
       "count": 11
     },
     {
+      "slug": "rural-france",
+      "label": "rural france",
+      "count": 11
+    },
+    {
       "slug": "auvergne",
       "label": "auvergne",
       "count": 10
@@ -9881,11 +9926,6 @@
     {
       "slug": "pyrenees",
       "label": "pyrenees",
-      "count": 10
-    },
-    {
-      "slug": "rural-france",
-      "label": "rural france",
       "count": 10
     },
     {
@@ -9907,6 +9947,11 @@
       "slug": "strasbourg",
       "label": "strasbourg",
       "count": 9
+    },
+    {
+      "slug": "2026",
+      "label": "2026",
+      "count": 8
     },
     {
       "slug": "champagne",
@@ -10059,6 +10104,11 @@
       "count": 6
     },
     {
+      "slug": "quality-of-life",
+      "label": "quality-of-life",
+      "count": 6
+    },
+    {
       "slug": "reims",
       "label": "reims",
       "count": 6
@@ -10091,11 +10141,6 @@
     {
       "slug": "nancy",
       "label": "nancy",
-      "count": 5
-    },
-    {
-      "slug": "quality-of-life",
-      "label": "quality-of-life",
       "count": 5
     },
     {
@@ -10179,6 +10224,11 @@
       "count": 3
     },
     {
+      "slug": "bilingual",
+      "label": "bilingual",
+      "count": 3
+    },
+    {
       "slug": "brittany-retirement-expat",
       "label": "Brittany retirement expat",
       "count": 3
@@ -10239,6 +10289,11 @@
       "count": 3
     },
     {
+      "slug": "mortgage",
+      "label": "mortgage",
+      "count": 3
+    },
+    {
       "slug": "notaire",
       "label": "notaire",
       "count": 3
@@ -10261,6 +10316,11 @@
     {
       "slug": "sea-level-rise",
       "label": "sea level rise",
+      "count": 3
+    },
+    {
+      "slug": "tax",
+      "label": "tax",
       "count": 3
     },
     {
