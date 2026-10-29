@@ -32,6 +32,7 @@ export function generateStaticParams() {
 }
 
 const THE: Record<Bloc, string> = {
+  extreme_gauche: "l'extrême gauche",
   gauche: "la gauche",
   centre: "le centre",
   droite: "la droite",
@@ -82,7 +83,7 @@ export default async function CityPresidentielle2027Page({ params }: Props) {
     .sort((a, b) => b.pct - a.pct);
   const nameBySlug = new Map(CITIES_SEED.map((c) => [c.slug, c]));
 
-  // Villes au vote 2022 le plus proche (distance sur les quatre familles) :
+  // Villes au vote 2022 le plus proche (distance sur les cinq familles) :
   // un maillage qui a un sens, pas une liste alphabétique.
   const all = allPoliticalLeans();
   const similar = all

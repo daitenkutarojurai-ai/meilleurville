@@ -26,6 +26,7 @@ export async function generateStaticParams() {
 }
 
 const THE: Record<Bloc, string> = {
+  extreme_gauche: "the far left",
   gauche: "the left",
   centre: "the centre",
   droite: "the right",

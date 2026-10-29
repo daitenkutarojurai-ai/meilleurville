@@ -34,11 +34,11 @@ const BASE_COLS = 21;
 const BLOCK = 7;
 
 const BLOC = {
-  ARTHAUD: "gauche", ROUSSEL: "gauche", MELENCHON: "gauche",
-  HIDALGO: "gauche", JADOT: "gauche", POUTOU: "gauche",
+  ARTHAUD: "extreme_gauche", POUTOU: "extreme_gauche",
+  ROUSSEL: "gauche", MELENCHON: "gauche", HIDALGO: "gauche", JADOT: "gauche",
   MACRON: "centre",
-  PECRESSE: "droite", LASSALLE: "droite",
-  "LE PEN": "extreme_droite", ZEMMOUR: "extreme_droite", "DUPONT-AIGNAN": "extreme_droite",
+  PECRESSE: "droite", LASSALLE: "droite", "DUPONT-AIGNAN": "droite",
+  "LE PEN": "extreme_droite", ZEMMOUR: "extreme_droite",
 };
 const SLUG = {
   ARTHAUD: "arthaud", ROUSSEL: "roussel", MELENCHON: "melenchon",
@@ -46,7 +46,12 @@ const SLUG = {
   MACRON: "macron", PECRESSE: "pecresse", LASSALLE: "lassalle",
   "LE PEN": "lepen", ZEMMOUR: "zemmour", "DUPONT-AIGNAN": "dupont-aignan",
 };
-const BLOC_KEYS = ["gauche", "centre", "droite", "extreme_droite"];
+// Grille des nuances du ministère de l'Intérieur : LO et NPA en extrême gauche
+// (EXG), Debout la France en droite souverainiste (DSV, bloc droite), RN et
+// Reconquête en extrême droite. Symétrique à gauche et à droite (corrigé
+// 2026-10-29 sur signalement d'un lecteur : l'extrême gauche était fondue
+// dans la gauche alors que l'extrême droite était isolée).
+const BLOC_KEYS = ["extreme_gauche", "gauche", "centre", "droite", "extreme_droite"];
 // Only these Z* codes are overseas départements whose communes carry a 97xxx
 // INSEE code; the other Z* blocks (ZZ = Français de l'étranger above all)
 // collide with them and silently merged embassy votes into Antilles communes.
@@ -149,7 +154,7 @@ function entryFor(insee, matchedBy, v, m) {
     lean: topBloc,
     topPct: blocs[topBloc],
     blocs,
-    leanScore: round1(blocs.droite + blocs.extreme_droite - blocs.gauche),
+    leanScore: round1(blocs.droite + blocs.extreme_droite - blocs.gauche - blocs.extreme_gauche),
     insee,
     matchedBy,
     cands,

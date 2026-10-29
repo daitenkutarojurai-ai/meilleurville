@@ -13,7 +13,7 @@ import { POLLS_2027 } from "@/data/presidential-2027-polls";
 // Indicative political-lean metric for a city, from the 2022 presidential
 // 1st-round commune result. Pure display: the lean is computed by the caller
 // (getPoliticalLean drags a 107 KB JSON — keep it server-side). Shows the
-// plurality bloc, a left→right stacked bar of the four blocs, a legend, and a
+// plurality bloc, a left→right stacked bar of the five blocs, a legend, and a
 // sourced "indicatif" caption. Renders nothing if the city has no data.
 export function PoliticalLean({
   lean,
@@ -48,11 +48,11 @@ export function PoliticalLean({
   // Présidentielle 2027 d'abord : c'est la question que les lecteurs se posent.
   const proj = project2027(p.blocs);
   const projSegments = BLOC_ORDER.filter((b) => proj.blocs[b] > 0);
-  // Article inclus : « sur la gauche », « sur l'extrême droite ».
+  // Article inclus : « sur la gauche », « sur l'extrême gauche », « sur l'extrême droite ».
   const THE: Record<Bloc, string> =
     locale === "en"
-      ? { gauche: "the left", centre: "the centre", droite: "the right", extreme_droite: "the far right" }
-      : { gauche: "la gauche", centre: "le centre", droite: "la droite", extreme_droite: "l'extrême droite" };
+      ? { extreme_gauche: "the far left", gauche: "the left", centre: "the centre", droite: "the right", extreme_droite: "the far right" }
+      : { extreme_gauche: "l'extrême gauche", gauche: "la gauche", centre: "le centre", droite: "la droite", extreme_droite: "l'extrême droite" };
   const p27 =
     locale === "en"
       ? {
@@ -120,7 +120,7 @@ export function PoliticalLean({
         <span className="tabular-nums text-[var(--text-tertiary)]">({p.topPct}%)</span>
       </p>
 
-      {/* Left → right stacked bar of the four blocs. */}
+      {/* Left → right stacked bar of the five blocs. */}
       <div
         className="flex h-3 w-full overflow-hidden rounded-full"
         role="img"

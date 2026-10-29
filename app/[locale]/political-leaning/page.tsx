@@ -46,6 +46,7 @@ export const metadata: Metadata = {
 const NAME_BY_SLUG = new Map(CITIES_SEED.map((c) => [c.slug, c]));
 
 const SECTION_TITLE: Record<Bloc, string> = {
+  extreme_gauche: "Far-left-leaning cities",
   gauche: "Left-leaning cities",
   centre: "Centrist cities",
   droite: "Right-leaning cities",
@@ -142,7 +143,7 @@ export default function EnPoliticalLeaningPage() {
           </h1>
           <p className="mx-auto max-w-2xl text-sm sm:text-base text-[var(--text-secondary)]">
             The 2027 presidential first-round projection for {all.length} French cities, then the actual 2022
-            vote, in four political families. How residents vote — not the colour of the town hall.
+            vote, in five political families (the Interior Ministry's classification: far left, left, centre, right, far right). How residents vote — not the colour of the town hall.
           </p>
         </div>
       </section>

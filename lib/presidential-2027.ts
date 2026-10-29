@@ -4,7 +4,7 @@
 //   1. moyenne des derniers sondages nationaux, chaque enquête ramenée à 100 ;
 //   2. pour chaque famille, ratio = moyenne 2027 / résultat national 2022 ;
 //   3. part 2027 d'une ville = part 2022 de la ville × ratio, puis on ramène
-//      les quatre familles à 100.
+//      les cinq familles à 100.
 // Hypothèse forte, dite sur la page : chaque ville bouge comme le pays. C'est
 // une projection mécanique, pas un sondage local. Client-safe (pas de JSON lourd).
 
@@ -27,9 +27,9 @@ function normalize(blocs: Record<Bloc, number>): Record<Bloc, number> {
 
 /** Moyenne des sondages par famille (chaque enquête ramenée à 100). */
 export const POLL_AVERAGE_BLOCS: Record<Bloc, number> = (() => {
-  const sums: Record<Bloc, number> = { gauche: 0, centre: 0, droite: 0, extreme_droite: 0 };
+  const sums: Record<Bloc, number> = { extreme_gauche: 0, gauche: 0, centre: 0, droite: 0, extreme_droite: 0 };
   for (const poll of POLLS_2027) {
-    const raw: Record<Bloc, number> = { gauche: 0, centre: 0, droite: 0, extreme_droite: 0 };
+    const raw: Record<Bloc, number> = { extreme_gauche: 0, gauche: 0, centre: 0, droite: 0, extreme_droite: 0 };
     for (const [cand, pct] of Object.entries(poll.scores) as Array<[Candidate2027, number]>) {
       raw[BLOC_2027[cand]] += pct;
     }
@@ -86,8 +86,9 @@ export function project2027(blocs2022: Record<Bloc, number>): Projection2027 {
 
 /** Candidats 2027 testés par famille, pour nommer qui porte chaque bloc. */
 export const BLOC_FIGURES: Record<Bloc, string> = {
+  extreme_gauche: "Arthaud",
   gauche: "Mélenchon, Glucksmann…",
   centre: "Philippe, Attal",
-  droite: "Retailleau",
+  droite: "Retailleau, Dupont-Aignan",
   extreme_droite: "Le Pen, Zemmour…",
 };

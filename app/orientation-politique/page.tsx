@@ -47,6 +47,7 @@ export const metadata: Metadata = {
 const NAME_BY_SLUG = new Map(CITIES_SEED.map((c) => [c.slug, c]));
 
 const SECTION_TITLE: Record<Bloc, string> = {
+  extreme_gauche: "Villes orientées à l'extrême gauche",
   gauche: "Villes orientées à gauche",
   centre: "Villes orientées au centre",
   droite: "Villes orientées à droite",
@@ -54,7 +55,7 @@ const SECTION_TITLE: Record<Bloc, string> = {
 };
 
 // Cities visible before the "afficher le classement complet" toggle. Kept low
-// on purpose: four blocs × 30 rows was ~120 cards of scroll before the reader
+// on purpose: five blocs × 30 rows was ~120 cards of scroll before the reader
 // reached the methodology.
 const TOP_VISIBLE = 12;
 
@@ -143,7 +144,7 @@ export default function OrientationPolitiquePage() {
           </h1>
           <p className="mx-auto max-w-2xl text-sm sm:text-base text-[var(--text-secondary)]">
             La projection du 1ᵉʳ tour de la présidentielle 2027 pour {all.length} villes françaises, puis le
-            vote réel de 2022, en quatre familles politiques. Vote des habitants — pas la couleur de la mairie.
+            vote réel de 2022, en cinq familles politiques (grille des nuances du ministère de l'Intérieur : extrême gauche, gauche, centre, droite, extrême droite). Vote des habitants — pas la couleur de la mairie.
           </p>
         </div>
       </section>

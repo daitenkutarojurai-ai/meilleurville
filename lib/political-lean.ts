@@ -1,7 +1,7 @@
 // Per-city political lean, derived from the 2022 presidential 1st-round results
 // by commune (Ministère de l'Intérieur, data.gouv.fr). Candidates are grouped
-// into four blocs; `lean` is the plurality bloc, `blocs` are % of exprimés,
-// `leanScore` is (droite+extreme_droite − gauche), i.e. >0 = right-leaning.
+// into five blocs (Interior Ministry grid, symmetric: far left LO/NPA, far right RN/REC); `lean` is the plurality bloc, `blocs` are % of exprimés,
+// `leanScore` is (droite+extreme_droite − gauche − extreme_gauche), i.e. >0 = right-leaning.
 //
 // Convention: this is an indicative estimate of a city's electorate, NOT an
 // endorsement or a claim about current municipal politics. Always shown with

@@ -18,10 +18,10 @@ export type Candidate2027 =
 
 /** Même découpage que les familles 2022 de `lib/political-lean-meta.ts`. */
 export const BLOC_2027: Record<Candidate2027, Bloc> = {
-  arthaud: "gauche", melenchon: "gauche", roussel: "gauche", tondelier: "gauche", glucksmann: "gauche",
+  arthaud: "extreme_gauche", melenchon: "gauche", roussel: "gauche", tondelier: "gauche", glucksmann: "gauche",
   attal: "centre", philippe: "centre",
-  retailleau: "droite",
-  "dupont-aignan": "extreme_droite", lepen: "extreme_droite", zemmour: "extreme_droite",
+  retailleau: "droite", "dupont-aignan": "droite",
+  lepen: "extreme_droite", zemmour: "extreme_droite",
 };
 
 export const CANDIDATE_2027_NAME: Record<Candidate2027, string> = {
@@ -57,12 +57,14 @@ export const POLLS_2027: Poll2027[] = [
 /** Résultat national officiel du 1er tour 2022 (Conseil constitutionnel),
  *  regroupé avec les mêmes familles que les résultats communaux. */
 export const NATIONAL_2022_BLOCS: Record<Bloc, number> = {
-  // Arthaud 0,56 + Poutou 0,77 + Roussel 2,28 + Mélenchon 21,95 + Hidalgo 1,75 + Jadot 4,63
-  gauche: 31.94,
+  // Arthaud 0,56 + Poutou 0,77
+  extreme_gauche: 1.33,
+  // Roussel 2,28 + Mélenchon 21,95 + Hidalgo 1,75 + Jadot 4,63
+  gauche: 30.61,
   // Macron
   centre: 27.85,
-  // Pécresse 4,78 + Lassalle 3,13
-  droite: 7.91,
-  // Le Pen 23,15 + Zemmour 7,07 + Dupont-Aignan 2,06
-  extreme_droite: 32.28,
+  // Pécresse 4,78 + Lassalle 3,13 + Dupont-Aignan 2,06 (droite souverainiste, DSV)
+  droite: 9.97,
+  // Le Pen 23,15 + Zemmour 7,07
+  extreme_droite: 30.22,
 };
