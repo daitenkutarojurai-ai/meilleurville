@@ -30072,18 +30072,18 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in La Rochelle (2026): the best file here, and the highest price of entry",
     metaTitle: "Single Parent in La Rochelle 2026: T3 €1,100",
     metaDesc:
-      "Fit 6.3/10, 70th of 363. Best schools and safety in this batch, and the highest entry floor: €3,150 net a month for a €1,100 T3.",
+      "Fit 6.3/10, joint 64th of 416. Best schools and safety in this batch, and the highest entry floor: €3,150 net a month for a €1,100 T3.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-25",
-    updatedAt: "2026-08-25",
+    updatedAt: "2026-10-29",
     intro:
-      "La Rochelle has the best qualitative file in this batch and the highest price of entry. Both statements are true at once, and that is the whole interest of the case. On the single-parent composite the city returns 6.3/10, 70th of the 363 communes above 20,000 inhabitants, with schools 7.4/10, safety 6.5/10 — the best of the nine cities examined here — transport 7.0/10, and a cost of living at 4.6/10 that drags the rest down (source: our city profile). Its all-axis score reaches 7.2/10 and its remote-work score 8.8/10, both the highest in this batch. The average T3 is €1,100 and a square metre to buy €4,200 (source: our rent estimate), for an estimated minimum net income of €3,150 a month: the steepest threshold of the nine. The commune counted 79,961 inhabitants at the 2022 census, up 6.8 per cent since 2011 (source: INSEE census). Here is why a good ratio and an affordable city are not the same thing.",
+      "La Rochelle has the best qualitative file in this batch and the highest price of entry. Both statements are true at once, and that is the whole interest of the case. On the single-parent composite the city returns 6.3/10, joint 64th of the 416 communes above 20,000 inhabitants, with schools 7.4/10, safety 6.5/10 — the best of the nine cities examined here — transport 7.0/10, and a cost of living at 4.6/10 that drags the rest down (source: our city profile). Its all-axis score reaches 7.2/10 and its remote-work score 8.8/10, both the highest in this batch. The average T3 is €1,100 and a square metre to buy €4,200 (source: our rent estimate), for an estimated minimum net income of €3,150 a month: the steepest threshold of the nine. The commune counted 79,961 inhabitants at the 2022 census, up 6.8 per cent since 2011 (source: INSEE census). Here is why a good ratio and an affordable city are not the same thing.",
     sections: [
       {
         heading: "A rank is a relative position, not a solvency test",
-        body: "70th of 363 says La Rochelle satisfies this profile's criteria better than roughly 290 other communes. It does not say the application clears. Those are two different questions and conflating them is the most expensive mistake available on this page. The composite weights cost of living at 0.30, the heaviest of the four, and La Rochelle scores 4.6/10 on it — below average — and still comes 70th, because schools at 7.4, safety at 6.5 and transport at 7.0 carry the remaining 0.70 between them. In plain terms: the ranking is telling you the city is well equipped for a lone parent who can afford it, and simultaneously that affording it is the hard part. For anyone whose income is portable, that reading flips. The remote-work score of 8.8/10 is the highest in this batch and one of the higher values on the site, so a salary indexed on another market — a London or Dublin salary, for instance — meets a French housing cost rather than a French salary. That is the single scenario in which La Rochelle stops being the expensive option and becomes the obvious one.",
+        body: "Joint 64th of 416 says La Rochelle satisfies this profile's criteria better than 337 other communes. It does not say the application clears. Those are two different questions and conflating them is the most expensive mistake available on this page. The composite weights cost of living at 0.30, the heaviest of the four, and La Rochelle scores 4.6/10 on it — below average — and still comes joint 64th, because schools at 7.4, safety at 6.5 and transport at 7.0 carry the remaining 0.70 between them. In plain terms: the ranking is telling you the city is well equipped for a lone parent who can afford it, and simultaneously that affording it is the hard part. For anyone whose income is portable, that reading flips. The remote-work score of 8.8/10 is the highest in this batch and one of the higher values on the site, so a salary indexed on another market — a London or Dublin salary, for instance — meets a French housing cost rather than a French salary. That is the single scenario in which La Rochelle stops being the expensive option and becomes the obvious one.",
       },
       {
         heading: "What a cost of living of 4.6/10 actually covers",
@@ -30114,14 +30114,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Cherbourg-en-Cotentin (2026): €2,500, a merged commune and a car",
     metaTitle: "Single Parent in Cherbourg 2026: T3 €820, €2,500",
     metaDesc:
-      "Fit 5.7/10, 157th of 363. T3 at €820 and a €2,500 entry floor. Transport 4.9/10, and 3,662 fewer residents than in 2011.",
+      "Fit 5.7/10, joint 156th of 416. T3 at €820 and a €2,500 entry floor. Transport 4.9/10, and 3,662 fewer residents than in 2011.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-25",
-    updatedAt: "2026-08-25",
+    updatedAt: "2026-10-29",
     intro:
-      "Cherbourg-en-Cotentin returns 5.7/10 on the single-parent composite, 157th of the 363 communes above 20,000 inhabitants, one notch above the ranking's median of 5.5/10. The breakdown: cost of living 6.4/10, schools 5.8/10, safety 5.3/10, transport 4.9/10 (source: our city profile). That last figure is the weak point of the file and it governs everything that follows. The average T3 is €820 and a square metre to buy €1,900 (source: our rent estimate), for an estimated minimum net income of €2,500 a month — the third-lowest threshold in this batch, behind Béziers at €2,200 and Saint-Pierre on Réunion at €2,400. One further fact, absent from all four axes, structures the file: the commune counted 78,028 inhabitants at the 2022 census against 81,690 in 2011, 3,662 fewer in eleven years (source: INSEE census). It is the only city in this batch losing population on the metropolitan mainland. For a reader arriving from Britain or Ireland, one more thing sits outside the scores: the ferry port.",
+      "Cherbourg-en-Cotentin returns 5.7/10 on the single-parent composite, joint 156th of the 416 communes above 20,000 inhabitants, three tenths above the ranking's median of 5.4/10. The breakdown: cost of living 6.4/10, schools 5.8/10, safety 5.3/10, transport 4.9/10 (source: our city profile). That last figure is the weak point of the file and it governs everything that follows. The average T3 is €820 and a square metre to buy €1,900 (source: our rent estimate), for an estimated minimum net income of €2,500 a month — the third-lowest threshold in this batch, behind Béziers at €2,200 and Saint-Pierre on Réunion at €2,400. One further fact, absent from all four axes, structures the file: the commune counted 78,028 inhabitants at the 2022 census against 81,690 in 2011, 3,662 fewer in eleven years (source: INSEE census). It is the only city in this batch losing population on the metropolitan mainland. For a reader arriving from Britain or Ireland, one more thing sits outside the scores: the ferry port.",
     sections: [
       {
         heading: "€141 of rent per school point: the second-best ratio here",
@@ -30141,7 +30141,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Caen, Le Havre, Rouen — and the ferry to Ireland and England",
-        body: "Normandy offers three larger comparisons and they are not equivalent. Caen comes out at 6.6, 29th of 363, with schools at 7.4/10, safety at 5.9 and a T3 at €930 — an entry floor of €2,800, €300 more a month than here, for nearly a full point of composite and a markedly deeper labour market. Rouen returns 6.0 with a T3 at €950 and an entry floor of €2,900. Le Havre returns 5.7, exactly level with Cherbourg-en-Cotentin, with a T3 at €870: a twin file where the arbitration turns on something other than the score. If school provision is the priority, Caen is the answer in this region and the €300 is what it costs. One element sits outside every axis and is worth more to an English-speaking reader than to a French one: Cherbourg is a cross-Channel and Irish Sea ferry port, with sailings to England and Ireland. For a single parent whose family are on the other side, that turns visits from a flight-and-hire-car project into a drive-on crossing — and grandparents who can actually get to you are the closest thing to a second adult that a move abroad allows.",
+        body: "Normandy offers three larger comparisons and they are not equivalent. Caen comes out at 6.6, joint 27th of 416, with schools at 7.4/10, safety at 5.9 and a T3 at €930 — an entry floor of €2,800, €300 more a month than here, for nearly a full point of composite and a markedly deeper labour market. Rouen returns 6.0 with a T3 at €950 and an entry floor of €2,900. Le Havre returns 5.7, exactly level with Cherbourg-en-Cotentin, with a T3 at €870: a twin file where the arbitration turns on something other than the score. If school provision is the priority, Caen is the answer in this region and the €300 is what it costs. One element sits outside every axis and is worth more to an English-speaking reader than to a French one: Cherbourg is a cross-Channel and Irish Sea ferry port, with sailings to England and Ireland. For a single parent whose family are on the other side, that turns visits from a flight-and-hire-car project into a drive-on crossing — and grandparents who can actually get to you are the closest thing to a second adult that a move abroad allows.",
       },
       {
         heading: "The verdict: who Cherbourg-en-Cotentin works for",
@@ -36226,14 +36226,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Chambéry (2026): the best schools and safety here, and €3,350 to reach them",
     metaTitle: "Single Parent in Chambéry 2026: Schools 7.4/10",
     metaDesc:
-      "Fit 6.1/10, 97th of 363. Schools 7.4/10 and safety 6.3/10, the two best in this batch, for a €3,350 entry floor. The full calculation.",
+      "Fit 6.1/10, joint 93rd of 416. Schools 7.4/10 and safety 6.3/10, the two best in this batch, for a €3,350 entry floor. The full calculation.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-29",
-    updatedAt: "2026-08-29",
+    updatedAt: "2026-10-29",
     intro:
-      "Chambéry returns 6.1/10 on the single-parent composite, 97th of the 363 communes above 20,000 inhabitants, half a point above the ranking's median of 5.5. The detail: schools 7.4/10, safety 6.3/10, transport 6.1/10, cost of living 5.0/10 (source: our city profile). The first two are the best marks of the nine cities here on their respective axes; the last explains why the final rank is weaker than the file. The average T3 is €1,100 and a square metre to buy €3,600 (source: our rent estimate), for an estimated minimum net income of €3,350 a month, the second highest floor in this batch behind Ajaccio. The commune counted 60,251 inhabitants at the 2022 census against 58,437 in 2011, a steady rise of 3.1 per cent (source: INSEE census). Here is the arithmetic when there is one salary and one driver.",
+      "Chambéry returns 6.1/10 on the single-parent composite, joint 93rd of the 416 communes above 20,000 inhabitants, seven tenths above the ranking's median of 5.4. The detail: schools 7.4/10, safety 6.3/10, transport 6.1/10, cost of living 5.0/10 (source: our city profile). The first two are the best marks of the nine cities here on their respective axes; the last explains why the final rank is weaker than the file. The average T3 is €1,100 and a square metre to buy €3,600 (source: our rent estimate), for an estimated minimum net income of €3,350 a month, the second highest floor in this batch behind Ajaccio. The commune counted 60,251 inhabitants at the 2022 census against 58,437 in 2011, a steady rise of 3.1 per cent (source: INSEE census). Here is the arithmetic when there is one salary and one driver.",
     sections: [
       {
         heading: "Schools 7.4 and safety 6.3: the two best marks in this batch",
@@ -36268,14 +36268,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Bourges (2026): €123,500 for 65 square metres, and a car to put in the budget",
     metaTitle: "Single Parent in Bourges 2026: T3 €760",
     metaDesc:
-      "Fit 5.8/10, 139th of 363. T3 €760, entry floor €2,300, €1,900 a square metre: the city in this batch where buying on one income still adds up.",
+      "Fit 5.8/10, joint 138th of 416. T3 €760, entry floor €2,300, €1,900 a square metre: the city in this batch where buying on one income still adds up.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-29",
-    updatedAt: "2026-08-29",
+    updatedAt: "2026-10-29",
     intro:
-      "Bourges returns 5.8/10 on the single-parent composite, 139th of the 363 communes above 20,000 inhabitants, three tenths above the ranking's median of 5.5. The detail: cost of living 6.7/10, schools 5.8/10, safety 5.3/10, transport 5.2/10 (source: our city profile). The last figure is the weak point of the file and it commands part of the budget. The average T3 is €760 and a square metre to buy €1,900 (source: our rent estimate), for an estimated minimum net income of €2,300 a month, the third lowest floor in this batch. The commune counted 64,238 inhabitants at the 2022 census against 66,602 in 2011, 2,364 fewer in eleven years and a fall at every census (source: INSEE census). This file is read first through buying, because that is the only lever these numbers genuinely open.",
+      "Bourges returns 5.8/10 on the single-parent composite, joint 138th of the 416 communes above 20,000 inhabitants, four tenths above the ranking's median of 5.4. The detail: cost of living 6.7/10, schools 5.8/10, safety 5.3/10, transport 5.2/10 (source: our city profile). The last figure is the weak point of the file and it commands part of the budget. The average T3 is €760 and a square metre to buy €1,900 (source: our rent estimate), for an estimated minimum net income of €2,300 a month, the third lowest floor in this batch. The commune counted 64,238 inhabitants at the 2022 census against 66,602 in 2011, 2,364 fewer in eleven years and a fall at every census (source: INSEE census). This file is read first through buying, because that is the only lever these numbers genuinely open.",
     sections: [
       {
         heading: "€1,900 a square metre: the one configuration here where buying holds on one income",
@@ -36352,14 +36352,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Calais (2026): €1,950 net, the lowest entry floor in the whole series",
     metaTitle: "Single Parent in Calais 2026: Floor €1,950",
     metaDesc:
-      "Fit 5.2/10, 227th of 363. T3 €640, €1,350 a square metre, entry floor €1,950: the lowest figures in this series, and the two axes that pay for them.",
+      "Fit 5.2/10, joint 246th of 416. T3 €640, €1,350 a square metre, entry floor €1,950: the lowest figures in this series, and the two axes that pay for them.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-29",
-    updatedAt: "2026-08-29",
+    updatedAt: "2026-10-29",
     intro:
-      "Calais returns 5.2/10 on the single-parent composite, 227th of the 363 communes above 20,000 inhabitants, three tenths below the ranking's median of 5.5. The detail: cost of living 6.4/10, transport 6.1/10, schools 4.5/10, safety 3.7/10 (source: our city profile). The average T3 is €640 and a square metre to buy €1,350 (source: our rent estimate), for an estimated minimum net income of €1,950 a month: that is the lowest entry floor of the fifty-seven cities covered by this series of guides, and the square metre is the cheapest of the fifty-seven as well. One fact outside the four axes structures the whole file: the commune counted 67,585 inhabitants in 2022 against 74,978 in 2016, 7,393 fewer in six years (source: INSEE census). That is the sharpest contraction anywhere in this series over that window.",
+      "Calais returns 5.2/10 on the single-parent composite, joint 246th of the 416 communes above 20,000 inhabitants, two tenths below the ranking's median of 5.4. The detail: cost of living 6.4/10, transport 6.1/10, schools 4.5/10, safety 3.7/10 (source: our city profile). The average T3 is €640 and a square metre to buy €1,350 (source: our rent estimate), for an estimated minimum net income of €1,950 a month: that is the lowest entry floor of the fifty-seven cities covered by this series of guides, and the square metre is the cheapest of the fifty-seven as well. One fact outside the four axes structures the whole file: the commune counted 67,585 inhabitants in 2022 against 74,978 in 2016, 7,393 fewer in six years (source: INSEE census). That is the sharpest contraction anywhere in this series over that window.",
     sections: [
       {
         heading: "€1,950 net and €87,750 for 65 square metres: the most favourable arithmetic in the series",
@@ -36367,7 +36367,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Schools 4.5 and safety 3.7: exactly what the two marks measure",
-        body: "These two axes carry half the composite between them, and they are what put Calais 227th despite unbeatable prices. The schools axis at 4.5/10 measures municipal provision, the density of establishments and the range of options, and nothing else: not pupil results, not the quality of teaching, not any one establishment. Against rent that gives €142 of T3 a school point, level with Le Tampon in fourth place in this batch, less favourable than Saint-Nazaire's €129. A decent ratio reached through a low rent rather than a wide offer: the distinction matters to a parent who will be looking for an option at lycée or a place on a particular track, because what decides then is provision in absolute terms, not the ratio. Safety at 3.7/10 is the lowest mark in this batch. It is a communal figure calibrated on public data, at the scale of the whole commune. It says nothing about a district, a street, or the people who live there, and this guide will say nothing about them either: the site publishes no verdict by sector, because our district data documents no Calais district and because, where it does document them, two or three observations do not describe a city of 67,585 people. What a lone parent can do with the score: visit at real hours, walk the school run at the hour it will happen, and conclude nothing from a table.",
+        body: "These two axes carry half the composite between them, and they are what put Calais joint 246th despite unbeatable prices. The schools axis at 4.5/10 measures municipal provision, the density of establishments and the range of options, and nothing else: not pupil results, not the quality of teaching, not any one establishment. Against rent that gives €142 of T3 a school point, level with Le Tampon in fourth place in this batch, less favourable than Saint-Nazaire's €129. A decent ratio reached through a low rent rather than a wide offer: the distinction matters to a parent who will be looking for an option at lycée or a place on a particular track, because what decides then is provision in absolute terms, not the ratio. Safety at 3.7/10 is the lowest mark in this batch. It is a communal figure calibrated on public data, at the scale of the whole commune. It says nothing about a district, a street, or the people who live there, and this guide will say nothing about them either: the site publishes no verdict by sector, because our district data documents no Calais district and because, where it does document them, two or three observations do not describe a city of 67,585 people. What a lone parent can do with the score: visit at real hours, walk the school run at the hour it will happen, and conclude nothing from a table.",
       },
       {
         heading: "7,393 fewer residents in six years: the sharpest fall in the series",
@@ -36375,7 +36375,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Cambrai at identical rent, and 1.2 points more of composite",
-        body: "Here is the comparison that ought to decide a project, and it is internal to the Hauts-de-France. Cambrai shows an average T3 at €640, exactly the same as Calais, for a composite of 6.4/10 against 5.2, which is 1.2 points and a far better national rank. The detail is unambiguous: schools 6.6/10 against 4.5, cost of living 7.2/10 against 6.4, transport 7.0/10 against 6.1, safety 4.6/10 against 3.7. Cambrai does better on all four axes, at the same rent, with a ratio of €97 a school point against €142. That is not a nuance, it is a different file. Other regional options belong alongside it. Lens comes out at 6.0 with an even cheaper T3, at €590. Saint-Quentin shows 6.6 with a T3 at €650. Arras reaches 6.1 with a T3 at €720 and a ratio of €109. Boulogne-sur-Mer, the closest to Calais, falls to 5.4 with a T3 at €780. Dunkerque, covered in an earlier batch of this series, comes out at 5.7 with a T3 at €750. Calais is 16th of the 27 eligible communes in its region, and five of them offer a better composite for a T3 under €700: Lens, Cambrai, Saint-Quentin, Valenciennes and Douai. If the project is geographically free, that is where to look first.",
+        body: "Here is the comparison that ought to decide a project, and it is internal to the Hauts-de-France. Cambrai shows an average T3 at €640, exactly the same as Calais, for a composite of 6.4/10 against 5.2, which is 1.2 points and a far better national rank. The detail is unambiguous: schools 6.6/10 against 4.5, cost of living 7.2/10 against 6.4, transport 7.0/10 against 6.1, safety 4.6/10 against 3.7. Cambrai does better on all four axes, at the same rent, with a ratio of €97 a school point against €142. That is not a nuance, it is a different file. Other regional options belong alongside it. Lens comes out at 6.0 with an even cheaper T3, at €590. Saint-Quentin shows 6.6 with a T3 at €650. Arras reaches 6.1 with a T3 at €720 and a ratio of €109. Boulogne-sur-Mer, the closest to Calais, falls to 5.4 with a T3 at €780. Dunkerque, covered in an earlier batch of this series, comes out at 5.7 with a T3 at €750. Calais is 16th of the 29 eligible communes in its region, and five of them offer a better composite for a T3 under €700: Lens, Cambrai, Saint-Quentin, Valenciennes and Douai. If the project is geographically free, that is where to look first.",
       },
       {
         heading: "Transport 6.1/10, and a crossing that matters to this readership",
@@ -37758,14 +37758,14 @@ export const EN_GUIDES: EnGuide[] = [
       "Single parent in Albi (2026): a €2,550 floor for schools at 7.7, the best combination in Occitanie",
     metaTitle: "Single Parent in Albi 2026: T3 €840, Schools 7.7/10",
     metaDesc:
-      "Fit 7.0/10, 7th of 363 and 1st in Occitanie. T3 at €840, entry floor €2,550, €109 of rent per school point, against €3,500 at Toulouse.",
+      "Fit 7.0/10, joint 7th of 416 and 1st in Occitanie. T3 at €840, entry floor €2,550, €109 of rent per school point, against €3,500 at Toulouse.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-02",
-    updatedAt: "2026-09-02",
+    updatedAt: "2026-10-29",
     intro:
-      "Albi returns 7.0/10 on the single-parent composite, seventh of the 363 French communes above 20,000 inhabitants and first in Occitanie ahead of Auch and Castres. The detail: schools 7.7/10, cost of living 7.6/10, safety 6.7/10, transport 5.5/10 (source: our city profile). The average T3 is €840 and a square metre to buy €2,200 (source: our rent estimate), for an estimated minimum net income of €2,550 a month. The commune counted 50,605 inhabitants at the 2022 census against 49,179 in 2011, 1,426 more, after a dip to 49,024 in 2016 (source: INSEE census). The file reads first by comparison with Toulouse, an hour away by road and rail, whose entry floor is almost a thousand euros higher.",
+      "Albi returns 7.0/10 on the single-parent composite, joint seventh of the 416 French communes above 20,000 inhabitants and first in Occitanie ahead of Auch and Castres. The detail: schools 7.7/10, cost of living 7.6/10, safety 6.7/10, transport 5.5/10 (source: our city profile). The average T3 is €840 and a square metre to buy €2,200 (source: our rent estimate), for an estimated minimum net income of €2,550 a month. The commune counted 50,605 inhabitants at the 2022 census against 49,179 in 2011, 1,426 more, after a dip to 49,024 in 2016 (source: INSEE census). The file reads first by comparison with Toulouse, an hour away by road and rail, whose entry floor is almost a thousand euros higher.",
     sections: [
       {
         heading: "€2,550 against €3,500 at Toulouse, for 1.3 points less on schools",
@@ -37807,14 +37807,14 @@ export const EN_GUIDES: EnGuide[] = [
       "Single parent in Cholet (2026): a €800 T3 for schools at 7.7, and €650 less income than Angers",
     metaTitle: "Single Parent in Cholet 2026: T3 €800, Floor €2,400",
     metaDesc:
-      "Fit 7.0/10, 8th of 363. T3 at €800, entry floor €2,400, €104 of rent per school point: €650 less monthly income than Angers, at equal provision.",
+      "Fit 7.0/10, joint 7th of 416. T3 at €800, entry floor €2,400, €104 of rent per school point: €650 less monthly income than Angers, at equal provision.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-02",
-    updatedAt: "2026-09-02",
+    updatedAt: "2026-10-29",
     intro:
-      "Cholet returns 7.0/10 on the single-parent composite, eighth of the 363 French communes above 20,000 inhabitants and third in the Pays de la Loire. The detail: schools 7.7/10, safety 7.1/10, cost of living 6.7/10, transport 6.2/10 (source: our city profile). None of those four figures gives way, which is the signature of the cities at the top of this ranking. The average T3 is €800 and a square metre to buy €1,900 (source: our rent estimate), for an estimated minimum net income of €2,400 a month. The commune counted 54,074 inhabitants at the 2022 census against 54,421 in 2011 and 53,718 in 2016 (source: INSEE census): a population stable to within three hundred people over eleven years, which is rare and worth explaining. The comparator that should decide a move is fifty kilometres away, and it is Angers.",
+      "Cholet returns 7.0/10 on the single-parent composite, joint seventh of the 416 French communes above 20,000 inhabitants and third in the Pays de la Loire. The detail: schools 7.7/10, safety 7.1/10, cost of living 6.7/10, transport 6.2/10 (source: our city profile). None of those four figures gives way, which is the signature of the cities at the top of this ranking. The average T3 is €800 and a square metre to buy €1,900 (source: our rent estimate), for an estimated minimum net income of €2,400 a month. The commune counted 54,074 inhabitants at the 2022 census against 54,421 in 2011 and 53,718 in 2016 (source: INSEE census): a population stable to within three hundred people over eleven years, which is rare and worth explaining. The comparator that should decide a move is fifty kilometres away, and it is Angers.",
     sections: [
       {
         heading: "€2,400 against €3,050 at Angers, for 0.2 points of schools",
@@ -37834,7 +37834,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Where Cholet sits in its region",
-        body: "Cholet is third of the 14 eligible communes in the Pays de la Loire, behind La Roche-sur-Yon at 7.5 and Challans at 7.1, ahead of Les Sables-d'Olonne at 6.8, Angers at 6.7 and Laval at 6.6. Three comparators are worth putting alongside. La Roche-sur-Yon, fifty minutes away, shows exactly the same €800 T3 and exactly the same €2,400 entry floor, for better service at 7.0/10 on transport and better safety, coming out at 8.0/10 on that axis: at identical budget it is objectively the better of the two files, and this guide has no reason to hide it. Saumur, in the same department, comes out at 6.5 with the same €800 T3 and a ratio of €121 a school point, worse. Laval, in the Mayenne, opens at €2,000 for a €660 T3 and a ratio of €100 a point, better, for a schools mark of 6.6/10 instead of 7.7: €400 less minimum monthly income against a point less of school provision. What Cholet keeps of its own against those three is the cheapest square metre at the top of the regional ranking after Laval, and a real industrial employment basin, which none of the four axes measures.",
+        body: "Cholet is third of the 19 eligible communes in the Pays de la Loire, behind La Roche-sur-Yon at 7.5 and Challans at 7.1, ahead of Les Sables-d'Olonne at 6.8, Angers at 6.7 and Laval at 6.6. Three comparators are worth putting alongside. La Roche-sur-Yon, fifty minutes away, shows exactly the same €800 T3 and exactly the same €2,400 entry floor, for better service at 7.0/10 on transport and better safety, coming out at 8.0/10 on that axis: at identical budget it is objectively the better of the two files, and this guide has no reason to hide it. Saumur, in the same department, comes out at 6.5 with the same €800 T3 and a ratio of €121 a school point, worse. Laval, in the Mayenne, opens at €2,000 for a €660 T3 and a ratio of €100 a point, better, for a schools mark of 6.6/10 instead of 7.7: €400 less minimum monthly income against a point less of school provision. What Cholet keeps of its own against those three is the cheapest square metre at the top of the regional ranking after Laval, and a real industrial employment basin, which none of the four axes measures.",
       },
       {
         heading: "The verdict: who Cholet works for",

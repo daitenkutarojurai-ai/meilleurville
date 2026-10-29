@@ -2870,3 +2870,31 @@ propre, `npm run integrity`, `search-index` + `:check`, `hreflang:check`, `sitem
 **Reste** : **71 guides FR et 72 EN** citent encore « 363 ». Prochaines paires à faible nombre d'occurrences :
 Poitiers, Saint-Denis / Saint-Paul / Saint-Pierre (Réunion), La Rochelle, Pau, Cherbourg, Fort-de-France. **Prochain
 lot** : dès qu'une décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-10-29 — aucun lot : sept paires parent solo remesurées (Albi, Bourges, Calais, Chambéry, Cholet, Cherbourg, La Rochelle)
+
+`seed-coverage` au départ : 593 villes, rien en attente du runner hors Carquefou (photo) et les manques permanents →
+lot autorisé, mais **aucune décision du propriétaire au § 0** (`git log` depuis le 27/10 hors `[scheduled-agent]` :
+deux passes `[local-runner]`, rien sur le seed, `score-calibration.ts`, ROADMAP ni CLAUDE.md). Aucune ville ajoutée.
+
+*Livrable* : suite de la remesure « 363 → 416 » de la série parent solo, méthode du 27/10 (`ext.ts` → `calc.mjs` →
+`apply.mjs`), plus un contrôle de rang régional par corpus (origine contre courant), deux locales à chaque fois :
+
+| Ville | Composite | Corrigé au passage |
+|---|---|---|
+| Albi | 7,0, palier 7-10 | EN « 7th » → joint 7th ; Occitanie inchangée (aucune ville d'extension) |
+| Bourges | 5,8, palier 138-155 | médiane 5,5 → 5,4 (trois → quatre dixièmes) ; EN « 139th » était une position dans le palier → joint 138th |
+| Calais | 5,2 | palier 19 → **23** (Vanves, Brétigny, Saint-Michel et Morsang-sur-Orge) ; trois → deux dixièmes sous 5,4 ; « 227e » → 246e ex æquo ; région 16ᵉ sur 27 → **16ᵉ sur 29** (Halluin, Mons-en-Barœul, toutes deux en dessous) |
+| Chambéry | 6,1, palier 93-105 | « un demi-point » → sept dixièmes au-dessus de 5,4 ; EN « 97th » → joint 93rd |
+| Cholet | 7,0, palier 7-10 | EN « 8th » → joint 7th ; Pays de la Loire 3ᵉ sur 14 → **3ᵉ sur 19** (5 villes d'extension, toutes sous 6) |
+| Cherbourg | 5,7 | palier 13 → **18** ; « un cran » → trois dixièmes au-dessus de 5,4 ; EN « 157th » → joint 156th ; EN « Caen 29th of 363 » (position dans un palier de 10) → joint 27th of 416 |
+| La Rochelle | 6,3, palier 64-79 | **titre FR** « 70e du classement » était une position dans le palier → « 64e ex æquo » ; EN « better than roughly 290 » → better than **337** (communes strictement en dessous, mesuré) |
+
+**Réécrits : 7 paires, 14 guides, `updatedAt` 2026-10-29.** metaDesc toutes ≤ 157, metaTitle ≤ 55.
+
+*Aucune modification du seed* : pas de dérive, table des couleurs inchangée (593). Contrôles : `npx tsc --noEmit`
+propre, `npm run integrity`, `search-index` + `:check`, `hreflang:check`, `sitemap:check` verts. `npm run build` non lancé.
+
+**Reste** : **64 guides FR et 65 EN** citent encore « 363 » (260 + 226 occurrences). Prochaines paires à une
+occurrence FR : Ajaccio, Colmar, Compiègne, Dole, Fort-de-France, Lannion, Laon. **Prochain lot** : dès qu'une
+décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).

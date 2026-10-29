@@ -54446,7 +54446,7 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-la-rochelle-2026",
-    title: "Parent solo à La Rochelle en 2026 : 70e du classement, 3 150 € pour y entrer",
+    title: "Parent solo à La Rochelle en 2026 : 64e ex æquo du classement, 3 150 € pour y entrer",
     metaTitle: "Parent solo à La Rochelle 2026 — T3 1 100 €, fit 6,3/10",
     metaDesc:
       "Fit 6,3/10, palier de 16 communes, sécurité 6,5/10, mais un seuil d'entrée à 3 150 € net. Un bon palier n'est pas un test de solvabilité.",
@@ -54454,9 +54454,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
-    updatedAt: "2026-08-23",
+    updatedAt: "2026-10-29",
     intro:
-      "La Rochelle a le meilleur dossier qualitatif de ce batch et le prix d'entrée le plus élevé. Les deux affirmations sont vraies simultanément, et c'est tout l'intérêt du cas. Au composite parent solo, la ville sort à 6,3/10, dans un palier de 16 communes sur les 363 de plus de 20 000 habitants, avec écoles 7,4/10, sécurité 6,5/10 — la meilleure des neuf villes examinées ici — transports 7,0/10, et un coût de la vie à 4,6/10 qui plombe l'ensemble (source : notre fiche ville). Son score global tous axes confondus atteint 7,2/10 et son score télétravail 8,8/10, les plus hauts du batch. Le T3 moyen est à 1 100 € et le mètre carré à l'achat à 4 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 150 € par mois : le seuil le plus élevé du lot. La commune compte 79 961 habitants au recensement 2022, en hausse de 6,8 % depuis 2011 (source : Insee, recensements). Voici pourquoi un bon rang et un dossier finançable sur un seul salaire sont deux questions différentes.",
+      "La Rochelle a le meilleur dossier qualitatif de ce batch et le prix d'entrée le plus élevé. Les deux affirmations sont vraies simultanément, et c'est tout l'intérêt du cas. Au composite parent solo, la ville sort à 6,3/10, dans un palier de 16 communes sur les 416 de plus de 20 000 habitants, avec écoles 7,4/10, sécurité 6,5/10 — la meilleure des neuf villes examinées ici — transports 7,0/10, et un coût de la vie à 4,6/10 qui plombe l'ensemble (source : notre fiche ville). Son score global tous axes confondus atteint 7,2/10 et son score télétravail 8,8/10, les plus hauts du batch. Le T3 moyen est à 1 100 € et le mètre carré à l'achat à 4 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 150 € par mois : le seuil le plus élevé du lot. La commune compte 79 961 habitants au recensement 2022, en hausse de 6,8 % depuis 2011 (source : Insee, recensements). Voici pourquoi un bon rang et un dossier finançable sur un seul salaire sont deux questions différentes.",
     sections: [
       {
         heading: "Un rang est une position relative, pas un test de solvabilité",
@@ -54547,14 +54547,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Cherbourg-en-Cotentin en 2026 : 2 500 €, une commune nouvelle et une voiture",
     metaTitle: "Parent solo à Cherbourg 2026 — T3 820 €, fit 5,7/10",
     metaDesc:
-      "Fit 5,7/10, palier de 13 communes. T3 à 820 €, m² à 1 900 €, transports 4,9/10 : le deuxième rapport écoles-loyer du batch, et pourquoi il faut une voiture.",
+      "Fit 5,7/10, palier de 18 communes. T3 à 820 €, m² à 1 900 €, transports 4,9/10 : le deuxième rapport écoles-loyer du batch, et pourquoi il faut une voiture.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
-    updatedAt: "2026-08-23",
+    updatedAt: "2026-10-29",
     intro:
-      "Cherbourg-en-Cotentin sort à 5,7/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, soit un cran au-dessus de la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,4/10, écoles 5,8/10, sécurité 5,3/10, transports 4,9/10 (source : notre fiche ville). Le dernier chiffre est le point faible du dossier et il commande la suite. Le T3 moyen est à 820 € et le mètre carré à l'achat à 1 900 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 500 € par mois — le troisième seuil le plus bas du batch, derrière Béziers à 2 200 € et Saint-Pierre de La Réunion à 2 400 €. Un fait supplémentaire, absent des quatre axes, structure pourtant le dossier : la commune compte 78 028 habitants au recensement 2022 contre 81 690 en 2011, soit 3 662 habitants de moins en onze ans (source : Insee, recensements). C'est la seule ville de ce batch, avec Fort-de-France, à perdre de la population de façon continue.",
+      "Cherbourg-en-Cotentin sort à 5,7/10 au composite parent solo, dans un palier de 18 communes sur les 416 de plus de 20 000 habitants, soit trois dixièmes au-dessus de la médiane du classement fixée à 5,4/10. Le détail : coût de la vie 6,4/10, écoles 5,8/10, sécurité 5,3/10, transports 4,9/10 (source : notre fiche ville). Le dernier chiffre est le point faible du dossier et il commande la suite. Le T3 moyen est à 820 € et le mètre carré à l'achat à 1 900 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 500 € par mois — le troisième seuil le plus bas du batch, derrière Béziers à 2 200 € et Saint-Pierre de La Réunion à 2 400 €. Un fait supplémentaire, absent des quatre axes, structure pourtant le dossier : la commune compte 78 028 habitants au recensement 2022 contre 81 690 en 2011, soit 3 662 habitants de moins en onze ans (source : Insee, recensements). C'est la seule ville de ce batch, avec Fort-de-France, à perdre de la population de façon continue.",
     sections: [
       {
         heading: "141 € de loyer par point d'écoles : le deuxième meilleur ratio du batch",
@@ -57216,9 +57216,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
-    updatedAt: "2026-08-28",
+    updatedAt: "2026-10-29",
     intro:
-      "Chambéry sort à 6,1/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, soit un demi-point au-dessus de la médiane du classement fixée à 5,5/10. Le détail : écoles 7,4/10, sécurité 6,3/10, transports 6,1/10, coût de la vie 5,0/10 (source : notre fiche ville). Les deux premiers chiffres sont les meilleurs des neuf villes de ce batch sur leurs axes respectifs ; le dernier explique pourquoi le classement final est moins bon que le dossier. Le T3 moyen est à 1 100 € et le mètre carré à l'achat à 3 600 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 350 € par mois, deuxième seuil le plus élevé de ce batch derrière Ajaccio. La commune compte 60 251 habitants au recensement 2022 contre 58 437 en 2011, une hausse régulière de 3,1 % (source : Insee, recensements). Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
+      "Chambéry sort à 6,1/10 au composite parent solo, dans un palier de 13 communes sur les 416 de plus de 20 000 habitants, soit sept dixièmes au-dessus de la médiane du classement fixée à 5,4/10. Le détail : écoles 7,4/10, sécurité 6,3/10, transports 6,1/10, coût de la vie 5,0/10 (source : notre fiche ville). Les deux premiers chiffres sont les meilleurs des neuf villes de ce batch sur leurs axes respectifs ; le dernier explique pourquoi le classement final est moins bon que le dossier. Le T3 moyen est à 1 100 € et le mètre carré à l'achat à 3 600 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 350 € par mois, deuxième seuil le plus élevé de ce batch derrière Ajaccio. La commune compte 60 251 habitants au recensement 2022 contre 58 437 en 2011, une hausse régulière de 3,1 % (source : Insee, recensements). Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
     sections: [
       {
         heading: "Écoles 7,4 et sécurité 6,3 : les deux meilleures notes du batch",
@@ -57265,9 +57265,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
-    updatedAt: "2026-08-28",
+    updatedAt: "2026-10-29",
     intro:
-      "Bourges sort à 5,8/10 au composite parent solo, dans un palier de 18 communes sur les 363 de plus de 20 000 habitants, trois dixièmes au-dessus de la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,7/10, écoles 5,8/10, sécurité 5,3/10, transports 5,2/10 (source : notre fiche ville). Le dernier chiffre est le point faible du dossier et il commande une part du budget. Le T3 moyen est à 760 € et le mètre carré à l'achat à 1 900 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 300 € par mois, troisième seuil le plus bas de ce batch. La commune compte 64 238 habitants au recensement 2022 contre 66 602 en 2011, soit 2 364 de moins en onze ans et un recul continu d'un recensement à l'autre (source : Insee, recensements). Ce dossier se lit d'abord par l'accession, parce que c'est le seul levier que ces chiffres ouvrent réellement.",
+      "Bourges sort à 5,8/10 au composite parent solo, dans un palier de 18 communes sur les 416 de plus de 20 000 habitants, quatre dixièmes au-dessus de la médiane du classement fixée à 5,4/10. Le détail : coût de la vie 6,7/10, écoles 5,8/10, sécurité 5,3/10, transports 5,2/10 (source : notre fiche ville). Le dernier chiffre est le point faible du dossier et il commande une part du budget. Le T3 moyen est à 760 € et le mètre carré à l'achat à 1 900 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 300 € par mois, troisième seuil le plus bas de ce batch. La commune compte 64 238 habitants au recensement 2022 contre 66 602 en 2011, soit 2 364 de moins en onze ans et un recul continu d'un recensement à l'autre (source : Insee, recensements). Ce dossier se lit d'abord par l'accession, parce que c'est le seul levier que ces chiffres ouvrent réellement.",
     sections: [
       {
         heading: "1 900 € le mètre carré : la seule configuration de ce batch où acheter tient sur un revenu",
@@ -57358,14 +57358,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Calais en 2026 : 1 950 € net, le seuil d'entrée le plus bas de toute la série",
     metaTitle: "Parent solo à Calais 2026 — T3 640 €, seuil 1 950 €",
     metaDesc:
-      "Fit 5,2/10, palier de 19 communes. T3 à 640 €, m² à 1 350 €, seuil d'entrée 1 950 € : les chiffres les plus bas de la série, et les deux axes qui les paient.",
+      "Fit 5,2/10, palier de 23 communes. T3 à 640 €, m² à 1 350 €, seuil d'entrée 1 950 € : les chiffres les plus bas de la série, et les deux axes qui les paient.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
-    updatedAt: "2026-08-28",
+    updatedAt: "2026-10-29",
     intro:
-      "Calais sort à 5,2/10 au composite parent solo, dans un palier de 19 communes sur les 363 de plus de 20 000 habitants, trois dixièmes sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,4/10, transports 6,1/10, écoles 4,5/10, sécurité 3,7/10 (source : notre fiche ville). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 350 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 1 950 € par mois : c'est le seuil d'entrée le plus bas des cinquante-sept villes couvertes par cette série de guides, et le mètre carré est également le moins cher des cinquante-sept. Un fait absent des quatre axes structure pourtant tout le dossier : la commune compte 67 585 habitants en 2022 contre 74 978 en 2016, soit 7 393 de moins en six ans (source : Insee, recensements). C'est la contraction la plus forte de toute la série sur cette fenêtre.",
+      "Calais sort à 5,2/10 au composite parent solo, dans un palier de 23 communes sur les 416 de plus de 20 000 habitants, deux dixièmes sous la médiane du classement fixée à 5,4/10. Le détail : coût de la vie 6,4/10, transports 6,1/10, écoles 4,5/10, sécurité 3,7/10 (source : notre fiche ville). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 350 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 1 950 € par mois : c'est le seuil d'entrée le plus bas des cinquante-sept villes couvertes par cette série de guides, et le mètre carré est également le moins cher des cinquante-sept. Un fait absent des quatre axes structure pourtant tout le dossier : la commune compte 67 585 habitants en 2022 contre 74 978 en 2016, soit 7 393 de moins en six ans (source : Insee, recensements). C'est la contraction la plus forte de toute la série sur cette fenêtre.",
     sections: [
       {
         heading: "1 950 € net et 87 750 € pour 65 m² : l'arithmétique la plus favorable de la série",
@@ -57373,7 +57373,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Écoles 4,5 et sécurité 3,7 : ce que les deux notes mesurent exactement",
-        body: "Ces deux axes pèsent ensemble la moitié du composite, et ce sont eux qui placent Calais 227e malgré des prix imbattables. L'axe écoles à 4,5/10 mesure l'offre communale, la densité d'établissements et l'éventail de filières, et rien d'autre : ni la réussite des élèves, ni la qualité du travail des enseignants, ni un établissement en particulier. Rapporté au loyer, cela donne 142 € de T3 par point d'écoles, à égalité avec Le Tampon au quatrième rang de ce batch, moins favorable que les 129 € de Saint-Nazaire. Un rapport correct obtenu par un loyer bas, pas par une offre étoffée : la nuance compte pour un parent qui cherchera une option en lycée ou une place en filière particulière, parce que c'est l'offre en valeur absolue qui décide alors, pas le rapport. La sécurité à 3,7/10 est la note la plus basse de ce batch. C'est une note communale calibrée sur les données publiques, à l'échelle de la commune entière. Elle ne dit rien d'un quartier, d'une rue, ni des personnes qui y vivent, et ce guide n'en dira rien non plus : le site ne publie aucun verdict par secteur, parce que notre fiche quartiers documente trois quartiers calaisiens, sur une échelle qui leur est propre, et que trois observations ne décrivent pas une ville de 67 585 habitants. Ce qu'un parent solo peut faire de ce score : visiter aux heures réelles, faire le trajet scolaire à l'heure où il se fera, et ne rien conclure d'un tableau.",
+        body: "Ces deux axes pèsent ensemble la moitié du composite, et ce sont eux qui placent Calais 246e ex æquo malgré des prix imbattables. L'axe écoles à 4,5/10 mesure l'offre communale, la densité d'établissements et l'éventail de filières, et rien d'autre : ni la réussite des élèves, ni la qualité du travail des enseignants, ni un établissement en particulier. Rapporté au loyer, cela donne 142 € de T3 par point d'écoles, à égalité avec Le Tampon au quatrième rang de ce batch, moins favorable que les 129 € de Saint-Nazaire. Un rapport correct obtenu par un loyer bas, pas par une offre étoffée : la nuance compte pour un parent qui cherchera une option en lycée ou une place en filière particulière, parce que c'est l'offre en valeur absolue qui décide alors, pas le rapport. La sécurité à 3,7/10 est la note la plus basse de ce batch. C'est une note communale calibrée sur les données publiques, à l'échelle de la commune entière. Elle ne dit rien d'un quartier, d'une rue, ni des personnes qui y vivent, et ce guide n'en dira rien non plus : le site ne publie aucun verdict par secteur, parce que notre fiche quartiers documente trois quartiers calaisiens, sur une échelle qui leur est propre, et que trois observations ne décrivent pas une ville de 67 585 habitants. Ce qu'un parent solo peut faire de ce score : visiter aux heures réelles, faire le trajet scolaire à l'heure où il se fera, et ne rien conclure d'un tableau.",
       },
       {
         heading: "7 393 habitants de moins en six ans : le recul le plus marqué de la série",
@@ -57381,7 +57381,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Cambrai à loyer identique, et 1,2 point de composite de plus",
-        body: "Voici la comparaison qui devrait décider d'un projet, et elle est interne aux Hauts-de-France. Cambrai affiche un T3 moyen à 640 €, exactement le même qu'à Calais, pour un composite de 6,4/10 contre 5,2, soit 1,2 point d'écart et un rang national bien meilleur. Le détail est net : écoles 6,6/10 contre 4,5, coût de la vie 7,2/10 contre 6,4, transports 7,0/10 contre 6,1, sécurité 4,6/10 contre 3,7. Cambrai fait mieux sur les quatre axes, au même loyer, avec un rapport de 97 € par point d'écoles contre 142 €. Ce n'est pas une nuance, c'est un autre dossier. D'autres options de la région méritent d'être posées à côté. Lens sort à 6,0 avec un T3 encore moins cher, à 590 €. Saint-Quentin affiche 6,6 avec un T3 à 650 €. Arras atteint 6,1 avec un T3 à 720 € et un rapport de 109 €. Boulogne-sur-Mer, la plus proche de Calais, tombe à 5,4 avec un T3 à 780 €. Dunkerque, couverte dans un batch précédent de cette série, sort à 5,7 avec un T3 à 750 €. Calais est 16e des 27 communes éligibles de sa région, et cinq d'entre elles offrent un meilleur composite pour un T3 inférieur à 700 € : Lens, Cambrai, Saint-Quentin, Valenciennes et Douai. Si le projet est libre géographiquement, c'est là qu'il faut regarder d'abord.",
+        body: "Voici la comparaison qui devrait décider d'un projet, et elle est interne aux Hauts-de-France. Cambrai affiche un T3 moyen à 640 €, exactement le même qu'à Calais, pour un composite de 6,4/10 contre 5,2, soit 1,2 point d'écart et un rang national bien meilleur. Le détail est net : écoles 6,6/10 contre 4,5, coût de la vie 7,2/10 contre 6,4, transports 7,0/10 contre 6,1, sécurité 4,6/10 contre 3,7. Cambrai fait mieux sur les quatre axes, au même loyer, avec un rapport de 97 € par point d'écoles contre 142 €. Ce n'est pas une nuance, c'est un autre dossier. D'autres options de la région méritent d'être posées à côté. Lens sort à 6,0 avec un T3 encore moins cher, à 590 €. Saint-Quentin affiche 6,6 avec un T3 à 650 €. Arras atteint 6,1 avec un T3 à 720 € et un rapport de 109 €. Boulogne-sur-Mer, la plus proche de Calais, tombe à 5,4 avec un T3 à 780 €. Dunkerque, couverte dans un batch précédent de cette série, sort à 5,7 avec un T3 à 750 €. Calais est 16e des 29 communes éligibles de sa région, et cinq d'entre elles offrent un meilleur composite pour un T3 inférieur à 700 € : Lens, Cambrai, Saint-Quentin, Valenciennes et Douai. Si le projet est libre géographiquement, c'est là qu'il faut regarder d'abord.",
       },
       {
         heading: "Transports 6,1/10 : la seule bonne surprise du dossier hors budget",
@@ -57755,9 +57755,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-08-30",
+    updatedAt: "2026-10-29",
     intro:
-      "Albi sort à 7,0/10 au composite parent solo, dans un palier de 4 communes sur les 363 françaises de plus de 20 000 habitants et première d'Occitanie devant Auch et Castres. Le détail : écoles 7,7/10, coût de la vie 7,6/10, sécurité 6,7/10, transports 5,5/10 (source : notre fiche ville). Le T3 moyen est à 840 € et le mètre carré à l'achat à 2 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 550 € par mois. La commune compte 50 605 habitants au recensement 2022 contre 49 179 en 2011, soit 1 426 de plus, après un creux à 49 024 en 2016 (source : Insee, recensements). Le dossier se lit d'abord par comparaison avec Toulouse, à une heure de route et de train, dont le seuil d'entrée est presque mille euros plus haut.",
+      "Albi sort à 7,0/10 au composite parent solo, dans un palier de 4 communes sur les 416 françaises de plus de 20 000 habitants et première d'Occitanie devant Auch et Castres. Le détail : écoles 7,7/10, coût de la vie 7,6/10, sécurité 6,7/10, transports 5,5/10 (source : notre fiche ville). Le T3 moyen est à 840 € et le mètre carré à l'achat à 2 200 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 550 € par mois. La commune compte 50 605 habitants au recensement 2022 contre 49 179 en 2011, soit 1 426 de plus, après un creux à 49 024 en 2016 (source : Insee, recensements). Le dossier se lit d'abord par comparaison avec Toulouse, à une heure de route et de train, dont le seuil d'entrée est presque mille euros plus haut.",
     sections: [
       {
         heading: "2 550 € contre 3 500 € à Toulouse, pour 1,3 point d'écoles de moins",
@@ -57804,9 +57804,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-30",
-    updatedAt: "2026-08-30",
+    updatedAt: "2026-10-29",
     intro:
-      "Cholet sort à 7,0/10 au composite parent solo, dans un palier de 4 communes sur les 363 françaises de plus de 20 000 habitants et troisième des Pays de la Loire. Le détail : écoles 7,7/10, sécurité 7,1/10, coût de la vie 6,7/10, transports 6,2/10 (source : notre fiche ville). Aucun de ces quatre chiffres ne décroche, ce qui est la signature des villes du haut de ce classement. Le T3 moyen est à 800 € et le mètre carré à l'achat à 1 900 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 54 074 habitants au recensement 2022 contre 54 421 en 2011 et 53 718 en 2016 (source : Insee, recensements) : une population stable à trois cents habitants près sur onze ans, ce qui est rare et vaut d'être expliqué. Le comparateur qui devrait décider d'un projet est à cinquante kilomètres, et c'est Angers.",
+      "Cholet sort à 7,0/10 au composite parent solo, dans un palier de 4 communes sur les 416 françaises de plus de 20 000 habitants et troisième des Pays de la Loire. Le détail : écoles 7,7/10, sécurité 7,1/10, coût de la vie 6,7/10, transports 6,2/10 (source : notre fiche ville). Aucun de ces quatre chiffres ne décroche, ce qui est la signature des villes du haut de ce classement. Le T3 moyen est à 800 € et le mètre carré à l'achat à 1 900 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 400 € par mois. La commune compte 54 074 habitants au recensement 2022 contre 54 421 en 2011 et 53 718 en 2016 (source : Insee, recensements) : une population stable à trois cents habitants près sur onze ans, ce qui est rare et vaut d'être expliqué. Le comparateur qui devrait décider d'un projet est à cinquante kilomètres, et c'est Angers.",
     sections: [
       {
         heading: "2 400 € contre 3 050 € à Angers, pour 0,2 point d'écoles d'écart",
@@ -57826,7 +57826,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Où Cholet se situe dans sa région",
-        body: "Cholet est troisième des 14 communes éligibles des Pays de la Loire, derrière La Roche-sur-Yon à 7,5 et Challans à 7,1, devant Les Sables-d'Olonne à 6,8, Angers à 6,7 et Laval à 6,6. Trois comparateurs valent d'être posés à côté. La Roche-sur-Yon, à cinquante minutes, affiche exactement le même T3 à 800 € et le même seuil d'entrée de 2 400 €, pour une meilleure desserte, à 7,0/10 de transports, et une meilleure sécurité, La Roche-sur-Yon sortant à 8,0/10 sur cet axe : à budget identique, c'est objectivement le meilleur dossier des deux, et ce guide n'a aucune raison de le cacher. Saumur, dans le même département, sort à 6,5 avec le même T3 à 800 € et un rapport de 121 € par point d'écoles, moins bon. Laval, en Mayenne, ouvre à 2 000 € pour un T3 à 660 € et un rapport de 100 € par point, meilleur, pour une note d'écoles de 6,6/10 au lieu de 7,7 : 400 € de revenu minimum mensuel de moins contre un point d'offre scolaire en moins. Ce que Cholet garde en propre face à ces trois-là, c'est le mètre carré le moins cher du haut de classement régional après Laval, et un bassin d'emploi industriel réel, ce qu'aucun des quatre axes ne mesure.",
+        body: "Cholet est troisième des 19 communes éligibles des Pays de la Loire, derrière La Roche-sur-Yon à 7,5 et Challans à 7,1, devant Les Sables-d'Olonne à 6,8, Angers à 6,7 et Laval à 6,6. Trois comparateurs valent d'être posés à côté. La Roche-sur-Yon, à cinquante minutes, affiche exactement le même T3 à 800 € et le même seuil d'entrée de 2 400 €, pour une meilleure desserte, à 7,0/10 de transports, et une meilleure sécurité, La Roche-sur-Yon sortant à 8,0/10 sur cet axe : à budget identique, c'est objectivement le meilleur dossier des deux, et ce guide n'a aucune raison de le cacher. Saumur, dans le même département, sort à 6,5 avec le même T3 à 800 € et un rapport de 121 € par point d'écoles, moins bon. Laval, en Mayenne, ouvre à 2 000 € pour un T3 à 660 € et un rapport de 100 € par point, meilleur, pour une note d'écoles de 6,6/10 au lieu de 7,7 : 400 € de revenu minimum mensuel de moins contre un point d'offre scolaire en moins. Ce que Cholet garde en propre face à ces trois-là, c'est le mètre carré le moins cher du haut de classement régional après Laval, et un bassin d'emploi industriel réel, ce qu'aucun des quatre axes ne mesure.",
       },
       {
         heading: "Le verdict : pour qui Cholet fonctionne",
