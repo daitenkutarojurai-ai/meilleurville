@@ -37354,6 +37354,327 @@ export const GUIDES: Guide[] = [
     tags: ["étudiant Nîmes 2026", "étudier à Nîmes", "logement étudiant Nîmes", "budget étudiant Nîmes", "université de Nîmes Vauban Hoche"],
   },
   {
+    slug: "etudiant-a-annecy-2026",
+    title: "Étudiant à Annecy en 2026 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Annecy 2026 : logement, budget, campus",
+    metaDesc: "Étudier à Annecy en 2026 : studio à 750 € sur notre estimation, campus d'Annecy-le-Vieux, 160 € de plus qu'à Chambéry. Budget et pièges : le guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Étudier à Annecy coûte cher : le studio y est estimé à 750 € par mois, contre 590 € à Chambéry, la ville voisine qui partage la même université (source : notre estimation des loyers). C'est le loyer étudiant le plus élevé de ce lot. En échange, un campus d'ingénieurs et de gestion à taille humaine, un lac et un revenu médian de 26 250 € par an pour un taux de pauvreté de 10 % (source : Insee, Filosofi 2021). Les 15-29 ans pèsent 19,4 % de la population, au-dessus de la médiane de 18,5 % des communes suivies (source : Insee, recensement 2022), et la ville gagne des habitants, 126 419 en 2016 et 131 272 en 2022. Notre score vie étudiante est de 6,2/10, dans un palier de vingt-deux villes à la même note (source : notre fiche profils).",
+    sections: [
+      {
+        heading: "Quelles études peut-on faire à Annecy ?",
+        body: "L'enseignement supérieur annécien tourne autour du site d'Annecy-le-Vieux de l'université Savoie Mont Blanc, qui réunit un IUT, l'IAE (l'institut de gestion de l'université), deux écoles d'ingénieurs dont Polytech Annecy-Chambéry, ainsi que des BTS et des classes préparatoires dans la ville. La ville annonce près de 8 000 étudiants au total, public et privé confondus, et l'IUT en compte environ 2 800 sur les 15 000 de l'université (source : ville d'Annecy et université Savoie Mont Blanc). Le profil est plutôt technique et gestion : pour le droit, les lettres ou la médecine, il faudra regarder du côté de Chambéry, de Grenoble ou de Lyon.",
+      },
+      {
+        heading: "Combien coûte un logement étudiant à Annecy ?",
+        body: "Notre estimation place le studio à 750 € par mois et le deux-pièces à 1 100 € (source : notre estimation des loyers). À titre de comparaison, le studio est à 590 € à Chambéry et à 560 € à Grenoble, soit 160 € et 190 € de moins par mois, donc près de 2 000 € sur l'année. Les petites surfaces sont rares et très demandées autour du lac et de la vieille ville, ce qui pousse beaucoup d'étudiants vers les communes de l'agglomération ou vers les colocations. Les résidences du Crous Grenoble-Alpes sont de loin l'option la moins chère, avec priorité aux boursiers, et Visale remplace le garant. Le diagnostic de performance énergétique se lit avant de signer : les logements G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Quel budget mensuel prévoir ?",
+        body: "L'addition ligne par ligne. Studio : 750 € (source : notre estimation des loyers). Transport : 30 € par mois, une hypothèse de notre part, à ajuster selon le tarif jeune du réseau local. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 1 110 € par mois avant aides, à comparer à 950 € à Chambéry avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous les étudiants depuis le 4 mai 2026 (source : Crous). En 2026-2027, l'inscription coûte 178 € en licence et 255 € en master, plus 105 € de CVEC, et les boursiers en sont exonérés (source : service-public.fr). La bourse sur critères sociaux va de 145 € à 633 € par mois sur dix mois. L'APL se simule sur le site de la CAF.",
+      },
+      {
+        heading: "Annecy ou Chambéry : où loger, où étudier ?",
+        body: "Les deux villes dépendent de la même université, et c'est le levier de budget le plus concret : si votre formation a un site à Chambéry, le studio y est estimé à 590 €, et les 15-29 ans pèsent 22,7 % de la population contre 19,4 % à Annecy. Grenoble, plus grande, est à 31,3 % de jeunes et notre score vie étudiante y est de 7,3/10 contre 6,2 à Annecy. Annecy gagne sur le cadre et sur le revenu des habitants, pas sur l'effervescence étudiante. Notre guide « Annecy ou Chambéry » détaille l'arbitrage hors études.",
+      },
+      {
+        heading: "Quelle vie étudiante autour du lac ?",
+        body: "La vie étudiante annécienne se partage entre la vieille ville, avec ses canaux et ses terrasses, et le lac, où la plage, le vélo et la voile occupent les beaux jours. L'hiver et le printemps, les montagnes proches ouvrent les sorties de ski et de randonnée, accessibles depuis la ville en voiture ou en car. La ville est plus calme que Grenoble ou Lyon le soir : c'est un atout pour qui veut travailler, une limite pour qui cherche une vie nocturne dense. Notre guide « 10 choses à faire à Annecy » donne les adresses hors budget étudiant.",
+      },
+      {
+        heading: "Jobs, stages et verdict par profil",
+        body: "Les jobs étudiants se trouvent surtout dans le tourisme, la restauration et l'hôtellerie, très saisonniers, et dans le commerce. Les stages d'ingénieurs et de gestion s'appuient sur un tissu industriel et technologique local, et la proximité de la Suisse pèse sur le marché du logement. Verdict : Annecy convient à un étudiant en IUT, en école d'ingénieurs ou en gestion dont le budget familial absorbe 1 100 € par mois, ou qui décroche une alternance. Pour un boursier sans appui, Chambéry ou Grenoble coûtent nettement moins pour des études comparables.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "lyon"],
+    relatedGuides: [
+      "vivre-a-annecy-2026",
+      "annecy-vs-chambery-comparatif-2026",
+      "10-choses-a-faire-a-annecy-2026",
+      "etudiant-a-chambery-2026",
+      "etudiant-a-grenoble-2026",
+    ],
+    tags: ["étudiant Annecy 2026", "étudier à Annecy", "logement étudiant Annecy", "budget étudiant Annecy", "campus Annecy-le-Vieux USMB"],
+  },
+  {
+    slug: "etudiant-a-vannes-2026",
+    title: "Étudiant à Vannes en 2026 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Vannes 2026 : logement, budget, campus",
+    metaDesc: "Étudier à Vannes en 2026 : studio à 620 € sur notre estimation, plus cher qu'à Rennes, campus de Tohannic et golfe du Morbihan. Le guide honnête.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "À Vannes, le studio est estimé à 620 € par mois, soit 30 € de plus qu'à Rennes, une ville quatre fois plus peuplée (source : notre estimation des loyers). Cette inversion est le fait central du guide : on étudie ici pour une formation précise, pas pour un loyer bas. Les 15-29 ans pèsent 21,7 % de la population, au-dessus de la médiane de 18,5 % des communes suivies (source : Insee, recensement 2022), et la ville grossit doucement, 53 218 habitants en 2016 et 54 955 en 2022. Notre score vie étudiante est de 6,1/10, dans un palier de dix-huit villes à la même note (source : notre fiche profils).",
+    sections: [
+      {
+        heading: "Quelles formations trouve-t-on à Vannes ?",
+        body: "Vannes est l'un des deux pôles de l'Université Bretagne Sud, l'autre étant Lorient. Le campus de Tohannic, au nord de la ville, regroupe la faculté des sciences et sciences de l'ingénieur et l'ENSIBS, l'école d'ingénieurs de l'université, dont les spécialités incluent l'informatique et la cybersécurité, avec aussi un site à Lorient. L'IUT de Vannes complète l'offre en BUT. L'université compte environ 9 500 étudiants sur l'ensemble de ses sites, Lorient, Vannes et Pontivy (source : Campus France). Pour le détail des licences et des masters proposés à Vannes, le catalogue de l'université fait foi : l'offre change d'une année à l'autre.",
+      },
+      {
+        heading: "Pourquoi Vannes coûte-t-elle plus cher que Rennes ?",
+        body: "Notre estimation place le studio vannetais à 620 € et le deux-pièces à 850 €, contre 590 € et 820 € à Rennes (source : notre estimation des loyers). Le marché local est tiré par les résidences secondaires, la proximité du golfe et un revenu médian de 24 070 € par an. À Lorient, le studio est estimé à 500 €, à 120 € de moins dans le même département. Les résidences du Crous Rennes-Bretagne sont l'option la moins chère, avec priorité aux boursiers, et Visale remplace le garant. Lisez le DPE avant de signer : les logements G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : que reste-t-il après le loyer ?",
+        body: "Studio : 620 € (source : notre estimation des loyers). Transport : 30 € par mois, une hypothèse de notre part, la ville se faisant largement à pied ou à vélo. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 980 € par mois avant aides, contre 950 € à Rennes avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). En 2026-2027, l'inscription coûte 178 € en licence et 255 € en master, plus 105 € de CVEC, boursiers exonérés (source : service-public.fr). La bourse sur critères sociaux va de 145 € à 633 € par mois sur dix mois.",
+      },
+      {
+        heading: "Une ambiance étudiante, vraiment ?",
+        body: "Soyons clairs : Vannes n'est pas une ville étudiante au sens de Rennes, où les 15-29 ans pèsent 34,1 % de la population. Ici ils représentent 21,7 %, et la vie nocturne reste modeste hors saison. En contrepartie, le centre fortifié, le port et les sentiers du golfe du Morbihan offrent un cadre qu'aucune grande ville ne propose, et les îles du golfe sont accessibles en bateau. Rennes se rejoint pour les grandes sorties. C'est une vie étudiante de petite ville, calme et sûre, plutôt qu'un campus animé.",
+      },
+      {
+        heading: "Jobs, stages et alternance autour de Vannes",
+        body: "Les jobs se trouvent dans le tourisme, la restauration, le commerce et les services, avec un pic l'été. Pour l'informatique et la cybersécurité, le bassin vannetais et la proximité de Lorient offrent des stages et de l'alternance, ce qui explique la présence de l'ENSIBS. Pour d'autres filières, beaucoup d'étudiants font leur master à Rennes. La voiture ou le vélo électrique aident à relier le campus de Tohannic aux logements en périphérie.",
+      },
+      {
+        heading: "Vannes, Lorient ou Rennes : lequel choisir ?",
+        body: "Vannes convient à un étudiant de l'ENSIBS, de l'IUT ou de la faculté des sciences qui veut un cadre calme et peut absorber 620 € de studio. Lorient coûte 120 € de moins par mois pour la même université. Rennes coûte 30 € de moins que Vannes pour un choix de formations sans comparaison, mais une vie plus dense et plus bruyante. Notre guide « Vivre à Vannes » détaille le reste de la ville pour qui y reste après les études.",
+      },
+    ],
+    relatedCities: ["vannes", "lorient", "rennes", "quimper"],
+    relatedGuides: [
+      "vivre-a-vannes-2026",
+      "acheter-a-vannes-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-vannes-2026",
+      "etudiant-a-rennes-2026",
+    ],
+    tags: ["étudiant Vannes 2026", "étudier à Vannes", "logement étudiant Vannes", "budget étudiant Vannes", "campus Tohannic Bretagne Sud"],
+  },
+  {
+    slug: "etudiant-a-lorient-2026",
+    title: "Étudiant à Lorient en 2026 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Lorient 2026 : logement, budget, campus",
+    metaDesc: "Étudier à Lorient en 2026 : studio à 500 € sur notre estimation, université Bretagne Sud, IUT et ENSIBS, port de pêche et voile. Le guide honnête.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Lorient est la moitié la moins chère de l'Université Bretagne Sud : le studio y est estimé à 500 € par mois, contre 620 € à Vannes (source : notre estimation des loyers). Mais la ville a un taux de pauvreté de 21 % (source : Insee, Filosofi 2021) et un revenu médian de 20 860 € par an, nettement sous celui de Vannes : le loyer bas reflète un marché de ville portuaire populaire. Les 15-29 ans pèsent 21,8 % de la population, au-dessus de la médiane de 18,5 % des communes suivies (source : Insee, recensement 2022), et la population est stable, 57 274 habitants en 2016 et 58 202 en 2022. Notre score vie étudiante est de 6,2/10, dans un palier de vingt-deux villes à la même note (source : notre fiche profils).",
+    sections: [
+      {
+        heading: "Que peut-on étudier à Lorient ?",
+        body: "L'Université Bretagne Sud est répartie entre Lorient, Vannes et Pontivy, pour environ 9 500 étudiants au total (source : Campus France). Lorient accueille un IUT, des sites de l'université et l'ENSIBS, l'école d'ingénieurs dont les spécialités incluent l'informatique, la cybersécurité, le génie industriel et la mécatronique. L'ancrage maritime et industriel de la ville influence l'offre : on y vient pour la voile, le nautisme, l'ingénierie ou l'informatique plus que pour un cursus généraliste. L'offre exacte par site se vérifie sur le catalogue de l'université.",
+      },
+      {
+        heading: "Quel loyer étudiant à Lorient ?",
+        body: "Notre estimation place le studio à 500 € et le deux-pièces à 680 € (source : notre estimation des loyers). C'est 120 € de moins qu'à Vannes et à peine plus qu'à Brest, où le studio est estimé à 480 €. Le marché est détendu, avec un parc ancien important et une reconstruction d'après-guerre au centre : les charges de chauffage et le DPE sont à vérifier à la visite. Les résidences du Crous Rennes-Bretagne sont les moins chères, avec priorité aux boursiers, et Visale remplace le garant.",
+      },
+      {
+        heading: "Budget mensuel : un peu moins de 900 euros",
+        body: "Studio : 500 € (source : notre estimation des loyers). Transport : 30 € par mois, une hypothèse de notre part. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 860 € par mois avant aides, soit 120 € de moins qu'à Vannes avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). L'inscription coûte 178 € en licence et 255 € en master en 2026-2027, plus 105 € de CVEC, boursiers exonérés (source : service-public.fr). La bourse sur critères sociaux va de 145 € à 633 € par mois sur dix mois.",
+      },
+      {
+        heading: "Quelle vie étudiante entre rade et océan ?",
+        body: "Lorient vit au rythme de son port : la rade, la Cité de la Voile Éric Tabarly, l'ancienne base de sous-marins de Keroman et, en août, le Festival interceltique. Les plages de la côte sont accessibles depuis la ville en bus ou en voiture, et l'île de Groix se rejoint en bateau. La ville est plus ouvrière que touristique : la vie nocturne est animée mais modeste, et Rennes ou Nantes se rejoignent pour les grands concerts.",
+      },
+      {
+        heading: "Jobs, stages et alternance",
+        body: "Les jobs étudiants existent dans la restauration, le commerce, la logistique et les services à la personne. Pour les stages, le tissu local est tourné vers la mer : course au large et nautisme, pêche, industrie navale et défense, auxquels s'ajoutent les entreprises informatiques et industrielles du bassin. Le taux de pauvreté de 21 % signifie aussi un marché de l'emploi local plus fragile que celui de Vannes ou de Rennes : l'alternance se prépare tôt.",
+      },
+      {
+        heading: "Lorient, Vannes ou Quimper : pour qui ?",
+        body: "Lorient convient à un étudiant de l'ENSIBS, de l'IUT ou d'une filière maritime qui veut le loyer le plus bas du Morbihan. Vannes est plus chère de 120 € mais plus calme et plus aisée, avec 15 % de pauvreté contre 21 %. Quimper, à 510 € le studio, est un choix proche en coût avec une autre université, l'UBO. Notre comparatif « Brest ou Lorient » compare Lorient à une ville plus étudiante.",
+      },
+    ],
+    relatedCities: ["lorient", "vannes", "quimper", "brest"],
+    relatedGuides: [
+      "vivre-a-lorient-2026",
+      "brest-vs-lorient-comparatif-2026",
+      "10-choses-a-faire-a-lorient-2026",
+      "etudiant-a-brest-2026",
+    ],
+    tags: ["étudiant Lorient 2026", "étudier à Lorient", "logement étudiant Lorient", "budget étudiant Lorient", "université Bretagne Sud ENSIBS Lorient"],
+  },
+  {
+    slug: "etudiant-a-quimper-2026",
+    title: "Étudiant à Quimper en 2026 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Quimper 2026 : logement, budget, campus",
+    metaDesc: "Étudier à Quimper en 2026 : studio à 510 € sur notre estimation, pôle Pierre-Jakez Hélias, IUT et 2 824 étudiants UBO. Le guide honnête.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Quimper compte 2 824 étudiants de l'Université de Bretagne Occidentale à la rentrée 2025, répartis entre le pôle universitaire Pierre-Jakez Hélias (1 365), l'IUT (1 227), l'INSPÉ (120) et l'ESIAB (112) (source : UBO). Le studio est estimé à 510 € par mois (source : notre estimation des loyers) et le taux de pauvreté est de 13 % (source : Insee, Filosofi 2021), un des plus bas de ce lot. Les 15-29 ans pèsent 19,7 % de la population, au-dessus de la médiane de 18,5 % des communes suivies (source : Insee, recensement 2022), et la population est quasi stable, 63 405 habitants en 2016 et 64 530 en 2022. Notre score vie étudiante est de 6,2/10, dans un palier de vingt-deux villes à la même note (source : notre fiche profils).",
+    sections: [
+      {
+        heading: "Que peut-on étudier à Quimper ?",
+        body: "Quimper est un site secondaire de l'UBO, dont le siège est à Brest. Le pôle universitaire Pierre-Jakez Hélias, ouvert en 1996, propose surtout du droit (541 étudiants) et des lettres et sciences humaines (756), avec des parcours en patrimoine et en tourisme, dont un master Tourisme Littoral. L'IUT, présent depuis plus de cinquante ans, couvre les BUT. L'ESIAB complète avec l'ingénierie agroalimentaire et l'INSPÉ forme les enseignants (source : UBO, rentrée 2025). Pour des études d'art, l'École supérieure d'art et de design de Quimper est une option spécifique. Pour la médecine ou les sciences, il faut aller à Brest.",
+      },
+      {
+        heading: "Combien coûte un studio à Quimper ?",
+        body: "Notre estimation place le studio à 510 € et le deux-pièces à 700 € (source : notre estimation des loyers). Brest, la ville de l'autre site de l'UBO, est à 480 € pour un studio, à 30 € de moins. Le marché quimpérois est détendu, avec une offre ancienne dans le centre autour de la cathédrale et des maisons de quartier plus calmes. Le revenu médian est de 22 700 € par an (source : Insee, Filosofi 2021). Les résidences du Crous Rennes-Bretagne sont les moins chères, avec priorité aux boursiers, et Visale remplace le garant. Lisez le DPE avant de signer.",
+      },
+      {
+        heading: "Quel budget mensuel ?",
+        body: "Studio : 510 € (source : notre estimation des loyers). Transport : 30 € par mois, une hypothèse de notre part, le centre se faisant à pied. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 870 € par mois avant aides. Le repas Crous à 1 € est ouvert à tous les étudiants depuis le 4 mai 2026 (source : Crous). En 2026-2027, l'inscription coûte 178 € en licence et 255 € en master, plus 105 € de CVEC, boursiers exonérés (source : service-public.fr). La bourse sur critères sociaux va de 145 € à 633 € par mois sur dix mois selon l'échelon.",
+      },
+      {
+        heading: "Quimper ou Brest pour étudier la même université ?",
+        body: "Brest compte 28,8 % de 15-29 ans, contre 19,7 % à Quimper, et un score vie étudiante de 6,8/10 contre 6,2 (source : notre fiche profils). Brest est une vraie ville étudiante, avec l'essentiel des formations de l'UBO ; Quimper est plus calme, un peu plus chère de 30 € pour le studio, avec des promotions plus petites. Si votre formation existe à Quimper, vous y étudiez dans des effectifs réduits. Sinon, Brest est le seul choix cohérent.",
+      },
+      {
+        heading: "Quelle vie étudiante à Quimper ?",
+        body: "Le centre historique, la cathédrale Saint-Corentin et les rives de l'Odet font de Quimper une ville agréable à pied. Le Festival de Cornouaille anime la ville en juillet, et la culture bretonne y est vivante toute l'année. La vie nocturne est limitée : les étudiants se retrouvent dans quelques bars du centre et rejoignent Brest ou Rennes pour les grands concerts. Les plages du Finistère sud sont accessibles depuis Quimper en voiture ou en car.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les jobs étudiants se trouvent dans la restauration, le commerce, le tourisme saisonnier et l'agroalimentaire, très présent en Cornouaille. Pour les stages, le patrimoine, le tourisme littoral, le droit et l'enseignement ont des débouchés locaux, et l'ingénierie agroalimentaire de l'ESIAB s'appuie sur le tissu régional. Verdict : Quimper convient à un étudiant en droit, lettres, patrimoine, en BUT ou en école d'art qui préfère une ville calme à 13 % de pauvreté. Pour la vie étudiante, Brest ou Rennes font mieux.",
+      },
+    ],
+    relatedCities: ["quimper", "brest", "lorient", "rennes"],
+    relatedGuides: [
+      "vivre-a-quimper-2026",
+      "10-choses-a-faire-a-quimper-2026",
+      "famille-a-quimper-2026",
+      "etudiant-a-brest-2026",
+    ],
+    tags: ["étudiant Quimper 2026", "étudier à Quimper", "logement étudiant Quimper", "budget étudiant Quimper", "UBO pôle Pierre-Jakez Hélias IUT Quimper"],
+  },
+  {
+    slug: "etudiant-a-troyes-2026",
+    title: "Étudiant à Troyes en 2026 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Troyes 2026 : logement, budget, campus",
+    metaDesc: "Étudier à Troyes en 2026 : studio à 470 € sur notre estimation, UTT, IUT et 24,6 % de 15-29 ans, mais 30 % de pauvreté. Le guide honnête.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Troyes a une particularité rare pour une ville de 62 000 habitants : une université de technologie publique, l'UTT, qui accueille environ 3 100 étudiants (source : UTT). Le studio est estimé à 470 € par mois (source : notre estimation des loyers) et les 15-29 ans pèsent 24,6 % de la population, au-dessus de la médiane de 18,5 % des communes suivies (source : Insee, recensement 2022). Le revers : un taux de pauvreté de 30 % et un revenu médian de 18 260 € par an, l'un des plus bas de ce lot (source : Insee, Filosofi 2021). La population gagne un peu, 60 640 habitants en 2016 et 62 443 en 2022. Notre score vie étudiante est de 6,8/10, dans un palier de quatorze villes à la même note (source : notre fiche profils).",
+    sections: [
+      {
+        heading: "Pourquoi étudier à Troyes ?",
+        body: "La raison principale s'appelle UTT : fondée en 1994, c'est l'une des trois universités de technologie de France, qui recrute après le bac et forme des ingénieurs jusqu'au doctorat. Elle partage un campus avec l'IUT, l'EPF (école d'ingénieurs) et l'IFSI. L'IUT de Troyes dépend de l'université de Reims Champagne-Ardenne et compte environ 1 600 étudiants avec six BUT et neuf licences professionnelles, dont un quart en alternance (source : URCA). L'offre est donc technique et professionnelle ; pour la médecine, le droit ou les lettres, il faut aller à Reims.",
+      },
+      {
+        heading: "Quel loyer étudiant à Troyes ?",
+        body: "Notre estimation place le studio à 470 € et le deux-pièces à 650 € (source : notre estimation des loyers). Reims, à 490 € le studio, est un peu plus chère, et les deux villes appartiennent au même Crous Reims-Champagne-Ardenne. Le marché troyen est détendu, avec un centre ancien aux maisons à pans de bois, jolies mais parfois mal isolées : le DPE et les charges se vérifient avant de signer. Les logements G sont interdits à la nouvelle location. Les résidences du Crous, avec priorité aux boursiers, sont les moins chères, et Visale remplace le garant. Une résidence étudiante est proche du campus UTT.",
+      },
+      {
+        heading: "Quel budget mensuel à Troyes ?",
+        body: "Studio : 470 € (source : notre estimation des loyers). Transport : 30 € par mois, une hypothèse de notre part. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 830 € par mois avant aides. Le repas Crous à 1 € est ouvert à tous les étudiants depuis le 4 mai 2026 (source : Crous). En 2026-2027, l'inscription coûte 178 € en licence et 255 € en master (les écoles d'ingénieurs publiques ont leurs propres droits), plus 105 € de CVEC, boursiers exonérés (source : service-public.fr). La bourse sur critères sociaux va de 145 € à 633 € par mois sur dix mois.",
+      },
+      {
+        heading: "Troyes ou Reims : quelle différence ?",
+        body: "Reims est trois fois plus peuplée : 178 478 habitants contre 62 443, 27,5 % de 15-29 ans contre 24,6 %, et un score vie étudiante de 6,7/10 contre 6,8 à Troyes (source : notre fiche profils). Troyes ne perd donc rien en note : la ville compense sa taille par la densité d'étudiants dans un campus unique. La différence est dans l'offre : Reims propose une université généraliste, Troyes une université de technologie et un IUT. Reims perd des habitants (183 113 en 2016), Troyes en gagne.",
+      },
+      {
+        heading: "Que fait-on le soir à Troyes ?",
+        body: "Le centre historique de Troyes, ses maisons à pans de bois et ses églises en font un cœur de ville agréable, avec une vie de bars modeste mais réelle. La ville est aussi connue pour ses magasins d'usine. Les étudiants de l'UTT organisent leur propre vie associative sur le campus, et la sortie se fait volontiers dans le centre. Pour les grands concerts, Reims ou Paris restent à distance de train.",
+      },
+      {
+        heading: "Jobs, stages et ce qu'il faut savoir",
+        body: "Le point honnête d'abord : avec 30 % de pauvreté, le marché de l'emploi local est tendu, et les petits boulots ne sont pas abondants. En revanche, l'UTT et l'IUT ont des liens étroits avec l'industrie, et les stages et alternances en ingénierie, mécanique, textile et logistique sont le point fort de la ville. Verdict : Troyes convient à un étudiant en ingénierie ou en BUT qui cherche un loyer bas et un campus compact, pas à qui veut une grande vie nocturne ni de nombreux jobs d'appoint.",
+      },
+    ],
+    relatedCities: ["troyes", "reims", "nancy", "dijon"],
+    relatedGuides: [
+      "vivre-a-troyes-2026",
+      "acheter-a-troyes-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-troyes-2026",
+      "etudiant-a-reims-2026",
+    ],
+    tags: ["étudiant Troyes 2026", "étudier à Troyes", "logement étudiant Troyes", "budget étudiant Troyes", "UTT IUT Troyes campus"],
+  },
+  {
+    slug: "etudiant-a-la-roche-sur-yon-2026",
+    title: "Étudiant à La Roche-sur-Yon en 2026 : logement, budget, campus",
+    metaTitle: "Étudiant à La Roche-sur-Yon 2026 : logement, campus",
+    metaDesc: "Étudier à La Roche-sur-Yon en 2026 : studio à 440 € sur notre estimation, campus Nantes Université à la Courtaisière, budget et limites.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "La Roche-sur-Yon a le studio le moins cher de ce lot : 440 € par mois sur notre estimation, contre 600 € à Nantes (source : notre estimation des loyers). Le campus est une antenne de Nantes Université, installé sur environ 5 hectares près du centre, la Courtaisière, avec près de 1 600 étudiants sur le pôle (source : Nantes Université). Les 15-29 ans pèsent 22,3 % de la population, au-dessus de la médiane de 18,5 % des communes suivies (source : Insee, recensement 2022), et la ville gagne des habitants, 53 741 en 2016 et 54 699 en 2022. Notre score vie étudiante est de 6,8/10, dans un palier de quatorze villes à la même note (source : notre fiche profils).",
+    sections: [
+      {
+        heading: "Que peut-on étudier à La Roche-sur-Yon ?",
+        body: "Le campus de la Courtaisière réunit le centre universitaire départemental, l'IUT de La Roche-sur-Yon et l'INSPÉ (source : Nantes Université). L'IUT comptait 729 étudiants en 2021-2022. Le centre universitaire propose des licences et des masters en antenne de Nantes Université, ainsi que des licences professionnelles. Le catalogue précise les parcours ouverts sur place. C'est une offre de premier cycle surtout : pour une spécialité pointue ou la médecine, il faut aller à Nantes. Pour le détail, le catalogue de Nantes Université fait foi.",
+      },
+      {
+        heading: "Combien coûte un studio à La Roche-sur-Yon ?",
+        body: "Notre estimation place le studio à 440 € et le deux-pièces à 600 € (source : notre estimation des loyers). À Nantes, le studio est estimé à 600 € et le deux-pièces à 850 €, soit 160 € de plus par mois, près de 2 000 € sur l'année. Le marché yonnais est détendu, avec des immeubles récents près du campus et des maisons anciennes divisées en studios. Les résidences du Crous Nantes-Pays de la Loire sont les moins chères, avec priorité aux boursiers, et Visale remplace le garant. Le DPE se lit avant de signer : les logements G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : moins de 800 euros",
+        body: "Studio : 440 € (source : notre estimation des loyers). Transport : 30 € par mois, une hypothèse de notre part, la ville étant plate et cyclable. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 800 € par mois avant aides, contre 960 € à Nantes avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). En 2026-2027, l'inscription coûte 178 € en licence et 255 € en master, plus 105 € de CVEC, boursiers exonérés (source : service-public.fr). La bourse sur critères sociaux va de 145 € à 633 € par mois sur dix mois.",
+      },
+      {
+        heading: "La Roche-sur-Yon, une ville étudiante ?",
+        body: "Pas au sens d'une métropole : 22,3 % de 15-29 ans, contre 28,7 % à Nantes, et une vie nocturne limitée. Mais le campus est près du centre, la ville est sûre (notre score sécurité y est de 8/10, le plus haut de ce lot) et son plan pentagonal, hérité de l'époque napoléonienne, la rend facile à parcourir. Le campus organise une fête de rentrée et une démarche « Campus Vert » depuis 2017. Les plages vendéennes sont accessibles depuis la ville en voiture.",
+      },
+      {
+        heading: "Jobs, stages et alternance",
+        body: "Les jobs étudiants se trouvent dans le commerce, la restauration et les services, et le tourisme balnéaire de la côte, accessible depuis la ville, offre des contrats d'été. Les stages s'appuient sur le tissu industriel vendéen, agroalimentaire, nautisme et construction, et sur les services publics départementaux. L'alternance est un bon levier, le département étant bien doté en industrie.",
+      },
+      {
+        heading: "Pour qui, et pourquoi pas Nantes ?",
+        body: "La Roche-sur-Yon convient à un étudiant en BUT, en licence de droit, de lettres ou de gestion qui veut un loyer à 440 € et une ville tranquille, ou à un boursier dont la bourse couvre l'essentiel du budget. Nantes offre un choix de formations sans comparaison, mais un studio à 600 € et une vie plus chère. Une solution fréquente : licence sur place, master à Nantes. Notre guide « Vivre à La Roche-sur-Yon » détaille le reste de la ville.",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon", "nantes", "niort", "la-rochelle"],
+    relatedGuides: [
+      "10-choses-a-faire-a-la-roche-sur-yon-2026",
+      "famille-a-la-roche-sur-yon-2026",
+      "etudiant-a-nantes-2026",
+    ],
+    tags: ["étudiant La Roche-sur-Yon 2026", "étudier à La Roche-sur-Yon", "logement étudiant La Roche-sur-Yon", "budget étudiant La Roche-sur-Yon", "campus Courtaisière Nantes Université"],
+  },
+  {
+    slug: "etudiant-a-niort-2026",
+    title: "Étudiant à Niort en 2026 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Niort 2026 : logement, budget, campus",
+    metaDesc: "Étudier à Niort en 2026 : studio à 460 € sur notre estimation, pôle de l'Université de Poitiers, IUT et filière assurance des mutuelles. Le guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    intro: "Niort est la capitale française des mutuelles d'assurance, et son enseignement supérieur en porte la marque : une licence professionnelle assurance, banque, finance y est adossée à l'IUT, au sein d'un pôle de l'Université de Poitiers (source : Université de Poitiers). Le studio est estimé à 460 € par mois (source : notre estimation des loyers). Les 15-29 ans pèsent 19 % de la population, au-dessus de la médiane de 18,5 % des communes suivies (source : Insee, recensement 2022), mais loin des 36 % de Poitiers. La population est stable, 59 005 en 2016 et 60 074 en 2022. Notre score vie étudiante est de 6,1/10, dans un palier de dix-huit villes à la même note (source : notre fiche profils).",
+    sections: [
+      {
+        heading: "Quelles formations à Niort ?",
+        body: "Le pôle universitaire de Niort dépend de l'Université de Poitiers : à la rentrée 2019, elle y formait environ 1 650 étudiants dans une vingtaine de formations, soit plus de 60 % des étudiants de l'agglomération, dont l'IFSI (source : Niort Agglo). L'IUT de Poitiers-Niort-Châtellerault avait environ 475 étudiants à Niort la même année. Ces chiffres datent de 2019 et ont pu évoluer. La spécialité locale est l'assurance, la banque et la gestion, liée aux sièges des grandes mutuelles installées dans la ville. Pour les autres disciplines, Poitiers est la ville d'appui.",
+      },
+      {
+        heading: "Quel loyer étudiant à Niort ?",
+        body: "Notre estimation place le studio à 460 € et le deux-pièces à 640 € (source : notre estimation des loyers). À Poitiers, la ville de l'université, le studio est estimé à 480 € et le deux-pièces à 660 € : l'écart est de 20 € seulement, et Niort a un marché plus détendu, avec un parc ancien dans le centre et des résidences récentes. Les résidences du Crous Poitiers sont les moins chères, avec priorité aux boursiers, et Visale remplace le garant. Le DPE se lit avant de signer : les logements G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : 820 euros environ",
+        body: "Studio : 460 € (source : notre estimation des loyers). Transport : 30 € par mois, une hypothèse de notre part, le centre se faisant à pied ou à vélo. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 820 € par mois avant aides, contre 840 € à Poitiers avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous les étudiants depuis le 4 mai 2026 (source : Crous). En 2026-2027, l'inscription coûte 178 € en licence et 255 € en master, plus 105 € de CVEC, boursiers exonérés (source : service-public.fr). La bourse sur critères sociaux va de 145 € à 633 € par mois sur dix mois.",
+      },
+      {
+        heading: "Niort ou Poitiers : où étudier ?",
+        body: "Poitiers compte 36 % de 15-29 ans, contre 19 % à Niort, et un score vie étudiante de 6,5/10 contre 6,1 (source : notre fiche profils). Poitiers est une vraie ville étudiante avec l'ensemble des facultés ; Niort est une antenne, où les promotions sont petites. Si votre formation est à Niort, le loyer est un peu plus bas qu'à Poitiers, mais la vie étudiante sera plus calme. La licence assurance-banque-finance ou le BUT de gestion sont les raisons les plus cohérentes de choisir Niort.",
+      },
+      {
+        heading: "Quelle vie étudiante à Niort ?",
+        body: "Niort est une ville de taille moyenne, avec un centre piéton, les bords de la Sèvre et une vie associative active. Le Marais poitevin, accessible depuis la ville, offre promenades en barque et à vélo. La vie nocturne est modeste : les étudiants rejoignent Poitiers ou La Rochelle pour les grands concerts. La ville est calme et peu chère.",
+      },
+      {
+        heading: "Jobs, stages et alternance",
+        body: "C'est le point fort de Niort : les mutuelles et les sociétés d'assurance, dont les sièges sont dans la ville, offrent des alternances et des stages dans les métiers de l'assurance, de la relation client, de l'informatique et de la gestion. Les jobs étudiants se trouvent aussi dans le commerce et la restauration. Verdict : Niort convient à un étudiant en assurance, banque, gestion ou informatique qui vise l'alternance ; pour une vie étudiante riche ou un cursus généraliste, Poitiers est plus adaptée.",
+      },
+    ],
+    relatedCities: ["niort", "poitiers", "la-rochelle", "la-roche-sur-yon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-niort-2026",
+      "famille-a-niort-2026",
+      "etudiant-a-poitiers-2026",
+    ],
+    tags: ["étudiant Niort 2026", "étudier à Niort", "logement étudiant Niort", "budget étudiant Niort", "IUT Niort assurance Université de Poitiers"],
+  },
+  {
     slug: "famille-a-lyon-2026",
     title: "En famille à Lyon en 2026 : quartiers, écoles, budget, le guide",
     metaTitle: "Famille à Lyon 2026 — Quartiers, écoles, budget : le guide",
