@@ -1,6 +1,6 @@
 {
   "meta": {
-    "refreshedAt": "2026-10-29",
+    "refreshedAt": "2026-10-30",
     "queryVersion": 3,
     "windowMonths": 12,
     "maxEntriesPerCity": 8
@@ -31602,7 +31602,7 @@
       ]
     },
     "ozoir-la-ferriere": {
-      "refreshedAt": "2026-10-15",
+      "refreshedAt": "2026-10-30",
       "queryVersion": 3,
       "sources": [
         "bodacc",
@@ -31612,8 +31612,8 @@
         {
           "date": "2026-10-01",
           "kind": "entreprises",
-          "title": "10 créations d'entreprises publiées au BODACC en octobre 2026",
-          "titleEn": "10 business registrations published in the BODACC in October 2026",
+          "title": "14 créations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "14 business registrations published in the BODACC in October 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -31621,8 +31621,8 @@
         {
           "date": "2026-10-01",
           "kind": "procedures",
-          "title": "5 procédures collectives publiées au BODACC en octobre 2026",
-          "titleEn": "5 insolvency proceedings published in the BODACC in October 2026",
+          "title": "8 procédures collectives publiées au BODACC en octobre 2026",
+          "titleEn": "8 insolvency proceedings published in the BODACC in October 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -31630,8 +31630,8 @@
         {
           "date": "2026-10-01",
           "kind": "radiations",
-          "title": "5 radiations d'entreprises publiées au BODACC en octobre 2026",
-          "titleEn": "5 business deregistrations published in the BODACC in October 2026",
+          "title": "8 radiations d'entreprises publiées au BODACC en octobre 2026",
+          "titleEn": "8 business deregistrations published in the BODACC in October 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
