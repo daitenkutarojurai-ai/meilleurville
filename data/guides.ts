@@ -37675,6 +37675,272 @@ export const GUIDES: Guide[] = [
     tags: ["étudiant Niort 2026", "étudier à Niort", "logement étudiant Niort", "budget étudiant Niort", "IUT Niort assurance Université de Poitiers"],
   },
   {
+    slug: "etudiant-a-cergy-2026",
+    title: "Étudiant à Cergy en 2026 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Cergy 2026 : logement, budget, CY Cergy Paris",
+    metaDesc: "Étudier à Cergy en 2026 : studio à 600 € sur notre estimation, CY Cergy Paris Université, ESSEC, RER A vers Paris. Le guide chiffré.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro: "Étudier à Cergy, c'est avoir un grand campus francilien avec un studio estimé à 600 € par mois, contre 1 200 € à Paris (source : notre estimation des loyers). La ville est la plus jeune de ce lot : les 15-29 ans y représentent 26,3 % de la population, contre 18,5 % pour la médiane des communes suivies (source : Insee, recensement 2022). Elle a gagné 5 758 habitants depuis 2016, de 63 820 à 69 578. Notre score vie étudiante est de 6,6/10, dans un palier de dix-huit villes à la même note (source : notre fiche profils).",
+    sections: [
+      {
+        heading: "Quelles études à Cergy ?",
+        body: "CY Cergy Paris Université, née en 2020 de la fusion de l'université de Cergy-Pontoise et de l'école d'ingénieurs EISTI, annonce selon les sources entre 24 000 et plus de 26 000 étudiants, répartis sur plusieurs sites (le chiffre varie selon l'année et le mode de comptage ; aucune source n'isole le seul campus de Cergy). L'ESSEC y a aussi son campus, à quelques minutes à pied de la gare de Cergy-Préfecture. Le choix est donc large : lettres, droit, sciences, ingénierie, commerce.",
+      },
+      {
+        heading: "Quel loyer étudiant à Cergy ?",
+        body: "Notre estimation place le studio à 600 € et le deux-pièces à 880 € (source : notre estimation des loyers). À Paris, le studio est à 1 200 €, soit le double ; à Massy, autre ville de grande couronne bien desservie, il est à 870 €. Cergy est donc la solution pour qui veut un campus francilien sans loyer parisien. Les résidences du Crous restent le plus économique, avec priorité aux boursiers, et Visale remplace le garant. Lisez le DPE avant de signer : les logements classés G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : 1 020 euros environ",
+        body: "Studio : 600 € (source : notre estimation des loyers). Transport : 90 €, une hypothèse de notre part pour un abonnement francilien, à vérifier sur le site du réseau. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 1 020 € par mois avant aides, contre 810 € à Albi avec les mêmes hypothèses de courses et de loisirs. Le repas Crous à 1 € est ouvert à tous les étudiants depuis le 4 mai 2026 (source : Crous). En 2026-2027, l'inscription coûte 178 € en licence et 255 € en master, plus 105 € de CVEC, boursiers exonérés (source : service-public.fr).",
+      },
+      {
+        heading: "Cergy ou Paris : où loger ?",
+        body: "Le RER A relie Cergy-Préfecture au centre de Paris en 35 à 40 minutes selon l'ESSEC et les témoignages d'étudiants, mais la ligne est saturée aux heures de pointe et sujette aux incidents. Pour des cours à Cergy, loger sur place évite tout cela et fait économiser 600 € par mois sur le studio. Pour des cours à Paris, la différence de loyer paie un abonnement, mais pas la fatigue. Les quartiers de Cergy-le-Haut et de Cergy-Préfecture sont les plus proches des lignes ; vérifiez le trajet réel avant de signer.",
+      },
+      {
+        heading: "Quelle vie étudiante à Cergy ?",
+        body: "Cergy est une ville nouvelle : un grand plan d'eau, une base de loisirs, des immeubles récents et un centre commercial, plutôt qu'un vieux centre. La vie étudiante tourne autour des associations du campus, et beaucoup d'étudiants partent à Paris le soir ou le week-end. Notre score culture est de 5,7/10, contre 9/10 à Paris : la ville s'anime en semaine, moins le dimanche. Notre taux de pauvreté de 23 % (source : Insee, Filosofi 2021) rappelle que le contexte social est contrasté.",
+      },
+      {
+        heading: "Jobs, stages et alternance",
+        body: "La proximité de Paris est l'atout décisif : l'alternance et les stages se trouvent à 40 minutes de train, et les jobs étudiants dans les commerces, la restauration et les entreprises de la ville nouvelle. Verdict : Cergy convient à qui veut un grand campus polyvalent à prix francilien modéré, ou une grande école de commerce, avec un pied à Paris. Elle convient moins à qui veut une ville étudiante ancienne, vivante tard le soir : Toulouse, avec 32,6 % de 15-29 ans, joue dans une autre catégorie.",
+      },
+    ],
+    relatedCities: ["cergy", "paris", "massy", "saint-denis"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cergy-2026",
+      "etudiant-a-paris-2026",
+    ],
+    tags: ["étudiant Cergy 2026", "étudier à Cergy", "logement étudiant Cergy", "budget étudiant Cergy", "CY Cergy Paris Université ESSEC"],
+  },
+  {
+    slug: "etudiant-a-evry-courcouronnes-2026",
+    title: "Étudiant à Évry-Courcouronnes en 2026 : logement, budget, campus",
+    metaTitle: "Étudiant à Évry-Courcouronnes 2026 : logement, budget",
+    metaDesc: "Étudier à Évry-Courcouronnes en 2026 : studio à 600 € sur notre estimation, université d'Évry Paris-Saclay, 11 000 étudiants. Le guide chiffré.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro: "À Évry-Courcouronnes, un étudiant paie un studio estimé à 600 € par mois et suit des cours dans une université associée à Paris-Saclay (source : notre estimation des loyers). Les 15-29 ans y pèsent 23,5 % de la population (source : Insee, recensement 2022), au-dessus de la médiane de 18,5 %. La commune perd des habitants : 68 090 en 2016, 66 700 en 2022. Notre score vie étudiante est de 5,9/10, dans un palier de vingt-cinq villes à la même note (source : notre fiche profils). C'est une ville utilitaire, pas une ville de vie étudiante.",
+    sections: [
+      {
+        heading: "Quelles formations à Évry-Courcouronnes ?",
+        body: "L'université d'Évry Paris-Saclay accueille selon Campus France entre 11 000 et 12 000 étudiants (11 000 dans la fiche en anglais portant les frais de 2024-2025), sur une douzaine de sites, dont deux IUT. Elle est membre associée de l'université Paris-Saclay : la plupart de ses masters et tous ses doctorats délivrent un diplôme Paris-Saclay. Son campus principal est dans la ville. C'est une université pluridisciplinaire de taille moyenne, avec des promotions à échelle humaine.",
+      },
+      {
+        heading: "Quel loyer étudiant à Évry-Courcouronnes ?",
+        body: "Notre estimation place le studio à 600 € et le deux-pièces à 850 € (source : notre estimation des loyers). C'est le même niveau que Cergy pour le studio (600 €), mais 30 € de moins sur le deux-pièces (880 € à Cergy). Massy, voisine dans l'Essonne, est à 870 € pour un studio. Le marché reste celui de la grande couronne : plus cher que la province, moitié moins que Paris. Candidatez au Crous dès l'ouverture du dossier, et utilisez Visale si vous n'avez pas de garant.",
+      },
+      {
+        heading: "Budget mensuel : 1 020 euros environ",
+        body: "Studio : 600 € (source : notre estimation des loyers). Transport : 90 €, une hypothèse de notre part pour un abonnement francilien. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 1 020 € par mois avant aides, contre 890 € à Compiègne avec les mêmes hypothèses de courses et de loisirs. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). L'inscription coûte 178 € en licence et 255 € en master en 2026-2027, plus 105 € de CVEC, boursiers exonérés (source : service-public.fr).",
+      },
+      {
+        heading: "Évry ou Paris : faut-il habiter sur place ?",
+        body: "Notre score transport d'Évry est de 7,8/10, contre 9/10 à Paris : le RER et les bus relient la ville à la capitale. Le loyer d'un studio est de 600 € contre 1 200 € à Paris, soit 600 € d'écart par mois. Pour étudier sur place, loger près du campus évite les trajets quotidiens. Pour étudier à Paris, Évry reste possible si le trajet vous convient, mais c'est un choix de budget, pas de confort.",
+      },
+      {
+        heading: "Quelle vie étudiante à Évry-Courcouronnes ?",
+        body: "La vie étudiante est celle d'une ville nouvelle : associations de campus, équipements sportifs, centre commercial, et peu de vie nocturne propre. Notre score culture est de 5,9/10. Le taux de pauvreté est de 25 % (source : Insee, Filosofi 2021), signe d'un contexte social exigeant que les étudiants rencontrent dans leur quartier. Pour les sorties, on rejoint Paris. Il ne faut pas venir ici pour l'ambiance, mais pour le programme et le prix.",
+      },
+      {
+        heading: "Jobs, stages et alternance",
+        body: "L'Essonne offre un vaste bassin d'emplois, notamment autour de Paris-Saclay, avec des alternances possibles en entreprise. Les jobs étudiants se trouvent dans le commerce et les services de l'agglomération. Verdict : Évry convient à un étudiant sérieux, qui veut un diplôme Paris-Saclay à un prix francilien raisonnable et qui cherche une alternance. Elle convient moins à qui attend une vraie ville étudiante : Poitiers, avec 36 % de 15-29 ans, est l'inverse.",
+      },
+    ],
+    relatedCities: ["evry-courcouronnes", "massy", "cergy", "paris"],
+    relatedGuides: [
+      "etudiant-a-paris-2026",
+    ],
+    tags: ["étudiant Évry-Courcouronnes 2026", "étudier à Évry", "logement étudiant Évry", "budget étudiant Évry", "université d'Évry Paris-Saclay"],
+  },
+  {
+    slug: "etudiant-a-compiegne-2026",
+    title: "Étudiant à Compiègne en 2026 : UTC, logement, budget, le guide",
+    metaTitle: "Étudiant à Compiègne 2026 : UTC, logement, budget",
+    metaDesc: "Étudier à Compiègne en 2026 : studio à 530 € sur notre estimation, l'Université de technologie (UTC), train direct vers Paris. Le guide chiffré.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro: "Compiègne est une ville de 40 808 habitants dont l'enseignement supérieur tient en un nom : l'Université de technologie de Compiègne (UTC), école d'ingénieurs publique. Le studio est estimé à 530 € par mois (source : notre estimation des loyers). Les 15-29 ans représentent 23,9 % de la population (source : Insee, recensement 2022). Notre score vie étudiante est de 7,1/10, dans un palier de huit villes à la même note, au 23e rang sur 593 (source : notre fiche profils).",
+    sections: [
+      {
+        heading: "Que vaut l'UTC pour étudier à Compiègne ?",
+        body: "L'UTC compte environ 4 450 étudiants selon une fiche Campus France non datée, dont l'école de commerce ESCOM pour 500, et environ 3 700 élèves-ingénieurs selon un guide interne de l'école. Ces chiffres varient avec les années. Le cursus d'ingénieur est organisé par un tronc commun puis des spécialités. L'UTC est la raison de venir à Compiègne : pour d'autres disciplines, Amiens est le recours.",
+      },
+      {
+        heading: "Quel loyer étudiant à Compiègne ?",
+        body: "Notre estimation place le studio à 530 € et le deux-pièces à 730 € (source : notre estimation des loyers). À Beauvais, autre ville de l'Oise, le studio est à 470 € ; à Amiens, à 490 €. Compiègne est donc 40 à 60 € plus chère que ses voisines, un effet de la proximité de Paris. Les résidences du Crous et celles proches de l'école sont les moins chères. Visale remplace le garant, et le DPE se lit avant de signer : les logements G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : 890 euros environ",
+        body: "Studio : 530 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, la ville se faisant à pied ou à vélo. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 890 € par mois avant aides, contre 810 € à Angoulême avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). L'UTC est une école publique, mais ses frais ne sont pas ceux d'une licence : vérifiez-les sur son site.",
+      },
+      {
+        heading: "Compiègne ou Paris : la ligne directe",
+        body: "Le trajet direct Compiègne-Paris Gare du Nord dure selon les sources de 40 minutes à 1 h 14 selon le train. Compiègne a un score transport de 7,7/10 (source : notre fiche ville). Ce lien permet de faire un stage ou une alternance en région parisienne tout en habitant une ville bon marché. Le studio parisien est à 1 200 €, plus du double du studio compiégnois.",
+      },
+      {
+        heading: "Quelle vie étudiante à Compiègne ?",
+        body: "La ville a un patrimoine fort : château, forêt, centre historique. Notre score culture est de 7,5/10, au-dessus de beaucoup de villes de même taille. La vie associative de l'UTC est dense, avec des clubs et des projets d'étudiants-ingénieurs. La ville reste petite : on se déplace à pied, et on y est vite connu. Les grands concerts se trouvent à Paris ou Amiens.",
+      },
+      {
+        heading: "Jobs, stages et alternance",
+        body: "La force du diplôme UTC est son réseau d'entreprises et ses stages longs, en France et à l'étranger. Les jobs étudiants se trouvent dans le commerce et la restauration. Verdict : Compiègne convient à un futur ingénieur qui veut un diplôme public reconnu dans une ville calme, avec Paris à portée de train. Elle convient moins à qui n'est pas admis à l'UTC, car l'offre locale est étroite : mieux vaut alors regarder Amiens, avec 29 % de 15-29 ans.",
+      },
+    ],
+    relatedCities: ["compiegne", "beauvais", "amiens", "paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-compiegne-2026",
+      "etudiant-a-amiens-2026",
+    ],
+    tags: ["étudiant Compiègne 2026", "étudier à Compiègne", "logement étudiant Compiègne", "budget étudiant Compiègne", "UTC Université de technologie de Compiègne"],
+  },
+  {
+    slug: "etudiant-a-albi-2026",
+    title: "Étudiant à Albi en 2026 : Mines, Champollion, logement, budget",
+    metaTitle: "Étudiant à Albi 2026 : Mines, Champollion, budget",
+    metaDesc: "Étudier à Albi en 2026 : studio à 450 € sur notre estimation, IMT Mines Albi, université Champollion. Le guide chiffré, avec Toulouse en repère.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro: "Albi est une ville où un studio coûte 450 € par mois sur notre estimation, contre 620 € à Toulouse (source : notre estimation des loyers). Notre score vie étudiante est de 7,2/10, au 16e rang sur 593, dans un palier de sept villes (source : notre fiche profils). Les 15-29 ans y représentent 22,2 % de la population, loin des 32,6 % de Toulouse (source : Insee, recensement 2022). La population progresse : 49 024 en 2016, 50 605 en 2022.",
+    sections: [
+      {
+        heading: "Quelles formations à Albi ?",
+        body: "Deux établissements structurent l'offre. L'IMT Mines Albi, école d'ingénieurs sur un campus de 22 hectares, compte plus de 1 200 étudiants et attend 1 100 élèves-ingénieurs à la rentrée 2026, dont près d'un tiers en apprentissage (source : Planète Grandes Écoles, rapport annuel 2025). L'institut universitaire Champollion, établissement public d'enseignement supérieur dont le siège est à Albi, annonce 4 000 étudiants sur trois sites, Albi, Castres et Rodez. Les chiffres par campus ne sont pas détaillés.",
+      },
+      {
+        heading: "Quel loyer étudiant à Albi ?",
+        body: "Notre estimation place le studio à 450 € et le deux-pièces à 620 € (source : notre estimation des loyers). À Castres, autre site de Champollion, le studio est à 380 € : 70 € de moins, mais avec une offre de formation plus mince. Toulouse est 170 € au-dessus. L'école des Mines dispose de 566 logements, entre le campus et le centre-ville, ce qui allège la recherche pour ses élèves. Pour les autres, Crous, Visale et DPE : les logements G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : 810 euros environ",
+        body: "Studio : 450 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, le centre se faisant à pied ou à vélo. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 810 € par mois avant aides, contre 980 € à Toulouse avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). L'inscription coûte 178 € en licence et 255 € en master, plus 105 € de CVEC (source : service-public.fr) ; une école d'ingénieurs a ses propres frais.",
+      },
+      {
+        heading: "Albi ou Toulouse : où étudier ?",
+        body: "Toulouse a un score vie étudiante de 7,5/10 contre 7,2, un studio à 620 € et 32,6 % de 15-29 ans : la vraie ville étudiante. Albi gagne sur le prix et sur la taille humaine, mais perd sur l'offre : pour des études de médecine, de droit ou de lettres générales, Toulouse s'impose. Pour une école d'ingénieurs ou une formation Champollion, Albi suffit, avec un loyer plus bas de 170 €.",
+      },
+      {
+        heading: "Quelle vie étudiante à Albi ?",
+        body: "Notre score culture est de 8/10, élevé pour une ville de 50 000 habitants : la cité épiscopale, classée à l'Unesco, et les musées donnent une scène qui dépasse sa taille. La vie nocturne est modeste, et l'on rejoint Toulouse pour les grands concerts. La ville est calme, avec un taux de pauvreté de 20 % (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Jobs, stages et alternance",
+        body: "L'apprentissage est fort à l'IMT Mines Albi, avec près d'un tiers des élèves-ingénieurs en alternance. Les jobs étudiants se trouvent dans le commerce, la restauration et le tourisme. Verdict : Albi convient à un futur ingénieur ou à un étudiant de Champollion qui veut un loyer bas et une ville sûre et culturelle. Elle convient moins à qui veut un campus de grande université, avec des milliers de camarades : cherchez Toulouse ou Poitiers.",
+      },
+    ],
+    relatedCities: ["albi", "toulouse", "castres", "montauban"],
+    relatedGuides: [
+      "10-choses-a-faire-a-albi-2026",
+      "famille-a-albi-2026",
+      "etudiant-a-toulouse-2026",
+    ],
+    tags: ["étudiant Albi 2026", "étudier à Albi", "logement étudiant Albi", "budget étudiant Albi", "IMT Mines Albi Champollion"],
+  },
+  {
+    slug: "etudiant-a-angouleme-2026",
+    title: "Étudiant à Angoulême en 2026 : image, BD, logement, budget",
+    metaTitle: "Étudiant à Angoulême 2026 : campus de l'image, budget",
+    metaDesc: "Étudier à Angoulême en 2026 : studio à 450 € sur notre estimation, campus de l'image, école européenne supérieure de l'image, IUT. Le guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro: "Angoulême est une ville de l'image : bande dessinée, cinéma d'animation, jeu vidéo, avec un studio estimé à 450 € par mois (source : notre estimation des loyers). Les 15-29 ans y représentent 24,2 % de la population (source : Insee, recensement 2022). La ville perd un peu d'habitants : 41 935 en 2016, 41 423 en 2022. Notre score vie étudiante est de 6,2/10, dans un palier de vingt-deux villes à la même note, au 168e rang (source : notre fiche profils). Elle se choisit pour une filière, pas pour son ambiance étudiante générale.",
+    sections: [
+      {
+        heading: "Quelles formations à Angoulême ?",
+        body: "Le campus de l'image d'Angoulême regroupe, selon Magelis, une quinzaine d'écoles spécialisées qui forment près de 2 000 étudiants. L'École européenne supérieure de l'image (EESI), établissement public d'enseignement artistique créé en 1995, compte 260 étudiants sur deux sites, Angoulême et Poitiers, et prépare au DNA et au DNSEP. L'IUT d'Angoulême, rattaché à l'université de Poitiers, comptait environ 600 étudiants en 2019 dans deux formations ; ce chiffre est ancien. Pour les autres disciplines, Poitiers est la ville d'appui.",
+      },
+      {
+        heading: "Quel loyer étudiant à Angoulême ?",
+        body: "Notre estimation place le studio à 450 € et le deux-pièces à 620 € (source : notre estimation des loyers). À Poitiers, le studio est à 480 € : l'écart n'est que de 30 €. Angoulême a un parc ancien en centre-ville, souvent peu cher, et des résidences récentes près des écoles. Candidatez au Crous dès l'ouverture, utilisez Visale à la place du garant et lisez le DPE : les logements G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : 810 euros environ",
+        body: "Studio : 450 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, le centre se faisant à pied. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 810 € par mois avant aides, contre 840 € à Poitiers avec les mêmes hypothèses de transport, de courses et de loisirs et un studio à 480 €. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). L'inscription coûte 178 € en licence, plus 105 € de CVEC (source : service-public.fr) ; les écoles d'art et d'image ont leurs frais propres.",
+      },
+      {
+        heading: "Angoulême ou Poitiers : où étudier ?",
+        body: "Poitiers compte 36 % de 15-29 ans contre 24,2 % à Angoulême, et un score vie étudiante de 6,5/10 contre 6,2. Poitiers est une ville universitaire complète ; Angoulême est une ville de spécialité. Si votre projet est la bande dessinée, l'animation ou l'image, Angoulême est le bon choix. Pour un cursus généraliste, Poitiers offre plus de camarades et plus de choix.",
+      },
+      {
+        heading: "Quelle vie étudiante à Angoulême ?",
+        body: "La vie étudiante est liée à la bande dessinée : le festival international, les musées, les librairies et les ateliers d'artistes. La ville haute, perchée sur son rempart, domine la Charente. Notre score culture est de 6,6/10. Le contexte social est contrasté, avec un taux de pauvreté de 26 % (source : Insee, Filosofi 2021). Pour les grandes sorties, on rejoint Bordeaux ou Poitiers.",
+      },
+      {
+        heading: "Jobs, stages et alternance",
+        body: "Les stages se trouvent dans les studios d'animation, les maisons d'édition et les sociétés de jeu vidéo de la région, et les jobs étudiants dans le commerce et la restauration. Verdict : Angoulême convient à un étudiant de l'image ou de la BD qui veut un loyer bas et un milieu professionnel concentré. Elle convient moins à qui cherche un campus généraliste ou une vie étudiante nombreuse.",
+      },
+    ],
+    relatedCities: ["angouleme", "poitiers", "bordeaux", "niort"],
+    relatedGuides: [
+      "10-choses-a-faire-a-angouleme-2026",
+      "famille-a-angouleme-2026",
+      "etudiant-a-poitiers-2026",
+    ],
+    tags: ["étudiant Angoulême 2026", "étudier à Angoulême", "logement étudiant Angoulême", "budget étudiant Angoulême", "campus de l'image EESI IUT Angoulême"],
+  },
+  {
+    slug: "etudiant-a-bayonne-2026",
+    title: "Étudiant à Bayonne en 2026 : IUT, logement, budget, le guide",
+    metaTitle: "Étudiant à Bayonne 2026 : IUT, logement, budget",
+    metaDesc: "Étudier à Bayonne en 2026 : studio à 660 € sur notre estimation, IUT de Bayonne et du Pays basque, UPPA, Anglet. Le guide chiffré, avec Pau.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro: "Bayonne est la ville la plus chère de ce lot pour se loger hors Île-de-France : le studio est estimé à 660 €, contre 490 € à Pau, la ville de l'université (source : notre estimation des loyers). Les 15-29 ans ne représentent que 20,5 % de la population (source : Insee, recensement 2022). La population progresse, de 50 589 en 2016 à 53 312 en 2022. Notre score vie étudiante est de 5,9/10, dans un palier de vingt-cinq villes à la même note (source : notre fiche profils). On y étudie par l'IUT, pas pour la vie étudiante.",
+    sections: [
+      {
+        heading: "Quelles études à Bayonne ?",
+        body: "L'IUT de Bayonne et du Pays basque, composante de l'Université de Pau et des Pays de l'Adour (UPPA), est présent depuis 1974 sur deux sites : Montaury, à Anglet, pour l'informatique et le génie industriel, et Bayonne pour la gestion et les techniques de commercialisation. Il prépare au BUT en trois ans et à la licence professionnelle. Une source de l'IUT cite environ 900 étudiants par an. L'UPPA compte 13 405 étudiants en 2024-2025 sur l'ensemble de ses sites ; pour une licence générale, il faut souvent aller à Pau.",
+      },
+      {
+        heading: "Quel loyer étudiant à Bayonne ?",
+        body: "Notre estimation place le studio à 660 € et le deux-pièces à 900 € (source : notre estimation des loyers). À Anglet, voisine où se trouve le site de Montaury, le studio est à 620 € ; à Pau, à 490 €. Le prix de Bayonne est celui d'une côte basque recherchée : 170 € de plus qu'à Pau. Les résidences du Crous sont le recours le moins cher, et Visale remplace le garant. Lisez le DPE : les logements G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : 1 020 euros environ",
+        body: "Studio : 660 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, car le centre de Bayonne se fait à pied. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 1 020 € par mois avant aides, contre 850 € à Pau avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). L'inscription coûte 178 € en licence et 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Bayonne ou Pau : où étudier ?",
+        body: "Pau a 24,1 % de 15-29 ans contre 20,5 % à Bayonne, un score vie étudiante de 6,5/10 contre 5,9, et un studio moins cher de 170 €. Pau est le siège de l'UPPA. Bayonne n'a de sens que si votre formation, souvent l'IUT, y est située. Dans ce cas, chercher à Anglet, près de Montaury, est une option à comparer, à 620 € le studio.",
+      },
+      {
+        heading: "Quelle vie étudiante à Bayonne ?",
+        body: "Bayonne a un centre historique, deux rivières, la plage à quelques kilomètres, et des fêtes réputées. Notre score culture est de 7,3/10, supérieur à celui de Pau (6,6). Le coût de la vie étudiante se joue surtout sur le logement. Le taux de pauvreté de 17 % (source : Insee, Filosofi 2021) est plus bas que celui de Pau (22 %).",
+      },
+      {
+        heading: "Jobs, stages et alternance",
+        body: "Le tourisme, la restauration et le commerce donnent beaucoup de jobs saisonniers et à temps partiel, utiles pour payer un loyer élevé. Les stages se trouvent dans le bassin du Pays basque. Verdict : Bayonne convient à un étudiant de l'IUT qui accepte un loyer élevé pour le cadre. Elle convient moins à un budget serré sans formation sur place : Pau est moins chère de 170 € par mois sur le studio.",
+      },
+    ],
+    relatedCities: ["bayonne", "anglet", "pau", "dax"],
+    relatedGuides: [
+      "10-choses-a-faire-a-bayonne-2026",
+      "famille-a-bayonne-2026",
+      "etudiant-a-pau-2026",
+    ],
+    tags: ["étudiant Bayonne 2026", "étudier à Bayonne", "logement étudiant Bayonne", "budget étudiant Bayonne", "IUT Bayonne Pays basque UPPA"],
+  },
+  {
     slug: "famille-a-lyon-2026",
     title: "En famille à Lyon en 2026 : quartiers, écoles, budget, le guide",
     metaTitle: "Famille à Lyon 2026 — Quartiers, écoles, budget : le guide",
