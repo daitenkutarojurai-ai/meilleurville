@@ -54343,6 +54343,170 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "aubervilliers", "nice", "montpellier", "aurillac", "millau", "limoges", "saint-etienne", "lyon", "cannes"],
     tags: ["three times the rent", "income to rent a studio", "rental application france", "rent versus income by city", "renting as a newcomer", "visale guarantee"],
   },
+  {
+    slug: "leaving-lille-where-to-go-2026",
+    title: "Leaving Lille: where people go when the metropolis gets expensive",
+    metaTitle: "Leaving Lille 2026: Arras, Amiens, Reims or Belgium",
+    metaDesc:
+      "Lille scores 5.7/10 and a three-room flat rents around €1,080. Where people go instead (Arras, Amiens, Reims, the Belgian border) and what each costs.",
+    category: "city-guide",
+    emoji: "🌧️",
+    readMinutes: 6,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "People leave Lille for three reasons: they want to buy and the metropolis has priced them out (about €3,500/m² on our estimate), they work across the Belgian border, or they are tired of the grey, wet northern weather. Lille scores 5.7/10 on our site and a T3 (three-room flat, two bedrooms) rents for around €1,080 a month. Arras, 35 to 45 minutes away by regional train, cuts that rent to about €720 and the purchase price to about €1,800/m². Weather is the one thing none of the cheaper options fix.",
+    sections: [
+      {
+        heading: "Why do people leave Lille?",
+        body: "Three profiles come up again and again. First-time buyers: on our estimate Lille sits around €3,500/m² to buy, and a family-sized flat is out of reach for many young households without a deposit, so they look outside the metropolitan area (the MEL, Métropole Européenne de Lille). Cross-border workers: Lille is a comfortable base, but Brussels and Mons are the daily destination for some, and the Belgian side of the border can be simpler. Weather: the north has an oceanic, overcast climate, and no amount of city life changes it. If the grey is the problem, picking Arras or Amiens solves price but not mood.",
+      },
+      {
+        heading: "Arras: the gentle exit",
+        body: "Arras is about 35 to 45 minutes from Lille by regional train (TER), scores 5.7/10 like Lille, and costs far less: a T3 rents for around €720 against €1,080, and buying is about €1,800/m² against €3,500. Its two main squares and belfry are a UNESCO World Heritage listing, so you are not trading down on looks. The trade-off is scale: a smaller job market and less cultural programming. For remote workers and families who commute to Lille a few days a week, it is the standard answer. For someone who needs to be in a Lille office five days a week, the train timetable becomes the constraint.",
+      },
+      {
+        heading: "Staying in the metropolis: Roubaix, Tourcoing, Villeneuve-d'Ascq",
+        body: "If your friends, work and school are in the Lille area, you can stay in the MEL and pay less. Roubaix is the cheapest option we cover, with a T3 around €700 and about €1,500/m² to buy, but its overall score on our site is 2.8/10, so look at the specific street and school rather than the city average. Villeneuve-d'Ascq, home of the main university campus, is the usual choice for families who want green space on the metro line. Check each neighbourhood on its own page before you sign anything: price gaps inside the metropolis are large.",
+      },
+      {
+        heading: "Crossing the border: Mouscron, Tournai, Mons",
+        body: "Living in Belgium and working in Lille is a real option for some households. The catch is cross-border tax and social-security rules: where you pay income tax, and which health system covers you, depends on where you live and where you are employed, and the rules differ for French and Belgian residents. Treat it as a tax decision first and a housing decision second, and get advice from an accountant who handles frontaliers before you rent.",
+      },
+      {
+        heading: "Further away: Amiens and Reims",
+        body: "Amiens scores 5.3/10 and is cheaper still: T3 around €900, about €2,200/m². Reims scores 5.7/10 with the same T3 rent (around €900) and about €2,300/m², and the TGV to Paris takes about 45 minutes, which is the reason many people pick it. Both are real moves rather than commuter suburbs: you are leaving the Lille job market, not just its prices.",
+      },
+      {
+        heading: "What the move actually saves",
+        body: "Take the T3 rents above. Lille at €1,080 against Arras at €720 is €360 a month, or about €43,000 over ten years. Against Amiens or Reims at €900 it is €180 a month, about €21,600 over ten years. Those are savings on rent only, before commuting costs. If you will drive or take the train into Lille daily, subtract that figure first. And if weather was the reason for leaving, remember that every city in this guide shares it.",
+      },
+    ],
+    relatedCities: ["lille", "arras", "amiens", "reims", "roubaix"],
+    tags: ["leaving lille", "hauts-de-france", "arras", "amiens", "lille alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-rouen-where-to-go-2026",
+    title: "Leaving Rouen: Caen, Le Havre, Évreux or Paris",
+    metaTitle: "Leaving Rouen 2026: Caen, Le Havre, Évreux, Paris",
+    metaDesc:
+      "Rouen scores 5.8/10 and rents a T3 near €950. Where people go: Caen (6.4/10), Le Havre, Évreux, or Paris, with the real price differences.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Rouen is the large French city closest to Paris outside the Paris region, and that is both why people come and why some leave. Scoring 5.8/10 on our site, with a T3 around €950 and about €2,600/m² to buy, it is not expensive; the complaints are hills, motorway traffic towards Paris, and industrial risk in the Seine valley. Caen scores 6.4/10 for almost the same rent (€930), is flat and close to the coast, and is the most coherent Norman alternative. It is not a short hop, though: there is no quick direct rail link between the two.",
+    sections: [
+      {
+        heading: "What makes people leave Rouen?",
+        body: "Topography: Rouen is built on hills, which makes cycling hard and walking tiring for families with pushchairs or people with reduced mobility. Traffic: commuters to the Paris region use the A13 motorway, which is congested at peak times, even though the train takes roughly an hour and a quarter to an hour and a half. Industrial risk: the lower Seine valley has a concentration of chemical and petrochemical sites, and the Lubrizol factory fire of September 2019 left a lasting mark on local opinion. Look at the specific neighbourhood relative to the industrial zones before you rent or buy.",
+      },
+      {
+        heading: "Caen: flat, closer to the sea",
+        body: "Caen scores 6.4/10, with a T3 around €930 and about €2,500/m² to buy, a little below Rouen on both. It is flat, around 20 km from the coast, with a university, a major hospital and a TGV-type service to Paris of roughly two hours. The honest drawback is the connection: Rouen to Caen is a journey with a change of train, not a commute, so it is a genuine move. For someone whose job can move with them, you get more space, more sea and less industrial exposure.",
+      },
+      {
+        heading: "Le Havre: port city, Perret concrete",
+        body: "Le Havre scores 5.5/10 and is cheaper: T3 around €870, about €2,000/m² to buy. Its town centre, rebuilt after the war by the architect Auguste Perret, is UNESCO listed, and the sea front is immediate. Jobs revolve around the port, logistics and industry. It suits people who like a strong urban character and a working port, less so those who want a historic old town.",
+      },
+      {
+        heading: "Évreux: out of the valley, still in Normandy",
+        body: "Évreux scores 5.0/10, the lowest in this guide, but it is the cheapest on housing: T3 around €820, about €2,000/m² to buy. It is the administrative capital of the Eure département, calmer and more open than the Seine valley, with trains to Paris. Read the score as a warning to check the specific area and services, not as a verdict: it is a small town with a limited cultural offer.",
+      },
+      {
+        heading: "Paris: the decision about scale",
+        body: "Some people skip the Norman options and move directly to the Paris region, because Rouen's rents (T3 around €950) are not far below what you can find in outer Paris suburbs for a smaller flat. This only makes sense if your job pays the Paris premium. If you are remote, you are paying more to live next to an office you do not visit.",
+      },
+      {
+        heading: "What Rouen has that you may not appreciate until you leave",
+        body: "A medieval centre with half-timbered streets and the cathedral Monet painted, one of the better fine-arts museums outside Paris, the Seine as a setting, and the Armada, the large tall-ship gathering held on the quays. If the hills and the industrial risk are manageable in your chosen neighbourhood, Rouen is worth re-examining before you leave.",
+      },
+    ],
+    relatedCities: ["rouen", "caen", "le-havre", "evreux", "dieppe"],
+    tags: ["leaving rouen", "normandy", "caen", "le havre", "rouen alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-annecy-where-to-go-2026",
+    title: "Leaving Annecy: when the lake stops being affordable",
+    metaTitle: "Leaving Annecy 2026: Chambéry, Aix, Thonon, Grenoble",
+    metaDesc:
+      "Annecy scores 7.3/10, rents a T3 near €1,450 and buys at about €5,500/m². Cheaper alpine options: Chambéry, Aix-les-Bains, Thonon, Grenoble.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 6,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Annecy scores 7.3/10 on our site, among the highest of any city, and has the price to match: a T3 (three-room flat, two bedrooms) rents around €1,450 and buying is about €5,500/m². Nobody leaves because it is not beautiful. They leave because first-time buyers and long-term tenants cannot keep up. Chambéry, 45 minutes away, is about 35% cheaper to buy in (about €3,600/m²) and keeps the Alps. Grenoble is 42% cheaper (about €3,200/m²) but has winter air-quality problems.",
+    sections: [
+      {
+        heading: "Who leaves Annecy, and why?",
+        body: "Two groups. Young professionals and first-time buyers: at about €5,500/m², a family-sized flat requires a very large deposit or family money, so they look at Chambéry, Albertville or towns further out. And long-term tenants whose landlord sold or raised the rent: a T3 averages about €1,450 a month on our estimate, which is a heavy share of a typical regional salary. Cross-border workers in Geneva are the exception, since they earn Swiss salaries.",
+      },
+      {
+        heading: "Chambéry: keep the Alps, drop the lake premium",
+        body: "Chambéry scores 6.5/10, with a T3 around €1,100 (24% below Annecy) and about €3,600/m² to buy (35% below). The Bauges massif is on the doorstep, Lake Bourget is about 15 minutes away, and Lyon is under an hour by train. It is more provincial and less international than Annecy. For a family leaving Annecy for cost reasons, it is usually the first place they look.",
+      },
+      {
+        heading: "Aix-les-Bains: the other lake",
+        body: "Aix-les-Bains scores 5.8/10, with a T3 around €1,150 and about €4,200/m² to buy, 24% below Annecy. It sits on Lake Bourget, the largest natural lake entirely within France, which is usually less crowded than Lake Annecy in July. It has a spa-town tradition. The drawback is getting to jobs around Annecy without a car.",
+      },
+      {
+        heading: "Thonon-les-Bains: the French shore of Lake Geneva",
+        body: "Thonon-les-Bains scores 5.9/10, with a T3 around €1,200 and about €4,500/m² to buy, 18% below Annecy. Its appeal is geographic: Geneva is within about 45 minutes, and the lake is right there. For cross-border workers priced out of central Haute-Savoie, it is a practical base. Cross-border workers face their own tax and health-insurance rules, so get specific advice before choosing a place to live around a Swiss contract.",
+      },
+      {
+        heading: "Grenoble: the cheaper mountain city",
+        body: "Grenoble scores 6.8/10, with a T3 around €1,020 (30% below Annecy) and about €3,200/m² to buy (42% below). It has three mountain ranges instead of one and the strongest tech and research employer base in the Alps. The argument against is winter air quality in its basin. For an engineer or researcher it is the best trade-off between mountains and jobs in the region.",
+      },
+      {
+        heading: "Staying around Annecy",
+        body: "Some people avoid a big move. Communes around the city, such as Seynod, Cran-Gevrier or Poisy, can cut costs without leaving the Annecy area, though you give up walkability and rely on a car more. Compare the specific commune on its own city page before assuming it will be cheaper.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "aix-les-bains", "thonon-les-bains", "grenoble", "albertville"],
+    tags: ["leaving annecy", "haute-savoie", "chambery", "annecy alternatives", "lake bourget", "relocation"],
+  },
+  {
+    slug: "leaving-clermont-ferrand-where-to-go-2026",
+    title: "Leaving Clermont-Ferrand: Vichy, Riom, Issoire or Lyon",
+    metaTitle: "Leaving Clermont-Ferrand 2026: Vichy, Riom, Lyon",
+    metaDesc:
+      "Clermont-Ferrand scores 6.3/10 and rents a T3 near €900. Alternatives inside Auvergne (Vichy, Riom, Issoire) and the Lyon option, with real price gaps.",
+    category: "city-guide",
+    emoji: "🌋",
+    readMinutes: 5,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Clermont-Ferrand scores 6.3/10 on our site, with a T3 around €900 and about €2,400/m² to buy, and no traffic problem to speak of. The reasons to leave are structural: a job market dominated by a few large employers (Michelin and the university hospital), no high-speed train (Paris is around three hours by Intercités), and a smaller cultural scene than Lyon. Most people who leave do not go far. Vichy, Riom and Issoire are all cheaper and all within reach of Clermont.",
+    sections: [
+      {
+        heading: "What are the legitimate reasons to leave?",
+        body: "Employment: the private job market is narrow for tech, finance and design, and local employment depends heavily on a few big names. Connections: there is no TGV to Paris and the road to Lyon (A89) takes around two hours, which matters if clients or colleagues are elsewhere. Culture: music and the arts exist but are less dense than in Lyon or Bordeaux. None of these are about quality of life, which is why many leavers consider the nearby towns first.",
+      },
+      {
+        heading: "Vichy: spa town, 30 minutes away",
+        body: "Vichy scores 6.5/10, with a T3 around €640 and about €1,700/m² to buy, much cheaper than Clermont (€900 and €2,400/m²). It is about 30 minutes by train from Clermont, with Belle Époque parks, a lake and an Art Nouveau spa quarter. The drawbacks are an older population and the historical weight of having been the seat of the wartime Vichy regime from 1940 to 1944, which some find off-putting.",
+      },
+      {
+        heading: "Riom and Issoire: the commuter towns worth knowing",
+        body: "Riom scores 6.5/10, with a T3 around €830 and about €1,600/m² to buy; its historic centre is built in dark volcanic stone and the train to Clermont is short. Issoire scores 6.9/10 (the highest in this guide), with a T3 around €720 and about €1,600/m² to buy, and gives access to the Livradois-Forez regional park and the Auvergne volcanoes. Both let you keep the Clermont job and get a house with a garden for much less.",
+      },
+      {
+        heading: "Lyon: the real move",
+        body: "Lyon scores 7.1/10 and is the dominant destination for people who leave Auvergne for work. The price is the trade-off: a T3 rents around €1,380 (53% more than Clermont) and buying is about €5,000/m² (more than double). The job market in tech, services and finance is much deeper. This is an actual migration, not just a move.",
+      },
+      {
+        heading: "What Clermont-Ferrand does well",
+        body: "No rush-hour congestion in a city of this size, the Puy de Dôme volcano close enough to walk or cycle, ski resorts around 45 minutes away, local cheese at the Saturday market, and a university hospital that is always recruiting. For a doctor, engineer or academic, the case for staying is stronger than the city's reputation suggests.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "vichy", "riom", "issoire", "lyon"],
+    tags: ["leaving clermont-ferrand", "auvergne", "vichy", "issoire", "clermont alternatives", "relocation"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
