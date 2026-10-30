@@ -1175,3 +1175,23 @@ Captures `next dev` + playwright `/villes/lyon/air` 1440 et 390 px, `scrollWidth
 1. Sous-page `bruit` (même schéma), puis `eau` / `risques`.
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Sous-page `louer-ou-acheter`.
+
+## 2026-10-30 ~16:00 UTC — sous-page bruit `/villes/[slug]/bruit` (FR) + EN `/cities/[slug]/noise`
+
+**Surface** : le gabarit bruit (593 villes × 2 locales). Le run de 11:00 n'a laissé ni commit ni journal.
+Avant : un seul bloc sur fond de page, composite à filet gauche dérivé par `replace()`, méthodologie et renvois en `Card` grises.
+
+**Changé** (même schéma que air/santé)
+- Hero `.bg-aurora`, emoji 🔊 en tuile `grad-head-0` (FR) ; EN : nom de ville en `.gradient-text`.
+- Composite + quatre sources (+ paragraphe couloir aérien) en `band-indigo` ; méthodologie en `band-sky` (h2 dégradé,
+  carte à ombre cyan) ; renvois en tuiles lavande, classement en pilule, DiscussionCTA en `band-white`. Import `Card` retiré.
+- EN : cartes blanches sur indigo, « A note on noise » en `band-sky`, boutons `grad-head-0` + pilule, FeedbackWidget en `band-white`.
+- Fonds de niveau `NOISE_LEVEL_BG` et `hazardColor` conservés (ils encodent un niveau). Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème.
+Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-pages `eau` / `risques` (même schéma).
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Sous-page `louer-ou-acheter`.
