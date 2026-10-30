@@ -24969,6 +24969,300 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["studying in nimes", "international students", "student housing france", "student visa france", "occitanie"],
   },
   {
+    slug: "studying-in-annecy-2026",
+    title: "Studying in Annecy (2026): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Annecy 2026: Housing, Budget, Campus",
+    metaDesc:
+      "Studios at €750 on our estimate, the Annecy-le-Vieux campus, €160 more than Chambéry. Budget, housing and what international students can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Studying in Annecy is expensive: a studio is estimated at €750 a month, against €590 in Chambéry, the neighbouring city that shares the same university (our rent estimate). In return you get a compact engineering and management campus, a lake on the doorstep, and a median income of €26,250 a year with a 10% poverty rate (INSEE, Filosofi 2021). People aged 15 to 29 make up 19.4% of residents, above the 18.5% median of the cities we track (INSEE, 2022 census), and the city is growing, from 126,419 residents in 2016 to 131,272 in 2022. Our student-life score is 6.2/10, in a band of twenty-two cities with the same mark.",
+    sections: [
+      {
+        heading: "What can you study in Annecy?",
+        body: "Higher education here centres on the Annecy-le-Vieux site of Université Savoie Mont Blanc: a university institute of technology (IUT), the IAE business school, two engineering schools including Polytech Annecy-Chambéry, plus vocational diplomas and preparatory classes in town. The city counts close to 8,000 students across public and private institutions, and the IUT alone has about 2,800 of the university's 15,000 (city of Annecy and Université Savoie Mont Blanc). The profile is technical and management-oriented; for law, literature or medicine you will look to Chambéry, Grenoble or Lyon.",
+      },
+      {
+        heading: "How much is a student flat in Annecy?",
+        body: "Our estimate puts a studio at €750 a month and a one-bedroom flat at €1,100. For comparison, a studio is €590 in Chambéry and €560 in Grenoble, which is €160 and €190 a month less, or close to €2,000 over a year. Small flats are scarce and in demand around the lake and the old town, so many students end up in the surrounding communes or in shared flats. CROUS residences (the state student housing body) are by far the cheapest option, with priority for grant-holders, and Visale, the free state rent guarantee for under-30s, replaces the French guarantor and is open to foreign students. Read the energy rating (DPE) before you sign: G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "What does a month cost?",
+        body: "Line by line. Studio: €750 (our rent estimate). Transport: €30 a month, our assumption, to adjust against the local youth fare. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €1,110 a month before aid, against €950 in Chambéry on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence year and €255 for a master's, plus the €105 CVEC levy, with grant-holders exempt. For non-EU students, differentiated fees of about €2,900 and €3,950 apply unless exempted, and the CROUS grant (€145 to €633 a month over ten months) is effectively closed to them. CAF housing benefit (APL) is open with a valid residence permit and can be simulated on the CAF website.",
+      },
+      {
+        heading: "Annecy or Chambéry: where to live, where to study?",
+        body: "Both cities depend on the same university, and that is the most concrete budget lever: if your course has a Chambéry site, a studio there is estimated at €590, and 15-to-29-year-olds are 22.7% of residents against 19.4% in Annecy. Grenoble, larger, sits at 31.3% young people and our student-life score is 7.3/10 against 6.2 for Annecy. Annecy wins on setting and on residents' income, not on student buzz.",
+      },
+      {
+        heading: "What is student life like around the lake?",
+        body: "Student life splits between the old town, with its canals and terraces, and the lake, where the beach, cycling and sailing fill the good days. In winter and spring the nearby mountains open up skiing and hiking, reachable from town by car or coach. Evenings are quieter than in Grenoble or Lyon: an asset if you want to work, a limit if you want dense nightlife.",
+      },
+      {
+        heading: "Jobs, internships and who it suits",
+        body: "Student jobs are mostly in tourism, catering and hotels, very seasonal, and in retail; a student permit allows up to 964 hours of work a year. Engineering and management internships lean on a local industrial and technology base, while the proximity of Switzerland weighs on the housing market. Verdict: Annecy suits an IUT, engineering or management student whose family budget can absorb €1,100 a month, or who lands a work-study contract. For a grant-holder with no backing, Chambéry or Grenoble cost clearly less for comparable studies.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "lyon"],
+    tags: ["studying in annecy", "international students", "student housing france", "student visa france", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "studying-in-vannes-2026",
+    title: "Studying in Vannes (2026): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Vannes 2026: Housing, Budget, Campus",
+    metaDesc:
+      "A studio at €620 on our estimate, dearer than Rennes. The Tohannic campus, the ENSIBS engineering school and the Gulf of Morbihan: what it really costs.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "In Vannes a studio is estimated at €620 a month, €30 more than in Rennes, a city four times larger (our rent estimate). That inversion is the central fact of this guide: you come here for a specific course, not for cheap rent. People aged 15 to 29 make up 21.7% of residents, above the 18.5% median of the cities we track (INSEE, 2022 census), and the town is growing slowly, from 53,218 residents in 2016 to 54,955 in 2022. Our student-life score is 6.1/10, in a band of eighteen cities with the same mark.",
+    sections: [
+      {
+        heading: "What can you study in Vannes?",
+        body: "Vannes is one of two poles of Université Bretagne Sud, the other being Lorient. The Tohannic campus, north of the centre, houses the science and engineering faculty and ENSIBS, the university's engineering school, whose specialisms include computing and cybersecurity, with a second site in Lorient. The Vannes IUT adds the three-year BUT degrees. The university has about 9,500 students across Lorient, Vannes and Pontivy (Campus France). For the exact licences and master's offered in Vannes, the university catalogue is the reference: the offer changes from year to year.",
+      },
+      {
+        heading: "Why is Vannes dearer than Rennes?",
+        body: "Our estimate puts a Vannes studio at €620 and a one-bedroom at €850, against €590 and €820 in Rennes. The local market is pulled up by second homes, the nearby gulf and a median income of €24,070 a year. In Lorient, a studio is estimated at €500, €120 less in the same département. CROUS residences are the cheapest option, with priority for grant-holders, and Visale, the free state rent guarantee, replaces the French guarantor. Read the energy rating (DPE) before signing: G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: what is left after rent?",
+        body: "Studio: €620 (our rent estimate). Transport: €30 a month, our assumption, since the town is largely done on foot or by bike. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €980 a month before aid, against €950 in Rennes on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy, with grant-holders exempt. Non-EU students pay differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant (€145 to €633 a month over ten months) is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Is there a real student scene?",
+        body: "Let's be clear: Vannes is not a student city in the way Rennes is, where 15-to-29-year-olds are 34.1% of residents. Here they are 21.7%, and nightlife stays modest out of season. In exchange, the walled old town, the harbour and the coastal paths of the Gulf of Morbihan offer a setting no big city can, and the gulf's islands are reachable by boat. Rennes is the place for bigger nights out. This is small-town student life, calm and safe, rather than a lively campus.",
+      },
+      {
+        heading: "Jobs, internships and work-study around Vannes",
+        body: "Jobs are in tourism, catering, retail and services, peaking in summer, and a student permit caps work at 964 hours a year. For computing and cybersecurity, the Vannes area and neighbouring Lorient offer internships and work-study contracts, which explains why ENSIBS is here. For other fields, many students do their master's in Rennes. A car or an electric bike helps to link the Tohannic campus with housing on the outskirts.",
+      },
+      {
+        heading: "Vannes, Lorient or Rennes: which to pick?",
+        body: "Vannes suits an ENSIBS, IUT or science student who wants a calm setting and can absorb €620 for a studio. Lorient costs €120 less a month for the same university. Rennes costs €30 less than Vannes and offers a range of courses that Vannes cannot match, but with a denser, noisier life.",
+      },
+    ],
+    relatedCities: ["vannes", "lorient", "rennes", "quimper"],
+    tags: ["studying in vannes", "international students", "student housing france", "student visa france", "brittany"],
+  },
+  {
+    slug: "studying-in-lorient-2026",
+    title: "Studying in Lorient (2026): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Lorient 2026: Housing, Budget, Campus",
+    metaDesc:
+      "A studio at €500 on our estimate, Université Bretagne Sud, the IUT and ENSIBS, a fishing port and sailing. The cheapest half of the university, honestly.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Lorient is the cheaper half of Université Bretagne Sud: a studio is estimated at €500 a month, against €620 in Vannes (our rent estimate). But the city has a 21% poverty rate (INSEE, Filosofi 2021) and a median income of €20,860 a year, well below Vannes: the low rent reflects a working port-city market. People aged 15 to 29 make up 21.8% of residents, above the 18.5% median of the cities we track (INSEE, 2022 census), and the population is stable, from 57,274 in 2016 to 58,202 in 2022. Our student-life score is 6.2/10, in a band of twenty-two cities with the same mark.",
+    sections: [
+      {
+        heading: "What can you study in Lorient?",
+        body: "Université Bretagne Sud is split between Lorient, Vannes and Pontivy, with about 9,500 students in all (Campus France). Lorient has an IUT, university sites and ENSIBS, the engineering school whose specialisms include computing, cybersecurity, industrial engineering and mechatronics. The city's maritime and industrial roots shape the offer: you come for sailing, the marine industry, engineering or computing rather than a general degree. The exact offer by site is on the university catalogue.",
+      },
+      {
+        heading: "What does a student flat cost in Lorient?",
+        body: "Our estimate puts a studio at €500 and a one-bedroom at €680. That is €120 less than Vannes and only slightly more than Brest, where a studio is estimated at €480. The market is relaxed, with a large stock of older housing and a post-war rebuilt centre: check heating charges and the energy rating (DPE) at the viewing. CROUS residences are cheapest, with priority for grant-holders, and Visale, the free state rent guarantee, replaces the French guarantor.",
+      },
+      {
+        heading: "Monthly budget: a little under €900",
+        body: "Studio: €500 (our rent estimate). Transport: €30 a month, our assumption. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €860 a month before aid, €120 less than Vannes on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy, with grant-holders exempt. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant (€145 to €633 a month over ten months) is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "What is student life like between harbour and ocean?",
+        body: "Lorient lives to the rhythm of its port: the roadstead, the Cité de la Voile Éric Tabarly, the former Keroman submarine base and, in August, the Festival Interceltique. The beaches along the coast are reachable from town by bus or car, and the island of Groix by boat. The city is more working-class than touristy: nightlife is lively but modest, and Rennes or Nantes are where you go for big concerts.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Student jobs exist in catering, retail, logistics and home services (a student permit allows up to 964 hours a year). For internships, the local fabric faces the sea: offshore racing and boating, fishing, naval industry and defence, plus the computing and industrial firms of the area. A 21% poverty rate also means a more fragile local job market than Vannes or Rennes: prepare work-study applications early.",
+      },
+      {
+        heading: "Lorient, Vannes or Quimper: who is it for?",
+        body: "Lorient suits an ENSIBS, IUT or maritime-track student who wants the lowest rent in Morbihan. Vannes costs €120 more but is calmer and better off, with 15% poverty against 21%. Quimper, at €510 for a studio, is close in cost but belongs to a different university, UBO. Brest is the more student-heavy alternative nearby.",
+      },
+    ],
+    relatedCities: ["lorient", "vannes", "quimper", "brest"],
+    tags: ["studying in lorient", "international students", "student housing france", "student visa france", "brittany"],
+  },
+  {
+    slug: "studying-in-quimper-2026",
+    title: "Studying in Quimper (2026): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Quimper 2026: Housing, Budget, Campus",
+    metaDesc:
+      "A studio at €510 on our estimate, the Pierre-Jakez Hélias campus, the IUT and 2,824 UBO students. A calm Breton town, with the numbers.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Quimper had 2,824 students of the Université de Bretagne Occidentale (UBO) at the start of the 2025 year, split between the Pierre-Jakez Hélias university pole (1,365), the IUT (1,227), the teacher-training institute INSPÉ (120) and the ESIAB food-engineering school (112) (UBO). A studio is estimated at €510 a month (our rent estimate) and the poverty rate is 13% (INSEE, Filosofi 2021), one of the lowest of this batch. People aged 15 to 29 make up 19.7% of residents, above the 18.5% median of the cities we track (INSEE, 2022 census), and the population is nearly flat, from 63,405 in 2016 to 64,530 in 2022. Our student-life score is 6.2/10, in a band of twenty-two cities with the same mark.",
+    sections: [
+      {
+        heading: "What can you study in Quimper?",
+        body: "Quimper is a secondary site of UBO, whose headquarters are in Brest. The Pierre-Jakez Hélias pole, opened in 1996, mostly offers law (541 students) and humanities (756), with heritage and tourism tracks, including a master's in coastal tourism. The IUT, present for over fifty years, covers the three-year BUT degrees. ESIAB adds food-industry engineering and INSPÉ trains teachers (UBO, 2025 intake). For art, the Quimper art and design school is a specific option. For medicine or sciences, you have to go to Brest.",
+      },
+      {
+        heading: "How much is a studio in Quimper?",
+        body: "Our estimate puts a studio at €510 and a one-bedroom at €700. Brest, home of UBO's other site, is €480 for a studio, €30 less. The Quimper market is relaxed, with older stock in the centre around the cathedral and quieter residential streets. Median income is €22,700 a year (INSEE, Filosofi 2021). CROUS residences are cheapest, with priority for grant-holders, and Visale, the free state rent guarantee, replaces the French guarantor. Read the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "What is the monthly budget?",
+        body: "Studio: €510 (our rent estimate). Transport: €30 a month, our assumption, since the centre is walkable. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €870 a month before aid. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy, with grant-holders exempt. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant (€145 to €633 a month over ten months by band) is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Quimper or Brest for the same university?",
+        body: "Brest has 28.8% of residents aged 15 to 29, against 19.7% in Quimper, and a student-life score of 6.8/10 against 6.2. Brest is a real student city with most of UBO's courses; Quimper is calmer, €30 dearer for a studio, with smaller year groups. If your course exists in Quimper, you study in small classes. If not, Brest is the only coherent choice.",
+      },
+      {
+        heading: "What is student life like in Quimper?",
+        body: "The historic centre, Saint-Corentin cathedral and the banks of the Odet make Quimper a pleasant town on foot. The Festival de Cornouaille fills the city in July, and Breton culture is alive all year. Nightlife is limited: students gather in a handful of bars in the centre and go to Brest or Rennes for big concerts. The beaches of southern Finistère are reachable from Quimper by car or coach.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Student jobs are in catering, retail, seasonal tourism and the food industry, strong in Cornouaille (a student permit allows up to 964 hours a year). For internships, heritage, coastal tourism, law and teaching have local outlets, and ESIAB's food engineering leans on the regional fabric. Verdict: Quimper suits a student of law, humanities, heritage, a BUT or the art school who prefers a calm town with 13% poverty. For student life, Brest or Rennes do better.",
+      },
+    ],
+    relatedCities: ["quimper", "brest", "lorient", "rennes"],
+    tags: ["studying in quimper", "international students", "student housing france", "student visa france", "brittany"],
+  },
+  {
+    slug: "studying-in-troyes-2026",
+    title: "Studying in Troyes (2026): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Troyes 2026: UTT, Housing, Budget",
+    metaDesc:
+      "A studio at €470 on our estimate, the UTT technology university and the IUT, 24.6% of residents aged 15-29, but a 30% poverty rate. The honest guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Troyes has a rare feature for a town of 62,000: a public university of technology, the UTT, with about 3,100 students (UTT). A studio is estimated at €470 a month (our rent estimate) and 15-to-29-year-olds make up 24.6% of residents, above the 18.5% median of the cities we track (INSEE, 2022 census). The flip side: a 30% poverty rate and a median income of €18,260 a year, one of the lowest in this batch (INSEE, Filosofi 2021). The population is edging up, from 60,640 in 2016 to 62,443 in 2022. Our student-life score is 6.8/10, in a band of fourteen cities with the same mark.",
+    sections: [
+      {
+        heading: "Why study in Troyes?",
+        body: "The main reason is the UTT: founded in 1994, one of France's three universities of technology, recruiting straight after the baccalauréat and training engineers up to doctorate level. It shares a campus with the IUT, the EPF engineering school and a nursing institute. The Troyes IUT belongs to the University of Reims Champagne-Ardenne and has about 1,600 students, with six BUT degrees and nine professional licences, a quarter of them work-study (URCA). The offer is technical and vocational; for medicine, law or literature, you have to go to Reims.",
+      },
+      {
+        heading: "What does a student flat cost in Troyes?",
+        body: "Our estimate puts a studio at €470 and a one-bedroom at €650. Reims, at €490 for a studio, is slightly dearer, and the two cities belong to the same CROUS (the state student housing body). The Troyes market is relaxed, with an old centre of half-timbered houses, pretty but sometimes poorly insulated: check the energy rating (DPE) and service charges before you sign. G-rated flats can no longer be let to new tenants. CROUS residences are cheapest, with priority for grant-holders, and Visale, the free state rent guarantee, replaces the French guarantor. A student residence stands close to the UTT campus.",
+      },
+      {
+        heading: "What is the monthly budget in Troyes?",
+        body: "Studio: €470 (our rent estimate). Transport: €30 a month, our assumption. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €830 a month before aid. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence and €255 for a master's (public engineering schools set their own fees), plus the €105 CVEC levy, with grant-holders exempt. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant (€145 to €633 a month over ten months) is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Troyes or Reims: what is the difference?",
+        body: "Reims is three times larger: 178,478 residents against 62,443, 27.5% aged 15 to 29 against 24.6%, and a student-life score of 6.7/10 against 6.8 for Troyes. Troyes therefore loses nothing on score: the town makes up for its size with a dense student population on a single campus. The difference is the offer: Reims has a general university, Troyes a university of technology and an IUT. Reims lost residents (183,113 in 2016), Troyes gained.",
+      },
+      {
+        heading: "What is there to do in the evening?",
+        body: "The historic centre of Troyes, with its half-timbered houses and churches, is a pleasant town heart with a modest but real bar scene. The city is also known for its factory outlets. UTT students run their own associations on campus, and going out happens mostly in the centre. For big concerts, Reims or Paris are a train ride away.",
+      },
+      {
+        heading: "Jobs, internships and what to know",
+        body: "The honest point first: with 30% poverty, the local job market is tight and odd jobs are not plentiful (a student permit allows up to 964 hours a year). On the other hand, the UTT and the IUT have close ties with industry, and internships and work-study in engineering, mechanics, textiles and logistics are the town's strength. Verdict: Troyes suits an engineering or BUT student looking for low rent and a compact campus, not someone who wants big nightlife or many side jobs.",
+      },
+    ],
+    relatedCities: ["troyes", "reims", "nancy", "dijon"],
+    tags: ["studying in troyes", "international students", "student housing france", "student visa france", "grand est"],
+  },
+  {
+    slug: "studying-in-la-roche-sur-yon-2026",
+    title: "Studying in La Roche-sur-Yon (2026): housing, budget and campus",
+    metaTitle: "Studying in La Roche-sur-Yon 2026: Housing, Campus",
+    metaDesc:
+      "A studio at €440 on our estimate, the Nantes Université campus at La Courtaisière, budget and limits. The cheapest studio of this batch.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "La Roche-sur-Yon has the cheapest studio of this batch: €440 a month on our estimate, against €600 in Nantes (our rent estimate). The campus is an outpost of Nantes Université, on about 5 hectares near the centre, La Courtaisière, with close to 1,600 students on the pole (Nantes Université). People aged 15 to 29 make up 22.3% of residents, above the 18.5% median of the cities we track (INSEE, 2022 census), and the town is growing, from 53,741 residents in 2016 to 54,699 in 2022. Our student-life score is 6.8/10, in a band of fourteen cities with the same mark.",
+    sections: [
+      {
+        heading: "What can you study in La Roche-sur-Yon?",
+        body: "The Courtaisière campus brings together the departmental university centre, the La Roche-sur-Yon IUT and the teacher-training institute INSPÉ (Nantes Université). The IUT had 729 students in 2021-2022. The university centre offers licences and master's as an outpost of Nantes Université, plus professional licences, and the catalogue states which tracks are open on site. The offer is mostly first-cycle: for a niche specialism or medicine, you have to go to Nantes.",
+      },
+      {
+        heading: "How much is a studio in La Roche-sur-Yon?",
+        body: "Our estimate puts a studio at €440 and a one-bedroom at €600. In Nantes, a studio is estimated at €600 and a one-bedroom at €850, which is €160 more a month, close to €2,000 over a year. The local market is relaxed, with recent buildings near the campus and older houses split into studios. CROUS residences are the cheapest, with priority for grant-holders, and Visale, the free state rent guarantee, replaces the French guarantor. Read the energy rating (DPE) before signing: G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: under €800",
+        body: "Studio: €440 (our rent estimate). Transport: €30 a month, our assumption, since the town is flat and good for cycling. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €800 a month before aid, against €960 in Nantes on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy, with grant-holders exempt. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant (€145 to €633 a month over ten months) is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Is La Roche-sur-Yon a student town?",
+        body: "Not in the sense of a big city: 22.3% aged 15 to 29 against 28.7% in Nantes, and limited nightlife. But the campus is near the centre, the town is safe (our safety score is 8/10, the highest of this batch) and its pentagonal plan, inherited from Napoleonic times, makes it easy to get around. The campus holds a welcome fair and has run a green-campus programme since 2017. The Vendée beaches are reachable from town by car.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Student jobs are in retail, catering and services (a student permit allows up to 964 hours a year), and the seaside tourism of the coast, reachable from town, offers summer contracts. Internships lean on the Vendée industrial base, food processing, boatbuilding and construction, and on departmental public services. Work-study is a good lever, since the département is well supplied with industry.",
+      },
+      {
+        heading: "Who is it for, and why not Nantes?",
+        body: "La Roche-sur-Yon suits a BUT, law, humanities or management student who wants a €440 studio and a quiet town, or a grant-holder whose grant covers most of the budget. Nantes offers a range of courses that cannot be matched, but with a €600 studio and a dearer life. A common solution is to do the licence on site and the master's in Nantes.",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon", "nantes", "niort", "la-rochelle"],
+    tags: ["studying in la roche-sur-yon", "international students", "student housing france", "student visa france", "pays de la loire"],
+  },
+  {
+    slug: "studying-in-niort-2026",
+    title: "Studying in Niort (2026): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Niort 2026: Housing, Budget, Campus",
+    metaDesc:
+      "A studio at €460 on our estimate, a University of Poitiers pole, the IUT and an insurance track tied to the mutual insurers. The honest guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Niort is France's capital of mutual insurers, and its higher education bears the mark: a professional licence in insurance, banking and finance sits alongside the IUT, within a pole of the University of Poitiers (University of Poitiers). A studio is estimated at €460 a month (our rent estimate). People aged 15 to 29 make up 19% of residents, above the 18.5% median of the cities we track (INSEE, 2022 census), but far from Poitiers' 36%. The population is stable, from 59,005 in 2016 to 60,074 in 2022. Our student-life score is 6.1/10, in a band of eighteen cities with the same mark.",
+    sections: [
+      {
+        heading: "What can you study in Niort?",
+        body: "The Niort university pole depends on the University of Poitiers: in 2019 it trained about 1,650 students in some twenty courses, more than 60% of the students of the agglomeration, including the nursing institute (Niort Agglo). The Poitiers-Niort-Châtellerault IUT had about 475 students in Niort that year. These figures date from 2019 and may have moved. The local specialism is insurance, banking and management, tied to the head offices of the big mutual insurers based in the city. For other disciplines, Poitiers is the supporting city.",
+      },
+      {
+        heading: "What does a student flat cost in Niort?",
+        body: "Our estimate puts a studio at €460 and a one-bedroom at €640. In Poitiers, the university city, a studio is estimated at €480 and a one-bedroom at €660: the gap is only €20, and Niort has a more relaxed market, with older stock in the centre and recent residences. CROUS residences in the Poitiers area are cheapest, with priority for grant-holders, and Visale, the free state rent guarantee, replaces the French guarantor. Read the energy rating (DPE) before signing: G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: about €820",
+        body: "Studio: €460 (our rent estimate). Transport: €30 a month, our assumption, since the centre is done on foot or by bike. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €820 a month before aid, against €840 in Poitiers on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy, with grant-holders exempt. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant (€145 to €633 a month over ten months) is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Niort or Poitiers: where to study?",
+        body: "Poitiers has 36% of residents aged 15 to 29, against 19% in Niort, and a student-life score of 6.5/10 against 6.1. Poitiers is a true student city with all the faculties; Niort is an outpost, with small year groups. If your course is in Niort, rent is slightly lower than in Poitiers but student life will be quieter. The insurance-banking-finance licence or the management BUT are the most coherent reasons to choose Niort.",
+      },
+      {
+        heading: "What is student life like in Niort?",
+        body: "Niort is a mid-sized town with a pedestrian centre, the banks of the Sèvre and an active associative life. The Marais Poitevin wetlands, reachable from town, offer boat and bike trips. Nightlife is modest: students go to Poitiers or La Rochelle for big concerts. The town is calm and inexpensive.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "This is Niort's strong point: the mutual insurers and insurance firms headquartered in town offer work-study and internships in insurance, customer relations, IT and management (a student permit allows up to 964 hours of work a year). Student jobs also exist in retail and catering. Verdict: Niort suits a student of insurance, banking, management or IT aiming for work-study; for a rich student life or a general degree, Poitiers is a better fit.",
+      },
+    ],
+    relatedCities: ["niort", "poitiers", "la-rochelle", "la-roche-sur-yon"],
+    tags: ["studying in niort", "international students", "student housing france", "student visa france", "nouvelle-aquitaine"],
+  },
+  {
     slug: "solo-travel-in-paris-2026",
     title: "Solo travel in Paris: where to stay, where to drink, when to go",
     metaTitle: "Solo Travel in Paris 2026: Where to Stay, Going Out Alone",

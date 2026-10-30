@@ -6712,6 +6712,41 @@
       "emoji": "🎓"
     },
     {
+      "slug": "studying-in-annecy-2026",
+      "title": "Studying in Annecy (2026): housing, budget and campus, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-vannes-2026",
+      "title": "Studying in Vannes (2026): housing, budget and campus, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-lorient-2026",
+      "title": "Studying in Lorient (2026): housing, budget and campus, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-quimper-2026",
+      "title": "Studying in Quimper (2026): housing, budget and campus, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-troyes-2026",
+      "title": "Studying in Troyes (2026): housing, budget and campus, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-la-roche-sur-yon-2026",
+      "title": "Studying in La Roche-sur-Yon (2026): housing, budget and campus",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-niort-2026",
+      "title": "Studying in Niort (2026): housing, budget and campus, the honest guide",
+      "emoji": "🎓"
+    },
+    {
       "slug": "solo-travel-in-paris-2026",
       "title": "Solo travel in Paris: where to stay, where to drink, when to go",
       "emoji": "🍸"
@@ -9756,12 +9791,12 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 82
+      "count": 83
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 78
+      "count": 79
     },
     {
       "slug": "occitanie",
@@ -9781,7 +9816,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 70
+      "count": 71
     },
     {
       "slug": "ile-de-france",
@@ -9829,6 +9864,11 @@
       "count": 53
     },
     {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 51
+    },
+    {
       "slug": "expat-retirement",
       "label": "expat retirement",
       "count": 51
@@ -9836,11 +9876,21 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 50
+      "count": 51
     },
     {
-      "slug": "brittany",
-      "label": "brittany",
+      "slug": "international-students",
+      "label": "international students",
+      "count": 48
+    },
+    {
+      "slug": "student-housing-france",
+      "label": "student housing france",
+      "count": 48
+    },
+    {
+      "slug": "student-visa-france",
+      "label": "student visa france",
       "count": 48
     },
     {
@@ -9854,23 +9904,8 @@
       "count": 43
     },
     {
-      "slug": "international-students",
-      "label": "international students",
-      "count": 41
-    },
-    {
       "slug": "normandy",
       "label": "normandy",
-      "count": 41
-    },
-    {
-      "slug": "student-housing-france",
-      "label": "student housing france",
-      "count": 41
-    },
-    {
-      "slug": "student-visa-france",
-      "label": "student visa france",
       "count": 41
     },
     {
