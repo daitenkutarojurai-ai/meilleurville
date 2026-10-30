@@ -25263,6 +25263,258 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["studying in niort", "international students", "student housing france", "student visa france", "nouvelle-aquitaine"],
   },
   {
+    slug: "studying-in-cergy-2026",
+    title: "Studying in Cergy (2026): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Cergy 2026: Housing, Budget, CY Cergy Paris",
+    metaDesc:
+      "A studio at €600 on our estimate, CY Cergy Paris University, the ESSEC campus and the RER A to Paris. The honest, figure-by-figure guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Studying in Cergy means a big Paris-region campus with a studio estimated at €600 a month, against €1,200 in Paris (our rent estimate). People aged 15 to 29 make up 26.3% of residents, against an 18.5% median for the cities we track (INSEE, 2022 census). The population grew by 5,758 since 2016, from 63,820 to 69,578. Our student-life score is 6.6/10, in a band of eighteen cities with the same mark.",
+    sections: [
+      {
+        heading: "What can you study in Cergy?",
+        body: "CY Cergy Paris University, created in 2020 by merging the University of Cergy-Pontoise with the engineering school EISTI, reports between 24,000 and more than 26,000 students depending on the source, spread over several sites (the figure changes with the year and the way it is counted; no source isolates the Cergy campus alone). The business school ESSEC also has a campus here, a few minutes' walk from Cergy-Préfecture station. The range is wide: humanities, law, sciences, engineering, business.",
+      },
+      {
+        heading: "What does a student flat cost in Cergy?",
+        body: "Our estimate puts a studio at €600 and a one-bedroom at €880. In Paris a studio is €1,200, twice as much; in Massy, another well-connected outer-ring town, it is €870. Cergy is the answer if you want a Paris-region campus without Paris rent. CROUS residences (the state student housing service) remain the cheapest, with priority for grant-holders, and Visale, the free state rent guarantee, replaces the French guarantor. Read the energy rating (DPE) before signing: G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: about €1,020",
+        body: "Studio: €600 (our rent estimate). Transport: €90, our assumption for a Paris-region pass, to check with the network. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €1,020 a month before aid, against €810 in Albi on the same grocery and leisure assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. For 2026-2027, enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy, with grant-holders exempt. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant (€145 to €633 a month over ten months) is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Cergy or Paris: where to live?",
+        body: "The RER A (the Paris suburban line) links Cergy-Préfecture to central Paris in 35 to 40 minutes according to ESSEC and student accounts, but the line is crowded at peak hours and prone to disruption. If your classes are in Cergy, living locally avoids all of that and saves €600 a month on the studio. If your classes are in Paris, the rent gap pays for a pass, but not for the tiredness. Cergy-le-Haut and Cergy-Préfecture are the districts nearest the lines; check the real journey before you sign.",
+      },
+      {
+        heading: "What is student life like in Cergy?",
+        body: "Cergy is a new town: a large lake, a leisure park, recent buildings and a shopping centre rather than an old core. Student life revolves around campus societies, and many students head to Paris in the evening or at weekends. Our culture score is 5.7/10, against 9/10 for Paris: the town is lively on weekdays, much less on Sundays. Our poverty rate of 23% (INSEE, Filosofi 2021) is a reminder that the social context is mixed.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Proximity to Paris is the decisive asset: work-study contracts and internships are 40 minutes away by train, and student jobs exist in shops, catering and the new town's businesses (a student permit allows up to 964 hours of work a year). Verdict: Cergy suits a student who wants a big, versatile campus at a moderate Paris-region price, or a top business school, with a foot in Paris. It suits less those who want an old student town that stays lively late: Toulouse, with 32.6% of residents aged 15 to 29, is in another category.",
+      },
+    ],
+    relatedCities: ["cergy", "paris", "massy", "saint-denis"],
+    tags: ["studying in cergy", "international students", "student housing france", "student visa france", "ile-de-france"],
+  },
+  {
+    slug: "studying-in-evry-courcouronnes-2026",
+    title: "Studying in Évry-Courcouronnes (2026): housing, budget and campus",
+    metaTitle: "Studying in Évry-Courcouronnes 2026: Housing, Budget",
+    metaDesc:
+      "A studio at €600 on our estimate, the University of Évry Paris-Saclay and about 11,000 students. The honest, figure-by-figure student guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "In Évry-Courcouronnes a student pays an estimated €600 a month for a studio and attends a university associated with Paris-Saclay (our rent estimate). People aged 15 to 29 make up 23.5% of residents (INSEE, 2022 census), above the 18.5% median. The commune is losing people: 68,090 in 2016, 66,700 in 2022. Our student-life score is 5.9/10, in a band of twenty-five cities with the same mark. This is a practical town, not a student-life town.",
+    sections: [
+      {
+        heading: "What can you study in Évry-Courcouronnes?",
+        body: "The University of Évry Paris-Saclay hosts between 11,000 and 12,000 students according to Campus France (11,000 in the English sheet carrying the 2024-2025 fees), on a dozen sites including two IUTs (technical university institutes). It is an associate member of Paris-Saclay University: most of its master's degrees and all its doctorates award a Paris-Saclay diploma. Its main campus is in the town. It is a mid-sized multidisciplinary university with human-scale year groups.",
+      },
+      {
+        heading: "What does a student flat cost in Évry-Courcouronnes?",
+        body: "Our estimate puts a studio at €600 and a one-bedroom at €850. That is the same studio price as Cergy (€600) but €30 less on a one-bedroom (€880 in Cergy). Massy, a neighbour in the Essonne département, is at €870 for a studio. The market is that of the outer ring: dearer than the provinces, half the price of Paris. Apply to CROUS (the state student housing service) as soon as the file opens, and use Visale, the free state rent guarantee, if you have no French guarantor.",
+      },
+      {
+        heading: "Monthly budget: about €1,020",
+        body: "Studio: €600 (our rent estimate). Transport: €90, our assumption for a Paris-region pass. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €1,020 a month before aid, against €890 in Compiègne on the same grocery and leisure assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. Enrolment costs €178 for a licence and €255 for a master's in 2026-2027, plus the €105 CVEC levy, with grant-holders exempt. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted; the CROUS grant is effectively closed to them, while CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Évry or Paris: should you live locally?",
+        body: "Évry's transport score is 7.8/10, against 9/10 for Paris: the RER and buses link the town to the capital. A studio costs €600 against €1,200 in Paris, a €600 monthly gap. To study locally, living near the campus saves the daily commute. To study in Paris, Évry stays possible if the journey suits you, but it is a budget choice, not a comfort one.",
+      },
+      {
+        heading: "What is student life like in Évry-Courcouronnes?",
+        body: "Student life is that of a new town: campus societies, sports facilities, a shopping centre, and little nightlife of its own. Our culture score is 5.9/10. The poverty rate is 25% (INSEE, Filosofi 2021), a sign of a demanding social context that students meet in their neighbourhood. For nights out, people go to Paris. You do not come here for the atmosphere but for the programme and the price.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "The Essonne offers a large job market, notably around Paris-Saclay, with work-study contracts possible in companies (a student permit allows up to 964 hours of work a year). Student jobs are found in retail and services across the agglomeration. Verdict: Évry suits a serious student who wants a Paris-Saclay diploma at a reasonable Paris-region price and is looking for work-study. It suits less anyone expecting a real student town: Poitiers, with 36% of residents aged 15 to 29, is the opposite.",
+      },
+    ],
+    relatedCities: ["evry-courcouronnes", "massy", "cergy", "paris"],
+    tags: ["studying in evry", "international students", "student housing france", "student visa france", "ile-de-france"],
+  },
+  {
+    slug: "studying-in-compiegne-2026",
+    title: "Studying in Compiègne (2026): UTC, housing and budget, the honest guide",
+    metaTitle: "Studying in Compiègne 2026: UTC, Housing, Budget",
+    metaDesc:
+      "A studio at €530 on our estimate, the University of Technology (UTC) and a direct train to Paris. The honest, figure-by-figure student guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Compiègne is a town of 40,808 people whose higher education comes down to one name: the Université de technologie de Compiègne (UTC), a public engineering school. A studio is estimated at €530 a month (our rent estimate). People aged 15 to 29 make up 23.9% of residents (INSEE, 2022 census). Our student-life score is 7.1/10, in a band of eight cities with the same mark, ranked 23rd of 593.",
+    sections: [
+      {
+        heading: "How good is the UTC for studying in Compiègne?",
+        body: "The UTC has about 4,450 students according to an undated Campus France sheet, including the ESCOM business school with 500, and about 3,700 engineering students according to a school guide. These figures vary by year. The engineering course is organised as a common core followed by specialisms. The UTC is the reason to come to Compiègne: for other disciplines, Amiens is the fallback.",
+      },
+      {
+        heading: "What does a student flat cost in Compiègne?",
+        body: "Our estimate puts a studio at €530 and a one-bedroom at €730. In Beauvais, another town in the Oise département, a studio is €470; in Amiens, €490. Compiègne is therefore €40 to €60 dearer than its neighbours, an effect of the proximity of Paris. CROUS residences (the state student housing service) and those near the school are cheapest. Visale, the free state rent guarantee, replaces the French guarantor, and the energy rating (DPE) should be read before signing: G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: about €890",
+        body: "Studio: €530 (our rent estimate). Transport: €30, our assumption, since the town is done on foot or by bike. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €890 a month before aid, against €810 in Angoulême on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. The UTC is a public school, but its fees are not those of a standard licence: check them on its website. Non-EU students face differentiated fees at universities (about €2,900 and €3,950); engineering schools set their own, so ask the UTC directly. CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Compiègne or Paris: the direct line",
+        body: "The direct Compiègne to Paris Gare du Nord journey takes from 40 minutes to 1 hour 14 depending on the train, according to the sources. Compiègne has a transport score of 7.7/10 (our city profile). This link lets you do an internship or work-study in the Paris region while living in a cheaper town. A studio in Paris is €1,200, more than double a Compiègne studio.",
+      },
+      {
+        heading: "What is student life like in Compiègne?",
+        body: "The town has strong heritage: a château, a forest, a historic centre. Our culture score is 7.5/10, above many towns of the same size. UTC society life is dense, with clubs and engineering-student projects. The town stays small: you get around on foot and are soon known. Big concerts are in Paris or Amiens.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "The strength of a UTC degree is its company network and long internships, in France and abroad (a student permit allows up to 964 hours of work a year). Student jobs are found in retail and catering. Verdict: Compiègne suits a future engineer who wants a recognised public degree in a calm town, with Paris within train reach. It suits less anyone not admitted to the UTC, since local choice is narrow: better to look at Amiens, with 29% of residents aged 15 to 29.",
+      },
+    ],
+    relatedCities: ["compiegne", "beauvais", "amiens", "paris"],
+    tags: ["studying in compiegne", "international students", "student housing france", "student visa france", "hauts-de-france"],
+  },
+  {
+    slug: "studying-in-albi-2026",
+    title: "Studying in Albi (2026): Mines, Champollion, housing and budget",
+    metaTitle: "Studying in Albi 2026: Mines, Champollion, Budget",
+    metaDesc:
+      "A studio at €450 on our estimate, IMT Mines Albi and the Champollion university institute, with Toulouse as the benchmark. The honest guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "In Albi a studio costs €450 a month on our estimate, against €620 in Toulouse (our rent estimate). Our student-life score is 7.2/10, ranked 16th of 593, in a band of seven cities. People aged 15 to 29 make up 22.2% of residents, far from Toulouse's 32.6% (INSEE, 2022 census). The population is growing: 49,024 in 2016, 50,605 in 2022.",
+    sections: [
+      {
+        heading: "What can you study in Albi?",
+        body: "Two institutions structure the offer. IMT Mines Albi, an engineering school on a 22-hectare campus, has more than 1,200 students and expects 1,100 engineering students at the start of 2026, nearly a third of them in apprenticeship (Planète Grandes Écoles, 2025 annual report). The Champollion university institute, a public higher-education institution headquartered in Albi, reports 4,000 students over three sites: Albi, Castres and Rodez. Figures per campus are not broken out.",
+      },
+      {
+        heading: "What does a student flat cost in Albi?",
+        body: "Our estimate puts a studio at €450 and a one-bedroom at €620. In Castres, another Champollion site, a studio is €380: €70 less, but with a thinner course offer. Toulouse is €170 above. The Mines school has 566 housing places between the campus and the town centre, which eases the search for its students. For everyone else: CROUS residences (the state student housing service), Visale (the free state rent guarantee) and the energy rating (DPE), since G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: about €810",
+        body: "Studio: €450 (our rent estimate). Transport: €30, our assumption, since the centre is done on foot or by bike. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €810 a month before aid, against €980 in Toulouse on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. Enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy; an engineering school sets its own fees. Non-EU students face differentiated fees of about €2,900 and €3,950 at universities unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Albi or Toulouse: where to study?",
+        body: "Toulouse has a student-life score of 7.5/10 against 7.2, a studio at €620 and 32.6% of residents aged 15 to 29: the real student city. Albi wins on price and on human scale, but loses on range: for medicine, law or general humanities, Toulouse is the answer. For an engineering school or a Champollion course, Albi is enough, with rent €170 lower.",
+      },
+      {
+        heading: "What is student life like in Albi?",
+        body: "Our culture score is 8/10, high for a town of 50,000: the episcopal city, a UNESCO World Heritage site, and its museums give a scene that outgrows the town. Nightlife is modest, and people go to Toulouse for big concerts. The town is calm, with a poverty rate of 20% (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Apprenticeship is strong at IMT Mines Albi, with nearly a third of engineering students on work-study contracts (a student permit allows up to 964 hours of work a year). Student jobs are found in retail, catering and tourism. Verdict: Albi suits a future engineer or a Champollion student who wants low rent and a safe, cultured town. It suits less anyone who wants a big-university campus with thousands of classmates: look at Toulouse or Poitiers.",
+      },
+    ],
+    relatedCities: ["albi", "toulouse", "castres", "montauban"],
+    tags: ["studying in albi", "international students", "student housing france", "student visa france", "occitanie"],
+  },
+  {
+    slug: "studying-in-angouleme-2026",
+    title: "Studying in Angoulême (2026): image, comics, housing and budget",
+    metaTitle: "Studying in Angoulême 2026: Image Campus, Budget",
+    metaDesc:
+      "A studio at €450 on our estimate, the image campus, the European art school (EESI) and an IUT. The honest, figure-by-figure student guide.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Angoulême is a town of the image: comics, animation film, video games, with a studio estimated at €450 a month (our rent estimate). People aged 15 to 29 make up 24.2% of residents (INSEE, 2022 census). The town is losing a few people: 41,935 in 2016, 41,423 in 2022. Our student-life score is 6.2/10, in a band of twenty-two cities with the same mark, ranked 168th. You choose it for a specialism, not for a general student atmosphere.",
+    sections: [
+      {
+        heading: "What can you study in Angoulême?",
+        body: "The Angoulême image campus brings together, according to Magelis, about fifteen specialist schools training nearly 2,000 students. The École européenne supérieure de l'image (EESI), a public art school created in 1995, has 260 students on two sites, Angoulême and Poitiers, and prepares the DNA and DNSEP art degrees. The Angoulême IUT, attached to the University of Poitiers, had about 600 students in 2019 in two courses; that figure is old. For other disciplines, Poitiers is the supporting city.",
+      },
+      {
+        heading: "What does a student flat cost in Angoulême?",
+        body: "Our estimate puts a studio at €450 and a one-bedroom at €620. In Poitiers a studio is €480: the gap is only €30. Angoulême has older stock in the centre, often cheap, and recent residences near the schools. Apply to CROUS (the state student housing service) as soon as the file opens, use Visale, the free state rent guarantee, in place of a French guarantor, and read the energy rating (DPE): G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: about €810",
+        body: "Studio: €450 (our rent estimate). Transport: €30, our assumption, since the centre is done on foot. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €810 a month before aid, against €840 in Poitiers on the same transport, grocery and leisure assumptions and a €480 studio. Since 4 May 2026 any student can eat a CROUS meal for €1. Enrolment costs €178 for a licence, plus the €105 CVEC levy; art and image schools set their own fees. Non-EU students face differentiated university fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Angoulême or Poitiers: where to study?",
+        body: "Poitiers has 36% of residents aged 15 to 29 against 24.2% in Angoulême, and a student-life score of 6.5/10 against 6.2. Poitiers is a complete university city; Angoulême is a specialist town. If your project is comics, animation or the image, Angoulême is the right choice. For a general course, Poitiers offers more classmates and more choice.",
+      },
+      {
+        heading: "What is student life like in Angoulême?",
+        body: "Student life is tied to comics: the international festival, the museums, the bookshops and the artists' studios. The upper town, perched on its ramparts, overlooks the Charente. Our culture score is 6.6/10. The social context is mixed, with a poverty rate of 26% (INSEE, Filosofi 2021). For big nights out, people go to Bordeaux or Poitiers.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Internships are found in the region's animation studios, publishers and video-game companies, and student jobs in retail and catering (a student permit allows up to 964 hours of work a year). Verdict: Angoulême suits a student of the image or comics who wants low rent and a concentrated professional milieu. It suits less anyone looking for a general campus or a large student population.",
+      },
+    ],
+    relatedCities: ["angouleme", "poitiers", "bordeaux", "niort"],
+    tags: ["studying in angouleme", "international students", "student housing france", "student visa france", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "studying-in-bayonne-2026",
+    title: "Studying in Bayonne (2026): IUT, housing and budget, the honest guide",
+    metaTitle: "Studying in Bayonne 2026: IUT, Housing, Budget",
+    metaDesc:
+      "A studio at €660 on our estimate, the Bayonne and Basque Country IUT, the UPPA and Anglet. The honest, figure-by-figure guide, with Pau as the benchmark.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    intro:
+      "Bayonne is the dearest town in this batch to rent in outside the Paris region: a studio is estimated at €660, against €490 in Pau, the university city (our rent estimate). People aged 15 to 29 make up only 20.5% of residents (INSEE, 2022 census). The population is growing, from 50,589 in 2016 to 53,312 in 2022. Our student-life score is 5.9/10, in a band of twenty-five cities with the same mark. You study here for the IUT, not for the student life.",
+    sections: [
+      {
+        heading: "What can you study in Bayonne?",
+        body: "The Bayonne and Basque Country IUT (a technical university institute), part of the Université de Pau et des Pays de l'Adour (UPPA), has been here since 1974 on two sites: Montaury, in Anglet, for computing and industrial engineering, and Bayonne for management and marketing. It prepares the three-year BUT degree and the professional licence. An IUT source cites about 900 students a year. The UPPA has 13,405 students in 2024-2025 across all its sites; for a general licence you often need to go to Pau.",
+      },
+      {
+        heading: "What does a student flat cost in Bayonne?",
+        body: "Our estimate puts a studio at €660 and a one-bedroom at €900. In Anglet, the neighbour where the Montaury site stands, a studio is €620; in Pau, €490. Bayonne's price is that of a sought-after Basque coast: €170 more than Pau. CROUS residences (the state student housing service) are the cheapest recourse, and Visale, the free state rent guarantee, replaces the French guarantor. Read the energy rating (DPE): G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: about €1,020",
+        body: "Studio: €660 (our rent estimate). Transport: €30, our assumption, because central Bayonne is done on foot. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €1,020 a month before aid, against €850 in Pau on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal for €1. Enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Bayonne or Pau: where to study?",
+        body: "Pau has 24.1% of residents aged 15 to 29 against 20.5% in Bayonne, a student-life score of 6.5/10 against 5.9, and a studio €170 cheaper. Pau is the seat of the UPPA. Bayonne only makes sense if your course, often the IUT, is located here. In that case, looking in Anglet, near Montaury, is an option to compare, at €620 for a studio.",
+      },
+      {
+        heading: "What is student life like in Bayonne?",
+        body: "Bayonne has a historic centre, two rivers, the beach a few kilometres away, and famous festivals. Our culture score is 7.3/10, higher than Pau's (6.6). The cost of student life is mostly decided by housing. The poverty rate of 17% (INSEE, Filosofi 2021) is lower than Pau's (22%).",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Tourism, catering and retail provide many seasonal and part-time jobs, useful for paying a high rent (a student permit allows up to 964 hours of work a year). Internships are found in the Basque Country area. Verdict: Bayonne suits an IUT student who accepts a high rent for the setting. It suits less a tight budget with no course on site: Pau is €170 a month cheaper on the studio.",
+      },
+    ],
+    relatedCities: ["bayonne", "anglet", "pau", "dax"],
+    tags: ["studying in bayonne", "international students", "student housing france", "student visa france", "nouvelle-aquitaine"],
+  },
+  {
     slug: "solo-travel-in-paris-2026",
     title: "Solo travel in Paris: where to stay, where to drink, when to go",
     metaTitle: "Solo Travel in Paris 2026: Where to Stay, Going Out Alone",

@@ -6747,6 +6747,36 @@
       "emoji": "🎓"
     },
     {
+      "slug": "studying-in-cergy-2026",
+      "title": "Studying in Cergy (2026): housing, budget and campus, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-evry-courcouronnes-2026",
+      "title": "Studying in Évry-Courcouronnes (2026): housing, budget and campus",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-compiegne-2026",
+      "title": "Studying in Compiègne (2026): UTC, housing and budget, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-albi-2026",
+      "title": "Studying in Albi (2026): Mines, Champollion, housing and budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-angouleme-2026",
+      "title": "Studying in Angoulême (2026): image, comics, housing and budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-bayonne-2026",
+      "title": "Studying in Bayonne (2026): IUT, housing and budget, the honest guide",
+      "emoji": "🎓"
+    },
+    {
       "slug": "solo-travel-in-paris-2026",
       "title": "Solo travel in Paris: where to stay, where to drink, when to go",
       "emoji": "🍸"
@@ -9876,17 +9906,17 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 82
+      "count": 84
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 78
+      "count": 79
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 75
+      "count": 77
     },
     {
       "slug": "grand-est",
@@ -9906,7 +9936,7 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 65
+      "count": 66
     },
     {
       "slug": "french-school-system",
@@ -9939,6 +9969,21 @@
       "count": 57
     },
     {
+      "slug": "international-students",
+      "label": "international students",
+      "count": 54
+    },
+    {
+      "slug": "student-housing-france",
+      "label": "student housing france",
+      "count": 54
+    },
+    {
+      "slug": "student-visa-france",
+      "label": "student visa france",
+      "count": 54
+    },
+    {
       "slug": "real-estate",
       "label": "real estate",
       "count": 53
@@ -9957,21 +10002,6 @@
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
       "count": 51
-    },
-    {
-      "slug": "international-students",
-      "label": "international students",
-      "count": 48
-    },
-    {
-      "slug": "student-housing-france",
-      "label": "student housing france",
-      "count": 48
-    },
-    {
-      "slug": "student-visa-france",
-      "label": "student visa france",
-      "count": 48
     },
     {
       "slug": "cost-of-living",
