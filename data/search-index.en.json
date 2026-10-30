@@ -9207,6 +9207,86 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-in-angouleme-2026",
+      "title": "Single parent in Angoulême (2026): an entry floor of €2,500, 3 of 4 axes above the median and a spread of 1.6 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-blois-2026",
+      "title": "Single parent in Blois (2026): an entry floor of €2,500, 3 of 4 axes above the median and a spread of 1.1 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-thionville-2026",
+      "title": "Single parent in Thionville (2026): an entry floor of €2,650, 3 of 4 axes above the median and a spread of 1.1 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-brieuc-2026",
+      "title": "Single parent in Saint-Brieuc (2026): an entry floor of €2,350, 3 of 4 axes above the median and a spread of 1.5 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-epinal-2026",
+      "title": "Single parent in Épinal (2026): an entry floor of €2,000, 3 of 4 axes above the median and a spread of 1.2 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saintes-2026",
+      "title": "Single parent in Saintes (2026): an entry floor of €2,100, 3 of 4 axes above the median and a spread of 1.3 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-ivry-sur-seine-2026",
+      "title": "Single parent in Ivry-sur-Seine (2026): an entry floor of €3,850, 2 of 4 axes above the median and a spread of 4.4 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-vitry-sur-seine-2026",
+      "title": "Single parent in Vitry-sur-Seine (2026): an entry floor of €3,950, 1 of 4 axes above the median and a spread of 4.3 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-cloud-2026",
+      "title": "Single parent in Saint-Cloud (2026): an entry floor of €5,650, 3 of 4 axes above the median and a spread of 6.5 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-talence-2026",
+      "title": "Single parent in Talence (2026): an entry floor of €3,300, 3 of 4 axes above the median and a spread of 4.5 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-illkirch-graffenstaden-2026",
+      "title": "Single parent in Illkirch-Graffenstaden (2026): an entry floor of €2,950, 3 of 4 axes above the median and a spread of 2.1 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-olivet-2026",
+      "title": "Single parent in Olivet (2026): an entry floor of €3,050, 2 of 4 axes above the median and a spread of 1.6 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-champs-sur-marne-2026",
+      "title": "Single parent in Champs-sur-Marne (2026): an entry floor of €3,850, 3 of 4 axes above the median and a spread of 2.1 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-mande-2026",
+      "title": "Single parent in Saint-Mandé (2026): an entry floor of €4,550, 3 of 4 axes above the median and a spread of 6.2 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-sainte-foy-les-lyon-2026",
+      "title": "Single parent in Sainte-Foy-lès-Lyon (2026): an entry floor of €3,750, 2 of 4 axes above the median and a spread of 3.6 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-meudon-2026",
+      "title": "Single parent in Meudon (2026): an entry floor of €5,300, 3 of 4 axes above the median and a spread of 6.1 points",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "single-parent-holidays-anglet-2026",
       "title": "Single-parent holidays in Anglet: no railway station, but the airport is here",
       "emoji": "🧑‍🍼"
@@ -9776,32 +9856,42 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 252
+      "count": 268
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 203
+      "count": 219
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 144
+      "count": 160
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 83
+      "count": 84
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 79
+      "count": 82
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
       "count": 78
+    },
+    {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 75
+    },
+    {
+      "slug": "grand-est",
+      "label": "grand est",
+      "count": 74
     },
     {
       "slug": "solo-travel",
@@ -9812,16 +9902,6 @@
       "slug": "travelling-alone-in-france",
       "label": "travelling alone in france",
       "count": 74
-    },
-    {
-      "slug": "grand-est",
-      "label": "grand est",
-      "count": 71
-    },
-    {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 69
     },
     {
       "slug": "hauts-de-france",
@@ -9914,6 +9994,11 @@
       "count": 34
     },
     {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 33
+    },
+    {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
       "count": 33
@@ -9922,11 +10007,6 @@
       "slug": "job-market-france",
       "label": "job market france",
       "count": 32
-    },
-    {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 31
     },
     {
       "slug": "bourgogne-franche-comte",
@@ -9974,6 +10054,11 @@
       "count": 15
     },
     {
+      "slug": "bretagne",
+      "label": "bretagne",
+      "count": 13
+    },
+    {
       "slug": "french-riviera",
       "label": "french riviera",
       "count": 13
@@ -9981,11 +10066,6 @@
     {
       "slug": "atlantic-coast",
       "label": "atlantic coast",
-      "count": 12
-    },
-    {
-      "slug": "bretagne",
-      "label": "bretagne",
       "count": 12
     },
     {
