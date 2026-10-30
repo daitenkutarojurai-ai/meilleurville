@@ -4,10 +4,10 @@ import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { AirMeasuredCard } from "@/components/AirMeasuredCard";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { cityAirEvaluated } from "@/lib/city-air";
 import {
   computeAirQuality,
   AIR_LEVEL_LABEL,
@@ -122,16 +122,21 @@ export default async function AirPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-10">
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <nav className="text-xs text-[var(--text-tertiary)] mb-3">
           <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
           <Link href="/villes" className="hover:underline">Villes</Link> ·{" "}
           <Link href={`/villes/${city.slug}`} className="hover:underline">{city.name}</Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          Qualité de l&apos;air à {city.name}
-        </h1>
+        <div className="flex items-center gap-3">
+          <span aria-hidden className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl grad-head-0 text-xl shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)]">🌬️</span>
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+            Qualité de l&apos;air à {city.name}
+          </h1>
+        </div>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
           Profil <strong>structurel</strong> des quatre polluants suivis par l&apos;indice ATMO :
           ce que la géographie, le trafic, le chauffage et le climat de {city.name} impliquent
@@ -154,11 +159,22 @@ export default async function AirPage({ params }: Props) {
           <Badge>Estimation structurelle</Badge>
           <Badge>Cadres de référence : ATMO · CITEPA · RNSA</Badge>
         </div>
+        </div>
+      </section>
 
-        <AirMeasuredCard slug={city.slug} cityName={city.name} />
+      {/* Mesures en station — bande aqua (seulement si la ville a été évaluée) */}
+      {cityAirEvaluated(city.slug) && (
+        <section className="band band-aqua py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <AirMeasuredCard slug={city.slug} cityName={city.name} />
+          </div>
+        </section>
+      )}
 
-        {/* Composite hero */}
-        <Card className={`mt-6 border-l-4 ${AIR_LEVEL_BG[a.level].replace('bg-', 'border-l-').replace('-50', '-500').split(' ')[0]}`}>
+      {/* Score composite + quatre polluants — bande indigo */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
           <div className="flex items-baseline justify-between mb-3">
             <h2 className="text-sm uppercase tracking-wide text-[var(--text-tertiary)] font-semibold">Score composite</h2>
             <span className={`text-xs font-bold uppercase ${AIR_LEVEL_COLOR[a.level]}`}>
@@ -178,20 +194,24 @@ export default async function AirPage({ params }: Props) {
               La légende dit maintenant la même chose que la méthodologie. */}
           <p className="text-[11px] text-[var(--text-tertiary)] mb-2">10 = air le plus pur · modèle communal, calé sur les repères ATMO / CITEPA / RNSA — pas une mesure en station</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{a.signature}</p>
-        </Card>
+        </div>
 
         {/* 4 dimensions */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Les quatre polluants suivis</h2>
+        <h2 className="mt-10 text-xl font-bold text-[var(--text-primary)]">Les quatre polluants suivis</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <AirBlock dim={a.no2} label="NO2 — trafic" />
           <AirBlock dim={a.pm25} label="PM2.5 — particules fines" />
           <AirBlock dim={a.ozone} label="Ozone — pic estival" />
           <AirBlock dim={a.pollen} label="Pollens" />
         </div>
+        </div>
+      </section>
 
-        {/* Methodology */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Méthodologie</h2>
-        <Card className="mt-3">
+      {/* Méthodologie — bande ciel */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold"><span className="gradient-text">Méthodologie</span></h2>
+        <div className="mt-3 rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">NO2 (trafic) :</strong> proxy
@@ -223,46 +243,51 @@ export default async function AirPage({ params }: Props) {
             péri-urbain et une maison en lisière forestière. Pour la mesure à l&apos;adresse,
             consultez la station ATMO régionale la plus proche.
           </p>
-        </Card>
+        </div>
+        </div>
+      </section>
 
-        {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
+      {/* Renvois + discussion — bande blanche */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold text-[var(--text-primary)]">Aller plus loin</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link href={`/villes/${city.slug}/risques`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
               <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>⚠️</span><span>Risques naturels</span></div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Inondation, argile, feux, sismicité</div>
-            </Card>
+              <div className="text-xs text-[var(--text-secondary)] mt-1">Inondation, argile, feux, sismicité</div>
+            </div>
           </Link>
           <Link href={`/villes/${city.slug}/eau`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
               <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>💧</span><span>Stress hydrique</span></div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Sécheresse, nappes, restrictions</div>
-            </Card>
+              <div className="text-xs text-[var(--text-secondary)] mt-1">Sécheresse, nappes, restrictions</div>
+            </div>
           </Link>
           <Link href={`/villes/${city.slug}/climat-2040`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
               <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🌡️</span><span>Climat 2040</span></div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Canicule, nuits tropicales</div>
-            </Card>
+              <div className="text-xs text-[var(--text-secondary)] mt-1">Canicule, nuits tropicales</div>
+            </div>
           </Link>
           <Link href={`/villes/${city.slug}/transports`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
               <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🚊</span><span>Transports</span></div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Trafic, vélo, transports en commun</div>
-            </Card>
+              <div className="text-xs text-[var(--text-secondary)] mt-1">Trafic, vélo, transports en commun</div>
+            </div>
           </Link>
         </div>
 
         <div className="mt-8 text-sm">
-          <Link href="/environnement" className="text-[var(--accent)] hover:underline">
+          <Link href="/environnement" className="inline-flex items-center rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-[#3730A3] shadow-sm ring-1 ring-[var(--band-indigo)] transition-colors hover:bg-[var(--band-indigo)]">
             → Classement national des villes les plus saines
           </Link>
         </div>
-      </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        <div className="mt-10">
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        </div>
+        </div>
       </section>
 
       <Footer />

@@ -1154,3 +1154,24 @@ Captures `next dev` + playwright `/villes/lyon/teletravail` 1440 et 390 px, `scr
 1. Sous-pages `air` / `bruit` (même schéma).
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Sous-page `louer-ou-acheter`.
+
+## 2026-10-30 ~03:00 UTC — sous-page air `/villes/[slug]/air` (FR) + EN `/cities/[slug]/air-quality` + `AirMeasuredCard`
+
+**Surface** : le gabarit qualité de l'air (593 villes × 2 locales). Avant : un seul bloc sur fond de page, carte
+composite à filet gauche dérivé par `replace()`, carte « mesuré en station » à filet ciel, méthodologie et renvois en `Card` grises.
+
+**Changé** (même schéma que santé/emploi)
+- Hero `.bg-aurora`, emoji 🌬️ en tuile `grad-head-0` (FR) ; EN : nom de ville en `.gradient-text`.
+- Mesures en station en `band-aqua` (section rendue seulement si `cityAirEvaluated`, pour ne pas laisser de bande vide) ;
+  `AirMeasuredCard` devient une carte blanche à ombre cyan (fin du filet `border-l-sky-500`, plus de `mt-6` interne).
+- Composite + quatre polluants en `band-indigo` ; méthodologie en `band-sky` (h2 dégradé) ; renvois en tuiles lavande,
+  classement en pilule, DiscussionCTA en `band-white`. EN : cartes blanches sur indigo, boutons `grad-head-0` + pilule, FeedbackWidget en `band-white`.
+- Couleurs de niveau (`AIR_LEVEL_BG`, tons rouge/ambre/vert des mesures) conservées : elles encodent un niveau. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 3 fichiers : 0 problème.
+Captures `next dev` + playwright `/villes/lyon/air` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-page `bruit` (même schéma), puis `eau` / `risques`.
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Sous-page `louer-ou-acheter`.

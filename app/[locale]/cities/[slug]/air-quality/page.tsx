@@ -6,6 +6,7 @@ import { AirMeasuredCard } from "@/components/AirMeasuredCard";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { cityAirEvaluated } from "@/lib/city-air";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeAirQuality, type AirLevel } from "@/lib/air-quality";
 import { cityAlternatesEn } from "@/lib/i18n";
@@ -73,7 +74,8 @@ export default async function EnCityAir({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
+      <section className="relative overflow-hidden bg-aurora">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-10">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -86,7 +88,7 @@ export default async function EnCityAir({ params }: Props) {
         <div className="flex items-center gap-3 mb-3">
           <span className="text-5xl" aria-hidden>🌬️</span>
           <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight">
-            Air quality in {c.name}
+            Air quality in <span className="gradient-text">{c.name}</span>
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
@@ -104,15 +106,24 @@ export default async function EnCityAir({ params }: Props) {
           Where a background station sits within 25 km, its measured annual
           averages are shown below.
         </p>
-        <AirMeasuredCard slug={slug} cityName={c.name} locale="en" />
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
+      {cityAirEvaluated(slug) && (
+        <section className="band band-aqua py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <AirMeasuredCard slug={slug} cityName={c.name} locale="en" />
+          </div>
+        </section>
+      )}
+
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 grid sm:grid-cols-2 gap-3">
         {DIMS.map((d) => {
           const dim = air[d.key];
           const dimScore = Math.round((10 - dim.score) * 10) / 10;
           return (
-            <div key={d.key} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
+            <div key={d.key} className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-baseline justify-between">
                 <p className="font-semibold text-[var(--text-primary)]">{d.label}</p>
                 <span className={`font-mono-data font-bold ${scoreColor(dimScore)}`}>{dimScore.toFixed(1)}</span>
@@ -123,10 +134,12 @@ export default async function EnCityAir({ params }: Props) {
             </div>
           );
         })}
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">What this covers</h2>
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold mb-3"><span className="gradient-text">What this covers</span></h2>
         <ul className="text-[var(--text-secondary)] leading-relaxed space-y-2 mb-8">
           <li>· <strong className="text-[var(--text-primary)]">NO₂</strong> — mostly road traffic. Big metros with a saturated ring road tend to exceed WHO guidelines.</li>
           <li>· <strong className="text-[var(--text-primary)]">PM2.5</strong> — fine particles from heating and industry. Worst on cold, still winter days.</li>
@@ -134,13 +147,16 @@ export default async function EnCityAir({ params }: Props) {
           <li>· <strong className="text-[var(--text-primary)]">Pollen</strong> — the allergenic load, which varies a lot by surrounding vegetation.</li>
         </ul>
         <div className="mt-2 flex flex-wrap gap-3">
-          <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {c.name}</Link>
-          <Link href="/rankings/ecologie" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">Ecology &amp; air ranking</Link>
+          <Link href={`/cities/${slug}`} className="grad-head-0 rounded-full px-5 py-2.5 font-semibold hover:opacity-90">Back to {c.name}</Link>
+          <Link href="/rankings/ecologie" className="rounded-full bg-white px-5 py-2.5 font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">Ecology &amp; air ranking</Link>
+        </div>
         </div>
       </section>
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-        <FeedbackWidget />
-      </div>
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
       <Footer />
     </main>
   );

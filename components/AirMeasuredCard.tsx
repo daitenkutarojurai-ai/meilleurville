@@ -3,7 +3,6 @@
 // to the client.
 
 import Link from "@/components/AppLink";
-import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import {
   AIR_MEASURE_YEAR,
@@ -46,7 +45,7 @@ export function AirMeasuredCard({ slug, cityName, locale = "fr" }: { slug: strin
   const missing = AIR_POLLUTANTS.filter((p) => !m?.[p]);
 
   return (
-    <Card className="mt-6 border-l-4 border-l-sky-500">
+    <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
       <div className="flex flex-wrap items-baseline justify-between gap-2 mb-1">
         <h2 className="text-sm uppercase tracking-wide text-[var(--text-tertiary)] font-semibold">
           {L(`Mesuré en station · ${AIR_MEASURE_YEAR}`, `Measured at stations · ${AIR_MEASURE_YEAR}`)}
@@ -122,6 +121,6 @@ export function AirMeasuredCard({ slug, cityName, locale = "fr" }: { slug: strin
           "Sources: measurements by the French regional monitoring networks (AASQA), compiled by LCSQA (Licence Ouverte) and published by the European Environment Agency (CC BY 4.0). Validated data, at least 75 % of the year covered.",
         )}
       </p>
-    </Card>
+    </div>
   );
 }
