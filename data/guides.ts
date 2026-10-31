@@ -37941,6 +37941,277 @@ export const GUIDES: Guide[] = [
     tags: ["étudiant Bayonne 2026", "étudier à Bayonne", "logement étudiant Bayonne", "budget étudiant Bayonne", "IUT Bayonne Pays basque UPPA"],
   },
   {
+    slug: "etudiant-a-saint-brieuc-2026",
+    title: "Étudiant à Saint-Brieuc en 2026 : IUT, logement, budget, le guide",
+    metaTitle: "Étudiant à Saint-Brieuc 2026 : IUT, logement, budget",
+    metaDesc: "Étudier à Saint-Brieuc en 2026 : studio à 420 € sur notre estimation, IUT et antennes de Rennes 1 et Rennes 2 au campus Mazier. Le guide chiffré, avec Lorient.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "À Saint-Brieuc, un studio est estimé à 420 € et un deux-pièces à 580 €, soit 80 € de moins que le studio de Lorient à 500 € (source : notre estimation des loyers). Les 15-29 ans pèsent 21,0 % des 44 607 habitants (source : Insee, recensement 2022), et la ville a perdu des habitants depuis 2016 (44 999). Notre score vie étudiante est de 5,9/10, dans un palier de vingt-cinq villes à la même note (source : notre fiche profils). On y vient pour un cursus précis du campus Mazier, pas pour l'ambiance étudiante d'une grande métropole.",
+    sections: [
+      {
+        heading: "Quelles études à Saint-Brieuc ?",
+        body: "L'enseignement supérieur briochin est un campus délocalisé : l'IUT de Saint-Brieuc, composante de l'Université de Rennes 1, propose des BUT dans des filières comme le génie biologique, la science et le génie des matériaux ou les techniques de commercialisation. D'après la plaquette du campus de 2021, il compte plus de 700 étudiants, auxquels s'ajoutent environ 400 étudiants d'une antenne de la faculté de droit de Rennes 1 et environ 1 000 d'une antenne de Rennes 2. L'INSPÉ de Bretagne s'est installé sur le site de Beaufeuillage, au campus du Grand Mazier, en 2024. Ces effectifs sont ceux de la plaquette, à vérifier sur le site de l'IUT avant de candidater.",
+      },
+      {
+        heading: "Combien coûte un logement étudiant ?",
+        body: "Notre estimation place le studio à 420 € et le deux-pièces à 580 € par mois (source : notre estimation des loyers). C'est 80 € de moins qu'à Lorient pour un studio (500 €) et 200 € de moins qu'à Vannes (620 €). La contrepartie : le parc de petites surfaces est limité par rapport à une métropole, donc il vaut mieux chercher dès le printemps. Visale peut remplacer le garant, et le DPE doit être lu avant de signer : les logements classés G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : 780 euros environ",
+        body: "Studio : 420 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, la ville se parcourt largement à vélo ou en bus. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 780 € par mois avant aides, contre 860 € à Lorient avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous les étudiants depuis le 4 mai 2026 (source : Crous). L'inscription coûte 178 € en licence et 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Saint-Brieuc ou Lorient : que choisir ?",
+        body: "Lorient compte 21,8 % de 15-29 ans contre 21,0 % à Saint-Brieuc, un score vie étudiante de 6,2/10 contre 5,9, et un studio plus cher de 80 €. Lorient a le pôle de l'Université Bretagne Sud ; Saint-Brieuc, celui de Rennes. Le bon choix est celui de la formation : il n'y a pas de raison de venir à Saint-Brieuc pour un cursus enseigné ailleurs, mais pour l'IUT ou l'antenne de droit, le loyer joue en sa faveur.",
+      },
+      {
+        heading: "Quelle vie étudiante à Saint-Brieuc ?",
+        body: "Notre score culture est de 5,9/10 et le transport de 4,9/10 (source : notre fiche ville) : la vie étudiante est modeste, et le train vers Rennes sert aux week-ends et aux retours de stage. La baie de Saint-Brieuc et la côte sont à proximité. Le taux de pauvreté de 21 % (source : Insee, Filosofi 2021) invite à compter, mais le loyer reste bas.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les jobs étudiants se trouvent dans la grande distribution, la restauration et l'agroalimentaire du bassin briochin, et les stages dans les entreprises des Côtes-d'Armor. Verdict : Saint-Brieuc convient à un étudiant d'IUT ou de droit qui veut un loyer de 420 € et rester proche de la côte. Elle convient moins à qui cherche une vie nocturne ou un grand choix de filières : Rennes reste la référence régionale.",
+      },
+    ],
+    relatedCities: ["saint-brieuc", "lorient", "vannes", "quimper"],
+    relatedGuides: [
+      "famille-a-saint-brieuc-2026",
+      "10-choses-a-faire-a-saint-brieuc-2026",
+      "etudiant-a-lorient-2026",
+    ],
+    tags: ["étudiant Saint-Brieuc 2026", "étudier à Saint-Brieuc", "logement étudiant Saint-Brieuc", "budget étudiant Saint-Brieuc", "IUT Saint-Brieuc campus Mazier"],
+  },
+  {
+    slug: "etudiant-a-arras-2026",
+    title: "Étudiant à Arras en 2026 : université d'Artois, logement, budget",
+    metaTitle: "Étudiant à Arras 2026 : université d'Artois, budget",
+    metaDesc: "Étudier à Arras en 2026 : studio à 390 € sur notre estimation, siège de l'université d'Artois, lettres, langues et droit. Le guide chiffré, avec Lens et Lille.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Arras est l'une des rares villes de cette série où la part des 15-29 ans, 24,5 %, dépasse nettement celle de Lorient ou de Dunkerque (source : Insee, recensement 2022). Le studio y est estimé à 390 € et le deux-pièces à 540 €, contre 580 € pour un studio à Lille (source : notre estimation des loyers). Notre score vie étudiante est de 6,5/10, au 101e rang sur 593, à égalité avec vingt-six autres villes (source : notre fiche profils). La ville gagne des habitants : 40 883 en 2016, 42 621 en 2022.",
+    sections: [
+      {
+        heading: "Pourquoi Arras pour étudier ?",
+        body: "Arras est le siège de l'université d'Artois, dont les sites sont répartis entre Arras, Béthune, Douai, Lens et Liévin ; l'établissement annonce environ 12 300 étudiants et deux IUT, à Béthune et à Lens, pas à Arras. Le pôle arrageois est tourné vers les lettres, les langues, l'histoire-géographie et le patrimoine, ainsi que l'économie, la gestion et les sciences sociales. Pour un BUT ou des sciences, il faut regarder Lens ou Béthune, accessibles par le train régional.",
+      },
+      {
+        heading: "Quel loyer pour un étudiant à Arras ?",
+        body: "Un studio est estimé à 390 € et un deux-pièces à 540 € par mois (source : notre estimation des loyers). Lens reste moins chère (studio à 320 €), Lille plus chère de 190 € par mois (580 €). Pour un cursus à Lens, le loyer arrageois n'est pas le plus bas, mais le centre d'Arras est plus animé. Visale remplace le garant ; lisez le DPE avant de signer.",
+      },
+      {
+        heading: "Budget mensuel : 750 euros environ",
+        body: "Studio : 390 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, car le centre se fait à pied ; un abonnement TER serait en plus pour un cursus à Lens. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 750 € par mois avant aides, contre 940 € à Lille avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Arras, Lens ou Lille ?",
+        body: "Lille a 36,8 % de 15-29 ans, un score vie étudiante de 7,5/10 et des loyers plus élevés ; Lens est la moins chère (320 €) avec un score de 6,7. Arras tient le milieu : 6,5/10 avec une culture notée 7,3/10 (source : notre fiche ville). Si votre filière est à Arras, restez-y ; si elle est à Lens ou à Béthune, comparez le trajet quotidien avec le loyer économisé.",
+      },
+      {
+        heading: "Quelle vie étudiante à Arras ?",
+        body: "Le centre historique et ses places forment un cadre compact, où tout se fait à pied. Le taux de pauvreté de 25 % (source : Insee, Filosofi 2021) et un revenu médian de 20 230 € par an indiquent un territoire populaire, avec des prix plutôt bas. Le transport est noté 6,1/10, correct pour une ville de cette taille.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les jobs étudiants se concentrent dans le commerce, la restauration et les services, et les stages dans les administrations et entreprises du Pas-de-Calais. Verdict : Arras convient à un étudiant de lettres, langues ou droit qui veut un loyer de 390 € et une ville à taille humaine. Elle convient moins à qui cherche un campus scientifique ou technique sur place : Lens et Béthune en ont, et Lille offre bien plus de choix.",
+      },
+    ],
+    relatedCities: ["arras", "lens", "lille", "bethune", "amiens"],
+    relatedGuides: [
+      "10-choses-a-faire-a-arras-2026",
+      "etudiant-a-lille-2026",
+      "etudiant-a-amiens-2026",
+    ],
+    tags: ["étudiant Arras 2026", "étudier à Arras", "logement étudiant Arras", "budget étudiant Arras", "université d'Artois Arras"],
+  },
+  {
+    slug: "etudiant-a-belfort-2026",
+    title: "Étudiant à Belfort en 2026 : UTBM, logement, budget, le guide",
+    metaTitle: "Étudiant à Belfort 2026 : UTBM, logement, budget",
+    metaDesc: "Étudier à Belfort en 2026 : studio à 380 € sur notre estimation, UTBM et ses sites de Belfort et Sevenans. Le guide chiffré, avec Besançon et Mulhouse.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Belfort est une ville d'ingénieurs : l'UTBM, université de technologie de Belfort-Montbéliard, annonce plus de 2 800 étudiants en 2026, répartis entre Belfort, Sevenans et Montbéliard. Le studio y est estimé à 380 € et le deux-pièces à 520 €, soit 110 € de moins qu'à Besançon pour un studio (source : notre estimation des loyers). Les 15-29 ans représentent 24,4 % des habitants (source : Insee, recensement 2022), mais la ville a perdu des habitants : 48 973 en 2016, 45 646 en 2022. Un taux de pauvreté de 29 % (source : Insee, Filosofi 2021) rappelle que le coût de la vie bas a une contrepartie.",
+    sections: [
+      {
+        heading: "Quelles études à Belfort ?",
+        body: "L'UTBM forme des ingénieurs sur trois sites : Belfort, Sevenans et Montbéliard. Le tronc commun et la mécanique sont proposés à Sevenans, commune voisine accessible depuis Belfort. Selon la presse locale, environ 300 étudiants y ont fait leur rentrée en 2025. Les effectifs totaux (2 800 à 3 000 selon les sources) concernent les trois sites, pas Belfort seule. Pour des études non techniques, l'offre locale est plus mince : Besançon est la grande ville universitaire de la région.",
+      },
+      {
+        heading: "Quel est le loyer étudiant à Belfort ?",
+        body: "Un studio est estimé à 380 € et un deux-pièces à 520 € par mois (source : notre estimation des loyers). C'est 110 € de moins qu'à Besançon (490 €) et 40 € de moins qu'à Mulhouse (420 €). L'essentiel est de choisir entre Belfort et Sevenans selon le site de cours : Belfort offre plus de choix de logements, Sevenans est excentré. Visale remplace le garant ; le DPE doit être lu avant de signer.",
+      },
+      {
+        heading: "Budget mensuel : 740 euros environ",
+        body: "Studio : 380 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, à relever si vous suivez des cours à Sevenans. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 740 € par mois avant aides, contre 850 € à Besançon avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr). Les écoles d'ingénieurs publiques ont leurs propres droits : vérifiez le montant exact sur le site de l'UTBM.",
+      },
+      {
+        heading: "Belfort, Besançon ou Mulhouse ?",
+        body: "Besançon compte 28,9 % de 15-29 ans et un score vie étudiante de 7,0/10 ; Mulhouse, 20,8 % et 6,7/10 ; Belfort, 24,4 % et 6,3/10, à égalité avec vingt autres villes (source : notre fiche profils). Belfort gagne sur le loyer, avec le studio le moins cher des trois. Besançon gagne sur la vie étudiante. Choisir Belfort se justifie par la formation d'ingénieur, pas par le cadre.",
+      },
+      {
+        heading: "Quelle vie étudiante à Belfort ?",
+        body: "Notre score culture est de 5,7/10 et le transport de 6,2/10 (source : notre fiche ville) : la vie étudiante est calme, centrée sur les associations de l'école et le centre-ville. Le revenu médian de 18 850 € par an (source : Insee, Filosofi 2021) est parmi les plus bas du lot, et le prix de l'achat, 1 550 € le m², n'intéresse qu'un étudiant qui reste après le diplôme.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Le bassin belfortain est industriel (énergie, mécanique, transport) et l'UTBM s'appuie sur l'alternance et les stages en entreprise. Verdict : Belfort convient à un futur ingénieur qui veut un studio à 380 € et un réseau industriel à portée. Elle convient moins à un étudiant de sciences humaines ou de santé : l'offre est ailleurs, à Besançon ou Mulhouse.",
+      },
+    ],
+    relatedCities: ["belfort", "besancon", "mulhouse", "montbeliard"],
+    relatedGuides: [
+      "famille-a-belfort-2026",
+      "10-choses-a-faire-a-belfort-2026",
+      "etudiant-a-besancon-2026",
+      "etudiant-a-mulhouse-2026",
+    ],
+    tags: ["étudiant Belfort 2026", "étudier à Belfort", "logement étudiant Belfort", "budget étudiant Belfort", "UTBM Belfort Sevenans"],
+  },
+  {
+    slug: "etudiant-a-saint-quentin-2026",
+    title: "Étudiant à Saint-Quentin en 2026 : IUT de l'Aisne, budget",
+    metaTitle: "Étudiant à Saint-Quentin 2026 : IUT, logement, budget",
+    metaDesc: "Étudier à Saint-Quentin en 2026 : studio à 350 € sur notre estimation, IUT de l'Aisne et INSSET (UPJV). Le guide chiffré, avec Amiens et Compiègne.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Saint-Quentin a le studio le moins cher de ce lot : 350 €, avec un deux-pièces à 480 € (source : notre estimation des loyers), contre 530 € pour un studio à Compiègne. Notre score vie étudiante est de 7,3/10, au 12e rang sur 593 à égalité avec trois autres villes (source : notre fiche profils), mais ce score est dopé par le coût et le transport : seuls 20,3 % des 52 995 habitants ont entre 15 et 29 ans (source : Insee, recensement 2022). La ville perd des habitants depuis 2016 (54 373). Le chiffre est bon, le campus reste petit.",
+    sections: [
+      {
+        heading: "Quelles études à Saint-Quentin ?",
+        body: "Le campus de Saint-Quentin, rue d'Ostende, regroupe des formations tournées vers l'industrie, l'environnement, la robotique et le numérique. Il accueille l'IUT de l'Aisne, composante de l'Université de Picardie Jules Verne (UPJV) créée en 1998, et l'école d'ingénieurs INSSET. L'IUT de l'Aisne annonce environ 1 000 étudiants, mais sur trois sites (Saint-Quentin, Laon, Soissons-Cuffies) : ce chiffre n'est pas celui de Saint-Quentin seule. Pour une licence générale, Amiens est le pôle de l'UPJV.",
+      },
+      {
+        heading: "Quel loyer étudiant à Saint-Quentin ?",
+        body: "Le studio est estimé à 350 € par mois et le deux-pièces à 480 € (source : notre estimation des loyers). C'est 140 € de moins qu'à Amiens (490 €) et 180 € de moins qu'à Compiègne (530 €). Il faut tout de même lire le DPE, et Visale remplace le garant.",
+      },
+      {
+        heading: "Budget mensuel : 710 euros environ",
+        body: "Studio : 350 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 710 € par mois avant aides, contre 850 € à Amiens avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Saint-Quentin, Amiens ou Compiègne ?",
+        body: "Amiens a 29,0 % de 15-29 ans et un score de 6,5/10 ; Compiègne, 23,9 % et 7,1/10, avec l'UTC ; Saint-Quentin, 20,3 % et 7,3/10. Saint-Quentin gagne sur le loyer et sur nos scores transport (7,7/10) et culture (7,5/10) (source : notre fiche ville), mais perd sur le nombre d'étudiants autour de vous. Pour un cursus à Amiens, on se loge plutôt à Amiens.",
+      },
+      {
+        heading: "Quelle vie étudiante à Saint-Quentin ?",
+        body: "La vie étudiante tient aux promotions de l'IUT et de l'école d'ingénieurs plus qu'à une scène locale. Le revenu médian est de 18 400 € par an et le taux de pauvreté de 29 % (source : Insee, Filosofi 2021) : la ville est populaire, avec des prix bas partout, mais peu de jobs bien payés. Les week-ends se passent souvent ailleurs, vers Amiens ou Reims.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les jobs se trouvent dans le commerce et la restauration, et les stages dans l'industrie du bassin et les entreprises de l'Aisne. Verdict : Saint-Quentin convient à un étudiant d'IUT ou d'école d'ingénieurs qui veut un budget de 710 € par mois. Elle convient moins à qui cherche une vraie vie étudiante ou une licence générale : Amiens est plus adaptée.",
+      },
+    ],
+    relatedCities: ["saint-quentin", "amiens", "compiegne", "reims"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-quentin-2026",
+      "etudiant-a-amiens-2026",
+      "etudiant-a-compiegne-2026",
+    ],
+    tags: ["étudiant Saint-Quentin 2026", "étudier à Saint-Quentin", "logement étudiant Saint-Quentin", "budget étudiant Saint-Quentin", "IUT de l'Aisne INSSET"],
+  },
+  {
+    slug: "etudiant-a-dunkerque-2026",
+    title: "Étudiant à Dunkerque en 2026 : ULCO, logement, budget, le guide",
+    metaTitle: "Étudiant à Dunkerque 2026 : ULCO, logement, budget",
+    metaDesc: "Étudier à Dunkerque en 2026 : studio à 400 € sur notre estimation, université du Littoral Côte d'Opale et IUT. Le guide chiffré, avec Lille et Calais.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Dunkerque loge ses étudiants à 400 € le studio et 560 € le deux-pièces, contre 580 € et 800 € à Lille (source : notre estimation des loyers). Avec 87 013 habitants, c'est la plus grande ville de ce lot, mais seulement 18,0 % ont entre 15 et 29 ans (source : Insee, recensement 2022), le niveau le plus bas du lot. Notre score vie étudiante est de 6,0/10, dans un palier de vingt-quatre villes (source : notre fiche profils). On vient à Dunkerque pour l'université du Littoral, pas pour son ambiance étudiante.",
+    sections: [
+      {
+        heading: "Quelles études à Dunkerque ?",
+        body: "Dunkerque est l'un des quatre campus de l'université du Littoral Côte d'Opale (ULCO), qui annonce environ 10 600 étudiants dans sa brochure 2026, dont environ 1 600 étudiants internationaux. Une source parle de plus de 5 000 étudiants sur le campus dunkerquois, ce chiffre dépendant des années. L'IUT de Dunkerque a lancé en 2025 un nouveau parcours de BUT 2 Management de la logistique et des transports, un secteur lié au port. Lille reste l'option pour un choix plus large de filières.",
+      },
+      {
+        heading: "Quel loyer étudiant à Dunkerque ?",
+        body: "Un studio est estimé à 400 € et un deux-pièces à 560 € par mois (source : notre estimation des loyers). C'est 180 € de moins qu'à Lille pour un studio, et 60 € de plus qu'à Calais (340 €). Dunkerque reste bien moins chère que la métropole. Visale remplace le garant, et le DPE est à lire : les logements G sont interdits à la nouvelle location.",
+      },
+      {
+        heading: "Budget mensuel : 760 euros environ",
+        body: "Studio : 400 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, à vérifier auprès du réseau de bus local avant de compter. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 760 € par mois avant aides, contre 940 € à Lille avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Dunkerque, Lille ou Calais ?",
+        body: "Lille a 36,8 % de 15-29 ans et un score vie étudiante de 7,5/10 ; Calais, 20,6 % et 5,7/10 ; Dunkerque, 18,0 % et 6,0/10. Dunkerque devance Calais sur nos scores et sur la taille de l'offre ULCO, mais reste très en dessous de Lille.",
+      },
+      {
+        heading: "Quelle vie étudiante à Dunkerque ?",
+        body: "Notre score culture est de 5,9/10 et le transport de 6,1/10 (source : notre fiche ville) : une vie étudiante discrète, avec la mer, la plage et les fêtes locales. Le revenu médian est de 20 240 € par an et le taux de pauvreté de 22 % (source : Insee, Filosofi 2021) : un territoire industriel, avec un coût de la vie raisonnable. La population baisse légèrement : 88 108 en 2016, 87 013 en 2022.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Le port, la logistique, l'industrie et l'énergie fournissent stages et alternances, et le commerce des jobs d'appoint. Verdict : Dunkerque convient à un étudiant de logistique, d'industrie ou de sciences qui veut un studio à 400 € près de la mer. Elle convient moins à qui cherche une grande vie étudiante : Lille est la réponse, avec des loyers plus élevés de 180 €.",
+      },
+    ],
+    relatedCities: ["dunkerque", "lille", "calais", "lens"],
+    relatedGuides: [
+      "10-choses-a-faire-a-dunkerque-2026",
+      "parent-solo-a-dunkerque-2026",
+      "etudiant-a-lille-2026",
+    ],
+    tags: ["étudiant Dunkerque 2026", "étudier à Dunkerque", "logement étudiant Dunkerque", "budget étudiant Dunkerque", "ULCO IUT Dunkerque"],
+  },
+  {
+    slug: "etudiant-a-valence-2026",
+    title: "Étudiant à Valence en 2026 : campus Briffaut, IUT, budget",
+    metaTitle: "Étudiant à Valence 2026 : campus Briffaut, IUT, budget",
+    metaDesc: "Étudier à Valence en 2026 : studio à 490 € sur notre estimation, campus UGA Briffaut, IUT et ESISAR. Le guide chiffré, avec Grenoble et Avignon.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Valence est une ville d'IUT et d'école d'ingénieurs : le studio coûte 490 € et le deux-pièces 680 €, soit 70 € de moins qu'à Grenoble pour un studio (source : notre estimation des loyers). Notre score vie étudiante est de 6,8/10, au 50e rang sur 593 à égalité avec treize autres villes (source : notre fiche profils). Les 15-29 ans représentent 21,4 % des 64 288 habitants, un nombre en hausse depuis 2016 (62 477) selon l'Insee, recensement 2022. Valence est la plus chère de ce lot, ce qui reste raisonnable face à Grenoble.",
+    sections: [
+      {
+        heading: "Quelles études à Valence ?",
+        body: "Les études supérieures se concentrent sur deux sites de l'Université Grenoble Alpes (UGA) : le campus Briffaut, qui rassemble le Département sciences Drôme-Ardèche (DSDA), une antenne de Grenoble IAE, l'IUT de Valence et l'école d'ingénieurs ESISAR, et le site de Latour-Maubourg, siège de la Maison de l'étudiant. Une offre d'emploi 2026 donne 1 150 étudiants à l'IUT de Valence. Une extension de plus de 1 200 m² du bâtiment DSDA a été inaugurée sur le site de Briffaut, présenté par l'UGA avec environ 1 000 étudiants. Ces chiffres sont à vérifier sur le site de l'UGA.",
+      },
+      {
+        heading: "Quel loyer étudiant à Valence ?",
+        body: "Un studio est estimé à 490 € et un deux-pièces à 680 € par mois (source : notre estimation des loyers). C'est 70 € de moins qu'à Grenoble (560 €) et 50 € de moins qu'à Avignon (540 €). Des résidences étudiantes sont situées sur le campus Briffaut, près de l'IUT, ce qui limite le besoin de transport. Visale remplace le garant ; lisez le DPE avant de signer.",
+      },
+      {
+        heading: "Budget mensuel : 850 euros environ",
+        body: "Studio : 490 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, car beaucoup de résidences sont près du campus. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 850 € par mois avant aides, contre 920 € à Grenoble avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Valence, Grenoble ou Avignon ?",
+        body: "Grenoble a 31,3 % de 15-29 ans et un score vie étudiante de 7,3/10 ; Avignon, 20,3 % et 6,6/10 ; Valence, 21,4 % et 6,8/10. Valence est moins chère que Grenoble de 70 € sur le studio. Son score transport de 7,4/10 est bon (source : notre fiche ville). Pour une licence générale ou une grande école, Grenoble garde l'avantage ; pour un BUT ou une école d'ingénieurs en réseaux, Valence suffit.",
+      },
+      {
+        heading: "Quelle vie étudiante à Valence ?",
+        body: "La vie étudiante est plus modeste qu'à Grenoble : nos scores culture et transport sont de 6,6 et 7,4/10 (source : notre fiche ville). Le Rhône, la vallée et la proximité des Alpes et de l'Ardèche aident le cadre. Le taux de pauvreté de 22 % et le revenu médian de 20 610 € par an (source : Insee, Filosofi 2021) montrent une ville moyenne, avec un prix du m² à l'achat de 2 400 €.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les jobs se trouvent dans le commerce, la restauration et la logistique de la vallée du Rhône, et les stages dans l'électronique et les réseaux pour l'ESISAR. Verdict : Valence convient à un étudiant d'IUT ou d'école d'ingénieurs qui veut une vraie ville à 850 € par mois. Elle convient moins à qui vise une grande université pluridisciplinaire : Grenoble est la réponse, avec un studio plus cher de 70 €.",
+      },
+    ],
+    relatedCities: ["valence", "grenoble", "avignon", "chambery"],
+    relatedGuides: [
+      "famille-a-valence-2026",
+      "10-choses-a-faire-a-valence-2026",
+      "etudiant-a-grenoble-2026",
+    ],
+    tags: ["étudiant Valence 2026", "étudier à Valence", "logement étudiant Valence", "budget étudiant Valence", "campus Briffaut IUT Valence ESISAR"],
+  },
+  {
     slug: "famille-a-lyon-2026",
     title: "En famille à Lyon en 2026 : quartiers, écoles, budget, le guide",
     metaTitle: "Famille à Lyon 2026 — Quartiers, écoles, budget : le guide",
