@@ -1208,3 +1208,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Sous-page `risques` / EN `natural-risks` (même schéma, dernière du quartet environnement).
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Sous-page `louer-ou-acheter`.
+
+## 2026-10-31 ~11:00 UTC — sous-page risques `/villes/[slug]/risques` (FR) + EN `/cities/[slug]/natural-risks`
+
+**Surface** : le gabarit risques naturels (593 villes × 2 locales), dernière du quartet environnement. Avant : un seul bloc sur fond de page, composite à filet gauche dérivé par `replace()`, méthodologie et renvois en `Card` grises.
+
+**Changé** (même schéma que eau/bruit/air) : hero `.bg-aurora`, emoji ⚠️ en tuile `grad-head-0` (FR), nom de ville en `.gradient-text` (EN) ; composite + quatre dimensions en `band-indigo` ; méthodologie / « Why this matters when you buy » en `band-sky` (h2 dégradé) ; renvois en tuiles lavande, deux palmarès en pilules, DiscussionCTA / FeedbackWidget en `band-white`. Import `Card` retiré. `RISK_LEVEL_BG` et `hazardColor` conservés. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 problème FR ; EN : 2 erreurs `no-unescaped-entities` préexistantes (copie). Captures playwright `/villes/nice/risques` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (404 sous `next dev`, routage EN dans le Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+2. Sous-page `louer-ou-acheter`.
+3. Hubs `/environnement` / `/risques` (palmarès nationaux liés depuis le quartet).

@@ -77,7 +77,8 @@ export default async function EnCityRisks({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
+      <section className="relative overflow-hidden bg-aurora">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-10">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -90,7 +91,7 @@ export default async function EnCityRisks({ params }: Props) {
         <div className="flex items-center gap-3 mb-3">
           <span className="text-5xl" aria-hidden>🌊</span>
           <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight">
-            Natural risks in {c.name}
+            Natural risks in <span className="gradient-text">{c.name}</span>
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
@@ -107,14 +108,16 @@ export default async function EnCityRisks({ params }: Props) {
           is set commune by commune, and flooding is a proxy from river and
           elevation. Not a plot-level assessment — check Géorisques for that.
         </p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 grid sm:grid-cols-2 gap-3">
         {DIMS.map((d) => {
           const dim = risks[d.key];
           const dimScore = Math.round(dim.score * 10) / 10;
           return (
-            <div key={d.key} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
+            <div key={d.key} className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-baseline justify-between">
                 <p className="font-semibold text-[var(--text-primary)]">{d.label}</p>
                 <span className={`font-mono-data font-bold ${hazardColor(dimScore)}`}>{dimScore.toFixed(1)}</span>
@@ -125,10 +128,12 @@ export default async function EnCityRisks({ params }: Props) {
             </div>
           );
         })}
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">Why this matters when you buy</h2>
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold mb-3"><span className="gradient-text">Why this matters when you buy</span></h2>
         <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
           When you buy or rent in France, the seller or landlord must give you an <em>état des risques</em> — a property-specific natural-risk statement. It's not optional paperwork:
         </p>
@@ -138,14 +143,17 @@ export default async function EnCityRisks({ params }: Props) {
           <li>· City-level scores are a first filter; the property's exact location can be very different from the city average.</li>
         </ul>
         <div className="mt-2 flex flex-wrap gap-3">
-          <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {c.name}</Link>
-          <Link href={`/cities/${slug}/climate`} className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">{c.name} climate</Link>
-          <Link href="/natural-risks" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">📊 National natural-risks ranking</Link>
+          <Link href={`/cities/${slug}`} className="grad-head-0 rounded-full px-5 py-2.5 font-semibold hover:opacity-90">Back to {c.name}</Link>
+          <Link href={`/cities/${slug}/climate`} className="rounded-full bg-white px-5 py-2.5 font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">{c.name} climate</Link>
+          <Link href="/natural-risks" className="rounded-full bg-white px-5 py-2.5 font-semibold text-[#3730A3] shadow-sm transition-colors hover:bg-[var(--band-indigo)]">📊 National natural-risks ranking</Link>
+        </div>
         </div>
       </section>
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-        <FeedbackWidget />
-      </div>
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
       <Footer />
     </main>
   );
