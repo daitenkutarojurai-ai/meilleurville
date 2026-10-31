@@ -68856,6 +68856,342 @@ export const GUIDES: Guide[] = [
     ]
   },
   {
+    slug: "vacances-monoparentales-les-sables-d-olonne-2026",
+    title: "Vacances monoparentales aux Sables-d'Olonne en 2026",
+    metaTitle: "Vacances monoparentales aux Sables-d'Olonne 2026",
+    metaDesc: "Les Sables-d'Olonne : 7,1/10 au composite monoparental, T3 1 050 €, sécurité 8,0/10. Accès en train, coût, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Les Sables-d'Olonne sort à 7,1/10 au composite « famille monoparentale », sixième des soixante-cinq destinations à égalité avec deux autres (source : notre indice de séjour). Le détail : sécurité 8,0/10, transports 6,2/10, coût de la vie 5,4/10 et qualité de vie 7,8/10 (source : notre fiche ville). Le marché : 1 050 € le T3 de référence et 3 500 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 48 740 habitants au recensement 2022, contre 41 478 en 2011, soit une hausse de 17,5 % (source : Insee, recensements). Le moteur la classe en €€€. C'est la seule destination de ce lot qui entre dans le haut du classement du profil, portée par la sécurité et la qualité de vie plus que par les transports.",
+    sections: [
+      {
+        heading: "Rejoindre la ville en train, sans voiture",
+        body: "Selon les comparateurs consultés en ligne avant écriture, des TGV directs relient Paris-Montparnasse aux Sables-d'Olonne en environ trois heures vingt à trois heures quarante-cinq selon le train ; certaines circulations passent par Nantes ou par un TER et allongent le trajet à quatre ou cinq heures. Pour un adulte seul avec des enfants, le direct est la condition à chercher : à vérifier sur SNCF Connect à la date voulue, car les horaires d'été diffèrent. La distance à pied entre la gare et la plage n'a pas pu être vérifiée dans les sources consultées : à mesurer sur une carte avant de choisir un hébergement. L'axe transports est à 6,2/10, sous la médiane de série (7,0), cinquante et unième des soixante-cinq destinations à égalité avec une autre."
+      },
+      {
+        heading: "Le coût : où la ville se place dans la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Les Sables-d'Olonne sort à 5,4/10 (source : notre fiche ville), quarante-neuvième des soixante-cinq destinations à égalité avec une autre, pour une médiane de série à 6,2. Le marché : 1 050 € le T3 de référence et 3 500 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur. Le T3 de référence y est plus cher que dans les autres villes du lot, et l'axe coût de la vie est sous la médiane de série, dans le dernier quart du classement : l'arbitrage se joue sur la saison, pas sur le lieu."
+      },
+      {
+        heading: "Remblai, La Chaume et plage : une station qui se fait à pied",
+        body: "Les Sables-d'Olonne sont une station balnéaire dont le front de mer, le Remblai, longe une grande plage urbaine : c'est le cœur d'un séjour sans voiture, avec des commerces et des restaurants à proximité immédiate de la plage, ce qui limite les trajets avec des enfants fatigués. Le quartier de La Chaume, de l'autre côté du chenal, se rejoint à pied ou par le passage d'eau, dont le fonctionnement et les horaires se vérifient sur place. La ville est aussi connue comme port de départ du Vendée Globe, ce qui donne une sortie de port à regarder avec des enfants curieux de bateaux. Le musée d'art moderne de l'abbaye Sainte-Croix est la sortie de repli par mauvais temps ; horaires et tarifs se vérifient auprès de l'établissement. La forêt d'Olonne, au nord de la ville, offre des promenades ombragées accessibles depuis la commune, mais l'accès sans voiture se vérifie avant de partir."
+      },
+      {
+        heading: "13 espaces verts relevés, dont 6 avec aire de jeux",
+        body: "Le relevé cartographique retient 13 espaces verts sur la commune, dont 6 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        heading: "Sécurité 8,0/10, qualité de vie 7,8/10",
+        body: "Les Sables-d'Olonne affiche 8,0/10 sur l'axe sécurité (source : notre fiche ville), troisième des soixante-cinq destinations à égalité avec deux autres, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 7,8/10, sixième des soixante-cinq destinations à égalité avec cinq autres. Le risque propre à la ville est la mer : la baignade se fait sur les plages surveillées, drapeaux de baignade à l'appui, et les horaires de marée se consultent le matin même, car la plage change selon le coefficient. Avec de jeunes enfants et un seul adulte, la règle simple est de ne jamais laisser un enfant seul au bord de l'eau, même peu profond."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Nantes (Nantes-Bouguenais), à 74 kilomètres (source : normales Météo-France 1991-2020). Elle donne 6,4 °C de moyenne en janvier et 19,7 °C en juillet. Les ancres propres à la commune viennent du seed : 8,0 °C en janvier, 21,0 °C en juillet et 2 250 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis septembre, puis juillet. C'est la destination la plus saisonnière du lot : l'indicateur passe au niveau 4 en juillet et en août, et la plage comme les hébergements se remplissent alors. Juin et septembre restent des mois plus calmes pour un parent solo qui veut éviter le pic et la cherté de la haute saison."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de la Vendée est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: [
+      "les-sables-d-olonne",
+      "la-roche-sur-yon",
+      "nantes"
+    ],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "vacances-monoparentales-la-roche-sur-yon-2026",
+      "vacances-monoparentales-nantes-2026"
+    ],
+    tags: [
+      "vacances monoparentales Les Sables-d'Olonne",
+      "parent solo Vendée",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-troyes-2026",
+    title: "Vacances monoparentales à Troyes en 2026",
+    metaTitle: "Vacances monoparentales à Troyes 2026",
+    metaDesc: "Troyes : 6,3/10 au composite monoparental, T3 860 €, sécurité 5,4/10. Accès en train, coût, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Troyes sort à 6,3/10 au composite « famille monoparentale », trente-septième des soixante-cinq destinations à égalité avec six autres (source : notre indice de séjour). Le détail : sécurité 5,4/10, transports 6,7/10, coût de la vie 7,1/10 et qualité de vie 5,9/10 (source : notre fiche ville). Le marché : 860 € le T3 de référence et 2 000 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 62 443 habitants au recensement 2022, contre 60 013 en 2011, soit une hausse de 4,0 % (source : Insee, recensements). Le moteur la classe en €€. Le coût de la vie y est le deuxième meilleur du lot, derrière Sens, et le T3 de référence y est le deuxième plus bas.",
+    sections: [
+      {
+        heading: "Rejoindre la ville en train, sans voiture",
+        body: "Selon les comparateurs consultés en ligne avant écriture, le trajet direct entre Paris-Est et Troyes dure environ une heure et demie (de 1 h 29 à 1 h 45 selon les trains), en TER ; les sources divergent sur le nombre de circulations quotidiennes, entre sept et quinze, à vérifier sur SNCF Connect à la date voulue. Un TER direct d'une heure et demie est le format le plus simple pour un adulte seul avec des enfants : pas de correspondance, pas de transfert de bagages. La distance à pied entre la gare et le centre historique n'a pas pu être vérifiée dans les sources consultées : à mesurer sur une carte avant de choisir un hébergement. L'axe transports est à 6,7/10, sous la médiane de série (7,0), trente-cinquième des soixante-cinq destinations à égalité avec deux autres."
+      },
+      {
+        heading: "Le coût : où la ville se place dans la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Troyes sort à 7,1/10 (source : notre fiche ville), treizième des soixante-cinq destinations à égalité avec une autre, pour une médiane de série à 6,2. Le marché : 860 € le T3 de référence et 2 000 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. Le moteur la classe en €€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur. C'est l'un des meilleurs rangs de coût de la série et le T3 y est le deuxième plus bas du lot : pour un budget de parent solo, c'est le principal argument de Troyes."
+      },
+      {
+        heading: "Maisons à pans de bois, ruelle des Chats et cathédrale",
+        body: "Le centre historique de Troyes, dont le plan évoque un bouchon de champagne, se parcourt à pied, ce qui évite la voiture. Il est connu pour ses maisons à pans de bois et pour la ruelle des Chats, une venelle très étroite où deux maisons se touchent presque par le haut : c'est une anecdote à raconter aux enfants plutôt qu'une visite longue. La cathédrale Saint-Pierre-et-Saint-Paul est la visite de repli par mauvais temps, à calibrer sur l'âge des enfants ; horaires et accès se vérifient auprès de l'édifice. Les lacs de la forêt d'Orient, à l'est de la ville, sont un lieu de baignade et de promenade en été, mais leur desserte sans voiture n'a pas été vérifiée : à regarder avant de compter dessus. Les magasins d'usine de l'agglomération sont une sortie de pluie, sans lien avec le patrimoine."
+      },
+      {
+        heading: "28 espaces verts relevés, dont 10 avec aire de jeux",
+        body: "Le relevé cartographique retient 28 espaces verts sur la commune, dont 10 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        heading: "Sécurité 5,4/10, qualité de vie 5,9/10",
+        body: "Troyes affiche 5,4/10 sur l'axe sécurité (source : notre fiche ville), quarante-cinquième des soixante-cinq destinations, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 5,9/10, quarante-sixième des soixante-cinq destinations à égalité avec onze autres. Troyes a la note de sécurité la plus basse du lot, sans que l'indicateur désigne un quartier : en pratique, un parent solo y applique les réflexes de toute ville moyenne, hébergement près de la gare ou du centre éclairé, retour avant la nuit avec de jeunes enfants."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Reims (Chambrecy-CIVC), à 100 kilomètres (source : normales Météo-France 1991-2020). Elle donne 3,4 °C de moyenne en janvier et 18,7 °C en juillet. Les ancres propres à la commune viennent du seed : 3,2 °C en janvier, 21,5 °C en juillet et 1 680 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juillet en tête, puis août, puis juin. L'indicateur d'affluence ne dépasse le niveau 3 qu'en été : c'est une ville calme presque toute l'année, donc un week-end hors saison y est aussi simple qu'en juillet, avec moins de monde dans les ruelles étroites."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de l'Aube est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: [
+      "troyes",
+      "reims",
+      "dreux"
+    ],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "vacances-monoparentales-reims-2026"
+    ],
+    tags: [
+      "vacances monoparentales Troyes",
+      "parent solo Aube",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-chartres-2026",
+    title: "Vacances monoparentales à Chartres en 2026",
+    metaTitle: "Vacances monoparentales à Chartres 2026",
+    metaDesc: "Chartres : 6,0/10 au composite monoparental, T3 890 €, sécurité 5,5/10. Accès en train, coût, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Chartres sort à 6,0/10 au composite « famille monoparentale », cinquante-quatrième des soixante-cinq destinations à égalité avec trois autres (source : notre indice de séjour). Le détail : sécurité 5,5/10, transports 6,4/10, coût de la vie 6,2/10 et qualité de vie 6,1/10 (source : notre fiche ville). Le marché : 890 € le T3 de référence et 2 500 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 37 990 habitants au recensement 2022, contre 39 273 en 2011, soit une baisse de 3,3 % (source : Insee, recensements). Le moteur la classe en €€€. C'est la destination de week-end du lot : proche de Paris en temps de trajet, comme Sens, et celle où la visite principale tient en une demi-journée.",
+    sections: [
+      {
+        heading: "Rejoindre la ville en train, sans voiture",
+        body: "Selon les comparateurs consultés en ligne avant écriture, des TER directs relient Paris-Montparnasse à Chartres en environ une heure à une heure vingt, avec une fréquence proche d'un train par heure ; la durée exacte et les horaires se vérifient sur SNCF Connect à la date voulue. Pour un adulte seul avec des enfants, un trajet d'une heure sans correspondance permet l'aller-retour dans la journée si les enfants ne tiennent pas un séjour. La distance à pied entre la gare et la cathédrale n'a pas pu être vérifiée dans les sources consultées : à mesurer sur une carte avant de choisir un hébergement. L'axe transports est à 6,4/10, sous la médiane de série (7,0), trente-huitième des soixante-cinq destinations à égalité avec douze autres."
+      },
+      {
+        heading: "Le coût : où la ville se place dans la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Chartres sort à 6,2/10 (source : notre fiche ville), trente et unième des soixante-cinq destinations à égalité avec huit autres, pour une médiane de série à 6,2. Le marché : 890 € le T3 de référence et 2 500 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur. Le coût de la vie est dans la médiane de la série : Chartres n'est ni l'option économique du lot ni la plus chère, et le gain se fait surtout en évitant le coût d'une nuit d'hôtel avec l'aller-retour dans la journée."
+      },
+      {
+        heading: "La cathédrale, les vitraux et la ville basse",
+        body: "La cathédrale Notre-Dame de Chartres, connue pour ses vitraux du XIIIᵉ siècle et son labyrinthe, domine la ville : c'est la visite centrale, à calibrer sur l'âge des enfants, courte et sans surenchère, plutôt qu'une visite complète. Le Centre international du vitrail est une sortie complémentaire pour qui veut prolonger le thème. La ville basse, le long de l'Eure, se parcourt à pied avec des rues en pente et des pavés à anticiper si l'on pousse une poussette. La Maison Picassiette, décor de mosaïques bâti par un habitant de la ville, est une sortie atypique à voir avec des enfants ; son ouverture se vérifie avant de partir. Des illuminations nocturnes de monuments sont proposées à certaines périodes de l'année : leurs dates et leur horaire de fin se vérifient, car ils s'accordent mal avec le coucher d'enfants jeunes."
+      },
+      {
+        heading: "16 espaces verts relevés, dont 4 avec aire de jeux",
+        body: "Le relevé cartographique retient 16 espaces verts sur la commune, dont 4 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        heading: "Sécurité 5,5/10, qualité de vie 6,1/10",
+        body: "Chartres affiche 5,5/10 sur l'axe sécurité (source : notre fiche ville), quarantième des soixante-cinq destinations à égalité avec quatre autres, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 6,1/10, quarante-cinquième des soixante-cinq destinations. Le principal point d'attention est pratique : la ville haute et la ville basse sont reliées par des rues pentues et pavées, et la fatigue d'un enfant porté par un seul adulte arrive vite. Prévoir une poussette adaptée ou un porte-bébé, et ne pas empiler les visites."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Paris (Paris-Montsouris), à 75 kilomètres (source : normales Météo-France 1991-2020). Elle donne 5,4 °C de moyenne en janvier et 20,9 °C en juillet. Les ancres propres à la commune viennent du seed : 3,5 °C en janvier, 20,5 °C en juillet et 1 760 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis juillet, puis août. L'indicateur d'affluence reste au niveau 1 ou 2 presque toute l'année, avec un pic modéré en juillet et en août : une visite en semaine hors vacances scolaires évite les groupes."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse d'Eure-et-Loir est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: [
+      "chartres",
+      "dreux",
+      "orleans"
+    ],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "vacances-monoparentales-dreux-2026"
+    ],
+    tags: [
+      "vacances monoparentales Chartres",
+      "parent solo Eure-et-Loir",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-saint-nazaire-2026",
+    title: "Vacances monoparentales à Saint-Nazaire en 2026",
+    metaTitle: "Vacances monoparentales à Saint-Nazaire 2026",
+    metaDesc: "Saint-Nazaire : 6,0/10 au composite monoparental, T3 850 €, sécurité 5,5/10. Accès en train, coût, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Saint-Nazaire sort à 6,0/10 au composite « famille monoparentale », cinquante-quatrième des soixante-cinq destinations à égalité avec trois autres (source : notre indice de séjour). Le détail : sécurité 5,5/10, transports 6,2/10, coût de la vie 6,3/10 et qualité de vie 5,9/10 (source : notre fiche ville). Le marché : 850 € le T3 de référence et 2 200 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 73 111 habitants au recensement 2022, contre 67 097 en 2011, soit une hausse de 9,0 % (source : Insee, recensements). Le moteur la classe en €€€. C'est une ville portuaire avant d'être une station : l'intérêt est le patrimoine maritime, avec la plage comme complément.",
+    sections: [
+      {
+        heading: "Rejoindre la ville en train, sans voiture",
+        body: "Selon les comparateurs consultés en ligne avant écriture, des TGV directs relient Paris-Montparnasse à Saint-Nazaire en environ deux heures quarante à trois heures (2 h 49 pour un direct, 2 h 56 en moyenne selon un comparateur) ; certaines circulations passent par un TER vers Penhoët ou La Croix-de-Méan et allongent le trajet d'une heure ou plus. Un TGV direct est la condition à chercher pour un adulte seul avec des enfants. La distance à pied entre la gare et le site de la base sous-marine n'a pas pu être vérifiée dans les sources consultées : à mesurer sur une carte. L'axe transports est à 6,2/10, sous la médiane de série (7,0), cinquante et unième des soixante-cinq destinations à égalité avec une autre."
+      },
+      {
+        heading: "Le coût : où la ville se place dans la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Saint-Nazaire sort à 6,3/10 (source : notre fiche ville), vingt-huitième des soixante-cinq destinations à égalité avec deux autres, pour une médiane de série à 6,2. Le marché : 850 € le T3 de référence et 2 200 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur. Le coût de la vie est dans la médiane de la série, avec un T3 de référence plus bas que celui des Sables-d'Olonne, l'autre ville de façade atlantique du lot."
+      },
+      {
+        heading: "Escal'Atlantic, base sous-marine et côte d'Amour",
+        body: "Saint-Nazaire est un port de construction de paquebots. Escal'Atlantic, installé dans l'ancienne base sous-marine, est un parcours muséographique sur l'histoire des transatlantiques : c'est la sortie de repli par mauvais temps, dont les horaires et les tarifs se vérifient auprès de l'établissement. La base sous-marine elle-même, vestige de l'occupation, se visite de l'extérieur et se raconte aux enfants avec mesure. La baignade se fait sur les plages de la côte d'Amour, dont Pornichet et La Baule voisines, accessibles depuis Saint-Nazaire par une liaison ferroviaire dont la fréquence et les horaires se vérifient avant de partir."
+      },
+      {
+        heading: "16 espaces verts relevés, dont 5 avec aire de jeux",
+        body: "Le relevé cartographique retient 16 espaces verts sur la commune, dont 5 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        heading: "Sécurité 5,5/10, qualité de vie 5,9/10",
+        body: "Saint-Nazaire affiche 5,5/10 sur l'axe sécurité (source : notre fiche ville), quarantième des soixante-cinq destinations à égalité avec quatre autres, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 5,9/10, quarante-sixième des soixante-cinq destinations à égalité avec onze autres. Le risque propre à la ville est la mer et l'industrie portuaire : la baignade se fait sur les plages surveillées, drapeaux de baignade à l'appui, et les abords du port ne sont pas un terrain de jeu. Les horaires de marée se consultent le matin même."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Nantes (Nantes-Bouguenais), à 48 kilomètres (source : normales Météo-France 1991-2020). Elle donne 6,4 °C de moyenne en janvier et 19,7 °C en juillet. Les ancres propres à la commune viennent du seed : 6,0 °C en janvier, 21,0 °C en juillet et 2 050 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis septembre, puis juillet. L'indicateur d'affluence monte au niveau 4 en juillet et en août, comme sur la façade atlantique voisine : juin et septembre offrent la plage et les musées sans le pic."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de Loire-Atlantique est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: [
+      "saint-nazaire",
+      "nantes",
+      "les-sables-d-olonne"
+    ],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "vacances-monoparentales-nantes-2026"
+    ],
+    tags: [
+      "vacances monoparentales Saint-Nazaire",
+      "parent solo Loire-Atlantique",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-lorient-2026",
+    title: "Vacances monoparentales à Lorient en 2026",
+    metaTitle: "Vacances monoparentales à Lorient 2026",
+    metaDesc: "Lorient : 6,0/10 au composite monoparental, T3 900 €, sécurité 5,5/10. Accès en train, coût, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Lorient sort à 6,0/10 au composite « famille monoparentale », cinquante-quatrième des soixante-cinq destinations à égalité avec trois autres (source : notre indice de séjour). Le détail : sécurité 5,5/10, transports 6,1/10, coût de la vie 6,2/10 et qualité de vie 6,2/10 (source : notre fiche ville). Le marché : 900 € le T3 de référence et 2 800 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 58 202 habitants au recensement 2022, contre 57 408 en 2011, soit une hausse de 1,4 % (source : Insee, recensements). Le moteur la classe en €€€. C'est la porte d'entrée du lot vers la voile et les îles : l'intérêt tient à la Cité de la Voile et à la rade, plus qu'au centre-ville reconstruit.",
+    sections: [
+      {
+        heading: "Rejoindre la ville en train, sans voiture",
+        body: "Selon les comparateurs consultés en ligne avant écriture, des TGV directs relient Paris-Montparnasse à Lorient en environ deux heures cinquante à trois heures trente, avec de l'ordre de six circulations quotidiennes ; les horaires exacts se vérifient sur SNCF Connect à la date voulue. Pour un adulte seul avec des enfants, le direct est la condition à chercher. Le site de la Cité de la Voile Éric Tabarly se situe à Lorient La Base, hors du centre : la desserte depuis la gare n'a pas pu être vérifiée dans les sources consultées, à vérifier avant de choisir un hébergement. L'axe transports est à 6,1/10, sous la médiane de série (7,0), cinquante-troisième des soixante-cinq destinations à égalité avec six autres."
+      },
+      {
+        heading: "Le coût : où la ville se place dans la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Lorient sort à 6,2/10 (source : notre fiche ville), trente et unième des soixante-cinq destinations à égalité avec huit autres, pour une médiane de série à 6,2. Le marché : 900 € le T3 de référence et 2 800 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. Le moteur la classe en €€€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur. Le coût de la vie est dans la médiane de la série : Lorient est une alternative moins chère que les stations balnéaires du lot, avec une plage urbaine moins touristique."
+      },
+      {
+        heading: "Cité de la Voile, sous-marin Flore et rade",
+        body: "La Cité de la Voile Éric Tabarly, à Lorient La Base, est la sortie de référence pour des enfants attirés par les bateaux et la course au large ; horaires et tarifs se vérifient auprès de l'établissement. Le sous-marin Flore, ancien sous-marin de la Marine nationale, se visite sur le même site. Les plages de Larmor-Plage, à l'entrée de la rade, sont à rejoindre par une liaison dont les horaires se vérifient sur place. L'île de Groix est accessible par bateau depuis Lorient : la traversée, ses horaires et le transport sur l'île se vérifient avant de partir, car une journée à l'île suppose un retour calé sur le dernier bateau."
+      },
+      {
+        heading: "22 espaces verts relevés, dont 13 avec aire de jeux",
+        body: "Le relevé cartographique retient 22 espaces verts sur la commune, dont 13 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        heading: "Sécurité 5,5/10, qualité de vie 6,2/10",
+        body: "Lorient affiche 5,5/10 sur l'axe sécurité (source : notre fiche ville), quarantième des soixante-cinq destinations à égalité avec quatre autres, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 6,2/10, trente-septième des soixante-cinq destinations à égalité avec sept autres. La mer et les bateaux sont les risques propres à la ville : les plages surveillées et les drapeaux de baignade font foi, les horaires de marée se consultent le matin même, et le retour du dernier bateau ne se négocie pas avec de jeunes enfants."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Brest (Brest-Guipavas), à 110 kilomètres (source : normales Météo-France 1991-2020). Elle donne 7,1 °C de moyenne en janvier et 17,0 °C en juillet. Les ancres propres à la commune viennent du seed : 6,8 °C en janvier, 19,5 °C en juillet et 1 750 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis juillet, puis septembre. L'indicateur d'affluence monte au niveau 4 en juillet et en août. Le Festival interceltique, qui se tient chaque année en août à Lorient, rend la ville nettement plus fréquentée et les hébergements plus rares ; ses dates se vérifient avant de réserver."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse du Morbihan est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: [
+      "lorient",
+      "vannes",
+      "quimper"
+    ],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "vacances-monoparentales-vannes-2026"
+    ],
+    tags: [
+      "vacances monoparentales Lorient",
+      "parent solo Morbihan",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-sens-2026",
+    title: "Vacances monoparentales à Sens en 2026",
+    metaTitle: "Vacances monoparentales à Sens 2026",
+    metaDesc: "Sens : 6,6/10 au composite monoparental, T3 920 €, sécurité 6,5/10. Accès en train, coût, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Sens sort à 6,6/10 au composite « famille monoparentale », vingt-troisième des soixante-cinq destinations à égalité avec quatre autres (source : notre indice de séjour). Le détail : sécurité 6,5/10, transports 6,4/10, coût de la vie 7,6/10 et qualité de vie 5,9/10 (source : notre fiche ville). Le marché : 920 € le T3 de référence et 1 900 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 27 275 habitants au recensement 2022, contre 25 146 en 2011, soit une hausse de 8,5 % (source : Insee, recensements). Le moteur la classe en €€. C'est l'option la moins chère du lot en coût de la vie et la plus proche de Paris en temps de train, au prix d'un site unique plutôt que d'un séjour.",
+    sections: [
+      {
+        heading: "Rejoindre la ville en train, sans voiture",
+        body: "Selon les comparateurs consultés en ligne avant écriture, le trajet entre Paris et Sens dure environ une heure (de 58 minutes à 1 h 26 selon les trains) ; les trains au départ de Sens arrivent à Paris-Bercy, et non à la gare de Lyon, ce qui change le point de départ à Paris. Les horaires exacts se vérifient sur SNCF Connect à la date voulue. Un trajet d'une heure sans correspondance convient à un week-end avec des enfants. La distance à pied entre la gare et la cathédrale n'a pas pu être vérifiée dans les sources consultées : à mesurer sur une carte. L'axe transports est à 6,4/10, sous la médiane de série (7,0), trente-huitième des soixante-cinq destinations à égalité avec douze autres."
+      },
+      {
+        heading: "Le coût : où la ville se place dans la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Sens sort à 7,6/10 (source : notre fiche ville), quatrième des soixante-cinq destinations à égalité avec quatre autres, pour une médiane de série à 6,2. Le marché : 920 € le T3 de référence et 1 900 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. Le moteur la classe en €€. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et l'offre locale, et se vérifie auprès de l'hébergeur. C'est l'un des meilleurs rangs de coût de la série : le T3 de référence y est proche de la médiane de série, et l'axe coût de la vie est dans le haut du classement. Un week-end à Sens est un des moins chers du lot pour un parent solo."
+      },
+      {
+        heading: "La cathédrale Saint-Étienne et le centre à pied",
+        body: "La cathédrale Saint-Étienne de Sens, de style gothique, est l'une des plus anciennes cathédrales gothiques de France d'après les sources de référence : c'est la visite centrale, à calibrer sur l'âge des enfants. Le Palais synodal et les musées de Sens, accolés à la cathédrale, sont des sorties de repli par mauvais temps ; horaires et tarifs se vérifient auprès des établissements. Le centre se parcourt à pied, avec des rues commerçantes. La rivière Yonne traverse la ville et sert de promenade. Sens est une ville de passage plus qu'une destination à séjour long : deux jours suffisent pour le patrimoine."
+      },
+      {
+        heading: "16 espaces verts relevés, dont 5 avec aire de jeux",
+        body: "Le relevé cartographique retient 16 espaces verts sur la commune, dont 5 portent une aire de jeux (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        heading: "Sécurité 6,5/10, qualité de vie 5,9/10",
+        body: "Sens affiche 6,5/10 sur l'axe sécurité (source : notre fiche ville), dix-septième des soixante-cinq destinations à égalité avec quatre autres, pour une médiane de série à 5,7. Trois précisions de lecture. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée. Il est estimé par notre modèle à partir de la taille de la commune et de données départementales, ce n'est pas un relevé de faits constatés. Et il ne porte aucun jugement sur les habitants. La qualité de vie est à 5,9/10, quarante-sixième des soixante-cinq destinations à égalité avec onze autres. Le point d'attention est celui d'une petite ville : peu d'animation en soirée hors des jours de marché ou d'événements. Un parent solo y gagne en tranquillité, et y perd en choix de sorties du soir, ce qui compte peu avec des enfants couchés tôt."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Paris (Paris-Montsouris), à 98 kilomètres (source : normales Météo-France 1991-2020). Elle donne 5,4 °C de moyenne en janvier et 20,9 °C en juillet. Les ancres propres à la commune viennent du seed : 3,5 °C en janvier, 22,0 °C en juillet et 1 830 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis juillet, puis août. L'indicateur d'affluence reste au niveau 1 ou 2 presque toute l'année, avec un pic modéré en juillet et en août : c'est une destination de hors-saison, y compris l'hiver, sans le coût d'une station."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de l'Yonne est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: [
+      "sens",
+      "joigny",
+      "auxerre"
+    ],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Sens",
+      "parent solo Yonne",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
     slug: "10-choses-a-faire-a-gerardmer-2026",
     title: "10 choses à faire à Gérardmer",
     metaTitle: "10 choses à faire à Gérardmer en 2026",

@@ -10472,6 +10472,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "vacances-monoparentales-les-sables-d-olonne-2026",
+      "title": "Vacances monoparentales aux Sables-d'Olonne en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-troyes-2026",
+      "title": "Vacances monoparentales à Troyes en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-chartres-2026",
+      "title": "Vacances monoparentales à Chartres en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-saint-nazaire-2026",
+      "title": "Vacances monoparentales à Saint-Nazaire en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-lorient-2026",
+      "title": "Vacances monoparentales à Lorient en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-sens-2026",
+      "title": "Vacances monoparentales à Sens en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-gerardmer-2026",
       "title": "10 choses à faire à Gérardmer",
       "emoji": "🏞️"
@@ -10829,6 +10859,11 @@
       "count": 18
     },
     {
+      "slug": "vacances-en-train-avec-enfants",
+      "label": "vacances en train avec enfants",
+      "count": 18
+    },
+    {
       "slug": "strasbourg",
       "label": "Strasbourg",
       "count": 16
@@ -10931,11 +10966,6 @@
     {
       "slug": "paris",
       "label": "Paris",
-      "count": 12
-    },
-    {
-      "slug": "vacances-en-train-avec-enfants",
-      "label": "vacances en train avec enfants",
       "count": 12
     },
     {
