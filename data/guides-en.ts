@@ -54709,6 +54709,354 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in nogent-sur-marne","nogent-sur-marne","travel","city guide","ile-de-france"],
   },
   {
+    slug: "things-to-do-in-parthenay-2026",
+    title: "Things to do in Parthenay: the Saint-Jacques gate and the medieval quarter",
+    metaTitle: "Things to Do in Parthenay",
+    metaDesc:
+      "The Saint-Jacques gate, the rue de la Vau-Saint-Jacques, the ramparts and the Férolle garden, in the Deux-Sèvres.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Parthenay had 10,121 residents in 2022, against 10,390 in 2011. This sub-prefecture of the Deux-Sèvres keeps a medieval quarter above the river Thouet. This guide says what you see, from the Saint-Jacques gate to the castle ramparts.",
+    sections: [
+      {
+        heading: "The Saint-Jacques gate",
+        body: "Raised in the early 13th century at the northern entrance of the old fortified town, it marks the start of the rue de la Vau-Saint-Jacques. The bridge and the gate are listed as historic monuments, and access is free.",
+      },
+      {
+        heading: "The rue de la Vau-Saint-Jacques",
+        body: "Its timber-framed houses, built in the 14th century by prosperous weavers, are among the town's best-known images. Walk down it on foot, and look up.",
+      },
+      {
+        heading: "The ramparts and the castle remains",
+        body: "The ramparts overlook the Thouet, and some remains of the castle survive. It is the viewpoint that explains why the town grew on this spur.",
+      },
+      {
+        heading: "The Citadel gate",
+        body: "Its two almond-shaped towers close the entrance to the medieval quarter. It is seen from the outside, as part of the walk through the old town.",
+      },
+      {
+        heading: "Saint-Laurent church",
+        body: "Local guides include it in the walk through the Saint-Jacques quarter. Check opening conditions with the tourist office.",
+      },
+      {
+        heading: "The Férolle garden",
+        body: "Laid out on the heights of the Saint-Jacques quarter and opened in 2011, this garden draws on medieval gardens. It is a quiet pause between two cobbled streets.",
+      },
+      {
+        heading: "Family trails",
+        body: "The tourist office offers leaflets and game trails around the medieval town. They are a way to walk children round the quarter without losing them.",
+      },
+      {
+        heading: "European Heritage Days",
+        body: "Events run by the local council of communes have included a video-mapping show on the Saint-Jacques gate. Programmes change every year: check the current edition.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €670 a month in our estimate, against €860 in Niort. Parthenay suits people who want medieval heritage at a human scale, far from the big cities.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Half a day covers the Saint-Jacques quarter. The town has no large public transport network: plan on a car, and check connections before you come.",
+      },
+    ],
+    relatedCities: ["parthenay","niort","bressuire"],
+    tags: ["things to do in parthenay","parthenay","travel","city guide","nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-limoux-2026",
+    title: "Things to do in Limoux: the carnival, the blanquette and the old square",
+    metaTitle: "Things to Do in Limoux",
+    metaDesc:
+      "Carnival, blanquette sparkling wine, the place de la République and the Pont-Neuf, in the Aude.",
+    category: "city-guide",
+    emoji: "🥂",
+    readMinutes: 5,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Limoux had 10,339 residents in 2022, against 10,155 in 2011. This sub-prefecture of the Aude is known for blanquette, a sparkling white wine, and for a carnival that stretches over several weeks. This guide says what you do, from the main square to the wine cellars.",
+    sections: [
+      {
+        heading: "The place de la République",
+        body: "The heart of Limoux is built around this square with medieval arcades. It hosts most of the festivities, carnival included, and is the natural starting point for a visit.",
+      },
+      {
+        heading: "The carnival",
+        body: "It runs from January to March, on weekends, and ends with the Nuit de la Blanquette and the judgement of Carnival. Local sources present it as the longest in the world and four centuries old; the 2026 edition ran from 10 January to 22 March, and the 2027 one has been announced.",
+      },
+      {
+        heading: "Blanquette",
+        body: "Limoux is presented as the birthplace of blanquette and of crémant, the region's sparkling wines. The cellars can be visited and some estates offer tasting sessions: book ahead, and decide who drives.",
+      },
+      {
+        heading: "The Pont-Neuf over the Aude",
+        body: "It crosses the river Aude and serves as a landmark for a walk along the water. It is a corner that residents enjoy.",
+      },
+      {
+        heading: "The Petiet museum",
+        body: "It appears in the lists of sights in Limoux. Opening conditions are not fixed, so ask the tourist office.",
+      },
+      {
+        heading: "A carnival day",
+        body: "The Occitanie tourist board offers a one-day itinerary built around the carnival. It suits those who come only for the party, in winter.",
+      },
+      {
+        heading: "The vineyards around the town",
+        body: "The vines of the appellation surround the town. The estates belong to other communes: treat them as a separate outing.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €720 a month in our estimate, against €710 in Carcassonne. Limoux suits people who want a small wine town with a festive streak, at Aude prices.",
+      },
+      {
+        heading: "When to come",
+        body: "For the carnival, winter and early spring, weekends included. Outside the festivities the town is quiet and quickly seen.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Half a day is enough outside carnival time. Carcassonne, the larger neighbouring city, works as a base for those arriving by train or plane: check the connections.",
+      },
+    ],
+    relatedCities: ["limoux","carcassonne"],
+    tags: ["things to do in limoux","limoux","travel","city guide","occitanie"],
+  },
+  {
+    slug: "things-to-do-in-hazebrouck-2026",
+    title: "Things to do in Hazebrouck: the Augustins museum and the giants of the North",
+    metaTitle: "Things to Do in Hazebrouck",
+    metaDesc:
+      "The Augustins museum, the giants of the North, the mid-Lent festival and Saint-Éloi church, in the Nord.",
+    category: "city-guide",
+    emoji: "🎭",
+    readMinutes: 5,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Hazebrouck had 21,785 residents in 2022, against 21,741 in 2011. It is a Flemish town in the Nord, known for its giants, huge processional figures, and for its mid-Lent festival. This guide says what you visit, from the Augustins museum to Saint-Éloi church.",
+    sections: [
+      {
+        heading: "The Augustins museum",
+        body: "Housed in a former convent, it shows regional ethnology and painting from the old Low Countries. Opening hours vary between listings: check before you come.",
+      },
+      {
+        heading: "The giants of the North",
+        body: "Hazebrouck's giants, among them Roland, Tisje Tasje, Toria and Babe Tisje, are kept in the museum. These large processional effigies belong to a tradition that goes back to the Middle Ages.",
+      },
+      {
+        heading: "Mid-Lent",
+        body: "The festival fills a weekend, with dances and a parade. The giants are received there by other giants: it is the best moment to see them out.",
+      },
+      {
+        heading: "Saint-Éloi church",
+        body: "One source dates it to 1432. It is one of the monuments of the centre, seen from the outside and, if it is open, from the inside.",
+      },
+      {
+        heading: "Notre-Dame-de-Lourdes church",
+        body: "The Hauts-de-France heritage inventory identifies it as the parish church of the Nouveau Monde district. It rounds off a visit to the churches of the centre.",
+      },
+      {
+        heading: "The Abbé Lemire house-museum",
+        body: "It is devoted to Jules Lemire, a priest who sat as a member of parliament. It interests those who want to understand local history; ask about its opening days.",
+      },
+      {
+        heading: "The town centre and its shops",
+        body: "The town is walked on foot. It acts as a small capital for inland Flanders.",
+      },
+      {
+        heading: "The neighbouring Flemish towns",
+        body: "Bailleul and Saint-Omer are nearby communes reached by car or train. Treat them as separate outings.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €760 a month in our estimate, against €750 in Dunkirk and €1,080 in Lille. Hazebrouck suits people who want Flanders on a small budget, within reach of Lille.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Half a day covers the museum and the centre. For mid-Lent, plan the weekend: check the dates for the year.",
+      },
+    ],
+    relatedCities: ["hazebrouck","dunkerque","lille","saint-omer"],
+    tags: ["things to do in hazebrouck","hazebrouck","travel","city guide","hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-pamiers-2026",
+    title: "Things to do in Pamiers: Saint-Antonin cathedral and the town-centre canals",
+    metaTitle: "Things to Do in Pamiers",
+    metaDesc:
+      "Saint-Antonin cathedral, the Monnaie tower, the Carmel and the canals of the centre, in the Ariège.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Pamiers had 16,512 residents in 2022, against 15,448 in 2011, about 7% more. It is the largest town in the Ariège after the departmental capital. This guide says what you visit, from the cathedral to the canals of the centre.",
+    sections: [
+      {
+        heading: "Saint-Antonin cathedral",
+        body: "Listed as a historic monument since 9 August 1906, it combines a Romanesque doorway, with carved capitals of the 12th century, and Gothic parts. Work on the bell tower and the roof took place between 1833 and 1875.",
+      },
+      {
+        heading: "When the cathedral is open",
+        body: "It is not open all the time: listings describe it as closed outside group visits, with weekend openings from 19 September 2026 and during Heritage Days. Check before you come.",
+      },
+      {
+        heading: "The Monnaie tower",
+        body: "Local guides cite it, with the Carmel and the cathedral, among the landmarks of the centre. It is found on foot, on the walk through town.",
+      },
+      {
+        heading: "The Carmel",
+        body: "It is the third architectural landmark that guides to the centre mention. Its visiting conditions are to be confirmed with the tourist office.",
+      },
+      {
+        heading: "The canals of the town centre",
+        body: "A walk follows the town's canals. It takes less than an hour.",
+      },
+      {
+        heading: "Cailloup abbey",
+        body: "Local guides list it among the sights around the centre. Check how to get there and when it opens.",
+      },
+      {
+        heading: "Notre-Dame-du-Camp church",
+        body: "It is cited as one of the town's notable monuments. It completes a circuit of the religious buildings.",
+      },
+      {
+        heading: "Foix, the neighbouring prefecture",
+        body: "Foix is a neighbouring commune: treat it as a separate outing, castle included, rather than a morning add-on to Pamiers.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €760 a month in our estimate, against €710 in Foix. Pamiers suits people who want a base in the Ariège, within reach of Toulouse.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Half a day covers the centre. If the cathedral is your goal, time the visit to its opening days.",
+      },
+    ],
+    relatedCities: ["pamiers","foix"],
+    tags: ["things to do in pamiers","pamiers","travel","city guide","occitanie"],
+  },
+  {
+    slug: "things-to-do-in-biscarrosse-2026",
+    title: "Things to do in Biscarrosse: the seaplane museum, the lake and the ocean",
+    metaTitle: "Things to Do in Biscarrosse",
+    metaDesc:
+      "The seaplane museum, the lake, the beaches and the dune, in the Landes.",
+    category: "city-guide",
+    emoji: "✈️",
+    readMinutes: 5,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Biscarrosse had 15,412 residents in 2022, against 12,631 in 2011, about 22% more. This commune in the Landes splits into three areas: the town, the beach and the lake. This guide says what you do, from the seaplane museum to the ocean.",
+    sections: [
+      {
+        heading: "The seaplane museum",
+        body: "Housed on the former Latécoère base, it holds the Musée de France label. It is presented as the only museum in Europe devoted to seaplanes, with models, period documents and mementos of pilots such as Saint-Exupéry and Mermoz.",
+      },
+      {
+        heading: "Museum opening hours",
+        body: "Sources disagree: open Tuesday to Sunday in winter and daily in summer according to one, closed on Mondays according to another. Check before you come.",
+      },
+      {
+        heading: "Lake Biscarrosse-Parentis",
+        body: "It covers about 3,600 hectares. It was the main French base for seaplanes from 1930 to 1955, the dunes sheltering the lakes from the wind. Today it is popular with anglers and water-sports fans.",
+      },
+      {
+        heading: "Biscarrosse-Plage",
+        body: "More than 4 km of beach, liked for surfing. It is the area to choose for atmosphere, according to the Landes guide.",
+      },
+      {
+        heading: "Swimming in the sea",
+        body: "Respect the flags and the supervised zones: the Atlantic here is powerful. Out of season, most lifeguard posts are closed.",
+      },
+      {
+        heading: "The dune",
+        body: "The sand dune gives a view of the ocean once you have climbed it. Stay on the marked paths so as not to damage it.",
+      },
+      {
+        heading: "Biscarrosse-Lac",
+        body: "This is the quiet area, on the lakeshore. It suits those who want water without the swell.",
+      },
+      {
+        heading: "The marina",
+        body: "It lies on the lake and allows sailing or boating. Activities vary with the season.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €1,050 a month in our estimate, against €740 in Mont-de-Marsan and €1,200 in Bayonne. Biscarrosse suits people who want the ocean and a lake, at resort prices.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Allow a day for the museum and the lake, more for the beach. A car is useful: the three areas are far apart.",
+      },
+    ],
+    relatedCities: ["biscarrosse","mont-de-marsan","bayonne"],
+    tags: ["things to do in biscarrosse","biscarrosse","travel","city guide","nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-cluses-2026",
+    title: "Things to do in Cluses: the watchmaking museum and the Arve valley",
+    metaTitle: "Things to Do in Cluses",
+    metaDesc:
+      "The Museum of Watchmaking and Screw-Cutting, the Arve river and the Arve valley, in Haute-Savoie.",
+    category: "city-guide",
+    emoji: "⌚",
+    readMinutes: 5,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Cluses had 17,366 residents in 2022, as many as in 2011 (17,416). This town in the Arve valley was the capital of Savoyard watchmaking. This guide says what you see, from the Museum of Watchmaking and Screw-Cutting to the river Arve.",
+    sections: [
+      {
+        heading: "The Museum of Watchmaking and Screw-Cutting",
+        body: "It occupies the Carpano and Pons space, a 19th-century watch factory on the banks of the Arve. The route runs from the history of timekeeping to the peasant watchmakers of the 18th century, then to screw-cutting (décolletage), born of the industrial revolution.",
+      },
+      {
+        heading: "The Cluses escapements",
+        body: "The museum shows a set of escapement models made in Cluses. This is the part that appeals to mechanics enthusiasts.",
+      },
+      {
+        heading: "The national watchmaking school",
+        body: "Founded in 1848 as a royal school, it trained watchmakers in Cluses until 1989. Staged visits on its history are scheduled in some summers.",
+      },
+      {
+        heading: "Guided visits",
+        body: "A tour called \"Mechanics and cogwheels\" runs on Fridays at 3 pm in term time, according to the tourist office. A workshop lets you assemble a screw-cut part. Check the year's schedule.",
+      },
+      {
+        heading: "Opening days and prices",
+        body: "The museum is closed on Sundays and free on the first Sunday of the month, according to the tourist office. 2026 prices are to be confirmed on the museum's website.",
+      },
+      {
+        heading: "European Heritage Days",
+        body: "On 19 and 20 September 2026 the museum offers free entry to the displays, a guided tour and a visit outside the museum walls, around Cluses. The programme changes from year to year.",
+      },
+      {
+        heading: "The banks of the Arve",
+        body: "The museum sits by the river. A walk along the banks completes the visit in under an hour.",
+      },
+      {
+        heading: "A base for the valley",
+        body: "Cluses is reached by the A40 motorway, exit 18. The nearby ski resorts are other communes: treat them as separate outings.",
+      },
+      {
+        heading: "Cost of staying, and who the town suits",
+        body: "The average T3 rents at €1,050 a month in our estimate, against €1,450 in Annecy and €1,200 in Thonon-les-Bains. Cluses suits people who want the mountains at a lower price than the lakeshore.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Two hours cover the museum. Add half a day if you tour the town or take a workshop.",
+      },
+    ],
+    relatedCities: ["cluses","annecy","thonon-les-bains"],
+    tags: ["things to do in cluses","cluses","travel","city guide","auvergne-rhone-alpes"],
+  },
+  {
     slug: "buying-an-apartment-under-100000-euros-france-2026",
     title: "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
     metaTitle: "Apartment under €100,000 in France: 108 cities (2026)",

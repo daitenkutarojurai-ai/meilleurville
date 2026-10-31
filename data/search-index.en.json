@@ -9757,6 +9757,36 @@
       "emoji": "🎻"
     },
     {
+      "slug": "things-to-do-in-parthenay-2026",
+      "title": "Things to do in Parthenay: the Saint-Jacques gate and the medieval quarter",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-limoux-2026",
+      "title": "Things to do in Limoux: the carnival, the blanquette and the old square",
+      "emoji": "🥂"
+    },
+    {
+      "slug": "things-to-do-in-hazebrouck-2026",
+      "title": "Things to do in Hazebrouck: the Augustins museum and the giants of the North",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "things-to-do-in-pamiers-2026",
+      "title": "Things to do in Pamiers: Saint-Antonin cathedral and the town-centre canals",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-biscarrosse-2026",
+      "title": "Things to do in Biscarrosse: the seaplane museum, the lake and the ocean",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "things-to-do-in-cluses-2026",
+      "title": "Things to do in Cluses: the watchmaking museum and the Arve valley",
+      "emoji": "⌚"
+    },
+    {
       "slug": "buying-an-apartment-under-100000-euros-france-2026",
       "title": "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
       "emoji": "🔑"
@@ -9876,12 +9906,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 325
+      "count": 331
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 319
+      "count": 325
     },
     {
       "slug": "moving-to-france",
@@ -9899,19 +9929,19 @@
       "count": 160
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 84
-    },
-    {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 84
+      "count": 86
+    },
+    {
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 85
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 79
+      "count": 81
     },
     {
       "slug": "ile-de-france",
@@ -9936,7 +9966,7 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 66
+      "count": 67
     },
     {
       "slug": "french-school-system",
