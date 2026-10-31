@@ -1,5 +1,3 @@
-"use client";
-import { useState, useEffect } from "react";
 import Link from "@/components/AppLink";
 import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, GraduationCap, Shield, Bus, TreePine, ChevronRight, ChevronDown, Check, X, Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
@@ -15,8 +13,7 @@ import { AISummaryCard } from "@/components/AISummaryCard";
 import { UserVsOfficialScore } from "@/components/UserVsOfficialScore";
 import { SimilarCities } from "@/components/SimilarCities";
 import { OwnerScoresCard } from "@/components/OwnerScoresCard";
-import { UserScoresCard } from "@/components/UserScoresCard";
-import { CityReviewModal } from "@/components/CityReviewModal";
+import { CityProfileTabs, LifeStagePicker, CityReviewProvider, LiveUserScoresCard, RateCityButton } from "./CityProfileIslands";
 import { HonestReviewCard } from "@/components/HonestReviewCard";
 import { DistancesCard } from "@/components/DistancesCard";
 import { RentVsBuyCard } from "@/components/RentVsBuyCard";
@@ -59,10 +56,10 @@ const SCORE_LABELS: Array<{ key: keyof CitySeed["scores"]; label: string; icon: 
 ];
 
 const LIFE_STAGES = [
-  { id: "famille", label: "Famille", icon: Home, keys: ["safety", "schools", "nature", "cost"] },
-  { id: "remote", label: "Remote", icon: Laptop, keys: ["remoteWork", "transport", "cost", "culture"] },
-  { id: "retraite", label: "Retraite", icon: Sun, keys: ["nature", "safety", "cost", "life"] },
-  { id: "etudiant", label: "Étudiant", icon: GraduationCap, keys: ["culture", "transport", "cost", "life"] },
+  { id: "famille", keys: ["safety", "schools", "nature", "cost"] },
+  { id: "remote", keys: ["remoteWork", "transport", "cost", "culture"] },
+  { id: "retraite", keys: ["nature", "safety", "cost", "life"] },
+  { id: "etudiant", keys: ["culture", "transport", "cost", "life"] },
 ];
 
 // Editorial section rule — uppercase eyebrow + fading divider. Replaces the
@@ -86,19 +83,8 @@ function SectionRule({ emoji, label, first }: { emoji: string; label: string; fi
 export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: CitySeed & { reviewCount?: number }; data: CityProfileData; faq: FaqItem[]; photo?: CityPhoto | null; locale?: "fr" | "en" }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const sub = (fr: string, en: string) => `/${locale === "en" ? "cities" : "villes"}/${city.slug}/${locale === "en" ? en : fr}`;
-  const [activeStage, setActiveStage] = useState("famille");
   const { neighborhoods, housing } = data;
-  const [activeTab, setActiveTab] = useState("overview");
-  // Panels render in the static HTML (SEO + no-JS) and are hidden only
-  // after hydration — the old conditional render shipped 1 of 4 panels.
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => setHydrated(true), []);
-  const [reviewOpen, setReviewOpen] = useState(false);
-  // Force a remount of UserScoresCard after a new review is posted so the
-  // aggregate refreshes (uses key bump rather than a context store).
-  const [reviewBumpKey, setReviewBumpKey] = useState(0);
 
-  const stage = LIFE_STAGES.find((s) => s.id === activeStage)!;
   const narrative = buildCityNarrative(city, housing, locale);
   const niche = computeNicheScores(city);
 
@@ -123,6 +109,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
 
   return (
     <div>
+    <CityReviewProvider citySlug={city.slug} cityName={city.name} locale={locale}>
       {/* Hero — premium */}
       <section className="relative overflow-hidden pt-10 pb-14 sm:pt-14 sm:pb-16">
         {/* Aurora + grain */}
@@ -264,58 +251,11 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
         </div>
       </section>
 
-      {/* Tabs */}
-      <div className="sticky top-[var(--nav-h)] z-40 transition-[top] duration-300 border-b border-[var(--accent)]/15 bg-white/90 backdrop-blur-xl shadow-[0_8px_20px_-16px_rgba(79,70,229,0.55)]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div
-            role="tablist"
-            aria-label={L(`Sections du profil de ${city.name}`, `${city.name} profile sections`)}
-            className="flex gap-0 overflow-x-auto"
-            onKeyDown={(e) => {
-              if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
-              const idx = TABS.findIndex((t) => t.id === activeTab);
-              const next = e.key === "ArrowRight"
-                ? (idx + 1) % TABS.length
-                : (idx - 1 + TABS.length) % TABS.length;
-              setActiveTab(TABS[next].id);
-              const el = document.getElementById(`city-tab-${TABS[next].id}`);
-              el?.focus();
-            }}
-          >
-            {TABS.map((tab) => (
-              <button
-                key={tab.id}
-                id={`city-tab-${tab.id}`}
-                role="tab"
-                aria-selected={activeTab === tab.id}
-                aria-controls={`city-panel-${tab.id}`}
-                tabIndex={activeTab === tab.id ? 0 : -1}
-                onClick={() => setActiveTab(tab.id)}
-                className={cn(
-                  "whitespace-nowrap px-3.5 py-2.5 sm:px-5 sm:py-4 text-[13px] sm:text-sm font-medium border-b-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--accent)]",
-                  activeTab === tab.id
-                    ? "border-[var(--accent-pink)] bg-[var(--band-indigo)] text-[var(--accent)]"
-                    : "border-transparent text-[var(--text-secondary)] hover:bg-[var(--band-lilac)] hover:text-[var(--text-primary)]"
-                )}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Content — painted as its own colour band (« Couleurs »). The two
-          full-width blocks of the overview panel below carry their own bands
-          (sky, pink), so the page reads as a sequence of distinct sections. */}
-      <div className="band band-indigo mx-auto max-w-7xl px-4 sm:px-6 py-10">
-        
-          <div
-            id="city-panel-overview"
-            hidden={hydrated && activeTab !== "overview"}
-            role="tabpanel"
-            aria-labelledby="city-tab-overview"
-            className="grid gap-6 lg:grid-cols-3">
+      <CityProfileTabs
+        tabs={TABS}
+        ariaLabel={L(`Sections du profil de ${city.name}`, `${city.name} profile sections`)}
+        panels={[
+          { id: "overview", className: "grid gap-6 lg:grid-cols-3", children: (<>
             {/* The panel's cards use h3: without an h2 the outline jumped h1 → h3. */}
             <h2 className="sr-only">{L("Vue d'ensemble", "Overview")}</h2>
             {/* Scores */}
@@ -456,40 +396,17 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 <p className="text-xs text-[var(--text-tertiary)] mb-4">
                   {L("Choisissez un profil de vie : on n'affiche que les 4 axes qui pèsent vraiment pour cette étape.", "Pick a life stage: we only show the 4 axes that actually matter at that point.")}
                 </p>
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {LIFE_STAGES.map((ls) => {
-                    const Icon = ls.icon;
-                    return (
-                      <button
-                        key={ls.id}
-                        onClick={() => setActiveStage(ls.id)}
-                        className={cn(
-                          "flex items-center gap-2 rounded-xl border px-4 py-2 text-sm font-medium transition-colors cursor-pointer",
-                          activeStage === ls.id
-                            ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-                            : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
-                        )}
-                      >
-                        <Icon className="h-4 w-4" />
-                        {STAGE_LABELS[ls.id]}
-                      </button>
-                    );
-                  })}
-                </div>
-                <div className="space-y-3">
-                  {stage.keys.map((key) => {
-                    const meta = SCORE_LABELS.find((s) => s.key === key);
-                    const score = city.scores[key as keyof typeof city.scores];
-                    if (!meta) return null;
-                    return (
-                      <ScoreBar
-                        key={key}
-                        label={SCORE_AXIS_LABELS[key as keyof CitySeed["scores"]]}
-                        score={score}
-                      />
-                    );
-                  })}
-                </div>
+                <LifeStagePicker
+                  stages={LIFE_STAGES.map((ls) => ({
+                    id: ls.id,
+                    label: STAGE_LABELS[ls.id],
+                    bars: ls.keys.map((key) => ({
+                      key,
+                      label: SCORE_AXIS_LABELS[key as keyof CitySeed["scores"]],
+                      score: city.scores[key as keyof CitySeed["scores"]],
+                    })),
+                  }))}
+                />
               </Card>
 
               {/* F27 — Honest Review (algorithmic synthesis) */}
@@ -517,13 +434,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
             {/* Sidebar */}
             <div className="space-y-4">
               <VibeWidget city={city} locale={locale} />
-              <UserScoresCard
-                key={reviewBumpKey}
-                citySlug={city.slug}
-                cityName={city.name}
-                onOpenReview={() => setReviewOpen(true)}
-                locale={locale}
-              />
+              <LiveUserScoresCard citySlug={city.slug} cityName={city.name} locale={locale} />
               <UserVsOfficialScore
                 topic={`city:${city.slug}`}
                 officialGlobal={city.scores.global}
@@ -615,13 +526,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                   <p className="text-xs text-[var(--text-secondary)] mb-4">
                     {L(`Notez ${city.name} en 8 catégories et partagez votre ressenti : vos notes alimentent la note communauté affichée en haut de cette page.`, `Rate ${city.name} across 8 categories and share what it's really like — your ratings feed the community score shown at the top of this page.`)}
                   </p>
-                  <button
-                    type="button"
-                    onClick={() => setReviewOpen(true)}
-                    className="inline-flex items-center justify-center gap-1.5 w-full rounded-xl bg-[var(--accent)] text-white text-sm font-semibold px-4 py-2 hover:bg-[var(--accent-hover)] transition-colors"
-                  >
-                    {L("Noter cette ville →", "Rate this city →")}
-                  </button>
+                  <RateCityButton label={L("Noter cette ville →", "Rate this city →")} />
                 </div>
               </Card>
             </div>
@@ -709,15 +614,11 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 right rail but inflated it past main column height, leaving an
                 empty middle band on scroll. Now displayed prominently for
                 discovery + better balance. */}
-            <div
-              className={cn(
-                "band band-pink lg:col-span-3 min-w-0 -mt-6 py-10",
-                // Eat the content band's bottom padding so pink meets the next
-                // band — only once hydrated with the overview showing: without
-                // JS every panel is visible and the overlap would cover the next.
-                hydrated && activeTab === "overview" && "-mb-10",
-              )}
-            >
+            {/* Eats the content band's bottom padding so pink meets the next
+                band — only once hydrated with the overview showing (the tabs
+                island sets data-active-tab then): without JS every panel is
+                visible and the overlap would cover the next. */}
+            <div className="band band-pink lg:col-span-3 min-w-0 -mt-6 py-10 [[data-active-tab=overview]_&]:-mb-10">
               <h2 className="font-display text-2xl text-[var(--text-primary)] mb-4">
                 {L(`Explorer ${city.name} en détail`, `Explore ${city.name} in detail`)}
               </h2>
@@ -1412,11 +1313,8 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 )}
               </div>
             </div>
-          </div>
-
-        
-          <div id="city-panel-scores"
-            hidden={hydrated && activeTab !== "scores"} role="tabpanel" aria-labelledby="city-tab-scores" className="max-w-2xl space-y-6">
+          </>) },
+          { id: "scores", className: "max-w-2xl space-y-6", children: (<>
             <Card className="overflow-hidden">
               <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-center sm:gap-6">
                 <div className="shrink-0">
@@ -1455,11 +1353,8 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 ))}
               </div>
             </Card>
-          </div>
-
-        
-          <div id="city-panel-reviews"
-            hidden={hydrated && activeTab !== "reviews"} role="tabpanel" aria-labelledby="city-tab-reviews" className="max-w-3xl">
+          </>) },
+          { id: "reviews", className: "max-w-3xl", children: (
             <Card>
               <div className="text-center py-6">
                 <div className="text-4xl mb-3">💬</div>
@@ -1477,11 +1372,8 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
               </div>
             </Card>
-          </div>
-
-        
-          <div id="city-panel-data"
-            hidden={hydrated && activeTab !== "data"} role="tabpanel" aria-labelledby="city-tab-data" className="max-w-2xl">
+          ) },
+          { id: "data", className: "max-w-2xl", children: (
             <Card>
               <h2 className="text-lg font-bold text-[var(--text-primary)] mb-6">
                 {L("Données brutes", "Raw data")} — {city.name}
@@ -1510,8 +1402,9 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 ))}
               </div>
             </Card>
-          </div>
-      </div>
+          ) },
+        ]}
+      />
 
       {/* Discussions — moved up so the testimonial CTAs (#discussions anchor)
           land somewhere meaningful instead of scrolling to the very bottom. */}
@@ -1567,15 +1460,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
           </div>
         </div>
       )}
-
-      <CityReviewModal
-        citySlug={city.slug}
-        cityName={city.name}
-        open={reviewOpen}
-        onClose={() => setReviewOpen(false)}
-        onPosted={() => setReviewBumpKey((k) => k + 1)}
-        locale={locale}
-      />
+    </CityReviewProvider>
     </div>
   );
 }

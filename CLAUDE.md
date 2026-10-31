@@ -452,10 +452,12 @@ payload the browser must parse.
   for an effect the compositor can run. Note `ScrollReveal` renders its children
   at `opacity: 0`; the `@media (scripting: none)` rule in `globals.css` is what
   keeps them visible without JS.
-- **Known remaining lever:** city pages still ship ~1 MB of JS because
-  `CityProfile` is one client component importing ~30 sub-components, most of
-  which render static text. Decoupling it (client only for tabs + action buttons)
-  is the next real win, and is a refactor of its own. ✅ **Le plus gros passager
+- **`CityProfile` est un composant serveur (2026-10-31).** Les ~30 cartes rendent du HTML
+  sans JS ; l'interactif vit dans `app/villes/[slug]/CityProfileIslands.tsx` (onglets, sélecteur
+  de profil de vie, modale d'avis via un contexte). Mesuré à l'esbuild : 371 → 115 Ko minifiés,
+  101 → 34 Ko gzip. **Ne remets pas `"use client"` sur `CityProfile`** : une carte qui a besoin
+  d'un hook devient sa propre île, et une valeur passée à une île doit être sérialisable (pas
+  d'icône lucide, pas de fonction). Avant : un seul composant client de 1 580 lignes. ✅ **Le plus gros passager
   est sorti (2026-10-10)** : `data/city-population.json` atteignait le bundle par
   `DemographyCard → lib/demography → lib/city-population`. La démographie se
   calcule désormais dans `lib/city-profile-data.ts` (`data.demography`) et les
