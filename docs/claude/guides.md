@@ -2341,3 +2341,5 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 
 
 - 2026-10-29 agent contenu : +3 guides thématiques data-led (FR `annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026`, FR `villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026`, EN `income-needed-to-rent-a-studio-in-france-409-cities-2026`). Corpus mesuré : FR 1408 guides, EN 1214 guides (`grep -c "^    slug:"`). Prochain lot : angles Insee × loyers déjà calculables (part des 60+ vs santé, densité vs prix).
+
+- 2026-10-31 — guides data-led démographie : +2 FR (villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026, villes-les-plus-agees-de-france-part-des-75-ans-et-plus-2026) + 2 jumelles EN natives. Compte mesuré : 1 435 guides FR, 1 274 EN (search-index). Prochain lot : part des moins de 15 ans (familles) ou taille des ménages.

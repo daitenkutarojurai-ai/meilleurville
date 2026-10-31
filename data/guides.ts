@@ -71919,6 +71919,100 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["meilleures-villes-jeunes-professionnels-france-2026", "villes-universitaires-cout-vie-raisonnable-france-2026", "villes-france-accessibles-budget-etudiant-hors-paris-2026", "meilleures-villes-colocation-jeunes-actifs-2026"],
     tags: ["villes jeunes", "part des 15-29 ans", "ville étudiante", "démographie par ville", "où habitent les jeunes", "vie étudiante et loyer"],
   },
+  {
+    slug: "villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026",
+    title: "Les villes qui gagnent le plus d'habitants en France : 413 villes comparées, 2016-2022",
+    metaTitle: "Villes qui gagnent le plus d'habitants en France, 2016-2022",
+    metaDesc: "Romainville +33,2 %, Villenave-d'Ornon +28,8 %, Bezons +18,4 % : 413 villes de 20 000 habitants et plus classées par évolution de population 2016-2022 (Insee).",
+    category: "lifestyle",
+    emoji: "📈",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Romainville a gagné 33,2 % d'habitants entre 2016 et 2022, Villenave-d'Ornon 28,8 % et Bezons 18,4 % : ce sont les trois plus fortes hausses parmi les 413 villes de 20 000 habitants et plus pour lesquelles nous avons les deux recensements. Au total, 293 villes ont gagné des habitants et 118 en ont perdu ; la ville médiane a progressé de 2,4 % en six ans, soit environ 0,4 % par an. Ce guide classe ces villes sur une mesure publiée, les populations municipales de l'Insee (recensements 2016 et 2022, même découpage communal), et regarde ce que la croissance change pour qui cherche un logement.",
+    sections: [
+      {
+        heading: "Quelles villes gagnent le plus d'habitants ?",
+        body: "Dans l'ordre : Romainville (+33,2 %, soit 8 804 habitants de plus pour 35 314 au total), Villenave-d'Ornon (+28,8 %, +9 435), Bezons (+18,4 %), Saint-Laurent-du-Maroni (+18,1 %, +7 933), Bagnolet (+16,5 %), Cugnaux (+13,9 %), Cormeilles-en-Parisis (+13,2 %), Saint-Cyr-l'École (+13,1 %), Les Sables-d'Olonne (+12,8 %), Challans (+12,7 %), puis Alès et Couëron (+12,6 % chacune), Blagnac (+12,5 %), Tournefeuille (+12,4 %), Neuilly-sur-Marne (+11,9 %), Bègles (+11,7 %), Lingolsheim (+11,4 %), La Courneuve (+10,8 %), Six-Fours-les-Plages (+10,8 %) et Vertou (+10,5 %). Vingt-six villes progressent de 10 % ou plus, 125 de 5 % ou plus. Les très fortes hausses concernent presque toutes des communes de 20 000 à 50 000 habitants : un programme de plusieurs milliers de logements neufs y pèse lourd. Elles décrivent un flux de ménages, pas une qualité de vie."
+      },
+      {
+        heading: "Gagner en nombre ou en pourcentage : est-ce la même liste ?",
+        body: "Non. En nombre d'habitants, ce sont les grandes villes qui dominent : Toulouse (+36 246), Montpellier (+25 488), Nantes (+18 376), Marseille (+15 004), Bordeaux (+13 288), Villeurbanne (+13 188), Strasbourg (+12 425), Rennes (+11 562), Toulon (+11 200) et Nice (+11 064). Rapportée à sa taille, Marseille ne progresse que de 1,7 %, Nice de 3,2 % et Lyon de 1,0 %. Montpellier (+9,1 %), Villeurbanne (+8,8 %) et Toulouse (+7,6 %) sont à la fois fortes en valeur absolue et en rythme. Pour juger la pression sur le marché local, le pourcentage compte davantage : 25 000 arrivants dans une ville de 300 000 habitants ne se vivent pas comme 9 000 dans une commune de 30 000."
+      },
+      {
+        heading: "Que se passe-t-il dans les 42 villes de 100 000 habitants et plus ?",
+        body: "Dix d'entre elles perdent des habitants, trente-deux en gagnent, pour une médiane proche de +2,5 %. En tête : Montpellier (+9,1 %), Villeurbanne (+8,8 %), Toulouse (+7,6 %), Toulon (+6,6 %), Nantes (+6,0 %), Rouen (+5,6 %), Rennes et Bordeaux (+5,3 % chacune), Strasbourg (+4,4 %) et Angers (+4,2 %). Les pertes : Mulhouse (−3,7 %), Paris (−3,5 %), Argenteuil (−3,0 %), Reims (−2,5 %), Le Havre (−2,3 %), Limoges (−2,2 %), Grenoble (−1,1 %), Perpignan (−0,7 %), Nîmes (−0,4 %) et Nancy (−0,2 %). Paris est donc au 384e rang sur 413 : la capitale perd des habitants, comme plusieurs de ses voisines de petite couronne, un mouvement que la baisse de la taille des ménages explique sans doute en partie. Les villes de 50 000 à 100 000 habitants (89 villes) affichent la meilleure médiane, +2,9 %, devant les 282 villes de moins de 50 000 (+2,3 %)."
+      },
+      {
+        heading: "Quelles villes perdent le plus d'habitants ?",
+        body: "Calais (−9,9 %, soit 7 393 habitants de moins), Saint-Dizier (−8,5 %), Montluçon (−7,8 %), Le Robert en Martinique (−7,6 %), Fort-de-France (−7,2 %), Belfort (−6,8 %), Saint-Mandé (−6,6 %), Beaune (−6,5 %), Le Kremlin-Bicêtre (−6,4 %), Montrouge (−5,8 %), Charenton-le-Pont (−5,7 %), Longjumeau (−5,3 %), puis Les Abymes, Épernay, Laon, Mandelieu-la-Napoule, Chaumont, Vierzon, Agen et Bondy entre −4,0 % et −4,6 %. Douze villes reculent de 5 % ou plus, trente-huit de 3 % ou plus. Deux familles se distinguent : des villes moyennes industrielles ou administratives de l'Est et du Centre (Calais, Saint-Dizier, Montluçon, Belfort, Chaumont, Vierzon), où les logements sont bon marché, et des communes huppées de la proche banlieue parisienne (Saint-Mandé, Montrouge, Charenton-le-Pont), où le recul vient surtout de ménages plus petits dans un parc qui ne grandit plus. Notre guide sur les villes en déclin démographique détaille les causes et les précautions d'achat."
+      },
+      {
+        heading: "Quelles régions montent, lesquelles reculent ?",
+        body: "La médiane des villes de l'échantillon est la plus haute en Guyane (+18,1 %, deux villes), en Corse (+9,1 %, deux villes), en Pays de la Loire (+5,9 %, 19 villes) et en Occitanie (+5,7 %, 22 villes), suivies de La Réunion (+3,6 %, 10 villes) et de la Bretagne (+3,3 %, 10 villes). Elle est la plus basse en Martinique (−7,2 %, trois villes), dans le Grand Est (−0,2 %, 23 villes), en Guadeloupe et en Normandie (+0,2 %), puis dans les Hauts-de-France (+0,4 %, 30 villes) et en Bourgogne-Franche-Comté (+0,9 %). L'Île-de-France, avec 153 villes, est à +2,7 % : c'est la région où l'écart interne est le plus large, entre Romainville, Bezons ou Bagnolet en haut et Saint-Mandé, Le Kremlin-Bicêtre ou Paris en bas. L'axe Atlantique-Occitanie attire, le Nord-Est progresse peu."
+      },
+      {
+        heading: "Les loyers et les prix suivent-ils la population ?",
+        body: "Oui, nettement. Dans les 125 villes qui gagnent 5 % ou plus, le studio de référence de notre estimation des loyers est à 600 € en médiane et le prix d'achat à 3 500 € le m². Dans les 38 villes qui perdent 3 % ou plus, ils tombent à 500 € et 2 500 € le m². L'ensemble des 413 villes se situe à 580 € et 3 200 € le m². Autrement dit, on paie de 20 % de loyer et 40 % de prix d'achat en plus pour s'installer là où tout le monde arrive. La relation est un indice, pas une loi : Alès, Challans et Les Sables-d'Olonne gagnent plus de 12 % avec des loyers modérés, et Paris perd des habitants avec les loyers les plus hauts de France."
+      },
+      {
+        heading: "Que faire de ce classement, et quelles sont ses limites ?",
+        body: "Trois usages. Pour acheter, une ville qui gagne 10 % d'habitants en six ans est un marché où la demande est solide, donc plus cher et plus disputé ; une ville qui en perd 5 % offre de la négociation mais une revente moins sûre. Pour louer, la croissance annonce la tension : plus de candidats par annonce, des dossiers à fournir plus vite. Pour s'installer avec des enfants, croisez avec nos classements des écoles et de la santé, car une ville qui grandit vite voit ses équipements rattraper la population avec retard. Limites : l'échantillon exclut les communes sous 20 000 habitants au recensement 2022, donc les villes qui ont perdu assez pour passer sous ce seuil n'y figurent pas ; le recensement mesure les résidents, résidences secondaires comprises à part ; et un solde de six ans n'est pas une tendance garantie pour les six suivants."
+      }
+    ],
+    relatedCities: ["romainville", "villenave-d-ornon", "bezons", "saint-laurent-du-maroni", "toulouse", "montpellier", "nantes", "les-sables-d-olonne", "ales", "calais", "montlucon", "paris"],
+    relatedGuides: ["villes-françaises-qui-perdent-habitants-2026", "villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026", "annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026", "acheter-appartement-moins-100000-euros-villes-2026"],
+    tags: ["villes qui gagnent des habitants", "évolution de la population", "croissance démographique par ville", "recensement 2022", "attractivité des villes", "population 2016-2022"],
+  },
+  {
+    slug: "villes-les-plus-agees-de-france-part-des-75-ans-et-plus-2026",
+    title: "Les villes les plus âgées de France : la part des 75 ans et plus dans 413 villes",
+    metaTitle: "Villes les plus âgées de France : part des 75 ans et plus",
+    metaDesc: "Saint-Raphaël 22,6 %, Biarritz 21,2 %, Les Sables-d'Olonne 20,2 % : 413 villes de 20 000 habitants et plus classées par part des 75 ans et plus (Insee 2022).",
+    category: "lifestyle",
+    emoji: "🧓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Saint-Raphaël est la ville la plus âgée de France parmi les 413 communes de 20 000 habitants et plus : 22,6 % de ses habitants ont 75 ans ou plus, contre 8,8 % dans la ville médiane. Biarritz (21,2 %), Les Sables-d'Olonne (20,2 %), Vichy (20,0 %) et Mandelieu-la-Napoule (18,1 %) suivent ; Saint-Laurent-du-Maroni ferme la marche à 1,0 %. Ce guide mesure l'âge d'une ville par un chiffre précis, la part des 75 ans et plus au recensement 2022 de l'Insee, et montre où l'on s'installe dans un environnement de retraités, où l'on n'en croisera presque pas, et ce que cela change au logement.",
+    sections: [
+      {
+        heading: "Pourquoi les 75 ans et plus plutôt que les 60 ans et plus ?",
+        body: "Parce qu'à 60 ou 65 ans, on est le plus souvent encore actif, mobile et propriétaire, alors qu'à partir de 75 ans les besoins changent : accès aux médecins, logement de plain-pied, commerces à pied, transports. La part des 75 ans et plus est donc un meilleur indicateur de ce que la ville doit fournir que la part des seniors au sens large. Nous la calculons avec les tranches 75-89 ans et 90 ans et plus du recensement de la population 2022 de l'Insee, sur 413 communes de 20 000 habitants et plus. C'est une mesure de composition, pas un jugement : une ville âgée n'est ni meilleure ni pire, elle est autrement équipée."
+      },
+      {
+        heading: "Quelles sont les villes les plus âgées de France ?",
+        body: "Saint-Raphaël (22,6 %), Biarritz (21,2 %), Les Sables-d'Olonne (20,2 %), Vichy (20,0 %), Mandelieu-la-Napoule (18,1 %), Six-Fours-les-Plages (17,6 %), Cannes (17,3 %), Bergerac (17,2 %), Saint-Malo (16,9 %), Hyères (16,7 %), Sète (16,6 %), Concarneau et Saintes (16,1 % chacune), Villeneuve-sur-Lot, Montluçon et Agde (16,0 %), Vierzon (15,9 %), Anglet (15,8 %), Cagnes-sur-Mer (15,7 %) et Dax (15,6 %). Vingt-sept villes dépassent 15 %, soixante-dix-neuf atteignent 12 % ou plus. La liste associe deux géographies : le littoral méditerranéen et atlantique, où l'on prend sa retraite, et quelques villes d'eau ou de l'intérieur (Vichy, Bergerac, Montluçon, Vierzon) où la structure par âge a vieilli sans l'attrait du bord de mer."
+      },
+      {
+        heading: "Où les 75 ans et plus sont-ils les plus rares ?",
+        body: "En Guyane, en Seine-Saint-Denis et dans les villes nouvelles de grande couronne. Saint-Laurent-du-Maroni est à 1,0 %, puis Bussy-Saint-Georges (2,8 %), Cergy (2,9 %), Guyancourt et Savigny-le-Temple (3,5 %), La Courneuve et Cayenne (3,6 %), Aubervilliers, Clichy-sous-Bois et Trappes (3,8 %). Trente et une villes sont à 5 % ou moins, et 56 des 71 villes à 6 % ou moins sont en Île-de-France. Ce sont des communes de familles, d'étudiants et de jeunes actifs, avec les besoins inverses : crèches, écoles, transports le soir."
+      },
+      {
+        heading: "Qu'en est-il des grandes villes ?",
+        body: "Parmi les 42 villes de 100 000 habitants et plus, les plus âgées sont Nice (12,4 %), Toulon (12,1 %), Perpignan (11,6 %), Limoges et Le Mans (11,3 %), Saint-Étienne (11,2 %), Annecy et Nîmes (10,7 %), Tours (10,3 %) et Aix-en-Provence (10,2 %). Paris est à 8,4 %, au 227e rang sur 413. Les plus jeunes : Saint-Denis (4,3 %), Lille (5,0 %), Montreuil (5,3 %), Saint-Paul de La Réunion (5,5 %), Argenteuil (5,8 %), Toulouse (6,5 %) et Villeurbanne (6,9 %). Les métropoles universitaires de l'Ouest et du Sud-Ouest, Rennes (7,6 %), Bordeaux (7,5 %), Montpellier (7,3 %), Nantes (7,2 %), sont sous la médiane nationale."
+      },
+      {
+        heading: "Quelles régions sont les plus âgées ?",
+        body: "La médiane la plus haute est celle de Provence-Alpes-Côte d'Azur (12,3 %, 33 villes), devant l'Occitanie (12,2 %, 22 villes), la Bretagne et la Nouvelle-Aquitaine (12,0 %). La plus basse : la Guyane (3,6 %, deux villes), La Réunion (5,2 %, dix villes), puis l'Île-de-France (6,6 %, 153 villes) et les Hauts-de-France (8,5 %). En dehors de l'Île-de-France, la ville médiane est à 10,5 %, contre 6,6 % dans la région capitale : c'est l'écart le plus structurant de la carte."
+      },
+      {
+        heading: "Une ville âgée est-elle une ville qui décline ?",
+        body: "Pas systématiquement. Les 27 villes à 15 % ou plus ont gagné 3,4 % d'habitants en médiane entre 2016 et 2022, soit un peu mieux que l'ensemble. Mais 11 d'entre elles en ont perdu : Montluçon (−7,8 %), Vierzon (−4,2 %), Mandelieu-la-Napoule (−4,4 %), Dieppe et Le Cannet (−3,4 %), Villeneuve-sur-Lot (−1,9 %), Bergerac (−1,5 %), Hyères (−0,7 %), Brive-la-Gaillarde (−0,5 %), Cannes et Saintes (−0,2 %). Le vieillissement balnéaire s'accompagne d'une population stable ou croissante ; celui de l'intérieur industriel d'un recul. Les deux situations n'ont pas les mêmes conséquences sur les services de santé et le commerce."
+      },
+      {
+        heading: "Que coûte le logement dans les villes âgées ?",
+        body: "Moins que dans les villes jeunes, sauf au bord de la mer. Dans les 79 villes à 12 % de 75 ans et plus ou davantage, le studio de référence de notre estimation des loyers est à 480 € en médiane et le prix d'achat à 2 400 € le m². Dans les 71 villes à 6 % ou moins, ils sont à 620 € et 3 500 €. Les 27 villes à 15 % ou plus restent à 490 € et 2 600 € le m², mais cette médiane cache les stations : Cannes (1 850 € pour un studio), Mandelieu-la-Napoule (1 800 €) et Biarritz (1 730 €) sont parmi les plus chères de France. Vichy et Montluçon (350 € et 360 € pour un studio) sont à l'inverse parmi les moins chères."
+      },
+      {
+        heading: "Pour qui ce classement est-il utile ?",
+        body: "Pour un retraité qui veut s'installer là où l'offre de santé, de commerces de proximité et d'associations est calibrée pour lui, et qui préfère un cadre calme à une vie nocturne. Pour une famille ou un jeune actif, il sert à repérer les villes où l'offre de petite enfance, de sorties et de logements de petite taille sera moins dense. Pour un aidant, il indique où le maillage de services à domicile devrait exister. Croisez-le avec nos guides sur les villes seniors, l'accès aux soins et le climat, car l'âge moyen d'une ville ne dit rien de la qualité de ses hôpitaux."
+      }
+    ],
+    relatedCities: ["saint-raphael", "biarritz", "les-sables-d-olonne", "vichy", "cannes", "saint-malo", "bergerac", "montlucon", "nice", "toulon", "perpignan", "cergy"],
+    relatedGuides: ["villes-seniors-retraite-france", "meilleures-villes-seniors-actifs-france-2026", "villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026", "villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026"],
+    tags: ["villes les plus âgées", "part des 75 ans et plus", "vieillissement par ville", "où habitent les retraités", "démographie par ville", "villes seniors"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

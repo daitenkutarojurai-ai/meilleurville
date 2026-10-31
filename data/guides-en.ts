@@ -56305,6 +56305,98 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["limoges", "bordeaux", "poitiers", "clermont-ferrand", "brive-la-gaillarde"],
     tags: ["leaving limoges", "limousin", "bordeaux", "poitiers", "limoges alternatives", "relocation"],
   },
+  {
+    slug: "fastest-growing-and-shrinking-cities-in-france-2016-2022-413-cities",
+    title: "France's fastest-growing and fastest-shrinking cities: 413 cities compared, 2016-2022",
+    metaTitle: "Fastest-growing cities in France, 2016-2022: 413 ranked",
+    metaDesc: "Romainville +33.2%, Villenave-d'Ornon +28.8%, Bezons +18.4%: 413 French cities of 20,000+ ranked by population change 2016-2022 (INSEE).",
+    category: "lifestyle",
+    emoji: "📈",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Romainville grew by 33.2% between 2016 and 2022, Villenave-d'Ornon by 28.8% and Bezons by 18.4%: the three biggest jumps among the 413 French cities of 20,000 people or more that we have both censuses for. Overall 293 cities gained residents and 118 lost them; the median city grew 2.4% in six years, about 0.4% a year. This guide ranks them on a published measure, INSEE's municipal populations for the 2016 and 2022 censuses on the same municipal boundaries, and looks at what growth does to rents and prices.",
+    sections: [
+      {
+        heading: "Which French cities are growing fastest?",
+        body: "In order: Romainville (+33.2%, or 8,804 more residents on a base of 35,314), Villenave-d'Ornon (+28.8%, +9,435), Bezons (+18.4%), Saint-Laurent-du-Maroni (+18.1%, +7,933), Bagnolet (+16.5%), Cugnaux (+13.9%), Cormeilles-en-Parisis (+13.2%), Saint-Cyr-l'École (+13.1%), Les Sables-d'Olonne (+12.8%), Challans (+12.7%), then Alès and Couëron (+12.6% each), Blagnac (+12.5%), Tournefeuille (+12.4%), Neuilly-sur-Marne (+11.9%), Bègles (+11.7%), Lingolsheim (+11.4%), La Courneuve (+10.8%), Six-Fours-les-Plages (+10.8%) and Vertou (+10.5%). Twenty-six cities are up 10% or more and 125 are up 5% or more. Nearly all the biggest jumps are towns of 20,000 to 50,000 people, where one large housing programme moves the total. The ranking describes a flow of households, not quality of life."
+      },
+      {
+        heading: "Is growth in headcount the same list as growth in percent?",
+        body: "No. By headcount the big cities dominate: Toulouse (+36,246), Montpellier (+25,488), Nantes (+18,376), Marseille (+15,004), Bordeaux (+13,288), Villeurbanne (+13,188), Strasbourg (+12,425), Rennes (+11,562), Toulon (+11,200) and Nice (+11,064). Relative to size, Marseille grew only 1.7%, Nice 3.2% and Lyon 1.0%. Montpellier (+9.1%), Villeurbanne (+8.8%) and Toulouse (+7.6%) are strong on both counts. For pressure on the local housing market the percentage matters more: 25,000 arrivals in a city of 300,000 is not the same shock as 9,000 in a town of 30,000."
+      },
+      {
+        heading: "What is happening in the 42 cities of 100,000 or more?",
+        body: "Ten lost residents and thirty-two gained, with a median close to +2.5%. Leaders: Montpellier (+9.1%), Villeurbanne (+8.8%), Toulouse (+7.6%), Toulon (+6.6%), Nantes (+6.0%), Rouen (+5.6%), Rennes and Bordeaux (+5.3% each), Strasbourg (+4.4%) and Angers (+4.2%). Losers: Mulhouse (−3.7%), Paris (−3.5%), Argenteuil (−3.0%), Reims (−2.5%), Le Havre (−2.3%), Limoges (−2.2%), Grenoble (−1.1%), Perpignan (−0.7%), Nîmes (−0.4%) and Nancy (−0.2%). Paris ranks 384th of 413. Smaller households probably explain part of that, as in several of its inner suburbs. Mid-sized cities of 50,000 to 100,000 (89 of them) post the best median, +2.9%, ahead of the 282 cities under 50,000 (+2.3%)."
+      },
+      {
+        heading: "Which cities are losing the most residents?",
+        body: "Calais (−9.9%, or 7,393 fewer people), Saint-Dizier (−8.5%), Montluçon (−7.8%), Le Robert in Martinique (−7.6%), Fort-de-France (−7.2%), Belfort (−6.8%), Saint-Mandé (−6.6%), Beaune (−6.5%), Le Kremlin-Bicêtre (−6.4%), Montrouge (−5.8%), Charenton-le-Pont (−5.7%) and Longjumeau (−5.3%), then Les Abymes, Épernay, Laon, Mandelieu-la-Napoule, Chaumont, Vierzon, Agen and Bondy between −4.0% and −4.6%. Twelve cities fall 5% or more, thirty-eight fall 3% or more. Two kinds stand out: industrial or administrative mid-sized towns in the east and centre (Calais, Saint-Dizier, Montluçon, Belfort, Chaumont, Vierzon), where housing is cheap, and well-off inner suburbs of Paris (Saint-Mandé, Montrouge, Charenton-le-Pont), where the drop mostly reflects smaller households in a housing stock that no longer grows."
+      },
+      {
+        heading: "Which regions are rising and which are falling?",
+        body: "The highest regional medians are in French Guiana (+18.1%, two cities), Corsica (+9.1%, two cities), Pays de la Loire (+5.9%, 19 cities) and Occitanie (+5.7%, 22 cities), followed by La Réunion (+3.6%, 10 cities) and Brittany (+3.3%, 10 cities). The lowest are Martinique (−7.2%, three cities), Grand Est (−0.2%, 23 cities), Guadeloupe and Normandy (+0.2%), Hauts-de-France (+0.4%, 30 cities) and Bourgogne-Franche-Comté (+0.9%). Île-de-France, with 153 cities, sits at +2.7% but has the widest internal gap, from Romainville, Bezons and Bagnolet at the top to Saint-Mandé, Le Kremlin-Bicêtre and Paris at the bottom. The Atlantic-to-Occitanie arc attracts people; the north-east moves little."
+      },
+      {
+        heading: "Do rents and prices follow population?",
+        body: "Clearly. In the 125 cities growing 5% or more, the reference studio in our rent estimate has a median of €600 and the purchase price is €3,500 per m². In the 38 cities shrinking 3% or more, they drop to €500 and €2,500 per m². All 413 cities together stand at €580 and €3,200 per m². So you pay about 20% more in rent and 40% more to buy where everyone is arriving. It is a pointer, not a law: Alès (€380 for a studio), Challans (€450) and Les Sables-d'Olonne (€550) grew more than 12% with moderate rents, and Paris lost residents while keeping the highest rents in France."
+      },
+      {
+        heading: "What should you do with this ranking, and what are its limits?",
+        body: "Three uses. If you are buying, a city that adds 10% in six years has solid demand, so prices are higher and competition is tougher; a city that loses 5% offers room to negotiate but a less certain resale. If you are renting, growth predicts tension: more applicants per listing and files that need to be ready faster. If you have children, cross it with our schools and healthcare rankings, because facilities in a fast-growing town tend to catch up with the population late. Limits: the sample excludes municipalities under 20,000 at the 2022 census, so places that fell below that line are not in it; the census counts residents, with second homes handled separately; and a six-year change is not a guaranteed trend for the next six."
+      }
+    ],
+    relatedCities: ["romainville", "villenave-d-ornon", "bezons", "saint-laurent-du-maroni", "toulouse", "montpellier", "nantes", "les-sables-d-olonne", "ales", "calais", "montlucon", "paris"],
+    tags: ["fastest growing cities in France", "population change by city", "shrinking French cities", "2022 census", "city population growth", "where people are moving in France"],
+  },
+  {
+    slug: "oldest-cities-in-france-share-of-over-75s-413-cities-2026",
+    title: "France's oldest cities: the share of residents aged 75 and over in 413 cities",
+    metaTitle: "Oldest cities in France: share of residents aged 75+",
+    metaDesc: "Saint-Raphaël 22.6%, Biarritz 21.2%, Les Sables-d'Olonne 20.2%: 413 French cities of 20,000+ ranked by share of residents aged 75 and over (INSEE 2022).",
+    category: "lifestyle",
+    emoji: "🧓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Saint-Raphaël is the oldest city in France among the 413 municipalities of 20,000 people or more: 22.6% of residents are 75 or over, against 8.8% in the median city. Biarritz (21.2%), Les Sables-d'Olonne (20.2%), Vichy (20.0%) and Mandelieu-la-Napoule (18.1%) follow; Saint-Laurent-du-Maroni closes the table at 1.0%. This guide measures a city's age with one precise figure, the share of residents aged 75 and over in INSEE's 2022 census, and shows where you would live among retirees, where you would barely meet any, and what that does to housing costs.",
+    sections: [
+      {
+        heading: "Why use the 75-and-over share rather than the 60-and-over share?",
+        body: "Because at 60 or 65 most people are still active, mobile and settled, while from 75 the needs change: access to doctors, step-free housing, shops within walking distance, transport. The share aged 75 and over is a better measure of what a city has to provide than the share of seniors in the broad sense. We compute it from the 75-89 and 90-and-over brackets of INSEE's 2022 census, across 413 municipalities of 20,000 or more. It describes composition, not quality: an older city is not better or worse, it is equipped differently."
+      },
+      {
+        heading: "Which are the oldest cities in France?",
+        body: "Saint-Raphaël (22.6%), Biarritz (21.2%), Les Sables-d'Olonne (20.2%), Vichy (20.0%), Mandelieu-la-Napoule (18.1%), Six-Fours-les-Plages (17.6%), Cannes (17.3%), Bergerac (17.2%), Saint-Malo (16.9%), Hyères (16.7%), Sète (16.6%), Concarneau and Saintes (16.1% each), Villeneuve-sur-Lot, Montluçon and Agde (16.0%), Vierzon (15.9%), Anglet (15.8%), Cagnes-sur-Mer (15.7%) and Dax (15.6%). Twenty-seven cities exceed 15% and seventy-nine reach 12% or more. The list mixes two geographies: the Mediterranean and Atlantic coasts, where people retire to, and a few spa or inland towns (Vichy, Bergerac, Montluçon, Vierzon) where the age structure has aged without the pull of the seaside."
+      },
+      {
+        heading: "Where are residents aged 75 and over rarest?",
+        body: "In French Guiana, Seine-Saint-Denis and the new towns of the outer Paris region. Saint-Laurent-du-Maroni is at 1.0%, then Bussy-Saint-Georges (2.8%), Cergy (2.9%), Guyancourt and Savigny-le-Temple (3.5%), La Courneuve and Cayenne (3.6%), Aubervilliers, Clichy-sous-Bois and Trappes (3.8%). Thirty-one cities are at 5% or less, and 56 of the 71 cities at 6% or less are in Île-de-France. These are towns of families, students and young workers, with opposite needs: nurseries, schools, evening transport."
+      },
+      {
+        heading: "What about the big cities?",
+        body: "Among the 42 cities of 100,000 or more, the oldest are Nice (12.4%), Toulon (12.1%), Perpignan (11.6%), Limoges and Le Mans (11.3%), Saint-Étienne (11.2%), Annecy and Nîmes (10.7%), Tours (10.3%) and Aix-en-Provence (10.2%). Paris is at 8.4%, 227th of 413. The youngest are Saint-Denis (4.3%), Lille (5.0%), Montreuil (5.3%), Saint-Paul on La Réunion (5.5%), Argenteuil (5.8%), Toulouse (6.5%) and Villeurbanne (6.9%). The university metropolises of the west and south-west, Rennes (7.6%), Bordeaux (7.5%), Montpellier (7.3%) and Nantes (7.2%), sit below the national median."
+      },
+      {
+        heading: "Which regions are the oldest?",
+        body: "The highest regional median is Provence-Alpes-Côte d'Azur (12.3%, 33 cities), ahead of Occitanie (12.2%, 22 cities), Brittany and Nouvelle-Aquitaine (12.0%). The lowest are French Guiana (3.6%, two cities), La Réunion (5.2%, ten cities), then Île-de-France (6.6%, 153 cities) and Hauts-de-France (8.5%). Outside Île-de-France the median city is at 10.5%, against 6.6% in the capital region: it is the most structuring gap on the map."
+      },
+      {
+        heading: "Is an old city a declining city?",
+        body: "Not necessarily. The 27 cities at 15% or more grew by a median 3.4% between 2016 and 2022, slightly better than all cities. But 11 of them lost residents: Montluçon (−7.8%), Mandelieu-la-Napoule (−4.4%), Vierzon (−4.2%), Dieppe and Le Cannet (−3.4%), Villeneuve-sur-Lot (−1.9%), Bergerac (−1.5%), Hyères (−0.7%), Brive-la-Gaillarde (−0.5%), Cannes and Saintes (−0.2%). Seaside ageing tends to come with a stable or growing population; ageing in the industrial interior with a shrinking one. The two have different consequences for healthcare and shops."
+      },
+      {
+        heading: "What does housing cost in older cities?",
+        body: "Less than in young cities, except by the sea. In the 79 cities with 12% or more residents aged 75+, the reference studio in our rent estimate has a median of €480 and the purchase price €2,400 per m². In the 71 cities at 6% or less they are €620 and €3,500. The 27 cities at 15% or more stay at €490 and €2,600 per m², but that median hides the resorts: Cannes (€850 for a studio), Mandelieu-la-Napoule (€800) and Biarritz (€730) are among the dearest in France. Vichy and Montluçon (€350 and €360 for a studio) are among the cheapest."
+      },
+      {
+        heading: "Who is this ranking useful for?",
+        body: "For a retiree who wants healthcare, local shops and clubs scaled to their age group, and prefers calm to nightlife. For a family or a young worker, it flags the cities where childcare, going out and small flats will be thinner. For a family carer, it shows where home-care networks should exist. Cross it with our guides on cities for seniors, access to healthcare and climate, because a city's average age says nothing about the quality of its hospitals."
+      }
+    ],
+    relatedCities: ["saint-raphael", "biarritz", "les-sables-d-olonne", "vichy", "cannes", "saint-malo", "bergerac", "montlucon", "nice", "toulon", "perpignan", "cergy"],
+    tags: ["oldest cities in France", "share of over-75s", "ageing by city", "where retirees live in France", "city demographics", "cities for seniors"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
