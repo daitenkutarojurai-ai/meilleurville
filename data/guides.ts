@@ -18480,6 +18480,276 @@ export const GUIDES: Guide[] = [
     tags: ["vivre sans voiture Dijon", "Divia tram Dijon", "DiviaVélo Dijon", "mobilité douce Dijon", "sans voiture Bourgogne 2026"],
   },
   {
+    slug: "vivre-sans-voiture-angers-guide-2026",
+    title: "Vivre sans voiture à Angers en 2026 : trois lignes de tram, un T2 à 750 €",
+    metaTitle: "Vivre sans voiture à Angers 2026 : tram A, B, C et loyers",
+    metaDesc: "Angers a trois lignes de tram depuis juillet 2023 et un T2 à 750 € sur notre estimation. Réseau, loyers, limites et comparaison avec Tours et Nantes.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Oui, on peut vivre sans voiture à Angers : trois lignes de tram desservent la ville depuis juillet 2023, et un deux-pièces y coûte 750 € par mois (source : notre estimation des loyers). Notre score transport est de 7,0/10, au 131e rang sur 593 à égalité avec 43 autres villes, donc bon sans atteindre Nantes ni Rennes (8,1/10, 43e rang). Le vrai arbitrage se joue ailleurs : Angers est la ville la plus chère de ce lot pour se loger, et la desserte ne dispense pas du train dès qu'on sort de l'agglomération.",
+    sections: [
+      {
+        heading: "Quel réseau pour se passer de voiture à Angers ?",
+        body: "Le tram d'Angers a une ligne A depuis 2011, rejointe par les lignes B et C mises en service le 8 juillet 2023, avec 10,1 km de voies nouvelles. Le réseau de bus Irigo a été restructuré en même temps, et il est exploité par RD Angers, filiale de RATP Dev. Trois lignes de tram desservent une ville de 157 555 habitants (source : Insee, recensement 2022). Nous ne donnons ni fréquence ni tarif, que nous n'avons pas pu vérifier : consultez le site d'Irigo avant de choisir votre quartier.",
+      },
+      {
+        heading: "Combien coûte un logement bien desservi ?",
+        body: "Notre estimation des loyers donne 540 € pour un studio, 750 € pour un T2 et 1 000 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 3 143 € le m², sur 3 219 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). C'est 50 € de plus par mois pour un T2 qu'à Tours (700 €) et 316 € de plus par m² (2 827 € à Tours). En contrepartie, Angers coûte 100 € de moins qu'à Nantes pour un T2 (850 €). Se loger près d'une station de tram est donc le premier poste à arbitrer.",
+      },
+      {
+        heading: "Angers est-elle assez grande pour y renoncer à la voiture ?",
+        body: "La population d'Angers est de 157 555 habitants en 2022, contre 151 229 en 2016, soit +4,2 % (source : Insee, recensement 2022). Notre score qualité de vie est de 7,2/10, un des meilleurs de ce lot, et le niveau de vie médian de 21 450 € par an avec 21 % de pauvreté, est comparable à celui de Tours et de Caen (source : Insee, Filosofi 2021). Une ville de cette taille concentre l'essentiel des services en centre-ville, ce qui réduit le besoin de véhicule pour les courses, la santé et les démarches.",
+      },
+      {
+        heading: "Ce qui reste difficile sans voiture à Angers",
+        body: "Notre score nature est de 5,6/10 : les sorties en pleine nature, sur les bords de Loire ou dans le Maine-et-Loire, demandent un vélo solide, un TER ou un covoiturage. Notre score transport de 7,0/10 reste en dessous de celui de Nantes (8,1/10), signe d'un réseau moins dense en dehors des trois lignes. Si votre travail est dans une zone d'activités périphérique, vérifiez d'abord qu'une ligne de bus y arrive et à quelle heure avant de renoncer à la voiture.",
+      },
+      {
+        heading: "Angers, Tours ou Nantes pour vivre sans voiture ?",
+        body: "Nantes cumule 8,1/10 en transport et un T2 à 850 €, soit 100 € de plus qu'à Angers. Tours est à 7,0/10 comme Angers, avec un T2 à 700 € mais une seule ligne de tram. Angers se place donc entre les deux : la desserte la plus fournie des villes à 7,0/10 de ce lot (trois lignes de tram), pour un loyer inférieur à celui de Nantes. Si le loyer prime, regardez Tours ; si c'est la desserte, Nantes ; si vous voulez le meilleur compromis, Angers.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant ou jeune actif sans voiture : Angers fonctionne, à condition de loger à proximité d'une des trois lignes et de viser 540 € pour un studio. Couple sans enfant : le T2 à 750 € et la desserte rendent la voiture facultative en semaine. Famille avec trois enfants et un travail en périphérie : la voiture reste utile, et un T3 à 1 000 € près du tram est un budget à vérifier. Télétravailleur : le tram suffit pour le quotidien, un TER ou un covoiturage pour le reste.",
+      },
+    ],
+    relatedCities: ["angers", "tours", "nantes"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-angers-2026",
+      "angers-vs-tours-comparatif-2026",
+    ],
+    tags: ["vivre sans voiture Angers", "tram Angers lignes A B C", "Irigo Angers", "mobilité douce Angers", "sans voiture Maine-et-Loire 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-tours-guide-2026",
+    title: "Vivre sans voiture à Tours en 2026 : une ligne de tram et un T2 à 700 €",
+    metaTitle: "Vivre sans voiture à Tours 2026 : tram, Fil Bleu, Vélociti",
+    metaDesc: "Tours n'a qu'une ligne de tram, mais un T2 à 700 € sur notre estimation et un centre compact. Réseau Fil Bleu, loyers et limites, avec Angers et Orléans.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "À Tours, vivre sans voiture est possible mais repose sur une seule ligne de tram : la ligne A, en service depuis le 31 août 2013, complétée par le bus Fil Bleu et par le vélo. En échange, le loyer reste doux, avec 700 € pour un deux-pièces sur notre estimation des loyers. Notre score transport est de 7,0/10, au 131e rang sur 593 à égalité avec 43 autres villes, soit le même niveau qu'Angers qui compte trois lignes. La question à vous poser est donc moins « y a-t-il un tram ? » que « mon logement et mon travail sont-ils sur le trajet de la ligne A ? ».",
+    sections: [
+      {
+        heading: "Que dessert le réseau Fil Bleu à Tours ?",
+        body: "La ligne A du tram relie le lycée Vaucanson, à Tours-Nord, au lycée Jean-Monnet, au sud de Joué-lès-Tours, en suivant à peu près l'ancienne ligne de bus 1. Le réseau Fil Bleu, exploité par Keolis Tours pour Tours Métropole Val de Loire, assure le reste par bus. Une ligne B, de La Riche à Chambray, est envisagée, mais les dates annoncées divergent d'une source à l'autre : nous ne comptons pas dessus pour choisir où habiter.",
+      },
+      {
+        heading: "À vélo : Vélociti et un centre compact",
+        body: "Vélociti est un service de location de vélos longue durée lancé en 2006, géré par le Syndicat des mobilités de Touraine pour les habitants des communes desservies par Fil Bleu. Louer un vélo à l'année évite l'achat d'un modèle de qualité et le risque de vol. Pour une ville de 138 668 habitants (source : Insee, recensement 2022), la compacité du centre rend le vélo crédible pour les trajets du quotidien, ce que le tram seul ne permet pas.",
+      },
+      {
+        heading: "Quel loyer près de la ligne A ?",
+        body: "Notre estimation des loyers donne 510 € pour un studio, 700 € pour un T2 et 940 € pour un T3 par mois. Le prix médian des appartements est de 2 827 € le m² sur 3 239 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). C'est 50 € de moins qu'à Angers pour un T2 (750 €) et 316 € de moins par m² (3 143 €). Orléans affiche le même T2 à 700 € mais un m² inférieur de 289 € (2 538 €), pour une desserte moins bien notée (6,4/10).",
+      },
+      {
+        heading: "La ville assure-t-elle le reste du quotidien ?",
+        body: "Tours gagne 2 103 habitants entre 2016 (136 565) et 2022 (138 668), soit +1,5 % (source : Insee, recensement 2022). Notre score qualité de vie est de 6,6/10 et notre score nature de 5,0/10. Le niveau de vie médian est de 21 250 € par an, avec 21 % de pauvreté (source : Insee, Filosofi 2021). Ces chiffres décrivent une ville équilibrée, sans excès de cherté, où l'on trouve en centre-ville ce dont on a besoin au quotidien.",
+      },
+      {
+        heading: "Le point faible : une seule ligne de tram",
+        body: "Avec une seule ligne de tram, une grande partie de l'agglomération dépend du bus. Un logement proche de la ligne A change tout : le même T2 à 700 € loin de la ligne peut vous obliger à prendre le bus pour chaque trajet. Pour un travail dans une zone d'activités, vérifiez la ligne de bus et ses horaires de soirée avant de vous engager, car nous n'avons pas de fréquences vérifiées à vous donner.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 510 € et la proximité de la ligne A rendent la voiture inutile. Couple de télétravailleurs : Tours convient, avec un T2 à 700 € et le vélo en location. Famille avec enfants dispersés dans plusieurs écoles : la voiture reste souvent plus simple, car le tram ne couvre qu'un axe. Senior autonome : le centre compact et le tram suffisent, à condition d'habiter près d'un arrêt.",
+      },
+    ],
+    relatedCities: ["tours", "angers", "orleans"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-tours-2026",
+      "angers-vs-tours-comparatif-2026",
+    ],
+    tags: ["vivre sans voiture Tours", "tram Tours ligne A", "Fil Bleu Tours", "Vélociti Tours", "sans voiture Touraine 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-caen-guide-2026",
+    title: "Vivre sans voiture à Caen en 2026 : le tram sur rails depuis 2019",
+    metaTitle: "Vivre sans voiture à Caen 2026 : tram T1 T2 T3, Twisto, Vélolib",
+    metaDesc: "Caen a trois lignes de tram sur rails depuis juillet 2019 et un T2 à 700 € sur notre estimation. Réseau, loyers, limites, avec Rouen et Le Havre.",
+    category: "lifestyle",
+    emoji: "🚊",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Caen est devenue plus facile à vivre sans voiture depuis le 27 juillet 2019, date de mise en service d'un tramway sur rails à trois lignes (T1, T2, T3) qui a remplacé le tram sur pneus. Le loyer d'un deux-pièces est de 700 € sur notre estimation des loyers, soit 20 € de moins qu'à Rouen. Notre score transport est de 7,0/10, au 131e rang sur 593 à égalité avec 43 autres villes, ce qui place Caen devant Rouen (6,7/10) et Le Havre (6,2/10) dans la région.",
+    sections: [
+      {
+        heading: "Qu'est-ce qui a changé avec le tram de 2019 ?",
+        body: "Le tram sur pneus, en service de 2002 à 2017, a été arrêté le 31 décembre 2017 pour laisser place au tramway sur rails, ouvert le 27 juillet 2019 avec trois lignes (T1, T2, T3) et 37 stations selon les sources que nous avons recoupées. Le réseau est géré sous la marque Twisto. Le tram dessert Caen mais aussi des communes voisines, comme Hérouville-Saint-Clair et Fleury-sur-Orne, ce qui compte pour qui loge ou travaille en périphérie.",
+      },
+      {
+        heading: "Quel loyer à Caen pour bien se déplacer ?",
+        body: "Notre estimation des loyers donne 510 € pour un studio, 700 € pour un T2 et 930 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 893 € le m², sur 3 216 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). C'est 201 € de plus par m² qu'à Rouen (2 692 €) mais 20 € de moins par mois pour un T2 (720 €). Le Havre reste moins cher : 650 € pour un T2 et 2 237 € le m².",
+      },
+      {
+        heading: "Une ville de 108 398 habitants : les distances restent courtes",
+        body: "Caen compte 108 398 habitants en 2022, contre 105 403 en 2016, soit +2,8 % (source : Insee, recensement 2022). Le niveau de vie médian est de 21 600 € par an, avec 21 % de pauvreté (source : Insee, Filosofi 2021), le plus élevé de ce lot de villes. Notre score qualité de vie est de 6,6/10 et notre score sécurité de 5,9/10. Sur une ville de cette taille, de nombreux trajets tiennent à pied ou à vélo, et le tram prend le relais pour les plus longs.",
+      },
+      {
+        heading: "Vélolib et le vélo à Caen",
+        body: "Le service de vélos en libre-service Vélolib a été lancé le 31 janvier 2018 ; les sources divergent sur le nombre de stations (22 ou 23 en 2019), donc nous ne le citons pas. Ce service complète le tram sur les derniers kilomètres. Notre score nature de 5,6/10 indique qu'il faudra un moyen de transport pour les escapades de pleine nature autour de Caen.",
+      },
+      {
+        heading: "Les limites sans voiture",
+        body: "Le tram suit trois axes : les quartiers qui ne sont ni sur T1, T2 ni T3 dépendent du bus. Pour un emploi en zone d'activités ou en périphérie de l'agglomération, l'accès en transports en commun est à vérifier ligne par ligne avant de signer un bail. Un score transport de 7,0/10 reste au niveau d'Angers et de Tours, et inférieur de 1,1 point à celui de Nantes et Rennes (8,1/10).",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 510 € et le tram vers les campus rendent la voiture inutile. Couple actif : Caen fonctionne si l'un des deux travaille sur un axe du tram. Famille de plusieurs enfants : un T3 à 930 € près d'une station est possible, mais les trajets scolaires dispersés peuvent justifier une voiture. Retraité : le centre compact et le tram suffisent, avec un score qualité de vie de 6,6/10.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "le-havre"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-caen-2026",
+      "caen-vs-rouen-comparatif-2026",
+    ],
+    tags: ["vivre sans voiture Caen", "tramway Caen T1 T2 T3", "Twisto Caen", "Vélolib Caen", "sans voiture Normandie 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-brest-guide-2026",
+    title: "Vivre sans voiture à Brest en 2026 : tram, téléphérique et T2 à 650 €",
+    metaTitle: "Vivre sans voiture à Brest 2026 : tram A et B, téléphérique",
+    metaDesc: "Brest a un tram depuis 2012, un téléphérique urbain depuis 2016 et une ligne B ouverte en février 2026. T2 à 650 € sur notre estimation. Comparaison avec Rennes.",
+    category: "lifestyle",
+    emoji: "🚠",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Brest est la seule ville de ce lot où un téléphérique urbain fait partie du réseau de transport, et le loyer y est le plus bas du lot avec celui du Mans : 650 € pour un T2 sur notre estimation des loyers, contre 820 € à Rennes. La ligne A du tram date de 2012, le téléphérique de 2016, et la ligne B a ouvert le 14 février 2026. Notre score transport est de 6,4/10, au 200e rang sur 593 à égalité avec 47 autres villes : la desserte est donc inférieure à celle d'Angers ou de Caen, mais le logement coûte nettement moins.",
+    sections: [
+      {
+        heading: "Quel réseau Bibus pour se passer de voiture à Brest ?",
+        body: "Le réseau Bibus comprend la ligne A du tram (ouverte en 2012, de la porte de Plouzané aux portes de Gouesnou et Guipavas), un téléphérique urbain qui relie le quartier de Jean-Moulin aux Ateliers, ouvert en 2016 comme premier téléphérique urbain de France, et la ligne B du tram, ouverte le 14 février 2026 entre la gare et le CHU La Cavale sur 5,1 km. Elle est connectée à la ligne A à Liberté. Un titre Bibus est valable sur le tram, le bus et le téléphérique. La ligne B est trop récente pour qu'on en tire un bilan.",
+      },
+      {
+        heading: "Combien coûte un logement à Brest ?",
+        body: "Notre estimation des loyers donne 480 € pour un studio, 650 € pour un T2 et 850 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 134 € le m², sur 3 620 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). À Rennes, un T2 coûte 820 € et un T3 1 100 € : l'écart est de 170 € par mois sur le T2, soit 2 040 € par an, avant la différence de prix au m² (3 667 € à Rennes).",
+      },
+      {
+        heading: "Une ville assez grande pour vivre sans voiture ?",
+        body: "Brest compte 140 993 habitants en 2022, contre 139 342 en 2016, soit +1,2 % (source : Insee, recensement 2022). Le niveau de vie médian est de 21 420 € par an, avec 19 % de pauvreté, la part la plus basse du lot (source : Insee, Filosofi 2021). Notre score nature est de 6,4/10, le meilleur du lot, et notre score coût de la vie de 6,4/10.",
+      },
+      {
+        heading: "Brest, Rennes ou Quimper : quelle desserte ?",
+        body: "Rennes obtient 8,1/10 en transport (43e rang), Brest 6,4/10 (200e), Quimper 5,5/10 (332e rang, à égalité avec 24 autres villes). Le T2 est à 820 € à Rennes, 650 € à Brest et 700 € à Quimper. Brest est donc la moins chère des trois, et la desserte y est nettement meilleure qu'à Quimper. Si votre emploi est à Rennes, la question change : le trajet interurbain, non la ville, devient l'enjeu.",
+      },
+      {
+        heading: "Les limites sans voiture à Brest",
+        body: "Les trois modes (tram, téléphérique, bus) se concentrent sur le centre et quelques axes. Un quartier hors de la ligne A ou B dépend du bus, et la Bretagne hors agglomération s'explore difficilement sans voiture. Notre score transport de 6,4/10 est celui d'une ville correctement desservie sans être une métropole.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 480 € et la ligne B vers le CHU rendent la voiture facultative. Couple actif : le T2 à 650 € permet un budget logement bas, avec un tram sur l'axe principal. Famille : un T3 à 850 € reste abordable, mais les trajets scolaires hors axe pèsent. Retraité : la mer et le cadre comptent, la ligne A et le téléphérique suffisent pour le quotidien.",
+      },
+    ],
+    relatedCities: ["brest", "rennes", "quimper"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-brest-2026",
+      "brest-vs-rennes-comparatif-2026",
+    ],
+    tags: ["vivre sans voiture Brest", "tramway Brest ligne A ligne B", "téléphérique Brest", "Bibus Brest", "sans voiture Finistère 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-le-mans-guide-2026",
+    title: "Vivre sans voiture au Mans en 2026 : deux lignes de tram, le T2 le moins cher du lot",
+    metaTitle: "Vivre sans voiture au Mans 2026 : tram T1 T2, Setram, loyers",
+    metaDesc: "Le Mans a deux lignes de tram et un T2 à 650 € sur notre estimation, mais un score transport de 6,1/10. Réseau Setram, loyers, limites, avec Tours et Angers.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Vivre sans voiture au Mans est possible si vous logez et travaillez sur l'axe des deux lignes de tram, T1 et T2, et le deux-pièces y coûte seulement 650 € sur notre estimation des loyers, contre 700 € à Tours et 750 € à Angers. Mais notre score transport n'est que de 6,1/10, au 281e rang sur 593 à égalité avec 19 autres villes : c'est le plus faible du lot. Le Mans est donc le choix économique, pas le choix de la desserte.",
+    sections: [
+      {
+        heading: "Que dessert le réseau Setram au Mans ?",
+        body: "Setram exploite deux lignes de tram, T1 et T2, qui desservent Le Mans et Coulaines, et une ligne de bus à haut niveau de service, T3 Tempo, qui dessert Le Mans et Allonnes. La T1 a perdu en 2014 sa branche vers l'ESPAL, reprise par la T2. Le réseau couvre les 19 communes de Le Mans Métropole. Un projet de troisième ligne de tram est mentionné par certaines sources, sans statut confirmé : nous n'en tenons pas compte.",
+      },
+      {
+        heading: "Combien coûte un logement au Mans ?",
+        body: "Notre estimation des loyers donne 470 € pour un studio, 650 € pour un T2 et 870 € pour un T3 par mois, les plus bas de ce lot de villes. Le prix médian des appartements est de 1 933 € le m², sur 2 356 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF), contre 2 827 € à Tours et 3 143 € à Angers. L'écart sur un achat de 50 m² est de près de 45 000 € avec Tours.",
+      },
+      {
+        heading: "Une grande ville qui s'étale : ce que dit la démographie",
+        body: "Le Mans compte 145 182 habitants en 2022, contre 142 991 en 2016, soit +1,5 % (source : Insee, recensement 2022). Le niveau de vie médian est de 21 180 € par an, avec 22 % de pauvreté (source : Insee, Filosofi 2021). Notre score qualité de vie est de 5,5/10 et notre score nature de 4,8/10.",
+      },
+      {
+        heading: "Le Mans, Tours ou Angers : combien vaut la différence de desserte ?",
+        body: "Tours et Angers obtiennent 7,0/10 en transport, Le Mans 6,1/10. Pour un T2, vous économisez 50 € par mois face à Tours et 100 € face à Angers, soit 600 à 1 200 € par an. En échange, la desserte est moins dense : deux lignes de tram contre trois à Angers. Le Mans a cependant un atout pour les déplacements longs : la gare est reliée à Paris en TGV en moins d'une heure.",
+      },
+      {
+        heading: "Les limites sans voiture",
+        body: "Avec un score de 6,1/10, une partie de l'agglomération n'est desservie que par bus, et les communes périphériques peuvent dépendre de la voiture. Notre score nature de 4,8/10 est le plus bas du lot après Rouen : prévoyez un moyen de transport pour les sorties nature. Avant de signer, comptez à pied la distance entre votre logement et un arrêt de tram T1 ou T2.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 470 € rend la ville abordable si le logement est proche d'un arrêt. Jeune actif travaillant à Paris par TGV : le Mans cumule loyer bas et gare bien placée. Famille : un T3 à 870 € est une bonne affaire, mais la voiture facilite souvent la vie hors des axes du tram. Si la desserte prime sur le loyer, choisissez Tours ou Angers.",
+      },
+    ],
+    relatedCities: ["le-mans", "tours", "angers"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "le-mans-vs-tours-comparatif-2026",
+      "acheter-a-le-mans-quel-quartier-budget-2026",
+    ],
+    tags: ["vivre sans voiture Le Mans", "tram Le Mans T1 T2", "Setram Le Mans", "mobilité Le Mans", "sans voiture Sarthe 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-rouen-guide-2026",
+    title: "Vivre sans voiture à Rouen en 2026 : métro, TEOR et T2 à 720 €",
+    metaTitle: "Vivre sans voiture à Rouen 2026 : métro, TEOR, Lovélo, loyers",
+    metaDesc: "Rouen a un métro, des TEOR et un vélo en libre-service, mais un score transport de 6,7/10 et un T2 à 720 €. Réseau Astuce, loyers, limites, avec Caen.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Rouen a un métro, des bus à haut niveau de service (TEOR et Fast) et un vélo en libre-service, ce qui en fait la seule ville de ce lot à proposer un métro. Notre score transport est pourtant de 6,7/10, au 185e rang sur 593 à égalité avec 12 autres villes, en dessous de Caen (7,0/10). Le loyer d'un T2 est de 720 € sur notre estimation des loyers, 20 € de plus qu'à Caen. La ville vaut donc le détour pour qui travaille sur l'axe du métro, moins pour qui vit en périphérie.",
+    sections: [
+      {
+        heading: "Quel réseau Astuce à Rouen ?",
+        body: "Le réseau Astuce de la métropole Rouen Normandie combine un métro (un tramway en tunnel dans le centre), des lignes TEOR en site propre, les lignes Fast et des bus. Les sources divergent sur le nombre exact de lignes TEOR, certaines évoquant l'ouverture d'une T5 fin 2025 : nous ne donnons pas de nombre. Les vélos pliants sont acceptés sur tout le réseau, les autres vélos sur le métro, les TEOR et les bus accessibles.",
+      },
+      {
+        heading: "Lovélo et le vélo à Rouen",
+        body: "L'ancien service Cy'clic a laissé place à Lovélo, un vélo en libre-service disponible jour et nuit, avec plusieurs centaines de vélos. Notre score nature de 4,5/10 est le plus bas du lot : pour les sorties en pleine nature, prévoyez un autre moyen de transport que le métro.",
+      },
+      {
+        heading: "Combien coûte un logement à Rouen ?",
+        body: "Notre estimation des loyers donne 520 € pour un studio, 720 € pour un T2 et 950 € pour un T3 par mois. Le prix médian des appartements est de 2 692 € le m², sur 3 532 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Caen est à 700 € pour un T2 et 2 893 € le m² : Rouen est donc 20 € plus chère en location mais 201 € moins chère à l'achat. Le Havre est à 650 € pour un T2.",
+      },
+      {
+        heading: "Une métropole en croissance, mais plus tendue",
+        body: "Rouen compte 116 331 habitants en 2022, contre 110 117 en 2016, soit +5,6 % (source : Insee, recensement 2022), la plus forte hausse du lot. Le niveau de vie médian est de 21 330 € par an, avec 23 % de pauvreté (source : Insee, Filosofi 2021). Notre score sécurité est de 4,7/10, le plus bas du lot, et notre score qualité de vie de 5,7/10 : ce sont des points à vérifier selon le quartier avant de louer.",
+      },
+      {
+        heading: "Rouen ou Caen sans voiture ?",
+        body: "Caen obtient 7,0/10 en transport, Rouen 6,7/10 ; Caen a un tram sur rails sur trois lignes, Rouen a un métro et des TEOR. La différence tient à la couverture de la périphérie, pas au mode. Le Havre est à 6,2/10 pour un T2 à 650 €. Pour un budget logement stable, Rouen est un compromis : 720 € contre 700 € à Caen, avec une croissance démographique plus rapide qui peut tendre le marché.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant ou jeune actif : le studio à 520 € et le métro suffisent si vous logez le long de l'axe. Couple actif : le T2 à 720 € est correct, avec une sécurité à vérifier selon le quartier. Famille : un T3 à 950 € est raisonnable, mais les trajets scolaires dispersés peuvent justifier une voiture. Si vous hésitez avec Caen, comparez les trajets domicile-travail, non les réseaux.",
+      },
+    ],
+    relatedCities: ["rouen", "caen", "le-havre"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-rouen-2026",
+      "caen-vs-rouen-comparatif-2026",
+    ],
+    tags: ["vivre sans voiture Rouen", "métro Rouen TEOR", "Astuce Rouen", "Lovélo Rouen", "sans voiture Normandie 2026"],
+  },
+  {
     slug: "meilleures-villes-sports-outdoor-plein-air-france-2026",
     title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
     metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade, kayak, ski, VTT",
