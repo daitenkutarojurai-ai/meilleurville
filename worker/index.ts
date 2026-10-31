@@ -41,6 +41,7 @@ import { rateLimit, rateLimitD1, getClientIp } from "@/lib/rate-limit";
 import { checkContent } from "@/lib/spam-filter";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { FR_TO_EN_CITY_SUB } from "@/lib/i18n";
+import { isEnNoindexPath } from "@/lib/en-index-policy";
 import {
   signSession,
   verifySession,
@@ -904,6 +905,19 @@ export default {
 
       const frTarget = frPathToEn(url.pathname);
       if (frTarget) return Response.redirect(`${frTarget}${url.search}`, 301);
+
+      // `/en/*` est l'arbre d'assets interne : servi tel quel, il doublait
+      // chaque page (`/en/cities/lyon` répondait 200 à côté de `/cities/lyon`).
+      // Les images OG (`/en/…/opengraph-image`) et les fichiers (RSC `.txt`)
+      // y vivent pour de vrai et ne sont pas redirigés.
+      const enTree = url.pathname.match(/^\/en(\/.*)?$/);
+      if (
+        enTree &&
+        !/\.[a-z0-9]+$/i.test(url.pathname) &&
+        !/-image\/?$/.test(url.pathname)
+      ) {
+        return Response.redirect(`${EN_ORIGIN}${enTree[1] ?? "/"}${url.search}`, 301);
+      }
     } else {
       // FR (mavilleideale.fr): canonical host is www.
       if (url.hostname === "mavilleideale.fr") {
@@ -999,6 +1013,16 @@ export default {
         const enUrl = new URL(url);
         enUrl.pathname = `/en${path === "/" ? "" : path}`;
         const enAsset = await env.ASSETS.fetch(new Request(enUrl, request));
+        // Pages gabarit gardées en ligne mais hors index (lib/en-index-policy.ts).
+        if (
+          enAsset.status === 200 &&
+          isEnNoindexPath(path) &&
+          (enAsset.headers.get("content-type") ?? "").includes("text/html")
+        ) {
+          const res = new Response(enAsset.body, enAsset);
+          res.headers.set("X-Robots-Tag", "noindex, follow");
+          return res;
+        }
         if (enAsset.status !== 404) return enAsset;
         const isInfraFile =
           /\.[a-z0-9]+$/i.test(path) || path === "/opengraph-image" || path.endsWith("/opengraph-image");

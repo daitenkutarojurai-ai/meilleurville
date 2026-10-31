@@ -503,6 +503,12 @@ Same repo, same build, two Vercel projects, two domains.
 - **Stay SSG.** EN pages use the same `generateStaticParams` pattern (540 cities at build).
 - **Cross-domain canonical.** FR canonical → `mavilleideale.fr/...`,
   EN canonical → `bestcitiesinfrance.com/...`. `hreflang` cross-links the two.
+- **EN n'indexe que ≈ 3 700 URL (2026-10-31).** Les pages gabarit par ville / par paire (42 sous-pages
+  ville, household-cost, gentrification, calculator, red-flags et vacations par ville, tags, synthèses…)
+  restent en ligne en `noindex, follow` (en-tête posé par le Worker) et sortent du sitemap EN. Liste unique :
+  `lib/en-index-policy.ts`, lue par le Worker, `app/sitemap.ts` et `sitemap:check`. Cause : 90 % du sitemap EN
+  était du gabarit à 70-97 % identique, sur un domaine sans lien externe → Google a lâché le domaine entier.
+  Une nouvelle famille EN programmatique entre dans cette liste par défaut.
 - **Adding EN content for a 11th city.** Add `descriptionEn`, `seoTitleEn`,
   `seoDescriptionEn` to the seed record. No other change required.
 

@@ -34,6 +34,7 @@ const emitsBiodiversity = (slug: string) =>
   BIODIVERSITY_PAGES_LIVE && hasBiodiversityData(slug);
 import { PROFILE_PAGES } from "@/lib/profile-pages";
 import { EXPAT_COUNTRIES } from "@/lib/expat-return";
+import { isEnNoindexPath } from "@/lib/en-index-policy";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -1592,7 +1593,14 @@ function vacancesSection(): MetadataRoute.Sitemap {
 // Next 16 passes `id` as Promise<string>. See:
 // node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-sitemaps.md
 export default async function sitemap({ id }: { id: Promise<string> }): Promise<MetadataRoute.Sitemap> {
-  const chunk = chunkAt(Number(await id));
+  const entries = chunkEntries(chunkAt(Number(await id)));
+  // Les pages gabarit EN restent en ligne mais hors index : on ne les déclare
+  // pas (lib/en-index-policy.ts). Le chunk garde son numéro, quitte à être vide.
+  if (!IS_EN) return entries;
+  return entries.filter((e) => !isEnNoindexPath(new URL(e.url).pathname));
+}
+
+function chunkEntries(chunk: Chunk | null): MetadataRoute.Sitemap {
   switch (chunk) {
     case "static": return staticSection();
     case "guides": return guideSection();

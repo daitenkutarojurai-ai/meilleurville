@@ -132,7 +132,13 @@ function walkPages(dir, out = []) {
 
 /** Le chemin public d'un `page.tsx`, et la locale qui le sert. */
 function routeOf(absPath) {
-  let route = absPath.slice(path.join(ROOT, "app").length).replace(/\/page\.tsx$/, "");
+  // Séparateurs normalisés : sous Windows `path.join` rend des `\`, et aucune
+  // route ne correspondait plus (le contrôle y échouait sur 65 000 lignes).
+  let route = absPath
+    .slice(path.join(ROOT, "app").length)
+    .split(path.sep)
+    .join("/")
+    .replace(/\/page\.tsx$/, "");
   // L'arbre `app/[locale]/**` n'est généré que pour `en`, et le Worker sert ces
   // pages sans préfixe sur bestcitiesinfrance.com.
   const locale = route.startsWith("/[locale]") ? "en" : "fr";
@@ -189,6 +195,10 @@ async function checkLocale(locale) {
   const { ORIGIN_BY_LOCALE } = load("lib/i18n.ts");
   const expectedOrigin = ORIGIN_BY_LOCALE[locale];
 
+  // Pages EN gardées en ligne mais hors index : absentes du sitemap à dessein.
+  const { isEnNoindexPath } = load("lib/en-index-policy.ts");
+  const keptOut = (route) => locale === "en" && isEnNoindexPath(route);
+
   const sitemap = load("app/sitemap.ts");
   const chunks = await sitemap.generateSitemaps();
 
@@ -233,7 +243,7 @@ async function checkLocale(locale) {
 
   // 2. Une route statique indexable et canonique d'elle-même doit être déclarée.
   for (const page of pages) {
-    if (isDynamic(page.route) || declared.has(page.route)) continue;
+    if (isDynamic(page.route) || declared.has(page.route) || keptOut(page.route)) continue;
     const reason = exemptFromSitemap(page.absPath, page.route);
     if (!reason) note(`route absente du sitemap — ${page.route}`);
   }
@@ -262,8 +272,9 @@ async function checkLocale(locale) {
     const owned = [...declared].filter((url) => page.re?.test(url) ?? routeRegExp(page.route).test(url));
     const declaredHere = new Set(owned.filter((url) => !staticRoutes.has(url)));
 
-    const missing = [...generated].filter((url) => !declaredHere.has(url));
+    const missing = [...generated].filter((url) => !declaredHere.has(url) && !keptOut(url));
     const extra = [...declaredHere].filter((url) => !generated.has(url));
+    for (const url of declaredHere) if (keptOut(url)) note(`URL noindex déclarée au sitemap — ${url}`);
     if (missing.length) {
       note(`${page.route} — ${missing.length} page(s) générée(s) sans URL au sitemap : ${missing.slice(0, 3).join(", ")}${missing.length > 3 ? "…" : ""}`);
     }
