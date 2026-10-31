@@ -56137,6 +56137,174 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["clermont-ferrand", "vichy", "riom", "issoire", "lyon"],
     tags: ["leaving clermont-ferrand", "auvergne", "vichy", "issoire", "clermont alternatives", "relocation"],
   },
+  {
+    slug: "leaving-mulhouse-where-to-go-2026",
+    title: "Leaving Mulhouse: Basel, Strasbourg, Colmar or Freiburg",
+    metaTitle: "Leaving Mulhouse 2026: Strasbourg, Colmar, Basel",
+    metaDesc:
+      "Mulhouse scores 5.8/10 and rents a T3 near €780. Staying and commuting to Basel, or moving to Strasbourg (7.5/10), Colmar or Freiburg: real price gaps.",
+    category: "city-guide",
+    emoji: "🇨🇭",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Mulhouse sits about 35 km from Basel in Switzerland and a short drive from the German border, which makes it one of the few French cities where leaving does not always mean moving. It scores 5.8/10 on our site, a T3 (three-room flat, two bedrooms) rents for around €780 and buying costs about €1,700/m², among the lowest of any large French city. People who leave are usually after a bigger job market, a better-regarded address or a different image, since Mulhouse carries a reputation as a former textile town that has struggled. Strasbourg scores 7.5/10 for about €1,080 a month and €3,800/m².",
+    sections: [
+      {
+        heading: "Why do people leave Mulhouse?",
+        body: "Three reasons come up. Jobs: the local market is industrial and public-sector heavy, and graduates in finance, tech or European affairs look towards Strasbourg, Basel or Paris. Image: the city has fought a hard reputation for years, and some households simply want a different postcode. Direction of travel: prices are low because demand is, and some buyers worry about resale. Against that, rents and prices here are a fraction of Alsace's other cities, which is why many people who 'leave' in fact keep their home and change their commute.",
+      },
+      {
+        heading: "The option that is not leaving: commute to Basel",
+        body: "Living in Mulhouse and working in Basel is common, and a regional train (TER) covers the distance in roughly half an hour. This is a tax and social-security decision before it is a housing one: where you pay income tax, and which health insurance covers you, depends on your residence, your employer's canton and the status you choose, and the rules differ from one case to the next. Get cross-border advice before signing a Swiss contract. Swiss salaries are higher than French ones, but we do not quote a figure here: it varies too widely by job and canton to be useful.",
+      },
+      {
+        heading: "Strasbourg: the regional capital",
+        body: "Strasbourg scores 7.5/10, with a T3 around €1,080 (about 38% above Mulhouse) and about €3,800/m² to buy (more than double). The train takes roughly an hour. It has a deeper graduate job market, the European institutions, a large university and a very good tram and cycling network. The price premium is real: a household that rents at €780 in Mulhouse needs about €300 more each month for the same flat size.",
+      },
+      {
+        heading: "Colmar: the compromise",
+        body: "Colmar scores 6.4/10, with a T3 around €1,000 and about €3,000/m² to buy. It is smaller (around 68,000 inhabitants), pretty and touristy, sitting on the Alsace wine route. It suits retirees, self-employed professionals and people attached to Alsace who want a calmer pace than Strasbourg. The job market is narrow, so most working residents commute to Mulhouse or further.",
+      },
+      {
+        heading: "Freiburg and Germany",
+        body: "Freiburg im Breisgau, across the Rhine, is a green university city about an hour away by road. It is a realistic move for German speakers and for researchers or students, but the health-insurance and tax systems are completely different from the French ones, so treat it as an emigration from the French system, not a commute. We hold no price data for Germany and quote none.",
+      },
+      {
+        heading: "Why some people come back",
+        body: "The usual stories: Basel commuters who tire of the daily journey, Strasbourg tenants who cannot afford to buy there, and families who find that the hospital, schools and sense of community in Mulhouse were worth more than they had counted. If you are leaving because of the city's image rather than a concrete need, look at the specific neighbourhood and school first: averages hide very different streets.",
+      },
+    ],
+    relatedCities: ["mulhouse", "strasbourg", "colmar", "belfort", "haguenau"],
+    tags: ["leaving mulhouse", "alsace", "basel cross-border", "strasbourg", "mulhouse alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-tours-where-to-go-2026",
+    title: "Leaving Tours: Paris, Nantes, Orléans or the Touraine countryside",
+    metaTitle: "Leaving Tours 2026: Nantes, Orléans, Paris, Amboise",
+    metaDesc:
+      "Tours scores 6.4/10 and rents a T3 near €940. Where people go: Paris by TGV, Nantes (6.9/10), Orléans or Amboise, with the real price differences.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Tours is one of the most sought-after mid-sized cities in France: a high-speed train (TGV) to Paris in about an hour, a Loire Valley setting with UNESCO listing and a good everyday quality of life. It scores 6.4/10 on our site, a T3 (three-room flat, two bedrooms) rents for around €940 and buying is about €2,700/m². The reasons to leave are specific: a graduate job market narrower than the city's size suggests, prices that have risen faster than local salaries, and summer tourism pressure on the old town. Nantes scores 6.9/10 for a higher rent (about €1,150) and a deeper job market.",
+    sections: [
+      {
+        heading: "Why do people leave Tours?",
+        body: "Careers: outside health (the university hospital), public services, pharmaceuticals and research, senior private-sector roles are limited, and many graduates move to Paris or Nantes after a master's degree. Housing: rents and purchase prices have climbed, which squeezes first-time buyers. Seasonality: in summer the historic centre gets crowded. None of these is a flaw in daily life, which is why most people who leave are following a job rather than escaping the city.",
+      },
+      {
+        heading: "Paris: close enough to keep your home in Tours",
+        body: "Because the TGV takes about an hour, some people keep their flat in Tours and go to Paris one or two days a week. A long-distance season ticket exists, but the cost is high, so price it against rent before deciding. For a true move, the trade-off is stark: Paris rents are several times higher for a smaller flat. Many choose a southern suburb rather than the city itself.",
+      },
+      {
+        heading: "Nantes: a bigger job market",
+        body: "Nantes scores 6.9/10, with a T3 around €1,150 (22% above Tours) and about €4,200/m² to buy (more than 50% above). In return the job market is much deeper (digital, aerospace, food, shipbuilding), the city is younger and the Atlantic coast is within an hour. The drawback is that Nantes has no direct high-speed link to Paris comparable to Tours'. The choice is cultural and professional more than financial.",
+      },
+      {
+        heading: "Orléans: same Loire, lower cost",
+        body: "Orléans scores 5.8/10, with a T3 around €930, almost identical to Tours, and about €2,400/m² to buy, around 11% lower. It has research employers (CNRS and the national geological survey, BRGM), a pharmaceutical cluster and fast trains to Paris. The score is lower than Tours' and the city has less heritage appeal, so it is a move for people who want similar daily costs and a shorter distance to Paris, not a better setting.",
+      },
+      {
+        heading: "Staying in Touraine: Amboise and beyond",
+        body: "Amboise scores 7.9/10, higher than Tours itself, with a T3 around €880 and about €2,600/m² to buy. It is a small town with a château and a train to Tours, so commuting is workable. The trade-off is services: a small town means fewer doctors, a smaller hospital reach and fewer shops, so check the practicalities before assuming a village is cheaper to live in.",
+      },
+      {
+        heading: "Who actually gains by leaving?",
+        body: "Anyone going to Paris gains salary but not housing. Anyone going to Nantes gains career breadth for a higher rent. Orléans mostly saves little. Amboise or a neighbouring town keeps your Tours job and trims costs a bit. If your reason is the job, the destination is clear. If it is the price, the saving is smaller than you expect, so compare the T3 and per-square-metre figures above before moving.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "nantes", "amboise", "poitiers", "angers"],
+    tags: ["leaving tours", "loire valley", "nantes", "orleans", "tours alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-brest-where-to-go-2026",
+    title: "Leaving Brest: Rennes, Nantes, Quimper or the south Brittany coast",
+    metaTitle: "Leaving Brest 2026: Rennes, Nantes, Quimper, Vannes",
+    metaDesc:
+      "Brest scores 6.4/10 and rents a T3 near €850. Where people go: Rennes (7.4/10), Nantes, Quimper, Vannes, with the real price differences.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Brest is Brittany's far west: a naval port on a large natural harbour, an ocean climate and housing that is cheap for a city of its size. It scores 6.4/10 on our site, a T3 (three-room flat, two bedrooms) rents around €850 and buying costs about €2,500/m². The cost of that is distance: it is the furthest large city from Paris by rail in the north-west, the graduate job market leans on defence, shipbuilding, ocean research and the university, and it rains often. Rennes scores 7.4/10 and has the larger market, for a T3 near €1,100.",
+    sections: [
+      {
+        heading: "Why do people leave Brest?",
+        body: "Distance: Paris is several hours away by train, so commuting to the capital is out of the question and even Nantes is a real trip. Jobs: besides the navy, shipyards and research bodies, office jobs in HR, finance or marketing are scarce. Weather: grey, windy and wet, though winters are mild. None of these affects local life much if your employer is nearby, which is why many remote workers stay.",
+      },
+      {
+        heading: "Rennes: the usual destination",
+        body: "Rennes scores 7.4/10, with a T3 around €1,100 (about 29% above Brest) and about €3,800/m² to buy (52% above). It has a much wider job market (digital, telecoms, biotech, services), a big university and faster rail to Paris. Brest to Rennes is a clean break from Finistère, but you stay in Brittany. For most graduates it is the natural step.",
+      },
+      {
+        heading: "Nantes: leaving Brittany behind",
+        body: "Nantes scores 6.9/10, with a T3 around €1,150 and about €4,200/m² to buy. It is further from Brest than Rennes, and many people find the break from Brittany larger than expected. The job market is wider again, and the coast and the Loire are on hand. Choose it if you want a bigger city with a strong cultural scene and do not mind the extra cost over Rennes.",
+      },
+      {
+        heading: "Quimper and the south coast",
+        body: "Quimper scores 6.3/10, with a T3 around €940 and about €2,800/m² to buy, so it is a bit dearer than Brest, not cheaper. Lorient scores 6.1/10 with a T3 around €900. Vannes scores 6.9/10 but rents a T3 near €1,150 and costs about €3,900/m². These suit people who want the sea and a milder south-coast climate, not those seeking savings: none beats Brest on price.",
+      },
+      {
+        heading: "Paris: a real move",
+        body: "Brest to Paris is far enough that people who go there relocate rather than commute, and returning for a weekend is costly. Salary gains are real for senior staff but the housing cost increase is several times larger. Plan it as a career move, not a lifestyle one.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Rennes is the most reliable gain: more jobs, a modest price rise, and you stay in Brittany. Nantes adds breadth. The south coast mostly changes the weather. If you can work remotely, Brest's low rent (about €850 for a T3) is a good argument for staying.",
+      },
+    ],
+    relatedCities: ["brest", "rennes", "nantes", "quimper", "lorient", "vannes"],
+    tags: ["leaving brest", "brittany", "rennes", "quimper", "brest alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-limoges-where-to-go-2026",
+    title: "Leaving Limoges: Bordeaux, Poitiers, Clermont-Ferrand or Brive",
+    metaTitle: "Leaving Limoges 2026: Bordeaux, Poitiers, Brive",
+    metaDesc:
+      "Limoges scores 6.1/10 and buys at about €1,600/m², among the cheapest large cities. Where people go: Bordeaux, Poitiers, Clermont-Ferrand, Brive.",
+    category: "city-guide",
+    emoji: "🏺",
+    readMinutes: 5,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Limoges is one of the cheapest large cities in France: a T3 (three-room flat, two bedrooms) rents for about €800 and buying costs about €1,600/m². It scores 6.1/10 on our site and has a university, a hospital, a porcelain tradition and plenty of green space. The reasons people leave are structural rather than personal: a narrow market for senior private-sector jobs, no direct high-speed train to Paris (the Intercités service takes roughly three hours), and a population that has been falling for years. Bordeaux scores 6.9/10 but costs about €4,500/m².",
+    sections: [
+      {
+        heading: "Why do people leave Limoges?",
+        body: "Jobs: beyond the university, hospital, public sector and a few industrial sites, the market for graduates is limited, so they head for Bordeaux, Toulouse or Paris. Transport: the city is isolated, with no high-speed rail. Image: a reputation for emptiness that is partly deserved in the centre and partly outdated. If you work remotely or in public services, none of this bites, and the cost of living is a real advantage.",
+      },
+      {
+        heading: "Bordeaux: the biggest step up, and the biggest bill",
+        body: "Bordeaux scores 6.9/10, with a T3 around €1,200 (50% above Limoges) and about €4,500/m² to buy (more than 2.8 times). In return you get a far larger job market in digital, wine, aerospace and biotech, a mild climate and the Atlantic coast within an hour. The train takes about two and a half hours. For a graduate the career case is strong, but buying becomes harder.",
+      },
+      {
+        heading: "Poitiers: the balanced option",
+        body: "Poitiers scores 6.1/10, the same as Limoges, with a T3 around €880 and about €2,100/m² to buy. A TGV to Paris of roughly an hour and a half makes it a more connected choice, and its university is active. It costs a little more than Limoges, so it is a move for connection, not savings.",
+      },
+      {
+        heading: "Clermont-Ferrand: a similar city with more jobs",
+        body: "Clermont-Ferrand scores 6.3/10, with a T3 around €900 and about €2,400/m² to buy. It is of a comparable size but has a stronger industrial and research base (Michelin, the university hospital) and the volcanoes on the doorstep. It is a good compromise for people who want a larger market without a large jump in cost.",
+      },
+      {
+        heading: "Brive-la-Gaillarde and the region",
+        body: "Brive scores 6.8/10, with a T3 around €780 and about €2,000/m² to buy, about an hour away. It is a lively small city with a real market and good rail links. Further into rural Limousin, prices are very low but services thin out: check doctors, schools and internet before choosing a village.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Bordeaux gives careers but costs a lot. Poitiers and Clermont give a little more connection or work for a modest rise in rent. Brive keeps you in the region. If your income does not depend on a local employer, Limoges' low housing costs are hard to beat at any score.",
+      },
+    ],
+    relatedCities: ["limoges", "bordeaux", "poitiers", "clermont-ferrand", "brive-la-gaillarde"],
+    tags: ["leaving limoges", "limousin", "bordeaux", "poitiers", "limoges alternatives", "relocation"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

@@ -9900,6 +9900,26 @@
       "slug": "leaving-clermont-ferrand-where-to-go-2026",
       "title": "Leaving Clermont-Ferrand: Vichy, Riom, Issoire or Lyon",
       "emoji": "🌋"
+    },
+    {
+      "slug": "leaving-mulhouse-where-to-go-2026",
+      "title": "Leaving Mulhouse: Basel, Strasbourg, Colmar or Freiburg",
+      "emoji": "🇨🇭"
+    },
+    {
+      "slug": "leaving-tours-where-to-go-2026",
+      "title": "Leaving Tours: Paris, Nantes, Orléans or the Touraine countryside",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "leaving-brest-where-to-go-2026",
+      "title": "Leaving Brest: Rennes, Nantes, Quimper or the south Brittany coast",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "leaving-limoges-where-to-go-2026",
+      "title": "Leaving Limoges: Bordeaux, Poitiers, Clermont-Ferrand or Brive",
+      "emoji": "🏺"
     }
   ],
   "tags": [
@@ -9964,6 +9984,11 @@
       "count": 74
     },
     {
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 67
+    },
+    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
       "count": 67
@@ -9971,11 +9996,6 @@
     {
       "slug": "french-school-system",
       "label": "french school system",
-      "count": 63
-    },
-    {
-      "slug": "relocation",
-      "label": "relocation",
       "count": 63
     },
     {
@@ -10021,7 +10041,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 51
+      "count": 52
     },
     {
       "slug": "expat-retirement",
@@ -10086,12 +10106,12 @@
     {
       "slug": "alsace",
       "label": "alsace",
-      "count": 17
+      "count": 18
     },
     {
       "slug": "loire-valley",
       "label": "loire valley",
-      "count": 17
+      "count": 18
     },
     {
       "slug": "reunion",
@@ -10144,6 +10164,11 @@
       "count": 11
     },
     {
+      "slug": "bordeaux",
+      "label": "bordeaux",
+      "count": 10
+    },
+    {
       "slug": "climate",
       "label": "climate",
       "count": 10
@@ -10159,8 +10184,13 @@
       "count": 10
     },
     {
-      "slug": "bordeaux",
-      "label": "bordeaux",
+      "slug": "strasbourg",
+      "label": "strasbourg",
+      "count": 10
+    },
+    {
+      "slug": "nantes",
+      "label": "nantes",
       "count": 9
     },
     {
@@ -10171,11 +10201,6 @@
     {
       "slug": "savoie",
       "label": "savoie",
-      "count": 9
-    },
-    {
-      "slug": "strasbourg",
-      "label": "strasbourg",
       "count": 9
     },
     {
@@ -10214,8 +10239,8 @@
       "count": 8
     },
     {
-      "slug": "nantes",
-      "label": "nantes",
+      "slug": "rennes",
+      "label": "rennes",
       "count": 8
     },
     {
@@ -10266,11 +10291,6 @@
     {
       "slug": "martinique",
       "label": "martinique",
-      "count": 7
-    },
-    {
-      "slug": "rennes",
-      "label": "rennes",
       "count": 7
     },
     {
@@ -10374,6 +10394,11 @@
       "count": 5
     },
     {
+      "slug": "orleans",
+      "label": "orleans",
+      "count": 5
+    },
+    {
       "slug": "rhone-alpes",
       "label": "rhone alpes",
       "count": 5
@@ -10429,13 +10454,13 @@
       "count": 4
     },
     {
-      "slug": "orleans",
-      "label": "orleans",
+      "slug": "pau",
+      "label": "pau",
       "count": 4
     },
     {
-      "slug": "pau",
-      "label": "pau",
+      "slug": "poitiers",
+      "label": "poitiers",
       "count": 4
     },
     {
@@ -10549,13 +10574,13 @@
       "count": 3
     },
     {
-      "slug": "poitiers",
-      "label": "poitiers",
+      "slug": "provence-alpes-cote-dazur",
+      "label": "provence-alpes-cote-dazur",
       "count": 3
     },
     {
-      "slug": "provence-alpes-cote-dazur",
-      "label": "provence-alpes-cote-dazur",
+      "slug": "quimper",
+      "label": "quimper",
       "count": 3
     },
     {
