@@ -1195,3 +1195,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Sous-pages `eau` / `risques` (même schéma).
 2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 3. Sous-page `louer-ou-acheter`.
+
+## 2026-10-31 ~03:00 UTC — sous-page eau `/villes/[slug]/eau` (FR) + EN `/cities/[slug]/water`
+
+**Surface** : le gabarit stress hydrique (593 villes × 2 locales). Avant : un seul bloc sur fond de page, composite à filet gauche dérivé par `replace()`, méthodologie et renvois en `Card` grises.
+
+**Changé** (même schéma que bruit/air) : hero `.bg-aurora`, emoji 💧 en tuile `grad-head-0` (FR), nom de ville en `.gradient-text` (EN) ; composite + quatre facteurs en `band-indigo` (cartes blanches à ombre indigo) ; méthodologie / « Why this is on the list » en `band-sky` (h2 dégradé) ; renvois en tuiles lavande, classement en pilule, DiscussionCTA / FeedbackWidget en `band-white`. Import `Card` retiré. Fonds de niveau `WATER_LEVEL_BG` et `hazardColor` conservés. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 problème FR ; EN : 2 erreurs `no-unescaped-entities` préexistantes (copie éditoriale, inchangées). Captures `next dev` + playwright `/villes/marseille/eau` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-page `risques` / EN `natural-risks` (même schéma, dernière du quartet environnement).
+2. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
+3. Sous-page `louer-ou-acheter`.
