@@ -25515,6 +25515,258 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["studying in bayonne", "international students", "student housing france", "student visa france", "nouvelle-aquitaine"],
   },
   {
+    slug: "studying-in-saint-brieuc-2026",
+    title: "Studying in Saint-Brieuc (2026): IUT, housing and budget, the honest guide",
+    metaTitle: "Studying in Saint-Brieuc 2026: IUT, Housing, Budget",
+    metaDesc:
+      "A studio at €420 on our estimate, the IUT and the Rennes 1 and Rennes 2 branches at the Mazier campus. The figure-by-figure guide, with Lorient as the benchmark.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "A studio in Saint-Brieuc is estimated at €420 and a one-bedroom at €580, which is €80 less than a studio in Lorient at €500 (our rent estimate). People aged 15 to 29 make up 21.0% of the 44,607 residents (INSEE, 2022 census), and the town has lost population since 2016 (44,999). Our student-life score is 5.9/10, in a band of twenty-five cities with the same mark. You come for one specific course on the Mazier campus, not for the buzz of a big student city.",
+    sections: [
+      {
+        heading: "What can you study in Saint-Brieuc?",
+        body: "Higher education here is an outpost campus: the Saint-Brieuc IUT (a technical university institute), part of the Université de Rennes 1, offers three-year BUT degrees in fields such as biological engineering, materials science and engineering, or marketing techniques. According to the campus brochure from 2021, it has over 700 students, plus about 400 in a branch of the Rennes 1 law faculty and about 1,000 in a Rennes 2 branch. The Brittany teacher-training institute (INSPÉ) moved to the Beaufeuillage site, on the Grand Mazier campus, in 2024. These headcounts come from the brochure; check the IUT website before you apply.",
+      },
+      {
+        heading: "What does a student flat cost in Saint-Brieuc?",
+        body: "Our estimate puts a studio at €420 and a one-bedroom at €580 a month (our rent estimate). That is €80 less than a studio in Lorient (€500) and €200 less than in Vannes (€620). The catch: the stock of small flats is thin compared with a big city, so start looking in spring. Visale, the free state rent guarantee, replaces a French guarantor, and read the energy rating (DPE) before signing: G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: about €780",
+        body: "Studio: €420 (our rent estimate). Transport: €30, our assumption, because the town works well by bike or bus. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €780 a month before aid, against €860 in Lorient on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Saint-Brieuc or Lorient: where to study?",
+        body: "Lorient has 21.8% of residents aged 15 to 29 against 21.0% in Saint-Brieuc, a student-life score of 6.2/10 against 5.9, and a studio €80 dearer. Lorient hosts the Université Bretagne Sud hub; Saint-Brieuc hosts Rennes's. Let the course decide: there is no reason to come to Saint-Brieuc for a degree taught elsewhere, but for the IUT or the law branch the rent works in its favour.",
+      },
+      {
+        heading: "What is student life like in Saint-Brieuc?",
+        body: "Our culture score is 5.9/10 and transport 4.9/10: student life is modest, and the train to Rennes serves for weekends and trips back from internships. The bay of Saint-Brieuc and the coast are close. The poverty rate of 21% (INSEE, Filosofi 2021) says to count your money, but rents stay low.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Part-time jobs are in supermarkets, catering and the food industry around Saint-Brieuc, and internships in Côtes-d'Armor companies (a student permit allows up to 964 hours of work a year). Verdict: Saint-Brieuc suits an IUT or law student who wants a €420 rent and the coast within reach. It suits less anyone who wants nightlife or a wide choice of courses: Rennes remains the regional reference.",
+      },
+    ],
+    relatedCities: ["saint-brieuc", "lorient", "vannes", "quimper"],
+    tags: ["studying in saint-brieuc", "international students", "student housing france", "student visa france", "bretagne"],
+  },
+  {
+    slug: "studying-in-arras-2026",
+    title: "Studying in Arras (2026): Université d'Artois, housing and budget",
+    metaTitle: "Studying in Arras 2026: Université d'Artois, Budget",
+    metaDesc:
+      "A studio at €390 on our estimate, the seat of the Université d'Artois, arts, languages and law. The figure-by-figure guide, with Lens and Lille.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Arras is one of the few cities in this series where the share of 15-to-29-year-olds, 24.5%, clearly beats Lorient or Dunkirk (INSEE, 2022 census). A studio is estimated at €390 and a one-bedroom at €540, against €580 for a studio in Lille (our rent estimate). Our student-life score is 6.5/10, ranked 101st of 593, tied with twenty-six other cities. The town is gaining residents: 40,883 in 2016, 42,621 in 2022.",
+    sections: [
+      {
+        heading: "Why study in Arras?",
+        body: "Arras is the seat of the Université d'Artois, whose sites are spread across Arras, Béthune, Douai, Lens and Liévin; the university reports about 12,300 students and two IUTs (technical institutes), in Béthune and Lens, not in Arras. The Arras hub leans towards arts, languages, history-geography and heritage, plus economics, management and social sciences. For a BUT degree or sciences, look at Lens or Béthune, reachable by regional train.",
+      },
+      {
+        heading: "What does a student flat cost in Arras?",
+        body: "A studio is estimated at €390 and a one-bedroom at €540 a month (our rent estimate). Lens is cheaper (studio at €320), Lille €190 a month dearer (€580). For a course in Lens, Arras is not the cheapest base, but its centre is livelier. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "Monthly budget: about €750",
+        body: "Studio: €390 (our rent estimate). Transport: €30, our assumption, because the centre is done on foot; a regional train pass would come on top for a course in Lens. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €750 a month before aid, against €940 in Lille on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Arras, Lens or Lille?",
+        body: "Lille has 36.8% of residents aged 15 to 29, a student-life score of 7.5/10 and higher rents; Lens is the cheapest (€320) with a score of 6.7. Arras sits in the middle: 6.5/10, with a culture score of 7.3/10. If your course is in Arras, stay; if it is in Lens or Béthune, weigh the daily commute against the rent you save.",
+      },
+      {
+        heading: "What is student life like in Arras?",
+        body: "The historic centre and its squares make a compact setting where everything is walkable. The poverty rate of 25% (INSEE, Filosofi 2021) and a median income of €20,230 a year point to a working-class area with fairly low prices. Transport is scored 6.1/10, decent for a town this size.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Part-time jobs cluster in retail, catering and services, internships in public bodies and companies of the Pas-de-Calais (a student permit allows up to 964 hours of work a year). Verdict: Arras suits an arts, languages or law student who wants a €390 rent and a human-sized town. It suits less anyone seeking a science or technical campus on site: Lens and Béthune have them, and Lille offers far more choice.",
+      },
+    ],
+    relatedCities: ["arras", "lens", "lille", "bethune", "amiens"],
+    tags: ["studying in arras", "international students", "student housing france", "student visa france", "hauts-de-france"],
+  },
+  {
+    slug: "studying-in-belfort-2026",
+    title: "Studying in Belfort (2026): UTBM, housing and budget, the honest guide",
+    metaTitle: "Studying in Belfort 2026: UTBM, Housing, Budget",
+    metaDesc:
+      "A studio at €380 on our estimate, the UTBM engineering university on its Belfort and Sevenans sites. The figure-by-figure guide, with Besançon and Mulhouse.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Belfort is an engineers' town: the UTBM, the Belfort-Montbéliard university of technology, reports more than 2,800 students in 2026 across Belfort, Sevenans and Montbéliard. A studio is estimated at €380 and a one-bedroom at €520, which is €110 less than a studio in Besançon (our rent estimate). People aged 15 to 29 make up 24.4% of residents (INSEE, 2022 census), but the town has shrunk: 48,973 in 2016, 45,646 in 2022. A poverty rate of 29% (INSEE, Filosofi 2021) is the price of low living costs.",
+    sections: [
+      {
+        heading: "What can you study in Belfort?",
+        body: "The UTBM trains engineers on three sites: Belfort, Sevenans and Montbéliard. The common first cycle and mechanical engineering are taught at Sevenans, a neighbouring commune reachable from Belfort. According to local press, about 300 students started there in 2025. The total headcount (2,800 to 3,000 depending on the source) covers all three sites, not Belfort alone. For non-technical studies the local offer is thinner: Besançon is the region's big university city.",
+      },
+      {
+        heading: "What does a student flat cost in Belfort?",
+        body: "A studio is estimated at €380 and a one-bedroom at €520 a month (our rent estimate). That is €110 less than in Besançon (€490) and €40 less than in Mulhouse (€420). The real choice is between Belfort and Sevenans depending on where your classes are: Belfort offers more flats, Sevenans is out of the way. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "Monthly budget: about €740",
+        body: "Studio: €380 (our rent estimate). Transport: €30, our assumption, to raise if you have classes in Sevenans. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €740 a month before aid, against €850 in Besançon on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy; public engineering schools set their own fees, so check the exact amount on the UTBM website. Non-EU students face differentiated fees unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Belfort, Besançon or Mulhouse?",
+        body: "Besançon has 28.9% of residents aged 15 to 29 and a student-life score of 7.0/10; Mulhouse 20.8% and 6.7/10; Belfort 24.4% and 6.3/10, tied with twenty other cities. Belfort wins on rent, with the cheapest studio of the three. Besançon wins on student life. Choosing Belfort is justified by the engineering course, not by the setting.",
+      },
+      {
+        heading: "What is student life like in Belfort?",
+        body: "Our culture score is 5.7/10 and transport 6.2/10: student life is quiet, built around school societies and the town centre. The median income of €18,850 a year (INSEE, Filosofi 2021) is among the lowest in this batch, and the purchase price of €1,550 per m² only matters to a student who stays after graduating.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "The Belfort area is industrial (energy, mechanics, transport) and the UTBM leans on work-study and company placements (a student permit allows up to 964 hours of work a year). Verdict: Belfort suits a future engineer who wants a €380 studio and an industrial network within reach. It suits less a humanities or health student: that offer is elsewhere, in Besançon or Mulhouse.",
+      },
+    ],
+    relatedCities: ["belfort", "besancon", "mulhouse", "montbeliard"],
+    tags: ["studying in belfort", "international students", "student housing france", "student visa france", "bourgogne-franche-comté"],
+  },
+  {
+    slug: "studying-in-saint-quentin-2026",
+    title: "Studying in Saint-Quentin (2026): IUT de l'Aisne and budget",
+    metaTitle: "Studying in Saint-Quentin 2026: IUT, Housing, Budget",
+    metaDesc:
+      "A studio at €350 on our estimate, the Aisne IUT and the INSSET engineering school (UPJV). The figure-by-figure guide, with Amiens and Compiègne.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Saint-Quentin has the cheapest studio in this batch: €350, with a one-bedroom at €480 (our rent estimate), against €530 for a studio in Compiègne. Our student-life score is 7.3/10, ranked 12th of 593 and tied with three other cities, but the score is lifted by cost and transport: only 20.3% of the 52,995 residents are aged 15 to 29 (INSEE, 2022 census). The town has lost population since 2016 (54,373). The number is good; the campus stays small.",
+    sections: [
+      {
+        heading: "What can you study in Saint-Quentin?",
+        body: "The Saint-Quentin campus, rue d'Ostende, groups courses oriented to industry, the environment, robotics and digital technology. It hosts the Aisne IUT (a technical university institute), part of the Université de Picardie Jules Verne (UPJV) since 1998, and the INSSET engineering school. The Aisne IUT reports about 1,000 students, but across three sites (Saint-Quentin, Laon, Soissons-Cuffies): that figure is not Saint-Quentin alone. For a general licence, Amiens is the UPJV's main hub.",
+      },
+      {
+        heading: "What does a student flat cost in Saint-Quentin?",
+        body: "A studio is estimated at €350 a month and a one-bedroom at €480 (our rent estimate). That is €140 less than in Amiens (€490) and €180 less than in Compiègne (€530). Still read the energy rating (DPE), and use Visale, the free state rent guarantee, in place of a French guarantor.",
+      },
+      {
+        heading: "Monthly budget: about €710",
+        body: "Studio: €350 (our rent estimate). Transport: €30, our assumption. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €710 a month before aid, against €850 in Amiens on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Saint-Quentin, Amiens or Compiègne?",
+        body: "Amiens has 29.0% of residents aged 15 to 29 and a score of 6.5/10; Compiègne 23.9% and 7.1/10, with the UTC engineering university; Saint-Quentin 20.3% and 7.3/10. Saint-Quentin wins on rent and on our transport (7.7/10) and culture (7.5/10) scores, but loses on how many students are around you. For a course in Amiens, you are better off living in Amiens.",
+      },
+      {
+        heading: "What is student life like in Saint-Quentin?",
+        body: "Student life depends on the IUT and engineering-school cohorts more than on a local scene. The median income is €18,400 a year and the poverty rate 29% (INSEE, Filosofi 2021): a working-class town with low prices everywhere, but few well-paid jobs. Weekends often happen elsewhere, towards Amiens or Reims.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Part-time jobs are in retail and catering, internships in local industry and Aisne companies (a student permit allows up to 964 hours of work a year). Verdict: Saint-Quentin suits an IUT or engineering-school student who wants a budget of €710 a month. It suits less anyone looking for real student life or a general licence: Amiens fits better.",
+      },
+    ],
+    relatedCities: ["saint-quentin", "amiens", "compiegne", "reims"],
+    tags: ["studying in saint-quentin", "international students", "student housing france", "student visa france", "hauts-de-france"],
+  },
+  {
+    slug: "studying-in-dunkerque-2026",
+    title: "Studying in Dunkirk (2026): ULCO, housing and budget, the honest guide",
+    metaTitle: "Studying in Dunkirk 2026: ULCO, Housing, Budget",
+    metaDesc:
+      "A studio at €400 on our estimate, the Université du Littoral Côte d'Opale and its IUT. The figure-by-figure guide, with Lille and Calais as benchmarks.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Dunkirk houses its students at €400 for a studio and €560 for a one-bedroom, against €580 and €800 in Lille (our rent estimate). With 87,013 residents it is the biggest town in this batch, yet only 18.0% are aged 15 to 29 (INSEE, 2022 census), the lowest share in the batch. Our student-life score is 6.0/10, in a band of twenty-four cities. You come to Dunkirk for the coastal university, not for its student scene.",
+    sections: [
+      {
+        heading: "What can you study in Dunkirk?",
+        body: "Dunkirk is one of the four campuses of the Université du Littoral Côte d'Opale (ULCO), which reports about 10,600 students in its 2026 brochure, around 1,600 of them international. One source mentions over 5,000 students on the Dunkirk campus; that figure varies by year. The Dunkirk IUT (technical institute) launched a new second-year BUT track in logistics and transport management in 2025, a sector tied to the port. Lille remains the option for a wider choice of courses.",
+      },
+      {
+        heading: "What does a student flat cost in Dunkirk?",
+        body: "A studio is estimated at €400 and a one-bedroom at €560 a month (our rent estimate). That is €180 less than in Lille for a studio, and €60 more than in Calais (€340). Dunkirk stays much cheaper than the regional metropolis. Visale, the free state rent guarantee, replaces a French guarantor, and read the energy rating (DPE): G-rated flats can no longer be let to new tenants.",
+      },
+      {
+        heading: "Monthly budget: about €760",
+        body: "Studio: €400 (our rent estimate). Transport: €30, our assumption, to check against the local bus network before you count on it. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €760 a month before aid, against €940 in Lille on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Dunkirk, Lille or Calais?",
+        body: "Lille has 36.8% of residents aged 15 to 29 and a student-life score of 7.5/10; Calais 20.6% and 5.7/10; Dunkirk 18.0% and 6.0/10. Dunkirk beats Calais on our scores and on the size of the ULCO offer, but stays well below Lille.",
+      },
+      {
+        heading: "What is student life like in Dunkirk?",
+        body: "Our culture score is 5.9/10 and transport 6.1/10: a discreet student life, with the sea, the beach and local festivals. The median income is €20,240 a year and the poverty rate 22% (INSEE, Filosofi 2021): an industrial area with a reasonable cost of living. The population is slipping slightly: 88,108 in 2016, 87,013 in 2022.",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "The port, logistics, industry and energy supply internships and work-study contracts, and retail the odd jobs (a student permit allows up to 964 hours of work a year). Verdict: Dunkirk suits a logistics, industry or science student who wants a €400 studio near the sea. It suits less anyone after a big student scene: Lille is the answer, with rents €180 higher.",
+      },
+    ],
+    relatedCities: ["dunkerque", "lille", "calais", "lens"],
+    tags: ["studying in dunkirk", "international students", "student housing france", "student visa france", "hauts-de-france"],
+  },
+  {
+    slug: "studying-in-valence-2026",
+    title: "Studying in Valence (2026): Briffaut campus, IUT and budget",
+    metaTitle: "Studying in Valence 2026: Briffaut Campus, Budget",
+    metaDesc:
+      "A studio at €490 on our estimate, the UGA Briffaut campus, the IUT and ESISAR. The figure-by-figure guide, with Grenoble and Avignon as benchmarks.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro:
+      "Valence is an IUT and engineering-school town: a studio costs €490 and a one-bedroom €680, which is €70 less than a studio in Grenoble (our rent estimate). Our student-life score is 6.8/10, ranked 50th of 593 and tied with thirteen other cities. People aged 15 to 29 make up 21.4% of the 64,288 residents, a number up from 2016 (62,477), according to INSEE's 2022 census. Valence is the dearest town in this batch, which is still reasonable next to Grenoble.",
+    sections: [
+      {
+        heading: "What can you study in Valence?",
+        body: "Higher education is concentrated on two sites of the Université Grenoble Alpes (UGA): the Briffaut campus, which gathers the Drôme-Ardèche science department (DSDA), a branch of the Grenoble business school IAE, the Valence IUT and the ESISAR engineering school, and the Latour-Maubourg site, home of the student centre. A 2026 job ad gives the Valence IUT 1,150 students. An extension of more than 1,200 m² to the DSDA building was inaugurated on the Briffaut site, presented by the UGA with about 1,000 students. Check these figures on the UGA website.",
+      },
+      {
+        heading: "What does a student flat cost in Valence?",
+        body: "A studio is estimated at €490 and a one-bedroom at €680 a month (our rent estimate). That is €70 less than in Grenoble (€560) and €50 less than in Avignon (€540). Student residences stand on the Briffaut campus, near the IUT, which limits the need for transport. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "Monthly budget: about €850",
+        body: "Studio: €490 (our rent estimate). Transport: €30, our assumption, because many residences are near the campus. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €850 a month before aid, against €920 in Grenoble on the same assumptions. Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Enrolment costs €178 for a licence and €255 for a master's, plus the €105 CVEC levy. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Valence, Grenoble or Avignon?",
+        body: "Grenoble has 31.3% of residents aged 15 to 29 and a student-life score of 7.3/10; Avignon 20.3% and 6.6/10; Valence 21.4% and 6.8/10. Valence is €70 cheaper than Grenoble on a studio. Its transport score of 7.4/10 is good. For a general licence or a grande école, Grenoble keeps the edge; for a BUT or a networks engineering school, Valence is enough.",
+      },
+      {
+        heading: "What is student life like in Valence?",
+        body: "Student life is more modest than in Grenoble: our culture and transport scores are 6.6 and 7.4/10. The Rhône, the valley and the nearby Alps and Ardèche help the setting. The poverty rate of 22% and the median income of €20,610 a year (INSEE, Filosofi 2021) show a middle-sized town, with a purchase price of €2,400 per m².",
+      },
+      {
+        heading: "Jobs, internships and work-study",
+        body: "Part-time jobs are in retail, catering and Rhône-valley logistics, internships in electronics and networks for ESISAR (a student permit allows up to 964 hours of work a year). Verdict: Valence suits an IUT or engineering student who wants a real town at €850 a month. It suits less anyone aiming at a large multidisciplinary university: Grenoble is the answer, with a studio €70 dearer.",
+      },
+    ],
+    relatedCities: ["valence", "grenoble", "avignon", "chambery"],
+    tags: ["studying in valence", "international students", "student housing france", "student visa france", "auvergne-rhône-alpes"],
+  },
+  {
     slug: "solo-travel-in-paris-2026",
     title: "Solo travel in Paris: where to stay, where to drink, when to go",
     metaTitle: "Solo Travel in Paris 2026: Where to Stay, Going Out Alone",

@@ -6777,6 +6777,36 @@
       "emoji": "🎓"
     },
     {
+      "slug": "studying-in-saint-brieuc-2026",
+      "title": "Studying in Saint-Brieuc (2026): IUT, housing and budget, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-arras-2026",
+      "title": "Studying in Arras (2026): Université d'Artois, housing and budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-belfort-2026",
+      "title": "Studying in Belfort (2026): UTBM, housing and budget, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-saint-quentin-2026",
+      "title": "Studying in Saint-Quentin (2026): IUT de l'Aisne and budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-dunkerque-2026",
+      "title": "Studying in Dunkirk (2026): ULCO, housing and budget, the honest guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-valence-2026",
+      "title": "Studying in Valence (2026): Briffaut campus, IUT and budget",
+      "emoji": "🎓"
+    },
+    {
       "slug": "solo-travel-in-paris-2026",
       "title": "Solo travel in Paris: where to stay, where to drink, when to go",
       "emoji": "🍸"
@@ -9959,14 +9989,14 @@
       "count": 160
     },
     {
-      "slug": "nouvelle-aquitaine",
-      "label": "nouvelle-aquitaine",
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
       "count": 86
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 85
+      "slug": "nouvelle-aquitaine",
+      "label": "nouvelle-aquitaine",
+      "count": 86
     },
     {
       "slug": "occitanie",
@@ -9996,7 +10026,7 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 67
+      "count": 70
     },
     {
       "slug": "relocation",
@@ -10014,6 +10044,21 @@
       "count": 62
     },
     {
+      "slug": "international-students",
+      "label": "international students",
+      "count": 60
+    },
+    {
+      "slug": "student-housing-france",
+      "label": "student housing france",
+      "count": 60
+    },
+    {
+      "slug": "student-visa-france",
+      "label": "student visa france",
+      "count": 60
+    },
+    {
       "slug": "single-parent-holidays",
       "label": "single parent holidays",
       "count": 59
@@ -10027,21 +10072,6 @@
       "slug": "single-supplement",
       "label": "single supplement",
       "count": 57
-    },
-    {
-      "slug": "international-students",
-      "label": "international students",
-      "count": 54
-    },
-    {
-      "slug": "student-housing-france",
-      "label": "student housing france",
-      "count": 54
-    },
-    {
-      "slug": "student-visa-france",
-      "label": "student visa france",
-      "count": 54
     },
     {
       "slug": "real-estate",
@@ -10101,7 +10131,7 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 27
+      "count": 28
     },
     {
       "slug": "budget",
@@ -10146,7 +10176,7 @@
     {
       "slug": "bretagne",
       "label": "bretagne",
-      "count": 13
+      "count": 14
     },
     {
       "slug": "french-riviera",
