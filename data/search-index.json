@@ -8952,6 +8952,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "vacances-celibataire-beziers-2026",
+      "title": "Vacances célibataire à Béziers en 2026 : le Canal du Midi et un deux-pièces à 530 €",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "vacances-celibataire-ajaccio-2026",
+      "title": "Vacances célibataire à Ajaccio en 2026 : 2 890 h de soleil, mais pas de train",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "vacances-celibataire-cayenne-2026",
+      "title": "Vacances célibataire à Cayenne en 2026 : la ville la plus jeune du lot, hors de tout circuit",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "vacances-celibataire-saint-germain-en-laye-2026",
+      "title": "Vacances célibataire à Saint-Germain-en-Laye en 2026 : RER A et forêt, au prix d'un deux-pièces à 1 150 €",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "vacances-celibataire-versailles-2026",
+      "title": "Vacances célibataire à Versailles en 2026 : 9/10 en culture, mais un deux-pièces à 1 200 €",
+      "emoji": "👑"
+    },
+    {
+      "slug": "vacances-celibataire-cherbourg-2026",
+      "title": "Vacances célibataire à Cherbourg-en-Cotentin en 2026 : mer, port et un deux-pièces à 620 €",
+      "emoji": "⚓"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -11734,6 +11764,16 @@
       "count": 4
     },
     {
+      "slug": "week-end-celibataire-normandie",
+      "label": "week-end célibataire Normandie",
+      "count": 4
+    },
+    {
+      "slug": "week-end-celibataire-occitanie",
+      "label": "week-end célibataire Occitanie",
+      "count": 4
+    },
+    {
       "slug": "zfe",
       "label": "ZFE",
       "count": 4
@@ -12229,13 +12269,8 @@
       "count": 3
     },
     {
-      "slug": "week-end-celibataire-normandie",
-      "label": "week-end célibataire Normandie",
-      "count": 3
-    },
-    {
-      "slug": "week-end-celibataire-occitanie",
-      "label": "week-end célibataire Occitanie",
+      "slug": "week-end-celibataire-ile-de-france",
+      "label": "week-end célibataire Île-de-France",
       "count": 3
     },
     {

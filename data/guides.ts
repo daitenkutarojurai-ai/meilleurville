@@ -52362,6 +52362,252 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire Cergy","voyage solo Val-d'Oise","Cergy Axe majeur","week-end célibataire Île-de-France","Cergy RER A séjour"],
   },
   {
+    slug: "vacances-celibataire-beziers-2026",
+    title: "Vacances célibataire à Béziers en 2026 : le Canal du Midi et un deux-pièces à 530 €",
+    metaTitle: "Vacances célibataire Béziers 2026 : budget bas, TGV",
+    metaDesc: "Béziers en séjour célibataire : 17,7 % de 15-29 ans, TGV, Allées Paul-Riquet, deux-pièces à 530 €, 2 850 h de soleil. Ce que la ville tient hors saison.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 4,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Béziers compte 80 815 habitants (Insee 2022), dont 17,7 % de 15-29 ans et 29,6 % de 60 ans et plus. Notre fiche lui donne 6,6/10 en culture, 6,4/10 en coût et 2 850 heures d'ensoleillement par an, mais 3,5/10 en sécurité. Le deux-pièces de référence est à 530 €, le studio à 380 €. C'est la ville du lot où le budget solo pèse le moins, avec un TGV direct dans notre relevé des transports : une base peu chère, pas une ville de nuit blanche.",
+    sections: [
+      {
+        heading: "Pourquoi Béziers : un budget que le célibat ne dilate pas",
+        body: "Le studio à 380 € et le deux-pièces à 530 € (notre estimation des loyers) restent modestes ; l'achat de référence est à 1 500 € le m². La note de coût de la fiche, 6,4/10, confirme que la ville est abordable. Le contrepoint est annoncé d'emblée : 3,5/10 en sécurité et 4,7/10 en vie quotidienne.",
+      },
+      {
+        heading: "Où dormir : Allées Paul-Riquet ou centre historique",
+        body: "Notre fiche quartiers en documente trois. Les Allées Paul-Riquet, axe central planté, notent 7,5/10 de vie du soir pour un deux-pièces dans la fourchette de la ville. Le centre historique note 7/10. Le Plateau, résidentiel, note 5/10. Pour sortir à pied le soir, les Allées ; pour le calme, le Plateau.",
+      },
+      {
+        heading: "La vie hors saison : 17,7 % de 15-29 ans, 29,6 % de seniors",
+        body: "Sur le critère de notre page de profil, Béziers passe sous le plafond de 32 % de seniors. La part des 15-29 ans, 17,7 %, est modeste : la ville vit à l'année, mais sans l'effet campus de Cergy (26,3 %). La population gagne 5,7 % depuis 2016. Sa vie du soir (7,5/10) est sous notre plancher de 8,0/10, et ce guide le dit.",
+      },
+      {
+        heading: "Ce qu'on y fait seul·e, sans programme de rencontre",
+        body: "Les repères sont ceux de notre guide tourisme : les neuf écluses de Fonsérannes sur le Canal du Midi, la cathédrale Saint-Nazaire, le musée des Beaux-Arts, la Feria. La mer est à Valras-Plage, à 18 km selon le même guide. Aucune salle ni programmation n'est citée ici : nos données n'en listent pas.",
+      },
+      {
+        heading: "Arriver et se déplacer : un TGV, pas de tram",
+        body: "Notre relevé signale un TGV direct et ni métro, ni tramway, ni réseau cyclable notable. Le score de transport est de 4,9/10. Sans voiture, on arrive en train et on reste dans le centre et les Allées, à pied. Les horaires de nuit ne sont pas dans nos données.",
+      },
+      {
+        heading: "Quand y aller : 25,8 °C en juillet, 7,5 °C en janvier",
+        body: "Notre fiche donne 25,8 °C en moyenne en juillet et 7,5 °C en janvier, avec 2 850 heures de soleil. Aucune normale mensuelle n'est publiée. Les 15-29 ans étant moins nombreux qu'à Lille ou Cergy, un séjour hors été y est plus calme.",
+      },
+    ],
+    relatedCities: ["beziers"],
+    relatedGuides: ["10-choses-a-faire-a-beziers-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Béziers","voyage solo Hérault","Béziers Canal du Midi","week-end célibataire Occitanie","Béziers TGV séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-ajaccio-2026",
+    title: "Vacances célibataire à Ajaccio en 2026 : 2 890 h de soleil, mais pas de train",
+    metaTitle: "Vacances célibataire Ajaccio 2026 : soleil, sans train",
+    metaDesc: "Ajaccio en séjour célibataire : 2 890 h de soleil, 10,5 °C en janvier, 13,7 % de 15-29 ans, centre historique, deux-pièces à 900 €. Honnête sur l'hiver.",
+    category: "lifestyle",
+    emoji: "🏝️",
+    readMinutes: 4,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Ajaccio compte 75 343 habitants (Insee 2022), avec 28,8 % de 60 ans et plus et seulement 13,7 % de 15-29 ans. Notre fiche lui donne 2 890 heures de soleil par an, 10,5 °C en moyenne en janvier et 7,5/10 en nature, mais 4,0/10 aux transports. Le deux-pièces de référence est à 900 €. Notre relevé ne signale ni TGV, ni tramway, ni métro : on y vient pour le cadre, et l'on s'y déplace à pied dans le centre.",
+    sections: [
+      {
+        heading: "Pourquoi Ajaccio : le soleil d'hiver est la vraie donnée",
+        body: "Le critère anti-station-fantôme joue ici à l'envers : la ville est peu jeune (13,7 % de 15-29 ans), mais l'hiver y est doux, 10,5 °C en janvier, soit 3 degrés de plus qu'à Béziers (7,5 °C). C'est une préfecture qui reste ouverte toute l'année, et la population gagne 9,1 % depuis 2016.",
+      },
+      {
+        heading: "Où dormir : le centre historique d'abord",
+        body: "Trois secteurs dans notre fiche quartiers. Le centre historique note 7,5/10 de vie du soir et 7,5/10 de transport pour un cadre de 6,5/10 en coût. Les Cannes, plus verts, notent 5,5/10 de vie du soir ; Saint-Jean 5/10. Pour sortir à pied, le centre.",
+      },
+      {
+        heading: "Sortir : une scène petite, un décor fort",
+        body: "La vie du soir du centre (7,5/10) reste sous notre plancher de 8,0/10. Les repères de notre guide tourisme sont la maison Bonaparte, la citadelle, le port, les îles Sanguinaires au coucher du soleil. Aucune salle ni agenda n'est cité dans nos données.",
+      },
+      {
+        heading: "Se déplacer : l'absence de train est un fait, pas un détail",
+        body: "Le score de transport est de 4,0/10 et notre relevé ne porte aucune desserte ferrée ou tram à Ajaccio. On arrive par ferry ou par avion, ce que nos données ne détaillent pas, puis on circule dans le centre à pied. Sans voiture, les plages et Piana demandent un transport à vérifier.",
+      },
+      {
+        heading: "Le supplément single : 620 € le studio, 900 € le deux-pièces",
+        body: "Avec 5/10 en coût, Ajaccio est plus chère que Béziers (530 € le deux-pièces) et moins que Versailles (1 200 €). L'achat de référence est à 3 800 € le m². L'insularité pèse sur la note de coût ; aucun tarif de traversée ni d'hôtel n'est avancé ici.",
+      },
+      {
+        heading: "Quand y aller : toute l'année, avec un été à 27 °C",
+        body: "Notre fiche donne 27 °C en moyenne en juillet. Comme la ville n'est pas une destination jeune, l'ambiance hors saison est celle d'une préfecture tranquille, pas d'une ville étudiante. Aucune normale mensuelle n'est publiée.",
+      },
+    ],
+    relatedCities: ["ajaccio"],
+    relatedGuides: ["10-choses-a-faire-a-ajaccio-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Ajaccio","voyage solo Corse","Ajaccio centre historique","week-end célibataire Corse","Ajaccio soleil hiver séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-cayenne-2026",
+    title: "Vacances célibataire à Cayenne en 2026 : la ville la plus jeune du lot, hors de tout circuit",
+    metaTitle: "Vacances célibataire Cayenne 2026 : ville jeune, Guyane",
+    metaDesc: "Cayenne en séjour célibataire : 23,7 % de 15-29 ans, 13,1 % de seniors, centre-ville, marché, deux-pièces à 800 €. Pas de train, pas de saisons.",
+    category: "lifestyle",
+    emoji: "🌴",
+    readMinutes: 4,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Cayenne compte 63 956 habitants (Insee 2022), dont 23,7 % de 15-29 ans et seulement 13,1 % de 60 ans et plus, la ville la moins âgée de ce lot. Notre fiche donne 7,8/10 en nature, 3,3/10 aux transports et 3,7/10 en sécurité. Le deux-pièces de référence est à 800 €. Notre relevé ne signale ni train ni tramway ; la ville se vit à pied dans le centre ou autrement, et c'est le point à peser avant de réserver.",
+    sections: [
+      {
+        heading: "Pourquoi Cayenne : une ville qui ne se vide pas",
+        body: "Le risque de la station vide n'existe pas ici : 13,1 % de seniors contre 28,8 % à Ajaccio, et 23,7 % de 15-29 ans. La population gagne 5,6 % depuis 2016. Le contrepoint est dit : 3,9/10 au global, 4,1/10 en coût.",
+      },
+      {
+        heading: "Où dormir : le centre-ville ou Montjoly",
+        body: "Notre fiche quartiers en documente deux. Le centre-ville note 7,5/10 de vie du soir et 7/10 de transport. Montjoly, côté mer, note 5,5/10 de vie du soir et 8/10 de nature. Pour sortir sans véhicule, le centre-ville.",
+      },
+      {
+        heading: "Ce qu'on y fait : marché, place, fort",
+        body: "Les repères viennent de notre guide tourisme : la place des Palmistes, le fort Cépérou, le marché, la cathédrale Saint-Sauveur, la plage de Rémire-Montjoly. Nos données ne listent ni bars ni salles : aucune adresse n'est citée.",
+      },
+      {
+        heading: "Se déplacer : pas de réseau dans notre relevé",
+        body: "Le score de transport est de 3,3/10 et notre relevé n'enregistre aucun TGV, tram, métro ni réseau cyclable notable. En pratique, la voiture ou le taxi s'imposent hors du centre ; ce n'est pas une ville où l'on rentre à minuit par un tram.",
+      },
+      {
+        heading: "Le budget : 560 € le studio, 800 € le deux-pièces",
+        body: "L'achat de référence est à 2 200 € le m². Pour un voyageur seul, c'est plus cher que Béziers (530 € le deux-pièces) et que Cherbourg (620 €). Aucun tarif d'hôtel ni de vol n'est avancé ici.",
+      },
+      {
+        heading: "Quand y aller : 26 °C en janvier, 27 °C en juillet",
+        body: "Notre fiche donne 26 °C en janvier et 27 °C en juillet : l'écart saisonnier de température est d'un degré. Notre fiche ne documente pas l'alternance des saisons des pluies et nous ne l'inventons pas ; elle se vérifie auprès d'une source météo locale.",
+      },
+    ],
+    relatedCities: ["cayenne"],
+    relatedGuides: ["10-choses-a-faire-a-cayenne-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Cayenne","voyage solo Guyane","Cayenne place des Palmistes","séjour célibataire DROM","Cayenne centre-ville séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-saint-germain-en-laye-2026",
+    title: "Vacances célibataire à Saint-Germain-en-Laye en 2026 : RER A et forêt, au prix d'un deux-pièces à 1 150 €",
+    metaTitle: "Vacances célibataire Saint-Germain-en-Laye 2026 : RER A",
+    metaDesc: "Saint-Germain-en-Laye en séjour célibataire : RER A, château, forêt, 16,6 % de 15-29 ans, deux-pièces à 1 150 €. Une base calme, chère.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Saint-Germain-en-Laye compte 45 286 habitants (Insee 2022), avec 16,6 % de 15-29 ans et 23,6 % de 60 ans et plus. Notre fiche lui donne 8,4/10 aux transports, 7,6/10 en culture et 8,3/10 au télétravail, mais seulement 2,2/10 en coût. Le deux-pièces de référence est à 1 150 €. Avec le RER A, c'est une base calme pour sortir à Paris, bien plus qu'une ville de soirées.",
+    sections: [
+      {
+        heading: "Pourquoi Saint-Germain : le RER A fait le séjour",
+        body: "Notre relevé signale le RER A, d'où 8,4/10 de transport. C'est le même score que Cergy et Versailles. La ville elle-même est moins jeune que Cergy (26,3 % de 15-29 ans) mais passe sous le plafond de 32 % de seniors.",
+      },
+      {
+        heading: "Où dormir : centre-ville / Château",
+        body: "Trois secteurs. Le centre-ville / Château note 7,5/10 de vie du soir et 9/10 de transport. Le quartier de la Forêt note 6/10 de vie du soir, Bel Air 5,5/10. Pour sortir à pied, le centre, près du château.",
+      },
+      {
+        heading: "Sortir : un centre ancien, une scène discrète",
+        body: "La vie du soir du centre, 7,5/10, est sous notre plancher de 8,0/10. Les repères sont ceux de notre guide tourisme : le château et le musée d'Archéologie nationale, la Grande Terrasse, la forêt, le marché. Aucune salle n'est citée.",
+      },
+      {
+        heading: "Se déplacer : le RER A, pas de tram",
+        body: "Le RER A relie la ville à Paris ; nos données ne donnent ni durée ni fréquence de nuit, à vérifier auprès de l'exploitant. Pas de métro ni de tram dans notre relevé.",
+      },
+      {
+        heading: "Le supplément single : la note de coût la plus basse du lot",
+        body: "Avec 2,2/10 en coût, un studio à 750 € et un deux-pièces à 1 150 €, Saint-Germain est plus chère que Cergy (880 €) mais proche de Versailles (1 200 €). L'achat est à 5 200 € le m². Aucun tarif d'hôtel n'est avancé.",
+      },
+      {
+        heading: "Quand y aller : 1 650 h de soleil, 4,5 °C en janvier",
+        body: "Notre fiche donne 19,8 °C en juillet et 4,5 °C en janvier. La population gagne 2,9 % depuis 2016. Les jours de semaine, la ville est résidentielle ; aucune normale mensuelle n'est publiée.",
+      },
+    ],
+    relatedCities: ["saint-germain-en-laye"],
+    relatedGuides: ["10-choses-a-faire-a-saint-germain-en-laye-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Saint-Germain-en-Laye","voyage solo Yvelines","Saint-Germain RER A","week-end célibataire Île-de-France","Saint-Germain-en-Laye séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-versailles-2026",
+    title: "Vacances célibataire à Versailles en 2026 : 9/10 en culture, mais un deux-pièces à 1 200 €",
+    metaTitle: "Vacances célibataire Versailles 2026 : culture, RER, TGV",
+    metaDesc: "Versailles en séjour célibataire : culture 9/10, RER et TGV, 20,8 % de 15-29 ans, deux-pièces à 1 200 €. Une ville à budget haut, calme le soir.",
+    category: "lifestyle",
+    emoji: "👑",
+    readMinutes: 4,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Versailles compte 83 918 habitants (Insee 2022), dont 20,8 % de 15-29 ans et 23,1 % de 60 ans et plus. Notre fiche lui donne 9/10 en culture, 8,4/10 aux transports et seulement 2,4/10 en coût. Le deux-pièces de référence est à 1 200 €, le plus cher du lot. Notre relevé signale RER et TGV. La ville perd 1,7 % d'habitants depuis 2016 : c'est une destination de patrimoine, avec une vie du soir de 7/10 au mieux.",
+    sections: [
+      {
+        heading: "Pourquoi Versailles : la culture, pas la fête",
+        body: "La note de culture de 9/10 est la plus haute du lot. Mais la vie du soir du meilleur quartier est de 7/10, sous le plancher de 8,0/10 de notre page de profil : Versailles est le plus faible du lot sur ce critère, avec Cherbourg. On vient pour le patrimoine.",
+      },
+      {
+        heading: "Où dormir : centre historique ou Les Chantiers",
+        body: "Le centre historique note 7/10 de vie du soir pour 8,5/10 de transport. Les Chantiers, autour de la gare, notent 6,5/10 de vie du soir et 9/10 de transport. Montreuil (quartier) note 6/10. Pour le train, Les Chantiers ; pour le soir, le centre.",
+      },
+      {
+        heading: "Ce qu'on y fait seul·e : château, jardins, marché",
+        body: "Les repères viennent de notre guide tourisme : le château et la galerie des Glaces, les jardins et le Grand Canal, le Potager du Roi, le marché Notre-Dame. Aucun tarif ni horaire n'est cité ici.",
+      },
+      {
+        heading: "Se déplacer : RER et TGV",
+        body: "Notre relevé signale RER et TGV, pour 8,4/10 de transport. Nos données ne précisent pas la gare du TGV ni les durées de trajet.",
+      },
+      {
+        heading: "Le supplément single : la ville la plus chère du lot",
+        body: "Studio à 800 €, deux-pièces à 1 200 €, achat à 5 800 € le m², note de coût de 2,4/10. Le deux-pièces coûte plus de deux fois celui de Béziers (530 €). Un séjour solo ici se justifie par le patrimoine, pas par le budget.",
+      },
+      {
+        heading: "Quand y aller : la ville vit à l'année, sans effet campus",
+        body: "Avec 20,8 % de 15-29 ans, Versailles est plus jeune que Saint-Germain-en-Laye (16,6 %) mais moins que Cergy (26,3 %). Notre fiche donne 19,8 °C en juillet et 4,5 °C en janvier. Aucune normale mensuelle n'est publiée.",
+      },
+    ],
+    relatedCities: ["versailles"],
+    relatedGuides: ["10-choses-a-faire-a-versailles-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Versailles","voyage solo Yvelines","Versailles château séjour","week-end célibataire Île-de-France","Versailles RER TGV séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-cherbourg-2026",
+    title: "Vacances célibataire à Cherbourg-en-Cotentin en 2026 : mer, port et un deux-pièces à 620 €",
+    metaTitle: "Vacances célibataire Cherbourg 2026 : port, budget bas",
+    metaDesc: "Cherbourg-en-Cotentin en séjour célibataire : 18,8 % de 15-29 ans, centre-ville, Cité de la Mer, deux-pièces à 620 €. Sans train direct, climat frais.",
+    category: "lifestyle",
+    emoji: "⚓",
+    readMinutes: 4,
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    intro: "Cherbourg-en-Cotentin compte 78 028 habitants (Insee 2022), dont 18,8 % de 15-29 ans et 28,3 % de 60 ans et plus. Notre fiche lui donne 6,4/10 en coût, 5,9/10 en culture et 1 600 heures de soleil par an. Le deux-pièces de référence est à 620 €. La ville perd 2,6 % d'habitants depuis 2016 et notre relevé n'y signale ni TGV ni tramway : une base de port à petit budget, sans effet de masse.",
+    sections: [
+      {
+        heading: "Pourquoi Cherbourg : un budget bas au bord de la mer",
+        body: "Studio à 450 €, deux-pièces à 620 €, achat à 1 900 € le m². La note de coût de 6,4/10 est la même que Béziers. Le contrepoint est dit : 4,9/10 aux transports et 5,3/10 en sécurité.",
+      },
+      {
+        heading: "Où dormir : le centre-ville",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 7/10 de vie du soir et 7,5/10 de transport. Tourlaville note 5/10, Querqueville 4,5/10. Pour sortir à pied, le centre-ville, sans hésitation.",
+      },
+      {
+        heading: "Ce qu'on y fait : la Cité de la Mer et le port",
+        body: "Les repères de notre guide tourisme : la Cité de la Mer, la gare maritime transatlantique, la rade, les Parapluies de Cherbourg. Le Cap de la Hague et Barfleur demandent un déplacement ; aucune salle ni agenda n'est cité.",
+      },
+      {
+        heading: "La vie hors saison : stable, pas étudiante",
+        body: "18,8 % de 15-29 ans et 28,3 % de seniors : la ville passe sous le plafond de 32 %, mais perd des habitants. Sa vie du soir de 7/10 est sous notre plancher de 8,0/10 ; l'hiver y sera calme.",
+      },
+      {
+        heading: "Se déplacer : aucun réseau dans notre relevé",
+        body: "Le score de transport est de 4,9/10 et notre relevé ne signale ni TGV, ni tram, ni métro. À vérifier avant de réserver : la liaison ferroviaire et les horaires de nuit ne sont pas dans nos données.",
+      },
+      {
+        heading: "Quand y aller : 18,5 °C en juillet, 5,5 °C en janvier",
+        body: "C'est la ville la plus fraîche du lot en été (18,5 °C), et elle compte 1 600 heures de soleil. Aucune normale mensuelle n'est publiée. On y vient pour la mer et la Normandie du nord, pas pour la chaleur.",
+      },
+    ],
+    relatedCities: ["cherbourg"],
+    relatedGuides: ["10-choses-a-faire-a-cherbourg-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Cherbourg","voyage solo Manche","Cherbourg Cité de la Mer","week-end célibataire Normandie","Cherbourg-en-Cotentin séjour solo"],
+  },
+  {
     slug: "partir-en-vacances-seul-2026",
     title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
     metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",
