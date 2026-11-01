@@ -12,6 +12,25 @@ import {
 } from "@/lib/quality-of-life-index";
 import { findMacroRegionForCity } from "@/lib/macro-regions";
 
+// The libs carry French labels; EN maps live at the display site (CLAUDE.md,
+// « Reused FR client components leak French »). Same macro names as the EN
+// /environment, /healthcare and /employment hubs these tiles link to.
+const QOL_LEVEL_LABEL_EN: Record<keyof typeof QOL_LEVEL_LABEL, string> = {
+  exceptionnel: "Exceptional",
+  excellent: "Excellent",
+  bon: "Good",
+  moyen: "Average",
+  tendu: "Strained",
+};
+const EN_MACRO_LABEL: Record<string, string> = {
+  "cote-atlantique": "Atlantic Coast",
+  "arc-mediterraneen": "Mediterranean Arc",
+  "arc-alpin": "Alpine Arc",
+  "sud-ouest-gascon": "South-West Gascony",
+  "vallee-du-rhone": "Rhône Valley",
+  "ile-de-france-elargie": "Greater Île-de-France",
+};
+
 export function QolHeroBadge({
   city,
   locale = "fr",
@@ -45,6 +64,8 @@ export function QolHeroBadge({
       ? "/employment"
       : "/emploi";
   const nationalHub = L("Hub national →", "National hub →");
+  const macroLabel = macro ? (locale === "en" ? EN_MACRO_LABEL[macro.slug] ?? macro.label : macro.label) : null;
+  const levelLabel = locale === "en" ? QOL_LEVEL_LABEL_EN[qol.level] : QOL_LEVEL_LABEL[qol.level];
 
   return (
     <div className="mt-6 rounded-3xl border border-white/50 glass p-5 sm:p-6">
@@ -59,7 +80,7 @@ export function QolHeroBadge({
             </span>
             <span className="text-sm text-[var(--text-tertiary)]">/10</span>
             <span className={`text-xs uppercase tracking-wide font-semibold ${QOL_LEVEL_COLOR[qol.level]}`}>
-              {QOL_LEVEL_LABEL[qol.level]}
+              {levelLabel}
             </span>
           </div>
           <div className="text-xs text-[var(--text-secondary)] mt-1">
@@ -97,21 +118,21 @@ export function QolHeroBadge({
           label={L("Environnement", "Environment")}
           value={qol.envScore}
           href={envHref}
-          subhref={macro ? `${macro.label} →` : nationalHub}
+          subhref={macroLabel ? `${macroLabel} →` : nationalHub}
         />
         <PillarTile
           icon="🩺"
           label={L("Santé", "Healthcare")}
           value={qol.healthScore}
           href={healthHref}
-          subhref={macro ? `${macro.label} →` : nationalHub}
+          subhref={macroLabel ? `${macroLabel} →` : nationalHub}
         />
         <PillarTile
           icon="💼"
           label={L("Emploi", "Employment")}
           value={qol.jobScore}
           href={jobHref}
-          subhref={macro ? `${macro.label} →` : nationalHub}
+          subhref={macroLabel ? `${macroLabel} →` : nationalHub}
         />
       </div>
       <p className="text-[11px] text-[var(--text-tertiary)] mt-3">

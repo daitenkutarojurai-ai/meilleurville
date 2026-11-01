@@ -6,6 +6,7 @@ import type { City } from "@/lib/types";
 import { HOUSING } from "@/data/housing";
 import { cardPhoto } from "@/lib/city-cards";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
+import { tagLabelEn } from "@/lib/tag-labels-en";
 
 interface CityCardProps {
   city: City;
@@ -136,7 +137,10 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
           </div>
 
           <div className="flex flex-wrap items-center gap-1.5">
-            {city.characterTags.slice(0, 2).map((tag) => (
+            {(locale === "en"
+              ? city.characterTags.map(tagLabelEn).filter((t): t is string => !!t)
+              : city.characterTags
+            ).slice(0, 2).map((tag) => (
               <Badge key={tag} variant="subtle" className="capitalize text-[10px]">
                 {tag}
               </Badge>

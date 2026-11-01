@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor, scoreHex } from "@/lib/utils";
 import { cardPhoto } from "@/lib/city-cards";
+import { tagLabelEn } from "@/lib/tag-labels-en";
 
 function tagline(city: (typeof CITIES_SEED)[number], locale: "fr" | "en"): string {
   const s = city.scores;
@@ -18,7 +19,9 @@ function tagline(city: (typeof CITIES_SEED)[number], locale: "fr" | "en"): strin
     { k: "life", v: s.life, label: locale === "en" ? "an unapologetic art of living" : "art de vivre assumé" },
   ].sort((a, b) => b.v - a.v);
 
-  const tag = city.characterTags[0];
+  const tag = locale === "en"
+    ? city.characterTags.map(tagLabelEn).find((t): t is string => !!t)
+    : city.characterTags[0];
   const fallback = locale === "en" ? "Well-rounded" : "Équilibrée";
   return `${tag ? tag.charAt(0).toUpperCase() + tag.slice(1) : fallback} · ${top[0].label}`;
 }

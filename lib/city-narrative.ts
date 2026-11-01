@@ -1,5 +1,6 @@
 import type { CitySeed } from "@/data/cities-seed";
 import type { HousingData } from "@/data/housing";
+import { tagLabelEn } from "@/lib/tag-labels-en";
 
 export interface CityNarrative {
   intro: string;
@@ -279,11 +280,20 @@ function buildIntro(city: CitySeed, locale: Locale): string {
       : g >= 7.0 ? "offers a quality of life clearly above average"
       : g >= 6.0 ? "has a balanced profile, with no real excess either way"
       : "shows a few weaknesses on quality of life according to our indicators";
-    const tagsPart = city.characterTags.slice(0, 3).join(", ");
-    const popPart = city.population
-      ? `${city.population.toLocaleString("en-US")} inhabitants`
-      : "a French city";
-    return `${city.name} (${city.department}, ${city.region}) ${tierEn}. With its ${popPart}, it is often described as ${tagsPart}. Overall score ${g.toFixed(1)}/10, calibrated across every city we cover.`;
+    // Seed tags are French (« soleil », « abordable », « politique ») : only
+    // tags with a reviewed EN label go in, and the clause drops when none has one.
+    const tagsEn = city.characterTags
+      .map(tagLabelEn)
+      .filter((t): t is string => !!t)
+      .slice(0, 3);
+    const pop = city.population ? `${city.population.toLocaleString("en-US")} inhabitants` : null;
+    const tags = tagsEn.join(", ");
+    const middle =
+      pop && tags ? ` With its ${pop}, it is often described as ${tags}.`
+      : pop ? ` It has ${pop}.`
+      : tags ? ` It is often described as ${tags}.`
+      : "";
+    return `${city.name} (${city.department}, ${city.region}) ${tierEn}.${middle} Overall score ${g.toFixed(1)}/10, calibrated across every city we cover.`;
   }
 
   const tier =

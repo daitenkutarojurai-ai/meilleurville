@@ -14,6 +14,7 @@ import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ChevronRight, MapPin, TreePine, Utensils, Music, Bike, Camera, Coffee, Sunset } from "lucide-react";
 import { fitTitle } from "@/lib/brand";
+import { tagLabelEn } from "@/lib/tag-labels-en";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -260,14 +261,14 @@ export default async function EnThingsToDoPage({ params }: Props) {
           </p>
         </div>
 
-        {/* Character tags */}
-        {city.characterTags.length > 0 && (
+        {/* Character tags — the seed's are French; only those with a reviewed EN label show. */}
+        {city.characterTags.some((t) => tagLabelEn(t)) && (
           <div className="mb-10">
             <h2 className="text-base font-bold text-[var(--text-primary)] mb-3">
               {city.name} in a few words
             </h2>
             <div className="flex flex-wrap gap-2">
-              {city.characterTags.map((tag) => (
+              {city.characterTags.map(tagLabelEn).filter((t): t is string => !!t).map((tag) => (
                 <span
                   key={tag}
                   className="px-3 py-1.5 rounded-full text-sm border border-[var(--border)] bg-[var(--bg-surface)] text-[var(--text-secondary)]"
