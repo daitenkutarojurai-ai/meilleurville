@@ -9952,6 +9952,26 @@
       "emoji": "🏺"
     },
     {
+      "slug": "leaving-caen-where-to-go-2026",
+      "title": "Leaving Caen: Rouen, Paris, the Normandy coast or the Calvados countryside",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "leaving-avignon-where-to-go-2026",
+      "title": "Leaving Avignon: Aix, Marseille, Montpellier, Nîmes or the Provençal countryside",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "leaving-besancon-where-to-go-2026",
+      "title": "Leaving Besançon: Dijon, Lyon, Strasbourg, Switzerland or the Jura",
+      "emoji": "⌚"
+    },
+    {
+      "slug": "leaving-pau-where-to-go-2026",
+      "title": "Leaving Pau: Bordeaux, Toulouse, the Basque Coast or the Pyrenees valleys",
+      "emoji": "🏔️"
+    },
+    {
       "slug": "fastest-growing-and-shrinking-cities-in-france-2016-2022-413-cities",
       "title": "France's fastest-growing and fastest-shrinking cities: 413 cities compared, 2016-2022",
       "emoji": "📈"
@@ -10024,14 +10044,14 @@
       "count": 74
     },
     {
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 71
+    },
+    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
       "count": 70
-    },
-    {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 67
     },
     {
       "slug": "french-school-system",
@@ -10101,12 +10121,12 @@
     {
       "slug": "provence",
       "label": "provence",
-      "count": 43
+      "count": 44
     },
     {
       "slug": "normandy",
       "label": "normandy",
-      "count": 41
+      "count": 42
     },
     {
       "slug": "working-in-france",
@@ -10199,14 +10219,19 @@
       "count": 11
     },
     {
-      "slug": "rural-france",
-      "label": "rural france",
+      "slug": "bordeaux",
+      "label": "bordeaux",
       "count": 11
     },
     {
-      "slug": "bordeaux",
-      "label": "bordeaux",
-      "count": 10
+      "slug": "pyrenees",
+      "label": "pyrenees",
+      "count": 11
+    },
+    {
+      "slug": "rural-france",
+      "label": "rural france",
+      "count": 11
     },
     {
       "slug": "climate",
@@ -10216,11 +10241,6 @@
     {
       "slug": "cote-d-azur",
       "label": "cote d'azur",
-      "count": 10
-    },
-    {
-      "slug": "pyrenees",
-      "label": "pyrenees",
       "count": 10
     },
     {
@@ -10259,6 +10279,11 @@
       "count": 8
     },
     {
+      "slug": "dijon",
+      "label": "dijon",
+      "count": 8
+    },
+    {
       "slug": "france-climate-2040",
       "label": "france climate 2040",
       "count": 8
@@ -10274,6 +10299,11 @@
       "count": 8
     },
     {
+      "slug": "marseille",
+      "label": "marseille",
+      "count": 8
+    },
+    {
       "slug": "mediterranean",
       "label": "mediterranean",
       "count": 8
@@ -10281,6 +10311,11 @@
     {
       "slug": "rennes",
       "label": "rennes",
+      "count": 8
+    },
+    {
+      "slug": "toulouse",
+      "label": "toulouse",
       "count": 8
     },
     {
@@ -10314,18 +10349,8 @@
       "count": 7
     },
     {
-      "slug": "dijon",
-      "label": "dijon",
-      "count": 7
-    },
-    {
       "slug": "le-havre",
       "label": "le havre",
-      "count": 7
-    },
-    {
-      "slug": "marseille",
-      "label": "marseille",
       "count": 7
     },
     {
@@ -10339,14 +10364,14 @@
       "count": 7
     },
     {
-      "slug": "toulouse",
-      "label": "toulouse",
-      "count": 7
-    },
-    {
       "slug": "tours",
       "label": "tours",
       "count": 7
+    },
+    {
+      "slug": "aix-en-provence",
+      "label": "aix-en-provence",
+      "count": 6
     },
     {
       "slug": "angers",
@@ -10404,14 +10429,14 @@
       "count": 6
     },
     {
-      "slug": "toulon",
-      "label": "toulon",
+      "slug": "rouen",
+      "label": "rouen",
       "count": 6
     },
     {
-      "slug": "aix-en-provence",
-      "label": "aix-en-provence",
-      "count": 5
+      "slug": "toulon",
+      "label": "toulon",
+      "count": 6
     },
     {
       "slug": "annecy",
@@ -10421,6 +10446,11 @@
     {
       "slug": "brest",
       "label": "brest",
+      "count": 5
+    },
+    {
+      "slug": "franche-comte",
+      "label": "franche-comte",
       "count": 5
     },
     {
@@ -10444,11 +10474,6 @@
       "count": 5
     },
     {
-      "slug": "rouen",
-      "label": "rouen",
-      "count": 5
-    },
-    {
       "slug": "amiens",
       "label": "amiens",
       "count": 4
@@ -10456,11 +10481,6 @@
     {
       "slug": "avignon",
       "label": "avignon",
-      "count": 4
-    },
-    {
-      "slug": "franche-comte",
-      "label": "franche-comte",
       "count": 4
     },
     {
@@ -10541,6 +10561,11 @@
     {
       "slug": "chambery",
       "label": "chambery",
+      "count": 3
+    },
+    {
+      "slug": "cherbourg",
+      "label": "cherbourg",
       "count": 3
     },
     {

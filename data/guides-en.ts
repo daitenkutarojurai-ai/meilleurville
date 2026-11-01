@@ -56558,6 +56558,174 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["leaving limoges", "limousin", "bordeaux", "poitiers", "limoges alternatives", "relocation"],
   },
   {
+    slug: "leaving-caen-where-to-go-2026",
+    title: "Leaving Caen: Rouen, Paris, the Normandy coast or the Calvados countryside",
+    metaTitle: "Leaving Caen 2026: Rouen, Paris, Cherbourg, Bayeux",
+    metaDesc:
+      "Caen scores 6.4/10 with a T3 near €930 and about €2,500/m² to buy. The limit is the private-sector job market. Where people go: Rouen, Paris, Cherbourg, Bayeux.",
+    category: "city-guide",
+    emoji: "🐎",
+    readMinutes: 5,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro:
+      "Caen is one of the better-balanced mid-sized cities in France: about 109,000 residents, the sea 20 minutes away, a university hospital, a research university and a T3 (three-room flat, two bedrooms) around €930 a month, with buying at about €2,500/m². It scores 6.4/10 on our site. What it lacks is depth in senior private-sector jobs outside health, research and the public sector, and Paris is 1 hour 45 by train, too far for a daily commute. Those are the usual reasons people look elsewhere.",
+    sections: [
+      {
+        heading: "Why do people leave Caen?",
+        body: "Jobs: beyond the hospital, the university, the GANIL particle accelerator and public services, the market for finance, consulting and marketing roles is thin, so people in those fields drift to Rouen or Paris. Distance: Paris Saint-Lazare in 1 hour 45 works for two days a week, not five. Weather: Normandy is mild but grey and damp in winter, which wears on some people. None of this matters much if you work remotely or in public services.",
+      },
+      {
+        heading: "Rouen: a bigger job market, the same region",
+        body: "Rouen scores 5.8/10, with a T3 around €950 and about €2,600/m² to buy, so costs are almost identical to Caen. The job market is wider (health, pharma, food industry, university) and the cultural scene deeper. You keep Normandy; you lose the beach 20 minutes away, since Rouen is about an hour from the coast. A sensible move for a career step without a cost step.",
+      },
+      {
+        heading: "Paris: more pay, much higher housing costs",
+        body: "Paris is the career move for people whose promotion depends on being there. A weekly commuter pattern is possible but the TGV season ticket is a large monthly cost. Most who move settle in the western suburbs, such as Mantes or Vernon in the Yvelines, which cuts the trip back to Normandy. Plan for housing costs several times higher than in Caen, and count on some people coming back after a few years.",
+      },
+      {
+        heading: "Cherbourg, Bayeux and the coast",
+        body: "Cherbourg scores 5.6/10, with a T3 around €820 and about €1,900/m² to buy, cheaper than Caen. It is a port and naval city with a specific maritime job market. Bayeux, about 30 minutes from Caen, scores 6.1/10 with a T3 near €760 and about €2,200/m². It has UNESCO heritage and quiet, but only some 14,000 residents. Deauville and Trouville are expensive second-home towns; we publish no rent benchmark for them.",
+      },
+      {
+        heading: "The Calvados countryside",
+        body: "Many people leave the city but keep a job in Caen: the Bessin around Bayeux, the Pays d'Auge (cider, manor houses, cheese) or the Suisse Normande (gorges and hiking). The catches are a 30 to 45 minute drive each way, a car for every adult, and thinner services. Before you buy, check the commune's population trend, whether the school is staying open and whether the village doctor has a successor.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Rouen is the cleanest gain: more jobs, same prices, same region. Paris pays more but costs more. Cherbourg and Bayeux keep Normandy and cut costs, and suit remote workers and public-sector staff. If your income does not depend on a Caen employer, the city's mix of price, sea and services is hard to beat.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "cherbourg", "bayeux", "le-havre"],
+    tags: ["leaving caen", "normandy", "rouen", "cherbourg", "caen alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-avignon-where-to-go-2026",
+    title: "Leaving Avignon: Aix, Marseille, Montpellier, Nîmes or the Provençal countryside",
+    metaTitle: "Leaving Avignon 2026: Aix, Marseille, Montpellier, Nîmes",
+    metaDesc:
+      "Avignon scores 5.6/10 with a T3 near €1,000 and about €3,000/m² to buy. Festival crowds and a narrow job market push people out. Where they go.",
+    category: "city-guide",
+    emoji: "🎭",
+    readMinutes: 5,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro:
+      "Avignon has the Palais des Papes, a world-famous theatre festival, a TGV station (Paris in about 2 hours 40) and Provençal sun. It scores 5.6/10 on our site, with a T3 (three-room flat, two bedrooms) around €1,000 and buying at about €3,000/m². The city proper has roughly 91,500 residents. The reasons people leave are a narrow market for senior private-sector jobs, a sharp seasonal rhythm (packed in July, quiet in winter) and, in some districts, a feeling of insecurity that sends families to the outskirts.",
+    sections: [
+      {
+        heading: "Why do people leave Avignon?",
+        body: "Jobs: outside administration, culture, fruit and vegetable trade and tourism, the market for finance, tech and consulting is limited. Seasonality: during the July festival the walled centre is saturated and some residents leave for the month, while winter can feel empty. Safety perception: some districts, such as those south of the ring road and Monclar, are cited by families who move out. Check the sub-page for any specific street rather than relying on the city score.",
+      },
+      {
+        heading: "Aix-en-Provence: the career move, with a price tag",
+        body: "Aix scores 6.5/10 against Avignon's 5.6, with a T3 around €1,400 (40% more) and about €5,000/m² to buy (more than 1.6 times). In return you get a denser job market in energy, consulting, research and the university, and about an hour by car. It is the natural step for a mid-career professional who can afford it. Tourism seasonality exists there too, spread across more areas.",
+      },
+      {
+        heading: "Marseille: scale and sea, with trade-offs",
+        body: "Marseille scores 3.8/10 overall on our site, with a T3 around €1,100 and about €3,500/m² to buy, and the figures hide huge differences between arrondissements. It offers a far larger job market (port, tech, health, media), the sea and a lively music scene, and it is about an hour away by TGV. The downsides are safety and traffic in some areas. Visit the exact district before deciding.",
+      },
+      {
+        heading: "Montpellier and Nîmes",
+        body: "Montpellier scores 5.6/10, with a T3 around €1,150 and about €3,900/m² to buy. It is a young, university-driven city with biotech and digital jobs, about an hour and a half away. Nîmes scores 5.1/10, with a T3 around €960 and about €2,800/m² to buy, so it is a cheaper, quieter option with Roman heritage, 45 minutes away, with Montpellier reachable on the same rail line. If seasonality is what bothers you, Nîmes is the calmer compromise.",
+      },
+      {
+        heading: "The Provençal countryside",
+        body: "Many leave the walls but keep a job in the Avignon area. The Luberon (L'Isle-sur-la-Sorgue, Cavaillon, Apt) is beautiful and priced accordingly. Around Mont Ventoux, Carpentras scores 6.3/10, with a T3 near €920 and about €2,200/m² to buy. Arles, in the Camargue, scores 5.2/10 with a T3 near €930 and about €3,200/m². The catch is the daily drive on a motorway that jams in summer. Test the commute in July before buying.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Aix wins on careers and costs more. Montpellier suits younger professionals. Nîmes lowers the temperature on both prices and crowds. The countryside improves daily life at the cost of a car-dependent routine. If you like Avignon off-season and can work around July, it remains reasonable value for the region.",
+      },
+    ],
+    relatedCities: ["avignon", "aix-en-provence", "marseille", "montpellier", "nimes", "arles", "carpentras"],
+    tags: ["leaving avignon", "provence", "aix-en-provence", "marseille", "avignon alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-besancon-where-to-go-2026",
+    title: "Leaving Besançon: Dijon, Lyon, Strasbourg, Switzerland or the Jura",
+    metaTitle: "Leaving Besançon 2026: Dijon, Lyon, Switzerland, Jura",
+    metaDesc:
+      "Besançon scores 6.5/10 with a T3 near €900 and about €2,300/m² to buy. Where people go: Dijon, Lyon, Strasbourg, Swiss border jobs, the Jura.",
+    category: "city-guide",
+    emoji: "⌚",
+    readMinutes: 5,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro:
+      "Besançon is a Vauban citadel (UNESCO-listed) in a loop of the Doubs river, with a watchmaking and microtechnology tradition. It scores 6.5/10 on our site, with a T3 (three-room flat, two bedrooms) around €900 and buying at about €2,300/m². About 117,000 people live in the city. The usual reasons for leaving are a narrow market for senior roles outside microtechnology, health and the university, cold winters, and longer journeys to a major airport (Geneva and Basel-Mulhouse are both around two hours away).",
+    sections: [
+      {
+        heading: "Why do people leave Besançon?",
+        body: "Jobs: the watchmaking and microtechnology cluster, the university hospital and the university carry the market, and senior roles in other fields are few. Climate: winters are hard and summers can be stuffy in the river basin. Connections: the TGV reaches Paris in about 2 hours 05, which is good, but Lyon takes around three hours by train and there is no big airport nearby.",
+      },
+      {
+        heading: "Dijon: the easy step up",
+        body: "Dijon scores 6.4/10, with a T3 around €950 and about €2,600/m² to buy, so costs are similar to Besançon's. It is about an hour away by regional train, has a larger job market in health, food industry, research and law, and a TGV to Paris in around 1 hour 35. A career move that does not change your budget or your region's feel.",
+      },
+      {
+        heading: "Cross-border work in Switzerland",
+        body: "The Swiss border (Pontarlier, Morteau) is 50 to 80 km away, and many people live in France and work in Neuchâtel or La Chaux-de-Fonds, especially in watchmaking. Swiss salaries run well above French ones, which is the whole appeal. The catches: a commute of 45 minutes to an hour each way, Swiss health insurance rules for cross-border workers and a specific tax regime. Get advice on both before signing a contract. Pontarlier scores 7.5/10 on our site, with a T3 near €940 and about €2,400/m² to buy.",
+      },
+      {
+        heading: "Lyon and Strasbourg",
+        body: "Lyon scores 7.1/10, with a T3 around €1,380 (53% more than Besançon) and about €5,000/m² to buy, more than twice as much. The job market is far larger and the cost step is steep. Strasbourg scores 7.5/10, with a T3 around €1,080 and about €3,800/m² to buy, and adds a German border and a European institutional job base. Strasbourg is the better choice if you want a big city without Lyon's prices.",
+      },
+      {
+        heading: "The Jura and the Doubs highlands",
+        body: "For nature without the city, Pontarlier is the gateway to the high Doubs. Montbéliard scores 6.1/10, with a T3 near €720 and about €1,700/m² to buy, an industrial town in transition about an hour away and open to Alsace. Lons-le-Saunier is a quiet Jura prefecture. These suit remote workers and industry profiles, and all of them mean a car.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Dijon gives a larger market for no extra cost. A Swiss job can transform your purchasing power for technical profiles, but plan for the commute: many people stop after a few years despite the pay. Lyon and Strasbourg are bigger bets. If you work remotely, Besançon's rents are low for a city with this setting.",
+      },
+    ],
+    relatedCities: ["besancon", "dijon", "lyon", "strasbourg", "pontarlier", "montbeliard"],
+    tags: ["leaving besancon", "franche-comte", "dijon", "switzerland cross-border", "besancon alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-pau-where-to-go-2026",
+    title: "Leaving Pau: Bordeaux, Toulouse, the Basque Coast or the Pyrenees valleys",
+    metaTitle: "Leaving Pau 2026: Bordeaux, Toulouse, Bayonne, Tarbes",
+    metaDesc:
+      "Pau scores 6.4/10 with a T3 near €900 and about €2,400/m² to buy. A job market built around one employer pushes people out. Where they go.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 5,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro:
+      "Pau faces the Pyrenees, has a mild sheltered climate and a heritage centre, and scores 6.4/10 on our site. A T3 (three-room flat, two bedrooms) rents for about €900 and buying costs about €2,400/m². The city has around 77,000 residents. The job market leans on TotalEnergies (the Lacq area and its research), aerospace and the public sector, and there is no direct TGV: Paris is roughly five hours by train and Bordeaux about two. Those are the main reasons people look elsewhere.",
+    sections: [
+      {
+        heading: "Why do people leave Pau?",
+        body: "Jobs: the market is concentrated around TotalEnergies and a few other employers, so partners with different careers struggle to find equivalent roles. Connections: without a direct TGV, Pau is less accessible than Bayonne or Toulouse. Size: young graduates often find the city small and move to Toulouse or Bordeaux. If you work remotely, none of this applies, and the mountains are an hour away.",
+      },
+      {
+        heading: "Bordeaux: the obvious step for careers",
+        body: "Bordeaux scores 6.9/10, with a T3 around €1,200 (a third more than Pau) and about €4,500/m² to buy (nearly double). The job market is much larger in digital, aerospace, biotech and wine, with a TGV to Paris in about two hours. It is about two hours from Pau by car or train. A good fit for a young couple in a career climb, harder for first-time buyers.",
+      },
+      {
+        heading: "Toulouse: aerospace and engineering",
+        body: "Toulouse scores 6.6/10, with a T3 around €1,150 and about €4,000/m² to buy. It is the centre of European aerospace (Airbus, ATR, Thales), plus universities and the space sector, about two and a half hours from Pau. For engineers in Pau's aerospace firms, Toulouse is the natural next employer.",
+      },
+      {
+        heading: "The Basque Coast",
+        body: "Bayonne scores 5.9/10, with a T3 around €1,200 and about €4,500/m² to buy. Biarritz is dearer still: a T3 near €1,400 and about €6,500/m². The coast is about an hour from Pau and attracts people for the sea, surf and Basque identity. The job market is narrower than Bordeaux's, so this move works best if your work is remote or already local. Check that remote work will hold for five years before buying.",
+      },
+      {
+        heading: "Tarbes and the Pyrenean valleys",
+        body: "Tarbes scores 6.0/10, with a T3 near €770 and about €1,600/m² to buy, much cheaper than Pau, about 45 minutes away and a short drive from Lourdes and the mountains. Oloron-Sainte-Marie is the gateway to the Aspe and Ossau valleys: quiet, with limited services. Fibre internet is not guaranteed in high valleys, so check coverage address by address.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Bordeaux and Toulouse mean careers and a heavier housing bill. The Basque Coast buys lifestyle and loses job depth. Tarbes and the valleys cut costs and make you car-dependent. If your work is remote and you like mountains, Pau's mix of climate, price and view is one of the better ones in the south-west.",
+      },
+    ],
+    relatedCities: ["pau", "bordeaux", "toulouse", "bayonne", "biarritz", "tarbes"],
+    tags: ["leaving pau", "pyrenees", "bordeaux", "toulouse", "basque coast", "pau alternatives", "relocation"],
+  },
+  {
     slug: "fastest-growing-and-shrinking-cities-in-france-2016-2022-413-cities",
     title: "France's fastest-growing and fastest-shrinking cities: 413 cities compared, 2016-2022",
     metaTitle: "Fastest-growing cities in France, 2016-2022: 413 ranked",
