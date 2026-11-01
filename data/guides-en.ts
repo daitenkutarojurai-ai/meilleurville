@@ -52198,6 +52198,324 @@ export const EN_GUIDES: EnGuide[] = [
       "loire valley"
     ]
   },
+  {
+    slug: "single-parent-holidays-les-sables-d-olonne-2026",
+    title: "Single-parent holidays in Les Sables-d'Olonne: sea front, a 1,050 € flat and the tide",
+    metaTitle: "Single-Parent Holidays in Les Sables-d'Olonne",
+    metaDesc: "Les Sables-d'Olonne scores 7.1/10 on our single-parent index: flat 1,050 €, safety 8.0/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Les Sables-d'Olonne comes out at 7.1/10 on our single-parent composite, joint sixth of the sixty-five destinations, tied with two others (source: our trip-fit index). The detail: safety 8.0/10, transport 6.2/10, cost of living 5.4/10 and quality of life 7.8/10 (source: our city profile). The market: 1,050 € for the reference three-room flat and 3,500 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 48,740 inhabitants at the 2022 census against 41,478 in 2011, a rise of 17.5 % (source: INSEE census). Our engine rates it €€€. It is the only town of this batch that reaches the top of the profile ranking, carried by safety and quality of life more than by transport.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing show direct TGVs from Paris-Montparnasse to Les Sables-d'Olonne in roughly three hours twenty to three hours forty-five depending on the train; some services go via Nantes or a regional train and stretch the trip to four or five hours. For one adult with children, the direct train is the condition to look for: check it on SNCF Connect for your date, because summer timetables differ. The walking distance from the station to the beach could not be verified in the sources consulted: measure it on a map before choosing where to stay. The transport axis is 6.2/10, below the series median of 7.0, joint fifty-first of the sixty-five, tied with one other."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Les Sables-d'Olonne comes out at 5.4/10 (source: our city profile), joint forty-ninth of the sixty-five, tied with one other, against a series median of 6.2. The market: 1,050 € for the reference three-room flat and 3,500 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. Our engine rates it €€€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host. The reference flat costs more here than in the other towns of the batch, and the cost axis sits in the bottom quarter of the ranking: the trade-off is played on the season, not on the place."
+      },
+      {
+        heading: "The Remblai, La Chaume and the beach: a resort you do on foot",
+        body: "Les Sables-d'Olonne is a seaside resort whose front, the Remblai, runs along a large urban beach: it is the core of a car-free stay, with shops and restaurants next to the sand, which limits journeys with tired children. The La Chaume district, across the channel, is reached on foot or by the small water crossing, whose running and times are checked on site. The town is also known as the start port of the Vendée Globe, which gives children curious about boats something to watch. The modern art museum in the Sainte-Croix abbey is the wet-weather fallback; hours and prices are checked with the museum. The Olonne forest, north of the town, offers shaded walks reachable from the commune, but car-free access should be checked before leaving."
+      },
+      {
+        heading: "13 green spaces mapped, 6 with a playground",
+        body: "The mapping survey records 13 green spaces in the commune, 6 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 8.0/10, quality of life 7.8/10",
+        body: "Les Sables-d'Olonne shows 8.0/10 on the safety axis (source: our city profile), joint third of the sixty-five, tied with two others, against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 7.8/10, joint sixth of the sixty-five, tied with five others. The risk specific to the town is the sea: swim only on supervised beaches, with the bathing flags as your guide, and check the tide times the same morning, because the beach changes with the tidal coefficient. With young children and one adult, the simple rule is never to leave a child alone at the water's edge, however shallow."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Nantes (Nantes-Bouguenais), 74 kilometres away (source: Météo-France 1991-2020 normals). It gives 6.4 °C in January and 19.7 °C in July. The commune's own anchors come from the seed: 8.0 °C in January, 21.0 °C in July and 2,250 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then September, then July. It is the most seasonal destination of the batch: the indicator reaches level 4 in July and August, when the beach and the accommodation fill up. June and September remain the calmer months for a solo parent who wants to avoid the peak and the high-season prices."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Vendée one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "les-sables-d-olonne",
+      "la-roche-sur-yon",
+      "nantes"
+    ],
+    tags: [
+      "single parent holidays",
+      "les sables d'olonne with kids",
+      "vendée",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-troyes-2026",
+    title: "Single-parent holidays in Troyes: half-timbered streets, a direct train and an 860 € flat",
+    metaTitle: "Single-Parent Holidays in Troyes 2026",
+    metaDesc: "Troyes scores 6.3/10 on our single-parent index: flat 860 €, safety 5.4/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Troyes comes out at 6.3/10 on our single-parent composite, joint thirty-seventh of the sixty-five destinations, tied with six others (source: our trip-fit index). The detail: safety 5.4/10, transport 6.7/10, cost of living 7.1/10 and quality of life 5.9/10 (source: our city profile). The market: 860 € for the reference three-room flat and 2,000 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 62,443 inhabitants at the 2022 census against 60,013 in 2011, a rise of 4.0 % (source: INSEE census). Our engine rates it €€. Cost of living is the second best of the batch, behind Sens, and the reference flat is the second cheapest.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing give a direct regional train from Paris-Est to Troyes in about an hour and a half (1 h 29 to 1 h 45 depending on the train); sources disagree on the number of daily services, between seven and fifteen, so check SNCF Connect for your date. A direct ninety-minute regional train is the simplest format for one adult with children: no change, no luggage transfer. The walking distance from the station to the old centre could not be verified in the sources consulted: measure it on a map before choosing where to stay. The transport axis is 6.7/10, below the series median of 7.0, joint thirty-fifth of the sixty-five, tied with two others."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Troyes comes out at 7.1/10 (source: our city profile), joint thirteenth of the sixty-five, tied with one other, against a series median of 6.2. The market: 860 € for the reference three-room flat and 2,000 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. Our engine rates it €€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host. It is one of the best cost ranks of the series and the flat is the second cheapest of the batch: for a solo-parent budget, that is the main argument for Troyes."
+      },
+      {
+        heading: "Half-timbered houses, the Cats' Alley and the cathedral",
+        body: "The historic centre of Troyes, whose outline is said to resemble a champagne cork, is walked on foot, which saves the car. It is known for its half-timbered houses and for the Ruelle des Chats, a very narrow lane where two houses almost touch at the top: a story to tell the children rather than a long visit. The Saint-Pierre-et-Saint-Paul cathedral is the wet-weather fallback, to be sized to the children's age; hours and access are checked with the building. The lakes of the Orient forest, east of the town, are a place to swim and walk in summer, but car-free access was not verified: look at it before counting on it. The factory outlets of the area are a rainy-day outing with no link to the heritage."
+      },
+      {
+        heading: "28 green spaces mapped, 10 with a playground",
+        body: "The mapping survey records 28 green spaces in the commune, 10 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 5.4/10, quality of life 5.9/10",
+        body: "Troyes shows 5.4/10 on the safety axis (source: our city profile), forty-fifth of the sixty-five, against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 5.9/10, joint forty-sixth of the sixty-five, tied with eleven others. Troyes has the lowest safety score of the batch, without the indicator pointing at any district: in practice a solo parent applies the habits of any mid-sized town, staying near the station or the lit centre and getting young children back before dark."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Reims (Chambrecy-CIVC), 100 kilometres away (source: Météo-France 1991-2020 normals). It gives 3.4 °C in January and 18.7 °C in July. The commune's own anchors come from the seed: 3.2 °C in January, 21.5 °C in July and 1,680 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts July first, then August, then June. The crowding indicator exceeds level 3 in no month: it is a quiet town almost all year, so an off-season weekend is as easy as July, with fewer people in the narrow lanes."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Aube one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "troyes",
+      "reims",
+      "dreux"
+    ],
+    tags: [
+      "single parent holidays",
+      "troyes with kids",
+      "champagne",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-chartres-2026",
+    title: "Single-parent holidays in Chartres: a cathedral day trip and an 890 € flat",
+    metaTitle: "Single-Parent Holidays in Chartres 2026",
+    metaDesc: "Chartres scores 6.0/10 on our single-parent index: flat 890 €, safety 5.5/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Chartres comes out at 6.0/10 on our single-parent composite, joint fifty-fourth of the sixty-five destinations, tied with three others (source: our trip-fit index). The detail: safety 5.5/10, transport 6.4/10, cost of living 6.2/10 and quality of life 6.1/10 (source: our city profile). The market: 890 € for the reference three-room flat and 2,500 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 37,990 inhabitants at the 2022 census against 39,273 in 2011, a fall of 3.3 % (source: INSEE census). Our engine rates it €€€. It is the weekend destination of the batch: close to Paris in travel time, like Sens, and the one where the main visit fits in half a day.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing show direct regional trains from Paris-Montparnasse to Chartres in roughly one hour to one hour twenty, about one train an hour; exact duration and times are checked on SNCF Connect for your date. For one adult with children, an hour with no change allows a same-day return if the children will not manage a stay. The walking distance from the station to the cathedral could not be verified in the sources consulted: measure it on a map before choosing where to stay. The transport axis is 6.4/10, below the series median of 7.0, joint thirty-eighth of the sixty-five, tied with twelve others."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Chartres comes out at 6.2/10 (source: our city profile), joint thirty-first of the sixty-five, tied with eight others, against a series median of 6.2. The market: 890 € for the reference three-room flat and 2,500 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. Our engine rates it €€€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host. Cost of living sits on the series median: Chartres is neither the cheap option of the batch nor the dearest, and the saving comes mostly from skipping a hotel night with the same-day return."
+      },
+      {
+        heading: "The cathedral, the stained glass and the lower town",
+        body: "Notre-Dame de Chartres cathedral, known for its thirteenth-century stained glass and its labyrinth, dominates the town: it is the central visit, to be sized to the children's age, short and without piling on extras, rather than a full tour. The International Centre of Stained Glass is a complementary outing for anyone extending the theme. The lower town, along the Eure, is walked on foot, with sloping streets and cobbles to expect if you push a buggy. The Maison Picassiette, a mosaic house built by a local resident, is an unusual outing to see with children; its opening is checked before leaving. Night-time lighting of monuments is offered at certain times of year: dates and end times are checked, because they sit badly with young children's bedtimes."
+      },
+      {
+        heading: "16 green spaces mapped, 4 with a playground",
+        body: "The mapping survey records 16 green spaces in the commune, 4 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 5.5/10, quality of life 6.1/10",
+        body: "Chartres shows 5.5/10 on the safety axis (source: our city profile), joint fortieth of the sixty-five, tied with four others, against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 6.1/10, forty-fifth of the sixty-five. The main point of attention is practical: the upper and lower towns are linked by steep, cobbled streets, and a child carried by a single adult tires quickly. Bring a suitable buggy or a baby carrier, and do not stack visits."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Paris (Paris-Montsouris), 75 kilometres away (source: Météo-France 1991-2020 normals). It gives 5.4 °C in January and 20.9 °C in July. The commune's own anchors come from the seed: 3.5 °C in January, 20.5 °C in July and 1,760 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then July, then August. The crowding indicator stays at level 1 or 2 almost all year, with a moderate peak in July and August: a weekday visit outside school holidays avoids the groups."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Eure-et-Loir one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "chartres",
+      "dreux",
+      "orleans"
+    ],
+    tags: [
+      "single parent holidays",
+      "chartres with kids",
+      "day trip from paris",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-saint-nazaire-2026",
+    title: "Single-parent holidays in Saint-Nazaire: a port first, a beach second, an 850 € flat",
+    metaTitle: "Single-Parent Holidays in Saint-Nazaire 2026",
+    metaDesc: "Saint-Nazaire scores 6.0/10 on our single-parent index: flat 850 €, safety 5.5/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Saint-Nazaire comes out at 6.0/10 on our single-parent composite, joint fifty-fourth of the sixty-five destinations, tied with three others (source: our trip-fit index). The detail: safety 5.5/10, transport 6.2/10, cost of living 6.3/10 and quality of life 5.9/10 (source: our city profile). The market: 850 € for the reference three-room flat and 2,200 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 73,111 inhabitants at the 2022 census against 67,097 in 2011, a rise of 9.0 % (source: INSEE census). Our engine rates it €€€. It is a port town before it is a resort: the interest is the maritime heritage, with the beach as a complement.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing show direct TGVs from Paris-Montparnasse to Saint-Nazaire in roughly two hours forty to three hours (2 h 49 for a direct, 2 h 56 on average according to one comparison site); some services use a regional train towards Penhoët or La Croix-de-Méan and add an hour or more. A direct TGV is the condition to look for when one adult travels with children. The walking distance from the station to the submarine base could not be verified in the sources consulted: measure it on a map. The transport axis is 6.2/10, below the series median of 7.0, joint fifty-first of the sixty-five, tied with one other."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Saint-Nazaire comes out at 6.3/10 (source: our city profile), joint twenty-eighth of the sixty-five, tied with two others, against a series median of 6.2. The market: 850 € for the reference three-room flat and 2,200 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. Our engine rates it €€€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host. Cost of living sits on the series median, with a reference flat cheaper than in Les Sables-d'Olonne, the batch's other Atlantic-coast town."
+      },
+      {
+        heading: "Escal'Atlantic, the submarine base and the Côte d'Amour",
+        body: "Saint-Nazaire is a liner-building port. Escal'Atlantic, housed in the former submarine base, is a museum trail on the history of the transatlantic liners: it is the wet-weather fallback, and its hours and prices are checked with the venue. The submarine base itself, a relic of the wartime occupation, is seen from the outside and told to children with measure. Swimming is on the beaches of the Côte d'Amour, including neighbouring Pornichet and La Baule, reached from Saint-Nazaire by a rail link whose frequency and times are checked before leaving."
+      },
+      {
+        heading: "16 green spaces mapped, 5 with a playground",
+        body: "The mapping survey records 16 green spaces in the commune, 5 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 5.5/10, quality of life 5.9/10",
+        body: "Saint-Nazaire shows 5.5/10 on the safety axis (source: our city profile), joint fortieth of the sixty-five, tied with four others, against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 5.9/10, joint forty-sixth of the sixty-five, tied with eleven others. The risks specific to the town are the sea and the port industry: swim on supervised beaches, with the bathing flags as your guide, and treat the port surroundings as no playground. Tide times are checked the same morning."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Nantes (Nantes-Bouguenais), 48 kilometres away (source: Météo-France 1991-2020 normals). It gives 6.4 °C in January and 19.7 °C in July. The commune's own anchors come from the seed: 6.0 °C in January, 21.0 °C in July and 2,050 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then September, then July. The indicator climbs to level 4 in July and August, as on the neighbouring Atlantic coast: June and September give the beach and the museums without the peak."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Loire-Atlantique one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "saint-nazaire",
+      "nantes",
+      "les-sables-d-olonne"
+    ],
+    tags: [
+      "single parent holidays",
+      "saint-nazaire with kids",
+      "atlantic coast",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-lorient-2026",
+    title: "Single-parent holidays in Lorient: the Sailing City, the bay and a 900 € flat",
+    metaTitle: "Single-Parent Holidays in Lorient 2026",
+    metaDesc: "Lorient scores 6.0/10 on our single-parent index: flat 900 €, safety 5.5/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Lorient comes out at 6.0/10 on our single-parent composite, joint fifty-fourth of the sixty-five destinations, tied with three others (source: our trip-fit index). The detail: safety 5.5/10, transport 6.1/10, cost of living 6.2/10 and quality of life 6.2/10 (source: our city profile). The market: 900 € for the reference three-room flat and 2,800 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 58,202 inhabitants at the 2022 census against 57,408 in 2011, a rise of 1.4 % (source: INSEE census). Our engine rates it €€€. It is the batch's gateway to sailing and the islands: the interest lies in the Cité de la Voile and the bay, more than in the rebuilt town centre.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing show direct TGVs from Paris-Montparnasse to Lorient in roughly two hours fifty to three hours thirty, with around six services a day; exact times are checked on SNCF Connect for your date. For one adult with children, the direct train is the condition to look for. The Cité de la Voile Éric Tabarly stands at Lorient La Base, outside the centre: the connection from the station could not be verified in the sources consulted, so check it before choosing where to stay. The transport axis is 6.1/10, below the series median of 7.0, joint fifty-third of the sixty-five, tied with six others."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Lorient comes out at 6.2/10 (source: our city profile), joint thirty-first of the sixty-five, tied with eight others, against a series median of 6.2. The market: 900 € for the reference three-room flat and 2,800 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. Our engine rates it €€€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host. Cost of living sits on the series median: Lorient is a cheaper alternative to the batch's seaside resorts, with a less touristy urban beach."
+      },
+      {
+        heading: "The Cité de la Voile, the Flore submarine and the bay",
+        body: "The Cité de la Voile Éric Tabarly, at Lorient La Base, is the reference outing for children drawn to boats and ocean racing; hours and prices are checked with the venue. The Flore submarine, a former French Navy boat, can be visited on the same site. The beaches of Larmor-Plage, at the mouth of the bay, are reached by a link whose times are checked on site. The island of Groix is reached by boat from Lorient: the crossing, its times and transport on the island are checked before leaving, because a day on the island means a return fixed on the last boat."
+      },
+      {
+        heading: "22 green spaces mapped, 13 with a playground",
+        body: "The mapping survey records 22 green spaces in the commune, 13 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 5.5/10, quality of life 6.2/10",
+        body: "Lorient shows 5.5/10 on the safety axis (source: our city profile), joint fortieth of the sixty-five, tied with four others, against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 6.2/10, joint thirty-seventh of the sixty-five, tied with seven others. The sea and the boats are the risks specific to the town: supervised beaches and bathing flags are the authority, tide times are checked the same morning, and the last boat home is not something to negotiate with young children."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Brest (Brest-Guipavas), 110 kilometres away (source: Météo-France 1991-2020 normals). It gives 7.1 °C in January and 17.0 °C in July. The commune's own anchors come from the seed: 6.8 °C in January, 19.5 °C in July and 1,750 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then July, then September. The indicator reaches level 4 in July and August. The Festival Interceltique, held every August in Lorient, makes the town markedly busier and rooms scarcer; its dates are checked before booking."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Morbihan one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "lorient",
+      "vannes",
+      "quimper"
+    ],
+    tags: [
+      "single parent holidays",
+      "lorient with kids",
+      "brittany",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-sens-2026",
+    title: "Single-parent holidays in Sens: an hour from Paris and a 920 € flat",
+    metaTitle: "Single-Parent Holidays in Sens 2026",
+    metaDesc: "Sens scores 6.6/10 on our single-parent index: flat 920 €, safety 6.5/10. Train access, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Sens comes out at 6.6/10 on our single-parent composite, joint twenty-third of the sixty-five destinations, tied with four others (source: our trip-fit index). The detail: safety 6.5/10, transport 6.4/10, cost of living 7.6/10 and quality of life 5.9/10 (source: our city profile). The market: 920 € for the reference three-room flat and 1,900 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 27,275 inhabitants at the 2022 census against 25,146 in 2011, a rise of 8.5 % (source: INSEE census). Our engine rates it €€. It is the cheapest option of the batch on cost of living and the closest to Paris by train, at the price of a single sight rather than a stay.",
+    sections: [
+      {
+        heading: "Getting there by train, without a car",
+        body: "Comparison sites checked online before writing give about an hour from Paris to Sens (58 minutes to 1 h 26 depending on the train); trains leaving Sens arrive at Paris-Bercy, not the Gare de Lyon, which changes your starting point in Paris. Exact times are checked on SNCF Connect for your date. An hour with no change suits a weekend with children. The walking distance from the station to the cathedral could not be verified in the sources consulted: measure it on a map. The transport axis is 6.4/10, below the series median of 7.0, joint thirty-eighth of the sixty-five, tied with twelve others."
+      },
+      {
+        heading: "Cost: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Sens comes out at 7.6/10 (source: our city profile), joint fourth of the sixty-five, tied with four others, against a series median of 6.2. The market: 920 € for the reference three-room flat and 1,900 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. Our engine rates it €€. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and local supply, and must be checked with the host. It is one of the best cost ranks of the series: the reference flat is close to the series median, and the cost axis is in the top of the ranking. A weekend in Sens is among the cheapest of the batch for a solo parent."
+      },
+      {
+        heading: "Saint-Étienne cathedral and a centre on foot",
+        body: "Sens's Saint-Étienne cathedral, Gothic in style, is one of the oldest Gothic cathedrals in France according to reference sources: it is the central visit, to be sized to the children's age. The Synodal Palace and the museums of Sens, attached to the cathedral, are wet-weather fallbacks; hours and prices are checked with the venues. The centre is walked on foot, with shopping streets. The river Yonne crosses the town and serves as a promenade. Sens is a town you pass through more than a destination for a long stay: two days are enough for the heritage."
+      },
+      {
+        heading: "16 green spaces mapped, 5 with a playground",
+        body: "The mapping survey records 16 green spaces in the commune, 5 of them with a playground (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 6.5/10, quality of life 5.9/10",
+        body: "Sens shows 6.5/10 on the safety axis (source: our city profile), joint seventeenth of the sixty-five, tied with four others, against a series median of 5.7. Three reading notes. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, it is not a record of observed facts, and it passes no judgement on the people who live there. Quality of life is 5.9/10, joint forty-sixth of the sixty-five, tied with eleven others. The point of attention is that of a small town: little going on in the evening outside market days or events. A solo parent gains peace and loses evening choice, which matters little when the children are in bed early."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Paris (Paris-Montsouris), 98 kilometres away (source: Météo-France 1991-2020 normals). It gives 5.4 °C in January and 20.9 °C in July. The commune's own anchors come from the seed: 3.5 °C in January, 22.0 °C in July and 1,830 hours of sunshine a year (source: our city profile). Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then July, then August. The crowding indicator stays at level 1 or 2 almost all year, with a moderate peak in July and August: it is an off-season destination, winter included, without the cost of a resort."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Yonne one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "sens",
+      "joigny",
+      "auxerre"
+    ],
+    tags: [
+      "single parent holidays",
+      "sens with kids",
+      "weekend from paris",
+      "train holidays with children"
+    ]
+  },
 
 
   {

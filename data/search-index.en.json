@@ -9522,6 +9522,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-holidays-les-sables-d-olonne-2026",
+      "title": "Single-parent holidays in Les Sables-d'Olonne: sea front, a 1,050 € flat and the tide",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-troyes-2026",
+      "title": "Single-parent holidays in Troyes: half-timbered streets, a direct train and an 860 € flat",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-chartres-2026",
+      "title": "Single-parent holidays in Chartres: a cathedral day trip and an 890 € flat",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-saint-nazaire-2026",
+      "title": "Single-parent holidays in Saint-Nazaire: a port first, a beach second, an 850 € flat",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-lorient-2026",
+      "title": "Single-parent holidays in Lorient: the Sailing City, the bay and a 900 € flat",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-sens-2026",
+      "title": "Single-parent holidays in Sens: an hour from Paris and a 920 € flat",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "things-to-do-in-selestat-2026",
       "title": "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
       "emoji": "📚"
@@ -10084,6 +10114,11 @@
       "count": 70
     },
     {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 65
+    },
+    {
       "slug": "french-school-system",
       "label": "french school system",
       "count": 63
@@ -10109,11 +10144,6 @@
       "count": 60
     },
     {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
-      "count": 59
-    },
-    {
       "slug": "buying-property-france",
       "label": "buying property france",
       "count": 58
@@ -10126,7 +10156,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 53
+      "count": 54
     },
     {
       "slug": "pays-de-la-loire",
@@ -10229,14 +10259,14 @@
       "count": 14
     },
     {
-      "slug": "french-riviera",
-      "label": "french riviera",
+      "slug": "atlantic-coast",
+      "label": "atlantic coast",
       "count": 13
     },
     {
-      "slug": "atlantic-coast",
-      "label": "atlantic coast",
-      "count": 12
+      "slug": "french-riviera",
+      "label": "french riviera",
+      "count": 13
     },
     {
       "slug": "affordable-retirement-france",
@@ -10279,6 +10309,11 @@
       "count": 10
     },
     {
+      "slug": "champagne",
+      "label": "champagne",
+      "count": 9
+    },
+    {
       "slug": "nantes",
       "label": "nantes",
       "count": 9
@@ -10296,11 +10331,6 @@
     {
       "slug": "2026",
       "label": "2026",
-      "count": 8
-    },
-    {
-      "slug": "champagne",
-      "label": "champagne",
       "count": 8
     },
     {
@@ -10466,6 +10496,11 @@
     {
       "slug": "toulon",
       "label": "toulon",
+      "count": 6
+    },
+    {
+      "slug": "train-holidays-with-children",
+      "label": "train holidays with children",
       "count": 6
     },
     {
