@@ -20,6 +20,7 @@ import {
 } from "@/lib/city-population";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} demographics — ageing, growth, renewal (2026)`,
+    title: fitTitle(`${c.name} demographics — ageing, growth, renewal (2026)`),
     description: `Demographics of ${c.name}: ageing and trajectory measured in the Insee census, young adults and renewal estimated. Growing or emptying?`,
     alternates: cityAlternatesEn("demographics", slug),
   };

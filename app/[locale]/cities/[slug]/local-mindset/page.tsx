@@ -9,6 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityMindset } from "@/lib/city-mindset";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Local mindset of ${city.name} 2026 — vibe, sociability, tempo`,
+    title: fitTitle(`Local mindset of ${city.name} 2026 — vibe, sociability, tempo`),
     description: `What it actually feels like to live in ${city.name} socially: tempo, openness, café culture, civic life, regional archetype. 2026 derived synthesis.`,
     alternates: cityAlternatesEn("local-mindset", slug),
   };

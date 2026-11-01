@@ -8,6 +8,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} transport — public transit, cycling, walkability (2026)`,
+    title: fitTitle(`${c.name} transport — public transit, cycling, walkability (2026)`),
     description: `Public transport, cycling infrastructure and walkability in ${c.name}. What it's like getting around without a car.`,
     alternates: cityAlternatesEn("transport", slug),
   };

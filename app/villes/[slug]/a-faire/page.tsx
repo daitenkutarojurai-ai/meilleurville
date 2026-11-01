@@ -13,6 +13,7 @@ import { GUIDES } from "@/data/guides";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ChevronRight, MapPin, TreePine, Utensils, Music, Bike, Camera, Coffee, Sunset } from "lucide-react";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -107,7 +108,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Que faire à ${city.name} 2026 — activités, sorties et bons plans`,
+    title: fitTitle(`Que faire à ${city.name} 2026 — activités, sorties et bons plans`),
     description: `10 activités incontournables et bons plans locaux à ${city.name} : nature, gastronomie, culture, vie de quartier et sorties week-end 2026.`,
     alternates: cityAlternates("a-faire", slug),
   };

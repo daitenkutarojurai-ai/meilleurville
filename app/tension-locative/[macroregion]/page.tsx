@@ -11,6 +11,7 @@ import { rentalTension, tensionInfo } from "@/lib/rental-tension";
 import { HOUSING } from "@/data/housing";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Tension locative · ${macro.label} 2026`,
+    title: fitTitle(`Tension locative · ${macro.label} 2026`),
     description: `Marché locatif des villes de ${macro.label} : où se loger est tendu vs. où c'est accessible. Loyers T2 de référence et score de tension par ville.`,
     alternates: pathAlternates(`/tension-locative/${macro.slug}`, `/rental-tension/${macro.slug}`),
     openGraph: {

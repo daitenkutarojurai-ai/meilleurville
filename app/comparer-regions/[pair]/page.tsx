@@ -17,7 +17,7 @@ import {
   slugToRegion,
 } from "@/lib/regions";
 import { scoreColor, scoreHex, sunshineDays } from "@/lib/utils";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 import { pathAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
@@ -80,7 +80,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: `${a} vs ${b} · Comparatif régions 2026`,
+    title: fitTitle(`${a} vs ${b} · Comparatif régions 2026`),
     description: clampMeta(`Comparaison complète entre ${a} et ${b} : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. Données calibrées sur les ${CITIES_COUNT} villes du site.`),
     alternates: pathAlternates(`/comparer-regions/${pair}`, `/compare-regions/${pair}`),
     openGraph: {

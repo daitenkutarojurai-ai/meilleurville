@@ -10,6 +10,7 @@ import { deptToSlug, slugToDept } from "@/lib/dept-slug";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
 import { jsonLdScript } from "@/lib/jsonld";
+import { fitTitle } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const name = slugToDept(dept);
   if (!name) return {};
   return {
-    title: `Cities in ${name} — French department guide`,
+    title: fitTitle(`Cities in ${name} — French department guide`),
     description: `Cities ranked in ${name}. Quality of life, housing, safety, and resident reviews.`,
     alternates: { canonical: `${EN_BASE}/departments/${dept}`, languages: hreflangLanguagesEn(`/departments/${dept}`) },
   };

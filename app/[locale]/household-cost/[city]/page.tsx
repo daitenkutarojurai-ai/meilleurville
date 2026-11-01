@@ -14,6 +14,7 @@ import {
 } from "@/lib/household-cost";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === city);
   if (!c) return {};
   return {
-    title: `Cost of living in ${c.name} by household type 2026 · Solo, couple, family, retired`,
+    title: fitTitle(`Cost of living in ${c.name} by household type 2026 · Solo, couple, family, retired`),
     description: `Real monthly fixed costs in ${c.name} for 4 household types: single (studio), couple (1-bed), family of 4, retired. Rent, heating, mobility, taxes.`,
     alternates: pathAlternatesEn(`/cout-menage/${city}`, `/household-cost/${city}`),
   };

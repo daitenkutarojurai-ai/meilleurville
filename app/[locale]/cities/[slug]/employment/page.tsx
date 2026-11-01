@@ -9,6 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeEmploymentMarket, type JobLevel } from "@/lib/employment-market";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} job market — unemployment, dynamism, salaries (2026)`,
+    title: fitTitle(`${c.name} job market — unemployment, dynamism, salaries (2026)`),
     description: `The job market in ${c.name}: local unemployment, business creation, sector mix and median salary. What it's like to find work here.`,
     alternates: cityAlternatesEn("employment", slug),
   };

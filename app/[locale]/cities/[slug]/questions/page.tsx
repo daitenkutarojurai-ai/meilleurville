@@ -9,6 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityFaq } from "@/lib/city-faq";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // nu, et l'ajouter à la main poussait les 540 titres au-delà de 60
     // caractères (61-85), donc hors de ce que Google rend. La jumelle FR
     // `/villes/[slug]/questions` n'en a jamais porté.
-    title: `${city.name} — frequently asked questions 2026`,
+    title: fitTitle(`${city.name} — frequently asked questions 2026`),
     description: `Everything to know before moving to ${city.name}: rents, safety, commute, 2040 climate, schools, remote work. Data-grounded 2026 answers.`,
     alternates: cityAlternatesEn("questions", slug),
     openGraph: {

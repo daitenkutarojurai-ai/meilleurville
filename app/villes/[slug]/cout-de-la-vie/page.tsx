@@ -12,6 +12,7 @@ import { scoreColor, scoreLabel } from "@/lib/utils";
 import { Coins, ChevronRight, Home, TrendingUp, Calculator, Users2 } from "lucide-react";
 import { cityAlternates } from "@/lib/i18n";
 import { comparePairSlug } from "@/lib/comparer-pairs";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const score = city.scores.cost;
   return {
-    title: `Coût de la vie à ${city.name} en 2026 — loyers, achat, budget`,
+    title: fitTitle(`Coût de la vie à ${city.name} en 2026 — loyers, achat, budget`),
     description: `Ce que coûte vraiment vivre à ${city.name} en 2026 : loyer T2, prix au m², et budget mensuel réaliste. Score coût ${score.toFixed(1)}/10.`,
     alternates: cityAlternates("cout-de-la-vie", slug),
     openGraph: {

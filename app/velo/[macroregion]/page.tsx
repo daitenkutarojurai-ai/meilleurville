@@ -14,6 +14,7 @@ import {
 } from "@/lib/cycling-mobility";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Villes cyclables · ${macro.label} 2026`,
+    title: fitTitle(`Villes cyclables · ${macro.label} 2026`),
     description: `Classement composite cyclabilité (réseau, relief, sécurité, climat) restreint aux villes de la macro-région ${macro.label}. Plus cyclables vs. plus difficiles à vélo.`,
     alternates: pathAlternates(`/velo/${macro.slug}`, `/cycling/${macro.slug}`),
     openGraph: {

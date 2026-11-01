@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { GUIDE_CATEGORIES } from "@/data/guides";
 import { TAG_SLUGS, getTagLabel, getGuidesForTag, getRelatedTags } from "@/lib/guide-tags";
+import { fitTitle } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!label) return {};
   const guides = getGuidesForTag(slug);
   return {
-    title: `${label} · ${guides.length} guides`,
+    title: fitTitle(`${label} · ${guides.length} guides`),
     description: `Tous les guides MaVilleIdéale traitant de « ${label} » : ${guides.length} analyses honnêtes pour choisir où vivre en France.`,
     alternates: { canonical: `/tags/${slug}` },
   };

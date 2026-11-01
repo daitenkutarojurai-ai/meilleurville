@@ -13,6 +13,7 @@ import { fiscalityForCity } from "@/lib/fiscalite";
 import { climateZoneFor, transitPassFor, type CostCalcInput } from "@/lib/cost-living";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === city);
   if (!c) return {};
   return {
-    title: `Real monthly cost of living in ${c.name} 2026 · Calculator (rent, car, taxes)`,
+    title: fitTitle(`Real monthly cost of living in ${c.name} 2026 · Calculator (rent, car, taxes)`),
     description: `Honest breakdown of monthly fixed costs in ${c.name}: median 1-bed rent, heating by climate zone, transit, property and waste tax.`,
     alternates: pathAlternatesEn(`/calculateur-cout-reel/${city}`, `/calculator/real-cost/${city}`),
   };

@@ -9,6 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeCyclingMobility, type CyclingLevel } from "@/lib/cycling-mobility";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} cycling — bike network, terrain, safety (2026)`,
+    title: fitTitle(`${c.name} cycling — bike network, terrain, safety (2026)`),
     description: `How bike-friendly is ${c.name}? Network, terrain, safety, weather. A commune-level estimate, not the FUB barometer score.`,
     alternates: cityAlternatesEn("cycling", slug),
   };

@@ -10,6 +10,7 @@ import { HOUSING } from "@/data/housing";
 import { computeGentrification, rankGentrification } from "@/lib/gentrification";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -69,7 +70,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const row = computeGentrification(city);
   const traj = EN_TRAJECTORY[row.trajectory] ?? { label: row.trajectory, tone: "", desc: "" };
   return {
-    title: `Gentrification in ${city.name} 2026 · ${traj.label} · Score ${row.score.toFixed(0)}/100`,
+    title: fitTitle(`Gentrification in ${city.name} 2026 · ${traj.label} · Score ${row.score.toFixed(0)}/100`),
     description: `${city.name}: ${traj.label.toLowerCase()} trajectory (composite score ${row.score.toFixed(1)}/100). 4 signals: property prices, 25–35 demographics, new openings, remote-worker influx.`,
     alternates: pathAlternatesEn(`/gentrification/${slug}`, `/gentrification/${slug}`),
     openGraph: {

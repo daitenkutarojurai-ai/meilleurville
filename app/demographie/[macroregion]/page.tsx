@@ -14,6 +14,7 @@ import {
 } from "@/lib/demography";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Démographie · ${macro.label} 2026`,
+    title: fitTitle(`Démographie · ${macro.label} 2026`),
     description: `Classement composite démographie (vieillissement, jeunes actifs, trajectoire, renouvellement) restreint aux villes de la macro-région ${macro.label}. Dynamiques vs. vieillissantes.`,
     alternates: pathAlternates(`/demographie/${macro.slug}`, `/demographics/${macro.slug}`),
     openGraph: {

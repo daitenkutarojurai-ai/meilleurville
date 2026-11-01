@@ -13,6 +13,7 @@ import {
 } from "@/lib/sport-leisure";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = macroLabelEn(macro.slug, macro.label);
   return {
-    title: `Sport-friendly cities · ${label} 2026`,
+    title: fitTitle(`Sport-friendly cities · ${label} 2026`),
     description: `Composite sport & leisure ranking (facilities, outdoor, clubs, climate) restricted to cities in the ${label} macro-region. Most sport-friendly vs least sport-friendly.`,
     alternates: pathAlternatesEn(`/sport/${macro.slug}`, `/sport/${macro.slug}`),
     openGraph: {

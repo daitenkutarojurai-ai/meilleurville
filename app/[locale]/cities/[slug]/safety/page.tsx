@@ -9,6 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeSafetyDeep, type SafetyLevel } from "@/lib/safety-deep";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} safety — crime, night safety, by the numbers (2026)`,
+    title: fitTitle(`${c.name} safety — crime, night safety, by the numbers (2026)`),
     description: `How safe is ${c.name}? Property crime, crimes against persons, night safety — a commune-level estimate, not recorded crime counts.`,
     alternates: cityAlternatesEn("safety", slug),
   };

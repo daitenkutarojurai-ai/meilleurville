@@ -14,6 +14,7 @@ import {
 } from "@/lib/sport-leisure";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Villes sportives · ${macro.label} 2026`,
+    title: fitTitle(`Villes sportives · ${macro.label} 2026`),
     description: `Classement composite sport & loisirs (équipements, outdoor, clubs, climat) restreint aux villes de la macro-région ${macro.label}. Plus sportives vs. moins propices à la pratique.`,
     alternates: pathAlternates(`/sport/${macro.slug}`, `/sport/${macro.slug}`),
     openGraph: {

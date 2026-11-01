@@ -12,6 +12,7 @@ import {
   getRelatedTagsEn,
 } from "@/lib/guide-tags-en";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // 114 pages de tag, portait la plus longue à 61 et laissait la jumelle FR
     // — `app/tags/[slug]`, qui écrit « label · N guides » sans marque — deux
     // fois plus courte pour la même page. La marque reste dans la description.
-    title: `${label} · ${guides.length} guides`,
+    title: fitTitle(`${label} · ${guides.length} guides`),
     description: `Every BestCitiesInFrance guide about "${label}": ${guides.length} honest reads to choose where to live in France.`,
     alternates: { canonical: `${EN_BASE}/tags/${slug}` },
   };

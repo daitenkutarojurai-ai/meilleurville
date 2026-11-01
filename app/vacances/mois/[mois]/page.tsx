@@ -36,6 +36,7 @@ import {
   Sun,
   Users,
 } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 // Canonical FR origin is the www host (worker/index.ts 301s the apex to it).
 // JSON-LD must name the canonical URL, not one that redirects.
@@ -123,7 +124,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!idx) return {};
   const label = formatMonthLabel(idx);
   return {
-    title: `Où partir en France en ${label.toLowerCase()} 2026 · meilleures destinations`,
+    title: fitTitle(`Où partir en France en ${label.toLowerCase()} 2026 · meilleures destinations`),
     description: `Le top des destinations françaises en ${label.toLowerCase()} : climat, affluence, activités. ${CITIES_COUNT} villes classées par score d'adéquation au mois. ${MONTH_ANGLES[idx].hook.slice(0, 60)}…`,
     // La jumelle EN existe (/vacations/month/…) mais son slug n'est pas
     // dérivable du FR (`février` ↔ `february`) : `hreflangLanguages` ne

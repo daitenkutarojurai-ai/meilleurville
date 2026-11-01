@@ -19,7 +19,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { regionToSlug, slugToRegion } from "@/lib/regions";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 import {
   getSynthesisRankings,
   SYNTHESIS_LEVEL_LABEL,
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // « Synthèse 8 axes · … | palmarès régional » dépassait 60 caractères sur
     // Provence-Alpes-Côte d'Azur (64) et Bourgogne-Franche-Comté (61). Cette
     // forme plafonne à 54 sur les 18 régions.
-    title: `${region} · synthèse régionale 8 axes`,
+    title: fitTitle(`${region} · synthèse régionale 8 axes`),
     // clampMeta : la description brute atteint 217 caractères et était servie
     // telle quelle (cf. la jumelle EN, déjà clampée).
     description: clampMeta(

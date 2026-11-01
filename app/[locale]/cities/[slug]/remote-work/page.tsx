@@ -11,6 +11,7 @@ import { computeOwnerScores } from "@/lib/owner-scores";
 import { climateZoneFor, transitPassFor } from "@/lib/cost-living";
 import { scoreColor } from "@/lib/utils";
 import { cityAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `Working remotely from ${c.name} — fibre, coworking, real cost (2026)`,
+    title: fitTitle(`Working remotely from ${c.name} — fibre, coworking, real cost (2026)`),
     description: `${c.name} for remote work: fibre coverage, quality-of-life score, monthly remote-worker budget and the ideal profile. Built on calibrated city data.`,
     alternates: cityAlternatesEn("remote-work", slug),
   };

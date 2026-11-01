@@ -15,6 +15,7 @@ import { scoreColor, formatScore } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
 import type { CitySeed } from "@/data/cities-seed";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = getOriginCity(slug);
   if (!city) return {};
   return {
-    title: `Weekend getaways from ${city.name} · Destinations under 5h 2026`,
+    title: fitTitle(`Weekend getaways from ${city.name} · Destinations under 5h 2026`),
     description: `Every French city reachable from ${city.name} in under 5 hours (TGV, Intercités or car). Ranked by travel time with a quality-of-life score.`,
     alternates: pathAlternatesEn(`/depuis/${slug}`, `/weekend-getaways/${slug}`),
     openGraph: {

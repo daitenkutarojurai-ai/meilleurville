@@ -12,6 +12,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { FINGERPRINT_AXES } from "@/lib/city-fingerprint";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { formatScore, scoreColor, scoreLabel } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const score = formatScore(city.scores.global);
   return {
-    title: `${city.name} city fingerprint · visual signature`,
+    title: fitTitle(`${city.name} city fingerprint · visual signature`),
     description: `A unique geometric signature generated from ${city.name}'s 8 quality-of-life axes (overall score ${score}/10).`,
     alternates: cityAlternatesEn("fingerprint", slug),
     openGraph: {

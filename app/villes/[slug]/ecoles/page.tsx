@@ -10,6 +10,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { getEducation, educationTags, type Education } from "@/lib/education";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -63,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `Enseignement supérieur à ${city.name} : ${tags.join(" · ")}. Score écoles ${city.scores.schools.toFixed(1)}/10.`
     : `Score écoles ${city.scores.schools.toFixed(1)}/10. Tissu de lycées et offre post-bac à ${city.name}.`;
   return {
-    title: `Écoles & études à ${city.name} · Université, CPGE, écoles`,
+    title: fitTitle(`Écoles & études à ${city.name} · Université, CPGE, écoles`),
     description: desc,
     alternates: cityAlternates("ecoles", slug),
     openGraph: { title: `Écoles à ${city.name}`, description: desc, images: ["/opengraph-image"] },

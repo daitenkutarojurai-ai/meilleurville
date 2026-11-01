@@ -9,6 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} schools — primary, secondary, higher education (2026)`,
+    title: fitTitle(`${c.name} schools — primary, secondary, higher education (2026)`),
     description: `Schools in ${c.name}: academic outcomes, school density, options for international or alternative education.`,
     alternates: cityAlternatesEn("schools", slug),
   };

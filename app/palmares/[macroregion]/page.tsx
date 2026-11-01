@@ -15,6 +15,7 @@ import {
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Palmarès · ${macro.label} 2026 | meilleur cadre de vie toutes dimensions`,
+    title: fitTitle(`Palmarès · ${macro.label} 2026 | meilleur cadre de vie toutes dimensions`),
     description: `Classement universel synthèse 8 axes (env, santé, emploi, cadre, vélo, sécurité, démo, services) restreint aux villes de la macro-région ${macro.label}. Top profils favorables vs. tendus.`,
     alternates: pathAlternates(`/palmares/${macro.slug}`, `/overall-ranking/${macro.slug}`),
     openGraph: {

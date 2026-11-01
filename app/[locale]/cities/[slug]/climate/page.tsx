@@ -12,6 +12,7 @@ import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor, sunshineDays } from "@/lib/utils";
 import { nearestStation, distanceToNearestKm, CLIMATE_SOURCE } from "@/lib/climate-normals";
 import { ClimateChart } from "@/components/ClimateChart";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} climate — temperatures, sunshine, rainfall (2026)`,
+    title: fitTitle(`${c.name} climate — temperatures, sunshine, rainfall (2026)`),
     description: `Climate in ${c.name}: average temperatures, annual sunshine, rainfall, and what it actually feels like to live there year-round.`,
     alternates: cityAlternatesEn("climate", slug),
   };

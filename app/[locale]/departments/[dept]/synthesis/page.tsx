@@ -14,7 +14,7 @@ import {
 } from "@/lib/city-synthesis";
 import { faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -83,7 +83,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const count = CITIES_SEED.filter((c) => c.department === dept).length;
   if (count === 0) return {};
   return {
-    title: `${dept} cities ranked — 8-dimension profile`,
+    title: fitTitle(`${dept} cities ranked — 8-dimension profile`),
     description: clampMeta(
       `The ${count} cit${count > 1 ? "ies" : "y"} of the ${dept} department ranked across 8 data dimensions: environment, healthcare, employment, quality of life, cycling, safety, demographics, public services. 10 = excellent.`,
     ),

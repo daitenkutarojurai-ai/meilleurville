@@ -14,6 +14,7 @@ import {
 } from "@/lib/environment-index";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: `Healthiest cities · ${label} 2026`,
+    title: fitTitle(`Healthiest cities · ${label} 2026`),
     description: `Composite environmental ranking (air, noise, water, natural risks) for cities in the ${label} macro-region. Cleanest vs most exposed cities.`,
     alternates: pathAlternatesEn(`/environnement/${macro.slug}`, `/environment/${macro.slug}`),
     openGraph: {

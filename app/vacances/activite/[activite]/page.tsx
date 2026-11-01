@@ -24,6 +24,7 @@ import {
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
 import { MapPin, Calendar } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 // Canonical FR origin is the www host (worker/index.ts 301s the apex to it).
 // JSON-LD must name the canonical URL, not one that redirects.
@@ -43,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ACTIVITIES.includes(activite as ActivitySlug)) return {};
   const def = ACTIVITY_DEFS[activite as ActivitySlug];
   return {
-    title: `Vacances ${def.label.toLowerCase()} en France 2026 · top destinations`,
+    title: fitTitle(`Vacances ${def.label.toLowerCase()} en France 2026 · top destinations`),
     description: def.metaDesc,
     // Les deux routes dérivent leur `generateStaticParams` du même `ACTIVITIES`
     // (lib/vacation-activities) : le slug est identique des deux côtés, seule

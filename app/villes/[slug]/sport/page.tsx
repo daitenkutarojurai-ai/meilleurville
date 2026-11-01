@@ -20,6 +20,7 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeCityDistances } from "@/lib/distances";
 import { mountainProximity } from "@/lib/profile-pages";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const s = computeSportLeisure(city);
   return {
-    title: `Faire du sport à ${city.name} · équipements, outdoor, clubs`,
+    title: fitTitle(`Faire du sport à ${city.name} · équipements, outdoor, clubs`),
     description: `Synthèse de la pratique sportive à ${city.name} (${city.department}) : équipements ${SPORT_LEVEL_LABEL[s.facilities.level].toLowerCase()}, outdoor ${SPORT_LEVEL_LABEL[s.outdoor.level].toLowerCase()}, clubs ${SPORT_LEVEL_LABEL[s.clubs.level].toLowerCase()}, climat ${SPORT_LEVEL_LABEL[s.climate.level].toLowerCase()}. Score ${s.composite.toFixed(1).replace(".", ",")}/10.`,
     alternates: cityAlternates("sport", slug),
     openGraph: {

@@ -14,6 +14,7 @@ import {
 } from "@/lib/employment-market";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: `Job market · ${label} 2026`,
+    title: fitTitle(`Job market · ${label} 2026`),
     description: `Composite employment ranking (unemployment, salary, dynamism, sector mix) for cities in the ${label} macro-region. Most dynamic vs most difficult labour markets.`,
     alternates: pathAlternatesEn(`/emploi/${macro.slug}`, `/employment/${macro.slug}`),
     openGraph: {

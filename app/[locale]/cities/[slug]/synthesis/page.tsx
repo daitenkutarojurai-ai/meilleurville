@@ -16,7 +16,7 @@ import {
 import type { SynthesisLevel } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternatesEn } from "@/lib/i18n";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -92,7 +92,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const topAxis = EN_AXIS_LABEL[s.strengths[0]?.label ?? ""] ?? "";
   const bottomAxis = EN_AXIS_LABEL[s.tensions[0]?.label ?? ""] ?? "";
   return {
-    title: `${city.name} — 8-dimension city profile`,
+    title: fitTitle(`${city.name} — 8-dimension city profile`),
     description: clampMeta(`${city.name} (${city.department}) composite synthesis across 8 dimensions: overall ${s.global.toFixed(1)}/10 (${EN_SYNTHESIS_LABEL[s.level].toLowerCase()}). Strength: ${topAxis}, tension: ${bottomAxis}. ${s.signature}`),
     alternates: cityAlternatesEn("synthesis", slug),
     openGraph: {

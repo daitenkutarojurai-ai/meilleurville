@@ -13,6 +13,7 @@ import { getEnGuide } from "@/data/guides-en";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ChevronRight, MapPin, TreePine, Utensils, Music, Bike, Camera, Coffee, Sunset } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -107,7 +108,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Things to do in ${city.name} (2026) — activities, days out and local tips`,
+    title: fitTitle(`Things to do in ${city.name} (2026) — activities, days out and local tips`),
     description: `What to do in ${city.name}: nature, food, culture, heritage, neighbourhood life and weekend outings. A data-led read of what the city actually offers.`,
     alternates: cityAlternatesEn("things-to-do", slug),
     openGraph: {

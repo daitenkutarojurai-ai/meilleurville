@@ -27,7 +27,7 @@ import {
   youthShare,
 } from "@/lib/city-population";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 import { cityAlternates } from "@/lib/i18n";
 import { CITIES_COUNT, POPULATION_MEASURED_COUNT } from "@/lib/site-stats";
 
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const d = computeDemography(city);
   return {
-    title: `Démographie de ${city.name} · vieillissement, jeunes actifs, trajectoire`,
+    title: fitTitle(`Démographie de ${city.name} · vieillissement, jeunes actifs, trajectoire`),
     description: clampMeta(`Profil démographique de ${city.name} (${city.department}) : vieillissement ${DEMO_LEVEL_LABEL[d.ageing.level].toLowerCase()}, jeunes actifs ${DEMO_LEVEL_LABEL[d.youngActives.level].toLowerCase()}, trajectoire ${DEMO_LEVEL_LABEL[d.trajectory.level].toLowerCase()}. Score ${(10 - d.composite).toFixed(1)}/10 (10 = démographie dynamique).`),
     alternates: cityAlternates("demographie", slug),
     openGraph: {

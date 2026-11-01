@@ -30,6 +30,7 @@ import {
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { MapPin, ChevronRight } from "lucide-react";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 // Canonical FR origin is the www host (worker/index.ts 301s the apex to it).
 // JSON-LD must name the canonical URL, not one that redirects.
@@ -60,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = slugToRegion(region, ALL_REGIONS);
   if (!r) return {};
   return {
-    title: `Vacances en ${r} 2026 · top destinations`,
+    title: fitTitle(`Vacances en ${r} 2026 · top destinations`),
     description: `Où partir en vacances en ${r} : top destinations classées, meilleurs mois, activités phares. ${REGION_TAGLINES[r] ?? ""}`,
     alternates: pathAlternates(`/vacances/region/${region}`, `/vacations/region/${region}`),
     openGraph: {

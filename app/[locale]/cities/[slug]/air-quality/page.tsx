@@ -11,6 +11,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeAirQuality, type AirLevel } from "@/lib/air-quality";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} air quality — NO₂, PM2.5, ozone, pollen (2026)`,
+    title: fitTitle(`${c.name} air quality — NO₂, PM2.5, ozone, pollen (2026)`),
     description: `Air quality in ${c.name}: nitrogen dioxide, fine particles, ozone and pollen exposure. What the air is actually like to breathe year-round.`,
     alternates: cityAlternatesEn("air-quality", slug),
   };

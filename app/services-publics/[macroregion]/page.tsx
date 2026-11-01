@@ -14,6 +14,7 @@ import {
 } from "@/lib/public-services";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Services publics · ${macro.label} 2026`,
+    title: fitTitle(`Services publics · ${macro.label} 2026`),
     description: `Classement composite de l'accès aux services publics (écoles, mairie, La Poste, médiathèque) sur les villes de la macro-région ${macro.label}. Estimation communale.`,
     alternates: pathAlternates(`/services-publics/${macro.slug}`, `/public-services/${macro.slug}`),
     openGraph: {

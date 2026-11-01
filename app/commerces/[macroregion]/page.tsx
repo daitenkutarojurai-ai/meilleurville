@@ -18,6 +18,7 @@ import {
 } from "@/lib/commerce";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -35,7 +36,7 @@ export async function generateMetadata({
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Couverture commerciale · ${macro.label} 2026`,
+    title: fitTitle(`Couverture commerciale · ${macro.label} 2026`),
     description: `Offre commerciale des villes de ${macro.label} : densité, proximité, grandes surfaces, centre-ville. Estimé, pas un décompte terrain.`,
     alternates: pathAlternates(`/commerces/${macro.slug}`, `/retail-coverage/${macro.slug}`),
     openGraph: {

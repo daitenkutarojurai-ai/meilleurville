@@ -9,6 +9,7 @@ import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
 import { REGION_EMOJIS, regionToSlug } from "@/lib/regions";
 import { jsonLdScript } from "@/lib/jsonld";
+import { fitTitle } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -69,7 +70,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const regionName = allRegions.find((r) => regionToSlug(r) === region);
   if (!regionName) return {};
   return {
-    title: `Cities in ${regionName} · French city guide`,
+    title: fitTitle(`Cities in ${regionName} · French city guide`),
     description: `Best cities to live in ${regionName} in 2026 — rankings, quality of life, and resident reviews.`,
     alternates: { canonical: `${EN_BASE}/regions/${region}`, languages: hreflangLanguagesEn(`/regions/${region}`) },
   };

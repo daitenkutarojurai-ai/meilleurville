@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === ville);
   if (!city) return {};
   return {
-    title: `Quitter ${city.name} : où vont les gens comme vous ? · 2026`,
+    title: fitTitle(`Quitter ${city.name} : où vont les gens comme vous ? · 2026`),
     description: clampMeta(
       `Vous envisagez de quitter ${city.name} ? Selon votre profil — famille, télétravailleur, jeune actif, retraité, étudiant, primo-accédant — voici les villes qui font mieux. Modèle estimatif transparent (scores officiels), pas du suivi.`,
     ),

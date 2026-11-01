@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import type { EnGuide } from "@/data/guides-en";
 import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
@@ -108,7 +108,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // 40-50 characters, and `hubTitle()` would add 21 more — past what Google
   // renders, so the count would be the part that gets cut.
   return {
-    title: `${copy.h1} · ${count} guides for France`,
+    title: fitTitle(`${copy.h1} · ${count} guides for France`),
     // `intro` doubles as the on-page paragraph, so it runs past what a SERP
     // renders (183 chars on `city-guide`). The page keeps the full sentence,
     // only the tag is cut — on a clause boundary, per clampMeta.

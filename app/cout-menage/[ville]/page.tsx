@@ -14,7 +14,7 @@ import {
 } from "@/lib/household-cost";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 import { quitterPairSlug } from "@/lib/quitter-pairs";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === ville);
   if (!city) return {};
   return {
-    title: `Coût de la vie à ${city.name} par profil ménage · Solo, couple, famille, retraité 2026`,
+    title: fitTitle(`Coût de la vie à ${city.name} par profil ménage · Solo, couple, famille, retraité 2026`),
     description: clampMeta(`Coût mensuel réel à ${city.name} pour 4 profils : solo (T1), couple (T2), famille 2 enfants (T3), retraité. Loyer, chauffage, mobilité, taxes — médians honnêtes.`),
     alternates: pathAlternates(`/cout-menage/${ville}`, `/household-cost/${ville}`),
     openGraph: {

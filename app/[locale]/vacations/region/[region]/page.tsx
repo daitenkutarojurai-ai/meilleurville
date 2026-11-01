@@ -30,6 +30,7 @@ import { enWhyLine } from "@/lib/vacation-en";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MapPin, ChevronRight } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -103,7 +104,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!r) return {};
   const tagline = REGION_EN_TAGLINES[r] ?? "";
   return {
-    title: `Holidays in ${r} 2026 · top destinations`,
+    title: fitTitle(`Holidays in ${r} 2026 · top destinations`),
     description: `Where to go on holiday in ${r}: top destinations ranked, best months, key activities. ${tagline}`,
     alternates: pathAlternatesEn(`/vacances/region/${region}`, `/vacations/region/${region}`),
     openGraph: {

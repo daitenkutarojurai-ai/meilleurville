@@ -14,6 +14,7 @@ import {
 } from "@/lib/safety-deep";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: `Safety — ${label} 2026`,
+    title: fitTitle(`Safety — ${label} 2026`),
     description: `Composite safety ranking (property crime, personal crime, night-time, domestic violence) for cities in the ${label} macro-region. Quietest vs most tense cities.`,
     alternates: pathAlternatesEn(`/securite/${macro.slug}`, `/safety/${macro.slug}`),
     openGraph: {

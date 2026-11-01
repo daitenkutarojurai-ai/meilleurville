@@ -9,6 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeWaterStress, type WaterLevel } from "@/lib/water-stress";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} water stress — droughts, restrictions, supply (2026)`,
+    title: fitTitle(`${c.name} water stress — droughts, restrictions, supply (2026)`),
     description: `Water stress in ${c.name}: summer restrictions, aquifer health, climate trend and supply security. An increasingly important factor.`,
     alternates: cityAlternatesEn("water", slug),
   };

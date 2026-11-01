@@ -44,3 +44,44 @@ export function clampMeta(text: string, max = 158): string {
   const word = window.lastIndexOf(" ");
   return text.slice(0, word > 0 ? word : max).trim();
 }
+
+/**
+ * Fit a `<title>` of the form "Head · tail, items" into what a SERP renders.
+ *
+ * City and pair templates append a keyword tail after the name; with a long
+ * commune (« Château-Gontier-sur-Mayenne », « Saint-Paul (La Réunion) ») the
+ * title ran to 98 chars and Google cut it mid-tail. Short titles are returned
+ * as is; long ones drop items of the last segment from the end (on ", "), then
+ * that segment. Everything before the last separator — where the city, region or
+ * pair name sits — is never cut.
+ */
+export function fitTitle(title: string, max = 65): string {
+  if (title.length <= max) return title;
+  const sep = [" · ", " — ", " | "]
+    .map((s) => ({ s, i: title.lastIndexOf(s) }))
+    .filter((x) => x.i > 0)
+    .sort((a, b) => b.i - a.i)[0];
+  if (!sep) return title;
+  const head = title.slice(0, sep.i);
+  const tail = title.slice(sep.i + sep.s.length);
+  // A comma inside parentheses is not an item boundary: « (loyer, voiture, taxes) ».
+  const items: string[] = [];
+  let depth = 0;
+  let start = 0;
+  for (let i = 0; i < tail.length; i++) {
+    if (tail[i] === "(") depth++;
+    else if (tail[i] === ")") depth = Math.max(0, depth - 1);
+    else if (depth === 0 && tail.startsWith(", ", i)) {
+      items.push(tail.slice(start, i));
+      start = i + 2;
+    }
+  }
+  items.push(tail.slice(start));
+  while (items.length > 1) {
+    items.pop();
+    const t = `${head}${sep.s}${items.join(", ")}`;
+    if (t.length <= max) return t;
+  }
+  // Still too long once the last segment is gone: fit what precedes it.
+  return fitTitle(head, max);
+}

@@ -12,6 +12,7 @@ import type { VibeTone } from "@/lib/vibe";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore } from "@/lib/utils";
 import { cityAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -71,7 +72,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { tone } = cityVibe(city);
   const meta = EN_VIBE_META[tone];
   return {
-    title: `${city.name} vibe — ${meta.label} city atmosphere`,
+    title: fitTitle(`${city.name} vibe — ${meta.label} city atmosphere`),
     description: `${city.name} has a ${meta.label.toLowerCase()} atmosphere: ${meta.desc}`,
     alternates: cityAlternatesEn("vibe", slug),
     openGraph: {

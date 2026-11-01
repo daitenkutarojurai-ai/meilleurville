@@ -10,6 +10,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computePublicServices, type ServicesLevel } from "@/lib/public-services";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} public services — schools, library, post office (2026)`,
+    title: fitTitle(`${c.name} public services — schools, library, post office (2026)`),
     description: `Public-service coverage in ${c.name}: schools, library, post office, town hall. A commune-level estimate, not a directory of facilities.`,
     alternates: cityAlternatesEn("public-services", slug),
   };

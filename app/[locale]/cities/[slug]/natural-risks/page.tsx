@@ -9,6 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeNaturalRisks, type RiskLevel } from "@/lib/natural-risks";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} natural risks — flood, seismic, clay, wildfire (2026)`,
+    title: fitTitle(`${c.name} natural risks — flood, seismic, clay, wildfire (2026)`),
     description: `Natural-risk exposure in ${c.name}: flooding, seismic activity, clay-shrinkage subsidence and wildfire. What to check before you buy.`,
     alternates: cityAlternatesEn("natural-risks", slug),
   };

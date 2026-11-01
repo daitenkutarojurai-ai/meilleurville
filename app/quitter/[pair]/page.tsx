@@ -18,6 +18,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { comparePairSlug } from "@/lib/comparer-pairs";
 import { scoreColor } from "@/lib/utils";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { fitTitle } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -50,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         : ` Surcoût ${Math.round(-monthlySavings)} €/mois sur les charges fixes.`
       : "";
   return {
-    title: `Quitter ${origin.name} pour ${destination.name} · Comparatif honnête 2026`,
+    title: fitTitle(`Quitter ${origin.name} pour ${destination.name} · Comparatif honnête 2026`),
     description: `Quitter ${origin.name} pour ${destination.name} : loyer, charges, owner scores, climat, verdict pour qui le move a du sens.${savingsLabel}`,
     alternates: pathAlternates(`/quitter/${pair}`, `/moving-from/${enPair}`),
     openGraph: {

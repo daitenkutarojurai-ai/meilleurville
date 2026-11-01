@@ -13,6 +13,7 @@ import {
 } from "@/lib/quality-of-life-index";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const enLabel = EN_MACRO_LABEL[macro.slug] ?? macro.label;
   return {
-    title: `Quality of life · ${enLabel} — top cities 2026`,
+    title: fitTitle(`Quality of life · ${enLabel} — top cities 2026`),
     description: `Quality-of-life index (environment + healthcare + employment) for all cities in the ${enLabel} macro-region. Top and bottom cities ranked.`,
     alternates: pathAlternatesEn(`/cadre-de-vie/${macro.slug}`, `/quality-of-life/${macro.slug}`),
     openGraph: {

@@ -16,6 +16,7 @@ import { scoreColor, formatScore } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import type { CitySeed } from "@/data/cities-seed";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = getOriginCity(slug);
   if (!city) return {};
   return {
-    title: `Week-end depuis ${city.name} · Destinations à moins de 5h 2026`,
+    title: fitTitle(`Week-end depuis ${city.name} · Destinations à moins de 5h 2026`),
     description: `Toutes les villes françaises accessibles depuis ${city.name} en moins de 5h (TGV, Intercités ou voiture). Classées par temps de trajet avec score de qualité de vie.`,
     alternates: pathAlternates(`/depuis/${slug}`, `/weekend-getaways/${slug}`),
     openGraph: {

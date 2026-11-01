@@ -16,6 +16,7 @@ import {
 } from "@/lib/cycling-mobility";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const c = computeCyclingMobility(city);
   return {
-    title: `Vivre à vélo à ${city.name} · réseau, relief, sécurité`,
+    title: fitTitle(`Vivre à vélo à ${city.name} · réseau, relief, sécurité`),
     description: `Synthèse de la cyclabilité à ${city.name} (${city.department}) : réseau ${CYCLING_LEVEL_LABEL[c.network.level].toLowerCase()}, relief ${CYCLING_LEVEL_LABEL[c.topography.level].toLowerCase()}, sécurité ${CYCLING_LEVEL_LABEL[c.safety.level].toLowerCase()}, climat ${CYCLING_LEVEL_LABEL[c.climate.level].toLowerCase()}. Score ${c.composite}/10.`,
     alternates: cityAlternates("velo", slug),
     openGraph: {

@@ -9,6 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -477,7 +478,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // not a derived map.
   const frSlug = `depuis-${countryKey}`;
   return {
-    title: `Moving back to France from ${name} — 2026 guide`,
+    title: fitTitle(`Moving back to France from ${name} — 2026 guide`),
     description: `Salary, tax, healthcare, admin steps: everything that changes when you return to France from ${name}. Practical per-country guide with city suggestions.`,
     alternates: pathAlternatesEn(`/expat-retour/${frSlug}`, `/expat-return/${slug}`),
     openGraph: {

@@ -11,6 +11,7 @@ import { getNeighborhoods } from "@/data/neighborhoods";
 import { faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternatesEn, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { Home, TrendingUp, MapPin, AlertCircle, ChevronRight } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 import { PropertyPriceTable } from "@/components/PropertyPriceTable";
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? `Flats €${p.apartment.medianM2.toLocaleString("en-GB")}/m², houses €${p.house.medianM2.toLocaleString("en-GB")}/m² in ${city.name} (${p.years[0]}-${p.years[p.years.length - 1]} sales).`
       : null;
   return {
-    title: `Housing in ${city.name} — rents, prices, market tension 2026`,
+    title: fitTitle(`Housing in ${city.name} — rents, prices, market tension 2026`),
     description: measured
       ? `${measured} Rents, market tension and buy vs rent.`
       : h

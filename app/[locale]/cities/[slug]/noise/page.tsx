@@ -9,6 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeNoiseExposure, type NoiseLevel } from "@/lib/noise-exposure";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: `${c.name} noise — road, air, rail, nightlife (2026)`,
+    title: fitTitle(`${c.name} noise — road, air, rail, nightlife (2026)`),
     description: `Noise exposure in ${c.name}: traffic, aircraft, rail and night-time urban noise. How quiet it actually is to live here.`,
     alternates: cityAlternatesEn("noise", slug),
   };

@@ -11,6 +11,7 @@ import { rentalTension, tensionInfo, tensionLevel } from "@/lib/rental-tension";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Clock, Users, TrendingUp, Home } from "lucide-react";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tension = rentalTension(city);
   const tInfo = tensionInfo(tension);
   return {
-    title: `Tension locative à ${city.name} 2026 — délais, concurrence, dossier`,
+    title: fitTitle(`Tension locative à ${city.name} 2026 — délais, concurrence, dossier`),
     description: `Marché locatif ${tInfo.shortLabel.toLowerCase()} à ${city.name} : délai moyen pour trouver, candidats par annonce, revenus exigés. Données 2026 dérivées des observatoires Clameur.`,
     alternates: cityAlternates("tension-locative", slug),
     openGraph: {

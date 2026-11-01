@@ -31,6 +31,7 @@ import { nearestStation, distanceToNearestKm } from "@/lib/climate-normals";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
 import { MapPin, ChevronRight, Thermometer, CloudRain, Sun, Users, Calendar } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -48,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const best = bestMonthsFor(city);
   const months = best.map((m) => formatMonthLabel(m).toLowerCase()).join(", ");
   return {
-    title: `Vacances à ${city.name} 2026 · quand y aller, quoi y faire`,
+    title: fitTitle(`Vacances à ${city.name} 2026 · quand y aller, quoi y faire`),
     description: `Quand partir à ${city.name} (${city.department}) : meilleurs mois ${months}. Climat, affluence, activités où la ville excelle.`,
     // Les deux routes bouclent sur `CITIES_SEED` : mêmes 540 slugs des deux
     // côtés, seule la tête change (`vacances` → `vacations`). La tête est bien

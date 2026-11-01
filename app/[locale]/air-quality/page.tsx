@@ -16,6 +16,7 @@ import {
   airRankingHead,
   rankAir,
 } from "@/lib/air-measured-ranking";
+import { fitTitle } from "@/lib/brand";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
   alternates: pathAlternatesEn("/qualite-de-l-air", "/air-quality"),
   openGraph: {
     images: ["/opengraph-image"],
-    title: `Air quality in French cities — ${AIR_MEASURE_YEAR} measurements`,
+    title: fitTitle(`Air quality in French cities — ${AIR_MEASURE_YEAR} measurements`),
     description: "French cities ranked by air pollution measured at official stations: nitrogen dioxide, fine particles and ozone.",
   },
 };

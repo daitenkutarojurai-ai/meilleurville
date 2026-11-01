@@ -11,6 +11,7 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore, scoreColor } from "@/lib/utils";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -81,7 +82,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const best = [...PROFILE_META].sort((a, b) => niche[b.key] - niche[a.key]);
   const top2 = best.slice(0, 2).map((p) => p.label.toLowerCase()).join(" and ");
   return {
-    title: `${city.name} — which lifestyle profile fits? Compatibility scores`,
+    title: fitTitle(`${city.name} — which lifestyle profile fits? Compatibility scores`),
     description: `${city.name} suits ${top2} best. Compatibility scores for 5 profiles: expats, remote workers, pet owners, retirees, students.`,
     alternates: cityAlternatesEn("profiles", slug),
     openGraph: {

@@ -13,6 +13,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { getNeighborhoods, type Neighborhood } from "@/data/neighborhoods";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const hoods = getNeighborhoods(slug);
   return {
-    title: `Neighbourhoods of ${city.name} · Which district to choose? 2026`,
+    title: fitTitle(`Neighbourhoods of ${city.name} · Which district to choose? 2026`),
     description: `Compare ${hoods.length || "all"} neighbourhoods in ${city.name}: safety, rents, transport, and atmosphere. Find the district that matches your lifestyle.`,
     alternates: cityAlternatesEn("neighbourhoods", slug),
     openGraph: {

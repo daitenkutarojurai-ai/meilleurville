@@ -14,7 +14,7 @@ import type { City } from "@/lib/types";
 
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
 import { hreflangLanguages } from "@/lib/i18n";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -34,7 +34,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cities = CITIES_SEED.filter((c) => c.department === dept);
   const topCity = [...cities].sort((a, b) => b.scores.global - a.scores.global)[0];
   return {
-    title: `Meilleures villes ${dept} 2026 · Qualité de vie & Classements`,
+    // Mayotte est à la fois région et département : même titre que /regions/mayotte sans ce cas.
+    title: fitTitle(
+      topCity?.region === dept
+        ? `Villes du département ${dept} 2026 · Qualité de vie & Classements`
+        : `Meilleures villes ${dept} 2026 · Qualité de vie & Classements`,
+    ),
     description: clampMeta(`Découvrez les ${cities.length} meilleures villes du département ${dept} : scores qualité de vie, comparaisons, avis d'habitants. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`),
     alternates: { canonical: `/departements/${deptSlug}`, languages: hreflangLanguages(`/departements/${deptSlug}`) },
     openGraph: {

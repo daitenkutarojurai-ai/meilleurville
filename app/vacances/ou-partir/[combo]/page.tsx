@@ -35,6 +35,7 @@ import {
   ArrowUpRight,
   ArrowDownRight,
 } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 // Croisement mois × profil : « où partir en avril en famille monoparentale ».
 // Le moteur savait déjà répondre (`topCitiesForMonth` accepte un profil depuis
@@ -108,7 +109,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const monthLower = formatMonthLabel(crossing.month).toLowerCase();
   const phrase = PROFILE_PHRASE[slug];
   return {
-    title: `Où partir en ${monthLower} ${phrase} · 2026`,
+    title: fitTitle(`Où partir en ${monthLower} ${phrase} · 2026`),
     description: `Où partir en ${monthLower} ${phrase} : climat, affluence, budget et accès sans voiture. Classement mesuré sur ${CITIES_COUNT} villes, pas un top d'agence.`,
     // La jumelle EN existe (/vacations/where-to-go/…) mais son slug de
     // combinaison n'est pas dérivable du FR (`avril-monoparental` ↔

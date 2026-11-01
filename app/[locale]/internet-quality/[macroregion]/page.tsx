@@ -18,6 +18,7 @@ import {
 } from "@/lib/internet-score";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -56,7 +57,7 @@ export async function generateMetadata({
   if (!macro) return {};
   const label = macroLabelEn(macro.slug, macro.label);
   return {
-    title: `Internet coverage · ${label} 2026`,
+    title: fitTitle(`Internet coverage · ${label} 2026`),
     description: `Fibre coverage across ${label} cities: where FTTH is fully deployed vs where the connection stays patchy. Regional estimate ARCEP Q4 2024.`,
     alternates: pathAlternatesEn(`/internet/${macro.slug}`, `/internet-quality/${macro.slug}`),
     openGraph: {

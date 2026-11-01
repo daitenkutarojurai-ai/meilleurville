@@ -16,6 +16,7 @@ import {
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const topAxis = s.strengths[0]?.label.toLowerCase() ?? "";
   const bottomAxis = s.tensions[0]?.label.toLowerCase() ?? "";
   return {
-    title: `Synthèse complète de ${city.name} · les 8 indicateurs en un coup d'œil`,
+    title: fitTitle(`Synthèse complète de ${city.name} · les 8 indicateurs en un coup d'œil`),
     description: `${city.name} (${city.department}) synthèse 8 axes : global ${s.global}/10 (${SYNTHESIS_LEVEL_LABEL[s.level].toLowerCase()}). Force ${topAxis}, tension ${bottomAxis}.`,
     alternates: cityAlternates("synthese", slug),
     openGraph: {

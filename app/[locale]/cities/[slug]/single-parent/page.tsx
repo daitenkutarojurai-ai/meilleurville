@@ -22,7 +22,7 @@ import {
   AlertCircle,
   ExternalLink,
 } from "lucide-react";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const fit = parentSoloFit(city);
   const label = fitLabel(fit.score).label.toLowerCase();
   return {
-    title: `Single parent in ${city.name} — fit score, rent, schools, transit`,
+    title: fitTitle(`Single parent in ${city.name} — fit score, rent, schools, transit`),
     description: clampMeta(`${city.name} for a single-parent household: fit score ${fit.score.toFixed(1)}/10 (${label}), 3-bedroom rent, public schools, life without a car, minimum estimated income. Honest read, no sugarcoating.`),
     alternates: cityAlternatesEn("single-parent", slug),
     openGraph: {

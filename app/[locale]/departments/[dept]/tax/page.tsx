@@ -11,7 +11,7 @@ import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, MapPin } from "lucide-react";
 import { faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const en = FISC_EN[fiscStateEn({ department: dept, region: sampleCity.region })];
   const cityCount = CITIES_SEED.filter((c) => c.department === dept).length;
   return {
-    title: `Property tax in ${dept} — 2026 estimate`,
+    title: fitTitle(`Property tax in ${dept} — 2026 estimate`),
     description: clampMeta(
       `2026 property-tax estimate for the ${dept} department: taxe foncière (${en.taxeFonciere}), second-home tax, transfer duties. ${cityCount} cit${cityCount > 1 ? "ies" : "y"} covered. DGFiP data.`,
     ),

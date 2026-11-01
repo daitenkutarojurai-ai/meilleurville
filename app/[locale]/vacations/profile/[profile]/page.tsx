@@ -21,6 +21,7 @@ import { type MonthIndex } from "@/lib/vacation-seasons";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MapPin } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -74,7 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const enDef = EN_PROFILE_DEFS[profile as VacationProfile];
   const enLabel = EN_PROFILE_LABEL[profile as VacationProfile];
   return {
-    title: `${enLabel} holidays in France 2026 · top destinations`,
+    title: fitTitle(`${enLabel} holidays in France 2026 · top destinations`),
     description: enDef.metaDesc,
     // Réciproque du hreflang de /vacances/profil/[profil]. Le segment est le
     // même des deux côtés : cette route sert les slugs FR sur le domaine

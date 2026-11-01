@@ -11,6 +11,7 @@ import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
 import { SEO_PAIRS, comparePairSlug } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { jsonLdScript } from "@/lib/jsonld";
+import { fitTitle } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -81,7 +82,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: `${a.name} vs ${b.name} — Quality-of-life comparison 2026`,
+    title: fitTitle(`${a.name} vs ${b.name} — Quality-of-life comparison 2026`),
     description: `Full comparison of ${a.name} (${a.scores.global}/10) and ${b.name} (${b.scores.global}/10): cost of living, transport, nature, safety, schools. Which French city should you choose?`,
     alternates: { canonical: `${EN_BASE}/compare/${pair}`, languages: hreflangLanguagesEn(`/compare/${pair}`) },
     openGraph: {

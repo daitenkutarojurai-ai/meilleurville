@@ -10,6 +10,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Sparkles, ArrowLeft, Users, Coffee, Mountain, Heart, Globe2 } from "lucide-react";
 import Link from "@/components/AppLink";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Mentalité locale à ${city.name} 2026 — vibe, sociabilité, tempo`,
+    title: fitTitle(`Mentalité locale à ${city.name} 2026 — vibe, sociabilité, tempo`),
     description: `Comment vit-on socialement à ${city.name} ? Tempo, ouverture, culture café, vie associative, archetype régional. Synthèse 2026 dérivée du seed + tags.`,
     alternates: cityAlternates("mentalite-locale", slug),
     openGraph: {

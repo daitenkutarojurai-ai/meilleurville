@@ -11,7 +11,7 @@ import { computeOwnerScores } from "@/lib/owner-scores";
 import { buildHonestReview } from "@/lib/honest-reviews";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 import { AXIS_EN, OWNER_LABEL_EN, OWNER_EN_PRO, OWNER_EN_CON, PROFILE_LABEL_EN } from "@/lib/honest-reviews-en";
 
 export const revalidate = false;
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Honest review of ${city.name} 2026 — strengths, weaknesses, who it suits`,
+    title: fitTitle(`Honest review of ${city.name} 2026 — strengths, weaknesses, who it suits`),
     description: clampMeta(`What actually works about ${city.name}, what doesn't, and which profiles fit. Derived from 8 seed axes + 10 owner scores + rankings across ${CITIES_COUNT} French cities.`),
     alternates: cityAlternatesEn("honest-review", slug),
   };

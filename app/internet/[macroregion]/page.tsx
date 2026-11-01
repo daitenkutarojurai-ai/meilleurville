@@ -14,6 +14,7 @@ import { citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import { internetScore, internetLabel } from "@/lib/internet-score";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -31,7 +32,7 @@ export async function generateMetadata({
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Couverture internet · ${macro.label} 2026`,
+    title: fitTitle(`Couverture internet · ${macro.label} 2026`),
     description: `Couverture fibre des villes de ${macro.label} : où le FTTH est généralisé vs où la connexion reste précaire. Estimation régionale ARCEP T4 2024.`,
     alternates: pathAlternates(`/internet/${macro.slug}`, `/internet-quality/${macro.slug}`),
     openGraph: {

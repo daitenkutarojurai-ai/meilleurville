@@ -10,6 +10,7 @@ import { cityFaq } from "@/lib/city-faq";
 import { HelpCircle, ArrowLeft } from "lucide-react";
 import Link from "@/components/AppLink";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `${city.name} — questions fréquentes & réponses 2026`,
+    title: fitTitle(`${city.name} — questions fréquentes & réponses 2026`),
     description: `Toutes les questions qu'on se pose avant de vivre à ${city.name} : loyers, sécurité, trajets, climat 2040, écoles, télétravail.`,
     alternates: cityAlternates("questions", slug),
     openGraph: {

@@ -10,6 +10,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { buildHonestReview } from "@/lib/honest-reviews";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Avis honnête sur ${city.name} 2026 · Points forts, faiblesses, profils adaptés`,
+    title: fitTitle(`Avis honnête sur ${city.name} 2026 · Points forts, faiblesses, profils adaptés`),
     description: `Synthèse honnête sur ${city.name} : ce qui marche vraiment, ce qui cloche, pour qui c'est fait.`,
     alternates: cityAlternates("avis-honnete", slug),
     openGraph: {

@@ -23,6 +23,7 @@ import {
   AlertCircle,
   ExternalLink,
 } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const fit = parentSoloFit(city);
   const label = fitLabel(fit.score).label.toLowerCase();
   return {
-    title: `Parent solo à ${city.name} — score, budget T3, écoles, transports`,
+    title: fitTitle(`Parent solo à ${city.name} — score, budget T3, écoles, transports`),
     description: `${city.name} en configuration parent solo : score fit ${fit.score.toFixed(1)}/10 (${label}), loyer T3, écoles publiques, transports sans voiture, budget minimum estimé.`,
     alternates: cityAlternates("parent-solo", slug),
     openGraph: {

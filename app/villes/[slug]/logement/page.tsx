@@ -15,6 +15,7 @@ import { scoreColor, scoreLabel } from "@/lib/utils";
 import { cityAlternates } from "@/lib/i18n";
 import { PropertyPriceTable } from "@/components/PropertyPriceTable";
 import { cityPropertyPrices } from "@/lib/property-prices";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? `${p.apartment.medianM2.toLocaleString("fr-FR")} €/m² en appartement, ${p.house.medianM2.toLocaleString("fr-FR")} € en maison (ventes ${p.years[0]}-${p.years[p.years.length - 1]})`
       : null;
   return {
-    title: `Logement à ${city.name} — loyers, prix, tension locative 2026`,
+    title: fitTitle(`Logement à ${city.name} — loyers, prix, tension locative 2026`),
     description: measured
       ? `Loyers T1/T2/T3 et prix au m² à ${city.name} : ${measured}. Tension du marché et comparaison location vs achat.`
       : `Loyers T1/T2/T3 et prix d'achat au m² à ${city.name}. Tension du marché, quartiers abordables, comparaison location vs achat. Données Clameur 2024.`,

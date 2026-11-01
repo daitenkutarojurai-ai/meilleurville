@@ -13,6 +13,7 @@ import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { ORIGIN_BY_LOCALE, pathAlternates } from "@/lib/i18n";
 import { cityFaq } from "@/lib/city-faq";
 import { cityPhoto } from "@/lib/city-images";
+import { fitTitle } from "@/lib/brand";
 
 // Pure static export (output:"export" on Cloudflare) — no ISR/runtime cache.
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const housing = getHousing(city.slug);
   const rentHint = housing ? ` Loyer T2 : ${housing.avgRentT2}€/mois.` : "";
   return {
-    title: `${city.name} · Avis habitants, qualité de vie & classements 2026`,
+    title: fitTitle(`${city.name} · Avis habitants, qualité de vie & classements 2026`),
     // No generic "Comparez avec d'autres villes." tail: it said nothing a
     // searcher wants and pushed 495 of the 540 city descriptions past the ~160
     // chars Google renders, so the rent figure — the part people actually scan

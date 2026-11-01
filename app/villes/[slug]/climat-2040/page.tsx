@@ -10,6 +10,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { projectClimate2040 } from "@/lib/climate-2040";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const p = projectClimate2040(city);
   return {
-    title: `Climat 2040 à ${city.name} · Projection canicule et nuits tropicales`,
+    title: fitTitle(`Climat 2040 à ${city.name} · Projection canicule et nuits tropicales`),
     description: `Projection climatique 2040 pour ${city.name}${
       p.projectedJulyC ? ` : juillet ${p.projectedJulyC} °C (+${p.macroRegion.deltaJulyC} °C vs aujourd'hui), ${p.projectedDays30C} jours > 30 °C attendus.` : "."
     } Basé sur Météo-France ARPEGE.`,

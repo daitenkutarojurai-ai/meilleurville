@@ -13,6 +13,7 @@ import { borderCommute, metroAccess, metroAccessCommute, HUB_LABEL } from "@/lib
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Télétravailler à ${city.name} 2026 · Fibre, coworking, coût réel`,
+    title: fitTitle(`Télétravailler à ${city.name} 2026 · Fibre, coworking, coût réel`),
     description: `${city.name} pour le télétravail : couverture fibre département, score qualité de vie, coût télétravailleur mensuel, profil idéal.`,
     alternates: cityAlternates("teletravail", slug),
     openGraph: {

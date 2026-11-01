@@ -24,6 +24,7 @@ import { enWhyLine } from "@/lib/vacation-en";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MapPin, Calendar } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -105,7 +106,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ACTIVITIES.includes(activity as ActivitySlug)) return {};
   const enDef = EN_ACTIVITY_DEFS[activity as ActivitySlug];
   return {
-    title: `${enDef.label} holidays in France 2026 · top destinations`,
+    title: fitTitle(`${enDef.label} holidays in France 2026 · top destinations`),
     description: enDef.metaDesc,
     // Réciproque du hreflang de /vacances/activite/[activite] : même slug
     // d'activité des deux côtés, seuls la tête et le sous-segment diffèrent.

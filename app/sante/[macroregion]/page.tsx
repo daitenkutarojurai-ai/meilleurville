@@ -14,6 +14,7 @@ import {
 } from "@/lib/healthcare-access";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Accès aux soins · ${macro.label} 2026`,
+    title: fitTitle(`Accès aux soins · ${macro.label} 2026`),
     description: `Classement composite accès aux soins (médecins, spécialistes, urgences, pharmacies) restreint aux villes de la macro-région ${macro.label}. Meilleur accès vs. déserts médicaux.`,
     alternates: pathAlternates(`/sante/${macro.slug}`, `/healthcare/${macro.slug}`),
     openGraph: {

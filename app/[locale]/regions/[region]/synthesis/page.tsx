@@ -14,7 +14,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { regionToSlug, slugToRegion, REGION_EMOJIS } from "@/lib/regions";
-import { clampMeta } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
 import {
   getSynthesisRankings,
   SYNTHESIS_LEVEL_COLOR,
@@ -90,7 +90,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!region) return {};
   const count = CITIES_SEED.filter((c) => c.region === region).length;
   return {
-    title: `${region} — 8-dimension city ranking`,
+    title: fitTitle(`${region} — 8-dimension city ranking`),
     // clampMeta : la description brute atteint 217 caractères, servie telle
     // quelle. Même repli que la jumelle EN département, déjà clampée.
     description: clampMeta(

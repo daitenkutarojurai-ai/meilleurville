@@ -10,6 +10,7 @@ import { rankInMacroRegion, citiesInMacroRegion } from "@/lib/macro-regions-rank
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -62,7 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const zoneName = EN_ZONE_NAME[slug] ?? macro.label;
   return {
-    title: `${zoneName} — cities & quality of life 2026`,
+    title: fitTitle(`${zoneName} — cities & quality of life 2026`),
     description: `Top cities in the ${zoneName} geographic zone by quality of life score. Browse rankings by theme: healthcare, cycling, safety, employment and more.`,
     alternates: pathAlternatesEn(`/macro-region/${slug}`, `/geographic-zones/${slug}`),
     openGraph: {

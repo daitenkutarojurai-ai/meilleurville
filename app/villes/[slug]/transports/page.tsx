@@ -17,6 +17,7 @@ import {
 } from "@/lib/profile-pages";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -41,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `${tags.join(" · ")} — score transports ${city.scores.transport.toFixed(1)}/10.`
     : `Score transports ${city.scores.transport.toFixed(1)}/10. Réseau urbain limité, mobilité majoritairement voiture/bus.`;
   return {
-    title: `Transports à ${city.name} · Métro, tram, TGV, vélo`,
+    title: fitTitle(`Transports à ${city.name} · Métro, tram, TGV, vélo`),
     description: `Réseau de transports à ${city.name} : ${summary} Sans-voiture, accessibilité.`,
     alternates: cityAlternates("transports", slug),
     openGraph: {

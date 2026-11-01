@@ -18,6 +18,7 @@ import {
 } from "@/lib/natural-risks";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -35,7 +36,7 @@ export async function generateMetadata({
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Risques naturels · ${macro.label} 2026`,
+    title: fitTitle(`Risques naturels · ${macro.label} 2026`),
     description: `Inondation, sismicité, argile, feux de forêt dans les villes de ${macro.label}. Top 15 les plus exposées vs top 10 les plus tranquilles.`,
     alternates: pathAlternates(`/risques/${macro.slug}`, `/natural-risks/${macro.slug}`),
     openGraph: {

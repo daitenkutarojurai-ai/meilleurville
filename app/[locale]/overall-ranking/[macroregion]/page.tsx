@@ -13,6 +13,7 @@ import {
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -56,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: `Overall ranking · ${label} 2026 — quality of life across all dimensions`,
+    title: fitTitle(`Overall ranking · ${label} 2026 — quality of life across all dimensions`),
     description: `Composite ranking of cities in the ${label} macro-region across 8 data dimensions: environment, healthcare, employment, quality of life, cycling, safety, demographics, public services. 10 = excellent.`,
     alternates: pathAlternatesEn(`/palmares/${macro.slug}`, `/overall-ranking/${macro.slug}`),
     openGraph: {

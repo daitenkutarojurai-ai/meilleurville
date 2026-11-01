@@ -14,6 +14,7 @@ import {
 } from "@/lib/quality-of-life-index";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Meilleur cadre de vie · ${macro.label} 2026`,
+    title: fitTitle(`Meilleur cadre de vie · ${macro.label} 2026`),
     description: `Méga-index « Cadre de Vie » (environnement + santé + emploi) restreint aux villes de la macro-région ${macro.label}. Top villes pour vivre.`,
     alternates: pathAlternates(`/cadre-de-vie/${macro.slug}`, `/quality-of-life/${macro.slug}`),
     openGraph: {

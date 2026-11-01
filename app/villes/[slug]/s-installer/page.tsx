@@ -13,6 +13,7 @@ import { internetScore, internetLabel } from "@/lib/internet-score";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Home, Wifi, FileText, MapPin, ChevronRight, AlertCircle } from "lucide-react";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const housing = getHousing(slug);
   return {
-    title: `S'installer à ${city.name} — logement, démarches, internet 2026`,
+    title: fitTitle(`S'installer à ${city.name} — logement, démarches, internet 2026`),
     description: `Guide pratique pour s'installer à ${city.name} : loyers (T2 ${housing ? `${housing.avgRentT2} €/mois` : "estimés"}), tension locative, fibre, fiscalité, démarches administratives.`,
     alternates: cityAlternates("s-installer", slug),
     openGraph: {

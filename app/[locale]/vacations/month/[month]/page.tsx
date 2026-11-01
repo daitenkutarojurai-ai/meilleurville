@@ -35,6 +35,7 @@ import {
   Sun,
   Users,
 } from "lucide-react";
+import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -164,7 +165,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!idx) return {};
   const label = EN_MONTH_LABELS[month as EnMonthSlug] ?? month;
   return {
-    title: `Best places to visit in France in ${label} 2026 · top destinations`,
+    title: fitTitle(`Best places to visit in France in ${label} 2026 · top destinations`),
     description: `Top French destinations in ${label}: climate, crowds, activities. ${CITIES_COUNT} cities ranked by fit score. ${MONTH_ANGLES[idx].hook.slice(0, 70)}…`,
     // Réciproque du hreflang déclaré par /vacances/mois/[mois]. Le slug FR est
     // accentué (`février`, `août`, `décembre`) et le sitemap FR l'émet tel

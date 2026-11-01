@@ -14,6 +14,7 @@ import { getHousing } from "@/data/housing";
 import React from "react";
 import { TripletView } from "./TripletView";
 import { VsBattle } from "@/components/VsBattle";
+import { fitTitle } from "@/lib/brand";
 
 type Props = { params: Promise<{ pair: string }> };
 
@@ -64,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!a || !b) return {};
 
   return {
-    title: `${a.name} vs ${b.name} · Comparaison qualité de vie 2026`,
+    title: fitTitle(`${a.name} vs ${b.name} · Comparaison qualité de vie 2026`),
     description: `Comparaison complète entre ${a.name} (${a.scores.global}/10) et ${b.name} (${b.scores.global}/10) : coût de vie, transport, nature, sécurité, écoles. Laquelle choisir ?`,
     alternates: { canonical: `/comparer/${pair}`, languages: hreflangLanguages(`/comparer/${pair}`) },
     openGraph: {

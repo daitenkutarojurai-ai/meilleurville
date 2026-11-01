@@ -12,6 +12,7 @@ import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import { housingTensionFor } from "@/lib/housing-tension";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
+import { fitTitle } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const ratioLabel = data ? `Ratio prix/loyer : ${data.rentToPriceRatio} (${VERDICT_META[data.verdict].label.toLowerCase()})` : "Comparatif détaillé";
   return {
-    title: `Louer ou acheter à ${city.name} 2026 · ${ratioLabel}`,
+    title: fitTitle(`Louer ou acheter à ${city.name} 2026 · ${ratioLabel}`),
     description: data
       ? `Faut-il louer ou acheter à ${city.name} ? Ratio prix/loyer ${data.rentToPriceRatio}, mensualité prêt T3 ${data.monthlyMortgage} €, payback apport ${data.paybackYears ? data.paybackYears + " ans" : "n/a"}. Données HOUSING + barèmes 2026.`
       : `Faut-il louer ou acheter à ${city.name} ? Données loyer / prix m² + simulation prêt 25 ans pour décider.`,
