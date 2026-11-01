@@ -18,6 +18,13 @@ export const metadata: Metadata = {
   alternates: pathAlternatesEn("/guides", "/guides"),
 };
 
+// Full cards per category; the rest of the category is listed as plain links.
+// Rendering all ~1 300 guides as cards made this page 3.5 MB of HTML (the
+// server tree is serialized a second time into the flight payload). A bare
+// link costs ~100 bytes against ~2.4 kB for a card, and every guide stays one
+// crawlable link away — same split as the FR /guides index.
+const CARDS_PER_CATEGORY = 12;
+
 const CATEGORY_ORDER: EnGuide["category"][] = [
   "city-guide", "moving", "remote-work", "lifestyle", "family", "budget",
 ];
@@ -28,6 +35,10 @@ export default function EnGuidesIndex() {
     const arr = byCategory.get(g.category) ?? [];
     arr.push(g);
     byCategory.set(g.category, arr);
+  }
+  // Freshest first, so the cards show what was just published.
+  for (const arr of byCategory.values()) {
+    arr.sort((a, b) => (b.updatedAt || b.publishedAt).localeCompare(a.updatedAt || a.publishedAt));
   }
 
   return (
@@ -47,6 +58,8 @@ export default function EnGuidesIndex() {
 
       {CATEGORY_ORDER.filter((cat) => byCategory.get(cat)?.length).map((cat, idx) => {
         const guides = byCategory.get(cat)!;
+        const cards = guides.slice(0, CARDS_PER_CATEGORY);
+        const rest = guides.slice(CARDS_PER_CATEGORY);
         return (
           <section key={cat} className={`band ${BANDS[idx % BANDS.length]} py-12`}>
             <div className="mx-auto max-w-5xl px-4 sm:px-6">
@@ -57,7 +70,7 @@ export default function EnGuidesIndex() {
                 <span className="rounded-full bg-white px-2.5 py-0.5 text-sm font-semibold text-[var(--accent)] shadow-sm">{guides.length}</span>
               </h2>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {guides.map((g) => (
+                {cards.map((g) => (
                   <li key={g.slug}>
                     <Link
                       href={`/guides/${g.slug}`}
@@ -76,6 +89,31 @@ export default function EnGuidesIndex() {
                   </li>
                 ))}
               </ul>
+              {rest.length > 0 && (
+                <details className="mt-6 rounded-2xl border border-white bg-white/80 p-5">
+                  <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">
+                    {rest.length} more guides in {EN_GUIDE_CATEGORIES[cat]}
+                  </summary>
+                  <ul className="mt-4 grid gap-x-6 gap-y-1.5 sm:grid-cols-2">
+                    {rest.map((g) => (
+                      <li key={g.slug}>
+                        <Link
+                          href={`/guides/${g.slug}`}
+                          className="text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+                        >
+                          {g.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                  <Link
+                    href={`/guides/category/${cat}`}
+                    className="mt-4 inline-block text-sm font-semibold text-[var(--accent)] hover:underline"
+                  >
+                    All {guides.length} guides in {EN_GUIDE_CATEGORIES[cat]} →
+                  </Link>
+                </details>
+              )}
             </div>
           </section>
         );
