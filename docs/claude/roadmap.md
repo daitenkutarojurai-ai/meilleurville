@@ -287,7 +287,19 @@ computant depuis les axes existants — l'enrichissement reste utile pour des ch
   quatre pièges d'agrégation, les bornes et l'éclatement PLM (Paris → 75101-75120, Lyon → 69381-69389,
   Marseille → 13201-13216, qui n'existent pas comme fichier sous leur code communal).
   Egress : `files.data.gouv.fr` répond depuis une session **locale**, pas depuis une routine cloud.
-- `tauxChomage: number` — % (proxie zone emploi)
+- ~~`tauxChomage`~~ — ✅ **fait 2026-11-01, avec deux dimensions de plus** : `data/city-employment.json`
+  (`npm run employment`, `scripts/city-employment.mjs` + `lib/city-employment.ts`, API Melodi Insee sans jeton) porte le
+  **chômage des 15-64 ans au recensement 2023** (déclaratif : France 11,4 % sur cette mesure, ne jamais le comparer au
+  taux BIT), les **emplois situés dans la commune** et leur évolution 2017 → 2023 (France +6,6 %) et le **salaire net
+  mensuel moyen EQTP des emplois privés situés dans la commune** (base tous salariés 2024, lieu de travail ; France
+  2 733 €). 591/593 villes (salaire 590, Gordes sous secret). `lib/employment-market.ts` mesure chômage, dynamisme et
+  salaires ; le mix sectoriel reste estimé, la garde `moteurs` traite l'emploi en cas mixte. ⚠️ Écarté : le taux de
+  création d'entreprises SIDE, gonflé par l'auto-entreprenariat contraint (Saint-Denis 36 %, Lens 25 % contre 18,5 %).
+  ⚠️ Les thèmes red flags « coûts explosifs » et « chauffage » gardent leur médiane départementale estimée via
+  `estimatedDeptSalaryTier()` (`SALARY_PROXY`) : le salaire mesuré est une moyenne de lieu de travail, autre grandeur.
+  Niveaux : 80 facile / 364 actif / 149 tendu → 55 / 333 / 201 / 4 sinistré. Les 30 guides EN `working-in-*` ont leur
+  attaque régénérée (score, rang ex æquo sur les 363 villes ≥ 20 000 hab. de la cohorte d'origine, trois relevés) ;
+  **relancer `npm run employment` impose de les refaire**.
 - ~~`densiteMedecins`~~ — ✅ **fait 2026-11-01, en mieux** : `data/city-healthcare.json` (`npm run healthcare`,
   `scripts/city-healthcare.mjs` + `lib/city-healthcare.ts`) porte l'**APL aux médecins généralistes** de la DREES
   (millésime 2024, consultations accessibles par an et par habitant, médecins des communes voisines compris — une densité

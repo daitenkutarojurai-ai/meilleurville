@@ -406,7 +406,8 @@ export default function RedFlagsPage() {
               , seule page du site où l&apos;accès aux soins est le critère cardinal :
               elle le croise avec le trajet répété, le coût restant à charge et la
               résistance à la canicule, et elle rappelle que l&apos;indicateur reste
-              une estimation départementale, pas un relevé de cabinets. Pour un
+              une mesure de l&apos;offre accessible (APL de la DREES), pas la liste des
+              médecins qui prennent de nouveaux patients. Pour un
               soignant, la même carte se lit à l&apos;envers : la page{" "}
               <Link href="/pour-qui/professionnels-de-sante" className="text-[var(--accent)] hover:underline">
                 s&apos;installer là où l&apos;on manque de soignants

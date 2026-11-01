@@ -65,10 +65,15 @@ export function EmploymentCard({ city, locale = "fr" }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          {L(
-            "10 = marché du travail dynamique · estimation départementale calée sur les repères INSEE / DARES / SIRENE, pas le taux publié pour la commune.",
-            "10 = thriving job market · departmental estimate calibrated against INSEE / DARES / SIRENE reference figures, not a published rate for this town.",
-          )}
+          {e.measured
+            ? L(
+                "10 = marché du travail dynamique · chômage, emploi et salaires mesurés (Insee) ; mix sectoriel estimé.",
+                "10 = thriving job market · unemployment, jobs and pay measured (INSEE); sector mix estimated.",
+              )
+            : L(
+                "10 = marché du travail dynamique · estimation départementale calée sur les repères INSEE / DARES / SIRENE, pas le taux publié pour la commune.",
+                "10 = thriving job market · departmental estimate calibrated against INSEE / DARES / SIRENE reference figures, not a published rate for this town.",
+              )}
         </p>
       </Link>
     </Card>

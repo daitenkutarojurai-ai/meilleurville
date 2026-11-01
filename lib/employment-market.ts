@@ -1,9 +1,16 @@
 // F50 — Emploi & marché du travail par ville
 //
-// 4 dimensions évaluées depuis le seed (department, population, characterTags).
-// Aucune dépendance externe.
+// 4 dimensions. Depuis le 2026-11-01, trois sont MESURÉES quand la commune est
+// couverte (591/593 villes, `lib/city-employment.ts`, Insee) :
+//   - chômage : taux des 15-64 ans au sens du recensement 2023, pour les
+//     habitants de la commune (plus haut que le taux BIT trimestriel) ;
+//   - dynamisme : évolution des emplois situés dans la commune, 2017 → 2023 ;
+//   - salaires : salaire net mensuel moyen EQTP des emplois privés situés dans
+//     la commune (base tous salariés 2024).
+// Le mix sectoriel reste ESTIMÉ. Hors couverture, les dimensions retombent
+// sur les paliers estimés ci-dessous (`*Ladder`), calés sur ces repères :
 //
-// Sources de référence (toutes publiques) :
+// Sources de référence des paliers estimés :
 //   - INSEE : taux de chômage trimestriel par département (T4 2024 dernière
 //     publication disponible). https://www.insee.fr/fr/statistiques.
 //   - DARES (dares.travail-emploi.gouv.fr) : statistiques chômage longue durée,
@@ -23,6 +30,15 @@
 // Composite = moyenne pondérée des 4 sous-scores.
 
 import type { CityLight } from "@/lib/cities-light";
+import {
+  JOB_GROWTH_NATIONAL,
+  JOBS_FROM,
+  RP_YEAR,
+  SALARY_NATIONAL,
+  UNEMPLOYMENT_NATIONAL,
+  cityEmploymentMeasure,
+  type CityEmploymentMeasure,
+} from "@/lib/city-employment";
 
 export type JobLevel = "facile" | "actif" | "tendu" | "sinistre";
 
@@ -44,6 +60,8 @@ export interface EmploymentMarket {
   salary: JobDimension;         // salaire net médian dept
   /** Signature narrative pour résumé une-ligne */
   signature: string;
+  /** Relevés Insee de la commune, null hors couverture (paliers estimés). */
+  measured: CityEmploymentMeasure | null;
 }
 
 function levelFromScore(s: number): JobLevel {
@@ -99,7 +117,7 @@ const UNEMP_VERY_LOW = new Set([
   "Lozère", "Cantal", "Mayenne", "Aveyron",
 ]);
 
-function unemploymentRisk(city: CityLight): JobDimension {
+function unemploymentLadder(city: CityLight): JobDimension {
   const d = city.department;
   if (UNEMP_VERY_LOW.has(d)) {
     return {
@@ -150,7 +168,7 @@ const DYNAMIC_DEPTS = new Set([
   "Bas-Rhin", "Isère", "Vaucluse",
 ]);
 
-function dynamismRisk(city: CityLight): JobDimension {
+function dynamismLadder(city: CityLight): JobDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
@@ -301,7 +319,7 @@ const SALARY_HIGH_DEPTS = new Set([
   "Val-d'Oise", "Essonne", "Seine-et-Marne",
 ]);
 
-function salaryRisk(city: CityLight): JobDimension {
+function salaryLadder(city: CityLight): JobDimension {
   const d = city.department;
   if (SALARY_HIGH_DEPTS.has(d)) {
     return {
@@ -338,6 +356,102 @@ function salaryRisk(city: CityLight): JobDimension {
   };
 }
 
+/**
+ * Palier de salaire départemental ESTIMÉ (1 / 2,5 / 4,5 / 6 / 8), indépendant
+ * des relevés. Les thèmes red flags « coûts explosifs » et « chauffage » le
+ * convertissent en une médiane départementale approchée (`SALARY_PROXY`) :
+ * le salaire mesuré, une moyenne des emplois privés situés dans la commune,
+ * n'est pas la même grandeur et aurait recalé leurs seuils en silence.
+ */
+export function estimatedDeptSalaryTier(city: CityLight): number {
+  return salaryLadder(city).score;
+}
+
+// ─── Dimensions mesurées (Insee) ──────────────────────────────────────────
+//
+// Barèmes continus par interpolation linéaire entre ancres, centrés sur la
+// valeur France du même relevé.
+
+function interpolate(x: number, anchors: readonly (readonly [number, number])[]): number {
+  if (x <= anchors[0][0]) return anchors[0][1];
+  for (let i = 1; i < anchors.length; i++) {
+    const [x1, y1] = anchors[i];
+    if (x <= x1) {
+      const [x0, y0] = anchors[i - 1];
+      return y0 + ((x - x0) / (x1 - x0)) * (y1 - y0);
+    }
+  }
+  return anchors[anchors.length - 1][1];
+}
+const round1 = (n: number) => Math.round(n * 10) / 10;
+const fr1 = (n: number) => n.toFixed(1).replace(".", ",");
+const eur = (n: number) => `${n.toLocaleString("fr-FR")} €`;
+const cmp = (v: number, ref: number, tol: number) => (v > ref + tol ? "au-dessus" : v < ref - tol ? "en dessous" : "proche");
+
+// Chômage (recensement, 15-64 ans) → score, 10 = pire. France ≈ 11,4 %.
+// « Sinistré » à partir de 18 %, « facile » sous ~9,7 %.
+const UNEMP_ANCHORS = [
+  [6, 1.0],
+  [9, 3.0],
+  [11.4, 4.5],
+  [14, 6.0],
+  [18, 7.5],
+  [25, 9.0],
+  [35, 9.5],
+] as const;
+
+function unemploymentMeasured(rate: number): JobDimension {
+  const score = round1(interpolate(rate, UNEMP_ANCHORS));
+  const where = cmp(rate, UNEMPLOYMENT_NATIONAL, 0.5);
+  return {
+    score,
+    level: levelFromScore(score),
+    reason: `${fr1(rate)} % de chômeurs parmi les actifs de 15 à 64 ans (Insee, recensement ${RP_YEAR}), ${where === "proche" ? "proche de" : where === "au-dessus" ? "au-dessus de" : "en dessous de"} la moyenne française de ${fr1(UNEMPLOYMENT_NATIONAL)} % sur la même mesure. Le recensement compte le chômage déclaré : il tourne plus haut que le taux trimestriel du BIT.`,
+  };
+}
+
+// Évolution des emplois situés dans la commune, 2017 → 2023 → score.
+// France : +6,6 %. Un recul de plus de 3 % est « sinistré ».
+const GROWTH_ANCHORS = [
+  [-10, 9.0],
+  [-3, 7.5],
+  [2, 5.5],
+  [6.6, 4.0],
+  [12, 2.5],
+  [20, 1.5],
+] as const;
+
+function dynamismMeasured(growth: number, jobs: number): JobDimension {
+  const score = round1(interpolate(growth, GROWTH_ANCHORS));
+  const sign = growth > 0 ? "+" : growth < 0 ? "−" : "";
+  return {
+    score,
+    level: levelFromScore(score),
+    reason: `${jobs.toLocaleString("fr-FR")} emplois situés dans la commune en ${RP_YEAR}, soit ${sign}${fr1(Math.abs(growth))} % depuis ${JOBS_FROM} (Insee, recensement), contre +${fr1(JOB_GROWTH_NATIONAL)} % pour la France.`,
+  };
+}
+
+// Salaire net mensuel moyen EQTP des emplois privés de la commune → score.
+// France : 2 733 € (moyenne tirée par l'Île-de-France) ; médiane des villes
+// du site ≈ 2 400 €.
+const SALARY_ANCHORS = [
+  [1950, 9.0],
+  [2150, 7.5],
+  [2350, 5.5],
+  [2550, 4.0],
+  [2900, 2.5],
+  [3400, 1.0],
+] as const;
+
+function salaryMeasured(salary: number): JobDimension {
+  const score = round1(interpolate(salary, SALARY_ANCHORS));
+  return {
+    score,
+    level: levelFromScore(score),
+    reason: `${eur(salary)} net par mois en moyenne, en équivalent temps plein, pour les emplois du secteur privé situés dans la commune (Insee, base tous salariés), contre ${eur(SALARY_NATIONAL)} pour la France. C'est une moyenne, tirée vers le haut par les hauts salaires, et le salaire du lieu de travail, pas celui des habitants.`,
+  };
+}
+
 // ─── Composite ────────────────────────────────────────────────────────────
 
 function composeSignature(e: EmploymentMarket, name: string): string {
@@ -360,10 +474,15 @@ function composeSignature(e: EmploymentMarket, name: string): string {
 }
 
 export function computeEmploymentMarket(city: CityLight): EmploymentMarket {
-  const unemployment = unemploymentRisk(city);
-  const dynamism = dynamismRisk(city);
+  const measured = cityEmploymentMeasure(city.slug);
+  const unemployment =
+    measured?.unemployment !== undefined ? unemploymentMeasured(measured.unemployment) : unemploymentLadder(city);
+  const dynamism =
+    measured?.jobGrowth !== undefined && measured.jobs !== undefined
+      ? dynamismMeasured(measured.jobGrowth, measured.jobs)
+      : dynamismLadder(city);
   const sectorMix = sectorMixRisk(city);
-  const salary = salaryRisk(city);
+  const salary = measured?.salary !== undefined ? salaryMeasured(measured.salary) : salaryLadder(city);
   // Pondération : chômage 35 % (porte d'entrée du diagnostic), salaire 25 %
   // (pouvoir d'achat), dynamisme 20 % (perspectives), mix 20 % (résilience).
   const composite =
@@ -378,6 +497,7 @@ export function computeEmploymentMarket(city: CityLight): EmploymentMarket {
     sectorMix,
     salary,
     signature: "",
+    measured,
   };
   out.signature = composeSignature(out, city.name);
   return out;

@@ -31739,7 +31739,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-paris-2026",
     title: "Working in Paris: the deepest job market in France, and what it costs you",
     metaTitle: "Working in Paris 2026 — Sectors, Pay, Job Search",
-    metaDesc: "Working in Paris in 2026: job market 7.2/10, median living standard €2,480 a month, T2 rent €1,800. The sectors that hire and the traps.",
+    metaDesc: "Working in Paris in 2026: job market 6.6/10, median living standard €2,480 a month, T2 rent €1,800. The sectors that hire and the traps.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -31749,7 +31749,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate puts Paris at 7.2/10, where 10 is the most favourable, third of the 363 French communes above 20,000 residents that the ranking covers. Treat it as an estimate: it is built from the departmental unemployment rate, business creation, the spread of local employers and departmental pay levels, not from a count of open vacancies. Next to it sits a measured figure. Insee reports a median standard of living of €29,730 a year in Paris, about €2,480 a month, which ranks 37th of the 586 communes covered, with a poverty rate of 16%. Be careful with that number: it is disposable income per consumption unit, benefits included, spread across a whole household and across residents who are retired or out of work. It is not a salary and it should never be compared with a job offer. What it does tell you is that Paris combines the highest incomes in the country with a poverty rate that is far from the lowest, because the city holds both ends of the distribution at once. The full axis breakdown is on /cities/paris/employment.",
+        body: "Our job-market score rates Paris 6.6/10, where 10 is the most favourable, joint 31st of the 363 communes above 20,000 residents in the ranking, level with nine others on the same score. Three of its four components are measured by INSEE for the commune itself: 10.5% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by −0.4% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €3,836 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. Next to it sits a measured figure. Insee reports a median standard of living of €29,730 a year in Paris, about €2,480 a month, which ranks 37th of the 586 communes covered, with a poverty rate of 16%. Be careful with that number: it is disposable income per consumption unit, benefits included, spread across a whole household and across residents who are retired or out of work. It is not a salary and it should never be compared with a job offer. What it does tell you is that Paris combines the highest incomes in the country with a poverty rate that is far from the lowest, because the city holds both ends of the distribution at once. The full axis breakdown is on /cities/paris/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -31787,17 +31787,17 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-lyon-2026",
     title: "Working in Lyon: the best-rated job market in our ranking, examined",
     metaTitle: "Working in Lyon 2026 — Sectors, Pay, Job Search",
-    metaDesc: "Working in Lyon in 2026: job market 7.5/10, first of 363 communes, T2 rent €1,000. Pharma, chemicals, banking, tech, and the traps.",
+    metaDesc: "Working in Lyon in 2026: job market 6.6/10, T2 rent €1,000. Pharma, chemicals, banking, tech, and the traps.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
     publishedAt: "2026-08-18",
     updatedAt: "2026-08-18",
-    intro: "Lyon is the one French city outside Paris where a specialist can change employer without changing region. Pharmaceuticals, industrial chemistry, banking, logistics and software all have genuine depth here, the transport score is 9/10, and a two-bed rents for €1,000 against €1,800 in Paris. It also ranks first of the 363 communes in our job-market estimate, which is a strong claim and deserves to be unpacked rather than repeated. This guide covers who hires, how the local market is entered from abroad, and what the ranking does not capture.",
+    intro: "Lyon is the one French city outside Paris where a specialist can change employer without changing region. Pharmaceuticals, industrial chemistry, banking, logistics and software all have genuine depth here, the transport score is 9/10, and a two-bed rents for €1,000 against €1,800 in Paris. On our job-market score it sits joint 31st of the 363 communes above 20,000 residents, level with Paris, Bordeaux and seven others, which says less than a headline rank would and deserves to be unpacked. This guide covers who hires, how the local market is entered from abroad, and what the ranking does not capture.",
     sections: [
       {
         heading: "First of 363, and what that means",
-        body: "Our job-market estimate rates Lyon 7.5/10, where 10 is the most favourable, first of the 363 communes above 20,000 residents in the ranking. The estimate is built from departmental unemployment, business creation, the spread of local employers and departmental pay, so it describes conditions rather than counting vacancies, and Lyon scores well on all four rather than spectacularly on one. The measured figure beside it is Insee's median standard of living: €25,430 a year, about €2,120 a month, 105th of the 586 communes covered, with a poverty rate of 16%. That figure is disposable income per consumption unit and includes benefits, retired residents and households out of work, so it is not a salary and cannot be compared with an offer. Read together, the two say something useful. Lyon is not the highest-paid city in France, it is the one where the combination of pay, rent and breadth of employers works out best. The axis detail is on /cities/lyon/employment.",
+        body: "Our job-market score rates Lyon 6.6/10, where 10 is the most favourable, joint 31st of the 363 communes above 20,000 residents in the ranking, level with nine others on the same score. Three of its four components are measured by INSEE for the commune itself: 11.1% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +6.3% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €3,014 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €25,430 a year, about €2,120 a month, 105th of the 586 communes covered, with a poverty rate of 16%. That figure is disposable income per consumption unit and includes benefits, retired residents and households out of work, so it is not a salary and cannot be compared with an offer. Read together, the two say something useful. Lyon is not the highest-paid city in France, but it is one where pay, rent and breadth of employers balance well. The axis detail is on /cities/lyon/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -31835,7 +31835,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-marseille-2026",
     title: "Working in Marseille: a two-speed market, read honestly",
     metaTitle: "Working in Marseille 2026 — Sectors, Pay, Job Search",
-    metaDesc: "Working in Marseille in 2026: job market 5.8/10, poverty rate 26%, T2 rent €820. Shipping, health, tech, and what the ranking hides.",
+    metaDesc: "Working in Marseille in 2026: job market 6.0/10, poverty rate 26%, T2 rent €820. Shipping, health, tech, and what the ranking hides.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -31845,7 +31845,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate puts Marseille at 5.8/10, where 10 is the most favourable, 156th of the 363 communes above 20,000 residents in the ranking. The weak component is unemployment, scored 7 out of 10 on difficulty at departmental level, while the spread of employers and the pay component score better. The measured figure alongside it is harsher and should not be softened: Insee reports a median standard of living of €20,600 a year, about €1,720 a month, 375th of the 586 communes covered, with a poverty rate of 26%. That is disposable income per consumption unit, benefits included, across all residents, so it is not a salary. What it does say is that more than a quarter of the city lives below the poverty line, which is the context any job offer here sits in. The axis breakdown is on /cities/marseille/employment.",
+        body: "Our job-market score rates Marseille 6.0/10, where 10 is the most favourable, joint 86th of the 363 communes above 20,000 residents in the ranking, level with fourteen others on the same score. Three of its four components are measured by INSEE for the commune itself: 13.5% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +8.1% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,709 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure alongside it is harsher and should not be softened: Insee reports a median standard of living of €20,600 a year, about €1,720 a month, 375th of the 586 communes covered, with a poverty rate of 26%. That is disposable income per consumption unit, benefits included, across all residents, so it is not a salary. What it does say is that more than a quarter of the city lives below the poverty line, which is the context any job offer here sits in. The axis breakdown is on /cities/marseille/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -31883,7 +31883,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-toulouse-2026",
     title: "Working in Toulouse: aerospace, space, and the risk of one industry",
     metaTitle: "Working in Toulouse 2026 — Aerospace, Pay, Job Search",
-    metaDesc: "Working in Toulouse in 2026: job market 5.8/10, T2 rent €850, schools 9/10. Airbus, space, IT, and the cost of a single-industry city.",
+    metaDesc: "Working in Toulouse in 2026: job market 6.3/10, T2 rent €850, schools 9/10. Airbus, space, IT, and the cost of a single-industry city.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -31893,7 +31893,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Toulouse 5.8/10, where 10 is the most favourable, 161st of the 363 communes above 20,000 residents in the ranking. That mid-table position surprises people, and the reason is the unemployment component, scored 7 out of 10 on difficulty for the department, which sits above the national average despite the industrial base. The estimate is built from departmental indicators rather than a count of vacancies, so read it as conditions, not opportunity. The measured figure beside it is Insee's median standard of living: €22,140 a year, about €1,850 a month, joint 238th of the 586 communes covered, with a poverty rate of 22%. It is disposable income per consumption unit including benefits, not a salary. Two other seed figures matter for a working newcomer: the schools axis is 9/10, the joint highest in this batch, and the population grew 7.6% between 2016 and 2022, which explains both the energy and the pressure. Full detail on /cities/toulouse/employment.",
+        body: "Our job-market score rates Toulouse 6.3/10, where 10 is the most favourable, joint 67th of the 363 communes above 20,000 residents in the ranking, level with eleven others on the same score. Three of its four components are measured by INSEE for the commune itself: 14.3% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +13.5% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,909 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €22,140 a year, about €1,850 a month, joint 238th of the 586 communes covered, with a poverty rate of 22%. It is disposable income per consumption unit including benefits, not a salary. Two other seed figures matter for a working newcomer: the schools axis is 9/10, the joint highest in this batch, and the population grew 7.6% between 2016 and 2022, which explains both the energy and the pressure. Full detail on /cities/toulouse/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -31931,7 +31931,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-bordeaux-2026",
     title: "Working in Bordeaux: what the high-speed line did to the job market",
     metaTitle: "Working in Bordeaux 2026 — Sectors, Pay, Job Search",
-    metaDesc: "Working in Bordeaux in 2026: job market 6.0/10, T2 rent €900, buying €4,500/m². Aerospace, tech, wine, and the Paris commuter effect.",
+    metaDesc: "Working in Bordeaux in 2026: job market 6.6/10, T2 rent €900, buying €4,500/m². Aerospace, tech, wine, and the Paris commuter effect.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -31941,7 +31941,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Bordeaux 6.0/10, where 10 is the most favourable, 91st of the 363 communes above 20,000 residents in the ranking. It scores steadily rather than brilliantly, with the pay component the weakest of its four parts. The estimate uses departmental unemployment, business creation, employer spread and departmental pay, so it describes conditions rather than counting vacancies. The measured figure next to it is Insee's median standard of living: €24,870 a year, about €2,070 a month, 118th of the 586 communes covered, with a poverty rate of 17%, just behind Paris and Lyon, which are both at 16%. Remember what that figure is: disposable income per consumption unit, benefits included, across all residents, not a salary. Two seed axes complete the picture for a working newcomer, remote work at 8.8/10 and transport at 7.8/10, both strong, which is exactly why the hybrid Paris arrangement took hold here. Detail on /cities/bordeaux/employment.",
+        body: "Our job-market score rates Bordeaux 6.6/10, where 10 is the most favourable, joint 31st of the 363 communes above 20,000 residents in the ranking, level with nine others on the same score. Three of its four components are measured by INSEE for the commune itself: 11.8% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +15.1% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,723 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure next to it is Insee's median standard of living: €24,870 a year, about €2,070 a month, 118th of the 586 communes covered, with a poverty rate of 17%, just behind Paris and Lyon, which are both at 16%. Remember what that figure is: disposable income per consumption unit, benefits included, across all residents, not a salary. Two seed axes complete the picture for a working newcomer, remote work at 8.8/10 and transport at 7.8/10, both strong, which is exactly why the hybrid Paris arrangement took hold here. Detail on /cities/bordeaux/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -31979,7 +31979,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-lille-2026",
     title: "Working in Lille: retail head offices, tech, and a hard labour market",
     metaTitle: "Working in Lille 2026 — Retail, Tech, Pay, Job Search",
-    metaDesc: "Working in Lille in 2026: job market 4.9/10, T2 rent €800, Brussels 35 minutes. Retail head offices, EuraTechnologies, and the traps.",
+    metaDesc: "Working in Lille in 2026: job market 5.7/10, T2 rent €800, Brussels 35 minutes. Retail head offices, EuraTechnologies, and the traps.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -31989,7 +31989,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "The hardest market in this series, and why",
-        body: "Our job-market estimate rates Lille 4.9/10, where 10 is the most favourable, 251st of the 363 communes above 20,000 residents in the ranking, the lowest position of the ten cities covered here. The unemployment component scores 7 out of 10 on difficulty and the business-creation component 5, both dragged by departmental figures. The measured figure beside it: Insee reports a median standard of living of €20,520 a year, about €1,710 a month, joint 382nd of the 586 communes covered, with a poverty rate of 27%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. Lille is a young city with a very large student population, which pushes that number down mechanically, but the post-industrial context behind it is real and the surrounding towns carry it more heavily than the city does. Detail on /cities/lille/employment.",
+        body: "Our job-market score rates Lille 5.7/10, where 10 is the most favourable, joint 118th of the 363 communes above 20,000 residents in the ranking, level with ten others on the same score. Three of its four components are measured by INSEE for the commune itself: 15.7% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +8.8% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,688 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it: Insee reports a median standard of living of €20,520 a year, about €1,710 a month, joint 382nd of the 586 communes covered, with a poverty rate of 27%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. Lille is a young city with a very large student population, which pushes that number down mechanically, but the post-industrial context behind it is real and the surrounding towns carry it more heavily than the city does. Detail on /cities/lille/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32013,7 +32013,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Housing, and the strongest cost argument in this batch",
-        body: "Rents average €580 for a studio, €800 for a two-bed and €1,080 for a three-bed, with purchase at €3,500 per square metre, tied with Marseille for the cheapest of the ten cities here. Combined with an 8.7/10 transport score, that produces a rare combination: a large city where a single salary supports a central flat without a car. Landlords still apply the three-times-rent screen and ask for a French guarantor or the state-backed Visale guarantee, and student demand makes September a bad month to arrive without something arranged. The nearby towns are cheaper again, but check the commute and the local employment picture before treating a €520 two-bed in Roubaix as a bargain: the difference in rent between communes here tracks a real difference in the local labour market, which is the same reason the departmental unemployment figure is what it is.",
+        body: "Rents average €580 for a studio, €800 for a two-bed and €1,080 for a three-bed, with purchase at €3,500 per square metre, tied with Marseille for the cheapest of the ten cities here. Combined with an 8.7/10 transport score, that produces a rare combination: a large city where a single salary supports a central flat without a car. Landlords still apply the three-times-rent screen and ask for a French guarantor or the state-backed Visale guarantee, and student demand makes September a bad month to arrive without something arranged. The nearby towns are cheaper again, but check the commute and the local employment picture before treating a €520 two-bed in Roubaix as a bargain: the difference in rent between communes here tracks a real difference in the local labour market, which is also why unemployment varies so much from one commune to the next here.",
       },
       {
         heading: "The traps worth knowing before you apply",
@@ -32027,7 +32027,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-strasbourg-2026",
     title: "Working in Strasbourg: European institutions, pharma, and Germany at ten minutes",
     metaTitle: "Working in Strasbourg 2026 — EU Jobs, Pharma, Border",
-    metaDesc: "Working in Strasbourg in 2026: job market 7.2/10, fifth of 363 communes, T2 rent €800. EU institutions, pharma, cross-border work.",
+    metaDesc: "Working in Strasbourg in 2026: job market 5.5/10, T2 rent €800. EU institutions, pharma, cross-border work.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32037,7 +32037,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Fifth of 363, and a figure that complicates it",
-        body: "Our job-market estimate rates Strasbourg 7.2/10, where 10 is the most favourable, fifth of the 363 communes above 20,000 residents in the ranking, with all four components scoring well. Now the figure that complicates it, and that we are not going to hide: Insee reports a median standard of living in the commune of €20,260 a year, about €1,690 a month, joint 404th of the 586 communes covered, with a poverty rate of 26%. The two are not contradictory, they measure different things. The estimate describes labour-market conditions across the department, where cross-border wages and the pharmaceutical industry lift the average; the Insee figure describes the residents of the city itself, which includes a large student population and districts where the European institutions are not the employer. Both belong in the decision. Detail on /cities/strasbourg/employment.",
+        body: "Our job-market score rates Strasbourg 5.5/10, where 10 is the most favourable, joint 144th of the 363 communes above 20,000 residents in the ranking, level with twelve others on the same score. Three of its four components are measured by INSEE for the commune itself: 15.5% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +7.8% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,598 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The income figure matters as much, and we are not going to soften it: Insee reports a median standard of living in the commune of €20,260 a year, about €1,690 a month, joint 404th of the 586 communes covered, with a poverty rate of 26%. That figure describes the residents of the city itself, which includes a large student population and districts where the European institutions are not the employer. Both belong in the decision. Detail on /cities/strasbourg/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32075,7 +32075,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-montpellier-2026",
     title: "Working in Montpellier: high demand, thin supply, and the arithmetic of that",
     metaTitle: "Working in Montpellier 2026 — Health, Tech, Job Search",
-    metaDesc: "Working in Montpellier in 2026: job market 5.1/10, poverty rate 28%, T2 rent €850. Health, tech and research, in an oversubscribed city.",
+    metaDesc: "Working in Montpellier in 2026: job market 5.5/10, poverty rate 28%, T2 rent €850. Health, tech and research, in an oversubscribed city.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32085,7 +32085,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "The figures, and why they are the story here",
-        body: "Our job-market estimate rates Montpellier 5.1/10, where 10 is the most favourable, 230th of the 363 communes above 20,000 residents in the ranking. One component drives that: the departmental unemployment score is 9 out of 10 on difficulty, the worst reading in this batch. The measured figures beside it are the weakest of the ten cities covered: Insee reports a median standard of living of €19,670 a year, about €1,640 a month, 449th of the 586 communes covered, with a poverty rate of 28%. That is disposable income per consumption unit, benefits included, across all residents, and a very large student population pulls it down mechanically, but the ranking is what it is. Set that against a 9.1% population rise between 2016 and 2022, the fastest here, and the market becomes legible: demand for jobs grows faster than the jobs do. Detail on /cities/montpellier/employment.",
+        body: "Our job-market score rates Montpellier 5.5/10, where 10 is the most favourable, joint 144th of the 363 communes above 20,000 residents in the ranking, level with twelve others on the same score. Three of its four components are measured by INSEE for the commune itself: 18.3% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +14.2% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,657 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figures beside it are the weakest of the ten cities covered: Insee reports a median standard of living of €19,670 a year, about €1,640 a month, 449th of the 586 communes covered, with a poverty rate of 28%. That is disposable income per consumption unit, benefits included, across all residents, and a very large student population pulls it down mechanically, but the ranking is what it is. Set that against a 9.1% population rise between 2016 and 2022, the fastest here, and the market becomes legible: jobs are growing fast, but newcomers keep arriving faster than unemployment can fall. Detail on /cities/montpellier/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32123,7 +32123,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-nice-2026",
     title: "Working in Nice: Sophia Antipolis, tourism, and a cost problem",
     metaTitle: "Working in Nice 2026 — Sophia Antipolis, Pay, Jobs",
-    metaDesc: "Working in Nice in 2026: job market 5.3/10, T2 rent €1,100, buying €5,200/m². Sophia Antipolis, tourism, Monaco, and the traps.",
+    metaDesc: "Working in Nice in 2026: job market 6.0/10, T2 rent €1,100, buying €5,200/m². Sophia Antipolis, tourism, Monaco, and the traps.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32133,7 +32133,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Nice 5.3/10, where 10 is the most favourable, 199th of the 363 communes above 20,000 residents in the ranking, with departmental unemployment the weak component at 7 out of 10 on difficulty. The measured figure beside it: Insee reports a median standard of living of €21,570 a year, about €1,800 a month, 284th of the 586 communes covered, with a poverty rate of 22%. It is disposable income per consumption unit, benefits included, not a salary. The figure that decides most moves, though, is not on that list. Our cost-of-living axis rates Nice 3.3/10, second worst in this batch after Paris, and that combination of mid-table pay with near-Parisian housing costs is the single most important thing to understand before accepting an offer. Detail on /cities/nice/employment.",
+        body: "Our job-market score rates Nice 6.0/10, where 10 is the most favourable, joint 86th of the 363 communes above 20,000 residents in the ranking, level with fourteen others on the same score. Three of its four components are measured by INSEE for the commune itself: 12.8% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +9.4% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,521 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it: Insee reports a median standard of living of €21,570 a year, about €1,800 a month, 284th of the 586 communes covered, with a poverty rate of 22%. It is disposable income per consumption unit, benefits included, not a salary. The figure that decides most moves, though, is not on that list. Our cost-of-living axis rates Nice 3.3/10, second worst in this batch after Paris, and that combination of mid-table pay with near-Parisian housing costs is the single most important thing to understand before accepting an offer. Detail on /cities/nice/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32171,7 +32171,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-rennes-2026",
     title: "Working in Rennes: tech, cyber defence, and the limits of a specialism",
     metaTitle: "Working in Rennes 2026 — Tech, Cyber, Pay, Job Search",
-    metaDesc: "Working in Rennes in 2026: job market 7.2/10, fourth of 363 communes, T2 rent €820, remote work 9/10. Tech, cyber, agrifood.",
+    metaDesc: "Working in Rennes in 2026: job market 6.1/10, T2 rent €820, remote work 9/10. Tech, cyber, agrifood.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32181,7 +32181,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Fourth of 363, and what sits behind it",
-        body: "Our job-market estimate rates Rennes 7.2/10, where 10 is the most favourable, fourth of the 363 communes above 20,000 residents in the ranking, with every component scoring well and departmental unemployment among the lowest in mainland France. As always it is an estimate built from departmental indicators rather than a count of vacancies. The measured figure beside it is more reassuring than in most cities on this list: Insee reports a median standard of living of €22,770 a year, about €1,900 a month, joint 199th of the 586 communes covered, with a poverty rate of 21%, which for a city with 67,000 students is a solid reading. That figure is disposable income per consumption unit including benefits, not a salary. Two seed axes complete the picture: remote work at 9/10, the joint highest here, and schools at 9/10. Detail on /cities/rennes/employment.",
+        body: "Our job-market score rates Rennes 6.1/10, where 10 is the most favourable, joint 79th of the 363 communes above 20,000 residents in the ranking, level with six others on the same score. Three of its four components are measured by INSEE for the commune itself: 13.8% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +11.9% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,684 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is more reassuring than in most cities on this list: Insee reports a median standard of living of €22,770 a year, about €1,900 a month, joint 199th of the 586 communes covered, with a poverty rate of 21%, which for a city with 67,000 students is a solid reading. That figure is disposable income per consumption unit including benefits, not a salary. Two seed axes complete the picture: remote work at 9/10, the joint highest here, and schools at 9/10. Detail on /cities/rennes/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32219,7 +32219,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-grenoble-2026",
     title: "Working in Grenoble: semiconductors, public research, and one valley",
     metaTitle: "Working in Grenoble 2026 — Chips, R&D, Pay",
-    metaDesc: "Working in Grenoble in 2026: job market 5.7/10, T2 rent €750, schools 9/10. STMicroelectronics, CEA, Soitec, and the cost of specialising.",
+    metaDesc: "Working in Grenoble in 2026: job market 5.8/10, T2 rent €750, schools 9/10. STMicroelectronics, CEA, Soitec, and the cost of specialising.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32229,7 +32229,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Grenoble 5.7/10, where 10 is the most favourable, joint 162nd of the 363 communes above 20,000 residents in the ranking and level with fourteen others on the same score. The estimate is built from departmental unemployment, business creation, the spread of local employers and departmental pay, so it describes conditions rather than counting vacancies, and the mid-table position reflects a department that is broader than the cluster people come for. The measured figure beside it is Insee's median standard of living: €22,140 a year, about €1,845 a month, joint 238th of the 586 communes covered, with a poverty rate of 21%. That figure is disposable income per consumption unit and includes benefits, students and households out of work, so it is not a salary and cannot be compared with an offer — in a city where students are a large share of residents it reads low for that reason alone. Two seed figures matter more to a working newcomer: the schools axis is 9/10, the highest in this batch, and the population fell 1.1% between 2016 and 2022, from 158,180 to 156,389. The axis detail is on /cities/grenoble/employment.",
+        body: "Our job-market score rates Grenoble 5.8/10, where 10 is the most favourable, joint 113th of the 363 communes above 20,000 residents in the ranking, level with four others on the same score. Three of its four components are measured by INSEE for the commune itself: 13.1% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +4.5% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €3,020 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €22,140 a year, about €1,845 a month, joint 238th of the 586 communes covered, with a poverty rate of 21%. That figure is disposable income per consumption unit and includes benefits, students and households out of work, so it is not a salary and cannot be compared with an offer — in a city where students are a large share of residents it reads low for that reason alone. Two seed figures matter more to a working newcomer: the schools axis is 9/10, the highest in this batch, and the population fell 1.1% between 2016 and 2022, from 158,180 to 156,389. The axis detail is on /cities/grenoble/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32267,7 +32267,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-rouen-2026",
     title: "Working in Rouen: chemicals, banking, and an hour from Paris",
     metaTitle: "Working in Rouen 2026 — Chemicals, Banking, Pay",
-    metaDesc: "Working in Rouen in 2026: job market 5.3/10, T2 rent €720, €2,600 per m². Sanofi, Renault Cléon, the port, and an industry in transition.",
+    metaDesc: "Working in Rouen in 2026: job market 5.2/10, T2 rent €720, €2,600 per m². Sanofi, Renault Cléon, the port, and an industry in transition.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32277,7 +32277,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Rouen 5.3/10, where 10 is the most favourable, joint 195th of the 363 communes above 20,000 residents in the ranking and level with twelve others on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, so it describes conditions rather than counting vacancies, and the mid-table result is exactly what a department with a strong tertiary core and a struggling industrial valley produces. The measured figure beside it is Insee's median standard of living: €21,330 a year, about €1,778 a month, joint 309th of the 586 communes covered, with a poverty rate of 23%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. One seed figure is worth carrying into the housing decision: the population grew 5.6% between 2016 and 2022, from 110,117 to 116,331, which is fast for a city of this size and is largely people arriving from the Paris region. Full detail on /cities/rouen/employment.",
+        body: "Our job-market score rates Rouen 5.2/10, where 10 is the most favourable, joint 183rd of the 363 communes above 20,000 residents in the ranking, level with nine others on the same score. Three of its four components are measured by INSEE for the commune itself: 15.0% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +8.1% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,553 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €21,330 a year, about €1,778 a month, joint 309th of the 586 communes covered, with a poverty rate of 23%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. One seed figure is worth carrying into the housing decision: the population grew 5.6% between 2016 and 2022, from 110,117 to 116,331, which is fast for a city of this size and is largely people arriving from the Paris region. Full detail on /cities/rouen/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32315,7 +32315,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-reims-2026",
     title: "Working in Reims: champagne, services, and 45 minutes from Paris",
     metaTitle: "Working in Reims 2026 — Champagne, Services, Pay",
-    metaDesc: "Working in Reims in 2026: job market 5.3/10, T2 rent €680, €2,300 per m². Champagne houses, regional banking, and a two-tier salary market.",
+    metaDesc: "Working in Reims in 2026: job market 4.9/10, T2 rent €680, €2,300 per m². Champagne houses, regional banking, and a two-tier salary market.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32325,7 +32325,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Reims 5.3/10, where 10 is the most favourable, joint 195th of the 363 communes above 20,000 residents in the ranking and level with twelve others on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, so it describes conditions rather than counting vacancies. The measured figure beside it is harsher and should not be softened: Insee reports a median standard of living of €20,210 a year, about €1,684 a month, joint 410th of the 586 communes covered, with a poverty rate of 24%. That is disposable income per consumption unit including benefits, so it is not a salary — but a city that hosts one of the most profitable agricultural appellations in the world and sits in the bottom third of French communes on standard of living is telling you something about how the value is distributed. One more seed figure: the population fell 2.5% between 2016 and 2022, from 183,113 to 178,478. Full detail on /cities/reims/employment.",
+        body: "Our job-market score rates Reims 4.9/10, where 10 is the most favourable, joint 212th of the 363 communes above 20,000 residents in the ranking, level with eighteen others on the same score. Three of its four components are measured by INSEE for the commune itself: 16.5% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +4.2% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,594 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is harsher and should not be softened: Insee reports a median standard of living of €20,210 a year, about €1,684 a month, joint 410th of the 586 communes covered, with a poverty rate of 24%. That is disposable income per consumption unit including benefits, so it is not a salary — but a city that hosts one of the most profitable agricultural appellations in the world and sits in the bottom third of French communes on standard of living is telling you something about how the value is distributed. One more seed figure: the population fell 2.5% between 2016 and 2022, from 183,113 to 178,478. Full detail on /cities/reims/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32363,7 +32363,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-saint-etienne-2026",
     title: "Working in Saint-Étienne: cheap rent, design, and one shrinking employer",
     metaTitle: "Working in Saint-Étienne 2026 — Industry, Design, Pay",
-    metaDesc: "Working in Saint-Étienne in 2026: job market 5.5/10, T2 rent €580, €1,500 per m². Design, industry, and the lowest housing costs of any big French city.",
+    metaDesc: "Working in Saint-Étienne in 2026: job market 4.1/10, T2 rent €580, €1,500 per m². Design, industry, and the lowest housing costs of any big French city.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32373,7 +32373,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Saint-Étienne 5.5/10, where 10 is the most favourable, joint 179th of the 363 communes above 20,000 residents in the ranking and level with fourteen others on the same score. The estimate is built from departmental unemployment, business creation, the spread of local employers and departmental pay; here the weak component is the industrial mix, scored 6.5 out of 10 on difficulty, which is what a basin still converting from heavy industry looks like in the data. The measured figure beside it is the one to hold on to: Insee reports a median standard of living of €19,010 a year, about €1,584 a month, 495th of the 586 communes covered, with a poverty rate of 28% — the lowest income and the highest poverty rate of the ten cities covered in this batch. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary, but it is the context every local offer sits in. Our French guide to the same market also notes that cadres are about 19% of local employment, among the lowest shares of any large French metropolitan area. Full detail on /cities/saint-etienne/employment.",
+        body: "Our job-market score rates Saint-Étienne 4.1/10, where 10 is the most favourable, joint 293rd of the 363 communes above 20,000 residents in the ranking, level with five others on the same score. Three of its four components are measured by INSEE for the commune itself: 19.0% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +3.7% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,616 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is the one to hold on to: Insee reports a median standard of living of €19,010 a year, about €1,584 a month, 495th of the 586 communes covered, with a poverty rate of 28% — the lowest income and the highest poverty rate of the ten cities covered in this batch. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary, but it is the context every local offer sits in. Our French guide to the same market also notes that cadres are about 19% of local employment, among the lowest shares of any large French metropolitan area. Full detail on /cities/saint-etienne/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32411,7 +32411,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-toulon-2026",
     title: "Working in Toulon: the navy, the arsenal, and very little else",
     metaTitle: "Working in Toulon 2026 — Navy, Defence, Pay",
-    metaDesc: "Working in Toulon in 2026: job market 5.0/10, T2 rent €780, €3,200 per m². Naval Group, the fleet, marine research, and a clearance problem.",
+    metaDesc: "Working in Toulon in 2026: job market 5.3/10, T2 rent €780, €3,200 per m². Naval Group, the fleet, marine research, and a clearance problem.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32421,7 +32421,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Toulon 5.0/10, where 10 is the most favourable, joint 234th of the 363 communes above 20,000 residents in the ranking and level with fifteen others on the same score — the weakest position in this batch. The driver is unemployment, scored 7 out of 10 on difficulty at departmental level, the worst single component of any city covered here. The estimate is built from departmental indicators rather than a count of vacancies. The measured figure beside it is Insee's median standard of living: €20,960 a year, about €1,747 a month, 346th of the 586 communes covered, with a poverty rate of 22%. That is disposable income per consumption unit including benefits, so it is not a salary. Two seed figures complete the picture and pull in opposite directions: the population grew 6.6% between 2016 and 2022, from 169,634 to 180,834, the fastest growth in this batch, while the schools axis is 4.5/10 and the safety axis 4.1/10, both the lowest here. Full detail on /cities/toulon/employment.",
+        body: "Our job-market score rates Toulon 5.3/10, where 10 is the most favourable, joint 173rd of the 363 communes above 20,000 residents in the ranking, level with nine others on the same score. Three of its four components are measured by INSEE for the commune itself: 13.5% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +8.8% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,448 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €20,960 a year, about €1,747 a month, 346th of the 586 communes covered, with a poverty rate of 22%. That is disposable income per consumption unit including benefits, so it is not a salary. Two seed figures complete the picture and pull in opposite directions: the population grew 6.6% between 2016 and 2022, from 169,634 to 180,834, the fastest growth in this batch, while the schools axis is 4.5/10 and the safety axis 4.1/10, both the lowest here. Full detail on /cities/toulon/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32459,17 +32459,17 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-angers-2026",
     title: "Working in Angers: plant science, electronics, and a low unemployment rate",
     metaTitle: "Working in Angers 2026 — Plant Science, Tech, Pay",
-    metaDesc: "Working in Angers in 2026: job market 6.0/10, T2 rent €750, schools 7.9/10. Végépolys, Atos, the teaching hospital, and a narrow specialism.",
+    metaDesc: "Working in Angers in 2026: job market 5.3/10, T2 rent €750, schools 7.9/10. Végépolys, Atos, the teaching hospital, and a narrow specialism.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
     publishedAt: "2026-08-19",
     updatedAt: "2026-08-19",
-    intro: "Angers scores better on our job-market estimate than any other city in this batch, which is not what most foreign readers expect from a place they have probably not heard of. It is the leading horticultural and plant-breeding cluster in France, it has a substantial electronics and IT site, a teaching hospital, and an hour and a half of high-speed train to Paris. It is also a narrow market: the specialisms that make it strong do not transfer easily, and the sedentary local labour market is slow to open. This guide covers who hires, what the ranking means, and where the ceiling is.",
+    intro: "Angers is a place most foreign readers have probably not heard of, and its jobs grew faster than in any other city in this batch: +13.6% between 2017 and 2023. It is the leading horticultural and plant-breeding cluster in France, it has a substantial electronics and IT site, a teaching hospital, and an hour and a half of high-speed train to Paris. It is also a narrow market: the specialisms that make it strong do not transfer easily, and the sedentary local labour market is slow to open. This guide covers who hires, what the ranking means, and where the ceiling is.",
     sections: [
       {
         heading: "First of this batch, and what that means",
-        body: "Our job-market estimate rates Angers 6.0/10, where 10 is the most favourable, joint 86th of the 363 communes above 20,000 residents in the ranking — the best position in this batch, though level with sixty-one other communes on exactly the same score, which is worth saying plainly: the estimate resolves conditions, not fine differences. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, and the strong component here is unemployment, scored 3 out of 10 on difficulty, among the best departmental readings in the country. The measured figure beside it is Insee's median standard of living: €21,450 a year, about €1,788 a month, joint 292nd of the 586 communes covered, with a poverty rate of 21%. That is disposable income per consumption unit including benefits, in a city with a large student population, so it is not a salary. Two further seed figures: the schools axis is 7.9/10 and the remote-work axis 7.8/10, both towards the top of this batch, and the population grew 4.2% between 2016 and 2022, from 151,229 to 157,555. Full detail on /cities/angers/employment.",
+        body: "Our job-market score rates Angers 5.3/10, where 10 is the most favourable, joint 173rd of the 363 communes above 20,000 residents in the ranking, level with nine others on the same score. Three of its four components are measured by INSEE for the commune itself: 15.4% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +13.6% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,454 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €21,450 a year, about €1,788 a month, joint 292nd of the 586 communes covered, with a poverty rate of 21%. That is disposable income per consumption unit including benefits, in a city with a large student population, so it is not a salary. Two further seed figures: the schools axis is 7.9/10 and the remote-work axis 7.8/10, both towards the top of this batch, and the population grew 4.2% between 2016 and 2022, from 151,229 to 157,555. Full detail on /cities/angers/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32507,7 +32507,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-dijon-2026",
     title: "Working in Dijon: food, health, banking, and 95 minutes from Paris",
     metaTitle: "Working in Dijon 2026 — Food, Health, Banking, Pay",
-    metaDesc: "Working in Dijon in 2026: job market 5.8/10, poverty rate 17%, T2 rent €720. Food processing, the teaching hospital, and a very sedentary market.",
+    metaDesc: "Working in Dijon in 2026: job market 5.6/10, poverty rate 17%, T2 rent €720. Food processing, the teaching hospital, and a very sedentary market.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32517,7 +32517,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Dijon 5.8/10, where 10 is the most favourable, joint 148th of the 363 communes above 20,000 residents in the ranking and level with thirteen others on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay; the strong component here is pay, scored 2.5 out of 10 on difficulty, one of the better departmental readings in this batch. The measured figure beside it is the best in this batch: Insee reports a median standard of living of €22,720 a year, about €1,893 a month, 201st of the 586 communes covered, with a poverty rate of 17% — the highest income and the lowest poverty rate of the ten cities covered here. That is disposable income per consumption unit including benefits, so it is not a salary, but a low poverty rate in a city of this size describes a genuinely even social fabric rather than a statistical artefact. The population grew 3.1% between 2016 and 2022, from 155,090 to 159,941. Full detail on /cities/dijon/employment.",
+        body: "Our job-market score rates Dijon 5.6/10, where 10 is the most favourable, joint 129th of the 363 communes above 20,000 residents in the ranking, level with fourteen others on the same score. Three of its four components are measured by INSEE for the commune itself: 12.8% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +8.7% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,534 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is the best in this batch: Insee reports a median standard of living of €22,720 a year, about €1,893 a month, 201st of the 586 communes covered, with a poverty rate of 17% — the highest income and the lowest poverty rate of the ten cities covered here. That is disposable income per consumption unit including benefits, so it is not a salary, but a low poverty rate in a city of this size describes a genuinely even social fabric rather than a statistical artefact. The population grew 3.1% between 2016 and 2022, from 155,090 to 159,941. Full detail on /cities/dijon/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32555,7 +32555,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-nancy-2026",
     title: "Working in Nancy: ten engineering schools and not enough employers",
     metaTitle: "Working in Nancy 2026 — Health, Research, Pay",
-    metaDesc: "Working in Nancy in 2026: job market 4.8/10, T2 rent €710, €2,400 per m². The teaching hospital, public research, and a graduate surplus.",
+    metaDesc: "Working in Nancy in 2026: job market 4.4/10, T2 rent €710, €2,400 per m². The teaching hospital, public research, and a graduate surplus.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32565,7 +32565,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Nancy 4.8/10, where 10 is the most favourable, joint 254th of the 363 communes above 20,000 residents in the ranking and level with four others on the same score — the joint weakest position in this batch alongside Metz. The component dragging it down is the sector mix, scored 6.5 out of 10 on difficulty, which is the data's way of describing a basin whose private employer base is narrow. The estimate is built from departmental indicators, not from a count of vacancies. The measured figure beside it is more flattering and worth reading carefully: Insee reports a median standard of living of €22,360 a year, about €1,863 a month, joint 220th of the 586 communes covered, with a poverty rate of 22%. That is disposable income per consumption unit including benefits; the second-best income figure in this batch sitting next to a 22% poverty rate describes a city that is comfortable in the middle and poor at the edges. The population was essentially flat between 2016 and 2022, at 104,387 residents. Full detail on /cities/nancy/employment.",
+        body: "Our job-market score rates Nancy 4.4/10, where 10 is the most favourable, joint 264th of the 363 communes above 20,000 residents in the ranking, level with seven others on the same score. Three of its four components are measured by INSEE for the commune itself: 14.5% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +2.4% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,508 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is more flattering and worth reading carefully: Insee reports a median standard of living of €22,360 a year, about €1,863 a month, joint 220th of the 586 communes covered, with a poverty rate of 22%. That is disposable income per consumption unit including benefits; the second-best income figure in this batch sitting next to a 22% poverty rate describes a city that is comfortable in the middle and poor at the edges. The population was essentially flat between 2016 and 2022, at 104,387 residents. Full detail on /cities/nancy/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32603,7 +32603,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-clermont-ferrand-2026",
     title: "Working in Clermont-Ferrand: one company, and everything around it",
     metaTitle: "Working in Clermont-Ferrand 2026 — Michelin, Pay",
-    metaDesc: "Working in Clermont-Ferrand in 2026: job market 5.3/10, T2 rent €680, nature 7.2/10. Michelin, Limagrain, and the risk of a single employer.",
+    metaDesc: "Working in Clermont-Ferrand in 2026: job market 5.4/10, T2 rent €680, nature 7.2/10. Michelin, Limagrain, and the risk of a single employer.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32613,7 +32613,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Clermont-Ferrand 5.3/10, where 10 is the most favourable, joint 195th of the 363 communes above 20,000 residents in the ranking and level with twelve others on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, so it describes conditions rather than counting vacancies. The measured figure beside it is less comfortable than the local reputation suggests: Insee reports a median standard of living of €20,430 a year, about €1,703 a month, 390th of the 586 communes covered, with a poverty rate of 25%. That is disposable income per consumption unit including benefits, across all residents of the commune, in a city with a large student population — so it is not a salary, and the metropolitan area is better off than the commune alone. It is still the third lowest income figure in this batch. Two seed figures pull the other way: the nature axis is 7.2/10, the highest here, and the population grew 3.5% between 2016 and 2022, from 142,686 to 147,751. Full detail on /cities/clermont-ferrand/employment.",
+        body: "Our job-market score rates Clermont-Ferrand 5.4/10, where 10 is the most favourable, joint 157th of the 363 communes above 20,000 residents in the ranking, level with fifteen others on the same score. Three of its four components are measured by INSEE for the commune itself: 15.4% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +5.9% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,811 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is less comfortable than the local reputation suggests: Insee reports a median standard of living of €20,430 a year, about €1,703 a month, 390th of the 586 communes covered, with a poverty rate of 25%. That is disposable income per consumption unit including benefits, across all residents of the commune, in a city with a large student population — so it is not a salary, and the metropolitan area is better off than the commune alone. It is still the third lowest income figure in this batch. Two seed figures pull the other way: the nature axis is 7.2/10, the highest here, and the population grew 3.5% between 2016 and 2022, from 142,686 to 147,751. Full detail on /cities/clermont-ferrand/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32651,7 +32651,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "working-in-metz-2026",
     title: "Working in Metz: two labour markets, one of them in Luxembourg",
     metaTitle: "Working in Metz 2026 — Industry, Cross-Border Work",
-    metaDesc: "Working in Metz in 2026: job market 4.8/10, T2 rent €680, €2,300 per m². Local industry, and the 34-day tax cap on cross-border remote work.",
+    metaDesc: "Working in Metz in 2026: job market 4.7/10, T2 rent €680, €2,300 per m². Local industry, and the 34-day tax cap on cross-border remote work.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32661,7 +32661,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Metz 4.8/10, where 10 is the most favourable, joint 254th of the 363 communes above 20,000 residents in the ranking and level with four others on the same score — joint weakest in this batch alongside Nancy. The component pulling it down is the sector mix, scored 6.5 out of 10 on difficulty, which reflects an unfinished industrial conversion in the valleys north of the city. The estimate is departmental, and the departmental picture is not the whole picture here, for the reason given in the next section but one. The measured figure beside it is Insee's median standard of living: €20,940 a year, about €1,745 a month, joint 348th of the 586 communes covered, with a poverty rate of 24%. That is disposable income per consumption unit including benefits, and it does include the cross-border earners who live in the commune, which makes it a genuine reading of the city rather than of the French labour market alone. The population grew 3.2% between 2016 and 2022, from 117,890 to 121,695. Full detail on /cities/metz/employment.",
+        body: "Our job-market score rates Metz 4.7/10, where 10 is the most favourable, joint 242nd of the 363 communes above 20,000 residents in the ranking, level with five others on the same score. Three of its four components are measured by INSEE for the commune itself: 14.3% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +7.5% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,468 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €20,940 a year, about €1,745 a month, joint 348th of the 586 communes covered, with a poverty rate of 24%. That is disposable income per consumption unit including benefits, and it does include the cross-border earners who live in the commune, which makes it a genuine reading of the city rather than of the French labour market alone. The population grew 3.2% between 2016 and 2022, from 117,890 to 121,695. Full detail on /cities/metz/employment.",
       },
       {
         heading: "The sectors that actually hire, locally",
@@ -32700,7 +32700,7 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Working in Caen: hospitals, dairy, and a particle accelerator",
     metaTitle: "Working in Caen 2026 — Health, Food, Research",
     metaDesc:
-      "Working in Caen in 2026: job market 6.0/10, T2 rent €700, €2,500 per m². The teaching hospital, Normandy dairy, GANIL, and no direct TGV to Paris.",
+      "Working in Caen in 2026: job market 5.1/10, T2 rent €700, €2,500 per m². The teaching hospital, Normandy dairy, GANIL, and no direct TGV to Paris.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32711,7 +32711,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Caen 6.0/10, where 10 is the most favourable, joint 86th of the 363 communes above 20,000 residents in the ranking and level with 61 others on exactly the same score. That tie is the honest way to read the figure: the estimate resolves conditions, not fine differences between towns. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, and Calvados scores well on the unemployment component. The measured figure beside it is Insee's median standard of living: €21,600 a year, about €1,800 a month, 282nd of the 586 communes covered, with a poverty rate of 21%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary and not what a cadre earns. One more measured number belongs in the housing decision: the population grew 2.8% between 2016 and 2022, from 105,403 to 108,398, recovering almost exactly the ground it had lost since 2011. Full detail on /cities/caen/employment.",
+        body: "Our job-market score rates Caen 5.1/10, where 10 is the most favourable, joint 193rd of the 363 communes above 20,000 residents in the ranking, level with twelve others on the same score. Three of its four components are measured by INSEE for the commune itself: 15.0% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +7.8% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,510 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €21,600 a year, about €1,800 a month, 282nd of the 586 communes covered, with a poverty rate of 21%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary and not what a cadre earns. One more measured number belongs in the housing decision: the population grew 2.8% between 2016 and 2022, from 105,403 to 108,398, recovering almost exactly the ground it had lost since 2011. Full detail on /cities/caen/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32750,7 +32750,7 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Working in Brest: the navy, the ocean, and a security clearance",
     metaTitle: "Working in Brest 2026 — Navy, Ocean Science, Pay",
     metaDesc:
-      "Working in Brest in 2026: job market 6.0/10, T2 rent €650, €2,500 per m². Naval Group, the navy, Ifremer, and the clearance that gates half the jobs.",
+      "Working in Brest in 2026: job market 5.4/10, T2 rent €650, €2,500 per m². Naval Group, the navy, Ifremer, and the clearance that gates half the jobs.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32761,7 +32761,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Brest 6.0/10, where 10 is the most favourable, joint 86th of the 363 communes above 20,000 residents and level with 61 others on the same score — the tie matters, because the estimate resolves conditions rather than ranking towns finely against each other. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, and Finistère scores strongly on unemployment, which is what pushes Brest into the upper third. The measured figure beside it is Insee's median standard of living: €21,420 a year, about €1,785 a month, joint 296th of the 586 communes covered, with a poverty rate of 19% — the lowest in this batch of nine cities after Aix-en-Provence, and a real difference rather than a rounding one. The population is close to flat: 140,993 in 2022 against 139,342 in 2016, a rise of 1.2%, and almost exactly the 2011 figure. A stable population with low unemployment describes a market that renews slowly, which is good for those inside it and slow for those outside. Full detail on /cities/brest/employment.",
+        body: "Our job-market score rates Brest 5.4/10, where 10 is the most favourable, joint 157th of the 363 communes above 20,000 residents in the ranking, level with fifteen others on the same score. Three of its four components are measured by INSEE for the commune itself: 13.5% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +6.6% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,577 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €21,420 a year, about €1,785 a month, joint 296th of the 586 communes covered, with a poverty rate of 19% — the lowest in this batch of nine cities after Aix-en-Provence, and a real difference rather than a rounding one. The population is close to flat: 140,993 in 2022 against 139,342 in 2016, a rise of 1.2%, and almost exactly the 2011 figure. A stable population with jobs growing at the national pace describes a market that renews slowly, which is good for those inside it and slow for those outside. Full detail on /cities/brest/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32811,7 +32811,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Tours 5.3/10, where 10 is the most favourable, joint 195th of the 363 communes above 20,000 residents and level with twelve others on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, so it describes conditions rather than counting vacancies, and mid-table is what a diversified but medium-sized basin produces. The measured figure beside it is Insee's median standard of living: €21,250 a year, about €1,771 a month, 318th of the 586 communes covered, with a poverty rate of 21%. That is disposable income per consumption unit including benefits, across all residents — not a salary, and in a commuter city it deserves a caveat of its own, because it blends people on Paris pay with people on local pay and reports the middle. Population grew 1.5% between 2016 and 2022, from 136,565 to 138,668, continuing a slow rise that has run since 2011. Full detail on /cities/tours/employment.",
+        body: "Our job-market score rates Tours 5.3/10, where 10 is the most favourable, joint 173rd of the 363 communes above 20,000 residents in the ranking, level with nine others on the same score. Three of its four components are measured by INSEE for the commune itself: 14.4% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +7.1% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,584 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €21,250 a year, about €1,771 a month, 318th of the 586 communes covered, with a poverty rate of 21%. That is disposable income per consumption unit including benefits, across all residents — not a salary, and in a commuter city it deserves a caveat of its own, because it blends people on Paris pay with people on local pay and reports the middle. Population grew 1.5% between 2016 and 2022, from 136,565 to 138,668, continuing a slow rise that has run since 2011. Full detail on /cities/tours/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32861,7 +32861,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Orléans 4.9/10, where 10 is the most favourable, joint 250th of the 363 communes above 20,000 residents and level with three others on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, and the component pulling Orléans down is pay rather than unemployment — the Loiret sits below the national average on median departmental earnings even though it sits below it on joblessness too. The measured figure beside it is Insee's median standard of living: €21,370 a year, about €1,781 a month, 305th of the 586 communes covered, with a poverty rate of 22%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. Population grew 1.4% between 2016 and 2022, from 114,782 to 116,344, a slow rise that has run since 2011 without accelerating. Read that against the research jobs below and the picture is consistent: a stable city with a few unusually specialised employers rather than a growing one. Full detail on /cities/orleans/employment.",
+        body: "Our job-market score rates Orléans 4.9/10, where 10 is the most favourable, joint 212th of the 363 communes above 20,000 residents in the ranking, level with eighteen others on the same score. Three of its four components are measured by INSEE for the commune itself: 14.6% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +3.5% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,454 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €21,370 a year, about €1,781 a month, 305th of the 586 communes covered, with a poverty rate of 22%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. Population grew 1.4% between 2016 and 2022, from 114,782 to 116,344, a slow rise that has run since 2011 without accelerating. Read that against the research jobs below and the picture is consistent: a stable city with a few unusually specialised employers rather than a growing one. Full detail on /cities/orleans/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32900,7 +32900,7 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Working in Le Mans: insurance, car parts, and one week a year that changes everything",
     metaTitle: "Working in Le Mans 2026 — Insurance, Industry, TGV",
     metaDesc:
-      "Working in Le Mans in 2026: job market 4.9/10, T2 rent €650, €1,900 per m². Covéa and mutual insurance, car components, and 55 minutes to Paris.",
+      "Working in Le Mans in 2026: job market 4.8/10, T2 rent €650, €1,900 per m². Covéa and mutual insurance, car components, and 55 minutes to Paris.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32911,7 +32911,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Le Mans 4.9/10, where 10 is the most favourable, joint 250th of the 363 communes above 20,000 residents and level with three others on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, and as in Orléans it is the pay component that holds the score down rather than the unemployment one — the Sarthe sits below the national average on median departmental earnings. The measured figure beside it is Insee's median standard of living: €21,180 a year, about €1,765 a month, 326th of the 586 communes covered, with a poverty rate of 22%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary and it does not capture the insurance grids described below. Population grew 1.5% between 2016 and 2022, from 142,991 to 145,182, recovering the ground lost between 2011 and 2016. Set that beside the cheapest square metre in this batch, at €1,900, and the arithmetic of moving here starts to make sense. Full detail on /cities/le-mans/employment.",
+        body: "Our job-market score rates Le Mans 4.8/10, where 10 is the most favourable, joint 231st of the 363 communes above 20,000 residents in the ranking, level with ten others on the same score. Three of its four components are measured by INSEE for the commune itself: 15.7% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +5.0% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,465 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €21,180 a year, about €1,765 a month, 326th of the 586 communes covered, with a poverty rate of 22%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary and it does not capture the insurance grids described below. Population grew 1.5% between 2016 and 2022, from 142,991 to 145,182, recovering the ground lost between 2011 and 2016. Set that beside the cheapest square metre in this batch, at €1,900, and the arithmetic of moving here starts to make sense. Full detail on /cities/le-mans/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32950,7 +32950,7 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Working in Amiens: food processing, factories, and a squeeze between two cities",
     metaTitle: "Working in Amiens 2026 — Industry, Food, Salaries",
     metaDesc:
-      "Working in Amiens in 2026: job market 4.3/10, T2 rent €680, €2,200 per m². Sugar and food processing, the teaching hospital, and cheap rent with hard maths.",
+      "Working in Amiens in 2026: job market 4.4/10, T2 rent €680, €2,200 per m². Sugar and food processing, the teaching hospital, and cheap rent with hard maths.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -32961,7 +32961,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Amiens 4.3/10, where 10 is the most favourable, joint 289th of the 363 communes above 20,000 residents and level with one other on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, and Amiens is marked down on two of those four at once — unemployment and pay — which is what produces a score in the bottom quarter. The measured figures beside it are blunter still: Insee puts the median standard of living at €19,650 a year, about €1,638 a month, 451st of the 586 communes covered, with a poverty rate of 26%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary, but a quarter of residents below the poverty line is a description of the city and not a statistical artefact. Population is almost flat: 134,780 in 2022 against 133,755 in 2016, up 0.8%, and barely changed since 2011. None of this makes Amiens unliveable; it makes it a place you move to for a specific job rather than in the hope of finding one. Full detail on /cities/amiens/employment.",
+        body: "Our job-market score rates Amiens 4.4/10, where 10 is the most favourable, joint 264th of the 363 communes above 20,000 residents in the ranking, level with seven others on the same score. Three of its four components are measured by INSEE for the commune itself: 18.8% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +4.2% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,481 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figures beside it are blunter still: Insee puts the median standard of living at €19,650 a year, about €1,638 a month, 451st of the 586 communes covered, with a poverty rate of 26%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary, but a quarter of residents below the poverty line is a description of the city and not a statistical artefact. Population is almost flat: 134,780 in 2022 against 133,755 in 2016, up 0.8%, and barely changed since 2011. None of this makes Amiens unliveable; it makes it a place you move to for a specific job rather than in the hope of finding one. Full detail on /cities/amiens/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -33000,7 +33000,7 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Working in Le Havre: the port, the refinery, and an industry changing shape",
     metaTitle: "Working in Le Havre 2026 — Port, Industry, Energy",
     metaDesc:
-      "Working in Le Havre in 2026: job market 5.3/10, T2 rent €650, €2,000 per m². France's leading container port, refining in transition, and shift work.",
+      "Working in Le Havre in 2026: job market 4.6/10, T2 rent €650, €2,000 per m². France's leading container port, refining in transition, and shift work.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -33011,7 +33011,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Le Havre 5.3/10, where 10 is the most favourable, joint 195th of the 363 communes above 20,000 residents and level with twelve others on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, and it works from Seine-Maritime as a whole — our French guide notes the Le Havre employment zone itself runs above the departmental figure, with considerably higher rates in the northern estates. Read the score as a description of the department rather than of every quarter. The measured figure beside it is Insee's median standard of living: €20,180 a year, about €1,682 a month, 413th of the 586 communes covered, with a poverty rate of 23%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. The population number is the one to sit with: 166,462 in 2022 against 170,352 in 2016 and 174,156 in 2011, a fall of 2.3% over the recent window and the only decline of that size in this batch. Full detail on /cities/le-havre/employment.",
+        body: "Our job-market score rates Le Havre 4.6/10, where 10 is the most favourable, joint 248th of the 363 communes above 20,000 residents in the ranking, level with seven others on the same score. Three of its four components are measured by INSEE for the commune itself: 18.5% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +3.1% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,618 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figure beside it is Insee's median standard of living: €20,180 a year, about €1,682 a month, 413th of the 586 communes covered, with a poverty rate of 23%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. The population number is the one to sit with: 166,462 in 2022 against 170,352 in 2016 and 174,156 in 2011, a fall of 2.3% over the recent window and the only decline of that size in this batch. Full detail on /cities/le-havre/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -33050,7 +33050,7 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Working in Nîmes: sunshine, Roman stone, and the hardest job market in this series",
     metaTitle: "Working in Nîmes 2026 — Jobs, Salaries, Reality",
     metaDesc:
-      "Working in Nîmes in 2026: job market 3.9/10, T2 rent €720, €2,800 per m². Food processing, public administration, high unemployment, and 40°C summers.",
+      "Working in Nîmes in 2026: job market 4.3/10, T2 rent €720, €2,800 per m². Food processing, public administration, high unemployment, and 40°C summers.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -33061,7 +33061,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Nîmes 3.9/10, where 10 is the most favourable, joint 298th of the 363 communes above 20,000 residents and level with eleven others on the same score. It is built from departmental unemployment, business creation, the spread of employers and departmental pay, and the component driving the result is unemployment: the Gard scores in the worst band of the four, while pay and business creation sit mid-range. That distinction matters, because it means the problem is the number of jobs rather than what they pay. The measured figures beside it are the starkest in this series. Insee puts the median standard of living at €18,760 a year, about €1,563 a month, 512th of the 586 communes covered, with a poverty rate of 31% — close to a third of residents. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary, but it describes a city with deep internal inequality rather than a uniformly poor one. Population is essentially flat and slightly down: 150,444 in 2022 against 151,001 in 2016. Full detail on /cities/nimes/employment.",
+        body: "Our job-market score rates Nîmes 4.3/10, where 10 is the most favourable, joint 272nd of the 363 communes above 20,000 residents in the ranking, level with nine others on the same score. Three of its four components are measured by INSEE for the commune itself: 18.0% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +7.8% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,303 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figures beside it are the starkest in this series. Insee puts the median standard of living at €18,760 a year, about €1,563 a month, 512th of the 586 communes covered, with a poverty rate of 31% — close to a third of residents. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary, but it describes a city with deep internal inequality rather than a uniformly poor one. Population is essentially flat and slightly down: 150,444 in 2022 against 151,001 in 2016. Full detail on /cities/nimes/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -33089,7 +33089,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "The traps worth knowing before you apply",
-        body: "First, competition, which is the honest headline. High departmental unemployment means a lot of candidates for few qualified local posts, and our French guide reports recruiters here receiving several times the number of applications per vacancy that their Montpellier colleagues see. A speculative move is a bad idea in this city in a way it is not in Caen or Brest. Second, depth: outside food and drink, public administration, health and rail the market is very thin, and luxury, market finance, audiovisual, hardware, international consulting, aerospace and biotech are Montpellier, Marseille or Lyon problems. Third, the two-tier market — a large share of Nîmes cadres actually work in Montpellier or Marseille on regional grids, which sit above the strictly local ones, so compare before signing. Fourth, the heat, described above, which is a working condition and not a lifestyle detail. Fifth, and this is the one nobody plans for: the seasonal rhythm of a city built around two ferias and a summer tourist season means several service sectors expect weekend and evening availability at fixed points in the year, and those expectations are rarely written into the job advertisement.",
+        body: "First, competition, which is the honest headline. High unemployment, 18% of the labour force in the 2023 census, means a lot of candidates for few qualified local posts, and our French guide reports recruiters here receiving several times the number of applications per vacancy that their Montpellier colleagues see. A speculative move is a bad idea in this city in a way it is not in Caen or Brest. Second, depth: outside food and drink, public administration, health and rail the market is very thin, and luxury, market finance, audiovisual, hardware, international consulting, aerospace and biotech are Montpellier, Marseille or Lyon problems. Third, the two-tier market — a large share of Nîmes cadres actually work in Montpellier or Marseille on regional grids, which sit above the strictly local ones, so compare before signing. Fourth, the heat, described above, which is a working condition and not a lifestyle detail. Fifth, and this is the one nobody plans for: the seasonal rhythm of a city built around two ferias and a summer tourist season means several service sectors expect weekend and evening availability at fixed points in the year, and those expectations are rarely written into the job advertisement.",
       },
     ],
     relatedCities: ["nimes", "ales", "arles", "avignon", "montpellier"],
@@ -33100,7 +33100,7 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Working in Aix-en-Provence: law, consulting, fusion research, and the rent",
     metaTitle: "Working in Aix-en-Provence 2026 — Law, Consulting",
     metaDesc:
-      "Working in Aix-en-Provence in 2026: job market 5.5/10, T2 rent €1,050, €5,000 per m². Audit and law firms, Airbus Helicopters, ITER, and the housing squeeze.",
+      "Working in Aix-en-Provence in 2026: job market 6.5/10, T2 rent €1,050, €5,000 per m². Audit and law firms, Airbus Helicopters, ITER, and the housing squeeze.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -33111,7 +33111,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Aix-en-Provence 5.5/10, where 10 is the most favourable, joint 179th of the 363 communes above 20,000 residents and level with fourteen others on the same score. That mid-table result is a genuine average of opposites rather than a bland outcome: the Bouches-du-Rhône scores badly on unemployment and well on both business creation and departmental pay, and the estimate reports the middle. The measured figures beside it are the strongest in this batch. Insee puts the median standard of living at €25,810 a year, about €2,151 a month, joint 92nd of the 586 communes covered, with a poverty rate of 15% — the lowest here by four points. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. And the population is growing faster than anywhere else in this series: 147,933 in 2022 against 143,006 in 2016, up 3.4%, on top of a rise since 2011. High incomes, low poverty, growing population and the housing figures below are one story, not four. Full detail on /cities/aix-en-provence/employment.",
+        body: "Our job-market score rates Aix-en-Provence 6.5/10, where 10 is the most favourable, joint 41st of the 363 communes above 20,000 residents in the ranking, level with nine others on the same score. Three of its four components are measured by INSEE for the commune itself: 11.2% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +15.8% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,788 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figures beside it are the strongest in this batch. Insee puts the median standard of living at €25,810 a year, about €2,151 a month, joint 92nd of the 586 communes covered, with a poverty rate of 15% — the lowest here by four points. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. And the population is growing faster than anywhere else in this series: 147,933 in 2022 against 143,006 in 2016, up 3.4%, on top of a rise since 2011. High incomes, low poverty, growing population and the housing figures below are one story, not four. Full detail on /cities/aix-en-provence/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -33156,7 +33156,7 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Working in Nantes: aerospace, shipyards, tech, and a city that keeps arriving",
     metaTitle: "Working in Nantes 2026 — Sectors, Pay, Job Search",
     metaDesc:
-      "Working in Nantes in 2026: joint top of 363 communes on our job-market estimate, aerospace and shipbuilding, French Tech, €850 two-bed, remote work 9/10.",
+      "Working in Nantes in 2026: job market 6.4/10, aerospace and shipbuilding, French Tech, €850 two-bed, remote work 9/10.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -33167,7 +33167,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Joint top of 363, and what sits behind it",
-        body: "Our job-market estimate rates Nantes 7.5/10, where 10 is the most favourable. That is the best value of the 363 communes above 20,000 residents in the ranking, tied with Lyon on the same score, so read it as joint top rather than as first place: at one decimal the estimate does not separate the two, and we do not publish a rank the measure has not earned. All four components score well, which is the point. Departmental unemployment stood at 6.3% in Loire-Atlantique in the fourth quarter of 2024, against 7.5% nationally. The measured figures beside it are more sober. Insee reports a median standard of living of €24,170 a year, about €2,010 a month, 139th of the 586 communes covered, with a poverty rate of 17%. That figure is disposable income per consumption unit including benefits, not a salary; our French guide to the same market reports a median net salary of €2,050 a month from a separate Insee source. Detail on /cities/nantes/employment.",
+        body: "Our job-market score rates Nantes 6.4/10, where 10 is the most favourable, joint 51st of the 363 communes above 20,000 residents in the ranking, level with fifteen others on the same score. Three of its four components are measured by INSEE for the commune itself: 13.1% of residents aged 15 to 64 in the labour force reported being unemployed in the 2023 census, against 11.4% for France on the same measure; the number of jobs located in the city changed by +12.7% between 2017 and 2023, against +6.6% nationally; and private-sector jobs there pay €2,805 net a month on average, full-time equivalent, against €2,733 nationally. The fourth, the sector mix, is still an estimate, and none of it counts vacancies. The measured figures beside it are more sober. Insee reports a median standard of living of €24,170 a year, about €2,010 a month, 139th of the 586 communes covered, with a poverty rate of 17%. That figure is disposable income per consumption unit including benefits, not a salary; our French guide to the same market reports a median net salary of €2,050 a month from a separate Insee source. Detail on /cities/nantes/employment.",
       },
       {
         heading: "The sectors that actually hire",

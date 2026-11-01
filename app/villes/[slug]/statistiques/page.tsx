@@ -7,7 +7,8 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { computeEmploymentMarket } from "@/lib/employment-market";
+import { computeEmploymentMarket, type EmploymentMarket } from "@/lib/employment-market";
+import { EMPLOYMENT_CREDIT, RP_YEAR, SALARY_NATIONAL, UNEMPLOYMENT_NATIONAL } from "@/lib/city-employment";
 import { computeDemography } from "@/lib/demography";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatNumber } from "@/lib/utils";
@@ -57,8 +58,46 @@ function popBucket(pop: number | null): PopBucket {
   return { label: "petite commune", hint: "< 5 000 hab.", emoji: "🏡" };
 }
 
+type Tone = "haut" | "correct" | "moyen" | "bas" | "tres-bas";
+
+/** Couleur d'un sous-score emploi mesuré (10 = pire) sur la palette de qualité. */
+function toneFromScore(score: number): Tone {
+  if (score <= 2.5) return "haut";
+  if (score <= 4) return "correct";
+  if (score <= 5.5) return "moyen";
+  if (score <= 7.5) return "bas";
+  return "tres-bas";
+}
+
+const frPct = (n: number) => n.toFixed(1).replace(".", ",");
+
+/** Valeur mesurée (Insee) quand elle existe, sinon la fourchette estimée. */
+function salaryFigure(emp: EmploymentMarket): { range: string; note: string; tone: Tone; measured: boolean } {
+  const v = emp.measured?.salary;
+  if (v === undefined) return { ...salaryBracket(emp.salary.score), measured: false };
+  const where = v > SALARY_NATIONAL + 50 ? "au-dessus" : v < SALARY_NATIONAL - 50 ? "en dessous" : "proche";
+  return {
+    range: `${formatNumber(v)} €/mois net`,
+    note: `moyenne des emplois privés situés dans la commune, en équivalent temps plein, ${where === "proche" ? "proche de" : where === "au-dessus" ? "au-dessus de" : "en dessous de"} la France (${formatNumber(SALARY_NATIONAL)} €)`,
+    tone: toneFromScore(emp.salary.score),
+    measured: true,
+  };
+}
+
+function unemploymentFigure(emp: EmploymentMarket): { range: string; note: string; tone: Tone; measured: boolean } {
+  const v = emp.measured?.unemployment;
+  if (v === undefined) return { ...unemploymentBracket(emp.unemployment.score), measured: false };
+  const where = v > UNEMPLOYMENT_NATIONAL + 0.5 ? "au-dessus" : v < UNEMPLOYMENT_NATIONAL - 0.5 ? "en dessous" : "proche";
+  return {
+    range: `${frPct(v)} %`,
+    note: `chômeurs parmi les actifs de 15 à 64 ans de la commune, ${where === "proche" ? "proche de" : where === "au-dessus" ? "au-dessus de" : "en dessous de"} la France sur la même mesure (${frPct(UNEMPLOYMENT_NATIONAL)} %)`,
+    tone: toneFromScore(emp.unemployment.score),
+    measured: true,
+  };
+}
+
 // Salaire net médian dept, INSEE DADS — fourchettes cohérentes avec
-// SALARY_HIGH/GOOD/LOW/VERY_LOW_DEPTS de lib/employment-market.ts.
+// SALARY_HIGH/GOOD/LOW/VERY_LOW_DEPTS de lib/employment-market.ts (repli).
 function salaryBracket(score: number): { range: string; note: string; tone: "haut" | "correct" | "moyen" | "bas" | "tres-bas" } {
   if (score <= 1.5) return { range: "> 2 400 €/mois net", note: "au-dessus de la médiane nationale — grande couronne parisienne", tone: "haut" };
   if (score <= 3) return { range: "2 100 – 2 300 €/mois net", note: "légèrement au-dessus de la médiane nationale", tone: "correct" };
@@ -137,8 +176,8 @@ export default async function StatistiquesPage({ params }: Props) {
   const emp = computeEmploymentMarket(city);
   const demo = computeDemography(city);
   const bucket = popBucket(cityPopulation(city.slug)?.pop2022 ?? city.population);
-  const salary = salaryBracket(emp.salary.score);
-  const unemp = unemploymentBracket(emp.unemployment.score);
+  const salary = salaryFigure(emp);
+  const unemp = unemploymentFigure(emp);
   const ageing = ageingBracket(demo.ageing.score);
   const income = cityIncome(city.slug);
   const pop = cityPopulation(city.slug);
@@ -177,11 +216,15 @@ export default async function StatistiquesPage({ params }: Props) {
               ? `, et le taux de pauvreté de ${String(income.povertyRate).replace(".", ",")} %`
               : ""
           }. C'est un revenu disponible (salaires et prestations, impôts déduits) rapporté à la composition du ménage, pas un salaire. Source : ${INCOME_CREDIT}.`
-        : `Le niveau de vie médian de ${city.name} n'est pas publié par l'INSEE (secret statistique ou commune hors champ Filosofi). À défaut, le salaire net mensuel médian du département (${city.department}) se situe autour de ${salary.range} — ${salary.note}.`,
+        : salary.measured
+          ? `Le niveau de vie médian de ${city.name} n'est pas publié par l'INSEE (secret statistique ou commune hors champ Filosofi). À défaut, le salaire net mensuel moyen des emplois privés situés dans la commune est de ${salary.range} (${EMPLOYMENT_CREDIT}) : c'est le salaire du lieu de travail, pas un revenu des habitants.`
+          : `Le niveau de vie médian de ${city.name} n'est pas publié par l'INSEE (secret statistique ou commune hors champ Filosofi). À défaut, le salaire net mensuel médian du département (${city.department}) se situe autour de ${salary.range} — ${salary.note}.`,
     },
     {
       q: `Quel est le taux de chômage à ${city.name} ?`,
-      a: `Le taux de chômage départemental de ${city.department} est estimé à ${unemp.range} — ${unemp.note}. Source : INSEE, taux de chômage trimestriel par département (T4 2024). Le taux communal n'est pas publié séparément par l'INSEE.`,
+      a: unemp.measured
+        ? `À ${city.name}, ${unemp.range} des actifs de 15 à 64 ans se déclarent au chômage (recensement Insee ${RP_YEAR}), contre ${frPct(UNEMPLOYMENT_NATIONAL)} % pour la France sur la même mesure. Le chômage du recensement est déclaratif : il tourne plus haut que le taux trimestriel du BIT, publié par zone d'emploi et non par commune.`
+        : `Le taux de chômage départemental de ${city.department} est estimé à ${unemp.range} — ${unemp.note}. Source : INSEE, taux de chômage trimestriel par département (T4 2024).`,
     },
     {
       q: `${city.name} est-elle une ville jeune ou vieillissante ?`,
@@ -213,9 +256,11 @@ export default async function StatistiquesPage({ params }: Props) {
           Synthèse des chiffres-clés utiles pour situer {city.name} : population,
           salaire net médian, taux de chômage, structure d&apos;âge et trajectoire
           démographique. Population, niveau de vie et part des 60 ans et plus sont{" "}
-          <strong>mesurés</strong> sur la commune ; le salaire médian, le chômage et le
-          dynamisme sont des <strong>fourchettes départementales estimées</strong>, calées
-          sur les ordres de grandeur publiés par l&apos;{" "}
+          <strong>mesurés</strong> sur la commune
+          {emp.measured
+            ? " ; le chômage et le salaire moyen des emplois de la commune aussi (Insee). Seul le mix sectoriel de la fiche emploi reste estimé, à partir des repères publiés par l'"
+            : " ; le salaire médian, le chômage et le dynamisme sont des fourchettes départementales estimées, calées sur les ordres de grandeur publiés par l'"}
+          {" "}
           <a
             href="https://www.insee.fr/fr/statistiques"
             target="_blank"
@@ -224,12 +269,12 @@ export default async function StatistiquesPage({ params }: Props) {
           >
             INSEE
           </a>{" "}
-          (RP, DADS, chômage trimestriel) sans reprendre ces séries.
+          {emp.measured ? "." : " (RP, DADS, chômage trimestriel) sans reprendre ces séries."}
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Mesuré : population, niveau de vie, âges</Badge>
-          <Badge>Fourchettes départementales</Badge>
+          <Badge>{emp.measured ? "Mesuré : population, niveau de vie, âges, chômage, salaires" : "Mesuré : population, niveau de vie, âges"}</Badge>
+          {!emp.measured && <Badge>Fourchettes départementales</Badge>}
         </div>
 
         {/* Hero — population */}
@@ -390,15 +435,15 @@ export default async function StatistiquesPage({ params }: Props) {
           Salaire, emploi, structure d&apos;âge
         </h2>
         <p className="text-xs text-[var(--text-tertiary)] mt-1">
-          Ces trois indicateurs ne sont publiés qu&apos;au niveau départemental.
-          Les fourchettes reflètent la moyenne du département — pas la valeur
-          exacte de la commune.
+          {emp.measured
+            ? `Chômage et salaire : Insee, recensement ${RP_YEAR} et base tous salariés, à la commune. Le chômage du recensement est déclaratif et tourne plus haut que le taux trimestriel du BIT.`
+            : "Salaire et chômage sont ici des fourchettes départementales estimées, pas la valeur exacte de la commune."}
         </p>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
           <div className={`rounded-2xl border p-4 ${TONE_BG[salary.tone]}`}>
             <div className="flex items-baseline justify-between mb-2">
               <div className="text-sm font-semibold text-[var(--text-primary)]">
-                Salaire net médian
+                {salary.measured ? "Salaire net moyen" : "Salaire net médian"}
               </div>
               <div className={`text-xs font-bold uppercase ${TONE_COLOR[salary.tone]}`}>
                 {salary.tone === "haut"
@@ -416,8 +461,10 @@ export default async function StatistiquesPage({ params }: Props) {
               {salary.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {salary.note}. Estimation à partir de nos indices, calée sur les
-              fourchettes INSEE DADS du département de {city.department}.
+              {salary.note}.{" "}
+              {salary.measured
+                ? "Salaire du lieu de travail : il ne dit pas ce que gagnent les habitants qui travaillent ailleurs."
+                : `Estimation à partir de nos indices, calée sur les fourchettes INSEE DADS du département de ${city.department}.`}
             </p>
           </div>
 
@@ -442,9 +489,10 @@ export default async function StatistiquesPage({ params }: Props) {
               {unemp.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {unemp.note}. Fourchette estimée à partir de nos indices, calée sur
-              l&apos;ordre de grandeur du taux trimestriel INSEE du département — le taux
-              publié n&apos;est pas repris, et il n&apos;existe pas à la commune.
+              {unemp.note}.{" "}
+              {unemp.measured
+                ? `Source : Insee, recensement ${RP_YEAR}.`
+                : "Fourchette estimée à partir de nos indices, calée sur l'ordre de grandeur du taux trimestriel INSEE du département — le taux publié n'est pas repris."}
             </p>
           </div>
 

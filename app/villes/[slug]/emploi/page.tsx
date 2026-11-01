@@ -14,6 +14,16 @@ import {
   type JobDimension,
 } from "@/lib/employment-market";
 import { borderCommute } from "@/lib/profile-pages";
+import {
+  BTS_SOURCE_URL,
+  JOB_GROWTH_NATIONAL,
+  JOBS_FROM,
+  RP_SOURCE_URL,
+  RP_YEAR,
+  SALARY_NATIONAL,
+  SALARY_YEAR,
+  UNEMPLOYMENT_NATIONAL,
+} from "@/lib/city-employment";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta, fitTitle } from "@/lib/brand";
 import { cityAlternates } from "@/lib/i18n";
@@ -41,7 +51,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
       title: `Emploi à ${city.name}`,
-      description: `Chômage, dynamisme entrepreneurial, mix sectoriel, salaire médian — estimation communale, pas le taux publié pour la commune.`,
+      description: e.measured
+        ? `Chômage (recensement), évolution de l'emploi et salaires relevés par l'Insee ; mix sectoriel estimé.`
+        : `Chômage, dynamisme entrepreneurial, mix sectoriel, salaire médian — estimation communale, pas le taux publié pour la commune.`,
     },
   };
 }
@@ -71,6 +83,8 @@ export default async function EmploiPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
   const e = computeEmploymentMarket(city);
+  const m = e.measured;
+  const fr1 = (n: number) => n.toFixed(1).replace(".", ",");
   // Le pôle d'emploi étranger le plus proche, quand il y en a un dans le champ du
   // barème (89 villes sur 540). Sert uniquement à décider si le renvoi frontalier
   // en bas de page a un sens ici : aucun kilométrage n'est publié, il vit sur
@@ -87,7 +101,9 @@ export default async function EmploiPage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `Quel est le taux de chômage à ${city.name} ?`,
-      a: e.unemployment.reason + ` Ce niveau est estimé : il range le département dans un palier calé sur l'ordre de grandeur du taux trimestriel INSEE, il ne reprend pas le taux publié. Les séries réelles sont sur insee.fr/fr/statistiques.`,
+      a: e.measured?.unemployment !== undefined
+        ? e.unemployment.reason
+        : e.unemployment.reason + ` Ce niveau est estimé : il range le département dans un palier calé sur l'ordre de grandeur du taux trimestriel INSEE, il ne reprend pas le taux publié. Les séries réelles sont sur insee.fr/fr/statistiques.`,
     },
     {
       q: `Est-il facile de trouver un emploi à ${city.name} ?`,
@@ -124,6 +140,16 @@ export default async function EmploiPage({ params }: Props) {
             Emploi & marché du travail à {city.name}
           </h1>
         </div>
+        {m ? (
+          <p className="mt-3 text-base text-[var(--text-secondary)]">
+            Quatre dimensions du marché du travail local : chômage, dynamisme, mix sectoriel
+            (résilience) et salaires. Trois sont <strong>mesurées</strong> pour {city.name}{" "}
+            par l&apos;Insee : le chômage des habitants au recensement, l&apos;évolution des
+            emplois situés dans la commune et le salaire moyen de ces emplois dans le
+            secteur privé. Le mix sectoriel reste <strong>estimé</strong> d&apos;après le
+            département et le profil de la ville.
+          </p>
+        ) : (
         <p className="mt-3 text-base text-[var(--text-secondary)]">
           Synthèse pédagogique des quatre dimensions clés du marché du travail local :
           chômage, dynamisme entrepreneurial, mix sectoriel (résilience), salaire net
@@ -134,10 +160,20 @@ export default async function EmploiPage({ params }: Props) {
           <strong>sans reprendre aucune de ces séries</strong>. Ce n&apos;est donc ni le taux
           de chômage publié pour {city.name}, ni un salaire médian relevé sur place.
         </p>
+        )}
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Estimation structurelle</Badge>
-          <Badge>Cadres de référence : INSEE · DARES · SIRENE</Badge>
+          {m ? (
+            <>
+              <Badge>Mesuré : Insee, recensement {RP_YEAR} · salaires {SALARY_YEAR}</Badge>
+              <Badge>Mix sectoriel : estimation</Badge>
+            </>
+          ) : (
+            <>
+              <Badge>Estimation structurelle</Badge>
+              <Badge>Cadres de référence : INSEE · DARES · SIRENE</Badge>
+            </>
+          )}
         </div>
         </div>
       </section>
@@ -160,13 +196,59 @@ export default async function EmploiPage({ params }: Props) {
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{e.signature}</p>
         </div>
 
+        {m && (
+          <>
+            <h2 className="mt-10 text-xl font-bold text-[var(--text-primary)]">Les relevés</h2>
+            <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {m.unemployment !== undefined && (
+                <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                  <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">{fr1(m.unemployment)} %</div>
+                  <div className="mt-1 text-xs text-[var(--text-secondary)]">
+                    de chômeurs parmi les actifs de 15 à 64 ans (France : {fr1(UNEMPLOYMENT_NATIONAL)} %, même mesure)
+                  </div>
+                </div>
+              )}
+              {m.jobs !== undefined && m.jobGrowth !== undefined && (
+                <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                  <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
+                    {m.jobGrowth > 0 ? "+" : m.jobGrowth < 0 ? "−" : ""}
+                    {fr1(Math.abs(m.jobGrowth))} %
+                  </div>
+                  <div className="mt-1 text-xs text-[var(--text-secondary)]">
+                    d&apos;emplois dans la commune depuis {JOBS_FROM}, {m.jobs.toLocaleString("fr-FR")} en {RP_YEAR} (France : +{fr1(JOB_GROWTH_NATIONAL)} %)
+                  </div>
+                </div>
+              )}
+              {m.salary !== undefined && (
+                <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                  <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">{m.salary.toLocaleString("fr-FR")} €</div>
+                  <div className="mt-1 text-xs text-[var(--text-secondary)]">
+                    net par mois en moyenne, emplois privés situés dans la commune, en équivalent temps plein (France : {SALARY_NATIONAL.toLocaleString("fr-FR")} €)
+                  </div>
+                </div>
+              )}
+            </div>
+            <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+              Sources :{" "}
+              <a href={RP_SOURCE_URL} target="_blank" rel="noreferrer" className="underline">
+                Insee, recensement de la population {RP_YEAR}
+              </a>{" "}
+              ·{" "}
+              <a href={BTS_SOURCE_URL} target="_blank" rel="noreferrer" className="underline">
+                Insee, base tous salariés {SALARY_YEAR}
+              </a>
+              . Le chômage du recensement est déclaratif et tourne plus haut que le taux trimestriel du BIT.
+            </p>
+          </>
+        )}
+
         {/* 4 dimensions */}
         <h2 className="mt-10 text-xl font-bold text-[var(--text-primary)]">Les quatre dimensions</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <JobBlock dim={e.unemployment} label="Chômage — palier estimé" />
-          <JobBlock dim={e.dynamism} label="Dynamisme — palier estimé" />
-          <JobBlock dim={e.sectorMix} label="Mix sectoriel / résilience" />
-          <JobBlock dim={e.salary} label="Salaire — palier estimé" />
+          <JobBlock dim={e.unemployment} label={m?.unemployment !== undefined ? "Chômage — relevé" : "Chômage — palier estimé"} />
+          <JobBlock dim={e.dynamism} label={m?.jobGrowth !== undefined ? "Dynamisme — évolution de l'emploi" : "Dynamisme — palier estimé"} />
+          <JobBlock dim={e.sectorMix} label="Mix sectoriel / résilience — estimé" />
+          <JobBlock dim={e.salary} label={m?.salary !== undefined ? "Salaires — relevé" : "Salaire — palier estimé"} />
         </div>
         </div>
       </section>
@@ -178,39 +260,34 @@ export default async function EmploiPage({ params }: Props) {
         <div className="mt-3 rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
-              <strong className="text-[var(--text-primary)]">Chômage (35 %) :</strong> le
-              département est rangé dans un palier calé sur l&apos;ordre de grandeur du taux
-              trimestriel INSEE (moyenne France métropolitaine ~7,3 %, DROM en tension
-              chronique au-delà de 15 %). Le taux publié n&apos;est pas repris, et il ne
-              descend de toute façon pas à la commune.
+              <strong className="text-[var(--text-primary)]">Chômage (35 %) :</strong>{" "}
+              {m?.unemployment !== undefined
+                ? `mesuré : part des chômeurs parmi les actifs de 15 à 64 ans qui habitent la commune, au recensement ${RP_YEAR}. C'est le chômage déclaré, plus haut que le taux du BIT publié chaque trimestre par zone d'emploi : la référence est donc la France sur la même mesure (${fr1(UNEMPLOYMENT_NATIONAL)} %). Barème continu : sous ~9,7 %, niveau « facile » ; à partir de 18 %, « sinistré ».`
+                : "le département est rangé dans un palier calé sur l'ordre de grandeur du taux trimestriel INSEE (moyenne France métropolitaine ~7,3 %, DROM en tension chronique au-delà de 15 %). Le taux publié n'est pas repris."}
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Dynamisme (20 %) :</strong>{" "}
-              création nette d&apos;établissements estimée au département dans l&apos;esprit
-              des flux SIRENE, pondérée par la taille de la commune. Grandes métropoles et littoraux attractifs au-dessus, communes
-              rurales en déclin en-dessous.
+              {m?.jobGrowth !== undefined
+                ? `mesuré : évolution du nombre d'emplois situés dans la commune entre ${JOBS_FROM} et ${RP_YEAR} (recensement), contre +${fr1(JOB_GROWTH_NATIONAL)} % pour la France. Le taux de création d'entreprises a été écarté : il est gonflé par l'auto-entreprenariat contraint (livraison, VTC) et classerait « dynamiques » des communes où l'emploi salarié manque.`
+                : "création nette d'établissements estimée au département dans l'esprit des flux SIRENE, pondérée par la taille de la commune. Grandes métropoles et littoraux attractifs au-dessus, communes rurales en déclin en dessous."}
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Mix sectoriel (20 %) :</strong>{" "}
-              diversification du tissu économique. Pénalise mono-tourisme (saisonnalité),
+              <strong className="text-[var(--text-primary)]">estimé</strong> : diversification du tissu économique. Pénalise mono-tourisme (saisonnalité),
               ancien bassin mono-industriel en reconversion, valorise les grandes métropoles
               et les économies équilibrées.
             </li>
             <li>
-              <strong className="text-[var(--text-primary)]">Salaire (25 %) :</strong> salaire
-              rangé en paliers départementaux calés sur les ordres de grandeur INSEE DADS
-              (moyenne France ~2 100 €/mois, Paris et petite couronne au-delà de 2 400 €,
-              DROM et départements ruraux sous 1 850 €). Ce n&apos;est pas un salaire relevé
-              à {city.name}.
+              <strong className="text-[var(--text-primary)]">Salaire (25 %) :</strong>{" "}
+              {m?.salary !== undefined
+                ? `mesuré : salaire net mensuel moyen, en équivalent temps plein, des emplois du secteur privé situés dans la commune (base tous salariés ${SALARY_YEAR}). C'est le salaire du lieu de travail, pas celui des habitants, et une moyenne : la France est à ${SALARY_NATIONAL.toLocaleString("fr-FR")} €, tirée par l'Île-de-France, la ville médiane du site autour de 2 400 €.`
+                : `salaire rangé en paliers départementaux calés sur les ordres de grandeur INSEE DADS (moyenne France ~2 100 €/mois, Paris et petite couronne au-delà de 2 400 €, DROM et départements ruraux sous 1 850 €). Ce n'est pas un salaire relevé à ${city.name}.`}
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Ces quatre scores sont des <strong>estimations</strong> construites au
-            département, pas des relevés : aucun taux de chômage, aucun flux SIRENE et aucun
-            salaire médian ne sont ingérés ici. Le marché local varie d&apos;ailleurs
-            fortement à l&apos;intérieur d&apos;un même département (préfecture contre canton
-            rural). Pour les offres en temps réel, consultez France Travail, Apec et
-            Hellowork.
+            {m
+              ? "Le mix sectoriel reste une estimation. Les relevés décrivent la commune, pas tout le bassin d'emploi : une ville-dortoir peut afficher peu d'emplois et un salaire moyen bas alors que ses habitants travaillent à côté. Pour les offres en temps réel, consultez France Travail, Apec et Hellowork."
+              : "Ces quatre scores sont des estimations construites au département, pas des relevés : aucun taux de chômage, aucun flux SIRENE et aucun salaire médian ne sont ingérés pour cette commune. Pour les offres en temps réel, consultez France Travail, Apec et Hellowork."}
           </p>
         </div>
         </div>

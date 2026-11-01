@@ -48,11 +48,11 @@ export default function CadreDeViePage() {
     },
     {
       q: "Comment l'Index Cadre de Vie est-il calculé ?",
-      a: "L'index combine trois sous-indices déterministes : (1) Environnement (35 %) — agrégat qualité air, bruit, stress hydrique, risques naturels (F40-F44) ; (2) Santé (30 %) — accès aux soins MG/spé/urgences/pharma (F47) ; (3) Emploi (35 %) — chômage INSEE, dynamisme SIRENE, mix sectoriel, salaire DADS (F50). Chaque sous-indice est ramené sur 10 (10 = bon) et pondéré.",
+      a: "L'index combine trois sous-indices déterministes : (1) Environnement (35 %) — agrégat qualité air, bruit, stress hydrique, risques naturels (F40-F44) ; (2) Santé (30 %) — accès aux soins : généralistes (APL DREES), urgences et pharmacies (Insee) mesurés, spécialistes estimés ; (3) Emploi (35 %) — chômage (recensement), évolution de l'emploi et salaires (Insee) mesurés, mix sectoriel estimé. Chaque sous-indice est ramené sur 10 (10 = bon) et pondéré.",
     },
     {
       q: "Pourquoi 15 000 habitants minimum ?",
-      a: "Sous ce seuil, certains indicateurs (NO2, vie nocturne, dynamisme SIRENE) sont peu pertinents et le classement deviendrait trompeur. Toutes les fiches villes restent accessibles individuellement via /villes/[slug] quelle que soit la population.",
+      a: "Sous ce seuil, certains indicateurs (NO2, vie nocturne, emplois situés dans la commune) sont peu pertinents et le classement deviendrait trompeur. Toutes les fiches villes restent accessibles individuellement via /villes/[slug] quelle que soit la population.",
     },
     {
       q: "Cette pondération est-elle universelle ?",

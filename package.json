@@ -36,6 +36,7 @@
     "sport-spots:stats": "node scripts/city-sport-spots.mjs stats",
     "income": "node scripts/city-income.mjs",
     "healthcare": "node scripts/city-healthcare.mjs",
+    "employment": "node scripts/city-employment.mjs",
     "population": "node scripts/city-population.mjs",
     "biodiversity": "node scripts/city-biodiversity.mjs",
     "biodiversity:stats": "node scripts/city-biodiversity.mjs stats",

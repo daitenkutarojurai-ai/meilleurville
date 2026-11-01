@@ -16,7 +16,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Marché du travail en France · meilleures villes 2026",
   description:
-    "Classement des villes françaises selon le marché du travail : chômage, dynamisme, mix sectoriel, salaire médian. Estimation départementale, pas les taux publiés.",
+    "Classement des villes françaises selon le marché du travail : chômage, emploi, salaires mesurés par l'Insee, mix sectoriel estimé.",
   alternates: pathAlternates("/emploi", "/employment"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Marché du travail en France · meilleures villes 2026",
     description:
-      "Top 30 marchés favorables vs. top 20 marchés sinistrés. Estimation départementale, pas les taux publiés.",
+      "Top 30 marchés favorables vs. top 20 marchés difficiles. Chômage, emploi et salaires mesurés par l'Insee.",
   },
 };
 
@@ -56,7 +56,7 @@ export default function EmploymentHubPage() {
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : taux de chômage INSEE T4 2024 par dept (35 %), salaire net médian INSEE DADS (25 %), dynamisme création SIRENE (20 %), mix sectoriel et résilience (20 %). Score 0-10, 10 = marché du travail dynamique. C'est une estimation : chaque département est rangé dans des paliers calés sur les ordres de grandeur INSEE, DADS, SIRENE et DARES, mais aucune de ces séries n'est ingérée — ce n'est ni un taux de chômage publié, ni un salaire relevé commune par commune.",
+      a: "Composite agrégeant 4 dimensions : chômage des 15-64 ans au recensement Insee 2023 (35 %, mesuré), salaire net moyen des emplois privés situés dans la commune, base tous salariés 2024 (25 %, mesuré), évolution des emplois situés dans la commune entre 2017 et 2023 (20 %, mesuré), mix sectoriel et résilience (20 %, estimé). Score 0-10, 10 = marché du travail dynamique. Le chômage du recensement est déclaratif et tourne plus haut que le taux trimestriel du BIT (France : 11,4 % sur cette mesure). Mamoudzou et Pierrefitte-sur-Seine, hors champ, gardent une estimation.",
     },
     {
       q: "Où trouver les offres d'emploi en temps réel ?",
@@ -80,15 +80,15 @@ export default function EmploymentHubPage() {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions clés du marché du travail local :
-          chômage, dynamisme entrepreneurial, mix sectoriel (résilience), salaire net
-          médian. Score 0-10, 10 = marché du travail dynamique — les quatre niveaux sont
-          <strong>estimés</strong> au département, pas relevés commune par commune.
-          Filtre 15 000 habitants minimum pour pertinence des indicateurs départementaux.
+          chômage, dynamisme, mix sectoriel (résilience) et salaires. Score 0-10, 10 = marché
+          du travail dynamique. Le chômage, l&apos;évolution de l&apos;emploi et les salaires
+          sont <strong>mesurés</strong> commune par commune par l&apos;Insee ; le mix sectoriel
+          est <strong>estimé</strong>. Filtre 15 000 habitants minimum.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Estimation structurelle</Badge>
-          <Badge>Cadres de référence : INSEE · DARES · SIRENE · DADS</Badge>
+          <Badge>Mesuré : Insee, recensement 2023 · salaires 2024</Badge>
+          <Badge>Mix sectoriel : estimation</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération chômage 35 % · salaire 25 % · dynamisme 20 % · mix 20 %</Badge>
         </div>
@@ -156,9 +156,9 @@ export default function EmploymentHubPage() {
           Top 20 — villes au marché le plus difficile
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Communes ≥ 15 000 hab. dont le département cumule un palier de chômage élevé, des salaires bas et un faible
-          création nette d&apos;entreprises. Marché tendu, transition économique souvent
-          en cours.
+          Communes ≥ 15 000 hab. qui cumulent un chômage élevé, des salaires bas et des emplois
+          qui stagnent ou reculent sur place. Marché tendu, transition économique souvent en
+          cours.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -209,34 +209,36 @@ export default function EmploymentHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Chômage (35 %)</strong> —
-              le département est rangé dans un palier calé sur l&apos;ordre de grandeur du
-              taux trimestriel INSEE (moyenne France métropolitaine ~7,3 %, DROM en tension
-              chronique au-delà de 15 %). Le taux publié n&apos;est pas repris.
+              <strong className="text-[var(--text-primary)]">mesuré</strong> : part des
+              chômeurs parmi les actifs de 15 à 64 ans qui habitent la commune, au recensement
+              Insee 2023. C&apos;est le chômage déclaré, plus haut que le taux trimestriel du
+              BIT : la référence est la France sur la même mesure, 11,4 %.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Salaire (25 %)</strong> —
-              paliers départementaux calés sur les ordres de grandeur INSEE DADS (moyenne
-              France ~2 100 €/mois, Paris et petite couronne au-delà de 2 400 €, DROM et
-              ruraux sous 1 850 €). Aucun salaire n&apos;est relevé commune par commune.
+              <strong className="text-[var(--text-primary)]">mesuré</strong> : salaire net
+              mensuel moyen en équivalent temps plein des emplois du secteur privé situés dans
+              la commune (base tous salariés 2024). Salaire du lieu de travail, et moyenne :
+              France 2 733 €, ville médiane du site autour de 2 400 €.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Dynamisme (20 %)</strong> —
-              création nette d&apos;établissements estimée au département dans l&apos;esprit
-              des flux SIRENE, pondérée par la taille de la commune. Métropoles et littoraux
-              attractifs au-dessus, ruraux en déclin en-dessous.
+              <strong className="text-[var(--text-primary)]">mesuré</strong> : évolution des
+              emplois situés dans la commune entre 2017 et 2023 (France : +6,6 %). Le taux de
+              création d&apos;entreprises a été écarté, gonflé par l&apos;auto-entreprenariat
+              contraint (livraison, VTC).
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Mix sectoriel (20 %)</strong> —
-              diversification du tissu. Pénalité mono-tourisme (saisonnalité), ancien
+              <strong className="text-[var(--text-primary)]">estimé</strong> : diversification du tissu. Pénalité mono-tourisme (saisonnalité), ancien
               bassin mono-industriel en reconversion, valorise diversification métropole.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Ce classement trie des <strong>estimations</strong> construites au département,
-            pas des relevés : aucun taux de chômage, aucun flux SIRENE et aucun salaire médian
-            ne sont ingérés ici. Le marché local varie d&apos;ailleurs fortement à
-            l&apos;intérieur d&apos;un même département (préfecture contre canton rural). Pour
-            les offres en temps réel : France Travail, Apec, Hellowork.
+            Le mix sectoriel reste une <strong>estimation</strong>. Les relevés décrivent la
+            commune, pas le bassin d&apos;emploi : une ville-dortoir peut afficher peu
+            d&apos;emplois et un salaire moyen bas alors que ses habitants travaillent à côté.
+            Pour les offres en temps réel : France Travail, Apec, Hellowork.
           </p>
         </Card>
 

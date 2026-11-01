@@ -721,9 +721,13 @@ if (!failed) {
       alsoMark: /estimé|estimés|estimées|estimation|[Ee]stimated|[Ee]stimate\b/,
     },
     {
+      // Cas mixte depuis le 2026-11-01 : chômage (recensement), évolution de
+      // l'emploi et salaires (base tous salariés) sont MESURÉS par l'Insee pour
+      // 591/593 villes, le mix sectoriel reste estimé. La surface dit les deux.
       name: "emploi",
       uses: /computeEmploymentMarket\b|@\/lib\/employment-market"/,
-      mark: /pas le taux|estimation départementale|fourchettes? départementales? estimées?|[Ee]stimation structurelle|palier estimé|estimé|estimés|estimées|departmental estimate|estimated d[ée]partement(al)? ranges?|published rate is not reused|not a published rate|not the unemployment rate|[Ss]tructural estimate/,
+      mark: /mesur(é|ée|és|ées)|[Mm]easured/,
+      alsoMark: /estimé|estimés|estimées|estimation|[Ee]stimated|[Ee]stimate\b/,
     },
     {
       name: "sécurité",
@@ -788,8 +792,8 @@ if (!failed) {
     console.error(`\n  ÉCHEC  moteurs propriétaires : ${mute.length} surface(s) muette(s)\n`);
     for (const p of mute) console.error(`    ${p}`);
     console.error(
-      "\n    Ces libs ne lisent que le seed — aucune donnée INSEE, DARES, SIRENE,\n" +
-        "    SSMSI, DEPP, FUB ou La Poste n'est ingérée. Une\n" +
+      "\n    Ces libs ne lisent que le seed — aucune donnée SSMSI, DEPP, FUB,\n" +
+        "    SIRENE ou La Poste n'est ingérée. Une\n" +
         "    surface qui publie leur score doit dire qu'il est estimé et ce qu'il\n" +
         "    n'est pas (un relevé de cabinets, le taux de chômage publié, les faits\n" +
         "    enregistrés, l'annuaire des équipements, une note d'enquête, un décompte\n" +
@@ -801,7 +805,8 @@ if (!failed) {
         "    pas — la surface doit dire lequel est lequel, pas « estimé » en bloc.\n" +
         "    La santé aussi, depuis le 2026-11-01 : généralistes (APL DREES),\n" +
         "    urgences et pharmacies (BPE Insee) sont mesurés, les spécialistes\n" +
-        "    estimés — la surface doit nommer les deux.\n",
+        "    estimés — la surface doit nommer les deux. L'emploi de même : chômage,\n" +
+        "    évolution de l'emploi et salaires mesurés (Insee), mix sectoriel estimé.\n",
     );
   }
 }

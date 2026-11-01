@@ -36,7 +36,7 @@ import { computeWaterStress } from "@/lib/water-stress";
 import { computeNoiseExposure } from "@/lib/noise-exposure";
 import { computeHealthcareAccess } from "@/lib/healthcare-access";
 import { APL_NATIONAL, APL_UNDERSERVED } from "@/lib/city-healthcare";
-import { computeEmploymentMarket } from "@/lib/employment-market";
+import { computeEmploymentMarket, estimatedDeptSalaryTier } from "@/lib/employment-market";
 import { climateZoneFor } from "@/lib/cost-living";
 import { computeQualityOfLife } from "@/lib/quality-of-life-index";
 import { householdBreakdownFor } from "@/lib/household-cost";
@@ -466,8 +466,7 @@ function rankCoutsExplosifs(): RedFlagRow[] {
     const b = householdBreakdownFor(city, "famille");
     if (b.total == null) continue;
 
-    const e = computeEmploymentMarket(city);
-    const salary = SALARY_PROXY[e.salary.score] ?? 2050;
+    const salary = SALARY_PROXY[estimatedDeptSalaryTier(city)] ?? 2050;
     const ratio = b.total / salary;
     if (ratio < 0.6) continue; // coût famille < 60 % du salaire médian dept = OK
 
@@ -1415,8 +1414,7 @@ function rankChauffageHivernalCouteux(): RedFlagRow[] {
     // Salaire dept proxy v0 — voir SALARY_PROXY plus haut (Paris/petite couronne
     // 2 500 € · bonnes métropoles 2 200 € · médiane 2 050 € · bas 1 900 €
     // · très bas 1 750 €).
-    const e = computeEmploymentMarket(city);
-    const salary = SALARY_PROXY[e.salary.score] ?? 2050;
+    const salary = SALARY_PROXY[estimatedDeptSalaryTier(city)] ?? 2050;
     const ratio = heating / salary; // part du salaire net qui part en chauffage
 
     // Severity : 3 % → 0, 4 % → 3,3, 5 % → 6,7, 6 % → 10. Seuil ONPE
@@ -2950,14 +2948,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes au chômage chronique — marché du travail sinistré",
     metaTitle: "Chômage chronique 2026 — Villes françaises au marché du travail le plus tendu",
     metaDescription:
-      "Classement 2026 des villes françaises ≥ 15 000 hab. cumulant chômage INSEE élevé, faible dynamisme SIRENE et salaires médians bas. Composite estimé au département, pas les taux publiés.",
+      "Villes françaises ≥ 15 000 hab. qui cumulent chômage élevé, emplois en recul et salaires bas, mesurés commune par commune par l'Insee : Sedan, Bruay-la-Buissière…",
     emoji: "📉",
     intro:
-      "L'agence vante la maison de ville à 1 200 €/mois, le centre-ville charmant, la possibilité de tout payer cash. Personne ne mentionne que le bassin d'emploi local est sinistré depuis la fermeture du dernier site industriel, que le taux de chômage dépasse 11 % et que la création nette d'entreprises est négative depuis trois ans. Le chômage chronique ne se voit pas sur la photo immobilière — il se découvre en cherchant un emploi six mois après l'installation.",
+      "L'agence vante la maison de ville à 1 200 €/mois, le centre-ville charmant, la possibilité de tout payer cash. Personne ne mentionne que le bassin d'emploi local est sinistré depuis la fermeture du dernier site industriel, que près d'un actif sur cinq se déclare au chômage et que la commune compte moins d'emplois qu'il y a six ans. Le chômage chronique ne se voit pas sur la photo immobilière — il se découvre en cherchant un emploi six mois après l'installation.",
     reality:
-      "On classe les villes ≥ 15 000 hab. dont le composite (chômage 35 % + salaire 25 % + dynamisme 20 % + mix 20 %) dépasse 6,5/10, avec un malus quand chômage en désert ET dynamisme faible se cumulent — c'est-à-dire un vrai décrochage, pas un seul indicateur. Toutes les valeurs sont estimées : chaque département est rangé en paliers calés sur les ordres de grandeur du chômage trimestriel INSEE et des flux SIRENE, sans qu'aucune de ces séries soit ingérée.",
+      "On classe les villes ≥ 15 000 hab. dont le composite (chômage 35 % + salaire 25 % + dynamisme 20 % + mix 20 %) dépasse 6,5/10, avec un malus quand un chômage sinistré et un emploi local en recul se cumulent — c'est-à-dire un vrai décrochage, pas un seul indicateur. Trois des quatre dimensions sont mesurées par l'Insee pour chaque commune : le chômage des 15-64 ans au recensement 2023, l'évolution des emplois situés dans la commune depuis 2017 et le salaire moyen des emplois privés qui s'y trouvent. Le mix sectoriel est estimé. Sedan et Bruay-la-Buissière ouvrent la liste, devant Villiers-le-Bel, Bondy, Forbach et Douai : d'anciens bassins industriels du Nord et de l'Est, et deux communes de banlieue parisienne où les emplois sur place paient peu.",
     methodology:
-      "Severity = composite + 1,2 si chômage ≥ 7,5/10 ET dynamisme ≥ 6,5/10 + 0,5 si salaires ≥ 7/10. Estimation départementale : les paliers sont calés sur les ordres de grandeur du chômage trimestriel INSEE, des salaires nets médians DADS, des flux SIRENE et des bassins en reconversion suivis par la DARES — cadres de référence, pas sources. Aucun taux publié n'est repris.",
+      "Severity = composite + 1,2 si chômage ≥ 7,5/10 ET dynamisme ≥ 6,5/10 + 0,5 si salaires ≥ 7/10. Chômage : part des chômeurs parmi les actifs de 15 à 64 ans, recensement Insee 2023 (déclaratif, plus haut que le taux du BIT ; France 11,4 % sur cette mesure), « sinistré » à partir de 18 %. Dynamisme : évolution des emplois situés dans la commune 2017-2023 (France +6,6 %), « sinistré » sous −3 %. Salaires : salaire net mensuel moyen EQTP des emplois privés situés dans la commune, base tous salariés 2024. Mix sectoriel : estimé depuis le département et le profil de la ville (mono-tourisme, ancien bassin industriel, poids du public). Les relevés décrivent la commune, pas le bassin d'emploi.",
     rank: rankChomageEleve,
   },
   {
@@ -2972,7 +2970,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     reality:
       "On classe les villes ≥ 15 000 hab. dont le méga-index (environnement 35 % + santé 30 % + emploi 35 %) est inférieur ou égal à 4,8/10, avec un malus quand au moins 2 des 3 piliers tombent sous 4/10 — c'est-à-dire un cumul réel, pas un seul pilier faible. Toutes les valeurs sont dérivées des composites (env), (santé), (emploi).",
     methodology:
-      "Severity = (5 −) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si ≤ 3,5/10. Le pilier environnement est une estimation communale calée sur les cadres de référence ATMO / CITEPA / RNSA, pas une mesure en station ; le pilier santé mesure les généralistes (APL DREES), les urgences et les pharmacies (Insee) et estime les spécialistes ; le pilier emploi une estimation départementale calée sur les repères INSEE / DADS / SIRENE, pas le taux de chômage publié. Composite agrégé site (méga-index).",
+      "Severity = (5 −) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si ≤ 3,5/10. Le pilier environnement est une estimation communale calée sur les cadres de référence ATMO / CITEPA / RNSA, pas une mesure en station ; le pilier santé mesure les généralistes (APL DREES), les urgences et les pharmacies (Insee) et estime les spécialistes ; le pilier emploi mesure le chômage, l'évolution de l'emploi et les salaires (Insee) et estime le mix sectoriel. Composite agrégé site (méga-index).",
     rank: rankCadreDeVieTendu,
   },
   {
@@ -3100,14 +3098,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes que les 25-35 ans quittent en silence",
     metaTitle: "Villes fuite jeunes actifs 2026 — 25-35 ans en départ",
     metaDescription:
-      "Classement 2026 des villes françaises que les jeunes actifs 25-35 ans quittent : déficit démographique INSEE, trajectoire, chômage, dynamisme SIRENE.",
+      "Classement 2026 des villes françaises que les jeunes actifs 25-35 ans quittent : déficit démographique, trajectoire, chômage et emploi local mesurés par l'Insee.",
     emoji: "🎒",
     intro:
       "Le scénario ne se voit pas sur les plaquettes d'attractivité. Les 18-22 ans partent étudier à Lyon, Bordeaux ou Toulouse, certains envisagent vaguement de revenir « plus tard, quand ce sera le moment de fonder une famille »… et ne reviennent jamais. À 30 ans, la promotion entière a basculé sur les pôles métropolitains, et la ville se retrouve avec une démographie de couvercle : les seniors qui restent, les ados qui partiront, et un trou béant en haut de la pyramide active. C'est l'inverse exact du discours de revitalisation des centres-villes.",
     reality:
-      "On croise le score `youngActives` de `lib/demography` (proxy INSEE recensement de la part des 25-35 ans) avec la `trajectory` (solde naturel + migratoire, Bilan démographique INSEE) et le score chômage de `lib/employment-market` (INSEE T4 2024). Les villes qui remontent sont rarement spectaculaires — pas de fait divers, pas de pollution — mais elles cumulent trois signaux : déficit structurel de jeunes actifs, solde démographique négatif et marché du travail tendu côté demandeur. Bonus pour les sous-préfectures < 25 000 hab. où l'absence de masse critique rend la rétention encore plus difficile. Le filtre exclut volontairement les villes déjà dominées par le pic vieillissement (composite démographique ≥ 8,5) — celles-là sont dans `villes-vieillissement-critique`.",
+      "On croise le score `youngActives` de `lib/demography` (proxy INSEE recensement de la part des 25-35 ans) avec la `trajectory` (solde naturel + migratoire, Bilan démographique INSEE) et le score chômage de `lib/employment-market` (recensement Insee 2023, à la commune). Les villes qui remontent sont rarement spectaculaires — pas de fait divers, pas de pollution — mais elles cumulent trois signaux : déficit structurel de jeunes actifs, solde démographique négatif et marché du travail tendu côté demandeur. Bonus pour les sous-préfectures < 25 000 hab. où l'absence de masse critique rend la rétention encore plus difficile. Le filtre exclut volontairement les villes déjà dominées par le pic vieillissement (composite démographique ≥ 8,5) — celles-là sont dans `villes-vieillissement-critique`.",
     methodology:
-      "Severity = (0,55 × youngActives + 0,18 × max(0, trajectory−5) + 0,16 × max(0, chômage−5) + 0,10 × max(0, dynamisme−5) + malus taille +0,4 si <25 000 hab. ou +0,2 si <40 000 hab.) × 1,7, clampé à 10/10. Filtre : population ≥ 10 000 hab., composite démographique < 8,5 (pour ne pas dupliquer le thème vieillissement), severity ≥ 6/10. La trajectoire est mesurée au recensement Insee, commune par commune ; la part des 25-35 ans, le chômage et le dynamisme sont estimés depuis le département et le profil de la commune, sur des paliers calés sur les repères INSEE et SIRENE — cadres de référence, pas sources.",
+      "Severity = (0,55 × youngActives + 0,18 × max(0, trajectory−5) + 0,16 × max(0, chômage−5) + 0,10 × max(0, dynamisme−5) + malus taille +0,4 si <25 000 hab. ou +0,2 si <40 000 hab.) × 1,7, clampé à 10/10. Filtre : population ≥ 10 000 hab., composite démographique < 8,5 (pour ne pas dupliquer le thème vieillissement), severity ≥ 6/10. La trajectoire, le chômage (recensement 2023) et le dynamisme (évolution des emplois situés dans la commune, 2017-2023) sont mesurés par l'Insee, commune par commune ; la part des 25-35 ans est estimée depuis le département et le profil de la commune.",
     rank: rankFuiteJeunesActifs,
   },
   {

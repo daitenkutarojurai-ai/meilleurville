@@ -94,7 +94,7 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `Composite pondéré sur 4 dimensions : chômage INSEE T4 2024 par dept (35 %), salaire net médian DADS (25 %), dynamisme création SIRENE (20 %), mix sectoriel et résilience (20 %). Ces quatre niveaux sont estimés : chaque département est rangé dans des paliers calés sur les ordres de grandeur INSEE, DARES, SIRENE et DADS, aucune de ces séries n'étant ingérée — ce n'est ni un taux de chômage publié, ni un salaire relevé commune par commune.`,
+      a: "Composite agrégeant 4 dimensions : chômage des 15-64 ans au recensement Insee 2023 (35 %, mesuré), salaire net moyen des emplois privés situés dans la commune, base tous salariés 2024 (25 %, mesuré), évolution des emplois situés dans la commune entre 2017 et 2023 (20 %, mesuré), mix sectoriel et résilience (20 %, estimé). Score 0-10, 10 = marché du travail dynamique. Le chômage du recensement est déclaratif et tourne plus haut que le taux trimestriel du BIT (France : 11,4 % sur cette mesure). Mamoudzou et Pierrefitte-sur-Seine, hors champ, gardent une estimation.",
     },
   ]);
 
@@ -116,14 +116,14 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
-          chômage, salaire médian, dynamisme entrepreneurial, mix sectoriel. Les quatre
-          niveaux sont <strong>estimés</strong> au département, pas relevés commune par
-          commune.
+          chômage, salaires, dynamisme, mix sectoriel. Les trois premiers sont{" "}
+          <strong>mesurés</strong> commune par commune par l&apos;Insee ; le mix sectoriel est{" "}
+          <strong>estimé</strong>.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Estimation structurelle</Badge>
-          <Badge>Cadres de référence : INSEE · DARES · SIRENE · DADS</Badge>
+          <Badge>Mesuré : Insee, recensement 2023 · salaires 2024</Badge>
+          <Badge>Mix sectoriel : estimation</Badge>
           <Badge>{cities.length} villes analysées</Badge>
           <Badge>Composite moyen : {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -135,10 +135,10 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Chômage", v: avgUnemp, hint: "Palier départemental estimé" },
-              { k: "Salaire", v: avgSalary, hint: "Palier départemental estimé" },
-              { k: "Dynamisme", v: avgDyn, hint: "Création estimée + attractivité" },
-              { k: "Mix sectoriel", v: avgMix, hint: "Diversification & résilience" },
+              { k: "Chômage", v: avgUnemp, hint: "Recensement Insee, mesuré" },
+              { k: "Salaire", v: avgSalary, hint: "Emplois privés de la commune, mesuré" },
+              { k: "Dynamisme", v: avgDyn, hint: "Évolution de l'emploi 2017-2023, mesuré" },
+              { k: "Mix sectoriel", v: avgMix, hint: "Diversification & résilience, estimé" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>

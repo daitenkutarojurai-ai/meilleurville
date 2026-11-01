@@ -105,7 +105,7 @@ export default async function MacroRegionEmploymentEnPage({ params }: Props) {
     },
     {
       q: `How is this ranking calculated?`,
-      a: `Weighted composite across 4 dimensions: unemployment by dept INSEE Q4 2024 (35%), median net salary DADS (25%), business creation dynamism SIRENE (20%), sector diversification (20%). All four are estimated: each department is placed in bands calibrated against INSEE, DARES, SIRENE and DADS orders of magnitude, none of those series being ingested — this is neither a published unemployment rate nor a salary observed town by town.`,
+      a: "The composite aggregates four dimensions: census unemployment among residents aged 15–64, INSEE 2023 (35%, measured), average net pay of private-sector jobs located in the town, INSEE all-employees base 2024 (25%, measured), change in jobs located in the town 2017–2023 (20%, measured), and sector mix and resilience (20%, estimated). Score 0-10 where 10 = most dynamic labour market. Census unemployment is self-declared and runs higher than the quarterly ILO rate (France: 11.4% on this measure). Mamoudzou and Pierrefitte-sur-Seine, outside the datasets, keep an estimate.",
     },
   ]);
 
@@ -126,14 +126,14 @@ export default async function MacroRegionEmploymentEnPage({ params }: Props) {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite employment index for {cities.length} cities in the {label} macro-region
-          with over 10,000 inhabitants. Four dimensions: unemployment, median salary,
-          entrepreneurial dynamism, sector mix. All four are <strong>estimated</strong> at
-          departmental level, not observed town by town.
+          with over 10,000 inhabitants. Four dimensions: unemployment, pay, dynamism, sector
+          mix. The first three are <strong>measured</strong> town by town by INSEE; sector mix
+          is <strong>estimated</strong>.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Structural estimate</Badge>
-          <Badge>Reference frameworks: INSEE · DARES · SIRENE · DADS</Badge>
+          <Badge>Measured: INSEE census 2023 · pay 2024</Badge>
+          <Badge>Sector mix: estimate</Badge>
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average composite: {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -144,10 +144,10 @@ export default async function MacroRegionEmploymentEnPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Unemployment", v: avgUnemp, hint: "Estimated departmental band" },
-              { k: "Salary", v: avgSalary, hint: "Estimated departmental band" },
-              { k: "Dynamism", v: avgDyn, hint: "Estimated creation + attractiveness" },
-              { k: "Sector mix", v: avgMix, hint: "Diversification & resilience" },
+              { k: "Unemployment", v: avgUnemp, hint: "INSEE census, measured" },
+              { k: "Salary", v: avgSalary, hint: "Private jobs in town, measured" },
+              { k: "Dynamism", v: avgDyn, hint: "Job growth 2017-2023, measured" },
+              { k: "Sector mix", v: avgMix, hint: "Diversification & resilience, estimated" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>

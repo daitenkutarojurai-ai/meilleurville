@@ -155,13 +155,13 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities with chronically weak job markets",
     metaTitle: "Chronic unemployment 2026 — French cities with the most distressed labour markets",
     metaDescription:
-      "2026 ranking of French cities over 15,000 combining high INSEE unemployment, low SIRENE business dynamism and below-median wages. A departmental estimate, not published rates.",
+      "French cities over 15,000 combining high unemployment, shrinking local jobs and low pay, measured town by town by INSEE: Sedan, Bruay-la-Buissière…",
     intro:
-      "The agent touts the affordable townhouse and the charming town centre. Nobody mentions the local labour market has been distressed since the last factory closed, unemployment is over 11%, and net business creation has been negative for three years.",
+      "The agent touts the affordable townhouse and the charming town centre. Nobody mentions the local labour market has been distressed since the last factory closed, nearly one in five people in the labour force reports being unemployed, and the town has fewer jobs than six years ago.",
     reality:
-      "We rank cities over 15,000 whose composite (unemployment 35% + wages 25% + dynamism 20% + mix 20%) exceeds 6.5/10, with a penalty when unemployment desert AND weak dynamism compound — a genuine structural decline.",
+      "We rank cities over 15,000 whose composite (unemployment 35% + wages 25% + dynamism 20% + mix 20%) exceeds 6.5/10, with a penalty when depressed unemployment and shrinking local jobs compound — a genuine structural decline. Three of the four dimensions are measured by INSEE for each town: census unemployment among residents aged 15–64 (2023), the change in jobs located in the town since 2017, and the average pay of private-sector jobs there. Sector mix is estimated. Sedan and Bruay-la-Buissière lead, ahead of Villiers-le-Bel, Bondy, Forbach and Douai: former industrial basins in the north and east, and two Paris suburbs where local jobs pay little.",
     methodology:
-      "Severity = composite + 1.2 if unemployment ≥ 7.5/10 AND dynamism ≥ 6.5/10 + 0.5 if wages ≥ 7/10. Departmental estimate: the bands are calibrated against the orders of magnitude of INSEE quarterly unemployment, DADS median net wages, SIRENE business-creation flows and the DARES restructuring basins — reference frameworks, not sources. No published rate is reused.",
+      "Severity = composite + 1.2 if unemployment ≥ 7.5/10 AND dynamism ≥ 6.5/10 + 0.5 if wages ≥ 7/10. Unemployment: unemployed share of residents aged 15–64 in the labour force, INSEE census 2023 (self-declared, higher than the ILO rate; France 11.4% on this measure), depressed from 18%. Dynamism: change in jobs located in the town 2017–2023 (France +6.6%), depressed below −3%. Wages: average net monthly full-time-equivalent pay of private-sector jobs located in the town, INSEE 2024. Sector mix: estimated from the department and the town's profile. The figures describe the town, not the commuting area.",
   },
   {
     enSlug: "quality-of-life-stretched",
@@ -176,7 +176,7 @@ const EN_THEMES: EnTheme[] = [
     reality:
       "We rank cities over 15,000 whose mega-index (environment 35% + health 30% + employment 35%) is ≤ 4.8/10, with a penalty when at least 2 of the 3 pillars fall below 4/10 — a genuine compounding effect.",
     methodology:
-      "Severity = (5 − index) × 2 + 1.2 if ≥ 2 pillars ≤ 4/10 + 0.6 if ≤ 3.5/10. The environment pillar is a commune-level estimate keyed to the ATMO/CITEPA/RNSA frameworks, not a station reading; the health pillar measures GP access (DREES APL), emergency departments and pharmacies (INSEE) and estimates specialists; the employment pillar a departmental estimate keyed to the INSEE/DADS/SIRENE frameworks, not the published unemployment rate.",
+      "Severity = (5 − index) × 2 + 1.2 if ≥ 2 pillars ≤ 4/10 + 0.6 if ≤ 3.5/10. The environment pillar is a commune-level estimate keyed to the ATMO/CITEPA/RNSA frameworks, not a station reading; the health pillar measures GP access (DREES APL), emergency departments and pharmacies (INSEE) and estimates specialists; the employment pillar measures unemployment, job growth and pay (INSEE) and estimates sector mix.",
   },
   {
     enSlug: "cost-explosion",
@@ -290,13 +290,13 @@ const EN_THEMES: EnTheme[] = [
     title: "Cities that 25-35s are quietly leaving",
     metaTitle: "Young workers leaving 2026 — Cities losing their 25-35s",
     metaDescription:
-      "2026 ranking of French cities losing their 25-35s: INSEE demographic deficit, negative balance, tight jobs market, weak business dynamism. Every city in our dataset.",
+      "2026 ranking of French cities losing their 25-35s: demographic deficit, negative balance, unemployment and local jobs measured by INSEE. Every city in our dataset.",
     intro:
       "The scenario doesn't show up in the town's attractiveness brochure. The 18-22s leave to study in Lyon, Bordeaux or Toulouse, some vaguely think they'll come back 'later, when it's time to start a family' — and never do. By 30, the whole cohort has moved to the metropolitan hubs, and the city is left with a lid-shaped demography: seniors who stayed, teens who'll leave, and a gaping hole at the top of the working-age pyramid. It's the exact opposite of the town-centre revitalisation pitch.",
     reality:
-      "We cross the `youngActives` score from `lib/demography` (INSEE census proxy for the 25-35 share) with `trajectory` (natural + migratory balance, INSEE Demographic Report) and the unemployment score from `lib/employment-market` (INSEE Q4 2024). Cities that surface here are rarely spectacular — no scandal, no pollution — but they compound three signals: structural young-worker deficit, negative demographic balance, and a labour market tense on the applicant side. A bonus applies for subprefectures under 25,000 where the missing critical mass makes retention even harder. The filter deliberately excludes cities already dominated by ageing (demographic composite ≥ 8.5) — those belong in the critical-ageing theme.",
+      "We cross the `youngActives` score from `lib/demography` (INSEE census proxy for the 25-35 share) with `trajectory` (natural + migratory balance, INSEE Demographic Report) and the unemployment score from `lib/employment-market` (INSEE census 2023, town level). Cities that surface here are rarely spectacular — no scandal, no pollution — but they compound three signals: structural young-worker deficit, negative demographic balance, and a labour market tense on the applicant side. A bonus applies for subprefectures under 25,000 where the missing critical mass makes retention even harder. The filter deliberately excludes cities already dominated by ageing (demographic composite ≥ 8.5) — those belong in the critical-ageing theme.",
     methodology:
-      "Severity = (0.55 × youngActives + 0.18 × max(0, trajectory − 5) + 0.16 × max(0, unemployment − 5) + 0.10 × max(0, dynamism − 5) + size penalty +0.4 if <25,000 or +0.2 if <40,000) × 1.7, capped at 10/10. Filter: population ≥ 10,000, demographic composite < 8.5 (to avoid overlap with critical-ageing), severity ≥ 6/10. Trajectory is measured commune by commune in the Insee census; the 25-35 share, unemployment and dynamism are estimated from the department and the town's profile, on bands calibrated against INSEE and SIRENE reference figures — reference frameworks, not sources.",
+      "Severity = (0.55 × youngActives + 0.18 × max(0, trajectory − 5) + 0.16 × max(0, unemployment − 5) + 0.10 × max(0, dynamism − 5) + size penalty +0.4 if <25,000 or +0.2 if <40,000) × 1.7, capped at 10/10. Filter: population ≥ 10,000, demographic composite < 8.5 (to avoid overlap with critical-ageing), severity ≥ 6/10. Trajectory, unemployment (census 2023) and dynamism (change in jobs located in the town, 2017–2023) are measured by INSEE town by town; the 25-35 share is estimated from the department and the town's profile.",
   },
   {
     enSlug: "theft-burglary",

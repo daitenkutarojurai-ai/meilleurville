@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
     title: "Job market in France · best cities for employment 2026",
     description:
-      "Top 30 most active job markets vs top 20 most difficult. Departmental estimate, not published rates.",
+      "Top 30 most active job markets vs top 20 most difficult. Unemployment, jobs and pay measured by INSEE.",
   },
 };
 
@@ -78,7 +78,7 @@ export default function EnEmploymentHubPage() {
     },
     {
       q: "How is the employment ranking calculated?",
-      a: "The composite aggregates four dimensions: unemployment rate INSEE Q4 2024 by department (35%), median net salary INSEE DADS (25%), net business creation SIRENE (20%), sector mix and economic resilience (20%). Score 0-10 where 10 = most dynamic labour market. It is an estimate: each department is placed in bands calibrated against the orders of magnitude published by INSEE, DADS, SIRENE and DARES, but none of those series is ingested — this is neither a published unemployment rate nor a salary observed town by town.",
+      a: "The composite aggregates four dimensions: census unemployment among residents aged 15–64, INSEE 2023 (35%, measured), average net pay of private-sector jobs located in the town, INSEE all-employees base 2024 (25%, measured), change in jobs located in the town 2017–2023 (20%, measured), and sector mix and resilience (20%, estimated). Score 0-10 where 10 = most dynamic labour market. Census unemployment is self-declared and runs higher than the quarterly ILO rate (France: 11.4% on this measure). Mamoudzou and Pierrefitte-sur-Seine, outside the datasets, keep an estimate.",
     },
     {
       q: "What sectors drive the best job markets in France?",
@@ -104,16 +104,15 @@ export default function EnEmploymentHubPage() {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite index across four key dimensions of the local labour market:
-          unemployment, business dynamism, sector mix (resilience) and median net
-          salary — all four <strong>estimated</strong> at departmental level rather than
-          observed town by town. Score 0-10 where 10 = most
-          dynamic. Filtered to cities of 15,000+ inhabitants for statistical
-          relevance of departmental indicators.
+          unemployment, dynamism, sector mix (resilience) and pay. Score 0-10 where 10 = most
+          dynamic. Unemployment, job growth and pay are <strong>measured</strong> town by town
+          by INSEE; sector mix is <strong>estimated</strong>. Filtered to cities of 15,000+
+          inhabitants.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Structural estimate</Badge>
-          <Badge>Reference frameworks: INSEE · DARES · SIRENE · DADS</Badge>
+          <Badge>Measured: INSEE census 2023 · pay 2024</Badge>
+          <Badge>Sector mix: estimate</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} cities</Badge>
           <Badge>Weighting: unemployment 35% · salary 25% · dynamism 20% · sector mix 20%</Badge>
         </div>
@@ -182,8 +181,8 @@ export default function EnEmploymentHubPage() {
           Top 20 — Most difficult job markets
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Cities of 15,000+ inhabitants whose department combines a high unemployment band, below-average
-          wages and weak net business creation. Tight market, often in economic transition.
+          Cities of 15,000+ inhabitants combining high unemployment, below-average pay and jobs that
+          stall or shrink locally. Tight market, often in economic transition.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -234,32 +233,34 @@ export default function EnEmploymentHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Unemployment (35%)</strong> —
-              the department is placed in a band calibrated against the order of magnitude
-              of the quarterly INSEE rate (metropolitan France average ~7.3%, DROM
-              territories chronically above 15%). The published rate is not reused.
+              <strong className="text-[var(--text-primary)]">measured</strong>: unemployed
+              share of residents aged 15–64 in the labour force, INSEE census 2023. It is
+              self-declared and runs higher than the quarterly ILO rate, so the benchmark is
+              France on the same measure, 11.4%.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Salary (25%)</strong> —
-              departmental bands calibrated against INSEE DADS orders of magnitude (France
-              average ~€2,100/month, Paris and inner suburbs above €2,400, DROM and rural
-              departments below €1,850). No salary is observed town by town.
+              <strong className="text-[var(--text-primary)]">measured</strong>: average net
+              monthly pay, full-time equivalent, of private-sector jobs located in the town
+              (INSEE all-employees base 2024). Workplace pay, and an average: France €2,733, the
+              median city on the site around €2,400.
             </li>
             <li>
-              <strong className="text-[var(--text-primary)]">Business dynamism (20%)</strong> —
-              net business creation estimated by department in the spirit of the SIRENE
-              flows, weighted by city size.
-              Metropolitan areas and coastal zones lead; rural areas in structural decline trail.
+              <strong className="text-[var(--text-primary)]">Dynamism (20%)</strong> —{" "}
+              <strong className="text-[var(--text-primary)]">measured</strong>: change in jobs
+              located in the town between 2017 and 2023 (France: +6.6%). Business-creation rates
+              were left out: they are inflated by forced self-employment (delivery, ride-hailing).
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Sector mix (20%)</strong> —
-              economic diversification. Penalty for mono-tourism (seasonal volatility) and
+              <strong className="text-[var(--text-primary)]">estimated</strong>: economic diversification. Penalty for mono-tourism (seasonal volatility) and
               former single-industry basins in transition; bonus for diversified metropolitan economies.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            This ranking sorts departmental <strong>estimates</strong>, not readings: no
-            unemployment rate, no SIRENE flow and no median salary is ingested here. The local
-            market also varies significantly within a department (prefecture vs. rural canton).
+            Sector mix remains an <strong>estimate</strong>. The figures describe the town, not
+            the commuting area: a dormitory town can show few jobs and modest pay while its
+            residents work next door.
             For live job listings: France Travail, Apec (management), Hellowork.
           </p>
         </Card>

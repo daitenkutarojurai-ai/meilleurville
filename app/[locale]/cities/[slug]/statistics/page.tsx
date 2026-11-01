@@ -5,7 +5,8 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { computeEmploymentMarket } from "@/lib/employment-market";
+import { computeEmploymentMarket, type EmploymentMarket } from "@/lib/employment-market";
+import { RP_YEAR, SALARY_NATIONAL, UNEMPLOYMENT_NATIONAL } from "@/lib/city-employment";
 import { computeDemography } from "@/lib/demography";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternatesEn } from "@/lib/i18n";
@@ -49,6 +50,40 @@ function popBucket(pop: number | null): PopBucket {
 }
 
 type Tone = "high" | "good" | "median" | "low" | "very-low";
+
+/** Colour of a measured employment sub-score (10 = worst) on the quality palette. */
+function toneFromScore(score: number): Tone {
+  if (score <= 2.5) return "high";
+  if (score <= 4) return "good";
+  if (score <= 5.5) return "median";
+  if (score <= 7.5) return "low";
+  return "very-low";
+}
+
+/** INSEE measurement when available, otherwise the estimated bracket. */
+function salaryFigure(emp: EmploymentMarket): { range: string; note: string; tone: Tone; measured: boolean } {
+  const v = emp.measured?.salary;
+  if (v === undefined) return { ...salaryBracket(emp.salary.score), measured: false };
+  const where = v > SALARY_NATIONAL + 50 ? "above" : v < SALARY_NATIONAL - 50 ? "below" : "close to";
+  return {
+    range: `€${v.toLocaleString("en-GB")}/month net`,
+    note: `average for private-sector jobs located in the town, full-time equivalent, ${where} France (€${SALARY_NATIONAL.toLocaleString("en-GB")})`,
+    tone: toneFromScore(emp.salary.score),
+    measured: true,
+  };
+}
+
+function unemploymentFigure(emp: EmploymentMarket): { range: string; note: string; tone: Tone; measured: boolean } {
+  const v = emp.measured?.unemployment;
+  if (v === undefined) return { ...unemploymentBracket(emp.unemployment.score), measured: false };
+  const where = v > UNEMPLOYMENT_NATIONAL + 0.5 ? "above" : v < UNEMPLOYMENT_NATIONAL - 0.5 ? "below" : "close to";
+  return {
+    range: `${v.toFixed(1)}%`,
+    note: `unemployed among residents aged 15–64, ${where} France on the same measure (${UNEMPLOYMENT_NATIONAL.toFixed(1)}%)`,
+    tone: toneFromScore(emp.unemployment.score),
+    measured: true,
+  };
+}
 
 // Département median net wage (INSEE DADS) — brackets aligned with
 // SALARY_HIGH/GOOD/LOW/VERY_LOW_DEPTS from lib/employment-market.ts.
@@ -149,8 +184,8 @@ export default async function EnCityStatisticsPage({ params }: Props) {
   const emp = computeEmploymentMarket(city);
   const demo = computeDemography(city);
   const bucket = popBucket(cityPopulation(city.slug)?.pop2022 ?? city.population);
-  const salary = salaryBracket(emp.salary.score);
-  const unemp = unemploymentBracket(emp.unemployment.score);
+  const salary = salaryFigure(emp);
+  const unemp = unemploymentFigure(emp);
   const ageing = ageingBracket(demo.ageing.score);
   const pop = cityPopulation(city.slug);
   const trend = populationTrend(city.slug);
@@ -189,11 +224,15 @@ export default async function EnCityStatisticsPage({ params }: Props) {
         ? `In ${city.name}, median disposable income is €${income.medianIncome.toLocaleString("en-GB")} per year, or roughly €${monthlyEquivalent(income.medianIncome).toLocaleString("en-GB")} per month per consumption unit${
             income.povertyRate !== undefined ? `, with a poverty rate of ${income.povertyRate}%` : ""
           }. This is household disposable income (wages and benefits, after tax) adjusted for household composition — not a wage. Source: ${INCOME_CREDIT}.`
-        : `INSEE does not publish a median standard of living for ${city.name} (statistical confidentiality, or a commune outside the Filosofi scope). As a fallback, the median net monthly wage for the ${city.department} département is around ${salary.range} — ${salary.note}.`,
+        : salary.measured
+          ? `INSEE does not publish a median standard of living for ${city.name} (statistical confidentiality, or a commune outside the Filosofi scope). As a fallback, average net monthly pay for private-sector jobs located in the town is ${salary.range} (INSEE): workplace pay, not residents' income.`
+          : `INSEE does not publish a median standard of living for ${city.name} (statistical confidentiality, or a commune outside the Filosofi scope). As a fallback, the median net monthly wage for the ${city.department} département is around ${salary.range} — ${salary.note}.`,
     },
     {
       q: `What is the unemployment rate in ${city.name}?`,
-      a: `The départemental unemployment rate for ${city.department} is estimated at ${unemp.range} — ${unemp.note}. Source: INSEE, quarterly unemployment by département (Q4 2024). The rate for the commune itself is not published separately by INSEE.`,
+      a: unemp.measured
+        ? `In ${city.name}, ${unemp.range} of residents aged 15–64 in the labour force declare themselves unemployed (INSEE census ${RP_YEAR}), against ${UNEMPLOYMENT_NATIONAL.toFixed(1)}% for France on the same measure. Census unemployment is self-declared and runs higher than the quarterly ILO rate, which is published by employment zone, not by town.`
+        : `The départemental unemployment rate for ${city.department} is estimated at ${unemp.range} — ${unemp.note}. Source: INSEE, quarterly unemployment by département (Q4 2024).`,
     },
     {
       q: `Is ${city.name} a young or an ageing city?`,
@@ -225,9 +264,11 @@ export default async function EnCityStatisticsPage({ params }: Props) {
           Key figures to place {city.name} in context: population, median net wage,
           unemployment rate, age structure and demographic trajectory. Population,
           standard of living and the share aged 60+ are <strong>measured</strong> for this
-          commune; the median wage, the unemployment rate and business dynamism are{" "}
-          <strong>estimated département ranges</strong>, calibrated on orders of magnitude
-          published by{" "}
+          commune
+          {emp.measured
+            ? "; so are unemployment and the average pay of jobs located in the town (INSEE). Only the sector mix on the job-market sheet remains estimated, from reference figures published by"
+            : "; the median wage, the unemployment rate and business dynamism are estimated département ranges, calibrated on orders of magnitude published by"}
+          {" "}
           <a
             href="https://www.insee.fr/en/statistiques"
             target="_blank"
@@ -236,16 +277,18 @@ export default async function EnCityStatisticsPage({ params }: Props) {
           >
             INSEE
           </a>{" "}
-          (census, DADS, quarterly unemployment) without reusing those series.
+          {emp.measured ? "." : " (census, DADS, quarterly unemployment) without reusing those series."}
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <span className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-2.5 py-1 text-[var(--text-secondary)]">
-            Measured: population, standard of living, ages
+            {emp.measured ? "Measured: population, standard of living, ages, unemployment, pay" : "Measured: population, standard of living, ages"}
           </span>
-          <span className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-2.5 py-1 text-[var(--text-secondary)]">
-            Département-level ranges
-          </span>
+          {!emp.measured && (
+            <span className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-2.5 py-1 text-[var(--text-secondary)]">
+              Département-level ranges
+            </span>
+          )}
         </div>
 
         {/* Hero — population */}
@@ -364,14 +407,15 @@ export default async function EnCityStatisticsPage({ params }: Props) {
           Wage, employment, age structure
         </h2>
         <p className="text-xs text-[var(--text-tertiary)] mt-1">
-          These three indicators are only published at the département level. The
-          ranges reflect the département average — not the exact commune figure.
+          {emp.measured
+            ? `Unemployment and pay: INSEE, census ${RP_YEAR} and all-employees base, at town level. Census unemployment is self-declared and runs higher than the quarterly ILO rate.`
+            : "Wage and unemployment are estimated département ranges here, not the exact town figure."}
         </p>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
           <div className={`rounded-2xl border p-4 ${TONE_BG[salary.tone]}`}>
             <div className="flex items-baseline justify-between mb-2">
               <div className="text-sm font-semibold text-[var(--text-primary)]">
-                Median net wage
+                {salary.measured ? "Average net pay" : "Median net wage"}
               </div>
               <div className={`text-xs font-bold uppercase ${TONE_COLOR[salary.tone]}`}>
                 {SALARY_LABEL[salary.tone]}
@@ -381,8 +425,10 @@ export default async function EnCityStatisticsPage({ params }: Props) {
               {salary.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {salary.note}. Estimated from our indices, calibrated on the INSEE
-              DADS brackets for the {city.department} département.
+              {salary.note}.{" "}
+              {salary.measured
+                ? "Workplace pay: it does not say what residents earn if they work elsewhere."
+                : `Estimated from our indices, calibrated on the INSEE DADS brackets for the ${city.department} département.`}
             </p>
           </div>
 
@@ -399,9 +445,10 @@ export default async function EnCityStatisticsPage({ params }: Props) {
               {unemp.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {unemp.note}. An estimated range from our indices, calibrated on the order
-              of magnitude of the INSEE quarterly rate for the département — the published
-              rate is not reused, and none exists at commune level.
+              {unemp.note}.{" "}
+              {unemp.measured
+                ? `Source: INSEE, census ${RP_YEAR}.`
+                : "An estimated range from our indices, calibrated on the order of magnitude of the INSEE quarterly rate for the département — the published rate is not reused."}
             </p>
           </div>
 
