@@ -18750,6 +18750,275 @@ export const GUIDES: Guide[] = [
     tags: ["vivre sans voiture Rouen", "métro Rouen TEOR", "Astuce Rouen", "Lovélo Rouen", "sans voiture Normandie 2026"],
   },
   {
+    slug: "vivre-sans-voiture-orleans-guide-2026",
+    title: "Vivre sans voiture à Orléans en 2026 : deux lignes de tram et un T2 à 700 €",
+    metaTitle: "Vivre sans voiture à Orléans 2026 : tram A et B, réseau Tao",
+    metaDesc: "Orléans a deux lignes de tram (2000 et 2012) et un T2 à 700 € sur notre estimation, au même prix qu'à Tours. Score transport 6,4/10. Réseau Tao, limites, verdict.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Vivre sans voiture à Orléans est réaliste sur l'axe des deux lignes de tram, et le deux-pièces y coûte 700 € par mois sur notre estimation des loyers, exactement comme à Tours. Notre score transport n'est pourtant que de 6,4/10, au 200e rang sur 593 à égalité avec 47 autres villes, contre 7,0/10 pour Tours : à loyer égal, la desserte est un cran en dessous. Orléans convient donc à qui loge et travaille le long du tram, moins à qui vit en périphérie.",
+    sections: [
+      {
+        heading: "Que dessert le réseau Tao à Orléans ?",
+        body: "Le réseau Tao comprend deux lignes de tram : la ligne A, ouverte en 2000, qui traverse l'agglomération du nord (Les Aubrais) au sud (hôpital de la Source), et la ligne B, ouverte en 2012. Elles se croisent dans le centre et sont complétées par des bus. Les sources divergent sur la longueur exacte de chaque ligne, nous n'en donnons pas. Le tram A dessert aussi Olivet, commune voisine de l'agglomération.",
+      },
+      {
+        heading: "Combien coûte un logement à Orléans ?",
+        body: "Notre estimation des loyers donne 510 € pour un studio, 700 € pour un T2 et 930 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 538 € le m², sur 2 419 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Tours est à 2 827 € le m², Angers à 3 143 € : sur 50 m², acheter à Orléans plutôt qu'à Tours économise environ 14 450 €.",
+      },
+      {
+        heading: "Une ville moyenne en légère hausse",
+        body: "Orléans compte 116 344 habitants en 2022, contre 114 782 en 2016, soit +1,4 % (source : Insee, recensement 2022). Le niveau de vie médian est de 21 370 € par an, avec 22 % de pauvreté (source : Insee, Filosofi 2021). Notre score nature est de 4,8/10 et notre score sécurité de 5,1/10, des niveaux moyens à vérifier selon le quartier.",
+      },
+      {
+        heading: "Orléans ou Tours : que gagne-t-on, que perd-on ?",
+        body: "Tours obtient 7,0/10 en transport, Orléans 6,4/10. Les deux T2 sont à 700 € et le T3 est 10 € moins cher à Orléans (930 € contre 940 €) : le loyer ne départage pas les deux villes, c'est la desserte qui le fait, en faveur de Tours. Angers obtient aussi 7,0/10, pour 750 € le T2 : 50 € par mois de plus qu'à Orléans, soit 600 € par an.",
+      },
+      {
+        heading: "Les limites sans voiture à Orléans",
+        body: "Avec 6,4/10, une partie de l'agglomération dépend du bus, et deux lignes de tram ne couvrent que deux axes. Avant de signer, comptez à pied la distance entre le logement et un arrêt de tram, et vérifiez l'amplitude de la ligne de bus qui dessert votre lieu de travail. Les sorties en nature se font plus facilement avec un autre moyen de transport : notre score nature est de 4,8/10.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 510 € est abordable et le tram suffit si le logement est sur la ligne A ou B. Jeune actif : le T2 à 700 € laisse un budget logement modéré, à condition que l'emploi soit sur l'axe. Famille : un T3 à 930 € reste raisonnable, mais les trajets scolaires hors axe font vite regretter la voiture. Si la desserte prime sur tout, Tours ou Angers sont mieux notées.",
+      },
+    ],
+    relatedCities: ["orleans", "tours", "angers"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-orleans-2026",
+      "demenager-a-orleans-2026",
+    ],
+    tags: ["vivre sans voiture Orléans", "tram Orléans ligne A ligne B", "réseau Tao Orléans", "mobilité Orléans", "sans voiture Loiret 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-reims-guide-2026",
+    title: "Vivre sans voiture à Reims en 2026 : tram A et B et un T2 à 680 €",
+    metaTitle: "Vivre sans voiture à Reims 2026 : tram A et B, loyers, limites",
+    metaDesc: "Reims a deux lignes de tram depuis 2011 et un T2 à 680 € sur notre estimation. Score transport 6,4/10, 200e sur 593. Comparaison avec Nancy et Dijon.",
+    category: "lifestyle",
+    emoji: "🚊",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Reims est la plus grande ville de ce lot (178 478 habitants en 2022), et ses deux lignes de tram, A et B, ouvertes en avril 2011, couvrent environ 11 km : assez pour se passer de voiture sur l'axe, pas pour toute l'agglomération. Le T2 coûte 680 € par mois sur notre estimation des loyers, contre 710 € à Nancy et 720 € à Dijon. Notre score transport est de 6,4/10, au 200e rang sur 593 à égalité avec 47 autres villes, soit 0,6 point sous Nancy et Dijon.",
+    sections: [
+      {
+        heading: "Que dessert le tram de Reims ?",
+        body: "Le tram de Reims compte deux lignes, A et B, qui partagent un tronc commun dans le centre et se séparent aux extrémités. La ligne B va jusqu'à Bezannes, où se trouve la gare Champagne-Ardenne TGV. Le réseau, d'environ 11 km et de 23 à 24 stations selon les sources, utilise des rames Citadis ; environ 2 km du centre historique fonctionnent sans fil aérien, par alimentation au sol. Le reste de l'agglomération dépend du bus.",
+      },
+      {
+        heading: "Combien coûte un logement à Reims ?",
+        body: "Notre estimation des loyers donne 490 € pour un studio, 680 € pour un T2 et 900 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 621 € le m², sur 3 575 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Nancy est à 2 282 € le m² et Dijon à 2 625 € : Reims est donc 339 € le m² plus chère que Nancy à l'achat.",
+      },
+      {
+        heading: "Une grande ville qui perd des habitants",
+        body: "Reims compte 178 478 habitants en 2022, contre 183 113 en 2016, soit -2,5 % (source : Insee, recensement 2022). Le niveau de vie médian est de 20 210 € par an, avec 24 % de pauvreté (source : Insee, Filosofi 2021). Notre score culture est de 7,6/10, le point fort de la ville, et notre score nature de 4,2/10, le plus bas du lot : prévoyez un autre moyen de transport pour les sorties en pleine nature.",
+      },
+      {
+        heading: "Reims, Nancy ou Dijon : que change la desserte ?",
+        body: "Nancy et Dijon obtiennent 7,0/10 en transport, Reims 6,4/10. Pour un T2, Reims économise 30 € par mois face à Nancy (360 € par an) et 40 € face à Dijon (480 € par an). En échange, la desserte est moins dense : deux lignes de tram qui se recoupent dans le centre. Pour un emploi hors de l'axe, ces économies de loyer ne compensent pas toujours le temps perdu en correspondance.",
+      },
+      {
+        heading: "Les limites sans voiture à Reims",
+        body: "Avec 6,4/10, la desserte est correcte mais pas maillée. Le tram suit surtout un axe, et les quartiers hors de ses stations dépendent du bus. Notre score sécurité est de 5,1/10, un niveau moyen : comparez les rues proches de votre arrêt avant de louer. Vérifiez à pied la distance entre votre logement et une station.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 490 € et le tram sur l'axe de l'université rendent la voiture inutile si le logement est proche d'une station. Couple actif : le T2 à 680 € est le moins cher des trois villes comparées. Famille : un T3 à 900 € est abordable, mais le bus scolaire hors de l'axe pèse. Voyageur fréquent : la ligne B vers la gare TGV de Bezannes est un atout concret.",
+      },
+    ],
+    relatedCities: ["reims", "nancy", "dijon"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-reims-2026",
+      "demenager-a-reims-2026",
+    ],
+    tags: ["vivre sans voiture Reims", "tram Reims ligne A ligne B", "Citura Reims", "mobilité Reims", "sans voiture Marne 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-nancy-guide-2026",
+    title: "Vivre sans voiture à Nancy en 2026 : trolleybus T1 et T2 à 710 €",
+    metaTitle: "Vivre sans voiture à Nancy 2026 : trolleybus T1, Stan, loyers",
+    metaDesc: "Nancy a remplacé son TVR par un trolleybus T1 en avril 2025. Score transport 7,0/10, T2 à 710 € sur notre estimation. Réseau Stan, limites, avec Metz et Reims.",
+    category: "lifestyle",
+    emoji: "🚎",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Nancy est la seule ville de ce lot à avoir abandonné son tram sur pneus : le TVR s'est arrêté le 12 mars 2023 et le trolleybus bi-articulé de la ligne T1 l'a remplacé en avril 2025. Notre score transport est de 7,0/10, au 131e rang sur 593 à égalité avec 43 autres villes, et le T2 coûte 710 € par mois sur notre estimation des loyers. La ville se vit bien sans voiture, à condition d'accepter un trolleybus plutôt qu'un tram sur rails.",
+    sections: [
+      {
+        heading: "Quel réseau Stan à Nancy depuis le TVR ?",
+        body: "Le réseau Stan repose sur la ligne T1, un trolleybus bi-articulé inauguré en avril 2025 en remplacement du TVR, arrêté le 12 mars 2023, et sur des lignes de bus. Le projet de conversion en tram classique a été abandonné, les sources évoquant le coût et les fortes pentes. Nous ne donnons ni fréquence ni amplitude : consultez le site de Stan avant de choisir un logement.",
+      },
+      {
+        heading: "Combien coûte un logement à Nancy ?",
+        body: "Notre estimation des loyers donne 510 € pour un studio, 710 € pour un T2 et 950 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 282 € le m², sur 3 304 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Reims est à 2 621 € le m².",
+      },
+      {
+        heading: "Une ville stable, étudiante et culturelle",
+        body: "Nancy compte 104 387 habitants en 2022, contre 104 592 en 2016, soit -0,2 %, une population quasi stable (source : Insee, recensement 2022). Le niveau de vie médian est de 22 360 € par an, avec 22 % de pauvreté (source : Insee, Filosofi 2021). Notre score culture est de 7,6/10 et notre score écoles de 7,4/10 : c'est une ville où l'on peut vivre sans voiture et sans renoncer aux équipements.",
+      },
+      {
+        heading: "Nancy, Metz ou Reims : quelle desserte ?",
+        body: "Nancy obtient 7,0/10 en transport, Metz 6,7/10 et Reims 6,4/10. Le T2 est à 710 € à Nancy, 680 € à Metz et 680 € à Reims : Nancy est la mieux notée mais aussi la plus chère des trois, de 30 € par mois, soit 360 € par an. Si le trolleybus T1 dessert votre trajet quotidien, la différence se justifie ; sinon Metz ou Reims donnent un budget logement plus léger.",
+      },
+      {
+        heading: "Les limites sans voiture à Nancy",
+        body: "Le trolleybus T1 est récent : son bilan d'exploitation n'est pas encore établi. Les trajets hors axe passent par le bus, et la topographie du plateau de Brabois et de l'hôpital impose des correspondances. Notre score nature est de 4,8/10 et notre score sécurité de 5,1/10, des niveaux moyens à vérifier selon le quartier.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 510 € et un logement sur l'axe T1 suffisent à se passer de voiture. Couple actif : le T2 à 710 € est correct pour la desserte obtenue. Famille : un T3 à 950 € reste abordable et le score écoles de 7,4/10 est un atout. Si vous voulez du tram sur rails, regardez Dijon ou Angers.",
+      },
+    ],
+    relatedCities: ["nancy", "metz", "reims"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-nancy-2026",
+      "metz-vs-nancy-comparatif-2026",
+    ],
+    tags: ["vivre sans voiture Nancy", "trolleybus Nancy T1", "Stan Nancy", "TVR Nancy remplacement", "sans voiture Meurthe-et-Moselle 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-saint-etienne-guide-2026",
+    title: "Vivre sans voiture à Saint-Étienne en 2026 : le plus vieux tram de France, T2 à 580 €",
+    metaTitle: "Vivre sans voiture à Saint-Étienne 2026 : tram T1 T2 T3, loyers",
+    metaDesc: "Saint-Étienne exploite le plus ancien tram de France, trois lignes, et un T2 à 580 € sur notre estimation. Score transport 6,7/10. Comparaison avec Lyon.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Saint-Étienne a le loyer le plus bas de ce lot, 580 € pour un T2 sur notre estimation des loyers, et un tram sans interruption depuis 1881, ce qui en fait le plus ancien réseau encore exploité en France. Notre score transport est de 6,7/10, au 185e rang sur 593 à égalité avec 12 autres villes. Face à Lyon, où le T2 est à 1 000 €, l'écart est de 420 € par mois : la ville est un vrai choix économique, avec une sécurité à examiner de près.",
+    sections: [
+      {
+        heading: "Que dessert le tram de Saint-Étienne ?",
+        body: "Le réseau STAS, exploité par Transdev, compte trois lignes de tram : T1 entre Hôpital Nord et Solaure, T2 entre la Cité du Design et Châteaucreux, T3 entre Hôpital Nord et Bellevue (mise en service en 2010). Une extension de la ligne T3 vers Roger Rocher a été annoncée en 2019, son état d'avancement n'est pas vérifié ici. Le tram dessert le centre, la gare de Châteaucreux et la Cité du Design.",
+      },
+      {
+        heading: "Combien coûte un logement à Saint-Étienne ?",
+        body: "Notre estimation des loyers donne 420 € pour un studio, 580 € pour un T2 et 770 € pour un T3 par mois, les plus bas de ce lot. À l'achat, le prix médian des appartements est de 1 197 € le m², sur 4 735 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Lyon est à 4 475 € le m² : pour 50 m², l'écart dépasse 163 000 €. Clermont-Ferrand est à 2 105 € le m².",
+      },
+      {
+        heading: "Une ville stable mais modeste",
+        body: "Saint-Étienne compte 172 569 habitants en 2022, contre 171 924 en 2016, soit +0,4 % (source : Insee, recensement 2022). Le niveau de vie médian est de 19 010 € par an, avec 28 % de pauvreté (source : Insee, Filosofi 2021). Notre score coût de la vie est de 7,1/10, le meilleur du lot, et notre score nature de 5,9/10.",
+      },
+      {
+        heading: "Saint-Étienne, Lyon ou Clermont-Ferrand ?",
+        body: "Lyon obtient 9,0/10 en transport (1er rang, ex æquo avec 22 autres villes), Saint-Étienne 6,7/10 et Clermont-Ferrand 6,4/10. Le T2 est à 1 000 € à Lyon, 580 € à Saint-Étienne et 680 € à Clermont-Ferrand : Saint-Étienne économise 100 € par mois face à Clermont-Ferrand (1 200 € par an) et 420 € face à Lyon (5 040 € par an). La desserte lyonnaise est bien meilleure, le coût est incomparable.",
+      },
+      {
+        heading: "Les limites sans voiture à Saint-Étienne",
+        body: "Notre score sécurité est de 4,3/10, le plus bas du lot avec Avignon : visitez le quartier à différentes heures avant de louer. La ville est très étendue et vallonnée, avec une altitude de 520 m, et trois lignes de tram ne couvrent pas toute l'agglomération. Notre score télétravail n'est que de 4,8/10, un point à vérifier si votre emploi est à distance.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 420 € est le plus bas de ce lot et le tram dessert la Cité du Design. Budget serré : le T2 à 580 € laisse une marge que Lyon ne permet pas. Famille : un T3 à 770 € est abordable, mais la sécurité de 4,3/10 impose de choisir le quartier. Si la desserte prime sur le loyer, regardez Lyon ou Grenoble.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "clermont-ferrand"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-saint-etienne-2026",
+      "demenager-a-saint-etienne-2026",
+    ],
+    tags: ["vivre sans voiture Saint-Étienne", "tram Saint-Étienne T1 T2 T3", "STAS Saint-Étienne", "mobilité Saint-Étienne", "sans voiture Loire 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-besancon-guide-2026",
+    title: "Vivre sans voiture à Besançon en 2026 : tram T1 et T2 et un T2 à 680 €",
+    metaTitle: "Vivre sans voiture à Besançon 2026 : tram Ginko, loyers, nature",
+    metaDesc: "Besançon a deux lignes de tram depuis 2014 et le meilleur score nature du lot (6,4/10). T2 à 680 € sur notre estimation. Réseau Ginko, limites, avec Dijon.",
+    category: "lifestyle",
+    emoji: "🚃",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Besançon a deux lignes de tram, T1 et T2, ouvertes le 30 août 2014 sur près de 14,5 km, et le T2 y coûte 680 € par mois sur notre estimation des loyers, contre 720 € à Dijon. Notre score transport est de 7,0/10, au 131e rang sur 593 à égalité avec 43 autres villes, comme Dijon. Avec un score nature de 6,4/10, c'est la ville du lot où l'on peut le mieux combiner vie sans voiture et accès à la nature.",
+    sections: [
+      {
+        heading: "Que dessert le tram Ginko à Besançon ?",
+        body: "Le réseau Ginko compte deux lignes de tram, T1 et T2, qui forment un tronc commun entre Hauts du Chazal et Micaud, avec un tram toutes les cinq minutes aux heures de pointe selon les sources. Le réseau mesure environ 14,5 km (une source donne 14,2 km), mis en service le 30 août 2014. Le tronc commun dessert le centre-ville et les principaux pôles de la ville.",
+      },
+      {
+        heading: "Combien coûte un logement à Besançon ?",
+        body: "Notre estimation des loyers donne 490 € pour un studio, 680 € pour un T2 et 900 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 178 € le m², sur 3 099 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Dijon est à 2 625 € le m² : sur 50 m², acheter à Besançon économise environ 22 350 €.",
+      },
+      {
+        heading: "Une ville qui gagne des habitants",
+        body: "Besançon compte 120 057 habitants en 2022, contre 116 466 en 2016, soit +3,1 % (source : Insee, recensement 2022). Le niveau de vie médian est de 20 680 € par an, avec 23 % de pauvreté (source : Insee, Filosofi 2021). Notre score qualité de vie est de 6,6/10, notre score sécurité de 5,7/10 et notre score écoles de 7,4/10 : des scores solides sur presque tous les axes.",
+      },
+      {
+        heading: "Besançon ou Dijon : lequel choisir ?",
+        body: "Les deux villes obtiennent 7,0/10 en transport. Le T2 est à 680 € à Besançon et 720 € à Dijon, soit 40 € de moins par mois, 480 € par an ; le T3 est à 900 € contre 950 €. À desserte égale, Besançon est plus abordable et plus verte (6,4/10 en nature contre 5,0/10 à Dijon). Dijon reste plus peuplée (159 941 habitants) : comparez les trajets réels avant de choisir.",
+      },
+      {
+        heading: "Les limites sans voiture à Besançon",
+        body: "Besançon est un site vallonné, dans une boucle du Doubs, avec une altitude de 250 m ; les quartiers en hauteur peuvent imposer une montée à pied ou un bus. Deux lignes de tram forment surtout un axe, et le Haut-Doubs et la nature environnante se découvrent plus facilement avec un autre moyen de transport. Vérifiez la distance de votre logement à une station.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 490 € et le tram sur l'axe central suffisent. Couple actif : le T2 à 680 € laisse un budget logement modéré. Famille : un T3 à 900 € est raisonnable et le score écoles de 7,4/10 est un vrai atout. Amateur de nature : Besançon est la meilleure option du lot.",
+      },
+    ],
+    relatedCities: ["besancon", "dijon", "belfort"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-besancon-2026",
+      "dijon-vs-besancon-comparatif-2025",
+    ],
+    tags: ["vivre sans voiture Besançon", "tram Besançon T1 T2", "Ginko Besançon", "mobilité Besançon", "sans voiture Doubs 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-avignon-guide-2026",
+    title: "Vivre sans voiture à Avignon en 2026 : une ligne de tram et un T2 à 750 €",
+    metaTitle: "Vivre sans voiture à Avignon 2026 : tram T1, Orizo, loyers",
+    metaDesc: "Avignon n'a qu'une ligne de tram (T1, 2019) et un T2 à 750 € sur notre estimation. Score transport 6,1/10, 281e sur 593. Réseau Orizo, limites, avec Nîmes.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Avignon n'a qu'une seule ligne de tram, la T1, ouverte le 19 octobre 2019 sur 5,2 km et 10 stations, et c'est la ville la plus chère du lot pour se loger : 750 € pour un T2 sur notre estimation des loyers, contre 720 € à Nîmes. Notre score transport est de 6,1/10, au 281e rang sur 593 à égalité avec 19 autres villes. Vivre sans voiture à Avignon se limite donc au centre et à l'axe de la T1.",
+    sections: [
+      {
+        heading: "Que dessert le tram Orizo à Avignon ?",
+        body: "Le réseau Orizo, qui dessert le Grand Avignon, compte une ligne de tram, la T1, qui relie Saint-Roch – Université des Métiers à Saint-Chamand – Plaine des Sports sur 5,2 km (une source donne 5,1 km). Elle a ouvert avec 14 rames Citadis. Une deuxième ligne est à l'étude, mais les sources divergent sur son tracé et sa date : nous n'en tenons pas compte.",
+      },
+      {
+        heading: "Combien coûte un logement à Avignon ?",
+        body: "Notre estimation des loyers donne 540 € pour un studio, 750 € pour un T2 et 1 000 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 321 € le m², sur 1 967 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Nîmes est à 2 106 € le m², soit 215 € de moins : sur 50 m², l'écart atteint 10 750 €.",
+      },
+      {
+        heading: "Une ville stable mais fragile socialement",
+        body: "Avignon compte 91 760 habitants en 2022, contre 92 378 en 2016, soit -0,7 % (source : Insee, recensement 2022). Le niveau de vie médian est de 17 690 € par an, avec 33 % de pauvreté (source : Insee, Filosofi 2021). Notre score culture est de 9,0/10, le plus haut de ce lot, et notre score sécurité de 4,3/10.",
+      },
+      {
+        heading: "Avignon ou Nîmes : quelle différence ?",
+        body: "Avignon et Nîmes obtiennent toutes deux 6,1/10 en transport. Le T2 est à 750 € à Avignon et 720 € à Nîmes, soit 30 € de plus par mois, 360 € par an ; le T3 est à 1 000 € contre 960 €. À desserte égale, Nîmes est un peu moins chère et plus peuplée (150 444 habitants contre 91 760), mais son score sécurité est encore plus bas, à 3,9/10.",
+      },
+      {
+        heading: "Les limites sans voiture à Avignon",
+        body: "Une seule ligne de tram, c'est un seul axe : un logement ou un emploi loin de la T1 dépend du bus. La Provence alentour, le Luberon et les villages se visitent difficilement sans voiture. Avec 4,3/10 en sécurité, comparez les rues proches de votre arrêt avant de louer.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 540 € est correct si le logement est proche de la T1 et de l'université. Couple actif : le T2 à 750 € est élevé pour la desserte. Famille : un T3 à 1 000 € est le plus cher du lot, et le score écoles de 5,3/10 invite à comparer. Amateur de culture : Avignon est imbattable, avec 9,0/10, si vous restez dans le centre.",
+      },
+    ],
+    relatedCities: ["avignon", "nimes", "marseille"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-avignon-2026",
+    ],
+    tags: ["vivre sans voiture Avignon", "tram Avignon T1", "Orizo Avignon", "mobilité Avignon", "sans voiture Vaucluse 2026"],
+  },
+  {
     slug: "meilleures-villes-sports-outdoor-plein-air-france-2026",
     title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
     metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade, kayak, ski, VTT",
