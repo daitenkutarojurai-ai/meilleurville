@@ -6127,6 +6127,36 @@
       "emoji": "🚲"
     },
     {
+      "slug": "car-free-living-in-angers-2026",
+      "title": "Car-Free Living in Angers 2026: Three Tram Lines, a €750 Two-Bed",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "car-free-living-in-tours-2026",
+      "title": "Car-Free Living in Tours 2026: One Tram Line and a €700 Two-Bed",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-caen-2026",
+      "title": "Car-Free Living in Caen 2026: The Rail Tram Since 2019",
+      "emoji": "🚊"
+    },
+    {
+      "slug": "car-free-living-in-brest-2026",
+      "title": "Car-Free Living in Brest 2026: Tram, Cable Car and a €650 Two-Bed",
+      "emoji": "🚠"
+    },
+    {
+      "slug": "car-free-living-in-le-mans-2026",
+      "title": "Car-Free Living in Le Mans 2026: Two Tram Lines, the Cheapest T2 of the Batch",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "car-free-living-in-rouen-2026",
+      "title": "Car-Free Living in Rouen 2026: Metro, TEOR and a €720 Two-Bed",
+      "emoji": "🚇"
+    },
+    {
       "slug": "living-in-ile-de-france-2026",
       "title": "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
       "emoji": "🏙️"
@@ -10094,23 +10124,23 @@
       "count": 57
     },
     {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 53
+    },
+    {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 53
+    },
+    {
       "slug": "real-estate",
       "label": "real estate",
       "count": 53
     },
     {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 52
-    },
-    {
       "slug": "expat-retirement",
       "label": "expat retirement",
-      "count": 51
-    },
-    {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
       "count": 51
     },
     {
@@ -10119,24 +10149,24 @@
       "count": 47
     },
     {
+      "slug": "normandy",
+      "label": "normandy",
+      "count": 44
+    },
+    {
       "slug": "provence",
       "label": "provence",
       "count": 44
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 42
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 34
     },
     {
       "slug": "working-in-france",
       "label": "working in france",
       "count": 34
-    },
-    {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 33
     },
     {
       "slug": "provence-alpes-cote-d-azur",

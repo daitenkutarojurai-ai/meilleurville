@@ -19846,6 +19846,246 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["marseille", "aix-en-provence", "aubagne"],
     tags: ["car-free Marseille", "living in Marseille without a car", "public transport", "cycling", "provence-alpes-cote-d-azur"],
   },
+  {
+    slug: "car-free-living-in-angers-2026",
+    title: "Car-Free Living in Angers 2026: Three Tram Lines, a €750 Two-Bed",
+    metaTitle: "Car-Free Living in Angers 2026: Tram Lines A, B, C",
+    metaDesc: "Angers has three tram lines since July 2023 and a €750 two-room flat on our rent estimate. Network, rents, limits, and how it compares with Tours and Nantes.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Yes, you can live in Angers without a car: three tram lines have served the city since July 2023, and a two-room flat (T2) costs €750 a month on our rent estimate. Our transport score is 7.0/10, ranked 131st of 593 cities in a tie with 43 others, so good without matching Nantes or Rennes (8.1/10, 43rd). The real trade-off sits elsewhere: Angers is the most expensive city of this batch to rent in, and the network does not spare you the train once you leave the urban area.",
+    sections: [
+      {
+        heading: "Which network lets you skip the car in Angers?",
+        body: "Angers has had tram line A since 2011, joined by lines B and C on 8 July 2023, which added 10.1 km of new track. The Irigo bus network was restructured at the same time and is run by RD Angers, a subsidiary of RATP Dev. Three tram lines serve a city of 157,555 people (source: INSEE, 2022 census). We give no frequencies or fares because we could not verify them: check the Irigo website before choosing your neighbourhood.",
+      },
+      {
+        heading: "How much does a well-connected home cost?",
+        body: "Our rent estimate gives €540 a month for a studio, €750 for a T2 and €1,000 for a T3 (three rooms). To buy, the median apartment price is €3,143 per m² across 3,219 sales in 2024-2025 (source: our price page, DVF notarial sales). That is €50 a month more for a T2 than in Tours (€700) and €316 more per m² (€2,827 in Tours). In return, Angers is €100 cheaper than Nantes for a T2 (€850). Living close to a tram stop is therefore the first budget decision to make.",
+      },
+      {
+        heading: "Is Angers big enough to give up the car?",
+        body: "Angers had 157,555 inhabitants in 2022, against 151,229 in 2016, up 4.2% (source: INSEE, 2022 census). Our quality-of-life score is 7.2/10, one of the best of this batch, and median living standard is €21,450 a year with a 21% poverty rate, comparable to Tours and Caen (source: INSEE, Filosofi 2021). A city this size keeps most services in the centre, which cuts the need for a vehicle for shopping, healthcare and paperwork.",
+      },
+      {
+        heading: "What stays hard without a car in Angers",
+        body: "Our nature score is 5.6/10: trips into open country, along the Loire or across Maine-et-Loire, call for a sturdy bike, a regional train (TER) or a lift-share. The transport score of 7.0/10 stays below Nantes (8.1/10), a sign of a thinner network outside the three lines. If your job is in an outlying business park, check that a bus line reaches it, and at what hour, before you give up the car.",
+      },
+      {
+        heading: "Angers, Tours or Nantes for car-free living?",
+        body: "Nantes combines 8.1/10 on transport with a €850 T2, €100 more than Angers. Tours scores 7.0/10 like Angers, with a €700 T2 but only one tram line. Angers sits between the two: the densest service among the cities at 7.0/10 in this batch (three tram lines), for a lower rent than Nantes. If rent matters most, look at Tours; if service does, Nantes; for the best compromise, Angers.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student or young professional without a car: Angers works if you live near one of the three lines and aim for a €540 studio. Couple with no children: the €750 T2 and the network make a car optional on weekdays. Family of five with a job in the outskirts: the car stays useful, and a €1,000 T3 near the tram is a budget to check. Remote worker: the tram covers daily life, a TER or lift-share covers the rest.",
+      },
+    ],
+    relatedCities: ["angers","tours","nantes"],
+    tags: ["car-free Angers","Angers tram lines A B C","Irigo Angers","living in Angers without a car","pays-de-la-loire"],
+  },
+  {
+    slug: "car-free-living-in-tours-2026",
+    title: "Car-Free Living in Tours 2026: One Tram Line and a €700 Two-Bed",
+    metaTitle: "Car-Free Living in Tours 2026: Tram, Fil Bleu, Vélociti",
+    metaDesc: "Tours has one tram line, but a €700 T2 on our rent estimate and a compact centre. Fil Bleu network, rents and limits, with Angers and Orléans.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Living in Tours without a car is possible but rests on a single tram line: line A, in service since 31 August 2013, backed by Fil Bleu buses and by bicycles. In exchange, rents stay gentle, at €700 a month for a two-room flat (T2) on our rent estimate. Our transport score is 7.0/10, ranked 131st of 593 in a tie with 43 other cities, the same level as Angers, which has three lines. The question is less \"is there a tram?\" than \"are my home and my job on line A?\"",
+    sections: [
+      {
+        heading: "What does the Fil Bleu network cover in Tours?",
+        body: "Tram line A runs from the Vaucanson lycée in Tours-Nord to the Jean-Monnet lycée in the south of Joué-lès-Tours, roughly following the old bus line 1. The Fil Bleu network, run by Keolis Tours for Tours Métropole Val de Loire, handles the rest by bus. A line B, from La Riche to Chambray, is planned, but announced dates differ from one source to another, so we would not count on it when choosing where to live.",
+      },
+      {
+        heading: "By bike: Vélociti and a compact centre",
+        body: "Vélociti is a long-term bike rental service launched in 2006 and run by the Touraine mobility authority for residents of the communes served by Fil Bleu. Renting a bike by the year avoids buying a quality model and the risk of theft. In a city of 138,668 people (source: INSEE, 2022 census), the compact centre makes cycling credible for everyday trips, which the tram alone cannot do.",
+      },
+      {
+        heading: "What rent near line A?",
+        body: "Our rent estimate gives €510 a month for a studio, €700 for a T2 and €940 for a T3 (three rooms). The median apartment price is €2,827 per m² across 3,239 sales in 2024-2025 (source: our price page, DVF notarial sales). That is €50 less than Angers for a T2 (€750) and €316 less per m² (€3,143). Orléans shows the same €700 T2 but a m² price €289 lower (€2,538), for a lower-rated network (6.4/10).",
+      },
+      {
+        heading: "Does the city cover the rest of daily life?",
+        body: "Tours gained 2,103 inhabitants between 2016 (136,565) and 2022 (138,668), up 1.5% (source: INSEE, 2022 census). Our quality-of-life score is 6.6/10 and our nature score 5.0/10. Median living standard is €21,250 a year, with a 21% poverty rate (source: INSEE, Filosofi 2021). These figures describe a balanced city without excessive prices, where the centre has what you need day to day.",
+      },
+      {
+        heading: "The weak point: a single tram line",
+        body: "With one tram line, much of the urban area depends on the bus. A home near line A changes everything: the same €700 T2 far from the line may force you onto a bus for every trip. For a job in a business park, check the bus line and its evening hours before committing, because we have no verified frequencies to give you.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €510 studio and a spot near line A make a car pointless. Remote-working couple: Tours suits, with a €700 T2 and rental bikes. Family with children in several schools: the car is often simpler, since the tram covers only one axis. Independent senior: the compact centre and the tram are enough, as long as you live near a stop.",
+      },
+    ],
+    relatedCities: ["tours","angers","orleans"],
+    tags: ["car-free Tours","Tours tram line A","Fil Bleu Tours","Vélociti Tours","centre-val-de-loire"],
+  },
+  {
+    slug: "car-free-living-in-caen-2026",
+    title: "Car-Free Living in Caen 2026: The Rail Tram Since 2019",
+    metaTitle: "Car-Free Living in Caen 2026: Tram T1 T2 T3, Twisto",
+    metaDesc: "Caen has had three rail tram lines since July 2019 and a €700 T2 on our rent estimate. Network, rents, limits, with Rouen and Le Havre.",
+    category: "lifestyle",
+    emoji: "🚊",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Caen became easier to live in without a car on 27 July 2019, when a three-line rail tramway (T1, T2, T3) replaced the old rubber-tyred tram. A two-room flat (T2) costs €700 a month on our rent estimate, €20 less than in Rouen. Our transport score is 7.0/10, ranked 131st of 593 in a tie with 43 other cities, which puts Caen ahead of Rouen (6.7/10) and Le Havre (6.2/10) in the region.",
+    sections: [
+      {
+        heading: "What changed with the 2019 tram?",
+        body: "The rubber-tyred tram, in service from 2002 to 2017, stopped on 31 December 2017 to make way for the rail tramway, opened on 27 July 2019 with three lines (T1, T2, T3) and 37 stations according to the sources we cross-checked. The network runs under the Twisto brand. The tram serves Caen and also neighbouring communes such as Hérouville-Saint-Clair and Fleury-sur-Orne, which matters if you live or work on the edge.",
+      },
+      {
+        heading: "What rent in Caen to get around easily?",
+        body: "Our rent estimate gives €510 a month for a studio, €700 for a T2 and €930 for a T3 (three rooms). To buy, the median apartment price is €2,893 per m² across 3,216 sales in 2024-2025 (source: our price page, DVF notarial sales). That is €201 more per m² than in Rouen (€2,692) but €20 less a month for a T2 (€720). Le Havre stays cheaper: €650 for a T2 and €2,237 per m².",
+      },
+      {
+        heading: "A city of 108,398 people: distances stay short",
+        body: "Caen had 108,398 inhabitants in 2022, against 105,403 in 2016, up 2.8% (source: INSEE, 2022 census). Median living standard is €21,600 a year, with a 21% poverty rate (source: INSEE, Filosofi 2021), the highest of this batch. Our quality-of-life score is 6.6/10 and our safety score 5.9/10. In a city this size many trips fit on foot or by bike, and the tram takes over for the longer ones.",
+      },
+      {
+        heading: "Vélolib and cycling in Caen",
+        body: "The Vélolib bike-share was launched on 31 January 2018; sources disagree on the number of stations (22 or 23 in 2019), so we do not quote one. The service fills the last kilometres after the tram. Our nature score of 5.6/10 means you will need some transport for outings into open country around Caen.",
+      },
+      {
+        heading: "The limits without a car",
+        body: "The tram follows three axes: neighbourhoods on none of T1, T2 or T3 depend on the bus. For a job in a business park or on the edge of the urban area, check public transport access line by line before signing a lease. A transport score of 7.0/10 is level with Angers and Tours, and 1.1 points below Nantes and Rennes (8.1/10).",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €510 studio and the tram to the campuses make a car unnecessary. Working couple: Caen works if one of you has a job on a tram axis. Family with several children: a €930 T3 near a station is possible, but scattered school runs can justify a car. Retiree: the compact centre and the tram are enough, with a quality-of-life score of 6.6/10.",
+      },
+    ],
+    relatedCities: ["caen","rouen","le-havre"],
+    tags: ["car-free Caen","Caen tramway T1 T2 T3","Twisto Caen","Vélolib Caen","normandy"],
+  },
+  {
+    slug: "car-free-living-in-brest-2026",
+    title: "Car-Free Living in Brest 2026: Tram, Cable Car and a €650 Two-Bed",
+    metaTitle: "Car-Free Living in Brest 2026: Tram Lines A and B, Cable Car",
+    metaDesc: "Brest has had a tram since 2012, an urban cable car since 2016 and line B since February 2026. €650 T2 on our rent estimate. Compared with Rennes.",
+    category: "lifestyle",
+    emoji: "🚠",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Brest is the only city in this batch where an urban cable car is part of the transport network, and rent is the lowest of the batch alongside Le Mans: €650 for a two-room flat (T2) on our rent estimate, against €820 in Rennes. Tram line A dates from 2012, the cable car from 2016, and line B opened on 14 February 2026. Our transport score is 6.4/10, ranked 200th of 593 in a tie with 47 other cities: service is weaker than in Angers or Caen, but housing costs far less.",
+    sections: [
+      {
+        heading: "Which Bibus network lets you skip the car in Brest?",
+        body: "The Bibus network includes tram line A (opened in 2012, from the Plouzané gate to the Gouesnou and Guipavas gates), an urban cable car linking the Jean-Moulin district to the Ateliers, opened in 2016 as France's first urban cable car, and tram line B, opened on 14 February 2026 between the station and the CHU La Cavale hospital over 5.1 km. It connects to line A at Liberté. One Bibus ticket is valid on tram, bus and cable car. Line B is too recent to judge.",
+      },
+      {
+        heading: "How much does housing cost in Brest?",
+        body: "Our rent estimate gives €480 a month for a studio, €650 for a T2 and €850 for a T3 (three rooms). To buy, the median apartment price is €2,134 per m² across 3,620 sales in 2024-2025 (source: our price page, DVF notarial sales). In Rennes a T2 costs €820 and a T3 €1,100: the gap is €170 a month on the T2, or €2,040 a year, before the difference in price per m² (€3,667 in Rennes).",
+      },
+      {
+        heading: "Is Brest big enough to live without a car?",
+        body: "Brest had 140,993 inhabitants in 2022, against 139,342 in 2016, up 1.2% (source: INSEE, 2022 census). Median living standard is €21,420 a year, with a 19% poverty rate, the lowest share of the batch (source: INSEE, Filosofi 2021). Our nature score is 6.4/10, the best of the batch, and our cost-of-living score is 6.4/10.",
+      },
+      {
+        heading: "Brest, Rennes or Quimper: which network?",
+        body: "Rennes scores 8.1/10 on transport (43rd), Brest 6.4/10 (200th), Quimper 5.5/10 (332nd, tied with 24 other cities). A T2 costs €820 in Rennes, €650 in Brest and €700 in Quimper. Brest is the cheapest of the three, and service is clearly better than in Quimper. If your job is in Rennes, the question changes: the intercity trip, not the city, becomes the issue.",
+      },
+      {
+        heading: "The limits without a car in Brest",
+        body: "The three modes (tram, cable car, bus) concentrate on the centre and a few axes. A neighbourhood off line A or B depends on the bus, and Brittany beyond the urban area is hard to explore without a car. A transport score of 6.4/10 is that of a decently served city that is not a metropolis.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €480 studio and line B to the hospital campus make the car optional. Working couple: the €650 T2 keeps the housing budget low, with a tram on the main axis. Family: a €850 T3 stays affordable, but school runs off the axis weigh. Retiree: the sea and the setting count, and line A and the cable car cover daily life.",
+      },
+    ],
+    relatedCities: ["brest","rennes","quimper"],
+    tags: ["car-free Brest","Brest tram line A line B","Brest cable car","Bibus Brest","brittany"],
+  },
+  {
+    slug: "car-free-living-in-le-mans-2026",
+    title: "Car-Free Living in Le Mans 2026: Two Tram Lines, the Cheapest T2 of the Batch",
+    metaTitle: "Car-Free Living in Le Mans 2026: Tram T1 T2, Setram, Rents",
+    metaDesc: "Le Mans has two tram lines and a €650 T2 on our rent estimate, but a transport score of 6.1/10. Setram network, rents, limits, with Tours and Angers.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Living in Le Mans without a car is possible if you live and work along the two tram lines, T1 and T2, and a two-room flat (T2) costs just €650 a month on our rent estimate, against €700 in Tours and €750 in Angers. But our transport score is only 6.1/10, ranked 281st of 593 in a tie with 19 other cities: the weakest of the batch. Le Mans is the budget choice, not the service choice.",
+    sections: [
+      {
+        heading: "What does the Setram network cover in Le Mans?",
+        body: "Setram runs two tram lines, T1 and T2, serving Le Mans and Coulaines, and a bus rapid transit line, T3 Tempo, serving Le Mans and Allonnes. In 2014 T1 lost its branch to the ESPAL, which T2 took over. The network covers the 19 communes of Le Mans Métropole. Some sources mention a third tram line, with no confirmed status: we do not factor it in.",
+      },
+      {
+        heading: "How much does housing cost in Le Mans?",
+        body: "Our rent estimate gives €470 a month for a studio, €650 for a T2 and €870 for a T3 (three rooms), the lowest of this batch. The median apartment price is €1,933 per m² across 2,356 sales in 2024-2025 (source: our price page, DVF notarial sales), against €2,827 in Tours and €3,143 in Angers. On a 50 m² purchase the gap with Tours is close to €45,000.",
+      },
+      {
+        heading: "A big city that sprawls: what the demographics say",
+        body: "Le Mans had 145,182 inhabitants in 2022, against 142,991 in 2016, up 1.5% (source: INSEE, 2022 census). Median living standard is €21,180 a year, with a 22% poverty rate (source: INSEE, Filosofi 2021). Our quality-of-life score is 5.5/10 and our nature score 4.8/10.",
+      },
+      {
+        heading: "Le Mans, Tours or Angers: what is the service gap worth?",
+        body: "Tours and Angers score 7.0/10 on transport, Le Mans 6.1/10. On a T2 you save €50 a month against Tours and €100 against Angers, or €600 to €1,200 a year. In return, service is thinner: two tram lines against three in Angers. Le Mans does have an edge for long trips: the station is under an hour from Paris by TGV.",
+      },
+      {
+        heading: "The limits without a car",
+        body: "At 6.1/10, part of the urban area is served by bus only, and outlying communes can depend on a car. Our nature score of 4.8/10 is the lowest of the batch after Rouen: plan some transport for outings into the countryside. Before signing, measure on foot the distance between your home and a T1 or T2 stop.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €470 studio makes the city affordable if the home is near a stop. Young professional commuting to Paris by TGV: Le Mans combines low rent and a well-placed station. Family: a €870 T3 is a good deal, but a car often makes life easier away from the tram axes. If service matters more than rent, choose Tours or Angers.",
+      },
+    ],
+    relatedCities: ["le-mans","tours","angers"],
+    tags: ["car-free Le Mans","Le Mans tram T1 T2","Setram Le Mans","living in Le Mans without a car","pays-de-la-loire"],
+  },
+  {
+    slug: "car-free-living-in-rouen-2026",
+    title: "Car-Free Living in Rouen 2026: Metro, TEOR and a €720 Two-Bed",
+    metaTitle: "Car-Free Living in Rouen 2026: Metro, TEOR, Lovélo, Rents",
+    metaDesc: "Rouen has a metro, TEOR buses and a bike-share, but a transport score of 6.7/10 and a €720 T2. Astuce network, rents, limits, with Caen.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Rouen has a metro, bus rapid transit lines (TEOR and Fast) and a bike-share, making it the only city in this batch with a metro. Our transport score is still 6.7/10, ranked 185th of 593 in a tie with 12 other cities, below Caen (7.0/10). A two-room flat (T2) costs €720 a month on our rent estimate, €20 more than in Caen. The city is worth it if you work along the metro axis, less so if you live on the outskirts.",
+    sections: [
+      {
+        heading: "Which Astuce network in Rouen?",
+        body: "The Astuce network of the Rouen Normandie metropolis combines a metro (a tramway running in a tunnel through the centre), TEOR lines on dedicated lanes, Fast lines and buses. Sources disagree on the exact number of TEOR lines, some mentioning a T5 opening at the end of 2025, so we give no figure. Folding bikes are allowed on the whole network, other bikes on the metro, the TEOR and accessible buses.",
+      },
+      {
+        heading: "Lovélo and cycling in Rouen",
+        body: "The old Cy'clic service has given way to Lovélo, a bike-share available day and night, with several hundred bikes. Our nature score of 4.5/10 is the lowest of the batch: for trips into open country, plan a mode of transport other than the metro.",
+      },
+      {
+        heading: "How much does housing cost in Rouen?",
+        body: "Our rent estimate gives €520 a month for a studio, €720 for a T2 and €950 for a T3 (three rooms). The median apartment price is €2,692 per m² across 3,532 sales in 2024-2025 (source: our price page, DVF notarial sales). Caen is at €700 for a T2 and €2,893 per m²: Rouen is €20 dearer to rent but €201 cheaper per m² to buy. Le Havre is at €650 for a T2.",
+      },
+      {
+        heading: "A growing metropolis, but a tighter market",
+        body: "Rouen had 116,331 inhabitants in 2022, against 110,117 in 2016, up 5.6% (source: INSEE, 2022 census), the strongest rise of the batch. Median living standard is €21,330 a year, with a 23% poverty rate (source: INSEE, Filosofi 2021). Our safety score is 4.7/10, the lowest of the batch, and our quality-of-life score 5.7/10: both are points to check by neighbourhood before renting.",
+      },
+      {
+        heading: "Rouen or Caen without a car?",
+        body: "Caen scores 7.0/10 on transport, Rouen 6.7/10; Caen has a rail tram on three lines, Rouen a metro and TEOR. The difference lies in coverage of the outskirts, not in the mode. Le Havre is at 6.2/10 for a €650 T2. For a steady housing budget Rouen is a compromise: €720 against €700 in Caen, with faster population growth that can tighten the market.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student or young professional: the €520 studio and the metro are enough if you live along the axis. Working couple: the €720 T2 is fair, with safety to check by neighbourhood. Family: a €950 T3 is reasonable, but scattered school runs can justify a car. If you hesitate with Caen, compare the commutes, not the networks.",
+      },
+    ],
+    relatedCities: ["rouen","caen","le-havre"],
+    tags: ["car-free Rouen","Rouen metro TEOR","Astuce Rouen","Lovélo Rouen","normandy"],
+  },
 
   {
     slug: "living-in-ile-de-france-2026",
