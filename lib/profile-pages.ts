@@ -1130,7 +1130,67 @@ export const PROFILE_PAGES: ProfileDef[] = [
     metaDescription:
       "Top 20 villes françaises quand une pathologie chronique impose des rendez-vous réguliers : généralistes, spécialistes, urgences, pharmacies, trajets, coût.",
     intro:
-      "Suivi médical régulier : quand une pathologie chronique impose des rendez-vous tous les mois ou toutes les semaines (dialyse, chimiothérapie, rééducation après un AVC, suivi cardiologique, diabète insulino-dépendant, maladie inflammatoire, sclérose en plaques), la carte de France qui décide de votre quotidien n'est ni celle du dynamisme économique ni celle du cadre de vie, c'est celle de l'accès aux soins. Ce profil se distingue nettement des trois qui en approchent : « personnes à mobilité réduite » pondère d'abord l'accessibilité PMR des transports et la marchabilité du centre-ville, « proches aidants » accompagne quelqu'un d'autre et cherche avant tout du calme et un tissu médico-social, « asthmatiques et allergiques » vise l'air respirable plutôt que l'offre de soins. Aucun de ces trois-là ne regarde ce qui compte ici. Le critère cardinal est donc l'accès aux soins lui-même, agrégé sur quatre dimensions : la densité de médecins généralistes pour 35 %, parce que c'est la porte d'entrée du système et celle qui décide si vous trouverez un médecin traitant (sans médecin traitant déclaré, le remboursement d'une consultation tombe de 70 % à 30 %) ; la présence de spécialistes et d'un plateau technique pour 25 %, la distance à un service d'accueil des urgences pour 25 %, le maillage de pharmacies pour 15 %. Une précision d'emblée, parce qu'elle change la façon de lire ce classement : seule la distance au site de CHU le plus proche y est mesurée, sur les communes d'implantation recensées ; tout le reste est une estimation construite depuis le département et la taille de la commune, calibrée sur les références publiques de la DREES, du Conseil national de l'Ordre des médecins et du zonage ARS (zones d'intervention prioritaire et zones d'action complémentaire). Ce n'est pas un relevé de cabinets commune par commune, et deux villes du même département partagent ici la même densité de généralistes alors que l'une peut avoir vu partir deux médecins l'an dernier. Le coût vient ensuite, et pas pour la raison qu'on croit : l'ALD exonérante, c'est-à-dire la liste des trente affections de longue durée, prend en charge à 100 % du tarif de la Sécurité sociale les soins liés à l'affection, mais elle ne couvre ni les dépassements d'honoraires, ni le forfait journalier hospitalier, ni ce qui relève des autres soins, et un temps partiel thérapeutique ampute le revenu au moment précis où les frais montent. Les transports pèsent autant, parce que la vraie unité de compte d'un suivi chronique n'est pas la consultation mais le trajet répété : trois séances de dialyse par semaine, ce sont plus de trois cents allers-retours par an. Le véhicule sanitaire léger et le taxi conventionné sont remboursés sur prescription en ALD, mais ils supposent une offre disponible localement, et beaucoup de traitements contre-indiquent la conduite pendant plusieurs heures. Suivent la résistance à la canicule, parce que les personnes atteintes de maladie chronique figurent parmi les publics à risque du plan national canicule : la chaleur décompense l'insuffisance cardiaque et rénale, et plusieurs traitements courants altèrent la thermorégulation. Puis la qualité de l'air, la qualité de vie générale, la sécurité et le calme. Résultat : le palmarès est tenu par deux familles de villes, et la seconde est la surprise. D'abord les villes universitaires de taille moyenne dotées d'un CHU, où l'accès maximal se paie encore un loyer raisonnable : Rennes sort en tête (accès 7,9/10, T3 à 1 100 €), devant Strasbourg (7,9 et 1 080 €), Brest, Angers, Lille, Nantes, Dijon et Caen. Ensuite des communes de la petite couronne parisienne, qui doivent leur rang à la distance et non à leur taille : Ivry-sur-Seine et Vitry-sur-Seine ferment les dix premières, Vincennes, Issy-les-Moulineaux, Levallois-Perret, Neuilly-sur-Seine et Créteil figurent dans les vingt, aux côtés de Bordeaux, Besançon, Saint-Étienne, Reims et Nancy. Aucune de ces sept-là n'héberge de CHU sous son propre nom, et toutes sont à moins de dix kilomètres d'un site de l'AP-HP — c'est exactement ce que l'ancien modèle ne voyait pas, puisqu'il testait le nom de la commune au lieu de la distance. Les rangs 16 à 22 partagent la même note de 6,9 : le vingtième n'est pas départagé du vingt-deuxième, et Grenoble, Tours, Limoges et Rouen suivent à 6,8. Deux d'entre elles méritent d'être regardées de près par qui doit tenir un budget : Saint-Étienne aligne l'accès maximal (7,9) avec le logement le moins cher du top 20, T3 à 770 € et mètre carré à 1 500 € ; Limoges, vingt-cinquième, tient 7,1 à 800 € et 1 600 €. Le contraste avec les communes franciliennes du classement est net : Neuilly-sur-Seine loue le même T3 2 500 € pour le même accès de 7,9. Brest, troisième, illustre le compromis inverse : plateau hospitalier et spécialistes au plus haut, généralistes seulement dans la moyenne du Finistère, mais l'air, le calme et les étés les plus tempérés du classement. Deux pièges se lisent en creux, et ils sont l'intérêt principal de ce classement. Le premier est rural : les villes qui paraissent les plus abordables sont exactement celles où l'accès s'effondre — Guéret loue un T3 630 € et vend le mètre carré 1 000 €, avec un accès aux soins à 2,3/10 ; Aurillac 560 € pour 3,1 ; Mende 640 € pour 3,0 ; Nevers 710 € pour 3,6. Un budget qui tient sur le papier ne tient plus dès qu'il faut deux heures de route pour un rendez-vous mensuel. Vingt-deux villes du site tombent au niveau « désert » de l'échelle : elles comptent toutes moins de quinze mille habitants, et toutes affichent un mètre carré inférieur au prix médian du site. La corrélation n'a rien d'un hasard, et c'est elle qu'il faut retenir de cette page. Le second est touristique, et il cumule les deux défauts : Arcachon demande 1 500 € de T3 et 6 800 € du mètre carré pour un accès à 3,5, Gordes 1 560 € pour 3,4, Saint-Tropez 2 600 € et 12 000 € pour 4,2. Beaucoup de résidences secondaires, peu de médecins à l'année. Reste le paradoxe des très grandes villes, qui vaut d'être dit franchement : Paris, Marseille et Nice affichent toutes les trois l'accès maximal, 7,9/10, et sortent pourtant 110ᵉ, 251ᵉ et 189ᵉ. Paris décroche sur le coût seul (T3 à 2 800 €, mètre carré à 10 500 €), Nice sur le coût et la chaleur, Marseille sur la chaleur, l'air et des transports en retrait. L'accès aux soins ne se paie pas qu'en kilomètres. Un rappel pour finir, qui vaut plus que le classement lui-même : ceci est un point de départ, pas un audit. Avant tout déménagement, la vérification qui compte est de savoir si un médecin traitant accepte de nouveaux patients dans le quartier visé, si le service qui vous suit a une équivalence sur place, et sous quel délai. Trois réponses qu'aucun modèle ne peut donner, et que l'établissement concerné, la CPAM et l'ARS de la région donnent en un appel.",
+      "Suivi médical régulier : quand une pathologie chronique impose des rendez-vous tous les mois ou toutes les " +
+      "semaines (dialyse, chimiothérapie, rééducation après un AVC, suivi cardiologique, diabète " +
+      "insulino-dépendant, maladie inflammatoire, sclérose en plaques), la carte de France qui décide de votre " +
+      "quotidien n'est ni celle du dynamisme économique ni celle du cadre de vie, c'est celle de l'accès aux soins. " +
+      "Ce profil se distingue nettement des trois qui en approchent : « personnes à mobilité réduite » pondère " +
+      "d'abord l'accessibilité PMR des transports et la marchabilité du centre-ville, « proches aidants » " +
+      "accompagne quelqu'un d'autre et cherche avant tout du calme et un tissu médico-social, « asthmatiques et " +
+      "allergiques » vise l'air respirable plutôt que l'offre de soins. Aucun de ces trois-là ne regarde ce qui " +
+      "compte ici. Le critère cardinal est donc l'accès aux soins lui-même, agrégé sur quatre dimensions : l'accès " +
+      "aux médecins généralistes pour 35 %, parce que c'est la porte d'entrée du système et celle qui décide si " +
+      "vous trouverez un médecin traitant (sans médecin traitant déclaré, le remboursement d'une consultation tombe " +
+      "de 70 % à 30 %) ; la présence de spécialistes et d'un plateau technique pour 25 %, la distance à un service " +
+      "d'accueil des urgences pour 25 %, le maillage de pharmacies pour 15 %. Une précision d'emblée, parce qu'elle " +
+      "change la façon de lire ce classement : trois de ces quatre dimensions sont mesurées. L'accès aux " +
+      "généralistes est l'indicateur d'accessibilité potentielle localisée (APL) de la DREES, millésime 2024 : le " +
+      "nombre de consultations accessibles par an et par habitant, médecins des communes voisines compris. Les " +
+      "services d'urgences et les pharmacies sont ceux que recense l'Insee dans sa base des équipements, et la " +
+      "distance au service d'urgences le plus proche se mesure à vol d'oiseau. Les spécialistes, eux, restent " +
+      "estimés d'après la distance au CHU et la taille de la ville, et aucun de ces chiffres ne dit si un médecin " +
+      "accepte de nouveaux patients. Le coût vient ensuite, et pas pour la raison qu'on croit : l'ALD exonérante, " +
+      "c'est-à-dire la liste des trente affections de longue durée, prend en charge à 100 % du tarif de la Sécurité " +
+      "sociale les soins liés à l'affection, mais elle ne couvre ni les dépassements d'honoraires, ni le forfait " +
+      "journalier hospitalier, ni ce qui relève des autres soins, et un temps partiel thérapeutique ampute le " +
+      "revenu au moment précis où les frais montent. Les transports pèsent autant, parce que la vraie unité de " +
+      "compte d'un suivi chronique n'est pas la consultation mais le trajet répété : trois séances de dialyse par " +
+      "semaine, ce sont plus de trois cents allers-retours par an. Le véhicule sanitaire léger et le taxi " +
+      "conventionné sont remboursés sur prescription en ALD, mais ils supposent une offre disponible localement, et " +
+      "beaucoup de traitements contre-indiquent la conduite pendant plusieurs heures. Suivent la résistance à la " +
+      "canicule, parce que les personnes atteintes de maladie chronique figurent parmi les publics à risque du plan " +
+      "national canicule : la chaleur décompense l'insuffisance cardiaque et rénale, et plusieurs traitements " +
+      "courants altèrent la thermorégulation. Puis la qualité de l'air, la qualité de vie générale, la sécurité et " +
+      "le calme. Résultat : le palmarès est tenu par les villes universitaires dotées d'un CHU, où l'accès est au " +
+      "plus haut et le loyer encore raisonnable. Rennes, Strasbourg, Brest et Caen partagent la tête à 7,4, sans " +
+      "départage possible (Rennes : accès 7,6/10 et T3 à 1 100 € ; Strasbourg : 8,0 et 1 080 € ; Brest : 7,9 et 850 " +
+      "€ ; Caen : 8,1 et 930 €), devant Saint-Quentin, Besançon, Angers, Lille, Nancy et Lens. Deux villes moyennes " +
+      "des Hauts-de-France s'y glissent pour la même raison : Saint-Quentin (accès 6,8, T3 à 650 €) et Lens (7,4, " +
+      "T3 à 590 €) mesurent un accès aux généralistes nettement au-dessus de la moyenne nationale, avec les deux " +
+      "loyers les plus bas du top 20. Le bas du tableau n'est pas départagé : quinze villes sortent à 7,0, du 14ᵉ " +
+      "au 28ᵉ rang. Nantes, Bordeaux, Dijon, Tours, Poitiers, Amiens et Beauvais figurent dans les vingt affichés ; " +
+      "Ivry-sur-Seine, Amboise, Obernai, Issoire, Rezé, Illkirch-Graffenstaden, Vandœuvre-lès-Nancy et " +
+      "Hérouville-Saint-Clair ont la même note juste derrière, et l'ordre affiché entre elles n'est pas un " +
+      "départage. Limoges, onzième, tient 7,9 d'accès pour 800 € le T3 et 1 600 € le mètre carré ; Saint-Étienne, " +
+      "qui aligne 7,2 d'accès avec un T3 à 770 €, sort 50ᵉ. Deux pièges se lisent en creux, et ils sont l'intérêt " +
+      "principal de ce classement. Le premier n'est pas où on l'attend. Les sous-préfectures rurales, qu'une " +
+      "lecture par département range d'office en désert médical, concentrent en réalité les médecins de leur bassin " +
+      ": Guéret mesure 3,02 consultations accessibles par habitant, au-dessus du seuil de zone sous-dense (2,5), " +
+      "Aurillac 4,96 et Vesoul 5,62, au-dessus de la moyenne nationale (3,72). Le manque le plus net est en grande " +
+      "couronne parisienne : Houilles mesure 1,15, le plus bas des villes du site, Argenteuil 1,68, et 65 des 78 " +
+      "villes de plus de 10 000 habitants sous le seuil de zone sous-dense sont franciliennes. Houilles loue son T3 " +
+      "1 480 € pour un accès à 4,6/10 et sort 560ᵉ : le budget ne tient pas, et l'accès non plus. Le second piège " +
+      "est touristique : Arcachon demande 1 500 € de T3 et 6 800 € du mètre carré pour un accès à 5,8, sans service " +
+      "d'urgences dans la commune même, Gordes 1 560 € pour 4,7, Saint-Tropez 2 600 € et 12 000 € pour 5,6. " +
+      "Beaucoup de résidences secondaires, et des spécialistes loin. Reste le paradoxe des très grandes villes, qui " +
+      "vaut d'être dit franchement : Paris, Marseille et Nice affichent un accès parmi les meilleurs du site, 8,2, " +
+      "8,1 et 8,0/10, et sortent pourtant 160ᵉ, 385ᵉ et 341ᵉ. Paris décroche sur le coût seul (T3 à 2 800 €, mètre " +
+      "carré à 10 500 €), Nice sur le coût et la chaleur, Marseille sur la chaleur, l'air et des transports en " +
+      "retrait. L'accès aux soins ne se paie pas qu'en kilomètres. Un rappel pour finir, qui vaut plus que le " +
+      "classement lui-même : ceci est un point de départ, pas un audit. Avant tout déménagement, la vérification " +
+      "qui compte est de savoir si un médecin traitant accepte de nouveaux patients dans le quartier visé, si le " +
+      "service qui vous suit a une équivalence sur place, et sous quel délai. Trois réponses qu'aucun modèle ne " +
+      "peut donner, et que l'établissement concerné, la CPAM et l'ARS de la région donnent en un appel.",
     weights: {
       healthcareAccess: 3.0,
       transport: 1.5,
@@ -1197,94 +1257,90 @@ export const PROFILE_PAGES: ProfileDef[] = [
     metaDescription:
       "Top 20 des villes où installer un cabinet quand on est médecin, infirmier ou kiné : manque de soignants estimé, coût du logement, écoles, zonage ARS.",
     intro:
-      "Professionnels de santé : ce classement récompense une pénurie, et autant le dire avant le premier " +
-      "rang. Les trente-six autres profils cherchent une ville où vivre ; celui-ci cherche une " +
-      "ville où installer un cabinet, et la question du praticien est l'exact inverse de celle du patient. « Suivi " +
-      "médical régulier » classe l'accès aux soins du point de vue de qui doit s'y rendre, donc récompense " +
-      "l'abondance ; ici la même mesure entre avec le même signe mais se lit dans l'autre sens, parce qu'un " +
-      "territoire où l'on ne trouve pas de médecin traitant est une patientèle qui attend. Ce n'est pas non plus « " +
-      "proches aidants », qui accompagne quelqu'un d'autre et cherche du calme, ni « personnes à mobilité réduite " +
-      "», qui pondère l'accessibilité des transports. Le précédent existe déjà dans ce fichier : la tension " +
-      "locative est une nuisance pour le locataire, et elle entre sans inversion, avec un poids positif, sur le " +
-      "seul profil « investisseurs locatifs », parce qu'un marché tendu signifie un délai de relocation court. Le " +
-      "manque de soignants joue ici le même rôle, et comme là-bas, la même clé sur un profil de patient serait un " +
-      "bug. Le critère cardinal est donc le manque estimé de soignants, agrégé sur quatre dimensions : la densité " +
-      "de généralistes, la présence de spécialistes et d'un plateau technique, la distance à un service d'accueil " +
-      "des urgences, le maillage de pharmacies. Un mot sur ce que ce chiffre est, avant de lire un seul rang. Ce " +
-      "n'est pas un relevé de cabinets commune par commune : c'est une estimation construite depuis le département " +
-      "et la taille de la commune, dont les paliers sont calés sur des cadres de référence publics, à savoir les " +
-      "statistiques de la DREES, l'atlas démographique du Conseil national de l'Ordre des médecins et le zonage " +
-      "des agences régionales " +
-      "de santé. Aucun de ces relevés n'est ingéré, et la seule chose réellement mesurée ici est la distance au " +
-      "site de CHU le plus proche. La conséquence se mesure elle aussi : 73 % de la variance de cet indicateur " +
-      "s'explique par le seul département, sur les 102 que compte le corpus. Autrement dit, ce classement trie des " +
-      "départements avant de trier des villes, et deux communes voisines y partagent la même densité de " +
-      "généralistes alors que l'une a peut-être vu partir deux médecins l'an dernier. La grille n'est pas plate " +
-      "pour autant à l'intérieur d'un département, parce que les dimensions urgences, spécialistes et pharmacies " +
-      "suivent la taille de la commune : dans la Sarthe, La Flèche et Sablé-sur-Sarthe sortent à 7,7 quand Le Mans, " +
-      "préfecture dotée d'un centre hospitalier, tombe à 5,2. C'est ce quart de variance restant qui sépare une " +
-      "sous-préfecture d'une ville-centre, et c'est lui qui rend la page lisible. Sur les 593 villes, 22 atteignent " +
-      "le niveau « désert » de l'échelle, 205 le niveau « tendu », 194 sont correctes et 172 faciles, pour une " +
-      "médiane à 4,5. Le coût du logement vient juste derrière, avec un poids volontairement élevé : une " +
-      "installation en libéral, c'est un local à trouver et souvent un emprunt, au moment précis où l'on renonce à " +
-      "un salaire. Suivent la qualité de vie, les écoles (on s'installe rarement seul, et une installation en " +
-      "libéral s'envisage pour dix ans, donc pour une scolarité entière), puis une demi-part de sécurité et une " +
-      "demi-part de nature. Le résultat n'est surtout pas « les villes les plus dépourvues », et c'est " +
-      "l'enseignement principal de la page. Seize des 22 villes de niveau désert sont dans ce top 20, mais les deux " +
-      "plus dépourvues du corpus n'y sont pas : Mauriac, qui affiche le manque le plus élevé de toutes nos villes à " +
-      "8,2, sort 84ᵉ, et Clamecy, à 8,0, sort 99ᵉ — la première avec une qualité de vie à 3,8 et des écoles à 2,2, " +
-      "la seconde à 4,5 et 2,4. Aubusson porte le même 8,0 que Clamecy et sort 5ᵉ, parce que sa qualité de vie est " +
-      "à 6,4 et ses écoles à 4,5. La pénurie seule ne suffit donc pas à faire un bon endroit pour installer un " +
-      "cabinet, et quatre villes du top 20 ne sont même pas au niveau désert mais seulement tendu : Saint-Girons, " +
-      "Fontenay-le-Comte, Florac-Trois-Rivières et Gourdon. Gérardmer sort en tête avec un manque à 7,9 et la " +
-      "meilleure qualité de vie du classement à 8,7, mais c'est aussi le logement le plus cher des vingt (T3 à 870 " +
-      "€, mètre carré à 2 200 €) : elle ne gagne pas en étant bon marché. Suivent Autun, Saint-Flour et La Flèche, " +
-      "cette dernière portant les meilleures écoles du lot à 8,7 pour 14 500 habitants. À l'autre bout du top 20, " +
-      "La Souterraine loue son T3 520 € et vend le mètre carré 800 €, le moins cher des vingt, et " +
-      "Florac-Trois-Rivières est la plus petite avec 2 200 habitants et la meilleure note de nature à 9,0. La " +
-      "Creuse place à elle seule trois des vingt villes : Aubusson, Guéret et La Souterraine. Deux chiffres " +
-      "résument la géographie de ce classement. Les vingt villes se répartissent sur 15 départements et 8 régions, " +
-      "aucune ne dépasse 14 500 habitants, et leur T3 médian est à 700 € contre 930 € pour le corpus, leur mètre " +
-      "carré à 1 300 € contre 2 500 € : on achète son local à peu près moitié prix. Si la taille compte plus que le " +
-      "rang, la lecture change : la première ville de plus de 20 000 habitants est Saint-Dié-des-Vosges, 24ᵉ, " +
-      "suivie de Vichy 30ᵉ, Laon 46ᵉ et Chaumont 48ᵉ. Et à l'autre extrémité de l'axe, les villes les mieux " +
-      "pourvues du pays sont Rennes, Angers, Strasbourg, Grenoble, Dijon et Nantes, toutes à 2,1 : on y trouve un " +
-      "médecin, on n'y trouve pas de zone sous-dotée, et l'on s'y installe face à une concurrence déjà en place. Reste " +
-      "la question de l'argent public, et la réponse a changé au 1ᵉʳ janvier 2026. Les quatre contrats " +
-      "démographiques de l'Assurance maladie — CAIM, COTRAM, COSCOM, CTSM — ont cessé d'exister le 31 décembre " +
-      "2025. Ce qui les remplace est une aide ponctuelle à la première installation en libéral, versée " +
-      "automatiquement par la CPAM : environ 10 000 € en zone d'intervention prioritaire, un montant plus faible en " +
-      "zone d'action complémentaire, et de l'ordre de 3 000 € pour l'ouverture d'un cabinet secondaire en ZIP. " +
-      "L'ancien CAIM pouvait atteindre 50 000 €. Autrement dit, l'incitation financière à l'installation en zone " +
-      "sous-dotée a été divisée par cinq, en échange d'un versement plus rapide et d'une paperasse plus légère : " +
-      "c'est une prime, pas un plan de financement, et choisir une commune pour elle serait une erreur " +
-      "d'arithmétique. Le cumul reste possible avec les exonérations d'impôt sur les bénéfices des zones France " +
-      "Ruralités Revitalisation, qui couvrent 17 700 communes depuis le 1ᵉʳ juillet 2024, treize départements en " +
-      "totalité, avec un niveau renforcé dit « FRR plus » pour le quart le plus en difficulté — mais ce zonage-là " +
-      "est indépendant du zonage santé et se lit commune par commune. Trois vérifications, enfin, qu'aucun modèle " +
-      "ne remplace, et qui sont l'objet réel de la décision. La première : « désert médical » est une expression de " +
-      "presse et non une catégorie administrative, à laquelle aucune aide n'est attachée. Ce qui ouvre des droits, " +
-      "c'est le zonage arrêté par votre agence régionale de santé, qui distingue les zones d'intervention " +
-      "prioritaire des zones d'action complémentaire selon une méthodologie nationale fixée en 2017 ; il se révise " +
-      "périodiquement, donc le millésime compte autant que la carte. La deuxième : ce zonage n'est pas le même pour " +
-      "toutes les professions. Celui des médecins relève d'un arrêté du 13 novembre 2017 et d'une méthodologie " +
-      "ministérielle ; ceux des orthophonistes (31 mai 2018), des masseurs-kinésithérapeutes (24 septembre 2018), " +
-      "des sages-femmes (17 octobre 2019) et des infirmiers (10 janvier 2020) sont négociés entre l'Assurance " +
-      "maladie et les syndicats représentatifs, dans le cadre de chaque convention nationale. Notre indicateur " +
-      "estime une densité de médecins : si vous êtes kinésithérapeute ou infirmière libérale, cette page situe un " +
-      "territoire, elle ne vous dit pas si votre propre profession y est sous-dotée, et c'est le zonage de votre " +
-      "convention qu'il faut ouvrir. La troisième est d'échelle : le zonage travaille par bassin de vie, notre " +
-      "modèle par commune, et une communauté professionnelle territoriale de santé fédère justement plusieurs " +
-      "communes. C'est aussi la réponse au vrai risque de ces territoires, qui n'est pas l'absence de patients mais " +
-      "l'isolement professionnel et la charge de garde : une maison de santé pluriprofessionnelle ou un centre de " +
-      "santé change complètement la proposition — 2 644 MSP étaient recensées en 2024 pour un objectif national de " +
-      "4 000 en 2027, et savoir si la commune visée en a une, ou en monte une, vaut plus que n'importe quel écart de " +
-      "rang sur cette page. Sur la lecture du tableau lui-même : six villes sortent exactement à 7,3, si bien que les rangs " +
-      "17 à 22 ne sont pas départagés — Bagnères-de-Bigorre et Commercy, absentes du tableau, ont la même note que " +
-      "Fontenay-le-Comte, dix-septième. Entre ces six-là, l'ordre affiché n'est pas un départage. Pour le reste, le " +
-      "classement est réellement neuf : son recouvrement maximal avec les trente-six profils existants est de huit " +
-      "villes sur vingt, avec « néo-ruraux », là où la médiane des recouvrements maximaux entre profils existants " +
-      "est de treize.",
+      "Professionnels de santé : ce classement récompense une pénurie, et autant le dire avant le premier rang. Les " +
+      "trente-huit autres profils cherchent une ville où vivre ; celui-ci cherche une ville où installer un " +
+      "cabinet, et la question du praticien est l'exact inverse de celle du patient. « Suivi médical régulier » " +
+      "classe l'accès aux soins du point de vue de qui doit s'y rendre, donc récompense l'abondance ; ici la même " +
+      "mesure entre avec le même signe mais se lit dans l'autre sens, parce qu'un territoire où l'on ne trouve pas " +
+      "de médecin traitant est une patientèle qui attend. Ce n'est pas non plus « proches aidants », qui accompagne " +
+      "quelqu'un d'autre et cherche du calme, ni « personnes à mobilité réduite », qui pondère l'accessibilité des " +
+      "transports. Le précédent existe déjà dans ce fichier : la tension locative est une nuisance pour le " +
+      "locataire, et elle entre sans inversion, avec un poids positif, sur le seul profil « investisseurs locatifs " +
+      "», parce qu'un marché tendu signifie un délai de relocation court. Le manque de soignants joue ici le même " +
+      "rôle, et comme là-bas, la même clé sur un profil de patient serait un bug. Le critère cardinal est donc le " +
+      "manque de soignants, agrégé sur quatre dimensions : l'accès aux généralistes, la présence de spécialistes et " +
+      "d'un plateau technique, la distance à un service d'urgences, le maillage de pharmacies. Un mot sur ce que ce " +
+      "chiffre est, avant de lire un seul rang. Trois de ces quatre dimensions sont mesurées depuis novembre 2026 : " +
+      "l'accès aux généralistes est l'indicateur d'accessibilité potentielle localisée (APL) de la DREES, millésime " +
+      "2024, c'est-à-dire le nombre de consultations accessibles par an et par habitant, médecins des communes " +
+      "voisines compris ; les services d'urgences et les pharmacies sont ceux que recense l'Insee. Les " +
+      "spécialistes, eux, restent estimés d'après la distance au CHU et la taille de la ville. Le département " +
+      "n'explique plus que 52 % de la variance de l'indicateur, sur les 102 que compte le corpus, contre 73 % quand " +
+      "tout était estimé depuis lui : deux communes voisines peuvent désormais sortir loin l'une de l'autre. Sur " +
+      "les 593 villes, aucune n'atteint le niveau « désert » de l'échelle, 17 sont au niveau « tendu », 369 " +
+      "correctes et 207 faciles, pour une médiane à 6,0 sur l'échelle d'accès. Une raison tient au corpus : le site " +
+      "suit surtout des villes-centres, qui concentrent les médecins de leur bassin, et le manque se mesure d'abord " +
+      "dans les communes rurales qui les entourent, que ce classement ne couvre pas. Le coût du logement vient " +
+      "juste derrière, avec un poids volontairement élevé : une installation en libéral, c'est un local à trouver " +
+      "et souvent un emprunt, au moment précis où l'on renonce à un salaire. Suivent la qualité de vie, les écoles " +
+      "(on s'installe rarement seul, et une installation en libéral s'envisage pour dix ans, donc pour une " +
+      "scolarité entière), puis une demi-part de sécurité et une demi-part de nature. Le résultat n'est surtout pas " +
+      "« les villes les plus dépourvues », et c'est l'enseignement principal de la page. Sept des dix-sept villes " +
+      "de niveau tendu sont dans ce top 20, mais la plus dépourvue du corpus n'y est pas : Méru, où l'APL tombe à " +
+      "1,52 consultation par habitant et l'accès à 3,5/10, sort 193ᵉ, avec une qualité de vie à 3,6 et des écoles à " +
+      "4,1 ; Ribérac, à 3,9 d'accès, sort 112ᵉ, avec des écoles à 2,2. Gex sort en tête : accès à 3,6/10, une APL " +
+      "de 2,07, sous le seuil de zone sous-dense, une qualité de vie à 7,8 et les meilleures écoles du lot à 9,0. " +
+      "Mais c'est aussi le logement le plus cher des vingt, T3 à 1 490 € et mètre carré à 5 200 €, parce que la " +
+      "ville est aux portes de Genève : elle ne gagne pas en étant bon marché. Les Andelys suit, avec l'APL la plus " +
+      "basse du top 20 (1,70) et un T3 à 890 €. Derrière, neuf villes sortent exactement à 6,5 et ne sont pas " +
+      "départagées entre la 3ᵉ et la 11ᵉ place : Quiberon, Autun, La Flèche, Florac-Trois-Rivières, Mayenne, " +
+      "Castelsarrasin, Saint-Amand-Montrond, où l'APL descend à 1,22, Gaillac et Sablé-sur-Sarthe. À l'autre bout " +
+      "du top 20, Le Blanc loue son T3 560 € et vend le mètre carré 900 €, le moins cher des vingt, et " +
+      "Florac-Trois-Rivières est la plus petite avec 2 200 habitants. Deux chiffres résument la géographie de ce " +
+      "classement. Les vingt villes se répartissent sur 17 départements et 9 régions, aucune ne dépasse 21 000 " +
+      "habitants, et leur T3 médian est à 775 € contre 950 € pour le corpus, leur mètre carré à 1 450 € contre 2 " +
+      "700 € : on achète son local à peu près moitié prix. Si la taille compte plus que le rang, la lecture change " +
+      ": la seule ville de plus de 20 000 habitants du top 20 est Challans, 13ᵉ, et suivent Vichy 38ᵉ, Laon 49ᵉ et " +
+      "Étampes 54ᵉ. Le manque le plus massif n'apparaît d'ailleurs pas ici : 65 villes franciliennes de plus de 10 " +
+      "000 habitants sont sous le seuil de zone sous-dense, Houilles en tête avec 1,15 consultation par habitant, " +
+      "mais un T3 à 1 480 € la renvoie au 369ᵉ rang. À l'autre extrémité de l'axe, les villes les mieux pourvues du " +
+      "site sont Bordeaux, Paris et Hérouville-Saint-Clair, à 8,2 : on y trouve un médecin, on n'y trouve pas de " +
+      "zone sous-dotée, et l'on s'y installe face à une concurrence déjà en place. Reste la question de l'argent " +
+      "public, et la réponse a changé au 1ᵉʳ janvier 2026. Les quatre contrats démographiques de l'Assurance " +
+      "maladie — CAIM, COTRAM, COSCOM, CTSM — ont cessé d'exister le 31 décembre 2025. Ce qui les remplace est une " +
+      "aide ponctuelle à la première installation en libéral, versée automatiquement par la CPAM : environ 10 000 € " +
+      "en zone d'intervention prioritaire, un montant plus faible en zone d'action complémentaire, et de l'ordre de " +
+      "3 000 € pour l'ouverture d'un cabinet secondaire en ZIP. L'ancien CAIM pouvait atteindre 50 000 €. Autrement " +
+      "dit, l'incitation financière à l'installation en zone sous-dotée a été divisée par cinq, en échange d'un " +
+      "versement plus rapide et d'une paperasse plus légère : c'est une prime, pas un plan de financement, et " +
+      "choisir une commune pour elle serait une erreur d'arithmétique. Le cumul reste possible avec les " +
+      "exonérations d'impôt sur les bénéfices des zones France Ruralités Revitalisation, qui couvrent 17 700 " +
+      "communes depuis le 1ᵉʳ juillet 2024, treize départements en totalité, avec un niveau renforcé dit « FRR plus " +
+      "» pour le quart le plus en difficulté — mais ce zonage-là est indépendant du zonage santé et se lit commune " +
+      "par commune. Trois vérifications, enfin, qu'aucun modèle ne remplace, et qui sont l'objet réel de la " +
+      "décision. La première : « désert médical » est une expression de presse et non une catégorie administrative, " +
+      "à laquelle aucune aide n'est attachée. Ce qui ouvre des droits, c'est le zonage arrêté par votre agence " +
+      "régionale de santé, qui distingue les zones d'intervention prioritaire des zones d'action complémentaire " +
+      "selon une méthodologie nationale fixée en 2017 ; il se révise périodiquement, donc le millésime compte " +
+      "autant que la carte. La deuxième : ce zonage n'est pas le même pour toutes les professions. Celui des " +
+      "médecins relève d'un arrêté du 13 novembre 2017 et d'une méthodologie ministérielle ; ceux des " +
+      "orthophonistes (31 mai 2018), des masseurs-kinésithérapeutes (24 septembre 2018), des sages-femmes (17 " +
+      "octobre 2019) et des infirmiers (10 janvier 2020) sont négociés entre l'Assurance maladie et les syndicats " +
+      "représentatifs, dans le cadre de chaque convention nationale. Notre indicateur mesure l'accès aux médecins " +
+      "généralistes : si vous êtes kinésithérapeute ou infirmière libérale, cette page situe un territoire, elle ne " +
+      "vous dit pas si votre propre profession y est sous-dotée, et c'est le zonage de votre convention qu'il faut " +
+      "ouvrir. La troisième est d'échelle : le zonage travaille par bassin de vie, notre modèle par commune, et une " +
+      "communauté professionnelle territoriale de santé fédère justement plusieurs communes. C'est aussi la réponse " +
+      "au vrai risque de ces territoires, qui n'est pas l'absence de patients mais l'isolement professionnel et la " +
+      "charge de garde : une maison de santé pluriprofessionnelle ou un centre de santé change complètement la " +
+      "proposition — 2 644 MSP étaient recensées en 2024 pour un objectif national de 4 000 en 2027, et savoir si " +
+      "la commune visée en a une, ou en monte une, vaut plus que n'importe quel écart de rang sur cette page. Sur " +
+      "la lecture du tableau lui-même : onze villes sortent exactement à 6,4, si bien que les rangs 12 à 22 ne sont " +
+      "pas départagés — Saint-Girons et La Souterraine, absentes du tableau, ont la même note que " +
+      "Noirmoutier-en-l'Île, douzième. Entre ces onze-là, l'ordre affiché n'est pas un départage. Pour le reste, le " +
+      "classement est réellement neuf : son recouvrement maximal avec les trente-huit autres profils est de quatre " +
+      "villes sur vingt, avec « familles avec enfants », là où la médiane des recouvrements maximaux entre profils " +
+      "existants est de treize.",
     weights: {
       healthcareScarcity: 3.5,
       cost: 2.0,

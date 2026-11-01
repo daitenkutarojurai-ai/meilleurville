@@ -34,7 +34,8 @@ import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeNaturalRisks } from "@/lib/natural-risks";
 import { computeWaterStress } from "@/lib/water-stress";
 import { computeNoiseExposure } from "@/lib/noise-exposure";
-import { computeHealthcareAccess, HEALTH_LEVEL_LABEL } from "@/lib/healthcare-access";
+import { computeHealthcareAccess } from "@/lib/healthcare-access";
+import { APL_NATIONAL, APL_UNDERSERVED } from "@/lib/city-healthcare";
 import { computeEmploymentMarket } from "@/lib/employment-market";
 import { climateZoneFor } from "@/lib/cost-living";
 import { computeQualityOfLife } from "@/lib/quality-of-life-index";
@@ -326,36 +327,54 @@ function rankSecheresseEau(): RedFlagRow[] {
 }
 
 // --- THEME 8 — Désert médical ---
-// Cible : villes au composite > 6,5/10. Bonus si MG = désert + urgences
-// = tendu (cumul vital). Filtre population > 10k pour pertinence dept.
-function rankDesertMedical(): RedFlagRow[] {
-  const rows: RedFlagRow[] = [];
+// Depuis le 2026-11-01, sur la MESURE : l'APL aux médecins généralistes de la
+// DREES (lib/city-healthcare.ts). Entrée = APL sous 2,5, le seuil de zone
+// sous-dense. L'ancien critère (composite estimé ≥ 6,5) rangeait les
+// sous-préfectures rurales d'après leur département ; le relevé montre que ces
+// villes-centres concentrent les médecins de leur bassin, et que les communes
+// les moins dotées du corpus sont en banlieue parisienne.
+// Gravité = score généralistes (5,5 à 9, monotone en APL) + 0,8 si aucun
+// service d'urgences dans la commune ni site de CHU à portée + 0,4 si les
+// pharmacies sont aussi rares. Tri sur la valeur non arrondie.
+const DESERT_MIN_POP = 10_000;
+
+function desertMedicalRows(): { city: SeedCity; severity: number; apl: number; gp: number; emergency: number }[] {
+  const rows: { city: SeedCity; severity: number; apl: number; gp: number; emergency: number }[] = [];
   for (const city of CITIES_SEED) {
-    if ((city.population ?? 0) < 10_000) continue;
+    if ((city.population ?? 0) < DESERT_MIN_POP) continue;
     const h = computeHealthcareAccess(city);
-    if (h.composite < 6.5) continue;
-
-    let bonus = 0;
-    if (h.generalistes.score >= 8.5 && h.urgences.score >= 6.5) bonus += 1.2;
-    if (h.specialistes.score >= 7) bonus += 0.5;
-    const severity = Math.min(10, h.composite + bonus);
-
-    const tops = [
-      { k: "généralistes", s: h.generalistes.score },
-      { k: "spécialistes", s: h.specialistes.score },
-      { k: "urgences", s: h.urgences.score },
-      { k: "pharmacies", s: h.pharmacies.score },
-    ]
-      .filter((x) => x.s >= 6)
-      .sort((a, b) => b.s - a.s)
-      .slice(0, 2)
-      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
-      .join(" · ");
-
-    const reason = `Composite accès soins ${h.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
-    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+    const apl = h.measured?.apl;
+    if (apl === undefined || apl >= APL_UNDERSERVED) continue;
+    let severity = h.generalistes.score;
+    if (h.urgences.score >= 6.5) severity += 0.8;
+    if (h.pharmacies.score >= 5.5) severity += 0.4;
+    rows.push({ city, severity: Math.min(10, severity), apl, gp: h.measured!.gp, emergency: h.measured!.emergency });
   }
-  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+  return rows.sort((a, b) => b.severity - a.severity || a.apl - b.apl);
+}
+
+/** Corpus du thème désert médical, pour que le texte cite des comptes exacts. */
+export const CORPUS_DESERT_MEDICAL = (() => {
+  const rows = desertMedicalRows();
+  return {
+    n: rows.length,
+    idf: rows.filter((r) => r.city.region === "Île-de-France").length,
+    veryLow: rows.filter((r) => r.apl < 1.5).length,
+  };
+})();
+
+function rankDesertMedical(): RedFlagRow[] {
+  const fr2 = (v: number) => v.toLocaleString("fr-FR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  return desertMedicalRows()
+    .slice(0, 12)
+    .map(({ city, severity, apl, gp, emergency }) => ({
+      city,
+      severity: Math.round(severity * 10) / 10,
+      reason:
+        `APL ${fr2(apl)} consultations de généraliste par an et par habitant (seuil de zone sous-dense : 2,50 ; moyenne nationale : ${fr2(APL_NATIONAL)}) · ` +
+        `${gp} généraliste${gp > 1 ? "s" : ""} libéra${gp > 1 ? "ux" : "l"} dans la commune` +
+        (emergency === 0 ? " · aucun service d'urgences sur place" : ""),
+    }));
 }
 
 // --- THEME 9 — Chômage élevé ---
@@ -400,7 +419,10 @@ function rankCadreDeVieTendu(): RedFlagRow[] {
   for (const city of CITIES_SEED) {
     if ((city.population ?? 0) < 15_000) continue;
     const q = computeQualityOfLife(city);
-    if (q.score > 4.5) continue;
+    // Seuil 4,5 → 4,8 le 2026-11-01 : le pilier santé est devenu mesuré (APL
+    // DREES, BPE Insee) et sa médiane est passée de 5,5 à 6,0, ce qui vidait le
+    // thème (11 villes → 0). 4,8 retient de nouveau ~2 % des villes ≥ 15 000 hab.
+    if (q.score > 4.8) continue;
 
     const weakPillars = [q.envScore, q.healthScore, q.jobScore].filter((s) => s <= 4).length;
     let bonus = 0;
@@ -2472,18 +2494,18 @@ function rankJeunesStudioCher(): RedFlagRow[] {
 //
 // Deux lectures croisées. La première est **mesurée** : la part des 75 ans et
 // plus (tranches 75-89 et 90+ du recensement Insee 2022, `lib/city-population.ts`).
-// La seconde est **estimée** : le composite de difficulté d'accès aux soins de
-// `lib/healthcare-access.ts` (10 = désert, département + taille de commune +
-// distance à un CHU), pas un relevé de cabinets. Le thème le dit.
+// La seconde est **mesurée** aussi depuis le 2026-11-01 : l'APL aux médecins
+// généralistes de la DREES (`lib/city-healthcare.ts`), consultations
+// accessibles par an et par habitant, médecins des communes voisines compris.
+// Avant, c'était le composite estimé de `lib/healthcare-access.ts`.
 // Villes comparées : population Insee 2022 ≥ 10 000 habitants.
 // Seuils d'entrée : 12 % de 75 ans et plus (médiane des villes comparées ≈ 9,5 %)
-// et un composite d'au moins 6/10 (niveau « tendu » ou pire).
+// et un APL sous la moyenne nationale (pondérée, France hors Mayotte).
 // ⚠️ La part des 75 ans et plus compte des **résidents**, EHPAD compris : une
 // commune qui héberge un établissement voit sa part montée sans que ses
 // habitants à domicile soient plus nombreux. Le thème n'affirme aucune
 // causalité et ne mesure ni la dépendance ni l'isolement.
 const MIN_OLD_SHARE = 12;
-const MIN_HEALTH_COMPOSITE = 6;
 const MIN_POP_FOR_OLD_SHARE = 10_000;
 
 function oldShareOf(slug: string): { share: number; old: number; pop: number } | null {
@@ -2509,18 +2531,17 @@ function rankVieillirLoinDesSoins(): RedFlagRow[] {
   for (const city of CITIES_SEED) {
     const m = oldShareOf(city.slug);
     if (!m || m.share < MIN_OLD_SHARE) continue;
-    const h = computeHealthcareAccess(city);
-    if (h.composite < MIN_HEALTH_COMPOSITE) continue;
+    const apl = computeHealthcareAccess(city).measured?.apl;
+    if (apl === undefined || apl >= APL_NATIONAL) continue;
     // Le seuil d'entrée EST le plancher de gravité (6) ; la pente porte ensuite
     // jusqu'à 10/10. Tri sur la valeur non arrondie.
-    const severity = Math.min(
-      10,
-      6 + 0.12 * (m.share - MIN_OLD_SHARE) + 0.5 * (h.composite - MIN_HEALTH_COMPOSITE),
-    );
+    const severity = Math.min(10, 6 + 0.12 * (m.share - MIN_OLD_SHARE) + 1.2 * (APL_NATIONAL - apl));
     const one = (v: number) =>
       v.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const two = (v: number) =>
+      v.toLocaleString("fr-FR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     const n = (v: number) => Math.round(v).toLocaleString("fr-FR");
-    const reason = `${one(m.share)} % d'habitants de 75 ans et plus (${n(m.old)} sur ${n(m.pop)} habitants, médiane des villes comparées : ${one(medianShare)} %) · accès aux soins estimé à ${one(h.composite)}/10 de difficulté (10 = désert), niveau « ${HEALTH_LEVEL_LABEL[h.level].toLowerCase()} »`;
+    const reason = `${one(m.share)} % d'habitants de 75 ans et plus (${n(m.old)} sur ${n(m.pop)} habitants, médiane des villes comparées : ${one(medianShare)} %) · APL ${two(apl)} consultations de généraliste par an et par habitant (moyenne nationale : ${two(APL_NATIONAL)})`;
     rows.push({ city, severity, reason });
   }
   return rows.sort((a, b) => b.severity - a.severity);
@@ -2912,16 +2933,16 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-desert-medical",
     title: "Villes désert médical — accès aux soins critique",
-    metaTitle: "Désert médical 2026 — Villes françaises où trouver un médecin est devenu impossible",
+    metaTitle: "Désert médical 2026 — les villes sous le seuil de zone sous-dense",
     metaDescription:
-      "Classement 2026 des villes françaises ≥ 10 000 hab. où l'accès aux soins est critique : MG non remplacés, spécialistes saturés, urgences éloignées. Composite estimé à la commune, pas un relevé de cabinets.",
+      "Villes de 10 000 hab. et plus sous le seuil de zone sous-dense en médecine générale (APL DREES 2024 < 2,5) : " + CORPUS_DESERT_MEDICAL.n + " villes, dont " + CORPUS_DESERT_MEDICAL.idf + " en Île-de-France.",
     emoji: "🩺",
     intro:
-      "Le dernier généraliste de la commune part en retraite en juin, sans repreneur. Le cabinet de dermato le plus proche est à 1 h 30 de route, huit mois d'attente. Les urgences ? 45 minutes de nuit, sans héliportage. Rien de tout ça n'apparaît sur l'annonce, qui vante le calme, le prix au m² accessible, la maison de ville. Le désert médical ne se photographie pas — il se découvre à 22 h, un enfant à 40 °C, aucun médecin traitant à joindre.",
+      "Le médecin traitant part à la retraite, et aucun cabinet du secteur ne prend plus de nouveaux patients. On imagine le désert médical au bout d'une départementale, loin de tout. Il est aussi aux portes de Paris, dans des communes de 20 000 ou 30 000 habitants desservies par le RER, où l'offre de médecine générale accessible par habitant est plus faible que dans la plupart des sous-préfectures rurales. Il ne se voit pas sur l'annonce : il se découvre le soir où il faut un médecin.",
     reality:
-      "Le classement retient les villes ≥ 10 000 hab. dont le composite dépasse 6,5/10. Le malus s'ajoute quand deux problèmes vitaux se cumulent : généralistes en désert avéré (DREES &lt; 80/100k et plus de 50 % MG &gt; 60 ans) et urgences éloignées. Un seul indicateur ne suffit pas à parler de risque vital — c'est le cumul qui compte. La distance au CHU est mesurée ; les autres dimensions sont estimées depuis le département et la taille de la commune : les paliers sont calés sur les repères DREES et sur la logique du zonage ZIP/ZAC de l'ARS, mais aucun de leurs relevés n'est repris.",
+      "Le classement retient les villes de 10 000 habitants et plus dont l'accessibilité potentielle localisée (APL) aux médecins généralistes, publiée par la DREES pour 2024, est inférieure à 2,5 consultations par an et par habitant : c'est le seuil qui définit une zone sous-dense. L'APL compte les médecins de la commune et ceux des communes voisines, pondérés par la distance et par leur activité réelle, rapportés à une population standardisée par âge. C'est un relevé, pas une estimation. " + CORPUS_DESERT_MEDICAL.n + " villes du site passent sous le seuil, dont " + CORPUS_DESERT_MEDICAL.idf + " en Île-de-France, et " + CORPUS_DESERT_MEDICAL.veryLow + " sont sous 1,5, le niveau d'un accès très faible. Le relevé contredit l'image du désert rural : les villes-centres de départements réputés sous-dotés, Aurillac (4,96), Vesoul (5,62), Épinal (4,96), concentrent les médecins de leur bassin et dépassent la moyenne nationale (3,72). Ce sont des communes de grande banlieue, Houilles, Brétigny-sur-Orge, Goussainville, Pontoise, qui manquent le plus de généralistes accessibles. Hors Île-de-France, Saint-Amand-Montrond, Saint-Laurent-du-Maroni et Méru ouvrent la liste. La gravité monte encore quand aucun service d'urgences n'est recensé dans la commune et qu'aucun site de CHU n'est à portée, puis quand les pharmacies sont rares aussi. Seules les douze villes les plus exposées sont affichées.",
     methodology:
-      "Severity = composite + 1,2 si MG = désert ET urgences ≥ 6,5/10 + 0,5 si spécialistes ≥ 7/10. Seule la distance au site de CHU le plus proche est mesurée, sur les communes d'implantation recensées ; pour le reste, estimation communale — le département est rangé en paliers calés sur les repères DREES, l'atlas démographique du CNOM et le zonage ZIP/ZAC de l'ARS, cadres de référence et non sources. Aucune densité médicale n'est ingérée.",
+      "Indicateur : APL aux médecins généralistes, millésime 2024 (DREES), en consultations ou visites accessibles par an et par habitant standardisé ; entrée sous 2,5, seuil de zone sous-dense. Gravité = score généralistes (barème continu, 10 = désert : APL 1,5 → 7,5/10, APL 2,5 → 5,5/10) + 0,8 si aucun service d'urgences n'est recensé dans la commune (Insee, BPE 2025) et qu'aucun site de CHU n'est à portée + 0,4 si la commune compte moins de 1,75 pharmacie pour 10 000 habitants, plafonnée à 10 ; tri sur la valeur non arrondie, puis sur l'APL. Paris, Lyon et Marseille : moyenne des arrondissements pondérée par la population standardisée, comme le prescrit la DREES. Non couverts : Mamoudzou (Mayotte, hors champ de l'APL) et Pierrefitte-sur-Seine (fusionnée dans Saint-Denis). L'APL mesure une offre accessible, pas le nombre de médecins qui acceptent de nouveaux patients, et elle ne dit rien des spécialistes. Le zonage ARS, seul document opposable pour les aides à l'installation, travaille par territoire de vie-santé et non par commune : vérifier le sien avant toute décision.",
     rank: rankDesertMedical,
   },
   {
@@ -2949,9 +2970,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     intro:
       "Sur le papier : maison accessible, fiscalité raisonnable, vie de quartier. Sur le terrain : air médiocre, désert médical, marché du travail sinistré. Quand un seul pilier dérape, on s'adapte ; quand deux ou trois piliers s'effondrent en même temps, le projet de vie devient une succession de compromis perdants. Le cadre de vie tendu ne se voit pas sur la photo — il se subit à chaque appel chez le médecin, à chaque recherche d'emploi, à chaque pic de pollution.",
     reality:
-      "On classe les villes ≥ 15 000 hab. dont le méga-index (environnement 35 % + santé 30 % + emploi 35 %) est inférieur ou égal à 4,5/10, avec un malus quand au moins 2 des 3 piliers tombent sous 4/10 — c'est-à-dire un cumul réel, pas un seul pilier faible. Toutes les valeurs sont dérivées des composites (env), (santé), (emploi).",
+      "On classe les villes ≥ 15 000 hab. dont le méga-index (environnement 35 % + santé 30 % + emploi 35 %) est inférieur ou égal à 4,8/10, avec un malus quand au moins 2 des 3 piliers tombent sous 4/10 — c'est-à-dire un cumul réel, pas un seul pilier faible. Toutes les valeurs sont dérivées des composites (env), (santé), (emploi).",
     methodology:
-      "Severity = (5 −) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si ≤ 3,5/10. Le pilier environnement est une estimation communale calée sur les cadres de référence ATMO / CITEPA / RNSA, pas une mesure en station ; le pilier santé est une estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets ; le pilier emploi une estimation départementale calée sur les repères INSEE / DADS / SIRENE, pas le taux de chômage publié. Composite agrégé site (méga-index).",
+      "Severity = (5 −) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si ≤ 3,5/10. Le pilier environnement est une estimation communale calée sur les cadres de référence ATMO / CITEPA / RNSA, pas une mesure en station ; le pilier santé mesure les généralistes (APL DREES), les urgences et les pharmacies (Insee) et estime les spécialistes ; le pilier emploi une estimation départementale calée sur les repères INSEE / DADS / SIRENE, pas le taux de chômage publié. Composite agrégé site (méga-index).",
     rank: rankCadreDeVieTendu,
   },
   {
@@ -3422,16 +3443,16 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-vieillir-loin-des-soins",
     title: "Villes où l'on vieillit loin des soins",
-    metaTitle: "Vieillir loin des soins — 57 villes classées 2026",
+    metaTitle: "Vieillir loin des soins — 71 villes classées 2026",
     metaDescription:
-      "Classement 2026 des villes où les 75 ans et plus pèsent 12 % des habitants (Insee 2022) et où l'accès aux soins estimé est tendu : Arcachon, Royan, Granville.",
+      "Villes où les 75 ans et plus pèsent au moins 12 % des habitants (Insee) et où l'accès aux généralistes est sous la moyenne (APL DREES) : Vierzon, Sanary-sur-Mer…",
     emoji: "🩺",
     intro:
-      "Une ville pour la retraite, c'est le soleil, la mer, un centre piéton, un marché. Personne ne la choisit pour ses délais de rendez-vous. Le problème arrive vingt ans plus tard : à 80 ans, on ne consulte plus un médecin par an mais plusieurs spécialistes, et la voiture, qui masquait tout, n'est plus toujours là. Une ville peut être excellente pour fêter ses 65 ans et mal armée pour ses 85. Ce classement ne juge pas le charme des villes où l'on vieillit : il regarde où les très âgés sont déjà nombreux, et où, en même temps, l'accès aux soins que nous estimons est tendu ou pire.",
+      "Une ville pour la retraite, c'est le soleil, la mer, un centre piéton, un marché. Personne ne la choisit pour ses délais de rendez-vous. Le problème arrive vingt ans plus tard : à 80 ans, on ne consulte plus un médecin par an mais plusieurs spécialistes, et la voiture, qui masquait tout, n'est plus toujours là. Une ville peut être excellente pour fêter ses 65 ans et mal armée pour ses 85. Ce classement ne juge pas le charme des villes où l'on vieillit : il regarde où les très âgés sont déjà nombreux, et où, en même temps, l'offre de médecins généralistes mesurée par la DREES est sous la moyenne nationale.",
     reality:
-      "Deux lectures sont croisées, et elles n'ont pas le même statut. La première est mesurée : la part des habitants de 75 ans et plus (tranches 75-89 ans et 90 ans et plus du recensement Insee 2022), sur les " + CORPUS_VIEILLIR.n + " villes de 10 000 habitants et plus. Sa médiane est de " + fmtOne(CORPUS_VIEILLIR.medianShare) + " % ; " + CORPUS_VIEILLIR.old + " villes atteignent 12 %. La seconde est estimée : le composite de difficulté d'accès aux soins de ce site (10 = désert), construit à partir du département, de la taille de la commune et de la distance à un CHU, et non d'un relevé de cabinets. Quatre-vingt-dix-sept villes l'ont à 6/10 ou plus. Cinquante-sept cumulent les deux : 49 au niveau « tendu », 8 au niveau « désert ». Arcachon ouvre avec 30,0 % d'habitants de 75 ans et plus, soit 3 266 personnes, devant Royan, Granville, Autun, Issoudun, Dinard, Vichy, Lourdes et La Baule. On y trouve deux familles : des stations balnéaires et thermales (Arcachon, Royan, Dinard, La Baule, Vichy, Lourdes), où la part des très âgés est la plus forte, et des sous-préfectures de l'intérieur (Autun, Issoudun, Flers, Argentan, Vierzon) où elle est moindre mais où l'accès estimé est le plus mal noté. La liste ne se limite pas aux petites communes : Vichy est la première ville de plus de 20 000 habitants, au 7e rang, devant Vierzon, Aurillac, Montluçon, Challans et Alençon. Les 57 villes se répartissent sur 43 départements, ont un loyer T3 de référence médian de 720 € contre 950 € pour l'ensemble du corpus, et 36 sur 57 perdent des habitants entre 2016 et 2022. Trois réserves de lecture. L'indicateur de soins est une estimation : il situe un territoire, il ne compte pas les médecins qui prennent de nouveaux patients. La tranche des 75 ans et plus compte des résidents, établissements d'hébergement compris : une commune qui accueille un EHPAD voit sa part monter sans que le nombre de personnes âgées à domicile augmente d'autant. Enfin, une part élevée ne dit ni dépendance ni isolement, et ce classement n'affirme aucune causalité entre l'âge des habitants et l'offre de soins.",
+      "Deux lectures sont croisées, toutes deux mesurées. La première : la part des habitants de 75 ans et plus (tranches 75-89 ans et 90 ans et plus du recensement Insee 2022), sur les " + CORPUS_VIEILLIR.n + " villes de 10 000 habitants et plus. Sa médiane est de " + fmtOne(CORPUS_VIEILLIR.medianShare) + " % ; " + CORPUS_VIEILLIR.old + " villes atteignent 12 %. La seconde : l'accessibilité potentielle localisée (APL) aux médecins généralistes publiée par la DREES pour 2024, soit le nombre de consultations de médecine générale accessibles par an et par habitant, médecins des communes voisines compris. La moyenne nationale est de 3,72. Soixante et onze villes cumulent les deux. Vierzon ouvre le classement : 15,9 % d'habitants de 75 ans et plus, et 1,74 consultation accessible par habitant, moins de la moitié de la moyenne nationale. Suivent Sanary-sur-Mer et Saint-Raphaël, où la part des très âgés dépasse 22 %, puis Mayenne, Autun, Parthenay, Moissac, Bagnols-sur-Cèze, Gien et Tulle. On y trouve deux familles : des villes du littoral varois et azuréen (Sanary-sur-Mer, Saint-Raphaël, Six-Fours-les-Plages, Vallauris, Menton), où la part des très âgés est la plus forte, et des villes moyennes de l'intérieur (Vierzon, Mayenne, Moissac, Gien, Tulle) où elle est moindre mais où l'offre accessible est la plus faible. La liste ne se limite pas aux petites communes : Vierzon dépasse 25 000 habitants, et Saint-Raphaël, Vichy et Chartres figurent parmi les quinze premières. Les 71 villes se répartissent sur 47 départements, ont un loyer T3 de référence médian de 740 € contre 1 000 € pour l'ensemble du corpus, et 39 sur 71 perdent des habitants entre 2016 et 2022. Trois réserves de lecture. L'APL mesure une offre de médecine générale accessible : elle ne compte ni les médecins qui prennent de nouveaux patients ni les spécialistes, dont les très âgés ont le plus besoin. La tranche des 75 ans et plus compte des résidents, établissements d'hébergement compris : une commune qui accueille un EHPAD voit sa part monter sans que le nombre de personnes âgées à domicile augmente d'autant. Enfin, une part élevée ne dit ni dépendance ni isolement, et ce classement n'affirme aucune causalité entre l'âge des habitants et l'offre de soins.",
     methodology:
-      "Indicateur : part des 75 ans et plus (tranches 75-89 et 90+ ÷ somme des sept tranches d'âge, commune par commune) ≥ 12 %, croisée avec le composite de difficulté d'accès aux soins ≥ 6/10 (10 = désert, convention du quartet environnement : l'inversion se fait à l'affichage, jamais dans le moteur). Severity = 6 + 0,12 × (part en points au-dessus de 12) + 0,5 × (composite − 6), le seuil d'entrée étant le plancher de gravité ; le tri porte sur la valeur non arrondie et aucune ville n'atteint le plafond de 10/10. Villes comparées : population Insee 2022 ≥ 10 000 habitants, soit " + CORPUS_VIEILLIR.n + " villes. Sources : Insee, recensement de la population, base « Évolution et structure de la population en 2022 », via `lib/city-population.ts` (" + POP_COVERED + " des " + SEED_COUNT + " villes ; manquent Mamoudzou et Pierrefitte-sur-Seine) ; `lib/healthcare-access.ts` pour le composite, une estimation calibrée sur des cadres de référence (DREES, CNOM, zonage ARS), qui n'est pas un relevé de cabinets. Le zonage ARS, seul document opposable pour les aides à l'installation, travaille par bassin de vie et non par commune : vérifier le sien avant toute décision. Distinct de `villes-desert-medical` (score d'accès aux soins seul, toutes populations), de `villes-vieillissement-critique` (score composite de tension démographique) et de `villes-sans-enfants` (rapport entre seniors et enfants, sans lecture des soins) : ici une mesure publiée croisée avec une estimation, et la part des très âgés seule.",
+      "Indicateur : part des 75 ans et plus (tranches 75-89 et 90+ ÷ somme des sept tranches d'âge, commune par commune) ≥ 12 %, croisée avec une APL aux médecins généralistes inférieure à la moyenne nationale (3,72 consultations par an et par habitant, moyenne pondérée par la population standardisée, France hors Mayotte). Severity = 6 + 0,12 × (part en points au-dessus de 12) + 1,2 × (3,72 − APL), le seuil d'entrée étant le plancher de gravité ; le tri porte sur la valeur non arrondie, plafond 10/10. Villes comparées : population Insee 2022 ≥ 10 000 habitants, soit " + CORPUS_VIEILLIR.n + " villes. Sources : Insee, recensement de la population, base « Évolution et structure de la population en 2022 » (" + POP_COVERED + " des " + SEED_COUNT + " villes ; manquent Mamoudzou et Pierrefitte-sur-Seine) ; DREES, indicateur d'accessibilité potentielle localisée aux médecins généralistes, millésime 2024. Le zonage ARS, seul document opposable pour les aides à l'installation, travaille par territoire de vie-santé et non par commune : vérifier le sien avant toute décision. Distinct de `villes-desert-medical` (APL sous le seuil de zone sous-dense, sans lecture de l'âge), de `villes-vieillissement-critique` (score composite de tension démographique) et de `villes-sans-enfants` (rapport entre seniors et enfants, sans lecture des soins) : ici deux mesures publiées croisées, et la part des très âgés seule.",
     rank: rankVieillirLoinDesSoins,
   },
   {

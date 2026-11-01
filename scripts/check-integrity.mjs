@@ -712,9 +712,13 @@ if (!failed) {
 {
   const FAMILIES = [
     {
+      // Cas mixte depuis le 2026-11-01 : généralistes (APL DREES), urgences et
+      // pharmacies (BPE Insee) sont MESURÉS pour 591/593 villes, les
+      // spécialistes restent estimés. La surface doit dire les deux.
       name: "santé",
       uses: /computeHealthcareAccess\b|@\/lib\/healthcare-access"/,
-      mark: /pas un relev|estimation communale|[Ee]stimation structurelle|estimé|estimés|estimées|commune-level estimate|not a count of practices|[Ee]stimated at commune level|[Ee]stimated by population|[Ss]tructural estimate/,
+      mark: /mesur(é|ée|és|ées)|[Mm]easured/,
+      alsoMark: /estimé|estimés|estimées|estimation|[Ee]stimated|[Ee]stimate\b/,
     },
     {
       name: "emploi",
@@ -771,7 +775,7 @@ if (!failed) {
     for (const fam of FAMILIES) {
       if (!fam.uses.test(src)) continue;
       scanned += 1;
-      if (!fam.mark.test(src)) mute.push(`${path.relative(ROOT, file)} (${fam.name})`);
+      if (!fam.mark.test(src) || (fam.alsoMark && !fam.alsoMark.test(src))) mute.push(`${path.relative(ROOT, file)} (${fam.name})`);
     }
   }
 
@@ -784,8 +788,8 @@ if (!failed) {
     console.error(`\n  ÉCHEC  moteurs propriétaires : ${mute.length} surface(s) muette(s)\n`);
     for (const p of mute) console.error(`    ${p}`);
     console.error(
-      "\n    Ces six libs ne lisent que le seed — aucune donnée DREES, CNOM, ARS,\n" +
-        "    INSEE, DARES, SIRENE, SSMSI, DEPP, FUB, BPE ou La Poste n'est ingérée. Une\n" +
+      "\n    Ces libs ne lisent que le seed — aucune donnée INSEE, DARES, SIRENE,\n" +
+        "    SSMSI, DEPP, FUB ou La Poste n'est ingérée. Une\n" +
         "    surface qui publie leur score doit dire qu'il est estimé et ce qu'il\n" +
         "    n'est pas (un relevé de cabinets, le taux de chômage publié, les faits\n" +
         "    enregistrés, l'annuaire des équipements, une note d'enquête, un décompte\n" +
@@ -794,7 +798,10 @@ if (!failed) {
         "    l'est pas.\n" +
         "    La démographie est le cas mixte : vieillissement et trajectoire SONT\n" +
         "    mesurés au recensement Insee, jeunes actifs et renouvellement ne le sont\n" +
-        "    pas — la surface doit dire lequel est lequel, pas « estimé » en bloc.\n",
+        "    pas — la surface doit dire lequel est lequel, pas « estimé » en bloc.\n" +
+        "    La santé aussi, depuis le 2026-11-01 : généralistes (APL DREES),\n" +
+        "    urgences et pharmacies (BPE Insee) sont mesurés, les spécialistes\n" +
+        "    estimés — la surface doit nommer les deux.\n",
     );
   }
 }
@@ -1028,11 +1035,10 @@ if (!failed) {
     console.error(`\n  ÉCHEC  profils « Pour qui » : ${mute.length} intro(s) muette(s)\n`);
     for (const s of mute) console.error(`    ${s}`);
     console.error(
-      "\n    `lib/healthcare-access` ne lit que le seed : aucune donnée DREES, CNOM\n" +
-        "    ni ARS n'est ingérée, et la seule chose mesurée est la distance au site\n" +
-        "    de CHU le plus proche. Un profil qui classe 540 villes sur ce composite\n" +
-        "    doit écrire dans son intro qu'il est estimé et qu'il n'est pas un relevé\n" +
-        "    de cabinets. La garde `moteurs` ne voit pas ce fichier : elle ne\n" +
+      "\n    `lib/healthcare-access` mesure les généralistes (APL DREES), les urgences\n" +
+        "    et les pharmacies (BPE Insee), mais les spécialistes restent estimés.\n" +
+        "    Un profil qui classe les villes sur ce composite doit écrire dans son\n" +
+        "    intro ce qui y est estimé. La garde `moteurs` ne voit pas ce fichier : elle ne\n" +
         "    parcourt que app/** et components/*.tsx.\n",
     );
   }

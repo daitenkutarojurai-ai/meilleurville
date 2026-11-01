@@ -138,15 +138,15 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-desert-medical",
     emoji: "🩺",
     title: "Cities with critical healthcare access problems",
-    metaTitle: "Medical deserts 2026 — French cities where finding a GP has become impossible",
+    metaTitle: "Medical deserts 2026 — French cities below the GP shortage threshold",
     metaDescription:
-      "2026 ranking of French cities over 10,000 where healthcare access is critical: GPs not replaced on retirement, saturated specialists, distant A&E. A commune-level estimate, not a count of practices.",
+      "French cities over 10,000 below the official GP shortage threshold (DREES APL 2024 under 2.5 visits a year per resident) — most of them in the Paris suburbs.",
     intro:
-      "The agent touts affordability and village charm. Nobody mentions the last GP retiring in June with no replacement, the nearest dermatologist 90 minutes away with an 8-month wait, or A&E 45 minutes away. Medical deserts don't appear in property photos — you discover them at 10pm with a sick child.",
+      "Your GP retires and no practice nearby is taking new patients. People picture medical deserts at the end of a country road. They are also on the edge of Paris, in RER-served towns of 20,000 to 30,000 people where the GP care within reach per resident is lower than in most rural market towns. The listing won't show it; you find out the evening you need a doctor.",
     reality:
-      "We rank cities over 10,000 whose composite exceeds 6.5/10, with a penalty when GP desert (the DREES reference band: under 80/100k with more than half of GPs over 60) AND distant A&E compound — a genuine critical situation, not a single weak indicator. All four dimensions are estimated from the department, town size and hospital status; no medical density is ingested.",
+      "We rank cities over 10,000 whose localised potential accessibility (APL) to GPs, published by DREES for 2024, is under 2.5 consultations a year per resident — the threshold that defines an under-served area in France. APL counts the doctors in the town and in neighbouring towns, weighted by distance and by their actual activity, against an age-standardised population. It is a measurement, not an estimate. 78 of our cities fall below the threshold, 65 of them in Île-de-France. The data contradicts the rural picture: market towns in supposedly under-served departments — Aurillac (4.96), Vesoul (5.62), Épinal (4.96) — concentrate the doctors of their catchment and sit above the national average (3.72). Outer Paris suburbs such as Houilles, Brétigny-sur-Orge, Goussainville and Pontoise have the fewest GPs within reach. Outside Île-de-France, Saint-Amand-Montrond, Saint-Laurent-du-Maroni and Méru lead the list. Only the twelve most exposed cities are shown.",
     methodology:
-      "Severity = composite + 1.2 if GP desert AND A&E ≥ 6.5/10 + 0.5 if specialists ≥ 7/10. Commune-level estimate: the department is placed in bands calibrated against DREES reference figures, the CNOM demographic atlas, the ARS ZIP/ZAC zoning and the list of university hospitals — reference frameworks, not sources. No medical density is ingested.",
+      "Indicator: DREES APL to GPs, 2024, in consultations or home visits within reach per age-standardised resident per year; entry below 2.5, the under-served threshold. Severity = GP score (continuous scale, 10 = desert: APL 1.5 → 7.5/10, APL 2.5 → 5.5/10) + 0.8 if no emergency department is recorded in the town (INSEE BPE 2025) and no university-hospital site is within reach + 0.4 if the town has fewer than 1.75 pharmacies per 10,000 residents, capped at 10. Paris, Lyon and Marseille: arrondissements averaged, weighted by standardised population, as DREES prescribes. Not covered: Mamoudzou (Mayotte, outside the APL) and Pierrefitte-sur-Seine (merged into Saint-Denis). APL measures care within reach, not how many doctors accept new patients, and says nothing about specialists. The ARS zoning used for installation grants works by health area, not by town: check yours before deciding.",
   },
   {
     enSlug: "chronic-unemployment",
@@ -174,9 +174,9 @@ const EN_THEMES: EnTheme[] = [
     intro:
       "On paper: affordable housing, reasonable taxes, neighbourhood life. On the ground: poor air, medical desert, distressed job market. When three pillars collapse together, every life project becomes a series of losing trade-offs.",
     reality:
-      "We rank cities over 15,000 whose mega-index (environment 35% + health 30% + employment 35%) is ≤ 4.5/10, with a penalty when at least 2 of the 3 pillars fall below 4/10 — a genuine compounding effect.",
+      "We rank cities over 15,000 whose mega-index (environment 35% + health 30% + employment 35%) is ≤ 4.8/10, with a penalty when at least 2 of the 3 pillars fall below 4/10 — a genuine compounding effect.",
     methodology:
-      "Severity = (5 − index) × 2 + 1.2 if ≥ 2 pillars ≤ 4/10 + 0.6 if ≤ 3.5/10. The environment pillar is a commune-level estimate keyed to the ATMO/CITEPA/RNSA frameworks, not a station reading; the health pillar is a commune-level estimate keyed to the DREES/CNOM/ARS frameworks, not a count of practices; the employment pillar a departmental estimate keyed to the INSEE/DADS/SIRENE frameworks, not the published unemployment rate.",
+      "Severity = (5 − index) × 2 + 1.2 if ≥ 2 pillars ≤ 4/10 + 0.6 if ≤ 3.5/10. The environment pillar is a commune-level estimate keyed to the ATMO/CITEPA/RNSA frameworks, not a station reading; the health pillar measures GP access (DREES APL), emergency departments and pharmacies (INSEE) and estimates specialists; the employment pillar a departmental estimate keyed to the INSEE/DADS/SIRENE frameworks, not the published unemployment rate.",
   },
   {
     enSlug: "cost-explosion",

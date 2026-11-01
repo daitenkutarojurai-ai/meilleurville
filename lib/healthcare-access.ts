@@ -1,9 +1,18 @@
 // F47 — Accès aux soins / désert médical par ville
 //
-// 4 dimensions évaluées depuis le seed (department, population, characterTags).
-// Aucune dépendance externe.
+// 4 dimensions. Depuis le 2026-11-01, trois sont MESURÉES quand la commune est
+// couverte (591/593 villes, `lib/city-healthcare.ts`) :
+//   - médecins généralistes : APL 2024 de la DREES (consultations accessibles
+//     par an et par habitant, médecins des communes voisines compris) ;
+//   - urgences : service d'urgences recensé dans la commune (Insee, BPE 2025),
+//     sinon distance à la commune la plus proche qui en compte un (centres de
+//     communes, geo.api.gouv.fr), combinée à la distance au site de CHU ;
+//   - pharmacies : pharmacies recensées dans la commune (BPE), par habitant.
+// Les spécialistes restent ESTIMÉS (taille de ville + distance au CHU). Hors
+// couverture, les dimensions retombent sur les paliers estimés ci-dessous
+// (`*Ladder`), calés sur les repères suivants :
 //
-// Sources de référence (toutes publiques) :
+// Sources de référence des paliers estimés :
 //   - DREES (drees.solidarites-sante.gouv.fr) : densité de médecins
 //     généralistes et spécialistes par département (statistiques annuelles).
 //   - Ministère Santé / ARS : zonage Zones d'Intervention Prioritaire (ZIP),
@@ -21,6 +30,13 @@
 // Composite = moyenne pondérée des 4 sous-scores.
 
 import type { CityLight } from "@/lib/cities-light";
+import {
+  APL_UNDERSERVED,
+  APL_VERY_LOW,
+  cityHealthcareMeasure,
+  residentsPerPharmacy,
+  type CityHealthcareMeasure,
+} from "@/lib/city-healthcare";
 
 export type HealthLevel = "facile" | "correct" | "tendu" | "desert";
 
@@ -42,6 +58,8 @@ export interface HealthcareAccess {
   pharmacies: HealthDimension;
   /** Signature narrative pour résumé une-ligne */
   signature: string;
+  /** Relevés DREES / Insee de la commune, null hors couverture (paliers estimés). */
+  measured: CityHealthcareMeasure | null;
 }
 
 function levelFromScore(s: number): HealthLevel {
@@ -95,7 +113,7 @@ const MG_BIEN_DOTE_DEPTS = new Set([
   "Bouches-du-Rhône",
 ]);
 
-function generalistesAccess(city: CityLight): HealthDimension {
+function generalistesLadder(city: CityLight): HealthDimension {
   const d = city.department;
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -370,11 +388,18 @@ function urgencesFromChu(city: CityLight): HealthDimension | null {
   return null;
 }
 
-function urgencesAccess(city: CityLight): HealthDimension {
+/** Commune de montagne d'après ses tags. Teste tag par tag : sur la chaîne
+ *  jointe, « station » attrapait « station-balnéaire » (Arcachon, Royan,
+ *  La Baule) et « montagne » attrapait « entre-montagne-plaine » (Romans). */
+function isMountainTown(city: CityLight): boolean {
+  return (city.characterTags ?? []).some((t) => /^montagnes?(\s|$)|ski|alpin/i.test(t));
+}
+
+function urgencesLadder(city: CityLight): HealthDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags) || pop > 100_000;
-  const isMountain = /montagne|station|alpin/.test(tags);
+  const isMountain = isMountainTown(city);
   const isIsland = /île|îles/.test(tags) || ["Corse-du-Sud", "Haute-Corse", "Mayotte", "Guyane"].includes(city.department);
 
   let ladder: HealthDimension;
@@ -418,7 +443,7 @@ function urgencesAccess(city: CityLight): HealthDimension {
 // de 1 pharmacie / 3 000 hab. ; sous ce seuil en zone rurale, le maillage
 // devient critique (déserts pharmaceutiques émergeants).
 
-function pharmaciesAccess(city: CityLight): HealthDimension {
+function pharmaciesLadder(city: CityLight): HealthDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isRural = /rural|villageois|campagne/.test(tags);
@@ -451,6 +476,135 @@ function pharmaciesAccess(city: CityLight): HealthDimension {
   };
 }
 
+// ─── Dimensions mesurées (DREES APL + Insee BPE) ──────────────────────────
+//
+// Barèmes continus par interpolation linéaire entre ancres, pour qu'un écart
+// de relevé se lise dans le score (pas de marches où deux villes très
+// différentes tombent ex æquo).
+
+/** Interpolation linéaire entre ancres [x, score] triées par x croissant, bornée aux extrêmes. */
+function interpolate(x: number, anchors: readonly (readonly [number, number])[]): number {
+  if (x <= anchors[0][0]) return anchors[0][1];
+  for (let i = 1; i < anchors.length; i++) {
+    const [x1, y1] = anchors[i];
+    if (x <= x1) {
+      const [x0, y0] = anchors[i - 1];
+      return y0 + ((x - x0) / (x1 - x0)) * (y1 - y0);
+    }
+  }
+  return anchors[anchors.length - 1][1];
+}
+
+const round1 = (n: number) => Math.round(n * 10) / 10;
+const fr1 = (n: number) => n.toFixed(1).replace(".", ",");
+const fr2 = (n: number) => n.toFixed(2).replace(".", ",");
+
+// APL → score (10 = désert). Les ancres posent les seuils officiels sur les
+// frontières de niveau : sous 1,5 (accès très faible) → « désert » (≥ 7,5),
+// sous 2,5 (zone sous-dense) → « tendu » (≥ 5,5), au-delà de 4 → « facile ».
+const APL_ANCHORS = [
+  [1.0, 9.0],
+  [APL_VERY_LOW, 7.5],
+  [APL_UNDERSERVED, 5.5],
+  [4.0, 3.5],
+  [5.5, 1.5],
+] as const;
+
+function generalistesMeasured(m: CityHealthcareMeasure, apl: number): HealthDimension {
+  const score = round1(interpolate(apl, APL_ANCHORS));
+  const where =
+    apl < APL_VERY_LOW
+      ? "sous le seuil de 1,5 qui qualifie un accès très faible"
+      : apl < APL_UNDERSERVED
+        ? "sous le seuil de 2,5 qui définit une zone sous-dense"
+        : "au-dessus du seuil de 2,5 qui définit une zone sous-dense";
+  const gp = m.gp > 1 ? `${m.gp} généralistes libéraux recensés` : m.gp === 1 ? "un généraliste libéral recensé" : "aucun généraliste libéral recensé";
+  return {
+    score,
+    level: levelFromScore(score),
+    reason: `${fr2(apl)} consultations de médecine générale accessibles par an et par habitant (APL, DREES), ${where}. L'indicateur compte aussi les médecins des communes voisines ; ${gp} dans la commune même (Insee, BPE).`,
+  };
+}
+
+// Distance (km, centre à centre, à vol d'oiseau) à la commune la plus proche
+// qui compte un service d'urgences → score. 10 km ≈ un quart d'heure de route
+// en plaine ; 30 km, la demi-heure dont parle le pacte urgences.
+const ER_DISTANCE_ANCHORS = [
+  [3, 3.0],
+  [10, 4.5],
+  [20, 5.5],
+  [30, 6.5],
+  [45, 8.0],
+  [60, 9.0],
+] as const;
+
+function urgencesMeasured(city: CityLight, m: CityHealthcareMeasure): HealthDimension {
+  if (m.emergency > 0) {
+    const what = m.emergency > 1 ? `${m.emergency} services d'urgences recensés` : "Un service d'urgences recensé";
+    return easier(
+      { score: 2.5, level: "facile", reason: `${what} dans la commune (Insee, BPE). Le temps d'attente sur place n'est pas relevé.` },
+      urgencesFromChu(city),
+    );
+  }
+  if (m.erKm === undefined) return easier(urgencesLadder(city), urgencesFromChu(city));
+  // Aucun service dans la commune : la distance au plus proche est mesurée,
+  // à vol d'oiseau. En montagne la route est plus longue que la ligne droite
+  // (et l'hiver plus lente) : un point de pénalité.
+  const mountain = isMountainTown(city);
+  const score = round1(Math.min(9.5, interpolate(m.erKm, ER_DISTANCE_ANCHORS) + (mountain ? 1 : 0)));
+  const km = m.erKm < 10 ? fr1(m.erKm) : String(Math.round(m.erKm));
+  return easier(
+    {
+      score,
+      level: levelFromScore(score),
+      reason: `Aucun service d'urgences dans la commune ; le plus proche est à ${m.erNearest}, à ${km} km à vol d'oiseau (Insee, BPE).${mountain ? " En montagne, la route est nettement plus longue que la ligne droite." : ""} Le temps de trajet et l'attente ne sont pas relevés.`,
+    },
+    urgencesFromChu(city),
+  );
+}
+
+// Pharmacies pour 10 000 habitants → score. Médiane des villes du site ≈ 3,2,
+// moyenne française ≈ 3 (une pour 3 300 habitants environ).
+const PHARMACY_ANCHORS = [
+  [0.5, 8.0],
+  [1.0, 7.0],
+  [2.0, 5.0],
+  [3.0, 3.5],
+  [4.5, 2.0],
+  [6.0, 1.5],
+] as const;
+
+function pharmaciesMeasured(m: CityHealthcareMeasure): HealthDimension {
+  const perPharmacy = residentsPerPharmacy(m);
+  if (perPharmacy === null) {
+    return {
+      score: 8.5,
+      level: "desert",
+      reason: "Aucune pharmacie recensée dans la commune (Insee, BPE) : la plus proche est dans une commune voisine.",
+    };
+  }
+  const per10k = (m.pharmacies / m.pop) * 10_000;
+  const score = round1(interpolate(per10k, PHARMACY_ANCHORS));
+  const what = m.pharmacies > 1 ? `${m.pharmacies} pharmacies recensées` : "Une pharmacie recensée";
+  return {
+    score,
+    level: levelFromScore(score),
+    reason: `${what} dans la commune (Insee, BPE), soit une pour ${perPharmacy.toLocaleString("fr-FR")} habitants (${fr1(per10k)} pour 10 000). Les gardes de nuit ne sont pas relevées.`,
+  };
+}
+
+function generalistesAccess(city: CityLight, m: CityHealthcareMeasure | null): HealthDimension {
+  return m?.apl !== undefined ? generalistesMeasured(m, m.apl) : generalistesLadder(city);
+}
+
+function urgencesAccess(city: CityLight, m: CityHealthcareMeasure | null): HealthDimension {
+  return m ? urgencesMeasured(city, m) : urgencesLadder(city);
+}
+
+function pharmaciesAccess(city: CityLight, m: CityHealthcareMeasure | null): HealthDimension {
+  return m ? pharmaciesMeasured(m) : pharmaciesLadder(city);
+}
+
 // ─── Composite ────────────────────────────────────────────────────────────
 
 function composeSignature(h: HealthcareAccess, name: string): string {
@@ -473,10 +627,11 @@ function composeSignature(h: HealthcareAccess, name: string): string {
 }
 
 export function computeHealthcareAccess(city: CityLight): HealthcareAccess {
-  const generalistes = generalistesAccess(city);
+  const measured = cityHealthcareMeasure(city.slug);
+  const generalistes = generalistesAccess(city, measured);
   const specialistes = specialistesAccess(city);
-  const urgences = urgencesAccess(city);
-  const pharmacies = pharmaciesAccess(city);
+  const urgences = urgencesAccess(city, measured);
+  const pharmacies = pharmaciesAccess(city, measured);
   // Pondération : MG 35 % (porte d'entrée du système de soins),
   // spécialistes 25 %, urgences 25 % (vital), pharmacies 15 %.
   const composite =
@@ -491,6 +646,7 @@ export function computeHealthcareAccess(city: CityLight): HealthcareAccess {
     urgences,
     pharmacies,
     signature: "",
+    measured,
   };
   out.signature = composeSignature(out, city.name);
   return out;

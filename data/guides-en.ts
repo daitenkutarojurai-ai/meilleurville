@@ -29536,7 +29536,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: a CHU on site, access estimated as easy",
-        body: "Our healthcare-access engine rates Montpellier 7.9/10, where 10 means excellent access, against a median of 5.5 across the communes we track, with access judged easy for GPs, specialists, emergency care and pharmacies. The CHU (the regional university hospital) is spread over several sites, including Lapeyronie, Arnaud-de-Villeneuve and Gui-de-Chauliac, backed by many private clinics. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. The limit is the same everywhere in France: finding a médecin traitant, the named GP who sets your reimbursement rate, is hard for a newcomer. Start the day you move in, before you need one.",
+        body: "Our healthcare-access engine rates Montpellier 7.8/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 5.01 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The CHU (the regional university hospital) is spread over several sites, including Lapeyronie, Arnaud-de-Villeneuve and Gui-de-Chauliac, backed by many private clinics. The limit is the same everywhere in France: finding a médecin traitant, the named GP who sets your reimbursement rate, is hard for a newcomer. Start the day you move in, before you need one.",
       },
       {
         heading: "Renting or buying",
@@ -29584,7 +29584,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: a CHU on site, access estimated as easy",
-        body: "Our healthcare-access engine rates Bordeaux 7.9/10, where 10 means excellent access, against a median of 5.5, with access judged easy on all four dimensions. The CHU (university hospital) has several major sites, including Pellegrin in town and Haut-Lévêque in Pessac, and the conurbation has many clinics. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. As everywhere, finding a médecin traitant, the named GP who sets your reimbursement rate, is the hardest step for a newcomer. Begin on arrival.",
+        body: "Our healthcare-access engine rates Bordeaux 8.2/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 6.25 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The CHU (university hospital) has several major sites, including Pellegrin in town and Haut-Lévêque in Pessac, and the conurbation has many clinics. As everywhere, finding a médecin traitant, the named GP who sets your reimbursement rate, is the hardest step for a newcomer. Begin on arrival.",
       },
       {
         heading: "Renting or buying",
@@ -29632,7 +29632,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: a CHU on site, access estimated as easy",
-        body: "Our healthcare-access engine rates Nice 7.9/10, where 10 means excellent access, against a median of 5.5, with access judged easy on all four dimensions. The Nice CHU (university hospital), including Pasteur and L'Archet, and many private clinics make a dense offer used to an older clientele. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. One thing to know: many specialists work in secteur 2, meaning they may charge above the state tariff, so the quality of your mutuelle, the top-up insurance, matters more here than elsewhere.",
+        body: "Our healthcare-access engine rates Nice 8.0/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 4.86 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Nice CHU (university hospital), including Pasteur and L'Archet, and many private clinics make a dense offer used to an older clientele. One thing to know: many specialists work in secteur 2, meaning they may charge above the state tariff, so the quality of your mutuelle, the top-up insurance, matters more here than elsewhere.",
       },
       {
         heading: "Housing: the line that decides",
@@ -29680,7 +29680,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: a hospital, but no university hospital",
-        body: "Our healthcare-access engine rates Perpignan 6.2/10, where 10 means excellent access, above the median of 5.5, with GPs and specialists judged adequate and emergency care easy to reach. The Perpignan general hospital and the clinics of the conurbation cover most needs, but the city has no CHU: the nearest is Montpellier, about 130 kilometres as the crow flies by our calculation. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. For highly specialised follow-up, cancer care or major surgery, that means travel. It is the first point to weigh.",
+        body: "Our healthcare-access engine rates Perpignan 7.1/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 4.57 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Perpignan general hospital and the clinics of the conurbation cover most needs, but the city has no CHU: the nearest is Montpellier, about 130 kilometres as the crow flies by our calculation. For highly specialised follow-up, cancer care or major surgery, that means travel. It is the first point to weigh.",
       },
       {
         heading: "Renting or buying",
@@ -29728,7 +29728,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: a good hospital, tight specialists",
-        body: "Our healthcare-access engine rates La Rochelle 5.7/10, where 10 means excellent access, close to the median of 5.5: emergency care is judged easy to reach and GPs adequate, but access to specialists is judged tight. The La Rochelle general hospital handles emergencies and a large share of specialties. The nearest CHU (university hospital) is Nantes, about 120 kilometres as the crow flies by our calculation, with Poitiers at a similar distance. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. For regular specialist follow-up, plan for delays and travel, and secure a médecin traitant, the named GP who sets your reimbursement rate, as soon as you move.",
+        body: "Our healthcare-access engine rates La Rochelle 6.9/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 5.80 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The La Rochelle general hospital handles emergencies and a large share of specialties. The nearest CHU (university hospital) is Nantes, about 120 kilometres as the crow flies by our calculation, with Poitiers at a similar distance. For regular specialist follow-up, plan for delays and travel, and secure a médecin traitant, the named GP who sets your reimbursement rate, as soon as you move.",
       },
       {
         heading: "Renting or buying",
@@ -29776,7 +29776,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: a large hospital, a CHU at a distance",
-        body: "Our healthcare-access engine rates Pau 6.6/10, where 10 means excellent access, above the median of 5.5: GPs and emergency care are judged easy to reach, specialists tight. The Pau general hospital is one of the large non-university hospitals of the south-west, complemented by private clinics. The nearest CHU (university hospital) is Toulouse, about 150 kilometres as the crow flies by our calculation, with Bordeaux slightly further. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. For very specialised follow-up, that means journeys or video consultations.",
+        body: "Our healthcare-access engine rates Pau 6.6/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 4.76 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Pau general hospital is one of the large non-university hospitals of the south-west, complemented by private clinics. The nearest CHU (university hospital) is Toulouse, about 150 kilometres as the crow flies by our calculation, with Bordeaux slightly further. For very specialised follow-up, that means journeys or video consultations.",
       },
       {
         heading: "Renting or buying",
@@ -29824,7 +29824,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: good access, the CHU in Marseille",
-        body: "Our healthcare-access engine rates Toulon 7.1/10, where 10 means excellent access, above the median of 5.5: GPs, emergency care and pharmacies are judged easy to reach, specialists adequate. Toulon has a large intercommunal hospital, with Sainte-Musse, and the Sainte-Anne military teaching hospital, open to civilians. The nearest CHU (university hospital) is in Marseille, about 50 kilometres as the crow flies by our calculation, under an hour by train or motorway. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time.",
+        body: "Our healthcare-access engine rates Toulon 6.8/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 4.10 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. Toulon has a large intercommunal hospital, with Sainte-Musse, and the Sainte-Anne military teaching hospital, open to civilians. The nearest CHU (university hospital) is in Marseille, about 50 kilometres as the crow flies by our calculation, under an hour by train or motorway.",
       },
       {
         heading: "Renting or buying",
@@ -29872,7 +29872,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: a regional hospital, tight specialists",
-        body: "Our healthcare-access engine rates Vannes 5.7/10, where 10 means excellent access, close to the median of 5.5: emergency care judged easy to reach, GPs adequate, specialists tight. The Bretagne Atlantique hospital centre in Vannes handles emergencies and a large share of specialties. The nearest CHU (university hospital) is Rennes, about 95 kilometres as the crow flies by our calculation, with Nantes at a similar distance. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. As along the whole Breton coast in demand from retirees, finding a médecin traitant, the named GP who sets your reimbursement rate, is hard: make it your first errand.",
+        body: "Our healthcare-access engine rates Vannes 6.8/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 5.87 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Bretagne Atlantique hospital centre in Vannes handles emergencies and a large share of specialties. The nearest CHU (university hospital) is Rennes, about 95 kilometres as the crow flies by our calculation, with Nantes at a similar distance. As along the whole Breton coast in demand from retirees, finding a médecin traitant, the named GP who sets your reimbursement rate, is hard: make it your first errand.",
       },
       {
         heading: "Renting or buying",
@@ -29920,7 +29920,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: a CHU on site, access estimated as easy",
-        body: "Our healthcare-access engine rates Angers 7.9/10, where 10 means excellent access, against a median of 5.5, with access judged easy on all four dimensions. The Angers CHU (university hospital) and the clinics of the conurbation provide a complete offer, from routine follow-up to heavy specialties, without travelling to another city. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time. As everywhere, the médecin traitant, the named GP who sets your reimbursement rate, is the errand to start on arrival.",
+        body: "Our healthcare-access engine rates Angers 8.0/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 5.96 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Angers CHU (university hospital) and the clinics of the conurbation provide a complete offer, from routine follow-up to heavy specialties, without travelling to another city. As everywhere, the médecin traitant, the named GP who sets your reimbursement rate, is the errand to start on arrival.",
       },
       {
         heading: "Renting or buying",
@@ -29968,7 +29968,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Healthcare: a hospital, Toulon next door, the CHU in Marseille",
-        body: "Our healthcare-access engine rates Hyères 6.6/10, where 10 means excellent access, above the median of 5.5: GPs, emergency care and pharmacies are judged easy to reach, specialists tight. Hyères has its own hospital centre, and the Toulon hospitals, including Sainte-Musse and the Sainte-Anne military teaching hospital, are about twenty kilometres away. The nearest CHU (university hospital) is in Marseille, about 65 kilometres as the crow flies by our calculation. Our access score is an estimate built from county-level doctor density and the presence of hospitals and emergency departments, not a count of practices or a measured waiting time.",
+        body: "Our healthcare-access engine rates Hyères 6.6/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 4.56 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. Hyères has its own hospital centre, and the Toulon hospitals, including Sainte-Musse and the Sainte-Anne military teaching hospital, are about twenty kilometres away. The nearest CHU (university hospital) is in Marseille, about 65 kilometres as the crow flies by our calculation.",
       },
       {
         heading: "Renting or buying",
@@ -30017,7 +30017,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Biarritz?",
-        body: "Our healthcare-access engine rates Biarritz 5.3/10, where 10 means excellent access, just under the 5.5 median of the towns we track: a \"fair\" level. It is an estimate built from county-level doctor density and the presence of hospitals, not a measured waiting time. The reference hospital for the Basque Country is the Côte Basque hospital centre, whose main site is in neighbouring Bayonne. The nearest CHU (university hospital) is in Bordeaux (Pessac), about 165 kilometres as the crow flies by our calculation. For a serious condition followed at a CHU, that is a real journey to plan for.",
+        body: "Our healthcare-access engine rates Biarritz 6.1/10, where 10 means excellent access, close to the median of 6.0 across the towns we track: an \"adequate\" level (our health sheet). GP access is measured: 4.42 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The reference hospital for the Basque Country is the Côte Basque hospital centre, whose main site is in neighbouring Bayonne. The nearest CHU (university hospital) is in Bordeaux (Pessac), about 165 kilometres as the crow flies by our calculation. For a serious condition followed at a CHU, that is a real journey to plan for.",
       },
       {
         heading: "Renting or buying in Biarritz",
@@ -30058,7 +30058,7 @@ export const EN_GUIDES: EnGuide[] = [
     publishedAt: "2026-10-28",
     updatedAt: "2026-10-28",
     intro:
-      "Arcachon is the oldest town in this series: 60.4% of its 10,895 residents are aged 60 or over, and 30.0% are 75 or over, against medians of 26.2% and 10.2% (INSEE census, 2022). It is also one of the dearest: a two-bedroom estimated at €1,100 and a purchase at €6,800/m² on our rent estimate. Our retirement score is 6.7/10, in a seventeen-way tie, behind 183 towns. Winters are mild (8°C in January, 2,150 hours of sun), but healthcare access is our weak point: 3.5/10.",
+      "Arcachon is the oldest town in this series: 60.4% of its 10,895 residents are aged 60 or over, and 30.0% are 75 or over, against medians of 26.2% and 10.2% (INSEE census, 2022). It is also one of the dearest: a two-bedroom estimated at €1,100 and a purchase at €6,800/m² on our rent estimate. Our retirement score is 6.7/10, in a seventeen-way tie, behind 183 towns. Winters are mild (8°C in January, 2,150 hours of sun), and healthcare access sits a little below the median: 5.8/10, against 6.0.",
     sections: [
       {
         heading: "What is Arcachon worth for a retirement on the bay?",
@@ -30066,7 +30066,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Arcachon?",
-        body: "This is the real question. Our healthcare-access engine rates Arcachon 3.5/10, where 10 means excellent access, well under the 5.5 median of the towns we track: a \"tight\" level. It is an estimate built from county-level doctor density and the presence of hospitals, not a measured waiting time. The Arcachon hospital centre, on avenue Jean Hameau, is in neighbouring La Teste-de-Buch, not in Arcachon itself. The nearest CHU (university hospital) is in Bordeaux (Pessac), about 46 kilometres as the crow flies by our calculation: short on the map, longer in summer on the roads around the bay.",
+        body: "This is the real question. Our healthcare-access engine rates Arcachon 5.8/10, where 10 means excellent access, close to the median of 6.0 across the towns we track: an \"adequate\" level (our health sheet). GP access is measured: 4.38 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Arcachon hospital centre, on avenue Jean Hameau, is in neighbouring La Teste-de-Buch, not in Arcachon itself. The nearest CHU (university hospital) is in Bordeaux (Pessac), about 46 kilometres as the crow flies by our calculation: short on the map, longer in summer on the roads around the bay.",
       },
       {
         heading: "Housing in Arcachon: the price of the exception",
@@ -30082,7 +30082,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "The limits, before you sign",
-        body: "Three points. Care first: access to specialists runs through Bordeaux, and the 30% of residents over 75 weigh on a medical offer that is already stretched. Price second, far above average pensions. Risk third: the bay is exposed to forest fires and marine flooding, and in summer the access road saturates. Arcachon suits the retiree with capital who likes resort life and is not aiming at a serious condition; on a tighter budget, a mid-sized town better supplied with healthcare is the safer bet.",
+        body: "Three points. Care first: access to specialists runs through Bordeaux, and the 30% of residents over 75 weigh on local care that has no emergency department in the town itself. Price second, far above average pensions. Risk third: the bay is exposed to forest fires and marine flooding, and in summer the access road saturates. Arcachon suits the retiree with capital who likes resort life and is not aiming at a serious condition; on a tighter budget, a mid-sized town better supplied with healthcare is the safer bet.",
       },
     ],
     relatedCities: ["arcachon", "biarritz", "bordeaux"],
@@ -30115,7 +30115,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Saint-Malo?",
-        body: "Our healthcare-access engine rates Saint-Malo 5.0/10, where 10 means excellent access, a little under the 5.5 median of the towns we track: a \"fair\" level. It is an estimate, not a measured waiting time. The town has the Saint-Malo hospital centre, Broussais site, rue de la Marne, part of the Rance-Émeraude hospital group. The nearest CHU (university hospital) is in Rennes, about 65 kilometres as the crow flies by our calculation: the most reasonable distance among the coastal towns of this lot.",
+        body: "Our healthcare-access engine rates Saint-Malo 7.0/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 5.68 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The town has the Saint-Malo hospital centre, Broussais site, rue de la Marne, part of the Rance-Émeraude hospital group. The nearest CHU (university hospital) is in Rennes, about 65 kilometres as the crow flies by our calculation: the most reasonable distance among the coastal towns of this lot.",
       },
       {
         heading: "Housing in Saint-Malo: inside the walls or elsewhere?",
@@ -30164,7 +30164,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Annecy?",
-        body: "Our healthcare-access engine rates Annecy 6.2/10, where 10 means excellent access, above the 5.5 median: a \"fair\" level. It is an estimate, not a measured waiting time. The hospital is the Annecy Genevois hospital centre, whose main site is in neighbouring Épagny Metz-Tessy, at 1 avenue de l'Hôpital. The nearest CHU (university hospital) is in Grenoble, about 85 kilometres as the crow flies by our calculation, though the mountain road lengthens the trip: worth weighing for specialist follow-up outside the hospital centre.",
+        body: "Our healthcare-access engine rates Annecy 7.2/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 5.13 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The hospital is the Annecy Genevois hospital centre, whose main site is in neighbouring Épagny Metz-Tessy, at 1 avenue de l'Hôpital. The nearest CHU (university hospital) is in Grenoble, about 85 kilometres as the crow flies by our calculation, though the mountain road lengthens the trip: worth weighing for specialist follow-up outside the hospital centre.",
       },
       {
         heading: "Housing in Annecy: budget and choices",
@@ -30213,7 +30213,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Sète?",
-        body: "Our healthcare-access engine rates Sète 6.3/10, where 10 means excellent access, above the 5.5 median: a \"fair\" level. It is an estimate, not a measured wait for a specialist. The nearest CHU (university hospital) is in Montpellier, about 27 kilometres as the crow flies by our calculation: the shortest of the lot after Nîmes, which hosts a CHU itself. For a condition followed at a CHU, Sète is well placed among the coastal towns.",
+        body: "Our healthcare-access engine rates Sète 7.2/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 4.83 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The nearest CHU (university hospital) is in Montpellier, about 27 kilometres as the crow flies by our calculation: the shortest of the lot after Nîmes, which hosts a CHU itself. For a condition followed at a CHU, Sète is well placed among the coastal towns.",
       },
       {
         heading: "Housing in Sète: the sea at a moderate price",
@@ -30262,7 +30262,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Narbonne?",
-        body: "Our healthcare-access engine rates Narbonne 5.7/10, where 10 means excellent access, around the 5.5 median: a \"fair\" level. It is an estimate built from county-level doctor density and the presence of hospitals, not a measured wait. The nearest CHU (university hospital) is in Montpellier, about 85 kilometres as the crow flies by our calculation, three times Sète's distance (27 km): for heavy follow-up, the trip is regular. Check the specialist offer with the regional health agency or your insurer before choosing a district.",
+        body: "Our healthcare-access engine rates Narbonne 6.5/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"adequate\" level (our health sheet). GP access is measured: 4.74 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The nearest CHU (university hospital) is in Montpellier, about 85 kilometres as the crow flies by our calculation, three times Sète's distance (27 km): for heavy follow-up, the trip is regular. Check the specialist offer with the regional health agency or your insurer before choosing a district.",
       },
       {
         heading: "Housing in Narbonne: a measured budget",
@@ -30303,7 +30303,7 @@ export const EN_GUIDES: EnGuide[] = [
     publishedAt: "2026-10-28",
     updatedAt: "2026-10-28",
     intro:
-      "Nîmes is the only town in this lot to host a CHU (university hospital): our healthcare-access engine rates it 7.9/10, where 10 means excellent access, against a median of 5.5. A two-bedroom is estimated at €720 and a purchase at €2,800/m² on our rent estimate. With 27.4% aged 60 or over and 10.7% aged 75 or over (INSEE census, 2022), it is a big city of 150,444 residents, not a retirees' resort. Our retirement score is 5.5/10, in a twenty-way tie, behind 391 towns: safety (3.9/10) and a 31% poverty rate weigh on it.",
+      "Nîmes is the only town in this lot to host a CHU (university hospital): our healthcare-access engine rates it 7.4/10, where 10 means excellent access, against a median of 6.0. A two-bedroom is estimated at €720 and a purchase at €2,800/m² on our rent estimate. With 27.4% aged 60 or over and 10.7% aged 75 or over (INSEE census, 2022), it is a big city of 150,444 residents, not a retirees' resort. Our retirement score is 5.5/10, in a twenty-way tie, behind 391 towns: safety (3.9/10) and a 31% poverty rate weigh on it.",
     sections: [
       {
         heading: "Why Nîmes for a retiree who is ill or planning ahead",
@@ -30311,7 +30311,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Nîmes?",
-        body: "Our healthcare-access engine rates Nîmes 7.9/10, among the best of this lot (Sète 6.3, Narbonne 5.7, Biarritz 5.3, Arcachon 3.5), an \"easy\" level. As for every town, it is an estimate built from county-level doctor density, the size of the commune and the presence of a CHU, not a measured wait for a specialist. The advantage is structural: emergency care, specialities and pharmacies are within reach by tram or car, without a trip of several dozen kilometres.",
+        body: "Our healthcare-access engine rates Nîmes 7.4/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 3.88 GP consultations within reach per resident per year according to DREES, close to the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The advantage is structural: emergency care, specialities and pharmacies are within reach by tram or car, without a trip of several dozen kilometres.",
       },
       {
         heading: "Housing in Nîmes: measured prices",
@@ -30360,7 +30360,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Quimper?",
-        body: "Our healthcare-access engine rates Quimper 5.7/10, where 10 means excellent access, an \"adequate\" level and above the median of 5.5 (our health sheet). It is an estimate built from county-level doctor density and the size of the commune, not a measured waiting time. The reference hospital for the area is the Cornouaille intercommunal hospital, split between Quimper and Concarneau. The nearest CHU is in Brest, about 52 kilometres away: fine for occasional follow-up, heavier for weekly sessions.",
+        body: "Our healthcare-access engine rates Quimper 6.6/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 4.74 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The reference hospital for the area is the Cornouaille intercommunal hospital, split between Quimper and Concarneau. The nearest CHU is in Brest, about 52 kilometres away: fine for occasional follow-up, heavier for weekly sessions.",
       },
       {
         heading: "How much does housing cost in Quimper?",
@@ -30409,7 +30409,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Lorient?",
-        body: "Our healthcare-access engine rates Lorient 5.7/10, where 10 means excellent access, an \"adequate\" level (our health sheet). The reference hospital is the Bretagne Sud hospital centre, known as the Scorff hospital, on avenue de Choiseul. But the nearest CHU is in Brest, about 110 kilometres away as the crow flies in our calculation, twice the distance from Quimper (52 km): for heavy specialist follow-up, this is the main brake in the lot.",
+        body: "Our healthcare-access engine rates Lorient 6.5/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"adequate\" level (our health sheet). GP access is measured: 4.47 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The reference hospital is the Bretagne Sud hospital centre, known as the Scorff hospital, on avenue de Choiseul. But the nearest CHU is in Brest, about 110 kilometres away as the crow flies in our calculation, twice the distance from Quimper (52 km): for heavy specialist follow-up, this is the main brake in the lot.",
       },
       {
         heading: "Housing in Lorient: measured prices",
@@ -30450,7 +30450,7 @@ export const EN_GUIDES: EnGuide[] = [
     publishedAt: "2026-10-28",
     updatedAt: "2026-10-28",
     intro:
-      "Saint-Brieuc is the most affordable Breton town in this lot: €580 a two-bedroom and €1,800/m² to buy on our rent estimate, so a 60 m² flat sits around €108,000 before fees. The town has 44,607 residents, 28.8% of them aged 60 or over and 12.3% aged 75 or over (INSEE census, 2022). Our retirement score is 6.6/10, in a seventeen-way tie, behind 200 towns; the flip side is an estimated healthcare access of 5.0/10 and a population falling by 0.9%.",
+      "Saint-Brieuc is the most affordable Breton town in this lot: €580 a two-bedroom and €1,800/m² to buy on our rent estimate, so a 60 m² flat sits around €108,000 before fees. The town has 44,607 residents, 28.8% of them aged 60 or over and 12.3% aged 75 or over (INSEE census, 2022). Our retirement score is 6.6/10, in a seventeen-way tie, behind 200 towns; the flip side is a population falling by 0.9%, with healthcare access at the median (6.0/10).",
     sections: [
       {
         heading: "Why Saint-Brieuc costs less than its neighbours",
@@ -30458,7 +30458,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Saint-Brieuc?",
-        body: "Our healthcare-access engine rates Saint-Brieuc 5.0/10, where 10 means excellent access, an \"adequate\" level but below the median of 5.5 (our health sheet). It is an estimate built from doctor density and the size of the commune. The nearest CHU (university hospital) is in Rennes, about 92 kilometres away as the crow flies, nearly twice the distance from Quimper (52 km). Before moving, check that a family doctor (médecin traitant) is available: that is the real friction point.",
+        body: "Our healthcare-access engine rates Saint-Brieuc 6.0/10, where 10 means excellent access, close to the median of 6.0 across the towns we track: an \"adequate\" level (our health sheet). GP access is measured: 3.59 GP consultations within reach per resident per year according to DREES, close to the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The nearest CHU (university hospital) is in Rennes, about 92 kilometres away as the crow flies, nearly twice the distance from Quimper (52 km). Before moving, check that a family doctor (médecin traitant) is available: that is the real friction point.",
       },
       {
         heading: "Sun and sea in Saint-Brieuc",
@@ -30507,7 +30507,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Menton?",
-        body: "Our healthcare-access engine rates Menton 6.3/10, where 10 means excellent access, an \"adequate\" level (our health sheet). It is an estimate built from doctor density and the size of the commune, not a count of surgeries. The nearest CHU (university hospital) is in Nice, about 20 kilometres away as the crow flies, the shortest distance in this lot; the coast road is busy, though, so allow more time than the distance suggests.",
+        body: "Our healthcare-access engine rates Menton 6.7/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 3.62 GP consultations within reach per resident per year according to DREES, close to the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The nearest CHU (university hospital) is in Nice, about 20 kilometres away as the crow flies, the shortest distance in this lot; the coast road is busy, though, so allow more time than the distance suggests.",
       },
       {
         heading: "How much does housing cost in Menton?",
@@ -30548,7 +30548,7 @@ export const EN_GUIDES: EnGuide[] = [
     publishedAt: "2026-10-28",
     updatedAt: "2026-10-28",
     intro:
-      "Dax is the oldest town in this lot: 36.1% of its 21,716 residents are aged 60 or over and 15.6% are 75 or over (INSEE census, 2022; medians across our towns: 26.2% and 10.2%). A two-bedroom is estimated at €580 and a purchase at €2,200/m² on our rent estimate. Our retirement score is 6.7/10, in a seventeen-way tie, behind 183 towns, but estimated healthcare access is only 4.5/10, a \"strained\" level.",
+      "Dax is the oldest town in this lot: 36.1% of its 21,716 residents are aged 60 or over and 15.6% are 75 or over (INSEE census, 2022; medians across our towns: 26.2% and 10.2%). A two-bedroom is estimated at €580 and a purchase at €2,200/m² on our rent estimate. Our retirement score is 6.7/10, in a seventeen-way tie, behind 183 towns, with healthcare access at 6.3/10, an \"adequate\" level.",
     sections: [
       {
         heading: "Why Dax attracts retirees",
@@ -30556,7 +30556,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Dax?",
-        body: "Our healthcare-access engine rates Dax 4.5/10, where 10 means excellent access, a \"strained\" level below the median of 5.5 (our health sheet). Despite the spa-town image, this is the weak point of the file: it is an estimate built from county-level doctor density and the size of the commune, and the baths belong to the cure, not to routine medical follow-up. The nearest CHU (university hospital) is in Pessac, near Bordeaux, about 127 kilometres away as the crow flies. Check that a family doctor (médecin traitant) is available before you sign.",
+        body: "Our healthcare-access engine rates Dax 6.3/10, where 10 means excellent access, close to the median of 6.0 across the towns we track: an \"adequate\" level (our health sheet). GP access is measured: 4.97 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The baths belong to the cure, not to routine medical follow-up. The nearest CHU (university hospital) is in Pessac, near Bordeaux, about 127 kilometres away as the crow flies. Check that a family doctor (médecin traitant) is available before you sign.",
       },
       {
         heading: "Housing in Dax: among the most affordable",
@@ -30590,14 +30590,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Retiring in Bayonne (2026): the Basque Country, budget and limits",
     metaTitle: "Retiring in Bayonne 2026: Budget, Health, Limits",
     metaDesc:
-      "Retiring in Bayonne: two-bed at €900, €4,500/m², 26.7% aged 60+, healthcare access 6.6/10, hospital in town. Budget and limits.",
+      "Retiring in Bayonne: two-bed at €900, €4,500/m², 26.7% aged 60+, healthcare access 7.0/10, hospital in town. Budget and limits.",
     category: "moving",
     emoji: "🐟",
     readMinutes: 7,
     publishedAt: "2026-10-28",
     updatedAt: "2026-10-28",
     intro:
-      "Bayonne is a Basque retirement dearer than its neighbours in the Landes: €900 a two-bedroom and €4,500/m² to buy on our rent estimate. It has 53,312 residents, 26.7% of them aged 60 or over, close to the median of 26.2% (INSEE census, 2022). Our retirement score is 6.1/10, in a twenty-two-way tie, behind 286 towns: estimated healthcare access is good (6.6/10) and cost of living is weak (3.8/10).",
+      "Bayonne is a Basque retirement dearer than its neighbours in the Landes: €900 a two-bedroom and €4,500/m² to buy on our rent estimate. It has 53,312 residents, 26.7% of them aged 60 or over, close to the median of 26.2% (INSEE census, 2022). Our retirement score is 6.1/10, in a twenty-two-way tie, behind 286 towns: healthcare access is good (7.0/10) and cost of living is weak (3.8/10).",
     sections: [
       {
         heading: "Why Bayonne rather than Biarritz",
@@ -30605,7 +30605,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Bayonne?",
-        body: "Our healthcare-access engine rates Bayonne 6.6/10, where 10 means excellent access, an \"easy\" level, against a median of 5.5 (our health sheet). It is an estimate built from county-level doctor density, the size of the commune and the presence of a hospital: the Côte Basque hospital centre is in Bayonne itself. The nearest CHU (university hospital), however, is in Pessac, about 161 kilometres away as the crow flies, the furthest in this lot: for highly specialised care, the journey is long.",
+        body: "Our healthcare-access engine rates Bayonne 7.0/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 6.66 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Côte Basque hospital centre is in Bayonne itself. The nearest CHU (university hospital), however, is in Pessac, about 161 kilometres away as the crow flies, the furthest in this lot: for highly specialised care, the journey is long.",
       },
       {
         heading: "How much does housing cost in Bayonne?",
@@ -30639,14 +30639,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Retiring in Antibes (2026): ramparts, Picasso and Riviera prices",
     metaTitle: "Retiring in Antibes 2026: Budget, Health, Limits",
     metaDesc:
-      "Retiring in Antibes: two-bed at €1,050, €5,200/m², 33.8% aged 60+, healthcare access 7.1/10, Nice university hospital 18 km away. Budget and limits.",
+      "Retiring in Antibes: two-bed at €1,050, €5,200/m², 33.8% aged 60+, healthcare access 7.2/10, Nice university hospital 18 km away. Budget and limits.",
     category: "moving",
     emoji: "⛵",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
     intro:
-      "Antibes is a Riviera retirement with good healthcare access (7.1/10 on our estimate, median 5.5) but heavy housing costs: €1,050 a two-bedroom and €5,200/m² to buy (our rent estimate). It has 76,612 residents, 33.8% of them aged 60 or over, against a median of 26.2% (INSEE census, 2022). Our retirement score is 5.6/10, in a seventeen-way tie, behind 374 other towns: climate and health pull it up, cost of living (3.3/10) pulls it down.",
+      "Antibes is a Riviera retirement with good healthcare access (7.2/10, median 6.0) but heavy housing costs: €1,050 a two-bedroom and €5,200/m² to buy (our rent estimate). It has 76,612 residents, 33.8% of them aged 60 or over, against a median of 26.2% (INSEE census, 2022). Our retirement score is 5.6/10, in a seventeen-way tie, behind 374 other towns: climate and health pull it up, cost of living (3.3/10) pulls it down.",
     sections: [
       {
         heading: "Why Antibes appeals to retirees, and why the score stays middling",
@@ -30654,7 +30654,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Antibes?",
-        body: "Our healthcare-access engine rates Antibes 7.1/10, where 10 means excellent access, an \"easy\" level (our health sheet). It is an estimate built from doctor density and the size of the commune, not a count of surgeries. The nearest CHU (university hospital) is in Nice, about 18 kilometres away as the crow flies, a shorter distance than for the other towns in this batch. People aged 75 and over make up 15.1% of residents (median 10.2%), which says local provision is sized for them.",
+        body: "Our healthcare-access engine rates Antibes 7.2/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 4.91 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The nearest CHU (university hospital) is in Nice, about 18 kilometres away as the crow flies, a shorter distance than for the other towns in this batch. People aged 75 and over make up 15.1% of residents (median 10.2%), which says local provision is sized for them.",
       },
       {
         heading: "How much does housing cost in Antibes?",
@@ -30688,14 +30688,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Retiring in Cannes (2026): the Croisette, healthcare and a budget to hold",
     metaTitle: "Retiring in Cannes 2026: Budget, Health, Limits",
     metaDesc:
-      "Retiring in Cannes: two-bed at €1,250, €6,500/m², 36.6% aged 60+, 21% poverty, healthcare access 7.1/10, hospital in town. Budget and limits.",
+      "Retiring in Cannes: two-bed at €1,250, €6,500/m², 36.6% aged 60+, 21% poverty, healthcare access 7.2/10, hospital in town. Budget and limits.",
     category: "moving",
     emoji: "🎬",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
     intro:
-      "Cannes is the dearest town in this batch of six: €1,250 a two-bedroom and €6,500/m² to buy (our rent estimate). It is also one of the oldest, with 36.6% of residents aged 60 or over and 17.3% aged 75 or over out of 74,040 (INSEE census, 2022; medians 26.2% and 10.2%). Our retirement score is 5.4/10, in a thirty-five-way tie, behind 411 other towns: sunshine and healthcare access (7.1/10) do not offset a cost of living of 3.1/10.",
+      "Cannes is the dearest town in this batch of six: €1,250 a two-bedroom and €6,500/m² to buy (our rent estimate). It is also one of the oldest, with 36.6% of residents aged 60 or over and 17.3% aged 75 or over out of 74,040 (INSEE census, 2022; medians 26.2% and 10.2%). Our retirement score is 5.4/10, in a thirty-five-way tie, behind 411 other towns: sunshine and healthcare access (7.2/10) do not offset a cost of living of 3.1/10.",
     sections: [
       {
         heading: "Is Cannes a good place to retire?",
@@ -30703,7 +30703,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Cannes?",
-        body: "Our healthcare-access engine rates Cannes 7.1/10, where 10 means excellent access, an \"easy\" level (our health sheet). It is an estimate, not a count of surgeries. The Simone Veil hospital centre is in Cannes itself, and the nearest CHU (university hospital) is in Nice, about 26 kilometres away as the crow flies. With 17.3% aged 75 and over, this is a town where geriatric and home-care provision is worth asking about before you sign.",
+        body: "Our healthcare-access engine rates Cannes 7.2/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 4.86 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Simone Veil hospital centre is in Cannes itself, and the nearest CHU (university hospital) is in Nice, about 26 kilometres away as the crow flies. With 17.3% aged 75 and over, this is a town where geriatric and home-care provision is worth asking about before you sign.",
       },
       {
         heading: "How much does housing cost in Cannes?",
@@ -30737,14 +30737,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Retiring in Fréjus (2026): Roman, sunny and 10% bigger",
     metaTitle: "Retiring in Fréjus 2026: Budget, Health, Limits",
     metaDesc:
-      "Retiring in Fréjus: two-bed at €850, €3,800/m², 36% aged 60+, 2,900 hours of sun, healthcare access 6.6/10, Nice CHU 52 km away. Budget and limits.",
+      "Retiring in Fréjus: two-bed at €850, €3,800/m², 36% aged 60+, 2,900 hours of sun, healthcare access 6.2/10, Nice CHU 52 km away. Budget and limits.",
     category: "moving",
     emoji: "🏛️",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
     intro:
-      "Fréjus is the Var retirement in this batch that has grown most: 58,499 residents in 2022, 10% more than in 2016 (INSEE census). A two-bedroom is €850 and a square metre €3,800, more than 40% less than in Cannes (our rent estimate). Our retirement score is 5.5/10, in a twenty-way tie, behind 391 other towns, with 36% aged 60 or over and healthcare access estimated at 6.6/10.",
+      "Fréjus is the Var retirement in this batch that has grown most: 58,499 residents in 2022, 10% more than in 2016 (INSEE census). A two-bedroom is €850 and a square metre €3,800, more than 40% less than in Cannes (our rent estimate). Our retirement score is 5.5/10, in a twenty-way tie, behind 391 other towns, with 36% aged 60 or over and healthcare access at 6.2/10.",
     sections: [
       {
         heading: "Why Fréjus rather than the Riviera?",
@@ -30752,7 +30752,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Fréjus?",
-        body: "Our healthcare-access engine rates Fréjus 6.6/10, where 10 means excellent access, an \"easy\" level, above the median of 5.5 (our health sheet). It is an estimate built from doctor density and the size of the commune. The nearest CHU (university hospital) is in Nice, about 52 kilometres away as the crow flies: for highly specialised care, the journey is long. People aged 75 and over are 15.1% of residents, the same share as in Antibes.",
+        body: "Our healthcare-access engine rates Fréjus 6.2/10, where 10 means excellent access, close to the median of 6.0 across the towns we track: an \"adequate\" level (our health sheet). GP access is measured: 4.01 GP consultations within reach per resident per year according to DREES, close to the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The nearest CHU (university hospital) is in Nice, about 52 kilometres away as the crow flies: for highly specialised care, the journey is long. People aged 75 and over are 15.1% of residents, the same share as in Antibes.",
       },
       {
         heading: "How much does housing cost in Fréjus?",
@@ -30786,14 +30786,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Retiring in Aix-en-Provence (2026): culture, prices and a young town",
     metaTitle: "Retiring in Aix-en-Provence 2026: Budget, Limits",
     metaDesc:
-      "Retiring in Aix-en-Provence: two-bed at €1,050, €5,000/m², 24.9% aged 60+, culture 8.4/10, healthcare access 7.1/10. Budget and limits.",
+      "Retiring in Aix-en-Provence: two-bed at €1,050, €5,000/m², 24.9% aged 60+, culture 8.4/10, healthcare access 7.2/10. Budget and limits.",
     category: "moving",
     emoji: "🌳",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
     intro:
-      "Aix-en-Provence is a very cultural retirement (8.4/10), though not the cheapest: €1,050 a two-bedroom and €5,000/m² to buy (our rent estimate). It is also the youngest in this batch: 24.9% aged 60 or over out of 147,933 residents, below the median of 26.2% (INSEE census, 2022), because of its students. Our retirement score is 6.1/10, in a twenty-two-way tie, behind 286 other towns, with healthcare access estimated at 7.1/10.",
+      "Aix-en-Provence is a very cultural retirement (8.4/10), though not the cheapest: €1,050 a two-bedroom and €5,000/m² to buy (our rent estimate). It is also the youngest in this batch: 24.9% aged 60 or over out of 147,933 residents, below the median of 26.2% (INSEE census, 2022), because of its students. Our retirement score is 6.1/10, in a twenty-two-way tie, behind 286 other towns, with healthcare access at 7.2/10.",
     sections: [
       {
         heading: "Is Aix a retirement town or a student town?",
@@ -30801,7 +30801,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Aix-en-Provence?",
-        body: "Our healthcare-access engine rates Aix 7.1/10, where 10 means excellent access, an \"easy\" level (our health sheet). It is an estimate built from doctor density and the size of the commune. The Pays d'Aix hospital centre is in town, and the nearest CHU (university hospital) is in Marseille, about 27 kilometres away as the crow flies, with the motorway to get there.",
+        body: "Our healthcare-access engine rates Aix 7.2/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"easy\" level (our health sheet). GP access is measured: 5.04 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Pays d'Aix hospital centre is in town, and the nearest CHU (university hospital) is in Marseille, about 27 kilometres away as the crow flies, with the motorway to get there.",
       },
       {
         heading: "How much does housing cost in Aix-en-Provence?",
@@ -30835,14 +30835,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Retiring in Avignon (2026): popes, a festival and a tight budget",
     metaTitle: "Retiring in Avignon 2026: Budget, Health, Limits",
     metaDesc:
-      "Retiring in Avignon: two-bed at €750, €3,000/m², culture 9.0/10, 33% poverty, healthcare access 5.7/10, Nîmes CHU 38 km away. Budget and limits.",
+      "Retiring in Avignon: two-bed at €750, €3,000/m², culture 9.0/10, 33% poverty, healthcare access 6.4/10, Nîmes CHU 38 km away. Budget and limits.",
     category: "moving",
     emoji: "🌉",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
     intro:
-      "Avignon has the highest culture score in this batch (9.0/10 on our city sheet) and is among the cheaper Provence options: €750 a two-bedroom and €3,000/m² to buy (our rent estimate). It has 91,760 residents, 24.6% of them aged 60 or over, below the median of 26.2% (INSEE census, 2022). Our retirement score is 5.3/10, in an eleven-way tie, behind 446 other towns: estimated healthcare access is only \"fair\", at 5.7/10.",
+      "Avignon has the highest culture score in this batch (9.0/10 on our city sheet) and is among the cheaper Provence options: €750 a two-bedroom and €3,000/m² to buy (our rent estimate). It has 91,760 residents, 24.6% of them aged 60 or over, below the median of 26.2% (INSEE census, 2022). Our retirement score is 5.3/10, in an eleven-way tie, behind 446 other towns: healthcare access is only \"adequate\", at 6.4/10.",
     sections: [
       {
         heading: "Avignon, a retirement for whom?",
@@ -30850,7 +30850,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Avignon?",
-        body: "Our healthcare-access engine rates Avignon 5.7/10, where 10 means excellent access, a \"fair\" level, barely above the median of 5.5 (our health sheet). The Henri-Duffaut hospital centre is in the town, with adult and paediatric emergency departments. The nearest CHU (university hospital) is in Nîmes, about 38 kilometres away as the crow flies. People aged 75 and over are 9.5% of residents, below the median: the town is younger than the others in this batch.",
+        body: "Our healthcare-access engine rates Avignon 6.4/10, where 10 means excellent access, above the median of 6.0 across the towns we track: an \"adequate\" level (our health sheet). GP access is measured: 4.31 GP consultations within reach per resident per year according to DREES, above the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The Henri-Duffaut hospital centre is in the town, with adult and paediatric emergency departments. The nearest CHU (university hospital) is in Nîmes, about 38 kilometres away as the crow flies. People aged 75 and over are 9.5% of residents, below the median: the town is younger than the others in this batch.",
       },
       {
         heading: "How much does housing cost in Avignon?",
@@ -30884,14 +30884,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Retiring in Béziers (2026): the cheapest of the batch, with reservations",
     metaTitle: "Retiring in Béziers 2026: Budget, Health, Limits",
     metaDesc:
-      "Retiring in Béziers: two-bed at €530, €1,500/m², 29.6% aged 60+, healthcare access 6.6/10, Montpellier CHU 61 km away. Budget and limits.",
+      "Retiring in Béziers: two-bed at €530, €1,500/m², 29.6% aged 60+, healthcare access 6.1/10, Montpellier CHU 61 km away. Budget and limits.",
     category: "moving",
     emoji: "🚢",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
     intro:
-      "Béziers is the cheapest retirement in this batch, and among the cheapest in the series: €530 a two-bedroom and €1,500/m² to buy (our rent estimate), so about €90,000 for 60 m². It has 80,815 residents, 29.6% of them aged 60 or over, above the median of 26.2% (INSEE census, 2022), and gained 5.7% in population between 2016 and 2022. Our retirement score is 5.4/10, in a thirty-five-way tie, behind 411 other towns: healthcare access is good (6.6/10), safety weak (3.5/10).",
+      "Béziers is the cheapest retirement in this batch, and among the cheapest in the series: €530 a two-bedroom and €1,500/m² to buy (our rent estimate), so about €90,000 for 60 m². It has 80,815 residents, 29.6% of them aged 60 or over, above the median of 26.2% (INSEE census, 2022), and gained 5.7% in population between 2016 and 2022. Our retirement score is 5.4/10, in a thirty-five-way tie, behind 411 other towns: healthcare access is adequate (6.1/10), safety weak (3.5/10).",
     sections: [
       {
         heading: "Why Béziers costs so little",
@@ -30899,7 +30899,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "What is healthcare access like in Béziers?",
-        body: "Our healthcare-access engine rates Béziers 6.6/10, where 10 means excellent access, an \"easy\" level, above the median of 5.5 (our health sheet). It is an estimate built from doctor density and the size of the commune, not a count of surgeries. The nearest CHU (university hospital) is in Montpellier, about 61 kilometres away as the crow flies, the greatest distance in this batch: for highly specialised care, allow for the journey.",
+        body: "Our healthcare-access engine rates Béziers 6.1/10, where 10 means excellent access, close to the median of 6.0 across the towns we track: an \"adequate\" level (our health sheet). GP access is measured: 3.64 GP consultations within reach per resident per year according to DREES, close to the national average of 3.72. Specialists remain an estimate based on the distance to a university hospital and the size of the town, and none of these figures measures how long you wait for a doctor. The nearest CHU (university hospital) is in Montpellier, about 61 kilometres away as the crow flies, the greatest distance in this batch: for highly specialised care, allow for the journey.",
       },
       {
         heading: "How much does housing cost in Béziers?",
@@ -31845,7 +31845,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate puts Marseille at 5.8/10, where 10 is the most favourable, 156th of the 363 communes above 20,000 residents in the ranking. The weak component is unemployment, scored 7 out of 10 on difficulty at departmental level, while the spread of employers and the pay component score better. It is an estimate built from departmental indicators, not a count of local vacancies. The measured figure alongside it is harsher and should not be softened: Insee reports a median standard of living of €20,600 a year, about €1,720 a month, 375th of the 586 communes covered, with a poverty rate of 26%. That is disposable income per consumption unit, benefits included, across all residents, so it is not a salary. What it does say is that more than a quarter of the city lives below the poverty line, which is the context any job offer here sits in. The axis breakdown is on /cities/marseille/employment.",
+        body: "Our job-market estimate puts Marseille at 5.8/10, where 10 is the most favourable, 156th of the 363 communes above 20,000 residents in the ranking. The weak component is unemployment, scored 7 out of 10 on difficulty at departmental level, while the spread of employers and the pay component score better. The measured figure alongside it is harsher and should not be softened: Insee reports a median standard of living of €20,600 a year, about €1,720 a month, 375th of the 586 communes covered, with a poverty rate of 26%. That is disposable income per consumption unit, benefits included, across all residents, so it is not a salary. What it does say is that more than a quarter of the city lives below the poverty line, which is the context any job offer here sits in. The axis breakdown is on /cities/marseille/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -31989,7 +31989,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "The hardest market in this series, and why",
-        body: "Our job-market estimate rates Lille 4.9/10, where 10 is the most favourable, 251st of the 363 communes above 20,000 residents in the ranking, the lowest position of the ten cities covered here. The unemployment component scores 7 out of 10 on difficulty and the business-creation component 5, both dragged by departmental figures. It is an estimate from departmental indicators, not a count of vacancies, and it says nothing about whether your specific field is hiring. The measured figure beside it: Insee reports a median standard of living of €20,520 a year, about €1,710 a month, joint 382nd of the 586 communes covered, with a poverty rate of 27%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. Lille is a young city with a very large student population, which pushes that number down mechanically, but the post-industrial context behind it is real and the surrounding towns carry it more heavily than the city does. Detail on /cities/lille/employment.",
+        body: "Our job-market estimate rates Lille 4.9/10, where 10 is the most favourable, 251st of the 363 communes above 20,000 residents in the ranking, the lowest position of the ten cities covered here. The unemployment component scores 7 out of 10 on difficulty and the business-creation component 5, both dragged by departmental figures. The measured figure beside it: Insee reports a median standard of living of €20,520 a year, about €1,710 a month, joint 382nd of the 586 communes covered, with a poverty rate of 27%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. Lille is a young city with a very large student population, which pushes that number down mechanically, but the post-industrial context behind it is real and the surrounding towns carry it more heavily than the city does. Detail on /cities/lille/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32037,7 +32037,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Fifth of 363, and a figure that complicates it",
-        body: "Our job-market estimate rates Strasbourg 7.2/10, where 10 is the most favourable, fifth of the 363 communes above 20,000 residents in the ranking, with all four components scoring well. It is an estimate built from departmental unemployment, business creation, employer spread and departmental pay, and the department is one of the healthier ones in France. Now the figure that complicates it, and that we are not going to hide: Insee reports a median standard of living in the commune of €20,260 a year, about €1,690 a month, joint 404th of the 586 communes covered, with a poverty rate of 26%. The two are not contradictory, they measure different things. The estimate describes labour-market conditions across the department, where cross-border wages and the pharmaceutical industry lift the average; the Insee figure describes the residents of the city itself, which includes a large student population and districts where the European institutions are not the employer. Both belong in the decision. Detail on /cities/strasbourg/employment.",
+        body: "Our job-market estimate rates Strasbourg 7.2/10, where 10 is the most favourable, fifth of the 363 communes above 20,000 residents in the ranking, with all four components scoring well. Now the figure that complicates it, and that we are not going to hide: Insee reports a median standard of living in the commune of €20,260 a year, about €1,690 a month, joint 404th of the 586 communes covered, with a poverty rate of 26%. The two are not contradictory, they measure different things. The estimate describes labour-market conditions across the department, where cross-border wages and the pharmaceutical industry lift the average; the Insee figure describes the residents of the city itself, which includes a large student population and districts where the European institutions are not the employer. Both belong in the decision. Detail on /cities/strasbourg/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32085,7 +32085,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "The figures, and why they are the story here",
-        body: "Our job-market estimate rates Montpellier 5.1/10, where 10 is the most favourable, 230th of the 363 communes above 20,000 residents in the ranking. One component drives that: the departmental unemployment score is 9 out of 10 on difficulty, the worst reading in this batch. It is an estimate from departmental indicators, not a count of vacancies. The measured figures beside it are the weakest of the ten cities covered: Insee reports a median standard of living of €19,670 a year, about €1,640 a month, 449th of the 586 communes covered, with a poverty rate of 28%. That is disposable income per consumption unit, benefits included, across all residents, and a very large student population pulls it down mechanically, but the ranking is what it is. Set that against a 9.1% population rise between 2016 and 2022, the fastest here, and the market becomes legible: demand for jobs grows faster than the jobs do. Detail on /cities/montpellier/employment.",
+        body: "Our job-market estimate rates Montpellier 5.1/10, where 10 is the most favourable, 230th of the 363 communes above 20,000 residents in the ranking. One component drives that: the departmental unemployment score is 9 out of 10 on difficulty, the worst reading in this batch. The measured figures beside it are the weakest of the ten cities covered: Insee reports a median standard of living of €19,670 a year, about €1,640 a month, 449th of the 586 communes covered, with a poverty rate of 28%. That is disposable income per consumption unit, benefits included, across all residents, and a very large student population pulls it down mechanically, but the ranking is what it is. Set that against a 9.1% population rise between 2016 and 2022, the fastest here, and the market becomes legible: demand for jobs grows faster than the jobs do. Detail on /cities/montpellier/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -32133,7 +32133,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "What the numbers say, and what they do not",
-        body: "Our job-market estimate rates Nice 5.3/10, where 10 is the most favourable, 199th of the 363 communes above 20,000 residents in the ranking, with departmental unemployment the weak component at 7 out of 10 on difficulty. It is an estimate built from departmental indicators, and in a coastal department it is worth remembering that unemployment here moves with the season. The measured figure beside it: Insee reports a median standard of living of €21,570 a year, about €1,800 a month, 284th of the 586 communes covered, with a poverty rate of 22%. It is disposable income per consumption unit, benefits included, not a salary. The figure that decides most moves, though, is not on that list. Our cost-of-living axis rates Nice 3.3/10, second worst in this batch after Paris, and that combination of mid-table pay with near-Parisian housing costs is the single most important thing to understand before accepting an offer. Detail on /cities/nice/employment.",
+        body: "Our job-market estimate rates Nice 5.3/10, where 10 is the most favourable, 199th of the 363 communes above 20,000 residents in the ranking, with departmental unemployment the weak component at 7 out of 10 on difficulty. The measured figure beside it: Insee reports a median standard of living of €21,570 a year, about €1,800 a month, 284th of the 586 communes covered, with a poverty rate of 22%. It is disposable income per consumption unit, benefits included, not a salary. The figure that decides most moves, though, is not on that list. Our cost-of-living axis rates Nice 3.3/10, second worst in this batch after Paris, and that combination of mid-table pay with near-Parisian housing costs is the single most important thing to understand before accepting an offer. Detail on /cities/nice/employment.",
       },
       {
         heading: "The sectors that actually hire",
@@ -33167,7 +33167,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Joint top of 363, and what sits behind it",
-        body: "Our job-market estimate rates Nantes 7.5/10, where 10 is the most favourable. That is the best value of the 363 communes above 20,000 residents in the ranking, tied with Lyon on the same score, so read it as joint top rather than as first place: at one decimal the estimate does not separate the two, and we do not publish a rank the measure has not earned. All four components score well, which is the point. Departmental unemployment stood at 6.3% in Loire-Atlantique in the fourth quarter of 2024, against 7.5% nationally. It is an estimate built from departmental indicators rather than a count of vacancies. The measured figures beside it are more sober. Insee reports a median standard of living of €24,170 a year, about €2,010 a month, 139th of the 586 communes covered, with a poverty rate of 17%. That figure is disposable income per consumption unit including benefits, not a salary; our French guide to the same market reports a median net salary of €2,050 a month from a separate Insee source. Detail on /cities/nantes/employment.",
+        body: "Our job-market estimate rates Nantes 7.5/10, where 10 is the most favourable. That is the best value of the 363 communes above 20,000 residents in the ranking, tied with Lyon on the same score, so read it as joint top rather than as first place: at one decimal the estimate does not separate the two, and we do not publish a rank the measure has not earned. All four components score well, which is the point. Departmental unemployment stood at 6.3% in Loire-Atlantique in the fourth quarter of 2024, against 7.5% nationally. The measured figures beside it are more sober. Insee reports a median standard of living of €24,170 a year, about €2,010 a month, 139th of the 586 communes covered, with a poverty rate of 17%. That figure is disposable income per consumption unit including benefits, not a salary; our French guide to the same market reports a median net salary of €2,050 a month from a separate Insee source. Detail on /cities/nantes/employment.",
       },
       {
         heading: "The sectors that actually hire",

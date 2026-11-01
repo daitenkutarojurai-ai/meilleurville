@@ -42306,7 +42306,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : CHU sur place, accès estimé facile",
-        body: "Notre moteur d'accès aux soins estime Montpellier à 7,9/10, où 10 signifie un excellent accès, contre une médiane de 5,5 sur les communes que nous suivons, avec un accès jugé facile sur les généralistes, les spécialistes, les urgences et les pharmacies (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Le CHU de Montpellier est réparti sur plusieurs hôpitaux, dont Lapeyronie, Arnaud-de-Villeneuve et Gui-de-Chauliac, complétés par de nombreuses cliniques privées. La limite est la même partout en France : trouver un médecin traitant reste difficile pour un nouvel arrivant, et c'est la démarche à lancer dès l'installation, avant d'en avoir besoin.",
+        body: "Notre moteur d'accès aux soins place Montpellier à 7,8/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 5,01 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU de Montpellier est réparti sur plusieurs hôpitaux, dont Lapeyronie, Arnaud-de-Villeneuve et Gui-de-Chauliac, complétés par de nombreuses cliniques privées. La limite est la même partout en France : trouver un médecin traitant reste difficile pour un nouvel arrivant, et c'est la démarche à lancer dès l'installation, avant d'en avoir besoin.",
       },
       {
         heading: "Se loger : louer ou acheter",
@@ -42353,7 +42353,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : CHU sur place, accès estimé facile",
-        body: "Notre moteur d'accès aux soins estime Bordeaux à 7,9/10, où 10 signifie un excellent accès, contre une médiane de 5,5 sur les communes que nous suivons, avec un accès jugé facile sur les quatre dimensions (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Le CHU de Bordeaux regroupe plusieurs grands sites, dont Pellegrin en ville et Haut-Lévêque à Pessac, et l'agglomération compte de nombreuses cliniques. Comme partout, trouver un médecin traitant reste la démarche la plus difficile pour un nouvel arrivant : à lancer dès l'installation.",
+        body: "Notre moteur d'accès aux soins place Bordeaux à 8,2/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 6,25 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU de Bordeaux regroupe plusieurs grands sites, dont Pellegrin en ville et Haut-Lévêque à Pessac, et l'agglomération compte de nombreuses cliniques. Comme partout, trouver un médecin traitant reste la démarche la plus difficile pour un nouvel arrivant : à lancer dès l'installation.",
       },
       {
         heading: "Se loger : louer ou acheter",
@@ -42400,7 +42400,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : CHU sur place, accès estimé facile",
-        body: "Notre moteur d'accès aux soins estime Nice à 7,9/10, où 10 signifie un excellent accès, contre une médiane de 5,5 sur les communes que nous suivons, avec un accès jugé facile sur les quatre dimensions (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Le CHU de Nice, avec notamment l'hôpital Pasteur et l'Archet, et de nombreuses cliniques privées forment une offre dense, habituée à une patientèle âgée. La densité de spécialistes en secteur 2, avec dépassements d'honoraires, est un point à connaître : la mutuelle compte ici plus qu'ailleurs.",
+        body: "Notre moteur d'accès aux soins place Nice à 8,0/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,86 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU de Nice, avec notamment l'hôpital Pasteur et l'Archet, et de nombreuses cliniques privées forment une offre dense, habituée à une patientèle âgée. La densité de spécialistes en secteur 2, avec dépassements d'honoraires, est un point à connaître : la mutuelle compte ici plus qu'ailleurs.",
       },
       {
         heading: "Se loger : le poste qui décide",
@@ -42447,7 +42447,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : un hôpital, mais pas de CHU",
-        body: "Notre moteur d'accès aux soins estime Perpignan à 6,2/10, où 10 signifie un excellent accès, au-dessus de la médiane de 5,5 des communes que nous suivons, avec des généralistes et des spécialistes jugés corrects et des urgences jugées d'accès facile (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Le centre hospitalier de Perpignan et les cliniques de l'agglomération assurent l'essentiel, mais la ville n'a pas de CHU : le plus proche est celui de Montpellier, à environ 130 kilomètres à vol d'oiseau selon notre calcul. Pour un suivi très spécialisé, en cancérologie ou en chirurgie lourde, cela signifie des trajets. C'est le point à peser en premier.",
+        body: "Notre moteur d'accès aux soins place Perpignan à 7,1/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,57 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le centre hospitalier de Perpignan et les cliniques de l'agglomération assurent l'essentiel, mais la ville n'a pas de CHU : le plus proche est celui de Montpellier, à environ 130 kilomètres à vol d'oiseau selon notre calcul. Pour un suivi très spécialisé, en cancérologie ou en chirurgie lourde, cela signifie des trajets. C'est le point à peser en premier.",
       },
       {
         heading: "Se loger : louer ou acheter",
@@ -42494,7 +42494,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : un bon hôpital, des spécialistes tendus",
-        body: "Notre moteur d'accès aux soins estime La Rochelle à 5,7/10, où 10 signifie un excellent accès, proche de la médiane de 5,5 des communes que nous suivons : les urgences sont jugées d'accès facile, les généralistes corrects, mais l'accès aux spécialistes est jugé tendu (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Le centre hospitalier de La Rochelle assure les urgences et une large part des spécialités. Le CHU le plus proche est celui de Nantes, à environ 120 kilomètres à vol d'oiseau selon notre calcul, celui de Poitiers étant à une distance comparable. Pour un suivi spécialisé régulier, prévoir des délais et des trajets, et sécuriser un médecin traitant dès l'installation.",
+        body: "Notre moteur d'accès aux soins place La Rochelle à 6,9/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 5,80 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le centre hospitalier de La Rochelle assure les urgences et une large part des spécialités. Le CHU le plus proche est celui de Nantes, à environ 120 kilomètres à vol d'oiseau selon notre calcul, celui de Poitiers étant à une distance comparable. Pour un suivi spécialisé régulier, prévoir des délais et des trajets, et sécuriser un médecin traitant dès l'installation.",
       },
       {
         heading: "Se loger : louer ou acheter",
@@ -42541,7 +42541,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : un grand hôpital, un CHU à distance",
-        body: "Notre moteur d'accès aux soins estime Pau à 6,6/10, où 10 signifie un excellent accès, au-dessus de la médiane de 5,5 des communes que nous suivons : généralistes et urgences sont jugés d'accès facile, les spécialistes tendus (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Le centre hospitalier de Pau est l'un des grands hôpitaux non universitaires du Sud-Ouest, complété par des cliniques privées. Le CHU le plus proche est celui de Toulouse, à environ 150 kilomètres à vol d'oiseau selon notre calcul, Bordeaux étant un peu plus loin. Pour un suivi très spécialisé, cela veut dire des trajets ou des téléconsultations.",
+        body: "Notre moteur d'accès aux soins place Pau à 6,6/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,76 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le centre hospitalier de Pau est l'un des grands hôpitaux non universitaires du Sud-Ouest, complété par des cliniques privées. Le CHU le plus proche est celui de Toulouse, à environ 150 kilomètres à vol d'oiseau selon notre calcul, Bordeaux étant un peu plus loin. Pour un suivi très spécialisé, cela veut dire des trajets ou des téléconsultations.",
       },
       {
         heading: "Se loger : louer ou acheter",
@@ -42588,7 +42588,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : un bon accès, le CHU à Marseille",
-        body: "Notre moteur d'accès aux soins estime Toulon à 7,1/10, où 10 signifie un excellent accès, au-dessus de la médiane de 5,5 des communes que nous suivons : généralistes, urgences et pharmacies sont jugés d'accès facile, les spécialistes corrects (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Toulon dispose d'un grand centre hospitalier intercommunal, avec l'hôpital Sainte-Musse, et de l'hôpital d'instruction des armées Sainte-Anne, ouvert aux civils. Le CHU le plus proche est à Marseille, à environ 50 kilomètres à vol d'oiseau selon notre calcul, soit moins d'une heure en train ou par l'autoroute.",
+        body: "Notre moteur d'accès aux soins place Toulon à 6,8/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,10 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Toulon dispose d'un grand centre hospitalier intercommunal, avec l'hôpital Sainte-Musse, et de l'hôpital d'instruction des armées Sainte-Anne, ouvert aux civils. Le CHU le plus proche est à Marseille, à environ 50 kilomètres à vol d'oiseau selon notre calcul, soit moins d'une heure en train ou par l'autoroute.",
       },
       {
         heading: "Se loger : louer ou acheter",
@@ -42635,7 +42635,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : un hôpital régional, des spécialistes tendus",
-        body: "Notre moteur d'accès aux soins estime Vannes à 5,7/10, où 10 signifie un excellent accès, proche de la médiane de 5,5 des communes que nous suivons : urgences jugées d'accès facile, généralistes corrects, spécialistes tendus (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Le centre hospitalier Bretagne Atlantique, à Vannes, assure les urgences et une large part des spécialités. Le CHU le plus proche est celui de Rennes, à environ 95 kilomètres à vol d'oiseau selon notre calcul, Nantes étant à une distance comparable. Comme sur tout le littoral breton très demandé par les retraités, trouver un médecin traitant est difficile : c'est la première démarche à faire.",
+        body: "Notre moteur d'accès aux soins place Vannes à 6,8/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 5,87 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le centre hospitalier Bretagne Atlantique, à Vannes, assure les urgences et une large part des spécialités. Le CHU le plus proche est celui de Rennes, à environ 95 kilomètres à vol d'oiseau selon notre calcul, Nantes étant à une distance comparable. Comme sur tout le littoral breton très demandé par les retraités, trouver un médecin traitant est difficile : c'est la première démarche à faire.",
       },
       {
         heading: "Se loger : louer ou acheter",
@@ -42682,7 +42682,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : CHU sur place, accès estimé facile",
-        body: "Notre moteur d'accès aux soins estime Angers à 7,9/10, où 10 signifie un excellent accès, contre une médiane de 5,5 sur les communes que nous suivons, avec un accès jugé facile sur les quatre dimensions (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Le CHU d'Angers et les cliniques de l'agglomération assurent une offre complète, du suivi courant aux spécialités lourdes, sans trajet vers une autre ville. Comme partout, le médecin traitant reste la démarche à lancer dès l'installation.",
+        body: "Notre moteur d'accès aux soins place Angers à 8,0/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 5,96 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU d'Angers et les cliniques de l'agglomération assurent une offre complète, du suivi courant aux spécialités lourdes, sans trajet vers une autre ville. Comme partout, le médecin traitant reste la démarche à lancer dès l'installation.",
       },
       {
         heading: "Se loger : louer ou acheter",
@@ -42729,7 +42729,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Santé : un hôpital, Toulon à côté, le CHU à Marseille",
-        body: "Notre moteur d'accès aux soins estime Hyères à 6,6/10, où 10 signifie un excellent accès, au-dessus de la médiane de 5,5 des communes que nous suivons : généralistes, urgences et pharmacies sont jugés d'accès facile, les spécialistes tendus (source : notre fiche santé). Ce score d'accès aux soins est une estimation construite à partir des densités médicales départementales et de la présence d'hôpitaux et d'urgences, pas une mesure de la commune ni de l'attente réelle chez un médecin. Hyères a son centre hospitalier, et les hôpitaux de Toulon, dont l'hôpital Sainte-Musse et l'hôpital d'instruction des armées Sainte-Anne, sont à une vingtaine de kilomètres. Le CHU le plus proche est à Marseille, à environ 65 kilomètres à vol d'oiseau selon notre calcul.",
+        body: "Notre moteur d'accès aux soins place Hyères à 6,6/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,56 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Hyères a son centre hospitalier, et les hôpitaux de Toulon, dont l'hôpital Sainte-Musse et l'hôpital d'instruction des armées Sainte-Anne, sont à une vingtaine de kilomètres. Le CHU le plus proche est à Marseille, à environ 65 kilomètres à vol d'oiseau selon notre calcul.",
       },
       {
         heading: "Se loger : louer ou acheter",
@@ -42775,7 +42775,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Biarritz ?",
-        body: "Notre moteur d'accès aux soins estime Biarritz à 5,3/10, où 10 signifie un excellent accès, juste sous la médiane de 5,5 des communes suivies : niveau « correct » (source : notre fiche santé). C'est une estimation construite sur les densités médicales départementales et la présence d'hôpitaux, pas une mesure de l'attente chez un spécialiste. L'hôpital de référence du Pays basque est le centre hospitalier de la Côte Basque, dont le site principal est à Bayonne, tout proche. Le CHU le plus proche est à Bordeaux (Pessac), à environ 165 kilomètres à vol d'oiseau selon notre calcul : pour une pathologie lourde suivie en CHU, c'est un vrai trajet, à anticiper.",
+        body: "Notre moteur d'accès aux soins place Biarritz à 6,1/10, où 10 signifie un excellent accès, proche de la médiane de 6,0 des villes que nous suivons : niveau « correct » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,42 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. L'hôpital de référence du Pays basque est le centre hospitalier de la Côte Basque, dont le site principal est à Bayonne, tout proche. Le CHU le plus proche est à Bordeaux (Pessac), à environ 165 kilomètres à vol d'oiseau selon notre calcul : pour une pathologie lourde suivie en CHU, c'est un vrai trajet, à anticiper.",
       },
       {
         heading: "Louer ou acheter à Biarritz ?",
@@ -42813,7 +42813,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 7,
     publishedAt: "2026-10-27",
     updatedAt: "2026-10-27",
-    intro: "Arcachon est la ville la plus âgée de ce lot : 60,4 % de ses 10 895 habitants ont 60 ans ou plus, et 30,0 % ont 75 ans ou plus, contre des médianes de 26,2 % et 10,2 % (source : Insee, recensement 2022). C'est aussi l'une des plus chères : un T2 estimé à 1 100 € et un mètre carré à 6 800 € (source : notre estimation des loyers). Notre score retraite est de 6,7/10, dans un palier de dix-sept villes à égalité, derrière 183 autres. L'hiver est doux (8 °C en janvier, 2 150 heures de soleil), mais l'accès aux soins est notre point faible : 3,5/10.",
+    intro: "Arcachon est la ville la plus âgée de ce lot : 60,4 % de ses 10 895 habitants ont 60 ans ou plus, et 30,0 % ont 75 ans ou plus, contre des médianes de 26,2 % et 10,2 % (source : Insee, recensement 2022). C'est aussi l'une des plus chères : un T2 estimé à 1 100 € et un mètre carré à 6 800 € (source : notre estimation des loyers). Notre score retraite est de 6,7/10, dans un palier de dix-sept villes à égalité, derrière 183 autres. L'hiver est doux (8 °C en janvier, 2 150 heures de soleil), et l'accès aux soins est un peu sous la médiane : 5,8/10, contre 6,0.",
     sections: [
       {
         heading: "Que vaut Arcachon pour une retraite au bord du bassin ?",
@@ -42821,7 +42821,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Arcachon ?",
-        body: "C'est la vraie question. Notre moteur d'accès aux soins estime Arcachon à 3,5/10, où 10 signifie un excellent accès, nettement sous la médiane de 5,5 des communes suivies : niveau « tendu » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales départementales et la présence d'hôpitaux, pas une mesure des délais. Le centre hospitalier d'Arcachon, avenue Jean Hameau, est situé à La Teste-de-Buch, commune voisine, et non à Arcachon même. Le CHU le plus proche est à Bordeaux (Pessac), à environ 46 kilomètres à vol d'oiseau selon notre calcul : le trajet est court sur la carte, plus long en été sur les routes du bassin.",
+        body: "C'est la vraie question. Notre moteur d'accès aux soins place Arcachon à 5,8/10, où 10 signifie un excellent accès, proche de la médiane de 6,0 des villes que nous suivons : niveau « correct » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,38 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le centre hospitalier d'Arcachon, avenue Jean Hameau, est situé à La Teste-de-Buch, commune voisine, et non à Arcachon même. Le CHU le plus proche est à Bordeaux (Pessac), à environ 46 kilomètres à vol d'oiseau selon notre calcul : le trajet est court sur la carte, plus long en été sur les routes du bassin.",
       },
       {
         heading: "Se loger à Arcachon : le prix de l'exception",
@@ -42837,7 +42837,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les limites avant de signer",
-        body: "Trois points. Le soin d'abord : l'accès aux spécialistes passe par Bordeaux, et les 30 % d'habitants de plus de 75 ans pèsent sur une offre médicale déjà tendue. Le prix ensuite, très au-dessus des pensions moyennes. Le risque enfin : le bassin est exposé aux feux de forêt et à la submersion marine, et l'été, la route d'accès sature. Arcachon convient au retraité qui a un capital, aime la vie de station et ne vise pas une pathologie lourde ; pour un budget plus serré, une ville moyenne mieux dotée en santé est plus sûre.",
+        body: "Trois points. Le soin d'abord : l'accès aux spécialistes passe par Bordeaux, et les 30 % d'habitants de plus de 75 ans pèsent sur une offre de proximité qui n'a pas de service d'urgences dans la commune même. Le prix ensuite, très au-dessus des pensions moyennes. Le risque enfin : le bassin est exposé aux feux de forêt et à la submersion marine, et l'été, la route d'accès sature. Arcachon convient au retraité qui a un capital, aime la vie de station et ne vise pas une pathologie lourde ; pour un budget plus serré, une ville moyenne mieux dotée en santé est plus sûre.",
       },
     ],
     relatedCities: ["arcachon", "biarritz", "bordeaux"],
@@ -42866,7 +42866,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Saint-Malo ?",
-        body: "Notre moteur d'accès aux soins estime Saint-Malo à 5,0/10, où 10 signifie un excellent accès, un peu sous la médiane de 5,5 des communes suivies : niveau « correct » (source : notre fiche santé). C'est une estimation, pas une mesure des délais. La ville dispose du centre hospitalier de Saint-Malo, site Broussais, rue de la Marne, qui fait partie du groupement hospitalier Rance-Émeraude. Le CHU le plus proche est à Rennes, à environ 65 kilomètres à vol d'oiseau selon notre calcul : c'est la distance la plus raisonnable des villes côtières de ce lot.",
+        body: "Notre moteur d'accès aux soins place Saint-Malo à 7,0/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 5,68 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. La ville dispose du centre hospitalier de Saint-Malo, site Broussais, rue de la Marne, qui fait partie du groupement hospitalier Rance-Émeraude. Le CHU le plus proche est à Rennes, à environ 65 kilomètres à vol d'oiseau selon notre calcul : c'est la distance la plus raisonnable des villes côtières de ce lot.",
       },
       {
         heading: "Se loger à Saint-Malo : intra-muros ou ailleurs ?",
@@ -42912,7 +42912,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Annecy ?",
-        body: "Notre moteur d'accès aux soins estime Annecy à 6,2/10, où 10 signifie un excellent accès, au-dessus de la médiane de 5,5 : niveau « correct » (source : notre fiche santé). C'est une estimation, pas une mesure des délais. L'hôpital est le centre hospitalier Annecy Genevois, dont le site principal est à Épagny Metz-Tessy, commune voisine, au 1 avenue de l'Hôpital. Le CHU le plus proche est à Grenoble, à environ 85 kilomètres à vol d'oiseau selon notre calcul, mais la route de montagne allonge le trajet : à prendre en compte pour un suivi spécialisé hors centre hospitalier.",
+        body: "Notre moteur d'accès aux soins place Annecy à 7,2/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 5,13 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. L'hôpital est le centre hospitalier Annecy Genevois, dont le site principal est à Épagny Metz-Tessy, commune voisine, au 1 avenue de l'Hôpital. Le CHU le plus proche est à Grenoble, à environ 85 kilomètres à vol d'oiseau selon notre calcul, mais la route de montagne allonge le trajet : à prendre en compte pour un suivi spécialisé hors centre hospitalier.",
       },
       {
         heading: "Se loger à Annecy : budget et choix",
@@ -42958,7 +42958,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Sète ?",
-        body: "Notre moteur d'accès aux soins estime Sète à 6,3/10, où 10 signifie un excellent accès, au-dessus de la médiane de 5,5 : niveau « correct » (source : notre fiche santé). C'est une estimation, pas une mesure de l'attente chez un spécialiste. Le CHU le plus proche est à Montpellier, à environ 27 kilomètres à vol d'oiseau selon notre calcul : c'est la plus courte du lot après Nîmes, qui héberge un CHU. Pour une pathologie suivie en CHU, Sète est donc bien placée parmi les villes côtières.",
+        body: "Notre moteur d'accès aux soins place Sète à 7,2/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,83 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU le plus proche est à Montpellier, à environ 27 kilomètres à vol d'oiseau selon notre calcul : c'est la plus courte du lot après Nîmes, qui héberge un CHU. Pour une pathologie suivie en CHU, Sète est donc bien placée parmi les villes côtières.",
       },
       {
         heading: "Se loger à Sète : la mer à prix modéré",
@@ -43004,7 +43004,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Narbonne ?",
-        body: "Notre moteur d'accès aux soins estime Narbonne à 5,7/10, où 10 signifie un excellent accès, au niveau de la médiane de 5,5 : niveau « correct » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales départementales et la présence d'hôpitaux, pas une mesure de l'attente. Le CHU le plus proche est à Montpellier, à environ 85 kilomètres à vol d'oiseau selon notre calcul, soit trois fois la distance de Sète (27 km) : pour un suivi lourd, le déplacement est régulier. Vérifier auprès de l'ARS ou de la caisse l'offre de spécialistes avant de choisir un quartier.",
+        body: "Notre moteur d'accès aux soins place Narbonne à 6,5/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « correct » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,74 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU le plus proche est à Montpellier, à environ 85 kilomètres à vol d'oiseau selon notre calcul, soit trois fois la distance de Sète (27 km) : pour un suivi lourd, le déplacement est régulier. Vérifier auprès de l'ARS ou de la caisse l'offre de spécialistes avant de choisir un quartier.",
       },
       {
         heading: "Se loger à Narbonne : un budget mesuré",
@@ -43041,7 +43041,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 7,
     publishedAt: "2026-10-27",
     updatedAt: "2026-10-27",
-    intro: "Nîmes est la seule ville de ce lot à abriter un CHU : notre moteur d'accès aux soins la place à 7,9/10, où 10 signifie un excellent accès, contre une médiane de 5,5. Le deux-pièces y est estimé à 720 € et le mètre carré à 2 800 € (source : notre estimation des loyers). Avec 27,4 % de 60 ans et plus et 10,7 % de 75 ans et plus (source : Insee, recensement 2022), c'est une grande ville de 150 444 habitants, pas une station de retraités. Notre score retraite est de 5,5/10, dans un palier de vingt villes à égalité, derrière 391 autres : la sécurité (3,9/10) et le taux de pauvreté de 31 % pèsent.",
+    intro: "Nîmes est la seule ville de ce lot à abriter un CHU : notre moteur d'accès aux soins la place à 7,4/10, où 10 signifie un excellent accès, contre une médiane de 6,0. Le deux-pièces y est estimé à 720 € et le mètre carré à 2 800 € (source : notre estimation des loyers). Avec 27,4 % de 60 ans et plus et 10,7 % de 75 ans et plus (source : Insee, recensement 2022), c'est une grande ville de 150 444 habitants, pas une station de retraités. Notre score retraite est de 5,5/10, dans un palier de vingt villes à égalité, derrière 391 autres : la sécurité (3,9/10) et le taux de pauvreté de 31 % pèsent.",
     sections: [
       {
         heading: "Pourquoi Nîmes pour un retraité malade ou prévoyant",
@@ -43049,7 +43049,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Nîmes ?",
-        body: "Notre moteur d'accès aux soins estime Nîmes à 7,9/10, parmi les meilleurs de ce lot (Sète 6,3, Narbonne 5,7, Biarritz 5,3, Arcachon 3,5), niveau « facile » (source : notre fiche santé). Comme pour toutes les villes, c'est une estimation fondée sur les densités médicales départementales, la taille de la commune et la présence d'un CHU, pas une mesure de l'attente chez un spécialiste. L'avantage est structurel : urgences, spécialités et pharmacies sont à portée de tramway ou de voiture, sans trajet de plusieurs dizaines de kilomètres.",
+        body: "Notre moteur d'accès aux soins place Nîmes à 7,4/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 3,88 consultations de médecine générale accessibles par an et par habitant selon la DREES, proche de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. L'avantage est structurel : urgences, spécialités et pharmacies sont à portée de tramway ou de voiture, sans trajet de plusieurs dizaines de kilomètres.",
       },
       {
         heading: "Se loger à Nîmes : des prix mesurés",
@@ -43095,7 +43095,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Quimper ?",
-        body: "Notre moteur estime l'accès aux soins à 5,7/10, où 10 signifie un excellent accès, soit niveau « correct » et au-dessus de la médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales départementales et la taille de la commune, pas une mesure de l'attente. L'hôpital de référence du territoire est le centre hospitalier intercommunal de Cornouaille, réparti entre Quimper et Concarneau. Le CHU le plus proche est à Brest, à environ 52 kilomètres : acceptable pour un suivi occasionnel, plus lourd pour des séances hebdomadaires.",
+        body: "Notre moteur d'accès aux soins place Quimper à 6,6/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,74 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. L'hôpital de référence du territoire est le centre hospitalier intercommunal de Cornouaille, réparti entre Quimper et Concarneau. Le CHU le plus proche est à Brest, à environ 52 kilomètres : acceptable pour un suivi occasionnel, plus lourd pour des séances hebdomadaires.",
       },
       {
         heading: "Combien coûte un logement à Quimper ?",
@@ -43141,7 +43141,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Lorient ?",
-        body: "Notre moteur estime l'accès aux soins à 5,7/10, où 10 signifie un excellent accès, soit niveau « correct » (source : notre fiche santé). L'établissement de référence est le centre hospitalier Bretagne Sud, ou hôpital du Scorff, avenue de Choiseul. Mais le CHU le plus proche est à Brest, à environ 110 kilomètres à vol d'oiseau selon notre calcul, deux fois la distance de Quimper (52 km) : pour un suivi spécialisé lourd, c'est le principal frein du lot.",
+        body: "Notre moteur d'accès aux soins place Lorient à 6,5/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « correct » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,47 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. L'établissement de référence est le centre hospitalier Bretagne Sud, ou hôpital du Scorff, avenue de Choiseul. Mais le CHU le plus proche est à Brest, à environ 110 kilomètres à vol d'oiseau selon notre calcul, deux fois la distance de Quimper (52 km) : pour un suivi spécialisé lourd, c'est le principal frein du lot.",
       },
       {
         heading: "Se loger à Lorient : des prix mesurés",
@@ -43179,7 +43179,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 7,
     publishedAt: "2026-10-28",
     updatedAt: "2026-10-28",
-    intro: "Saint-Brieuc est la plus abordable des villes bretonnes de ce lot : 580 € le deux-pièces et 1 800 € le mètre carré (source : notre estimation des loyers), soit un 60 m² autour de 108 000 € avant frais. La ville compte 44 607 habitants, 28,8 % de 60 ans et plus et 12,3 % de 75 ans et plus (source : Insee, recensement 2022). Notre score retraite est de 6,6/10, dans un palier de dix-sept villes à égalité, derrière 200 autres ; le revers est un accès aux soins estimé à 5,0/10 et une population qui recule de 0,9 %.",
+    intro: "Saint-Brieuc est la plus abordable des villes bretonnes de ce lot : 580 € le deux-pièces et 1 800 € le mètre carré (source : notre estimation des loyers), soit un 60 m² autour de 108 000 € avant frais. La ville compte 44 607 habitants, 28,8 % de 60 ans et plus et 12,3 % de 75 ans et plus (source : Insee, recensement 2022). Notre score retraite est de 6,6/10, dans un palier de dix-sept villes à égalité, derrière 200 autres ; le revers est une population qui recule de 0,9 %, pour un accès aux soins dans la médiane (6,0/10).",
     sections: [
       {
         heading: "Pourquoi Saint-Brieuc coûte moins cher que ses voisines",
@@ -43187,7 +43187,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Saint-Brieuc ?",
-        body: "Notre moteur estime l'accès aux soins à 5,0/10, où 10 signifie un excellent accès, soit niveau « correct » mais sous la médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune. Le CHU le plus proche est à Rennes, à environ 92 kilomètres à vol d'oiseau, presque deux fois la distance de Quimper (52 km). Avant de s'installer, vérifier la disponibilité d'un médecin traitant, c'est le vrai point de friction.",
+        body: "Notre moteur d'accès aux soins place Saint-Brieuc à 6,0/10, où 10 signifie un excellent accès, proche de la médiane de 6,0 des villes que nous suivons : niveau « correct » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 3,59 consultations de médecine générale accessibles par an et par habitant selon la DREES, proche de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU le plus proche est à Rennes, à environ 92 kilomètres à vol d'oiseau, presque deux fois la distance de Quimper (52 km). Avant de s'installer, vérifier la disponibilité d'un médecin traitant, c'est le vrai point de friction.",
       },
       {
         heading: "Le soleil et la mer à Saint-Brieuc",
@@ -43233,7 +43233,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Menton ?",
-        body: "Notre moteur estime l'accès aux soins à 6,3/10, où 10 signifie un excellent accès, soit niveau « correct » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune, pas un relevé de cabinets. Le CHU le plus proche est à Nice, à environ 20 kilomètres à vol d'oiseau, la plus courte distance de ce lot : la route côtière est cependant chargée, et il faut prévoir plus de temps que la distance ne le suggère.",
+        body: "Notre moteur d'accès aux soins place Menton à 6,7/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 3,62 consultations de médecine générale accessibles par an et par habitant selon la DREES, proche de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU le plus proche est à Nice, à environ 20 kilomètres à vol d'oiseau, la plus courte distance de ce lot : la route côtière est cependant chargée, et il faut prévoir plus de temps que la distance ne le suggère.",
       },
       {
         heading: "Combien coûte de se loger à Menton ?",
@@ -43270,7 +43270,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 7,
     publishedAt: "2026-10-28",
     updatedAt: "2026-10-28",
-    intro: "Dax est la ville la plus âgée de ce lot : 36,1 % de 60 ans et plus et 15,6 % de 75 ans et plus (source : Insee, recensement 2022, médianes : 26,2 % et 10,2 %), pour 21 716 habitants. Le deux-pièces y est estimé à 580 € et le mètre carré à 2 200 € (source : notre estimation des loyers). Notre score retraite est de 6,7/10, dans un palier de dix-sept villes à égalité, derrière 183 autres, mais l'accès aux soins estimé n'est que de 4,5/10, niveau « tendu ».",
+    intro: "Dax est la ville la plus âgée de ce lot : 36,1 % de 60 ans et plus et 15,6 % de 75 ans et plus (source : Insee, recensement 2022, médianes : 26,2 % et 10,2 %), pour 21 716 habitants. Le deux-pièces y est estimé à 580 € et le mètre carré à 2 200 € (source : notre estimation des loyers). Notre score retraite est de 6,7/10, dans un palier de dix-sept villes à égalité, derrière 183 autres, avec un accès aux soins à 6,3/10, niveau « correct ».",
     sections: [
       {
         heading: "Pourquoi Dax attire les retraités",
@@ -43278,7 +43278,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Dax ?",
-        body: "Notre moteur estime l'accès aux soins à 4,5/10, où 10 signifie un excellent accès, soit niveau « tendu » sous la médiane de 5,5 (source : notre fiche santé). C'est le point faible du dossier malgré l'image de ville thermale : il s'agit d'une estimation fondée sur les densités médicales départementales et la taille de la commune, et les thermes relèvent de la cure, pas du suivi médical courant. Le CHU le plus proche est à Pessac, près de Bordeaux, à environ 127 kilomètres à vol d'oiseau. Il faut vérifier la disponibilité d'un médecin traitant avant de signer.",
+        body: "Notre moteur d'accès aux soins place Dax à 6,3/10, où 10 signifie un excellent accès, proche de la médiane de 6,0 des villes que nous suivons : niveau « correct » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,97 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Les thermes relèvent de la cure, pas du suivi médical courant. Le CHU le plus proche est à Pessac, près de Bordeaux, à environ 127 kilomètres à vol d'oiseau. Il faut vérifier la disponibilité d'un médecin traitant avant de signer.",
       },
       {
         heading: "Le logement à Dax : parmi les plus abordables",
@@ -43309,13 +43309,13 @@ export const GUIDES: Guide[] = [
     slug: "retraite-a-bayonne-2026",
     title: "Retraite à Bayonne en 2026 : Pays basque, budget et limites",
     metaTitle: "Retraite à Bayonne 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Bayonne en 2026 : T2 à 900 €, m² à 4 500 €, 26,7 % de 60 ans et plus, accès aux soins 6,6/10, hôpital sur place. Budget et limites.",
+    metaDesc: "Retraite à Bayonne en 2026 : T2 à 900 €, m² à 4 500 €, 26,7 % de 60 ans et plus, accès aux soins 7,0/10, hôpital sur place. Budget et limites.",
     category: "lifestyle",
     emoji: "🐟",
     readMinutes: 7,
     publishedAt: "2026-10-28",
     updatedAt: "2026-10-28",
-    intro: "Bayonne est une retraite basque plus chère que ses voisines landaises : 900 € le deux-pièces et 4 500 € le mètre carré (source : notre estimation des loyers). Elle compte 53 312 habitants dont 26,7 % de 60 ans et plus, proche de la médiane de 26,2 % (source : Insee, recensement 2022). Notre score retraite est de 6,1/10, dans un palier de vingt-deux villes à égalité, derrière 286 autres : l'accès aux soins estimé est bon (6,6/10) et le coût de la vie faible (3,8/10).",
+    intro: "Bayonne est une retraite basque plus chère que ses voisines landaises : 900 € le deux-pièces et 4 500 € le mètre carré (source : notre estimation des loyers). Elle compte 53 312 habitants dont 26,7 % de 60 ans et plus, proche de la médiane de 26,2 % (source : Insee, recensement 2022). Notre score retraite est de 6,1/10, dans un palier de vingt-deux villes à égalité, derrière 286 autres : l'accès aux soins est bon (7,0/10) et le coût de la vie faible (3,8/10).",
     sections: [
       {
         heading: "Pourquoi Bayonne plutôt que Biarritz",
@@ -43323,7 +43323,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Bayonne ?",
-        body: "Notre moteur estime l'accès aux soins à 6,6/10, où 10 signifie un excellent accès, soit niveau « facile », contre une médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales départementales, la taille de la commune et la présence d'un hôpital : le centre hospitalier de la Côte basque est à Bayonne même. En revanche le CHU le plus proche est à Pessac, à environ 161 kilomètres à vol d'oiseau, le plus éloigné de ce lot : pour les soins très spécialisés, le déplacement est long.",
+        body: "Notre moteur d'accès aux soins place Bayonne à 7,0/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 6,66 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le centre hospitalier de la Côte basque est à Bayonne même. En revanche le CHU le plus proche est à Pessac, à environ 161 kilomètres à vol d'oiseau, le plus éloigné de ce lot : pour les soins très spécialisés, le déplacement est long.",
       },
       {
         heading: "Combien coûte un logement à Bayonne ?",
@@ -43356,13 +43356,13 @@ export const GUIDES: Guide[] = [
     slug: "retraite-a-antibes-2026",
     title: "Retraite à Antibes en 2026 : remparts, Picasso et prix azuréens",
     metaTitle: "Retraite à Antibes 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Antibes en 2026 : T2 à 1 050 €, m² à 5 200 €, 33,8 % de 60 ans et plus, accès aux soins 7,1/10, CHU de Nice à 18 km. Budget et limites.",
+    metaDesc: "Retraite à Antibes en 2026 : T2 à 1 050 €, m² à 5 200 €, 33,8 % de 60 ans et plus, accès aux soins 7,2/10, CHU de Nice à 18 km. Budget et limites.",
     category: "lifestyle",
     emoji: "⛵",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
-    intro: "Antibes est une retraite azuréenne où l'accès aux soins est bon (7,1/10 sur notre estimation, médiane 5,5) mais où le logement pèse lourd : 1 050 € le deux-pièces et 5 200 € le mètre carré (source : notre estimation des loyers). La ville compte 76 612 habitants, dont 33,8 % de 60 ans et plus, contre une médiane de 26,2 % (source : Insee, recensement 2022). Notre score retraite est de 5,6/10, dans un palier de dix-sept villes à égalité, derrière 374 autres : le climat et la santé tirent vers le haut, le coût de la vie (3,3/10) vers le bas.",
+    intro: "Antibes est une retraite azuréenne où l'accès aux soins est bon (7,2/10, médiane 6,0) mais où le logement pèse lourd : 1 050 € le deux-pièces et 5 200 € le mètre carré (source : notre estimation des loyers). La ville compte 76 612 habitants, dont 33,8 % de 60 ans et plus, contre une médiane de 26,2 % (source : Insee, recensement 2022). Notre score retraite est de 5,6/10, dans un palier de dix-sept villes à égalité, derrière 374 autres : le climat et la santé tirent vers le haut, le coût de la vie (3,3/10) vers le bas.",
     sections: [
       {
         heading: "Pourquoi Antibes séduit les retraités, et pourquoi le score reste moyen",
@@ -43370,7 +43370,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Antibes ?",
-        body: "Notre moteur estime l'accès aux soins à 7,1/10, où 10 signifie un excellent accès, soit niveau « facile » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune, pas un relevé de cabinets. Le CHU le plus proche est à Nice, à environ 18 kilomètres à vol d'oiseau, une distance plus courte que pour les autres villes de ce lot. Les 75 ans et plus pèsent 15,1 % de la population (médiane 10,2 %), ce qui dit que l'offre de proximité est dimensionnée pour eux.",
+        body: "Notre moteur d'accès aux soins place Antibes à 7,2/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,91 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU le plus proche est à Nice, à environ 18 kilomètres à vol d'oiseau, une distance plus courte que pour les autres villes de ce lot. Les 75 ans et plus pèsent 15,1 % de la population (médiane 10,2 %), ce qui dit que l'offre de proximité est dimensionnée pour eux.",
       },
       {
         heading: "Combien coûte un logement à Antibes ?",
@@ -43402,13 +43402,13 @@ export const GUIDES: Guide[] = [
     slug: "retraite-a-cannes-2026",
     title: "Retraite à Cannes en 2026 : Croisette, soins et budget à tenir",
     metaTitle: "Retraite à Cannes 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Cannes en 2026 : T2 à 1 250 €, m² à 6 500 €, 36,6 % de 60 ans et plus, 21 % de pauvreté, accès aux soins 7,1/10, hôpital sur place.",
+    metaDesc: "Retraite à Cannes en 2026 : T2 à 1 250 €, m² à 6 500 €, 36,6 % de 60 ans et plus, 21 % de pauvreté, accès aux soins 7,2/10, hôpital sur place.",
     category: "lifestyle",
     emoji: "🎬",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
-    intro: "Cannes est la plus chère de ce lot : 1 250 € le deux-pièces et 6 500 € le mètre carré (source : notre estimation des loyers). Elle est aussi l'une des plus âgées, avec 36,6 % de 60 ans et plus et 17,3 % de 75 ans et plus sur 74 040 habitants (source : Insee, recensement 2022, médianes : 26,2 % et 10,2 %). Notre score retraite est de 5,4/10, dans un palier de trente-cinq villes à égalité, derrière 411 autres : le soleil et l'accès aux soins (7,1/10) ne compensent pas un coût de la vie à 3,1/10.",
+    intro: "Cannes est la plus chère de ce lot : 1 250 € le deux-pièces et 6 500 € le mètre carré (source : notre estimation des loyers). Elle est aussi l'une des plus âgées, avec 36,6 % de 60 ans et plus et 17,3 % de 75 ans et plus sur 74 040 habitants (source : Insee, recensement 2022, médianes : 26,2 % et 10,2 %). Notre score retraite est de 5,4/10, dans un palier de trente-cinq villes à égalité, derrière 411 autres : le soleil et l'accès aux soins (7,2/10) ne compensent pas un coût de la vie à 3,1/10.",
     sections: [
       {
         heading: "Cannes est-elle une bonne ville pour la retraite ?",
@@ -43416,7 +43416,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Cannes ?",
-        body: "Notre moteur estime l'accès aux soins à 7,1/10, où 10 signifie un excellent accès, soit niveau « facile » (source : notre fiche santé). C'est une estimation, pas un relevé de cabinets. Le centre hospitalier Simone Veil est à Cannes même, et le CHU le plus proche est à Nice, à environ 26 kilomètres à vol d'oiseau. Avec 17,3 % de 75 ans et plus, la ville est l'une de celles où l'offre de gériatrie et de soins à domicile se demande avant de signer.",
+        body: "Notre moteur d'accès aux soins place Cannes à 7,2/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,86 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le centre hospitalier Simone Veil est à Cannes même, et le CHU le plus proche est à Nice, à environ 26 kilomètres à vol d'oiseau. Avec 17,3 % de 75 ans et plus, la ville est l'une de celles où l'offre de gériatrie et de soins à domicile se demande avant de signer.",
       },
       {
         heading: "Combien coûte un logement à Cannes ?",
@@ -43447,13 +43447,13 @@ export const GUIDES: Guide[] = [
     slug: "retraite-a-frejus-2026",
     title: "Retraite à Fréjus en 2026 : antique, ensoleillée, 10 % plus peuplée",
     metaTitle: "Retraite à Fréjus 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Fréjus en 2026 : T2 à 850 €, m² à 3 800 €, 36 % de 60 ans et plus, 2 900 h de soleil, accès aux soins 6,6/10, CHU de Nice à 52 km.",
+    metaDesc: "Retraite à Fréjus en 2026 : T2 à 850 €, m² à 3 800 €, 36 % de 60 ans et plus, 2 900 h de soleil, accès aux soins 6,2/10, CHU de Nice à 52 km.",
     category: "lifestyle",
     emoji: "🏛️",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
-    intro: "Fréjus est la retraite varoise du lot qui a le plus grossi : 58 499 habitants en 2022, soit 10 % de plus qu'en 2016 (source : Insee, recensement). Le deux-pièces y est à 850 € et le mètre carré à 3 800 €, plus de 40 % de moins qu'à Cannes (source : notre estimation des loyers). Notre score retraite est de 5,5/10, dans un palier de vingt villes à égalité, derrière 391 autres, avec 36 % de 60 ans et plus et un accès aux soins estimé à 6,6/10.",
+    intro: "Fréjus est la retraite varoise du lot qui a le plus grossi : 58 499 habitants en 2022, soit 10 % de plus qu'en 2016 (source : Insee, recensement). Le deux-pièces y est à 850 € et le mètre carré à 3 800 €, plus de 40 % de moins qu'à Cannes (source : notre estimation des loyers). Notre score retraite est de 5,5/10, dans un palier de vingt villes à égalité, derrière 391 autres, avec 36 % de 60 ans et plus et un accès aux soins à 6,2/10.",
     sections: [
       {
         heading: "Pourquoi Fréjus plutôt que la Riviera ?",
@@ -43461,7 +43461,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Fréjus ?",
-        body: "Notre moteur estime l'accès aux soins à 6,6/10, où 10 signifie un excellent accès, soit niveau « facile », au-dessus de la médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune. Le CHU le plus proche est à Nice, à environ 52 kilomètres à vol d'oiseau : pour les soins très spécialisés, le déplacement est long. Les 75 ans et plus représentent 15,1 % de la population, soit la même part qu'à Antibes.",
+        body: "Notre moteur d'accès aux soins place Fréjus à 6,2/10, où 10 signifie un excellent accès, proche de la médiane de 6,0 des villes que nous suivons : niveau « correct » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,01 consultations de médecine générale accessibles par an et par habitant selon la DREES, proche de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU le plus proche est à Nice, à environ 52 kilomètres à vol d'oiseau : pour les soins très spécialisés, le déplacement est long. Les 75 ans et plus représentent 15,1 % de la population, soit la même part qu'à Antibes.",
       },
       {
         heading: "Combien coûte un logement à Fréjus ?",
@@ -43492,13 +43492,13 @@ export const GUIDES: Guide[] = [
     slug: "retraite-a-aix-en-provence-2026",
     title: "Retraite à Aix-en-Provence en 2026 : culture, prix et ville jeune",
     metaTitle: "Retraite à Aix-en-Provence 2026 : budget, limites",
-    metaDesc: "Retraite à Aix-en-Provence en 2026 : T2 à 1 050 €, m² à 5 000 €, 24,9 % de 60 ans et plus, culture 8,4/10, accès aux soins 7,1/10. Budget et limites.",
+    metaDesc: "Retraite à Aix-en-Provence en 2026 : T2 à 1 050 €, m² à 5 000 €, 24,9 % de 60 ans et plus, culture 8,4/10, accès aux soins 7,2/10. Budget et limites.",
     category: "lifestyle",
     emoji: "🌳",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
-    intro: "Aix-en-Provence est une retraite très culturelle (8,4/10), mais pas la moins chère : 1 050 € le deux-pièces et 5 000 € le mètre carré (source : notre estimation des loyers). C'est aussi la plus jeune du lot : 24,9 % de 60 ans et plus sur 147 933 habitants, sous la médiane de 26,2 % (source : Insee, recensement 2022), à cause des étudiants. Notre score retraite est de 6,1/10, dans un palier de vingt-deux villes à égalité, derrière 286 autres, avec un accès aux soins estimé à 7,1/10.",
+    intro: "Aix-en-Provence est une retraite très culturelle (8,4/10), mais pas la moins chère : 1 050 € le deux-pièces et 5 000 € le mètre carré (source : notre estimation des loyers). C'est aussi la plus jeune du lot : 24,9 % de 60 ans et plus sur 147 933 habitants, sous la médiane de 26,2 % (source : Insee, recensement 2022), à cause des étudiants. Notre score retraite est de 6,1/10, dans un palier de vingt-deux villes à égalité, derrière 286 autres, avec un accès aux soins à 7,2/10.",
     sections: [
       {
         heading: "Aix est-elle une retraite ou une ville d'étudiants ?",
@@ -43506,7 +43506,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Aix-en-Provence ?",
-        body: "Notre moteur estime l'accès aux soins à 7,1/10, où 10 signifie un excellent accès, soit niveau « facile » (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune. Le centre hospitalier du Pays d'Aix est sur place, et le CHU le plus proche est à Marseille, à environ 27 kilomètres à vol d'oiseau, avec l'autoroute pour s'y rendre.",
+        body: "Notre moteur d'accès aux soins place Aix-en-Provence à 7,2/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « facile » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 5,04 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le centre hospitalier du Pays d'Aix est sur place, et le CHU le plus proche est à Marseille, à environ 27 kilomètres à vol d'oiseau, avec l'autoroute pour s'y rendre.",
       },
       {
         heading: "Combien coûte un logement à Aix-en-Provence ?",
@@ -43538,13 +43538,13 @@ export const GUIDES: Guide[] = [
     slug: "retraite-a-avignon-2026",
     title: "Retraite à Avignon en 2026 : papes, festival et budget serré",
     metaTitle: "Retraite à Avignon 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Avignon en 2026 : T2 à 750 €, m² à 3 000 €, culture 9,0/10, 33 % de pauvreté, accès aux soins 5,7/10, CHU de Nîmes à 38 km. Budget et limites.",
+    metaDesc: "Retraite à Avignon en 2026 : T2 à 750 €, m² à 3 000 €, culture 9,0/10, 33 % de pauvreté, accès aux soins 6,4/10, CHU de Nîmes à 38 km. Budget et limites.",
     category: "lifestyle",
     emoji: "🌉",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
-    intro: "Avignon a la culture la plus haute de ce lot (9,0/10 sur notre fiche ville) et l'une des moins chères de Provence : 750 € le deux-pièces et 3 000 € le mètre carré (source : notre estimation des loyers). Elle compte 91 760 habitants, dont 24,6 % de 60 ans et plus, sous la médiane de 26,2 % (source : Insee, recensement 2022). Notre score retraite est de 5,3/10, dans un palier de onze villes à égalité, derrière 446 autres : l'accès aux soins estimé n'est que « correct », à 5,7/10.",
+    intro: "Avignon a la culture la plus haute de ce lot (9,0/10 sur notre fiche ville) et l'une des moins chères de Provence : 750 € le deux-pièces et 3 000 € le mètre carré (source : notre estimation des loyers). Elle compte 91 760 habitants, dont 24,6 % de 60 ans et plus, sous la médiane de 26,2 % (source : Insee, recensement 2022). Notre score retraite est de 5,3/10, dans un palier de onze villes à égalité, derrière 446 autres : l'accès aux soins n'est que « correct », à 6,4/10.",
     sections: [
       {
         heading: "Avignon, une retraite pour qui ?",
@@ -43552,7 +43552,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Avignon ?",
-        body: "Notre moteur estime l'accès aux soins à 5,7/10, où 10 signifie un excellent accès, soit niveau « correct », à peine au-dessus de la médiane de 5,5 (source : notre fiche santé). Le centre hospitalier Henri-Duffaut est dans la ville, avec urgences adultes et pédiatriques. Le CHU le plus proche est à Nîmes, à environ 38 kilomètres à vol d'oiseau. Les 75 ans et plus pèsent 9,5 %, sous la médiane : la ville est plus jeune que les autres du lot.",
+        body: "Notre moteur d'accès aux soins place Avignon à 6,4/10, où 10 signifie un excellent accès, au-dessus de la médiane de 6,0 des villes que nous suivons : niveau « correct » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 4,31 consultations de médecine générale accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le centre hospitalier Henri-Duffaut est dans la ville, avec urgences adultes et pédiatriques. Le CHU le plus proche est à Nîmes, à environ 38 kilomètres à vol d'oiseau. Les 75 ans et plus pèsent 9,5 %, sous la médiane : la ville est plus jeune que les autres du lot.",
       },
       {
         heading: "Combien coûte un logement à Avignon ?",
@@ -43584,13 +43584,13 @@ export const GUIDES: Guide[] = [
     slug: "retraite-a-beziers-2026",
     title: "Retraite à Béziers en 2026 : la moins chère du lot, avec ses réserves",
     metaTitle: "Retraite à Béziers 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Béziers en 2026 : T2 à 530 €, m² à 1 500 €, 29,6 % de 60 ans et plus, accès aux soins 6,6/10, CHU de Montpellier à 61 km. Budget et limites.",
+    metaDesc: "Retraite à Béziers en 2026 : T2 à 530 €, m² à 1 500 €, 29,6 % de 60 ans et plus, accès aux soins 6,1/10, CHU de Montpellier à 61 km. Budget et limites.",
     category: "lifestyle",
     emoji: "🚢",
     readMinutes: 7,
     publishedAt: "2026-10-29",
     updatedAt: "2026-10-29",
-    intro: "Béziers est la retraite la moins chère de ce lot, et parmi les moins chères de la série : 530 € le deux-pièces et 1 500 € le mètre carré (source : notre estimation des loyers), soit un 60 m² à environ 90 000 €. La ville compte 80 815 habitants, dont 29,6 % de 60 ans et plus, au-dessus de la médiane de 26,2 % (source : Insee, recensement 2022), et gagne 5,7 % d'habitants entre 2016 et 2022. Notre score retraite est de 5,4/10, dans un palier de trente-cinq villes à égalité, derrière 411 autres : l'accès aux soins est bon (6,6/10), la sécurité faible (3,5/10).",
+    intro: "Béziers est la retraite la moins chère de ce lot, et parmi les moins chères de la série : 530 € le deux-pièces et 1 500 € le mètre carré (source : notre estimation des loyers), soit un 60 m² à environ 90 000 €. La ville compte 80 815 habitants, dont 29,6 % de 60 ans et plus, au-dessus de la médiane de 26,2 % (source : Insee, recensement 2022), et gagne 5,7 % d'habitants entre 2016 et 2022. Notre score retraite est de 5,4/10, dans un palier de trente-cinq villes à égalité, derrière 411 autres : l'accès aux soins est correct (6,1/10), la sécurité faible (3,5/10).",
     sections: [
       {
         heading: "Pourquoi Béziers coûte si peu",
@@ -43598,7 +43598,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quel accès aux soins à Béziers ?",
-        body: "Notre moteur estime l'accès aux soins à 6,6/10, où 10 signifie un excellent accès, soit niveau « facile », au-dessus de la médiane de 5,5 (source : notre fiche santé). C'est une estimation fondée sur les densités médicales et la taille de la commune, pas un relevé de cabinets. Le CHU le plus proche est à Montpellier, à environ 61 kilomètres à vol d'oiseau, la plus grande distance de ce lot : pour les soins très spécialisés, il faut compter le trajet.",
+        body: "Notre moteur d'accès aux soins place Béziers à 6,1/10, où 10 signifie un excellent accès, proche de la médiane de 6,0 des villes que nous suivons : niveau « correct » (source : notre fiche santé). L'accès aux généralistes y est mesuré : 3,64 consultations de médecine générale accessibles par an et par habitant selon la DREES, proche de la moyenne nationale de 3,72. Les spécialistes restent une estimation, fondée sur la distance au CHU et la taille de la ville, et aucun de ces chiffres ne mesure l'attente chez un médecin. Le CHU le plus proche est à Montpellier, à environ 61 kilomètres à vol d'oiseau, la plus grande distance de ce lot : pour les soins très spécialisés, il faut compter le trajet.",
       },
       {
         heading: "Combien coûte un logement à Béziers ?",

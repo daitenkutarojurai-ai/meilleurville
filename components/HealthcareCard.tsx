@@ -65,10 +65,15 @@ export function HealthcareCard({ city, locale = "fr" }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          {L(
-            "10 = excellent accès aux soins · estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets.",
-            "10 = excellent healthcare access · commune-level estimate calibrated against DREES / CNOM / ARS reference figures, not a count of practices.",
-          )}
+          {h.measured
+            ? L(
+                "10 = excellent accès aux soins · généralistes (APL DREES), urgences et pharmacies (Insee) mesurés ; spécialistes estimés.",
+                "10 = excellent healthcare access · GPs (DREES APL), A&E and pharmacies (INSEE) measured; specialists estimated.",
+              )
+            : L(
+                "10 = excellent accès aux soins · estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets.",
+                "10 = excellent healthcare access · commune-level estimate calibrated against DREES / CNOM / ARS reference figures, not a count of practices.",
+              )}
         </p>
       </Link>
     </Card>

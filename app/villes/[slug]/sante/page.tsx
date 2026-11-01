@@ -15,6 +15,15 @@ import {
   type HealthDimension,
   CHU_SITE_COUNT,
 } from "@/lib/healthcare-access";
+import {
+  APL_NATIONAL,
+  APL_SOURCE_URL,
+  APL_UNDERSERVED,
+  APL_YEAR,
+  BPE_SOURCE_URL,
+  BPE_YEAR,
+  residentsPerPharmacy,
+} from "@/lib/city-healthcare";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
 import { cityAlternates } from "@/lib/i18n";
@@ -42,10 +51,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
       title: `Accès aux soins à ${city.name}`,
-      description: `Médecins, spécialistes, urgences, pharmacies — estimation communale, pas un relevé de cabinets.`,
+      description: h.measured
+        ? `Généralistes (APL DREES), urgences et pharmacies (Insee BPE) relevés ; spécialistes estimés.`
+        : `Médecins, spécialistes, urgences, pharmacies — estimation communale, pas un relevé de cabinets.`,
     },
   };
 }
+
+const fr2 = (n: number) => n.toLocaleString("fr-FR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const frInt = (n: number) => n.toLocaleString("fr-FR");
 
 function HealthBlock({ dim, label }: { dim: HealthDimension; label: string }) {
   return (
@@ -72,6 +86,8 @@ export default async function SantePage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
   const h = computeHealthcareAccess(city);
+  const m = h.measured;
+  const perPharmacy = m ? residentsPerPharmacy(m) : null;
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -120,10 +136,31 @@ export default async function SantePage({ params }: Props) {
             Accès aux soins à {city.name}
           </h1>
         </div>
+        {m ? (
+          <p className="mt-3 text-base text-[var(--text-secondary)]">
+            Quatre dimensions de l&apos;accès aux soins : médecins généralistes (porte
+            d&apos;entrée du système), spécialistes, urgences et pharmacies. Trois sont{" "}
+            <strong>mesurées</strong> pour {city.name} : l&apos;accès aux généralistes par
+            l&apos;indicateur APL de la DREES, les services d&apos;urgences et les pharmacies
+            par la base des équipements de l&apos;Insee. Les spécialistes restent{" "}
+            <strong>estimés</strong>, à partir de la distance au CHU et de la taille de la
+            ville. Aucun de ces chiffres ne dit quels médecins acceptent de nouveaux patients ;
+            pour cela, consultez{" "}
+            <a
+              href="https://annuairesante.ameli.fr/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[var(--accent)] hover:underline"
+            >
+              l&apos;annuaire santé de l&apos;Assurance maladie
+            </a>.
+          </p>
+        ) : (
         <p className="mt-3 text-base text-[var(--text-secondary)]">
           Profil <strong>structurel</strong> des quatre dimensions clés de l&apos;accès aux
           soins : médecins généralistes (porte d&apos;entrée du système), spécialistes,
-          urgences/SAU, et maillage pharmacies. Les niveaux ci-dessous sont{" "}
+          urgences/SAU, et maillage pharmacies. {city.name} n&apos;est pas couverte par
+          l&apos;indicateur APL de la DREES : les niveaux ci-dessous sont{" "}
           <strong>estimés</strong> à partir du département, de la taille de la commune et de
           la présence d&apos;un établissement hospitalier — ils suivent les paliers de
           sous-équipement de la DREES, l&apos;atlas démographique du CNOM et la logique du
@@ -140,10 +177,20 @@ export default async function SantePage({ params }: Props) {
             l&apos;annuaire santé de l&apos;Assurance maladie
           </a>.
         </p>
+        )}
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Estimation structurelle</Badge>
-          <Badge>Cadres de référence : DREES · CNOM · ARS</Badge>
+          {m ? (
+            <>
+              <Badge>Mesuré : DREES APL {APL_YEAR} · Insee BPE {BPE_YEAR}</Badge>
+              <Badge>Spécialistes : estimation</Badge>
+            </>
+          ) : (
+            <>
+              <Badge>Estimation structurelle</Badge>
+              <Badge>Cadres de référence : DREES · CNOM · ARS</Badge>
+            </>
+          )}
         </div>
         </div>
       </section>
@@ -162,9 +209,54 @@ export default async function SantePage({ params }: Props) {
             {(10 - h.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
-          <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = excellent accès aux soins · 0 = désert médical avéré — seule la distance au site de CHU le plus proche est mesurée, le reste est une estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets.</p>
+          <p className="text-xs text-[var(--text-tertiary)] mb-2">
+            {m
+              ? "10 = excellent accès aux soins · 0 = désert médical — généralistes, urgences et pharmacies relevés (DREES, Insee), spécialistes estimés d'après la distance au CHU et la taille de la ville."
+              : "10 = excellent accès aux soins · 0 = désert médical avéré — seule la distance au site de CHU le plus proche est mesurée, le reste est une estimation communale calée sur les repères DREES / CNOM / ARS, pas un relevé de cabinets."}
+          </p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{h.signature}</p>
         </div>
+
+        {m && (
+          <>
+            <h2 className="mt-10 text-xl font-bold text-[var(--text-primary)]">Les relevés</h2>
+            <div className="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-3">
+              {m.apl !== undefined && (
+                <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                  <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">{fr2(m.apl)}</div>
+                  <div className="mt-1 text-xs text-[var(--text-secondary)]">
+                    consultations de généraliste accessibles par an et par habitant (France : {fr2(APL_NATIONAL)} ; zone sous-dense sous {fr2(APL_UNDERSERVED)})
+                  </div>
+                </div>
+              )}
+              <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">{frInt(m.gp)}</div>
+                <div className="mt-1 text-xs text-[var(--text-secondary)]">médecins généralistes libéraux installés dans la commune</div>
+              </div>
+              <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">{frInt(m.pharmacies)}</div>
+                <div className="mt-1 text-xs text-[var(--text-secondary)]">
+                  pharmacies{perPharmacy ? `, une pour ${frInt(perPharmacy)} habitants` : ""}
+                </div>
+              </div>
+              <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">{frInt(m.emergency)}</div>
+                <div className="mt-1 text-xs text-[var(--text-secondary)]">service{m.emergency > 1 ? "s" : ""} d&apos;urgences dans la commune</div>
+              </div>
+            </div>
+            <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+              Sources :{" "}
+              <a href={APL_SOURCE_URL} target="_blank" rel="noreferrer" className="underline">
+                DREES, accessibilité potentielle localisée aux médecins généralistes, {APL_YEAR}
+              </a>{" "}
+              ·{" "}
+              <a href={BPE_SOURCE_URL} target="_blank" rel="noreferrer" className="underline">
+                Insee, base permanente des équipements au 1er janvier {BPE_YEAR}
+              </a>
+              . Population municipale 2022 : {frInt(m.pop)} habitants.
+            </p>
+          </>
+        )}
 
         {/* 4 dimensions */}
         <h2 className="mt-10 text-xl font-bold text-[var(--text-primary)]">Les quatre dimensions</h2>
@@ -183,14 +275,25 @@ export default async function SantePage({ params }: Props) {
         <h2 className="text-xl font-bold"><span className="gradient-text">Méthodologie</span></h2>
         <div className="mt-3 rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
-            <li>
-              <strong className="text-[var(--text-primary)]">Médecins généralistes (35 %) :</strong>{" "}
-              le département est rangé dans l&apos;un de quatre paliers — désert /
-              sous-doté / correct / bien doté — définis d&apos;après les repères DREES
-              (densité sous 80/100k hab. et plus de la moitié des praticiens au-delà de
-              60 ans pour le premier, sous 100/100k pour le second). Le palier est attribué
-              au département, aucune densité n&apos;est relevée pour la commune.
-            </li>
+            {m?.apl !== undefined ? (
+              <li>
+                <strong className="text-[var(--text-primary)]">Médecins généralistes (35 %) :</strong>{" "}
+                <strong className="text-[var(--text-primary)]">mesuré</strong> par l&apos;APL de la
+                DREES : le nombre de consultations de médecine générale accessibles par an et par
+                habitant, médecins des communes voisines compris (pondérés par la distance et par leur
+                activité), rapporté à une population standardisée par âge. Barème continu : sous 1,5,
+                accès très faible, niveau « désert » ; sous 2,5, zone sous-dense, niveau
+                « tendu » ; au-delà de 4, niveau « facile ».
+              </li>
+            ) : (
+              <li>
+                <strong className="text-[var(--text-primary)]">Médecins généralistes (35 %) :</strong>{" "}
+                {city.name} est hors du champ de l&apos;APL : le département est rangé dans l&apos;un
+                de quatre paliers — désert / sous-doté / correct / bien doté — définis d&apos;après les
+                repères DREES. Le palier est attribué au département, aucune densité n&apos;est relevée
+                pour la commune.
+              </li>
+            )}
             <li>
               <strong className="text-[var(--text-primary)]">Spécialistes (25 %) :</strong>{" "}
               distance au site de CHU le plus proche ({CHU_SITE_COUNT} communes
@@ -201,22 +304,21 @@ export default async function SantePage({ params }: Props) {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Urgences/SAU (25 %) :</strong>{" "}
-              la même distance au CHU, sinon la présence estimée d&apos;un SAU selon la
-              taille de la commune. Pénalité pour zone de montagne (enneigement) et zone
-              insulaire (liaisons). La proximité d&apos;un CHU ne peut qu&apos;améliorer
-              ces deux notes, jamais les dégrader.
+              {m
+                ? "présence d'un service d'urgences dans la commune, relevée par l'Insee ; sans service sur place, distance à vol d'oiseau jusqu'à la commune la plus proche qui en compte un, avec une pénalité en montagne, où la route est plus longue que la ligne droite. Un site de CHU à portée ne peut qu'améliorer la note. Ni le temps de trajet ni l'attente ne sont relevés."
+                : "la même distance au CHU, sinon la présence estimée d'un SAU selon la taille de la commune. Pénalité pour zone de montagne (enneigement) et zone insulaire (liaisons). La proximité d'un CHU ne peut qu'améliorer ces deux notes, jamais les dégrader."}
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Pharmacies (15 %) :</strong>{" "}
-              maillage population × statut urbain. France moyenne : 1 pharmacie / 3 000 hab.
+              {m
+                ? "pharmacies recensées dans la commune par l'Insee, rapportées à la population. La moyenne française tourne autour d'une pharmacie pour 3 300 habitants ; les gardes de nuit ne sont pas relevées."
+                : "maillage estimé selon la population et le statut urbain. France moyenne : environ une pharmacie pour 3 300 habitants."}
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Ces quatre scores sont des <strong>estimations</strong> à l&apos;échelle
-            communale, pas des relevés : aucune densité médicale, aucun délai de
-            rendez-vous et aucun zonage parcellaire ne sont ingérés ici. Le zonage précis
-            (ZIP/ZAC) et les aides à l&apos;installation sont publiés par l&apos;ARS, et la
-            situation évolue vite avec les départs en retraite.
+            {m
+              ? "Aucun délai de rendez-vous n'est relevé, et l'APL ne dit pas quels médecins prennent de nouveaux patients. Le zonage opposable (ZIP/ZAC) et les aides à l'installation sont publiés par l'ARS, par territoire de vie-santé et non par commune ; la situation évolue vite avec les départs en retraite."
+              : "Ces quatre scores sont des estimations à l'échelle communale, pas des relevés : aucune densité médicale, aucun délai de rendez-vous et aucun zonage parcellaire ne sont ingérés pour cette commune. Le zonage précis (ZIP/ZAC) et les aides à l'installation sont publiés par l'ARS, et la situation évolue vite avec les départs en retraite."}
           </p>
         </div>
         </div>

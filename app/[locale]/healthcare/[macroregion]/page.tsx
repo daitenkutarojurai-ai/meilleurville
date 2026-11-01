@@ -103,7 +103,7 @@ export default async function MacroRegionHealthcareEnPage({ params }: Props) {
     },
     {
       q: `How is this ranking calculated?`,
-      a: `Composite index across 4 dimensions: GPs (35%, DREES density + CHU/metro override), specialists (25%), A&E/SAU (25%, presence + rural/island penalty), pharmacies (15%). Score 0–10, 10 = excellent access. It is a commune-level estimate: the bands are calibrated against DREES, CNOM and ARS reference figures, but none of their readings are reused — this is neither a count of practices nor the ARS zoning in force.`,
+      a: `Composite index across 4 dimensions: GPs (35%, measured with the DREES localised potential accessibility indicator, 2024), specialists (25%, estimated from the distance to a university hospital and town size), A&E (25%, emergency department recorded in the town by INSEE, otherwise the measured distance to the nearest one), pharmacies (15%, pharmacies recorded by INSEE per resident). Score 0–10, 10 = excellent access. No figure says which doctors take new patients, and this is not the ARS zoning in force.`,
     },
   ]);
 
@@ -125,13 +125,13 @@ export default async function MacroRegionHealthcareEnPage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite healthcare index for {cities.length} cities in the {label} macro-region
           with over 10,000 inhabitants. Four dimensions: GPs, specialists, A&E, pharmacies.
-          All four are <strong>estimated</strong> from the department, town size and hospital
-          status — not read practice by practice.
+          GPs, A&E and pharmacies are <strong>measured</strong> (DREES, INSEE); specialists are{" "}
+          <strong>estimated</strong> from the distance to a university hospital and town size.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Structural estimate</Badge>
-          <Badge>Reference frameworks: DREES · CNOM · ARS</Badge>
+          <Badge>Measured: DREES APL 2024 · INSEE BPE 2025</Badge>
+          <Badge>Specialists: estimate</Badge>
           <Badge>{cities.length} cities analysed</Badge>
           <Badge>Average composite: {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -142,10 +142,10 @@ export default async function MacroRegionHealthcareEnPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "GPs", v: avgMg, hint: "Departmental band, DREES reference" },
-              { k: "Specialists", v: avgSpe, hint: "CHU > agglomeration > average > rural" },
-              { k: "A&E", v: avgUrg, hint: "SAU presence + access penalty" },
-              { k: "Pharmacies", v: avgPharma, hint: "Coverage density × urban weight" },
+              { k: "GPs", v: avgMg, hint: "DREES APL 2024, measured" },
+              { k: "Specialists", v: avgSpe, hint: "Estimated: CHU > agglomeration > average > rural" },
+              { k: "A&E", v: avgUrg, hint: "Recorded ED (INSEE) + access penalty" },
+              { k: "Pharmacies", v: avgPharma, hint: "Recorded pharmacies per resident" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>

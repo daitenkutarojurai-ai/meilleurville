@@ -15,7 +15,7 @@ Hosting is **Cloudflare** (Workers + `wrangler.toml`), not Vercel.
 
 ### Audit-derived roadmap (2026-06-02)
 
-- [x] **Region & Department score pages** (§7) — DONE 2026-06-03 (most parts already existed). Aggregate score = mean of region/dept cities' global score: `app/regions/[region]/page.tsx` (`avgScore`/`avgCriteria` + JSON-LD) and `app/departements/[dept]/page.tsx` both already displayed it. City-listing region+dept filters already present in `components/VillesSearch.tsx`. The one missing piece — a **region heatmap layer on `/carte`** — shipped this session: `CarteClient` now has a Villes/Régions toggle drawing one bubble per metropolitan region at its centroid, coloured by avg score (honours active axis + lean filter), linking to `/regions/[slug]`. **EN parity shipped 2026-06-03:** `FranceHeatmap` gained an opt-in `showRegionToggle` prop (default off → homepages/timelapse byte-identical) and the EN `/map` (`app/[locale]/map`) now passes it, mirroring FR `/carte`. *Remaining follow-up: department-granularity heatmap (96 depts — would need clustering to avoid clutter).*
+- [x] **Region & Department score pages** (§7) — DONE 2026-06-03 (most parts already existed). Aggregate score = mean of region/dept cities' global score: `app/regions/[region]/page.tsx` (`avgScore`/`avgCriteria` + JSON-LD) and `app/departements/[dept]/page.tsx` both already displayed it. City-listing region+dept filters already present in `components/VillesSearch.tsx`. The one missing piece — a **region heatmap layer on `/carte`** — shipped this session: `CarteClient` now has a Villes/Régions toggle drawing one bubble per metropolitan region at its centroid, coloured by avg score (honours active axis + lean filter), linking to `/regions/[slug]`. **EN parity shipped 2026-06-03:** `FranceHeatmap` gained an opt-in `showRegionToggle` prop (default off → homepages/timelapse byte-identical) and the EN `/map` (`app/[locale]/map`) now passes it, mirroring FR `/carte`. ~~*Remaining follow-up: department-granularity heatmap*~~ — ✅ livré (`b3c1be63`, couche « Départements » de `/carte` et `FranceHeatmap`, 96 bulles sans libellé).
 - [x] **Guide hero images** (§4a — deferred 2026-06-02, **DONE 2026-07-13** via the photo pipeline below) — city-specific guides (`10-choses-a-faire-a-X`, `acheter-a-X`, `things-to-do-in-X`…) now render the city's Commons photo as a hero band. A guide only gets one when the city slug appears in the *guide slug* (`guideCityPhoto`) — a ranking guide listing 12 cities is about none of them, and illustrating it with the first would be a lie. Ranking/thematic guides stay text-only by design.
 
 ### Photo pipeline (Wikidata P18 → Wikimedia Commons)
@@ -288,7 +288,21 @@ computant depuis les axes existants — l'enrichissement reste utile pour des ch
   Marseille → 13201-13216, qui n'existent pas comme fichier sous leur code communal).
   Egress : `files.data.gouv.fr` répond depuis une session **locale**, pas depuis une routine cloud.
 - `tauxChomage: number` — % (proxie zone emploi)
-- `densiteMedecins: number` — généralistes / 1 000 hab
+- ~~`densiteMedecins`~~ — ✅ **fait 2026-11-01, en mieux** : `data/city-healthcare.json` (`npm run healthcare`,
+  `scripts/city-healthcare.mjs` + `lib/city-healthcare.ts`) porte l'**APL aux médecins généralistes** de la DREES
+  (millésime 2024, consultations accessibles par an et par habitant, médecins des communes voisines compris — une densité
+  communale aurait fait passer Villeurbanne pour un désert), les généralistes, pharmacies et services d'urgences
+  recensés par la BPE Insee 2025 (API Melodi, sans jeton, joignable en local) et, sans urgences sur place, la distance à
+  vol d'oiseau à la commune la plus proche qui en compte une (centres geo.api.gouv.fr). 591/593 villes (hors Mamoudzou
+  et Pierrefitte-sur-Seine). `lib/healthcare-access.ts` mesure désormais généralistes, urgences et pharmacies ;
+  seuls les spécialistes restent estimés, la garde `moteurs` traite la santé en cas mixte. Effets mesurés : niveaux
+  22 désert / 205 tendu / 194 correct / 172 facile → 0 / 17 / 369 / 207 ; les sous-préfectures rurales concentrent
+  les médecins de leur bassin, le manque est en grande couronne (65 des 78 villes ≥ 10 000 hab. sous le seuil de zone
+  sous-dense 2,5 sont franciliennes). Le thème « désert médical » se lit sur l'APL, « vieillir loin des soins » sur
+  l'APL sous la moyenne nationale, « cadre de vie tendu » passe de 4,5 à 4,8 (sinon vide). 93 citations santé des
+  séries retraite FR/EN réécrites, intros des profils `suivi-medical-regulier` / `professionnels-de-sante`
+  recalculées. ⚠️ **Relancer `npm run healthcare` déplace ces chiffres** : refaire le scan des guides (citations
+  « moteur d'accès aux soins … /10 ») et les deux intros de profils. Le tag `station-balnéaire` ne vaut plus montagne.
 - `indiceAtmo: number` — qualité air annuelle 0–10 (1 = très pollué)
 - `espacesVerts: number` — % superficie communale (proxie CORINE)
 

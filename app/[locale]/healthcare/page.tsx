@@ -20,7 +20,7 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: "Healthcare access in France · hospitals vs deserts 2026",
   description:
-    "National ranking of French cities by healthcare access: GPs, specialists, A&E, pharmacies. Top 30 best-served cities vs top 20 medical deserts. Commune-level estimate, not a count of practices.",
+    "National ranking of French cities by healthcare access: GPs, specialists, A&E, pharmacies. Top 30 best-served cities vs top 20 hardest. GP access measured (DREES APL), specialists estimated.",
   alternates: pathAlternatesEn("/sante", "/healthcare"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -72,11 +72,11 @@ export default function HealthcareHubPage() {
       a: `The cities ≥ 10,000 residents with the lowest healthcare access composite (most difficult) are: ${deserts
         .slice(0, 5)
         .map((c) => `${c.name} (${(10 - c.access.composite).toFixed(1)}/10)`)
-        .join(", ")}. These cities typically combine poor GP density, distant A&E, and rare specialists.`,
+        .join(", ")}. They combine low GP access (at or near the official under-served threshold), no emergency department in town and distant specialists. Cities below the under-served threshold are ranked on /red-flags/themes/medical-desert.`,
     },
     {
       q: "How is this ranking calculated?",
-      a: "Composite of 4 dimensions: GPs (35%, departmental band calibrated against DREES reference figures, lifted by metro status), specialists (25%, measured distance to the nearest university-hospital site, then large agglomeration > medium city > rural), A&E (25%, the same distance to a university hospital, otherwise an estimated emergency department by town size + mountain/island penalty), pharmacies (15%, population coverage × urban status). Score 0-10, 10 = excellent access. Only the distance to a university hospital is measured; the rest is a commune-level estimate built from the department and town size: the bands are calibrated against DREES, CNOM and ARS reference figures, but none of their readings are reused — this is neither a count of practices nor the ARS zoning in force.",
+      a: "Composite of 4 dimensions: GPs (35%, measured with the DREES localised potential accessibility indicator, 2024), specialists (25%, estimated: measured distance to the nearest university-hospital site, then large agglomeration > medium city > rural), A&E (25%, emergency department recorded in the town by INSEE, otherwise the measured distance to the nearest town that has one, + mountain penalty), pharmacies (15%, pharmacies recorded by INSEE per resident). Score 0-10, 10 = excellent access. Three dimensions are measured for 591 of 593 cities; Mamoudzou and Pierrefitte-sur-Seine, outside the datasets, keep an estimate. No figure says which doctors take new patients, and this is not the ARS zoning in force.",
     },
     {
       q: "What if I cannot find a GP?",
@@ -100,13 +100,14 @@ export default function HealthcareHubPage() {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite index covering four key dimensions of healthcare access: GPs, specialists,
-          A&E/emergency services, and pharmacies. Score 0-10, 10 = excellent access. Filtered to
-          cities ≥ 10,000 residents for meaningful departmental indicators.
+          A&E/emergency services, and pharmacies. Score 0-10, 10 = excellent access. GPs, A&E and
+          pharmacies are measured (DREES, INSEE); specialists are estimated. Filtered to cities
+          ≥ 10,000 residents.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Structural estimate</Badge>
-          <Badge>Reference frameworks: DREES · CNOM · ARS</Badge>
+          <Badge>Measured: DREES APL 2024 · INSEE BPE 2025</Badge>
+          <Badge>Specialists: estimate</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} cities</Badge>
           <Badge>GP 35% · specialists 25% · A&E 25% · pharmacies 15%</Badge>
         </div>
@@ -116,8 +117,8 @@ export default function HealthcareHubPage() {
           Top 30 — Best healthcare access
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Cities close to a university-hospital site, large agglomerations well-equipped with GPs and
-          specialists, dense urban networks. High composite score = easy access.
+          Cities close to a university-hospital site, with GP access above the national average and an
+          emergency department in town. High composite score = easy access.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -179,11 +180,16 @@ export default function HealthcareHubPage() {
 
         {/* Top 20 medical deserts */}
         <h2 className="mt-12 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 20 — Confirmed medical deserts
+          Top 20 — Hardest healthcare access
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Cities ≥ 10,000 whose department sits in the lowest GP band, with distant specialists and distant emergency
-          services. Low composite score = difficult access.
+          Cities ≥ 10,000 combining low GP access, no emergency department in town and distant
+          specialists. Low composite score = difficult access. Cities below the official
+          under-served threshold are ranked on{" "}
+          <Link href="/red-flags/themes/medical-desert" className="text-[var(--accent)] hover:underline">
+            the medical-desert page
+          </Link>
+          .
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -241,11 +247,11 @@ export default function HealthcareHubPage() {
         <Card className="mt-3">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
-              <strong className="text-[var(--text-primary)]">GPs (35%)</strong> — the
-              department is placed in one of four bands — desert / under-served / adequate /
-              well-served — defined from DREES reference figures (below 80/100k with more than
-              half of GPs over 60, below 100/100k, above 145/100k, or metro status).
-              The band is assigned to the department; no density is read town by town.
+              <strong className="text-[var(--text-primary)]">GPs (35%)</strong> —{" "}
+              <strong className="text-[var(--text-primary)]">measured</strong> with the DREES
+              localised potential accessibility (APL), 2024: GP consultations within reach per
+              resident per year, counting doctors in neighbouring towns. Below 1.5 is very low
+              access, below 2.5 an under-served area; the national average is 3.72.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Specialists (25%)</strong> — distance
@@ -255,19 +261,20 @@ export default function HealthcareHubPage() {
               times are not.
             </li>
             <li>
-              <strong className="text-[var(--text-primary)]">A&E (25%)</strong> — the same distance
-              to a university hospital, otherwise an estimated emergency department by town size.
-              Being near one can only improve these two scores, never lower them. Penalty for mountain zones (snow) and
-              island zones (transport links).
+              <strong className="text-[var(--text-primary)]">A&E (25%)</strong> — whether INSEE
+              records an emergency department in the town (permanent facilities database, 2025);
+              without one, the straight-line distance to the nearest town that has one, with a
+              mountain penalty because roads are longer than the straight line. Being near a university hospital can only improve the score, never lower it.
             </li>
             <li>
-              <strong className="text-[var(--text-primary)]">Pharmacies (15%)</strong> — population
-              coverage × urban status. French average: 1 pharmacy per 3,000 residents.
+              <strong className="text-[var(--text-primary)]">Pharmacies (15%)</strong> — pharmacies
+              recorded in the town by INSEE, per resident. French average: about one per 3,300 residents.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            This ranking sorts commune-level <strong>estimates</strong>, not readings: no
-            medical density, no appointment delay and no plot-level zoning is ingested here.
+            Specialists remain an <strong>estimate</strong> and no appointment delay is
+            recorded. Mamoudzou and Pierrefitte-sur-Seine, outside the APL dataset, keep the
+            estimate on all four dimensions.
             Precise zoning and GP incentive schemes are published by the ARS, and the situation
             changes quickly with retirements — check GP availability on Ameli before relocating.
           </p>

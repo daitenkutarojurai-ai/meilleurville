@@ -16,7 +16,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Accès aux soins en France · meilleurs hôpitaux vs. déserts médicaux 2026",
   description:
-    "Classement national des villes françaises selon l'accès aux soins : médecins généralistes, spécialistes, urgences, pharmacies. Top 30 meilleur accès vs. top 20 désert médical. Estimation communale, pas un relevé de cabinets.",
+    "Classement national des villes françaises selon l'accès aux soins : médecins généralistes, spécialistes, urgences, pharmacies. Top 30 meilleur accès vs. top 20 accès difficile. Généralistes mesurés (APL DREES), spécialistes estimés.",
   alternates: pathAlternates("/sante", "/healthcare"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -52,11 +52,11 @@ export default function HealthcareHubPage() {
       a: `Les villes ≥ 10 000 hab. au composite accès soins le plus bas (donc le plus difficile) sont : ${deserts
         .slice(0, 5)
         .map((c) => `${c.name} (${(10 - c.access.composite).toFixed(1)}/10)`)
-        .join(", ")}. Ces villes cumulent généralement densité MG dégradée, urgences éloignées et spécialistes rares.`,
+        .join(", ")}. Elles cumulent un accès aux généralistes sous le seuil de zone sous-dense ou proche, pas de service d'urgences dans la commune et des spécialistes éloignés. Le classement des villes sous le seuil de zone sous-dense est sur /red-flags/villes-desert-medical.`,
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : médecins généralistes (35 %, palier départemental calé sur les repères DREES, relevé par le statut de métropole), spécialistes (25 %, distance mesurée au site de CHU le plus proche, puis grande agglo > moyenne > rural), urgences/SAU (25 %, même distance au CHU, sinon présence estimée + malus montagne/île), pharmacies (15 %, maillage population × statut urbain). Score 0-10, 10 = excellent accès aux soins. Seule la distance au CHU est mesurée ; le reste est une estimation communale bâtie sur le département et la taille de la commune : les paliers sont calés sur les repères DREES, CNOM et ARS, mais aucun de leurs relevés n'est repris — ce n'est ni un décompte de cabinets, ni le zonage ZIP/ZAC en vigueur.",
+      a: "Composite agrégeant 4 dimensions : médecins généralistes (35 %, mesuré par l'accessibilité potentielle localisée de la DREES, 2024), spécialistes (25 %, estimé : distance mesurée au site de CHU le plus proche, puis grande agglo > moyenne > rural), urgences (25 %, service d'urgences recensé dans la commune par l'Insee, sinon distance mesurée à la commune la plus proche qui en compte un, + malus montagne), pharmacies (15 %, pharmacies recensées par l'Insee rapportées à la population). Score 0-10, 10 = excellent accès aux soins. Trois dimensions sont mesurées pour 591 des 593 villes ; Mamoudzou et Pierrefitte-sur-Seine, hors champ, gardent une estimation. Aucun chiffre ne dit quels médecins prennent de nouveaux patients, et ce n'est pas le zonage ZIP/ZAC en vigueur.",
     },
     {
       q: "Que faire si je ne trouve pas de médecin traitant ?",
@@ -81,13 +81,14 @@ export default function HealthcareHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions clés de l&apos;accès aux soins :
           médecins généralistes, spécialistes, urgences/SAU et pharmacies. Score 0-10,
-          10 = excellent accès aux soins. Filtre 10 000 habitants minimum
-          pour pertinence des indicateurs départementaux.
+          10 = excellent accès aux soins. Les généralistes, les urgences et les pharmacies
+          sont mesurés (DREES, Insee) ; les spécialistes sont estimés. Filtre 10 000
+          habitants minimum.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Estimation structurelle</Badge>
-          <Badge>Cadres de référence : DREES · CNOM · ARS</Badge>
+          <Badge>Mesuré : DREES APL 2024 · Insee BPE 2025</Badge>
+          <Badge>Spécialistes : estimation</Badge>
           <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération MG 35 % · spé 25 % · urgences 25 % · pharma 15 %</Badge>
         </div>
@@ -97,8 +98,8 @@ export default function HealthcareHubPage() {
           Top 30 — villes au meilleur accès aux soins
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Communes proches d&apos;un site de CHU, grandes agglomérations bien dotées en MG et spécialistes,
-          maillage urbain dense. Score composite élevé = accès facile.
+          Villes proches d&apos;un site de CHU, avec un accès aux généralistes au-dessus de la
+          moyenne nationale et des urgences sur place. Score composite élevé = accès facile.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -152,11 +153,16 @@ export default function HealthcareHubPage() {
 
         {/* Desert médical */}
         <h2 className="mt-12 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 20 — villes en désert médical avéré
+          Top 20 — villes à l&apos;accès aux soins le plus difficile
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Communes ≥ 10 000 hab. dont le département est rangé au palier « désert » et
-          qui cumulent spécialistes éloignés et urgences distantes. Score composite faible = accès difficile.
+          Communes ≥ 10 000 hab. qui cumulent un accès aux généralistes faible, pas de service
+          d&apos;urgences sur place et des spécialistes éloignés. Score composite faible = accès
+          difficile. Les villes sous le seuil officiel de zone sous-dense sont classées sur{" "}
+          <Link href="/red-flags/villes-desert-medical" className="text-[var(--accent)] hover:underline">
+            la page désert médical
+          </Link>
+          .
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -207,11 +213,10 @@ export default function HealthcareHubPage() {
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Médecins généralistes (35 %)</strong> —
-              le département est rangé dans l&apos;un de quatre paliers — désert /
-              sous-doté / correct / bien doté — définis d&apos;après les repères DREES
-              (sous 80/100k hab. avec plus de la moitié des praticiens au-delà de 60 ans,
-              sous 100/100k, au-delà de 145/100k, ou statut de métropole). Le palier est attribué
-              au département ; aucune densité n&apos;est relevée commune par commune.
+              <strong className="text-[var(--text-primary)]">mesuré</strong> par l&apos;accessibilité
+              potentielle localisée (APL) de la DREES, 2024 : consultations de médecine générale
+              accessibles par an et par habitant, médecins des communes voisines compris. Sous 1,5,
+              accès très faible ; sous 2,5, zone sous-dense ; moyenne nationale 3,72.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Spécialistes (25 %)</strong> —
@@ -222,20 +227,22 @@ export default function HealthcareHubPage() {
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Urgences/SAU (25 %)</strong> —
-              la même distance au CHU, sinon la présence estimée d&apos;un Service d&apos;Accueil
-              des Urgences selon la taille de la commune. Malus zone de montagne (enneigement)
-              et zone insulaire (liaisons). La proximité d&apos;un CHU ne peut qu&apos;améliorer
-              ces deux notes, jamais les dégrader.
+              présence d&apos;un service d&apos;urgences dans la commune, relevée par l&apos;Insee
+              (base permanente des équipements, 2025) ; sans service sur place, distance mesurée à
+              vol d&apos;oiseau jusqu&apos;à la commune la plus proche qui en compte un, avec un malus
+              en montagne, où la route est plus longue que la ligne droite. La proximité d&apos;un CHU
+              ne peut qu&apos;améliorer la note, jamais la dégrader.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Pharmacies (15 %)</strong> —
-              maillage population × statut urbain. France moyenne : 1 pharmacie / 3 000 hab.
+              pharmacies recensées dans la commune par l&apos;Insee, rapportées à la population.
+              Moyenne française : environ une pour 3 300 habitants.
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Ce classement trie des <strong>estimations</strong> communales, pas des
-            relevés : aucune densité médicale, aucun délai de rendez-vous et aucun zonage
-            parcellaire ne sont ingérés ici. Le zonage précis (ZIP / ZAC) et les aides à
+            Les spécialistes restent une <strong>estimation</strong>, et aucun délai de
+            rendez-vous n&apos;est relevé. Mamoudzou et Pierrefitte-sur-Seine, hors du champ
+            de l&apos;APL, gardent l&apos;estimation sur les quatre dimensions. Le zonage précis (ZIP / ZAC) et les aides à
             l&apos;installation sont publiés par l&apos;ARS, et la situation évolue vite avec
             les départs en retraite — vérifier la disponibilité d&apos;un médecin traitant sur
             Ameli avant un déménagement définitif.
@@ -247,8 +254,10 @@ export default function HealthcareHubPage() {
           Par macro-région
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          L&apos;accès aux soins varie fortement entre les métropoles bien dotées et les
-          départements ruraux en désert médical. Vue restreinte à chaque grande zone.
+          L&apos;accès aux soins varie fortement d&apos;une zone à l&apos;autre, et pas
+          toujours là où on l&apos;attend : la grande couronne parisienne compte plus de villes
+          sous le seuil de zone sous-dense que les départements ruraux. Vue restreinte à chaque
+          grande zone.
         </p>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
           {MACRO_REGIONS.map((m) => (

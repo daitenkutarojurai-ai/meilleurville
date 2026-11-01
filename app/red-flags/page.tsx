@@ -324,7 +324,7 @@ export default function RedFlagsPage() {
               {RED_FLAG_THEMES.length} angles de lecture data-driven : regrets d&apos;achat, vivre
               sans voiture difficile, villes belles mais invivables l&apos;été, air irrespirable
               l&apos;hiver, risques naturels (Géorisques), bruit cauchemar, manque d&apos;eau l&apos;été
-              (Propluvia / BRGM), désert médical (DREES / CNOM / ARS), chômage élevé, cadre
+              (Propluvia / BRGM), désert médical (APL DREES), chômage élevé, cadre
               de vie tendu, coûts explosifs, désert de services publics, villes anti-vélo,
               vieillissement critique, sécurité nocturne tendue, hivers rudes, logement
               locatif introuvable, économies mono-touristiques (saison morte), fuite

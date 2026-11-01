@@ -93,7 +93,7 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `Composite agrégeant 4 dimensions : médecins généralistes (35 %, densité DREES + override CHU/métropole), spécialistes (25 %), urgences/SAU (25 %, présence + malus montagne/île), pharmacies (15 %). Score 0-10, 10 = excellent accès aux soins. C'est une estimation communale : les paliers sont calés sur les repères DREES, CNOM et ARS, mais aucun de leurs relevés n'est repris — ce n'est ni un décompte de cabinets, ni le zonage ZIP/ZAC en vigueur.`,
+      a: `Composite agrégeant 4 dimensions : médecins généralistes (35 %, mesuré par l'accessibilité potentielle localisée de la DREES, 2024), spécialistes (25 %, estimé d'après la distance au CHU et la taille de la ville), urgences (25 %, service d'urgences recensé dans la commune par l'Insee, sinon distance mesurée au plus proche), pharmacies (15 %, pharmacies recensées par l'Insee rapportées à la population). Score 0-10, 10 = excellent accès aux soins. Aucun chiffre ne dit quels médecins prennent de nouveaux patients, et ce n'est pas le zonage ZIP/ZAC en vigueur.`,
     },
   ]);
 
@@ -115,14 +115,15 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
-          médecins généralistes, spécialistes, urgences/SAU, pharmacies. Les quatre
-          niveaux sont <strong>estimés</strong> depuis le département, la taille de la
-          commune et la présence hospitalière — pas relevés cabinet par cabinet.
+          médecins généralistes, spécialistes, urgences/SAU, pharmacies. Généralistes,
+          urgences et pharmacies sont <strong>mesurés</strong> (DREES, Insee) ; les
+          spécialistes sont <strong>estimés</strong> d&apos;après la distance au CHU et la
+          taille de la ville.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Estimation structurelle</Badge>
-          <Badge>Cadres de référence : DREES · CNOM · ARS</Badge>
+          <Badge>Mesuré : DREES APL 2024 · Insee BPE 2025</Badge>
+          <Badge>Spécialistes : estimation</Badge>
           <Badge>{cities.length} villes analysées</Badge>
           <Badge>Composite moyen : {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
@@ -134,10 +135,10 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Généralistes", v: avgMg, hint: "Palier départemental, repères DREES" },
-              { k: "Spécialistes", v: avgSpe, hint: "CHU > agglo > moyenne > rural" },
-              { k: "Urgences", v: avgUrg, hint: "Présence SAU + malus accès" },
-              { k: "Pharmacies", v: avgPharma, hint: "Maillage population × urbain" },
+              { k: "Généralistes", v: avgMg, hint: "APL DREES 2024, mesuré" },
+              { k: "Spécialistes", v: avgSpe, hint: "Estimé : CHU > agglo > moyenne > rural" },
+              { k: "Urgences", v: avgUrg, hint: "Service recensé (Insee) + malus accès" },
+              { k: "Pharmacies", v: avgPharma, hint: "Pharmacies recensées par habitant" },
             ].map((d) => (
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
