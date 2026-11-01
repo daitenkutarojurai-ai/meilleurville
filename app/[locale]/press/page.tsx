@@ -66,7 +66,7 @@ export default function PressPage() {
     <div className="min-h-screen flex flex-col">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdScript(pressBreadcrumb) }}
+        dangerouslySetInnerHTML={jsonLdScript(pressBreadcrumb)}
       />
       <AmbientBackground />
       <Navbar />

@@ -163,7 +163,7 @@ export default async function EnCompareDepartmentsPair({ params }: Props) {
 
   return (
     <main id="main-content" className="min-h-screen flex flex-col">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
 
       <div className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 pt-28 pb-16">

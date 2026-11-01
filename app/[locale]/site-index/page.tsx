@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";
 import { RANKING_META } from "@/lib/rankings";
+import { RANKING_EN } from "@/lib/rankings-en";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternatesEn } from "@/lib/i18n";
 
@@ -30,28 +31,6 @@ function byInitial<T extends { name: string }>(items: T[]): Map<string, T[]> {
   }
   return new Map([...m.entries()].sort((a, b) => a[0].localeCompare(b[0])));
 }
-
-const EN_RANKING_HEADLINE: Record<string, string> = {
-  "qualite-de-vie": "Best quality of life",
-  transport: "Best public transport",
-  nature: "Best nature & green space",
-  cout: "Most affordable cities",
-  securite: "Safest cities",
-  culture: "Best culture & nightlife",
-  teletravail: "Best for remote work",
-  ecoles: "Best schools",
-  soleil: "Most sunshine",
-  retraite: "Best cities to retire",
-  etudiants: "Best student cities",
-  familles: "Best cities for families",
-  jeunes: "Best cities for young people",
-  investissement: "Best buy-to-let investment",
-  tourisme: "Most visited cities",
-  eco: "Most eco-friendly cities",
-  startup: "Best startup ecosystems",
-  sport: "Best cities for sport",
-  gastronomie: "Best gastronomy",
-};
 
 export default function EnSiteIndexPage() {
   const cities = [...CITIES_SEED].sort((a, b) => a.name.localeCompare(b.name));
@@ -147,7 +126,7 @@ export default function EnSiteIndexPage() {
                 href={`/rankings/${slug}`}
                 className="text-[var(--text-secondary)] hover:text-[var(--accent)] hover:underline"
               >
-                {EN_RANKING_HEADLINE[slug] ?? meta.headline}
+                {RANKING_EN[slug]?.headline ?? meta.headline}
               </Link>
             ))}
           </div>

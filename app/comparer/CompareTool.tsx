@@ -133,7 +133,13 @@ function CityPicker({
   );
 }
 
-export function CompareTool({ locale = "fr", cities: allCities }: { locale?: Locale; cities: CityLight[] }) {
+// `headingLevel="h2"` when the host page already carries the h1 (/comparer).
+export function CompareTool({
+  locale = "fr",
+  cities: allCities,
+  headingLevel = "h1",
+}: { locale?: Locale; cities: CityLight[]; headingLevel?: "h1" | "h2" }) {
+  const Heading = headingLevel;
   const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const [cities, setCities] = useState<Array<CitySeed | null>>([null, null]);
@@ -163,9 +169,9 @@ export function CompareTool({ locale = "fr", cities: allCities }: { locale?: Loc
       {/* Header */}
       <div className="mb-10">
         <Badge variant="accent" className="mb-3">{t("Comparateur", "Compare")}</Badge>
-        <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
+        <Heading className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
           {t("Comparez les villes côte à côte", "Compare cities side by side")}
-        </h1>
+        </Heading>
         <p className="text-[var(--text-secondary)]">
           {t(
             "Sélectionnez 2 ou 3 villes pour comparer tous leurs scores en détail.",

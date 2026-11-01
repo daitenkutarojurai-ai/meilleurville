@@ -23,6 +23,7 @@ import { slugifyTag, TAG_SLUGS } from "@/lib/guide-tags";
 import { GuidePoiCard } from "@/components/GuidePoiCard";
 import { guidePois } from "@/lib/guide-pois";
 import { ReadingProgress } from "@/components/ReadingProgress";
+import { decodeParam } from "@/lib/route-params";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -40,7 +41,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const slug = decodeParam((await params).slug);
   const guide = GUIDES.find((g) => g.slug === slug);
   if (!guide) return {};
   // metaDesc doubles as on-page copy (the /guides index cards, the "Aller plus
@@ -67,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function GuidePage({ params }: Props) {
-  const { slug } = await params;
+  const slug = decodeParam((await params).slug);
   const guide = GUIDES.find((g) => g.slug === slug);
   if (!guide) notFound();
 

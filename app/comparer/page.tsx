@@ -114,7 +114,7 @@ export default function ComparerPage() {
         </div>
       </section>
 
-      <CompareTool cities={CITIES_LIGHT} />
+      <CompareTool cities={CITIES_LIGHT} headingLevel="h2" />
 
       <section className="relative border-t border-[var(--border)] py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">

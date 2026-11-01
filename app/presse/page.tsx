@@ -49,7 +49,7 @@ export default function PressePage() {
     <div className="min-h-screen flex flex-col">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdScript(presseBreadcrumb) }}
+        dangerouslySetInnerHTML={jsonLdScript(presseBreadcrumb)}
       />
       <AmbientBackground />
       <Navbar />

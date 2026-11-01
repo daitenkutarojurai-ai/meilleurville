@@ -1,3 +1,4 @@
+import { decodeParam } from "./route-params";
 // V1.5 — Climat mensuel par ville (signaux mois × ville pour le moteur vacances).
 //
 // **Stratégie hybride** :
@@ -253,7 +254,7 @@ export function allMonthSignals(city: CityLight): MonthSignal[] {
 }
 
 export function monthSlugToIndex(slug: string): MonthIndex | null {
-  const idx = MONTHS.indexOf(slug as MonthSlug);
+  const idx = MONTHS.indexOf(decodeParam(slug) as MonthSlug);
   return idx >= 0 ? ((idx + 1) as MonthIndex) : null;
 }
 

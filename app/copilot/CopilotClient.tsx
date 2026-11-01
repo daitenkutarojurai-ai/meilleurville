@@ -160,9 +160,9 @@ export function CopilotClient({
           <Sparkles className="h-5 w-5 text-white" />
         </div>
         <div>
-          <p className="font-bold text-[var(--text-primary)] text-sm">
+          <h1 className="font-bold text-[var(--text-primary)] text-sm">
             {t("Copilote Déménagement", "Relocation Copilot")}
-          </p>
+          </h1>
           <p className="text-[10px] text-[var(--text-tertiary)] uppercase tracking-widest">
             {t(`${citiesCount} villes · données 2026`, `${citiesCount} cities · 2026 data`)}
           </p>

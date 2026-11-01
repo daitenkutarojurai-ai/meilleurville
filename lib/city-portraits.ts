@@ -169,7 +169,7 @@ function hashSlug(slug: string): number {
 }
 
 function pick<T>(arr: readonly T[], seed: number): T {
-  return arr[seed % arr.length];
+  return arr[(seed >>> 0) % arr.length];
 }
 
 export interface Portrait {
@@ -194,12 +194,12 @@ export function cityPortraits(city: CitySeed, count = 3): Portrait[] {
 
   return ranked.map(({ a, score }, idx) => {
     const localSeed = seed + idx * 7919;
-    const name = `${pick(FIRST_NAMES, localSeed)} ${pick(LAST_INITIALS, localSeed >> 3)}`;
+    const name = `${pick(FIRST_NAMES, localSeed)} ${pick(LAST_INITIALS, localSeed >>> 3)}`;
     const ageSpan = a.ageRange[1] - a.ageRange[0];
-    const age = a.ageRange[0] + ((localSeed >> 5) % (ageSpan + 1));
-    const profession = pick(a.professions, localSeed >> 7);
-    const motivation = pick(a.motivations, localSeed >> 9);
-    const worry = pick(a.worries, localSeed >> 11);
+    const age = a.ageRange[0] + ((localSeed >>> 5) % (ageSpan + 1));
+    const profession = pick(a.professions, localSeed >>> 7);
+    const motivation = pick(a.motivations, localSeed >>> 9);
+    const worry = pick(a.worries, localSeed >>> 11);
     // Normalise the rough archetype score to a 0-10 fit
     const fitScore = Math.max(2, Math.min(9.5, score / (a.key === "primo-accedant" ? 2.0 : 1.5)));
     return {
