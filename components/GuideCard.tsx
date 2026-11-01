@@ -1,5 +1,6 @@
 import Link from "@/components/AppLink";
 import type { Guide } from "@/data/guides";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 
 // Card-level projection of Guide — server pages pass only these fields so the
 // multi-MB sections[] bodies never enter the client props / flight payload.
@@ -49,20 +50,19 @@ export function GuideCard({ guide, featured = false, now }: GuideCardProps) {
     <Link
       href={`/guides/${guide.slug}`}
       aria-label={`${guide.title} — ${guide.readMinutes} minutes de lecture`}
-      className={`group block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-lg hover:shadow-[var(--accent)]/5 active:scale-[0.99] transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] ${featured ? "p-6" : "p-5"}`}
+      className={`group block h-full rounded-2xl border border-white bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] hover:-translate-y-0.5 hover:border-[#C7D2FE] hover:shadow-[0_16px_32px_-16px_rgba(79,70,229,0.6)] active:scale-[0.99] transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] ${featured ? "p-6" : "p-5"}`}
     >
       <div className="flex items-start gap-4">
-        <div className={`flex-shrink-0 rounded-xl bg-[var(--bg-elevated)] flex items-center justify-center ${featured ? "w-14 h-14 text-2xl" : "w-11 h-11 text-xl"}`} aria-hidden>
-          {guide.emoji}
-        </div>
+        {/* « Couleurs » : pastille dégradée, teinte stable par slug. */}
+        <EmojiBadge emoji={guide.emoji} tone={toneFor(guide.slug)} size={featured ? "md" : "sm"} />
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1.5 flex-wrap">
             {isFresh && (
-              <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-[var(--accent)]/15 text-[var(--accent)] border border-[var(--accent)]/30">
+              <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full grad-head-5">
                 Nouveau
               </span>
             )}
-            <span className="text-xs text-[var(--text-tertiary)] uppercase tracking-wide font-medium">
+            <span className="text-xs text-[var(--accent)] uppercase tracking-wide font-semibold">
               {categoryLabel(guide.category)}
             </span>
             <span className="text-xs text-[var(--text-tertiary)]" aria-hidden>·</span>
@@ -84,7 +84,7 @@ export function GuideCard({ guide, featured = false, now }: GuideCardProps) {
           )}
           <div className="flex flex-wrap gap-1.5 mt-3">
             {guide.tags.slice(0, 3).map((tag) => (
-              <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-[var(--bg-elevated)] text-[var(--text-tertiary)]">
+              <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-[#EEF0FF] text-[#4338CA]">
                 {tag}
               </span>
             ))}

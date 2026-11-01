@@ -3,7 +3,7 @@ import { useMemo, useState } from "react";
 import Link from "@/components/AppLink";
 import { Search, X } from "lucide-react";
 import { GuideCard, type GuideCardData } from "@/components/GuideCard";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { cn } from "@/lib/utils";
 // NOT from data/guides — a value import there would bundle the whole corpus.
 import { GUIDE_CATEGORIES } from "@/lib/guide-categories";
@@ -78,7 +78,7 @@ export function GuidesGrid({ guides, now }: Props) {
       {/* Search input */}
       <div className="relative">
         <Search
-          className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-tertiary)] pointer-events-none"
+          className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--accent)] pointer-events-none"
           aria-hidden
         />
         <input
@@ -87,7 +87,7 @@ export function GuidesGrid({ guides, now }: Props) {
           onChange={(e) => setQuery(e.target.value)}
           placeholder={`Rechercher dans ${guides.length} guides — ville, thème, mot-clé...`}
           aria-label="Rechercher dans les guides"
-          className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] pl-10 pr-10 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:outline-none focus:border-[var(--accent)] focus:ring-2 focus:ring-[var(--accent)]/20 transition-colors"
+          className="w-full rounded-xl border border-white bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] pl-10 pr-10 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:outline-none focus:border-[var(--accent)] focus:ring-2 focus:ring-[var(--accent)]/20 transition-colors"
         />
         {query && (
           <button
@@ -107,8 +107,8 @@ export function GuidesGrid({ guides, now }: Props) {
           className={cn(
             "rounded-full border text-xs font-medium px-3 py-1.5 transition-colors cursor-pointer",
             activeCategory === "all"
-              ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-              : "border-[var(--border)] bg-[var(--bg-surface)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)]"
+              ? "border-transparent grad-head-0 shadow-[0_8px_18px_-10px_rgba(79,70,229,0.8)]"
+              : "border-white bg-white text-[var(--text-secondary)] hover:border-[#C7D2FE] hover:text-[var(--accent)]"
           )}
         >
           Tous les guides ({guides.length})
@@ -122,8 +122,8 @@ export function GuidesGrid({ guides, now }: Props) {
               className={cn(
                 "rounded-full border text-xs font-medium px-3 py-1.5 transition-colors cursor-pointer",
                 activeCategory === cat.id
-                  ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-                  : "border-[var(--border)] bg-[var(--bg-surface)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)]"
+                  ? "border-transparent grad-head-0 shadow-[0_8px_18px_-10px_rgba(79,70,229,0.8)]"
+                  : "border-white bg-white text-[var(--text-secondary)] hover:border-[#C7D2FE] hover:text-[var(--accent)]"
               )}
             >
               {cat.emoji} {cat.label} ({count})
@@ -135,20 +135,20 @@ export function GuidesGrid({ guides, now }: Props) {
       {/* Featured guide — only when showing all */}
       {showFeatured && featured && (
         <div>
-          <h2 className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-4">
+          <h2 className="text-xs uppercase tracking-widest text-[var(--accent)] font-bold mb-4">
             À la une
           </h2>
           <Link
             href={`/guides/${featured.slug}`}
-            className="group block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-xl hover:shadow-[var(--accent)]/5 transition-all duration-200 p-8"
+            className="group relative block overflow-hidden rounded-3xl border border-white bg-white shadow-[0_18px_40px_-20px_rgba(79,70,229,0.6)] hover:-translate-y-0.5 hover:border-[#C7D2FE] transition-all duration-200 p-6 sm:p-8"
           >
+            {/* Liseré dégradé en tête de la carte à la une. */}
+            <span aria-hidden className="absolute inset-x-0 top-0 h-1.5 grad-head-5" />
             <div className="flex flex-col sm:flex-row gap-6">
-              <div className="flex-shrink-0 w-20 h-20 rounded-2xl bg-[var(--bg-elevated)] flex items-center justify-center text-4xl">
-                {featured.emoji}
-              </div>
+              <EmojiBadge emoji={featured.emoji} tone="pink" size="xl" />
               <div>
                 <div className="flex items-center gap-2 mb-2">
-                  <Badge variant="accent">{GUIDE_CATEGORIES.find(c => c.id === featured.category)?.label ?? featured.category}</Badge>
+                  <span className="rounded-full grad-head-0 px-2.5 py-0.5 text-xs font-semibold">{GUIDE_CATEGORIES.find(c => c.id === featured.category)?.label ?? featured.category}</span>
                   <span className="text-xs text-[var(--text-tertiary)]">{featured.readMinutes} min de lecture</span>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors mb-3">
@@ -159,7 +159,7 @@ export function GuidesGrid({ guides, now }: Props) {
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
                   {featured.tags.slice(0, 4).map((tag) => (
-                    <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-[var(--bg-elevated)] text-[var(--text-tertiary)]">
+                    <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-[#FCE7F3] text-[#9D174D]">
                       {tag}
                     </span>
                   ))}
@@ -172,7 +172,7 @@ export function GuidesGrid({ guides, now }: Props) {
 
       {/* Grid */}
       <div>
-        <h2 className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-4">
+        <h2 className="text-xs uppercase tracking-widest text-[var(--accent)] font-bold mb-4">
           {q
             ? `${intersect.length} résultat${intersect.length > 1 ? "s" : ""} pour « ${query} »`
             : activeCategory === "all"
@@ -196,7 +196,7 @@ export function GuidesGrid({ guides, now }: Props) {
                     <button
                       type="button"
                       onClick={() => setShowAll(true)}
-                      className="inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-6 py-3 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+                      className="inline-flex items-center gap-2 rounded-full grad-head-0 px-6 py-3 text-sm font-semibold shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)] transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
                     >
                       Afficher les {filtered.length - INITIAL_VISIBLE} guides restants
                     </button>
@@ -206,7 +206,7 @@ export function GuidesGrid({ guides, now }: Props) {
             );
           })()
         ) : (
-          <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 py-12 px-6 text-center">
+          <div className="rounded-2xl border border-white bg-white py-12 px-6 text-center shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
             <div className="text-4xl mb-3" aria-hidden>📭</div>
             <p className="text-sm font-medium text-[var(--text-primary)] mb-1">
               Aucun guide dans cette catégorie pour l&apos;instant.

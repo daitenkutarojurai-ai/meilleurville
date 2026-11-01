@@ -1221,3 +1221,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hub `/guides` (`GuidesGrid`, en-tête, filtres) et `components/GuideCard.tsx`.
 2. Sous-page `louer-ou-acheter`.
 3. Hubs `/environnement` / `/risques` (palmarès nationaux liés depuis le quartet).
+
+## 2026-11-01 ~03:00 UTC — hub `/guides` (FR) + EN `/guides` + `GuidesGrid` + `GuideCard`
+
+**Surface** : le hub guides (1 453 guides FR, EN liste par catégorie). Avant : hero blanc filet bas, tout dans un seul bloc sur fond de page, tuiles de catégorie teintées vert/ambre/orange/violet (couleurs de paliers), pastilles emoji grises.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 📚 + pilule `grad-head-0`, titre partiel en `.gradient-text` ; grille en `band-indigo` (recherche et filtres blancs à ombre indigo, filtre actif `grad-head-0`, carte « À la une » liseré `grad-head-5` + pastille xl rose, bouton « Afficher… » en dégradé) ; index complet en `band-white` ; « Par thématique » en `band-pink` (tuiles blanches + `EmojiBadge` tournantes, fin des teintes de palier) ; tags en `band-sky` (compteurs cyan) ; CTA quiz en `band-bold`. `GuideCard` : carte blanche à ombre indigo, `EmojiBadge` `toneFor(slug)`, « Nouveau » en `grad-head-5`, tags indigo. EN : hero aurora, chaque catégorie devient une `section` en bande tournante, cartes blanches + `EmojiBadge`. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 4 fichiers : 0 problème. Captures playwright avant/après `/guides` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages catégorie `/guides/categorie/[id]` (FR) + `/guides/category/[cat]` (EN).
+2. Sous-page `louer-ou-acheter`.
+3. Hubs `/environnement` / `/risques`.

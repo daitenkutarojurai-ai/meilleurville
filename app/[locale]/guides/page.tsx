@@ -5,6 +5,11 @@ import { Footer } from "@/components/Footer";
 import type { EnGuide } from "@/data/guides-en";
 import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
+
+// « Couleurs »: one colour band per category section, rotated so two
+// neighbours never share one.
+const BANDS = ["band-indigo", "band-pink", "band-sky", "band-aqua", "band-lilac"] as const;
 
 export const metadata: Metadata = {
   title: `${EN_GUIDES.length} guides — choosing where to live in France`,
@@ -28,51 +33,53 @@ export default function EnGuidesIndex() {
   return (
     <main id="main-content" className="min-h-screen">
       <Navbar />
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-20 pb-8 text-center">
-        <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
-          Guides
-        </h1>
-        <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
-          {EN_GUIDES.length} long-form guides for anyone moving to or living in France. No postcards, no fluff.
-        </p>
+      <section className="relative bg-aurora pt-20 pb-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
+          <EmojiBadge emoji="📚" tone="indigo" size="md" className="mb-4" />
+          <h1 className="text-4xl sm:text-6xl font-bold mb-4 tracking-tight leading-[1.05]">
+            <span className="gradient-text">Guides</span>
+          </h1>
+          <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
+            {EN_GUIDES.length} long-form guides for anyone moving to or living in France. No postcards, no fluff.
+          </p>
+        </div>
       </section>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-12 pb-12">
-        {CATEGORY_ORDER.map((cat) => {
-          const guides = byCategory.get(cat);
-          if (!guides?.length) return null;
-          return (
-            <section key={cat}>
-              <h2 className="text-xl font-semibold text-[var(--text-primary)] mb-4 border-b border-[var(--border)] pb-2 flex flex-wrap items-baseline gap-2">
-                <Link href={`/guides/category/${cat}`} className="hover:text-[var(--accent)] transition-colors">
+      {CATEGORY_ORDER.filter((cat) => byCategory.get(cat)?.length).map((cat, idx) => {
+        const guides = byCategory.get(cat)!;
+        return (
+          <section key={cat} className={`band ${BANDS[idx % BANDS.length]} py-12`}>
+            <div className="mx-auto max-w-5xl px-4 sm:px-6">
+              <h2 className="text-xl sm:text-2xl font-bold mb-5 flex flex-wrap items-baseline gap-2">
+                <Link href={`/guides/category/${cat}`} className="gradient-text hover:opacity-80 transition-opacity">
                   {EN_GUIDE_CATEGORIES[cat]}
                 </Link>
-                <span className="text-sm font-normal text-[var(--text-tertiary)]">({guides.length})</span>
+                <span className="rounded-full bg-white px-2.5 py-0.5 text-sm font-semibold text-[var(--accent)] shadow-sm">{guides.length}</span>
               </h2>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {guides.map((g) => (
                   <li key={g.slug}>
                     <Link
                       href={`/guides/${g.slug}`}
-                      className="block h-full rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 transition-all hover:border-[var(--accent)]/40 hover:shadow-lg"
+                      className="group block h-full rounded-2xl border border-white bg-white p-6 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] transition-all hover:-translate-y-0.5 hover:border-[#C7D2FE]"
                     >
-                      <div className="flex items-center gap-3 mb-2">
-                        <span className="text-3xl" aria-hidden>{g.emoji}</span>
+                      <div className="flex items-center gap-3 mb-3">
+                        <EmojiBadge emoji={g.emoji} tone={toneFor(g.slug)} size="md" />
                         <span className="text-xs uppercase tracking-wide text-[var(--accent)] font-semibold">
                           {EN_GUIDE_CATEGORIES[g.category]}
                         </span>
                       </div>
-                      <h3 className="text-lg font-bold text-[var(--text-primary)] mb-2">{g.title}</h3>
+                      <h3 className="text-lg font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors mb-2">{g.title}</h3>
                       <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{g.metaDesc}</p>
                       <p className="text-xs text-[var(--text-tertiary)] mt-3">{g.readMinutes} min read</p>
                     </Link>
                   </li>
                 ))}
               </ul>
-            </section>
-          );
-        })}
-      </div>
+            </div>
+          </section>
+        );
+      })}
 
       <Footer />
     </main>
