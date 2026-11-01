@@ -337,7 +337,11 @@ export default async function EmploiPage({ params }: Props) {
               le classement jeune actif
             </Link>{" "}
             croise pour cela scène culturelle, aptitude au télétravail et coût de la vie, à
-            poids égal.
+            poids égal. Si le marché local vous inquiète, consultez aussi{" "}
+            <Link href="/red-flags/villes-chomage-eleve" className="text-[var(--accent)] hover:underline">
+              les villes au chômage chronique
+            </Link>
+            .
           </p>
           {border && (
             <p className="text-[var(--text-secondary)]">

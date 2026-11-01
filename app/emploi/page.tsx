@@ -297,6 +297,15 @@ export default function EmploymentHubPage() {
               </div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-chomage-eleve" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">📉</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Chômage chronique</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                Les villes où chômage élevé, emplois en recul et salaires bas se cumulent
+              </div>
+            </Card>
+          </Link>
           <Link href="/pour-qui/travailleurs-frontaliers" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🛂</div>

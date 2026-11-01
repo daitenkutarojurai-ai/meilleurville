@@ -267,10 +267,19 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
           ))}
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/emploi" className="text-[var(--accent)] hover:underline">
-            → Voir le classement national emploi complet
-          </Link>
+        <div className="mt-8 text-sm space-y-2">
+          <p>
+            <Link href="/emploi" className="text-[var(--accent)] hover:underline">
+              → Voir le classement national emploi complet
+            </Link>
+          </p>
+          <p className="text-[var(--text-secondary)]">
+            Pour le bas du tableau, voir{" "}
+            <Link href="/red-flags/villes-chomage-eleve" className="text-[var(--accent)] hover:underline">
+              les villes au chômage chronique
+            </Link>
+            , où un marché du travail sinistré se cache derrière des loyers bas.
+          </p>
         </div>
       </section>
 
