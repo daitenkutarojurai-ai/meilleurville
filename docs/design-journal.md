@@ -1234,3 +1234,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Pages catégorie `/guides/categorie/[id]` (FR) + `/guides/category/[cat]` (EN).
 2. Sous-page `louer-ou-acheter`.
 3. Hubs `/environnement` / `/risques`.
+
+## 2026-11-01 ~16:00 UTC — pages catégorie guides `/guides/categorie/[id]` (FR) + EN `/guides/category/[cat]`
+
+**Surface** : 7 pages FR + 6 EN, liées depuis le hub `/guides` (run de 03:00). Le run de 11:00 n'a laissé ni commit ni journal. Avant : hero blanc filet bas + `Badge`, liste plate sur fond de page, tuiles « autres thématiques » teintées vert/ambre/orange/violet/jaune (couleurs de paliers).
+
+**Changé** (même schéma que le hub) : hero `.bg-aurora`, `EmojiBadge` de la catégorie + pilule `grad-head-0` (compteur), titre en `.gradient-text` ; liste plate dans une carte blanche à ombre indigo (`divide-y`, survol lavande, durée en pastille indigo) sur `band-indigo` ; autres thématiques en `band-pink`, tuiles blanches + `EmojiBadge toneFor(id)`. EN : champs `bg`/`color` de `CATEGORY_COPY` supprimés (teintes de palier). Import `Badge` retiré. Copie, données, JSON-LD inchangés ; la liste reste plate (perf).
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/guides/categorie/famille` et `/budget` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-page `louer-ou-acheter`.
+2. Hubs `/environnement` / `/risques`.
+3. Pages `/tags` et `/tags/[slug]`.
