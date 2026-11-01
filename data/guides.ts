@@ -72448,6 +72448,416 @@ export const GUIDES: Guide[] = [
     ]
   },
   {
+    slug: "10-choses-a-faire-a-hossegor-2026",
+    title: "10 choses à faire à Hossegor",
+    metaTitle: "10 choses à faire à Hossegor",
+    metaDesc: "Lac marin, plage de la Gravière, surf, Côte Sauvage : 10 choses à faire à Hossegor, dans les Landes.",
+    category: "tourisme",
+    emoji: "🏄",
+    readMinutes: 4,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Hossegor tient entre un lac d'eau salée d'environ 600 hectares et l'océan, et reste l'une des capitales européennes du surf. Notre fiche lui prête environ 4 000 habitants. Ce guide dit quoi faire sur place, du spot de la Gravière aux balades sur le lac.",
+    sections: [
+      {
+        heading: "1. Le lac marin",
+        body: "C'est un lac d'eau salée d'environ 600 hectares qui longe la côte du nord au sud. Il se pratique en paddle, surtout à marée haute : consultez les horaires des marées avant de partir. Des loueurs sont installés sur les bords."
+      },
+      {
+        heading: "2. La plage de la Gravière",
+        body: "Elle est citée comme l'un des principaux spots de surf de la côte, et même d'Europe. Le circuit mondial de surf y fait étape, en général fin septembre ou début octobre selon la houle. Les vagues y sont puissantes : regardez depuis la dune si vous n'êtes pas surfeur."
+      },
+      {
+        heading: "3. La plage centrale",
+        body: "C'est la plage la plus équipée, avec parking et services. Le club de surf d'Hossegor y est installé. Les sources divergent sur le nombre de plages surveillées, entre quatre et huit selon qu'on compte celles qui touchent Capbreton et Seignosse."
+      },
+      {
+        heading: "4. La Plage Sud et les écoles de surf",
+        body: "Des écoles de surf y fonctionnent. C'est le bon point d'entrée pour un premier cours, plutôt que les spots de la Gravière réservés aux surfeurs confirmés."
+      },
+      {
+        heading: "5. La Côte Sauvage",
+        body: "À l'est de la Gravière, cette zone naturelle est aussi fréquentée par les surfeurs. On y marche entre dunes et pins, loin des services."
+      },
+      {
+        heading: "6. La Plage Blanche, côté lac",
+        body: "Un spot de sports nautiques sur le lac, accessible depuis la rive. L'eau y est plus calme qu'en mer."
+      },
+      {
+        heading: "7. Le sentier du littoral",
+        body: "Il relie la plage centrale à la Gravière, à quelques minutes de marche vers le sud. Pas de toilettes sur cette portion : passez par la plage centrale avant."
+      },
+      {
+        heading: "8. Capbreton, voisine d'Hossegor",
+        body: "Cette commune voisine, au nord, a son port et sa propre ambiance. C'est une sortie à part, pas un quartier d'Hossegor."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 350 € par mois dans notre estimation, contre 1 050 € à Biscarrosse et 1 200 € à Bayonne. Hossegor convient à qui vient pour le surf et le lac, avec des prix de station chic des Landes."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Comptez une journée pour le lac et la plage centrale, davantage pour un cours de surf ou le sentier. En été, le stationnement est difficile : privilégiez le vélo."
+      }
+    ],
+    relatedCities: [
+      "hossegor",
+      "biscarrosse",
+      "bayonne"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-dax-2026",
+      "10-choses-a-faire-a-mont-de-marsan-2026"
+    ],
+    tags: [
+      "10 choses à faire à Hossegor",
+      "activités Hossegor 2026",
+      "que faire dans les Landes",
+      "plage de la Gravière Hossegor"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-fontenay-le-comte-2026",
+    title: "10 choses à faire à Fontenay-le-Comte",
+    metaTitle: "10 choses à faire à Fontenay-le-Comte",
+    metaDesc: "Château de Terre-Neuve, fontaine des Quatre-Tias, église Notre-Dame : 10 choses à faire à Fontenay-le-Comte, en Vendée.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Fontenay-le-Comte compte environ 14 000 habitants dans notre fiche. La ville est labellisée Ville d'art et d'histoire et garde un centre Renaissance. Ce guide dit quoi voir en une demi-journée, du château de Terre-Neuve à la place Belliard.",
+    sections: [
+      {
+        heading: "1. Le château de Terre-Neuve",
+        body: "C'est un édifice Renaissance du XVIe siècle, connu pour ses cheminées et ses plafonds, commandé par Nicolas Rapin, poète et grand prévôt de la Connétablie. Les dates de construction varient selon les sources, vers 1590 ou 1595. Le château est toujours habité : vérifiez les modalités de visite sur son site officiel."
+      },
+      {
+        heading: "2. La fontaine des Quatre-Tias",
+        body: "Elle date de 1542 et sert d'emblème à la ville. Son nom vient du mot de patois « tias », qui désigne les tuyaux : l'eau sort par quatre tuyaux. Une inscription latine la décrit comme la source jaillissante des beaux esprits."
+      },
+      {
+        heading: "3. L'église Notre-Dame",
+        body: "C'est le principal édifice religieux de la ville. De style gothique, elle abrite un orgue remarquable, une crypte romane, vestige d'une église antérieure, et un clocher qui domine les toits."
+      },
+      {
+        heading: "4. La place Belliard",
+        body: "Elle est bordée d'arcades. C'est le point de départ naturel d'une promenade dans le centre."
+      },
+      {
+        heading: "5. Les hôtels particuliers Renaissance",
+        body: "Le centre en conserve plusieurs, à repérer au fil des rues. Ils se regardent de l'extérieur, sans billet."
+      },
+      {
+        heading: "6. La maison à pans de bois de la rue des Loges",
+        body: "Un des rares exemples de ce type dans le centre. Un arrêt court sur le chemin entre la place et l'église."
+      },
+      {
+        heading: "7. La Vendée à vélo",
+        body: "La ville est une étape de la Vendée Vélo Tour, vers Vouvant. Même sans faire l'itinéraire complet, la sortie à vélo autour de la ville est un bon complément."
+      },
+      {
+        heading: "8. La Vendée voisine",
+        body: "Fontenay est un point de départ vers le marais et la côte. Ces sites sont hors commune : traitez-les comme des sorties à part, en voiture."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 760 € par mois dans notre estimation, contre 860 € à Niort et 800 € à La Roche-sur-Yon. Fontenay convient à qui cherche le patrimoine d'une petite ville à un loyer bas, mais pas à qui veut un grand choix de commerces et de culture."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le centre, le château et l'église. Ajoutez une journée pour le vélo ou la Vendée voisine."
+      }
+    ],
+    relatedCities: [
+      "fontenay-le-comte",
+      "niort",
+      "la-roche-sur-yon"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-niort-2026",
+      "10-choses-a-faire-a-la-roche-sur-yon-2026"
+    ],
+    tags: [
+      "10 choses à faire à Fontenay-le-Comte",
+      "activités Fontenay-le-Comte 2026",
+      "que faire en Vendée",
+      "château de Terre-Neuve Fontenay-le-Comte"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-l-ile-de-re-2026",
+    title: "10 choses à faire à l'île de Ré",
+    metaTitle: "10 choses à faire à l'île de Ré",
+    metaDesc: "Saint-Martin-de-Ré, phare des Baleines, marais salants, Ars : 10 choses à faire à l'île de Ré.",
+    category: "tourisme",
+    emoji: "🏝️",
+    readMinutes: 4,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "L'île de Ré compte environ 18 000 habitants dans notre fiche, répartis entre une dizaine de communes, et se parcourt à vélo. Ce guide dit quoi voir en une ou deux journées, des remparts de Vauban au phare des Baleines.",
+    sections: [
+      {
+        heading: "1. Les fortifications de Saint-Martin-de-Ré",
+        body: "La citadelle et les remparts de Vauban sont inscrits au patrimoine mondial de l'UNESCO. Les fortifications ont été construites entre 1681 et 1691 pour protéger l'île d'un débarquement ennemi."
+      },
+      {
+        heading: "2. Le port de Saint-Martin",
+        body: "Il s'ouvre au pied des remparts. La promenade sur les quais est le meilleur moyen de comprendre comment la ville tient dans sa fortification."
+      },
+      {
+        heading: "3. Le clocher de l'église Saint-Martin",
+        body: "Il offre, selon les guides, le plus beau panorama sur le village enserré dans la forteresse. À monter par beau temps."
+      },
+      {
+        heading: "4. Le phare des Baleines",
+        body: "Situé à Saint-Clément-des-Baleines, c'est une tour octogonale de 57 m en service depuis 1854. Il attire plus de 160 000 visiteurs par an selon une source : évitez les heures pleines de l'été."
+      },
+      {
+        heading: "5. Ars-en-Ré",
+        body: "Le village est classé parmi les Plus Beaux Villages de France. Son port de plaisance, au fond du Fier d'Ars, est le plus important de l'île."
+      },
+      {
+        heading: "6. Les marais salants",
+        body: "Ils font l'identité de la moitié nord de l'île. Les sources divergent sur leur superficie (de 460 à environ 1 500 hectares selon le périmètre), on ne retiendra donc pas de chiffre : on les parcourt à pied ou à vélo."
+      },
+      {
+        heading: "7. La réserve de Lilleau des Niges",
+        body: "Elle occupe 220 hectares d'anciens marais salants. C'est l'étape nature de l'île, surtout pour l'observation des oiseaux."
+      },
+      {
+        heading: "8. Une boucle à vélo",
+        body: "Une boucle nord populaire relie Rivedoux-Plage, La Flotte, Saint-Martin, Ars, Les Portes-en-Ré puis le phare des Baleines, soit environ 45 km. Comptez une journée, avec des pauses."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 650 € par mois dans notre estimation, contre 1 100 € à La Rochelle et 660 € à Rochefort. L'île convient à qui vient pour le paysage et le vélo, avec les prix d'une destination haut de gamme."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "L'île se rejoint par un pont depuis La Rochelle. Une journée suffit pour Saint-Martin et le phare, deux pour la boucle complète. La voiture sature en été : le vélo reste l'option la plus simple."
+      }
+    ],
+    relatedCities: [
+      "ile-de-re",
+      "la-rochelle",
+      "rochefort"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-la-rochelle-2026"
+    ],
+    tags: [
+      "10 choses à faire à l'île de Ré",
+      "activités île de Ré 2026",
+      "que faire en Charente-Maritime",
+      "phare des Baleines"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-hendaye-2026",
+    title: "10 choses à faire à Hendaye",
+    metaTitle: "10 choses à faire à Hendaye",
+    metaDesc: "Château d'Abbadia, corniche, Deux Jumeaux, Bidassoa : 10 choses à faire à Hendaye, au Pays basque.",
+    category: "tourisme",
+    emoji: "🌊",
+    readMinutes: 4,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Hendaye compte environ 17 000 habitants dans notre fiche et touche la frontière espagnole sur la Bidassoa. Ce guide dit quoi voir en une journée ou deux : le château d'Abbadia, la corniche, la plage et la baie de Txingudi.",
+    sections: [
+      {
+        heading: "1. Le château d'Abbadia",
+        body: "C'est le château-observatoire construit entre 1864 et 1879 par Viollet-le-Duc, classé monument historique et labellisé Maison des Illustres. Il est ouvert au public sous plusieurs formules (visite libre, guidée ou prestige), certaines sur réservation."
+      },
+      {
+        heading: "2. Le domaine d'Abbadia",
+        body: "Il s'étend sur 66 hectares autour du château et relève du Conservatoire du littoral. On y marche entre landes et falaises, avec la mer en contrebas."
+      },
+      {
+        heading: "3. Le sentier du littoral",
+        body: "Il longe la corniche et offre des vues sur les rochers des Deux Jumeaux. Le sentier reste étroit par endroits : de bonnes chaussures s'imposent."
+      },
+      {
+        heading: "4. Les Deux Jumeaux",
+        body: "Deux rochers au large, visibles depuis la pointe Sainte-Anne et le sentier. Ils marquent l'extrémité de la plage."
+      },
+      {
+        heading: "5. La Grande Plage",
+        body: "Une plage de sable qui s'étend entre la Bidassoa et les Deux Jumeaux. C'est le lieu de convivialité de la ville en été."
+      },
+      {
+        heading: "6. La baie de Txingudi",
+        body: "C'est l'estuaire de la Bidassoa, côté fleuve. Hendaye y fait face à la rive espagnole : la frontière se traverse sans formalité habituelle, mais emportez vos papiers d'identité."
+      },
+      {
+        heading: "7. L'île des Faisans",
+        body: "Petite île fluviale de la baie de Txingudi, aussi appelée île de la Conférence. On la regarde depuis la berge : c'est un lieu d'histoire, pas une destination à visiter."
+      },
+      {
+        heading: "8. La baignade",
+        body: "Respectez les drapeaux et les zones surveillées : l'océan est puissant sur cette côte. Hors saison, les postes de secours sont généralement fermés."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 130 € par mois dans notre estimation, contre 1 200 € à Bayonne et 1 400 € à Biarritz. Hendaye convient à qui veut la côte basque sans les prix de Biarritz, avec l'Espagne à quelques minutes."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Comptez une demi-journée pour Abbadia et le sentier, une autre pour la plage et la baie. Réservez le château à l'avance en saison."
+      }
+    ],
+    relatedCities: [
+      "hendaye",
+      "bayonne",
+      "biarritz"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-biarritz-2026"
+    ],
+    tags: [
+      "10 choses à faire à Hendaye",
+      "activités Hendaye 2026",
+      "que faire au Pays basque",
+      "château d'Abbadia Hendaye"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-sanary-sur-mer-2026",
+    title: "10 choses à faire à Sanary-sur-Mer",
+    metaTitle: "10 choses à faire à Sanary-sur-Mer",
+    metaDesc: "Port, pointus, tour romane, Notre-Dame-de-Pitié, exilés allemands : 10 choses à faire à Sanary-sur-Mer, dans le Var.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 4,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Sanary-sur-Mer compte environ 17 000 habitants dans notre fiche, entre Bandol et Toulon. Son port d'une centaine de pointus est classé parmi les plus beaux de France. Ce guide dit quoi faire en une journée, du marché du mercredi à la chapelle sur la colline.",
+    sections: [
+      {
+        heading: "1. Le port et les pointus",
+        body: "Il abrite une centaine de pointus colorés, dont certains datent de 1895. La promenade sur les quais est le cœur de la visite."
+      },
+      {
+        heading: "2. Le marché du mercredi matin",
+        body: "Il se tient sur le port. Il a été récompensé « plus beau marché de France » en 2018. Arrivez tôt : en saison, il est vite saturé."
+      },
+      {
+        heading: "3. La tour romane et le musée Frédéric-Dumas",
+        body: "La tour domine le port et abrite depuis 1994 le musée Frédéric-Dumas, consacré à l'archéologie sous-marine et aux équipements de plongée. Les sources divergent sur la date de la tour : elle n'est pas aussi ancienne que son surnom le laisse croire."
+      },
+      {
+        heading: "4. La chapelle Notre-Dame-de-Pitié",
+        body: "Construite vers 1560 sur les hauteurs, elle offre une vue sur la baie et conserve de nombreux ex-voto de marins. Elle a servi de refuge contre les incursions barbaresques."
+      },
+      {
+        heading: "5. Les exilés allemands des années 1930",
+        body: "Thomas Mann, Brecht, Feuchtwanger, Franz Werfel et Alma Mahler comptent parmi les écrivains et artistes qui ont vécu à Sanary dans les années 1930. L'office de tourisme propose des parcours pour repérer leurs villas."
+      },
+      {
+        heading: "6. La baie de Portissol",
+        body: "Un lieu de baignade cité dans les itinéraires d'une journée. À combiner avec le coucher de soleil sur la baie."
+      },
+      {
+        heading: "7. Le sentier du littoral",
+        body: "Il longe la côte et alterne criques et vues sur la baie. Les itinéraires exacts figurent sur le site de l'office de tourisme."
+      },
+      {
+        heading: "8. Le jardin exotique de Sanary-Bandol",
+        body: "Les sources le citent parmi les sorties de la région. Vérifiez les conditions d'accès et les horaires auprès de l'office de tourisme."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 200 € par mois dans notre estimation, contre 1 050 € à Toulon et 1 170 € à La Seyne-sur-Mer. Sanary convient à qui veut un port de village et la Méditerranée, avec des loyers de côte varoise."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée suffit : port, marché, tour, chapelle. Ajoutez une demi-journée de plage ou de sentier. Le centre se fait à pied, mais le stationnement est compliqué en été."
+      }
+    ],
+    relatedCities: [
+      "sanary-sur-mer",
+      "toulon",
+      "la-seyne-sur-mer"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-toulon-2026"
+    ],
+    tags: [
+      "10 choses à faire à Sanary-sur-Mer",
+      "activités Sanary-sur-Mer 2026",
+      "que faire dans le Var",
+      "tour romane Sanary-sur-Mer"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-albertville-2026",
+    title: "10 choses à faire à Albertville",
+    metaTitle: "10 choses à faire à Albertville",
+    metaDesc: "Conflans, Maison Rouge, héritage des JO 1992, Halle olympique : 10 choses à faire à Albertville, en Savoie.",
+    category: "tourisme",
+    emoji: "🏔️",
+    readMinutes: 4,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Albertville compte environ 19 000 habitants dans notre fiche. Elle est née de la réunion de quatre bourgs et reste connue pour les Jeux olympiques d'hiver de 1992. Ce guide dit quoi voir en une journée, de la cité médiévale de Conflans aux équipements olympiques.",
+    sections: [
+      {
+        heading: "1. Conflans, la cité médiévale",
+        body: "Perchée au-dessus de la ville, Conflans est le cœur patrimonial d'Albertville, labellisée Ville d'art et d'histoire. Les rues sont pavées et pentues : prévoyez de bonnes chaussures."
+      },
+      {
+        heading: "2. La Maison Rouge",
+        body: "Cet ensemble en briques rouges, au cœur de Conflans, abrite un musée qui retrace l'histoire de la région et de la ville. Les sources divergent sur sa date de construction, on ne l'avance donc pas."
+      },
+      {
+        heading: "3. Les rues de Conflans",
+        body: "Les façades des XVIIe et XVIIIe siècles s'apprécient à pied, sans billet. Comptez une heure de promenade."
+      },
+      {
+        heading: "4. La Maison des Jeux olympiques",
+        body: "Elle présente les coulisses des Jeux de 1992, avec des équipements d'époque, des médailles et la flamme olympique."
+      },
+      {
+        heading: "5. La Halle olympique",
+        body: "Elle a accueilli le patinage artistique et le patinage de vitesse pendant les Jeux. Elle sert aujourd'hui de salle de concerts, de compétitions et d'expositions toute l'année."
+      },
+      {
+        heading: "6. Les Jeux de 1992 dans le paysage",
+        body: "Les sites des épreuves se répartissent sur plusieurs communes de Savoie. Albertville en reste la ville-hôte et le point de départ naturel pour les rejoindre."
+      },
+      {
+        heading: "7. La nature autour",
+        body: "Les gorges et les sentiers aménagés des environs attirent les amateurs de randonnée et de canyoning. Ces sites sont hors commune : voiture ou transports, selon la saison."
+      },
+      {
+        heading: "8. Une porte d'entrée vers les stations",
+        body: "Albertville est le point de passage vers les vallées voisines et leurs stations. Comptez-la comme une base peu chère plutôt que comme une station."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 000 € par mois dans notre estimation, contre 1 100 € à Chambéry et 1 450 € à Annecy. Albertville convient à qui veut les Alpes sans les loyers des grandes villes voisines, mais moins à qui cherche une vie culturelle dense."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée suffit pour Conflans et les musées. Ajoutez une journée de nature pour les environs. Vérifiez l'ouverture des musées avant de monter à Conflans."
+      }
+    ],
+    relatedCities: [
+      "albertville",
+      "chambery",
+      "annecy"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-chambery-2026"
+    ],
+    tags: [
+      "10 choses à faire à Albertville",
+      "activités Albertville 2026",
+      "que faire en Savoie",
+      "Conflans cité médiévale Albertville"
+    ]
+  },
+  {
     slug: "acheter-appartement-moins-100000-euros-villes-2026",
     title: "Acheter un appartement à moins de 100 000 € pour y habiter : 108 villes, et ce que le prix cache",
     metaTitle: "Appartement à moins de 100 000 € : 108 villes en 2026",

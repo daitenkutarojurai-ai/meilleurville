@@ -10782,6 +10782,36 @@
       "emoji": "⌚"
     },
     {
+      "slug": "10-choses-a-faire-a-hossegor-2026",
+      "title": "10 choses à faire à Hossegor",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "10-choses-a-faire-a-fontenay-le-comte-2026",
+      "title": "10 choses à faire à Fontenay-le-Comte",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-l-ile-de-re-2026",
+      "title": "10 choses à faire à l'île de Ré",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-hendaye-2026",
+      "title": "10 choses à faire à Hendaye",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "10-choses-a-faire-a-sanary-sur-mer-2026",
+      "title": "10 choses à faire à Sanary-sur-Mer",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-albertville-2026",
+      "title": "10 choses à faire à Albertville",
+      "emoji": "🏔️"
+    },
+    {
       "slug": "acheter-appartement-moins-100000-euros-villes-2026",
       "title": "Acheter un appartement à moins de 100 000 € pour y habiter : 108 villes, et ce que le prix cache",
       "emoji": "🔑"
@@ -11714,6 +11744,11 @@
       "count": 4
     },
     {
+      "slug": "que-faire-dans-le-var",
+      "label": "que faire dans le Var",
+      "count": 4
+    },
+    {
       "slug": "que-faire-en-martinique",
       "label": "que faire en Martinique",
       "count": 4
@@ -12149,11 +12184,6 @@
       "count": 3
     },
     {
-      "slug": "que-faire-dans-le-var",
-      "label": "que faire dans le Var",
-      "count": 3
-    },
-    {
       "slug": "que-faire-dans-le-vaucluse",
       "label": "que faire dans le Vaucluse",
       "count": 3
@@ -12164,6 +12194,11 @@
       "count": 3
     },
     {
+      "slug": "que-faire-dans-les-landes",
+      "label": "que faire dans les Landes",
+      "count": 3
+    },
+    {
       "slug": "que-faire-en-guadeloupe",
       "label": "que faire en Guadeloupe",
       "count": 3
@@ -12171,6 +12206,11 @@
     {
       "slug": "que-faire-en-haute-savoie",
       "label": "que faire en Haute-Savoie",
+      "count": 3
+    },
+    {
+      "slug": "que-faire-en-vendee",
+      "label": "que faire en Vendée",
       "count": 3
     },
     {
