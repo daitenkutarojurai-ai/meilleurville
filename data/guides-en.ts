@@ -20088,6 +20088,247 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "car-free-living-in-orleans-2026",
+    title: "Car-Free Living in Orléans 2026: Two Tram Lines and a €700 T2",
+    metaTitle: "Car-Free Living in Orléans 2026: Tram A and B, Tao Network",
+    metaDesc: "Orléans has two tram lines (2000 and 2012) and a €700 T2 on our rent estimate, the same as Tours. Transport score 6.4/10. Tao network, limits, verdict.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Living in Orléans without a car works along the axis of its two tram lines, and a two-room flat (T2) costs €700 a month on our rent estimate, exactly as in Tours. Our transport score is only 6.4/10, ranked 200th of 593 in a tie with 47 other cities, against 7.0/10 for Tours: for the same rent, service is a notch lower. Orléans suits people who live and work along the tram, less so those on the outskirts.",
+    sections: [
+      {
+        heading: "What does the Tao network cover in Orléans?",
+        body: "The Tao network has two tram lines: line A, opened in 2000, crosses the urban area from north (Les Aubrais) to south (La Source hospital), and line B opened in 2012. They cross in the centre and are backed up by buses. Sources disagree on the exact length of each line, so we give none. Tram A also serves Olivet, a neighbouring commune of the urban area.",
+      },
+      {
+        heading: "How much does housing cost in Orléans?",
+        body: "Our rent estimate gives €510 a month for a studio, €700 for a T2 and €930 for a T3 (three rooms). The median apartment price is €2,538 per m² across 2,419 sales in 2024-2025 (source: our price page, DVF notarial sales). Tours is at €2,827 per m² and Angers at €3,143: on 50 m², buying in Orléans rather than Tours saves about €14,450.",
+      },
+      {
+        heading: "A mid-sized city on a slight rise",
+        body: "Orléans had 116,344 inhabitants in 2022, against 114,782 in 2016, up 1.4% (source: INSEE, 2022 census). Median living standard is €21,370 a year, with a 22% poverty rate (source: INSEE, Filosofi 2021). Our nature score is 4.8/10 and our safety score 5.1/10, middling levels to check by neighbourhood.",
+      },
+      {
+        heading: "Orléans or Tours: what do you gain and lose?",
+        body: "Tours scores 7.0/10 on transport, Orléans 6.4/10. The two T2s are both €700, and the T3 is €10 cheaper in Orléans (€930 against €940): rent does not separate the cities, service does, in Tours's favour. Angers also scores 7.0/10, for a €750 T2: €50 a month more than Orléans, or €600 a year.",
+      },
+      {
+        heading: "The limits without a car in Orléans",
+        body: "At 6.4/10, part of the urban area depends on buses, and two tram lines cover only two axes. Before signing, measure on foot the distance from the flat to a tram stop, and check the hours of the bus line serving your workplace. Outings into the countryside are easier with another mode of transport: our nature score is 4.8/10.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €510 studio is affordable and the tram is enough if the home is on line A or B. Young professional: the €700 T2 leaves a moderate housing budget, provided the job is on the axis. Family: a €930 T3 is reasonable, but school runs off the axis quickly make you miss the car. If service comes first, Tours or Angers score better.",
+      },
+    ],
+    relatedCities: ["orleans","tours","angers"],
+    tags: ["car-free Orléans","Orléans tram line A line B","Tao network Orléans","living in Orléans without a car","centre-val-de-loire"],
+  },
+  {
+    slug: "car-free-living-in-reims-2026",
+    title: "Car-Free Living in Reims 2026: Tram A and B and a €680 T2",
+    metaTitle: "Car-Free Living in Reims 2026: Tram A and B, Rents, Limits",
+    metaDesc: "Reims has had two tram lines since 2011 and a €680 T2 on our rent estimate. Transport score 6.4/10, 200th of 593. Compared with Nancy and Dijon.",
+    category: "lifestyle",
+    emoji: "🚊",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Reims is the biggest city of this batch (178,478 inhabitants in 2022), and its two tram lines, A and B, opened in April 2011, cover about 11 km: enough to do without a car along the axis, not across the whole urban area. A two-room flat (T2) costs €680 a month on our rent estimate, against €710 in Nancy and €720 in Dijon. Our transport score is 6.4/10, ranked 200th of 593 in a tie with 47 other cities, 0.6 points below Nancy and Dijon.",
+    sections: [
+      {
+        heading: "What does the Reims tram cover?",
+        body: "The Reims tram has two lines, A and B, sharing a common trunk in the centre and splitting at the ends. Line B runs out to Bezannes, home to the Champagne-Ardenne TGV station. The network, about 11 km with 23 or 24 stops depending on the source, uses Citadis trams; about 2 km of the historic centre run without overhead wires, on ground-level power. The rest of the urban area relies on buses.",
+      },
+      {
+        heading: "How much does housing cost in Reims?",
+        body: "Our rent estimate gives €490 a month for a studio, €680 for a T2 and €900 for a T3 (three rooms). The median apartment price is €2,621 per m² across 3,575 sales in 2024-2025 (source: our price page, DVF notarial sales). Nancy is at €2,282 per m² and Dijon at €2,625: buying in Reims costs €339 per m² more than in Nancy.",
+      },
+      {
+        heading: "A big city that is losing inhabitants",
+        body: "Reims had 178,478 inhabitants in 2022, against 183,113 in 2016, down 2.5% (source: INSEE, 2022 census). Median living standard is €20,210 a year, with a 24% poverty rate (source: INSEE, Filosofi 2021). Our culture score is 7.6/10, the city's strong point, and our nature score 4.2/10, the lowest of the batch: plan another way to get around for trips into open country.",
+      },
+      {
+        heading: "Reims, Nancy or Dijon: what does service change?",
+        body: "Nancy and Dijon score 7.0/10 on transport, Reims 6.4/10. On a T2, Reims saves €30 a month against Nancy (€360 a year) and €40 against Dijon (€480 a year). In return, service is thinner: two tram lines crossing in the centre. For a job off the axis, the rent savings do not always make up for the time lost changing lines.",
+      },
+      {
+        heading: "The limits without a car in Reims",
+        body: "At 6.4/10, service is decent but not a mesh. The tram follows mainly one axis, and neighbourhoods away from its stops depend on buses. Our safety score is 5.1/10, a middling level: compare the streets around your stop before renting. Check on foot the distance between your home and a station.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €490 studio and a tram on the university axis make a car unnecessary if the home is near a stop. Working couple: the €680 T2 is the cheapest of the three cities compared. Family: a €900 T3 is affordable, but school buses away from the axis weigh. Frequent traveller: line B to the Bezannes TGV station is a concrete asset.",
+      },
+    ],
+    relatedCities: ["reims","nancy","dijon"],
+    tags: ["car-free Reims","Reims tram line A line B","Citura Reims","living in Reims without a car","grand-est"],
+  },
+  {
+    slug: "car-free-living-in-nancy-2026",
+    title: "Car-Free Living in Nancy 2026: Trolleybus T1 and a €710 T2",
+    metaTitle: "Car-Free Living in Nancy 2026: Trolleybus T1, Stan, Rents",
+    metaDesc: "Nancy replaced its TVR with a T1 trolleybus in April 2025. Transport score 7.0/10, €710 T2 on our rent estimate. Stan network, limits, with Metz and Reims.",
+    category: "lifestyle",
+    emoji: "🚎",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Nancy is the only city of this batch to have dropped its rubber-tyred tram: the TVR stopped on 12 March 2023 and a double-articulated trolleybus on line T1 replaced it in April 2025. Our transport score is 7.0/10, ranked 131st of 593 in a tie with 43 other cities, and a two-room flat (T2) costs €710 a month on our rent estimate. The city works well without a car, as long as you accept a trolleybus rather than a rail tram.",
+    sections: [
+      {
+        heading: "Which Stan network in Nancy since the TVR?",
+        body: "The Stan network rests on line T1, a double-articulated trolleybus opened in April 2025 to replace the TVR, stopped on 12 March 2023, and on bus lines. The plan to convert to a conventional tram was dropped, with sources citing cost and steep slopes. We give no frequency or operating hours: check the Stan website before choosing a home.",
+      },
+      {
+        heading: "How much does housing cost in Nancy?",
+        body: "Our rent estimate gives €510 a month for a studio, €710 for a T2 and €950 for a T3 (three rooms). The median apartment price is €2,282 per m² across 3,304 sales in 2024-2025 (source: our price page, DVF notarial sales). Reims is at €2,621 per m².",
+      },
+      {
+        heading: "A stable, student and cultural city",
+        body: "Nancy had 104,387 inhabitants in 2022, against 104,592 in 2016, down 0.2%, an almost stable population (source: INSEE, 2022 census). Median living standard is €22,360 a year, with a 22% poverty rate (source: INSEE, Filosofi 2021). Our culture score is 7.6/10 and our schools score 7.4/10: you can live here without a car and without giving up amenities.",
+      },
+      {
+        heading: "Nancy, Metz or Reims: which service?",
+        body: "Nancy scores 7.0/10 on transport, Metz 6.7/10 and Reims 6.4/10. A T2 is €710 in Nancy, €680 in Metz and €680 in Reims: Nancy is the best rated but also the dearest of the three, by €30 a month, or €360 a year. If the T1 trolleybus serves your daily trip the difference is justified; otherwise Metz or Reims give a lighter housing budget.",
+      },
+      {
+        heading: "The limits without a car in Nancy",
+        body: "The T1 trolleybus is recent: its operating record is not yet established. Trips off the axis go by bus, and the topography of the Brabois plateau and the hospital forces changes. Our nature score is 4.8/10 and our safety score 5.1/10, middling levels to check by neighbourhood.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €510 studio and a home on the T1 axis are enough to do without a car. Working couple: the €710 T2 is fair for the service you get. Family: a €950 T3 stays affordable and the 7.4/10 schools score is an asset. If you want a rail tram, look at Dijon or Angers.",
+      },
+    ],
+    relatedCities: ["nancy","metz","reims"],
+    tags: ["car-free Nancy","Nancy trolleybus T1","Stan Nancy","Nancy TVR replacement","grand-est"],
+  },
+  {
+    slug: "car-free-living-in-saint-etienne-2026",
+    title: "Car-Free Living in Saint-Étienne 2026: France's Oldest Tram, €580 T2",
+    metaTitle: "Car-Free Living in Saint-Étienne 2026: Tram T1 T2 T3, Rents",
+    metaDesc: "Saint-Étienne runs France's oldest tram, on three lines, and a €580 T2 on our rent estimate. Transport score 6.7/10. Compared with Lyon.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Saint-Étienne has the lowest rent of this batch, €580 for a two-room flat (T2) on our rent estimate, and a tram running without a break since 1881, making it the oldest network still in operation in France. Our transport score is 6.7/10, ranked 185th of 593 in a tie with 12 other cities. Against Lyon, where a T2 is €1,000, the gap is €420 a month: the city is a genuine budget choice, with safety to look at closely.",
+    sections: [
+      {
+        heading: "What does the Saint-Étienne tram cover?",
+        body: "The STAS network, run by Transdev, has three tram lines: T1 between Hôpital Nord and Solaure, T2 between Cité du Design and Châteaucreux, T3 between Hôpital Nord and Bellevue (opened in 2010). An extension of T3 towards Roger Rocher was announced in 2019, and its progress is not verified here. The tram serves the centre, Châteaucreux station and the Cité du Design.",
+      },
+      {
+        heading: "How much does housing cost in Saint-Étienne?",
+        body: "Our rent estimate gives €420 a month for a studio, €580 for a T2 and €770 for a T3 (three rooms), the lowest of this batch. The median apartment price is €1,197 per m² across 4,735 sales in 2024-2025 (source: our price page, DVF notarial sales). Lyon is at €4,475 per m²: on 50 m², the gap exceeds €163,000. Clermont-Ferrand is at €2,105 per m².",
+      },
+      {
+        heading: "A stable but modest city",
+        body: "Saint-Étienne had 172,569 inhabitants in 2022, against 171,924 in 2016, up 0.4% (source: INSEE, 2022 census). Median living standard is €19,010 a year, with a 28% poverty rate (source: INSEE, Filosofi 2021). Our cost-of-living score is 7.1/10, the best of the batch, and our nature score 5.9/10.",
+      },
+      {
+        heading: "Saint-Étienne, Lyon or Clermont-Ferrand?",
+        body: "Lyon scores 9.0/10 on transport (1st, tied with 22 other cities), Saint-Étienne 6.7/10 and Clermont-Ferrand 6.4/10. A T2 is €1,000 in Lyon, €580 in Saint-Étienne and €680 in Clermont-Ferrand: Saint-Étienne saves €100 a month against Clermont-Ferrand (€1,200 a year) and €420 against Lyon (€5,040 a year). Lyon's service is far better, the cost incomparable.",
+      },
+      {
+        heading: "The limits without a car in Saint-Étienne",
+        body: "Our safety score is 4.3/10, the lowest of the batch along with Avignon: visit the neighbourhood at different times of day before renting. The city is very spread out and hilly, at 520 m above sea level, and three tram lines do not cover the whole urban area. Our remote-work score is only 4.8/10, a point to check if your job is remote.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €420 studio is the lowest of this batch and the tram serves the Cité du Design. Tight budget: the €580 T2 leaves a margin Lyon cannot. Family: a €770 T3 is affordable, but a 4.3/10 safety score means choosing the neighbourhood carefully. If service matters more than rent, look at Lyon or Grenoble.",
+      },
+    ],
+    relatedCities: ["saint-etienne","lyon","clermont-ferrand"],
+    tags: ["car-free Saint-Étienne","Saint-Étienne tram T1 T2 T3","STAS Saint-Étienne","living in Saint-Étienne without a car","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "car-free-living-in-besancon-2026",
+    title: "Car-Free Living in Besançon 2026: Tram T1 and T2 and a €680 T2",
+    metaTitle: "Car-Free Living in Besançon 2026: Ginko Tram, Rents, Nature",
+    metaDesc: "Besançon has had two tram lines since 2014 and the best nature score of the batch (6.4/10). €680 T2 on our rent estimate. Ginko network, limits, with Dijon.",
+    category: "lifestyle",
+    emoji: "🚃",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Besançon has two tram lines, T1 and T2, opened on 30 August 2014 over nearly 14.5 km, and a two-room flat (T2) costs €680 a month on our rent estimate, against €720 in Dijon. Our transport score is 7.0/10, ranked 131st of 593 in a tie with 43 other cities, as is Dijon. With a nature score of 6.4/10, it is the city of the batch where you can best combine a car-free life with access to the outdoors.",
+    sections: [
+      {
+        heading: "What does the Ginko tram cover in Besançon?",
+        body: "The Ginko network has two tram lines, T1 and T2, sharing a common trunk between Hauts du Chazal and Micaud, with a tram every five minutes at peak times according to sources. The network is about 14.5 km long (one source says 14.2 km) and opened on 30 August 2014. The shared trunk serves the city centre and the main hubs of the city.",
+      },
+      {
+        heading: "How much does housing cost in Besançon?",
+        body: "Our rent estimate gives €490 a month for a studio, €680 for a T2 and €900 for a T3 (three rooms). The median apartment price is €2,178 per m² across 3,099 sales in 2024-2025 (source: our price page, DVF notarial sales). Dijon is at €2,625 per m²: on 50 m², buying in Besançon saves about €22,350.",
+      },
+      {
+        heading: "A city that is gaining inhabitants",
+        body: "Besançon had 120,057 inhabitants in 2022, against 116,466 in 2016, up 3.1% (source: INSEE, 2022 census). Median living standard is €20,680 a year, with a 23% poverty rate (source: INSEE, Filosofi 2021). Our quality-of-life score is 6.6/10, our safety score 5.7/10 and our schools score 7.4/10: solid on almost every axis.",
+      },
+      {
+        heading: "Besançon or Dijon: which to choose?",
+        body: "Both cities score 7.0/10 on transport. A T2 is €680 in Besançon and €720 in Dijon, so €40 less a month, €480 a year; a T3 is €900 against €950. For equal service, Besançon is cheaper and greener (6.4/10 on nature against 5.0/10 in Dijon). Dijon is the bigger city (159,941 inhabitants): compare real commutes before choosing.",
+      },
+      {
+        heading: "The limits without a car in Besançon",
+        body: "Besançon sits on a hilly site, in a loop of the Doubs river, at 250 m above sea level; neighbourhoods on the heights can mean a climb on foot or a bus. Two tram lines mainly form one axis, and the Haut-Doubs and the surrounding countryside are easier to explore with another mode of transport. Check the distance from your home to a stop.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €490 studio and the tram on the central axis are enough. Working couple: the €680 T2 leaves a moderate housing budget. Family: a €900 T3 is reasonable and the 7.4/10 schools score is a real asset. Nature lover: Besançon is the best option of the batch.",
+      },
+    ],
+    relatedCities: ["besancon","dijon","belfort"],
+    tags: ["car-free Besançon","Besançon tram T1 T2","Ginko Besançon","living in Besançon without a car","bourgogne-franche-comte"],
+  },
+  {
+    slug: "car-free-living-in-avignon-2026",
+    title: "Car-Free Living in Avignon 2026: One Tram Line and a €750 T2",
+    metaTitle: "Car-Free Living in Avignon 2026: Tram T1, Orizo, Rents",
+    metaDesc: "Avignon has a single tram line (T1, 2019) and a €750 T2 on our rent estimate. Transport score 6.1/10, 281st of 593. Orizo network, limits, with Nîmes.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    intro: "Avignon has just one tram line, the T1, opened on 19 October 2019 over 5.2 km and 10 stops, and it is the dearest city of the batch for housing: €750 for a two-room flat (T2) on our rent estimate, against €720 in Nîmes. Our transport score is 6.1/10, ranked 281st of 593 in a tie with 19 other cities. Car-free living in Avignon is therefore limited to the centre and the T1 axis.",
+    sections: [
+      {
+        heading: "What does the Orizo tram cover in Avignon?",
+        body: "The Orizo network, serving Greater Avignon, has one tram line, the T1, linking Saint-Roch – Université des Métiers to Saint-Chamand – Plaine des Sports over 5.2 km (one source says 5.1 km). It opened with 14 Citadis trams. A second line is under study, but sources disagree on its route and date, so we do not count it.",
+      },
+      {
+        heading: "How much does housing cost in Avignon?",
+        body: "Our rent estimate gives €540 a month for a studio, €750 for a T2 and €1,000 for a T3 (three rooms). The median apartment price is €2,321 per m² across 1,967 sales in 2024-2025 (source: our price page, DVF notarial sales). Nîmes is at €2,106 per m², €215 less: on 50 m², the gap reaches €10,750.",
+      },
+      {
+        heading: "A stable city, but socially fragile",
+        body: "Avignon had 91,760 inhabitants in 2022, against 92,378 in 2016, down 0.7% (source: INSEE, 2022 census). Median living standard is €17,690 a year, with a 33% poverty rate (source: INSEE, Filosofi 2021). Our culture score is 9.0/10, the highest of this batch, and our safety score 4.3/10.",
+      },
+      {
+        heading: "Avignon or Nîmes: what is the difference?",
+        body: "Avignon and Nîmes both score 6.1/10 on transport. A T2 is €750 in Avignon and €720 in Nîmes, so €30 more a month, €360 a year; a T3 is €1,000 against €960. For equal service, Nîmes is a little cheaper and bigger (150,444 inhabitants against 91,760), but its safety score is lower still, at 3.9/10.",
+      },
+      {
+        heading: "The limits without a car in Avignon",
+        body: "One tram line means one axis: a home or job far from the T1 depends on buses. The surrounding Provence, the Luberon and its villages are hard to visit without a car. With a safety score of 4.3/10, compare the streets around your stop before renting.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €540 studio is fine if the home is near the T1 and the university. Working couple: the €750 T2 is high for the service. Family: a €1,000 T3 is the dearest of the batch, and the 5.3/10 schools score invites comparison. Culture lover: Avignon is unbeatable, at 9.0/10, if you stay in the centre.",
+      },
+    ],
+    relatedCities: ["avignon","nimes","marseille"],
+    tags: ["car-free Avignon","Avignon tram T1","Orizo Avignon","living in Avignon without a car","provence-alpes-cote-d-azur"],
+  },
+
+  {
     slug: "living-in-ile-de-france-2026",
     title: "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
     metaTitle: "Living in Île-de-France: Expat Guide 2026",

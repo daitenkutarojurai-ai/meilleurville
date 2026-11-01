@@ -6157,6 +6157,36 @@
       "emoji": "🚇"
     },
     {
+      "slug": "car-free-living-in-orleans-2026",
+      "title": "Car-Free Living in Orléans 2026: Two Tram Lines and a €700 T2",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "car-free-living-in-reims-2026",
+      "title": "Car-Free Living in Reims 2026: Tram A and B and a €680 T2",
+      "emoji": "🚊"
+    },
+    {
+      "slug": "car-free-living-in-nancy-2026",
+      "title": "Car-Free Living in Nancy 2026: Trolleybus T1 and a €710 T2",
+      "emoji": "🚎"
+    },
+    {
+      "slug": "car-free-living-in-saint-etienne-2026",
+      "title": "Car-Free Living in Saint-Étienne 2026: France's Oldest Tram, €580 T2",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "car-free-living-in-besancon-2026",
+      "title": "Car-Free Living in Besançon 2026: Tram T1 and T2 and a €680 T2",
+      "emoji": "🚃"
+    },
+    {
+      "slug": "car-free-living-in-avignon-2026",
+      "title": "Car-Free Living in Avignon 2026: One Tram Line and a €750 T2",
+      "emoji": "🚋"
+    },
+    {
       "slug": "living-in-ile-de-france-2026",
       "title": "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
       "emoji": "🏙️"
@@ -10071,7 +10101,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 86
+      "count": 87
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -10091,7 +10121,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 74
+      "count": 76
     },
     {
       "slug": "solo-travel",
@@ -10191,17 +10221,17 @@
     {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
+      "count": 35
+    },
+    {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
       "count": 34
     },
     {
       "slug": "working-in-france",
       "label": "working in france",
       "count": 34
-    },
-    {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
-      "count": 33
     },
     {
       "slug": "job-market-france",
@@ -10211,7 +10241,7 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 28
+      "count": 29
     },
     {
       "slug": "budget",
