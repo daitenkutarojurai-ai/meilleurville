@@ -57513,6 +57513,258 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["leaving limoges", "limousin", "bordeaux", "poitiers", "limoges alternatives", "relocation"],
   },
   {
+    slug: "leaving-bayonne-where-to-go-2026",
+    title: "Leaving Bayonne: Bordeaux, Pau, the Landes or across the border in Spain",
+    metaTitle: "Leaving Bayonne 2026: Bordeaux, Pau, Landes, Spain",
+    metaDesc:
+      "Bayonne scores 5.9/10 with a T3 near €1,200 and about €4,500/m² to buy, as dear as Bordeaux. Where locals priced out go: Pau, the Landes, Irun.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 5,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Bayonne, the Basque Country's river city, scores 5.9/10 on our site. A T3 (three-room flat, two bedrooms) costs around €1,200 a month and buying runs at about €4,500/m², the same as Bordeaux. Next door, Biarritz is higher still: a T3 near €1,400 and about €6,500/m². The pressure comes from tourism, scarce land and a flood of furnished holiday lets, and it pushes some locals, especially first-time buyers, out of the Bayonne-Anglet-Biarritz area.",
+    sections: [
+      {
+        heading: "Why do people leave Bayonne?",
+        body: "Housing: Bayonne now costs as much as a city of 250,000 people without the job market of one, and long-term rentals compete with seasonal lets. Summer: the coast fills up in July and August, traffic and beaches included. Jobs: outside the public sector, health and tourism, the market for senior private-sector roles is narrower than in Bordeaux or Toulouse.",
+      },
+      {
+        heading: "Bordeaux: the career move at the same price",
+        body: "Bordeaux scores 6.9/10, with a T3 around €1,200 and about €4,500/m² to buy, so on our figures housing costs the same as Bayonne. What you gain is a much deeper job market and a big-city cultural scene, about two hours away by train or car. What you lose is the Basque identity and a sea that is now an hour away.",
+      },
+      {
+        heading: "Pau: the family-with-a-mortgage trade-off",
+        body: "Pau scores 6.4/10, with a T3 around €900 and about €2,400/m² to buy, roughly half Bayonne's purchase price. It has an energy and aerospace job base, a mild climate and the Pyrenees on the skyline, about an hour away by car. You give up the beach; you gain living space. It is the classic move for families who want to buy.",
+      },
+      {
+        heading: "The Landes: Dax and Mont-de-Marsan",
+        body: "Dax scores 5.4/10, with a T3 around €780 and about €2,200/m² to buy; it is a thermal-spa town about 50 minutes away. Mont-de-Marsan, the Landes prefecture (the administrative capital of the département), scores 5.6/10 with a T3 near €740 and about €1,900/m². Both are cheap and easy to live in, and both mean a car. The Landes coast (Capbreton, Hossegor) is surf country at prices close to Bayonne's.",
+      },
+      {
+        heading: "Across the border: Irun and San Sebastián",
+        body: "The Spanish border is about 30 km away. Some locals move to Irun for lower rents and keep working in France, which is possible but less common than the Swiss pattern. We hold no Spanish price data, so check rents yourself. Before you go, settle three things: which country you are tax resident in, how your health cover works, and whether your employer is fine with it.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Bordeaux gains careers at no extra housing cost. Pau gains space and a cheaper mortgage. The Landes keep you near the coast with calmer summers. If you are a remote worker and can live with the summer crowds, staying is defensible, but buying at today's prices on a tight credit is the risk to avoid.",
+      },
+    ],
+    relatedCities: ["bayonne", "biarritz", "bordeaux", "pau", "dax", "mont-de-marsan"],
+    tags: ["leaving bayonne", "basque country", "bordeaux", "pau", "bayonne alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-perpignan-where-to-go-2026",
+    title: "Leaving Perpignan: Montpellier, Toulouse, Narbonne, Barcelona or the Catalan hills",
+    metaTitle: "Leaving Perpignan 2026: Montpellier, Toulouse, Narbonne",
+    metaDesc:
+      "Perpignan scores 4.7/10 with a T3 near €870 and about €2,300/m² to buy. Jobs and safety push people out. Where they go: Montpellier, Toulouse, Barcelona.",
+    category: "city-guide",
+    emoji: "🌞",
+    readMinutes: 5,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Perpignan has the sun, the Spanish border about 30 km south and the Mediterranean 15 km east. It scores 4.7/10 on our site, with a T3 (three-room flat, two bedrooms) around €870 and buying at about €2,300/m². About 122,000 people live in the city. The usual reasons for leaving are a narrow job market, particularly for graduates, and a reputation, with some districts carrying a weak perception of safety.",
+    sections: [
+      {
+        heading: "Why do people leave Perpignan?",
+        body: "Jobs: the economy leans on public administration, tourism, fruit and wine, and graduates tend to leave. Safety perception: some central and northern districts are cited by people who moved to the suburbs or out of the area. Image: the city's reputation weighs on its attractiveness. Perpignan's 4.7/10 is among the lower scores of the large cities on our site, and the low price reflects that.",
+      },
+      {
+        heading: "Montpellier: the natural next step",
+        body: "Montpellier scores 5.6/10, with a T3 around €1,150 (32% more than Perpignan) and about €3,900/m² to buy (70% more). In return: a young, university-driven city with digital and biotech jobs and the same sunshine, about an hour and a half away. For young graduates and professionals it is the obvious move, but budget for the cost step.",
+      },
+      {
+        heading: "Toulouse: aerospace and engineering",
+        body: "Toulouse scores 6.6/10, with a T3 around €1,150 and about €4,000/m² to buy, close to Montpellier's cost. It is a large Occitan metropolis built on aerospace and space, with a deeper job market for engineers and tech profiles. It is about two hours by car, farther by train, and inland, so hotter in summer.",
+      },
+      {
+        heading: "Barcelona and Spanish Catalonia",
+        body: "A direct high-speed train links Perpignan and Barcelona in about two hours. Some remote workers and freelancers settle on the Spanish side for the city and the shared Catalan identity. We hold no Spanish price data, so check rents yourself, and sort out tax residence, healthcare and language before you move.",
+      },
+      {
+        heading: "Narbonne, Béziers and the Catalan hills",
+        body: "Narbonne scores 4.9/10, with a T3 around €920 and about €2,400/m² to buy, an hour away with Roman heritage and a rail line to both Montpellier and Toulouse. Béziers scores 4.3/10 with a T3 near €720 and about €1,500/m². Carcassonne scores 5.5/10 with a T3 near €710 and about €1,500/m². Behind the coast, Prades and Céret have a lively community and low prices, with services thinning out. Whatever you pick, a car is required and Perpignan will probably still be where you shop.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Montpellier and Toulouse pay off on careers and cost more. Narbonne keeps the climate and lowers the risk on budget. Barcelona suits mobile remote workers. If your income is not local and you like the climate, Perpignan's housing costs are low, but visit the exact district first.",
+      },
+    ],
+    relatedCities: ["perpignan", "montpellier", "toulouse", "narbonne", "beziers", "carcassonne"],
+    tags: ["leaving perpignan", "roussillon", "montpellier", "toulouse", "perpignan alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-la-rochelle-where-to-go-2026",
+    title: "Leaving La Rochelle: Bordeaux, Nantes, Niort or the Charente countryside",
+    metaTitle: "Leaving La Rochelle 2026: Bordeaux, Nantes, Niort",
+    metaDesc:
+      "La Rochelle scores 7.2/10 with a T3 near €1,100 and about €4,200/m² to buy. Prices and summer crowds push locals out. Where they go: Niort, Nantes.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 5,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "La Rochelle is a medieval port with sailing, a mild Atlantic climate and a university. It scores 7.2/10 on our site, among the better-rated mid-sized cities, and about 76,000 people live in the city. The price of that is a T3 (three-room flat, two bedrooms) around €1,100 a month and buying at about €4,200/m², plus a summer that brings far more people than the town was built for. Locals, especially first-time buyers, are pushed to the suburbs.",
+    sections: [
+      {
+        heading: "Why do people leave La Rochelle?",
+        body: "Housing: prices have climbed fast and local first-time buyers struggle to keep up. Summer: the area swells with visitors, traffic jams and beaches fill, and daily life gets harder. Jobs: beyond the university, boatbuilding and nautical industry, the port and tourism, senior private-sector roles are limited.",
+      },
+      {
+        heading: "Bordeaux and Nantes: the big-city options",
+        body: "Bordeaux scores 6.9/10, with a T3 around €1,200 and about €4,500/m² to buy, a little above La Rochelle. Nantes scores 6.9/10 with a T3 near €1,150 and about €4,200/m², the same purchase price as La Rochelle on our figures. Both offer far larger job markets, in around two to two and a half hours. They are for people whose careers are the reason to move, not their budget.",
+      },
+      {
+        heading: "Niort: the insurance capital",
+        body: "Niort scores 6.0/10, with a T3 around €860 and about €2,100/m² to buy, half La Rochelle's purchase price. It is the French capital of mutual insurers (MAIF, MAAF, MACIF and others) with a solid finance and insurance job base, about an hour by train. A strong option for people who want to buy a home without leaving Poitou-Charentes.",
+      },
+      {
+        heading: "Saintes, Rochefort and the Charente countryside",
+        body: "Saintes scores 6.1/10, with a T3 around €700 and about €1,800/m² to buy. Rochefort scores 5.9/10, with a T3 around €660 and about €1,700/m². Both are far cheaper and pleasant to live in, but the job market for senior private-sector roles is narrow and you will drive. Good for remote workers, public-sector staff and retirees.",
+      },
+      {
+        heading: "The islands and the coastal villages",
+        body: "The Île de Ré is among the priciest places in France for housing and is mostly second homes and wealthy retirees; Oléron is also expensive. Closer-in coastal communes keep a family seaside feel at prices near La Rochelle's. We hold no price data for the islands, so check them locally. If you plan to rent a place out to tourists to cover a mortgage, check the current local rules first: short-term rental rules have tightened.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Niort gains a lot on housing and keeps a solid job market. Bordeaux and Nantes gain careers at about the same price per square metre. The Charente towns lower costs further at the price of a car. If you can work remotely and live with the summer, La Rochelle's 7.2 is hard to match.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "bordeaux", "nantes", "niort", "saintes", "rochefort"],
+    tags: ["leaving la rochelle", "charente-maritime", "niort", "bordeaux", "la rochelle alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-metz-where-to-go-2026",
+    title: "Leaving Metz: Luxembourg, Nancy, Strasbourg or the border towns",
+    metaTitle: "Leaving Metz 2026: Luxembourg, Nancy, Strasbourg",
+    metaDesc:
+      "Metz scores 6.0/10 with a T3 near €910 and about €2,300/m² to buy. The pull is Luxembourg pay. Where people go: cross-border, Nancy, Strasbourg, Thionville.",
+    category: "city-guide",
+    emoji: "🟡",
+    readMinutes: 5,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Metz has the Centre Pompidou-Metz, a UNESCO-recognised imperial district (Germany ruled the city from 1871 to 1918) and Luxembourg about 30 km to the north. It scores 6.0/10 on our site, with a T3 (three-room flat, two bedrooms) around €910 and buying at about €2,300/m². About 119,000 people live in the city. The pull is not Metz's weakness so much as Luxembourg's pay.",
+    sections: [
+      {
+        heading: "Why do people leave Metz?",
+        body: "Jobs: outside the university, public sector and a few industrial employers, senior private-sector roles are limited. Luxembourg: salaries across the border are well above Lorraine ones, which draws cadres and technicians away. Weather: winters are cold and summers can be heavy in the Moselle basin.",
+      },
+      {
+        heading: "Working in Luxembourg while living in France",
+        body: "Tens of thousands of Moselle residents commute across the border (a frontalier is a cross-border worker). The commute is roughly 45 minutes to an hour by car or train, the A31 motorway is often jammed, and demand from commuters has pushed up Moselle housing. The big gain is purchasing power; the cost is fatigue after a few years. Tax and pension rules are specific: get advice, and plan how to leave the arrangement from day one.",
+      },
+      {
+        heading: "Nancy: the same region",
+        body: "Nancy scores 6.2/10, with a T3 around €950 and about €2,400/m² to buy, close to Metz's costs. It is about 50 minutes away, has a slightly larger job market in the university, health and law, and the UNESCO Place Stanislas. A move for people who want to stay in Lorraine and skip Luxembourg.",
+      },
+      {
+        heading: "Strasbourg: the bigger step",
+        body: "Strasbourg scores 7.5/10, with a T3 around €1,080 and about €3,800/m² to buy, so buying costs roughly two-thirds more than in Metz. It brings a European institutional job base, research and a German border, about 1.5 hours away by train. The choice for professionals on the way up.",
+      },
+      {
+        heading: "Thionville, Épinal and Verdun",
+        body: "Thionville scores 5.7/10, with a T3 around €880 and about €2,400/m² to buy. It is closer to Luxembourg and has become a commuter hub. Épinal, in the Vosges, scores 5.9/10 with a T3 near €660 and about €1,500/m². Verdun scores 5.6/10 with a T3 near €680 and about €1,400/m². The last two are cheap and quiet, with a car-dependent routine and fewer services.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "A Luxembourg job gains the most purchasing power but is a commuting commitment, not a free lunch. Nancy changes little on cost. Strasbourg is a bigger bet for a bigger market. If you work remotely, Metz's rents are moderate for a city with this setting.",
+      },
+    ],
+    relatedCities: ["metz", "nancy", "strasbourg", "thionville", "epinal", "verdun"],
+    tags: ["leaving metz", "lorraine", "luxembourg", "nancy", "metz alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-nancy-where-to-go-2026",
+    title: "Leaving Nancy: Metz, Strasbourg, Paris or the Lorraine countryside",
+    metaTitle: "Leaving Nancy 2026: Metz, Strasbourg, Paris, Épinal",
+    metaDesc:
+      "Nancy scores 6.2/10 with a T3 near €950 and about €2,400/m² to buy. The limit is the private-sector job market. Where people go: Metz, Strasbourg, Paris.",
+    category: "city-guide",
+    emoji: "🦄",
+    readMinutes: 5,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Nancy has the UNESCO-listed Place Stanislas, an Art Nouveau heritage (the École de Nancy), a large university and a university hospital. It scores 6.2/10 on our site, with a T3 (three-room flat, two bedrooms) around €950 and buying at about €2,400/m². About 105,000 people live in the city itself. What it lacks is a deep market for senior private-sector roles outside the university, health and research.",
+    sections: [
+      {
+        heading: "Why do people leave Nancy?",
+        body: "Jobs: beyond the university, the hospital, research bodies and a metallurgy sector in transition, the private-sector job market is limited. Luxembourg: Metz is closer to the border, but plenty of Nancy professionals take a cross-border job. Weather: winters are cold and grey for long stretches.",
+      },
+      {
+        heading: "Metz and Luxembourg",
+        body: "Metz is about 50 minutes away and scores 6.0/10, with a T3 around €910 and about €2,300/m² to buy, so housing costs are almost identical. Luxembourg is roughly another hour; pay there is well above Lorraine pay, and many cross-border workers move to Metz or Thionville to shorten the trip. See our Metz guide for the trade-offs.",
+      },
+      {
+        heading: "Strasbourg: a deeper job market",
+        body: "Strasbourg scores 7.5/10, with a T3 around €1,080 and about €3,800/m² to buy, so buying costs roughly 58% more than in Nancy. In return you get European institutions, research, pharma and biotech, about 1.5 hours away by train. For ambitious professionals it is the main step up within the north-east.",
+      },
+      {
+        heading: "Paris: the TGV option",
+        body: "The fast train from Nancy reaches Paris in roughly 1 hour 30, which makes two days a week in Paris feasible, if costly with a season ticket. Housing costs in Paris are several times Nancy's. People who relocate often choose the eastern suburbs to limit the bill. Do not assume your Nancy social circle survives the move: build a new one on arrival.",
+      },
+      {
+        heading: "Épinal and the Lorraine countryside",
+        body: "Épinal, the Vosges prefecture, scores 5.9/10 with a T3 near €660 and about €1,500/m² to buy, about an hour away, with the Vosges mountains on the doorstep. Toul and Lunéville are closer, quieter and cheaper. These suit remote workers and people who want space and hiking, and all mean a car and fewer services.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Metz-plus-Luxembourg is the best purchasing-power play, at the price of a commute. Strasbourg is the best career play inside the region. Paris pays more and costs far more. The Lorraine countryside lowers costs, not stress, if you rely on a car. If you work remotely, Nancy's price-to-quality ratio is hard to beat.",
+      },
+    ],
+    relatedCities: ["nancy", "metz", "strasbourg", "epinal", "thionville", "verdun"],
+    tags: ["leaving nancy", "lorraine", "metz", "strasbourg", "nancy alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-amiens-where-to-go-2026",
+    title: "Leaving Amiens: Lille, Paris, Beauvais, Compiègne or the Somme coast",
+    metaTitle: "Leaving Amiens 2026: Lille, Paris, Beauvais, Compiègne",
+    metaDesc:
+      "Amiens scores 5.3/10 with a T3 near €900 and about €2,200/m² to buy. A narrow job market pushes people out. Where they go: Lille, Paris, Compiègne.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Amiens has the largest Gothic cathedral in France (UNESCO), the hortillonnages (floating market gardens), a university and some of the lowest housing costs among prefectures. It scores 5.3/10 on our site, with a T3 (three-room flat, two bedrooms) around €900 and buying at about €2,200/m². About 134,000 people live in the city. The recurring complaint is a narrow market for senior private-sector jobs.",
+    sections: [
+      {
+        heading: "Why do people leave Amiens?",
+        body: "Jobs: beyond the university, the hospital, food processing and a few industrial employers, there is little senior private-sector work. Image: the city is often seen as the poorer neighbour of Lille. Weather: the north of France is grey and rainy for much of the year.",
+      },
+      {
+        heading: "Lille: the regional metropolis",
+        body: "Lille scores 5.7/10, with a T3 around €1,080 and about €3,500/m² to buy, so buying costs about 60% more than in Amiens. It offers a far bigger job market (digital, retail, health, transport), a direct Eurostar to London and Brussels, and a young population, roughly an hour away by train. The natural move for career-minded professionals.",
+      },
+      {
+        heading: "Paris: commuting from Amiens",
+        body: "The regional train to Paris Nord takes roughly 1 hour 15, so two or three days a week in Paris is realistic. Housing in Paris costs several times more than in Amiens. Many people who move choose the northern suburbs as a compromise between commute and budget. Check the total cost with the season ticket before deciding.",
+      },
+      {
+        heading: "Beauvais and Compiègne",
+        body: "Beauvais scores 6.0/10, with a T3 around €870 and about €2,200/m² to buy, so housing is the same as in Amiens. It has a low-cost airport and a Paris link. Compiègne scores 6.8/10, with a T3 around €980 and about €2,700/m² to buy, with imperial heritage, a technology university and a tech job market. Both suit people who want to stay Paris-compatible without Lille's prices.",
+      },
+      {
+        heading: "The Somme coast and Saint-Quentin",
+        body: "Abbeville scores 6.4/10, with a T3 around €830 and about €1,500/m² to buy, and is the gateway to the Somme bay. Seaside villages such as Saint-Valery-sur-Somme, Le Crotoy and Cayeux are lovely but quiet out of season, with thinner services. Saint-Quentin scores 6.2/10 with a T3 near €650 and about €1,500/m². If you plan to work from home on the coast, confirm that fibre internet reaches the exact address before you buy.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Lille gains the most on careers and costs the most. Compiègne and Beauvais keep you close to Paris at a budget close to Amiens'. The coast improves daily life at the cost of seasonality. If your job is remote, Amiens' cost of living is hard to beat for a city with a major heritage and a university.",
+      },
+    ],
+    relatedCities: ["amiens", "lille", "beauvais", "compiegne", "abbeville", "saint-quentin"],
+    tags: ["leaving amiens", "picardy", "lille", "paris", "amiens alternatives", "relocation"],
+  },
+  {
     slug: "leaving-caen-where-to-go-2026",
     title: "Leaving Caen: Rouen, Paris, the Normandy coast or the Calvados countryside",
     metaTitle: "Leaving Caen 2026: Rouen, Paris, Cherbourg, Bayeux",

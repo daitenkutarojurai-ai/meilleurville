@@ -10072,6 +10072,36 @@
       "emoji": "🏺"
     },
     {
+      "slug": "leaving-bayonne-where-to-go-2026",
+      "title": "Leaving Bayonne: Bordeaux, Pau, the Landes or across the border in Spain",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "leaving-perpignan-where-to-go-2026",
+      "title": "Leaving Perpignan: Montpellier, Toulouse, Narbonne, Barcelona or the Catalan hills",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "leaving-la-rochelle-where-to-go-2026",
+      "title": "Leaving La Rochelle: Bordeaux, Nantes, Niort or the Charente countryside",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "leaving-metz-where-to-go-2026",
+      "title": "Leaving Metz: Luxembourg, Nancy, Strasbourg or the border towns",
+      "emoji": "🟡"
+    },
+    {
+      "slug": "leaving-nancy-where-to-go-2026",
+      "title": "Leaving Nancy: Metz, Strasbourg, Paris or the Lorraine countryside",
+      "emoji": "🦄"
+    },
+    {
+      "slug": "leaving-amiens-where-to-go-2026",
+      "title": "Leaving Amiens: Lille, Paris, Beauvais, Compiègne or the Somme coast",
+      "emoji": "⛪"
+    },
+    {
       "slug": "leaving-caen-where-to-go-2026",
       "title": "Leaving Caen: Rouen, Paris, the Normandy coast or the Calvados countryside",
       "emoji": "🐎"
@@ -10149,6 +10179,11 @@
       "count": 77
     },
     {
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 77
+    },
+    {
       "slug": "grand-est",
       "label": "grand est",
       "count": 76
@@ -10162,11 +10197,6 @@
       "slug": "travelling-alone-in-france",
       "label": "travelling alone in france",
       "count": 74
-    },
-    {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 71
     },
     {
       "slug": "hauts-de-france",
@@ -10324,6 +10354,11 @@
       "count": 13
     },
     {
+      "slug": "bordeaux",
+      "label": "bordeaux",
+      "count": 13
+    },
+    {
       "slug": "french-riviera",
       "label": "french riviera",
       "count": 13
@@ -10339,11 +10374,6 @@
       "count": 11
     },
     {
-      "slug": "bordeaux",
-      "label": "bordeaux",
-      "count": 11
-    },
-    {
       "slug": "pyrenees",
       "label": "pyrenees",
       "count": 11
@@ -10354,6 +10384,11 @@
       "count": 11
     },
     {
+      "slug": "strasbourg",
+      "label": "strasbourg",
+      "count": 11
+    },
+    {
       "slug": "climate",
       "label": "climate",
       "count": 10
@@ -10361,11 +10396,6 @@
     {
       "slug": "cote-d-azur",
       "label": "cote d'azur",
-      "count": 10
-    },
-    {
-      "slug": "strasbourg",
-      "label": "strasbourg",
       "count": 10
     },
     {
@@ -10389,8 +10419,18 @@
       "count": 9
     },
     {
+      "slug": "toulouse",
+      "label": "toulouse",
+      "count": 9
+    },
+    {
       "slug": "2026",
       "label": "2026",
+      "count": 8
+    },
+    {
+      "slug": "basque-country",
+      "label": "basque country",
       "count": 8
     },
     {
@@ -10434,11 +10474,6 @@
       "count": 8
     },
     {
-      "slug": "toulouse",
-      "label": "toulouse",
-      "count": 8
-    },
-    {
       "slug": "visa",
       "label": "visa",
       "count": 8
@@ -10451,11 +10486,6 @@
     {
       "slug": "alps",
       "label": "alps",
-      "count": 7
-    },
-    {
-      "slug": "basque-country",
-      "label": "basque country",
       "count": 7
     },
     {
@@ -10474,8 +10504,23 @@
       "count": 7
     },
     {
+      "slug": "lille",
+      "label": "lille",
+      "count": 7
+    },
+    {
       "slug": "martinique",
       "label": "martinique",
+      "count": 7
+    },
+    {
+      "slug": "montpellier",
+      "label": "montpellier",
+      "count": 7
+    },
+    {
+      "slug": "paris",
+      "label": "paris",
       "count": 7
     },
     {
@@ -10514,13 +10559,13 @@
       "count": 6
     },
     {
-      "slug": "lille",
-      "label": "lille",
+      "slug": "metz",
+      "label": "metz",
       "count": 6
     },
     {
-      "slug": "montpellier",
-      "label": "montpellier",
+      "slug": "nancy",
+      "label": "nancy",
       "count": 6
     },
     {
@@ -10531,11 +10576,6 @@
     {
       "slug": "normandie",
       "label": "normandie",
-      "count": 6
-    },
-    {
-      "slug": "paris",
-      "label": "paris",
       "count": 6
     },
     {
@@ -10579,18 +10619,13 @@
       "count": 5
     },
     {
-      "slug": "metz",
-      "label": "metz",
-      "count": 5
-    },
-    {
-      "slug": "nancy",
-      "label": "nancy",
-      "count": 5
-    },
-    {
       "slug": "orleans",
       "label": "orleans",
+      "count": 5
+    },
+    {
+      "slug": "pau",
+      "label": "pau",
       "count": 5
     },
     {
@@ -10639,8 +10674,8 @@
       "count": 4
     },
     {
-      "slug": "pau",
-      "label": "pau",
+      "slug": "lorraine",
+      "label": "lorraine",
       "count": 4
     },
     {
@@ -10751,6 +10786,11 @@
     {
       "slug": "mortgage",
       "label": "mortgage",
+      "count": 3
+    },
+    {
+      "slug": "niort",
+      "label": "niort",
       "count": 3
     },
     {
