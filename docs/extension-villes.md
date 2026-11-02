@@ -2898,3 +2898,19 @@ propre, `npm run integrity`, `search-index` + `:check`, `hreflang:check`, `sitem
 **Reste** : **64 guides FR et 65 EN** citent encore « 363 » (260 + 226 occurrences). Prochaines paires à une
 occurrence FR : Ajaccio, Colmar, Compiègne, Dole, Fort-de-France, Lannion, Laon. **Prochain lot** : dès qu'une
 décision du § 0 est prise (sous D2 + D8 : Mennecy, Juvisy-sur-Orge).
+
+### 2026-11-02 — aucun lot : sept paires parent solo remesurées (Ajaccio, Colmar, Compiègne, Dole, Lannion, Laon, Fort-de-France)
+
+`seed-coverage` : 593 villes, rien en attente du runner hors Carquefou (photo) → lot autorisé, mais **aucune décision du
+propriétaire au § 0** (`git log` depuis le 29/10 hors `[scheduled-agent]` : rien sur le seed, `score-calibration.ts`,
+ROADMAP ni CLAUDE.md côté extension). Aucune ville ajoutée. *Livrable* : remesure « 363 → 416 », méthode du 27/10, deux
+locales. Ajaccio 4,4 : palier 13 → 15, « 316e » → 360e ex æquo, « plus d'un point » → un point sous 5,4. Fort-de-France 4,5 :
+palier 14 → 16, EN « 304th » (position dans le palier, metaTitle compris) → joint 344th, « un point » → neuf dixièmes sous 5,4.
+Colmar EN/FR « 68e » → 64e ex æquo ; Compiègne EN « 18th » → joint 16th, 27 → **29** communes HdF, et quatre rangs nationaux
+cités en position de palier (Saint-Quentin 36e → 27e ex æquo, Beauvais 81e → 80e, Amiens 119e → 118e, Lille 71e → 64e) ;
+Laon « 9th / neuvième » → septième ex æquo, 27 → 29 ; Lannion « 3rd / troisième » → deuxième ex æquo (palier de 2 avec Dole) ;
+Dole « 2nd » → joint 2nd. Amplitude régionale HdF / IDF (3,1) vérifiée inchangée. **14 guides, `updatedAt` 2026-11-02**,
+metaDesc ≤ 160, metaTitle ≤ 56. Pas de dérive (seed intact, table 593). tsc, integrity, search-index:check, hreflang, sitemap verts.
+Relevé non corrigé : Dole FR « septième rapport de la série » contre EN « the best ratio of the 66 guides » (101 €/point).
+**Reste** : 57 guides FR / 58 EN citent « 363 » (253 + 210 occ.). Suivantes à une occurrence FR : Poitiers, Saint-Denis /
+Saint-Paul / Saint-Pierre (Réunion), Pau, Mérignac, Valence. **Prochain lot** : dès qu'une décision du § 0 est prise.

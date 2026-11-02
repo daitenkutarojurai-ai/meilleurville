@@ -31895,16 +31895,16 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-in-fort-de-france-2026",
     title: "Single parent in Fort-de-France (2026): the city lost 11,588 residents, and it counts",
-    metaTitle: "Single Parent in Fort-de-France 2026: 304th of 363",
+    metaTitle: "Single Parent in Fort-de-France 2026: joint 344th of 416",
     metaDesc:
-      "Fit 4.5/10, 304th of 363. The commune lost 11,588 residents since 2011. T3 €960, entry floor €2,750, safety 4.2/10.",
+      "Fit 4.5/10, joint 344th of 416. The commune lost 11,588 residents since 2011. T3 €960, entry floor €2,750, safety 4.2/10.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-25",
-    updatedAt: "2026-08-25",
+    updatedAt: "2026-11-02",
     intro:
-      "Fort-de-France is the first Martinique commune in this series and its file is a hard one: 4.5/10 on the single-parent composite, 304th of the 363 communes above 20,000 inhabitants, a point below the ranking's median of 5.5/10. The breakdown: cost of living 4.1/10, transport 4.7/10, schools 5.1/10, safety 4.2/10 (source: our city profile). Only one axis comes close to the halfway mark. The average T3 is €960 and a square metre to buy €2,500 (source: our rent estimate), for an estimated minimum net income of €2,750 a month. But the figure that really structures this file is in none of the four axes: the commune went from 86,753 inhabitants in 2011 to 75,165 in 2022, 11,588 fewer in eleven years, a fall of 13.4 per cent (source: INSEE census). That is the sharpest contraction in this batch by a wide margin, and by some distance the most useful datum for a single parent considering the move. Martinique is a French department in the Caribbean, and several things a mainland guide can leave unsaid have to be said here.",
+      "Fort-de-France is the first Martinique commune in this series and its file is a hard one: 4.5/10 on the single-parent composite, joint 344th of the 416 communes above 20,000 inhabitants, nine tenths below the ranking's median of 5.4/10. The breakdown: cost of living 4.1/10, transport 4.7/10, schools 5.1/10, safety 4.2/10 (source: our city profile). Only one axis comes close to the halfway mark. The average T3 is €960 and a square metre to buy €2,500 (source: our rent estimate), for an estimated minimum net income of €2,750 a month. But the figure that really structures this file is in none of the four axes: the commune went from 86,753 inhabitants in 2011 to 75,165 in 2022, 11,588 fewer in eleven years, a fall of 13.4 per cent (source: INSEE census). That is the sharpest contraction in this batch by a wide margin, and by some distance the most useful datum for a single parent considering the move. Martinique is a French department in the Caribbean, and several things a mainland guide can leave unsaid have to be said here.",
     sections: [
       {
         heading: "Depopulation, and why it concerns a lone parent more than most",
@@ -37715,18 +37715,18 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Colmar (2026): the only file here with no weak axis, and 2,539 fewer residents",
     metaTitle: "Single Parent in Colmar 2026: Fit 6.3/10",
     metaDesc:
-      "Fit 6.3/10, 68th of 363. All four axes above 6, a T3 at €1,000, and a population down 2,539 since 2016. The arithmetic on one income.",
+      "Fit 6.3/10, joint 64th of 416. All four axes above 6, a T3 at €1,000, and a population down 2,539 since 2016. The arithmetic on one income.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-29",
-    updatedAt: "2026-08-29",
+    updatedAt: "2026-11-02",
     intro:
-      "Colmar returns 6.3/10 on the single-parent composite, 68th of the 363 communes above 20,000 inhabitants, comfortably above the ranking's median of 5.5. The detail: schools 6.6/10, cost of living 6.2/10, transport 6.1/10, safety 6.1/10 (source: our city profile). It is the only city in this batch with all four axes above 6.0, and that is the exact reason for its rank. The average T3 is €1,000 and a square metre to buy €3,000 (source: our rent estimate), for an estimated minimum net income of €3,050 a month. One fact sits outside the four axes and belongs at the top, because a quick summary hides it: the commune counted 67,360 inhabitants in 2022 against 67,409 in 2011, an apparent stability that covers a peak at 69,899 in 2016 and a loss of 2,539 people in six years (source: INSEE census).",
+      "Colmar returns 6.3/10 on the single-parent composite, joint 64th of the 416 communes above 20,000 inhabitants, comfortably above the ranking's median of 5.4. The detail: schools 6.6/10, cost of living 6.2/10, transport 6.1/10, safety 6.1/10 (source: our city profile). It is the only city in this batch with all four axes above 6.0, and that is the exact reason for its rank. The average T3 is €1,000 and a square metre to buy €3,000 (source: our rent estimate), for an estimated minimum net income of €3,050 a month. One fact sits outside the four axes and belongs at the top, because a quick summary hides it: the commune counted 67,360 inhabitants in 2022 against 67,409 in 2011, an apparent stability that covers a peak at 69,899 in 2016 and a loss of 2,539 people in six years (source: INSEE census).",
     sections: [
       {
         heading: "Four axes above 6: what the consistency is worth, and what it is not",
-        body: "No other city in this batch has all four axes above 6.0. Valence drops to 5.2 on safety, Chambéry to 5.0 on cost, Saint-Nazaire to 5.5 on safety, Pessac to 4.0 on cost. That consistency is precisely what the single-parent composite rewards, because a one-adult household has nobody to absorb the weak axis: a thin transport network is survivable with two adults and not with one; a tight budget is offset by a second income, not by better organisation. So Colmar is ranked for the right reason. What the consistency does not do is carry it higher than 68th. None of its axes rises above 6.6, and the ranking rewards height as well: Chambéry, in this same batch, shows schools at 7.4/10 and safety at 6.3/10, two marks Colmar reaches on no axis, and still finishes behind it because its cost of living falls to 5.0. The Colmar file is therefore one of no nasty surprises and no decisive lever. For a lone parent that is good news when the budget clears, because consistency limits the number of trade-offs to make; it is less good news when the budget does not, because no axis is strong enough to compensate for the effort.",
+        body: "No other city in this batch has all four axes above 6.0. Valence drops to 5.2 on safety, Chambéry to 5.0 on cost, Saint-Nazaire to 5.5 on safety, Pessac to 4.0 on cost. That consistency is precisely what the single-parent composite rewards, because a one-adult household has nobody to absorb the weak axis: a thin transport network is survivable with two adults and not with one; a tight budget is offset by a second income, not by better organisation. So Colmar is ranked for the right reason. What the consistency does not do is carry it higher than joint 64th. None of its axes rises above 6.6, and the ranking rewards height as well: Chambéry, in this same batch, shows schools at 7.4/10 and safety at 6.3/10, two marks Colmar reaches on no axis, and still finishes behind it because its cost of living falls to 5.0. The Colmar file is therefore one of no nasty surprises and no decisive lever. For a lone parent that is good news when the budget clears, because consistency limits the number of trade-offs to make; it is less good news when the budget does not, because no axis is strong enough to compensate for the effort.",
       },
       {
         heading: "A €3,050 floor, and €152 of rent per school point",
@@ -38009,14 +38009,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Ajaccio (2026): €3,650 net for schools at 4.1/10",
     metaTitle: "Single Parent in Ajaccio 2026: Floor €3,650",
     metaDesc:
-      "Fit 4.4/10, 316th of 363. An entry floor of €3,650 net, higher than Bordeaux, for schools at 4.1/10 and transport at 4.0/10. The full calculation.",
+      "Fit 4.4/10, joint 360th of 416. An entry floor of €3,650 net, higher than Bordeaux, for schools at 4.1/10 and transport at 4.0/10. The full calculation.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-29",
-    updatedAt: "2026-08-29",
+    updatedAt: "2026-11-02",
     intro:
-      "Ajaccio is the first Corsican commune in this series, and its file is the hardest in this batch: 4.4/10 on the single-parent composite, 316th of the 363 communes above 20,000 inhabitants, more than a point below the ranking's median of 5.5. The detail: cost of living 5.0/10, safety 4.3/10, schools 4.1/10, transport 4.0/10 (source: our city profile). No axis passes 5.0. The average T3 is €1,200 and a square metre to buy €3,800 (source: our rent estimate), for an estimated minimum net income of €3,650 a month, the highest floor in this batch and a level above Bordeaux. The commune counted 75,343 inhabitants at the 2022 census against 66,809 in 2011, 8,534 more and a rise of 12.8 per cent (source: INSEE census). A city gaining residents fast while finishing 316th: that is the fact to explain.",
+      "Ajaccio is the first Corsican commune in this series, and its file is the hardest in this batch: 4.4/10 on the single-parent composite, joint 360th of the 416 communes above 20,000 inhabitants, a point below the ranking's median of 5.4. The detail: cost of living 5.0/10, safety 4.3/10, schools 4.1/10, transport 4.0/10 (source: our city profile). No axis passes 5.0. The average T3 is €1,200 and a square metre to buy €3,800 (source: our rent estimate), for an estimated minimum net income of €3,650 a month, the highest floor in this batch and a level above Bordeaux. The commune counted 75,343 inhabitants at the 2022 census against 66,809 in 2011, 8,534 more and a rise of 12.8 per cent (source: INSEE census). A city gaining residents fast while finishing joint 360th: that is the fact to explain.",
     sections: [
       {
         heading: "A €3,650 floor: dearer than Bordeaux, for a much weaker file",
@@ -38036,7 +38036,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "8,534 more residents, and what that says about the ranking",
-        body: "Ajaccio gains 8,534 inhabitants between 2011 and 2022, rising at every census: 66,809, then 69,075, then 75,343, which is 12.8 per cent over eleven years and 9.1 per cent over the last six (source: INSEE census). That is the second steepest growth in this batch after Pessac. A city attracting people at that rate while finishing 316th of 363 says something useful about what this ranking measures and does not. The four axes of the single-parent composite are cost, transport, schools and safety, chosen because they are what decides a week when you are the only driver, the only earner and the only one carrying the load. They deliberately ignore nature, marked 7.5/10 at Ajaccio, and culture, marked 6.6/10, which are perfectly legitimate reasons to come and which explain part of that growth. What the ranking says is not that Ajaccio is a bad city, it is that Ajaccio is an expensive city to run on one income and one driver. What the growth says in return, and which appears in no axis: with demand rising faster than provision, crèche, after-school and school-meal places, the services that stand in for the missing second adult, tighten year by year.",
+        body: "Ajaccio gains 8,534 inhabitants between 2011 and 2022, rising at every census: 66,809, then 69,075, then 75,343, which is 12.8 per cent over eleven years and 9.1 per cent over the last six (source: INSEE census). That is the second steepest growth in this batch after Pessac. A city attracting people at that rate while finishing joint 360th of 416 says something useful about what this ranking measures and does not. The four axes of the single-parent composite are cost, transport, schools and safety, chosen because they are what decides a week when you are the only driver, the only earner and the only one carrying the load. They deliberately ignore nature, marked 7.5/10 at Ajaccio, and culture, marked 6.6/10, which are perfectly legitimate reasons to come and which explain part of that growth. What the ranking says is not that Ajaccio is a bad city, it is that Ajaccio is an expensive city to run on one income and one driver. What the growth says in return, and which appears in no axis: with demand rising faster than provision, crèche, after-school and school-meal places, the services that stand in for the missing second adult, tighten year by year.",
       },
       {
         heading: "The verdict: who Ajaccio works for",
@@ -39136,14 +39136,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Dole (2026): €101 of rent per school point, the best ratio in the series",
     metaTitle: "Single Parent in Dole 2026: T3 €780, Floor €2,350",
     metaDesc:
-      "Fit 7.2/10, 2nd of 363. T3 at €780, €1,800 a square metre, entry floor €2,350 and €101 of rent per school point: the best ratio of the 66 guides.",
+      "Fit 7.2/10, joint 2nd of 416. T3 at €780, €1,800 a square metre, entry floor €2,350 and €101 of rent per school point: the best ratio of the 66 guides.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-02",
-    updatedAt: "2026-09-02",
+    updatedAt: "2026-11-02",
     intro:
-      "Dole returns 7.2/10 on the single-parent composite, second of the 363 French communes above 20,000 inhabitants, well above the ranking's median of 5.5. The detail: schools 7.7/10, cost of living 7.6/10, safety 7.0/10, transport 6.4/10 (source: our city profile). The average T3 is €780 and a square metre to buy €1,800 (source: our rent estimate), for an estimated minimum net income of €2,350 a month. The commune counted 23,784 inhabitants at the 2022 census against 24,009 in 2011 and 23,579 in 2016 (source: INSEE census): a dipping curve that loses then regains. The figure that sums up this file is none of those: at €780 of T3 for 7.7/10 of schools, Dole shows €101 of rent per point of school provision, the best ratio of the sixty-six cities this series covers.",
+      "Dole returns 7.2/10 on the single-parent composite, joint second of the 416 French communes above 20,000 inhabitants, well above the ranking's median of 5.4. The detail: schools 7.7/10, cost of living 7.6/10, safety 7.0/10, transport 6.4/10 (source: our city profile). The average T3 is €780 and a square metre to buy €1,800 (source: our rent estimate), for an estimated minimum net income of €2,350 a month. The commune counted 23,784 inhabitants at the 2022 census against 24,009 in 2011 and 23,579 in 2016 (source: INSEE census): a dipping curve that loses then regains. The figure that sums up this file is none of those: at €780 of T3 for 7.7/10 of schools, Dole shows €101 of rent per point of school provision, the best ratio of the sixty-six cities this series covers.",
     sections: [
       {
         heading: "€101 a school point: what the ratio says and what it does not",
@@ -39184,18 +39184,18 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Lannion (2026): safety 8.2, transport 4.9, and a trade-off to make",
     metaTitle: "Single Parent in Lannion 2026: T3 €800, Floor €2,400",
     metaDesc:
-      "Fit 7.2/10, 3rd of 363. Safety 8.2/10 and schools 7.7/10 for a €800 T3, but transport at 4.9: the car is a budget line, not an option.",
+      "Fit 7.2/10, joint 2nd of 416. Safety 8.2/10 and schools 7.7/10 for a €800 T3, but transport at 4.9: the car is a budget line, not an option.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-02",
-    updatedAt: "2026-09-02",
+    updatedAt: "2026-11-02",
     intro:
-      "Lannion returns 7.2/10 on the single-parent composite, third of the 363 French communes above 20,000 inhabitants and first in Brittany ahead of Rennes. The detail: safety 8.2/10, schools 7.7/10, cost of living 7.6/10, transport 4.9/10 (source: our city profile). The last figure is the lowest of the four and it commands a whole slice of the budget. The average T3 is €800 and a square metre to buy €2,100 (source: our rent estimate), for an estimated minimum net income of €2,400 a month. The commune counted 20,525 inhabitants at the 2022 census against 19,920 in 2011, 605 more in eleven years and a clear recovery since 2016 (source: INSEE census). This is the best-marked file in the series on the three axes that describe daily life, with a counterpart that has a price.",
+      "Lannion returns 7.2/10 on the single-parent composite, joint second of the 416 French communes above 20,000 inhabitants and first in Brittany ahead of Rennes. The detail: safety 8.2/10, schools 7.7/10, cost of living 7.6/10, transport 4.9/10 (source: our city profile). The last figure is the lowest of the four and it commands a whole slice of the budget. The average T3 is €800 and a square metre to buy €2,100 (source: our rent estimate), for an estimated minimum net income of €2,400 a month. The commune counted 20,525 inhabitants at the 2022 census against 19,920 in 2011, 605 more in eleven years and a clear recovery since 2016 (source: INSEE census). This is the best-marked file in the series on the three axes that describe daily life, with a counterpart that has a price.",
     sections: [
       {
         heading: "Safety 8.2 and schools 7.7: three axes out of four at the top",
-        body: "Lannion marks 8.2/10 on safety, the second best of the sixty-six cities in this series behind Challans at 8.3/10, and 7.7/10 on schools, level with La Roche-sur-Yon, Dole and Cholet. Cost of living comes out at 7.6/10, the same level as Dole and Albi. Three axes out of four at the top of the table for a commune of 20,525 people is what puts Lannion third nationally and first in Brittany, ahead of Rennes at 7.1. Two points of scope, not to be softened. The safety mark is a communal figure calibrated on public data, at the scale of the whole commune: it says nothing about a district, a street, or the people who live there, and this guide will say nothing about them either, because our district data documents no district here and a neighbourhood reputation is not something to invent. The schools mark describes municipal provision, the density of establishments and the range of tracks, not pupil results and not the quality of the teaching. What those two marks cover in practice for a lone parent is less a comfort than a mental load removed: a commune where you do not arrange your hours around a journey you dread, and where school provision is not reduced to a single establishment whose catchment decides everything.",
+        body: "Lannion marks 8.2/10 on safety, the second best of the sixty-six cities in this series behind Challans at 8.3/10, and 7.7/10 on schools, level with La Roche-sur-Yon, Dole and Cholet. Cost of living comes out at 7.6/10, the same level as Dole and Albi. Three axes out of four at the top of the table for a commune of 20,525 people is what puts Lannion joint second nationally and first in Brittany, ahead of Rennes at 7.1. Two points of scope, not to be softened. The safety mark is a communal figure calibrated on public data, at the scale of the whole commune: it says nothing about a district, a street, or the people who live there, and this guide will say nothing about them either, because our district data documents no district here and a neighbourhood reputation is not something to invent. The schools mark describes municipal provision, the density of establishments and the range of tracks, not pupil results and not the quality of the teaching. What those two marks cover in practice for a lone parent is less a comfort than a mental load removed: a commune where you do not arrange your hours around a journey you dread, and where school provision is not reduced to a single establishment whose catchment decides everything.",
       },
       {
         heading: "Transport 4.9/10: the car is a budget line, not an option",
@@ -39429,14 +39429,14 @@ export const EN_GUIDES: EnGuide[] = [
       "Single parent in Laon (2026): a €2,250 floor, and three towns in the Aisne to compare before signing",
     metaTitle: "Single Parent in Laon 2026: T3 €740, Floor €2,250",
     metaDesc:
-      "Fit 7.0/10, 9th of 363 and 1st in Hauts-de-France. T3 at €740, €1,400 a square metre, floor €2,250, against Soissons and Saint-Quentin next door.",
+      "Fit 7.0/10, joint 7th of 416 and 1st in Hauts-de-France. T3 at €740, €1,400 a square metre, floor €2,250, against Soissons and Saint-Quentin next door.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-02",
-    updatedAt: "2026-09-02",
+    updatedAt: "2026-11-02",
     intro:
-      "Laon returns 7.0/10 on the single-parent composite, ninth of the 363 French communes above 20,000 inhabitants and first in the Hauts-de-France, a region whose extremes this ranking also puts on display. The detail: cost of living 8.3/10, transport 6.4/10, schools 6.6/10, safety 6.5/10 (source: our city profile). The average T3 is €740 and a square metre to buy €1,400 (source: our rent estimate), for an estimated minimum net income of €2,250 a month. The commune counted 24,066 inhabitants at the 2022 census against 25,745 in 2011, 1,679 fewer in eleven years and a fall at every census (source: INSEE census). The file is coherent, and it compares first with two neighbours in the same department rather than with the rest of France.",
+      "Laon returns 7.0/10 on the single-parent composite, joint seventh of the 416 French communes above 20,000 inhabitants and first in the Hauts-de-France, a region whose extremes this ranking also puts on display. The detail: cost of living 8.3/10, transport 6.4/10, schools 6.6/10, safety 6.5/10 (source: our city profile). The average T3 is €740 and a square metre to buy €1,400 (source: our rent estimate), for an estimated minimum net income of €2,250 a month. The commune counted 24,066 inhabitants at the 2022 census against 25,745 in 2011, 1,679 fewer in eleven years and a fall at every census (source: INSEE census). The file is coherent, and it compares first with two neighbours in the same department rather than with the rest of France.",
     sections: [
       {
         heading: "Cost of living 8.3/10: the second best in the series",
@@ -39456,11 +39456,11 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Where Laon sits in the Hauts-de-France",
-        body: "Laon is first of the 27 eligible communes in the Hauts-de-France, a region in which this ranking shows the full amplitude: from 7.0 at Laon down to 3.9 at the bottom of the table, 3.1 points, the widest internal spread of any French region on this composite, level with the Île-de-France. Behind Laon come Soissons at 6.9, Compiègne at 6.8, Saint-Quentin at 6.6, Abbeville at 6.5 and Cambrai at 6.4. Two files are worth putting alongside Laon's. Compiègne, in the Oise, comes out at 6.8 with a T3 at €980 and an entry floor of €2,950, but 7.7/10 of schools and 7.7/10 of transport: €700 more net monthly income for distinctly wider provision, and a position that puts Paris within rail reach. Cambrai, in the Nord, opens at €1,950 for a €640 T3 and the best regional ratio at €97 a school point, with the same schools mark as Laon. Arras reaches 6.1 with a T3 at €720 and a ratio of €109. In other words, for a tight budget Cambrai and Saint-Quentin are the two answers to examine before Laon; for a wider one, Compiègne; and Laon keeps the advantage of balance, with no weak axis.",
+        body: "Laon is first of the 29 eligible communes in the Hauts-de-France, a region in which this ranking shows the full amplitude: from 7.0 at Laon down to 3.9 at the bottom of the table, 3.1 points, the widest internal spread of any French region on this composite, level with the Île-de-France. Behind Laon come Soissons at 6.9, Compiègne at 6.8, Saint-Quentin at 6.6, Abbeville at 6.5 and Cambrai at 6.4. Two files are worth putting alongside Laon's. Compiègne, in the Oise, comes out at 6.8 with a T3 at €980 and an entry floor of €2,950, but 7.7/10 of schools and 7.7/10 of transport: €700 more net monthly income for distinctly wider provision, and a position that puts Paris within rail reach. Cambrai, in the Nord, opens at €1,950 for a €640 T3 and the best regional ratio at €97 a school point, with the same schools mark as Laon. Arras reaches 6.1 with a T3 at €720 and a ratio of €109. In other words, for a tight budget Cambrai and Saint-Quentin are the two answers to examine before Laon; for a wider one, Compiègne; and Laon keeps the advantage of balance, with no weak axis.",
       },
       {
         heading: "The verdict: who Laon works for",
-        body: "Laon works from €2,250 net a month, for a single parent on a constrained income who is looking for a file with no weak point rather than one that shines on a single axis. None of its four axes drops below 6.4/10, which is exactly what ninth place nationally measures, and the cost of living at 8.3/10 is the second in the whole series. At €91,000 for 65 square metres at the average price, buying on a single income remains genuinely reachable. It works less well than Cambrai or Saint-Quentin on the strictly financial side, €300 less minimum monthly income for each, which this guide cannot leave out, but Saint-Quentin pays for that on schools and safety, and that is a trade-off to make knowingly. It does not work for anyone who needs a wide labour market: twenty-four thousand inhabitants and a population falling 4.5 per cent in six years is a narrow basin that is getting narrower, and a national rank never compensates for the absence of an employer. The thing to watch over time is the catchment map, which contracts with the population before a schools score moves. The axis-by-axis detail is on /cities/laon/single-parent.",
+        body: "Laon works from €2,250 net a month, for a single parent on a constrained income who is looking for a file with no weak point rather than one that shines on a single axis. None of its four axes drops below 6.4/10, which is exactly what joint seventh place nationally measures, and the cost of living at 8.3/10 is the second in the whole series. At €91,000 for 65 square metres at the average price, buying on a single income remains genuinely reachable. It works less well than Cambrai or Saint-Quentin on the strictly financial side, €300 less minimum monthly income for each, which this guide cannot leave out, but Saint-Quentin pays for that on schools and safety, and that is a trade-off to make knowingly. It does not work for anyone who needs a wide labour market: twenty-four thousand inhabitants and a population falling 4.5 per cent in six years is a narrow basin that is getting narrower, and a national rank never compensates for the absence of an employer. The thing to watch over time is the catchment map, which contracts with the population before a schools score moves. The axis-by-axis detail is on /cities/laon/single-parent.",
       },
     ],
     relatedCities: ["laon", "soissons", "saint-quentin", "compiegne", "cambrai"],
@@ -41643,14 +41643,14 @@ export const EN_GUIDES: EnGuide[] = [
       "Single parent in Compiègne (2026): transport and schools both 7.7/10, cost as the counterpart",
     metaTitle: "Single Parent in Compiègne 2026: T3 €980, Floor €2,950",
     metaDesc:
-      "Fit 6.8/10, 18th of 363 and third in Hauts-de-France. Transport 7.7/10 and schools 7.7/10, one of only five in the top 20 to do both. Cost 5.9 in reserve.",
+      "Fit 6.8/10, joint 16th of 416 and third in Hauts-de-France. Transport 7.7/10 and schools 7.7/10, one of only five in the top 20 to do both. Cost 5.9 in reserve.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-09-06",
-    updatedAt: "2026-09-06",
+    updatedAt: "2026-11-02",
     intro:
-      "Compiègne returns 6.8/10 on the single-parent composite, eighteenth of the 363 French communes above 20,000 inhabitants that the ranking retains and third of the 27 in Hauts-de-France, behind Laon and Soissons. The detail: transport 7.7/10, schools 7.7/10, safety 6.2/10, cost of living 5.9/10 (source: our city profile). The average T3 is €980 and a square metre to buy €2,700 (source: our rent estimate), for an estimated minimum net income of €2,950 a month. The commune counted 40,808 inhabitants at the 2022 census against 39,517 in 2011 and 40,258 in 2016 (source: INSEE census). What sets this file apart is none of those figures taken alone but their combination: Compiègne is one of five communes in the first twenty of the ranking to clear 7.5/10 on service and school provision at the same time, with Rennes, Strasbourg, Anglet and Vienne. The price is a cost-of-living mark of 5.9/10, the second lowest of the nine towns in this batch.",
+      "Compiègne returns 6.8/10 on the single-parent composite, joint sixteenth of the 416 French communes above 20,000 inhabitants that the ranking retains and third of the 29 in Hauts-de-France, behind Laon and Soissons. The detail: transport 7.7/10, schools 7.7/10, safety 6.2/10, cost of living 5.9/10 (source: our city profile). The average T3 is €980 and a square metre to buy €2,700 (source: our rent estimate), for an estimated minimum net income of €2,950 a month. The commune counted 40,808 inhabitants at the 2022 census against 39,517 in 2011 and 40,258 in 2016 (source: INSEE census). What sets this file apart is none of those figures taken alone but their combination: Compiègne is one of five communes in the first twenty of the ranking to clear 7.5/10 on service and school provision at the same time, with Rennes, Strasbourg, Anglet and Vienne. The price is a cost-of-living mark of 5.9/10, the second lowest of the nine towns in this batch.",
     sections: [
       {
         heading: "7.7 on transport and 7.7 on schools: the rare combination",
@@ -41658,7 +41658,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Cost of living 5.9/10: what stops Compiègne climbing",
-        body: "The composite weights cost of living at 0.30, the heaviest of the four, and it is that axis which caps Compiègne at eighteenth rather than somewhere near the top ten. At 5.9/10 it is a long way from the 8.3/10 of Soissons and Laon, its two better-ranked neighbours, and that reads straight through into prices. The Compiègne T3 is €980, €50 more than Soissons and €240 more than Laon. The square metre is €2,700, against €1,700 at Soissons and €1,400 at Laon: for 65 square metres that makes €175,500 here, €110,500 at Soissons and €91,000 at Laon, a gap of €65,000 to €84,500 on the same theoretical flat. The entry floor follows: €2,950 against €2,800 and €2,250. What the premium buys is clear and can be counted: 2.1 more points of transport and 1.1 more of schools than Soissons; 1.3 more of transport and 1.1 more of schools than Laon. Unlike the Soissons case, in other words, the Compiègne price corresponds to something measurable. Whether that something is worth, for a given reader, the €700 of minimum monthly income that separate Compiègne from Laon is the reader's call. The rent-to-school-provision ratio places the set: €127 a point here, €141 at Soissons, €112 at Laon.",
+        body: "The composite weights cost of living at 0.30, the heaviest of the four, and it is that axis which caps Compiègne at joint sixteenth rather than somewhere near the top ten. At 5.9/10 it is a long way from the 8.3/10 of Soissons and Laon, its two better-ranked neighbours, and that reads straight through into prices. The Compiègne T3 is €980, €50 more than Soissons and €240 more than Laon. The square metre is €2,700, against €1,700 at Soissons and €1,400 at Laon: for 65 square metres that makes €175,500 here, €110,500 at Soissons and €91,000 at Laon, a gap of €65,000 to €84,500 on the same theoretical flat. The entry floor follows: €2,950 against €2,800 and €2,250. What the premium buys is clear and can be counted: 2.1 more points of transport and 1.1 more of schools than Soissons; 1.3 more of transport and 1.1 more of schools than Laon. Unlike the Soissons case, in other words, the Compiègne price corresponds to something measurable. Whether that something is worth, for a given reader, the €700 of minimum monthly income that separate Compiègne from Laon is the reader's call. The rent-to-school-provision ratio places the set: €127 a point here, €141 at Soissons, €112 at Laon.",
       },
       {
         heading: "€2,950 floor, and why that is the prudent calculation",
@@ -41670,7 +41670,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Where Compiègne sits in Hauts-de-France",
-        body: "The ranking retains 27 communes in the region and Compiègne is third, behind Laon at 7.0/10 and Soissons at 6.9/10, both in the neighbouring Aisne. The trio maps out three clearly distinct offers for a lone parent. Laon is the best ratio, with 6.6/10 of schools and 6.5/10 of safety for a T3 at €740. Soissons is the dearest of the three with no measurable counterpart, carrying the same marks as Laon for €190 more rent a month. Compiègne is the dearest of the three but the only one to offer a school file and a service both at 7.7/10. Further down the regional ranking, Saint-Quentin is 36th with a T3 at €650 but 5.5/10 of schools and 4.7/10 of safety; Beauvais is 81st, the other Oise town, with 5.5/10 of schools for a T3 at €870 and a ratio of €158 a point, markedly worse. Amiens, the regional capital, is 119th because of safety at 4.5/10, and Lille 71st with 3.9/10 on the same axis. On that particular axis, Compiègne at 6.2/10 does better than both regional metropolitan cities. One orientation note for an English-speaking reader: the armistice of 11 November 1918 was signed in a railway carriage in the forest of Compiègne, which is what the name most often means abroad.",
+        body: "The ranking retains 29 communes in the region and Compiègne is third, behind Laon at 7.0/10 and Soissons at 6.9/10, both in the neighbouring Aisne. The trio maps out three clearly distinct offers for a lone parent. Laon is the best ratio, with 6.6/10 of schools and 6.5/10 of safety for a T3 at €740. Soissons is the dearest of the three with no measurable counterpart, carrying the same marks as Laon for €190 more rent a month. Compiègne is the dearest of the three but the only one to offer a school file and a service both at 7.7/10. Further down the region, on the national ranking, Saint-Quentin is joint 27th with a T3 at €650 but 5.5/10 of schools and 4.7/10 of safety; Beauvais is joint 80th, the other Oise town, with 5.5/10 of schools for a T3 at €870 and a ratio of €158 a point, markedly worse. Amiens, the regional capital, is joint 118th because of safety at 4.5/10, and Lille joint 64th with 3.9/10 on the same axis. On that particular axis, Compiègne at 6.2/10 does better than both regional metropolitan cities. One orientation note for an English-speaking reader: the armistice of 11 November 1918 was signed in a railway carriage in the forest of Compiègne, which is what the name most often means abroad.",
       },
       {
         heading: "The verdict: who Compiègne works for",
