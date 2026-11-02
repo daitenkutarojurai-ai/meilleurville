@@ -9907,6 +9907,36 @@
       "emoji": "⌚"
     },
     {
+      "slug": "things-to-do-in-hossegor-2026",
+      "title": "Things to do in Hossegor: the saltwater lake, La Gravière and the surf",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "things-to-do-in-fontenay-le-comte-2026",
+      "title": "Things to do in Fontenay-le-Comte: Terre-Neuve castle and the Renaissance centre",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-l-ile-de-re-2026",
+      "title": "Things to do on the Île de Ré: Vauban's ramparts, the lighthouse and the salt marshes",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "things-to-do-in-hendaye-2026",
+      "title": "Things to do in Hendaye: Abbadia castle, the corniche and the Bidassoa bay",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "things-to-do-in-sanary-sur-mer-2026",
+      "title": "Things to do in Sanary-sur-Mer: the harbour, the Wednesday market and the exiles' villas",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "things-to-do-in-albertville-2026",
+      "title": "Things to do in Albertville: Conflans old town and the 1992 Olympic legacy",
+      "emoji": "🏔️"
+    },
+    {
       "slug": "buying-an-apartment-under-100000-euros-france-2026",
       "title": "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
       "emoji": "🔑"
@@ -10076,12 +10106,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 331
+      "count": 337
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 325
+      "count": 331
     },
     {
       "slug": "moving-to-france",
@@ -10099,14 +10129,14 @@
       "count": 160
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 87
-    },
-    {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 86
+      "count": 89
+    },
+    {
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 88
     },
     {
       "slug": "occitanie",
@@ -10191,7 +10221,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 53
+      "count": 54
     },
     {
       "slug": "real-estate",
@@ -10226,7 +10256,7 @@
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
-      "count": 34
+      "count": 35
     },
     {
       "slug": "working-in-france",
