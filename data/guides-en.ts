@@ -58024,6 +58024,54 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["saint-raphael", "biarritz", "les-sables-d-olonne", "vichy", "cannes", "saint-malo", "bergerac", "montlucon", "nice", "toulon", "perpignan", "cergy"],
     tags: ["oldest cities in France", "share of over-75s", "ageing by city", "where retirees live in France", "city demographics", "cities for seniors"],
   },
+  {
+    slug: "buying-house-france-neighbours-boundaries-hedges-party-walls-2026",
+    title: "Buying a house in France: neighbours, boundaries, hedges and party walls",
+    metaTitle: "French neighbour law: boundaries, hedges, party walls",
+    metaDesc: "Hedges at 2 m or 50 cm, windows at 1.90 m, who owns the shared wall: the Civil Code rules to check before you buy a house in France.",
+    category: "moving",
+    emoji: "🏡",
+    readMinutes: 8,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "Before you buy a house in France, check four things about the neighbours: where the boundary really runs, who owns the shared wall or fence, how far the hedges and trees sit from it, and whether any window or right of way already crosses it. The Civil Code answers each of these with fixed distances, 2 metres and 50 centimetres for plantings and 1.90 metres for a direct window view, but local rules and old habits can override them. A dispute costs far more than a surveyor's visit, and most of the checks below can be done before the compromis is signed.",
+    sections: [
+      {
+        heading: "How do you know exactly where the boundary is?",
+        body: "Not from the fence. A fence, hedge or wall shows where someone stopped, not necessarily where the plot ends. The cadastral plan is an administrative map for tax purposes and is not proof of ownership, and the property title and the notary's deed are what count. If the line is unclear or the plot comes from a recent split, ask the seller for the bornage report, a boundary survey drawn up by a licensed géomètre-expert, with markers set in the ground and signed by the neighbours who share the line. A bornage can be agreed amicably or ordered by a court, and its cost is usually shared between the owners concerned. A plot sold as a lot in a subdivision (lotissement) normally comes with that survey already done. If there is none and the line matters, because you plan to build, fence or extend, have it done before you close.",
+      },
+      {
+        heading: "Who owns a fence or wall between two properties?",
+        body: "The Civil Code sets a presumption of shared ownership (mitoyenneté) for a wall that separates two buildings, two courtyards or two gardens in town and country, unless a title or a visible sign says otherwise. A wall whose top slopes to one side only is presumed to belong to the owner of that side. Shared ownership means shared costs: each owner pays for maintenance in proportion to their rights. You can raise a shared wall at your own expense, but you cannot pierce it or lean structures on it without the neighbour's agreement. Ask the notary whether the title mentions the wall; it is the cheapest way to avoid a first quarrel.",
+      },
+      {
+        heading: "How far from the line must hedges and trees be?",
+        body: "Unless a local regulation or a recognised local custom says otherwise, the Civil Code (article 671) requires trees and hedges that grow above 2 metres to stand at least 2 metres from the dividing line, and anything under 2 metres to stand at least 50 centimetres away. The height is measured from the ground to the top of the plant, and the distance from the middle of the trunk to the line. A neighbour can ask for a plant that is too close to be pruned or removed without proving any harm. Two exceptions matter: if the planting has stood in the same place for thirty years, the right to demand removal is generally lost, and a lotissement document or the PLU can set different distances. Check the lotissement rules and the local urban plan before you plant a privacy hedge.",
+      },
+      {
+        heading: "Can a neighbour's window look onto your garden?",
+        body: "It depends on the distance. The Civil Code bars a direct view (a window or balcony looking straight onto the neighbour) closer than 1.90 metres to the boundary, and a side or oblique view closer than 60 centimetres. Beyond those distances the owner needs no consent. Closer than that, a window with obscured glass that does not open (a jour de souffrance) is allowed, subject to height rules. As with plantings, an opening that has existed for thirty years can become a protected right. When you visit a house, look at which walls have openings facing the garden next door, and ask whether any were added recently.",
+      },
+      {
+        heading: "What about rights of way and easements?",
+        body: "A plot with no access to a public road (an enclave) has a legal right to a right of way across a neighbour's land, usually on the shortest route and with compensation. Other easements, such as a drain, a pipe or a path crossing your plot, appear in the title or in the urbanisme certificate. A right of way that is only visible on the ground, say a track used for decades, does not always show in the deed. Walk the plot with the seller, and ask the notary to list every easement in the draft sale agreement.",
+      },
+      {
+        heading: "Which noise and nuisance rules apply?",
+        body: "French law does not set a fixed number of decibels for neighbours; it forbids disturbance that exceeds what neighbours can normally put up with, judged on the intensity, the repetition and the time of day. Many mayors and prefects issue local rules on garden machinery, and burning garden waste in the open is in principle forbidden by national rules, with local exceptions. The mayor's office or the town's website lists them. Agricultural noise, church bells and animals in genuinely rural areas are tolerated more than the same noise in a housing estate, which is why a visit at different times of day is worth the trouble.",
+      },
+      {
+        heading: "How should you handle a dispute?",
+        body: "Start with a friendly conversation, then a registered letter. Before going to court, most neighbour disputes must go through an attempt at conciliation or mediation, and a free conciliateur de justice sits in most town halls and courts. Keep dated photos and the survey report, because the burden of proof is yours. Your home insurance may include legal protection that pays the first costs, but many contracts exclude disputes that existed before you signed.",
+      },
+      {
+        heading: "What to check before you sign",
+        body: "Ask the notary or agent, in writing, for the title and any boundary survey, the lotissement rules, the list of easements, any pending dispute with a neighbour, and the PLU zone. Then walk the boundary with the seller and look at the fence, hedge, wall and windows. If you plan works, a short call to the mairie about authorisations is worth ten minutes. The cheapest neighbour dispute is the one you read about in the title before buying.",
+      },
+    ],
+    relatedCities: ["rennes", "tours", "angers", "poitiers", "limoges"],
+    tags: ["neighbours france", "boundary survey bornage", "party wall mitoyenneté", "hedge distance", "buying a house in France", "easements", "property checks"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

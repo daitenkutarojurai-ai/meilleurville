@@ -1049,6 +1049,36 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Travaux, réception et garanties des constructeurs",
+    emoji: "🏗️",
+    terms: [
+      {
+        term: "Réception des travaux",
+        def: "Acte par lequel le maître d'ouvrage déclare accepter les travaux, avec ou sans réserves, en présence de l'entreprise, le plus souvent par un procès-verbal daté et signé. C'est la date qui fait courir les garanties légales des constructeurs (parfait achèvement, biennale, décennale), d'où l'enjeu de la lister : une malfaçon visible au moment de la réception doit figurer en réserve sur le procès-verbal, sans quoi elle relève plus difficilement d'une garantie. Ne pas payer le solde avant d'avoir vérifié les réserves est l'usage prudent ; la retenue de garantie et la consignation du solde se négocient au contrat.",
+      },
+      {
+        term: "Garantie de parfait achèvement (1 an)",
+        def: "Pendant un an à compter de la réception, l'entrepreneur est tenu de reprendre les réserves du procès-verbal et les désordres signalés dans l'année, quelle que soit leur importance (article 1792-6 du Code civil). Les désordres apparus après la réception se notifient par lettre recommandée avec accusé de réception ; si l'entreprise ne répare pas après mise en demeure, le maître d'ouvrage peut faire exécuter les travaux par un tiers aux frais de l'entreprise, avec l'appui du juge au besoin.",
+      },
+      {
+        term: "Garantie biennale de bon fonctionnement (2 ans)",
+        def: "Elle couvre pendant deux ans à compter de la réception le mauvais fonctionnement des éléments d'équipement dissociables du bâti, c'est-à-dire ceux que l'on peut déposer sans abîmer la structure : radiateur, robinetterie, volet roulant, porte intérieure, chaudière (article 1792-3 du Code civil). Elle ne se confond pas avec la garantie décennale, qui vise les désordres touchant la solidité de l'ouvrage ou le rendant impropre à son usage, ni avec la garantie de parfait achèvement, plus courte mais plus large dans son objet.",
+      },
+      {
+        term: "Garantie décennale (10 ans)",
+        def: "Pendant dix ans à compter de la réception, les constructeurs répondent des dommages qui compromettent la solidité de l'ouvrage ou le rendent impropre à sa destination, même s'ils résultent d'un défaut du sol (article 1792 du Code civil). Elle se transmet aux propriétaires successifs : l'acheteur d'un logement de moins de dix ans en bénéficie. Les entreprises du bâtiment sont tenues de s'assurer pour cette responsabilité ; demandez l'attestation d'assurance décennale en cours de validité, qui précise l'activité couverte, avant de signer le devis et non après le sinistre.",
+      },
+      {
+        term: "Assurance dommages-ouvrage",
+        def: "Assurance que doit souscrire, avant l'ouverture du chantier, toute personne qui fait réaliser des travaux de construction. Elle préfinance la réparation des désordres de nature décennale sans attendre qu'on ait établi qui est responsable, puis l'assureur se retourne contre les entreprises. Le particulier qui revend dans les dix ans un logement construit ou rénové en gros œuvre doit annexer cette assurance à l'acte de vente ; son absence ne bloque pas la vente mais engage la responsabilité du vendeur et inquiète le notaire. Elle est facultative pour l'entreprise elle-même et pour des travaux sans effet sur la structure, ce qui explique les contrats d'artisans sans ce volet.",
+      },
+      {
+        term: "CCMI (contrat de construction de maison individuelle)",
+        def: "Contrat écrit et encadré par le Code de la construction et de l'habitation, par lequel un constructeur s'engage à bâtir une maison sur un terrain du client selon un plan convenu, pour un prix ferme et un délai fixés. Il impose notamment la garantie de livraison à prix et délais convenus, qui oblige un garant (souvent une banque ou un assureur) à faire terminer le chantier si le constructeur disparaît, et ouvre un délai de rétractation de dix jours après la notification du contrat. À distinguer de la VEFA, où l'on achète un logement dans un immeuble à construire, et du marché de travaux passé séparément avec chaque artisan, qui n'offre pas cette protection de bout en bout.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);

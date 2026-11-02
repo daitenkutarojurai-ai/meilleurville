@@ -73805,6 +73805,65 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["villes-seniors-retraite-france", "meilleures-villes-seniors-actifs-france-2026", "villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026", "villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026"],
     tags: ["villes les plus âgées", "part des 75 ans et plus", "vieillissement par ville", "où habitent les retraités", "démographie par ville", "villes seniors"],
   },
+  {
+    slug: "assurance-emprunteur-changer-loi-lemoine-france-2026",
+    title: "Assurance emprunteur : changer de contrat avec la loi Lemoine, mode d'emploi 2026",
+    metaTitle: "Assurance emprunteur : changer à tout moment (loi Lemoine)",
+    metaDesc:
+      "Depuis la loi Lemoine, on change d'assurance de prêt à tout moment et sans frais. Conditions, garanties équivalentes, démarches, pièges et exemple chiffré.",
+    category: "budget",
+    emoji: "🛡️",
+    readMinutes: 9,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Oui, on peut changer d'assurance de prêt immobilier à tout moment et sans frais : la loi Lemoine l'a ouvert à tous les contrats, quelle que soit la date de signature du prêt (depuis le 1er juin 2022 pour les nouveaux contrats, le 1er septembre 2022 pour les anciens). La seule condition est de présenter un contrat dont le niveau de garantie est équivalent à celui que la banque exige. L'enjeu est réel, car l'assurance est le poste le plus négociable d'un crédit : le taux du prêt est fixé par la banque, celui de l'assurance peut se comparer. Ce guide dit ce que la loi garantit, ce qu'elle ne garantit pas, et dans quel ordre faire les démarches pour ne jamais rester sans couverture.",
+    sections: [
+      {
+        heading: "Peut-on vraiment changer d'assurance emprunteur à tout moment ?",
+        body: "Oui, pour tout prêt immobilier d'un particulier. Avant 2022, la résiliation n'était possible qu'à la date anniversaire du contrat, avec un préavis (loi Hamon, puis amendement Bourquin). La loi Lemoine du 28 février 2022 a supprimé ces fenêtres : la résiliation est possible à n'importe quel moment de la vie du prêt, sans pénalité ni frais de dossier. Elle s'applique aux contrats signés depuis le 1er juin 2022 et, depuis le 1er septembre 2022, à tous les contrats en cours, y compris un prêt signé il y a dix ans. Le droit vise les personnes physiques qui empruntent pour un bien d'habitation ou à usage mixte ; un crédit professionnel ou un bien purement commercial n'entre pas dans ce cadre. La banque doit par ailleurs rappeler chaque année à l'emprunteur qu'il peut résilier, et comment.",
+      },
+      {
+        heading: "Quelle condition la banque peut-elle opposer ?",
+        body: "Une seule : l'équivalence des garanties. La banque ne peut pas refuser un contrat concurrent parce qu'il est moins cher ou parce qu'il ne vient pas d'elle ; elle ne peut le refuser que si les garanties proposées sont inférieures à celles exigées dans son offre de prêt, et elle doit alors motiver son refus. L'équivalence se juge sur les garanties que la banque a elle-même retenues pour accorder le prêt (décès, perte totale et irréversible d'autonomie, et selon le dossier invalidité et incapacité de travail), pas sur la présentation du contrat. Concrètement, comparez point par point les garanties listées dans votre offre de prêt avec la notice du contrat visé. La banque ne peut ni facturer le changement, ni modifier le taux ou les autres conditions du prêt à cause de la substitution.",
+      },
+      {
+        heading: "Qu'est-ce qui change pour la santé : questionnaire et droit à l'oubli ?",
+        body: "Le questionnaire de santé n'est plus exigé quand le total emprunté ne dépasse pas 200 000 € par assuré et que le prêt s'achève avant le 60ᵉ anniversaire de l'emprunteur. Le plafond s'apprécie tous prêts immobiliers confondus : un couple qui emprunte 360 000 € à deux, à 50 % chacun, est sous le seuil (180 000 € par tête) ; le même couple à 100 % chacun ne l'est pas. Au-delà, des formalités médicales restent possibles, et c'est là que le changement d'assureur peut être refusé pour raison de santé. La loi a aussi ramené à cinq ans le délai du droit à l'oubli pour les cancers et ajouté l'hépatite C aux pathologies concernées : passé ce délai après la fin du protocole thérapeutique, on n'a plus à déclarer la maladie. La grille de référence AERAS précise les cas et évolue ; vérifiez-la à la date de votre demande plutôt que de vous fier à un souvenir.",
+      },
+      {
+        heading: "Combien peut-on économiser, avec un ordre de grandeur honnête ?",
+        body: "Tout dépend de l'âge, de la santé, du métier, de la quotité et du type de calcul. Pour fixer les idées, voici un calcul d'arithmétique pure, pas un tarif de marché : sur 200 000 € empruntés pendant 20 ans, une cotisation de 0,30 % l'an du capital initial coûte 600 € par an, soit 12 000 € au total ; à 0,10 %, elle coûte 200 € par an, soit 4 000 €. L'écart est de 8 000 €. Retenez la mécanique : l'économie est proportionnelle au capital restant à couvrir et à la durée qui reste, donc elle est maximale dans les premières années. Les taux réels dépendent des assureurs ; la fiche standardisée d'information et le taux annuel effectif de l'assurance (TAEA) qui figurent dans toute offre permettent de comparer ce qui est comparable.",
+      },
+      {
+        heading: "Dans quel ordre faire les démarches ?",
+        body: "Cinq étapes, dans cet ordre. Un : relevez dans votre offre de prêt la liste exacte des garanties exigées et la quotité de chaque emprunteur. Deux : demandez des devis à des assureurs externes, en précisant le capital restant dû et la durée restante, pas le montant initial. Trois : comparez le TAEA et la notice, en lisant les exclusions (sports, professions, affections antérieures). Quatre : l'assureur retenu vous envoie l'acceptation et, le plus souvent, se charge d'adresser la demande de substitution à la banque. Cinq : n'arrêtez l'ancien contrat qu'une fois la nouvelle couverture acceptée par la banque et datée ; une période sans assurance valide peut mettre le prêt en défaut. L'avenant au prêt qui acte le changement est établi par la banque.",
+      },
+      {
+        heading: "Faut-il changer quand le prêt est déjà bien entamé ?",
+        body: "Pas toujours. Si l'assurance est calculée sur le capital restant dû, la cotisation baisse d'elle-même avec le temps, et l'économie possible s'amenuise avec les années : à cinq ans de la fin, le gain est souvent trop faible pour justifier une démarche. À l'inverse, un contrat de groupe calculé sur le capital initial reste identique jusqu'au dernier mois : c'est là que la bascule vers un contrat individuel rapporte le plus. Deuxième réserve : si votre état de santé s'est dégradé depuis la signature et que votre prêt dépasse les seuils sans questionnaire, un nouvel assureur peut refuser ou surtarifer. Votre contrat actuel ne peut pas, lui, être modifié pour ce motif.",
+      },
+      {
+        heading: "Choisir sa quotité et ses garanties à l'achat",
+        body: "Le meilleur moment pour réfléchir reste la signature, parce que la loi permet de choisir un assureur externe dès le départ (la délégation d'assurance), sans attendre un an. L'assurance n'est pas obligatoire au sens de la loi, mais aucune banque n'accorde un prêt immobilier sans elle. La quotité répartit le risque entre les co-emprunteurs : 100 % chacun protège totalement le survivant mais coûte plus cher ; 50/50 coûte moins et laisse la moitié du prêt à la charge du survivant. Un couple dont un seul revenu porte le ménage n'a pas le même calcul qu'un couple à revenus égaux. Les garanties décès et perte totale et irréversible d'autonomie sont le socle ; l'incapacité de travail et l'invalidité sont celles où les contrats diffèrent le plus, notamment sur la définition (profession exercée ou toute profession).",
+      },
+      {
+        heading: "Que faire si la banque refuse ou traîne ?",
+        body: "Demandez le refus par écrit, avec le motif : la loi impose qu'il soit justifié par une garantie manquante, pas par une préférence commerciale. Si un point manque réellement, l'assureur concurrent peut compléter la garantie et vous redéposez le dossier. Si le refus paraît injustifié, la réclamation écrite auprès de la banque est la première étape, puis le médiateur désigné dans l'offre de prêt, et au besoin l'ACPR, le régulateur de la banque et de l'assurance, qui reçoit les signalements de pratiques contraires à la loi. Conservez les accusés de réception et les échanges écrits.",
+      },
+      {
+        heading: "Le calcul honnête",
+        body: "Changer d'assurance de prêt est l'une des rares démarches où un quart d'heure de comparaison peut valoir plusieurs milliers d'euros, mais seulement s'il reste de la durée et du capital à couvrir et si l'on conserve les garanties qui comptent. Avant de signer quoi que ce soit, relisez l'offre de prêt, fixez la quotité avec votre co-emprunteur, demandez trois devis sur le capital restant dû et comparez le TAEA. Si le gain annuel est inférieur à une centaine d'euros ou si la fin du prêt est proche, laissez tomber ; sinon, faites-le avant que l'écart ne fonde avec le capital remboursé.",
+      },
+    ],
+    relatedCities: ["lille", "rennes", "tours", "montpellier", "strasbourg"],
+    relatedGuides: [
+      "ptz-pret-taux-zero-2026-guide-complet",
+      "acheter-avec-pret-familial-france-2026",
+      "succession-immobilier-france-guide-2026",
+    ],
+    tags: ["assurance emprunteur", "loi Lemoine", "changer assurance prêt", "délégation d'assurance", "TAEA", "droit à l'oubli", "quotité", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
