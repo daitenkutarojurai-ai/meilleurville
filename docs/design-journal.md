@@ -1260,3 +1260,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hubs `/environnement` / `/risques`.
 2. Pages `/tags` et `/tags/[slug]`.
 3. Hub `/louer-ou-acheter` (classement national lié depuis la sous-page).
+
+## 2026-11-02 ~16:00 UTC — hub `/environnement` (FR) + EN `/environment`
+
+**Surface** : le palmarès national environnement, lié depuis le quartet air/bruit/eau/risques. Le run de 11:00 n'a laissé ni commit ni journal. Avant : un seul bloc sur fond de page, `Badge` gris, tableaux en `Card` à en-tête gris, tuiles macro-régions et quartet en `Card` grises à emoji nu.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🌿 aqua, titre partiel en `.gradient-text`, badges en pilules (`grad-head-0` + blanches indigo) ; top 30 en `band-indigo` (tableau blanc à ombre indigo, en-tête lavande indigo, survol lavande) ; top 20 exposées en `band-pink` (en-tête rose `#9D174D`) ; méthodologie en `band-sky` ; macro-régions en `band-lilac` (tuiles blanches + `EmojiBadge toneFor(i)`) ; profils sensibles (FR) en `band-white` ; quartet en `band-aqua`. h2 en `.gradient-text`. Imports `Card`/`Badge` retirés. Couleurs de niveau (`ENV_LEVEL_COLOR`, rouge du stress) conservées. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/environnement` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hub `/risques` (FR) + EN `/natural-risks` (même schéma), puis les pages `[macroregion]` des deux hubs.
+2. Pages `/tags` et `/tags/[slug]`.
+3. Hub `/louer-ou-acheter` (classement national).
