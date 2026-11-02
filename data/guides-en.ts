@@ -58318,6 +58318,306 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["rennes", "tours", "angers", "poitiers", "limoges"],
     tags: ["neighbours france", "boundary survey bornage", "party wall mitoyenneté", "hedge distance", "buying a house in France", "easements", "property checks"],
   },
+  {
+    slug: "moving-to-metz-2026",
+    title: "Moving to Metz in 2026: Luxembourg commuters and a limestone old town",
+    metaTitle: "Moving to Metz 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Metz: a two-room flat at €680, Luxembourg 45 minutes by train, a medieval centre that needs a permit on moving day, and what landing costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Metz is one of the cheapest large cities in France to move into, and one of the best placed if your job is across the border: a two-room flat averages €680, buying costs about €2,300 per square metre, Luxembourg is 45 minutes by train and Paris 1 hour 20 by TGV. The price of that is a medieval centre in yellow Jaumont stone that tests every removal van, a bus rapid transit network (Mettis) that is efficient but concentrated, and a hilly, watery geography. This guide puts the arrival in order: lease, district, moving day, paperwork, local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €500 for a studio, €680 for a two-room flat, €910 for a three-room. There is no rent cap and the commune is not zone tendue in the strict sense, so agency fees sit at the legal ceiling of €8 per square metre plus €3 per square metre for the inventory, roughly €500 on a 45 square metre flat. It is among the calmest markets of any large French city: decent flats stay listed for weeks, viewings are individual and competition on paperwork is moderate. The local twist is the cross-border worker. Roughly 100,000 people from Lorraine work in Luxembourg, which sustains steady demand along the northern rail axis (Woippy, Hagondange) and in the communes with road-sharing access to the A31 motorway. Some landlords therefore ask for more income than the flat justifies, because cross-border salaries are high.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three French payslips, the latest French tax notice and past rent receipts. If your income is Luxembourgish, ask the landlord early whether payslips from the Grand Duchy are accepted, because Metz owners see them often and usually say yes. Visale, the free Action Logement rent guarantee, covers some profiles and removes the guarantor problem; check eligibility on its official site before you view. Otherwise the standard is a guarantor resident in France earning three times the rent. Be wary of long-lease demands combined with unusually high income thresholds: the bar is sometimes raised for no reason.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. The historic centre, around Île Sainte-Croix, place Saint-Louis and the Saint-Étienne cathedral, is central with Mettis at the door and the highest local prices. Le Sablon, the comfortable residential quarter to the south, is fifteen minutes from the centre and much wanted by families and young executives. Devant-les-Ponts and the Île du Saulcy suit students, with decent space for the money and the campus on the doorstep. Metz-Nord and Bellecroix suit tight budgets: renovated large estates, unbeatable rents, adequate transport. Cross-border workers also look at Woippy, Talange and Hagondange, on the Moselle corridor with direct access to the Metz–Luxembourg line, where trains run about every twenty minutes at peak. The classic mistake is signing at Amnéville or in a village off the corridor on price alone: the car becomes compulsory for everything, and the A31 is saturated at rush hour.",
+      },
+      {
+        heading: "Moving day: a medieval centre, Mettis and permits",
+        body: "Metz logistics have two quirks. The historic centre is tightly constrained: the narrow streets around the cathedral, place Saint-Louis and the pedestrian rue Serpenoise need a temporary occupancy permit from the city, requested one to two weeks ahead, with early slots before 9 a.m. And the Mettis lines, A and B, cross the city north–south and east–west with no stopping outside stations, so park the van clear of the reserved lanes. Jaumont-stone buildings often have narrow stairs; a furniture lift works on the wide avenues (rue Serpenoise, avenue Foch) but rarely in the medieval alleys. Check the Crit'Air sticker on the van for the low-emission zone, which is modest but active. Best slot: Saturday morning or a weekday before 10 a.m., avoiding the Christmas market in December and the Mirabelle festival in August.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership of the goods, and a valued inventory on cerfa 10070. From within the EU nothing is required. If you are crossing from Luxembourg or Germany with a van, Metz is a short drive on the motorway, so a small move can reasonably be done yourself. Book the permit for the centre before you book the van, not after.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €680: a deposit of one month excluding charges, around €640, the first month up front, and agency fees at the legal ceiling, roughly €500 on 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Nancy thirty minutes away, Luxembourg 45 minutes and Strasbourg an hour and a half, and €1,100 to €2,500 for a three-room flat from Paris, 330 kilometres of fast motorway. A complete setup for a couple renting runs €2,200 to €4,000, among the gentlest of any large French city. Local lines to budget: the LE MET' season ticket for Mettis and the feeder buses, and, if you work in Luxembourg, a Metz–Luxembourg rail pass at roughly €350 to €450 a month for a daily return, which employers often refund only in part. Provision for winter heating too: the climate is continental, with hard frosts and real snow some weeks.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well deployed across the metropolitan area. Home insurance before you take the keys, a legal duty for a French tenant. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the LE MET' pass, a resident parking permit if the car stays on a paid street in the centre, and cards for the municipal libraries and pools. Register with a médecin traitant, the declared family doctor who sets your reimbursement rate: pressure is moderate for a hospital city, and the health centres in Montigny-lès-Metz and Woippy still take patients. If you will work in Luxembourg, register with the Luxembourg employment agency and its social-security centre, and read the France–Luxembourg tax treaty carefully; an accountant who knows cross-border cases is worth the fee in year one.",
+      },
+      {
+        heading: "The traps specific to Metz",
+        body: "Five. One, underestimating the Moselle and the Seille in flood: parts of the Île du Saulcy and some low faubourgs sit in a flood-risk plan, so ask for the IAL, the mandatory risk disclosure for tenants and buyers. Two, Jaumont-stone flats without reading the energy rating: the stone regulates temperature well, but poorly renovated stock is harsh in January. Three, overpriced furnished student lets around the Saulcy campus in September. Four, signing at Amnéville, Rombas or Marange-Silvange on price alone, because off the Moselle rail corridor the car is compulsory. Five, trusting the train for every commuting day: strikes on both sides of the border are more frequent than elsewhere, so organise a carpool plan B from week one.",
+      },
+    ],
+    relatedCities: ["metz","thionville","nancy"],
+    tags: ["moving to france","metz","relocation","lorraine","luxembourg commuters"],
+  },
+  {
+    slug: "moving-to-nancy-2026",
+    title: "Moving to Nancy in 2026: a UNESCO square and 48,000 students",
+    metaTitle: "Moving to Nancy 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Nancy: a two-room flat at €710, TGV to Paris in 1 h 30, an Art Nouveau centre with moving-day permits, and a realistic landing budget.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Nancy pairs an exceptional centre, Place Stanislas being a UNESCO site and the Art Nouveau school the densest in France, with a student population of 48,000, a two-room flat averaging €710 and a TGV to Paris in 1 hour 30. The rental market is far calmer than in Rennes or Angers, moving day is helped by a flat, well-organised city outside the historic sector, and the cost of living stays reasonable. This guide runs the arrival in practical order: lease, district, moving day, paperwork, local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €510 for a studio, €710 for a two-room flat, €950 for a three-room. No rent cap, and the commune is not zone tendue in the strict sense, so agency fees sit at the legal ceiling of €8 per square metre plus €3 for the inventory, about €500 on a 45 square metre flat. Outside the student rush, decent flats stay listed for weeks, viewings are individual and selection is reasonable. About 48,000 students (the University of Lorraine, engineering schools, the art and architecture schools, Sciences Po) create a short tightening in late August and early September around the campuses at Aiguillettes in Vandœuvre, Saurupt and Boudonville and nearby districts such as Poincaré and Saint-Léon. Many Nancy landlords prefer long leases and stable tenants, which is a signal worth sending.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Expect to produce identity, three French payslips, the latest French tax notice and past rent receipts, none of which a new arrival from abroad has. The usual substitute is Visale, the free rent guarantee run by Action Logement; check eligibility on the official site before viewing. Otherwise a French-resident guarantor earning three times the rent works, as does a signed French employment contract with a letter from the employer. Because Nancy is not a pressured market, you can afford to view in person and ask about the energy rating before applying.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. The historic centre, around Place Stanislas, the Carrière and the Old Town, has tram T1 at the door, the highest local prices and an extraordinary setting. Poincaré–Foch, the comfortable residential south-west, is popular with executives and families, five minutes from the centre. Saint-Léon and the station area are central and practical for TGV commuters to Paris, with good space for the money. Haussonville, Léopold and Boudonville suit students and tight budgets: younger, cheaper, with a direct tram to the centre. Families also look at Vandœuvre-lès-Nancy, Villers-lès-Nancy and Laxou, the immediate suburbs with well-regarded schools. The classic mistake is signing at Jarville, Maxéville or Frouard on price alone: tram T1 stops at the edge of the tight agglomeration, buses beyond are efficient but less frequent, and the car becomes useful again.",
+      },
+      {
+        heading: "Moving day: Art Nouveau, the tram and permits",
+        body: "Nancy logistics are gentle: the city is mostly flat, suburban streets are wide and a van parks properly in most residential districts. Two points need care. The historic and pedestrian sector (Place Stanislas, rue Saint-Georges, rue des Dominicains) needs a temporary occupancy permit from the city, requested one to two weeks ahead, with early slots before 9 a.m. And the Art Nouveau and Belle Époque buildings often have wrought-iron stairs that complicate bulky furniture; a lift works on the big avenues (cours Léopold, rue Poincaré) but rarely in the old alleys. Tram T1 rails change traffic in the centre, so keep the van clear of them. Check the Crit'Air sticker for the low-emission zone, and avoid the Christmas market in December and Nancy Jazz Pulsations in October.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership of the goods and a valued inventory on cerfa 10070. Nothing is required from inside the EU. Nancy is closer to Germany, Luxembourg and Belgium than to most of France's big cities, so a European van move is straightforward by motorway. Book the centre permit before the van.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €710: a deposit of one month excluding charges, around €670, the first month up front, and agency fees at the legal ceiling, roughly €500 on 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Metz thirty minutes away, Épinal and Lunéville close and Strasbourg an hour and a half, and €1,200 to €2,500 for a three-room flat from Paris, 400 kilometres by the A4 and A31, an easy day. A complete setup for a couple renting runs €2,300 to €4,100, among the gentlest of the large French cities. Local lines: the STAN pass for tram T1 and the buses, and a TER ticket if you work in Metz or Luxembourg. Provision for winter heating: the climate is continental, with hard frosts and regular snow.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well deployed across the metropolitan area. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the STAN pass, the vélOstan bike share for a long-term bike, a resident parking permit if the car stays on a paid street in the centre, and the municipal culture-and-sport card for libraries, pools and the Aquarium-Museum. Register with a médecin traitant, the declared family doctor who sets your reimbursement rate: pressure is moderate for a teaching-hospital city, and the health centres in Vandœuvre, Villers-lès-Nancy and Laxou still take patients. Join an association in week one; Nancy is a student and cultural city and clubs are the main social door.",
+      },
+      {
+        heading: "The traps specific to Nancy",
+        body: "Four. One, underestimating the Lorraine winter: lasting frosts and regular snow from December to February punish a badly insulated flat in the old centre, so read the energy rating and the heating line. Two, overpriced furnished student lets around the Aiguillettes campus and the engineering schools in September. Three, treating Nancy and Metz as interchangeable: Nancy is university, cultural and Art Nouveau, Metz is cross-border, medieval and more institutional, and the job pools differ. Four, signing in the far ring at Neuves-Maisons, Frouard or Champigneulles on price alone, because public transport thins out and the A31 is regularly congested. Nancy remains one of the best heritage-to-cost ratios in France, provided you prepare.",
+      },
+    ],
+    relatedCities: ["nancy","metz","epinal"],
+    tags: ["moving to france","nancy","relocation","lorraine","cost of living"],
+  },
+  {
+    slug: "moving-to-saint-etienne-2026",
+    title: "Moving to Saint-Étienne in 2026: the cheapest big city, and its hills",
+    metaTitle: "Moving to Saint-Étienne 2026 — Rents, Costs, Hills",
+    metaDesc:
+      "Moving to Saint-Étienne: a two-room flat at €580, three tram lines, a valley city with steep streets, and the cost of landing in France's cheapest big city.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Saint-Étienne has one of the most accessible rental markets of any large French city: a two-room flat averages €580, a three-room €770, and part of the stock sells for under €1,500 per square metre, figures that undercut Lyon, Grenoble or Clermont-Ferrand. The trade-off is a valley city organised around three tram lines, a population that has been slowly shrinking since the 1970s in a post-industrial region that is converting slowly, a damp semi-continental climate and a centre that alternates nineteenth-century workers' housing with renovated large estates. This guide puts the arrival in order.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €420 for a studio, €580 for a two-room flat, €770 for a three-room. No rent cap, outside zone tendue in the strict sense, with agency fees at the legal ceiling of €8 per square metre plus €3 for the inventory, about €500 on a 45 square metre flat. The market is clearly slack: decent flats stay listed for weeks outside the university rentrée, selection on paperwork is moderate and negotiating is possible on a flat that has been empty a month. About 20,000 students (Jean Monnet University, the Mines engineering school, the ESADSE design school, the Tréfilerie technology institute) create a brief tightening in late August and early September, mostly around the Tréfilerie and Métare campuses. Many landlords accept a family guarantor without insisting on an agency.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three French payslips, the latest French tax notice and past rent receipts. A new arrival usually lacks the last two. Visale, the free Action Logement guarantee, is the standard substitute; check eligibility before viewing. Otherwise a French-resident guarantor earning three times the rent. In a slack market a private landlord who sees a signed French contract and a clear explanation will often take the file without an agency.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. The inner core around Hôtel de Ville, Sainte-Marie and Fauriel is central, with trams T1, T2 and T3 at the door and the highest local prices, very modest nationally. Bellevue and Le Colisée form the comfortable residential quarter for families and executives. Bergson and Tréfilerie suit the university and young professionals. Chateaucreux, Carnot and La Terrasse give large flats on a tight budget in renovated 1960s and 1970s blocks with a direct tram. Families also look at Saint-Priest-en-Jarez, La Terrasse and Saint-Genest-Lerpt in the ring for houses. The classic mistake is signing at Sorbiers, Saint-Just-Saint-Rambert or Firminy on price alone: the car becomes compulsory, the A72 saturates at rush hour and heating bills climb with altitude.",
+      },
+      {
+        heading: "Moving day: a valley city and its slopes",
+        body: "Saint-Étienne logistics have two quirks. The city stretches nearly 14 kilometres along a north–south valley with sharp local gradients: Métare climbs to 550 metres, the centre sits at 520 and Chateaucreux at 505, so some cross streets are steep and the van deserves a reconnaissance. The three tram lines share the road on the main axes (Cours Fauriel, rue de la République), so park clear of the reserved lanes and stops. The pedestrian centre around place Jean Jaurès needs a temporary occupancy permit from the city, requested one to two weeks ahead. Nineteenth-century workers' buildings in Chappe, Beaubrun or Sainte-Marie have narrow stairs, while a furniture lift works on the big avenues of the rebuilt centre. Check the Crit'Air sticker, as the low-emission zone is still being rolled out across the metropolitan area. Best slot: Saturday morning or a weekday before 10 a.m.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership and a valued inventory on cerfa 10070. Nothing is needed from within the EU. Because Lyon is only fifty minutes away, many international arrivals land at Lyon airport and use a regional removal firm for the last leg, which is cheaper than a long-haul quote to Saint-Étienne directly.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €580: a deposit of one month excluding charges, around €540, the first month up front, and agency fees at the legal ceiling, roughly €500 on 45 square metres including the inventory. The removal runs €300 to €700 for a studio from within the region, with Lyon fifty minutes away, Clermont-Ferrand an hour and a half and Grenoble two hours, and €900 to €2,000 for a three-room flat from Paris, 500 kilometres by the A7 and A72 in about five hours. A complete setup for a couple renting runs €1,900 to €3,200, among the gentlest budgets of any French metropolis. Local lines: the STAS pass for trams and buses, the VéliVert bike share, and sometimes an electric bike, since some climbs justify one. Provision for winter heating: the climate is semi-continental, with regular frosts from December to February and occasional snow.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre across most of the city. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the STAS pass, a resident parking permit if the car stays on a paid street in the core, and the municipal culture-and-sport card for libraries, pools, the ice rink and the modern art museum. Register with a médecin traitant, the declared family doctor who sets your reimbursement rate: pressure is real but less critical than in overheated metropolises, and the multi-professional health centres around Saint-Chamond, Firminy and Roche-la-Molière still take patients. A sports or cultural club, or a hiking group for the nearby Pilat, is an effective social door in a city that welcomes newcomers fairly well.",
+      },
+      {
+        heading: "The traps specific to Saint-Étienne",
+        body: "Four. One, underestimating vacancy and degraded co-ownerships: the nineteenth-century and 1960s stock still has many fragile buildings. Several renewal programmes are running (Tarentaize, Beaubrun), but some addresses remain technically problematic, so ask for the building's technical diagnosis and the last three years of owners' meeting minutes before accepting an attractive flat. Two, ground-floor flats on damp courtyards, structural in the old workers' stock: check ventilation and exposure on a morning viewing. Three, hilltop addresses (Rochetaillée, upper Métare, Villars) chosen for the view without weighing winter: slopes, ice, four to six weeks of snow and heating 20 to 30 percent above the valley floor. Four, comparing the city's dynamism with neighbouring Lyon. Saint-Étienne is slowly recovering from the post-Manufrance decline and should be judged on its own scale: accessibility, space to breathe, the mountains nearby.",
+      },
+    ],
+    relatedCities: ["saint-etienne","roanne","firminy","lyon"],
+    tags: ["moving to france","saint-etienne","relocation","rhone-alpes","cheap french cities"],
+  },
+  {
+    slug: "moving-to-brest-2026",
+    title: "Moving to Brest in 2026: rain, wind and a very easy rental market",
+    metaTitle: "Moving to Brest 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Brest: a two-room flat at €650, a city split by the Penfeld, wind that can stop a removal, and a realistic landing budget in Brittany.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Brest is one of the easiest large French cities to find a home in: a two-room flat averages €650 and buying costs about €2,500 per square metre. In return you get a city rebuilt after the Second World War around a naval harbour, split by the Penfeld river, a very wet oceanic climate with around 200 days of rain a year and a westerly wind that is the price of mild winters, since hard frost is rare. The TGV reaches Paris in 3 hours 30. This guide puts the arrival in order: lease, district, moving day, paperwork, local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €480 for a studio, €650 for a two-room flat, €850 for a three-room. No rent cap, and the commune is not zone tendue in the strict sense, so agency fees sit at the legal ceiling of €8 per square metre plus €3 for the inventory, about €500 on a 45 square metre flat. The market is clearly calmer than in Rennes or Nantes: decent flats stay listed for weeks outside the rentrée and selection on paperwork is reasonable. About 25,000 students (the UBO university, the ENIB and ISEN engineering schools, the naval school at Lanvéoc) create a brief tightening in late August and early September around the Bouguen campus and the Ségalen faculty. Brest forgives atypical files: Navy personnel, Ifremer researchers and foreign academics are familiar to local landlords.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "The expected dossier is identity, three French payslips, the latest French tax notice and past rent receipts. If you lack the French documents, Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility on its official site before you view. A French-resident guarantor on three times the rent also works. Because landlords here are used to naval postings and visiting researchers, a clear employment letter and a short explanation of your arrival date usually go a long way.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. Siam–Liberté, the rebuilt centre around rue de Siam, is the commercial heart with tram A at the door and the highest local prices, still very reasonable. Saint-Louis and Recouvrance, on the right bank of the Penfeld and reachable by the urban cable car, form a historic district being reclaimed, with harbour views and contained prices. Saint-Marc and Petit Paris are the calm comfortable residential quarters for families and executives. Bellevue and Kerichen suit the university, young professionals and students. Lambézellec and Kerinou suit larger families on a tight budget, in 1960s and 1970s blocks with tram or frequent buses. The close ring (Guipavas, Le Relecq-Kerhuon, Plougastel-Daoulas) offers houses and sea views. The classic mistake is signing at Plouzané, Saint-Renan or in the Iroise country for the sea setting without measuring the daily distance: the car becomes compulsory and the RN12 saturates at rush hour.",
+      },
+      {
+        heading: "Moving day: a river, wind and permits",
+        body: "Brest logistics have three quirks. The Penfeld cuts the city in two, the rebuilt centre on the left bank and Recouvrance and Saint-Pierre-Quilbignon on the right. Two road bridges (Recouvrance and Harteloire) and the urban cable car, which carries pedestrians, cyclists and prams, link the banks, so the van must use the bridges. Tram A crosses the centre on the main axes (avenue Jean Jaurès, rue de Siam), so park clear of the reserved lanes. Recouvrance has narrow streets inherited from the partly preserved old Brest, and a furniture lift helps. The westerly wind, with regular gusts of 60 to 90 km/h from October to March, complicates carrying boards and mattresses: postpone if gusts exceed 60 km/h, which is common in winter. Check the Crit'Air sticker. Best slot: Saturday morning or a weekday before 10 a.m., outside a westerly storm.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership and a valued inventory on cerfa 10070. Nothing is required from inside the EU. Brest sits at the far end of Brittany, so a long-distance van from Paris or abroad is a day's drive, and removal firms price that distance in. Compare a regional firm collecting from Rennes.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €650: a deposit of one month excluding charges, around €610, the first month up front, and agency fees at the legal ceiling, roughly €500 on 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Quimper and Morlaix an hour away and Rennes two and a half hours, and €1,500 to €3,200 for a three-room flat from Paris, 590 kilometres by the A11 and N165, six to seven hours. A complete setup for a couple renting runs €2,200 to €3,900, among the gentlest of the large French cities. Local lines: the Bibus pass covering tram A, the dense bus network and the cable car, and the Bibus'V bike share, useful only in the flat centre since Saint-Marc and Recouvrance climb quickly. Provision for heating: the oceanic climate is mild but very humid, and ventilation matters.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well deployed across the metropolitan area. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the Bibus pass, a resident parking permit in the paid zones of the Siam centre, and the municipal culture card for libraries, Océanopolis at the resident rate and the Quartz performing arts centre. Register with a médecin traitant, the declared family doctor who sets your reimbursement rate: pressure is moderate for a university city of this size, with the Brest teaching hospital, and the health centres in the metropolitan area still take patients. A sailing, rowing or diving club, or a hiking group for the nearby Crozon peninsula, is the effective social door; Brest has a reputation for welcoming well but slowly.",
+      },
+      {
+        heading: "The traps specific to Brest",
+        body: "Four. One, underestimating damp: the wet oceanic climate, around 1,200 mm of rain a year, demands efficient mechanical ventilation and daily airing, and ground floors on shaded courtyards or dark stairwells in Recouvrance can turn mouldy quickly. Two, underestimating the wind: gusts of 60 to 90 km/h are regular from October to March, so poor sound insulation, old window frames and an exposed west façade become tiring daily. Three, signing at Plouzané, Guilers or in the Iroise country for the setting without measuring the commute, because the car becomes compulsory and the RN12 saturates in winter wind. Four, underestimating psychological distance: Brest is the far end of the rail network, 3 hours 30 from Paris, so a weekend visit is not enough for relatives. Brest rewards those who really settle in and adopt the sea.",
+      },
+    ],
+    relatedCities: ["brest","quimper","morlaix"],
+    tags: ["moving to france","brest","relocation","brittany","cost of living"],
+  },
+  {
+    slug: "moving-to-amiens-2026",
+    title: "Moving to Amiens in 2026: Gothic cathedral, canals and Paris in an hour",
+    metaTitle: "Moving to Amiens 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Amiens: a two-room flat at €680, Paris in 1 h 05 by TER, the canal district Saint-Leu on moving day, and what landing really costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Amiens offers one of the largest Gothic cathedrals in France (a UNESCO site), the canal district of Saint-Leu, a strategic position (Paris in 1 hour 05 by regional train) and an affordable rental market: a two-room flat averages €680. Against that, a cool, windy oceanic climate, a student population of 30,000 at the University of Picardy Jules Verne that sets the city's rhythm, and old buildings rebuilt after 1918 and 1944 that need attention at viewings. This guide puts the arrival in order: lease, district, moving day, paperwork, local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €490 for a studio, €680 for a two-room flat, €900 for a three-room. No rent cap, outside zone tendue in the strict sense, with agency fees at the legal ceiling of €8 per square metre plus €3 for the inventory, about €500 on a 45 square metre flat. Pressure is moderate thanks to the 30,000 students but manageable outside the university rush. The tight window runs from mid-August to mid-September; the calm one from November to February. Many Amiens landlords prefer long leases and stable tenants, and the city is used to absorbing large yearly flows of newcomers.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Expect to produce identity, three French payslips, the latest French tax notice and past rent receipts. Without them, Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility before viewing. A French-resident guarantor earning three times the rent also works. If you are an international student, the university housing office and the regional student housing service are worth a call before you search privately.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. Saint-Leu, the canal district in the shadow of the cathedral, offers a café-and-brasserie atmosphere and exceptional charm, the highest local prices but everything on foot. Cathédrale–Beffroi, the hyper-centre around place au Fil and Trois Cailloux, is central with the Nemo bus rapid transit at the door. Henriville is the calm residential quarter for families and executives. Sainte-Anne gives the best space for the money in renovated 1960s and 1970s blocks with a direct bus to the centre. Étouvie and Amiens-Nord suit larger families on a tight budget. Families also look at Camon, Longueau and Salouël in the ring. The classic mistake is signing at Abbeville or Corbie on price alone: the car becomes compulsory and the A16 and D1029 saturate at rush hour.",
+      },
+      {
+        heading: "Moving day: canals, narrow bridges and permits",
+        body: "Amiens logistics have three quirks. In Saint-Leu, the pedestrian sector around place du Don and rue Belu has narrow lanes from the preserved medieval and seventeenth-century fabric, and low or narrow bridges that exclude a big truck. A temporary occupancy permit from the city, requested one to two weeks ahead, is essential inside the canal quadrilateral, and a furniture lift is almost systematic above the second floor in historic buildings. The Nemo bus rapid transit, four lines N1 to N4 that have structured the area since 2019, crosses the city on the main axes (rue de la République, rue Jean Catelas, boulevard de Belfort), so park clear of the reserved lanes. Check the Crit'Air sticker. Best slot: Saturday morning or a weekday before 10 a.m. Outside the centre, the flat terrain makes it simple.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership of the goods and a valued inventory on cerfa 10070. Nothing is required from within the EU. Amiens is about 150 kilometres from Paris, so a van from the capital or from the Channel ports is a short motorway run, and cross-Channel arrivals can reach it in a few hours.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €680: a deposit of one month excluding charges, around €640, the first month up front, and agency fees at the legal ceiling, roughly €500 on 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Beauvais and Arras an hour away and Rouen 1 hour 45, and €700 to €1,800 for a three-room flat from Paris, 150 kilometres by the A16 then the A29, two to two and a half hours. A complete setup for a couple renting runs €2,000 to €3,500, among the gentlest of the large French cities. Local lines: the Ametis pass for the Nemo lines and feeder buses, the Buscyclette bike scheme, and a utility bike, since the city is flat and well served by cycle lanes. Provision for winter heating: the oceanic climate is cool, windy and humid.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well deployed across the metropolitan area. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the Ametis pass, a resident parking permit if the car stays on a paid street in the centre, and the municipal culture card for libraries and performing venues. Register with a médecin traitant, the declared family doctor who sets your reimbursement rate: pressure is moderate for a university city of this size, with the Amiens-Picardie teaching hospital, and the health centres around Longueau, Salouël and Rivery still take patients. A sports club, the Somme rowing, the June water festival or the floating gardens market are natural social doors.",
+      },
+      {
+        heading: "The traps specific to Amiens",
+        body: "Four. One, underestimating damp and ventilation: the cool, wet oceanic climate, 700 to 800 mm a year with high air humidity, combined with old, poorly ventilated brick buildings and basements, demands efficient mechanical ventilation and a careful exposure, so view on a weekday morning. Two, overpriced furnished student lets around the university campus and the law faculty, systematically €100 to €200 above reasonable in September. Three, the Hortillonnages, the floating-garden plots: picturesque, but some are reachable only by boat, so do not sign without weighing the daily logistics. Four, big events that saturate the centre (the Christmas market, the Joan of Arc festivities, the film festival), so check the calendar before fixing a move date. Amiens remains one of the best-placed installations in the north for a compromise of Paris nearby, very moderate costs and exceptional Gothic heritage.",
+      },
+    ],
+    relatedCities: ["amiens","abbeville","beauvais","arras"],
+    tags: ["moving to france","amiens","relocation","hauts-de-france","paris commuters"],
+  },
+  {
+    slug: "moving-to-orleans-2026",
+    title: "Moving to Orléans in 2026: an hour from Paris, with the Loire to watch",
+    metaTitle: "Moving to Orléans 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Orléans: a two-room flat at €700, Paris in about an hour by TER, two tram lines, flood-zone and heritage traps, and what landing costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro:
+      "Orléans sits an hour from Paris by regional train, with a Gothic cathedral, two tram lines and an accessible rental market: a two-room flat averages €700 and buying costs about €2,400 per square metre. The agglomeration stretches north–south along the Loire, the historic core is dense and protected, the university campus sits at La Source twelve kilometres to the south, and the climate is a temperate continental one with regular winter frosts and sometimes hot summers. This guide puts the arrival in order: lease, district, moving day, paperwork, local traps.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €510 for a studio, €700 for a two-room flat, €930 for a three-room. No rent cap, outside zone tendue in the strict sense, with agency fees at the legal ceiling of €8 per square metre plus €3 for the inventory, about €500 on a 45 square metre flat. Pressure is moderate, helped by 20,000 students (the University of Orléans campus at La Source, Polytech Orléans, art and design schools) and by job transfers to the research institutes CNRS and BRGM, since Orléans is a major scientific research hub. The tight window runs from mid-August to mid-September; the calm one from November to February. Many leases signed in September and October come from Paris-to-province transfers with solid files, so renovated flats near tram A or B are contested to the day. Orléans landlords accept a family guarantor without going through an agency.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Expect to produce identity, three French payslips, the latest French tax notice and past rent receipts. If you cannot, Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility before viewing. A French-resident guarantor earning three times the rent works too, and a signed contract with an employer's letter carries weight for people arriving on a corporate transfer, which is a common profile in Orléans. Starting your search in November rather than September removes much of the competition.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. Bannier and Madeleine, around place du Martroi and rue de la République, form the commercial hyper-centre with tram A at the door and the highest local prices, still reasonable. Bourgogne, on the east of the historic core, has an old-town atmosphere with picturesque lanes and is popular with singles and couples. Saint-Marceau on the left bank is the nineteenth-century residential quarter, favoured by families and executives for its schools, with a direct tram to the centre. Blossières in the north gives good space for the money in renovated 1960s and 1970s blocks. Argonne in the north-east is mixed and worth sorting street by street. Families also look at Olivet, Saint-Jean-de-Braye, Saint-Jean-le-Blanc and Fleury-les-Aubrais. The classic mistake is signing at La Source, twelve kilometres south, on student prices alone: the tram connects but takes about thirty minutes, and neighbourhood life is oriented to the university.",
+      },
+      {
+        heading: "Moving day: the old town, trams and the river",
+        body: "Orléans logistics have three quirks. The pedestrian historic centre around the Sainte-Croix cathedral, rue Sainte-Catherine and place du Martroi has narrow lanes from medieval and Renaissance fabric, and a temporary occupancy permit from the city, requested one to two weeks ahead, is essential inside the old walls. A furniture lift helps above the second floor in heritage-listed buildings. The two tram lines (A north–south, B east–west) share the road on the main axes (rue Jeanne-d'Arc, rue de la République, rue de Bourgogne, rue Royale), so park clear of the reserved lanes. And the Loire itself: low quays on the south side, around Saint-Marceau, are exposed in a hundred-year flood, so check the flood-risk plan if you sign on the left bank within 300 metres of the river. Check the Crit'Air sticker. Best slot: Saturday morning or a weekday before 10 a.m., avoiding the Joan of Arc festivities in late April and early May.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership and a valued inventory on cerfa 10070. Nothing is required from inside the EU. Orléans is about 130 kilometres from Paris by the A10, so a van from the Paris airports or ports is a short run.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €700: a deposit of one month excluding charges, around €660, the first month up front, and agency fees at the legal ceiling, roughly €500 on 45 square metres including the inventory. The removal runs €400 to €800 for a studio from within the region, with Chartres, Blois and Bourges an hour away and Tours an hour and a half, and €800 to €1,800 for a three-room flat from Paris, 130 kilometres by the A10 in about 1 hour 45. A complete setup for a couple renting runs €2,200 to €3,800, at the lower end of the large French cities. Local lines: the TAO pass for trams and buses, the VéloTAO bike share, a utility bike given the flat lower town and the Loire à Vélo route, and a resident parking permit in the paid central zones. Provision for winter heating: the climate is temperate continental, with regular frosts from November to March and a few snowy spells.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre across most of the metropolitan area. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the TAO pass, a resident parking permit if the car stays on a paid street in the centre, and the municipal culture card for libraries, the fine arts museum and venues. Register with a médecin traitant, the declared family doctor who sets your reimbursement rate: pressure is moderate for a prefecture and university city, with the Orléans regional hospital, and the multi-professional health centres in Olivet, Saint-Jean-de-Braye and Fleury-les-Aubrais still take patients. A sports club, rowing on the Loire or the Joan of Arc festivities are effective social doors.",
+      },
+      {
+        heading: "The traps specific to Orléans",
+        body: "Four. One, underestimating the constraints of the protected heritage sector in the historic centre: the flats are beautiful but subject to rules, so renovation is costly, insulation limited and heating often pushed up by old buildings, with punishing bills on an energy rating of E or F. Check the rating and the collective heating charges before signing. Two, signing on the Loire bank at Saint-Marceau or Saint-Jean-le-Blanc without checking the flood-risk plan: some low plots are in the red zone, so use the national risk site and read the risk statement attached to the lease. Three, ignoring the Joan of Arc festivities in late April and early May, which saturate the centre for ten days with traffic and parking restrictions and tight hotels; avoid a central move date in that window. Four, taking a flat at La Source on student prices while neglecting life outside the university calendar, which stays modest. Orléans remains one of the best-placed installations in France for a compromise of fast Paris access, moderate costs, Gothic heritage and the Loire à Vélo.",
+      },
+    ],
+    relatedCities: ["orleans","chartres","blois","tours"],
+    tags: ["moving to france","orleans","relocation","centre-val de loire","paris commuters"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

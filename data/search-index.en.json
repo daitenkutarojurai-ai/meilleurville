@@ -10165,6 +10165,36 @@
       "slug": "buying-house-france-neighbours-boundaries-hedges-party-walls-2026",
       "title": "Buying a house in France: neighbours, boundaries, hedges and party walls",
       "emoji": "🏡"
+    },
+    {
+      "slug": "moving-to-metz-2026",
+      "title": "Moving to Metz in 2026: Luxembourg commuters and a limestone old town",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-nancy-2026",
+      "title": "Moving to Nancy in 2026: a UNESCO square and 48,000 students",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-saint-etienne-2026",
+      "title": "Moving to Saint-Étienne in 2026: the cheapest big city, and its hills",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-brest-2026",
+      "title": "Moving to Brest in 2026: rain, wind and a very easy rental market",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-amiens-2026",
+      "title": "Moving to Amiens in 2026: Gothic cathedral, canals and Paris in an hour",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-orleans-2026",
+      "title": "Moving to Orléans in 2026: an hour from Paris, with the Loire to watch",
+      "emoji": "📦"
     }
   ],
   "tags": [
@@ -10181,7 +10211,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 268
+      "count": 274
     },
     {
       "slug": "single-parent-in-france",
@@ -10204,6 +10234,11 @@
       "count": 88
     },
     {
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 83
+    },
+    {
       "slug": "occitanie",
       "label": "occitanie",
       "count": 81
@@ -10219,9 +10254,9 @@
       "count": 77
     },
     {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 77
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 74
     },
     {
       "slug": "solo-travel",
@@ -10232,11 +10267,6 @@
       "slug": "travelling-alone-in-france",
       "label": "travelling alone in france",
       "count": 74
-    },
-    {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 73
     },
     {
       "slug": "single-parent-holidays",
@@ -10281,7 +10311,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 54
+      "count": 55
     },
     {
       "slug": "pays-de-la-loire",
@@ -10301,7 +10331,7 @@
     {
       "slug": "cost-of-living",
       "label": "cost of living",
-      "count": 47
+      "count": 49
     },
     {
       "slug": "normandy",
@@ -10316,7 +10346,7 @@
     {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 35
+      "count": 36
     },
     {
       "slug": "provence-alpes-cote-d-azur",
@@ -10549,8 +10579,18 @@
       "count": 7
     },
     {
+      "slug": "metz",
+      "label": "metz",
+      "count": 7
+    },
+    {
       "slug": "montpellier",
       "label": "montpellier",
+      "count": 7
+    },
+    {
+      "slug": "nancy",
+      "label": "nancy",
       "count": 7
     },
     {
@@ -10584,6 +10624,11 @@
       "count": 6
     },
     {
+      "slug": "brest",
+      "label": "brest",
+      "count": 6
+    },
+    {
       "slug": "clermont-ferrand",
       "label": "clermont ferrand",
       "count": 6
@@ -10599,18 +10644,18 @@
       "count": 6
     },
     {
-      "slug": "metz",
-      "label": "metz",
-      "count": 6
-    },
-    {
-      "slug": "nancy",
-      "label": "nancy",
+      "slug": "lorraine",
+      "label": "lorraine",
       "count": 6
     },
     {
       "slug": "nimes",
       "label": "nimes",
+      "count": 6
+    },
+    {
+      "slug": "orleans",
+      "label": "orleans",
       "count": 6
     },
     {
@@ -10621,6 +10666,11 @@
     {
       "slug": "reims",
       "label": "reims",
+      "count": 6
+    },
+    {
+      "slug": "rhone-alpes",
+      "label": "rhone alpes",
       "count": 6
     },
     {
@@ -10639,13 +10689,13 @@
       "count": 6
     },
     {
-      "slug": "annecy",
-      "label": "annecy",
+      "slug": "amiens",
+      "label": "amiens",
       "count": 5
     },
     {
-      "slug": "brest",
-      "label": "brest",
+      "slug": "annecy",
+      "label": "annecy",
       "count": 5
     },
     {
@@ -10654,24 +10704,14 @@
       "count": 5
     },
     {
-      "slug": "orleans",
-      "label": "orleans",
-      "count": 5
-    },
-    {
       "slug": "pau",
       "label": "pau",
       "count": 5
     },
     {
-      "slug": "rhone-alpes",
-      "label": "rhone alpes",
+      "slug": "saint-etienne",
+      "label": "saint-etienne",
       "count": 5
-    },
-    {
-      "slug": "amiens",
-      "label": "amiens",
-      "count": 4
     },
     {
       "slug": "avignon",
@@ -10709,18 +10749,8 @@
       "count": 4
     },
     {
-      "slug": "lorraine",
-      "label": "lorraine",
-      "count": 4
-    },
-    {
       "slug": "poitiers",
       "label": "poitiers",
-      "count": 4
-    },
-    {
-      "slug": "saint-etienne",
-      "label": "saint-etienne",
       "count": 4
     },
     {
