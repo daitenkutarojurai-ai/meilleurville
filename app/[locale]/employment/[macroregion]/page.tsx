@@ -9,8 +9,8 @@ import { MACRO_REGIONS, MACRO_REGION_SLUGS, getMacroRegion } from "@/lib/macro-r
 import { citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import {
   computeEmploymentMarket,
-  JOB_LEVEL_LABEL,
   JOB_LEVEL_COLOR,
+  type JobLevel,
 } from "@/lib/employment-market";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
@@ -18,6 +18,14 @@ import { fitTitle } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
+
+// EN level labels, aligned on the hub and the city page (the lib labels are French).
+const EN_JOB_LABEL: Record<JobLevel, string> = {
+  facile: "Favourable",
+  actif: "Active",
+  tendu: "Strained",
+  sinistre: "Depressed",
+};
 
 const EN_MACRO_LABEL: Record<string, string> = {
   "cote-atlantique": "Atlantic Coast",
@@ -199,7 +207,7 @@ export default async function MacroRegionEmploymentEnPage({ params }: Props) {
                         {(10 - c.market.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
-                        {JOB_LEVEL_LABEL[c.market.level]}
+                        {EN_JOB_LABEL[c.market.level]}
                       </span>
                     </td>
                     <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.market.unemployment.score).toFixed(1)}</td>

@@ -19,6 +19,14 @@ import { fitTitle } from "@/lib/brand";
 export const revalidate = false;
 export const dynamicParams = false;
 
+// EN level labels, same as the hub (the lib labels are French).
+const EN_DEMO_LABEL: Record<string, string> = {
+  dynamique: "Dynamic",
+  equilibre: "Balanced",
+  vieillissant: "Ageing",
+  critique: "Declining",
+};
+
 const EN_MACRO_LABEL: Record<string, string> = {
   "cote-atlantique": "Atlantic Coast",
   "arc-mediterraneen": "Mediterranean Arc",
@@ -198,7 +206,7 @@ export default async function MacroRegionDemographicsEnPage({ params }: Props) {
                         {(10 - c.demo.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
-                        {DEMO_LEVEL_LABEL[c.demo.level]}
+                        {EN_DEMO_LABEL[c.demo.level] ?? DEMO_LEVEL_LABEL[c.demo.level]}
                       </span>
                     </td>
                     <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.demo.ageing.score).toFixed(1)}</td>

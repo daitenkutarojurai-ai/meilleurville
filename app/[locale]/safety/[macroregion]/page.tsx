@@ -19,6 +19,14 @@ import { fitTitle } from "@/lib/brand";
 export const revalidate = false;
 export const dynamicParams = false;
 
+// EN level labels, same as the hub (the lib labels are French).
+const EN_SAFETY_LABEL: Record<string, string> = {
+  calme: "Calm",
+  vigilance: "Watch",
+  tendu: "Tense",
+  critique: "Critical",
+};
+
 const EN_MACRO_LABEL: Record<string, string> = {
   "cote-atlantique": "Atlantic Coast",
   "arc-mediterraneen": "Mediterranean Arc",
@@ -199,7 +207,7 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
                         {(10 - c.safety.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
-                        {SAFETY_LEVEL_LABEL[c.safety.level]}
+                        {EN_SAFETY_LABEL[c.safety.level] ?? SAFETY_LEVEL_LABEL[c.safety.level]}
                       </span>
                     </td>
                     <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.property.score).toFixed(1)}</td>

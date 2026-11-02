@@ -19,6 +19,14 @@ import { fitTitle } from "@/lib/brand";
 export const revalidate = false;
 export const dynamicParams = false;
 
+// EN level labels, same as the hub (the lib labels are French).
+const EN_ENV_LABEL: Record<string, string> = {
+  excellent: "Excellent",
+  bon: "Good",
+  moyen: "Moderate",
+  tendu: "Strained",
+};
+
 const EN_MACRO_LABEL: Record<string, string> = {
   "cote-atlantique": "Atlantic Coast",
   "arc-mediterraneen": "Mediterranean Arc",
@@ -194,7 +202,7 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
                         {c.index.healthScore.toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
-                        {ENV_LEVEL_LABEL[c.index.level]}
+                        {EN_ENV_LABEL[c.index.level] ?? ENV_LEVEL_LABEL[c.index.level]}
                       </span>
                     </td>
                     <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.index.air.toFixed(1)}</td>

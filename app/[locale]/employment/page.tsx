@@ -29,9 +29,9 @@ const EN_MACRO_LABEL: Record<string, string> = {
 };
 
 const EN_JOB_LABEL: Record<string, string> = {
-  facile: "Active",
-  actif: "Good",
-  tendu: "Tight",
+  facile: "Favourable",
+  actif: "Active",
+  tendu: "Strained",
   sinistre: "Depressed",
 };
 

@@ -19,6 +19,14 @@ import { fitTitle } from "@/lib/brand";
 export const revalidate = false;
 export const dynamicParams = false;
 
+// EN level labels, same as the hub (the lib labels are French).
+const EN_SERVICES_LABEL: Record<string, string> = {
+  excellent: "Excellent",
+  correct: "Adequate",
+  tendu: "Strained",
+  desertique: "Under-served",
+};
+
 const EN_MACRO_LABEL: Record<string, string> = {
   "cote-atlantique": "Atlantic Coast",
   "arc-mediterraneen": "Mediterranean Arc",
@@ -198,7 +206,7 @@ export default async function MacroRegionPublicServicesEnPage({ params }: Props)
                         {(10 - c.services.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
-                        {SERVICES_LEVEL_LABEL[c.services.level]}
+                        {EN_SERVICES_LABEL[c.services.level] ?? SERVICES_LEVEL_LABEL[c.services.level]}
                       </span>
                     </td>
                     <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.services.schools.score).toFixed(1)}</td>
