@@ -19019,6 +19019,267 @@ export const GUIDES: Guide[] = [
     tags: ["vivre sans voiture Avignon", "tram Avignon T1", "Orizo Avignon", "mobilité Avignon", "sans voiture Vaucluse 2026"],
   },
   {
+    slug: "vivre-sans-voiture-le-havre-guide-2026",
+    title: "Vivre sans voiture au Havre en 2026 : tram depuis 2012 et un T2 à 650 €",
+    metaTitle: "Vivre sans voiture au Havre 2026 : tram, loyers, limites",
+    metaDesc: "Au Havre, un T2 coûte 650 € sur notre estimation et le tram (2 lignes, 23 stations) dessert l'axe principal. Score transport 6,2/10, 248e sur 593. Comparé à Rouen.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "Le Havre est l'une des villes sans voiture les moins chères de Normandie : 650 € pour un T2 sur notre estimation des loyers, soit 70 € de moins qu'à Rouen, avec un tram à deux lignes et 23 stations ouvert le 12 décembre 2012. Notre score transport est de 6,2/10, au 248e rang sur 593 à égalité avec 32 autres villes. Le tram suffit pour le centre et le front de mer ; le reste de l'agglomération dépend du bus.",
+    sections: [
+      {
+        heading: "Que couvre le tram du Havre ?",
+        body: "Le tram du Havre compte deux lignes et 23 stations pour environ 13 km (les sources donnent 13 à 13,5 km), ouvertes le 12 décembre 2012. La ville a restructuré son réseau de bus autour de lui. Une extension vers Harfleur et Montivilliers est annoncée pour 2027 : nous ne la comptons pas tant qu'elle n'est pas en service.",
+      },
+      {
+        heading: "Combien coûte un logement au Havre sans voiture ?",
+        body: "Notre estimation des loyers donne 470 € pour un studio, 650 € pour un T2 et 870 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 237 € le m², sur 3 087 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Rouen est à 2 692 €, soit 455 € de plus : sur 50 m², l'écart atteint 22 750 €.",
+      },
+      {
+        heading: "Une ville qui perd des habitants",
+        body: "Le Havre compte 166 462 habitants en 2022, soit -2,3 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 20 180 € par an avec 23 % de pauvreté (source : Insee, Filosofi 2021). Notre score sécurité est de 4,5/10 et notre score culture de 6,2/10 : un marché détendu, pas un marché dynamique.",
+      },
+      {
+        heading: "Le Havre ou Rouen : quelle différence ?",
+        body: "Rouen obtient 6,7/10 en transport contre 6,2/10 au Havre. Le T2 y est à 720 € contre 650 €, soit 70 € par mois et 840 € par an de plus ; le T3 passe de 870 € à 950 €. Rouen offre plus de réseau pour un loyer proche, mais le Havre reste la ville où chaque euro de loyer pèse le moins.",
+      },
+      {
+        heading: "Les limites sans voiture au Havre",
+        body: "Une ville étirée entre le port, le front de mer et les quartiers hauts : un logement loin des deux lignes dépend du bus. Les zones industrielles et portuaires se rejoignent mal sans voiture. Vérifiez le trajet réel de votre emploi avant de signer.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 470 € est le plus bas de ce lot, à condition de rester sur l'axe du tram. Couple actif : un T2 à 650 € laisse de la marge si l'emploi est en centre-ville. Retraité : le T3 à 870 € et le front de mer conviennent, mais la baisse de population pèse sur les services. Si votre emploi est en zone portuaire ou industrielle, testez le trajet avant.",
+      },
+    ],
+    relatedCities: ["le-havre","rouen","caen"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Le Havre","tram Le Havre","mobilité Le Havre","sans voiture Normandie 2026","loyer Le Havre sans voiture"],
+  },
+  {
+    slug: "vivre-sans-voiture-metz-guide-2026",
+    title: "Vivre sans voiture à Metz en 2026 : le Mettis et un T2 à 680 €",
+    metaTitle: "Vivre sans voiture à Metz 2026 : Mettis, loyers, limites",
+    metaDesc: "Metz s'appuie sur le Mettis (BHNS, 2013) et un T2 à 680 € sur notre estimation. Score transport 6,7/10, 185e sur 593. Comparaison avec Nancy, limites et verdict.",
+    category: "lifestyle",
+    emoji: "🚌",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "À Metz, vivre sans voiture repose sur le Mettis, un bus à haut niveau de service en site propre mis en service en octobre 2013, et sur un T2 à 680 € sur notre estimation des loyers, 30 € de moins qu'à Nancy. Notre score transport est de 6,7/10, au 185e rang sur 593 à égalité avec 12 autres villes. Il y a un réseau structurant, mais pas de tram.",
+    sections: [
+      {
+        heading: "Qu'est-ce que le Mettis ?",
+        body: "Le Mettis est un BHNS à deux lignes, A et B, d'environ 17,8 km au total (une source parle de 17 km) avec un tronc commun central, en couloirs dédiés et avec priorité aux feux. Il est entré en service en octobre 2013. La ligne A a été prolongée jusqu'à l'hôpital Robert-Schuman à la rentrée 2025. Une troisième ligne est en préparation, nous ne la comptons pas.",
+      },
+      {
+        heading: "Combien coûte un logement à Metz ?",
+        body: "Notre estimation des loyers donne 500 € pour un studio, 680 € pour un T2 et 910 € pour un T3 par mois. Nous n'affichons pas de prix médian au m² pour Metz : les ventes notariales ne couvrent pas cette ville, et nous préférons ne rien citer plutôt qu'un chiffre estimé.",
+      },
+      {
+        heading: "Une ville qui regagne des habitants",
+        body: "Metz compte 121 695 habitants en 2022, soit +3,2 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 20 940 € par an avec 24 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : culture 7,3/10, écoles 6,6/10, sécurité 5,3/10.",
+      },
+      {
+        heading: "Metz ou Nancy : quelle différence ?",
+        body: "Nancy obtient 7,0/10 en transport contre 6,7/10 à Metz. Le T2 est à 710 € à Nancy contre 680 € à Metz, soit 360 € de plus par an ; le T3 passe de 910 € à 950 €. Côté culture, Nancy fait 7,6/10 contre 7,3/10 à Metz, et Nancy est plus petite (104 387 habitants contre 121 695).",
+      },
+      {
+        heading: "Les limites sans voiture à Metz",
+        body: "Un BHNS dessert bien les deux axes, mais ne remplace pas un maillage de tram : hors des lignes A et B, c'est le bus classique. Les liaisons transfrontalières et vers le Luxembourg se pensent en train, pas en bus urbain. Vérifiez votre trajet de travail avant de louer.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 500 € est correct près d'une ligne du Mettis. Couple actif : le T2 à 680 € est le meilleur rapport desserte-loyer face à Nancy. Famille : le T3 à 910 € avec 6,6/10 en écoles se défend. Retraité : le centre est compact, la desserte en couloir dédié aide ; vérifiez la distance aux soins.",
+      },
+    ],
+    relatedCities: ["metz","nancy","strasbourg"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-metz-2026",
+    ],
+    tags: ["vivre sans voiture Metz","Mettis Metz","BHNS Metz","mobilité Metz","sans voiture Moselle 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-amiens-guide-2026",
+    title: "Vivre sans voiture à Amiens en 2026 : bus électrique Nemo et T2 à 680 €",
+    metaTitle: "Vivre sans voiture à Amiens 2026 : Nemo, loyers, limites",
+    metaDesc: "Amiens mise sur le BHNS électrique Nemo (2019) et un T2 à 680 € sur notre estimation. Score transport 6,1/10, 281e sur 593. Comparaison avec Lille, limites et verdict.",
+    category: "lifestyle",
+    emoji: "🚌",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "À Amiens, le T2 est à 680 € sur notre estimation, 120 € de moins qu'à Lille, et le réseau repose sur des bus électriques à haut niveau de service, le Nemo, lancé en 2019. Notre score transport est de 6,1/10, au 281e rang sur 593 à égalité avec 19 autres villes. Sans voiture, Amiens se vit au centre et sur les axes du Nemo, pas au-delà.",
+    sections: [
+      {
+        heading: "Qu'est-ce que le Nemo d'Amiens ?",
+        body: "Le Nemo est le réseau de bus à haut niveau de service d'Amiens Métropole, en bus articulés électriques, lancé en 2019 avec plusieurs lignes de couleur. Les sources divergent sur la longueur du réseau (40 à 50 km) : nous ne la citons pas. Il n'y a ni tram ni métro.",
+      },
+      {
+        heading: "Combien coûte un logement à Amiens ?",
+        body: "Notre estimation des loyers donne 490 € pour un studio, 680 € pour un T2 et 900 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 491 € le m², sur 1 481 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Lille est à 3 705 €, soit 1 214 € de plus : sur 50 m², l'écart atteint 60 700 €.",
+      },
+      {
+        heading: "Une ville étudiante sous tension sociale",
+        body: "Amiens compte 134 780 habitants en 2022, +0,8 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 19 650 € par an avec 26 % de pauvreté (source : Insee, Filosofi 2021). Notre score sécurité est de 4,5/10 et notre score écoles de 6,6/10.",
+      },
+      {
+        heading: "Amiens ou Lille : quelle différence ?",
+        body: "Lille obtient 8,7/10 en transport, au 25e rang, contre 6,1/10 à Amiens. Le T2 coûte 800 € à Lille contre 680 € à Amiens, soit 120 € par mois et 1 440 € par an d'écart ; le T3 passe de 900 € à 1 080 €. Lille offre le métro et le tram ; Amiens offre de la place et des loyers plus bas.",
+      },
+      {
+        heading: "Les limites sans voiture à Amiens",
+        body: "Un réseau de bus, même articulé et électrique, reste soumis à la circulation. Les communes de l'agglomération et la baie de Somme se rejoignent mal sans voiture. Pour les week-ends, le train vers Paris ou Lille est l'option, à vérifier selon vos horaires.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 490 € est abordable ; restez sur une ligne du Nemo. Couple actif : le T2 à 680 € laisse de la marge face à Lille. Famille : le T3 à 900 € et 6,6/10 en écoles se comparent bien. Si vous voulez un vrai maillage de tram ou métro, regardez Lille plutôt qu'Amiens.",
+      },
+    ],
+    relatedCities: ["amiens","lille","rouen"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-amiens-2026",
+    ],
+    tags: ["vivre sans voiture Amiens","BHNS Nemo Amiens","mobilité Amiens","sans voiture Somme 2026","loyer Amiens sans voiture"],
+  },
+  {
+    slug: "vivre-sans-voiture-dunkerque-guide-2026",
+    title: "Vivre sans voiture à Dunkerque en 2026 : bus gratuits et T2 à 560 €",
+    metaTitle: "Vivre sans voiture à Dunkerque 2026 : bus gratuits, loyers",
+    metaDesc: "À Dunkerque, le réseau DK'Bus est gratuit depuis 2018 et le T2 est à 560 € sur notre estimation. Score transport 6,1/10, 281e sur 593. Comparaison avec Lille.",
+    category: "lifestyle",
+    emoji: "🆓",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "Dunkerque a un argument que presque aucune autre ville de cette taille n'a : son réseau de bus, DK'Bus, est gratuit pour tous depuis le 1er septembre 2018, et le T2 est à 560 € sur notre estimation des loyers, 240 € de moins qu'à Lille. Notre score transport est de 6,1/10, au 281e rang sur 593 à égalité avec 19 autres villes. Gratuit ne veut pas dire dense : le tram n'existe pas ici.",
+    sections: [
+      {
+        heading: "Que veut dire la gratuité à Dunkerque ?",
+        body: "DK'Bus, exploité par la STDE (groupe Transdev), est gratuit pour tous les usagers depuis septembre 2018. La fréquentation a nettement augmenté depuis, selon la presse spécialisée, mais des syndicats déplorent que les moyens ne suivent pas. Pour vous, cela supprime l'abonnement, pas l'attente à l'arrêt.",
+      },
+      {
+        heading: "Combien coûte un logement à Dunkerque ?",
+        body: "Notre estimation des loyers donne 400 € pour un studio, 560 € pour un T2 et 750 € pour un T3 par mois, le plus bas de ce lot. À l'achat, le prix médian des appartements est de 2 227 € le m², sur 847 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Lille est à 3 705 €, soit 1 478 € de plus : sur 50 m², 73 900 €.",
+      },
+      {
+        heading: "Une agglomération qui se contracte",
+        body: "Dunkerque compte 87 013 habitants en 2022, soit -1,2 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 20 240 € par an avec 22 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : sécurité 4,5/10, culture 5,9/10, écoles 5,8/10.",
+      },
+      {
+        heading: "Dunkerque ou Lille : quelle différence ?",
+        body: "Lille obtient 8,7/10 en transport contre 6,1/10 à Dunkerque. Le T2 est à 800 € à Lille contre 560 € à Dunkerque, soit 240 € par mois et 2 880 € par an d'écart ; le T3 passe de 750 € à 1 080 €. À Dunkerque, le budget transport tombe à zéro pour le bus ; à Lille, il faut payer mais le maillage est sans comparaison.",
+      },
+      {
+        heading: "Les limites sans voiture à Dunkerque",
+        body: "Une agglomération étirée entre le port, les plages et les communes voisines, avec des zones d'activité éloignées des arrêts. Le vent et la distance rendent le vélo moins évident. La gratuité n'ajoute pas de fréquence les soirs et les dimanches : testez votre horaire réel.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : un studio à 400 € et des bus gratuits donnent le budget le plus bas du lot. Couple actif : le T2 à 560 € laisse de la marge, si l'emploi est sur une ligne. Famille : le T3 à 750 € est abordable, avec 5,8/10 en écoles à comparer. Si vous cherchez la densité d'un tram, ce n'est pas ici.",
+      },
+    ],
+    relatedCities: ["dunkerque","lille","calais"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Dunkerque","bus gratuit Dunkerque","DK'Bus","mobilité Dunkerque","sans voiture Nord 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-valenciennes-guide-2026",
+    title: "Vivre sans voiture à Valenciennes en 2026 : tram depuis 2006, T2 à 490 €",
+    metaTitle: "Vivre sans voiture à Valenciennes 2026 : tram, loyers, limites",
+    metaDesc: "Valenciennes a un tram depuis 2006 et le T2 le moins cher de ce lot : 490 € sur notre estimation. Score transport 6,1/10, 281e sur 593. Comparaison avec Lille.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "Valenciennes combine un tram ouvert le 3 juillet 2006 et le loyer le plus bas de cette série : 490 € pour un T2 sur notre estimation, 310 € de moins qu'à Lille. Notre score transport est de 6,1/10, au 281e rang sur 593 à égalité avec 19 autres villes. Le tram suffit pour l'axe principal, pas pour toute la métropole.",
+    sections: [
+      {
+        heading: "Que dessert le tram de Valenciennes ?",
+        body: "La première ligne a ouvert le 3 juillet 2006 entre Université et Dutemple, puis a été prolongée jusqu'à Denain en 2007. Une seconde ligne, vers Vieux-Condé, a ouvert le 24 février 2014. Le réseau Transvilles a été réorganisé en 2024 ; nous ne détaillons pas les lignes de bus, dont la liste change.",
+      },
+      {
+        heading: "Combien coûte un logement à Valenciennes ?",
+        body: "Notre estimation des loyers donne 360 € pour un studio, 490 € pour un T2 et 660 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 1 956 € le m², sur 582 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Lille est à 3 705 €, soit 1 749 € de plus : sur 50 m², 87 450 €.",
+      },
+      {
+        heading: "Une petite ville au cœur d'un bassin",
+        body: "Valenciennes compte 42 979 habitants en 2022, soit -1,6 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 20 250 € par an avec 25 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : sécurité 4,3/10, culture 6,2/10, écoles 5,8/10.",
+      },
+      {
+        heading: "Valenciennes ou Lille : quelle différence ?",
+        body: "Lille obtient 8,7/10 en transport contre 6,1/10 à Valenciennes. Le T2 coûte 800 € à Lille contre 490 € ici, soit 310 € par mois et 3 720 € par an d'écart ; le T3 passe de 660 € à 1 080 €. Avec 42 979 habitants contre 238 695 à Lille, tout se fait à pied depuis le centre.",
+      },
+      {
+        heading: "Les limites sans voiture à Valenciennes",
+        body: "La commune est petite, mais le bassin minier alentour est étalé : l'emploi est souvent dans une zone d'activité éloignée du tram. La sécurité à 4,3/10 invite à regarder les rues proches des arrêts. Pour Lille, le train est l'option ; vérifiez vos horaires.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : studio à 360 €, le plus bas du lot ; logez près de la ligne 1. Couple actif : le T2 à 490 € est un budget rare, si l'emploi est desservi. Famille : le T3 à 660 € est abordable, avec 5,8/10 en écoles. Pour de la densité culturelle et un réseau étendu, regardez Lille.",
+      },
+    ],
+    relatedCities: ["valenciennes","lille","dunkerque"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Valenciennes","tram Valenciennes","Transvilles","mobilité Valenciennes","sans voiture Hauts-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-la-rochelle-guide-2026",
+    title: "Vivre sans voiture à La Rochelle en 2026 : vélo, bateau-bus et T2 à 820 €",
+    metaTitle: "Vivre sans voiture à La Rochelle 2026 : vélo, Yélo, loyers",
+    metaDesc: "À La Rochelle, vélo en libre-service et bus de mer rendent la voiture facultative, mais le T2 est à 820 € sur notre estimation. Score transport 7,0/10. Face à Poitiers.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "La Rochelle se vit sans voiture grâce à son centre compact et au réseau Yélo, qui réunit bus, vélos en libre-service et bateaux (passeur, bus de mer), mais c'est la ville la plus chère de ce lot : 820 € pour un T2 sur notre estimation, 160 € de plus qu'à Poitiers. Notre score transport est de 7,0/10, au 131e rang sur 593 à égalité avec 43 autres villes.",
+    sections: [
+      {
+        heading: "Que comprend le réseau Yélo ?",
+        body: "Yélo est le réseau de l'agglomération : bus, vélos en libre-service, bateaux de type passeur et bus de mer. Les stations de vélos sont accessibles tous les jours à toute heure. Les tarifs publiés divergent selon les documents : nous n'en citons aucun, consultez le site officiel.",
+      },
+      {
+        heading: "Combien coûte un logement à La Rochelle ?",
+        body: "Notre estimation des loyers donne 600 € pour un studio, 820 € pour un T2 et 1 100 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 4 844 € le m², sur 1 714 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Poitiers est à 2 200 €, soit 2 644 € de moins : sur 50 m², l'écart atteint 132 200 €.",
+      },
+      {
+        heading: "Une ville qui attire et se renchérit",
+        body: "La Rochelle compte 79 961 habitants en 2022, soit +5,6 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 22 200 € par an avec 18 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : sécurité 6,5/10, nature 7,2/10, coût de la vie 4,6/10, le plus bas de ce lot.",
+      },
+      {
+        heading: "La Rochelle ou Poitiers : quelle différence ?",
+        body: "Poitiers obtient 6,4/10 en transport contre 7,0/10 à La Rochelle. Le T2 coûte 660 € à Poitiers contre 820 € à La Rochelle, soit 160 € par mois et 1 920 € par an ; le T3 passe de 880 € à 1 100 €. La Rochelle offre la mer et le vélo ; Poitiers, un budget logement nettement plus doux.",
+      },
+      {
+        heading: "Les limites sans voiture à La Rochelle",
+        body: "Les îles voisines et les plages éloignées se rejoignent difficilement sans voiture hors saison. Le vent et la pluie pèsent sur le vélo en hiver. Et le budget logement peut annuler l'économie d'une voiture : faites le calcul avant de louer.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 600 € est élevé ; comparez avec Poitiers. Couple actif : un T2 à 820 € se justifie si l'emploi est à vélo du centre. Retraité : sécurité 6,5/10, nature 7,2/10 et centre plat conviennent, si le budget suit. Famille : le T3 à 1 100 € est le plus cher du lot, avec 7,4/10 en écoles.",
+      },
+    ],
+    relatedCities: ["la-rochelle","poitiers","nantes"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-a-la-rochelle-2026",
+    ],
+    tags: ["vivre sans voiture La Rochelle","vélo La Rochelle","Yélo La Rochelle","mobilité La Rochelle","sans voiture Charente-Maritime 2026"],
+  },
+  {
     slug: "meilleures-villes-sports-outdoor-plein-air-france-2026",
     title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
     metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade, kayak, ski, VTT",

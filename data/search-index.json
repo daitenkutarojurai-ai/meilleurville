@@ -5552,6 +5552,36 @@
       "emoji": "🚋"
     },
     {
+      "slug": "vivre-sans-voiture-le-havre-guide-2026",
+      "title": "Vivre sans voiture au Havre en 2026 : tram depuis 2012 et un T2 à 650 €",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "vivre-sans-voiture-metz-guide-2026",
+      "title": "Vivre sans voiture à Metz en 2026 : le Mettis et un T2 à 680 €",
+      "emoji": "🚌"
+    },
+    {
+      "slug": "vivre-sans-voiture-amiens-guide-2026",
+      "title": "Vivre sans voiture à Amiens en 2026 : bus électrique Nemo et T2 à 680 €",
+      "emoji": "🚌"
+    },
+    {
+      "slug": "vivre-sans-voiture-dunkerque-guide-2026",
+      "title": "Vivre sans voiture à Dunkerque en 2026 : bus gratuits et T2 à 560 €",
+      "emoji": "🆓"
+    },
+    {
+      "slug": "vivre-sans-voiture-valenciennes-guide-2026",
+      "title": "Vivre sans voiture à Valenciennes en 2026 : tram depuis 2006, T2 à 490 €",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "vivre-sans-voiture-la-rochelle-guide-2026",
+      "title": "Vivre sans voiture à La Rochelle en 2026 : vélo, bateau-bus et T2 à 820 €",
+      "emoji": "🚲"
+    },
+    {
       "slug": "meilleures-villes-sports-outdoor-plein-air-france-2026",
       "title": "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
       "emoji": "🏔️"
@@ -12291,6 +12321,11 @@
     {
       "slug": "salaire",
       "label": "salaire",
+      "count": 3
+    },
+    {
+      "slug": "sans-voiture-normandie-2026",
+      "label": "sans voiture Normandie 2026",
       "count": 3
     },
     {
