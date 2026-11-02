@@ -6187,6 +6187,36 @@
       "emoji": "🚋"
     },
     {
+      "slug": "car-free-living-in-le-havre-2026",
+      "title": "Car-Free Living in Le Havre 2026: A 2012 Tram and a €650 T2",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "car-free-living-in-metz-2026",
+      "title": "Car-Free Living in Metz 2026: The Mettis Bus Rapid Transit and a €680 T2",
+      "emoji": "🚌"
+    },
+    {
+      "slug": "car-free-living-in-amiens-2026",
+      "title": "Car-Free Living in Amiens 2026: Electric Nemo Buses and a €680 T2",
+      "emoji": "🚌"
+    },
+    {
+      "slug": "car-free-living-in-dunkerque-2026",
+      "title": "Car-Free Living in Dunkirk 2026: Free Buses and a €560 T2",
+      "emoji": "🆓"
+    },
+    {
+      "slug": "car-free-living-in-valenciennes-2026",
+      "title": "Car-Free Living in Valenciennes 2026: A Tram Since 2006 and a €490 T2",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "car-free-living-in-la-rochelle-2026",
+      "title": "Car-Free Living in La Rochelle 2026: Bikes, Sea Buses and a €820 T2",
+      "emoji": "🚲"
+    },
+    {
       "slug": "living-in-ile-de-france-2026",
       "title": "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
       "emoji": "🏙️"
@@ -10166,7 +10196,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 89
+      "count": 90
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -10179,6 +10209,11 @@
       "count": 81
     },
     {
+      "slug": "grand-est",
+      "label": "grand est",
+      "count": 77
+    },
+    {
       "slug": "ile-de-france",
       "label": "ile de france",
       "count": 77
@@ -10187,11 +10222,6 @@
       "slug": "relocation",
       "label": "relocation",
       "count": 77
-    },
-    {
-      "slug": "grand-est",
-      "label": "grand est",
-      "count": 76
     },
     {
       "slug": "solo-travel",
@@ -10206,7 +10236,7 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 70
+      "count": 73
     },
     {
       "slug": "single-parent-holidays",
@@ -10524,6 +10554,11 @@
       "count": 7
     },
     {
+      "slug": "normandie",
+      "label": "normandie",
+      "count": 7
+    },
+    {
       "slug": "paris",
       "label": "paris",
       "count": 7
@@ -10576,11 +10611,6 @@
     {
       "slug": "nimes",
       "label": "nimes",
-      "count": 6
-    },
-    {
-      "slug": "normandie",
-      "label": "normandie",
       "count": 6
     },
     {

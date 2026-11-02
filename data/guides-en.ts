@@ -20329,6 +20329,252 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "car-free-living-in-le-havre-2026",
+    title: "Car-Free Living in Le Havre 2026: A 2012 Tram and a €650 T2",
+    metaTitle: "Car-Free Living in Le Havre 2026: Tram, Rents, Limits",
+    metaDesc: "Le Havre has a two-line tram (23 stops) and a €650 T2 on our rent estimate. Transport score 6.2/10, 248th of 593. Compared with Rouen, limits, verdict.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "Le Havre is one of the cheapest car-free bets in Normandy: €650 for a two-room flat (T2) on our rent estimate, €70 less than in Rouen, with a two-line tram and 23 stops that opened on 12 December 2012. Our transport score is 6.2/10, ranked 248th of 593 in a tie with 32 other cities. The tram covers the centre and the seafront; the rest of the urban area relies on buses.",
+    sections: [
+      {
+        heading: "What does the Le Havre tram cover?",
+        body: "Le Havre's tram has two lines and 23 stops over roughly 13 km (sources give 13 to 13.5 km), opened on 12 December 2012. The city rebuilt its bus network around it. An extension towards Harfleur and Montivilliers is announced for 2027, but we do not count it until it runs.",
+      },
+      {
+        heading: "How much does housing cost in Le Havre?",
+        body: "Our rent estimate gives €470 a month for a studio, €650 for a T2 and €870 for a T3 (three rooms). The median apartment price is €2,237 per m² across 3,087 sales in 2024-2025 (source: our price page, DVF notarial sales). Rouen is at €2,692 per m², €455 more: on 50 m², the gap reaches €22,750.",
+      },
+      {
+        heading: "A city that is losing residents",
+        body: "Le Havre had 166,462 inhabitants in 2022, down 2.3% since 2016 (source: INSEE, 2022 census). Median living standard is €20,180 a year, with a 23% poverty rate (source: INSEE, Filosofi 2021). Our safety score is 4.5/10 and our culture score 6.2/10: a relaxed housing market, not a booming one.",
+      },
+      {
+        heading: "Le Havre or Rouen: what is the difference?",
+        body: "Rouen scores 6.7/10 on transport against 6.2/10 for Le Havre. A T2 is €720 in Rouen and €650 in Le Havre, so €70 more a month and €840 a year; a T3 goes from €870 to €950. Rouen gives you more network for a similar rent, but Le Havre is where each euro of rent weighs least.",
+      },
+      {
+        heading: "The limits of going car-free in Le Havre",
+        body: "The city is stretched between the port, the seafront and the upper districts, so a home far from both lines depends on buses. Industrial and port zones are hard to reach without a car. Check the real commute to your workplace before signing a lease.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €470 studio is the lowest of this batch, provided you stay on the tram axis. Working couple: a €650 T2 leaves room in the budget if the job is downtown. Retiree: the €870 T3 and the seafront suit, though the falling population weighs on services. If your job is in the port or an industrial zone, test the commute first.",
+      },
+    ],
+    relatedCities: ["le-havre","rouen","caen"],
+    tags: ["car-free Le Havre","Le Havre tram","Le Havre without a car","car-free Normandy 2026","normandie"],
+  },
+
+  {
+    slug: "car-free-living-in-metz-2026",
+    title: "Car-Free Living in Metz 2026: The Mettis Bus Rapid Transit and a €680 T2",
+    metaTitle: "Car-Free Living in Metz 2026: Mettis, Rents, Limits",
+    metaDesc: "Metz relies on the Mettis (bus rapid transit, 2013) and a €680 T2 on our rent estimate. Transport score 6.7/10, 185th of 593. Compared with Nancy, limits, verdict.",
+    category: "lifestyle",
+    emoji: "🚌",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "Car-free living in Metz rests on the Mettis, a bus rapid transit line in dedicated lanes that started running in October 2013, and on a €680 two-room flat (T2) on our rent estimate, €30 less than in Nancy. Our transport score is 6.7/10, ranked 185th of 593 in a tie with 12 other cities. There is a backbone network, but no tram.",
+    sections: [
+      {
+        heading: "What is the Mettis?",
+        body: "The Mettis is a two-line bus rapid transit system, lines A and B, about 17.8 km in all (one source says 17 km) with a shared central section, running in dedicated lanes with priority at traffic lights. It entered service in October 2013. Line A was extended to the Robert-Schuman hospital in autumn 2025. A third line is being prepared; we do not count it.",
+      },
+      {
+        heading: "How much does housing cost in Metz?",
+        body: "Our rent estimate gives €500 a month for a studio, €680 for a T2 and €910 for a T3 (three rooms). We show no median price per m² for Metz: notarial sales data does not cover the city, and we would rather cite nothing than an estimated figure.",
+      },
+      {
+        heading: "A city that is gaining residents again",
+        body: "Metz had 121,695 inhabitants in 2022, up 3.2% since 2016 (source: INSEE, 2022 census). Median living standard is €20,940 a year, with a 24% poverty rate (source: INSEE, Filosofi 2021). Our scores: culture 7.3/10, schools 6.6/10, safety 5.3/10.",
+      },
+      {
+        heading: "Metz or Nancy: what is the difference?",
+        body: "Nancy scores 7.0/10 on transport against 6.7/10 for Metz. A T2 is €710 in Nancy and €680 in Metz, which is €360 more a year; a T3 goes from €910 to €950. On culture Nancy scores 7.6/10 against 7.3/10, and Nancy is smaller (104,387 inhabitants against 121,695).",
+      },
+      {
+        heading: "The limits of going car-free in Metz",
+        body: "Bus rapid transit serves its two axes well but is no substitute for a tram grid: off lines A and B, you are on ordinary buses. Cross-border trips towards Luxembourg are a train matter, not an urban-bus one. Check your commute before renting.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €500 studio works near a Mettis stop. Working couple: the €680 T2 is the best service-to-rent ratio against Nancy. Family: the €910 T3 with a 6.6/10 schools score holds up. Retiree: the centre is compact and the dedicated lanes help; check the distance to care.",
+      },
+    ],
+    relatedCities: ["metz","nancy","strasbourg"],
+    tags: ["car-free Metz","Mettis Metz","bus rapid transit Metz","living in Metz without a car","grand-est"],
+  },
+
+  {
+    slug: "car-free-living-in-amiens-2026",
+    title: "Car-Free Living in Amiens 2026: Electric Nemo Buses and a €680 T2",
+    metaTitle: "Car-Free Living in Amiens 2026: Nemo, Rents, Limits",
+    metaDesc: "Amiens bets on the electric Nemo bus rapid transit (2019) and a €680 T2 on our rent estimate. Transport score 6.1/10, 281st of 593. Compared with Lille.",
+    category: "lifestyle",
+    emoji: "🚌",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "In Amiens a two-room flat (T2) costs €680 on our rent estimate, €120 less than in Lille, and the network is built on electric high-capacity buses, the Nemo, launched in 2019. Our transport score is 6.1/10, ranked 281st of 593 in a tie with 19 other cities. Car-free, Amiens works in the centre and along the Nemo axes, not beyond them.",
+    sections: [
+      {
+        heading: "What is the Nemo in Amiens?",
+        body: "The Nemo is the high-capacity bus network of Amiens Métropole, run with articulated electric buses and launched in 2019 with several colour-coded lines. Sources disagree on the network length (40 to 50 km), so we do not quote it. There is no tram and no metro.",
+      },
+      {
+        heading: "How much does housing cost in Amiens?",
+        body: "Our rent estimate gives €490 a month for a studio, €680 for a T2 and €900 for a T3 (three rooms). The median apartment price is €2,491 per m² across 1,481 sales in 2024-2025 (source: our price page, DVF notarial sales). Lille is at €3,705 per m², €1,214 more: on 50 m², the gap reaches €60,700.",
+      },
+      {
+        heading: "A student city under social strain",
+        body: "Amiens had 134,780 inhabitants in 2022, up 0.8% since 2016 (source: INSEE, 2022 census). Median living standard is €19,650 a year, with a 26% poverty rate (source: INSEE, Filosofi 2021). Our safety score is 4.5/10 and our schools score 6.6/10.",
+      },
+      {
+        heading: "Amiens or Lille: what is the difference?",
+        body: "Lille scores 8.7/10 on transport, ranked 25th, against 6.1/10 for Amiens. A T2 costs €800 in Lille and €680 in Amiens, a gap of €120 a month and €1,440 a year; a T3 goes from €900 to €1,080. Lille gives you the metro and the tram; Amiens gives you space and lower rents.",
+      },
+      {
+        heading: "The limits of going car-free in Amiens",
+        body: "A bus network, even an articulated electric one, still shares the road with traffic. The towns around Amiens and the Somme bay are hard to reach without a car. For weekends, the train to Paris or Lille is the option; check your timetables.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €490 studio is affordable; stay on a Nemo line. Working couple: the €680 T2 leaves slack against Lille. Family: the €900 T3 and a 6.6/10 schools score compare well. If you want a real tram or metro grid, look at Lille rather than Amiens.",
+      },
+    ],
+    relatedCities: ["amiens","lille","rouen"],
+    tags: ["car-free Amiens","Nemo bus Amiens","Amiens without a car","car-free Somme 2026","hauts-de-france"],
+  },
+
+  {
+    slug: "car-free-living-in-dunkerque-2026",
+    title: "Car-Free Living in Dunkirk 2026: Free Buses and a €560 T2",
+    metaTitle: "Car-Free Living in Dunkirk 2026: Free Buses, Rents",
+    metaDesc: "In Dunkirk the DK'Bus network has been free since 2018 and a T2 is €560 on our rent estimate. Transport score 6.1/10, 281st of 593. Compared with Lille.",
+    category: "lifestyle",
+    emoji: "🆓",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "Dunkirk (Dunkerque) has something almost no other city of its size offers: its DK'Bus network has been free for everyone since 1 September 2018, and a two-room flat (T2) is €560 on our rent estimate, €240 less than in Lille. Our transport score is 6.1/10, ranked 281st of 593 in a tie with 19 other cities. Free does not mean dense: there is no tram here.",
+    sections: [
+      {
+        heading: "What does free transport mean in Dunkirk?",
+        body: "DK'Bus, run by STDE (a Transdev group company), has been free for all riders since September 2018. Ridership has risen sharply since, according to the trade press, though unions complain that resources have not kept pace. For you it removes the pass, not the wait at the stop.",
+      },
+      {
+        heading: "How much does housing cost in Dunkirk?",
+        body: "Our rent estimate gives €400 a month for a studio, €560 for a T2 and €750 for a T3 (three rooms), the lowest of this batch. The median apartment price is €2,227 per m² across 847 sales in 2024-2025 (source: our price page, DVF notarial sales). Lille is at €3,705 per m², €1,478 more: on 50 m², €73,900.",
+      },
+      {
+        heading: "A shrinking urban area",
+        body: "Dunkirk had 87,013 inhabitants in 2022, down 1.2% since 2016 (source: INSEE, 2022 census). Median living standard is €20,240 a year, with a 22% poverty rate (source: INSEE, Filosofi 2021). Our scores: safety 4.5/10, culture 5.9/10, schools 5.8/10.",
+      },
+      {
+        heading: "Dunkirk or Lille: what is the difference?",
+        body: "Lille scores 8.7/10 on transport against 6.1/10 for Dunkirk. A T2 is €800 in Lille and €560 in Dunkirk, a gap of €240 a month and €2,880 a year; a T3 goes from €750 to €1,080. In Dunkirk the bus budget falls to zero; in Lille you pay, but the network is in another league.",
+      },
+      {
+        heading: "The limits of going car-free in Dunkirk",
+        body: "The urban area stretches between the port, the beaches and neighbouring towns, with business parks far from stops. Wind and distance make cycling less obvious. Free fares add no frequency on evenings and Sundays: test your real timetable.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €400 studio and free buses make the lowest budget of the batch. Working couple: the €560 T2 leaves slack, if the job is on a bus line. Family: the €750 T3 is affordable, with a 5.8/10 schools score to weigh. If you want the density of a tram, this is not the place.",
+      },
+    ],
+    relatedCities: ["dunkerque","lille","calais"],
+    tags: ["car-free Dunkirk","free buses Dunkirk","DK'Bus","Dunkirk without a car","hauts-de-france"],
+  },
+
+  {
+    slug: "car-free-living-in-valenciennes-2026",
+    title: "Car-Free Living in Valenciennes 2026: A Tram Since 2006 and a €490 T2",
+    metaTitle: "Car-Free Living in Valenciennes 2026: Tram, Rents",
+    metaDesc: "Valenciennes has had a tram since 2006 and the cheapest T2 of this batch: €490 on our rent estimate. Transport score 6.1/10, 281st of 593. Compared with Lille.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "Valenciennes pairs a tram that opened on 3 July 2006 with the lowest rent of this series: €490 for a two-room flat (T2) on our rent estimate, €310 less than in Lille. Our transport score is 6.1/10, ranked 281st of 593 in a tie with 19 other cities. The tram is enough for the main axis, not for the whole metropolitan area.",
+    sections: [
+      {
+        heading: "What does the Valenciennes tram serve?",
+        body: "The first line opened on 3 July 2006 between Université and Dutemple, then was extended to Denain in 2007. A second line, towards Vieux-Condé, opened on 24 February 2014. The Transvilles network was reorganised in 2024; we do not detail the bus lines, whose list changes.",
+      },
+      {
+        heading: "How much does housing cost in Valenciennes?",
+        body: "Our rent estimate gives €360 a month for a studio, €490 for a T2 and €660 for a T3 (three rooms). The median apartment price is €1,956 per m² across 582 sales in 2024-2025 (source: our price page, DVF notarial sales). Lille is at €3,705 per m², €1,749 more: on 50 m², €87,450.",
+      },
+      {
+        heading: "A small city at the heart of a wider basin",
+        body: "Valenciennes had 42,979 inhabitants in 2022, down 1.6% since 2016 (source: INSEE, 2022 census). Median living standard is €20,250 a year, with a 25% poverty rate (source: INSEE, Filosofi 2021). Our scores: safety 4.3/10, culture 6.2/10, schools 5.8/10.",
+      },
+      {
+        heading: "Valenciennes or Lille: what is the difference?",
+        body: "Lille scores 8.7/10 on transport against 6.1/10 for Valenciennes. A T2 costs €800 in Lille and €490 here, a gap of €310 a month and €3,720 a year; a T3 goes from €660 to €1,080. With 42,979 inhabitants against 238,695 in Lille, everything is walkable from the centre.",
+      },
+      {
+        heading: "The limits of going car-free in Valenciennes",
+        body: "The town itself is small, but the former mining basin around it is sprawling: jobs are often in a business park far from the tram. A safety score of 4.3/10 suggests checking the streets near your stop. For Lille, the train is the option; check your timetables.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €360 studio, the lowest of the batch; live near line 1. Working couple: the €490 T2 is a rare budget, if the job is served. Family: the €660 T3 is affordable, with a 5.8/10 schools score. For cultural density and a wider network, look at Lille.",
+      },
+    ],
+    relatedCities: ["valenciennes","lille","dunkerque"],
+    tags: ["car-free Valenciennes","Valenciennes tram","Transvilles","Valenciennes without a car","hauts-de-france"],
+  },
+
+  {
+    slug: "car-free-living-in-la-rochelle-2026",
+    title: "Car-Free Living in La Rochelle 2026: Bikes, Sea Buses and a €820 T2",
+    metaTitle: "Car-Free Living in La Rochelle 2026: Bikes, Yélo, Rents",
+    metaDesc: "In La Rochelle, shared bikes and sea buses make a car optional, but a T2 is €820 on our rent estimate. Transport score 7.0/10. Compared with Poitiers.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 6,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    intro: "La Rochelle works without a car thanks to its compact centre and the Yélo network, which combines buses, shared bikes and boats (a ferry and the sea bus), but it is the dearest city of this batch: €820 for a two-room flat (T2) on our rent estimate, €160 more than in Poitiers. Our transport score is 7.0/10, ranked 131st of 593 in a tie with 43 other cities.",
+    sections: [
+      {
+        heading: "What does the Yélo network include?",
+        body: "Yélo is the urban-area network: buses, shared bikes, ferry-type boats and the sea bus. Bike stations can be used every day at any hour. Published fares differ between documents, so we quote none; check the official site.",
+      },
+      {
+        heading: "How much does housing cost in La Rochelle?",
+        body: "Our rent estimate gives €600 a month for a studio, €820 for a T2 and €1,100 for a T3 (three rooms). The median apartment price is €4,844 per m² across 1,714 sales in 2024-2025 (source: our price page, DVF notarial sales). Poitiers is at €2,200 per m², €2,644 less: on 50 m², the gap reaches €132,200.",
+      },
+      {
+        heading: "A city that attracts and gets pricier",
+        body: "La Rochelle had 79,961 inhabitants in 2022, up 5.6% since 2016 (source: INSEE, 2022 census). Median living standard is €22,200 a year, with an 18% poverty rate (source: INSEE, Filosofi 2021). Our scores: safety 6.5/10, nature 7.2/10, cost of living 4.6/10, the lowest of this batch.",
+      },
+      {
+        heading: "La Rochelle or Poitiers: what is the difference?",
+        body: "Poitiers scores 6.4/10 on transport against 7.0/10 for La Rochelle. A T2 costs €660 in Poitiers and €820 in La Rochelle, a gap of €160 a month and €1,920 a year; a T3 goes from €880 to €1,100. La Rochelle offers the sea and the bike; Poitiers, a much gentler housing budget.",
+      },
+      {
+        heading: "The limits of going car-free in La Rochelle",
+        body: "The nearby islands and the farther beaches are hard to reach without a car off-season. Wind and rain weigh on cycling in winter. And the housing bill can cancel the saving from not owning a car: do the sums before you rent.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €600 studio is high; compare with Poitiers. Working couple: an €820 T2 is justified if the job is a bike ride from the centre. Retiree: safety of 6.5/10, nature of 7.2/10 and a flat centre suit, if the budget follows. Family: the €1,100 T3 is the dearest of the batch, with a 7.4/10 schools score.",
+      },
+    ],
+    relatedCities: ["la-rochelle","poitiers","nantes"],
+    tags: ["car-free La Rochelle","La Rochelle bike","Yélo La Rochelle","La Rochelle without a car","nouvelle-aquitaine"],
+  },
+
+  {
     slug: "living-in-ile-de-france-2026",
     title: "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
     metaTitle: "Living in Île-de-France: Expat Guide 2026",
