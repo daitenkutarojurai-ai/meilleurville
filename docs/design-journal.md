@@ -1247,3 +1247,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Sous-page `louer-ou-acheter`.
 2. Hubs `/environnement` / `/risques`.
 3. Pages `/tags` et `/tags/[slug]`.
+
+## 2026-11-02 ~03:00 UTC — sous-page `/villes/[slug]/louer-ou-acheter` (FR) + EN `/cities/[slug]/own-vs-rent`
+
+**Surface** : gabarit louer/acheter (593 villes × 2 locales). Le run de 23:00 n'a laissé ni commit ni journal. Avant : un seul bloc sur fond de page, `Card` grises, légende du ratio en encart gris, renvois en cartes grises.
+
+**Changé** : hero `.bg-aurora` + tuile emoji 🏠 `grad-head-0` (EN : nom de ville en `.gradient-text`) ; verdict + tension locative en `band-indigo` (cartes blanches à ombre indigo, légende du ratio en encart lavande) ; chiffres, comparatif mensuel et payback en `band-pink` (h2 dégradés, cartes à ombre rose) ; renvois en tuiles lavande (surtitres indigo), note d'estimation, DiscussionCTA / FeedbackWidget en `band-white` ; boutons EN en pilule dégradée / lavande. Import `Card` retiré (FR). Teintes de verdict (`VERDICT_META.tone`) et couleur de tension conservées (paliers). Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/villes/lyon/louer-ou-acheter` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hubs `/environnement` / `/risques`.
+2. Pages `/tags` et `/tags/[slug]`.
+3. Hub `/louer-ou-acheter` (classement national lié depuis la sous-page).

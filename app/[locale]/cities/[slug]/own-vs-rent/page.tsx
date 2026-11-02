@@ -90,7 +90,9 @@ export default async function EnCityOwnVsRent({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-14 pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -101,9 +103,9 @@ export default async function EnCityOwnVsRent({ params }: Props) {
           <span>Own vs rent</span>
         </nav>
         <div className="flex items-center gap-3 mb-3">
-          <span className="text-5xl" aria-hidden>🏠</span>
+          <span aria-hidden className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl grad-head-0 text-2xl shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)]">🏠</span>
           <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight">
-            Renting vs buying in {city.name}
+            Renting vs buying in <span className="gradient-text">{city.name}</span>
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
@@ -111,23 +113,27 @@ export default async function EnCityOwnVsRent({ params }: Props) {
           deposit to pay back. All derived from the site&apos;s median T3 rent and
           price-per-m² figures plus January 2026 lending rates.
         </p>
+        </div>
       </section>
 
       {!data ? (
-        <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+        <section className="band band-indigo py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
             <p className="text-sm text-[var(--text-secondary)]">
               Not enough rent / price data for <strong>{city.name}</strong> in the housing
               dataset. See the <Link href={`/cities/${slug}`} className="underline">city profile</Link>{" "}
               for the medians we do have.
             </p>
           </div>
+          </div>
         </section>
       ) : (
         <>
           {/* Verdict */}
-          <section className="mx-auto max-w-3xl px-4 sm:px-6 py-2">
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+          <section className="band band-indigo py-10">
+            <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-center justify-between gap-3 mb-3">
                 <div>
                   <p className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] mb-1">Verdict</p>
@@ -146,39 +152,39 @@ export default async function EnCityOwnVsRent({ params }: Props) {
               <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
                 {VERDICT_EN[data.verdict].advice}
               </p>
-              <div className="mt-3 rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)]/40 p-3 text-[11px] text-[var(--text-secondary)] leading-relaxed">
+              <div className="mt-3 rounded-xl bg-[var(--band-indigo)] p-3 text-[11px] text-[var(--text-secondary)] leading-relaxed">
                 <strong className="text-[var(--text-primary)]">How to read this ratio:</strong> it shows how many years of rent
                 it would take to equal the purchase price. <strong>&lt; 15 years: buying strongly favoured</strong>,
                 15-20: standard balance, 20-25: renting is often smarter,
                 <strong> &gt; 25 years: a stretched market where buying rarely wins</strong>.
               </div>
             </div>
+            </div>
           </section>
 
-          {/* Raw figures */}
-          <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">The numbers</h2>
+          {/* Raw figures + monthly + payback — pink band */}
+          <section className="band band-pink py-10">
+            <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <h2 className="text-xl font-bold mb-1"><span className="gradient-text">The numbers</span></h2>
             <p className="text-xs text-[var(--text-tertiary)] mb-3">
               Reference surface: median T3 of {REF_SURFACE_M2} m². Rent and price-per-m²
               medians from French rent observatories and DVF transaction data.
             </p>
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
               <StatRow label="T3 purchase price" value={`€${data.priceT3.toLocaleString("en-GB")}`} />
               <StatRow label="Annual T3 rent" value={`€${data.rentT3Annual.toLocaleString("en-GB")}`} />
               <StatRow label="Deposit (10%)" value={`€${data.apport.toLocaleString("en-GB")}`} />
               <StatRow label="Notary fees (7.5%)" value={`€${data.notaryFees.toLocaleString("en-GB")}`} />
               <StatRow label="Cash needed up front" value={`€${data.totalCashIn.toLocaleString("en-GB")}`} />
             </div>
-          </section>
 
-          {/* Monthly comparison */}
-          <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">Monthly comparison</h2>
+            {/* Monthly comparison */}
+            <h2 className="mt-10 text-xl font-bold mb-1"><span className="gradient-text">Monthly comparison</span></h2>
             <p className="text-xs text-[var(--text-tertiary)] mb-3">
               25-year repayment mortgage at 3.4% APR (median French bank rates, January 2026).
               Owner costs = 1.2% of the price per year (property tax, upkeep, landlord insurance).
             </p>
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
               <StatRow label="Mortgage payment" value={`€${data.monthlyMortgage.toLocaleString("en-GB")}/mo`} />
               <StatRow label="+ Owner costs" value={`€${data.monthlyOwnerCharges.toLocaleString("en-GB")}/mo`} />
               <StatRow label="= Total owner cost" value={`€${(data.monthlyMortgage + data.monthlyOwnerCharges).toLocaleString("en-GB")}/mo`} />
@@ -189,11 +195,9 @@ export default async function EnCityOwnVsRent({ params }: Props) {
                 tone={data.monthlySavingsVsRent > 0 ? "text-emerald-700" : "text-red-700"}
               />
             </div>
-          </section>
 
-          {/* Payback */}
-          <section className="mx-auto max-w-3xl px-4 sm:px-6 py-2">
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            {/* Payback */}
+            <div className="mt-6 rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
               <p className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] mb-2">Deposit payback</p>
               {data.paybackYears != null ? (
                 <p className="text-sm text-[var(--text-secondary)]">
@@ -210,23 +214,27 @@ export default async function EnCityOwnVsRent({ params }: Props) {
                 </p>
               )}
             </div>
+            </div>
           </section>
         </>
       )}
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-8">
+      {/* Next steps + feedback — white band */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <p className="text-xs text-[var(--text-tertiary)] mb-5">
           Estimate — based on median rent / price figures and January 2026 bank rates. Your
           real situation may differ (larger deposit, negotiated rate, agency fees, tax schemes).
         </p>
         <div className="flex flex-wrap gap-3">
-          <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {city.name}</Link>
-          <Link href={`/cities/${slug}/cost-of-living`} className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">Cost of living</Link>
+          <Link href={`/cities/${slug}`} className="rounded-full grad-head-0 px-5 py-2.5 text-white font-semibold shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)] hover:opacity-90">Back to {city.name}</Link>
+          <Link href={`/cities/${slug}/cost-of-living`} className="rounded-full bg-[var(--band-indigo)] px-5 py-2.5 font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]">Cost of living</Link>
+        </div>
+        <div className="mt-10">
+          <FeedbackWidget />
+        </div>
         </div>
       </section>
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-        <FeedbackWidget />
-      </div>
       <Footer />
     </main>
   );
