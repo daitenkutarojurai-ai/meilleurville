@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import {
   topMostAtRisk,
   topLeastAtRisk,
@@ -89,16 +88,21 @@ export default function RisquesHubPage() {
       />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <nav className="text-xs text-[var(--text-tertiary)] mb-3">
           <Link href="/" className="hover:underline">
             Accueil
           </Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          Risques naturels en France
-        </h1>
+        <div className="flex items-center gap-3">
+          <EmojiBadge emoji="⚠️" tone="pink" />
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+            <span className="gradient-text">Risques naturels</span> en France
+          </h1>
+        </div>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Où s&apos;additionnent inondation, sismicité, retrait-gonflement
           argile et feu de forêt — et où l&apos;on dort tranquille. Score 0-10
@@ -112,14 +116,19 @@ export default function RisquesHubPage() {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Cadres de référence : BCSF · BRGM · ONF</Badge>
-          <Badge>{CITIES_COUNT} villes référencées</Badge>
-          <Badge>Synthèse pédagogique · pas un PPRI</Badge>
+          <span className="grad-head-0 rounded-full px-3 py-1 font-semibold">Cadres de référence : BCSF · BRGM · ONF</span>
+          <span className="rounded-full bg-white/85 px-3 py-1 font-medium text-[#4338CA] ring-1 ring-[#C7D2FE]">{CITIES_COUNT} villes référencées</span>
+          <span className="rounded-full bg-white/85 px-3 py-1 font-medium text-[#4338CA] ring-1 ring-[#C7D2FE]">Synthèse pédagogique · pas un PPRI</span>
         </div>
 
-        {/* Most exposed */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 30 — villes les plus exposées
+        </div>
+      </section>
+
+      {/* Top 30 exposées — bande rose */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-2xl font-bold">
+          <span className="gradient-text">Top 30 — villes les plus exposées</span>
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Communes ≥ 15 000 hab. au score composite le plus élevé. Sans
@@ -129,10 +138,10 @@ export default function RisquesHubPage() {
           alpin, arc pyrénéen, Antilles), et celles qui cumulent argile fort +
           massif forestier inflammable proche.
         </p>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[var(--band-pink)] text-xs uppercase tracking-wide text-[#9D174D]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">Ville</th>
@@ -157,7 +166,7 @@ export default function RisquesHubPage() {
                   return (
                     <tr
                       key={e.city.slug}
-                      className="border-t border-[var(--border)]"
+                      className="border-t border-[var(--border)] transition-colors hover:bg-[#F5F3FF]"
                     >
                       <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">
                         {i + 1}
@@ -197,11 +206,16 @@ export default function RisquesHubPage() {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
 
-        {/* Least exposed */}
-        <h2 className="mt-12 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 20 — villes les plus tranquilles
+        </div>
+      </section>
+
+      {/* Top 20 tranquilles — bande indigo */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-2xl font-bold">
+          <span className="gradient-text">Top 20 — villes les plus tranquilles</span>
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Communes ≥ 15 000 hab. au profil de risque le plus bas. Souvent : des
@@ -210,10 +224,10 @@ export default function RisquesHubPage() {
           assureurs habitation y appliquent rarement des surprimes catastrophe
           naturelle.
         </p>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[var(--band-indigo)] text-xs uppercase tracking-wide text-[#4338CA]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">Ville</th>
@@ -228,7 +242,7 @@ export default function RisquesHubPage() {
                 {least.map((e, i) => (
                   <tr
                     key={e.city.slug}
-                    className="border-t border-[var(--border)]"
+                    className="border-t border-[var(--border)] transition-colors hover:bg-[#F5F3FF]"
                   >
                     <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">
                       {i + 1}
@@ -264,13 +278,18 @@ export default function RisquesHubPage() {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
 
-        {/* Methodology */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
-          Méthodologie
+        </div>
+      </section>
+
+      {/* Méthodologie — bande ciel */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold">
+          <span className="gradient-text">Méthodologie</span>
         </h2>
-        <Card className="mt-3">
+        <div className="mt-3 rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">
@@ -320,11 +339,16 @@ export default function RisquesHubPage() {
             urbain). Pour un diagnostic à l&apos;adresse, le portail Géorisques
             reste la référence.
           </p>
-        </Card>
+        </div>
 
-        {/* Macro-region breakdown */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
-          Par macro-région
+        </div>
+      </section>
+
+      {/* Macro-régions — bande lilas */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold">
+          <span className="gradient-text">Par macro-région</span>
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           La géographie des risques naturels n&apos;est pas uniforme : la côte
@@ -334,32 +358,37 @@ export default function RisquesHubPage() {
           fluviale.
         </p>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
-          {MACRO_REGIONS.map((m) => (
+          {MACRO_REGIONS.map((m, i) => (
             <Link
               key={m.slug}
               href={`/risques/${m.slug}`}
-              className="block"
+              className="flex h-full items-center gap-3 rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(124,58,237,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(124,58,237,0.6)]"
             >
-              <Card className="hover:shadow-md transition-shadow h-full">
-                <div className="text-2xl mb-1">{m.emoji}</div>
+              <EmojiBadge emoji={m.emoji} tone={toneFor(i)} size="sm" />
+              <div className="min-w-0">
                 <div className="text-sm font-semibold text-[var(--text-primary)]">
                   {m.label}
                 </div>
-                <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
                   Risques naturels
                 </div>
-              </Card>
+              </div>
             </Link>
           ))}
         </div>
 
-        {/* Cross-links */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
-          Voir aussi
+        </div>
+      </section>
+
+      {/* Renvois — bande aqua */}
+      <section className="band band-aqua py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold">
+          <span className="gradient-text">Voir aussi</span>
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
           <Link href="/environnement" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(8,145,178,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(8,145,178,0.6)]">
               <div className="text-2xl mb-1">🌳</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">
                 Cadre environnemental
@@ -367,7 +396,7 @@ export default function RisquesHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
                 Air, bruit, eau, risques agrégés
               </div>
-            </Card>
+            </div>
           </Link>
           {/* Le littoral entre ici comme un ingrédient du risque — la position
               côtière basse est l'une des entrées de la dimension inondation. Le
@@ -375,7 +404,7 @@ export default function RisquesHubPage() {
               pondère ni érosion ni submersion : les deux pages se lisent
               ensemble, pas l'une à la place de l'autre. */}
           <Link href="/pour-qui/amateurs-de-littoral" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(8,145,178,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(8,145,178,0.6)]">
               <div className="text-2xl mb-1">🌊</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">
                 Choisir une ville pour sa côte
@@ -383,10 +412,10 @@ export default function RisquesHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
                 Ici la côte est un aléa ; là, un critère
               </div>
-            </Card>
+            </div>
           </Link>
           <Link href="/climat-2040-timelapse" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(8,145,178,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(8,145,178,0.6)]">
               <div className="text-2xl mb-1">🌡️</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">
                 Climat 2040
@@ -394,7 +423,7 @@ export default function RisquesHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
                 Canicule, nuits tropicales
               </div>
-            </Card>
+            </div>
           </Link>
           <Link
             href="https://www.georisques.gouv.fr/mes-risques/connaitre-les-risques-pres-de-chez-moi"
@@ -402,7 +431,7 @@ export default function RisquesHubPage() {
             rel="noopener"
             className="block"
           >
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(8,145,178,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(8,145,178,0.6)]">
               <div className="text-2xl mb-1">🗺️</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">
                 Diagnostic à l&apos;adresse
@@ -410,8 +439,9 @@ export default function RisquesHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
                 Outil officiel Géorisques
               </div>
-            </Card>
+            </div>
           </Link>
+        </div>
         </div>
       </section>
 

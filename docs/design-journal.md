@@ -1273,3 +1273,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hub `/risques` (FR) + EN `/natural-risks` (même schéma), puis les pages `[macroregion]` des deux hubs.
 2. Pages `/tags` et `/tags/[slug]`.
 3. Hub `/louer-ou-acheter` (classement national).
+
+## 2026-11-03 ~04:00 UTC — hub `/risques` (FR) + EN `/natural-risks`
+
+**Surface** : palmarès national risques naturels, lié depuis `/environnement` et la sous-page risques. Les runs de 23:00 et 03:00 n'ont laissé ni commit ni journal. Avant : un seul bloc sur fond de page, `Badge` gris, tableaux en `Card` à en-tête gris, tuiles macro-régions et renvois en `Card` grises à emoji nu.
+
+**Changé** (schéma du hub environnement) : hero `.bg-aurora` + `EmojiBadge` ⚠️ rose, « Risques naturels » en `.gradient-text`, badges en pilules (`grad-head-0` + blanches indigo) ; top 30 exposées en `band-pink` (tableau blanc à ombre rose, en-tête `#9D174D`) ; top 20 tranquilles en `band-indigo` ; méthodologie en `band-sky` (carte blanche à ombre cyan) ; macro-régions en `band-lilac` (tuiles blanches + `EmojiBadge toneFor(i)`) ; renvois en `band-aqua`. h2 en `.gradient-text`. Imports `Card`/`Badge` retirés. Rouge/vert des composites et `RISK_LEVEL_COLOR` conservés (niveaux). Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/risques` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages `[macroregion]` des hubs `/risques` et `/environnement` (FR + EN).
+2. Pages `/tags` et `/tags/[slug]`.
+3. Hub `/louer-ou-acheter` (classement national).

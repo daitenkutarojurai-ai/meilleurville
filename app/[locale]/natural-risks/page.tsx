@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import {
   topMostAtRisk,
   topLeastAtRisk,
@@ -122,16 +121,21 @@ export default function EnNaturalRisksHubPage() {
       />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <nav className="text-xs text-[var(--text-tertiary)] mb-3">
           <Link href="/" className="hover:underline">
             Home
           </Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          Natural risks in France
-        </h1>
+        <div className="flex items-center gap-3">
+          <EmojiBadge emoji="⚠️" tone="pink" />
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+            <span className="gradient-text">Natural risks</span> in France
+          </h1>
+        </div>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Where flooding, seismic activity, clay-shrinkage subsidence and
           wildfire pile up — and where you sleep quietly. Score 0-10 (10 =
@@ -145,14 +149,19 @@ export default function EnNaturalRisksHubPage() {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Reference frameworks: BCSF · BRGM · ONF</Badge>
-          <Badge>{CITIES_COUNT} cities referenced</Badge>
-          <Badge>Educational summary · not a PPRI</Badge>
+          <span className="grad-head-0 rounded-full px-3 py-1 font-semibold">Reference frameworks: BCSF · BRGM · ONF</span>
+          <span className="rounded-full bg-white/85 px-3 py-1 font-medium text-[#4338CA] ring-1 ring-[#C7D2FE]">{CITIES_COUNT} cities referenced</span>
+          <span className="rounded-full bg-white/85 px-3 py-1 font-medium text-[#4338CA] ring-1 ring-[#C7D2FE]">Educational summary · not a PPRI</span>
         </div>
 
-        {/* Most exposed */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 30 — Most-exposed cities
+        </div>
+      </section>
+
+      {/* Top 30 most exposed — pink band */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-2xl font-bold">
+          <span className="gradient-text">Top 30 — Most-exposed cities</span>
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Cities of 15,000+ residents with the highest composite score. No
@@ -162,10 +171,10 @@ export default function EnNaturalRisksHubPage() {
           French West Indies), and those stacking strong clay + flammable
           forest nearby.
         </p>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[var(--band-pink)] text-xs uppercase tracking-wide text-[#9D174D]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">City</th>
@@ -190,7 +199,7 @@ export default function EnNaturalRisksHubPage() {
                   return (
                     <tr
                       key={e.city.slug}
-                      className="border-t border-[var(--border)]"
+                      className="border-t border-[var(--border)] transition-colors hover:bg-[#F5F3FF]"
                     >
                       <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">
                         {i + 1}
@@ -230,11 +239,16 @@ export default function EnNaturalRisksHubPage() {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
 
-        {/* Least exposed */}
-        <h2 className="mt-12 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 20 — Calmest cities
+        </div>
+      </section>
+
+      {/* Top 20 calmest — indigo band */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-2xl font-bold">
+          <span className="gradient-text">Top 20 — Calmest cities</span>
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Cities of 15,000+ residents with the lowest risk profile. Often:
@@ -242,10 +256,10 @@ export default function EnNaturalRisksHubPage() {
           crossing, outside any flammable forest belt. Home insurers rarely
           apply catastrophe-natural surcharges there.
         </p>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[var(--band-indigo)] text-xs uppercase tracking-wide text-[#4338CA]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">City</th>
@@ -260,7 +274,7 @@ export default function EnNaturalRisksHubPage() {
                 {least.map((e, i) => (
                   <tr
                     key={e.city.slug}
-                    className="border-t border-[var(--border)]"
+                    className="border-t border-[var(--border)] transition-colors hover:bg-[#F5F3FF]"
                   >
                     <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">
                       {i + 1}
@@ -296,13 +310,18 @@ export default function EnNaturalRisksHubPage() {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
 
-        {/* Methodology */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
-          Methodology
+        </div>
+      </section>
+
+      {/* Methodology — sky band */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold">
+          <span className="gradient-text">Methodology</span>
         </h2>
-        <Card className="mt-3">
+        <div className="mt-3 rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">
@@ -349,11 +368,16 @@ export default function EnNaturalRisksHubPage() {
             hilltop, forest edge vs town centre). For an address-level
             diagnostic, the Géorisques portal remains the reference.
           </p>
-        </Card>
+        </div>
 
-        {/* Macro-region breakdown */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
-          By geographic zone
+        </div>
+      </section>
+
+      {/* Macro-regions — lilac band */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold">
+          <span className="gradient-text">By geographic zone</span>
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Natural-risk geography is anything but uniform: the Atlantic coast
@@ -363,32 +387,37 @@ export default function EnNaturalRisksHubPage() {
           flooding.
         </p>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
-          {MACRO_REGIONS.map((m) => (
+          {MACRO_REGIONS.map((m, i) => (
             <Link
               key={m.slug}
               href={`/natural-risks/${m.slug}`}
-              className="block"
+              className="flex h-full items-center gap-3 rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(124,58,237,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(124,58,237,0.6)]"
             >
-              <Card className="hover:shadow-md transition-shadow h-full">
-                <div className="text-2xl mb-1">{m.emoji}</div>
+              <EmojiBadge emoji={m.emoji} tone={toneFor(i)} size="sm" />
+              <div className="min-w-0">
                 <div className="text-sm font-semibold text-[var(--text-primary)]">
                   {EN_MACRO_LABEL[m.slug] ?? m.label}
                 </div>
-                <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
                   Natural risks
                 </div>
-              </Card>
+              </div>
             </Link>
           ))}
         </div>
 
-        {/* Cross-links */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
-          See also
+        </div>
+      </section>
+
+      {/* Cross-links — aqua band */}
+      <section className="band band-aqua py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold">
+          <span className="gradient-text">See also</span>
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
           <Link href="/environment" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(8,145,178,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(8,145,178,0.6)]">
               <div className="text-2xl mb-1">🌳</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">
                 Environment ranking
@@ -396,10 +425,10 @@ export default function EnNaturalRisksHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
                 Air, noise, water, aggregated risks
               </div>
-            </Card>
+            </div>
           </Link>
           <Link href="/climate-2040-timelapse" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(8,145,178,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(8,145,178,0.6)]">
               <div className="text-2xl mb-1">🌡️</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">
                 Climate 2040
@@ -407,7 +436,7 @@ export default function EnNaturalRisksHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
                 Heatwaves, tropical nights
               </div>
-            </Card>
+            </div>
           </Link>
           <Link
             href="https://www.georisques.gouv.fr/mes-risques/connaitre-les-risques-pres-de-chez-moi"
@@ -415,7 +444,7 @@ export default function EnNaturalRisksHubPage() {
             rel="noopener"
             className="block"
           >
-            <Card className="hover:shadow-md transition-shadow h-full">
+            <div className="h-full rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(8,145,178,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(8,145,178,0.6)]">
               <div className="text-2xl mb-1">🗺️</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">
                 Address-level check
@@ -423,8 +452,9 @@ export default function EnNaturalRisksHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
                 Official Géorisques tool
               </div>
-            </Card>
+            </div>
           </Link>
+        </div>
         </div>
       </section>
 
