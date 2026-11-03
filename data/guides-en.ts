@@ -58619,6 +58619,306 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["moving to france","orleans","relocation","centre-val de loire","paris commuters"],
   },
   {
+    slug: "moving-to-le-mans-2026",
+    title: "Moving to Le Mans in 2026: an hour from Paris, with a race week to plan around",
+    metaTitle: "Moving to Le Mans 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Le Mans: a two-room flat at €650, Paris in about 55 minutes by TGV, a walled old town, a June race week to avoid, and what landing costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Le Mans pairs a fast train to Paris, around 55 minutes by TGV, with some of the lowest rents of any large French city: a two-room flat averages €650 and buying runs about €1,900 per square metre. Its score on our site is 5.7/10, and the commune has 145,182 residents (INSEE, 2022), a little up on 2016. Two local facts shape any move: a walled Roman and medieval old town with narrow lanes, and the 24 Hours of Le Mans in mid-June, which takes over the roads and the short-let market for a week.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €470 for a studio, €650 for a two-room flat, €870 for a three-room. Le Mans is not under a rent cap and is not a tight-market zone, so agency fees sit at the legal ceiling of €8 per square metre plus €3 for the inventory, about €500 on a 45 square metre flat. Compare it with Angers, where the same two-room flat averages €750, and Tours at €700: you pay roughly 10 to 15 percent less than at either. Outside the late-August student rush around the university and the engineering schools, decent flats are visible within two to four weeks and file selection stays reasonable. Median income is €21,180 a year (INSEE Filosofi, 2021), the poverty rate is 22 percent, and landlords mostly want stable, documented tenants rather than a bidding war.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Expect to produce identity, three French payslips, the latest French tax notice and past rent receipts. If you cannot, Visale, the free Action Logement rent guarantee, is the usual substitute for people under 30 or with a recent job start; check eligibility before viewing. A French-resident guarantor earning three times the rent also works, and a signed employment contract with an employer's letter carries real weight for someone arriving from abroad. At €650 a month, three times the rent is a monthly income of about €1,950, one of the lowest thresholds among French cities of this size.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. The Cité Plantagenêt, the walled old town around the Saint-Julien cathedral, is remarkable but heritage-listed: renovation rules are strict, parking is awkward, and it suits people who live without a car. République and Gambetta give the most central address, with the tram at the door and the highest rents in town, still modest. Bollée and the Novaxis area offer more floor area for the money in renovated 1970s blocks with a direct tram to the centre. Families also look at Yvré-l'Évêque, Coulaines and Arnage in the outer ring for houses. Do not sign in La Ferté-Bernard or Sablé-sur-Sarthe on price alone: a car becomes compulsory and the TGV benefit does not carry over to smaller stations.",
+      },
+      {
+        heading: "Moving day: lanes, trams and race week",
+        body: "Le Mans logistics have three quirks. Inside the old walls, around the cathedral and the Grande Rue, the cobbled lanes are very narrow and a temporary occupancy permit from the city, requested one to two weeks ahead, is essential; above the second floor a furniture lift is almost standard in protected buildings. The tram runs along the main avenues, so plan your parking away from the dedicated lanes. And the 24 Hours of Le Mans, held in mid-June, fills the whole Sarthe road network for about a week: avoid any date from the Monday before to the Wednesday after the race. Best slot: Saturday morning or a weekday before 10 am, outside June and outside the back-to-school week.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership and a valued inventory on cerfa 10070. Nothing is required from inside the EU. Le Mans is about 210 kilometres from Paris by the A11, roughly two and a half hours by road, so a van collected from the Paris airports or ports is a single-day run.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €650: a deposit of one month excluding charges, around €610, the first month up front, and agency fees of about €500 on 45 square metres including the inventory. A removal runs €400 to €800 for a studio from within the region (Angers and Tours are about an hour away, Laval 45 minutes, Rennes two hours) and €900 to €2,000 for a three-room flat from Paris. A complete setup for a couple renting comes to €2,000 to €3,500, among the gentlest budgets of any large French city. One line to provision: winter heating, because the climate is mild and oceanic but damp.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well rolled out across Le Mans Métropole. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: a pass for the tram and bus network and the public bike scheme, a resident parking permit if your car stays on a paid street in the centre, and the municipal culture card for libraries and museums. Finding a GP is moderately hard for a city this size; the health centres in the surrounding communes, such as Allonnes, Coulaines and Yvré-l'Évêque, still take new patients more readily. School registration is done at the town hall, and a local sports club is the quickest way into a social circle.",
+      },
+      {
+        heading: "The traps specific to Le Mans",
+        body: "Four. One, ignoring the 24 Hours: a lease signed in April for a mid-June entry gets squeezed by inflated short-let prices around the circuit, so fix the calendar first. Two, underestimating the constraints of the protected old town: the flats are beautiful but subject to heritage rules, renovation is costly, insulation limited and heating often high, so check the energy rating before signing. Three, choosing a distant town on rent alone and discovering the daily car commute. Four, underestimating damp in older western-France buildings: view on a weekday morning and check ventilation. Le Mans remains one of the best-placed landings in France for a quick TGV to Paris, very modest costs and a striking old town.",
+      },
+    ],
+    relatedCities: ["le-mans","angers","tours","laval"],
+    tags: ["moving to france","le mans","relocation","pays de la loire","paris commuters"],
+  },
+  {
+    slug: "moving-to-perpignan-2026",
+    title: "Moving to Perpignan in 2026: Catalan sun, cheap rents, a long way from Paris",
+    metaTitle: "Moving to Perpignan 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Perpignan: a two-room flat at €650, buying near €2,300/m², Catalan old town, wind and sun, and what landing costs. A practical guide.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Perpignan is one of the cheapest places to rent on the Mediterranean: a two-room flat averages €650 and buying costs about €2,300 per square metre, against €850 and €3,900 in Montpellier. The commune has 120,996 residents (INSEE, 2022), roughly stable since 2016, and scores 4.7/10 on our site, held back by income and social indicators rather than by climate. You get a Catalan old town, the Castillet, the Palace of the Kings of Majorca, beaches at Canet and Saint-Cyprien within a short drive, and one of the sunniest climates in the country, with the cold north-westerly tramontane wind as the price.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €470 for a studio, €650 for a two-room flat, €870 for a three-room. Agency fees are capped by decree on a per-square-metre scale that depends on the tier the commune falls in, so budget between about €500 and €585 on a 45 square metre flat and ask the agency to show the line. There is no rent cap. Pressure is highest on renovated flats in the old centre and on anything close to the coastal resorts, where seasonal letting pulls long-term rents up. The university and its campus create a short squeeze in September. Local landlords often prefer stable tenants on long leases, so a solid file and an in-person visit count for more than speed.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Expect to produce identity, three French payslips, the latest French tax notice and past rent receipts. If you cannot, Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility before viewing. A French-resident guarantor earning three times the rent works too, and an employment contract with an employer's letter carries weight for someone arriving from abroad. Median income in Perpignan is €17,380 a year (INSEE Filosofi, 2021) and 34 percent of residents are below the poverty line, so many landlords are cautious about thin files: over-prepare yours.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five landings, to be read street by street. The old centre around the Castillet and the place de la République has the Catalan atmosphere, narrow lanes and the highest local rents, with everything on foot. Saint-Jacques, south of the centre, has a strong identity and has been under renovation for some years: a few excellent addresses, but visit before signing. Le Vernet in the north-west is the residential, family-friendly district and is much sought after. Moulin-à-Vent suits students and young workers near the university. Families also look at Toulouges and Cabestany in the ring for houses. Do not choose Canet-en-Roussillon or Saint-Cyprien for the beach alone: a car becomes compulsory, the roads clog in summer and services thin out off-season.",
+      },
+      {
+        heading: "Moving day: narrow streets and the tramontane",
+        body: "Perpignan logistics have three quirks. In the old centre, around the Castillet and the quai Vauban, the lanes are narrow, a furniture lift is standard above the second floor and a temporary occupancy permit from the city is needed one to two weeks ahead. The tramontane, the dry north-westerly wind, blows hard on many days a year, strongest from autumn to spring: move the date if gusts above about 60 km/h are forecast, because carrying mattresses and panels becomes dangerous. And the Saturday morning market around the place de la République jams its own neighbourhood. Best slot: a weekday before 10 am, outside July and August.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership and a valued inventory on cerfa 10070. Nothing is required from inside the EU. From Paris it is about 900 kilometres by motorway, eight to nine hours, so most people price a removal company; from Spain it is a much shorter run, since Barcelona is about two hours away.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €650: a deposit of one month excluding charges, around €610, the first month up front, and agency fees between roughly €500 and €585. A removal runs €400 to €800 for a studio from within the region (Narbonne is 45 minutes away, Béziers an hour, Montpellier two hours) and €1,400 to €2,800 for a three-room flat from Paris. A complete setup for a couple renting comes to €2,200 to €3,800. Two lines to provision: air conditioning in July and August, and winter heating, because the wind chills a flat far more than the thermometer suggests and wears out window frames.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well rolled out across the metropolitan area. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: a pass for the urban bus network, a resident parking permit if the car stays on a paid street in the centre, and the municipal culture card. Finding a GP is hard for a prefecture of this size: group health centres in Cabestany and Toulouges take patients more easily than the city itself. Catalan associations, the rugby club and the 23 June Saint-John fires are quick ways into local life.",
+      },
+      {
+        heading: "The traps specific to Perpignan",
+        body: "Four. One, underestimating the tramontane: check a flat's orientation, balcony and windows, and if you can, visit on a windy winter day. Two, signing in the old centre without checking the building's condition, damp and energy rating, because charm sometimes hides an F or G label and a punishing bill. Three, picking the coast for the beach alone and meeting the car dependence. Four, judging a district by its reputation: Perpignan has several neighbourhoods in the national priority-district programme, and the right way to read them is to walk them at the hours you will actually live there. Perpignan remains a real bargain on the Mediterranean, provided the district suits the wind, the tourist summer and the local social mix.",
+      },
+    ],
+    relatedCities: ["perpignan","narbonne","beziers","montpellier"],
+    tags: ["moving to france","perpignan","relocation","occitanie","mediterranean"],
+  },
+  {
+    slug: "moving-to-villeurbanne-2026",
+    title: "Moving to Villeurbanne in 2026: Lyon's twin, with rent control and a metro",
+    metaTitle: "Moving to Villeurbanne 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Villeurbanne: a two-room flat at €870, rent control since 2021, metro line A, the 1930s Gratte-Ciel district, and what landing costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Villeurbanne is Lyon's twin on the east side and a city in its own right: 162,207 residents (INSEE, 2022), up 8.8 percent since 2016, a score of 7.1/10 on our site and a two-room flat at €870 against €1,000 in Lyon. It has its own centre, the 1930s Gratte-Ciel district built under mayor Lazare Goujon, metro line A and several tram lines running through it, and a very large student population on the Doua campus. The catch for a newcomer is a tight rental market, partly softened by rent control that has applied here and in Lyon since November 2021.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €600 for a studio, €870 for a two-room flat, €1,150 for a three-room. Villeurbanne is in a tight-market zone and, together with Lyon, is covered by the experimental rent-control scheme: every advert must state the reference rent and the maximum rent, and a supplement is only justified by a genuine feature. The experiment is scheduled to end in late 2026, so check on the prefecture's site whether the order still applies on your signing date. Agency fees are capped by decree, roughly €585 to €700 on a 45 square metre flat. The real issue is competition: the Doua campus (INSA and the Lyon 1 sciences faculties), steady arrivals of managers and spill-over from Lyon. Respond to a good advert within the hour with a complete PDF file.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Expect to produce identity, three French payslips, the latest French tax notice and past rent receipts. If you cannot, Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility before viewing. A French-resident guarantor earning three times the rent works too, which here means a monthly income near €2,600 for a two-room flat. Median income in the commune is €21,540 a year (INSEE Filosofi, 2021) and 21 percent of residents are below the poverty line, a mixed picture that explains why files are scrutinised closely.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five reliable landings. Gratte-Ciel, the Art Deco core, is central, on metro line A, with a cinema, the Théâtre National Populaire and rents well below Lyon's Presqu'île. Charpennes and Tonkin are the great interchange, with metro A and tram lines, and favoured by young workers and students. Cusset and Bonnevay mix students and families one notch cheaper. Doua and Ferrandière sit beside the university for people studying or working there. Les Buers and Grandclément offer lower budgets in renovated 1960s and 70s blocks. Families also look at Croix-Luizet and Saint-Jean, or cross into Caluire-et-Cuire. If you are tempted by Bron, Décines or Vaulx-en-Velin on price, test the transport link first: the trams are reliable, but outside their reach a car is useful again.",
+      },
+      {
+        heading: "Moving day: wide avenues, small lifts, low-emission zone",
+        body: "Villeurbanne logistics have three quirks. Around the cours Émile-Zola in Gratte-Ciel the streets are wide, but tram tracks run along the main axes: plan parking away from the dedicated lanes. The lifts in the 1930s buildings are often small, so a furniture lift helps above the third floor. And Lyon's low-emission zone is active: older, more polluting vans can be barred, so check the sticker on the rental truck before booking. A temporary occupancy permit from the town hall, requested one to two weeks ahead, is needed on the central axes. Best slot: Saturday morning or a weekday before 10 am.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership and a valued inventory on cerfa 10070. Nothing is required from inside the EU. Lyon is about 470 kilometres from Paris by the A6, around five hours by road, and the airport at Saint-Exupéry is on the same side of the metropolis as Villeurbanne.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €870: a deposit of one month excluding charges, around €820, the first month up front, and agency fees of roughly €585 to €700 on 45 square metres including the inventory. A removal runs €400 to €800 for a studio from within the metropolitan area (Lyon centre is about ten minutes by tram, Saint-Étienne under an hour) and €1,400 to €3,000 for a three-room flat from Paris. A complete setup for a couple renting comes to €3,000 to €5,200, in line with the large French metropolises. Because the commune is in a tight-market zone, the tenant's notice is one month, which limits any double rent.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre across most of the commune. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the TCL pass for metro, tram and bus, shared with Lyon, the Vélo'v bike scheme, and a resident parking permit in the paid zones of the centre. Finding a GP is tight, because students and managers press on the same practices: the health centres in Tonkin and Grandclément still take patients. School registration is done at the town hall.",
+      },
+      {
+        heading: "The traps specific to Villeurbanne",
+        body: "Five. One, ignoring rent control: check the reference rent for the sector and property type before signing, and challenge an excess in writing. Two, furnished student lets near the Doua campus that run above the reference rent every September. Three, choosing the outer suburbs on price without testing the tram connection. Four, forgetting the low-emission zone when hiring a truck. Five, assuming you need a car: with metro and trams, many residents here keep none. Villeurbanne rewards administrative preparation, and it scores 7.1/10 for good reason.",
+      },
+    ],
+    relatedCities: ["villeurbanne","lyon","caluire-et-cuire","vaulx-en-velin"],
+    tags: ["moving to france","villeurbanne","relocation","auvergne-rhone-alpes","rent control"],
+  },
+  {
+    slug: "moving-to-argenteuil-2026",
+    title: "Moving to Argenteuil in 2026: Paris in 15 minutes by train, at a lower rent",
+    metaTitle: "Moving to Argenteuil 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Argenteuil: a two-room flat at €900, buying near €3,600/m², a direct train to Saint-Lazare, the Seine's impressionist bank, and landing costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Argenteuil is the big commune of the Val-d'Oise, 107,135 residents (INSEE, 2022), on the Seine opposite Colombes, where Monet painted in the 1870s. A two-room flat averages €900 and buying costs about €3,600 per square metre, against €1,800 and €10,500 in Paris, and the direct Transilien line J to Gare Saint-Lazare takes about 15 minutes. It scores 5.0/10 on our site: a tight Île-de-France market, a contrasted social picture to read street by street (median income €19,350, poverty rate 27 percent) and a town centre still changing.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €620 for a studio, €900 for a two-room flat, €1,200 for a three-room. Argenteuil is in a tight-market zone: the tenant's notice is one month, and agency fees are capped by decree, roughly €585 to €700 on a 45 square metre flat. There is no rent cap here, unlike Paris or Plaine Commune, but demand is firm on flats by the Seine and near the Argenteuil station. A solid file is enough for a good flat within one to three weeks. The busiest window is September; the quietest runs from November to February. Many local landlords are private owners who prefer stable tenants, and a visit in person often tips the choice.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Expect to produce identity, three French payslips, the latest French tax notice and past rent receipts. If you cannot, Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility before viewing. A French-resident guarantor earning three times the rent works too, which for a €900 two-room flat means about €2,700 a month. A signed employment contract in Paris with an employer's letter helps a lot for someone arriving from abroad.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five landings, to be read street by street. The town centre, around the town hall and the market, is the most convenient, with the station a few minutes' walk. The Seine bank, an old impressionist area being reclaimed for some years, is calm and rising in price. Val-d'Argent-Sud is in a long urban-renewal programme with low rents: do not sign before a visit. The Coteaux, to the north-west, are residential and family-oriented, much in demand. Orgemont offers more floor area for the money in renovated 1970s blocks. Families also look at Sannois, Bezons and Colombes. Whatever the street, walk it on a Tuesday evening and a Sunday morning before signing.",
+      },
+      {
+        heading: "Moving day: the line J, the Seine, the hills",
+        body: "Argenteuil logistics have three quirks. The line J is the real asset, with the Argenteuil and Val d'Argenteuil stations putting you at Saint-Lazare in roughly 15 to 25 minutes, but the town's internal roads clog at rush hour: avoid the peaks. The narrow streets of the old centre need a temporary occupancy permit from the town hall, requested one to two weeks ahead. The northern hills mean steep ramps, so brief your truck driver if you move to that side. Check the low-emission zone rules for older vans. Best slot: Saturday morning or a weekday before 10 am, away from school drop-off and the Sunday market.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership and a valued inventory on cerfa 10070. Nothing is required from inside the EU. Argenteuil is about 15 kilometres from central Paris, and Roissy–Charles-de-Gaulle airport is around 45 minutes away by road, so delivery from the airport side is a short run.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €900: a deposit of one month excluding charges, around €850, the first month up front, and agency fees of roughly €585 to €700 on 45 square metres including the inventory. A removal runs €400 to €900 for a studio from within Île-de-France and €1,000 to €2,400 for a three-room flat from the provinces. A complete setup for a couple renting comes to €2,700 to €4,400, around the Île-de-France average. A transport pass for the Paris region (Navigo) is the other recurring cost, with at least half refunded by your employer if you commute. Provision winter heating in 1960s and 70s co-owned blocks that have not been insulated: energy ratings of E or F are common.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well rolled out. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the Navigo pass (created online or at a station), the Vélib' Métropole scheme, a resident parking permit if the car stays on a paid street. Finding a GP is hard: the Val-d'Oise is among the departments most short of doctors, and group practices in Argenteuil and Sannois take new patients more readily. School registration is done at the town hall, and a sports club or neighbourhood association is the best way in.",
+      },
+      {
+        heading: "The traps specific to Argenteuil",
+        body: "Four. One, judging a district by its media reputation instead of walking it at two different hours: Argenteuil reads street by street, especially in the Val-d'Argent renewal area. Two, underestimating line J disruption: the line has works and weekend interruptions with replacement buses, so check the operator's site before committing to a commuter address. Three, signing near the Seine without checking flood exposure: look up the address on the Géorisques site and read the risk statement attached to the lease. Four, signing in a 1960s or 70s co-owned block without reading the last three years of general-assembly minutes, where heavy works that flow into charges may be planned. Argenteuil suits households that want a quick train to Saint-Lazare on a restrained budget, and who choose the street with open eyes.",
+      },
+    ],
+    relatedCities: ["argenteuil","saint-denis","nanterre","creteil"],
+    tags: ["moving to france","argenteuil","relocation","ile-de-france","paris commuters"],
+  },
+  {
+    slug: "moving-to-nanterre-2026",
+    title: "Moving to Nanterre in 2026: La Défense next door, at a Paris-suburb price",
+    metaTitle: "Moving to Nanterre 2026 — Rents, Costs, Moving Day",
+    metaDesc:
+      "Moving to Nanterre: a two-room flat at €1,050, buying near €5,000/m², RER A to La Défense, a big university, a stadium next door, and landing costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Nanterre is the prefecture of the Hauts-de-Seine, 98,119 residents (INSEE, 2022), up 4.1 percent since 2016, bordering La Défense and served by three RER A stations (Nanterre-Université, Nanterre-Ville and Nanterre-Préfecture). A two-room flat averages €1,050 and buying about €5,000 per square metre, against €1,400 and €7,200 in neighbouring Boulogne-Billancourt. It scores 4.7/10 on our site, with a median income of €21,620 and a 22 percent poverty rate: the town is varied and best read district by district. It has a large university, a famous theatre, and the Paris La Défense Arena, which fills with up to about 40,000 people for concerts.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €720 for a studio, €1,050 for a two-room flat, €1,400 for a three-room. Nanterre is in a tight-market zone, so the tenant's notice is one month and agency fees are capped by decree, roughly €650 on a 50 square metre flat. It is not covered by the rent-control scheme that applies in Paris and some of its inner suburbs, but demand is real on renovated flats near the RER A and among managers working in La Défense. A standard file is expected: a PDF dossier, income of three times the rent, Visale accepted, and an employer reference for higher-end flats. The university brings a squeeze in September, mainly around the Nanterre-Université station. The busiest windows are September and January; May to July is calmer.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Expect to produce identity, three French payslips, the latest French tax notice and past rent receipts. If you cannot, Visale, the free Action Logement rent guarantee, is the standard substitute; check eligibility before viewing. A French-resident guarantor earning three times the rent works too, which for a €1,050 two-room flat means roughly €3,150 a month. If you are moving with a La Défense employer, ask HR for an employment letter before you start viewing: it is often what turns a foreign file into an acceptable one.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Five landings. The Terrasses, rebuilt in the east beside La Défense and the Nanterre-Préfecture station, have recent buildings with good energy ratings and the highest local rents, below those of Puteaux or Courbevoie. Vieux-Pont, around the old town centre, the town hall and the market, is a real village-like district much liked for its street life. Université, around the campus and the RER station, suits students, researchers and young workers. La Boule, in the centre, offers more floor area in renovated 1960s and 70s blocks. Anatole-France and the north-west are the entry-level end, to be read street by street. Families also look at Rueil-Malmaison, Suresnes and Colombes.",
+      },
+      {
+        heading: "Moving day: a stadium, a RER and strict co-ownership rules",
+        body: "Nanterre logistics have three quirks. Paris La Défense Arena, home to Racing 92 rugby and a major concert venue, saturates the RER A and the surrounding streets on event evenings: check the calendar before fixing a date. The new buildings in the Terrasses have strict co-ownership rules on removal slots, usually booked through the building manager (syndic) about two weeks ahead. The narrow streets of Vieux-Pont need a temporary occupancy permit from the town hall, requested one to two weeks ahead. Check the low-emission zone rules for older vans. Best slot: Saturday morning or a weekday before 10 am, outside event days.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership and a valued inventory on cerfa 10070. Nothing is required from inside the EU. Nanterre is about 12 kilometres from central Paris and Roissy and Orly airports are each under an hour away by road outside peak times, so a delivery truck can reach you in a single day.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,050: a deposit of one month excluding charges, around €990, the first month up front, and agency fees of roughly €650 on 50 square metres including the inventory. A removal runs €500 to €900 for a studio from within Île-de-France (central Paris is about 15 minutes by RER A) and €1,200 to €2,800 for a three-room flat from the provinces. A complete setup for a couple renting comes to €3,200 to €5,000, high for the inner suburbs. A Navigo pass for the Paris region is the other recurring cost, with at least half refunded by your employer. Many people drop the car after three to six months, since the RER and the low-emission zone make keeping an old one costly.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well rolled out. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the Navigo pass (online or at a station), the Vélib' Métropole scheme, a resident parking permit in the paid zones. Finding a GP is moderately hard; the Max-Fourestier hospital is in the town and group practices exist in several districts. The town's cultural life is dense for its size, with the Nanterre-Amandiers theatre, the Maison de la Musique and the university programmes. School registration is done at the town hall.",
+      },
+      {
+        heading: "The traps specific to Nanterre",
+        body: "Four. One, underestimating event days at the Arena: concerts and matches fill the RER A and the streets, so check the calendar before a move and before a first lease. Two, judging a district by its reputation instead of walking it at two different hours, especially in the north-west. Three, signing in a 1960s or 70s block assuming the RER compensates for charges: some carry heavy planned works and winter heating bills. Four, signing in a newly built district expecting a lively neighbourhood within a year: shops and associations settle slowly, and the first lease can feel like a corporate estate. Nanterre suits a couple or a family working in La Défense who accept a varied urban fabric in return for a lower budget than Boulogne-Billancourt.",
+      },
+    ],
+    relatedCities: ["nanterre","boulogne-billancourt","saint-denis","argenteuil"],
+    tags: ["moving to france","nanterre","relocation","ile-de-france","la defense"],
+  },
+  {
+    slug: "moving-to-boulogne-billancourt-2026",
+    title: "Moving to Boulogne-Billancourt in 2026: the chic suburb with two metro lines",
+    metaTitle: "Moving to Boulogne-Billancourt 2026 — Rents, Costs",
+    metaDesc:
+      "Moving to Boulogne-Billancourt: a two-room flat at €1,400, buying near €7,200/m², metro lines 9 and 10, the Renault island, and what landing costs.",
+    category: "moving",
+    emoji: "📦",
+    readMinutes: 8,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Boulogne-Billancourt is the largest suburb of Paris, 120,205 residents (INSEE, 2022), flat since 2016, among the densest places in France and the richest of the three Hauts-de-Seine towns in this series (median income €35,040, poverty rate 9 percent). A two-room flat averages €1,400 and buying about €7,200 per square metre, against €1,800 and €10,500 in Paris. It scores 6.0/10 on our site and has metro lines 9 and 10, the Seine, the Bois de Boulogne on one side and the Île Seguin and the former Renault works redevelopment on the other. The market is tight and selective: this guide covers what landing costs and where it bites.",
+    sections: [
+      {
+        heading: "The rental market you are landing in",
+        body: "The reference points: €900 for a studio, €1,400 for a two-room flat, €2,000 for a three-room. Boulogne-Billancourt is in a tight-market zone, so the tenant's notice is one month and agency fees are capped by decree, roughly €750 on a 50 square metre flat. It is not covered by the rent-control scheme that applies in Paris itself, so prices follow the market. Selection is strict: expect a solid PDF dossier, income of at least three times the rent, often a wealthier guarantor even where Visale is accepted, and an employer reference. Renovated flats close to metro lines 9 or 10 go quickly. The busiest window is September–October, with corporate transfers; December to February is calmer.",
+      },
+      {
+        heading: "Your application file, when your payslips are foreign",
+        body: "Expect to produce identity, three French payslips, the latest French tax notice and past rent receipts. If you cannot, Visale, the free Action Logement rent guarantee, may be accepted, but landlords here often ask for more. A French-resident guarantor earning three times the rent works, which for a €1,400 two-room flat means about €4,200 a month. If you are moving with a corporate employer, ask them about a relocation agency or corporate guarantee: several large employers are headquartered in or near the town, and it often decides the case.",
+      },
+      {
+        heading: "Where to land for a first lease",
+        body: "Four reliable landings. Ancien Boulogne, in the north around Marcel-Sembat, is bourgeois, with brasseries and metro line 9 at the door, and the highest rents: Paris's 16th arrondissement feel without the Paris price. The Trapèze and the Seine-side districts to the south, built on the former Renault site, have recent buildings with good energy ratings, young managers and families, and metro 9 at Billancourt and Pont de Sèvres. Jean-Jaurès, around the Albert-Kahn gardens and the Édouard-André park, is classic residential, very popular for its schools. Silly-Gallieni offers more floor area for the money in 1930s and renovated 1960s blocks. A classic mistake is to sign a first flat in an unrenovated 1960s block assuming the address offsets the charges.",
+      },
+      {
+        heading: "Moving day: density, lifts and removal slots",
+        body: "Boulogne-Billancourt logistics have three quirks. The density is very high, around 20,000 inhabitants per square kilometre, so streets are narrow in the older centre, parking is scarce and a loading permit from the town hall, requested one to two weeks ahead, is essential near the town hall and church. The new buildings at the Trapèze and the island have strict co-ownership rules on removal slots, usually booked through the building manager (syndic) about two weeks ahead. Metro lines 9 and 10 run along dense central avenues, so plan the truck's parking carefully. Check the low-emission zone rules for older vans. Best slot: Saturday morning or a weekday before 10 am, outside back-to-school weeks.",
+      },
+      {
+        heading: "Shipping your things in from abroad",
+        body: "From outside the European Union the relief is the franchise de déménagement, the customs exemption on personal effects: twelve months of residence outside the EU, six months of ownership and a valued inventory on cerfa 10070. Nothing is required from inside the EU. Boulogne-Billancourt touches Paris's western edge, so from the airports the drive is short, but loading space is the constraint: ask the removal firm to survey the street and the lift in advance.",
+      },
+      {
+        heading: "What landing actually costs",
+        body: "For a two-room flat at €1,400: a deposit of one month excluding charges, around €1,320, the first month up front, and agency fees of roughly €750 on 50 square metres including the inventory. A removal runs €500 to €1,000 for a studio from within Île-de-France (central Paris is about 15 minutes by metro) and €1,400 to €3,000 for a three-room flat from the provinces. A complete setup for a couple renting comes to €4,200 to €6,200, among the heaviest budgets of the western suburbs. A Navigo pass for the Paris region is the other recurring cost, at least half refunded by your employer. Many arrivals give up the car within six months, because parking is scarce and dear. Provision co-ownership charges in older blocks: lift, caretaker and façade works can add a lot beyond the headline rent.",
+      },
+      {
+        heading: "The first weeks, in order",
+        body: "Energy and broadband in week one, with fibre well rolled out. Home insurance before the keys. Then the grouped change of address on service-public.fr and vehicle re-registration within a month. Locally: the Navigo pass, the Vélib' Métropole scheme, a resident parking permit (paid parking is general), and the municipal library network, with the Albert-Kahn museum and gardens a highlight. Finding a GP is moderate for a rich suburb: the Ambroise-Paré hospital is in the town and group practices are dense. School registration is done at the town hall, and a sports club such as the town's large multi-sport association is the standard family entry point.",
+      },
+      {
+        heading: "The traps specific to Boulogne-Billancourt",
+        body: "Four. One, underestimating co-ownership charges: several 1960s and 70s buildings have heavy works planned, which reach tenants through charges. Read the last three years of general-assembly minutes before signing. Two, signing a flat in an unrenovated building on price alone against Ancien Boulogne, only to lose the saving in winter heating. Three, signing at the Trapèze before delivery and imagining a mature neighbourhood: shops, schools and associations settle slowly. Four, underestimating the contrast with Paris proper: Boulogne is well served and lively but remains a suburb with its own commuting rhythms. It suits a couple or a family of managers who choose a building with legible charges.",
+      },
+    ],
+    relatedCities: ["boulogne-billancourt","nanterre","saint-denis","creteil"],
+    tags: ["moving to france","boulogne-billancourt","relocation","ile-de-france","paris suburbs"],
+  },
+  {
     slug: "leaving-arles-where-to-go-2026",
     title: "Leaving Arles: Avignon, Nîmes, Montpellier or the Alpilles",
     metaTitle: "Leaving Arles 2026: Avignon, Nîmes, Montpellier, Alpilles",

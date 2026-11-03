@@ -10197,6 +10197,36 @@
       "emoji": "📦"
     },
     {
+      "slug": "moving-to-le-mans-2026",
+      "title": "Moving to Le Mans in 2026: an hour from Paris, with a race week to plan around",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-perpignan-2026",
+      "title": "Moving to Perpignan in 2026: Catalan sun, cheap rents, a long way from Paris",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-villeurbanne-2026",
+      "title": "Moving to Villeurbanne in 2026: Lyon's twin, with rent control and a metro",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-argenteuil-2026",
+      "title": "Moving to Argenteuil in 2026: Paris in 15 minutes by train, at a lower rent",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-nanterre-2026",
+      "title": "Moving to Nanterre in 2026: La Défense next door, at a Paris-suburb price",
+      "emoji": "📦"
+    },
+    {
+      "slug": "moving-to-boulogne-billancourt-2026",
+      "title": "Moving to Boulogne-Billancourt in 2026: the chic suburb with two metro lines",
+      "emoji": "📦"
+    },
+    {
       "slug": "leaving-arles-where-to-go-2026",
       "title": "Leaving Arles: Avignon, Nîmes, Montpellier or the Alpilles",
       "emoji": "🏛️"
@@ -10261,7 +10291,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 274
+      "count": 280
     },
     {
       "slug": "single-parent-in-france",
@@ -10276,7 +10306,7 @@
     {
       "slug": "relocation",
       "label": "relocation",
-      "count": 93
+      "count": 99
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -10286,21 +10316,21 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 88
+      "count": 89
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 81
-    },
-    {
-      "slug": "grand-est",
-      "label": "grand est",
-      "count": 77
+      "count": 82
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
+      "count": 80
+    },
+    {
+      "slug": "grand-est",
+      "label": "grand est",
       "count": 77
     },
     {
@@ -10366,7 +10396,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 54
+      "count": 55
     },
     {
       "slug": "real-estate",
@@ -10544,6 +10574,11 @@
       "count": 9
     },
     {
+      "slug": "mediterranean",
+      "label": "mediterranean",
+      "count": 9
+    },
+    {
       "slug": "nice",
       "label": "nice",
       "count": 9
@@ -10591,11 +10626,6 @@
     {
       "slug": "marseille",
       "label": "marseille",
-      "count": 8
-    },
-    {
-      "slug": "mediterranean",
-      "label": "mediterranean",
       "count": 8
     },
     {
@@ -10759,6 +10789,11 @@
       "count": 5
     },
     {
+      "slug": "le-mans",
+      "label": "le mans",
+      "count": 5
+    },
+    {
       "slug": "pau",
       "label": "pau",
       "count": 5
@@ -10799,8 +10834,13 @@
       "count": 4
     },
     {
-      "slug": "le-mans",
-      "label": "le mans",
+      "slug": "paris-commuters",
+      "label": "paris commuters",
+      "count": 4
+    },
+    {
+      "slug": "perpignan",
+      "label": "perpignan",
       "count": 4
     },
     {
@@ -10924,8 +10964,8 @@
       "count": 3
     },
     {
-      "slug": "perpignan",
-      "label": "perpignan",
+      "slug": "paris-suburbs",
+      "label": "paris suburbs",
       "count": 3
     },
     {
