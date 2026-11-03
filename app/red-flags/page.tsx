@@ -369,6 +369,15 @@ export default function RedFlagsPage() {
               même la question école.
             </p>
             <p className="mt-2 text-sm text-[var(--text-secondary)]">
+              Le scénario inverse arrive huit à dix ans plus tard : une grande commune
+              sans université ni école d&apos;ingénieur oblige chaque bachelier à partir.
+              Le classement des{" "}
+              <Link href="/red-flags/villes-sans-enseignement-superieur" className="text-[var(--accent)] hover:underline">
+                villes où les enfants devront partir étudier ailleurs
+              </Link>{" "}
+              se lit avant d&apos;acheter pour l&apos;école primaire à deux cents mètres.
+            </p>
+            <p className="mt-2 text-sm text-[var(--text-secondary)]">
               Quand ces déclencheurs se cumulent sur un seul revenu et un seul
               conducteur, le classement des{" "}
               <Link href="/parent-solo" className="text-[var(--accent)] hover:underline">

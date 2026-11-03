@@ -271,6 +271,12 @@ export default async function EcolesPage({ params }: Props) {
           >
             Classement étudiant 🎓
           </Link>
+          <Link
+            href="/red-flags/villes-sans-enseignement-superieur"
+            className="rounded-full bg-[var(--band-indigo)] px-4 py-2.5 text-sm font-semibold text-[#3730A3] transition-colors hover:bg-[#DCD7FF]"
+          >
+            Quand il faut partir étudier ailleurs ⚠️
+          </Link>
           {/* Même matière que le classement famille ci-contre, autre arbitrage :
               écoles, sécurité et nature seules, moins une pénalité sur les
               villes les plus chères. */}

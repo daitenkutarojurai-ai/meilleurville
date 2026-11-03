@@ -387,6 +387,35 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Pendant « après le bac » — familles avec enfants ou ados : l'école
+            du quartier ne dit rien de l'offre post-bac de la commune. */}
+        {["familles-avec-enfants", "familles-avec-ados"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le pendant à éviter — après le bac
+            </h3>
+            <Link href="/red-flags/villes-sans-enseignement-superieur" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🎓</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Villes où les enfants devront partir étudier ailleurs
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Une bonne école et un bon collège ne disent rien de la suite :
+                      croisez le top ci-dessus avec le classement des{" "}
+                      <span className="underline">grandes communes sans université
+                      ni école d&apos;ingénieur</span>, là où chaque bachelier devra
+                      loger ailleurs.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Parent-solo national hub — visible only for the single-parent
             profile. The ranking here re-weights the axes for a lone
             income + lone driver (coût 0,30 · transports 0,20 · écoles 0,25
