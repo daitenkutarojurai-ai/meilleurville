@@ -59338,6 +59338,54 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["vannes", "lorient", "brest", "rennes", "saint-brieuc"],
     tags: ["leaving vannes", "brittany", "morbihan", "lorient", "vannes alternatives", "relocation"],
   },
+  {
+    slug: "cities-with-the-most-children-share-of-under-15s-413-cities-2026",
+    title: "France's most child-heavy cities: the share of residents under 15 in 413 cities",
+    metaTitle: "Cities with the most children in France: share under 15",
+    metaDesc: "Creil 26.8%, Clichy-sous-Bois 26.6%, Stains 26.0%: 413 French cities of 20,000+ ranked by share of residents aged 0-14 (INSEE 2022).",
+    category: "family",
+    emoji: "🧒",
+    readMinutes: 7,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro: "Among the 413 municipalities of 20,000 people or more, the median city has 17.8% of residents aged 0 to 14. Saint-Laurent-du-Maroni is far ahead (41.7%), followed by Creil (26.8%), Cayenne (26.7%), Clichy-sous-Bois (26.6%), Villiers-le-Bel (26.2%) and Stains (26.0%). Biarritz closes the table at 9.4%. This guide measures how child-heavy a city is with one simple figure, the share aged 0-14 in INSEE's 2022 census, and explains what it does and does not tell a family choosing where to live.",
+    sections: [
+      {
+        heading: "Why measure the share of under-15s?",
+        body: "Because it is the number that sizes a town's nurseries, primary schools and middle schools, and it reads at a glance. We divide the 0-14 population of INSEE's 2022 census by total population, across the 413 municipalities of 20,000 or more. It describes composition, not quality: a city with many children is not a better place to raise one, it is simply equipped and used differently. A city with few can be expensive, old, full of students, or just very urban."
+      },
+      {
+        heading: "Which cities have the most children?",
+        body: "Saint-Laurent-du-Maroni (41.7%), Creil (26.8%), Cayenne (26.7%), Clichy-sous-Bois (26.6%), Villiers-le-Bel (26.2%), Stains (26.0%), Trappes (25.8%), Vaulx-en-Velin and Saint-Benoît on Réunion (25.3%), Saint-André on Réunion (25.0%), Roubaix (24.9%), Villepinte and Garges-lès-Gonesse (24.6%), Denain (24.5%) and Savigny-le-Temple (24.2%). Nine cities exceed 25%, fifty-three reach 22% or more, and a hundred and ten reach 20% or more. The top of the table mixes three geographies: the overseas territories, working-class towns of the inner and outer Paris suburbs, and a few cities of the north and the old industrial belt (Roubaix, Denain, Creil)."
+      },
+      {
+        heading: "Where are children scarcest?",
+        body: "On the Atlantic and Mediterranean coasts, in retirement towns and in a few inland mid-sized cities. Biarritz is at 9.4%, then Les Sables-d'Olonne (10.3%), Vichy (10.7%), Saint-Raphaël (11.1%), Anglet (11.7%), Dax and Caen (11.8%), Saint-Malo, Concarneau and Périgueux (11.9%). Ten cities are below 12%, twenty-four below 13% and fifty below 14%. Many also sit near the top of our ranking of the oldest cities, but not all: Caen, Dijon and Nancy owe their place to students rather than to retirees."
+      },
+      {
+        heading: "What about the big cities?",
+        body: "The 42 cities of 100,000 or more have a median of 15.6%, below the national median of 17.8%. The most child-heavy: Saint-Denis (21.7%), Argenteuil (21.4%), Saint-Denis on Réunion (21.1%), Saint-Paul on Réunion (19.9%), Mulhouse (19.6%), Montreuil (19.4%), Le Havre (17.7%) and Marseille (17.6%). The least: Caen (11.8%), Nancy (12.2%), Dijon (12.8%), Paris (13.0%), Aix-en-Provence (13.2%), Bordeaux (13.4%), Limoges (13.9%), Tours and Brest (14.0%), Toulouse (14.1%). Rennes and Rouen are at 14.2%, Lyon at 14.8%, Nantes at 15.6% and Strasbourg at 16.7%. Size matters: the median is 18.0% for cities of 20,000 to 30,000 and 17.9% for those of 30,000 to 100,000."
+      },
+      {
+        heading: "Which regions have the most children?",
+        body: "French Guiana has the highest median (34.2%, two cities), ahead of Réunion (22.2%, ten cities), Île-de-France (20.1%, 153 cities) and Guadeloupe (18.8%, two cities). Next come Hauts-de-France (17.9%, 30 cities) and Auvergne-Rhône-Alpes (17.3%, 40 cities). The lowest: Nouvelle-Aquitaine (13.9%, 30 cities), Brittany (14.1%, 10 cities) and Occitanie (15.3%, 22 cities). Île-de-France dominates: 36 of the 50 most child-heavy cities and 70 of the top 100 are there, even though its own capital sits at 13.0% (390th of 413). Outside Île-de-France the median city is at 16.5%."
+      },
+      {
+        heading: "Are child-heavy cities gaining or losing residents?",
+        body: "They tend to gain. The 53 cities with 22% or more children grew by a median 4.9% between 2016 and 2022, against 2.4% across all 413 cities and 3.0% for the 50 cities at 14% or below. It is not universal: among the 190 cities at 18% or more, some lost residents, a few sharply: Longjumeau (−5.3%), Les Abymes (−4.6%), Bondy (−4.0%), Mulhouse (−3.7%), Épinay-sur-Seine (−3.6%), Argenteuil (−3.0%), Villefranche-sur-Saône (−2.8%), Liévin and Maubeuge (−2.7%). A city can have many children and still lose families, if households with children leave and the children grow up in place."
+      },
+      {
+        heading: "What does housing cost where children are numerous?",
+        body: "A little less than the all-city figure, but the gap is thin and the spread is huge. In the 110 cities with 20% or more children, the reference three-room flat in our rent estimate is €1,180 a month in the median and buying is €3,300 per m², against €1,080 and €3,200 across the 413 cities. In the 53 cities at 22% or more the figures are €1,100 and €2,900 per m²; in the 50 cities at 14% or below, €930 and €2,600. The top of the table includes flats at €610 in Denain and €700 in Roubaix, and at €1,290 in Ris-Orangis or €1,300 in Villeneuve-Saint-Georges. The share of children does not predict price; the region does."
+      },
+      {
+        heading: "How should you use this ranking, and what are its limits?",
+        body: "Three uses. For a family, a high share of children points to well-established schools, clubs and paediatricians, but also fuller classes and longer nursery waiting lists: cross-check with our school and healthcare data. For a couple without children, a low share signals calmer districts and easier searches for small flats. For an investor, a high share indicates demand for larger homes, not neighbourhood quality. Limits: the sample excludes municipalities below 20,000, whose age structure may differ; municipal boundaries skew comparisons (Paris proper is one city, Greater Paris is many); and a census measures residents in one year, not a trajectory."
+      }
+    ],
+    relatedCities: ["creil", "clichy-sous-bois", "stains", "roubaix", "vaulx-en-velin", "cergy", "mulhouse", "marseille", "paris", "biarritz", "caen", "nancy"],
+    tags: ["cities with most children", "share of under-15s", "family cities France", "city demographics", "2022 census", "children by city"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

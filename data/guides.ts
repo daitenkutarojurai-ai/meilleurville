@@ -73918,6 +73918,55 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["assurance emprunteur", "loi Lemoine", "changer assurance prêt", "délégation d'assurance", "TAEA", "droit à l'oubli", "quotité", "2026"],
   },
+  {
+    slug: "villes-avec-le-plus-d-enfants-part-des-0-14-ans-2026",
+    title: "Les villes qui comptent le plus d'enfants : la part des 0-14 ans dans 413 villes",
+    metaTitle: "Villes avec le plus d'enfants : part des 0-14 ans en France",
+    metaDesc: "Creil 26,8 %, Clichy-sous-Bois 26,6 %, Stains 26,0 % : 413 villes de 20 000 habitants et plus classées par part des 0-14 ans (Insee 2022).",
+    category: "famille",
+    emoji: "🧒",
+    readMinutes: 7,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro: "Parmi les 413 communes de 20 000 habitants et plus, la ville médiane compte 17,8 % d'enfants de 0 à 14 ans. Saint-Laurent-du-Maroni est de loin la plus jeune (41,7 %), suivie de Creil (26,8 %), Cayenne (26,7 %), Clichy-sous-Bois (26,6 %), Villiers-le-Bel (26,2 %) et Stains (26,0 %). Biarritz ferme le classement à 9,4 %. Ce guide mesure l'enfance d'une ville par un chiffre simple, la part des 0-14 ans au recensement 2022 de l'Insee, et montre ce que ce chiffre dit, et ne dit pas, à une famille qui cherche où s'installer.",
+    sections: [
+      {
+        heading: "Pourquoi mesurer la part des 0-14 ans ?",
+        body: "Parce que c'est le chiffre qui dimensionne les crèches, les écoles et les collèges d'une commune, et qu'il se lit en un coup d'œil. Nous l'obtenons en rapportant les 0-14 ans du recensement de la population 2022 de l'Insee à la population totale, sur les 413 communes de 20 000 habitants et plus. C'est une mesure de composition, pas un jugement : une ville avec beaucoup d'enfants n'est pas meilleure pour élever une famille, elle est autrement équipée et autrement fréquentée. Une ville qui en compte peu peut être chère, âgée, étudiante ou tout simplement très urbaine."
+      },
+      {
+        heading: "Quelles sont les villes qui comptent le plus d'enfants ?",
+        body: "Saint-Laurent-du-Maroni (41,7 %), Creil (26,8 %), Cayenne (26,7 %), Clichy-sous-Bois (26,6 %), Villiers-le-Bel (26,2 %), Stains (26,0 %), Trappes (25,8 %), Vaulx-en-Velin et Saint-Benoît de La Réunion (25,3 %), Saint-André de La Réunion (25,0 %), Roubaix (24,9 %), Villepinte et Garges-lès-Gonesse (24,6 %), Denain (24,5 %) et Savigny-le-Temple (24,2 %). Neuf villes dépassent 25 %, cinquante-trois atteignent 22 % ou plus, cent dix 20 % ou plus. Le haut du tableau mêle trois géographies : l'outre-mer, les communes populaires de petite et grande couronne parisienne, et quelques villes du Nord et de l'ancien bassin industriel (Roubaix, Denain, Creil)."
+      },
+      {
+        heading: "Où les enfants sont-ils les plus rares ?",
+        body: "Sur le littoral atlantique et méditerranéen, dans les villes de retraite et dans quelques villes moyennes de l'intérieur. Biarritz est à 9,4 %, puis Les Sables-d'Olonne (10,3 %), Vichy (10,7 %), Saint-Raphaël (11,1 %), Anglet (11,7 %), Dax et Caen (11,8 %), Saint-Malo, Concarneau et Périgueux (11,9 %). Dix villes sont sous 12 %, vingt-quatre sous 13 % et cinquante sous 14 %. Beaucoup de ces villes figurent aussi en tête de notre classement des plus âgées : moins d'enfants y va de pair avec plus de retraités, mais pas partout, car Caen, Dijon ou Nancy y doivent leur rang à leurs étudiants."
+      },
+      {
+        heading: "Qu'en est-il des grandes villes ?",
+        body: "Les 42 villes de 100 000 habitants et plus ont une médiane de 15,6 %, sous la médiane générale de 17,8 %. Les plus familiales : Saint-Denis (21,7 %), Argenteuil (21,4 %), Saint-Denis de La Réunion (21,1 %), Saint-Paul de La Réunion (19,9 %), Mulhouse (19,6 %), Montreuil (19,4 %), Le Havre (17,7 %) et Marseille (17,6 %). Les moins familiales : Caen (11,8 %), Nancy (12,2 %), Dijon (12,8 %), Paris (13,0 %), Aix-en-Provence (13,2 %), Bordeaux (13,4 %), Limoges (13,9 %), Tours et Brest (14,0 %), Toulouse (14,1 %). Rennes et Rouen sont à 14,2 %, Lyon à 14,8 %, Nantes à 15,6 % et Strasbourg à 16,7 %. Plus la ville est grande, moins la part d'enfants est élevée : 18,0 % de médiane pour les villes de 20 000 à 30 000 habitants, 17,9 % pour celles de 30 000 à 100 000."
+      },
+      {
+        heading: "Quelles régions comptent le plus d'enfants ?",
+        body: "La médiane la plus haute est celle de la Guyane (34,2 %, deux villes), devant La Réunion (22,2 %, dix villes), l'Île-de-France (20,1 %, 153 villes) et la Guadeloupe (18,8 %, deux villes). Viennent ensuite les Hauts-de-France (17,9 %, 30 villes) et l'Auvergne-Rhône-Alpes (17,3 %, 40 villes). Les plus basses : la Nouvelle-Aquitaine (13,9 %, 30 villes), la Bretagne (14,1 %, 10 villes) et l'Occitanie (15,3 %, 22 villes). L'Île-de-France pèse lourd : 36 des 50 villes les plus familiales et 70 des 100 premières en viennent, alors que la région capitale a Paris, à 13,0 % (390ᵉ rang sur 413). Hors Île-de-France, la ville médiane est à 16,5 %."
+      },
+      {
+        heading: "Les villes pleines d'enfants perdent-elles ou gagnent-elles des habitants ?",
+        body: "Elles gagnent plutôt. Les 53 villes à 22 % d'enfants ou plus ont gagné 4,9 % d'habitants en médiane entre 2016 et 2022, contre 2,4 % pour l'ensemble des 413 villes et 3,0 % pour les 50 villes à 14 % ou moins. Mais la tendance n'est pas générale : sur les 190 villes à 18 % ou plus, certaines ont perdu des habitants, parfois nettement : Longjumeau (−5,3 %), Les Abymes (−4,6 %), Bondy (−4,0 %), Mulhouse (−3,7 %), Épinay-sur-Seine (−3,6 %), Argenteuil (−3,0 %), Villefranche-sur-Saône (−2,8 %), Liévin et Maubeuge (−2,7 %). Une ville peut avoir beaucoup d'enfants et perdre des familles, si les ménages qui avaient des enfants partent et que ceux-ci vieillissent sur place."
+      },
+      {
+        heading: "Que coûte le logement là où les enfants sont nombreux ?",
+        body: "Un peu moins que la moyenne des villes, mais l'écart est mince et la dispersion énorme. Dans les 110 villes à 20 % d'enfants ou plus, le T3 de référence de notre estimation des loyers est à 1 180 € en médiane et l'achat à 3 300 € le m², contre 1 080 € et 3 200 € pour l'ensemble des 413 villes. Dans les 53 villes à 22 % ou plus, les chiffres sont de 1 100 € et 2 900 € le m². Dans les 50 villes à 14 % ou moins, de 930 € et 2 600 € le m². Le haut du classement contient des T3 à 610 € à Denain et 700 € à Roubaix, et à 1 290 € à Ris-Orangis ou 1 300 € à Villeneuve-Saint-Georges. La part d'enfants ne prédit pas le prix : c'est la région qui le fait."
+      },
+      {
+        heading: "Que faire de ce classement, et quelles sont ses limites ?",
+        body: "Trois usages. Pour une famille, une forte part d'enfants signale des écoles, des clubs et des pédiatres bien implantés, mais aussi des classes plus chargées et des listes d'attente de crèche plus longues : croisez avec nos fiches écoles et santé. Pour un couple sans enfant, une part basse annonce des quartiers plus calmes et des logements de petite taille plus faciles à trouver. Pour un investisseur, une forte part d'enfants indique une demande en grands logements, pas une qualité de quartier. Limites : l'échantillon exclut les communes de moins de 20 000 habitants, dont la structure par âge peut différer ; les limites communales faussent la comparaison (Paris intra-muros est une ville, le Grand Paris compte plusieurs communes) ; et le recensement mesure les résidents d'une année, pas une trajectoire."
+      }
+    ],
+    relatedCities: ["creil", "clichy-sous-bois", "stains", "roubaix", "vaulx-en-velin", "cergy", "mulhouse", "marseille", "paris", "biarritz", "caen", "nancy"],
+    relatedGuides: ["meilleures-villes-familles-ecoles-securite-france-2025", "villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026", "villes-les-plus-agees-de-france-part-des-75-ans-et-plus-2026", "villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026"],
+    tags: ["villes avec le plus d'enfants", "part des 0-14 ans", "villes familiales", "démographie par ville", "recensement 2022", "enfants par ville"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

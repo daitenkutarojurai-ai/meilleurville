@@ -1079,6 +1079,32 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Voisinage, mitoyenneté et servitudes",
+    emoji: "🏡",
+    terms: [
+      {
+        term: "Mitoyenneté",
+        def: "Régime d'un mur, d'une clôture ou d'une haie qui sépare deux propriétés et qui appartient aux deux voisins, avec des charges d'entretien partagées. Le Code civil présume mitoyen le mur qui sépare deux bâtiments, deux cours ou deux jardins, sauf titre ou marque contraire : un mur dont le haut penche d'un seul côté est présumé appartenir à celui de ce côté. Chacun peut surélever le mur mitoyen à ses frais, mais ne peut y percer ou appuyer un ouvrage sans l'accord de l'autre. Le titre de propriété et l'acte du notaire disent ce qu'il en est vraiment.",
+      },
+      {
+        term: "Distance de plantation (2 m et 50 cm)",
+        def: "Sauf règlement local ou usage constant contraire, l'article 671 du Code civil impose de planter les arbres et haies de plus de 2 mètres de haut à au moins 2 mètres de la limite séparative, et ceux de moins de 2 mètres à au moins 50 centimètres. La hauteur se mesure du sol au sommet de la plante, la distance depuis l'axe du tronc. Le voisin peut demander l'arrachage ou la taille d'un arbre trop proche, sans avoir à prouver de dommage, tant que la plantation n'a pas trente ans au même endroit.",
+      },
+      {
+        term: "Vue droite et vue oblique",
+        def: "Le Code civil interdit d'ouvrir, à moins de 1,90 mètre de la limite, une fenêtre ou un balcon donnant directement sur le fonds voisin (vue droite), et à moins de 60 centimètres une ouverture qui regarde de côté (vue oblique). Plus près, seul est admis un jour de souffrance : une ouverture à verre translucide qui ne s'ouvre pas, soumise à des règles de hauteur. Une vue irrégulière qui existe depuis trente ans peut devenir un droit acquis ; à la visite, regardez donc quelles ouvertures donnent sur le jardin d'à côté.",
+      },
+      {
+        term: "Servitude de passage et enclave",
+        def: "Servitude qui grève un terrain au profit d'un autre. Le propriétaire d'une parcelle sans accès suffisant à la voie publique (parcelle enclavée) peut réclamer un passage sur les fonds voisins, en principe par le trajet le plus court et contre indemnité. Les servitudes figurent dans le titre de propriété ou l'acte de vente ; une servitude qui n'apparaît qu'à l'usage, comme un chemin emprunté depuis des décennies, peut ne figurer dans aucun acte. Demandez au notaire de les lister dans l'avant-contrat.",
+      },
+      {
+        term: "Trouble anormal de voisinage",
+        def: "Nuisance qui dépasse ce qu'un voisin doit normalement supporter (bruit, odeurs, fumées, vues, ombres), appréciée selon son intensité, sa répétition et son contexte. Cette responsabilité sans faute, créée par la jurisprudence, a été inscrite à l'article 1253 du Code civil par la loi du 15 avril 2024 ; elle vise le propriétaire, le locataire ou l'occupant, et écarte les troubles venant d'une activité agricole antérieure à l'installation du voisin. Avant de saisir le tribunal, une tentative de conciliation, de médiation ou de procédure participative est exigée à peine d'irrecevabilité pour les litiges de voisinage (article 750-1 du Code de procédure civile) ; le conciliateur de justice est gratuit.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);

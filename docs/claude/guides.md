@@ -2348,3 +2348,5 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 
 **Batch 69 — EN, shipped 2026-11-02 : jumelles de Hossegor, Fontenay-le-Comte, île de Ré, Hendaye, Sanary-sur-Mer, Albertville.** Compteurs mesurés : EN 331 (`grep -c 'slug: "things-to-do-in-.*-2026"'`), FR 331 (`10-choses-a-faire-a[ux]*`). Mêmes chiffres que les guides FR, aucun chiffre neuf, `€`/accents vérifiés. tsc, integrity, search-index verts. Prochain : batch FR (villes non couvertes).
 - 2026-11-02 content multisection : guides FR `assurance-emprunteur-changer-loi-lemoine-france-2026` (FR 1466) et EN `buying-house-france-neighbours-boundaries-hedges-party-walls-2026` (EN 1306) ; glossaire +6 termes. Prochain lot : section glossaire voisinage/copropriété-litiges ou guide FR jumeau du voisinage.
+
+- 2026-11-03 content multisection : FR `villes-avec-le-plus-d-enfants-part-des-0-14-ans-2026` + EN `cities-with-the-most-children-share-of-under-15s-413-cities-2026` (Insee 2022, 413 villes) ; glossaire +5 termes voisinage. Compte mesuré (`grep -c "^    slug:"`) : FR 1468, EN 1335 ; glossaire 236 termes. Prochain lot : taille des ménages / part des 30-44 ans.
