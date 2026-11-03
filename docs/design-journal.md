@@ -1286,3 +1286,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Pages `[macroregion]` des hubs `/risques` et `/environnement` (FR + EN).
 2. Pages `/tags` et `/tags/[slug]`.
 3. Hub `/louer-ou-acheter` (classement national).
+
+## 2026-11-03 ~11:00 UTC — pages macro-région `/risques/[macroregion]` (FR) + EN `/natural-risks/[macroregion]`
+
+**Surface** : 6 pages macro-région × 2 locales, liées depuis le hub risques (run de 04:00). Avant : un seul bloc sur fond de page, `Badge` gris, tableaux en `Card` à en-tête gris, tuiles « autres macro-régions » en `Card` grises à emoji nu, lien texte vers le palmarès.
+
+**Changé** (schéma du hub) : hero `.bg-aurora` + `EmojiBadge` de la macro-région (rose), « Risques naturels » en `.gradient-text`, pilules `grad-head-0` + blanches indigo ; top 15 exposées en `band-pink` (en-tête `#9D174D`) ; top 10 tranquilles en `band-indigo` ; autres macro-régions en `band-lilac` (tuiles blanches + `EmojiBadge toneFor(i)`) + lien palmarès en pilule dégradée indigo → rose. Imports `Card`/`Badge` retirés. Rouge/vert des composites et couleurs de niveau conservés. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/risques/arc-mediterraneen` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages `/environnement/[macroregion]` (FR) + EN `/environment/[macroregion]` (même schéma).
+2. Pages `/tags` et `/tags/[slug]`.
+3. Hub `/louer-ou-acheter` (classement national).

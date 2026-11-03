@@ -3,8 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import {
   MACRO_REGIONS,
   MACRO_REGION_SLUGS,
@@ -125,7 +124,9 @@ export default async function MacroRegionRisksPage({ params }: Props) {
       />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <nav className="text-xs text-[var(--text-tertiary)] mb-3">
           <Link href="/" className="hover:underline">
             Accueil
@@ -136,9 +137,12 @@ export default async function MacroRegionRisksPage({ params }: Props) {
           </Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          {macro.emoji} Risques naturels — {macro.label}
-        </h1>
+        <div className="flex items-center gap-3">
+          <EmojiBadge emoji={macro.emoji} tone="pink" />
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+            <span className="gradient-text">Risques naturels</span> — {macro.label}
+          </h1>
+        </div>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Exposition aux 4 grands aléas (inondation, sismicité, argile, feu de
           forêt) des {cities.length} villes de la macro-région {macro.label}{" "}
@@ -147,19 +151,24 @@ export default async function MacroRegionRisksPage({ params }: Props) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>{cities.length} villes analysées</Badge>
-          <Badge>Composite moyen : {avgComposite}/10</Badge>
-          <Badge>Cadres de référence : BCSF · BRGM · ONF</Badge>
+          <span className="grad-head-0 rounded-full px-3 py-1 font-semibold">{cities.length} villes analysées</span>
+          <span className="rounded-full bg-white/85 px-3 py-1 font-medium text-[#4338CA] ring-1 ring-[#C7D2FE]">Composite moyen : {avgComposite}/10</span>
+          <span className="rounded-full bg-white/85 px-3 py-1 font-medium text-[#4338CA] ring-1 ring-[#C7D2FE]">Cadres de référence : BCSF · BRGM · ONF</span>
         </div>
 
-        {/* Most exposed */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 15 — villes les plus exposées en {macro.label}
+        </div>
+      </section>
+
+      {/* Top 15 exposées — bande rose */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-2xl font-bold">
+          <span className="gradient-text">Top 15 — villes les plus exposées en {macro.label}</span>
         </h2>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[var(--band-pink)] text-xs uppercase tracking-wide text-[#9D174D]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">Ville</th>
@@ -184,7 +193,7 @@ export default async function MacroRegionRisksPage({ params }: Props) {
                   return (
                     <tr
                       key={c.slug}
-                      className="border-t border-[var(--border)]"
+                      className="border-t border-[var(--border)] transition-colors hover:bg-[#F5F3FF]"
                     >
                       <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">
                         {i + 1}
@@ -224,16 +233,21 @@ export default async function MacroRegionRisksPage({ params }: Props) {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
 
-        {/* Least exposed */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 10 — villes les plus tranquilles en {macro.label}
+        </div>
+      </section>
+
+      {/* Top 10 tranquilles — bande indigo */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-2xl font-bold">
+          <span className="gradient-text">Top 10 — villes les plus tranquilles en {macro.label}</span>
         </h2>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[var(--band-indigo)] text-xs uppercase tracking-wide text-[#4338CA]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">Ville</th>
@@ -248,7 +262,7 @@ export default async function MacroRegionRisksPage({ params }: Props) {
                 {least.map((c, i) => (
                   <tr
                     key={c.slug}
-                    className="border-t border-[var(--border)]"
+                    className="border-t border-[var(--border)] transition-colors hover:bg-[#F5F3FF]"
                   >
                     <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">
                       {i + 1}
@@ -284,35 +298,46 @@ export default async function MacroRegionRisksPage({ params }: Props) {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
 
-        {/* Other macro-regions */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
-          Autres macro-régions
+        </div>
+      </section>
+
+      {/* Autres macro-régions — bande lilas */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold">
+          <span className="gradient-text">Autres macro-régions</span>
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
-          {MACRO_REGIONS.filter((m) => m.slug !== macro.slug).map((m) => (
-            <Link key={m.slug} href={`/risques/${m.slug}`} className="block">
-              <Card className="hover:shadow-md transition-shadow h-full">
-                <div className="text-2xl mb-1">{m.emoji}</div>
+          {MACRO_REGIONS.filter((m) => m.slug !== macro.slug).map((m, i) => (
+            <Link
+              key={m.slug}
+              href={`/risques/${m.slug}`}
+              className="flex h-full items-center gap-3 rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(124,58,237,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(124,58,237,0.6)]"
+            >
+              <EmojiBadge emoji={m.emoji} tone={toneFor(i)} size="sm" />
+              <div className="min-w-0">
                 <div className="text-sm font-semibold text-[var(--text-primary)]">
                   {m.label}
                 </div>
-                <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
                   Risques naturels
                 </div>
-              </Card>
+              </div>
             </Link>
           ))}
         </div>
 
-        <div className="mt-8 text-sm">
+        <div className="mt-8">
           <Link
             href="/risques"
-            className="text-[var(--accent)] hover:underline"
+            className="inline-flex items-center rounded-full bg-gradient-to-r from-[#4F46E5] to-[#DB2777] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_-14px_rgba(79,70,229,0.7)] transition hover:opacity-95"
           >
             → Voir le palmarès national complet des risques naturels
           </Link>
+        </div>
+
         </div>
       </section>
 
