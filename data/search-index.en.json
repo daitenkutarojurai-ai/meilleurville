@@ -10195,6 +10195,56 @@
       "slug": "moving-to-orleans-2026",
       "title": "Moving to Orléans in 2026: an hour from Paris, with the Loire to watch",
       "emoji": "📦"
+    },
+    {
+      "slug": "leaving-arles-where-to-go-2026",
+      "title": "Leaving Arles: Avignon, Nîmes, Montpellier or the Alpilles",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "leaving-chambery-where-to-go-2026",
+      "title": "Leaving Chambéry: Grenoble, Lyon, Annecy or Aix-les-Bains",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "leaving-chartres-where-to-go-2026",
+      "title": "Leaving Chartres: Orléans, Tours, Rambouillet or Vendôme",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "leaving-colmar-where-to-go-2026",
+      "title": "Leaving Colmar: Strasbourg, Mulhouse, Besançon or Basel",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "leaving-lorient-where-to-go-2026",
+      "title": "Leaving Lorient: Vannes, Rennes, Quimper or Brest",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "leaving-orleans-where-to-go-2026",
+      "title": "Leaving Orléans: Tours, Paris, Blois or Nantes",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "leaving-poitiers-where-to-go-2026",
+      "title": "Leaving Poitiers: La Rochelle, Tours, Bordeaux or Niort",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "leaving-troyes-where-to-go-2026",
+      "title": "Leaving Troyes: Reims, Dijon, Sens or Paris",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "leaving-valence-where-to-go-2026",
+      "title": "Leaving Valence: Grenoble, Lyon, Montélimar or Montpellier",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "leaving-vannes-where-to-go-2026",
+      "title": "Leaving Vannes: Lorient, Brest, Saint-Brieuc or Rennes",
+      "emoji": "⛵"
     }
   ],
   "tags": [
@@ -10224,19 +10274,19 @@
       "count": 160
     },
     {
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 93
+    },
+    {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 90
+      "count": 91
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
       "count": 88
-    },
-    {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 83
     },
     {
       "slug": "occitanie",
@@ -10304,14 +10354,14 @@
       "count": 58
     },
     {
-      "slug": "single-supplement",
-      "label": "single supplement",
+      "slug": "brittany",
+      "label": "brittany",
       "count": 57
     },
     {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 55
+      "slug": "single-supplement",
+      "label": "single supplement",
+      "count": 57
     },
     {
       "slug": "pays-de-la-loire",
@@ -10334,19 +10384,19 @@
       "count": 49
     },
     {
+      "slug": "provence",
+      "label": "provence",
+      "count": 45
+    },
+    {
       "slug": "normandy",
       "label": "normandy",
       "count": 44
     },
     {
-      "slug": "provence",
-      "label": "provence",
-      "count": 44
-    },
-    {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 36
+      "count": 38
     },
     {
       "slug": "provence-alpes-cote-d-azur",
@@ -10374,14 +10424,14 @@
       "count": 23
     },
     {
-      "slug": "burgundy",
-      "label": "burgundy",
+      "slug": "alsace",
+      "label": "alsace",
       "count": 19
     },
     {
-      "slug": "alsace",
-      "label": "alsace",
-      "count": 18
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 19
     },
     {
       "slug": "loire-valley",
@@ -10429,6 +10479,11 @@
       "count": 13
     },
     {
+      "slug": "strasbourg",
+      "label": "strasbourg",
+      "count": 12
+    },
+    {
       "slug": "affordable-retirement-france",
       "label": "affordable retirement France",
       "count": 11
@@ -10449,9 +10504,9 @@
       "count": 11
     },
     {
-      "slug": "strasbourg",
-      "label": "strasbourg",
-      "count": 11
+      "slug": "champagne",
+      "label": "champagne",
+      "count": 10
     },
     {
       "slug": "climate",
@@ -10464,13 +10519,28 @@
       "count": 10
     },
     {
-      "slug": "champagne",
-      "label": "champagne",
-      "count": 9
+      "slug": "lyon",
+      "label": "lyon",
+      "count": 10
     },
     {
       "slug": "nantes",
       "label": "nantes",
+      "count": 10
+    },
+    {
+      "slug": "savoie",
+      "label": "savoie",
+      "count": 10
+    },
+    {
+      "slug": "tours",
+      "label": "tours",
+      "count": 10
+    },
+    {
+      "slug": "dijon",
+      "label": "dijon",
       "count": 9
     },
     {
@@ -10479,8 +10549,8 @@
       "count": 9
     },
     {
-      "slug": "savoie",
-      "label": "savoie",
+      "slug": "rennes",
+      "label": "rennes",
       "count": 9
     },
     {
@@ -10504,23 +10574,18 @@
       "count": 8
     },
     {
-      "slug": "dijon",
-      "label": "dijon",
-      "count": 8
-    },
-    {
       "slug": "france-climate-2040",
       "label": "france climate 2040",
       "count": 8
     },
     {
-      "slug": "lifestyle",
-      "label": "lifestyle",
+      "slug": "grenoble",
+      "label": "grenoble",
       "count": 8
     },
     {
-      "slug": "lyon",
-      "label": "lyon",
+      "slug": "lifestyle",
+      "label": "lifestyle",
       "count": 8
     },
     {
@@ -10531,11 +10596,6 @@
     {
       "slug": "mediterranean",
       "label": "mediterranean",
-      "count": 8
-    },
-    {
-      "slug": "rennes",
-      "label": "rennes",
       "count": 8
     },
     {
@@ -10594,8 +10654,18 @@
       "count": 7
     },
     {
+      "slug": "nimes",
+      "label": "nimes",
+      "count": 7
+    },
+    {
       "slug": "normandie",
       "label": "normandie",
+      "count": 7
+    },
+    {
+      "slug": "orleans",
+      "label": "orleans",
       "count": 7
     },
     {
@@ -10604,13 +10674,13 @@
       "count": 7
     },
     {
-      "slug": "south-of-france",
-      "label": "south-of-france",
+      "slug": "reims",
+      "label": "reims",
       "count": 7
     },
     {
-      "slug": "tours",
-      "label": "tours",
+      "slug": "south-of-france",
+      "label": "south-of-france",
       "count": 7
     },
     {
@@ -10634,11 +10704,6 @@
       "count": 6
     },
     {
-      "slug": "grenoble",
-      "label": "grenoble",
-      "count": 6
-    },
-    {
       "slug": "itinerary",
       "label": "itinerary",
       "count": 6
@@ -10649,23 +10714,8 @@
       "count": 6
     },
     {
-      "slug": "nimes",
-      "label": "nimes",
-      "count": 6
-    },
-    {
-      "slug": "orleans",
-      "label": "orleans",
-      "count": 6
-    },
-    {
       "slug": "quality-of-life",
       "label": "quality-of-life",
-      "count": 6
-    },
-    {
-      "slug": "reims",
-      "label": "reims",
       "count": 6
     },
     {
@@ -10699,6 +10749,11 @@
       "count": 5
     },
     {
+      "slug": "avignon",
+      "label": "avignon",
+      "count": 5
+    },
+    {
       "slug": "franche-comte",
       "label": "franche-comte",
       "count": 5
@@ -10712,11 +10767,6 @@
       "slug": "saint-etienne",
       "label": "saint-etienne",
       "count": 5
-    },
-    {
-      "slug": "avignon",
-      "label": "avignon",
-      "count": 4
     },
     {
       "slug": "french-alps",
@@ -10741,6 +10791,11 @@
     {
       "slug": "jura",
       "label": "jura",
+      "count": 4
+    },
+    {
+      "slug": "la-rochelle",
+      "label": "la rochelle",
       "count": 4
     },
     {
@@ -10804,6 +10859,11 @@
       "count": 3
     },
     {
+      "slug": "drome",
+      "label": "drome",
+      "count": 3
+    },
+    {
       "slug": "drought",
       "label": "drought",
       "count": 3
@@ -10834,11 +10894,6 @@
       "count": 3
     },
     {
-      "slug": "la-rochelle",
-      "label": "la rochelle",
-      "count": 3
-    },
-    {
       "slug": "limoges",
       "label": "limoges",
       "count": 3
@@ -10846,6 +10901,11 @@
     {
       "slug": "living-in-france",
       "label": "living in france",
+      "count": 3
+    },
+    {
+      "slug": "lorient",
+      "label": "lorient",
       "count": 3
     },
     {
@@ -10896,6 +10956,11 @@
     {
       "slug": "valence",
       "label": "valence",
+      "count": 3
+    },
+    {
+      "slug": "vannes",
+      "label": "vannes",
       "count": 3
     },
     {

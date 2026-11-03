@@ -58618,6 +58618,426 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["orleans","chartres","blois","tours"],
     tags: ["moving to france","orleans","relocation","centre-val de loire","paris commuters"],
   },
+  {
+    slug: "leaving-arles-where-to-go-2026",
+    title: "Leaving Arles: Avignon, Nîmes, Montpellier or the Alpilles",
+    metaTitle: "Leaving Arles 2026: Avignon, Nîmes, Montpellier, Alpilles",
+    metaDesc:
+      "Arles scores 5.2/10 with a T3 near €930 and about €3,200/m² to buy. Seasonal jobs and summer heat push people out. Where they go: Avignon, Nîmes, Montpellier.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Arles has Roman arenas, Van Gogh's light and the LUMA arts campus, which has pushed the town up the cultural map. It scores 5.2/10 on our site, with a T3 (three-room flat, two bedrooms) around €930 and buying at about €3,200/m². About 52,500 people live in the commune. The reasons people leave are a thin job market outside tourism, food processing and the public sector, summer heat in a town with little shade, and housing prices pulled up by buyers who do not work locally.",
+    sections: [
+      {
+        heading: "Why do people leave Arles?",
+        body: "Jobs: the local economy leans on seasonal tourism, agriculture and public services, which leaves little for mid-career professionals in tech, finance or consulting. Housing: prices at about €3,200/m² are high for local wages, and the arts-led revival has made that gap more visible. Heat: July and August are hot and the centre has few trees. Families sometimes cite the limited choice of secondary schools. Retirees, freelancers and remote workers tend to stay; younger employees look elsewhere.",
+      },
+      {
+        heading: "Avignon: the closest real job market",
+        body: "Avignon scores 5.6/10, with a T3 around €1,000 and about €3,000/m² to buy, so costs are close to Arles'. It is about 35 km away, has a TGV station (Paris in roughly 2 hours 40), a university and a hospital, and a deeper services economy. The catch is the July festival, which saturates the walled centre much as summer does in Arles.",
+      },
+      {
+        heading: "Nîmes: more city for the same money",
+        body: "Nîmes scores 5.1/10, with a T3 around €960 and about €2,800/m² to buy, slightly cheaper than Arles. It is about three times larger (roughly 153,000 residents), with Roman monuments of its own and a broader job base. Montpellier is a short drive further. The weaker points are a centre that has lost trade to out-of-town shopping and a score slightly below Arles' on our site, so this is a size move, not a quality move.",
+      },
+      {
+        heading: "Montpellier: health, digital, higher education",
+        body: "Montpellier scores 5.6/10, with a T3 around €1,150 and about €3,900/m² to buy, about 20% more than Arles on rent and 20% more to buy. In return you get a university city of around 285,000 people, the sea nearby, a tram network and a job market in health, research and digital. Expect tighter rental competition, especially in September.",
+      },
+      {
+        heading: "The Alpilles: stay in Provence, lose the jobs",
+        body: "Saint-Rémy-de-Provence and the villages of the Alpilles, about 20 km north, are scenic and expensive, and have almost no local employment. They work for people whose income does not depend on where they live: retirees, remote workers, established professionals. Treat them as a lifestyle purchase, not a career move.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Avignon gains the most on jobs for the least change in price. Montpellier gains most on careers and costs more. Nîmes offers scale at Arles' prices. The Alpilles improve the setting and remove the economy. If you are self-employed or remote, Arles' heritage and light are hard to replace for the money.",
+      },
+    ],
+    relatedCities: ["arles", "avignon", "nimes", "montpellier", "aix-en-provence"],
+    tags: ["leaving arles", "provence", "avignon", "nimes", "arles alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-chambery-where-to-go-2026",
+    title: "Leaving Chambéry: Grenoble, Lyon, Annecy or Aix-les-Bains",
+    metaTitle: "Leaving Chambéry 2026: Grenoble, Lyon, Annecy",
+    metaDesc:
+      "Chambéry scores 6.5/10 with a T3 near €1,100 and about €3,600/m² to buy. A provincial job market is the main limit. Where people go: Grenoble, Lyon, Annecy.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Chambéry sits between three Alpine massifs, with an intact old town and the ski resorts within an hour. It scores 6.5/10 on our site, with a T3 (three-room flat, two bedrooms) around €1,100 and buying at about €3,600/m². About 68,000 people live in the city. The limit is the job market: public services, health and small industrial firms dominate, with few large employers in tech, engineering or finance.",
+    sections: [
+      {
+        heading: "Why do people leave Chambéry?",
+        body: "Jobs: the choice for senior engineers, researchers and finance staff is narrow, and ambitious professionals tend to hit a ceiling quickly. Comparison: the city sits between Grenoble (bigger, more technical) and Annecy (prettier, much more expensive), and some people feel they are living in the middle. Most who leave stay inside the Alps or move to Lyon.",
+      },
+      {
+        heading: "Grenoble: tech, research, engineering",
+        body: "Grenoble scores 6.8/10, with a T3 around €1,020 and about €3,200/m² to buy, so it is slightly cheaper than Chambéry on both. It has a large research and electronics cluster (CEA, STMicroelectronics, Schneider Electric) and a big university. The drive is roughly 55 minutes by motorway. The trade-offs are air quality in the enclosed valley and a less touristic feel.",
+      },
+      {
+        heading: "Lyon: the big multi-sector market",
+        body: "Lyon scores 7.1/10, with a T3 around €1,380 and about €5,000/m² to buy, about 40% more to buy than in Chambéry. It is roughly an hour away by road or regional train, and offers jobs in finance, consulting, health, industry and tech. Many people who move choose the inner suburbs such as Villeurbanne to keep costs down.",
+      },
+      {
+        heading: "Annecy: the lake, if the budget allows",
+        body: "Annecy scores 7.3/10, with a T3 around €1,450 and about €5,500/m² to buy, over 50% more than Chambéry. The setting is the draw. Renting is possible; buying on a local salary usually is not without help. It makes most sense for people on Swiss pay, since Geneva is close.",
+      },
+      {
+        heading: "Aix-les-Bains: lakeside, 15 km away",
+        body: "Aix-les-Bains scores 5.8/10, with a T3 around €1,150 and about €4,200/m² to buy, so it costs more than Chambéry for a lower score. It sits on Lac du Bourget, France's largest natural lake lying wholly in France, with thermal baths and beaches. Local work is limited to tourism and spa services, so it suits remote workers and retirees.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Grenoble gains most for tech and research careers at lower prices. Lyon gains most on breadth of jobs and costs more. Annecy gains on setting and is only practical with a high income. Aix-les-Bains is a lifestyle move with no job gain. If you work remotely, Chambéry's mix of price, mountains and size is hard to beat.",
+      },
+    ],
+    relatedCities: ["chambery", "grenoble", "lyon", "annecy", "aix-les-bains"],
+    tags: ["leaving chambery", "savoie", "grenoble", "lyon", "chambery alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-chartres-where-to-go-2026",
+    title: "Leaving Chartres: Orléans, Tours, Rambouillet or Vendôme",
+    metaTitle: "Leaving Chartres 2026: Orléans, Tours, Rambouillet",
+    metaDesc:
+      "Chartres scores 6.0/10 with a T3 near €890 and about €2,500/m² to buy. Commuters to Paris are the main leavers. Where they go: Orléans, Tours, Rambouillet.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Chartres has one of the best-preserved Gothic cathedrals in the world and a Paris-Montparnasse train of about 1 hour 10. It scores 6.0/10 on our site, with a T3 (three-room flat, two bedrooms) around €890 and buying at about €2,500/m². About 40,000 people live in the city. Many residents commute to Paris, and the typical departure is a commuter who has had enough of the journey.",
+    sections: [
+      {
+        heading: "Why do people leave Chartres?",
+        body: "Commuting: the line is fine on paper, but delays and strike days can leave you stranded without a car. Jobs: local employment is concentrated in the cosmetics and perfume cluster (Cosmetic Valley), services and the public sector, so someone who changes job or stops commuting finds a narrow market. Town centre: shops have struggled against out-of-town retail.",
+      },
+      {
+        heading: "Orléans: a real local economy",
+        body: "Orléans scores 5.8/10, with a T3 around €930 and about €2,400/m² to buy, so costs are close to Chartres'. It is about 80 km away, has roughly 115,000 residents, a university, a tram and a Paris link of about an hour. Pharmaceuticals, logistics and services give it a job base that does not depend on Paris. It is a move to autonomy more than to a better score.",
+      },
+      {
+        heading: "Rambouillet: closer to Paris, in a forest",
+        body: "Rambouillet scores 6.6/10, with a T3 around €1,420 and about €3,500/m² to buy, so buying costs about 40% more than in Chartres. It sits in the Île-de-France region at the edge of a large state forest, with a Paris-Montparnasse journey of roughly 40 minutes. A fair option for commuters who want a shorter trip and to keep green space.",
+      },
+      {
+        heading: "Tours: the larger Loire city",
+        body: "Tours scores 6.4/10, with a T3 around €940 and about €2,700/m² to buy, about 100 km to the south-west with a fast TGV to Paris. It has roughly 139,000 residents, a university and hospital, and a more varied job market. It makes sense when commuting to Paris is ending, for example through a move to partial remote work or a change of employer.",
+      },
+      {
+        heading: "Vendôme: cheap, with a fast train",
+        body: "Vendôme scores 7.4/10, with a T3 around €720 and about €1,500/m² to buy, 40% below Chartres to buy. It has a TGV station and a medieval setting, but only some 17,000 residents, thin services and little local work. It suits someone who goes to Paris once a week and wants the most space for the money.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Orléans and Tours gain on local jobs, and Tours gains most on city size. Rambouillet gains on commute time and costs more. Vendôme gains on price and loses on services. If you still commute and have a car as backup, Chartres' price-to-quality ratio is hard to beat.",
+      },
+    ],
+    relatedCities: ["chartres", "orleans", "tours", "rambouillet", "vendome"],
+    tags: ["leaving chartres", "centre-val de loire", "orleans", "tours", "chartres alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-colmar-where-to-go-2026",
+    title: "Leaving Colmar: Strasbourg, Mulhouse, Besançon or Basel",
+    metaTitle: "Leaving Colmar 2026: Strasbourg, Mulhouse, Besançon",
+    metaDesc:
+      "Colmar scores 6.4/10 with a T3 near €1,000 and about €3,000/m² to buy. Tourist saturation and a narrow job market push people out. Where they go.",
+    category: "city-guide",
+    emoji: "🏘️",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Colmar is the postcard Alsace: half-timbered houses, canals in the Petite Venise quarter and one of France's biggest Christmas markets. It scores 6.4/10 on our site, with a T3 (three-room flat, two bedrooms) around €1,000 and buying at about €3,000/m². About 67,600 people live in the city. Residents leave because the centre is crowded with visitors, and because the local job market leans on tourism, retail and regional administration.",
+    sections: [
+      {
+        heading: "Why do people leave Colmar?",
+        body: "Tourism: a city of under 70,000 residents receives millions of visitors a year, with consequences for parking, restaurants and the feel of the old centre, especially in December. Jobs: advanced health, tech and heavy industry roles are more common in Strasbourg, Mulhouse or Switzerland. Housing: part of the old centre is bought for seasonal rental, which pushes up what residents pay.",
+      },
+      {
+        heading: "Strasbourg: the regional capital",
+        body: "Strasbourg scores 7.5/10, with a T3 around €1,080 and about €3,800/m² to buy, so rent is about 8% higher and buying about 27% higher than in Colmar. It is roughly 45 minutes away by regional train and offers a university hospital, a university of around 50,000 students, European institutions and a diversified economy. For a professional move it is the obvious one.",
+      },
+      {
+        heading: "Mulhouse: cheaper, near Basel",
+        body: "Mulhouse scores 5.8/10, with a T3 around €780 and about €1,700/m² to buy, so it is much cheaper than Colmar, around 25 km south. It is popular with people who work in Basel and want to live in France. The image is rougher and some districts have real social difficulties, so look at the specific neighbourhood, not the city average.",
+      },
+      {
+        heading: "Besançon: out of Alsace, still near Basel",
+        body: "Besançon scores 6.5/10, with a T3 around €900 and about €2,300/m² to buy, about 25% cheaper to buy than Colmar. It has a UNESCO citadel, the Doubs river and the Jura nearby, and is within roughly 1 hour 15 of Basel. A good option for remote workers who want quiet at lower cost.",
+      },
+      {
+        heading: "Switzerland: only for the rental market",
+        body: "Living in Basel costs far more than in Colmar. Buying is out of reach for most people; renting is manageable but expensive. Some cross-border workers settle in the villages on the Swiss side of the Rhine. Check tax and health-insurance rules for cross-border workers before you decide.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Strasbourg gains the most on careers. Mulhouse gains most on price, with a rougher image. Besançon trades Alsace for a calmer, cheaper setting. What you lose is hard to replace: no other regional city has Colmar's density of timber-framed houses. Unless work or family forces the move, that is a serious reason to stay.",
+      },
+    ],
+    relatedCities: ["colmar", "strasbourg", "mulhouse", "besancon", "belfort"],
+    tags: ["leaving colmar", "alsace", "strasbourg", "mulhouse", "colmar alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-lorient-where-to-go-2026",
+    title: "Leaving Lorient: Vannes, Rennes, Quimper or Brest",
+    metaTitle: "Leaving Lorient 2026: Vannes, Rennes, Quimper, Brest",
+    metaDesc:
+      "Lorient scores 6.1/10 with a T3 near €900 and about €2,800/m² to buy. A narrow job market is the main limit. Where people go: Vannes, Rennes, Quimper, Brest.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Lorient is a working port in southern Brittany with real sea access, a large interceltic festival each August and moderate housing costs. It scores 6.1/10 on our site, with a T3 (three-room flat, two bedrooms) around €900 and buying at about €2,800/m². About 57,800 people live in the city. The job market leans on the naval yard, fishing and food processing, and there is no large tech employer or major university campus.",
+    sections: [
+      {
+        heading: "Why do people leave Lorient?",
+        body: "Jobs: outside the naval, fishing and food sectors, the private market is thin, and pay for the same role is generally better in Rennes or Nantes. Study: the local university is small, so many students go to Rennes and do not come back. Image: it is often described as the working-class port of Brittany next to prettier neighbours.",
+      },
+      {
+        heading: "Vannes: the Morbihan next door",
+        body: "Vannes scores 6.9/10, with a T3 around €1,150 and about €3,900/m² to buy, so buying costs about 40% more than in Lorient. It is about 60 km away on the Gulf of Morbihan, with a healthier services and tourism economy. It is the natural step if you want to stay in the department; the price premium is steep.",
+      },
+      {
+        heading: "Rennes: the real Breton metropolis",
+        body: "Rennes scores 7.4/10, with a T3 around €1,100 and about €3,800/m² to buy. It is roughly 130 km away, with about 221,000 residents, two universities, a strong tech and digital job market and a TGV to Paris of about an hour and a half. Rent is about 20% higher than in Lorient. For mobile professionals the career gain usually outweighs the cost.",
+      },
+      {
+        heading: "Quimper: stay in Brittany, pay the same",
+        body: "Quimper scores 6.3/10, with a T3 around €940 and about €2,800/m² to buy, almost identical to Lorient. It is the prefecture of Finistère, with a medieval centre and a public-service economy. You change the setting, not the job market, and you move further from Rennes.",
+      },
+      {
+        heading: "Brest: the other big port",
+        body: "Brest scores 6.4/10, with a T3 around €850 and about €2,500/m² to buy, a little cheaper than Lorient. It has about 139,000 residents, a university, marine research and a naval base, so the job market is more varied. It is about 100 km away, farther west than most Lorient leavers want to go.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Rennes gains the most on careers. Vannes gains on prosperity and costs more. Quimper and Brest keep Lorient's price level; Brest adds more jobs. If you work remotely, Lorient's coast and price are hard to match in Brittany.",
+      },
+    ],
+    relatedCities: ["lorient", "vannes", "rennes", "quimper", "brest"],
+    tags: ["leaving lorient", "brittany", "vannes", "rennes", "lorient alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-orleans-where-to-go-2026",
+    title: "Leaving Orléans: Tours, Paris, Blois or Nantes",
+    metaTitle: "Leaving Orléans 2026: Tours, Paris, Blois, Nantes",
+    metaDesc:
+      "Orléans scores 5.8/10 with a T3 near €930 and about €2,400/m² to buy. Too close to Paris to stand alone. Where people go: Tours, Paris, Blois, Nantes.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Orléans is the Loire city nearest to Paris, about an hour by train, which is both its strength and its problem. It scores 5.8/10 on our site, with a T3 (three-room flat, two bedrooms) around €930 and buying at about €2,400/m². About 115,800 people live in the city. Many residents commute to Paris, and when that stops working, Orléans is often left for a more independent or bigger city.",
+    sections: [
+      {
+        heading: "Why do people leave Orléans?",
+        body: "Position: the city is too close to Paris to build a fully separate identity and too far to belong to the Paris region. Retail: out-of-town shopping centres have taken trade from the centre. Jobs: pharma, logistics and public services are solid, but the market looks small next to Tours or Paris. Some retirees go south for the sun.",
+      },
+      {
+        heading: "Tours: the other Loire city",
+        body: "Tours scores 6.4/10, with a T3 around €940 and about €2,700/m² to buy, about the same on rent and 12% more to buy. It is roughly 110 km away, with a fast TGV to Paris, a university, a hospital and a pharma cluster. A complement more than a substitute: same river, a bit more size and character.",
+      },
+      {
+        heading: "Paris: back to the capital",
+        body: "Some leavers return to Paris or its suburbs when a job no longer justifies the commute. Paris scores 5.1/10 on our site, with a T3 around €2,800 and about €10,500/m² to buy, around three times Orléans' rent and four times its purchase price. Southern Essonne or the northern Loiret are cheaper compromises.",
+      },
+      {
+        heading: "Blois: quiet Loire, low prices",
+        body: "Blois scores 5.9/10, with a T3 around €820 and about €2,100/m² to buy, cheaper than Orléans. It has a royal château and a medieval centre, about 46,500 residents, and regional trains to Orléans and Tours. Local jobs are scarce. It suits remote workers and retirees.",
+      },
+      {
+        heading: "Nantes: the Atlantic jump",
+        body: "Nantes scores 6.9/10, with a T3 around €1,150 and about €4,200/m² to buy, about 75% more to buy than Orléans. It has roughly 314,000 residents, a wide job market and the Atlantic coast within an hour. It is a long move, via Paris or Tours, and mostly suits younger professionals and families.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Tours is the closest like-for-like step with a slight gain in character. Nantes gains most on jobs and costs most. Blois cuts costs and services. Paris pays more and costs far more. If you work remotely or still commute, Orléans is a solid, affordable base.",
+      },
+    ],
+    relatedCities: ["orleans", "tours", "blois", "nantes", "chartres"],
+    tags: ["leaving orleans", "centre-val de loire", "tours", "nantes", "orleans alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-poitiers-where-to-go-2026",
+    title: "Leaving Poitiers: La Rochelle, Tours, Bordeaux or Niort",
+    metaTitle: "Leaving Poitiers 2026: La Rochelle, Tours, Bordeaux",
+    metaDesc:
+      "Poitiers scores 6.1/10 with a T3 near €880 and about €2,100/m² to buy. A narrow job market pushes graduates out. Where they go: La Rochelle, Tours, Bordeaux.",
+    category: "city-guide",
+    emoji: "🎓",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Poitiers is a university city with a Romanesque old town, the Futuroscope theme park nearby and Paris in about 1 hour 20 by TGV. It scores 6.1/10 on our site, with a T3 (three-room flat, two bedrooms) around €880 and buying at about €2,100/m². About 89,000 people live in the city. The recurring complaint is that it struggles to keep graduates and to attract large private employers.",
+    sections: [
+      {
+        heading: "Why do people leave Poitiers?",
+        body: "Jobs: the economy rests on the university, the hospital, public administration and Futuroscope, and a mid-career engineer or manager finds few openings. Regional status: it lost its regional-capital role when the regions merged into Nouvelle-Aquitaine, with Bordeaux as the capital. Population is stable around 89,000 rather than growing.",
+      },
+      {
+        heading: "La Rochelle: the quality-of-life move",
+        body: "La Rochelle scores 7.2/10, with a T3 around €1,100 and about €4,200/m² to buy, so buying costs twice as much as in Poitiers. It is about 140 km away on the Atlantic, with a lively centre, sailing and tourism. Regional trains take around an hour and a quarter, too slow for a daily commute. The price premium is real.",
+      },
+      {
+        heading: "Tours: the Loire hub",
+        body: "Tours scores 6.4/10, with a T3 around €940 and about €2,700/m² to buy, about 30% more to buy than Poitiers. It has a fast TGV to Paris, a university hospital, a pharma cluster and a more varied job market. Reasonable for health, pharma and logistics profiles.",
+      },
+      {
+        heading: "Bordeaux: the big southern jump",
+        body: "Bordeaux scores 6.9/10, with a T3 around €1,200 and about €4,500/m² to buy, about twice Poitiers' purchase price. It has roughly 254,000 residents and a dense job market. It is the choice for anyone wanting an Atlantic metropolis and willing to pay for it.",
+      },
+      {
+        heading: "Niort: insurance jobs, quiet and cheap",
+        body: "Niort scores 6.0/10, with a T3 around €860 and about €2,100/m² to buy, the same as Poitiers. It hosts the head offices or large sites of several mutual insurers, which gives real office employment in insurance and administration. Remote workers and people in that sector can make it work; there is no direct TGV.",
+      },
+      {
+        heading: "What do you lose by leaving?",
+        body: "Cheap housing for a TGV city, a fast link to Paris, and a calm pace that people often miss after leaving. Poitiers works well as a base for remote workers and Paris commuters. Its weakness is that people tend to choose it by default rather than on purpose.",
+      },
+    ],
+    relatedCities: ["poitiers", "la-rochelle", "tours", "niort", "angouleme"],
+    tags: ["leaving poitiers", "nouvelle-aquitaine", "la rochelle", "tours", "poitiers alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-troyes-where-to-go-2026",
+    title: "Leaving Troyes: Reims, Dijon, Sens or Paris",
+    metaTitle: "Leaving Troyes 2026: Reims, Dijon, Sens, Paris",
+    metaDesc:
+      "Troyes scores 6.2/10 with a T3 near €860 and about €2,000/m² to buy. Graduates leave for lack of senior jobs. Where they go: Reims, Dijon, Sens, Paris.",
+    category: "city-guide",
+    emoji: "🧵",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Troyes has a half-timbered medieval centre, factory outlet shopping and some of the lowest housing costs among prefectures in northern France. It scores 6.2/10 on our site, with a T3 (three-room flat, two bedrooms) around €860 and buying at about €2,000/m². About 60,750 people live in the city. Its problem is retention: graduates of the local technology university tend to leave for Paris, Reims or Lyon.",
+    sections: [
+      {
+        heading: "Why do people leave Troyes?",
+        body: "Jobs: the local economy was built on hosiery and knitwear, long in decline, and on retail. High-value roles in tech, finance and biotech are scarce, which is the main reason people in their late twenties and thirties leave. Culture and nightlife are limited for the size of the wider area.",
+      },
+      {
+        heading: "Reims: the Champagne city",
+        body: "Reims scores 5.7/10, with a T3 around €900 and about €2,300/m² to buy, about 15% more to buy than in Troyes. It has roughly 184,000 residents, a university, a TGV to Paris in around 45 minutes and a wider job market. It is about 80 km away by road, with no fast direct rail link from Troyes.",
+      },
+      {
+        heading: "Dijon: Burgundy's capital",
+        body: "Dijon scores 6.4/10, with a T3 around €950 and about €2,600/m² to buy, 30% more to buy than Troyes. It is roughly 140 km away and has a broader economy in food, wine tourism and regional administration, with a TGV to Paris in about 1 hour 35. A good fit for a stronger provincial anchor.",
+      },
+      {
+        heading: "Sens: calm, close to Paris",
+        body: "Sens scores 6.6/10, with a T3 around €920 and about €1,900/m² to buy, close to Troyes' prices. It is a historic town of about 25,500 residents with a Gothic cathedral and a commuter line to Paris. It suits people who want more calm and an easier Paris link.",
+      },
+      {
+        heading: "Paris: the classic exit",
+        body: "Paris scores 5.1/10 on our site, with a T3 around €2,800 and about €10,500/m² to buy, more than three times Troyes' rent and five times its purchase price. It is about 1 hour 25 from Troyes by train. Many young graduates go to build experience and consider coming back for family life and a first purchase.",
+      },
+      {
+        heading: "What do you lose by leaving?",
+        body: "Few French cities offer so much medieval timber-framed architecture at such low prices. If remote work is part of your job and Paris, Lyon or Reims stay within reach, leaving Troyes is not an automatic gain.",
+      },
+    ],
+    relatedCities: ["troyes", "reims", "dijon", "sens", "chalons-en-champagne"],
+    tags: ["leaving troyes", "champagne", "reims", "dijon", "troyes alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-valence-where-to-go-2026",
+    title: "Leaving Valence: Grenoble, Lyon, Montélimar or Montpellier",
+    metaTitle: "Leaving Valence 2026: Grenoble, Lyon, Montélimar",
+    metaDesc:
+      "Valence scores 6.3/10 with a T3 near €900 and about €2,400/m² to buy. A narrow job market and transit-town feel push people out. Where they go.",
+    category: "city-guide",
+    emoji: "☀️",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Valence sits on the Rhône corridor with plenty of sun, a TGV link to Lyon in about 35 minutes and to Paris in roughly 2 hours. It scores 6.3/10 on our site, with a T3 (three-room flat, two bedrooms) around €900 and buying at about €2,400/m². About 63,700 people live in the city. The weak spots are a narrow job market for specialist profiles and a centre that is still gaining momentum.",
+    sections: [
+      {
+        heading: "Why do people leave Valence?",
+        body: "Jobs: the Valence-Romans area has industrial and logistics work but few head offices or senior services roles. Centre: one main street has been revived, the rest of the core is uneven. Position: Lyon's closeness is useful and also makes Valence feel like a secondary stop on the way to somewhere else.",
+      },
+      {
+        heading: "Grenoble: for engineers and researchers",
+        body: "Grenoble scores 6.8/10, with a T3 around €1,020 and about €3,200/m² to buy, about a third more to buy than Valence. It is roughly 75 km away. It offers a dense technology cluster (CEA, STMicroelectronics, Schneider Electric, micro-nanotechnology research), a major university and mountains at the door. Winters are greyer in the valley.",
+      },
+      {
+        heading: "Lyon: the metropolitan option",
+        body: "Lyon scores 7.1/10, with a T3 around €1,380 and about €5,000/m² to buy, roughly double Valence's purchase price. It is the most common destination for career-minded leavers. Some people stay in Valence and commute by TGV, which works only if the monthly pass fits your budget.",
+      },
+      {
+        heading: "Montélimar and Romans: cheaper, nearby",
+        body: "Montélimar scores 6.3/10, with a T3 around €780 and about €2,200/m² to buy; Romans-sur-Isère scores 6.0/10, with a T3 around €740 and about €1,900/m². Both are smaller (about 38,800 and 34,500 residents), cheaper and have fewer services. They suit retirees and remote workers who want less pressure without leaving the area.",
+      },
+      {
+        heading: "Montpellier and Nîmes: more sun",
+        body: "Montpellier scores 5.6/10, with a T3 around €1,150 and about €3,900/m² to buy, with a livelier research and health economy. Nîmes scores 5.1/10, with a T3 around €960 and about €2,800/m². Both sit lower than Valence on our site, so the gain is climate and size, not quality of life.",
+      },
+      {
+        heading: "What do you lose by leaving?",
+        body: "Valence offers value on housing compared with Lyon and Grenoble, mild weather and easy parking. People who return from Lyon or Grenoble often cite a slower pace and no traffic jams. If your job is remote or Lyon-based, staying is a strong option.",
+      },
+    ],
+    relatedCities: ["valence", "grenoble", "lyon", "montelimar", "romans-sur-isere"],
+    tags: ["leaving valence", "drome", "grenoble", "lyon", "valence alternatives", "relocation"],
+  },
+  {
+    slug: "leaving-vannes-where-to-go-2026",
+    title: "Leaving Vannes: Lorient, Brest, Saint-Brieuc or Rennes",
+    metaTitle: "Leaving Vannes 2026: Lorient, Brest, Saint-Brieuc, Rennes",
+    metaDesc:
+      "Vannes scores 6.9/10 with a T3 near €1,150 and about €3,900/m² to buy. Prices outpace local wages. Where people go: Lorient, Brest, Saint-Brieuc, Rennes.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 5,
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    intro:
+      "Vannes is the gateway to the Gulf of Morbihan, with a walled old town, a marina and a TGV link to Paris. It scores 6.9/10 on our site, with a T3 (three-room flat, two bedrooms) around €1,150 and buying at about €3,900/m². About 60,000 people live in the city. The pressure on residents is cost: prices have risen faster than local wages, and buyers from outside the region compete with first-time buyers on local pay.",
+    sections: [
+      {
+        heading: "Why do people leave Vannes?",
+        body: "Housing: buying at about €3,900/m² is a stretch on local salaries, and rents have followed. The profile of leavers is young local workers priced out, families who need more space and retirees who wanted to buy but can no longer afford to. The question they ask is where to find a similar Breton setting at a human price.",
+      },
+      {
+        heading: "Lorient: the cheaper port",
+        body: "Lorient scores 6.1/10, with a T3 around €900 and about €2,800/m² to buy, so buying costs about 28% less than in Vannes. It is roughly 60 km away, with beaches nearby and a working-port feel. The job market is narrower in some fields, but it is the first option for staying in the Morbihan.",
+      },
+      {
+        heading: "Brest: a healthier market",
+        body: "Brest scores 6.4/10, with a T3 around €850 and about €2,500/m² to buy, about 36% cheaper to buy. It is farther, around 140 km. It has a university, marine research and a naval base, so the job base is stronger than Vannes' or Lorient's. The setting is less glamorous but the Finistère coast is close.",
+      },
+      {
+        heading: "Saint-Brieuc: quieter and cheaper",
+        body: "Saint-Brieuc scores 6.0/10, with a T3 around €780 and about €1,800/m² to buy, less than half Vannes' purchase price. It is the prefecture of the Côtes-d'Armor, with about 46,000 residents, coastal access and a TGV to Paris. Families who want a less touristy Brittany should look at it seriously.",
+      },
+      {
+        heading: "Rennes: the career move",
+        body: "Rennes scores 7.4/10, with a T3 around €1,100 and about €3,800/m² to buy, which is close to Vannes on cost. It is around 110 km away, with about 221,000 residents, a dense job market, universities and a TGV to Paris. For qualified professionals who leave for work reasons, it is the natural destination.",
+      },
+      {
+        heading: "Who gains by leaving?",
+        body: "Rennes gains on jobs at no price drop. Lorient and Brest cut the cost of buying substantially. Saint-Brieuc cuts it most and has the fewest services. Staying in the Morbihan outside Vannes can also help, but check each commune's prices rather than assume they are lower.",
+      },
+    ],
+    relatedCities: ["vannes", "lorient", "brest", "rennes", "saint-brieuc"],
+    tags: ["leaving vannes", "brittany", "morbihan", "lorient", "vannes alternatives", "relocation"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
