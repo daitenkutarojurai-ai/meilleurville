@@ -10257,6 +10257,91 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-rochefort-2026",
+      "title": "Parent solo à Rochefort en 2026 : un seuil à 2 000 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-perigueux-2026",
+      "title": "Parent solo à Périgueux en 2026 : un seuil à 2 200 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-rodez-2026",
+      "title": "Parent solo à Rodez en 2026 : un seuil à 2 050 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-romans-sur-isere-2026",
+      "title": "Parent solo à Romans-sur-Isère en 2026 : un seuil à 2 250 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-douai-2026",
+      "title": "Parent solo à Douai en 2026 : un seuil à 2 050 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-colombes-2026",
+      "title": "Parent solo à Colombes en 2026 : un seuil à 3 700 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-argenteuil-2026",
+      "title": "Parent solo à Argenteuil en 2026 : un seuil à 3 650 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-menton-2026",
+      "title": "Parent solo à Menton en 2026 : un seuil à 4 150 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-raphael-2026",
+      "title": "Parent solo à Saint-Raphaël en 2026 : un seuil à 3 700 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-caluire-et-cuire-2026",
+      "title": "Parent solo à Caluire-et-Cuire en 2026 : un seuil à 4 150 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-le-bouscat-2026",
+      "title": "Parent solo à Le Bouscat en 2026 : un seuil à 3 600 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-tournefeuille-2026",
+      "title": "Parent solo à Tournefeuille en 2026 : un seuil à 3 200 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-martin-d-heres-2026",
+      "title": "Parent solo à Saint-Martin-d'Hères en 2026 : un seuil à 2 550 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-palaiseau-2026",
+      "title": "Parent solo à Palaiseau en 2026 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-bois-colombes-2026",
+      "title": "Parent solo à Bois-Colombes en 2026 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-montigny-les-metz-2026",
+      "title": "Parent solo à Montigny-lès-Metz en 2026 : un seuil à 2 600 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-genis-laval-2026",
+      "title": "Parent solo à Saint-Genis-Laval en 2026 : un seuil à 3 450 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "parent-solo-a-tassin-la-demi-lune-2026",
       "title": "Parent solo à Tassin-la-Demi-Lune en 2026 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
       "emoji": "🧑‍🍼"
@@ -10979,6 +11064,11 @@
       "count": 82
     },
     {
+      "slug": "securite-et-ecoles-parent-seul",
+      "label": "sécurité et écoles parent seul",
+      "count": 54
+    },
+    {
       "slug": "teletravail",
       "label": "télétravail",
       "count": 49
@@ -10999,24 +11089,19 @@
       "count": 37
     },
     {
-      "slug": "securite-et-ecoles-parent-seul",
-      "label": "sécurité et écoles parent seul",
-      "count": 37
-    },
-    {
       "slug": "bordeaux",
       "label": "Bordeaux",
       "count": 31
     },
     {
+      "slug": "famille-monoparentale-ile-de-france",
+      "label": "famille monoparentale Île-de-France",
+      "count": 27
+    },
+    {
       "slug": "lyon",
       "label": "Lyon",
       "count": 25
-    },
-    {
-      "slug": "famille-monoparentale-ile-de-france",
-      "label": "famille monoparentale Île-de-France",
-      "count": 23
     },
     {
       "slug": "bretagne",
@@ -11069,6 +11154,16 @@
       "count": 18
     },
     {
+      "slug": "famille-monoparentale-auvergne-rhone-alpes",
+      "label": "famille monoparentale Auvergne-Rhône-Alpes",
+      "count": 17
+    },
+    {
+      "slug": "famille-monoparentale-nouvelle-aquitaine",
+      "label": "famille monoparentale Nouvelle-Aquitaine",
+      "count": 16
+    },
+    {
       "slug": "strasbourg",
       "label": "Strasbourg",
       "count": 16
@@ -11109,6 +11204,11 @@
       "count": 14
     },
     {
+      "slug": "famille-monoparentale-grand-est",
+      "label": "famille monoparentale Grand Est",
+      "count": 14
+    },
+    {
       "slug": "fibre",
       "label": "fibre",
       "count": 14
@@ -11129,18 +11229,8 @@
       "count": 14
     },
     {
-      "slug": "famille-monoparentale-auvergne-rhone-alpes",
-      "label": "famille monoparentale Auvergne-Rhône-Alpes",
-      "count": 13
-    },
-    {
-      "slug": "famille-monoparentale-grand-est",
-      "label": "famille monoparentale Grand Est",
-      "count": 13
-    },
-    {
-      "slug": "famille-monoparentale-nouvelle-aquitaine",
-      "label": "famille monoparentale Nouvelle-Aquitaine",
+      "slug": "famille-monoparentale-hauts-de-france",
+      "label": "famille monoparentale Hauts-de-France",
       "count": 13
     },
     {
@@ -11159,13 +11249,13 @@
       "count": 13
     },
     {
-      "slug": "famille-monoparentale-hauts-de-france",
-      "label": "famille monoparentale Hauts-de-France",
+      "slug": "marseille",
+      "label": "Marseille",
       "count": 12
     },
     {
-      "slug": "marseille",
-      "label": "Marseille",
+      "slug": "monoparental-hauts-de-seine",
+      "label": "monoparental Hauts-de-Seine",
       "count": 12
     },
     {
@@ -11181,6 +11271,11 @@
     {
       "slug": "budget",
       "label": "budget",
+      "count": 11
+    },
+    {
+      "slug": "famille-monoparentale-occitanie",
+      "label": "famille monoparentale Occitanie",
       "count": 11
     },
     {
@@ -11226,11 +11321,6 @@
     {
       "slug": "lmnp",
       "label": "LMNP",
-      "count": 10
-    },
-    {
-      "slug": "monoparental-hauts-de-seine",
-      "label": "monoparental Hauts-de-Seine",
       "count": 10
     },
     {
@@ -11286,11 +11376,6 @@
     {
       "slug": "famille-monoparentale-bourgogne-franche-comte",
       "label": "famille monoparentale Bourgogne-Franche-Comté",
-      "count": 9
-    },
-    {
-      "slug": "famille-monoparentale-occitanie",
-      "label": "famille monoparentale Occitanie",
       "count": 9
     },
     {
@@ -11514,6 +11599,11 @@
       "count": 6
     },
     {
+      "slug": "famille-monoparentale-provence-alpes-cote-d-azur",
+      "label": "famille monoparentale Provence-Alpes-Côte d'Azur",
+      "count": 6
+    },
+    {
       "slug": "freelance",
       "label": "freelance",
       "count": 6
@@ -11649,6 +11739,16 @@
       "count": 5
     },
     {
+      "slug": "monoparental-gironde",
+      "label": "monoparental Gironde",
+      "count": 5
+    },
+    {
+      "slug": "monoparental-metropole-de-lyon",
+      "label": "monoparental métropole de Lyon",
+      "count": 5
+    },
+    {
       "slug": "orleans",
       "label": "Orléans",
       "count": 5
@@ -11764,11 +11864,6 @@
       "count": 4
     },
     {
-      "slug": "famille-monoparentale-provence-alpes-cote-d-azur",
-      "label": "famille monoparentale Provence-Alpes-Côte d'Azur",
-      "count": 4
-    },
-    {
       "slug": "fiscalite",
       "label": "fiscalité",
       "count": 4
@@ -11816,11 +11911,6 @@
     {
       "slug": "loyer",
       "label": "loyer",
-      "count": 4
-    },
-    {
-      "slug": "monoparental-gironde",
-      "label": "monoparental Gironde",
       "count": 4
     },
     {
@@ -12224,13 +12314,33 @@
       "count": 3
     },
     {
+      "slug": "monoparental-charente-maritime",
+      "label": "monoparental Charente-Maritime",
+      "count": 3
+    },
+    {
+      "slug": "monoparental-drome",
+      "label": "monoparental Drôme",
+      "count": 3
+    },
+    {
+      "slug": "monoparental-essonne",
+      "label": "monoparental Essonne",
+      "count": 3
+    },
+    {
+      "slug": "monoparental-isere",
+      "label": "monoparental Isère",
+      "count": 3
+    },
+    {
       "slug": "monoparental-la-reunion",
       "label": "monoparental La Réunion",
       "count": 3
     },
     {
-      "slug": "monoparental-metropole-de-lyon",
-      "label": "monoparental métropole de Lyon",
+      "slug": "monoparental-nord",
+      "label": "monoparental Nord",
       "count": 3
     },
     {
