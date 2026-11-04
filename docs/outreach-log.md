@@ -88,7 +88,27 @@ Lille, AVF Saint-Nazaire, Montauban, Toulouse) : possiblement des scanners de li
 réponse (Nancy). Conclusion : **le public est le bon** (×6 en ouverture), l'ask ne convertit
 toujours pas en réponse ni en lien. Pas de relance (promis dans le mail).
 
-## Vague 12 — préparée, non envoyée (2026-11-04)
+## Vague 12 — envoyée 2026-11-04, 6 envois (tag Brevo `outreach-2026-11`)
+
+Feu vert du propriétaire. Chaque adresse lue sur le site de l'organisme, chaque lien vérifié 200,
+chaque chiffre relu **sur la page en ligne** (pas seulement dans le module). Hook : un chiffre prêt à
+citer sur le sujet de **leur** article, « libre de reprise », offre d'un chiffre sur demande, pas de relance.
+
+| Cible | Adresse | Groupe | Chiffre offert |
+|---|---|---|---|
+| Hello Mira | hello@hello-mira.com | `cited` | version EN du guide nomades qu'ils citent déjà |
+| World Wild Schooling | hello@worldwildschooling.com | `lookalike` | 108 villes sur 383 (≥ 20 000 hab.) : 45 m² < 100 000 € ; T2 530 € Carcassonne/Béziers vs 1 800 € Paris |
+| Flatio | partners@flatio.com | `lookalike` | Strasbourg 7,5/10, T2 800 € vs 1 800 € Paris |
+| Quoi faire à Bordeaux | contact@quoifaireabordeaux.com | `lookalike` | +15,1 % d'emplois 2017-2023, salaire net 2 723 €, T2 900 € |
+| Génération Voyage | redaction@generationvoyage.fr | `lookalike` | classement télétravail : Vendôme, Rennes, Vaison-la-Romaine |
+| Jobrise | contact@jobrise.io | `lookalike` | emploi Insee : Villeurbanne +21,0 %, Bordeaux +15,1 %, Toulouse +13,5 %, Lyon +6,3 %, Paris −0,4 % |
+
+Deux affirmations corrigées à la relecture avant envoi : le « 108 » porte sur 383 villes de
+≥ 20 000 habitants, pas sur 593 ; Vaison-la-Romaine n'a pas de TGV. Écartés : euinfohub (aucun
+contact), Le Petit Journal (adresse nominative seule), snippetsofparis (adresse d'un autre domaine),
+The Good Life France / FrenchEntrée / Connexion (déjà contactés). Mesure J+7 : 2026-11-11.
+
+### Plan initial de la vague 12
 
 Conditionnée à la lecture J+7 de la v11. Deux segments, tirés de ce qui a réellement produit des liens.
 
