@@ -88,7 +88,7 @@ Lille, AVF Saint-Nazaire, Montauban, Toulouse) : possiblement des scanners de li
 réponse (Nancy). Conclusion : **le public est le bon** (×6 en ouverture), l'ask ne convertit
 toujours pas en réponse ni en lien. Pas de relance (promis dans le mail).
 
-## Vague 12 — envoyée 2026-11-04, 11 envois en deux lots (tag Brevo `outreach-2026-11`)
+## Vague 12 — envoyée 2026-11-04, 14 envois en trois lots (tag Brevo `outreach-2026-11`)
 
 Feu vert du propriétaire. Chaque adresse lue sur le site de l'organisme, chaque lien vérifié 200,
 chaque chiffre relu **sur la page en ligne** (pas seulement dans le module). Hook : un chiffre prêt à
@@ -112,6 +112,10 @@ citer sur le sujet de **leur** article, « libre de reprise », offre d'un chiff
 | British Expat Guide (Charente, Haute-Vienne, Dordogne) | contact@britishexpatguide.co.uk | Limoges 45 m² ≈ 68 310 €, T2 600 € ; Périgueux 540 € |
 | LaFrance (régions retraite) | contact@lafrance.com | T2 Bergerac 490 €, Périgueux 540 €, vs Paris 1 800 € |
 | Alliance Française Silicon Valley | info@afscv.org | Lyon 7,1 / Bordeaux 6,9 / Toulouse 6,6 / Montpellier 5,6, avec loyers ; quiz city-match |
+
+**Lot 3 (même jour, 3 envois, liens vers pages indexées seulement)** : 123loger (bonjour@123loger.com — Lille : T2 800 €, quartiers 780-1 000 €, 16 ans de loyer pour acheter ; `/villes/lille/logement`, `/quartiers`), Salerya (contact@salerya.fr — salaire net moyen privé par commune, Insee BTS 2024, hub `/emploi`), Transition Vélo (contact@transitionvelo.com — 33 guides `vivre-sans-voiture-*`, notes transports). Écartés : L'Info Durable (chiffres climat incohérents sur nos pages, voir ci-dessous), Le Petit Journal (adresse = correspondant Séoul), SalaireClair (Gmail personnel), Magnolia (agence locale).
+
+⚠️ **Incohérence trouvée** : sur `/villes/<ville>/climat`, la carte « Été (juillet) » ne correspond pas à la moyenne de juillet du tableau mensuel (Montpellier 27 vs 24,4 °C, Lyon 23,7 vs 22,6, Rennes 20,2 vs 19,2). Ne pas citer ces chiffres avant correction. Autre détail : la FAQ emploi titre « salaire médian » une valeur qui est une moyenne.
 
 Deux affirmations corrigées à la relecture avant envoi : le « 108 » porte sur 383 villes de
 ≥ 20 000 habitants, pas sur 593 ; Vaison-la-Romaine n'a pas de TGV. Écartés : euinfohub (aucun
