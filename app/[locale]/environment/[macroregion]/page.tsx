@@ -3,8 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { MACRO_REGIONS, MACRO_REGION_SLUGS, getMacroRegion } from "@/lib/macro-regions";
 import { citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import {
@@ -122,15 +121,20 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <nav className="text-xs text-[var(--text-tertiary)] mb-3">
           <Link href="/" className="hover:underline">Home</Link> ·{" "}
           <Link href="/environment" className="hover:underline">Environment</Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          {macro.emoji} Healthiest cities — {label}
-        </h1>
+        <div className="flex items-center gap-3">
+          <EmojiBadge emoji={macro.emoji} tone="aqua" />
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+            <span className="gradient-text">Healthiest cities</span> — {label}
+          </h1>
+        </div>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite environmental ranking for {cities.length} cities in the {label} macro-region
           with over 10,000 inhabitants. Index aggregating air quality, noise, water stress and
@@ -138,12 +142,18 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>{cities.length} cities analysed</Badge>
-          <Badge>Average environmental health: {avgHealth.toFixed(1)}/10</Badge>
+          <span className="grad-head-0 rounded-full px-3 py-1 font-semibold">{cities.length} cities analysed</span>
+          <span className="rounded-full bg-white/85 px-3 py-1 font-medium text-[#4338CA] ring-1 ring-[#C7D2FE]">Average environmental health: {avgHealth.toFixed(1)}/10</span>
         </div>
 
-        <Card className="mt-6">
-          <h2 className="text-sm uppercase tracking-wide text-[var(--text-tertiary)] font-semibold mb-3">
+        </div>
+      </section>
+
+      {/* Profil moyen — bande ciel */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+          <h2 className="text-sm uppercase tracking-wide text-[#0E7490] font-semibold mb-3">
             Average environmental profile for this macro-region
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -153,7 +163,7 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
               { k: "Water", v: avgWater, hint: "Restrictions + aquifer + dry climate" },
               { k: "Risks", v: avgRisks, hint: "Flood + clay + fire + seismic" },
             ].map((d) => (
-              <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
+              <div key={d.k} className="rounded-xl bg-[#ECFEFF] p-3 ring-1 ring-[#A5F3FC]">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
                 <div className="text-xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
                   {d.v.toFixed(1)}
@@ -166,15 +176,21 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
             Sub-scores: 10 = maximum exposure (worst). Environmental health score inverts this (10 = healthiest).
           </p>
-        </Card>
+        </div>
 
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 15 — healthiest cities in {label}
+        </div>
+      </section>
+
+      {/* Top 15 — bande indigo */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-2xl font-bold">
+          <span className="gradient-text">Top 15 — healthiest cities in {label}</span>
         </h2>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[var(--band-indigo)] text-xs uppercase tracking-wide text-[#4338CA]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">City</th>
@@ -186,7 +202,7 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
               </thead>
               <tbody>
                 {topHealthy.map((c, i) => (
-                  <tr key={c.slug} className="border-t border-[var(--border)]">
+                  <tr key={c.slug} className="border-t border-[var(--border)] transition-colors hover:bg-[#F5F3FF]">
                     <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
                     <td className="px-3 py-2">
                       <Link
@@ -212,15 +228,21 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
 
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 10 — most exposed cities in {label}
+        </div>
+      </section>
+
+      {/* Top 10 — bande rose */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-2xl font-bold">
+          <span className="gradient-text">Top 10 — most exposed cities in {label}</span>
         </h2>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[var(--band-pink)] text-xs uppercase tracking-wide text-[#9D174D]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">City</th>
@@ -232,7 +254,7 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
               </thead>
               <tbody>
                 {mostExposed.map((c, i) => (
-                  <tr key={c.slug} className="border-t border-[var(--border)]">
+                  <tr key={c.slug} className="border-t border-[var(--border)] transition-colors hover:bg-[#F5F3FF]">
                     <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
                     <td className="px-3 py-2">
                       <Link
@@ -256,27 +278,42 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
 
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
-          Other macro-regions
+        </div>
+      </section>
+
+      {/* Autres macro-régions — bande lilas */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold">
+          <span className="gradient-text">Other macro-regions</span>
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
-          {MACRO_REGIONS.filter((m) => m.slug !== macro.slug).map((m) => (
-            <Link key={m.slug} href={`/environment/${m.slug}`} className="block">
-              <Card className="hover:shadow-md transition-shadow h-full">
-                <div className="text-2xl mb-1">{m.emoji}</div>
+          {MACRO_REGIONS.filter((m) => m.slug !== macro.slug).map((m, i) => (
+            <Link
+              key={m.slug}
+              href={`/environment/${m.slug}`}
+              className="flex h-full items-center gap-3 rounded-2xl bg-white p-4 shadow-[0_10px_24px_-18px_rgba(124,58,237,0.55)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-16px_rgba(124,58,237,0.6)]"
+            >
+              <EmojiBadge emoji={m.emoji} tone={toneFor(i)} size="sm" />
+              <div className="min-w-0">
                 <div className="text-sm font-semibold text-[var(--text-primary)]">{EN_MACRO_LABEL[m.slug] ?? m.label}</div>
-                <div className="text-xs text-[var(--text-tertiary)] mt-1">Environmental index</div>
-              </Card>
+                <div className="text-xs text-[var(--text-tertiary)] mt-0.5">Environmental index</div>
+              </div>
             </Link>
           ))}
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/environment" className="text-[var(--accent)] hover:underline">
+        <div className="mt-8">
+          <Link
+            href="/environment"
+            className="inline-flex items-center rounded-full bg-gradient-to-r from-[#4F46E5] to-[#DB2777] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_-14px_rgba(79,70,229,0.7)] transition hover:opacity-95"
+          >
             View the full national environmental ranking
           </Link>
+        </div>
+
         </div>
       </section>
 

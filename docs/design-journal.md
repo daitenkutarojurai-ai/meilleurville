@@ -1299,3 +1299,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Pages `/environnement/[macroregion]` (FR) + EN `/environment/[macroregion]` (même schéma).
 2. Pages `/tags` et `/tags/[slug]`.
 3. Hub `/louer-ou-acheter` (classement national).
+
+## 2026-11-04 ~03:00 UTC — pages macro-région `/environnement/[macroregion]` (FR) + EN `/environment/[macroregion]`
+
+**Surface** : 6 pages macro-région × 2 locales, liées depuis le hub environnement. Avant : un seul bloc sur fond de page, `Badge` gris, profil moyen et tableaux en `Card` grises, tuiles « autres macro-régions » à emoji nu, lien texte.
+
+**Changé** (schéma de `/risques/[macroregion]`) : hero `.bg-aurora` + `EmojiBadge` aqua, « Villes les plus saines » en `.gradient-text`, pilules `grad-head-0` + blanches indigo ; profil moyen en `band-sky` (carte blanche à ombre cyan, tuiles cyan pâle) ; top 15 saines en `band-indigo` ; top 10 exposées en `band-pink` (en-tête `#9D174D`) ; autres macro-régions en `band-lilac` (tuiles blanches + `EmojiBadge toneFor(i)`) + lien palmarès en pilule dégradée. Imports `Card`/`Badge` retirés. `ENV_LEVEL_COLOR` et rouge du stress conservés. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/environnement/arc-alpin` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages `/tags` et `/tags/[slug]`.
+2. Hub `/louer-ou-acheter` (classement national).
+3. Sous-pages ville air / bruit / eau (quartet environnemental).
