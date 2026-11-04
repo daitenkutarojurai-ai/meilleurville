@@ -59386,6 +59386,226 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["creil", "clichy-sous-bois", "stains", "roubaix", "vaulx-en-velin", "cergy", "mulhouse", "marseille", "paris", "biarritz", "caen", "nancy"],
     tags: ["cities with most children", "share of under-15s", "family cities France", "city demographics", "2022 census", "children by city"],
   },
+    {
+    "slug": "family-property-company-sci-france-guide-2026",
+    "title": "The French family property company (SCI): when it helps and when it doesn't",
+    "metaTitle": "SCI in France 2026: family property company explained",
+    "metaDesc": "What a French SCI is, income-tax vs corporate-tax option, gifting shares to children, the real costs and the cases where a SCI is the wrong tool.",
+    "category": "budget",
+    "emoji": "🏛️",
+    "readMinutes": 9,
+    "intro": "A SCI (société civile immobilière) is a private company that owns property on behalf of several people, usually a family. French notaries and wealth advisers suggest it almost by reflex. For a foreign buyer it can be useful, but it is oversold: it adds paperwork and annual costs, and it does not solve every inheritance problem. This guide covers what it does, what it costs and when to skip it. It is general information, not tax advice; get a French notary to check your case.",
+    "sections": [
+      {
+        "heading": "What is a SCI, in one paragraph?",
+        "body": "A SCI is a civil (non-trading) company set up to hold property. It needs at least two partners, who can be spouses, parents and children, or unrelated co-buyers. The statutes (the company's rulebook) say who runs it, how votes work and when a partner may sell shares. The property belongs to the company; each partner owns shares. By default the SCI is tax-transparent: its rental income is taxed in the partners' hands, in proportion to their shares, and the company files a yearly return (form 2072) listing who gets what."
+      },
+      {
+        "heading": "Why do families use one?",
+        "body": "Three reasons come up most. First, it avoids indivision, the French default when several people co-own a property directly, where major decisions often need everyone's agreement and any co-owner can ask a court to force a sale. Second, it makes gradual gifts easy: parents can give shares to their children over the years instead of giving a share of the building itself. Each parent can give each child €100,000 free of gift tax every 15 years, and giving small slices of shares uses that allowance without a notary deed for each transfer of the property. Third, it makes management predictable: one manager signs the lease, handles repairs and collects rent."
+      },
+      {
+        "heading": "Income tax or corporate tax: the decision that matters",
+        "body": "At the default income-tax option (IR), rental income is added to each partner's other income and taxed at their marginal rate, plus social charges (17.2% on property income at the time of writing). Running costs, loan interest and works can be deducted, and a rental loss from repairs can offset other income up to €10,700 a year under the déficit foncier rules. When you sell, the capital gain gets the usual relief that grows with years of ownership. At the corporate-tax option (IS), the SCI pays company tax on its profit and can depreciate the building, which lowers taxable profit today. The catch is on exit: the gain is calculated on the depreciated value, so the tax bill on sale is larger, and the option is practically irreversible. IS suits a company that plans to reinvest profits and hold for decades. IR suits most families who want simplicity or who plan to sell in their lifetime."
+      },
+      {
+        "heading": "What does it cost?",
+        "body": "Expect roughly €1,500 to €3,500 to set up if a notary or lawyer drafts the statutes, plus registration. Running it means an annual accounts exercise (an accountant is optional for an IR SCI but sensible; budget around €500 to €1,200), the yearly 2072 return, and a formal general meeting minuted each year. Opening a company bank account and, if you borrow, getting a bank to lend to a company rather than to you personally adds friction: lenders usually ask the partners to guarantee the loan personally."
+      },
+      {
+        "heading": "What are the risks?",
+        "body": "Partners are liable for the company's debts in proportion to their shares, and without a cap: if the SCI cannot pay, creditors can come after you personally. A SCI also does not override French inheritance rules. Children still have a protected share of the estate (the réserve héréditaire), and shares in a SCI count towards it. Moving an existing property into a SCI is a sale for tax and registration purposes, so it can trigger costs and capital-gains tax. If you live in the property, check the tax treatment of a main residence held through a company before you sign, because the rules differ from direct ownership. If the aim is only tax avoidance, the authorities can reclassify the arrangement as an abuse of law."
+      },
+      {
+        "heading": "Who should not bother?",
+        "body": "If you are buying one home to live in, with a spouse, a SCI is usually overkill: the French marriage and PACS regimes, a will and a spousal donation (donation au dernier vivant) already protect the survivor. If you are buying a small rental alone, the paperwork outweighs the benefit. If you are an unmarried couple, a SCI can fix the indivision problem, but you should compare it with a simple notarised co-ownership agreement."
+      },
+      {
+        "heading": "What to do next",
+        "body": "Ask a notary for a written comparison of three scenarios for your actual situation: buying in your own names, buying through an IR SCI and buying through an IS SCI, with the cost of each at purchase, during ownership and at sale. If your residence for tax purposes is outside France, ask how France taxes non-resident owners and what your home country will say about the company. Any reputable adviser will do this on paper before you sign."
+      }
+    ],
+    "relatedCities": [
+      "paris",
+      "lyon",
+      "bordeaux",
+      "nantes",
+      "toulouse",
+      "marseille"
+    ],
+    "tags": [
+      "SCI France",
+      "family property company",
+      "buying property France",
+      "gifting to children",
+      "inheritance planning",
+      "expat property"
+    ],
+    "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-04"
+  },
+    {
+    "slug": "usufruct-bare-ownership-dismemberment-france-guide-2026",
+    "title": "Usufruct and bare ownership in France: how dismemberment of property works",
+    "metaTitle": "Usufruct vs bare ownership in France: how it works",
+    "metaDesc": "How French property can be split into usufruct and bare ownership, the age-based tax scale, who pays what, and the risks of cross-dismemberment.",
+    "category": "budget",
+    "emoji": "🔑",
+    "readMinutes": 8,
+    "intro": "French law lets one property have two owners at once: one who can live in it or rent it out (the usufructuary) and one who owns the walls but has to wait (the bare owner). This split, called démembrement, is common in French family wealth planning and in some new-build investment schemes. If you are buying in France, you will likely meet it in a notary's office or in a sales brochure. Here is how it works, what each side pays and where the traps are.",
+    "sections": [
+      {
+        "heading": "What are usufruct and bare ownership?",
+        "body": "The usufructuary has the right to use the property or to collect the rent. The bare owner (nu-propriétaire) holds ownership without use. When the usufruct ends, normally at the usufructuary's death or after a fixed term, it merges back into the bare ownership at no extra tax, and the bare owner becomes the full owner. A typical case: parents give their children the bare ownership of the family home and keep the usufruct, so they live there for life and the children inherit the full property without a second round of inheritance tax on the value the parents' usufruct represented."
+      },
+      {
+        "heading": "How is the split valued?",
+        "body": "For gift and inheritance tax, French law values the usufruct by a fixed scale based on the usufructuary's age. Under 21 it is 90% of the full value; 21 to 30, 80%; 31 to 40, 70%; 41 to 50, 60%; 51 to 60, 50%; 61 to 70, 40%; 71 to 80, 30%; 81 to 90, 20%; 91 and above, 10%. The bare ownership is the rest. A 65-year-old parent who gives the bare ownership of a €400,000 home is therefore treated as giving 60% of it, or €240,000, for tax purposes. The gift allowance (€100,000 per parent per child every 15 years) is applied to that reduced value, not the full price. Check the current scale and allowances with a notary, since rules are changed from time to time."
+      },
+      {
+        "heading": "Who pays for what?",
+        "body": "The usufructuary pays the property tax (taxe foncière) and the day-to-day upkeep, and pays the habitation tax on a second home if they use it. The bare owner pays for major structural works, such as the roof or load-bearing walls. In practice the statutes or deed often rearrange this, so read them. For wealth-tax purposes on real estate (IFI), the usufructuary is generally taxed on the full value of the property, not the bare owner; this is a frequent surprise."
+      },
+      {
+        "heading": "Where do foreign buyers meet it?",
+        "body": "Two places. One is family planning, particularly when you want to pass a French property to children who live abroad. The other is the investment scheme called nue-propriété: you buy only the bare ownership of a new flat at a discount, a social landlord or institutional investor holds the usufruct and rents it out for a fixed period (often 15 to 20 years), and you recover the full property at the end with no rental income, no management and no property tax in between. The discount is real, but you tie your money up for the term and your return depends on the resale value at the end. Read the contract for what happens if the usufruct holder defaults or the term is extended."
+      },
+      {
+        "heading": "What is cross-dismemberment, and why be careful?",
+        "body": "In crossed dismemberment (démembrement croisé) two people, often an unmarried couple, buy together so that each holds the usufruct of the whole property and the bare ownership of half. When one dies, the survivor already holds the usufruct, and the deceased's bare ownership goes to the heirs, so the survivor stays in the home without a forced sale. It was designed to protect a partner who would otherwise face high inheritance tax as a non-relative. French tax authorities have challenged structures that look designed only to cut tax, and the technique is complex and hard to undo. Treat it as something to do with a notary and written advice, never from a template."
+      },
+      {
+        "heading": "When is it not worth it?",
+        "body": "If you would need to sell soon, if the heirs may disagree about the home, or if you are the one giving up use of the property and may need the money later, think hard: a gift of bare ownership is usually irrevocable. A will, a spousal donation or a life-insurance policy can sometimes achieve the same protection with more flexibility."
+      }
+    ],
+    "relatedCities": [
+      "paris",
+      "lyon",
+      "bordeaux",
+      "nice",
+      "marseille",
+      "toulouse"
+    ],
+    "tags": [
+      "usufruct France",
+      "bare ownership",
+      "démembrement",
+      "nue-propriété",
+      "inheritance planning France",
+      "property gift France"
+    ],
+    "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-04"
+  },
+    {
+    "slug": "french-home-savings-plans-pel-cel-per-buying-property-2026",
+    "title": "PEL, CEL and PER: French savings products that matter when buying a home",
+    "metaTitle": "PEL, CEL and PER explained for buying a home in France",
+    "metaDesc": "How the PEL and CEL home savings plans and the PER retirement plan can help fund a French home purchase, what they cost and who can really use them.",
+    "category": "budget",
+    "emoji": "🐷",
+    "readMinutes": 8,
+    "intro": "Three acronyms appear whenever a French bank adviser talks about funding a home: PEL, CEL and PER. Two are old-style home savings plans, the third is a retirement product that can, in one case, be unlocked to buy your main home. For someone arriving from abroad they are mostly relevant if you will have French bank accounts and French tax residence for several years. Here is what each does, in plain terms.",
+    "sections": [
+      {
+        "heading": "What is a PEL?",
+        "body": "The PEL (plan d'épargne logement) is a regulated savings account at a French bank. You commit to saving for at least four years, with a ceiling of €61,200 in deposits, and in return the state sets a fixed interest rate on the day you open it. After four years you have the right to a home loan (the PEL loan) at a rate fixed when you opened the plan, with a maximum amount of €92,000. The rate on the plan is set by the government and changes from year to year, so check the rate for the opening year. The home loan right only helps if that fixed rate beats the market rate when you borrow, which is not the case when mortgage rates are low."
+      },
+      {
+        "heading": "What changed for newer PELs?",
+        "body": "The state premium that used to top up PEL savings was scrapped for plans opened after 2018. Plans opened since then are also taxed under the flat tax (30%, income tax and social charges together) on interest, from year one. Older plans have different rules, so the age of the plan matters. A PEL can still be reasonable as a safe, regulated place to park deposit money, but it is not a home-funding trick."
+      },
+      {
+        "heading": "What is a CEL?",
+        "body": "The CEL (compte épargne logement) is the flexible cousin: easier to open, lower ceiling (€15,300), no minimum duration and a lower rate. It earns interest and builds rights to a small home loan, up to €23,000. In practice, few people use the CEL loan; it is mainly a place for short-term home savings."
+      },
+      {
+        "heading": "What is a PER, and can it fund a home?",
+        "body": "The PER (plan d'épargne retraite) is a retirement savings plan. Its main purpose is to pay a pension, but the law allows you to take your voluntary contributions out early to buy your main home, so long as it is your main residence in France. The tax depends on how you paid in: if you deducted your contributions from your taxable income, the part you take out is taxed as income and the investment gains are taxed separately; if you did not deduct them, only the gains are taxed. Compulsory employer contributions are generally locked until retirement. For a high-income taxpayer, putting a part of the deposit through the PER can lower the tax bill now, but you need French taxable income to benefit and you lose the money's retirement earmark."
+      },
+      {
+        "heading": "Who should care?",
+        "body": "If you have just arrived and have no French tax history, you can open a PEL or CEL at a French bank but will not benefit from a PER deduction until you pay French income tax. These accounts matter more to a family planning a long stay, buying a main home in three to five years and keen on a safe, bounded return. Banks want to see stable French income whatever you have saved."
+      },
+      {
+        "heading": "What to ask the bank",
+        "body": "Ask four questions: what rate was fixed for the plan's opening year; how it is taxed; what the PEL loan rate would be against today's mortgage rates; and whether early withdrawal for a home purchase from a PER is allowed under your contract. Put the answers in writing and compare them against a plain savings account and your mortgage broker's best offer."
+      }
+    ],
+    "relatedCities": [
+      "paris",
+      "lyon",
+      "bordeaux",
+      "nantes",
+      "toulouse",
+      "rennes"
+    ],
+    "tags": [
+      "PEL",
+      "CEL",
+      "PER",
+      "buying a home France",
+      "mortgage France",
+      "savings plans France"
+    ],
+    "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-04"
+  },
+    {
+    "slug": "participatory-housing-habitat-participatif-france-guide-2026",
+    "title": "Participatory housing in France: build or buy a home with your neighbours",
+    "metaTitle": "Participatory housing in France: how it works",
+    "metaDesc": "What French habitat participatif is, the legal structures, timelines and risks, and how an incomer can find or join a group project.",
+    "category": "lifestyle",
+    "emoji": "🏘️",
+    "readMinutes": 8,
+    "intro": "Habitat participatif is the French name for a group of households that design, finance and often build a building together, instead of buying from a developer. Projects range from a handful of flats with a shared garden to an eco-district block. It is a real option in France, with its own legal framework, but it is slow and demands commitment. This guide explains what you would sign up for.",
+    "sections": [
+      {
+        "heading": "What is it?",
+        "body": "A group of future residents forms an association, picks an architect and a legal structure, and builds or renovates a building that fits their needs. Each household owns or has a right to its own flat, and the group shares spaces such as a laundry, guest room, garden or workshop. Savings come from skipping the developer's margin and from the pooled purchase of materials; the price you pay is time and shared decision-making."
+      },
+      {
+        "heading": "What legal forms exist?",
+        "body": "The 2014 ALUR housing law gave the movement two named structures. In a société d'autopromotion (self-promotion company), members hold shares that give them the right to a given flat, which they own once built. In a coopérative d'habitants, the cooperative owns the building and members hold shares that grant occupancy rights, so nobody owns a private flat and shares are resold at a rules-based price, which helps keep housing affordable. Many groups also use an ordinary SCI or ordinary co-ownership. Which one is right affects your loan, your resale options and your exit."
+      },
+      {
+        "heading": "How long does it take?",
+        "body": "Longer than buying a finished flat. Between forming the group, finding land, getting permits and building, a project typically takes several years from start to key handover. Expect meetings, votes and compromise. Some projects take on members as others drop out, and the group may ask you for a deposit or a share of the preparation costs before the building exists."
+      },
+      {
+        "heading": "What are the risks?",
+        "body": "Delays and cost overruns, as with any build. Group dynamics: a project can stall if members disagree or leave, and exit rules should be in writing before you commit. Financing: banks lend to individuals or to the company, depending on the structure, and may ask for guarantees. A project without a committed local authority or social landlord partner may struggle to find land in an expensive city."
+      },
+      {
+        "heading": "How does an incomer find a project?",
+        "body": "Start with the local authority: several large cities and metropolitan areas run calls for projects or keep a list of active groups, usually via the housing department. National and regional associations of participatory housing publish directories, and the local ADIL (the free public housing information agency) can explain the legal options. Some groups accept newcomers into an existing building project, others have a waiting list. Visit before you commit, speak to current members and ask to read the group's statutes and charter."
+      },
+      {
+        "heading": "Is it for you?",
+        "body": "It suits people who plan to stay in a city for a decade or more, enjoy collective living and have French-language skills to take part in meetings and paperwork. It suits less well anyone who needs to move quickly or wants a hands-off purchase. If you only want shared living without building, look at a shared-housing (colocation) rental or a coliving residence instead."
+      }
+    ],
+    "relatedCities": [
+      "grenoble",
+      "strasbourg",
+      "lyon",
+      "nantes",
+      "rennes",
+      "montpellier"
+    ],
+    "tags": [
+      "habitat participatif",
+      "participatory housing France",
+      "cohousing France",
+      "self-build",
+      "cooperative housing",
+      "buying property France"
+    ],
+    "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-04"
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

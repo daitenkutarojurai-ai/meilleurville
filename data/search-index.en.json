@@ -10280,6 +10280,26 @@
       "slug": "cities-with-the-most-children-share-of-under-15s-413-cities-2026",
       "title": "France's most child-heavy cities: the share of residents under 15 in 413 cities",
       "emoji": "🧒"
+    },
+    {
+      "slug": "family-property-company-sci-france-guide-2026",
+      "title": "The French family property company (SCI): when it helps and when it doesn't",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "usufruct-bare-ownership-dismemberment-france-guide-2026",
+      "title": "Usufruct and bare ownership in France: how dismemberment of property works",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "french-home-savings-plans-pel-cel-per-buying-property-2026",
+      "title": "PEL, CEL and PER: French savings products that matter when buying a home",
+      "emoji": "🐷"
+    },
+    {
+      "slug": "participatory-housing-habitat-participatif-france-guide-2026",
+      "title": "Participatory housing in France: build or buy a home with your neighbours",
+      "emoji": "🏘️"
     }
   ],
   "tags": [
@@ -10369,6 +10389,11 @@
       "count": 62
     },
     {
+      "slug": "buying-property-france",
+      "label": "buying property france",
+      "count": 60
+    },
+    {
       "slug": "international-students",
       "label": "international students",
       "count": 60
@@ -10382,11 +10407,6 @@
       "slug": "student-visa-france",
       "label": "student visa france",
       "count": 60
-    },
-    {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 58
     },
     {
       "slug": "brittany",
