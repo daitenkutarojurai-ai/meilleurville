@@ -1312,3 +1312,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Pages `/tags` et `/tags/[slug]`.
 2. Hub `/louer-ou-acheter` (classement national).
 3. Sous-pages ville air / bruit / eau (quartet environnemental).
+
+## 2026-11-04 ~11:00 UTC — index `/tags` + pages `/tags/[slug]` (FR + EN)
+
+**Surface** : index thématique des guides et ~300 pages tag × 2 locales. Avant : hero blanc à filet, `Badge` gris, pilules grises, cartes de guide grises à emoji nu, boutons gris.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🏷️ (index indigo, tag `toneFor(slug)`), titre en `.gradient-text` ; nuage de tags / grille de guides en `band-indigo` (pilules blanches à liseré indigo et compteur lavande → dégradé au survol ; cartes blanches à ombre indigo, `EmojiBadge toneFor(g.slug)`, durée en indigo) ; tags liés + renvois en `band-pink` (h2 dégradé, pilule dégradée indigo → rose + pilule blanche). Import `Badge` retiré. Couleurs de catégorie conservées. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 4 fichiers : 0 problème. Captures playwright `/tags` et `/tags/2026` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hub `/louer-ou-acheter` (classement national).
+2. Sous-pages ville air / bruit / eau (quartet environnemental).
+3. Page agenda.
