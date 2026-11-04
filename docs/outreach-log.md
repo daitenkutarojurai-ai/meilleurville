@@ -118,6 +118,10 @@ Deux affirmations corrigées à la relecture avant envoi : le « 108 » porte su
 contact), Le Petit Journal (adresse nominative seule), snippetsofparis (adresse d'un autre domaine),
 The Good Life France / FrenchEntrée / Connexion (déjà contactés). Mesure J+7 : 2026-11-11.
 
+⚠️ **Lier des pages indexées** (2026-11-04) : `lib/fr-index-policy.ts` sort 20 sous-pages ville FR de l'index (dont `emploi`, `cout-de-la-vie`). Les mails Bordeaux et Jobrise y pointent ; les prochains visent fiche ville, guide ou classement.
+
+**Contenu citable (2026-11-04, `8a2f6a76`)** : guide nomades (le plus cité) réécrit en tête chiffrée, « 180 000 étudiants » à Montpellier corrigé (60-80 000), PostFinance et coworkings invérifiables retirés ; guide budget réaligné sur nos loyers rendus (il citait des « avis habitants » inexistants). Hello Mira reprend encore le 180 000 dans ses 7 éditions.
+
 ### Plan initial de la vague 12
 
 Conditionnée à la lecture J+7 de la v11. Deux segments, tirés de ce qui a réellement produit des liens.
