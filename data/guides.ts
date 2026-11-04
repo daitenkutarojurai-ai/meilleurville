@@ -111,30 +111,29 @@ export const GUIDES: Guide[] = [
     title: "Combien coûte vraiment la vie en dehors de Paris ? Comparatif 2025",
     metaTitle: "Coût de la vie en France hors Paris — Comparatif 20 villes 2025",
     metaDesc:
-      "Loyer, courses, transport, loisirs : comparatif du coût de la vie réel dans 20 grandes villes françaises. Données 2025 basées sur les avis habitants.",
+      "Loyer, voiture, chauffage : ce que coûte la vie dans 15 villes hors Paris. Un T2 va de 600 € à Limoges à 1 100 € à Annecy, contre 1 800 € à Paris.",
     category: "budget",
     emoji: "💰",
     readMinutes: 7,
     publishedAt: "2025-01-20",
-    updatedAt: "2026-02-02",
-    intro:
-      "Vivre en France hors Paris coûte en moyenne 40% de moins qu'à Paris. Mais cette moyenne masque des écarts vertigineux : un T2 à Limoges se loue 430€/mois, le même à Annecy 900€. Ce guide part des budgets réels déclarés par les habitants sur MaVilleIdéale pour comparer, chiffres à l'appui, ce qu'un salaire couvre vraiment selon la ville.",
+    updatedAt: "2026-11-04",
+    intro: "Un T2 se loue environ 600 € par mois à Limoges et 1 800 € à Paris : 1 200 € d'écart chaque mois, soit 14 400 € par an (source : notre estimation des loyers). Entre les deux, les grandes villes de province comparées ici se situent entre 650 et 1 000 €, Nice et Annecy mises à part (1 100 €). Ce guide compare, ville par ville, ce que coûte le logement, ce que l'on oublie de compter, et le revenu à partir duquel une ville devient vivable.",
     sections: [
       {
         heading: "Loyers : l'écart qui change tout",
-        body: "Loyer médian d'un T2 charges comprises, selon les avis MaVilleIdéale : Limoges 480€, Clermont-Ferrand 520€, Caen 580€, Poitiers 560€, Le Mans 520€, Tours 620€, Rennes 750€, Nantes 800€, Toulouse 750€, Bordeaux 850€, Lyon 900€, Montpellier 820€, Nice 980€, Annecy 950€, Paris 1 350€. Retenez surtout l'écart Limoges–Paris : 870€/mois. Ce qui fait 10 440€ par an. Et 104 400€ sur dix ans.",
+        body: "Loyer estimé d'un T2 (source : notre estimation des loyers) : Limoges 600 €, Le Mans 650 €, Poitiers 660 €, Clermont-Ferrand 680 €, Caen 700 €, Tours 700 €, Rennes 820 €, Montpellier 850 €, Nantes 850 €, Toulouse 850 €, Bordeaux 900 €, Lyon 1 000 €, Nice 1 100 €, Annecy 1 100 €, Paris 1 800 €. Retenez surtout l'écart entre Limoges et Paris : 1 200 € par mois, 14 400 € par an, 144 000 € sur dix ans, pour un logement de même taille. Le détail par ville, T1 et T3 compris, est sur chaque fiche ville.",
       },
       {
         heading: "Au-delà du loyer : les coûts cachés",
-        body: "Le loyer, on le voit tout de suite. Le reste, moins. Première ligne oubliée : la voiture, souvent indispensable dès qu'on sort des métropoles — comptez 300 à 500€/mois entre assurance, entretien et carburant. Deuxième surprise : le chauffage, qui varie énormément selon le climat et l'isolation. Une maison mal isolée dans le Massif Central coûte 200€/mois de plus en hiver qu'un appartement en PACA. Reste enfin le poste loisirs, dont le prix suit la tension immobilière locale : un repas au restaurant moyen revient à 15€ à Limoges, contre 25€ à Paris.",
+        body: "Le loyer, on le voit tout de suite. Le reste, moins. Première ligne oubliée : la voiture, souvent indispensable dès qu'on sort des métropoles ; entre assurance, entretien, carburant et amortissement, elle se chiffre en centaines d'euros par mois, ce qui peut absorber une bonne partie de l'économie de loyer. Deuxième surprise : le chauffage, qui dépend du climat et surtout de l'isolation ; un logement classé F ou G en montagne ou dans le Massif central coûte nettement plus cher à chauffer qu'un appartement récent sur la côte méditerranéenne. Demandez le DPE et les factures de l'hiver précédent avant de signer. Reste le poste sorties, dont le prix suit en général la tension immobilière locale.",
       },
       {
         heading: "Les villes avec le meilleur ratio qualité/prix",
-        body: "Notre score coût MaVilleIdéale pondère loyer, services, santé et loisirs. Le podium : 1. Limoges (8.5/10), ville sous-estimée, nature exceptionnelle, loyers très bas. 2. Le Mans (8.4/10), à 55 min de Paris en TGV, loyers ultra-abordables. 3. Clermont-Ferrand (8.1/10), vie étudiante, volcans, coût contenu. Trois adresses où la qualité de vie ne se paie pas au prix fort.",
+        body: "Notre note « coût », sur 10 (10 = le moins cher), place Limoges à 7,1/10, Le Mans et Clermont-Ferrand à 6,4/10, contre 3,1 pour Annecy et 2,2 pour Paris (source : notre fiche ville). Le coût ne dit pas tout : Annecy compense par une note globale de 7,3/10, Limoges est à 6,1/10, Clermont-Ferrand à 6,3/10, Le Mans à 5,7/10. Le bon rapport qualité/prix se lit donc en croisant les deux notes, pas en prenant la ville la moins chère.",
       },
       {
         heading: "Le calcul du «point de basculement»",
-        body: "À partir de quel salaire une ville devient-elle réellement vivable ? En appliquant la règle du tiers — loyer plafonné à 33% du revenu — on obtient une réponse limpide : à Limoges, 1 500€ nets suffisent pour vivre dignement ; à Paris, il en faut 4 000€. Cette asymétrie éclaire, mieux qu'aucun sondage, l'exode silencieux des classes moyennes des grandes métropoles depuis 2020.",
+        body: "À partir de quel revenu une ville devient-elle vivable ? Avec la règle du tiers, loyer plafonné à 33 % du revenu net, un T2 à 600 € demande environ 1 800 € nets par mois à Limoges ; le même T2 à 1 800 € en demande environ 5 400 € à Paris (source : notre estimation des loyers). Le salaire net moyen d'un emploi privé en équivalent temps plein est de 2 733 € par mois en France (Insee, base Tous salariés 2024) : il suffit pour un T2 dans la plupart des villes de province, et ne suffit pas à Paris.",
       },
     ],
     relatedCities: ["limoges", "le-mans", "clermont-ferrand", "tours", "caen"],
@@ -2711,34 +2710,34 @@ export const GUIDES: Guide[] = [
     category: "teletravail",
     metaTitle: "Nomades numériques France 2025 — meilleures villes",
     metaDesc: "Vous travaillez où vous voulez ? Les meilleures villes françaises pour les nomades numériques en 2025 : coworking, fibre, communauté, coût de la vie et qualité de vie.",
-    intro: "Le nomadisme numérique s'est développé massivement en France depuis 2020. Contrairement au simple télétravail, le nomade numérique ne se fixe pas : il optimise son lieu de vie en permanence. Ce guide présente les villes françaises les plus adaptées à ce mode de vie : coworking dense, fibre partout, communauté d'indépendants active, et un coût de la vie qui permet de travailler moins pour vivre mieux.",
+    intro: "Pour un nomade numérique qui veut la fibre, des coworkings et un loyer raisonnable, Rennes, Nantes et Lyon obtiennent 9/10 sur notre axe télétravail, avec un T2 entre 820 et 1 000 € par mois, contre 1 800 € à Paris pour la même note (source : notre fiche ville, notre estimation des loyers). Montpellier, la plus citée par les nomades, est à 7,8/10 pour un T2 à 850 €. Ce guide compare ces villes sur ce qui compte quand on change de base au fil des saisons : connexion, coworkings, communauté d'indépendants, desserte et coût de la vie.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-29",
+    updatedAt: "2026-11-04",
     sections: [
       {
         heading: "Nomade numérique vs télétravailleur : des besoins différents",
         body: "Un télétravailleur a généralement un contrat salarié fixe, une ville de rattachement et travaille depuis son domicile. Un nomade numérique est souvent freelance, entrepreneur ou indépendant : il peut changer de base toutes les semaines, tous les mois ou toutes les saisons. Ses critères : fibre ou 4G fiable partout (y compris dans les cafés, bibliothèques, hôtels), espaces de coworking variés (day pass, mensuel), communauté active de freelances pour les échanges pro et perso, transport facile (train, covoiturage), et un coût de la vie permettant de vivre avec 2 000-3 000€/mois nets.",
       },
       {
-        heading: "Le top du nomadisme : Montpellier, Biarritz, Lyon, Marseille",
-        body: "Montpellier s'impose comme LA ville des nomades numériques françaises : coworking dense (Station-H, Smartwork...), soleil, mer à 15 min, communauté tech active, jeunesse permanente (180 000 étudiants), TGV Paris en 3h30, prix encore raisonnables. Biarritz/Anglet concentre une forte densité de nomades surf+tech : ambiance décontractée, réseau bien établi, qualité de vie atlantique unique. Lyon, c'est le hub tech français, deuxième bassin d'emploi numérique, coworking top (Woospeak, Nexity Lab), très bien desservie. Marseille, plus brut mais moins cher, avec une communauté freelance en fort développement et la Méditerranée immédiate.",
+        heading: "Montpellier, Biarritz, Lyon, Marseille : les bases connues, et leurs limites",
+        body: "Montpellier attire les nomades pour le soleil, la mer à un quart d'heure, une ville très étudiante (plus de 70 000 étudiants entre ses universités et ses écoles) et un TGV pour Paris en 3 h 30 environ ; notre axe télétravail la note 7,8/10, un T2 s'y loue autour de 850 € (source : notre fiche ville). Biarritz et Anglet concentrent une communauté surf et tech au cadre atlantique, mais le T2 y dépasse 1 000 € à Biarritz. Lyon est le premier bassin d'emploi numérique hors Paris, très bien desservi, et obtient 9/10 sur l'axe télétravail pour un T2 autour de 1 000 €. Marseille est la moins chère des quatre (T2 autour de 820 €) avec la Méditerranée immédiate, mais notre axe télétravail ne lui donne que 4,3/10 : vérifiez l'éligibilité à la fibre de l'immeuble avant de signer.",
       },
       {
         heading: "Les villes secondaires qui montent",
-        body: "Bordeaux reste attractif malgré ses prix plus élevés, avec une scène freelance et startup très active (French Tech Bordeaux, Darwin, le 17 des Arts). Nantes performe sur le mélange qualité de vie/communauté tech (Nantes Digital Week, nombreux espaces coworking, bonnes connexions TGV). Strasbourg surprend par la densité de freelances franco-allemands et la qualité de ses connexions européennes. Marseille et Montpellier côté Méditerranée, Rennes côté Bretagne, constituent le reste du top 7 national.",
+        body: "Sur notre axe télétravail (fibre, coworkings, desserte), le haut du tableau n'est pas méditerranéen : Rennes, Nantes et Lyon sont à 9/10, Bordeaux, La Rochelle et Annecy à 8,8/10, Toulouse à 8,3/10 (source : notre fiche ville). Bordeaux garde une scène freelance et startup active (French Tech Bordeaux, le site Darwin), pour un T2 autour de 900 €. Nantes et Rennes combinent la meilleure note télétravail et des T2 sous 900 €, avec Paris à 2 h ou moins en TGV. Strasbourg ajoute la proximité de l'Allemagne et un T2 autour de 800 €. Le classement complet est sur notre page télétravail.",
       },
       {
         heading: "Les coworkings à connaître par ville",
-        body: "Pour évaluer une ville : regarder le nombre de coworkings disponibles (Coworker.com), les espaces hybrides (bibliothèques et cafés wifi-fibre), et l'existence d'une communauté freelance locale (Meetup, Slack communities). Bonnes pratiques : Nantes a Cowork In Nantes, Darwin Bordeaux propose 180m² de coworking écologique, Marseille a La Ruche, Montpellier la Station-H (incubateur), Lyon Woospeak. La France compte plus de 4 000 espaces de coworking en 2025 : la plupart des villes moyennes ont au moins un espace digne.",
+        body: "Le réseau est désormais national : France Tiers-Lieux recense 4 041 tiers-lieux (panorama 2026), dont 59 % proposent des bureaux partagés ou du coworking, et la Nouvelle-Aquitaine comme l'Auvergne-Rhône-Alpes en comptent chacune plus de 500. La plupart des villes moyennes ont donc au moins un espace. Pour évaluer une ville avant d'y poser son ordinateur : le nombre d'espaces ouverts à la journée, l'existence d'un tarif mensuel sans engagement, les bibliothèques et cafés où l'on peut travailler, et une communauté locale d'indépendants (meetups, groupes de la French Tech locale).",
       },
       {
         heading: "La saison comme variable de décision",
-        body: "Le nomadisme permet de jouer sur les saisons : hiverner à Montpellier ou Marseille (soleil mais calme), estiver en Bretagne (fraîcheur, mer, pas de canicule), passer le printemps et l'automne dans le Pays Basque ou le Périgord. Ce mode de vie saisonnier permet d'optimiser la qualité de vie à un coût inférieur à une location annuelle dans une grande ville. Les nomades avancés utilisent des plateformes comme Homyspace ou VacancesFaciles pour des locations meublées flexibles (1 à 6 mois), non soumises au bail meublé classique.",
+        body: "Le nomadisme permet de jouer sur les saisons : hiverner à Montpellier ou Marseille (soleil, ville plus calme), passer l'été en Bretagne (fraîcheur, mer, pas de canicule), le printemps et l'automne au Pays basque ou en Périgord. Côté contrat, le bail mobilité (1 à 10 mois, meublé, sans dépôt de garantie, non renouvelable) n'est ouvert qu'à certaines situations : formation, stage, mutation, mission temporaire. Hors de ces cas, l'alternative est la location meublée de courte durée, plus chère au mois, ou le bail meublé classique d'un an, résiliable avec un mois de préavis.",
       },
       {
         heading: "Fiscalité et statut pour les nomades basés en France",
-        body: "Un point souvent négligé : si vous passez plus de 183 jours en France, vous y êtes fiscalement résident et soumis à l'impôt français sur vos revenus mondiaux. Statuts recommandés pour les nomades français : auto-entrepreneur (simple, limité), SASU (flexible, séparation patrimoine), portage salarial (pour facturer en société sans créer la sienne). Domiciliation légale : vous devez avoir une adresse fiscale déclarée. Les services de domiciliation type Regus ou PostFinance permettent d'avoir une adresse légale sans louer un bureau permanent.",
+        body: "Un point souvent négligé : on est fiscalement résident en France dès que l'un des critères est rempli, foyer ou séjour principal (plus de 183 jours dans l'année), activité professionnelle principale, ou centre des intérêts économiques ; on est alors imposé en France sur ses revenus mondiaux. Statuts courants pour un nomade basé en France : micro-entreprise (simple, plafonnée), SASU (plus souple, patrimoine séparé), portage salarial (facturer sans créer de société). Une adresse fiscale déclarée reste obligatoire : les sociétés de domiciliation agréées par la préfecture la fournissent sans louer de bureau.",
       },
     ],
     relatedCities: ["montpellier", "biarritz", "lyon", "bordeaux", "nantes", "rennes", "marseille", "anglet"],
