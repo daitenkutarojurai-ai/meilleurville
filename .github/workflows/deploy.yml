@@ -123,6 +123,9 @@ jobs:
 
       - name: Build FR
         if: steps.changed.outputs.go == 'true'
+        env:
+          # Compteur Cloudflare Web Analytics sans cookie (layout.tsx) ; vide = absent.
+          NEXT_PUBLIC_CF_BEACON_TOKEN: ${{ vars.CF_BEACON_TOKEN_FR }}
         run: npm run build
 
       # L'API d'upload d'assets de Cloudflare lâche parfois en cours de route
@@ -151,6 +154,7 @@ jobs:
         if: steps.changed.outputs.go == 'true'
         env:
           NEXT_PUBLIC_GA4_ID: G-KX52P5TMN7
+          NEXT_PUBLIC_CF_BEACON_TOKEN: ${{ vars.CF_BEACON_TOKEN_EN }}
         run: npm run build:en
 
       - name: Deploy EN (bestcitiesinfrance.com)

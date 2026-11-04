@@ -42,6 +42,7 @@ import { checkContent } from "@/lib/spam-filter";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { FR_TO_EN_CITY_SUB } from "@/lib/i18n";
 import { isEnNoindexPath } from "@/lib/en-index-policy";
+import { isFrNoindexPath } from "@/lib/fr-index-policy";
 import {
   signSession,
   verifySession,
@@ -1030,6 +1031,17 @@ export default {
       }
 
       const asset = await env.ASSETS.fetch(request);
+      // Pages gabarit FR gardées en ligne mais hors index (lib/fr-index-policy.ts).
+      if (
+        locale !== "en" &&
+        asset.status === 200 &&
+        isFrNoindexPath(path) &&
+        (asset.headers.get("content-type") ?? "").includes("text/html")
+      ) {
+        const res = new Response(asset.body, asset);
+        res.headers.set("X-Robots-Tag", "noindex, follow");
+        return res;
+      }
       if (asset.status !== 404) return asset;
       return serve404();
     } catch (err) {

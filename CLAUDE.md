@@ -511,6 +511,11 @@ Same repo, same build, two Vercel projects, two domains.
   `lib/en-index-policy.ts`, lue par le Worker, `app/sitemap.ts` et `sitemap:check`. Cause : 90 % du sitemap EN
   était du gabarit à 70-97 % identique, sur un domaine sans lien externe → Google a lâché le domaine entier.
   Une nouvelle famille EN programmatique entre dans cette liste par défaut.
+- **FR : 25 familles gabarit hors index (2026-11-04).** `lib/fr-index-policy.ts` (même mécanique : Worker,
+  sitemap, `sitemap:check`) — 20 sous-pages ville + gentrification, cout-menage, calculateur-cout-reel,
+  badge, synthèse de paire ; sitemap FR 32 654 → 17 660. Critère : texte de `<main>`, chiffres et noms masqués,
+  similarité > 0,75 entre deux villes sur deux paires. `/air` gardée (traction GSC). Une nouvelle famille FR
+  par ville se **mesure** avant d'être indexée.
 - **Adding EN content for a 11th city.** Add `descriptionEn`, `seoTitleEn`,
   `seoDescriptionEn` to the seed record. No other change required.
 

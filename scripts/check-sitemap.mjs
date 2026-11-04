@@ -195,9 +195,10 @@ async function checkLocale(locale) {
   const { ORIGIN_BY_LOCALE } = load("lib/i18n.ts");
   const expectedOrigin = ORIGIN_BY_LOCALE[locale];
 
-  // Pages EN gardées en ligne mais hors index : absentes du sitemap à dessein.
+  // Pages gabarit gardées en ligne mais hors index : absentes du sitemap à dessein.
   const { isEnNoindexPath } = load("lib/en-index-policy.ts");
-  const keptOut = (route) => locale === "en" && isEnNoindexPath(route);
+  const { isFrNoindexPath } = load("lib/fr-index-policy.ts");
+  const keptOut = (route) => (locale === "en" ? isEnNoindexPath(route) : isFrNoindexPath(route));
 
   const sitemap = load("app/sitemap.ts");
   const chunks = await sitemap.generateSitemaps();

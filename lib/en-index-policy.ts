@@ -21,7 +21,8 @@
  * ville, les 1 268 guides, les classements, régions, départements, paires de
  * comparaison et les hubs — ≈ 3 700 URL.
  *
- * Le FR n'est pas concerné : mavilleideale.fr a ses liens et son historique.
+ * Le FR a sa propre liste depuis le 2026-11-04 (`lib/fr-index-policy.ts`),
+ * plus courte : familles mesurées une à une, seuil 0,75.
  * Rouvrir une famille = retirer sa ligne ici, rien d'autre.
  */
 const EN_NOINDEX_PATTERNS: readonly RegExp[] = [

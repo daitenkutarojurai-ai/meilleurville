@@ -48,7 +48,8 @@ No data is used for behavioural advertising, profiling, or audience resale.`,
 
 • Strictly necessary technical cookies: browsing session, interface preferences (theme, language). These are exempt from consent under article 82 of the French Data Protection Act and the corresponding CNIL recommendation.
 • No third-party advertising cookies — no Facebook Pixel, no Google Ads, no retargeting, no Hotjar.
-• No statistical analytics cookies at this time. If we add an analytics tool in the future, it will be GDPR-friendly (cookieless or consent-exempt) and this page will be updated before activation.
+• Google Analytics 4 audience measurement: its cookies are set only if you click "Sounds fair" in the banner. By default, and if you decline, consent stays denied and no analytics cookie is set. You can change your mind by clearing this site's data in your browser.
+• Cloudflare Web Analytics: a plain page-view count, with no cookie, no storage on your device and no visitor identifier, exempt from consent as strictly statistical audience measurement (CNIL guidance).
 
 The site is registered with Google Search Console to monitor indexing: this is a webmaster tool that does not place any cookies in your browser and does not collect individual usage data.
 
@@ -104,7 +105,7 @@ We never sell your data. We never share it with data brokers, ad networks or pro
     title: "10. Policy updates",
     content: `We may update this policy to reflect technical, legal or editorial changes. Any material change (new data category, new processor, new purpose) will be highlighted at the top of this page for at least 30 days.
 
-Last updated: 31 May 2026.`,
+Last updated: 4 November 2026.`,
   },
 ];
 

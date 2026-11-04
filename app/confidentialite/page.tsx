@@ -48,7 +48,8 @@ Aucune donnée n'est utilisée pour de la publicité ciblée ou du profilage com
 
 • Cookies techniques nécessaires : session de navigation, préférences d'interface (thème, langue). Ces cookies sont exemptés de consentement (art. 82 loi Informatique & Libertés, recommandation CNIL).
 • Aucun cookie publicitaire tiers — pas de Facebook Pixel, pas de Google Ads, pas de retargeting, pas de Hotjar.
-• Aucun cookie d'analyse statistique à ce jour. Si nous activons un outil d'analyse à l'avenir, ce sera un outil RGPD-compatible (cookieless ou exempté de consentement) et cette page sera mise à jour avant son activation.
+• Mesure d'audience Google Analytics 4 : ses cookies ne sont déposés que si vous cliquez « Ça me va » dans le bandeau. Par défaut, et si vous refusez, le consentement reste « refusé » et aucun cookie d'analyse n'est déposé. Vous pouvez changer d'avis en effaçant les données du site dans votre navigateur.
+• Mesure d'audience Cloudflare Web Analytics : un simple décompte des pages vues, sans cookie ni stockage sur votre appareil et sans identifiant de visiteur, exempté de consentement au titre de la mesure d'audience strictement statistique (recommandation CNIL).
 
 Le site est référencé dans Google Search Console pour suivre son indexation : il s'agit d'un outil pour webmasters qui ne dépose aucun cookie sur votre navigateur et ne collecte aucune donnée d'usage individuelle.
 
@@ -104,7 +105,7 @@ Nous ne vendons jamais vos données. Nous ne les partageons jamais avec des cour
     title: "10. Mise à jour de la politique",
     content: `Nous pouvons mettre à jour cette politique pour refléter des évolutions techniques, légales ou éditoriales. Toute modification substantielle (nouvelle catégorie de donnée, nouveau sous-traitant, nouvelle finalité) sera signalée en haut de cette page pendant au moins 30 jours.
 
-Dernière mise à jour : 25 mai 2026.`,
+Dernière mise à jour : 4 novembre 2026.`,
   },
 ];
 

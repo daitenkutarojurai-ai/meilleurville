@@ -13,6 +13,13 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 // alongside gtag.js on the same dataLayer, so a GA4 tag inside the container
 // would have counted every visit twice. GA4 alone remains.
 const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID ?? "G-4X0HKD8LC7";
+// Cloudflare Web Analytics (2026-11-04). GA4 ne compte que les visiteurs qui
+// acceptent les cookies (consent mode, défaut « denied ») et une propriété de
+// faible trafic n'a pas la modélisation de Google : l'audience y paraît bien
+// plus basse qu'elle n'est. Cette balise est sans cookie ni stockage local,
+// elle compte toutes les visites. Inerte tant que le jeton n'est pas fourni au
+// build (variables GitHub CF_BEACON_TOKEN_FR / _EN, voir deploy.yml).
+const CF_BEACON_TOKEN = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
 
 const inter = Inter({
   subsets: ["latin"],
@@ -198,6 +205,13 @@ gtag('consent', 'default', {
 gtag('config', '${GA4_ID}');`,
           }}
         />
+        {CF_BEACON_TOKEN && (
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon={JSON.stringify({ token: CF_BEACON_TOKEN })}
+          />
+        )}
       </head>
       <body className="min-h-full flex flex-col antialiased pb-[calc(3.75rem+env(safe-area-inset-bottom))] lg:pb-0">
         <a
