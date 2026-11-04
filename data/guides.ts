@@ -73442,6 +73442,418 @@ export const GUIDES: Guide[] = [
     ]
   },
   {
+    slug: "10-choses-a-faire-aux-les-andelys-2026",
+    title: "10 choses à faire aux Les Andelys",
+    metaTitle: "10 choses à faire aux Les Andelys",
+    metaDesc: "Château-Gaillard, boucle de la Seine, collégiale, musée Poussin : 10 choses à faire aux Andelys, dans l'Eure.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Les Andelys comptent environ 7 800 habitants dans notre fiche. La ville s'étire au pied d'un méandre de la Seine, sous les ruines de Château-Gaillard. Ce guide dit quoi voir en une journée, du château de Richard Cœur de Lion aux deux bourgs historiques.",
+    sections: [
+      {
+        heading: "1. Château-Gaillard",
+        body: "Forteresse en ruine bâtie par Richard Cœur de Lion à la fin du XIIe siècle, elle domine la Seine depuis son éperon calcaire. La montée se fait à pied depuis la ville : prévoyez de bonnes chaussures."
+      },
+      {
+        heading: "2. Le point de vue sur la boucle de la Seine",
+        body: "Depuis les hauteurs du château, le fleuve dessine un grand méandre au milieu des falaises de craie. C'est le meilleur point de vue de la commune, surtout en fin de journée."
+      },
+      {
+        heading: "3. Le Petit-Andely",
+        body: "Le bourg au bord de l'eau, au pied du château, est le plus pittoresque des deux. Son église Saint-Sauveur et ses maisons à pans de bois se découvrent à pied en quelques dizaines de minutes."
+      },
+      {
+        heading: "4. Le Grand-Andely",
+        body: "L'autre bourg, plus à l'intérieur, abrite la collégiale Notre-Dame, dont l'architecture mêle gothique et Renaissance. C'est l'étape patrimoniale la plus riche de la ville."
+      },
+      {
+        heading: "5. La collégiale Notre-Dame",
+        body: "Elle vaut le détour pour ses vitraux. Vérifiez les horaires d'ouverture avant de vous déplacer : ils varient selon les saisons."
+      },
+      {
+        heading: "6. Le musée Nicolas Poussin",
+        body: "Le peintre est né à Villers, un hameau proche des Andelys, et la ville lui consacre un musée. Les sources divergent sur la composition exacte de la collection, on ne la détaille donc pas."
+      },
+      {
+        heading: "7. Les bords de Seine",
+        body: "Le quai et les berges se parcourent à pied ou à vélo. Les péniches de passage et la vue sur le château en font une promenade simple, sans billet."
+      },
+      {
+        heading: "8. Les environs",
+        body: "Giverny et la maison de Monet sont hors commune : comptez la voiture. Rouen reste la grande ville la plus proche pour une seconde journée."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 890 € par mois dans notre estimation, contre 950 € à Rouen et 820 € à Évreux. Les Andelys conviennent à qui veut un cadre de vallée de Seine à prix modéré, moins à qui cherche une vie culturelle dense."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour Château-Gaillard et le Petit-Andely. Ajoutez une matinée pour le Grand-Andely et le musée. Vérifiez l'ouverture du château avant de monter."
+      }
+    ],
+    relatedCities: [
+      "les-andelys",
+      "rouen",
+      "evreux"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-rouen-2026",
+      "10-choses-a-faire-a-evreux-2026"
+    ],
+    tags: [
+      "10 choses à faire aux Andelys",
+      "activités Les Andelys 2026",
+      "que faire dans l'Eure",
+      "Château-Gaillard Les Andelys"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-condom-2026",
+    title: "10 choses à faire à Condom",
+    metaTitle: "10 choses à faire à Condom",
+    metaDesc: "Cathédrale Saint-Pierre, Armagnac, bords de la Baïse, chemin de Compostelle : 10 choses à faire à Condom, dans le Gers.",
+    category: "tourisme",
+    emoji: "🥃",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Condom compte environ 6 450 habitants dans notre fiche. C'est la capitale historique de l'Armagnac en Ténarèze, posée sur la Baïse, au cœur du Gers. Ce guide dit quoi voir en une journée, de la cathédrale aux chais.",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Pierre",
+        body: "Édifiée à la fin du Moyen Âge, c'est un bel exemple de gothique méridional. Elle domine le centre et se visite librement en dehors des offices."
+      },
+      {
+        heading: "2. Le cloître",
+        body: "Accolé à la cathédrale, il donne sur un jardin tranquille. Comptez quelques minutes pour en faire le tour."
+      },
+      {
+        heading: "3. Le musée de l'Armagnac",
+        body: "Il retrace l'histoire de l'eau-de-vie du Gers et de ses techniques de distillation. C'est la meilleure entrée en matière avant une dégustation. Vérifiez l'ouverture avant de vous déplacer."
+      },
+      {
+        heading: "4. Le centre ancien",
+        body: "Les rues autour de la cathédrale alignent hôtels particuliers et façades en pierre. La promenade se fait à pied, sans billet, en une heure environ."
+      },
+      {
+        heading: "5. Les bords de la Baïse",
+        body: "La rivière traverse la ville et offre une promenade plate, agréable en été. C'est l'endroit pour une pause entre deux visites."
+      },
+      {
+        heading: "6. Une dégustation d'Armagnac",
+        body: "Plusieurs domaines des environs accueillent les visiteurs, certains sur rendez-vous. La dégustation reste le moyen le plus simple de comprendre la différence entre les âges et les assemblages."
+      },
+      {
+        heading: "7. Le chemin de Saint-Jacques-de-Compostelle",
+        body: "Le chemin du Puy traverse le Gers et passe par Condom. Même sans marcher vers l'Espagne, une étape ou un tronçon d'une demi-journée donne une idée de la région."
+      },
+      {
+        heading: "8. Larressingle et les abbayes des environs",
+        body: "Le village fortifié de Larressingle et l'abbaye de Flaran sont hors commune : comptez la voiture. Ils se combinent bien avec une journée à Condom."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 680 € par mois dans notre estimation, contre 640 € à Auch et 750 € à Agen. Condom convient à qui cherche une petite ville gersoise calme et peu chère, moins à qui veut des transports ou une vie étudiante."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée suffit pour la cathédrale, le musée et une dégustation. Ajoutez une journée pour Larressingle et Flaran. Une voiture est utile : les distances entre sites sont plus grandes que la taille de la ville ne le laisse croire."
+      }
+    ],
+    relatedCities: [
+      "condom",
+      "auch",
+      "agen"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-auch-2026",
+      "10-choses-a-faire-a-agen-2026"
+    ],
+    tags: [
+      "10 choses à faire à Condom",
+      "activités Condom 2026",
+      "que faire dans le Gers",
+      "Armagnac Condom"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-gaillac-2026",
+    title: "10 choses à faire à Gaillac",
+    metaTitle: "10 choses à faire à Gaillac",
+    metaDesc: "Abbaye Saint-Michel, vins de Gaillac, parc de Foucaud, bords du Tarn : 10 choses à faire à Gaillac, dans le Tarn.",
+    category: "tourisme",
+    emoji: "🍷",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Gaillac compte environ 16 100 habitants dans notre fiche. C'est une ville de vignoble au bord du Tarn, entre Albi et Toulouse. Ce guide dit quoi voir en une journée, de l'abbaye Saint-Michel aux caves.",
+    sections: [
+      {
+        heading: "1. L'abbaye Saint-Michel",
+        body: "Ancienne abbaye bénédictine au bord du Tarn, elle est le principal monument de la ville et abrite la Maison des vins. Son église et ses bâtiments se visitent selon les horaires en vigueur."
+      },
+      {
+        heading: "2. La Maison des vins",
+        body: "Elle présente l'appellation et permet de goûter plusieurs cuvées. C'est le point de départ logique pour comprendre le vignoble."
+      },
+      {
+        heading: "3. Le vignoble de Gaillac",
+        body: "Réputé pour ses vins blancs, rouges, rosés et effervescents, il compte parmi les plus anciens de France. Plusieurs domaines des environs accueillent les visiteurs, certains sur rendez-vous."
+      },
+      {
+        heading: "4. Le parc de Foucaud",
+        body: "Le parc paysager abrite le château de Foucaud et ses musées. C'est l'endroit pour une pause verte au centre de la ville."
+      },
+      {
+        heading: "5. Les musées de la ville",
+        body: "Gaillac possède un musée des beaux-arts et un musée d'histoire naturelle. Vérifiez les jours d'ouverture avant de vous déplacer."
+      },
+      {
+        heading: "6. Le centre ancien",
+        body: "Les ruelles, les places et les maisons à pans de bois se parcourent à pied en une heure environ. Le marché rythme la vie du centre."
+      },
+      {
+        heading: "7. Les bords du Tarn",
+        body: "La rivière offre des promenades au calme. L'abbaye, vue du Tarn, est le meilleur cliché de la ville."
+      },
+      {
+        heading: "8. Les fêtes du vin",
+        body: "Une fête dédiée aux vins primeurs anime la ville à l'automne. Les dates changent chaque année : vérifiez-les avant de réserver."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 800 € par mois dans notre estimation, contre 840 € à Albi et 860 € à Montauban. Gaillac convient à qui veut un vignoble et un cadre tarnais près de Toulouse, moins à qui cherche une grande offre culturelle."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée suffit pour l'abbaye, la Maison des vins et une visite de cave. Albi et Cordes-sur-Ciel sont hors commune : comptez la voiture ou le train pour Albi."
+      }
+    ],
+    relatedCities: [
+      "gaillac",
+      "albi",
+      "montauban"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-albi-2026",
+      "10-choses-a-faire-a-montauban-2026"
+    ],
+    tags: [
+      "10 choses à faire à Gaillac",
+      "activités Gaillac 2026",
+      "que faire dans le Tarn",
+      "vins de Gaillac"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-embrun-2026",
+    title: "10 choses à faire à Embrun",
+    metaTitle: "10 choses à faire à Embrun",
+    metaDesc: "Cathédrale Notre-Dame du Réal, lac de Serre-Ponçon, Embrunman, Écrins : 10 choses à faire à Embrun, dans les Hautes-Alpes.",
+    category: "tourisme",
+    emoji: "⛰️",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Embrun compte environ 6 400 habitants dans notre fiche. Elle domine la Durance, au-dessus du lac de Serre-Ponçon, aux portes du parc national des Écrins. Ce guide dit quoi voir en une journée, de la cathédrale au plan d'eau.",
+    sections: [
+      {
+        heading: "1. La cathédrale Notre-Dame du Réal",
+        body: "Édifice roman perché sur son rocher, elle est le monument phare de la ville. Son porche, dit lombard, est la partie la plus remarquée."
+      },
+      {
+        heading: "2. Le centre ancien",
+        body: "Les rues autour de la cathédrale conservent des façades anciennes et des places. Une heure de promenade suffit pour le faire en entier."
+      },
+      {
+        heading: "3. La Tour Brune",
+        body: "Elle fait partie de l'ensemble historique lié aux archevêques d'Embrun. Les sources divergent sur certains détails de son histoire, on ne les avance donc pas."
+      },
+      {
+        heading: "4. Le point de vue sur la Durance",
+        body: "Depuis le rocher de la cathédrale, la vue embrasse la vallée de la Durance et les montagnes alentour. C'est un bon point de départ pour une première lecture du paysage."
+      },
+      {
+        heading: "5. Le lac de Serre-Ponçon",
+        body: "Il s'étend à proximité de la ville, hors commune. Baignade, voile et balades sur les rives en été : comptez la voiture ou un trajet court."
+      },
+      {
+        heading: "6. Le plan d'eau d'Embrun",
+        body: "Aménagé en bordure de la ville, il sert de base de loisirs en saison. Vérifiez les conditions d'accès avant de venir."
+      },
+      {
+        heading: "7. Le triathlon Embrunman",
+        body: "Cette épreuve d'endurance, organisée chaque été, a donné à Embrun une réputation sportive. Les dates changent chaque année : vérifiez-les si vous voulez y assister."
+      },
+      {
+        heading: "8. Les Écrins et les stations",
+        body: "Le parc national des Écrins et plusieurs stations de ski sont hors commune. Embrun sert de base pour les rejoindre, été comme hiver."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 910 € par mois dans notre estimation, contre 900 € à Gap. Embrun convient à qui aime la montagne et le grand air, moins à qui cherche un réseau de transports dense."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée suffit pour la cathédrale et le centre. Ajoutez une journée pour le lac. En hiver, vérifiez l'ouverture des sites et l'état des routes de montagne."
+      }
+    ],
+    relatedCities: [
+      "embrun",
+      "gap"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-gap-2026"
+    ],
+    tags: [
+      "10 choses à faire à Embrun",
+      "activités Embrun 2026",
+      "que faire dans les Hautes-Alpes",
+      "lac de Serre-Ponçon Embrun"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-guingamp-2026",
+    title: "10 choses à faire à Guingamp",
+    metaTitle: "10 choses à faire à Guingamp",
+    metaDesc: "Basilique Notre-Dame, fontaine de la Plomée, Roudourou, pardon : 10 choses à faire à Guingamp, dans les Côtes-d'Armor.",
+    category: "tourisme",
+    emoji: "⚽",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Guingamp compte environ 7 100 habitants dans notre fiche. Cette petite ville bretonne est connue pour son club de football et son centre ancien. Ce guide dit quoi voir en une journée, de la basilique à la place du Centre.",
+    sections: [
+      {
+        heading: "1. La basilique Notre-Dame de Bon-Secours",
+        body: "Elle domine la place du Centre et associe plusieurs époques, du gothique à la Renaissance. C'est un lieu de pèlerinage ancien."
+      },
+      {
+        heading: "2. La place du Centre",
+        body: "Bordée de maisons à pans de bois, elle est le cœur de la ville. Un café en terrasse suffit pour la prendre en main."
+      },
+      {
+        heading: "3. La fontaine de la Plomée",
+        body: "Située sur la place du Centre, cette fontaine de style Renaissance est l'emblème de la ville. Elle se voit sans billet."
+      },
+      {
+        heading: "4. Le pardon de Notre-Dame de Bon-Secours",
+        body: "Ce pardon, procession traditionnelle bretonne, a lieu chaque été. Les dates changent d'une année à l'autre : vérifiez-les si vous voulez y assister."
+      },
+      {
+        heading: "5. Les ruines du château",
+        body: "Les vestiges du château des ducs de Bretagne se trouvent près du centre. Il en reste peu, mais le site se prête à une courte promenade."
+      },
+      {
+        heading: "6. Le stade de Roudourou",
+        body: "C'est le domicile de l'En Avant Guingamp. Même sans match, les amateurs de football peuvent passer voir le stade depuis l'extérieur."
+      },
+      {
+        heading: "7. Les bords du Trieux",
+        body: "La rivière et ses chemins de promenade sont à quelques minutes du centre. L'ambiance est celle d'une petite ville tranquille."
+      },
+      {
+        heading: "8. Les environs",
+        body: "La côte de granit rose et la baie de Paimpol sont hors commune. Comptez la voiture ou un trajet en train vers la côte."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 720 € par mois dans notre estimation, contre 780 € à Saint-Brieuc et 800 € à Lannion. Guingamp convient à qui cherche un point de chute breton peu cher, moins à qui veut la mer à pied."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour la basilique, la place du Centre et les ruines. Ajoutez la côte pour une journée complète."
+      }
+    ],
+    relatedCities: [
+      "guingamp",
+      "saint-brieuc",
+      "lannion"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-brieuc-2026",
+      "10-choses-a-faire-a-lannion-2026"
+    ],
+    tags: [
+      "10 choses à faire à Guingamp",
+      "activités Guingamp 2026",
+      "que faire dans les Côtes-d'Armor",
+      "fontaine de la Plomée Guingamp"
+    ]
+  },
+  {
+    slug: "10-choses-a-faire-a-villeneuve-sur-lot-2026",
+    title: "10 choses à faire à Villeneuve-sur-Lot",
+    metaTitle: "10 choses à faire à Villeneuve-sur-Lot",
+    metaDesc: "Bastide médiévale, Pont-des-Cieutat, église Sainte-Catherine, Pujols : 10 choses à faire à Villeneuve-sur-Lot.",
+    category: "tourisme",
+    emoji: "🌉",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Villeneuve-sur-Lot compte environ 22 000 habitants dans notre fiche. C'est une bastide médiévale traversée par le Lot, dans le Lot-et-Garonne. Ce guide dit quoi voir en une journée, des portes de l'ancienne enceinte au pont.",
+    sections: [
+      {
+        heading: "1. Le Pont-des-Cieutat",
+        body: "Pont médiéval sur le Lot, il est le monument le plus photographié de la ville. Il se traverse à pied."
+      },
+      {
+        heading: "2. Les portes de la bastide",
+        body: "La Porte de Paris et la Porte de Pujols sont les vestiges visibles de l'enceinte de la bastide. Elles se voient sans billet."
+      },
+      {
+        heading: "3. Le centre-ville de la bastide",
+        body: "Fondée au Moyen Âge, la ville garde un plan régulier typique des bastides. Une heure de promenade suffit."
+      },
+      {
+        heading: "4. L'église Sainte-Catherine",
+        body: "Elle domine le centre et sert de repère. Vérifiez les horaires d'ouverture avant de vous déplacer."
+      },
+      {
+        heading: "5. Les bords du Lot",
+        body: "Les berges aménagées offrent des promenades. Le pont, vu de la rive, donne la meilleure vue de la ville."
+      },
+      {
+        heading: "6. Le musée de Gajac",
+        body: "Il présente des collections liées à l'histoire locale et à l'art. Vérifiez les jours et horaires d'ouverture."
+      },
+      {
+        heading: "7. Le pruneau d'Agen",
+        body: "La région en est la capitale. Les producteurs des environs proposent des dégustations, certains sur rendez-vous."
+      },
+      {
+        heading: "8. Pujols et Bonaguil",
+        body: "Le village de Pujols, classé parmi les plus beaux villages de France, et le château de Bonaguil sont hors commune. Comptez la voiture."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 810 € par mois dans notre estimation, contre 750 € à Agen et 660 € à Bergerac. Villeneuve-sur-Lot convient à qui cherche une bastide du Sud-Ouest au prix d'une ville moyenne, moins à qui veut une grande vie culturelle."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée suffit pour le pont, les portes et le centre. Ajoutez une journée pour Pujols et Bonaguil."
+      }
+    ],
+    relatedCities: [
+      "villeneuve-sur-lot",
+      "agen",
+      "bergerac"
+    ],
+    relatedGuides: [
+      "10-choses-a-faire-a-agen-2026",
+      "10-choses-a-faire-a-bergerac-2026"
+    ],
+    tags: [
+      "10 choses à faire à Villeneuve-sur-Lot",
+      "activités Villeneuve-sur-Lot 2026",
+      "que faire dans le Lot-et-Garonne",
+      "Pont-des-Cieutat"
+    ]
+  },
+  {
     slug: "acheter-appartement-moins-100000-euros-villes-2026",
     title: "Acheter un appartement à moins de 100 000 € pour y habiter : 108 villes, et ce que le prix cache",
     metaTitle: "Appartement à moins de 100 000 € : 108 villes en 2026",
