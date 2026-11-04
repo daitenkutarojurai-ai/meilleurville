@@ -71,8 +71,22 @@ Bilan cumulé : ~220 envois → 2 réponses, 0 lien ; un mois de guides → 7 do
 mesuré est **la phrase citable** (un fait chiffré, autonome, sourcé) dans un guide : c'est elle
 que les sites rédigés avec IA reprennent et créditent. Les 4 pages citées répondent 200 (vérifié).
 
-**J+7 de la v11 (dû 2026-11-05)** : Gmail relu au 2026-11-04, aucune réponse au-delà d'AVF Nancy.
-Les stats Brevo restent à lire : `BREVO_API_KEY` absente du poste local comme des routines.
+**Mesure v11 à J+6 (2026-11-04, Brevo `aggregatedReport` + events `tags=outreach-2026-10`)** :
+59 envois, 58 délivrés, 1 soft bounce, 0 spam, 1 désinscription (AVF Versailles).
+**29 ouvertures uniques (50 %), 14 cliqueurs uniques** — contre 3 ouvertures sur 27 pour les mairies.
+
+| Groupe | Envois | Ouvert | Cliqué |
+|---|---|---|---|
+| AVF | 37 | 20 | 9 |
+| Agences d'attractivité | 12 | 3 | 4 |
+| Médias FR | 6 | 4 | 1 (Habity) |
+| Médias EN | 4 | 2 | 0 |
+
+Clics avec ouverture (humains probables) : AVF Montélimar, Nancy, Bourg-la-Reine (92), Grasse, Pau,
+Chambéry ; Lozère (Vivre en Lozère), Attitude Manche ; Habity. Clics sans ouverture (Aube, Hello
+Lille, AVF Saint-Nazaire, Montauban, Toulouse) : possiblement des scanners de liens. Une seule
+réponse (Nancy). Conclusion : **le public est le bon** (×6 en ouverture), l'ask ne convertit
+toujours pas en réponse ni en lien. Pas de relance (promis dans le mail).
 
 ## Vague 12 — préparée, non envoyée (2026-11-04)
 
