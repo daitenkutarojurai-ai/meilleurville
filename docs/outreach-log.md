@@ -54,6 +54,44 @@ relais refusé). **1 réponse** (AVF Nancy, M. Masson) : biais signalé sur la c
 Fondé : corrigé le jour même (commit 73454d0, grille symétrique du ministère de
 l'Intérieur, 5 familles), réponse envoyée depuis Gmail.
 
+## Bilan octobre (relevé 2026-11-04) — les liens viennent du contenu, pas des mails
+
+Alertes Ahrefs du 2026-11-02 (1er oct. → 1er nov.) : **FR +5 domaines référents, EN +2**.
+**Aucun ne vient d'un envoi.** Tous ont cité un guide, de leur propre initiative :
+
+| Domaine | DR | Page citée | Ce qui a été cité |
+|---|---|---|---|
+| hello-mira.com (Lille, nomades) | 23 | `/guides/nomades-numeriques-meilleures-villes-france-2025` | la phrase Montpellier (coworking, 180 000 étudiants, TGV 3 h 30), traduite dans **7 langues** |
+| arlesque.fr | 1 | `/guides/acheter-maison-a-renover-france-2026-vrai-cout` | lien sur une phrase décote DPE F/G — la phrase « 20 à 40 % » est **la leur**, pas dans notre guide (vérifié) |
+| euinfohub.com | 0 | EN `/guides/americans-retiring-in-france-deep-guide-2026` | « Medicare will not pay for care in France… » (article du 24/10) |
+| todaysatlas.com | 2 | EN `/guides/things-to-do-in-saint-paul-reunion-2026` | lien de ressource |
+| jobstore.com | 41 | accueil | fiche entreprise auto-générée au nom fautif « Ma ville ideal » (à réclamer par le propriétaire, pas de mail) |
+
+Bilan cumulé : ~220 envois → 2 réponses, 0 lien ; un mois de guides → 7 domaines. Le levier
+mesuré est **la phrase citable** (un fait chiffré, autonome, sourcé) dans un guide : c'est elle
+que les sites rédigés avec IA reprennent et créditent. Les 4 pages citées répondent 200 (vérifié).
+
+**J+7 de la v11 (dû 2026-11-05)** : Gmail relu au 2026-11-04, aucune réponse au-delà d'AVF Nancy.
+Les stats Brevo restent à lire : `BREVO_API_KEY` absente du poste local comme des routines.
+
+## Vague 12 — préparée, non envoyée (2026-11-04)
+
+Conditionnée à la lecture J+7 de la v11. Deux segments, tirés de ce qui a réellement produit des liens.
+
+**A. Les citeurs déjà acquis — 1 envoi.** L'ask est minuscule et à leur avantage.
+- **Hello Mira** — `hello@hello-mira.com` (décodé de leur page `/en/contact`, EuraTechnologies Lille).
+  Leurs articles EN/DE/ES/IT/PT/NL citent notre guide **français**. Offre : la version anglaise
+  `bestcitiesinfrance.com/guides/france-for-digital-nomads-2026` (200, couvre Montpellier) pour
+  leurs éditions non francophones. Ne **pas** demander de retirer le lien FR. Envoi depuis
+  `bonjour@mavilleideale.fr`, en français (société lilloise).
+- euinfohub.com : aucun contact publié → pas d'envoi.
+
+**B. Les sosies des citeurs — à sourcer.** Plateformes nomades/expat multilingues qui citent des
+sources françaises : nomad.watch, expatlife.ai, flatio.com/blog, nomadstays.com, eurovistatrips.com,
+wheretoemigrate. Aucune adresse vérifiée à ce jour : même règle que v11 (adresse lue sur le site de
+l'organisme, lien vérifié 200, chiffre lu dans le module rendu). Accroche : une phrase chiffrée
+prête à citer sur **leur** ville, pas « votre ville est Nᵉ ».
+
 ## Vagues
 
 - **v1-v4 (2026-07-05 → 07-08)** — presse nationale et PQR, 29 envois, angle
