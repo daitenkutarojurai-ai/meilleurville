@@ -637,9 +637,15 @@ if (!failed) {
 // qu'une surface sur huit, et rien ne pouvait le voir — `tsc` moins que tout.
 // Les organismes restent nommés, mais comme CADRES DE RÉFÉRENCE : ils calent
 // le modèle, on ne reprend pas leurs relevés.
+//
+// L'air en est sorti le 2026-11-04 : NO2, PM2.5 et ozone sont MESURÉS en
+// station de fond pour la plupart des villes (data/city-air-light.json), les
+// pollens restent estimés. Il est passé dans les cas mixtes des « moteurs »
+// ci-dessous. L'index environnement composite reste ici : bruit, eau et
+// risques sont toujours estimés.
 {
   const USES =
-    /compute(AirQuality|NoiseExposure|WaterStress|NaturalRisks|EnvironmentIndex)\b|@\/lib\/(air-quality|noise-exposure|water-stress|natural-risks|environment-index|environment-index-rankings)"/;
+    /compute(NoiseExposure|WaterStress|NaturalRisks|EnvironmentIndex)\b|@\/lib\/(noise-exposure|water-stress|natural-risks|environment-index|environment-index-rankings)"/;
   // Un marqueur par dimension et par locale : chaque page dit ce que son
   // nombre n'est PAS (une mesure en station, un relevé acoustique, l'arrêté
   // en vigueur, le zonage parcellaire), pas une formule générique.
@@ -730,6 +736,15 @@ if (!failed) {
       alsoMark: /estimé|estimés|estimées|estimation|[Ee]stimated|[Ee]stimate\b/,
     },
     {
+      // Cas mixte depuis le 2026-11-04 : NO2, PM2.5 et ozone MESURÉS en station
+      // de fond (≤ AIR_MEASURED_MAX_KM) pour la plupart des villes, pollens
+      // toujours estimés, et les villes sans station restent estimées.
+      name: "air",
+      uses: /computeAirQuality\b|@\/lib\/air-quality"/,
+      mark: /mesur(é|ée|és|ées)|[Mm]easured/,
+      alsoMark: /estimé|estimés|estimées|estimation|[Ee]stimated|[Ee]stimate\b/,
+    },
+    {
       name: "sécurité",
       uses: /computeSafetyDeep\b|@\/lib\/safety-deep"/,
       mark: /pas les faits enregistrés|estimation communale|[Ee]stimation structurelle|profil estimé|estimé|estimés|estimées|commune-level estimate|not recorded crime|not the offences recorded|[Ss]tructural estimate/,
@@ -785,7 +800,7 @@ if (!failed) {
 
   if (mute.length === 0) {
     console.log(
-      `  ok  moteurs   ${scanned} surfaces (santé, emploi, sécurité, services publics, vélo, commerces, démographie) disent ce que le score est`,
+      `  ok  moteurs   ${scanned} surfaces (santé, emploi, air, sécurité, services publics, vélo, commerces, démographie) disent ce que le score est`,
     );
   } else {
     failed = true;
@@ -806,7 +821,9 @@ if (!failed) {
         "    La santé aussi, depuis le 2026-11-01 : généralistes (APL DREES),\n" +
         "    urgences et pharmacies (BPE Insee) sont mesurés, les spécialistes\n" +
         "    estimés — la surface doit nommer les deux. L'emploi de même : chômage,\n" +
-        "    évolution de l'emploi et salaires mesurés (Insee), mix sectoriel estimé.\n",
+        "    évolution de l'emploi et salaires mesurés (Insee), mix sectoriel estimé.\n" +
+        "    L'air depuis le 2026-11-04 : NO2, PM2.5 et ozone mesurés en station de\n" +
+        "    fond, pollens (et villes sans station) estimés.\n",
     );
   }
 }
@@ -1555,6 +1572,35 @@ if (!failed) {
     failed = true;
     console.error(`\n  ÉCHEC  claude-md : CLAUDE.md fait ${Math.round(size / 1000)} Ko (plafond ${CLAUDE_MD_MAX / 1000} Ko)`);
     console.error("    Les journaux de run vont dans docs/claude/<sujet>.md, pas dans CLAUDE.md.\n");
+  }
+}
+
+// --- Air mesuré : projection du moteur ------------------------------------------
+//
+// `lib/air-quality.ts` note NO2, PM2.5 et ozone depuis data/city-air-light.json,
+// projection de data/city-air.json (le moteur part dans le bundle client, le
+// fichier complet fait 340 Ko). Une projection périmée publierait des notes
+// tirées d'une autre année que la carte « Mesuré en station » juste au-dessus.
+// Et le seuil de distance du moteur doit rester celui du classement mesuré :
+// sinon une ville serait notée sur une station que /qualite-de-l-air refuse.
+{
+  const { deriveAirLight, serializeAirLight } = await import("./city-air-light.mjs");
+  const full = JSON.parse(readFileSync(path.join(ROOT, "data", "city-air.json"), "utf8"));
+  const lightPath = path.join(ROOT, "data", "city-air-light.json");
+  const have = existsSync(lightPath) ? readFileSync(lightPath, "utf8") : "";
+  const fresh = serializeAirLight(deriveAirLight(full)) === have;
+  const engineSrc = readFileSync(path.join(ROOT, "lib", "air-quality.ts"), "utf8");
+  const rankSrc = readFileSync(path.join(ROOT, "lib", "air-measured-ranking.ts"), "utf8");
+  const engineKm = engineSrc.match(/export const AIR_MEASURED_MAX_KM = (\d+(?:\.\d+)?);/)?.[1];
+  const rankKm = rankSrc.match(/export const RANK_MAX_KM = (\d+(?:\.\d+)?);/)?.[1];
+  const sameKm = engineKm !== undefined && engineKm === rankKm;
+  if (fresh && sameKm) {
+    console.log(`  ok  air-light   projection à jour, seuil ${engineKm} km = classement mesuré`);
+  } else {
+    failed = true;
+    console.error("\n  ÉCHEC  air-light");
+    if (!fresh) console.error("    data/city-air-light.json ne correspond pas à data/city-air.json : npm run air-quality:light");
+    if (!sameKm) console.error(`    AIR_MEASURED_MAX_KM (${engineKm}) ≠ RANK_MAX_KM (${rankKm}) : le moteur et /qualite-de-l-air doivent lire les mêmes stations`);
   }
 }
 

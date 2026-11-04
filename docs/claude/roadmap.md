@@ -315,7 +315,15 @@ computant depuis les axes existants — l'enrichissement reste utile pour des ch
   séries retraite FR/EN réécrites, intros des profils `suivi-medical-regulier` / `professionnels-de-sante`
   recalculées. ⚠️ **Relancer `npm run healthcare` déplace ces chiffres** : refaire le scan des guides (citations
   « moteur d'accès aux soins … /10 ») et les deux intros de profils. Le tag `station-balnéaire` ne vaut plus montagne.
-- `indiceAtmo: number` — qualité air annuelle 0–10 (1 = très pollué)
+- ~~`indiceAtmo`~~ — ✅ **fait 2026-11-04, en mieux** : `lib/air-quality.ts` note NO2, PM2.5 et ozone sur la **mesure en station de fond**
+  (moyennes 2025 de `data/city-air.json`, F63) quand une station urbaine ou périurbaine est à ≤ 10 km — même règle que
+  `/qualite-de-l-air` (`AIR_MEASURED_MAX_KM` = `RANK_MAX_KM`, garde `air-light`). Barèmes calés OMS / UE 2030 ; pollens et
+  villes sans station restent estimés, chaque dimension porte `measured`. Le moteur part dans le bundle client (quiz) :
+  il lit `data/city-air-light.json` (28 Ko, `npm run air-quality:light`, régénéré par `npm run air-quality`), jamais le
+  fichier de 340 Ko. Couverture : 279 villes 3/3, 112 partielles, 202 estimées. Effets : 381 composites air bougent,
+  niveaux 386 faible / 152 modéré / 55 élevé → 201 / 318 / 73 / 1 fort ; 0 ville « PM2.5 propre » mesurée > 10 µg/m³
+  (80 au 12/10) ; env. 363 et cadre de vie 320 bougent, red flags cadre-de-vie-tendu et verdure : mêmes villes. Air passé
+  du garde `env quartet` aux cas mixtes `moteurs`. ⚠️ Relancer `npm run air-quality` déplace ces notes (aucun guide ne les cite).
 - `espacesVerts: number` — % superficie communale (proxie CORINE)
 
 **Egress : les sources ouvertes sont joignables depuis une session locale** (vérifié

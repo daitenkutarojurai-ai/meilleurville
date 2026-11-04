@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { cityAirEvaluated } from "@/lib/city-air";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { computeAirQuality, type AirLevel } from "@/lib/air-quality";
+import { computeAirQuality, AIR_MEASURED_MAX_KM, type AirLevel } from "@/lib/air-quality";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 import { fitTitle } from "@/lib/brand";
@@ -101,11 +101,15 @@ export default async function EnCityAir({ params }: Props) {
             number runs or where it comes from. hreflang alternates must not
             disagree on that. */}
         <p className="mt-2 text-xs text-[var(--text-tertiary)]">
-          10 = cleanest air. Modelled at commune level from population, urban
-          status, terrain and regional pollen basins — calibrated against ATMO
-          France, Citepa and RNSA published patterns, not measured at a station.
-          Where a background station sits within 25 km, its measured annual
-          averages are shown below.
+          10 = cleanest air.{" "}
+          {air.measuredCount === 3
+            ? `NO₂, fine particles and ozone are measured: each score comes from the annual average of an urban or suburban background station within ${AIR_MEASURED_MAX_KM} km, read against the WHO guideline and the 2030 EU limit.`
+            : air.measuredCount > 0
+              ? `Partly measured: ${air.measuredCount} of the three pollutants come from an urban or suburban background station within ${AIR_MEASURED_MAX_KM} km; the rest is estimated by a commune-level model (see each card).`
+              : `No urban or suburban background station within ${AIR_MEASURED_MAX_KM} km, so the scores are a commune-level estimate (size, département, climate), not a station reading.`}{" "}
+          Pollen is always estimated from the RNSA regional basins, without reusing
+          its readings. Measured annual averages from nearby stations (up to 25 km)
+          are listed below.
         </p>
         </div>
       </section>
@@ -132,6 +136,11 @@ export default async function EnCityAir({ params }: Props) {
               <p className="text-xs text-[var(--text-secondary)] mt-1">
                 {LEVEL_LABEL[dim.level]} — {d.note}
               </p>
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-1">
+                {dim.measured
+                  ? `Measured: ${dim.measured.unit === "jours" ? `${Math.round(dim.measured.value)} day${Math.round(dim.measured.value) === 1 ? "" : "s"} above 120 µg/m³ (8-hour mean)` : `${dim.measured.value.toFixed(1)} µg/m³ annual mean`} in ${dim.measured.year}, background station ${dim.measured.distanceKm < 1 ? dim.measured.distanceKm.toFixed(1) : Math.round(dim.measured.distanceKm)} km away`
+                  : "Estimated (commune-level model)"}
+              </p>
             </div>
           );
         })}
@@ -142,10 +151,11 @@ export default async function EnCityAir({ params }: Props) {
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <h2 className="text-xl font-bold mb-3"><span className="gradient-text">What this covers</span></h2>
         <ul className="text-[var(--text-secondary)] leading-relaxed space-y-2 mb-8">
-          <li>· <strong className="text-[var(--text-primary)]">NO₂</strong> — mostly road traffic. Big metros with a saturated ring road tend to exceed WHO guidelines.</li>
-          <li>· <strong className="text-[var(--text-primary)]">PM2.5</strong> — fine particles from heating and industry. Worst on cold, still winter days.</li>
-          <li>· <strong className="text-[var(--text-primary)]">Ozone</strong> — forms in heat and sunshine, so it peaks in southern France in summer.</li>
-          <li>· <strong className="text-[var(--text-primary)]">Pollen</strong> — the allergenic load, which varies a lot by surrounding vegetation.</li>
+          <li>· <strong className="text-[var(--text-primary)]">NO₂</strong> — mostly road traffic. Measured annual mean where a background station is within {AIR_MEASURED_MAX_KM} km: the WHO guideline (10 µg/m³) scores 6.5, the 2030 EU limit (20 µg/m³) 2.5.</li>
+          <li>· <strong className="text-[var(--text-primary)]">PM2.5</strong> — fine particles from heating and industry. Measured the same way: WHO 5 µg/m³ scores 8.5, the 2030 EU limit of 10 µg/m³ scores 4.5.</li>
+          <li>· <strong className="text-[var(--text-primary)]">Ozone</strong> — forms in heat and sunshine. Measured as days above 120 µg/m³ over 8 hours; the EU target of 25 days a year scores 2.5. One year only, so it depends on the summer.</li>
+          <li>· <strong className="text-[var(--text-primary)]">Pollen</strong> — the allergenic load, always estimated from regional basins.</li>
+          <li>· A background station measures the air you breathe at home, away from direct traffic; next to a busy road, NO₂ is much higher. Rural stations are not used to score a town.</li>
         </ul>
         <div className="mt-2 flex flex-wrap gap-3">
           <Link href={`/cities/${slug}`} className="grad-head-0 rounded-full px-5 py-2.5 font-semibold hover:opacity-90">Back to {c.name}</Link>

@@ -14,6 +14,7 @@ import {
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
 import { fitTitle } from "@/lib/brand";
+import { AIR_MEASURED_MAX_KM, AIR_MEASURED_YEAR } from "@/lib/air-quality";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -104,7 +105,7 @@ export default async function MacroRegionEnvironmentPage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `L'index agrège quatre dimensions estimées à l'échelle communale : qualité de l'air (30 %), bruit (25 %), stress hydrique (25 %) et risques naturels (20 %). Chacune est un modèle calculé depuis les caractéristiques de la commune, calé sur les cadres de référence publics (ATMO/CITEPA/RNSA, CBS/PEB/Bruitparif, Propluvia/BRGM, BCSF/BRGM/ONF) sans reprendre leurs relevés. Score 0-10, 10 = environnement le plus sain.`,
+      a: `L'index agrège quatre dimensions : qualité de l'air (30 %), bruit (25 %), stress hydrique (25 %) et risques naturels (20 %). Dans l'air, NO2, particules fines et ozone sont mesurés (moyennes ${AIR_MEASURED_YEAR}) quand une station de fond urbaine ou périurbaine est à moins de ${AIR_MEASURED_MAX_KM} km ; les pollens et les trois autres dimensions relèvent d'une estimation communale, calée sur les cadres de référence publics (RNSA, CBS/PEB/Bruitparif, Propluvia/BRGM, BCSF/BRGM/ONF) sans reprendre leurs relevés. Score 0-10, 10 = environnement le plus sain.`,
     },
   ]);
 
@@ -150,7 +151,7 @@ export default async function MacroRegionEnvironmentPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Air", v: avgAir, hint: "PM2.5 + NO2 + ozone + pollens" },
+              { k: "Air", v: avgAir, hint: "NO2 + PM2.5 + ozone (mesurés) + pollens" },
               { k: "Bruit", v: avgBruit, hint: "Routier + aérien + ferré + nocturne" },
               { k: "Eau", v: avgEau, hint: "Restrictions + nappes + climat sec" },
               { k: "Risques", v: avgRisques, hint: "Inondation + argile + feu + sismique" },

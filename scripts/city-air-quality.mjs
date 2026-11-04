@@ -36,6 +36,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 import { asyncBufferFromFile, parquetReadObjects } from "hyparquet";
+import { writeAirLight } from "./city-air-light.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CACHE = path.join(ROOT, ".cache", "city-air-quality");
@@ -292,3 +293,6 @@ const out = {
 fs.writeFileSync(OUT, JSON.stringify(out, null, 1) + "\n");
 console.log(`wrote ${Object.keys(cities).length}/${seed.length} cities → ${path.relative(ROOT, OUT)}`);
 for (const k of Object.keys(POLLUTANTS)) console.log(`  ${k}: ${Object.values(cities).filter((r) => r[k]).length}`);
+// The air engine scores from this projection (it reaches the browser).
+writeAirLight();
+console.log("rewrote data/city-air-light.json");

@@ -1,9 +1,23 @@
 // F42 — Qualité de l'air par ville
 //
-// 4 dimensions évaluées depuis le seed (department, population, climat,
-// characterTags). Aucune dépendance externe.
+// 4 dimensions. Depuis le 2026-11-04, trois sont MESURÉES quand la commune a
+// une station de fond urbaine ou périurbaine à moins de AIR_MEASURED_MAX_KM
+// (data/city-air-light.json, projection de data/city-air.json — F63) :
+//   - NO2 : moyenne annuelle en µg/m³ ;
+//   - PM2.5 : moyenne annuelle en µg/m³ ;
+//   - ozone : jours où la moyenne glissante sur 8 h a dépassé 120 µg/m³.
+// Mêmes stations et même règle que le classement mesuré
+// (lib/air-measured-ranking.ts, RANK_MAX_KM) : une station rurale mesure la
+// campagne, pas la ville. Les barèmes (`*_SCALE`) sont calés sur le seuil OMS
+// 2021 et les limites européennes 2030. Les pollens restent ESTIMÉS (bassins
+// RNSA), et sans station éligible une dimension retombe sur son palier estimé
+// (`*Model`) — ce qui dit la page, dimension par dimension (`measured`).
 //
-// Sources de référence (toutes publiques) :
+// ⚠️ Ce module est tiré dans le bundle client (PersonalSynthesisQuiz,
+// PersonalQolQuiz via lib/city-synthesis et lib/quality-of-life-index) : il lit
+// la projection de 28 Ko, jamais data/city-air.json (340 Ko, noms de stations).
+//
+// Cadres de référence des paliers estimés (toutes publiques) :
 //   - ATMO France (atmo-france.org) : indice de qualité de l'air national,
 //     échelle 1-6 (bon → extrêmement mauvais), agrégeant NO2 / PM2.5 / O3 / SO2.
 //   - Citepa (citepa.org) : inventaire national d'émissions, secteur résidentiel
@@ -16,11 +30,23 @@
 // c'est-à-dire une QUALITÉ : elles affichent donc `10 - score` et annoncent
 // « 10 = air le plus pur ». L'inversion se fait au site d'affichage seulement —
 // tris, niveaux et classements gardent la valeur brute.
-// Composite = moyenne pondérée des 4 sous-scores.
+// Composite = moyenne pondérée des 4 sous-scores. Les mesures sont des
+// valeurs brutes (µg/m³, jours) affichées telles quelles ; seul le sous-score
+// qui en dérive suit la convention ci-dessus.
 
 import type { CityLight } from "@/lib/cities-light";
+import airLight from "@/data/city-air-light.json";
 
 export type AirLevel = "faible" | "modere" | "eleve" | "fort";
+
+export interface AirMeasuredValue {
+  /** Moyenne annuelle (µg/m³) ou, pour l'ozone, nombre de jours. */
+  value: number;
+  unit: "µg/m³" | "jours";
+  /** Distance à la station de fond, km. */
+  distanceKm: number;
+  year: number;
+}
 
 export interface AirDimension {
   /** 0-10, 10 = pollution maximale */
@@ -28,6 +54,8 @@ export interface AirDimension {
   level: AirLevel;
   /** Justification courte */
   reason: string;
+  /** Relevé en station dont le score dérive ; null = palier estimé. */
+  measured: AirMeasuredValue | null;
 }
 
 export interface AirQuality {
@@ -40,7 +68,12 @@ export interface AirQuality {
   pollen: AirDimension;    // allergo-pollinique
   /** Signature narrative pour résumé une-ligne */
   signature: string;
+  /** Dimensions tirées d'une mesure en station (0 à 3 ; les pollens jamais). */
+  measuredCount: number;
 }
+
+/** Palier estimé, avant qu'on lui adjoigne `measured: null`. */
+type ModelDim = Omit<AirDimension, "measured">;
 
 function levelFromScore(s: number): AirLevel {
   if (s >= 7.5) return "fort";
@@ -67,7 +100,7 @@ const HIGHWAY_AXIS_DEPTS = new Set([
   "Seine-Saint-Denis", "Hauts-de-Seine", "Val-de-Marne", "Val-d'Oise",
 ]);
 
-function no2Risk(city: CityLight): AirDimension {
+function no2Model(city: CityLight): ModelDim {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole|métropolitaine/.test(tags);
@@ -127,7 +160,7 @@ const VALLEY_INVERSION_DEPTS = new Set([
   "Drôme", "Ardèche", "Vaucluse",
 ]);
 
-function pm25Risk(city: CityLight): AirDimension {
+function pm25Model(city: CityLight): ModelDim {
   const pop = city.population ?? 0;
   const tj = city.avgTempJanuary ?? 5;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -189,7 +222,7 @@ function pm25Risk(city: CityLight): AirDimension {
 // la vallée du Rhône, et la plaine bordelaise. Très peu présent en hiver ou
 // sous climat océanique humide.
 
-function ozoneRisk(city: CityLight): AirDimension {
+function ozoneModel(city: CityLight): ModelDim {
   const tj = city.avgTempJuly ?? 21;
   const sun = city.sunshinedays ?? 1900;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -267,7 +300,7 @@ const GRASSES_OPEN_DEPTS = new Set([
   "Calvados", "Manche", "Orne", "Seine-Maritime", "Eure",
 ]);
 
-function pollenRisk(city: CityLight): AirDimension {
+function pollenRisk(city: CityLight): ModelDim {
   const d = city.department;
   const isCypress = CYPRESS_BASIN_DEPTS.has(d);
   const isAmbrosia = AMBROSIA_DEPTS.has(d);
@@ -308,11 +341,113 @@ function pollenRisk(city: CityLight): AirDimension {
   };
 }
 
+// ─── Mesures en station (F63) ────────────────────────────────────────────
+//
+// Barèmes linéaires par morceaux, valeur mesurée → sous-score 0-10 (10 = pire),
+// calés sur les repères réglementaires et lus sur les niveaux ci-dessus
+// (faible < 3,5 ≤ modéré < 5,5 ≤ élevé < 7,5 ≤ fort) :
+//   NO2   : OMS 10 µg/m³ → 3,5 (début « modéré ») ; limite UE 2030 20 → 7,5 (« fort »).
+//   PM2.5 : OMS 5 → 1,5 ; limite UE 2030 10 → 5,5 (« élevé ») ; 15 → 9.
+//           Presque toute la France dépasse l'OMS : le barème départage au-dessus.
+//   Ozone : 10 jours → 3,5 ; valeur cible UE 25 jours → 7,5 (« fort »).
+// Corpus 2025 (stations éligibles) : NO2 1,6-23,4 µg/m³, PM2.5 4,0-13,1, ozone
+// 0-46 jours. Une seule année : l'ozone dépend de l'été (la valeur cible UE est
+// une moyenne sur trois ans), ce que dit la justification.
+
+/** Même seuil que RANK_MAX_KM (lib/air-measured-ranking.ts) — garde integrity. */
+export const AIR_MEASURED_MAX_KM = 10;
+export const AIR_MEASURED_YEAR: number = airLight.year;
+
+type LightRow = Partial<Record<"no2" | "pm25" | "o3", [number, number]>>;
+const LIGHT = airLight.cities as unknown as Record<string, LightRow>;
+
+const NO2_SCALE: Array<[number, number]> = [[0, 0], [5, 1.5], [10, 3.5], [20, 7.5], [30, 10]];
+const PM25_SCALE: Array<[number, number]> = [[0, 0], [5, 1.5], [10, 5.5], [15, 9], [20, 10]];
+const O3_SCALE: Array<[number, number]> = [[0, 0.5], [10, 3.5], [25, 7.5], [40, 10]];
+
+function onScale(x: number, pts: Array<[number, number]>): number {
+  let y = pts[pts.length - 1][1];
+  if (x <= pts[0][0]) y = pts[0][1];
+  else {
+    for (let i = 1; i < pts.length; i++) {
+      if (x <= pts[i][0]) {
+        const [x0, y0] = pts[i - 1];
+        const [x1, y1] = pts[i];
+        y = y0 + ((y1 - y0) * (x - x0)) / (x1 - x0);
+        break;
+      }
+    }
+  }
+  return Math.round(y * 10) / 10;
+}
+
+const fr1 = (n: number) => n.toFixed(1).replace(".", ",");
+const km = (d: number) => (d < 1 ? `${fr1(d)} km` : `${Math.round(d)} km`);
+
+function measure(slug: string, p: "no2" | "pm25" | "o3"): AirMeasuredValue | null {
+  const m = LIGHT[slug]?.[p];
+  if (!m || m[1] > AIR_MEASURED_MAX_KM) return null;
+  return { value: m[0], unit: p === "o3" ? "jours" : "µg/m³", distanceKm: m[1], year: AIR_MEASURED_YEAR };
+}
+
+function station(m: AirMeasuredValue): string {
+  return `station de fond la plus proche, à ${km(m.distanceKm)}`;
+}
+
+function no2Measured(m: AirMeasuredValue): AirDimension {
+  const score = onScale(m.value, NO2_SCALE);
+  const vs =
+    m.value <= 10 ? "sous le seuil OMS de 10 µg/m³"
+    : m.value <= 20 ? "au-dessus du seuil OMS (10 µg/m³), sous la limite européenne 2030 (20 µg/m³)"
+    : "au-dessus de la limite européenne 2030 (20 µg/m³)";
+  return {
+    score,
+    level: levelFromScore(score),
+    reason: `Mesuré : ${fr1(m.value)} µg/m³ en moyenne ${m.year} (${station(m)}), ${vs}. Le long des grands axes, la valeur est plus forte.`,
+    measured: m,
+  };
+}
+
+function pm25Measured(m: AirMeasuredValue): AirDimension {
+  const score = onScale(m.value, PM25_SCALE);
+  const vs =
+    m.value <= 5 ? "au niveau du seuil OMS de 5 µg/m³"
+    : m.value <= 10 ? "au-dessus du seuil OMS (5 µg/m³), sous la limite européenne 2030 (10 µg/m³)"
+    : "au-dessus de la limite européenne 2030 (10 µg/m³)";
+  return {
+    score,
+    level: levelFromScore(score),
+    reason: `Mesuré : ${fr1(m.value)} µg/m³ en moyenne ${m.year} (${station(m)}), ${vs}.`,
+    measured: m,
+  };
+}
+
+function ozoneMeasured(m: AirMeasuredValue): AirDimension {
+  const score = onScale(m.value, O3_SCALE);
+  const n = Math.round(m.value);
+  const days = n === 0 ? "aucun jour" : n === 1 ? "1 jour" : `${n} jours`;
+  return {
+    score,
+    level: levelFromScore(score),
+    reason: `Mesuré : ${days} en ${m.year} au-dessus de 120 µg/m³ sur 8 heures (${station(m)}). La valeur cible européenne en tolère 25 par an, en moyenne sur trois ans : une seule année dépend beaucoup de l'été.`,
+    measured: m,
+  };
+}
+
+const estimated = (d: ModelDim): AirDimension => ({ ...d, measured: null });
+
 // ─── Composite ────────────────────────────────────────────────────────────
+
+const SIGNATURE_LEVEL: Record<AirLevel, string> = {
+  faible: "faible",
+  modere: "modéré",
+  eleve: "élevé",
+  fort: "fort",
+};
 
 function composeSignature(a: AirQuality, name: string): string {
   const tops = [
-    { k: "NO2 trafic", d: a.no2 },
+    { k: "NO2", d: a.no2 },
     { k: "particules fines", d: a.pm25 },
     { k: "ozone estival", d: a.ozone },
     { k: "pollens", d: a.pollen },
@@ -321,19 +456,22 @@ function composeSignature(a: AirQuality, name: string): string {
     .sort((a, b) => b.d.score - a.d.score);
 
   if (tops.length === 0) {
-    return `${name} bénéficie d'un air globalement propre — peu d'expositions majeures sur les 4 dimensions ATMO.`;
+    return `${name} bénéficie d'un air globalement propre — pas d'exposition élevée sur les quatre dimensions suivies.`;
   }
   if (tops.length === 1) {
-    return `${name} est principalement exposée au facteur « ${tops[0].k} » (${tops[0].d.level}).`;
+    return `${name} est principalement exposée au facteur « ${tops[0].k} » (niveau ${SIGNATURE_LEVEL[tops[0].d.level]}).`;
   }
-  return `${name} cumule plusieurs pressions sur la qualité de l'air : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level})`).join(", ")}.`;
+  return `${name} cumule plusieurs pressions sur la qualité de l'air : ${tops.slice(0, 2).map((t) => `${t.k} (${SIGNATURE_LEVEL[t.d.level]})`).join(", ")}.`;
 }
 
 export function computeAirQuality(city: CityLight): AirQuality {
-  const no2 = no2Risk(city);
-  const pm25 = pm25Risk(city);
-  const ozone = ozoneRisk(city);
-  const pollen = pollenRisk(city);
+  const mNo2 = measure(city.slug, "no2");
+  const mPm25 = measure(city.slug, "pm25");
+  const mO3 = measure(city.slug, "o3");
+  const no2 = mNo2 ? no2Measured(mNo2) : estimated(no2Model(city));
+  const pm25 = mPm25 ? pm25Measured(mPm25) : estimated(pm25Model(city));
+  const ozone = mO3 ? ozoneMeasured(mO3) : estimated(ozoneModel(city));
+  const pollen = estimated(pollenRisk(city));
   // Pondération : PM2.5 30 % (impact sanitaire le plus documenté), NO2 25 %,
   // ozone 25 %, pollens 20 %. PM2.5 et NO2 sont les deux indicateurs OMS de
   // référence en mortalité prématurée.
@@ -349,6 +487,7 @@ export function computeAirQuality(city: CityLight): AirQuality {
     ozone,
     pollen,
     signature: "",
+    measuredCount: [no2, pm25, ozone].filter((d) => d.measured).length,
   };
   out.signature = composeSignature(out, city.name);
   return out;

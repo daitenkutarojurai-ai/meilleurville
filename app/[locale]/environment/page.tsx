@@ -9,6 +9,7 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
+import { AIR_MEASURED_MAX_KM, AIR_MEASURED_YEAR } from "@/lib/air-quality";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -67,7 +68,7 @@ export default function EnEnvironmentPage() {
     },
     {
       q: "How is the environmental index calculated?",
-      a: "The index aggregates four dimensions estimated at commune level: air quality (30% weight), noise (25%), water stress (25%), natural risks (20%). Each one is a model computed from the commune's own characteristics (size, département, terrain, climate, coastline) and keyed to the public reference frameworks — ATMO, CITEPA and RNSA for air, CBS, PEB and Bruitparif for noise, Propluvia and BRGM for water, BCSF, BRGM and ONF for risks — without reusing their readings. The 'environmental health' score 0-10 is the inverse of the composite stress.",
+      a: `The index aggregates four dimensions: air quality (30% weight), noise (25%), water stress (25%), natural risks (20%). Within air, nitrogen dioxide, fine particles and ozone are measured (${AIR_MEASURED_YEAR} annual averages from the monitoring networks) wherever an urban or suburban background station sits within ${AIR_MEASURED_MAX_KM} km; pollen, and those three pollutants elsewhere, are estimated. Noise, water stress and natural risks are models estimated at commune level from the commune's own characteristics (size, département, terrain, climate, coastline), keyed to the public reference frameworks — CBS, PEB and Bruitparif for noise, Propluvia and BRGM for water, BCSF, BRGM and ONF for risks — without reusing their readings. The 'environmental health' score 0-10 is the inverse of the composite stress.`,
     },
     {
       q: "Why is there a 15,000-resident minimum?",
@@ -95,10 +96,12 @@ export default function EnEnvironmentPage() {
           </h1>
         </div>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Composite index covering four <strong>estimated</strong> environmental dimensions:
-          air quality, noise, water stress and natural risks. Each is a commune-level model
-          keyed to the public reference frameworks (ATMO, CBS / Bruitparif, Propluvia / BRGM,
-          BCSF / BRGM / ONF) — this ranking compares estimates, not station readings.
+          Composite index covering four environmental dimensions: air quality, noise, water
+          stress and natural risks. Air is <strong>measured</strong> at a station (NO₂, fine
+          particles, ozone) where a background station sits within {AIR_MEASURED_MAX_KM} km;
+          pollen, noise, water and risks are <strong>estimated</strong> by a commune-level model keyed
+          to the public reference frameworks (CBS / Bruitparif, Propluvia / BRGM, BCSF / BRGM /
+          ONF) — estimates, not station readings.
           Score 0-10, 10 = healthiest environment. Filtered to cities
           ≥ 15,000 residents for meaningful urban indicators.
         </p>

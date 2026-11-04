@@ -14,6 +14,7 @@ import {
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
 import { fitTitle } from "@/lib/brand";
+import { AIR_MEASURED_MAX_KM, AIR_MEASURED_YEAR } from "@/lib/air-quality";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -111,7 +112,7 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
     },
     {
       q: `How is this ranking calculated?`,
-      a: `Composite index aggregating four dimensions estimated at commune level: air quality (30%), noise (25%), water stress (25%) and natural risks (20%). Each is a model computed from the commune's own characteristics and keyed to the public reference frameworks (ATMO/CITEPA/RNSA, CBS/PEB/Bruitparif, Propluvia/BRGM, BCSF/BRGM/ONF) without reusing their readings. Score 0–10, 10 = healthiest environment.`,
+      a: `Composite index aggregating four dimensions: air quality (30%), noise (25%), water stress (25%) and natural risks (20%). Within air, NO₂, fine particles and ozone are measured (${AIR_MEASURED_YEAR} annual averages) where an urban or suburban background station sits within ${AIR_MEASURED_MAX_KM} km; pollen and the rest are estimated at commune level, keyed to the public reference frameworks (RNSA, CBS/PEB/Bruitparif, Propluvia/BRGM, BCSF/BRGM/ONF) without reusing their readings. Score 0–10, 10 = healthiest environment.`,
     },
   ]);
 
@@ -158,7 +159,7 @@ export default async function MacroRegionEnvironmentEnPage({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Air", v: avgAir, hint: "PM2.5 + NO2 + ozone + pollen" },
+              { k: "Air", v: avgAir, hint: "NO₂ + PM2.5 + ozone (measured) + pollen" },
               { k: "Noise", v: avgNoise, hint: "Road + air + rail + night" },
               { k: "Water", v: avgWater, hint: "Restrictions + aquifer + dry climate" },
               { k: "Risks", v: avgRisks, hint: "Flood + clay + fire + seismic" },

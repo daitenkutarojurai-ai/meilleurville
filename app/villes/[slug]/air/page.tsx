@@ -13,7 +13,9 @@ import {
   AIR_LEVEL_LABEL,
   AIR_LEVEL_COLOR,
   AIR_LEVEL_BG,
+  AIR_MEASURED_MAX_KM,
   type AirDimension,
+  type AirQuality,
 } from "@/lib/air-quality";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
@@ -64,11 +66,37 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// Ce que la page peut dire de la provenance, ville par ville : les trois
+// polluants mesurés, aucun, ou un mélange (pollens toujours estimés).
+function provenance(a: AirQuality): { badge: string; caption: string } {
+  if (a.measuredCount === 3) {
+    return {
+      badge: "NO2, PM2.5, ozone mesurés",
+      caption: "10 = air le plus pur · NO2, particules fines et ozone mesurés en station de fond, pollens estimés",
+    };
+  }
+  if (a.measuredCount > 0) {
+    return {
+      badge: "Mesure + estimation",
+      caption: "10 = air le plus pur · en partie mesuré en station de fond, le reste estimé (modèle communal) — détail par polluant ci-dessous",
+    };
+  }
+  return {
+    badge: "Estimation structurelle",
+    caption: "10 = air le plus pur · modèle communal, calé sur les repères ATMO / CITEPA / RNSA — pas une mesure en station",
+  };
+}
+
 function AirBlock({ dim, label }: { dim: AirDimension; label: string }) {
   return (
     <div className={`rounded-2xl border p-4 ${AIR_LEVEL_BG[dim.level]}`}>
       <div className="flex items-baseline justify-between mb-2">
-        <div className="text-sm font-semibold text-[var(--text-primary)]">{label}</div>
+        <div className="text-sm font-semibold text-[var(--text-primary)]">
+          {label}
+          <span className="ml-2 rounded-full bg-white/80 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-[var(--text-tertiary)]">
+            {dim.measured ? "mesuré" : "estimé"}
+          </span>
+        </div>
         <div className={`text-xs font-bold uppercase tracking-wide ${AIR_LEVEL_COLOR[dim.level]}`}>
           {AIR_LEVEL_LABEL[dim.level]}
         </div>
@@ -89,6 +117,7 @@ export default async function AirPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
   const a = computeAirQuality(city);
+  const prov = provenance(a);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -138,13 +167,26 @@ export default async function AirPage({ params }: Props) {
           </h1>
         </div>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Profil <strong>structurel</strong> des quatre polluants suivis par l&apos;indice ATMO :
-          ce que la géographie, le trafic, le chauffage et le climat de {city.name} impliquent
-          en exposition moyenne. Le score et les quatre profils plus bas sont <strong>estimés</strong>,
-          pas mesurés : ils suivent le découpage de l&apos;indice ATMO, l&apos;inventaire
-          d&apos;émissions du CITEPA et le bulletin pollinique du RNSA, sans reprendre leurs
-          relevés. Quand une station de fond existe à moins de 25 km, ses moyennes
-          annuelles mesurées sont affichées juste en dessous. Pour la mesure horaire, consultez{" "}
+          Exposition moyenne de {city.name} à quatre familles de pollution : dioxyde d&apos;azote,
+          particules fines, ozone et pollens.{" "}
+          {a.measuredCount > 0 ? (
+            <>
+              {a.measuredCount === 3 ? "Les trois polluants sont" : a.measuredCount === 2 ? "Deux des trois polluants sont" : "Un des trois polluants est"}{" "}
+              <strong>{a.measuredCount === 1 ? "mesuré" : "mesurés"}</strong> :{" "}
+              {a.measuredCount === 1 ? "sa note dérive" : "leur note dérive"} de la moyenne annuelle d&apos;une station de fond
+              urbaine ou périurbaine à moins de {AIR_MEASURED_MAX_KM} km, lue contre le seuil OMS et la
+              limite européenne 2030.{" "}
+            </>
+          ) : (
+            <>
+              Aucune station de fond urbaine ou périurbaine n&apos;est à moins de {AIR_MEASURED_MAX_KM} km :
+              les notes sont <strong>estimées</strong> par un modèle communal (taille, département, climat),
+              pas mesurées.{" "}
+            </>
+          )}
+          Les pollens restent <strong>estimés</strong> par bassin, d&apos;après les repères du RNSA,
+          sans reprendre ses relevés. Les moyennes mesurées des stations proches (jusqu&apos;à 25 km)
+          sont détaillées juste en dessous. Pour la mesure horaire, consultez{" "}
           <a
             href="https://www.atmo-france.org/article/lindice-atmo"
             target="_blank"
@@ -156,7 +198,7 @@ export default async function AirPage({ params }: Props) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Estimation structurelle</Badge>
+          <Badge>{prov.badge}</Badge>
           <Badge>Cadres de référence : ATMO · CITEPA · RNSA</Badge>
         </div>
         </div>
@@ -192,7 +234,7 @@ export default async function AirPage({ params }: Props) {
               « chiffre publié par ces organismes ». Il ne l'est pas : la
               méthodologie plus bas dit bien « proxy à partir de la population ».
               La légende dit maintenant la même chose que la méthodologie. */}
-          <p className="text-[11px] text-[var(--text-tertiary)] mb-2">10 = air le plus pur · modèle communal, calé sur les repères ATMO / CITEPA / RNSA — pas une mesure en station</p>
+          <p className="text-[11px] text-[var(--text-tertiary)] mb-2">{prov.caption}</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{a.signature}</p>
         </div>
 
@@ -214,34 +256,39 @@ export default async function AirPage({ params }: Props) {
         <div className="mt-3 rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
-              <strong className="text-[var(--text-primary)]">NO2 (trafic) :</strong> proxy
-              à partir de la population, du statut métropolitain et de la présence d&apos;un
-              couloir autoroutier majeur dans le département. Le seuil annuel OMS est de
-              10 µg/m³ depuis 2021.
+              <strong className="text-[var(--text-primary)]">NO2 (trafic) :</strong> moyenne
+              annuelle mesurée à la station de fond quand elle est à moins de {AIR_MEASURED_MAX_KM} km
+              (seuil OMS de 10 µg/m³ → 6,5/10, limite européenne 2030 de 20 µg/m³ → 2,5/10). Sans
+              station, estimation à partir de la population, du statut métropolitain et d&apos;un
+              couloir autoroutier majeur dans le département.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">PM2.5 (particules fines) :</strong>{" "}
-              cumule industrie lourde, chauffage bois domestique (1ʳᵉ source nationale
-              selon CITEPA), et inversion thermique dans les vallées encaissées (Arve,
-              vallée du Rhône, sillon alpin). Seuil annuel OMS : 5 µg/m³.
+              moyenne annuelle mesurée de la même façon (seuil OMS de 5 µg/m³ → 8,5/10, limite
+              européenne 2030 de 10 µg/m³ → 4,5/10). Sans station, estimation qui cumule industrie
+              lourde, chauffage bois domestique (1ʳᵉ source nationale selon le CITEPA) et inversion
+              thermique dans les vallées encaissées.
             </li>
             <li>
-              <strong className="text-[var(--text-primary)]">Ozone (O3) :</strong> formation
-              photochimique COV + NOx sous chaleur et soleil — pics estivaux récurrents sur
-              l&apos;arc méditerranéen et le couloir rhodanien.
+              <strong className="text-[var(--text-primary)]">Ozone (O3) :</strong> nombre de
+              jours de l&apos;année où la moyenne sur 8 heures a dépassé 120 µg/m³ (valeur cible
+              européenne : 25 jours au plus → 2,5/10). Une seule année : l&apos;ozone dépend de
+              l&apos;été. Sans station, estimation par la chaleur, l&apos;ensoleillement et la
+              géographie (arc méditerranéen, couloir rhodanien).
             </li>
             <li>
-              <strong className="text-[var(--text-primary)]">Pollens :</strong> bassins
+              <strong className="text-[var(--text-primary)]">Pollens (toujours estimés) :</strong> bassins
               allergisants identifiés par le RNSA — cyprès (Méditerranée), ambroisie
               (vallée du Rhône, en expansion), graminées (plaines agricoles ouvertes),
               bouleau (moitié nord).
             </li>
           </ul>
           <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Les scores sont une synthèse à l&apos;échelle communale. Au sein d&apos;une même
-            ville, l&apos;exposition varie fortement entre un appartement sur boulevard
-            péri-urbain et une maison en lisière forestière. Pour la mesure à l&apos;adresse,
-            consultez la station ATMO régionale la plus proche.
+            Une station de fond mesure l&apos;air qu&apos;on respire chez soi, loin du trafic
+            direct : le long d&apos;un boulevard, le NO2 est nettement plus fort. Une station
+            rurale n&apos;est pas retenue pour noter une ville, elle mesure la campagne. Pour la
+            mesure à l&apos;adresse, consultez l&apos;association agréée de surveillance de la
+            qualité de l&apos;air de votre région.
           </p>
         </div>
         </div>

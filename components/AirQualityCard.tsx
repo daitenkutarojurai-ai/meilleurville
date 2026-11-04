@@ -65,10 +65,20 @@ export function AirQualityCard({ city, locale = "fr" }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          {L(
-            "10 = air le plus pur · estimation communale calée sur les repères ATMO / CITEPA / RNSA, pas une mesure en station — relevés horaires sur atmo-france.org.",
-            "10 = cleanest air · commune-level estimate keyed to the ATMO / CITEPA / RNSA frameworks, not a station reading — hourly data on atmo-france.org.",
-          )}
+          {a.measuredCount === 3
+            ? L(
+                "10 = air le plus pur · NO2, PM2.5 et ozone mesurés en station de fond, pollens estimés.",
+                "10 = cleanest air · NO₂, PM2.5 and ozone measured at a background station, pollen estimated.",
+              )
+            : a.measuredCount > 0
+              ? L(
+                  "10 = air le plus pur · en partie mesuré en station de fond, le reste estimé (modèle communal).",
+                  "10 = cleanest air · partly measured at a background station, the rest estimated (commune-level model).",
+                )
+              : L(
+                  "10 = air le plus pur · estimation communale calée sur les repères ATMO / CITEPA / RNSA, pas une mesure en station — relevés horaires sur atmo-france.org.",
+                  "10 = cleanest air · commune-level estimate keyed to the ATMO / CITEPA / RNSA frameworks, not a station reading — hourly data on atmo-france.org.",
+                )}
         </p>
       </Link>
     </Card>

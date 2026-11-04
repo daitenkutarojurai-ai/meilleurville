@@ -9,6 +9,7 @@ import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
+import { AIR_MEASURED_MAX_KM, AIR_MEASURED_YEAR } from "@/lib/air-quality";
 
 export const revalidate = false;
 
@@ -55,7 +56,7 @@ export default function EnvironmentHubPage() {
     },
     {
       q: "Comment l'index environnemental est-il calculé ?",
-      a: "L'index agrège quatre dimensions estimées à l'échelle communale : qualité de l'air (30 %), bruit (25 %), stress hydrique (25 %), risques naturels (20 %). Chacune est un modèle calculé depuis les caractéristiques de la commune (taille, département, relief, climat, littoral), calé sur les cadres de référence publics — ATMO, CITEPA et RNSA pour l'air, CBS, PEB et Bruitparif pour le bruit, Propluvia et BRGM pour l'eau, BCSF, BRGM et ONF pour les risques — sans reprendre leurs relevés. Le score « santé environnementale » 0-10 est l'inverse du composite de stress.",
+      a: `L'index agrège quatre dimensions : qualité de l'air (30 %), bruit (25 %), stress hydrique (25 %), risques naturels (20 %). Dans l'air, le dioxyde d'azote, les particules fines et l'ozone sont mesurés (moyennes ${AIR_MEASURED_YEAR} des réseaux de surveillance) quand une station de fond urbaine ou périurbaine est à moins de ${AIR_MEASURED_MAX_KM} km ; les pollens, et ces trois polluants ailleurs, sont estimés. Bruit, stress hydrique et risques naturels sont des modèles estimés à l'échelle communale depuis les caractéristiques de la commune (taille, département, relief, climat, littoral), calés sur les cadres de référence publics — CBS, PEB et Bruitparif pour le bruit, Propluvia et BRGM pour l'eau, BCSF, BRGM et ONF pour les risques — sans reprendre leurs relevés. Le score « santé environnementale » 0-10 est l'inverse du composite de stress.`,
     },
     {
       q: "Le seuil minimal de 15 000 habitants concerne-t-il toutes les villes ?",
@@ -83,11 +84,13 @@ export default function EnvironmentHubPage() {
           </h1>
         </div>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Index composite agrégeant quatre dimensions environnementales <strong>estimées</strong> :
-          qualité de l&apos;air, bruit, stress hydrique et risques naturels. Chacune est un modèle
-          communal calé sur les cadres de référence publics (ATMO, CBS / Bruitparif, Propluvia /
-          BRGM, BCSF / BRGM / ONF) — ce classement compare des estimations, pas des relevés de
-          station. Score 0-10, 10 = environnement le plus sain.
+          Index composite agrégeant quatre dimensions environnementales : qualité de l&apos;air,
+          bruit, stress hydrique et risques naturels. L&apos;air est <strong>mesuré</strong> en
+          station (NO2, particules fines, ozone) quand une station de fond est à moins
+          de {AIR_MEASURED_MAX_KM} km ; pollens, bruit, eau et risques sont <strong>estimés</strong> par
+          un modèle communal calé sur les cadres de référence publics (CBS / Bruitparif, Propluvia /
+          BRGM, BCSF / BRGM / ONF) — des estimations, pas des relevés.
+          Score 0-10, 10 = environnement le plus sain.
           Filtre : 15 000 habitants minimum pour pertinence des indicateurs urbains.
         </p>
 

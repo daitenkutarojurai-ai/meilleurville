@@ -414,7 +414,9 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     sur les 540 et une seule composante porte encore une note : les zones protégées.** Les effectifs
     bruts des deux autres restent publiés, ils sont exacts — c'est le classement qui est retiré.
 
-- [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
+- [x] **F63 — Qualité de l'air : du modèle à la mesure** — ✅ volet moteur soldé le 2026-11-04 : NO2/PM2.5/ozone notés sur la
+  mesure (station de fond urbaine/périurbaine ≤ 10 km), pollens estimés ; détail `docs/claude/roadmap.md` § Enrichissement seed
+  (`indiceAtmo`). Tranche l'arbitrage PM2.5 de `docs/integrite-2026-10-12.md`. Reste : pollens (licence RNSA). La section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule
   tout par heuristique** depuis le seed (population, département, `characterTags`),
   alors que la légende affichait « ATMO · CITEPA · RNSA ». Remplacer par du mesuré :
