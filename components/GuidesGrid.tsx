@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "@/components/AppLink";
 import { Search, X } from "lucide-react";
 import { GuideCard, type GuideCardData } from "@/components/GuideCard";
@@ -7,9 +7,15 @@ import { EmojiBadge } from "@/components/EmojiBadge";
 import { cn } from "@/lib/utils";
 // NOT from data/guides — a value import there would bundle the whole corpus.
 import { GUIDE_CATEGORIES } from "@/lib/guide-categories";
+import { GUIDES_INITIAL_VISIBLE } from "@/lib/guide-card-projection";
 
 interface Props {
-  guides: GuideCardData[];
+  /** Cartes du premier rendu (à la une + GUIDES_INITIAL_VISIBLE). La liste
+   *  complète est chargée depuis CARDS_URL au premier filtre, recherche ou
+   *  « afficher tout » : en props, elle pesait 1,5 Mo de la page. */
+  initial: GuideCardData[];
+  total: number;
+  categoryCounts: Record<string, number>;
   /** Build-time timestamp from the server page — keeps GuideCard freshness
    *  hydration-stable. */
   now: number;
@@ -32,15 +38,34 @@ const initialCategory = () => {
 
 // The card is a two-line-clamped excerpt + metadata, so rendering all 654 of
 // them put 1.8 MB of DOM in the page. Same treatment as VillesSearch: render a
-// first batch, reveal the rest on demand (the data is already in the page).
+// first batch, reveal the rest on demand (fetched from CARDS_URL, see Props).
 // Every guide stays crawlable — app/guides/page.tsx emits the full link list.
-const INITIAL_VISIBLE = 60;
+const INITIAL_VISIBLE = GUIDES_INITIAL_VISIBLE;
+const CARDS_URL = "/guides/cards.json";
 
-export function GuidesGrid({ guides, now }: Props) {
+export function GuidesGrid({ initial, total, categoryCounts, now }: Props) {
   const [activeCategory, setActiveCategory] = useState<string>(initialCategory);
   const [query, setQuery] = useState("");
   const [showAll, setShowAll] = useState(false);
+  const [all, setAll] = useState<GuideCardData[] | null>(null);
+  const [loadFailed, setLoadFailed] = useState(false);
   const q = normalize(query.trim());
+  const needAll = showAll || activeCategory !== "all" || q !== "";
+
+  // Chargé une fois, au premier besoin. En cas d'échec on garde les cartes
+  // du premier rendu, et l'index complet des liens reste plus bas dans la page.
+  useEffect(() => {
+    if (!needAll || all || loadFailed) return;
+    let cancelled = false;
+    fetch(CARDS_URL)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((list: GuideCardData[]) => { if (!cancelled) setAll(list); })
+      .catch(() => { if (!cancelled) setLoadFailed(true); });
+    return () => { cancelled = true; };
+  }, [needAll, all, loadFailed]);
+
+  const guides = all ?? initial;
+  const loading = needAll && !all && !loadFailed;
 
   // Search index built once per guides[] reference (effectively once at module
   // load, given the list comes from a static import).
@@ -85,7 +110,7 @@ export function GuidesGrid({ guides, now }: Props) {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder={`Rechercher dans ${guides.length} guides — ville, thème, mot-clé...`}
+          placeholder={`Rechercher dans ${total} guides — ville, thème, mot-clé...`}
           aria-label="Rechercher dans les guides"
           className="w-full rounded-xl border border-white bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] pl-10 pr-10 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:outline-none focus:border-[var(--accent)] focus:ring-2 focus:ring-[var(--accent)]/20 transition-colors"
         />
@@ -111,10 +136,10 @@ export function GuidesGrid({ guides, now }: Props) {
               : "border-white bg-white text-[var(--text-secondary)] hover:border-[#C7D2FE] hover:text-[var(--accent)]"
           )}
         >
-          Tous les guides ({guides.length})
+          Tous les guides ({total})
         </button>
         {GUIDE_CATEGORIES.map((cat) => {
-          const count = guides.filter((g) => g.category === cat.id).length;
+          const count = categoryCounts[cat.id] ?? 0;
           return (
             <button
               key={cat.id}
@@ -176,13 +201,26 @@ export function GuidesGrid({ guides, now }: Props) {
           {q
             ? `${intersect.length} résultat${intersect.length > 1 ? "s" : ""} pour « ${query} »`
             : activeCategory === "all"
-            ? `Tous les guides (${guides.length})`
+            ? `Tous les guides (${total})`
             : `${GUIDE_CATEGORIES.find(c => c.id === activeCategory)?.label} — ${filtered.length} guide${filtered.length > 1 ? "s" : ""}`
           }
         </h2>
-        {filtered.length > 0 ? (
+        {loadFailed && (
+          <p className="mb-4 text-xs text-[var(--text-tertiary)]">
+            La liste complète n&apos;a pas pu être chargée : résultats limités aux {initial.length} premiers
+            guides. L&apos;index complet est plus bas dans la page.
+          </p>
+        )}
+        {loading ? (
+          <p className="rounded-2xl bg-white py-10 text-center text-sm text-[var(--text-secondary)] shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+            Chargement des {total} guides…
+          </p>
+        ) : filtered.length > 0 ? (
           (() => {
-            const capped = !showAll && filtered.length > INITIAL_VISIBLE;
+            // Avant chargement, la vue par défaut n'a que ses 60 cartes : le
+            // bouton se juge sur le vrai total (moins la carte à la une).
+            const fullCount = all ? filtered.length : total - 1;
+            const capped = !showAll && fullCount > INITIAL_VISIBLE;
             const visible = capped ? filtered.slice(0, INITIAL_VISIBLE) : filtered;
             return (
               <>
@@ -198,7 +236,7 @@ export function GuidesGrid({ guides, now }: Props) {
                       onClick={() => setShowAll(true)}
                       className="inline-flex items-center gap-2 rounded-full grad-head-0 px-6 py-3 text-sm font-semibold shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)] transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
                     >
-                      Afficher les {filtered.length - INITIAL_VISIBLE} guides restants
+                      Afficher les {fullCount - INITIAL_VISIBLE} guides restants
                     </button>
                   </div>
                 )}

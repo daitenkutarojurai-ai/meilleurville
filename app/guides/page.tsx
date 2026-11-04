@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { GuidesGrid } from "@/components/GuidesGrid";
+import { guideCardProjection, GUIDES_INITIAL_VISIBLE } from "@/lib/guide-card-projection";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
 import { hubTitle } from "@/lib/brand";
 import { pathAlternates } from "@/lib/i18n";
@@ -76,19 +77,20 @@ export default function GuidesPage() {
         </div>
       </section>
 
-      {/* Interactive guides grid with category filtering. Project to the
-          card fields — passing full Guide objects serializes every
-          sections[] body into the flight payload (~3.8 MB of HTML).
-          `intro` is cut to an excerpt too: the card clamps it to two lines,
-          but the full text shipped twice (DOM + flight payload) for all 654
-          guides. It stays long enough to remain useful as a search haystack. */}
+      {/* Interactive guides grid with category filtering. Only the cards of
+          the first render travel as props (featured + INITIAL_VISIBLE): props
+          are serialized twice (DOM + flight payload), and all 1 474 projected
+          cards made 1,5 MB of this page's 2 MB. The full list is a static
+          file (/guides/cards.json) the grid fetches on the first filter,
+          search or « afficher tout ». */}
       <section className="band band-indigo py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <GuidesGrid
-            guides={GUIDES.map(({ slug, title, intro, category, emoji, readMinutes, publishedAt, updatedAt, tags }) => ({
-              slug, title, category, emoji, readMinutes, publishedAt, updatedAt, tags,
-              intro: intro.length > 200 ? intro.slice(0, 200).replace(/\s+\S*$/, "") + "…" : intro,
-            }))}
+            initial={GUIDES.slice(0, GUIDES_INITIAL_VISIBLE + 1).map(guideCardProjection)}
+            total={GUIDES.length}
+            categoryCounts={Object.fromEntries(
+              GUIDE_CATEGORIES.map((c) => [c.id, GUIDES.filter((g) => g.category === c.id).length]),
+            )}
             now={BUILD_NOW}
           />
         </div>
@@ -103,15 +105,12 @@ export default function GuidesPage() {
             <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">
               Index complet — {GUIDES.length} guides
             </summary>
-            <ul className="mt-4 grid gap-x-6 gap-y-1.5 sm:grid-cols-2">
+            {/* Style posé une fois sur la liste : répété sur 1 474 liens, le
+                même attribut class pesait ~230 Ko (DOM + charge RSC). */}
+            <ul className="mt-4 grid gap-x-6 gap-y-1.5 sm:grid-cols-2 text-xs [&_a]:text-[var(--text-secondary)] [&_a]:transition-colors [&_a:hover]:text-[var(--accent)]">
               {GUIDES.map((g) => (
                 <li key={g.slug}>
-                  <Link
-                    href={`/guides/${g.slug}`}
-                    className="text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
-                  >
-                    {g.title}
-                  </Link>
+                  <Link href={`/guides/${g.slug}`}>{g.title}</Link>
                 </li>
               ))}
             </ul>
