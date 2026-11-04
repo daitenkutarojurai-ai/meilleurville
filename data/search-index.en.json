@@ -9117,6 +9117,36 @@
       "emoji": "🍸"
     },
     {
+      "slug": "solo-travel-in-beziers-2026",
+      "title": "Solo travel in Béziers (2026): the Canal du Midi and a two-room flat at 530 €",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "solo-travel-in-ajaccio-2026",
+      "title": "Solo travel in Ajaccio (2026): 2,890 hours of sun, but no train",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "solo-travel-in-cayenne-2026",
+      "title": "Solo travel in Cayenne (2026): a young town in French Guiana, outside any usual circuit",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "solo-travel-in-saint-germain-en-laye-2026",
+      "title": "Solo travel in Saint-Germain-en-Laye (2026): the RER A and a forest, at 1,150 € for a two-room flat",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "solo-travel-in-versailles-2026",
+      "title": "Solo travel in Versailles (2026): 9/10 for culture, but a two-room flat at 1,200 €",
+      "emoji": "👑"
+    },
+    {
+      "slug": "solo-travel-in-cherbourg-2026",
+      "title": "Solo travel in Cherbourg-en-Cotentin (2026): the sea, a port and a two-room flat at 620 €",
+      "emoji": "⚓"
+    },
+    {
       "slug": "single-parent-in-annemasse-2026",
       "title": "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
       "emoji": "🧑‍🍼"
@@ -10351,11 +10381,21 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 82
+      "count": 83
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
+      "count": 82
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 80
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
       "count": 80
     },
     {
@@ -10366,16 +10406,6 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 74
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 74
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
       "count": 74
     },
     {
@@ -10444,14 +10474,14 @@
       "count": 49
     },
     {
-      "slug": "provence",
-      "label": "provence",
+      "slug": "normandy",
+      "label": "normandy",
       "count": 45
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 44
+      "slug": "provence",
+      "label": "provence",
+      "count": 45
     },
     {
       "slug": "centre-val-de-loire",
@@ -10599,6 +10629,11 @@
       "count": 10
     },
     {
+      "slug": "corsica",
+      "label": "corsica",
+      "count": 9
+    },
+    {
       "slug": "dijon",
       "label": "dijon",
       "count": 9
@@ -10631,11 +10666,6 @@
     {
       "slug": "basque-country",
       "label": "basque country",
-      "count": 8
-    },
-    {
-      "slug": "corsica",
-      "label": "corsica",
       "count": 8
     },
     {
@@ -10839,6 +10869,11 @@
       "count": 4
     },
     {
+      "slug": "french-guiana",
+      "label": "french guiana",
+      "count": 4
+    },
+    {
       "slug": "french-riviera-expat-retirement",
       "label": "French Riviera expat retirement",
       "count": 4
@@ -10946,11 +10981,6 @@
     {
       "slug": "fatca",
       "label": "fatca",
-      "count": 3
-    },
-    {
-      "slug": "french-guiana",
-      "label": "french guiana",
       "count": 3
     },
     {

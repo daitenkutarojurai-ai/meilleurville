@@ -48137,6 +48137,246 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["solo travel","solo travel cergy","travelling alone in france","new town","ile-de-france"],
   },
   {
+    slug: "solo-travel-in-beziers-2026",
+    title: "Solo travel in Béziers (2026): the Canal du Midi and a two-room flat at 530 €",
+    metaTitle: "Solo Travel in Béziers 2026: Low Budget, TGV",
+    metaDesc: "Béziers alone: 17.7% aged 15 to 29, a direct TGV, the Allées Paul-Riquet, a two-room flat at 530 €, 2,850 hours of sun. How it holds up off-season.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Béziers has 80,815 residents (INSEE 2022). People aged 15 to 29 make up 17.7% of them and people aged 60 or over 29.6%. Our profile gives 6.6/10 for culture, 6.4/10 for cost and 2,850 hours of sunshine a year, but only 3.5/10 for safety. The reference two-room flat is 530 € and the studio 380 €. Our transport survey lists a direct TGV (the high-speed train). It is a cheap base for a solo trip to the south, not a late-night city.",
+    sections: [
+      {
+        heading: "Why Béziers: a budget that being single does not inflate",
+        body: "A studio at 380 € and a two-room flat at 530 € (our rent estimate) are modest, and the reference purchase price is 1,500 € per square metre. The 6.4/10 cost score confirms the town is affordable. The counterpoint comes first: 3.5/10 for safety and 4.7/10 for daily life.",
+      },
+      {
+        heading: "Where to stay: the Allées Paul-Riquet or the old centre",
+        body: "Our district notes cover three areas. The Allées Paul-Riquet, the tree-lined central avenue, score 7.5/10 for evenings. The old centre scores 7/10. Le Plateau, residential, scores 5/10. To go out on foot at night, the Allées; for quiet, Le Plateau.",
+      },
+      {
+        heading: "Off-season life: 17.7% aged 15 to 29, 29.6% aged 60 or over",
+        body: "On the test used by our profile page, Béziers falls under the 32% ceiling for people aged 60 or over. The 15 to 29 share, 17.7%, is modest: the town lives all year, but without the campus effect of Cergy (26.3%). Its population is up 5.7% since 2016. Its evening score of 7.5/10 is under our 8.0/10 floor, and this guide says so.",
+      },
+      {
+        heading: "What to do alone, with no meet-up programme",
+        body: "The landmarks come from our tourism guide: the nine Fonséranes locks on the Canal du Midi, Saint-Nazaire cathedral, the fine arts museum and the Feria (the town's summer festival). The sea is at Valras-Plage, 18 km away according to the same guide. No venue or programme is quoted here, because our data lists none.",
+      },
+      {
+        heading: "Getting around without a car: a TGV, no tram",
+        body: "Our survey lists a direct TGV and no metro, tram or notable cycle network. The transport score is 4.9/10. Without a car you arrive by train and stay in the centre and the Allées, on foot. Night-time timetables are not in our data.",
+      },
+      {
+        heading: "When to go: 25.8 °C in July, 7.5 °C in January",
+        body: "Our profile records an average of 25.8 °C in July and 7.5 °C in January, with 2,850 hours of sun. No monthly normals are published. With fewer 15 to 29 year olds than Cergy, a trip outside summer will be quiet.",
+      },
+    ],
+    relatedCities: ["beziers"],
+    tags: ["solo travel","solo travel beziers","travelling alone in france","canal du midi","occitanie"],
+  },
+  {
+    slug: "solo-travel-in-ajaccio-2026",
+    title: "Solo travel in Ajaccio (2026): 2,890 hours of sun, but no train",
+    metaTitle: "Solo Travel in Ajaccio 2026: Sun, No Train",
+    metaDesc: "Ajaccio alone: 2,890 hours of sun, 10.5 °C in January, 13.7% aged 15 to 29, an old centre, a two-room flat at 900 €. Honest about winter.",
+    category: "lifestyle",
+    emoji: "🏝️",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Ajaccio has 75,343 residents (INSEE 2022), with 28.8% aged 60 or over and only 13.7% aged 15 to 29. Our profile gives 2,890 hours of sunshine a year, an average of 10.5 °C in January and 7.5/10 for nature, but 4.0/10 for transport. The reference two-room flat is 900 €. Our survey lists no TGV, tram or metro: you come for the setting and get around on foot in the centre. Corsica is an island, so the journey in is by ferry or plane.",
+    sections: [
+      {
+        heading: "Why Ajaccio: the winter sun is the real figure",
+        body: "The test for an empty resort works in reverse here: the town is not young (13.7% aged 15 to 29), but winter is mild, with 10.5 °C in January, three degrees more than Béziers (7.5 °C). It is a prefecture (the seat of the state administration) and stays open all year. Its population is up 9.1% since 2016.",
+      },
+      {
+        heading: "Where to stay: the old centre first",
+        body: "Our district notes cover three areas. The old centre scores 7.5/10 for evenings and 7.5/10 for transport. Les Cannes, greener, scores 5.5/10 for evenings; Saint-Jean scores 5/10. To go out on foot, the centre.",
+      },
+      {
+        heading: "Going out: a small scene in a strong setting",
+        body: "Evening life in the centre (7.5/10) is under our 8.0/10 floor. The landmarks in our tourism guide are the Bonaparte house, the citadel, the harbour and the Sanguinaires islands at sunset. No venue or programme is quoted, because our data lists none.",
+      },
+      {
+        heading: "Getting around: no train is a fact, not a detail",
+        body: "The transport score is 4.0/10 and our survey records no rail or tram service in Ajaccio. You arrive by ferry or plane, which our data does not detail, then move around the centre on foot. Without a car, the beaches and Piana need a transport option to check locally.",
+      },
+      {
+        heading: "The single supplement: 620 € for a studio, 900 € for a two-room flat",
+        body: "At 5/10 for cost, Ajaccio is dearer than Béziers (530 € for a two-room flat) and cheaper than Versailles (1,200 €). The reference purchase price is 3,800 € per square metre. Being an island weighs on the cost score; no ferry fare or hotel rate is quoted here.",
+      },
+      {
+        heading: "When to go: all year, with a 27 °C summer",
+        body: "Our profile records an average of 27 °C in July. As the town is not a young destination, the off-season mood is that of a quiet prefecture, not a student town. No monthly normals are published.",
+      },
+    ],
+    relatedCities: ["ajaccio"],
+    tags: ["solo travel","solo travel ajaccio","travelling alone in france","corsica","winter sun"],
+  },
+  {
+    slug: "solo-travel-in-cayenne-2026",
+    title: "Solo travel in Cayenne (2026): a young town in French Guiana, outside any usual circuit",
+    metaTitle: "Solo Travel in Cayenne 2026: Young Town, Guiana",
+    metaDesc: "Cayenne alone: 23.7% aged 15 to 29, 13.1% aged 60 or over, a centre, a market, a two-room flat at 800 €. No train, no seasons to quote.",
+    category: "lifestyle",
+    emoji: "🌴",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Cayenne has 63,956 residents (INSEE 2022). People aged 15 to 29 make up 23.7% of them and people aged 60 or over only 13.1%. Our profile gives 7.8/10 for nature, 3.3/10 for transport and 3.7/10 for safety. The reference two-room flat is 800 €. Our survey lists no train or tram. French Guiana is an overseas department in South America, so this is not a weekend trip from Paris. Weigh the lack of public transport before you book.",
+    sections: [
+      {
+        heading: "Why Cayenne: a town that does not empty out",
+        body: "The empty-resort risk does not exist here: 13.1% aged 60 or over, against 28.8% in Ajaccio, and 23.7% aged 15 to 29. The population is up 5.6% since 2016. The counterpoint is stated: 3.9/10 overall and 4.1/10 for cost.",
+      },
+      {
+        heading: "Where to stay: the town centre or Montjoly",
+        body: "Our district notes cover two areas. The town centre scores 7.5/10 for evenings and 7/10 for transport. Montjoly, on the coast, scores 5.5/10 for evenings and 8/10 for nature. To go out without a vehicle, the town centre.",
+      },
+      {
+        heading: "What to do: the market, the square, the fort",
+        body: "The landmarks come from our tourism guide: Place des Palmistes, Fort Cépérou, the market, Saint-Sauveur cathedral and the beach at Rémire-Montjoly. Our data lists no bars or venues, so no address is quoted.",
+      },
+      {
+        heading: "Getting around: no network in our survey",
+        body: "The transport score is 3.3/10 and our survey records no TGV, tram, metro or notable cycle network. In practice a car or a taxi is needed outside the centre. This is not a town where you ride a tram home at midnight.",
+      },
+      {
+        heading: "The budget: 560 € for a studio, 800 € for a two-room flat",
+        body: "The reference purchase price is 2,200 € per square metre. For a solo traveller that is more than Béziers (530 € for a two-room flat) and Cherbourg (620 €). No hotel rate or airfare is quoted here.",
+      },
+      {
+        heading: "When to go: 26 °C in January, 27 °C in July",
+        body: "Our profile records 26 °C in January and 27 °C in July: the seasonal gap in temperature is one degree. It does not document the pattern of rainy seasons and we do not invent it; check a local weather source.",
+      },
+    ],
+    relatedCities: ["cayenne"],
+    tags: ["solo travel","solo travel cayenne","travelling alone in france","french guiana","overseas france"],
+  },
+  {
+    slug: "solo-travel-in-saint-germain-en-laye-2026",
+    title: "Solo travel in Saint-Germain-en-Laye (2026): the RER A and a forest, at 1,150 € for a two-room flat",
+    metaTitle: "Solo Travel in Saint-Germain-en-Laye 2026: RER A",
+    metaDesc: "Saint-Germain-en-Laye alone: the RER A, a château, a forest, 16.6% aged 15 to 29, a two-room flat at 1,150 €. A calm base, and a dear one.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Saint-Germain-en-Laye has 45,286 residents (INSEE 2022), with 16.6% aged 15 to 29 and 23.6% aged 60 or over. Our profile gives 8.4/10 for transport, 7.6/10 for culture and 8.3/10 for remote work, but only 2.2/10 for cost. The reference two-room flat is 1,150 €. With the RER A (Paris's regional express line) it is a calm base for going out in Paris, much more than a town for nights out.",
+    sections: [
+      {
+        heading: "Why Saint-Germain: the RER A makes the trip",
+        body: "Our survey lists the RER A, hence 8.4/10 for transport, the same score as Cergy. The town itself is less young than Cergy (26.3% aged 15 to 29) but falls under the 32% ceiling for people aged 60 or over.",
+      },
+      {
+        heading: "Where to stay: the centre and the château",
+        body: "Our district notes cover three areas. The centre and château area scores 7.5/10 for evenings and 9/10 for transport. The Forêt quarter scores 6/10 for evenings and Bel Air 5.5/10. To go out on foot, the centre, near the château.",
+      },
+      {
+        heading: "Going out: an old centre and a discreet scene",
+        body: "Evening life in the centre, 7.5/10, is under our 8.0/10 floor. The landmarks come from our tourism guide: the château and the national archaeology museum, the Grande Terrasse, the forest and the market. No venue is quoted.",
+      },
+      {
+        heading: "Getting around: the RER A, no tram",
+        body: "The RER A links the town to Paris; our data gives neither journey time nor night frequency, so check with the operator. Our survey lists no metro or tram.",
+      },
+      {
+        heading: "The single supplement: the lowest cost score of the six",
+        body: "At 2.2/10 for cost, with a studio at 750 € and a two-room flat at 1,150 €, Saint-Germain is dearer than Cergy (880 €) and close to Versailles (1,200 €). The reference purchase price is 5,200 € per square metre. No hotel rate is quoted.",
+      },
+      {
+        heading: "When to go: 19.8 °C in July, 4.5 °C in January",
+        body: "Our profile records 1,650 hours of sunshine a year, 19.8 °C in July and 4.5 °C in January. The population is up 2.9% since 2016. On weekdays the town is residential; no monthly normals are published.",
+      },
+    ],
+    relatedCities: ["saint-germain-en-laye"],
+    tags: ["solo travel","solo travel saint-germain-en-laye","travelling alone in france","ile-de-france","rer a"],
+  },
+  {
+    slug: "solo-travel-in-versailles-2026",
+    title: "Solo travel in Versailles (2026): 9/10 for culture, but a two-room flat at 1,200 €",
+    metaTitle: "Solo Travel in Versailles 2026: Culture, RER, TGV",
+    metaDesc: "Versailles alone: culture 9/10, RER and TGV, 20.8% aged 15 to 29, a two-room flat at 1,200 €. A high-budget town, calm at night.",
+    category: "lifestyle",
+    emoji: "👑",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Versailles has 83,918 residents (INSEE 2022), with 20.8% aged 15 to 29 and 23.1% aged 60 or over. Our profile gives 9/10 for culture and 8.4/10 for transport, but only 2.4/10 for cost. The reference two-room flat is 1,200 €. Our survey lists the RER (Paris's regional express) and the TGV. The town has lost 1.7% of its residents since 2016. It is a heritage destination, with an evening score of 7/10 at best.",
+    sections: [
+      {
+        heading: "Why Versailles: culture, not partying",
+        body: "The culture score of 9/10 is the headline figure. But evening life in the best district is 7/10, under the 8.0/10 floor on our profile page. You come for the heritage.",
+      },
+      {
+        heading: "Where to stay: the historic centre or Les Chantiers",
+        body: "The historic centre scores 7/10 for evenings and 8.5/10 for transport. Les Chantiers, around the station, scores 6.5/10 for evenings and 9/10 for transport. Montreuil (the district) scores 6/10. For the train, Les Chantiers; for the evening, the centre.",
+      },
+      {
+        heading: "What to do alone: the château, the gardens, the market",
+        body: "The landmarks come from our tourism guide: the château and the Hall of Mirrors, the gardens and the Grand Canal, the Potager du Roi (the royal kitchen garden) and the Notre-Dame market. No fare or opening time is quoted here.",
+      },
+      {
+        heading: "Getting around: RER and TGV",
+        body: "Our survey lists the RER and the TGV, for a transport score of 8.4/10. Our data does not say which station serves the TGV or how long journeys take.",
+      },
+      {
+        heading: "The single supplement: the dearest town of the six",
+        body: "A studio at 800 €, a two-room flat at 1,200 €, a purchase price of 5,800 € per square metre and a cost score of 2.4/10. The two-room flat costs more than twice the one in Béziers (530 €). A solo trip here is justified by the heritage, not the budget.",
+      },
+      {
+        heading: "When to go: the town lives all year, with no campus effect",
+        body: "With 20.8% aged 15 to 29, Versailles is younger than Saint-Germain-en-Laye (16.6%) but less so than Cergy (26.3%). Our profile records 19.8 °C in July and 4.5 °C in January. No monthly normals are published.",
+      },
+    ],
+    relatedCities: ["versailles"],
+    tags: ["solo travel","solo travel versailles","travelling alone in france","chateau de versailles","ile-de-france"],
+  },
+  {
+    slug: "solo-travel-in-cherbourg-2026",
+    title: "Solo travel in Cherbourg-en-Cotentin (2026): the sea, a port and a two-room flat at 620 €",
+    metaTitle: "Solo Travel in Cherbourg 2026: Port, Low Budget",
+    metaDesc: "Cherbourg-en-Cotentin alone: 18.8% aged 15 to 29, a centre, the Cité de la Mer, a two-room flat at 620 €. No direct train in our data, a cool climate.",
+    category: "lifestyle",
+    emoji: "⚓",
+    readMinutes: 4,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Cherbourg-en-Cotentin has 78,028 residents (INSEE 2022), with 18.8% aged 15 to 29 and 28.3% aged 60 or over. Our profile gives 6.4/10 for cost, 5.9/10 for culture and 1,600 hours of sunshine a year. The reference two-room flat is 620 €. The town has lost 2.6% of its residents since 2016 and our survey lists no TGV or tram: a cheap port base, with no crowd effect.",
+    sections: [
+      {
+        heading: "Why Cherbourg: a low budget by the sea",
+        body: "A studio at 450 €, a two-room flat at 620 € and a purchase price of 1,900 € per square metre. The cost score of 6.4/10 is the same as Béziers. The counterpoint is stated: 4.9/10 for transport and 5.3/10 for safety.",
+      },
+      {
+        heading: "Where to stay: the town centre",
+        body: "Our district notes cover three areas. The town centre scores 7/10 for evenings and 7.5/10 for transport. Tourlaville scores 5/10 and Querqueville 4.5/10. To go out on foot, the town centre, without hesitation.",
+      },
+      {
+        heading: "What to do: the Cité de la Mer and the port",
+        body: "The landmarks in our tourism guide are the Cité de la Mer (a maritime museum), the transatlantic liner terminal, the harbour and the setting of The Umbrellas of Cherbourg. The Cap de la Hague and Barfleur need a trip out; no venue or programme is quoted.",
+      },
+      {
+        heading: "Off-season life: stable, not student",
+        body: "With 18.8% aged 15 to 29 and 28.3% aged 60 or over, the town falls under the 32% ceiling but is losing residents. Its evening score of 7/10 is under our 8.0/10 floor; winter will be quiet.",
+      },
+      {
+        heading: "Getting around: no network in our survey",
+        body: "The transport score is 4.9/10 and our survey lists no TGV, tram or metro. Check before you book: the rail link and night timetables are not in our data.",
+      },
+      {
+        heading: "When to go: 18.5 °C in July, 5.5 °C in January",
+        body: "At 18.5 °C in July it is cooler than Saint-Germain-en-Laye and Versailles (19.8 °C), with 1,600 hours of sunshine. No monthly normals are published. You come for the sea and northern Normandy, not for the heat.",
+      },
+    ],
+    relatedCities: ["cherbourg"],
+    tags: ["solo travel","solo travel cherbourg","travelling alone in france","normandy","port town"],
+  },
+  {
     slug: "single-parent-in-annemasse-2026",
     title:
       "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
