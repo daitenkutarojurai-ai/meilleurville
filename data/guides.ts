@@ -74379,6 +74379,108 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["meilleures-villes-familles-ecoles-securite-france-2025", "villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026", "villes-les-plus-agees-de-france-part-des-75-ans-et-plus-2026", "villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026"],
     tags: ["villes avec le plus d'enfants", "part des 0-14 ans", "villes familiales", "démographie par ville", "recensement 2022", "enfants par ville"],
   },
+  {
+    slug: "villes-air-le-plus-pur-france-pm25-no2-mesures-2026",
+    title: "Où l'air est-il le plus pur en France ? PM2,5 et NO2 mesurés dans plus de 300 villes",
+    metaTitle: "Air le plus pur en France : PM2,5 et NO2 par ville",
+    metaDesc: "Aurillac 5,4 µg/m³ de PM2,5, Cayenne 3,1 de NO2, Aubervilliers 23,4 : les moyennes 2025 des stations de fond, ville par ville, face aux seuils OMS et UE.",
+    category: "lifestyle",
+    emoji: "🌬️",
+    readMinutes: 8,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Sur les 308 villes dotées d'une station de fond à moins de 10 km, la moyenne 2025 de particules fines PM2,5 est de 10,0 µg/m³ en médiane : le double du seuil de l'OMS (5), pile sur la limite européenne de 2030 (10), très loin de la limite actuelle (25), qu'aucune ville ne dépasse. Le dioxyde d'azote (NO2) tourne à 14,2 µg/m³ en médiane. L'air le plus pur se respire à Saint-Denis de La Réunion (4,0 de PM2,5), Aurillac (5,4) et Biarritz (6,3) ; le plus chargé à Sallanches (13,1) et, pour le NO2, à Aubervilliers et Pantin (23,4). Ce guide classe les villes sur des mesures, pas sur une estimation, et dit ce que ces chiffres permettent de conclure.",
+    sections: [
+      {
+        heading: "Comment avons-nous mesuré l'air de chaque ville ?",
+        body: "Nous reprenons la moyenne annuelle 2025 de la station de fond la plus proche de la ville, mesurée par les associations agréées de surveillance de la qualité de l'air et compilée au niveau européen. Une ville n'entre dans le classement que si cette station est urbaine ou périurbaine et située à 10 km au plus : une station rurale à 20 km mesure la campagne, pas la ville, et fausserait la liste. Deux villes qui partagent la même station partagent la même valeur ; elles forment un seul palier, classé par ordre alphabétique, jamais départagé. Cela donne 308 villes pour les particules fines PM2,5 (137 stations), 363 pour le NO2 (174 stations) et 360 pour l'ozone. Les valeurs sont des moyennes en µg/m³ (pour l'ozone, un nombre de jours) : plus c'est haut, plus l'air est chargé."
+      },
+      {
+        heading: "Quelles villes ont le moins de particules fines (PM2,5) ?",
+        body: "Saint-Denis de La Réunion et Sainte-Marie (4,0 µg/m³) sont les deux seules villes sous le seuil de l'OMS de 5. Elles sont suivies d'Aurillac (5,4), puis de Biarritz, Anglet et Bayonne (6,3, même station), Bastia (6,6), Rodez (6,7), Le Robert et Le François en Martinique (6,8), Limoges (6,9), puis Dijon, Chenôve et Niort (7,3). Onze villes seulement sont à 7,0 ou moins. Le motif est lisible : villes moyennes de l'ouest et du Massif central, littoral basque, outre-mer. À l'inverse, Sallanches arrive en tête des plus chargées (13,1), devant Béthune et Bruay-la-Buissière (12,0) ; vingt autres villes suivent à 11,8. 306 villes sur 308 dépassent la valeur guide de l'OMS ; 121 dépassent les 10 µg/m³ que l'Union européenne imposera en 2030."
+      },
+      {
+        heading: "Quelles villes ont le moins de dioxyde d'azote (NO2) ?",
+        body: "Le NO2 vient surtout du trafic routier, et sa carte suit celle des grands axes. Les plus basses : Cayenne (3,1 µg/m³), Couëron (4,1), Fort-de-France (4,2), Castres (5,3), Baie-Mahault (5,8), Olivet (6,2), Niort (6,3), La Roche-sur-Yon (6,5), Châteauroux (6,7), Quimper (6,8), Nevers (6,9), Blois et Bourges (7,0). Les plus hautes sont toutes en petite couronne parisienne : Aubervilliers et Pantin (23,4), La Courneuve, Montmorency, Pierrefitte-sur-Seine, Saint-Denis et Stains (22,2), Levallois-Perret, Neuilly-sur-Seine et Saint-Ouen-sur-Seine (21,6). Sur 363 villes, 289 dépassent la valeur guide de l'OMS (10), 24 dépassent la limite européenne de 2030 (20) et aucune la limite actuelle (40). Une station peut être à 9 km de la ville (Cayenne, Couëron) : la fiche de chaque ville indique la distance."
+      },
+      {
+        heading: "Et dans les grandes villes ?",
+        body: "Sur les 41 villes de 100 000 habitants et plus qui ont une mesure fiable de PM2,5, la médiane est de 9,1 µg/m³, contre 10,0 pour les villes de moins de 100 000. En métropole, les plus propres : Limoges (6,9), Dijon (7,3), Aix-en-Provence (7,4), Clermont-Ferrand (7,5), Besançon (8,0), Tours et Toulon (8,1), Bordeaux (8,2), Nantes et Le Mans (8,4). Les plus chargées : Boulogne-Billancourt (11,8), Paris (11,5), Grenoble et Lille (11,1), Strasbourg et Rouen (10,9), Lyon et Villeurbanne (10,8). Pour le NO2, Rennes (8,3), Nantes (8,5), Tours (9,4), Angers (9,5), Le Mans (9,7), Reims (9,8) et Brest (9,9) restent sous les 10 de l'OMS ; Saint-Denis (22,2), Montreuil (20,7), Nice (20,0), Strasbourg (19,9), Argenteuil (19,6), Paris (18,2) et Marseille (18,0) sont en haut. La taille de la ville ne prédit donc pas grand-chose : la région et le trafic pèsent plus."
+      },
+      {
+        heading: "Quelles régions respirent le mieux ?",
+        body: "Sur les PM2,5, la Nouvelle-Aquitaine et le Centre-Val de Loire affichent la médiane la plus basse (8,2 µg/m³), devant Provence-Alpes-Côte d'Azur (8,3), les Pays de la Loire (8,4), la Bretagne et la Bourgogne-Franche-Comté (8,6). Les plus hautes : Hauts-de-France (11,1), Île-de-France (10,2 sur 110 villes) et Grand Est (10,1). Sur le NO2, la Bretagne est en tête (7,6), devant les Pays de la Loire (8,5) et le Centre-Val de Loire (8,6) ; l'Île-de-France (19,0 sur 147 villes) est seule dans sa catégorie, loin devant la Provence-Alpes-Côte d'Azur (14,5). L'ozone inverse la carte : il se forme avec le soleil, et la médiane monte à 31 jours au-dessus de 120 µg/m³ en Provence-Alpes-Côte d'Azur (29 villes), 22 dans le Grand Est, 19,5 en Occitanie, contre 4 en Normandie et 5 en Bretagne."
+      },
+      {
+        heading: "Quelles villes cumulent un air pur sur les deux polluants ?",
+        body: "Sur les 298 villes qui ont une mesure de PM2,5 et de NO2, quatorze restent à 8,0 µg/m³ ou moins de PM2,5 et à 10 ou moins de NO2 : Aurillac (5,4 et 7,6), Biarritz (6,3 et 7,3), Anglet (6,3 et 9,8), Bayonne (6,3 et 9,8), Bastia (6,6 et 8,9), Rodez (6,7 et 9,5), Le Robert (6,8 et 7,7), Niort (7,3 et 6,3), Lourdes (7,5 et 9,0), Périgueux (7,6 et 7,6), Quimper (7,9 et 6,8), Salon-de-Provence (7,9 et 9,5), Couëron (7,9 et 4,1) et Montargis (8,0 et 9,1). À l'autre bout, trois villes cumulent 11 ou plus de PM2,5 et 20 ou plus de NO2 : Levallois-Perret et Neuilly-sur-Seine (11,8 et 21,6), Saint-Mandé (11,5 et 20,5). Biarritz, Anglet et Bayonne partagent une seule station : elles comptent pour une mesure, pas trois."
+      },
+      {
+        heading: "Que peut-on conclure d'une moyenne de station ?",
+        body: "Qu'une ville est dans le haut ou le bas du classement, pas qu'une rue l'est. Une station de fond mesure l'air ambiant, pas le bord d'un boulevard : le NO2 s'effondre à quelques dizaines de mètres d'une grande route et s'envole le long d'un axe saturé. Autres limites : une seule année (2025), alors que l'ozone en particulier varie beaucoup d'un été à l'autre ; la distance station-ville, jusqu'à 10 km ; et l'absence de mesure pour de nombreuses petites villes, laissées hors du classement plutôt qu'estimées. Les seuils de l'OMS (2021) sont des valeurs guides de santé publique, pas des obligations légales ; ceux de l'Union européenne sont des limites juridiques, resserrées en 2030 par la directive 2024/2881. Pour un asthmatique, regardez le NO2 et l'ozone avant la moyenne générale."
+      },
+      {
+        heading: "Comment utiliser ce classement pour choisir où vivre ?",
+        body: "Trois réflexes. Comparez des villes de la même région avant de comparer des régions : l'écart entre deux communes voisines tient souvent à l'axe routier ou à la vallée, pas au département. Croisez l'air avec le reste de la fiche : le bruit, la chaleur et les risques naturels racontent d'autres nuisances, et les villes à l'air le plus pur ne sont pas toujours les plus calmes. Enfin, regardez la distance à la station et le type de zone sur la fiche ville : une valeur mesurée à 1 km vaut plus qu'une valeur à 9 km. Notre note de qualité de l'air d'une ville repose désormais sur ces mesures quand une station existe, et sur une estimation sinon, ce que la fiche signale. Source : mesures des associations agréées de surveillance de la qualité de l'air, compilées par le LCSQA et l'Agence européenne pour l'environnement."
+      }
+    ],
+    relatedCities: ["aurillac", "biarritz", "limoges", "rodez", "quimper", "niort", "rennes", "nantes", "paris", "saint-denis", "grenoble", "lille", "sallanches", "bethune"],
+    relatedGuides: ["meilleures-villes-qualite-air-nature-france-2025", "ou-vivre-france-meteo-qualite-air-2026", "villes-nature-plein-air-france"],
+    tags: ["qualité de l'air", "PM2,5", "particules fines", "dioxyde d'azote", "NO2", "ozone", "pollution par ville", "air le plus pur", "OMS", "mesures 2025"],
+  },
+  {
+    slug: "villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026",
+    title: "Chômage par ville : où le taux est le plus bas, où il est le plus haut (414 villes)",
+    metaTitle: "Chômage par ville : les taux les plus bas et les plus hauts",
+    metaDesc: "Le Plessis-Robinson 6,8 %, Vertou 6,9 %, Maubeuge 26,7 % : le chômage au sens du recensement 2023 dans 414 villes de 20 000 habitants et plus, avec salaires.",
+    category: "budget",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Dans les 414 communes de 20 000 habitants et plus, le taux de chômage au sens du recensement 2023 (15-64 ans) est de 13,1 % en médiane, contre 11,4 % pour la France entière. Il va de 6,8 % au Plessis-Robinson, 6,9 % à Vertou et 7,0 % à Ajaccio et Vélizy-Villacoublay, jusqu'à 26,7 % à Maubeuge, 25,2 % à Roubaix et 23,5 % à Creil sur le continent, et plus de 30 % dans plusieurs villes de La Réunion et de Guyane. Ce guide classe les villes sur ce chiffre de l'Insee, le met en face des salaires et de l'évolution de l'emploi local, et explique pourquoi il ne se compare jamais au taux trimestriel du BIT.",
+    sections: [
+      {
+        heading: "Quel chômage mesure-t-on ici ?",
+        body: "Le chômage au sens du recensement : la part des 15-64 ans actifs qui se déclarent chômeurs, pour les habitants de la commune, au recensement 2023 de l'Insee. Il est déclaratif, donc plus élevé que le taux du BIT publié chaque trimestre : 11,4 % ici pour la France entière, contre environ 7,5 % au BIT. Les deux chiffres ne se comparent pas ; en revanche, le taux du recensement a l'avantage d'exister pour chaque commune et d'être calculé de la même façon partout, ce qui en fait un bon outil de classement. Il décrit les habitants, pas les emplois situés dans la ville : une commune de bureaux peut avoir peu de chômeurs parmi ses résidents et beaucoup d'emplois occupés par des gens qui n'y vivent pas."
+      },
+      {
+        heading: "Où le chômage est-il le plus bas ?",
+        body: "Dans les Hauts-de-Seine et les Yvelines, autour de Nantes et de Bordeaux, et à Ajaccio et Allauch. Le Plessis-Robinson (6,8 %), Vertou (6,9 %), Ajaccio et Vélizy-Villacoublay (7,0 %), Maisons-Laffitte (7,1 %), Vincennes (7,3 %), Allauch et Carquefou (7,4 %), Issy-les-Moulineaux et Chaville (7,5 %), Saint-Cloud et Le Chesnay-Rocquencourt (7,6 %), Saint-Maur-des-Fossés et Saint-Médard-en-Jalles (7,8 %), Couëron (7,9 %) et Versailles (8,1 %). Quatre villes seulement sont à 7 % ou moins et quinze à 8 % ou moins. Beaucoup sont des banlieues résidentielles aisées des Hauts-de-Seine et des Yvelines ; Vertou, Carquefou et Couëron relèvent de l'agglomération nantaise, Saint-Médard-en-Jalles de celle de Bordeaux."
+      },
+      {
+        heading: "Où le chômage est-il le plus haut ?",
+        body: "Hors outre-mer, Maubeuge (26,7 %), Roubaix (25,2 %), Agde (23,7 %) et Creil (23,5 %) ferment la marche. Outre-mer, Saint-Laurent-du-Maroni atteint 40,4 %, Saint-Joseph 35,6 %, Saint-Benoît 32,0 %, Saint-Louis 31,8 %, Saint-André 30,7 %, Le Tampon 29,7 %, Cayenne 29,0 %, Saint-Pierre 27,4 %, Sainte-Suzanne 26,8 %, Les Abymes 25,3 % et Saint-Denis de La Réunion 25,3 %. 278 des 414 villes sont au-dessus de la moyenne nationale de 11,4 %, 145 à 15 % ou plus et 75 à 18 % ou plus. Un taux élevé décrit les habitants, pas le nombre d'emplois de la ville : croisez-le avec les emplois situés sur place avant d'en tirer une conclusion."
+      },
+      {
+        heading: "Et dans les 42 plus grandes villes ?",
+        body: "La médiane des villes de 100 000 habitants et plus est de 14,6 %. Les plus basses : Boulogne-Billancourt (8,7 %), Annecy (8,9 %), Paris (10,5 %), Lyon (11,1 %), Aix-en-Provence (11,2 %), Bordeaux (11,8 %), Nice et Dijon (12,8 %), Villeurbanne, Nantes et Grenoble (13,0 à 13,1 %), Brest et Marseille (13,5 %), Rennes (13,8 %), Toulouse (14,3 %). Les plus hautes : Saint-Denis de La Réunion (25,3 %), Saint-Paul (23,9 %), Mulhouse (22,8 %), Perpignan (22,5 %), Saint-Étienne (19,0 %), Amiens (18,8 %), Le Havre (18,5 %), Montpellier et Saint-Denis (18,3 %), Nîmes (18,0 %). Strasbourg (15,5 %) et Lille (15,7 %) sont juste au-dessus de la médiane. Montpellier (18,3 %) est loin derrière Nantes (13,1 %) et Rennes (13,8 %), deux villes de taille proche."
+      },
+      {
+        heading: "Quelles régions ont le chômage le plus bas ?",
+        body: "Pour les villes de 20 000 habitants et plus, la médiane la plus basse est celle de l'Île-de-France (11,2 %, 155 villes), juste devant les Pays de la Loire (11,3 %, 19 villes) et la Provence-Alpes-Côte d'Azur (12,2 %, 34 villes). Suivent l'Auvergne-Rhône-Alpes et la Bretagne (13,1 %), la Nouvelle-Aquitaine (13,3 %), le Centre-Val de Loire (14,6 %), le Grand Est (15,5 %), la Bourgogne-Franche-Comté (15,8 %), l'Occitanie (16,1 %) et la Normandie (16,7 %). Les Hauts-de-France (19,0 %, 29 villes) et La Réunion (28,6 %, 10 villes) ferment la liste. Les médianes régionales vont de 11,2 % à 19,0 % sur le continent : la région pèse lourd dans le taux."
+      },
+      {
+        heading: "Les salaires suivent-ils le chômage ?",
+        body: "Faiblement : la corrélation entre le salaire moyen d'une commune et son taux de chômage est de −0,39 sur 414 villes. Le salaire net mensuel moyen en équivalent temps plein des emplois privés situés dans la commune est de 2 482 € en médiane, pour 2 733 € à l'échelle de la France. Les plus hauts : Saint-Germain-en-Laye (5 422 €), Puteaux (5 152 €), Courbevoie (4 942 €), Meudon (4 723 €), Issy-les-Moulineaux (4 722 €), Montrouge (4 649 €). Les plus bas : Saint-Joseph (1 878 €), Le Tampon (1 931 €), Clichy-sous-Bois (1 946 €), Saint-André (1 975 €), Villiers-le-Bel (2 007 €). Attention : ce salaire est celui des emplois situés dans la ville, pas celui de ses habitants, et c'est une moyenne, tirée vers le haut par les hauts revenus."
+      },
+      {
+        heading: "Quelles villes cumulent peu de chômage et de bons salaires ?",
+        body: "Neuf villes de 7,5 % de chômage ou moins offrent aussi un salaire moyen supérieur à la médiane de 2 482 € : Le Plessis-Robinson (6,8 % et 4 236 €), Vertou (6,9 % et 2 625 €), Ajaccio (7,0 % et 2 521 €), Vélizy-Villacoublay (7,0 % et 3 968 €), Maisons-Laffitte (7,1 % et 2 860 €), Vincennes (7,3 % et 2 901 €), Carquefou (7,4 % et 2 786 €), Issy-les-Moulineaux (7,5 % et 4 722 €) et Chaville (7,5 % et 2 597 €). Le salaire d'emploi se lit comme un signal de la structure des entreprises locales (sièges, cadres, industrie) plutôt que comme le revenu que vous toucherez : vérifiez plutôt la fiche emploi de la ville et les employeurs de votre secteur."
+      },
+      {
+        heading: "Les emplois locaux augmentent-ils là où le chômage baisse ?",
+        body: "Pas systématiquement. Les emplois situés dans les 414 villes ont progressé de 6,9 % en médiane depuis 2017, pour 6,6 % au niveau national, mais 44 villes en ont perdu. Les plus fortes hausses : Saint-Laurent-du-Maroni (+59,6 %), Tremblay-en-France (+52,2 %), Roissy-en-Brie (+50,3 %), Issy-les-Moulineaux (+36,4 %), Brétigny-sur-Orge (+32,1 %), Champs-sur-Marne (+30,4 %), Couëron (+29,6 %). Les plus fortes baisses : Chilly-Mazarin (−13,1 %), Bagnolet (−9,2 %), Trappes (−7,3 %), La Garenne-Colombes (−6,6 %), Suresnes (−6,5 %), Saint-Cloud (−6,1 %), Béthune (−5,8 %). Saint-Cloud perd des emplois locaux tout en gardant un chômage de 7,6 % : chômage des habitants et emplois de la ville sont deux mesures distinctes."
+      },
+      {
+        heading: "Que faire de ce classement avant de déménager ?",
+        body: "Trois usages. Si vous cherchez un emploi sur place, préférez le nombre d'emplois dans la commune et leur évolution au taux de chômage, qui décrit les résidents. Si vous êtes actif et mobile, regardez le bassin d'emploi plus que la commune : Carquefou ou Vertou donnent accès à tout le marché nantais. Si vous télétravaillez ou vivez de revenus extérieurs, le chômage local compte peu pour vous, mais il renseigne sur le climat social et le commerce de proximité. Limites : un seul millésime (2023), les communes de moins de 20 000 habitants hors classement, et des écarts de quelques dixièmes qui ne séparent pas deux villes. Source : Insee, recensement 2023 et base tous salariés 2024."
+      }
+    ],
+    relatedCities: ["le-plessis-robinson", "vertou", "ajaccio", "versailles", "vincennes", "roubaix", "maubeuge", "perpignan", "mulhouse", "creil", "annecy", "boulogne-billancourt", "puteaux", "issy-les-moulineaux"],
+    relatedGuides: ["meilleures-villes-industrie-emploi-stable-france-2025", "acheter-avec-un-seul-salaire-france-2026", "trois-fois-le-loyer-revenu-requis-t2-villes-2026"],
+    tags: ["chômage par ville", "taux de chômage", "emploi par ville", "salaires par ville", "marché du travail", "recensement 2023", "villes qui recrutent", "Insee"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

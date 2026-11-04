@@ -10960,6 +10960,16 @@
       "slug": "villes-avec-le-plus-d-enfants-part-des-0-14-ans-2026",
       "title": "Les villes qui comptent le plus d'enfants : la part des 0-14 ans dans 413 villes",
       "emoji": "🧒"
+    },
+    {
+      "slug": "villes-air-le-plus-pur-france-pm25-no2-mesures-2026",
+      "title": "Où l'air est-il le plus pur en France ? PM2,5 et NO2 mesurés dans plus de 300 villes",
+      "emoji": "🌬️"
+    },
+    {
+      "slug": "villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026",
+      "title": "Chômage par ville : où le taux est le plus bas, où il est le plus haut (414 villes)",
+      "emoji": "💼"
     }
   ],
   "tags": [
@@ -12286,6 +12296,11 @@
     {
       "slug": "picardie",
       "label": "Picardie",
+      "count": 3
+    },
+    {
+      "slug": "qualite-de-l-air",
+      "label": "qualité de l'air",
       "count": 3
     },
     {

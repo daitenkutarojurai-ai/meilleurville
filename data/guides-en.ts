@@ -59606,6 +59606,54 @@ export const EN_GUIDES: EnGuide[] = [
     "publishedAt": "2026-11-04",
     "updatedAt": "2026-11-04"
   },
+  {
+    slug: "cleanest-air-french-cities-measured-pm25-no2-2026",
+    title: "Where is the air cleanest in France? Measured PM2.5 and NO2 in 300+ cities",
+    metaTitle: "Cleanest air in France: measured PM2.5 and NO2 by city",
+    metaDesc: "Aurillac 5.4 µg/m³ of PM2.5, Cayenne 3.1 of NO2, Aubervilliers 23.4: 2025 background-station means, city by city, against the WHO and EU limits.",
+    category: "lifestyle",
+    emoji: "🌬️",
+    readMinutes: 8,
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    intro: "Across the 308 French cities with a background monitoring station within 10 km, the median 2025 annual mean for fine particles (PM2.5) is 10.0 µg/m³: twice the WHO guideline (5), exactly the EU limit that applies from 2030 (10), and well under today's legal limit (25), which no city exceeds. Nitrogen dioxide (NO2) sits at a median 14.2. The cleanest air is in Saint-Denis on La Réunion (4.0 of PM2.5), Aurillac (5.4) and Biarritz (6.3); the heaviest in Sallanches (13.1) and, for NO2, in Aubervilliers and Pantin (23.4). This guide ranks cities on measurements, not estimates, and says what those numbers can and cannot tell you before you move.",
+    sections: [
+      {
+        heading: "How did we measure each city's air?",
+        body: "We take the 2025 annual mean from the nearest background station, as measured by France's accredited regional air-quality associations and compiled at European level. A city only enters the ranking if that station is urban or suburban and no more than 10 km away: a rural station 20 km out measures the countryside, not the town, and would distort the list. Cities that share a station share its value; they form one tier, sorted alphabetically and never split. That gives 308 cities for PM2.5 (137 stations), 363 for NO2 (174 stations) and 360 for ozone. Values are annual means in µg/m³ (for ozone, a count of days): higher means dirtier air."
+      },
+      {
+        heading: "Which cities have the least fine-particle pollution (PM2.5)?",
+        body: "Saint-Denis and Sainte-Marie on La Réunion (4.0 µg/m³) are the only two cities under the WHO guideline of 5. Next come Aurillac (5.4), then Biarritz, Anglet and Bayonne (6.3, one shared station), Bastia (6.6), Rodez (6.7), Le Robert and Le François in Martinique (6.8), Limoges (6.9), then Dijon, Chenôve and Niort (7.3). Only eleven cities sit at 7.0 or below. The pattern is readable: mid-sized towns in the west and the Massif Central, the Basque coast, the overseas départements. At the other end, Sallanches is the most loaded (13.1), ahead of Béthune and Bruay-la-Buissière (12.0), with twenty more cities at 11.8. 306 of 308 cities exceed the WHO guideline; 121 exceed the 10 µg/m³ the EU will enforce in 2030."
+      },
+      {
+        heading: "Which cities have the least nitrogen dioxide (NO2)?",
+        body: "NO2 comes mostly from road traffic, and its map follows the main roads. The lowest values: Cayenne (3.1 µg/m³), Couëron (4.1), Fort-de-France (4.2), Castres (5.3), Baie-Mahault (5.8), Olivet (6.2), Niort (6.3), La Roche-sur-Yon (6.5), Châteauroux (6.7), Quimper (6.8), Nevers (6.9), Blois and Bourges (7.0). The highest are all in inner Paris suburbs: Aubervilliers and Pantin (23.4), La Courneuve, Montmorency, Pierrefitte-sur-Seine, Saint-Denis and Stains (22.2), Levallois-Perret, Neuilly-sur-Seine and Saint-Ouen-sur-Seine (21.6). Of 363 cities, 289 exceed the WHO guideline (10), 24 exceed the EU's 2030 limit (20) and none exceeds today's limit (40). A station can sit 9 km from the city (Cayenne, Couëron): each city page states the distance."
+      },
+      {
+        heading: "What about the big cities?",
+        body: "Among the 41 cities of 100,000 people or more with a reliable PM2.5 reading, the median is 9.1 µg/m³, against 10.0 for smaller cities. On the mainland, the cleanest: Limoges (6.9), Dijon (7.3), Aix-en-Provence (7.4), Clermont-Ferrand (7.5), Besançon (8.0), Tours and Toulon (8.1), Bordeaux (8.2), Nantes and Le Mans (8.4). The most loaded: Boulogne-Billancourt (11.8), Paris (11.5), Grenoble and Lille (11.1), Strasbourg and Rouen (10.9), Lyon and Villeurbanne (10.8). For NO2, Rennes (8.3), Nantes (8.5), Tours (9.4), Angers (9.5), Le Mans (9.7), Reims (9.8) and Brest (9.9) stay under the WHO's 10; Saint-Denis (22.2), Montreuil (20.7), Nice (20.0), Strasbourg (19.9), Argenteuil (19.6), Paris (18.2) and Marseille (18.0) top the list. City size predicts little: region and traffic matter more."
+      },
+      {
+        heading: "Which regions breathe best?",
+        body: "On PM2.5, Nouvelle-Aquitaine and Centre-Val de Loire have the lowest median (8.2 µg/m³), ahead of Provence-Alpes-Côte d'Azur (8.3), Pays de la Loire (8.4), Brittany and Bourgogne-Franche-Comté (8.6). The highest: Hauts-de-France (11.1), Île-de-France (10.2 across 110 cities) and Grand Est (10.1). On NO2, Brittany leads (7.6), then Pays de la Loire (8.5) and Centre-Val de Loire (8.6); Île-de-France (19.0 across 147 cities) is in a class of its own, well ahead of Provence-Alpes-Côte d'Azur (14.5). Ozone flips the map: it forms in sunshine, and the median reaches 31 days above 120 µg/m³ in Provence-Alpes-Côte d'Azur (29 cities), 22 in Grand Est and 19.5 in Occitanie, against 4 in Normandy and 5 in Brittany."
+      },
+      {
+        heading: "Which cities combine clean air on both pollutants?",
+        body: "Of the 298 cities with both a PM2.5 and a NO2 reading, fourteen stay at 8.0 µg/m³ or less of PM2.5 and 10 or less of NO2: Aurillac (5.4 and 7.6), Biarritz (6.3 and 7.3), Anglet (6.3 and 9.8), Bayonne (6.3 and 9.8), Bastia (6.6 and 8.9), Rodez (6.7 and 9.5), Le Robert (6.8 and 7.7), Niort (7.3 and 6.3), Lourdes (7.5 and 9.0), Périgueux (7.6 and 7.6), Quimper (7.9 and 6.8), Salon-de-Provence (7.9 and 9.5), Couëron (7.9 and 4.1) and Montargis (8.0 and 9.1). At the other end, three cities combine 11 or more of PM2.5 with 20 or more of NO2: Levallois-Perret and Neuilly-sur-Seine (11.8 and 21.6), and Saint-Mandé (11.5 and 20.5). Biarritz, Anglet and Bayonne share one station: they count as one reading, not three."
+      },
+      {
+        heading: "What can a station average tell you, and what can't it?",
+        body: "It tells you which end of the ranking a city is in, not which street. A background station measures ambient air, not the kerb of a boulevard: NO2 drops sharply a few dozen metres from a main road and spikes beside a clogged one. Other limits: a single year (2025), when ozone in particular swings from one summer to the next; the station-to-city distance, up to 10 km; and the absence of any reading for many small towns, which we leave out of the ranking rather than estimate. The WHO figures (2021) are public-health guidelines, not legal duties; the EU figures are legal limits, tightened in 2030 by Directive 2024/2881. For someone with asthma, look at NO2 and ozone before the headline average."
+      },
+      {
+        heading: "How should you use this when choosing where to live?",
+        body: "Three habits. Compare cities within a region before comparing regions: the gap between two neighbouring towns often comes from a main road or a valley, not the département. Cross-check air against the rest of the city profile: noise, heat and natural risks tell other stories, and the cleanest-air towns are not always the quietest. Finally, check the distance to the station and the zone type on the city page: a reading taken 1 km away is worth more than one taken 9 km away. Our air-quality score for a city now rests on these measurements where a station exists, and on an estimate where none does, which the city page flags. Source: readings from France's accredited air-quality associations, compiled by the LCSQA and the European Environment Agency."
+      }
+    ],
+    relatedCities: ["aurillac", "biarritz", "limoges", "rodez", "quimper", "niort", "rennes", "nantes", "paris", "saint-denis", "grenoble", "lille", "sallanches", "bethune"],
+    tags: ["air quality France", "PM2.5", "fine particles", "nitrogen dioxide", "NO2", "ozone", "pollution by city", "cleanest air", "WHO guidelines", "2025 measurements"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

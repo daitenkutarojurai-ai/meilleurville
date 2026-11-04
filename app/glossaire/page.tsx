@@ -1105,6 +1105,32 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Qualité de l'air mesurée",
+    emoji: "🌬️",
+    terms: [
+      {
+        term: "PM2,5 et PM10",
+        def: "Particules en suspension dont le diamètre est inférieur à 2,5 micromètres (PM2,5) ou à 10 micromètres (PM10). Les PM2,5, les plus fines, pénètrent profondément dans les poumons ; elles viennent du chauffage au bois, du trafic, de l'industrie et de l'agriculture. Elles se mesurent en moyenne annuelle, en µg/m³. En 2025, la médiane des villes françaises équipées d'une station de fond est de 10 µg/m³ de PM2,5, pour une valeur guide de l'OMS de 5 et une limite européenne de 25 (10 à partir de 2030).",
+      },
+      {
+        term: "Dioxyde d'azote (NO2)",
+        def: "Gaz issu de la combustion, surtout du trafic routier diesel. Il irrite les bronches et chute vite quand on s'éloigne d'un grand axe : la mesure d'une station de fond sous-estime donc le bord d'un boulevard. Moyenne annuelle en µg/m³ : valeur guide de l'OMS 10, limite européenne 40, ramenée à 20 en 2030. La médiane des villes mesurées est de 14 µg/m³, et la petite couronne parisienne dépasse 20.",
+      },
+      {
+        term: "Ozone (O3) et jours au-dessus de 120 µg/m³",
+        def: "Polluant secondaire : il n'est pas émis directement mais se forme sous l'effet du soleil à partir d'autres polluants, d'où des pics l'été et une carte inversée par rapport au NO2, plus haute dans le Sud et l'Est que dans l'Ouest. Il se mesure en nombre de jours où la moyenne sur 8 heures dépasse 120 µg/m³ ; l'objectif européen est de ne pas dépasser 25 jours par an (moyenne sur trois ans). Il varie fortement d'un été à l'autre.",
+      },
+      {
+        term: "Station de fond (urbaine, périurbaine, rurale)",
+        def: "Station de mesure placée hors de l'influence directe d'une route ou d'une usine, pour représenter l'air que respire l'ensemble d'une zone. Les stations de proximité trafic ou industrielle, elles, mesurent les points chauds. Pour classer une ville sur sa qualité de l'air, on retient une station de fond urbaine ou périurbaine proche : une station rurale à 20 km décrit la campagne.",
+      },
+      {
+        term: "Valeur guide de l'OMS et limite européenne",
+        def: "Deux seuils qu'il ne faut pas confondre. Les valeurs guides de l'OMS (révisées en 2021) sont des repères sanitaires, sans portée juridique : 5 µg/m³ pour les PM2,5, 10 pour le NO2. Les limites européennes sont des obligations légales : 25 pour les PM2,5 et 40 pour le NO2 aujourd'hui, 10 et 20 à partir de 2030 (directive 2024/2881). Une ville peut respecter la loi tout en dépassant la valeur guide de l'OMS, ce qui est le cas de la quasi-totalité des villes françaises mesurées.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
