@@ -88,7 +88,7 @@ Lille, AVF Saint-Nazaire, Montauban, Toulouse) : possiblement des scanners de li
 réponse (Nancy). Conclusion : **le public est le bon** (×6 en ouverture), l'ask ne convertit
 toujours pas en réponse ni en lien. Pas de relance (promis dans le mail).
 
-## Vague 12 — envoyée 2026-11-04, 6 envois (tag Brevo `outreach-2026-11`)
+## Vague 12 — envoyée 2026-11-04, 11 envois en deux lots (tag Brevo `outreach-2026-11`)
 
 Feu vert du propriétaire. Chaque adresse lue sur le site de l'organisme, chaque lien vérifié 200,
 chaque chiffre relu **sur la page en ligne** (pas seulement dans le module). Hook : un chiffre prêt à
@@ -102,6 +102,16 @@ citer sur le sujet de **leur** article, « libre de reprise », offre d'un chiff
 | Quoi faire à Bordeaux | contact@quoifaireabordeaux.com | `lookalike` | +15,1 % d'emplois 2017-2023, salaire net 2 723 €, T2 900 € |
 | Génération Voyage | redaction@generationvoyage.fr | `lookalike` | classement télétravail : Vendôme, Rennes, Vaison-la-Romaine |
 | Jobrise | contact@jobrise.io | `lookalike` | emploi Insee : Villeurbanne +21,0 %, Bordeaux +15,1 %, Toulouse +13,5 %, Lyon +6,3 %, Paris −0,4 % |
+
+**Lot 2 (même jour, 5 envois)** :
+
+| Cible | Adresse | Chiffre offert |
+|---|---|---|
+| Capitaine Study (article 2024, 10 villes étudiantes) | contact@capitainestudy.fr | nos guides `etudiant-a-*-2026` pour 6 villes de leur liste ; studio au Mans ≈ 470 € |
+| Your Overseas Home (Occitanie / Nouvelle-Aquitaine) | info@youroverseashome.com | classement retraite EN : Occitanie 3 du top 5 (Florac 1, Saint-Girons 3, Bagnères 5) |
+| British Expat Guide (Charente, Haute-Vienne, Dordogne) | contact@britishexpatguide.co.uk | Limoges 45 m² ≈ 68 310 €, T2 600 € ; Périgueux 540 € |
+| LaFrance (régions retraite) | contact@lafrance.com | T2 Bergerac 490 €, Périgueux 540 €, vs Paris 1 800 € |
+| Alliance Française Silicon Valley | info@afscv.org | Lyon 7,1 / Bordeaux 6,9 / Toulouse 6,6 / Montpellier 5,6, avec loyers ; quiz city-match |
 
 Deux affirmations corrigées à la relecture avant envoi : le « 108 » porte sur 383 villes de
 ≥ 20 000 habitants, pas sur 593 ; Vaison-la-Romaine n'a pas de TGV. Écartés : euinfohub (aucun
