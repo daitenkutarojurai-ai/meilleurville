@@ -59894,6 +59894,162 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["aurillac", "biarritz", "limoges", "rodez", "quimper", "niort", "rennes", "nantes", "paris", "saint-denis", "grenoble", "lille", "sallanches", "bethune"],
     tags: ["air quality France", "PM2.5", "fine particles", "nitrogen dioxide", "NO2", "ozone", "pollution by city", "cleanest air", "WHO guidelines", "2025 measurements"],
   },
+  {
+    slug: "buying-a-home-unmarried-couple-france-pacs-indivision-sci-2026",
+    title: "Buying a home in France as an unmarried couple: PACS, indivision or SCI",
+    metaTitle: "Buying in France as an Unmarried Couple (2026)",
+    metaDesc:
+      "Unmarried and buying together in France? How indivision, PACS, SCI and marriage compare on death, break-up and tax, and what to sort out before the compromis.",
+    category: "moving",
+    emoji: "💍",
+    readMinutes: 8,
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    intro:
+      "Two unmarried people can buy a French home together, but the default (co-ownership, called indivision) protects the survivor badly: if one of you dies, their share goes to their family, not to the partner. A PACS plus a will fixes most of that for a modest cost; a company (SCI) is only worth it in a few cases. Get this settled with a notaire before you sign the compromis de vente (the preliminary sale contract), not after.",
+    sections: [
+      {
+        heading: "What happens if you just buy together and do nothing?",
+        body: "You own the home in indivision: each of you holds a share, written in the deed, usually matching what each put in. Three things follow. First, either owner can ask a court to end the co-ownership at any time (article 815 of the Civil Code), so a break-up can force a sale. Second, big decisions (selling, letting, major works) need both signatures. Third, and the one people miss, on a death the deceased's share passes to their heirs under French succession law. An unmarried partner is not an heir, and inheritance tax between unrelated people is charged at 60% after a small allowance. The survivor can end up co-owning with the partner's parents or children.",
+      },
+      {
+        heading: "What does a PACS change?",
+        body: "A PACS (pacte civil de solidarité) is a civil partnership signed at the mairie or with a notaire. For this purpose it does two useful things. The surviving partner pays no inheritance tax on what they receive, and you are taxed as one household for income tax. What it does not do is make the partner an heir automatically: without a will, the deceased's share still goes to the family. So the PACS only works as protection when paired with a will (testament) in which each of you names the other. Children, if you have any, are protected by reserved shares, so the will can only dispose of part of the estate. Ask the notaire how large that part is in your situation.",
+      },
+      {
+        heading: "How should the shares be split if contributions are unequal?",
+        body: "Write the split into the deed in proportion to what each of you actually contributes, deposit and loan repayments included, and keep proof (bank transfers in the buyer's name, a signed gift letter if parents helped). Without it, a judge may default to equal halves. A convention d'indivision, a private agreement drawn up by the notaire, can add rules for what happens on a sale, who has first right to buy the other out, and who pays for works. Note that a French mortgage is almost always joint and several: the bank can claim the whole balance from either of you, whatever the ownership split.",
+      },
+      {
+        heading: "When is an SCI worth it?",
+        body: "An SCI (société civile immobilière) is a property-holding company: you buy through it and each hold shares. It lets you set your own rules on management and exit, and shares can be passed on or split between usufruct and bare ownership (a way of separating the right to use a property from the right to own it). The costs are real: set-up with a lawyer or notaire, an annual accounts and tax routine, and lenders who are sometimes less keen on a company buyer. For a straightforward first home it is usually overkill. It starts to make sense with children from earlier relationships, several properties, or a deliberate plan to pass the home on in stages.",
+      },
+      {
+        heading: "Is marriage simply better?",
+        body: "For protection of the survivor, in many cases yes. A married spouse is a legal heir with automatic rights, including a right to stay in the family home, and spouses can make gifts to each other that partners cannot. The price is that ending a marriage means a divorce procedure rather than a signed notice. Marriage also changes your property regime, and a foreign couple should check how their home-country rules interact with French ones. Neither route is right for everyone; the point is to choose it, not drift into it.",
+      },
+      {
+        heading: "What should you sort out before signing the compromis?",
+        body: "Meet a notaire first, ideally one you pick yourselves rather than the seller's. Decide the ownership split and document the deposits. Sign the PACS and the wills before or at the same time as the purchase. Check that the borrower insurance on the loan covers each of you for your actual share and income. Consider a life-insurance policy naming each other: it sits outside the estate and is a common way to give the partner a lump sum. Keep a copy of every document in a place both of you can reach.",
+      },
+      {
+        heading: "Which option for which couple?",
+        body: "A couple on similar incomes buying a first home with no children: PACS, indivision in proportion to contributions, mutual wills. A couple with uneven deposits: the same, plus a convention d'indivision that spells out how the extra money is recovered on a sale. A couple with children from previous relationships, or planning to leave the home to someone specific: take advice on marriage or an SCI, because here indivision plus a will can fall short of what you want. None of this replaces advice from a notaire on your own facts; the rules on reserved heirs and tax rates are where the details bite.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "toulouse", "rennes"],
+    tags: [
+      "unmarried couple",
+      "PACS",
+      "indivision",
+      "SCI",
+      "notaire",
+      "buying property France",
+      "inheritance",
+      "2026",
+    ],
+  },
+  {
+    slug: "scpi-in-life-insurance-france-2026",
+    title: "SCPI inside a French life-insurance policy: how it works and when it pays",
+    metaTitle: "SCPI in French Life Insurance: Tax & Trade-offs (2026)",
+    metaDesc:
+      "Holding SCPI property funds inside a French assurance-vie: how the wrapper works, the tax and inheritance edge over holding directly, and the costs to weigh.",
+    category: "budget",
+    emoji: "📈",
+    readMinutes: 7,
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    intro:
+      "An SCPI is a French pooled property fund: you buy shares, the manager buys offices, clinics or shops, and you receive a share of the rent. Held inside an assurance-vie (French life-insurance savings contract) instead of directly, the rent is reinvested tax-free inside the policy, and withdrawals after eight years are taxed more lightly than rental income. The trade-off is a narrower choice of funds, an extra layer of fees, and no borrowing. This guide explains the mechanics so you can judge whether it fits; it is not personal tax advice.",
+    sections: [
+      {
+        heading: "How does an SCPI inside life insurance actually work?",
+        body: "An assurance-vie is a wrapper, not a product. Inside it you can hold a euro fund (capital guaranteed by the insurer) and unit-linked funds (units whose value moves with markets). Some contracts list SCPI funds among the unit-linked choices. You do not own SCPI shares yourself: the insurer does, and your units track their value. Rent paid by the SCPI is credited to your contract rather than to your bank account. The range of SCPI on offer depends on the contract, and online providers tend to list more than bank-branch contracts.",
+      },
+      {
+        heading: "How is it taxed compared with holding SCPI directly?",
+        body: "Held directly, SCPI rent counts as property income: taxed at your marginal income-tax rate, plus social charges (17.2% for most such income at the time of writing; check the current rate). Inside a policy, nothing is taxed while the money stays in. When you take money out, only the gain is taxed, not the capital you put in. Before the contract is eight years old the gain is generally taxed at a flat 30% all-in. After eight years there is a yearly allowance of 4,600 € on gains for a single person and 9,200 € for a couple, and the remainder is taxed at a reduced income-tax rate plus social charges. The gap to direct holding is widest for people in the higher income-tax bands. Rules and rates change with each finance law, so confirm them at the point of withdrawal.",
+      },
+      {
+        heading: "What about inheritance?",
+        body: "Life insurance sits largely outside the normal succession. For premiums paid before age 70, each named beneficiary can receive up to 152,500 € without the special levy that applies above that; for premiums paid after 70, a smaller allowance of 30,500 € applies in total, shared between all beneficiaries, on premiums only. A directly held SCPI is part of the estate and is taxed by family relationship, with children getting a per-parent allowance and unmarried partners taxed heavily. Naming beneficiaries precisely (names, not just 'my heirs') matters; ask your notaire or adviser to check the clause.",
+      },
+      {
+        heading: "What does it cost, and what do you give up?",
+        body: "Three layers of cost can apply: the SCPI's own fees (entry and management, which are built into the price and the yield quoted), the policy's yearly fee on the balance, and in some contracts an entry fee on each payment. Compare the net yield after all of them, not the headline distribution rate. You also give up choice: a policy lists a limited selection rather than the whole SCPI market. You cannot borrow to buy SCPI inside a policy, which removes the leverage some direct buyers use. And SCPI units are not guaranteed: office-heavy funds in particular saw prices and payouts fall in recent years, so spreading across sectors and countries is sensible. The units' value can go down as well as up.",
+      },
+      {
+        heading: "Who is it for?",
+        body: "It tends to suit someone with a medium-to-long horizon (eight years or more), a meaningful income-tax bracket, an interest in passing money on, and no wish to manage property. It suits poorly someone who needs the money soon, wants to use a mortgage, or who is a non-resident: your country of tax residence and any tax treaty with France change the picture, and several insurers restrict contracts for non-EU residents. If you are moving to France, check how your home country taxes a French life-insurance contract before opening one; some tax authorities treat them unfavourably.",
+      },
+      {
+        heading: "How do you choose a contract?",
+        body: "Check the number and quality of SCPI offered, the entry and yearly fees, the insurer's financial strength, the minimum payment, and how quickly units can be sold. Read the fee table in the information document (the DIC or key information sheet) rather than the marketing page. Start the contract early if you might want to use it after eight years, since the clock runs from the first payment. Do not put everything in one fund or one sector, and keep an emergency cash reserve outside the policy.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "lille", "toulouse"],
+    tags: [
+      "SCPI",
+      "assurance-vie",
+      "life insurance France",
+      "property investment",
+      "inheritance tax",
+      "expat finance",
+      "2026",
+    ],
+  },
+  {
+    slug: "participatory-housing-and-coliving-france-2026",
+    title: "Participatory housing and coliving in France: models, cities and trade-offs",
+    metaTitle: "Participatory Housing & Coliving in France (2026)",
+    metaDesc:
+      "Habitat participatif and coliving in France: how the legal models work, which cities have the strongest scene, who each suits, and the catches to check first.",
+    category: "lifestyle",
+    emoji: "🏡",
+    readMinutes: 7,
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    intro:
+      "France has two quite different alternatives to a standard flat. Habitat participatif is a group of households that designs, finances and owns a building together; it takes years and suits people settling for the long term. Coliving is a professionally run building with private rooms and shared spaces, rented by the month; it suits people arriving without a network. Both are small niches, concentrated in the big cities, and neither is cheaper by default.",
+    sections: [
+      {
+        heading: "What is habitat participatif?",
+        body: "A group of households forms before the building exists, picks a site or an existing property, hires an architect and finances the project together. Each household has a private home plus shared spaces such as a laundry, a guest room, a garden or a workshop. The 2014 ALUR housing law gave the model legal forms, notably the société d'habitat participatif and the coopérative d'habitants, where members hold shares rather than owning a flat outright. Governance is democratic, with decisions taken by members, which means meetings and a real time commitment.",
+      },
+      {
+        heading: "How long does it take, and how is it financed?",
+        body: "Plan on several years between the first meeting and moving in: forming the group, finding land, permits and building. Members put in their own savings, then borrow, often together through a lender used to this kind of project; some towns support groups with land or advice. Some co-operatives limit resale profit on purpose, so check the rules on what you get back when you leave. Ask to see the group's financial plan and what happens if a member drops out partway.",
+      },
+      {
+        heading: "What is coliving?",
+        body: "Coliving operators rent furnished private rooms or studios in a building that has shared kitchens, lounges and sometimes coworking space. Contracts are usually short and flexible, and the rent bundles utilities, internet and cleaning of common areas. It is aimed at young professionals, newcomers and people between homes. Compare the all-in monthly price with a small studio plus bills in the same area: the gap is often modest, and what you are paying for is flexibility, furnishings and a ready-made social circle. Read how the lease is classified and how long the notice period is.",
+      },
+      {
+        heading: "Which cities have the strongest scene?",
+        body: "For participatif projects, Strasbourg, Lyon and Grenoble are the cities most often cited for an established community and municipal support, followed by Toulouse, Nantes, Rennes and Bordeaux. Coliving operators concentrate in Paris and the large regional cities. Smaller towns have very few of either, so if you want this model outside a big city, check carefully that a project or operator actually exists before planning around it. Compare the city itself on cost, jobs and services using our city profiles.",
+      },
+      {
+        heading: "Who is each model for?",
+        body: "Participatif suits people with a long horizon, shared values on ecology or community, and patience for group decisions: families wanting neighbours who help with childcare, active retirees avoiding isolation, couples settling for good. Coliving suits people who arrive alone, move for work, or want to test a city before committing to a lease. Neither suits someone who values total privacy and control, or who needs to move in within weeks (participatif) or wants to build equity in property (coliving).",
+      },
+      {
+        heading: "What should you check before committing?",
+        body: "For participatif: the group's track record, the legal form, the exit and resale rules, the budget margin, and how conflicts are resolved. For coliving: the real size of the building (very large residences can feel anonymous), turnover, whether advertised amenities are actually used, and the cancellation terms. In both cases visit, talk to current residents, and ask a notaire or lawyer to read the contract.",
+      },
+    ],
+    relatedCities: ["strasbourg", "lyon", "grenoble", "toulouse", "nantes"],
+    tags: [
+      "participatory housing",
+      "habitat participatif",
+      "coliving",
+      "cooperative housing",
+      "Strasbourg",
+      "Lyon",
+      "community",
+      "2026",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

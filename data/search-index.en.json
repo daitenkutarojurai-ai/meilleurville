@@ -10335,6 +10335,21 @@
       "slug": "cleanest-air-french-cities-measured-pm25-no2-2026",
       "title": "Where is the air cleanest in France? Measured PM2.5 and NO2 in 300+ cities",
       "emoji": "🌬️"
+    },
+    {
+      "slug": "buying-a-home-unmarried-couple-france-pacs-indivision-sci-2026",
+      "title": "Buying a home in France as an unmarried couple: PACS, indivision or SCI",
+      "emoji": "💍"
+    },
+    {
+      "slug": "scpi-in-life-insurance-france-2026",
+      "title": "SCPI inside a French life-insurance policy: how it works and when it pays",
+      "emoji": "📈"
+    },
+    {
+      "slug": "participatory-housing-and-coliving-france-2026",
+      "title": "Participatory housing and coliving in France: models, cities and trade-offs",
+      "emoji": "🏡"
     }
   ],
   "tags": [
@@ -10426,7 +10441,7 @@
     {
       "slug": "buying-property-france",
       "label": "buying property france",
-      "count": 60
+      "count": 61
     },
     {
       "slug": "international-students",
@@ -10571,7 +10586,12 @@
     {
       "slug": "strasbourg",
       "label": "strasbourg",
-      "count": 12
+      "count": 13
+    },
+    {
+      "slug": "2026",
+      "label": "2026",
+      "count": 11
     },
     {
       "slug": "affordable-retirement-france",
@@ -10581,6 +10601,11 @@
     {
       "slug": "auvergne",
       "label": "auvergne",
+      "count": 11
+    },
+    {
+      "slug": "lyon",
+      "label": "lyon",
       "count": 11
     },
     {
@@ -10606,11 +10631,6 @@
     {
       "slug": "cote-d-azur",
       "label": "cote d'azur",
-      "count": 10
-    },
-    {
-      "slug": "lyon",
-      "label": "lyon",
       "count": 10
     },
     {
@@ -10657,11 +10677,6 @@
       "slug": "toulouse",
       "label": "toulouse",
       "count": 9
-    },
-    {
-      "slug": "2026",
-      "label": "2026",
-      "count": 8
     },
     {
       "slug": "basque-country",
@@ -10899,6 +10914,11 @@
       "count": 4
     },
     {
+      "slug": "notaire",
+      "label": "notaire",
+      "count": 4
+    },
+    {
       "slug": "paris-commuters",
       "label": "paris commuters",
       "count": 4
@@ -11016,11 +11036,6 @@
     {
       "slug": "niort",
       "label": "niort",
-      "count": 3
-    },
-    {
-      "slug": "notaire",
-      "label": "notaire",
       "count": 3
     },
     {
