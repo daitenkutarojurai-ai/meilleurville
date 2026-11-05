@@ -1338,3 +1338,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Sous-pages ville air / bruit / eau (quartet environnemental).
 2. Page agenda.
 3. Sous-page ville `/villes/[slug]/louer-ou-acheter` (+ EN `own-vs-rent`), suite logique de ce hub.
+
+## 2026-11-05 ~11:00 UTC — sous-page ville `/villes/[slug]/fiscalite` (FR) + EN `/cities/[slug]/tax`
+
+**Surface** : gabarit fiscalité × 593 villes × 2 locales (famille indexée en FR). Avant : `AmbientBackground` + un seul bloc sur fond de page, encadré d'avertissement ambre, 3 cartes et 5 blocs gris à filet, boutons blancs translucides. Note : le quartet air/bruit/eau était déjà en bandes (runs du 2026-10-31), d'où ce choix.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🧾 rose, titre partiel en `.gradient-text` (pastille de palier fiscal conservée) ; avertissement (carte blanche à liseré rose, icône `#BE185D`) + 3 chiffres clés en `band-indigo` (cartes blanches à ombre indigo, icônes en tuiles `grad-head-0/1/2`, chiffre en 2xl) ; « à retenir » + calcul taxe foncière en `band-sky` ; THRS + DMTO en `band-pink` ; estimation précise + renvois en `band-lilac` (pilule dégradée indigo → rose + pilules blanches) ; discussion (FR) / feedback (EN) en `band-white`. h2 des cartes en `.gradient-text`. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/villes/lyon/fiscalite` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-page ville `/villes/[slug]/tension-locative` (+ EN), indexée, encore sans bandes.
+2. Sous-page ville `/villes/[slug]/parcs` puis `/sport` (indexées).
+3. Page agenda (hub).
