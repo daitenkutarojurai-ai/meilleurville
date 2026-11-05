@@ -1325,3 +1325,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hub `/louer-ou-acheter` (classement national).
 2. Sous-pages ville air / bruit / eau (quartet environnemental).
 3. Page agenda.
+
+## 2026-11-05 ~03:00 UTC — hub `/louer-ou-acheter` (FR) + EN `/own-vs-rent`
+
+**Surface** : classement national prix/loyer, deux locales. Avant : un seul bloc sur fond de page, `Badge` gris, deux tableaux en `Card` à en-tête gris, paragraphes éditoriaux en vrac.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🏠 indigo, titre partiel en `.gradient-text`, pilules `grad-head-0` + blanches indigo ; top 15 acheteurs en `band-indigo` (tableau blanc à ombre indigo, en-tête lavande `#4338CA`, scroll horizontal de secours) ; top 15 locataires en `band-pink` (en-tête `#9D174D`) ; mises en garde éditoriales (FR) + note d'URL dans une carte blanche en `band-sky`. h2 en `.gradient-text`. Imports `Card`/`Badge` retirés. Pastilles de verdict et vert/rouge de l'écart mensuel conservés (niveaux). Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/louer-ou-acheter` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé. Vu en passant (préexistant, hors design) : le HTML rendu colle « 593villes » dans l'intro alors que la source a l'espace.
+
+**Prochaines surfaces candidates**
+1. Sous-pages ville air / bruit / eau (quartet environnemental).
+2. Page agenda.
+3. Sous-page ville `/villes/[slug]/louer-ou-acheter` (+ EN `own-vs-rent`), suite logique de ce hub.
