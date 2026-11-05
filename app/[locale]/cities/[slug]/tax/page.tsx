@@ -4,6 +4,7 @@ import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { fiscalityForCity, TIER_TONE } from "@/lib/fiscalite";
 import { FISC_EN, fiscStateEn } from "@/lib/fiscalite-en";
@@ -90,7 +91,8 @@ export default async function EnCityTax({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 pt-12 pb-6">
+      <section className="relative overflow-hidden bg-aurora pt-12 pb-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <nav className="mb-3 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -104,19 +106,25 @@ export default async function EnCityTax({ params }: Props) {
           <Coins className="h-3.5 w-3.5" />
           {en.label}
         </div>
-        <h1 className="mt-4 text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tracking-tight">
-          Property tax in {city.name}
-        </h1>
+        <div className="mt-4 flex items-center gap-3">
+          <EmojiBadge emoji="🧾" tone="pink" />
+          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tracking-tight">
+            <span className="gradient-text">Property tax</span> in {city.name}
+          </h1>
+        </div>
         <p className="mt-3 text-[var(--text-secondary)] leading-relaxed">
           Department-level 2026 estimate ({city.department}). Annual property tax, the
           second-home tax and the transfer duties to budget for before buying.
         </p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 pb-12">
+      {/* Disclaimer + three key figures — indigo band */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
         {/* Disclaimer first, before any number */}
-        <div className="mb-8 rounded-2xl border border-amber-500/30 bg-amber-500/5 p-4 flex gap-3">
-          <AlertTriangle className="h-5 w-5 text-amber-700 shrink-0 mt-0.5" />
+        <div className="mb-8 rounded-2xl bg-white p-4 flex gap-3 ring-1 ring-[#FBCFE8] shadow-[0_10px_28px_-18px_rgba(219,39,119,0.5)]">
+          <AlertTriangle className="h-5 w-5 text-[#BE185D] shrink-0 mt-0.5" />
           <div className="text-sm text-[var(--text-primary)] leading-relaxed">
             <strong>Department-level estimate.</strong> The figures below are ranges computed at
             the level of the {city.department} department. The municipal property tax and the
@@ -127,24 +135,24 @@ export default async function EnCityTax({ params }: Props) {
         </div>
 
         {/* 3 cards */}
-        <div className="grid gap-4 sm:grid-cols-3 mb-8">
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+        <div className="grid gap-4 sm:grid-cols-3">
+          <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
             <div className="flex items-center gap-2 mb-3">
-              <HomeIcon className="h-4 w-4 text-[var(--text-secondary)]" />
-              <span className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">Property tax</span>
+              <span aria-hidden className="inline-flex h-8 w-8 items-center justify-center rounded-lg grad-head-0"><HomeIcon className="h-4 w-4" /></span>
+              <span className="text-xs uppercase tracking-wider text-[#4338CA] font-semibold">Property tax</span>
             </div>
-            <p className="text-xl font-bold text-[var(--text-primary)] font-mono-data mb-1">{en.taxeFonciere}</p>
+            <p className="text-2xl font-bold text-[var(--text-primary)] font-mono-data mb-1">{en.taxeFonciere}</p>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
               Older 2-bed flat. Paid by the owner every year (taxe foncière).
             </p>
           </div>
 
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+          <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
             <div className="flex items-center gap-2 mb-3">
-              <FileText className="h-4 w-4 text-[var(--text-secondary)]" />
-              <span className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">Second-home tax</span>
+              <span aria-hidden className="inline-flex h-8 w-8 items-center justify-center rounded-lg grad-head-1"><FileText className="h-4 w-4" /></span>
+              <span className="text-xs uppercase tracking-wider text-[#4338CA] font-semibold">Second-home tax</span>
             </div>
-            <p className="text-xl font-bold text-[var(--text-primary)] font-mono-data mb-1">
+            <p className="text-2xl font-bold text-[var(--text-primary)] font-mono-data mb-1">
               {f.zoneTendue ? "+0 to +60%" : "Standard"}
             </p>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
@@ -154,26 +162,32 @@ export default async function EnCityTax({ params }: Props) {
             </p>
           </div>
 
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+          <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
             <div className="flex items-center gap-2 mb-3">
-              <Coins className="h-4 w-4 text-[var(--text-secondary)]" />
-              <span className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">Transfer duties</span>
+              <span aria-hidden className="inline-flex h-8 w-8 items-center justify-center rounded-lg grad-head-2"><Coins className="h-4 w-4" /></span>
+              <span className="text-xs uppercase tracking-wider text-[#4338CA] font-semibold">Transfer duties</span>
             </div>
-            <p className="text-xl font-bold text-[var(--text-primary)] font-mono-data mb-1">~{dmtoTotal}%</p>
+            <p className="text-2xl font-bold text-[var(--text-primary)] font-mono-data mb-1">~{dmtoTotal}%</p>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
               Resale standard. On a €280,000 purchase, budget ~€{dmtoExample.toLocaleString("en-GB")} in closing costs.
             </p>
           </div>
         </div>
 
+        </div>
+      </section>
+
+      {/* Takeaway + how property tax works — sky band */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <div className="space-y-6">
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">The takeaway for {city.name}</h2>
+          <div className="rounded-2xl bg-white p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3"><span className="gradient-text">The takeaway for {city.name}</span></h2>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{en.notes}</p>
           </div>
 
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">How property tax is calculated</h2>
+          <div className="rounded-2xl bg-white p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4"><span className="gradient-text">How property tax is calculated</span></h2>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-4">
               The annual taxe foncière = cadastral rental base (the theoretical gross rental value
               ÷ 2) × (municipal rate + department rate), plus a 3% state management fee. The base is
@@ -198,8 +212,16 @@ export default async function EnCityTax({ params }: Props) {
             </p>
           </div>
 
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">The second-home tax (THRS)</h2>
+        </div>
+        </div>
+      </section>
+
+      {/* Second-home tax + transfer duties — pink band */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <div className="space-y-6">
+          <div className="rounded-2xl bg-white p-6 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.5)]">
+            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4"><span className="gradient-text">The second-home tax (THRS)</span></h2>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-4">
               Abolished for primary residences since 2023, but kept for second homes. {f.zoneTendue
                 ? `${city.department} contains communes classified as "zone tendue" (decree 2023-822) — those communes may apply a +5% to +60% surcharge to discourage vacant or second homes.`
@@ -212,8 +234,8 @@ export default async function EnCityTax({ params }: Props) {
             </p>
           </div>
 
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">Transfer duties (&quot;notary fees&quot;)</h2>
+          <div className="rounded-2xl bg-white p-6 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.5)]">
+            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4"><span className="gradient-text">Transfer duties (&quot;notary fees&quot;)</span></h2>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-3">
               Paid when you buy. For a resale property in {city.name}: <strong>~{dmtoTotal}%</strong> of
               the sale price — about <strong>€{dmtoExample.toLocaleString("en-GB")}</strong> on a €280,000 purchase.
@@ -238,9 +260,17 @@ export default async function EnCityTax({ params }: Props) {
             </p>
           </div>
 
-          <div className="rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-6">
+        </div>
+        </div>
+      </section>
+
+      {/* Precise estimate + links — lilac band */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <div>
+          <div className="rounded-2xl bg-white p-6 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.5)]">
             <h2 className="text-base font-bold text-[var(--text-primary)] mb-3 flex items-center gap-2">
-              <Info className="h-5 w-5 text-[var(--accent)]" />
+              <span aria-hidden className="inline-flex h-8 w-8 items-center justify-center rounded-lg grad-head-4"><Info className="h-4 w-4" /></span>
               For a precise estimate
             </h2>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-4">
@@ -263,24 +293,26 @@ export default async function EnCityTax({ params }: Props) {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-3">
-          <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">
+        <div className="mt-8 flex flex-wrap gap-3">
+          <Link href={`/cities/${slug}`} className="rounded-full bg-gradient-to-r from-[#4F46E5] to-[#DB2777] px-5 py-2.5 text-white font-semibold shadow-sm transition-opacity hover:opacity-90">
             Back to {city.name}
           </Link>
-          <Link href={`/cities/${slug}/cost-of-living`} className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">
+          <Link href={`/cities/${slug}/cost-of-living`} className="rounded-full bg-white px-5 py-2.5 font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]">
             Cost of living
           </Link>
-          <Link href={`/cities/${slug}/own-vs-rent`} className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">
+          <Link href={`/cities/${slug}/own-vs-rent`} className="rounded-full bg-white px-5 py-2.5 font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]">
             Renting vs buying
           </Link>
         </div>
+        </div>
       </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-
-        <FeedbackWidget />
-
-      </div>
+      {/* Feedback — white band */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
 
       <Footer />
     </main>
