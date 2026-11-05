@@ -60050,6 +60050,110 @@ export const EN_GUIDES: EnGuide[] = [
       "2026",
     ],
   },
+  {
+    slug: "french-cities-access-to-gps-measured-413-cities-2026",
+    title: "Access to a GP in 413 French cities: the measured ranking (2026)",
+    metaTitle: "GP access by French city: ranking of 413 cities (2026)",
+    metaDesc: "Villenave-d'Ornon 8.67, Bayonne 6.66, Houilles 1.15: access to general practitioners (DREES APL 2024) in 413 French cities, with ERs and pharmacies.",
+    category: "lifestyle",
+    emoji: "🩺",
+    readMinutes: 9,
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    intro: "Across the 413 French cities of 20,000 residents or more that the health ministry's statistics office (DREES) covers in its 2024 accessibility indicator (APL), access to general practitioners is 3.67 consultations per resident per year at the median, against 3.72 for France as a whole. It runs from 8.67 in Villenave-d'Ornon, 6.89 in Hérouville-Saint-Clair and 6.66 in Bayonne down to 1.15 in Houilles, 1.47 in Brétigny-sur-Orge and 1.54 in Vélizy-Villacoublay. 65 cities fall below the 2.5 line that defines an under-served zone, and 60 of them are in the Paris region. This guide ranks cities on that measure, sets it against GP counts, pharmacies and emergency departments, and explains why a surgery around the corner says little about access to care.",
+    sections: [
+      {
+        heading: "What does the APL measure, and why not just count doctors?",
+        body: "The APL (accessibilité potentielle localisée) is the number of general-practice consultations available per resident per year, computed by DREES for every commune. It uses the actual activity of the doctors in the commune and in neighbouring communes, weighted by distance, against a demand adjusted for the age of the population. Counting the doctors based in a town therefore tells you something different: a town with no surgery but next to a medical hub can score well, while a town full of surgeries can score badly if its doctors are close to retirement or overbooked. The regulatory threshold for an under-served zone is 2.5; below 1.5, access is very poor. Every figure here is the 2024 value for the 413 cities of 20,000 residents or more that are covered (Mamoudzou, outside the scope, is missing)."
+      },
+      {
+        heading: "Where is access to GPs best?",
+        body: "Around Bordeaux, Nancy, the Basque coast and Strasbourg, and on Réunion. On the mainland, Villenave-d'Ornon (8.67), Hérouville-Saint-Clair (6.89), Eysines (6.84), Vandœuvre-lès-Nancy (6.81), Bayonne (6.66), Talence (6.55), Strasbourg (6.53) and Anglet (6.49) lead; on Réunion, Saint-Louis (8.85), Saint-Paul (6.75) and Saint-Pierre (6.65). Then come Bordeaux (6.25), Lille (6.21), Saint-Maur-des-Fossés (6.19), Angers (5.96), Mandelieu-la-Napoule (5.96), Amiens (5.95), Illkirch-Graffenstaden (5.92), Vannes (5.87) and La Rochelle (5.80). 57 of the 413 cities score 5 or more. Because the APL also counts neighbouring communes' doctors, a town next to a big hub such as Bordeaux, Nancy or Strasbourg draws on their surgeries: Villenave-d'Ornon has only 37 GPs recorded within its borders for 42,185 residents, yet its APL is the highest on the mainland."
+      },
+      {
+        heading: "Where is access weakest?",
+        body: "Almost entirely in the inner and outer suburbs of Paris. Houilles (1.15) is the only mainland city below 1.2; next come Brétigny-sur-Orge (1.47), Vélizy-Villacoublay (1.54), Savigny-sur-Orge (1.57), Goussainville (1.58), Pontoise (1.65), Maisons-Laffitte (1.67), Argenteuil (1.68), Vigneux-sur-Seine (1.70), Ris-Orangis (1.77) and Corbeil-Essonnes (1.79). Outside the Paris region only five cities fall below 2.5: Saint-Laurent-du-Maroni (1.46), Vierzon (1.74), Oyonnax (2.27), Dreux (2.30) and Vernon (2.33). Vierzon has just 8 GPs recorded for 25,254 residents. Three cities are below 1.5 and 65 below 2.5, which is 16% of the 413."
+      },
+      {
+        heading: "Which regions do best?",
+        body: "Among regions with at least ten cities of 20,000 or more, Brittany has the highest median (4.9, 10 cities), ahead of Réunion (4.9, 10 cities), Nouvelle-Aquitaine (4.6, 30 cities) and Grand Est (4.4, 23 cities). Provence-Alpes-Côte d'Azur and Hauts-de-France follow (4.1), then Occitanie (4.0), Pays de la Loire (3.9), Bourgogne-Franche-Comté (3.8), Auvergne-Rhône-Alpes (3.7) and Normandy (3.6). Centre-Val de Loire (3.1, 11 cities) and above all Île-de-France (2.75, 153 cities) close the list. The Paris region holds more than a third of the cities in the ranking and 60 of the 65 below the threshold: it is the region with the weakest GP access among larger cities, even though Paris itself, at 5.50, is well above the line."
+      },
+      {
+        heading: "Are big cities better served?",
+        body: "Clearly. The median is 3.38 for the 282 cities of 20,000 to 50,000 residents, 4.01 for the 89 cities of 50,000 to 100,000 and 4.83 for the 42 cities of 100,000 or more. Among the largest, the best are Saint-Paul (6.75), Strasbourg (6.53), Bordeaux (6.25), Lille (6.21), Angers (5.96), Amiens (5.95), Caen (5.52) and Paris (5.50), then Rouen (5.41), Brest (5.34), Metz (5.26) and Marseille (5.20). In the middle: Montpellier (5.01), Reims (4.97), Tours (4.88), Nice (4.86), Rennes (4.77), Nantes (4.69), Lyon (4.60) and Toulouse (4.41). The least well served: Saint-Denis (4.11), Clermont-Ferrand and Toulon (4.10), Grenoble (3.96), Montreuil (3.93), Mulhouse (3.90), Nîmes and Villeurbanne (3.88), Saint-Étienne (3.81), Le Havre (3.71), Le Mans (3.35), Boulogne-Billancourt (3.12), Orléans (3.04) and Argenteuil (1.68)."
+      },
+      {
+        heading: "Why can a town full of surgeries still score badly?",
+        body: "Because the number of surgeries is not the same as doctors' activity, nor as demand. The median is 8.7 independent GPs per 10,000 residents across the 413 cities. Taverny has 18.5 per 10,000 but an APL of 2.27; Roissy-en-Brie has 17.9 for an APL of 2.27; Chelles 15.3 for 2.10; Le Bouscat 15.7 for 2.57. Conversely, Saint-Ouen-sur-Seine has only 4.0 per 10,000 and an APL of 5.51, Clichy 4.8 for 4.76 and Joinville-le-Pont 4.8 for 5.24, because the APL also counts doctors in neighbouring communes. Eysines, with 78 GPs for 24,436 residents, combines 31.9 per 10,000 with an APL of 6.84: there, the two measures agree."
+      },
+      {
+        heading: "What about emergency departments and pharmacies?",
+        body: "168 of the 413 cities, 41%, have no emergency department within their borders. For those, the nearest hospital with one is 3.5 km away at the median as the crow flies (centre to centre), and 10 km or more in eight cases, including Couëron (14.1 km, Nantes), Saint-Médard-en-Jalles (13.7 km, Pessac) and Vertou (11.8 km, Nantes); this is a distance, not a travel time. Houilles has none: the nearest is in Nanterre, 3.4 km away. 186 cities have exactly one, 59 have two or more; Paris has 16 and Marseille 11. For pharmacies the median is 3.0 per 10,000 residents: Biarritz has 7.4, Menton 5.6, Dax 5.5, Épernay 5.4 and Fort-de-France 5.2."
+      },
+      {
+        heading: "Which cities combine good GP access and care on the spot?",
+        body: "Bordeaux (APL 6.25, 452 GPs, 3 emergency departments), Strasbourg (6.53, 463, 4), Lille (6.21, 309, 4), Amiens (5.95, 176, 2), Angers (5.96, 248, 2), Bayonne (6.66, 94 GPs, 2 departments) and Vannes (5.87, 109 GPs for 54,955 residents) combine an APL above 5.8 with at least one emergency department. At the other end, Houilles (1.15, 13 GPs, no emergency department in town) and Vierzon (1.74, 8 GPs) pair weak GP access with a thin local offer. Versailles (2.70, 81 GPs) and Saint-Germain-en-Laye (2.39, 38 GPs, nearest emergency department in Maisons-Laffitte, 4.1 km) show that an affluent town is not immune: the latter sits below the 2.5 threshold."
+      },
+      {
+        heading: "How should you use this before moving?",
+        body: "Three ways. If you need a family doctor (médecin traitant), look at the APL of the commune and its neighbours rather than the number of surgeries, then check Doctolib and the local CPAM office to see whether GPs are taking new patients: the APL measures supply, not availability. If you have a chronic condition, a small child or are over 70, look at the nearest emergency department and at specialists, which a GP indicator does not cover. If you live in a Paris suburb, a low APL can be offset by seeing doctors in Paris, provided you accept the commute. Limits: one vintage (2024), GPs only, communes under 20,000 residents left out, and gaps of a few tenths that do not separate two cities. Sources: DREES (APL 2024) and INSEE (permanent equipment base 2025, 2022 census)."
+      }
+    ],
+    relatedCities: ["villenave-d-ornon", "herouville-saint-clair", "eysines", "bayonne", "strasbourg", "bordeaux", "lille", "vannes", "houilles", "vierzon", "versailles", "saint-germain-en-laye", "argenteuil", "paris"],
+    tags: ["access to doctors", "APL", "general practitioners", "medical deserts", "emergency rooms", "pharmacies", "DREES", "healthcare by city", "under-served zone"],
+  },
+  {
+    slug: "french-cities-lowest-and-highest-unemployment-414-cities-2026",
+    title: "Unemployment by French city: the lowest and highest rates (414 cities)",
+    metaTitle: "Unemployment by French city: lowest and highest rates",
+    metaDesc: "Le Plessis-Robinson 6.8%, Vertou 6.9%, Maubeuge 26.7%: census-based unemployment in 414 French cities of 20,000+ residents, with local salaries.",
+    category: "budget",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    intro: "Across the 414 French communes of 20,000 residents or more, the census-based unemployment rate for 2023 (ages 15-64) is 13.1% at the median, against 11.4% for France as a whole. It runs from 6.8% in Le Plessis-Robinson, 6.9% in Vertou and 7.0% in Ajaccio and Vélizy-Villacoublay up to 26.7% in Maubeuge, 25.2% in Roubaix and 23.5% in Creil on the mainland, and above 30% in several cities on Réunion and in French Guiana. This guide ranks cities on that INSEE figure, sets it against local salaries and job growth, and explains why it can never be compared with the quarterly ILO rate.",
+    sections: [
+      {
+        heading: "Which unemployment rate is this?",
+        body: "Census unemployment: the share of active 15-64 year-olds who report themselves as unemployed, for the people who live in the commune, from INSEE's 2023 census. It is self-declared, so it runs higher than the ILO rate published each quarter: 11.4% here for the whole country, against roughly 7.5% on the ILO measure. The two cannot be compared. What the census rate has going for it is that it exists for every commune and is computed the same way everywhere, which makes it a sound tool for ranking. It describes residents, not the jobs located in the city: an office town can have few unemployed residents and many jobs held by people who live elsewhere."
+      },
+      {
+        heading: "Where is unemployment lowest?",
+        body: "In the Hauts-de-Seine and Yvelines suburbs, around Nantes and Bordeaux, and in Ajaccio and Allauch. Le Plessis-Robinson (6.8%), Vertou (6.9%), Ajaccio and Vélizy-Villacoublay (7.0%), Maisons-Laffitte (7.1%), Vincennes (7.3%), Allauch and Carquefou (7.4%), Issy-les-Moulineaux and Chaville (7.5%), Saint-Cloud and Le Chesnay-Rocquencourt (7.6%), Saint-Maur-des-Fossés and Saint-Médard-en-Jalles (7.8%), Couëron (7.9%) and Versailles (8.1%). Only four cities are at 7% or below and fifteen at 8% or below. Many are affluent residential suburbs of the Hauts-de-Seine and Yvelines; Vertou, Carquefou and Couëron belong to the Nantes area, Saint-Médard-en-Jalles to Bordeaux's."
+      },
+      {
+        heading: "Where is unemployment highest?",
+        body: "Outside the overseas departments, Maubeuge (26.7%), Roubaix (25.2%), Agde (23.7%) and Creil (23.5%) close the table. Overseas, Saint-Laurent-du-Maroni reaches 40.4%, Saint-Joseph 35.6%, Saint-Benoît 32.0%, Saint-Louis 31.8%, Saint-André 30.7%, Le Tampon 29.7%, Cayenne 29.0%, Saint-Pierre 27.4%, Sainte-Suzanne 26.8%, Les Abymes 25.3% and Saint-Denis on Réunion 25.3%. 278 of the 414 cities are above the 11.4% national rate, 145 are at 15% or more and 75 at 18% or more. A high rate describes the residents, not the number of jobs in the city: cross it with local jobs before drawing a conclusion."
+      },
+      {
+        heading: "And in the 42 largest cities?",
+        body: "The median for cities of 100,000 or more is 14.6%. The lowest: Boulogne-Billancourt (8.7%), Annecy (8.9%), Paris (10.5%), Lyon (11.1%), Aix-en-Provence (11.2%), Bordeaux (11.8%), Nice and Dijon (12.8%), Villeurbanne, Nantes and Grenoble (13.0 to 13.1%), Brest and Marseille (13.5%), Rennes (13.8%) and Toulouse (14.3%). The highest: Saint-Denis on Réunion (25.3%), Saint-Paul (23.9%), Mulhouse (22.8%), Perpignan (22.5%), Saint-Étienne (19.0%), Amiens (18.8%), Le Havre (18.5%), Montpellier and Saint-Denis near Paris (18.3%) and Nîmes (18.0%). Strasbourg (15.5%) and Lille (15.7%) sit just above the median. Montpellier (18.3%) is far behind Nantes (13.1%) and Rennes (13.8%), two cities of similar size."
+      },
+      {
+        heading: "Which regions have the lowest unemployment?",
+        body: "For cities of 20,000 or more, the lowest median belongs to Île-de-France (11.2%, 155 cities), just ahead of Pays de la Loire (11.3%, 19 cities) and Provence-Alpes-Côte d'Azur (12.2%, 34 cities). Auvergne-Rhône-Alpes and Brittany follow (13.1%), then Nouvelle-Aquitaine (13.3%), Centre-Val de Loire (14.6%), Grand Est (15.5%), Bourgogne-Franche-Comté (15.8%), Occitanie (16.1%) and Normandy (16.7%). Hauts-de-France (19.0%, 29 cities) and Réunion (28.6%, 10 cities) close the list. Regional medians run from 11.2% to 19.0% on the mainland: the region weighs heavily in the rate."
+      },
+      {
+        heading: "Do salaries follow unemployment?",
+        body: "Only weakly: the correlation between a commune's average salary and its unemployment rate is −0.39 across 414 cities. The average monthly net full-time-equivalent salary for private-sector jobs located in the commune is €2,482 at the median, against €2,733 for France. The highest: Saint-Germain-en-Laye (€5,422), Puteaux (€5,152), Courbevoie (€4,942), Meudon (€4,723), Issy-les-Moulineaux (€4,722) and Montrouge (€4,649). The lowest: Saint-Joseph (€1,878), Le Tampon (€1,931), Clichy-sous-Bois (€1,946), Saint-André (€1,975) and Villiers-le-Bel (€2,007). Note that this is the salary of jobs located in the city, not of its residents, and it is an average, pulled up by high earners."
+      },
+      {
+        heading: "Which cities combine low unemployment and good pay?",
+        body: "Nine cities with unemployment of 7.5% or less also offer an average salary above the €2,482 median: Le Plessis-Robinson (6.8% and €4,236), Vertou (6.9% and €2,625), Ajaccio (7.0% and €2,521), Vélizy-Villacoublay (7.0% and €3,968), Maisons-Laffitte (7.1% and €2,860), Vincennes (7.3% and €2,901), Carquefou (7.4% and €2,786), Issy-les-Moulineaux (7.5% and €4,722) and Chaville (7.5% and €2,597). The job-based salary is better read as a signal of the local business mix (head offices, managers, industry) than as the income you will earn: check the city's employment profile and the employers in your own sector."
+      },
+      {
+        heading: "Do local jobs grow where unemployment falls?",
+        body: "Not systematically. Jobs located in the 414 cities have grown 6.9% at the median since 2017, against 6.6% nationally, but 44 cities lost jobs. The biggest gains: Saint-Laurent-du-Maroni (+59.6%), Tremblay-en-France (+52.2%), Roissy-en-Brie (+50.3%), Issy-les-Moulineaux (+36.4%), Brétigny-sur-Orge (+32.1%), Champs-sur-Marne (+30.4%) and Couëron (+29.6%). The biggest losses: Chilly-Mazarin (−13.1%), Bagnolet (−9.2%), Trappes (−7.3%), La Garenne-Colombes (−6.6%), Suresnes (−6.5%), Saint-Cloud (−6.1%) and Béthune (−5.8%). Saint-Cloud is losing local jobs while keeping unemployment at 7.6%: residents' unemployment and a city's jobs are two separate measures."
+      },
+      {
+        heading: "What should you do with this ranking before moving?",
+        body: "Three uses. If you are looking for a job locally, prefer the number of jobs in the commune and their trend to the unemployment rate, which describes residents. If you are mobile, look at the employment area rather than the commune: Carquefou or Vertou give access to the whole Nantes market. If you work remotely or live on outside income, local unemployment matters little to you, but it says something about the social climate and local shops. Limits: a single vintage (2023), communes under 20,000 residents left out, and gaps of a few tenths that do not separate two cities. Sources: INSEE, 2023 census and 2024 all-employees salary base."
+      }
+    ],
+    relatedCities: ["le-plessis-robinson", "vertou", "ajaccio", "versailles", "vincennes", "roubaix", "maubeuge", "perpignan", "mulhouse", "creil", "annecy", "boulogne-billancourt", "puteaux", "issy-les-moulineaux"],
+    tags: ["unemployment by city", "unemployment rate", "jobs by city", "salaries by city", "labour market", "2023 census", "where to find work", "INSEE"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

@@ -11055,6 +11055,11 @@
       "slug": "villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026",
       "title": "Chômage par ville : où le taux est le plus bas, où il est le plus haut (414 villes)",
       "emoji": "💼"
+    },
+    {
+      "slug": "villes-acces-medecin-generaliste-apl-413-villes-2026",
+      "title": "Accès aux médecins généralistes : le classement APL de 413 villes (2026)",
+      "emoji": "🩺"
     }
   ],
   "tags": [
@@ -11809,6 +11814,11 @@
       "count": 4
     },
     {
+      "slug": "apl",
+      "label": "APL",
+      "count": 4
+    },
+    {
       "slug": "bord-de-mer",
       "label": "bord de mer",
       "count": 4
@@ -12076,11 +12086,6 @@
     {
       "slug": "annemasse",
       "label": "Annemasse",
-      "count": 3
-    },
-    {
-      "slug": "apl",
-      "label": "APL",
       "count": 3
     },
     {

@@ -75279,6 +75279,59 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["meilleures-villes-industrie-emploi-stable-france-2025", "acheter-avec-un-seul-salaire-france-2026", "trois-fois-le-loyer-revenu-requis-t2-villes-2026"],
     tags: ["chômage par ville", "taux de chômage", "emploi par ville", "salaires par ville", "marché du travail", "recensement 2023", "villes qui recrutent", "Insee"],
   },
+  {
+    slug: "villes-acces-medecin-generaliste-apl-413-villes-2026",
+    title: "Accès aux médecins généralistes : le classement APL de 413 villes (2026)",
+    metaTitle: "Accès aux médecins par ville : classement APL de 413 villes",
+    metaDesc: "Villenave-d'Ornon 8,67, Bayonne 6,66, Houilles 1,15 : l'accès aux médecins généralistes (APL 2024) dans 413 villes, avec urgences et pharmacies.",
+    category: "lifestyle",
+    emoji: "🩺",
+    readMinutes: 9,
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    intro: "Dans les 413 communes de 20 000 habitants et plus pour lesquelles la DREES publie l'accessibilité potentielle localisée (APL) 2024, l'accès aux médecins généralistes est de 3,67 consultations par an et par habitant en médiane, pour 3,72 à l'échelle de la France. Il va de 8,67 à Villenave-d'Ornon, 6,89 à Hérouville-Saint-Clair et 6,66 à Bayonne, jusqu'à 1,15 à Houilles, 1,47 à Brétigny-sur-Orge et 1,54 à Vélizy-Villacoublay. 65 villes sont sous le seuil de zone sous-dense de 2,5, dont 60 en Île-de-France. Ce guide classe les villes sur cette mesure, la croise avec le nombre de généralistes, les pharmacies et les urgences, et explique pourquoi un cabinet au coin de la rue ne dit rien de l'accès aux soins.",
+    sections: [
+      {
+        heading: "Que mesure l'APL, et pourquoi ne pas compter les médecins ?",
+        body: "L'APL est le nombre de consultations de médecine générale accessibles par an et par habitant, calculé par la DREES pour chaque commune. Il tient compte de l'activité réelle des médecins de la commune et des communes voisines, pondérée par la distance, et d'une demande ajustée à l'âge de la population. Compter les médecins installés dans la ville ne dit donc pas la même chose : une commune sans cabinet mais collée à un pôle médical peut avoir un bon APL, et une commune bien dotée en cabinets peut avoir un mauvais APL si ses médecins sont presque tous proches de la retraite ou surchargés. Le seuil réglementaire de zone sous-dense est de 2,5 ; sous 1,5, l'accès est très faible. Les chiffres de ce guide sont ceux de 2024, pour les 413 villes de 20 000 habitants et plus couvertes (Mamoudzou, hors champ, manque)."
+      },
+      {
+        heading: "Où l'accès aux généralistes est-il le meilleur ?",
+        body: "Dans les agglomérations de Bordeaux, de Nancy, du Pays basque et de Strasbourg, et à La Réunion. Villenave-d'Ornon (8,67), Hérouville-Saint-Clair (6,89), Eysines (6,84), Vandœuvre-lès-Nancy (6,81), Bayonne (6,66), Talence (6,55), Strasbourg (6,53) et Anglet (6,49) dominent le continent ; Saint-Louis (8,85), Saint-Paul (6,75) et Saint-Pierre (6,65) en tête de La Réunion. Suivent Bordeaux (6,25), Lille (6,21), Saint-Maur-des-Fossés (6,19), Angers (5,96), Mandelieu-la-Napoule (5,96), Amiens (5,95), Illkirch-Graffenstaden (5,92), Vannes (5,87) et La Rochelle (5,80). 57 villes sur 413 sont à 5 ou plus. L'APL comptant aussi les médecins des communes voisines, une ville collée à un grand pôle comme Bordeaux, Nancy ou Strasbourg profite de leurs cabinets : Villenave-d'Ornon n'a que 37 généralistes recensés sur place pour 42 185 habitants, et son APL est pourtant le plus haut du continent."
+      },
+      {
+        heading: "Où l'accès est-il le plus faible ?",
+        body: "Presque exclusivement en grande couronne et en petite couronne d'Île-de-France. Houilles (1,15) est la seule ville du continent sous 1,2 ; viennent ensuite Brétigny-sur-Orge (1,47), Vélizy-Villacoublay (1,54), Savigny-sur-Orge (1,57), Goussainville (1,58), Pontoise (1,65), Maisons-Laffitte (1,67), Argenteuil (1,68), Vigneux-sur-Seine (1,70), Ris-Orangis (1,77) et Corbeil-Essonnes (1,79). Hors Île-de-France, cinq villes seulement passent sous 2,5 : Saint-Laurent-du-Maroni (1,46), Vierzon (1,74), Oyonnax (2,27), Dreux (2,30) et Vernon (2,33). Vierzon n'a que 8 généralistes recensés pour 25 254 habitants. 3 villes sont sous 1,5 et 65 sous 2,5, soit 16 % des 413 villes."
+      },
+      {
+        heading: "Quelles régions s'en sortent le mieux ?",
+        body: "Pour les régions qui comptent au moins dix villes de 20 000 habitants et plus, la médiane la plus haute est celle de la Bretagne (4,9, 10 villes), devant La Réunion (4,9, 10 villes), la Nouvelle-Aquitaine (4,6, 30 villes) et le Grand Est (4,4, 23 villes). Suivent la Provence-Alpes-Côte d'Azur et les Hauts-de-France (4,1), l'Occitanie (4,0), les Pays de la Loire (3,9), la Bourgogne-Franche-Comté (3,8), l'Auvergne-Rhône-Alpes (3,7) et la Normandie (3,6). Le Centre-Val de Loire (3,1, 11 villes) et surtout l'Île-de-France (2,75, 153 villes) ferment la liste. L'Île-de-France compte plus d'un tiers des villes du classement et 60 des 65 villes sous le seuil : la région est celle où l'accès aux généralistes est le plus faible dans les villes de plus de 20 000 habitants, alors que Paris, avec 5,50, est bien au-dessus du seuil."
+      },
+      {
+        heading: "Les grandes villes sont-elles mieux servies ?",
+        body: "Oui, nettement. La médiane est de 3,38 pour les 282 villes de 20 000 à 50 000 habitants, 4,01 pour les 89 villes de 50 000 à 100 000 et 4,83 pour les 42 villes de 100 000 habitants et plus. Parmi ces dernières, les meilleures sont Saint-Paul (6,75), Strasbourg (6,53), Bordeaux (6,25), Lille (6,21), Angers (5,96), Amiens (5,95), Caen (5,52) et Paris (5,50), puis Rouen (5,41), Brest (5,34), Metz (5,26) et Marseille (5,20). Au milieu : Montpellier (5,01), Reims (4,97), Tours (4,88), Nice (4,86), Rennes (4,77), Nantes (4,69), Lyon (4,60), Toulouse (4,41). Les moins bien servies : Saint-Denis (4,11), Clermont-Ferrand et Toulon (4,10), Grenoble (3,96), Montreuil (3,93), Mulhouse (3,90), Nîmes et Villeurbanne (3,88), Saint-Étienne (3,81), Le Havre (3,71), Le Mans (3,35), Boulogne-Billancourt (3,12), Orléans (3,04) et Argenteuil (1,68)."
+      },
+      {
+        heading: "Pourquoi une ville bien dotée en cabinets peut-elle avoir un mauvais APL ?",
+        body: "Parce que le nombre de cabinets ne se confond ni avec l'activité des médecins ni avec la demande. La médiane est de 8,7 généralistes libéraux pour 10 000 habitants dans les 413 villes. Taverny en compte 18,5 pour 10 000 mais son APL est de 2,27 ; Roissy-en-Brie 17,9 pour un APL de 2,27 ; Chelles 15,3 pour 2,10 ; Le Bouscat 15,7 pour 2,57. À l'inverse, Saint-Ouen-sur-Seine n'en compte que 4,0 pour 10 000 habitants et affiche un APL de 5,51, Clichy 4,8 pour 4,76 et Joinville-le-Pont 4,8 pour 5,24, parce que l'APL compte aussi les médecins des communes voisines. Eysines, avec 78 généralistes pour 24 436 habitants, cumule 31,9 pour 10 000 et 6,84 d'APL : là, les deux mesures concordent."
+      },
+      {
+        heading: "Et pour les urgences et les pharmacies ?",
+        body: "168 des 413 villes, soit 41 %, n'ont aucun service d'urgences sur leur territoire. Pour celles-ci, l'hôpital le plus proche est à 3,5 km en médiane à vol d'oiseau (centre à centre) et à 10 km ou plus dans huit cas, dont Couëron (14,1 km, Nantes), Saint-Médard-en-Jalles (13,7 km, Pessac) et Vertou (11,8 km, Nantes) ; la distance n'est pas un temps de trajet. Houilles n'a pas d'urgences : le service le plus proche est à Nanterre, à 3,4 km. 186 villes en ont exactement un, 59 en ont deux ou plus ; Paris en compte 16, Marseille 11. Pour les pharmacies, la médiane est de 3,0 pour 10 000 habitants : Biarritz en compte 7,4, Menton 5,6, Dax 5,5, Épernay 5,4 et Fort-de-France 5,2."
+      },
+      {
+        heading: "Quelles villes réunissent bon accès et soins sur place ?",
+        body: "Bordeaux (APL 6,25, 452 généralistes, 3 services d'urgences), Strasbourg (6,53, 463, 4), Lille (6,21, 309, 4), Amiens, Angers, Bayonne (6,66, 94 généralistes, 2 services) et Vannes (5,87, 109 généralistes pour 54 955 habitants) cumulent un APL supérieur à 5,8 et au moins un service d'urgences. À l'autre bout, Houilles (1,15, 13 généralistes, aucun service d'urgences sur place) et Vierzon (1,74, 8 généralistes) cumulent faible accès aux généralistes et offre locale mince. Versailles (2,70, 81 généralistes) et Saint-Germain-en-Laye (2,39, 38 généralistes, urgences les plus proches à Maisons-Laffitte, 4,1 km) montrent qu'une ville aisée n'est pas à l'abri : la seconde est sous le seuil de 2,5."
+      },
+      {
+        heading: "Que faire de ce classement avant de déménager ?",
+        body: "Trois usages. Si vous cherchez un médecin traitant, regardez l'APL de la commune et de ses voisines plutôt que le nombre de cabinets, puis vérifiez sur Doctolib et auprès de la CPAM locale si des généralistes acceptent de nouveaux patients : l'APL mesure l'offre, pas la disponibilité. Si vous avez une maladie chronique, un enfant en bas âge ou plus de 70 ans, regardez le service d'urgences le plus proche et les spécialistes, que l'APL aux généralistes ne couvre pas. Si vous habitez une banlieue francilienne, un APL faible peut se compenser en consultant à Paris, à condition d'accepter le trajet. Limites : un seul millésime (2024), les médecins généralistes seulement, les communes de moins de 20 000 habitants hors classement, et des écarts de quelques dixièmes qui ne séparent pas deux villes. Sources : DREES (APL 2024) et Insee (base permanente des équipements 2025, recensement 2022)."
+      }
+    ],
+    relatedCities: ["villenave-d-ornon", "herouville-saint-clair", "eysines", "bayonne", "strasbourg", "bordeaux", "lille", "vannes", "houilles", "vierzon", "versailles", "saint-germain-en-laye", "argenteuil", "paris"],
+    relatedGuides: ["deserts-medicaux-france-villes-eviter-2026", "meilleures-villes-sante-hopital-medecins-france-2025", "professions-sante-infirmier-medecin-quelle-ville-2026"],
+    tags: ["accès aux médecins", "APL", "médecins généralistes", "déserts médicaux", "urgences", "pharmacies", "DREES", "santé par ville", "zone sous-dense"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
