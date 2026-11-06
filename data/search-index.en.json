@@ -10360,6 +10360,21 @@
       "slug": "french-cities-lowest-and-highest-unemployment-414-cities-2026",
       "title": "Unemployment by French city: the lowest and highest rates (414 cities)",
       "emoji": "💼"
+    },
+    {
+      "slug": "landlord-rent-guarantee-gli-vs-visale-france-2026",
+      "title": "Unpaid-rent cover in France: GLI insurance vs the Visale state guarantee",
+      "emoji": "🔐"
+    },
+    {
+      "slug": "scpi-vs-buying-to-let-france-2026",
+      "title": "SCPI or buying to let in France: how the two property routes compare",
+      "emoji": "📈"
+    },
+    {
+      "slug": "buying-a-viager-in-france-2026",
+      "title": "Buying a viager in France: how the life-annuity property sale works and where it goes wrong",
+      "emoji": "⏳"
     }
   ],
   "tags": [
@@ -10444,14 +10459,14 @@
       "count": 63
     },
     {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
+      "slug": "buying-property-france",
+      "label": "buying property france",
       "count": 62
     },
     {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 61
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 62
     },
     {
       "slug": "international-students",
@@ -11061,6 +11076,11 @@
     {
       "slug": "quimper",
       "label": "quimper",
+      "count": 3
+    },
+    {
+      "slug": "renting-in-france",
+      "label": "renting in france",
       "count": 3
     },
     {

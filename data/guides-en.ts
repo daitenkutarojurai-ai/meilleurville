@@ -60154,6 +60154,136 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["le-plessis-robinson", "vertou", "ajaccio", "versailles", "vincennes", "roubaix", "maubeuge", "perpignan", "mulhouse", "creil", "annecy", "boulogne-billancourt", "puteaux", "issy-les-moulineaux"],
     tags: ["unemployment by city", "unemployment rate", "jobs by city", "salaries by city", "labour market", "2023 census", "where to find work", "INSEE"],
   },
+  {
+    slug: "landlord-rent-guarantee-gli-vs-visale-france-2026",
+    title: "Unpaid-rent cover in France: GLI insurance vs the Visale state guarantee",
+    metaTitle: "GLI vs Visale 2026: Unpaid-Rent Cover in France",
+    metaDesc:
+      "Landlords in France: GLI private unpaid-rent insurance vs the free Visale state guarantee. Who is eligible, what each covers, cost, and how to choose.",
+    category: "budget",
+    emoji: "🔐",
+    readMinutes: 7,
+    publishedAt: "2026-11-06",
+    updatedAt: "2026-11-06",
+    intro:
+      "If you let a flat in France, or rent one as a foreigner with no French guarantor, two tools decide how risky the lease is: GLI (garantie loyers impayés, private unpaid-rent insurance bought by the landlord) and Visale (a free guarantee from Action Logement, the employer-funded housing body). Short answer: if the tenant is eligible for Visale, use it; if not, GLI is the usual fallback. Eligibility rules, caps and premiums change, so check each on the official site before signing.",
+    sections: [
+      {
+        heading: "What is GLI?",
+        body: "GLI is an insurance policy the landlord pays for. It reimburses unpaid rent and service charges, usually pays legal and bailiff costs of recovering them, and often covers a capped amount of damage to the flat. Insurers price it as a percentage of annual rent including charges; expect a low single-digit percentage, and get several quotes because the spread between insurers is wide. To accept a tenant, the insurer applies its own screening: typically a stable contract or public-sector job, rent below roughly a third of income, and no recent payment incidents. A tenant who fails that screening is simply refused cover, which is the main weakness for foreign newcomers with a short work history."
+      },
+      {
+        heading: "What is Visale?",
+        body: "Visale is a guarantee, not insurance the tenant buys: Action Logement stands as guarantor for the tenant, at no cost to either side. It covers unpaid rent and charges for a fixed number of months and a capped amount of damage, and Action Logement then pursues the tenant for the money. It targets people who struggle to find a French guarantor: young people (broadly 18 to 30), students and apprentices, and employees recently hired or moving for work. A rent ceiling applies, higher in the Paris region than elsewhere. A foreign student or a newcomer on a first French contract is exactly the profile it was built for, which is why it matters to expats."
+      },
+      {
+        heading: "GLI vs Visale side by side",
+        body: "Cost: GLI is paid by the landlord every year, Visale is free. Who qualifies: Visale is limited to defined profiles and a rent ceiling; GLI has no profile list but the insurer screens each tenant and has no rent ceiling in principle, though cover limits apply. Cover: GLI usually offers the larger sum for unpaid rent and for damage; Visale covers a set number of months of rent and a smaller damage amount. Paperwork: Visale runs through one online platform where the tenant requests a certificate and the landlord checks it; GLI goes through an insurer or agency contract. Both pay out only after the landlord declares the unpaid rent within the deadline in the contract, so late declaration is the commonest way to lose cover."
+      },
+      {
+        heading: "When Visale is the better pick",
+        body: "Choose Visale when the tenant fits its profile and the rent is under the ceiling. It costs nothing, removes the need for a family guarantor living in France, and landlords can accept it without taking on an insurance contract. For a student or a young worker arriving from abroad it is often the only way to be taken seriously by agencies, since most French landlords still ask for a French-resident guarantor. Ask for the Visale certificate early in the search, not after you have found the flat."
+      },
+      {
+        heading: "When GLI makes sense",
+        body: "GLI fits when the tenant is outside Visale's profile (older, higher rent, self-employed with solid accounts) and the landlord wants cover beyond a guarantor. It is also common with managing agents, who bundle it in their service. The cost is real, so it is worth weighing it against the deposit and the rent at stake. Note that French law restricts stacking a personal guarantor on top of GLI: with insurance in place the landlord generally cannot also demand a family guarantor, with exceptions for students and apprentices. A landlord who insists on both is worth questioning."
+      },
+      {
+        heading: "What happens when rent goes unpaid",
+        body: "The landlord first notifies the insurer or Action Logement within the contractual deadline, then sends a formal demand for payment through a bailiff (commissaire de justice). If the tenant does not pay, the landlord asks a court to end the lease and order eviction. This process is long in France, often a year or more from first missed payment to the tenant leaving, and evictions are suspended in winter. GLI and Visale pay the rent in the meantime, within their caps, which is the real value: a landlord without either carries the lost rent and legal costs alone. As a tenant, the practical point is that a guarantee does not erase the debt; the guarantor can recover from you."
+      },
+      {
+        heading: "What this means if you are renting as a newcomer",
+        body: "Start with Visale if you are young or just starting a job: apply online, get the certificate and attach it to every application. If you do not qualify, ask the landlord or agency whether they hold GLI and what screening it uses before you spend time on a file. Other options are a guarantor service for tenants (paid, typically a percentage of rent), a larger deposit where the landlord accepts it, or a bank guarantee. Limits of this guide: figures such as ceilings, durations and premiums are deliberately not quoted because they are revised; verify them at Action Logement's Visale site and with your insurer or agency."
+      }
+    ],
+    relatedCities: ["lille","rennes","tours","montpellier","strasbourg"],
+    tags: ["GLI","Visale","unpaid rent insurance","rental guarantee","renting in France","landlords","Action Logement","guarantor"],
+  },
+  {
+    slug: "scpi-vs-buying-to-let-france-2026",
+    title: "SCPI or buying to let in France: how the two property routes compare",
+    metaTitle: "SCPI vs Buy-to-Let in France: Which Suits You (2026)",
+    metaDesc:
+      "SCPI property funds vs buying a flat to rent in France: entry cost, fees, tax, liquidity and time spent. A plain comparison by investor profile.",
+    category: "budget",
+    emoji: "📈",
+    readMinutes: 7,
+    publishedAt: "2026-11-06",
+    updatedAt: "2026-11-06",
+    intro:
+      "There are two mainstream ways to put money into French property without living there. You can buy a flat and let it, or you can buy units in a SCPI (société civile de placement immobilier), a pooled property fund that owns dozens of buildings and pays out rent. The choice is less about which yields more than about how much money, time, debt and liquidity you can accept. Figures below are described, not quoted: yields and fees move, so use current fund documents and local rent data.",
+    sections: [
+      {
+        heading: "What you actually buy with buy-to-let",
+        body: "One physical flat, in one town, with one tenant at a time. You usually fund it with a French mortgage over 15 to 25 years, which for a non-resident means a larger deposit and a narrower choice of lenders. You carry the running costs: annual property tax (taxe foncière), building charges (charges de copropriété), landlord's insurance, repairs and empty months between tenants. Gross yield is rent divided by price; net yield is what is left after those costs and tax, and it is clearly lower. Leverage can raise the return on your own money, and the flat is a tangible asset, but the result depends on one address."
+      },
+      {
+        heading: "What you actually buy with a SCPI",
+        body: "Units in a fund run by a management company, which picks and manages the buildings (offices, shops, health, logistics, housing, in France or elsewhere in Europe). Entry is small compared with a flat, often a few hundred euros per unit, and there is no tenant to find. The catch is the cost structure: a subscription fee taken when you buy, typically a noticeable percentage of the amount invested, plus yearly management fees taken from the rent before you see it. The quoted distribution rate is therefore not guaranteed and the unit price can fall; recover the entry fee only over several years, so treat it as a long holding of eight to ten years or more."
+      },
+      {
+        heading: "Tax: where they differ",
+        body: "Rent from a bare let flat is taxed as property income (revenus fonciers) at your marginal rate plus social charges; a furnished let can fall under the LMNP regime, which allows depreciation of the building. SCPI income is also taxed as property income, with fund-level rules and, for foreign property held through the fund, tax treaties that can change the result. Non-residents face French withholding and different social-charge rules. Tax treatment depends on residence, regime and year, so get an adviser's figures on your actual situation rather than relying on headline comparisons."
+      },
+      {
+        heading: "Liquidity and exit",
+        body: "Neither is liquid. A flat takes months to sell, with notary fees and, depending on holding time, capital-gains tax. A SCPI is easier to sell in principle, but in a weak market exits can queue, and the resale price can sit below what you paid because of entry fees. In both cases assume you can be stuck for a while. Do not put money you may need within a few years into either."
+      },
+      {
+        heading: "Which profile fits which route",
+        body: "Buy-to-let suits someone with a sizeable deposit, a long horizon, comfort with debt and landlord duties, and a specific town they understand, such as a university city with steady tenant demand. A SCPI suits someone with smaller sums, no wish to manage anything, and acceptance that costs and fund risk replace the work. If you are an expat, the question of where you are tax-resident often decides more than the product: a French tax adviser (conseiller en gestion de patrimoine) and a notary should run the numbers before you buy."
+      },
+      {
+        heading: "A short checklist before you decide",
+        body: "For a flat: check local rents, vacancy and the building's works history; model net yield after every cost; confirm the mortgage terms for non-residents. For a SCPI: read the fund's key information document, note the entry fee, the management fee, the share of vacant space, the sector and country mix, and the recent change in the unit price rather than only the headline distribution rate. Spread across more than one fund if you go that route. Limits: this guide gives no yield figures on purpose; any number quoted for 2026 should be checked against the latest fund reports and current rents."
+      }
+    ],
+    relatedCities: ["lyon","bordeaux","nantes","toulouse","lille"],
+    tags: ["SCPI","buy-to-let","rental investment","property investing France","LMNP","non-resident investor","yield","REIT alternative"],
+  },
+  {
+    slug: "buying-a-viager-in-france-2026",
+    title: "Buying a viager in France: how the life-annuity property sale works and where it goes wrong",
+    metaTitle: "Buying a Viager in France: Risks and How It Works",
+    metaDesc:
+      "Viager explained for foreign buyers: occupied vs free, bouquet and annuity, how the price is set, the longevity risk, and the legal and ethical pitfalls.",
+    category: "budget",
+    emoji: "⏳",
+    readMinutes: 7,
+    publishedAt: "2026-11-06",
+    updatedAt: "2026-11-06",
+    intro:
+      "A viager is a French way to sell a home: the owner, usually elderly, receives a lump sum up front (the bouquet) and a monthly annuity (the rente) for life, and the buyer gets the property at a discount. It has no close equivalent in many countries, so it surprises foreign buyers. The discount is real, but so is the risk: nobody knows how long the seller will live, and the arithmetic can turn against you.",
+    sections: [
+      {
+        heading: "How a viager works",
+        body: "The seller is the creditor of the annuity (crédirentier); the buyer is its debtor (débirentier). The buyer pays the bouquet at signing, then the annuity every month until the seller dies, normally indexed to inflation. In a viager occupé (occupied), the seller keeps living in the home, and the buyer takes possession only at death, in exchange for a bigger discount. In a viager libre (free), the buyer gets the home immediately and can live in it or let it, so the discount is smaller. Most deals are occupied. The seller's age drives the price: the older they are, the shorter the expected annuity and the larger the buyer's gain on paper."
+      },
+      {
+        heading: "How the price is built",
+        body: "A notary or specialist agent starts from the home's market value as if it were free, then deducts for occupation (the right to stay is worth something) and sets the bouquet and the annuity using a mortality table based on the seller's age and sex. Negotiation mostly moves the split between bouquet and annuity. A simple example, with invented round numbers: a home worth 300,000 euros, a discount for occupation, a bouquet of about a third of the discounted price, and the rest paid as an annuity spread over the statistical life expectancy. If the seller lives exactly as long as the table says, you pay about the discounted price. If they live longer, you pay more than you planned; if less, you pay less. That variable is the whole bet."
+      },
+      {
+        heading: "The risk nobody can price",
+        body: "The best-known case is Jeanne Calment of Arles. A lawyer, André-François Raffray, bought her flat in 1965 when she was 90 on a viager, expecting a short wait. She lived to 122, he died first in 1995, and his widow kept paying until 1997; total payments came to more than the flat was worth. It is an extreme case but the lesson holds: you must be able to afford the annuity for 25 or 30 years, even when your own income changes, and you must not need the money back. A viager is a long, illiquid commitment, closer to a slow annuity than to a normal purchase."
+      },
+      {
+        heading: "Costs and legal points",
+        body: "As with any French sale, a notary drafts the deed and charges fees and registration duties on the price, and you owe property tax once you hold the title. In an occupied viager the seller usually keeps the right of use and habitation, so the buyer cannot move in, let, or sell on the basis of vacant possession, but can sell the right to receive the property later at a price that depends on the seller's age. Check who pays building works and annual charges; this is set in the deed and is a common dispute. The contract often includes a clause allowing the seller to recover the property if the annuity stops being paid. Have an independent notary and, ideally, a lawyer review the draft; the specialist agent who found the deal is paid by the transaction."
+      },
+      {
+        heading: "Who it suits and the ethical side",
+        body: "Buyers who do best are those with spare capital, no urgent need for the money, a long horizon and an interest in the property rather than a quick gain. It does not suit someone relying on a mortgage and tight cash flow. There is a human side: you are in a financial relationship with an elderly person who is living in the home. Treat it as a long-term, courteous arrangement; check the seller's situation with the notary, and be wary of deals where the seller seems pressured or poorly advised."
+      },
+      {
+        heading: "Before you sign",
+        body: "Ask for the mortality table and the calculation used; test what you would pay if the seller lives ten years longer than expected; confirm the indexation clause; check the building's condition and the co-ownership accounts; and read who is responsible for repairs and tax during the seller's lifetime. If you are not resident in France, also check how the annuity payments and the eventual property fit your own tax position. Limits: this guide gives no market statistics or discount percentages, which vary by deal and year; use a notary's calculation for the specific home."
+      }
+    ],
+    relatedCities: ["bordeaux","nice","montpellier","toulouse","nantes"],
+    tags: ["viager","life annuity","buying property France","bouquet","rente viagère","notary","property risk","retirement"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
