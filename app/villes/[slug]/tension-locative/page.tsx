@@ -4,7 +4,7 @@ import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { rentalTension, tensionInfo, tensionLevel } from "@/lib/rental-tension";
@@ -17,6 +17,11 @@ export const revalidate = false;
 export const dynamicParams = false;
 
 type Props = { params: Promise<{ slug: string }> };
+
+// Teinte de niveau lisible sur carte blanche (AA ≥ 4.5:1) — même famille que tensionInfo().color.
+function levelText(level: ReturnType<typeof tensionLevel>): string {
+  return level === "tendu" ? "text-red-700" : level === "modere" ? "text-amber-700" : "text-emerald-700";
+}
 
 export function generateStaticParams() {
   return CITIES_SEED.map((c) => ({ slug: c.slug }));
@@ -144,14 +149,15 @@ export default async function TensionLocativePage({ params }: Props) {
         ? "bg-amber-100/80 text-amber-700 border-amber-200"
         : "bg-emerald-100/80 text-emerald-700 border-emerald-200";
 
+  const levelTextClass = levelText(level);
+
   return (
-    <main id="main-content" className="min-h-screen relative">
-      <AmbientBackground />
+    <main id="main-content" className="min-h-screen">
       <Navbar />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
 
-      <section className="relative pt-20 pb-8">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/villes" className="hover:text-[var(--text-secondary)]">Villes</Link>
@@ -163,10 +169,13 @@ export default async function TensionLocativePage({ params }: Props) {
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
             🏠 Marché locatif · Trouver un logement
           </p>
-          <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.05]">
-            Tension locative à{" "}
-            <span className="font-display gradient-text-anim italic">{city.name}</span>
-          </h1>
+          <div className="flex items-center gap-3 mb-3">
+            <EmojiBadge emoji="🏠" tone="indigo" />
+            <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.05]">
+              Tension locative à{" "}
+              <span className="font-display gradient-text-anim italic">{city.name}</span>
+            </h1>
+          </div>
           <div className="flex items-center gap-3 flex-wrap mb-3">
             <span className={`inline-flex items-center px-3 py-1 rounded-full border text-sm font-semibold ${levelBadgeClass}`}>
               {tInfo.label}
@@ -179,23 +188,23 @@ export default async function TensionLocativePage({ params }: Props) {
         </div>
       </section>
 
-      {/* Stat strip */}
-      <section className="relative pb-8">
+      {/* Chiffres clés — bande indigo */}
+      <section className="band band-indigo py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
-              <div className="flex items-center gap-1.5 text-xs text-[var(--text-tertiary)] mb-1">
-                <TrendingUp className="h-3.5 w-3.5" />
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="flex items-center gap-2 text-xs font-semibold text-[#4338CA] mb-2">
+                <span aria-hidden className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg grad-head-0"><TrendingUp className="h-3.5 w-3.5" /></span>
                 Score de tension
               </div>
               <div className="text-3xl font-black font-mono-data text-[var(--text-primary)]">
                 {tension.toFixed(1)}<span className="text-base font-normal text-[var(--text-tertiary)]"> /10</span>
               </div>
-              <div className={`text-[11px] mt-1 font-semibold ${tInfo.color}`}>{tInfo.shortLabel}</div>
+              <div className={`text-[11px] mt-1 font-semibold ${levelTextClass}`}>{tInfo.shortLabel}</div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
-              <div className="flex items-center gap-1.5 text-xs text-[var(--text-tertiary)] mb-1">
-                <Clock className="h-3.5 w-3.5" />
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="flex items-center gap-2 text-xs font-semibold text-[#4338CA] mb-2">
+                <span aria-hidden className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg grad-head-1"><Clock className="h-3.5 w-3.5" /></span>
                 Délai estimé
               </div>
               <div className="text-3xl font-black font-mono-data text-[var(--text-primary)]">
@@ -203,9 +212,9 @@ export default async function TensionLocativePage({ params }: Props) {
               </div>
               <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">pour trouver T1/T2</div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
-              <div className="flex items-center gap-1.5 text-xs text-[var(--text-tertiary)] mb-1">
-                <Users className="h-3.5 w-3.5" />
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="flex items-center gap-2 text-xs font-semibold text-[#4338CA] mb-2">
+                <span aria-hidden className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg grad-head-2"><Users className="h-3.5 w-3.5" /></span>
                 Candidats / annonce
               </div>
               <div className="text-3xl font-black font-mono-data text-[var(--text-primary)]">
@@ -213,9 +222,9 @@ export default async function TensionLocativePage({ params }: Props) {
               </div>
               <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">estimation 2026</div>
             </div>
-            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
-              <div className="flex items-center gap-1.5 text-xs text-[var(--text-tertiary)] mb-1">
-                <Home className="h-3.5 w-3.5" />
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <div className="flex items-center gap-2 text-xs font-semibold text-[#4338CA] mb-2">
+                <span aria-hidden className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg grad-head-3"><Home className="h-3.5 w-3.5" /></span>
                 Revenu exigé
               </div>
               <div className="text-3xl font-black font-mono-data text-[var(--text-primary)]">
@@ -224,7 +233,7 @@ export default async function TensionLocativePage({ params }: Props) {
               <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">règle bailleur typique</div>
             </div>
           </div>
-          <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+          <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
             Estimations dérivées du score Clameur 2024 + observatoires locaux des loyers. Les délais varient selon le type de bien et le quartier.
           </p>
         </div>
@@ -232,29 +241,29 @@ export default async function TensionLocativePage({ params }: Props) {
 
       {/* Loyer référence si dispo */}
       {housing && (
-        <section className="relative pb-8">
+        <section className="band band-sky py-10">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
-            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Loyers de référence à {city.name}</h2>
+            <h2 className="text-xl font-bold mb-4 gradient-text">Loyers de référence à {city.name}</h2>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-              <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] p-4">
-                <div className="text-xs text-[var(--text-tertiary)] mb-1">Studio / T1</div>
+              <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+                <div className="text-xs font-semibold text-[#0E7490] mb-1">Studio / T1</div>
                 <div className="text-xl font-bold text-[var(--text-primary)]">{housing.avgRentT1} €<span className="text-sm font-normal text-[var(--text-tertiary)]">/mois</span></div>
               </div>
-              <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] p-4">
-                <div className="text-xs text-[var(--text-tertiary)] mb-1">T2 (référence)</div>
+              <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+                <div className="text-xs font-semibold text-[#0E7490] mb-1">T2 (référence)</div>
                 <div className="text-xl font-bold text-[var(--text-primary)]">{housing.avgRentT2} €<span className="text-sm font-normal text-[var(--text-tertiary)]">/mois</span></div>
                 <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">Revenu min. {Math.round(housing.avgRentT2 * revenuMultiple)} €</div>
               </div>
-              <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] p-4">
-                <div className="text-xs text-[var(--text-tertiary)] mb-1">T3</div>
+              <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+                <div className="text-xs font-semibold text-[#0E7490] mb-1">T3</div>
                 <div className="text-xl font-bold text-[var(--text-primary)]">{housing.avgRentT3} €<span className="text-sm font-normal text-[var(--text-tertiary)]">/mois</span></div>
               </div>
-              <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] p-4">
-                <div className="text-xs text-[var(--text-tertiary)] mb-1">Prix achat / m²</div>
+              <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
+                <div className="text-xs font-semibold text-[#0E7490] mb-1">Prix achat / m²</div>
                 <div className="text-xl font-bold text-[var(--text-primary)]">{housing.avgBuyPriceM2.toLocaleString("fr-FR")} €<span className="text-sm font-normal text-[var(--text-tertiary)]">/m²</span></div>
               </div>
             </div>
-            <p className="text-xs text-[var(--text-tertiary)] mt-2">
+            <p className="text-xs text-[var(--text-tertiary)] mt-3">
               Source : observatoires locaux des loyers / Clameur 2024. Moyennes toutes zones confondues — les écarts centre / périphérie peuvent atteindre ±30 %.
             </p>
           </div>
@@ -262,29 +271,30 @@ export default async function TensionLocativePage({ params }: Props) {
       )}
 
       {/* Conseils */}
-      <section className="relative pb-8">
+      <section className="band band-pink py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Réussir sa recherche à {city.name}</h2>
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] divide-y divide-[var(--border)]">
+          <h2 className="text-xl font-bold mb-4 gradient-text">Réussir sa recherche à {city.name}</h2>
+          <div className="rounded-2xl bg-white divide-y divide-[#FCE7F3] shadow-[0_10px_28px_-18px_rgba(219,39,119,0.5)]">
             {TIPS[level].map((tip, i) => (
               <div key={i} className="flex items-start gap-3 px-5 py-3.5">
-                <span className="text-[var(--accent)] font-bold text-sm mt-0.5 shrink-0">{i + 1}</span>
+                <span aria-hidden className={`inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold grad-head-${i % 6}`}>{i + 1}</span>
                 <p className="text-sm text-[var(--text-secondary)] leading-snug">{tip}</p>
               </div>
             ))}
           </div>
 
-          <div className="mt-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] px-5 py-4">
-            <div className="text-sm font-semibold text-[var(--text-primary)] mb-1">📅 Meilleure période de recherche</div>
+          <div className="mt-4 rounded-2xl bg-white px-5 py-4 ring-1 ring-[#FBCFE8] shadow-[0_10px_28px_-18px_rgba(219,39,119,0.5)]">
+            <div className="text-sm font-semibold text-[#9D174D] mb-1">📅 Meilleure période de recherche</div>
             <p className="text-sm text-[var(--text-secondary)]">{BEST_MONTHS[level]}</p>
           </div>
         </div>
       </section>
 
       {/* Villes comparables par tension */}
-      <section className="relative pb-12">
+      {/* Villes comparables + renvois — bande lilas */}
+      <section className="band band-lilac py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Villes au profil locatif comparable</h2>
+          <h2 className="text-xl font-bold mb-4 gradient-text">Villes au profil locatif comparable</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {similar.map((c) => {
               const ct = rentalTension(c);
@@ -293,67 +303,67 @@ export default async function TensionLocativePage({ params }: Props) {
                 <Link
                   key={c.slug}
                   href={`/villes/${c.slug}/tension-locative`}
-                  className="group rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
+                  className="group rounded-xl bg-white shadow-[0_10px_28px_-18px_rgba(124,58,237,0.5)] ring-1 ring-transparent hover:ring-[#C4B5FD] transition-all px-4 py-3"
                 >
                   <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                     {c.name}
                   </div>
                   <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5">
-                    Score {ct.toFixed(1)} · <span className={ci.color}>{ci.shortLabel}</span>
+                    Score {ct.toFixed(1)} · <span className={levelText(tensionLevel(ct))}>{ci.shortLabel}</span>
                   </div>
                 </Link>
               );
             })}
           </div>
-        </div>
-      </section>
 
-      {/* Footer nav */}
-      <section className="relative pb-16">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 flex gap-3 flex-wrap">
+          <div className="mt-8 flex flex-wrap gap-3">
           <Link
             href="/tension-locative"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-gradient-to-r from-[#4F46E5] to-[#DB2777] px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
           >
             📊 Palmarès national tension locative
           </Link>
           {level === "tendu" && (
             <Link
               href="/red-flags/villes-logement-introuvable"
-              className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+              className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
             >
               🔑 Villes où le logement est introuvable
             </Link>
           )}
           <Link
             href="/pour-qui/investisseurs-locatifs"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
           >
             🏘️ Villes pour investisseurs locatifs
           </Link>
           <Link
             href={`/villes/${slug}/logement`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
           >
             🏠 Loyers complets & achat
           </Link>
           <Link
             href={`/villes/${slug}`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
           >
             ← Profil complet de {city.name}
           </Link>
           <Link
             href="/villes"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
           >
             Toutes les villes
           </Link>
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+      {/* Discussion — bande blanche */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        </div>
       </section>
 
       <Footer />

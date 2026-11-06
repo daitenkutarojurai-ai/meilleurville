@@ -1351,3 +1351,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Sous-page ville `/villes/[slug]/tension-locative` (+ EN), indexée, encore sans bandes.
 2. Sous-page ville `/villes/[slug]/parcs` puis `/sport` (indexées).
 3. Page agenda (hub).
+
+## 2026-11-06 ~03:00 UTC — sous-page ville `/villes/[slug]/tension-locative` (FR) + EN `/cities/[slug]/rental-market`
+
+**Surface** : gabarit tension locative × 593 villes × 2 locales. Avant : `AmbientBackground` + hero blanc, cartes `glass` et cartes grises sur fond de page, conseils en liste grise, renvois en boutons à filet, couleur de niveau `text-amber-400` illisible sur blanc.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🏠 indigo (titre `gradient-text-anim` et pastille de niveau conservés) ; 4 chiffres clés en `band-indigo` (cartes blanches à ombre indigo, icônes en tuiles `grad-head-0…3`) ; loyers de référence en `band-sky` (libellés `#0E7490`) ; conseils en `band-pink` (numéros en pastilles dégradées, carte « meilleure période » à liseré rose) ; villes comparables + renvois fusionnés en `band-lilac` (pilule dégradée indigo → rose + pilules blanches) ; discussion (FR) / feedback (EN) en `band-white`. h2 en `.gradient-text`. Couleur de niveau affichée via `levelText()` (red/amber/emerald-700, AA) — même famille, logique de niveau inchangée. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/villes/lyon/tension-locative` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-page ville `/villes/[slug]/parcs` (+ EN), indexée.
+2. Sous-page ville `/villes/[slug]/sport` (+ EN).
+3. Page agenda (hub).
