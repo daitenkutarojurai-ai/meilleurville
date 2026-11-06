@@ -37,6 +37,21 @@ const EN_OWNER_LABELS: Record<OwnerScoreKey, string> = {
   score_famille: "Families",
 };
 
+// La fiche ville affiche aussi la note air **mesurée** (AirQualityCard, station
+// de fond ≤ 10 km, lib/air-quality.ts). Ce score-ci reste le proxy PM2.5
+// départemental : sans précision, deux « Qualité de l'air » se contredisent
+// sur la même page (Nice 6,5 ici, 3,3 sur la carte air — run intégrité du
+// 2026-11-06, 132 villes à ≥ 2 points). L'étiquette dit donc l'échelle.
+function displayLabel(score: OwnerScore, locale: Locale): string {
+  const base = locale === "en" ? EN_OWNER_LABELS[score.key] : score.label;
+  if (score.key !== "score_qualite_air") return base;
+  const scope =
+    score.kind === "estimation-regionale"
+      ? locale === "en" ? "national average" : "moyenne nationale"
+      : locale === "en" ? "department average" : "moyenne du département";
+  return `${base} (${scope})`;
+}
+
 // English equivalents of the source/provenance strings. Several FR strings
 // interpolate a numeric value (department %, µg/m³). To keep them in sync
 // without editing the lib, we detect the interpolated number from the FR
@@ -85,7 +100,7 @@ function ScoreRow({ score, locale }: { score: OwnerScore; locale: Locale }) {
   const [open, setOpen] = useState(false);
   const colorClass = ownerScoreColor(score.value);
   const kindBadge = sourceKindBadge(score.kind);
-  const label = locale === "en" ? EN_OWNER_LABELS[score.key] : score.label;
+  const label = displayLabel(score, locale);
   const kindLabel = locale === "en" ? EN_KIND_LABELS[score.kind] : kindBadge.label;
   const sourceText = locale === "en" ? enSource(score) : score.source;
   return (

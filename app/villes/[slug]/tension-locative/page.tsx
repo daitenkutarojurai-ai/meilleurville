@@ -180,7 +180,7 @@ export default async function TensionLocativePage({ params }: Props) {
             <span className={`inline-flex items-center px-3 py-1 rounded-full border text-sm font-semibold ${levelBadgeClass}`}>
               {tInfo.label}
             </span>
-            <span className="text-[var(--text-tertiary)] text-sm">Score {tension.toFixed(1)}/10 · #{rank} le plus tendu sur {CITIES_SEED.length} villes</span>
+            <span className="text-[var(--text-tertiary)] text-sm">Score {tension.toFixed(1)}/10 (10 = marché le plus tendu) · #{rank} le plus tendu sur {CITIES_SEED.length} villes</span>
           </div>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl leading-relaxed">
             {TENSION_NARRATIVE[level](city.name, delaiSemaines, candidatsDossiers)}

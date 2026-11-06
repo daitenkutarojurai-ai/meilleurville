@@ -177,7 +177,7 @@ export default async function EnRentalMarketPage({ params }: Props) {
               {levelLabelEn}
             </span>
             <span className="text-[var(--text-tertiary)] text-sm">
-              Score {tension.toFixed(1)}/10 · #{rank} tightest of {CITIES_SEED.length} cities
+              Score {tension.toFixed(1)}/10 (10 = tightest market) · #{rank} tightest of {CITIES_SEED.length} cities
             </span>
           </div>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl leading-relaxed">
