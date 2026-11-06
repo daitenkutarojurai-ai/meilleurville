@@ -46,9 +46,19 @@ export const POLITICAL_NEWS_KIND_LABEL: Record<PoliticalNewsKind, string> = {
   parlement: "Parlement",
 };
 
-export const POLITICAL_NEWS_AS_OF = "2026-10-21";
+export const POLITICAL_NEWS_AS_OF = "2026-11-06";
 
 export const POLITICAL_NEWS: PoliticalNews[] = [
+  {
+    id: "ifop-lci-fin-octobre-2026-10-29",
+    date: "2026-10-29",
+    kind: "sondage",
+    title: "Ifop pour LCI : Marine Le Pen entre 35 et 37 % selon les hypothèses",
+    summary:
+      "Enquête réalisée du 27 au 29 octobre : dans toutes les configurations de premier tour testées, Marine Le Pen recueille entre 35 % et 37 % des intentions de vote, en tête de chaque hypothèse.",
+    source: "Prudencia",
+    sourceUrl: "https://www.prudencia.media/articles/sondage_ifop__le_pen_et_melenchon_en_tete_80bba6ee",
+  },
   {
     id: "opinionway-glucksmann-progresse-2026-10",
     date: "2026-10-14",
