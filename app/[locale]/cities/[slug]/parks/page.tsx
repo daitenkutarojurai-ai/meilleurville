@@ -7,6 +7,7 @@ import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";
 import { cityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -130,7 +131,8 @@ export default async function ParksPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(itemListJsonLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
+      <section className="relative overflow-hidden bg-aurora pt-16 pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -141,9 +143,10 @@ export default async function ParksPage({ params }: Props) {
           <span>Parks</span>
         </nav>
         <div className="flex items-center gap-3 mb-3">
-          <span className="text-5xl" aria-hidden>🌳</span>
+          <EmojiBadge emoji="🌳" tone="aqua" />
           <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight">
-            Parks in {city.name}
+            Parks in{" "}
+            <span className="font-display gradient-text-anim italic">{city.name}</span>
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
@@ -157,31 +160,34 @@ export default async function ParksPage({ params }: Props) {
         {photo && (
           <CityPhotoBand photo={photo} cityName={city.name} locale="en" className="mt-6" />
         )}
+        </div>
       </section>
 
       {parks.length > 0 && (
         <>
-          <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
-              <p className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">Parks mapped</p>
+          {/* Key figures — indigo band */}
+          <section className="band band-indigo py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <p className="text-xs uppercase tracking-wide font-semibold text-[#4338CA]">Parks mapped</p>
               <p className="font-mono-data text-2xl font-bold text-[var(--text-primary)]">{parks.length}</p>
             </div>
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
-              <p className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">With playground</p>
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <p className="text-xs uppercase tracking-wide font-semibold text-[#4338CA]">With playground</p>
               <p className="font-mono-data text-2xl font-bold text-[var(--text-primary)]">{withPlayground}</p>
               <p className="text-[11px] text-[var(--text-tertiary)] mt-1">
                 {parks.length ? `${Math.round((withPlayground / parks.length) * 100)}% of parks` : "—"}
               </p>
             </div>
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
-              <p className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">Total area</p>
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <p className="text-xs uppercase tracking-wide font-semibold text-[#4338CA]">Total area</p>
               <p className="font-mono-data text-2xl font-bold text-[var(--text-primary)]">
                 {totalHa >= 100 ? Math.round(totalHa) : totalHa.toFixed(1)}
                 <span className="text-sm font-normal text-[var(--text-tertiary)] ml-1">ha</span>
               </p>
             </div>
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
-              <p className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">Largest</p>
+            <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+              <p className="text-xs uppercase tracking-wide font-semibold text-[#4338CA]">Largest</p>
               <p className="text-base font-bold text-[var(--text-primary)] leading-tight truncate">
                 {biggest?.name ?? "—"}
               </p>
@@ -189,10 +195,13 @@ export default async function ParksPage({ params }: Props) {
                 {biggest ? areaLabel(biggest) : ""}
               </p>
             </div>
+          </div>
           </section>
 
-          <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
+          {/* Park list — sky band */}
+          <section className="band band-sky py-10">
+            <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            <h2 className="text-xl font-bold mb-4 gradient-text">
               All {parks.length} parks, largest first
             </h2>
             <ol className="space-y-2.5">
@@ -203,11 +212,11 @@ export default async function ParksPage({ params }: Props) {
                 return (
                   <li
                     key={p.osmId}
-                    className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 flex items-start gap-4"
+                    className="rounded-2xl bg-white p-4 flex items-start gap-4 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]"
                   >
-                    <div className="text-xs font-mono-data text-[var(--text-tertiary)] pt-1 w-6 shrink-0">
-                      #{i + 1}
-                    </div>
+                    <span className={`inline-flex h-7 min-w-7 shrink-0 items-center justify-center rounded-full px-1.5 text-[11px] font-bold font-mono-data grad-head-${i % 6}`}>
+                      {i + 1}
+                    </span>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-baseline gap-2 flex-wrap">
                         <h3 className="text-base font-semibold text-[var(--text-primary)]">
@@ -217,7 +226,7 @@ export default async function ParksPage({ params }: Props) {
                           {kindLabel(p.kind, "en")}
                         </span>
                         {p.playground && (
-                          <span className="text-[11px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200">
+                          <span className="text-[11px] px-2 py-0.5 rounded-full bg-[#ECFEFF] text-[#0E7490] ring-1 ring-[#A5F3FC]">
                             🛝 playground
                           </span>
                         )}
@@ -264,13 +273,15 @@ export default async function ParksPage({ params }: Props) {
                 );
               })}
             </ol>
+            </div>
           </section>
         </>
       )}
 
       {nearby.length > 0 && (
-        <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
+        <section className="band band-pink py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <h2 className="text-xl font-bold mb-1 gradient-text">
             Change of scenery — parks less than 30 min away
           </h2>
           <p className="text-sm text-[var(--text-secondary)] mb-4">
@@ -283,13 +294,13 @@ export default async function ParksPage({ params }: Props) {
                 <Link
                   key={n.city.slug}
                   href={`/cities/${n.city.slug}/parks`}
-                  className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all p-4"
+                  className="group rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.5)] ring-1 ring-transparent transition-all hover:ring-[#F9A8D4]"
                 >
                   <div className="flex items-baseline justify-between gap-2">
-                    <div className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                    <div className="font-semibold text-[var(--text-primary)] group-hover:text-[#BE185D] transition-colors">
                       {n.city.name}
                     </div>
-                    <div className="text-xs font-mono-data text-[var(--text-tertiary)] shrink-0">
+                    <div className="text-xs font-semibold font-mono-data text-[#9D174D] shrink-0">
                       {n.distanceKm} km
                     </div>
                   </div>
@@ -301,41 +312,48 @@ export default async function ParksPage({ params }: Props) {
               );
             })}
           </div>
+          </div>
         </section>
       )}
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 text-xs text-[var(--text-tertiary)] leading-relaxed">
+      {/* Source and onward links — lilac band */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-4">
+        <div className="rounded-2xl bg-white/80 ring-1 ring-[#E9D5FF] p-4 text-xs text-[var(--text-tertiary)] leading-relaxed">
           <strong className="text-[var(--text-secondary)]">Source:</strong> {OSM_CREDIT_EN},
           licensed under the <a href={OSM_LICENSE_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">ODbL</a>.
           Overpass API extraction from {data.crawledAt}. All {PARKS_CITY_COUNT} cities on the site have been surveyed on OpenStreetMap.
           A park is missing or wrong? <a href="https://www.openstreetmap.org/edit" target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">Contribute on OpenStreetMap</a> — the fix will flow into our next data refresh.
         </div>
-      </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-16 flex gap-3 flex-wrap">
+        <div className="flex gap-3 flex-wrap pt-2">
         <Link
           href={`/cities/${slug}`}
-          className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+          className="rounded-full bg-gradient-to-r from-[#4F46E5] to-[#DB2777] px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
         >
           ← Full {city.name} profile
         </Link>
         <Link
           href={`/cities/${slug}/neighbourhoods`}
-          className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+          className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
         >
           🏘️ Neighbourhoods
         </Link>
         <Link
           href={`/cities/${slug}/climate`}
-          className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+          className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
         >
           ☀️ Climate
         </Link>
+        </div>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} locale="en" />
+      {/* Discussion — white band */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} locale="en" />
+        </div>
       </section>
 
       <Footer />

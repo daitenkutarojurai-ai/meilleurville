@@ -1364,3 +1364,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Sous-page ville `/villes/[slug]/parcs` (+ EN), indexée.
 2. Sous-page ville `/villes/[slug]/sport` (+ EN).
 3. Page agenda (hub).
+
+## 2026-11-06 ~11:00 UTC — sous-page ville `/villes/[slug]/parcs` (FR) + EN `/cities/[slug]/parks`
+
+**Surface** : gabarit parcs × 593 villes × 2 locales (indexée). Avant : `AmbientBackground` + hero blanc (EN : emoji nu), cartes `glass`/grises sur fond de page, rang en `#N` gris, pastille « aire de jeux » en vert émeraude (couleur réservée aux paliers), renvois en boutons à filet.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🌳 aqua (EN : nom de ville en `gradient-text-anim` comme le FR), photo Commons conservée ; 4 chiffres clés en `band-indigo` (cartes blanches à ombre indigo, libellés `#4338CA`) ; liste des parcs en `band-sky` (cartes blanches à ombre cyan, rang en pastille `grad-head-${i % 6}`, pastille aire de jeux cyan `#0E7490`) ; « Changer d'air » en `band-pink` (cartes blanches, distance `#9D174D`) ; paragraphe plein air (FR) + source ODbL + renvois fusionnés en `band-lilac` (pilule dégradée indigo → rose + pilules blanches) ; discussion en `band-white`. h2 en `.gradient-text`. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/villes/lyon/parcs` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-page ville `/villes/[slug]/sport` (+ EN `sports-leisure`).
+2. Hub `/parcs` (index national des parcs, renvoyé par cette page).
+3. Page agenda (hub).

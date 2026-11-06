@@ -8,7 +8,7 @@ import { CityPhotoBand } from "@/components/CityPhoto";
 import { cityPhoto } from "@/lib/city-images";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta, fitTitle } from "@/lib/brand";
@@ -129,13 +129,12 @@ export default async function ParcsPage({ params }: Props) {
   ]);
 
   return (
-    <main id="main-content" className="min-h-screen relative">
-      <AmbientBackground />
+    <main id="main-content" className="min-h-screen">
       <Navbar />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(itemListJsonLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
 
-      <section className="relative pt-20 pb-8">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/villes" className="hover:text-[var(--text-secondary)]">Villes</Link>
@@ -147,10 +146,13 @@ export default async function ParcsPage({ params }: Props) {
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
             🌳 Parcs & espaces verts
           </p>
-          <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.05]">
-            Parcs de{" "}
-            <span className="font-display gradient-text-anim italic">{city.name}</span>
-          </h1>
+          <div className="flex items-center gap-3 mb-3">
+            <EmojiBadge emoji="🌳" tone="aqua" />
+            <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.05]">
+              Parcs de{" "}
+              <span className="font-display gradient-text-anim italic">{city.name}</span>
+            </h1>
+          </div>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl leading-relaxed">
             {parks.length === 0 ? (
               <>Aucun parc nommé n&apos;est référencé sur OpenStreetMap pour cette commune — vous en connaissez un&nbsp;? <a href="https://www.openstreetmap.org/edit" className="text-[var(--accent)] hover:underline">Ajoutez-le sur OSM</a>, il apparaîtra ici à la prochaine mise à jour.</>
@@ -167,17 +169,18 @@ export default async function ParcsPage({ params }: Props) {
 
       {parks.length > 0 && (
         <>
-          <section className="relative pb-8">
+          {/* Chiffres clés — bande indigo */}
+          <section className="band band-indigo py-10">
             <div className="mx-auto max-w-5xl px-4 sm:px-6">
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
-                  <div className="text-xs text-[var(--text-tertiary)] mb-1">🌳 Parcs référencés</div>
+                <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                  <div className="text-xs font-semibold text-[#4338CA] mb-1">🌳 Parcs référencés</div>
                   <div className="text-2xl font-black font-mono-data text-[var(--text-primary)]">
                     {parks.length}
                   </div>
                 </div>
-                <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
-                  <div className="text-xs text-[var(--text-tertiary)] mb-1">🛝 Aires de jeux</div>
+                <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                  <div className="text-xs font-semibold text-[#4338CA] mb-1">🛝 Aires de jeux</div>
                   <div className="text-2xl font-black font-mono-data text-[var(--text-primary)]">
                     {withPlayground}
                   </div>
@@ -185,15 +188,15 @@ export default async function ParcsPage({ params }: Props) {
                     {parks.length ? `${Math.round((withPlayground / parks.length) * 100)}% des parcs` : "—"}
                   </div>
                 </div>
-                <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
-                  <div className="text-xs text-[var(--text-tertiary)] mb-1">📐 Surface totale</div>
+                <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                  <div className="text-xs font-semibold text-[#4338CA] mb-1">📐 Surface totale</div>
                   <div className="text-2xl font-black font-mono-data text-[var(--text-primary)]">
                     {totalHa >= 100 ? Math.round(totalHa) : totalHa.toFixed(1)}
                     <span className="text-sm font-normal text-[var(--text-tertiary)] ml-1">ha</span>
                   </div>
                 </div>
-                <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
-                  <div className="text-xs text-[var(--text-tertiary)] mb-1">🏆 Le plus grand</div>
+                <div className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                  <div className="text-xs font-semibold text-[#4338CA] mb-1">🏆 Le plus grand</div>
                   <div className="text-base font-bold text-[var(--text-primary)] leading-tight truncate">
                     {biggest?.name ?? "—"}
                   </div>
@@ -205,9 +208,10 @@ export default async function ParcsPage({ params }: Props) {
             </div>
           </section>
 
-          <section className="relative pb-8">
+          {/* Liste des parcs — bande ciel */}
+          <section className="band band-sky py-10">
             <div className="mx-auto max-w-5xl px-4 sm:px-6">
-              <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
+              <h2 className="text-xl font-bold mb-4 gradient-text">
                 Les {parks.length} parcs, du plus grand au plus petit
               </h2>
               <ol className="space-y-2.5">
@@ -218,11 +222,11 @@ export default async function ParcsPage({ params }: Props) {
                   return (
                     <li
                       key={p.osmId}
-                      className="rounded-2xl glass border border-white/50 shadow-sm p-4 flex items-start gap-4"
+                      className="rounded-2xl bg-white p-4 flex items-start gap-4 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]"
                     >
-                      <div className="text-xs font-mono-data text-[var(--text-tertiary)] pt-1 w-6 shrink-0">
-                        #{i + 1}
-                      </div>
+                      <span className={`inline-flex h-7 min-w-7 shrink-0 items-center justify-center rounded-full px-1.5 text-[11px] font-bold font-mono-data grad-head-${i % 6}`}>
+                        {i + 1}
+                      </span>
                       <div className="min-w-0 flex-1">
                         <div className="flex items-baseline gap-2 flex-wrap">
                           <h3 className="text-base font-semibold text-[var(--text-primary)]">
@@ -232,7 +236,7 @@ export default async function ParcsPage({ params }: Props) {
                             {kindLabel(p.kind)}
                           </span>
                           {p.playground && (
-                            <span className="text-[11px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200">
+                            <span className="text-[11px] px-2 py-0.5 rounded-full bg-[#ECFEFF] text-[#0E7490] ring-1 ring-[#A5F3FC]">
                               🛝 aire de jeux
                             </span>
                           )}
@@ -289,9 +293,9 @@ export default async function ParcsPage({ params }: Props) {
           Seules les villes voisines déjà crawlées apparaissent (les autres
           arriveront batch après batch). */}
       {nearby.length > 0 && (
-        <section className="relative pb-8">
+        <section className="band band-pink py-10">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
-            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
+            <h2 className="text-xl font-bold mb-1 gradient-text">
               Changer d&apos;air — parcs à moins de 30 min
             </h2>
             <p className="text-sm text-[var(--text-secondary)] mb-4">
@@ -304,13 +308,13 @@ export default async function ParcsPage({ params }: Props) {
                   <Link
                     key={n.city.slug}
                     href={`/villes/${n.city.slug}/parcs`}
-                    className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all p-4"
+                    className="group rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.5)] ring-1 ring-transparent transition-all hover:ring-[#F9A8D4]"
                   >
                     <div className="flex items-baseline justify-between gap-2">
-                      <div className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      <div className="font-semibold text-[var(--text-primary)] group-hover:text-[#BE185D] transition-colors">
                         {n.city.name}
                       </div>
-                      <div className="text-xs font-mono-data text-[var(--text-tertiary)] shrink-0">
+                      <div className="text-xs font-semibold font-mono-data text-[#9D174D] shrink-0">
                         {n.distanceKm} km
                       </div>
                     </div>
@@ -330,9 +334,10 @@ export default async function ParcsPage({ params }: Props) {
           s'installer pour que la question ne se pose plus. Les deux mesures sont
           indépendantes (OSM d'un côté, axe nature du seed de l'autre), donc ce
           n'est pas un doublon. Rendu sur les 540 villes, comme cette route. */}
-      <section className="relative pb-8">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+      {/* Pour aller plus loin, source et renvois — bande lilas */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-4">
+          <p className="rounded-2xl bg-white p-5 text-sm text-[var(--text-secondary)] leading-relaxed shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)]">
             Ce repère dit où sortir depuis {city.name}. La question d&apos;avant, celle
             du déménagement, se traite ailleurs : les{" "}
             <Link
@@ -349,54 +354,51 @@ export default async function ParcsPage({ params }: Props) {
             la température moyenne de juillet, pas d&apos;un décompte de jours de
             canicule.
           </p>
-        </div>
-      </section>
 
-      {/* ODbL — attribution is a licence condition, not decoration. */}
-      <section className="relative pb-8">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 text-xs text-[var(--text-tertiary)] leading-relaxed">
+          {/* ODbL — attribution is a licence condition, not decoration. */}
+          <div className="rounded-2xl bg-white/80 ring-1 ring-[#E9D5FF] p-4 text-xs text-[var(--text-tertiary)] leading-relaxed">
             <strong className="text-[var(--text-secondary)]">Source :</strong> {OSM_CREDIT},
             sous licence <a href={OSM_LICENSE_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">ODbL</a>.
             Extraction Overpass API du {data.crawledAt}. Les {PARKS_CITY_COUNT} villes du site ont été relevées sur OpenStreetMap.
             Un parc manque ou est mal renseigné ? <a href="https://www.openstreetmap.org/edit" target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">Contribuez sur OpenStreetMap</a>,
             la correction remontera à la prochaine mise à jour de nos données.
           </div>
-        </div>
-      </section>
 
-      {/* Footer nav */}
-      <section className="relative pb-16">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 flex gap-3 flex-wrap">
+          {/* Footer nav */}
+          <div className="flex gap-3 flex-wrap pt-2">
           <Link
             href={`/villes/${slug}`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-gradient-to-r from-[#4F46E5] to-[#DB2777] px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
           >
             ← Profil complet de {city.name}
           </Link>
           <Link
             href={`/villes/${slug}/quartiers`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
           >
             🏘️ Quartiers de {city.name}
           </Link>
           <Link
             href={`/villes/${slug}/climat`}
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
           >
             ☀️ Climat de {city.name}
           </Link>
           <Link
             href="/parcs"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#3730A3] shadow-sm ring-1 ring-[#DDD0FF] transition-colors hover:bg-[var(--band-indigo)]"
           >
             🌳 Tous les parcs, ville par ville
           </Link>
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+      {/* Discussion — bande blanche */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        </div>
       </section>
 
       <Footer />
